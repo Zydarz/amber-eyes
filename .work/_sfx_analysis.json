@@ -1,0 +1,4949 @@
+{
+ "eps": {
+  "3": [
+   {
+    "cue": "1.02",
+    "desc": "Thả đồng xu vào khe bốt điện thoại + quay số",
+    "status": "SAN",
+    "files": [
+     "t3/fx_coin_shuffle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "Băng ghi âm bật nhẹ 'Tách'",
+    "status": "SAN",
+    "files": [
+     "t3/fx_cassette_button.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.12",
+    "desc": "Cửa sắt trại giam kéo lê rồi đóng sập",
+    "status": "SAN",
+    "files": [
+     "t2/fx_door_metal_slam.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Lật ảnh hồ sơ nạn nhân trên bàn",
+    "status": "SAN",
+    "files": [
+     "card_flip.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.06",
+    "desc": "Lật trang ghi chép nhanh lách cách",
+    "status": "SAN",
+    "files": [
+     "t3/fx_paper_crunch.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "5.11",
+    "desc": "Đóng tập hồ sơ giấy + tắt máy ghi âm cassette",
+    "status": "SAN",
+    "files": [
+     "folder_close.wav",
+     "t3/fx_cassette_button.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Gió rít lùa qua khe cửa sắt lạnh giữa đêm vắng",
+    "status": "SAN",
+    "files": [
+     "t2/amb_winter_wind.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Rè kim loại cổ điển của đường dây điện thoại đường dài 1970",
+    "status": "MOI",
+    "files": [
+     "fx_phone_line_hiss_1970.wav"
+    ],
+    "note": "tuỳ chọn — bảng chuẩn sfx_tap03.json đã bỏ qua, dùng amb_winter_wind cho cả Hồi 1"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Mưa rơi rả rích trên mui xe hơi",
+    "status": "SAN",
+    "files": [
+     "t3/amb_rain_storm.wav"
+    ],
+    "note": "nền Hồi 2"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng cần gạt nước kính chắn gió kêu kẽo kẹt",
+    "status": "SAN",
+    "files": [
+     "—"
+    ],
+    "note": "KHÔNG CÓ track 'wiper' trong thư viện — bảng chuẩn sfx_tap03.json đã bỏ qua"
+   },
+   {
+    "cue": "NGHI 1.11",
+    "desc": "Chỉ còn tiếng bước chân vang vọng trong hành lang nhà tù",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": "đoạn nghỉ Hồi 1"
+   }
+  ],
+  "4": [
+   {
+    "cue": "1.02",
+    "desc": "Còi xe cứu thương xa + bánh đẩy cáng lăn trên sàn gạch",
+    "status": "MOI",
+    "files": [
+     "fx_ambulance_siren_distant.wav",
+     "fx_stretcher_wheels.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.06",
+    "desc": "Băng ghi âm bật nhẹ 'Tách'",
+    "status": "SAN",
+    "files": [
+     "t3/fx_cassette_button.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.09",
+    "desc": "Máy khử rung tim nạp điện + tiếng sốc điện",
+    "status": "MOI",
+    "files": [
+     "fx_defib_charge_shock.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.13",
+    "desc": "Mở tập hồ sơ vụ án + lật giấy tờ dồn dập",
+    "status": "SAN",
+    "files": [
+     "t2/fx_paper_folder.wav",
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "Quẹt thẻ 'Tít' + ngăn kéo tủ thuốc bật mở",
+    "status": "MOI",
+    "files": [
+     "fx_card_swipe.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.09",
+    "desc": "Đóng dấu mộc lên giấy tờ 'Cộp... Cộp'",
+    "status": "MOI",
+    "files": [
+     "fx_stamp_wood.wav"
+    ],
+    "note": "dùng chung T26"
+   },
+   {
+    "cue": "3.03",
+    "desc": "Lật các trang bệnh án tâm thần",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "Bước chân vội vã hành lang + mở cửa phòng trà bệnh viện",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Mở cửa phòng trà bệnh viện 'Cạch'",
+    "status": "MOI",
+    "files": [
+     "fx_hospital_door_open.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "Băng ghi âm bật nhẹ 'Tách'",
+    "status": "SAN",
+    "files": [
+     "t3/fx_cassette_button.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.07",
+    "desc": "Đĩa thìa va chạm + ồn ào nhỏ quán ăn nhanh",
+    "status": "MOI",
+    "files": [
+     "fx_spoon_clink.wav",
+     "amb_fastfood_cafeteria.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.10",
+    "desc": "Cửa sắt phòng hỏi cung kéo lê rồi sập lại",
+    "status": "SAN",
+    "files": [
+     "t2/fx_door_metal_slam.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "5.11",
+    "desc": "Đóng nắp máy đo điện tim 'Tách'",
+    "status": "MOI",
+    "files": [
+     "fx_monitor_case_close.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "5.11",
+    "desc": "(phần) Gấp tập hồ sơ giấy 'Bụp'",
+    "status": "SAN",
+    "files": [
+     "folder_close.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "BG H1",
+    "desc": "Máy thở cơ học rít + tiếng bíp theo dõi sinh hiệu",
+    "status": "MOI",
+    "files": [
+     "amb_hospital_ventilator.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Máy thở cơ học rít nhẹ đều đặn + tiếng bíp theo dõi sinh hiệu",
+    "status": "MOI",
+    "files": [
+     "amb_hospital_ventilator.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "NGHI 1.11",
+    "desc": "Chỉ còn tiếng giọt nước nhỏ chậm rãi",
+    "status": "SAN",
+    "files": [
+     "t3/amb_pipe_drain.wav"
+    ],
+    "note": "đoạn nghỉ Hồi 1"
+   },
+   {
+    "cue": "NGHI 4.09",
+    "desc": "Chuyển sang tiếng bước chân nặng nề trong phòng giam",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": "đoạn nghỉ Hồi 4"
+   }
+  ],
+  "5": [
+   {
+    "cue": "1.02",
+    "desc": "Xé phong bì thư giấy 'Soạt' + lật giấy tài liệu gấp nếp",
+    "status": "MOI",
+    "files": [
+     "fx_envelope_tear.wav"
+    ],
+    "note": "dùng chung T23"
+   },
+   {
+    "cue": "1.08",
+    "desc": "Băng ghi âm bật nhẹ 'Tách'",
+    "status": "SAN",
+    "files": [
+     "t3/fx_cassette_button.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.13",
+    "desc": "Mở ngăn kéo kim loại hồ sơ + đặt tập tài liệu lên bàn",
+    "status": "SAN",
+    "files": [
+     "t2/fx_drawer_open.wav",
+     "stamp_thud.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Lật ảnh chụp hiện trường trên bàn gỗ",
+    "status": "SAN",
+    "files": [
+     "card_flip.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "Lật giở trang báo giấy sột soạt",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "Nạp đĩa mềm vào ổ đĩa 'Cạch... Rè... Rè'",
+    "status": "MOI",
+    "files": [
+     "fx_floppy_disk_insert.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.09",
+    "desc": "Còi xe cảnh sát xa + phanh xe dồn dập",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.09",
+    "desc": "(phần) Phanh xe trên đường nhựa",
+    "status": "MOI",
+    "files": [
+     "fx_car_brake_screech.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.11",
+    "desc": "Cửa sắt phòng thẩm vấn đóng sầm",
+    "status": "SAN",
+    "files": [
+     "t2/fx_door_metal_slam.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.13",
+    "desc": "Thở dài nghẹn ngào của một người phụ nữ",
+    "status": "MOI",
+    "files": [
+     "fx_sigh_female.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "5.11",
+    "desc": "Đóng tập hồ sơ giấy + gõ máy đánh chữ 'Cạch'",
+    "status": "SAN",
+    "files": [
+     "folder_close.wav",
+     "typewriter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "BG H4",
+    "desc": "Quạt tản nhiệt máy chủ vo ve trong phòng kỹ thuật số",
+    "status": "MOI",
+    "files": [
+     "amb_server_fan.wav"
+    ],
+    "note": "nền Hồi 4"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Máy đánh chữ cơ học lách cách gõ từng nhịp chậm rãi",
+    "status": "SAN",
+    "files": [
+     "typewriter.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng gió đông rít từng hồi lạnh lẽo",
+    "status": "SAN",
+    "files": [
+     "t2/amb_winter_wind.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng nhịp tim đập chậm",
+    "status": "SAN",
+    "files": [
+     "t2/fx_heartbeat_slow.wav"
+    ],
+    "note": "nền Hồi 2"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng rè rè của cuộn băng từ phát lại bản ghi âm",
+    "status": "SAN",
+    "files": [
+     "t3/fx_cassette_motor.wav"
+    ],
+    "note": "nền Hồi 2"
+   },
+   {
+    "cue": "BGM 4.01",
+    "desc": "Tiếng gõ phím vi tính trong phòng kỹ thuật số",
+    "status": "SAN",
+    "files": [
+     "keyboard_night.wav"
+    ],
+    "note": "nền Hồi 4"
+   },
+   {
+    "cue": "BGM 4.01",
+    "desc": "Âm thanh quạt tản nhiệt máy chủ kêu vo ve",
+    "status": "MOI",
+    "files": [
+     "amb_server_fan.wav"
+    ],
+    "note": "nền Hồi 4"
+   },
+   {
+    "cue": "NGHI 1.11",
+    "desc": "Chỉ còn tiếng tích tắc khô khốc của đồng hồ",
+    "status": "SAN",
+    "files": [
+     "clock_tick.wav"
+    ],
+    "note": "đoạn nghỉ Hồi 1"
+   }
+  ],
+  "6": [
+   {
+    "cue": "1.03",
+    "desc": "Máy ảnh chớp nháy lách tách",
+    "status": "SAN",
+    "files": [
+     "t2/fx_camera_shutter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Vỗ tay tán thưởng vang xa xăm",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_applause_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.07",
+    "desc": "Đóng cửa xe cọt kẹt + bước chân vội vã trên tuyết",
+    "status": "SAN",
+    "files": [
+     "door_creak.wav",
+     "t2/fx_footsteps_snow.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.10",
+    "desc": "Chuông điện thoại đồn cảnh sát reo dồn dập",
+    "status": "SAN",
+    "files": [
+     "t2/fx_phone_ring.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "Lật mở hồ sơ + bước chân kiểm tra hiện trường",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav",
+     "footsteps.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "3.04",
+    "desc": "Bước chân nặng trên sàn gỗ + mở nắp hầm kỹ thuật",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "3.04",
+    "desc": "(phần) Cọt kẹt mở nắp hầm kỹ thuật",
+    "status": "MOI",
+    "files": [
+     "fx_hatch_lid_open.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "3.08",
+    "desc": "Xẻng cắm sâu vào đất ẩm + thở dốc điều tra viên",
+    "status": "MOI",
+    "files": [
+     "fx_shovel_dirt.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.11",
+    "desc": "Búa gõ phán quyết của thẩm phán",
+    "status": "SAN",
+    "files": [
+     "gavel.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "NGHI 2.12",
+    "desc": "Tiếng còi xe cảnh sát xa xăm",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": "đoạn nghỉ Hồi 2"
+   },
+   {
+    "cue": "NGHI 5.05",
+    "desc": "Tiếng thở dài trầm lặng",
+    "status": "MOI",
+    "files": [
+     "fx_sigh_emotional.wav"
+    ],
+    "note": "đoạn nghỉ Hồi 5"
+   }
+  ],
+  "7": [
+   {
+    "cue": "1.03",
+    "desc": "Gõ phím cảm ứng lách tách dồn dập",
+    "status": "MOI",
+    "files": [
+     "fx_phone_typing_swipe.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Chuông thông báo tin nhắn",
+    "status": "SAN",
+    "files": [
+     "notif_ping.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "Bước chân sột soạt trên nhựa đường",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Gõ cửa kính xe",
+    "status": "MOI",
+    "files": [
+     "fx_car_window_knock.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "Còi xe cảnh sát xa xăm",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Mở khóa túi đựng vật chứng",
+    "status": "MOI",
+    "files": [
+     "fx_zipper_bag.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "Chuông báo tin nhắn gửi đi liên hồi",
+    "status": "SAN",
+    "files": [
+     "notif_ping.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "(phần) Rung điện thoại khô khốc",
+    "status": "MOI",
+    "files": [
+     "fx_phone_vibrate.wav"
+    ],
+    "note": "dùng chung T13"
+   },
+   {
+    "cue": "4.04",
+    "desc": "In tài liệu điện tử",
+    "status": "MOI",
+    "files": [
+     "fx_printer_thermal.wav"
+    ],
+    "note": "dùng chung T23"
+   },
+   {
+    "cue": "4.04",
+    "desc": "(phần) Đóng dấu hồ sơ khởi tố",
+    "status": "MOI",
+    "files": [
+     "fx_stamp_wood.wav"
+    ],
+    "note": "dùng chung T04, T26"
+   },
+   {
+    "cue": "4.09",
+    "desc": "Búa gõ phán quyết của thẩm phán",
+    "status": "SAN",
+    "files": [
+     "gavel.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "NGHI 2.11",
+    "desc": "Tiếng thở dài buốt giá giữa đêm",
+    "status": "MOI",
+    "files": [
+     "fx_sigh_emotional.wav"
+    ],
+    "note": "đoạn nghỉ Hồi 2"
+   }
+  ],
+  "8": [
+   {
+    "cue": "1.03",
+    "desc": "Còi tàu điện ngầm + thông báo ga tiếng Nhật",
+    "status": "MOI",
+    "files": [
+     "amb_subway_station_jp.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Bước chân hối hả",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "Mũi ô cắm thủng màng nylon",
+    "status": "MOI",
+    "files": [
+     "fx_umbrella_puncture_nylon.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Chất lỏng rỉ ra sàn tàu",
+    "status": "MOI",
+    "files": [
+     "fx_liquid_pour_splat.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Cửa toa xe đóng sập lại",
+    "status": "MOI",
+    "files": [
+     "fx_train_door_slam.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "Còi xe cứu thương dồn dập",
+    "status": "MOI",
+    "files": [
+     "fx_ambulance_siren_close.wav"
+    ],
+    "note": "dùng chung T22, T25, T28"
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Còi hú cảnh sát náo loạn",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Bước chân rầm rộ của lực lượng đặc nhiệm",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Loa phát thanh yêu cầu đầu hàng",
+    "status": "MOI",
+    "files": [
+     "amb_megaphone_loudspeaker.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.09",
+    "desc": "Gõ búa đanh thép của Tòa án Tokyo",
+    "status": "SAN",
+    "files": [
+     "gavel.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "NGHI 2.10",
+    "desc": "Tiếng còi báo động xa xăm",
+    "status": "MOI",
+    "files": [
+     "amb_alarm_siren_distant.wav"
+    ],
+    "note": "đoạn nghỉ Hồi 2 — dùng chung T12, T25"
+   }
+  ],
+  "9": [
+   {
+    "cue": "1.03",
+    "desc": "Đàn hát du ca xa xăm",
+    "status": "MOI",
+    "files": [
+     "amb_female_humming_far.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Sóng biển rì rào",
+    "status": "MOI",
+    "files": [
+     "amb_ocean_waves_soft.wav"
+    ],
+    "note": "dùng chung T18"
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Còi xe cảnh sát rít xé màn đêm",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "Gió rít qua rặng thông trên đồi cao",
+    "status": "MOI",
+    "files": [
+     "amb_wind_pines.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Bước chân lén lút trên sỏi đá",
+    "status": "MOI",
+    "files": [
+     "fx_footsteps_gravel_stealth.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "Lên đạn lách cách",
+    "status": "MOI",
+    "files": [
+     "fx_rifle_shell_load.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Khóa cửa sắt dồn dập",
+    "status": "SAN",
+    "files": [
+     "chains.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Cửa gỗ cọt kẹt đu đưa trong gió",
+    "status": "SAN",
+    "files": [
+     "door_creak.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Vó ngựa xa xăm trên nền đất khô",
+    "status": "MOI",
+    "files": [
+     "amb_horse_hooves_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.06",
+    "desc": "Máy ảnh chớp nháy lách tách",
+    "status": "SAN",
+    "files": [
+     "t2/fx_camera_shutter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.06",
+    "desc": "(phần) Xôn xao bàn tán của đám đông",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_murmur_press.wav"
+    ],
+    "note": "dùng chung T20–T22, T28"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng gió sa mạc khô khốc (Spahn Ranch, Mojave)",
+    "status": "MOI",
+    "files": [
+     "amb_desert_wind_dry.wav"
+    ],
+    "note": "nền Hồi 2 — KHÁC amb_wind_pines của Hồi 1"
+   },
+   {
+    "cue": "NGHI 2.12",
+    "desc": "Tiếng guitar bass rền rĩ u uất",
+    "status": "MOI",
+    "files": [
+     "—"
+    ],
+    "note": "dùng track guitar acoustic đang cần tải cho BGM (chưa có trong assets/bgm/)"
+   }
+  ],
+  "10": [
+   {
+    "cue": "1.03",
+    "desc": "Xe cộ lao vút trên đường cao tốc + gió rít bên cửa kính",
+    "status": "MOI",
+    "files": [
+     "amb_highway_speed_car.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "Lốp xe rít phanh chầm chậm tấp vào lề",
+    "status": "MOI",
+    "files": [
+     "fx_car_tire_screech_stop.wav"
+    ],
+    "note": "dùng chung T22"
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Động cơ nổ trầm đục",
+    "status": "MOI",
+    "files": [
+     "amb_car_engine_idle.wav"
+    ],
+    "note": "dùng chung T22, T26"
+   },
+   {
+    "cue": "1.08",
+    "desc": "Còi cảnh sát vang vọng xa xăm",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Lật giấy tờ hồ sơ vội vã",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Nắp gỗ nặng nề sập xuống + then cài sắt khóa rít",
+    "status": "MOI",
+    "files": [
+     "fx_wooden_lid_slam_latch.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "3.03",
+    "desc": "Chuông cửa ngân vang",
+    "status": "MOI",
+    "files": [
+     "fx_doorbell_chime.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "3.03",
+    "desc": "(phần) Then cài mở khóa gấp gáp",
+    "status": "MOI",
+    "files": [
+     "fx_latch_unlock.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.06",
+    "desc": "Động cơ xe nổ gấp gáp",
+    "status": "MOI",
+    "files": [
+     "amb_car_engine_idle.wav"
+    ],
+    "note": "dùng chung T22, T26"
+   },
+   {
+    "cue": "4.06",
+    "desc": "(phần) Bánh xe nghiến trên sỏi đá",
+    "status": "MOI",
+    "files": [
+     "fx_gravel_car_drive.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng gió rít hiu hắt trên xa lộ hoang vắng",
+    "status": "SAN",
+    "files": [
+     "t2/amb_winter_wind.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng kim đồng hồ tích tắc chậm rãi",
+    "status": "SAN",
+    "files": [
+     "clock_tick.wav"
+    ],
+    "note": "nền Hồi 2"
+   }
+  ],
+  "11": [
+   {
+    "cue": "1.03",
+    "desc": "Ly rượu chạm nhau lách cách",
+    "status": "MOI",
+    "files": [
+     "fx_glasses_clink.wav"
+    ],
+    "note": "dùng chung T14"
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Cười đùa rộn rã bữa tiệc ngoài trời",
+    "status": "MOI",
+    "files": [
+     "amb_party_crowd_outdoor.wav"
+    ],
+    "note": "dùng chung T14"
+   },
+   {
+    "cue": "1.06",
+    "desc": "Còi xe cảnh sát rít xé màn đêm",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.06",
+    "desc": "(phần) Lật giở hồ sơ điều tra dồn dập",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Đổ vỡ đồ đạc loảng xoảng",
+    "status": "MOI",
+    "files": [
+     "fx_objects_smash_break.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Còi xe cấp cứu inh ỏi",
+    "status": "MOI",
+    "files": [
+     "fx_ambulance_siren_close.wav"
+    ],
+    "note": "dùng chung T08, T25, T28"
+   },
+   {
+    "cue": "4.06",
+    "desc": "Máy chiếu phim rè rè trong phòng tối",
+    "status": "MOI",
+    "files": [
+     "amb_projector_room.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.06",
+    "desc": "(phần) Đập bàn phẫn nộ",
+    "status": "MOI",
+    "files": [
+     "fx_table_slap_anger.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng gió rít hiu hắt bên bờ hồ Ontario",
+    "status": "SAN",
+    "files": [
+     "t2/amb_winter_wind.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng kim đồng hồ tích tắc chậm rãi",
+    "status": "SAN",
+    "files": [
+     "clock_tick.wav"
+    ],
+    "note": "nền Hồi 2"
+   }
+  ],
+  "12": [
+   {
+    "cue": "1.03",
+    "desc": "Lật giở trang tài liệu lưu trữ FBI",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Quạt trần quay kẽo kẹt",
+    "status": "MOI",
+    "files": [
+     "amb_ceiling_fan.wav"
+    ],
+    "note": "dùng chung T20"
+   },
+   {
+    "cue": "1.05",
+    "desc": "Máy bay trực thăng bay lượn + động cơ rền xa",
+    "status": "MOI",
+    "files": [
+     "amb_helicopter_far.wav"
+    ],
+    "note": "dùng chung T14"
+   },
+   {
+    "cue": "1.08",
+    "desc": "Loa phóng thanh rè rè vọng lại giữa rừng sâu",
+    "status": "MOI",
+    "files": [
+     "amb_loudspeaker_jungle_echo.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Gió rít từng hồi",
+    "status": "MOI",
+    "files": [
+     "amb_wind_tropical.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Vỗ tay rộn rã + đàn guitar + hát tập thể",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_singing_acoustic.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "Giấy sột soạt gấp vội",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "(phần) Bước chân lén lút trong bóng tối",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.08",
+    "desc": "Động cơ máy bay nhỏ gầm rú chuẩn bị cất cánh",
+    "status": "MOI",
+    "files": [
+     "amb_small_plane_engine.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.10",
+    "desc": "Máy kéo ầm ĩ tiến lại gần",
+    "status": "MOI",
+    "files": [
+     "amb_tractor_engine.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.10",
+    "desc": "(phần) Loạt đạn súng trường và súng hoa cải",
+    "status": "MOI",
+    "files": [
+     "fx_gunshots_rifle_shotgun.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.12",
+    "desc": "Còi báo động khẩn cấp rú lên vang dội",
+    "status": "MOI",
+    "files": [
+     "amb_alarm_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "Rè rè băng từ cassette + bấm nút Play",
+    "status": "SAN",
+    "files": [
+     "t3/fx_cassette_motor.wav",
+     "t3/fx_cassette_button.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Thở dồn dập trong không gian kín",
+    "status": "MOI",
+    "files": [
+     "fx_breathing_tense_close.wav"
+    ],
+    "note": "dùng chung T13, T17, T19, T20, T22"
+   },
+   {
+    "cue": "4.05",
+    "desc": "Đám đông xì xào tranh cãi",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_arguing_indoor.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "(phần) Bước chân tiến lại gần micro",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng gió rít hiu hắt + âm thanh côn trùng nhiệt đới",
+    "status": "SAN",
+    "files": [
+     "t2/amb_winter_wind.wav",
+     "t3/amb_crickets_traffic.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng kim đồng hồ tích tắc giữa đêm rừng",
+    "status": "SAN",
+    "files": [
+     "clock_tick.wav"
+    ],
+    "note": "nền Hồi 2"
+   }
+  ],
+  "13": [
+   {
+    "cue": "1.03",
+    "desc": "Đàn piano cổ điển gấp gáp, căng thẳng",
+    "status": "NHAC",
+    "files": [
+     "bgm_piano_minimal_v2.mp3"
+    ],
+    "note": "nhạc nền"
+   },
+   {
+    "cue": "1.05",
+    "desc": "Lưỡi dao cạo giấy + tẩy xóa",
+    "status": "MOI",
+    "files": [
+     "fx_sandpaper_scrape_eraser.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Máy in màu chạy rè rè",
+    "status": "MOI",
+    "files": [
+     "fx_inkjet_printer_run.wav"
+    ],
+    "note": "dùng chung T18"
+   },
+   {
+    "cue": "1.08",
+    "desc": "Lật sách thì thầm trong thư viện công cộng",
+    "status": "MOI",
+    "files": [
+     "amb_library_quiet.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Còi xe buýt xa xa",
+    "status": "MOI",
+    "files": [
+     "amb_bus_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Tin nhắn điện thoại rung dồn dập",
+    "status": "MOI",
+    "files": [
+     "fx_phone_vibrate.wav"
+    ],
+    "note": "dùng chung T07"
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Gõ phím lén lút",
+    "status": "MOI",
+    "files": [
+     "fx_keyboard_typing_soft.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "Then cài cửa mở lách cách",
+    "status": "SAN",
+    "files": [
+     "lock_door.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "(phần) Bước chân nặng trên nền nhà gỗ",
+    "status": "MOI",
+    "files": [
+     "fx_footsteps_wood_heavy.wav"
+    ],
+    "note": "dùng chung T23"
+   },
+   {
+    "cue": "2.07",
+    "desc": "Súng nổ liên tiếp dưới tầng hầm",
+    "status": "MOI",
+    "files": [
+     "fx_gunshots_pistol_inside.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "(phần) La hét đau đớn vang vọng",
+    "status": "MOI",
+    "files": [
+     "fx_scream_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.09",
+    "desc": "Bấm số 911 dồn dập (touch-tone)",
+    "status": "MOI",
+    "files": [
+     "fx_dtmf_touch_tone_beep.wav"
+    ],
+    "note": "dùng chung T17 — KHÔNG dùng mỏ quay rotary"
+   },
+   {
+    "cue": "2.09",
+    "desc": "(phần) Jennifer la hét khóc lóc qua đường dây",
+    "status": "MOI",
+    "files": [
+     "fx_crying_female_phone.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.04",
+    "desc": "Máy đo nhịp tim bệnh viện bíp chậm rãi",
+    "status": "MOI",
+    "files": [
+     "amb_hospital_monitor_heartbeat.wav"
+    ],
+    "note": "dùng chung T21, T23"
+   },
+   {
+    "cue": "4.04",
+    "desc": "(phần) Thở dồn dập qua ống thở oxy",
+    "status": "MOI",
+    "files": [
+     "fx_oxygen_breathing.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.07",
+    "desc": "Đẩy cánh cửa kim loại phòng thẩm vấn",
+    "status": "MOI",
+    "files": [
+     "fx_metal_door_push_open.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.07",
+    "desc": "(phần) Đặt tập hồ sơ dày cộp xuống mặt bàn",
+    "status": "SAN",
+    "files": [
+     "stamp_thud.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng tích tắc đều đặn của chiếc đồng hồ treo tường",
+    "status": "SAN",
+    "files": [
+     "clock_tick.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng kim đồng hồ đếm từng giây vô vọng",
+    "status": "SAN",
+    "files": [
+     "clock_tick.wav"
+    ],
+    "note": "nền Hồi 2"
+   }
+  ],
+  "14": [
+   {
+    "cue": "1.03",
+    "desc": "Lật sách giáo trình y khoa dày cộp",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Trẻ thơ khóc đêm",
+    "status": "MOI",
+    "files": [
+     "fx_baby_crying_night.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Máy may lách cách",
+    "status": "MOI",
+    "files": [
+     "fx_sewing_machine.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "Ly rượu chạm nhau lách cách",
+    "status": "MOI",
+    "files": [
+     "fx_glasses_clink.wav"
+    ],
+    "note": "dùng chung T11"
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Cười nói rộn rã giới thượng lưu",
+    "status": "MOI",
+    "files": [
+     "amb_party_crowd_outdoor.wav"
+    ],
+    "note": "dùng chung T11"
+   },
+   {
+    "cue": "1.08",
+    "desc": "Kim đồng hồ tích tắc dồn dập",
+    "status": "SAN",
+    "files": [
+     "clock_tick.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Điện thoại bàn đổ chuông không người nhấc máy",
+    "status": "MOI",
+    "files": [
+     "fx_landline_ring_office.wav"
+    ],
+    "note": "dùng chung T25"
+   },
+   {
+    "cue": "2.03",
+    "desc": "Máy bay trực thăng tuần tra",
+    "status": "MOI",
+    "files": [
+     "amb_helicopter_far.wav"
+    ],
+    "note": "dùng chung T12"
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Còi xe cảnh sát réo rắt từ xa",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "Máy ghi âm điện thoại phát lại lời mắng chửi + gác máy",
+    "status": "MOI",
+    "files": [
+     "fx_phone_hangup_click.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "Kim loại va chạm kinh hoàng",
+    "status": "MOI",
+    "files": [
+     "fx_vehicle_impact_metal.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "(phần) Kính vỡ vụn khi xe tải đâm sầm",
+    "status": "MOI",
+    "files": [
+     "fx_glass_smash_vehicle_crash.wav"
+    ],
+    "note": "dùng chung T25"
+   },
+   {
+    "cue": "4.03",
+    "desc": "Tra chìa khóa vào ổ mở cửa",
+    "status": "MOI",
+    "files": [
+     "fx_key_in_lock.wav"
+    ],
+    "note": "dùng chung T27"
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Bước chân trần rón rén trên cầu thang gỗ",
+    "status": "MOI",
+    "files": [
+     "fx_footsteps_barefoot_stairs.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "Súng lục nổ liên tiếp năm phát",
+    "status": "MOI",
+    "files": [
+     "fx_gunshots_revolver_5.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "(phần) Vỏ đạn rơi lách cách",
+    "status": "MOI",
+    "files": [
+     "fx_shell_casing_drop.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.07",
+    "desc": "Búa tòa án gõ vang dội",
+    "status": "SAN",
+    "files": [
+     "gavel.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.07",
+    "desc": "(phần) Xì xào tranh cãi nảy lửa của đám đông",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_murmur_courtroom.wav"
+    ],
+    "note": "dùng chung T17–T28"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng sóng biển vỗ rì rào xa xa bên bờ biển La Jolla",
+    "status": "MOI",
+    "files": [
+     "amb_ocean_waves_soft.wav"
+    ],
+    "note": "nền Hồi 1 — dùng chung T09, T18"
+   }
+  ],
+  "15": [
+   {
+    "cue": "1.03",
+    "desc": "Còi xe cảnh sát từ xa",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Bộ đàm Sở Cảnh sát xì xèo",
+    "status": "SAN",
+    "files": [
+     "radio_chatter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "Chuông điện thoại đổ dồn dập trong đêm",
+    "status": "MOI",
+    "files": [
+     "fx_phone_ring_landline_night.wav"
+    ],
+    "note": "dùng chung T18"
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Gõ bàn phím máy tính gấp gáp",
+    "status": "SAN",
+    "files": [
+     "keyboard_night.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "Kéo dải băng niêm phong hiện trường ro ro",
+    "status": "MOI",
+    "files": [
+     "fx_crime_scene_tape_pull.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Bước chân mang bọc giày chuyên dụng lạo xạo",
+    "status": "MOI",
+    "files": [
+     "fx_footsteps_shoes_scuff.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Nhấp chuột máy tính liên thanh",
+    "status": "MOI",
+    "files": [
+     "fx_mouse_click_rapid.wav"
+    ],
+    "note": "dùng chung T22"
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Bíp bíp phục hồi tập tin hình ảnh",
+    "status": "MOI",
+    "files": [
+     "fx_computer_beep_restore.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "Gõ bàn phím cơ dồn dập",
+    "status": "MOI",
+    "files": [
+     "fx_mechanical_keyboard.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "(phần) Máy in hóa đơn chạy rè rè",
+    "status": "MOI",
+    "files": [
+     "fx_printer_thermal.wav"
+    ],
+    "note": "dùng chung T07, T23"
+   },
+   {
+    "cue": "2.07",
+    "desc": "Lật mở hồ sơ giấy tờ dày cộp",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "(phần) Cửa sắt phòng lưu trữ chứng cứ",
+    "status": "MOI",
+    "files": [
+     "fx_evidence_room_door.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "Gõ bàn thẩm vấn cộc cộc",
+    "status": "MOI",
+    "files": [
+     "fx_knock_table.wav"
+    ],
+    "note": "dùng chung T26"
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Lật giấy biên bản hỏi cung rột roạt",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "Đèn flash máy ảnh chớp nháy lia lịa",
+    "status": "SAN",
+    "files": [
+     "t2/fx_camera_shutter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "(phần) Máy quay truyền hình rè rè",
+    "status": "MOI",
+    "files": [
+     "amb_tv_camera_operator.wav"
+    ],
+    "note": "dùng chung T22"
+   },
+   {
+    "cue": "4.07",
+    "desc": "Micro truyền hình ù nhẹ",
+    "status": "MOI",
+    "files": [
+     "fx_mic_hum_feedback.wav"
+    ],
+    "note": "dùng chung T17–T29 (13 tập)"
+   },
+   {
+    "cue": "4.07",
+    "desc": "(phần) Xì xào tranh cãi tại phòng xử án",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_murmur_courtroom.wav"
+    ],
+    "note": "dùng chung T14, T17–T28"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng nước nhỏ giọt đều đặn",
+    "status": "SAN",
+    "files": [
+     "t3/amb_pipe_drain.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng gió rít qua khe cửa sổ",
+    "status": "SAN",
+    "files": [
+     "t2/amb_winter_wind.wav"
+    ],
+    "note": "nền Hồi 1"
+   }
+  ],
+  "16": [
+   {
+    "cue": "1.03",
+    "desc": "Còi xe tuần tra từ xa",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Bước chân vội vã trên lớp tuyết mỏng",
+    "status": "SAN",
+    "files": [
+     "t2/fx_footsteps_snow.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "Chuông trường học tan học",
+    "status": "MOI",
+    "files": [
+     "fx_school_bell_dismissal.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Mở khóa cửa kim loại lách cách",
+    "status": "MOI",
+    "files": [
+     "fx_metal_lock_open.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "Cảnh sát phá khóa cửa sổ tầng hầm kêu rắc",
+    "status": "MOI",
+    "files": [
+     "fx_window_pry_break.wav"
+    ],
+    "note": "dùng chung T23"
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Bước chân cẩn trọng trên sàn gỗ bụi bặm",
+    "status": "MOI",
+    "files": [
+     "fx_footsteps_dusty_wood_slow.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Kéo cắt giấy lách cách sắc ngọt",
+    "status": "MOI",
+    "files": [
+     "fx_scissors_cut_paper.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Lật trang album ảnh sột soạt",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "Còi tàu hỏa hú dài trong đêm",
+    "status": "MOI",
+    "files": [
+     "amb_train_horn_distant_night.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "(phần) Bước chân vội vã trên sân ga",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "Lật hồ sơ vụ án tồn đọng dày cộp",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "(phần) Gõ máy chữ của cơ quan điều tra",
+    "status": "SAN",
+    "files": [
+     "typewriter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "Gõ búa điêu khắc trên đất sét",
+    "status": "MOI",
+    "files": [
+     "fx_chisel_hammer_clay.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Thở dài tập trung của nghệ sĩ pháp y",
+    "status": "MOI",
+    "files": [
+     "fx_breathing_focused_artist.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "Tách trà rơi vỡ tan tành trên sàn",
+    "status": "MOI",
+    "files": [
+     "fx_cup_shatter_tea.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "(phần) Chuông điện thoại đường dây nóng đổ dồn dập",
+    "status": "MOI",
+    "files": [
+     "fx_phone_ring_landline_night.wav"
+    ],
+    "note": "dùng chung T15, T18"
+   },
+   {
+    "cue": "4.07",
+    "desc": "Còi xe đặc vụ FBI rú lên inh ỏi",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.07",
+    "desc": "(phần) Đạp cửa phòng làm việc dứt khoát",
+    "status": "MOI",
+    "files": [
+     "fx_door_kick_boot.wav"
+    ],
+    "note": "dùng chung T27"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng gió rít qua khe cửa sổ của tòa biệt thự cổ",
+    "status": "SAN",
+    "files": [
+     "t2/amb_winter_wind.wav"
+    ],
+    "note": "nền Hồi 1"
+   }
+  ],
+  "17": [
+   {
+    "cue": "1.03",
+    "desc": "Bấm phím số điện thoại khẩn cấp tút tút (touch-tone)",
+    "status": "MOI",
+    "files": [
+     "fx_dtmf_touch_tone_beep.wav"
+    ],
+    "note": "dùng chung T13 — KHÔNG dùng mỏ quay rotary"
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Thở dốc nghẹn ngào",
+    "status": "MOI",
+    "files": [
+     "fx_breathing_tense_close.wav"
+    ],
+    "note": "dùng chung T12, T13, T19, T20, T22"
+   },
+   {
+    "cue": "1.05",
+    "desc": "Ghi âm cuộc gọi 911 rào rào",
+    "status": "MOI",
+    "files": [
+     "fx_911_call_recording_radio.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Gõ bàn phím định vị tọa độ khẩn cấp",
+    "status": "SAN",
+    "files": [
+     "keyboard_night.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "Gõ cửa dồn dập của cảnh sát",
+    "status": "SAN",
+    "files": [
+     "door_knock.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Then cài cửa sắt lạch cạch mở ra",
+    "status": "SAN",
+    "files": [
+     "lock_door.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Máy ảnh chụp flash lách cách",
+    "status": "SAN",
+    "files": [
+     "t2/fx_camera_shutter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Nhạc vui nhộn tại công viên giải trí",
+    "status": "MOI",
+    "files": [
+     "amb_carnival_ride_music_far.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "Dây xích sắt cọ xát vào thành giường kim loại",
+    "status": "SAN",
+    "files": [
+     "chains.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "(phần) Bước chân lạnh lùng dậm mạnh",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "Mở bao bì bánh ngọt sột soạt",
+    "status": "MOI",
+    "files": [
+     "fx_candy_wrapper_open.wav"
+    ],
+    "note": "dùng chung T19"
+   },
+   {
+    "cue": "2.07",
+    "desc": "(phần) Khóa tủ lạnh lách cách đánh cạch",
+    "status": "MOI",
+    "files": [
+     "fx_fridge_door_open.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "Xì xào của đám đông tại phòng xử án",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_murmur_courtroom.wav"
+    ],
+    "note": "dùng chung T14, T18–T28"
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Micro phát biểu rung nhẹ",
+    "status": "MOI",
+    "files": [
+     "fx_mic_hum_feedback.wav"
+    ],
+    "note": "dùng chung T15–T29"
+   },
+   {
+    "cue": "4.05",
+    "desc": "Thở dài xúc động",
+    "status": "MOI",
+    "files": [
+     "fx_sigh_emotional.wav"
+    ],
+    "note": "dùng chung T18, T19, T21, T23, T24, T25, T27"
+   },
+   {
+    "cue": "4.05",
+    "desc": "(phần) Lật trang giấy phát biểu run rẩy",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.07",
+    "desc": "Búa tòa án gõ ba tiếng vang dội",
+    "status": "SAN",
+    "files": [
+     "t2/fx_gavel_triple.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng gió rít rợn người giữa đêm lạnh",
+    "status": "SAN",
+    "files": [
+     "t2/amb_winter_wind.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng thở gấp gáp trong bóng tối",
+    "status": "MOI",
+    "files": [
+     "fx_breathing_tense_close.wav"
+    ],
+    "note": "nền Hồi 1 — dùng chung T12, T13, T19, T20, T22"
+   }
+  ],
+  "18": [
+   {
+    "cue": "1.03",
+    "desc": "Chuông điện thoại đổ dồn dập không người nhấc máy",
+    "status": "MOI",
+    "files": [
+     "fx_phone_ring_landline_night.wav"
+    ],
+    "note": "dùng chung T15, T16"
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Sóng biển rì rào xa xa",
+    "status": "MOI",
+    "files": [
+     "amb_ocean_waves_soft.wav"
+    ],
+    "note": "dùng chung T09"
+   },
+   {
+    "cue": "1.05",
+    "desc": "Gõ cửa căn hộ cộc cộc",
+    "status": "SAN",
+    "files": [
+     "door_knock.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Radio đàm thoại của cảnh sát tuần tra",
+    "status": "SAN",
+    "files": [
+     "radio_chatter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "Lật mở hồ sơ truy nã khẩn cấp",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Máy in lệnh bắt giữ rột roạt",
+    "status": "MOI",
+    "files": [
+     "fx_inkjet_printer_run.wav"
+    ],
+    "note": "dùng chung T13"
+   },
+   {
+    "cue": "2.03",
+    "desc": "Cuốc xẻng đào đất chạm vào vật cứng",
+    "status": "MOI",
+    "files": [
+     "fx_shovel_pick_dirt_stone.wav"
+    ],
+    "note": "dùng chung T25"
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Chó nghiệp vụ sủa báo hiệu",
+    "status": "MOI",
+    "files": [
+     "fx_dog_bark_working.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "Còng số tám tra vào tay đánh cạch",
+    "status": "MOI",
+    "files": [
+     "fx_handcuff_snap.wav"
+    ],
+    "note": "dùng chung T23, T25, T28"
+   },
+   {
+    "cue": "2.05",
+    "desc": "(phần) Mở tủ hồ sơ chứng cứ pháp y",
+    "status": "MOI",
+    "files": [
+     "fx_evidence_cabinet_open.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "Lật hồ sơ bảo hiểm nhân thọ",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "(phần) Xét nghiệm mẫu bệnh phẩm pháp y",
+    "status": "MOI",
+    "files": [
+     "fx_lab_test_kit.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "Búa tòa án gõ vang dội",
+    "status": "SAN",
+    "files": [
+     "gavel.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Xì xào phẫn nộ của khán giả",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_angry_jeers.wav"
+    ],
+    "note": "dùng chung T25"
+   },
+   {
+    "cue": "4.05",
+    "desc": "Micro phát biểu rung nhẹ",
+    "status": "MOI",
+    "files": [
+     "fx_mic_hum_feedback.wav"
+    ],
+    "note": "dùng chung T15–T29"
+   },
+   {
+    "cue": "4.05",
+    "desc": "(phần) Thở dài xúc động của bồi thẩm viên",
+    "status": "MOI",
+    "files": [
+     "fx_sigh_emotional.wav"
+    ],
+    "note": "dùng chung T17, T19, T21, T23, T24, T25, T27"
+   },
+   {
+    "cue": "4.07",
+    "desc": "Búa tòa án gõ ba tiếng dứt khoát",
+    "status": "SAN",
+    "files": [
+     "t2/fx_gavel_triple.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.07",
+    "desc": "(phần) Xì xào chấn động của phòng xử án",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_angry_jeers.wav"
+    ],
+    "note": "dùng chung T25"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng gió biển Hawaii",
+    "status": "MOI",
+    "files": [
+     "amb_ocean_waves_soft.wav"
+    ],
+    "note": "nền Hồi 1 — dùng chung T09, T14"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng chuông gió lạnh lẽo",
+    "status": "MOI",
+    "files": [
+     "amb_wind_chime.wav"
+    ],
+    "note": "nền Hồi 1 — chuông gió là nốt nhạc nền, không phải tiếng động"
+   }
+  ],
+  "19": [
+   {
+    "cue": "1.03",
+    "desc": "Cùm tay sắt va chạm trên mặt bàn kim loại",
+    "status": "MOI",
+    "files": [
+     "fx_handcuffs_chain_on_metal_table.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Thở dốc run rẩy",
+    "status": "MOI",
+    "files": [
+     "fx_breathing_tense_close.wav"
+    ],
+    "note": "dùng chung T12, T13, T17, T20, T22"
+   },
+   {
+    "cue": "1.05",
+    "desc": "Còi xe cứu thương từ xa",
+    "status": "MOI",
+    "files": [
+     "fx_ambulance_siren_distant.wav"
+    ],
+    "note": "dùng chung T04"
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Tiếng người hoảng loạn hỗn loạn ngoài sân trường",
+    "status": "MOI",
+    "files": [
+     "amb_panic_crowd_schoolyard.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "Lật mở tập hồ sơ vụ án trên bàn",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Bút bi gõ nhịp xuống mặt bàn",
+    "status": "SAN",
+    "files": [
+     "pen_strike.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Đóng cửa đánh cạch",
+    "status": "MOI",
+    "files": [
+     "fx_door_slam_indoor.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Mở bao bì bánh mì sột soạt",
+    "status": "MOI",
+    "files": [
+     "fx_bread_bag_open.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "Bấm mở khóa màn hình điện thoại",
+    "status": "MOI",
+    "files": [
+     "fx_phone_unlock_click.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "(phần) Rè rè của đoạn video tự quay",
+    "status": "MOI",
+    "files": [
+     "fx_video_playback_static.wav"
+    ],
+    "note": "dùng chung T22"
+   },
+   {
+    "cue": "2.07",
+    "desc": "Lật hồ sơ chứng cứ pháp lý",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "(phần) Gõ phím máy tính lưu trữ bằng chứng",
+    "status": "SAN",
+    "files": [
+     "keyboard_night.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "Búa tòa án gõ ba tiếng",
+    "status": "SAN",
+    "files": [
+     "t2/fx_gavel_triple.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Xì xào căng thẳng của phòng xử án",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_murmur_courtroom.wav"
+    ],
+    "note": "dùng chung T14, T17, T18, T20–T28"
+   },
+   {
+    "cue": "4.05",
+    "desc": "Thở dài nghẹn ngào",
+    "status": "MOI",
+    "files": [
+     "fx_sigh_emotional.wav"
+    ],
+    "note": "dùng chung T17, T18, T21, T23, T24, T25, T27"
+   },
+   {
+    "cue": "4.05",
+    "desc": "(phần) Micro phát biểu của các phụ huynh",
+    "status": "MOI",
+    "files": [
+     "fx_mic_hum_feedback.wav"
+    ],
+    "note": "dùng chung T15–T29"
+   },
+   {
+    "cue": "4.07",
+    "desc": "Búa tòa án vang lên đanh thép",
+    "status": "SAN",
+    "files": [
+     "gavel.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.07",
+    "desc": "(phần) Thở phào nhẹ nhõm lẫn nghẹn ngào từ hàng ghế",
+    "status": "MOI",
+    "files": [
+     "fx_crowd_relief_sigh.wav"
+    ],
+    "note": "dùng chung T21, T24"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng kim đồng hồ tích tắc nặng nề trong phòng thẩm vấn kín",
+    "status": "SAN",
+    "files": [
+     "clock_tick.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng tích tắc đồng hồ lạnh lẽo và sắc lạnh",
+    "status": "SAN",
+    "files": [
+     "clock_tick.wav"
+    ],
+    "note": "nền Hồi 2"
+   }
+  ],
+  "20": [
+   {
+    "cue": "1.03",
+    "desc": "Máy quay ghi hình rè nhẹ",
+    "status": "MOI",
+    "files": [
+     "amb_camera_crew_press.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Xì xào của đám đông phóng viên",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_murmur_press.wav"
+    ],
+    "note": "dùng chung T09, T21, T22, T28"
+   },
+   {
+    "cue": "1.05",
+    "desc": "Còi cảnh sát hú gấp từ xa",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Bộ đàm rè rè ngắt quãng",
+    "status": "SAN",
+    "files": [
+     "radio_chatter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "Thở dốc nghẹn ngào",
+    "status": "MOI",
+    "files": [
+     "fx_breathing_tense_close.wav"
+    ],
+    "note": "dùng chung T12, T13, T17, T19, T22"
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Micro thu âm tiếng thở run rẩy",
+    "status": "MOI",
+    "files": [
+     "fx_lav_mic_breathing.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Quạt trần quay đều đều đơn điệu",
+    "status": "MOI",
+    "files": [
+     "amb_ceiling_fan.wav"
+    ],
+    "note": "dùng chung T12"
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Thở nặng nề trong phòng kín",
+    "status": "MOI",
+    "files": [
+     "fx_breathing_tense_close.wav"
+    ],
+    "note": "dùng chung T12, T13, T17, T19, T22"
+   },
+   {
+    "cue": "2.05",
+    "desc": "Lật mở tập hồ sơ khám xét",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "(phần) Đặt chùm chìa khóa kim loại xuống bàn",
+    "status": "MOI",
+    "files": [
+     "fx_keys_drop_on_table.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "Cạy mở ngăn kéo",
+    "status": "SAN",
+    "files": [
+     "t2/fx_drawer_open.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "(phần) Mở bao bì cưa sắt sột soạt",
+    "status": "MOI",
+    "files": [
+     "fx_saw_blade_packaging.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "Lật mở tập thỏa thuận nhận tội",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Bút ký sột soạt",
+    "status": "MOI",
+    "files": [
+     "fx_pen_signing_scroll.wav"
+    ],
+    "note": "dùng chung T23"
+   },
+   {
+    "cue": "4.05",
+    "desc": "Thì thầm phẫn nộ trong khán phòng",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_angry_whisper.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "(phần) Búa tòa án gõ giữ trật tự",
+    "status": "SAN",
+    "files": [
+     "gavel.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.07",
+    "desc": "Gõ búa tòa án dứt khoát ba tiếng",
+    "status": "SAN",
+    "files": [
+     "t2/fx_gavel_triple.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.07",
+    "desc": "(phần) Micro phát biểu của nhân chứng",
+    "status": "MOI",
+    "files": [
+     "fx_mic_hum_feedback.wav"
+    ],
+    "note": "dùng chung T15–T29"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng nhịp tim đập chậm",
+    "status": "SAN",
+    "files": [
+     "t2/fx_heartbeat_slow.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng tích tắc đồng hồ kim loại ngột ngạt",
+    "status": "SAN",
+    "files": [
+     "clock_tick.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng kim đồng hồ điện tử khô khốc và đều đặn",
+    "status": "SAN",
+    "files": [
+     "clock_tick.wav"
+    ],
+    "note": "nền Hồi 2"
+   }
+  ],
+  "21": [
+   {
+    "cue": "1.03",
+    "desc": "Còi xe cảnh sát từ xa vọng lại",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Bước chân vội vã trên sàn nhà",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "Máy ảnh chớp nháy của phóng viên",
+    "status": "SAN",
+    "files": [
+     "t2/fx_camera_shutter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Xôn xao bàng hoàng của đám đông",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_murmur_press.wav"
+    ],
+    "note": "dùng chung T09, T20, T22, T28"
+   },
+   {
+    "cue": "1.08",
+    "desc": "Đóng cửa xe cảnh sát đánh cạch",
+    "status": "MOI",
+    "files": [
+     "fx_car_door_close.wav"
+    ],
+    "note": "dùng chung T22"
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Mở cuốn sổ ghi chép điều tra",
+    "status": "MOI",
+    "files": [
+     "fx_notebook_open_pages.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Lật từng trang hồ sơ bệnh án y khoa",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Thở dài nặng nhọc",
+    "status": "MOI",
+    "files": [
+     "fx_sigh_emotional.wav"
+    ],
+    "note": "dùng chung T17, T18, T19, T23, T24, T25, T27"
+   },
+   {
+    "cue": "2.05",
+    "desc": "Máy đo nhịp tim trong bệnh viện",
+    "status": "MOI",
+    "files": [
+     "amb_hospital_monitor_heartbeat.wav"
+    ],
+    "note": "dùng chung T13, T23"
+   },
+   {
+    "cue": "2.05",
+    "desc": "(phần) Gõ bàn phím lưu trữ bệnh án",
+    "status": "SAN",
+    "files": [
+     "keyboard_night.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "Tích tắc đồng hồ chạy gấp gáp",
+    "status": "SAN",
+    "files": [
+     "clock_tick.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "(phần) Xe ô tô rời khỏi gara",
+    "status": "MOI",
+    "files": [
+     "amb_car_start_leave_garage.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "Búa tòa án gõ mạnh",
+    "status": "SAN",
+    "files": [
+     "gavel.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Lật phán quyết hủy án của Tòa Phúc thẩm",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "Xì xào thảo luận của các luật sư",
+    "status": "MOI",
+    "files": [
+     "amb_lawyers_discussion.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "(phần) Micro phát biểu của điều tra viên",
+    "status": "MOI",
+    "files": [
+     "fx_mic_hum_feedback.wav"
+    ],
+    "note": "dùng chung T15–T29"
+   },
+   {
+    "cue": "4.07",
+    "desc": "Gõ búa tòa án dứt khoát ba tiếng",
+    "status": "SAN",
+    "files": [
+     "t2/fx_gavel_triple.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.07",
+    "desc": "(phần) Thở phào nhẹ nhõm từ hàng ghế",
+    "status": "MOI",
+    "files": [
+     "fx_crowd_relief_sigh.wav"
+    ],
+    "note": "dùng chung T19, T24"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng nhịp tim trầm đục",
+    "status": "SAN",
+    "files": [
+     "t2/fx_heartbeat_slow.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng mưa rơi rả rích",
+    "status": "SAN",
+    "files": [
+     "t3/amb_rain_storm.wav"
+    ],
+    "note": "nền Hồi 1"
+   }
+  ],
+  "22": [
+   {
+    "cue": "1.03",
+    "desc": "Phanh xe gấp",
+    "status": "MOI",
+    "files": [
+     "fx_car_tire_screech_stop.wav"
+    ],
+    "note": "dùng chung T10"
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Dải băng phong tỏa bay phần phật trong gió",
+    "status": "MOI",
+    "files": [
+     "fx_police_tape_flutter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "Máy quay phim truyền hình rè nhẹ",
+    "status": "MOI",
+    "files": [
+     "amb_tv_camera_operator.wav"
+    ],
+    "note": "dùng chung T15"
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Xì xào bàn tán của đám đông",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_murmur_press.wav"
+    ],
+    "note": "dùng chung T09, T20, T21, T28"
+   },
+   {
+    "cue": "1.08",
+    "desc": "Đóng cửa xe đặc chủng đánh cạch",
+    "status": "MOI",
+    "files": [
+     "fx_car_door_close.wav"
+    ],
+    "note": "dùng chung T21"
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Động cơ xe cảnh sát chuyển bánh",
+    "status": "MOI",
+    "files": [
+     "amb_car_engine_idle.wav"
+    ],
+    "note": "dùng chung T10, T26"
+   },
+   {
+    "cue": "2.03",
+    "desc": "Ghế kim loại bị kéo mạnh lách cách",
+    "status": "SAN",
+    "files": [
+     "t2/fx_chair_scrape.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Bước chân lùi lại dứt khoát",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "Nhấn chuột mở tệp video",
+    "status": "MOI",
+    "files": [
+     "fx_mouse_click_rapid.wav"
+    ],
+    "note": "dùng chung T15"
+   },
+   {
+    "cue": "2.05",
+    "desc": "(phần) Rè rè của camera giấu kín trên xe ô tô",
+    "status": "MOI",
+    "files": [
+     "fx_video_playback_static.wav"
+    ],
+    "note": "dùng chung T19"
+   },
+   {
+    "cue": "2.07",
+    "desc": "Gõ bàn phím lưu trữ vật chứng",
+    "status": "SAN",
+    "files": [
+     "keyboard_night.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "(phần) Thở dốc bối rối",
+    "status": "MOI",
+    "files": [
+     "fx_breathing_tense_close.wav"
+    ],
+    "note": "dùng chung T12, T13, T17, T19, T20"
+   },
+   {
+    "cue": "4.03",
+    "desc": "Búa tòa án gõ mạnh",
+    "status": "SAN",
+    "files": [
+     "gavel.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Lật mở hồ sơ cáo trạng của công tố viên",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "Xì xào căng thẳng trong phòng xử án",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_murmur_courtroom.wav"
+    ],
+    "note": "dùng chung T14, T17–T28"
+   },
+   {
+    "cue": "4.05",
+    "desc": "(phần) Micro phát biểu của điều tra viên",
+    "status": "MOI",
+    "files": [
+     "fx_mic_hum_feedback.wav"
+    ],
+    "note": "dùng chung T15–T29"
+   },
+   {
+    "cue": "4.07",
+    "desc": "Gõ búa tòa án dứt khoát ba tiếng",
+    "status": "SAN",
+    "files": [
+     "t2/fx_gavel_triple.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.07",
+    "desc": "(phần) Khán phòng im lặng tuyệt đối",
+    "status": "MOI",
+    "files": [
+     "fx_courtroom_dead_silence.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng tích tắc đồng hồ lạnh lẽo và sắc lạnh",
+    "status": "SAN",
+    "files": [
+     "clock_tick.wav"
+    ],
+    "note": "nền Hồi 2"
+   }
+  ],
+  "23": [
+   {
+    "cue": "1.03",
+    "desc": "Cọt kẹt cửa sổ bị cạy mở trong đêm",
+    "status": "MOI",
+    "files": [
+     "fx_window_pry_break.wav"
+    ],
+    "note": "dùng chung T16"
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Bước chân lén lút trên sàn gỗ",
+    "status": "MOI",
+    "files": [
+     "fx_footsteps_stealth_wood.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "Máy in báo chạy rầm rộ",
+    "status": "MOI",
+    "files": [
+     "fx_printer_thermal.wav"
+    ],
+    "note": "dùng chung T07, T15"
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Còi xe cảnh sát hú dồn dập",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "Còng số tám khóa chặt lách cách",
+    "status": "MOI",
+    "files": [
+     "fx_handcuff_snap.wav"
+    ],
+    "note": "dùng chung T18, T25, T28"
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Hò reo của đám đông bên ngoài",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_cheer_outdoor.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Máy ảnh bấm liên thanh tách tách",
+    "status": "SAN",
+    "files": [
+     "t2/fx_camera_shutter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Xì xào phấn khích của các cô gái",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_excited_girls.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "Gõ búa tòa án giữ trật tự",
+    "status": "SAN",
+    "files": [
+     "gavel.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "(phần) Thở dài phẫn nộ của thân nhân nạn nhân",
+    "status": "MOI",
+    "files": [
+     "fx_sigh_emotional.wav"
+    ],
+    "note": "dùng chung T17, T18, T19, T21, T24, T25, T27"
+   },
+   {
+    "cue": "2.07",
+    "desc": "Xé phong bì thư sột soạt",
+    "status": "MOI",
+    "files": [
+     "fx_envelope_tear.wav"
+    ],
+    "note": "dùng chung T05"
+   },
+   {
+    "cue": "2.07",
+    "desc": "(phần) Bước chân giám thị trong trại giam",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "Khóa cửa buồng giam lách cách",
+    "status": "SAN",
+    "files": [
+     "lock_door.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Thở dốc mệt mỏi",
+    "status": "MOI",
+    "files": [
+     "fx_breathing_tired.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "Lật mở hồ sơ lưu trữ điều tra",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "(phần) Bút ký xác nhận kết thúc vụ án",
+    "status": "MOI",
+    "files": [
+     "fx_pen_signing_scroll.wav"
+    ],
+    "note": "dùng chung T20"
+   },
+   {
+    "cue": "4.07",
+    "desc": "Máy monitor tim đập chậm dần rồi tắt hẳn",
+    "status": "MOI",
+    "files": [
+     "amb_hospital_monitor_heartbeat.wav"
+    ],
+    "note": "dùng chung T13, T21"
+   },
+   {
+    "cue": "4.07",
+    "desc": "(phần) Còi xe cấp cứu chuyển thi thể",
+    "status": "MOI",
+    "files": [
+     "fx_ambulance_siren_close.wav"
+    ],
+    "note": "dùng chung T08, T11, T25, T28"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng kim đồng hồ tích tắc nặng nề",
+    "status": "SAN",
+    "files": [
+     "clock_tick.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng còi xe cảnh sát rền rĩ trong đêm hè oi ả",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": "nền Hồi 1"
+   }
+  ],
+  "24": [
+   {
+    "cue": "1.03",
+    "desc": "Còi xe tuần tra rền rĩ trong mưa đêm",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Bước chân chạy loạn xạ trên đường đất",
+    "status": "MOI",
+    "files": [
+     "fx_footsteps_run_gravel.wav"
+    ],
+    "note": "dùng chung T28"
+   },
+   {
+    "cue": "1.05",
+    "desc": "Đồng hồ tích tắc nặng nề",
+    "status": "SAN",
+    "files": [
+     "clock_tick.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Lật mở các trang tài liệu lưu trữ cũ kỹ",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "Máy phân tích ADN trong phòng thí nghiệm",
+    "status": "MOI",
+    "files": [
+     "amb_lab_equipment.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Bàn phím máy tính gõ dồn dập",
+    "status": "SAN",
+    "files": [
+     "keyboard_night.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Kéo ghế kim loại trong phòng hỏi cung",
+    "status": "SAN",
+    "files": [
+     "t2/fx_chair_scrape.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Rót nước trà ấm",
+    "status": "MOI",
+    "files": [
+     "fx_tea_pour_cup.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "Đặt tách cà phê xuống bàn",
+    "status": "SAN",
+    "files": [
+     "t2/fx_cup_down.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "(phần) Mở nắp bút bi sột soạt",
+    "status": "MOI",
+    "files": [
+     "fx_pen_cap_open.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "Lật mở hồ sơ nhân chứng năm xưa",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "(phần) Thở dài cay đắng của điều tra viên",
+    "status": "MOI",
+    "files": [
+     "fx_sigh_emotional.wav"
+    ],
+    "note": "dùng chung T17, T18, T19, T21, T23, T25, T27"
+   },
+   {
+    "cue": "4.03",
+    "desc": "Búa tòa án gõ dứt khoát ba tiếng",
+    "status": "SAN",
+    "files": [
+     "t2/fx_gavel_triple.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Thở phào nhẹ nhõm từ hàng ghế",
+    "status": "MOI",
+    "files": [
+     "fx_crowd_relief_sigh.wav"
+    ],
+    "note": "dùng chung T19, T21"
+   },
+   {
+    "cue": "4.05",
+    "desc": "Máy ảnh chớp nháy liên hồi",
+    "status": "SAN",
+    "files": [
+     "t2/fx_camera_shutter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "(phần) Vỗ tay vang dội phòng xử án",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_applause_court.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.07",
+    "desc": "Khóa cửa sắt nhà tù đóng sập nặng nề",
+    "status": "SAN",
+    "files": [
+     "t2/fx_door_metal_slam.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.07",
+    "desc": "(phần) Bước chân giám thị",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng gió thổi rít qua cánh đồng hoang vắng",
+    "status": "SAN",
+    "files": [
+     "t2/amb_winter_wind.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng mưa rơi rả rích",
+    "status": "SAN",
+    "files": [
+     "t3/amb_rain_storm.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng bước chân vang vọng trong hành lang nhà tù bê tông",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": "nền Hồi 2"
+   }
+  ],
+  "25": [
+   {
+    "cue": "1.03",
+    "desc": "Mưa rơi rả rích trên mái tôn",
+    "status": "SAN",
+    "files": [
+     "t3/amb_rain_storm.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Búa tạ kim loại gõ xuống nền bê tông",
+    "status": "MOI",
+    "files": [
+     "fx_sledgehammer_impact_concrete.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "Chuông điện thoại bàn reo dồn dập",
+    "status": "MOI",
+    "files": [
+     "fx_landline_ring_office.wav"
+    ],
+    "note": "dùng chung T14"
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Còi xe tuần tra rền rĩ",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "Giằng co dồn dập trên mặt đường ướt",
+    "status": "MOI",
+    "files": [
+     "fx_handcuffs_struggle_chain.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Còng số tám bập lại đanh thép",
+    "status": "MOI",
+    "files": [
+     "fx_handcuff_snap.wav"
+    ],
+    "note": "dùng chung T18, T23, T28"
+   },
+   {
+    "cue": "2.03",
+    "desc": "Cánh cửa kính vỡ loảng xoảng",
+    "status": "MOI",
+    "files": [
+     "fx_glass_smash_vehicle_crash.wav"
+    ],
+    "note": "dùng chung T14"
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Còi xe tuần tra dồn dập",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "Cánh cửa sắt phòng thẩm vấn đóng sập",
+    "status": "SAN",
+    "files": [
+     "t2/fx_door_metal_slam.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "(phần) Lật mở biên bản hỏi cung dồn dập",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "Máy ảnh chớp nháy dồn dập",
+    "status": "SAN",
+    "files": [
+     "t2/fx_camera_shutter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "(phần) Xẻng đào bới đất đá trong đêm mưa",
+    "status": "MOI",
+    "files": [
+     "fx_shovel_pick_dirt_stone.wav"
+    ],
+    "note": "dùng chung T18"
+   },
+   {
+    "cue": "4.03",
+    "desc": "Ồn ào phẫn nộ từ phòng xử án",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_angry_jeers.wav"
+    ],
+    "note": "dùng chung T18"
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Gõ búa giữ trật tự nghiêm khắc",
+    "status": "SAN",
+    "files": [
+     "gavel.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "Lật mở tập hồ sơ giám định ADN dày đặc",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "(phần) Micro của công tố viên",
+    "status": "MOI",
+    "files": [
+     "fx_mic_hum_feedback.wav"
+    ],
+    "note": "dùng chung T15–T29"
+   },
+   {
+    "cue": "4.07",
+    "desc": "Micro của đại diện gia đình nạn nhân",
+    "status": "MOI",
+    "files": [
+     "fx_mic_hum_feedback.wav"
+    ],
+    "note": "dùng chung T15–T29"
+   },
+   {
+    "cue": "4.07",
+    "desc": "(phần) Nấc nghẹn ngào từ hàng ghế khán phòng",
+    "status": "MOI",
+    "files": [
+     "fx_sobbing_crowd_row.wav"
+    ],
+    "note": "dùng chung T26, T27"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng gió rít",
+    "status": "SAN",
+    "files": [
+     "t2/amb_winter_wind.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng mưa rơi dồn dập trong đêm tối",
+    "status": "SAN",
+    "files": [
+     "t3/amb_rain_storm.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng còi hú báo động",
+    "status": "MOI",
+    "files": [
+     "amb_alarm_siren_distant.wav"
+    ],
+    "note": "nền Hồi 2 — dùng chung T08, T12"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng bước chân chạy gấp gáp trên nền bê tông",
+    "status": "MOI",
+    "files": [
+     "fx_footsteps_run_gravel.wav"
+    ],
+    "note": "nền Hồi 2 — dùng chung T24, T28"
+   }
+  ],
+  "26": [
+   {
+    "cue": "1.03",
+    "desc": "Bánh xe gỗ kẽo kẹt lăn trên đường đá vụn",
+    "status": "MOI",
+    "files": [
+     "amb_wooden_cart_stone_road.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Gió mùa đông gầm rú lạnh buốt",
+    "status": "MOI",
+    "files": [
+     "amb_winter_wind_hollow.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "Gõ bàn thẩm vấn dồn dập",
+    "status": "MOI",
+    "files": [
+     "fx_knock_table.wav"
+    ],
+    "note": "dùng chung T15"
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Lật giở giấy tờ kiểm tra hộ khẩu",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "Động cơ xe tuần tra nổ máy dồn dập",
+    "status": "MOI",
+    "files": [
+     "amb_car_engine_idle.wav"
+    ],
+    "note": "dùng chung T10, T22"
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Bước chân cảnh sát rầm rập bao vây tòa nhà",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Đếm tiền giấy sột soạt",
+    "status": "MOI",
+    "files": [
+     "fx_counting_cash.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Đóng dấu mộc trên văn bản hành chính",
+    "status": "MOI",
+    "files": [
+     "fx_stamp_wood.wav"
+    ],
+    "note": "dùng chung T04, T07"
+   },
+   {
+    "cue": "2.05",
+    "desc": "Cánh cửa sắt phòng thẩm vấn đóng sập",
+    "status": "SAN",
+    "files": [
+     "t2/fx_door_metal_slam.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "(phần) Lật mở các tập hóa đơn tài chính",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "Máy ảnh chớp nháy của các phóng viên",
+    "status": "SAN",
+    "files": [
+     "t2/fx_camera_shutter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "(phần) Xì xào phẫn nộ của dư luận ngoài cổng tòa án",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_outside_press_anger.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "Ồn ào xôn xao từ phòng xử án",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_murmur_courtroom.wav"
+    ],
+    "note": "dùng chung T14, T17–T28"
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Gõ búa giữ trật tự nghiêm khắc",
+    "status": "SAN",
+    "files": [
+     "gavel.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "Lật mở hồ sơ bằng chứng dày đặc",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "(phần) Micro của vị công tố viên",
+    "status": "MOI",
+    "files": [
+     "fx_mic_hum_feedback.wav"
+    ],
+    "note": "dùng chung T15–T29"
+   },
+   {
+    "cue": "4.07",
+    "desc": "Micro nghẹn ngào của nhân chứng đại diện thân nhân",
+    "status": "MOI",
+    "files": [
+     "fx_mic_hum_feedback.wav"
+    ],
+    "note": "dùng chung T15–T29"
+   },
+   {
+    "cue": "4.07",
+    "desc": "(phần) Nấc khóc xót xa từ hàng ghế khán phòng",
+    "status": "MOI",
+    "files": [
+     "fx_sobbing_crowd_row.wav"
+    ],
+    "note": "dùng chung T25, T27"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng gió rít qua những khu phố đổ nát",
+    "status": "SAN",
+    "files": [
+     "t2/amb_winter_wind.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng mưa tuyết rơi lạnh lẽo",
+    "status": "SAN",
+    "files": [
+     "t3/amb_rain_storm.wav"
+    ],
+    "note": "nền Hồi 1 — lớp mưa; gió lạnh dùng amb_winter_wind_hollow ở cue 1.03"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng máy đánh chữ lọc cọc",
+    "status": "SAN",
+    "files": [
+     "typewriter.wav"
+    ],
+    "note": "nền Hồi 2"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng bước chân trong hành lang ẩm mốc",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": "nền Hồi 2"
+   }
+  ],
+  "27": [
+   {
+    "cue": "1.03",
+    "desc": "Xe máy dừng gấp trước cổng sắt",
+    "status": "MOI",
+    "files": [
+     "fx_motorbike_stop_engine.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Chìa khóa tra vào ổ khóa kẽo kẹt",
+    "status": "MOI",
+    "files": [
+     "fx_key_in_lock.wav"
+    ],
+    "note": "dùng chung T14"
+   },
+   {
+    "cue": "1.05",
+    "desc": "Còi xe cảnh sát hú dồn dập",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Bước chân phong tỏa hiện trường",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "Chụp ảnh hiện trường chớp nháy liên tục",
+    "status": "SAN",
+    "files": [
+     "t2/fx_camera_shutter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Đo đạc dấu vết cơ học",
+    "status": "MOI",
+    "files": [
+     "fx_evidence_measure_tape.wav"
+    ],
+    "note": "dùng chung T28"
+   },
+   {
+    "cue": "2.03",
+    "desc": "Chuông điện thoại trích xuất dữ liệu",
+    "status": "MOI",
+    "files": [
+     "fx_modem_dialup_data.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Lật giở bảng kê cuộc gọi viễn thông",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "Cánh cửa sắt phòng hỏi cung đóng sập",
+    "status": "SAN",
+    "files": [
+     "t2/fx_door_metal_slam.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "(phần) Đặt tập hồ sơ dày cộp lên mặt bàn",
+    "status": "SAN",
+    "files": [
+     "stamp_thud.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "Còi xe hú dồn dập",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "(phần) Đạp cửa bắt giữ đối tượng trong đêm mưa",
+    "status": "MOI",
+    "files": [
+     "fx_door_kick_boot.wav"
+    ],
+    "note": "dùng chung T16"
+   },
+   {
+    "cue": "4.03",
+    "desc": "Ồn ào căm phẫn của hàng nghìn người dân",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_mourning_outdoor.wav"
+    ],
+    "note": "dùng chung T28"
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Búa tòa án gõ mạnh mẽ",
+    "status": "SAN",
+    "files": [
+     "gavel.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "Lật mở các tập hồ sơ tài liệu chứng cứ",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "(phần) Micro của vị đại diện Viện Kiểm sát",
+    "status": "MOI",
+    "files": [
+     "fx_mic_hum_feedback.wav"
+    ],
+    "note": "dùng chung T15–T29"
+   },
+   {
+    "cue": "4.07",
+    "desc": "Nấc nghẹn ngào từ hàng ghế đại diện gia đình nạn nhân",
+    "status": "MOI",
+    "files": [
+     "fx_sobbing_crowd_row.wav"
+    ],
+    "note": "dùng chung T25, T26"
+   },
+   {
+    "cue": "4.07",
+    "desc": "(phần) Thở dài xót xa của người dân",
+    "status": "MOI",
+    "files": [
+     "fx_sigh_emotional.wav"
+    ],
+    "note": "dùng chung T17, T18, T19, T21, T23, T24, T25"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng gió rít qua cánh rừng cao su bạt ngàn",
+    "status": "SAN",
+    "files": [
+     "t2/amb_winter_wind.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng mưa rả rích đầu mùa",
+    "status": "SAN",
+    "files": [
+     "t3/amb_rain_storm.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng gõ bàn phím máy tính phân tích dữ liệu viễn thông",
+    "status": "SAN",
+    "files": [
+     "keyboard_night.wav"
+    ],
+    "note": "nền Hồi 2"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng bước chân trinh sát",
+    "status": "SAN",
+    "files": [
+     "footsteps.wav"
+    ],
+    "note": "nền Hồi 2"
+   }
+  ],
+  "28": [
+   {
+    "cue": "1.03",
+    "desc": "Bước chân chạy vội vã trên vỉa hè ướt mưa",
+    "status": "MOI",
+    "files": [
+     "fx_footsteps_run_wet_pavement.wav"
+    ],
+    "note": "dùng chung T29"
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Đập cửa cuốn sắt thình thình",
+    "status": "MOI",
+    "files": [
+     "fx_roller_shutter_slam.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "Còi hụ cấp cứu dồn dập",
+    "status": "MOI",
+    "files": [
+     "fx_ambulance_siren_close.wav"
+    ],
+    "note": "dùng chung T08, T11, T23, T25"
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Rào chắn kim loại của cảnh sát phong tỏa",
+    "status": "MOI",
+    "files": [
+     "fx_metal_barrier_drop.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "Máy ảnh chớp nháy dồn dập",
+    "status": "SAN",
+    "files": [
+     "t2/fx_camera_shutter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Đo đạc kích thước dấu chân trên sàn nhà",
+    "status": "MOI",
+    "files": [
+     "fx_evidence_measure_tape.wav"
+    ],
+    "note": "dùng chung T27"
+   },
+   {
+    "cue": "2.03",
+    "desc": "Gió thổi ào ào qua hẻm núi biên giới",
+    "status": "MOI",
+    "files": [
+     "amb_wind_mountain_pass.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Máy bộ đàm liên lạc dồn dập",
+    "status": "SAN",
+    "files": [
+     "radio_chatter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.05",
+    "desc": "Còng số tám bập lại đanh thép",
+    "status": "MOI",
+    "files": [
+     "fx_handcuff_snap.wav"
+    ],
+    "note": "dùng chung T18, T23, T25"
+   },
+   {
+    "cue": "2.05",
+    "desc": "(phần) Bước chân áp giải đối tượng qua đường rừng",
+    "status": "MOI",
+    "files": [
+     "fx_footsteps_chase_forest.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "Máy ảnh chớp nháy của hàng chục phóng viên",
+    "status": "SAN",
+    "files": [
+     "t2/fx_camera_shutter.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.07",
+    "desc": "(phần) Xôn xao của dư luận khi đối tượng được di lý",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_murmur_press.wav"
+    ],
+    "note": "dùng chung T09, T20, T21, T22"
+   },
+   {
+    "cue": "4.03",
+    "desc": "Ồn ào căm phẫn từ hội trường xử án",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_murmur_hall_1000.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Búa tòa án gõ giữ trật tự",
+    "status": "SAN",
+    "files": [
+     "gavel.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "Lật giở các tập hồ sơ pháp lý",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.05",
+    "desc": "(phần) Micro của vị chủ tọa phiên tòa",
+    "status": "MOI",
+    "files": [
+     "fx_mic_hum_feedback.wav"
+    ],
+    "note": "dùng chung T15–T29"
+   },
+   {
+    "cue": "4.07",
+    "desc": "Khóc nức nở của đại diện gia đình bị hại",
+    "status": "MOI",
+    "files": [
+     "fx_crying_family_representative.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.07",
+    "desc": "(phần) Xôn xao từ hàng ghế khán phòng",
+    "status": "MOI",
+    "files": [
+     "amb_crowd_murmur_courtroom.wav"
+    ],
+    "note": "dùng chung T14, T17–T27"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng sấm rền từ xa",
+    "status": "MOI",
+    "files": [
+     "amb_thunder_distant.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng gió bão rít qua những mái nhà tôn",
+    "status": "SAN",
+    "files": [
+     "t2/amb_winter_wind.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng mưa như trút nước giữa đêm tối",
+    "status": "SAN",
+    "files": [
+     "t3/amb_rain_storm.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng động cơ xe tuần tra gầm rú",
+    "status": "MOI",
+    "files": [
+     "amb_car_engine_idle.wav"
+    ],
+    "note": "nền Hồi 2 — dùng chung T10, T22, T26"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng bước chân hành quân gấp gáp trong rừng sâu",
+    "status": "MOI",
+    "files": [
+     "fx_footsteps_chase_forest.wav"
+    ],
+    "note": "nền Hồi 2"
+   }
+  ],
+  "29": [
+   {
+    "cue": "1.03",
+    "desc": "Bước chân chạy thục mạng trên vỉa hè",
+    "status": "MOI",
+    "files": [
+     "fx_footsteps_run_wet_pavement.wav"
+    ],
+    "note": "dùng chung T28"
+   },
+   {
+    "cue": "1.03",
+    "desc": "(phần) Xích còng sắt va chạm lách cách",
+    "status": "SAN",
+    "files": [
+     "chains.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "Cửa khóa trái khô khốc",
+    "status": "MOI",
+    "files": [
+     "fx_lock_turning_dry.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.05",
+    "desc": "(phần) Rì rầm ma quái từ màn hình tivi",
+    "status": "MOI",
+    "files": [
+     "amb_tv_static_eerie.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "Gõ cửa dồn dập",
+    "status": "SAN",
+    "files": [
+     "door_knock.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "1.08",
+    "desc": "(phần) Bản lề cửa gỗ rít lên khi hé mở",
+    "status": "MOI",
+    "files": [
+     "fx_wooden_hinge_creak_open.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "Rót nước nóng vào ly giấy",
+    "status": "MOI",
+    "files": [
+     "fx_pour_hot_water_paper_cup.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "2.03",
+    "desc": "(phần) Bật lửa châm thuốc lá lách tách",
+    "status": "MOI",
+    "files": [
+     "fx_lighter_flick_flame.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.03",
+    "desc": "Micro rè rè",
+    "status": "MOI",
+    "files": [
+     "fx_mic_hum_feedback.wav"
+    ],
+    "note": "dùng chung T15–T29"
+   },
+   {
+    "cue": "4.03",
+    "desc": "(phần) Lật giở hồ sơ bệnh án dày cộp của các luật sư",
+    "status": "SAN",
+    "files": [
+     "paper_rustle.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "4.08",
+    "desc": "Gõ búa tòa án vang lên ba tiếng",
+    "status": "SAN",
+    "files": [
+     "t2/fx_gavel_triple.wav"
+    ],
+    "note": ""
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng mưa đêm rả rích",
+    "status": "SAN",
+    "files": [
+     "t3/amb_rain_storm.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 1.01",
+    "desc": "Tiếng còi tuần tra xa xăm của cảnh sát",
+    "status": "SAN",
+    "files": [
+     "police_siren_distant.wav"
+    ],
+    "note": "nền Hồi 1"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng gõ nhịp kim loại lạnh lẽo",
+    "status": "SAN",
+    "files": [
+     "t2/fx_tension_tick.wav"
+    ],
+    "note": "nền Hồi 2"
+   },
+   {
+    "cue": "BGM 2.01",
+    "desc": "Tiếng quạt thông gió trong phòng hỏi cung",
+    "status": "MOI",
+    "files": [
+     "amb_ceiling_fan.wav"
+    ],
+    "note": "nền Hồi 2 — dùng chung T12, T20"
+   }
+  ]
+ },
+ "newfiles": {
+  "fx_phone_line_hiss_1970.wav": [
+   3
+  ],
+  "fx_ambulance_siren_distant.wav": [
+   4,
+   19
+  ],
+  "fx_stretcher_wheels.wav": [
+   4
+  ],
+  "fx_defib_charge_shock.wav": [
+   4
+  ],
+  "fx_card_swipe.wav": [
+   4
+  ],
+  "fx_stamp_wood.wav": [
+   4,
+   7,
+   26
+  ],
+  "fx_hospital_door_open.wav": [
+   4
+  ],
+  "fx_spoon_clink.wav": [
+   4
+  ],
+  "amb_fastfood_cafeteria.wav": [
+   4
+  ],
+  "fx_monitor_case_close.wav": [
+   4
+  ],
+  "amb_hospital_ventilator.wav": [
+   4
+  ],
+  "fx_envelope_tear.wav": [
+   5,
+   23
+  ],
+  "fx_floppy_disk_insert.wav": [
+   5
+  ],
+  "fx_car_brake_screech.wav": [
+   5
+  ],
+  "fx_sigh_female.wav": [
+   5
+  ],
+  "amb_server_fan.wav": [
+   5
+  ],
+  "amb_crowd_applause_distant.wav": [
+   6
+  ],
+  "fx_hatch_lid_open.wav": [
+   6
+  ],
+  "fx_shovel_dirt.wav": [
+   6
+  ],
+  "fx_sigh_emotional.wav": [
+   6,
+   7,
+   17,
+   18,
+   19,
+   21,
+   23,
+   24,
+   27
+  ],
+  "fx_phone_typing_swipe.wav": [
+   7
+  ],
+  "fx_car_window_knock.wav": [
+   7
+  ],
+  "fx_zipper_bag.wav": [
+   7
+  ],
+  "fx_phone_vibrate.wav": [
+   7,
+   13
+  ],
+  "fx_printer_thermal.wav": [
+   7,
+   15,
+   23
+  ],
+  "amb_subway_station_jp.wav": [
+   8
+  ],
+  "fx_umbrella_puncture_nylon.wav": [
+   8
+  ],
+  "fx_liquid_pour_splat.wav": [
+   8
+  ],
+  "fx_train_door_slam.wav": [
+   8
+  ],
+  "fx_ambulance_siren_close.wav": [
+   8,
+   11,
+   23,
+   28
+  ],
+  "amb_megaphone_loudspeaker.wav": [
+   8
+  ],
+  "amb_alarm_siren_distant.wav": [
+   8,
+   12,
+   25
+  ],
+  "amb_female_humming_far.wav": [
+   9
+  ],
+  "amb_ocean_waves_soft.wav": [
+   9,
+   14,
+   18
+  ],
+  "amb_wind_pines.wav": [
+   9
+  ],
+  "fx_footsteps_gravel_stealth.wav": [
+   9
+  ],
+  "fx_rifle_shell_load.wav": [
+   9
+  ],
+  "amb_horse_hooves_distant.wav": [
+   9
+  ],
+  "amb_crowd_murmur_press.wav": [
+   9,
+   20,
+   21,
+   22,
+   28
+  ],
+  "amb_desert_wind_dry.wav": [
+   9
+  ],
+  "—": [
+   9
+  ],
+  "amb_highway_speed_car.wav": [
+   10
+  ],
+  "fx_car_tire_screech_stop.wav": [
+   10,
+   22
+  ],
+  "amb_car_engine_idle.wav": [
+   10,
+   22,
+   26,
+   28
+  ],
+  "fx_wooden_lid_slam_latch.wav": [
+   10
+  ],
+  "fx_doorbell_chime.wav": [
+   10
+  ],
+  "fx_latch_unlock.wav": [
+   10
+  ],
+  "fx_gravel_car_drive.wav": [
+   10
+  ],
+  "fx_glasses_clink.wav": [
+   11,
+   14
+  ],
+  "amb_party_crowd_outdoor.wav": [
+   11,
+   14
+  ],
+  "fx_objects_smash_break.wav": [
+   11
+  ],
+  "amb_projector_room.wav": [
+   11
+  ],
+  "fx_table_slap_anger.wav": [
+   11
+  ],
+  "amb_ceiling_fan.wav": [
+   12,
+   20,
+   29
+  ],
+  "amb_helicopter_far.wav": [
+   12,
+   14
+  ],
+  "amb_loudspeaker_jungle_echo.wav": [
+   12
+  ],
+  "amb_wind_tropical.wav": [
+   12
+  ],
+  "amb_crowd_singing_acoustic.wav": [
+   12
+  ],
+  "amb_small_plane_engine.wav": [
+   12
+  ],
+  "amb_tractor_engine.wav": [
+   12
+  ],
+  "fx_gunshots_rifle_shotgun.wav": [
+   12
+  ],
+  "fx_breathing_tense_close.wav": [
+   12,
+   17,
+   19,
+   20,
+   22
+  ],
+  "amb_crowd_arguing_indoor.wav": [
+   12
+  ],
+  "fx_sandpaper_scrape_eraser.wav": [
+   13
+  ],
+  "fx_inkjet_printer_run.wav": [
+   13,
+   18
+  ],
+  "amb_library_quiet.wav": [
+   13
+  ],
+  "amb_bus_distant.wav": [
+   13
+  ],
+  "fx_keyboard_typing_soft.wav": [
+   13
+  ],
+  "fx_footsteps_wood_heavy.wav": [
+   13
+  ],
+  "fx_gunshots_pistol_inside.wav": [
+   13
+  ],
+  "fx_scream_distant.wav": [
+   13
+  ],
+  "fx_dtmf_touch_tone_beep.wav": [
+   13,
+   17
+  ],
+  "fx_crying_female_phone.wav": [
+   13
+  ],
+  "amb_hospital_monitor_heartbeat.wav": [
+   13,
+   21,
+   23
+  ],
+  "fx_oxygen_breathing.wav": [
+   13
+  ],
+  "fx_metal_door_push_open.wav": [
+   13
+  ],
+  "fx_baby_crying_night.wav": [
+   14
+  ],
+  "fx_sewing_machine.wav": [
+   14
+  ],
+  "fx_landline_ring_office.wav": [
+   14,
+   25
+  ],
+  "fx_phone_hangup_click.wav": [
+   14
+  ],
+  "fx_vehicle_impact_metal.wav": [
+   14
+  ],
+  "fx_glass_smash_vehicle_crash.wav": [
+   14,
+   25
+  ],
+  "fx_key_in_lock.wav": [
+   14,
+   27
+  ],
+  "fx_footsteps_barefoot_stairs.wav": [
+   14
+  ],
+  "fx_gunshots_revolver_5.wav": [
+   14
+  ],
+  "fx_shell_casing_drop.wav": [
+   14
+  ],
+  "amb_crowd_murmur_courtroom.wav": [
+   14,
+   15,
+   17,
+   19,
+   22,
+   26,
+   28
+  ],
+  "fx_phone_ring_landline_night.wav": [
+   15,
+   16,
+   18
+  ],
+  "fx_crime_scene_tape_pull.wav": [
+   15
+  ],
+  "fx_footsteps_shoes_scuff.wav": [
+   15
+  ],
+  "fx_mouse_click_rapid.wav": [
+   15,
+   22
+  ],
+  "fx_computer_beep_restore.wav": [
+   15
+  ],
+  "fx_mechanical_keyboard.wav": [
+   15
+  ],
+  "fx_evidence_room_door.wav": [
+   15
+  ],
+  "fx_knock_table.wav": [
+   15,
+   26
+  ],
+  "amb_tv_camera_operator.wav": [
+   15,
+   22
+  ],
+  "fx_mic_hum_feedback.wav": [
+   15,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   25,
+   26,
+   27,
+   28,
+   29
+  ],
+  "fx_school_bell_dismissal.wav": [
+   16
+  ],
+  "fx_metal_lock_open.wav": [
+   16
+  ],
+  "fx_window_pry_break.wav": [
+   16,
+   23
+  ],
+  "fx_footsteps_dusty_wood_slow.wav": [
+   16
+  ],
+  "fx_scissors_cut_paper.wav": [
+   16
+  ],
+  "amb_train_horn_distant_night.wav": [
+   16
+  ],
+  "fx_chisel_hammer_clay.wav": [
+   16
+  ],
+  "fx_breathing_focused_artist.wav": [
+   16
+  ],
+  "fx_cup_shatter_tea.wav": [
+   16
+  ],
+  "fx_door_kick_boot.wav": [
+   16,
+   27
+  ],
+  "fx_911_call_recording_radio.wav": [
+   17
+  ],
+  "amb_carnival_ride_music_far.wav": [
+   17
+  ],
+  "fx_candy_wrapper_open.wav": [
+   17
+  ],
+  "fx_fridge_door_open.wav": [
+   17
+  ],
+  "fx_shovel_pick_dirt_stone.wav": [
+   18,
+   25
+  ],
+  "fx_dog_bark_working.wav": [
+   18
+  ],
+  "fx_handcuff_snap.wav": [
+   18,
+   23,
+   25,
+   28
+  ],
+  "fx_evidence_cabinet_open.wav": [
+   18
+  ],
+  "fx_lab_test_kit.wav": [
+   18
+  ],
+  "amb_crowd_angry_jeers.wav": [
+   18,
+   25
+  ],
+  "amb_wind_chime.wav": [
+   18
+  ],
+  "fx_handcuffs_chain_on_metal_table.wav": [
+   19
+  ],
+  "amb_panic_crowd_schoolyard.wav": [
+   19
+  ],
+  "fx_door_slam_indoor.wav": [
+   19
+  ],
+  "fx_bread_bag_open.wav": [
+   19
+  ],
+  "fx_phone_unlock_click.wav": [
+   19
+  ],
+  "fx_video_playback_static.wav": [
+   19,
+   22
+  ],
+  "fx_crowd_relief_sigh.wav": [
+   19,
+   21,
+   24
+  ],
+  "amb_camera_crew_press.wav": [
+   20
+  ],
+  "fx_lav_mic_breathing.wav": [
+   20
+  ],
+  "fx_keys_drop_on_table.wav": [
+   20
+  ],
+  "fx_saw_blade_packaging.wav": [
+   20
+  ],
+  "fx_pen_signing_scroll.wav": [
+   20,
+   23
+  ],
+  "amb_crowd_angry_whisper.wav": [
+   20
+  ],
+  "fx_car_door_close.wav": [
+   21,
+   22
+  ],
+  "fx_notebook_open_pages.wav": [
+   21
+  ],
+  "amb_car_start_leave_garage.wav": [
+   21
+  ],
+  "amb_lawyers_discussion.wav": [
+   21
+  ],
+  "fx_police_tape_flutter.wav": [
+   22
+  ],
+  "fx_courtroom_dead_silence.wav": [
+   22
+  ],
+  "fx_footsteps_stealth_wood.wav": [
+   23
+  ],
+  "amb_crowd_cheer_outdoor.wav": [
+   23
+  ],
+  "amb_crowd_excited_girls.wav": [
+   23
+  ],
+  "fx_breathing_tired.wav": [
+   23
+  ],
+  "fx_footsteps_run_gravel.wav": [
+   24,
+   25
+  ],
+  "amb_lab_equipment.wav": [
+   24
+  ],
+  "fx_tea_pour_cup.wav": [
+   24
+  ],
+  "fx_pen_cap_open.wav": [
+   24
+  ],
+  "amb_crowd_applause_court.wav": [
+   24
+  ],
+  "fx_sledgehammer_impact_concrete.wav": [
+   25
+  ],
+  "fx_handcuffs_struggle_chain.wav": [
+   25
+  ],
+  "fx_sobbing_crowd_row.wav": [
+   25,
+   26,
+   27
+  ],
+  "amb_wooden_cart_stone_road.wav": [
+   26
+  ],
+  "amb_winter_wind_hollow.wav": [
+   26
+  ],
+  "fx_counting_cash.wav": [
+   26
+  ],
+  "amb_crowd_outside_press_anger.wav": [
+   26
+  ],
+  "fx_motorbike_stop_engine.wav": [
+   27
+  ],
+  "fx_evidence_measure_tape.wav": [
+   27,
+   28
+  ],
+  "fx_modem_dialup_data.wav": [
+   27
+  ],
+  "amb_crowd_mourning_outdoor.wav": [
+   27
+  ],
+  "fx_footsteps_run_wet_pavement.wav": [
+   28,
+   29
+  ],
+  "fx_roller_shutter_slam.wav": [
+   28
+  ],
+  "fx_metal_barrier_drop.wav": [
+   28
+  ],
+  "amb_wind_mountain_pass.wav": [
+   28
+  ],
+  "fx_footsteps_chase_forest.wav": [
+   28
+  ],
+  "amb_crowd_murmur_hall_1000.wav": [
+   28
+  ],
+  "fx_crying_family_representative.wav": [
+   28
+  ],
+  "amb_thunder_distant.wav": [
+   28
+  ],
+  "fx_lock_turning_dry.wav": [
+   29
+  ],
+  "amb_tv_static_eerie.wav": [
+   29
+  ],
+  "fx_wooden_hinge_creak_open.wav": [
+   29
+  ],
+  "fx_pour_hot_water_paper_cup.wav": [
+   29
+  ],
+  "fx_lighter_flick_flame.wav": [
+   29
+  ]
+ }
+}

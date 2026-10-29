@@ -1,0 +1,57 @@
+﻿{
+  "decode_errors": 0,
+  "decode_error_sample": [],
+  "ebur128": {
+    "integrated_lufs": -16.2,
+    "lra": 8.0,
+    "true_peak_dbtp": -1.3
+  },
+  "ebur128_tail": "  Integrated loudness:\n    I:         -16.2 LUFS\n    Threshold: -26.9 LUFS\n  Loudness range:\n    LRA:         8.0 LU\n    Threshold: -36.9 LUFS\n    LRA low:   -21.6 LUFS\n    LRA high:  -13.6 LUFS\n  True peak:\n    Peak:       -1.3 dBFS\n[out#0/null @ 000001faf0e41200] video:0KiB audio:301069KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:26:45.70 bitrate=N/A speed=70.8x elapsed=0:00:22.68    ",
+  "silences_gt_0.3s_at_-60dB": [],
+  "silence_count": 0,
+  "silence_total_s": 0,
+  "silence_max_s": 0,
+  "segments": {
+    "dau_60s": {
+      "rms_db": [
+        -47.05258,
+        -32.684308,
+        -29.735909,
+        -31.709573,
+        -20.748579,
+        -21.002632
+      ],
+      "mean_db": -20.3,
+      "max_db": -1.7
+    },
+    "giua_800s": {
+      "rms_db": [
+        -12.630128,
+        -11.205962,
+        -15.151278,
+        -24.00654,
+        -31.517583,
+        -29.439236
+      ],
+      "mean_db": -16.7,
+      "max_db": -1.7
+    },
+    "cuoi_1500s": {
+      "rms_db": [
+        -51.699551,
+        -49.502091,
+        -51.263422,
+        -51.388323,
+        -42.759311,
+        -34.694298
+      ],
+      "mean_db": -24.9,
+      "max_db": -3.1
+    }
+  },
+  "channel_stats_header": "Input #0, mp3, from 'D:\\TEST\\Gax\\Audi\\02_SAN_XUAT\\Tap02\\xuat_ban\\Tap02_master.mp3':\n  Metadata:\n    encoder         : Lavf63.1.102\n  Duration: 00:26:45.70, start: 0.023021, bitrate: 192 kb/s\n  Stream #0:0: Audio: mp3 (mp3float), 48000 Hz, stereo, fltp, 192 kb/s, start 0.023021\n    Metadata:\n      encoder         : Lavc63.1.\nStream mapping:\n  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    encoder         : Lavf63.1.102\n  Stream #0:0: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s\n    Metadata:\n      encoder         : Lavc63.1.102 pcm_s16le\n[Parsed_astats_0 @ 00000249836fa140] Channel: 1\n[Parsed_astats_0 @ 00000249836fa140] DC offset: -0.000906\n[Parsed_astats_0 @ 00000249836fa140] Min level: -0.853556\n[Parsed_astats_0 @ 00000249836fa140] Max level: 0.849027\n[Parsed_astats_0 @ 00000249836fa140] Min difference: 0.000000\n[Parsed_astats_0 @ 00000249836fa140] Max difference: 0.905379\n[Parsed_astats_0 @ 00000249836fa140] Mean difference: 0.007380\n[Parsed_astats_0 @ 00000249836fa140] RMS difference: 0.018308\n[Parsed_astats_0 @ 00000249836fa140] Peak level dB: -1.375365\n[Parsed_astats_0 @ 00000249836fa140] RMS level dB: -19.587068\n[Parsed_astats_0 @ 00000249836fa140] RMS peak dB: -5.842647\n[Parsed_astats_0 @ 00000249836fa140] RMS through dB: -61.500727\n[Parsed_astats_0 @ 00000249836fa140] Crest factor: 8.139264\n[Parsed_astats_0 @ 00000249836fa140] Flat factor: 0.000000\n[Parsed_astats_0 @ 00000249836fa140] Peak count: 2\n[Parsed_astats_0 @ 00000249836fa140] Abs Peak count: 1\n[Parsed_astats_0 @ 00000249836fa140] Noise floor dB: -54.104137\n[Parsed_astats_0 @ 00000249836fa140] Noise floor count: 260\n[Parsed_astats_0 @ 00000249836fa140] Entropy: 0.778599\n[Parsed_astats_0 @ 00000249836fa140] Bit depth: 31/32/32/32\n[Parsed_astats_0 @ 00000249836fa140] Dynamic range: 193.698021\n[Parsed_astats_0 @ 00000249836fa140] Zero crossings: 3646048\n[Parsed_astats_0 @ 00000249836fa140] Zero crossings rate: 0.047306\n[Parsed_astats_0 @ 00000249836fa140] Number of NaNs: 0",
+  "first_pts": {
+    "v": "0.000000",
+    "a": ""
+  }
+}

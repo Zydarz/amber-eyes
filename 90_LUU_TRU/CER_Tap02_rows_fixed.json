@@ -1,0 +1,673 @@
+[
+ {
+  "role": "H",
+  "voice": "English_CaptivatingStoryteller",
+  "id": "1.03#2",
+  "ref": "Tại căn cứ Không quân Trenton – căn cứ không quân lớn nhất của quân đội Canada.",
+  "hyp": "tại căn cứ Không quân Trenton, căn cứ không quân lớn nhất của quân đội Canada,",
+  "cer": 0.0,
+  "hyp_clean": "tại căn cứ Không quân Trenton, căn cứ không quân lớn nhất của quân đội Canada,",
+  "diff": []
+ },
+ {
+  "role": "H",
+  "voice": "English_CaptivatingStoryteller",
+  "id": "1.05#3",
+  "ref": "Để hiểu sự ngưỡng mộ ấy lớn đến mức nào, hãy hình dung cảm nhận của những người từng phục vụ dưới quyền ông.",
+  "hyp": "Để hiểu sự ngưỡng mộ ấy lớn đến mức nào, hãy hình dung cảm nhận của những người từng phục vụ dưới quyền ông.",
+  "cer": 0.0,
+  "hyp_clean": "Để hiểu sự ngưỡng mộ ấy lớn đến mức nào, hãy hình dung cảm nhận của những người từng phục vụ dưới quyền ông.",
+  "diff": []
+ },
+ {
+  "role": "H",
+  "voice": "English_CaptivatingStoryteller",
+  "id": "1.10#3",
+  "ref": "Hôm sau, khi cô không đến làm, cảnh sát tỉnh Ontario mở hồ sơ điều tra và huy động một cuộc tìm kiếm quy mô lớn.",
+  "hyp": "Hôm sau, khi cô không đến làm, cảnh sát tỉnh Ontario mở hồ sơ điều tra và huy động một cuộc tìm kiếm quy mô lớn.",
+  "cer": 0.0,
+  "hyp_clean": "Hôm sau, khi cô không đến làm, cảnh sát tỉnh Ontario mở hồ sơ điều tra và huy động một cuộc tìm kiếm quy mô lớn.",
+  "diff": []
+ },
+ {
+  "role": "H",
+  "voice": "English_CaptivatingStoryteller",
+  "id": "1.14#2",
+  "ref": "Hôm ấy, chủ xe lái chiếc Pathfinder thay vì chiếc BMW mà ông ta vẫn thường đi.",
+  "hyp": "Hôm nay, chú xe lái chiếc Pathfinder thay vì chiếc BMW mà ông ta vẫn thường đi.",
+  "cer": 0.039473684210526314,
+  "hyp_clean": "Hôm nay, chú xe lái chiếc Pathfinder thay vì chiếc BMW mà ông ta vẫn thường đi.",
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "ấy chủ",
+    "hyp": "nay chú"
+   }
+  ]
+ },
+ {
+  "role": "H",
+  "voice": "English_CaptivatingStoryteller",
+  "id": "1.14#8",
+  "ref": "Chúng ta hãy nghe Điều tra viên tái hiện lại những gì đã diễn ra trong ba ngày đó.",
+  "hyp": "Chúng ta hãy nghe điều tra viên tái hiện lại những gì đã diễn ra trong ba ngày đó.",
+  "cer": 0.0,
+  "hyp_clean": "Chúng ta hãy nghe điều tra viên tái hiện lại những gì đã diễn ra trong ba ngày đó.",
+  "diff": []
+ },
+ {
+  "role": "H",
+  "voice": "English_CaptivatingStoryteller",
+  "id": "2.04#2",
+  "ref": "Hắn là một bóng ma đã âm thầm hoàn thiện kỹ năng săn mồi qua nhiều năm ròng rã trong bóng tối.",
+  "hyp": "hẳn là một bóng ma đã âm thầm hoàn thiện kỹ năng săn mồi qua nhiều năm rong rã trong bóng tối.",
+  "cer": 0.021505376344086023,
+  "hyp_clean": "hẳn là một bóng ma đã âm thầm hoàn thiện kỹ năng săn mồi qua nhiều năm rong rã trong bóng tối.",
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "hắn",
+    "hyp": "hẳn"
+   },
+   {
+    "op": "replace",
+    "ref": "ròng",
+    "hyp": "rong"
+   }
+  ]
+ },
+ {
+  "role": "H",
+  "voice": "English_CaptivatingStoryteller",
+  "id": "2.07#3",
+  "ref": "Nhưng nghịch lý thay, một kẻ cẩn trọng đến mức cực đoan như vậy lại không thể từ bỏ một thứ – thứ mà giới tội phạm học gọi là Chữ ký tâm lý.",
+  "hyp": "Nhưng nghịch lý thay, một kẻ cẩn trọng đến mức cực đoan như vậy lại không thể từ bỏ một thứ, thứ mà giới tội phạm học gọi là chữ ký tâm lý.",
+  "cer": 0.0,
+  "hyp_clean": "Nhưng nghịch lý thay, một kẻ cẩn trọng đến mức cực đoan như vậy lại không thể từ bỏ một thứ, thứ mà giới tội phạm học gọi là chữ ký tâm lý.",
+  "diff": []
+ },
+ {
+  "role": "H",
+  "voice": "English_CaptivatingStoryteller",
+  "id": "3.07#2",
+  "ref": "Ban ngày, ông ta vẫn điều hành các cuộc họp, bắt tay các quan chức cấp cao, tối về ăn tối cùng vợ, rồi nửa đêm lại biến thành một kẻ khác hoàn toàn.",
+  "hyp": "Ban ngày, ông ta vẫn điều hành các cuộc họp, bắt tay các quan chức cấp cao, tối về ăn tối cùng vợ, rồi nửa đêm lại biến thành một kẻ khác hoàn toàn.",
+  "cer": 0.0,
+  "hyp_clean": "Ban ngày, ông ta vẫn điều hành các cuộc họp, bắt tay các quan chức cấp cao, tối về ăn tối cùng vợ, rồi nửa đêm lại biến thành một kẻ khác hoàn toàn.",
+  "diff": []
+ },
+ {
+  "role": "H",
+  "voice": "English_CaptivatingStoryteller",
+  "id": "4.03#4",
+  "ref": "Ngồi đối diện với ông ta là Thám tử Jim Smyth – chuyên gia khoa học hành vi của Cảnh sát tỉnh Ontario.",
+  "hyp": "Ngồi đối diện với ông ta là thám tử Jim Smith, chuyên gia khoa học hành vi của cảnh sát tỉnh Ontario.",
+  "cer": 0.010101010101010102,
+  "hyp_clean": "Ngồi đối diện với ông ta là thám tử Jim Smith, chuyên gia khoa học hành vi của cảnh sát tỉnh Ontario.",
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "smyth",
+    "hyp": "smith"
+   }
+  ]
+ },
+ {
+  "role": "H",
+  "voice": "English_CaptivatingStoryteller",
+  "id": "4.07#3",
+  "ref": "Hãy nghe Điều tra viên tái hiện cuộc đấu trí nghẹt thở trong phòng thẩm vấn.",
+  "hyp": "Hãy nghe điều tra viên tái hiện cuộc đấu trí nghẹt thở trong phòng thẩm vấn",
+  "cer": 0.0,
+  "hyp_clean": "Hãy nghe điều tra viên tái hiện cuộc đấu trí nghẹt thở trong phòng thẩm vấn",
+  "diff": []
+ },
+ {
+  "role": "H",
+  "voice": "English_CaptivatingStoryteller",
+  "id": "4.12#5",
+  "ref": "Một người đàn ông duy nhất – tám mươi tám cáo buộc hình sự.",
+  "hyp": "Một người đàn ông duy nhất 88 cáo buộc hình sự.",
+  "cer": 0.0,
+  "hyp_clean": "Một người đàn ông duy nhất tám mươi tám cáo buộc hình sự.",
+  "diff": []
+ },
+ {
+  "role": "H",
+  "voice": "English_CaptivatingStoryteller",
+  "id": "5.02#6",
+  "ref": "Và đó là mức án tối thiểu mà luật hình sự Canada bắt buộc cho tội giết người cấp độ một.",
+  "hyp": "Và đó là mức án tối thiểu mà luật hình sự Canada bắt buộc cho tội giết người cấp độ 1.",
+  "cer": 0.0,
+  "hyp_clean": "Và đó là mức án tối thiểu mà luật hình sự Canada bắt buộc cho tội giết người cấp độ một.",
+  "diff": []
+ },
+ {
+  "role": "H",
+  "voice": "English_CaptivatingStoryteller",
+  "id": "5.04#6",
+  "ref": "Theo người phát ngôn quân đội Hubert Genest, không có nghi lễ chính thức nào, cũng không có ảnh chụp.",
+  "hyp": "Theo người phát ngôn quân đội Hubert Jenest, không có nghi lễ chính thức nào, cũng không có ảnh chụp",
+  "cer": 0.01020408163265306,
+  "hyp_clean": "Theo người phát ngôn quân đội Hubert Jenest, không có nghi lễ chính thức nào, cũng không có ảnh chụp",
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "genest",
+    "hyp": "jenest"
+   }
+  ]
+ },
+ {
+  "role": "H",
+  "voice": "English_CaptivatingStoryteller",
+  "id": "5.10#1",
+  "ref": "Hồ sơ về Đại tá Russell Williams là một lời nhắc nhở lạnh lùng về vực thẳm sâu hoắm của tâm trí con người.",
+  "hyp": "Hồ sơ về Đại tá Russell Williams là một lời nhắc nhở lạnh lùng về vực thẳm sâu hoắm của tâm trí con người.",
+  "cer": 0.0,
+  "hyp_clean": "Hồ sơ về Đại tá Russell Williams là một lời nhắc nhở lạnh lùng về vực thẳm sâu hoắm của tâm trí con người.",
+  "diff": []
+ },
+ {
+  "role": "H",
+  "voice": "English_CaptivatingStoryteller",
+  "id": "5.10#9",
+  "ref": "Và một cuộc đấu trí kéo dài khoảng mười tiếng đồng hồ – đủ lâu để một người đàn ông thông minh nhận ra rằng mình không còn giữ được gì nữa.",
+  "hyp": "và một cuộc đấu trí kéo dài khoảng mười tiếng đồng hồ, đủ lâu để một người đàn ông thông minh nhận ra rằng mình không còn giữ được gì nữa.",
+  "cer": 0.0,
+  "hyp_clean": "và một cuộc đấu trí kéo dài khoảng mười tiếng đồng hồ, đủ lâu để một người đàn ông thông minh nhận ra rằng mình không còn giữ được gì nữa.",
+  "diff": []
+ },
+ {
+  "role": "D",
+  "voice": "Korean_ColdYoungMan",
+  "id": "1.17#1",
+  "ref": "Tuyết mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù: một vệt gai lốp xe địa hình khá hiếm gặp, cùng một dấu giày đi tuyết cỡ lớn.",
+  "hyp": "Tuyết mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù, một vệt gai lốp xe địa hình khá hiếm gặp, cùng một dấu giày đi tuyết cỡ lớn.",
+  "cer": 0.0,
+  "hyp_clean": "Tuyết mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù, một vệt gai lốp xe địa hình khá hiếm gặp, cùng một dấu giày đi tuyết cỡ lớn.",
+  "diff": []
+ },
+ {
+  "role": "D",
+  "voice": "Korean_ColdYoungMan",
+  "id": "1.17#3",
+  "ref": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường – đủ để ghi lại và báo về cho nhóm điều tra.",
+  "hyp": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường, đủ để ghi lại và báo về cho nhóm điều tra.",
+  "cer": 0.0,
+  "hyp_clean": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường, đủ để ghi lại và báo về cho nhóm điều tra.",
+  "diff": []
+ },
+ {
+  "role": "D",
+  "voice": "Korean_ColdYoungMan",
+  "id": "1.17#5",
+  "ref": "Trong ba ngày sau đó, các điều tra viên lặng lẽ đối chiếu dấu vết.",
+  "hyp": "Trong ba ngày sau đó, các điều tra viên lặng lẽ đối chiếu dấu vết",
+  "cer": 0.0,
+  "hyp_clean": "Trong ba ngày sau đó, các điều tra viên lặng lẽ đối chiếu dấu vết",
+  "diff": []
+ },
+ {
+  "role": "D",
+  "voice": "Korean_ColdYoungMan",
+  "id": "1.17#7",
+  "ref": "Và thay vì nhận lệnh triệu tập, Đại tá Russell Williams nhận được một lời mời bằng điện thoại – mời đến trụ sở cảnh sát để trao đổi.",
+  "hyp": "Và thay vì nhận lệnh triệu tập, Đại tá Russell Williams nhận được một lời mời bằng điện thoại, mời đến trụ sở cảnh sát để trao đổi.",
+  "cer": 0.0,
+  "hyp_clean": "Và thay vì nhận lệnh triệu tập, Đại tá Russell Williams nhận được một lời mời bằng điện thoại, mời đến trụ sở cảnh sát để trao đổi.",
+  "diff": []
+ },
+ {
+  "role": "D",
+  "voice": "Korean_ColdYoungMan",
+  "id": "2.05#3",
+  "ref": "Ban đầu, Williams lảng vảng ban đêm trong các khu dân cư vắng, đứng trong bóng tối để rình rập phụ nữ qua khung cửa sổ.",
+  "hyp": "Mando, William lảng vảng ban đêm trong các khu dân cư vắng, đứng trong bóng tối để rình rập phụ nữ qua khung cửa sổ.",
+  "cer": 0.05172413793103448,
+  "hyp_clean": "Mando, William lảng vảng ban đêm trong các khu dân cư vắng, đứng trong bóng tối để rình rập phụ nữ qua khung cửa sổ.",
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "ban đầu williams",
+    "hyp": "mando william"
+   }
+  ]
+ },
+ {
+  "role": "D",
+  "voice": "Korean_ColdYoungMan",
+  "id": "2.05#6",
+  "ref": "Những vụ trộm đầu tiên mà cảnh sát lần ra có từ năm hai nghìn không trăm lẻ sáu.",
+  "hyp": "Những vụ trộm đầu tiên mà cảnh sát lần ra có từ năm 2006.",
+  "cer": 0.0,
+  "hyp_clean": "Những vụ trộm đầu tiên mà cảnh sát lần ra có từ năm hai nghìn không trăm lẻ sáu.",
+  "diff": []
+ },
+ {
+  "role": "D",
+  "voice": "Korean_ColdYoungMan",
+  "id": "2.05#9",
+  "ref": "Thứ hắn lấy đi là đồ lót và đồ riêng tư của phụ nữ.",
+  "hyp": "Thương hiệu Han Lady là đồ lót và đồ riêng tư của phụ nữ.",
+  "cer": 0.28,
+  "hyp_clean": "Thương hiệu Han Lady là đồ lót và đồ riêng tư của phụ nữ.",
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "thứ hắn lấy đi",
+    "hyp": "thương hiệu han lady"
+   }
+  ]
+ },
+ {
+  "role": "D",
+  "voice": "Korean_ColdYoungMan",
+  "id": "2.05#12",
+  "ref": "Tháng chín năm hai nghìn không trăm lẻ chín, ngưỡng kích thích tiếp tục bị lờn.",
+  "hyp": "Tháng 9 năm 2009, ngưỡng kích thích tiếp tục bị nâng.",
+  "cer": 0.03896103896103896,
+  "hyp_clean": "Tháng chín năm hai nghìn không trăm lẻ chín, ngưỡng kích thích tiếp tục bị nâng.",
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "lờn",
+    "hyp": "nâng"
+   }
+  ]
+ },
+ {
+  "role": "D",
+  "voice": "Korean_ColdYoungMan",
+  "id": "2.05#16",
+  "ref": "Và chỉ hai tháng sau đó, nạn nhân tiếp theo là Jessica Lloyd.",
+  "hyp": "Và chỉ hai tháng sau đó, nạn nhân tiếp theo là Jessica Lloyd",
+  "cer": 0.0,
+  "hyp_clean": "Và chỉ hai tháng sau đó, nạn nhân tiếp theo là Jessica Lloyd",
+  "diff": []
+ },
+ {
+  "role": "D",
+  "voice": "Korean_ColdYoungMan",
+  "id": "2.08#3",
+  "ref": "Hắn lấy đi những món đồ riêng tư để sống lại cảm giác kiểm soát mỗi khi ngồi lại một mình.",
+  "hyp": "Hắn lấy đi những món đồ riêng tư để sống lại cảm giác kiểm soát mỗi khi ngồi lại một mình.",
+  "cer": 0.0,
+  "hyp_clean": "Hắn lấy đi những món đồ riêng tư để sống lại cảm giác kiểm soát mỗi khi ngồi lại một mình.",
+  "diff": []
+ },
+ {
+  "role": "D",
+  "voice": "Korean_ColdYoungMan",
+  "id": "2.08#5",
+  "ref": "Hắn cần một thứ bằng chứng bất tử cho sự thống trị của mình: chụp ảnh, phân loại và lưu giữ chúng như những chiến tích.",
+  "hyp": "hắn cần một thứ bằng chứng bất tử cho sự thống trị của mình, chụp ảnh, phân loại và lưu giữ chúng như những chiến tích.This request was blocked by Gemini's filters. They can occasionally trigger by mistake on safe coding, security, or biology-related queries. Please try rephrasing your prompt. You can [send feedback](https://ai.google.dev/gemini-api/docs/troubleshooting#file-bug) or read more about [our policies here](https://policies.google.com/terms/generative-ai/use-policy).",
+  "cer": 0.0,
+  "_retry": true,
+  "hyp_clean": "hắn cần một thứ bằng chứng bất tử cho sự thống trị của mình, chụp ảnh, phân loại và lưu giữ chúng như những chiến tích.",
+  "diff": []
+ },
+ {
+  "role": "D",
+  "voice": "Korean_ColdYoungMan",
+  "id": "4.08#1",
+  "ref": "Trong căn phòng thẩm vấn nhỏ hẹp, Thám tử Jim Smyth không hề lớn tiếng hay tạo áp lực nặng nề.",
+  "hyp": "Trong căn phòng thẩm vấn nhỏ hẹp, thám tử James Smith không hề lớn tiếng, hay tạo áp lực nặng nề",
+  "cer": 0.043478260869565216,
+  "hyp_clean": "Trong căn phòng thẩm vấn nhỏ hẹp, thám tử James Smith không hề lớn tiếng, hay tạo áp lực nặng nề",
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "jim smyth",
+    "hyp": "james smith"
+   }
+  ]
+ },
+ {
+  "role": "D",
+  "voice": "Korean_ColdYoungMan",
+  "id": "4.08#3",
+  "ref": "Smyth hỏi: Williams có sẵn sàng đưa ra những gì để giúp cảnh sát loại ông ta khỏi diện nghi vấn?",
+  "hyp": "Smith hỏi William có sẵn sàng đưa ra những gì để giúp cảnh sát loại ông ta khỏi diện nghi vấn?",
+  "cer": 0.02127659574468085,
+  "hyp_clean": "Smith hỏi William có sẵn sàng đưa ra những gì để giúp cảnh sát loại ông ta khỏi diện nghi vấn?",
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "smyth",
+    "hyp": "smith"
+   },
+   {
+    "op": "replace",
+    "ref": "williams",
+    "hyp": "william"
+   }
+  ]
+ },
+ {
+  "role": "D",
+  "voice": "Korean_ColdYoungMan",
+  "id": "4.08#5",
+  "ref": "Trong lúc hai người trò chuyện, các đội trinh sát đang lặng lẽ thi hành lệnh khám xét tại ngôi nhà ở Ottawa và ngôi nhà nghỉ dưỡng ở Tweed.",
+  "hyp": "Trong lúc hai người trò chuyện, các đội trinh sát đang lặng lẽ thi hành lệnh khám xét tại ngôi nhà ở Ottawa và ngôi nhà nghỉ dưỡng ở Twit.",
+  "cer": 0.021897810218978103,
+  "hyp_clean": "Trong lúc hai người trò chuyện, các đội trinh sát đang lặng lẽ thi hành lệnh khám xét tại ngôi nhà ở Ottawa và ngôi nhà nghỉ dưỡng ở Twit.",
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "tweed",
+    "hyp": "twit"
+   }
+  ]
+ },
+ {
+  "role": "D",
+  "voice": "Korean_ColdYoungMan",
+  "id": "4.08#8",
+  "ref": "Hắn đưa ra một đề nghị kỳ lạ:   Cứ gọi tôi là Russ.",
+  "hyp": "Hắn đưa ra một đề nghị kỳ lạ. Cứ gọi tôi là Russ.",
+  "cer": 0.0,
+  "hyp_clean": "Hắn đưa ra một đề nghị kỳ lạ. Cứ gọi tôi là Russ.",
+  "diff": []
+ },
+ {
+  "role": "C",
+  "voice": "English_AssertiveQueen",
+  "id": "3.05#1",
+  "ref": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí.",
+  "hyp": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí.",
+  "cer": 0.0,
+  "hyp_clean": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí.",
+  "diff": []
+ },
+ {
+  "role": "C",
+  "voice": "English_AssertiveQueen",
+  "id": "3.05#3",
+  "ref": "Hành vi của hắn có thể được giải thích qua ba tầng cơ chế tâm lý cực kỳ nguy hiểm.",
+  "hyp": "Hành vi của hắn có thể được giải thích qua ba tầng cơ chế tâm lý cực kỳ nguy hiểm.",
+  "cer": 0.0,
+  "hyp_clean": "Hành vi của hắn có thể được giải thích qua ba tầng cơ chế tâm lý cực kỳ nguy hiểm.",
+  "diff": []
+ },
+ {
+  "role": "C",
+  "voice": "English_AssertiveQueen",
+  "id": "3.05#5",
+  "ref": "Những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật, và chúng không bắt đầu từ một vụ giết người, mà từ những xung lực rất nhỏ.",
+  "hyp": "Những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật và chúng không bắt đầu từ một vụ giết người, mà từ những xung lực rất nhỏ.",
+  "cer": 0.0,
+  "hyp_clean": "Những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật và chúng không bắt đầu từ một vụ giết người, mà từ những xung lực rất nhỏ.",
+  "diff": []
+ },
+ {
+  "role": "C",
+  "voice": "English_AssertiveQueen",
+  "id": "3.05#7",
+  "ref": "Theo mô hình đó, khi Williams lần đầu lấy trộm đồ lót, nỗi sợ bị bắt cộng với việc vi phạm điều cấm có thể đã tạo ra một cơn hưng phấn dị thường.",
+  "hyp": "Theo mô hình đó, khi Williams lần đầu lấy trộm đồ lót, nỗi sợ bị bắt cộng với việc vi phạm điều cấm có thể đã tạo ra một cơn hưng phấn dị thường.",
+  "cer": 0.0,
+  "hyp_clean": "Theo mô hình đó, khi Williams lần đầu lấy trộm đồ lót, nỗi sợ bị bắt cộng với việc vi phạm điều cấm có thể đã tạo ra một cơn hưng phấn dị thường.",
+  "diff": []
+ },
+ {
+  "role": "C",
+  "voice": "English_AssertiveQueen",
+  "id": "3.05#11",
+  "ref": "Đó là một chiếc dốc không đáy: ngưỡng thỏa mãn liên tục bị đẩy xa hơn cho đến khi dẫn tới án mạng.",
+  "hyp": "Đó là một chiếc dốc không đáy, ngưỡng thỏa mãn liên tục bị đẩy xa hơn cho đến khi dẫn tới án mạng.",
+  "cer": 0.0,
+  "hyp_clean": "Đó là một chiếc dốc không đáy, ngưỡng thỏa mãn liên tục bị đẩy xa hơn cho đến khi dẫn tới án mạng.",
+  "diff": []
+ },
+ {
+  "role": "C",
+  "voice": "English_AssertiveQueen",
+  "id": "3.08#2",
+  "ref": "Trong tâm lý học, Compartmentalization là một cơ chế phòng vệ, cho phép bộ não cô lập các luồng suy nghĩ, cảm xúc hoặc hành vi trái ngược nhau vào những ngăn kéo riêng biệt.",
+  "hyp": "Trong tâm lý học, compartmentalization là một cơ chế phòng vệ cho phép bộ não cô lập các luồng suy nghĩ, cảm xúc hoặc hành vi trái ngược nhau vào những ngăn kéo riêng biệt.",
+  "cer": 0.0,
+  "hyp_clean": "Trong tâm lý học, compartmentalization là một cơ chế phòng vệ cho phép bộ não cô lập các luồng suy nghĩ, cảm xúc hoặc hành vi trái ngược nhau vào những ngăn kéo riêng biệt.",
+  "diff": []
+ },
+ {
+  "role": "C",
+  "voice": "English_AssertiveQueen",
+  "id": "3.08#4",
+  "ref": "Ngăn kéo thứ nhất: Đại tá Williams – người chỉ huy mẫu mực, sống vì lý tưởng quân đội, trật tự, kỷ cương và đạo đức.",
+  "hyp": "Ngăn kéo thứ nhất, Đại tá Williams, người chỉ huy mẫu mực, sống vì lý tưởng quân đội, trật tự, kỷ cương và đạo đức.",
+  "cer": 0.0,
+  "hyp_clean": "Ngăn kéo thứ nhất, Đại tá Williams, người chỉ huy mẫu mực, sống vì lý tưởng quân đội, trật tự, kỷ cương và đạo đức.",
+  "diff": []
+ },
+ {
+  "role": "C",
+  "voice": "English_AssertiveQueen",
+  "id": "3.08#6",
+  "ref": "Khi ở ngăn kéo này, hắn đóng chặt cánh cửa của ngăn kéo kia.",
+  "hyp": "khi ngăn kéo này hắn đóng chặt cánh cửa của ngăn kéo kia",
+  "cer": 0.034482758620689655,
+  "hyp_clean": "khi ngăn kéo này hắn đóng chặt cánh cửa của ngăn kéo kia",
+  "diff": [
+   {
+    "op": "delete",
+    "ref": "ở",
+    "hyp": ""
+   }
+  ]
+ },
+ {
+  "role": "C",
+  "voice": "English_AssertiveQueen",
+  "id": "3.08#9",
+  "ref": "Và chính vì vậy, cuối cùng hắn không thể tự giải thích.",
+  "hyp": "Và chính vì vậy, cuối cùng hắn không thể tự giải thích.",
+  "cer": 0.0,
+  "hyp_clean": "Và chính vì vậy, cuối cùng hắn không thể tự giải thích.",
+  "diff": []
+ },
+ {
+  "role": "C",
+  "voice": "English_AssertiveQueen",
+  "id": "3.08#12",
+  "ref": "Và cũng là câu trả lời khiến chúng ta phải đặt lại toàn bộ khung phân tích.",
+  "hyp": "Và cũng là câu trả lời khiến chúng ta phải đặt lại toàn bộ khung phân tích.",
+  "cer": 0.0,
+  "hyp_clean": "Và cũng là câu trả lời khiến chúng ta phải đặt lại toàn bộ khung phân tích.",
+  "diff": []
+ },
+ {
+  "role": "C",
+  "voice": "English_AssertiveQueen",
+  "id": "3.11#3",
+  "ref": "Nhưng thứ quyền lực quân đội ấy vẫn bị ràng buộc bởi luật pháp và hệ thống.",
+  "hyp": "Nhưng thứ quyền lực quân đội ấy vẫn bị ràng buộc bởi luật pháp và hệ thống",
+  "cer": 0.0,
+  "hyp_clean": "Nhưng thứ quyền lực quân đội ấy vẫn bị ràng buộc bởi luật pháp và hệ thống",
+  "diff": []
+ },
+ {
+  "role": "C",
+  "voice": "English_AssertiveQueen",
+  "id": "3.11#8",
+  "ref": "Mỗi lần mở lại chúng, hắn lại có thêm một lý do để tin rằng bản thân mình vẫn là người đàn ông ở bục nhậm chức.",
+  "hyp": "Mỗi lần mở lại chúng, hắn lại có thêm một lý do để tin rằng bản thân mình vẫn là người đàn ông ở bục nhậm chức.",
+  "cer": 0.0,
+  "hyp_clean": "Mỗi lần mở lại chúng, hắn lại có thêm một lý do để tin rằng bản thân mình vẫn là người đàn ông ở bục nhậm chức.",
+  "diff": []
+ },
+ {
+  "role": "C",
+  "voice": "English_AssertiveQueen",
+  "id": "3.11#11",
+  "ref": "Còn ở đây, mỗi lần vi phạm, hắn lại được thưởng bằng chính thứ khiến hắn không thể dừng lại.",
+  "hyp": "Còn ở đây, mỗi lần vi phạm, hắn lại được thưởng bằng chính thứ khiến hắn không thể dừng lại.",
+  "cer": 0.0,
+  "hyp_clean": "Còn ở đây, mỗi lần vi phạm, hắn lại được thưởng bằng chính thứ khiến hắn không thể dừng lại.",
+  "diff": []
+ },
+ {
+  "role": "C",
+  "voice": "English_AssertiveQueen",
+  "id": "4.11#3",
+  "ref": "Và Thám tử Jim Smyth đã đánh trúng tử huyệt tâm lý của Williams: người vợ.",
+  "hyp": "Và thám tử Jim Smith đã đánh trúng tử huyệt tâm lý của Williams, người vợ.",
+  "cer": 0.013888888888888888,
+  "hyp_clean": "Và thám tử Jim Smith đã đánh trúng tử huyệt tâm lý của Williams, người vợ.",
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "smyth",
+    "hyp": "smith"
+   }
+  ]
+ },
+ {
+  "role": "C",
+  "voice": "English_AssertiveQueen",
+  "id": "4.11#5",
+  "ref": "Smyth đáp rằng ông cũng muốn vậy – và con đường duy nhất là sự thật.",
+  "hyp": "Smith đáp rằng, ông cũng muốn vậy, và con đường duy nhất là sự thật.",
+  "cer": 0.015384615384615385,
+  "hyp_clean": "Smith đáp rằng, ông cũng muốn vậy, và con đường duy nhất là sự thật.",
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "smyth",
+    "hyp": "smith"
+   }
+  ]
+ },
+ {
+  "role": "CTRL",
+  "voice": "Vietnamese_kindhearted_girl",
+  "id": "1.03#2",
+  "ref": "Tại căn cứ Không quân Trenton – căn cứ không quân lớn nhất của quân đội Canada.",
+  "hyp": "Tại căn cứ Không quân Trenton, căn cứ Không quân lớn nhất của Quân đội Canada.",
+  "cer": 0.0,
+  "note": "Vo luc 0% (ky vong ~0%)",
+  "hyp_clean": "Tại căn cứ Không quân Trenton, căn cứ Không quân lớn nhất của Quân đội Canada.",
+  "diff": []
+ },
+ {
+  "role": "CTRL",
+  "voice": "Vietnamese_kindhearted_girl",
+  "id": "1.05#3",
+  "ref": "Để hiểu sự ngưỡng mộ ấy lớn đến mức nào, hãy hình dung cảm nhận của những người từng phục vụ dưới quyền ông.",
+  "hyp": "Để hiểu sự ngưỡng mộ ấy lớn đến mức nào, hãy hình dung cảm nhận của những người từng phục vụ dưới quyền ông.",
+  "cer": 0.0,
+  "note": "Vo luc 0% (ky vong ~0%)",
+  "hyp_clean": "Để hiểu sự ngưỡng mộ ấy lớn đến mức nào, hãy hình dung cảm nhận của những người từng phục vụ dưới quyền ông.",
+  "diff": []
+ },
+ {
+  "role": "CTRL",
+  "voice": "Vietnamese_kindhearted_girl",
+  "id": "1.10#3",
+  "ref": "Hôm sau, khi cô không đến làm, cảnh sát tỉnh Ontario mở hồ sơ điều tra và huy động một cuộc tìm kiếm quy mô lớn.",
+  "hyp": "Hôm sau, khi cô không đến làm, cảnh sát tỉnh Ontario mở hồ sơ điều tra và huy động một cuộc tìm kiếm quy mô lớn.",
+  "cer": 0.0,
+  "note": "Vo luc 0% (ky vong ~0%)",
+  "hyp_clean": "Hôm sau, khi cô không đến làm, cảnh sát tỉnh Ontario mở hồ sơ điều tra và huy động một cuộc tìm kiếm quy mô lớn.",
+  "diff": []
+ },
+ {
+  "role": "CTRL",
+  "voice": "Vietnamese_kindhearted_girl",
+  "id": "1.14#2",
+  "ref": "Hôm ấy, chủ xe lái chiếc Pathfinder thay vì chiếc BMW mà ông ta vẫn thường đi.",
+  "hyp": "Hôm ấy, chú xe lái chiếc Pathfinder thay vì chiếc BMW mà ông ta vẫn thường đi.",
+  "cer": 0.013157894736842105,
+  "note": "Vo luc 0% (ky vong ~0%)",
+  "hyp_clean": "Hôm ấy, chú xe lái chiếc Pathfinder thay vì chiếc BMW mà ông ta vẫn thường đi.",
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "chủ",
+    "hyp": "chú"
+   }
+  ]
+ },
+ {
+  "role": "CTRL",
+  "voice": "Vietnamese_kindhearted_girl",
+  "id": "1.14#8",
+  "ref": "Chúng ta hãy nghe Điều tra viên tái hiện lại những gì đã diễn ra trong ba ngày đó.",
+  "hyp": "Chúng ta hãy nghe điều tra viên tái hiện lại những gì đã diễn ra trong ba ngày đó.",
+  "cer": 0.0,
+  "note": "Vo luc 0% (ky vong ~0%)",
+  "hyp_clean": "Chúng ta hãy nghe điều tra viên tái hiện lại những gì đã diễn ra trong ba ngày đó.",
+  "diff": []
+ },
+ {
+  "role": "CTRL",
+  "voice": "English_CalmWoman",
+  "id": "1.03#2",
+  "ref": "Tại căn cứ Không quân Trenton – căn cứ không quân lớn nhất của quân đội Canada.",
+  "hyp": "Tại căn cứ không quân Trenton, căn cứ không quân lớn nhất của quân đội Canada.",
+  "cer": 0.0,
+  "note": "Am lich 9,3% (ky vong cao)",
+  "hyp_clean": "Tại căn cứ không quân Trenton, căn cứ không quân lớn nhất của quân đội Canada.",
+  "diff": []
+ },
+ {
+  "role": "CTRL",
+  "voice": "English_CalmWoman",
+  "id": "1.05#3",
+  "ref": "Để hiểu sự ngưỡng mộ ấy lớn đến mức nào, hãy hình dung cảm nhận của những người từng phục vụ dưới quyền ông.",
+  "hyp": "Để hiểu sự ngưỡng mộ ấy lớn đến mức nào, hãy hình dung cảm nhận của những người từng phục vụ dưới quyền ông.",
+  "cer": 0.0,
+  "note": "Am lich 9,3% (ky vong cao)",
+  "hyp_clean": "Để hiểu sự ngưỡng mộ ấy lớn đến mức nào, hãy hình dung cảm nhận của những người từng phục vụ dưới quyền ông.",
+  "diff": []
+ },
+ {
+  "role": "CTRL",
+  "voice": "English_CalmWoman",
+  "id": "1.10#3",
+  "ref": "Hôm sau, khi cô không đến làm, cảnh sát tỉnh Ontario mở hồ sơ điều tra và huy động một cuộc tìm kiếm quy mô lớn.",
+  "hyp": "Hôm sau, khi cô không đến làm, cảnh sát tỉnh Ontario mở hồ sơ điều tra và huy động một cuộc tìm kiếm quy mô lớn.",
+  "cer": 0.0,
+  "note": "Am lich 9,3% (ky vong cao)",
+  "hyp_clean": "Hôm sau, khi cô không đến làm, cảnh sát tỉnh Ontario mở hồ sơ điều tra và huy động một cuộc tìm kiếm quy mô lớn.",
+  "diff": []
+ },
+ {
+  "role": "CTRL",
+  "voice": "English_CalmWoman",
+  "id": "1.14#2",
+  "ref": "Hôm ấy, chủ xe lái chiếc Pathfinder thay vì chiếc BMW mà ông ta vẫn thường đi.",
+  "hyp": "Hôm nay chú xe lại check Pathfinder thay vì check BMW mà ông ta vẫn thường đi.",
+  "cer": 0.13157894736842105,
+  "note": "Am lich 9,3% (ky vong cao)",
+  "hyp_clean": "Hôm nay chú xe lại check Pathfinder thay vì check BMW mà ông ta vẫn thường đi.",
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "ấy chủ",
+    "hyp": "nay chú"
+   },
+   {
+    "op": "replace",
+    "ref": "lái chiếc",
+    "hyp": "lại check"
+   },
+   {
+    "op": "replace",
+    "ref": "chiếc",
+    "hyp": "check"
+   }
+  ]
+ },
+ {
+  "role": "CTRL",
+  "voice": "English_CalmWoman",
+  "id": "1.14#8",
+  "ref": "Chúng ta hãy nghe Điều tra viên tái hiện lại những gì đã diễn ra trong ba ngày đó.",
+  "hyp": "chúng ta hãy nghe điều tra viên tái hiện lại những gì đã diễn ra trong ba ngày đó",
+  "cer": 0.0,
+  "note": "Am lich 9,3% (ky vong cao)",
+  "hyp_clean": "chúng ta hãy nghe điều tra viên tái hiện lại những gì đã diễn ra trong ba ngày đó",
+  "diff": []
+ }
+]

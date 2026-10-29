@@ -1,0 +1,53 @@
+﻿{
+  "sentences_total": 215,
+  "sentences_with_cues": 215,
+  "sentences_without_cues": 0,
+  "sentences_without_cues_ids": [],
+  "roles_without_cues": [],
+  "sentences_with_text_mismatch": 0,
+  "mismatch_sample": [],
+  "first_cue_offset": {
+    "min": 0.0,
+    "max": 0.0,
+    "abs_gt_0.1": 0,
+    "abs_gt_0.25": 0,
+    "abs_gt_0.5": 0,
+    "late_by_0.5": [],
+    "early_by_0.5": []
+  },
+  "speech_covered_by_subtitle_pct": 99.68,
+  "tagged_cues": 36,
+  "tags_by_role": {
+    "H": {
+      "count": 23,
+      "labels": [
+        "[HOST]"
+      ]
+    },
+    "N1": {
+      "count": 1,
+      "labels": [
+        "[BINH SĨ]"
+      ]
+    },
+    "D": {
+      "count": 6,
+      "labels": [
+        "[ĐIỀU TRA VIÊN]"
+      ]
+    },
+    "C": {
+      "count": 5,
+      "labels": [
+        "[CHUYÊN GIA TÂM LÝ]"
+      ]
+    },
+    "N2": {
+      "count": 1,
+      "labels": [
+        "[KHÁN GIẢ]"
+      ]
+    }
+  },
+  "roles_never_tagged": []
+}

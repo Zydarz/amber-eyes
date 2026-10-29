@@ -1,0 +1,67 @@
+=== Tap05: parser 33 lượt / JA 33 lượt ===
+  [01] parser role=H  n=  5 | Ngày 19 tháng 3 năm 2004. Tại thành phố Wichita, bang Kansas, nước Mỹ.
+      JA  role=HOST n=  5 | Ngày 19 tháng 3 năm 2004. Tại thàn | Tòa soạn báo The Wichita Eagle bấ
+  [02] parser role=H  n=  5 | Tin tức về sự tái xuất của BTK lập tức làm rúng động toàn bộ nước Mỹ. 
+      JA  role=HOST n=  5 | Tin tức về sự tái xuất của BTK lập | Suốt từ năm 1974 đến năm 1991, kẻ
+  [03] parser role=H  n=  1 | Để hiểu sự ngỡ ngàng và khiếp đảm ấy lớn đến mức nào, hãy lắng nghe ch
+      JA  role=HOST n=  1 | Để hiểu sự ngỡ ngàng và khiếp đảm 
+  [04] parser role=N  n=  3 | Khi nghe tin BTK gửi thư trở lại sau hơn một thập kỷ, cả thị trấn chún
+      JA  role=NGƯỜI BÌNH THƯỜNG n=  3 | Khi nghe tin BTK gửi thư trở lại s
+  [05] parser role=H  n=  7 | Đó chính là nghịch lý kỳ dị nhất trong toàn bộ lịch sử tư pháp thế giớ
+      JA  role=HOST n=  7 | Đó chính là nghịch lý kỳ dị nhất t | Kẻ thủ ác đã ngủ đông hoàn toàn s
+  [06] parser role=H  n=  1 | Để hiểu rõ thời khắc bắt đầu của cuộc đấu trí lịch sử, chúng ta hãy lắ
+      JA  role=HOST n=  1 | Để hiểu rõ thời khắc bắt đầu của c
+X [07] parser role=D  n=  7 | Khi chúng tôi nhận được bức thư vào tháng 3 năm 2004, câu hỏi đầu tiên
+      JA  role=ĐIỀU TRA VIÊN n=  6 | Khi chúng tôi nhận được bức thư và | Và khi lật lại các mặt báo địa ph
+  [08] parser role=H  n=  3 | Chào mừng bạn đến với hồ sơ phân tích tâm lý học tội phạm. Hôm nay, ch
+      JA  role=HOST n=  3 | Chào mừng bạn đến với hồ sơ phân t | Tập này sẽ đi sâu giải phẫu hai c
+  [09] parser role=H  n=  4 | Để hiểu được bản chất của Dennis Rader, trước hết chúng ta cần nhìn và
+      JA  role=HOST n=  4 | Để hiểu được bản chất của Dennis R | Khác với những kẻ thủ ác thông th
+X [10] parser role=D  n= 10 | Trong khoa học hành vi của FBI, chữ ký tâm lý là thứ kẻ phạm tội làm đ
+      JA  role=ĐIỀU TRA VIÊN n=  9 | Trong khoa học hành vi của FBI, ch | Thứ nhất: Nhu cầu áp chế tuyệt đố
+  [11] parser role=H  n=  4 | Một kẻ săn mồi tỉ mỉ, kiên nhẫn và tính toán đến từng chi tiết nhỏ nhấ
+      JA  role=HOST n=  4 | Một kẻ săn mồi tỉ mỉ, kiên nhẫn và | Thế nhưng, điều khiến toàn bộ nướ
+  [12] parser role=D  n=  7 | Dennis Rader sinh năm 1945, từng phục vụ 4 năm trong Không quân Mỹ, tố
+      JA  role=ĐIỀU TRA VIÊN n=  7 | Dennis Rader sinh năm 1945, từng p | Suốt hàng chục năm, hắn sống tại 
+  [13] parser role=H  n=  4 | Ban ngày là một công dân mẫu mực, một người sùng đạo tận tụy, một ngườ
+      JA  role=HOST n=  4 | Ban ngày là một công dân mẫu mực,  | Làm thế nào hai nhân cách đối lập
+X [14] parser role=C  n=  7 | Để giải mã Dennis Rader, các nhà tâm lý học tội phạm và chuyên gia tâm
+      JA  role=CHUYÊN GIA TÂM LÝ n=  5 | Để giải mã Dennis Rader, các nhà t | **Cơ chế thứ nhất: Sự phân mảnh t
+  [15] parser role=H  n=  3 | Một khái niệm rất kỳ dị thưa chuyên gia. Dennis Rader từng nhiều lần n
+      JA  role=HOST n=  3 | Một khái niệm rất kỳ dị thưa chuyê
+X [16] parser role=C  n=  5 | Dưới góc nhìn tâm lý học, “Nhân tố X” không phải là một con quỷ siêu n
+      JA  role=CHUYÊN GIA TÂM LÝ n=  4 | Dưới góc nhìn tâm lý học, 'Nhân tố | Rader coi những xung lực bạo lực 
+  [17] parser role=H  n=  3 | Một sự ngụy biện tinh vi để tự ru ngủ lương tâm. Nhưng thưa chuyên gia
+      JA  role=HOST n=  3 | Một sự ngụy biện tinh vi để tự ru 
+  [18] parser role=C  n=  7 | Đó chính là Cơ chế thứ hai: Ái kỷ ác tính (Malignant Narcissism) và Cơ
+      JA  role=CHUYÊN GIA TÂM LÝ n=  7 | Đó chính là **Cơ chế thứ hai: Ái k | Đối với một kẻ ái kỷ nặng như Den
+  [19] parser role=H  n=  3 | Cơn nghiện sự chú ý đã che mờ hoàn toàn bản năng sinh tồn của một kẻ s
+      JA  role=HOST n=  3 | Cơn nghiện sự chú ý đã che mờ hoàn | Hắn tin rằng mình thông minh hơn 
+X [20] parser role=H  n=  9 | Đầu năm 2005. Sau hàng loạt bức thư trêu ngươi gửi tới các cơ quan tru
+      JA  role=HOST n=  8 | Đầu năm 2005. Sau hàng loạt bức th | Hắn muốn chuyển sang một hình thứ
+X [21] parser role=D  n=  8 | Khi bức thư đó được đặt lên bàn làm việc của Trung úy Ken Landwehr – c
+      JA  role=ĐIỀU TRA VIÊN n=  7 | Khi bức thư đó được đặt lên bàn là | Chúng tôi lập tức tham vấn các ch
+X [22] parser role=H  n=  6 | Chiếc đĩa mềm màu tím lập tức được chuyển thẳng tới phòng giám định kỹ
+      JA  role=HOST n=  5 | Chiếc đĩa mềm màu tím lập tức được | Chuyên gia Randy Stone tiến hành 
+X [23] parser role=D  n=  9 | Các điều tra viên lập tức gõ từ khóa lên công cụ tìm kiếm: “Nhà thờ Lu
+      JA  role=ĐIỀU TRA VIÊN n=  7 | Các điều tra viên lập tức gõ từ kh | Chỉ sau một cú nhấp chuột, trang 
+  [24] parser role=H  n=  4 | Trưa ngày 25 tháng 2 năm 2005. Khi Dennis Rader đang lái chiếc xe bán 
+      JA  role=HOST n=  4 | Trưa ngày 25 tháng 2 năm 2005. Khi | Gã đàn ông 60 tuổi bị khóa tay tr
+X [25] parser role=D  n=  8 | Rader nhìn tôi với vẻ mặt bối rối, ngơ ngác như một đứa trẻ bị bạn chơ
+      JA  role=ĐIỀU TRA VIÊN n=  6 | Rader nhìn tôi với vẻ mặt bối rối, | *'Ken, tôi phải hỏi thật anh một 
+  [26] parser role=H  n=  2 | Nhưng phía sau sự thỏa mãn bệnh hoạn của kẻ thủ ác là sự sụp đổ kinh h
+      JA  role=HOST n=  2 | Nhưng phía sau sự thỏa mãn bệnh ho
+  [27] parser role=N  n=  4 | Cả thế giới biết đến ông ấy là một con quái vật man rợ. Nhưng với tôi,
+      JA  role=NGƯỜI BÌNH THƯỜNG n=  4 | Cả thế giới biết đến ông ấy là một
+  [28] parser role=H  n=  5 | Ngày 18 tháng 8 năm 2005. Tại Tòa án Quận Sedgwick, thành phố Wichita.
+      JA  role=HOST n=  5 | Ngày 18 tháng 8 năm 2005. Tại Tòa  | Thẩm phán Gregory Waller chính th
+  [29] parser role=H  n=  2 | Hồ sơ BTK khép lại sau hơn ba thập kỷ ròng rã, để lại cho các nhà điều
+      JA  role=HOST n=  2 | Hồ sơ BTK khép lại sau hơn ba thập | Xin mời Chuyên gia tâm lý và Điều
+  [30] parser role=C  n=  5 | Dấu hiệu thứ nhất: Sự ám ảnh kiểm soát quy tắc cực đoan. Hãy cẩn trọng
+      JA  role=CHUYÊN GIA TÂM LÝ n=  5 | "**Dấu hiệu thứ nhất: Sự ám ảnh ki | Hãy cẩn trọng với những cá nhân l
+  [31] parser role=D  n=  5 | Dấu hiệu thứ ba: Thói quen bí mật lưu trữ vật dụng của người khác. Hàn
+      JA  role=ĐIỀU TRA VIÊN n=  5 | "**Dấu hiệu thứ ba: Thói quen bí m | Hành vi lén lút thu thập, cất giấ
+  [32] parser role=H  n=  5 | Hồ sơ về Dennis Rader khép lại với một thông điệp sâu sắc về quy luật 
+      JA  role=HOST n=  5 | Hồ sơ về Dennis Rader khép lại với | Hắn đã từng tin rằng sự tỉ mỉ, tí
+  [33] parser role=H  n=  3 | Cảm ơn các chuyên gia và điều tra viên đã đồng hành cùng chương trình.
+      JA  role=HOST n=  3 | Cảm ơn các chuyên gia và điều tra  | Hãy luôn tỉnh thức, giữ cho mình 

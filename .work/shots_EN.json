@@ -1,0 +1,5442 @@
+{
+ "total": 1161.284,
+ "shots": [
+  {
+   "id": "1-00",
+   "act": 1,
+   "start": 20.5,
+   "end": 22.8,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_police",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ACT 01 · THE MOMENT TRUST BROKE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Đèn cảnh sát quét; drone dâng",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-01",
+   "act": 1,
+   "start": 22.8,
+   "end": 29.72,
+   "role": "H",
+   "sentences": [
+    "1.03#1",
+    "1.03#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "JUNE 14 · 2015"
+      ],
+      [
+       "ital",
+       "Springfield, Missouri"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gõ từng ký tự",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-02",
+   "act": 1,
+   "start": 29.72,
+   "end": 48.156,
+   "role": "H",
+   "sentences": [
+    "1.03#3"
+   ],
+   "template": "T11",
+   "variant": "",
+   "bg": "phone_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "THE MOTHER AND DAUGHTER’S SHARED SOCIAL MEDIA PAGE"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ONE STATUS LEFT A WHOLE NEIGHBORHOOD SPEECHLESS"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "bitter"
+   ],
+   "beat_text": "Bài đăng hiện dạng các dòng mờ, không đọc được chữ, ở \"bitter\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-03",
+   "act": 1,
+   "start": 48.156,
+   "end": 49.956,
+   "role": null,
+   "sentences": [],
+   "template": "T11",
+   "variant": "",
+   "bg": "phone_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "THE MOTHER AND DAUGHTER’S SHARED SOCIAL MEDIA PAGE"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ONE STATUS LEFT A WHOLE NEIGHBORHOOD SPEECHLESS"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-02"
+  },
+  {
+   "id": "1-04",
+   "act": 1,
+   "start": 49.956,
+   "end": 55.53,
+   "role": "H",
+   "sentences": [
+    "1.05#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "crowd_house",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "A SMALL PASTEL-PINK HOUSE"
+      ],
+      [
+       "ital",
+       "Springfield, Missouri"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-05",
+   "act": 1,
+   "start": 55.53,
+   "end": 66.978,
+   "role": "H",
+   "sentences": [
+    "1.05#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "NEXT:"
+      ],
+      [
+       "bold",
+       "A RESIDENT OF THE SAME STREET"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N1"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-06",
+   "act": 1,
+   "start": 66.978,
+   "end": 74.111,
+   "role": "N1",
+   "sentences": [
+    "1.07#1"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "A symbol of sacred motherly love"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-07",
+   "act": 1,
+   "start": 74.111,
+   "end": 97.144,
+   "role": "N1",
+   "sentences": [
+    "1.07#2"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "deedee_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "WHAT THE WHOLE NEIGHBORHOOD BELIEVED"
+      ],
+      [
+       "ital",
+       "Paralysis from the waist down · Leukemia · Muscular dystrophy · Severe epilepsy · The mind of a seven-year-old"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục tại cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-08",
+   "act": 1,
+   "start": 97.144,
+   "end": 104.404,
+   "role": "N1",
+   "sentences": [
+    "1.07#3"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Everyone in this town was moved to tears"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-09",
+   "act": 1,
+   "start": 104.404,
+   "end": 114.225,
+   "role": "H",
+   "sentences": [
+    "1.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE MOTHER WAS DEAD"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-10",
+   "act": 1,
+   "start": 114.225,
+   "end": 117.695,
+   "role": "H",
+   "sentences": [
+    "1.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "empty_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "GYPSY ROSE WAS GONE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "1-11",
+   "act": 1,
+   "start": 117.695,
+   "end": 127.213,
+   "role": "H",
+   "sentences": [
+    "1.08#3",
+    "1.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "wheelchair_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "WHEELCHAIR · OXYGEN TANKS · DOZENS OF MEDICINE BOTTLES"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "`#3` sáng xe lăn, `#4` sáng kệ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-12",
+   "act": 1,
+   "start": 127.213,
+   "end": 142.34,
+   "role": "H",
+   "sentences": [
+    "1.08#5"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "wheelchair_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ALL OF AMERICA ASKED"
+      ],
+      [
+       "bold",
+       "WHO CAUSED THE MOTHER’S DEATH?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-13",
+   "act": 1,
+   "start": 142.34,
+   "end": 149.506,
+   "role": "H",
+   "sentences": [
+    "1.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "interrogation",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "NEXT:"
+      ],
+      [
+       "bold",
+       "THE INVESTIGATOR ON THE CASE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-14",
+   "act": 1,
+   "start": 149.506,
+   "end": 151.306,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "interrogation",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "NEXT:"
+      ],
+      [
+       "bold",
+       "THE INVESTIGATOR ON THE CASE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-13"
+  },
+  {
+   "id": "1-15",
+   "act": 1,
+   "start": 151.306,
+   "end": 156.579,
+   "role": "D",
+   "sentences": [
+    "1.11#1"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "FEARED KIDNAPPED"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "kidnapped"
+   ],
+   "beat_text": "Dấu mộc ở \"kidnapped\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-16",
+   "act": 1,
+   "start": 156.579,
+   "end": 167.928,
+   "role": "D",
+   "sentences": [
+    "1.11#2"
+   ],
+   "template": "T7",
+   "variant": "",
+   "bg": "route_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE NEXT DAY"
+      ],
+      [
+       "ital",
+       "Wisconsin — hundreds of miles away"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Đường tự vẽ, số đếm",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-17",
+   "act": 1,
+   "start": 167.928,
+   "end": 177.74,
+   "role": "D",
+   "sentences": [
+    "1.11#3",
+    "1.11#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "interrogation_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SHE WALKED IN ON HER OWN"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Đèn treo sáng ở `#4`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-18",
+   "act": 1,
+   "start": 177.74,
+   "end": 183.979,
+   "role": "D",
+   "sentences": [
+    "1.11#5",
+    "1.11#6",
+    "1.11#7"
+   ],
+   "template": "T8",
+   "variant": "strike",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Leukemia · Muscular dystrophy · Brain damage"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi câu gạch một mục",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "1-19",
+   "act": 1,
+   "start": 183.979,
+   "end": 193.231,
+   "role": "D",
+   "sentences": [
+    "1.11#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "bedroom_door_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HER OWN LITTLE GIRL"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "none other"
+   ],
+   "beat_text": "Tiêu đề ở \"none other\"",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": true
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-20",
+   "act": 1,
+   "start": 193.231,
+   "end": 197.618,
+   "role": "H",
+   "sentences": [
+    "1.13#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE CRIMINAL PSYCHOLOGY CASE FILES"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "\"Tách\" ở đầu",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-21",
+   "act": 1,
+   "start": 197.618,
+   "end": 210.042,
+   "role": "H",
+   "sentences": [
+    "1.13#2"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MUNCHAUSEN SYNDROME BY PROXY"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "EPISODE 01 · POISON IN THE NAME OF A MOTHER’S LOVE"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Munchausen syndrome"
+   ],
+   "beat_text": "Thuật ngữ ở \"Munchausen syndrome\"; tên tập cuối câu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-22",
+   "act": 1,
+   "start": 210.042,
+   "end": 211.842,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ACT 02"
+      ],
+      [
+       "bold",
+       "23 YEARS IN A MEDICAL PRISON"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "2-01",
+   "act": 2,
+   "start": 211.842,
+   "end": 225.301,
+   "role": "H",
+   "sentences": [
+    "2.02#1",
+    "2.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NOT THE BEDROOM"
+      ],
+      [
+       "ital",
+       "June 2015"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiêu đề ở `#2`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-02",
+   "act": 2,
+   "start": 225.301,
+   "end": 233.346,
+   "role": "H",
+   "sentences": [
+    "2.02#3"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "wheelchair_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "THE REAL CRIME SCENE"
+      ],
+      [
+       "bold",
+       "23 YEARS"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Số đếm",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-03",
+   "act": 2,
+   "start": 233.346,
+   "end": 270.902,
+   "role": "H",
+   "sentences": [
+    "2.04#1",
+    "2.04#2",
+    "2.04#3",
+    "2.04#4",
+    "2.04#5"
+   ],
+   "template": "T6",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "1991 · Born healthy"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "3 months old · Sleep apnea"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "A medical history is fabricated"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Age 7 · Spinal cord injury · Wheelchair"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Head shaved · Chemotherapy for leukemia"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi câu một mốc",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-04",
+   "act": 2,
+   "start": 270.902,
+   "end": 274.732,
+   "role": "H",
+   "sentences": [
+    "2.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NOT JUST LIES"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-05",
+   "act": 2,
+   "start": 274.732,
+   "end": 282.443,
+   "role": "H",
+   "sentences": [
+    "2.06#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THOUSANDS OF PAGES OF MEDICAL RECORDS"
+      ],
+      [
+       "ital",
+       "Direct medical interventions on Gypsy’s body"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-06",
+   "act": 2,
+   "start": 282.443,
+   "end": 287.183,
+   "role": "H",
+   "sentences": [
+    "2.06#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "NEXT:"
+      ],
+      [
+       "bold",
+       "THE INVESTIGATOR PRESENTS THE FILE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-07",
+   "act": 2,
+   "start": 287.183,
+   "end": 297.181,
+   "role": "D",
+   "sentences": [
+    "2.07#1"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THREE CLEAR TRACES IN THE MEDICAL FILES"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Bộ đếm `0/3`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-08",
+   "act": 2,
+   "start": 297.181,
+   "end": 309.898,
+   "role": "D",
+   "sentences": [
+    "2.07#2"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "wheelchair_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HIGH-DOSE ANTI-SEIZURE MEDICATION"
+      ],
+      [
+       "ital",
+       "Even though she had no epilepsy"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "even though"
+   ],
+   "beat_text": "Phụ ở \"even though\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-09",
+   "act": 2,
+   "start": 309.898,
+   "end": 315.218,
+   "role": "D",
+   "sentences": [
+    "2.07#3"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "A FEEDING TUBE INTO THE STOMACH"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-10",
+   "act": 2,
+   "start": 315.218,
+   "end": 325.843,
+   "role": "D",
+   "sentences": [
+    "2.07#4"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "AN UNNECESSARY SURGERY"
+      ],
+      [
+       "ital",
+       "Based on false symptoms described to doctors"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-11",
+   "act": 2,
+   "start": 325.843,
+   "end": 335.894,
+   "role": "D",
+   "sentences": [
+    "2.07#5"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HUNDREDS OF DOCTORS"
+      ],
+      [
+       "ital",
+       "No one noticed?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Biểu tượng hiện dần",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-12",
+   "act": 2,
+   "start": 335.894,
+   "end": 342.223,
+   "role": "D",
+   "sentences": [
+    "2.07#6"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MODUS OPERANDI"
+      ],
+      [
+       "ital",
+       "(method of operation)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "3 thẻ trống ghim lên",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-13",
+   "act": 2,
+   "start": 342.223,
+   "end": 349.632,
+   "role": "D",
+   "sentences": [
+    "2.07#7"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "01"
+      ],
+      [
+       "bold",
+       "A FORMER NURSE’S AIDE"
+      ],
+      [
+       "ital",
+       "Knew medical terminology well"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-14",
+   "act": 2,
+   "start": 349.632,
+   "end": 369.547,
+   "role": "D",
+   "sentences": [
+    "2.07#8",
+    "2.07#9"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": "storm",
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "02 · 2005"
+      ],
+      [
+       "bold",
+       "HURRICANE KATRINA"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 9,
+     "elems": [
+      [
+       "ital",
+       "The entire medical history came from Dee Dee’s words alone"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Dây đỏ nối ở `#9`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-15",
+   "act": 2,
+   "start": 369.547,
+   "end": 387.078,
+   "role": "D",
+   "sentences": [
+    "2.07#10"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "03"
+      ],
+      [
+       "bold",
+       "ANY DOUBT → A NEW DOCTOR, A NEW HOSPITAL"
+      ],
+      [
+       "ital",
+       "Dr Bernardo Flasterstein · 2007"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Kéo ra thấy cả bảng",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-16",
+   "act": 2,
+   "start": 387.078,
+   "end": 398.035,
+   "role": "H",
+   "sentences": [
+    "2.09#1",
+    "2.09#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_closed",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE WINDOWS WERE ALWAYS SHUT"
+      ],
+      [
+       "ital",
+       "Not allowed to go to school"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng khoá cửa ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-17",
+   "act": 2,
+   "start": 398.035,
+   "end": 408.117,
+   "role": "H",
+   "sentences": [
+    "2.09#3"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "house_closed",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "−4 YEARS"
+      ],
+      [
+       "ital",
+       "Her age falsely lowered to keep her a minor"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-18",
+   "act": 2,
+   "start": 408.117,
+   "end": 418.057,
+   "role": "H",
+   "sentences": [
+    "2.09#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "A PRISON WITHOUT BARS"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "built instead"
+   ],
+   "beat_text": "Song sắt ở \"built instead\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-19",
+   "act": 2,
+   "start": 418.057,
+   "end": 419.857,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ACT 03"
+      ],
+      [
+       "bold",
+       "INSIDE THE MIND BEHIND FDIA"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "3-01",
+   "act": 3,
+   "start": 419.857,
+   "end": 425.435,
+   "role": "H",
+   "sentences": [
+    "3.02#1"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "THE BIGGEST QUESTION"
+      ],
+      [
+       "bold",
+       "WHY?"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Why?"
+   ],
+   "beat_text": "Đúng ở \"Why?\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "3-02",
+   "act": 3,
+   "start": 425.435,
+   "end": 432.63,
+   "role": "H",
+   "sentences": [
+    "3.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "fog_deedee",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MORE THAN TWO DECADES"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-03",
+   "act": 3,
+   "start": 432.63,
+   "end": 448.409,
+   "role": "H",
+   "sentences": [
+    "3.02#3",
+    "3.02#4"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "charity",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "PROFITING FROM CHARITY?"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "bold",
+       "MONEY WAS ONLY A SIDE BENEFIT"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Đồng xu mờ ở `#4`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-04",
+   "act": 3,
+   "start": 448.409,
+   "end": 466.017,
+   "role": "H",
+   "sentences": [
+    "3.02#5"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MUNCHAUSEN SYNDROME BY PROXY"
+      ],
+      [
+       "ital",
+       "(MSbP)"
+      ],
+      [
+       "ital",
+       "DSM-5-TR: factitious disorder imposed on another — FDIA"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "DSM-5-TR"
+   ],
+   "beat_text": "Dòng DSM ở \"DSM-5-TR\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-05",
+   "act": 3,
+   "start": 466.017,
+   "end": 467.817,
+   "role": null,
+   "sentences": [],
+   "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MUNCHAUSEN SYNDROME BY PROXY"
+      ],
+      [
+       "ital",
+       "(MSbP)"
+      ],
+      [
+       "ital",
+       "DSM-5-TR: factitious disorder imposed on another — FDIA"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-04"
+  },
+  {
+   "id": "3-06",
+   "act": 3,
+   "start": 467.817,
+   "end": 481.336,
+   "role": "H",
+   "sentences": [
+    "3.04#1",
+    "3.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "NEXT:"
+      ],
+      [
+       "bold",
+       "A CRIMINAL PSYCHOLOGIST"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "3 psychological layers"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-07",
+   "act": 3,
+   "start": 481.336,
+   "end": 494.747,
+   "role": "C",
+   "sentences": [
+    "3.05#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "3 LAYERS OF MOTIVE"
+      ],
+      [
+       "ital",
+       "Unconscious and conscious"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "3 vòng sáng lần lượt",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-08",
+   "act": 3,
+   "start": 494.747,
+   "end": 500.841,
+   "role": "C",
+   "sentences": [
+    "3.05#2"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "LAYER 01 · ADDICTED TO GLORY"
+      ],
+      [
+       "quote",
+       "Martyred saint"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-09",
+   "act": 3,
+   "start": 500.841,
+   "end": 523.609,
+   "role": "C",
+   "sentences": [
+    "3.05#3",
+    "3.05#4"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MALINGERING"
+      ],
+      [
+       "ital",
+       "(faking illness for gain) → money"
+      ],
+      [
+       "bold",
+       "MUNCHAUSEN"
+      ],
+      [
+       "ital",
+       "→ attention, sympathy, admiration"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cột phải ở `#4`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-10",
+   "act": 3,
+   "start": 523.609,
+   "end": 542.623,
+   "role": "C",
+   "sentences": [
+    "3.05#5",
+    "3.05#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "fog_deedee",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Estranged from her family · A marriage broken at 24"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "A FAINT SHADOW"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiêu đề ở `#6`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-11",
+   "act": 3,
+   "start": 542.623,
+   "end": 552.425,
+   "role": "C",
+   "sentences": [
+    "3.05#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "spotlight_deedee",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE CENTER OF THE UNIVERSE"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "suddenly"
+   ],
+   "beat_text": "Đèn bật ở \"suddenly\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "3-12",
+   "act": 3,
+   "start": 552.425,
+   "end": 562.446,
+   "role": "C",
+   "sentences": [
+    "3.05#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "spotlight_deedee",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "A LIVING SAINT"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi biểu tượng ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-13",
+   "act": 3,
+   "start": 562.446,
+   "end": 572.433,
+   "role": "C",
+   "sentences": [
+    "3.05#9"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "DOPAMINE"
+      ],
+      [
+       "ital",
+       "Every emergency visit for Gypsy"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Nhịp nhấp nháy",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": true
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-14",
+   "act": 3,
+   "start": 572.433,
+   "end": 573.733,
+   "role": null,
+   "sentences": [],
+   "template": "T5",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "DOPAMINE"
+      ],
+      [
+       "ital",
+       "Every emergency visit for Gypsy"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-13"
+  },
+  {
+   "id": "3-15",
+   "act": 3,
+   "start": 573.733,
+   "end": 577.543,
+   "role": "H",
+   "sentences": [
+    "3.07#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ONLY THE SURFACE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-16",
+   "act": 3,
+   "start": 577.543,
+   "end": 591.69,
+   "role": "H",
+   "sentences": [
+    "3.07#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ALLEGATIONS FROM DEE DEE’S OWN RELATIVES"
+      ],
+      [
+       "bold",
+       "CLAIMS OF HARM TO FAMILY MEMBERS"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-17",
+   "act": 3,
+   "start": 591.69,
+   "end": 598.298,
+   "role": "C",
+   "sentences": [
+    "3.08#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "LAYER 02"
+      ],
+      [
+       "bold",
+       "FEAR OF ABANDONMENT · NEED FOR CONTROL"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-18",
+   "act": 3,
+   "start": 598.298,
+   "end": 619.669,
+   "role": "C",
+   "sentences": [
+    "3.08#2",
+    "3.08#3",
+    "3.08#4"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE ONE POSSESSION"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "School → friends → love → leaving her mother"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "bold",
+       "KEEP A HUMAN BEING FOREVER?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "3 beat",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-19",
+   "act": 3,
+   "start": 619.669,
+   "end": 631.255,
+   "role": "C",
+   "sentences": [
+    "3.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MAKE THE GIRL BELIEVE SHE IS SICK"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Make the girl"
+   ],
+   "beat_text": "Tiêu đề ở \"Make the girl\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-20",
+   "act": 3,
+   "start": 631.255,
+   "end": 644.668,
+   "role": "C",
+   "sentences": [
+    "3.08#6"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "wheelchair_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE ONLY ONE HOLDING HER DAUGHTER’S LIFE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-21",
+   "act": 3,
+   "start": 644.668,
+   "end": 646.468,
+   "role": null,
+   "sentences": [],
+   "template": "T3",
+   "variant": "",
+   "bg": "wheelchair_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE ONLY ONE HOLDING HER DAUGHTER’S LIFE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-20"
+  },
+  {
+   "id": "3-22",
+   "act": 3,
+   "start": 646.468,
+   "end": 654.072,
+   "role": "C",
+   "sentences": [
+    "3.10#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "LAYER 03"
+      ],
+      [
+       "bold",
+       "THE SIGNATURE OF ERASING AN IDENTITY"
+      ],
+      [
+       "ital",
+       "(Signature)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-23",
+   "act": 3,
+   "start": 654.072,
+   "end": 666.043,
+   "role": "C",
+   "sentences": [
+    "3.10#2"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "dress_hanger",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SHAVED HEAD · PRINCESS DRESSES"
+      ],
+      [
+       "ital",
+       "Even when she was over 20"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-24",
+   "act": 3,
+   "start": 666.043,
+   "end": 675.299,
+   "role": "C",
+   "sentences": [
+    "3.10#3",
+    "3.10#4"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "dress_hanger",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Not only faking cancer"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "INFANTILIZATION"
+      ],
+      [
+       "ital",
+       "(stripping away adulthood)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Thuật ngữ ở `#4`",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-25",
+   "act": 3,
+   "start": 675.299,
+   "end": 694.044,
+   "role": "C",
+   "sentences": [
+    "3.10#5",
+    "3.10#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "doll",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "A 7-YEAR-OLD PORCELAIN DOLL"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "porcelain doll"
+   ],
+   "beat_text": "Tiêu đề ở \"porcelain doll\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-26",
+   "act": 3,
+   "start": 694.044,
+   "end": 695.844,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ACT 04"
+      ],
+      [
+       "bold",
+       "WHY DIDN’T GYPSY STAND UP?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "4-01",
+   "act": 4,
+   "start": 695.844,
+   "end": 704.809,
+   "role": "H",
+   "sentences": [
+    "4.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "A SKEPTICAL QUESTION"
+      ],
+      [
+       "ital",
+       "Aimed at Gypsy Rose herself"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-02",
+   "act": 4,
+   "start": 704.809,
+   "end": 709.468,
+   "role": "H",
+   "sentences": [
+    "4.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "NEXT:"
+      ],
+      [
+       "bold",
+       "A VIEWER WHO FOLLOWED THE CASE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N2"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-03",
+   "act": 4,
+   "start": 709.468,
+   "end": 717.001,
+   "role": "N2",
+   "sentences": [
+    "4.03#1"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "night_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "She knew perfectly well that her legs were not paralyzed."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-04",
+   "act": 4,
+   "start": 717.001,
+   "end": 733.938,
+   "role": "N2",
+   "sentences": [
+    "4.03#2",
+    "4.03#3"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "wheelchair_spot",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Every night… she would still get up and walk around normally."
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "So why… did Gypsy never once stand up from that wheelchair and expose her mother?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi câu một dòng",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-05",
+   "act": 4,
+   "start": 733.938,
+   "end": 735.738,
+   "role": null,
+   "sentences": [],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "wheelchair_spot",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Every night… she would still get up and walk around normally."
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "So why… did Gypsy never once stand up from that wheelchair and expose her mother?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "4-04"
+  },
+  {
+   "id": "4-06",
+   "act": 4,
+   "start": 735.738,
+   "end": 742.95,
+   "role": "H",
+   "sentences": [
+    "4.05#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "glass_box_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "GROWING UP IN A GLASS CAGE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-07",
+   "act": 4,
+   "start": 742.95,
+   "end": 752.938,
+   "role": "H",
+   "sentences": [
+    "4.05#2"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "LEARNED HELPLESSNESS"
+      ],
+      [
+       "bold",
+       "TRAUMA BONDING"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi thẻ ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-08",
+   "act": 4,
+   "start": 752.938,
+   "end": 762.401,
+   "role": "C",
+   "sentences": [
+    "4.07#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "cage",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "LEARNED HELPLESSNESS"
+      ],
+      [
+       "ital",
+       "Martin Seligman · 1967"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng xích ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-09",
+   "act": 4,
+   "start": 762.401,
+   "end": 775.767,
+   "role": "C",
+   "sentences": [
+    "4.07#2"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "cage",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "All struggle is meaningless"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Câu trích ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-10",
+   "act": 4,
+   "start": 775.767,
+   "end": 788.288,
+   "role": "C",
+   "sentences": [
+    "4.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "cage",
+   "bg2": "cage_open",
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE CAGE DOOR IS WIDE OPEN"
+      ],
+      [
+       "ital",
+       "…and never walk out again"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "cage door"
+   ],
+   "beat_text": "Cửa mở ở \"cage door\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-11",
+   "act": 4,
+   "start": 788.288,
+   "end": 794.234,
+   "role": "C",
+   "sentences": [
+    "4.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE WORLD THROUGH GYPSY’S EYES"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": true
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-12",
+   "act": 4,
+   "start": 794.234,
+   "end": 804.896,
+   "role": "C",
+   "sentences": [
+    "4.07#5",
+    "4.07#6"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SHE ALWAYS HELD GYPSY’S HAND TIGHTLY"
+      ],
+      [
+       "ital",
+       "To outsiders: a tender gesture"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-13",
+   "act": 4,
+   "start": 804.896,
+   "end": 820.117,
+   "role": "C",
+   "sentences": [
+    "4.07#7"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "To Gypsy: a secret threat"
+      ],
+      [
+       "bold",
+       "A SILENT WARNING"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "tighten"
+   ],
+   "beat_text": "Hai bàn tay khép chặt hơn ở \"tighten\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-14",
+   "act": 4,
+   "start": 820.117,
+   "end": 830.651,
+   "role": "C",
+   "sentences": [
+    "4.07#8"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "AFTER THE APPOINTMENT"
+      ],
+      [
+       "bold",
+       "HARSH PUNISHMENT · SUFFOCATING CONTROL"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "closed"
+   ],
+   "beat_text": "Khe sáng tắt ở \"closed\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-15",
+   "act": 4,
+   "start": 830.651,
+   "end": 831.951,
+   "role": null,
+   "sentences": [],
+   "template": "T2",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "AFTER THE APPOINTMENT"
+      ],
+      [
+       "bold",
+       "HARSH PUNISHMENT · SUFFOCATING CONTROL"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "4-14"
+  },
+  {
+   "id": "4-16",
+   "act": 4,
+   "start": 831.951,
+   "end": 835.122,
+   "role": "H",
+   "sentences": [
+    "4.09#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "GYPSY DID TRY TO SAVE HERSELF"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "4-17",
+   "act": 4,
+   "start": 835.122,
+   "end": 845.016,
+   "role": "H",
+   "sentences": [
+    "4.09#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "CASE FILE"
+      ],
+      [
+       "bold",
+       "THE 2011 INCIDENT"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-18",
+   "act": 4,
+   "start": 845.016,
+   "end": 848.409,
+   "role": "H",
+   "sentences": [
+    "4.09#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "NEXT:"
+      ],
+      [
+       "bold",
+       "THE INVESTIGATOR’S CASE FILE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-19",
+   "act": 4,
+   "start": 848.409,
+   "end": 860.404,
+   "role": "D",
+   "sentences": [
+    "4.10#1"
+   ],
+   "template": "T6",
+   "variant": "",
+   "bg": "night_street_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "2011 · Age 19"
+      ],
+      [
+       "bold",
+       "SHE TRIED TO ESCAPE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-20",
+   "act": 4,
+   "start": 860.404,
+   "end": 875.591,
+   "role": "D",
+   "sentences": [
+    "4.10#2",
+    "4.10#3"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "DEE DEE TRACKED HER DOWN"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Paperwork with a false birth date · made her appear to be a minor"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "paperwork"
+   ],
+   "beat_text": "Dấu mộc ở \"paperwork\" (dấu giả mạo)",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-21",
+   "act": 4,
+   "start": 875.591,
+   "end": 882.805,
+   "role": "D",
+   "sentences": [
+    "4.10#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_return",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BROUGHT BACK TO THE PINK HOUSE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-22",
+   "act": 4,
+   "start": 882.805,
+   "end": 892.131,
+   "role": "D",
+   "sentences": [
+    "4.10#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_screen",
+   "bg2": "screen_off",
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "AFTERWARD"
+      ],
+      [
+       "ital",
+       "Never step out of the door again"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "destroyed"
+   ],
+   "beat_text": "Màn hình tắt dần ở \"destroyed\"",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": true
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-23",
+   "act": 4,
+   "start": 892.131,
+   "end": 893.931,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_screen",
+   "bg2": "screen_off",
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "AFTERWARD"
+      ],
+      [
+       "ital",
+       "Never step out of the door again"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "4-22"
+  },
+  {
+   "id": "4-24",
+   "act": 4,
+   "start": 893.931,
+   "end": 906.452,
+   "role": "H",
+   "sentences": [
+    "4.12#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "crowd_away",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE WORLD ONLY BELIEVED THE MOTHER"
+      ],
+      [
+       "ital",
+       "The 2011 shock"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-25",
+   "act": 4,
+   "start": 906.452,
+   "end": 912.179,
+   "role": "H",
+   "sentences": [
+    "4.12#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "NEXT:"
+      ],
+      [
+       "bold",
+       "AN INVISIBLE THREAD"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-26",
+   "act": 4,
+   "start": 912.179,
+   "end": 916.114,
+   "role": "C",
+   "sentences": [
+    "4.13#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TRAUMA BONDING"
+      ],
+      [
+       "ital",
+       "(attachment to the abuser)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-27",
+   "act": 4,
+   "start": 916.114,
+   "end": 929.83,
+   "role": "C",
+   "sentences": [
+    "4.13#2"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "dress_hanger",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The one causing her illness — and the only one who held her"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Mommy’s little angel"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Câu trích ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-28",
+   "act": 4,
+   "start": 929.83,
+   "end": 938.13,
+   "role": "C",
+   "sentences": [
+    "4.13#3"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "UNABLE TO RECOGNIZE BOUNDARIES"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Đường tan trong câu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-29",
+   "act": 4,
+   "start": 938.13,
+   "end": 947.387,
+   "role": "H",
+   "sentences": [
+    "4.15#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "corridor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "EVERY LEGAL WAY OUT SEEMED SEALED OFF"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng bàn phím ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-30",
+   "act": 4,
+   "start": 947.387,
+   "end": 957.533,
+   "role": "H",
+   "sentences": [
+    "4.15#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "godejohn_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NICHOLAS GODEJOHN"
+      ],
+      [
+       "ital",
+       "Met online"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-31",
+   "act": 4,
+   "start": 957.533,
+   "end": 967.102,
+   "role": "H",
+   "sentences": [
+    "4.15#3"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "two_shadows",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "FOLIE À DEUX"
+      ],
+      [
+       "ital",
+       "(a madness shared by two)"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "compared"
+   ],
+   "beat_text": "Bóng nhập ở \"compared\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-32",
+   "act": 4,
+   "start": 967.102,
+   "end": 983.033,
+   "role": "H",
+   "sentences": [
+    "4.15#4",
+    "4.15#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Only if her mother were gone…"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "JUNE · 2015"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "opened the door"
+   ],
+   "beat_text": "Cửa sáng ở \"opened the door\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-33",
+   "act": 4,
+   "start": 983.033,
+   "end": 984.833,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ACT 05"
+      ],
+      [
+       "bold",
+       "THE VERDICT & CLOSING"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "5-01",
+   "act": 5,
+   "start": 984.833,
+   "end": 991.464,
+   "role": "H",
+   "sentences": [
+    "5.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE MISSOURI COURT"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Búa gõ ở đầu câu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-02",
+   "act": 5,
+   "start": 991.464,
+   "end": 998.584,
+   "role": "H",
+   "sentences": [
+    "5.02#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "LEGALLY"
+      ],
+      [
+       "bold",
+       "UNDENIABLY A SERIOUS FELONY"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-03",
+   "act": 5,
+   "start": 998.584,
+   "end": 1011.172,
+   "role": "H",
+   "sentences": [
+    "5.02#3"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Dan Patterson · Greene County prosecuting attorney"
+      ],
+      [
+       "bold",
+       "THE ACCUSED — AND ALSO A VICTIM OF ABUSE"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "years of abuse"
+   ],
+   "beat_text": "Tiêu đề ở \"years of abuse\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-04",
+   "act": 5,
+   "start": 1011.172,
+   "end": 1012.472,
+   "role": null,
+   "sentences": [],
+   "template": "T2",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Dan Patterson · Greene County prosecuting attorney"
+      ],
+      [
+       "bold",
+       "THE ACCUSED — AND ALSO A VICTIM OF ABUSE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-03"
+  },
+  {
+   "id": "5-05",
+   "act": 5,
+   "start": 1012.472,
+   "end": 1024.073,
+   "role": "H",
+   "sentences": [
+    "5.04#1"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "2016 · Plea agreement · Second-degree murder"
+      ],
+      [
+       "bold",
+       "10 YEARS"
+      ],
+      [
+       "ital",
+       "The minimum for that charge"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Số đếm 0 → 10",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-06",
+   "act": 5,
+   "start": 1024.073,
+   "end": 1035.623,
+   "role": "H",
+   "sentences": [
+    "5.04#2"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "prison_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "GYPSY, AFTER HER RELEASE"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "I also had more freedom in prison than I ever had with my mother."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Câu trích từng dòng từ dấu `:`",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-07",
+   "act": 5,
+   "start": 1035.623,
+   "end": 1043.091,
+   "role": "H",
+   "sentences": [
+    "5.04#3"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "prison_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "DECEMBER 2023"
+      ],
+      [
+       "bold",
+       "85%"
+      ],
+      [
+       "ital",
+       "Released on parole"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Thanh tiến trình",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-08",
+   "act": 5,
+   "start": 1043.091,
+   "end": 1044.891,
+   "role": null,
+   "sentences": [],
+   "template": "T5",
+   "variant": "",
+   "bg": "prison_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "DECEMBER 2023"
+      ],
+      [
+       "bold",
+       "85%"
+      ],
+      [
+       "ital",
+       "Released on parole"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-07"
+  },
+  {
+   "id": "5-09",
+   "act": 5,
+   "start": 1044.891,
+   "end": 1059.302,
+   "role": "H",
+   "sentences": [
+    "5.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "4 RED FLAGS"
+      ],
+      [
+       "ital",
+       "(warning signs)"
+      ],
+      [
+       "ital",
+       "The Psychologist & the Investigator"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C+D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-10",
+   "act": 5,
+   "start": 1059.302,
+   "end": 1072.991,
+   "role": "C",
+   "sentences": [
+    "5.07#1"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "01"
+      ],
+      [
+       "bold",
+       "A DENSE MEDICAL HISTORY — TESTS ALWAYS CONTRADICT IT"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cờ 1 tô đầy",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": true,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-11",
+   "act": 5,
+   "start": 1072.991,
+   "end": 1084.259,
+   "role": "C",
+   "sentences": [
+    "5.07#2"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "02"
+      ],
+      [
+       "bold",
+       "SYMPTOMS ONLY WHEN THE CAREGIVER IS PRESENT"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": true,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve",
+   "bg_inherited": true
+  },
+  {
+   "id": "5-12",
+   "act": 5,
+   "start": 1084.259,
+   "end": 1098.02,
+   "role": "D",
+   "sentences": [
+    "5.08#1"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "03"
+      ],
+      [
+       "bold",
+       "EAGER FOR PROCEDURES · SHOWS OFF THE ILLNESS · CHANGES DOCTORS"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "3 cụm theo cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": true,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve",
+   "bg_inherited": true
+  },
+  {
+   "id": "5-13",
+   "act": 5,
+   "start": 1098.02,
+   "end": 1106.448,
+   "role": "D",
+   "sentences": [
+    "5.08#2"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "04"
+      ],
+      [
+       "bold",
+       "ISOLATED FROM SCHOOL, FRIENDS AND RELATIVES"
+      ],
+      [
+       "quote",
+       "protecting their health"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Dấu mộc ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": true,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve",
+   "bg_inherited": true
+  },
+  {
+   "id": "5-14",
+   "act": 5,
+   "start": 1106.448,
+   "end": 1108.748,
+   "role": null,
+   "sentences": [],
+   "template": "T8",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve",
+   "bg_inherited": true
+  },
+  {
+   "id": "5-15",
+   "act": 5,
+   "start": 1108.748,
+   "end": 1118.423,
+   "role": "H",
+   "sentences": [
+    "5.10#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE FILE IS CLOSED"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-16",
+   "act": 5,
+   "start": 1118.423,
+   "end": 1125.008,
+   "role": "H",
+   "sentences": [
+    "5.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_free",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "WALKING ON HER OWN TWO FEET"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Trời sáng dần",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-17",
+   "act": 5,
+   "start": 1125.008,
+   "end": 1138.475,
+   "role": "H",
+   "sentences": [
+    "5.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "cage_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "WHAT WEARS THE ROBE OF AN ANGEL"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "robe of an angel"
+   ],
+   "beat_text": "Tiêu đề ở \"robe of an angel\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-18",
+   "act": 5,
+   "start": 1138.475,
+   "end": 1139.775,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "cage_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "WHAT WEARS THE ROBE OF AN ANGEL"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-17"
+  },
+  {
+   "id": "5-19",
+   "act": 5,
+   "start": 1139.775,
+   "end": 1146.766,
+   "role": "H",
+   "sentences": [
+    "5.12#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THANK YOU TO OUR GUESTS"
+      ],
+      [
+       "ital",
+       "Fictional characters · AI voices"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Dàn khách mời: 5 ảnh P0 sáng lần lượt",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": true,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-20",
+   "act": 5,
+   "start": 1146.766,
+   "end": 1152.284,
+   "role": "H",
+   "sentences": [
+    "5.12#2"
+   ],
+   "template": "T10",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SEE YOU IN THE NEXT EPISODE"
+      ],
+      [
+       "ital",
+       "Leave your perspective in the comments"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-21",
+   "act": 5,
+   "start": 1152.284,
+   "end": 1161.284,
+   "role": null,
+   "sentences": [],
+   "template": "T2",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [],
+   "beats": [
+    "Bụp"
+   ],
+   "beat_text": "Bìa gập ở \"Bụp\"; mờ ra đen",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  }
+ ]
+}

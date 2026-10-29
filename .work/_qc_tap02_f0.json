@@ -1,0 +1,61 @@
+﻿{
+  "rows": [
+    {
+      "role": "H",
+      "n_frames": 37247,
+      "f0_p5": 78.9,
+      "f0_p25": 90.5,
+      "f0_median": 102.4,
+      "f0_p75": 119.2,
+      "f0_p95": 162.2,
+      "f0_spread_semitone_p5_p95": 12.47
+    },
+    {
+      "role": "D",
+      "n_frames": 18582,
+      "f0_p5": 113.0,
+      "f0_p25": 127.1,
+      "f0_median": 141.6,
+      "f0_p75": 162.7,
+      "f0_p95": 388.6,
+      "f0_spread_semitone_p5_p95": 21.38,
+      "sep_semitone_vs_prev": 5.61
+    },
+    {
+      "role": "C",
+      "n_frames": 23235,
+      "f0_p5": 167.2,
+      "f0_p25": 187.8,
+      "f0_median": 206.1,
+      "f0_p75": 230.4,
+      "f0_p95": 275.7,
+      "f0_spread_semitone_p5_p95": 8.66,
+      "sep_semitone_vs_prev": 6.5
+    },
+    {
+      "role": "N2",
+      "n_frames": 1477,
+      "f0_p5": 172.8,
+      "f0_p25": 199.3,
+      "f0_median": 233.5,
+      "f0_p75": 275.7,
+      "f0_p95": 363.9,
+      "f0_spread_semitone_p5_p95": 12.9,
+      "sep_semitone_vs_prev": 2.16
+    },
+    {
+      "role": "N1",
+      "n_frames": 1640,
+      "f0_p5": 211.0,
+      "f0_p25": 230.7,
+      "f0_median": 254.3,
+      "f0_p75": 282.0,
+      "f0_p95": 335.4,
+      "f0_spread_semitone_p5_p95": 8.03,
+      "sep_semitone_vs_prev": 1.48
+    }
+  ],
+  "missing_audio_files": [],
+  "missing_count": 0,
+  "note": "F0 do tren TTS roi (audio_s_t02), khong co nhac nen"
+}

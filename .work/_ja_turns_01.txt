@@ -1,0 +1,67 @@
+=== Tap01: parser 33 lượt / JA 33 lượt ===
+  [01] parser role=H  n=  3 | Ngày 14 tháng 6 năm 2015. Tại thị trấn yên bình Springfield, bang Miss
+      JA  role=HOST n=  3 | Ngày 14 tháng 6 năm 2015. Tại thị  | Trên trang Facebook chung của hai
+  [02] parser role=H  n=  2 | Hàng xóm lập tức vây quanh ngôi nhà nhỏ sơn màu hồng phấn ở số 2103 đư
+      JA  role=HOST n=  2 | Hàng xóm lập tức vây quanh ngôi nh
+  [03] parser role=N  n=  3 | Trong mắt tất cả chúng tôi, ngôi nhà màu hồng ấy là biểu tượng của tìn
+      JA  role=NGƯỜI BÌNH THƯỜNG n=  3 | Trong mắt tất cả chúng tôi, ngôi n
+  [04] parser role=H  n=  6 | Thế nhưng, khi cảnh sát phá cửa bước vào ngôi nhà lạnh ngắt đêm hôm đó
+      JA  role=HOST n=  6 | Thế nhưng, khi cảnh sát phá cửa bư | Chiếc xe lăn của cô bé vẫn nằm ng
+  [05] parser role=D  n=  8 | Ban đầu, chúng tôi phát lệnh truy tìm trên toàn quốc với giả định Gyps
+      JA  role=ĐIỀU TRA VIÊN n=  8 | Ban đầu, chúng tôi phát lệnh truy  | Bước vào phòng thẩm vấn của chúng
+  [06] parser role=H  n=  2 | Chào mừng bạn đến với hồ sơ phân tích tâm lý học tội phạm. Hôm nay, ch
+      JA  role=HOST n=  2 | Chào mừng bạn đến với hồ sơ phân t
+  [07] parser role=H  n=  3 | Để hiểu tại sao một cô gái lại đi đến một lựa chọn cực đoan với chính 
+      JA  role=HOST n=  3 | Để hiểu tại sao một cô gái lại đi 
+  [08] parser role=H  n=  5 | Gypsy Rose sinh năm 1991, là một đứa trẻ hoàn toàn khỏe mạnh. Nhưng ng
+      JA  role=HOST n=  5 | Gypsy Rose sinh năm 1991, là một đ | Khi Gypsy lên 7, sau một vụ trầy 
+  [09] parser role=H  n=  3 | Nhưng bà Dee Dee không chỉ dừng lại ở lời nói dối. Khi lật lại hàng ng
+      JA  role=HOST n=  3 | Nhưng bà Dee Dee không chỉ dừng lạ
+X [10] parser role=D  n= 10 | Để biến kịch bản trong đầu mình thành triệu chứng thực tế trước mắt cá
+      JA  role=ĐIỀU TRA VIÊN n=  7 | Để biến kịch bản trong đầu mình th | Thứ nhất, bà cho Gypsy uống thuốc
+  [11] parser role=H  n=  4 | Trong ngôi nhà màu hồng do các quỹ từ thiện xây tặng, những cánh cửa s
+      JA  role=HOST n=  4 | Trong ngôi nhà màu hồng do các quỹ
+X [12] parser role=H  n=  5 | Đến đây, câu hỏi lớn nhất mà bất kỳ ai cũng phải đặt ra là: Tại sao? M
+      JA  role=HOST n=  4 | Đến đây, câu hỏi lớn nhất mà bất k | Một người mẹ có thể nhận được gì 
+  [13] parser role=H  n=  2 | Để hiểu sâu hơn về căn bệnh này, tôi đã nhờ đến sự phân tích của Chuyê
+      JA  role=HOST n=  2 | Để hiểu sâu hơn về căn bệnh này, t
+X [14] parser role=C  n=  9 | Khi giải phẫu tâm lý của một kẻ mắc hội chứng FDIA như Dee Dee Blancha
+      JA  role=CHUYÊN GIA TÂM LÝ n=  7 | Khi giải phẫu tâm lý của một kẻ mắ | **Tầng thứ nhất là: Cơn nghiện án
+  [15] parser role=H  n=  2 | Nhưng cơn nghiện sự chú ý mới chỉ là bề nổi. Khi kết hợp với lời khai 
+      JA  role=HOST n=  2 | Nhưng cơn nghiện sự chú ý mới chỉ 
+X [16] parser role=C  n=  6 | Tầng thứ hai chính là: Nỗi sợ bị bỏ rơi bệnh lý và Nhu cầu kiểm soát t
+      JA  role=CHUYÊN GIA TÂM LÝ n=  4 | **Tầng thứ hai chính là: Nỗi sợ bị | Khi sinh ra Gypsy, Dee Dee nhìn t
+X [17] parser role=C  n=  6 | Và cuối cùng, Tầng thứ ba: Dấu ấn tâm lý (Signature) của sự xóa bỏ nhâ
+      JA  role=CHUYÊN GIA TÂM LÝ n=  5 | Và cuối cùng, **Tầng thứ ba: Dấu ấ | Chúng tôi đặc biệt chú ý đến chi 
+  [18] parser role=H  n=  2 | Khi vụ án được đưa ra ánh sáng, bên cạnh sự phẫn nộ dành cho người mẹ,
+      JA  role=HOST n=  2 | Khi vụ án được đưa ra ánh sáng, bê
+  [19] parser role=N  n=  3 | Thực sự có một điểm tôi không tài nào hiểu nổi: Cô ấy biết rõ đôi chân
+      JA  role=NGƯỜI BÌNH THƯỜNG n=  3 | Thực sự có một điểm tôi không tài 
+  [20] parser role=H  n=  2 | Để trả lời câu hỏi này, chúng ta không thể dùng tư duy của một người t
+      JA  role=HOST n=  2 | Để trả lời câu hỏi này, chúng ta k
+X [21] parser role=C  n=  8 | Khái niệm Sự bất lực tập nhiễm được nhà tâm lý học Martin Seligman phá
+      JA  role=CHUYÊN GIA TÂM LÝ n=  7 | Khái niệm *Sự bất lực tập nhiễm* đ | Hãy nhìn vào thế giới quan của Gy
+  [22] parser role=H  n=  3 | Thực tế, Gypsy không phải chưa từng cố gắng tự cứu mình. Trong biên bả
+      JA  role=HOST n=  3 | Thực tế, Gypsy không phải chưa từn
+  [23] parser role=D  n=  5 | Theo lời khai của Gypsy và các nhân chứng liên quan, vào năm 2011, ở t
+      JA  role=ĐIỀU TRA VIÊN n=  5 | Theo lời khai của Gypsy và các nhâ | Đêm hôm đó, bà Dee Dee đã phá hỏn
+  [24] parser role=H  n=  2 | Cú sốc năm 2011 ấy đã đóng chiếc đinh cuối cùng vào nhận thức của Gyps
+      JA  role=HOST n=  2 | Cú sốc năm 2011 ấy đã đóng chiếc đ | Và bên cạnh nỗi sợ hãi, Chuyên gi
+  [25] parser role=C  n=  3 | Đó chính là Gắn kết chấn thương (Trauma Bonding). Dee Dee là người gây
+      JA  role=CHUYÊN GIA TÂM LÝ n=  3 | Đó chính là **Gắn kết chấn thương 
+  [26] parser role=H  n=  5 | Khi mọi lối thoát hợp pháp đều bị bịt kín trong tâm tưởng, bộ não bị d
+      JA  role=HOST n=  5 | Khi mọi lối thoát hợp pháp đều bị 
+  [27] parser role=H  n=  3 | Trước tòa án bang Missouri, vụ án của Gypsy Rose Blanchard đã tạo ra m
+      JA  role=HOST n=  3 | Trước tòa án bang Missouri, vụ án  | Về mặt luật pháp, hành vi lên kế 
+X [28] parser role=H  n=  3 | Năm 2016, Gypsy Rose nhận mức án 10 năm tù giam cho tội giết người cấp
+      JA  role=HOST n=  2 | Năm 2016, Gypsy Rose nhận mức án 1
+  [29] parser role=H  n=  1 | Nhìn lại toàn bộ hồ sơ vụ án này, để những bi kịch tương tự không thể 
+      JA  role=HOST n=  1 | Nhìn lại toàn bộ hồ sơ vụ án này, 
+X [30] parser role=C  n=  2 | Dấu hiệu thứ nhất: Một đứa trẻ hoặc người phụ thuộc có bệnh sử dày đặc
+      JA  role=CHUYÊN GIA TÂM LÝ n=  1 | "**Dấu hiệu thứ nhất:** Một đứa tr | **Dấu hiệu thứ hai:** Các triệu c
+X [31] parser role=D  n=  2 | Dấu hiệu thứ ba: Người chăm sóc tỏ ra quá hào hứng với các thủ thuật y
+      JA  role=ĐIỀU TRA VIÊN n=  1 | "**Dấu hiệu thứ ba:** Người chăm s | **Và dấu hiệu thứ tư:** Nạn nhân 
+  [32] parser role=H  n=  3 | Hồ sơ về ngôi nhà màu hồng tại Missouri khép lại, nhưng dư âm của nó v
+      JA  role=HOST n=  3 | Hồ sơ về ngôi nhà màu hồng tại Mis | Tình yêu thương chân chính luôn h
+  [33] parser role=H  n=  2 | Cảm ơn các khách mời đã tham gia phân tích hồ sơ, và cảm ơn bạn đã dàn
+      JA  role=HOST n=  2 | Cảm ơn các khách mời đã tham gia p

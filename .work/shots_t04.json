@@ -1,0 +1,4095 @@
+{
+ "total": 1562.906,
+ "shots": [
+  {
+   "id": "1-00",
+   "act": 1,
+   "start": 20.5,
+   "end": 22.8,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_somerset_exterior",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 01 · NGHỊCH LÝ CỦA NGƯỜI Y TÁ MẪU MỰC"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Còi xe cấp cứu từ xa, tiếng máy thở ICU",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-01",
+   "act": 1,
+   "start": 22.8,
+   "end": 32.352,
+   "role": "H",
+   "sentences": [
+    "1.03#1",
+    "1.03#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t4_somerset_exterior",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MÙA THU NĂM 2003"
+      ],
+      [
+       "ital",
+       "Trung tâm Y tế Somerset"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "Thị trấn Somerville · Bang New Jersey"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gõ từng ký tự",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-02",
+   "act": 1,
+   "start": 32.352,
+   "end": 42.164,
+   "role": "H",
+   "sentences": [
+    "1.03#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_icu_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "PHÒNG HỒI SỨC TÍCH CỰC ICU"
+      ],
+      [
+       "ital",
+       "Ánh đèn huỳnh quang trắng lạnh"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-03",
+   "act": 1,
+   "start": 42.164,
+   "end": 55.958,
+   "role": "H",
+   "sentences": [
+    "1.03#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_cullen_silhouette",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NGƯỜI ĐÀN ÔNG 43 TUỔI"
+      ],
+      [
+       "ital",
+       "Dáng người gầy gò · Giọng nói nhỏ nhẹ"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Sẵn sàng làm thay ca trực cho đồng nghiệp"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-04",
+   "act": 1,
+   "start": 55.958,
+   "end": 57.258,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_cullen_silhouette",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NGƯỜI ĐÀN ÔNG 43 TUỔI"
+      ],
+      [
+       "ital",
+       "Dáng người gầy gò · Giọng nói nhỏ nhẹ"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Sẵn sàng làm thay ca trực cho đồng nghiệp"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-03"
+  },
+  {
+   "id": "1-05",
+   "act": 1,
+   "start": 57.258,
+   "end": 69.125,
+   "role": "H",
+   "sentences": [
+    "1.05#1"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t4_nurse_station",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "MÔI TRƯỜNG Y TẾ ĐẦY ÁP LỰC"
+      ],
+      [
+       "bold",
+       "RANH GIỚI GIỮA SỰ SỐNG VÀ SỰ RA ĐI"
+      ],
+      [
+       "ital",
+       "Một người đồng nghiệp đáng tin cậy"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Ranh giới"
+   ],
+   "beat_text": "Dấu mộc ở \"Ranh giới\"",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-06",
+   "act": 1,
+   "start": 69.125,
+   "end": 89.592,
+   "role": "H",
+   "sentences": [
+    "1.05#2",
+    "1.05#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_code_blue_aftermath",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NGƯỜI ĐẦU TIÊN CHẠY ĐẾN PHỤ GIÚP"
+      ],
+      [
+       "ital",
+       "Lặng lẽ dọn dẹp phòng bệnh sau ca cấp cứu"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Sự quý mến và tin tưởng của đồng nghiệp"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng sốc tim & flatline",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-07",
+   "act": 1,
+   "start": 89.592,
+   "end": 99.975,
+   "role": "N1",
+   "sentences": [
+    "1.07#1",
+    "1.07#2"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t4_breakroom_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Trong mắt tất cả y tá chúng tôi, Charlie là một người bạn tuyệt vời."
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "quote",
+       "Anh ấy chu đáo, không bao giờ cáu gắt và luôn chăm sóc người bệnh vô cùng ân cần."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-08",
+   "act": 1,
+   "start": 99.975,
+   "end": 115.225,
+   "role": "N1",
+   "sentences": [
+    "1.07#3",
+    "1.07#4"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t4_breakroom_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Anh ấy luôn chủ động nhận gánh vác những phần việc nặng nhọc nhất…"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "quote",
+       "Không một ai trong bệnh viện có thể mảy may nghi ngờ một người đồng nghiệp hiền lành và tận tụy đến như thế."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-09",
+   "act": 1,
+   "start": 115.225,
+   "end": 127.914,
+   "role": "H",
+   "sentences": [
+    "1.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_corridor_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ĐẰNG SAU CHIẾC ÁO BLOUSE TRẮNG"
+      ],
+      [
+       "ital",
+       "Bóng ma tử thần âm thầm bước đi qua từng hành lang"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-10",
+   "act": 1,
+   "start": 127.914,
+   "end": 159.416,
+   "role": "H",
+   "sentences": [
+    "1.08#2",
+    "1.08#3",
+    "1.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_patient_room_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "LINH MỤC FLORIAN GALL · 68 TUỔI"
+      ],
+      [
+       "ital",
+       "Nhập viện vì viêm phổi và biến chứng nhiễm trùng"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Đang hồi phục ổn định và chuẩn bị xuất viện"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "bold",
+       "ĐỘT NGỘT RƠI VÀO CƠN LOẠN NHỊP VÀ TRỤY TIM HOÀN TOÀN"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-11",
+   "act": 1,
+   "start": 159.416,
+   "end": 175.666,
+   "role": "H",
+   "sentences": [
+    "1.10#1"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t4_toxicology_lab",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "XÉT NGHIỆM ĐỘC CHẤT HỌC PHÁP Y"
+      ],
+      [
+       "bold",
+       "NỒNG ĐỘ DIGOXIN CAO GẤP HÀNG CHỤC LẦN"
+      ],
+      [
+       "ital",
+       "Cao gấp hàng chục lần ngưỡng an toàn"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Nồng độ Digoxin"
+   ],
+   "beat_text": "Dấu mộc ở \"Nồng độ Digoxin\"",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-12",
+   "act": 1,
+   "start": 175.666,
+   "end": 189.46,
+   "role": "H",
+   "sentences": [
+    "1.10#2",
+    "1.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_digoxin_vial",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "KHÔNG PHẢI LÀ MỘT SỰ NHẦM LẪN Y KHOA"
+      ],
+      [
+       "ital",
+       "Liều thuốc vượt quá giới hạn cho phép hàng chục lần"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Cố tình tiêm thẳng vào đường truyền tĩnh mạch"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Cố tình tiêm thẳng"
+   ],
+   "beat_text": "Sub-drop ở \"Cố tình tiêm thẳng\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-13",
+   "act": 1,
+   "start": 189.46,
+   "end": 191.26,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_digoxin_vial",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "KHÔNG PHẢI LÀ MỘT SỰ NHẦM LẪN Y KHOA"
+      ],
+      [
+       "ital",
+       "Liều thuốc vượt quá giới hạn cho phép hàng chục lần"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Cố tình tiêm thẳng vào đường truyền tĩnh mạch"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-12"
+  },
+  {
+   "id": "1-14",
+   "act": 1,
+   "start": 191.26,
+   "end": 199.899,
+   "role": "H",
+   "sentences": [
+    "1.12#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_case_file_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "QUY MÔ CHẤN ĐỘNG CỦA VỤ ÁN"
+      ],
+      [
+       "bold",
+       "LẮNG NGHE ĐIỀU TRA VIÊN THỤ LÝ HỒ SƠ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-15",
+   "act": 1,
+   "start": 199.899,
+   "end": 210.259,
+   "role": "D",
+   "sentences": [
+    "1.14#1",
+    "1.14#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_case_file_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "LỊCH SỬ CÔNG TÁC CỦA CHARLES CULLEN"
+      ],
+      [
+       "ital",
+       "Một sự thật kinh hoàng mở ra trước mắt ban chuyên án"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "Somerset Medical Center không phải là nơi đầu tiên"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-16",
+   "act": 1,
+   "start": 210.259,
+   "end": 232.506,
+   "role": "D",
+   "sentences": [
+    "1.14#3",
+    "1.14#4"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t4_ten_hospitals_map",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "16 NĂM HÀNH NGHỀ: 9 BỆNH VIỆN VÀ 1 VIỆN DƯỠNG LÃO"
+      ],
+      [
+       "ital",
+       "Tỷ lệ tử vong ca đêm tăng vọt theo đồ thị kỳ dị"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-17",
+   "act": 1,
+   "start": 232.506,
+   "end": 255.783,
+   "role": "D",
+   "sentences": [
+    "1.14#5",
+    "1.14#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_ten_hospitals_map",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CON SỐ NẠN NHÂN THỰC SỰ: 300 ĐẾN 400 NGƯỜI"
+      ],
+      [
+       "ital",
+       "Kẻ thủ ác cướp đi nhiều sinh mạng nhất lịch sử y tế Mỹ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-18",
+   "act": 1,
+   "start": 255.783,
+   "end": 292.617,
+   "role": "H",
+   "sentences": [
+    "1.16#1",
+    "1.16#2",
+    "1.16#3"
+   ],
+   "template": "T10",
+   "variant": "",
+   "bg": "t4_somerset_exterior",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THIÊN THẦN TỬ THẦN"
+      ],
+      [
+       "ital",
+       "Phức Cảm Chúa Trời & 16 Năm Lặng Câm Của 9 Bệnh Viện"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tên tập ở cuối",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-19",
+   "act": 1,
+   "start": 292.617,
+   "end": 294.417,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 02"
+      ],
+      [
+       "bold",
+       "LỖ HỔNG CHẾT NGƯỜI CỦA MÁY PHÁT THUỐC"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "2-01",
+   "act": 2,
+   "start": 294.417,
+   "end": 311.73,
+   "role": "H",
+   "sentences": [
+    "2.02#1",
+    "2.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_sterile_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HIỆN TRƯỜNG CỦA NHỮNG VỤ ÁN"
+      ],
+      [
+       "ital",
+       "Những căn phòng điều trị vô trùng · Nơi người bệnh gửi gắm niềm tin"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Nhạc piano tối giản",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-02",
+   "act": 2,
+   "start": 311.73,
+   "end": 326.183,
+   "role": "H",
+   "sentences": [
+    "2.02#3"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t4_lethal_trio",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "TAM GIÁC VŨ KHÍ HÓA: DIGOXIN, INSULIN VÀ VECURONIUM"
+      ],
+      [
+       "ital",
+       "Những ống thuốc cứu người bị biến thành công cụ đoạt mạng"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-03",
+   "act": 2,
+   "start": 326.183,
+   "end": 327.483,
+   "role": null,
+   "sentences": [],
+   "template": "T8",
+   "variant": "",
+   "bg": "t4_lethal_trio",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "TAM GIÁC VŨ KHÍ HÓA: DIGOXIN, INSULIN VÀ VECURONIUM"
+      ],
+      [
+       "ital",
+       "Những ống thuốc cứu người bị biến thành công cụ đoạt mạng"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "2-02"
+  },
+  {
+   "id": "2-04",
+   "act": 2,
+   "start": 327.483,
+   "end": 346.699,
+   "role": "H",
+   "sentences": [
+    "2.04#1",
+    "2.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_pyxis_station",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "KẼ HỞ TRONG HỆ THỐNG DƯỢC PHẨM TỰ ĐỘNG"
+      ],
+      [
+       "ital",
+       "Tước đoạt mạng sống mà không để lại bất kỳ dấu vết nào"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-05",
+   "act": 2,
+   "start": 346.699,
+   "end": 362.18,
+   "role": "D",
+   "sentences": [
+    "2.06#1",
+    "2.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_pyxis_station",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TỦ CẤP THUỐC TỰ ĐỘNG PYXIS MEDSTATION"
+      ],
+      [
+       "ital",
+       "Đăng nhập bằng mã số cá nhân để lấy thuốc"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-06",
+   "act": 2,
+   "start": 362.18,
+   "end": 372.225,
+   "role": "D",
+   "sentences": [
+    "2.06#3",
+    "2.06#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_pyxis_drawer_ajar",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "LỖ HỔNG CHÍ MẠNG TRONG PHẦN MỀM VẬN HÀNH"
+      ],
+      [
+       "ital",
+       "Máy tính lưu lại toàn bộ thời gian và danh tính người thao tác"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-07",
+   "act": 2,
+   "start": 372.225,
+   "end": 386.996,
+   "role": "D",
+   "sentences": [
+    "2.06#5",
+    "2.06#6"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t4_pyxis_cancel_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bệnh nhân không thuộc quyền chăm sóc"
+      ],
+      [
+       "bold",
+       "YÊU CẦU RÚT THUỐC KIỂM SOÁT ĐẶC BIỆT"
+      ],
+      [
+       "ital",
+       "Digoxin hoặc Insulin liều cực cao"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cột phải ở `#6`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-08",
+   "act": 2,
+   "start": 386.996,
+   "end": 400.264,
+   "role": "D",
+   "sentences": [
+    "2.06#7",
+    "2.06#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_pyxis_cancel_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "LẬP TỨC BẤM NÚT HỦY LỆNH TRÊN MÀN HÌNH"
+      ],
+      [
+       "ital",
+       "Rút lọ thuốc cất vào túi áo trước khi ngăn kéo khép lại"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-09",
+   "act": 2,
+   "start": 400.264,
+   "end": 410.295,
+   "role": "D",
+   "sentences": [
+    "2.06#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_pyxis_cancel_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SỔ SÁCH ĐIỆN TỬ: GIAO DỊCH ĐÃ HỦY BỎ"
+      ],
+      [
+       "ital",
+       "Không hề có viên thuốc hay lọ dung dịch nào bị rút ra"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-10",
+   "act": 2,
+   "start": 410.295,
+   "end": 425.178,
+   "role": "D",
+   "sentences": [
+    "2.06#10"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_saline_storage",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "KHO LƯU TRỮ TÚI NƯỚC MUỐI SINH LÝ NACL"
+      ],
+      [
+       "ital",
+       "Bơm thẳng dung dịch thuốc quá liều vào những túi dịch truyền"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-11",
+   "act": 2,
+   "start": 425.178,
+   "end": 436.884,
+   "role": "D",
+   "sentences": [
+    "2.06#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_syringe_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TRUYỀN NGẪU NHIÊN CHO BỆNH NHÂN"
+      ],
+      [
+       "ital",
+       "Suy hô hấp hoặc ngưng tim cấp tính mà không ai hay biết"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-12",
+   "act": 2,
+   "start": 436.884,
+   "end": 468.433,
+   "role": "H",
+   "sentences": [
+    "2.07#1",
+    "2.07#2",
+    "2.07#3",
+    "2.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_sterile_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "PHƯƠNG THỨC HOÀN HẢO ĐẾN MỨC VÔ HÌNH"
+      ],
+      [
+       "ital",
+       "Hồi chuông cảnh báo từng bị bỏ quên"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-13",
+   "act": 2,
+   "start": 468.433,
+   "end": 494.083,
+   "role": "D",
+   "sentences": [
+    "2.08#1",
+    "2.08#2",
+    "2.08#3"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t4_urgent_memo",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "TIẾN SĨ STEVEN MARCUS · TRUNG TÂM CHỐNG ĐỘC NJ"
+      ],
+      [
+       "bold",
+       "CẢNH BÁO KHẨN CẤP THÁNG 7 NĂM 2003"
+      ],
+      [
+       "ital",
+       "Có kẻ cố tình tiêm thuốc gây hại cho bệnh nhân"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Cảnh báo khẩn cấp"
+   ],
+   "beat_text": "Dấu mộc ở \"Cảnh báo khẩn cấp\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-14",
+   "act": 2,
+   "start": 494.083,
+   "end": 524.275,
+   "role": "D",
+   "sentences": [
+    "2.08#4",
+    "2.08#5",
+    "2.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_boardroom_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BAN GIÁM ĐỐC BỆNH VIỆN SOMERSET"
+      ],
+      [
+       "ital",
+       "Gần ba tháng im lặng điều tra nội bộ · Thêm ít nhất năm bệnh nhân tử vong"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-15",
+   "act": 2,
+   "start": 524.275,
+   "end": 551.605,
+   "role": "H",
+   "sentences": [
+    "2.10#1",
+    "2.10#2",
+    "2.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_locked_archives",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TẠI SAO LẠI CÓ THỂ LÀM NGƠ?"
+      ],
+      [
+       "ital",
+       "Làm thế nào chuyển việc trót lọt qua 9 bệnh viện khác nhau?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-16",
+   "act": 2,
+   "start": 551.605,
+   "end": 584.242,
+   "role": "C",
+   "sentences": [
+    "2.11#1",
+    "2.11#2",
+    "2.11#3"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t4_institutional_bystander",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "TÂM LÝ HỌC TỔ CHỨC"
+      ],
+      [
+       "bold",
+       "HIỆN TƯỢNG BÀNG QUAN THỂ CHẾ (INSTITUTIONAL BYSTANDER EFFECT)"
+      ],
+      [
+       "ital",
+       "Saint Barnabas 1992: Cho thôi việc trong lặng lẽ"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Hiện tượng bàng quan"
+   ],
+   "beat_text": "Dấu mộc ở \"Hiện tượng bàng quan\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-17",
+   "act": 2,
+   "start": 584.242,
+   "end": 615.319,
+   "role": "C",
+   "sentences": [
+    "2.11#4",
+    "2.11#5",
+    "2.11#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_institutional_bystander",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bệnh viện Warren 1993: Khép lại vụ việc vì lo ngại danh tiếng"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "bold",
+       "BỆNH VIỆN SAINT LUKE NĂM 2002: TÌM THẤY NHIỀU LỌ THUỐC LIỆT CƠ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-18",
+   "act": 2,
+   "start": 615.319,
+   "end": 630.569,
+   "role": "C",
+   "sentences": [
+    "2.11#7",
+    "2.11#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_neutral_letter",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THƯ XÁC NHẬN CÔNG TÁC TRUNG TÍNH"
+      ],
+      [
+       "ital",
+       "Thỏa thuận cho tự nguyện thôi việc để chuyển sang bệnh viện tiếp theo"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-19",
+   "act": 2,
+   "start": 630.569,
+   "end": 655.406,
+   "role": "C",
+   "sentences": [
+    "2.11#9",
+    "2.11#10"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_neutral_letter",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HỆ THỐNG Y TẾ THƯƠNG MẠI HÓA"
+      ],
+      [
+       "ital",
+       "Đặt sự an toàn tài chính lên trên tính mạng bệnh nhân vô tội"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-20",
+   "act": 2,
+   "start": 655.406,
+   "end": 657.206,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 03"
+      ],
+      [
+       "bold",
+       "BÊN TRONG BỘ NÃO CỦA KẺ MANG PHỨC CẢM CHÚA TRỜI"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "3-01",
+   "act": 3,
+   "start": 657.206,
+   "end": 686.949,
+   "role": "H",
+   "sentences": [
+    "3.02#1",
+    "3.02#2",
+    "3.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_god_complex_metaphor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ĐỘNG CƠ THỰC SỰ ĐIỀU KHIỂN CULLEN LÀ GÌ?"
+      ],
+      [
+       "ital",
+       "Lời biện minh lạnh lùng: Tôi chỉ muốn chấm dứt nỗi đau đớn cho họ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Nhạc drone trầm đục",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-02",
+   "act": 3,
+   "start": 686.949,
+   "end": 710.125,
+   "role": "H",
+   "sentences": [
+    "3.02#4",
+    "3.02#5",
+    "3.02#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_god_complex_metaphor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BỨC CHÂN DUNG “THIÊN THẦN NHÂN TỪ”"
+      ],
+      [
+       "ital",
+       "Chiếc mặt nạ dối trá che đậy phức cảm bệnh lý độc hại"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-03",
+   "act": 3,
+   "start": 710.125,
+   "end": 739.523,
+   "role": "C",
+   "sentences": [
+    "3.04#1",
+    "3.04#2",
+    "3.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_childhood_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NHÂN CÁCH BỊ PHÂN MẢNH NGHIÊM TRỌNG"
+      ],
+      [
+       "ital",
+       "Tổn thương sâu sắc thời thơ ấu và bị bạn bè bắt nạt"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Năm 17 tuổi: Mẹ qua đời trong vụ tai nạn giao thông"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-04",
+   "act": 3,
+   "start": 739.523,
+   "end": 769.917,
+   "role": "C",
+   "sentences": [
+    "3.04#4",
+    "3.04#5",
+    "3.04#6"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t4_rainy_hearse_1977",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NĂM 1977 · BỆNH VIỆN TỰ Ý HỎA TÁNG DI HÀI"
+      ],
+      [
+       "ital",
+       "Nỗi oán hận và sự mất kết nối sâu sắc đối với các thiết chế y tế"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "Phức cảm Chúa trời ngầm (Submerged God Complex)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gõ từng ký tự",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-05",
+   "act": 3,
+   "start": 769.917,
+   "end": 771.217,
+   "role": null,
+   "sentences": [],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t4_rainy_hearse_1977",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NĂM 1977 · BỆNH VIỆN TỰ Ý HỎA TÁNG DI HÀI"
+      ],
+      [
+       "ital",
+       "Nỗi oán hận và sự mất kết nối sâu sắc đối với các thiết chế y tế"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "Phức cảm Chúa trời ngầm (Submerged God Complex)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-04"
+  },
+  {
+   "id": "3-06",
+   "act": 3,
+   "start": 771.217,
+   "end": 789.005,
+   "role": "H",
+   "sentences": [
+    "3.06#1",
+    "3.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_cullen_silhouette",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CƠ CHẾ BÙ TRỪ QUYỀN LỰC"
+      ],
+      [
+       "ital",
+       "Tự ti, cô độc ngoài xã hội nhưng tìm thấy quyền lực khi khoác áo blouse trắng"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-07",
+   "act": 3,
+   "start": 789.005,
+   "end": 796.183,
+   "role": "C",
+   "sentences": [
+    "3.07#1",
+    "3.07#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_childhood_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TRONG CUỘC SỐNG ĐỜI THƯỜNG"
+      ],
+      [
+       "ital",
+       "Cullen cảm thấy mình hoàn toàn bất lực và vô hình"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-08",
+   "act": 3,
+   "start": 796.183,
+   "end": 826.543,
+   "role": "C",
+   "sentences": [
+    "3.07#3",
+    "3.07#4",
+    "3.07#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_hypodermic_control",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "KHOA HỒI SỨC CẤP CỨU TRONG CA TRỰC ĐÊM"
+      ],
+      [
+       "ital",
+       "Chỉ với một mũi tiêm nhỏ bé · Quyết định một con người tiếp tục sống hay phải ra đi"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Quyền năng"
+   ],
+   "beat_text": "Sub-drop ở \"Quyền năng\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-09",
+   "act": 3,
+   "start": 826.543,
+   "end": 843.92,
+   "role": "H",
+   "sentences": [
+    "3.08#1",
+    "3.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_two_faces_mask",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TỰ THUYẾT PHỤC VÌ 'LÒNG NHÂN TỪ'"
+      ],
+      [
+       "ital",
+       "Bộ não đã tự đánh lừa lương tâm bằng cách nào?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-10",
+   "act": 3,
+   "start": 843.92,
+   "end": 876.595,
+   "role": "C",
+   "sentences": [
+    "3.09#1",
+    "3.09#2",
+    "3.09#3",
+    "3.09#4"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t4_two_faces_mask",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "CƠ CHẾ THỨ HAI"
+      ],
+      [
+       "bold",
+       "KỸ THUẬT TRUNG HÒA ĐẠO ĐỨC (MORAL NEUTRALIZATION)"
+      ],
+      [
+       "ital",
+       "Ngụy biện: Viện dẫn lòng trắc ẩn cao cả và sự giải thoát"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Kỹ thuật trung hòa"
+   ],
+   "beat_text": "Dấu mộc ở \"Kỹ thuật trung hòa\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-11",
+   "act": 3,
+   "start": 876.595,
+   "end": 921.204,
+   "role": "C",
+   "sentences": [
+    "3.09#5",
+    "3.09#6",
+    "3.09#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_broken_mercy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BẺ GÃY HOÀN TOÀN CHIẾC MẶT NẠ NGỤY BIỆN"
+      ],
+      [
+       "ital",
+       "Nhiều nạn nhân đang hồi phục hoàn toàn: Michael Strenko 21 tuổi, hen suyễn"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "bold",
+       "KHAO KHÁT THỰC HIỆN QUYỀN NĂNG THỐNG TRỊ SINH SÁT"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-12",
+   "act": 3,
+   "start": 921.204,
+   "end": 944.514,
+   "role": "H",
+   "sentences": [
+    "3.10#1",
+    "3.10#2",
+    "3.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_innocent_files",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CULLEN KHÔNG CỨU RỖI AI CẢ"
+      ],
+      [
+       "ital",
+       "Người bệnh yếu thế làm vật tế thần cho khủng hoảng nhân cách"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-13",
+   "act": 3,
+   "start": 944.514,
+   "end": 946.314,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 04"
+      ],
+      [
+       "bold",
+       "ĐẤU TRÍ THẨM VẤN VÀ BƯỚC NGOẶT ĐIỀU TRA"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "4-01",
+   "act": 4,
+   "start": 946.314,
+   "end": 963.521,
+   "role": "H",
+   "sentences": [
+    "4.02#1",
+    "4.02#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t4_prosecutor_office",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THÁNG 10 · 2003"
+      ],
+      [
+       "ital",
+       "Văn phòng Công tố Quận Somerset · Thám tử Tim Braun & Danny Baldwin"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng bước chân vội vã",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-02",
+   "act": 4,
+   "start": 963.521,
+   "end": 996.848,
+   "role": "H",
+   "sentences": [
+    "4.02#3",
+    "4.02#4",
+    "4.02#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_detectives_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BỨC TƯỜNG IM LẶNG TỪ PHÍA BỆNH VIỆN"
+      ],
+      [
+       "ital",
+       "Tiếp cận đồng nghiệp thân cận nhất: Nữ y tá Amy Loughren"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-03",
+   "act": 4,
+   "start": 996.848,
+   "end": 1031.62,
+   "role": "D",
+   "sentences": [
+    "4.04#1",
+    "4.04#2",
+    "4.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_pyxis_printout",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BẢN IN NHẬT KÝ RÚT THUỐC PYXIS"
+      ],
+      [
+       "ital",
+       "Hàng loạt yêu cầu rút thuốc Vecuronium bất thường"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-04",
+   "act": 4,
+   "start": 1031.62,
+   "end": 1050.894,
+   "role": "D",
+   "sentences": [
+    "4.04#4",
+    "4.04#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_wire_recorder",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BẤT CHẤP CĂN BỆNH CƠ TIM HIỂM NGHÈO"
+      ],
+      [
+       "ital",
+       "Chấp nhận gài máy ghi âm siêu nhỏ trong người để tiếp cận Cullen"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-05",
+   "act": 4,
+   "start": 1050.894,
+   "end": 1068.531,
+   "role": "N2",
+   "sentences": [
+    "4.06#1",
+    "4.06#2",
+    "4.06#3"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t4_amy_scrubs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Khi các thám tử cho tôi xem nhật ký rút thuốc của Charlie, mặt đất dưới chân tôi như sụp đổ hoàn toàn."
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "quote",
+       "Charlie là người bạn thân nhất của tôi, người từng ôm tôi khi tôi lên cơn đau tim…"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "quote",
+       "Nhưng tôi là một y tá."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-06",
+   "act": 4,
+   "start": 1068.531,
+   "end": 1081.608,
+   "role": "N2",
+   "sentences": [
+    "4.06#4",
+    "4.06#5"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t4_amy_scrubs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Lời thề nghề nghiệp của chúng tôi là bảo vệ sự sống, không phải đồng lõa với cái ác."
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "quote",
+       "Dù căn bệnh cơ tim có thể khiến tôi đột tử vì sợ hãi, tôi biết mình không bao giờ được phép quay lưng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-07",
+   "act": 4,
+   "start": 1081.608,
+   "end": 1093.51,
+   "role": "H",
+   "sentences": [
+    "4.08#1",
+    "4.08#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t4_somerville_diner",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "12 · 12 · 2003"
+      ],
+      [
+       "ital",
+       "Nhà hàng The Office Beer Bar and Grill · Thị trấn Bridgewater"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cửa sắt đóng & kéo ghế",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-08",
+   "act": 4,
+   "start": 1093.51,
+   "end": 1123.625,
+   "role": "H",
+   "sentences": [
+    "4.08#3",
+    "4.08#4",
+    "4.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_diner_table",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NGỒI ĐỐI DIỆN QUA CHIẾC BÀN GỖ"
+      ],
+      [
+       "ital",
+       "Amy nhẹ nhàng khuyên Cullen nên hợp tác"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "Cullen hoang mang, ánh mắt thất thần nhưng ngoan cố chiến đấu tới cùng"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-09",
+   "act": 4,
+   "start": 1123.625,
+   "end": 1125.425,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_diner_table",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NGỒI ĐỐI DIỆN QUA CHIẾC BÀN GỖ"
+      ],
+      [
+       "ital",
+       "Amy nhẹ nhàng khuyên Cullen nên hợp tác"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "Cullen hoang mang, ánh mắt thất thần nhưng ngoan cố chiến đấu tới cùng"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "4-08"
+  },
+  {
+   "id": "4-10",
+   "act": 4,
+   "start": 1125.425,
+   "end": 1147.037,
+   "role": "H",
+   "sentences": [
+    "4.11#1",
+    "4.11#2",
+    "4.11#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_parking_arrest",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BÃI ĐỖ XE BÊN NGOÀI QUÁN ĂN"
+      ],
+      [
+       "ital",
+       "Lực lượng cảnh sát ập vào khống chế và bắt giữ Cullen"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-11",
+   "act": 4,
+   "start": 1147.037,
+   "end": 1169.84,
+   "role": "D",
+   "sentences": [
+    "4.12#1",
+    "4.12#2",
+    "4.12#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_interrogation_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "PHÒNG THẨM VẤN SOMERSET"
+      ],
+      [
+       "ital",
+       "Gần 24 tiếng ngồi bất động như một pho tượng đá"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-12",
+   "act": 4,
+   "start": 1169.84,
+   "end": 1189.138,
+   "role": "D",
+   "sentences": [
+    "4.12#4",
+    "4.12#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_warm_sweater",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CHIẾC ÁO LEN ẤM CỦA AMY"
+      ],
+      [
+       "ital",
+       "Cởi chiếc áo len trao cho Cullen, nắm lấy đôi bàn tay lạnh ngắt"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-13",
+   "act": 4,
+   "start": 1189.138,
+   "end": 1204.719,
+   "role": "D",
+   "sentences": [
+    "4.12#6",
+    "4.12#7"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t4_confession_tape",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Charlie, nếu anh thực sự muốn cứu rỗi, hãy cho gia đình các nạn nhân câu trả lời…"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "Những giọt nước mắt lăn dài trên gò má hốc hác của Cullen"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-14",
+   "act": 4,
+   "start": 1204.719,
+   "end": 1233.717,
+   "role": "D",
+   "sentences": [
+    "4.12#8",
+    "4.12#9",
+    "4.12#10"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_confession_tape",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "GỤC ĐẦU THÚ NHẬN"
+      ],
+      [
+       "ital",
+       "“Anh chỉ muốn chấm dứt sự đau đớn cho họ...”"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 10,
+     "elems": [
+      [
+       "bold",
+       "CHIẾC MẶT NẠ DỐI TRÁ SỤP ĐỔ HOÀN TOÀN"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tra tay vào còng số 8",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-15",
+   "act": 4,
+   "start": 1233.717,
+   "end": 1235.517,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 05"
+      ],
+      [
+       "bold",
+       "PHÁN QUYẾT, BÀI HỌC CẢNH BÁO ĐỎ VÀ LỜI KẾT"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "5-01",
+   "act": 5,
+   "start": 1235.517,
+   "end": 1243.748,
+   "role": "H",
+   "sentences": [
+    "5.02#1",
+    "5.02#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t4_somerset_courtroom",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THÁNG 3 · 2006"
+      ],
+      [
+       "ital",
+       "Tòa án Thượng thẩm Quận Somerset · Thẩm phán Paul Armstrong"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gõ từng ký tự",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-02",
+   "act": 5,
+   "start": 1243.748,
+   "end": 1271.701,
+   "role": "H",
+   "sentences": [
+    "5.02#3",
+    "5.02#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_judge_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MƯỜI TÁM BẢN ÁN CHUNG THÂN LIÊN TIẾP"
+      ],
+      [
+       "ital",
+       "Gần 400 năm tù giam · Không bất kỳ cơ hội ân xá"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-03",
+   "act": 5,
+   "start": 1271.701,
+   "end": 1301.451,
+   "role": "H",
+   "sentences": [
+    "5.02#5",
+    "5.02#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_trenton_state_prison",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NHÀ TÙ BANG NEW JERSEY TẠI TRENTON"
+      ],
+      [
+       "ital",
+       "Cách ly hoàn toàn với thế giới bên ngoài"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-04",
+   "act": 5,
+   "start": 1301.451,
+   "end": 1302.751,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_trenton_state_prison",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NHÀ TÙ BANG NEW JERSEY TẠI TRENTON"
+      ],
+      [
+       "ital",
+       "Cách ly hoàn toàn với thế giới bên ngoài"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-03"
+  },
+  {
+   "id": "5-05",
+   "act": 5,
+   "start": 1302.751,
+   "end": 1334.137,
+   "role": "H",
+   "sentences": [
+    "5.04#1",
+    "5.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_institutional_bystander",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TẠI SAO SUỐT 16 NĂM KHÔNG BỊ PHÁT HIỆN?"
+      ],
+      [
+       "ital",
+       "Suốt 16 năm qua 9 bệnh viện, không một ai chịu đứng ra ngăn hắn lại"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-06",
+   "act": 5,
+   "start": 1334.137,
+   "end": 1353.634,
+   "role": "H",
+   "sentences": [
+    "5.04#3",
+    "5.04#4"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t4_cullen_law_doc",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "BANG NEW JERSEY BAN HÀNH"
+      ],
+      [
+       "bold",
+       "ĐẠO LUẬT CULLEN (CULLEN LAW)"
+      ],
+      [
+       "ital",
+       "Đạo luật Tăng cường Trách nhiệm và Báo cáo của Nhân viên Y tế"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Đạo luật Cullen"
+   ],
+   "beat_text": "Dấu mộc ở \"Đạo luật Cullen\"",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-07",
+   "act": 5,
+   "start": 1353.634,
+   "end": 1386.334,
+   "role": "H",
+   "sentences": [
+    "5.04#5",
+    "5.04#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_red_flags_board",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BỐN DẤU HIỆU CẢNH BÁO ĐỎ (RED FLAGS)"
+      ],
+      [
+       "ital",
+       "Nhận diện những kẻ săn mồi ẩn danh trong tổ chức"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-08",
+   "act": 5,
+   "start": 1386.334,
+   "end": 1403.044,
+   "role": "C",
+   "sentences": [
+    "5.05#1",
+    "5.05#2"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t4_redflag_savior",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CẢNH BÁO 01: HỘI CHỨNG VỊ CỨU TINH GIẢ TẠO"
+      ],
+      [
+       "ital",
+       "Luôn xuất hiện đầu tiên khi có khủng hoảng"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-09",
+   "act": 5,
+   "start": 1403.044,
+   "end": 1427.809,
+   "role": "C",
+   "sentences": [
+    "5.05#3",
+    "5.05#4",
+    "5.05#5"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t4_redflag_savior",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CẢNH BÁO 02: LỊCH SỬ LÀM VIỆC CHẮP VÁ VÀ NHẢY VIỆC LIÊN TỤC"
+      ],
+      [
+       "ital",
+       "Liên tục chuyển đổi nơi làm việc sau những khoảng thời gian ngắn"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-10",
+   "act": 5,
+   "start": 1427.809,
+   "end": 1446.955,
+   "role": "D",
+   "sentences": [
+    "5.06#1",
+    "5.06#2"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t4_redflag_resumes",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CẢNH BÁO 03: THAO TÁC GIAN LẬN VƯỢT QUYỀN TRÊN HỆ THỐNG"
+      ],
+      [
+       "ital",
+       "Thường xuyên hủy giao dịch ngay sau khi mở kho thuốc"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-11",
+   "act": 5,
+   "start": 1446.955,
+   "end": 1469.109,
+   "role": "D",
+   "sentences": [
+    "5.06#3",
+    "5.06#4"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t4_redflag_resumes",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CẢNH BÁO 04: SỰ IM LẶNG BẤT THƯỜNG CỦA TẬP THỂ"
+      ],
+      [
+       "ital",
+       "Né tránh pháp luật và giải quyết nội bộ vì sợ phiền phức"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-12",
+   "act": 5,
+   "start": 1469.109,
+   "end": 1470.909,
+   "role": null,
+   "sentences": [],
+   "template": "T9",
+   "variant": "",
+   "bg": "t4_redflag_resumes",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CẢNH BÁO 04: SỰ IM LẶNG BẤT THƯỜNG CỦA TẬP THỂ"
+      ],
+      [
+       "ital",
+       "Né tránh pháp luật và giải quyết nội bộ vì sợ phiền phức"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-11"
+  },
+  {
+   "id": "5-13",
+   "act": 5,
+   "start": 1470.909,
+   "end": 1500.747,
+   "role": "H",
+   "sentences": [
+    "5.08#1",
+    "5.08#2",
+    "5.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_beacon_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CÁI ÁC KHOÁC CHIẾC ÁO CỦA SỰ TỬ TẾ"
+      ],
+      [
+       "ital",
+       "Ẩn mình sau sự thờ ơ và im lặng của đám đông"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-14",
+   "act": 5,
+   "start": 1500.747,
+   "end": 1531.553,
+   "role": "H",
+   "sentences": [
+    "5.08#4",
+    "5.08#5",
+    "5.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_beacon_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NGỌN HẢI ĐĂNG CỦA SỰ CHÍNH TRỰC"
+      ],
+      [
+       "ital",
+       "Lòng dũng cảm bảo vệ phẩm giá y học và sự thiêng liêng của sự sống"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-15",
+   "act": 5,
+   "start": 1531.553,
+   "end": 1532.853,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_beacon_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NGỌN HẢI ĐĂNG CỦA SỰ CHÍNH TRỰC"
+      ],
+      [
+       "ital",
+       "Lòng dũng cảm bảo vệ phẩm giá y học và sự thiêng liêng của sự sống"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng gấp hồ sơ",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-14"
+  },
+  {
+   "id": "5-16",
+   "act": 5,
+   "start": 1532.853,
+   "end": 1543.476,
+   "role": "H",
+   "sentences": [
+    "5.10#1",
+    "5.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_case_file_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CẢM ƠN QUÝ VỊ THÍNH GIẢ ĐÃ THEO DÕI"
+      ],
+      [
+       "ital",
+       "Cảm ơn các chuyên gia và điều tra viên đã đồng hành"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-17",
+   "act": 5,
+   "start": 1543.476,
+   "end": 1552.906,
+   "role": "H",
+   "sentences": [
+    "5.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_case_file_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HÃY LUÔN TỈNH THỨC VÀ TRÂN QUÝ SỰ AN TOÀN"
+      ],
+      [
+       "ital",
+       "Hẹn gặp lại trong hồ sơ phân tích tâm lý tội phạm tiếp theo"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng tắt máy ghi âm",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-18",
+   "act": 5,
+   "start": 1552.906,
+   "end": 1562.906,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_case_file_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HỒI SƠ TẬP 04 · ĐÃ ĐÓNG"
+      ],
+      [
+       "ital",
+       "AMBER EYES · Phân tích tâm lý tội phạm qua những hồ sơ có thật"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Nhạc fade out",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  }
+ ]
+}

@@ -1,0 +1,5321 @@
+{
+ "total": 1194.323,
+ "shots": [
+  {
+   "id": "1-00",
+   "act": 1,
+   "start": 20.5,
+   "end": 22.8,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_police",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "제1막 · 신뢰가 무너지는 순간"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Đèn cảnh sát quét; drone dâng",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-01",
+   "act": 1,
+   "start": 22.8,
+   "end": 28.62,
+   "role": "H",
+   "sentences": [
+    "1.03#1",
+    "1.03#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2015년 6월 14일"
+      ],
+      [
+       "ital",
+       "Missouri 주 Springfield"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gõ từng ký tự",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-02",
+   "act": 1,
+   "start": 28.62,
+   "end": 46.885,
+   "role": "H",
+   "sentences": [
+    "1.03#3"
+   ],
+   "template": "T11",
+   "variant": "",
+   "bg": "phone_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "모녀의 공동 SNS 계정"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "온 마을을 침묵에 빠뜨린 한 줄의 상태 글"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "짧고 쓴 듯한"
+   ],
+   "beat_text": "Bài đăng hiện dạng các dòng mờ, không đọc được chữ, ở \"짧고 쓴 듯한\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-03",
+   "act": 1,
+   "start": 46.885,
+   "end": 48.685,
+   "role": null,
+   "sentences": [],
+   "template": "T11",
+   "variant": "",
+   "bg": "phone_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "모녀의 공동 SNS 계정"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "온 마을을 침묵에 빠뜨린 한 줄의 상태 글"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-02"
+  },
+  {
+   "id": "1-04",
+   "act": 1,
+   "start": 48.685,
+   "end": 57.245,
+   "role": "H",
+   "sentences": [
+    "1.05#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "crowd_house",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "파스텔 핑크빛의 작은 집"
+      ],
+      [
+       "ital",
+       "Missouri 주 Springfield"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-05",
+   "act": 1,
+   "start": 57.245,
+   "end": 71.158,
+   "role": "H",
+   "sentences": [
+    "1.05#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "다음 순서:"
+      ],
+      [
+       "bold",
+       "같은 골목에 사는 주민"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N1"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-06",
+   "act": 1,
+   "start": 71.158,
+   "end": 78.149,
+   "role": "N1",
+   "sentences": [
+    "1.07#1"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "성스러운 모성애의 상징"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-07",
+   "act": 1,
+   "start": 78.149,
+   "end": 99.648,
+   "role": "N1",
+   "sentences": [
+    "1.07#2"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "deedee_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "온 마을이 믿었던 사실"
+      ],
+      [
+       "ital",
+       "하반신 마비 · 백혈병 · 근이영양증 · 중증 뇌전증 · 7세 수준의 지능"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục tại cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-08",
+   "act": 1,
+   "start": 99.648,
+   "end": 109.868,
+   "role": "N1",
+   "sentences": [
+    "1.07#3"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "온 동네 사람들이 감동과 칭송의 눈물을 흘렸다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-09",
+   "act": 1,
+   "start": 109.868,
+   "end": 119.936,
+   "role": "H",
+   "sentences": [
+    "1.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "어머니는 사망했다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-10",
+   "act": 1,
+   "start": 119.936,
+   "end": 123.142,
+   "role": "H",
+   "sentences": [
+    "1.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "empty_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "GYPSY ROSE는 흔적도 없이 사라졌다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "1-11",
+   "act": 1,
+   "start": 123.142,
+   "end": 133.327,
+   "role": "H",
+   "sentences": [
+    "1.08#3",
+    "1.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "wheelchair_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "휠체어 · 산소통 · 수십 개의 약병"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "`#3` sáng xe lăn, `#4` sáng kệ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-12",
+   "act": 1,
+   "start": 133.327,
+   "end": 149.825,
+   "role": "H",
+   "sentences": [
+    "1.08#5"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "wheelchair_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "전미가 묻는다"
+      ],
+      [
+       "bold",
+       "어머니를 죽음으로 몰고 간 자는 대체 누구인가?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-13",
+   "act": 1,
+   "start": 149.825,
+   "end": 157.536,
+   "role": "H",
+   "sentences": [
+    "1.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "interrogation",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "다음 순서:"
+      ],
+      [
+       "bold",
+       "사건 담당 수사관"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-14",
+   "act": 1,
+   "start": 157.536,
+   "end": 159.336,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "interrogation",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "다음 순서:"
+      ],
+      [
+       "bold",
+       "사건 담당 수사관"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-13"
+  },
+  {
+   "id": "1-15",
+   "act": 1,
+   "start": 159.336,
+   "end": 166.456,
+   "role": "D",
+   "sentences": [
+    "1.11#1"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "전국 지명수배 및 수색영장"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "전국 지명수배"
+   ],
+   "beat_text": "Dấu mộc ở \"전국 지명수배\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-16",
+   "act": 1,
+   "start": 166.456,
+   "end": 181.005,
+   "role": "D",
+   "sentences": [
+    "1.11#2"
+   ],
+   "template": "T7",
+   "variant": "",
+   "bg": "route_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "그 다음 날"
+      ],
+      [
+       "ital",
+       "Wisconsin 주 — 수백 마일 밖"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Đường tự vẽ, số đếm",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-17",
+   "act": 1,
+   "start": 181.005,
+   "end": 190.401,
+   "role": "D",
+   "sentences": [
+    "1.11#3",
+    "1.11#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "interrogation_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "그녀는 두 발로 온전히 서서 걷고 있었다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "`#4` sáng đèn treo",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-18",
+   "act": 1,
+   "start": 190.401,
+   "end": 196.188,
+   "role": "D",
+   "sentences": [
+    "1.11#5",
+    "1.11#6",
+    "1.11#7"
+   ],
+   "template": "T8",
+   "variant": "strike",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "백혈병 · 근이영양증 · 뇌 손상"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi câu gạch một mục",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "1-19",
+   "act": 1,
+   "start": 196.188,
+   "end": 204.005,
+   "role": "D",
+   "sentences": [
+    "1.11#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "bedroom_door_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "그녀의 작은 사랑스러운 딸"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "작은 사랑스러운 딸"
+   ],
+   "beat_text": "Tiêu đề ở \"작은 사랑스러운 딸\"",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": true
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-20",
+   "act": 1,
+   "start": 204.005,
+   "end": 207.292,
+   "role": "H",
+   "sentences": [
+    "1.13#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "범죄심리 프로파일링 사건 기록"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "\"Tách\" ở đầu",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-21",
+   "act": 1,
+   "start": 207.292,
+   "end": 220.066,
+   "role": "H",
+   "sentences": [
+    "1.13#2"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "대리 뮌하우젠 증후군"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "제01화 · 엄마의 사랑이라는 이름의 독약"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "대리 뮌하우젠 증후군"
+   ],
+   "beat_text": "Thuật ngữ ở \"대리 뮌하우젠 증후군\"; tên tập cuối câu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-22",
+   "act": 1,
+   "start": 220.066,
+   "end": 221.866,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "제2막"
+      ],
+      [
+       "bold",
+       "의료 감옥에서의 23년"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "2-01",
+   "act": 2,
+   "start": 221.866,
+   "end": 236.393,
+   "role": "H",
+   "sentences": [
+    "2.02#1",
+    "2.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "단순한 침실이 아니다"
+      ],
+      [
+       "ital",
+       "2015년 6월"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiêu đề ở `#2`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-02",
+   "act": 2,
+   "start": 236.393,
+   "end": 241.863,
+   "role": "H",
+   "sentences": [
+    "2.02#3"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "wheelchair_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "진짜 범죄 현장"
+      ],
+      [
+       "bold",
+       "23년"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Số đếm",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-03",
+   "act": 2,
+   "start": 241.863,
+   "end": 287.14,
+   "role": "H",
+   "sentences": [
+    "2.04#1",
+    "2.04#2",
+    "2.04#3",
+    "2.04#4",
+    "2.04#5"
+   ],
+   "template": "T6",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "1991년 · 건강한 출생"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "생후 3개월 · 수면무호흡증 주장"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "조작된 병력의 시작"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "7세 · 척수 손상 · 휠체어"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "삭발한 머리 · 백혈병 항암치료"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "1 câu 1 mốc",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-04",
+   "act": 2,
+   "start": 287.14,
+   "end": 290.578,
+   "role": "H",
+   "sentences": [
+    "2.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "단순한 거짓말에 그치지 않는다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-05",
+   "act": 2,
+   "start": 290.578,
+   "end": 299.415,
+   "role": "H",
+   "sentences": [
+    "2.06#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "수천 페이지의 진료 기록"
+      ],
+      [
+       "ital",
+       "Gypsy의 신체에 대한 직접적인 의료 개입"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-06",
+   "act": 2,
+   "start": 299.415,
+   "end": 305.502,
+   "role": "H",
+   "sentences": [
+    "2.06#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "다음 순서:"
+      ],
+      [
+       "bold",
+       "수사관의 기록 공개"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-07",
+   "act": 2,
+   "start": 305.502,
+   "end": 316.186,
+   "role": "D",
+   "sentences": [
+    "2.07#1"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "의료 기록에 남겨진 3가지 증거"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Bộ đếm `0/3`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-08",
+   "act": 2,
+   "start": 316.186,
+   "end": 326.381,
+   "role": "D",
+   "sentences": [
+    "2.07#2"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "wheelchair_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "고용량 항뇌전증제 투여"
+      ],
+      [
+       "ital",
+       "뇌전증이 아님에도 불구하고"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "뇌전증이 아님에도"
+   ],
+   "beat_text": "Phụ ở \"뇌전증이 아님에도\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-09",
+   "act": 2,
+   "start": 326.381,
+   "end": 333.012,
+   "role": "D",
+   "sentences": [
+    "2.07#3"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "위 영양관(위루관) 삽입"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-10",
+   "act": 2,
+   "start": 333.012,
+   "end": 343.033,
+   "role": "D",
+   "sentences": [
+    "2.07#4"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "불필요한 수술"
+      ],
+      [
+       "ital",
+       "의사들 앞에서 연출된 거짓 증상에 기반"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-11",
+   "act": 2,
+   "start": 343.033,
+   "end": 353.699,
+   "role": "D",
+   "sentences": [
+    "2.07#5"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "수백 명의 의사들"
+      ],
+      [
+       "ital",
+       "왜 아무도 알아채지 못했는가?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Biểu tượng bác sĩ hiện dần",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-12",
+   "act": 2,
+   "start": 353.699,
+   "end": 362.536,
+   "role": "D",
+   "sentences": [
+    "2.07#6"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "행동 양식"
+      ],
+      [
+       "ital",
+       "(Modus Operandi)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "3 thẻ trống ghim lên",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-13",
+   "act": 2,
+   "start": 362.536,
+   "end": 372.824,
+   "role": "D",
+   "sentences": [
+    "2.07#7"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "01"
+      ],
+      [
+       "bold",
+       "간호조무사 출신"
+      ],
+      [
+       "ital",
+       "전문 의료 용어에 정통했다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-14",
+   "act": 2,
+   "start": 372.824,
+   "end": 392.03,
+   "role": "D",
+   "sentences": [
+    "2.07#8",
+    "2.07#9"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": "storm",
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "02 · 2005년"
+      ],
+      [
+       "bold",
+       "허리케인 Katrina"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 9,
+     "elems": [
+      [
+       "ital",
+       "모든 병력은 Dee Dee의 구두 진술에 의존했다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "`#9` nối dây đỏ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-15",
+   "act": 2,
+   "start": 392.03,
+   "end": 406.976,
+   "role": "D",
+   "sentences": [
+    "2.07#10"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "03"
+      ],
+      [
+       "bold",
+       "의심을 받으면 → 병원을 바꾸고 이사했다"
+      ],
+      [
+       "ital",
+       "Dr. Bernardo Flasterstein · 2007년"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Kéo ra thấy cả bảng",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-16",
+   "act": 2,
+   "start": 406.976,
+   "end": 419.727,
+   "role": "H",
+   "sentences": [
+    "2.09#1",
+    "2.09#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_closed",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "창문은 언제나 굳게 닫혀 있었다"
+      ],
+      [
+       "ital",
+       "학교 교육은 철저히 차단되었다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng khóa cửa ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-17",
+   "act": 2,
+   "start": 419.727,
+   "end": 429.435,
+   "role": "H",
+   "sentences": [
+    "2.09#3"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "house_closed",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "−4세"
+      ],
+      [
+       "ital",
+       "영원히 미성년자로 묶어두기 위한 나이 조작"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-18",
+   "act": 2,
+   "start": 429.435,
+   "end": 436.148,
+   "role": "H",
+   "sentences": [
+    "2.09#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "창살 없는 감옥"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "처방전"
+   ],
+   "beat_text": "Dấu mộc ở \"처방전\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-19",
+   "act": 2,
+   "start": 436.148,
+   "end": 437.948,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "제3막"
+      ],
+      [
+       "bold",
+       "FDIA 가해자의 뇌 속"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "3-01",
+   "act": 3,
+   "start": 437.948,
+   "end": 444.341,
+   "role": "H",
+   "sentences": [
+    "3.02#1"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "모든 것의 밑바탕에 깔린 질문"
+      ],
+      [
+       "bold",
+       "왜?"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "왜?"
+   ],
+   "beat_text": "Tiêu đề ở \"왜?\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "3-02",
+   "act": 3,
+   "start": 444.341,
+   "end": 454.293,
+   "role": "H",
+   "sentences": [
+    "3.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "fog_deedee",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "후원 기금 · 자선 주택 · 무료 여행"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Hiện dần các mục",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-03",
+   "act": 3,
+   "start": 454.293,
+   "end": 472.234,
+   "role": "H",
+   "sentences": [
+    "3.02#3",
+    "3.02#4"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "charity",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "금전은 2차적인 부수익에 불과했다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-04",
+   "act": 3,
+   "start": 472.234,
+   "end": 490.813,
+   "role": "H",
+   "sentences": [
+    "3.02#5"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "대리 뮌하우젠 증후군"
+      ],
+      [
+       "ital",
+       "DSM-5-TR: 타인에게 강요된 사기성장애 (FDIA)"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "DSM-5-TR"
+   ],
+   "beat_text": "Tiêu đề ở \"DSM-5-TR\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-05",
+   "act": 3,
+   "start": 490.813,
+   "end": 492.613,
+   "role": null,
+   "sentences": [],
+   "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "대리 뮌하우젠 증후군"
+      ],
+      [
+       "ital",
+       "DSM-5-TR: 타인에게 강요된 사기성장애 (FDIA)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-04"
+  },
+  {
+   "id": "3-06",
+   "act": 3,
+   "start": 492.613,
+   "end": 505.238,
+   "role": "H",
+   "sentences": [
+    "3.04#1",
+    "3.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "꾀병 (Malingering)"
+      ],
+      [
+       "ital",
+       "이익 추구 및 책임 회피 목적"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "사기성장애 (Factitious Disorder)"
+      ],
+      [
+       "ital",
+       "환자 역할을 원하는 심리적 동기"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "So sánh 2 cột",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-07",
+   "act": 3,
+   "start": 505.238,
+   "end": 515.503,
+   "role": "C",
+   "sentences": [
+    "3.05#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "관심 · 동정 · 정서적 숭배"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "3 từ căn giữa",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-08",
+   "act": 3,
+   "start": 515.503,
+   "end": 519.371,
+   "role": "C",
+   "sentences": [
+    "3.05#2"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "내적 보상"
+      ],
+      [
+       "ital",
+       "(Internal Incentive)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-09",
+   "act": 3,
+   "start": 519.371,
+   "end": 541.248,
+   "role": "C",
+   "sentences": [
+    "3.05#3",
+    "3.05#4"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "3단계의 심리적 심연"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "3 vạch đo",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-10",
+   "act": 3,
+   "start": 541.248,
+   "end": 554.777,
+   "role": "C",
+   "sentences": [
+    "3.05#5",
+    "3.05#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "fog_deedee",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "제1층"
+      ],
+      [
+       "bold",
+       "악성 자기애 (Malignant Narcissism)"
+      ],
+      [
+       "ital",
+       "‘완벽한 희생적 어머니’라는 가면"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-11",
+   "act": 3,
+   "start": 554.777,
+   "end": 563.521,
+   "role": "C",
+   "sentences": [
+    "3.05#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "spotlight_deedee",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "돌연 우주의 중심이 되었다"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "돌연"
+   ],
+   "beat_text": "Sáng đèn ở \"돌연\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "3-12",
+   "act": 3,
+   "start": 563.521,
+   "end": 572.311,
+   "role": "C",
+   "sentences": [
+    "3.05#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "spotlight_deedee",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "중독적인 찬사에 대한 갈망"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-13",
+   "act": 3,
+   "start": 572.311,
+   "end": 581.59,
+   "role": "C",
+   "sentences": [
+    "3.05#9"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "제2층"
+      ],
+      [
+       "bold",
+       "버림받는 것에 대한 병적 공포"
+      ],
+      [
+       "ital",
+       "절대적 통제에 대한 집착"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": true
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-14",
+   "act": 3,
+   "start": 581.59,
+   "end": 582.89,
+   "role": null,
+   "sentences": [],
+   "template": "T5",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "제2층"
+      ],
+      [
+       "bold",
+       "버림받는 것에 대한 병적 공포"
+      ],
+      [
+       "ital",
+       "절대적 통제에 대한 집착"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-13"
+  },
+  {
+   "id": "3-15",
+   "act": 3,
+   "start": 582.89,
+   "end": 586.375,
+   "role": "H",
+   "sentences": [
+    "3.07#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "아이를 영원히 곁에 묶어둘 방법은 무엇인가?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-16",
+   "act": 3,
+   "start": 586.375,
+   "end": 599.916,
+   "role": "H",
+   "sentences": [
+    "3.07#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "‘아프고, 어머니에게 완전히 의존한다’고 믿게 만드는 것"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-17",
+   "act": 3,
+   "start": 599.916,
+   "end": 604.527,
+   "role": "C",
+   "sentences": [
+    "3.08#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "딸의 생명을 완전히 장악한 유일한 지배자"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-18",
+   "act": 3,
+   "start": 604.527,
+   "end": 627.282,
+   "role": "C",
+   "sentences": [
+    "3.08#2",
+    "3.08#3",
+    "3.08#4"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-19",
+   "act": 3,
+   "start": 627.282,
+   "end": 637.222,
+   "role": "C",
+   "sentences": [
+    "3.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "제3층"
+      ],
+      [
+       "bold",
+       "인격 지우기의 심리적 서명"
+      ],
+      [
+       "ital",
+       "(Signature)"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "인격 지우기"
+   ],
+   "beat_text": "Tiêu đề ở \"인격 지우기\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-20",
+   "act": 3,
+   "start": 637.222,
+   "end": 647.546,
+   "role": "C",
+   "sentences": [
+    "3.08#6"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "wheelchair_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "삭발한 머리 · 어린아이의 드레스"
+      ],
+      [
+       "ital",
+       "20세가 넘어서도"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-21",
+   "act": 3,
+   "start": 647.546,
+   "end": 649.346,
+   "role": null,
+   "sentences": [],
+   "template": "T3",
+   "variant": "",
+   "bg": "wheelchair_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "삭발한 머리 · 어린아이의 드레스"
+      ],
+      [
+       "ital",
+       "20세가 넘어서도"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-20"
+  },
+  {
+   "id": "3-22",
+   "act": 3,
+   "start": 649.346,
+   "end": 655.756,
+   "role": "C",
+   "sentences": [
+    "3.10#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "여성으로서의 성장을 일체 거부당했다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-23",
+   "act": 3,
+   "start": 655.756,
+   "end": 672.047,
+   "role": "C",
+   "sentences": [
+    "3.10#2"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "dress_hanger",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "영원히 7살에 멈춘 인형"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-24",
+   "act": 3,
+   "start": 672.047,
+   "end": 681.222,
+   "role": "C",
+   "sentences": [
+    "3.10#3",
+    "3.10#4"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "dress_hanger",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "극도의 지능 · 치밀한 수완 · 뛰어난 설득력"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "3 từ hiện lần lượt",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-25",
+   "act": 3,
+   "start": 681.222,
+   "end": 699.501,
+   "role": "C",
+   "sentences": [
+    "3.10#5",
+    "3.10#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "doll",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "완벽한 사랑의 가면"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "사랑의 가면"
+   ],
+   "beat_text": "Tiêu đề ở \"사랑의 가면\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-26",
+   "act": 3,
+   "start": 699.501,
+   "end": 701.301,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "제4막"
+      ],
+      [
+       "bold",
+       "심문과 전환점――왜 GYPSY는 도망치지 못했는가?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "4-01",
+   "act": 4,
+   "start": 701.301,
+   "end": 713.853,
+   "role": "H",
+   "sentences": [
+    "4.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "사회의 가장 큰 의문"
+      ],
+      [
+       "bold",
+       "왜 일어서서 도망치지 못했는가?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-02",
+   "act": 4,
+   "start": 713.853,
+   "end": 719.684,
+   "role": "H",
+   "sentences": [
+    "4.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "온전히 걸을 수 있었다"
+      ],
+      [
+       "ital",
+       "창살 없는 집"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N2"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-03",
+   "act": 4,
+   "start": 719.684,
+   "end": 728.161,
+   "role": "N2",
+   "sentences": [
+    "4.03#1"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "night_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "다음 순서:"
+      ],
+      [
+       "bold",
+       "사건을 지켜본 시청자의 시선"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-04",
+   "act": 4,
+   "start": 728.161,
+   "end": 745.685,
+   "role": "N2",
+   "sentences": [
+    "4.03#2",
+    "4.03#3"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "wheelchair_spot",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "왜 휠체어에서 일어나 사람들에게 도움을 청하지 못했는가?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-05",
+   "act": 4,
+   "start": 745.685,
+   "end": 747.485,
+   "role": null,
+   "sentences": [],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "wheelchair_spot",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "왜 휠체어에서 일어나 사람들에게 도움을 청하지 못했는가?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "4-04"
+  },
+  {
+   "id": "4-06",
+   "act": 4,
+   "start": 747.485,
+   "end": 757.506,
+   "role": "H",
+   "sentences": [
+    "4.05#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "glass_box_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "20세기 심리학에서 가장 잔혹한 개념 중 하나"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-07",
+   "act": 4,
+   "start": 757.506,
+   "end": 773.799,
+   "role": "H",
+   "sentences": [
+    "4.05#2"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "학습된 무력감"
+      ],
+      [
+       "ital",
+       "(Learned Helplessness)"
+      ],
+      [
+       "ital",
+       "Martin Seligman · 1967년"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-08",
+   "act": 4,
+   "start": 773.799,
+   "end": 781.707,
+   "role": "C",
+   "sentences": [
+    "4.07#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "cage",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "도망칠 수 없는 환경에 오랜 시간 갇힌 생명체"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-09",
+   "act": 4,
+   "start": 781.707,
+   "end": 795.27,
+   "role": "C",
+   "sentences": [
+    "4.07#2"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "cage",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "전기 충격 · 반복되는 고통"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-10",
+   "act": 4,
+   "start": 795.27,
+   "end": 803.225,
+   "role": "C",
+   "sentences": [
+    "4.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "cage",
+   "bg2": "cage_open",
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "우리의 문이 열려 있어도, 도망치려 하지 않는다"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "우리의 문"
+   ],
+   "beat_text": "Cửa mở ở \"우리의 문\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-11",
+   "act": 4,
+   "start": 803.225,
+   "end": 809.322,
+   "role": "C",
+   "sentences": [
+    "4.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "‘내가 무엇을 해도 무력하다’고 뇌가 학습해버렸다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": true
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-12",
+   "act": 4,
+   "start": 809.322,
+   "end": 818.636,
+   "role": "C",
+   "sentences": [
+    "4.07#5",
+    "4.07#6"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "딸의 손을 으스러지도록 꽉 쥐는 어머니의 손"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-13",
+   "act": 4,
+   "start": 818.636,
+   "end": 834.753,
+   "role": "C",
+   "sentences": [
+    "4.07#7"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "침묵을 강요하는 경고"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "더욱 강해졌다"
+   ],
+   "beat_text": "Bàn tay siết chặt ở \"더욱 강해졌다\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-14",
+   "act": 4,
+   "start": 834.753,
+   "end": 842.975,
+   "role": "C",
+   "sentences": [
+    "4.07#8"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "문이 닫히면 가혹한 처벌이 기다렸다"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "닫히면"
+   ],
+   "beat_text": "Cửa đóng ở \"닫히면\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-15",
+   "act": 4,
+   "start": 842.975,
+   "end": 844.275,
+   "role": null,
+   "sentences": [],
+   "template": "T2",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "문이 닫히면 가혹한 처벌이 기다렸다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "4-14"
+  },
+  {
+   "id": "4-16",
+   "act": 4,
+   "start": 844.275,
+   "end": 850.525,
+   "role": "H",
+   "sentences": [
+    "4.09#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2011년"
+      ],
+      [
+       "ital",
+       "SF 컨벤션 행사 · 남성 지인"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "4-17",
+   "act": 4,
+   "start": 850.525,
+   "end": 862.52,
+   "role": "H",
+   "sentences": [
+    "4.09#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "탈출 시도"
+      ],
+      [
+       "ital",
+       "모텔"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-18",
+   "act": 4,
+   "start": 862.52,
+   "end": 867.295,
+   "role": "H",
+   "sentences": [
+    "4.09#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "불과 몇 시간 만에"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-19",
+   "act": 4,
+   "start": 867.295,
+   "end": 877.247,
+   "role": "D",
+   "sentences": [
+    "4.10#1"
+   ],
+   "template": "T6",
+   "variant": "",
+   "bg": "night_street_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "Dee Dee는 즉시 추적해 강제로 끌고 왔다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-20",
+   "act": 4,
+   "start": 877.247,
+   "end": 891.809,
+   "role": "D",
+   "sentences": [
+    "4.10#2",
+    "4.10#3"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "‘지적 장애를 가진 미성년자’라는 위조 서류"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "위조 서류"
+   ],
+   "beat_text": "Dấu mộc ở \"위조 서류\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-21",
+   "act": 4,
+   "start": 891.809,
+   "end": 898.893,
+   "role": "D",
+   "sentences": [
+    "4.10#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_return",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "침대에 묶인 채 굶주림의 처벌을 받았다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-22",
+   "act": 4,
+   "start": 898.893,
+   "end": 905.78,
+   "role": "D",
+   "sentences": [
+    "4.10#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_screen",
+   "bg2": "screen_off",
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "컴퓨터 파괴 · 외부와의 완벽한 단절"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "부수고"
+   ],
+   "beat_text": "Màn hình tắt ở \"부수고\"",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": true
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-23",
+   "act": 4,
+   "start": 905.78,
+   "end": 907.58,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_screen",
+   "bg2": "screen_off",
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "컴퓨터 파괴 · 외부와의 완벽한 단절"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "4-22"
+  },
+  {
+   "id": "4-24",
+   "act": 4,
+   "start": 907.58,
+   "end": 923.198,
+   "role": "H",
+   "sentences": [
+    "4.12#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "crowd_away",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "출구 없는 심리적 덫"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-25",
+   "act": 4,
+   "start": 923.198,
+   "end": 932.107,
+   "role": "H",
+   "sentences": [
+    "4.12#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "유일한 숨구멍: 은밀한 인터넷"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-26",
+   "act": 4,
+   "start": 932.107,
+   "end": 936.393,
+   "role": "C",
+   "sentences": [
+    "4.13#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "온라인 데이팅 사이트"
+      ],
+      [
+       "ital",
+       "2012년"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-27",
+   "act": 4,
+   "start": 936.393,
+   "end": 949.398,
+   "role": "C",
+   "sentences": [
+    "4.13#2"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "dress_hanger",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "Nicholas Godejohn"
+      ],
+      [
+       "ital",
+       "고립된 남성"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-28",
+   "act": 4,
+   "start": 949.398,
+   "end": 957.842,
+   "role": "C",
+   "sentences": [
+    "4.13#3"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "수천 통의 심야 메시지"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-29",
+   "act": 4,
+   "start": 957.842,
+   "end": 969.198,
+   "role": "H",
+   "sentences": [
+    "4.15#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "corridor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "어두운 망상의 공유"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-30",
+   "act": 4,
+   "start": 969.198,
+   "end": 979.312,
+   "role": "H",
+   "sentences": [
+    "4.15#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "godejohn_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "‘어머니가 사라져야만 내가 구원받을 수 있다’는 확신"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-31",
+   "act": 4,
+   "start": 979.312,
+   "end": 987.0,
+   "role": "H",
+   "sentences": [
+    "4.15#3"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "two_shadows",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "감응성 정신병 (FOLIE À DEUX)"
+      ],
+      [
+       "ital",
+       "(두 사람의 광기)"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "광기"
+   ],
+   "beat_text": "Hai bóng người lồng vào nhau ở \"광기\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-32",
+   "act": 4,
+   "start": 987.0,
+   "end": 1002.399,
+   "role": "H",
+   "sentences": [
+    "4.15#4",
+    "4.15#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "어머니가 사라져야만 비로소…"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2015년 6월"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "문을 열고"
+   ],
+   "beat_text": "Cửa sáng ở \"문을 열고\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-33",
+   "act": 4,
+   "start": 1002.399,
+   "end": 1004.199,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "제5막"
+      ],
+      [
+       "bold",
+       "사법적 단죄와 레드플래그, 그리고 교훈"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "5-01",
+   "act": 5,
+   "start": 1004.199,
+   "end": 1012.398,
+   "role": "H",
+   "sentences": [
+    "5.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "Missouri 주 법정"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-02",
+   "act": 5,
+   "start": 1012.398,
+   "end": 1018.576,
+   "role": "H",
+   "sentences": [
+    "5.02#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "법적으로는"
+      ],
+      [
+       "bold",
+       "명백한 중범죄"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-03",
+   "act": 5,
+   "start": 1018.576,
+   "end": 1034.456,
+   "role": "H",
+   "sentences": [
+    "5.02#3"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Dan Patterson · Greene 카운티 검사"
+      ],
+      [
+       "bold",
+       "주동자인 동시에 가혹한 학대의 피해자"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "주동자"
+   ],
+   "beat_text": "Tiêu đề ở \"주동자\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-04",
+   "act": 5,
+   "start": 1034.456,
+   "end": 1035.756,
+   "role": null,
+   "sentences": [],
+   "template": "T2",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Dan Patterson · Greene 카운티 검사"
+      ],
+      [
+       "bold",
+       "주동자인 동시에 가혹한 학대의 피해자"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-03"
+  },
+  {
+   "id": "5-05",
+   "act": 5,
+   "start": 1035.756,
+   "end": 1046.346,
+   "role": "H",
+   "sentences": [
+    "5.04#1"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "2016년 · 유죄 인정 협상 · 2급 살인"
+      ],
+      [
+       "bold",
+       "징역 10년"
+      ],
+      [
+       "ital",
+       "동일 범죄의 법정 최저형"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-06",
+   "act": 5,
+   "start": 1046.346,
+   "end": 1064.103,
+   "role": "H",
+   "sentences": [
+    "5.04#2"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "prison_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "가석방 후 GYPSY의 고백"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "감옥 안에서 평생 처음으로 어머니의 집에 살 때보다 더 큰 자유를 느꼈습니다."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-07",
+   "act": 5,
+   "start": 1064.103,
+   "end": 1071.211,
+   "role": "H",
+   "sentences": [
+    "5.04#3"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "prison_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "2023년 12월"
+      ],
+      [
+       "bold",
+       "형기의 85% 복역"
+      ],
+      [
+       "ital",
+       "가석방 출소"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-08",
+   "act": 5,
+   "start": 1071.211,
+   "end": 1073.011,
+   "role": null,
+   "sentences": [],
+   "template": "T5",
+   "variant": "",
+   "bg": "prison_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "2023년 12월"
+      ],
+      [
+       "bold",
+       "형기의 85% 복역"
+      ],
+      [
+       "ital",
+       "가석방 출소"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-07"
+  },
+  {
+   "id": "5-09",
+   "act": 5,
+   "start": 1073.011,
+   "end": 1090.687,
+   "role": "H",
+   "sentences": [
+    "5.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "경계해야 할 4가지 레드플래그"
+      ],
+      [
+       "ital",
+       "(Red Flags)"
+      ],
+      [
+       "ital",
+       "심리학자 & 수사관"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C+D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-10",
+   "act": 5,
+   "start": 1090.687,
+   "end": 1102.066,
+   "role": "C",
+   "sentences": [
+    "5.07#1"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "01"
+      ],
+      [
+       "bold",
+       "비정상적으로 긴 병력 — 검사 결과와의 끊임없는 모순"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": true,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-11",
+   "act": 5,
+   "start": 1102.066,
+   "end": 1113.517,
+   "role": "C",
+   "sentences": [
+    "5.07#2"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "02"
+      ],
+      [
+       "bold",
+       "증상이 보호자가 동석했을 때만 발생한다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": true,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve",
+   "bg_inherited": true
+  },
+  {
+   "id": "5-12",
+   "act": 5,
+   "start": 1113.517,
+   "end": 1127.242,
+   "role": "D",
+   "sentences": [
+    "5.08#1"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "03"
+      ],
+      [
+       "bold",
+       "치료에 대한 기이한 열광 · 질병 과시 · 잦은 병원 변경"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": true,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve",
+   "bg_inherited": true
+  },
+  {
+   "id": "5-13",
+   "act": 5,
+   "start": 1127.242,
+   "end": 1135.291,
+   "role": "D",
+   "sentences": [
+    "5.08#2"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "04"
+      ],
+      [
+       "bold",
+       "학교, 친구, 친척들로부터의 완전한 격리"
+      ],
+      [
+       "quote",
+       "보호라는 구실"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": true,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve",
+   "bg_inherited": true
+  },
+  {
+   "id": "5-14",
+   "act": 5,
+   "start": 1135.291,
+   "end": 1137.591,
+   "role": null,
+   "sentences": [],
+   "template": "T8",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve",
+   "bg_inherited": true
+  },
+  {
+   "id": "5-15",
+   "act": 5,
+   "start": 1137.591,
+   "end": 1147.392,
+   "role": "H",
+   "sentences": [
+    "5.10#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "사건 기록은 종결되었다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-16",
+   "act": 5,
+   "start": 1147.392,
+   "end": 1156.229,
+   "role": "H",
+   "sentences": [
+    "5.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_free",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "자신의 두 다리로 일어서기 시작했다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-17",
+   "act": 5,
+   "start": 1156.229,
+   "end": 1167.66,
+   "role": "H",
+   "sentences": [
+    "5.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "cage_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "천사의 옷을 입은 악마"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "천사의 옷"
+   ],
+   "beat_text": "Tiêu đề ở \"천사의 옷\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-18",
+   "act": 5,
+   "start": 1167.66,
+   "end": 1168.96,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "cage_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "천사의 옷을 입은 악마"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-17"
+  },
+  {
+   "id": "5-19",
+   "act": 5,
+   "start": 1168.96,
+   "end": 1177.333,
+   "role": "H",
+   "sentences": [
+    "5.12#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "출연해주신 게스트 여러분께 감사드립니다"
+      ],
+      [
+       "ital",
+       "가상 인물 · AI 음성"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": true,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-20",
+   "act": 5,
+   "start": 1177.333,
+   "end": 1185.323,
+   "role": "H",
+   "sentences": [
+    "5.12#2"
+   ],
+   "template": "T10",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "다음 사건 파일에서 다시 뵙겠습니다"
+      ],
+      [
+       "ital",
+       "댓글로 여러분의 생각을 남겨주세요"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-21",
+   "act": 5,
+   "start": 1185.323,
+   "end": 1194.323,
+   "role": null,
+   "sentences": [],
+   "template": "T2",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "사건 기록 제01화 · 종결"
+      ],
+      [
+       "bold",
+       "AMBER EYES"
+      ],
+      [
+       "ital",
+       "범죄심리학 — 실사 사건 기록으로 읽는 인간 심리"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Bụp"
+   ],
+   "beat_text": "Đóng tệp ở \"Bụp\"; tối đen",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  }
+ ]
+}

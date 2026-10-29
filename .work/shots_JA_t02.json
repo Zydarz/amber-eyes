@@ -1,0 +1,7071 @@
+{
+ "total": 1917.62,
+ "shots": [
+  {
+   "id": "1-00",
+   "act": 1,
+   "start": 20.5,
+   "end": 22.8,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_town_snow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第1幕 · 大佐の階級章の裏にある極端なコントラスト"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng phản lực tụt thành drone; kim đồng hồ",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-01",
+   "act": 1,
+   "start": 22.8,
+   "end": 31.38,
+   "role": "H",
+   "sentences": [
+    "1.03#1",
+    "1.03#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t2_base_trenton",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2009年7月"
+      ],
+      [
+       "ital",
+       "トレントン空軍基地――カナダ軍で最大の空軍基地"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gõ từng ký tự",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-02",
+   "act": 1,
+   "start": 31.38,
+   "end": 36.699,
+   "role": "H",
+   "sentences": [
+    "1.03#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_oath_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "就任式"
+      ],
+      [
+       "ital",
+       "軍の高官らが見守る中で"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-03",
+   "act": 1,
+   "start": 36.699,
+   "end": 48.988,
+   "role": "H",
+   "sentences": [
+    "1.03#4"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t2_oath_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "最高指揮権を引き受けた"
+      ],
+      [
+       "bold",
+       "DAVID RUSSELL WILLIAMS 大佐"
+      ],
+      [
+       "ital",
+       "操縦実績が完璧"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "完璧で"
+   ],
+   "beat_text": "Dấu mộc ở \"完璧で\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-04",
+   "act": 1,
+   "start": 48.988,
+   "end": 50.288,
+   "role": null,
+   "sentences": [],
+   "template": "T2",
+   "variant": "",
+   "bg": "t2_oath_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "最高指揮権を引き受けた"
+      ],
+      [
+       "bold",
+       "DAVID RUSSELL WILLIAMS 大佐"
+      ],
+      [
+       "ital",
+       "操縦実績が完璧"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-03"
+  },
+  {
+   "id": "1-05",
+   "act": 1,
+   "start": 50.288,
+   "end": 60.17,
+   "role": "H",
+   "sentences": [
+    "1.05#1"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "t2_base_trenton",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "46歳"
+      ],
+      [
+       "ital",
+       "英国女王 Elizabeth II とカナダ首相を乗せた専用機を操縦"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Số đếm",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-06",
+   "act": 1,
+   "start": 60.17,
+   "end": 73.128,
+   "role": "H",
+   "sentences": [
+    "1.05#2"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t2_base_trenton",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "鉄の規律の象徴 · 模範的な夫 · 妻：カナダ心臓・脳卒中財団の指導的立場"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-07",
+   "act": 1,
+   "start": 73.128,
+   "end": 82.025,
+   "role": "H",
+   "sentences": [
+    "1.05#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_base_trenton",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "想像してみてください:"
+      ],
+      [
+       "bold",
+       "彼の下で服務した人々の気持ち"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N1"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-08",
+   "act": 1,
+   "start": 82.025,
+   "end": 90.908,
+   "role": "N1",
+   "sentences": [
+    "1.07#1"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t2_base_trenton",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "完璧さの現れそのもの"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-09",
+   "act": 1,
+   "start": 90.908,
+   "end": 101.406,
+   "role": "N1",
+   "sentences": [
+    "1.07#2"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t2_oath_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "冷静 · 軍服の折り目一つに至るまで整然 · 部下に声を荒らげることなど一度もない"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-10",
+   "act": 1,
+   "start": 101.406,
+   "end": 123.034,
+   "role": "N1",
+   "sentences": [
+    "1.07#3",
+    "1.07#4"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t2_base_trenton",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "最も危険な捕食者のすぐ隣に立ちながら、心から敬意を払って頭を垂れていた…"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-11",
+   "act": 1,
+   "start": 123.034,
+   "end": 137.664,
+   "role": "H",
+   "sentences": [
+    "1.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_town_snow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "閑静な深夜"
+      ],
+      [
+       "ital",
+       "辺鄙な町の闇へ消えていく"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "閑静な深夜"
+   ],
+   "beat_text": "Tiêu đề ở \"閑静な深夜\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-12",
+   "act": 1,
+   "start": 137.664,
+   "end": 149.813,
+   "role": "H",
+   "sentences": [
+    "1.08#2",
+    "1.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_street",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "威風堂々たる大佐はいません"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "残ったのはストーカーだけ"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "残ったのは"
+   ],
+   "beat_text": "Tiêu đề ở \"残ったのは\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-13",
+   "act": 1,
+   "start": 149.813,
+   "end": 151.113,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_street",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "威風堂々たる大佐はいません"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "残ったのはストーカーだけ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-12"
+  },
+  {
+   "id": "1-14",
+   "act": 1,
+   "start": 151.113,
+   "end": 154.96,
+   "role": "H",
+   "sentences": [
+    "1.10#1"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t2_house_missing",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2010年1月28日"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gõ từng ký tự",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "1-15",
+   "act": 1,
+   "start": 154.96,
+   "end": 173.494,
+   "role": "H",
+   "sentences": [
+    "1.10#2",
+    "1.10#3"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t2_house_missing_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "JESSICA LLOYD · 27歳 · ベルヴィル"
+      ],
+      [
+       "bold",
+       "自邸から行方不明"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "オンタリオ州警察が調査に着手 · 大規模な捜索"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "着手し"
+   ],
+   "beat_text": "Dấu mộc ở \"着手し\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-16",
+   "act": 1,
+   "start": 173.494,
+   "end": 179.593,
+   "role": "H",
+   "sentences": [
+    "1.12#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_town_snow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "何の手がかりも見つけられなかった"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gió, bước chân (SFX `1.11`) ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-17",
+   "act": 1,
+   "start": 179.593,
+   "end": 190.079,
+   "role": "H",
+   "sentences": [
+    "1.12#2"
+   ],
+   "template": "T7",
+   "variant": "",
+   "bg": "t2_checkpoint",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2月4日の夜"
+      ],
+      [
+       "ital",
+       "移動式検問所 · 被害者の家の近く · 一晩中稼働"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "2 ghim không nhãn, đường tự vẽ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-18",
+   "act": 1,
+   "start": 190.079,
+   "end": 209.781,
+   "role": "H",
+   "sentences": [
+    "1.12#3",
+    "1.12#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_tire_track",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "身分証明書の確認ではない"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "bold",
+       "特異なタイヤ痕跡"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "タイヤ痕跡"
+   ],
+   "beat_text": "Tiêu đề ở \"タイヤ痕跡\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-19",
+   "act": 1,
+   "start": 209.781,
+   "end": 224.215,
+   "role": "H",
+   "sentences": [
+    "1.14#1",
+    "1.14#2"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t2_suv_stop",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NISSAN PATHFINDER"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "普段乗っているBMWの代わりに"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gõ kính (SFX `1.13`) ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-20",
+   "act": 1,
+   "start": 224.215,
+   "end": 233.225,
+   "role": "H",
+   "sentences": [
+    "1.14#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_suv_stop",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "トレントン軍事基地の司令官"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "まさに"
+   ],
+   "beat_text": "Tiêu đề ở \"まさに\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-21",
+   "act": 1,
+   "start": 233.225,
+   "end": 244.572,
+   "role": "H",
+   "sentences": [
+    "1.14#4",
+    "1.14#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_tire_track",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "現場に残る痕跡と酷似"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "しかし拘束する根拠には不十分"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-22",
+   "act": 1,
+   "start": 244.572,
+   "end": 255.331,
+   "role": "H",
+   "sentences": [
+    "1.14#6",
+    "1.14#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_checkpoint_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "敬礼で見送られた"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "bold",
+       "その後の3日間"
+      ],
+      [
+       "ital",
+       "彼は依然として自由の大佐であった"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-23",
+   "act": 1,
+   "start": 255.331,
+   "end": 261.001,
+   "role": "H",
+   "sentences": [
+    "1.14#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "耳を傾けてみましょう:"
+      ],
+      [
+       "bold",
+       "捜査官が再現するその3日間"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cửa sắt \"Rầm\" (SFX `1.15`) sau câu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-24",
+   "act": 1,
+   "start": 261.001,
+   "end": 274.098,
+   "role": "D",
+   "sentences": [
+    "1.17#1"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t2_tire_track",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "被害者の家の近く"
+      ],
+      [
+       "bold",
+       "極めて特徴的なタイヤ痕"
+      ],
+      [
+       "ital",
+       "大きな靴跡"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "大きな靴跡"
+   ],
+   "beat_text": "Dấu mộc ở \"大きな靴跡\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-25",
+   "act": 1,
+   "start": 274.098,
+   "end": 298.365,
+   "role": "D",
+   "sentences": [
+    "1.17#2",
+    "1.17#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_suv_stop",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "通常の交通検査"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "現場に残った痕跡とよく似ている"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "懐中電灯を"
+   ],
+   "beat_text": "Vệt sáng đèn pin ở \"懐中電灯を\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-26",
+   "act": 1,
+   "start": 298.365,
+   "end": 304.641,
+   "role": "D",
+   "sentences": [
+    "1.17#4"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t2_checkpoint",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Russell Williams大佐の世界が"
+      ],
+      [
+       "bold",
+       "初めて交わった"
+      ],
+      [
+       "ital",
+       "警察の世界"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "警察の世界"
+   ],
+   "beat_text": "Cột phải ở \"警察の世界\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-27",
+   "act": 1,
+   "start": 304.641,
+   "end": 319.228,
+   "role": "D",
+   "sentences": [
+    "1.17#5",
+    "1.17#6"
+   ],
+   "template": "T6",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "3日間 · 密かに証拠を照合"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "bold",
+       "捜索令状"
+      ],
+      [
+       "ital",
+       "オタワ · ツイード"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi câu một mốc",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-28",
+   "act": 1,
+   "start": 319.228,
+   "end": 332.628,
+   "role": "D",
+   "sentences": [
+    "1.17#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_phone_call",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "召喚状ではなく"
+      ],
+      [
+       "bold",
+       "電話による招待"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "電話による招待"
+   ],
+   "beat_text": "Tiêu đề ở \"電話による招待\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-29",
+   "act": 1,
+   "start": 332.628,
+   "end": 335.95,
+   "role": "H",
+   "sentences": [
+    "1.18#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "犯罪心理プロファイリング・ケースファイル"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-30",
+   "act": 1,
+   "start": 335.95,
+   "end": 346.575,
+   "role": "H",
+   "sentences": [
+    "1.18#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "事件ファイル"
+      ],
+      [
+       "bold",
+       "RUSSELL WILLIAMS 事件"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Russell Williams"
+   ],
+   "beat_text": "Dấu mộc ở \"Russell Williams\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-31",
+   "act": 1,
+   "start": 346.575,
+   "end": 367.854,
+   "role": "H",
+   "sentences": [
+    "1.18#3"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_two_masks",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "行動のエスカレーション"
+      ],
+      [
+       "bold",
+       "心の区分化"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第02話 · 二重生活の大佐"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi thuật ngữ ở cụm từ; tên tập cuối câu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-32",
+   "act": 1,
+   "start": 367.854,
+   "end": 369.654,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第2幕"
+      ],
+      [
+       "bold",
+       "深淵への4段階"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "2-01",
+   "act": 2,
+   "start": 369.654,
+   "end": 384.726,
+   "role": "H",
+   "sentences": [
+    "2.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_cottage_search",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "家宅捜索"
+      ],
+      [
+       "ital",
+       "オタワ · ツイード"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-02",
+   "act": 2,
+   "start": 384.726,
+   "end": 394.195,
+   "role": "H",
+   "sentences": [
+    "2.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_cottage_search",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "最も暗い想像を遥かに超えていた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-03",
+   "act": 2,
+   "start": 394.195,
+   "end": 398.622,
+   "role": "H",
+   "sentences": [
+    "2.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_house_missing_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "地下室の天井裏に隠されたハードディスク"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Lật hồ sơ (SFX `2.03`) ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-04",
+   "act": 2,
+   "start": 398.622,
+   "end": 407.216,
+   "role": "H",
+   "sentences": [
+    "2.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_escalation_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "何千枚もの写真と映像 · 撮影日時 · 複雑なフォルダ構造 · あらゆる侵入記録"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-05",
+   "act": 2,
+   "start": 407.216,
+   "end": 417.097,
+   "role": "H",
+   "sentences": [
+    "2.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_escalation_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "一夜にして捕食者になったわけではない"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "ital",
+       "氷山の一角"
+      ],
+      [
+       "bold",
+       "行動のエスカレーションの4段階"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-06",
+   "act": 2,
+   "start": 417.097,
+   "end": 423.045,
+   "role": "H",
+   "sentences": [
+    "2.04#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "耳を傾けてみましょう:"
+      ],
+      [
+       "bold",
+       "捜査官が手口を解説する"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-07",
+   "act": 2,
+   "start": 423.045,
+   "end": 434.285,
+   "role": "D",
+   "sentences": [
+    "2.05#1"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "エスカレーションの4段階"
+      ],
+      [
+       "ital",
+       "デジタル証拠と復元された記録"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Bộ đếm `0/4`, 4 thẻ trống ghim lên",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-08",
+   "act": 2,
+   "start": 434.285,
+   "end": 447.785,
+   "role": "D",
+   "sentences": [
+    "2.05#2",
+    "2.05#3"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "t2_open_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第1段階"
+      ],
+      [
+       "bold",
+       "窃視症"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "夜間に静かな住宅街を徘徊する"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-09",
+   "act": 2,
+   "start": 447.785,
+   "end": 464.546,
+   "role": "D",
+   "sentences": [
+    "2.05#4",
+    "2.05#5",
+    "2.05#6"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "t2_drawer_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第2段階"
+      ],
+      [
+       "bold",
+       "住居侵入と私物の窃盗"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "捜査官が特定した最も古い侵入：2006年"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-10",
+   "act": 2,
+   "start": 464.546,
+   "end": 475.392,
+   "role": "D",
+   "sentences": [
+    "2.05#7"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "t2_open_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "2007年9月～2009年11月"
+      ],
+      [
+       "bold",
+       "82"
+      ],
+      [
+       "ital",
+       "件の侵入および未遂"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Số đếm 0 → 82",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-11",
+   "act": 2,
+   "start": 475.392,
+   "end": 485.06,
+   "role": "D",
+   "sentences": [
+    "2.05#8",
+    "2.05#9"
+   ],
+   "template": "T8",
+   "variant": "strike",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "現金や装飾品"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 9,
+     "elems": [
+      [
+       "bold",
+       "女性の下着や私物"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "奪っては"
+   ],
+   "beat_text": "Gạch ở \"奪っては\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-12",
+   "act": 2,
+   "start": 485.06,
+   "end": 495.51,
+   "role": "D",
+   "sentences": [
+    "2.05#10"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t2_logbook",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "寸分狂わず繰り返された儀式"
+      ],
+      [
+       "ital",
+       "現場の撮影 · 持ち去り · 詳細な記録"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-13",
+   "act": 2,
+   "start": 495.51,
+   "end": 518.614,
+   "role": "D",
+   "sentences": [
+    "2.05#11",
+    "2.05#12",
+    "2.05#13"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "t2_escalation_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第3段階"
+      ],
+      [
+       "bold",
+       "住人がいる状態での侵入"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 12,
+     "elems": [
+      [
+       "ital",
+       "2009年9月 · 閾値はさらに鈍化"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 13,
+     "elems": [
+      [
+       "ital",
+       "2名の女性 · ツイードの町"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-14",
+   "act": 2,
+   "start": 518.614,
+   "end": 553.261,
+   "role": "D",
+   "sentences": [
+    "2.05#14",
+    "2.05#15",
+    "2.05#16"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "fog",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第4段階"
+      ],
+      [
+       "bold",
+       "殺人"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 15,
+     "elems": [
+      [
+       "ital",
+       "2009年11月下旬 · Marie-France Comeau · 伍長 · 37歳 · 第437空輸飛行隊"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 16,
+     "elems": [
+      [
+       "ital",
+       "その2ヶ月後 · Jessica Lloyd"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Chỉ chữ, không hình người",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-15",
+   "act": 2,
+   "start": 553.261,
+   "end": 554.561,
+   "role": null,
+   "sentences": [],
+   "template": "T3",
+   "variant": "",
+   "bg": "fog",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第4段階"
+      ],
+      [
+       "bold",
+       "殺人"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 15,
+     "elems": [
+      [
+       "ital",
+       "2009年11月下旬 · Marie-France Comeau · 伍長 · 37歳 · 第437空輸飛行隊"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 16,
+     "elems": [
+      [
+       "ital",
+       "その2ヶ月後 · Jessica Lloyd"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "2-14"
+  },
+  {
+   "id": "2-16",
+   "act": 2,
+   "start": 554.561,
+   "end": 574.441,
+   "role": "H",
+   "sentences": [
+    "2.07#1",
+    "2.07#2"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t2_two_masks",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "不気味な捕食者の本能"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "bold",
+       "NISSAN PATHFINDER"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cột phải ở `#2`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "2-17",
+   "act": 2,
+   "start": 574.441,
+   "end": 586.39,
+   "role": "H",
+   "sentences": [
+    "2.07#3"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_logbook",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "雪の夜の侵入"
+      ],
+      [
+       "bold",
+       "JESSICA LLOYDの家"
+      ],
+      [
+       "ital",
+       "雪の上のタイヤ痕"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-18",
+   "act": 2,
+   "start": 586.39,
+   "end": 591.443,
+   "role": "H",
+   "sentences": [
+    "2.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "雪の中の検問所"
+      ],
+      [
+       "bold",
+       "David Russell Williams"
+      ],
+      [
+       "ital",
+       "大佐の階級章"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-19",
+   "act": 2,
+   "start": 591.443,
+   "end": 614.295,
+   "role": "D",
+   "sentences": [
+    "2.08#1",
+    "2.08#2"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "二重生活の崩壊"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Thuật ngữ ở `#2`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-20",
+   "act": 2,
+   "start": 614.295,
+   "end": 629.846,
+   "role": "D",
+   "sentences": [
+    "2.08#3",
+    "2.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_drawer_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "一人になったとき"
+      ],
+      [
+       "bold",
+       "支配の感覚を追体験する"
+      ],
+      [
+       "ital",
+       "軍隊式の思考"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "追体験"
+   ],
+   "beat_text": "Tiêu đề ở \"追体験\"",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-21",
+   "act": 2,
+   "start": 629.846,
+   "end": 639.496,
+   "role": "D",
+   "sentences": [
+    "2.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_boot_evidence",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "一つの引き出しに閉じ込める"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "bold",
+       "完全に独立した二重生活"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-22",
+   "act": 2,
+   "start": 639.496,
+   "end": 647.246,
+   "role": "D",
+   "sentences": [
+    "2.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_suv_stop",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "名誉ある基地司令官"
+      ],
+      [
+       "bold",
+       "自邸の寝室の侵入者"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-23",
+   "act": 2,
+   "start": 647.246,
+   "end": 660.687,
+   "role": "D",
+   "sentences": [
+    "2.08#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_house_missing_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "なぜ一人の人間の中で"
+      ],
+      [
+       "bold",
+       "2つの世界が共存できたのか？"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-24",
+   "act": 2,
+   "start": 660.687,
+   "end": 662.487,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第3幕"
+      ],
+      [
+       "bold",
+       "二重生活の捕食者の内面"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "3-01",
+   "act": 3,
+   "start": 662.487,
+   "end": 672.346,
+   "role": "H",
+   "sentences": [
+    "3.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_command_chair",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "心理学的パラドックス"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-02",
+   "act": 3,
+   "start": 672.346,
+   "end": 689.612,
+   "role": "H",
+   "sentences": [
+    "3.02#2"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t2_command_chair",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "なぜすべてを持つように見える男が"
+      ],
+      [
+       "bold",
+       "下着と残酷な行為のためだけに"
+      ],
+      [
+       "ital",
+       "そのすべてを賭けようとしたのか"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "そのすべてを賭けようと"
+   ],
+   "beat_text": "Mỗi mục ở cụm từ; tiêu đề ở \"そのすべてを賭けようと\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-03",
+   "act": 3,
+   "start": 689.612,
+   "end": 690.912,
+   "role": null,
+   "sentences": [],
+   "template": "T8",
+   "variant": "",
+   "bg": "t2_command_chair",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "なぜすべてを持つように見える男が"
+      ],
+      [
+       "bold",
+       "下着と残酷な行為のためだけに"
+      ],
+      [
+       "ital",
+       "そのすべてを賭けようとしたのか"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-02"
+  },
+  {
+   "id": "3-04",
+   "act": 3,
+   "start": 690.912,
+   "end": 702.724,
+   "role": "H",
+   "sentences": [
+    "3.04#1"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "二重生活"
+      ],
+      [
+       "ital",
+       "深層心理"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-05",
+   "act": 3,
+   "start": 702.724,
+   "end": 719.908,
+   "role": "H",
+   "sentences": [
+    "3.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_brain_neural",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "耳を傾けてみましょう:"
+      ],
+      [
+       "bold",
+       "心理学者が心の深淵を解剖する"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-06",
+   "act": 3,
+   "start": 719.908,
+   "end": 732.091,
+   "role": "H",
+   "sentences": [
+    "3.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_brain_neural",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "解剖の対象：行動のエスカレーションと心理メカニズム"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-07",
+   "act": 3,
+   "start": 732.091,
+   "end": 756.198,
+   "role": "C",
+   "sentences": [
+    "3.05#1",
+    "3.05#2",
+    "3.05#3"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_brain_neural",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "第1の柱：行動のエスカレーションの力学"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "3 vòng sáng ở `#3`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-08",
+   "act": 3,
+   "start": 756.198,
+   "end": 762.785,
+   "role": "C",
+   "sentences": [
+    "3.05#4"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_escalation_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "逸脱した性的空想"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "空想は行動を要求する"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "夜間の徘徊"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "住居侵入"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "直接的暴力"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "ital",
+       "殺人"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-09",
+   "act": 3,
+   "start": 762.785,
+   "end": 775.338,
+   "role": "C",
+   "sentences": [
+    "3.05#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_escalation_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "盗視症"
+      ],
+      [
+       "ital",
+       "ごく小さな刺激から始まった"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "盗視症"
+   ],
+   "beat_text": "Tiêu đề ở \"盗視症\" (thuật ngữ y khoa chỉ đọc, không hiện)",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-10",
+   "act": 3,
+   "start": 775.338,
+   "end": 798.271,
+   "role": "C",
+   "sentences": [
+    "3.05#6",
+    "3.05#7"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_brain_neural",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "耐性の形成"
+      ],
+      [
+       "ital",
+       "刺激に対する感度の低下"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Nhịp nhấp nháy ở `#7`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-11",
+   "act": 3,
+   "start": 798.271,
+   "end": 813.623,
+   "role": "C",
+   "sentences": [
+    "3.05#8",
+    "3.05#9"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_brain_neural",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "同じ行動は"
+      ],
+      [
+       "bold",
+       "もはや以前ほどの快感をもたらさない"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-12",
+   "act": 3,
+   "start": 813.623,
+   "end": 830.981,
+   "role": "C",
+   "sentences": [
+    "3.05#10"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t2_escalation_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "より大きなリスク"
+      ],
+      [
+       "bold",
+       "より直接的な支配"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi bậc ở cụm từ, camera leo dần",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-13",
+   "act": 3,
+   "start": 830.981,
+   "end": 841.986,
+   "role": "C",
+   "sentences": [
+    "3.05#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_stairs_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "底のない坂道"
+      ],
+      [
+       "ital",
+       "殺人罪へと至る"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "底のない坂道"
+   ],
+   "beat_text": "Tiêu đề ở \"底のない坂道\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-14",
+   "act": 3,
+   "start": 841.986,
+   "end": 843.286,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_stairs_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "底のない坂道"
+      ],
+      [
+       "ital",
+       "殺人罪へと至る"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-13"
+  },
+  {
+   "id": "3-15",
+   "act": 3,
+   "start": 843.286,
+   "end": 853.946,
+   "role": "H",
+   "sentences": [
+    "3.07#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_drawer_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "解離のメカニズム"
+      ],
+      [
+       "bold",
+       "相容れない自己の側面を分離する"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "3-16",
+   "act": 3,
+   "start": 853.946,
+   "end": 866.765,
+   "role": "H",
+   "sentences": [
+    "3.07#2"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t2_two_masks",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "昼間：基地司令官"
+      ],
+      [
+       "bold",
+       "真夜中：まったく別人"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "真夜中になると"
+   ],
+   "beat_text": "Cột phải ở \"真夜中になると\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-17",
+   "act": 3,
+   "start": 866.765,
+   "end": 874.791,
+   "role": "H",
+   "sentences": [
+    "3.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_two_masks",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "二つの引き出し"
+      ],
+      [
+       "ital",
+       "互いに侵犯しない"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-18",
+   "act": 3,
+   "start": 874.791,
+   "end": 893.57,
+   "role": "C",
+   "sentences": [
+    "3.08#1",
+    "3.08#2"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_two_drawers",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第1の引き出し：エリート軍人"
+      ],
+      [
+       "bold",
+       "第2の引き出し：影の捕食者"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Thuật ngữ Anh ở `#2`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-19",
+   "act": 3,
+   "start": 893.57,
+   "end": 921.289,
+   "role": "C",
+   "sentences": [
+    "3.08#3",
+    "3.08#4",
+    "3.08#5"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t2_two_drawers",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "認知の壁"
+      ],
+      [
+       "bold",
+       "二重生活"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cột phải ở `#5`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-20",
+   "act": 3,
+   "start": 921.289,
+   "end": 944.057,
+   "role": "C",
+   "sentences": [
+    "3.08#6",
+    "3.08#7",
+    "3.08#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_drawer_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "もう一方の引き出しの扉をきつりと閉め切る"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "bold",
+       "罪悪感から完全に遮断される"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "扉をきつりと閉め切ります"
+   ],
+   "beat_text": "Ngăn kéo đóng ở \"扉をきつりと閉め切ります\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-21",
+   "act": 3,
+   "start": 944.057,
+   "end": 973.452,
+   "role": "C",
+   "sentences": [
+    "3.08#9",
+    "3.08#10"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "はい、しかし答えは分かりませんし、答え自体が重要でないことも確かです"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Câu trích từng dòng từ dấu `:`",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-22",
+   "act": 3,
+   "start": 973.452,
+   "end": 989.025,
+   "role": "C",
+   "sentences": [
+    "3.08#11",
+    "3.08#12"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "第3の柱：自己陶酔と神のコンプレックス"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-23",
+   "act": 3,
+   "start": 989.025,
+   "end": 990.325,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "第3の柱：自己陶酔と神のコンプレックス"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-22"
+  },
+  {
+   "id": "3-24",
+   "act": 3,
+   "start": 990.325,
+   "end": 1000.464,
+   "role": "H",
+   "sentences": [
+    "3.10#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_command_chair",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "逮捕されるリスクを劇的に高める行動"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-25",
+   "act": 3,
+   "start": 1000.464,
+   "end": 1015.953,
+   "role": "C",
+   "sentences": [
+    "3.11#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_command_chair",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "悪性自己陶酔"
+      ],
+      [
+       "ital",
+       "(Malignant Narcissism)"
+      ],
+      [
+       "bold",
+       "神のコンプレックス"
+      ],
+      [
+       "ital",
+       "(God Complex)"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "神のコンプレックス"
+   ],
+   "beat_text": "Thuật ngữ 2 ở \"神のコンプレックス\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-26",
+   "act": 3,
+   "start": 1015.953,
+   "end": 1033.43,
+   "role": "C",
+   "sentences": [
+    "3.11#2",
+    "3.11#3"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "t2_base_trenton",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "他人は単なる小道具にすぎない"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-27",
+   "act": 3,
+   "start": 1033.43,
+   "end": 1049.163,
+   "role": "C",
+   "sentences": [
+    "3.11#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "カメラを手にしたとき"
+      ],
+      [
+       "bold",
+       "束縛されていない一種の権力"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "一種の権力"
+   ],
+   "beat_text": "Tiêu đề ở \"一種の権力\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-28",
+   "act": 3,
+   "start": 1049.163,
+   "end": 1069.135,
+   "role": "C",
+   "sentences": [
+    "3.11#5"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_command_chair",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "俺は誰よりも上に立つ者だ…俺には手を届かせられない"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "俺は誰よりも上に立つ者だ"
+   ],
+   "beat_text": "Câu trích ở \"俺は誰よりも上に立つ者だ\" (lời độc thoại tưởng tượng — dấu “” màu tím `violet` của Cáo, không phải lời thật)",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-29",
+   "act": 3,
+   "start": 1069.135,
+   "end": 1089.571,
+   "role": "C",
+   "sentences": [
+    "3.11#6",
+    "3.11#7",
+    "3.11#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_oath_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "致命的な自己矛盾"
+      ],
+      [
+       "ital",
+       "自己陶酔が生んだ慢心"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gọi lại hình lễ nhậm chức Hồi 1",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-30",
+   "act": 3,
+   "start": 1089.571,
+   "end": 1108.361,
+   "role": "C",
+   "sentences": [
+    "3.11#9",
+    "3.11#10",
+    "3.11#11"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "完璧な偽装の崩壊"
+      ],
+      [
+       "bold",
+       "自ら残した証拠の罠"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cột phải ở `#11`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-31",
+   "act": 3,
+   "start": 1108.361,
+   "end": 1110.161,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第4幕"
+      ],
+      [
+       "bold",
+       "軍人の頭脳を打ち砕く"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "4-01",
+   "act": 4,
+   "start": 1110.161,
+   "end": 1118.941,
+   "role": "H",
+   "sentences": [
+    "4.03#1",
+    "4.03#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2010年2月7日"
+      ],
+      [
+       "ital",
+       "オタワの取調室"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gõ từng ký tự; đèn huỳnh quang (SFX `4.01`)",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-02",
+   "act": 4,
+   "start": 1118.941,
+   "end": 1135.942,
+   "role": "H",
+   "sentences": [
+    "4.03#3",
+    "4.03#4"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t2_two_chairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "心理戦の傑作"
+      ],
+      [
+       "bold",
+       "JIM SMYTH 刑事"
+      ],
+      [
+       "ital",
+       "オンタリオ州警察"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cột phải ở `#4`; chỉ tên, không gắn lên bóng (V5)",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-03",
+   "act": 4,
+   "start": 1135.942,
+   "end": 1160.743,
+   "role": "H",
+   "sentences": [
+    "4.03#5",
+    "4.03#6"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "威嚇も大声も怒鳴り声もない"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "ital",
+       "極めて平穏な会話"
+      ],
+      [
+       "bold",
+       "冷徹な包囲網"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-04",
+   "act": 4,
+   "start": 1160.743,
+   "end": 1162.043,
+   "role": null,
+   "sentences": [],
+   "template": "T2",
+   "variant": "",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "威嚇も大声も怒鳴り声もない"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "ital",
+       "極めて平穏な会話"
+      ],
+      [
+       "bold",
+       "冷徹な包囲網"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "4-03"
+  },
+  {
+   "id": "4-05",
+   "act": 4,
+   "start": 1162.043,
+   "end": 1175.12,
+   "role": "H",
+   "sentences": [
+    "4.05#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_tape_recorder",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "想像してみてください:"
+      ],
+      [
+       "bold",
+       "あの小さな町の住人たちの恐怖"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N2"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-06",
+   "act": 4,
+   "start": 1175.12,
+   "end": 1191.217,
+   "role": "N2",
+   "sentences": [
+    "4.06#1",
+    "4.06#2"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t2_house_missing_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "…小さな町ツイードは、言葉にできない漠然とした不安に包まれていました…"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-07",
+   "act": 4,
+   "start": 1191.217,
+   "end": 1198.71,
+   "role": "N2",
+   "sentences": [
+    "4.06#3"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t2_house_missing_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "…その恐怖はどんな悪夢をも超えていました"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve",
+   "bg_inherited": true
+  },
+  {
+   "id": "4-08",
+   "act": 4,
+   "start": 1198.71,
+   "end": 1210.642,
+   "role": "N2",
+   "sentences": [
+    "4.06#4"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t2_house_missing_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "…軍服を着た男が闇の中に立ち、じっと自分を見つめていた…"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve",
+   "bg_inherited": true
+  },
+  {
+   "id": "4-09",
+   "act": 4,
+   "start": 1210.642,
+   "end": 1233.915,
+   "role": "H",
+   "sentences": [
+    "4.07#1",
+    "4.07#2",
+    "4.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_two_chairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "耳を傾けてみましょう:"
+      ],
+      [
+       "bold",
+       "捜査官が伝説の尋問を語る"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-10",
+   "act": 4,
+   "start": 1233.915,
+   "end": 1255.998,
+   "role": "D",
+   "sentences": [
+    "4.08#1",
+    "4.08#2"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_two_chairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "関係構築の芸術"
+      ],
+      [
+       "ital",
+       "(Rapport Building)"
+      ],
+      [
+       "ital",
+       "感情を冷ます罠"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-11",
+   "act": 4,
+   "start": 1255.998,
+   "end": 1274.998,
+   "role": "D",
+   "sentences": [
+    "4.08#3",
+    "4.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_two_chairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "容疑者候補から外すために"
+      ],
+      [
+       "bold",
+       "DNAサンプル · 指紋 · 靴跡"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-12",
+   "act": 4,
+   "start": 1274.998,
+   "end": 1278.922,
+   "role": "D",
+   "sentences": [
+    "4.08#5"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t2_siren_wall",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "自信が招いた罠"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Đèn xanh đỏ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-13",
+   "act": 4,
+   "start": 1278.922,
+   "end": 1289.233,
+   "role": "D",
+   "sentences": [
+    "4.08#6"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t2_boot_evidence",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "令状に基づく捜索"
+      ],
+      [
+       "bold",
+       "オタワの住宅とツイードの別荘"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "令状に基づいて"
+   ],
+   "beat_text": "Câu trích ở \"令状に基づいて\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "4-14",
+   "act": 4,
+   "start": 1289.233,
+   "end": 1301.683,
+   "role": "D",
+   "sentences": [
+    "4.08#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_head_down",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "現場の雪中の靴跡と本人の靴跡"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "まったく同じだ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-15",
+   "act": 4,
+   "start": 1301.683,
+   "end": 1317.666,
+   "role": "D",
+   "sentences": [
+    "4.08#8",
+    "4.08#9"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_two_chairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "タイヤ痕の一致"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "すべてが終わった"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Trượt ảnh \"Xoẹt\" ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-16",
+   "act": 4,
+   "start": 1317.666,
+   "end": 1331.726,
+   "role": "D",
+   "sentences": [
+    "4.10#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_hidden_drive",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "地下室の天井裏のハードディスク"
+      ],
+      [
+       "ital",
+       "何千枚もの写真と侵入記録"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-17",
+   "act": 4,
+   "start": 1331.726,
+   "end": 1350.374,
+   "role": "D",
+   "sentences": [
+    "4.10#2",
+    "4.10#3"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_siren_wall",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "決定的な一撃"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "quote",
+       "あなたの妻も、今何が起きているかを知りましたよ"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "決定的な一撃"
+   ],
+   "beat_text": "Câu trích ở \"決定的な一撃\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-18",
+   "act": 4,
+   "start": 1350.374,
+   "end": 1373.558,
+   "role": "D",
+   "sentences": [
+    "4.10#4",
+    "4.10#5",
+    "4.10#6"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_head_down",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "一瞬にして崩壊した"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "quote",
+       "何と言っていいか分かりません"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-19",
+   "act": 4,
+   "start": 1373.558,
+   "end": 1384.879,
+   "role": "D",
+   "sentences": [
+    "4.10#7"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "尋問開始から約4時間40分後"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "では、彼女はどこにいるのですか"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "静かに"
+   ],
+   "beat_text": "Câu trích ở \"静かに\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-20",
+   "act": 4,
+   "start": 1384.879,
+   "end": 1391.829,
+   "role": "D",
+   "sentences": [
+    "4.10#8"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_forest_map",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "地図はありますか"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "4-21",
+   "act": 4,
+   "start": 1391.829,
+   "end": 1403.006,
+   "role": "D",
+   "sentences": [
+    "4.10#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_interrogation_early",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "その後の約6時間にわたり"
+      ],
+      [
+       "bold",
+       "すべての罪を自供した"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-22",
+   "act": 4,
+   "start": 1403.006,
+   "end": 1425.826,
+   "role": "C",
+   "sentences": [
+    "4.11#1",
+    "4.11#2",
+    "4.11#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_two_drawers",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "心理学的な完全崩壊の瞬間"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Hai ngăn kéo bật mở ở `#3`",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-23",
+   "act": 4,
+   "start": 1425.826,
+   "end": 1436.1,
+   "role": "C",
+   "sentences": [
+    "4.11#4"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "唯一の脆弱性"
+      ],
+      [
+       "bold",
+       "妻"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "quote",
+       "妻への影響を最小限に抑えたい"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-24",
+   "act": 4,
+   "start": 1436.1,
+   "end": 1444.893,
+   "role": "C",
+   "sentences": [
+    "4.11#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_two_chairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "名誉も階級も失われた"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "bold",
+       "真実だけが唯一の道"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-25",
+   "act": 4,
+   "start": 1444.893,
+   "end": 1465.812,
+   "role": "C",
+   "sentences": [
+    "4.11#6",
+    "4.11#7"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "心配していたのは"
+      ],
+      [
+       "ital",
+       "妻と軍事基地への影響"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 9,
+     "elems": [
+      [
+       "bold",
+       "傷つけた女性たちのことには一度も触れなかった"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-26",
+   "act": 4,
+   "start": 1465.812,
+   "end": 1469.38,
+   "role": "C",
+   "sentences": [
+    "4.11#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "反省ではない"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 11,
+     "elems": [
+      [
+       "bold",
+       "自らの仮面を失うことへの恐怖"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-27",
+   "act": 4,
+   "start": 1469.38,
+   "end": 1481.115,
+   "role": "C",
+   "sentences": [
+    "4.11#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_head_down",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "二つの引き出しの間の仕切りが砕け散った"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-28",
+   "act": 4,
+   "start": 1481.115,
+   "end": 1491.067,
+   "role": "H",
+   "sentences": [
+    "4.12#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_head_down",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "逃げ場のない現実との対峙"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-29",
+   "act": 4,
+   "start": 1491.067,
+   "end": 1499.334,
+   "role": "H",
+   "sentences": [
+    "4.12#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_head_down",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "地図に記された場所"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "翌朝の夜明け"
+      ],
+      [
+       "ital",
+       "警察が現場に到着"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-30",
+   "act": 4,
+   "start": 1499.334,
+   "end": 1512.112,
+   "role": "H",
+   "sentences": [
+    "4.12#3"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "自供の確認"
+      ],
+      [
+       "ital",
+       "Marie-France Comeau伍長の殺害 · ツイードでの2件の性的暴行"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-31",
+   "act": 4,
+   "start": 1512.112,
+   "end": 1522.34,
+   "role": "H",
+   "sentences": [
+    "4.12#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_folder_tree",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "約十時間の尋問の末"
+      ],
+      [
+       "bold",
+       "完璧な仮面は完全に瓦解した"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-32",
+   "act": 4,
+   "start": 1522.34,
+   "end": 1530.416,
+   "role": "H",
+   "sentences": [
+    "4.12#5"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "捜査はここで終わらなかった"
+      ],
+      [
+       "ital",
+       "押収された写真と記録の詳細な分析"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Số đếm 0 → 88",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-33",
+   "act": 4,
+   "start": 1530.416,
+   "end": 1538.693,
+   "role": "H",
+   "sentences": [
+    "4.12#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_head_down",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "軍人の威厳は完全に灰燼に帰した"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-34",
+   "act": 4,
+   "start": 1538.693,
+   "end": 1540.493,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第5幕"
+      ],
+      [
+       "bold",
+       "判決、危険信号、そして結びの考察"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "5-01",
+   "act": 5,
+   "start": 1540.493,
+   "end": 1550.948,
+   "role": "H",
+   "sentences": [
+    "5.02#1",
+    "5.02#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t2_courtroom",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2010年10月"
+      ],
+      [
+       "ital",
+       "ベルヴィルのオンタリオ州高等裁判所 · Robert Scott 裁判官"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Búa gõ ba lần (SFX `5.01`) trước câu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-02",
+   "act": 5,
+   "start": 1550.948,
+   "end": 1560.6,
+   "role": "H",
+   "sentences": [
+    "5.02#3"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "t2_courtroom",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "10月18日"
+      ],
+      [
+       "bold",
+       "88"
+      ],
+      [
+       "ital",
+       "件の起訴事実すべてを有罪と認めた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Số đếm",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-03",
+   "act": 5,
+   "start": 1560.6,
+   "end": 1579.661,
+   "role": "H",
+   "sentences": [
+    "5.02#4"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t2_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "10月21日 · 判決"
+      ],
+      [
+       "ital",
+       "2件の終身刑 · 性的暴行に各10年 · 監禁に各10年 · 82件の住居侵入に各1年"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ (câu dài ~20 s → 5 beat)",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-04",
+   "act": 5,
+   "start": 1579.661,
+   "end": 1592.516,
+   "role": "H",
+   "sentences": [
+    "5.02#5",
+    "5.02#6"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "t2_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "25年間"
+      ],
+      [
+       "ital",
+       "仮釈放の申請資格なし"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "カナダ刑法における絶対的な最低限度"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Số đếm 0 → 25",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-05",
+   "act": 5,
+   "start": 1592.516,
+   "end": 1593.816,
+   "role": null,
+   "sentences": [],
+   "template": "T5",
+   "variant": "",
+   "bg": "t2_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "25年間"
+      ],
+      [
+       "ital",
+       "仮釈放の申請資格なし"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "カナダ刑法における絶対的な最低限度"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-04"
+  },
+  {
+   "id": "5-06",
+   "act": 5,
+   "start": 1593.816,
+   "end": 1604.617,
+   "role": "H",
+   "sentences": [
+    "5.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_oath_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "公的立場と名誉の完全な剥奪"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gọi lại hình lễ nhậm chức, nay tối",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-07",
+   "act": 5,
+   "start": 1604.617,
+   "end": 1625.495,
+   "role": "H",
+   "sentences": [
+    "5.04#2",
+    "5.04#3",
+    "5.04#4"
+   ],
+   "template": "T8",
+   "variant": "strike",
+   "bg": "t2_medals_cut",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "任官資格 · 勲章 · 任官証書の無効化 · 国防省公式ウェブサイトからの削除"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi câu gạch mục tương ứng",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-08",
+   "act": 5,
+   "start": 1625.495,
+   "end": 1641.483,
+   "role": "H",
+   "sentences": [
+    "5.04#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_uniform_fire",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "軍服の焼却"
+      ],
+      [
+       "ital",
+       "トレントン基地 · 文書廃棄施設"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "燃やすという"
+   ],
+   "beat_text": "Lửa bùng ở \"燃やすという\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-09",
+   "act": 5,
+   "start": 1641.483,
+   "end": 1657.276,
+   "role": "H",
+   "sentences": [
+    "5.04#6",
+    "5.04#7"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t2_uniform_fire",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "軍報道官 Hubert Genest"
+      ],
+      [
+       "ital",
+       "式典なし · 撮影なし"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "bold",
+       "25年ぶりの異例の措置"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiêu đề ở `#7`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-10",
+   "act": 5,
+   "start": 1657.276,
+   "end": 1670.776,
+   "role": "H",
+   "sentences": [
+    "5.04#8"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_uniform_fire",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "文末に置く点こそ小さいけれど、その点には実に多くの意味が込められています"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "文末に置く点こそ小さいけれど"
+   ],
+   "beat_text": "Câu trích ở \"文末に置く点こそ小さいけれど\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-11",
+   "act": 5,
+   "start": 1670.776,
+   "end": 1677.907,
+   "role": "H",
+   "sentences": [
+    "5.04#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_checkpoint_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SUVのスクラップ処分"
+      ],
+      [
+       "ital",
+       "押収された数百点の盗品を廃棄"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-12",
+   "act": 5,
+   "start": 1677.907,
+   "end": 1679.207,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_checkpoint_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SUVのスクラップ処分"
+      ],
+      [
+       "ital",
+       "押収された数百点の盗品を廃棄"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-11"
+  },
+  {
+   "id": "5-13",
+   "act": 5,
+   "start": 1679.207,
+   "end": 1692.398,
+   "role": "H",
+   "sentences": [
+    "5.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_red_flags",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "捕食者の早期見極め"
+      ],
+      [
+       "ital",
+       "完璧な仮面の裏に隠された真実"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-14",
+   "act": 5,
+   "start": 1692.398,
+   "end": 1702.142,
+   "role": "H",
+   "sentences": [
+    "5.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_red_flags",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "見逃してはならない四つの危険信号"
+      ],
+      [
+       "ital",
+       "心理学者と捜査官の助言"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C+D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-15",
+   "act": 5,
+   "start": 1702.142,
+   "end": 1725.553,
+   "role": "C",
+   "sentences": [
+    "5.07#1",
+    "5.07#2",
+    "5.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "社会的地位による盲信"
+      ],
+      [
+       "ital",
+       "警戒心の過度な解除"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-16",
+   "act": 5,
+   "start": 1725.553,
+   "end": 1760.042,
+   "role": "C",
+   "sentences": [
+    "5.07#4",
+    "5.07#5",
+    "5.07#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "境界線の軽微な侵害"
+      ],
+      [
+       "ital",
+       "満足の閾値の終わりなき上昇"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve",
+   "bg_inherited": true
+  },
+  {
+   "id": "5-17",
+   "act": 5,
+   "start": 1760.042,
+   "end": 1774.498,
+   "role": "D",
+   "sentences": [
+    "5.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_folder_tree",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "軍隊式の几帳面な記録"
+      ],
+      [
+       "bold",
+       "自らの有罪証拠を作成していた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-18",
+   "act": 5,
+   "start": 1774.498,
+   "end": 1779.866,
+   "role": "D",
+   "sentences": [
+    "5.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "自己陶酔の傲慢さは必ず痕跡を残す"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-19",
+   "act": 5,
+   "start": 1779.866,
+   "end": 1791.166,
+   "role": "D",
+   "sentences": [
+    "5.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_suv_stop",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "完璧主義そのものは犯罪の指標ではない"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "極端な秘密主義や共感性の欠如と結びついたとき"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-20",
+   "act": 5,
+   "start": 1791.166,
+   "end": 1792.466,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_suv_stop",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "完璧主義そのものは犯罪の指標ではない"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "極端な秘密主義や共感性の欠如と結びついたとき"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-19"
+  },
+  {
+   "id": "5-21",
+   "act": 5,
+   "start": 1792.466,
+   "end": 1814.753,
+   "role": "H",
+   "sentences": [
+    "5.10#1",
+    "5.10#2",
+    "5.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "人間の心の深淵"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "bold",
+       "単なる外側の衣装にすぎない"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "人格の保証にはならない"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-22",
+   "act": 5,
+   "start": 1814.753,
+   "end": 1838.899,
+   "role": "H",
+   "sentences": [
+    "5.10#4",
+    "5.10#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_escalation_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "犯罪は一歩から始まる"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "bold",
+       "境界線を越える最初の一歩"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "一歩から始まり"
+   ],
+   "beat_text": "Câu dài → beat ở \"一歩から始まり\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-23",
+   "act": 5,
+   "start": 1838.899,
+   "end": 1866.021,
+   "role": "H",
+   "sentences": [
+    "5.10#6",
+    "5.10#7",
+    "5.10#8",
+    "5.10#9"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t2_folder_tree",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "秘密を守っていたのは彼一人"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "几帳面に整理された写真"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "ital",
+       "隠された盗品"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 9,
+     "elems": [
+      [
+       "ital",
+       "約10時間の尋問"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi câu một mục",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-24",
+   "act": 5,
+   "start": 1866.021,
+   "end": 1880.411,
+   "role": "H",
+   "sentences": [
+    "5.10#10",
+    "5.10#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_oath_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "秀でた知性では誰も守れない"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 11,
+     "elems": [
+      [
+       "ital",
+       "崩壊を遅らせ、より深刻にするだけ"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "秀でた知性では誰も守れない"
+   ],
+   "beat_text": "Tiêu đề ở \"秀でた知性では誰も守れない\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-25",
+   "act": 5,
+   "start": 1880.411,
+   "end": 1881.711,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_oath_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "秀でた知性では誰も守れない"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 11,
+     "elems": [
+      [
+       "ital",
+       "崩壊を遅らせ、より深刻にするだけ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-24"
+  },
+  {
+   "id": "5-26",
+   "act": 5,
+   "start": 1881.711,
+   "end": 1894.137,
+   "role": "H",
+   "sentences": [
+    "5.12#1",
+    "5.12#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "専門家ゲストの皆様に感謝いたします"
+      ],
+      [
+       "ital",
+       "架空のキャラクター · AI音声"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "5 ảnh P0 sáng lần lượt",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": true,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-27",
+   "act": 5,
+   "start": 1894.137,
+   "end": 1903.636,
+   "role": "H",
+   "sentences": [
+    "5.12#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "直感を信じ、自らを守る境界線を意識する"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-28",
+   "act": 5,
+   "start": 1903.636,
+   "end": 1908.62,
+   "role": "H",
+   "sentences": [
+    "5.12#4"
+   ],
+   "template": "T10",
+   "variant": "",
+   "bg": "t2_podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "次回の事件ファイルでお会いしましょう"
+      ],
+      [
+       "ital",
+       "コメント欄にご意見をお寄せください"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-29",
+   "act": 5,
+   "start": 1908.62,
+   "end": 1917.62,
+   "role": null,
+   "sentences": [],
+   "template": "T2",
+   "variant": "",
+   "bg": "t2_podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "事件ファイル 第02話 · 終結"
+      ],
+      [
+       "bold",
+       "AMBER EYES"
+      ],
+      [
+       "ital",
+       "実際の事件記録から読み解く犯罪心理学"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Thẻ hồ sơ hiện sau tiếng \"Cạch\"; mờ ra đen",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  }
+ ]
+}

@@ -1,0 +1,404 @@
+{
+ "check": [
+  {
+   "ma": "amb_car_engine_idle",
+   "file": "amb_car_engine_idle.mp3",
+   "dur_real": 48.41,
+   "track": "Engine Rev Continuous",
+   "dur_manifest": 48.0
+  },
+  {
+   "ma": "amb_ceiling_fan",
+   "file": "amb_ceiling_fan.mp3",
+   "dur_real": 49.92,
+   "track": "Sewing Machine Industrial",
+   "dur_manifest": 49.0
+  },
+  {
+   "ma": "amb_crowd_angry_jeers",
+   "file": "amb_crowd_angry_jeers.mp3",
+   "dur_real": 15.94,
+   "track": "Crowd Yelling Series",
+   "dur_manifest": 15.94
+  },
+  {
+   "ma": "amb_crowd_applause_distant",
+   "file": "amb_crowd_applause_distant.mp3",
+   "dur_real": 20.8,
+   "track": "Battle Crowd Celebrate Stutter",
+   "dur_manifest": 20.8
+  },
+  {
+   "ma": "amb_crowd_cheer_outdoor",
+   "file": "amb_crowd_cheer_outdoor.mp3",
+   "dur_real": 26.46,
+   "track": "Battle Crowd Celebration",
+   "dur_manifest": 26.46
+  },
+  {
+   "ma": "amb_crowd_excited_girls",
+   "file": "amb_crowd_excited_girls.mp3",
+   "dur_real": 24.83,
+   "track": "Female Crowd Celebration",
+   "dur_manifest": 24.83
+  },
+  {
+   "ma": "amb_crowd_mourning_outdoor",
+   "file": "amb_crowd_mourning_outdoor.mp3",
+   "dur_real": 103.24,
+   "track": "Human Group Cry Out",
+   "dur_manifest": 103.0
+  },
+  {
+   "ma": "amb_crowd_murmur_courtroom",
+   "file": "amb_crowd_murmur_courtroom.mp3",
+   "dur_real": 125.81,
+   "track": "Crowd Talking",
+   "dur_manifest": 125.81
+  },
+  {
+   "ma": "amb_crowd_outside_press_anger",
+   "file": "amb_crowd_outside_press_anger.mp3",
+   "dur_real": 9.94,
+   "track": "Human Group Cry Out",
+   "dur_manifest": 9.0
+  },
+  {
+   "ma": "amb_desert_wind_dry",
+   "file": "amb_desert_wind_dry.mp3",
+   "dur_real": 279.18,
+   "track": "Desert Howling Wind",
+   "dur_manifest": 279.0
+  },
+  {
+   "ma": "amb_hospital_monitor_heartbeat",
+   "file": "amb_hospital_monitor_heartbeat.mp3",
+   "dur_real": 119.84,
+   "track": "Metal Machine Hum",
+   "dur_manifest": 119.0
+  },
+  {
+   "ma": "amb_hospital_ventilator",
+   "file": "amb_hospital_ventilator.mp3",
+   "dur_real": 20.33,
+   "track": "Machine Sounds Halt Slowly",
+   "dur_manifest": 20.0
+  },
+  {
+   "ma": "amb_lab_equipment",
+   "file": "amb_lab_equipment.mp3",
+   "dur_real": 90.23,
+   "track": "Machine Sewing",
+   "dur_manifest": 90.0
+  },
+  {
+   "ma": "amb_ocean_waves_soft",
+   "file": "amb_ocean_waves_soft.mp3",
+   "dur_real": 249.52,
+   "track": "Water Lapping Wind",
+   "dur_manifest": 249.0
+  },
+  {
+   "ma": "amb_panic_crowd_schoolyard",
+   "file": "amb_panic_crowd_schoolyard.mp3",
+   "dur_real": 25.69,
+   "track": "Wild Battle Crowd Approach",
+   "dur_manifest": 25.69
+  },
+  {
+   "ma": "amb_server_fan",
+   "file": "amb_server_fan.mp3",
+   "dur_real": 27.63,
+   "track": "Sewing Machine Series",
+   "dur_manifest": 27.0
+  },
+  {
+   "ma": "amb_wind_mountain_pass",
+   "file": "amb_wind_mountain_pass.mp3",
+   "dur_real": 283.29,
+   "track": "Room Tone Wind Blowing Long",
+   "dur_manifest": 283.0
+  },
+  {
+   "ma": "amb_wind_pines",
+   "file": "amb_wind_pines.mp3",
+   "dur_real": 227.99,
+   "track": "Lake Wind Ambience",
+   "dur_manifest": 228.0,
+   "issue": "LECH THOI LUONG: that=floor228 manifest=floor228"
+  },
+  {
+   "ma": "amb_wind_tropical",
+   "file": "amb_wind_tropical.mp3",
+   "dur_real": 277.44,
+   "track": "Room Tone Wind Blowing Short",
+   "dur_manifest": 277.0
+  },
+  {
+   "ma": "amb_winter_wind_hollow",
+   "file": "amb_winter_wind_hollow.mp3",
+   "dur_real": 243.16,
+   "track": "Wind through window",
+   "dur_manifest": 243.0
+  },
+  {
+   "ma": "fx_ambulance_siren_close",
+   "file": "fx_ambulance_siren_close.mp3",
+   "dur_real": 76.26,
+   "track": "Emergency Siren Close Long",
+   "dur_manifest": 76.0
+  },
+  {
+   "ma": "fx_breathing_focused_artist",
+   "file": "fx_breathing_focused_artist.mp3",
+   "dur_real": 25.32,
+   "track": "Human Breathing Nose",
+   "dur_manifest": 25.0
+  },
+  {
+   "ma": "fx_breathing_tense_close",
+   "file": "fx_breathing_tense_close.mp3",
+   "dur_real": 28.91,
+   "track": "Human Breathing",
+   "dur_manifest": 28.0
+  },
+  {
+   "ma": "fx_breathing_tired",
+   "file": "fx_breathing_tired.mp3",
+   "dur_real": 31.68,
+   "track": "Male Sick Breathing",
+   "dur_manifest": 31.0
+  },
+  {
+   "ma": "fx_car_tire_screech_stop",
+   "file": "fx_car_tire_screech_stop.mp3",
+   "dur_real": 26.85,
+   "track": "Tires Rolling On Gravel No Engine",
+   "dur_manifest": 26.0
+  },
+  {
+   "ma": "fx_crowd_relief_sigh",
+   "file": "fx_crowd_relief_sigh.mp3",
+   "dur_real": 18.19,
+   "track": "Breathing Echo space",
+   "dur_manifest": 18.0
+  },
+  {
+   "ma": "fx_door_kick_boot",
+   "file": "fx_door_kick_boot.mp3",
+   "dur_real": 27.98,
+   "track": "Dumpster Door Slam",
+   "dur_manifest": 27.0
+  },
+  {
+   "ma": "fx_dtmf_touch_tone_beep",
+   "file": "fx_dtmf_touch_tone_beep.mp3",
+   "dur_real": 19.83,
+   "track": "Phone Alerts And Rings",
+   "dur_manifest": 19.0
+  },
+  {
+   "ma": "fx_evidence_room_door",
+   "file": "fx_evidence_room_door.mp3",
+   "dur_real": 28.51,
+   "track": "Wood Door Close and Rattle",
+   "dur_manifest": 28.0
+  },
+  {
+   "ma": "fx_footsteps_dusty_wood_slow",
+   "file": "fx_footsteps_dusty_wood_slow.mp3",
+   "dur_real": 50.81,
+   "track": "Distant Footsteps On Wood",
+   "dur_manifest": 50.0
+  },
+  {
+   "ma": "fx_footsteps_gravel_stealth",
+   "file": "fx_footsteps_gravel_stealth.mp3",
+   "dur_real": 18.03,
+   "track": "Footsteps gravel",
+   "dur_manifest": 18.0
+  },
+  {
+   "ma": "fx_footsteps_run_gravel",
+   "file": "fx_footsteps_run_gravel.mp3",
+   "dur_real": 17.78,
+   "track": "Footsteps grit",
+   "dur_manifest": 17.0
+  },
+  {
+   "ma": "fx_footsteps_wood_heavy",
+   "file": "fx_footsteps_wood_heavy.mp3",
+   "dur_real": 21.54,
+   "track": "Footsteps solid wood",
+   "dur_manifest": 21.0
+  },
+  {
+   "ma": "fx_fridge_door_open",
+   "file": "fx_fridge_door_open.mp3",
+   "dur_real": 20.01,
+   "track": "Washing Machine Door",
+   "dur_manifest": 20.0
+  },
+  {
+   "ma": "fx_glass_smash_vehicle_crash",
+   "file": "fx_glass_smash_vehicle_crash.mp3",
+   "dur_real": 3.14,
+   "track": "Wine Glass Shatter",
+   "dur_manifest": 3.0
+  },
+  {
+   "ma": "fx_glasses_clink",
+   "file": "fx_glasses_clink.mp3",
+   "dur_real": 5.02,
+   "track": "Wineglass On Wood Soft",
+   "dur_manifest": 5.0
+  },
+  {
+   "ma": "fx_hospital_door_open",
+   "file": "fx_hospital_door_open.mp3",
+   "dur_real": 11.49,
+   "track": "Wood Door Open and Close Series",
+   "dur_manifest": 11.0
+  },
+  {
+   "ma": "fx_landline_ring_office",
+   "file": "fx_landline_ring_office.mp3",
+   "dur_real": 12.09,
+   "track": "Phone Ringing Untraditional",
+   "dur_manifest": 12.0
+  },
+  {
+   "ma": "fx_latch_unlock",
+   "file": "fx_latch_unlock.mp3",
+   "dur_real": 8.64,
+   "track": "Sewing Machine Treadle",
+   "dur_manifest": 8.0
+  },
+  {
+   "ma": "fx_lav_mic_breathing",
+   "file": "fx_lav_mic_breathing.mp3",
+   "dur_real": 28.91,
+   "track": "Human Breathing",
+   "dur_manifest": 28.0
+  },
+  {
+   "ma": "fx_mic_hum_feedback",
+   "file": "fx_mic_hum_feedback.mp3",
+   "dur_real": 47.01,
+   "track": "Ambient Hum Pitched",
+   "dur_manifest": 47.0
+  },
+  {
+   "ma": "fx_oxygen_breathing",
+   "file": "fx_oxygen_breathing.mp3",
+   "dur_real": 42.77,
+   "track": "Breathing Running",
+   "dur_manifest": 42.0
+  },
+  {
+   "ma": "fx_phone_hangup_click",
+   "file": "fx_phone_hangup_click.mp3",
+   "dur_real": 3.58,
+   "track": "Phone Ringing",
+   "dur_manifest": 3.0
+  },
+  {
+   "ma": "fx_phone_line_hiss_1970",
+   "file": "fx_phone_line_hiss_1970.mp3",
+   "dur_real": 86.77,
+   "track": "Phone Alerts And Rings",
+   "dur_manifest": 86.0
+  },
+  {
+   "ma": "fx_phone_ring_landline_night",
+   "file": "fx_phone_ring_landline_night.mp3",
+   "dur_real": 50.84,
+   "track": "Telephone Ring",
+   "dur_manifest": 50.0
+  },
+  {
+   "ma": "fx_phone_typing_swipe",
+   "file": "fx_phone_typing_swipe.mp3",
+   "dur_real": 20.94,
+   "track": "Phone Ringing",
+   "dur_manifest": 20.0
+  },
+  {
+   "ma": "fx_school_bell_dismissal",
+   "file": "fx_school_bell_dismissal.mp3",
+   "dur_real": 20.77,
+   "track": "Xylophone Tip Toe Scale Up",
+   "dur_manifest": 20.0
+  },
+  {
+   "ma": "fx_sewing_machine",
+   "file": "fx_sewing_machine.mp3",
+   "dur_real": 18.86,
+   "track": "Sewing Machine Squeal",
+   "dur_manifest": 18.0
+  },
+  {
+   "ma": "fx_sigh_emotional",
+   "file": "fx_sigh_emotional.mp3",
+   "dur_real": 72.18,
+   "track": "Quiet Breathing",
+   "dur_manifest": 72.0
+  },
+  {
+   "ma": "fx_sigh_female",
+   "file": "fx_sigh_female.mp3",
+   "dur_real": 12.19,
+   "track": "Human Breathing Mouth",
+   "dur_manifest": 12.0
+  },
+  {
+   "ma": "fx_sobbing_crowd_row",
+   "file": "fx_sobbing_crowd_row.mp3",
+   "dur_real": 9.94,
+   "track": "Human Group Cry Out",
+   "dur_manifest": 9.0
+  }
+ ],
+ "bad_duration": [
+  {
+   "ma": "amb_wind_pines",
+   "file": "amb_wind_pines.mp3",
+   "dur_real": 227.99,
+   "track": "Lake Wind Ambience",
+   "dur_manifest": 228.0,
+   "issue": "LECH THOI LUONG: that=floor228 manifest=floor228"
+  },
+  {
+   "ma": "fx_footsteps_chase_forest",
+   "file": "fx_footsteps_chase_forest.mp3",
+   "dur_real": 105.64,
+   "track": null,
+   "dur_manifest": null,
+   "issue": "khong co trong manifest"
+  },
+  {
+   "ma": "fx_phone_vibrate",
+   "file": "fx_phone_vibrate.mp3",
+   "dur_real": 19.22,
+   "track": null,
+   "dur_manifest": null,
+   "issue": "khong co trong manifest"
+  }
+ ],
+ "dupe": [
+  {
+   "md5": "930264210e",
+   "ma": [
+    "amb_crowd_outside_press_anger",
+    "fx_sobbing_crowd_row"
+   ]
+  },
+  {
+   "md5": "cf52d5f940",
+   "ma": [
+    "fx_breathing_tense_close",
+    "fx_lav_mic_breathing"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,5027 @@
+{
+ "total": 1970.751,
+ "shots": [
+  {
+   "id": "1-00",
+   "act": 1,
+   "start": 20.5,
+   "end": 22.8,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_phone_booth",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ACT 1 · THE MIDNIGHT CALL FROM A COLORADO PAYPHONE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng gió rít, tiếng đồng xu, quay số",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-01",
+   "act": 1,
+   "start": 22.8,
+   "end": 33.206,
+   "role": "H",
+   "sentences": [
+    "1.03#1",
+    "1.03#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t3_case_file",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "24 · 04 · 1973"
+      ],
+      [
+       "ital",
+       "Four in the morning · Pueblo, Colorado"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gõ từng ký tự",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-02",
+   "act": 1,
+   "start": 33.206,
+   "end": 49.928,
+   "role": "H",
+   "sentences": [
+    "1.03#3",
+    "1.03#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_dispatch_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "OVER 1,000 MILES AWAY · SANTA CRUZ, CALIFORNIA"
+      ],
+      [
+       "bold",
+       "THE DISPATCH TELEPHONE SHATTERS THE SILENCE"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "ital",
+       "On the other end: a calm, eerily articulate male voice"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-03",
+   "act": 1,
+   "start": 49.928,
+   "end": 64.003,
+   "role": "H",
+   "sentences": [
+    "1.03#5",
+    "1.03#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_phone_booth",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "EDMUND KEMPER"
+      ],
+      [
+       "ital",
+       "Calling from a roadside payphone"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "bold",
+       "BIG ED"
+      ],
+      [
+       "ital",
+       "6-foot-9 · 280 pounds"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Big Ed"
+   ],
+   "beat_text": "Tiêu đề ở \"Big Ed\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-04",
+   "act": 1,
+   "start": 64.003,
+   "end": 71.981,
+   "role": "H",
+   "sentences": [
+    "1.03#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_bar_stool_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE JURY ROOM BAR"
+      ],
+      [
+       "ital",
+       "Drinking beer and sharing friendly conversations with off-duty officers"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-05",
+   "act": 1,
+   "start": 71.981,
+   "end": 76.777,
+   "role": "H",
+   "sentences": [
+    "1.03#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "AND JUST DAYS BEFORE"
+      ],
+      [
+       "ital",
+       "He had murdered his own mother"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-06",
+   "act": 1,
+   "start": 76.777,
+   "end": 78.077,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "AND JUST DAYS BEFORE"
+      ],
+      [
+       "ital",
+       "He had murdered his own mother"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-05"
+  },
+  {
+   "id": "1-07",
+   "act": 1,
+   "start": 78.077,
+   "end": 88.116,
+   "role": "H",
+   "sentences": [
+    "1.05#1",
+    "1.05#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t3_dispatch_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "SANTA CRUZ NIGHT DISPATCH"
+      ],
+      [
+       "bold",
+       "WORDS THAT CHILLED THE ENTIRE WATCH"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "chilled"
+   ],
+   "beat_text": "Dấu mộc ở \"chilled\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-08",
+   "act": 1,
+   "start": 88.116,
+   "end": 100.627,
+   "role": "H",
+   "sentences": [
+    "1.05#3",
+    "1.05#4"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_case_photos",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "INSIDE DETECTIVE MAGAZINE · AUGUST 1973 ISSUE"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "quote",
+       "I killed my mother and her friend."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-09",
+   "act": 1,
+   "start": 100.627,
+   "end": 109.238,
+   "role": "H",
+   "sentences": [
+    "1.05#5",
+    "1.05#6",
+    "1.05#7"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_case_file",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "And I killed those college girls. Six of them. I can show you where I buried the pieces of them."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-10",
+   "act": 1,
+   "start": 109.238,
+   "end": 110.038,
+   "role": null,
+   "sentences": [],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_case_file",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "And I killed those college girls. Six of them. I can show you where I buried the pieces of them."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-09"
+  },
+  {
+   "id": "1-11",
+   "act": 1,
+   "start": 110.038,
+   "end": 128.329,
+   "role": "H",
+   "sentences": [
+    "1.07#1",
+    "1.07#2",
+    "1.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_phone_booth",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "WHEN THE CALL DISCONNECTED, HE DIALED AGAIN"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "Terrified he might kill again"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "A patrol cruiser pulled up beside the booth"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-12",
+   "act": 1,
+   "start": 128.329,
+   "end": 136.163,
+   "role": "H",
+   "sentences": [
+    "1.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_case_file",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SURRENDERED WITHOUT RESISTANCE"
+      ],
+      [
+       "ital",
+       "Three firearms & hundreds of rounds of ammunition in the vehicle"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng \"Tách\" (SFX `1.08`) ở cuối",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N1"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-13",
+   "act": 1,
+   "start": 136.163,
+   "end": 155.568,
+   "role": "N1",
+   "sentences": [
+    "1.09#1",
+    "1.09#2",
+    "1.09#3"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_dispatch_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "At first, I assumed Ed had too much to drink and was playing a prank…"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "quote",
+       "Santa Cruz police told him to call back later…"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-14",
+   "act": 1,
+   "start": 155.568,
+   "end": 178.517,
+   "role": "N1",
+   "sentences": [
+    "1.09#4",
+    "1.09#5",
+    "1.09#6"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_phone_booth",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Around six in the morning, he called again… We found him sitting there, as calm as someone waiting in line for a cup of coffee."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-15",
+   "act": 1,
+   "start": 178.517,
+   "end": 199.063,
+   "role": "N1",
+   "sentences": [
+    "1.09#7",
+    "1.09#8",
+    "1.09#9"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_bar_stool_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "We brought him back to Santa Cruz… The killer that all of California had been desperately hunting… had been sitting right next to us every evening."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-16",
+   "act": 1,
+   "start": 199.063,
+   "end": 216.0,
+   "role": "H",
+   "sentences": [
+    "1.10#1",
+    "1.10#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t3_apartos_house",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "609A ORD DRIVE · APTOS"
+      ],
+      [
+       "bold",
+       "THE CRIME SCENE"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "Clarnell Strandberg · 52-year-old mother"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "scene"
+   ],
+   "beat_text": "Dấu mộc ở \"scene\"",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "1-17",
+   "act": 1,
+   "start": 216.0,
+   "end": 232.638,
+   "role": "H",
+   "sentences": [
+    "1.10#3",
+    "1.10#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Later that afternoon · Mrs. Sara Taylor 'Sally' Hallett · 59 years old"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "bold",
+       "THE CO-ED KILLER"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Co-ed Killer"
+   ],
+   "beat_text": "Tiêu đề ở \"Co-ed Killer\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-18",
+   "act": 1,
+   "start": 232.638,
+   "end": 239.677,
+   "role": "H",
+   "sentences": [
+    "1.10#5",
+    "1.10#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_case_file",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NOT CAUGHT BY AN ELABORATE POLICE DRAGNET"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "Leaving behind virtually zero forensic evidence"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-19",
+   "act": 1,
+   "start": 239.677,
+   "end": 267.428,
+   "role": "H",
+   "sentences": [
+    "1.10#7",
+    "1.10#8",
+    "1.10#9",
+    "1.10#10",
+    "1.10#11"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_phone_booth",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HE WALKED INTO A PAYPHONE AND SURRENDERED"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 10,
+     "elems": [
+      [
+       "quote",
+       "Stop me. I’m going to do it again."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-20",
+   "act": 1,
+   "start": 267.428,
+   "end": 282.877,
+   "role": "H",
+   "sentences": [
+    "1.10#12",
+    "1.10#13",
+    "1.10#14"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_prison_corridor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HE CALLED BECAUSE HE WAS AFRAID HE WOULDN'T STOP"
+      ],
+      [
+       "ital",
+       "Hear the perspective of an FBI Special Agent"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-21",
+   "act": 1,
+   "start": 282.877,
+   "end": 284.677,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_prison_corridor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HE CALLED BECAUSE HE WAS AFRAID HE WOULDN'T STOP"
+      ],
+      [
+       "ital",
+       "Hear the perspective of an FBI Special Agent"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng bước chân, cửa sắt \"Rầm\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-20"
+  },
+  {
+   "id": "1-22",
+   "act": 1,
+   "start": 284.677,
+   "end": 303.049,
+   "role": "D",
+   "sentences": [
+    "1.13#1",
+    "1.13#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_giant_doorway",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "A TRULY SINGULAR CASE"
+      ],
+      [
+       "ital",
+       "6-foot-9 · IQ 145 · Top 0.13% of the human population"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-23",
+   "act": 1,
+   "start": 303.049,
+   "end": 315.312,
+   "role": "D",
+   "sentences": [
+    "1.13#3",
+    "1.13#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_brain_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "EXTRAORDINARY CAPACITY FOR INTROSPECTIVE SELF-AWARENESS"
+      ],
+      [
+       "ital",
+       "Dissecting his own mind with the clinical precision of a neurosurgeon"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-24",
+   "act": 1,
+   "start": 315.312,
+   "end": 330.748,
+   "role": "D",
+   "sentences": [
+    "1.13#5",
+    "1.13#6"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t3_fbi_corridor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "BSU · FBI"
+      ],
+      [
+       "bold",
+       "CRIMINAL PERSONALITY RESEARCH PROJECT"
+      ],
+      [
+       "ital",
+       "First case study in serial homicide research"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Criminal Personality"
+   ],
+   "beat_text": "Dấu mộc ở \"Criminal Personality\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-25",
+   "act": 1,
+   "start": 330.748,
+   "end": 360.098,
+   "role": "D",
+   "sentences": [
+    "1.13#7",
+    "1.13#8",
+    "1.13#9"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t3_case_file",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Foundation for VICAP network · Standardized science of behavioral profiling"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-26",
+   "act": 1,
+   "start": 360.098,
+   "end": 380.064,
+   "role": "H",
+   "sentences": [
+    "1.15#1",
+    "1.15#2"
+   ],
+   "template": "T10",
+   "variant": "",
+   "bg": "t3_brain_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE IQ 145 GIANT & THE PSYCHOLOGICAL AUTOPSY OF A SERIAL KILLER"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tên tập ở cuối",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-27",
+   "act": 1,
+   "start": 380.064,
+   "end": 381.864,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ACT 2"
+      ],
+      [
+       "bold",
+       "THE SCENE & ESCALATION — THE LADDER OF SUBSTITUTION"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "2-01",
+   "act": 2,
+   "start": 381.864,
+   "end": 389.122,
+   "role": "H",
+   "sentences": [
+    "2.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_rain_wipers",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SANTA CRUZ · EARLY 1970S"
+      ],
+      [
+       "ital",
+       "Atmosphere of the Hippie movement"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mưa rả rích, gạt nước",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-02",
+   "act": 2,
+   "start": 389.122,
+   "end": 399.895,
+   "role": "H",
+   "sentences": [
+    "2.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_hitchhiker",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HITCHHIKING"
+      ],
+      [
+       "ital",
+       "A thumb in the air · A widespread cultural norm"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Hitchhiking"
+   ],
+   "beat_text": "Tiêu đề ở \"Hitchhiking\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-03",
+   "act": 2,
+   "start": 399.895,
+   "end": 411.942,
+   "role": "H",
+   "sentences": [
+    "2.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_ucsc_campus",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "UCSC"
+      ],
+      [
+       "ital",
+       "University of California, Santa Cruz · Vanishing into the shadows"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-04",
+   "act": 2,
+   "start": 411.942,
+   "end": 429.621,
+   "role": "H",
+   "sentences": [
+    "2.04#1",
+    "2.04#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t3_case_photos",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "DISAPPEARANCES BEGIN"
+      ],
+      [
+       "bold",
+       "CASE DOSSIER OF MISSING CO-EDS"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Lật ảnh (SFX `2.03`) ở đầu",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "2-05",
+   "act": 2,
+   "start": 429.621,
+   "end": 444.717,
+   "role": "H",
+   "sentences": [
+    "2.04#3",
+    "2.04#4"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t3_santacruz_street",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "May 7, 1972: Mary Ann Pesce & Anita Luchessa (18 years old) · Locked in trunk"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-06",
+   "act": 2,
+   "start": 444.717,
+   "end": 461.828,
+   "role": "H",
+   "sentences": [
+    "2.04#5",
+    "2.04#6"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t3_case_photos",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "September 14, 1972: Aiko Koo (15 years old) · January 7, 1973: Cindy Schall (18 years old)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-07",
+   "act": 2,
+   "start": 461.828,
+   "end": 478.56,
+   "role": "H",
+   "sentences": [
+    "2.04#7",
+    "2.04#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_backyard_garden",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Disposed of in the ocean"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "bold",
+       "BURIED THE VICTIM'S HEAD IN HIS MOTHER'S BACKYARD"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-08",
+   "act": 2,
+   "start": 478.56,
+   "end": 495.159,
+   "role": "H",
+   "sentences": [
+    "2.04#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_ucsc_campus",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TWO UCSC STUDENTS"
+      ],
+      [
+       "ital",
+       "Rosalind Thorpe (23 years old) & Alice Liu (21 years old)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-09",
+   "act": 2,
+   "start": 495.159,
+   "end": 496.459,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_ucsc_campus",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TWO UCSC STUDENTS"
+      ],
+      [
+       "ital",
+       "Rosalind Thorpe (23 years old) & Alice Liu (21 years old)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "2-08"
+  },
+  {
+   "id": "2-10",
+   "act": 2,
+   "start": 496.459,
+   "end": 504.329,
+   "role": "H",
+   "sentences": [
+    "2.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_ravine",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SANTA CRUZ MOUNTAINS"
+      ],
+      [
+       "ital",
+       "Remains scattered across remote ravines"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-11",
+   "act": 2,
+   "start": 504.329,
+   "end": 516.666,
+   "role": "H",
+   "sentences": [
+    "2.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_backyard_garden",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BURIED IN HIS MOTHER'S BACKYARD"
+      ],
+      [
+       "ital",
+       "Facing directly toward her bedroom window"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-12",
+   "act": 2,
+   "start": 516.666,
+   "end": 535.592,
+   "role": "H",
+   "sentences": [
+    "2.06#3",
+    "2.06#4",
+    "2.06#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_case_photos",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ERASED ALL FORENSIC TRACES"
+      ],
+      [
+       "ital",
+       "Zero fingerprints · Zero foreign fibers · Zero witnesses"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-13",
+   "act": 2,
+   "start": 535.592,
+   "end": 541.585,
+   "role": "D",
+   "sentences": [
+    "2.07#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_under_seat",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "A MOBILE DEATH TRAP"
+      ],
+      [
+       "ital",
+       "Meticulous Modus Operandi (M.O.)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-14",
+   "act": 2,
+   "start": 541.585,
+   "end": 572.323,
+   "role": "D",
+   "sentences": [
+    "2.07#2",
+    "2.07#3",
+    "2.07#4",
+    "2.07#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_galaxie",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "1969 YELLOW FORD GALAXIE"
+      ],
+      [
+       "ital",
+       "Official UCSC parking sticker · Cultivating an illusion of total safety"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Ford Galaxie"
+   ],
+   "beat_text": "Tiêu đề ở \"Ford Galaxie\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-15",
+   "act": 2,
+   "start": 572.323,
+   "end": 597.455,
+   "role": "D",
+   "sentences": [
+    "2.07#6",
+    "2.07#7",
+    "2.07#8"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t3_trunk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Trunk: plastic bags, hunting knife (\"The General\"), blankets, handcuffs · Handcuffing one, locking the other in trunk"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-16",
+   "act": 2,
+   "start": 597.455,
+   "end": 618.64,
+   "role": "D",
+   "sentences": [
+    "2.07#9",
+    "2.07#10"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_case_file",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Three firearms and over 200 rounds of ammunition in rented car in Reno, Nevada"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-17",
+   "act": 2,
+   "start": 618.64,
+   "end": 643.738,
+   "role": "D",
+   "sentences": [
+    "2.07#11",
+    "2.07#12",
+    "2.07#13"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t3_bar_stool_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Towering 6-foot-9 frame"
+      ],
+      [
+       "bold",
+       "AN INTELLECTUAL FACADE & CALCULATED CHARM"
+      ],
+      [
+       "ital",
+       "Soft-spoken, glasses, impeccably dressed"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cột phải ở `#13`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-18",
+   "act": 2,
+   "start": 643.738,
+   "end": 663.866,
+   "role": "D",
+   "sentences": [
+    "2.07#14",
+    "2.07#15"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "t3_hitchhiker",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "150"
+      ],
+      [
+       "ital",
+       "Practice runs offering rides to hitchhikers before ever striking"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Số đếm 0 → 150",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-19",
+   "act": 2,
+   "start": 663.866,
+   "end": 684.98,
+   "role": "H",
+   "sentences": [
+    "2.08#1",
+    "2.08#2",
+    "2.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_courthouse_exterior",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE CENTRAL ENIGMA:"
+      ],
+      [
+       "ital",
+       "Why did he deliberately befriend the very detectives hunting him?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N2"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-20",
+   "act": 2,
+   "start": 684.98,
+   "end": 709.325,
+   "role": "N2",
+   "sentences": [
+    "2.09#1",
+    "2.09#2",
+    "2.09#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_bar_jury_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE JURY ROOM BAR"
+      ],
+      [
+       "ital",
+       "Directly opposite the Santa Cruz County Courthouse"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-21",
+   "act": 2,
+   "start": 709.325,
+   "end": 727.856,
+   "role": "N2",
+   "sentences": [
+    "2.09#4",
+    "2.09#5",
+    "2.09#6"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_bar_stool_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "He genuinely dreamed of becoming a police officer himself… Yet with his towering frame, no agency could accept him."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-22",
+   "act": 2,
+   "start": 727.856,
+   "end": 753.953,
+   "role": "N2",
+   "sentences": [
+    "2.09#7",
+    "2.09#8",
+    "2.09#9"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_bar_stool_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Ed would nod along, drink his beer… The predator we were hunting… was sitting right beside us, drinking beer…"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-23",
+   "act": 2,
+   "start": 753.953,
+   "end": 755.753,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ACT 3"
+      ],
+      [
+       "bold",
+       "PSYCHOLOGICAL AUTOPSY — INSIDE THE MIND OF AN ANALYTICAL PSYCHOPATH"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "3-01",
+   "act": 3,
+   "start": 755.753,
+   "end": 776.708,
+   "role": "H",
+   "sentences": [
+    "3.02#1",
+    "3.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_basement_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "A DAMP BASEMENT IN MONTANA"
+      ],
+      [
+       "ital",
+       "1950s — A captive childhood"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Nước nhỏ giọt, cello u ám",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-02",
+   "act": 3,
+   "start": 776.708,
+   "end": 778.508,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_basement_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "A DAMP BASEMENT IN MONTANA"
+      ],
+      [
+       "ital",
+       "1950s — A captive childhood"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-01"
+  },
+  {
+   "id": "3-03",
+   "act": 3,
+   "start": 778.508,
+   "end": 787.916,
+   "role": "H",
+   "sentences": [
+    "3.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_layers_stair",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "LISTEN:"
+      ],
+      [
+       "bold",
+       "EXAMINING 3 DISTINCT PATHOLOGICAL LAYERS"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-04",
+   "act": 3,
+   "start": 787.916,
+   "end": 810.98,
+   "role": "C",
+   "sentences": [
+    "3.05#1",
+    "3.05#2",
+    "3.05#3"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t3_mother_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "TOXIC MATERNAL TRAUMA"
+      ],
+      [
+       "bold",
+       "MRS. CLARNELL STRANDBERG"
+      ],
+      [
+       "ital",
+       "Authoritarian, emasculating personality"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "toxic"
+   ],
+   "beat_text": "Dấu mộc ở \"toxic\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-05",
+   "act": 3,
+   "start": 810.98,
+   "end": 835.293,
+   "role": "C",
+   "sentences": [
+    "3.05#4",
+    "3.05#5"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_coal_furnace",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "LAYER 01: THE BASEMENT DUNGEON"
+      ],
+      [
+       "ital",
+       "Psychological Castration"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Thuật ngữ ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-06",
+   "act": 3,
+   "start": 835.293,
+   "end": 852.207,
+   "role": "C",
+   "sentences": [
+    "3.05#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_small_bed",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "FROM AGE 8"
+      ],
+      [
+       "ital",
+       "Banished to sleep beside the coal furnace"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-07",
+   "act": 3,
+   "start": 852.207,
+   "end": 871.692,
+   "role": "C",
+   "sentences": [
+    "3.05#7",
+    "3.05#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_trapdoor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TRAPDOOR BENEATH DINING TABLE"
+      ],
+      [
+       "ital",
+       "Forced to lift table before being allowed out"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-08",
+   "act": 3,
+   "start": 871.692,
+   "end": 928.191,
+   "role": "C",
+   "sentences": [
+    "3.05#9",
+    "3.05#10",
+    "3.05#11",
+    "3.05#12"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_basement_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Humiliating his appearance, annihilating his self-worth"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 12,
+     "elems": [
+      [
+       "ital",
+       "A grotesque creature undeserving of human existence"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-09",
+   "act": 3,
+   "start": 928.191,
+   "end": 929.491,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_basement_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Humiliating his appearance, annihilating his self-worth"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 12,
+     "elems": [
+      [
+       "ital",
+       "A grotesque creature undeserving of human existence"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-08"
+  },
+  {
+   "id": "3-10",
+   "act": 3,
+   "start": 929.491,
+   "end": 935.486,
+   "role": "H",
+   "sentences": [
+    "3.07#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_mother_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HOW DID THIS SIMMERING RESENTMENT ESCALATE AS HE REACHED ADOLESCENCE?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-11",
+   "act": 3,
+   "start": 935.486,
+   "end": 974.23,
+   "role": "C",
+   "sentences": [
+    "3.08#1",
+    "3.08#2",
+    "3.08#3"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_atascadero",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "LAYER 02: MECHANISM OF PROJECTION"
+      ],
+      [
+       "ital",
+       "Proxy Victims"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-12",
+   "act": 3,
+   "start": 974.23,
+   "end": 1015.825,
+   "role": "C",
+   "sentences": [
+    "3.08#4",
+    "3.08#5",
+    "3.08#6"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t3_textbooks",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Atascadero State Hospital: 5 years · Mastered the MMPI test, devised own scoring criteria · Released on 21st birthday"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-13",
+   "act": 3,
+   "start": 1015.825,
+   "end": 1050.004,
+   "role": "C",
+   "sentences": [
+    "3.08#7",
+    "3.08#8",
+    "3.08#9"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t3_mother_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "His mother: the towering monument of hatred & fear"
+      ],
+      [
+       "bold",
+       "THE PSYCHE SEEKING SUBSTITUTE TARGETS"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cột phải ở `#8`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-14",
+   "act": 3,
+   "start": 1050.004,
+   "end": 1103.322,
+   "role": "C",
+   "sentences": [
+    "3.08#10",
+    "3.08#11",
+    "3.08#12",
+    "3.08#13"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_ucsc_campus",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE PROXY VICTIMS"
+      ],
+      [
+       "ital",
+       "Living embodiments of the social freedom he craved"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-15",
+   "act": 3,
+   "start": 1103.322,
+   "end": 1105.122,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_ucsc_campus",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE PROXY VICTIMS"
+      ],
+      [
+       "ital",
+       "Living embodiments of the social freedom he craved"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-14"
+  },
+  {
+   "id": "3-16",
+   "act": 3,
+   "start": 1105.122,
+   "end": 1113.402,
+   "role": "H",
+   "sentences": [
+    "3.10#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_brain_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "WHAT SHARPLY DISTINGUISHED KEMPER FROM VIRTUALLY EVERY OTHER SERIAL HOMICIDE OFFENDER?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-17",
+   "act": 3,
+   "start": 1113.402,
+   "end": 1150.095,
+   "role": "C",
+   "sentences": [
+    "3.11#1",
+    "3.11#2",
+    "3.11#3"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_self_observation",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "LAYER 03: INTELLECTUAL COMPARTMENTALIZATION"
+      ],
+      [
+       "ital",
+       "The Introspective Psychopath"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-18",
+   "act": 3,
+   "start": 1150.095,
+   "end": 1183.784,
+   "role": "C",
+   "sentences": [
+    "3.11#4",
+    "3.11#5",
+    "3.11#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_brain_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TOTAL EMOTIONAL DETACHMENT"
+      ],
+      [
+       "ital",
+       "Observing his violent impulses with the dispassionate detachment of a scientist"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-19",
+   "act": 3,
+   "start": 1183.784,
+   "end": 1215.27,
+   "role": "C",
+   "sentences": [
+    "3.11#7",
+    "3.11#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE FINAL ACT:"
+      ],
+      [
+       "ital",
+       "Returning to murder his biological mother"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-20",
+   "act": 3,
+   "start": 1215.27,
+   "end": 1217.07,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ACT 4"
+      ],
+      [
+       "bold",
+       "CONVERSATIONS WITH THE FBI — THE FOUNDATIONS OF CRIMINAL PROFILING"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "4-01",
+   "act": 4,
+   "start": 1217.07,
+   "end": 1227.757,
+   "role": "H",
+   "sentences": [
+    "4.02#1",
+    "4.02#2",
+    "4.02#3"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t3_vacaville_1978",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "1978 · VACAVILLE"
+      ],
+      [
+       "ital",
+       "California Medical Facility (CMF)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng cassette \"Cạch\" (SFX `4.01`)",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-02",
+   "act": 4,
+   "start": 1227.757,
+   "end": 1253.777,
+   "role": "H",
+   "sentences": [
+    "4.02#4",
+    "4.02#5",
+    "4.02#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_two_agents",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "JOHN DOUGLAS & ROBERT RESSLER"
+      ],
+      [
+       "ital",
+       "Behavioral Science Unit (BSU) — FBI"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-03",
+   "act": 4,
+   "start": 1253.777,
+   "end": 1270.244,
+   "role": "H",
+   "sentences": [
+    "4.02#7",
+    "4.02#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_interview_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE CRITICAL QUESTION:"
+      ],
+      [
+       "ital",
+       "How do their minds truly operate from within?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-04",
+   "act": 4,
+   "start": 1270.244,
+   "end": 1271.544,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_interview_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE CRITICAL QUESTION:"
+      ],
+      [
+       "ital",
+       "How do their minds truly operate from within?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "4-03"
+  },
+  {
+   "id": "4-05",
+   "act": 4,
+   "start": 1271.544,
+   "end": 1279.918,
+   "role": "H",
+   "sentences": [
+    "4.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_fbi_corridor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "LISTEN:"
+      ],
+      [
+       "bold",
+       "AN FBI AGENT RECOUNTS THE HISTORIC INTERVIEW"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-06",
+   "act": 4,
+   "start": 1279.918,
+   "end": 1300.146,
+   "role": "D",
+   "sentences": [
+    "4.05#1",
+    "4.05#2",
+    "4.05#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_giant_doorway",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HE WAS COLOSSAL — FILLING THE ENTIRE DOORWAY"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Speaking with the measured tone of a university professor"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-07",
+   "act": 4,
+   "start": 1300.146,
+   "end": 1328.916,
+   "role": "D",
+   "sentences": [
+    "4.05#4",
+    "4.05#5",
+    "4.05#6",
+    "4.05#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_interview_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "IQ 145 · Fearing he might be smarter than us"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "Crying only when speaking of his mother"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-08",
+   "act": 4,
+   "start": 1328.916,
+   "end": 1353.881,
+   "role": "D",
+   "sentences": [
+    "4.05#8",
+    "4.05#9",
+    "4.05#10",
+    "4.05#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_cassette",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "INTERVIEWS SPANNING HOURS AT A TIME"
+      ],
+      [
+       "ital",
+       "Across multiple sessions over several years"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-09",
+   "act": 4,
+   "start": 1353.881,
+   "end": 1376.637,
+   "role": "D",
+   "sentences": [
+    "4.05#12",
+    "4.05#13",
+    "4.05#14",
+    "4.05#15"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_interview_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "After that, I hope I can find some way to help others…"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-10",
+   "act": 4,
+   "start": 1376.637,
+   "end": 1411.508,
+   "role": "D",
+   "sentences": [
+    "4.05#16",
+    "4.05#17",
+    "4.05#18",
+    "4.05#19"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t3_fbi_corridor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "CRIMINAL PERSONALITY RESEARCH PROJECT"
+      ],
+      [
+       "bold",
+       "36 INCARCERATED SEXUAL MURDERERS"
+      ],
+      [
+       "ital",
+       "VICAP network 1985"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Lật sổ (SFX `4.06`) ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-11",
+   "act": 4,
+   "start": 1411.508,
+   "end": 1418.336,
+   "role": "D",
+   "sentences": [
+    "4.07#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_interview_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "3 REVOLUTIONARY CONCEPTS"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-12",
+   "act": 4,
+   "start": 1418.336,
+   "end": 1449.138,
+   "role": "D",
+   "sentences": [
+    "4.07#2",
+    "4.07#3",
+    "4.07#4",
+    "4.07#5"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_fantasy_spiral",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CONCEPT 01: THE VIOLENT FANTASY CYCLE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-13",
+   "act": 4,
+   "start": 1449.138,
+   "end": 1467.477,
+   "role": "D",
+   "sentences": [
+    "4.07#6",
+    "4.07#7"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_trophy_box",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CONCEPT 02: TROPHIES & SOUVENIRS"
+      ],
+      [
+       "ital",
+       "Reactivating the feeling of absolute domination"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-14",
+   "act": 4,
+   "start": 1467.477,
+   "end": 1492.694,
+   "role": "D",
+   "sentences": [
+    "4.07#8",
+    "4.07#9",
+    "4.07#10"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_phone_booth",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CONCEPT 03: THE MOTIVATION BEHIND HIS SURRENDER"
+      ],
+      [
+       "ital",
+       "The dread that he would never stop"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-15",
+   "act": 4,
+   "start": 1492.694,
+   "end": 1537.978,
+   "role": "H",
+   "sentences": [
+    "4.08#1",
+    "4.08#2",
+    "4.08#3"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t3_organized_split",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ORGANIZED OFFENDER"
+      ],
+      [
+       "ital",
+       "vs Disorganized Offender · The Lust Murderer (1980)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cột phải ở `#2`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-16",
+   "act": 4,
+   "start": 1537.978,
+   "end": 1558.644,
+   "role": "H",
+   "sentences": [
+    "4.08#4",
+    "4.08#5"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_signature_trace",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BEHAVIORAL SIGNATURE"
+      ],
+      [
+       "ital",
+       "The unmistakable psychological imprint"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-17",
+   "act": 4,
+   "start": 1558.644,
+   "end": 1581.926,
+   "role": "H",
+   "sentences": [
+    "4.08#6",
+    "4.08#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_brain_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "INSPIRATION FOR MODERN CLASSICS:"
+      ],
+      [
+       "bold",
+       "THE SILENCE OF THE LAMBS & MINDHUNTER"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-18",
+   "act": 4,
+   "start": 1581.926,
+   "end": 1583.726,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ACT 5"
+      ],
+      [
+       "bold",
+       "THE VERDICT, BEHAVIORAL RED FLAGS & FINAL THOUGHTS"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "5-01",
+   "act": 5,
+   "start": 1583.726,
+   "end": 1590.984,
+   "role": "H",
+   "sentences": [
+    "5.02#1"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t2_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "23 · 10 · 1973"
+      ],
+      [
+       "ital",
+       "Santa Cruz County Superior Court"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Búa gõ (SFX `5.01`) ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-02",
+   "act": 5,
+   "start": 1590.984,
+   "end": 1626.852,
+   "role": "H",
+   "sentences": [
+    "5.02#2",
+    "5.02#3",
+    "5.02#4",
+    "5.02#5"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t3_courtroom_1973",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "PROSECUTOR PETER CHANG"
+      ],
+      [
+       "bold",
+       "8 CONCURRENT LIFE TERMS"
+      ],
+      [
+       "ital",
+       "Judge Harry F. Brauer"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "concurrent life terms"
+   ],
+   "beat_text": "Dấu mộc ở \"concurrent life terms\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-03",
+   "act": 5,
+   "start": 1626.852,
+   "end": 1646.228,
+   "role": "H",
+   "sentences": [
+    "5.02#6",
+    "5.02#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_courtroom_1973",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "AN UNPRECEDENTED REQUEST:"
+      ],
+      [
+       "ital",
+       "Demanding capital punishment by being tortured to death"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-04",
+   "act": 5,
+   "start": 1646.228,
+   "end": 1682.71,
+   "role": "H",
+   "sentences": [
+    "5.02#8",
+    "5.02#9",
+    "5.02#10",
+    "5.02#11"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t3_life_sentence",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "CMF Vacaville · Denied parole over 10 times · Next hearing: 2031"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-05",
+   "act": 5,
+   "start": 1682.71,
+   "end": 1695.209,
+   "role": "H",
+   "sentences": [
+    "5.02#12",
+    "5.02#13"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_life_sentence",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Society is not ready for me, in any way, shape, or form. I don’t blame them for that."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-06",
+   "act": 5,
+   "start": 1695.209,
+   "end": 1697.009,
+   "role": null,
+   "sentences": [],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_life_sentence",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Society is not ready for me, in any way, shape, or form. I don’t blame them for that."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-05"
+  },
+  {
+   "id": "5-07",
+   "act": 5,
+   "start": 1697.009,
+   "end": 1715.836,
+   "role": "H",
+   "sentences": [
+    "5.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_red_flags",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "4 BEHAVIORAL RED FLAGS"
+      ],
+      [
+       "ital",
+       "Recognizing early markers of catastrophic violence"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C+D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-08",
+   "act": 5,
+   "start": 1715.836,
+   "end": 1739.97,
+   "role": "C",
+   "sentences": [
+    "5.05#1",
+    "5.05#2",
+    "5.05#3"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_red_flags",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "RED FLAG 01: THE MACDONALD TRIAD"
+      ],
+      [
+       "ital",
+       "Animal cruelty · Fire-setting · Persistent enuresis"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-09",
+   "act": 5,
+   "start": 1739.97,
+   "end": 1775.003,
+   "role": "C",
+   "sentences": [
+    "5.05#4",
+    "5.05#5",
+    "5.05#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_small_bed",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "REPEATED ANIMAL CRUELTY"
+      ],
+      [
+       "ital",
+       "Burying family cat alive at age 10 · Early manifestation of profound callousness"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-10",
+   "act": 5,
+   "start": 1775.003,
+   "end": 1795.968,
+   "role": "C",
+   "sentences": [
+    "5.05#7",
+    "5.05#8"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_basement_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "RED FLAG 02: EXTREME PSYCHOLOGICAL ABUSE"
+      ],
+      [
+       "ital",
+       "Confined isolation, systematic emotional humiliation"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-11",
+   "act": 5,
+   "start": 1795.968,
+   "end": 1814.91,
+   "role": "D",
+   "sentences": [
+    "5.06#1",
+    "5.06#2"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_fantasy_spiral",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "RED FLAG 03: ESCALATING VIOLENT FANTASIES"
+      ],
+      [
+       "ital",
+       "Immersion in fantasies of coercive domination"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-12",
+   "act": 5,
+   "start": 1814.91,
+   "end": 1838.099,
+   "role": "D",
+   "sentences": [
+    "5.06#3",
+    "5.06#4"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_self_observation",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "RED FLAG 04: HIGH INTELLECT & SHALLOW AFFECT"
+      ],
+      [
+       "ital",
+       "The armor of psychopathic detachment"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-13",
+   "act": 5,
+   "start": 1838.099,
+   "end": 1839.899,
+   "role": null,
+   "sentences": [],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_self_observation",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "RED FLAG 04: HIGH INTELLECT & SHALLOW AFFECT"
+      ],
+      [
+       "ital",
+       "The armor of psychopathic detachment"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Nhạc piano dâng lên nhẹ nhàng",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-12"
+  },
+  {
+   "id": "5-14",
+   "act": 5,
+   "start": 1839.899,
+   "end": 1868.887,
+   "role": "H",
+   "sentences": [
+    "5.08#1",
+    "5.08#2",
+    "5.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_closing_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "A PROFOUND HUMAN EPILOGUE:"
+      ],
+      [
+       "ital",
+       "Deputy Bruce Colomy"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-15",
+   "act": 5,
+   "start": 1868.887,
+   "end": 1885.704,
+   "role": "H",
+   "sentences": [
+    "5.08#4",
+    "5.08#5"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_courtroom_1973",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "To me, he was the father I wish I’d had."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-16",
+   "act": 5,
+   "start": 1885.704,
+   "end": 1911.731,
+   "role": "H",
+   "sentences": [
+    "5.08#6",
+    "5.08#7",
+    "5.08#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_gift_drowned",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BRILLIANT INTELLECT — TOWERING PHYSICAL POWER"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "ital",
+       "A gifted mind plunged into a reservoir of abuse and hatred"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-17",
+   "act": 5,
+   "start": 1911.731,
+   "end": 1939.396,
+   "role": "H",
+   "sentences": [
+    "5.08#9",
+    "5.08#10",
+    "5.08#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_life_sentence",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CONTAINING EVIL IS THE MANDATE OF THE LAW"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 11,
+     "elems": [
+      [
+       "ital",
+       "Healing childhood wounds begins within the family"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-18",
+   "act": 5,
+   "start": 1939.396,
+   "end": 1940.696,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_life_sentence",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CONTAINING EVIL IS THE MANDATE OF THE LAW"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 11,
+     "elems": [
+      [
+       "ital",
+       "Healing childhood wounds begins within the family"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-17"
+  },
+  {
+   "id": "5-19",
+   "act": 5,
+   "start": 1940.696,
+   "end": 1952.077,
+   "role": "H",
+   "sentences": [
+    "5.10#1",
+    "5.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_closing_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THANK YOU TO OUR GUEST EXPERTS & LISTENERS"
+      ],
+      [
+       "ital",
+       "Criminal psychology case dossier"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-20",
+   "act": 5,
+   "start": 1952.077,
+   "end": 1961.751,
+   "role": "H",
+   "sentences": [
+    "5.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_brain_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NURTURE AND LISTEN TO OUR CHILDREN"
+      ],
+      [
+       "ital",
+       "Until our next case file"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-21",
+   "act": 5,
+   "start": 1961.751,
+   "end": 1970.751,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "t3_closing_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "CASE FILE 03 · CLOSED"
+      ],
+      [
+       "bold",
+       "AMBER EYES"
+      ],
+      [
+       "ital",
+       "Criminal psychology through real case files"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Đóng hồ sơ, tắt cassette, cello fade out",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  }
+ ]
+}

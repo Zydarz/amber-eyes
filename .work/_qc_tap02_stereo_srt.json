@@ -1,0 +1,144 @@
+﻿{
+  "stereo_check": {
+    "n_samples": 2880000,
+    "L_rms_db": -17.75,
+    "R_rms_db": -17.75,
+    "mid_rms_db": -17.75,
+    "side_rms_db": -52.49,
+    "side_over_mid_db": -34.74,
+    "LR_correlation": 0.999329,
+    "identical_channels": false
+  },
+  "srt_cues_parsed": 391,
+  "srt_first_3": [
+    {
+      "i": "1",
+      "a": 23.0,
+      "z": 25.995,
+      "text": "[HOST] Tháng 7 năm 2009."
+    },
+    {
+      "i": "2",
+      "a": 26.645,
+      "z": 32.439,
+      "text": "Tại căn cứ Không quân Trenton – căn cứ không quân lớn nhất của quân đội Canada."
+    },
+    {
+      "i": "3",
+      "a": 32.789,
+      "z": 35.621,
+      "text": "Một buổi lễ nhậm chức diễn ra trước sự chứng"
+    }
+  ],
+  "srt_last_2": [
+    {
+      "i": "390",
+      "a": 1585.625,
+      "z": 1590.826,
+      "text": "biết lắng nghe trực giác và trân trọng những ranh giới an toàn của cuộc sống."
+    },
+    {
+      "i": "391",
+      "a": 1591.176,
+      "z": 1596.702,
+      "text": "Xin chào và hẹn gặp lại các bạn trong tập phân tích tâm lý tội phạm tiếp theo."
+    }
+  ],
+  "subtitle_sync": {
+    "items": 215,
+    "matched": 215,
+    "unmatched": 0,
+    "diff_min": -1278.914,
+    "diff_max": 5.657,
+    "abs_diff_gt_0.1": 26,
+    "abs_diff_gt_0.25": 26,
+    "worst": [
+      {
+        "id": "5.12#1",
+        "cue": "68",
+        "cue_start": 294.668,
+        "tl_start": 1573.582,
+        "diff": -1278.914,
+        "tl_role": "H",
+        "cue_text": "Hôm nay,"
+      },
+      {
+        "id": "3.07#1",
+        "cue": "176",
+        "cue_start": 720.325,
+        "tl_start": 714.668,
+        "diff": 5.657,
+        "tl_role": "H",
+        "cue_text": "mà là cách hắn che giấu nó."
+      },
+      {
+        "id": "5.10#1",
+        "cue": "370",
+        "cue_start": 1497.308,
+        "tl_start": 1492.835,
+        "diff": 4.473,
+        "tl_role": "H",
+        "cue_text": "lạnh lùng về vực thẳm sâu hoắm của tâm t"
+      },
+      {
+        "id": "1.05#1",
+        "cue": "8",
+        "cue_start": 56.867,
+        "tl_start": 52.614,
+        "diff": 4.253,
+        "tl_role": "H",
+        "cue_text": "đón Nữ hoàng Anh Elizabeth II và Thủ tướ"
+      },
+      {
+        "id": "1.08#1",
+        "cue": "23",
+        "cue_start": 113.562,
+        "tl_start": 109.663,
+        "diff": 3.899,
+        "tl_role": "H",
+        "cue_text": "mình bộ quân phục đính đầy huân chương d"
+      },
+      {
+        "id": "2.07#1",
+        "cue": "117",
+        "cue_start": 489.771,
+        "tl_start": 486.018,
+        "diff": 3.753,
+        "tl_role": "H",
+        "cue_text": "sự kết hợp giữa bản năng săn mồi lệch lạ"
+      },
+      {
+        "id": "3.04#1",
+        "cue": "147",
+        "cue_start": 603.909,
+        "tl_start": 600.176,
+        "diff": 3.733,
+        "tl_role": "H",
+        "cue_text": "không tồn tại một chẩn đoán lâm sàng côn"
+      },
+      {
+        "id": "4.10#1",
+        "cue": "266",
+        "cue_start": 1071.084,
+        "tl_start": 1067.392,
+        "diff": 3.692,
+        "tl_role": "D",
+        "cue_text": "“Cứ gọi tôi là Russ.”"
+      }
+    ]
+  },
+  "srt_role_tags": {
+    "[CHUYÊN GIA TÂM LÝ] Đó": 3,
+    "Xin mời Điều tra viên ": 2,
+    "Xin mời Chuyên gia tâm": 2,
+    "thêm 10 năm cho mỗi tộ": 2,
+    "[HOST] Tháng 7 năm 200": 1,
+    "Tại căn cứ Không quân ": 1,
+    "Một buổi lễ nhậm chức ": 1,
+    "kiến của các quan chức": 1,
+    "Người bước lên bục nhậ": 1,
+    "một phi công với bản l": 1,
+    "[HOST] Người đàn ông 4": 1,
+    "đón Nữ hoàng Anh Eliza": 1
+  }
+}

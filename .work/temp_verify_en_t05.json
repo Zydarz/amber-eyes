@@ -1,0 +1,1310 @@
+[
+ {
+  "id": "1.01",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "A mechanical typewriter clicks slowly in the dead of night. A cold winter wind howls through a dark ambient soundscape."
+ },
+ {
+  "id": "1.02",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "The tearing of a coarse paper envelope, followed by the unfolding of creased documents."
+ },
+ {
+  "id": "1.03",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "slow, low, maintaining objective distance",
+  "text": "March 19th, 2004. In Wichita, Kansas. The editorial office of The Wichita Eagle unexpectedly received a manila envelope bearing no return address. Inside was a photocopy of the driver’s license of a woman named Vicki Wegerle, who had died mysteriously back in 1986, accompanied by three crime scene photographs from that cold case. And at the bottom of the letter, the sender signed with three initials that had served as the most terrifying nightmare across the American Midwest for decades: B-T-K.",
+  "sentences": [
+   {
+    "id": "1.03#1",
+    "text": "March 19th, 2004.",
+    "words": 3
+   },
+   {
+    "id": "1.03#2",
+    "text": "In Wichita, Kansas.",
+    "words": 3
+   },
+   {
+    "id": "1.03#3",
+    "text": "The editorial office of The Wichita Eagle unexpectedly received a manila envelope bearing no return address.",
+    "words": 16
+   },
+   {
+    "id": "1.03#4",
+    "text": "Inside was a photocopy of the driver’s license of a woman named Vicki Wegerle, who had died mysteriously back in 1986, accompanied by three crime scene photographs from that cold case.",
+    "words": 31
+   },
+   {
+    "id": "1.03#5",
+    "text": "And at the bottom of the letter, the sender signed with three initials that had served as the most terrifying nightmare across the American Midwest for decades: B-T-K.",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "1.04",
+  "act": 1,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
+ },
+ {
+  "id": "1.05",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "slow, low, maintaining objective distance",
+  "text": "News of BTK’s resurgence immediately sent shockwaves across the United States. From 1974 to 1991, the perpetrator operating under this moniker had claimed ten victims in gruesome fashion, taunting law enforcement agencies with derisive poems and messages sent to media outlets. Yet following 1991, that phantom vanished completely into thin air. For thirteen agonizing years, there were no further crimes, not a single letter, not a shred of evidence. The Wichita Police Department and the FBI had come to believe that the perpetrator was likely deceased, or perhaps serving a life sentence in some distant penitentiary under an assumed name.",
+  "sentences": [
+   {
+    "id": "1.05#1",
+    "text": "News of BTK’s resurgence immediately sent shockwaves across the United States.",
+    "words": 11
+   },
+   {
+    "id": "1.05#2",
+    "text": "From 1974 to 1991, the perpetrator operating under this moniker had claimed ten victims in gruesome fashion, taunting law enforcement agencies with derisive poems and messages sent to media outlets.",
+    "words": 30
+   },
+   {
+    "id": "1.05#3",
+    "text": "Yet following 1991, that phantom vanished completely into thin air.",
+    "words": 10
+   },
+   {
+    "id": "1.05#4",
+    "text": "For thirteen agonizing years, there were no further crimes, not a single letter, not a shred of evidence.",
+    "words": 18
+   },
+   {
+    "id": "1.05#5",
+    "text": "The Wichita Police Department and the FBI had come to believe that the perpetrator was likely deceased, or perhaps serving a life sentence in some distant penitentiary under an assumed name.",
+    "words": 31
+   }
+  ]
+ },
+ {
+  "id": "1.06",
+  "act": 1,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
+ },
+ {
+  "id": "1.07",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "slow, low, maintaining objective distance",
+  "text": "To understand how staggering and terrifying that revelation was, let us hear from a resident of Park City—the peaceful suburban community right on the outskirts of Wichita.",
+  "sentences": [
+   {
+    "id": "1.07#1",
+    "text": "To understand how staggering and terrifying that revelation was, let us hear from a resident of Park City—the peaceful suburban community right on the outskirts of Wichita.",
+    "words": 27
+   }
+  ]
+ },
+ {
+  "id": "1.08",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "A tape recorder softly clicks on."
+ },
+ {
+  "id": "1.09",
+  "act": 1,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "rustic middle-aged male voice, filled with shock",
+  "text": "When word spread that BTK had resumed sending letters after more than a decade, our entire town held its breath in dread. People checked their window latches again, bought extra firearms, and bolted their doors before sundown. No one could ever have imagined that the monster hunted across America for thirty years... was the very same diligent man who walked our neighborhood measuring grass heights every day, impeccably dressed in his uniform, reminding us to keep our dogs on leashes.",
+  "sentences": [
+   {
+    "id": "1.09#1",
+    "text": "When word spread that BTK had resumed sending letters after more than a decade, our entire town held its breath in dread.",
+    "words": 22
+   },
+   {
+    "id": "1.09#2",
+    "text": "People checked their window latches again, bought extra firearms, and bolted their doors before sundown.",
+    "words": 15
+   },
+   {
+    "id": "1.09#3",
+    "text": "No one could ever have imagined that the monster hunted across America for thirty years... was the very same diligent man who walked our neighborhood measuring grass heights every day, impeccably dressed in his uniform, reminding us to keep our dogs on leashes.",
+    "words": 43
+   }
+  ]
+ },
+ {
+  "id": "1.10",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "dropping voice to a lower register, dramatic tone",
+  "text": "That represents the most bizarre paradox in the entire history of jurisprudence. The perpetrator had remained completely dormant for thirteen years. Crime scene evidence had gone cold. The technology and investigative tools of the era were utterly helpless to trace him. He could easily have lived out the remainder of his days in safety under the guise of a respected citizen and passed on without ever being caught. Yet what compelled that monster to shatter his own silence? Why would a predator so meticulously cautious decide to emerge from the darkness, only to deliver himself directly into a police trap?",
+  "sentences": [
+   {
+    "id": "1.10#1",
+    "text": "That represents the most bizarre paradox in the entire history of jurisprudence.",
+    "words": 12
+   },
+   {
+    "id": "1.10#2",
+    "text": "The perpetrator had remained completely dormant for thirteen years.",
+    "words": 9
+   },
+   {
+    "id": "1.10#3",
+    "text": "Crime scene evidence had gone cold.",
+    "words": 6
+   },
+   {
+    "id": "1.10#4",
+    "text": "The technology and investigative tools of the era were utterly helpless to trace him.",
+    "words": 14
+   },
+   {
+    "id": "1.10#5",
+    "text": "He could easily have lived out the remainder of his days in safety under the guise of a respected citizen and passed on without ever being caught.",
+    "words": 27
+   },
+   {
+    "id": "1.10#6",
+    "text": "Yet what compelled that monster to shatter his own silence?",
+    "words": 10
+   },
+   {
+    "id": "1.10#7",
+    "text": "Why would a predator so meticulously cautious decide to emerge from the darkness, only to deliver himself directly into a police trap?",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "1.11",
+  "act": 1,
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": "the background music cuts out abruptly, leaving only the dry ticking of a clock"
+ },
+ {
+  "id": "1.12",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "dropping voice to a lower register, dramatic tone",
+  "text": "To understand the opening moments of this historic battle of wits, let us turn to the investigator who commanded the task force.",
+  "sentences": [
+   {
+    "id": "1.12#1",
+    "text": "To understand the opening moments of this historic battle of wits, let us turn to the investigator who commanded the task force.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "1.13",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "The metallic creak of an evidence file drawer opening, followed by a heavy dossier placed firmly upon a table."
+ },
+ {
+  "id": "1.14",
+  "act": 1,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "firm, calm, and resolute",
+  "text": "When we received that letter in March 2004, the first question our task force posed was not where he was hiding, but rather: Why now? And when we reviewed local newspaper archives from preceding months, we uncovered the trigger that sparked his resurgence: In early 2004, The Wichita Eagle published a series of articles marking the thirtieth anniversary of BTK’s first murders. In that feature, a local author named Robert Beattie announced that he was preparing to publish a book on the case, openly questioning whether BTK was dead or physically incapable of operating. That proved to be a direct strike against the killer’s fatal vulnerability: His pathological narcissistic pride. He could not endure the thought of the world forgetting him. He felt compelled to remind all of humanity: The monster named BTK was still alive, and he still commanded the fear of an entire city.",
+  "sentences": [
+   {
+    "id": "1.14#1",
+    "text": "When we received that letter in March 2004, the first question our task force posed was not where he was hiding, but rather: Why now?",
+    "words": 25
+   },
+   {
+    "id": "1.14#2",
+    "text": "And when we reviewed local newspaper archives from preceding months, we uncovered the trigger that sparked his resurgence:",
+    "words": 18
+   },
+   {
+    "id": "1.14#3",
+    "text": "In early 2004, The Wichita Eagle published a series of articles marking the thirtieth anniversary of BTK’s first murders.",
+    "words": 19
+   },
+   {
+    "id": "1.14#4",
+    "text": "In that feature, a local author named Robert Beattie announced that he was preparing to publish a book on the case, openly questioning whether BTK was dead or physically incapable of operating.",
+    "words": 32
+   },
+   {
+    "id": "1.14#5",
+    "text": "That proved to be a direct strike against the killer’s fatal vulnerability: His pathological narcissistic pride.",
+    "words": 16
+   },
+   {
+    "id": "1.14#6",
+    "text": "He could not endure the thought of the world forgetting him.",
+    "words": 11
+   },
+   {
+    "id": "1.14#7",
+    "text": "He felt compelled to remind all of humanity: The monster named BTK was still alive, and he still commanded the fear of an entire city.",
+    "words": 25
+   }
+  ]
+ },
+ {
+  "id": "1.15",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "A mournful cello melody weaves into chilly piano chords as it begins to play."
+ },
+ {
+  "id": "1.16",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "",
+  "text": "Welcome to the criminal psychology case files. Today, we unlock one of the most thrilling and classic psychological duels in modern investigative history: The file of Dennis Rader—the man who called himself BTK. This episode will dissect two dark psychological architectures: The Malignant Narcissist’s Addiction to Attention and Absolute Compartmentalization, addressing the question: How could an arrogant ego bring down a flawless facade fortified across three decades?",
+  "sentences": [
+   {
+    "id": "1.16#1",
+    "text": "Welcome to the criminal psychology case files.",
+    "words": 7
+   },
+   {
+    "id": "1.16#2",
+    "text": "Today, we unlock one of the most thrilling and classic psychological duels in modern investigative history: The file of Dennis Rader—the man who called himself BTK.",
+    "words": 26
+   },
+   {
+    "id": "1.16#3",
+    "text": "This episode will dissect two dark psychological architectures: The Malignant Narcissist’s Addiction to Attention and Absolute Compartmentalization, addressing the question: How could an arrogant ego bring down a flawless facade fortified across three decades?",
+    "words": 34
+   }
+  ]
+ },
+ {
+  "id": "2.01",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "A slow heartbeat rhythm mingles with the analog hiss of a cassette tape playing back an emergency telephone dispatch recording."
+ },
+ {
+  "id": "2.02",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "measured pace, detailing the facts",
+  "text": "To grasp the true nature of Dennis Rader, we must first examine what he left behind at crime scenes throughout seventeen active years from 1974 to 1991. Unlike conventional offenders driven by monetary gain, revenge, or impulsive passion, Rader operated with an extraordinary Modus Operandi and Psychological Signature. He coined his own moniker: BTK—an acronym of three English verbs describing a calculated sequence: Bind, Torture, and Kill. Let us invite the Investigator to analyze this toxic psychological signature.",
+  "sentences": [
+   {
+    "id": "2.02#1",
+    "text": "To grasp the true nature of Dennis Rader, we must first examine what he left behind at crime scenes throughout seventeen active years from 1974 to 1991.",
+    "words": 27
+   },
+   {
+    "id": "2.02#2",
+    "text": "Unlike conventional offenders driven by monetary gain, revenge, or impulsive passion, Rader operated with an extraordinary Modus Operandi and Psychological Signature.",
+    "words": 21
+   },
+   {
+    "id": "2.02#3",
+    "text": "He coined his own moniker: BTK—an acronym of three English verbs describing a calculated sequence: Bind, Torture, and Kill.",
+    "words": 19
+   },
+   {
+    "id": "2.02#4",
+    "text": "Let us invite the Investigator to analyze this toxic psychological signature.",
+    "words": 11
+   }
+  ]
+ },
+ {
+  "id": "2.03",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "The rustle of crime scene photographs being laid out across a wooden desk."
+ },
+ {
+  "id": "2.04",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "coldly analytical, delving into operational technicalities",
+  "text": "In FBI behavioral science, a psychological signature is what an offender does to satisfy an internal emotional need, rather than to facilitate the crime or evade capture: First: The demand for absolute domination. Rader never acted hastily. He infiltrated victims' homes after dark, severed telephone lines, incapacitated his targets, and bound them with ligatures to render them completely helpless before him. He deliberately prolonged the ordeal to savor the visceral terror in his victims' eyes. Second: The obsession with retaining trophies. He took small personal belongings from his victims, such as driver’s licenses, watches, or modest jewelry. To Rader, these items held no monetary worth, but served as psychological triggers allowing him to re-experience feelings of omnipotence whenever he was alone. And third: The impulse for derisive communication. He covertly planted parcels inside public libraries, taped beneath tables or tucked into park trash cans, containing self-authored poems and word puzzles directed at police and television stations.",
+  "sentences": [
+   {
+    "id": "2.04#1",
+    "text": "In FBI behavioral science, a psychological signature is what an offender does to satisfy an internal emotional need, rather than to facilitate the crime or evade capture:",
+    "words": 27
+   },
+   {
+    "id": "2.04#2",
+    "text": "First: The demand for absolute domination.",
+    "words": 6
+   },
+   {
+    "id": "2.04#3",
+    "text": "Rader never acted hastily.",
+    "words": 4
+   },
+   {
+    "id": "2.04#4",
+    "text": "He infiltrated victims' homes after dark, severed telephone lines, incapacitated his targets, and bound them with ligatures to render them completely helpless before him.",
+    "words": 24
+   },
+   {
+    "id": "2.04#5",
+    "text": "He deliberately prolonged the ordeal to savor the visceral terror in his victims' eyes.",
+    "words": 14
+   },
+   {
+    "id": "2.04#6",
+    "text": "Second: The obsession with retaining trophies.",
+    "words": 6
+   },
+   {
+    "id": "2.04#7",
+    "text": "He took small personal belongings from his victims, such as driver’s licenses, watches, or modest jewelry.",
+    "words": 16
+   },
+   {
+    "id": "2.04#8",
+    "text": "To Rader, these items held no monetary worth, but served as psychological triggers allowing him to re-experience feelings of omnipotence whenever he was alone.",
+    "words": 24
+   },
+   {
+    "id": "2.04#9",
+    "text": "And third: The impulse for derisive communication.",
+    "words": 7
+   },
+   {
+    "id": "2.04#10",
+    "text": "He covertly planted parcels inside public libraries, taped beneath tables or tucked into park trash cans, containing self-authored poems and word puzzles directed at police and television stations.",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "2.05",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "thoughtful and contemplative",
+  "text": "A predator meticulous, patient, and calculating down to the smallest detail. He was well-versed in police investigative techniques, consistently wore gloves, and left behind no discernible fingerprints or biological traces. Yet what left America completely dumbfounded on the day of his arrest was not the body count, but the true identity behind his mask. Let us listen to the Investigator reconstruct the mundane civilian life of Dennis Rader.",
+  "sentences": [
+   {
+    "id": "2.05#1",
+    "text": "A predator meticulous, patient, and calculating down to the smallest detail.",
+    "words": 11
+   },
+   {
+    "id": "2.05#2",
+    "text": "He was well-versed in police investigative techniques, consistently wore gloves, and left behind no discernible fingerprints or biological traces.",
+    "words": 19
+   },
+   {
+    "id": "2.05#3",
+    "text": "Yet what left America completely dumbfounded on the day of his arrest was not the body count, but the true identity behind his mask.",
+    "words": 24
+   },
+   {
+    "id": "2.05#4",
+    "text": "Let us listen to the Investigator reconstruct the mundane civilian life of Dennis Rader.",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "2.06",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "continuing at a steady, insightful tempo",
+  "text": "Dennis Rader was born in 1945, served four years in the United States Air Force, and earned a college degree in Administration of Justice. For decades, he lived in a modest home in Park City alongside his devoted wife of over thirty years and two well-behaved children. He served as President of the Church Council at Christ Lutheran Church—standing before the congregation weekly to welcome worshippers, collect tithes, and coordinate charitable events. He served as a Cub Scout leader—personally teaching neighborhood boys how to tie knots, pitch tents, and practice honesty. And from 1991 onward, he worked as a Compliance and Animal Control Officer for the City of Park City. His daily duty entailed driving an official city pickup truck along suburban streets, measuring the height of residential lawns, capturing stray animals, and issuing citations to improperly parked vehicles. He was strict to the point of being tyrannical, meticulous to the point of obsession, and not a soul in town could ever have conceived that the man wielding the lawn-measuring ruler was the BTK strangler.",
+  "sentences": [
+   {
+    "id": "2.06#1",
+    "text": "Dennis Rader was born in 1945, served four years in the United States Air Force, and earned a college degree in Administration of Justice.",
+    "words": 24
+   },
+   {
+    "id": "2.06#2",
+    "text": "For decades, he lived in a modest home in Park City alongside his devoted wife of over thirty years and two well-behaved children.",
+    "words": 23
+   },
+   {
+    "id": "2.06#3",
+    "text": "He served as President of the Church Council at Christ Lutheran Church—standing before the congregation weekly to welcome worshippers, collect tithes, and coordinate charitable events.",
+    "words": 25
+   },
+   {
+    "id": "2.06#4",
+    "text": "He served as a Cub Scout leader—personally teaching neighborhood boys how to tie knots, pitch tents, and practice honesty.",
+    "words": 19
+   },
+   {
+    "id": "2.06#5",
+    "text": "And from 1991 onward, he worked as a Compliance and Animal Control Officer for the City of Park City.",
+    "words": 19
+   },
+   {
+    "id": "2.06#6",
+    "text": "His daily duty entailed driving an official city pickup truck along suburban streets, measuring the height of residential lawns, capturing stray animals, and issuing citations to improperly parked vehicles.",
+    "words": 29
+   },
+   {
+    "id": "2.06#7",
+    "text": "He was strict to the point of being tyrannical, meticulous to the point of obsession, and not a soul in town could ever have conceived that the man wielding the lawn-measuring ruler was the BTK strangler.",
+    "words": 36
+   }
+  ]
+ },
+ {
+  "id": "2.07",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "lowered tone, emphasizing stark contradictions",
+  "text": "By day a model citizen, a devout congregant, a respectable family father. By night a cold-blooded predator extinguishing the lives of innocent human beings. How could two such profoundly polarized personalities coexist in harmony inside a single human being for more than thirty years without unraveling? Let us invite the Psychologist to dissect this bizarre psychiatric architecture.",
+  "sentences": [
+   {
+    "id": "2.07#1",
+    "text": "By day a model citizen, a devout congregant, a respectable family father.",
+    "words": 12
+   },
+   {
+    "id": "2.07#2",
+    "text": "By night a cold-blooded predator extinguishing the lives of innocent human beings.",
+    "words": 12
+   },
+   {
+    "id": "2.07#3",
+    "text": "How could two such profoundly polarized personalities coexist in harmony inside a single human being for more than thirty years without unraveling?",
+    "words": 22
+   },
+   {
+    "id": "2.07#4",
+    "text": "Let us invite the Psychologist to dissect this bizarre psychiatric architecture.",
+    "words": 11
+   }
+  ]
+ },
+ {
+  "id": "3.01",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "A cello scatters dark, resonant bass notes beneath a suffocating sub-bass drone, establishing an atmosphere suited for deep psychiatric autopsy."
+ },
+ {
+  "id": "3.02",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "scholarly, incisive, and structured",
+  "text": "To decode Dennis Rader, forensic psychologists and criminologists have analyzed two extreme psychological defense mechanisms that defined his entire behavioral repertoire: The first mechanism: Absolute Compartmentalization. Much like the case of Colonel Russell Williams, Dennis Rader possessed an extraordinary ability to seal off psychological compartments with absolute perfection. He erected an impenetrable concrete wall between his family and social existence and his dark fantasy world: When standing inside the Lutheran church or mentoring young Scouts, he fully immersed himself in the persona of a pious believer and devoted father. He experienced no guilt or remorse, because in his cognitive processing, those horrific crimes belonged to an entirely separate entity. And to rationalize that internal fragmentation, Rader conjured an externalized delusional concept he labeled: “Factor X.",
+  "sentences": [
+   {
+    "id": "3.02#1",
+    "text": "To decode Dennis Rader, forensic psychologists and criminologists have analyzed two extreme psychological defense mechanisms that defined his entire behavioral repertoire:",
+    "words": 21
+   },
+   {
+    "id": "3.02#2",
+    "text": "The first mechanism: Absolute Compartmentalization.",
+    "words": 5
+   },
+   {
+    "id": "3.02#3",
+    "text": "Much like the case of Colonel Russell Williams, Dennis Rader possessed an extraordinary ability to seal off psychological compartments with absolute perfection.",
+    "words": 22
+   },
+   {
+    "id": "3.02#4",
+    "text": "He erected an impenetrable concrete wall between his family and social existence and his dark fantasy world:",
+    "words": 17
+   },
+   {
+    "id": "3.02#5",
+    "text": "When standing inside the Lutheran church or mentoring young Scouts, he fully immersed himself in the persona of a pious believer and devoted father.",
+    "words": 24
+   },
+   {
+    "id": "3.02#6",
+    "text": "He experienced no guilt or remorse, because in his cognitive processing, those horrific crimes belonged to an entirely separate entity.",
+    "words": 20
+   },
+   {
+    "id": "3.02#7",
+    "text": "And to rationalize that internal fragmentation, Rader conjured an externalized delusional concept he labeled: “Factor X.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "3.03",
+  "act": 3,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
+ },
+ {
+  "id": "3.04",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "troubled, guiding the dialogue",
+  "text": "A truly bizarre concept, expert. Dennis Rader repeatedly referenced this term “Factor X” in his letters to police. Under the lens of psychological science, what was “Factor X” in reality?",
+  "sentences": [
+   {
+    "id": "3.04#1",
+    "text": "A truly bizarre concept, expert.",
+    "words": 5
+   },
+   {
+    "id": "3.04#2",
+    "text": "Dennis Rader repeatedly referenced this term “Factor X” in his letters to police.",
+    "words": 13
+   },
+   {
+    "id": "3.04#3",
+    "text": "Under the lens of psychological science, what was “Factor X” in reality?",
+    "words": 12
+   }
+  ]
+ },
+ {
+  "id": "3.05",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "calmly continuing",
+  "text": "From a psychological standpoint, “Factor X” was neither a supernatural demon nor an occult force. It was an archetypal defense mechanism of Rationalization and External Projection: Rader viewed his violent impulses as a parasitic foreign entity possessing his mind. He convinced himself: “It was not that I wanted to do it, but Factor X inside me forced me to do it. By offloading culpability onto an abstract entity, he completely stripped away personal moral accountability, allowing him to gratify his darkest fantasies while returning home to embrace his daughter and smile across the dinner table like an innocent man.",
+  "sentences": [
+   {
+    "id": "3.05#1",
+    "text": "From a psychological standpoint, “Factor X” was neither a supernatural demon nor an occult force.",
+    "words": 15
+   },
+   {
+    "id": "3.05#2",
+    "text": "It was an archetypal defense mechanism of Rationalization and External Projection:",
+    "words": 11
+   },
+   {
+    "id": "3.05#3",
+    "text": "Rader viewed his violent impulses as a parasitic foreign entity possessing his mind.",
+    "words": 13
+   },
+   {
+    "id": "3.05#4",
+    "text": "He convinced himself: “It was not that I wanted to do it, but Factor X inside me forced me to do it.",
+    "words": 22
+   },
+   {
+    "id": "3.05#5",
+    "text": "By offloading culpability onto an abstract entity, he completely stripped away personal moral accountability, allowing him to gratify his darkest fantasies while returning home to embrace his daughter and smile across the dinner table like an innocent man.",
+    "words": 38
+   }
+  ]
+ },
+ {
+  "id": "3.06",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "contemplative",
+  "text": "A sophisticated rationalization to lull his own conscience. Yet expert, if he had successfully compartmentalized his mind and safely hibernated for thirteen years, why could he not take that secret to the grave? What motive dragged him back into this perilous game in 2004?",
+  "sentences": [
+   {
+    "id": "3.06#1",
+    "text": "A sophisticated rationalization to lull his own conscience.",
+    "words": 8
+   },
+   {
+    "id": "3.06#2",
+    "text": "Yet expert, if he had successfully compartmentalized his mind and safely hibernated for thirteen years, why could he not take that secret to the grave?",
+    "words": 25
+   },
+   {
+    "id": "3.06#3",
+    "text": "What motive dragged him back into this perilous game in 2004?",
+    "words": 11
+   }
+  ]
+ },
+ {
+  "id": "3.07",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "sharply articulating each thesis",
+  "text": "That brings us to the second mechanism: Malignant Narcissism and the Addiction to Attention. For a severe narcissist like Dennis Rader, the sense of control and the awe of the public constitute the essential oxygen sustaining his ego. He did not merely want to commit murder; he needed the world talking about him, trembling before him, analyzing every line of his letters. Throughout the thirteen years from 1991 to 2004, when he ceased offending due to advancing age and domestic responsibilities, Rader lived on the reflected glory of his past: He quietly tracked news coverage, cutting every clipping regarding BTK into a private scrapbook. Yet when The Wichita Eagle published an article implying BTK was dead or irrelevant, his narcissistic ego suffered a catastrophic injury. The greatest terror for a narcissist is not incarceration, but Obscurity. He would rather risk capture so the world could behold his mask than die in the anonymity of a suburban municipal compliance officer.",
+  "sentences": [
+   {
+    "id": "3.07#1",
+    "text": "That brings us to the second mechanism: Malignant Narcissism and the Addiction to Attention.",
+    "words": 14
+   },
+   {
+    "id": "3.07#2",
+    "text": "For a severe narcissist like Dennis Rader, the sense of control and the awe of the public constitute the essential oxygen sustaining his ego.",
+    "words": 24
+   },
+   {
+    "id": "3.07#3",
+    "text": "He did not merely want to commit murder; he needed the world talking about him, trembling before him, analyzing every line of his letters.",
+    "words": 24
+   },
+   {
+    "id": "3.07#4",
+    "text": "Throughout the thirteen years from 1991 to 2004, when he ceased offending due to advancing age and domestic responsibilities, Rader lived on the reflected glory of his past: He quietly tracked news coverage, cutting every clipping regarding BTK into a private scrapbook.",
+    "words": 42
+   },
+   {
+    "id": "3.07#5",
+    "text": "Yet when The Wichita Eagle published an article implying BTK was dead or irrelevant, his narcissistic ego suffered a catastrophic injury.",
+    "words": 21
+   },
+   {
+    "id": "3.07#6",
+    "text": "The greatest terror for a narcissist is not incarceration, but Obscurity.",
+    "words": 11
+   },
+   {
+    "id": "3.07#7",
+    "text": "He would rather risk capture so the world could behold his mask than die in the anonymity of a suburban municipal compliance officer.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "3.08",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "coldly analytical",
+  "text": "The addiction to attention utterly blinded the survival instincts of an experienced predator. He believed he was smarter than the entire police force, convinced he could orchestrate the media game indefinitely. And that blind arrogance paved the way for Lieutenant Ken Landwehr to spring a historic technological trap.",
+  "sentences": [
+   {
+    "id": "3.08#1",
+    "text": "The addiction to attention utterly blinded the survival instincts of an experienced predator.",
+    "words": 13
+   },
+   {
+    "id": "3.08#2",
+    "text": "He believed he was smarter than the entire police force, convinced he could orchestrate the media game indefinitely.",
+    "words": 18
+   },
+   {
+    "id": "3.08#3",
+    "text": "And that blind arrogance paved the way for Lieutenant Ken Landwehr to spring a historic technological trap.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "4.01",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "Minimalist synth pulses urgently, joined by rapid keyboard tapping and the low hum of server cooling fans inside a digital forensics lab."
+ },
+ {
+  "id": "4.02",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "accelerating pace, dramatic delivery",
+  "text": "Early 2005. Following a string of mocking letters mailed to news outlets, Dennis Rader began growing weary of manually typing, assembling parcels, and scouting drop sites amidst freezing winter weather. He sought to transition to a more contemporary medium: Transmitting computerized digital files. However, at that point, Rader was sixty years old and fundamentally ignorant regarding digital technology principles. On January 8th, 2005, Dennis Rader slipped a cereal box onto the bed of a pickup truck in the Home Depot parking lot in Wichita. Inside the cereal box was a handwritten note addressed to police, posing an inquiry astonishing in its naivety: Can I communicate with a floppy disk and not be traced to a computer? Be honest. And he instructed detectives to reply through a coded message placed in classified ad section 494 of The Wichita Eagle.",
+  "sentences": [
+   {
+    "id": "4.02#1",
+    "text": "Early 2005.",
+    "words": 2
+   },
+   {
+    "id": "4.02#2",
+    "text": "Following a string of mocking letters mailed to news outlets, Dennis Rader began growing weary of manually typing, assembling parcels, and scouting drop sites amidst freezing winter weather.",
+    "words": 28
+   },
+   {
+    "id": "4.02#3",
+    "text": "He sought to transition to a more contemporary medium: Transmitting computerized digital files.",
+    "words": 13
+   },
+   {
+    "id": "4.02#4",
+    "text": "However, at that point, Rader was sixty years old and fundamentally ignorant regarding digital technology principles.",
+    "words": 16
+   },
+   {
+    "id": "4.02#5",
+    "text": "On January 8th, 2005, Dennis Rader slipped a cereal box onto the bed of a pickup truck in the Home Depot parking lot in Wichita.",
+    "words": 25
+   },
+   {
+    "id": "4.02#6",
+    "text": "Inside the cereal box was a handwritten note addressed to police, posing an inquiry astonishing in its naivety:",
+    "words": 18
+   },
+   {
+    "id": "4.02#7",
+    "text": "Can I communicate with a floppy disk and not be traced to a computer?",
+    "words": 14
+   },
+   {
+    "id": "4.02#8",
+    "text": "Be honest.",
+    "words": 2
+   },
+   {
+    "id": "4.02#9",
+    "text": "And he instructed detectives to reply through a coded message placed in classified ad section 494 of The Wichita Eagle.",
+    "words": 20
+   }
+  ]
+ },
+ {
+  "id": "4.03",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "The dry rustle of newsprint pages turning."
+ },
+ {
+  "id": "4.04",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "sharp, reconstructing the decisive maneuver",
+  "text": "When that note was placed upon the desk of Lieutenant Ken Landwehr—commander of the task force—all of us grasped: A once-in-a-thirty-year opportunity had presented itself. We immediately consulted digital forensic specialists. They confirmed: Any file created on a computer carries hidden residual data footprints known as Metadata. Our investigative team resolved to deliver a psychological deception: On February 10th, 2005, within the classifieds of The Wichita Eagle, a brief notice appeared reading: “Rex, it will be okay to send it. The narcissist Dennis Rader placed complete faith in the police’s “assurance. Six days later, on February 16th, 2005, a padded package arrived at television station KSAS-TV. Inside was a purple Memorex 1.44-megabyte floppy disk.",
+  "sentences": [
+   {
+    "id": "4.04#1",
+    "text": "When that note was placed upon the desk of Lieutenant Ken Landwehr—commander of the task force—all of us grasped: A once-in-a-thirty-year opportunity had presented itself.",
+    "words": 25
+   },
+   {
+    "id": "4.04#2",
+    "text": "We immediately consulted digital forensic specialists.",
+    "words": 6
+   },
+   {
+    "id": "4.04#3",
+    "text": "They confirmed: Any file created on a computer carries hidden residual data footprints known as Metadata.",
+    "words": 16
+   },
+   {
+    "id": "4.04#4",
+    "text": "Our investigative team resolved to deliver a psychological deception:",
+    "words": 9
+   },
+   {
+    "id": "4.04#5",
+    "text": "On February 10th, 2005, within the classifieds of The Wichita Eagle, a brief notice appeared reading: “Rex, it will be okay to send it.",
+    "words": 24
+   },
+   {
+    "id": "4.04#6",
+    "text": "The narcissist Dennis Rader placed complete faith in the police’s “assurance.",
+    "words": 11
+   },
+   {
+    "id": "4.04#7",
+    "text": "Six days later, on February 16th, 2005, a padded package arrived at television station KSAS-TV.",
+    "words": 15
+   },
+   {
+    "id": "4.04#8",
+    "text": "Inside was a purple Memorex 1.44-megabyte floppy disk.",
+    "words": 8
+   }
+  ]
+ },
+ {
+  "id": "4.05",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "A floppy disk slots into a drive with a distinct mechanical click and whir of a vintage computer."
+ },
+ {
+  "id": "4.06",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "suspenseful, holding breath",
+  "text": "The purple floppy disk was immediately rushed to the police digital forensics unit. Specialist Randy Stone conducted an exhaustive scan of the magnetic sectors utilizing forensic software. Alongside the visible file named TestA.rtf, he recovered a previously deleted Microsoft Word document. And within the embedded metadata properties of that file, two fateful lines emerged: Line one: “Last saved by: Dennis. Line two: “Company registered: Christ Lutheran Church.",
+  "sentences": [
+   {
+    "id": "4.06#1",
+    "text": "The purple floppy disk was immediately rushed to the police digital forensics unit.",
+    "words": 13
+   },
+   {
+    "id": "4.06#2",
+    "text": "Specialist Randy Stone conducted an exhaustive scan of the magnetic sectors utilizing forensic software.",
+    "words": 14
+   },
+   {
+    "id": "4.06#3",
+    "text": "Alongside the visible file named TestA.rtf, he recovered a previously deleted Microsoft Word document.",
+    "words": 14
+   },
+   {
+    "id": "4.06#4",
+    "text": "And within the embedded metadata properties of that file, two fateful lines emerged:",
+    "words": 13
+   },
+   {
+    "id": "4.06#5",
+    "text": "Line one: “Last saved by: Dennis.",
+    "words": 6
+   },
+   {
+    "id": "4.06#6",
+    "text": "Line two: “Company registered: Christ Lutheran Church.",
+    "words": 7
+   }
+  ]
+ },
+ {
+  "id": "4.07",
+  "act": 4,
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": "the background music cuts out abruptly"
+ },
+ {
+  "id": "4.08",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "forceful, carrying the momentum of victory",
+  "text": "Detectives immediately typed the keywords into an online search engine: “Christ Lutheran Church Wichita Dennis. With a single click, the church’s official homepage materialized, presenting its leadership roster: President of the Church Council: Dennis Rader. Every puzzle piece across thirty years clicked into place: Rader’s black pickup truck matched the vehicle captured on surveillance cameras at parcel drop locations. His residential address at 6220 Independence Street sat at the geographical center of the historical crimes. And to establish absolute biological DNA certainty prior to making an arrest, we secured a court warrant to obtain a pap smear specimen belonging to Rader’s daughter from a university health clinic. DNA comparative analysis from the state crime laboratory yielded a 100 percent match: The familial profile recovered from BTK crime scenes belonged to the biological father of that young woman. The perimeter was sealed.",
+  "sentences": [
+   {
+    "id": "4.08#1",
+    "text": "Detectives immediately typed the keywords into an online search engine: “Christ Lutheran Church Wichita Dennis.",
+    "words": 15
+   },
+   {
+    "id": "4.08#2",
+    "text": "With a single click, the church’s official homepage materialized, presenting its leadership roster:",
+    "words": 13
+   },
+   {
+    "id": "4.08#3",
+    "text": "President of the Church Council: Dennis Rader.",
+    "words": 7
+   },
+   {
+    "id": "4.08#4",
+    "text": "Every puzzle piece across thirty years clicked into place:",
+    "words": 9
+   },
+   {
+    "id": "4.08#5",
+    "text": "Rader’s black pickup truck matched the vehicle captured on surveillance cameras at parcel drop locations.",
+    "words": 15
+   },
+   {
+    "id": "4.08#6",
+    "text": "His residential address at 6220 Independence Street sat at the geographical center of the historical crimes.",
+    "words": 16
+   },
+   {
+    "id": "4.08#7",
+    "text": "And to establish absolute biological DNA certainty prior to making an arrest, we secured a court warrant to obtain a pap smear specimen belonging to Rader’s daughter from a university health clinic.",
+    "words": 32
+   },
+   {
+    "id": "4.08#8",
+    "text": "DNA comparative analysis from the state crime laboratory yielded a 100 percent match: The familial profile recovered from BTK crime scenes belonged to the biological father of that young woman.",
+    "words": 30
+   },
+   {
+    "id": "4.08#9",
+    "text": "The perimeter was sealed.",
+    "words": 4
+   }
+  ]
+ },
+ {
+  "id": "4.09",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "Distant police sirens swell, accompanied by the urgent screech of tires on asphalt."
+ },
+ {
+  "id": "4.10",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "lowering register",
+  "text": "Midday on February 25th, 2005. As Dennis Rader was driving his pickup truck home to share lunch with his wife, dozens of patrol units converged and blocked his vehicle. The sixty-year-old man was handcuffed in utter bewilderment. Yet the most remarkable moment of judicial psychology transpired hours later, when Rader sat opposite Lieutenant Ken Landwehr in the interrogation suite.",
+  "sentences": [
+   {
+    "id": "4.10#1",
+    "text": "Midday on February 25th, 2005.",
+    "words": 5
+   },
+   {
+    "id": "4.10#2",
+    "text": "As Dennis Rader was driving his pickup truck home to share lunch with his wife, dozens of patrol units converged and blocked his vehicle.",
+    "words": 24
+   },
+   {
+    "id": "4.10#3",
+    "text": "The sixty-year-old man was handcuffed in utter bewilderment.",
+    "words": 8
+   },
+   {
+    "id": "4.10#4",
+    "text": "Yet the most remarkable moment of judicial psychology transpired hours later, when Rader sat opposite Lieutenant Ken Landwehr in the interrogation suite.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "4.11",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "The heavy metallic clang of an interrogation room door slamming shut."
+ },
+ {
+  "id": "4.12",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "reconstructing the classic confrontation",
+  "text": "Rader looked across at me with a bewildered expression, petulant like a child cheated in a playground game. He asked: Ken, I have to ask you one thing... Why did you lie to me about the floppy disk? I looked him straight in the eyes and replied calmly: Because we were trying to catch you. A cold-blooded serial killer who had manipulated the terror of an entire state for three decades felt genuinely aggrieved simply because police had broken a promise in a game of his own making. And immediately following that response, recognizing that his mask had shattered, Rader launched into a thirty-hour monologue detailing every offense, speaking in a detached, proud tone akin to a professor lecturing on his life’s achievements.",
+  "sentences": [
+   {
+    "id": "4.12#1",
+    "text": "Rader looked across at me with a bewildered expression, petulant like a child cheated in a playground game.",
+    "words": 18
+   },
+   {
+    "id": "4.12#2",
+    "text": "He asked:",
+    "words": 2
+   },
+   {
+    "id": "4.12#3",
+    "text": "Ken, I have to ask you one thing...",
+    "words": 8
+   },
+   {
+    "id": "4.12#4",
+    "text": "Why did you lie to me about the floppy disk?",
+    "words": 10
+   },
+   {
+    "id": "4.12#5",
+    "text": "I looked him straight in the eyes and replied calmly:",
+    "words": 10
+   },
+   {
+    "id": "4.12#6",
+    "text": "Because we were trying to catch you.",
+    "words": 7
+   },
+   {
+    "id": "4.12#7",
+    "text": "A cold-blooded serial killer who had manipulated the terror of an entire state for three decades felt genuinely aggrieved simply because police had broken a promise in a game of his own making.",
+    "words": 33
+   },
+   {
+    "id": "4.12#8",
+    "text": "And immediately following that response, recognizing that his mask had shattered, Rader launched into a thirty-hour monologue detailing every offense, speaking in a detached, proud tone akin to a professor lecturing on his life’s achievements.",
+    "words": 35
+   }
+  ]
+ },
+ {
+  "id": "4.13",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "The muffled, trembling sigh of a woman weeping."
+ },
+ {
+  "id": "4.14",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "subdued, carrying profound humanitarian empathy",
+  "text": "Yet behind the morbid gratification of the perpetrator lay the harrowing devastation of his closest loved ones. Let us listen to the poignant words of Kerri Rawson—Dennis Rader’s biological daughter—recalling that fateful day.",
+  "sentences": [
+   {
+    "id": "4.14#1",
+    "text": "Yet behind the morbid gratification of the perpetrator lay the harrowing devastation of his closest loved ones.",
+    "words": 17
+   },
+   {
+    "id": "4.14#2",
+    "text": "Let us listen to the poignant words of Kerri Rawson—Dennis Rader’s biological daughter—recalling that fateful day.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "4.15",
+  "act": 4,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "female voice, trembling in profound agony",
+  "text": "The world knows him as a barbaric monster. Yet to me, he was once the most wonderful father: the man who taught me to ride a bicycle, took me fishing, walked me down the aisle, and diligently provided for our family. When FBI agents knocked on my door and revealed the truth, my entire childhood memory bank collapsed into ruin. The deepest agony was not discovering a criminal out in society, but realizing that the monster hunted by the entire nation... was the man who kissed me goodnight every evening.",
+  "sentences": [
+   {
+    "id": "4.15#1",
+    "text": "The world knows him as a barbaric monster.",
+    "words": 8
+   },
+   {
+    "id": "4.15#2",
+    "text": "Yet to me, he was once the most wonderful father: the man who taught me to ride a bicycle, took me fishing, walked me down the aisle, and diligently provided for our family.",
+    "words": 33
+   },
+   {
+    "id": "4.15#3",
+    "text": "When FBI agents knocked on my door and revealed the truth, my entire childhood memory bank collapsed into ruin.",
+    "words": 19
+   },
+   {
+    "id": "4.15#4",
+    "text": "The deepest agony was not discovering a criminal out in society, but realizing that the monster hunted by the entire nation... was the man who kissed me goodnight every evening.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "5.01",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "A courtroom gavel strikes three times with solemn resonance. Minimalist piano pairs with a haunting violin sustain, evoking profound philosophical reflection on human nature."
+ },
+ {
+  "id": "5.02",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "solemn, resolute",
+  "text": "August 18th, 2005. At the Sedgwick County District Court in Wichita. Judge Gregory Waller formally sentenced Dennis Lynn Rader to ten consecutive life terms for ten counts of murder, carrying a minimum mandatory term of one hundred and seventy-five years without any possibility of parole. At the time Rader committed his crimes, the State of Kansas had not yet reinstated the death penalty, making life imprisonment without parole the most severe penalty available under the law. Today, in his eighties, Dennis Rader serves his time inside a solitary confinement cell at El Dorado Correctional Facility—where he remains utterly isolated from society, confronting absolute silence until the final day of his life.",
+  "sentences": [
+   {
+    "id": "5.02#1",
+    "text": "August 18th, 2005.",
+    "words": 3
+   },
+   {
+    "id": "5.02#2",
+    "text": "At the Sedgwick County District Court in Wichita.",
+    "words": 8
+   },
+   {
+    "id": "5.02#3",
+    "text": "Judge Gregory Waller formally sentenced Dennis Lynn Rader to ten consecutive life terms for ten counts of murder, carrying a minimum mandatory term of one hundred and seventy-five years without any possibility of parole.",
+    "words": 34
+   },
+   {
+    "id": "5.02#4",
+    "text": "At the time Rader committed his crimes, the State of Kansas had not yet reinstated the death penalty, making life imprisonment without parole the most severe penalty available under the law.",
+    "words": 31
+   },
+   {
+    "id": "5.02#5",
+    "text": "Today, in his eighties, Dennis Rader serves his time inside a solitary confinement cell at El Dorado Correctional Facility—where he remains utterly isolated from society, confronting absolute silence until the final day of his life.",
+    "words": 35
+   }
+  ]
+ },
+ {
+  "id": "5.03",
+  "act": 5,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
+ },
+ {
+  "id": "5.04",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "solemn, resolute",
+  "text": "The BTK file concluded after more than three decades, leaving investigators and society invaluable lessons regarding the identification of evil lurking beneath a flawless facade. Let us invite the Psychologist and Investigator to synthesize four critical Red Flags concerning malignant narcissistic personalities in everyday life.",
+  "sentences": [
+   {
+    "id": "5.04#1",
+    "text": "The BTK file concluded after more than three decades, leaving investigators and society invaluable lessons regarding the identification of evil lurking beneath a flawless facade.",
+    "words": 25
+   },
+   {
+    "id": "5.04#2",
+    "text": "Let us invite the Psychologist and Investigator to synthesize four critical Red Flags concerning malignant narcissistic personalities in everyday life.",
+    "words": 20
+   }
+  ]
+ },
+ {
+  "id": "5.05",
+  "act": 5,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "articulating each scientific insight",
+  "text": "The first red flag: Extreme obsession with enforcing rigid rules. Exercise caution regarding individuals who display a pathological fixation on petty regulations, perpetually seeking to dominate and penalize others through administrative enforcement. That frequently signals a deeply repressed craving for power and control. The second red flag: Emotional detachment masked behind outward enthusiasm, known as Shallow Affect. A person may vigorously participate in civic, charitable, or religious endeavors, yet in substantive interpersonal relations demonstrate a complete absence of genuine empathy for human suffering—a classic marker of a psychopathic facade.",
+  "sentences": [
+   {
+    "id": "5.05#1",
+    "text": "The first red flag: Extreme obsession with enforcing rigid rules.",
+    "words": 10
+   },
+   {
+    "id": "5.05#2",
+    "text": "Exercise caution regarding individuals who display a pathological fixation on petty regulations, perpetually seeking to dominate and penalize others through administrative enforcement.",
+    "words": 22
+   },
+   {
+    "id": "5.05#3",
+    "text": "That frequently signals a deeply repressed craving for power and control.",
+    "words": 11
+   },
+   {
+    "id": "5.05#4",
+    "text": "The second red flag: Emotional detachment masked behind outward enthusiasm, known as Shallow Affect.",
+    "words": 14
+   },
+   {
+    "id": "5.05#5",
+    "text": "A person may vigorously participate in civic, charitable, or religious endeavors, yet in substantive interpersonal relations demonstrate a complete absence of genuine empathy for human suffering—a classic marker of a psychopathic facade.",
+    "words": 32
+   }
+  ]
+ },
+ {
+  "id": "5.06",
+  "act": 5,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "picking up the thread from a field perspective",
+  "text": "The third red flag: Secret hoarding of personal belongings of others. The covert behavior of accumulating and concealing personal mementos, identification papers, or belongings of other people as symbolic trophies represents the most alarming indicator of covert predatory fantasies. And the fourth red flag: A desperate narcissistic hunger for validation at any cost. Narcissistic offenders harbor a bottomless deficit in self-esteem. They may suppress overt actions for extensive periods, but will inevitably betray themselves and self-destruct when their arrogant ego is challenged or when the craving for notoriety reignites.",
+  "sentences": [
+   {
+    "id": "5.06#1",
+    "text": "The third red flag: Secret hoarding of personal belongings of others.",
+    "words": 11
+   },
+   {
+    "id": "5.06#2",
+    "text": "The covert behavior of accumulating and concealing personal mementos, identification papers, or belongings of other people as symbolic trophies represents the most alarming indicator of covert predatory fantasies.",
+    "words": 28
+   },
+   {
+    "id": "5.06#3",
+    "text": "And the fourth red flag: A desperate narcissistic hunger for validation at any cost.",
+    "words": 14
+   },
+   {
+    "id": "5.06#4",
+    "text": "Narcissistic offenders harbor a bottomless deficit in self-esteem.",
+    "words": 8
+   },
+   {
+    "id": "5.06#5",
+    "text": "They may suppress overt actions for extensive periods, but will inevitably betray themselves and self-destruct when their arrogant ego is challenged or when the craving for notoriety reignites.",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "5.07",
+  "act": 5,
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": "the piano music swells gently, offering warmth and resolution"
+ },
+ {
+  "id": "5.08",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "warm, expressive, closing the podcast episode",
+  "text": "The file on Dennis Rader closes with a profound message regarding karmic retribution and the self-destructive nature of evil. He once believed that meticulousness, discipline, and the mask of a pious man would shield him from justice indefinitely. Yet an offender can deceive his neighbors, deceive his family, and even deceive the justice system for thirty years... but he can never deceive the narcissistic monster dwelling within himself. It was arrogance, the addiction to acclaim, and delusions of omnipotence that lured Dennis Rader into the snare of the purple floppy disk, turning his proud ego into the very key that locked away his freedom forever. Justice may arrive late, but through the perseverance of law enforcement and the rigor of forensic science, darkness must always yield to the light of truth.",
+  "sentences": [
+   {
+    "id": "5.08#1",
+    "text": "The file on Dennis Rader closes with a profound message regarding karmic retribution and the self-destructive nature of evil.",
+    "words": 19
+   },
+   {
+    "id": "5.08#2",
+    "text": "He once believed that meticulousness, discipline, and the mask of a pious man would shield him from justice indefinitely.",
+    "words": 19
+   },
+   {
+    "id": "5.08#3",
+    "text": "Yet an offender can deceive his neighbors, deceive his family, and even deceive the justice system for thirty years... but he can never deceive the narcissistic monster dwelling within himself.",
+    "words": 30
+   },
+   {
+    "id": "5.08#4",
+    "text": "It was arrogance, the addiction to acclaim, and delusions of omnipotence that lured Dennis Rader into the snare of the purple floppy disk, turning his proud ego into the very key that locked away his freedom forever.",
+    "words": 37
+   },
+   {
+    "id": "5.08#5",
+    "text": "Justice may arrive late, but through the perseverance of law enforcement and the rigor of forensic science, darkness must always yield to the light of truth.",
+    "words": 26
+   }
+  ]
+ },
+ {
+  "id": "5.09",
+  "act": 5,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
+ },
+ {
+  "id": "5.10",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "warm, expressive, closing the podcast episode",
+  "text": "Our sincere gratitude goes to our expert and investigator for accompanying our program. Thank you, our listeners, for tuning into every moment of today’s broadcast. Remain vigilant, nurture a compassionate spirit, and we look forward to meeting you in our next criminal psychology case file.",
+  "sentences": [
+   {
+    "id": "5.10#1",
+    "text": "Our sincere gratitude goes to our expert and investigator for accompanying our program.",
+    "words": 13
+   },
+   {
+    "id": "5.10#2",
+    "text": "Thank you, our listeners, for tuning into every moment of today’s broadcast.",
+    "words": 12
+   },
+   {
+    "id": "5.10#3",
+    "text": "Remain vigilant, nurture a compassionate spirit, and we look forward to meeting you in our next criminal psychology case file.",
+    "words": 20
+   }
+  ]
+ },
+ {
+  "id": "5.11",
+  "act": 5,
+  "kind": "SFX",
+  "desc": "The heavy snap of a paper dossier shutting, followed by the crisp mechanical clatter of a typewriter keystroke."
+ },
+ {
+  "id": "5.12",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "A deep cello sustain echoes softly for five seconds before gradually fading into complete silence."
+ }
+]

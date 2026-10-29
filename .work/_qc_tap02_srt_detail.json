@@ -1,0 +1,273 @@
+﻿{
+  "cue_count": 391,
+  "cues_without_timeline_parent": 0,
+  "orphan_sample": [],
+  "cue_start_vs_sentence_start": {
+    "min": 0.0,
+    "max": 20.818,
+    "abs_gt_0.1": 272,
+    "abs_gt_0.25": 272,
+    "median": 3.472
+  },
+  "mid_word_cue_splits": 113,
+  "mid_word_sample": [
+    {
+      "from_cue": "3",
+      "to_cue": "4",
+      "prev_end": "diễn ra trước sự chứng",
+      "next_start": "kiến của các quan chức"
+    },
+    {
+      "from_cue": "7",
+      "to_cue": "8",
+      "prev_end": "ấy từng lái chuyên cơ đưa",
+      "next_start": "đón Nữ hoàng Anh Elizabeth"
+    },
+    {
+      "from_cue": "9",
+      "to_cue": "10",
+      "prev_end": "biểu tượng của kỷ luật thép,",
+      "next_start": "một người chồng gương"
+    },
+    {
+      "from_cue": "12",
+      "to_cue": "13",
+      "prev_end": "gưỡng mộ ấy lớn đến mức nào,",
+      "next_start": "hãy hình dung cảm nhận của n"
+    },
+    {
+      "from_cue": "15",
+      "to_cue": "16",
+      "prev_end": "chỉ là một người chỉ huy,",
+      "next_start": "ông ấy là hình mẫu lý"
+    },
+    {
+      "from_cue": "17",
+      "to_cue": "18",
+      "prev_end": "đến từng nếp gấp quân phục,",
+      "next_start": "làm việc không biết mệt"
+    },
+    {
+      "from_cue": "19",
+      "to_cue": "20",
+      "prev_end": "Khi đứng trước mặt ông,",
+      "next_start": "bạn cảm nhận được một thứ uy"
+    },
+    {
+      "from_cue": "22",
+      "to_cue": "23",
+      "prev_end": "ằng người đàn ông khoác trên",
+      "next_start": "mình bộ quân phục đính đầy"
+    },
+    {
+      "from_cue": "23",
+      "to_cue": "24",
+      "prev_end": "huân chương danh dự ấy,",
+      "next_start": "vào những đêm khuya thanh vắ"
+    },
+    {
+      "from_cue": "24",
+      "to_cue": "25",
+      "prev_end": "khi rời khỏi căn cứ quân sự,",
+      "next_start": "lại biến mất vào bóng tối"
+    },
+    {
+      "from_cue": "31",
+      "to_cue": "32",
+      "prev_end": "m sau, khi cô không đến làm,",
+      "next_start": "cảnh sát tỉnh Ontario mở hồ "
+    },
+    {
+      "from_cue": "34",
+      "to_cue": "35",
+      "prev_end": "vào tối ngày 4 tháng 2,",
+      "next_start": "họ dựng một trạm kiểm soát l"
+    },
+    {
+      "from_cue": "35",
+      "to_cue": "36",
+      "prev_end": " con đường gần nhà nạn nhân,",
+      "next_start": "kéo dài suốt đêm."
+    },
+    {
+      "from_cue": "39",
+      "to_cue": "40",
+      "prev_end": "nền tuyết gần nhà nạn nhân,",
+      "next_start": "và họ cần tìm chiếc xe"
+    }
+  ],
+  "mid_word_line_breaks": 271,
+  "mid_line_sample": [
+    {
+      "cue": "2",
+      "line1_end": "cứ Không quân Trenton – căn cứ",
+      "line2_start": "không quân lớn nhất của quân đ"
+    },
+    {
+      "cue": "3",
+      "line1_end": "Một buổi lễ nhậm chức",
+      "line2_start": "diễn ra trước sự chứng"
+    },
+    {
+      "cue": "4",
+      "line1_end": "kiến của các quan chức",
+      "line2_start": "cấp cao trong quân đội."
+    },
+    {
+      "cue": "5",
+      "line1_end": "lên bục nhận quyền chỉ huy tối",
+      "line2_start": "cao là Đại tá David Russell Wi"
+    },
+    {
+      "cue": "6",
+      "line1_end": "g với bản lý lịch hoàn hảo đến",
+      "line2_start": "mức không thể tìm thấy một vết"
+    },
+    {
+      "cue": "7",
+      "line1_end": "[HOST] Người đàn ông 46 tuổi",
+      "line2_start": "ấy từng lái chuyên cơ đưa"
+    },
+    {
+      "cue": "9",
+      "line1_end": "Ông ta được biết đến như một",
+      "line2_start": "biểu tượng của kỷ luật thép,"
+    },
+    {
+      "cue": "10",
+      "line1_end": "một người chồng gương",
+      "line2_start": "mẫu có vợ là lãnh đạo tại"
+    },
+    {
+      "cue": "11",
+      "line1_end": "Quỹ Tim mạch và Đột quỵ",
+      "line2_start": "Canada ở thủ đô Ottawa.",
+      "note": "nghi vong tach tu"
+    },
+    {
+      "cue": "13",
+      "line1_end": "y hình dung cảm nhận của những",
+      "line2_start": "người từng phục vụ dưới quyền "
+    },
+    {
+      "cue": "14",
+      "line1_end": "[BINH SĨ] Trong mắt binh",
+      "line2_start": "sĩ tại căn cứ Trenton,"
+    },
+    {
+      "cue": "15",
+      "line1_end": "Đại tá Williams không",
+      "line2_start": "chỉ là một người chỉ huy,"
+    },
+    {
+      "cue": "16",
+      "line1_end": "ông ấy là hình mẫu lý",
+      "line2_start": "tưởng về sự hoàn hảo."
+    },
+    {
+      "cue": "17",
+      "line1_end": "Ông ấy điềm tĩnh, chuẩn mực",
+      "line2_start": "đến từng nếp gấp quân phục,"
+    }
+  ],
+  "cue_duration": {
+    "min": 0.63,
+    "max": 6.0,
+    "mean": 3.68,
+    "n_over_7s": 0,
+    "n_over_10s": 0
+  },
+  "lines_per_cue": {
+    "1": 95,
+    "2": 296
+  },
+  "line_char_len": {
+    "min": 8,
+    "max": 44,
+    "mean": 30.2,
+    "n_over_45": 0,
+    "n_lines": 687
+  },
+  "cues_with_role_tag": 36,
+  "role_tag_examples": [
+    "[HOST] Tháng 7 năm 2009.",
+    "[HOST] Người đàn ông 46 tuổi ấy từng lái",
+    "[BINH SĨ] Trong mắt binh sĩ tại căn cứ T",
+    "[HOST] Thế nhưng... có ai ngờ rằng người",
+    "[HOST] Đêm 28 tháng 1 năm 2010.",
+    "[HOST] Cảnh sát không tìm ra manh mối nà"
+  ],
+  "gaps_over_1s": 26,
+  "biggest_gaps": [
+    {
+      "gap": 2.63,
+      "between": [
+        "338",
+        "339"
+      ]
+    },
+    {
+      "gap": 2.6,
+      "between": [
+        "226",
+        "227"
+      ]
+    },
+    {
+      "gap": 2.6,
+      "between": [
+        "140",
+        "141"
+      ]
+    },
+    {
+      "gap": 2.4,
+      "between": [
+        "312",
+        "313"
+      ]
+    },
+    {
+      "gap": 2.3,
+      "between": [
+        "385",
+        "386"
+      ]
+    },
+    {
+      "gap": 2.3,
+      "between": [
+        "236",
+        "237"
+      ]
+    },
+    {
+      "gap": 2.1,
+      "between": [
+        "174",
+        "175"
+      ]
+    },
+    {
+      "gap": 2.0,
+      "between": [
+        "76",
+        "77"
+      ]
+    },
+    {
+      "gap": 2.0,
+      "between": [
+        "368",
+        "369"
+      ]
+    },
+    {
+      "gap": 2.0,
+      "between": [
+        "340",
+        "341"
+      ]
+    }
+  ]
+}

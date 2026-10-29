@@ -1,0 +1,48 @@
+# ============================================================
+# AMBER EYES — .gitignore
+# Quy tắc: KHÔNG commit media (âm thanh + video) và artifact dựng.
+# Media/artifact được tái tạo: dựng lại từ kịch bản + .work/,
+# hoặc tải lại từ nguồn (xem provenance.json).
+# ============================================================
+
+# ---------- Media: âm thanh ----------
+*.mp3
+*.wav
+*.ogg
+*.m4a
+*.flac
+*.aac
+*.wma
+*.aiff
+*.aif
+
+# ---------- Media: video ----------
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.avi
+
+# ---------- Kho ảnh nền (9,2 GB) — tái tạo: .work/gen_images.py ----------
+assets/bg/
+
+# ---------- Scratchpad .work: chỉ giữ script + config, bỏ artifact ----------
+.work/*
+!.work/*.py
+!.work/*.json
+!.work/*.md
+!.work/*.txt
+!.work/tap03_review/
+
+# ---------- Artifact dựng, binary, cache ----------
+*.tmp
+*.bak
+*.bak_*
+*.zip
+*.dll
+*.exe
+*.lib
+*.a
+*.h
+*.pyc
+__pycache__/

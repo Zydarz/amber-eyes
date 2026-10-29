@@ -1,0 +1,202 @@
+﻿================================================================================================
+A) PARITY KỊCH BẢN VN vs EN — Tap03..Tap29
+================================================================================================
+Tập     VN SFX  EN SFX  VN BGM  EN BGM  trạng thái
+3            6       6       7       7  khớp
+4           12      12       7       7  khớp
+5           10      10       7       7  khớp
+6            7       7       8       8  khớp
+7            6       6       9       9  khớp
+8            5       5       9       9  khớp
+9            5       5       9       9  khớp
+10           6       6       9       9  khớp
+11           4       4       9       9  khớp
+12          10      10       9       9  khớp
+13           9       9       9       9  khớp
+14           9       9       9       9  khớp
+15           9       9      10      10  khớp
+16           9       9      10      10  khớp
+17           9       9      10      10  khớp
+18           9       9      10      10  khớp
+19           9       9      10      10  khớp
+20           9       9      10      10  khớp
+21           9       9      10      10  khớp
+22           9       9      10      10  khớp
+23           9       9      10      10  khớp
+24           9       9      10      10  khớp
+25           9       9      10      10  khớp
+26           9       9      10      10  khớp
+27           9       9      10      10  khớp
+28           9       9      10      10  khớp
+29           6       6       5       5  khớp
+
+Tập lệch: không có — bản EN dùng CHUNG bảng SFX với bản VN
+
+================================================================================================
+B) ÂM THANH NẰM TRONG CUE [BGM] VÀ [Nghỉ] — kiểm tra có file đáp ứng
+================================================================================================
+
+--- Tập 03 ---
+   file đã gán: card_flip.wav, folder_close.wav, t2/fx_door_metal_slam.wav, t3/fx_cassette_button.wav, t3/fx_coin_shuffle.wav, t3/fx_paper_crunch.wav
+   [BGM] Tiếng gió rít lùa qua khe cửa sắt lạnh ngắt giữa đêm vắng. Tiếng rè kim loại cổ điển của đường dây điện thoại đường dài những năm 1970.
+   [BGM] Tiếng mưa rơi rả rích trên mui xe hơi, tiếng cần gạt nước kính chắn gió kêu kẽo kẹt đều đặn trên nền nhạc Ambient u tối.
+   [NGHI] Nhạc nền dừng lại, chỉ còn tiếng bước chân vang vọng trong hành lang nhà tù
+   [NGHI] Nhạc nền Piano dâng lên nhẹ nhàng, ấm áp
+
+--- Tập 04 ---
+   file đã gán: amb_fastfood_cafeteria.wav, amb_hospital_ventilator.wav, folder_close.wav, footsteps.wav, fx_ambulance_siren_distant.wav, fx_card_swipe.wav, fx_defib_charge_shock.wav, fx_hospital_door_open.wav, fx_monitor_case_close.wav, fx_spoon_clink.wav, fx_stamp_wood.wav, fx_stretcher_wheels.wav, paper_rustle.wav, t2/fx_door_metal_slam.wav, t2/fx_paper_folder.wav, t3/fx_cassette_button.wav
+   [BGM] Tiếng máy thở cơ học rít nhẹ đều đặn trong phòng hồi sức cấp cứu, hòa lẫn tiếng bíp chậm rãi của máy theo dõi sinh hiệu. Giai điệu Cello u tối dần dân
+   [NGHI] Nhạc nền dừng đột ngột, chỉ còn tiếng giọt nước nhỏ chậm rãi
+   [NGHI] Nhạc dừng, chuyển sang tiếng bước chân nặng nề trong phòng giam
+   [NGHI] Nhạc nền Piano dâng lên nhẹ nhàng, ấm áp
+
+--- Tập 05 ---
+   file đã gán: amb_server_fan.wav, card_flip.wav, folder_close.wav, fx_car_brake_screech.wav, fx_envelope_tear.wav, fx_floppy_disk_insert.wav, fx_sigh_female.wav, paper_rustle.wav, police_siren_distant.wav, stamp_thud.wav, t2/fx_door_metal_slam.wav, t2/fx_drawer_open.wav, t3/fx_cassette_button.wav, typewriter.wav
+   [BGM] Tiếng máy đánh chữ cơ học lách cách gõ từng nhịp chậm rãi giữa đêm khuya. Tiếng gió đông rít từng hồi lạnh lẽo trên nền nhạc Ambient u tối.
+   [BGM] Tiếng nhịp tim đập chậm và tiếng rè rè của cuộn băng từ phát lại bản ghi âm điện thoại khẩn cấp.
+   [BGM] Tiếng đàn Cello rải những nốt trầm u tối, hòa cùng âm thanh Sub-bass nghẹt thở, tạo không gian của một cuộc giải phẫu tâm thần học chuyên sâu.
+   [BGM] Nhạc Synth Minimalist dồn dập, tiếng gõ phím vi tính và âm thanh quạt tản nhiệt máy chủ kêu vo ve trong phòng kỹ thuật số.
+   [NGHI] Nhạc nền dừng đột ngột, chỉ còn tiếng tích tắc khô khốc của đồng hồ
+   [NGHI] Nhạc nền dừng đột ngột
+   [NGHI] Nhạc nền Piano dâng lên nhẹ nhàng, ấm áp
+
+--- Tập 06 ---
+   file đã gán: amb_crowd_applause_distant.wav, door_creak.wav, footsteps.wav, fx_hatch_lid_open.wav, fx_shovel_dirt.wav, gavel.wav, paper_rustle.wav, t2/fx_camera_shutter.wav, t2/fx_footsteps_snow.wav, t2/fx_phone_ring.wav
+   [BGM] *Nhạc nền chuyển sang không gian Sub-drone trầm đục, u tối và nặng nề đến nghẹt thở.*
+   [NGHI] tiếng cello u uất trỗi dậy
+   [NGHI] tiếng còi xe cảnh sát xa xăm
+   [NGHI] tiếng thở dài trầm lặng
+
+--- Tập 07 ---
+   file đã gán: footsteps.wav, fx_car_window_knock.wav, fx_phone_typing_swipe.wav, fx_phone_vibrate.wav, fx_printer_thermal.wav, fx_stamp_wood.wav, fx_zipper_bag.wav, gavel.wav, notif_ping.wav, police_siren_distant.wav
+   [NGHI] tiếng thở dài buốt giá giữa đêm
+
+--- Tập 08 ---
+   file đã gán: amb_megaphone_loudspeaker.wav, amb_subway_station_jp.wav, footsteps.wav, fx_ambulance_siren_close.wav, fx_liquid_pour_splat.wav, fx_train_door_slam.wav, fx_umbrella_puncture_nylon.wav, gavel.wav, police_siren_distant.wav
+   [NGHI] tiếng còi báo động xa xăm
+
+--- Tập 09 ---
+   file đã gán: amb_crowd_murmur_press.wav, amb_female_humming_far.wav, amb_horse_hooves_distant.wav, amb_ocean_waves_soft.wav, amb_wind_pines.wav, chains.wav, door_creak.wav, fx_footsteps_gravel_stealth.wav, fx_rifle_shell_load.wav, police_siren_distant.wav, t2/fx_camera_shutter.wav
+   [BGM] *Giai điệu Dark Ambient căng thẳng, nhịp bass dồn dập kết hợp tiếng gió sa mạc khô khốc.*
+   [NGHI] tiếng guitar bass rền rĩ u uất
+
+--- Tập 10 ---
+   file đã gán: amb_car_engine_idle.wav, amb_highway_speed_car.wav, fx_car_tire_screech_stop.wav, fx_doorbell_chime.wav, fx_gravel_car_drive.wav, fx_latch_unlock.wav, fx_wooden_lid_slam_latch.wav, paper_rustle.wav, police_siren_distant.wav
+   [BGM] *Tiếng đàn Cello u buồn cất lên chậm rãi giữa không gian tĩnh lặng, hòa cùng tiếng gió rít hiu hắt trên xa lộ hoang vắng.*
+   [BGM] *Một nốt cello trầm đục ngân dài rồi chìm vào khoảng không im lặng đến nghẹt thở.*
+   [BGM] *Âm thanh Dark Ambient lạnh lẽo, tiếng kim đồng hồ tích tắc chậm rãi như đếm từng giây vô vọng.*
+   [NGHI] tiếng drone u uất kéo dài
+
+--- Tập 11 ---
+   file đã gán: amb_party_crowd_outdoor.wav, amb_projector_room.wav, fx_ambulance_siren_close.wav, fx_glasses_clink.wav, fx_objects_smash_break.wav, fx_table_slap_anger.wav, paper_rustle.wav, police_siren_distant.wav
+   [BGM] *Tiếng đàn Cello u buồn cất lên chậm rãi giữa không gian tĩnh lặng, hòa cùng tiếng gió rít hiu hắt bên bờ hồ Ontario.*
+   [BGM] *Một nốt cello trầm đục ngân dài rồi chìm vào khoảng không im lặng đến nghẹt thở.*
+   [BGM] *Âm thanh Dark Ambient lạnh lẽo, tiếng kim đồng hồ tích tắc chậm rãi như đếm từng giây vô vọng.*
+   [NGHI] tiếng drone u uất kéo dài
+
+--- Tập 12 ---
+   file đã gán: amb_alarm_siren_distant.wav, amb_ceiling_fan.wav, amb_crowd_arguing_indoor.wav, amb_crowd_singing_acoustic.wav, amb_helicopter_far.wav, amb_loudspeaker_jungle_echo.wav, amb_small_plane_engine.wav, amb_tractor_engine.wav, amb_wind_tropical.wav, footsteps.wav, fx_breathing_tense_close.wav, fx_gunshots_rifle_shotgun.wav, paper_rustle.wav, t3/fx_cassette_button.wav, t3/fx_cassette_motor.wav
+   [BGM] *Tiếng đàn Cello u buồn cất lên chậm rãi giữa không gian tĩnh lặng, hòa cùng tiếng gió rít hiu hắt và âm thanh côn trùng nhiệt đới ngột ngạt.*
+   [BGM] *Một nốt cello trầm đục ngân dài rồi chìm vào khoảng không im lặng đến nghẹt thở.*
+   [BGM] *Âm thanh Dark Ambient lạnh lẽo, tiếng kim đồng hồ tích tắc chậm rãi như đếm từng giây vô vọng giữa đêm rừng.*
+   [BGM] *Âm thanh vĩ cầm dồn dập, giằng xé, tái hiện không khí nghẹt thở và cuộc đấu trí đạo đức trong buổi chiều định mệnh.*
+   [NGHI] tiếng drone u uất kéo dài
+
+--- Tập 13 ---
+   file đã gán: amb_bus_distant.wav, amb_hospital_monitor_heartbeat.wav, amb_library_quiet.wav, bgm_piano_minimal_v2.mp3, fx_crying_female_phone.wav, fx_footsteps_wood_heavy.wav, fx_gunshots_pistol_inside.wav, fx_inkjet_printer_run.wav, fx_keyboard_typing_soft.wav, fx_metal_door_push_open.wav, fx_oxygen_breathing.wav, fx_phone_vibrate.wav, fx_sandpaper_scrape_eraser.wav, fx_scream_distant.wav, lock_door.wav, stamp_thud.wav, t3/fx_twisting_dial.wav
+   [BGM] *Tiếng đàn Cello cất lên trầm buồn, cô độc giữa không gian tĩnh lặng, hòa cùng tiếng tích tắc đều đặn của chiếc đồng hồ treo tường.*
+   [BGM] *Một nốt cello trầm đục ngân dài rồi chìm vào khoảng không im lặng đến nghẹt thở.*
+   [BGM] *Âm thanh Dark Ambient lạnh lẽo, tiếng kim đồng hồ đếm từng giây vô vọng giữa đêm đông buốt giá.*
+   [NGHI] tiếng drone u uất kéo dài
+
+--- Tập 14 ---
+   file đã gán: amb_crowd_murmur_courtroom.wav, amb_helicopter_far.wav, amb_party_crowd_outdoor.wav, clock_tick.wav, fx_baby_crying_night.wav, fx_footsteps_barefoot_stairs.wav, fx_glass_smash_vehicle_crash.wav, fx_glasses_clink.wav, fx_gunshots_revolver_5.wav, fx_key_in_lock.wav, fx_landline_ring_office.wav, fx_phone_hangup_click.wav, fx_sewing_machine.wav, fx_shell_casing_drop.wav, fx_vehicle_impact_metal.wav, gavel.wav, paper_rustle.wav, police_siren_distant.wav
+   [BGM] *Tiếng đàn Cello cất lên trầm buồn, giằng xé giữa không gian tĩnh lặng, hòa cùng tiếng sóng biển vỗ rì rào xa xa bên bờ biển La Jolla.*
+   [BGM] *Một nốt cello trầm đục ngân dài rồi chìm vào khoảng không im lặng đến nghẹt thở.*
+   [BGM] *Âm thanh vĩ cầm dồn dập, giằng xé, tái hiện không khí căng thẳng nghẹt thở trong rạng sáng định mệnh.*
+   [NGHI] tiếng drone u uất kéo dài
+
+--- Tập 15 ---
+   file đã gán: amb_crowd_murmur_courtroom.wav, amb_tv_camera_operator.wav, fx_computer_beep_restore.wav, fx_crime_scene_tape_pull.wav, fx_evidence_room_door.wav, fx_footsteps_shoes_scuff.wav, fx_knock_table.wav, fx_mechanical_keyboard.wav, fx_mic_hum_feedback.wav, fx_mouse_click_rapid.wav, fx_phone_ring_landline_night.wav, fx_printer_thermal.wav, keyboard_night.wav, paper_rustle.wav, police_siren_distant.wav, radio_chatter.wav, t2/fx_camera_shutter.wav
+   [BGM] *Nhạc Dark Ambient trầm buồn, ngột ngạt vang lên giữa không gian tĩnh mịch, hòa cùng tiếng nước nhỏ giọt đều đặn và tiếng gió rít qua khe cửa sổ.*
+
+--- Tập 16 ---
+   file đã gán: amb_train_horn_distant_night.wav, footsteps.wav, fx_breathing_focused_artist.wav, fx_chisel_hammer_clay.wav, fx_cup_shatter_tea.wav, fx_door_kick_boot.wav, fx_footsteps_dusty_wood_slow.wav, fx_metal_lock_open.wav, fx_phone_ring_landline_night.wav, fx_school_bell_dismissal.wav, fx_scissors_cut_paper.wav, fx_window_pry_break.wav, paper_rustle.wav, police_siren_distant.wav, t2/fx_footsteps_snow.wav, typewriter.wav
+   [BGM] *Nhạc Organ nhà thờ trầm buồn, u tối vang lên giữa không gian tĩnh mịch, hòa cùng tiếng gió rít qua khe cửa sổ của tòa biệt thự cổ.*
+   [BGM] *Một nốt organ trầm đục ngân dài rồi ngắt quãng, tạo khoảng lặng nghẹt thở trước khi bước sang Hồi 2.*
+
+--- Tập 17 ---
+   file đã gán: amb_carnival_ride_music_far.wav, amb_crowd_murmur_courtroom.wav, chains.wav, door_knock.wav, footsteps.wav, fx_911_call_recording_radio.wav, fx_breathing_tense_close.wav, fx_candy_wrapper_open.wav, fx_fridge_door_open.wav, fx_mic_hum_feedback.wav, fx_sigh_emotional.wav, keyboard_night.wav, lock_door.wav, paper_rustle.wav, t2/fx_camera_shutter.wav, t2/fx_gavel_triple.wav, t3/fx_twisting_dial.wav
+   [BGM] *Nhạc Dark Ambient ngột ngạt, tiếng gió rít rợn người giữa đêm lạnh, hòa cùng tiếng thở gấp gáp trong bóng tối.*
+   [BGM] *Một nốt cello trầm đục ngân dài rồi ngắt quãng, tạo khoảng lặng nghẹt thở trước khi bước sang Hồi 2.*
+
+--- Tập 18 ---
+   file đã gán: amb_crowd_angry_jeers.wav, amb_ocean_waves_soft.wav, door_knock.wav, fx_dog_bark_working.wav, fx_evidence_cabinet_open.wav, fx_handcuff_snap.wav, fx_inkjet_printer_run.wav, fx_lab_test_kit.wav, fx_mic_hum_feedback.wav, fx_phone_ring_landline_night.wav, fx_shovel_pick_dirt_stone.wav, fx_sigh_emotional.wav, gavel.wav, paper_rustle.wav, radio_chatter.wav, t2/fx_gavel_triple.wav
+   [BGM] *Nhạc Dark Ambient u ám, tiếng gió biển Hawaii kết hợp tiếng chuông gió lạnh lẽo, tạo không khí ngột ngạt và bí ẩn.*
+   [BGM] *Một nốt nhạc trầm đục ngân dài rồi ngắt quãng, tạo khoảng lặng nghẹt thở trước khi bước sang Hồi 2.*
+
+--- Tập 19 ---
+   file đã gán: amb_crowd_murmur_courtroom.wav, amb_panic_crowd_schoolyard.wav, fx_ambulance_siren_distant.wav, fx_bread_bag_open.wav, fx_breathing_tense_close.wav, fx_crowd_relief_sigh.wav, fx_door_slam_indoor.wav, fx_handcuffs_chain_on_metal_table.wav, fx_mic_hum_feedback.wav, fx_phone_unlock_click.wav, fx_sigh_emotional.wav, fx_video_playback_static.wav, gavel.wav, keyboard_night.wav, paper_rustle.wav, pen_strike.wav, t2/fx_gavel_triple.wav
+   [BGM] *Tiếng Drone âm u, tiếng kim đồng hồ tích tắc nặng nề tạo không khí căng thẳng, ngột ngạt bên trong phòng thẩm vấn kín.*
+   [BGM] *Một nốt trầm đục ngân dài rồi ngắt quãng, tạo khoảng lặng nghẹt thở trước khi bước sang Hồi 2.*
+   [BGM] *Âm thanh Dark Ambient nhịp đập điện tử dồn dập, tiếng tích tắc đồng hồ lạnh lẽo và sắc lạnh.*
+
+--- Tập 20 ---
+   file đã gán: amb_camera_crew_press.wav, amb_ceiling_fan.wav, amb_crowd_angry_whisper.wav, amb_crowd_murmur_press.wav, fx_breathing_tense_close.wav, fx_keys_drop_on_table.wav, fx_lav_mic_breathing.wav, fx_mic_hum_feedback.wav, fx_pen_signing_scroll.wav, fx_saw_blade_packaging.wav, gavel.wav, paper_rustle.wav, police_siren_distant.wav, radio_chatter.wav, t2/fx_drawer_open.wav, t2/fx_gavel_triple.wav
+   [BGM] *Tiếng Dark Ambient âm u, tiếng nhịp tim đập chậm và tiếng tích tắc đồng hồ kim loại ngột ngạt.*
+   [BGM] *Một nốt Drone trầm sâu ngân dài rồi ngắt quãng, tạo khoảng lặng nghẹt thở trước khi bước sang Hồi 2.*
+   [BGM] *Âm thanh Minimalist Ambient lạnh lẽo, tiếng kim đồng hồ điện tử khô khốc và đều đặn.*
+
+--- Tập 21 ---
+   file đã gán: amb_car_start_leave_garage.wav, amb_crowd_murmur_press.wav, amb_hospital_monitor_heartbeat.wav, amb_lawyers_discussion.wav, clock_tick.wav, footsteps.wav, fx_car_door_close.wav, fx_crowd_relief_sigh.wav, fx_mic_hum_feedback.wav, fx_notebook_open_pages.wav, fx_sigh_emotional.wav, gavel.wav, keyboard_night.wav, paper_rustle.wav, police_siren_distant.wav, t2/fx_camera_shutter.wav, t2/fx_gavel_triple.wav
+   [BGM] *Tiếng Cello u buồn, tiếng nhịp tim trầm đục hòa cùng tiếng mưa rơi rả rích tạo không khí tang thương và nặng trĩu tâm tư.*
+   [BGM] *Một nốt cello ngân dài lắng xuống, mở ra khoảng lặng nghẹt thở trước khi bước sang Hồi 2.*
+   [BGM] *Giai điệu piano chuyển dần sang âm sắc violin căng thẳng, chuẩn bị cho không khí phòng xử án nghẹt thở.*
+
+--- Tập 22 ---
+   file đã gán: amb_car_engine_idle.wav, amb_crowd_murmur_courtroom.wav, amb_crowd_murmur_press.wav, amb_tv_camera_operator.wav, footsteps.wav, fx_breathing_tense_close.wav, fx_car_door_close.wav, fx_car_tire_screech_stop.wav, fx_courtroom_dead_silence.wav, fx_mic_hum_feedback.wav, fx_mouse_click_rapid.wav, fx_police_tape_flutter.wav, fx_video_playback_static.wav, gavel.wav, keyboard_night.wav, paper_rustle.wav, t2/fx_chair_scrape.wav, t2/fx_gavel_triple.wav
+   [BGM] *Một nốt nhạc trầm đục ngân dài rồi ngắt quãng, tạo khoảng lặng nghẹt thở trước khi bước sang Hồi 2.*
+   [BGM] *Âm thanh Electronic Pulse nhịp đập dồn dập, tiếng tích tắc đồng hồ lạnh lẽo và sắc lạnh.*
+
+--- Tập 23 ---
+   file đã gán: amb_crowd_cheer_outdoor.wav, amb_crowd_excited_girls.wav, amb_hospital_monitor_heartbeat.wav, footsteps.wav, fx_ambulance_siren_close.wav, fx_breathing_tired.wav, fx_envelope_tear.wav, fx_footsteps_stealth_wood.wav, fx_handcuff_snap.wav, fx_pen_signing_scroll.wav, fx_printer_thermal.wav, fx_sigh_emotional.wav, fx_window_pry_break.wav, gavel.wav, lock_door.wav, paper_rustle.wav, police_siren_distant.wav, t2/fx_camera_shutter.wav
+   [BGM] *Tiếng Dark Ambient dồn dập, tiếng kim đồng hồ tích tắc nặng nề hòa cùng tiếng còi xe cảnh sát rền rĩ trong đêm hè oi ả.*
+   [BGM] *Một nốt trầm đục ngân dài rồi ngắt quãng, tạo khoảng lặng nghẹt thở trước khi bước sang Hồi 2.*
+   [BGM] *Tiếng Violin trầm buồn, tiếng bước chân đơn độc trong hành lang trại giam lạnh lẽo.*
+
+--- Tập 24 ---
+   file đã gán: amb_crowd_applause_court.wav, amb_lab_equipment.wav, clock_tick.wav, footsteps.wav, fx_crowd_relief_sigh.wav, fx_footsteps_run_gravel.wav, fx_pen_cap_open.wav, fx_sigh_emotional.wav, fx_tea_pour_cup.wav, keyboard_night.wav, paper_rustle.wav, police_siren_distant.wav, t2/fx_camera_shutter.wav, t2/fx_chair_scrape.wav, t2/fx_cup_down.wav, t2/fx_door_metal_slam.wav, t2/fx_gavel_triple.wav
+   [BGM] *Tiếng đàn Cello u uất, tiếng gió thổi rít qua cánh đồng hoang vắng kết hợp tiếng mưa rơi rả rích tạo không khí tang thương và ngột ngạt.*
+   [BGM] *Một nốt trầm đục ngân dài rồi ngắt quãng, tạo khoảng lặng nghẹt thở trước khi bước sang Hồi 2.*
+   [BGM] *Âm thanh Minimalist Ambient lạnh lẽo, tiếng bước chân vang vọng trong hành lang nhà tù bằng bê tông kiên cố.*
+
+--- Tập 25 ---
+   file đã gán: amb_crowd_angry_jeers.wav, fx_glass_smash_vehicle_crash.wav, fx_handcuff_snap.wav, fx_handcuffs_struggle_chain.wav, fx_landline_ring_office.wav, fx_mic_hum_feedback.wav, fx_shovel_pick_dirt_stone.wav, fx_sledgehammer_impact_concrete.wav, fx_sobbing_crowd_row.wav, gavel.wav, paper_rustle.wav, police_siren_distant.wav, t2/fx_camera_shutter.wav, t2/fx_door_metal_slam.wav, t3/amb_rain_storm.wav
+   [BGM] *Tiếng đàn Cello trầm u uất, kết hợp tiếng gió rít và âm thanh mưa rơi dồn dập trong đêm tối, tạo không khí ngột ngạt và căng thẳng.*
+   [BGM] *Một nốt nhạc trầm đục ngân dài rồi ngắt quãng, tạo khoảng lặng nghẹt thở trước khi bước sang Hồi 2.*
+   [BGM] *Âm thanh Heavy Bass dồn dập, tiếng còi hú báo động kết hợp tiếng bước chân chạy gấp gáp trên nền bê tông.*
+
+--- Tập 26 ---
+   file đã gán: amb_car_engine_idle.wav, amb_crowd_murmur_courtroom.wav, amb_crowd_outside_press_anger.wav, amb_winter_wind_hollow.wav, amb_wooden_cart_stone_road.wav, footsteps.wav, fx_counting_cash.wav, fx_knock_table.wav, fx_mic_hum_feedback.wav, fx_sobbing_crowd_row.wav, fx_stamp_wood.wav, gavel.wav, paper_rustle.wav, t2/fx_camera_shutter.wav, t2/fx_door_metal_slam.wav
+   [BGM] *Tiếng đàn Cello trầm u uất, kết hợp tiếng gió rít qua những khu phố đổ nát sau chiến tranh và tiếng mưa tuyết rơi lạnh lẽo.*
+   [BGM] *Một nốt trầm đục ngân dài rồi ngắt quãng, tạo khoảng lặng nghẹt thở trước khi bước sang Hồi 2.*
+   [BGM] *Âm thanh Deep Ambient u tối, tiếng máy đánh chữ lọc cọc kết hợp tiếng bước chân trong hành lang ẩm mốc.*
+
+--- Tập 27 ---
+   file đã gán: amb_crowd_mourning_outdoor.wav, footsteps.wav, fx_door_kick_boot.wav, fx_evidence_measure_tape.wav, fx_key_in_lock.wav, fx_mic_hum_feedback.wav, fx_modem_dialup_data.wav, fx_motorbike_stop_engine.wav, fx_sigh_emotional.wav, fx_sobbing_crowd_row.wav, gavel.wav, paper_rustle.wav, police_siren_distant.wav, stamp_thud.wav, t2/fx_camera_shutter.wav, t2/fx_door_metal_slam.wav
+   [BGM] *Tiếng đàn Cello trầm u uất, kết hợp tiếng gió rít qua cánh rừng cao su bạt ngàn và tiếng mưa rả rích đầu mùa tại vùng đất Bình Phước.*
+   [BGM] *Một nốt trầm đục ngân dài rồi ngắt quãng, tạo khoảng lặng nghẹt thở trước khi bước sang Hồi 2.*
+   [BGM] *Âm thanh Heavy Bass dồn dập, tiếng gõ bàn phím máy tính phân tích dữ liệu viễn thông kết hợp tiếng bước chân trinh sát.*
+
+--- Tập 28 ---
+   file đã gán: amb_crowd_murmur_courtroom.wav, amb_crowd_murmur_hall_1000.wav, amb_crowd_murmur_press.wav, amb_wind_mountain_pass.wav, fx_ambulance_siren_close.wav, fx_crying_family_representative.wav, fx_evidence_measure_tape.wav, fx_footsteps_chase_forest.wav, fx_footsteps_run_wet_pavement.wav, fx_handcuff_snap.wav, fx_metal_barrier_drop.wav, fx_mic_hum_feedback.wav, fx_roller_shutter_slam.wav, gavel.wav, paper_rustle.wav, radio_chatter.wav, t2/fx_camera_shutter.wav
+   [BGM] *Tiếng đàn Cello trầm u uất, kết hợp tiếng sấm rền từ xa, tiếng gió bão rít qua những mái nhà tôn và tiếng mưa như trút nước giữa đêm tối.*
+   [BGM] *Một nốt trầm đục ngân dài rồi ngắt quãng, tạo khoảng lặng nghẹt thở trước khi bước sang Hồi 2.*
+   [BGM] *Âm thanh Heavy Bass dồn dập, tiếng động cơ xe tuần tra gầm rú kết hợp tiếng bước chân hành quân gấp gáp trong rừng sâu.*
+
+--- Tập 29 ---
+   file đã gán: amb_tv_static_eerie.wav, chains.wav, door_knock.wav, fx_footsteps_run_wet_pavement.wav, fx_lighter_flick_flame.wav, fx_lock_turning_dry.wav, fx_mic_hum_feedback.wav, fx_pour_hot_water_paper_cup.wav, fx_wooden_hinge_creak_open.wav, paper_rustle.wav, t2/fx_gavel_triple.wav
+   [BGM] *Tiếng đàn Cello trầm u uất, kết hợp tiếng bass điện tử âm ỉ, tiếng mưa đêm rả rích và tiếng còi tuần tra xa xăm của cảnh sát.*
+   [BGM] *Tiếng đàn Cello trầm u tối, hòa cùng tiếng gõ nhịp kim loại lạnh lẽo và tiếng quạt thông gió trong phòng hỏi cung.*
+
+Tổng cue BGM/NGHI có âm thanh cụ thể cần đối chiếu: 82

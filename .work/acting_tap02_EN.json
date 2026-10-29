@@ -1,0 +1,1297 @@
+{
+ "_doc": "Diễn xuất từng câu cho TTS bản EN Tập 02. id: [cảm xúc, lệch tốc độ so với tốc độ gốc của vai, cao độ (luôn 0), lời đọc riêng hoặc null]. Lời đọc riêng dựng lại từ câu gốc EN, chỉ thêm một thẻ <#0.35#> sau dấu ':' đứng trước câu trích. Mọi câu còn lại dùng quy tắc ngắt nghỉ tự động của tts_sentences.py. Chữ trên màn hình và phụ đề không đổi. — xem make_acting_tap02_en.py",
+ "_pause_after": {
+  "1.03#1": 0.3,
+  "1.03#4": 0.2,
+  "1.07#4": 0.4,
+  "1.10#1": 0.2,
+  "1.10#2": 0.5,
+  "1.12#1": 0.2,
+  "1.12#4": 0.6,
+  "1.14#3": 0.8,
+  "1.14#7": 0.4,
+  "1.17#3": 0.3,
+  "1.17#4": 0.4,
+  "1.17#7": 0.8,
+  "2.02#2": 0.4,
+  "2.04#1": 0.2,
+  "2.05#2": 0.2,
+  "2.05#4": 0.2,
+  "2.05#10": 0.3,
+  "2.05#11": 0.2,
+  "2.05#14": 0.6,
+  "2.05#16": 0.4,
+  "2.08#7": 0.4,
+  "3.04#1": 0.2,
+  "3.05#4": 0.2,
+  "3.05#11": 0.6,
+  "3.08#1": 0.2,
+  "3.08#6": 0.3,
+  "3.08#8": 0.3,
+  "3.08#10": 0.8,
+  "3.11#5": 0.5,
+  "3.11#10": 0.2,
+  "3.11#11": 0.6,
+  "4.03#1": 0.2,
+  "4.03#2": 0.3,
+  "4.03#6": 0.3,
+  "4.06#3": 0.2,
+  "4.06#4": 0.4,
+  "4.08#4": 0.2,
+  "4.08#5": 0.3,
+  "4.08#7": 0.5,
+  "4.08#9": 0.6,
+  "4.10#1": 0.3,
+  "4.10#3": 0.8,
+  "4.10#4": 0.2,
+  "4.10#6": 0.5,
+  "4.10#7": 0.8,
+  "4.10#8": 1.2,
+  "4.10#9": 0.4,
+  "4.11#1": 0.2,
+  "4.11#3": 0.3,
+  "4.11#4": 0.3,
+  "4.11#5": 0.2,
+  "4.11#7": 0.4,
+  "4.11#8": 0.2,
+  "4.11#9": 0.4,
+  "4.12#1": 0.5,
+  "4.12#2": 0.3,
+  "4.12#3": 0.4,
+  "4.12#4": 0.3,
+  "4.12#5": 0.4,
+  "4.12#6": 0.6,
+  "5.02#1": 0.2,
+  "5.02#3": 0.2,
+  "5.02#5": 0.3,
+  "5.04#1": 0.2,
+  "5.04#3": 0.3,
+  "5.04#5": 0.3,
+  "5.04#8": 0.6,
+  "5.08#2": 0.2,
+  "5.08#3": 0.4,
+  "5.10#1": 0.2,
+  "5.10#5": 0.4,
+  "5.10#9": 0.4,
+  "5.10#10": 0.2,
+  "5.10#11": 0.8
+ },
+ "1.03#1": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "1.03#2": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "1.03#3": [
+  "neutral",
+  -0.05,
+  0,
+  null
+ ],
+ "1.03#4": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "1.05#1": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "1.05#2": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "1.05#3": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "1.07#1": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "1.07#2": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "1.07#3": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "1.07#4": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "1.08#1": [
+  "fearful",
+  -0.06,
+  0,
+  null
+ ],
+ "1.08#2": [
+  "fearful",
+  -0.06,
+  0,
+  null
+ ],
+ "1.08#3": [
+  "fearful",
+  -0.06,
+  0,
+  null
+ ],
+ "1.10#1": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "1.10#2": [
+  "sad",
+  -0.05,
+  0,
+  null
+ ],
+ "1.10#3": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "1.12#1": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "1.12#2": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "1.12#3": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "1.12#4": [
+  "fearful",
+  0.0,
+  0,
+  null
+ ],
+ "1.14#1": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "1.14#2": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "1.14#3": [
+  "surprised",
+  -0.06,
+  0,
+  null
+ ],
+ "1.14#4": [
+  "fearful",
+  -0.04,
+  0,
+  null
+ ],
+ "1.14#5": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "1.14#6": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "1.14#7": [
+  "sad",
+  -0.06,
+  0,
+  null
+ ],
+ "1.14#8": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "1.17#1": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "1.17#2": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "1.17#3": [
+  "surprised",
+  -0.04,
+  0,
+  null
+ ],
+ "1.17#4": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "1.17#5": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "1.17#6": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "1.17#7": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "1.18#1": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "1.18#2": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "1.18#3": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "2.02#1": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "2.02#2": [
+  "fearful",
+  -0.04,
+  0,
+  null
+ ],
+ "2.04#1": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "2.04#2": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "2.04#3": [
+  "fearful",
+  -0.04,
+  0,
+  null
+ ],
+ "2.04#4": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "2.05#1": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "2.05#2": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "2.05#3": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "2.05#4": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "2.05#5": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "2.05#6": [
+  "neutral",
+  -0.05,
+  0,
+  null
+ ],
+ "2.05#7": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "2.05#8": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "2.05#9": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "2.05#10": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "2.05#11": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "2.05#12": [
+  "neutral",
+  -0.05,
+  0,
+  null
+ ],
+ "2.05#13": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "2.05#14": [
+  "sad",
+  -0.06,
+  0,
+  null
+ ],
+ "2.05#15": [
+  "sad",
+  -0.06,
+  0,
+  null
+ ],
+ "2.05#16": [
+  "sad",
+  -0.06,
+  0,
+  null
+ ],
+ "2.07#1": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "2.07#2": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "2.07#3": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "2.07#4": [
+  "neutral",
+  -0.05,
+  0,
+  null
+ ],
+ "2.08#1": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "2.08#2": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "2.08#3": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "2.08#4": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "2.08#5": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "2.08#6": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "2.08#7": [
+  "fearful",
+  -0.06,
+  0,
+  null
+ ],
+ "3.02#1": [
+  "sad",
+  -0.02,
+  0,
+  null
+ ],
+ "3.02#2": [
+  "surprised",
+  -0.04,
+  0,
+  null
+ ],
+ "3.04#1": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "3.04#2": [
+  "sad",
+  0.02,
+  0,
+  null
+ ],
+ "3.04#3": [
+  "sad",
+  0.0,
+  0,
+  null
+ ],
+ "3.05#1": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "3.05#2": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "3.05#3": [
+  "neutral",
+  -0.05,
+  0,
+  null
+ ],
+ "3.05#4": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "3.05#5": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "3.05#6": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "3.05#7": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "3.05#8": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "3.05#9": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "3.05#10": [
+  "fearful",
+  -0.02,
+  0,
+  null
+ ],
+ "3.05#11": [
+  "fearful",
+  -0.06,
+  0,
+  null
+ ],
+ "3.07#1": [
+  "sad",
+  0.0,
+  0,
+  null
+ ],
+ "3.07#2": [
+  "sad",
+  0.02,
+  0,
+  null
+ ],
+ "3.07#3": [
+  "surprised",
+  -0.04,
+  0,
+  null
+ ],
+ "3.08#1": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "3.08#2": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "3.08#3": [
+  "neutral",
+  -0.05,
+  0,
+  null
+ ],
+ "3.08#4": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "3.08#5": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "3.08#6": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "3.08#7": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "3.08#8": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "3.08#9": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "3.08#10": [
+  "sad",
+  -0.06,
+  0,
+  "When interrogators asked whether he had ever reflected on why he did these things, his recorded response was hollow and bone-chilling: <#0.35#> Yes, but I don’t know the answers, and I’m pretty sure the answers don’t matter."
+ ],
+ "3.08#11": [
+  "sad",
+  -0.06,
+  0,
+  null
+ ],
+ "3.08#12": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "3.10#1": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "3.11#1": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "3.11#2": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "3.11#3": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "3.11#4": [
+  "fearful",
+  -0.04,
+  0,
+  null
+ ],
+ "3.11#5": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "3.11#6": [
+  "neutral",
+  -0.05,
+  0,
+  null
+ ],
+ "3.11#7": [
+  "neutral",
+  -0.05,
+  0,
+  null
+ ],
+ "3.11#8": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "3.11#9": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "3.11#10": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "3.11#11": [
+  "sad",
+  -0.06,
+  0,
+  null
+ ],
+ "4.03#1": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "4.03#2": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "4.03#3": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "4.03#4": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "4.03#5": [
+  "surprised",
+  -0.04,
+  0,
+  null
+ ],
+ "4.03#6": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "4.05#1": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "4.06#1": [
+  "surprised",
+  -0.02,
+  0,
+  null
+ ],
+ "4.06#2": [
+  "surprised",
+  -0.02,
+  0,
+  null
+ ],
+ "4.06#3": [
+  "surprised",
+  -0.04,
+  0,
+  null
+ ],
+ "4.06#4": [
+  "fearful",
+  -0.06,
+  0,
+  null
+ ],
+ "4.07#1": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "4.07#2": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "4.07#3": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "4.08#1": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "4.08#2": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "4.08#3": [
+  "surprised",
+  0.0,
+  0,
+  null
+ ],
+ "4.08#4": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "4.08#5": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "4.08#6": [
+  "neutral",
+  0.02,
+  0,
+  "Then Smyth laid down photographs of the snowshoe footprint from the crime scene beside Williams’s own boots, stating plainly: <#0.35#> They are identical."
+ ],
+ "4.08#7": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "4.08#8": [
+  "neutral",
+  -0.05,
+  0,
+  "He then made a revealing request: <#0.35#> Just call me Russ."
+ ],
+ "4.08#9": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "4.10#1": [
+  "fearful",
+  -0.04,
+  0,
+  null
+ ],
+ "4.10#2": [
+  "neutral",
+  -0.04,
+  0,
+  "Smyth looked up, stared directly into Williams’s eyes, and made his decisive move: <#0.35#> Investigators are at your home right now."
+ ],
+ "4.10#3": [
+  "fearful",
+  -0.06,
+  0,
+  null
+ ],
+ "4.10#4": [
+  "fearful",
+  -0.06,
+  0,
+  null
+ ],
+ "4.10#5": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "4.10#6": [
+  "sad",
+  -0.06,
+  0,
+  "His first words were barely audible: <#0.35#> I don’t know what to say."
+ ],
+ "4.10#7": [
+  "sad",
+  -0.06,
+  0,
+  "Roughly four hours and forty minutes into the interrogation, Smyth asked softly: <#0.35#> So, where is she?"
+ ],
+ "4.10#8": [
+  "neutral",
+  -0.06,
+  0,
+  "Williams lowered his head and whispered: <#0.35#> Got a map?"
+ ],
+ "4.10#9": [
+  "sad",
+  -0.06,
+  0,
+  null
+ ],
+ "4.11#1": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "4.11#2": [
+  "fearful",
+  -0.04,
+  0,
+  null
+ ],
+ "4.11#3": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "4.11#4": [
+  "sad",
+  -0.06,
+  0,
+  "According to the interrogation transcript, Williams repeated: <#0.35#> I want to minimize the impact on my wife."
+ ],
+ "4.11#5": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "4.11#6": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "4.11#7": [
+  "sad",
+  -0.06,
+  0,
+  null
+ ],
+ "4.11#8": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "4.11#9": [
+  "sad",
+  -0.06,
+  0,
+  null
+ ],
+ "4.12#1": [
+  "sad",
+  -0.06,
+  0,
+  null
+ ],
+ "4.12#2": [
+  "sad",
+  -0.06,
+  0,
+  null
+ ],
+ "4.12#3": [
+  "sad",
+  -0.06,
+  0,
+  null
+ ],
+ "4.12#4": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "4.12#5": [
+  "surprised",
+  -0.04,
+  0,
+  null
+ ],
+ "4.12#6": [
+  "sad",
+  -0.06,
+  0,
+  null
+ ],
+ "5.02#1": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "5.02#2": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "5.02#3": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "5.02#4": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "5.02#5": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "5.02#6": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "5.04#1": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "5.04#2": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "5.04#3": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "5.04#4": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "5.04#5": [
+  "surprised",
+  -0.02,
+  0,
+  null
+ ],
+ "5.04#6": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "5.04#7": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "5.04#8": [
+  "sad",
+  -0.06,
+  0,
+  "Speaking of Williams’s expulsion, Genest compared it to a punctuation mark: <#0.35#> When you put a period at the end of a sentence, the period is small, but it carries immense meaning."
+ ],
+ "5.04#9": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "5.06#1": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "5.06#2": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "5.07#1": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "5.07#2": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "5.07#3": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "5.07#4": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "5.07#5": [
+  "neutral",
+  0.02,
+  0,
+  null
+ ],
+ "5.07#6": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "5.08#1": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "5.08#2": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "5.08#3": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "5.10#1": [
+  "sad",
+  -0.06,
+  0,
+  null
+ ],
+ "5.10#2": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "5.10#3": [
+  "neutral",
+  -0.05,
+  0,
+  null
+ ],
+ "5.10#4": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "5.10#5": [
+  "sad",
+  -0.04,
+  0,
+  null
+ ],
+ "5.10#6": [
+  "neutral",
+  0.0,
+  0,
+  null
+ ],
+ "5.10#7": [
+  "sad",
+  -0.06,
+  0,
+  null
+ ],
+ "5.10#8": [
+  "sad",
+  -0.06,
+  0,
+  null
+ ],
+ "5.10#9": [
+  "sad",
+  -0.04,
+  0,
+  null
+ ],
+ "5.10#10": [
+  "neutral",
+  -0.06,
+  0,
+  null
+ ],
+ "5.10#11": [
+  "sad",
+  -0.06,
+  0,
+  null
+ ],
+ "5.12#1": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "5.12#2": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ],
+ "5.12#3": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "5.12#4": [
+  "neutral",
+  -0.02,
+  0,
+  null
+ ]
+}

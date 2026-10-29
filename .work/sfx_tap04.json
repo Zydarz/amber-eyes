@@ -1,0 +1,46 @@
+{
+ "_doc": "Bảng âm thanh Tập 04 (vụ Charles Cullen - Thiên Thần Tử Thần) — 24/10/2026. Đọc bởi build_audio3.py::place_sheet(). ambience: [từ câu, đến câu, file, dB] — CẢ HAI mốc BẮT BUỘC là mã câu ('1.03#1'), không phải mã element. cues: [mốc, 'start'|'end', lệch (s), file, dB]. music_drop.ranges: [từ câu, đến câu] — mọi đoạn drop bắt buộc có ambience bao phủ theo Quy tắc A1.",
+ "ambience": [
+  ["1.03#1", "1.16#3", "amb_hospital_monitor_heartbeat.wav", -28],
+  ["2.02#1", "2.11#10", "t2/amb_office_night.wav", -32],
+  ["3.02#1", "3.10#3", "t3/amb_pipe_drain.wav", -28],
+  ["4.06#1", "4.08#5", "fx_glasses_clink.wav", -34],
+  ["4.08#1", "4.12#10", "t2/amb_interrogation.wav", -30],
+  ["5.02#1", "5.02#6", "t2/amb_courtroom.wav", -27],
+  ["5.04#1", "5.10#3", "t2/amb_office_night.wav", -32]
+ ],
+ "cues": [
+  ["1.02", "start", 0.0, "fx_ambulance_siren_distant.wav", -8],
+  ["1.05#3", "start", 0.0, "t2/fx_stinger.wav", -14],
+  ["1.06", "start", 0.0, "t3/fx_cassette_button.wav", -10],
+  ["1.08#4", "start", 0.0, "t3/fx_paper_fold.wav", -12],
+  ["1.10#3", "start", 0.0, "t2/fx_sub_drop.wav", -12],
+  ["2.02#1", "start", 0.0, "keyboard_night.wav", -14],
+  ["2.04#1", "start", 0.0, "card_flip.wav", -12],
+  ["2.09", "start", 0.0, "fx_stamp_wood.wav", -10],
+  ["2.09", "start", 0.8, "lock_door.wav", -12],
+  ["3.02#1", "start", 0.0, "t3/fx_paper_fold.wav", -12],
+  ["3.07#5", "start", 0.0, "t2/fx_sub_drop.wav", -14],
+  ["4.01", "start", 0.0, "footsteps.wav", -18],
+  ["4.02#1", "start", 0.0, "folder_close.wav", -12],
+  ["4.05", "start", 0.0, "t3/fx_cassette_button.wav", -10],
+  ["4.06#2", "start", 0.0, "heartbeat_slow.wav", -16],
+  ["4.08#1", "start", 0.2, "t2/fx_door_metal_slam.wav", -6],
+  ["4.08#5", "start", 0.1, "t2/fx_chair_scrape.wav", -12],
+  ["4.12#8", "start", 0.0, "fx_handcuff_snap.wav", -10],
+  ["5.01", "start", -1.0, "t2/fx_gavel_triple.wav", 0],
+  ["5.09", "start", 0.0, "folder_close.wav", -10],
+  ["5.10#3", "start", 0.7, "t3/fx_cassette_button.wav", -10]
+ ],
+ "music_drop": {
+  "_doc": "Tắt nhạc có giai điệu (giữ nền môi trường) ở các câu hé lộ — Quy tắc A1 đảm bảo có ambience bên dưới.",
+  "ranges": [
+   ["1.05#3", "1.05#3"],
+   ["1.10#3", "1.10#3"],
+   ["2.08#1", "2.08#3"],
+   ["4.08#1", "4.08#2"],
+   ["4.12#8", "4.12#10"],
+   ["5.10#3", "5.10#3"]
+  ]
+ }
+}

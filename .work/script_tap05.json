@@ -1,0 +1,1310 @@
+[
+ {
+  "id": "1.01",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "Tiếng máy đánh chữ cơ học lách cách gõ từng nhịp chậm rãi giữa đêm khuya. Tiếng gió đông rít từng hồi lạnh lẽo trên nền nhạc Ambient u tối."
+ },
+ {
+  "id": "1.02",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "Tiếng xé phong bì thư giấy ráp 'Soạt', tiếng lật giở những tờ giấy tài liệu gấp nếp."
+ },
+ {
+  "id": "1.03",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng đọc chậm, trầm, giữ khoảng cách khách quan",
+  "text": "Ngày 19 tháng 3 năm 2004. Tại thành phố Wichita, bang Kansas, nước Mỹ. Tòa soạn báo The Wichita Eagle bất ngờ nhận được một phong bì thư màu vàng không ghi địa chỉ người gửi. Bên trong là bản sao bằng lái xe của một người phụ nữ tên là Vicki Wegerle từng qua đời bí ẩn vào năm 1986, cùng ba tấm ảnh chụp hiện trường vụ án xưa cũ. Và ở cuối bức thư, người gửi ký tên bằng ba chữ cái viết tắt từng là cơn ác mộng kinh hoàng nhất của toàn bộ vùng Trung Tây nước Mỹ suốt nhiều thập kỷ: B-T-K.",
+  "sentences": [
+   {
+    "id": "1.03#1",
+    "text": "Ngày 19 tháng 3 năm 2004.",
+    "words": 6
+   },
+   {
+    "id": "1.03#2",
+    "text": "Tại thành phố Wichita, bang Kansas, nước Mỹ.",
+    "words": 8
+   },
+   {
+    "id": "1.03#3",
+    "text": "Tòa soạn báo The Wichita Eagle bất ngờ nhận được một phong bì thư màu vàng không ghi địa chỉ người gửi.",
+    "words": 22
+   },
+   {
+    "id": "1.03#4",
+    "text": "Bên trong là bản sao bằng lái xe của một người phụ nữ tên là Vicki Wegerle từng qua đời bí ẩn vào năm 1986, cùng ba tấm ảnh chụp hiện trường vụ án xưa cũ.",
+    "words": 36
+   },
+   {
+    "id": "1.03#5",
+    "text": "Và ở cuối bức thư, người gửi ký tên bằng ba chữ cái viết tắt từng là cơn ác mộng kinh hoàng nhất của toàn bộ vùng Trung Tây nước Mỹ suốt nhiều thập kỷ: B-T-K.",
+    "words": 36
+   }
+  ]
+ },
+ {
+  "id": "1.04",
+  "act": 1,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
+ },
+ {
+  "id": "1.05",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng đọc chậm, trầm, giữ khoảng cách khách quan",
+  "text": "Tin tức về sự tái xuất của BTK lập tức làm rúng động toàn bộ nước Mỹ. Suốt từ năm 1974 đến năm 1991, kẻ thủ ác mang biệt danh này đã gây ra 10 vụ án mạng rùng rợn, thách thức các cơ quan thực thi pháp luật bằng những bài thơ và thông điệp trêu ngươi gửi tới truyền thông. Thế nhưng, sau năm 1991, bóng ma ấy đột ngột bốc hơi hoàn toàn vào hư không. Suốt 13 năm ròng rã, không có thêm bất kỳ vụ án nào, không một bức thư, không một dấu vết. Cảnh sát Wichita và FBI từng tin rằng kẻ thủ ác có lẽ đã qua đời, hoặc đang phải thụ án chung thân trong một nhà tù nào đó dưới một cái tên khác.",
+  "sentences": [
+   {
+    "id": "1.05#1",
+    "text": "Tin tức về sự tái xuất của BTK lập tức làm rúng động toàn bộ nước Mỹ.",
+    "words": 17
+   },
+   {
+    "id": "1.05#2",
+    "text": "Suốt từ năm 1974 đến năm 1991, kẻ thủ ác mang biệt danh này đã gây ra 10 vụ án mạng rùng rợn, thách thức các cơ quan thực thi pháp luật bằng những bài thơ và thông điệp trêu ngươi gửi tới truyền thông.",
+    "words": 45
+   },
+   {
+    "id": "1.05#3",
+    "text": "Thế nhưng, sau năm 1991, bóng ma ấy đột ngột bốc hơi hoàn toàn vào hư không.",
+    "words": 17
+   },
+   {
+    "id": "1.05#4",
+    "text": "Suốt 13 năm ròng rã, không có thêm bất kỳ vụ án nào, không một bức thư, không một dấu vết.",
+    "words": 21
+   },
+   {
+    "id": "1.05#5",
+    "text": "Cảnh sát Wichita và FBI từng tin rằng kẻ thủ ác có lẽ đã qua đời, hoặc đang phải thụ án chung thân trong một nhà tù nào đó dưới một cái tên khác.",
+    "words": 34
+   }
+  ]
+ },
+ {
+  "id": "1.06",
+  "act": 1,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
+ },
+ {
+  "id": "1.07",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng đọc chậm, trầm, giữ khoảng cách khách quan",
+  "text": "Để hiểu sự ngỡ ngàng và khiếp đảm ấy lớn đến mức nào, hãy lắng nghe chia sẻ từ một người dân sống tại thị trấn Park City – khu ngoại ô yên bình ngay sát Wichita.",
+  "sentences": [
+   {
+    "id": "1.07#1",
+    "text": "Để hiểu sự ngỡ ngàng và khiếp đảm ấy lớn đến mức nào, hãy lắng nghe chia sẻ từ một người dân sống tại thị trấn Park City – khu ngoại ô yên bình ngay sát Wichita.",
+    "words": 37
+   }
+  ]
+ },
+ {
+  "id": "1.08",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "Tiếng băng ghi âm bật nhẹ 'Tách'."
+ },
+ {
+  "id": "1.09",
+  "act": 1,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "Giọng nam trung niên mộc mạc nhưng đầy vẻ bàng hoàng",
+  "text": "Khi nghe tin BTK gửi thư trở lại sau hơn một thập kỷ, cả thị trấn chúng tôi nín thở trong sợ hãi. Người ta lại kiểm tra then cài cửa sổ, mua thêm súng và khóa chặt cửa trước khi trời tối. Không một ai có thể ngờ rằng, kẻ thủ ác mà cả nước Mỹ đang lùng sục suốt 30 năm qua... lại chính là người đàn ông mẫn cán hàng ngày đi đo chiều cao từng bãi cỏ trong khu phố chúng tôi, người luôn mặc đồng phục chỉnh tề và nhắc nhở chúng tôi xích chó lại.",
+  "sentences": [
+   {
+    "id": "1.09#1",
+    "text": "Khi nghe tin BTK gửi thư trở lại sau hơn một thập kỷ, cả thị trấn chúng tôi nín thở trong sợ hãi.",
+    "words": 23
+   },
+   {
+    "id": "1.09#2",
+    "text": "Người ta lại kiểm tra then cài cửa sổ, mua thêm súng và khóa chặt cửa trước khi trời tối.",
+    "words": 20
+   },
+   {
+    "id": "1.09#3",
+    "text": "Không một ai có thể ngờ rằng, kẻ thủ ác mà cả nước Mỹ đang lùng sục suốt 30 năm qua... lại chính là người đàn ông mẫn cán hàng ngày đi đo chiều cao từng bãi cỏ trong khu phố chúng tôi, người luôn mặc đồng phục chỉnh tề và nhắc nhở chúng tôi xích chó lại.",
+    "words": 58
+   }
+  ]
+ },
+ {
+  "id": "1.10",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Hạ trầm giọng, sắc thái kịch tính",
+  "text": "Đó chính là nghịch lý kỳ dị nhất trong toàn bộ lịch sử tư pháp thế giới. Kẻ thủ ác đã ngủ đông hoàn toàn suốt 13 năm. Các bằng chứng tại hiện trường đã nguội lạnh. Thời hiệu và công nghệ lúc bấy giờ hoàn toàn bất lực trong việc lần ra dấu vết của hắn. Hắn hoàn toàn có thể an toàn sống trọn vẹn phần đời còn lại dưới vỏ bọc của một công dân đáng kính và bước sang thế giới bên kia mà không bao giờ bị phát hiện. Thế nhưng, điều gì đã thôi thúc con quái vật ấy tự mình phá vỡ sự im lặng? Tại sao một kẻ săn mồi cẩn trọng đến mức cực đoan lại quyết định bước ra khỏi bóng tối để rồi tự tay dâng mình vào chiếc bẫy của cảnh sát?",
+  "sentences": [
+   {
+    "id": "1.10#1",
+    "text": "Đó chính là nghịch lý kỳ dị nhất trong toàn bộ lịch sử tư pháp thế giới.",
+    "words": 17
+   },
+   {
+    "id": "1.10#2",
+    "text": "Kẻ thủ ác đã ngủ đông hoàn toàn suốt 13 năm.",
+    "words": 11
+   },
+   {
+    "id": "1.10#3",
+    "text": "Các bằng chứng tại hiện trường đã nguội lạnh.",
+    "words": 9
+   },
+   {
+    "id": "1.10#4",
+    "text": "Thời hiệu và công nghệ lúc bấy giờ hoàn toàn bất lực trong việc lần ra dấu vết của hắn.",
+    "words": 20
+   },
+   {
+    "id": "1.10#5",
+    "text": "Hắn hoàn toàn có thể an toàn sống trọn vẹn phần đời còn lại dưới vỏ bọc của một công dân đáng kính và bước sang thế giới bên kia mà không bao giờ bị phát hiện.",
+    "words": 37
+   },
+   {
+    "id": "1.10#6",
+    "text": "Thế nhưng, điều gì đã thôi thúc con quái vật ấy tự mình phá vỡ sự im lặng?",
+    "words": 18
+   },
+   {
+    "id": "1.10#7",
+    "text": "Tại sao một kẻ săn mồi cẩn trọng đến mức cực đoan lại quyết định bước ra khỏi bóng tối để rồi tự tay dâng mình vào chiếc bẫy của cảnh sát?",
+    "words": 32
+   }
+  ]
+ },
+ {
+  "id": "1.11",
+  "act": 1,
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": "Nhạc nền dừng đột ngột, chỉ còn tiếng tích tắc khô khốc của đồng hồ"
+ },
+ {
+  "id": "1.12",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Hạ trầm giọng, sắc thái kịch tính",
+  "text": "Để hiểu rõ thời khắc bắt đầu của cuộc đấu trí lịch sử, chúng ta hãy lắng nghe thông tin từ Điều tra viên trực tiếp chỉ huy chuyên án.",
+  "sentences": [
+   {
+    "id": "1.12#1",
+    "text": "Để hiểu rõ thời khắc bắt đầu của cuộc đấu trí lịch sử, chúng ta hãy lắng nghe thông tin từ Điều tra viên trực tiếp chỉ huy chuyên án.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "1.13",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "Tiếng mở ngăn kéo kim loại đựng hồ sơ vụ án cọt kẹt, tiếng đặt tập tài liệu nặng trịch lên bàn."
+ },
+ {
+  "id": "1.14",
+  "act": 1,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Giọng đanh thép, trầm tĩnh và dứt khoát",
+  "text": "Khi chúng tôi nhận được bức thư vào tháng 3 năm 2004, câu hỏi đầu tiên mà ban chuyên án đặt ra không phải là hắn đang ở đâu, mà là: Tại sao lại là lúc này? Và khi lật lại các mặt báo địa phương những tháng trước đó, chúng tôi đã tìm ra ngòi nổ kích hoạt sự tái xuất của hắn: Vào đầu năm 2004, tờ báo The Wichita Eagle đăng một loạt bài viết kỷ niệm 30 năm vụ án đầu tiên của BTK. Trong bài viết đó, một tác giả địa phương tên là Robert Beattie đã công bố rằng ông sắp xuất bản một cuốn sách về vụ án, và công khai đặt ra nghi vấn rằng BTK có lẽ đã chết hoặc không còn khả năng hoạt động nữa. Đó chính là nhát dao đâm thẳng vào điểm yếu chí tử của kẻ thủ ác: Lòng tự tôn ái kỷ bệnh hoạn. Hắn không thể chấp nhận việc thế giới quên lãng mình. Hắn muốn nhắc nhở toàn thể nhân loại rằng: Con quái vật mang tên BTK vẫn đang sống, và hắn vẫn là kẻ điều khiển nỗi sợ hãi của cả một thành phố.",
+  "sentences": [
+   {
+    "id": "1.14#1",
+    "text": "Khi chúng tôi nhận được bức thư vào tháng 3 năm 2004, câu hỏi đầu tiên mà ban chuyên án đặt ra không phải là hắn đang ở đâu, mà là: Tại sao lại là lúc này?",
+    "words": 37
+   },
+   {
+    "id": "1.14#2",
+    "text": "Và khi lật lại các mặt báo địa phương những tháng trước đó, chúng tôi đã tìm ra ngòi nổ kích hoạt sự tái xuất của hắn:",
+    "words": 27
+   },
+   {
+    "id": "1.14#3",
+    "text": "Vào đầu năm 2004, tờ báo The Wichita Eagle đăng một loạt bài viết kỷ niệm 30 năm vụ án đầu tiên của BTK.",
+    "words": 24
+   },
+   {
+    "id": "1.14#4",
+    "text": "Trong bài viết đó, một tác giả địa phương tên là Robert Beattie đã công bố rằng ông sắp xuất bản một cuốn sách về vụ án, và công khai đặt ra nghi vấn rằng BTK có lẽ đã chết hoặc không còn khả năng hoạt động nữa.",
+    "words": 48
+   },
+   {
+    "id": "1.14#5",
+    "text": "Đó chính là nhát dao đâm thẳng vào điểm yếu chí tử của kẻ thủ ác: Lòng tự tôn ái kỷ bệnh hoạn.",
+    "words": 23
+   },
+   {
+    "id": "1.14#6",
+    "text": "Hắn không thể chấp nhận việc thế giới quên lãng mình.",
+    "words": 11
+   },
+   {
+    "id": "1.14#7",
+    "text": "Hắn muốn nhắc nhở toàn thể nhân loại rằng: Con quái vật mang tên BTK vẫn đang sống, và hắn vẫn là kẻ điều khiển nỗi sợ hãi của cả một thành phố.",
+    "words": 33
+   }
+  ]
+ },
+ {
+  "id": "1.15",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "Đoạn nhạc Cello u uất hòa cùng tiếng piano lạnh lẽo bắt đầu vang lên."
+ },
+ {
+  "id": "1.16",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "",
+  "text": "Chào mừng bạn đến với hồ sơ phân tích tâm lý học tội phạm. Hôm nay, chúng ta sẽ mở khóa một trong những hồ sơ đấu trí ly kỳ và kinh điển nhất trong lịch sử điều tra hiện đại: Hồ sơ Dennis Rader – kẻ tự xưng là BTK. Tập này sẽ đi sâu giải phẫu hai cấu trúc tâm lý đen tối: Cơn nghiện sự chú ý của kẻ ái kỷ ác tính và Sự phân mảnh tâm trí tuyệt đối, để trả lời câu hỏi: Làm thế nào cái tôi kiêu ngạo lại có thể đánh sập một vỏ bọc hoàn hảo được xây dựng kiên cố suốt ba thập kỷ?",
+  "sentences": [
+   {
+    "id": "1.16#1",
+    "text": "Chào mừng bạn đến với hồ sơ phân tích tâm lý học tội phạm.",
+    "words": 14
+   },
+   {
+    "id": "1.16#2",
+    "text": "Hôm nay, chúng ta sẽ mở khóa một trong những hồ sơ đấu trí ly kỳ và kinh điển nhất trong lịch sử điều tra hiện đại: Hồ sơ Dennis Rader – kẻ tự xưng là BTK.",
+    "words": 37
+   },
+   {
+    "id": "1.16#3",
+    "text": "Tập này sẽ đi sâu giải phẫu hai cấu trúc tâm lý đen tối: Cơn nghiện sự chú ý của kẻ ái kỷ ác tính và Sự phân mảnh tâm trí tuyệt đối, để trả lời câu hỏi: Làm thế nào cái tôi kiêu ngạo lại có thể đánh sập một vỏ bọc hoàn hảo được xây dựng kiên cố suốt ba thập kỷ?",
+    "words": 64
+   }
+  ]
+ },
+ {
+  "id": "2.01",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "Tiếng nhịp tim đập chậm và tiếng rè rè của cuộn băng từ phát lại bản ghi âm điện thoại khẩn cấp."
+ },
+ {
+  "id": "2.02",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng đọc chậm rãi, mô tả chi tiết",
+  "text": "Để hiểu được bản chất của Dennis Rader, trước hết chúng ta cần nhìn vào những gì hắn đã để lại tại hiện trường trong suốt 17 năm hoạt động từ 1974 đến 1991. Khác với những kẻ thủ ác thông thường ra tay vì tiền tài, thù hận hay bộc phát, Rader gây án với một Phương thức hoạt động và Chữ ký tâm lý vô cùng đặc dị. Hắn tự đặt ra biệt danh cho chính mình: BTK – viết tắt của ba động từ tiếng Anh mô tả quy trình gây án có chủ đích: Bind (Trói buộc), Torture (Tra tấn tâm lý) và Kill (Tước đoạt sinh mạng). Xin mời Điều tra viên phân tích chữ ký tâm lý độc hại này.",
+  "sentences": [
+   {
+    "id": "2.02#1",
+    "text": "Để hiểu được bản chất của Dennis Rader, trước hết chúng ta cần nhìn vào những gì hắn đã để lại tại hiện trường trong suốt 17 năm hoạt động từ 1974 đến 1991.",
+    "words": 34
+   },
+   {
+    "id": "2.02#2",
+    "text": "Khác với những kẻ thủ ác thông thường ra tay vì tiền tài, thù hận hay bộc phát, Rader gây án với một Phương thức hoạt động và Chữ ký tâm lý vô cùng đặc dị.",
+    "words": 36
+   },
+   {
+    "id": "2.02#3",
+    "text": "Hắn tự đặt ra biệt danh cho chính mình: BTK – viết tắt của ba động từ tiếng Anh mô tả quy trình gây án có chủ đích: Bind (Trói buộc), Torture (Tra tấn tâm lý) và Kill (Tước đoạt sinh mạng).",
+    "words": 42
+   },
+   {
+    "id": "2.02#4",
+    "text": "Xin mời Điều tra viên phân tích chữ ký tâm lý độc hại này.",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "2.03",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "Tiếng lật các bức ảnh chụp hiện trường trên mặt bàn gỗ."
+ },
+ {
+  "id": "2.04",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Giọng sắc lạnh, đi sâu vào kỹ thuật nghiệp vụ",
+  "text": "Trong khoa học hành vi của FBI, chữ ký tâm lý là thứ kẻ phạm tội làm để thỏa mãn nhu cầu cảm xúc nội tại, chứ không nhằm phục vụ việc xóa dấu vết: Thứ nhất: Nhu cầu áp chế tuyệt đối. Rader không bao giờ ra tay nhanh chóng. Hắn đột nhập vào nhà nạn nhân khi trời tối, cắt dây điện thoại, khống chế và dùng dây trói để biến nạn nhân thành những người hoàn toàn bất lực trước mặt hắn. Hắn kéo dài thời gian để tận hưởng nỗi sợ hãi tột cùng trong ánh mắt nạn nhân. Thứ hai: Nhu cầu lưu giữ chiến lợi phẩm. Hắn lấy đi những vật dụng riêng tư nhỏ bé của nạn nhân như bằng lái xe, đồng hồ hoặc đồ trang sức. Với Rader, những món đồ đó không mang giá trị vật chất, mà là những vật kích hoạt cảm xúc để hắn hồi tưởng lại cảm giác thống trị mỗi khi ở một mình. Và thứ ba: Nhu cầu truyền thông trêu ngươi. Hắn bí mật để lại các bưu kiện trong thư viện công cộng, dán dưới gầm bàn hoặc trong thùng rác công viên, chứa những bài thơ tự sáng tác và câu đố chữ để gửi đến cảnh sát và các đài truyền hình.",
+  "sentences": [
+   {
+    "id": "2.04#1",
+    "text": "Trong khoa học hành vi của FBI, chữ ký tâm lý là thứ kẻ phạm tội làm để thỏa mãn nhu cầu cảm xúc nội tại, chứ không nhằm phục vụ việc xóa dấu vết:",
+    "words": 35
+   },
+   {
+    "id": "2.04#2",
+    "text": "Thứ nhất: Nhu cầu áp chế tuyệt đối.",
+    "words": 8
+   },
+   {
+    "id": "2.04#3",
+    "text": "Rader không bao giờ ra tay nhanh chóng.",
+    "words": 8
+   },
+   {
+    "id": "2.04#4",
+    "text": "Hắn đột nhập vào nhà nạn nhân khi trời tối, cắt dây điện thoại, khống chế và dùng dây trói để biến nạn nhân thành những người hoàn toàn bất lực trước mặt hắn.",
+    "words": 34
+   },
+   {
+    "id": "2.04#5",
+    "text": "Hắn kéo dài thời gian để tận hưởng nỗi sợ hãi tột cùng trong ánh mắt nạn nhân.",
+    "words": 18
+   },
+   {
+    "id": "2.04#6",
+    "text": "Thứ hai: Nhu cầu lưu giữ chiến lợi phẩm.",
+    "words": 9
+   },
+   {
+    "id": "2.04#7",
+    "text": "Hắn lấy đi những vật dụng riêng tư nhỏ bé của nạn nhân như bằng lái xe, đồng hồ hoặc đồ trang sức.",
+    "words": 23
+   },
+   {
+    "id": "2.04#8",
+    "text": "Với Rader, những món đồ đó không mang giá trị vật chất, mà là những vật kích hoạt cảm xúc để hắn hồi tưởng lại cảm giác thống trị mỗi khi ở một mình.",
+    "words": 34
+   },
+   {
+    "id": "2.04#9",
+    "text": "Và thứ ba: Nhu cầu truyền thông trêu ngươi.",
+    "words": 9
+   },
+   {
+    "id": "2.04#10",
+    "text": "Hắn bí mật để lại các bưu kiện trong thư viện công cộng, dán dưới gầm bàn hoặc trong thùng rác công viên, chứa những bài thơ tự sáng tác và câu đố chữ để gửi đến cảnh sát và các đài truyền hình.",
+    "words": 44
+   }
+  ]
+ },
+ {
+  "id": "2.05",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng trầm ngâm",
+  "text": "Một kẻ săn mồi tỉ mỉ, kiên nhẫn và tính toán đến từng chi tiết nhỏ nhất. Hắn nắm rất rõ các kỹ thuật trinh sát của cảnh sát, luôn đeo găng tay, không để lại vân tay hay dấu vết sinh học rõ ràng. Thế nhưng, điều khiến toàn bộ nước Mỹ chết lặng vào ngày hắn bị bắt không phải là số lượng nạn nhân, mà là danh tính thực sự phía sau chiếc mặt nạ của hắn. Hãy cùng lắng nghe Điều tra viên tái hiện lại cuộc sống thường nhật của kẻ mang tên Dennis Rader.",
+  "sentences": [
+   {
+    "id": "2.05#1",
+    "text": "Một kẻ săn mồi tỉ mỉ, kiên nhẫn và tính toán đến từng chi tiết nhỏ nhất.",
+    "words": 17
+   },
+   {
+    "id": "2.05#2",
+    "text": "Hắn nắm rất rõ các kỹ thuật trinh sát của cảnh sát, luôn đeo găng tay, không để lại vân tay hay dấu vết sinh học rõ ràng.",
+    "words": 28
+   },
+   {
+    "id": "2.05#3",
+    "text": "Thế nhưng, điều khiến toàn bộ nước Mỹ chết lặng vào ngày hắn bị bắt không phải là số lượng nạn nhân, mà là danh tính thực sự phía sau chiếc mặt nạ của hắn.",
+    "words": 35
+   },
+   {
+    "id": "2.05#4",
+    "text": "Hãy cùng lắng nghe Điều tra viên tái hiện lại cuộc sống thường nhật của kẻ mang tên Dennis Rader.",
+    "words": 20
+   }
+  ]
+ },
+ {
+  "id": "2.06",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Tiếp tục, nhịp độ sâu sắc",
+  "text": "Dennis Rader sinh năm 1945, từng phục vụ 4 năm trong Không quân Mỹ, tốt nghiệp đại học chuyên ngành Quản trị tư pháp. Suốt hàng chục năm, hắn sống tại một ngôi nhà nhỏ ở Park City cùng người vợ gắn bó hơn 30 năm và hai đứa con ngoan ngoãn. Hắn là Chủ tịch Hội đồng Nhà thờ Lutheran Chúa Kitô – người hàng tuần đứng trước bục giảng chào đón các tín đồ, thu tiền công đức và tổ chức các buổi lễ thiện nguyện. Hắn là Đội trưởng Hướng đạo sinh Cub Scout – người đích thân dạy những đứa trẻ trong thị trấn cách thắt dây thừng, dựng lều và rèn luyện tính trung thực. Và từ năm 1991, hắn là Nhân viên Trật tự và Tuân thủ quy tắc của thành phố Park City. Công việc hàng ngày của hắn là lái chiếc xe bán tải của chính quyền đi khắp các con đường, đo chiều cao từng bãi cỏ, bắt giữ chó mèo chạy rông và ghi vé phạt những người đỗ xe sai quy định. Hắn nghiêm khắc đến mức hà khắc, tỉ mỉ đến mức bệnh hoạn, và không một ai trong thị trấn có thể tưởng tượng người đàn ông luôn cầm thước đo cỏ ấy lại là con quái vật BTK.",
+  "sentences": [
+   {
+    "id": "2.06#1",
+    "text": "Dennis Rader sinh năm 1945, từng phục vụ 4 năm trong Không quân Mỹ, tốt nghiệp đại học chuyên ngành Quản trị tư pháp.",
+    "words": 24
+   },
+   {
+    "id": "2.06#2",
+    "text": "Suốt hàng chục năm, hắn sống tại một ngôi nhà nhỏ ở Park City cùng người vợ gắn bó hơn 30 năm và hai đứa con ngoan ngoãn.",
+    "words": 28
+   },
+   {
+    "id": "2.06#3",
+    "text": "Hắn là Chủ tịch Hội đồng Nhà thờ Lutheran Chúa Kitô – người hàng tuần đứng trước bục giảng chào đón các tín đồ, thu tiền công đức và tổ chức các buổi lễ thiện nguyện.",
+    "words": 36
+   },
+   {
+    "id": "2.06#4",
+    "text": "Hắn là Đội trưởng Hướng đạo sinh Cub Scout – người đích thân dạy những đứa trẻ trong thị trấn cách thắt dây thừng, dựng lều và rèn luyện tính trung thực.",
+    "words": 32
+   },
+   {
+    "id": "2.06#5",
+    "text": "Và từ năm 1991, hắn là Nhân viên Trật tự và Tuân thủ quy tắc của thành phố Park City.",
+    "words": 20
+   },
+   {
+    "id": "2.06#6",
+    "text": "Công việc hàng ngày của hắn là lái chiếc xe bán tải của chính quyền đi khắp các con đường, đo chiều cao từng bãi cỏ, bắt giữ chó mèo chạy rông và ghi vé phạt những người đỗ xe sai quy định.",
+    "words": 43
+   },
+   {
+    "id": "2.06#7",
+    "text": "Hắn nghiêm khắc đến mức hà khắc, tỉ mỉ đến mức bệnh hoạn, và không một ai trong thị trấn có thể tưởng tượng người đàn ông luôn cầm thước đo cỏ ấy lại là con quái vật BTK.",
+    "words": 39
+   }
+  ]
+ },
+ {
+  "id": "2.07",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng trầm lắng, nhấn mạnh sự mâu thuẫn",
+  "text": "Ban ngày là một công dân mẫu mực, một người sùng đạo tận tụy, một người cha chuẩn mực. Nhưng ban đêm lại là kẻ săn mồi lạnh lùng tước đoạt sinh mạng của những người vô tội. Làm thế nào hai nhân cách đối lập tột cùng ấy lại có thể cùng tồn tại hài hòa bên trong một con người suốt hơn 30 năm mà không hề bị sụp đổ? Xin mời Chuyên gia tâm lý bóc tách cấu trúc tâm thần kỳ dị này.",
+  "sentences": [
+   {
+    "id": "2.07#1",
+    "text": "Ban ngày là một công dân mẫu mực, một người sùng đạo tận tụy, một người cha chuẩn mực.",
+    "words": 19
+   },
+   {
+    "id": "2.07#2",
+    "text": "Nhưng ban đêm lại là kẻ săn mồi lạnh lùng tước đoạt sinh mạng của những người vô tội.",
+    "words": 19
+   },
+   {
+    "id": "2.07#3",
+    "text": "Làm thế nào hai nhân cách đối lập tột cùng ấy lại có thể cùng tồn tại hài hòa bên trong một con người suốt hơn 30 năm mà không hề bị sụp đổ?",
+    "words": 34
+   },
+   {
+    "id": "2.07#4",
+    "text": "Xin mời Chuyên gia tâm lý bóc tách cấu trúc tâm thần kỳ dị này.",
+    "words": 15
+   }
+  ]
+ },
+ {
+  "id": "3.01",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "Tiếng đàn Cello rải những nốt trầm u tối, hòa cùng âm thanh Sub-bass nghẹt thở, tạo không gian của một cuộc giải phẫu tâm thần học chuyên sâu."
+ },
+ {
+  "id": "3.02",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "Giọng học thuật, khúc chiết và mạch lạc",
+  "text": "Để giải mã Dennis Rader, các nhà tâm lý học tội phạm và chuyên gia tâm thần học pháp y đã phân tích hai cơ chế phòng vệ tâm lý cực đoan định hình nên toàn bộ hành vi của hắn: Cơ chế thứ nhất: Sự phân mảnh tâm trí tuyệt đối (Compartmentalization). Tương tự như trường hợp của Đại tá Russell Williams, Dennis Rader sở hữu khả năng đóng kín các ngăn kéo tâm lý một cách hoàn hảo. Hắn xây dựng một bức tường bê tông vô hình giữa cuộc sống gia đình, xã hội với thế giới tưởng tượng đen tối của mình: Khi đứng trong nhà thờ Lutheran hoặc sinh hoạt cùng đội thiếu sinh quân, hắn hoàn toàn nhập tâm vào vai trò của một tín đồ ngoan đạo và một người cha gương mẫu. Hắn không hề cảm thấy tội lỗi hay cắn rứt, bởi vì trong tâm thức hắn, những hành vi tội ác kia thuộc về một thực thể hoàn toàn khác. Và để hợp thức hóa sự phân mảnh đó, Rader đã tự tạo ra một khái niệm tâm lý hoang tưởng mang tên: “Nhân tố X” (Factor X).",
+  "sentences": [
+   {
+    "id": "3.02#1",
+    "text": "Để giải mã Dennis Rader, các nhà tâm lý học tội phạm và chuyên gia tâm thần học pháp y đã phân tích hai cơ chế phòng vệ tâm lý cực đoan định hình nên toàn bộ hành vi của hắn:",
+    "words": 41
+   },
+   {
+    "id": "3.02#2",
+    "text": "Cơ chế thứ nhất: Sự phân mảnh tâm trí tuyệt đối (Compartmentalization).",
+    "words": 12
+   },
+   {
+    "id": "3.02#3",
+    "text": "Tương tự như trường hợp của Đại tá Russell Williams, Dennis Rader sở hữu khả năng đóng kín các ngăn kéo tâm lý một cách hoàn hảo.",
+    "words": 27
+   },
+   {
+    "id": "3.02#4",
+    "text": "Hắn xây dựng một bức tường bê tông vô hình giữa cuộc sống gia đình, xã hội với thế giới tưởng tượng đen tối của mình:",
+    "words": 26
+   },
+   {
+    "id": "3.02#5",
+    "text": "Khi đứng trong nhà thờ Lutheran hoặc sinh hoạt cùng đội thiếu sinh quân, hắn hoàn toàn nhập tâm vào vai trò của một tín đồ ngoan đạo và một người cha gương mẫu.",
+    "words": 34
+   },
+   {
+    "id": "3.02#6",
+    "text": "Hắn không hề cảm thấy tội lỗi hay cắn rứt, bởi vì trong tâm thức hắn, những hành vi tội ác kia thuộc về một thực thể hoàn toàn khác.",
+    "words": 30
+   },
+   {
+    "id": "3.02#7",
+    "text": "Và để hợp thức hóa sự phân mảnh đó, Rader đã tự tạo ra một khái niệm tâm lý hoang tưởng mang tên: “Nhân tố X” (Factor X).",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "3.03",
+  "act": 3,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
+ },
+ {
+  "id": "3.04",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng trăn trở, dẫn dắt đối thoại",
+  "text": "Một khái niệm rất kỳ dị thưa chuyên gia. Dennis Rader từng nhiều lần nhắc đến cụm từ “Nhân tố X” trong các bức thư gửi cảnh sát. Dưới góc độ khoa học tâm lý, “Nhân tố X” thực chất là gì?",
+  "sentences": [
+   {
+    "id": "3.04#1",
+    "text": "Một khái niệm rất kỳ dị thưa chuyên gia.",
+    "words": 9
+   },
+   {
+    "id": "3.04#2",
+    "text": "Dennis Rader từng nhiều lần nhắc đến cụm từ “Nhân tố X” trong các bức thư gửi cảnh sát.",
+    "words": 19
+   },
+   {
+    "id": "3.04#3",
+    "text": "Dưới góc độ khoa học tâm lý, “Nhân tố X” thực chất là gì?",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "3.05",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "Điềm đạm tiếp lời",
+  "text": "Dưới góc nhìn tâm lý học, “Nhân tố X” không phải là một con quỷ siêu nhiên hay một thế lực tâm linh nào cả. Đó là một cơ chế phòng vệ Phóng chiếu và Ngụy biện (Rationalization & Projection) cực kỳ điển hình: Rader coi những xung lực bạo lực của mình như một thực thể ký sinh bên ngoài xâm chiếm tâm trí hắn. Hắn tự thuyết phục mình rằng: “Không phải tôi muốn làm điều đó, mà chính Nhân tố X bên trong bắt tôi phải làm”. Bằng cách gán tội lỗi cho một thực thể trừu tượng, hắn rũ bỏ hoàn toàn trách nhiệm đạo đức cá nhân, giúp hắn vừa có thể thỏa mãn những hưng tưởng đen tối, vừa có thể quay về nhà ôm con gái và mỉm cười ăn tối cùng vợ như một người đàn ông vô tội.",
+  "sentences": [
+   {
+    "id": "3.05#1",
+    "text": "Dưới góc nhìn tâm lý học, “Nhân tố X” không phải là một con quỷ siêu nhiên hay một thế lực tâm linh nào cả.",
+    "words": 25
+   },
+   {
+    "id": "3.05#2",
+    "text": "Đó là một cơ chế phòng vệ Phóng chiếu và Ngụy biện (Rationalization & Projection) cực kỳ điển hình:",
+    "words": 19
+   },
+   {
+    "id": "3.05#3",
+    "text": "Rader coi những xung lực bạo lực của mình như một thực thể ký sinh bên ngoài xâm chiếm tâm trí hắn.",
+    "words": 22
+   },
+   {
+    "id": "3.05#4",
+    "text": "Hắn tự thuyết phục mình rằng: “Không phải tôi muốn làm điều đó, mà chính Nhân tố X bên trong bắt tôi phải làm”.",
+    "words": 24
+   },
+   {
+    "id": "3.05#5",
+    "text": "Bằng cách gán tội lỗi cho một thực thể trừu tượng, hắn rũ bỏ hoàn toàn trách nhiệm đạo đức cá nhân, giúp hắn vừa có thể thỏa mãn những hưng tưởng đen tối, vừa có thể quay về nhà ôm con gái và mỉm cười ăn tối cùng vợ như một người đàn ông vô tội.",
+    "words": 57
+   }
+  ]
+ },
+ {
+  "id": "3.06",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng trầm ngâm",
+  "text": "Một sự ngụy biện tinh vi để tự ru ngủ lương tâm. Nhưng thưa chuyên gia, nếu hắn đã phân mảnh tâm trí thành công và an toàn “ngủ đông” suốt 13 năm, thì tại sao hắn lại không thể tiếp tục giữ kín bí mật đó cho đến khi chết? Động cơ nào đã kéo hắn trở lại với trò chơi nguy hiểm vào năm 2004?",
+  "sentences": [
+   {
+    "id": "3.06#1",
+    "text": "Một sự ngụy biện tinh vi để tự ru ngủ lương tâm.",
+    "words": 12
+   },
+   {
+    "id": "3.06#2",
+    "text": "Nhưng thưa chuyên gia, nếu hắn đã phân mảnh tâm trí thành công và an toàn “ngủ đông” suốt 13 năm, thì tại sao hắn lại không thể tiếp tục giữ kín bí mật đó cho đến khi chết?",
+    "words": 39
+   },
+   {
+    "id": "3.06#3",
+    "text": "Động cơ nào đã kéo hắn trở lại với trò chơi nguy hiểm vào năm 2004?",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "3.07",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "Nhấn mạnh từng luận điểm sắc sảo",
+  "text": "Đó chính là Cơ chế thứ hai: Ái kỷ ác tính (Malignant Narcissism) và Cơn nghiện được chú ý. Đối với một kẻ ái kỷ nặng như Dennis Rader, cảm giác kiểm soát và sự ngưỡng mộ của đám đông là nguồn oxy sống duy nhất nuôi dưỡng cái tôi của hắn. Hắn không chỉ muốn gây án; hắn muốn cả thế giới phải nói về hắn, sợ hãi hắn và phân tích từng câu chữ trong các bức thư của hắn. Suốt 13 năm từ 1991 đến 2004, khi không còn gây án vì tuổi tác và trách nhiệm gia đình, Rader sống bằng hào quang quá khứ: Hắn âm thầm theo dõi báo chí, cắt từng bài viết về BTK dán vào sổ tay lưu niệm bí mật. Nhưng khi tờ The Wichita Eagle đăng bài ám chỉ rằng BTK đã chết hoặc không còn giá trị, cái tôi ái kỷ của hắn bị giáng một đòn chí mạng. Nỗi sợ lớn nhất của kẻ ái kỷ không phải là án tù, mà là Sự lãng quên. Hắn thà chấp nhận rủi ro bị bắt để được cả thế giới nhìn thấy chiếc mặt nạ của mình, còn hơn là phải chết đi trong sự vô danh của một nhân viên trật tự thị trấn.",
+  "sentences": [
+   {
+    "id": "3.07#1",
+    "text": "Đó chính là Cơ chế thứ hai: Ái kỷ ác tính (Malignant Narcissism) và Cơn nghiện được chú ý.",
+    "words": 19
+   },
+   {
+    "id": "3.07#2",
+    "text": "Đối với một kẻ ái kỷ nặng như Dennis Rader, cảm giác kiểm soát và sự ngưỡng mộ của đám đông là nguồn oxy sống duy nhất nuôi dưỡng cái tôi của hắn.",
+    "words": 33
+   },
+   {
+    "id": "3.07#3",
+    "text": "Hắn không chỉ muốn gây án; hắn muốn cả thế giới phải nói về hắn, sợ hãi hắn và phân tích từng câu chữ trong các bức thư của hắn.",
+    "words": 30
+   },
+   {
+    "id": "3.07#4",
+    "text": "Suốt 13 năm từ 1991 đến 2004, khi không còn gây án vì tuổi tác và trách nhiệm gia đình, Rader sống bằng hào quang quá khứ: Hắn âm thầm theo dõi báo chí, cắt từng bài viết về BTK dán vào sổ tay lưu niệm bí mật.",
+    "words": 48
+   },
+   {
+    "id": "3.07#5",
+    "text": "Nhưng khi tờ The Wichita Eagle đăng bài ám chỉ rằng BTK đã chết hoặc không còn giá trị, cái tôi ái kỷ của hắn bị giáng một đòn chí mạng.",
+    "words": 31
+   },
+   {
+    "id": "3.07#6",
+    "text": "Nỗi sợ lớn nhất của kẻ ái kỷ không phải là án tù, mà là Sự lãng quên.",
+    "words": 18
+   },
+   {
+    "id": "3.07#7",
+    "text": "Hắn thà chấp nhận rủi ro bị bắt để được cả thế giới nhìn thấy chiếc mặt nạ của mình, còn hơn là phải chết đi trong sự vô danh của một nhân viên trật tự thị trấn.",
+    "words": 38
+   }
+  ]
+ },
+ {
+  "id": "3.08",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng sắc lạnh",
+  "text": "Cơn nghiện sự chú ý đã che mờ hoàn toàn bản năng sinh tồn của một kẻ săn mồi. Hắn tin rằng mình thông minh hơn toàn bộ lực lượng cảnh sát, tin rằng mình có thể điều khiển cuộc chơi truyền thông mãi mãi. Và chính sự tự phụ mù quáng ấy đã mở đường cho Trung úy Ken Landwehr giăng ra một chiếc bẫy công nghệ lịch sử.",
+  "sentences": [
+   {
+    "id": "3.08#1",
+    "text": "Cơn nghiện sự chú ý đã che mờ hoàn toàn bản năng sinh tồn của một kẻ săn mồi.",
+    "words": 19
+   },
+   {
+    "id": "3.08#2",
+    "text": "Hắn tin rằng mình thông minh hơn toàn bộ lực lượng cảnh sát, tin rằng mình có thể điều khiển cuộc chơi truyền thông mãi mãi.",
+    "words": 26
+   },
+   {
+    "id": "3.08#3",
+    "text": "Và chính sự tự phụ mù quáng ấy đã mở đường cho Trung úy Ken Landwehr giăng ra một chiếc bẫy công nghệ lịch sử.",
+    "words": 25
+   }
+  ]
+ },
+ {
+  "id": "4.01",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "Nhạc Synth Minimalist dồn dập, tiếng gõ phím vi tính và âm thanh quạt tản nhiệt máy chủ kêu vo ve trong phòng kỹ thuật số."
+ },
+ {
+  "id": "4.02",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Đẩy nhanh nhịp độ, sắc thái kịch tính",
+  "text": "Đầu năm 2005. Sau hàng loạt bức thư trêu ngươi gửi tới các cơ quan truyền thông, Dennis Rader bắt đầu cảm thấy mệt mỏi với việc phải tự tay in ấn, cắt dán bưu kiện và tìm nơi cất giấu giữa trời đông giá rét. Hắn muốn chuyển sang một hình thức giao tiếp hiện đại hơn: Gửi các tập tin vi tính. Nhưng thời điểm đó, Rader đã 60 tuổi và hoàn toàn mù mờ về các nguyên lý hoạt động của công nghệ số. Ngày 8 tháng 1 năm 2005, Dennis Rader lén đặt một hộp ngũ cốc trên thùng một chiếc xe bán tải tại bãi đỗ xe Home Depot ở Wichita. Bên trong hộp ngũ cốc là một mẩu giấy viết tay gửi tới cảnh sát, đặt ra một câu hỏi ngây thơ đến mức khó tin: “Tôi có thể liên lạc bằng Đĩa mềm vi tính mà không bị truy vết đến máy tính hay không? Hãy trả lời thành thật nhé.” Và hắn yêu cầu cảnh sát trả lời bằng một dòng tin nhắn mật đăng trên mục rao vặt 494 của tờ báo The Wichita Eagle.",
+  "sentences": [
+   {
+    "id": "4.02#1",
+    "text": "Đầu năm 2005.",
+    "words": 3
+   },
+   {
+    "id": "4.02#2",
+    "text": "Sau hàng loạt bức thư trêu ngươi gửi tới các cơ quan truyền thông, Dennis Rader bắt đầu cảm thấy mệt mỏi với việc phải tự tay in ấn, cắt dán bưu kiện và tìm nơi cất giấu giữa trời đông giá rét.",
+    "words": 43
+   },
+   {
+    "id": "4.02#3",
+    "text": "Hắn muốn chuyển sang một hình thức giao tiếp hiện đại hơn: Gửi các tập tin vi tính.",
+    "words": 18
+   },
+   {
+    "id": "4.02#4",
+    "text": "Nhưng thời điểm đó, Rader đã 60 tuổi và hoàn toàn mù mờ về các nguyên lý hoạt động của công nghệ số.",
+    "words": 23
+   },
+   {
+    "id": "4.02#5",
+    "text": "Ngày 8 tháng 1 năm 2005, Dennis Rader lén đặt một hộp ngũ cốc trên thùng một chiếc xe bán tải tại bãi đỗ xe Home Depot ở Wichita.",
+    "words": 29
+   },
+   {
+    "id": "4.02#6",
+    "text": "Bên trong hộp ngũ cốc là một mẩu giấy viết tay gửi tới cảnh sát, đặt ra một câu hỏi ngây thơ đến mức khó tin:",
+    "words": 26
+   },
+   {
+    "id": "4.02#7",
+    "text": "“Tôi có thể liên lạc bằng Đĩa mềm vi tính mà không bị truy vết đến máy tính hay không?",
+    "words": 20
+   },
+   {
+    "id": "4.02#8",
+    "text": "Hãy trả lời thành thật nhé.”",
+    "words": 6
+   },
+   {
+    "id": "4.02#9",
+    "text": "Và hắn yêu cầu cảnh sát trả lời bằng một dòng tin nhắn mật đăng trên mục rao vặt 494 của tờ báo The Wichita Eagle.",
+    "words": 26
+   }
+  ]
+ },
+ {
+  "id": "4.03",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "Tiếng lật giở trang báo giấy sột soạt."
+ },
+ {
+  "id": "4.04",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Giọng sắc bén, tái hiện nước cờ quyết định",
+  "text": "Khi bức thư đó được đặt lên bàn làm việc của Trung úy Ken Landwehr – chỉ huy đội chuyên án – tất cả chúng tôi đều hiểu rằng: Cơ hội 30 năm có một đã xuất hiện. Chúng tôi lập tức tham vấn các chuyên gia pháp y kỹ thuật số. Họ khẳng định: Bất kỳ tập tin nào được tạo ra trên máy tính đều lưu lại dấu vết dữ liệu ẩn, gọi là Metadata. Ban chuyên án quyết định tung đòn lừa tâm lý: Ngày 10 tháng 2 năm 2005, trên mục rao vặt của tờ The Wichita Eagle, một mẩu tin nhắn ngắn xuất hiện với nội dung: “Rex, mọi chuyện sẽ ổn để gửi nó”. Kẻ ái kỷ Dennis Rader hoàn toàn tin tưởng vào “lời hứa” của cảnh sát. Sáu ngày sau, ngày 16 tháng 2 năm 2005, một gói bưu phẩm được gửi tới đài truyền hình KSAS-TV. Bên trong là một chiếc đĩa mềm Memorex dung lượng 1.44 Megabyte màu tím.",
+  "sentences": [
+   {
+    "id": "4.04#1",
+    "text": "Khi bức thư đó được đặt lên bàn làm việc của Trung úy Ken Landwehr – chỉ huy đội chuyên án – tất cả chúng tôi đều hiểu rằng: Cơ hội 30 năm có một đã xuất hiện.",
+    "words": 38
+   },
+   {
+    "id": "4.04#2",
+    "text": "Chúng tôi lập tức tham vấn các chuyên gia pháp y kỹ thuật số.",
+    "words": 14
+   },
+   {
+    "id": "4.04#3",
+    "text": "Họ khẳng định: Bất kỳ tập tin nào được tạo ra trên máy tính đều lưu lại dấu vết dữ liệu ẩn, gọi là Metadata.",
+    "words": 25
+   },
+   {
+    "id": "4.04#4",
+    "text": "Ban chuyên án quyết định tung đòn lừa tâm lý:",
+    "words": 10
+   },
+   {
+    "id": "4.04#5",
+    "text": "Ngày 10 tháng 2 năm 2005, trên mục rao vặt của tờ The Wichita Eagle, một mẩu tin nhắn ngắn xuất hiện với nội dung: “Rex, mọi chuyện sẽ ổn để gửi nó”.",
+    "words": 33
+   },
+   {
+    "id": "4.04#6",
+    "text": "Kẻ ái kỷ Dennis Rader hoàn toàn tin tưởng vào “lời hứa” của cảnh sát.",
+    "words": 15
+   },
+   {
+    "id": "4.04#7",
+    "text": "Sáu ngày sau, ngày 16 tháng 2 năm 2005, một gói bưu phẩm được gửi tới đài truyền hình KSAS-TV.",
+    "words": 20
+   },
+   {
+    "id": "4.04#8",
+    "text": "Bên trong là một chiếc đĩa mềm Memorex dung lượng 1.44 Megabyte màu tím.",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "4.05",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "Tiếng nạp đĩa mềm vào ổ đĩa kêu 'Cạch... Rè... Rè...' của máy vi tính cổ điển."
+ },
+ {
+  "id": "4.06",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng đọc hồi hộp, nghẹt thở",
+  "text": "Chiếc đĩa mềm màu tím lập tức được chuyển thẳng tới phòng giám định kỹ thuật số của cảnh sát. Chuyên gia Randy Stone tiến hành quét sâu vào các cung từ tính của đĩa bằng phần mềm pháp y chuyên dụng. Bên cạnh tập tin hiển thị mang tên TestA.rtf, ông đã khôi phục được một tập tin Microsoft Word đã bị xóa trước đó. Và trong phần thuộc tính siêu dữ liệu ẩn của tập tin ấy, hai dòng chữ định mệnh đã lộ diện: Dòng thứ nhất: “Sửa đổi lần cuối bởi: Dennis”. Dòng thứ hai: “Được đăng ký bởi tổ chức: Nhà thờ Lutheran Chúa Kitô”.",
+  "sentences": [
+   {
+    "id": "4.06#1",
+    "text": "Chiếc đĩa mềm màu tím lập tức được chuyển thẳng tới phòng giám định kỹ thuật số của cảnh sát.",
+    "words": 20
+   },
+   {
+    "id": "4.06#2",
+    "text": "Chuyên gia Randy Stone tiến hành quét sâu vào các cung từ tính của đĩa bằng phần mềm pháp y chuyên dụng.",
+    "words": 22
+   },
+   {
+    "id": "4.06#3",
+    "text": "Bên cạnh tập tin hiển thị mang tên TestA.rtf, ông đã khôi phục được một tập tin Microsoft Word đã bị xóa trước đó.",
+    "words": 24
+   },
+   {
+    "id": "4.06#4",
+    "text": "Và trong phần thuộc tính siêu dữ liệu ẩn của tập tin ấy, hai dòng chữ định mệnh đã lộ diện:",
+    "words": 21
+   },
+   {
+    "id": "4.06#5",
+    "text": "Dòng thứ nhất: “Sửa đổi lần cuối bởi: Dennis”.",
+    "words": 9
+   },
+   {
+    "id": "4.06#6",
+    "text": "Dòng thứ hai: “Được đăng ký bởi tổ chức: Nhà thờ Lutheran Chúa Kitô”.",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "4.07",
+  "act": 4,
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": "Nhạc nền dừng đột ngột"
+ },
+ {
+  "id": "4.08",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Giọng đanh thép, đầy cảm xúc chiến thắng",
+  "text": "Các điều tra viên lập tức gõ từ khóa lên công cụ tìm kiếm: “Nhà thờ Lutheran Chúa Kitô Wichita Dennis”. Chỉ sau một cú nhấp chuột, trang chủ của nhà thờ hiện ra với danh sách ban lãnh đạo: Chủ tịch Hội đồng Nhà thờ: Dennis Rader. Tất cả các mảnh ghép trong 30 năm lập tức khớp nối lại hoàn hảo: Chiếc xe bán tải màu đen của Rader khớp với chiếc xe xuất hiện trong camera an ninh tại các điểm gửi thư. Địa chỉ nhà của hắn tại số 6220 đường Independence nằm ngay trung tâm vùng hoạt động của các vụ án. Và để đảm bảo chứng cứ ADN sinh học tuyệt đối trước khi bắt giữ, chúng tôi đã xin lệnh tòa án thu giữ mẫu tế bào y tế của con gái Rader từ trạm xá trường đại học. Kết quả đối chiếu ADN từ phòng thí nghiệm pháp y khẳng định 100%: Mẫu ADN thu được tại các hiện trường án mạng của BTK chính là người cha sinh học của cô gái. Vòng vây chính thức khép lại.",
+  "sentences": [
+   {
+    "id": "4.08#1",
+    "text": "Các điều tra viên lập tức gõ từ khóa lên công cụ tìm kiếm: “Nhà thờ Lutheran Chúa Kitô Wichita Dennis”.",
+    "words": 21
+   },
+   {
+    "id": "4.08#2",
+    "text": "Chỉ sau một cú nhấp chuột, trang chủ của nhà thờ hiện ra với danh sách ban lãnh đạo:",
+    "words": 19
+   },
+   {
+    "id": "4.08#3",
+    "text": "Chủ tịch Hội đồng Nhà thờ: Dennis Rader.",
+    "words": 8
+   },
+   {
+    "id": "4.08#4",
+    "text": "Tất cả các mảnh ghép trong 30 năm lập tức khớp nối lại hoàn hảo:",
+    "words": 15
+   },
+   {
+    "id": "4.08#5",
+    "text": "Chiếc xe bán tải màu đen của Rader khớp với chiếc xe xuất hiện trong camera an ninh tại các điểm gửi thư.",
+    "words": 23
+   },
+   {
+    "id": "4.08#6",
+    "text": "Địa chỉ nhà của hắn tại số 6220 đường Independence nằm ngay trung tâm vùng hoạt động của các vụ án.",
+    "words": 21
+   },
+   {
+    "id": "4.08#7",
+    "text": "Và để đảm bảo chứng cứ ADN sinh học tuyệt đối trước khi bắt giữ, chúng tôi đã xin lệnh tòa án thu giữ mẫu tế bào y tế của con gái Rader từ trạm xá trường đại học.",
+    "words": 39
+   },
+   {
+    "id": "4.08#8",
+    "text": "Kết quả đối chiếu ADN từ phòng thí nghiệm pháp y khẳng định 100%: Mẫu ADN thu được tại các hiện trường án mạng của BTK chính là người cha sinh học của cô gái.",
+    "words": 35
+   },
+   {
+    "id": "4.08#9",
+    "text": "Vòng vây chính thức khép lại.",
+    "words": 6
+   }
+  ]
+ },
+ {
+  "id": "4.09",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "Tiếng còi xe cảnh sát rền vang từ xa, tiếng phanh xe dồn dập trên đường nhựa."
+ },
+ {
+  "id": "4.10",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Hạ trầm giọng",
+  "text": "Trưa ngày 25 tháng 2 năm 2005. Khi Dennis Rader đang lái chiếc xe bán tải về nhà để ăn trưa cùng vợ, hàng chục xe cảnh sát đã bao vây và chặn đứng đầu xe của hắn. Gã đàn ông 60 tuổi bị khóa tay trong sự ngỡ ngàng tột độ. Nhưng khoảnh khắc đắt giá nhất của tâm lý học tư pháp diễn ra vài giờ sau đó, khi Rader ngồi đối diện với Trung úy Ken Landwehr trong phòng hỏi cung.",
+  "sentences": [
+   {
+    "id": "4.10#1",
+    "text": "Trưa ngày 25 tháng 2 năm 2005.",
+    "words": 7
+   },
+   {
+    "id": "4.10#2",
+    "text": "Khi Dennis Rader đang lái chiếc xe bán tải về nhà để ăn trưa cùng vợ, hàng chục xe cảnh sát đã bao vây và chặn đứng đầu xe của hắn.",
+    "words": 31
+   },
+   {
+    "id": "4.10#3",
+    "text": "Gã đàn ông 60 tuổi bị khóa tay trong sự ngỡ ngàng tột độ.",
+    "words": 14
+   },
+   {
+    "id": "4.10#4",
+    "text": "Nhưng khoảnh khắc đắt giá nhất của tâm lý học tư pháp diễn ra vài giờ sau đó, khi Rader ngồi đối diện với Trung úy Ken Landwehr trong phòng hỏi cung.",
+    "words": 32
+   }
+  ]
+ },
+ {
+  "id": "4.11",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "Tiếng cánh cửa sắt phòng thẩm vấn đóng sầm lại 'Rầm'."
+ },
+ {
+  "id": "4.12",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Tái hiện cuộc đối thoại kinh điển",
+  "text": "Rader nhìn tôi với vẻ mặt bối rối, ngơ ngác như một đứa trẻ bị bạn chơi xấu. Hắn hỏi: “Ken, tôi phải hỏi thật anh một điều... Tại sao anh lại nói dối tôi về chiếc đĩa mềm?” Tôi nhìn thẳng vào mắt hắn và trả lời bình thản: “Bởi vì chúng tôi đang cố bắt anh.” Một kẻ thủ ác hàng loạt máu lạnh, kẻ từng thao túng nỗi sợ hãi của cả một bang suốt ba thập kỷ, lại cảm thấy bị tổn thương chỉ vì cảnh sát không giữ lời hứa trong một trò chơi của chính hắn. Và ngay sau câu trả lời đó, nhận ra chiếc mặt nạ đã hoàn toàn vỡ vụn, Rader bắt đầu thao thao bất tuyệt kể lại chi tiết từng vụ án suốt 30 giờ đồng hồ, với giọng điệu lạnh lùng và tự hào như một giáo sư đang giảng bài về thành tựu của cuộc đời mình.",
+  "sentences": [
+   {
+    "id": "4.12#1",
+    "text": "Rader nhìn tôi với vẻ mặt bối rối, ngơ ngác như một đứa trẻ bị bạn chơi xấu.",
+    "words": 18
+   },
+   {
+    "id": "4.12#2",
+    "text": "Hắn hỏi:",
+    "words": 2
+   },
+   {
+    "id": "4.12#3",
+    "text": "“Ken, tôi phải hỏi thật anh một điều...",
+    "words": 8
+   },
+   {
+    "id": "4.12#4",
+    "text": "Tại sao anh lại nói dối tôi về chiếc đĩa mềm?”",
+    "words": 11
+   },
+   {
+    "id": "4.12#5",
+    "text": "Tôi nhìn thẳng vào mắt hắn và trả lời bình thản:",
+    "words": 11
+   },
+   {
+    "id": "4.12#6",
+    "text": "“Bởi vì chúng tôi đang cố bắt anh.”",
+    "words": 8
+   },
+   {
+    "id": "4.12#7",
+    "text": "Một kẻ thủ ác hàng loạt máu lạnh, kẻ từng thao túng nỗi sợ hãi của cả một bang suốt ba thập kỷ, lại cảm thấy bị tổn thương chỉ vì cảnh sát không giữ lời hứa trong một trò chơi của chính hắn.",
+    "words": 44
+   },
+   {
+    "id": "4.12#8",
+    "text": "Và ngay sau câu trả lời đó, nhận ra chiếc mặt nạ đã hoàn toàn vỡ vụn, Rader bắt đầu thao thao bất tuyệt kể lại chi tiết từng vụ án suốt 30 giờ đồng hồ, với giọng điệu lạnh lùng và tự hào như một giáo sư đang giảng bài về thành tựu của cuộc đời mình.",
+    "words": 58
+   }
+  ]
+ },
+ {
+  "id": "4.13",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "Tiếng thở dài nghẹn ngào của một người phụ nữ."
+ },
+ {
+  "id": "4.14",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng trầm lắng, giàu cảm xúc nhân văn",
+  "text": "Nhưng phía sau sự thỏa mãn bệnh hoạn của kẻ thủ ác là sự sụp đổ kinh hoàng của những người thân yêu nhất. Hãy lắng nghe lời tâm sự nghẹn ngào từ Kerri Rawson – con gái ruột của Dennis Rader – khi nhớ về khoảnh khắc định mệnh ấy.",
+  "sentences": [
+   {
+    "id": "4.14#1",
+    "text": "Nhưng phía sau sự thỏa mãn bệnh hoạn của kẻ thủ ác là sự sụp đổ kinh hoàng của những người thân yêu nhất.",
+    "words": 24
+   },
+   {
+    "id": "4.14#2",
+    "text": "Hãy lắng nghe lời tâm sự nghẹn ngào từ Kerri Rawson – con gái ruột của Dennis Rader – khi nhớ về khoảnh khắc định mệnh ấy.",
+    "words": 27
+   }
+  ]
+ },
+ {
+  "id": "4.15",
+  "act": 4,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "Giọng nữ nghẹn ngào, run rẩy trong nỗi đau đớn tột cùng",
+  "text": "Cả thế giới biết đến ông ấy là một con quái vật man rợ. Nhưng với tôi, ông ấy từng là người cha tuyệt vời nhất: người đã dạy tôi đạp xe, dạy tôi câu cá, đưa tôi vào lễ đường và luôn chăm sóc gia đình chu đáo. Khi các đặc vụ FBI gõ cửa và thông báo sự thật, toàn bộ ký ức tuổi thơ của tôi sụp đổ hoàn toàn. Cảm giác đau đớn nhất không phải là phát hiện ra tội ác ngoài xã hội, mà là nhận ra kẻ thủ ác bị cả đất nước truy lùng... từng ôm mình vào lòng chúc ngủ ngon mỗi đêm.",
+  "sentences": [
+   {
+    "id": "4.15#1",
+    "text": "Cả thế giới biết đến ông ấy là một con quái vật man rợ.",
+    "words": 14
+   },
+   {
+    "id": "4.15#2",
+    "text": "Nhưng với tôi, ông ấy từng là người cha tuyệt vời nhất: người đã dạy tôi đạp xe, dạy tôi câu cá, đưa tôi vào lễ đường và luôn chăm sóc gia đình chu đáo.",
+    "words": 35
+   },
+   {
+    "id": "4.15#3",
+    "text": "Khi các đặc vụ FBI gõ cửa và thông báo sự thật, toàn bộ ký ức tuổi thơ của tôi sụp đổ hoàn toàn.",
+    "words": 24
+   },
+   {
+    "id": "4.15#4",
+    "text": "Cảm giác đau đớn nhất không phải là phát hiện ra tội ác ngoài xã hội, mà là nhận ra kẻ thủ ác bị cả đất nước truy lùng... từng ôm mình vào lòng chúc ngủ ngon mỗi đêm.",
+    "words": 39
+   }
+  ]
+ },
+ {
+  "id": "5.01",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "Tiếng búa tòa án gõ 'Cốp... Cốp... Cốp' dứt khoát và trang nghiêm. Nhạc nền Piano tối giản hòa cùng tiếng vĩ cầm ngân dài da diết, mang màu sắc chiêm nghiệm sâu lắng về nhân sinh."
+ },
+ {
+  "id": "5.02",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng đọc trang nghiêm, đanh thép",
+  "text": "Ngày 18 tháng 8 năm 2005. Tại Tòa án Quận Sedgwick, thành phố Wichita. Thẩm phán Gregory Waller chính thức tuyên phạt Dennis Lynn Rader 10 bản án tù chung thân liên tiếp cho 10 tội danh tước đoạt mạng sống con người, với thời hạn thụ án tối thiểu lên tới 175 năm mà không có bất kỳ cơ hội nào được xem xét ân xá. Vào thời điểm Rader gây án, bang Kansas chưa áp dụng mức án tử hình, vì vậy mức án chung thân không ân xá là hình phạt nghiêm khắc nhất mà pháp luật có thể dành cho hắn. Hiện tại, ở tuổi ngoài 80, Dennis Rader đang thụ án trong một buồng giam biệt lập tại Nhà tù El Dorado – nơi hắn bị cô lập hoàn toàn với xã hội và phải đối diện với sự im lặng tuyệt đối cho đến ngày cuối cùng của cuộc đời.",
+  "sentences": [
+   {
+    "id": "5.02#1",
+    "text": "Ngày 18 tháng 8 năm 2005.",
+    "words": 6
+   },
+   {
+    "id": "5.02#2",
+    "text": "Tại Tòa án Quận Sedgwick, thành phố Wichita.",
+    "words": 8
+   },
+   {
+    "id": "5.02#3",
+    "text": "Thẩm phán Gregory Waller chính thức tuyên phạt Dennis Lynn Rader 10 bản án tù chung thân liên tiếp cho 10 tội danh tước đoạt mạng sống con người, với thời hạn thụ án tối thiểu lên tới 175 năm mà không có bất kỳ cơ hội nào được xem xét ân xá.",
+    "words": 53
+   },
+   {
+    "id": "5.02#4",
+    "text": "Vào thời điểm Rader gây án, bang Kansas chưa áp dụng mức án tử hình, vì vậy mức án chung thân không ân xá là hình phạt nghiêm khắc nhất mà pháp luật có thể dành cho hắn.",
+    "words": 38
+   },
+   {
+    "id": "5.02#5",
+    "text": "Hiện tại, ở tuổi ngoài 80, Dennis Rader đang thụ án trong một buồng giam biệt lập tại Nhà tù El Dorado – nơi hắn bị cô lập hoàn toàn với xã hội và phải đối diện với sự im lặng tuyệt đối cho đến ngày cuối cùng của cuộc đời.",
+    "words": 51
+   }
+  ]
+ },
+ {
+  "id": "5.03",
+  "act": 5,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
+ },
+ {
+  "id": "5.04",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng đọc trang nghiêm, đanh thép",
+  "text": "Hồ sơ BTK khép lại sau hơn ba thập kỷ ròng rã, để lại cho các nhà điều tra và toàn xã hội những bài học đắt giá về sự nhận diện cái ác ẩn mình sau vỏ bọc hoàn hảo. Xin mời Chuyên gia tâm lý và Điều tra viên cùng đúc kết 4 Dấu hiệu cảnh báo đỏ (Red Flags) về những nhân cách ái kỷ ác tính trong đời sống thường nhật.",
+  "sentences": [
+   {
+    "id": "5.04#1",
+    "text": "Hồ sơ BTK khép lại sau hơn ba thập kỷ ròng rã, để lại cho các nhà điều tra và toàn xã hội những bài học đắt giá về sự nhận diện cái ác ẩn mình sau vỏ bọc hoàn hảo.",
+    "words": 41
+   },
+   {
+    "id": "5.04#2",
+    "text": "Xin mời Chuyên gia tâm lý và Điều tra viên cùng đúc kết 4 Dấu hiệu cảnh báo đỏ (Red Flags) về những nhân cách ái kỷ ác tính trong đời sống thường nhật.",
+    "words": 34
+   }
+  ]
+ },
+ {
+  "id": "5.05",
+  "act": 5,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "Nhấn mạnh từng luận điểm khoa học",
+  "text": "Dấu hiệu thứ nhất: Sự ám ảnh kiểm soát quy tắc cực đoan. Hãy cẩn trọng với những cá nhân luôn thể hiện sự cứng nhắc bệnh hoạn đối với các luật lệ nhỏ nhặt, luôn tìm cách áp chế và trừng phạt người khác bằng các quy định hành chính tầm thường. Đó thường là dấu hiệu của một nhu cầu kiểm soát quyền lực bị dồn nén. Dấu hiệu thứ hai: Sự tách biệt cảm xúc đằng sau vẻ ngoài nhiệt thành (Shallow Affect). Một người có thể rất năng nổ tham gia các hoạt động xã hội, từ thiện hay tôn giáo, nhưng trong các mối quan hệ thực chất lại hoàn toàn thiếu vắng sự thấu cảm chân thành trước nỗi đau của đồng loại – đó là biểu hiện kinh điển của nhân cách phòng vệ thái nhân cách.",
+  "sentences": [
+   {
+    "id": "5.05#1",
+    "text": "Dấu hiệu thứ nhất: Sự ám ảnh kiểm soát quy tắc cực đoan.",
+    "words": 13
+   },
+   {
+    "id": "5.05#2",
+    "text": "Hãy cẩn trọng với những cá nhân luôn thể hiện sự cứng nhắc bệnh hoạn đối với các luật lệ nhỏ nhặt, luôn tìm cách áp chế và trừng phạt người khác bằng các quy định hành chính tầm thường.",
+    "words": 40
+   },
+   {
+    "id": "5.05#3",
+    "text": "Đó thường là dấu hiệu của một nhu cầu kiểm soát quyền lực bị dồn nén.",
+    "words": 16
+   },
+   {
+    "id": "5.05#4",
+    "text": "Dấu hiệu thứ hai: Sự tách biệt cảm xúc đằng sau vẻ ngoài nhiệt thành (Shallow Affect).",
+    "words": 17
+   },
+   {
+    "id": "5.05#5",
+    "text": "Một người có thể rất năng nổ tham gia các hoạt động xã hội, từ thiện hay tôn giáo, nhưng trong các mối quan hệ thực chất lại hoàn toàn thiếu vắng sự thấu cảm chân thành trước nỗi đau của đồng loại – đó là biểu hiện kinh điển của nhân cách phòng vệ thái nhân cách.",
+    "words": 58
+   }
+  ]
+ },
+ {
+  "id": "5.06",
+  "act": 5,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Tiếp lời dưới góc độ quan sát thực địa",
+  "text": "Dấu hiệu thứ ba: Thói quen bí mật lưu trữ vật dụng của người khác. Hành vi lén lút thu thập, cất giấu các kỷ vật riêng tư, giấy tờ tùy thân hoặc đồ dùng cá nhân của người khác như một dạng chiến lợi phẩm là chỉ dấu nguy hiểm nhất của một kẻ đang nuôi dưỡng các hưng tưởng săn mồi ngầm. Và dấu hiệu thứ tư: Nhu cầu ái kỷ khao khát được công nhận bằng mọi giá. Những kẻ phạm tội ái kỷ luôn mang trong mình một lỗ hổng tự tôn khổng lồ. Chúng có thể kìm nén hành vi trong một thời gian dài, nhưng sẽ dễ dàng bộc lộ sơ hở và tự hủy hoại bản thân khi cái tôi kiêu ngạo bị thách thức hoặc khi cơn thèm khát danh tiếng trỗi dậy.",
+  "sentences": [
+   {
+    "id": "5.06#1",
+    "text": "Dấu hiệu thứ ba: Thói quen bí mật lưu trữ vật dụng của người khác.",
+    "words": 15
+   },
+   {
+    "id": "5.06#2",
+    "text": "Hành vi lén lút thu thập, cất giấu các kỷ vật riêng tư, giấy tờ tùy thân hoặc đồ dùng cá nhân của người khác như một dạng chiến lợi phẩm là chỉ dấu nguy hiểm nhất của một kẻ đang nuôi dưỡng các hưng tưởng săn mồi ngầm.",
+    "words": 49
+   },
+   {
+    "id": "5.06#3",
+    "text": "Và dấu hiệu thứ tư: Nhu cầu ái kỷ khao khát được công nhận bằng mọi giá.",
+    "words": 17
+   },
+   {
+    "id": "5.06#4",
+    "text": "Những kẻ phạm tội ái kỷ luôn mang trong mình một lỗ hổng tự tôn khổng lồ.",
+    "words": 17
+   },
+   {
+    "id": "5.06#5",
+    "text": "Chúng có thể kìm nén hành vi trong một thời gian dài, nhưng sẽ dễ dàng bộc lộ sơ hở và tự hủy hoại bản thân khi cái tôi kiêu ngạo bị thách thức hoặc khi cơn thèm khát danh tiếng trỗi dậy.",
+    "words": 43
+   }
+  ]
+ },
+ {
+  "id": "5.07",
+  "act": 5,
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": "Nhạc nền Piano dâng lên nhẹ nhàng, ấm áp"
+ },
+ {
+  "id": "5.08",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng đọc trầm ấm, truyền cảm, khép lại tập podcast",
+  "text": "Hồ sơ về Dennis Rader khép lại với một thông điệp sâu sắc về quy luật nhân quả và sự tự hủy diệt của cái ác. Hắn đã từng tin rằng sự tỉ mỉ, tính kỷ luật và chiếc mặt nạ của một người sùng đạo có thể bảo vệ hắn thoát khỏi lưới trời mãi mãi. Thế nhưng, kẻ ác có thể đánh lừa được hàng xóm, đánh lừa được gia đình, thậm chí đánh lừa được cả hệ thống tư pháp suốt 30 năm... nhưng hắn không bao giờ có thể đánh lừa được con quái vật ái kỷ bên trong chính bản thân mình. Chính sự kiêu ngạo, cơn nghiện được tung hô và ảo tưởng về sự toàn năng đã dẫn Dennis Rader vào chiếc bẫy của chiếc đĩa mềm màu tím, biến cái tôi ngạo nghễ trở thành chiếc chìa khóa tự khóa chặt cánh cửa tự do của cuộc đời hắn. Công lý có thể đến muộn, nhưng với sự kiên trì của những người thực thi pháp luật và sức mạnh của khoa học hình sự, bóng tối sẽ luôn phải cúi đầu trước ánh sáng của sự thật.",
+  "sentences": [
+   {
+    "id": "5.08#1",
+    "text": "Hồ sơ về Dennis Rader khép lại với một thông điệp sâu sắc về quy luật nhân quả và sự tự hủy diệt của cái ác.",
+    "words": 26
+   },
+   {
+    "id": "5.08#2",
+    "text": "Hắn đã từng tin rằng sự tỉ mỉ, tính kỷ luật và chiếc mặt nạ của một người sùng đạo có thể bảo vệ hắn thoát khỏi lưới trời mãi mãi.",
+    "words": 31
+   },
+   {
+    "id": "5.08#3",
+    "text": "Thế nhưng, kẻ ác có thể đánh lừa được hàng xóm, đánh lừa được gia đình, thậm chí đánh lừa được cả hệ thống tư pháp suốt 30 năm... nhưng hắn không bao giờ có thể đánh lừa được con quái vật ái kỷ bên trong chính bản thân mình.",
+    "words": 50
+   },
+   {
+    "id": "5.08#4",
+    "text": "Chính sự kiêu ngạo, cơn nghiện được tung hô và ảo tưởng về sự toàn năng đã dẫn Dennis Rader vào chiếc bẫy của chiếc đĩa mềm màu tím, biến cái tôi ngạo nghễ trở thành chiếc chìa khóa tự khóa chặt cánh cửa tự do của cuộc đời hắn.",
+    "words": 50
+   },
+   {
+    "id": "5.08#5",
+    "text": "Công lý có thể đến muộn, nhưng với sự kiên trì của những người thực thi pháp luật và sức mạnh của khoa học hình sự, bóng tối sẽ luôn phải cúi đầu trước ánh sáng của sự thật.",
+    "words": 39
+   }
+  ]
+ },
+ {
+  "id": "5.09",
+  "act": 5,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
+ },
+ {
+  "id": "5.10",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng đọc trầm ấm, truyền cảm, khép lại tập podcast",
+  "text": "Cảm ơn các chuyên gia và điều tra viên đã đồng hành cùng chương trình. Cảm ơn quý vị thính giả đã theo dõi trọn vẹn tập podcast ngày hôm nay. Hãy luôn tỉnh thức, giữ cho mình một tâm hồn hướng thiện, và hẹn gặp lại các bạn trong hồ sơ phân tích tâm lý tội phạm tiếp theo.",
+  "sentences": [
+   {
+    "id": "5.10#1",
+    "text": "Cảm ơn các chuyên gia và điều tra viên đã đồng hành cùng chương trình.",
+    "words": 15
+   },
+   {
+    "id": "5.10#2",
+    "text": "Cảm ơn quý vị thính giả đã theo dõi trọn vẹn tập podcast ngày hôm nay.",
+    "words": 16
+   },
+   {
+    "id": "5.10#3",
+    "text": "Hãy luôn tỉnh thức, giữ cho mình một tâm hồn hướng thiện, và hẹn gặp lại các bạn trong hồ sơ phân tích tâm lý tội phạm tiếp theo.",
+    "words": 29
+   }
+  ]
+ },
+ {
+  "id": "5.11",
+  "act": 5,
+  "kind": "SFX",
+  "desc": "Tiếng đóng tập hồ sơ giấy 'Bụp', theo sau là tiếng gõ máy đánh chữ dứt khoát một tiếng 'Cạch'."
+ },
+ {
+  "id": "5.12",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "Tiếng đàn Cello ngân dài sâu lắng 5 giây rồi từ từ nhỏ dần và tan vào hư không (Fade out)."
+ }
+]

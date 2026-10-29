@@ -1,0 +1,1567 @@
+[
+ {
+  "id": "1.01",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "A cold wind hissing through the metal frame of a window in the dead of night. The vintage metallic hum of a 1970s long-distance telephone line."
+ },
+ {
+  "id": "1.02",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "The sharp metallic clink of a coin dropping into a public payphone slot, followed by the mechanical clicking of a rotary dial."
+ },
+ {
+  "id": "1.03",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "slow, low, uncovering a dark mystery",
+  "text": "The early morning of Tuesday, April 24th, 1973. Four o’clock in the morning, amid the biting cold wind of Pueblo, Colorado. Over one thousand miles away, at police headquarters in Santa Cruz, California, the duty desk phone rang loudly, shattering the nocturnal silence. On the other end was a deep, calm male voice, speaking with eerie precision and composure. The caller identified himself as Edmund Kemper, calling from a roadside payphone booth. It was “Big Ed” — a 24-year-old young man, six feet nine inches tall, weighing around 280 pounds. He was a regular at The Jury Room bar, frequently drinking beer and chatting warmly with police officers after their patrol shifts. And just a few days earlier, he had murdered his own mother.",
+  "sentences": [
+   {
+    "id": "1.03#1",
+    "text": "The early morning of Tuesday, April 24th, 1973.",
+    "words": 8
+   },
+   {
+    "id": "1.03#2",
+    "text": "Four o’clock in the morning, amid the biting cold wind of Pueblo, Colorado.",
+    "words": 13
+   },
+   {
+    "id": "1.03#3",
+    "text": "Over one thousand miles away, at police headquarters in Santa Cruz, California, the duty desk phone rang loudly, shattering the nocturnal silence.",
+    "words": 22
+   },
+   {
+    "id": "1.03#4",
+    "text": "On the other end was a deep, calm male voice, speaking with eerie precision and composure.",
+    "words": 16
+   },
+   {
+    "id": "1.03#5",
+    "text": "The caller identified himself as Edmund Kemper, calling from a roadside payphone booth.",
+    "words": 13
+   },
+   {
+    "id": "1.03#6",
+    "text": "It was “Big Ed” — a 24-year-old young man, six feet nine inches tall, weighing around 280 pounds.",
+    "words": 18
+   },
+   {
+    "id": "1.03#7",
+    "text": "He was a regular at The Jury Room bar, frequently drinking beer and chatting warmly with police officers after their patrol shifts.",
+    "words": 22
+   },
+   {
+    "id": "1.03#8",
+    "text": "And just a few days earlier, he had murdered his own mother.",
+    "words": 12
+   }
+  ]
+ },
+ {
+  "id": "1.04",
+  "act": 1,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
+ },
+ {
+  "id": "1.05",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "slow, low, uncovering a dark mystery",
+  "text": "The night duty officer was intimately familiar with that name. Yet the words spoken through the receiver that night chilled the blood of the entire shift. In the archives of Inside Detective magazine from August 1973, Kemper’s own statement was recorded verbatim: ‘I killed my mother and her friend. And I killed those college girls. Six of them. I can show you where I buried the pieces of them.’",
+  "sentences": [
+   {
+    "id": "1.05#1",
+    "text": "The night duty officer was intimately familiar with that name.",
+    "words": 10
+   },
+   {
+    "id": "1.05#2",
+    "text": "Yet the words spoken through the receiver that night chilled the blood of the entire shift.",
+    "words": 16
+   },
+   {
+    "id": "1.05#3",
+    "text": "In the archives of Inside Detective magazine from August 1973, Kemper’s own statement was recorded verbatim:",
+    "words": 16
+   },
+   {
+    "id": "1.05#4",
+    "text": "‘I killed my mother and her friend.",
+    "words": 7
+   },
+   {
+    "id": "1.05#5",
+    "text": "And I killed those college girls.",
+    "words": 6
+   },
+   {
+    "id": "1.05#6",
+    "text": "Six of them.",
+    "words": 3
+   },
+   {
+    "id": "1.05#7",
+    "text": "I can show you where I buried the pieces of them.’",
+    "words": 11
+   }
+  ]
+ },
+ {
+  "id": "1.06",
+  "act": 1,
+  "kind": "NGHI",
+  "sec": 1.0,
+  "desc": ""
+ },
+ {
+  "id": "1.07",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "slow, low, uncovering a dark mystery",
+  "text": "When the line went dead, he called back. The first time, Santa Cruz police didn’t believe him; the second time, Kemper stated bluntly that he feared he would kill again and urged them to send someone. A few hours later, a Pueblo police cruiser pulled up beside the telephone booth. Edmund Kemper surrendered without resistance, with three firearms and hundreds of rounds of ammunition in his car.",
+  "sentences": [
+   {
+    "id": "1.07#1",
+    "text": "When the line went dead, he called back.",
+    "words": 8
+   },
+   {
+    "id": "1.07#2",
+    "text": "The first time, Santa Cruz police didn’t believe him; the second time, Kemper stated bluntly that he feared he would kill again and urged them to send someone.",
+    "words": 28
+   },
+   {
+    "id": "1.07#3",
+    "text": "A few hours later, a Pueblo police cruiser pulled up beside the telephone booth.",
+    "words": 14
+   },
+   {
+    "id": "1.07#4",
+    "text": "Edmund Kemper surrendered without resistance, with three firearms and hundreds of rounds of ammunition in his car.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "1.08",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "A tape recorder clicks on softly."
+ },
+ {
+  "id": "1.09",
+  "act": 1,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "middle-aged voice, slightly trembling — dramatized account based on 1973 press records, not a specific individual",
+  "text": "At first, I assumed Ed had too much to drink and was playing a prank. He insisted he was sober, but nobody believed a giant would call at four in the morning to say something like that. Santa Cruz police told him to call back later, because the department was busy handling another lead at the time. Around six in the morning, he called again, and this time stated plainly that he had killed his mother and her friend, telling us to send officers to check the house. Hours later, a Pueblo police cruiser pulled up beside the booth. We found him sitting there, as calm as someone waiting in line for a cup of coffee. We brought him back to Santa Cruz. And our entire police department was utterly devastated. The killer that all of California had been desperately hunting for months... had been sitting right next to us every evening.",
+  "sentences": [
+   {
+    "id": "1.09#1",
+    "text": "At first, I assumed Ed had too much to drink and was playing a prank.",
+    "words": 15
+   },
+   {
+    "id": "1.09#2",
+    "text": "He insisted he was sober, but nobody believed a giant would call at four in the morning to say something like that.",
+    "words": 22
+   },
+   {
+    "id": "1.09#3",
+    "text": "Santa Cruz police told him to call back later, because the department was busy handling another lead at the time.",
+    "words": 20
+   },
+   {
+    "id": "1.09#4",
+    "text": "Around six in the morning, he called again, and this time stated plainly that he had killed his mother and her friend, telling us to send officers to check the house.",
+    "words": 31
+   },
+   {
+    "id": "1.09#5",
+    "text": "Hours later, a Pueblo police cruiser pulled up beside the booth.",
+    "words": 11
+   },
+   {
+    "id": "1.09#6",
+    "text": "We found him sitting there, as calm as someone waiting in line for a cup of coffee.",
+    "words": 17
+   },
+   {
+    "id": "1.09#7",
+    "text": "We brought him back to Santa Cruz.",
+    "words": 7
+   },
+   {
+    "id": "1.09#8",
+    "text": "And our entire police department was utterly devastated.",
+    "words": 8
+   },
+   {
+    "id": "1.09#9",
+    "text": "The killer that all of California had been desperately hunting for months... had been sitting right next to us every evening.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "1.10",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "quickening pace, grave tone",
+  "text": "Police rushed into the scene at 609A Ord Drive, in the Aptos area of Santa Cruz County. Inside the bedroom, Clarnell Strandberg — Edmund Kemper’s 52-year-old mother — lay dead in a scene of brutal, venting rage. Later that afternoon, her close friend — 59-year-old Sara Taylor “Sally” Hallett — was also murdered inside the very same house. All of America was stunned by the identity of the notorious serial killer dubbed “The Co-ed Killer.” He was not caught in any elaborate police dragnet. He left no traceable evidence to be hunted down. He walked into a public telephone booth and surrendered voluntarily. Yet the motive was not the satisfaction of a psychopath who had “fulfilled” his desires. Under interrogation, Kemper explained that the original purpose had vanished, and he no longer found any meaning in it. But the real reason that compelled him to make that call was far more terrifying: ‘Stop me. I’m going to do it again.’ He didn’t call to brag. He called because he was terrified that he wouldn’t stop. To understand why this case forever transformed the history of modern criminal investigation, let us hear the perspective of an FBI Special Agent.",
+  "sentences": [
+   {
+    "id": "1.10#1",
+    "text": "Police rushed into the scene at 609A Ord Drive, in the Aptos area of Santa Cruz County.",
+    "words": 17
+   },
+   {
+    "id": "1.10#2",
+    "text": "Inside the bedroom, Clarnell Strandberg — Edmund Kemper’s 52-year-old mother — lay dead in a scene of brutal, venting rage.",
+    "words": 20
+   },
+   {
+    "id": "1.10#3",
+    "text": "Later that afternoon, her close friend — 59-year-old Sara Taylor “Sally” Hallett — was also murdered inside the very same house.",
+    "words": 21
+   },
+   {
+    "id": "1.10#4",
+    "text": "All of America was stunned by the identity of the notorious serial killer dubbed “The Co-ed Killer.”",
+    "words": 17
+   },
+   {
+    "id": "1.10#5",
+    "text": "He was not caught in any elaborate police dragnet.",
+    "words": 9
+   },
+   {
+    "id": "1.10#6",
+    "text": "He left no traceable evidence to be hunted down.",
+    "words": 9
+   },
+   {
+    "id": "1.10#7",
+    "text": "He walked into a public telephone booth and surrendered voluntarily.",
+    "words": 10
+   },
+   {
+    "id": "1.10#8",
+    "text": "Yet the motive was not the satisfaction of a psychopath who had “fulfilled” his desires.",
+    "words": 15
+   },
+   {
+    "id": "1.10#9",
+    "text": "Under interrogation, Kemper explained that the original purpose had vanished, and he no longer found any meaning in it.",
+    "words": 19
+   },
+   {
+    "id": "1.10#10",
+    "text": "But the real reason that compelled him to make that call was far more terrifying: ‘Stop me.",
+    "words": 17
+   },
+   {
+    "id": "1.10#11",
+    "text": "I’m going to do it again.’",
+    "words": 6
+   },
+   {
+    "id": "1.10#12",
+    "text": "He didn’t call to brag.",
+    "words": 5
+   },
+   {
+    "id": "1.10#13",
+    "text": "He called because he was terrified that he wouldn’t stop.",
+    "words": 10
+   },
+   {
+    "id": "1.10#14",
+    "text": "To understand why this case forever transformed the history of modern criminal investigation, let us hear the perspective of an FBI Special Agent.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "1.11",
+  "act": 1,
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": "the music stops abruptly, leaving only the echoing sound of footsteps in a prison corridor"
+ },
+ {
+  "id": "1.12",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "A heavy iron prison gate drags and screeches, slamming shut with a resonant boom."
+ },
+ {
+  "id": "1.13",
+  "act": 1,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "deep male voice, commanding, authoritative criminological analysis",
+  "text": "In the history of FBI behavioral profiling, Edmund Kemper remains an entirely singular case. Standing six feet nine inches with an overwhelming physical build, he possessed an IQ of 145 — placing him in the top 0.13 percent of the planet’s intellects. But what astonished us most was not his brutality, but his extraordinary capacity for psychological introspection. Kemper did not blame circumstances, nor did he deny guilt. He sat across from us in his prison cell and dissected every dark corner of his own mind with the clinical precision of a neurosurgeon. He became the very first case study in the Criminal Personality Research Project launched by the Behavioral Science Unit. His detailed interviews, along with 35 other convicted offenders in our study of 36 sexual murderers, laid the groundwork for the Bureau’s VICAP network, designed to track and cross-reference serial murder cases. That was not the moment the FBI invented criminal profiling — criminal investigative analysis had existed in earlier forms. But it was the watershed moment when a pioneering case study evolved into a standardized scientific discipline.",
+  "sentences": [
+   {
+    "id": "1.13#1",
+    "text": "In the history of FBI behavioral profiling, Edmund Kemper remains an entirely singular case.",
+    "words": 14
+   },
+   {
+    "id": "1.13#2",
+    "text": "Standing six feet nine inches with an overwhelming physical build, he possessed an IQ of 145 — placing him in the top 0.13 percent of the planet’s intellects.",
+    "words": 28
+   },
+   {
+    "id": "1.13#3",
+    "text": "But what astonished us most was not his brutality, but his extraordinary capacity for psychological introspection.",
+    "words": 16
+   },
+   {
+    "id": "1.13#4",
+    "text": "Kemper did not blame circumstances, nor did he deny guilt.",
+    "words": 10
+   },
+   {
+    "id": "1.13#5",
+    "text": "He sat across from us in his prison cell and dissected every dark corner of his own mind with the clinical precision of a neurosurgeon.",
+    "words": 25
+   },
+   {
+    "id": "1.13#6",
+    "text": "He became the very first case study in the Criminal Personality Research Project launched by the Behavioral Science Unit.",
+    "words": 19
+   },
+   {
+    "id": "1.13#7",
+    "text": "His detailed interviews, along with 35 other convicted offenders in our study of 36 sexual murderers, laid the groundwork for the Bureau’s VICAP network, designed to track and cross-reference serial murder cases.",
+    "words": 32
+   },
+   {
+    "id": "1.13#8",
+    "text": "That was not the moment the FBI invented criminal profiling — criminal investigative analysis had existed in earlier forms.",
+    "words": 19
+   },
+   {
+    "id": "1.13#9",
+    "text": "But it was the watershed moment when a pioneering case study evolved into a standardized scientific discipline.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "1.14",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "Melancholy cello strains blend with slow piano chords."
+ },
+ {
+  "id": "1.15",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "",
+  "text": "Welcome to our criminal psychology case files. Today, we step through the gates of the Vacaville Medical Facility to converse with one of the most brilliant and terrifying minds in legal history: Edmund Kemper — the giant who used his 145 IQ to decode the monster inside himself.",
+  "sentences": [
+   {
+    "id": "1.15#1",
+    "text": "Welcome to our criminal psychology case files.",
+    "words": 7
+   },
+   {
+    "id": "1.15#2",
+    "text": "Today, we step through the gates of the Vacaville Medical Facility to converse with one of the most brilliant and terrifying minds in legal history: Edmund Kemper — the giant who used his 145 IQ to decode the monster inside himself.",
+    "words": 41
+   }
+  ]
+ },
+ {
+  "id": "2.01",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "A steady drizzle patters on a car roof, windshield wipers squeaking rhythmically over dark ambient music."
+ },
+ {
+  "id": "2.02",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "captivating, chilled narration",
+  "text": "In the early 1970s, the coastal town of Santa Cruz was steeped in the freewheeling spirit of the counterculture movement. Thousands of young college students routinely stood by the roadside, thumbs up, hitchhiking — a ubiquitous and seemingly innocent fixture of daily life at the time. Yet beginning in May 1972, a dark shadow of unexplained disappearances began descending over the campus of the University of California, Santa Cruz.",
+  "sentences": [
+   {
+    "id": "2.02#1",
+    "text": "In the early 1970s, the coastal town of Santa Cruz was steeped in the freewheeling spirit of the counterculture movement.",
+    "words": 20
+   },
+   {
+    "id": "2.02#2",
+    "text": "Thousands of young college students routinely stood by the roadside, thumbs up, hitchhiking — a ubiquitous and seemingly innocent fixture of daily life at the time.",
+    "words": 26
+   },
+   {
+    "id": "2.02#3",
+    "text": "Yet beginning in May 1972, a dark shadow of unexplained disappearances began descending over the campus of the University of California, Santa Cruz.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "2.03",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "Shuffling victim dossier photographs across a wooden table."
+ },
+ {
+  "id": "2.04",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "captivating, chilled narration",
+  "text": "One by one, young, bright, promising women vanished without a trace after accepting rides from passing vehicles. The six victims in this series of killings were not all UCSC students, and each encountered the imposing giant under different circumstances. On May 7th, 1972, two Fresno State University freshmen — Mary Ann Pesce and Anita Luchessa, both 18 years old — accepted a ride. Kemper handcuffed one of them and locked the other inside the trunk. On September 14th, 1972, Aiko Koo, a young high school junior of just 15 years old. On January 7th, 1973, Cindy Schall, an 18-year-old student at Cabrillo College. He shot her with a .22 caliber pistol, attempted to retrieve the bullet to defeat ballistic matching, and disposed of the remains down coastal ravines. The victim’s head, however, he transported back and buried in his mother’s backyard garden. On February 5th, 1973, following a furious screaming match with his mother, Kemper drove off in a rage and picked up two UCSC students — Rosalind Thorpe, 23, and Alice Liu, 21 — as they stood hitchhiking.",
+  "sentences": [
+   {
+    "id": "2.04#1",
+    "text": "One by one, young, bright, promising women vanished without a trace after accepting rides from passing vehicles.",
+    "words": 17
+   },
+   {
+    "id": "2.04#2",
+    "text": "The six victims in this series of killings were not all UCSC students, and each encountered the imposing giant under different circumstances.",
+    "words": 22
+   },
+   {
+    "id": "2.04#3",
+    "text": "On May 7th, 1972, two Fresno State University freshmen — Mary Ann Pesce and Anita Luchessa, both 18 years old — accepted a ride.",
+    "words": 24
+   },
+   {
+    "id": "2.04#4",
+    "text": "Kemper handcuffed one of them and locked the other inside the trunk.",
+    "words": 12
+   },
+   {
+    "id": "2.04#5",
+    "text": "On September 14th, 1972, Aiko Koo, a young high school junior of just 15 years old.",
+    "words": 16
+   },
+   {
+    "id": "2.04#6",
+    "text": "On January 7th, 1973, Cindy Schall, an 18-year-old student at Cabrillo College.",
+    "words": 12
+   },
+   {
+    "id": "2.04#7",
+    "text": "He shot her with a .22 caliber pistol, attempted to retrieve the bullet to defeat ballistic matching, and disposed of the remains down coastal ravines.",
+    "words": 25
+   },
+   {
+    "id": "2.04#8",
+    "text": "The victim’s head, however, he transported back and buried in his mother’s backyard garden.",
+    "words": 14
+   },
+   {
+    "id": "2.04#9",
+    "text": "On February 5th, 1973, following a furious screaming match with his mother, Kemper drove off in a rage and picked up two UCSC students — Rosalind Thorpe, 23, and Alice Liu, 21 — as they stood hitchhiking.",
+    "words": 37
+   }
+  ]
+ },
+ {
+  "id": "2.05",
+  "act": 2,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
+ },
+ {
+  "id": "2.06",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "",
+  "text": "The remains of the victims were later discovered scattered across secluded ravines along the Santa Cruz Mountains. The head of Cindy Schall was buried in his mother’s garden directly beneath her bedroom window, because, as he sarcastically remarked: his mother “always wanted people to look up to her.” Every single scene was systematically scrubbed of forensic trace evidence: no fingerprints, no foreign fibers, not a single living witness. Just how meticulously crafted was the perpetrator’s Modus Operandi? Let us hear the forensic breakdown from our FBI Special Agent.",
+  "sentences": [
+   {
+    "id": "2.06#1",
+    "text": "The remains of the victims were later discovered scattered across secluded ravines along the Santa Cruz Mountains.",
+    "words": 17
+   },
+   {
+    "id": "2.06#2",
+    "text": "The head of Cindy Schall was buried in his mother’s garden directly beneath her bedroom window, because, as he sarcastically remarked: his mother “always wanted people to look up to her.”",
+    "words": 31
+   },
+   {
+    "id": "2.06#3",
+    "text": "Every single scene was systematically scrubbed of forensic trace evidence: no fingerprints, no foreign fibers, not a single living witness.",
+    "words": 20
+   },
+   {
+    "id": "2.06#4",
+    "text": "Just how meticulously crafted was the perpetrator’s Modus Operandi?",
+    "words": 9
+   },
+   {
+    "id": "2.06#5",
+    "text": "Let us hear the forensic breakdown from our FBI Special Agent.",
+    "words": 11
+   }
+  ]
+ },
+ {
+  "id": "2.07",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "sharp, methodical, analyzing criminal tradecraft",
+  "text": "Edmund Kemper was a master of weaponizing his daily transportation into a mobile death trap: He drove a yellow 1969 Ford Galaxie — an exceptionally common model that attracted zero suspicion. Affixed to the front bumper was a university employee parking decal. At the time, UCSC advised female students to hitchhike only with cars bearing university permits, and Kemper obtained that decal through his mother’s administrative job on campus. That small, trusted emblem turned his car into the vehicle young women considered safest of all. Inside his trunk, he kept an organized inventory of plastic bags, hunting knives, blankets, and handcuffs. To dismember remains and eliminate forensic evidence, he deployed specialized blades — including a heavy hunting knife he nicknamed “The General” — along with finely honed cutting implements. With his first two victims, he handcuffed one girl and forced the other into the trunk. And three firearms — a rifle, a shotgun, and a .22 caliber small-bore rifle — alongside over 200 rounds of ammunition, were found in the rental car in Reno, Nevada that he used during his interstate flight. Yet Kemper’s deadliest weapon was neither a gun nor a knife. It was his intellectual facade and disarming veneer of polite gentility. Standing six-foot-nine, Kemper knew perfectly well that his massive physique could terrify anyone. Consequently, he cultivated an exceptionally gentle tone of voice, wore academic wire-rimmed glasses, dressed immaculately, and spoke courteously on literature, philosophy, and campus life. Furthermore, he turned hitchhiking into a systematic dry run: prior to striking, he picked up approximately 150 stranger hitchhikers and dropped them off unharmed. One young woman later recalled that the hulking man appeared entirely gentle and had once driven her across a considerable distance.",
+  "sentences": [
+   {
+    "id": "2.07#1",
+    "text": "Edmund Kemper was a master of weaponizing his daily transportation into a mobile death trap:",
+    "words": 15
+   },
+   {
+    "id": "2.07#2",
+    "text": "He drove a yellow 1969 Ford Galaxie — an exceptionally common model that attracted zero suspicion.",
+    "words": 16
+   },
+   {
+    "id": "2.07#3",
+    "text": "Affixed to the front bumper was a university employee parking decal.",
+    "words": 11
+   },
+   {
+    "id": "2.07#4",
+    "text": "At the time, UCSC advised female students to hitchhike only with cars bearing university permits, and Kemper obtained that decal through his mother’s administrative job on campus.",
+    "words": 27
+   },
+   {
+    "id": "2.07#5",
+    "text": "That small, trusted emblem turned his car into the vehicle young women considered safest of all.",
+    "words": 16
+   },
+   {
+    "id": "2.07#6",
+    "text": "Inside his trunk, he kept an organized inventory of plastic bags, hunting knives, blankets, and handcuffs.",
+    "words": 16
+   },
+   {
+    "id": "2.07#7",
+    "text": "To dismember remains and eliminate forensic evidence, he deployed specialized blades — including a heavy hunting knife he nicknamed “The General” — along with finely honed cutting implements.",
+    "words": 28
+   },
+   {
+    "id": "2.07#8",
+    "text": "With his first two victims, he handcuffed one girl and forced the other into the trunk.",
+    "words": 16
+   },
+   {
+    "id": "2.07#9",
+    "text": "And three firearms — a rifle, a shotgun, and a .22 caliber small-bore rifle — alongside over 200 rounds of ammunition, were found in the rental car in Reno, Nevada that he used during his interstate flight.",
+    "words": 37
+   },
+   {
+    "id": "2.07#10",
+    "text": "Yet Kemper’s deadliest weapon was neither a gun nor a knife.",
+    "words": 11
+   },
+   {
+    "id": "2.07#11",
+    "text": "It was his intellectual facade and disarming veneer of polite gentility.",
+    "words": 11
+   },
+   {
+    "id": "2.07#12",
+    "text": "Standing six-foot-nine, Kemper knew perfectly well that his massive physique could terrify anyone.",
+    "words": 13
+   },
+   {
+    "id": "2.07#13",
+    "text": "Consequently, he cultivated an exceptionally gentle tone of voice, wore academic wire-rimmed glasses, dressed immaculately, and spoke courteously on literature, philosophy, and campus life.",
+    "words": 24
+   },
+   {
+    "id": "2.07#14",
+    "text": "Furthermore, he turned hitchhiking into a systematic dry run: prior to striking, he picked up approximately 150 stranger hitchhikers and dropped them off unharmed.",
+    "words": 24
+   },
+   {
+    "id": "2.07#15",
+    "text": "One young woman later recalled that the hulking man appeared entirely gentle and had once driven her across a considerable distance.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "2.08",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "lowering tone, contemplative",
+  "text": "Yet the question that troubled investigators most throughout that harrowing period was: Why young women in the Santa Cruz area? And how could someone responsible for such unspeakable horrors casually befriend the very lawmen hunting him? Let us listen to the local police officer recall those evenings at The Jury Room bar.",
+  "sentences": [
+   {
+    "id": "2.08#1",
+    "text": "Yet the question that troubled investigators most throughout that harrowing period was: Why young women in the Santa Cruz area?",
+    "words": 20
+   },
+   {
+    "id": "2.08#2",
+    "text": "And how could someone responsible for such unspeakable horrors casually befriend the very lawmen hunting him?",
+    "words": 16
+   },
+   {
+    "id": "2.08#3",
+    "text": "Let us listen to the local police officer recall those evenings at The Jury Room bar.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "2.09",
+  "act": 2,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "dramatized account based on press records",
+  "text": "The Jury Room bar sat directly across from the Santa Cruz County Courthouse, serving as the regular watering hole for detectives, patrolmen, and court staff after shift. Big Ed was an absolute fixture at his regular barstool in the corner. He was fantastic company: brilliant, possessing deep knowledge of criminal law, and always listening with rapt attention. He genuinely dreamed of becoming a police officer himself. Yet with his towering frame, no agency could accept him. There were even nights when we sat drinking draft beer with Ed, venting our frustrations over the elusive Co-ed Killer investigation. Ed would nod along, drink his beer, analyze the case, and even offer insightful theories about the killer’s psychology. Looking back on those moments years later, cold sweat still runs down my spine: The predator we were hunting... was sitting right beside us, drinking beer and laughing about the very manhunt we were conducting.",
+  "sentences": [
+   {
+    "id": "2.09#1",
+    "text": "The Jury Room bar sat directly across from the Santa Cruz County Courthouse, serving as the regular watering hole for detectives, patrolmen, and court staff after shift.",
+    "words": 27
+   },
+   {
+    "id": "2.09#2",
+    "text": "Big Ed was an absolute fixture at his regular barstool in the corner.",
+    "words": 13
+   },
+   {
+    "id": "2.09#3",
+    "text": "He was fantastic company: brilliant, possessing deep knowledge of criminal law, and always listening with rapt attention.",
+    "words": 17
+   },
+   {
+    "id": "2.09#4",
+    "text": "He genuinely dreamed of becoming a police officer himself.",
+    "words": 9
+   },
+   {
+    "id": "2.09#5",
+    "text": "Yet with his towering frame, no agency could accept him.",
+    "words": 10
+   },
+   {
+    "id": "2.09#6",
+    "text": "There were even nights when we sat drinking draft beer with Ed, venting our frustrations over the elusive Co-ed Killer investigation.",
+    "words": 21
+   },
+   {
+    "id": "2.09#7",
+    "text": "Ed would nod along, drink his beer, analyze the case, and even offer insightful theories about the killer’s psychology.",
+    "words": 19
+   },
+   {
+    "id": "2.09#8",
+    "text": "Looking back on those moments years later, cold sweat still runs down my spine: The predator we were hunting...",
+    "words": 19
+   },
+   {
+    "id": "2.09#9",
+    "text": "was sitting right beside us, drinking beer and laughing about the very manhunt we were conducting.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "3.01",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "Water dripping slowly, echoing through a damp, pitch-black basement. A lingering, haunting cello motif creates an atmosphere of suffocating dread."
+ },
+ {
+  "id": "3.02",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "",
+  "text": "To understand what drives a young man with the intelligence of a genius to become a serial killer, we cannot begin in 1972 when young women began disappearing. We must journey back in time to a cold, damp basement in Montana during the 1950s — where Edmund Kemper’s childhood was effectively imprisoned.",
+  "sentences": [
+   {
+    "id": "3.02#1",
+    "text": "To understand what drives a young man with the intelligence of a genius to become a serial killer, we cannot begin in 1972 when young women began disappearing.",
+    "words": 28
+   },
+   {
+    "id": "3.02#2",
+    "text": "We must journey back in time to a cold, damp basement in Montana during the 1950s — where Edmund Kemper’s childhood was effectively imprisoned.",
+    "words": 24
+   }
+  ]
+ },
+ {
+  "id": "3.03",
+  "act": 3,
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": ""
+ },
+ {
+  "id": "3.04",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "",
+  "text": "Let us invite our Criminal Psychologist to unlock the past and dissect the three deepest pathological layers within Edmund Kemper’s psyche.",
+  "sentences": [
+   {
+    "id": "3.04#1",
+    "text": "Let us invite our Criminal Psychologist to unlock the past and dissect the three deepest pathological layers within Edmund Kemper’s psyche.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "3.05",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "academic, incisive, deeply analytical",
+  "text": "The case of Edmund Kemper represents a textbook study in toxic mother-son pathology colliding with innate antisocial personality traits. Let us examine the three structural mechanisms that forged this predator: Layer number one: The basement dungeon and psychological castration. Kemper’s mother, Clarnell Strandberg, was an alcoholic, emotionally volatile woman with an authoritarian, domineering temperament and borderline traits that psychiatrists continue to debate. In her son Ed, she saw the mirror image of the ex-husband she despised with visceral fury. From the time Ed was eight years old, Clarnell banished her young son to sleep in a dark, frigid basement adjacent to the coal furnace, under the bizarre pretext of fearing he might harm his two older sisters. A heavy trapdoor rested directly beneath the dining table upstairs — requiring the table to be moved before he could emerge. His father eventually intervened, threatening to contact the police before that confinement was finally halted. Day after day, she subjected him to venomous verbal humiliation, mocking his immense size, ridiculing his clumsiness, and crushing every ounce of self-worth. Kemper later characterized his maternal grandmother using terms psychoanalysts noted with great gravity: that she had “emasculated” his grandfather and destroyed his own boyhood masculinity. That was precisely the psychological subjugation he endured under his own mother. This systematic emotional abuse drilled a lethal conviction into the child’s developing mind: that he was a grotesque aberration, utterly unlovable and unworthy of existence.",
+  "sentences": [
+   {
+    "id": "3.05#1",
+    "text": "The case of Edmund Kemper represents a textbook study in toxic mother-son pathology colliding with innate antisocial personality traits.",
+    "words": 19
+   },
+   {
+    "id": "3.05#2",
+    "text": "Let us examine the three structural mechanisms that forged this predator:",
+    "words": 11
+   },
+   {
+    "id": "3.05#3",
+    "text": "Layer number one: The basement dungeon and psychological castration.",
+    "words": 9
+   },
+   {
+    "id": "3.05#4",
+    "text": "Kemper’s mother, Clarnell Strandberg, was an alcoholic, emotionally volatile woman with an authoritarian, domineering temperament and borderline traits that psychiatrists continue to debate.",
+    "words": 23
+   },
+   {
+    "id": "3.05#5",
+    "text": "In her son Ed, she saw the mirror image of the ex-husband she despised with visceral fury.",
+    "words": 17
+   },
+   {
+    "id": "3.05#6",
+    "text": "From the time Ed was eight years old, Clarnell banished her young son to sleep in a dark, frigid basement adjacent to the coal furnace, under the bizarre pretext of fearing he might harm his two older sisters.",
+    "words": 38
+   },
+   {
+    "id": "3.05#7",
+    "text": "A heavy trapdoor rested directly beneath the dining table upstairs — requiring the table to be moved before he could emerge.",
+    "words": 21
+   },
+   {
+    "id": "3.05#8",
+    "text": "His father eventually intervened, threatening to contact the police before that confinement was finally halted.",
+    "words": 15
+   },
+   {
+    "id": "3.05#9",
+    "text": "Day after day, she subjected him to venomous verbal humiliation, mocking his immense size, ridiculing his clumsiness, and crushing every ounce of self-worth.",
+    "words": 23
+   },
+   {
+    "id": "3.05#10",
+    "text": "Kemper later characterized his maternal grandmother using terms psychoanalysts noted with great gravity: that she had “emasculated” his grandfather and destroyed his own boyhood masculinity.",
+    "words": 25
+   },
+   {
+    "id": "3.05#11",
+    "text": "That was precisely the psychological subjugation he endured under his own mother.",
+    "words": 12
+   },
+   {
+    "id": "3.05#12",
+    "text": "This systematic emotional abuse drilled a lethal conviction into the child’s developing mind: that he was a grotesque aberration, utterly unlovable and unworthy of existence.",
+    "words": 25
+   }
+  ]
+ },
+ {
+  "id": "3.06",
+  "act": 3,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
+ },
+ {
+  "id": "3.07",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "",
+  "text": "How did that suppressed hatred toward his mother metastasize when he entered adolescence, Doctor?",
+  "sentences": [
+   {
+    "id": "3.07#1",
+    "text": "How did that suppressed hatred toward his mother metastasize when he entered adolescence, Doctor?",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "3.08",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "lower register, incisive breakdown",
+  "text": "It culminated in Layer number two: The mechanism of projection and proxy victims. At age 15, Kemper shot and killed his grandparents during an explosive impulse — on August 27th, 1964 — and was committed to Atascadero State Hospital. There, state psychiatrists initially diagnosed him with paranoid schizophrenia, whereas California Youth Authority clinicians disputed this, classifying him with a severe personality disorder. He spent five years within that institution, trained to administer psychometric tests to other inmates, and even devised specialized scoring scales for the MMPI. On December 18th, 1969 — the very day he turned 21 — Kemper was released and returned to reside under the same roof with his toxic mother. In his unconscious mind, his mother stood as an insurmountable monument of power: someone he loathed with consuming fury, yet simultaneously feared too profoundly to confront directly. And here lies the crucial psychological crux: Kemper’s brain sought out proxy victims. During a 1974 interview, Kemper exposed a profound psychological paradox: His mother constantly demeaned him while trying to force him to date coarse, overbearing women who mirrored her own personality. Yet in his subconscious, Kemper revolted against that image. He stalked young, beautiful college women — the living embodiment of the grace, pride, and freedom he longed for, yet believed would invariably reject him exactly as his mother had. Criminologists widely agree: those innocent young women were proxy victims who bore the brunt of the murderous rage intended for his mother. Even when berated by his mother, Kemper recounted that he once contemplated picking up the telephone right in front of her to declare: “Hello, I am the Co-ed Killer,” simply to bring the full weight of disgrace crashing down upon her. At that juncture, he desired to punish his mother through unbearable terror and humiliation rather than executing her immediately.",
+  "sentences": [
+   {
+    "id": "3.08#1",
+    "text": "It culminated in Layer number two: The mechanism of projection and proxy victims.",
+    "words": 13
+   },
+   {
+    "id": "3.08#2",
+    "text": "At age 15, Kemper shot and killed his grandparents during an explosive impulse — on August 27th, 1964 — and was committed to Atascadero State Hospital.",
+    "words": 26
+   },
+   {
+    "id": "3.08#3",
+    "text": "There, state psychiatrists initially diagnosed him with paranoid schizophrenia, whereas California Youth Authority clinicians disputed this, classifying him with a severe personality disorder.",
+    "words": 23
+   },
+   {
+    "id": "3.08#4",
+    "text": "He spent five years within that institution, trained to administer psychometric tests to other inmates, and even devised specialized scoring scales for the MMPI.",
+    "words": 24
+   },
+   {
+    "id": "3.08#5",
+    "text": "On December 18th, 1969 — the very day he turned 21 — Kemper was released and returned to reside under the same roof with his toxic mother.",
+    "words": 27
+   },
+   {
+    "id": "3.08#6",
+    "text": "In his unconscious mind, his mother stood as an insurmountable monument of power: someone he loathed with consuming fury, yet simultaneously feared too profoundly to confront directly.",
+    "words": 27
+   },
+   {
+    "id": "3.08#7",
+    "text": "And here lies the crucial psychological crux: Kemper’s brain sought out proxy victims.",
+    "words": 13
+   },
+   {
+    "id": "3.08#8",
+    "text": "During a 1974 interview, Kemper exposed a profound psychological paradox: His mother constantly demeaned him while trying to force him to date coarse, overbearing women who mirrored her own personality.",
+    "words": 30
+   },
+   {
+    "id": "3.08#9",
+    "text": "Yet in his subconscious, Kemper revolted against that image.",
+    "words": 9
+   },
+   {
+    "id": "3.08#10",
+    "text": "He stalked young, beautiful college women — the living embodiment of the grace, pride, and freedom he longed for, yet believed would invariably reject him exactly as his mother had.",
+    "words": 30
+   },
+   {
+    "id": "3.08#11",
+    "text": "Criminologists widely agree: those innocent young women were proxy victims who bore the brunt of the murderous rage intended for his mother.",
+    "words": 22
+   },
+   {
+    "id": "3.08#12",
+    "text": "Even when berated by his mother, Kemper recounted that he once contemplated picking up the telephone right in front of her to declare: “Hello, I am the Co-ed Killer,” simply to bring the full weight of disgrace crashing down upon her.",
+    "words": 41
+   },
+   {
+    "id": "3.08#13",
+    "text": "At that juncture, he desired to punish his mother through unbearable terror and humiliation rather than executing her immediately.",
+    "words": 19
+   }
+  ]
+ },
+ {
+  "id": "3.09",
+  "act": 3,
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": ""
+ },
+ {
+  "id": "3.10",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "",
+  "text": "And what constitutes the third layer — the dimension that decisively distinguishes Kemper from ordinary serial offenders?",
+  "sentences": [
+   {
+    "id": "3.10#1",
+    "text": "And what constitutes the third layer — the dimension that decisively distinguishes Kemper from ordinary serial offenders?",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "3.11",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "",
+  "text": "It is intellectual dissociation and extraordinary introspective capacity — the hallmark of an introspective psychopath. Possessing an IQ of 145 — initially tested at 136 — Kemper possessed the rare ability to sever emotional connection entirely and observe his own impulses from a clinical distance. He understood unmistakably that his deeds were monstrous and violently violated the moral laws of society. Yet he experienced none of the remorse or guilt characteristic of a normal conscience. He monitored his homicidal urges much like a laboratory researcher documenting a biological experiment. By 1984, when clinicians at the California Medical Facility re-evaluated him, he was formally diagnosed with antisocial personality disorder, narcissistic personality disorder, and schizotypal personality disorder. His defense attorney, Jim Jackson, invoked a striking metaphor before the jury: that two distinct entities were trapped within the physical shell of this hulking young man. And when Kemper finally recognized that killing surrogate women could never extinguish the root of his agony, he took his ultimate, inevitable step: he returned home to eliminate his biological mother.",
+  "sentences": [
+   {
+    "id": "3.11#1",
+    "text": "It is intellectual dissociation and extraordinary introspective capacity — the hallmark of an introspective psychopath.",
+    "words": 15
+   },
+   {
+    "id": "3.11#2",
+    "text": "Possessing an IQ of 145 — initially tested at 136 — Kemper possessed the rare ability to sever emotional connection entirely and observe his own impulses from a clinical distance.",
+    "words": 30
+   },
+   {
+    "id": "3.11#3",
+    "text": "He understood unmistakably that his deeds were monstrous and violently violated the moral laws of society.",
+    "words": 16
+   },
+   {
+    "id": "3.11#4",
+    "text": "Yet he experienced none of the remorse or guilt characteristic of a normal conscience.",
+    "words": 14
+   },
+   {
+    "id": "3.11#5",
+    "text": "He monitored his homicidal urges much like a laboratory researcher documenting a biological experiment.",
+    "words": 14
+   },
+   {
+    "id": "3.11#6",
+    "text": "By 1984, when clinicians at the California Medical Facility re-evaluated him, he was formally diagnosed with antisocial personality disorder, narcissistic personality disorder, and schizotypal personality disorder.",
+    "words": 26
+   },
+   {
+    "id": "3.11#7",
+    "text": "His defense attorney, Jim Jackson, invoked a striking metaphor before the jury: that two distinct entities were trapped within the physical shell of this hulking young man.",
+    "words": 27
+   },
+   {
+    "id": "3.11#8",
+    "text": "And when Kemper finally recognized that killing surrogate women could never extinguish the root of his agony, he took his ultimate, inevitable step: he returned home to eliminate his biological mother.",
+    "words": 31
+   }
+  ]
+ },
+ {
+  "id": "4.01",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "A vintage cassette recorder clicks on with a mechanical snap. The dry, tense, historical whir of slow-turning magnetic tape hums in the background."
+ },
+ {
+  "id": "4.02",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "low, deliberate, framing historical gravity",
+  "text": "The year was 1978. The California Medical Facility in Vacaville. Two men in dark suits stepped through heavy steel security doors. They were Special Agents John Douglas and Robert Ressler — two pioneers from the newly established Behavioral Science Unit of the Federal Bureau of Investigation. They were embarking on a mission to answer the single most urgent question in criminal investigation: How does the mind of a predator truly operate? Ressler had not formally requested Bureau headquarters’ permission to interview inmates. He and Special Agent John Conway had traveled to California in early 1978, and Ed Kemper was selected as their inaugural subject. John Douglas joined during the second round of sessions — precisely as he was being groomed for the profiling role.",
+  "sentences": [
+   {
+    "id": "4.02#1",
+    "text": "The year was 1978.",
+    "words": 4
+   },
+   {
+    "id": "4.02#2",
+    "text": "The California Medical Facility in Vacaville.",
+    "words": 6
+   },
+   {
+    "id": "4.02#3",
+    "text": "Two men in dark suits stepped through heavy steel security doors.",
+    "words": 11
+   },
+   {
+    "id": "4.02#4",
+    "text": "They were Special Agents John Douglas and Robert Ressler — two pioneers from the newly established Behavioral Science Unit of the Federal Bureau of Investigation.",
+    "words": 25
+   },
+   {
+    "id": "4.02#5",
+    "text": "They were embarking on a mission to answer the single most urgent question in criminal investigation: How does the mind of a predator truly operate?",
+    "words": 25
+   },
+   {
+    "id": "4.02#6",
+    "text": "Ressler had not formally requested Bureau headquarters’ permission to interview inmates.",
+    "words": 11
+   },
+   {
+    "id": "4.02#7",
+    "text": "He and Special Agent John Conway had traveled to California in early 1978, and Ed Kemper was selected as their inaugural subject.",
+    "words": 22
+   },
+   {
+    "id": "4.02#8",
+    "text": "John Douglas joined during the second round of sessions — precisely as he was being groomed for the profiling role.",
+    "words": 20
+   }
+  ]
+ },
+ {
+  "id": "4.03",
+  "act": 4,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
+ },
+ {
+  "id": "4.04",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "",
+  "text": "Let us listen to the FBI Special Agent reconstruct that watershed encounter that forever altered forensic behavioral science.",
+  "sentences": [
+   {
+    "id": "4.04#1",
+    "text": "Let us listen to the FBI Special Agent reconstruct that watershed encounter that forever altered forensic behavioral science.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "4.05",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "reflective, measured, carrying authoritative weight",
+  "text": "The very first sensation that stopped us in our tracks when that interview door swung open was his sheer physical scale. He looked like a mountain, completely filling the doorway. Yet instead of a snarling brute, he offered a polite smile, drew out a chair, and spoke in the measured cadences of a tenured professor. His prison records confirmed an IQ of 145, and on multiple occasions during our long hours together, Bob and I genuinely worried he was outthinking us. His demeanor was neither boastful nor arrogant, nor did he exhibit the slightest hint of theatrical repentance. He was simply calm, composed, articulate, and emotionally detached. It was exceptionally difficult to interrupt his flow of thought to insert a question. The only instances where tears welled in his eyes were when he recounted the relentless cruelty inflicted by his mother. And I would not be candid if I said I didn't develop an undeniable liking for Ed. He was personable, candid, articulate, and possessed a remarkably wry sense of humor. What was initially scheduled as a two-hour interview stretched into multi-hour debriefs. And we returned to interview him repeatedly across several years. Kemper never sought sentence reductions. He required no legal counsel present. He unlocked the gates of his mind and articulated plainly why he chose to speak: ‘After that, I hope I can find some way to help others... Maybe they can study me and discover what makes people like me do the things we do.’ What those landmark dialogues handed the FBI was not an instantaneous profiling manual, but empirical data. The Criminal Personality Research Project, inaugurated with Kemper, ultimately surveyed 36 convicted sexual murderers. That foundational data, structured into comprehensive behavioral frameworks, gave birth to the VICAP network in 1985 — standardizing serial murder tracking across law enforcement nationwide.",
+  "sentences": [
+   {
+    "id": "4.05#1",
+    "text": "The very first sensation that stopped us in our tracks when that interview door swung open was his sheer physical scale.",
+    "words": 21
+   },
+   {
+    "id": "4.05#2",
+    "text": "He looked like a mountain, completely filling the doorway.",
+    "words": 9
+   },
+   {
+    "id": "4.05#3",
+    "text": "Yet instead of a snarling brute, he offered a polite smile, drew out a chair, and spoke in the measured cadences of a tenured professor.",
+    "words": 25
+   },
+   {
+    "id": "4.05#4",
+    "text": "His prison records confirmed an IQ of 145, and on multiple occasions during our long hours together, Bob and I genuinely worried he was outthinking us.",
+    "words": 26
+   },
+   {
+    "id": "4.05#5",
+    "text": "His demeanor was neither boastful nor arrogant, nor did he exhibit the slightest hint of theatrical repentance.",
+    "words": 17
+   },
+   {
+    "id": "4.05#6",
+    "text": "He was simply calm, composed, articulate, and emotionally detached.",
+    "words": 9
+   },
+   {
+    "id": "4.05#7",
+    "text": "It was exceptionally difficult to interrupt his flow of thought to insert a question.",
+    "words": 14
+   },
+   {
+    "id": "4.05#8",
+    "text": "The only instances where tears welled in his eyes were when he recounted the relentless cruelty inflicted by his mother.",
+    "words": 20
+   },
+   {
+    "id": "4.05#9",
+    "text": "And I would not be candid if I said I didn't develop an undeniable liking for Ed.",
+    "words": 17
+   },
+   {
+    "id": "4.05#10",
+    "text": "He was personable, candid, articulate, and possessed a remarkably wry sense of humor.",
+    "words": 13
+   },
+   {
+    "id": "4.05#11",
+    "text": "What was initially scheduled as a two-hour interview stretched into multi-hour debriefs.",
+    "words": 12
+   },
+   {
+    "id": "4.05#12",
+    "text": "And we returned to interview him repeatedly across several years.",
+    "words": 10
+   },
+   {
+    "id": "4.05#13",
+    "text": "Kemper never sought sentence reductions.",
+    "words": 5
+   },
+   {
+    "id": "4.05#14",
+    "text": "He required no legal counsel present.",
+    "words": 6
+   },
+   {
+    "id": "4.05#15",
+    "text": "He unlocked the gates of his mind and articulated plainly why he chose to speak: ‘After that, I hope I can find some way to help others...",
+    "words": 27
+   },
+   {
+    "id": "4.05#16",
+    "text": "Maybe they can study me and discover what makes people like me do the things we do.’",
+    "words": 17
+   },
+   {
+    "id": "4.05#17",
+    "text": "What those landmark dialogues handed the FBI was not an instantaneous profiling manual, but empirical data.",
+    "words": 16
+   },
+   {
+    "id": "4.05#18",
+    "text": "The Criminal Personality Research Project, inaugurated with Kemper, ultimately surveyed 36 convicted sexual murderers.",
+    "words": 14
+   },
+   {
+    "id": "4.05#19",
+    "text": "That foundational data, structured into comprehensive behavioral frameworks, gave birth to the VICAP network in 1985 — standardizing serial murder tracking across law enforcement nationwide.",
+    "words": 25
+   }
+  ]
+ },
+ {
+  "id": "4.06",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "The rapid rustling of handwritten case notes and legal documents."
+ },
+ {
+  "id": "4.07",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "continuing with deep, analytical momentum",
+  "text": "Three revolutionary concepts Kemper articulated fundamentally reshaped our investigative doctrine: First: The Violent Fantasy Cycle. A violent crime never begins when the assailant draws a weapon. It originates years earlier through thousands of cognitive rehearsals — fantasy, rehearsal, real-world execution, and reinforcement through trophies. Kemper was the ultimate embodiment of the rehearsal phase: he conducted dry runs on over a hundred living victims before taking that fatal leap. Second: The concept of Trophies and Souvenirs. Kemper explained why he retained personal belongings of his victims: not for idle boasting, but as psychological catalysts allowing him to re-experience the sensation of omnipotent control once the post-offense high had dissipated. And third: The psychology of why he stopped. Kemper stated that the original purpose had vanished, that it served no further psychic utility, was an absolute waste of time, and emotionally he could simply bear it no longer. Yet the impulse that drove him into that payphone at four in the morning remained terror: the terror that he might not stop.",
+  "sentences": [
+   {
+    "id": "4.07#1",
+    "text": "Three revolutionary concepts Kemper articulated fundamentally reshaped our investigative doctrine:",
+    "words": 10
+   },
+   {
+    "id": "4.07#2",
+    "text": "First: The Violent Fantasy Cycle.",
+    "words": 5
+   },
+   {
+    "id": "4.07#3",
+    "text": "A violent crime never begins when the assailant draws a weapon.",
+    "words": 11
+   },
+   {
+    "id": "4.07#4",
+    "text": "It originates years earlier through thousands of cognitive rehearsals — fantasy, rehearsal, real-world execution, and reinforcement through trophies.",
+    "words": 18
+   },
+   {
+    "id": "4.07#5",
+    "text": "Kemper was the ultimate embodiment of the rehearsal phase: he conducted dry runs on over a hundred living victims before taking that fatal leap.",
+    "words": 24
+   },
+   {
+    "id": "4.07#6",
+    "text": "Second: The concept of Trophies and Souvenirs.",
+    "words": 7
+   },
+   {
+    "id": "4.07#7",
+    "text": "Kemper explained why he retained personal belongings of his victims: not for idle boasting, but as psychological catalysts allowing him to re-experience the sensation of omnipotent control once the post-offense high had dissipated.",
+    "words": 33
+   },
+   {
+    "id": "4.07#8",
+    "text": "And third: The psychology of why he stopped.",
+    "words": 8
+   },
+   {
+    "id": "4.07#9",
+    "text": "Kemper stated that the original purpose had vanished, that it served no further psychic utility, was an absolute waste of time, and emotionally he could simply bear it no longer.",
+    "words": 30
+   },
+   {
+    "id": "4.07#10",
+    "text": "Yet the impulse that drove him into that payphone at four in the morning remained terror: the terror that he might not stop.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "4.08",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "reverent, thoughtful",
+  "text": "In tandem with these research sessions, the Behavioral Science Unit formalized the classical crime scene typology: Organized versus Disorganized killers. This seminal taxonomy was first introduced in the 1980 monograph “The Lust Murderer” by Hazelwood and Douglas, and later consolidated through the work of Ressler and Burgess in the 1985 FBI Law Enforcement Bulletin, drawn directly from empirical interviews with the cohort of 36 sexual murderers. Edmund Kemper stood as the quintessential archetype of the organized offender: highly intelligent, socially competent, exercising strict emotional discipline, and systematically sanitizing crime scenes to leave virtually no physical traces. Investigators recognized that a crime scene yields not only physical evidence such as latent prints or blood spatter, but also the offender’s Behavioral Signature. That was precisely what Kemper exhibited with surgical consistency, from removing ballistics from remains to burying a victim’s head beneath his mother’s window. The insights harvested from Kemper’s 145 IQ, synthesized alongside 35 other inmate dossiers, became the intellectual cornerstone for cracking hundreds of unsolved cases through behavioral analysis. They also provided enduring inspiration for timeless cinematic works such as The Silence of the Lambs and the acclaimed series Mindhunter.",
+  "sentences": [
+   {
+    "id": "4.08#1",
+    "text": "In tandem with these research sessions, the Behavioral Science Unit formalized the classical crime scene typology: Organized versus Disorganized killers.",
+    "words": 20
+   },
+   {
+    "id": "4.08#2",
+    "text": "This seminal taxonomy was first introduced in the 1980 monograph “The Lust Murderer” by Hazelwood and Douglas, and later consolidated through the work of Ressler and Burgess in the 1985 FBI Law Enforcement Bulletin, drawn directly from empirical interviews with the cohort of 36 sexual murderers.",
+    "words": 46
+   },
+   {
+    "id": "4.08#3",
+    "text": "Edmund Kemper stood as the quintessential archetype of the organized offender: highly intelligent, socially competent, exercising strict emotional discipline, and systematically sanitizing crime scenes to leave virtually no physical traces.",
+    "words": 30
+   },
+   {
+    "id": "4.08#4",
+    "text": "Investigators recognized that a crime scene yields not only physical evidence such as latent prints or blood spatter, but also the offender’s Behavioral Signature.",
+    "words": 24
+   },
+   {
+    "id": "4.08#5",
+    "text": "That was precisely what Kemper exhibited with surgical consistency, from removing ballistics from remains to burying a victim’s head beneath his mother’s window.",
+    "words": 23
+   },
+   {
+    "id": "4.08#6",
+    "text": "The insights harvested from Kemper’s 145 IQ, synthesized alongside 35 other inmate dossiers, became the intellectual cornerstone for cracking hundreds of unsolved cases through behavioral analysis.",
+    "words": 26
+   },
+   {
+    "id": "4.08#7",
+    "text": "They also provided enduring inspiration for timeless cinematic works such as The Silence of the Lambs and the acclaimed series Mindhunter.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "5.01",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "A courtroom gavel strikes three decisive blows. Minimalist piano chords weave into a sustained, mournful violin motif, evoking profound philosophical reflection."
+ },
+ {
+  "id": "5.02",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "solemn, commanding",
+  "text": "The trial convened on October 23rd, 1973, in Santa Cruz County Superior Court. Following five hours of jury deliberation, a verdict was delivered on November 8th, 1973, adjudging Edmund Kemper sane and guilty across all indictments. Prosecutor Peter Chang secured convictions for first-degree murder across all eight victims: six young women, alongside his biological mother and her companion. Judge Harry F. Brauer officially sentenced Kemper to eight concurrent life terms — each ranging from seven years to life — rather than eight consecutive terms as popular accounts frequently misstate. And in his final address to the court, the IQ 145 giant made an extraordinary plea unprecedented in American legal history. He requested that the jury sentence him to death by torture, in an effort to atone for the agony he had inflicted upon his victims. However, because California had temporarily suspended capital punishment at the time, Kemper was remanded to the California Medical Facility in Vacaville — an institution serving as both maximum-security prison and psychiatric hospital. Across the decades, he has undergone dozens of parole hearings. At some hearings he attended, while at others he waived his appearance; his petitions have been denied more than ten times, most recently in July 2024. His next scheduled parole eligibility will occur in 2031. During a parole hearing in 1988, he offered a poignant reflection: ‘Society is not ready for me, in any way, shape, or form. I don’t blame them for that.’",
+  "sentences": [
+   {
+    "id": "5.02#1",
+    "text": "The trial convened on October 23rd, 1973, in Santa Cruz County Superior Court.",
+    "words": 13
+   },
+   {
+    "id": "5.02#2",
+    "text": "Following five hours of jury deliberation, a verdict was delivered on November 8th, 1973, adjudging Edmund Kemper sane and guilty across all indictments.",
+    "words": 23
+   },
+   {
+    "id": "5.02#3",
+    "text": "Prosecutor Peter Chang secured convictions for first-degree murder across all eight victims: six young women, alongside his biological mother and her companion.",
+    "words": 22
+   },
+   {
+    "id": "5.02#4",
+    "text": "Judge Harry F.",
+    "words": 3
+   },
+   {
+    "id": "5.02#5",
+    "text": "Brauer officially sentenced Kemper to eight concurrent life terms — each ranging from seven years to life — rather than eight consecutive terms as popular accounts frequently misstate.",
+    "words": 28
+   },
+   {
+    "id": "5.02#6",
+    "text": "And in his final address to the court, the IQ 145 giant made an extraordinary plea unprecedented in American legal history.",
+    "words": 21
+   },
+   {
+    "id": "5.02#7",
+    "text": "He requested that the jury sentence him to death by torture, in an effort to atone for the agony he had inflicted upon his victims.",
+    "words": 25
+   },
+   {
+    "id": "5.02#8",
+    "text": "However, because California had temporarily suspended capital punishment at the time, Kemper was remanded to the California Medical Facility in Vacaville — an institution serving as both maximum-security prison and psychiatric hospital.",
+    "words": 32
+   },
+   {
+    "id": "5.02#9",
+    "text": "Across the decades, he has undergone dozens of parole hearings.",
+    "words": 10
+   },
+   {
+    "id": "5.02#10",
+    "text": "At some hearings he attended, while at others he waived his appearance; his petitions have been denied more than ten times, most recently in July 2024.",
+    "words": 26
+   },
+   {
+    "id": "5.02#11",
+    "text": "His next scheduled parole eligibility will occur in 2031.",
+    "words": 9
+   },
+   {
+    "id": "5.02#12",
+    "text": "During a parole hearing in 1988, he offered a poignant reflection: ‘Society is not ready for me, in any way, shape, or form.",
+    "words": 23
+   },
+   {
+    "id": "5.02#13",
+    "text": "I don’t blame them for that.’",
+    "words": 6
+   }
+  ]
+ },
+ {
+  "id": "5.03",
+  "act": 5,
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": ""
+ },
+ {
+  "id": "5.04",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "solemn, commanding",
+  "text": "Reflecting upon the tragic and horrifying chronicle of Edmund Kemper, and ensuring darkness does not claim another young life, let us listen to our Criminal Psychologist and FBI Special Agent outline four critical Red Flags signaling the early formation of violent personality patterns.",
+  "sentences": [
+   {
+    "id": "5.04#1",
+    "text": "Reflecting upon the tragic and horrifying chronicle of Edmund Kemper, and ensuring darkness does not claim another young life, let us listen to our Criminal Psychologist and FBI Special Agent outline four critical Red Flags signaling the early formation of violent personality patterns.",
+    "words": 43
+   }
+  ]
+ },
+ {
+  "id": "5.05",
+  "act": 5,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "stressing foundational scientific indicators",
+  "text": "Red flag number one: The childhood Macdonald Triad. These represent three classic clinical indicators in developmental criminology: intentional cruelty to animals, persistent fire-setting, and prolonged enuresis. In Kemper’s developmental history, the first indicator was explicit and severe. At age ten, the boy buried a family cat alive, subsequently disinterred it, and performed macabre dissections. Three years later, he used a blade to slaughter another household feline. Repetitive, premeditated animal abuse serves as a primary warning sign of profound empathy deficits and escalating violent conduct — an alarm bell tragically ignored by his guardians. Red flag number two: Extreme psychological domestic abuse. Confining a developing child to isolated spaces like basements, subjecting them to chronic verbal humiliation, or projecting gender-based hatred onto children irrevocably shatters their capacity for healthy empathy.",
+  "sentences": [
+   {
+    "id": "5.05#1",
+    "text": "Red flag number one: The childhood Macdonald Triad.",
+    "words": 8
+   },
+   {
+    "id": "5.05#2",
+    "text": "These represent three classic clinical indicators in developmental criminology: intentional cruelty to animals, persistent fire-setting, and prolonged enuresis.",
+    "words": 18
+   },
+   {
+    "id": "5.05#3",
+    "text": "In Kemper’s developmental history, the first indicator was explicit and severe.",
+    "words": 11
+   },
+   {
+    "id": "5.05#4",
+    "text": "At age ten, the boy buried a family cat alive, subsequently disinterred it, and performed macabre dissections.",
+    "words": 17
+   },
+   {
+    "id": "5.05#5",
+    "text": "Three years later, he used a blade to slaughter another household feline.",
+    "words": 12
+   },
+   {
+    "id": "5.05#6",
+    "text": "Repetitive, premeditated animal abuse serves as a primary warning sign of profound empathy deficits and escalating violent conduct — an alarm bell tragically ignored by his guardians.",
+    "words": 27
+   },
+   {
+    "id": "5.05#7",
+    "text": "Red flag number two: Extreme psychological domestic abuse.",
+    "words": 8
+   },
+   {
+    "id": "5.05#8",
+    "text": "Confining a developing child to isolated spaces like basements, subjecting them to chronic verbal humiliation, or projecting gender-based hatred onto children irrevocably shatters their capacity for healthy empathy.",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "5.06",
+  "act": 5,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "practical behavioral perspective",
+  "text": "Red flag number three: A violent fantasy world severed from reality. Exercise acute vigilance when an adolescent displays habitual immersion in violent domination fantasies, obsessively amasses weaponry, or conducts isolated, morbid research into homicide methods. And red flag number four: Superior intellect paired with shallow affect. A youth possessing exceptional intellectual gifts and articulate manners, yet displaying complete incapacity for genuine remorse or grief over the suffering of others, who uses intelligence to deceive or manipulate adults — that signals the protective scaffolding of psychopathy.",
+  "sentences": [
+   {
+    "id": "5.06#1",
+    "text": "Red flag number three: A violent fantasy world severed from reality.",
+    "words": 11
+   },
+   {
+    "id": "5.06#2",
+    "text": "Exercise acute vigilance when an adolescent displays habitual immersion in violent domination fantasies, obsessively amasses weaponry, or conducts isolated, morbid research into homicide methods.",
+    "words": 24
+   },
+   {
+    "id": "5.06#3",
+    "text": "And red flag number four: Superior intellect paired with shallow affect.",
+    "words": 11
+   },
+   {
+    "id": "5.06#4",
+    "text": "A youth possessing exceptional intellectual gifts and articulate manners, yet displaying complete incapacity for genuine remorse or grief over the suffering of others, who uses intelligence to deceive or manipulate adults — that signals the protective scaffolding of psychopathy.",
+    "words": 39
+   }
+  ]
+ },
+ {
+  "id": "5.07",
+  "act": 5,
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": "gentle, warm piano music swells softly"
+ },
+ {
+  "id": "5.08",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "warm, resonant, closing the podcast",
+  "text": "There exists a deeply moving human detail in this chronicle that we cannot overlook, and it belongs to a solitary prison guard. Throughout the 1973 trial, Deputy Sheriff Bruce Colomy was entrusted with guarding and transporting Kemper. Amid an intensely hostile courtroom, Colomy was one of the few who treated the hulking prisoner with professional decency, basic dignity, and human respect. That quiet kindness touched the cold-blooded offender to his very core. Prior to his transfer to state prison, Kemper gifted Colomy his only honorary sheriff’s pin, remarking with choked emotion: “To me, he was the father I wish I’d had.” The dossier of Edmund Kemper closes upon a haunting question regarding the nature of human evil: Is a monster born wicked, or do catastrophic wounds within family and childhood forge that beast into existence? Edmund Kemper entered this world endowed with a genius mind and formidable physical power — gifts that might have enabled him to achieve remarkable contributions. Yet when those gifts were submerged within a toxic crucible of neglect, relentless cruelty, and hatred, they mutated into an instrument of horrific devastation. Locking evil behind iron bars is the mandate of the judicial system. Yet identifying, sheltering, and healing the psychological wounds of our children within the home... remains the only true path by which our society can extinguish evil before it takes root.",
+  "sentences": [
+   {
+    "id": "5.08#1",
+    "text": "There exists a deeply moving human detail in this chronicle that we cannot overlook, and it belongs to a solitary prison guard.",
+    "words": 22
+   },
+   {
+    "id": "5.08#2",
+    "text": "Throughout the 1973 trial, Deputy Sheriff Bruce Colomy was entrusted with guarding and transporting Kemper.",
+    "words": 15
+   },
+   {
+    "id": "5.08#3",
+    "text": "Amid an intensely hostile courtroom, Colomy was one of the few who treated the hulking prisoner with professional decency, basic dignity, and human respect.",
+    "words": 24
+   },
+   {
+    "id": "5.08#4",
+    "text": "That quiet kindness touched the cold-blooded offender to his very core.",
+    "words": 11
+   },
+   {
+    "id": "5.08#5",
+    "text": "Prior to his transfer to state prison, Kemper gifted Colomy his only honorary sheriff’s pin, remarking with choked emotion: “To me, he was the father I wish I’d had.”",
+    "words": 29
+   },
+   {
+    "id": "5.08#6",
+    "text": "The dossier of Edmund Kemper closes upon a haunting question regarding the nature of human evil:",
+    "words": 16
+   },
+   {
+    "id": "5.08#7",
+    "text": "Is a monster born wicked, or do catastrophic wounds within family and childhood forge that beast into existence?",
+    "words": 18
+   },
+   {
+    "id": "5.08#8",
+    "text": "Edmund Kemper entered this world endowed with a genius mind and formidable physical power — gifts that might have enabled him to achieve remarkable contributions.",
+    "words": 25
+   },
+   {
+    "id": "5.08#9",
+    "text": "Yet when those gifts were submerged within a toxic crucible of neglect, relentless cruelty, and hatred, they mutated into an instrument of horrific devastation.",
+    "words": 24
+   },
+   {
+    "id": "5.08#10",
+    "text": "Locking evil behind iron bars is the mandate of the judicial system.",
+    "words": 12
+   },
+   {
+    "id": "5.08#11",
+    "text": "Yet identifying, sheltering, and healing the psychological wounds of our children within the home... remains the only true path by which our society can extinguish evil before it takes root.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "5.09",
+  "act": 5,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
+ },
+ {
+  "id": "5.10",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "warm, resonant, closing the podcast",
+  "text": "Our sincere gratitude to our expert guests for guiding our psychological autopsy today. Thank you to all our listeners for accompanying us through every chapter of this investigation. Cherish and listen to children with all your heart, keep your minds discerning and awake, and we look forward to seeing you in our next criminal psychology case file.",
+  "sentences": [
+   {
+    "id": "5.10#1",
+    "text": "Our sincere gratitude to our expert guests for guiding our psychological autopsy today.",
+    "words": 13
+   },
+   {
+    "id": "5.10#2",
+    "text": "Thank you to all our listeners for accompanying us through every chapter of this investigation.",
+    "words": 15
+   },
+   {
+    "id": "5.10#3",
+    "text": "Cherish and listen to children with all your heart, keep your minds discerning and awake, and we look forward to seeing you in our next criminal psychology case file.",
+    "words": 29
+   }
+  ]
+ },
+ {
+  "id": "5.11",
+  "act": 5,
+  "kind": "SFX",
+  "desc": "The case dossier snaps shut with a crisp \"Click\", followed by the mechanical click of the cassette recorder powering down."
+ },
+ {
+  "id": "5.12",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "A haunting cello melody resonates for 5 seconds, slowly fading out into silence."
+ }
+]

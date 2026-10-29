@@ -1,0 +1,49 @@
+{
+  "name": "Amber eyes",
+  "wordmark": "AMBER EYES",
+  "tagline": "Phân tích tâm lý tội phạm qua những hồ sơ có thật",
+  "description": "Kênh phân tích tâm lý tội phạm qua những hồ sơ có thật với phong cách Graphic Novel Noir.",
+  "palette": {
+    "ink": "#0E0E11",
+    "night": "#151A2A",
+    "slate": "#1C1F2B",
+    "paper": "#E6DED0",
+    "paper_ink": "#1C1B1F",
+    "text": "#F2EFE9",
+    "muted": "#9C988F",
+    "pink": "#E8A0BF",
+    "pink_deep": "#A85273",
+    "red": "#C8423A",
+    "amber": "#E2B467",
+    "amber_hot": "#FFD68C",
+    "cold": "#86A9CC",
+    "violet": "#A99BD6",
+    "sand": "#D9B99B",
+    "cyan": "#6E8CA0"
+  },
+  "typography": {
+    "brand_title": "Georgia",
+    "title": "Segoe UI Bold",
+    "label": "Segoe UI Semibold",
+    "body": "Segoe UI",
+    "quote": "Georgia Italic",
+    "chapter": "Georgia",
+    "record": "Consolas",
+    "number": "Bahnschrift"
+  },
+  "assets": {
+    "logo": "assets/brand/logo.png",
+    "logo_mark": "assets/brand/logo_mark.png",
+    "logo_folder": "assets/brand/logo_folder.png",
+    "logo_lockup": "assets/brand/logo_lockup.png",
+    "logo_64": "assets/brand/logo_64.png",
+    "watermark": "assets/brand/watermark.png",
+    "avatar": "assets/brand/avatar_800.png",
+    "preview": "assets/brand/preview.png"
+  },
+  "intro": {
+    "duration_seconds": 22.41,
+    "bgm": "assets/bgm/bgm_music_box.mp3",
+    "video": "assets/brand/intro_kenh.mov"
+  }
+}

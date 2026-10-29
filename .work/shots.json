@@ -1,0 +1,5450 @@
+{
+ "total": 1133.469,
+ "shots": [
+  {
+   "id": "1-00",
+   "act": 1,
+   "start": 20.5,
+   "end": 22.8,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_police",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 01 · KHOẢNH KHẮC ĐỨT GÃY NIỀM TIN"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Đèn cảnh sát quét; drone dâng",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-01",
+   "act": 1,
+   "start": 22.8,
+   "end": 31.802,
+   "role": "H",
+   "sentences": [
+    "1.03#1",
+    "1.03#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "14 · 06 · 2015"
+      ],
+      [
+       "ital",
+       "Springfield, Missouri"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gõ từng ký tự",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-02",
+   "act": 1,
+   "start": 31.802,
+   "end": 47.896,
+   "role": "H",
+   "sentences": [
+    "1.03#3"
+   ],
+   "template": "T11",
+   "variant": "",
+   "bg": "phone_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "TRANG MẠNG XÃ HỘI CHUNG CỦA HAI MẸ CON"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MỘT DÒNG TRẠNG THÁI KHIẾN CẢ KHU PHỐ CHẾT LẶNG"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "đầy hằn học"
+   ],
+   "beat_text": "Bài đăng hiện dạng các dòng mờ, không đọc được chữ, ở \"đầy hằn học\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-03",
+   "act": 1,
+   "start": 47.896,
+   "end": 49.696,
+   "role": null,
+   "sentences": [],
+   "template": "T11",
+   "variant": "",
+   "bg": "phone_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "TRANG MẠNG XÃ HỘI CHUNG CỦA HAI MẸ CON"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MỘT DÒNG TRẠNG THÁI KHIẾN CẢ KHU PHỐ CHẾT LẶNG"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-02"
+  },
+  {
+   "id": "1-04",
+   "act": 1,
+   "start": 49.696,
+   "end": 57.07,
+   "role": "H",
+   "sentences": [
+    "1.05#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "crowd_house",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NGÔI NHÀ NHỎ SƠN MÀU HỒNG PHẤN"
+      ],
+      [
+       "ital",
+       "Springfield, Missouri"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-05",
+   "act": 1,
+   "start": 57.07,
+   "end": 70.47,
+   "role": "H",
+   "sentences": [
+    "1.05#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "LẮNG NGHE:"
+      ],
+      [
+       "bold",
+       "MỘT NGƯỜI DÂN CÙNG KHU PHỐ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N1"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-06",
+   "act": 1,
+   "start": 70.47,
+   "end": 77.322,
+   "role": "N1",
+   "sentences": [
+    "1.07#1"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Biểu tượng của tình mẫu tử thiêng liêng"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-07",
+   "act": 1,
+   "start": 77.322,
+   "end": 98.715,
+   "role": "N1",
+   "sentences": [
+    "1.07#2"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "deedee_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "NHỮNG GÌ CẢ KHU PHỐ TIN"
+      ],
+      [
+       "ital",
+       "Bại liệt từ thắt lưng trở xuống · Ung thư máu · Loạn dưỡng cơ · Động kinh nặng · Trí tuệ ngang trẻ lên bảy"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục tại cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-08",
+   "act": 1,
+   "start": 98.715,
+   "end": 105.162,
+   "role": "N1",
+   "sentences": [
+    "1.07#3"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Ai trong thị trấn này cũng rơi nước mắt cảm phục"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-09",
+   "act": 1,
+   "start": 105.162,
+   "end": 114.912,
+   "role": "H",
+   "sentences": [
+    "1.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NGƯỜI MẸ ĐÃ QUA ĐỜI"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-10",
+   "act": 1,
+   "start": 114.912,
+   "end": 117.12,
+   "role": "H",
+   "sentences": [
+    "1.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "empty_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "GYPSY ROSE ĐÃ BIẾN MẤT"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "1-11",
+   "act": 1,
+   "start": 117.12,
+   "end": 125.973,
+   "role": "H",
+   "sentences": [
+    "1.08#3",
+    "1.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "wheelchair_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "XE LĂN · BÌNH OXY · HÀNG CHỤC LỌ THUỐC"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "`#3` sáng xe lăn, `#4` sáng kệ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-12",
+   "act": 1,
+   "start": 125.973,
+   "end": 139.681,
+   "role": "H",
+   "sentences": [
+    "1.08#5"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "wheelchair_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "CẢ NƯỚC MỸ HỎI"
+      ],
+      [
+       "bold",
+       "AI ĐÃ GÂY RA CÁI CHẾT CỦA NGƯỜI MẸ?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-13",
+   "act": 1,
+   "start": 139.681,
+   "end": 146.638,
+   "role": "H",
+   "sentences": [
+    "1.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "interrogation",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "LẮNG NGHE:"
+      ],
+      [
+       "bold",
+       "ĐIỀU TRA VIÊN THỤ LÝ HỒ SƠ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-14",
+   "act": 1,
+   "start": 146.638,
+   "end": 148.438,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "interrogation",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "LẮNG NGHE:"
+      ],
+      [
+       "bold",
+       "ĐIỀU TRA VIÊN THỤ LÝ HỒ SƠ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-13"
+  },
+  {
+   "id": "1-15",
+   "act": 1,
+   "start": 148.438,
+   "end": 156.588,
+   "role": "D",
+   "sentences": [
+    "1.11#1"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "LỆNH TRUY TÌM TOÀN QUỐC"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "phát lệnh truy tìm"
+   ],
+   "beat_text": "Dấu mộc ở \"phát lệnh truy tìm\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-16",
+   "act": 1,
+   "start": 156.588,
+   "end": 170.338,
+   "role": "D",
+   "sentences": [
+    "1.11#2"
+   ],
+   "template": "T7",
+   "variant": "",
+   "bg": "route_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "48 GIỜ SAU"
+      ],
+      [
+       "ital",
+       "Bang Wisconsin — cách hàng trăm dặm"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Đường tự vẽ, số đếm",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-17",
+   "act": 1,
+   "start": 170.338,
+   "end": 178.593,
+   "role": "D",
+   "sentences": [
+    "1.11#3",
+    "1.11#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "interrogation_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CÔ TA TỰ BƯỚC ĐI"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Đèn treo sáng ở `#4`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-18",
+   "act": 1,
+   "start": 178.593,
+   "end": 184.39,
+   "role": "D",
+   "sentences": [
+    "1.11#5",
+    "1.11#6",
+    "1.11#7"
+   ],
+   "template": "T8",
+   "variant": "strike",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ung thư máu · Loạn dưỡng cơ · Tổn thương não"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi câu gạch một mục",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "1-19",
+   "act": 1,
+   "start": 184.39,
+   "end": 191.19,
+   "role": "D",
+   "sentences": [
+    "1.11#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "bedroom_door_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CÔ CON GÁI BÉ BỎNG CỦA BÀ"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "không ai khác"
+   ],
+   "beat_text": "Tiêu đề ở \"không ai khác\"",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": true
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-20",
+   "act": 1,
+   "start": 191.19,
+   "end": 195.04,
+   "role": "H",
+   "sentences": [
+    "1.13#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HỒ SƠ PHÂN TÍCH TÂM LÝ HỌC TỘI PHẠM"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "\"Tách\" ở đầu",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-21",
+   "act": 1,
+   "start": 195.04,
+   "end": 208.533,
+   "role": "H",
+   "sentences": [
+    "1.13#2"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HỘI CHỨNG MÜNCHAUSEN QUA TRUNG GIAN"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "TẬP 01 · ĐỘC DƯỢC NHÂN DANH TÌNH MẸ"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Hội chứng"
+   ],
+   "beat_text": "Thuật ngữ ở \"Hội chứng\"; tên tập cuối câu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-22",
+   "act": 1,
+   "start": 208.533,
+   "end": 210.333,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 02"
+      ],
+      [
+       "bold",
+       "23 NĂM TRONG NHÀ TÙ Y KHOA"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "2-01",
+   "act": 2,
+   "start": 210.333,
+   "end": 225.58,
+   "role": "H",
+   "sentences": [
+    "2.02#1",
+    "2.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "KHÔNG PHẢI CĂN PHÒNG NGỦ"
+      ],
+      [
+       "ital",
+       "Tháng 6 năm 2015"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiêu đề ở `#2`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-02",
+   "act": 2,
+   "start": 225.58,
+   "end": 231.93,
+   "role": "H",
+   "sentences": [
+    "2.02#3"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "wheelchair_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HIỆN TRƯỜNG THỰC SỰ"
+      ],
+      [
+       "bold",
+       "23 NĂM"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Số đếm",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-03",
+   "act": 2,
+   "start": 231.93,
+   "end": 272.51,
+   "role": "H",
+   "sentences": [
+    "2.04#1",
+    "2.04#2",
+    "2.04#3",
+    "2.04#4",
+    "2.04#5"
+   ],
+   "template": "T6",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "1991 · Sinh ra khỏe mạnh"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "3 tháng tuổi · Ngưng thở khi ngủ"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Danh sách bệnh án bắt đầu"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "7 tuổi · Tổn thương tủy sống · Xe lăn"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cạo trọc đầu · Hoá trị ung thư máu"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi câu một mốc",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-04",
+   "act": 2,
+   "start": 272.51,
+   "end": 276.076,
+   "role": "H",
+   "sentences": [
+    "2.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "KHÔNG CHỈ LÀ LỜI NÓI DỐI"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-05",
+   "act": 2,
+   "start": 276.076,
+   "end": 284.484,
+   "role": "H",
+   "sentences": [
+    "2.06#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HÀNG NGÀN TRANG BỆNH ÁN"
+      ],
+      [
+       "ital",
+       "Can thiệp y khoa trực tiếp lên cơ thể Gypsy"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-06",
+   "act": 2,
+   "start": 284.484,
+   "end": 289.184,
+   "role": "H",
+   "sentences": [
+    "2.06#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "LẮNG NGHE:"
+      ],
+      [
+       "bold",
+       "ĐIỀU TRA VIÊN CÔNG BỐ HỒ SƠ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-07",
+   "act": 2,
+   "start": 289.184,
+   "end": 298.434,
+   "role": "D",
+   "sentences": [
+    "2.07#1"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BA DẤU VẾT TRONG HỒ SƠ Y TẾ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Bộ đếm `0/3`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-08",
+   "act": 2,
+   "start": 298.434,
+   "end": 307.384,
+   "role": "D",
+   "sentences": [
+    "2.07#2"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "wheelchair_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THUỐC CHỐNG ĐỘNG KINH LIỀU CAO"
+      ],
+      [
+       "ital",
+       "Dù cô không hề bị động kinh"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "dù cô không hề"
+   ],
+   "beat_text": "Phụ ở \"dù cô không hề\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-09",
+   "act": 2,
+   "start": 307.384,
+   "end": 311.82,
+   "role": "D",
+   "sentences": [
+    "2.07#3"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ỐNG NUÔI ĂN QUA DẠ DÀY"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-10",
+   "act": 2,
+   "start": 311.82,
+   "end": 321.37,
+   "role": "D",
+   "sentences": [
+    "2.07#4"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "PHẪU THUẬT KHÔNG CẦN THIẾT"
+      ],
+      [
+       "ital",
+       "Từ những triệu chứng giả trước mắt bác sĩ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-11",
+   "act": 2,
+   "start": 321.37,
+   "end": 329.749,
+   "role": "D",
+   "sentences": [
+    "2.07#5"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HÀNG TRĂM BÁC SĨ"
+      ],
+      [
+       "ital",
+       "Không ai phát hiện ra?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Biểu tượng hiện dần",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-12",
+   "act": 2,
+   "start": 329.749,
+   "end": 337.799,
+   "role": "D",
+   "sentences": [
+    "2.07#6"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "PHƯƠNG THỨC HÀNH ĐỘNG"
+      ],
+      [
+       "ital",
+       "(Modus Operandi)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "3 thẻ trống ghim lên",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-13",
+   "act": 2,
+   "start": 337.799,
+   "end": 345.046,
+   "role": "D",
+   "sentences": [
+    "2.07#7"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "01"
+      ],
+      [
+       "bold",
+       "TỪNG LÀM HỘ LÝ"
+      ],
+      [
+       "ital",
+       "Nắm rõ thuật ngữ y khoa"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-14",
+   "act": 2,
+   "start": 345.046,
+   "end": 363.446,
+   "role": "D",
+   "sentences": [
+    "2.07#8",
+    "2.07#9"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": "storm",
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "02 · 2005"
+      ],
+      [
+       "bold",
+       "BÃO KATRINA"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 9,
+     "elems": [
+      [
+       "ital",
+       "Mọi lịch sử y tế chỉ qua lời bà Dee Dee"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Dây đỏ nối ở `#9`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-15",
+   "act": 2,
+   "start": 363.446,
+   "end": 379.843,
+   "role": "D",
+   "sentences": [
+    "2.07#10"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "03"
+      ],
+      [
+       "bold",
+       "AI NGHI NGỜ → ĐỔI BỆNH VIỆN, CHUYỂN NHÀ"
+      ],
+      [
+       "ital",
+       "BS. Bernardo Flasterstein · 2007"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Kéo ra thấy cả bảng",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-16",
+   "act": 2,
+   "start": 379.843,
+   "end": 392.792,
+   "role": "H",
+   "sentences": [
+    "2.09#1",
+    "2.09#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_closed",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CỬA SỔ LUÔN ĐÓNG KÍN"
+      ],
+      [
+       "ital",
+       "Không được đi học"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng khoá cửa ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-17",
+   "act": 2,
+   "start": 392.792,
+   "end": 403.442,
+   "role": "H",
+   "sentences": [
+    "2.09#3"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "house_closed",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "−4 TUỔI"
+      ],
+      [
+       "ital",
+       "Khai gian để mãi là trẻ vị thành niên"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-18",
+   "act": 2,
+   "start": 403.442,
+   "end": 411.742,
+   "role": "H",
+   "sentences": [
+    "2.09#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MỘT NHÀ TÙ KHÔNG CHẤN SONG"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "được xây bằng"
+   ],
+   "beat_text": "Song sắt ở \"được xây bằng\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-19",
+   "act": 2,
+   "start": 411.742,
+   "end": 413.542,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 03"
+      ],
+      [
+       "bold",
+       "BÊN TRONG BỘ NÃO CỦA KẺ MẮC FDIA"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "3-01",
+   "act": 3,
+   "start": 413.542,
+   "end": 419.342,
+   "role": "H",
+   "sentences": [
+    "3.02#1"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "CÂU HỎI LỚN NHẤT"
+      ],
+      [
+       "bold",
+       "TẠI SAO?"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Tại sao"
+   ],
+   "beat_text": "Đúng ở \"Tại sao\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "3-02",
+   "act": 3,
+   "start": 419.342,
+   "end": 426.642,
+   "role": "H",
+   "sentences": [
+    "3.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "fog_deedee",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HƠN HAI THẬP KỶ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-03",
+   "act": 3,
+   "start": 426.642,
+   "end": 443.709,
+   "role": "H",
+   "sentences": [
+    "3.02#3",
+    "3.02#4"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "charity",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TRỤC LỢI TỪ THIỆN?"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "bold",
+       "TIỀN CHỈ LÀ PHẦN THƯỞNG PHỤ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Đồng xu mờ ở `#4`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-04",
+   "act": 3,
+   "start": 443.709,
+   "end": 464.125,
+   "role": "H",
+   "sentences": [
+    "3.02#5"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HỘI CHỨNG MÜNCHAUSEN QUA TRUNG GIAN"
+      ],
+      [
+       "ital",
+       "(Münchausen Syndrome by Proxy)"
+      ],
+      [
+       "ital",
+       "DSM-5-TR: Rối loạn giả bệnh áp đặt lên người khác — FDIA"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "DSM-5-TR"
+   ],
+   "beat_text": "Dòng DSM ở \"DSM-5-TR\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-05",
+   "act": 3,
+   "start": 464.125,
+   "end": 465.925,
+   "role": null,
+   "sentences": [],
+   "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HỘI CHỨNG MÜNCHAUSEN QUA TRUNG GIAN"
+      ],
+      [
+       "ital",
+       "(Münchausen Syndrome by Proxy)"
+      ],
+      [
+       "ital",
+       "DSM-5-TR: Rối loạn giả bệnh áp đặt lên người khác — FDIA"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-04"
+  },
+  {
+   "id": "3-06",
+   "act": 3,
+   "start": 465.925,
+   "end": 478.075,
+   "role": "H",
+   "sentences": [
+    "3.04#1",
+    "3.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "LẮNG NGHE:"
+      ],
+      [
+       "bold",
+       "CHUYÊN GIA TÂM LÝ HỌC TỘI PHẠM"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "3 tầng tâm lý"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-07",
+   "act": 3,
+   "start": 478.075,
+   "end": 487.125,
+   "role": "C",
+   "sentences": [
+    "3.05#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "3 TẦNG ĐỘNG CƠ"
+      ],
+      [
+       "ital",
+       "Vô thức và ý thức"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "3 vòng sáng lần lượt",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-08",
+   "act": 3,
+   "start": 487.125,
+   "end": 491.828,
+   "role": "C",
+   "sentences": [
+    "3.05#2"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "TẦNG 01 · CƠN NGHIỆN HÀO QUANG"
+      ],
+      [
+       "quote",
+       "Vị thánh tử đạo"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-09",
+   "act": 3,
+   "start": 491.828,
+   "end": 511.708,
+   "role": "C",
+   "sentences": [
+    "3.05#3",
+    "3.05#4"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MALINGERING"
+      ],
+      [
+       "ital",
+       "(Giả bệnh trục lợi) → tiền"
+      ],
+      [
+       "bold",
+       "MÜNCHAUSEN"
+      ],
+      [
+       "ital",
+       "→ sự chú ý, thương cảm, tôn sùng"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cột phải ở `#4`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-10",
+   "act": 3,
+   "start": 511.708,
+   "end": 524.726,
+   "role": "C",
+   "sentences": [
+    "3.05#5",
+    "3.05#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "fog_deedee",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Gia đình xa lánh · Hôn nhân tan vỡ ở tuổi 24"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MỘT CÁI BÓNG MỜ NHẠT"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiêu đề ở `#6`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-11",
+   "act": 3,
+   "start": 524.726,
+   "end": 531.799,
+   "role": "C",
+   "sentences": [
+    "3.05#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "spotlight_deedee",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TRUNG TÂM CỦA VŨ TRỤ"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "bỗng nhiên"
+   ],
+   "beat_text": "Đèn bật ở \"bỗng nhiên\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "3-12",
+   "act": 3,
+   "start": 531.799,
+   "end": 540.264,
+   "role": "C",
+   "sentences": [
+    "3.05#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "spotlight_deedee",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "VỊ THÁNH SỐNG"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi biểu tượng ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-13",
+   "act": 3,
+   "start": 540.264,
+   "end": 548.44,
+   "role": "C",
+   "sentences": [
+    "3.05#9"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "DOPAMINE"
+      ],
+      [
+       "ital",
+       "Mỗi lần Gypsy nhập viện cấp cứu"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Nhịp nhấp nháy",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": true
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-14",
+   "act": 3,
+   "start": 548.44,
+   "end": 549.74,
+   "role": null,
+   "sentences": [],
+   "template": "T5",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "DOPAMINE"
+      ],
+      [
+       "ital",
+       "Mỗi lần Gypsy nhập viện cấp cứu"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-13"
+  },
+  {
+   "id": "3-15",
+   "act": 3,
+   "start": 549.74,
+   "end": 553.39,
+   "role": "H",
+   "sentences": [
+    "3.07#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MỚI CHỈ LÀ BỀ NỔI"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-16",
+   "act": 3,
+   "start": 553.39,
+   "end": 568.89,
+   "role": "H",
+   "sentences": [
+    "3.07#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "LỜI KHAI GIA ĐÌNH BÊN NGOẠI"
+      ],
+      [
+       "bold",
+       "BỊ NGHI GÂY HẠI CHO NGƯỜI THÂN"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-17",
+   "act": 3,
+   "start": 568.89,
+   "end": 574.662,
+   "role": "C",
+   "sentences": [
+    "3.08#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "TẦNG 02"
+      ],
+      [
+       "bold",
+       "NỖI SỢ BỊ BỎ RƠI · NHU CẦU KIỂM SOÁT"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-18",
+   "act": 3,
+   "start": 574.662,
+   "end": 594.759,
+   "role": "C",
+   "sentences": [
+    "3.08#2",
+    "3.08#3",
+    "3.08#4"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MỘT VẬT SỞ HỮU DUY NHẤT"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Đi học → bạn bè → yêu đương → rời xa mẹ"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "bold",
+       "GIỮ MỘT CON NGƯỜI MÃI MÃI?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "3 beat",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-19",
+   "act": 3,
+   "start": 594.759,
+   "end": 605.093,
+   "role": "C",
+   "sentences": [
+    "3.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HÃY KHIẾN CON BÉ TIN RẰNG MÌNH BỆNH TẬT"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Hãy khiến"
+   ],
+   "beat_text": "Tiêu đề ở \"Hãy khiến\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-20",
+   "act": 3,
+   "start": 605.093,
+   "end": 614.349,
+   "role": "C",
+   "sentences": [
+    "3.08#6"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "wheelchair_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NGƯỜI DUY NHẤT NẮM GIỮ CUỘC SỐNG CỦA CON GÁI"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-21",
+   "act": 3,
+   "start": 614.349,
+   "end": 616.149,
+   "role": null,
+   "sentences": [],
+   "template": "T3",
+   "variant": "",
+   "bg": "wheelchair_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NGƯỜI DUY NHẤT NẮM GIỮ CUỘC SỐNG CỦA CON GÁI"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-20"
+  },
+  {
+   "id": "3-22",
+   "act": 3,
+   "start": 616.149,
+   "end": 623.384,
+   "role": "C",
+   "sentences": [
+    "3.10#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "TẦNG 03"
+      ],
+      [
+       "bold",
+       "DẤU ẤN XOÁ BỎ NHÂN DẠNG"
+      ],
+      [
+       "ital",
+       "(Signature)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-23",
+   "act": 3,
+   "start": 623.384,
+   "end": 633.904,
+   "role": "C",
+   "sentences": [
+    "3.10#2"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "dress_hanger",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CẠO TRỌC ĐẦU · VÁY CÔNG CHÚA"
+      ],
+      [
+       "ital",
+       "Ngay cả khi cô đã hơn 20 tuổi"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-24",
+   "act": 3,
+   "start": 633.904,
+   "end": 641.326,
+   "role": "C",
+   "sentences": [
+    "3.10#3",
+    "3.10#4"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "dress_hanger",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Không chỉ là giả bệnh ung thư"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TƯỚC ĐOẠT SỰ TRƯỞNG THÀNH"
+      ],
+      [
+       "ital",
+       "(Infantilization)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Thuật ngữ ở `#4`",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-25",
+   "act": 3,
+   "start": 641.326,
+   "end": 654.369,
+   "role": "C",
+   "sentences": [
+    "3.10#5",
+    "3.10#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "doll",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CON BÚP BÊ SỨ 7 TUỔI"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "búp bê sứ"
+   ],
+   "beat_text": "Tiêu đề ở \"búp bê sứ\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-26",
+   "act": 3,
+   "start": 654.369,
+   "end": 656.169,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 04"
+      ],
+      [
+       "bold",
+       "TẠI SAO GYPSY KHÔNG ĐỨNG DẬY?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "4-01",
+   "act": 4,
+   "start": 656.169,
+   "end": 668.819,
+   "role": "H",
+   "sentences": [
+    "4.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CÂU HỎI ĐẦY HOÀI NGHI"
+      ],
+      [
+       "ital",
+       "Dành cho chính Gypsy Rose"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-02",
+   "act": 4,
+   "start": 668.819,
+   "end": 675.019,
+   "role": "H",
+   "sentences": [
+    "4.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "LẮNG NGHE:"
+      ],
+      [
+       "bold",
+       "MỘT KHÁN GIẢ THEO DÕI VỤ ÁN"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N2"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-03",
+   "act": 4,
+   "start": 675.019,
+   "end": 680.93,
+   "role": "N2",
+   "sentences": [
+    "4.03#1"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "night_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Cô ấy biết rõ đôi chân mình không hề bị liệt."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-04",
+   "act": 4,
+   "start": 680.93,
+   "end": 695.4,
+   "role": "N2",
+   "sentences": [
+    "4.03#2",
+    "4.03#3"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "wheelchair_spot",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Mỗi tối… cô ấy vẫn tự đứng dậy đi lại bình thường."
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Vậy tại sao… Gypsy không một lần đứng phắt dậy khỏi chiếc xe lăn để tố cáo mẹ mình?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi câu một dòng",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-05",
+   "act": 4,
+   "start": 695.4,
+   "end": 697.2,
+   "role": null,
+   "sentences": [],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "wheelchair_spot",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Mỗi tối… cô ấy vẫn tự đứng dậy đi lại bình thường."
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Vậy tại sao… Gypsy không một lần đứng phắt dậy khỏi chiếc xe lăn để tố cáo mẹ mình?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "4-04"
+  },
+  {
+   "id": "4-06",
+   "act": 4,
+   "start": 697.2,
+   "end": 706.45,
+   "role": "H",
+   "sentences": [
+    "4.05#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "glass_box_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "LỚN LÊN TRONG LỒNG KÍNH"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-07",
+   "act": 4,
+   "start": 706.45,
+   "end": 721.85,
+   "role": "H",
+   "sentences": [
+    "4.05#2"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BẤT LỰC TẬP NHIỄM"
+      ],
+      [
+       "ital",
+       "(Learned Helplessness)"
+      ],
+      [
+       "bold",
+       "GẮN KẾT CHẤN THƯƠNG"
+      ],
+      [
+       "ital",
+       "(Trauma Bonding)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi thẻ ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-08",
+   "act": 4,
+   "start": 721.85,
+   "end": 729.666,
+   "role": "C",
+   "sentences": [
+    "4.07#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "cage",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SỰ BẤT LỰC TẬP NHIỄM"
+      ],
+      [
+       "ital",
+       "Martin Seligman · 1967"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng xích ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-09",
+   "act": 4,
+   "start": 729.666,
+   "end": 741.463,
+   "role": "C",
+   "sentences": [
+    "4.07#2"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "cage",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Mọi sự vùng vẫy đều vô nghĩa"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Câu trích ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-10",
+   "act": 4,
+   "start": 741.463,
+   "end": 749.743,
+   "role": "C",
+   "sentences": [
+    "4.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "cage",
+   "bg2": "cage_open",
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CỬA LỒNG ĐÃ MỞ TOANG"
+      ],
+      [
+       "ital",
+       "…nhưng không bao giờ bước ra nữa"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "cánh cửa lồng"
+   ],
+   "beat_text": "Cửa mở ở \"cánh cửa lồng\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-11",
+   "act": 4,
+   "start": 749.743,
+   "end": 754.029,
+   "role": "C",
+   "sentences": [
+    "4.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THẾ GIỚI QUAN CỦA GYPSY"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": true
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-12",
+   "act": 4,
+   "start": 754.029,
+   "end": 762.739,
+   "role": "C",
+   "sentences": [
+    "4.07#5",
+    "4.07#6"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BÀ LUÔN NẮM CHẶT TAY GYPSY"
+      ],
+      [
+       "ital",
+       "Với người ngoài: cử chỉ âu yếm"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-13",
+   "act": 4,
+   "start": 762.739,
+   "end": 774.212,
+   "role": "C",
+   "sentences": [
+    "4.07#7"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Với Gypsy: một mật lệnh đe dọa"
+      ],
+      [
+       "bold",
+       "MỘT LỜI CẢNH CÁO KHÔNG THÀNH TIẾNG"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "siết chặt"
+   ],
+   "beat_text": "Hai bàn tay khép chặt hơn ở \"siết chặt\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-14",
+   "act": 4,
+   "start": 774.212,
+   "end": 781.691,
+   "role": "C",
+   "sentences": [
+    "4.07#8"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "SAU BUỔI KHÁM BỆNH"
+      ],
+      [
+       "bold",
+       "HÌNH PHẠT NGHIÊM KHẮC · KIỂM SOÁT NGỘT NGẠT"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "khép lại"
+   ],
+   "beat_text": "Khe sáng tắt ở \"khép lại\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-15",
+   "act": 4,
+   "start": 781.691,
+   "end": 782.991,
+   "role": null,
+   "sentences": [],
+   "template": "T2",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "SAU BUỔI KHÁM BỆNH"
+      ],
+      [
+       "bold",
+       "HÌNH PHẠT NGHIÊM KHẮC · KIỂM SOÁT NGỘT NGẠT"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "4-14"
+  },
+  {
+   "id": "4-16",
+   "act": 4,
+   "start": 782.991,
+   "end": 788.276,
+   "role": "H",
+   "sentences": [
+    "4.09#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "GYPSY TỪNG CỐ GẮNG TỰ CỨU MÌNH"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "4-17",
+   "act": 4,
+   "start": 788.276,
+   "end": 800.826,
+   "role": "H",
+   "sentences": [
+    "4.09#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "BIÊN BẢN THẨM VẤN"
+      ],
+      [
+       "bold",
+       "BIẾN CỐ NĂM 2011"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-18",
+   "act": 4,
+   "start": 800.826,
+   "end": 806.762,
+   "role": "H",
+   "sentences": [
+    "4.09#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "LẮNG NGHE:"
+      ],
+      [
+       "bold",
+       "HỒ SƠ SỰ VIỆC TỪ ĐIỀU TRA VIÊN"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-19",
+   "act": 4,
+   "start": 806.762,
+   "end": 817.712,
+   "role": "D",
+   "sentences": [
+    "4.10#1"
+   ],
+   "template": "T6",
+   "variant": "",
+   "bg": "night_street_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "2011 · 19 tuổi"
+      ],
+      [
+       "bold",
+       "TRỐN KHỎI NHÀ ĐỂ CẦU CỨU"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-20",
+   "act": 4,
+   "start": 817.712,
+   "end": 832.112,
+   "role": "D",
+   "sentences": [
+    "4.10#2",
+    "4.10#3"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "VÀI GIỜ SAU, BÀ LẦN RA DẤU VẾT"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Giấy tờ giả mạo: vị thành niên · thiểu năng trí tuệ · mất năng lực hành vi dân sự"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "giả mạo"
+   ],
+   "beat_text": "Dấu mộc ở \"giả mạo\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-21",
+   "act": 4,
+   "start": 832.112,
+   "end": 837.462,
+   "role": "D",
+   "sentences": [
+    "4.10#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_return",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TRAO TRẢ VỀ NGÔI NHÀ MÀU HỒNG"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-22",
+   "act": 4,
+   "start": 837.462,
+   "end": 845.062,
+   "role": "D",
+   "sentences": [
+    "4.10#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_screen",
+   "bg2": "screen_off",
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ĐÊM HÔM ĐÓ"
+      ],
+      [
+       "ital",
+       "Không bao giờ được bước ra khỏi cửa"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "phá hỏng"
+   ],
+   "beat_text": "Màn hình tắt dần ở \"phá hỏng\"",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": true
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-23",
+   "act": 4,
+   "start": 845.062,
+   "end": 846.862,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_screen",
+   "bg2": "screen_off",
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ĐÊM HÔM ĐÓ"
+      ],
+      [
+       "ital",
+       "Không bao giờ được bước ra khỏi cửa"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "4-22"
+  },
+  {
+   "id": "4-24",
+   "act": 4,
+   "start": 846.862,
+   "end": 864.511,
+   "role": "H",
+   "sentences": [
+    "4.12#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "crowd_away",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "XÃ HỘI CHỈ TIN NGƯỜI MẸ"
+      ],
+      [
+       "ital",
+       "Cú sốc năm 2011"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-25",
+   "act": 4,
+   "start": 864.511,
+   "end": 872.711,
+   "role": "H",
+   "sentences": [
+    "4.12#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "locked_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "LẮNG NGHE:"
+      ],
+      [
+       "bold",
+       "SỢI DÂY VÔ HÌNH"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-26",
+   "act": 4,
+   "start": 872.711,
+   "end": 876.764,
+   "role": "C",
+   "sentences": [
+    "4.13#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "GẮN KẾT CHẤN THƯƠNG"
+      ],
+      [
+       "ital",
+       "(Trauma Bonding)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-27",
+   "act": 4,
+   "start": 876.764,
+   "end": 887.912,
+   "role": "C",
+   "sentences": [
+    "4.13#2"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "dress_hanger",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Người gây ra bệnh tật — cũng là người duy nhất ôm ấp cô"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "thiên thần nhỏ của mẹ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Câu trích ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-28",
+   "act": 4,
+   "start": 887.912,
+   "end": 895.519,
+   "role": "C",
+   "sentences": [
+    "4.13#3"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TÊ LIỆT KHẢ NĂNG PHÂN ĐỊNH RANH GIỚI"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Đường tan trong câu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-29",
+   "act": 4,
+   "start": 895.519,
+   "end": 907.259,
+   "role": "H",
+   "sentences": [
+    "4.15#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "corridor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MỌI LỐI THOÁT HỢP PHÁP BỊ BỊT KÍN"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng bàn phím ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-30",
+   "act": 4,
+   "start": 907.259,
+   "end": 918.409,
+   "role": "H",
+   "sentences": [
+    "4.15#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "godejohn_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NICHOLAS GODEJOHN"
+      ],
+      [
+       "ital",
+       "Quen qua mạng Internet"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-31",
+   "act": 4,
+   "start": 918.409,
+   "end": 926.059,
+   "role": "H",
+   "sentences": [
+    "4.15#3"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "two_shadows",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "FOLIE À DEUX"
+      ],
+      [
+       "ital",
+       "(Điên cuồng đôi)"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "trượt vào"
+   ],
+   "beat_text": "Bóng nhập ở \"trượt vào\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-32",
+   "act": 4,
+   "start": 926.059,
+   "end": 943.152,
+   "role": "H",
+   "sentences": [
+    "4.15#4",
+    "4.15#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chỉ khi mẹ cô biến mất…"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THÁNG 6 · 2015"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "mở cửa"
+   ],
+   "beat_text": "Cửa sáng ở \"mở cửa\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-33",
+   "act": 4,
+   "start": 943.152,
+   "end": 944.952,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 05"
+      ],
+      [
+       "bold",
+       "PHÁN QUYẾT PHÁP Y & LỜI KẾT"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "5-01",
+   "act": 5,
+   "start": 944.952,
+   "end": 954.022,
+   "role": "H",
+   "sentences": [
+    "5.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TÒA ÁN BANG MISSOURI"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Búa gõ ở đầu câu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-02",
+   "act": 5,
+   "start": 954.022,
+   "end": 961.384,
+   "role": "H",
+   "sentences": [
+    "5.02#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "VỀ MẶT LUẬT PHÁP"
+      ],
+      [
+       "bold",
+       "MỘT TRỌNG TỘI KHÔNG THỂ CHỐI CÃI"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-03",
+   "act": 5,
+   "start": 961.384,
+   "end": 978.484,
+   "role": "H",
+   "sentences": [
+    "5.02#3"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Dan Patterson · Chánh biện lý hạt Greene"
+      ],
+      [
+       "bold",
+       "KẺ CHỦ MƯU — ĐỒNG THỜI LÀ NẠN NHÂN"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "kẻ chủ mưu"
+   ],
+   "beat_text": "Tiêu đề ở \"kẻ chủ mưu\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-04",
+   "act": 5,
+   "start": 978.484,
+   "end": 979.784,
+   "role": null,
+   "sentences": [],
+   "template": "T2",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Dan Patterson · Chánh biện lý hạt Greene"
+      ],
+      [
+       "bold",
+       "KẺ CHỦ MƯU — ĐỒNG THỜI LÀ NẠN NHÂN"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-03"
+  },
+  {
+   "id": "5-05",
+   "act": 5,
+   "start": 979.784,
+   "end": 991.558,
+   "role": "H",
+   "sentences": [
+    "5.04#1"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "2016 · Giết người cấp độ hai"
+      ],
+      [
+       "bold",
+       "10 NĂM"
+      ],
+      [
+       "ital",
+       "Mức án thấp nhất có thể"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Số đếm 0 → 10",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-06",
+   "act": 5,
+   "start": 991.558,
+   "end": 1005.208,
+   "role": "H",
+   "sentences": [
+    "5.04#2"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "prison_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "LỜI GYPSY TRONG TRẠI GIAM"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Ở trong nhà tù của pháp luật, lần đầu tiên trong đời tôi cảm thấy mình được tự do hơn cả khi sống trong ngôi nhà của mẹ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Câu trích từng dòng từ dấu `:`",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-07",
+   "act": 5,
+   "start": 1005.208,
+   "end": 1012.606,
+   "role": "H",
+   "sentences": [
+    "5.04#3"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "prison_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "12 · 2023"
+      ],
+      [
+       "bold",
+       "85%"
+      ],
+      [
+       "ital",
+       "Chính thức được trả tự do"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Thanh tiến trình",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-08",
+   "act": 5,
+   "start": 1012.606,
+   "end": 1014.406,
+   "role": null,
+   "sentences": [],
+   "template": "T5",
+   "variant": "",
+   "bg": "prison_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "12 · 2023"
+      ],
+      [
+       "bold",
+       "85%"
+      ],
+      [
+       "ital",
+       "Chính thức được trả tự do"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-07"
+  },
+  {
+   "id": "5-09",
+   "act": 5,
+   "start": 1014.406,
+   "end": 1030.606,
+   "role": "H",
+   "sentences": [
+    "5.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "4 DẤU HIỆU CẢNH BÁO ĐỎ"
+      ],
+      [
+       "ital",
+       "(Red Flags)"
+      ],
+      [
+       "ital",
+       "Chuyên gia tâm lý & Điều tra viên"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C+D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-10",
+   "act": 5,
+   "start": 1030.606,
+   "end": 1041.382,
+   "role": "C",
+   "sentences": [
+    "5.07#1"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "01"
+      ],
+      [
+       "bold",
+       "BỆNH SỬ DÀY ĐẶC — XÉT NGHIỆM LUÔN MÂU THUẪN"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cờ 1 tô đầy",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": true,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-11",
+   "act": 5,
+   "start": 1041.382,
+   "end": 1051.254,
+   "role": "C",
+   "sentences": [
+    "5.07#2"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "02"
+      ],
+      [
+       "bold",
+       "TRIỆU CHỨNG CHỈ CÓ KHI NGƯỜI CHĂM SÓC CÓ MẶT"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": true,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve",
+   "bg_inherited": true
+  },
+  {
+   "id": "5-12",
+   "act": 5,
+   "start": 1051.254,
+   "end": 1065.004,
+   "role": "D",
+   "sentences": [
+    "5.08#1"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "03"
+      ],
+      [
+       "bold",
+       "HÀO HỨNG VỚI THỦ THUẬT · PHÔ TRƯƠNG BỆNH · ĐỔI BÁC SĨ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "3 cụm theo cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": true,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve",
+   "bg_inherited": true
+  },
+  {
+   "id": "5-13",
+   "act": 5,
+   "start": 1065.004,
+   "end": 1072.404,
+   "role": "D",
+   "sentences": [
+    "5.08#2"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "04"
+      ],
+      [
+       "bold",
+       "CÔ LẬP KHỎI TRƯỜNG HỌC, BẠN BÈ, NGƯỜI THÂN"
+      ],
+      [
+       "quote",
+       "bảo vệ sức khỏe"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Dấu mộc ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": true,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve",
+   "bg_inherited": true
+  },
+  {
+   "id": "5-14",
+   "act": 5,
+   "start": 1072.404,
+   "end": 1074.704,
+   "role": null,
+   "sentences": [],
+   "template": "T8",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve",
+   "bg_inherited": true
+  },
+  {
+   "id": "5-15",
+   "act": 5,
+   "start": 1074.704,
+   "end": 1084.054,
+   "role": "H",
+   "sentences": [
+    "5.10#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HỒ SƠ KHÉP LẠI"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-16",
+   "act": 5,
+   "start": 1084.054,
+   "end": 1091.719,
+   "role": "H",
+   "sentences": [
+    "5.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_free",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TỰ BƯỚC ĐI TRÊN ĐÔI CHÂN CỦA MÌNH"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Trời sáng dần",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-17",
+   "act": 5,
+   "start": 1091.719,
+   "end": 1105.619,
+   "role": "H",
+   "sentences": [
+    "5.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "cage_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THỨ KHOÁC ÁO THIÊN THẦN"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "khoác áo thiên thần"
+   ],
+   "beat_text": "Tiêu đề ở \"khoác áo thiên thần\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-18",
+   "act": 5,
+   "start": 1105.619,
+   "end": 1106.919,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "cage_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THỨ KHOÁC ÁO THIÊN THẦN"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-17"
+  },
+  {
+   "id": "5-19",
+   "act": 5,
+   "start": 1106.919,
+   "end": 1115.669,
+   "role": "H",
+   "sentences": [
+    "5.12#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CẢM ƠN CÁC KHÁCH MỜI"
+      ],
+      [
+       "ital",
+       "Nhân vật minh hoạ · giọng đọc AI"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Dàn khách mời: 5 ảnh P0 sáng lần lượt",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": true,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-20",
+   "act": 5,
+   "start": 1115.669,
+   "end": 1124.469,
+   "role": "H",
+   "sentences": [
+    "5.12#2"
+   ],
+   "template": "T10",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HẸN GẶP LẠI Ở TẬP TIẾP THEO"
+      ],
+      [
+       "ital",
+       "Để lại góc nhìn của bạn ở phần bình luận"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-21",
+   "act": 5,
+   "start": 1124.469,
+   "end": 1133.469,
+   "role": null,
+   "sentences": [],
+   "template": "T2",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [],
+   "beats": [
+    "Bụp"
+   ],
+   "beat_text": "Bìa gập ở \"Bụp\"; mờ ra đen",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  }
+ ]
+}

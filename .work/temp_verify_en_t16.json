@@ -1,0 +1,1261 @@
+[
+ {
+  "id": "1.01",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "*Somber, haunting church organ music echoes through the stillness, blending with the sound of wind whistling through the windows of an old mansion.*"
+ },
+ {
+  "id": "1.02",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "slow, warm, deep tone, evoking an atmosphere of mysterious investigation",
+  "text": "In the early winter of 1971, in the affluent town of Westfield, New Jersey, an eerie silence settled over the Breeze Knoll estate. It was a historic nineteen-room Victorian mansion, home to the devout and seemingly model accountant John List and his family. For nearly an entire month following November 9th, the lights throughout the mansion remained brightly lit day and night. An internal intercom system continuously broadcast solemn church hymns and religious music through the empty halls, yet no one saw any member of the household step outside. Uncollected mail and daily newspapers piled up high on the front porch, slowly covered by dry autumn maple leaves and the first winter snowfall. The prolonged and unexplained absence of all three school-aged children eventually prompted concerned acquaintances to notify the police and request an urgent welfare check.",
+  "sentences": [
+   {
+    "id": "1.02#1",
+    "text": "In the early winter of 1971, in the affluent town of Westfield, New Jersey, an eerie silence settled over the Breeze Knoll estate.",
+    "words": 23
+   },
+   {
+    "id": "1.02#2",
+    "text": "It was a historic nineteen-room Victorian mansion, home to the devout and seemingly model accountant John List and his family.",
+    "words": 20
+   },
+   {
+    "id": "1.02#3",
+    "text": "For nearly an entire month following November 9th, the lights throughout the mansion remained brightly lit day and night.",
+    "words": 19
+   },
+   {
+    "id": "1.02#4",
+    "text": "An internal intercom system continuously broadcast solemn church hymns and religious music through the empty halls, yet no one saw any member of the household step outside.",
+    "words": 27
+   },
+   {
+    "id": "1.02#5",
+    "text": "Uncollected mail and daily newspapers piled up high on the front porch, slowly covered by dry autumn maple leaves and the first winter snowfall.",
+    "words": 24
+   },
+   {
+    "id": "1.02#6",
+    "text": "The prolonged and unexplained absence of all three school-aged children eventually prompted concerned acquaintances to notify the police and request an urgent welfare check.",
+    "words": 24
+   }
+  ]
+ },
+ {
+  "id": "1.03",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "*Distant siren of a local police cruiser approaching, followed by hurried footsteps crunching on thin snow.*"
+ },
+ {
+  "id": "1.04",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "continuing with an engaging narrative cadence, introducing the family background",
+  "text": "For years, the John List household had been regarded by neighbors as an archetype of a pious, dignified, and respectable suburban family. Forty-six-year-old John List was a meticulous bank accountant, always seen in crisp business suits and serving faithfully as a Sunday school supervisor at their Lutheran church. He lived with his forty-five-year-old wife Helen, his eighty-four-year-old widowed mother Alma, and three teenage children growing up under his roof. Yet beneath this facade of middle-class respectability and devout morality lay crushing financial desperation weighing heavily on the patriarch. The opulent Breeze Knoll mansion, complete with a priceless ballroom ceiling made of Tiffany stained glass, came with upkeep costs far beyond what John List could ever afford. When he was quietly terminated from his high-ranking bank position several months earlier, John lacked the courage to confess this humiliating failure to his proud wife or his aging mother. Instead, each morning he donned his customary suit and tie, carried his briefcase out the door, and spent his days reading newspapers at the train station while secretly skimming his mother’s savings account to keep up appearances.",
+  "sentences": [
+   {
+    "id": "1.04#1",
+    "text": "For years, the John List household had been regarded by neighbors as an archetype of a pious, dignified, and respectable suburban family.",
+    "words": 22
+   },
+   {
+    "id": "1.04#2",
+    "text": "Forty-six-year-old John List was a meticulous bank accountant, always seen in crisp business suits and serving faithfully as a Sunday school supervisor at their Lutheran church.",
+    "words": 26
+   },
+   {
+    "id": "1.04#3",
+    "text": "He lived with his forty-five-year-old wife Helen, his eighty-four-year-old widowed mother Alma, and three teenage children growing up under his roof.",
+    "words": 21
+   },
+   {
+    "id": "1.04#4",
+    "text": "Yet beneath this facade of middle-class respectability and devout morality lay crushing financial desperation weighing heavily on the patriarch.",
+    "words": 19
+   },
+   {
+    "id": "1.04#5",
+    "text": "The opulent Breeze Knoll mansion, complete with a priceless ballroom ceiling made of Tiffany stained glass, came with upkeep costs far beyond what John List could ever afford.",
+    "words": 28
+   },
+   {
+    "id": "1.04#6",
+    "text": "When he was quietly terminated from his high-ranking bank position several months earlier, John lacked the courage to confess this humiliating failure to his proud wife or his aging mother.",
+    "words": 30
+   },
+   {
+    "id": "1.04#7",
+    "text": "Instead, each morning he donned his customary suit and tie, carried his briefcase out the door, and spent his days reading newspapers at the train station while secretly skimming his mother’s savings account to keep up appearances.",
+    "words": 37
+   }
+  ]
+ },
+ {
+  "id": "1.05",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "*The distant chime of a school dismissal bell, followed by the metallic click of a door lock turning.*"
+ },
+ {
+  "id": "1.06",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "shifting to a somber, ominous tone, tracing the uneasy premonitions of those around them",
+  "text": "The first person to perceive that something was terribly wrong was not a relative, but the high school drama teacher of the eldest daughter, Patricia List. Sixteen-year-old Patricia, a bright and artistically gifted student, had confided in her teacher about the suffocating dread she felt under her father’s unbending religious rigidity. When Patricia and her two younger brothers, fifteen-year-old John and thirteen-year-old Frederick, vanished from school simultaneously without explanation for nearly a month, suspicion escalated into absolute alarm. The drama teacher drove directly to Breeze Knoll, peered through the frosted window panes, and saw all the interior lights blazing while the cavernous rooms remained completely motionless. Her decision to contact the local police on the evening of December 7th, 1971, unlocked the door to one of the most haunting domestic crime scenes in American history.",
+  "sentences": [
+   {
+    "id": "1.06#1",
+    "text": "The first person to perceive that something was terribly wrong was not a relative, but the high school drama teacher of the eldest daughter, Patricia List.",
+    "words": 26
+   },
+   {
+    "id": "1.06#2",
+    "text": "Sixteen-year-old Patricia, a bright and artistically gifted student, had confided in her teacher about the suffocating dread she felt under her father’s unbending religious rigidity.",
+    "words": 25
+   },
+   {
+    "id": "1.06#3",
+    "text": "When Patricia and her two younger brothers, fifteen-year-old John and thirteen-year-old Frederick, vanished from school simultaneously without explanation for nearly a month, suspicion escalated into absolute alarm.",
+    "words": 27
+   },
+   {
+    "id": "1.06#4",
+    "text": "The drama teacher drove directly to Breeze Knoll, peered through the frosted window panes, and saw all the interior lights blazing while the cavernous rooms remained completely motionless.",
+    "words": 28
+   },
+   {
+    "id": "1.06#5",
+    "text": "Her decision to contact the local police on the evening of December 7th, 1971, unlocked the door to one of the most haunting domestic crime scenes in American history.",
+    "words": 29
+   }
+  ]
+ },
+ {
+  "id": "1.07",
+  "act": 1,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "N1: Jean Phillips, drama teacher of Patricia List at Westfield High School, female voice, trembling, heartbroken",
+  "text": "Patricia once gripped my hand tightly and confessed that the atmosphere inside that house felt utterly suffocating. She told me her father was an unyielding religious zealot who viewed her aspirations of becoming a stage actress as the seeds of corruption and mortal sin. She once whispered in sheer terror that she feared her father might do something horrific to the whole family if events ever slipped beyond his rigid control. When the children failed to attend drama class for weeks on end with only a brief, dismissive handwritten excuse note, I knew in my soul that something was profoundly wrong. I drove out to Breeze Knoll multiple times, stood shivering in the biting snow, and stared up at those endlessly glowing windows while church music drifted through the walls. The solemn sound of organ hymns drifting from that frozen, silent house in the dead of night sent a mortal chill straight down my spine. To this day, I cannot forgive myself for not calling the police days earlier in hopes of saving those precious young lives.",
+  "sentences": [
+   {
+    "id": "1.07#1",
+    "text": "Patricia once gripped my hand tightly and confessed that the atmosphere inside that house felt utterly suffocating.",
+    "words": 17
+   },
+   {
+    "id": "1.07#2",
+    "text": "She told me her father was an unyielding religious zealot who viewed her aspirations of becoming a stage actress as the seeds of corruption and mortal sin.",
+    "words": 27
+   },
+   {
+    "id": "1.07#3",
+    "text": "She once whispered in sheer terror that she feared her father might do something horrific to the whole family if events ever slipped beyond his rigid control.",
+    "words": 27
+   },
+   {
+    "id": "1.07#4",
+    "text": "When the children failed to attend drama class for weeks on end with only a brief, dismissive handwritten excuse note, I knew in my soul that something was profoundly wrong.",
+    "words": 30
+   },
+   {
+    "id": "1.07#5",
+    "text": "I drove out to Breeze Knoll multiple times, stood shivering in the biting snow, and stared up at those endlessly glowing windows while church music drifted through the walls.",
+    "words": 29
+   },
+   {
+    "id": "1.07#6",
+    "text": "The solemn sound of organ hymns drifting from that frozen, silent house in the dead of night sent a mortal chill straight down my spine.",
+    "words": 25
+   },
+   {
+    "id": "1.07#7",
+    "text": "To this day, I cannot forgive myself for not calling the police days earlier in hopes of saving those precious young lives.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "1.08",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "*The sharp crunch of a basement window frame being forced open by police, followed by cautious footsteps on dusty hardwood.*"
+ },
+ {
+  "id": "1.09",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tense, gripping tone, reconstructing the horrific crime scene",
+  "text": "Around nine o’clock on the night of December 7th, 1971, Westfield police officers forced open an unlocked basement window to gain entry into the darkened mansion. The air inside was freezing cold because the heating unit had been deliberately shut off, thick with the stench of decay mixed with the heavy scent of an old Victorian house. Sweeping their flashlights across the grand first-floor ballroom, the beam illuminated a scene of chilling and methodical horror. Four bodies — Helen List and her three children, Patricia, John, and Frederick — were laid out neatly side-by-side on individual sleeping bags atop the floor. The faces of all four victims had been carefully covered with white cloths, resembling a solemn religious burial ritual. Ascending to the third-floor attic apartment, officers discovered the body of eighty-four-year-old mother Alma List, lying alone in her locked bedroom.",
+  "sentences": [
+   {
+    "id": "1.09#1",
+    "text": "Around nine o’clock on the night of December 7th, 1971, Westfield police officers forced open an unlocked basement window to gain entry into the darkened mansion.",
+    "words": 26
+   },
+   {
+    "id": "1.09#2",
+    "text": "The air inside was freezing cold because the heating unit had been deliberately shut off, thick with the stench of decay mixed with the heavy scent of an old Victorian house.",
+    "words": 31
+   },
+   {
+    "id": "1.09#3",
+    "text": "Sweeping their flashlights across the grand first-floor ballroom, the beam illuminated a scene of chilling and methodical horror.",
+    "words": 18
+   },
+   {
+    "id": "1.09#4",
+    "text": "Four bodies — Helen List and her three children, Patricia, John, and Frederick — were laid out neatly side-by-side on individual sleeping bags atop the floor.",
+    "words": 26
+   },
+   {
+    "id": "1.09#5",
+    "text": "The faces of all four victims had been carefully covered with white cloths, resembling a solemn religious burial ritual.",
+    "words": 19
+   },
+   {
+    "id": "1.09#6",
+    "text": "Ascending to the third-floor attic apartment, officers discovered the body of eighty-four-year-old mother Alma List, lying alone in her locked bedroom.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "1.10",
+  "act": 1,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: Westfield Police Department representative, mature, sharp, authoritative male voice",
+  "text": "Preliminary forensic examinations determined that all five victims had been fatally shot on November 9th, nearly an entire month before our entry. The perpetrator had deployed two distinct firearms, a twenty-two caliber target revolver and an Austrian-made nine-millimeter semi-automatic pistol. The meticulous alignment of the bodies in the ballroom and the covering of their faces indicated a cold, pre-planned execution steeped in personal ritualism. On the desk in the library, our investigators recovered a five-page handwritten confession letter addressed directly to his family pastor. In those pages, John List claimed he had taken the lives of his family to preserve their souls from earthly degradation and imminent destitution.",
+  "sentences": [
+   {
+    "id": "1.10#1",
+    "text": "Preliminary forensic examinations determined that all five victims had been fatally shot on November 9th, nearly an entire month before our entry.",
+    "words": 22
+   },
+   {
+    "id": "1.10#2",
+    "text": "The perpetrator had deployed two distinct firearms, a twenty-two caliber target revolver and an Austrian-made nine-millimeter semi-automatic pistol.",
+    "words": 18
+   },
+   {
+    "id": "1.10#3",
+    "text": "The meticulous alignment of the bodies in the ballroom and the covering of their faces indicated a cold, pre-planned execution steeped in personal ritualism.",
+    "words": 24
+   },
+   {
+    "id": "1.10#4",
+    "text": "On the desk in the library, our investigators recovered a five-page handwritten confession letter addressed directly to his family pastor.",
+    "words": 20
+   },
+   {
+    "id": "1.10#5",
+    "text": "In those pages, John List claimed he had taken the lives of his family to preserve their souls from earthly degradation and imminent destitution.",
+    "words": 24
+   }
+  ]
+ },
+ {
+  "id": "1.11",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "closing Act 1 with gravity",
+  "text": "The killer had not merely drafted a chilling theological rationale for extinguishing the lives of his entire household. He had executed an escape plan so seamless and calculating that it completely confounded law enforcement from the start. An exhaustive manhunt spanning nearly two decades was officially underway, mired in absolute investigative frustration.",
+  "sentences": [
+   {
+    "id": "1.11#1",
+    "text": "The killer had not merely drafted a chilling theological rationale for extinguishing the lives of his entire household.",
+    "words": 18
+   },
+   {
+    "id": "1.11#2",
+    "text": "He had executed an escape plan so seamless and calculating that it completely confounded law enforcement from the start.",
+    "words": 19
+   },
+   {
+    "id": "1.11#3",
+    "text": "An exhaustive manhunt spanning nearly two decades was officially underway, mired in absolute investigative frustration.",
+    "words": 15
+   }
+  ]
+ },
+ {
+  "id": "1.12",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "*A deep, resonant organ chord sustains and cuts out sharply, leaving a breathless silence before Act 2.*"
+ },
+ {
+  "id": "2.01",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "*Pulsing electronic Dark Ambient textures build, with the distant rumble of an airliner taking off, underscoring a nationwide flight.*"
+ },
+ {
+  "id": "2.02",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "fast, suspenseful pacing",
+  "text": "As detectives combed through the sprawling nineteen-room mansion in search of reference photographs of the fugitive, they uncovered a detail that left them chilled to the bone. Every single family photo album and picture frame hanging on the walls had been methodically defaced with sharp scissors. John List’s face had been neatly excised and cut away from every solitary photograph in the entire home.",
+  "sentences": [
+   {
+    "id": "2.02#1",
+    "text": "As detectives combed through the sprawling nineteen-room mansion in search of reference photographs of the fugitive, they uncovered a detail that left them chilled to the bone.",
+    "words": 27
+   },
+   {
+    "id": "2.02#2",
+    "text": "Every single family photo album and picture frame hanging on the walls had been methodically defaced with sharp scissors.",
+    "words": 19
+   },
+   {
+    "id": "2.02#3",
+    "text": "John List’s face had been neatly excised and cut away from every solitary photograph in the entire home.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "2.03",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "*The rhythmic, metallic snip of sharp scissors cutting paper, followed by the dry rustle of photo album pages turning.*"
+ },
+ {
+  "id": "2.04",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "grim, analytical tone, exposing a calculated escape",
+  "text": "The systematic mutilation of his own portraits demonstrated a chilling level of foresight down to the smallest operational detail. John List had deliberately erased his own likeness to prevent authorities from distributing a recent photograph to the media and public. Before abandoning the house, he sent notes to the children’s schools claiming they would be absent for several weeks to tend to an ailing grandmother in North Carolina. He cancelled daily mail deliveries and instructed the milkman to halt services to avoid raising suspicion among neighbors. He closed bank accounts, withdrew what remaining cash he could scrounge, and left a radio station playing continuously to simulate human presence inside. With his crime scene staged to buy maximum time, John List drove the family sedan to JFK International Airport in New York City and abandoned it in long-term parking.",
+  "sentences": [
+   {
+    "id": "2.04#1",
+    "text": "The systematic mutilation of his own portraits demonstrated a chilling level of foresight down to the smallest operational detail.",
+    "words": 19
+   },
+   {
+    "id": "2.04#2",
+    "text": "John List had deliberately erased his own likeness to prevent authorities from distributing a recent photograph to the media and public.",
+    "words": 21
+   },
+   {
+    "id": "2.04#3",
+    "text": "Before abandoning the house, he sent notes to the children’s schools claiming they would be absent for several weeks to tend to an ailing grandmother in North Carolina.",
+    "words": 28
+   },
+   {
+    "id": "2.04#4",
+    "text": "He cancelled daily mail deliveries and instructed the milkman to halt services to avoid raising suspicion among neighbors.",
+    "words": 18
+   },
+   {
+    "id": "2.04#5",
+    "text": "He closed bank accounts, withdrew what remaining cash he could scrounge, and left a radio station playing continuously to simulate human presence inside.",
+    "words": 23
+   },
+   {
+    "id": "2.04#6",
+    "text": "With his crime scene staged to buy maximum time, John List drove the family sedan to JFK International Airport in New York City and abandoned it in long-term parking.",
+    "words": 29
+   }
+  ]
+ },
+ {
+  "id": "2.05",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "*The lonesome wail of a distant train whistle echoing in the dark, accompanied by hurried footsteps across a station platform.*"
+ },
+ {
+  "id": "2.06",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: reconstructing the early joint investigation of local police and the FBI",
+  "text": "John List’s abandoned car was located at JFK Airport on December 9th, 1971, two days after the crime scene had been breached. However, an exhaustive canvas of flight manifests across every domestic and international carrier yielded absolutely no trace of the fugitive. John List had never boarded an aircraft at all; he had boarded an overnight train out of New York under cover of darkness. Thanks to his elaborate deception, he enjoyed an unassailable head start of nearly four full weeks against law enforcement. The Federal Bureau of Investigation launched a nationwide fugitive warrant, yet all traces of the mild-mannered accountant seemed to vanish into thin air.",
+  "sentences": [
+   {
+    "id": "2.06#1",
+    "text": "John List’s abandoned car was located at JFK Airport on December 9th, 1971, two days after the crime scene had been breached.",
+    "words": 22
+   },
+   {
+    "id": "2.06#2",
+    "text": "However, an exhaustive canvas of flight manifests across every domestic and international carrier yielded absolutely no trace of the fugitive.",
+    "words": 20
+   },
+   {
+    "id": "2.06#3",
+    "text": "John List had never boarded an aircraft at all; he had boarded an overnight train out of New York under cover of darkness.",
+    "words": 23
+   },
+   {
+    "id": "2.06#4",
+    "text": "Thanks to his elaborate deception, he enjoyed an unassailable head start of nearly four full weeks against law enforcement.",
+    "words": 19
+   },
+   {
+    "id": "2.06#5",
+    "text": "The Federal Bureau of Investigation launched a nationwide fugitive warrant, yet all traces of the mild-mannered accountant seemed to vanish into thin air.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "2.07",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "*The heavy thud of an unsolved case binder landing on a wooden desk, accompanied by the mechanical clatter of a typewriter.*"
+ },
+ {
+  "id": "2.08",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "shifting to an introspective tone, highlighting the agonizing passage of time",
+  "text": "As the years ground on, the slaughter at Breeze Knoll hardened into one of the most baffling domestic cold cases in New Jersey history. The abandoned mansion itself burned to the ground in a suspicious fire in August 1972, destroying the priceless Tiffany stained glass ceiling forever. The only surviving likenesses of John List were faded black-and-white photographs from his high school yearbook and World War II military records. Investigators pursued thousands of tips pouring in from across the globe, but every promising lead crumbled into a demoralizing dead end. The calculating killer appeared to have slipped off the face of the earth, leaving behind only the haunting question of who he had become.",
+  "sentences": [
+   {
+    "id": "2.08#1",
+    "text": "As the years ground on, the slaughter at Breeze Knoll hardened into one of the most baffling domestic cold cases in New Jersey history.",
+    "words": 24
+   },
+   {
+    "id": "2.08#2",
+    "text": "The abandoned mansion itself burned to the ground in a suspicious fire in August 1972, destroying the priceless Tiffany stained glass ceiling forever.",
+    "words": 23
+   },
+   {
+    "id": "2.08#3",
+    "text": "The only surviving likenesses of John List were faded black-and-white photographs from his high school yearbook and World War II military records.",
+    "words": 22
+   },
+   {
+    "id": "2.08#4",
+    "text": "Investigators pursued thousands of tips pouring in from across the globe, but every promising lead crumbled into a demoralizing dead end.",
+    "words": 21
+   },
+   {
+    "id": "2.08#5",
+    "text": "The calculating killer appeared to have slipped off the face of the earth, leaving behind only the haunting question of who he had become.",
+    "words": 24
+   }
+  ]
+ },
+ {
+  "id": "2.09",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: reflecting on the challenges of tracking an invisible fugitive",
+  "text": "Throughout eighteen long years, the John List file remained at the very top of our department’s unsolved priority list. We knew that a man of rigid habits, lacking extensive social connections and constrained by obsessive rules, could not survive as an outlaw on the street. He was undoubtedly living under an unassuming identity in some quiet town, keeping books at an office and sitting in a church pew every Sunday morning. Our greatest obstacle was that time inevitably alters the human countenance after nearly two decades on the run.",
+  "sentences": [
+   {
+    "id": "2.09#1",
+    "text": "Throughout eighteen long years, the John List file remained at the very top of our department’s unsolved priority list.",
+    "words": 19
+   },
+   {
+    "id": "2.09#2",
+    "text": "We knew that a man of rigid habits, lacking extensive social connections and constrained by obsessive rules, could not survive as an outlaw on the street.",
+    "words": 26
+   },
+   {
+    "id": "2.09#3",
+    "text": "He was undoubtedly living under an unassuming identity in some quiet town, keeping books at an office and sitting in a church pew every Sunday morning.",
+    "words": 26
+   },
+   {
+    "id": "2.09#4",
+    "text": "Our greatest obstacle was that time inevitably alters the human countenance after nearly two decades on the run.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "2.10",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "closing Act 2",
+  "text": "The two-decade deadlock was only broken when modern forensic science intersected with prime-time broadcast television in the late 1980s. But before uncovering that historic capture, we must peer deeply into the dark interior psychology of John List. What compelled a pious, soft-spoken accountant with no prior criminal record to annihilate his entire flesh and blood? Was this slaughter the product of an acute psychotic break, or the calculated outcome of a warped personality structure ruled by religious absolutism? Forensic psychologists found the answer inside Obsessive-Compulsive Personality Disorder. It was a fatal cognitive trap known as moral neutralization through a higher purpose.",
+  "sentences": [
+   {
+    "id": "2.10#1",
+    "text": "The two-decade deadlock was only broken when modern forensic science intersected with prime-time broadcast television in the late 1980s.",
+    "words": 19
+   },
+   {
+    "id": "2.10#2",
+    "text": "But before uncovering that historic capture, we must peer deeply into the dark interior psychology of John List.",
+    "words": 18
+   },
+   {
+    "id": "2.10#3",
+    "text": "What compelled a pious, soft-spoken accountant with no prior criminal record to annihilate his entire flesh and blood?",
+    "words": 18
+   },
+   {
+    "id": "2.10#4",
+    "text": "Was this slaughter the product of an acute psychotic break, or the calculated outcome of a warped personality structure ruled by religious absolutism?",
+    "words": 23
+   },
+   {
+    "id": "2.10#5",
+    "text": "Forensic psychologists found the answer inside Obsessive-Compulsive Personality Disorder.",
+    "words": 9
+   },
+   {
+    "id": "2.10#6",
+    "text": "It was a fatal cognitive trap known as moral neutralization through a higher purpose.",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "2.11",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "*Pulsing electronic beats subside, opening up a contemplative, intellectual space for clinical psychology.*"
+ },
+ {
+  "id": "3.01",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "*Minimalist piano chords blend with a somber cello drone, establishing a clinical, forensic psychology atmosphere.*"
+ },
+ {
+  "id": "3.02",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "measured, clinical introduction",
+  "text": "In the archival records of the FBI, John List stands as one of the most prominent real-world case studies of altruistic family annihilation. This clinical concept describes offenders who convince themselves that taking the lives of their loved ones is an act of mercy to spare them unbearable suffering. To understand this distorted rationale, forensic psychiatrists concentrated on Obsessive-Compulsive Personality Disorder, commonly abbreviated as OCPD. This represents a severe, chronic pathology entirely distinct from the common anxiety disorder known as OCD that the public often confuses it with.",
+  "sentences": [
+   {
+    "id": "3.02#1",
+    "text": "In the archival records of the FBI, John List stands as one of the most prominent real-world case studies of altruistic family annihilation.",
+    "words": 23
+   },
+   {
+    "id": "3.02#2",
+    "text": "This clinical concept describes offenders who convince themselves that taking the lives of their loved ones is an act of mercy to spare them unbearable suffering.",
+    "words": 26
+   },
+   {
+    "id": "3.02#3",
+    "text": "To understand this distorted rationale, forensic psychiatrists concentrated on Obsessive-Compulsive Personality Disorder, commonly abbreviated as OCPD.",
+    "words": 16
+   },
+   {
+    "id": "3.02#4",
+    "text": "This represents a severe, chronic pathology entirely distinct from the common anxiety disorder known as OCD that the public often confuses it with.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "3.03",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: clinical analysis of OCPD and cognitive distortions, female voice, calm, authoritative",
+  "text": "Unlike individuals with OCD who recognize that their intrusive compulsions are irrational and experience distress, people with OCPD believe their way of thinking is the singular, absolute truth. The defining core of OCPD is a pathological preoccupation with orderliness, rigid perfectionism, unbending rules, and an overwhelming need to control every facet of life. John List was raised under the domineering thumb of a stern Lutheran father, where any departure from moral perfection was met with severe religious guilt. He internalized a rigid binary worldview in which human existence offered only two possibilities: either adhere strictly to divine commandments to attain heaven, or succumb to eternal damnation. To an individual with severe OCPD, disorder and personal failure are intolerable realities that must never be permitted to exist. When his actual circumstances began to spiral out of the flawless control he had constructed, List’s psychological equilibrium underwent a catastrophic crisis. The violent rupture between his illusion of omnipotence and his reality of helplessness triggered a desperate defense mechanism to preserve his patriarchal ego.",
+  "sentences": [
+   {
+    "id": "3.03#1",
+    "text": "Unlike individuals with OCD who recognize that their intrusive compulsions are irrational and experience distress, people with OCPD believe their way of thinking is the singular, absolute truth.",
+    "words": 28
+   },
+   {
+    "id": "3.03#2",
+    "text": "The defining core of OCPD is a pathological preoccupation with orderliness, rigid perfectionism, unbending rules, and an overwhelming need to control every facet of life.",
+    "words": 25
+   },
+   {
+    "id": "3.03#3",
+    "text": "John List was raised under the domineering thumb of a stern Lutheran father, where any departure from moral perfection was met with severe religious guilt.",
+    "words": 25
+   },
+   {
+    "id": "3.03#4",
+    "text": "He internalized a rigid binary worldview in which human existence offered only two possibilities: either adhere strictly to divine commandments to attain heaven, or succumb to eternal damnation.",
+    "words": 28
+   },
+   {
+    "id": "3.03#5",
+    "text": "To an individual with severe OCPD, disorder and personal failure are intolerable realities that must never be permitted to exist.",
+    "words": 20
+   },
+   {
+    "id": "3.03#6",
+    "text": "When his actual circumstances began to spiral out of the flawless control he had constructed, List’s psychological equilibrium underwent a catastrophic crisis.",
+    "words": 22
+   },
+   {
+    "id": "3.03#7",
+    "text": "The violent rupture between his illusion of omnipotence and his reality of helplessness triggered a desperate defense mechanism to preserve his patriarchal ego.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "3.04",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "expanding on the converging environmental stressors",
+  "text": "Harsh reality struck when John List lost his accounting executive position and sank into an insurmountable mountain of financial debt. Concurrently, he discovered that his wife Helen was suffering from a chronic illness and had turned to heavy self-medication and alcohol to cope. Even more alarming in List’s eyes, his eldest daughter Patricia began exhibiting adolescent rebellion, openly declaring her desire to pursue acting rather than church attendance.",
+  "sentences": [
+   {
+    "id": "3.04#1",
+    "text": "Harsh reality struck when John List lost his accounting executive position and sank into an insurmountable mountain of financial debt.",
+    "words": 20
+   },
+   {
+    "id": "3.04#2",
+    "text": "Concurrently, he discovered that his wife Helen was suffering from a chronic illness and had turned to heavy self-medication and alcohol to cope.",
+    "words": 23
+   },
+   {
+    "id": "3.04#3",
+    "text": "Even more alarming in List’s eyes, his eldest daughter Patricia began exhibiting adolescent rebellion, openly declaring her desire to pursue acting rather than church attendance.",
+    "words": 25
+   }
+  ]
+ },
+ {
+  "id": "3.05",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: dissecting moral neutralization and higher-purpose rationalization",
+  "text": "To a psychologically healthy individual, financial hardship and family conflict are life challenges to be acknowledged and resolved through communication. But to John List’s OCPD mind, admitting insolvency and applying for public welfare represented an unthinkable, humiliating annihilation of his identity. He could not bear the prospect of his family losing their pristine social status before the eyes of their church congregation. Far worse, List convinced himself that poverty and secular rebellion would inevitably lead his children into moral degradation, barring their souls from salvation. This was the psychological threshold where the mechanism of moral neutralization through a higher purpose took complete possession of his thoughts. Suicide was strictly forbidden by his theological doctrine, as self-murder was considered an unforgivable sin that guaranteed eternal hellfire. Consequently, John List devised a grotesque rationalization: he would take the lives of his family while their souls were still pure to deliver them straight to heaven, while accepting earthly exile for himself.",
+  "sentences": [
+   {
+    "id": "3.05#1",
+    "text": "To a psychologically healthy individual, financial hardship and family conflict are life challenges to be acknowledged and resolved through communication.",
+    "words": 20
+   },
+   {
+    "id": "3.05#2",
+    "text": "But to John List’s OCPD mind, admitting insolvency and applying for public welfare represented an unthinkable, humiliating annihilation of his identity.",
+    "words": 21
+   },
+   {
+    "id": "3.05#3",
+    "text": "He could not bear the prospect of his family losing their pristine social status before the eyes of their church congregation.",
+    "words": 21
+   },
+   {
+    "id": "3.05#4",
+    "text": "Far worse, List convinced himself that poverty and secular rebellion would inevitably lead his children into moral degradation, barring their souls from salvation.",
+    "words": 23
+   },
+   {
+    "id": "3.05#5",
+    "text": "This was the psychological threshold where the mechanism of moral neutralization through a higher purpose took complete possession of his thoughts.",
+    "words": 21
+   },
+   {
+    "id": "3.05#6",
+    "text": "Suicide was strictly forbidden by his theological doctrine, as self-murder was considered an unforgivable sin that guaranteed eternal hellfire.",
+    "words": 19
+   },
+   {
+    "id": "3.05#7",
+    "text": "Consequently, John List devised a grotesque rationalization: he would take the lives of his family while their souls were still pure to deliver them straight to heaven, while accepting earthly exile for himself.",
+    "words": 33
+   }
+  ]
+ },
+ {
+  "id": "3.06",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "highlighting extraordinary psychological compartmentalization",
+  "text": "That warped internal logic transformed the execution of five innocent family members into what List viewed as a solemn moral duty he had to fulfill. Once the murders were completed, he demonstrated an astonishing psychological capacity known as compartmentalization.",
+  "sentences": [
+   {
+    "id": "3.06#1",
+    "text": "That warped internal logic transformed the execution of five innocent family members into what List viewed as a solemn moral duty he had to fulfill.",
+    "words": 25
+   },
+   {
+    "id": "3.06#2",
+    "text": "Once the murders were completed, he demonstrated an astonishing psychological capacity known as compartmentalization.",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "3.07",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: explaining compartmentalization and his dual existence",
+  "text": "Compartmentalization is the defense mechanism that allows an individual to wall off traumatic memories and immense guilt, preventing their conscious identity from shattering. John List could pen an agonizing, emotionally wrought confession to his pastor, and moments later calmly wash the dishes and eat a sandwich in the kitchen. When he fashioned a new existence under the alias Robert Clark, he sealed away his entire past life in Westfield like a locked drawer inside his psyche. He replicated his former lifestyle with uncanny precision: securing an accounting job, joining a local Lutheran church, and marrying another devout woman. This cold equanimity was not an indicator of remorse or inner torment, but the hallmark of a personality that had entirely convinced itself it had done right. In List’s mind, he had successfully completed his divine mission to shepherd his family to heaven, and he was now entitled to construct an orderly new existence.",
+  "sentences": [
+   {
+    "id": "3.07#1",
+    "text": "Compartmentalization is the defense mechanism that allows an individual to wall off traumatic memories and immense guilt, preventing their conscious identity from shattering.",
+    "words": 23
+   },
+   {
+    "id": "3.07#2",
+    "text": "John List could pen an agonizing, emotionally wrought confession to his pastor, and moments later calmly wash the dishes and eat a sandwich in the kitchen.",
+    "words": 26
+   },
+   {
+    "id": "3.07#3",
+    "text": "When he fashioned a new existence under the alias Robert Clark, he sealed away his entire past life in Westfield like a locked drawer inside his psyche.",
+    "words": 27
+   },
+   {
+    "id": "3.07#4",
+    "text": "He replicated his former lifestyle with uncanny precision: securing an accounting job, joining a local Lutheran church, and marrying another devout woman.",
+    "words": 22
+   },
+   {
+    "id": "3.07#5",
+    "text": "This cold equanimity was not an indicator of remorse or inner torment, but the hallmark of a personality that had entirely convinced itself it had done right.",
+    "words": 27
+   },
+   {
+    "id": "3.07#6",
+    "text": "In List’s mind, he had successfully completed his divine mission to shepherd his family to heaven, and he was now entitled to construct an orderly new existence.",
+    "words": 27
+   }
+  ]
+ },
+ {
+  "id": "3.08",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "closing Act 3",
+  "text": "The fugitive believed that his manufactured persona was impenetrable and that human justice would never pierce his disguise. Yet the explosive emergence of national broadcast media and the extraordinary vision of a forensic sculptor would prove him wrong. In 1989, an eighteen-year wall of deceit was shattered before tens of millions of television viewers.",
+  "sentences": [
+   {
+    "id": "3.08#1",
+    "text": "The fugitive believed that his manufactured persona was impenetrable and that human justice would never pierce his disguise.",
+    "words": 18
+   },
+   {
+    "id": "3.08#2",
+    "text": "Yet the explosive emergence of national broadcast media and the extraordinary vision of a forensic sculptor would prove him wrong.",
+    "words": 20
+   },
+   {
+    "id": "3.08#3",
+    "text": "In 1989, an eighteen-year wall of deceit was shattered before tens of millions of television viewers.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "3.09",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "*Piano chords fade out, giving way to the tense, accelerating rhythm of a groundbreaking manhunt.*"
+ },
+ {
+  "id": "4.01",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "*Urgent, staccato strings pulse over a jagged electronic heartbeat, establishing high-stakes investigative tension.*"
+ },
+ {
+  "id": "4.02",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "reconstructing the historic media breakthrough",
+  "text": "In early 1989, the investigative reality television series America’s Most Wanted, hosted by John Walsh, decided to re-examine the John List cold case. However, the greatest dilemma confronting the producers was the total absence of any photograph depicting how John List might appear at sixty-four years of age. To overcome this challenge, the production team turned to Frank Bender, an exceptionally gifted forensic sculptor based in Philadelphia. Frank Bender collaborated closely with forensic psychologist Richard Walter to analyze facial bone structures, lifestyle habits, and the suspect’s psychological profile. Bender deduced that a sedentary, stress-prone man like List would develop sagging jowls, drooping eyelids, and pronounced male-pattern baldness over time. Most crucially, Bender scoured thrift stores to locate thick, dark-rimmed horn-rimmed eyeglasses, the exact style preferred by conservative accountants of that era.",
+  "sentences": [
+   {
+    "id": "4.02#1",
+    "text": "In early 1989, the investigative reality television series America’s Most Wanted, hosted by John Walsh, decided to re-examine the John List cold case.",
+    "words": 23
+   },
+   {
+    "id": "4.02#2",
+    "text": "However, the greatest dilemma confronting the producers was the total absence of any photograph depicting how John List might appear at sixty-four years of age.",
+    "words": 25
+   },
+   {
+    "id": "4.02#3",
+    "text": "To overcome this challenge, the production team turned to Frank Bender, an exceptionally gifted forensic sculptor based in Philadelphia.",
+    "words": 19
+   },
+   {
+    "id": "4.02#4",
+    "text": "Frank Bender collaborated closely with forensic psychologist Richard Walter to analyze facial bone structures, lifestyle habits, and the suspect’s psychological profile.",
+    "words": 21
+   },
+   {
+    "id": "4.02#5",
+    "text": "Bender deduced that a sedentary, stress-prone man like List would develop sagging jowls, drooping eyelids, and pronounced male-pattern baldness over time.",
+    "words": 21
+   },
+   {
+    "id": "4.02#6",
+    "text": "Most crucially, Bender scoured thrift stores to locate thick, dark-rimmed horn-rimmed eyeglasses, the exact style preferred by conservative accountants of that era.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "4.03",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "*The delicate tap of a sculpting spatula on clay, accompanied by the focused breathing of an artist.*"
+ },
+ {
+  "id": "4.04",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "dramatic, immersive pacing, recalling the live broadcast",
+  "text": "Frank Bender’s finished clay bust captured a startlingly lifelike and chilling likeness of the fugitive eighteen years after his disappearance. On the evening of Sunday, May 21st, 1989, the John List segment aired on national television before an audience of over twenty-two million Americans. Images of the clay bust with its distinctive horn-rimmed glasses and austere expression filled living room screens alongside tip-line numbers. Out in Denver, Colorado, an elderly woman watching television suddenly dropped her teacup to the floor in stunned disbelief.",
+  "sentences": [
+   {
+    "id": "4.04#1",
+    "text": "Frank Bender’s finished clay bust captured a startlingly lifelike and chilling likeness of the fugitive eighteen years after his disappearance.",
+    "words": 20
+   },
+   {
+    "id": "4.04#2",
+    "text": "On the evening of Sunday, May 21st, 1989, the John List segment aired on national television before an audience of over twenty-two million Americans.",
+    "words": 24
+   },
+   {
+    "id": "4.04#3",
+    "text": "Images of the clay bust with its distinctive horn-rimmed glasses and austere expression filled living room screens alongside tip-line numbers.",
+    "words": 20
+   },
+   {
+    "id": "4.04#4",
+    "text": "Out in Denver, Colorado, an elderly woman watching television suddenly dropped her teacup to the floor in stunned disbelief.",
+    "words": 19
+   }
+  ]
+ },
+ {
+  "id": "4.05",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "*A porcelain teacup shatters against hardwood, followed by the urgent, rapid ringing of a telephone tip-line.*"
+ },
+ {
+  "id": "4.06",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: recounting the arrival of the decisive tip",
+  "text": "The America’s Most Wanted hotline was inundated with hundreds of calls from viewers across the country within minutes of the broadcast. Among those leads was a crucial telephone call placed by a woman named Wanda Flanery from Colorado. She asserted unequivocally that the clay bust on television was a mirror image of her former neighbor in Aurora, a man known as Robert Clark. This individual was also an accountant, wore identical horn-rimmed spectacles, and observed extremely rigid religious routines. Mrs Flanery noted that the Clark family had relocated to Midlothian, Virginia, just the previous year. FBI special agents initiated an immediate verification at the new address, discovering that Robert Clark was currently employed at a local accounting practice.",
+  "sentences": [
+   {
+    "id": "4.06#1",
+    "text": "The America’s Most Wanted hotline was inundated with hundreds of calls from viewers across the country within minutes of the broadcast.",
+    "words": 21
+   },
+   {
+    "id": "4.06#2",
+    "text": "Among those leads was a crucial telephone call placed by a woman named Wanda Flanery from Colorado.",
+    "words": 17
+   },
+   {
+    "id": "4.06#3",
+    "text": "She asserted unequivocally that the clay bust on television was a mirror image of her former neighbor in Aurora, a man known as Robert Clark.",
+    "words": 25
+   },
+   {
+    "id": "4.06#4",
+    "text": "This individual was also an accountant, wore identical horn-rimmed spectacles, and observed extremely rigid religious routines.",
+    "words": 16
+   },
+   {
+    "id": "4.06#5",
+    "text": "Mrs Flanery noted that the Clark family had relocated to Midlothian, Virginia, just the previous year.",
+    "words": 16
+   },
+   {
+    "id": "4.06#6",
+    "text": "FBI special agents initiated an immediate verification at the new address, discovering that Robert Clark was currently employed at a local accounting practice.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "4.07",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "*Wailing FBI vehicle sirens screeching to a halt, followed by the loud thud of an office door being breached.*"
+ },
+ {
+  "id": "4.08",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "capturing the capture in Virginia",
+  "text": "On June 1st, 1989, eleven days after the national broadcast, FBI agents moved in on an accounting office in Richmond, Virginia. The man sitting behind the desk wore a crisp dress shirt and horn-rimmed glasses virtually identical to Frank Bender’s sculpture. He repeatedly insisted his name was Robert Clark, adamantly denying any connection to a cold case in New Jersey from eighteen years earlier.",
+  "sentences": [
+   {
+    "id": "4.08#1",
+    "text": "On June 1st, 1989, eleven days after the national broadcast, FBI agents moved in on an accounting office in Richmond, Virginia.",
+    "words": 21
+   },
+   {
+    "id": "4.08#2",
+    "text": "The man sitting behind the desk wore a crisp dress shirt and horn-rimmed glasses virtually identical to Frank Bender’s sculpture.",
+    "words": 20
+   },
+   {
+    "id": "4.08#3",
+    "text": "He repeatedly insisted his name was Robert Clark, adamantly denying any connection to a cold case in New Jersey from eighteen years earlier.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "4.09",
+  "act": 4,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "N2: Wanda Flanery, former neighbor of John List in Aurora, Colorado, calm, incredulous female voice",
+  "text": "When Frank Bender’s bust materialized on my television screen that night, an involuntary shudder of terror passed through my body. That was Bob Clark, the neighbor who had lived right beside our home for years without anyone suspecting a single thing. He always presented himself as a polite, soft-spoken gentleman who worked diligently and never missed a Sunday morning church service. His new wife Delores was a gentle woman who seemed utterly proud of her quiet, attentive husband. I remembered seeing an old newspaper clipping about the John List murders once and joking that he resembled the killer, but his wife simply laughed it off. It is chilling beyond belief that a man who extinguished the lives of his mother, wife, and three children could casually chat and attend backyard barbecues with us. That horrifying composure made me realize that evil does not always possess claws; it hides behind tailored suits and polite smiles. I felt an immense sense of relief knowing our family’s phone call helped bring this cold-blooded killer to justice after nearly two decades.",
+  "sentences": [
+   {
+    "id": "4.09#1",
+    "text": "When Frank Bender’s bust materialized on my television screen that night, an involuntary shudder of terror passed through my body.",
+    "words": 20
+   },
+   {
+    "id": "4.09#2",
+    "text": "That was Bob Clark, the neighbor who had lived right beside our home for years without anyone suspecting a single thing.",
+    "words": 21
+   },
+   {
+    "id": "4.09#3",
+    "text": "He always presented himself as a polite, soft-spoken gentleman who worked diligently and never missed a Sunday morning church service.",
+    "words": 20
+   },
+   {
+    "id": "4.09#4",
+    "text": "His new wife Delores was a gentle woman who seemed utterly proud of her quiet, attentive husband.",
+    "words": 17
+   },
+   {
+    "id": "4.09#5",
+    "text": "I remembered seeing an old newspaper clipping about the John List murders once and joking that he resembled the killer, but his wife simply laughed it off.",
+    "words": 27
+   },
+   {
+    "id": "4.09#6",
+    "text": "It is chilling beyond belief that a man who extinguished the lives of his mother, wife, and three children could casually chat and attend backyard barbecues with us.",
+    "words": 28
+   },
+   {
+    "id": "4.09#7",
+    "text": "That horrifying composure made me realize that evil does not always possess claws; it hides behind tailored suits and polite smiles.",
+    "words": 21
+   },
+   {
+    "id": "4.09#8",
+    "text": "I felt an immense sense of relief knowing our family’s phone call helped bring this cold-blooded killer to justice after nearly two decades.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "4.10",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: biometric confirmation and extradition",
+  "text": "Although the suspect fiercely maintained his alias and refused to sign any documentation, biometric evidence settled the question permanently. We took Robert Clark’s latent fingerprints and compared them directly against John List’s World War II military records stored at the National Archives. FBI latent fingerprint specialists confirmed an unequivocal, point-by-point match across all ridge characteristics. The eighteen-year wall of deceit disintegrated completely, and John List was formally extradited back to New Jersey to answer for his crimes. The capture stands as one of the most stunning triumphs of forensic anthropology and the collaborative power of investigative media.",
+  "sentences": [
+   {
+    "id": "4.10#1",
+    "text": "Although the suspect fiercely maintained his alias and refused to sign any documentation, biometric evidence settled the question permanently.",
+    "words": 19
+   },
+   {
+    "id": "4.10#2",
+    "text": "We took Robert Clark’s latent fingerprints and compared them directly against John List’s World War II military records stored at the National Archives.",
+    "words": 23
+   },
+   {
+    "id": "4.10#3",
+    "text": "FBI latent fingerprint specialists confirmed an unequivocal, point-by-point match across all ridge characteristics.",
+    "words": 13
+   },
+   {
+    "id": "4.10#4",
+    "text": "The eighteen-year wall of deceit disintegrated completely, and John List was formally extradited back to New Jersey to answer for his crimes.",
+    "words": 22
+   },
+   {
+    "id": "4.10#5",
+    "text": "The capture stands as one of the most stunning triumphs of forensic anthropology and the collaborative power of investigative media.",
+    "words": 20
+   }
+  ]
+ },
+ {
+  "id": "4.11",
+  "act": 4,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: reflecting on behavioral consistency and the immutable glasses",
+  "text": "Frank Bender’s sculpture triumphed not merely due to precise anatomical knowledge, but because he correctly anticipated the subject’s profound behavioral rigidity. Individuals afflicted with OCPD rarely abandon their personal preferences, as they view their established choices as the ultimate standard of perfection. Those horn-rimmed glasses served as an immutable psychological anchor that the killer carried unaltered from his old life into his new identity.",
+  "sentences": [
+   {
+    "id": "4.11#1",
+    "text": "Frank Bender’s sculpture triumphed not merely due to precise anatomical knowledge, but because he correctly anticipated the subject’s profound behavioral rigidity.",
+    "words": 21
+   },
+   {
+    "id": "4.11#2",
+    "text": "Individuals afflicted with OCPD rarely abandon their personal preferences, as they view their established choices as the ultimate standard of perfection.",
+    "words": 21
+   },
+   {
+    "id": "4.11#3",
+    "text": "Those horn-rimmed glasses served as an immutable psychological anchor that the killer carried unaltered from his old life into his new identity.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "4.12",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "closing Act 4",
+  "text": "In April 1990, the trial of John List commenced at the Union County Courthouse before a captivated national audience. The fugitive was finally forced to step into the glare of justice after nearly two decades hiding behind a mask of virtue.",
+  "sentences": [
+   {
+    "id": "4.12#1",
+    "text": "In April 1990, the trial of John List commenced at the Union County Courthouse before a captivated national audience.",
+    "words": 19
+   },
+   {
+    "id": "4.12#2",
+    "text": "The fugitive was finally forced to step into the glare of justice after nearly two decades hiding behind a mask of virtue.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "4.13",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "*A sharp, resonant violin chord strikes and slowly trails off, signaling the dawn of legal reckoning.*"
+ },
+ {
+  "id": "5.01",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "*The score shifts to a warm, solemn piano melody, layered with philosophical contemplation and profound humanist warning.*"
+ },
+ {
+  "id": "5.02",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "philosophical, contemplative tone",
+  "text": "On April 12th, 1990, following nine hours of jury deliberation, John List was convicted on five counts of first-degree murder. On May 1st, 1990, Judge William Wertheimer handed down the maximum permissible penalty: five consecutive life sentences with no possibility of parole. John List spent the remaining eighteen years of his life inside the New Jersey State Prison in Trenton, where he resumed a strictly ordered existence behind bars. On March 21st, 2008, the killer died from complications of pneumonia at the age of eighty-two, bringing an end to one of the twentieth century’s most notorious domestic crime files.",
+  "sentences": [
+   {
+    "id": "5.02#1",
+    "text": "On April 12th, 1990, following nine hours of jury deliberation, John List was convicted on five counts of first-degree murder.",
+    "words": 20
+   },
+   {
+    "id": "5.02#2",
+    "text": "On May 1st, 1990, Judge William Wertheimer handed down the maximum permissible penalty: five consecutive life sentences with no possibility of parole.",
+    "words": 22
+   },
+   {
+    "id": "5.02#3",
+    "text": "John List spent the remaining eighteen years of his life inside the New Jersey State Prison in Trenton, where he resumed a strictly ordered existence behind bars.",
+    "words": 27
+   },
+   {
+    "id": "5.02#4",
+    "text": "On March 21st, 2008, the killer died from complications of pneumonia at the age of eighty-two, bringing an end to one of the twentieth century’s most notorious domestic crime files.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "5.03",
+  "act": 5,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: commentary on criminal investigative legacy",
+  "text": "The John List case remains a benchmark textbook case in fugitive apprehension and the application of age-progressed forensic imaging. It demonstrates that no matter how much time elapses, the trail of guilt can never be erased when relentless law enforcement works hand-in-hand with an informed public. The lasting legacy of this investigation lies in the scientific methodologies pioneered to pierce the fraudulent facades of long-term fugitives.",
+  "sentences": [
+   {
+    "id": "5.03#1",
+    "text": "The John List case remains a benchmark textbook case in fugitive apprehension and the application of age-progressed forensic imaging.",
+    "words": 19
+   },
+   {
+    "id": "5.03#2",
+    "text": "It demonstrates that no matter how much time elapses, the trail of guilt can never be erased when relentless law enforcement works hand-in-hand with an informed public.",
+    "words": 27
+   },
+   {
+    "id": "5.03#3",
+    "text": "The lasting legacy of this investigation lies in the scientific methodologies pioneered to pierce the fraudulent facades of long-term fugitives.",
+    "words": 20
+   }
+  ]
+ },
+ {
+  "id": "5.04",
+  "act": 5,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: concluding insights on authoritarian patriarchy and familial bonds",
+  "text": "The tragedy at Breeze Knoll stands as a stark warning regarding the catastrophic danger of authoritarian patriarchy fused with unyielding religious fanaticism. When a family leader values the preservation of superficial social standing and unbending control above the lives and happiness of loved ones, disaster is only a matter of time. Genuine faith and authentic morality guide humanity toward compassion and empathy, rather than serving as a cynical shield to justify violence. Acknowledging failure with humility and having the courage to seek help during life’s crises represent the true hallmarks of psychological maturity.",
+  "sentences": [
+   {
+    "id": "5.04#1",
+    "text": "The tragedy at Breeze Knoll stands as a stark warning regarding the catastrophic danger of authoritarian patriarchy fused with unyielding religious fanaticism.",
+    "words": 22
+   },
+   {
+    "id": "5.04#2",
+    "text": "When a family leader values the preservation of superficial social standing and unbending control above the lives and happiness of loved ones, disaster is only a matter of time.",
+    "words": 29
+   },
+   {
+    "id": "5.04#3",
+    "text": "Genuine faith and authentic morality guide humanity toward compassion and empathy, rather than serving as a cynical shield to justify violence.",
+    "words": 21
+   },
+   {
+    "id": "5.04#4",
+    "text": "Acknowledging failure with humility and having the courage to seek help during life’s crises represent the true hallmarks of psychological maturity.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "5.05",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "delivering practical takeaways and educational red flags",
+  "text": "To help families recognize toxic patterns before they escalate, Amber Eyes highlights four essential behavioral red flags drawn from the John List file. First warning sign: An obsessive demand for absolute control and the enforcement of rigid perfection upon family members. When an individual treats every difference in personal interests, perspectives, or lifestyle as intolerable moral decay, that behavior reflects toxic OCPD pathology. A healthy home environment must be a sanctuary that respects individuality, not a rigid fortress of unbending edicts. Second warning sign: Concealing financial ruin at all costs out of an overwhelming dread of social humiliation. Refusing to discuss economic distress with a partner, secretly siphoning family savings, and maintaining a fraudulent lifestyle constitute an imminent psychological crisis. Financial transparency and mutual support through adversity are vital foundations for protecting familial well-being. Third warning sign: Employing religious dogma or claims of a higher purpose to suppress personal liberty and justify tyranny. When an individual presumes divine authority to pass judgment on others, invokes metaphysical terrors to enforce obedience, and isolates the household, extreme vigilance is required. Authentic love is never cultivated through fear, intimidation, or absolute psychological subjugation. Fourth warning sign: A pattern of chronic self-isolation and severing external connections when confronting life crises. Rejecting professional psychological support, cutting ties with community friends, and retreating into solitary negative ruminations are profound alarm bells. Always take the initiative to speak out and seek intervention from established community organizations whenever concerning patterns arise. The physical safety and emotional sanctity of yourself and your children remain the highest values to be safeguarded above all else. Thank you for spending your valuable time with Amber Eyes today as we examined this deeply poignant case and its enduring psychological lessons. Please subscribe to our channel, tap the notification bell, and share your thoughtful reflections in the comments below. Until our next case file, stay safe and farewell.",
+  "sentences": [
+   {
+    "id": "5.05#1",
+    "text": "To help families recognize toxic patterns before they escalate, Amber Eyes highlights four essential behavioral red flags drawn from the John List file.",
+    "words": 23
+   },
+   {
+    "id": "5.05#2",
+    "text": "First warning sign: An obsessive demand for absolute control and the enforcement of rigid perfection upon family members.",
+    "words": 18
+   },
+   {
+    "id": "5.05#3",
+    "text": "When an individual treats every difference in personal interests, perspectives, or lifestyle as intolerable moral decay, that behavior reflects toxic OCPD pathology.",
+    "words": 22
+   },
+   {
+    "id": "5.05#4",
+    "text": "A healthy home environment must be a sanctuary that respects individuality, not a rigid fortress of unbending edicts.",
+    "words": 18
+   },
+   {
+    "id": "5.05#5",
+    "text": "Second warning sign: Concealing financial ruin at all costs out of an overwhelming dread of social humiliation.",
+    "words": 17
+   },
+   {
+    "id": "5.05#6",
+    "text": "Refusing to discuss economic distress with a partner, secretly siphoning family savings, and maintaining a fraudulent lifestyle constitute an imminent psychological crisis.",
+    "words": 22
+   },
+   {
+    "id": "5.05#7",
+    "text": "Financial transparency and mutual support through adversity are vital foundations for protecting familial well-being.",
+    "words": 14
+   },
+   {
+    "id": "5.05#8",
+    "text": "Third warning sign: Employing religious dogma or claims of a higher purpose to suppress personal liberty and justify tyranny.",
+    "words": 19
+   },
+   {
+    "id": "5.05#9",
+    "text": "When an individual presumes divine authority to pass judgment on others, invokes metaphysical terrors to enforce obedience, and isolates the household, extreme vigilance is required.",
+    "words": 25
+   },
+   {
+    "id": "5.05#10",
+    "text": "Authentic love is never cultivated through fear, intimidation, or absolute psychological subjugation.",
+    "words": 12
+   },
+   {
+    "id": "5.05#11",
+    "text": "Fourth warning sign: A pattern of chronic self-isolation and severing external connections when confronting life crises.",
+    "words": 16
+   },
+   {
+    "id": "5.05#12",
+    "text": "Rejecting professional psychological support, cutting ties with community friends, and retreating into solitary negative ruminations are profound alarm bells.",
+    "words": 19
+   },
+   {
+    "id": "5.05#13",
+    "text": "Always take the initiative to speak out and seek intervention from established community organizations whenever concerning patterns arise.",
+    "words": 18
+   },
+   {
+    "id": "5.05#14",
+    "text": "The physical safety and emotional sanctity of yourself and your children remain the highest values to be safeguarded above all else.",
+    "words": 21
+   },
+   {
+    "id": "5.05#15",
+    "text": "Thank you for spending your valuable time with Amber Eyes today as we examined this deeply poignant case and its enduring psychological lessons.",
+    "words": 23
+   },
+   {
+    "id": "5.05#16",
+    "text": "Please subscribe to our channel, tap the notification bell, and share your thoughtful reflections in the comments below.",
+    "words": 18
+   },
+   {
+    "id": "5.05#17",
+    "text": "Until our next case file, stay safe and farewell.",
+    "words": 9
+   }
+  ]
+ },
+ {
+  "id": "5.06",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "*Warm, dignified piano chords swell gently and fade out completely by the fifth second.*"
+ }
+]

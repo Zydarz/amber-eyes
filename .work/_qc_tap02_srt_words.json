@@ -1,0 +1,66 @@
+﻿{
+  "sentences": 215,
+  "sentences_with_cue": 191,
+  "sentences_without_cue": 24,
+  "first_cue_offset_vs_sentence_start": {
+    "min": 0.0,
+    "max": 6.69,
+    "abs_gt_0.1": 72,
+    "abs_gt_0.25": 72
+  },
+  "mid_word_cue_splits": 0,
+  "mid_word_cue_sample": [],
+  "mid_word_line_breaks": 0,
+  "mid_word_line_sample": [],
+  "cues_ending_with_dash_or_comma": 115,
+  "dangling_sample": [
+    {
+      "cue": "5",
+      "ends_with": "Russell Williams –",
+      "text": "Người bước lên bục nhận quyền chỉ huy tối cao là Đại tá Davi"
+    },
+    {
+      "cue": "9",
+      "ends_with": " của kỷ luật thép,",
+      "text": "Ông ta được biết đến như một biểu tượng của kỷ luật thép,"
+    },
+    {
+      "cue": "12",
+      "ends_with": "y lớn đến mức nào,",
+      "text": "Để hiểu sự ngưỡng mộ ấy lớn đến mức nào,"
+    },
+    {
+      "cue": "14",
+      "ends_with": "ại căn cứ Trenton,",
+      "text": "[BINH SĨ] Trong mắt binh sĩ tại căn cứ Trenton,"
+    },
+    {
+      "cue": "15",
+      "ends_with": "một người chỉ huy,",
+      "text": "Đại tá Williams không chỉ là một người chỉ huy,"
+    },
+    {
+      "cue": "17",
+      "ends_with": "nếp gấp quân phục,",
+      "text": "Ông ấy điềm tĩnh, chuẩn mực đến từng nếp gấp quân phục,"
+    },
+    {
+      "cue": "19",
+      "ends_with": "ứng trước mặt ông,",
+      "text": "Khi đứng trước mặt ông,"
+    },
+    {
+      "cue": "23",
+      "ends_with": "chương danh dự ấy,",
+      "text": "mình bộ quân phục đính đầy huân chương danh dự ấy,"
+    }
+  ],
+  "role_tagged_cues": 36,
+  "role_tag_distribution": {
+    "[HOST]": 23,
+    "[BINH SĨ]": 1,
+    "[ĐIỀU TRA VIÊN]": 6,
+    "[CHUYÊN GIA TÂM LÝ]": 5,
+    "[KHÁN GIẢ]": 1
+  }
+}

@@ -1,0 +1,1262 @@
+[
+ {
+  "id": "1.01",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "A somber, tormented cello rises through the silence, blending with distant surf breaking along the La Jolla coastline."
+ },
+ {
+  "id": "1.02",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "slow, warm, setting the historical scene",
+  "text": "In the coastal city of San Diego, a double homicide in the late 1980s became a shattering tragedy. It evolved into one of the most polarizing domestic murder trials in American legal history. It was the story of Elisabeth Anne Broderick, known to the world simply as Betty Broderick. For nearly two decades, Betty was revered as the ultimate embodiment of marital sacrifice and devotion. Yet behind radiant portraits of upper-class domestic bliss lurked a subterranean, venomous psychological war. In that crucible, relentless gaslighting eroded a woman’s sanity, driving a model wife across the threshold of murder.",
+  "sentences": [
+   {
+    "id": "1.02#1",
+    "text": "In the coastal city of San Diego, a double homicide in the late 1980s became a shattering tragedy.",
+    "words": 18
+   },
+   {
+    "id": "1.02#2",
+    "text": "It evolved into one of the most polarizing domestic murder trials in American legal history.",
+    "words": 15
+   },
+   {
+    "id": "1.02#3",
+    "text": "It was the story of Elisabeth Anne Broderick, known to the world simply as Betty Broderick.",
+    "words": 16
+   },
+   {
+    "id": "1.02#4",
+    "text": "For nearly two decades, Betty was revered as the ultimate embodiment of marital sacrifice and devotion.",
+    "words": 16
+   },
+   {
+    "id": "1.02#5",
+    "text": "Yet behind radiant portraits of upper-class domestic bliss lurked a subterranean, venomous psychological war.",
+    "words": 14
+   },
+   {
+    "id": "1.02#6",
+    "text": "In that crucible, relentless gaslighting eroded a woman’s sanity, driving a model wife across the threshold of murder.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "1.03",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "The rustle of heavy medical textbooks, the midnight cries of infants, and the rapid clatter of a domestic sewing machine."
+ },
+ {
+  "id": "1.04",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "continuing in a deep, reflective tone",
+  "text": "The romance between Betty and Daniel T. Broderick III began in the late 1960s with a fairytale wedding in 1969. At the time, Dan Broderick was merely an impoverished but intensely ambitious young student. Over the next sixteen years, Betty carried the entire household upon her shoulders. She worked tirelessly, teaching nursery school, selling Tupperware, and peddling cosmetics door-to-door to fund daily living expenses. Sustained by his wife’s fierce sacrifices, Dan completed two of the most prestigious graduate degrees in the nation. He earned a Medical Degree from Cornell University followed by a Juris Doctor from Harvard Law School.",
+  "sentences": [
+   {
+    "id": "1.04#1",
+    "text": "The romance between Betty and Daniel T.",
+    "words": 7
+   },
+   {
+    "id": "1.04#2",
+    "text": "Broderick III began in the late 1960s with a fairytale wedding in 1969.",
+    "words": 13
+   },
+   {
+    "id": "1.04#3",
+    "text": "At the time, Dan Broderick was merely an impoverished but intensely ambitious young student.",
+    "words": 14
+   },
+   {
+    "id": "1.04#4",
+    "text": "Over the next sixteen years, Betty carried the entire household upon her shoulders.",
+    "words": 13
+   },
+   {
+    "id": "1.04#5",
+    "text": "She worked tirelessly, teaching nursery school, selling Tupperware, and peddling cosmetics door-to-door to fund daily living expenses.",
+    "words": 17
+   },
+   {
+    "id": "1.04#6",
+    "text": "Sustained by his wife’s fierce sacrifices, Dan completed two of the most prestigious graduate degrees in the nation.",
+    "words": 18
+   },
+   {
+    "id": "1.04#7",
+    "text": "He earned a Medical Degree from Cornell University followed by a Juris Doctor from Harvard Law School.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "1.05",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "Crystal glasses clinking at an opulent cocktail reception, amid the jovial laughter of high society."
+ },
+ {
+  "id": "1.06",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "somber, revealing the tragic turning point",
+  "text": "After establishing roots in the affluent enclave of La Jolla, Dan Broderick achieved immense wealth. He rose to become the region’s preeminent medical malpractice attorney, wielding formidable influence. Elected President of the San Diego Bar Association, he accumulated millions of dollars, sports cars, and luxury boats. In the autumn of 1983, Dan hired a twenty-one-year-old former flight attendant named Linda Kolkena as his legal assistant. From that moment forward, the prominent attorney commenced a clandestine affair behind his loyal wife’s back.",
+  "sentences": [
+   {
+    "id": "1.06#1",
+    "text": "After establishing roots in the affluent enclave of La Jolla, Dan Broderick achieved immense wealth.",
+    "words": 15
+   },
+   {
+    "id": "1.06#2",
+    "text": "He rose to become the region’s preeminent medical malpractice attorney, wielding formidable influence.",
+    "words": 13
+   },
+   {
+    "id": "1.06#3",
+    "text": "Elected President of the San Diego Bar Association, he accumulated millions of dollars, sports cars, and luxury boats.",
+    "words": 18
+   },
+   {
+    "id": "1.06#4",
+    "text": "In the autumn of 1983, Dan hired a twenty-one-year-old former flight attendant named Linda Kolkena as his legal assistant.",
+    "words": 19
+   },
+   {
+    "id": "1.06#5",
+    "text": "From that moment forward, the prominent attorney commenced a clandestine affair behind his loyal wife’s back.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "1.07",
+  "act": 1,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "N1: Betty's close friend in La Jolla, sorrowful and trembling female voice",
+  "text": "I witnessed firsthand the grueling years Betty sacrificed her entire youth for Dan. She raised four young children, pinching every penny so her husband could study undisturbed at elite universities. Yet once Dan tasted wealth and prestige, his attitude toward her altered completely. Whenever Betty voiced suspicion regarding his closeness with young Linda, Dan not only denied it but berated her viciously. He branded Betty an aging, paranoid lunatic who was imagining monsters in every shadow. Once a vibrant, attractive woman, Betty deteriorated into frantic anxiety, doubting her own sanity. I felt absolute chills watching the calculated cruelty displayed by her husband.",
+  "sentences": [
+   {
+    "id": "1.07#1",
+    "text": "I witnessed firsthand the grueling years Betty sacrificed her entire youth for Dan.",
+    "words": 13
+   },
+   {
+    "id": "1.07#2",
+    "text": "She raised four young children, pinching every penny so her husband could study undisturbed at elite universities.",
+    "words": 17
+   },
+   {
+    "id": "1.07#3",
+    "text": "Yet once Dan tasted wealth and prestige, his attitude toward her altered completely.",
+    "words": 13
+   },
+   {
+    "id": "1.07#4",
+    "text": "Whenever Betty voiced suspicion regarding his closeness with young Linda, Dan not only denied it but berated her viciously.",
+    "words": 19
+   },
+   {
+    "id": "1.07#5",
+    "text": "He branded Betty an aging, paranoid lunatic who was imagining monsters in every shadow.",
+    "words": 14
+   },
+   {
+    "id": "1.07#6",
+    "text": "Once a vibrant, attractive woman, Betty deteriorated into frantic anxiety, doubting her own sanity.",
+    "words": 14
+   },
+   {
+    "id": "1.07#7",
+    "text": "I felt absolute chills watching the calculated cruelty displayed by her husband.",
+    "words": 12
+   }
+  ]
+ },
+ {
+  "id": "1.08",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "An urgent wall clock ticking, punctuated by a landline telephone ringing endlessly into empty space."
+ },
+ {
+  "id": "1.09",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "low, grim tone",
+  "text": "That marked the inception of a insidious psychological campaign clinically known as gaslighting. For nearly two agonizing years, Dan Broderick stubbornly denied facts plain as day to his wife. Leveraging his stellar social standing and forensic eloquence, the prominent attorney swayed everyone in their circle. Dan convinced mutual friends, family, and even Betty herself that she was suffering from acute paranoia. Prolonged reality distortion utterly shattered the wife’s cognitive anchor. It transmuted the raw pain of betrayal into a boundless, maddening psychological panic.",
+  "sentences": [
+   {
+    "id": "1.09#1",
+    "text": "That marked the inception of a insidious psychological campaign clinically known as gaslighting.",
+    "words": 13
+   },
+   {
+    "id": "1.09#2",
+    "text": "For nearly two agonizing years, Dan Broderick stubbornly denied facts plain as day to his wife.",
+    "words": 16
+   },
+   {
+    "id": "1.09#3",
+    "text": "Leveraging his stellar social standing and forensic eloquence, the prominent attorney swayed everyone in their circle.",
+    "words": 16
+   },
+   {
+    "id": "1.09#4",
+    "text": "Dan convinced mutual friends, family, and even Betty herself that she was suffering from acute paranoia.",
+    "words": 16
+   },
+   {
+    "id": "1.09#5",
+    "text": "Prolonged reality distortion utterly shattered the wife’s cognitive anchor.",
+    "words": 9
+   },
+   {
+    "id": "1.09#6",
+    "text": "It transmuted the raw pain of betrayal into a boundless, maddening psychological panic.",
+    "words": 13
+   }
+  ]
+ },
+ {
+  "id": "1.10",
+  "act": 1,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "sharp male voice, reviewing official case records",
+  "text": "San Diego Police Department investigative files indicate the marriage fractured irreparably in February 1985. After years of deceit, Dan abruptly moved out of the marital home and openly cohabited with young Linda Kolkena. That public disclosure struck Betty’s pride like a resounding slap in the face. The revelation brought no solace to the wounded spouse. Instead, it ignited volcanic rage as she recognized she had been manipulated into playing the fool for years.",
+  "sentences": [
+   {
+    "id": "1.10#1",
+    "text": "San Diego Police Department investigative files indicate the marriage fractured irreparably in February 1985.",
+    "words": 14
+   },
+   {
+    "id": "1.10#2",
+    "text": "After years of deceit, Dan abruptly moved out of the marital home and openly cohabited with young Linda Kolkena.",
+    "words": 19
+   },
+   {
+    "id": "1.10#3",
+    "text": "That public disclosure struck Betty’s pride like a resounding slap in the face.",
+    "words": 13
+   },
+   {
+    "id": "1.10#4",
+    "text": "The revelation brought no solace to the wounded spouse.",
+    "words": 9
+   },
+   {
+    "id": "1.10#5",
+    "text": "Instead, it ignited volcanic rage as she recognized she had been manipulated into playing the fool for years.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "1.11",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "closing Act 1",
+  "text": "The matrimonial citadel Betty had spent her youth erecting collapsed completely at her feet. Yet the most terrifying chapter still lay ahead. The five-year divorce battle degenerated into a vicious legal arena that cornered an already traumatized woman.",
+  "sentences": [
+   {
+    "id": "1.11#1",
+    "text": "The matrimonial citadel Betty had spent her youth erecting collapsed completely at her feet.",
+    "words": 14
+   },
+   {
+    "id": "1.11#2",
+    "text": "Yet the most terrifying chapter still lay ahead.",
+    "words": 8
+   },
+   {
+    "id": "1.11#3",
+    "text": "The five-year divorce battle degenerated into a vicious legal arena that cornered an already traumatized woman.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "1.12",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "A low cello tone resonates heavily, descending into breathless silence."
+ },
+ {
+  "id": "2.01",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "Chilling dark ambient drones drone beneath the dry crack of a judicial gavel, inaugurating a fight to the finish."
+ },
+ {
+  "id": "2.02",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "suspenseful narrative tone",
+  "text": "The divorce litigation between Dan and Betty Broderick rapidly evolved into one of the most protracted, bitter contests in California legal history. As a multimillionaire attorney, Dan possessed mastery over every nuance of the procedural code. He weaponized his professional clout and institutional relationships to grind down his former wife.",
+  "sentences": [
+   {
+    "id": "2.02#1",
+    "text": "The divorce litigation between Dan and Betty Broderick rapidly evolved into one of the most protracted, bitter contests in California legal history.",
+    "words": 22
+   },
+   {
+    "id": "2.02#2",
+    "text": "As a multimillionaire attorney, Dan possessed mastery over every nuance of the procedural code.",
+    "words": 14
+   },
+   {
+    "id": "2.02#3",
+    "text": "He weaponized his professional clout and institutional relationships to grind down his former wife.",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "2.03",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "Distant police sirens echo through coastal hills, accompanied by the thrum of a law enforcement helicopter."
+ },
+ {
+  "id": "2.04",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "continuing the dramatic narrative",
+  "text": "Dan unilaterally sold the couple’s luxurious Coral Reef Avenue home without Betty’s consent or signature. He froze marital accounts, cutting off her independent access to liquid capital. Simultaneously, he employed procedural maneuvers to stall equitable distribution of their multi-million-dollar estate. Going further, Dan secured restraining orders and obtained sole physical custody of all four children. Betty had spent sixteen grueling years nurturing those children through poverty and struggle. Yet in an instant, the mother found herself penniless and legally barred from entering her former home.",
+  "sentences": [
+   {
+    "id": "2.04#1",
+    "text": "Dan unilaterally sold the couple’s luxurious Coral Reef Avenue home without Betty’s consent or signature.",
+    "words": 15
+   },
+   {
+    "id": "2.04#2",
+    "text": "He froze marital accounts, cutting off her independent access to liquid capital.",
+    "words": 12
+   },
+   {
+    "id": "2.04#3",
+    "text": "Simultaneously, he employed procedural maneuvers to stall equitable distribution of their multi-million-dollar estate.",
+    "words": 13
+   },
+   {
+    "id": "2.04#4",
+    "text": "Going further, Dan secured restraining orders and obtained sole physical custody of all four children.",
+    "words": 15
+   },
+   {
+    "id": "2.04#5",
+    "text": "Betty had spent sixteen grueling years nurturing those children through poverty and struggle.",
+    "words": 13
+   },
+   {
+    "id": "2.04#6",
+    "text": "Yet in an instant, the mother found herself penniless and legally barred from entering her former home.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "2.05",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "An answering machine rewinds and blares furious recorded obscenities, ending in a hard receiver slam."
+ },
+ {
+  "id": "2.06",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "recounting the suspect's escalating erratic behaviors",
+  "text": "Paralyzed by legal helplessness, Betty Broderick initiated desperate, increasingly volatile reprisals. She left hundreds of profanity-laced tirades on Dan and Linda’s telephone answering machine. In response, Dan wielded his legal leverage to impose punitive court-approved sanctions. For every obscenity uttered on his recording tape, he docked one hundred dollars from her monthly support allowance. These fiscal penalties drove Betty into further paroxysms of outrage.",
+  "sentences": [
+   {
+    "id": "2.06#1",
+    "text": "Paralyzed by legal helplessness, Betty Broderick initiated desperate, increasingly volatile reprisals.",
+    "words": 11
+   },
+   {
+    "id": "2.06#2",
+    "text": "She left hundreds of profanity-laced tirades on Dan and Linda’s telephone answering machine.",
+    "words": 13
+   },
+   {
+    "id": "2.06#3",
+    "text": "In response, Dan wielded his legal leverage to impose punitive court-approved sanctions.",
+    "words": 12
+   },
+   {
+    "id": "2.06#4",
+    "text": "For every obscenity uttered on his recording tape, he docked one hundred dollars from her monthly support allowance.",
+    "words": 18
+   },
+   {
+    "id": "2.06#5",
+    "text": "These fiscal penalties drove Betty into further paroxysms of outrage.",
+    "words": 10
+   }
+  ]
+ },
+ {
+  "id": "2.07",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "A catastrophic crunch of metal and shattering glass as a pickup truck rams headlong into heavy wooden double doors."
+ },
+ {
+  "id": "2.08",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "rapid, urgent tempo",
+  "text": "Betty’s simmering fury detonated into overt acts of physical vandalism against her ex-husband’s new life. She slipped into Dan’s residence, spray-painting living room walls and smearing cream pie across the master bed. The climax arrived in 1986 when Betty drove her custom Chevrolet Suburban directly through the front entrance of Dan’s house. The violent impact narrowly missed causing catastrophic injury to those inside. Following the crash, Dan leveraged his authority to have Betty jailed for three days and committed to a psychiatric facility for evaluation.",
+  "sentences": [
+   {
+    "id": "2.08#1",
+    "text": "Betty’s simmering fury detonated into overt acts of physical vandalism against her ex-husband’s new life.",
+    "words": 15
+   },
+   {
+    "id": "2.08#2",
+    "text": "She slipped into Dan’s residence, spray-painting living room walls and smearing cream pie across the master bed.",
+    "words": 17
+   },
+   {
+    "id": "2.08#3",
+    "text": "The climax arrived in 1986 when Betty drove her custom Chevrolet Suburban directly through the front entrance of Dan’s house.",
+    "words": 20
+   },
+   {
+    "id": "2.08#4",
+    "text": "The violent impact narrowly missed causing catastrophic injury to those inside.",
+    "words": 11
+   },
+   {
+    "id": "2.08#5",
+    "text": "Following the crash, Dan leveraged his authority to have Betty jailed for three days and committed to a psychiatric facility for evaluation.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "2.09",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "emphasizing the victim's total systemic entrapment",
+  "text": "Each time Betty lashed out in rage, Dan presented that outburst to the family court as definitive proof of her parental unfitness. Betty was ensnared in a flawless legal trap: the harder she fought, the more thoroughly she proved his claim of her instability. She solicited prominent San Diego divorce attorneys, only to be turned away repeatedly. None dared challenge Dan Broderick, given his towering influence as Bar Association President.",
+  "sentences": [
+   {
+    "id": "2.09#1",
+    "text": "Each time Betty lashed out in rage, Dan presented that outburst to the family court as definitive proof of her parental unfitness.",
+    "words": 22
+   },
+   {
+    "id": "2.09#2",
+    "text": "Betty was ensnared in a flawless legal trap: the harder she fought, the more thoroughly she proved his claim of her instability.",
+    "words": 22
+   },
+   {
+    "id": "2.09#3",
+    "text": "She solicited prominent San Diego divorce attorneys, only to be turned away repeatedly.",
+    "words": 13
+   },
+   {
+    "id": "2.09#4",
+    "text": "None dared challenge Dan Broderick, given his towering influence as Bar Association President.",
+    "words": 13
+   }
+  ]
+ },
+ {
+  "id": "2.10",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "closing Act 2",
+  "text": "The final tipping point arrived on April 22nd, 1989, when Dan Broderick married Linda Kolkena in an extravagant garden ceremony. Dan hired armed security guards in bulletproof vests to patrol the nuptials, terrified of his ex-wife’s arrival. That formal union dealt a death blow to Betty Broderick’s remaining rational faculties. She realized the young rival had wholly supplanted her existence. Linda was enjoying the wealth, status, and children Betty had sacrificed her entire young adulthood to secure. Within that suffocated psyche, a lethal objective began to take solid form.",
+  "sentences": [
+   {
+    "id": "2.10#1",
+    "text": "The final tipping point arrived on April 22nd, 1989, when Dan Broderick married Linda Kolkena in an extravagant garden ceremony.",
+    "words": 20
+   },
+   {
+    "id": "2.10#2",
+    "text": "Dan hired armed security guards in bulletproof vests to patrol the nuptials, terrified of his ex-wife’s arrival.",
+    "words": 17
+   },
+   {
+    "id": "2.10#3",
+    "text": "That formal union dealt a death blow to Betty Broderick’s remaining rational faculties.",
+    "words": 13
+   },
+   {
+    "id": "2.10#4",
+    "text": "She realized the young rival had wholly supplanted her existence.",
+    "words": 10
+   },
+   {
+    "id": "2.10#5",
+    "text": "Linda was enjoying the wealth, status, and children Betty had sacrificed her entire young adulthood to secure.",
+    "words": 17
+   },
+   {
+    "id": "2.10#6",
+    "text": "Within that suffocated psyche, a lethal objective began to take solid form.",
+    "words": 12
+   }
+  ]
+ },
+ {
+  "id": "2.11",
+  "act": 2,
+  "kind": "NGHI",
+  "sec": 1.0,
+  "desc": "a hollow drone reverberates into silence"
+ },
+ {
+  "id": "3.01",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "Minimalist piano tones unfold slowly, creating a reflective, analytical mood."
+ },
+ {
+  "id": "3.02",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "deep academic inquiry",
+  "text": "The Betty Broderick file has served as a touchstone debate in law schools and forensic psychiatry institutes for decades. The American public fractured into fiercely opposing camps over the case. One faction viewed Betty as a vengeful narcissist refusing to move on, while the other saw a woman driven mad by psychological abuse. To comprehend this tragedy, we must dissect the clinical dynamics operating behind the Broderick household facade.",
+  "sentences": [
+   {
+    "id": "3.02#1",
+    "text": "The Betty Broderick file has served as a touchstone debate in law schools and forensic psychiatry institutes for decades.",
+    "words": 19
+   },
+   {
+    "id": "3.02#2",
+    "text": "The American public fractured into fiercely opposing camps over the case.",
+    "words": 11
+   },
+   {
+    "id": "3.02#3",
+    "text": "One faction viewed Betty as a vengeful narcissist refusing to move on, while the other saw a woman driven mad by psychological abuse.",
+    "words": 23
+   },
+   {
+    "id": "3.02#4",
+    "text": "To comprehend this tragedy, we must dissect the clinical dynamics operating behind the Broderick household facade.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "3.03",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "dissecting prolonged gaslighting",
+  "text": "The foundational mechanism at play was the insidious phenomenon of gaslighting. This represents a profoundly destructive mode of covert psychological warfare. The manipulator persistently denies observable facts, distorts history, and stigmatizes the partner as unstable or delusional. Undergoing sustained denial from a spouse systematically dismantles one’s psychological scaffolding. The victim gradually loses faith in their own perceptions, memories, and judgment. They enter chronic disorientation and acute anxiety, paradoxically intensifying emotional dependence upon the abuser. When the affair was finally validated, that cognitive collapse detonated into a catastrophic psychological earthquake.",
+  "sentences": [
+   {
+    "id": "3.03#1",
+    "text": "The foundational mechanism at play was the insidious phenomenon of gaslighting.",
+    "words": 11
+   },
+   {
+    "id": "3.03#2",
+    "text": "This represents a profoundly destructive mode of covert psychological warfare.",
+    "words": 10
+   },
+   {
+    "id": "3.03#3",
+    "text": "The manipulator persistently denies observable facts, distorts history, and stigmatizes the partner as unstable or delusional.",
+    "words": 16
+   },
+   {
+    "id": "3.03#4",
+    "text": "Undergoing sustained denial from a spouse systematically dismantles one’s psychological scaffolding.",
+    "words": 11
+   },
+   {
+    "id": "3.03#5",
+    "text": "The victim gradually loses faith in their own perceptions, memories, and judgment.",
+    "words": 12
+   },
+   {
+    "id": "3.03#6",
+    "text": "They enter chronic disorientation and acute anxiety, paradoxically intensifying emotional dependence upon the abuser.",
+    "words": 14
+   },
+   {
+    "id": "3.03#7",
+    "text": "When the affair was finally validated, that cognitive collapse detonated into a catastrophic psychological earthquake.",
+    "words": 15
+   }
+  ]
+ },
+ {
+  "id": "3.04",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "analyzing narcissistic injury and personal identity",
+  "text": "Alongside gaslighting, a decisive psychological catalyst was acute narcissistic injury. Across sixteen years, Betty forged no autonomous career or separate identity outside her marriage. She invested her entire self-worth into a single role: the devoted wife of a prominent multimillionaire.",
+  "sentences": [
+   {
+    "id": "3.04#1",
+    "text": "Alongside gaslighting, a decisive psychological catalyst was acute narcissistic injury.",
+    "words": 10
+   },
+   {
+    "id": "3.04#2",
+    "text": "Across sixteen years, Betty forged no autonomous career or separate identity outside her marriage.",
+    "words": 14
+   },
+   {
+    "id": "3.04#3",
+    "text": "She invested her entire self-worth into a single role: the devoted wife of a prominent multimillionaire.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "3.05",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "unpacking ego dissolution and narcissistic rage",
+  "text": "Precisely so. In psychoanalytic literature, this is termed complete identity fusion. When Dan discarded Betty for a younger counterpart, what dissolved was far greater than a marriage contract. Betty’s entire sense of self and life purpose were obliterated overnight. That profound wounding of self-esteem mutated into destructive narcissistic rage. She could not endure being cast into social exile, stripped of her home, children, and status. She perceived herself reduced to an invisible ghost within a world she had sacrificed everything to build.",
+  "sentences": [
+   {
+    "id": "3.05#1",
+    "text": "Precisely so.",
+    "words": 2
+   },
+   {
+    "id": "3.05#2",
+    "text": "In psychoanalytic literature, this is termed complete identity fusion.",
+    "words": 9
+   },
+   {
+    "id": "3.05#3",
+    "text": "When Dan discarded Betty for a younger counterpart, what dissolved was far greater than a marriage contract.",
+    "words": 17
+   },
+   {
+    "id": "3.05#4",
+    "text": "Betty’s entire sense of self and life purpose were obliterated overnight.",
+    "words": 11
+   },
+   {
+    "id": "3.05#5",
+    "text": "That profound wounding of self-esteem mutated into destructive narcissistic rage.",
+    "words": 10
+   },
+   {
+    "id": "3.05#6",
+    "text": "She could not endure being cast into social exile, stripped of her home, children, and status.",
+    "words": 16
+   },
+   {
+    "id": "3.05#7",
+    "text": "She perceived herself reduced to an invisible ghost within a world she had sacrificed everything to build.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "3.06",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "analyzing institutional legal abuse",
+  "text": "Another toxic accelerant driving the crisis to its peak was systemic legal abuse. As Dan utilized his mastery of procedure to dispossess her, Betty viewed the judicial apparatus as an accomplice to her destruction.",
+  "sentences": [
+   {
+    "id": "3.06#1",
+    "text": "Another toxic accelerant driving the crisis to its peak was systemic legal abuse.",
+    "words": 13
+   },
+   {
+    "id": "3.06#2",
+    "text": "As Dan utilized his mastery of procedure to dispossess her, Betty viewed the judicial apparatus as an accomplice to her destruction.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "3.07",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "concluding on the victim-to-predator metamorphosis",
+  "text": "When a severely traumatized subject faces total financial ruin, legitimate justice feels unattainable. The individual suffers a catastrophic psychological rupture. Normal self-regulatory mechanisms and moral inhibitions become entirely disabled. At this juncture, a lethal fantasy takes root within the subject’s consciousness. They convince themselves that reclaiming agency requires executing vigilante justice to make the tormentor pay in blood. This is psychology’s most tragic trajectory: an emotional abuse victim morphs into a lethal predator, crossing an irredeemable line.",
+  "sentences": [
+   {
+    "id": "3.07#1",
+    "text": "When a severely traumatized subject faces total financial ruin, legitimate justice feels unattainable.",
+    "words": 13
+   },
+   {
+    "id": "3.07#2",
+    "text": "The individual suffers a catastrophic psychological rupture.",
+    "words": 7
+   },
+   {
+    "id": "3.07#3",
+    "text": "Normal self-regulatory mechanisms and moral inhibitions become entirely disabled.",
+    "words": 9
+   },
+   {
+    "id": "3.07#4",
+    "text": "At this juncture, a lethal fantasy takes root within the subject’s consciousness.",
+    "words": 12
+   },
+   {
+    "id": "3.07#5",
+    "text": "They convince themselves that reclaiming agency requires executing vigilante justice to make the tormentor pay in blood.",
+    "words": 17
+   },
+   {
+    "id": "3.07#6",
+    "text": "This is psychology’s most tragic trajectory: an emotional abuse victim morphs into a lethal predator, crossing an irredeemable line.",
+    "words": 19
+   }
+  ]
+ },
+ {
+  "id": "3.08",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "closing Act 3",
+  "text": "Resentment accumulated over years had turned into a ticking time bomb awaiting detonation. Betty Broderick determined that if she could not possess the life she earned, no one else would enjoy it. And the fateful November morning of 1989 arrived.",
+  "sentences": [
+   {
+    "id": "3.08#1",
+    "text": "Resentment accumulated over years had turned into a ticking time bomb awaiting detonation.",
+    "words": 13
+   },
+   {
+    "id": "3.08#2",
+    "text": "Betty Broderick determined that if she could not possess the life she earned, no one else would enjoy it.",
+    "words": 19
+   },
+   {
+    "id": "3.08#3",
+    "text": "And the fateful November morning of 1989 arrived.",
+    "words": 8
+   }
+  ]
+ },
+ {
+  "id": "3.09",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "A solitary, mournful piano chord sustains, fading into complete void."
+ },
+ {
+  "id": "4.01",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "Agitated strings surge with tension, recreating the breathless dread of that fateful dawn."
+ },
+ {
+  "id": "4.02",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "opening Act 4 with urgent, grave solemnity",
+  "text": "Before dawn on Sunday, November 5th, 1989, San Diego slept in weekend tranquility. At approximately five-thirty in the morning, Betty Broderick’s car glided quietly through the predawn mist. She pulled up outside 10412 Caminito Bautizo in the Marston Hills neighborhood. This was the newlywed sanctuary of Dan Broderick and his young wife Linda Kolkena. Inside Betty’s handbag lay a house key she had covertly stolen from her eldest daughter Kim Broderick. Beside it rested a five-shot thirty-eight caliber revolver purchased months earlier.",
+  "sentences": [
+   {
+    "id": "4.02#1",
+    "text": "Before dawn on Sunday, November 5th, 1989, San Diego slept in weekend tranquility.",
+    "words": 13
+   },
+   {
+    "id": "4.02#2",
+    "text": "At approximately five-thirty in the morning, Betty Broderick’s car glided quietly through the predawn mist.",
+    "words": 15
+   },
+   {
+    "id": "4.02#3",
+    "text": "She pulled up outside 10412 Caminito Bautizo in the Marston Hills neighborhood.",
+    "words": 12
+   },
+   {
+    "id": "4.02#4",
+    "text": "This was the newlywed sanctuary of Dan Broderick and his young wife Linda Kolkena.",
+    "words": 14
+   },
+   {
+    "id": "4.02#5",
+    "text": "Inside Betty’s handbag lay a house key she had covertly stolen from her eldest daughter Kim Broderick.",
+    "words": 17
+   },
+   {
+    "id": "4.02#6",
+    "text": "Beside it rested a five-shot thirty-eight caliber revolver purchased months earlier.",
+    "words": 11
+   }
+  ]
+ },
+ {
+  "id": "4.03",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "A key turns cleanly in a brass lock, followed by stockinged footsteps creeping up wooden stairs."
+ },
+ {
+  "id": "4.04",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "mounting tension, theatrical pacing",
+  "text": "Betty slipped through the front door without making a sound. She ascended the stairs toward the upstairs master bedroom, where Dan and Linda lay asleep. In the dim quiet of early morning, Betty drew the revolver from her purse. Without uttering a word of warning, she fired five rapid rounds, shattering the silence of the room.",
+  "sentences": [
+   {
+    "id": "4.04#1",
+    "text": "Betty slipped through the front door without making a sound.",
+    "words": 10
+   },
+   {
+    "id": "4.04#2",
+    "text": "She ascended the stairs toward the upstairs master bedroom, where Dan and Linda lay asleep.",
+    "words": 15
+   },
+   {
+    "id": "4.04#3",
+    "text": "In the dim quiet of early morning, Betty drew the revolver from her purse.",
+    "words": 14
+   },
+   {
+    "id": "4.04#4",
+    "text": "Without uttering a word of warning, she fired five rapid rounds, shattering the silence of the room.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "4.05",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "Five deafening revolver discharges thunder in close quarters, accompanied by the heavy thud of collapsing bodies."
+ },
+ {
+  "id": "4.06",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "authoritative male voice, reconstructing the ballistic crime scene",
+  "text": "Forensic examination confirmed the initial two rounds struck twenty-eight-year-old Linda Kolkena in the neck and chest. The young bride succumbed to her wounds almost instantaneously. A third bullet pierced Dan Broderick’s chest, causing catastrophic trauma to his right lung. Collapsing from the bed onto the floor, Dan gasped his final words: “Okay, you shot me, I’m dead. Betty Broderick then ripped the wall-mounted telephone cord out to prevent emergency calls. She fled the premises immediately, turning herself in to police later that afternoon.",
+  "sentences": [
+   {
+    "id": "4.06#1",
+    "text": "Forensic examination confirmed the initial two rounds struck twenty-eight-year-old Linda Kolkena in the neck and chest.",
+    "words": 16
+   },
+   {
+    "id": "4.06#2",
+    "text": "The young bride succumbed to her wounds almost instantaneously.",
+    "words": 9
+   },
+   {
+    "id": "4.06#3",
+    "text": "A third bullet pierced Dan Broderick’s chest, causing catastrophic trauma to his right lung.",
+    "words": 14
+   },
+   {
+    "id": "4.06#4",
+    "text": "Collapsing from the bed onto the floor, Dan gasped his final words: “Okay, you shot me, I’m dead.",
+    "words": 18
+   },
+   {
+    "id": "4.06#5",
+    "text": "Betty Broderick then ripped the wall-mounted telephone cord out to prevent emergency calls.",
+    "words": 13
+   },
+   {
+    "id": "4.06#6",
+    "text": "She fled the premises immediately, turning herself in to police later that afternoon.",
+    "words": 13
+   }
+  ]
+ },
+ {
+  "id": "4.07",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "A judicial gavel slams resoundingly, submerged beneath heated debate among spectators in a packed courtroom."
+ },
+ {
+  "id": "4.08",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "capturing the courtroom media sensation",
+  "text": "The slaughter of the high-profile attorney and his bride detonated a media frenzy across California. Betty Broderick’s 1990 trial transformed into one of the fiercest legal and cultural battlegrounds of the decade. Viewers watching gavel-to-gavel television broadcasts were deeply divided over the true nature of her culpability.",
+  "sentences": [
+   {
+    "id": "4.08#1",
+    "text": "The slaughter of the high-profile attorney and his bride detonated a media frenzy across California.",
+    "words": 15
+   },
+   {
+    "id": "4.08#2",
+    "text": "Betty Broderick’s 1990 trial transformed into one of the fiercest legal and cultural battlegrounds of the decade.",
+    "words": 17
+   },
+   {
+    "id": "4.08#3",
+    "text": "Viewers watching gavel-to-gavel television broadcasts were deeply divided over the true nature of her culpability.",
+    "words": 15
+   }
+  ]
+ },
+ {
+  "id": "4.09",
+  "act": 4,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "N2: Kim Broderick, eldest daughter, female voice trembling with anguish and tears",
+  "text": "I stood trapped between the two people I loved most in this world. I watched how my mother poured every drop of her life into supporting my father. But I also watched hatred warp my mother into an unrecognizable, terrifying stranger. She called repeatedly, threatening my father’s life and leaving horrific, venomous curses. That obsession consumed her mind and poisoned the lives of all four of her children. That night, she used the key she stole from me to enter their bedroom and end my father’s life. That agony is a jagged wound my siblings and I must carry for the rest of our days. There is no justification on earth for taking another human life, no matter how profoundly they hurt you.",
+  "sentences": [
+   {
+    "id": "4.09#1",
+    "text": "I stood trapped between the two people I loved most in this world.",
+    "words": 13
+   },
+   {
+    "id": "4.09#2",
+    "text": "I watched how my mother poured every drop of her life into supporting my father.",
+    "words": 15
+   },
+   {
+    "id": "4.09#3",
+    "text": "But I also watched hatred warp my mother into an unrecognizable, terrifying stranger.",
+    "words": 13
+   },
+   {
+    "id": "4.09#4",
+    "text": "She called repeatedly, threatening my father’s life and leaving horrific, venomous curses.",
+    "words": 12
+   },
+   {
+    "id": "4.09#5",
+    "text": "That obsession consumed her mind and poisoned the lives of all four of her children.",
+    "words": 15
+   },
+   {
+    "id": "4.09#6",
+    "text": "That night, she used the key she stole from me to enter their bedroom and end my father’s life.",
+    "words": 19
+   },
+   {
+    "id": "4.09#7",
+    "text": "That agony is a jagged wound my siblings and I must carry for the rest of our days.",
+    "words": 18
+   },
+   {
+    "id": "4.09#8",
+    "text": "There is no justification on earth for taking another human life, no matter how profoundly they hurt you.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "4.10",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "detailing complex judicial deliberations",
+  "text": "At her first trial in 1990, the jury reached a hopeless deadlock. Ten jurors favored manslaughter on grounds of psychological provocation, while two held out for first-degree murder. In her 1991 retrial, prosecutors successfully convinced a new jury of premeditation. Purchasing the firearm beforehand, stealing the house key, and ripping the phone cord demonstrated calculated intent. On December 11th, 1991, the jury convicted Betty Broderick of two counts of second-degree murder.",
+  "sentences": [
+   {
+    "id": "4.10#1",
+    "text": "At her first trial in 1990, the jury reached a hopeless deadlock.",
+    "words": 12
+   },
+   {
+    "id": "4.10#2",
+    "text": "Ten jurors favored manslaughter on grounds of psychological provocation, while two held out for first-degree murder.",
+    "words": 16
+   },
+   {
+    "id": "4.10#3",
+    "text": "In her 1991 retrial, prosecutors successfully convinced a new jury of premeditation.",
+    "words": 12
+   },
+   {
+    "id": "4.10#4",
+    "text": "Purchasing the firearm beforehand, stealing the house key, and ripping the phone cord demonstrated calculated intent.",
+    "words": 16
+   },
+   {
+    "id": "4.10#5",
+    "text": "On December 11th, 1991, the jury convicted Betty Broderick of two counts of second-degree murder.",
+    "words": 15
+   }
+  ]
+ },
+ {
+  "id": "4.11",
+  "act": 4,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "framing the tragic legal precedent",
+  "text": "The Broderick file remains a tragic monument to the legal system’s historical blindness toward invisible psychological abuse. While Betty suffered genuine gaslighting and emotional torment, her lethal retaliation forfeited her moral claim. She transformed herself from an aggrieved victim into a convicted killer accountable before the law.",
+  "sentences": [
+   {
+    "id": "4.11#1",
+    "text": "The Broderick file remains a tragic monument to the legal system’s historical blindness toward invisible psychological abuse.",
+    "words": 17
+   },
+   {
+    "id": "4.11#2",
+    "text": "While Betty suffered genuine gaslighting and emotional torment, her lethal retaliation forfeited her moral claim.",
+    "words": 15
+   },
+   {
+    "id": "4.11#3",
+    "text": "She transformed herself from an aggrieved victim into a convicted killer accountable before the law.",
+    "words": 15
+   }
+  ]
+ },
+ {
+  "id": "4.12",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "closing Act 4",
+  "text": "On February 7th, 1992, the court sentenced Betty Broderick to thirty-two years to life in state prison. As iron cell doors slammed shut, the psychological tremors of the case reverberated for generations.",
+  "sentences": [
+   {
+    "id": "4.12#1",
+    "text": "On February 7th, 1992, the court sentenced Betty Broderick to thirty-two years to life in state prison.",
+    "words": 17
+   },
+   {
+    "id": "4.12#2",
+    "text": "As iron cell doors slammed shut, the psychological tremors of the case reverberated for generations.",
+    "words": 15
+   }
+  ]
+ },
+ {
+  "id": "4.13",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "A mournful cadence descends slowly, evaporating into silence."
+ },
+ {
+  "id": "5.01",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "Warm, solemn piano chords return, infused with deep philosophical introspection and cautionary wisdom."
+ },
+ {
+  "id": "5.02",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "contemplative, philosophical tone",
+  "text": "Following her sentencing, Betty Broderick served over three decades at the California Institution for Women in Chino. She petitioned repeatedly for parole, but parole boards consistently denied release due to an utter lack of remorse. On May 8th, 2026, Betty Broderick passed away at seventy-eight years of age. Her death permanently closed one of the most haunting marital murder files in American history.",
+  "sentences": [
+   {
+    "id": "5.02#1",
+    "text": "Following her sentencing, Betty Broderick served over three decades at the California Institution for Women in Chino.",
+    "words": 17
+   },
+   {
+    "id": "5.02#2",
+    "text": "She petitioned repeatedly for parole, but parole boards consistently denied release due to an utter lack of remorse.",
+    "words": 18
+   },
+   {
+    "id": "5.02#3",
+    "text": "On May 8th, 2026, Betty Broderick passed away at seventy-eight years of age.",
+    "words": 13
+   },
+   {
+    "id": "5.02#4",
+    "text": "Her death permanently closed one of the most haunting marital murder files in American history.",
+    "words": 15
+   }
+  ]
+ },
+ {
+  "id": "5.03",
+  "act": 5,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "assessing legislative and family court reforms",
+  "text": "The Betty Broderick case catalyzed sweeping reforms across California family law and domestic jurisprudence worldwide. It spurred legal recognition of psychological abuse and gaslighting as legitimate evidence in divorce and custody disputes. Lawmakers finally acknowledged that coercive emotional trauma and financial stripping can be every bit as devastating as physical battery.",
+  "sentences": [
+   {
+    "id": "5.03#1",
+    "text": "The Betty Broderick case catalyzed sweeping reforms across California family law and domestic jurisprudence worldwide.",
+    "words": 15
+   },
+   {
+    "id": "5.03#2",
+    "text": "It spurred legal recognition of psychological abuse and gaslighting as legitimate evidence in divorce and custody disputes.",
+    "words": 17
+   },
+   {
+    "id": "5.03#3",
+    "text": "Lawmakers finally acknowledged that coercive emotional trauma and financial stripping can be every bit as devastating as physical battery.",
+    "words": 19
+   }
+  ]
+ },
+ {
+  "id": "5.04",
+  "act": 5,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "closing behavioral insights on marriage and self-worth",
+  "text": "The most poignant lesson of this file is the vital necessity of preserving one’s independent identity within a relationship. One must never surrender their dreams, autonomy, and self-esteem entirely into the hands of another human being. When a marriage collapses, the healthiest triumph is not annihilating the ex-partner, but releasing bitterness to rebuild a free and joyful life. Blind vengeance consumes only the bearer, ultimately transforming a wounded soul into the monster they abhor.",
+  "sentences": [
+   {
+    "id": "5.04#1",
+    "text": "The most poignant lesson of this file is the vital necessity of preserving one’s independent identity within a relationship.",
+    "words": 19
+   },
+   {
+    "id": "5.04#2",
+    "text": "One must never surrender their dreams, autonomy, and self-esteem entirely into the hands of another human being.",
+    "words": 17
+   },
+   {
+    "id": "5.04#3",
+    "text": "When a marriage collapses, the healthiest triumph is not annihilating the ex-partner, but releasing bitterness to rebuild a free and joyful life.",
+    "words": 22
+   },
+   {
+    "id": "5.04#4",
+    "text": "Blind vengeance consumes only the bearer, ultimately transforming a wounded soul into the monster they abhor.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "5.05",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "practical red flag warnings and closing reflections",
+  "text": "To safeguard oneself and cultivate healthy relationships, Amber Eyes presents four classic red flags distilled from the Betty Broderick case. First: systematic reality denial and cognitive distortion. When a partner persistently denies evident truths and brands you crazy for raising legitimate concerns, you are enduring gaslighting. Their objective is undermining faith in your own perception to establish psychological dominance. Second: financial coercion and economic isolation. A toxic partner will seize control of resources, impede your financial independence, and weaponize money as a punitive instrument. Complete economic dependence leaves you defenseless when domestic strife turns hostile. Third: total loss of individual identity within a partnership. When your entire self-worth and life purpose revolve solely around a spouse without personal vocations, you stand on dangerous ground. Should that sole pillar fall, your ego will suffer catastrophic structural collapse. Fourth: nursing obsessive grievance and retaliatory fantasies. While betrayal naturally prompts grief and fury, allowing grievance to fester into revenge poisons your own spirit. Seek professional psychological support rather than allowing desolation to dictate extreme choices. Our greatest dignity lies in self-mastery, loving fully while possessing the courage to release toxic bonds to preserve integrity. Thank you for walking alongside Amber Eyes through this deeply poignant criminal psychology file. Please subscribe to the channel and share your insights in the comments section below. Farewell, and we look forward to reuniting in our next case investigation.",
+  "sentences": [
+   {
+    "id": "5.05#1",
+    "text": "To safeguard oneself and cultivate healthy relationships, Amber Eyes presents four classic red flags distilled from the Betty Broderick case.",
+    "words": 20
+   },
+   {
+    "id": "5.05#2",
+    "text": "First: systematic reality denial and cognitive distortion.",
+    "words": 7
+   },
+   {
+    "id": "5.05#3",
+    "text": "When a partner persistently denies evident truths and brands you crazy for raising legitimate concerns, you are enduring gaslighting.",
+    "words": 19
+   },
+   {
+    "id": "5.05#4",
+    "text": "Their objective is undermining faith in your own perception to establish psychological dominance.",
+    "words": 13
+   },
+   {
+    "id": "5.05#5",
+    "text": "Second: financial coercion and economic isolation.",
+    "words": 6
+   },
+   {
+    "id": "5.05#6",
+    "text": "A toxic partner will seize control of resources, impede your financial independence, and weaponize money as a punitive instrument.",
+    "words": 19
+   },
+   {
+    "id": "5.05#7",
+    "text": "Complete economic dependence leaves you defenseless when domestic strife turns hostile.",
+    "words": 11
+   },
+   {
+    "id": "5.05#8",
+    "text": "Third: total loss of individual identity within a partnership.",
+    "words": 9
+   },
+   {
+    "id": "5.05#9",
+    "text": "When your entire self-worth and life purpose revolve solely around a spouse without personal vocations, you stand on dangerous ground.",
+    "words": 20
+   },
+   {
+    "id": "5.05#10",
+    "text": "Should that sole pillar fall, your ego will suffer catastrophic structural collapse.",
+    "words": 12
+   },
+   {
+    "id": "5.05#11",
+    "text": "Fourth: nursing obsessive grievance and retaliatory fantasies.",
+    "words": 7
+   },
+   {
+    "id": "5.05#12",
+    "text": "While betrayal naturally prompts grief and fury, allowing grievance to fester into revenge poisons your own spirit.",
+    "words": 17
+   },
+   {
+    "id": "5.05#13",
+    "text": "Seek professional psychological support rather than allowing desolation to dictate extreme choices.",
+    "words": 12
+   },
+   {
+    "id": "5.05#14",
+    "text": "Our greatest dignity lies in self-mastery, loving fully while possessing the courage to release toxic bonds to preserve integrity.",
+    "words": 19
+   },
+   {
+    "id": "5.05#15",
+    "text": "Thank you for walking alongside Amber Eyes through this deeply poignant criminal psychology file.",
+    "words": 14
+   },
+   {
+    "id": "5.05#16",
+    "text": "Please subscribe to the channel and share your insights in the comments section below.",
+    "words": 14
+   },
+   {
+    "id": "5.05#17",
+    "text": "Farewell, and we look forward to reuniting in our next case investigation.",
+    "words": 12
+   }
+  ]
+ },
+ {
+  "id": "5.06",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "Music swells with warm, solemn chords before fading out completely."
+ }
+]

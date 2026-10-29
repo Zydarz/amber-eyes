@@ -1,0 +1,57 @@
+| **V4** | **Không có im lặng tuyệt đối quá 0,3 s.** Lớp nền trầm luôn chạy | Từng câm 6 s ở 0:26 |
+
+| **V5** | **Người thật trong vụ án chỉ hiện dạng bóng**, mặt chìm hoàn toàn. **Quan chức, bác sĩ thật không được vẽ** — chỉ hiện tên | Người thật; có thể là trẻ vị thành niên |
+
+| **V7** | **Nền vụ án luôn toàn màn hình; linh thú ≤ 20% khung**, chỉ ở góc | Bố cục đã chốt |
+
+| **V9** | **Trọng tâm là phân tích tâm lý.** Không mô tả chi tiết bạo lực, thương tích, thi thể, cách gây hại — cả lời lẫn hình | Định hướng kênh; giảm rủi ro quảng cáo hạn chế |
+
+- [ ] `01_KICH_BAN/TapXX/kichban_tapXX.md` đúng định dạng A2, **đã giảm bạo lực theo V9** (xem Phụ lục B trong `02_SAN_XUAT/Tap01/KeHoach_Video_Tap01.md` làm mẫu)
+
+| **5. Nền mới (nếu cần)** | `py -3 .work/gen_images.py .work/bg_jobs_tapXX.json` | `assets/bg/*.png` | ~1 phút / ảnh |
+
+### A4.4 Nhạc và lớp nền
+
+| Intro | `bgm_music_box.mp3` trọn 22,41 s, đặt ở t = 0 trong master, thấp hơn lời 4 dB |
+
+| Drone nối Hồi 1 | `bgm_sub_drone` vào từ 19,5 s, −40 → −26 dB, tắt dần khi nhạc Hồi 1 vào |
+
+| Nền trầm (V4) | `bgm_ambient_deep.mp3` **chỉ đoạn 0,5–13,4 s** (file gốc có 3 khoảng câm), lặp xuyên tập ở −34 dB |
+
+| "Im lặng tuyệt đối" trong kịch bản | Tắt nhạc có giai điệu, giữ nền trầm |
+
+| SFX | Tiếng "Tách" máy ghi âm (tổng hợp bằng code trong `build_audio3.py`) + **11 file SFX trong `assets/sfx/`** (tự tổng hợp bằng `.work/make_sfx.py`, không tải file ngoài). Đặt theo bảng `SFX_CUES` trong `build_audio3.py`: `offset` âm = đặt trước mốc để nối vào câu thoại kế tiếp. Mức tính theo RMS lời, hiệu chuẩn bằng cách nghe thật trong bản thành phẩm, neo theo tiếng "Tách" (−6 dB): dấu câu to (búa tòa +1, gấp hồ sơ −8, khóa cửa −2), sự kiện (−2…−8), nền (−12…−18). Thiếu file → bỏ qua, không làm hỏng cả tập |
+
+- **Vùng cấm chữ khi có bán thân:** `x < 560`, `y > 560` → mẫu T1 / T5-ngày / T6 tự dời khối chữ sang phải.
+
+| T1 | Toàn cảnh | Lớp tối 45% đáy; khối chữ đáy `y = 900`, `x = 96` (hoặc 560) |
+
+| T10 | Thẻ chương | Nền `void`; `HỒI 0X` Consolas + tên hồi Cambria 70 px |
+
+| T11 | Bài đăng mạng xã hội | Thẻ trung tính có nhãn MINH HOẠ, không logo, dòng nội dung mờ không đọc được |
+
+- Hạt phim + vignette + lệch kênh đỏ 1 px **chỉ trên nền**; chữ, badge, bán thân vẽ sau, sạch.
+
+| 20,5–22,41 s | Mờ về đen; nền đầu Hồi 1 của từng tập hiện chồng lên |
+
+| 5 linh thú | `assets/cast/{H,D,C,N1,N2}/` — `full.png`, `P1.png` (840×1000), `P0.png` (256 tròn) | Tách nền BiRefNet; chưa có P2 |
+
+| 45 nền 16:9 | `assets/bg/*.png` (2112×1188) | Xem danh sách ở Phần B; nhiều cảnh dùng lại được (nhà hồng, bảng ghim, phòng xử, `void`…) |
+
+| Nhạc | `assets/bgm/` (9 file MiniMax) | Lưu ý khoảng câm của `ambient_deep` |
+
+| Mẫu | `T1`…`T11`, thêm chữ: `ngày`, `gạch bỏ`, `cờ`, `lời kể`, `so sánh`, `hero` |
+
+| Nền + bóng | Tên nền trong backtick, phải có file `assets/bg/<tên>.png`; camera `` `pull` `` `` `pan` `` `` `still` `` |
+
+**Dòng không có câu và không có mẫu** (ví dụ `` `1.04` (nghỉ) `` với mẫu `—`) là **dòng giữ hình**: kế thừa nền và chữ của shot trước. Shot không ghi nền dùng lại nền shot trước.
+
+**Cảnh ghép "nền + bóng người"** (ví dụ phòng thẩm vấn + Gypsy đứng) được tạo sẵn thành một ảnh và khai trong `COMBO` của `parse_shots.py` (A12). Nền đổi trong shot khai trong `BG2`; ảnh nhỏ ghim lên bảng khai trong `INSET`.
+
+## A8. Tạo ảnh nền mới
+
+| 6 | `bgm_ambient_deep` có khoảng câm bên trong → lặp ra khoảng câm | Chỉ lặp đoạn liên tục |
+
+| 9 | Tách nền bằng khoá độ sáng làm quần áo tối trong suốt | BiRefNet + lấp lỗ **chỉ khi lỗ có màu** (lỗ đen tuyền là nền) |
+
+**Âm thanh từ Tập 02:** diễn xuất từng câu cho cả bản VN (`acting_tapXX.json`, có `_pause_after`) và bảng âm thanh stereo (`sfx_tapXX.json`: nền môi trường + tiếng động + tắt nhạc ở câu hé lộ) — xem `02_SAN_XUAT/Tap02/AmThanh_Tap02.md`.
