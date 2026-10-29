@@ -35,7 +35,7 @@ BIN = ROOT / ".work" / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "
 FF = shutil.which("ffmpeg") or str(BIN / "ffmpeg.exe")
 FP = shutil.which("ffprobe") or str(BIN / "ffprobe.exe")
 
-LO, HI = 8.0, 15.0          # QUY_TAC §4: 8-15 s
+LO, HI = 16.0, 28.0         # QUY_TAC §4: 16-28 s (tam 20s)
 TARGET_LUFS = -18.0         # QUY_TAC §4: -20 ... -16 LUFS
 
 # F0 muc tieu do chot o TAO_GIONG_MAU_VOXCPM2.md muc 3

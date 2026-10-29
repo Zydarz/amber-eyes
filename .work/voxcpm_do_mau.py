@@ -46,7 +46,7 @@ F0_TARGET = {"H": (100, 106), "D": (138, 148), "C": (202, 212),
              "W1": (228, 242), "W2": (180, 192), "W3": (162, 175), "W4": (120, 128)}
 GENDER = {"H": "nam", "D": "nam", "W3": "nam", "W4": "nam", "C": "nu", "W1": "nu", "W2": "nu"}
 F0_TOL = 0.07               # +-7 % quanh dai muc tieu (sai so uoc luong F0 tu tuong quan tren speech)
-SPEECH_S = (8.0, 15.0)      # do dai phan co tieng
+SPEECH_S = (16.0, 28.0)     # do dai phan co tieng (chuan tam 20s, 18-26s)
 CER_MAX = 0.02              # G12
 TONE_ERR_MAX = 0            # tu sai CHI do thanh dieu
 NOISE_MAX_DB = -55.0        # san tap am (phan vi 3 % RMS khung 20 ms)
@@ -275,7 +275,7 @@ def measure(role, path, text, use_asr, final=False):
     if r["decode_errors"]:
         fails.append("V2 giải mã lỗi")
     if not SPEECH_S[0] <= sp <= SPEECH_S[1]:
-        fails.append(f"V2 tiếng {sp:.1f}s ngoài 8–15s")
+        fails.append(f"V2 tiếng {sp:.1f}s ngoài {SPEECH_S[0]:.0f}–{SPEECH_S[1]:.0f}s")
     if gap > GAP_MAX_S:
         fails.append(f"V2 khoảng lặng {gap:.2f}s > {GAP_MAX_S}s")
     if r["noise_db"] > NOISE_MAX_DB:
@@ -313,7 +313,7 @@ def measure(role, path, text, use_asr, final=False):
 def rank_key(r):
     lo, hi = F0_TARGET[r["role"]]
     return (len(r["fails"]), len(r["tone_errors"] or [9]), r["cer"] if r["cer"] is not None else 9,
-            nc(r["f0"], (lo + hi) / 2), abs(r["speech_s"] - 11.5))
+            nc(r["f0"], (lo + hi) / 2), abs(r["speech_s"] - 20.0))
 
 
 def main():

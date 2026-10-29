@@ -27,7 +27,7 @@ File mẫu là **gốc của mọi câu** Higgs đọc sau này. Một lỗi tro
 |---|---|---|
 | VX1 | **Chỉ dùng chế độ Voice Design** (ô Reference Audio để trống, Ultimate Cloning tắt). **CẤM** đưa audio người thật, giọng tải YouTube/MiniMax/ElevenLabs vào VoxCPM2 | Giấy phép sạch (Apache-2.0) chỉ đúng khi giọng sinh từ mô tả chữ |
 | VX2 | **Control Instruction và Target Text lấy nguyên văn** từ `TAO_GIONG_MAU_VOXCPM2.md` §4.2 / `voxcpm_refs_manifest.json`. Sửa prompt ⇒ ghi bản mới + lý do vào manifest, không sửa âm thầm | Không tái lập được kết quả nếu prompt trôi |
-| VX3 | **Target Text phải đủ 6 thanh, kiểm bằng script, không đếm tay.** Mỗi thanh ≥ 1 từ (NÊN ≥ 2); 30–45 âm tiết; không chữ số, không ký hiệu, không tên nước ngoài, không câu hé lộ / cảm xúc mạnh | Bảng đếm tay §4.3 của sổ tay có sai (ghi "với" là thanh nặng; hàng C liệt kê "bếp" không có trong câu C) |
+| VX3 | **Target Text phải đủ 6 thanh, kiểm bằng script, không đếm tay.** Mỗi thanh ≥ 1 từ (NÊN ≥ 2); 75–95 âm tiết (đạt chuẩn thời lượng ~20 s); không chữ số, không ký hiệu, không tên nước ngoài, không câu hé lộ / cảm xúc mạnh | Bảng đếm tay §4.3 của sổ tay có sai (ghi "với" là thanh nặng; hàng C liệt kê "bếp" không có trong câu C) |
 | VX4 | **Mỗi vai sinh ≥ 3 bản, tối đa 8.** Tải về **ngay** (web không có seed), đặt `.work/voxcpm_raw/<vai>/takeNN.mp3`. **CẤM xoá bản trượt** | VoxCPM2: *"results can vary between runs"* |
 | VX5 | Ghi mỗi bản: CFG, Text normalization (PHẢI tắt), giờ sinh, công cụ (web / CLI + seed) — vào `.work/voxcpm_raw/<vai>/takes.json` | Truy vết khi phải sinh lại |
 | VX6 | **Không có bản nào đạt sau 8 bản ⇒ sửa Target Text (đổi từ bị đọc sai), KHÔNG sửa giọng cho dễ đạt.** Tăng CFG 2,0 → 2,5 → 3,0 nếu F0/chất giọng chưa bám mô tả | Câu sai do máy đọc kém thanh, không do giọng |
@@ -46,9 +46,9 @@ Thư mục: `assets/voice_ref_voxcpm2/` — sinh bằng `py -3 .work/higgs_make_
 |---|---|---|
 | Tên file | `<vai>.wav` + `<vai>.txt`, vai ∈ {H, D, C, W1, W2, W3, W4} | — |
 | Định dạng | **WAV PCM 16-bit, mono, 24 000 Hz** | ffprobe |
-| Độ dài phần có tiếng | **8–15 s** | khung 20 ms > −50 dBFS |
+| Độ dài phần có tiếng | **16–28 s** (chuẩn ~20 s) | khung 20 ms > −50 dBFS |
 | Lặng đầu / cuối | **≤ 0,3 s** | như trên |
-| Lặng bên trong | **≤ 0,8 s** (nghỉ giữa câu tự nhiên được, đứt quãng thì không) | như trên |
+| Lặng bên trong | **≤ 1,5 s** (nghỉ giữa câu tự nhiên được, đứt quãng thì không) | như trên |
 | Độ ồn | **0 mẫu vỡ tiếng** (\|x\| ≥ 0,999) · sàn ồn (phân vị 3% RMS khung) **≤ −55 dBFS** | numpy |
 | Độ lớn | **−18 ± 1 LUFS** tích hợp · đỉnh **≤ −1,5 dBFS** | ffmpeg `ebur128=peak=true` |
 | Giải mã | **0 dòng lỗi** | `ffmpeg -v error -f null` |
@@ -65,7 +65,7 @@ Cột "Tự động" = `voxcpm_do_mau.py` tự chấm. Cột "Người" = phải
 | Cổng | Đo gì | ĐẠT khi | Tự động | Người |
 |---|---|---|:-:|:-:|
 | **V1** Văn bản | 6 thanh, số âm tiết, không số/ký hiệu | VX3 | ✓ (`tone_coverage`) | |
-| **V2** Kỹ thuật bản tải về | giải mã · 8–15 s tiếng · lặng trong ≤ 0,8 s · sàn ồn ≤ −55 dBFS · 0 vỡ tiếng | tất cả | ✓ | |
+| **V2** Kỹ thuật bản tải về | giải mã · 16–28 s tiếng (chuẩn ~20 s) · lặng trong ≤ 1,5 s · sàn ồn ≤ −55 dBFS · 0 vỡ tiếng | tất cả | ✓ | |
 | **V3** Đúng chữ | `listen_audio` **2 lượt** (Q6), lấy **lượt xấu hơn** · CER **< 2%** · **0 từ sai chỉ do thanh điệu** · câu bị bộ lọc Gemini chặn ⇒ lượt đó không tính (Q3b) | cả hai lượt hợp lệ đạt | ✓ (`--asr`) | đọc bản chép khi có lỗi (Q3) |
 | **V4** Cao độ vai | F0 trung vị trong dải mục tiêu ±6% (H 100–106 · D 138–148 · C 202–212 · W1 228–242 · W2 180–192 · W3 162–175 · W4 120–128 Hz) | trong dải | ✓ | |
 | **V5** Trung tính, đúng vai | không buồn / hào hứng / thì thầm; đúng giới & tuổi; không vọng phòng, không nhạc, không giọng thứ hai. Số phụ: độ lệch F0 > 3 nc ⇒ **cảnh báo** (ngưỡng tạm, hiệu chỉnh sau lô đầu) | người dùng duyệt | ⚠ | ✓ |
@@ -73,7 +73,7 @@ Cột "Tự động" = `voxcpm_do_mau.py` tự chấm. Cột "Người" = phải
 | **V7** Tách vai (G9) | F0 bản thắng cùng giới cách **≥ 4 nửa cung**. 3 cặp được miễn số nhưng **bắt buộc nghe mù**: H↔W4, D↔W4, W2↔C. Nghe mù xen kẽ H·D·C ⇒ gán đúng **100%** | cả hai | ✓ (số) | ✓ (nghe mù) |
 | **V8** Qua Higgs | Higgs clone đọc **20 câu thật của vai**, đúng emotion production: CER < 2% (lượt 2 cho câu vượt), G8 nghe ra **1 người**, không tệ hơn bộ MiniMax | = cổng H2–H3 của `QUY_TAC_AUDIO_HIGGS.md` §9 | một phần | ✓ |
 
-**Xếp hạng khi một vai có nhiều bản đạt** (script tự làm): ít lỗi thanh nhất → CER thấp nhất → F0 gần giữa dải nhất → độ dài gần 11,5 s.
+**Xếp hạng khi một vai có nhiều bản đạt** (script tự làm): ít lỗi thanh nhất → CER thấp nhất → F0 gần giữa dải nhất → độ dài gần 20,0 s.
 
 **Mốc dừng chờ người dùng:** sau V5 (duyệt bản thắng 7 vai) · sau V7 (nghe mù) · sau V8 (bảng so Higgs-VoxCPM2 vs Higgs-MiniMax). Chỉ sau V8 mới khai `CAST_HIGGS` trong `edition.py`.
 

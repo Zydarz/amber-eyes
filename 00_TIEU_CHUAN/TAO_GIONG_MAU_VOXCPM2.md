@@ -163,7 +163,7 @@ Mở `https://voxcpm2.org/` (nhúng `openbmb-voxcpm-demo.hf.space`) hoặc space
 ### 4.2 Bảng prompt — 7 vai
 
 > **Control Instruction** viết bằng **tiếng Anh** (Space hỗ trợ "Chinese & English"; tiếng Anh bám mô tả ổn định hơn).
-> **Target Text** là câu tham chiếu — trung tính, đủ 6 thanh, không số, không tên nước ngoài, 8–15 s.
+> **Target Text** là câu tham chiếu — trung tính, đủ 6 thanh, không số, không tên nước ngoài, 16–25 s (chuẩn ~20 s, ~75–95 từ).
 
 ---
 
@@ -176,9 +176,9 @@ A man in his early forties, low-pitched and warm with a deep chesty resonance, c
 
 **Target Text**
 ```
-Chào mừng bạn đến với chuyên mục giải mã tâm lý tội phạm. Mỗi hồ sơ đều bắt đầu bằng câu hỏi nặng trĩu, mà không ai trả lời nổi, dù sự thật vẫn luôn nằm ở đó.
+Chào mừng bạn đến với chuyên mục giải mã tâm lý tội phạm. Mỗi hồ sơ đều bắt đầu bằng câu hỏi nặng trĩu, mà không ai trả lời nổi, dù sự thật vẫn luôn nằm ở đó. Khi lần theo từng trang tài liệu, chúng ta không tìm kiếm sự phán xét vội vàng, mà cùng nhìn nhận những chuyển biến thầm lặng bên trong một con người, qua từng lời kể và dấu vết còn lưu lại.
 ```
-*(Cập nhật 29/10/2026: thêm vế đuôi 8 từ để độ dài phát âm đạt 10,0 s, nằm trọn trong dải chuẩn 8–15 s của VX3)*
+*(Cập nhật 29/10/2026: mở rộng lên 79 từ để độ dài phát âm đạt ~20 s theo chuẩn dải tối ưu của Higgs Audio v3)*
 
 ---
 
@@ -191,8 +191,9 @@ A man in his late thirties, mid-low-pitched and firm with a crisp clipped delive
 
 **Target Text**
 ```
-Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết.
+Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.
 ```
+*(Cập nhật 29/10/2026: mở rộng lên 85 từ đạt ~20 s)*
 
 ---
 
@@ -205,8 +206,9 @@ A woman in her mid-fifties, mid-pitched and clear with precise articulation, sch
 
 **Target Text**
 ```
-Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ.
+Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài.
 ```
+*(Cập nhật 29/10/2026: mở rộng lên 92 từ đạt ~20 s)*
 
 ---
 
@@ -219,8 +221,9 @@ A young woman in her early twenties, higher-pitched and bright with a light yout
 
 **Target Text**
 ```
-Đường này buổi tối vắng lặng, chỉ có tiếng xe chạy rất xa. Tôi hay đi bộ qua chợ, và thường dừng lại ở quầy bán hoa quả. Ai hỏi chuyện ấy, tôi cũng chỉ nhún vai, nửa như không nghe thấy.
+Đường này buổi tối vắng lặng, chỉ có tiếng xe chạy rất xa. Tôi hay đi bộ qua chợ, và thường dừng lại ở quầy bán hoa quả. Ai hỏi chuyện ấy, tôi cũng chỉ nhún vai, nửa như không nghe thấy. Dạo đó trời bắt đầu trở gió, mấy hàng quán ven đường đều dọn dẹp sớm hơn thường ngày. Tôi nhớ có nhìn thấy bóng người đứng dưới bóng cây đèn đường, nhưng lúc đó chỉ nghĩ là người đi bộ qua lại bình thường thôi.
 ```
+*(Cập nhật 29/10/2026: mở rộng lên 88 từ đạt ~20 s)*
 
 ---
 
@@ -233,8 +236,9 @@ A woman in her early fifties, mid-pitched and soft with a mature rounded timbre,
 
 **Target Text**
 ```
-Căn nhà này xây từ lâu, nên mùa nào cũng giữ mùi riêng. Tôi thường mở cửa sổ vào buổi sáng, để ánh nắng lọt vào tận góc bếp. Có hỏi về căn nhà, tôi cũng kể từng chuyện, và nhớ rõ từng chi tiết.
+Căn nhà này xây từ lâu, nên mùa nào cũng giữ mùi riêng. Tôi thường mở cửa sổ vào buổi sáng, để ánh nắng lọt vào tận góc bếp. Có hỏi về căn nhà, tôi cũng kể từng chuyện, và nhớ rõ từng chi tiết. Quanh đây hàng xóm sống với nhau từ hồi còn trẻ, nhà nào có việc gì thì cả ngõ đều hay biết. Mỗi buổi chiều tôi đều ra tưới mấy chậu cây trước sân, lắng nghe tiếng xe cộ ngoài phố lớn vọng lại chầm chậm.
 ```
+*(Cập nhật 29/10/2026: mở rộng lên 91 từ đạt ~20 s)*
 
 ---
 
@@ -247,8 +251,9 @@ A young man in his mid twenties, medium-pitched and clear with a light youthful 
 
 **Target Text**
 ```
-Xe buýt cuối tuyến chạy khá thưa, nên tôi thường phải đi bộ thêm đoạn dài nữa. Đường lúc đó vắng lặng, chỉ có mấy cây đèn còn sáng, và tôi hay tự hỏi mình sẽ đi bao xa, nửa như không biết.
+Xe buýt cuối tuyến chạy khá thưa, nên tôi thường phải đi bộ thêm đoạn dài nữa. Đường lúc đó vắng lặng, chỉ có mấy cây đèn còn sáng, và tôi hay tự hỏi mình sẽ đi bao xa, nửa như không biết. Bình thường tôi hay vừa đi vừa nghe mấy bản nhạc quen thuộc để đỡ thấy đường dài. Gió đêm thổi qua hàng rào sắt kêu lách cách nhè nhẹ, thỉnh thoảng có vài chiếc xe máy chạy lướt qua rồi mất hút vào bóng tối.
 ```
+*(Cập nhật 29/10/2026: mở rộng lên 89 từ đạt ~20 s)*
 
 ---
 
@@ -261,8 +266,9 @@ A man in his early fifties, lower mid-pitched and slightly rough with an aged ti
 
 **Target Text**
 ```
-Tôi mở quán trước nhà từ sáng sớm, và mỗi ngày đều đóng cửa khá muộn. Hàng xóm quen mặt, nên ai gọi cửa tôi cũng mở. Có hỏi chuyện buôn bán, tôi cũng chịu nói, nửa như người quen.
+Tôi mở quán trước nhà từ sáng sớm, và mỗi ngày đều đóng cửa khá muộn. Hàng xóm quen mặt, nên ai gọi cửa tôi cũng mở. Có hỏi chuyện buôn bán, tôi cũng chịu nói, nửa như người quen. Khu phố này trước đây vốn yên tĩnh, người qua lại chủ yếu là mấy bác hưu trí đi tập thể dục buổi sáng. Ngồi pha ấm trà bên hiên, tôi quan sát từng sự đổi thay của con đường, ghi nhớ từng bước chân và gương mặt quen thuộc qua từng năm tháng.
 ```
+*(Cập nhật 29/10/2026: mở rộng lên 94 từ đạt ~20 s)*
 
 ---
 

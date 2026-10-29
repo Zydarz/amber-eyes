@@ -24,7 +24,7 @@ from voxcpm import VoxCPM
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 RAW = WORK / "voxcpm_raw"
-MANIFEST = WORK / "voxcpm_refs_manifest.example.json"
+MANIFEST = WORK / "voxcpm_refs_manifest.json"
 
 F0_TARGET = {
     "H": (100, 106),
