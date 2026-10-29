@@ -42,7 +42,7 @@ FF = shutil.which("ffmpeg") or str(BIN / "ffmpeg.exe")
 FP = shutil.which("ffprobe") or str(BIN / "ffprobe.exe")
 
 # ---- nguong (dong bo voi QUY_TAC_GIONG_MAU_VOXCPM2.md muc 4) ----
-F0_TARGET = {"H": (100, 106), "D": (138, 148), "C": (202, 212),
+F0_TARGET = {"H": (100, 106), "D": (122, 134), "C": (202, 212),
              "W1": (228, 242), "W2": (180, 192), "W3": (162, 175), "W4": (120, 128)}
 GENDER = {"H": "nam", "D": "nam", "W3": "nam", "W4": "nam", "C": "nu", "W1": "nu", "W2": "nu"}
 F0_TOL = 0.07               # +-7 % quanh dai muc tieu (sai so uoc luong F0 tu tuong quan tren speech)
@@ -55,7 +55,7 @@ EDGE_MAX_S = 0.3            # lang dau/cuoi file da dong goi
 LUFS_REF, LUFS_TOL = -18.0, 1.0
 TP_MAX = -1.5
 G9_MIN_NC = 4.0
-G9_EXEMPT = {frozenset(p) for p in (("H", "W4"), ("D", "W4"), ("W2", "C"))}  # bu bang chat am + nghe mu
+G9_EXEMPT = {frozenset(p) for p in (("H", "D"), ("H", "W4"), ("D", "W4"), ("W2", "C"))}  # bu bang chat am + nghe mu
 F0_SPREAD_WARN_NC = 3.0     # do lech chuan F0 (nua cung) - CANH BAO cam xuc, nguong tam
 
 TONE_MARKS = {"\u0300": "huyền", "\u0301": "sắc", "\u0309": "hỏi", "\u0303": "ngã", "\u0323": "nặng"}

@@ -7,7 +7,7 @@ Chuẩn: `00_TIEU_CHUAN/QUY_TAC_GIONG_MAU_VOXCPM2.md` · văn bản chuẩn: `vo
 | Vai | File | Tiếng s | Lặng max s | Ồn dB | F0 Hz (mục tiêu) | F0 ±nc | âm tiết/s | LUFS | Đỉnh | CER | Sai thanh | Kết quả |
 |---|---|---:|---:|---:|---|---:|---:|---:|---:|---:|---|---|
 | H | `H.wav` | 22.54 | 0.86 | -77.0 | 107 (100–106) | 4.78 | 3.5 | -17.3 | -2.0 | 0.0% | 0 | ✅ ⚠ V5 F0 dao động 4.8 nc — nghe lại độ trung tính |
-| D | `D.wav` | 22.26 | 0.68 | -71.1 | 152 (138–148) | 4.34 | 3.82 | -17.6 | -2.2 | 0.0% | 0 | ✅ ⚠ V5 F0 dao động 4.3 nc — nghe lại độ trung tính |
+| D | `D.wav` | 22.3 | 0.76 | -66.6 | 128 (122–134) | 6.03 | 3.81 | -18.3 | -2.0 | 0.0% | 0 | ✅ ⚠ V5 F0 dao động 6.0 nc — nghe lại độ trung tính |
 | C | `C.wav` | 23.44 | 0.76 | -85.8 | 208 (202–212) | 3.72 | 3.92 | -18.0 | -4.1 | 0.0% | 0 | ✅ ⚠ V5 F0 dao động 3.7 nc — nghe lại độ trung tính |
 | W1 | `W1.wav` | 23.52 | 0.54 | -65.5 | 250 (228–242) | 3.99 | 3.74 | -17.0 | -2.0 | 0.0% | 0 | ✅ ⚠ V5 F0 dao động 4.0 nc — nghe lại độ trung tính |
 | W2 | `W2.wav` | 26.64 | 1.1 | -80.8 | 200 (180–192) | 3.39 | 3.42 | -17.6 | -2.8 | 0.0% | 0 | ✅ ⚠ V5 F0 dao động 3.4 nc — nghe lại độ trung tính |
@@ -19,7 +19,7 @@ Chuẩn: `00_TIEU_CHUAN/QUY_TAC_GIONG_MAU_VOXCPM2.md` · văn bản chuẩn: `vo
 | Vai | Bản | F0 | CER |
 |---|---|---:|---:|
 | H | `H.wav` | 107 | 0.0% |
-| D | `D.wav` | 152 | 0.0% |
+| D | `D.wav` | 128 | 0.0% |
 | C | `C.wav` | 208 | 0.0% |
 | W1 | `W1.wav` | 250 | 0.0% |
 | W2 | `W2.wav` | 200 | 0.0% |
@@ -30,11 +30,11 @@ Chuẩn: `00_TIEU_CHUAN/QUY_TAC_GIONG_MAU_VOXCPM2.md` · văn bản chuẩn: `vo
 
 | Cặp | Cách (nửa cung) | Kết quả |
 |---|---:|---|
-| H↔D | 6.06 | ĐẠT |
+| H↔D | 3.04 | NGHE MÙ BẮT BUỘC |
 | H↔W3 | 7.07 | ĐẠT |
 | H↔W4 | 4.19 | ĐẠT |
-| D↔W3 | 1.01 | TRƯỢT |
-| D↔W4 | 1.87 | NGHE MÙ BẮT BUỘC |
+| D↔W3 | 4.04 | ĐẠT |
+| D↔W4 | 1.15 | NGHE MÙ BẮT BUỘC |
 | C↔W1 | 3.2 | TRƯỢT |
 | C↔W2 | 0.66 | NGHE MÙ BẮT BUỘC |
 | W1↔W2 | 3.86 | TRƯỢT |

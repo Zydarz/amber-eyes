@@ -124,12 +124,13 @@ Nguồn: chú thích vai trong `01_KICH_BAN/TapXX/kichban_tapXX_*.md`. Bản má
 5. **Kịch bản mới từ nay PHẢI ghi giới + tuổi trong chú thích vai N1/N2** (mẫu: `*(N1: Hàng xóm, giọng nữ thanh niên nghẹn ngào)*`) — xem A11 #51.
 
 ### ⚠ Cặp F0 dưới 4 nửa cung (G9) — phải tách bằng chất âm
-G9 yêu cầu hai giọng cùng giới cách nhau ≥ 4 nửa cung. Ba cặp dưới đây vi phạm, phải bù bằng **chất âm**:
+G9 yêu cầu hai giọng cùng giới cách nhau ≥ 4 nửa cung. Bốn cặp dưới đây vi phạm, phải bù bằng **chất âm**:
 
 | Cặp | Khoảng cách | Bù bằng |
 |---|---|---|
+| H ↔ D | ~3,0 nc | H = ấm, mượt, ngực · D = **khàn đặc, già, khô ráp, dứt khoát** |
 | H ↔ W4 | ~2,8 nc | H = ấm, mượt, ngực · W4 = **khàn, run, già** |
-| D ↔ W4 | ~2,4 nc | D = **sắc, gọn, phẳng, không cảm xúc** · W4 = run, uất nghẹn |
+| D ↔ W4 | ~1,2 nc | D = **khàn già nhà nghề, sắc lạnh, quyền uy** · W4 = run, uất nghẹn |
 | W2 ↔ C | ~2,0 nc | C = **rõ ràng, học thuật, không cảm xúc** · W2 = ấm, mềm |
 
 ⇒ **Bắt buộc** nghe mù 3 vai chính (G9) **và** nghe mù H vs W4, D vs W4 trước khi dựng.
@@ -182,18 +183,18 @@ Chào mừng bạn đến với chuyên mục giải mã tâm lý tội phạm. 
 
 ---
 
-#### D — Điều tra viên (Sói) · nam 35–45 · F0 138–148 Hz
+#### D — Điều tra viên (Sói) · nam 50–60 · F0 122–134 Hz (trung vị ~128 Hz)
 
 **Control Instruction**
 ```
-A man in his late thirties, mid-low-pitched and firm with a crisp clipped delivery, cold and detached, precise and clinical, Vietnamese Standard, neutral and unemotional tone, slightly brisk pace
+An older seasoned detective in his late fifties, mid-low-pitched, rough and gravelly with a weathered, husky, raspy timbre, cold and detached, authoritative and clinical, Vietnamese Standard, strictly neutral and unemotional, steady deliberate pace
 ```
 
 **Target Text**
 ```
 Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.
 ```
-*(Cập nhật 29/10/2026: mở rộng lên 85 từ đạt ~20 s)*
+*(Cập nhật 29/10/2026: người dùng yêu cầu đổi sang chất giọng già và khàn, dạn dày sương gió; chốt chọn Take 04 với F0 128Hz, thời lượng 22,3s)*
 
 ---
 
