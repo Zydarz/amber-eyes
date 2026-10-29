@@ -374,7 +374,7 @@ Script dùng được: `.work/voice_audition.py` (`f0_median`, `cer`) · `.work/
 | 3 | **Dòng ghi công Boson** vẫn bắt buộc trong mô tả YouTube mọi tập dùng Higgs (`This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio`) — điều khoản của Higgs, không liên quan VoxCPM2 | Bắt buộc khi đăng |
 | 4 | **Đã sinh & nghiệm thu (29/10/2026)** — 7/7 vai đạt chuẩn V1–V6 tại `assets/voice_ref_voxcpm2/`, báo cáo lưu ở `90_LUU_TRU/BaoCao_DoGiongMau_VoxCPM2_20261029.md` | ✅ ĐÃ ĐẠT |
 | 5 | **Higgs clone từ giọng tổng hợp** = giọng của một giọng. Phải đo lại G8/G9 trên audio Higgs sinh ra, không được mượn số đo của bộ A | Bắt buộc ở bước 5–7 |
-| 6 | Bản EN / JA / KO chưa làm — khi làm phải có **file tham chiếu riêng cho từng ngôn ngữ** (Higgs clone theo vai, mà cùng một vai ở bản EN là giọng khác) | Để sau |
+| 6 | **Bản EN / JA / KO đã hoàn thành (30/10/2026)** — 7 vai × 3 ngôn ngữ đạt chuẩn tại `assets/voice_ref_voxcpm2_en/`, `assets/voice_ref_voxcpm2_ja/`, `assets/voice_ref_voxcpm2_ko/`, báo cáo lưu tại `90_LUU_TRU/BaoCao_DoGiongMau_VoxCPM2_Multilang_20261030.md` | ✅ ĐÃ ĐẠT |
 
 ---
 

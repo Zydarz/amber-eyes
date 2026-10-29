@@ -1,0 +1,142 @@
+{
+  "H": {
+    "role": "H",
+    "language": "en",
+    "seconds": 18.5,
+    "f0_median_hz": 117.6,
+    "f0_target_hz": [
+      100,
+      118
+    ],
+    "lufs": -18.1,
+    "true_peak": -2.0,
+    "max_gap_s": 0.49,
+    "source_file": ".work/voxcpm_raw_en/H_seed42.wav",
+    "control_instruction": "A man in his early forties, low-pitched and warm with a deep chesty resonance, calm and unhurried, intimate late-night podcast narration, English Standard, neutral and reflective tone, moderately slow pace",
+    "target_text": "Welcome to the criminal psychology archives. Every case begins with a heavy question that nobody seems able to answer, even though the truth has been there all along. As we retrace the investigative files, we are not looking for hasty judgments, but seeking to understand the quiet internal shifts within a human mind through every testimony and lasting trace.",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "bc2cfeb25373548c671535575e8f358baf0735412ef6d6b984dfa94c36f589cf",
+    "license": "Apache-2.0"
+  },
+  "D": {
+    "role": "D",
+    "language": "en",
+    "seconds": 20.94,
+    "f0_median_hz": 101.3,
+    "f0_target_hz": [
+      115,
+      135
+    ],
+    "lufs": -18.0,
+    "true_peak": -2.0,
+    "max_gap_s": 0.48,
+    "source_file": ".work/voxcpm_raw_en/D_seed42.wav",
+    "control_instruction": "An older seasoned detective in his late fifties, mid-low-pitched, rough and gravelly with a weathered, husky, raspy timbre, cold and detached, authoritative and clinical, English Standard, strictly neutral and unemotional, steady deliberate pace",
+    "target_text": "The case file records every detail. Not a single statement matches what we uncovered inside the residence. The question remains open, and this entire record has not revealed everything yet. The scene was secured from the start, and every piece of evidence was cataloged and sealed in strict sequence. We must cross-reference every timestamp and verify the movement logs before reaching a final conclusion.",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "a5c055d4a148d791d202f15349ab2c9288e011d3587fa4b0501fc340b0e25308",
+    "license": "Apache-2.0"
+  },
+  "C": {
+    "role": "C",
+    "language": "en",
+    "seconds": 24.39,
+    "f0_median_hz": 197.5,
+    "f0_target_hz": [
+      200,
+      220
+    ],
+    "lufs": -17.7,
+    "true_peak": -3.5,
+    "max_gap_s": 0.88,
+    "source_file": ".work/voxcpm_raw_en/C_seed101.wav",
+    "control_instruction": "A woman in her mid-fifties, mid-pitched and clear with precise articulation, scholarly and composed, strictly neutral and unemotional, English Standard, deliberate and measured pace",
+    "target_text": "This mechanism does not stem from memory, but from how individuals repeat familiar patterns. That is why such behavior constantly resurfaces in the exact same place and requires thorough explanation. In clinical studies, defensive reactions manifest most prominently when a subject perceives a total loss of control. Analyzing psychological structures demands an objective lens, founded on behavioral data gathered over extended periods.",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "5114a295691cd279c63495d2a7f1c499dfac980015501097bca858598fd88d96",
+    "license": "Apache-2.0"
+  },
+  "W1": {
+    "role": "W1",
+    "language": "en",
+    "seconds": 20.87,
+    "f0_median_hz": 219.2,
+    "f0_target_hz": [
+      220,
+      255
+    ],
+    "lufs": -17.7,
+    "true_peak": -2.0,
+    "max_gap_s": 0.56,
+    "source_file": ".work/voxcpm_raw_en/W1_seed42.wav",
+    "control_instruction": "A young woman in her early twenties, higher-pitched and bright with a light youthful timbre, conversational and slightly breathy, English Standard, neutral and relaxed tone, natural everyday pace",
+    "target_text": "This street gets very quiet at night, with only the distant hum of traffic. I usually walk past the market and stop by the fruit stall. If anyone asks about that incident, I just shrug as if I did not hear. The weather had turned chilly, and most roadside shops closed earlier than usual. I remember seeing a figure standing under the streetlight, but assumed it was just a regular passerby.",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "6bdd74d173cb9b0e1014787347a7fc2c38664883d975c8344cdc600684cfcc04",
+    "license": "Apache-2.0"
+  },
+  "W2": {
+    "role": "W2",
+    "language": "en",
+    "seconds": 19.63,
+    "f0_median_hz": 179.8,
+    "f0_target_hz": [
+      175,
+      205
+    ],
+    "lufs": -17.6,
+    "true_peak": -2.0,
+    "max_gap_s": 0.76,
+    "source_file": ".work/voxcpm_raw_en/W2_seed42.wav",
+    "control_instruction": "A woman in her early fifties, mid-pitched and soft with a mature rounded timbre, warm and unhurried, conversational, English Standard, neutral and calm tone, slow natural pace",
+    "target_text": "This house was built a long time ago, so it holds a distinct scent through every season. I always open the windows in the morning to let the sunlight reach the corner of the kitchen. If people inquire about the house, I can recount every story in detail. The neighbors around here have lived together since youth, so any minor occurrence is known across the entire lane.",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "63a37697e45e961b6ed562f735966f74f5cb9796748afd5c2e574d47bd6ef68d",
+    "license": "Apache-2.0"
+  },
+  "W3": {
+    "role": "W3",
+    "language": "en",
+    "seconds": 20.15,
+    "f0_median_hz": 168.4,
+    "f0_target_hz": [
+      150,
+      180
+    ],
+    "lufs": -18.4,
+    "true_peak": -2.0,
+    "max_gap_s": 0.39,
+    "source_file": ".work/voxcpm_raw_en/W3_seed101.wav",
+    "control_instruction": "A young man in his mid twenties, medium-pitched and clear with a light youthful timbre, open and casual, English Standard, neutral and relaxed tone, natural everyday pace",
+    "target_text": "The late-night bus runs pretty infrequently, so I usually have to walk quite a distance. The road is quiet at that hour, with only a few streetlights on, and I find myself wondering how far I will go. I usually listen to familiar songs to make the walk feel shorter. The night breeze rattles the iron fence, while occasional motorbikes speed past and disappear into the darkness.",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "bc204e6b2cccc3fa522d1a3285477a3f1258a4d787062081a279b6ead695ccc4",
+    "license": "Apache-2.0"
+  },
+  "W4": {
+    "role": "W4",
+    "language": "en",
+    "seconds": 22.18,
+    "f0_median_hz": 120.3,
+    "f0_target_hz": [
+      115,
+      135
+    ],
+    "lufs": -17.4,
+    "true_peak": -3.2,
+    "max_gap_s": 0.58,
+    "source_file": ".work/voxcpm_raw_en/W4_seed42.wav",
+    "control_instruction": "A man in his early fifties, lower mid-pitched and slightly rough with an aged timbre, steady and grounded, conversational, English Standard, neutral and calm tone, slow natural pace",
+    "target_text": "I open the small shop in front of my house early each morning and close late at night. The neighbors are familiar faces, so I always answer whenever someone knocks. If anyone asks about business, I am glad to share. This neighborhood used to be very peaceful, mostly retirees doing morning exercises. Brewing a pot of tea on the porch, I watch every change along this street.",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "97e06f95746cab54072f353e42aae50508fb8c648e24ff93c54ba02a331019e7",
+    "license": "Apache-2.0"
+  }
+}

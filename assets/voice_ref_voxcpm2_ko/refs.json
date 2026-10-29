@@ -1,0 +1,142 @@
+{
+  "H": {
+    "role": "H",
+    "language": "ko",
+    "seconds": 24.4,
+    "f0_median_hz": 121.2,
+    "f0_target_hz": [
+      100,
+      118
+    ],
+    "lufs": -18.0,
+    "true_peak": -2.0,
+    "max_gap_s": 0.95,
+    "source_file": ".work/voxcpm_raw_ko/H_seed42.wav",
+    "control_instruction": "A man in his early forties, low-pitched and warm with a deep chesty resonance, calm and unhurried, intimate late-night podcast narration, Korean Standard, neutral and reflective tone, moderately slow pace",
+    "target_text": "범죄 심리 분석 아카이브에 오신 것을 환영합니다. 모든 사건은 진실이 바로 눈앞에 있음에도 그 누구도 쉽게 답하지 못하는 무거운 질문에서 시작됩니다. 수사 기록을 한 장씩 되짚어가며, 우리는 섣부른 판단을 내리는 대신 남겨진 진술과 흔적을 통해 한 인간의 내면에서 일어난 고요한 변화를 객관적으로 들여다보고자 합니다.",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "0e4e2e14c687a9608a76f24d523ca07b0b9e5c985dfcd78b4e6fbcf2f69b172d",
+    "license": "Apache-2.0"
+  },
+  "D": {
+    "role": "D",
+    "language": "ko",
+    "seconds": 22.76,
+    "f0_median_hz": 135.0,
+    "f0_target_hz": [
+      115,
+      135
+    ],
+    "lufs": -17.8,
+    "true_peak": -1.8,
+    "max_gap_s": 0.55,
+    "source_file": ".work/voxcpm_raw_ko/D_seed101.wav",
+    "control_instruction": "An older seasoned detective in his late fifties, mid-low-pitched, rough and gravelly with a weathered, husky, raspy timbre, cold and detached, authoritative and clinical, Korean Standard, strictly neutral and unemotional, steady deliberate pace",
+    "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "d68a4756cd1be0a481a056de5b7a5cb836a6727b72b4eb4366d1611f6c5515cf",
+    "license": "Apache-2.0"
+  },
+  "C": {
+    "role": "C",
+    "language": "ko",
+    "seconds": 23.99,
+    "f0_median_hz": 228.6,
+    "f0_target_hz": [
+      200,
+      220
+    ],
+    "lufs": -17.5,
+    "true_peak": -3.5,
+    "max_gap_s": 0.11,
+    "source_file": ".work/voxcpm_raw_ko/C_seed2024.wav",
+    "control_instruction": "A woman in her mid-fifties, mid-pitched and clear with precise articulation, scholarly and composed, strictly neutral and unemotional, Korean Standard, deliberate and measured pace",
+    "target_text": "이러한 기제는 단순한 기억에서 비롯되는 것이 아니라, 익숙한 행동 양식을 반복하려는 경향에서 기인합니다. 그것이 바로 동일한 행동이 같은 장소에서 계속해서 되풀이되는 이유입니다. 임상 연구에 따르면, 통제력을 상실했다고 느낄 때 방어 반응이 가장 두드러지게 나타납니다. 심리 구조를 규명하기 위해서는 장기간 축적된 객관적인 행동 데이터에 기반한 분석이 필수적입니다.",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "9af468e9904d8225ff31153c3f9f9cc3b3bf04560fc8c86a2f33b400d210dcdb",
+    "license": "Apache-2.0"
+  },
+  "W1": {
+    "role": "W1",
+    "language": "ko",
+    "seconds": 25.3,
+    "f0_median_hz": 262.3,
+    "f0_target_hz": [
+      220,
+      255
+    ],
+    "lufs": -18.1,
+    "true_peak": -2.0,
+    "max_gap_s": 0.67,
+    "source_file": ".work/voxcpm_raw_ko/W1_seed42.wav",
+    "control_instruction": "A young woman in her early twenties, higher-pitched and bright with a light youthful timbre, conversational and slightly breathy, Korean Standard, neutral and relaxed tone, natural everyday pace",
+    "target_text": "이 길은 밤이 되면 인적이 드물어지고, 멀리서 지나가는 차 소리만 희미하게 들려옵니다. 저는 보통 시장 골목을 지나 과일 가게 앞에 잠시 들르곤 했습니다. 그 일에 대해 묻는 사람이 있어도 그저 못 들은 척 어깨를 으쓱할 뿐이었죠. 그 무렵 날씨가 쌀쌀해져서 길가 가게들도 평소보다 일찍 문을 닫았습니다. 가로등 아래에 서 있던 그림자를 본 기억은 나지만, 그저 지나가는 행인인 줄만 알았습니다.",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "cfe88e90e34c88453eb8af6a891318d078f023fdea28008d6d002be0100017ea",
+    "license": "Apache-2.0"
+  },
+  "W2": {
+    "role": "W2",
+    "language": "ko",
+    "seconds": 23.72,
+    "f0_median_hz": 168.4,
+    "f0_target_hz": [
+      175,
+      205
+    ],
+    "lufs": -17.6,
+    "true_peak": -2.0,
+    "max_gap_s": 0.14,
+    "source_file": ".work/voxcpm_raw_ko/W2_seed2024.wav",
+    "control_instruction": "A woman in her early fifties, mid-pitched and soft with a mature rounded timbre, warm and unhurried, conversational, Korean Standard, neutral and calm tone, slow natural pace",
+    "target_text": "이 집은 지은 지 오래되어서 계절마다 특유의 냄새가 배어 있습니다. 아침마다 창문을 활짝 열어 햇살이 부엌 구석까지 닿도록 하는 것이 일과였죠. 이 집에 대해 물어오면 사소한 기억까지 하나하나 다 들려줄 수 있습니다. 이웃들과는 젊은 시절부터 한 골목에서 함께 살아왔기 때문에, 어느 집에 무슨 일이 생기든 온 동네가 손바닥 보듯 훤히 다 알고 지냈습니다.",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "a4b6aab7c769464e729444b344419b7b6e59e3e9433c7ca79527edc0d2a83b7b",
+    "license": "Apache-2.0"
+  },
+  "W3": {
+    "role": "W3",
+    "language": "ko",
+    "seconds": 19.09,
+    "f0_median_hz": 155.3,
+    "f0_target_hz": [
+      150,
+      180
+    ],
+    "lufs": -17.6,
+    "true_peak": -2.0,
+    "max_gap_s": 0.41,
+    "source_file": ".work/voxcpm_raw_ko/W3_seed2024.wav",
+    "control_instruction": "A young man in his mid twenties, medium-pitched and clear with a light youthful timbre, open and casual, Korean Standard, neutral and relaxed tone, natural everyday pace",
+    "target_text": "막차 배차 간격이 워낙 길어서, 버스에서 내린 뒤 한참을 걸어가야 했습니다. 그 시간대 도로는 몇 안 되는 가로등만 켜진 채 적막하기만 합니다. 밤길이 지루하지 않도록 늘 익숙한 음악을 들으며 걷곤 했죠. 차가운 밤바람에 철제 울타리가 달그락거리며 흔들리고, 가끔 오토바이 한두 대가 어둠 속으로 빠르게 스쳐 지나가곤 했습니다.",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "fdf247667ffef8732c6960b93ba32035e298a98a9c4bd04cd34203c945fe20a5",
+    "license": "Apache-2.0"
+  },
+  "W4": {
+    "role": "W4",
+    "language": "ko",
+    "seconds": 23.5,
+    "f0_median_hz": 128.0,
+    "f0_target_hz": [
+      115,
+      135
+    ],
+    "lufs": -17.8,
+    "true_peak": -2.0,
+    "max_gap_s": 0.62,
+    "source_file": ".work/voxcpm_raw_ko/W4_seed42.wav",
+    "control_instruction": "A man in his early fifties, lower mid-pitched and slightly rough with an aged timbre, steady and grounded, conversational, Korean Standard, neutral and calm tone, slow natural pace",
+    "target_text": "저는 매일 이른 아침부터 가게 문을 열고 밤늦게까지 자리를 지킵니다. 오가는 이웃들이 다 아는 얼굴들이라 누가 문을 두드려도 반갑게 맞이하곤 하죠. 장사 이야기를 물어오면 오랜 지인처럼 이런저런 이야기를 편하게 나눕니다. 이 동네는 예전부터 조용해서 아침마다 산책하는 어르신들이 대부분이었습니다. 툇마루에서 차를 마시며 세월에 따라 변해가는 골목의 모습을 눈에 담아왔습니다.",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "715034cbfa90541d62d98a196a01417ccaed2c8ab09458b750bc81120857e76a",
+    "license": "Apache-2.0"
+  }
+}

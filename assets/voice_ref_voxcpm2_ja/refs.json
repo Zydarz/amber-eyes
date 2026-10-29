@@ -1,0 +1,142 @@
+{
+  "H": {
+    "role": "H",
+    "language": "ja",
+    "seconds": 19.28,
+    "f0_median_hz": 122.1,
+    "f0_target_hz": [
+      100,
+      118
+    ],
+    "lufs": -17.1,
+    "true_peak": -2.0,
+    "max_gap_s": 0.74,
+    "source_file": ".work/voxcpm_raw_ja/H_seed42.wav",
+    "control_instruction": "A man in his early forties, low-pitched and warm with a deep chesty resonance, calm and unhurried, intimate late-night podcast narration, Japanese Standard, neutral and reflective tone, moderately slow pace",
+    "target_text": "犯罪心理の分析記録へようこそ。すべての事件は、真実がそこにあるにもかかわらず、誰も答えられない重い問いから始まります。捜査記録を辿るとき、私たちは拙速な断罪を求めるのではなく、残された証言や痕跡を通じて、一人の人間の内面に生じた静かな変化を見つめていきます。",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "81e20b95c0717007cd22024d9f7c2f23d3bdaadaee80b9f4ae9334a8b8113259",
+    "license": "Apache-2.0"
+  },
+  "D": {
+    "role": "D",
+    "language": "ja",
+    "seconds": 24.86,
+    "f0_median_hz": 123.1,
+    "f0_target_hz": [
+      115,
+      135
+    ],
+    "lufs": -17.7,
+    "true_peak": -2.0,
+    "max_gap_s": 1.19,
+    "source_file": ".work/voxcpm_raw_ja/D_seed101.wav",
+    "control_instruction": "An older seasoned detective in his late fifties, mid-low-pitched, rough and gravelly with a weathered, husky, raspy timbre, cold and detached, authoritative and clinical, Japanese Standard, strictly neutral and unemotional, steady deliberate pace",
+    "target_text": "捜査記録にはすべての詳細が記録されています。現場の住宅で発見された物証と一致する供述は一つもありません。疑問は依然として残されており、全容はまだ解明されていません。現場は当初から厳重に保全され、すべての証拠品が番号順に封印されました。最終的な結論を下す前に、タイムラインと行動経路を再検証する必要があります。",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "984065e2e5d0b9a705b122836dcb18984641d21ccbc7e5f2d999443411166b0e",
+    "license": "Apache-2.0"
+  },
+  "C": {
+    "role": "C",
+    "language": "ja",
+    "seconds": 26.67,
+    "f0_median_hz": 254.0,
+    "f0_target_hz": [
+      200,
+      220
+    ],
+    "lufs": -18.8,
+    "true_peak": -2.1,
+    "max_gap_s": 0.84,
+    "source_file": ".work/voxcpm_raw_ja/C_seed2024.wav",
+    "control_instruction": "A woman in her mid-fifties, mid-pitched and clear with precise articulation, scholarly and composed, strictly neutral and unemotional, Japanese Standard, deliberate and measured pace",
+    "target_text": "このメカニズムは記憶に起因するのではなく、人間が馴染みのある行動パターンを繰り返す特性から生じます。それが同じ行動が同じ場所で繰り返される理由であり、詳細な解明が求められます。臨床研究において、自己統制を失ったと感じた際、防衛反応が最も顕著に現れます。心理構造の分析には、長期間にわたり収集された客観的な行動データに基づいた冷静な視点が不可欠です。",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "ccf3d5623880d43b3389eba34e39eaddac7ad709357f0b0c1f3aaf3aebc68e3e",
+    "license": "Apache-2.0"
+  },
+  "W1": {
+    "role": "W1",
+    "language": "ja",
+    "seconds": 26.56,
+    "f0_median_hz": 266.7,
+    "f0_target_hz": [
+      220,
+      255
+    ],
+    "lufs": -18.0,
+    "true_peak": -2.0,
+    "max_gap_s": 0.91,
+    "source_file": ".work/voxcpm_raw_ja/W1_seed42.wav",
+    "control_instruction": "A young woman in her early twenties, higher-pitched and bright with a light youthful timbre, conversational and slightly breathy, Japanese Standard, neutral and relaxed tone, natural everyday pace",
+    "target_text": "夜になるとこの通りは人通りが途絶え、遠くを走る車の音だけが聞こえてきます。私はよく市場のそばを歩き、果物屋の前に立ち寄ります。あの件について尋ねられても、聞こえなかったかのように肩をすくめるだけです。その日は風が冷たく、通りの店もいつもより早く閉まっていました。街灯の下に立つ人影を見かけましたが、ただの通行人だと思っていました。",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "39a2da80ece7c40464e2aa30374d8669dafc0bc96779c76b70ef89af6ea09f40",
+    "license": "Apache-2.0"
+  },
+  "W2": {
+    "role": "W2",
+    "language": "ja",
+    "seconds": 24.55,
+    "f0_median_hz": 231.9,
+    "f0_target_hz": [
+      175,
+      205
+    ],
+    "lufs": -18.1,
+    "true_peak": -2.0,
+    "max_gap_s": 0.98,
+    "source_file": ".work/voxcpm_raw_ja/W2_seed101.wav",
+    "control_instruction": "A woman in her early fifties, mid-pitched and soft with a mature rounded timbre, warm and unhurried, conversational, Japanese Standard, neutral and calm tone, slow natural pace",
+    "target_text": "この家はずいぶん前に建てられたので、季節ごとに独特の匂いがあります。毎朝窓を開けて、キッチンの隅まで朝日を入れるのが日課です。この家について聞かれれば、当時のことを昨日のことのように詳しく話せます。近所の人たちとは若い頃からずっと一緒に暮らしてきたので、どの家で何が起きたか、路地のみんながよく知っています。",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "c5ae00431205888ae097c6e028e1acccf53b1431fd99b7a9f18f0ce7e553518d",
+    "license": "Apache-2.0"
+  },
+  "W3": {
+    "role": "W3",
+    "language": "ja",
+    "seconds": 19.45,
+    "f0_median_hz": 144.1,
+    "f0_target_hz": [
+      150,
+      180
+    ],
+    "lufs": -17.7,
+    "true_peak": -2.0,
+    "max_gap_s": 1.17,
+    "source_file": ".work/voxcpm_raw_ja/W3_seed42.wav",
+    "control_instruction": "A young man in his mid twenties, medium-pitched and clear with a light youthful timbre, open and casual, Japanese Standard, neutral and relaxed tone, natural everyday pace",
+    "target_text": "最終バスの間隔はかなり長いため、いつも長い距離を歩くことになります。その時間帯の道は静まり返り、わずかな街灯だけが灯っています。普段は音楽を聴きながら夜道を歩くようにしています。夜風が鉄のフェンスをカタカタと揺らし、時折バイクが通り過ぎては闇の向こうへと消えていきます。",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "cd5d218ddb26fe4c2c4a88fadb876d3c65ca31661da185ddf0eb0dd395e1b0b0",
+    "license": "Apache-2.0"
+  },
+  "W4": {
+    "role": "W4",
+    "language": "ja",
+    "seconds": 21.84,
+    "f0_median_hz": 115.1,
+    "f0_target_hz": [
+      115,
+      135
+    ],
+    "lufs": -17.7,
+    "true_peak": -2.0,
+    "max_gap_s": 0.98,
+    "source_file": ".work/voxcpm_raw_ja/W4_seed42.wav",
+    "control_instruction": "A man in his early fifties, lower mid-pitched and slightly rough with an aged timbre, steady and grounded, conversational, Japanese Standard, neutral and calm tone, slow natural pace",
+    "target_text": "私は毎朝早くから店のシャッターを開け、夜遅くまで営業しています。近所の人たちはみんな顔なじみですから、誰かが声をかけてくればいつでも迎えます。この界隈は昔から穏やかで、朝は散歩をするお年寄りばかりでした。縁側でお茶を淹れながら、何年ものあいだ通りの移り変わりと人々の足音を見守ってきました。",
+    "sample_rate": 24000,
+    "channels": 1,
+    "sha256": "c9e3ee57335a04feab32541657c2d355c61462f67c02cff1fd1dc2dbc2f1f349",
+    "license": "Apache-2.0"
+  }
+}
