@@ -8,6 +8,7 @@
 # ---------- Media: âm thanh ----------
 *.mp3
 *.wav
+!assets/voice_ref_voxcpm2/*.wav
 *.ogg
 *.m4a
 *.flac

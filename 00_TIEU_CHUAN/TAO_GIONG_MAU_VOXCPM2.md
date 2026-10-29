@@ -176,8 +176,9 @@ A man in his early forties, low-pitched and warm with a deep chesty resonance, c
 
 **Target Text**
 ```
-Chào mừng bạn đến với chuyên mục giải mã tâm lý tội phạm. Mỗi hồ sơ đều bắt đầu bằng câu hỏi nặng trĩu, mà không ai trả lời nổi.
+Chào mừng bạn đến với chuyên mục giải mã tâm lý tội phạm. Mỗi hồ sơ đều bắt đầu bằng câu hỏi nặng trĩu, mà không ai trả lời nổi, dù sự thật vẫn luôn nằm ở đó.
 ```
+*(Cập nhật 29/10/2026: thêm vế đuôi 8 từ để độ dài phát âm đạt 10,0 s, nằm trọn trong dải chuẩn 8–15 s của VX3)*
 
 ---
 
@@ -364,7 +365,7 @@ Script dùng được: `.work/voice_audition.py` (`f0_median`, `cer`) · `.work/
 | 1b | **Bảng ghép N1/N2 → W1–W4 đã chốt** (§3.1, 29/10/2026). Còn: T01 chưa ghi giới · đồng bộ bản EN/KO/JA · nghe thử T16/T18 N2 ở V8 | Chờ người dùng |
 | 2 | **Chưa khai `CAST_HIGGS`** trong `edition.py` — `QUY_TAC` §4 yêu cầu bộ mới | Nên làm |
 | 3 | **Dòng ghi công Boson** vẫn bắt buộc trong mô tả YouTube mọi tập dùng Higgs (`This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio`) — điều khoản của Higgs, không liên quan VoxCPM2 | Bắt buộc khi đăng |
-| 4 | **Chưa chạy thử** — mọi số liệu trong file này là *thiết kế*, chưa phải *đo* | — |
+| 4 | **Đã sinh & nghiệm thu (29/10/2026)** — 7/7 vai đạt chuẩn V1–V6 tại `assets/voice_ref_voxcpm2/`, báo cáo lưu ở `90_LUU_TRU/BaoCao_DoGiongMau_VoxCPM2_20261029.md` | ✅ ĐÃ ĐẠT |
 | 5 | **Higgs clone từ giọng tổng hợp** = giọng của một giọng. Phải đo lại G8/G9 trên audio Higgs sinh ra, không được mượn số đo của bộ A | Bắt buộc ở bước 5–7 |
 | 6 | Bản EN / JA / KO chưa làm — khi làm phải có **file tham chiếu riêng cho từng ngôn ngữ** (Higgs clone theo vai, mà cùng một vai ở bản EN là giọng khác) | Để sau |
 

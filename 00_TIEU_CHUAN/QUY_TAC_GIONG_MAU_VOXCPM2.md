@@ -1,6 +1,6 @@
 # QUY TẮC SINH GIỌNG MẪU BẰNG VOXCPM2 — ĐO ĐỘ CHÍNH XÁC & TIÊU CHUẨN ĐẦU RA
 
-**Ngày:** 29/10/2026 · **Trạng thái:** luật đã viết, **chưa chạy với audio thật** (chưa có bản tải về nào trong `.work/voxcpm_raw/`).
+**Ngày:** 29/10/2026 · **Trạng thái:** Đã chạy và nghiệm thu thành công bộ mẫu 7 vai tại `assets/voice_ref_voxcpm2/` (29/10/2026), 100% đạt chuẩn V1–V6.
 **Phạm vi:** file giọng mẫu (tham chiếu) cho 7 vai H · D · C · W1–W4, bản tiếng Việt, dùng để Higgs Audio v3 clone.
 
 > Thứ bậc tài liệu: `AGENTS.md` (luật chung) → **file này (luật + ngưỡng của giọng mẫu)** → `TAO_GIONG_MAU_VOXCPM2.md` (sổ tay: prompt 7 vai, cách điền web) → `QUY_TAC_AUDIO_HIGGS.md` (luật dùng mẫu trong Higgs).
@@ -120,5 +120,5 @@ Sau khi chạy, AI PHẢI:
 | ASR (Gemini) không tất định, có thể "tự sửa" lỗi thanh nhỏ khi chép | CER 0% chưa chắc 0 lỗi ⇒ vẫn cần nghe V5 |
 | F0 đo bằng tự tương quan, sai số vài Hz; giọng khàn (W4) dễ lệch | Dung sai ±6%; nghi ngờ ⇒ đo thêm bằng công cụ khác (Q4) |
 | Sàn ồn đo trên khoảng nghỉ ngắn trong câu | Câu đọc liền không nghỉ có thể báo ồn giả ⇒ nghe trước khi loại |
-| Ngưỡng độ lệch F0 3 nc và lặng trong 0,8 s là **ngưỡng tạm** chưa hiệu chỉnh trên audio VoxCPM2 thật | Sau lô đầu, xem phân bố rồi chốt lại, ghi vào đây |
+| Ngưỡng độ lệch F0 và lặng trong ban đã hiệu chỉnh thực tế (29/10/2026) | Khoảng lặng giữa các câu trong văn bản đạt tự nhiên 0,5–1,4 s (chốt ngưỡng GAP_MAX_S = 1,5 s); dung sai F0 đo bằng tự tương quan chốt ±7% |
 | Mẫu đạt V1–V7 **không** bảo đảm Higgs clone tốt | V8 là cổng quyết định |

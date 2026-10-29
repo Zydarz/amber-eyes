@@ -1,0 +1,135 @@
+{
+ "C": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A woman in her mid-fifties, mid-pitched and clear with precise articulation, scholarly and composed, strictly neutral and unemotional, Vietnamese Standard, deliberate and measured pace",
+  "target_text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/C/C_take03.wav",
+  "seconds": 9.89,
+  "f0_median_hz": 213.3,
+  "f0_target_hz": [
+   202,
+   212
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": []
+ },
+ "D": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late thirties, mid-low-pitched and firm with a crisp clipped delivery, cold and detached, precise and clinical, Vietnamese Standard, neutral and unemotional tone, slightly brisk pace",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_take03.wav",
+  "seconds": 9.66,
+  "f0_median_hz": 139.1,
+  "f0_target_hz": [
+   138,
+   148
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": []
+ },
+ "H": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his early forties, low-pitched and warm with a deep chesty resonance, calm and unhurried, intimate late-night podcast narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace",
+  "target_text": "Chào mừng bạn đến với chuyên mục giải mã tâm lý tội phạm. Mỗi hồ sơ đều bắt đầu bằng câu hỏi nặng trĩu, mà không ai trả lời nổi, dù sự thật vẫn luôn nằm ở đó.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/H/H_take01.wav",
+  "seconds": 10.03,
+  "f0_median_hz": 105.3,
+  "f0_target_hz": [
+   100,
+   106
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": []
+ },
+ "W1": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A young woman in her early twenties, higher-pitched and bright with a light youthful timbre, conversational and slightly breathy, Vietnamese Standard, neutral and relaxed tone, natural everyday pace",
+  "target_text": "Đường này buổi tối vắng lặng, chỉ có tiếng xe chạy rất xa. Tôi hay đi bộ qua chợ, và thường dừng lại ở quầy bán hoa quả. Ai hỏi chuyện ấy, tôi cũng chỉ nhún vai, nửa như không nghe thấy.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/W1/W1_take01.wav",
+  "seconds": 14.21,
+  "f0_median_hz": 228.6,
+  "f0_target_hz": [
+   228,
+   242
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": []
+ },
+ "W2": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A woman in her early fifties, mid-pitched and soft with a mature rounded timbre, warm and unhurried, conversational, Vietnamese Standard, neutral and calm tone, slow natural pace",
+  "target_text": "Căn nhà này xây từ lâu, nên mùa nào cũng giữ mùi riêng. Tôi thường mở cửa sổ vào buổi sáng, để ánh nắng lọt vào tận góc bếp. Có hỏi về căn nhà, tôi cũng kể từng chuyện, và nhớ rõ từng chi tiết.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/W2/W2_take01.wav",
+  "seconds": 13.34,
+  "f0_median_hz": 183.9,
+  "f0_target_hz": [
+   180,
+   192
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": []
+ },
+ "W3": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A young man in his mid twenties, medium-pitched and clear with a light youthful timbre, open and casual, Vietnamese Standard, neutral and relaxed tone, natural everyday pace",
+  "target_text": "Xe buýt cuối tuyến chạy khá thưa, nên tôi thường phải đi bộ thêm đoạn dài nữa. Đường lúc đó vắng lặng, chỉ có mấy cây đèn còn sáng, và tôi hay tự hỏi mình sẽ đi bao xa, nửa như không biết.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/W3/W3_take05.wav",
+  "seconds": 12.13,
+  "f0_median_hz": 155.3,
+  "f0_target_hz": [
+   162,
+   175
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": []
+ },
+ "W4": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his early fifties, lower mid-pitched and slightly rough with an aged timbre, steady and grounded, conversational, Vietnamese Standard, neutral and calm tone, slow natural pace",
+  "target_text": "Tôi mở quán trước nhà từ sáng sớm, và mỗi ngày đều đóng cửa khá muộn. Hàng xóm quen mặt, nên ai gọi cửa tôi cũng mở. Có hỏi chuyện buôn bán, tôi cũng chịu nói, nửa như người quen.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/W4/W4_take01.wav",
+  "seconds": 14.16,
+  "f0_median_hz": 115.9,
+  "f0_target_hz": [
+   120,
+   128
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": []
+ }
+}

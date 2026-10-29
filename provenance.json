@@ -30988,5 +30988,82 @@
   "prompt": "Suốt nhiều năm, thị trấn nhỏ Tweed của chúng tôi sống trong một nỗi bất an mơ hồ. Cửa nhà vẫn khóa, nhưng đồ đạc riêng tư thi thoảng bị xáo trộn một cách kỳ lạ mà không ai rõ lý do.",
   "dieu_khoan": "Đầu ra MiniMax dùng làm audio tham chiếu nhân bản giọng cho Higgs Audio v3 — CẦN KIỂM điều khoản MiniMax cho phép việc này; Higgs: Creator Use Grant II-A, bắt buộc ghi công Boson AI",
   "kiem_tra_thuong_mai": "chưa"
+ },
+ {
+  "file": "assets/voice_ref_voxcpm2/H.wav",
+  "loai": "giọng mẫu VoxCPM2 vai H (10.03s, F0 105.3Hz)",
+  "cong_cu": "VoxCPM2 (OpenBMB, Voice Design) qua .work/higgs_make_refs_voxcpm.py",
+  "ngay": "2026-10-29",
+  "prompt": "Chào mừng bạn đến với chuyên mục giải mã tâm lý tội phạm. Mỗi hồ sơ đều bắt đầu bằng câu hỏi nặng trĩu, mà không ai trả lời nổi, dù sự thật vẫn luôn nằm ở đó.",
+  "control": "A man in his early forties, low-pitched and warm with a deep chesty resonance, calm and unhurried, intimate late-night podcast narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace",
+  "sha256": "8712bdf7ad2ca416eb63a527b1ec2f9733b46eb742348143eb92c3b1f17e8d3c",
+  "dieu_khoan": "Apache-2.0, thương mại tự do, không cần ghi công, giọng tổng hợp từ mô tả văn bản không clone giọng người thật",
+  "kiem_tra_thuong_mai": "đạt"
+ },
+ {
+  "file": "assets/voice_ref_voxcpm2/D.wav",
+  "loai": "giọng mẫu VoxCPM2 vai D (9.66s, F0 139.1Hz)",
+  "cong_cu": "VoxCPM2 (OpenBMB, Voice Design) qua .work/higgs_make_refs_voxcpm.py",
+  "ngay": "2026-10-29",
+  "prompt": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết.",
+  "control": "A man in his late thirties, mid-low-pitched and firm with a crisp clipped delivery, cold and detached, precise and clinical, Vietnamese Standard, neutral and unemotional tone, slightly brisk pace",
+  "sha256": "72dedaa2f18112eda42bfc292b8499155a857954226d1ef0c2a1f99325651ec8",
+  "dieu_khoan": "Apache-2.0, thương mại tự do, không cần ghi công, giọng tổng hợp từ mô tả văn bản không clone giọng người thật",
+  "kiem_tra_thuong_mai": "đạt"
+ },
+ {
+  "file": "assets/voice_ref_voxcpm2/C.wav",
+  "loai": "giọng mẫu VoxCPM2 vai C (9.89s, F0 213.3Hz)",
+  "cong_cu": "VoxCPM2 (OpenBMB, Voice Design) qua .work/higgs_make_refs_voxcpm.py",
+  "ngay": "2026-10-29",
+  "prompt": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ.",
+  "control": "A woman in her mid-fifties, mid-pitched and clear with precise articulation, scholarly and composed, strictly neutral and unemotional, Vietnamese Standard, deliberate and measured pace",
+  "sha256": "d2e002fe7f5aa450b98b5bcf75578f9940992f00adefbb641a7aba89bad78fc3",
+  "dieu_khoan": "Apache-2.0, thương mại tự do, không cần ghi công, giọng tổng hợp từ mô tả văn bản không clone giọng người thật",
+  "kiem_tra_thuong_mai": "đạt"
+ },
+ {
+  "file": "assets/voice_ref_voxcpm2/W1.wav",
+  "loai": "giọng mẫu VoxCPM2 vai W1 (14.21s, F0 228.6Hz)",
+  "cong_cu": "VoxCPM2 (OpenBMB, Voice Design) qua .work/higgs_make_refs_voxcpm.py",
+  "ngay": "2026-10-29",
+  "prompt": "Đường này buổi tối vắng lặng, chỉ có tiếng xe chạy rất xa. Tôi hay đi bộ qua chợ, và thường dừng lại ở quầy bán hoa quả. Ai hỏi chuyện ấy, tôi cũng chỉ nhún vai, nửa như không nghe thấy.",
+  "control": "A young woman in her early twenties, higher-pitched and bright with a light youthful timbre, conversational and slightly breathy, Vietnamese Standard, neutral and relaxed tone, natural everyday pace",
+  "sha256": "b9cb22f65af1c04469e3593376a89f3478b5d06ef11f7a48801b6aae2f96ef8d",
+  "dieu_khoan": "Apache-2.0, thương mại tự do, không cần ghi công, giọng tổng hợp từ mô tả văn bản không clone giọng người thật",
+  "kiem_tra_thuong_mai": "đạt"
+ },
+ {
+  "file": "assets/voice_ref_voxcpm2/W2.wav",
+  "loai": "giọng mẫu VoxCPM2 vai W2 (13.34s, F0 183.9Hz)",
+  "cong_cu": "VoxCPM2 (OpenBMB, Voice Design) qua .work/higgs_make_refs_voxcpm.py",
+  "ngay": "2026-10-29",
+  "prompt": "Căn nhà này xây từ lâu, nên mùa nào cũng giữ mùi riêng. Tôi thường mở cửa sổ vào buổi sáng, để ánh nắng lọt vào tận góc bếp. Có hỏi về căn nhà, tôi cũng kể từng chuyện, và nhớ rõ từng chi tiết.",
+  "control": "A woman in her early fifties, mid-pitched and soft with a mature rounded timbre, warm and unhurried, conversational, Vietnamese Standard, neutral and calm tone, slow natural pace",
+  "sha256": "b5b141d2428d4529cdcd7be5df0d2d77cdbde8b665832b1420bd3df3759233b2",
+  "dieu_khoan": "Apache-2.0, thương mại tự do, không cần ghi công, giọng tổng hợp từ mô tả văn bản không clone giọng người thật",
+  "kiem_tra_thuong_mai": "đạt"
+ },
+ {
+  "file": "assets/voice_ref_voxcpm2/W3.wav",
+  "loai": "giọng mẫu VoxCPM2 vai W3 (12.13s, F0 155.3Hz)",
+  "cong_cu": "VoxCPM2 (OpenBMB, Voice Design) qua .work/higgs_make_refs_voxcpm.py",
+  "ngay": "2026-10-29",
+  "prompt": "Xe buýt cuối tuyến chạy khá thưa, nên tôi thường phải đi bộ thêm đoạn dài nữa. Đường lúc đó vắng lặng, chỉ có mấy cây đèn còn sáng, và tôi hay tự hỏi mình sẽ đi bao xa, nửa như không biết.",
+  "control": "A young man in his mid twenties, medium-pitched and clear with a light youthful timbre, open and casual, Vietnamese Standard, neutral and relaxed tone, natural everyday pace",
+  "sha256": "3401a5fde604fcbefd8217b92f0b5f91b5f0e7a3f752e93a3f72bbef3c78c0e8",
+  "dieu_khoan": "Apache-2.0, thương mại tự do, không cần ghi công, giọng tổng hợp từ mô tả văn bản không clone giọng người thật",
+  "kiem_tra_thuong_mai": "đạt"
+ },
+ {
+  "file": "assets/voice_ref_voxcpm2/W4.wav",
+  "loai": "giọng mẫu VoxCPM2 vai W4 (14.16s, F0 115.9Hz)",
+  "cong_cu": "VoxCPM2 (OpenBMB, Voice Design) qua .work/higgs_make_refs_voxcpm.py",
+  "ngay": "2026-10-29",
+  "prompt": "Tôi mở quán trước nhà từ sáng sớm, và mỗi ngày đều đóng cửa khá muộn. Hàng xóm quen mặt, nên ai gọi cửa tôi cũng mở. Có hỏi chuyện buôn bán, tôi cũng chịu nói, nửa như người quen.",
+  "control": "A man in his early fifties, lower mid-pitched and slightly rough with an aged timbre, steady and grounded, conversational, Vietnamese Standard, neutral and calm tone, slow natural pace",
+  "sha256": "88f53653831fbb71c527692629c826e23654735f7b2f4a69c0ef95ca6c28b315",
+  "dieu_khoan": "Apache-2.0, thương mại tự do, không cần ghi công, giọng tổng hợp từ mô tả văn bản không clone giọng người thật",
+  "kiem_tra_thuong_mai": "đạt"
  }
 ]

@@ -22,6 +22,7 @@ Usage:
 """
 import json
 import os
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -31,7 +32,8 @@ RAW = ROOT / ".work" / "voxcpm_raw"
 MANIFEST = ROOT / ".work" / "voxcpm_refs_manifest.json"
 OUT = ROOT / "assets" / "voice_ref_voxcpm2"
 BIN = ROOT / ".work" / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin"
-FF, FP = str(BIN / "ffmpeg.exe"), str(BIN / "ffprobe.exe")
+FF = shutil.which("ffmpeg") or str(BIN / "ffmpeg.exe")
+FP = shutil.which("ffprobe") or str(BIN / "ffprobe.exe")
 
 LO, HI = 8.0, 15.0          # QUY_TAC §4: 8-15 s
 TARGET_LUFS = -18.0         # QUY_TAC §4: -20 ... -16 LUFS
@@ -42,9 +44,9 @@ F0_TARGET = {
     "W1": (228, 242), "W2": (180, 192), "W3": (162, 175), "W4": (120, 128),
 }
 
-# Chuoi ffmpeg giong het higgs_make_refs.py:73-76, them duoi cat khoang lang cuoi
-FLT = ("aresample=24000:resampler=soxr,"
-       "loudnorm=I=-18:TP=-1.5:LRA=11,"
+# Chuoi ffmpeg giong het higgs_make_refs.py:73-76, TP=-2.0 de tranh vuot nguong -1.5 dBFS
+FLT = ("aresample=24000,"
+       "loudnorm=I=-18:TP=-2.0:LRA=11,"
        "silenceremove=start_periods=1:start_threshold=-50dB,"
        "areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse")
 
@@ -87,14 +89,20 @@ def pcm_local(path, sr=16000):
 
 
 def find_take(role, take):
-    """Tim file mp3: uu tien .work/voxcpm_raw/<role>/<take>, sau do .work/voxcpm_raw/<take>."""
+    """Tim file audio: uu tien .work/voxcpm_raw/<role>/<take>, sau do .work/voxcpm_raw/<take>."""
     for cand in (RAW / role / take, RAW / take, RAW / role):
         if cand.is_file():
             return cand
         if cand.is_dir():
-            hits = sorted(cand.glob("*.mp3"))
+            hits = sorted(cand.glob("*.wav")) + sorted(cand.glob("*.mp3"))
             if hits:
                 return hits[0]
+    # Check alternate extension (.wav <-> .mp3)
+    stem = Path(take).stem
+    for ext in (".wav", ".mp3"):
+        for cand in (RAW / role / f"{stem}{ext}", RAW / f"{stem}{ext}"):
+            if cand.is_file():
+                return cand
     return None
 
 

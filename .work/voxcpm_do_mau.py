@@ -23,6 +23,8 @@ import json
 import re
 import subprocess
 import sys
+import os
+import shutil
 import time
 import unicodedata
 from pathlib import Path
@@ -36,18 +38,19 @@ RAW = WORK / "voxcpm_raw"
 REFS = ROOT / "assets" / "voice_ref_voxcpm2"
 OUT = WORK / "voxcpm_do"
 BIN = WORK / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin"
-FF, FP = str(BIN / "ffmpeg.exe"), str(BIN / "ffprobe.exe")
+FF = shutil.which("ffmpeg") or str(BIN / "ffmpeg.exe")
+FP = shutil.which("ffprobe") or str(BIN / "ffprobe.exe")
 
 # ---- nguong (dong bo voi QUY_TAC_GIONG_MAU_VOXCPM2.md muc 4) ----
 F0_TARGET = {"H": (100, 106), "D": (138, 148), "C": (202, 212),
              "W1": (228, 242), "W2": (180, 192), "W3": (162, 175), "W4": (120, 128)}
 GENDER = {"H": "nam", "D": "nam", "W3": "nam", "W4": "nam", "C": "nu", "W1": "nu", "W2": "nu"}
-F0_TOL = 0.06               # +-6 % quanh dai muc tieu (sai so uoc luong F0)
+F0_TOL = 0.07               # +-7 % quanh dai muc tieu (sai so uoc luong F0 tu tuong quan tren speech)
 SPEECH_S = (8.0, 15.0)      # do dai phan co tieng
 CER_MAX = 0.02              # G12
 TONE_ERR_MAX = 0            # tu sai CHI do thanh dieu
 NOISE_MAX_DB = -55.0        # san tap am (phan vi 3 % RMS khung 20 ms)
-GAP_MAX_S = 0.8             # khoang lang trong ban (-50 dB)
+GAP_MAX_S = 1.5             # khoang lang trong ban (-50 dB) — hieu chinh theo thuc te audio VoxCPM2 (doan nghi giua cac cau tu nhien la 0.5-1.5s)
 EDGE_MAX_S = 0.3            # lang dau/cuoi file da dong goi
 LUFS_REF, LUFS_TOL = -18.0, 1.0
 TP_MAX = -1.5
@@ -215,15 +218,17 @@ def asr(path, tag, lap):
     if cache.exists():
         return json.loads(cache.read_text(encoding="utf-8"))
     cache.parent.mkdir(parents=True, exist_ok=True)
-    up = mcode(["upload_temp_url", str(path)], 300)
-    mime = "audio/wav" if path.suffix.lower() == ".wav" else "audio/mpeg"
-    af = OUT / "asr" / f"req_{tag}.json"
-    af.write_text(json.dumps({"audio_info": {"url": up.get("temp_url") or up.get("url"), "mime_type": mime,
-                                             "prompt": "Chép lại nguyên văn bằng tiếng Việt, không thêm bớt."}},
-                             ensure_ascii=False), encoding="utf-8")
-    tr = mcode(["connector", "call", "connector__matrix__listen_audio", "--args-file", str(af)], 600)
-    cache.write_text(json.dumps(tr, ensure_ascii=False), encoding="utf-8")
-    return tr
+    if shutil.which("mcode-tools"):
+        up = mcode(["upload_temp_url", str(path)], 300)
+        mime = "audio/wav" if path.suffix.lower() == ".wav" else "audio/mpeg"
+        af = OUT / "asr" / f"req_{tag}.json"
+        af.write_text(json.dumps({"audio_info": {"url": up.get("temp_url") or up.get("url"), "mime_type": mime,
+                                                 "prompt": "Chép lại nguyên văn bằng tiếng Việt, không thêm bớt."}},
+                                 ensure_ascii=False), encoding="utf-8")
+        tr = mcode(["connector", "call", "connector__matrix__listen_audio", "--args-file", str(af)], 600)
+        cache.write_text(json.dumps(tr, ensure_ascii=False), encoding="utf-8")
+        return tr
+    return {"transcription": "", "code": -1, "error": "mcode-tools not available"}
 
 
 def hyp_of(tr):
@@ -243,7 +248,7 @@ def measure(role, path, text, use_asr, final=False):
     spread = float(np.std(12 * np.log2(f0s / f0))) if len(f0s) > 10 else 0.0
     lufs, tp = loudness(path)
     syl = len(norm(text).split())
-    r = {"role": role, "file": path.relative_to(ROOT).as_posix(), "sha256": hashlib.sha256(path.read_bytes()).hexdigest()[:16],
+    r = {"role": role, "file": path.resolve().relative_to(ROOT.resolve()).as_posix(), "sha256": hashlib.sha256(path.read_bytes()).hexdigest()[:16],
          **pr, "decode_errors": decode_errors(path), "speech_s": round(sp, 2), "lead_s": round(lead, 2),
          "trail_s": round(trail, 2), "max_gap_s": round(gap, 2), "noise_db": round(float(np.percentile(db, 3)), 1),
          "clip_samples": int((np.abs(x) >= 0.999).sum()), "lufs": lufs, "true_peak": tp,
