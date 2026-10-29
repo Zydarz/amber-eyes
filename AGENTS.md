@@ -80,6 +80,8 @@ Mỗi bước chỉ làm khi bước trước **ĐẠT**. Lệnh cụ thể: ti�
 > **Chuyển sang Higgs Audio v3 — chạy cục bộ Mac mini M2 16 GB qua MLX-Audio (27/10/2026, chưa dùng sản xuất):** khi engine TTS là Higgs, đọc và tuân theo `00_TIEU_CHUAN/QUY_TAC_AUDIO_HIGGS.md` — file đó thay mục này cùng T2, T8, T9.
 >
 > **Tạo giọng mẫu cho Higgs bằng VoxCPM2 (28/10/2026, đã chốt hướng, chưa chạy thử):** đọc `00_TIEU_CHUAN/TAO_GIONG_MAU_VOXCPM2.md` — chứa prompt Voice Design cho 7 vai, cách điền form web, và quy trình đóng gói thành file tham chiếu.
+>
+> **Luật + ngưỡng đo cho giọng mẫu VoxCPM2 (29/10/2026):** `00_TIEU_CHUAN/QUY_TAC_GIONG_MAU_VOXCPM2.md` — cổng V1–V8 (CER < 2% **và 0 lỗi thanh điệu**, F0 theo vai, chuẩn WAV 24 kHz −18 LUFS), đo bằng `.work/voxcpm_do_mau.py`, báo cáo bắt buộc trước khi giao.
 
 **Ba bộ giọng của kênh.** Khai ở `.work/edition.py`: `CAST` (mặc định bản VN) · `EPISODES["01"]["cast"]` (ghim Tập 01).
 

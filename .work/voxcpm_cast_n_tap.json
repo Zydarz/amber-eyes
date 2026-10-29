@@ -1,0 +1,266 @@
+{
+ "_ghi_chu": "Ghép N1/N2 -> W1-W4. Chốt 29/10/2026: giới/tuổi đã ghi vào chú thích vai trong kịch bản VN (✎). CHƯA vào edition.py: chờ V8. T01 còn cần chốt giới.",
+ "tap": {
+  "01": {
+   "N1": null,
+   "N1_kich_ban": "?",
+   "N1_vai": "nhân chứng/dư luận",
+   "N2": null,
+   "N2_kich_ban": "?",
+   "N2_vai": "người băn khoăn",
+   "ngay_sua_kich_ban": null
+  },
+  "02": {
+   "N1": "W4",
+   "N1_kich_ban": "nam trung niên",
+   "N1_vai": "đồng nghiệp căn cứ Trenton",
+   "N2": "W2",
+   "N2_kich_ban": "nữ trung niên",
+   "N2_vai": "cư dân Tweed",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "03": {
+   "N1": "W4",
+   "N1_kich_ban": "nam trung niên",
+   "N1_vai": "cảnh sát địa phương 1.09",
+   "N2": "W3",
+   "N2_kich_ban": "nam trẻ",
+   "N2_vai": "cảnh sát quán The Jury Room 2.09",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "04": {
+   "N1": "W1",
+   "N1_kich_ban": "nữ trẻ",
+   "N1_vai": "đồng nghiệp ca đêm",
+   "N2": "W2",
+   "N2_kich_ban": "nữ trung niên",
+   "N2_vai": "y tá Amy Loughren",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "05": {
+   "N1": "W4",
+   "N1_kich_ban": "nam trung niên",
+   "N1_vai": "người dân Park City",
+   "N2": "W1",
+   "N2_kich_ban": "nữ thanh niên",
+   "N2_vai": "con gái hung thủ",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "06": {
+   "N1": "W1",
+   "N1_kich_ban": "nữ trẻ (17)",
+   "N1_vai": "Kim Byers",
+   "N2": "W4",
+   "N2_kich_ban": "nam trung niên",
+   "N2_vai": "sĩ quan Mike Albrecht",
+   "ngay_sua_kich_ban": null
+  },
+  "07": {
+   "N1": "W2",
+   "N1_kich_ban": "nữ trung niên",
+   "N1_vai": "bà Lynn Roy",
+   "N2": "W1",
+   "N2_kich_ban": "nữ trẻ",
+   "N2_vai": "Samantha Boardman",
+   "ngay_sua_kich_ban": null
+  },
+  "08": {
+   "N1": "W1",
+   "N1_kich_ban": "nữ trẻ",
+   "N1_vai": "hành khách tuyến Chiyoda",
+   "N2": "W4",
+   "N2_kich_ban": "nam trung niên",
+   "N2_vai": "bác sĩ Ikuo Hayashi",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "09": {
+   "N1": "W2",
+   "N1_kich_ban": "nữ trung niên",
+   "N1_vai": "cư dân Los Angeles",
+   "N2": "W1",
+   "N2_kich_ban": "nữ trẻ",
+   "N2_vai": "Linda Kasabian",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "10": {
+   "N1": "W1",
+   "N1_kich_ban": "nữ trẻ",
+   "N1_vai": "bạn của Colleen Stan",
+   "N2": "W2",
+   "N2_kich_ban": "nữ trung niên",
+   "N2_vai": "Janice Hooker",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "11": {
+   "N1": "W1",
+   "N1_kich_ban": "nữ trẻ",
+   "N1_vai": "hàng xóm Port Dalhousie",
+   "N2": "W4",
+   "N2_kich_ban": "nam trung niên",
+   "N2_vai": "điều tra viên / công tố viên",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "12": {
+   "N1": "W1",
+   "N1_kich_ban": "nữ trẻ",
+   "N1_vai": "Leslie Wagner-Wilson",
+   "N2": "W4",
+   "N2_kich_ban": "nam trung niên",
+   "N2_vai": "nhân viên FBI / nhà ngoại giao",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "13": {
+   "N1": "W1",
+   "N1_kich_ban": "nữ trẻ",
+   "N1_vai": "bạn học phổ thông của Jennifer",
+   "N2": "W4",
+   "N2_kich_ban": "nam lớn tuổi",
+   "N2_vai": "ông Huei Hann Pan",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "14": {
+   "N1": "W2",
+   "N1_kich_ban": "nữ trung niên",
+   "N1_vai": "bạn thân của Betty",
+   "N2": "W1",
+   "N2_kich_ban": "nữ trẻ",
+   "N2_vai": "Kim Broderick (con gái)",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "15": {
+   "N1": "W1",
+   "N1_kich_ban": "nữ trẻ",
+   "N1_vai": "bạn, đồng nghiệp của Travis",
+   "N2": "W2",
+   "N2_kich_ban": "nữ trung niên",
+   "N2_vai": "bồi thẩm viên Maricopa",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "16": {
+   "N1": "W2",
+   "N1_kich_ban": "nữ trung niên",
+   "N1_vai": "cô giáo Jean Phillips",
+   "N2": "W1",
+   "N2_kich_ban": "nữ trẻ",
+   "N2_vai": "hàng xóm Wanda Flanery",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "17": {
+   "N1": "W1",
+   "N1_kich_ban": "nữ trẻ",
+   "N1_vai": "tổng đài 911 Riverside",
+   "N2": "W2",
+   "N2_kich_ban": "nữ trung niên",
+   "N2_vai": "đại diện trung tâm y tế",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "18": {
+   "N1": "W2",
+   "N1_kich_ban": "nữ lớn tuổi (bà nội)",
+   "N1_vai": "Kay Woodcock",
+   "N2": "W1",
+   "N2_kich_ban": "nữ trẻ",
+   "N2_vai": "bồi thẩm viên Hạt Ada",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "19": {
+   "N1": "W1",
+   "N1_kich_ban": "nữ thanh niên",
+   "N1_vai": "học sinh Parkland",
+   "N2": "W2",
+   "N2_kich_ban": "nữ trung niên",
+   "N2_vai": "bồi thẩm viên Broward",
+   "ngay_sua_kich_ban": null
+  },
+  "20": {
+   "N1": "W1",
+   "N1_kich_ban": "nữ thanh niên",
+   "N1_vai": "bạn học Mercer",
+   "N2": "W2",
+   "N2_kich_ban": "nữ trung niên",
+   "N2_vai": "Kaitlyn Giddings Wheeler",
+   "ngay_sua_kich_ban": null
+  },
+  "21": {
+   "N1": "W1",
+   "N1_kich_ban": "nữ thanh niên",
+   "N1_vai": "hàng xóm Clear Lake",
+   "N2": "W2",
+   "N2_kich_ban": "nữ trung niên",
+   "N2_vai": "bồi thẩm viên Harris",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "22": {
+   "N1": "W1",
+   "N1_kich_ban": "nữ thanh niên",
+   "N1_vai": "hàng xóm Boynton Beach",
+   "N2": "W2",
+   "N2_kich_ban": "nữ trung niên",
+   "N2_vai": "bồi thẩm viên Palm Beach",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "23": {
+   "N1": "W3",
+   "N1_kich_ban": "nam thanh niên",
+   "N1_vai": "cư dân Đông LA",
+   "N2": "W2",
+   "N2_kich_ban": "nữ trung niên",
+   "N2_vai": "nhà báo phiên tòa LA",
+   "ngay_sua_kich_ban": null
+  },
+  "24": {
+   "N1": "W2",
+   "N1_kich_ban": "nữ trung niên",
+   "N1_vai": "cư dân Hwaseong",
+   "N2": "W4",
+   "N2_kich_ban": "nam trung niên",
+   "N2_vai": "Yoon Sung-yeo",
+   "ngay_sua_kich_ban": null
+  },
+  "25": {
+   "N1": "W3",
+   "N1_kich_ban": "nam thanh niên",
+   "N1_vai": "chủ cơ sở massage Seoul",
+   "N2": "W4",
+   "N2_kich_ban": "nam trung niên",
+   "N2_vai": "đại diện gia đình nạn nhân",
+   "ngay_sua_kich_ban": "2026-10-29"
+  },
+  "26": {
+   "N1": "W3",
+   "N1_kich_ban": "nam trẻ",
+   "N1_vai": "cảnh sát Waseda 1948",
+   "N2": "W2",
+   "N2_kich_ban": "nữ trung niên",
+   "N2_vai": "người mẹ hậu chiến",
+   "ngay_sua_kich_ban": null
+  },
+  "27": {
+   "N1": "W2",
+   "N1_kich_ban": "nữ trung niên",
+   "N1_vai": "người làm xưởng gỗ",
+   "N2": "W4",
+   "N2_kich_ban": "nam trung niên",
+   "N2_vai": "nhân chứng phiên tòa Bình Phước",
+   "ngay_sua_kich_ban": null
+  },
+  "28": {
+   "N1": "W2",
+   "N1_kich_ban": "nữ trung niên",
+   "N1_vai": "người dân Phố Sàn",
+   "N2": "W4",
+   "N2_kich_ban": "nam trung niên",
+   "N2_vai": "nhân chứng phiên tòa Bắc Giang",
+   "ngay_sua_kich_ban": null
+  },
+  "29": {
+   "N1": "W3",
+   "N1_kich_ban": "nam thanh niên",
+   "N1_vai": "Tracy Edwards",
+   "N2": "W2",
+   "N2_kich_ban": "nữ trung niên",
+   "N2_vai": "đại diện thân nhân",
+   "ngay_sua_kich_ban": null
+  }
+ }
+}

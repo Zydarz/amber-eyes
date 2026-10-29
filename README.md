@@ -13,7 +13,7 @@
 | **Kịch bản bản tiếng Nhật (Tập 01–29)** | `01_KICH_BAN/TapXX_JA/kichban_tapXX_JA.md` — chuẩn: `00_TIEU_CHUAN/CHU_CO_DINH_JA.md` |
 | Tiêu chuẩn dựng video (dùng cho mọi tập) | `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` |
 | **Giọng đọc chuẩn của kênh** (bộ A + quy tắc G1–G11) | Mục A4.1–A4.2 của tiêu chuẩn · lý do: `02_SAN_XUAT/Tap02/BaoCao_GiongDoc_Tap02.md` |
-| Tạo giọng mẫu cho Higgs (VoxCPM2) | `00_TIEU_CHUAN/TAO_GIONG_MAU_VOXCPM2.md` · prompt 7 vai + quy trình đóng gói file tham chiếu |
+| Tạo giọng mẫu cho Higgs (VoxCPM2) | `00_TIEU_CHUAN/TAO_GIONG_MAU_VOXCPM2.md` · prompt 7 vai + quy trình đóng gói file tham chiếu · **luật đo + chuẩn đầu ra:** `00_TIEU_CHUAN/QUY_TAC_GIONG_MAU_VOXCPM2.md` |
 | Kế hoạch / bảng shot của một tập | `02_SAN_XUAT/TapXX/KeHoach_Video_TapXX.md` |
 | Kịch bản của một tập | `01_KICH_BAN/TapXX/` |
 | **Danh sách SFX cần tạo (Tập 03–29)** | `02_SAN_XUAT/Danh_Sach_SFX_Tap03-29.md` — 169 file mới, có mã cue để ghi thẳng vào `sfx_tapXX.json` |

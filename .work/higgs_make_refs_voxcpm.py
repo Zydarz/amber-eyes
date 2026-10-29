@@ -26,7 +26,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]   # repo goc (truoc day viet cung D:\TEST\Gax\Audi)
 RAW = ROOT / ".work" / "voxcpm_raw"
 MANIFEST = ROOT / ".work" / "voxcpm_refs_manifest.json"
 OUT = ROOT / "assets" / "voice_ref_voxcpm2"
