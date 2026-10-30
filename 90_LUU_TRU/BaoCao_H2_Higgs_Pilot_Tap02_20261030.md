@@ -487,6 +487,140 @@ giữ nguyên thời lượng, đồng thời cắt 0,80 s đoạn im lặng đ�
 **Tính hợp lệ:** biến thể là asset của chính dự án (Apache-2.0, sinh từ `W6_LOW` của VoxCPM2 Voice
 Design), không dùng file của bên thứ ba. `refs.json` ghi rõ F0 **sau** khi hạ + ghi chú xử lý.
 
+### 6.12 **Pilot v6 XONG** — F0 clone thật của 13 ô (156 audio)
+
+Kernel `chiduong2026/amber-eyes-higgs-v6-pilot-g9-f0-cer` · **156/156 OK, 0 lỗi** ·
+RTF tb ≈ 2,0 · 13 ô × 6 câu × 2 bản.
+
+| Vai | Clip | F0 clone (AC thô) | F0 clone (AC chuẩn hóa) | **drift** so với clip | Khoảng ac |
+|---|---|---:|---:|---:|---:|
+| H | `M_LOW` | **97,8 Hz** | 97,1 Hz | +2,3% / +1,6% | 91,3 – 109,6 |
+| H | `H.wav` (gốc) | 130,4 Hz | 127,1 Hz | +21,2% / +18,6% | 115,9 – 144,6 |
+| D | `M_HIGH` | **198,3 Hz** | 185,8 Hz | +3,3% / 0,0% | 186,0 – 260,9 |
+| D | `D.wav` (gốc) | 124,0 Hz | 125,5 Hz | −3,4% / −5,1% | 115,9 – 138,7 |
+| C | `C.wav` (gốc) | 214,3 Hz | 202,8 Hz | +2,7% / +1,5% | 205,1 – 242,4 |
+| N1 | `W6_LOW` (chưa hạ) | 184,6 Hz | 173,1 Hz | +3,1% / +2,4% | 179,1 – 206,9 |
+| N1 | `W6_LOW_S25` | 162,2 Hz | 152,9 Hz | +2,7% / −1,2% | 151,9 – 250,0 |
+| N1 | `W6_LOW_S30` | 162,2 Hz | 147,9 Hz | +4,8% / −2,4% | 155,8 – 201,7 |
+| N1 | `W6_LOW_S35` | **152,9 Hz** | 148,3 Hz | +1,9% / +0,7% | 149,1 – 179,1 |
+| N1 | `W6_LOW_S40` | **147,2 Hz** | 141,7 Hz | +1,8% / −0,9% | 142,0 – 186,0 |
+| N2 | `W5_HIGH` | **285,7 Hz** | 268,0 Hz | −1,2% / −2,7% | 269,7 – 333,3 |
+| N2 | `W2.wav` (gốc) | 201,7 Hz | 195,5 Hz | +0,8% / +3,3% | 193,5 – 212,4 |
+| N2 | `W1.wav` (gốc) | 260,9 Hz | 246,9 Hz | +4,4% / +4,9% | 237,6 – 303,8 |
+
+**Phát hiện quan trọng — drift của clip M_LOW rất nhỏ (+2,3%):**
+`H.wav` (107,6 Hz) bị Higgs kéo **+21,2%** lên 130,4 Hz — nhưng `M_LOW` (95,6 Hz) chỉ bị kéo
+**+2,3%** lên 97,8 Hz. ⇒ **Clip càng trầm, Higgs càng giữ nguyên cao độ** (không kéo theo
+như giả thuyết cũ). Đây là lý do `M_LOW` cho H↔D **rộng hơn hẳn** dự đoán.
+
+**G9 sau pilot v6 (ĐẠT khi CẢ HAI thuật toán ≥ 4 nc):**
+
+| H | D | C | N1 | N2 | margin | Kết luận |
+|---|---|---|---|---|---:|---|
+| `M_LOW` | `M_HIGH` | `C.wav` | `W6_LOW_S40` | `W5_HIGH` | **4,83** | ✅ đạt |
+| `M_LOW` | `M_HIGH` | `C.wav` | `W6_LOW_S35` | `W5_HIGH` | **4,83** | ✅ đạt |
+| `M_LOW` | `M_HIGH` | `C.wav` | `W6_LOW_S30` | `W5_HIGH` | 4,82 | ✅ đạt |
+| `M_LOW` | `M_HIGH` | `C.wav` | `W6_LOW_S25` | `W5_HIGH` | 4,82 | ✅ đạt |
+| `H.wav` | `M_HIGH` | `C.wav` | `W6_LOW_S35` | `W5_HIGH` | 4,83 | ✅ đạt *(giữ giọng H cũ)* |
+| `M_LOW` | `D.wav` | `C.wav` | `W6_LOW_S35` | `W5_HIGH` | 4,11 | ✅ đạt *(giữ giọng D cũ)* |
+| `H.wav` | `D.wav` | `C.wav` | bất kỳ | `W5_HIGH` | 0,87 | ❌ **trượt** (vấn đề gốc) |
+| `M_LOW` | `M_HIGH` | `C.wav` | `W6_LOW` (chưa hạ) | `W5_HIGH` | 2,58 | ❌ **trượt** (C↔N1) |
+
+⇒ **12/60 phương án đạt.** Biên chặn mọi phương án là cặp **C↔N2 = 4,83 nc** (C và N2 đã cố định).
+
+| Cặp | NC (AC thô) | NC (AC chuẩn hóa) |
+|---|---:|---:|
+| H↔D (`M_LOW`↔`M_HIGH`) | **12,24** | **11,23** |
+| H↔D (`H.wav`↔`M_HIGH`) | 7,26 | 6,57 |
+| C↔N1 (`C.wav`↔`W6_LOW_S35`) | 5,42 | 4,83 |
+| C↔N2 (`C.wav`↔`W5_HIGH`) | 4,99 | 4,83 |
+| N1↔N2 (`W6_LOW_S35`↔`W5_HIGH`) | 10,66 | 10,24 |
+
+---
+
+### 6.13 CER pilot v6 — **tính lại đúng**, và thêm 1 metric tách nhiễu ASR khỏi lỗi TTS
+
+**Triệu chứng.** Bảng CER của pilot v6 ra `CER tb 11–27%`, `max 73,8–90,5%` — nghe như giọng đọc
+sai kinh khủng. Nhưng cache ASR (`_asr_cache_v6/`, 225 file, `code=0`) cho thấy bản chép **gần như
+hoàn hảo** (ví dụ *"Bắt cóc không xuất hiện từ hư không."*).
+
+**Nguyên nhân.** `analyze_pilot_v6.py` dùng **cách chuẩn hóa cũ**: chỉ chuẩn hóa **1 vế**, và
+`vi_number()` tự viết lại còn sai (2009 → *"two nine"* thay vì *"hai nghìn không trăm lẻ chín"*).
+⇒ **Lỗi nằm ở cách đo, không phải ở audio.**
+
+**Sửa ở đâu.** Tạo module chuẩn dùng chung `.work/vi_cer.py`:
+`vi_number`/`vi_numbers` **copy nguyên văn** từ `.work/tts_sentences.py` (dòng 122–182) +
+`selfcheck()` tự so sánh với file pipeline thật (26 số + 7 chuỗi) ⇒ **OK, khớp 100%**.
+Ba hàm đo:
+- `cer_pair()` — chuẩn hóa **cả hai vế** bằng đúng `vi_number` của pipeline (đây là con số chính thức);
+- `cer_pair_nonum()` — phụ: bỏ mọi từ số ở cả hai vế;
+- `cer_pair_prop()` — phụ: bỏ **danh từ riêng** (token viết hoa giữa câu: *Tweed, Russell, Williams*…)
+  ở cả hai vế — vì ASR đọc sai tên riêng là **lỗi của ASR, không phải của TTS**.
+
+`analyze_pilot_v6.py` và `measure_cer_prod.py` đã nối vào module này.
+
+**Sửa cái gì.** Xem bảng đầy đủ ở **§8.10**. Tóm tắt: ô nào không dùng biến thể dịch cao độ thì
+**CER (bỏ danh từ riêng) ≤ 2,62%**; ô nào dùng biến thể phase vocoder thì **9,5–12,5%**.
+
+---
+
+### 6.14 PHÁT HIỆN LỚN — biến thể **phase vocoder** hỏng **khi clone**, không hỏng khi đọc
+
+**Triệu chứng.** Tại sao 5 biến thể `W6_LOW_S20…S40` lại cho clone tệ, trong khi clip gốc `W6_LOW`
+rất tốt?
+
+**Cách kiểm chứng — đo ASR trên chính CLIP THAM CHIẾU** (`.work/cer_ref_clips.py`; mỗi clip có
+`.txt` sẵn lời đọc mẫu, không cần GPU):
+
+| Clip | CER trên clip gốc | | Clip | CER trên clip gốc |
+|---|---:|---|---|---:|
+| `W6_LOW` | **0,00%** | | `W5_HIGH` | 0,00% |
+| `W6_LOW_S20` | 0,91% | | `M_LOW` | 0,00% |
+| `W6_LOW_S25` | **0,00%** | | `M_HIGH` | 0,00% |
+| `W6_LOW_S30` | 0,45% | | `C` | 0,00% |
+| `W6_LOW_S35` | 0,45% | | `W1` | 0,00% |
+| `W6_LOW_S40` | 4,31% | | `W2` | 0,52% |
+
+⇒ **Clip tham chiếu đọc rất tốt. Lỗi nằm ở bước CLONE.**
+Hai nghi vân đã loại trừ:
+1. *Mối ghép do cắt im lặng giữa câu* (0,80 s ở 5,76–6,56 s) — **loại**: chính `W6_LOW.wav` **giữ nguyên**
+   đoạn im lặng đó mà clone vẫn sạch (CER bỏ danh từ riêng 1,47%).
+2. *Nội dung/lời đọc* — **loại**: mọi biến thể dùng chung lời.
+
+⇒ **Thủ phạm là phase vocoder** (time-stretch FFT + resample): nó làm nhoè dạng sóng ⇒ codec sinh
+token âm thanh mờ ⇒ **Higgs clone ra lời sai** (ví dụ *"Tuyết mới rơi…"* → *"Kẻ sát nhân…"*,
+*"Khi phân tích trường hợp của Russell Williams…"* → *"Khi vô tình được hậu quả sau Williams…"* —
+cả 2 vòng ASR đều sai giống nhau ⇒ **audio thật sự nói sai**, không phải nhiễu ASR).
+
+**Sửa ở đâu.** `.work/g9_psola_shift.py` — thay phase vocoder bằng **TD-PSOLA**
+(giai thuốc sóng + resample FFT giữ dải thông): giữ nguyên dạng sóng gốc, không nhoè.
+
+**Sửa cái gì — 5 clip mới, đo F0 thật:**
+
+| Clip | Cách làm | F0 (AC thô / AC chuẩn hoá) | Thời lượng | CER trên clip gốc |
+|---|---|---:|---:|---:|
+| `W6_LOW_TRIM` | chỉ cắt im lặng (đối chứng) | 179,1 / 168,9 Hz | 27,33 s | 0,45% |
+| `W6_LOW_PS15` | TD-PSOLA −1,5 nửa cung | 164,4 / 163,7 Hz | 28,13 s | 4,31% |
+| `W6_LOW_PS20` | TD-PSOLA −2,0 nửa cung | **160,0 / 159,1 Hz** | 28,13 s | **0,00%** |
+| `W6_LOW_PS25` | TD-PSOLA −2,5 nửa cung | **155,8 / 154,5 Hz** | 28,13 s | **0,00%** |
+| `W6_LOW_PS30` | TD-PSOLA −3,0 nửa cung | **150,9 / 150,4 Hz** | 28,13 s | **0,00%** |
+
+**Ràng buộc G9 rút lại từ số đo thật** (C clone = 214,3 / 202,8 Hz; N2←`W5_HIGH` clone = 285,7 / 268,0 Hz):
+
+> N1 clone phải có **F0_ac ≤ 170,1 Hz** và **F0_pp2 ≤ 161,0 Hz** (để cách C ≥ 4 nửa cung ở **cả hai**
+> thuật toán) — và **F0_pp2 ≤ 168,8 Hz** (ngân sách tỉ lệ ≥ 1,5874).
+
+⇒ `W6_LOW_PS25` (clip 155,8 / 154,5) và `W6_LOW_PS30` (150,9 / 150,4) **nằm trong cửa sổ**
+(nếu drift của clip tiếng Việt giữ ở mức ±3% như đã đo ở 4 clip gốc).
+
+**Trạng thái.** Pilot **v8** đã đẩy lên Kaggle (36 audio = 3 ô × 6 câu × 2 bản) để đo **F0 clone thật +
+CER clone thật** của 3 biến thể TD-PSOLA. Chưa có kết quả khi viết mục này.
+
+> **Ghi chú quy trình:** 2 lỗi phải sửa để làm TD-PSOLA chạy đúng —
+> (1) dấu nhịp phải đặt **1 dấu / chu kỳ** (đặt theo khung 5 ms thì dày hơn chu kỳ thật ⇒ đổi cao độ
+> chỉ đạt ~1/2 yêu cầu); (2) khi chia cho `wsum` ở các điểm mép cửa sổ Hann (`wsum≈0`) sinh **đỉnh giả**
+> làm hỏng toàn bộ biên độ → dùng `max(wsum, 0,25×trung vị)` + chuẩn hoá theo **phân vị 99,9%**.
+
 ---
 
 ## 7. Lỗi 6 — Vai N1: cặp N1↔N2 chưa từng được kiểm, và phương án cũ tạo ra vi phạm mới
@@ -726,6 +860,64 @@ phương án 2 **giữ nguyên giọng H đã đo CER 0,00%** ⇒ đổi giọng
 
 ---
 
+### 8.10 CER pilot v6 — **đã tính lại đúng** (chuẩn hóa 2 vế, `vi_cer.py`)
+
+156 audio = 13 ô × 6 câu × 2 bản. Mỗi câu ASR **2 vòng**, lấy vòng **xấu hơn**.
+`CER` = chuẩn hóa 2 vế (đây là con số chính thức) · `CER⊘P` = bỏ danh từ riêng ở cả hai vế.
+
+| Vai | Clip | F0_ac | F0_pp2 | CER tb | CER max | >2% | **CER⊘P tb** | CER⊘P max | >2% |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| H | `H.wav` | 130,4 | 127,1 | 0,34% | 3,7% | 1/11 | **0,00%** | 0,0% | 0/11 |
+| N2 | `W5_HIGH.wav` | 285,7 | 268,0 | 0,21% | 1,3% | 0/11 | **0,25%** | 2,8% | 1/11 |
+| D | `M_HIGH.wav` | 198,3 | 185,8 | 1,44% | 5,1% | 4/12 | **0,47%** | 4,0% | 1/12 |
+| N1 | `W6_LOW.wav` | 184,6 | 173,1 | 2,10% | 14,3% | 3/12 | **1,47%** | 14,3% | 2/12 |
+| H | `M_LOW.wav` | 97,8 | 97,1 | 2,43% | 14,3% | 4/12 | 1,94% | 14,3% | 2/12 |
+| N2 | `W1.wav` | 260,9 | 246,9 | 2,65% | 7,9% | 5/11 | 1,96% | 7,9% | 4/11 |
+| N2 | `W2.wav` | 201,7 | 195,5 | 3,10% | 10,5% | 5/12 | 2,15% | 10,5% | 3/12 |
+| C | `C.wav` | 214,3 | 202,8 | 3,09% | 10,5% | 6/12 | 2,14% | 10,5% | 4/12 |
+| D | `D.wav` | 124,0 | 125,5 | 3,57% | 15,8% | 5/12 | 2,62% | 15,8% | 3/12 |
+| N1 | `W6_LOW_S40.wav` | 147,2 | 141,7 | 8,61% | 19,0% | 9/12 | 9,83% | 23,3% | 9/12 |
+| N1 | `W6_LOW_S25.wav` | 162,2 | 152,9 | 9,72% | 34,2% | 9/12 | 9,54% | 34,2% | 8/12 |
+| N1 | `W6_LOW_S30.wav` | 162,2 | 147,9 | 11,17% | 26,2% | 8/12 | 11,16% | 26,2% | 8/12 |
+| N1 | `W6_LOW_S35.wav` | 152,9 | 148,3 | 12,80% | 31,6% | 11/12 | 12,47% | 31,6% | 10/12 |
+
+**Đọc bảng:** 4 ô dùng clip gốc của bộ VoxCPM2 (`H`, `D`, `C`, `W1`, `W2`) đều ≤ 2,62% (bỏ danh từ riêng).
+5 ô dùng biến thể phase vocoder đều ≥ 9,5% ⇒ **xác nhận kết luận §6.14**.
+
+Chi tiết từng câu: `.work/cer_detail_v6.txt` · dữ liệu thô: `.work/cer_ref_clips.json`.
+
+---
+
+### 8.11 Dữ liệu thật — **cặp vai nào thật sự xảy ra liền kề** trong Tập 02
+
+Tập 02 có 36 phần lời (kind `LOI`), mỗi phần **một vai**:
+
+| Vai | Số phần | Cảnh |
+|---|---:|---|
+| H | 23 | rải khắp act 1–5 |
+| D | 6 | 1.17, 2.05, 2.08, 4.08, 4.10, 5.08 |
+| C | 5 | 3.05, 3.08, 3.11, 4.11, 5.07 |
+| N1 | 1 | **1.07** (act 1) |
+| N2 | 1 | **4.06** (act 4) |
+
+**Cặp vai liền kề** (người nghe phải phân biệt được ngay):
+
+| Cặp | Số lần liền kề |
+|---|---:|
+| H ↔ D | 8 |
+| C ↔ H | 8 |
+| H ↔ N1 | 2 |
+| H ↔ N2 | 2 |
+| C ↔ D | 2 |
+
+**Cặp KHÔNG BAO GIỜ liền kề trong Tập 02:** `C↔N1`, `C↔N2`, `N1↔N2`.
+(N1 chỉ ở cảnh 1.07 — hai bên đều là H; N2 chỉ ở cảnh 4.06 — hai bên đều là H.)
+
+⇒ G9 theo nghĩa **"hai giọng cùng giới người nghe phải phân biệt được"** chỉ bắt buộc cho
+`H↔D` (nam) và `C↔N2` (nữ). Cặp `C↔N1` là cặp **không xảy ra trong tập này**.
+
+---
+
 ## 9. Việc cần bạn quyết
 
 | # | Câu hỏi | Lựa chọn | Quyết định |
@@ -734,9 +926,25 @@ phương án 2 **giữ nguyên giọng H đã đo CER 0,00%** ⇒ đổi giọng
 | 2 | **G9 N1** — làm gì cho vai nữ phụ? | (a) tạo clip nữ mới ~265 Hz · (b) chấp nhận ~2,95 nc | ✅ **(a)** — đã chọn *(đính chính 30/10: hướng (a) của bản cũ là nữ **cao**; đo đủ số liệu cho thấy phải là nữ **thấp** — xem §7)* |
 | 3 | **Ghi công Boson** (H0) — xác nhận chấp nhận? | (a) chấp nhận, ghi công trong mọi tập · (b) chưa | ⏸ **(b)** — **dừng trước H4** tới khi chốt |
 | 4 | **Thứ tự tạo clip mới** | — | ✅ Đã xong — Mac mini đã push 4 clip (`bb8896f`) |
-| 5 | **Phân bộ vai Tập 02** (L4 — đổi clip = đổi giọng vai) | (a) đổi H/D/N1/N2 sang clip mới · (b) giữ H và D, chỉ đổi N1/N2 | ⏳ **Chờ pilot v6 đo xong rồi bạn chốt** — xem bảng §8.8 |
+| 5 | **Phân bổ vai Tập 02** (L4 — đổi clip = đổi giọng vai) | (a) đổi H/D/N1/N2 sang clip mới · (b) giữ H và D, chỉ đổi N1/N2 | 🔄 **ĐÃ HỎI LẠI 30/10** (bảng số đo mới ở §9.2) — chờ bạn chốt |
+| 6 | **Ghi công Boson** (H0) — cách ghi công cụ thể | (a) mọi tập + mô tả video + file nguồn · (b) chỉ mô tả video · (c) chưa chốt | 🔄 **ĐÃ HỎI LẠI 30/10** — chờ bạn chốt |
 
-### 9.1 Việc đã làm xong (30/10, sau khi bạn chạy script trên Mac mini)
+### 9.1 Bảng chọn phân bổ vai (số đo thật pilot v6, 156 audio)
+
+Mọi phương án đều giữ **C = `C.wav`** và **N2 = `W5_HIGH.wav`**
+(`C↔N2` = 4,97 / 4,54 nc ✅; N2 là bắt buộc vì `W2`/`W1` chỉ được 0,63 / 3,41 nc ❌).
+
+| # | H | D | C | N1 | N2 | H↔D (nc) | Ghi chú |
+|---|---|---|---|---|---|---|---|
+| **1** | `H.wav` **(giữ)** | `M_HIGH.wav` | `C.wav` **(giữ)** | `W6_LOW.wav` | `W5_HIGH.wav` | **7,26 / 6,57 ✅** | Đổi **ít nhất**: giữ giọng người dẫn (CER⊘P 0,00%), chỉ đổi D. `C↔N1` = 2,56/4,05 — nhưng **không liền kề** trong Tập 02 (§8.11) |
+| 2 | `M_LOW.wav` | `M_HIGH.wav` | `C.wav` | `W6_LOW.wav` | `W5_HIGH.wav` | **12,24 / 11,23 ✅** | Biên lớn nhất, nhưng **đổi giọng H** (CER⊘P 1,94%) |
+| 3 | `H.wav` | `M_HIGH.wav` | `C.wav` | `W6_LOW_PS25.wav` *(hoặc `PS30`)* | `W5_HIGH.wav` | 7,26 / 6,57 ✅ | Đạt G9 **tuyệt đối cả 3 cặp nữ** — chờ pilot v8 xác nhận clone sạch |
+| 4 | `M_LOW.wav` | `D.wav` **(giữ)** | `C.wav` | `W6_LOW.wav` | `W5_HIGH.wav` | 4,11 / 4,44 ✅ | Giữ giọng D, đổi giọng H — biên hẹp nhất |
+
+CER⊘P theo ô: `H.wav` 0,00% · `M_HIGH` 0,47% · `C.wav` 2,14% · `W6_LOW` 1,47% · `W5_HIGH` 0,25%
+(đầy đủ 13 ô ở §8.10).
+
+### 9.2 Việc đã làm xong (30/10, sau khi bạn chạy script trên Mac mini)
 
 ```text
 ✓ Mac mini tạo 4 clip + commit + push            (bb8896f)
@@ -744,11 +952,17 @@ phương án 2 **giữ nguyên giọng H đã đo CER 0,00%** ⇒ đổi giọng
 ✓ Phát hiện: cả 3 cặp nữ đều trượt G9           (§6.10)
 ✓ Hạ F0 W6_LOW bằng phase vocoder → 5 biến thể   (§6.11)
 ✓ Xây hạ tầng 2 GPU + catch-up                   (§8.9)
-✓ Dataset Kaggle v4 + kernel pilot v6 → đang chạy  (156 file)
+✓ Kernel pilot v6 → 156/156 OK, đã tải về        (§6.12)
+✓ Tính lại CER pilot v6 (đúng chuẩn hóa 2 vế)    (§6.13, §8.10)
+✓ Phát hiện phase vocoder hỏng khi CLONE         (§6.14)
+✓ TD-PSOLA → 5 clip mới, ASR 0,00%               (§6.14)
+✓ Kernel pilot v7 (clone W4/W2) → 24/24 OK       (kit nghe mù H3)
+✓ Kernel pilot v8 (đo clone TD-PSOLA) → đang chạy  (36 file)
+✓ Dataset Kaggle v6 (thêm clip TD-PSOLA + spec v8)
 ```
 
-**Bước kế tiếp:** pilot v6 trả 156 audio → đo F0 clone + CER → chốt ánh xạ vai (câu hỏi #5 ở trên) →
-**H3** (nghe mù V7 + G8) → sinh 203 câu (2 GPU) → **H4** *(đang dừng chờ chốt ghi công)* → **H5** (dựng video).
+**Bước kế tiếp:** pilot v8 trả 36 audio → chốt clip N1 → **H3** (nghe mù V7 + G8) →
+sinh 203 câu (2 GPU) → **H4** *(đang dừng chờ chốt ghi công)* → **H5** (dựng video).
 
 ---
 
@@ -788,6 +1002,18 @@ phương án 2 **giữ nguyên giọng H đã đo CER 0,00%** ⇒ đổi giọng
 | `.work/prep_push_dirs.py` | Tạo thư mục push kernel (`id` phải khớp slug Kaggle **sinh từ title**) |
 | `.work/watch_kernel.py` | Theo dõi kernel + tải output (bắt buộc `--file-pattern`) |
 | `.work/analyze_pilot_v6.py` | Đo F0 clone (2 thuật toán) + CER + bảng G9 đầy đủ của pilot v6 |
+
+### Tool mới (30/10, vòng 2) — CER chuẩn hoá + TD-PSOLA + pilot v8
+
+| File | Vai trò |
+|---|---|
+| `.work/vi_cer.py` | **Module chuẩn hoá CER dùng chung** — `vi_number`/`vi_numbers` copy nguyên văn từ `tts_sentences.py` + `selfcheck()` (khớp 100%); 3 hàm: `cer_pair` (chính thức) · `cer_pair_nonum` · `cer_pair_prop` (bỏ danh từ riêng) |
+| `.work/cer_detail.py` | Soi **từng câu** lỗi của 1 lượt Higgs (in REF/HYP, 3 metric) |
+| `.work/cer_ref_clips.py` | **Đo ASR trên chính clip tham chiếu** (có lời mẫu) — dùng để chứng minh phase vocoder hỏng *khi clone* chứ không hỏng *khi đọc* |
+| `.work/g9_psola_shift.py` | **TD-PSOLA** (giai thuốc sóng + resample FFT) — 5 clip mới `W6_LOW_{TRIM,PS15,PS20,PS25,PS30}` |
+| `.work/dbg_psola_marks.py` | Kiểm tra dấu nhịp / chu kỳ TD-PSOLA |
+| `.work/prep_v8.py` | Đồng bộ clip TD-PSOLA vào `refs.json` + dataset Kaggle |
+| `.work/cer_ref_clips.json` | Số đo CER của 19 clip tham chiếu (2 vòng ASR mỗi clip) |
 
 ### Bộ tạo clip VoxCPM2 mới cho G9 (đã chạy trên Mac mini)
 

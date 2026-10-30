@@ -1,0 +1,51 @@
+{
+ "source": "assets/voice_ref_voxcpm2_g9/W6_LOW.wav",
+ "source_f0_ac": 179.1,
+ "source_f0_pp2": 169.0,
+ "variants": [
+  {
+   "name": "W6_LOW_TRIM",
+   "kind": "trim-only",
+   "semitones": 0.0,
+   "dur": 27.33,
+   "f0_ac": 179.1,
+   "f0_pp2": 168.9
+  },
+  {
+   "name": "W6_LOW_PS15",
+   "kind": "psola",
+   "semitones": -1.5,
+   "factor": 0.917,
+   "dur": 28.13,
+   "f0_ac": 164.4,
+   "f0_pp2": 163.7
+  },
+  {
+   "name": "W6_LOW_PS20",
+   "kind": "psola",
+   "semitones": -2.0,
+   "factor": 0.8909,
+   "dur": 28.13,
+   "f0_ac": 160.0,
+   "f0_pp2": 159.1
+  },
+  {
+   "name": "W6_LOW_PS25",
+   "kind": "psola",
+   "semitones": -2.5,
+   "factor": 0.8655,
+   "dur": 28.13,
+   "f0_ac": 155.8,
+   "f0_pp2": 154.5
+  },
+  {
+   "name": "W6_LOW_PS30",
+   "kind": "psola",
+   "semitones": -3.0,
+   "factor": 0.8409,
+   "dur": 28.13,
+   "f0_ac": 150.9,
+   "f0_pp2": 150.4
+  }
+ ]
+}

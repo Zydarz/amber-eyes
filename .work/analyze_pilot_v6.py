@@ -154,32 +154,8 @@ def run_cer(rows):
         cf.write_text(json.dumps(res, ensure_ascii=False), encoding="utf-8")
         return res
 
+    import vi_cer
     from voice_audition import cer, norm
-    ONES = ("zero one two three four five six seven eight nine ten eleven twelve "
-            "thirteen fourteen fifteen sixteen seventeen eighteen nineteen").split()
-    TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()
-
-    def vi_num(n):
-        n = int(n)
-        if n < 20:
-            return ONES[n]
-        if n < 100:
-            return TENS[n // 10] + (" " + ONES[n % 10] if n % 10 else "")
-        return str(n)
-
-    def vi_numbers(text):
-        def rep(m):
-            s = m.group(0).replace(".", "")
-            if not s.isdigit():
-                return m.group(0)
-            parts = []
-            while len(s) > 3:
-                parts.insert(0, s[-3:])
-                s = s[:-3]
-            if s:
-                parts.insert(0, s)
-            return " ".join(vi_num(p) for p in parts)
-        return re.sub(r"\d[\d.]*", rep, text)
 
     def work(r):
         p = WAV / r["file"]
@@ -196,16 +172,17 @@ def run_cer(rows):
                 h = ""
             hyps.append(h)
         txt = r.get("text_plain") or r.get("text_sent") or ""
-        txt = re.sub(r"<\|[^|]*\|>", " ", txt)
-        txt = re.sub(r"<#.*?#>", " ", txt)
-        r["text_norm"] = norm(vi_numbers(txt))
-        best = None
+        r["text_norm"] = vi_cer.norm_ref(txt)
+        best = best_nn = None
         for h in hyps:
             if not h:
                 continue
-            c = cer(txt, h)
+            c = vi_cer.cer_pair(txt, h)
             best = c if best is None else max(best, c)
+            cn = vi_cer.cer_pair_nonum(txt, h)
+            best_nn = cn if best_nn is None else max(best_nn, cn)
         r["cer"] = best
+        r["cer_nonum"] = best_nn
         r["cer_ok"] = best is not None
         return r
 

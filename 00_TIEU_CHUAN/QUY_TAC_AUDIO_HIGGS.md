@@ -217,18 +217,49 @@ Code: thêm nhánh engine trong `tts_sentences.py` (ví dụ `AE_TTS=higgs`), **
   13 ô × 6 câu × 2 bản) đo F0 clone + CER thật để chốt ánh xạ vai. Script đọc kết quả:
   `.work/analyze_pilot_v6.py` → `.work/pilot_v6_result.txt`.
 
+**CẬP NHẬT 30/10 (vòng 2 — sau pilot v6 đo xong):**
+
+* **CER pilot v6 đã tính lại đúng** (`vi_cer.py`, chuẩn hoá **cả hai vế** bằng đúng `vi_number()`
+  của pipeline; `selfcheck()` tự so với file pipeline ⇒ khớp 100%). Ô **không** dùng biến thể dịch
+  cao độ: `H.wav` **0,00%** · `M_HIGH` 0,47% · `W6_LOW` 1,47% · `W5_HIGH` 0,25% · `C.wav` 2,14% ·
+  `D.wav` 2,62% (số này là CER **bỏ danh từ riêng**; bản đầy đủ 13 ô ở
+  `90_LUU_TRU/BaoCao_H2_Higgs_Pilot_Tap02_20261030.md` §8.10).
+* **PHẤT HIỆN QUAN TRỌNG — biến thể phase vocoder hỏng *khi clone*, không hỏng *khi đọc*:**
+  đo ASR trên **chính clip tham chiếu** (`cer_ref_clips.py`, mỗi clip có lời mẫu):
+  `W6_LOW` 0,00% · `S20` 0,91% · `S25` **0,00%** · `S30` 0,45% · `S35` 0,45% · `S40` 4,31%
+  ⇒ **clip sạch**, nhưng **clone** từ chúng cho CER **9,5–12,5%** với lỗi **sai nội dung**
+  (cả 2 vòng ASR sai giống nhau ⇒ audio thật sự nói sai). Nghi vân "cắt im lặng giữa câu" đã **loại**
+  (chính `W6_LOW` giữ đoạn im lặng đó mà clone vẫn sạch) ⇒ **thủ phạm là phase vocoder**
+  (time-stretch FFT làm nhoè dạng sóng ⇒ codec sinh token mờ ⇒ Higgs nói sai lời).
+* ⇒ **Cấm dùng phase vocoder để tạo clip tham chiếu.** Thay bằng **TD-PSOLA**
+  (`.work/g9_psola_shift.py`: giai thuốc sóng giữ dạng sóng + resample FFT giữ dải thông).
+  5 clip mới: `W6_LOW_TRIM` (đối chứng) 179,1/168,9 Hz · `PS15` 164,4/163,7 · `PS20` 160,0/159,1 ·
+  `PS25` 155,8/154,5 · `PS30` 150,9/150,4 Hz — **ASR trên clip = 0,00%** (PS20/25/30).
+* **Ràng buộc G9 rút lại từ số đo thật** (C clone 214,3/202,8 · N2←`W5_HIGH` clone 285,7/268,0):
+  N1 clone cần **F0_ac ≤ 170,1 Hz** và **F0_pp2 ≤ 161,0 Hz** (và `F0_pp2 ≤ 168,8 Hz` theo ngân sách
+  tỉ lệ 1,5874). ⇒ `W6_LOW_PS25` và `W6_LOW_PS30` nằm trong cửa sổ (drift clip tiếng Việt ±3%).
+* **Dữ liệu kịch bản thật** (36 phần lời Tập 02): N1 chỉ ở cảnh **1.07**, N2 chỉ ở cảnh **4.06**;
+  cặp liền kề thật = `H↔D` (8) · `C↔H` (8) · `H↔N1` (2) · `H↔N2` (2) · `C↔D` (2).
+  **`C↔N1`, `C↔N2`, `N1↔N2` không bao giờ liền kề trong Tập 02.**
+* ⇒ **Pilot v8** (kernel `chiduong2026/amber-eyes-higgs-v8-td-psola-kaggle-gpu`, 36 audio:
+  3 ô TD-PSOLA × 6 câu × 2 bản) đo F0 clone + CER thật của các biến thể TD-PSOLA.
+* Kernel **v7** (clone `W4`/`W2` cho bộ nghe mù H3) → **24/24 OK, 0 lỗi**.
+
 **BẪY ĐO LẠI (rất dễ sai):** `tts_sentences.py:105` gửi **số → chữ** cho TTS, còn ASR trả **chữ số**.
 Phải áp `vi_numbers()` cho **CẢ HAI VÊ** và dùng **đúng** `vi_number()` của `tts_sentences.py`
 (bản rút gọn làm `"2009"` → *"two nine"*). Không sửa thì **cả Higgs lẫn MiniMax đều bị phình CER**
 (câu `1.03#1` hoàn toàn đúng bị tính thành 73,8%).
+**Module dùng chung: `.work/vi_cer.py`** (`cer_pair` = số chính thức · `cer_pair_nonum` ·
+`cer_pair_prop` = bỏ danh từ riêng, vì ASR đọc sai *Tweed/Russell/Williams* là lỗi ASR chứ không
+phải lỗi TTS).
 
 **Còn chưa biết:**
 
-6. Tham chiếu nào cho **H**, **D** và **N1** để đạt G9 — **đã có 4 clip mới + 5 biến thể hạ F0**;
-   pilot v6 đang đo F0 clone thật ⇒ chốt ánh xạ vai sau đó (cần người dùng duyệt L4 vì đổi clip
-   = đổi giọng vai). Phương án dự đoán đạt: `H←M_LOW` hoặc `H←H.wav` (giữ giọng cũ) + `D←M_HIGH` +
-   `C←C.wav` + `N1←W6_LOW_S35` + `N2←W5_HIGH`.
-8. G8 (nghe mù 100%) — chưa chạy.
+6. Tham chiếu nào cho **H**, **D** và **N1** để đạt G9 — **đã có 4 clip mới + 5 biến thể TD-PSOLA**;
+   pilot v8 đang đo F0 clone + CER thật của biến thể TD-PSOLA ⇒ chốt ánh xạ vai sau đó
+   (cần người dùng duyệt L4 vì đổi clip = đổi giọng vai). Bảng lựa chọn + số đo:
+   `90_LUU_TRU/BaoCao_H2_Higgs_Pilot_Tap02_20261030.md` §9.1.
+8. G8 (nghe mù 100%) — chưa chạy; bộ nghe mù H3 đã dựng được (kernel v7 xong 24/24).
 9. Người dùng xác nhận **chấp nhận ghi công Boson** (H0) — điều khoản Creator Use Grant II-A cho phép
    thương mại nhưng **bắt buộc** ghi "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio"
    trong mô tả mọi tập.

@@ -82,6 +82,25 @@ de so voi giong moi cua H/D/C.
 Ket qua khong phu thuoc card nao: seed co dinh theo `(id|role|ref|temp|variant)`.
 """,
     },
+    "v8": {
+        "SPEC_NAME": "pilot_spec_v8.json",
+        "PAYLOAD_NAME": "pilot_payload_v8.json",
+        "OUT_NAME": "out_higgs_v8",
+        "NB_NAME": "higgs_pilot_v8_kaggle.ipynb",
+        "N_WORKERS": 1,
+        "TITLE": "PILOT v8 — bien the TD-PSOLA cho vai N1",
+        "MD": """# PILOT v8 — bien the TD-PSOLA thay cho phase vocoder
+
+Pilot v6: clone tu W6_LOW_S25..S40 (phase vocoder) co **CER 9,5-12,5%**, trong khi
+chinh clip goc ASR = **0,00%** => phase vocoder lam nhieu, khong phai loi noi dung.
+V8 do lai voi bien the **TD-PSOLA** (giai thuoc so + resample FFT) — giu duong bao hinh
+am, khong nhoa pha pha.
+
+Do F0 clone thuc + CER cho 3 bien the: -2.0 / -2.5 / -3.0 nua cung.
+
+Ket qua khong phu thuoc card nao: seed co dinh theo `(id|role|ref|temp|variant)`.
+""",
+    },
     "prod": {
         "SPEC_NAME": "prod_spec.json",
         "PAYLOAD_NAME": "higgs_payload_t02.json",
@@ -208,7 +227,8 @@ PAYLOAD = json.load(open(os.path.join(REF_DIR, "__PAYLOAD_NAME__"), encoding="ut
 ITEMS = {it["id"]: it for it in PAYLOAD["items"]}
 GP = SPEC["gen_params"]
 SR = int(GP["sample_rate"])
-TEMP_BY_ROLE = GP["temp_by_role"]
+TEMP_BY_ROLE = GP.get("temp_by_role", {})
+TEMP_DEFAULT = float(GP["temperature"])
 VARIANTS = SPEC.get("variants", [0, 1])
 print("items:", len(ITEMS), "| variants:", VARIANTS, "| temp_by_role:", TEMP_BY_ROLE)
 
@@ -217,7 +237,7 @@ for sid in SPEC["items"]:
     it = ITEMS[sid]
     role = it["role"]
     ref = it["ref_wav"]
-    temp = float(TEMP_BY_ROLE[role])
+    temp = float(TEMP_BY_ROLE.get(role, TEMP_DEFAULT))
     # so ban rieng theo cau (§7): cau trich/he lo -> 3 ban, con lai 2 ban
     vs = SPEC.get("variants_by_item", {}).get(sid, VARIANTS)
     for vi in vs:

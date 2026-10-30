@@ -191,6 +191,45 @@ print("\npilot v7 (kit nghe mu): %d item x %d ban = %d file" % (
     len(v7_items), len(v7_spec["variants"]),
     len(v7_items) * len(v7_spec["variants"])))
 
+# ================================================================== PILOT v8
+# Bien the TD-PSOLA (giai thuoc so + resample FFT) thay cho phase vocoder.
+# Pilot v6 cho thay bien the S25-S40 co CER 9,5-12,5% khi CLONE, trong khi
+# CLIP GOC chinh ra ASR 0,00% => phase vocoder lam nhieu, KHONG phai noi dung.
+v8_cells = [
+    ("N1", "W6_LOW_PS20.wav", "N1 <- W6_LOW TD-PSOLA -2.0 nua cung"),
+    ("N1", "W6_LOW_PS25.wav", "N1 <- W6_LOW TD-PSOLA -2.5 nua cung"),
+    ("N1", "W6_LOW_PS30.wav", "N1 <- W6_LOW TD-PSOLA -3.0 nua cung"),
+]
+v8_items = []
+for role, ref, why in v8_cells:
+    for j, s in enumerate(pilot_sent):
+        v8_items.append({
+            "id": "P8_%s__%s__%d" % (role, ref.replace(".wav", ""), j),
+            "role": role, "ref_wav": ref, "ref_txt": ref.replace(".wav", ".txt"),
+            "text_plain": s["text_plain"], "text": s["text"],
+            "emotion": s["emotion"], "emotion_tag": s.get("emotion_tag", ""),
+            "src_id": s["id"], "why": why,
+        })
+v8_spec = {
+    "episode": "02", "mode": "pilot_v8",
+    "purpose": "Kiem tra bien the TD-PSOLA co giu duoc do phat am khi Higgs clone hay khong",
+    "gen_params": GEN_PARAMS, "variants": [0, 1],
+    "items": [it["id"] for it in v8_items],
+}
+v8_payload = {
+    "episode": "02", "model": "bosonai/higgs-tts-3-4b",
+    "role_ref": {r: {"wav": w, "txt": w.replace(".wav", ".txt")}
+                 for r, w in ROLE_MAP.items()},
+    "items": v8_items,
+}
+(DS / "pilot_spec_v8.json").write_text(
+    json.dumps(v8_spec, ensure_ascii=False, indent=1), encoding="utf-8")
+(DS / "pilot_payload_v8.json").write_text(
+    json.dumps(v8_payload, ensure_ascii=False, indent=1), encoding="utf-8")
+print("\npilot v8 (TD-PSOLA): %d item x %d ban = %d file" % (
+    len(v8_items), len(v8_spec["variants"]),
+    len(v8_items) * len(v8_spec["variants"])))
+
 # ================================================================== SAN XUAT
 # §7: moi cau 2 ban; cau TRICH (co dau trich dan) sinh 3 ban.
 # Danh sach "cau he lo" phai do nguoi dung bo sung — xay dung o file rieng.

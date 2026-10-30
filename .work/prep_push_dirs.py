@@ -39,6 +39,13 @@ KERNELS = {
         "nb": "higgs_pilot_v7_kaggle.ipynb",
         "dir": "_push_v7",
     },
+    "v8": {
+        # slug phai khop slug Kaggle TU SINH tu title
+        "slug": "chiduong2026/amber-eyes-higgs-v8-td-psola-kaggle-gpu",
+        "title": "Amber Eyes Higgs v8 TD-PSOLA Kaggle GPU",
+        "nb": "higgs_pilot_v8_kaggle.ipynb",
+        "dir": "_push_v8",
+    },
     "prod": {
         "slug": "chiduong2026/amber-eyes-higgs-prod-t02-kaggle-gpu",
         "title": "Amber Eyes Higgs prod T02 Kaggle GPU",
