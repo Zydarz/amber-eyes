@@ -341,34 +341,66 @@ Mục tiêu: chứng minh lỗi G9 H↔D **không phải do may rủi seed** mà
 
 ---
 
-## 7. Lỗi 6 — Vai N1 chưa tìm được clip nữ vừa đọc đúng vừa tách xa vai C
+## 7. Lỗi 6 — Vai N1: cặp N1↔N2 chưa từng được kiểm, và phương án cũ tạo ra vi phạm mới
 
-**Triệu chứng.** Vai C (nữ chính) và vai N1 (nữ phụ) phải cách nhau ≥ 4 nửa cung, đồng thời N1 phải đọc đúng
-(CER < 2%). Ba clip nữ trong bộ hiện có:
+> **Đính chính 30/10/2026 (sau khi đo đủ số liệu).** Mục này viết lại từ đầu. Bản cũ chỉ kiểm
+> **C↔N1** và **C↔N2**, bỏ sót cặp thứ ba.
 
-| Ứng viên cho N1 | CER | G9 với C (bộ seed 1) | G9 với C (bộ seed 2) | Kết luận |
+### 7.1 Triệu chứng
+
+Tập 02 có **3 vai nữ**: C (chuyên gia tâm lý), N1 (người kể thứ nhất), N2 (người kể thứ hai).
+Luật **G9** (`AGENTS.md` dòng 111) áp dụng cho **mọi cặp cùng giới** ⇒ cần đủ **3 cặp**:
+C↔N1 · C↔N2 · **N1↔N2**.
+
+Đo lại **192 audio** của pilot v3 + pilot v4 (n = 8 mỗi ô N1/N2):
+
+| Cặp | F0 hai vai | Khoảng cách (AC thô / AC chuẩn hóa) | Ngưỡng | Kết luận |
 |---|---:|---:|---:|---|
-| **W1** (nữ trẻ, F0 235 Hz) | 1,08% ✅ | 2,98 nc ❌ | 2,94 nc ❌ | đọc đúng nhưng **không tách** được |
-| W2 (nữ 50, F0 189 Hz) | 2,86% ❌ | 0,19 nc ❌ | 0,81 nc ❌ | trượt cả hai |
-| W3 | 4,25% ❌ | 4,34 nc ✅ | 4,94 nc ✅ | tách được nhưng **đọc sai** — và W3 là giọng **nam**, sai giới tính vai N1 |
+| C ↔ N1 (N1 ← W1) | 205 Hz / 247 Hz | 3,25 / 3,17 nc | ≥ 4 | ❌ trượt |
+| C ↔ N2 (N2 ← W1) | 205 Hz / 276 Hz | 5,13 / 4,88 nc | ≥ 4 | ✅ **đạt** |
+| **N1 ↔ N2** (cả hai ← W1) | 247 Hz / 276 Hz | **1,89 / 1,71 nc** | ≥ 4 | ❌ **trượt — chưa từng được kiểm** |
 
-**Nguyên nhân.** C (audio clone 205 Hz) đã ở khá cao; clip nữ cần cao hơn thì mới tách được, mà bộ clip hiện có
-chỉ có W1 là nữ trẻ nhưng chưa đủ cao.
+Ứng viên clip nữ cho N1 (đo cả 2 bộ seed):
 
-**Sửa ở đâu.** Tạo clip VoxCPM2 VI nữ mới.
+| Ứng viên cho N1 | CER | G9 với C | G9 với N2 (W1) | Kết luận |
+|---|---:|---:|---:|---|
+| **W1** (nữ trẻ, F0 235 Hz) | 1,08% ✅ | 3,25 nc ❌ | **1,89 nc ❌** | đọc đúng nhưng **không tách** được |
+| W2 (nữ 50, F0 189 Hz) | 2,86% ❌ | 0,72 nc ❌ | 3,09 nc ❌ | trượt cả hai |
+| W3 | 4,25% ❌ | 4,64 nc ✅ | 6,35 nc ✅ | tách được nhưng **đọc sai** — và W3 là giọng **nam**, sai giới tính vai N1 |
 
-**Sửa cái gì.** Một clip **nữ trẻ F0 ~265 Hz** (cao hơn W1 một chút) ⇒ audio clone về ~258 Hz ⇒ cách C ≥ 4 nc
-**và** chất lượng đọc của W1 vốn đã tốt (CER 1,08%).
+### 7.2 Nguyên nhân — phương án "nâng N1 lên cao" là hướng sai
 
-**Lựa chọn thay thế.** Chấp nhận N1 ở ~2,95 nc — bằng đúng mức lệch mà bộ MiniMax hiện tại đang có
-(C↔N1 = 3,07 nc), tức **không tệ hơn hiện trạng**.
+Bản cũ chốt: đưa N1 lên ~258 Hz (`W5_HIGH`) để sửa C↔N1. Điều đó **đúng một nửa**:
 
-**Lưu ý thực tế (kiểm lại kịch bản).** N1 chỉ có 4 câu, **toàn bộ ở hồi 1**; C chỉ xuất hiện ở hồi 3/4/5
-⇒ **hai vai không bao giờ cùng hồi**, người nghe không gặp chúng cạnh nhau. Vì vậy lệch 2,95 nc là vấn đề
-*về con số*, không phải vấn đề *về người nghe*. Hệ quả khi nâng N1 lên ~258 Hz: N1 (258) và N2 (276) sẽ
-gần nhau (~1,1 nc) — **giống hệt** bộ MiniMax hiện tại (1,3 nc) và cũng không cùng hồi (N2 ở hồi 4).
+- C (205 Hz) và N2 (276 Hz) đã cách nhau 5,13 nc ✅ ⇒ giữa chúng **không còn chỗ** để đặt N1.
+  Muốn N1 cách **cả hai** ≥ 4 nc, N1 phải **≤ 163 Hz** (hoặc ≥ 348 Hz — giọng nữ soprano cực cao, không khả thi).
+- Nếu đặt N1 ở 258–276 Hz thì N1 **áp sát N2** (276 Hz) ⇒ khoảng cách rơi về **~1,7 nc** ❌.
+  Tức là **một vi phạm G9 mới**, chỉ đổi tên người vi phạm.
 
-**Đã chốt:** tạo clip nữ mới (`W5_HIGH`, F0 clip 258–276 Hz) — người dùng đã chọn phương án (a).
+⇒ Với C = 205 Hz và N2 = 276 Hz đã chốt, N1 **bắt buộc phải là giọng nữ THẤP**, không phải cao.
+
+### 7.3 Sửa ở đâu
+
+Tạo clip VoxCPM2 VI nữ **thấp** — `W6_LOW`, F0 clip **148–162 Hz** (lấy chính 4 câu của N1 làm văn bản mẫu
+để chất giọng khớp vai).
+
+### 7.4 Sửa cái gì — 3 phương án, đo được luôn
+
+| Phương án | C ↔ N1 | C ↔ N2 | N1 ↔ N2 | Clip mới cần |
+|---|---:|---:|---:|---|
+| **A (khuyến nghị)** `N1 ← W6_LOW` (~155 Hz), `N2 ← W1` | 4,6–4,8 ✅ | 4,9–5,1 ✅ | 9,5–9,8 ✅ | 1 clip nữ trầm |
+| B `N1 ← W5_HIGH` (~265 Hz), `N2 ← W6_LOW` | 4,0 ⚠ | 4,6–4,8 ✅ | 9,5–9,8 ✅ | 2 clip (nữ cao + nữ trầm) |
+| C giữ nguyên `N1 ← W1`, `N2 ← W1` | 3,25 ❌ | 5,13 ✅ | 1,89 ❌ | không đạt G9 |
+
+⇒ Script sinh **cả `W6_LOW` lẫn `W5_HIGH`** trong cùng 1 lần chạy để bạn chọn sau khi đo.
+Nếu theo khuyến nghị (A): chỉ cần `W6_LOW` cho N1; `N2` giữ `W1` (đã có sẵn, CER 0,63% ✅).
+
+### 7.5 Lưu ý thực tế (kiểm lại kịch bản)
+
+N1 chỉ có 4 câu, **toàn bộ ở hồi 1**; C chỉ xuất hiện ở hồi 3/4/5; N2 ở hồi 4
+⇒ **N1 không bao giờ cùng hồi với C, cũng không cùng hồi với N2.** Người nghe không gặp chúng cạnh nhau.
+Vì vậy đây là vấn đề **về con số luật**, không phải vấn đề về người nghe — nhưng G9 viết chung cho mọi
+cặp cùng giới, nên vẫn nên sửa cho sạch.
 
 ---
 
@@ -471,6 +503,52 @@ Câu lỗi còn lại ở cấu hình đề xuất:
 > `SPEC = json.load(open(..., "pilot_spec.json"))` lấy sai tên file ⇒ chạy lại spec cũ (96 bản, seed mới)
 > thay vì 104 bản đúng đặc tả. Đã sửa, verify (6/6 check + 14/14 cell compile), đẩy lại **kernel v5**.
 
+### 8.7 Bảng G9 đầy đủ — gộp cả 2 bộ pilot (192 audio)
+
+Đo lại bằng 1 script duy nhất (`.work/g9_matrix.py`), 2 thuật toán F0 (AC thô + AC chuẩn hóa/parabolic),
+gộp pilot v3 + pilot v4 ⇒ **n = 16** mỗi ô C/D/H, **n = 8** mỗi ô N1/N2.
+
+**F0 thực của audio clone:**
+
+| Vai | Clip | Temp | n | F0 (AC thô) | F0 (AC chuẩn hóa) | min–max (AC thô) |
+|---|---|---:|---:|---:|---:|---|
+| H | H.wav | 0,8 | 16 | 131,1 Hz | 125,7 Hz | 94,1 – 206,9 |
+| D | D.wav | 0,8 | 16 | 122,4 Hz | 125,6 Hz | 109,1 – 181,8 |
+| C | C.wav | 0,8 | 16 | 205,1 Hz | 194,9 Hz | 196,7 – 212,4 |
+| N1 | W1.wav | 0,7 | 8 | 247,4 Hz | 234,0 Hz | 237,6 – 255,3 |
+| N1 | W2.wav | 0,7 | 8 | 196,7 Hz | 189,5 Hz | 189,0 – 201,7 |
+| N1 | W3.wav | 0,7 | 8 | 156,9 Hz | 149,3 Hz | 149,1 – 162,2 |
+| N2 | W1.wav | 0,7 | 8 | 275,9 Hz | 258,3 Hz | 242,4 – 298,1 |
+| N2 | W2.wav | 0,7 | 8 | 206,9 Hz | 198,7 Hz | 187,5 – 216,2 |
+| N2 | W3.wav | 0,7 | 8 | 171,4 Hz | 165,0 Hz | 148,6 – 184,6 |
+
+**G9 — mọi cặp cùng giới:**
+
+| Cặp | nc (AC thô) | nc (AC chuẩn hóa) | Kết luận |
+|---|---:|---:|---|
+| H ↔ D | 1,19 | 0,01 | ❌ trượt |
+| C ↔ N1 (W1) | 3,25 | 3,17 | ❌ trượt |
+| C ↔ N2 (W1) | 5,13 | 4,88 | ✅ đạt |
+| **N1 ↔ N2** (cả hai ← W1) | **1,89** | **1,71** | ❌ **trượt** |
+| C ↔ N1 (W3) | 4,64 | 4,61 | ✅ *(nhưng W3 là giọng nam)* |
+| N1 ↔ N2 (N1←W3, N2←W1) | 9,77 | 9,49 | ✅ đạt |
+
+**Duyệt toàn bộ 16 phân bố (N1_clip, N2_clip) từ clip có sẵn** — duy nhất đạt đủ 3 cặp là
+`N1 ← W3` + `N2 ← W1`, nhưng W3 là **giọng nam** ⇒ **không dùng được** cho vai nữ N1.
+⇒ Bắt buộc phải tạo clip nữ mới.
+
+**Khoảng F0 cần có cho clip mới (tính từ số đo trên, không ước lượng):**
+
+| Clip mới | Điều kiện trên **audio clone** | ⇒ Dải F0 của **clip tham chiếu** |
+|---|---|---|
+| cho **H** | clone ≤ 97,1 Hz | 70–100 Hz → `M_LOW` (80–92) |
+| cho **D** | clone ≥ 165,2 Hz | 150–190 Hz → `M_HIGH` (168–182) |
+| cho **N1** | clone ≤ 162,8 Hz | 140–175 Hz → **`W6_LOW` (148–162)** |
+
+> ⚠ Tỉ lệ `clone / clip gốc` đo được dao động **0,93 → 1,22** ở 9 tổ hợp vai × clip
+> (H: 107→131 Hz **+22%**; N2←W1: 235→276 Hz **+17%**; D: 132→122 Hz **−7%**).
+> ⇒ Không suy ra được chắc chắn; **mọi clip mới đều phải đo lại bằng pilot** trước khi chốt vai.
+
 ---
 
 ## 9. Việc cần bạn quyết
@@ -478,19 +556,19 @@ Câu lỗi còn lại ở cấu hình đề xuất:
 | # | Câu hỏi | Lựa chọn | Quyết định |
 |---|---|---|---|
 | 1 | **G9 H↔D** — làm gì để tách 2 vai nam? | (a) tạo clip VoxCPM2 mới · (b) dùng clip MiniMax · (c) ghi nhận vi phạm | ✅ **(a)** — đã chọn |
-| 2 | **G9 N1** — làm gì cho vai nữ phụ? | (a) tạo clip nữ mới ~265 Hz · (b) chấp nhận ~2,95 nc | ✅ **(a)** — đã chọn |
+| 2 | **G9 N1** — làm gì cho vai nữ phụ? | (a) tạo clip nữ mới ~265 Hz · (b) chấp nhận ~2,95 nc | ✅ **(a)** — đã chọn *(đính chính 30/10: hướng (a) của bản cũ là nữ **cao**; đo đủ số liệu cho thấy phải là nữ **thấp** — xem §7)* |
 | 3 | **Ghi công Boson** (H0) — xác nhận chấp nhận? | (a) chấp nhận, ghi công trong mọi tập · (b) chưa | ⏸ **(b)** — **dừng trước H4** tới khi chốt |
-| 4 | **Thứ tự tạo clip mới** | — | Script sinh **cả 3 bộ** `M_LOW` + `M_HIGH` + `W5_HIGH` trong 1 lần chạy |
+| 4 | **Thứ tự tạo clip mới** | — | Script sinh **cả 4 bộ** `M_LOW` + `M_HIGH` + `W6_LOW` + `W5_HIGH` trong 1 lần chạy |
 
 **Việc bạn cần làm tiếp theo (1 lệnh trên Mac mini):**
 ```bash
 cd /Users/duonganhhai/CodeGit/amber-eyes
 /Users/duonganhhai/ai/voxcpm2_project/.venv/bin/python3 .work/voxcpm_generate_g9.py
-git add assets/voice_ref_voxcpm2_g9 && git commit -m "feat(audio): them 3 clip tham chieu VoxCPM2 cho G9 (Tap 02)" && git push
+git add assets/voice_ref_voxcpm2_g9 && git commit -m "feat(audio): them 4 clip tham chieu VoxCPM2 cho G9 (Tap 02)" && git push
 ```
-Hướng dẫn đầy đủ: `.work/G9_HD_HUONG_DAN.md`.
+Hướng dẫn đầy đủ: `.work/G9_HD_HUONG_DAN.md` · đặc tả ngắn: `.work/DAT_SPEC_G9.md`.
 
-Sau khi có clip: pilot v5 (đo F0 clone + CER) → chốt ánh xạ vai → **H3** (nghe mù V7 + G8) →
+Sau khi có clip: pilot v5/v6 (đo F0 clone + CER) → chốt ánh xạ vai → **H3** (nghe mù V7 + G8) →
 sinh 203 câu (3 bản/câu) → **H4** *(đang dừng chờ chốt ghi công)* → **H5** (dựng video).
 
 ---

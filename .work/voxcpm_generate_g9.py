@@ -25,6 +25,12 @@ Script nay D0 THANG: voi moi vai, thu cac `control_variants` theo thu tu tu nhe 
 sinh 1 take moi bien, do F0, DUNG NGAY khi co take nao trong dai muc tieu.
 Neu het thang ma chua trong dai, sinh them take cua bien dao gan nhat.
 
+4 VAI (muc tieu F0 cua CLIP THAM CHIEU, do bang f0_median):
+    M_LOW   80-92 Hz    nam  -> vai H  (clone <= 97 Hz de cach D >= 4 nua cung)
+    M_HIGH  168-182 Hz  nam  -> vai D  (clone >= 165 Hz de cach H >= 4 nua cung)
+    W6_LOW  148-162 Hz  nu   -> vai N1 (clone <= 163 Hz de cach C VA N2 deu >= 4 nc)
+    W5_HIGH 258-276 Hz  nu   -> phuong an doi: N1 cao, N2 thap (W6_LOW)
+
 CHAY:
     /Users/duonganhhai/ai/voxcpm2_project/.venv/bin/python3 .work/voxcpm_generate_g9.py
 
@@ -65,6 +71,9 @@ FLT = ("aresample=24000,"
 # (cfg, seed) cho moi take
 TAKE_CONFIGS = [(2.0, 42), (2.0, 101), (2.0, 2024), (2.5, 777), (2.5, 999)]
 EXTRA_TAKES = 3          # sinh them neu het thang ma chua co take nao trong dai
+
+# QUY_TAC_AUDIO_HIGGS.md §4: clip tham chieu 16-28 s (tam 20 s)
+LO_SEC, HI_SEC = 16.0, 28.0
 
 
 def f0_median(audio_np, sr=48000):
@@ -244,18 +253,41 @@ def main():
                             "-ac", "1", "-ar", "24000", "-c:a", "pcm_s16le", str(ref_wav)],
                            check=True)
             (OUT_REF / f"{role}.txt").write_text(text, encoding="utf-8")
-            ref_f0 = f0_median(sf.read(str(ref_wav), dtype="float32")[0], 24000)
-            print(f"  => DONG GOI {ref_wav.relative_to(ROOT)} (24 kHz mono, F0 {ref_f0:.1f} Hz)")
+            data, sr_read = sf.read(str(ref_wav), dtype="float32")
+            seconds = round(len(data) / float(sr_read), 2)
+            ref_f0 = f0_median(data, sr_read)
+
+            # QUY_TAC §4: thoi luong 16-28 s, F0 trong dai muc tieu
+            notes = []
+            if not (LO_SEC <= seconds <= HI_SEC):
+                notes.append(f"THOI LUONG {seconds:.1f}s ngoai [{LO_SEC}-{HI_SEC}]s")
+            if not (lo_f0 * 0.94 <= ref_f0 <= hi_f0 * 1.06):
+                notes.append(f"F0 {ref_f0:.0f}Hz ngoai dai muc tieu {lo_f0}-{hi_f0}Hz")
+
+            print(f"  => DONG GOI {ref_wav.relative_to(ROOT)} "
+                  f"(24 kHz mono, {seconds:.1f}s, F0 {ref_f0:.1f} Hz)"
+                  + ("  !! " + "; ".join(notes) if notes else ""))
+            # Schema refs.json phai GION schema canonical (higgs_make_refs_voxcpm.py:158-173)
             packaged.append({
-                "role": role, "source_file": src.as_posix(),
-                "reference_file": ref_wav.as_posix(),
-                "f0_hz": round(ref_f0, 1), "f0_target_hz": [lo_f0, hi_f0],
-                "variant": winner.get("variant"), "control_instruction": winner.get("control"),
-                "sample_rate": 24000, "channels": 1, "lufs_target": -18.0,
-                "model": "openbmb/VoxCPM2", "license": "Apache-2.0",
-                "attribution_required": False,
                 "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
-                "target_text": text, "why": data.get("why", ""),
+                "control_instruction": winner.get("control", ""),
+                "target_text": text,
+                "source_file": src.as_posix(),
+                "seconds": seconds,
+                "f0_median_hz": round(ref_f0, 1),
+                "f0_target_hz": [lo_f0, hi_f0],
+                "sample_rate": 24000,
+                "channels": 1,
+                "lufs_target": -18.0,
+                "model": "openbmb/VoxCPM2",
+                "license": "Apache-2.0",
+                "attribution_required": False,
+                "notes": notes,
+                # --- truong bo sung (giau duoc, dung cho viec truy vet) ---
+                "role": role,
+                "variant": winner.get("variant"),
+                "reference_file": ref_wav.as_posix(),
+                "why": data.get("why", ""),
             })
         except Exception as exc:                            # noqa: BLE001
             print(f"  !! LOI dong goi ffmpeg: {exc}")

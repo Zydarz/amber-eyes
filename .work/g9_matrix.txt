@@ -1,0 +1,97 @@
+﻿v3: 96/96 audio do F0 xong
+v4: 96/96 audio do F0 xong
+
+========================================================================================================
+F0 THUC cua audio clone (gop ca 2 bo pilot v3 + v4)
+========================================================================================================
+Vai  Clip      Temp  n    F0_ac     F0_pp2    F0_ac min-max      F0_pp2 min-max    
+C    C.wav     0.6   16   203.4     192.6     187.5 - 212.4      181.2 - 203.9     
+C    C.wav     0.7   16   206.9     196.9     189.0 - 218.2      181.9 - 205.1     
+C    C.wav     0.8   16   205.1     194.9     196.7 - 212.4      188.0 - 204.4     
+D    D.wav     0.6   16   125.0     126.1     109.6 - 154.8      110.9 - 149.2     
+D    D.wav     0.7   16   123.1     126.6     111.6 - 158.9      113.4 - 156.9     
+D    D.wav     0.8   16   122.4     125.6     109.1 - 181.8      109.3 - 169.0     
+H    H.wav     0.6   16   128.3     126.4     93.0 - 210.5       92.8 - 200.1      
+H    H.wav     0.7   16   130.4     125.4     104.8 - 210.5      106.1 - 194.9     
+H    H.wav     0.8   16   131.1     125.7     94.1 - 206.9       94.7 - 196.4      
+N1   W1.wav    0.7   8    247.4     234.0     237.6 - 255.3      225.6 - 247.0     
+N1   W2.wav    0.7   8    196.7     189.5     189.0 - 201.7      179.3 - 193.5     
+N1   W3.wav    0.7   8    156.9     149.3     149.1 - 162.2      141.8 - 155.5     
+N2   W1.wav    0.7   8    275.9     258.3     242.4 - 298.1      233.4 - 275.7     
+N2   W2.wav    0.7   8    206.9     198.7     187.5 - 216.2      183.0 - 206.2     
+N2   W3.wav    0.7   8    171.4     165.0     148.6 - 184.6      143.6 - 178.4     
+
+========================================================================================================
+F0 cua CLIP THAM CHIEU goc (assets/voice_ref_voxcpm2)
+========================================================================================================
+  C    F0_ac= 208.7  F0_pp2= 199.8   23.4 s
+  D    F0_ac= 128.3  F0_pp2= 132.2   22.3 s
+  H    F0_ac= 107.6  F0_pp2= 107.1   22.5 s
+  W1   F0_ac= 250.0  F0_pp2= 235.4   23.5 s
+  W2   F0_ac= 200.0  F0_pp2= 189.3   26.7 s
+  W3   F0_ac= 161.1  F0_pp2= 156.6   24.6 s
+  W4   F0_ac= 137.1  F0_pp2= 133.5   26.1 s
+
+========================================================================================================
+G9 — MOI cap cung gioi (nguong >= 4 nua cung)
+========================================================================================================
+VaiA  VaiB  A             B             nc_ac    nc_pp2   Ket
+H     D     H<-H.wav      D<-D.wav      1.19     0.01     TRUOT
+C     N1    C<-C.wav      N1<-W1.wav    3.25     3.17     TRUOT
+C     N2    C<-C.wav      N2<-W1.wav    5.13     4.88     DAT
+N1    N2    N1<-W1.wav    N2<-W1.wav    1.89     1.71     TRUOT
+C     N1    C<-C.wav      N1<-W1.wav    3.25     3.17     TRUOT
+C     N2    C<-C.wav      N2<-W2.wav    0.15     0.33     TRUOT
+N1    N2    N1<-W1.wav    N2<-W2.wav    3.09     2.83     TRUOT
+C     N1    C<-C.wav      N1<-W1.wav    3.25     3.17     TRUOT
+C     N2    C<-C.wav      N2<-W3.wav    3.11     2.88     TRUOT
+N1    N2    N1<-W1.wav    N2<-W3.wav    6.35     6.05     DAT
+C     N1    C<-C.wav      N1<-W2.wav    0.72     0.49     TRUOT
+C     N2    C<-C.wav      N2<-W1.wav    5.13     4.88     DAT
+N1    N2    N1<-W2.wav    N2<-W1.wav    5.86     5.36     DAT
+C     N1    C<-C.wav      N1<-W2.wav    0.72     0.49     TRUOT
+C     N2    C<-C.wav      N2<-W2.wav    0.15     0.33     TRUOT
+N1    N2    N1<-W2.wav    N2<-W2.wav    0.88     0.82     TRUOT
+C     N1    C<-C.wav      N1<-W2.wav    0.72     0.49     TRUOT
+C     N2    C<-C.wav      N2<-W3.wav    3.11     2.88     TRUOT
+N1    N2    N1<-W2.wav    N2<-W3.wav    2.38     2.40     TRUOT
+C     N1    C<-C.wav      N1<-W3.wav    4.64     4.61     DAT
+C     N2    C<-C.wav      N2<-W1.wav    5.13     4.88     DAT
+N1    N2    N1<-W3.wav    N2<-W1.wav    9.77     9.49     DAT
+C     N1    C<-C.wav      N1<-W3.wav    4.64     4.61     DAT
+C     N2    C<-C.wav      N2<-W2.wav    0.15     0.33     TRUOT
+N1    N2    N1<-W3.wav    N2<-W2.wav    4.79     4.95     DAT
+C     N1    C<-C.wav      N1<-W3.wav    4.64     4.61     DAT
+C     N2    C<-C.wav      N2<-W3.wav    3.11     2.88     TRUOT
+N1    N2    N1<-W3.wav    N2<-W3.wav    1.53     1.73     TRUOT
+
+========================================================================================================
+DUYET phan bo (N1_clip, N2_clip) — ca 3 cap nua (C<->N1, C<->N2, N1<->N2) deu >= 4 nc
+========================================================================================================
+N1 clip    N2 clip    C<->N1    C<->N2    N1<->N2   Ket
+W1.wav     W1.wav     3.17      4.88      1.71      CANH BAO
+W1.wav     W2.wav     3.17      0.15      2.83      TRUOT
+W1.wav     W3.wav     3.17      2.88      6.05      CANH BAO
+W2.wav     W1.wav     0.49      4.88      5.36      CANH BAO
+W2.wav     W2.wav     0.49      0.15      0.82      TRUOT
+W2.wav     W3.wav     0.49      2.88      2.38      TRUOT
+W3.wav     W1.wav     4.61      4.88      9.49      DAT
+W3.wav     W2.wav     4.61      0.15      4.79      CANH BAO
+W3.wav     W3.wav     4.61      2.88      1.53      CANH BAO
+
+========================================================================================================
+KHOANG F0 can co cho CLIP THAM CHIEU MOI (de clone dat G9)
+========================================================================================================
+  H (de cach D >= 4 nc)
+      can_clone_f0_max             97.1
+      clip_tham_chieu_rough_hz     [70, 100]
+  D (de cach H >= 4 nc)
+      can_clone_f0_min             165.2
+      clip_tham_chieu_rough_hz     [150, 190]
+  N1 (nu, de cach C va N2 deu >= 4 nc)
+      can_clone_f0_max             162.8
+      can_clone_f0_min             258.4
+      note                         nen <= 163 Hz va >= 258 Hz -> khoang < 163 Hz; khong the > 348 Hz (se sat N2)
+      clip_tham_chieu_rough_hz     [140, 175]
+
+-> D:\TEST\Gax\amber-eyes\.work\g9_matrix.json

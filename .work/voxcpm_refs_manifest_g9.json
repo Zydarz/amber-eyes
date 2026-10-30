@@ -41,8 +41,8 @@
   },
   "W5_HIGH": {
     "f0_target": [258, 276],
-    "why": "Cho vai N1 (người kể chuyện thứ hai, nữ). Mục tiêu: F0 audio clone >= 258 Hz để cách vai C (205 Hz) >= 4 nửa cung.",
-    "note": "Clip W1 dùng 'higher-pitched and bright' -> 252 Hz. Cần cao hơn ~15 Hz.",
+    "why": "Phuong an A cho vai N1 (nữ ~cao). GIU LAI de doi phuong an neu user chon kieu 'N1 cao, N2 thap'. CANH BAO: neu dung W5_HIGH cho N1 thi N2 phai lay W6_LOW moi duoc G9 (xem W6_LOW).",
+    "note": "Clip W1 dung 'higher-pitched and bright' -> 252 Hz. Can cao hon ~15 Hz.",
     "control_variants": [
       {
         "tag": "very-high",
@@ -58,5 +58,25 @@
       }
     ],
     "text": "Những năm tháng ở căn cứ Trenton, chúng tôi quen với những con đường ngay ngắn và những hành lang lặng lẽ. Mỗi sáng, mọi người đều dừng lại trước tấm biển đồng trên cổng chính, và chẳng ai nhắc đến những gì đã xảy ra sau đó. Tôi vẫn nhớ rõ vẻ mặt của người lính trực đêm đêm cuối cùng."
+  },
+  "W6_LOW": {
+    "f0_target": [148, 162],
+    "why": "Phuong dan CHINH cho vai N1 (nữ THAP). Do lai F0 clone thuc te cua ca pilot v3 + pilot v4 (n=16/o o): N1 phai <= 162.8 Hz de cach >= 4 nua cung voi C (205 Hz) VA voi N2 (275.9 Hz). Clip 258-276 Hz se lam N1 sat N2 (chi cach ~1.7 nc). Mang 'lower mid-pitched' / 'low-pitched' de tao giong nu TRAM chung nhung van la n.",
+    "note": "Buoc xuong tu clip W2 (nu 189 Hz, 'mid-pitched and soft'). Can xuong ~148-162 Hz. PHAT HIEU: Higgs co the keo len voi ref thap (H: ref 107 Hz -> clone 131 Hz, +22%) nen phai do lai bang pilot truoc khi chot.",
+    "control_variants": [
+      {
+        "tag": "lower-mid",
+        "control": "A woman in her late thirties, lower mid-pitched and calm with a soft chesty resonance, warm and unhurried, intimate close-mic narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace"
+      },
+      {
+        "tag": "low",
+        "control": "A woman in her late thirties, low-pitched and warm with a deep rounded resonance, calm and unhurried, intimate close-mic narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace"
+      },
+      {
+        "tag": "alto",
+        "control": "A woman in her forties, alto and low-pitched with a deep mature rounded timbre, calm and unhurried, intimate close-mic narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace"
+      }
+    ],
+    "text": "Trong mắt tất cả chúng tôi ở căn cứ Trenton, Đại tá Williams từng là hiện thân của sự hoàn hảo. Ông ấy điềm tĩnh, chuẩn mực đến từng nếp gấp quân phục, làm việc không biết mệt và chưa từng to tiếng với cấp dưới một lần nào. Nhưng sau khi mọi chuyện vỡ lở mỗi lần nhớ lại ánh mắt bình thản của ông ấy trong các buổi duyệt binh, chúng tôi đều thấy rợn người. Chúng tôi đã từng đứng cạnh một kẻ săn mồi nguy hiểm nhất, mà vẫn một lòng cúi đầu kính phục."
   }
 }
