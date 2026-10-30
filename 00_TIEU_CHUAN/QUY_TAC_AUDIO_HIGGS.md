@@ -175,16 +175,22 @@ Code: thêm nhánh engine trong `tts_sentences.py` (ví dụ `AE_TTS=higgs`), **
 6. Tham chiếu **tiếng Việt** cho thanh điệu tốt hơn: **có** — cùng model, clip VI cho CER 0,00% ở H/C.
 7. ~~G8 ổn định danh tính~~ — **chưa đo** (cần nghe mù V7).
 
-**MỚI phát hiện 30/10 — G9 KHÔNG ĐẠT ở H↔D:**
+**MỚI phát hiện 30/10 — G9 KHÔNG ĐẠT ở H↔D (đo lại trên 192 audio pilot v3+v4, n=16/ô):**
 
-* F0 **của audio đã clone** (không phải clip gốc): H **124,3 Hz**, D **122,6 Hz** ⇒ chỉ **0,23 nửa cung**
-  (cần ≥ 4). Kiểm chéo bằng 2 thuật toán (AC thô 1,12 nc; AC chuẩn hóa + sửa octave 0,23 nc) ⇒ **thật**.
-* Cơ chế: Higgs **không giữ F0** của clip tham chiếu — H (ref 107 Hz) trôi lên 124 Hz (+16%),
-  D (ref 132 Hz) trôi xuống 123 Hz (−7%) ⇒ hai vai **trôi ngược chiều vào cùng một vùng**.
-* Với 7 clip VoxCPM2 VI hiện có **không thể đạt G9 cho H↔D** (đổi sang clip cao nhất W3 162 Hz thì
-  audio clone chỉ ~150 Hz ⇒ ~3,3 nc). ⇒ cần **clip tham chiếu mới** hoặc ghi nhận vi phạm (cần người dùng quyết).
-* `C ↔ N1`: W1 đạt CER (1,08%) nhưng G9 chỉ 2,98 nc; W3 đạt G9 (4,34 nc) nhưng CER 4,25% ⇒ **N1 chưa chốt được**.
-  `C ↔ N2` (W1) = 4,97 nc ✅ ⇒ **N2 ← W1 chốt được**.
+* F0 **của audio đã clone** (không phải clip gốc): H **131,1 Hz**, D **122,4 Hz** ⇒ **1,19 nửa cung**
+  (AC thô) / **0,01 nc** (AC chuẩn hóa + sửa octave) — cần ≥ 4.
+* Cơ chế: Higgs **không giữ F0 1-1** của clip tham chiếu. Tỉ lệ `clone / clip gốc` đo ở 9 tổ hợp
+  vai × clip dao động **0,93 → 1,22** (H: 107→131 Hz **+22%**; N2←W1: 235→276 Hz **+17%**;
+  D: 132→122 Hz **−7%**) ⇒ **không suy ra được chắc chắn, mọi clip mới phải đo lại bằng pilot**.
+* Với 7 clip VoxCPM2 VI hiện có **không thể đạt G9 cho H↔D** ⇒ cần **clip tham chiếu mới**
+  (H: clip 70–100 Hz · D: clip 150–190 Hz) hoặc ghi nhận vi phạm (cần người dùng quyết).
+* **3 vai nữ ⇒ 3 cặp phải kiểm** (C↔N1 · C↔N2 · **N1↔N2**). Cặp **N1↔N2 bị bỏ sót** trong bản đo đầu:
+  N1←W1 = 247,4 Hz, N2←W1 = 275,9 Hz ⇒ **1,89 nc ❌**. `C ↔ N1` (W1) = 3,25 nc ❌ ·
+  `C ↔ N2` (W1) = 5,13 nc ✅ ⇒ **N2 ← W1 chốt được**.
+* ⇒ **N1 phải là giọng nữ THẤP, không phải cao.** Vì C (205 Hz) và N2 (276 Hz) đã cách nhau 5,13 nc,
+  N1 phải **≤ 162,8 Hz** để cách **cả hai** ≥ 4 nc. Nếu đưa N1 lên 258–276 Hz thì N1 **áp sát N2**
+  (~1,7 nc) ⇒ vi phạm G9 mới. Cần clip nữ mới `W6_LOW` (F0 clip 148–162 Hz).
+* Bảng G9 đầy đủ + script đo lại được: `.work/g9_matrix.py` → `.work/g9_matrix.json` / `.work/g9_matrix.txt`.
 
 **BẪY ĐO LẠI (rất dễ sai):** `tts_sentences.py:105` gửi **số → chữ** cho TTS, còn ASR trả **chữ số**.
 Phải áp `vi_numbers()` cho **CẢ HAI VÊ** và dùng **đúng** `vi_number()` của `tts_sentences.py`
@@ -193,8 +199,8 @@ Phải áp `vi_numbers()` cho **CẢ HAI VÊ** và dùng **đúng** `vi_number()
 
 **Còn chưa biết:**
 
-6. Tham chiếu nào cho **H** và **D** để đạt G9 (cần clip mới từ Mac mini, hoặc dùng clip MiniMax — cần
-   xác nhận điều khoản L4, hoặc ghi nhận vi phạm).
+6. Tham chiếu nào cho **H**, **D** và **N1** để đạt G9 (cần clip mới từ Mac mini — `M_LOW` / `M_HIGH` /
+   `W6_LOW`; hoặc dùng clip MiniMax — cần xác nhận điều khoản L4; hoặc ghi nhận vi phạm).
 8. G8 (nghe mù 100%) — chưa chạy.
 9. Người dùng xác nhận **chấp nhận ghi công Boson** (H0) — điều khoản Creator Use Grant II-A cho phép
    thương mại nhưng **bắt buộc** ghi "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio"
