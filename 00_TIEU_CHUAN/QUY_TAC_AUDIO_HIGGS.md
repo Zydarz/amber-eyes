@@ -44,6 +44,9 @@ Từ khoá: **PHẢI** · **CẤM** · **NÊN** — như AGENTS.md.
 - **Điều kiện bắt buộc: ghi công** trong audio hoặc chữ hiển thị rõ. Mẫu của Boson:
   `This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio`
   → **PHẢI** có trong mô tả YouTube **mọi tập** dùng Higgs. Sửa mô tả/thẻ kết là quyết định của người dùng (mục 9 AGENTS.md: thẻ miễn trừ intro CẤM sửa).
+  ⇒ **Quyết định người dùng 30/10/2026 (H0):** đặt câu ghi công ở **phần mô tả video khi đăng YouTube**,
+  **không ghép vào audio** (không đọc trước intro, không nhúng vào file master). Đã ghi vào
+  `02_SAN_XUAT/Tap02/xuat_ban/mo_ta.txt`.
 - **Clone giọng chỉ khi có đồng ý rõ ràng, kiểm chứng được** của chủ giọng; lưu hồ sơ đồng ý. **CẤM** clone giọng người trong vụ án, phóng viên, diễn viên, giọng tải từ YouTube/MiniMax/ElevenLabs.
 - **CẤM** gán lời bịa cho người thật (trùng K2/K3). Giữ "Nội dung bị thay đổi hoặc tổng hợp" khi đăng.
 - *Tóm tắt văn bản giấy phép, không phải tư vấn pháp lý.*
@@ -293,9 +296,13 @@ phải lỗi TTS).
    clip sạch nào đạt được — nếu bắt buộc mọi cặp thì phải nhờ Mac mini tạo thêm clip nữ F0 ≤ 160 Hz).
    Bảng lựa chọn + số đo: `90_LUU_TRU/BaoCao_H2_Higgs_Pilot_Tap02_20261030.md` §9.1 và §8.12.
 8. G8 (nghe mù 100%) — chưa chạy; bộ nghe mù H3 đã dựng được (kernel v7 xong 24/24).
-9. Người dùng xác nhận **chấp nhận ghi công Boson** (H0) — điều khoản Creator Use Grant II-A cho phép
-   thương mại nhưng **bắt buộc** ghi "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio"
-   trong mô tả mọi tập.
+9. ~~Người dùng xác nhận **chấp nhận ghi công Boson** (H0)~~ — **ĐÃ CHỐT 30/10/2026**:
+   người dùng chọn đặt câu ghi công ở **phần mô tả video khi đăng YouTube**,
+   **KHÔNG ghép vào audio** và **KHÔNG nhúng vào file master**.
+   ⇒ H0 **đóng**, H4 được phép tiếp tục.
+   Câu ghi công đã ghi vào `02_SAN_XUAT/Tap02/xuat_ban/mo_ta.txt`:
+   `This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio`
+   (chỉ Tập 02 dùng Higgs; Tập 01/03–07 dùng MiniMax nên không cần câu này).
 
 Lỗi mới gặp: thêm dòng vào mục 5/8/11 ở đây **và** tiêu chuẩn mục A11 (L6). Khi Higgs được chốt sản xuất: cập nhật bảng bộ giọng ở mục 4 AGENTS.md.
 

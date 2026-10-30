@@ -1071,10 +1071,10 @@ Phân tích cặp ký kết (12 phương án hợp lệ × 4 cặp cùng giới)
 |---|---|---|---|
 | 1 | **G9 H↔D** — làm gì để tách 2 vai nam? | (a) tạo clip VoxCPM2 mới · (b) dùng clip MiniMax · (c) ghi nhận vi phạm | ✅ **(a)** — đã chọn, clip đã có |
 | 2 | **G9 N1** — làm gì cho vai nữ phụ? | (a) tạo clip nữ mới ~265 Hz · (b) chấp nhận ~2,95 nc | ✅ **(a)** — đã chọn *(đính chính 30/10: hướng (a) của bản cũ là nữ **cao**; đo đủ số liệu cho thấy phải là nữ **thấp** — xem §7)* |
-| 3 | **Ghi công Boson** (H0) — xác nhận chấp nhận? | (a) chấp nhận, ghi công trong mọi tập · (b) chưa | ⏸ **(b)** — **dừng trước H4** tới khi chốt |
+| 3 | **Ghi công Boson** (H0) — xác nhận chấp nhận? | (a) chấp nhận, ghi công trong mọi tập · (b) chưa | ✅ **(a)** — **ĐÃ CHỐT 30/10/2026** (xem dòng 6) |
 | 4 | **Thứ tự tạo clip mới** | — | ✅ Đã xong — Mac mini đã push 4 clip (`bb8896f`) |
 | 5 | **Phân bổ vai Tập 02** (L4 — đổi clip = đổi giọng vai) | (a) đổi H/D/N1/N2 sang clip mới · (b) giữ H và D, chỉ đổi N1/N2 | 🔄 **ĐÃ HỎI LẠI 30/10** (bảng số đo mới ở §9.2) — chờ bạn chốt |
-| 6 | **Ghi công Boson** (H0) — cách ghi công cụ thể | (a) mọi tập + mô tả video + file nguồn · (b) chỉ mô tả video · (c) chưa chốt | 🔄 **ĐÃ HỎI LẠI 30/10** — chờ bạn chốt |
+| 6 | **Ghi công Boson** (H0) — cách ghi công cụ thể | (a) mọi tập + mô tả video + file nguồn · (b) chỉ mô tả video · (c) chưa chốt | ✅ **(b)** — **ĐÃ CHỐT 30/10/2026**: đặt ở **phần mô tả video khi đăng YouTube**, **KHÔNG ghép vào audio**. Đã ghi vào `02_SAN_XUAT/Tap02/xuat_ban/mo_ta.txt`. ⇒ **H0 đóng**, H4 được phép tiếp tục |
 
 ### 9.1 Bảng chọn phân bổ vai — **đã cập nhật sau pilot v8** (số đo thật, §8.12)
 
@@ -1122,7 +1122,7 @@ CER⊘P theo ô: `H.wav` **0,00%** · `M_HIGH` 0,47% · `C.wav` 2,14% · `W6_LOW
 ```
 
 **Bước kế tiếp:** lượt sản xuất 416 file (2 GPU) → đo CER từng câu → chọn bản §7 → vòng 2 cho câu lỗi →
-**H3** (nghe mù V7 + G8, dựng lại theo mapping cuối) → **H4** *(đang dừng chờ chốt ghi công)* →
+**H3** (nghe mù V7 + G8, dựng lại theo mapping cuối) → **H4** *(đã mở lại 30/10 — H0 đã chốt)* →
 **H5** (dựng video).
 
 ---
