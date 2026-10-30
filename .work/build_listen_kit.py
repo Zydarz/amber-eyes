@@ -196,7 +196,7 @@ kl.append("")
 readme = """# KIT NGHE MU H3 — Higgs Audio v3, Tập 02
 
 ## Cách dùng
-1. Nghe `01_THEO_THU_TU_THANH_AM_P*.wav` (12 file, 4 cặp × 3 câu) và `02_G8_*.wav` (10 file).
+1. Nghe `01_THEO_THU_TU_THANH_AM_P*.wav` (32 file, 4 cặp × 8) và `02_G8_*.wav` (10 file).
    **Nghe thuần tai**, không xem đáp án.
 2. Điền `03_BANG_TR_LOI.md`.
 3. Xong thì mở `DAP_AN_KHOA.txt` để tự chấm.
@@ -204,15 +204,24 @@ readme = """# KIT NGHE MU H3 — Higgs Audio v3, Tập 02
 ## Bối cảnh
 - Tập 02 có 5 vai: H (nam, dẫn chuyện) · D (nam, thám tử) · C (nữ, chuyên gia tâm lý) ·
   N1 (nữ, người kể 1) · N2 (nữ, người kể 2).
-- H và D đã bị trùng cao độ (chỉ cách 1,19 nửa cung) ⇒ đổi clip tham chiếu:
-  H dùng clip rất trầm, D dùng clip cao hơn. Bộ kit này kiểm tra **người nghe có
-  phân biệt được 2 giọng nam không**, và có tách được khỏi giọng nam trung niên W4 không.
+- Hai giọng nam **gốc** (H và D) chỉ cách nhau **0,22 nửa cung** (ngưỡng G9 = 4) ⇒ phải đổi clip
+  tham chiếu của một trong hai. Bộ kit này kiểm tra **người nghe có phân biệt được 2 giọng nam
+  không**, và có tách được khỏi giọng nam trung niên W4 không.
 - N2 (clip nữ cao) đối chiếu với W2 (nữ trung niên) và C (nữ chuyên gia).
 
+## Mapping đang dùng cho bộ kit này
+| Vai | Clip tham chiếu | Ghi chú |
+|---|---|---|
+| H | `%s` | |
+| D | `%s` | |
+| C | `%s` | |
+| W4 | `W4.wav` | clip đối chiếu (nam trung niên), không dùng cho vai nào |
+| W2 | `W2.wav` | clip đối chiếu (nữ trung niên), không dùng cho vai nào |
+
 ## Tiêu chí đạt
-- V7: mỗi cặp nhận diện đúng 2 giọng khác nhau.
+- V7: mỗi cặp nhận diện đúng 2 giọng khác nhau (100%%).
 - G8: mỗi giọng tìm đủ 2 file cùng người (5 cặp).
-"""
+""" % (ROLE_MAP.get("H", "?"), ROLE_MAP.get("D", "?"), ROLE_MAP.get("C", "?"))
 (OUT / "README.md").write_text(readme, encoding="utf-8")
 
 print("\nda dung kit nghe mu -> %s" % OUT)
