@@ -1,0 +1,23 @@
+{
+  "M_HIGH": {
+    "take": "M_HIGH_take01.wav",
+    "f0_target": [168, 182],
+    "why": "Dự phòng cho vai D (thám tử nam 50+ khàn). Mục tiêu: F0 audio clone >= 164 Hz để cách vai H (130 Hz) >= 4 nửa cung.",
+    "control": "A man in his late fifties, higher-pitched and clear with a firm carrying tenor voice, slightly rough and weathered timbre, cold and detached, authoritative and clinical, Vietnamese Standard, strictly neutral and unemotional, steady deliberate pace",
+    "text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự."
+  },
+  "M_LOW": {
+    "take": "M_LOW_take01.wav",
+    "f0_target": [80, 92],
+    "why": "Dự phòng cho vai H (người dẫn chuyện nam trầm ấm). Mục tiêu: F0 audio clone <= 96 Hz để cách vai D (121 Hz) >= 4 nửa cung. Hợp mô tả nhân vật 'deep chesty resonance'.",
+    "control": "A man in his early forties, very low-pitched with a deep bass resonance, calm and unhurried, intimate late-night podcast narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace",
+    "text": "Chào mừng bạn đến với chuyên mục giải mã tâm lý tội phạm. Mỗi hồ sơ đều bắt đầu bằng câu hỏi nặng trĩu, mà không ai trả lời nổi, dù sự thật vẫn luôn nằm ở đó. Khi lần theo từng trang tài liệu, chúng ta không tìm kiếm sự phán xét vội vàng, mà cùng nhìn nhận những chuyển biến thầm lặng bên trong một con người."
+  },
+  "W5_HIGH": {
+    "take": "W5_HIGH_take01.wav",
+    "f0_target": [258, 276],
+    "why": "Cho vai N1 (người kể chuyện thứ hai, nữ). Mục tiêu: F0 audio clone >= 258 Hz để cách vai C (205 Hz) >= 4 nửa cung.",
+    "control": "A woman in her early twenties, very high-pitched and bright with a light airy youthful timbre, conversational and slightly breathy, Vietnamese Standard, neutral and relaxed tone, natural everyday pace",
+    "text": "Những năm tháng ở căn cứ Trenton, chúng tôi quen với những con đường ngay ngắn và những hành lang lặng lẽ. Mỗi sáng, mọi người đều dừng lại trước tấm biển đồng trên cổng chính, và chẳng ai nhắc đến những gì đã xảy ra sau đó. Tôi vẫn nhớ rõ vẻ mặt của người lính trực đêm đêm cuối cùng."
+  }
+}

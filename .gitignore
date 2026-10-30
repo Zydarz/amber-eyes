@@ -47,3 +47,7 @@ assets/bg/
 *.h
 *.pyc
 __pycache__/
+
+# ---------- Clip tham chieu VoxCPM2 moi cho G9: ban 48 kHz thuc (trung gian) ----------
+# Chi commit ban dong goi 24 kHz trong assets/voice_ref_voxcpm2_g9/
+assets/voice_ref_voxcpm2_g9_raw/
