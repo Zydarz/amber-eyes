@@ -1,0 +1,32 @@
+{
+ "D_NEW": {
+  "f0_target": [
+   78,
+   88
+  ],
+  "syl_target": [
+   2.9,
+   3.3
+  ],
+  "why": "VONG 3 (sau pilot v9 Kaggle): Higgs giu gan nguyen F0 clip D rat tram (89->91 Hz, 97->96-101 Hz). Host clone 123-126 Hz (neutral) => can clip 78-88 Hz de D~H >= 4,5 nc. Seed 42/7 la 2 seed duy nhat ra D tram o vong 1-2.",
+  "control_variants": [
+   {
+    "tag": "bass-gravel",
+    "control": "A Vietnamese man in his late fifties, extremely low-pitched deep bass voice, rough and gravelly, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, every word clearly articulated, quiet studio recording"
+   },
+   {
+    "tag": "smoker-bass",
+    "control": "A Vietnamese man in his late fifties, deep bass voice with a gritty smoker's rasp, very low register, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, every word clearly articulated, quiet studio recording"
+   },
+   {
+    "tag": "subbass-husky",
+    "control": "A Vietnamese man in his late fifties, sub-bass, very deep and husky, chest voice, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, crisp consonants, quiet studio recording"
+   },
+   {
+    "tag": "low-growl",
+    "control": "A Vietnamese man in his late fifties, very low-pitched, deep and gravelly with a slight growl, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, crisp consonants, quiet studio recording"
+   }
+  ],
+  "text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng."
+ }
+}
