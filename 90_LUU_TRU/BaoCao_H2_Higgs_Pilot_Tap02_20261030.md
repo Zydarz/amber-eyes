@@ -339,6 +339,71 @@ Mục tiêu: chứng minh lỗi G9 H↔D **không phải do may rủi seed** mà
 *"low-pitched, deep chesty resonance"* nên giọng trầm hợp vai hơn, còn vai D giữ được
 *"late fifties, gravelly"*. Script vẫn sinh **cả hai** bộ (`M_LOW` + `M_HIGH`) để chọn bằng số đo thật.
 
+### 6.7 Pilot v5 XONG — trả lời được câu hỏi mấu chốt
+
+**Kết quả kernel:** 104/104 bản OK, 0 lỗi · frame-rate 25,02 Hz · `max_new_tokens` 1196 ·
+RTF tb 2,07 (max 3,15) · VRAM đỉnh 9,94 GB · tổng 1446,6 s sinh.
+
+**Số đo F0 (n = 8 mỗi ô, temp 0,8):**
+
+| Vai | Clip tham chiếu | F0 clip | F0 clone (AC thô) | F0 clone (AC chuẩn hóa) | Tỉ lệ |
+|---|---|---:|---:|---:|---:|
+| H | H.wav | 107 Hz | 131,1 Hz | 125,7 Hz | 1,22 |
+| D | D.wav | 132 Hz | 123,1 Hz | 125,7 Hz | 0,93 |
+| **H** | **W4.wav** | 134 Hz | **140,4 Hz** | 134,2 Hz | 1,05 |
+| **D** | **W4.wav** | 134 Hz | **141,2 Hz** | 139,9 Hz | 1,06 |
+| **H** | **W3.wav** | 157 Hz | **162,2 Hz** | 158,0 Hz | 1,04 |
+| **D** | **W3.wav** | 157 Hz | **160,0 Hz** | 157,8 Hz | 1,02 |
+
+**Đây là kết luận quan trọng nhất của toàn bộ đợt đo:**
+
+> **Cùng MỘT clip tham chiếu, cho HAI vai khác nhau ⇒ F0 clone gần như y hệt**
+> (W4: 140,4 vs 141,2 · W3: 162,2 vs 160,0).
+> ⇒ **Cao độ audio clone do clip tham chiếu quyết định**, không phải do vai.
+> ⇒ Giả thuyết "Higgs kéo mọi giọng nam về cùng một vùng ~125 Hz" **bị bác bỏ**.
+
+**G9 H↔D — duyệt cả 9 tổ hợp (H clip × D clip):**
+
+| H clip | D clip | H F0 | D F0 | nc (AC thô) | nc (AC chuẩn hóa) | Kết luận |
+|---|---|---:|---:|---:|---:|---|
+| W4 | D.wav | 140,4 | 123,1 | 2,28 | 1,13 | ❌ trượt |
+| W4 | W4 | 140,4 | 141,2 | 0,10 | 0,72 | ❌ trượt |
+| W4 | W3 | 140,4 | 160,0 | 2,26 | 2,80 | ❌ trượt |
+| **W3** | **D.wav** | 162,2 | 123,1 | **4,78** | **3,96** | ⚠ **cảnh báo** |
+| W3 | W4 | 162,2 | 141,2 | 2,40 | 2,11 | ❌ trượt |
+| W3 | W3 | 162,2 | 160,0 | 0,24 | 0,02 | ❌ trượt |
+
+**Đọc kết quả:**
+1. **Clip có sẵn không cứu được H↔D.** Tổ hợp tốt nhất `H←W3 + D←D.wav` = 4,78 nc (AC thô) nhưng
+   3,96 nc (AC chuẩn hóa) ⇒ chưa chắc đạt 4 nc theo cả 2 thuật toán. Hơn nữa W3 là giọng **nam trẻ**
+   còn vai H là người dẫn chuyện trầm ấm ⇒ **vẫn cần clip mới**.
+2. **Cơ chế đã rõ ⇒ clip mới sẽ có tác dụng.** Tỉ lệ `clone / clip` ở ref từ 132 Hz trở lên là
+   **1,02–1,06** (rất ổn định). Chỉ ở ref **thấp** (H.wav 107 Hz) tỉ lệ nhảy lên **1,22**.
+   ⇒ Đã **hạ dải mục tiêu của `M_LOW` từ 80–92 xuống 70–86 Hz** để chừa biên cho cú kéo lên này.
+3. **Bổ phòng:** nếu `M_LOW` vẫn ra > 97 Hz thì dùng **cả `M_LOW` + `M_HIGH`** cho H và D
+   (margin ~10 nc) — G9 chắc chắn đạt, đổi lại vai D thành tenor cao.
+
+**Hai phát hiện phụ từ pilot v5:**
+- **`temperature 0,7` runaway ở D 2.05#15 và 2.05#16** → 47,56 s (đúng 2 câu đã có CER cao ở pilot v3).
+  Ở `temperature 0,8` hai câu này ra 2,2–15,3 s ⇒ **xác nhận lần thứ 3 rằng t=0,8 là lựa chọn đúng**.
+- **43/104 file vượt −1,5 dBFS** ⇒ `build_audio3.py` (loudnorm 2-pass, TP=−1,5) sẽ xử lý ở H4;
+  phải kiểm lại sau khi mix.
+- Cờ `tag_words_risk` trong manifest **bị đặt sai** (nó kiểm tra *text đầu vào* vốn đã chứa thẻ, nên
+  52/104 "có" là hệ quả tất yếu, không phải lỗi model). Đã kiểm lại đúng cách trên **349 bản chép ASR
+  thật** trong cache: **không bản chép nào chứa từ khoá thẻ** (`emotion`/`sadness`/`fear`/`surprise`/
+  `pause`/`prosody`/`style:`/`sfx:`) ⇒ **§5 an toàn**.
+
+### 6.8 Tóm tắt trạng thái sau pilot v5
+
+| Việc | Trạng thái |
+|---|---|
+| G9 H↔D — cơ chế | ✅ **Đã rõ**: F0 clone do clip tham chiếu quyết định (tỉ lệ 1,02–1,06 ở ref ≥ 132 Hz) |
+| G9 H↔D — clip cần tạo | ⏳ Chờ user chạy script trên Mac mini (`M_LOW` 70–86 Hz + `M_HIGH` 168–182 Hz) |
+| G9 N1↔N2 | ⏳ Cần clip **nữ trầm** `W6_LOW` (148–162 Hz) — chi tiết ở §7 |
+| temperature | ✅ `0,8` cho H/D/C — xác nhận lần 3 (t=0,7 runaway 47,56 s ở D 2.05#15/#16) |
+| §5 thẻ emotion | ✅ an toàn — kiểm trên 349 bản chép ASR thật, không có từ khoá thẻ |
+| CER | ✅ đạt (H 0,00% · C 0,00% · N2 0,63%); D 2,27% cần đa bản §7 |
+
 ---
 
 ## 7. Lỗi 6 — Vai N1: cặp N1↔N2 chưa từng được kiểm, và phương án cũ tạo ra vi phạm mới

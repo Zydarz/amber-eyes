@@ -32,20 +32,38 @@ Tỉ lệ `clone / clip gốc` dao động **0,93 → 1,22** (đo ở 9 tổ h�
 | N1 ← W3 | 157 Hz | 157 Hz | 0% |
 | N2 ← W1 | 235 Hz | 276 Hz | **+17%** |
 
-⇒ Không có quy luật để suy ra chắc chắn ⇒ **mọi con số phải đo lại bằng pilot**, không đoán.
+**Pilot v5 (30/10, 104 bản) đã đo lại và xác nhận cơ chế:** cho **cùng một clip tham chiếu** vào **hai vai
+khác nhau** thì F0 clone gần như **y hệt** ⇒ cao độ clone do **clip tham chiếu** quyết định:
+
+| Vai | Clip | F0 clip | F0 clone | Tỉ lệ |
+|---|---|---:|---:|---:|
+| H | H.wav | 107 Hz | 131 Hz | 1,22 |
+| D | D.wav | 132 Hz | 123 Hz | 0,93 |
+| H | W4.wav | 134 Hz | **140 Hz** | 1,05 |
+| D | W4.wav | 134 Hz | **141 Hz** | 1,06 |
+| H | W3.wav | 157 Hz | **162 Hz** | 1,04 |
+| D | W3.wav | 157 Hz | **160 Hz** | 1,02 |
+
+⇒ **Đổi clip tham chiếu là đủ để tách vai.** Tổ hợp tốt nhất trong clip có sẵn là
+`H←W3 + D←D.wav` = **4,78 nc** (AC thô) / **3,96 nc** (AC chuẩn hóa) — *cảnh báo*, chưa chắc đạt,
+và W3 là giọng **nam trẻ** (vai H vốn là người dẫn chuyện trầm ấm) ⇒ **vẫn cần clip mới**.
+
 ⇒ Bộ 7 clip hiện tại **không đủ**. Cần thêm clip mới.
 
 ## 2. Cần tạo 4 bộ clip
 
 | Tên | Dùng cho | F0 mục tiêu của **clip** | Vì sao (tính từ số đo thật) |
 |---|---|---|---|
-| `M_LOW` | dự phòng cho vai **H** | **80–92 Hz** (nam rất trầm) | audio clone phải ≤ 97 Hz để cách D (122 Hz) ≥ 4 nc. Hợp mô tả nhân vật "deep chesty resonance" |
+| `M_LOW` | dự phòng cho vai **H** | **70–86 Hz** (nam rất trầm) | audio clone phải ≤ 97 Hz để cách D (123 Hz) ≥ 4 nc. Hạ dải xuống (thay vì 80–92) vì ở ref thấp Higgs hay kéo **lên** (H.wav 107→131 = +22%). Hợp mô tả "deep chesty resonance" |
 | `M_HIGH` | dự phòng cho vai **D** | **168–182 Hz** (nam cao) | audio clone phải ≥ 165 Hz để cách H (131 Hz) ≥ 4 nc |
-| **`W6_LOW`** | **vai N1** (khuyến nghị) | **148–162 Hz** (nữ trầm) | N1 phải **≤ 163 Hz** để cách **cả C (205 Hz) lẫn N2 (276 Hz)** đều ≥ 4 nc |
+| **`W6_LOW`** | **vai N1** (khuyến nghị) | **148–162 Hz** (nữ trầm) | N1 phải **≤ 163 Hz** để cách **cả C (205 Hz) lẫn N2 (273 Hz)** đều ≥ 4 nc |
 | `W5_HIGH` | phương án B cho vai **N1** | **258–276 Hz** (nữ cao) | chỉ dùng nếu đổi N2 sang `W6_LOW`; nếu để N2 ← W1 thì clip này làm N1 **sát N2** (~1,7 nc) ❌ |
 
 Cả 4 bộ đều **dự phòng** — sau khi có clip, tôi sẽ đo lại trên Kaggle (audio clone thật) rồi mới chốt
 vai nào dùng clip nào. Sinh cả 4 giúp tránh phải quay lại Mac mini lần nữa.
+
+> **Bổ phòng:** nếu `M_LOW` sinh ra clip mà clone vẫn > 97 Hz ⇒ dùng **cả `M_LOW` + `M_HIGH`** cho H và D
+> (margin ~10 nc) thay vì giữ `D.wav` cho D.
 
 ## 3. Cách chạy
 

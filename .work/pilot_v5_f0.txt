@@ -1,0 +1,40 @@
+﻿manifest: D:\TEST\Gax\amber-eyes\.work\kaggle_higgs\out_higgs_v5\out_higgs_v5\higgs_manifest.json | OK: 104 | FAIL: 0
+
+========================================================================================================
+PILOT v5 — F0 THUC cua audio clone
+========================================================================================================
+Vai  Clip      Temp  n    F0_ac     F0_pp2    drift%    Thoi luong 
+D    D.wav     0.7   24   122.4     126.6     -7%       2.2-47.6 s 
+D    D.wav     0.8   24   123.1     125.7     -7%       2.2-15.3 s 
+D    W3.wav    0.8   8    160.0     157.8               2.6-14.3 s 
+D    W4.wav    0.8   8    141.2     139.9               2.4-12.9 s 
+H    W3.wav    0.8   8    162.2     158.0               2.0-12.0 s 
+H    W4.wav    0.8   8    140.4     134.2               1.9-11.4 s 
+N1   W1.wav    0.7   12   244.9     231.4               4.7-7.2 s  
+N2   W1.wav    0.7   12   272.7     259.6               5.0-8.7 s  
+
+========================================================================================================
+G9 H<->D — DUYET TAT CA TO HOP (H clip) x (D clip)
+========================================================================================================
+H clip     D clip     H F0       D F0       nc_ac    nc_pp2   Ket
+W4.wav     D.wav      140.4      123.1      2.28     1.13     TRUOT
+W4.wav     W4.wav     140.4      141.2      0.10     0.72     TRUOT
+W4.wav     W3.wav     140.4      160.0      2.26     2.80     TRUOT
+W3.wav     D.wav      162.2      123.1      4.78     3.96     CANH BAO
+W3.wav     W4.wav     162.2      141.2      2.40     2.11     TRUOT
+W3.wav     W3.wav     162.2      160.0      0.24     0.02     TRUOT
+
+========================================================================================================
+KET LUAN
+========================================================================================================
+To hop tot nhat voi clip CO SAN: H<-W3.wav , D<-D.wav  => 4.78 nc (AC thô) / 3.96 nc (AC chuẩn hóa) -> CANH BAO
+
+F0 clone theo clip tham chieu (gop vai H va D, temp 0.8):
+   D.wav    ->  123.1 Hz
+   W3.wav   ->  162.2 Hz
+   W4.wav   ->  140.4 Hz
+
+=> Neu F0 clone DI CHUYEN theo clip tham chieu (W3 cao hon W4 cao hon H/D goc),
+   Higgs GIU (mot phan) cao do. Neu 4 o deu ve ~125 Hz, Higgs KHONG giu.
+
+-> D:\TEST\Gax\amber-eyes\.work\pilot_v5_f0.json

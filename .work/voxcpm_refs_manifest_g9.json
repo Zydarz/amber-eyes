@@ -20,9 +20,9 @@
     "text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự."
   },
   "M_LOW": {
-    "f0_target": [80, 92],
-    "why": "Dự phòng cho vai H (người dẫn chuyện nam trầm ấm). Mục tiêu: F0 audio clone <= 96 Hz để cách vai D (121 Hz) >= 4 nửa cung.",
-    "note": "Clip H hiện tại dùng 'low-pitched + deep chesty resonance' -> 108 Hz. Cần đẩy xuống dưới 92 Hz.",
+    "f0_target": [70, 86],
+    "why": "Dự phòng cho vai H (người dẫn chuyện nam trầm ấm). Mục tiêu: F0 audio clone <= 97 Hz để cách vai D (123 Hz) >= 4 nửa cung. Hạ dải xuống 70-86 Hz (thay vì 80-92) sau pilot v5: Higgs co the keo CAO o ref thap (H.wav 107 Hz -> clone 131 Hz, +22%) nen can clip tham chieu thap hon de clone ra <= 97 Hz.",
+    "note": "Clip H hien tai dung 'low-pitched + deep chesty resonance' -> 107 Hz. Can day xuong duoi 86 Hz. BIEN PHONG: neu M_LOW clone ra > 97 Hz, dung cap M_LOW + M_HIGH cho ca H va D (margin ~10 nc) thay vi giu D.wav.",
     "control_variants": [
       {
         "tag": "very-low",

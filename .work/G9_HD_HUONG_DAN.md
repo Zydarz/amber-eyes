@@ -26,49 +26,59 @@ Mỗi ô vai × clip có **n = 16** (C/D/H) hoặc **n = 8** (N1/N2).
 
 Hai vai gần như **cùng cao độ**. Người xem sẽ lẫn.
 
+> **Pilot v5 (xong 30/10)** đã đo thêm 104 bản để trả lời "Higgs có giữ cao độ của clip tham chiếu không?"
+> ⇒ **CÓ, nhưng không chính xác 1-1** (tỉ lệ 0,93–1,22). Chi tiết ở mục 1.3.
+
 ### 1.3 Tại sao lệch như vậy — đây là mấu chốt
 
-> **Higgs bắt chước CHẤT GIỌNG của clip mẫu (âm sắc, chất tạp âm) nhưng KHÔNG bắt chước CAO ĐỘ 1-1.**
-> Một clip cao hơn 20 Hz **không** bảo đảm audio clone cao hơn 20 Hz.
+> **Higgs bắt chước CHẤT GIỌNG của clip mẫu (âm sắc, chất tạp âm) và CÓ BẮT CHƯỚC CAO ĐỘ — nhưng không chính xác 1-1.**
+> Pilot v5 đã đo lại điều này bằng cách cho **cùng một clip tham chiếu** vào **hai vai khác nhau**.
 
-Chứng cứ (đo được ở 9 tổ hợp vai × clip, cả 2 bộ pilot):
+**Số đo pilot v5 (104 bản, temp 0,8, n = 8 mỗi ô):**
 
-| Vai | Clip gốc | Audio clone | Lệch | Higgs làm gì |
-|---|---:|---:|---:|---|
-| H | 107 Hz | 131 Hz | **+22%** | đẩy **LÊN** |
-| D | 132 Hz | 122 Hz | **−7%** | đẩy **XUỐNG** |
-| C | 200 Hz | 205 Hz | +3% | giữ gần như nguyên |
-| N1 ← W1 | 235 Hz | 247 Hz | +5% | giữ gần như nguyên |
-| N1 ← W2 | 189 Hz | 197 Hz | +4% | giữ gần như nguyên |
-| N1 ← W3 | 157 Hz | 157 Hz | 0% | giữ gần như nguyên |
-| N2 ← W1 | 235 Hz | 276 Hz | **+17%** | đẩy **LÊN** |
-| N2 ← W2 | 189 Hz | 207 Hz | +9% | đẩy lên nhẹ |
-| N2 ← W3 | 157 Hz | 171 Hz | +9% | đẩy lên nhẹ |
+| Vai | Clip tham chiếu | F0 clip | F0 clone | Tỉ lệ |
+|---|---|---:|---:|---:|
+| H | H.wav | 107 Hz | 131 Hz | 1,22 |
+| D | D.wav | 132 Hz | 123 Hz | 0,93 |
+| **H** | **W4.wav** | 134 Hz | **140 Hz** | 1,05 |
+| **D** | **W4.wav** | 134 Hz | **141 Hz** | 1,06 |
+| **H** | **W3.wav** | 157 Hz | **162 Hz** | 1,04 |
+| **D** | **W3.wav** | 157 Hz | **160 Hz** | 1,02 |
 
-⇒ Tỉ lệ **clone / clip gốc** dao động **0,93 → 1,22**. Không có quy luật nào để suy ra chắc chắn.
-Đó là lý do mọi con số trong tài liệu này đều phải **đo lại**, không được suy đoán.
+⇒ **Cùng một clip cho 2 vai khác nhau ⇒ F0 clone gần như y hệt** (W4: 140 vs 141; W3: 162 vs 160).
+Nghĩa là **cao độ audio clone do clip tham chiếu quyết định**, không phải do vai.
+⇒ Tỉ lệ `clone / clip` dao động **0,93 → 1,22**, trung vị ~1,03.
 
-**Hệ quả quan trọng:** *không thể sửa bằng cách chỉnh tham số lúc đọc* (temperature, seed, …).
-Phải **đổi chính clip tham chiếu**, rồi **đo lại bằng pilot** mới chốt.
+**Hệ quả trực tiếp:** muốn tách 2 vai nam thì **đổi clip tham chiếu** là đủ — không cần tinh chỉnh
+thêm tham số đọc (temperature, seed…), và cũng không cần chờ đợi điều gì khác.
+
+**Rủi ro đã lường trước:** ở ref **thấp** (H.wav 107 Hz) Higgs kéo **LÊN** tới +22% ⇒ clip mới
+cho H phải đủ thấp (mục tiêu **70–86 Hz**) để clone ra ≤ 97 Hz.
+**Bổ phòng:** nếu M_LOW vẫn ra > 97 Hz thì dùng **cả M_LOW + M_HIGH** cho H và D — margin ~10 nc.
 
 ### 1.4 Vậy cần con số bao nhiêu
 
-Tính từ số đo thật (giữ H ở 131 Hz, D ở 122 Hz, C ở 205 Hz, N2 ← W1 ở 276 Hz):
+Tính từ số đo thật (giữ D ở 123 Hz, C ở 205 Hz, N2 ← W1 ở 273 Hz):
 
-| Muốn | Điều kiện | Nghĩa là clip tham chiếu phải ở |
+| Muốn | Điều kiện trên **audio clone** | ⇒ Dải F0 của **clip tham chiếu** |
 |---|---|---|
-| **Hạ H xuống** | H ≤ 122 / 1,26 = **≤ 97 Hz** | khoảng **70–100 Hz** (→ `M_LOW`) |
-| **Nâng D lên** | D ≥ 131 × 1,26 = **≥ 165 Hz** | khoảng **150–190 Hz** (→ `M_HIGH`) |
-| **Hạ N1 xuống** | N1 ≤ 205 / 1,26 = **≤ 163 Hz** | khoảng **140–175 Hz** (→ `W6_LOW`) |
+| **Hạ H xuống** | H ≤ 123 / 1,26 = **≤ 97 Hz** | **70–86 Hz** → `M_LOW` |
+| **Nâng D lên** | D ≥ 131 × 1,26 = **≥ 165 Hz** | 150–190 Hz → `M_HIGH` |
+| **Hạ N1 xuống** | N1 ≤ 205 / 1,26 = **≤ 163 Hz** | 140–175 Hz → **`W6_LOW`** |
 
 **Hai hướng cho H↔D — hãy chọn theo mô tả nhân vật:**
 
 | Hướng | Clip mới cho ai | Kết quả dự kiến | Khớp nhân vật? |
 |---|---|---|---|
-| **A** | `M_LOW` (nam rất trầm) cho **H**, giữ `D.wav` cho D | H ~90 Hz ⇒ cách D (122) ≈ 5,1 nc | ✅ **H tốt hơn** — vai H vốn được mô tả *"low-pitched, deep chesty resonance"*; vai D giữ nguyên *"late fifties, gravelly"* |
-| **B** | giữ `H.wav` cho H, `M_HIGH` (nam cao) cho **D** | D ~168 Hz ⇒ cách H (131) ≈ 4,4 nc | ⚠ vai D thành tenor cao, lệch *"late fifties, gravelly"* |
+| **A** | `M_LOW` (nam rất trầm) cho **H**, giữ `D.wav` cho D | H ~85 Hz ⇒ cách D (123) ≈ 6,4 nc | ✅ **H tốt hơn** — vai H vốn được mô tả *"low-pitched, deep chesty resonance"*; vai D giữ nguyên *"late fifties, gravelly"* |
+| **B** | giữ `H.wav` cho H, `M_HIGH` (nam cao) cho **D** | D ~175 Hz ⇒ cách H (131) ≈ 5,0 nc | ⚠ vai D thành tenor cao, lệch *"late fifties, gravelly"* |
+| **C (dự phòng)** | `M_LOW` cho **H** + `M_HIGH` cho **D** | cách nhau ~10 nc — margin rất rộng | ⚠ D thành tenor, nhưng G9 chắc chắn đạt |
 
-⇒ **Ưu tiên hướng A.** Vì vậy script sinh **cả hai** bộ (`M_LOW` + `M_HIGH`) — đo xong mới chốt.
+⇒ **Ưu tiên hướng A.** Script sinh **cả hai** bộ (`M_LOW` + `M_HIGH`) — đo xong mới chốt.
+
+> **Bổ sung từ pilot v5:** với clip **có sẵn**, tổ hợp tốt nhất là **H←W3.wav + D←D.wav** ⇒
+> **4,78 nc** (AC thô) / **3,96 nc** (AC chuẩn hóa) — *cảnh báo*, chưa chắc đạt 4 nc theo cả 2 thuật toán,
+> và W3 là giọng **nam trẻ** (vai H vốn là người dẫn chuyện trầm ấm) ⇒ **vẫn cần clip mới**.
 
 ### 1.5 Vai N1 — đây là chỗ đã sửa lại sau khi đo đủ số liệu
 

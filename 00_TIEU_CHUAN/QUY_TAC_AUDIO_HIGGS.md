@@ -179,11 +179,16 @@ Code: thêm nhánh engine trong `tts_sentences.py` (ví dụ `AE_TTS=higgs`), **
 
 * F0 **của audio đã clone** (không phải clip gốc): H **131,1 Hz**, D **122,4 Hz** ⇒ **1,19 nửa cung**
   (AC thô) / **0,01 nc** (AC chuẩn hóa + sửa octave) — cần ≥ 4.
-* Cơ chế: Higgs **không giữ F0 1-1** của clip tham chiếu. Tỉ lệ `clone / clip gốc` đo ở 9 tổ hợp
-  vai × clip dao động **0,93 → 1,22** (H: 107→131 Hz **+22%**; N2←W1: 235→276 Hz **+17%**;
-  D: 132→122 Hz **−7%**) ⇒ **không suy ra được chắc chắn, mọi clip mới phải đo lại bằng pilot**.
-* Với 7 clip VoxCPM2 VI hiện có **không thể đạt G9 cho H↔D** ⇒ cần **clip tham chiếu mới**
-  (H: clip 70–100 Hz · D: clip 150–190 Hz) hoặc ghi nhận vi phạm (cần người dùng quyết).
+* Cơ chế (**đã xác nhận bằng pilot v5, 104 bản**): Higgs **CÓ bắt chước cao độ** của clip tham chiếu,
+  nhưng **không chính xác 1-1**. Cho **cùng một clip** vào **hai vai khác nhau** thì F0 clone gần như
+  **y hệt** (W4: H 140,4 Hz vs D 141,2 Hz · W3: H 162,2 Hz vs D 160,0 Hz) ⇒ **cao độ clone do clip
+  tham chiếu quyết định**. Tỉ lệ `clone / clip` = **1,02–1,06** ở ref ≥ 132 Hz, nhưng **1,22** ở ref
+  thấp (H.wav 107→131 Hz) ⇒ **khi tạo clip thấp (cho vai H) phải chừa biên cho cú kéo lên này**.
+* ⇒ Đổi clip tham chiếu **là đủ** để tách vai — không cần tinh chỉnh thêm tham số đọc.
+* Với 7 clip VoxCPM2 VI hiện có **không thể đạt G9 cho H↔D**: tổ hợp tốt nhất là
+  `H←W3 + D←D.wav` = 4,78 nc (AC thô) / 3,96 nc (AC chuẩn hóa) — *chưa chắc đạt theo cả 2 thuật toán*,
+  và W3 là giọng nam trẻ ⇒ **cần clip tham chiếu mới** (H: clip **70–86 Hz** · D: clip 150–190 Hz)
+  hoặc ghi nhận vi phạm (cần người dùng quyết).
 * **3 vai nữ ⇒ 3 cặp phải kiểm** (C↔N1 · C↔N2 · **N1↔N2**). Cặp **N1↔N2 bị bỏ sót** trong bản đo đầu:
   N1←W1 = 247,4 Hz, N2←W1 = 275,9 Hz ⇒ **1,89 nc ❌**. `C ↔ N1` (W1) = 3,25 nc ❌ ·
   `C ↔ N2` (W1) = 5,13 nc ✅ ⇒ **N2 ← W1 chốt được**.
