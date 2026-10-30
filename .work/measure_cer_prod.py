@@ -27,7 +27,8 @@ ROOT = HERE.parent
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(ROOT))
 
-from voice_audition import cer, norm  # noqa: E402
+from voice_audition import cer, norm  # noqa: E402  (giữ để tương thích, không dùng cho CER chính)
+import vi_cer  # noqa: E402
 
 CACHE = HERE / "kaggle_higgs" / "_asr_cache_prod"
 CACHE.mkdir(parents=True, exist_ok=True)
@@ -43,63 +44,10 @@ ROUNDS = a.rounds
 WAVDIR = pathlib.Path(a.dir)
 
 # ------------------------------------------------------------------ chuan hoa so (Q3a)
-_DG = ["không", "một", "hai", "ba", "bốn", "năm", "sáu", "bảy", "tám", "chín"]
-
-
-def _vi_lt100(n, full):
-    if n < 10:
-        return ("lẻ " if full else "") + _DG[n] if (n or not full) else ""
-    t, u = divmod(n, 10)
-    s = "mười" if t == 1 else _DG[t] + " mươi"
-    if u == 0:
-        return s
-    if u == 5:
-        return s + " lăm"
-    if u == 1 and t > 1:
-        return s + " mốt"
-    if u == 4 and t > 1:
-        return s + " tư"
-    return s + " " + _DG[u]
-
-
-def _vi_lt1000(n, full):
-    h, r = divmod(n, 1000)
-    if h == 0 and not full:
-        return _vi_lt100(r, False)
-    s = _DG[h] + " trăm"
-    return s + (" " + _vi_lt100(r, True) if r else "")
-
-
-def vi_number(n):
-    if n == 0:
-        return "không"
-    parts, units = [], ["", " nghìn", " triệu", " tỷ"]
-    groups = []
-    while n:
-        n, g = divmod(n, 1000)
-        groups.append(g)
-    for i in range(len(groups) - 1, -1, -1):
-        g = groups[i]
-        if g == 0:
-            continue
-        lead = i == len(groups) - 1
-        parts.append(_vi_lt1000(g, not lead) + units[i])
-    return " ".join(parts)
-
-
-def vi_numbers(text):
-    def rep(m):
-        s = m.group(0).replace(".", "")
-        if not s.isdigit():
-            return m.group(0)
-        parts = []
-        while len(s) > 3:
-            parts.insert(0, s[-3:])
-            s = s[:-3]
-        if s:
-            parts.insert(0, s)
-        return " ".join(vi_number(p) for p in parts)
-    return re.sub(r"\d[\d.]*", rep, text)
+# DUNG module dung chung `.work/vi_cer.py` — ban sao rieng trong file nay da TUNG SAI
+# (`divmod(n, 1000)` thay vi `divmod(n, 100)`) => vỡ với số >= 100 va doc sai nam
+# (2009 -> "khong tram chin"). `vi_cer.selfcheck()` kiem tra khop 100% voi pipeline.
+vi_numbers = vi_cer.vi_numbers
 
 
 # ------------------------------------------------------------------ ASR
@@ -169,14 +117,21 @@ def main():
         txt = r.get("text_plain") or r.get("text_sent") or ""
         txt = re.sub(r"<\|[^|]*\|>", " ", txt)
         txt = re.sub(r"<#.*?#>", " ", txt)
-        r["text_norm"] = norm(vi_numbers(txt))
-        best = None
+        r["text_norm"] = vi_cer.norm_ref(txt)
+        best = best_nn = best_pr = None
         for h in hyps:
             if not h:
                 continue
-            c = cer(txt, h)
-            best = c if best is None else max(best, c)   # lay luot XAU HON
+            # CER CHINH THUC: chuan hoa CA HAI VE (Q3a). Lay luot XAU HON.
+            c = vi_cer.cer_pair(txt, h)
+            best = c if best is None else max(best, c)
+            cn = vi_cer.cer_pair_nonum(txt, h)
+            best_nn = cn if best_nn is None else max(best_nn, cn)
+            cp = vi_cer.cer_pair_prop(txt, h)
+            best_pr = cp if best_pr is None else max(best_pr, cp)
         r["cer"] = best
+        r["cer_nonum"] = best_nn
+        r["cer_prop"] = best_pr
         r["cer_ok"] = best is not None
         return r
 
@@ -195,14 +150,18 @@ def main():
 
     md = ["# CER lượt sản xuất Tập 02 — Higgs Audio v3", "",
           f"ASR `listen_audio` **{ROUNDS} lượt/câu**, lấy lượt xấu hơn. "
-          f"`vi_numbers()` áp cho **cả hai vế** (Q3a). Ngưỡng: **CER < 2% mỗi vai**.", "",
-          "| Vai | Clip | Temp | n | CER tb | CER max | >2% | F0 tb (AC thô) | Âm tiết/s |",
-          "|---|---|---:|---:|---:|---:|---:|---:|---:|"]
+          f"CER chính thức = `vi_cer.cer_pair` (chuẩn hoá **cả hai vế**, Q3a). "
+          f"`cer_pair_nonum` bỏ số · `cer_pair_prop` bỏ danh từ riêng (tách nhiễu ASR khỏi lỗi TTS). "
+          f"Ngưỡng: **CER < 2% mỗi vai**.", "",
+          "| Vai | Clip | Temp | n | CER tb | CER max | >2% | CER⊘Số tb | CER⊘DanhTự tb | F0 tb (AC thô) | Âm tiết/s |",
+          "|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|"]
     import wave
     import numpy as np
     from voice_audition import f0_median
     for (role, ref, temp), v in sorted(g.items()):
         cs = [x["cer"] for x in v if x.get("cer_ok")]
+        cns = [x["cer_nonum"] for x in v if x.get("cer_nonum") is not None]
+        cps = [x["cer_prop"] for x in v if x.get("cer_prop") is not None]
         f0s, syl = [], []
         for x in v:
             p = WAVDIR / x["file"]
@@ -215,11 +174,13 @@ def main():
             d = len(arr) / sr
             f0s.append(f0_median(arr, sr))
             syl.append(len(x.get("text_norm", "").split()) / max(0.1, d))
-        md.append("| %s | %s | %s | %d | %s | %s | %d/%d | %s | %s |" % (
+        md.append("| %s | %s | %s | %d | %s | %s | %d/%d | %s | %s | %s | %s |" % (
             role, ref, temp, len(v),
             ("%.2f%%" % (100 * sum(cs) / len(cs))) if cs else "-",
             ("%.1f%%" % (100 * max(cs))) if cs else "-",
             len([c for c in cs if c > 0.02]), len(cs),
+            ("%.2f%%" % (100 * sum(cns) / len(cns))) if cns else "-",
+            ("%.2f%%" % (100 * sum(cps) / len(cps))) if cps else "-",
             ("%.0f Hz" % np.median(f0s)) if f0s else "-",
             ("%.2f" % np.mean(syl)) if syl else "-"))
 
