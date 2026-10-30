@@ -1,0 +1,84 @@
+========================================================================================================
+G9 DECIDE — Tap 02 (Higgs Audio v3).  Verdict: min(nc_ac, nc_pp2) >= 4 nc
+========================================================================================================
+
+[1] F0 CLONE THAT (do lai tu 3 pilot)
+    Vai    Clip             n    F0_ac     F0_pp2    | clip_ac   clip_pp2  drift_ac gioi
+    C      C.wav            12   214.3     202.8     | 208.7               +2.7%    nu
+    D      D.wav            12   124.0     125.5     | 128.3               -3.4%    nam
+    D      M_HIGH.wav       12   198.3     185.8     | 192.0               +3.3%    nam
+    H      H.wav            12   130.4     127.1     | 107.6               +21.2%   nam
+    H      M_LOW.wav        12   97.8      97.1      | 95.6                +2.3%    nam
+    N1     W6_LOW.wav       12   184.6     173.1     | 179.1               +3.1%    nu
+    N1     W6_LOW_PS20.wav  12   161.1     159.1     | 160.0               +0.7%    ?
+    N1     W6_LOW_PS25.wav  12   156.9     155.0     | 155.8               +0.7%    ?
+    N1     W6_LOW_PS30.wav  12   152.9     150.9     | 150.9               +1.3%    ?
+    N1     W6_LOW_S25.wav   12   162.2     152.9     | 157.9               +2.7%    ?
+    N1     W6_LOW_S30.wav   12   162.2     147.9     | 154.8               +4.8%    ?
+    N1     W6_LOW_S35.wav   12   152.9     148.3     | 150.0               +1.9%    ?
+    N1     W6_LOW_S40.wav   12   147.2     141.7     | 144.6               +1.8%    ?
+    N2     W1.wav           12   260.9     246.9     | 250.0               +4.4%    nu
+    N2     W2.wav           12   201.7     195.5     | 200.0               +0.8%    nu
+    N2     W5_HIGH.wav      12   285.7     268.0     | 289.2               -1.2%    nu
+    XW2    W2.wav           12   202.5     193.9     | 200.0               +1.2%    nu
+    XW4    W4.wav           12   135.6     131.2     | 137.1               -1.1%    nam
+
+[2] KE LIEN KE THAT cua Tap 02 (36 phan loi)
+    C   5 phan
+    D   6 phan
+    H   23 phan
+    N1  1 phan
+    N2  1 phan
+    Cap ke lien ke:
+      C-D      x2    KHAC gioi
+      C-H      x8    KHAC gioi
+      D-D      x1    cung gioi
+      D-H      x8    cung gioi
+      H-H      x12   cung gioi
+      H-N1     x2    KHAC gioi
+      H-N2     x2    KHAC gioi
+
+[3] UNG VIEN THEO GIOI TINH (chi clip SACH, da clone that)
+    H (nam)   H(130/127), M_LOW(98/97)
+    D (nam)   D(124/126), M_HIGH(198/186)
+    C (nu)    C(214/203)
+    N1 (nu)   W6_LOW(185/173)
+    N2 (nu)   W1(261/247), W2(202/196), W5_HIGH(286/268)
+
+[4] PHOI DAY DU — xep theo bien nho nhat (G9 ap cho CAP CUNG GIOI)
+    H         D         C      H-D       C-N1      C-N2      N1-N2    Ket
+    H         M_HIGH    C      6.57      2.58      3.41      5.99     TRUOT
+    H         M_HIGH    C      6.57      2.58      4.83      7.56     TRUOT
+    M_LOW     D         C      4.11      2.58      3.41      5.99     TRUOT
+    M_LOW     D         C      4.11      2.58      4.83      7.56     TRUOT
+    M_LOW     M_HIGH    C      11.23     2.58      3.41      5.99     TRUOT
+    M_LOW     M_HIGH    C      11.23     2.58      4.83      7.56     TRUOT
+    H         M_HIGH    C      6.57      2.58      0.63      1.53     TRUOT
+    M_LOW     D         C      4.11      2.58      0.63      1.53     TRUOT
+    M_LOW     M_HIGH    C      11.23     2.58      0.63      1.53     TRUOT
+    H         D         C      0.22      2.58      3.41      5.99     TRUOT
+    H         D         C      0.22      2.58      0.63      1.53     TRUOT
+    H         D         C      0.22      2.58      4.83      7.56     TRUOT
+    => 0/12 phoi DAT
+
+[5] PHAN TICH CAP KY KET — phoi nao that bai vi cap nao?
+    H_D      that bai o 3/12 phoi
+    C_N1     that bai o 12/12 phoi
+    C_N2     that bai o 8/12 phoi
+    N1_N2    that bai o 4/12 phoi
+
+[6] PHUONG AN (chi clip SACH, G9 ap cho cap cung gioi + cap ke lien ke that)
+    Chi danhgia cap CUNG GIOI. Cap lien ke that: C-D x2, C-H x8, D-D x1, D-H x8, H-H x12, H-N1 x2, H-N2 x2
+
+    H        M_HIGH   C     W6_LOW   W1       | H-D  6.57 | C-N1  2.58 | C-N2  3.41 | N1-N2  5.99 | TRUOT
+    H        M_HIGH   C     W6_LOW   W5_HIGH  | H-D  6.57 | C-N1  2.58 | C-N2  4.83 | N1-N2  7.56 | TRUOT
+    M_LOW    D        C     W6_LOW   W1       | H-D  4.11 | C-N1  2.58 | C-N2  3.41 | N1-N2  5.99 | TRUOT
+    M_LOW    D        C     W6_LOW   W5_HIGH  | H-D  4.11 | C-N1  2.58 | C-N2  4.83 | N1-N2  7.56 | TRUOT
+    M_LOW    M_HIGH   C     W6_LOW   W1       | H-D 11.23 | C-N1  2.58 | C-N2  3.41 | N1-N2  5.99 | TRUOT
+    M_LOW    M_HIGH   C     W6_LOW   W5_HIGH  | H-D 11.23 | C-N1  2.58 | C-N2  4.83 | N1-N2  7.56 | TRUOT
+    H        M_HIGH   C     W6_LOW   W2       | H-D  6.57 | C-N1  2.58 | C-N2  0.63 | N1-N2  1.53 | TRUOT
+    M_LOW    D        C     W6_LOW   W2       | H-D  4.11 | C-N1  2.58 | C-N2  0.63 | N1-N2  1.53 | TRUOT
+    M_LOW    M_HIGH   C     W6_LOW   W2       | H-D 11.23 | C-N1  2.58 | C-N2  0.63 | N1-N2  1.53 | TRUOT
+    H        D        C     W6_LOW   W1       | H-D  0.22 | C-N1  2.58 | C-N2  3.41 | N1-N2  5.99 | TRUOT
+    H        D        C     W6_LOW   W2       | H-D  0.22 | C-N1  2.58 | C-N2  0.63 | N1-N2  1.53 | TRUOT
+    H        D        C     W6_LOW   W5_HIGH  | H-D  0.22 | C-N1  2.58 | C-N2  4.83 | N1-N2  7.56 | TRUOT

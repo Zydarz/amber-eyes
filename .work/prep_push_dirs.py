@@ -28,7 +28,9 @@ KERNELS = {
         "dir": "_push_v6",
     },
     "smoke": {
-        "slug": "chiduong2026/amber-eyes-higgs-smoke-2gpu-kaggle-gpu",
+        # Kaggle slug hoa "2 GPU" -> "2-gpu". Slug that da ton tai tren Kaggle
+        # la amber-eyes-higgs-smoke-2-gpu-kaggle-gpu (KHONG phai "2gpu").
+        "slug": "chiduong2026/amber-eyes-higgs-smoke-2-gpu-kaggle-gpu",
         "title": "Amber Eyes Higgs smoke 2 GPU Kaggle GPU",
         "nb": "higgs_smoke_kaggle.ipynb",
         "dir": "_push_smoke",

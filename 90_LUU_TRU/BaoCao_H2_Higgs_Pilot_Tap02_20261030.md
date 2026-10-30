@@ -13,12 +13,15 @@
 | 2 | **Đo CER sai** | Nghĩ Higgs đọc sai 12% câu, có câu 73,8% | 4 mắt xích: pipeline đổi số→chữ, ASR trả chữ số, script chuẩn hóa 1 vế, hàm `vi_numbers` sai | Script đo CER (KHÔNG phải code sản xuất) | ✅ **Đã sửa** (cả số đo MiniMax phải tính lại) |
 | 3 | **Sai nhiệt độ vai D** | Vai D đọc kém hơn MiniMax | `temperature 0,7` làm model "đọc" quá dài, lỗi 47,56 s | Chọn `temperature 0,8` + sinh 3 bản/câu | ✅ **Đã chốt** |
 | 4 | **File quá dài 47 s** | 2 file dài 47,56 s | Model lặp lại thay vì dừng | Sinh 3 bản/câu, loại bản vượt 47 s | ✅ **Đã chốt** |
-| 5 | **G9 H↔D** | 2 vai nam gần như **cùng cao độ** (chỉ cách 0,23 nửa cung, cần ≥ 4) | **Higgs không giữ cao độ của clip tham chiếu** — 2 vai trôi ngược chiều về cùng một vùng | Cần clip tham chiếu **mới** | ❌ **CHỜ BẠN QUYẾT** |
-| 6 | **G9 vai N1** | Không tìm được clip nữ vừa đọc đúng vừa tách xa C | Chưa có clip nữ nào đủ cao | Cần clip VoxCPM2 mới hoặc chấp nhận lệch | ❌ **CHỜ BẠN QUYẾT** |
+| 5 | **G9 H↔D** | 2 vai nam gần như **cùng cao độ** (chỉ cách 0,23 nửa cung, cần ≥ 4) | **Higgs không giữ cao độ của clip tham chiếu** — 2 vai trôi ngược chiều về cùng một vùng | Cần clip tham chiếu **mới** | ✅ **ĐÃ XỬ LÝ** — 4 clip mới từ Mac mini; `H↔D` = 6,57–11,23 nc ✅ |
+| 6 | **G9 vai N1** | Không tìm được clip nữ vừa đọc đúng vừa tách xa C | Chưa có clip nữ nào đủ cao | Cần clip VoxCPM2 mới hoặc chấp nhận lệch | ⏸ **CÒN 1 NÚT THẮT** — `C↔N1` = 2,58 nc; **không clip sạch nào đạt** (xem #7) |
+| 7 | **Hạ cao độ clip tham chiếu làm hỏng giọng** | Cả phase vocoder lẫn TD-PSOLA đều tạo clip **đọc rất tốt** (ASR 0,00%) nhưng **clone ra thì đọc sai nội dung** | Mọi xử lý dạng sóng theo thời gian ⇒ codec âm thanh sinh token mờ ⇒ Higgs nghe nhầm | **Không được hạ cao độ clip bằng xử lý tín hiệu** — chỉ dùng clip có sẵn ở cao độ đó | ✅ **ĐÃ CHỨNG MINH** (CER 8,4–12,5%) — loại toàn bộ biến thể |
 
 > **Điểm mấu chốt:** lỗi #1, #2, #3, #4 **không nằm trong code sản xuất** — chúng là lỗi của **chính công cụ đo**.
 > Lỗi #2 khiến suốt một buổi tưởng Higgs kém; thực ra sau khi đo lại đúng thì **Higgs tốt hơn MiniMax ở vai H**.
-> Lỗi #5, #6 là lỗi **thật của giọng**, không sửa được bằng code — cần quyết định của bạn.
+> Lỗi #5 đã xử lý xong bằng clip mới. Lỗi #6 là **nút thắt thật**: `C↔N1` không đạt được bằng clip sạch nào
+> (lỗi #7 cho thấy vì sao lối thoát duy nhất là "nhờ Mac tạo clip mới" hoặc "chấp nhận", vì `C` và `N1`
+> **không bao giờ liền kề** trong Tập 02).
 
 ---
 
@@ -613,13 +616,72 @@ cả 2 vòng ASR đều sai giống nhau ⇒ **audio thật sự nói sai**, kh�
 ⇒ `W6_LOW_PS25` (clip 155,8 / 154,5) và `W6_LOW_PS30` (150,9 / 150,4) **nằm trong cửa sổ**
 (nếu drift của clip tiếng Việt giữ ở mức ±3% như đã đo ở 4 clip gốc).
 
-**Trạng thái.** Pilot **v8** đã đẩy lên Kaggle (36 audio = 3 ô × 6 câu × 2 bản) để đo **F0 clone thật +
-CER clone thật** của 3 biến thể TD-PSOLA. Chưa có kết quả khi viết mục này.
+**Trạng thái.** Pilot **v8** đã chạy xong trên Kaggle (36 audio = 3 ô × 6 câu × 2 bản), **36/36 OK, 0 lỗi**.
+Kết quả ở **§6.15** — và kết quả đó **bác bỏ** TD-PSOLA.
 
 > **Ghi chú quy trình:** 2 lỗi phải sửa để làm TD-PSOLA chạy đúng —
 > (1) dấu nhịp phải đặt **1 dấu / chu kỳ** (đặt theo khung 5 ms thì dày hơn chu kỳ thật ⇒ đổi cao độ
 > chỉ đạt ~1/2 yêu cầu); (2) khi chia cho `wsum` ở các điểm mép cửa sổ Hann (`wsum≈0`) sinh **đỉnh giả**
 > làm hỏng toàn bộ biên độ → dùng `max(wsum, 0,25×trung vị)` + chuẩn hoá theo **phân vị 99,9%**.
+
+---
+
+### 6.15 Pilot v8 XONG — **TD-PSOLA CŨNG HỎNG khi clone**. Không có cách nào hạ cao độ clip tham chiếu
+
+**Triệu chứng.** TD-PSOLA giữ dạng sóng gốc (không nhoè như phase vocoder) và 3 clip mới đều đọc
+**ASR 0,00%** khi đo trực tiếp. Trông như đã giải quyết xong. Nhưng khi **Higgs clone** từ chúng thì sao?
+
+**Kết quả đo thật (kernel `amber-eyes-higgs-v8-td-psola-kaggle-gpu`, 36/36 OK, 0 lỗi):**
+
+| Ô | F0 clone (AC thô / AC chuẩn hoá) | CER tb | CER max | > 2% | **CER bỏ danh từ riêng** |
+|---|---|---:|---:|---:|---:|
+| `W6_LOW_PS20` | 161,1 / 159,1 | 9,62% | 21,1% | 10/12 | 18,69% |
+| `W6_LOW_PS25` | 156,9 / 155,0 | 8,44% | 42,1% | 8/12 | 10,19% |
+| `W6_LOW_PS30` | 152,9 / 150,9 | 10,87% | 21,4% | 12/12 | 24,01% |
+| *(đối chứng)* `W6_LOW` | 184,6 / 173,1 | 2,10% | 14,3% | 3/12 | **1,47%** |
+
+⇒ **TD-PSOLA không cứu được.** Ba biến thể đều cho CER 8,4–10,9% — **tệ ngang phase vocoder**.
+
+**Và lỗi vẫn là lỗi SAI NỘI DUNG, không phải nhiễu ASR** (cả 2 vòng ASR sai giống nhau):
+
+| Câu gốc | ASR nghe được (biến thể PS) |
+|---|---|
+| *"Kẻ bắt cóc không xuất hiện từ hư không."* | *"và các công suất hiện tượng hư không"* (PS25) · *"Kẻ bát cóc không…"* (PS20) |
+| *"Tuyết mới rơi đã lưu lại gần nhà nạn nhân…"* | *"Mật bơi rơi tà lụa lại gần nhà nạn nhân…"* (PS25) |
+| *"Suốt nhiều năm, thị trấn nhỏ **Tweed**…"* | *"thị trấn nhỏ **tuyệt**…"* / *"**Twin**…"* / *"**Tweit**…"* |
+| *"Khi phân tích trường hợp của Russell Williams…"* | *"**Nếu trong** trường hợp của Russell Williams…"* (PS30) |
+
+**Nguyên nhân — đã rõ, và đây là kết luận quan trọng nhất của cả vòng đo:**
+
+> **Bất kỳ phép biến đổi cao độ nào trên clip tham chiếu đều làm hỏng khả năng nghe khi clone.**
+> Cơ chế: Higgs mã hoá clip tham chiếu bằng **audio token codec**; phase vocoder lẫn TD-PSOLA đều
+> can thiệp vào **dạng sóng theo thời gian** ⇒ codec sinh token mờ ⇒ mô hình **nghe nhầm âm thanh**
+> ⇒ đọc ra lời khác, chứ không phải đọc sai phát âm.
+> Clip **chưa từng** bị xử lý (`W6_LOW` bản gốc) thì CER bỏ danh từ riêng chỉ **1,47%**.
+
+⇒ **Kết luận thiết kế:** muốn đổi cao độ của một vai, phải **có clip đã tồn tại sẵn ở cao độ đó**
+(và phải sạch), **không được tạo ra bằng xử lý tín hiệu**.
+
+**Hệ quả trực tiếp với G9 — và đây là điểm chặn thật:**
+
+> G9 yêu cầu C↔N1 ≥ 4 nửa cung. C clone = 214,3 / 202,8 Hz ⇒ N1 clone phải **≤ 170,1 Hz (AC thô)** và
+> **≤ 161,0 Hz (AC chuẩn hoá)**. Trong thư viện clip sạch, **chỉ có `W6_LOW` là clip nữ** dành được cho N1
+> (clone 184,6 / 173,1 Hz) ⇒ **C↔N1 = 2,58 nc < 4 nc — không đạt được bằng clip sạch nào**.
+
+**Ba lối thoát còn lại (xem §9.1 để chọn):**
+1. **Chấp nhận** C↔N1 = 2,58 nc, vì **C và N1 không bao giờ liền kề** trong Tập 02 (§8.11) — và
+   cặp cùng giới **duy nhất** thật sự liền kề là **H↔D** (8 lần), vốn đạt 6,57–11,23 nc ✅.
+2. **Thêm 1 clip nữ mới** do Mac mini tạo ở F0 thấp hơn, **không qua xử lý tín hiệu** — rủi ro cao vì
+   lần trước Mac nhắm 148–162 Hz mà ra 179,1 Hz.
+3. **Đổi N1 sang giọng nam** (`W4` clone 135,6 / 131,2 Hz ⇒ C↔N1 = 5,52 / 5,23 nc ✅) — sai chất vai,
+   không khuyến nghị.
+
+**Sửa ở đâu / sửa cái gì:**
+- `.work/g9_role_map.json` — chốt mapping theo số đo thật, đính kèm bảng F0 clone + CER + cảnh báo.
+- `.work/g9_decide.py` — **mới**: đo lại F0 clone của **mọi** ô pilot v6+v7+v8, dựng bảng G9 đầy đủ
+  theo giới tính, tự tính cặp liền kề thật từ `script_tap02.json`.
+- **Không dùng** `W6_LOW_PS15…PS30` cho bất kỳ vai nào. Các clip phase vocoder `W6_LOW_S20…S40` cũng vậy.
+
 
 ---
 
@@ -916,6 +978,91 @@ Tập 02 có 36 phần lời (kind `LOI`), mỗi phần **một vai**:
 ⇒ G9 theo nghĩa **"hai giọng cùng giới người nghe phải phân biệt được"** chỉ bắt buộc cho
 `H↔D` (nam) và `C↔N2` (nữ). Cặp `C↔N1` là cặp **không xảy ra trong tập này**.
 
+### 8.12 Bảng G9 đầy đủ — đo lại **mọi** ô pilot v6 + v7 + v8 (`.work/g9_decide.py`)
+
+> Bảng này **thay thế** các bảng "dự đoán" ở §8.7 và §8.8. Nguồn: `.work/g9_decide.txt` / `.work/g9_decide.json`.
+> Quy tắc verdict: `min(nc_ac, nc_pp2) ≥ 4 nc` → **ĐẠT** (cả hai thuật toán F0 đều phải đạt).
+
+**[1] F0 CLONE THẬT — toàn bộ ô đã clone (mỗi ô 12 audio)**
+
+| Vai | Clip | n | F0_ac | F0_pp2 | drift_ac | Ghi chú |
+|---|---|---:|---:|---:|---:|---|
+| H | `H.wav` | 12 | 130,4 | 127,1 | +21,2% | giọng gốc của vai H |
+| H | `M_LOW.wav` | 12 | 97,8 | 97,1 | +2,3% | nam trầm (Mac) |
+| D | `D.wav` | 12 | 124,0 | 125,5 | −3,4% | giọng gốc của vai D |
+| D | `M_HIGH.wav` | 12 | 198,3 | 185,8 | +3,3% | nam 50+ khàn (Mac) |
+| C | `C.wav` | 12 | 214,3 | 202,8 | +2,7% | giọng gốc của vai C |
+| N1 | `W6_LOW.wav` | 12 | 184,6 | 173,1 | +3,1% | nữ 30s (Mac) — **chỉ clip nữ sạch cho N1** |
+| N1 | `W6_LOW_PS20.wav` | 12 | 161,1 | 159,1 | +0,7% | ❌ hỏng (CER 9,62%) |
+| N1 | `W6_LOW_PS25.wav` | 12 | 156,9 | 155,0 | +0,7% | ❌ hỏng (CER 8,44%) |
+| N1 | `W6_LOW_PS30.wav` | 12 | 152,9 | 150,9 | +1,3% | ❌ hỏng (CER 10,87%) |
+| N1 | `W6_LOW_S25.wav` | 12 | 162,2 | 152,9 | +2,7% | ❌ hỏng (phase vocoder) |
+| N1 | `W6_LOW_S30.wav` | 12 | 162,2 | 147,9 | +4,8% | ❌ hỏng (phase vocoder) |
+| N1 | `W6_LOW_S35.wav` | 12 | 152,9 | 148,3 | +1,9% | ❌ hỏng (phase vocoder) |
+| N1 | `W6_LOW_S40.wav` | 12 | 147,2 | 141,7 | +1,8% | ❌ hỏng (phase vocoder) |
+| N2 | `W1.wav` | 12 | 260,9 | 246,9 | +4,4% | nữ cao |
+| N2 | `W2.wav` | 12 | 201,7 | 195,5 | +0,8% | nữ trung bình |
+| N2 | `W5_HIGH.wav` | 12 | 285,7 | 268,0 | −1,2% | nữ 20s rất cao (Mac) |
+| *(v7)* | `W4.wav` | 12 | 135,6 | 131,2 | −1,1% | nam 50 (dùng cho kit nghe mù) |
+| *(v7)* | `W2.wav` (lần 2) | 12 | 202,5 | 193,9 | +1,2% | đối chứng |
+
+**[2] Ứng viên theo giới tính (chỉ clip SẠCH)**
+
+| Vai | Ứng viên (F0 clone ac/pp2) |
+|---|---|
+| H (nam) | `H.wav` (130/127) · `M_LOW` (98/97) |
+| D (nam) | `D.wav` (124/126) · `M_HIGH` (198/186) |
+| C (nữ) | `C.wav` (214/203) |
+| N1 (nữ) | `W6_LOW` (185/173) — **chỉ một** |
+| N2 (nữ) | `W1` (261/247) · `W2` (202/196) · `W5_HIGH` (286/268) |
+
+**[3] Cặp cùng giới — khoảng cách (nc), verdict = min(ac, pp2)**
+
+| Cặp | nc_ac | nc_pp2 | Verdict |
+|---|---:|---:|---|
+| H↔D `H.wav` ↔ `M_HIGH` | 7,27 | 6,57 | **ĐẠT** |
+| H↔D `M_LOW` ↔ `M_HIGH` | 12,24 | 11,23 | **ĐẠT** |
+| H↔D `M_LOW` ↔ `D.wav` | 4,11 | 4,45 | **ĐẠT** (biên hẹp) |
+| H↔D `H.wav` ↔ `D.wav` | 0,22 | 0,26 | ❌ **TRƯỢT** (2 giọng gốc gần bằng nhau) |
+| C↔N1 `C.wav` ↔ `W6_LOW` | 2,58 | 2,13 | ❌ **TRƯỢT** |
+| C↔N2 `C.wav` ↔ `W5_HIGH` | 4,99 | 4,83 | **ĐẠT** |
+| C↔N2 `C.wav` ↔ `W1` | 3,41 | 3,80 | ❌ TRƯỢT |
+| C↔N2 `C.wav` ↔ `W2` | 1,04 | 0,63 | ❌ TRƯỢT |
+| N1↔N2 `W6_LOW` ↔ `W5_HIGH` | 7,56 | 7,56 | **ĐẠT** |
+| N1↔N2 `W6_LOW` ↔ `W1` | 5,99 | 5,99 | **ĐẠT** |
+| N1↔N2 `W6_LOW` ↔ `W2` | 1,53 | 1,53 | ❌ TRƯỢT |
+
+**[4] Kết luận — 0/12 phương án đạt được nếu G9 áp cho MỌI cặp cùng giới**
+
+Phân tích cặp ký kết (12 phương án hợp lệ × 4 cặp cùng giới):
+
+| Cặp | Số phương án trượt |
+|---|---:|
+| `H↔D` | 3/12 (chỉ khi D = `D.wav` **và** H = `H.wav`) |
+| `C↔N1` | **12/12** — luôn trượt |
+| `C↔N2` | 8/12 (chỉ `W5_HIGH` đạt) |
+| `N1↔N2` | 4/12 (`W5_HIGH` hoặc `W1` đạt) |
+
+> **Cặp `C↔N1` là nút thắt.** N1 là nữ; clip nữ sạch duy nhất dành được cho N1 là `W6_LOW`
+> (clone 184,6 / 173,1 Hz). Để C↔N1 ≥ 4 nc cần N1 clone ≤ 170,1 Hz (AC) **và** ≤ 161,0 Hz (pp2).
+> **Không tồn tại** clip nữ sạch nào thoả — và mọi biến thể tạo ra bằng xử lý tín hiệu đều hỏng khi clone (§6.15).
+>
+> ⇒ **G9 chỉ đạt được nếu hiểu là "cặp cùng giới *thật sự xảy ra liền kề*".** Trong Tập 02, cặp cùng giới
+> duy nhất liền kề là **H↔D** (8 lần) — và mọi phương án khuyến nghị đều đạt ở cặp đó (6,57–11,23 nc).
+> Ba cặp nữ `C↔N1`, `C↔N2`, `N1↔N2` **không bao giờ liền kề** (§8.11) — người nghe không bao giờ phải
+> phân biệt chúng trong tập này.
+
+**[5] CER pilot v6 — chỉ 5 clip sạch được dùng**
+
+| Vai → clip | CER (2 vế) | CER bỏ danh từ riêng | > 2% | G12 (< 2%) |
+|---|---:|---:|---:|---|
+| H → `H.wav` | 0,34% | **0,00%** | 1/11 | ✅ |
+| D → `M_HIGH` | 1,44% | 0,47% | 4/12 | ✅ |
+| C → `C.wav` | 3,09% | 2,14% | 6/12 | ⚠️ |
+| N1 → `W6_LOW` | 2,10% | 1,47% | 3/12 | ⚠️ |
+| N2 → `W5_HIGH` | 0,21% | 0,25% | 0/11 | ✅ |
+
+
 ---
 
 ## 9. Việc cần bạn quyết
@@ -929,20 +1076,30 @@ Tập 02 có 36 phần lời (kind `LOI`), mỗi phần **một vai**:
 | 5 | **Phân bổ vai Tập 02** (L4 — đổi clip = đổi giọng vai) | (a) đổi H/D/N1/N2 sang clip mới · (b) giữ H và D, chỉ đổi N1/N2 | 🔄 **ĐÃ HỎI LẠI 30/10** (bảng số đo mới ở §9.2) — chờ bạn chốt |
 | 6 | **Ghi công Boson** (H0) — cách ghi công cụ thể | (a) mọi tập + mô tả video + file nguồn · (b) chỉ mô tả video · (c) chưa chốt | 🔄 **ĐÃ HỎI LẠI 30/10** — chờ bạn chốt |
 
-### 9.1 Bảng chọn phân bổ vai (số đo thật pilot v6, 156 audio)
+### 9.1 Bảng chọn phân bổ vai — **đã cập nhật sau pilot v8** (số đo thật, §8.12)
 
 Mọi phương án đều giữ **C = `C.wav`** và **N2 = `W5_HIGH.wav`**
-(`C↔N2` = 4,97 / 4,54 nc ✅; N2 là bắt buộc vì `W2`/`W1` chỉ được 0,63 / 3,41 nc ❌).
+(`C↔N2` = 4,99 / 4,83 nc ✅; N2 là bắt buộc vì `W2`/`W1` chỉ được 1,04 / 3,41 nc ❌).
 
-| # | H | D | C | N1 | N2 | H↔D (nc) | Ghi chú |
+| # | H | D | C | N1 | N2 | H↔D (nc) | Đánh giá |
 |---|---|---|---|---|---|---|---|
-| **1** | `H.wav` **(giữ)** | `M_HIGH.wav` | `C.wav` **(giữ)** | `W6_LOW.wav` | `W5_HIGH.wav` | **7,26 / 6,57 ✅** | Đổi **ít nhất**: giữ giọng người dẫn (CER⊘P 0,00%), chỉ đổi D. `C↔N1` = 2,56/4,05 — nhưng **không liền kề** trong Tập 02 (§8.11) |
-| 2 | `M_LOW.wav` | `M_HIGH.wav` | `C.wav` | `W6_LOW.wav` | `W5_HIGH.wav` | **12,24 / 11,23 ✅** | Biên lớn nhất, nhưng **đổi giọng H** (CER⊘P 1,94%) |
-| 3 | `H.wav` | `M_HIGH.wav` | `C.wav` | `W6_LOW_PS25.wav` *(hoặc `PS30`)* | `W5_HIGH.wav` | 7,26 / 6,57 ✅ | Đạt G9 **tuyệt đối cả 3 cặp nữ** — chờ pilot v8 xác nhận clone sạch |
-| 4 | `M_LOW.wav` | `D.wav` **(giữ)** | `C.wav` | `W6_LOW.wav` | `W5_HIGH.wav` | 4,11 / 4,44 ✅ | Giữ giọng D, đổi giọng H — biên hẹp nhất |
+| **1 ⭐** | `H.wav` **(giữ gốc)** | `M_HIGH.wav` | `C.wav` **(giữ gốc)** | `W6_LOW.wav` | `W5_HIGH.wav` | **7,27 / 6,57 ✅** | **Khuyến nghị.** Đổi **ít nhất**: giữ giọng người dẫn (CER⊘P **0,00%**) và giọng C; chỉ **D phải đổi** vì `H.wav`↔`D.wav` chỉ cách 0,22 nc. `M_HIGH` đúng mô tả vai D ("nam 50+ khàn"). Biên G9 6,57 nc |
+| 2 | `M_LOW.wav` | `M_HIGH.wav` | `C.wav` | `W6_LOW.wav` | `W5_HIGH.wav` | **12,24 / 11,23 ✅** | Biên G9 **lớn nhất** (11,23 nc) nhưng **đổi giọng H** → CER 2,43% (⊘P 1,94%) và mất giọng gốc của vai chính |
+| 3 | `H.wav` | `M_HIGH.wav` | `C.wav` | `W6_LOW_PS25/PS30` | `W5_HIGH.wav` | 7,27 / 6,57 ✅ | ❌ **ĐÃ LOẠI** — pilot v8 đo thật: TD-PSOLA hỏng khi clone (CER 8,44–10,87%, sai nội dung) |
+| 4 | `M_LOW.wav` | `D.wav` **(giữ gốc)** | `C.wav` | `W6_LOW.wav` | `W5_HIGH.wav` | 4,11 / 4,45 ✅ | Biên G9 hẹp nhất; giữ giọng D gốc nhưng CER 3,57% và phải đổi H |
 
-CER⊘P theo ô: `H.wav` 0,00% · `M_HIGH` 0,47% · `C.wav` 2,14% · `W6_LOW` 1,47% · `W5_HIGH` 0,25%
+**Phương án đang chạy (tạm, chờ bạn chốt):** **#1** — `H←H.wav` · `D←M_HIGH` · `C←C.wav` ·
+`N1←W6_LOW` · `N2←W5_HIGH`. Lượt sản xuất 416 file đã chạy trên Kaggle (2 GPU).
+Nếu bạn chọn khác, **chỉ cần sinh lại vai bị đổi** (worker có chế độ `--only` bắt lẻ theo vai).
+
+CER⊘P theo ô: `H.wav` **0,00%** · `M_HIGH` 0,47% · `C.wav` 2,14% · `W6_LOW` 1,47% · `W5_HIGH` 0,25%
 (đầy đủ 13 ô ở §8.10).
+
+> **Một điểm bạn cần biết trước khi chốt (L4):** nếu hiểu G9 theo nghĩa **"mọi cặp cùng giới"**,
+> **không phương án nào đạt** — cặp `C↔N1` luôn ở 2,58 nc (§8.12 mục [4]). Lựa chọn còn lại nếu bạn
+> muốn G9 tuyệt đối: **nhờ Mac mini tạo thêm 1 clip nữ ở F0 thấp hơn** (mục tiêu ≤ 160 Hz, **không
+> được xử lý tín hiệu**) — rủi ro cao vì lần trước Mac nhắm 148–162 Hz mà ra 179,1 Hz.
+
 
 ### 9.2 Việc đã làm xong (30/10, sau khi bạn chạy script trên Mac mini)
 
@@ -956,13 +1113,17 @@ CER⊘P theo ô: `H.wav` 0,00% · `M_HIGH` 0,47% · `C.wav` 2,14% · `W6_LOW` 1,
 ✓ Tính lại CER pilot v6 (đúng chuẩn hóa 2 vế)    (§6.13, §8.10)
 ✓ Phát hiện phase vocoder hỏng khi CLONE         (§6.14)
 ✓ TD-PSOLA → 5 clip mới, ASR 0,00%               (§6.14)
-✓ Kernel pilot v7 (clone W4/W2) → 24/24 OK       (kit nghe mù H3)
-✓ Kernel pilot v8 (đo clone TD-PSOLA) → đang chạy  (36 file)
-✓ Dataset Kaggle v6 (thêm clip TD-PSOLA + spec v8)
+✓ Kernel pilot v7 (clone W4/W2) → 24/24 OK       (kit nghe mù H3) · CER W4 4,48%, W2 2,18%
+✓ Kernel pilot v8 → 36/36 OK  → TD-PSOLA CŨNG HỎNG (§6.15)
+✓ Bảng G9 đầy đủ — đo lại mọi ô v6+v7+v8        (§8.12)
+✓ Kernel SMOKE 2 GPU (12 file) → 12/12 OK       (chứng minh đường chạy 2 card)
+✓ Chốt mapping tạm #1 → build spec 416 file      (§9.1)
+✓ Dataset Kaggle v8 + kernel sản xuất đẩy lên    (đang chạy)
 ```
 
-**Bước kế tiếp:** pilot v8 trả 36 audio → chốt clip N1 → **H3** (nghe mù V7 + G8) →
-sinh 203 câu (2 GPU) → **H4** *(đang dừng chờ chốt ghi công)* → **H5** (dựng video).
+**Bước kế tiếp:** lượt sản xuất 416 file (2 GPU) → đo CER từng câu → chọn bản §7 → vòng 2 cho câu lỗi →
+**H3** (nghe mù V7 + G8, dựng lại theo mapping cuối) → **H4** *(đang dừng chờ chốt ghi công)* →
+**H5** (dựng video).
 
 ---
 
@@ -1024,6 +1185,18 @@ sinh 203 câu (2 GPU) → **H4** *(đang dừng chờ chốt ghi công)* → **H
 | `.work/G9_HD_HUONG_DAN.md` | **Hướng dẫn đầy đủ** "làm lại ở Vox" (bảng từ khoá → F0, cách dò thang) |
 | `.work/DAT_SPEC_G9.md` | Đặc tả ngắn |
 | `.work/G9_MAC_BRIEF.md` | Brief tự-contained cho AI trên Mac M2 (1 lệnh, 5 tiêu chí nghiệm thu) |
+
+### Tool mới (30/10, vòng 3) — G9 đầy đủ + smoke 2 GPU + lượt sản xuất
+
+| File | Vai trò |
+|---|---|
+| `.work/g9_decide.py` | **MỚI** — đo lại F0 clone của **mọi** ô pilot v6+v7+v8, dựng bảng G9 đầy đủ theo **giới tính**, tự tính **cặp liền kề thật** từ `script_tap02.json`; xuất `g9_decide.txt` / `g9_decide.json` (§8.12) |
+| `.work/g9_decide.txt` / `.work/g9_decide.json` | Số đo thô bảng G9 (F0 clone + khoảng cách nc + verdict) |
+| `.work/g9_role_map.json` | **ĐÃ CHỐT TẠM** — `H←H.wav` · `D←M_HIGH` · `C←C.wav` · `N1←W6_LOW` · `N2←W5_HIGH`, kèm bảng F0/CER/cảnh báo |
+| `.work/build_smoke_spec.py` | Sinh `prod_spec_smoke.json` (12 file — 5 vai + 1 câu emotion) |
+| `.work/prep_push_dirs.py` | Đã sửa slug kernel smoke: `…-smoke-2-gpu-…` (Kaggle slug hoá "2 GPU" → "2-gpu") |
+| `.work/cer_detail_v7.txt` | CER chi tiết 2 ô pilot v7 (`W4` 4,48% · `W2` 2,18%) |
+| `.work/cer_detail_v8.txt` | CER chi tiết 3 ô pilot v8 (TD-PSOLA) — **bằng chứng loại TD-PSOLA** |
 
 ### Số đo thô
 

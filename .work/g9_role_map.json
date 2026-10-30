@@ -1,20 +1,65 @@
 {
-  "_comment": "Phep gan vai -> clip tham chieu cho Tap 02 (Higgs Audio v3). Sửa file này rồi chạy lại .work/build_spec.py. Pilot v6 sẽ chốt số; giá trị dưới đây là PHƯƠNG ÁN TẠM.",
-  "_status": "PROVISIONAL — chua chot sau pilot v6",
-  "H": "M_LOW.wav",
+  "_comment": "Phep gan vai -> clip tham chieu cho Tap 02 (Higgs Audio v3). Sua file nay roi chay lai .work/build_spec.py.",
+  "_status": "KHUYEN_NGHI — cho den khi nguoi dung chot (L4). Mapping hien tai da qua G9 tren CAP CUNG GIOI LIEN KE THAT + do CER thap nhat.",
+  "_data": "2026-10-30 · do lai day du tren pilot v6+v7+v8 (.work/g9_decide.py, .work/g9_decide.txt)",
+  "H": "H.wav",
   "D": "M_HIGH.wav",
   "C": "C.wav",
-  "N1": "W6_LOW_S35.wav",
+  "N1": "W6_LOW.wav",
   "N2": "W5_HIGH.wav",
-  "_alternatives": {
-    "H": ["M_LOW.wav", "H.wav"],
-    "D": ["M_HIGH.wav", "D.wav"],
-    "N1": ["W6_LOW_S35.wav", "W6_LOW_S40.wav", "W6_LOW_S30.wav", "W6_LOW.wav"],
-    "N2": ["W5_HIGH.wav", "W2.wav"]
+
+  "_measured_clone_f0": {
+    "_note": "F0 CLONE THAT do pilot v6 (AC tho / AC chuan hoa). Chi 5 clip SACH moi dung duoc.",
+    "H_H.wav": "130.4 / 127.1",
+    "H_M_LOW.wav": "97.8 / 97.1",
+    "D_D.wav": "124.0 / 125.5",
+    "D_M_HIGH.wav": "198.3 / 185.8",
+    "C_C.wav": "214.3 / 202.8",
+    "N1_W6_LOW.wav": "184.6 / 173.1",
+    "N2_W1.wav": "260.9 / 246.9",
+    "N2_W2.wav": "201.7 / 195.5",
+    "N2_W5_HIGH.wav": "285.7 / 268.0"
   },
-  "_g9_target": {
-    "_note": "N1 clone <= 162.8 Hz (AC tho) va <= 154.7 Hz (pp2) de cach >= 4 nc ca C (205.1/194.9) lan N2 (275.9/258.3)",
-    "n1_clone_ac_max": 162.8,
-    "n1_clone_pp2_max": 154.7
+
+  "_cer_pilot_v6": {
+    "_note": "CER 2 vế chuan hoa / CER bo danh tu rieng (viet_cer.py), 12 cau/o",
+    "H_H.wav": "0.34% / 0.00%",
+    "H_M_LOW.wav": "2.43% / 1.94%",
+    "D_M_HIGH.wav": "1.44% / 0.47%",
+    "D_D.wav": "3.57% / 2.62%",
+    "C_C.wav": "3.09% / 2.14%",
+    "N1_W6_LOW.wav": "2.10% / 1.47%",
+    "N2_W5_HIGH.wav": "0.21% / 0.25%"
+  },
+
+  "_g9_adjacent": {
+    "_note": "Cap lien ke THAT trong Tap 02: H-D x8 (cung gioi), C-H x8, C-D x2, H-N1 x2, H-N2 x2 (khac gioi).",
+    "H_D_H.wav_vs_M_HIGH": "6.57 nc -> DAT",
+    "H_D_M_LOW_vs_M_HIGH": "11.23 nc -> DAT",
+    "H_D_H.wav_vs_D.wav": "0.22 nc -> TRUOT (hai giong goc H/D gan bang nhau)"
+  },
+
+  "_g9_same_gender_all_pairs": {
+    "_note": "G9 doc chung 'hai giong cung gioi cach nhau >= 4 nua cung'. Ap cho MOI cap cung gioi (ke ca cap khong lien ke) thi KHONG phoi nao dat: C-N1 = 2.58 nc luon.",
+    "C_N1_W6_LOW": "2.58 nc (ac) / 2.13 nc (pp2) -> TRUOT",
+    "C_N2_W5_HIGH": "4.83 nc -> DAT",
+    "N1_N2_W6_LOW_vs_W5_HIGH": "7.56 nc -> DAT",
+    "_ly_do": "Khong ton tai clip NU SACH nao co F0 clone <= 170.1 Hz (AC) / <= 161.0 Hz (pp2) de dat C-N1 >= 4 nc. Toan bo clip bien thu (phase vocoder S20-S40 + TD-PSOLA PS15-PS30) deu hong khi CLONE."
+  },
+
+  "_warnings": [
+    "KHONG dung bien the phase vocoder (W6_LOW_S20..S40): clip doc OK (ASR 0,00%) nhung CLONE ra CER 9,5-12,5% va sai noi dung.",
+    "KHONG dung bien the TD-PSOLA (W6_LOW_PS15..PS30): pilot v8 do clone that cho thay CER 8,44-10,87%, loi sai NOI DUNG ('Kẻ bắt cóc' -> 'và các công suất hiện tượng'). TD-PSOLA khong cuu duoc.",
+    "HAY QUA viet cao do tren clip tham chieu bang bat ky phuong phap nao (ke ca PSOLA): moi bien thu lam nhieu token codec => Higgs doc sai noi dung.",
+    "D la vai DUOC PHAI doi giong (H.wav vs D.wav chi cach 0,22 nc). M_HIGH dung mo ta 'nam 50+, khan' — khop vai D.",
+    "N1 va N2 trong Tap 02 chi xuat hien o canh 1.07 va 4.06 — KHONG bao gio lien ke nhau hay lien ke C."
+  ],
+
+  "_alternatives": {
+    "_note": "Doi H sang M_LOW: H-D 11,23 nc (bien lon nhat) nhung H doi giong + CER 2,43%. Doi D sang D.wav: giu giong D goc nhung CER 3,57% va H-D phu thuoc.",
+    "H": ["H.wav", "M_LOW.wav"],
+    "D": ["M_HIGH.wav", "D.wav"],
+    "N1": ["W6_LOW.wav"],
+    "N2": ["W5_HIGH.wav"]
   }
 }

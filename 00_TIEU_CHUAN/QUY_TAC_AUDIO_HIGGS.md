@@ -245,6 +245,37 @@ Code: thêm nhánh engine trong `tts_sentences.py` (ví dụ `AE_TTS=higgs`), **
   3 ô TD-PSOLA × 6 câu × 2 bản) đo F0 clone + CER thật của các biến thể TD-PSOLA.
 * Kernel **v7** (clone `W4`/`W2` cho bộ nghe mù H3) → **24/24 OK, 0 lỗi**.
 
+**CẬP NHẬT 30/10 (vòng 3 — sau pilot v8 + smoke 2 GPU):**
+
+* **TD-PSOLA CŨNG HỎNG khi clone ⇒ CẤM HẠ CAO ĐỘ CLIP THAM CHIẾU BẰNG MỌI PHƯƠNG PHÁP XỬ LÝ TÍN HIỆU.**
+  Pilot v8 (36/36 OK) đo clone thật của 3 biến thể TD-PSOLA:
+  `PS20` CER 9,62% · `PS25` 8,44% · `PS30` 10,87% — **sai nội dung** (cả 2 vòng ASR sai giống nhau),
+  tệ ngang phase vocoder (9,5–12,5%), trong khi clip gốc đọc ASR 0,00%.
+  Cơ chế: mọi biến đổi dạng sóng theo thời gian ⇒ **codec âm thanh sinh token mờ** ⇒ Higgs nghe nhầm.
+  ⇒ Muốn đổi cao độ của một vai phải **có clip đã tồn tại sẵn ở cao độ đó** (và phải sạch).
+* **Bảng G9 đầy đủ, đo lại mọi ô pilot v6+v7+v8** (`.work/g9_decide.py` → `.work/g9_decide.txt`):
+  F0 clone thật (ac/pp2) — `H←H.wav` 130,4/127,1 · `H←M_LOW` 97,8/97,1 · `D←D.wav` 124,0/125,5 ·
+  `D←M_HIGH` 198,3/185,8 · `C←C.wav` 214,3/202,8 · `N1←W6_LOW` 184,6/173,1 ·
+  `N2←W1` 260,9/246,9 · `N2←W2` 201,7/195,5 · `N2←W5_HIGH` 285,7/268,0.
+* **Nút thắt G9 = `C↔N1` = 2,58 / 2,13 nc — KHÔNG clip sạch nào đạt được.**
+  Để đạt, N1 clone phải ≤ 170,1 Hz (ac) **và** ≤ 161,0 Hz (pp2); `W6_LOW` là clip nữ sạch duy nhất
+  dành được cho N1 (184,6 / 173,1 Hz). ⇒ **0/12 phương án** đạt nếu G9 áp cho *mọi* cặp cùng giới.
+  Chỉ đạt được nếu hiểu G9 là **"cặp cùng giới thật sự liền kề"** — trong Tập 02 cặp cùng giới
+  duy nhất liền kề là `H↔D` (8 lần): `H.wav↔M_HIGH` 7,27/6,57 ✅ · `M_LOW↔M_HIGH` 12,24/11,23 ✅ ·
+  `M_LOW↔D.wav` 4,11/4,45 ✅ · `H.wav↔D.wav` 0,22/0,26 ❌.
+* **Ánh xạ vai chốt TẠM** (`.work/g9_role_map.json`, chờ người dùng duyệt L4):
+  `H←H.wav` (giữ giọng gốc, CER⊘P **0,00%**) · `D←M_HIGH` (đúng mô tả "nam 50+ khàn";
+  D bắt buộc phải đổi vì `H.wav↔D.wav` chỉ cách 0,22 nc) · `C←C.wav` (giữ) ·
+  `N1←W6_LOW` · `N2←W5_HIGH` (`C↔N2` 4,99/4,83 ✅; `W2`/`W1` chỉ 1,04/3,41 ❌).
+* **Smoke 2 GPU PASS** (kernel `chiduong2026/amber-eyes-higgs-smoke-2-gpu-kaggle-gpu`):
+  **12/12 OK, 0 lỗi, 13,53 s/file**, mỗi worker 1 Tesla T4 (`CUDA_VISIBLE_DEVICES=0/1`).
+  ⇒ đường chạy 2 card + catch-up đã chứng minh hoạt động.
+* **Lượt sản xuất** (kernel `chiduong2026/amber-eyes-higgs-prod-t02-kaggle-gpu`):
+  203 câu → **416 file** (2 bản/câu; 10 câu trích → 3 bản), seed cố định theo câu.
+* **BẪY slug Kaggle:** slug do Kaggle **sinh từ `title`**, không phải từ `id`.
+  Title "…smoke 2 GPU Kaggle GPU" ⇒ slug `…-smoke-2-gpu-…` (không phải `2gpu`). Sai ⇒ tạo kernel trùng.
+
+
 **BẪY ĐO LẠI (rất dễ sai):** `tts_sentences.py:105` gửi **số → chữ** cho TTS, còn ASR trả **chữ số**.
 Phải áp `vi_numbers()` cho **CẢ HAI VÊ** và dùng **đúng** `vi_number()` của `tts_sentences.py`
 (bản rút gọn làm `"2009"` → *"two nine"*). Không sửa thì **cả Higgs lẫn MiniMax đều bị phình CER**
@@ -255,10 +286,12 @@ phải lỗi TTS).
 
 **Còn chưa biết:**
 
-6. Tham chiếu nào cho **H**, **D** và **N1** để đạt G9 — **đã có 4 clip mới + 5 biến thể TD-PSOLA**;
-   pilot v8 đang đo F0 clone + CER thật của biến thể TD-PSOLA ⇒ chốt ánh xạ vai sau đó
-   (cần người dùng duyệt L4 vì đổi clip = đổi giọng vai). Bảng lựa chọn + số đo:
-   `90_LUU_TRU/BaoCao_H2_Higgs_Pilot_Tap02_20261030.md` §9.1.
+6. Tham chiếu nào cho **H**, **D** và **N1** để đạt G9 — **đã chốt TẠM** (`H←H.wav` · `D←M_HIGH` ·
+   `C←C.wav` · `N1←W6_LOW` · `N2←W5_HIGH`), lượt sản xuất 416 file đang chạy.
+   ⇒ chỉ còn chờ **người dùng duyệt L4** (đổi clip = đổi giọng vai) + trả lời câu hỏi
+   "G9 áp cho *mọi* cặp cùng giới hay chỉ cặp liền kề thật" (vì `C↔N1` = 2,58 nc và **không**
+   clip sạch nào đạt được — nếu bắt buộc mọi cặp thì phải nhờ Mac mini tạo thêm clip nữ F0 ≤ 160 Hz).
+   Bảng lựa chọn + số đo: `90_LUU_TRU/BaoCao_H2_Higgs_Pilot_Tap02_20261030.md` §9.1 và §8.12.
 8. G8 (nghe mù 100%) — chưa chạy; bộ nghe mù H3 đã dựng được (kernel v7 xong 24/24).
 9. Người dùng xác nhận **chấp nhận ghi công Boson** (H0) — điều khoản Creator Use Grant II-A cho phép
    thương mại nhưng **bắt buộc** ghi "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio"
