@@ -1,0 +1,35 @@
+REEL NGHE THU GIONG HIGGS — TAP 02 (Higgs Audio v3, 24 kHz)
+Nguon: pilot v6, DUNG 5 mapping san xuat cuoi cung
+  H<-H.wav · D<-M_HIGH.wav · C<-C.wav · N1<-W6_LOW.wav · N2<-W5_HIGH.wav
+  temperature 0.8 · top_p 0.95 · top_k 50 · bien the s0 (seed co dinh theo cau)
+
+Dung de danh gia: chat luong doc, phan biet giong nam H vs D, cam xuc.
+Khong phai ban thanh pham cuoi cung (ban do dung 416 file, se doi sau khi do CER).
+
+    0.0 s | == H — người dẫn (nam, English_CaptivatingStoryteller)
+    0.0 s | [H] 5.02#4 (neutral)
+   19.7 s |       “Ba ngày sau, ngày hai mươi mốt, thẩm phán tuyên phạt: hai mức tù chung thân chạy song song cho hai tội giết ng”
+   20.5 s | [H] 2.04#1 (neutral)
+   23.0 s |       “Kẻ bắt cóc không xuất hiện từ hư không.”
+   23.8 s | [H] 1.03#1 (neutral)
+   26.6 s |       “Tháng bảy năm hai nghìn không trăm lẻ chín.”
+   28.8 s | == D — điều tra viên (nam 50+ khàn, M_HIGH)
+   28.8 s | [D] 1.17#1 (neutral)
+   39.0 s |       “Tuyết mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù: một vệt gai lốp xe địa hình khá ”
+   39.8 s | [D] 3.05#1 (neutral)
+   46.4 s |       “Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí.”
+   48.6 s | == C — chuyên gia tâm lý (nữ 50, C.wav)
+   48.6 s | [C] 5.02#4 (neutral)
+   66.3 s |       “Ba ngày sau, ngày hai mươi mốt, thẩm phán tuyên phạt: hai mức tù chung thân chạy song song cho hai tội giết ng”
+   67.1 s | [C] 3.05#1 (neutral)
+   72.9 s |       “Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí.”
+   75.1 s | == N1 — nhân vật nữ phụ (nữ, W6_LOW)
+   75.1 s | [N1] 5.02#4 (neutral)
+   92.7 s |       “Ba ngày sau, ngày hai mươi mốt, thẩm phán tuyên phạt: hai mức tù chung thân chạy song song cho hai tội giết ng”
+   93.5 s | [N1] 3.05#1 (neutral)
+   99.4 s |       “Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí.”
+  101.6 s | == N2 — nhân vật nữ phụ (nữ cao, W5_HIGH)
+  101.6 s | [N2] 4.06#1 (surprised)
+  107.3 s |       “Suốt nhiều năm, thị trấn nhỏ Tweed của chúng tôi sống trong một nỗi bất an mơ hồ.”
+  108.1 s | [N2] 2.04#1 (neutral)
+  110.8 s |       “Kẻ bắt cóc không xuất hiện từ hư không.”
