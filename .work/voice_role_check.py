@@ -8,6 +8,7 @@ Chạy:  AE_EP=02 py -3 .work/voice_role_check.py
 Output: <EP_DIR>/thu_giong_kiem_vai/report.md + file nghe
 """
 import json
+import os
 import re
 import subprocess
 import sys
@@ -66,6 +67,18 @@ def ask(path, prompt):
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     man = json.loads(ED.w("tts_manifest.json").read_text(encoding="utf-8"))
+    # L5: audio MiniMax giu nguyen; audio Higgs nam o thu muc rieng.
+    # Dat AE_AUDIO_DIR=audio_s_higgs_t02 de kiem tra bang giong Higgs (WAV 24 kHz).
+    audio_dir = os.environ.get("AE_AUDIO_DIR", "audio_s")
+    if audio_dir != "audio_s":
+        print("nguon audio:", ED.w(audio_dir))
+
+    def audio_path(m):
+        p = ED.w(audio_dir) / m["file"]
+        if not p.exists():
+            p = p.with_suffix(".wav")      # audio Higgs: .wav 24 kHz
+        return p
+
     names = NAMES_KO if ED.KO else (NAMES_JA if ED.JA else (NAMES_EN if ED.EN else NAMES))
     lang = "Korean" if ED.KO else ("Japanese" if ED.JA else ("English" if ED.EN else "Vietnamese"))
     md = [f"# G10 — nghe liền theo vai ({ED.MASTER})", ""]
@@ -79,7 +92,7 @@ def main():
         pick = items[::step][:12]
         picks[role] = pick
         out = OUT / f"vai_{role}.mp3"
-        join([ED.w("audio_s") / m["file"] for m in pick], out)
+        join([audio_path(m) for m in pick], out)
         if len(pick) < 3:
             md += [f"## {names[role]} ({ED.CAST[role][0]}): {len(pick)} câu — bỏ qua (quá ít)", ""]
             continue
@@ -97,7 +110,7 @@ def main():
     # G9: xen kẽ 3 vai chính
     trio = [x for k in range(3) for x in (picks["H"][k * 3], picks["D"][k * 3], picks["C"][k * 3])]
     out = OUT / "xen_ke_3_vai.mp3"
-    join([ED.w("audio_s") / m["file"] for m in trio], out)
+    join([audio_path(m) for m in trio], out)
     ans = ask(out, f"9 {lang} readings ~1 s apart. Ignore words; judge VOICE IDENTITY. First line exactly 'SPEAKERS: <number>'. "
                    "Then label each reading S1/S2/S3..., describe each speaker in 5 words, and rate 1-10 how clearly distinct they are.")
     md += ["## G9 — xen kẽ Host · Điều tra viên · Chuyên gia (9 câu, đúng phải là S1 S2 S3 lặp 3 lần)", "", ans, ""]

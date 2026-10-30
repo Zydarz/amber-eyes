@@ -117,6 +117,21 @@ Ket qua khong phu thuoc card nao: seed co dinh theo `(id|role|ref|temp|variant)`
 => moi cau cho cung ket qua bat ke card nao sinh.
 """,
     },
+    "r2": {
+        "SPEC_NAME": "prod_spec_r2.json",
+        "PAYLOAD_NAME": "higgs_payload_r2.json",
+        "OUT_NAME": "out_higgs_r2",
+        "NB_NAME": "higgs_r2_kaggle.ipynb",
+        "N_WORKERS": 2,
+        "TITLE": "SAN XUAT Tap 02 vong 2 — cau trượt CER (Higgs Audio v3)",
+        "MD": """# SAN XUAT Tap 02 — VONG 2 (Higgs Audio v3)
+
+§7: cau co ban tot nhat van vuot CER 2% -> sinh them **2 ban** voi seed khac
+(bien 3,4). Khong ghi de ban cu.
+
+Ket qua khong phu thuoc card nao: seed co dinh theo `(id|role|ref|temp|variant)`.
+""",
+    },
 }
 
 p = argparse.ArgumentParser()

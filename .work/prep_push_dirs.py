@@ -54,6 +54,12 @@ KERNELS = {
         "nb": "higgs_prod_kaggle.ipynb",
         "dir": "_push_prod",
     },
+    "r2": {
+        "slug": "chiduong2026/amber-eyes-higgs-prod-t02-r2-kaggle-gpu",
+        "title": "Amber Eyes Higgs prod T02 r2 Kaggle GPU",
+        "nb": "higgs_r2_kaggle.ipynb",
+        "dir": "_push_r2",
+    },
 }
 
 README = """# Amber Eyes — Higgs Audio v3 (Boson AI) tren Kaggle GPU
