@@ -294,7 +294,28 @@ Muốn đạt 4 nc, cần một trong hai:
 ⇒ **Cần tạo clip VoxCPM2 VI mới.** Bộ clip này sinh được bằng VoxCPM2 Voice Design trên Mac mini của bạn
 (~30 phút), và là **Apache-2.0** nên không vướng gì.
 
-### 6.4 Đang đo gì (pilot v4, chạy trên Kaggle)
+### 6.4 Pilot v4 — lần đo độc lập thứ hai (bộ seed khác)
+
+Pilot v4 sinh lại **96 bản baseline bằng bộ seed khác hẳn** (thêm `|v0` vào công thức hash seed).
+Mục tiêu: chứng minh lỗi G9 H↔D **không phải do may rủi seed** mà là đặc tính của mô hình.
+
+| Vai | F0 (bộ seed 1 — pilot v3) | F0 (bộ seed 2 — pilot v4) | Kết luận |
+|---|---:|---:|---|
+| H ← H.wav | 128,3 / 130,4 / 131,1 Hz | 130,4 / 130,4 / 131,1 Hz | **ổn định** |
+| D ← D.wav | 120,0 / 123,1 / 117,6 Hz | 126,0 / 123,1 / 123,7 Hz | **ổn định** |
+| C ← C.wav | 203,4 / 206,9 / 205,1 Hz | 208,7 / 205,1 / 208,7 Hz | **ổn định** |
+| **H ↔ D** | 1,12 nc | **1,01 nc** (AC thô) · **0,04 nc** (AC chuẩn hóa) | ❌ **trượt ở cả 2 lần đo** |
+
+⇒ **Xác nhận lỗi G9 H↔D là đặc tính mô hình, không phải nhiễu seed.** Cùng lần đó, bộ seed thứ hai cho thấy
+`temperature 0,7` lại sinh file **47,6 s** cho cả H lẫn D (bộ seed 1 chỉ D bị) ⇒ củng cố lựa chọn
+**`temperature 0,8`** cho cả 3 vai chính.
+
+> ⚠ **Lỗi notebook đã phát hiện:** notebook pilot v4 nạp nhầm `pilot_spec.json` (bản v3) thay vì
+> `pilot_spec_v4.json` — `REF_DIR` tìm đúng thư mục nhưng dòng `SPEC = json.load(...)` lấy sai tên file.
+> Hệ quả: chạy lại spec cũ với seed mới (96 bản) thay vì 104 bản đúng đặc tả.
+> Đã sửa + verify (6/6 check, 14/14 cell compile) và đẩy lại **kernel v5**.
+
+### 6.5 Đang đo gì (pilot v5, chạy trên Kaggle)
 
 104 bản, **chỉ đo — không gán vai** (đúng luật L4):
 
@@ -303,15 +324,20 @@ Muốn đạt 4 nc, cần một trong hai:
 | **A** | H và D clone từ **W3** và từ **W4**, 8 câu mỗi cặp, t=0,8 (32 bản) | Đo F0 **thật** của audio clone khi đổi clip, thay vì suy đoán từ clip gốc |
 | **B** | D (t=0,7 và t=0,8), N1, N2 × 3 biến thể seed (72 bản) | Kiểm chọn-bản-tốt-nhất có kéo D/N1/N2 về CER < 2% không |
 
-### 6.5 Ba lựa chọn — cần bạn chọn
+### 6.6 Ba lựa chọn — người dùng đã chọn (a)
 
 | | Cách làm | Đánh đổi |
 |---|---|---|
-| **(a)** | Tạo clip VoxCPM2 VI mới: một nam rất trầm (~80 Hz) cho **H**, **hoặc** một nam cao (~170 Hz) cho **D** | Mất ~30 phút trên Mac mini. Giữ được cả CER lẫn G9. Khớp vai có thể kém trắc |
-| **(b)** | Dùng clip **MiniMax** làm clip tham chiếu cho Higgs | Nhanh, nhưng **cần bạn xác nhận điều khoản** (audio sinh từ MiniMax là tài sản có điều khoản riêng). F0 clip MiniMax: H 101 Hz · D 140 Hz — chưa chắc đủ |
-| **(c)** | Ghi nhận vi phạm G9, chỉ dựa vào **nghe mù** để chứng minh đủ phân biệt | Nhanh nhất, nhưng vi phạm G9 và cần nghe mù đạt 100% |
+| **(a)** ✅ | Tạo clip VoxCPM2 VI mới: một nam rất trầm (~80 Hz) cho **H**, **hoặc** một nam cao (~170 Hz) cho **D** | Mất ~30 phút trên Mac mini. Giữ được cả CER lẫn G9 |
+| **(b)** | Dùng clip **MiniMax** làm clip tham chiếu cho Higgs | Nhanh, nhưng **cần xác nhận điều khoản**. F0 clip MiniMax: H 101 Hz · D 140 Hz — chưa chắc đủ |
+| **(c)** | Ghi nhận vi phạm G9, chỉ dựa vào **nghe mù** | Nhanh nhất, nhưng vi phạm G9 |
 
-**Khuyến nghị: (a)** — vì (b) còn vướng điều khoản và (c) vi phạm luật, còn (a) giữ được cả hai tiêu chuẩn.
+**Đã chốt: (a).** Bộ cục: `.work/voxcpm_generate_g9.py` + `.work/voxcpm_refs_manifest_g9.json`
+(dò thang `control` tự động) · hướng dẫn đầy đủ: `.work/G9_HD_HUONG_DAN.md`.
+
+**Hướng được chọn (ưu tiên A):** hạ **H** xuống (~85 Hz) thay vì nâng D lên — vì vai H vốn được mô tả
+*"low-pitched, deep chesty resonance"* nên giọng trầm hợp vai hơn, còn vai D giữ được
+*"late fifties, gravelly"*. Script vẫn sinh **cả hai** bộ (`M_LOW` + `M_HIGH`) để chọn bằng số đo thật.
 
 ---
 
@@ -320,22 +346,29 @@ Muốn đạt 4 nc, cần một trong hai:
 **Triệu chứng.** Vai C (nữ chính) và vai N1 (nữ phụ) phải cách nhau ≥ 4 nửa cung, đồng thời N1 phải đọc đúng
 (CER < 2%). Ba clip nữ trong bộ hiện có:
 
-| Ứng viên cho N1 | CER | G9 với C | Kết luận |
-|---|---:|---:|---|
-| **W1** (nữ trẻ, F0 235 Hz) | 1,08% ✅ | 2,98 nc ❌ | đọc đúng nhưng **không tách** được |
-| W2 (nữ 50, F0 189 Hz) | 2,86% ❌ | 0,19 nc ❌ | trượt cả hai |
-| W3 | 4,25% ❌ | 4,34 nc ✅ | tách được nhưng **đọc sai** — và W3 là giọng **nam**, sai giới tính vai N1 |
+| Ứng viên cho N1 | CER | G9 với C (bộ seed 1) | G9 với C (bộ seed 2) | Kết luận |
+|---|---:|---:|---:|---|
+| **W1** (nữ trẻ, F0 235 Hz) | 1,08% ✅ | 2,98 nc ❌ | 2,94 nc ❌ | đọc đúng nhưng **không tách** được |
+| W2 (nữ 50, F0 189 Hz) | 2,86% ❌ | 0,19 nc ❌ | 0,81 nc ❌ | trượt cả hai |
+| W3 | 4,25% ❌ | 4,34 nc ✅ | 4,94 nc ✅ | tách được nhưng **đọc sai** — và W3 là giọng **nam**, sai giới tính vai N1 |
 
-**Nguyên nhân.** C (audio clone 192 Hz) đã ở khá cao; clip nữ cần cao hơn thì mới tách được, mà bộ clip hiện có
+**Nguyên nhân.** C (audio clone 205 Hz) đã ở khá cao; clip nữ cần cao hơn thì mới tách được, mà bộ clip hiện có
 chỉ có W1 là nữ trẻ nhưng chưa đủ cao.
 
 **Sửa ở đâu.** Tạo clip VoxCPM2 VI nữ mới.
 
-**Sửa cái gì.** Một clip **nữ trẻ F0 ~270 Hz** (cao hơn W1 một chút) ⇒ audio clone về ~245 Hz ⇒ cách C ~4,3 nc
+**Sửa cái gì.** Một clip **nữ trẻ F0 ~265 Hz** (cao hơn W1 một chút) ⇒ audio clone về ~258 Hz ⇒ cách C ≥ 4 nc
 **và** chất lượng đọc của W1 vốn đã tốt (CER 1,08%).
 
-**Lựa chọn thay thế.** Chấp nhận N1 ở 2,98 nc — bằng đúng mức lệch mà bộ MiniMax hiện tại đang có
+**Lựa chọn thay thế.** Chấp nhận N1 ở ~2,95 nc — bằng đúng mức lệch mà bộ MiniMax hiện tại đang có
 (C↔N1 = 3,07 nc), tức **không tệ hơn hiện trạng**.
+
+**Lưu ý thực tế (kiểm lại kịch bản).** N1 chỉ có 4 câu, **toàn bộ ở hồi 1**; C chỉ xuất hiện ở hồi 3/4/5
+⇒ **hai vai không bao giờ cùng hồi**, người nghe không gặp chúng cạnh nhau. Vì vậy lệch 2,95 nc là vấn đề
+*về con số*, không phải vấn đề *về người nghe*. Hệ quả khi nâng N1 lên ~258 Hz: N1 (258) và N2 (276) sẽ
+gần nhau (~1,1 nc) — **giống hệt** bộ MiniMax hiện tại (1,3 nc) và cũng không cùng hồi (N2 ở hồi 4).
+
+**Đã chốt:** tạo clip nữ mới (`W5_HIGH`, F0 clip 258–276 Hz) — người dùng đã chọn phương án (a).
 
 ---
 
@@ -412,19 +445,53 @@ Câu lỗi còn lại ở cấu hình đề xuất:
 | Thẻ `<|…|>` | **Có tác dụng** — bản chép không chứa từ khóa thẻ |
 | API | `generate_speech(text, tok, *, reference_codes, reference_text, max_new_tokens, temperature, top_p, top_k)` — **không có** `speed_*`/`pitch_*` (⇒ G4/G5 tự đạt), **không có** tham số seed (⇒ phải `torch.manual_seed` + `torch.cuda.manual_seed_all`) |
 
+### 8.6 Pilot v4 — bộ seed thứ 2, xác nhận lại G9 (96 bản)
+
+| Vai | Clip | Temp | n | F0 (AC thô) | F0 (AC chuẩn hóa) | Thời lượng | So với bộ seed 1 |
+|---|---|---:|---:|---:|---:|---|---|
+| H | H.wav | 0,8 | 8 | 131,1 Hz | 125,7 Hz | 2,4–13,7 s | ✓ khớp (131,1) |
+| D | D.wav | 0,8 | 8 | 123,7 Hz | 126,0 Hz | 2,2–14,4 s | ✓ khớp (117,6–123,1) |
+| C | C.wav | 0,8 | 8 | 208,7 Hz | 198,9 Hz | 4,4–13,4 s | ✓ khớp (205,1) |
+| D | D.wav | **0,7** | 8 | 123,1 Hz | 126,6 Hz | 2,2–**47,6 s** ❌ | runaway lặp lại ở seed khác |
+| H | H.wav | **0,7** | 8 | 130,4 Hz | 126,1 Hz | 2,5–**47,6 s** ❌ | runaway lặp lại ở seed khác |
+| N1 | W1.wav | 0,7 | 4 | 247,4 Hz | 234,9 Hz | 4,7–7,2 s | ✓ khớp (244,9) |
+| N2 | W1.wav | 0,7 | 4 | 275,9 Hz | 259,6 Hz | 5,0–8,4 s | ✓ khớp (275,9) |
+| N2 | W3.wav | 0,7 | 4 | 172,7 Hz | 166,3 Hz | 4,7–9,0 s | C↔N2(W3) = 3,28 nc — vẫn trượt |
+
+**Kết luận pilot v4:**
+1. **G9 H↔D trượt ở cả hai bộ seed** (1,12 nc và 1,01/0,04 nc) ⇒ **lỗi đặc tính mô hình, không phải nhiễu seed.**
+2. **`temperature 0,7` sinh file 47,6 s ở cả H lẫn D, ở cả hai bộ seed** ⇒ `temperature 0,8` là lựa chọn
+   đúng, không phải do may rủi.
+3. F0 của các clip gốc là **ổn định qua seed** (H 131 Hz, D 121–124 Hz, C 205–209 Hz, N2←W1 276 Hz)
+   ⇒ đường cong "drift" giữa clip gốc và audio clone là **đặc tính ổn định của Higgs**, dùng được để
+   tính ngược F0 clip mới cần tạo.
+
+> ⚠ **Lỗi notebook đã phát hiện & sửa:** notebook pilot v4 nạp nhầm `pilot_spec.json` (bản v3) thay vì
+> `pilot_spec_v4.json` — `REF_DIR = find_dir_containing("pilot_spec_v4.json")` tìm đúng thư mục nhưng dòng
+> `SPEC = json.load(open(..., "pilot_spec.json"))` lấy sai tên file ⇒ chạy lại spec cũ (96 bản, seed mới)
+> thay vì 104 bản đúng đặc tả. Đã sửa, verify (6/6 check + 14/14 cell compile), đẩy lại **kernel v5**.
+
 ---
 
 ## 9. Việc cần bạn quyết
 
-| # | Câu hỏi | Lựa chọn | Khuyến nghị |
+| # | Câu hỏi | Lựa chọn | Quyết định |
 |---|---|---|---|
-| 1 | **G9 H↔D** — làm gì để tách 2 vai nam? | (a) tạo clip VoxCPM2 mới · (b) dùng clip MiniMax · (c) ghi nhận vi phạm | **(a)** |
-| 2 | **G9 N1** — làm gì cho vai nữ phụ? | (a) tạo clip nữ mới ~270 Hz · (b) chấp nhận 2,98 nc | **(a)**, nếu không thì (b) |
-| 3 | **Ghi công Boson** (H0) — xác nhận chấp nhận? | (a) chấp nhận, ghi công trong mọi tập · (b) chưa | cần xác nhận |
-| 4 | **Thứ tự tạo clip mới** | (a) cả H + D + N1 · (b) chỉ N2 (đã chốt) + N1 · (c) chỉ H/D | tuỳ quyết định ở #1/#2 |
+| 1 | **G9 H↔D** — làm gì để tách 2 vai nam? | (a) tạo clip VoxCPM2 mới · (b) dùng clip MiniMax · (c) ghi nhận vi phạm | ✅ **(a)** — đã chọn |
+| 2 | **G9 N1** — làm gì cho vai nữ phụ? | (a) tạo clip nữ mới ~265 Hz · (b) chấp nhận ~2,95 nc | ✅ **(a)** — đã chọn |
+| 3 | **Ghi công Boson** (H0) — xác nhận chấp nhận? | (a) chấp nhận, ghi công trong mọi tập · (b) chưa | ⏸ **(b)** — **dừng trước H4** tới khi chốt |
+| 4 | **Thứ tự tạo clip mới** | — | Script sinh **cả 3 bộ** `M_LOW` + `M_HIGH` + `W5_HIGH` trong 1 lần chạy |
 
-Sau khi có câu trả lời 1–3, bước tiếp theo là:
-**H3** (nghe mù V7 + G8) → sinh 203 câu → **H4** (đọc 1 hồi + mix + QC) → **H5** (đọc cả tập + dựng video).
+**Việc bạn cần làm tiếp theo (1 lệnh trên Mac mini):**
+```bash
+cd /Users/duonganhhai/CodeGit/amber-eyes
+/Users/duonganhhai/ai/voxcpm2_project/.venv/bin/python3 .work/voxcpm_generate_g9.py
+git add assets/voice_ref_voxcpm2_g9 && git commit -m "feat(audio): them 3 clip tham chieu VoxCPM2 cho G9 (Tap 02)" && git push
+```
+Hướng dẫn đầy đủ: `.work/G9_HD_HUONG_DAN.md`.
+
+Sau khi có clip: pilot v5 (đo F0 clone + CER) → chốt ánh xạ vai → **H3** (nghe mù V7 + G8) →
+sinh 203 câu (3 bản/câu) → **H4** *(đang dừng chờ chốt ghi công)* → **H5** (dựng video).
 
 ---
 
@@ -441,8 +508,20 @@ Sau khi có câu trả lời 1–3, bước tiếp theo là:
 | `.work/kaggle_higgs/_analyze_h2.py` | Bảng chi tiết theo câu |
 | `.work/kaggle_higgs/_do_cer_pilot.py` | Script đo gốc (có lỗi Q3a — giữ nguyên để đối chiếu) |
 | `.work/kaggle_higgs/_build_pilot_v4.py` | Sinh `pilot_spec_v4.json` |
-| `.work/kaggle_higgs/_make_nb_v4.py` → `_build_nb_v4.py` | Sinh notebook Kaggle v4 |
-| `.work/kaggle_higgs/_wait_kernel_v4.py` | Theo dõi kernel + tải **chỉ** wav/json |
+| `.work/kaggle_higgs/_make_nb_v4.py` → `_build_nb_v4.py` | Sinh notebook Kaggle v4 (đã sửa lỗi nạp nhầm spec) |
+| `.work/kaggle_higgs/_fix_nb_v4_spec.py` | Sửa + verify notebook (6/6 check, 14/14 cell compile) |
+| `.work/kaggle_higgs/_v4_f0.py` | Đo F0 pilot v4 (2 thuật toán) |
+| `.work/kaggle_higgs/_wait_kernel_v4.py` / `_wait_kernel_v5.py` | Theo dõi kernel + tải **chỉ** wav/json |
+| `.work/kaggle_higgs/_prepare_push_v4.py` | Chuẩn bị thư mục push (id phải khớp slug Kaggle) |
+
+### Bộ tạo clip VoxCPM2 mới cho G9 (chạy trên Mac mini)
+
+| File | Vai trò |
+|---|---|
+| `.work/voxcpm_generate_g9.py` | **Script chạy trên Mac mini** — dò thang `control`, đo F0, chọn take, đóng gói 24 kHz |
+| `.work/voxcpm_refs_manifest_g9.json` | Mô tả giọng + thang `control` + dải F0 của 3 clip mới |
+| `.work/G9_HD_HUONG_DAN.md` | **Hướng dẫn đầy đủ** "làm lại ở Vox" (bảng từ khoá → F0, cách dò thang) |
+| `.work/DAT_SPEC_G9.md` | Đặc tả ngắn |
 
 ### Số đo thô
 
