@@ -1,23 +1,62 @@
 {
   "M_HIGH": {
-    "take": "M_HIGH_take01.wav",
     "f0_target": [168, 182],
     "why": "Dự phòng cho vai D (thám tử nam 50+ khàn). Mục tiêu: F0 audio clone >= 164 Hz để cách vai H (130 Hz) >= 4 nửa cung.",
-    "control": "A man in his late fifties, higher-pitched and clear with a firm carrying tenor voice, slightly rough and weathered timbre, cold and detached, authoritative and clinical, Vietnamese Standard, strictly neutral and unemotional, steady deliberate pace",
+    "note": "Dò thang từ 'mild' lên 'mạnh'. Từ khoá cao độ đã đo được trong bộ 7 clip: medium-pitched->162 Hz (nam), higher-pitched->252 Hz (nữ).",
+    "control_variants": [
+      {
+        "tag": "upper-mid",
+        "control": "A man in his late fifties, upper mid-pitched and clear with a firm carrying voice, slightly rough and weathered timbre, cold and detached, authoritative and clinical, Vietnamese Standard, strictly neutral and unemotional, steady deliberate pace"
+      },
+      {
+        "tag": "higher",
+        "control": "A man in his late fifties, higher-pitched and bright with a firm resonant tenor voice, slightly rough and weathered timbre, cold and detached, authoritative and clinical, Vietnamese Standard, strictly neutral and unemotional, steady deliberate pace"
+      },
+      {
+        "tag": "high-bright",
+        "control": "A man in his late fifties, high-pitched and very clear with a bright ringing tenor voice, lightly rough and weathered, cold and detached, authoritative and clinical, Vietnamese Standard, strictly neutral and unemotional, steady deliberate pace"
+      }
+    ],
     "text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự."
   },
   "M_LOW": {
-    "take": "M_LOW_take01.wav",
     "f0_target": [80, 92],
-    "why": "Dự phòng cho vai H (người dẫn chuyện nam trầm ấm). Mục tiêu: F0 audio clone <= 96 Hz để cách vai D (121 Hz) >= 4 nửa cung. Hợp mô tả nhân vật 'deep chesty resonance'.",
-    "control": "A man in his early forties, very low-pitched with a deep bass resonance, calm and unhurried, intimate late-night podcast narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace",
+    "why": "Dự phòng cho vai H (người dẫn chuyện nam trầm ấm). Mục tiêu: F0 audio clone <= 96 Hz để cách vai D (121 Hz) >= 4 nửa cung.",
+    "note": "Clip H hiện tại dùng 'low-pitched + deep chesty resonance' -> 108 Hz. Cần đẩy xuống dưới 92 Hz.",
+    "control_variants": [
+      {
+        "tag": "very-low",
+        "control": "A man in his early forties, very low-pitched and deep with a heavy bass resonance, calm and unhurried, intimate late-night podcast narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace"
+      },
+      {
+        "tag": "bass",
+        "control": "A man in his early forties, extremely low-pitched with a profound bass voice and chesty resonance, calm and unhurried, intimate late-night podcast narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace"
+      },
+      {
+        "tag": "sub-bass",
+        "control": "A man in his early forties, sub-bass and very deep with a powerful resonant bass resonance, calm and unhurried, intimate late-night podcast narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace"
+      }
+    ],
     "text": "Chào mừng bạn đến với chuyên mục giải mã tâm lý tội phạm. Mỗi hồ sơ đều bắt đầu bằng câu hỏi nặng trĩu, mà không ai trả lời nổi, dù sự thật vẫn luôn nằm ở đó. Khi lần theo từng trang tài liệu, chúng ta không tìm kiếm sự phán xét vội vàng, mà cùng nhìn nhận những chuyển biến thầm lặng bên trong một con người."
   },
   "W5_HIGH": {
-    "take": "W5_HIGH_take01.wav",
     "f0_target": [258, 276],
     "why": "Cho vai N1 (người kể chuyện thứ hai, nữ). Mục tiêu: F0 audio clone >= 258 Hz để cách vai C (205 Hz) >= 4 nửa cung.",
-    "control": "A woman in her early twenties, very high-pitched and bright with a light airy youthful timbre, conversational and slightly breathy, Vietnamese Standard, neutral and relaxed tone, natural everyday pace",
+    "note": "Clip W1 dùng 'higher-pitched and bright' -> 252 Hz. Cần cao hơn ~15 Hz.",
+    "control_variants": [
+      {
+        "tag": "very-high",
+        "control": "A woman in her early twenties, very high-pitched and bright with a light airy youthful timbre, conversational and slightly breathy, Vietnamese Standard, neutral and relaxed tone, natural everyday pace"
+      },
+      {
+        "tag": "high-bright",
+        "control": "A woman in her early twenties, high-pitched and very bright with a clear ringing youthful timbre, conversational and slightly breathy, Vietnamese Standard, neutral and relaxed tone, natural everyday pace"
+      },
+      {
+        "tag": "soprano",
+        "control": "A young woman in her early twenties, soprano and very high-pitched with a bright bell-like youthful timbre, conversational and slightly breathy, Vietnamese Standard, neutral and relaxed tone, natural everyday pace"
+      }
+    ],
     "text": "Những năm tháng ở căn cứ Trenton, chúng tôi quen với những con đường ngay ngắn và những hành lang lặng lẽ. Mỗi sáng, mọi người đều dừng lại trước tấm biển đồng trên cổng chính, và chẳng ai nhắc đến những gì đã xảy ra sau đó. Tôi vẫn nhớ rõ vẻ mặt của người lính trực đêm đêm cuối cùng."
   }
 }

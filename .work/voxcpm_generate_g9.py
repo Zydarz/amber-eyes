@@ -1,30 +1,39 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Sinh 3 clip tham chieu VoxCPM2 MOI cho G9 (Tập 02, Higgs Audio v3).
+Sinh clip tham chieu VoxCPM2 MOI cho G9 (Tập 02, Higgs Audio v3) — CACH DO THANG.
 
 VIET: chay tren Mac mini (MPS). KHONG chay tren Windows — VoxCPM2 can MPS/Apple Silicon.
 
-Lý do: bo clip hien tai KHONG tach duoc 2 vai nam:
-  vai H (clone 130 Hz) vs vai D (clone 121 Hz) = 0.23 nua cung, can >= 4.
-  Higgs KHONG giu F0 cua clip tham chieu (H +20%, D -8%) => 2 vai tro ve cung mot vung.
-  Vai N1 (clone 245 Hz) vs vai C (clone 205 Hz) = 3.07 nua cung, can >= 4.
+Van de G9: vai H (clone 130 Hz) va vai D (clone 121 Hz) chi cach 0.23 nua cung, can >= 4.
+Higgs KHONG giu F0 cua clip tham chieu (H 108->130 +20%, D 128->121 -8%) => 2 vai
+nam tro ve cung mot vung ~125 Hz.
 
-Script nay sinh 3 bo 3 clip:
-  M_HIGH  nam cao  (F0 168-182 Hz) -> du phong cho vai D
-  M_LOW   nam rat tram (F0 80-92 Hz) -> du phong cho vai H
-  W5_HIGH nu cao   (F0 258-276 Hz) -> cho vai N1
+Cach sua: MO MOT CLIP THAM CHIEU CO F0 KHAC XA. F0 cua clip VoxCPM2 duoc dieu khien
+bang TU KHOA CAO DO trong `control` (khong phai bang tham so cua script).
+Bang tu khoa -> F0 thuc do duoc trong bo 7 clip hien tai:
+    nam: "low-pitched"                    -> 108 Hz  (H)
+         "mid-low-pitched"                -> 128 Hz  (D)
+         "lower mid-pitched"              -> 137 Hz  (W4)
+         "medium-pitched"                 -> 162 Hz  (W3)
+    nu : "mid-pitched"                    -> 200-210 Hz (W2/C)
+         "higher-pitched"                 -> 252 Hz  (W1)
+=> Muon cao hon: dung "higher-pitched"/"high-pitched"/"soprano" (tu nhe len manh)
+=> Muon thap hon: dung "very low-pitched"/"bass"/"sub-bass"
 
-Moi bo sinh toi da 5 take, dung khi co take nao F0 nam trong dai muc tieu.
-Sau do TU CHON take co F0 sat giua dai nhat va copy ra thu muc de doi giong.
+Script nay D0 THANG: voi moi vai, thu cac `control_variants` theo thu tu tu nhe -> manh,
+sinh 1 take moi bien, do F0, DUNG NGAY khi co take nao trong dai muc tieu.
+Neu het thang ma chua trong dai, sinh them take cua bien dao gan nhat.
 
 CHAY:
     /Users/duonganhhai/ai/voxcpm2_project/.venv/bin/python3 .work/voxcpm_generate_g9.py
 
 Xuat:
-    .work/voxcpm_raw/<ROLE>/<ROLE>_takeNN.wav   (48 kHz, ban goc)
+    .work/voxcpm_raw/<ROLE>/<ROLE>_takeNN.wav       (48 kHz ban goc)
     .work/voxcpm_raw/<ROLE>/takes.json
-    assets/voice_ref_voxcpm2_g9_raw/<ROLE>.wav  (take duoc chon, 48 kHz — de ta dong goi)
+    assets/voice_ref_voxcpm2_g9/<ROLE>.wav           (24 kHz mono, -18 LUFS)
+    assets/voice_ref_voxcpm2_g9/<ROLE>.txt
+    assets/voice_ref_voxcpm2_g9/refs.json
 """
 import datetime
 import json
@@ -45,23 +54,17 @@ ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 RAW = WORK / "voxcpm_raw"
 MANIFEST = WORK / "voxcpm_refs_manifest_g9.json"
-OUT_PICK = ROOT / "assets" / "voice_ref_voxcpm2_g9_raw"
 OUT_REF = ROOT / "assets" / "voice_ref_voxcpm2_g9"
 
-# Cung chuoi ffmpeg giong het higgs_make_refs_voxcpm.py:48-52 (24 kHz mono, -18 LUFS, TP=-2.0)
+# Cung chuoi ffmpeg giong het higgs_make_refs_voxcpm.py:48-52
 FLT = ("aresample=24000,"
        "loudnorm=I=-18:TP=-2.0:LRA=11,"
        "silenceremove=start_periods=1:start_threshold=-50dB,"
        "areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse")
 
-TAKE_CONFIGS = [
-    {"cfg": 2.0, "seed": 42},
-    {"cfg": 2.0, "seed": 101},
-    {"cfg": 2.0, "seed": 2024},
-    {"cfg": 2.5, "seed": 777},
-    {"cfg": 2.5, "seed": 999},
-]
-MAX_TAKES = 5
+# (cfg, seed) cho moi take
+TAKE_CONFIGS = [(2.0, 42), (2.0, 101), (2.0, 2024), (2.5, 777), (2.5, 999)]
+EXTRA_TAKES = 3          # sinh them neu het thang ma chua co take nao trong dai
 
 
 def f0_median(audio_np, sr=48000):
@@ -93,15 +96,29 @@ def f0_median(audio_np, sr=48000):
     return float(np.median(out)) if out else 0.0
 
 
+def gen_one(model, control, text, sr, seed, cfg, out_p):
+    torch.manual_seed(seed)
+    if torch.backends.mps.is_available():
+        torch.mps.manual_seed(seed)
+    final_text = f"({re.sub(r'[()（）]', '', control).strip()}){text.strip()}"
+    t0 = time.time()
+    audio = model.generate(text=final_text, cfg_value=cfg,
+                           inference_timesteps=10, normalize=False)
+    dur = len(audio) / sr
+    sf.write(str(out_p), audio, sr)
+    return audio, dur, time.time() - t0
+
+
 def main():
     if not MANIFEST.exists():
         sys.exit(f"Thieu manifest: {MANIFEST}")
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8-sig"))
     RAW.mkdir(parents=True, exist_ok=True)
+    OUT_REF.mkdir(parents=True, exist_ok=True)
 
-    print("=" * 72)
-    print("VOXCPM2 VOICE DESIGN — SINH CLIP MOI CHO G9 (Tập 02 / Higgs v3)")
-    print("=" * 72)
+    print("=" * 74)
+    print("VOXCPM2 — DONG THANG TAO CLIP THAM CHIEU MOI CHO G9 (Tap 02 / Higgs v3)")
+    print("=" * 74)
 
     print("\n[1/2] Nap model VoxCPM2 tren MPS...")
     t0 = time.time()
@@ -110,13 +127,15 @@ def main():
     print(f"    xong trong {time.time() - t0:.1f}s")
     sample_rate = getattr(model.tts_model, "sample_rate", 48000)
 
-    print("\n[2/2] Sinh take cho tung vai...")
+    print("\n[2/2] Do thang tung vai...")
     packaged = []
+
     for role, data in manifest.items():
         lo_f0, hi_f0 = data.get("f0_target", [0, 0])
-        control = re.sub(r"[()（）]", "", (data.get("control") or "").strip()).strip()
+        mid = (lo_f0 + hi_f0) / 2
         text = (data.get("text") or "").strip()
-        final_text = f"({control}){text}"
+        variants = data.get("control_variants") or [{"tag": "default",
+                                                     "control": data.get("control", "")}]
 
         role_dir = RAW / role
         role_dir.mkdir(parents=True, exist_ok=True)
@@ -129,59 +148,96 @@ def main():
                 records = []
 
         print(f"\n--- {role}  (muc tieu F0 {lo_f0}-{hi_f0} Hz) ---")
-        print(f"    control: {control[:110]}...")
+        print(f"    {data.get('note', '')}")
 
-        for idx, cfg_info in enumerate(TAKE_CONFIGS[:MAX_TAKES]):
-            seed, cfg = cfg_info["seed"], cfg_info["cfg"]
-            take_num = idx + 1
-            fname = f"{role}_take{take_num:02d}.wav"
+        used_seed = 0
+        winner = None
+
+        # --- vong 1: do thang qua cac bien the control ---
+        for v in variants:
+            tag = v.get("tag", "v")
+            control = v["control"]
+            cfg, seed = TAKE_CONFIGS[used_seed % len(TAKE_CONFIGS)]
+            used_seed += 1
+            fname = f"{role}_{tag}_take01.wav"
             out_p = role_dir / fname
-            print(f"  > {fname} (seed={seed}, cfg={cfg})...", end="", flush=True)
-            t_start = time.time()
+            print(f"  > [{tag}] {fname} (seed={seed}, cfg={cfg})...", end="", flush=True)
             try:
-                torch.manual_seed(seed)
-                if torch.backends.mps.is_available():
-                    torch.mps.manual_seed(seed)
-                audio = model.generate(text=final_text, cfg_value=cfg,
-                                       inference_timesteps=10, normalize=False)
-            except Exception as exc:                       # noqa: BLE001
+                audio, dur, secs = gen_one(model, control, text, sample_rate, seed, cfg, out_p)
+            except Exception as exc:                        # noqa: BLE001
                 print(f" LOI: {exc}")
                 continue
-            dur = len(audio) / sample_rate
-            sf.write(str(out_p), audio, sample_rate)
             f0 = f0_median(audio, sample_rate)
             in_range = (lo_f0 * 0.94 <= f0 <= hi_f0 * 1.06)
-            print(f" {time.time()-t_start:.1f}s | {dur:.2f}s | F0 {f0:.1f} Hz "
+            print(f" {secs:.0f}s | {dur:.1f}s | F0 {f0:.1f} Hz "
                   f"{'[TRONG DAI]' if in_range else '[LECH]'}")
-
             records.append({
-                "take": fname, "role": role, "file": str(out_p.relative_to(ROOT)),
-                "seed": seed, "cfg": cfg, "timesteps": 10, "normalize": False,
-                "sample_rate": sample_rate, "duration_s": round(dur, 2),
-                "f0_hz": round(f0, 1), "f0_target_hz": [lo_f0, hi_f0],
-                "f0_in_range": in_range,
+                "take": fname, "role": role, "variant": tag, "control": control,
+                "file": str(out_p.relative_to(ROOT)), "seed": seed, "cfg": cfg,
+                "timesteps": 10, "normalize": False, "sample_rate": sample_rate,
+                "duration_s": round(dur, 2), "f0_hz": round(f0, 1),
+                "f0_target_hz": [lo_f0, hi_f0], "f0_in_range": in_range,
                 "generated_at": datetime.datetime.now().isoformat(),
                 "tool": "VoxCPM2 (OpenBMB, Voice Design)", "license": "Apache-2.0",
             })
             takes_path.write_text(json.dumps(records, ensure_ascii=False, indent=2),
                                   encoding="utf-8")
-            if in_range:
+            if in_range and winner is None:
+                winner = records[-1]
+                print(f"  => DUNG trong dai, dung tai day: {fname}")
                 break
+
+        # --- vong 2: het thang, sinh them take cua bien gan nhat ---
+        if winner is None and records:
+            best_var = min(records, key=lambda r: abs(r["f0_hz"] - mid))
+            v = next((x for x in variants if x.get("tag") == best_var.get("variant")),
+                     variants[0])
+            print(f"  > het thang. Sinh them take cua bien '{best_var.get('variant')}'...")
+            for _ in range(EXTRA_TAKES):
+                if used_seed >= len(TAKE_CONFIGS):
+                    used_seed = 0
+                cfg, seed = TAKE_CONFIGS[used_seed % len(TAKE_CONFIGS)]
+                used_seed += 1
+                fname = f"{role}_{best_var.get('variant')}_take{len(records) + 1:02d}.wav"
+                out_p = role_dir / fname
+                print(f"  > {fname} (seed={seed}, cfg={cfg})...", end="", flush=True)
+                try:
+                    audio, dur, secs = gen_one(model, v["control"], text, sample_rate,
+                                               seed, cfg, out_p)
+                except Exception as exc:                    # noqa: BLE001
+                    print(f" LOI: {exc}")
+                    continue
+                f0 = f0_median(audio, sample_rate)
+                in_range = (lo_f0 * 0.94 <= f0 <= hi_f0 * 1.06)
+                print(f" {secs:.0f}s | {dur:.1f}s | F0 {f0:.1f} Hz "
+                      f"{'[TRONG DAI]' if in_range else '[LECH]'}")
+                records.append({
+                    "take": fname, "role": role, "variant": best_var.get("variant"),
+                    "control": v["control"], "file": str(out_p.relative_to(ROOT)),
+                    "seed": seed, "cfg": cfg, "timesteps": 10, "normalize": False,
+                    "sample_rate": sample_rate, "duration_s": round(dur, 2),
+                    "f0_hz": round(f0, 1), "f0_target_hz": [lo_f0, hi_f0],
+                    "f0_in_range": in_range,
+                    "generated_at": datetime.datetime.now().isoformat(),
+                    "tool": "VoxCPM2 (OpenBMB, Voice Design)", "license": "Apache-2.0",
+                })
+                takes_path.write_text(json.dumps(records, ensure_ascii=False, indent=2),
+                                      encoding="utf-8")
+                if in_range:
+                    winner = records[-1]
+                    break
 
         if not records:
             print(f"  !! {role}: khong sinh duoc take nao")
             continue
-        best = min(records, key=lambda r: abs(r["f0_hz"] - (lo_f0 + hi_f0) / 2))
-        OUT_PICK.mkdir(parents=True, exist_ok=True)
-        src = ROOT / best["file"]
-        shutil.copy2(src, OUT_PICK / f"{role}.wav")
-        (OUT_PICK / f"{role}.txt").write_text(text, encoding="utf-8")
-        print(f"  => CHON: {best['take']} (F0 {best['f0_hz']} Hz) -> "
-              f"{OUT_PICK.relative_to(ROOT)}/{role}.wav")
+        if winner is None:
+            winner = min(records, key=lambda r: abs(r["f0_hz"] - mid))
+            print(f"  !! KHONG co take nao trong dai {lo_f0}-{hi_f0} Hz. "
+                  f"Van lay take gan nhat: {winner['take']} (F0 {winner['f0_hz']} Hz)")
 
-        # --- dong goi thanh clip tham chieu 24 kHz (giong het higgs_make_refs_voxcpm.py) ---
-        OUT_REF.mkdir(parents=True, exist_ok=True)
+        # --- dong goi 24 kHz ---
         ff = shutil.which("ffmpeg") or "ffmpeg"
+        src = ROOT / winner["file"]
         ref_wav = OUT_REF / f"{role}.wav"
         try:
             subprocess.run([ff, "-y", "-v", "error", "-i", str(src), "-af", FLT,
@@ -189,20 +245,19 @@ def main():
                            check=True)
             (OUT_REF / f"{role}.txt").write_text(text, encoding="utf-8")
             ref_f0 = f0_median(sf.read(str(ref_wav), dtype="float32")[0], 24000)
-            print(f"  => DONG GOI: {ref_wav.relative_to(ROOT)} "
-                  f"(24 kHz mono, F0 {ref_f0:.1f} Hz)")
+            print(f"  => DONG GOI {ref_wav.relative_to(ROOT)} (24 kHz mono, F0 {ref_f0:.1f} Hz)")
             packaged.append({
                 "role": role, "source_file": src.as_posix(),
                 "reference_file": ref_wav.as_posix(),
                 "f0_hz": round(ref_f0, 1), "f0_target_hz": [lo_f0, hi_f0],
+                "variant": winner.get("variant"), "control_instruction": winner.get("control"),
                 "sample_rate": 24000, "channels": 1, "lufs_target": -18.0,
                 "model": "openbmb/VoxCPM2", "license": "Apache-2.0",
                 "attribution_required": False,
                 "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
-                "control_instruction": control, "target_text": text,
-                "why": data.get("why", ""),
+                "target_text": text, "why": data.get("why", ""),
             })
-        except Exception as exc:                           # noqa: BLE001
+        except Exception as exc:                            # noqa: BLE001
             print(f"  !! LOI dong goi ffmpeg: {exc}")
 
     if packaged:
@@ -210,8 +265,8 @@ def main():
             json.dumps({p["role"]: p for p in packaged}, ensure_ascii=False, indent=1),
             encoding="utf-8")
 
-    print("\n" + "=" * 72)
-    print("XONG. File da chon:")
+    print("\n" + "=" * 74)
+    print("XONG:")
     for role in manifest:
         p = OUT_REF / f"{role}.wav"
         print(f"  {role:9} {'OK' if p.exists() else 'THIEU'}  {p}")
@@ -219,7 +274,7 @@ def main():
     print("  git add assets/voice_ref_voxcpm2_g9")
     print("  git commit -m 'feat(audio): them 3 clip tham chieu VoxCPM2 cho G9 (Tap 02)'")
     print("  git push")
-    print("=" * 72)
+    print("=" * 74)
 
 
 if __name__ == "__main__":
