@@ -27,6 +27,18 @@ KERNELS = {
         "nb": "higgs_pilot_v6_kaggle.ipynb",
         "dir": "_push_v6",
     },
+    "smoke": {
+        "slug": "chiduong2026/amber-eyes-higgs-smoke-2gpu-kaggle-gpu",
+        "title": "Amber Eyes Higgs smoke 2 GPU Kaggle GPU",
+        "nb": "higgs_smoke_kaggle.ipynb",
+        "dir": "_push_smoke",
+    },
+    "v7": {
+        "slug": "chiduong2026/amber-eyes-higgs-v7-listen-kit-kaggle-gpu",
+        "title": "Amber Eyes Higgs v7 listen kit Kaggle GPU",
+        "nb": "higgs_pilot_v7_kaggle.ipynb",
+        "dir": "_push_v7",
+    },
     "prod": {
         "slug": "chiduong2026/amber-eyes-higgs-prod-t02-kaggle-gpu",
         "title": "Amber Eyes Higgs prod T02 Kaggle GPU",

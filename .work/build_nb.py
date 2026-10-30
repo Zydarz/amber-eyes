@@ -64,6 +64,24 @@ Dung de chung minh duong chay 2 GPU + merge + catch-up hoat dong truoc khi sinh 
 Ket qua khong phu thuoc card nao: seed co dinh theo `(id|role|ref|temp|variant)`.
 """,
     },
+    "v7": {
+        "SPEC_NAME": "pilot_spec_v7.json",
+        "PAYLOAD_NAME": "pilot_payload_v7.json",
+        "OUT_NAME": "out_higgs_v7",
+        "NB_NAME": "higgs_pilot_v7_kaggle.ipynb",
+        "N_WORKERS": 1,
+        "TITLE": "PILOT v7 — ban clone W4/W2 cho kit nghe mu H3",
+        "MD": """# PILOT v7 — ban clone cua W4 va W2
+
+V7 (QUY_TAC_GIONG_MAU_VOXCPM2.md) yeu cau nguhe mu 4 cap:
+**H<->D · H<->W4 · D<->W4 · W2<->C**.
+
+`W4` (nam 50) va `W2` (nu 50) khong phai vai cua Tap 02 => can ban CLONE cua chung
+de so voi giong moi cua H/D/C.
+
+Ket qua khong phu thuoc card nao: seed co dinh theo `(id|role|ref|temp|variant)`.
+""",
+    },
     "prod": {
         "SPEC_NAME": "prod_spec.json",
         "PAYLOAD_NAME": "higgs_payload_t02.json",

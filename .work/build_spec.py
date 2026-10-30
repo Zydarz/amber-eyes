@@ -154,6 +154,43 @@ print("\npilot: %d item x %d ban = %d file" % (
     len(pilot_items) * len(pilot_spec["variants"])))
 print("  theo clip:", dict(Counter(it["ref_wav"] for it in pilot_items)))
 
+# ================================================================== PILOT v7 (kit nghe mu H3)
+# V7 (QUY_TAC_GIONG_MAU_VOXCPM2.md): 4 cap phai nghe mu — H<->D, H<->W4, D<->W4, W2<->C.
+# Can BAN CLONE cua clip W4 (nam 50) va W2 (nu 50) de so voi giong H/D moi.
+V7_CELLS = [
+    ("XW4", "W4.wav", "W4 — nam 50, giong gan vung cua H/D (doi thu nghiem kho tach)"),
+    ("XW2", "W2.wav", "W2 — nu 50, doi thu voi vai C (nu)"),
+]
+v7_items = []
+for role, ref, why in V7_CELLS:
+    for j, s in enumerate(pilot_sent):
+        v7_items.append({
+            "id": "P7_%s__%d" % (role, j),
+            "role": role, "ref_wav": ref, "ref_txt": ref.replace(".wav", ".txt"),
+            "text_plain": s["text_plain"], "text": s["text"],
+            "emotion": s["emotion"], "emotion_tag": s.get("emotion_tag", ""),
+            "src_id": s["id"], "why": why,
+        })
+v7_spec = {
+    "episode": "02", "mode": "pilot_v7",
+    "purpose": "Ban clone cua W4/W2 de lam kit nghe mu H3 (V7) + kiem G8",
+    "gen_params": GEN_PARAMS, "variants": [0, 1],
+    "items": [it["id"] for it in v7_items],
+}
+v7_payload = {
+    "episode": "02", "model": "bosonai/higgs-tts-3-4b",
+    "role_ref": {r: {"wav": w, "txt": w.replace(".wav", ".txt")}
+                 for r, w in ROLE_MAP.items()},
+    "items": v7_items,
+}
+(DS / "pilot_spec_v7.json").write_text(
+    json.dumps(v7_spec, ensure_ascii=False, indent=1), encoding="utf-8")
+(DS / "pilot_payload_v7.json").write_text(
+    json.dumps(v7_payload, ensure_ascii=False, indent=1), encoding="utf-8")
+print("\npilot v7 (kit nghe mu): %d item x %d ban = %d file" % (
+    len(v7_items), len(v7_spec["variants"]),
+    len(v7_items) * len(v7_spec["variants"])))
+
 # ================================================================== SAN XUAT
 # §7: moi cau 2 ban; cau TRICH (co dau trich dan) sinh 3 ban.
 # Danh sach "cau he lo" phai do nguoi dung bo sung — xay dung o file rieng.
