@@ -149,13 +149,56 @@ Code: thêm nhánh engine trong `tts_sentences.py` (ví dụ `AE_TTS=higgs`), **
 
 ## 11. CHƯA biết — phải đo trên máy (L2/L3)
 
-1. Model đang cài thật là v3 hay v2; phiên bản mlx-audio.
-2. RAM đỉnh, swap, RTF trên M2 16 GB.
-3. MLX-Audio có hiểu thẻ `<|…|>` của v3 không.
-4. Cờ seed/temperature trên CLI MLX.
-5. CER tiếng Việt thật cho từng vai (số "< 5" là mức chung của Boson; ngưỡng kênh **< 2%**).
-6. Tham chiếu tiếng Việt có cho thanh điệu tốt hơn tham chiếu tiếng Anh không.
-7. Danh tính có ổn định qua các câu với tham chiếu cố định (G8).
+> **ĐÃ ĐO 30/10/2026** (đường PyTorch/transformers trên Kaggle GPU, không dùng MLX-Audio — chỉ chạy được
+> trên Apple Silicon). Báo cáo đầy đủ: `90_LUU_TRU/BaoCao_H2_Higgs_Pilot_Tap02_20261030.md`.
+
+**Đã có số đo:**
+
+1. Model **v3** (`bosonai/higgs-tts-3-4b`, trọng số gốc; mượn 2 file loader từ
+   `multimodalart/higgs-audio-v3-tts-4b-transformers` + tự thêm `auto_map`). transformers **5.22.0**,
+   torch **2.11.0+cu128**, GPU **Tesla T4 15,6 GB (sm_75)**, **bf16 có**. Frame-rate bộ giải mã
+   **25,02 Hz** ⇒ `max_new_tokens = int(47,5 × 25,02) + 8 = **1196**` (KHÔNG dùng `max_new_frames`).
+   VRAM đỉnh **9,94 GB**, RTF tb **2,15** (max 2,98). Không dùng được GGUF (luật 1).
+2. ~~RAM/swap trên M2 16 GB~~ → **bỏ đường MLX-Audio** (chỉ chạy trên Apple Silicon, máy này không có
+   GPU) ⇒ chuyển sang Kaggle GPU (30 h/tuần, còn ~29,5 h).
+3. **Thẻ `<|…|>`: CÓ tác dụng** — đo bằng `listen_audio`, bản chép không chứa từ khóa thẻ.
+   ⚠ Nhưng **không truyền `reference_audio` thì đọc sai thanh điệu nặng** ⇒ bắt buộc clone (§4).
+4. API `generate_speech(text, tok, *, reference_codes, reference_text, max_new_tokens, temperature,
+   top_p, top_k)` — **không có** tham số `speed_*`/`pitch_*` ⇒ G4/G5 tự động đạt; **không có tham số seed**
+   ⇒ phải `torch.manual_seed` + `torch.cuda.manual_seed_all` trước mỗi lời gọi.
+   Mã hoá ref: `model._encode_reference(torch.from_numpy(arr).float().unsqueeze(0), sr)` → `[T, N]`;
+   **encode 1 lần/clip rồi cache** (tiết kiệm lớn GPU).
+5. **CER thật** (96 bản pilot, 2 lượt `listen_audio`, lấy lượt xấu hơn, chuẩn hóa 2 vế theo Q3a):
+   **H t=0,8 → 0,00%** · **C t=0,8 → 0,00%** · **D t=0,7 → 0,99%** / t=0,8 → 2,27% ·
+   **N2←W1 → 0,63%** · N1←W1 → 1,08% (MiniMax cùng chuẩn hóa: H 0,89% · D 1,72% · C/N1/N2 0,00%).
+   ⇒ **Higgs tốt hơn MiniMax rõ ở vai H**; D cần đa bản §7.
+6. Tham chiếu **tiếng Việt** cho thanh điệu tốt hơn: **có** — cùng model, clip VI cho CER 0,00% ở H/C.
+7. ~~G8 ổn định danh tính~~ — **chưa đo** (cần nghe mù V7).
+
+**MỚI phát hiện 30/10 — G9 KHÔNG ĐẠT ở H↔D:**
+
+* F0 **của audio đã clone** (không phải clip gốc): H **124,3 Hz**, D **122,6 Hz** ⇒ chỉ **0,23 nửa cung**
+  (cần ≥ 4). Kiểm chéo bằng 2 thuật toán (AC thô 1,12 nc; AC chuẩn hóa + sửa octave 0,23 nc) ⇒ **thật**.
+* Cơ chế: Higgs **không giữ F0** của clip tham chiếu — H (ref 107 Hz) trôi lên 124 Hz (+16%),
+  D (ref 132 Hz) trôi xuống 123 Hz (−7%) ⇒ hai vai **trôi ngược chiều vào cùng một vùng**.
+* Với 7 clip VoxCPM2 VI hiện có **không thể đạt G9 cho H↔D** (đổi sang clip cao nhất W3 162 Hz thì
+  audio clone chỉ ~150 Hz ⇒ ~3,3 nc). ⇒ cần **clip tham chiếu mới** hoặc ghi nhận vi phạm (cần người dùng quyết).
+* `C ↔ N1`: W1 đạt CER (1,08%) nhưng G9 chỉ 2,98 nc; W3 đạt G9 (4,34 nc) nhưng CER 4,25% ⇒ **N1 chưa chốt được**.
+  `C ↔ N2` (W1) = 4,97 nc ✅ ⇒ **N2 ← W1 chốt được**.
+
+**BẪY ĐO LẠI (rất dễ sai):** `tts_sentences.py:105` gửi **số → chữ** cho TTS, còn ASR trả **chữ số**.
+Phải áp `vi_numbers()` cho **CẢ HAI VÊ** và dùng **đúng** `vi_number()` của `tts_sentences.py`
+(bản rút gọn làm `"2009"` → *"two nine"*). Không sửa thì **cả Higgs lẫn MiniMax đều bị phình CER**
+(câu `1.03#1` hoàn toàn đúng bị tính thành 73,8%).
+
+**Còn chưa biết:**
+
+6. Tham chiếu nào cho **H** và **D** để đạt G9 (cần clip mới từ Mac mini, hoặc dùng clip MiniMax — cần
+   xác nhận điều khoản L4, hoặc ghi nhận vi phạm).
+8. G8 (nghe mù 100%) — chưa chạy.
+9. Người dùng xác nhận **chấp nhận ghi công Boson** (H0) — điều khoản Creator Use Grant II-A cho phép
+   thương mại nhưng **bắt buộc** ghi "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio"
+   trong mô tả mọi tập.
 
 Lỗi mới gặp: thêm dòng vào mục 5/8/11 ở đây **và** tiêu chuẩn mục A11 (L6). Khi Higgs được chốt sản xuất: cập nhật bảng bộ giọng ở mục 4 AGENTS.md.
 
