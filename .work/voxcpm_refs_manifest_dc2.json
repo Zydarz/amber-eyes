@@ -1,0 +1,46 @@
+{
+ "D_NEW": {
+  "f0_target": [
+   82,
+   95
+  ],
+  "syl_target": [
+   2.9,
+   3.2
+  ],
+  "why": "Vai Dieu tra vien (Soi): nam 50+, KHAN TRAM, lanh, cham. Higgs giu F0 clip rat tram (M_LOW 96->98 Hz) nhung keo clip nam trung 108-128 Hz ve ~125-130 Hz (dinh Host). Can clone <= 100 Hz: cach Host (~130) >= 4,5 nc, cach C (~205) ~13 nc. VONG 2: chi giu 2 cau mo ta da ra take dat (vlow-gravel_t01 97,6 Hz, deep-smoker_t01 96,4 Hz); them seed.",
+  "control_variants": [
+   {
+    "tag": "vlow-gravel",
+    "control": "A Vietnamese man in his late fifties, very low-pitched, rough and gravelly voice, cold and flat, emotionless police investigator, Vietnamese Standard, slow deliberate pace with short clipped phrases"
+   },
+   {
+    "tag": "deep-smoker",
+    "control": "A Vietnamese man in his late fifties, deep bass voice with a gritty smoker's rasp, cold and hard, emotionless police investigator, Vietnamese Standard, very slow and measured pace with short clipped phrases"
+   }
+  ],
+  "text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng."
+ },
+ "C_NEW": {
+  "f0_target": [
+   200,
+   218
+  ],
+  "syl_target": [
+   3.9,
+   4.3
+  ],
+  "why": "Vai Chuyen gia tam ly (Cao): nu ~40, TRONG SAC, nhanh, dut khoat. Giu F0 vung C.wav (clone ~205 Hz) de khong ap N2 (W5_HIGH clone ~270 Hz, can >= 4 nc); tach khoi Host/D bang chat giong + toc do. C.wav cu CER clone 3,09% > 2% nen lam lai. VONG 2: take noi nhanh deu bi day len 235-254 Hz => them 'lower mid-pitched alto' de ghim cao do; them 'quiet studio' de giam san on.",
+  "control_variants": [
+   {
+    "tag": "alto-brisk",
+    "control": "A Vietnamese woman around forty, lower mid-pitched alto voice, clear and crisp articulation with precise consonants, confident and assertive forensic psychologist, Vietnamese Standard, brisk pace, quiet studio recording"
+   },
+   {
+    "tag": "lecture",
+    "control": "A Vietnamese woman around forty, mid-pitched clean and focused voice, articulate university lecturer delivering analysis, firm and confident, Vietnamese Standard, quick energetic pace, quiet studio recording"
+   }
+  ],
+  "text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài."
+ }
+}

@@ -196,7 +196,13 @@ def main():
     ap.add_argument("--out", default=None)
     ap.add_argument("--candidates", type=int, default=0,
                     help="so seed moi bac control; >0 = che do ung vien")
+    ap.add_argument("--seeds", default=None,
+                    help="danh sach seed cach dau phay (cfg 2.0), thay TAKE_CONFIGS; "
+                         "--candidates = so seed")
     args = ap.parse_args()
+    if args.seeds:
+        TAKE_CONFIGS[:] = [(2.0, int(s)) for s in args.seeds.split(",")]
+        args.candidates = len(TAKE_CONFIGS)
     if args.manifest:
         MANIFEST = (ROOT / args.manifest).resolve()
     if args.out:
