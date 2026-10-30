@@ -1,0 +1,1036 @@
+{
+ "D_NEW_vlow-gravel_t01": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, very low-pitched, rough and gravelly voice, cold and flat, emotionless police investigator, Vietnamese Standard, slow deliberate pace with short clipped phrases",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_vlow-gravel_t01.wav",
+  "seconds": 23.47,
+  "f0_median_hz": 89.4,
+  "f0_target_hz": [
+   82,
+   95
+  ],
+  "syl_per_s": 3.62,
+  "syl_target": [
+   2.9,
+   3.2
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [],
+  "role": "D_NEW",
+  "variant": "vlow-gravel",
+  "seed": 7,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/D_NEW_vlow-gravel_t01.wav",
+  "why": "Vai Dieu tra vien (Soi): nam 50+, KHAN TRAM, lanh, cham. Higgs giu F0 clip rat tram (M_LOW 96->98 Hz) nhung keo clip nam trung 108-128 Hz ve ~125-130 Hz (dinh Host). Can clone <= 100 Hz: cach Host (~130) >= 4,5 nc, cach C (~205) ~13 nc. VONG 2: chi giu 2 cau mo ta da ra take dat (vlow-gravel_t01 97,6 Hz, deep-smoker_t01 96,4 Hz); them seed.",
+  "generated_at": "2026-10-30T20:39:24.530576"
+ },
+ "D_NEW_vlow-gravel_t02": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, very low-pitched, rough and gravelly voice, cold and flat, emotionless police investigator, Vietnamese Standard, slow deliberate pace with short clipped phrases",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_vlow-gravel_t02.wav",
+  "seconds": 23.03,
+  "f0_median_hz": 115.9,
+  "f0_target_hz": [
+   82,
+   95
+  ],
+  "syl_per_s": 3.69,
+  "syl_target": [
+   2.9,
+   3.2
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 116Hz ngoai dai muc tieu 82-95Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "vlow-gravel",
+  "seed": 13,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/D_NEW_vlow-gravel_t02.wav",
+  "why": "Vai Dieu tra vien (Soi): nam 50+, KHAN TRAM, lanh, cham. Higgs giu F0 clip rat tram (M_LOW 96->98 Hz) nhung keo clip nam trung 108-128 Hz ve ~125-130 Hz (dinh Host). Can clone <= 100 Hz: cach Host (~130) >= 4,5 nc, cach C (~205) ~13 nc. VONG 2: chi giu 2 cau mo ta da ra take dat (vlow-gravel_t01 97,6 Hz, deep-smoker_t01 96,4 Hz); them seed.",
+  "generated_at": "2026-10-30T20:40:22.685856"
+ },
+ "D_NEW_vlow-gravel_t03": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, very low-pitched, rough and gravelly voice, cold and flat, emotionless police investigator, Vietnamese Standard, slow deliberate pace with short clipped phrases",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_vlow-gravel_t03.wav",
+  "seconds": 23.2,
+  "f0_median_hz": 133.3,
+  "f0_target_hz": [
+   82,
+   95
+  ],
+  "syl_per_s": 3.66,
+  "syl_target": [
+   2.9,
+   3.2
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 133Hz ngoai dai muc tieu 82-95Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "vlow-gravel",
+  "seed": 77,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/D_NEW_vlow-gravel_t03.wav",
+  "why": "Vai Dieu tra vien (Soi): nam 50+, KHAN TRAM, lanh, cham. Higgs giu F0 clip rat tram (M_LOW 96->98 Hz) nhung keo clip nam trung 108-128 Hz ve ~125-130 Hz (dinh Host). Can clone <= 100 Hz: cach Host (~130) >= 4,5 nc, cach C (~205) ~13 nc. VONG 2: chi giu 2 cau mo ta da ra take dat (vlow-gravel_t01 97,6 Hz, deep-smoker_t01 96,4 Hz); them seed.",
+  "generated_at": "2026-10-30T20:41:19.071358"
+ },
+ "D_NEW_vlow-gravel_t04": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, very low-pitched, rough and gravelly voice, cold and flat, emotionless police investigator, Vietnamese Standard, slow deliberate pace with short clipped phrases",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_vlow-gravel_t04.wav",
+  "seconds": 21.61,
+  "f0_median_hz": 133.3,
+  "f0_target_hz": [
+   82,
+   95
+  ],
+  "syl_per_s": 3.93,
+  "syl_target": [
+   2.9,
+   3.2
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 133Hz ngoai dai muc tieu 82-95Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "vlow-gravel",
+  "seed": 123,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/D_NEW_vlow-gravel_t04.wav",
+  "why": "Vai Dieu tra vien (Soi): nam 50+, KHAN TRAM, lanh, cham. Higgs giu F0 clip rat tram (M_LOW 96->98 Hz) nhung keo clip nam trung 108-128 Hz ve ~125-130 Hz (dinh Host). Can clone <= 100 Hz: cach Host (~130) >= 4,5 nc, cach C (~205) ~13 nc. VONG 2: chi giu 2 cau mo ta da ra take dat (vlow-gravel_t01 97,6 Hz, deep-smoker_t01 96,4 Hz); them seed.",
+  "generated_at": "2026-10-30T20:42:11.823594"
+ },
+ "D_NEW_vlow-gravel_t05": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, very low-pitched, rough and gravelly voice, cold and flat, emotionless police investigator, Vietnamese Standard, slow deliberate pace with short clipped phrases",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_vlow-gravel_t05.wav",
+  "seconds": 20.61,
+  "f0_median_hz": 120.3,
+  "f0_target_hz": [
+   82,
+   95
+  ],
+  "syl_per_s": 4.12,
+  "syl_target": [
+   2.9,
+   3.2
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 120Hz ngoai dai muc tieu 82-95Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "vlow-gravel",
+  "seed": 256,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/D_NEW_vlow-gravel_t05.wav",
+  "why": "Vai Dieu tra vien (Soi): nam 50+, KHAN TRAM, lanh, cham. Higgs giu F0 clip rat tram (M_LOW 96->98 Hz) nhung keo clip nam trung 108-128 Hz ve ~125-130 Hz (dinh Host). Can clone <= 100 Hz: cach Host (~130) >= 4,5 nc, cach C (~205) ~13 nc. VONG 2: chi giu 2 cau mo ta da ra take dat (vlow-gravel_t01 97,6 Hz, deep-smoker_t01 96,4 Hz); them seed.",
+  "generated_at": "2026-10-30T20:43:02.146391"
+ },
+ "D_NEW_vlow-gravel_t06": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, very low-pitched, rough and gravelly voice, cold and flat, emotionless police investigator, Vietnamese Standard, slow deliberate pace with short clipped phrases",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_vlow-gravel_t06.wav",
+  "seconds": 22.84,
+  "f0_median_hz": 108.1,
+  "f0_target_hz": [
+   82,
+   95
+  ],
+  "syl_per_s": 3.72,
+  "syl_target": [
+   2.9,
+   3.2
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 108Hz ngoai dai muc tieu 82-95Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "vlow-gravel",
+  "seed": 512,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/D_NEW_vlow-gravel_t06.wav",
+  "why": "Vai Dieu tra vien (Soi): nam 50+, KHAN TRAM, lanh, cham. Higgs giu F0 clip rat tram (M_LOW 96->98 Hz) nhung keo clip nam trung 108-128 Hz ve ~125-130 Hz (dinh Host). Can clone <= 100 Hz: cach Host (~130) >= 4,5 nc, cach C (~205) ~13 nc. VONG 2: chi giu 2 cau mo ta da ra take dat (vlow-gravel_t01 97,6 Hz, deep-smoker_t01 96,4 Hz); them seed.",
+  "generated_at": "2026-10-30T20:43:57.415155"
+ },
+ "D_NEW_vlow-gravel_t07": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, very low-pitched, rough and gravelly voice, cold and flat, emotionless police investigator, Vietnamese Standard, slow deliberate pace with short clipped phrases",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_vlow-gravel_t07.wav",
+  "seconds": 23.54,
+  "f0_median_hz": 122.1,
+  "f0_target_hz": [
+   82,
+   95
+  ],
+  "syl_per_s": 3.61,
+  "syl_target": [
+   2.9,
+   3.2
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 122Hz ngoai dai muc tieu 82-95Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "vlow-gravel",
+  "seed": 1234,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/D_NEW_vlow-gravel_t07.wav",
+  "why": "Vai Dieu tra vien (Soi): nam 50+, KHAN TRAM, lanh, cham. Higgs giu F0 clip rat tram (M_LOW 96->98 Hz) nhung keo clip nam trung 108-128 Hz ve ~125-130 Hz (dinh Host). Can clone <= 100 Hz: cach Host (~130) >= 4,5 nc, cach C (~205) ~13 nc. VONG 2: chi giu 2 cau mo ta da ra take dat (vlow-gravel_t01 97,6 Hz, deep-smoker_t01 96,4 Hz); them seed.",
+  "generated_at": "2026-10-30T20:44:54.567173"
+ },
+ "D_NEW_vlow-gravel_t08": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, very low-pitched, rough and gravelly voice, cold and flat, emotionless police investigator, Vietnamese Standard, slow deliberate pace with short clipped phrases",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_vlow-gravel_t08.wav",
+  "seconds": 23.4,
+  "f0_median_hz": 127.0,
+  "f0_target_hz": [
+   82,
+   95
+  ],
+  "syl_per_s": 3.63,
+  "syl_target": [
+   2.9,
+   3.2
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 127Hz ngoai dai muc tieu 82-95Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "vlow-gravel",
+  "seed": 4321,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/D_NEW_vlow-gravel_t08.wav",
+  "why": "Vai Dieu tra vien (Soi): nam 50+, KHAN TRAM, lanh, cham. Higgs giu F0 clip rat tram (M_LOW 96->98 Hz) nhung keo clip nam trung 108-128 Hz ve ~125-130 Hz (dinh Host). Can clone <= 100 Hz: cach Host (~130) >= 4,5 nc, cach C (~205) ~13 nc. VONG 2: chi giu 2 cau mo ta da ra take dat (vlow-gravel_t01 97,6 Hz, deep-smoker_t01 96,4 Hz); them seed.",
+  "generated_at": "2026-10-30T20:45:51.887227"
+ },
+ "D_NEW_deep-smoker_t01": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, deep bass voice with a gritty smoker's rasp, cold and hard, emotionless police investigator, Vietnamese Standard, very slow and measured pace with short clipped phrases",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_deep-smoker_t01.wav",
+  "seconds": 25.07,
+  "f0_median_hz": 97.0,
+  "f0_target_hz": [
+   82,
+   95
+  ],
+  "syl_per_s": 3.39,
+  "syl_target": [
+   2.9,
+   3.2
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [],
+  "role": "D_NEW",
+  "variant": "deep-smoker",
+  "seed": 7,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/D_NEW_deep-smoker_t01.wav",
+  "why": "Vai Dieu tra vien (Soi): nam 50+, KHAN TRAM, lanh, cham. Higgs giu F0 clip rat tram (M_LOW 96->98 Hz) nhung keo clip nam trung 108-128 Hz ve ~125-130 Hz (dinh Host). Can clone <= 100 Hz: cach Host (~130) >= 4,5 nc, cach C (~205) ~13 nc. VONG 2: chi giu 2 cau mo ta da ra take dat (vlow-gravel_t01 97,6 Hz, deep-smoker_t01 96,4 Hz); them seed.",
+  "generated_at": "2026-10-30T20:46:52.880960"
+ },
+ "D_NEW_deep-smoker_t02": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, deep bass voice with a gritty smoker's rasp, cold and hard, emotionless police investigator, Vietnamese Standard, very slow and measured pace with short clipped phrases",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_deep-smoker_t02.wav",
+  "seconds": 25.55,
+  "f0_median_hz": 137.9,
+  "f0_target_hz": [
+   82,
+   95
+  ],
+  "syl_per_s": 3.33,
+  "syl_target": [
+   2.9,
+   3.2
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 138Hz ngoai dai muc tieu 82-95Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "deep-smoker",
+  "seed": 13,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/D_NEW_deep-smoker_t02.wav",
+  "why": "Vai Dieu tra vien (Soi): nam 50+, KHAN TRAM, lanh, cham. Higgs giu F0 clip rat tram (M_LOW 96->98 Hz) nhung keo clip nam trung 108-128 Hz ve ~125-130 Hz (dinh Host). Can clone <= 100 Hz: cach Host (~130) >= 4,5 nc, cach C (~205) ~13 nc. VONG 2: chi giu 2 cau mo ta da ra take dat (vlow-gravel_t01 97,6 Hz, deep-smoker_t01 96,4 Hz); them seed.",
+  "generated_at": "2026-10-30T20:47:55.413173"
+ },
+ "D_NEW_deep-smoker_t03": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, deep bass voice with a gritty smoker's rasp, cold and hard, emotionless police investigator, Vietnamese Standard, very slow and measured pace with short clipped phrases",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_deep-smoker_t03.wav",
+  "seconds": 24.63,
+  "f0_median_hz": 134.5,
+  "f0_target_hz": [
+   82,
+   95
+  ],
+  "syl_per_s": 3.45,
+  "syl_target": [
+   2.9,
+   3.2
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 134Hz ngoai dai muc tieu 82-95Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "deep-smoker",
+  "seed": 77,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/D_NEW_deep-smoker_t03.wav",
+  "why": "Vai Dieu tra vien (Soi): nam 50+, KHAN TRAM, lanh, cham. Higgs giu F0 clip rat tram (M_LOW 96->98 Hz) nhung keo clip nam trung 108-128 Hz ve ~125-130 Hz (dinh Host). Can clone <= 100 Hz: cach Host (~130) >= 4,5 nc, cach C (~205) ~13 nc. VONG 2: chi giu 2 cau mo ta da ra take dat (vlow-gravel_t01 97,6 Hz, deep-smoker_t01 96,4 Hz); them seed.",
+  "generated_at": "2026-10-30T20:48:55.413391"
+ },
+ "D_NEW_deep-smoker_t04": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, deep bass voice with a gritty smoker's rasp, cold and hard, emotionless police investigator, Vietnamese Standard, very slow and measured pace with short clipped phrases",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_deep-smoker_t04.wav",
+  "seconds": 22.21,
+  "f0_median_hz": 132.2,
+  "f0_target_hz": [
+   82,
+   95
+  ],
+  "syl_per_s": 3.83,
+  "syl_target": [
+   2.9,
+   3.2
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 132Hz ngoai dai muc tieu 82-95Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "deep-smoker",
+  "seed": 123,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/D_NEW_deep-smoker_t04.wav",
+  "why": "Vai Dieu tra vien (Soi): nam 50+, KHAN TRAM, lanh, cham. Higgs giu F0 clip rat tram (M_LOW 96->98 Hz) nhung keo clip nam trung 108-128 Hz ve ~125-130 Hz (dinh Host). Can clone <= 100 Hz: cach Host (~130) >= 4,5 nc, cach C (~205) ~13 nc. VONG 2: chi giu 2 cau mo ta da ra take dat (vlow-gravel_t01 97,6 Hz, deep-smoker_t01 96,4 Hz); them seed.",
+  "generated_at": "2026-10-30T20:49:49.870091"
+ },
+ "D_NEW_deep-smoker_t05": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, deep bass voice with a gritty smoker's rasp, cold and hard, emotionless police investigator, Vietnamese Standard, very slow and measured pace with short clipped phrases",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_deep-smoker_t05.wav",
+  "seconds": 23.44,
+  "f0_median_hz": 108.8,
+  "f0_target_hz": [
+   82,
+   95
+  ],
+  "syl_per_s": 3.63,
+  "syl_target": [
+   2.9,
+   3.2
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 109Hz ngoai dai muc tieu 82-95Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "deep-smoker",
+  "seed": 256,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/D_NEW_deep-smoker_t05.wav",
+  "why": "Vai Dieu tra vien (Soi): nam 50+, KHAN TRAM, lanh, cham. Higgs giu F0 clip rat tram (M_LOW 96->98 Hz) nhung keo clip nam trung 108-128 Hz ve ~125-130 Hz (dinh Host). Can clone <= 100 Hz: cach Host (~130) >= 4,5 nc, cach C (~205) ~13 nc. VONG 2: chi giu 2 cau mo ta da ra take dat (vlow-gravel_t01 97,6 Hz, deep-smoker_t01 96,4 Hz); them seed.",
+  "generated_at": "2026-10-30T20:50:48.768057"
+ },
+ "D_NEW_deep-smoker_t06": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, deep bass voice with a gritty smoker's rasp, cold and hard, emotionless police investigator, Vietnamese Standard, very slow and measured pace with short clipped phrases",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_deep-smoker_t06.wav",
+  "seconds": 24.73,
+  "f0_median_hz": 108.1,
+  "f0_target_hz": [
+   82,
+   95
+  ],
+  "syl_per_s": 3.44,
+  "syl_target": [
+   2.9,
+   3.2
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 108Hz ngoai dai muc tieu 82-95Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "deep-smoker",
+  "seed": 512,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/D_NEW_deep-smoker_t06.wav",
+  "why": "Vai Dieu tra vien (Soi): nam 50+, KHAN TRAM, lanh, cham. Higgs giu F0 clip rat tram (M_LOW 96->98 Hz) nhung keo clip nam trung 108-128 Hz ve ~125-130 Hz (dinh Host). Can clone <= 100 Hz: cach Host (~130) >= 4,5 nc, cach C (~205) ~13 nc. VONG 2: chi giu 2 cau mo ta da ra take dat (vlow-gravel_t01 97,6 Hz, deep-smoker_t01 96,4 Hz); them seed.",
+  "generated_at": "2026-10-30T20:51:50.160004"
+ },
+ "D_NEW_deep-smoker_t07": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, deep bass voice with a gritty smoker's rasp, cold and hard, emotionless police investigator, Vietnamese Standard, very slow and measured pace with short clipped phrases",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_deep-smoker_t07.wav",
+  "seconds": 24.68,
+  "f0_median_hz": 126.0,
+  "f0_target_hz": [
+   82,
+   95
+  ],
+  "syl_per_s": 3.44,
+  "syl_target": [
+   2.9,
+   3.2
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 126Hz ngoai dai muc tieu 82-95Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "deep-smoker",
+  "seed": 1234,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/D_NEW_deep-smoker_t07.wav",
+  "why": "Vai Dieu tra vien (Soi): nam 50+, KHAN TRAM, lanh, cham. Higgs giu F0 clip rat tram (M_LOW 96->98 Hz) nhung keo clip nam trung 108-128 Hz ve ~125-130 Hz (dinh Host). Can clone <= 100 Hz: cach Host (~130) >= 4,5 nc, cach C (~205) ~13 nc. VONG 2: chi giu 2 cau mo ta da ra take dat (vlow-gravel_t01 97,6 Hz, deep-smoker_t01 96,4 Hz); them seed.",
+  "generated_at": "2026-10-30T20:52:52.789511"
+ },
+ "D_NEW_deep-smoker_t08": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, deep bass voice with a gritty smoker's rasp, cold and hard, emotionless police investigator, Vietnamese Standard, very slow and measured pace with short clipped phrases",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_deep-smoker_t08.wav",
+  "seconds": 23.65,
+  "f0_median_hz": 130.1,
+  "f0_target_hz": [
+   82,
+   95
+  ],
+  "syl_per_s": 3.59,
+  "syl_target": [
+   2.9,
+   3.2
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 130Hz ngoai dai muc tieu 82-95Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "deep-smoker",
+  "seed": 4321,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/D_NEW_deep-smoker_t08.wav",
+  "why": "Vai Dieu tra vien (Soi): nam 50+, KHAN TRAM, lanh, cham. Higgs giu F0 clip rat tram (M_LOW 96->98 Hz) nhung keo clip nam trung 108-128 Hz ve ~125-130 Hz (dinh Host). Can clone <= 100 Hz: cach Host (~130) >= 4,5 nc, cach C (~205) ~13 nc. VONG 2: chi giu 2 cau mo ta da ra take dat (vlow-gravel_t01 97,6 Hz, deep-smoker_t01 96,4 Hz); them seed.",
+  "generated_at": "2026-10-30T20:53:51.609910"
+ },
+ "C_NEW_alto-brisk_t01": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese woman around forty, lower mid-pitched alto voice, clear and crisp articulation with precise consonants, confident and assertive forensic psychologist, Vietnamese Standard, brisk pace, quiet studio recording",
+  "target_text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/C_NEW/C_NEW_alto-brisk_t01.wav",
+  "seconds": 21.11,
+  "f0_median_hz": 231.9,
+  "f0_target_hz": [
+   200,
+   218
+  ],
+  "syl_per_s": 4.36,
+  "syl_target": [
+   3.9,
+   4.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 232Hz ngoai dai muc tieu 200-218Hz"
+  ],
+  "role": "C_NEW",
+  "variant": "alto-brisk",
+  "seed": 7,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/C_NEW_alto-brisk_t01.wav",
+  "why": "Vai Chuyen gia tam ly (Cao): nu ~40, TRONG SAC, nhanh, dut khoat. Giu F0 vung C.wav (clone ~205 Hz) de khong ap N2 (W5_HIGH clone ~270 Hz, can >= 4 nc); tach khoi Host/D bang chat giong + toc do. C.wav cu CER clone 3,09% > 2% nen lam lai. VONG 2: take noi nhanh deu bi day len 235-254 Hz => them 'lower mid-pitched alto' de ghim cao do; them 'quiet studio' de giam san on.",
+  "generated_at": "2026-10-30T20:54:43.965197"
+ },
+ "C_NEW_alto-brisk_t02": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese woman around forty, lower mid-pitched alto voice, clear and crisp articulation with precise consonants, confident and assertive forensic psychologist, Vietnamese Standard, brisk pace, quiet studio recording",
+  "target_text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/C_NEW/C_NEW_alto-brisk_t02.wav",
+  "seconds": 24.12,
+  "f0_median_hz": 210.5,
+  "f0_target_hz": [
+   200,
+   218
+  ],
+  "syl_per_s": 3.81,
+  "syl_target": [
+   3.9,
+   4.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [],
+  "role": "C_NEW",
+  "variant": "alto-brisk",
+  "seed": 13,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/C_NEW_alto-brisk_t02.wav",
+  "why": "Vai Chuyen gia tam ly (Cao): nu ~40, TRONG SAC, nhanh, dut khoat. Giu F0 vung C.wav (clone ~205 Hz) de khong ap N2 (W5_HIGH clone ~270 Hz, can >= 4 nc); tach khoi Host/D bang chat giong + toc do. C.wav cu CER clone 3,09% > 2% nen lam lai. VONG 2: take noi nhanh deu bi day len 235-254 Hz => them 'lower mid-pitched alto' de ghim cao do; them 'quiet studio' de giam san on.",
+  "generated_at": "2026-10-30T20:55:43.886772"
+ },
+ "C_NEW_alto-brisk_t03": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese woman around forty, lower mid-pitched alto voice, clear and crisp articulation with precise consonants, confident and assertive forensic psychologist, Vietnamese Standard, brisk pace, quiet studio recording",
+  "target_text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/C_NEW/C_NEW_alto-brisk_t03.wav",
+  "seconds": 22.16,
+  "f0_median_hz": 207.8,
+  "f0_target_hz": [
+   200,
+   218
+  ],
+  "syl_per_s": 4.15,
+  "syl_target": [
+   3.9,
+   4.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [],
+  "role": "C_NEW",
+  "variant": "alto-brisk",
+  "seed": 77,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/C_NEW_alto-brisk_t03.wav",
+  "why": "Vai Chuyen gia tam ly (Cao): nu ~40, TRONG SAC, nhanh, dut khoat. Giu F0 vung C.wav (clone ~205 Hz) de khong ap N2 (W5_HIGH clone ~270 Hz, can >= 4 nc); tach khoi Host/D bang chat giong + toc do. C.wav cu CER clone 3,09% > 2% nen lam lai. VONG 2: take noi nhanh deu bi day len 235-254 Hz => them 'lower mid-pitched alto' de ghim cao do; them 'quiet studio' de giam san on.",
+  "generated_at": "2026-10-30T20:56:39.295878"
+ },
+ "C_NEW_alto-brisk_t04": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese woman around forty, lower mid-pitched alto voice, clear and crisp articulation with precise consonants, confident and assertive forensic psychologist, Vietnamese Standard, brisk pace, quiet studio recording",
+  "target_text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/C_NEW/C_NEW_alto-brisk_t04.wav",
+  "seconds": 21.46,
+  "f0_median_hz": 262.3,
+  "f0_target_hz": [
+   200,
+   218
+  ],
+  "syl_per_s": 4.29,
+  "syl_target": [
+   3.9,
+   4.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 262Hz ngoai dai muc tieu 200-218Hz"
+  ],
+  "role": "C_NEW",
+  "variant": "alto-brisk",
+  "seed": 123,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/C_NEW_alto-brisk_t04.wav",
+  "why": "Vai Chuyen gia tam ly (Cao): nu ~40, TRONG SAC, nhanh, dut khoat. Giu F0 vung C.wav (clone ~205 Hz) de khong ap N2 (W5_HIGH clone ~270 Hz, can >= 4 nc); tach khoi Host/D bang chat giong + toc do. C.wav cu CER clone 3,09% > 2% nen lam lai. VONG 2: take noi nhanh deu bi day len 235-254 Hz => them 'lower mid-pitched alto' de ghim cao do; them 'quiet studio' de giam san on.",
+  "generated_at": "2026-10-30T20:57:32.367446"
+ },
+ "C_NEW_alto-brisk_t05": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese woman around forty, lower mid-pitched alto voice, clear and crisp articulation with precise consonants, confident and assertive forensic psychologist, Vietnamese Standard, brisk pace, quiet studio recording",
+  "target_text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/C_NEW/C_NEW_alto-brisk_t05.wav",
+  "seconds": 22.24,
+  "f0_median_hz": 200.0,
+  "f0_target_hz": [
+   200,
+   218
+  ],
+  "syl_per_s": 4.14,
+  "syl_target": [
+   3.9,
+   4.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [],
+  "role": "C_NEW",
+  "variant": "alto-brisk",
+  "seed": 256,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/C_NEW_alto-brisk_t05.wav",
+  "why": "Vai Chuyen gia tam ly (Cao): nu ~40, TRONG SAC, nhanh, dut khoat. Giu F0 vung C.wav (clone ~205 Hz) de khong ap N2 (W5_HIGH clone ~270 Hz, can >= 4 nc); tach khoi Host/D bang chat giong + toc do. C.wav cu CER clone 3,09% > 2% nen lam lai. VONG 2: take noi nhanh deu bi day len 235-254 Hz => them 'lower mid-pitched alto' de ghim cao do; them 'quiet studio' de giam san on.",
+  "generated_at": "2026-10-30T20:58:26.974100"
+ },
+ "C_NEW_alto-brisk_t06": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese woman around forty, lower mid-pitched alto voice, clear and crisp articulation with precise consonants, confident and assertive forensic psychologist, Vietnamese Standard, brisk pace, quiet studio recording",
+  "target_text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/C_NEW/C_NEW_alto-brisk_t06.wav",
+  "seconds": 23.98,
+  "f0_median_hz": 258.1,
+  "f0_target_hz": [
+   200,
+   218
+  ],
+  "syl_per_s": 3.84,
+  "syl_target": [
+   3.9,
+   4.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 258Hz ngoai dai muc tieu 200-218Hz"
+  ],
+  "role": "C_NEW",
+  "variant": "alto-brisk",
+  "seed": 512,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/C_NEW_alto-brisk_t06.wav",
+  "why": "Vai Chuyen gia tam ly (Cao): nu ~40, TRONG SAC, nhanh, dut khoat. Giu F0 vung C.wav (clone ~205 Hz) de khong ap N2 (W5_HIGH clone ~270 Hz, can >= 4 nc); tach khoi Host/D bang chat giong + toc do. C.wav cu CER clone 3,09% > 2% nen lam lai. VONG 2: take noi nhanh deu bi day len 235-254 Hz => them 'lower mid-pitched alto' de ghim cao do; them 'quiet studio' de giam san on.",
+  "generated_at": "2026-10-30T20:59:25.631202"
+ },
+ "C_NEW_alto-brisk_t07": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese woman around forty, lower mid-pitched alto voice, clear and crisp articulation with precise consonants, confident and assertive forensic psychologist, Vietnamese Standard, brisk pace, quiet studio recording",
+  "target_text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/C_NEW/C_NEW_alto-brisk_t07.wav",
+  "seconds": 23.05,
+  "f0_median_hz": 231.9,
+  "f0_target_hz": [
+   200,
+   218
+  ],
+  "syl_per_s": 3.99,
+  "syl_target": [
+   3.9,
+   4.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 232Hz ngoai dai muc tieu 200-218Hz"
+  ],
+  "role": "C_NEW",
+  "variant": "alto-brisk",
+  "seed": 1234,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/C_NEW_alto-brisk_t07.wav",
+  "why": "Vai Chuyen gia tam ly (Cao): nu ~40, TRONG SAC, nhanh, dut khoat. Giu F0 vung C.wav (clone ~205 Hz) de khong ap N2 (W5_HIGH clone ~270 Hz, can >= 4 nc); tach khoi Host/D bang chat giong + toc do. C.wav cu CER clone 3,09% > 2% nen lam lai. VONG 2: take noi nhanh deu bi day len 235-254 Hz => them 'lower mid-pitched alto' de ghim cao do; them 'quiet studio' de giam san on.",
+  "generated_at": "2026-10-30T21:00:22.820445"
+ },
+ "C_NEW_alto-brisk_t08": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese woman around forty, lower mid-pitched alto voice, clear and crisp articulation with precise consonants, confident and assertive forensic psychologist, Vietnamese Standard, brisk pace, quiet studio recording",
+  "target_text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/C_NEW/C_NEW_alto-brisk_t08.wav",
+  "seconds": 23.34,
+  "f0_median_hz": 202.5,
+  "f0_target_hz": [
+   200,
+   218
+  ],
+  "syl_per_s": 3.94,
+  "syl_target": [
+   3.9,
+   4.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [],
+  "role": "C_NEW",
+  "variant": "alto-brisk",
+  "seed": 4321,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/C_NEW_alto-brisk_t08.wav",
+  "why": "Vai Chuyen gia tam ly (Cao): nu ~40, TRONG SAC, nhanh, dut khoat. Giu F0 vung C.wav (clone ~205 Hz) de khong ap N2 (W5_HIGH clone ~270 Hz, can >= 4 nc); tach khoi Host/D bang chat giong + toc do. C.wav cu CER clone 3,09% > 2% nen lam lai. VONG 2: take noi nhanh deu bi day len 235-254 Hz => them 'lower mid-pitched alto' de ghim cao do; them 'quiet studio' de giam san on.",
+  "generated_at": "2026-10-30T21:01:20.731669"
+ },
+ "C_NEW_lecture_t01": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese woman around forty, mid-pitched clean and focused voice, articulate university lecturer delivering analysis, firm and confident, Vietnamese Standard, quick energetic pace, quiet studio recording",
+  "target_text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/C_NEW/C_NEW_lecture_t01.wav",
+  "seconds": 21.99,
+  "f0_median_hz": 219.2,
+  "f0_target_hz": [
+   200,
+   218
+  ],
+  "syl_per_s": 4.18,
+  "syl_target": [
+   3.9,
+   4.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [],
+  "role": "C_NEW",
+  "variant": "lecture",
+  "seed": 7,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/C_NEW_lecture_t01.wav",
+  "why": "Vai Chuyen gia tam ly (Cao): nu ~40, TRONG SAC, nhanh, dut khoat. Giu F0 vung C.wav (clone ~205 Hz) de khong ap N2 (W5_HIGH clone ~270 Hz, can >= 4 nc); tach khoi Host/D bang chat giong + toc do. C.wav cu CER clone 3,09% > 2% nen lam lai. VONG 2: take noi nhanh deu bi day len 235-254 Hz => them 'lower mid-pitched alto' de ghim cao do; them 'quiet studio' de giam san on.",
+  "generated_at": "2026-10-30T21:02:14.907431"
+ },
+ "C_NEW_lecture_t02": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese woman around forty, mid-pitched clean and focused voice, articulate university lecturer delivering analysis, firm and confident, Vietnamese Standard, quick energetic pace, quiet studio recording",
+  "target_text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/C_NEW/C_NEW_lecture_t02.wav",
+  "seconds": 22.93,
+  "f0_median_hz": 213.3,
+  "f0_target_hz": [
+   200,
+   218
+  ],
+  "syl_per_s": 4.01,
+  "syl_target": [
+   3.9,
+   4.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [],
+  "role": "C_NEW",
+  "variant": "lecture",
+  "seed": 13,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/C_NEW_lecture_t02.wav",
+  "why": "Vai Chuyen gia tam ly (Cao): nu ~40, TRONG SAC, nhanh, dut khoat. Giu F0 vung C.wav (clone ~205 Hz) de khong ap N2 (W5_HIGH clone ~270 Hz, can >= 4 nc); tach khoi Host/D bang chat giong + toc do. C.wav cu CER clone 3,09% > 2% nen lam lai. VONG 2: take noi nhanh deu bi day len 235-254 Hz => them 'lower mid-pitched alto' de ghim cao do; them 'quiet studio' de giam san on.",
+  "generated_at": "2026-10-30T21:03:11.768220"
+ },
+ "C_NEW_lecture_t03": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese woman around forty, mid-pitched clean and focused voice, articulate university lecturer delivering analysis, firm and confident, Vietnamese Standard, quick energetic pace, quiet studio recording",
+  "target_text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/C_NEW/C_NEW_lecture_t03.wav",
+  "seconds": 20.93,
+  "f0_median_hz": 216.2,
+  "f0_target_hz": [
+   200,
+   218
+  ],
+  "syl_per_s": 4.4,
+  "syl_target": [
+   3.9,
+   4.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [],
+  "role": "C_NEW",
+  "variant": "lecture",
+  "seed": 77,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/C_NEW_lecture_t03.wav",
+  "why": "Vai Chuyen gia tam ly (Cao): nu ~40, TRONG SAC, nhanh, dut khoat. Giu F0 vung C.wav (clone ~205 Hz) de khong ap N2 (W5_HIGH clone ~270 Hz, can >= 4 nc); tach khoi Host/D bang chat giong + toc do. C.wav cu CER clone 3,09% > 2% nen lam lai. VONG 2: take noi nhanh deu bi day len 235-254 Hz => them 'lower mid-pitched alto' de ghim cao do; them 'quiet studio' de giam san on.",
+  "generated_at": "2026-10-30T21:04:03.355874"
+ },
+ "C_NEW_lecture_t04": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese woman around forty, mid-pitched clean and focused voice, articulate university lecturer delivering analysis, firm and confident, Vietnamese Standard, quick energetic pace, quiet studio recording",
+  "target_text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/C_NEW/C_NEW_lecture_t04.wav",
+  "seconds": 20.73,
+  "f0_median_hz": 280.7,
+  "f0_target_hz": [
+   200,
+   218
+  ],
+  "syl_per_s": 4.44,
+  "syl_target": [
+   3.9,
+   4.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 281Hz ngoai dai muc tieu 200-218Hz"
+  ],
+  "role": "C_NEW",
+  "variant": "lecture",
+  "seed": 123,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/C_NEW_lecture_t04.wav",
+  "why": "Vai Chuyen gia tam ly (Cao): nu ~40, TRONG SAC, nhanh, dut khoat. Giu F0 vung C.wav (clone ~205 Hz) de khong ap N2 (W5_HIGH clone ~270 Hz, can >= 4 nc); tach khoi Host/D bang chat giong + toc do. C.wav cu CER clone 3,09% > 2% nen lam lai. VONG 2: take noi nhanh deu bi day len 235-254 Hz => them 'lower mid-pitched alto' de ghim cao do; them 'quiet studio' de giam san on.",
+  "generated_at": "2026-10-30T21:04:54.356945"
+ },
+ "C_NEW_lecture_t05": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese woman around forty, mid-pitched clean and focused voice, articulate university lecturer delivering analysis, firm and confident, Vietnamese Standard, quick energetic pace, quiet studio recording",
+  "target_text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/C_NEW/C_NEW_lecture_t05.wav",
+  "seconds": 22.13,
+  "f0_median_hz": 192.8,
+  "f0_target_hz": [
+   200,
+   218
+  ],
+  "syl_per_s": 4.16,
+  "syl_target": [
+   3.9,
+   4.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [],
+  "role": "C_NEW",
+  "variant": "lecture",
+  "seed": 256,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/C_NEW_lecture_t05.wav",
+  "why": "Vai Chuyen gia tam ly (Cao): nu ~40, TRONG SAC, nhanh, dut khoat. Giu F0 vung C.wav (clone ~205 Hz) de khong ap N2 (W5_HIGH clone ~270 Hz, can >= 4 nc); tach khoi Host/D bang chat giong + toc do. C.wav cu CER clone 3,09% > 2% nen lam lai. VONG 2: take noi nhanh deu bi day len 235-254 Hz => them 'lower mid-pitched alto' de ghim cao do; them 'quiet studio' de giam san on.",
+  "generated_at": "2026-10-30T21:05:48.433316"
+ },
+ "C_NEW_lecture_t06": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese woman around forty, mid-pitched clean and focused voice, articulate university lecturer delivering analysis, firm and confident, Vietnamese Standard, quick energetic pace, quiet studio recording",
+  "target_text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/C_NEW/C_NEW_lecture_t06.wav",
+  "seconds": 23.3,
+  "f0_median_hz": 262.3,
+  "f0_target_hz": [
+   200,
+   218
+  ],
+  "syl_per_s": 3.95,
+  "syl_target": [
+   3.9,
+   4.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 262Hz ngoai dai muc tieu 200-218Hz"
+  ],
+  "role": "C_NEW",
+  "variant": "lecture",
+  "seed": 512,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/C_NEW_lecture_t06.wav",
+  "why": "Vai Chuyen gia tam ly (Cao): nu ~40, TRONG SAC, nhanh, dut khoat. Giu F0 vung C.wav (clone ~205 Hz) de khong ap N2 (W5_HIGH clone ~270 Hz, can >= 4 nc); tach khoi Host/D bang chat giong + toc do. C.wav cu CER clone 3,09% > 2% nen lam lai. VONG 2: take noi nhanh deu bi day len 235-254 Hz => them 'lower mid-pitched alto' de ghim cao do; them 'quiet studio' de giam san on.",
+  "generated_at": "2026-10-30T21:06:47.741448"
+ },
+ "C_NEW_lecture_t07": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese woman around forty, mid-pitched clean and focused voice, articulate university lecturer delivering analysis, firm and confident, Vietnamese Standard, quick energetic pace, quiet studio recording",
+  "target_text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/C_NEW/C_NEW_lecture_t07.wav",
+  "seconds": 20.51,
+  "f0_median_hz": 250.0,
+  "f0_target_hz": [
+   200,
+   218
+  ],
+  "syl_per_s": 4.49,
+  "syl_target": [
+   3.9,
+   4.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 250Hz ngoai dai muc tieu 200-218Hz"
+  ],
+  "role": "C_NEW",
+  "variant": "lecture",
+  "seed": 1234,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/C_NEW_lecture_t07.wav",
+  "why": "Vai Chuyen gia tam ly (Cao): nu ~40, TRONG SAC, nhanh, dut khoat. Giu F0 vung C.wav (clone ~205 Hz) de khong ap N2 (W5_HIGH clone ~270 Hz, can >= 4 nc); tach khoi Host/D bang chat giong + toc do. C.wav cu CER clone 3,09% > 2% nen lam lai. VONG 2: take noi nhanh deu bi day len 235-254 Hz => them 'lower mid-pitched alto' de ghim cao do; them 'quiet studio' de giam san on.",
+  "generated_at": "2026-10-30T21:07:38.485119"
+ },
+ "C_NEW_lecture_t08": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese woman around forty, mid-pitched clean and focused voice, articulate university lecturer delivering analysis, firm and confident, Vietnamese Standard, quick energetic pace, quiet studio recording",
+  "target_text": "Cơ chế này không đến từ trí nhớ, mà từ cách người ta lặp lại mẫu hình quen thuộc. Đó là lý do hành vi ấy luôn quay trở lại đúng chỗ cũ, và cần được giải thích kỹ. Trong các nghiên cứu lâm sàng, những phản ứng phòng vệ thường bộc lộ rõ nhất khi đối tượng cảm thấy mất quyền kiểm soát. Việc phân tích cấu trúc tâm lý đòi hỏi cái nhìn khách quan, dựa trên chuỗi dữ liệu hành vi đã được ghi nhận trong thời gian dài.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/C_NEW/C_NEW_lecture_t08.wav",
+  "seconds": 23.19,
+  "f0_median_hz": 202.5,
+  "f0_target_hz": [
+   200,
+   218
+  ],
+  "syl_per_s": 3.97,
+  "syl_target": [
+   3.9,
+   4.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [],
+  "role": "C_NEW",
+  "variant": "lecture",
+  "seed": 4321,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc2/C_NEW_lecture_t08.wav",
+  "why": "Vai Chuyen gia tam ly (Cao): nu ~40, TRONG SAC, nhanh, dut khoat. Giu F0 vung C.wav (clone ~205 Hz) de khong ap N2 (W5_HIGH clone ~270 Hz, can >= 4 nc); tach khoi Host/D bang chat giong + toc do. C.wav cu CER clone 3,09% > 2% nen lam lai. VONG 2: take noi nhanh deu bi day len 235-254 Hz => them 'lower mid-pitched alto' de ghim cao do; them 'quiet studio' de giam san on.",
+  "generated_at": "2026-10-30T21:08:35.836691"
+ }
+}
