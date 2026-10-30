@@ -40,7 +40,15 @@ Xuat:
     assets/voice_ref_voxcpm2_g9/<ROLE>.wav           (24 kHz mono, -18 LUFS)
     assets/voice_ref_voxcpm2_g9/<ROLE>.txt
     assets/voice_ref_voxcpm2_g9/refs.json
+
+CHE DO UNG VIEN (--candidates, 30/10/2026 — tao lai giong D + C):
+    python3 .work/voxcpm_generate_g9.py --manifest .work/voxcpm_refs_manifest_dc.json \
+        --out assets/voice_ref_voxcpm2_dc --candidates 3
+    -> KHONG dung o take dau trung dai: moi bac control x N seed, DONG GOI MOI take
+       thanh <ROLE>_<tag>_tNN.wav (vi cong that la F0/CER sau khi Higgs clone, do tren Kaggle).
+    -> refs.json co them nhip am tiet/giay (syl_per_s) cua clip.
 """
+import argparse
 import datetime
 import json
 import os
@@ -118,10 +126,86 @@ def gen_one(model, control, text, sr, seed, cfg, out_p):
     return audio, dur, time.time() - t0
 
 
+def package(src, ref_wav, text, lo_f0, hi_f0):
+    """Dong goi 24 kHz mono -18 LUFS; tra ve (seconds, ref_f0, notes)."""
+    ff = shutil.which("ffmpeg") or "ffmpeg"
+    subprocess.run([ff, "-y", "-v", "error", "-i", str(src), "-af", FLT,
+                    "-ac", "1", "-ar", "24000", "-c:a", "pcm_s16le", str(ref_wav)],
+                   check=True)
+    ref_wav.with_suffix(".txt").write_text(text, encoding="utf-8")
+    data, sr_read = sf.read(str(ref_wav), dtype="float32")
+    seconds = round(len(data) / float(sr_read), 2)
+    ref_f0 = f0_median(data, sr_read)
+    notes = []
+    if not (LO_SEC <= seconds <= HI_SEC):
+        notes.append(f"THOI LUONG {seconds:.1f}s ngoai [{LO_SEC}-{HI_SEC}]s")
+    if not (lo_f0 * 0.94 <= ref_f0 <= hi_f0 * 1.06):
+        notes.append(f"F0 {ref_f0:.0f}Hz ngoai dai muc tieu {lo_f0}-{hi_f0}Hz")
+    return seconds, ref_f0, notes
+
+
+def run_candidates(model, manifest, sample_rate, n_seeds):
+    """Moi bac control x n_seeds seed; dong goi MOI take (khong dung som)."""
+    packaged = {}
+    for role, data in manifest.items():
+        lo_f0, hi_f0 = data["f0_target"]
+        text = data["text"].strip()
+        n_syl = len(text.split())
+        role_dir = RAW / role
+        role_dir.mkdir(parents=True, exist_ok=True)
+        print(f"\n--- {role}  (muc tieu F0 clip {lo_f0}-{hi_f0} Hz) ---")
+        for v in data["control_variants"]:
+            for i in range(n_seeds):
+                cfg, seed = TAKE_CONFIGS[i % len(TAKE_CONFIGS)]
+                name = f"{role}_{v['tag']}_t{i + 1:02d}"
+                raw_p = role_dir / f"{name}.wav"
+                print(f"  > {name} (seed={seed}, cfg={cfg})...", end="", flush=True)
+                try:
+                    _, dur, secs = gen_one(model, v["control"], text, sample_rate,
+                                           seed, cfg, raw_p)
+                    ref_wav = OUT_REF / f"{name}.wav"
+                    seconds, ref_f0, notes = package(raw_p, ref_wav, text, lo_f0, hi_f0)
+                except Exception as exc:                    # noqa: BLE001
+                    print(f" LOI: {exc}")
+                    continue
+                syl = round(n_syl / seconds, 2) if seconds else 0.0
+                print(f" {secs:.0f}s | {seconds:.1f}s | F0 {ref_f0:.1f} Hz | {syl} am/s"
+                      + ("  !! " + "; ".join(notes) if notes else "  [TRONG DAI]"))
+                packaged[name] = {
+                    "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+                    "control_instruction": v["control"], "target_text": text,
+                    "source_file": raw_p.as_posix(), "seconds": seconds,
+                    "f0_median_hz": round(ref_f0, 1), "f0_target_hz": [lo_f0, hi_f0],
+                    "syl_per_s": syl, "syl_target": data.get("syl_target"),
+                    "sample_rate": 24000, "channels": 1, "lufs_target": -18.0,
+                    "model": "openbmb/VoxCPM2", "license": "Apache-2.0",
+                    "attribution_required": False, "notes": notes,
+                    "role": role, "variant": v["tag"], "seed": seed, "cfg": cfg,
+                    "reference_file": ref_wav.as_posix(), "why": data.get("why", ""),
+                    "generated_at": datetime.datetime.now().isoformat(),
+                }
+                (OUT_REF / "refs.json").write_text(
+                    json.dumps(packaged, ensure_ascii=False, indent=1), encoding="utf-8")
+    return packaged
+
+
 def main():
+    global MANIFEST, OUT_REF
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--manifest", default=None)
+    ap.add_argument("--out", default=None)
+    ap.add_argument("--candidates", type=int, default=0,
+                    help="so seed moi bac control; >0 = che do ung vien")
+    args = ap.parse_args()
+    if args.manifest:
+        MANIFEST = (ROOT / args.manifest).resolve()
+    if args.out:
+        OUT_REF = (ROOT / args.out).resolve()
     if not MANIFEST.exists():
         sys.exit(f"Thieu manifest: {MANIFEST}")
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8-sig"))
+    if args.candidates > 0 and (OUT_REF / "refs.json").exists():
+        sys.exit(f"{OUT_REF}/refs.json da ton tai — khong ghi de (L5). Doi --out hoac sao luu truoc.")
     RAW.mkdir(parents=True, exist_ok=True)
     OUT_REF.mkdir(parents=True, exist_ok=True)
 
@@ -135,6 +219,17 @@ def main():
                                    local_files_only=True)
     print(f"    xong trong {time.time() - t0:.1f}s")
     sample_rate = getattr(model.tts_model, "sample_rate", 48000)
+
+    if args.candidates > 0:
+        print(f"\n[2/2] Che do ung vien: moi bac x {args.candidates} seed...")
+        packaged = run_candidates(model, manifest, sample_rate, args.candidates)
+        print("\n" + "=" * 74)
+        print(f"XONG: {len(packaged)} ung vien trong {OUT_REF}")
+        for k, p in packaged.items():
+            print(f"  {k:28} F0 {p['f0_median_hz']:6.1f} Hz | {p['seconds']:5.1f}s | "
+                  f"{p['syl_per_s']} am/s | {'OK' if not p['notes'] else '; '.join(p['notes'])}")
+        print("=" * 74)
+        return
 
     print("\n[2/2] Do thang tung vai...")
     packaged = []
