@@ -1,0 +1,524 @@
+{
+ "D_NEW_bass-gravel_t01": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, extremely low-pitched deep bass voice, rough and gravelly, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_bass-gravel_t01.wav",
+  "seconds": 24.27,
+  "f0_median_hz": 100.0,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 3.5,
+  "syl_target": [
+   2.9,
+   3.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 100Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "bass-gravel",
+  "seed": 42,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc3/D_NEW_bass-gravel_t01.wav",
+  "why": "VONG 3 (sau pilot v9 Kaggle): Higgs giu gan nguyen F0 clip D rat tram (89->91 Hz, 97->96-101 Hz). Host clone 123-126 Hz (neutral) => can clip 78-88 Hz de D~H >= 4,5 nc. Seed 42/7 la 2 seed duy nhat ra D tram o vong 1-2.",
+  "generated_at": "2026-10-30T22:49:37.770358"
+ },
+ "D_NEW_bass-gravel_t02": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, extremely low-pitched deep bass voice, rough and gravelly, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_bass-gravel_t02.wav",
+  "seconds": 24.48,
+  "f0_median_hz": 89.4,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 3.47,
+  "syl_target": [
+   2.9,
+   3.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [],
+  "role": "D_NEW",
+  "variant": "bass-gravel",
+  "seed": 7,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc3/D_NEW_bass-gravel_t02.wav",
+  "why": "VONG 3 (sau pilot v9 Kaggle): Higgs giu gan nguyen F0 clip D rat tram (89->91 Hz, 97->96-101 Hz). Host clone 123-126 Hz (neutral) => can clip 78-88 Hz de D~H >= 4,5 nc. Seed 42/7 la 2 seed duy nhat ra D tram o vong 1-2.",
+  "generated_at": "2026-10-30T22:50:37.185237"
+ },
+ "D_NEW_bass-gravel_t03": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, extremely low-pitched deep bass voice, rough and gravelly, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_bass-gravel_t03.wav",
+  "seconds": 23.1,
+  "f0_median_hz": 160.0,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 3.68,
+  "syl_target": [
+   2.9,
+   3.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 160Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "bass-gravel",
+  "seed": 2718,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc3/D_NEW_bass-gravel_t03.wav",
+  "why": "VONG 3 (sau pilot v9 Kaggle): Higgs giu gan nguyen F0 clip D rat tram (89->91 Hz, 97->96-101 Hz). Host clone 123-126 Hz (neutral) => can clip 78-88 Hz de D~H >= 4,5 nc. Seed 42/7 la 2 seed duy nhat ra D tram o vong 1-2.",
+  "generated_at": "2026-10-30T22:51:34.421897"
+ },
+ "D_NEW_bass-gravel_t04": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, extremely low-pitched deep bass voice, rough and gravelly, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_bass-gravel_t04.wav",
+  "seconds": 23.35,
+  "f0_median_hz": 188.2,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 3.64,
+  "syl_target": [
+   2.9,
+   3.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 188Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "bass-gravel",
+  "seed": 9001,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc3/D_NEW_bass-gravel_t04.wav",
+  "why": "VONG 3 (sau pilot v9 Kaggle): Higgs giu gan nguyen F0 clip D rat tram (89->91 Hz, 97->96-101 Hz). Host clone 123-126 Hz (neutral) => can clip 78-88 Hz de D~H >= 4,5 nc. Seed 42/7 la 2 seed duy nhat ra D tram o vong 1-2.",
+  "generated_at": "2026-10-30T22:52:31.415209"
+ },
+ "D_NEW_smoker-bass_t01": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, deep bass voice with a gritty smoker's rasp, very low register, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_smoker-bass_t01.wav",
+  "seconds": 25.75,
+  "f0_median_hz": 95.2,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 3.3,
+  "syl_target": [
+   2.9,
+   3.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 95Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "smoker-bass",
+  "seed": 42,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc3/D_NEW_smoker-bass_t01.wav",
+  "why": "VONG 3 (sau pilot v9 Kaggle): Higgs giu gan nguyen F0 clip D rat tram (89->91 Hz, 97->96-101 Hz). Host clone 123-126 Hz (neutral) => can clip 78-88 Hz de D~H >= 4,5 nc. Seed 42/7 la 2 seed duy nhat ra D tram o vong 1-2.",
+  "generated_at": "2026-10-30T22:53:34.300341"
+ },
+ "D_NEW_smoker-bass_t02": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, deep bass voice with a gritty smoker's rasp, very low register, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_smoker-bass_t02.wav",
+  "seconds": 23.03,
+  "f0_median_hz": 104.6,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 3.69,
+  "syl_target": [
+   2.9,
+   3.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 105Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "smoker-bass",
+  "seed": 7,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc3/D_NEW_smoker-bass_t02.wav",
+  "why": "VONG 3 (sau pilot v9 Kaggle): Higgs giu gan nguyen F0 clip D rat tram (89->91 Hz, 97->96-101 Hz). Host clone 123-126 Hz (neutral) => can clip 78-88 Hz de D~H >= 4,5 nc. Seed 42/7 la 2 seed duy nhat ra D tram o vong 1-2.",
+  "generated_at": "2026-10-30T22:54:30.772071"
+ },
+ "D_NEW_smoker-bass_t03": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, deep bass voice with a gritty smoker's rasp, very low register, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_smoker-bass_t03.wav",
+  "seconds": 23.21,
+  "f0_median_hz": 121.2,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 3.66,
+  "syl_target": [
+   2.9,
+   3.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 121Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "smoker-bass",
+  "seed": 2718,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc3/D_NEW_smoker-bass_t03.wav",
+  "why": "VONG 3 (sau pilot v9 Kaggle): Higgs giu gan nguyen F0 clip D rat tram (89->91 Hz, 97->96-101 Hz). Host clone 123-126 Hz (neutral) => can clip 78-88 Hz de D~H >= 4,5 nc. Seed 42/7 la 2 seed duy nhat ra D tram o vong 1-2.",
+  "generated_at": "2026-10-30T22:55:28.797999"
+ },
+ "D_NEW_smoker-bass_t04": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, deep bass voice with a gritty smoker's rasp, very low register, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_smoker-bass_t04.wav",
+  "seconds": 22.31,
+  "f0_median_hz": 216.2,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 3.81,
+  "syl_target": [
+   2.9,
+   3.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 216Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "smoker-bass",
+  "seed": 9001,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc3/D_NEW_smoker-bass_t04.wav",
+  "why": "VONG 3 (sau pilot v9 Kaggle): Higgs giu gan nguyen F0 clip D rat tram (89->91 Hz, 97->96-101 Hz). Host clone 123-126 Hz (neutral) => can clip 78-88 Hz de D~H >= 4,5 nc. Seed 42/7 la 2 seed duy nhat ra D tram o vong 1-2.",
+  "generated_at": "2026-10-30T22:56:23.695266"
+ },
+ "D_NEW_subbass-husky_t01": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, sub-bass, very deep and husky, chest voice, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, crisp consonants, quiet studio recording",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_subbass-husky_t01.wav",
+  "seconds": 23.01,
+  "f0_median_hz": 108.1,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 3.69,
+  "syl_target": [
+   2.9,
+   3.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 108Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "subbass-husky",
+  "seed": 42,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc3/D_NEW_subbass-husky_t01.wav",
+  "why": "VONG 3 (sau pilot v9 Kaggle): Higgs giu gan nguyen F0 clip D rat tram (89->91 Hz, 97->96-101 Hz). Host clone 123-126 Hz (neutral) => can clip 78-88 Hz de D~H >= 4,5 nc. Seed 42/7 la 2 seed duy nhat ra D tram o vong 1-2.",
+  "generated_at": "2026-10-30T22:57:21.659713"
+ },
+ "D_NEW_subbass-husky_t02": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, sub-bass, very deep and husky, chest voice, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, crisp consonants, quiet studio recording",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_subbass-husky_t02.wav",
+  "seconds": 23.54,
+  "f0_median_hz": 88.4,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 3.61,
+  "syl_target": [
+   2.9,
+   3.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [],
+  "role": "D_NEW",
+  "variant": "subbass-husky",
+  "seed": 7,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc3/D_NEW_subbass-husky_t02.wav",
+  "why": "VONG 3 (sau pilot v9 Kaggle): Higgs giu gan nguyen F0 clip D rat tram (89->91 Hz, 97->96-101 Hz). Host clone 123-126 Hz (neutral) => can clip 78-88 Hz de D~H >= 4,5 nc. Seed 42/7 la 2 seed duy nhat ra D tram o vong 1-2.",
+  "generated_at": "2026-10-30T22:58:19.708486"
+ },
+ "D_NEW_subbass-husky_t03": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, sub-bass, very deep and husky, chest voice, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, crisp consonants, quiet studio recording",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_subbass-husky_t03.wav",
+  "seconds": 21.3,
+  "f0_median_hz": 130.1,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 3.99,
+  "syl_target": [
+   2.9,
+   3.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 130Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "subbass-husky",
+  "seed": 2718,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc3/D_NEW_subbass-husky_t03.wav",
+  "why": "VONG 3 (sau pilot v9 Kaggle): Higgs giu gan nguyen F0 clip D rat tram (89->91 Hz, 97->96-101 Hz). Host clone 123-126 Hz (neutral) => can clip 78-88 Hz de D~H >= 4,5 nc. Seed 42/7 la 2 seed duy nhat ra D tram o vong 1-2.",
+  "generated_at": "2026-10-30T22:59:12.252792"
+ },
+ "D_NEW_subbass-husky_t04": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, sub-bass, very deep and husky, chest voice, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, crisp consonants, quiet studio recording",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_subbass-husky_t04.wav",
+  "seconds": 22.16,
+  "f0_median_hz": 200.0,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 3.84,
+  "syl_target": [
+   2.9,
+   3.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 200Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "subbass-husky",
+  "seed": 9001,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc3/D_NEW_subbass-husky_t04.wav",
+  "why": "VONG 3 (sau pilot v9 Kaggle): Higgs giu gan nguyen F0 clip D rat tram (89->91 Hz, 97->96-101 Hz). Host clone 123-126 Hz (neutral) => can clip 78-88 Hz de D~H >= 4,5 nc. Seed 42/7 la 2 seed duy nhat ra D tram o vong 1-2.",
+  "generated_at": "2026-10-30T23:00:07.553750"
+ },
+ "D_NEW_low-growl_t01": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, very low-pitched, deep and gravelly with a slight growl, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, crisp consonants, quiet studio recording",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_low-growl_t01.wav",
+  "seconds": 24.31,
+  "f0_median_hz": 106.0,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 3.5,
+  "syl_target": [
+   2.9,
+   3.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 106Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "low-growl",
+  "seed": 42,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc3/D_NEW_low-growl_t01.wav",
+  "why": "VONG 3 (sau pilot v9 Kaggle): Higgs giu gan nguyen F0 clip D rat tram (89->91 Hz, 97->96-101 Hz). Host clone 123-126 Hz (neutral) => can clip 78-88 Hz de D~H >= 4,5 nc. Seed 42/7 la 2 seed duy nhat ra D tram o vong 1-2.",
+  "generated_at": "2026-10-30T23:01:07.321015"
+ },
+ "D_NEW_low-growl_t02": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, very low-pitched, deep and gravelly with a slight growl, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, crisp consonants, quiet studio recording",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_low-growl_t02.wav",
+  "seconds": 22.78,
+  "f0_median_hz": 90.4,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 3.73,
+  "syl_target": [
+   2.9,
+   3.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [],
+  "role": "D_NEW",
+  "variant": "low-growl",
+  "seed": 7,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc3/D_NEW_low-growl_t02.wav",
+  "why": "VONG 3 (sau pilot v9 Kaggle): Higgs giu gan nguyen F0 clip D rat tram (89->91 Hz, 97->96-101 Hz). Host clone 123-126 Hz (neutral) => can clip 78-88 Hz de D~H >= 4,5 nc. Seed 42/7 la 2 seed duy nhat ra D tram o vong 1-2.",
+  "generated_at": "2026-10-30T23:02:02.857200"
+ },
+ "D_NEW_low-growl_t03": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, very low-pitched, deep and gravelly with a slight growl, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, crisp consonants, quiet studio recording",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_low-growl_t03.wav",
+  "seconds": 23.11,
+  "f0_median_hz": 135.6,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 3.68,
+  "syl_target": [
+   2.9,
+   3.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 136Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "low-growl",
+  "seed": 2718,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc3/D_NEW_low-growl_t03.wav",
+  "why": "VONG 3 (sau pilot v9 Kaggle): Higgs giu gan nguyen F0 clip D rat tram (89->91 Hz, 97->96-101 Hz). Host clone 123-126 Hz (neutral) => can clip 78-88 Hz de D~H >= 4,5 nc. Seed 42/7 la 2 seed duy nhat ra D tram o vong 1-2.",
+  "generated_at": "2026-10-30T23:02:59.095842"
+ },
+ "D_NEW_low-growl_t04": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A Vietnamese man in his late fifties, very low-pitched, deep and gravelly with a slight growl, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, crisp consonants, quiet studio recording",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự. Chúng tôi phải đối chiếu từng mốc thời gian, kiểm tra lại toàn bộ sơ đồ di chuyển, trước khi đưa ra kết luận cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D_NEW/D_NEW_low-growl_t04.wav",
+  "seconds": 23.52,
+  "f0_median_hz": 188.2,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 3.61,
+  "syl_target": [
+   2.9,
+   3.3
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 188Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D_NEW",
+  "variant": "low-growl",
+  "seed": 9001,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_dc3/D_NEW_low-growl_t04.wav",
+  "why": "VONG 3 (sau pilot v9 Kaggle): Higgs giu gan nguyen F0 clip D rat tram (89->91 Hz, 97->96-101 Hz). Host clone 123-126 Hz (neutral) => can clip 78-88 Hz de D~H >= 4,5 nc. Seed 42/7 la 2 seed duy nhat ra D tram o vong 1-2.",
+  "generated_at": "2026-10-30T23:03:56.488207"
+ }
+}
