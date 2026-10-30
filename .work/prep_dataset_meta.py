@@ -40,8 +40,8 @@ EXTRA = {
     "higgs_payload_t02.json": "Payload san xuat Tap 02 (203 cau, the co emotion)",
 }
 
-meta["subtitle"] = ("16 clip tham chieu tieng Viet 24 kHz (7 goc + 4 moi cho G9 + 5 bien the) "
-                     "cho vai H D C N1 N2 - dung cho Higgs v3 zero-shot voice cloning")
+meta["subtitle"] = ("16 clip tham chieu tieng Viet cho Higgs v3 (7 goc + 4 moi G9 + 5 bien the)")
+assert 20 <= len(meta["subtitle"]) <= 80, len(meta["subtitle"])
 meta["description"] = (
     "Bo clip tham chieu tieng Viet cho kenh Amber Eyes, lam ref_audio cho Higgs Audio v3 "
     "zero-shot voice cloning.\n\n"
