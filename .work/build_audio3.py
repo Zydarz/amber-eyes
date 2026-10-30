@@ -8,6 +8,7 @@ Outputs
   .work/stems/{H,D,C,N1,N2}.wav               per-character voice (for badge waveforms)
 """
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -100,7 +101,20 @@ def click(length=0.06):
 def main():
     script = json.loads(ED.SCRIPT_JSON.read_text(encoding="utf-8"))
     man = {m["id"]: m for m in json.loads(ED.w("tts_manifest.json").read_text(encoding="utf-8"))}
-    voice_cache = {sid: load(ED.w("audio_s") / m["file"]) for sid, m in man.items()}
+    # L5: thu muc audio mac dinh = MiniMax (`audio_s_t02`).
+    # Dat AE_AUDIO_DIR=audio_s_higgs_t02 de dung audio Higgs (WAV 24 kHz),
+    # thu muc MiniMax giu nguyen khong bi ghi de.
+    audio_dir = os.environ.get("AE_AUDIO_DIR", "audio_s")
+    if audio_dir != "audio_s":
+        print("nguon audio:", ED.w(audio_dir))
+
+    def audio_path(m):
+        p = ED.w(audio_dir) / m["file"]
+        if not p.exists():
+            p = p.with_suffix(".wav")          # audio Higgs: .wav 24 kHz
+        return p
+
+    voice_cache = {sid: load(audio_path(m)) for sid, m in man.items()}
 
     # ---------------- 1. lay out the timeline
     t = FIRST_VOICE

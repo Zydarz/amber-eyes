@@ -49,6 +49,21 @@ Chay **1 tien trinh** (pilot nho, dung 1 GPU de so sanh nhat quan).
 Ket qua khong phu thuoc card nao: seed co dinh theo `(id|role|ref|temp|variant)`.
 """,
     },
+    "smoke": {
+        "SPEC_NAME": "prod_spec_smoke.json",
+        "PAYLOAD_NAME": "higgs_payload_smoke.json",
+        "OUT_NAME": "out_higgs_smoke",
+        "NB_NAME": "higgs_smoke_kaggle.ipynb",
+        "N_WORKERS": 2,
+        "TITLE": "SMOKE — kiem duong 2 GPU (12 file)",
+        "MD": """# SMOKE TEST — kiem duong 2 GPU truoc luot san xuat that
+
+12 file (6 cau x 2 ban, du 5 vai + 1 cau co the emotion) chay tren **2 tien trinh / 2 GPU**.
+Dung de chung minh duong chay 2 GPU + merge + catch-up hoat dong truoc khi sinh 406 file.
+
+Ket qua khong phu thuoc card nao: seed co dinh theo `(id|role|ref|temp|variant)`.
+""",
+    },
     "prod": {
         "SPEC_NAME": "prod_spec.json",
         "PAYLOAD_NAME": "higgs_payload_t02.json",
