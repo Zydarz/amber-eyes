@@ -6,6 +6,9 @@ Nguon: pilot v6, DUNG 5 mapping san xuat cuoi cung
 Dung de danh gia: chat luong doc, phan biet giong nam H vs D, cam xuc.
 Khong phai ban thanh pham cuoi cung (ban do dung 416 file, se doi sau khi do CER).
 
+LUU Y: co 5 file RIENG (DEMO_vai_H.mp3 ... DEMO_vai_N2.mp3) — nghe tung vai de khong nham.
+Bang thoi gian cua reel tong:
+
     0.0 s | == H — người dẫn (nam, English_CaptivatingStoryteller)
     0.0 s | [H] 5.02#4 (neutral)
    19.7 s |       “Ba ngày sau, ngày hai mươi mốt, thẩm phán tuyên phạt: hai mức tù chung thân chạy song song cho hai tội giết ng”
@@ -33,3 +36,33 @@ Khong phai ban thanh pham cuoi cung (ban do dung 416 file, se doi sau khi do CER
   107.3 s |       “Suốt nhiều năm, thị trấn nhỏ Tweed của chúng tôi sống trong một nỗi bất an mơ hồ.”
   108.1 s | [N2] 2.04#1 (neutral)
   110.8 s |       “Kẻ bắt cóc không xuất hiện từ hư không.”
+
+======================================================================
+BANG THOI GIAN TUNG VAI (file rieng)
+======================================================================
+
+== H — người dẫn (nam, English_CaptivatingStoryteller)
+   file: DEMO_vai_H.mp3
+     0.0 s | 5.02#4 (neutral) | Ba ngày sau, ngày hai mươi mốt, thẩm phán tuyên phạt: hai mức tù chung thân chạy song song cho 
+    20.5 s | 2.04#1 (neutral) | Kẻ bắt cóc không xuất hiện từ hư không.
+    23.8 s | 1.03#1 (neutral) | Tháng bảy năm hai nghìn không trăm lẻ chín.
+
+== D — điều tra viên (nam 50+ khàn, M_HIGH)
+   file: DEMO_vai_D.mp3
+     0.0 s | 1.17#1 (neutral) | Tuyết mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù: một vệt gai lốp x
+    11.0 s | 3.05#1 (neutral) | Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn
+
+== C — chuyên gia tâm lý (nữ 50, C.wav)
+   file: DEMO_vai_C.mp3
+     0.0 s | 5.02#4 (neutral) | Ba ngày sau, ngày hai mươi mốt, thẩm phán tuyên phạt: hai mức tù chung thân chạy song song cho 
+    18.5 s | 3.05#1 (neutral) | Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn
+
+== N1 — nhân vật nữ phụ (nữ, W6_LOW)
+   file: DEMO_vai_N1.mp3
+     0.0 s | 5.02#4 (neutral) | Ba ngày sau, ngày hai mươi mốt, thẩm phán tuyên phạt: hai mức tù chung thân chạy song song cho 
+    18.4 s | 3.05#1 (neutral) | Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn
+
+== N2 — nhân vật nữ phụ (nữ cao, W5_HIGH)
+   file: DEMO_vai_N2.mp3
+     0.0 s | 4.06#1 (surprised) | Suốt nhiều năm, thị trấn nhỏ Tweed của chúng tôi sống trong một nỗi bất an mơ hồ.
+     6.5 s | 2.04#1 (neutral) | Kẻ bắt cóc không xuất hiện từ hư không.

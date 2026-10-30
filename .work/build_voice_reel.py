@@ -49,6 +49,25 @@ def load_wav(p):
     return np.frombuffer(r.stdout, np.float32).copy()
 
 
+def loudnorm_mp3(src_wav, dst_mp3):
+    r = subprocess.run([str(FF), "-hide_banner", "-i", str(src_wav), "-af",
+                        "loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"],
+                       capture_output=True, text=True, encoding="utf-8", errors="replace")
+    js = r.stderr[r.stderr.rfind("{"): r.stderr.rfind("}") + 1]
+    m = json.loads(js)
+    af = (f"loudnorm=I=-16:TP=-1.5:LRA=11:linear=true:measured_I={m['input_i']}:"
+          f"measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:"
+          f"offset={m['target_offset']},aresample=48000")
+    subprocess.run([str(FF), "-y", "-v", "error", "-i", str(src_wav), "-af", af, "-ac", "2",
+                    "-c:a", "libmp3lame", "-b:a", "192k", str(dst_mp3)], check=True)
+
+
+def write_wav(x, p):
+    pcm = (np.clip(x, -1, 1) * 32767).astype(np.int16)
+    subprocess.run([str(FF), "-y", "-v", "error", "-f", "s16le", "-ar", str(SR), "-ac", "1",
+                    "-i", "pipe:0", str(p)], input=pcm.tobytes(), check=True)
+
+
 def main():
     payload = json.loads(PAYLOAD_P.read_text(encoding="utf-8-sig"))
     items = payload["items"]
@@ -68,8 +87,10 @@ def main():
 
     chunks, tmap = [], []
     t = 0.0
+    per_role = {}                      # role -> (list audio, list (src, emo, text, dur), label)
     for g, (role, label, files) in enumerate(GROUPS):
         tmap.append((t, "== %s" % label))
+        rc, rl = [], []
         for j, fn in enumerate(files):
             p = V6 / fn
             if not p.exists():
@@ -83,9 +104,12 @@ def main():
             tmap.append((t, "[%s] %s %s" % (role, src, ("(" + emo + ")") if emo else "")))
             t += len(x) / SR
             tmap.append((t, "      “%s”" % ((it.get("text_plain", "") if it else "")[:110])))
+            rc.append(x)
+            rl.append((src, emo, it.get("text_plain", "") if it else "", len(x) / SR))
             if j < len(files) - 1:
                 chunks.append(np.zeros(int(GAP * SR), np.float32))
                 t += GAP
+        per_role[role] = (rc, rl, label)
         if g < len(GROUPS) - 1:
             chunks.append(np.zeros(int(GROUP_GAP * SR), np.float32))
             t += GROUP_GAP
@@ -95,22 +119,35 @@ def main():
     wav = HERE / "demo_voice_reel.wav"
     x = audio
     x = x / max(1e-9, np.abs(x).max()) * 0.89
-    pcm = (x * 32767).astype(np.int16)
-    subprocess.run([str(FF), "-y", "-v", "error", "-f", "s16le", "-ar", str(SR), "-ac", "1",
-                    "-i", "pipe:0", str(wav)], input=pcm.tobytes(), check=True)
+    write_wav(x, wav)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     mp3 = OUT_DIR / "DEMO_giong_Higgs.mp3"
-    r = subprocess.run([str(FF), "-hide_banner", "-i", str(wav), "-af",
-                        "loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"],
-                       capture_output=True, text=True, encoding="utf-8", errors="replace")
-    js = r.stderr[r.stderr.rfind("{"): r.stderr.rfind("}") + 1]
-    m = json.loads(js)
-    af = (f"loudnorm=I=-16:TP=-1.5:LRA=11:linear=true:measured_I={m['input_i']}:"
-          f"measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:"
-          f"offset={m['target_offset']},aresample=48000")
-    subprocess.run([str(FF), "-y", "-v", "error", "-i", str(wav), "-af", af, "-ac", "2",
-                    "-c:a", "libmp3lame", "-b:a", "192k", str(mp3)], check=True)
+    loudnorm_mp3(wav, mp3)
+
+    # ---- 5 file riêng: 1 file cho moi vai (nghe tung vai -> khong nham) ----
+    per_lines = []
+    for role, (rc, rl, label) in per_role.items():
+        if not rc:
+            continue
+        seg = []
+        for j, c in enumerate(rc):
+            seg.append(c)
+            if j < len(rc) - 1:
+                seg.append(np.zeros(int(GAP * SR), np.float32))
+        w = HERE / f"demo_vai_{role}.wav"
+        write_wav(np.concatenate(seg), w)
+        p = OUT_DIR / f"DEMO_vai_{role}.mp3"
+        loudnorm_mp3(w, p)
+        per_lines.append("== %s" % label)
+        per_lines.append("   file: DEMO_vai_%s.mp3" % role)
+        tt = 0.0
+        for k, (src, emo, txt, dur) in enumerate(rl):
+            per_lines.append("   %5.1f s | %s %s | %s" % (
+                tt, src, ("(" + emo + ")") if emo else "", txt[:95]))
+            tt += dur + (GAP if k < len(rl) - 1 else 0)
+        per_lines.append("")
+        print("vai %-3s -> %s (%.2f MB)" % (role, p.name, p.stat().st_size / 1e6))
 
     lines = ["REEL NGHE THU GIONG HIGGS — TAP 02 (Higgs Audio v3, 24 kHz)",
              "Nguon: pilot v6, DUNG 5 mapping san xuat cuoi cung",
@@ -119,9 +156,13 @@ def main():
              "",
              "Dung de danh gia: chat luong doc, phan biet giong nam H vs D, cam xuc.",
              "Khong phai ban thanh pham cuoi cung (ban do dung 416 file, se doi sau khi do CER).",
+             "",
+             "LUU Y: co 5 file RIENG (DEMO_vai_H.mp3 ... DEMO_vai_N2.mp3) — nghe tung vai de khong nham.",
+             "Bang thoi gian cua reel tong:",
              ""]
     for tt, s in tmap:
         lines.append("%7.1f s | %s" % (tt, s))
+    lines += ["", "=" * 70, "BANG THOI GIAN TUNG VAI (file rieng)", "=" * 70, ""] + per_lines
     (OUT_DIR / "DEMO_giong_Higgs.txt").write_text("\n".join(lines), encoding="utf-8")
 
     print("reel: %d cau | %.1f s" % (sum(len(g[2]) for g in GROUPS), t))

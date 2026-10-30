@@ -1068,6 +1068,59 @@ Phân tích cặp ký kết (12 phương án hợp lệ × 4 cặp cùng giới)
 > Ba cặp nữ `C↔N1`, `C↔N2`, `N1↔N2` **không bao giờ liền kề** (§8.11) — người nghe không bao giờ phải
 > phân biệt chúng trong tập này.
 
+### 8.13 ⚠️ Tai nghe người dùng phát hiện lỗi mà **G9 không bắt được**: `D↔C` chỉ **1,77 nc**
+
+**Ngày 30/10/2026, sau khi gửi reel nghe thử.** Người dùng nghe reel và báo:
+
+> *19,7–28,8 s (H) → "Đây là giọng Nam và khác không phải giọng của H, nghe giống giọng của D"*
+> *28,8–48,6 s (D) → "Biến thành giọng nữ, giọng của C"*
+
+**Đo lại F0 từ chính file mp3 đã gửi** (`.work/check_reel_f0.py`, `.work/check_per_vai_f0.py`):
+
+| Đoạn reel | F0 (AC) | Giọng đúng theo nhãn | Cảm nhận của người dùng |
+|---|---:|---|---|
+| 0,0–19,7 s · H (`5.02#4`) | 138,0 Hz | ✅ H | — |
+| 19,7–28,8 s · H (`2.04#1`+`1.03#1`) | 125,3 Hz | ✅ H | "khác H, giống D" |
+| **28,8–48,6 s · D (`M_HIGH`)** | **197,1 Hz** | ✅ D (nam) | **"biến thành giọng nữ, giống C"** |
+| 48,6–75,1 s · C (`C.wav`) | 218,5 Hz | ✅ C (nữ) | — |
+| 75,1–101,6 s · N1 (`W6_LOW`) | 181,2 Hz | ✅ N1 | — |
+| 101,6–110,8 s · N2 (`W5_HIGH`) | 309,8 Hz | ✅ N2 | — |
+
+⇒ **File KHÔNG bị lấn nhãn.** Mọi đoạn đều đúng giọng. Nhưng đoạn D (197 Hz) và đoạn C (218 Hz) chỉ
+cách nhau **1,77 nửa cung** → **người nghe nhầm là hoàn toàn có lý**. Đây là lỗi thật.
+
+**Vì sao G9 không bắt:** G9 quy định *"hai giọng **cùng giới** phải cách nhau ≥ 4 nửa cung"*.
+`D` (nam) và `C` (nữ) là cặp **khác giới** ⇒ G9 không xét ⇒ lọt lưới.
+
+**Vì sao lỗi này mới sinh:** để tách `H↔D` (cùng giới nam) ta đẩy D lên `M_HIGH` = 197 Hz.
+Nhưng C đã ở 214 Hz ⇒ D bị đẩy **vào ngay cạnh C**.
+
+| Bản | H | D | C | `D↔C` | `H↔D` |
+|---|---:|---:|---:|---:|---:|
+| **MiniMax** (bản cũ, đã đăng) | 101,9 | 140,4 | 207,8 | **6,73 nc ✅** | 5,56 nc ✅ |
+| Higgs hiện tại (`D←M_HIGH`) | 125,3 | 197,2 | 218,4 | **1,77 nc ❌** | 7,85 nc ✅ |
+
+⇒ **Hồi quy so với bản MiniMax.** Bản cũ có D ở 140 Hz — nằm giữa H và C, tách cả hai.
+
+**Cặp `C↔D` liền kề ở đâu trong Tập 02** (tự tính từ `script_tap02.json`, 22 cặp khác giới liền kề):
+
+| # | Cảnh | Câu | Vai |
+|---|---|---|---|
+| 1 | 4.10 → 4.11 | `4.10#9` → `4.11#1` | D → C |
+| 2 | 5.07 → 5.08 | `5.07#6` → `5.08#1` | C → D |
+
+**Lựa chọn sửa (chờ người dùng chốt — L4):**
+
+| # | H | D | `H↔D` | `D↔C` | Nhận xét |
+|---|---|---|---:|---:|---|
+| **1** | `H.wav` 130,4 | **`M_LOW` 97,8** | 4,98 ✅ | **13,58 ✅** | **Tốt nhất trong clip sẵn có.** Mọi cặp liền kề ≥ 4,96 nc. Nhược: giọng D thành *nam trầm mềm* thay vì *nam 50+ khàn*; biên `H↔D` mỏng hơn (4,98 so với 7,85) |
+| 2 | `H.wav` 130,4 | **clip mới ~167 Hz** | ≈ 4,0 ✅ | ≈ 4,3 ✅ | Giữ đúng chất *khàn 50+*. Nhưng biên mỏng **cả hai** và Mac mini từng trượt mục tiêu (nhắm 168–182 → ra 192) |
+| 3 | `H.wav` 130,4 | `M_HIGH` 197,2 (giữ) | 7,85 ✅ | **1,77 ❌** | Chấp nhận lẫn ở 2 chỗ; chỉ chấp nhận được nếu video có nhãn vai |
+
+**Khe hợp lệ duy nhất cho clip D mới** (tính từ ràng buộc đồng thời `H↔D ≥ 4` và `C↔D ≥ 4`):
+`D ≤ 103,5 Hz` **hoặc** `164,3 ≤ D ≤ 170,1 Hz` ⇒ **`M_LOW` (95,6 Hz) là clip sẵn có duy nhất nằm trong khe.**
+
+
 **[5] CER pilot v6 — chỉ 5 clip sạch được dùng**
 
 | Vai → clip | CER (2 vế) | CER bỏ danh từ riêng | > 2% | G12 (< 2%) |
