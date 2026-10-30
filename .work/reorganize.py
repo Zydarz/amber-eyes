@@ -85,7 +85,7 @@ def main():
     (A / "hoan_tac.py").write_text(
         "# Hoàn tác việc sắp xếp ngày 22/10/2026: chuyển mọi file về chỗ cũ.\n"
         "import json, shutil\nfrom pathlib import Path\n"
-        "R = Path(r'D:\\TEST\\Gax\\Audi')\n"
+        "R = Path(__file__).resolve().parent.parent\n"
         "for m in reversed(json.loads((R / '90_LUU_TRU/_nhat_ky_di_chuyen.json').read_text(encoding='utf-8'))):\n"
         "    s, d = R / m['den'], R / m['tu']\n"
         "    if s.exists() and not d.exists():\n"

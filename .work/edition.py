@@ -13,7 +13,7 @@ file carries a _t02 suffix, so no edition or episode overwrites another.
 import os
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parent.parent   # gốc dự án = thư mục cha của .work (tự dòng, không cứng đường dẫn)
 WORK = ROOT / ".work"
 LANG = os.environ.get("AE_LANG", "vi").strip().lower()
 EN = LANG == "en"

@@ -1,8 +1,9 @@
 import json
 import sys
+from pathlib import Path
 
 sys.stdout.reconfigure(encoding='utf-8')
-data = json.load(open('D:/TEST/Gax/Audi/.work/script_tap05.json', encoding='utf-8'))
+data = json.load(open(Path(__file__).resolve().parent / 'script_tap05.json', encoding='utf-8'))
 lois = [x for x in data if x.get('kind') == 'LOI']
 print(f"Total LOI blocks: {len(lois)}")
 for x in lois:
