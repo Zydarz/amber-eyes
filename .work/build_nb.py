@@ -200,7 +200,9 @@ for sid in SPEC["items"]:
     role = it["role"]
     ref = it["ref_wav"]
     temp = float(TEMP_BY_ROLE[role])
-    for vi in VARIANTS:
+    # so ban rieng theo cau (§7): cau trich/he lo -> 3 ban, con lai 2 ban
+    vs = SPEC.get("variants_by_item", {}).get(sid, VARIANTS)
+    for vi in vs:
         key = f"{sid}__{role}__{ref.replace('.wav','')}__{temp:.1f}__s{vi}"
         TASKS.append({"idx": len(TASKS), "key": key, "id": sid, "role": role,
                       "ref_wav": ref, "temp": temp, "variant": vi,

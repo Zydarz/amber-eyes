@@ -155,6 +155,37 @@ print("\npilot: %d item x %d ban = %d file" % (
 print("  theo clip:", dict(Counter(it["ref_wav"] for it in pilot_items)))
 
 # ================================================================== SAN XUAT
+# §7: moi cau 2 ban; cau TRICH (co dau trich dan) sinh 3 ban.
+# Danh sach "cau he lo" phai do nguoi dung bo sung — xay dung o file rieng.
+EXTRA_P = HERE / "higgs_extra_variants.json"
+extra = {}
+if EXTRA_P.exists():
+    extra = json.loads(EXTRA_P.read_text(encoding="utf-8-sig"))
+extra = {k: v for k, v in extra.items() if not k.startswith("_")}
+
+
+def find_quoted():
+    """Cau co dau trich dan trong script_tap02.json -> can 3 ban theo §7."""
+    sp = HERE / "script_tap02.json"
+    if not sp.exists():
+        return []
+    sc = json.loads(sp.read_text(encoding="utf-8-sig"))
+    out = []
+    for e in sc:
+        if e.get("kind") != "LOI":
+            continue
+        for s in e["sentences"]:
+            if any(c in s["text"] for c in ["\u201c", "\u201d", '"']):
+                out.append(s["id"])
+    return out
+
+
+quoted = find_quoted()
+variants_by_item = {sid: [0, 1, 2] for sid in quoted}
+variants_by_item.update(extra)
+print("cau trich (3 ban):", len(quoted))
+print("cau them do nguoi dung chi dinh:", len(extra), extra)
+
 prod_items = []
 for it in ITEMS_SRC:
     role = it["role"]
@@ -166,11 +197,14 @@ for it in ITEMS_SRC:
     p["ref_txt"] = ref.replace(".wav", ".txt")
     prod_items.append(p)
 
+n_files = sum(len(variants_by_item.get(it["id"], [0, 1])) for it in prod_items)
+
 prod_spec = {
     "episode": "02",
     "mode": "prod",
     "gen_params": GEN_PARAMS,
     "variants": [0, 1],
+    "variants_by_item": variants_by_item,
     "items": [it["id"] for it in prod_items],
 }
 prod_payload = {
@@ -188,9 +222,8 @@ prod_payload = {
 (DS / "higgs_payload_t02.json").write_text(
     json.dumps(prod_payload, ensure_ascii=False, indent=1), encoding="utf-8")
 
-print("\nsan xuat: %d cau x %d ban = %d file" % (
-    len(prod_items), len(prod_spec["variants"]),
-    len(prod_items) * len(prod_spec["variants"])))
+print("\nsan xuat: %d cau | %d file (2 ban/cau; cau trich 3 ban)" % (
+    len(prod_items), n_files))
 print("  theo vai:", dict(Counter(it["role"] for it in prod_items)))
 print("  theo clip:", dict(Counter(it["ref_wav"] for it in prod_items)))
 print("  co the emotion:", sum(1 for it in prod_items if it.get("emotion_tag")))
