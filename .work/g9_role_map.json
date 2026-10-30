@@ -1,0 +1,20 @@
+{
+  "_comment": "Phep gan vai -> clip tham chieu cho Tap 02 (Higgs Audio v3). Sửa file này rồi chạy lại .work/build_spec.py. Pilot v6 sẽ chốt số; giá trị dưới đây là PHƯƠNG ÁN TẠM.",
+  "_status": "PROVISIONAL — chua chot sau pilot v6",
+  "H": "M_LOW.wav",
+  "D": "M_HIGH.wav",
+  "C": "C.wav",
+  "N1": "W6_LOW_S35.wav",
+  "N2": "W5_HIGH.wav",
+  "_alternatives": {
+    "H": ["M_LOW.wav", "H.wav"],
+    "D": ["M_HIGH.wav", "D.wav"],
+    "N1": ["W6_LOW_S35.wav", "W6_LOW_S40.wav", "W6_LOW_S30.wav", "W6_LOW.wav"],
+    "N2": ["W5_HIGH.wav", "W2.wav"]
+  },
+  "_g9_target": {
+    "_note": "N1 clone <= 162.8 Hz (AC tho) va <= 154.7 Hz (pp2) de cach >= 4 nc ca C (205.1/194.9) lan N2 (275.9/258.3)",
+    "n1_clone_ac_max": 162.8,
+    "n1_clone_pp2_max": 154.7
+  }
+}

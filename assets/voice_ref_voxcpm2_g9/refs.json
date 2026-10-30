@@ -5,7 +5,7 @@
   "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự.",
   "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/M_HIGH/M_HIGH_higher_take01.wav",
   "seconds": 16.9,
-  "f0_median_hz": 192.8,
+  "f0_median_hz": 192.0,
   "f0_target_hz": [
    168,
    182
@@ -16,11 +16,16 @@
   "model": "openbmb/VoxCPM2",
   "license": "Apache-2.0",
   "attribution_required": false,
-  "notes": [],
+  "notes": [
+   "F0 do 192.0 Hz (AC tho) ngoai dai muc tieu 168-182 Hz"
+  ],
   "role": "M_HIGH",
   "variant": "higher",
   "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_g9/M_HIGH.wav",
-  "why": "Dự phòng cho vai D (thám tử nam 50+ khàn). Mục tiêu: F0 audio clone >= 164 Hz để cách vai H (130 Hz) >= 4 nửa cung."
+  "why": "Dự phòng cho vai D (thám tử nam 50+ khàn). Mục tiêu: F0 audio clone >= 164 Hz để cách vai H (130 Hz) >= 4 nửa cung.",
+  "f0_ac_hz": 192.0,
+  "f0_pp2_hz": 185.7,
+  "peak_dbfs": -1.98
  },
  "M_LOW": {
   "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
@@ -28,7 +33,7 @@
   "target_text": "Chào mừng bạn đến với chuyên mục giải mã tâm lý tội phạm. Mỗi hồ sơ đều bắt đầu bằng câu hỏi nặng trĩu, mà không ai trả lời nổi, dù sự thật vẫn luôn nằm ở đó. Khi lần theo từng trang tài liệu, chúng ta không tìm kiếm sự phán xét vội vàng, mà cùng nhìn nhận những chuyển biến thầm lặng bên trong một con người.",
   "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/M_LOW/M_LOW_very-low_take01.wav",
   "seconds": 19.26,
-  "f0_median_hz": 95.2,
+  "f0_median_hz": 95.6,
   "f0_target_hz": [
    70,
    86
@@ -40,12 +45,15 @@
   "license": "Apache-2.0",
   "attribution_required": false,
   "notes": [
-   "F0 95Hz ngoai dai muc tieu 70-86Hz"
+   "F0 do 95.6 Hz (AC tho) ngoai dai muc tieu 70-86 Hz"
   ],
   "role": "M_LOW",
   "variant": "very-low",
   "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_g9/M_LOW.wav",
-  "why": "Dự phòng cho vai H (người dẫn chuyện nam trầm ấm). Mục tiêu: F0 audio clone <= 97 Hz để cách vai D (123 Hz) >= 4 nửa cung. Hạ dải xuống 70-86 Hz (thay vì 80-92) sau pilot v5: Higgs co the keo CAO o ref thap (H.wav 107 Hz -> clone 131 Hz, +22%) nen can clip tham chieu thap hon de clone ra <= 97 Hz."
+  "why": "Dự phòng cho vai H (người dẫn chuyện nam trầm ấm). Mục tiêu: F0 audio clone <= 97 Hz để cách vai D (123 Hz) >= 4 nửa cung. Hạ dải xuống 70-86 Hz (thay vì 80-92) sau pilot v5: Higgs co the keo CAO o ref thap (H.wav 107 Hz -> clone 131 Hz, +22%) nen can clip tham chieu thap hon de clone ra <= 97 Hz.",
+  "f0_ac_hz": 95.6,
+  "f0_pp2_hz": 95.5,
+  "peak_dbfs": -1.99
  },
  "W5_HIGH": {
   "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
@@ -53,7 +61,7 @@
   "target_text": "Những năm tháng ở căn cứ Trenton, chúng tôi quen với những con đường ngay ngắn và những hành lang lặng lẽ. Mỗi sáng, mọi người đều dừng lại trước tấm biển đồng trên cổng chính, và chẳng ai nhắc đến những gì đã xảy ra sau đó. Tôi vẫn nhớ rõ vẻ mặt của người lính trực đêm đêm cuối cùng.",
   "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/W5_HIGH/W5_HIGH_soprano_take01.wav",
   "seconds": 19.07,
-  "f0_median_hz": 290.9,
+  "f0_median_hz": 289.2,
   "f0_target_hz": [
    258,
    276
@@ -64,11 +72,16 @@
   "model": "openbmb/VoxCPM2",
   "license": "Apache-2.0",
   "attribution_required": false,
-  "notes": [],
+  "notes": [
+   "F0 do 289.2 Hz (AC tho) ngoai dai muc tieu 258-276 Hz"
+  ],
   "role": "W5_HIGH",
   "variant": "soprano",
   "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_g9/W5_HIGH.wav",
-  "why": "Phuong an A cho vai N1 (nữ ~cao). GIU LAI de doi phuong an neu user chon kieu 'N1 cao, N2 thap'. CANH BAO: neu dung W5_HIGH cho N1 thi N2 phai lay W6_LOW moi duoc G9 (xem W6_LOW)."
+  "why": "Phuong an A cho vai N1 (nữ ~cao). GIU LAI de doi phuong an neu user chon kieu 'N1 cao, N2 thap'. CANH BAO: neu dung W5_HIGH cho N1 thi N2 phai lay W6_LOW moi duoc G9 (xem W6_LOW).",
+  "f0_ac_hz": 289.2,
+  "f0_pp2_hz": 275.4,
+  "peak_dbfs": -2.0
  },
  "W6_LOW": {
   "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
@@ -76,7 +89,7 @@
   "target_text": "Trong mắt tất cả chúng tôi ở căn cứ Trenton, Đại tá Williams từng là hiện thân của sự hoàn hảo. Ông ấy điềm tĩnh, chuẩn mực đến từng nếp gấp quân phục, làm việc không biết mệt và chưa từng to tiếng với cấp dưới một lần nào. Nhưng sau khi mọi chuyện vỡ lở mỗi lần nhớ lại ánh mắt bình thản của ông ấy trong các buổi duyệt binh, chúng tôi đều thấy rợn người. Chúng tôi đã từng đứng cạnh một kẻ săn mồi nguy hiểm nhất, mà vẫn một lòng cúi đầu kính phục.",
   "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/W6_LOW/W6_LOW_low_take05.wav",
   "seconds": 28.13,
-  "f0_median_hz": 179.8,
+  "f0_median_hz": 179.1,
   "f0_target_hz": [
    148,
    162
@@ -88,12 +101,180 @@
   "license": "Apache-2.0",
   "attribution_required": false,
   "notes": [
-   "THOI LUONG 28.1s ngoai [16.0-28.0]s",
-   "F0 180Hz ngoai dai muc tieu 148-162Hz"
+   "F0 do 179.1 Hz (AC tho) ngoai dai muc tieu 148-162 Hz",
+   "THOI_LUONG 28.13s ngoai [16,28]s"
   ],
   "role": "W6_LOW",
   "variant": "low",
   "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_g9/W6_LOW.wav",
-  "why": "Phuong dan CHINH cho vai N1 (nữ THAP). Do lai F0 clone thuc te cua ca pilot v3 + pilot v4 (n=16/o o): N1 phai <= 162.8 Hz de cach >= 4 nua cung voi C (205 Hz) VA voi N2 (275.9 Hz). Clip 258-276 Hz se lam N1 sat N2 (chi cach ~1.7 nc). Mang 'lower mid-pitched' / 'low-pitched' de tao giong nu TRAM chung nhung van la n."
+  "why": "Phuong dan CHINH cho vai N1 (nữ THAP). Do lai F0 clone thuc te cua ca pilot v3 + pilot v4 (n=16/o o): N1 phai <= 162.8 Hz de cach >= 4 nua cung voi C (205 Hz) VA voi N2 (275.9 Hz). Clip 258-276 Hz se lam N1 sat N2 (chi cach ~1.7 nc). Mang 'lower mid-pitched' / 'low-pitched' de tao giong nu TRAM chung nhung van la n.",
+  "f0_ac_hz": 179.1,
+  "f0_pp2_hz": 169.0,
+  "peak_dbfs": -2.39
+ },
+ "W6_LOW_S20": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A woman in her late thirties, low-pitched and warm with a deep rounded resonance, calm and unhurried, intimate close-mic narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace",
+  "target_text": "Trong mắt tất cả chúng tôi ở căn cứ Trenton, Đại tá Williams từng là hiện thân của sự hoàn hảo. Ông ấy điềm tĩnh, chuẩn mực đến từng nếp gấp quân phục, làm việc không biết mệt và chưa từng to tiếng với cấp dưới một lần nào. Nhưng sau khi mọi chuyện vỡ lở mỗi lần nhớ lại ánh mắt bình thản của ông ấy trong các buổi duyệt binh, chúng tôi đều thấy rợn người. Chúng tôi đã từng đứng cạnh một kẻ săn mồi nguy hiểm nhất, mà vẫn một lòng cúi đầu kính phục.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/W6_LOW/W6_LOW_low_take05.wav",
+  "seconds": 27.33,
+  "f0_median_hz": 160.0,
+  "f0_target_hz": [
+   140,
+   165
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "Hao 2.0 nua cung so voi W6_LOW (x0.8909) bang phase vocoder",
+   "F0 do 160.0 Hz (AC tho) / 158.7 Hz (AC chuan hoa)",
+   "Clone du doan 151.6-175.5 Hz (AC tho) theo ti le drift 0.95-1.10",
+   "Da cat 0.80s doan im lang de thoi luong <= 28s (khong mat chu)"
+  ],
+  "role": "N1_CANDIDATE",
+  "variant": "shift--2.0_st",
+  "reference_file": "assets/voice_ref_voxcpm2_g9/W6_LOW_S20.wav",
+  "why": "Bien the hao cao do cua W6_LOW de vai N1 (nu) dat G9 >= 4 nua cung voi ca C (205.1 Hz) va N2 (275.9 Hz). Clone N1 phai <= 162.8 Hz (AC tho).",
+  "f0_ac_hz": 160.0,
+  "f0_pp2_hz": 158.7,
+  "peak_dbfs": -8.24,
+  "derived_from": "W6_LOW.wav",
+  "processing": "phase vocoder (time-stretch + resample), giu nguyen thoi luong"
+ },
+ "W6_LOW_S25": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A woman in her late thirties, low-pitched and warm with a deep rounded resonance, calm and unhurried, intimate close-mic narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace",
+  "target_text": "Trong mắt tất cả chúng tôi ở căn cứ Trenton, Đại tá Williams từng là hiện thân của sự hoàn hảo. Ông ấy điềm tĩnh, chuẩn mực đến từng nếp gấp quân phục, làm việc không biết mệt và chưa từng to tiếng với cấp dưới một lần nào. Nhưng sau khi mọi chuyện vỡ lở mỗi lần nhớ lại ánh mắt bình thản của ông ấy trong các buổi duyệt binh, chúng tôi đều thấy rợn người. Chúng tôi đã từng đứng cạnh một kẻ săn mồi nguy hiểm nhất, mà vẫn một lòng cúi đầu kính phục.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/W6_LOW/W6_LOW_low_take05.wav",
+  "seconds": 27.33,
+  "f0_median_hz": 157.9,
+  "f0_target_hz": [
+   140,
+   165
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "Hao 2.5 nua cung so voi W6_LOW (x0.8655) bang phase vocoder",
+   "F0 do 157.9 Hz (AC tho) / 154.8 Hz (AC chuan hoa)",
+   "Clone du doan 147.3-170.5 Hz (AC tho) theo ti le drift 0.95-1.10",
+   "Da cat 0.80s doan im lang de thoi luong <= 28s (khong mat chu)"
+  ],
+  "role": "N1_CANDIDATE",
+  "variant": "shift--2.5_st",
+  "reference_file": "assets/voice_ref_voxcpm2_g9/W6_LOW_S25.wav",
+  "why": "Bien the hao cao do cua W6_LOW de vai N1 (nu) dat G9 >= 4 nua cung voi ca C (205.1 Hz) va N2 (275.9 Hz). Clone N1 phai <= 162.8 Hz (AC tho).",
+  "f0_ac_hz": 157.9,
+  "f0_pp2_hz": 154.8,
+  "peak_dbfs": -7.78,
+  "derived_from": "W6_LOW.wav",
+  "processing": "phase vocoder (time-stretch + resample), giu nguyen thoi luong"
+ },
+ "W6_LOW_S30": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A woman in her late thirties, low-pitched and warm with a deep rounded resonance, calm and unhurried, intimate close-mic narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace",
+  "target_text": "Trong mắt tất cả chúng tôi ở căn cứ Trenton, Đại tá Williams từng là hiện thân của sự hoàn hảo. Ông ấy điềm tĩnh, chuẩn mực đến từng nếp gấp quân phục, làm việc không biết mệt và chưa từng to tiếng với cấp dưới một lần nào. Nhưng sau khi mọi chuyện vỡ lở mỗi lần nhớ lại ánh mắt bình thản của ông ấy trong các buổi duyệt binh, chúng tôi đều thấy rợn người. Chúng tôi đã từng đứng cạnh một kẻ săn mồi nguy hiểm nhất, mà vẫn một lòng cúi đầu kính phục.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/W6_LOW/W6_LOW_low_take05.wav",
+  "seconds": 27.33,
+  "f0_median_hz": 154.8,
+  "f0_target_hz": [
+   140,
+   165
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "Hao 3.0 nua cung so voi W6_LOW (x0.8409) bang phase vocoder",
+   "F0 do 154.8 Hz (AC tho) / 151.5 Hz (AC chuan hoa)",
+   "Clone du doan 143.1-165.7 Hz (AC tho) theo ti le drift 0.95-1.10",
+   "Da cat 0.80s doan im lang de thoi luong <= 28s (khong mat chu)"
+  ],
+  "role": "N1_CANDIDATE",
+  "variant": "shift--3.0_st",
+  "reference_file": "assets/voice_ref_voxcpm2_g9/W6_LOW_S30.wav",
+  "why": "Bien the hao cao do cua W6_LOW de vai N1 (nu) dat G9 >= 4 nua cung voi ca C (205.1 Hz) va N2 (275.9 Hz). Clone N1 phai <= 162.8 Hz (AC tho).",
+  "f0_ac_hz": 154.8,
+  "f0_pp2_hz": 151.5,
+  "peak_dbfs": -6.97,
+  "derived_from": "W6_LOW.wav",
+  "processing": "phase vocoder (time-stretch + resample), giu nguyen thoi luong"
+ },
+ "W6_LOW_S35": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A woman in her late thirties, low-pitched and warm with a deep rounded resonance, calm and unhurried, intimate close-mic narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace",
+  "target_text": "Trong mắt tất cả chúng tôi ở căn cứ Trenton, Đại tá Williams từng là hiện thân của sự hoàn hảo. Ông ấy điềm tĩnh, chuẩn mực đến từng nếp gấp quân phục, làm việc không biết mệt và chưa từng to tiếng với cấp dưới một lần nào. Nhưng sau khi mọi chuyện vỡ lở mỗi lần nhớ lại ánh mắt bình thản của ông ấy trong các buổi duyệt binh, chúng tôi đều thấy rợn người. Chúng tôi đã từng đứng cạnh một kẻ săn mồi nguy hiểm nhất, mà vẫn một lòng cúi đầu kính phục.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/W6_LOW/W6_LOW_low_take05.wav",
+  "seconds": 27.33,
+  "f0_median_hz": 150.0,
+  "f0_target_hz": [
+   140,
+   165
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "Hao 3.5 nua cung so voi W6_LOW (x0.8170) bang phase vocoder",
+   "F0 do 150.0 Hz (AC tho) / 147.2 Hz (AC chuan hoa)",
+   "Clone du doan 139.0-161.0 Hz (AC tho) theo ti le drift 0.95-1.10",
+   "Da cat 0.80s doan im lang de thoi luong <= 28s (khong mat chu)"
+  ],
+  "role": "N1_CANDIDATE",
+  "variant": "shift--3.5_st",
+  "reference_file": "assets/voice_ref_voxcpm2_g9/W6_LOW_S35.wav",
+  "why": "Bien the hao cao do cua W6_LOW de vai N1 (nu) dat G9 >= 4 nua cung voi ca C (205.1 Hz) va N2 (275.9 Hz). Clone N1 phai <= 162.8 Hz (AC tho).",
+  "f0_ac_hz": 150.0,
+  "f0_pp2_hz": 147.2,
+  "peak_dbfs": -5.49,
+  "derived_from": "W6_LOW.wav",
+  "processing": "phase vocoder (time-stretch + resample), giu nguyen thoi luong"
+ },
+ "W6_LOW_S40": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A woman in her late thirties, low-pitched and warm with a deep rounded resonance, calm and unhurried, intimate close-mic narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace",
+  "target_text": "Trong mắt tất cả chúng tôi ở căn cứ Trenton, Đại tá Williams từng là hiện thân của sự hoàn hảo. Ông ấy điềm tĩnh, chuẩn mực đến từng nếp gấp quân phục, làm việc không biết mệt và chưa từng to tiếng với cấp dưới một lần nào. Nhưng sau khi mọi chuyện vỡ lở mỗi lần nhớ lại ánh mắt bình thản của ông ấy trong các buổi duyệt binh, chúng tôi đều thấy rợn người. Chúng tôi đã từng đứng cạnh một kẻ săn mồi nguy hiểm nhất, mà vẫn một lòng cúi đầu kính phục.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/W6_LOW/W6_LOW_low_take05.wav",
+  "seconds": 27.33,
+  "f0_median_hz": 144.6,
+  "f0_target_hz": [
+   140,
+   165
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "Hao 4.0 nua cung so voi W6_LOW (x0.7937) bang phase vocoder",
+   "F0 do 144.6 Hz (AC tho) / 143.1 Hz (AC chuan hoa)",
+   "Clone du doan 135.0-156.4 Hz (AC tho) theo ti le drift 0.95-1.10",
+   "Da cat 0.80s doan im lang de thoi luong <= 28s (khong mat chu)"
+  ],
+  "role": "N1_CANDIDATE",
+  "variant": "shift--4.0_st",
+  "reference_file": "assets/voice_ref_voxcpm2_g9/W6_LOW_S40.wav",
+  "why": "Bien the hao cao do cua W6_LOW de vai N1 (nu) dat G9 >= 4 nua cung voi ca C (205.1 Hz) va N2 (275.9 Hz). Clone N1 phai <= 162.8 Hz (AC tho).",
+  "f0_ac_hz": 144.6,
+  "f0_pp2_hz": 143.1,
+  "peak_dbfs": -5.46,
+  "derived_from": "W6_LOW.wav",
+  "processing": "phase vocoder (time-stretch + resample), giu nguyen thoi luong"
  }
 }

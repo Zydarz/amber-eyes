@@ -1,0 +1,117 @@
+{
+ "source": "assets/voice_ref_voxcpm2_g9/W6_LOW.wav",
+ "source_f0_ac": 179.1,
+ "source_f0_pp2": 169.0,
+ "trimmed_dur": 27.33,
+ "trim_how": "silence",
+ "trim_seconds": 0.8,
+ "target_clone_ac_max": 162.8,
+ "target_clone_pp2_max": 154.7,
+ "variants": [
+  {
+   "name": "W6_LOW_S20",
+   "semitones": -2.0,
+   "factor": 0.8909,
+   "dur": 27.33,
+   "f0_ac": 160.0,
+   "f0_pp2": 158.7,
+   "peak": 0.3873,
+   "pred_clone_ac": [
+    151.6,
+    175.5
+   ],
+   "pred_clone_pp2": [
+    143.0,
+    165.5
+   ],
+   "ok_ac": false,
+   "ok_pp2": false,
+   "ok_dur": true,
+   "wav": "assets/voice_ref_voxcpm2_g9/W6_LOW_S20.wav"
+  },
+  {
+   "name": "W6_LOW_S25",
+   "semitones": -2.5,
+   "factor": 0.8655,
+   "dur": 27.33,
+   "f0_ac": 157.9,
+   "f0_pp2": 154.8,
+   "peak": 0.4084,
+   "pred_clone_ac": [
+    147.3,
+    170.5
+   ],
+   "pred_clone_pp2": [
+    138.9,
+    160.8
+   ],
+   "ok_ac": false,
+   "ok_pp2": false,
+   "ok_dur": true,
+   "wav": "assets/voice_ref_voxcpm2_g9/W6_LOW_S25.wav"
+  },
+  {
+   "name": "W6_LOW_S30",
+   "semitones": -3.0,
+   "factor": 0.8409,
+   "dur": 27.33,
+   "f0_ac": 154.8,
+   "f0_pp2": 151.5,
+   "peak": 0.4481,
+   "pred_clone_ac": [
+    143.1,
+    165.7
+   ],
+   "pred_clone_pp2": [
+    134.9,
+    156.2
+   ],
+   "ok_ac": false,
+   "ok_pp2": false,
+   "ok_dur": true,
+   "wav": "assets/voice_ref_voxcpm2_g9/W6_LOW_S30.wav"
+  },
+  {
+   "name": "W6_LOW_S35",
+   "semitones": -3.5,
+   "factor": 0.817,
+   "dur": 27.33,
+   "f0_ac": 150.0,
+   "f0_pp2": 147.2,
+   "peak": 0.5314,
+   "pred_clone_ac": [
+    139.0,
+    161.0
+   ],
+   "pred_clone_pp2": [
+    131.1,
+    151.8
+   ],
+   "ok_ac": true,
+   "ok_pp2": true,
+   "ok_dur": true,
+   "wav": "assets/voice_ref_voxcpm2_g9/W6_LOW_S35.wav"
+  },
+  {
+   "name": "W6_LOW_S40",
+   "semitones": -4.0,
+   "factor": 0.7937,
+   "dur": 27.33,
+   "f0_ac": 144.6,
+   "f0_pp2": 143.1,
+   "peak": 0.5332,
+   "pred_clone_ac": [
+    135.0,
+    156.4
+   ],
+   "pred_clone_pp2": [
+    127.4,
+    147.5
+   ],
+   "ok_ac": true,
+   "ok_pp2": true,
+   "ok_dur": true,
+   "wav": "assets/voice_ref_voxcpm2_g9/W6_LOW_S40.wav"
+  }
+ ]
+}
