@@ -7,7 +7,7 @@ from pathlib import Path
 
 import numpy as np
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 SFX = ROOT / "assets" / "sfx"
 OUT = ROOT / ".work" / "sfx_contact.wav"
 SR = 44100

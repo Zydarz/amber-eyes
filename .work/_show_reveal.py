@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-W = Path(r"D:\TEST\Gax\Audi\.work")
+W = Path(__file__).resolve().parents[1] / ".work"
 sh = json.loads((W / "shots_t02.json").read_text(encoding="utf-8"))
 tl = json.loads((W / "timeline_s_t02.json").read_text(encoding="utf-8"))
 SENT = {it["id"]: it for it in tl["items"]}

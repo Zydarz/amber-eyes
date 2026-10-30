@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 prov_p = ROOT / "provenance.json"
 
 with open(prov_p, "r", encoding="utf-8") as f:

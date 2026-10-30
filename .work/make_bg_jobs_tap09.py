@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 
 jobs = [

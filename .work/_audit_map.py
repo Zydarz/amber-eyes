@@ -19,7 +19,7 @@ from pathlib import Path
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 INBOX = ROOT / "02_SAN_XUAT" / "sfx_youtube"
 MAP = ROOT / ".work" / "yt_map.tsv"
 FFP = ROOT / ".work" / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffprobe.exe"

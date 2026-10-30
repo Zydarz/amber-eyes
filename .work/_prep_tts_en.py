@@ -2,7 +2,7 @@ import json
 import shutil
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 AUDIO_DIR = WORK / "audio_s_EN_t02"
 BACKUP_DIR = WORK / "_cu" / "audio_s_EN_t02_pre_directors_cut"

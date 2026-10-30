@@ -8,7 +8,7 @@ try:
 except Exception:
     pass
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 shots = json.loads((ROOT / ".work" / "shots_t04.json").read_text(encoding="utf-8"))["shots"]
 script = json.loads((ROOT / ".work" / "script_tap04.json").read_text(encoding="utf-8"))
 

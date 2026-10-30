@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-W = Path(r"D:\TEST\Gax\Audi\.work")
+W = Path(__file__).resolve().parents[1] / ".work"
 sh = json.loads((W / "shots_t02.json").read_text(encoding="utf-8"))
 shots = sh["shots"]
 stills = sorted((float(p.stem[1:]), p.name) for p in (W / "video3_t02" / "stills").glob("*.png"))

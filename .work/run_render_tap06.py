@@ -9,7 +9,7 @@ from pathlib import Path
 os.environ["PYTHONIOENCODING"] = "utf-8"
 os.environ["AE_EP"] = "06"
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 LOG_FILE = WORK / "render_tap06.log"
 

@@ -5,7 +5,7 @@ from PIL import Image
 import numpy as np
 
 sys.stdout.reconfigure(encoding="utf-8")
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 BG = ROOT / "assets" / "bg"
 PROV = ROOT / "provenance.json"
 WORK = ROOT / ".work"

@@ -23,7 +23,7 @@ import numpy as np
 from scipy.signal import butter, fftconvolve, sosfilt
 
 SR = 44100
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets" / "sfx" / "t2"
 RNG = np.random.default_rng
 

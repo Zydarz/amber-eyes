@@ -4,7 +4,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap12"
 OUT_DIR.mkdir(parents=True, exist_ok=True)

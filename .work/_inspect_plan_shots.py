@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 W = ROOT / ".work"
 
 script_ja = json.loads((W / "script_tap02_JA.json").read_text(encoding="utf-8"))

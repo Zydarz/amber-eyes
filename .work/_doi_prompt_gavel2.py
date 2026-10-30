@@ -5,7 +5,7 @@ chi giu hinh dang bang go: cay roi go nho + doi thu cham doi."""
 import json
 from pathlib import Path
 
-p = Path(r"D:\TEST\Gax\Audi\.work\bg_jobs_tap03.json")
+p = Path(__file__).resolve().parents[1] / ".work" / "bg_jobs_tap03.json"
 jobs = json.loads(p.read_text(encoding="utf-8"))
 
 NEW = ("A small smooth wooden mallet with a round handle lying on a dark polished wooden surface "

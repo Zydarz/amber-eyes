@@ -15,7 +15,7 @@ import time
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-WORK = pathlib.Path(r"D:\TEST\Gax\Audi\.work")
+WORK = pathlib.Path(__file__).resolve().parents[1] / ".work"
 EP = WORK / "edition.py"
 src = EP.read_text(encoding="utf-8")
 

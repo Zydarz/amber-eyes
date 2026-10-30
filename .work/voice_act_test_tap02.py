@@ -21,7 +21,7 @@ import numpy as np
 sys.path.insert(0, str(Path(__file__).parent))
 from voice_audition import pcm, cer, FF, f0_median  # noqa: E402
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 import os
 ROUND = os.environ.get("ROUND", "1")
 OUT = ROOT / "02_SAN_XUAT" / "Tap02" / ("thu_giong" if ROUND == "1" else f"thu_giong_vong{ROUND}")

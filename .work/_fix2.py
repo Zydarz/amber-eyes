@@ -9,7 +9,7 @@ from pathlib import Path
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-R = Path(r"D:\TEST\Gax\Audi")
+R = Path(__file__).resolve().parents[1]
 INBOX = R / "02_SAN_XUAT" / "sfx_youtube"
 CONF = INBOX / "_conflict"
 MAP = R / ".work" / "yt_map.tsv"

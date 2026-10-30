@@ -2,7 +2,7 @@ import json
 import re
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 script = json.loads((ROOT / ".work" / "script_tap04.json").read_text(encoding="utf-8"))
 tl = json.loads((ROOT / ".work" / "timeline_s_t04.json").read_text(encoding="utf-8"))
 

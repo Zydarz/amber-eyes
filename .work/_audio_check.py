@@ -51,7 +51,7 @@ def main():
     if not audio_info:
         return 1
     args = {"audio_info": audio_info}
-    ap = Path(r"D:\TEST\Gax\Audi\.work\_audio_args.json")
+    ap = Path(__file__).resolve().parents[1] / ".work" / "_audio_args.json"
     ap.write_text(json.dumps(args, ensure_ascii=False), encoding="utf-8")
     print("--- goi audios_understand ---")
     r = run(["mcode-tools", "connector", "call",

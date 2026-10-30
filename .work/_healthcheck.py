@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-WORK = Path(r"D:\TEST\Gax\Audi\.work")
+WORK = Path(__file__).resolve().parents[1] / ".work"
 LOG = WORK / "gen_log"
 TOOL = "connector__matrix__generate_image"
 

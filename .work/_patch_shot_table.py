@@ -2,7 +2,7 @@ import json
 import re
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 PLAN = ROOT / "02_SAN_XUAT" / "Tap02" / "KeHoach_Video_Tap02.md"
 lines = PLAN.read_text(encoding="utf-8").splitlines()
 

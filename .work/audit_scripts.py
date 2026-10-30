@@ -6,7 +6,7 @@ from pathlib import Path
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 
 # 1. British vs American English spelling checks
 BRITISH_TO_AMERICAN = {

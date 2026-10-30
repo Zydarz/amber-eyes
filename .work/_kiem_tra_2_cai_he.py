@@ -1,6 +1,6 @@
 ﻿import json, re
 from pathlib import Path
-W = Path(r"D:\TEST\Gax\Audi\.work")
+W = Path(__file__).resolve().parents[1] / ".work"
 man = json.loads((W / "tts_manifest_t02.json").read_text(encoding="utf-8"))
 by = {m["id"]: m for m in man}
 for sid in ["2.05#2", "4.08#7", "2.05#9", "2.08#6"]:

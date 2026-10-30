@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-W = Path(r"D:\TEST\Gax\Audi\.work")
+W = Path(__file__).resolve().parents[1] / ".work"
 sheet = json.load(open(W / "sfx_tap02.json", encoding="utf-8"))
 script = json.load(open(W / "script_tap02.json", encoding="utf-8"))
 sids = {s["id"] for e in script if e["kind"] == "LOI" for s in e["sentences"]}

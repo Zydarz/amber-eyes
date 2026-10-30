@@ -14,7 +14,7 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 KB = ROOT / "01_KICH_BAN"
 QC = ROOT / ".work" / "_qc_ko_parity.py"
 

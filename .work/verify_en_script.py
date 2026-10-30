@@ -10,7 +10,7 @@ if hasattr(sys.stdout, 'reconfigure'):
 
 def verify_episode(ep_num):
     ep_str = f"{ep_num:02d}"
-    root = Path(r"D:\TEST\Gax\Audi")
+    root = Path(__file__).resolve().parents[1]
     
     # 1. Find Vietnamese script
     vn_dir = root / "01_KICH_BAN" / f"Tap{ep_str}"

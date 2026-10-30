@@ -13,7 +13,7 @@ import time
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-ROOT = pathlib.Path(r"D:\TEST\Gax\Audi")
+ROOT = pathlib.Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 PY = sys.executable
 

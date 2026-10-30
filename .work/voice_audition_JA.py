@@ -25,7 +25,7 @@ try:
 except Exception:
     pass
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "02_SAN_XUAT" / "Tap01_JA" / "thu_giong"
 FF = ROOT / ".work" / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 SCRIPT = json.loads((ROOT / ".work" / "script_tap01_JA.json").read_text(encoding="utf-8"))

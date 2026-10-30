@@ -12,7 +12,7 @@ import cv2
 import numpy as np
 from PIL import Image
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "assets" / "photos" / "noir" / "_4k"
 OUT = ROOT / "assets" / "bg"
 SIZE = (2112, 1188)

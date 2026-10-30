@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-W = Path(r"D:\TEST\Gax\Audi\.work")
+W = Path(__file__).resolve().parents[1] / ".work"
 import edition as ED
 
 ep02 = ED.EPISODES["02"]

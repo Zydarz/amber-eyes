@@ -1,7 +1,7 @@
 ﻿import json, subprocess, sys, os
 from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-W = Path(r"D:\TEST\Gax\Audi\.work")
+W = Path(__file__).resolve().parents[1] / ".work"
 OUT = W / "cer_xac_minh_giong_nam"
 BLOCK = __import__("re").compile(r"(This request was blocked.*|You can \[send feedback\].*)$", __import__("re").S)
 def mcode(args, timeout=600):

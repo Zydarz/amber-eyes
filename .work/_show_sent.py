@@ -7,7 +7,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 els = {e["id"]: e for e in json.loads(
-    Path(r"D:\TEST\Gax\Audi\.work\script_tap03.json").read_text(encoding="utf-8"))}
+    Path(__file__).resolve().parents[1] / ".work" / "script_tap03.json".read_text(encoding="utf-8"))}
 
 WANT = ["1.10", "2.07", "3.05", "4.02", "5.02", "1.13", "1.03"]
 for eid in WANT:

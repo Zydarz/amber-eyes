@@ -21,7 +21,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from voice_audition import pcm, cer  # noqa: E402
 from voice_expr_test import f0_track  # noqa: E402
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "02_SAN_XUAT" / "Tap02" / "thu_giong_vai"
 FF = ROOT / ".work" / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 

@@ -16,7 +16,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 os.environ["AE_EP"] = "02"
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 P2 = WORK / "cer_xac_minh_giong_nam"
 OUT = WORK / "g8_g9_kiem_tra_giong"

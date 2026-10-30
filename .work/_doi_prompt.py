@@ -5,7 +5,7 @@ Y nghia hinh anh giu nguyen, chi viet lai cach dien de tranh duong loi noi bo cu
 import json
 from pathlib import Path
 
-sys_path = Path(r"D:\TEST\Gax\Audi\.work\bg_jobs_tap03.json")
+sys_path = Path(__file__).resolve().parents[1] / ".work" / "bg_jobs_tap03.json"
 jobs = json.loads(sys_path.read_text(encoding="utf-8"))
 
 NEW = {

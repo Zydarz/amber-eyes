@@ -17,7 +17,7 @@ import numpy as np
 from PIL import Image, ImageDraw
 from rembg import new_session, remove
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 CAST = ROOT / "assets" / "cast"
 ROLES = {"H": "host_owl", "D": "detective_wolf", "C": "psychologist_fox",
          "N1": "neighbor_sheep", "N2": "observer_cat"}

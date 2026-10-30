@@ -22,7 +22,7 @@ from pathlib import Path
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 INBOX = ROOT / "02_SAN_XUAT" / "Tap02" / "sfx_gemini"
 GUIDE = ROOT / "02_SAN_XUAT" / "Tap02" / "HuongDan_TaoSFX_Gemini.md"
 OUT = ROOT / "assets" / "sfx" / "t2"

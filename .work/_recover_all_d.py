@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-W = Path(r"D:\TEST\Gax\Audi\.work")
+W = Path(__file__).resolve().parents[1] / ".work"
 TTS = W / "tts_s_EN_t02"
 man = json.loads((W / "tts_manifest_EN_t02.json").read_text(encoding="utf-8"))
 D = [m["id"] for m in man if m["role"] == "D"]

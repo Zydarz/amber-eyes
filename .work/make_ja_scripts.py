@@ -28,7 +28,7 @@ from ja_token import norm_token, token_set, foreign_scripts  # noqa: E402
 from ja_split import (split_dialogue_sentences, move_trailing_markers,  # noqa: E402
                       parts_balanced, ja_sentences, ja_split)
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 KB = ROOT / "01_KICH_BAN"
 WORK = ROOT / ".work"
 CACHE_DIR = WORK / "ja_cache"

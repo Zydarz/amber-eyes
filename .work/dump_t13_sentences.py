@@ -2,7 +2,7 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 
 data = json.loads((WORK / "script_tap13.json").read_text(encoding="utf-8"))

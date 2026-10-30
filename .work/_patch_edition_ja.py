@@ -1,7 +1,7 @@
 import sys
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 ED_PATH = ROOT / ".work" / "edition.py"
 
 txt = ED_PATH.read_text(encoding="utf-8")

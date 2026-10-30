@@ -5,7 +5,7 @@ import pathlib
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-WORK = pathlib.Path(r"D:\TEST\Gax\Audi\.work")
+WORK = pathlib.Path(__file__).resolve().parents[1] / ".work"
 
 ORIG = WORK / "_cu" / "edition.py.bak_bgm_261025_151456"      # ban goc truoc khi va
 CUR = WORK / "edition.py"

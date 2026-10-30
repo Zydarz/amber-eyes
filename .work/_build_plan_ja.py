@@ -8,7 +8,7 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 
 vn_text = (ROOT / "02_SAN_XUAT/Tap01/KeHoach_Video_Tap01.md").read_text(encoding="utf-8").splitlines()

@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap07"
 OUT_DIR.mkdir(parents=True, exist_ok=True)

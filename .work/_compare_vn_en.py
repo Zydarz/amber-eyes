@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 vn = json.load(open(ROOT / ".work" / "script_tap02.json", encoding="utf-8"))
 en = json.load(open(ROOT / ".work" / "temp_verify_en_t02.json", encoding="utf-8"))
 

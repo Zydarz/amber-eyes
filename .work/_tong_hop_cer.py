@@ -1,6 +1,6 @@
 ﻿import json
 from pathlib import Path
-rows = json.loads(Path(r"D:\TEST\Gax\Audi\.work\cer_bo_a_tap02\rows_fixed.json").read_text(encoding="utf-8"))
+rows = json.loads(Path(__file__).resolve().parents[1] / ".work" / "cer_bo_a_tap02" / "rows_fixed.json".read_text(encoding="utf-8"))
 groups = {}
 for r in rows:
     groups.setdefault((r["role"], r["voice"]), []).append(r["cer"])

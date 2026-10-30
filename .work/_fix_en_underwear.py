@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-p = Path(r"D:\TEST\Gax\Audi\.work\shots_text_tap02_EN.json")
+p = Path(__file__).resolve().parents[1] / ".work" / "shots_text_tap02_EN.json"
 d = json.loads(p.read_text(encoding="utf-8"))
 old = "**WOMEN'S UNDERWEAR AND PERSONAL BELONGINGS**"
 new = "**WOMEN'S PERSONAL BELONGINGS**"          # khớp đúng chữ trên hình của bản VN (ĐỒ RIÊNG TƯ CỦA PHỤ NỮ)

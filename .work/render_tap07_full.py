@@ -5,7 +5,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 os.environ["AE_EP"] = "07"
 os.environ["PYTHONIOENCODING"] = "utf-8"
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 FF = ROOT / ".work" / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 
 print("=== BẮT ĐẦU DỰNG HÌNH TẬP 07 (build_video3.py --workers 6) ===")

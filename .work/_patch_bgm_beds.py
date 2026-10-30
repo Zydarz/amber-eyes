@@ -15,7 +15,7 @@ import time
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-WORK = pathlib.Path(r"D:\TEST\Gax\Audi\.work")
+WORK = pathlib.Path(__file__).resolve().parents[1] / ".work"
 EP = WORK / "edition.py"
 NEW = {("29", 1): '("bgm_cello_sad.mp3", "bgm_sub_drone.mp3")'}
 

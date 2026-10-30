@@ -27,7 +27,7 @@ from collections import Counter
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 W = ROOT / ".work"
 
 sys.path.insert(0, str(W))

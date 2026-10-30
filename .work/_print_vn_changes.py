@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 vn = json.load(open(ROOT / ".work" / "script_tap02.json", encoding="utf-8"))
 vn_map = {e["id"]: e for e in vn if e["kind"] == "LOI"}
 

@@ -18,7 +18,7 @@ from PIL import Image
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 BG_DIR = ROOT / "assets" / "bg"
 PROV_FILE = ROOT / "provenance.json"

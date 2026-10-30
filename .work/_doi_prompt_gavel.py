@@ -4,7 +4,7 @@
 import json
 from pathlib import Path
 
-p = Path(r"D:\TEST\Gax\Audi\.work\bg_jobs_tap03.json")
+p = Path(__file__).resolve().parents[1] / ".work" / "bg_jobs_tap03.json"
 jobs = json.loads(p.read_text(encoding="utf-8"))
 
 NEW = ("A wooden judge's gavel lying on a dark wooden desk beside a closed leather law book, "

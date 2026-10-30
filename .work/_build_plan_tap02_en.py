@@ -22,7 +22,7 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 W = ROOT / ".work"
 
 en_table = json.loads((W / "shots_text_tap02_EN.json").read_text(encoding="utf-8"))

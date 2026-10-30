@@ -5,7 +5,7 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 BG_DIR = ROOT / "assets" / "bg"
 PLAN_FILE = ROOT / "02_SAN_XUAT" / "Tap06" / "KeHoach_Video_Tap06.md"

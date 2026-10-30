@@ -11,7 +11,7 @@ import parse_kichban as PK  # noqa: E402
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-KO = Path(r"D:\TEST\Gax\Audi\01_KICH_BAN\Tap26_KO\kichban_tap26_KO.md")
+KO = Path(__file__).resolve().parents[1] / "01_KICH_BAN" / "Tap26_KO" / "kichban_tap26_KO.md"
 text = KO.read_text(encoding="utf-8")
 
 # --- 1. role line fix -------------------------------------------------------

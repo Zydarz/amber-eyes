@@ -22,7 +22,7 @@ import urllib.request
 from datetime import date
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 OUT = ROOT / "assets" / "sfx" / "t2"
 RAW = WORK / "sfx_h3"

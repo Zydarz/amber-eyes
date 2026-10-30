@@ -1,6 +1,6 @@
 ﻿import json, subprocess
 from pathlib import Path
-W = Path(r"D:\TEST\Gax\Audi\.work")
+W = Path(__file__).resolve().parents[1] / ".work"
 FF = W / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 man = json.loads((W / "tts_manifest_t02.json").read_text(encoding="utf-8"))
 it = next(m for m in man if m["id"] == "2.05#11")

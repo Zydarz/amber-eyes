@@ -22,7 +22,7 @@ except Exception:
 sys.path.insert(0, str(Path(__file__).parent))
 import edition as ED  # noqa: E402  (AE_LANG=en -> English edition)
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 OUT = ED.w("audio_s")
 LOG = ED.w("tts_s")

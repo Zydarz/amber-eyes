@@ -9,7 +9,7 @@ from PIL import Image
 
 sys.stdout.reconfigure(encoding="utf-8")
 name = sys.argv[1]
-a = np.asarray(Image.open(Path(r"D:\TEST\Gax\Audi\assets\bg") / f"{name}.png").convert("L"), np.float32)
+a = np.asarray(Image.open(Path(__file__).resolve().parents[1] / "assets" / "bg" / f"{name}.png").convert("L"), np.float32)
 h, w = a.shape
 rows, cols = a.mean(axis=1), a.mean(axis=0)
 print(f"=== {name} {w}x{h} ===")

@@ -20,7 +20,7 @@ except Exception:
 sys.path.insert(0, str(Path(__file__).parent))
 import edition as ED  # noqa: E402  (AE_LANG=en -> English edition)
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 PLAN = ED.PLAN
 TL = json.loads(ED.w("timeline_s.json").read_text(encoding="utf-8"))

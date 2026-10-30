@@ -1,5 +1,5 @@
 from pathlib import Path
-mp = Path(r"D:\TEST\Gax\Audi\.work\yt_map.tsv")
+mp = Path(__file__).resolve().parents[1] / ".work" / "yt_map.tsv"
 out = {}
 for raw in mp.read_text(encoding="utf-8-sig").splitlines():
     p = raw.split("\t")

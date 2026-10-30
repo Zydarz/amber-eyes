@@ -9,7 +9,7 @@ os.environ["PYTHONIOENCODING"] = "utf-8"
 sys.path.insert(0, str(Path(__file__).parent))
 import build_video3 as bv
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 FF = ROOT / ".work" / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 PROBE = ROOT / ".work" / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffprobe.exe"
 VD = bv.ED.w("video3")

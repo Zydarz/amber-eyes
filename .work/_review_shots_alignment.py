@@ -9,7 +9,7 @@ try:
 except Exception:
     pass
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 shots_data = json.loads((ROOT / ".work" / "shots_t04.json").read_text(encoding="utf-8"))
 tl_data = json.loads((ROOT / ".work" / "timeline_s_t04.json").read_text(encoding="utf-8"))
 script_data = json.loads((ROOT / ".work" / "script_tap04.json").read_text(encoding="utf-8"))

@@ -10,7 +10,7 @@ from pathlib import Path
 import numpy as np
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-WORK = Path(r"D:\TEST\Gax\Audi\.work")
+WORK = Path(__file__).resolve().parents[1] / ".work"
 OUT = WORK / "cer_xac_minh_giong_nam"
 
 rows = json.loads((OUT / "rows2.json").read_text(encoding="utf-8"))

@@ -26,7 +26,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import make_logo as ml  # noqa: E402
 import edition as ED  # noqa: E402  (AE_LANG=en -> intro_kenh_EN.mov)
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 BRAND = ROOT / "assets" / "brand"
 FFMPEG = ROOT / ".work" / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 MUSIC = ROOT / "assets" / "bgm" / "bgm_music_box.mp3"

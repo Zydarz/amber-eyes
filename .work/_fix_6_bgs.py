@@ -2,7 +2,7 @@ from PIL import Image
 from pathlib import Path
 import sys
 
-BG = Path(r"D:\TEST\Gax\Audi\assets\bg")
+BG = Path(__file__).resolve().parents[1] / "assets" / "bg"
 
 def fix_crop(name, l, t, r, b):
     p = BG / name

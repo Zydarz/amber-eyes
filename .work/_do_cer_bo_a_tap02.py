@@ -21,7 +21,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 OUT = WORK / "cer_bo_a_tap02"
 AUDIO = WORK / "audio_s_t02"

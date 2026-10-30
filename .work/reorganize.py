@@ -9,7 +9,7 @@ import json
 import shutil
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 W = ROOT / ".work"
 A = ROOT / "90_LUU_TRU"
 

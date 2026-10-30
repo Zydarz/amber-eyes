@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-src = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(r"D:\TEST\Gax\Audi\.work\script_tap03.json")
+src = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().parents[1] / ".work" / "script_tap03.json"
 els = json.loads(src.read_text(encoding="utf-8"))
 
 n_loi = 0

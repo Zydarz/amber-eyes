@@ -21,7 +21,7 @@ from pathlib import Path
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 BG = ROOT / "assets" / "bg"
 STD_MAX = 6.0       # nguong "deu tuyet doi" theo chieu doc
 RUN_MAX = 12        # do dai dai deu >= 12 px moi xet

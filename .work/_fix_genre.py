@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from pathlib import Path
-mp = Path(r"D:\TEST\Gax\Audi\.work\yt_map.tsv")
+mp = Path(__file__).resolve().parents[1] / ".work" / "yt_map.tsv"
 GEN = {
  "Death Rattle Breath": "Giọng của con người",
  "Battle Agony Moans": "Đám đông",

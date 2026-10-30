@@ -23,7 +23,7 @@ os.environ["PATH"] = r"C:\Users\ADMIN\.minimax\bin;" + os.environ.get("PATH", ""
 
 from PIL import Image
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets" / "bg"
 RAW = ROOT / "assets" / "bg" / "_raw"
 LOG = ROOT / ".work" / "gen_log"

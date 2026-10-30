@@ -13,7 +13,7 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 os.environ.setdefault("AE_EP", "02")
 sys.path.insert(0, str(WORK))

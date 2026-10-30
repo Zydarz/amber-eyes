@@ -4,7 +4,7 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
-WORK = Path(r"D:\TEST\Gax\Audi\.work")
+WORK = Path(__file__).resolve().parents[1] / ".work"
 live = json.loads((WORK / "_voice_list_live_20261027.json").read_text(encoding="utf-8-sig"))
 names = {v["voice_id"]: v["voice_name"] for v in live["available_voices"]}
 

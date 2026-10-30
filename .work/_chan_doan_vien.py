@@ -11,7 +11,7 @@ import numpy as np
 from PIL import Image
 
 sys.stdout.reconfigure(encoding="utf-8")
-BG = Path(r"D:\TEST\Gax\Audi\assets\bg")
+BG = Path(__file__).resolve().parents[1] / "assets" / "bg"
 
 for name in sys.argv[1:]:
     im = Image.open(BG / f"{name}.png").convert("L")

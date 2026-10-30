@@ -3,7 +3,7 @@ import numpy as np
 from pathlib import Path
 from PIL import Image
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 BG = ROOT / "assets" / "bg"
 jobs = json.load(open(ROOT / ".work" / "bg_jobs_tap06.json", encoding="utf-8"))
 

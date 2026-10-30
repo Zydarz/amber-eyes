@@ -10,7 +10,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 os.environ["AE_EP"] = "02"
-WORK = Path(r"D:\TEST\Gax\Audi\.work")
+WORK = Path(__file__).resolve().parents[1] / ".work"
 OUT = WORK / "cer_bo_a_tap02"
 sys.path.insert(0, str(WORK))
 import tts_sentences as TS  # noqa: E402

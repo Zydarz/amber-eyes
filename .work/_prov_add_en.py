@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-P = Path(r"D:\TEST\Gax\Audi\provenance.json")
+P = Path(__file__).resolve().parents[1] / "provenance.json"
 rows = json.loads(P.read_text(encoding="utf-8"))
 NEW = "assets/brand/intro_kenh_EN_t02.mov"
 if any(r.get("file") == NEW for r in rows):

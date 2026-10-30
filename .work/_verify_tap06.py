@@ -8,7 +8,7 @@ from pathlib import Path
 from PIL import Image
 
 sys.stdout.reconfigure(encoding="utf-8")
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 BG = ROOT / "assets" / "bg"
 WORK = ROOT / ".work"
 OUT = ROOT / "02_SAN_XUAT" / "Tap06"

@@ -5,7 +5,7 @@ import re
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi\01_KICH_BAN")
+ROOT = Path(__file__).resolve().parents[1] / "01_KICH_BAN"
 OUT = Path(__file__).parent / "_ja_terms.txt"
 
 

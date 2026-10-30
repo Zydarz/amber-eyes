@@ -31,7 +31,7 @@ from make_ja_scripts import ALLOW_LATIN, LOAN_WORDS, _norm_key  # noqa: E402
 # token Latin hợp lệ (viết tắt, mượn từ Anh) -> KHÔNG phải rác
 OK_LATIN = {norm_token(x) for x in (set(ALLOW_LATIN) | set(LOAN_WORDS)) if x}
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 KB = ROOT / "01_KICH_BAN"
 OUT = Path(__file__).parent / "_ja_qc.txt"
 

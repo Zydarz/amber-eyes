@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-W = Path(r"D:\TEST\Gax\Audi\.work")
+W = Path(__file__).resolve().parents[1] / ".work"
 
 ja_shots = json.load(open(W / "shots_text_tap02_JA.json", encoding="utf-8"))
 

@@ -16,7 +16,7 @@ from pathlib import Path
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-MAP = Path(r"D:\TEST\Gax\Audi\.work\yt_map.tsv")
+MAP = Path(__file__).resolve().parents[1] / ".work" / "yt_map.tsv"
 
 
 def norm(line):

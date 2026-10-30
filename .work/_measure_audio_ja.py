@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 FF = ROOT / ".work" / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 mp3 = ROOT / "02_SAN_XUAT" / "Tap02_JA" / "xuat_ban" / "Tap02_JA_master.mp3"
 wav = ROOT / ".work" / "audio_master_JA_t02.wav"

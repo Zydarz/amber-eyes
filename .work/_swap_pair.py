@@ -1,6 +1,6 @@
 import shutil, sys
 from pathlib import Path
-INBOX = Path(r"D:\TEST\Gax\Audi\02_SAN_XUAT\sfx_youtube")
+INBOX = Path(__file__).resolve().parents[1] / "02_SAN_XUAT" / "sfx_youtube"
 CONF = INBOX / "_conflict"
 a, b = sys.argv[1], sys.argv[2]
 CONF.mkdir(parents=True, exist_ok=True)

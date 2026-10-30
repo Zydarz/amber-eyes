@@ -18,7 +18,7 @@ import json
 import re
 from pathlib import Path
 
-W = Path(r"D:\TEST\Gax\Audi\.work")
+W = Path(__file__).resolve().parents[1] / ".work"
 SCRIPT = json.loads((W / "script_tap03.json").read_text(encoding="utf-8"))
 N_ELEMENT = {"1.09": "N1", "2.09": "N2"}
 

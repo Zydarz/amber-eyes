@@ -18,7 +18,7 @@ import numpy as np
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 os.environ["AE_EP"] = "02"
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 OUT = WORK / "cer_xac_minh_giong_nam"
 AUDIO = WORK / "audio_s_t02"

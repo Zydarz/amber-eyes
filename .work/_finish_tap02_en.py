@@ -14,7 +14,7 @@ import time
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 W = ROOT / ".work"
 os.environ["AE_LANG"] = "en"
 os.environ["AE_EP"] = "02"

@@ -13,7 +13,7 @@ import numpy as np
 from PIL import Image
 
 sys.stdout.reconfigure(encoding="utf-8")
-BG = Path(r"D:\TEST\Gax\Audi\assets\bg")
+BG = Path(__file__).resolve().parents[1] / "assets" / "bg"
 WIN = 40          # khu vuc canh
 MIN_DROP = 12     # toi thieu phai toi hon mot chuc so voi noi dung
 MAX_LINE = 4      # do day toi toi da chap nhan (px)

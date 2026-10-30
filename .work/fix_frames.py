@@ -13,7 +13,7 @@ import numpy as np
 from PIL import Image
 
 sys.stdout.reconfigure(encoding="utf-8")
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 BG = ROOT / "assets" / "bg"
 RAW = BG / "_raw"
 SIZE = (2112, 1188)

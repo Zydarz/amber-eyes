@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-W = Path(r"D:\TEST\Gax\Audi\.work")
+W = Path(__file__).resolve().parents[1] / ".work"
 shots = json.load(open(W / "_shots_analysis.json", encoding="utf-8"))
 
 for s in shots:

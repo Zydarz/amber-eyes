@@ -21,7 +21,7 @@ from pathlib import Path
 
 import numpy as np
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets" / "sfx"
 SR = 44100
 

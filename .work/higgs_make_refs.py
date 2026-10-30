@@ -11,7 +11,7 @@ import re
 import subprocess
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 EP = os.environ.get("AE_EP", "02")
 MAN = ROOT / ".work" / f"tts_manifest_t{EP}.json"
 AUD = ROOT / ".work" / f"audio_s_t{EP}"

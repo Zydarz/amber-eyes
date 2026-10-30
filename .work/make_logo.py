@@ -18,7 +18,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import edition as ED  # noqa: E402  (AE_LANG=en -> English tagline)
 from PIL import Image, ImageDraw, ImageFilter, ImageChops, ImageFont
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets" / "brand"
 FONTS = Path(r"C:\Windows\Fonts")
 

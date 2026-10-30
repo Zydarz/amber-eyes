@@ -9,7 +9,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 os.environ["AE_EP"] = "02"
-WORK = Path(r"D:\TEST\Gax\Audi\.work")
+WORK = Path(__file__).resolve().parents[1] / ".work"
 sys.path.insert(0, str(WORK))
 import edition as ED  # noqa: E402
 

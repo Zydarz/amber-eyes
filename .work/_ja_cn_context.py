@@ -14,7 +14,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, str(HERE))
 from _ja_scan_cn_only import CN2JP  # noqa: E402
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 KB = ROOT / "01_KICH_BAN"
 
 # quy tắc theo ngữ cảnh (cụm) -> thay thế Nhật

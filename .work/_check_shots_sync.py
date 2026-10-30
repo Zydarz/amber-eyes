@@ -16,7 +16,7 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 W = ROOT / ".work"
 SHOTS = W / "shots_t02.json"
 BAK = W / "shots_t02.json.bak"

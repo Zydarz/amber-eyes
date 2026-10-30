@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 W = ROOT / ".work"
 role = sys.argv[1]
 man = json.loads((W / "tts_manifest_EN_t02.json").read_text(encoding="utf-8"))

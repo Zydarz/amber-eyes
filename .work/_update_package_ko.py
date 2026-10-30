@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from pathlib import Path
 
-p = Path(r"D:\TEST\Gax\Audi\.work\package.py")
+p = Path(__file__).resolve().parents[1] / ".work" / "package.py"
 content = p.read_text(encoding="utf-8")
 
 # 1. Update font and geometry in thumbnail()

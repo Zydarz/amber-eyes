@@ -15,7 +15,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 sys.path.insert(0, r"D:\TEST\Gax\Audi\.work")
 import tts_sentences as TS  # noqa: E402
 
-W = Path(r"D:\TEST\Gax\Audi\.work")
+W = Path(__file__).resolve().parents[1] / ".work"
 TTS = W / "tts_s_EN_t02"
 OUT = W / "audio_s_EN_t02"
 

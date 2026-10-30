@@ -7,7 +7,7 @@ import json
 import shutil
 from pathlib import Path
 
-W = Path(r"D:\TEST\Gax\Audi\.work")
+W = Path(__file__).resolve().parents[1] / ".work"
 OUT = W / "audio_s_EN_t02"
 BAK = OUT / "_dg_backup"
 BAK.mkdir(exist_ok=True)

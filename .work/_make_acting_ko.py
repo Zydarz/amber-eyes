@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 
-ROOT = Path(r"D:\TEST\Gax\Audi")
+ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 
 ja_acting = json.loads((WORK / "acting_tap01_JA.json").read_text(encoding="utf-8"))
