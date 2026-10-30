@@ -983,6 +983,22 @@ Tập 02 có 36 phần lời (kind `LOI`), mỗi phần **một vai**:
 > Bảng này **thay thế** các bảng "dự đoán" ở §8.7 và §8.8. Nguồn: `.work/g9_decide.txt` / `.work/g9_decide.json`.
 > Quy tắc verdict: `min(nc_ac, nc_pp2) ≥ 4 nc` → **ĐẠT** (cả hai thuật toán F0 đều phải đạt).
 
+> ### ⚠️ ĐỌC CỘT "Ket" ĐÚNG CÁCH — **H↔D KHÔNG CÒN LỖI**
+>
+> Cột `Ket` trong bảng [4] là verdict của **toàn bộ tổ hợp**, không phải của riêng cặp `H-D`.
+> Vì mọi dòng đều bị kéo lại bởi cột `C-N1 = 2,58 nc` (cặp **không bao giờ liền kề** trong Tập 02)
+> nên **mọi dòng đều ghi `TRUOT`** — kể cả dòng có `H-D = 6,57` hay `11,23` ở cột bên cạnh.
+>
+> Đọc đúng là: **mỗi cột có verdict riêng** —
+> * `H-D` = **6,57 / 7,27 nc ✅** (khi D dùng `M_HIGH`) · `M_LOW↔M_HIGH` = **11,23 / 12,24 nc ✅** ·
+>   `M_LOW↔D.wav` = **4,11 / 4,45 nc ✅** ⇒ **`H↔D` ĐÃ XỬ LÝ XONG**.
+> * `C-N1` = 2,58 nc ❌ — đây mới là **nút thắt còn mở**, và nó **vô hại** (C và N1 không bao giờ liền kề).
+> * Giá trị **0,22 nc** chỉ là đo của **hai giọng gốc** `H.wav ↔ D.wav` — đó là **lý do** đã phải nhờ
+>   Mac mini tạo clip mới cho vai D, **không phải lỗi đang tồn tại**.
+>
+> Tóm lại: **sau khi dùng `M_HIGH` cho D thì cặp nam đạt 6,57–11,23 nc**; con số 0,22 chỉ là
+> *điểm xuất phát* đã được sửa.
+
 **[1] F0 CLONE THẬT — toàn bộ ô đã clone (mỗi ô 12 audio)**
 
 | Vai | Clip | n | F0_ac | F0_pp2 | drift_ac | Ghi chú |

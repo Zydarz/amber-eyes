@@ -46,6 +46,12 @@ G9 DECIDE — Tap 02 (Higgs Audio v3).  Verdict: min(nc_ac, nc_pp2) >= 4 nc
     N2 (nu)   W1(261/247), W2(202/196), W5_HIGH(286/268)
 
 [4] PHOI DAY DU — xep theo bien nho nhat (G9 ap cho CAP CUNG GIOI)
+    !! DOC COT 'Ket' DUNG CACH: verdict la cua TOAN BO TO HOP, khong phai cua rieng cap H-D.
+    !! Vi moi dong bi keo lai boi cot 'C-N1' = 2.58 nc (cap KHONG BAO GIO lien ke trong Tap 02)
+    !! nen moi dong deu ghi 'TRUOT' — ke ca dong co 'H-D' = 6.57 hay 11.23 o cot ben canh.
+    !! => H-D DA XU LY XONG (6.57/7.27 nc khi D dung M_HIGH; 11.23/12.24 khi dung M_LOW).
+    !!    0.22 nc chi la do cua HAI GIONG GOC (H.wav <-> D.wav) = LY DO da phai tao clip moi,
+    !!    khong phai loi dang ton tai. Nut that con mo chi la C-N1 (va vo hai trong Tap 02).
     H         D         C      H-D       C-N1      C-N2      N1-N2    Ket
     H         M_HIGH    C      6.57      2.58      3.41      5.99     TRUOT
     H         M_HIGH    C      6.57      2.58      4.83      7.56     TRUOT

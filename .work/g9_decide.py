@@ -297,6 +297,12 @@ for hr, h in H_C:
 full.sort(key=lambda r: -r["margin"])
 
 L.append("[4] PHOI DAY DU — xep theo bien nho nhat (G9 ap cho CAP CUNG GIOI)")
+L.append("    !! DOC COT 'Ket' DUNG CACH: verdict la cua TOAN BO TO HOP, khong phai cua rieng cap H-D.")
+L.append("    !! Vi moi dong bi keo lai boi cot 'C-N1' = 2.58 nc (cap KHONG BAO GIO lien ke trong Tap 02)")
+L.append("    !! nen moi dong deu ghi 'TRUOT' — ke ca dong co 'H-D' = 6.57 hay 11.23 o cot ben canh.")
+L.append("    !! => H-D DA XU LY XONG (6.57/7.27 nc khi D dung M_HIGH; 11.23/12.24 khi dung M_LOW).")
+L.append("    !!    0.22 nc chi la do cua HAI GIONG GOC (H.wav <-> D.wav) = LY DO da phai tao clip moi,")
+L.append("    !!    khong phai loi dang ton tai. Nut that con mo chi la C-N1 (va vo hai trong Tap 02).")
 L.append("    %-9s %-9s %-6s %-9s %-9s %-9s %-8s %s" % (
     "H", "D", "C", "H-D", "C-N1", "C-N2", "N1-N2", "Ket"))
 for r in full[:15]:
