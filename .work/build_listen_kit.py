@@ -157,7 +157,7 @@ q = ["# Bảng trả lời — nghe mù H3", "",
      "Nghe từng file, **không** xem `DAP_AN_KHOA.txt` trước khi trả lời.", "",
      "## Phần 1 — 4 cặp V7 (mỗi cặp 8 file)", "",
      "Với mỗi cặp P1..P4: ghi xuống **cặp nào là giọng nào**.", "",
-     "| Cặp | File | Bạn nghe là giọng nào? (H/D/C/W4/W2 hoặc "vô hình") | Có chắc không? |",
+     "| Cặp | File | Bạn nghe là giọng nào? (H/D/C/W4/W2 hoặc 'vô hình') | Có chắc không? |",
      "|---|---|---|---|"]
 for pi in range(1, len(PAIRS) + 1):
     q.append("| P%d | 01_THEO_THU_TU_THANH_AM_P%d_01..08.wav | | |" % (pi, pi))
