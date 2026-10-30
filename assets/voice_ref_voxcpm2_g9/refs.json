@@ -1,0 +1,99 @@
+{
+ "M_HIGH": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late fifties, higher-pitched and bright with a firm resonant tenor voice, slightly rough and weathered timbre, cold and detached, authoritative and clinical, Vietnamese Standard, strictly neutral and unemotional, steady deliberate pace",
+  "target_text": "Hồ sơ ghi lại từng chi tiết. Chẳng lời khai nào khớp với những gì tìm được trong căn nhà. Câu hỏi vẫn còn nguyên, và cả hồ sơ này chưa nói hết. Hiện trường được bảo vệ cẩn thận ngay từ đầu, mọi vật chứng nhỏ nhất đều được đánh số và niêm phong theo đúng trình tự.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/M_HIGH/M_HIGH_higher_take01.wav",
+  "seconds": 16.9,
+  "f0_median_hz": 192.8,
+  "f0_target_hz": [
+   168,
+   182
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [],
+  "role": "M_HIGH",
+  "variant": "higher",
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_g9/M_HIGH.wav",
+  "why": "Dự phòng cho vai D (thám tử nam 50+ khàn). Mục tiêu: F0 audio clone >= 164 Hz để cách vai H (130 Hz) >= 4 nửa cung."
+ },
+ "M_LOW": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his early forties, very low-pitched and deep with a heavy bass resonance, calm and unhurried, intimate late-night podcast narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace",
+  "target_text": "Chào mừng bạn đến với chuyên mục giải mã tâm lý tội phạm. Mỗi hồ sơ đều bắt đầu bằng câu hỏi nặng trĩu, mà không ai trả lời nổi, dù sự thật vẫn luôn nằm ở đó. Khi lần theo từng trang tài liệu, chúng ta không tìm kiếm sự phán xét vội vàng, mà cùng nhìn nhận những chuyển biến thầm lặng bên trong một con người.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/M_LOW/M_LOW_very-low_take01.wav",
+  "seconds": 19.26,
+  "f0_median_hz": 95.2,
+  "f0_target_hz": [
+   70,
+   86
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 95Hz ngoai dai muc tieu 70-86Hz"
+  ],
+  "role": "M_LOW",
+  "variant": "very-low",
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_g9/M_LOW.wav",
+  "why": "Dự phòng cho vai H (người dẫn chuyện nam trầm ấm). Mục tiêu: F0 audio clone <= 97 Hz để cách vai D (123 Hz) >= 4 nửa cung. Hạ dải xuống 70-86 Hz (thay vì 80-92) sau pilot v5: Higgs co the keo CAO o ref thap (H.wav 107 Hz -> clone 131 Hz, +22%) nen can clip tham chieu thap hon de clone ra <= 97 Hz."
+ },
+ "W5_HIGH": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A young woman in her early twenties, soprano and very high-pitched with a bright bell-like youthful timbre, conversational and slightly breathy, Vietnamese Standard, neutral and relaxed tone, natural everyday pace",
+  "target_text": "Những năm tháng ở căn cứ Trenton, chúng tôi quen với những con đường ngay ngắn và những hành lang lặng lẽ. Mỗi sáng, mọi người đều dừng lại trước tấm biển đồng trên cổng chính, và chẳng ai nhắc đến những gì đã xảy ra sau đó. Tôi vẫn nhớ rõ vẻ mặt của người lính trực đêm đêm cuối cùng.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/W5_HIGH/W5_HIGH_soprano_take01.wav",
+  "seconds": 19.07,
+  "f0_median_hz": 290.9,
+  "f0_target_hz": [
+   258,
+   276
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [],
+  "role": "W5_HIGH",
+  "variant": "soprano",
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_g9/W5_HIGH.wav",
+  "why": "Phuong an A cho vai N1 (nữ ~cao). GIU LAI de doi phuong an neu user chon kieu 'N1 cao, N2 thap'. CANH BAO: neu dung W5_HIGH cho N1 thi N2 phai lay W6_LOW moi duoc G9 (xem W6_LOW)."
+ },
+ "W6_LOW": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A woman in her late thirties, low-pitched and warm with a deep rounded resonance, calm and unhurried, intimate close-mic narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace",
+  "target_text": "Trong mắt tất cả chúng tôi ở căn cứ Trenton, Đại tá Williams từng là hiện thân của sự hoàn hảo. Ông ấy điềm tĩnh, chuẩn mực đến từng nếp gấp quân phục, làm việc không biết mệt và chưa từng to tiếng với cấp dưới một lần nào. Nhưng sau khi mọi chuyện vỡ lở mỗi lần nhớ lại ánh mắt bình thản của ông ấy trong các buổi duyệt binh, chúng tôi đều thấy rợn người. Chúng tôi đã từng đứng cạnh một kẻ săn mồi nguy hiểm nhất, mà vẫn một lòng cúi đầu kính phục.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/W6_LOW/W6_LOW_low_take05.wav",
+  "seconds": 28.13,
+  "f0_median_hz": 179.8,
+  "f0_target_hz": [
+   148,
+   162
+  ],
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "THOI LUONG 28.1s ngoai [16.0-28.0]s",
+   "F0 180Hz ngoai dai muc tieu 148-162Hz"
+  ],
+  "role": "W6_LOW",
+  "variant": "low",
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_g9/W6_LOW.wav",
+  "why": "Phuong dan CHINH cho vai N1 (nữ THAP). Do lai F0 clone thuc te cua ca pilot v3 + pilot v4 (n=16/o o): N1 phai <= 162.8 Hz de cach >= 4 nua cung voi C (205 Hz) VA voi N2 (275.9 Hz). Clip 258-276 Hz se lam N1 sat N2 (chi cach ~1.7 nc). Mang 'lower mid-pitched' / 'low-pitched' de tao giong nu TRAM chung nhung van la n."
+ }
+}
