@@ -9,6 +9,7 @@
 *.mp3
 *.wav
 !assets/voice_ref_voxcpm2/*.wav
+!assets/voice_ref_voxcpm2_g9/*.wav
 *.ogg
 *.m4a
 *.flac
@@ -48,6 +49,8 @@ assets/bg/
 *.pyc
 __pycache__/
 
-# ---------- Clip tham chieu VoxCPM2 moi cho G9: ban 48 kHz thuc (trung gian) ----------
+# ---------- Clip tham chieu VoxCPM2 moi cho G9 ----------
+# Ban 48 kHz trung gian nam o .work/voxcpm_raw/ (da bi ignore boi `.work/*` o dong 31).
 # Chi commit ban dong goi 24 kHz trong assets/voice_ref_voxcpm2_g9/
-assets/voice_ref_voxcpm2_g9_raw/
+# LUU Y: phai co dong `!assets/voice_ref_voxcpm2_g9/*.wav` o tren — neu thieu,
+# `git add assets/voice_ref_voxcpm2_g9` se KHONG them file .wav (vi `*.wav` bi ignore toan cuc).
