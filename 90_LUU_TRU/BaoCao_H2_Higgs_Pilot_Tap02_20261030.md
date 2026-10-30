@@ -1102,6 +1102,26 @@ Nhưng C đã ở 214 Hz ⇒ D bị đẩy **vào ngay cạnh C**.
 
 ⇒ **Hồi quy so với bản MiniMax.** Bản cũ có D ở 140 Hz — nằm giữa H và C, tách cả hai.
 
+**Đo lại trên chính 416 file sản xuất** (`.work/check_prod_f0.py`, 6 file đều vai, F0 trung vị):
+
+| Vai | Clip | F0 (AC) | F0 (pp2) |
+|---|---|---:|---:|
+| H | `H.wav` | 125,2 | 118,3 |
+| **D** | `M_HIGH.wav` | **193,1** | **180,8** |
+| C | `C.wav` | 205,0 | 196,2 |
+| N1 | `W6_LOW.wav` | 179,6 | 166,6 |
+| N2 | `W5_HIGH.wav` | 314,7 | 277,0 |
+
+| Cặp | nc | | Cặp | nc |
+|---|---:|---|---|---:|
+| **C ↔ D** | **1,03 ❌** | | D ↔ H | 7,34 ✅ |
+| **D ↔ N1** | **1,26 ❌** | | H ↔ N1 | 5,93 ✅ |
+| C ↔ N1 | 2,29 ❌ *(không liền kề)* | | C ↔ N2 | 5,97 ✅ |
+| C ↔ H | 8,54 ✅ | | H ↔ N2 | 14,73 ✅ |
+
+⇒ **`D` ở 193 Hz nằm giữa hai giọng nữ (N1 180 Hz, C 205 Hz)** — cách mỗi bên chưa tới **1,3 nửa cung**.
+Đó là lý do tai nghe đọc `D` thành "giọng nữ giống C". Lỗi này **lớn hơn hẳn** ước lượng 1,77 nc lúc pilot.
+
 **Cặp `C↔D` liền kề ở đâu trong Tập 02** (tự tính từ `script_tap02.json`, 22 cặp khác giới liền kề):
 
 | # | Cảnh | Câu | Vai |
