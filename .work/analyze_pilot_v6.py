@@ -32,17 +32,17 @@ WAV = HERE / "kaggle_higgs" / "out_higgs_v6" / "out_higgs_v6"
 OUT_J = HERE / "pilot_v6_result.json"
 OUT_T = HERE / "pilot_v6_result.txt"
 
-# so do chuan bi (pilot v3/v4, AC tho / pp2) — de so sanh cung batch
-BASELINE = {
-    ("C", "C.wav"): (205.1, 194.9),
-    ("N2", "W1.wav"): (275.9, 258.3),
-    ("N2", "W2.wav"): (206.9, 198.7),
-    ("H", "H.wav"): (131.1, 125.7),
-    ("D", "D.wav"): (122.4, 125.6),
-    ("N1", "W1.wav"): (247.4, 234.0),
-    ("N1", "W2.wav"): (196.7, 189.5),
-    ("N1", "W3.wav"): (156.9, 149.3),
-}
+# so do chuan bi (pilot v3/v4/v5, AC tho / pp2) — tai lai tu
+# .work/baseline_clone_f0.py (da kiem lai loi octave: 0/296 file loi)
+BASE_P = HERE / "baseline_clone_f0.json"
+BASELINE = {}
+if BASE_P.exists():
+    _bt = json.loads(BASE_P.read_text(encoding="utf-8-sig"))["table"]
+    for k, v in _bt.items():
+        BASELINE[(v["role"], v["ref_wav"])] = (v["f0_ac"], v["f0_p2"])
+    print("baseline: %d o tu %s" % (len(BASELINE), BASE_P.name))
+else:
+    print("!! khong co baseline_clone_f0.json -> dung so do gan trong code")
 NC_MIN = 4.0
 
 
@@ -217,11 +217,17 @@ def run_cer(rows):
 # ------------------------------------------------------------------ main
 ap = argparse.ArgumentParser()
 ap.add_argument("--cer", action="store_true", help="do them CER (canh goc ASR)")
+ap.add_argument("--dir", default=None, help="thu muc output pilot (mac dinh: .work/kaggle_higgs/out_higgs_v6/out_higgs_v6)")
 a = ap.parse_args()
+
+WAV = pathlib.Path(a.dir) if a.dir else (HERE / "kaggle_higgs" / "out_higgs_v6" / "out_higgs_v6")
+OUT_J = HERE / "pilot_v6_result.json"
+OUT_T = HERE / "pilot_v6_result.txt"
+SEARCH_ROOT = WAV if a.dir else (HERE / "kaggle_higgs" / "out_higgs_v6")
 
 man_p = WAV / "higgs_manifest.json"
 if not man_p.exists():
-    cands = sorted((HERE / "kaggle_higgs" / "out_higgs_v6").rglob("higgs_manifest.json"))
+    cands = sorted(SEARCH_ROOT.rglob("higgs_manifest.json"))
     if not cands:
         raise SystemExit("khong tim thay manifest pilot v6")
     man_p = cands[0]
@@ -232,14 +238,35 @@ print("manifest:", man_p, "| OK:", len(rows), "| FAIL:", len(man) - len(rows))
 for r in rows:
     p = WAV / r["file"]
     if not p.exists():
-        cands = list((HERE / "kaggle_higgs" / "out_higgs_v6").rglob(r["file"]))
+        cands = list(SEARCH_ROOT.rglob(r["file"]))
         if not cands:
             continue
         p = cands[0]
     a_, sr = read_wav(p)
     r["f0_ac"] = round(f0_ac(a_, sr), 1)
-    r["f0_p2"] = round(f0_p2(a_, sr), 1)
+    r["f0_p2_raw"] = round(f0_p2(a_, sr), 1)
     r["dur_local"] = round(len(a_) / sr, 2)
+
+# ---- sua loi OCTAVE cua thuat toan pp2 (do lai 1 lan / 2 lan) -----------
+# pp2 co the chon nham (1/2) hoac gap (x2) so voi AC tho. Neu khong sua,
+# bang G9 se bao "CANH BAO" gia. Chi sua khi sai lech < 5% va ghi lai.
+n_oct = 0
+for r in rows:
+    ac, p2 = r.get("f0_ac"), r.get("f0_p2_raw")
+    if not ac or not p2:
+        r["f0_p2"] = p2 or 0.0
+        continue
+    if abs(p2 * 2 - ac) / ac < 0.05:
+        r["f0_p2"] = round(p2 * 2, 1)
+        r["octave_fix"] = "x2"
+        n_oct += 1
+    elif abs(p2 / 2 - ac) / ac < 0.05:
+        r["f0_p2"] = round(p2 * 2, 1)
+        r["octave_fix"] = "nhan2"
+        n_oct += 1
+    else:
+        r["f0_p2"] = p2
+print("sua loi octave pp2: %d/%d audio" % (n_oct, len(rows)))
 
 if a.cer:
     print("do CER (2 luot)... co the la 5-10 phut")
