@@ -197,6 +197,26 @@ Code: thêm nhánh engine trong `tts_sentences.py` (ví dụ `AE_TTS=higgs`), **
   (~1,7 nc) ⇒ vi phạm G9 mới. Cần clip nữ mới `W6_LOW` (F0 clip 148–162 Hz).
 * Bảng G9 đầy đủ + script đo lại được: `.work/g9_matrix.py` → `.work/g9_matrix.json` / `.work/g9_matrix.txt`.
 
+**CẬP NHẬT 30/10 (sau khi 4 clip mới đã về + đo lại payload sản xuất):**
+
+* **Số đo thật 4 clip mới** (2 thuật toán) — cả 4 đều **cao hơn dải mục tiêu** (VoxCPM2 không bám tuyệt đối
+  từ khoá `very low` / `lower mid`):
+  `M_LOW` 95,6 / 95,5 Hz (mục tiêu 70–86) · `M_HIGH` 192,0 / 185,7 (168–182) ·
+  `W6_LOW` 179,1 / 169,0 (148–162, **+ thời lượng 28,13 s > 28 s**) · `W5_HIGH` 289,2 / 275,4 (258–276).
+* **Payload sản xuất thật** (`higgs_payload_t02.json`) gán `N1 ← W1.wav` và `N2 ← W2.wav`
+  ⇒ tính lại: `C↔N1` 3,23 / 3,16 nc ❌ · `C↔N2` **0,16 / 0,33 nc ❌** · `N1↔N2` 3,08 / 2,82 nc ❌
+  ⇒ **cả 3 cặp nữ đều trượt** (bản cũ chỉ kiểm 2 cặp).
+* **Ràng buộc định lượng** (2 thuật toán đo trên **2 thang khác nhau**, tỉ lệ pp2/ac ≈ 0,95):
+  `N1_ac ≤ 162,8 Hz` **và** `N1_pp2 ≤ 154,7 Hz`. Ngân sách cao độ cho 3 vai nữ:
+  `F0_max/F0_min ≥ 2^(8/12) = 1,5874`.
+* **Không tổ hợp nào trong 5 clip nữ có sẵn đạt cả 3 cặp** ⇒ phải **hạ F0 clip**, không tìm clip khác.
+  Đã tạo 5 biến thể hạ bằng **phase vocoder** (`.work/g9_shift_clip.py`, time-stretch + resample,
+  giữ thời lượng): `W6_LOW_S20/S25/S30/S35/S40` → F0 160,0 / 157,9 / 154,8 / **150,0** / **144,6** Hz.
+  Chỉ `S35` và `S40` thoát vùng trượt ở worst-case drift 0,95–1,10.
+* ⇒ **Pilot v6** (kernel `chiduong2026/amber-eyes-higgs-v6-pilot-g9-f0-cer`, 156 audio:
+  13 ô × 6 câu × 2 bản) đo F0 clone + CER thật để chốt ánh xạ vai. Script đọc kết quả:
+  `.work/analyze_pilot_v6.py` → `.work/pilot_v6_result.txt`.
+
 **BẪY ĐO LẠI (rất dễ sai):** `tts_sentences.py:105` gửi **số → chữ** cho TTS, còn ASR trả **chữ số**.
 Phải áp `vi_numbers()` cho **CẢ HAI VÊ** và dùng **đúng** `vi_number()` của `tts_sentences.py`
 (bản rút gọn làm `"2009"` → *"two nine"*). Không sửa thì **cả Higgs lẫn MiniMax đều bị phình CER**
@@ -204,8 +224,10 @@ Phải áp `vi_numbers()` cho **CẢ HAI VÊ** và dùng **đúng** `vi_number()
 
 **Còn chưa biết:**
 
-6. Tham chiếu nào cho **H**, **D** và **N1** để đạt G9 (cần clip mới từ Mac mini — `M_LOW` / `M_HIGH` /
-   `W6_LOW`; hoặc dùng clip MiniMax — cần xác nhận điều khoản L4; hoặc ghi nhận vi phạm).
+6. Tham chiếu nào cho **H**, **D** và **N1** để đạt G9 — **đã có 4 clip mới + 5 biến thể hạ F0**;
+   pilot v6 đang đo F0 clone thật ⇒ chốt ánh xạ vai sau đó (cần người dùng duyệt L4 vì đổi clip
+   = đổi giọng vai). Phương án dự đoán đạt: `H←M_LOW` hoặc `H←H.wav` (giữ giọng cũ) + `D←M_HIGH` +
+   `C←C.wav` + `N1←W6_LOW_S35` + `N2←W5_HIGH`.
 8. G8 (nghe mù 100%) — chưa chạy.
 9. Người dùng xác nhận **chấp nhận ghi công Boson** (H0) — điều khoản Creator Use Grant II-A cho phép
    thương mại nhưng **bắt buộc** ghi "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio"

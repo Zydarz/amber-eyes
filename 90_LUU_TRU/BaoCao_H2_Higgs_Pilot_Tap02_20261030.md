@@ -398,11 +398,94 @@ RTF tb 2,07 (max 3,15) · VRAM đỉnh 9,94 GB · tổng 1446,6 s sinh.
 | Việc | Trạng thái |
 |---|---|
 | G9 H↔D — cơ chế | ✅ **Đã rõ**: F0 clone do clip tham chiếu quyết định (tỉ lệ 1,02–1,06 ở ref ≥ 132 Hz) |
-| G9 H↔D — clip cần tạo | ⏳ Chờ user chạy script trên Mac mini (`M_LOW` 70–86 Hz + `M_HIGH` 168–182 Hz) |
-| G9 N1↔N2 | ⏳ Cần clip **nữ trầm** `W6_LOW` (148–162 Hz) — chi tiết ở §7 |
+| G9 H↔D — clip cần tạo | ✅ **Đã có** (4 clip từ Mac mini) — số đo ở §6.9 |
+| G9 N1↔N2 | ❌ **Trượt cả 3 cặp nữ** — chi tiết §6.10, §6.11 |
 | temperature | ✅ `0,8` cho H/D/C — xác nhận lần 3 (t=0,7 runaway 47,56 s ở D 2.05#15/#16) |
 | §5 thẻ emotion | ✅ an toàn — kiểm trên 349 bản chép ASR thật, không có từ khoá thẻ |
 | CER | ✅ đạt (H 0,00% · C 0,00% · N2 0,63%); D 2,27% cần đa bản §7 |
+
+### 6.9 4 clip mới đã về — số đo F0 thật (2 thuật toán)
+
+Mac mini đã chạy `.work/voxcpm_generate_g9.py` xong và push (`bb8896f`). Đo lại bằng **cùng 2 thuật toán
+F0 của dự án** (AC thô = `voice_audition.f0_median`; AC chuẩn hóa + parabolic + sửa octave = pp2):
+
+| Clip | F0 clip (AC thô) | F0 clip (AC chuẩn hóa) | Thời lượng | Dải mục tiêu | Kết quả |
+|---|---:|---:|---:|---:|---|
+| `M_LOW` (nam rất trầm, vai H) | 95,6 Hz | 95,5 Hz | 19,26 s | 70–86 | ⚠ **cao hơn mục tiêu 9,6 Hz** |
+| `M_HIGH` (nam cao, vai D) | 192,0 Hz | 185,7 Hz | 16,90 s | 168–182 | ⚠ **cao hơn 10,0 Hz** |
+| `W6_LOW` (nữ thấp, vai N1) | 179,1 Hz | 169,0 Hz | 28,13 s | 148–162 | ⚠ **cao hơn 17,1 Hz** + vượt trần 28 s |
+| `W5_HIGH` (nữ cao, vai N2) | 289,2 Hz | 275,4 Hz | 19,07 s | 258–276 | ⚠ **cao hơn 13,2 Hz** |
+
+**Nguyên nhân:** VoxCPM2 (Voice Design) **không bám tuyệt đối** từ khoá `very low-pitched` /
+`lower mid-pitched` — cả 4 clip đều cao hơn dải mục tiêu. Đây là đặc tính của model, không phải lỗi script.
+
+**Hệ quả:**
+- `M_LOW` 95,6 Hz **vẫn thấp hơn hẳn** `M_HIGH` 192,0 Hz ⇒ H↔D **vẫn tách được** (dự đoán 9,6 nc, xem §8.8).
+- `W6_LOW` 179,1 Hz **không đủ thấp** cho vai N1 ⇒ phải hạ thêm bằng xử lý tín hiệu (§6.11).
+
+### 6.10 Phát hiện mới — **cả 3 cặp nữ đều trượt G9**, và ràng buộc định lượng
+
+Payload sản xuất hiện tại (`.work/kaggle_higgs/higgs_payload_t02.json`) gán:
+
+| Vai | Clip | Số câu |
+|---|---|---:|
+| H | `H.wav` | 95 |
+| D | `D.wav` | 51 |
+| C | `C.wav` | 49 |
+| **N1** | **`W1.wav`** | 4 |
+| **N2** | **`W2.wav`** | 4 |
+
+Tính lại 3 cặp nữ từ số đo thật (pilot v3+v4, n = 8/ô):
+
+| Cặp | F0 clone (AC thô / pp2) | nc (AC thô) | nc (pp2) | Ngưỡng | Kết luận |
+|---|---:|---:|---:|---:|---|
+| C ↔ N1 (N1 ← W1) | 205,1 / 194,9 — 247,4 / 234,0 | 3,23 | 3,16 | ≥ 4 | ❌ trượt |
+| C ↔ N2 (N2 ← W2) | 205,1 / 194,9 — 206,9 / 198,7 | 0,16 | 0,33 | ≥ 4 | ❌ trượt |
+| N1 ↔ N2 | 247,4 / 234,0 — 206,9 / 198,7 | 3,08 | 2,82 | ≥ 4 | ❌ trượt |
+
+⇒ Cả **3** cặp nữ đều trượt (bản cũ chỉ kiểm 2 cặp và bỏ sót cặp C↔N2).
+
+**Ràng buộc định lượng** (giữ C ← `C.wav` và N2 ← `W1.wav`):
+
+| Ràng buộc | Ngưỡng |
+|---|---|
+| C↔N1 ≥ 4 nc (AC thô) | N1_ac ≤ **162,8 Hz** |
+| C↔N1 ≥ 4 nc (AC chuẩn hóa) | N1_pp2 ≤ **154,7 Hz** |
+| N1↔N2 ≥ 4 nc (AC thô / pp2) | N1_ac ≤ 219,0 Hz / N1_pp2 ≤ 205,0 Hz |
+
+⇒ **ngưỡng chặt nhất: clone của N1 phải ≤ 162,8 Hz (AC thô) và ≤ 154,7 Hz (pp2)**.
+Lưu ý hai ngưỡng khác nhau vì **2 thuật toán đo trên 2 thang khác nhau** (tỉ lệ pp2/ac ≈ 0,95).
+
+**Ngân sách cao độ cho 3 vai nữ:** 3 giọng nữ phải trải ≥ 4 nc mỗi cặp ⇒
+`F0_max / F0_min ≥ 2^(8/12) = 1,5874`. Với `W6_LOW` (179,1) làm N1 và `W5_HIGH` (289,2) làm N2:
+tỉ lệ = 1,618 — **vừa đủ**, nhưng phải hạ N1 xuống ≤ ~162 Hz thì mới có C ở giữa.
+
+### 6.11 Sửa — hạ F0 clip `W6_LOW` bằng phase vocoder, tạo 5 biến thể cho N1
+
+**Triệu chứng:** `W6_LOW` ở 179,1 Hz; theo tỉ lệ drift đã đo (0,95–1,10) thì clone của N1 rơi vào
+**183–190 Hz** ⇒ C↔N1 chỉ **~1,7 nc** ⇒ vẫn trượt.
+
+**Nguyên nhân:** chỉ có 5 clip nữ trong bộ (`W1` 250 · `W2` 200 · `C` 208,7 · `W5_HIGH` 289,2 · `W6_LOW` 179,1)
+và **không tổ hợp nào trong 5 clip này đạt được cả 3 cặp ≥ 4 nc** — đã duyệt bằng script
+`.work/g9_matrix.py` (28 cặp, 9 phân bố). Cần **hạ** F0 clip, không cần **tìm** clip khác.
+
+**Sửa ở đâu:** `.work/g9_shift_clip.py` — **phase vocoder** (time-stretch bằng FFT + resample),
+giữ nguyên thời lượng, đồng thời cắt 0,80 s đoạn im lặng để thời lượng ≤ 28 s (không mất chữ).
+
+**Sửa cái gì** — 5 biến thể, đo F0 thật sau khi hạ:
+
+| Biến thể | Hạ | F0 sau hạ (AC thô / pp2) | Thời lượng | Clone dự đoán (AC thô) | Chặn 162,8 Hz? |
+|---|---:|---:|---:|---:|---|
+| `W6_LOW_S20` | −2,0 nc | 160,0 / 158,7 | 27,33 s | 151,6–175,5 | ❌ |
+| `W6_LOW_S25` | −2,5 nc | 157,9 / 154,8 | 27,33 s | 147,3–170,5 | ❌ |
+| `W6_LOW_S30` | −3,0 nc | 154,8 / 151,5 | 27,33 s | 143,1–165,7 | ❌ (worst case) |
+| **`W6_LOW_S35`** | **−3,5 nc** | **150,0 / 147,2** | 27,33 s | **139,0–161,0** | ✅ |
+| **`W6_LOW_S40`** | **−4,0 nc** | **144,6 / 143,1** | 27,33 s | **135,0–156,4** | ✅ |
+
+⇒ **`S35` và `S40` thoát vùng trượt** ở cả worst-case drift. Pilot v6 đo cả 5 để chốt bằng số thật.
+
+**Tính hợp lệ:** biến thể là asset của chính dự án (Apache-2.0, sinh từ `W6_LOW` của VoxCPM2 Voice
+Design), không dùng file của bên thứ ba. `refs.json` ghi rõ F0 **sau** khi hạ + ghi chú xử lý.
 
 ---
 
@@ -614,27 +697,58 @@ gộp pilot v3 + pilot v4 ⇒ **n = 16** mỗi ô C/D/H, **n = 8** mỗi ô N1/N
 > (H: 107→131 Hz **+22%**; N2←W1: 235→276 Hz **+17%**; D: 132→122 Hz **−7%**).
 > ⇒ Không suy ra được chắc chắn; **mọi clip mới đều phải đo lại bằng pilot** trước khi chốt vai.
 
+### 8.8 G9 sau 4 clip mới + 5 biến thể hạ F0 — **dự đoán** (pilot v6 đang chạy)
+
+Dùng số đo thật của 4 clip mới (§6.9) + tỉ lệ drift đã đo (0,95–1,10 cho clip nữ) để dự đoán
+F0 clone. **Đây là dự đoán — pilot v6 sẽ cho số thật.**
+
+| Phương án | H↔D | C↔N1 | C↔N2 | N1↔N2 | Kết luận dự đoán |
+|---|---:|---:|---:|---:|---|
+| H←`M_LOW`, D←`M_HIGH`, C←`C.wav`, N1←`W6_LOW_S35`, N2←`W5_HIGH` | 9,64 | 4,6–4,8 | 5,9–6,4 | 10,0–11,0 | ✅ đạt (biên hẹp nhất 4,6) |
+| H←`H.wav`, D←`M_HIGH`, C←`C.wav`, N1←`W6_LOW_S35`, N2←`W5_HIGH` | 6,96 | 4,6–4,8 | 5,9–6,4 | 10,0–11,0 | ✅ đạt (**H giữ nguyên giọng đã kiểm**) |
+| H←`M_LOW`, D←`M_HIGH`, C←`C.wav`, N1←`W6_LOW` (chưa hạ) | 9,64 | ~1,7 | 5,9–6,4 | ~8 | ❌ **trượt** C↔N1 |
+| H←`M_LOW`, D←`D.wav` (giữ nguyên D) | ~1,0 | — | — | — | ❌ **trượt** H↔D |
+
+⇒ **2 phương án khả thi**, khác nhau ở chỗ **H dùng clip cũ `H.wav` hay clip mới `M_LOW`**:
+phương án 2 **giữ nguyên giọng H đã đo CER 0,00%** ⇒ đổi giọng ít nhất (L4) nhưng biên G9 hẹp hơn
+(6,96 so với 9,64 nc).
+
+### 8.9 Trạng thái hạ tầng 2 GPU (đã dựng xong, chưa chạy lượt sản xuất)
+
+| Hạng mục | Trạng thái |
+|---|---|
+| Worker 1 tiến trình / 1 card | ✅ `.work/higgs_worker.py` — seed SHA-256(`id\|role\|ref\|temp\|vN`) ⇒ **kết quả không phụ thuộc card nào sinh** |
+| Chia task 2 GPU | ✅ `idx % n_shards` — `CUDA_VISIBLE_DEVICES=0/1`, giãn 50 s giữa 2 lần launch (tránh 2 tiến trình cùng nạp model) |
+| Fallback catch-up | ✅ cell 9: task thiếu chạy lại trên GPU0 rồi merge lại — **không mất task nào** |
+| Bug nhúng worker | ⚠ **Đã phát hiện & sửa**: worker có docstring `"""` làm vỡ chuỗi `r"""…"""` của cell → đổi sang nhúng **base64** + verify khôi phục khớp file nguon |
+| Lượt sản xuất | 203 câu × 2 bản = **406 file** · ước **2,35 h** 1 GPU / **~1,2 h** 2 GPU |
+| Quota Kaggle | 1,39 h/30 h đã dùng (còn **28,61 h**) — thời gian **không** phải ràng buộc |
+
 ---
 
 ## 9. Việc cần bạn quyết
 
 | # | Câu hỏi | Lựa chọn | Quyết định |
 |---|---|---|---|
-| 1 | **G9 H↔D** — làm gì để tách 2 vai nam? | (a) tạo clip VoxCPM2 mới · (b) dùng clip MiniMax · (c) ghi nhận vi phạm | ✅ **(a)** — đã chọn |
+| 1 | **G9 H↔D** — làm gì để tách 2 vai nam? | (a) tạo clip VoxCPM2 mới · (b) dùng clip MiniMax · (c) ghi nhận vi phạm | ✅ **(a)** — đã chọn, clip đã có |
 | 2 | **G9 N1** — làm gì cho vai nữ phụ? | (a) tạo clip nữ mới ~265 Hz · (b) chấp nhận ~2,95 nc | ✅ **(a)** — đã chọn *(đính chính 30/10: hướng (a) của bản cũ là nữ **cao**; đo đủ số liệu cho thấy phải là nữ **thấp** — xem §7)* |
 | 3 | **Ghi công Boson** (H0) — xác nhận chấp nhận? | (a) chấp nhận, ghi công trong mọi tập · (b) chưa | ⏸ **(b)** — **dừng trước H4** tới khi chốt |
-| 4 | **Thứ tự tạo clip mới** | — | Script sinh **cả 4 bộ** `M_LOW` + `M_HIGH` + `W6_LOW` + `W5_HIGH` trong 1 lần chạy |
+| 4 | **Thứ tự tạo clip mới** | — | ✅ Đã xong — Mac mini đã push 4 clip (`bb8896f`) |
+| 5 | **Phân bộ vai Tập 02** (L4 — đổi clip = đổi giọng vai) | (a) đổi H/D/N1/N2 sang clip mới · (b) giữ H và D, chỉ đổi N1/N2 | ⏳ **Chờ pilot v6 đo xong rồi bạn chốt** — xem bảng §8.8 |
 
-**Việc bạn cần làm tiếp theo (1 lệnh trên Mac mini):**
-```bash
-cd /Users/duonganhhai/CodeGit/amber-eyes
-/Users/duonganhhai/ai/voxcpm2_project/.venv/bin/python3 .work/voxcpm_generate_g9.py
-git add assets/voice_ref_voxcpm2_g9 && git commit -m "feat(audio): them 4 clip tham chieu VoxCPM2 cho G9 (Tap 02)" && git push
+### 9.1 Việc đã làm xong (30/10, sau khi bạn chạy script trên Mac mini)
+
+```text
+✓ Mac mini tạo 4 clip + commit + push            (bb8896f)
+✓ Đo F0 4 clip mới (2 thuật toán)               (§6.9)
+✓ Phát hiện: cả 3 cặp nữ đều trượt G9           (§6.10)
+✓ Hạ F0 W6_LOW bằng phase vocoder → 5 biến thể   (§6.11)
+✓ Xây hạ tầng 2 GPU + catch-up                   (§8.9)
+✓ Dataset Kaggle v4 + kernel pilot v6 → đang chạy  (156 file)
 ```
-Hướng dẫn đầy đủ: `.work/G9_HD_HUONG_DAN.md` · đặc tả ngắn: `.work/DAT_SPEC_G9.md`.
 
-Sau khi có clip: pilot v5/v6 (đo F0 clone + CER) → chốt ánh xạ vai → **H3** (nghe mù V7 + G8) →
-sinh 203 câu (3 bản/câu) → **H4** *(đang dừng chờ chốt ghi công)* → **H5** (dựng video).
+**Bước kế tiếp:** pilot v6 trả 156 audio → đo F0 clone + CER → chốt ánh xạ vai (câu hỏi #5 ở trên) →
+**H3** (nghe mù V7 + G8) → sinh 203 câu (2 GPU) → **H4** *(đang dừng chờ chốt ghi công)* → **H5** (dựng video).
 
 ---
 
@@ -657,7 +771,25 @@ sinh 203 câu (3 bản/câu) → **H4** *(đang dừng chờ chốt ghi công)* 
 | `.work/kaggle_higgs/_wait_kernel_v4.py` / `_wait_kernel_v5.py` | Theo dõi kernel + tải **chỉ** wav/json |
 | `.work/kaggle_higgs/_prepare_push_v4.py` | Chuẩn bị thư mục push (id phải khớp slug Kaggle) |
 
-### Bộ tạo clip VoxCPM2 mới cho G9 (chạy trên Mac mini)
+### Tool mới (30/10) — G9 + hạ tầng 2 GPU
+
+| File | Vai trò |
+|---|---|
+| `.work/g9_matrix.py` | Bảng G9 đầy đủ mọi cặp cùng giới (28 cặp, 9 phân bố) từ pilot v3+v4 |
+| `.work/pilot_v5_f0.py` | F0 thật pilot v5 + duyệt 9 tổ hợp H×D |
+| `.work/g9_newclips.py` | Đo F0 + QC 4 clip mới và 7 clip gốc; duyệt phân bộ vai |
+| `.work/g9_shift_clip.py` | **Phase vocoder** — hạ F0 `W6_LOW` thành 5 biến thể S20–S40 |
+| `.work/g9_update_refs.py` | Cập nhật `refs.json` (F0 thật sau khi hạ) + đồng bộ dataset Kaggle |
+| `.work/g9_role_map.json` | **Phép gán vai → clip** (sửa 1 file rồi chạy lại `build_spec.py`) |
+| `.work/higgs_worker.py` | Worker 1 tiến trình / 1 GPU — seed xác định, checkpoint từng file |
+| `.work/build_nb.py` | Builder notebook Kaggle (dùng chung pilot + sản xuất), verify cell compile + base64 |
+| `.work/build_spec.py` | Sinh `pilot_spec_v6.json` / `pilot_payload_v6.json` / `prod_spec.json` / payload sản xuất |
+| `.work/prep_dataset_meta.py` | Làm mới `dataset-metadata.json` (mô tả + resource) |
+| `.work/prep_push_dirs.py` | Tạo thư mục push kernel (`id` phải khớp slug Kaggle **sinh từ title**) |
+| `.work/watch_kernel.py` | Theo dõi kernel + tải output (bắt buộc `--file-pattern`) |
+| `.work/analyze_pilot_v6.py` | Đo F0 clone (2 thuật toán) + CER + bảng G9 đầy đủ của pilot v6 |
+
+### Bộ tạo clip VoxCPM2 mới cho G9 (đã chạy trên Mac mini)
 
 | File | Vai trò |
 |---|---|
@@ -665,6 +797,7 @@ sinh 203 câu (3 bản/câu) → **H4** *(đang dừng chờ chốt ghi công)* 
 | `.work/voxcpm_refs_manifest_g9.json` | Mô tả giọng + thang `control` + dải F0 của 3 clip mới |
 | `.work/G9_HD_HUONG_DAN.md` | **Hướng dẫn đầy đủ** "làm lại ở Vox" (bảng từ khoá → F0, cách dò thang) |
 | `.work/DAT_SPEC_G9.md` | Đặc tả ngắn |
+| `.work/G9_MAC_BRIEF.md` | Brief tự-contained cho AI trên Mac M2 (1 lệnh, 5 tiêu chí nghiệm thu) |
 
 ### Số đo thô
 
