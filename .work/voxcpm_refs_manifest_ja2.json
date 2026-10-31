@@ -1,0 +1,159 @@
+{
+ "H": {
+  "f0_target": [
+   100,
+   118
+  ],
+  "takes": [
+   [
+    2.0,
+    42
+   ],
+   [
+    2.0,
+    101
+   ],
+   [
+    2.0,
+    2024
+   ]
+  ],
+  "why": "BO JA THEO SEED BO VN (31/10/2026, ja2). Host H.wav (VN) - take01 cua generator cu, seed khong ghi trong refs.json; suy ra 42 (TAKE_CONFIGS[0]), them 101/2024 phong khi sai",
+  "control_variants": [
+   {
+    "tag": "vnctrl_ja",
+    "control": "A man in his early forties, low-pitched and warm with a deep chesty resonance, calm and unhurried, intimate late-night podcast narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace"
+   },
+   {
+    "tag": "jactrl",
+    "control": "A man in his early forties, low-pitched and warm with a deep chesty resonance, calm and unhurried, intimate late-night podcast narration, Japanese Standard, neutral and reflective tone, moderately slow pace"
+   }
+  ],
+  "text": "犯罪心理の分析記録へようこそ。すべての事件は、真実がそこにあるにもかかわらず、誰も答えられない重い問いから始まります。捜査記録を辿るとき、私たちは拙速な断罪を求めるのではなく、残された証言や痕跡を通じて、一人の人間の内面に生じた静かな変化を見つめていきます。",
+  "text_source": "assets/voice_ref_voxcpm2_ja/H.txt (30/10/2026)"
+ },
+ "D": {
+  "f0_target": [
+   78,
+   88
+  ],
+  "takes": [
+   [
+    2.0,
+    7
+   ],
+   [
+    2.0,
+    42
+   ],
+   [
+    2.0,
+    101
+   ],
+   [
+    2.0,
+    2024
+   ]
+  ],
+  "why": "BO JA THEO SEED BO VN (31/10/2026, ja2). Dieu tra vien D3_SH (VN) = D_NEW_subbass-husky_t02, seed 7 cfg 2.0 (ghi trong refs.json). en2 cung seed 7 ra D 85-145 Hz => them seed 101/2024",
+  "control_variants": [
+   {
+    "tag": "vnctrl_ja",
+    "control": "A Vietnamese man in his late fifties, sub-bass, very deep and husky, chest voice, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, crisp consonants, quiet studio recording"
+   },
+   {
+    "tag": "jactrl",
+    "control": "A man in his late fifties, sub-bass, very deep and husky, chest voice, cold and flat, emotionless police investigator, Japanese Standard, slow and measured pace, crisp consonants, quiet studio recording"
+   }
+  ],
+  "text": "捜査記録にはすべての詳細が記録されています。現場の住宅で発見された物証と一致する供述は一つもありません。疑問は依然として残されており、全容はまだ解明されていません。現場は当初から厳重に保全され、すべての証拠品が番号順に封印されました。最終的な結論を下す前に、タイムラインと行動経路を再検証する必要があります。",
+  "text_source": "assets/voice_ref_voxcpm2_ja/D.txt (30/10/2026)"
+ },
+ "C": {
+  "f0_target": [
+   200,
+   218
+  ],
+  "takes": [
+   [
+    2.0,
+    77
+   ],
+   [
+    2.0,
+    42
+   ]
+  ],
+  "why": "BO JA THEO SEED BO VN (31/10/2026, ja2). Chuyen gia C2_AB03 (VN) = C_NEW_alto-brisk_t03, seed 77 (ghi trong refs.json)",
+  "control_variants": [
+   {
+    "tag": "vnctrl_ja",
+    "control": "A Vietnamese woman around forty, lower mid-pitched alto voice, clear and crisp articulation with precise consonants, confident and assertive forensic psychologist, Vietnamese Standard, brisk pace, quiet studio recording"
+   },
+   {
+    "tag": "jactrl",
+    "control": "A woman around forty, lower mid-pitched alto voice, clear and crisp articulation with precise consonants, confident and assertive forensic psychologist, Japanese Standard, brisk pace, quiet studio recording"
+   }
+  ],
+  "text": "このメカニズムは記憶に起因するのではなく、人間が馴染みのある行動パターンを繰り返す特性から生じます。それが同じ行動が同じ場所で繰り返される理由であり、詳細な解明が求められます。臨床研究において、自己統制を失ったと感じた際、防衛反応が最も顕著に現れます。心理構造の分析には、長期間にわたり収集された客観的な行動データに基づいた冷静な視点が不可欠です。",
+  "text_source": "assets/voice_ref_voxcpm2_ja/C.txt (30/10/2026)"
+ },
+ "W5_HIGH": {
+  "f0_target": [
+   258,
+   292
+  ],
+  "takes": [
+   [
+    2.0,
+    2024
+   ],
+   [
+    2.0,
+    42
+   ]
+  ],
+  "why": "BO JA THEO SEED BO VN (31/10/2026, ja2). N2 W5_HIGH (VN) = soprano take01 do thang; seed khong ghi, suy ra 2024 (bien thu 3 -> TAKE_CONFIGS[2])",
+  "control_variants": [
+   {
+    "tag": "vnctrl_ja",
+    "control": "A young woman in her early twenties, soprano and very high-pitched with a bright bell-like youthful timbre, conversational and slightly breathy, Vietnamese Standard, neutral and relaxed tone, natural everyday pace"
+   },
+   {
+    "tag": "jactrl",
+    "control": "A young woman in her early twenties, soprano and very high-pitched with a bright bell-like youthful timbre, conversational and slightly breathy, Japanese Standard, neutral and relaxed tone, natural everyday pace"
+   }
+  ],
+  "text": "夜になるとこの通りは人通りが途絶え、遠くを走る車の音だけが聞こえてきます。私はよく市場のそばを歩き、果物屋の前に立ち寄ります。あの件について尋ねられても、聞こえなかったかのように肩をすくめるだけです。その日は風が冷たく、通りの店もいつもより早く閉まっていました。街灯の下に立つ人影を見かけましたが、ただの通行人だと思っていました。",
+  "text_source": "assets/voice_ref_voxcpm2_ja/W1.txt (30/10/2026)"
+ },
+ "W6_LOW": {
+  "f0_target": [
+   148,
+   182
+  ],
+  "takes": [
+   [
+    2.5,
+    999
+   ],
+   [
+    2.0,
+    42
+   ]
+  ],
+  "why": "BO JA THEO SEED BO VN (31/10/2026, ja2). N1 W6_LOW (VN) = low take05 do thang; seed khong ghi, suy ra (2.5, 999) = TAKE_CONFIGS[4]",
+  "control_variants": [
+   {
+    "tag": "vnctrl_ja",
+    "control": "A woman in her late thirties, low-pitched and warm with a deep rounded resonance, calm and unhurried, intimate close-mic narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace"
+   },
+   {
+    "tag": "jactrl",
+    "control": "A woman in her late thirties, low-pitched and warm with a deep rounded resonance, calm and unhurried, intimate close-mic narration, Japanese Standard, neutral and reflective tone, moderately slow pace"
+   }
+  ],
+  "text": "私は毎朝早くから店のシャッターを開け、夜遅くまで営業しています。近所の人たちはみんな顔なじみですから、誰かが声をかけてくればいつでも迎えます。この界隈は昔から穏やかで、朝は散歩をするお年寄りばかりでした。縁側でお茶を淹れながら、何年ものあいだ通りの移り変わりと人々の足音を見守ってきました。",
+  "text_source": "assets/voice_ref_voxcpm2_ja/W4.txt (30/10/2026)"
+ }
+}
