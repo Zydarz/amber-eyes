@@ -70,7 +70,8 @@ cd /Users/duonganhhai/CodeGit/amber-eyes
 echo "WAV: $(ls assets/voice_ref_voxcpm2_ja2/*.wav | wc -l)  (phai = 26)"
 echo "TXT: $(ls assets/voice_ref_voxcpm2_ja2/*.txt | wc -l)  (phai = 26)"
 test -f assets/voice_ref_voxcpm2_ja2/refs.json && echo "REFS OK"
-git add assets/voice_ref_voxcpm2_ja2 .work/voxcpm_ja2_run.log
+git add assets/voice_ref_voxcpm2_ja2
+git add -f .work/voxcpm_ja2_run.log   # .work/ bi gitignore -> bat buoc -f
 echo "WAV da add: $(git diff --cached --name-only | grep -c '\.wav$')  (phai = 26)"
 git commit -m "feat(audio): bo giong mau JA theo seed bo VN - 26 take VoxCPM2 (ja2)"
 git push

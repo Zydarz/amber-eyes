@@ -13,7 +13,7 @@ Bộ `assets/voice_ref_voxcpm2_ko/` cũ (30/10) **không dùng**: H 121 Hz và D
 
 Lượt này làm giống hệt lượt en2: lấy **nguyên câu mô tả + seed** của từng giọng Việt, lời đọc là tiếng Hàn (lấy lại từ `.txt` của bộ `ko` cũ).
 Mỗi seed chạy 2 kiểu câu mô tả: `vnctrl_ko` (nguyên văn, có "Vietnamese Standard") và `koctrl` (đổi thành "Korean Standard").
-Tag khác với en2 (`vnctrl`/`enctrl`), nên file thô trong `.work/voxcpm_raw/` **không đè** file của en2.
+Tag khác với en2 (`vnctrl`/`enctrl`) và ja2 (`vnctrl_ja`/`jactrl`), nên file thô trong `.work/voxcpm_raw/` **không đè** file của hai lượt đó.
 
 | Vai | Giọng Việt đã chốt | Seed (cfg) | Số take |
 |---|---|---|---:|
@@ -70,7 +70,8 @@ cd /Users/duonganhhai/CodeGit/amber-eyes
 echo "WAV: $(ls assets/voice_ref_voxcpm2_ko2/*.wav | wc -l)  (phai = 26)"
 echo "TXT: $(ls assets/voice_ref_voxcpm2_ko2/*.txt | wc -l)  (phai = 26)"
 test -f assets/voice_ref_voxcpm2_ko2/refs.json && echo "REFS OK"
-git add assets/voice_ref_voxcpm2_ko2 .work/voxcpm_ko2_run.log
+git add assets/voice_ref_voxcpm2_ko2
+git add -f .work/voxcpm_ko2_run.log   # .work/ bi gitignore -> bat buoc -f
 echo "WAV da add: $(git diff --cached --name-only | grep -c '\.wav$')  (phai = 26)"
 git commit -m "feat(audio): bo giong mau KO theo seed bo VN - 26 take VoxCPM2 (ko2)"
 git push
