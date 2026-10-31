@@ -54,7 +54,8 @@ model = VoxCPM.from_pretrained("openbmb/VoxCPM2", optimize=False, device="mps", 
 SR = getattr(model.tts_model, "sample_rate", 48000)
 print(f"nap model {time.time() - t0:.0f}s | sample_rate {SR}")
 
-params = inspect.signature(model.generate).parameters
+gen_func = getattr(model, "_generate", model.generate)
+params = inspect.signature(gen_func).parameters
 print("CHU KY model.generate:", ", ".join(params))
 wav_key = next((k for k in WAV_KEYS if k in params), None)
 txt_key = next((k for k in TXT_KEYS if k in params), None)
