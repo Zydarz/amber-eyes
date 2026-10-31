@@ -1,0 +1,159 @@
+{
+ "H": {
+  "f0_target": [
+   100,
+   118
+  ],
+  "takes": [
+   [
+    2.0,
+    42
+   ],
+   [
+    2.0,
+    101
+   ],
+   [
+    2.0,
+    2024
+   ]
+  ],
+  "why": "BO KO THEO SEED BO VN (31/10/2026, ko2). Host H.wav (VN) - take01 cua generator cu, seed khong ghi trong refs.json; suy ra 42 (TAKE_CONFIGS[0]), them 101/2024 phong khi sai",
+  "control_variants": [
+   {
+    "tag": "vnctrl_ko",
+    "control": "A man in his early forties, low-pitched and warm with a deep chesty resonance, calm and unhurried, intimate late-night podcast narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace"
+   },
+   {
+    "tag": "koctrl",
+    "control": "A man in his early forties, low-pitched and warm with a deep chesty resonance, calm and unhurried, intimate late-night podcast narration, Korean Standard, neutral and reflective tone, moderately slow pace"
+   }
+  ],
+  "text": "범죄 심리 분석 아카이브에 오신 것을 환영합니다. 모든 사건은 진실이 바로 눈앞에 있음에도 그 누구도 쉽게 답하지 못하는 무거운 질문에서 시작됩니다. 수사 기록을 한 장씩 되짚어가며, 우리는 섣부른 판단을 내리는 대신 남겨진 진술과 흔적을 통해 한 인간의 내면에서 일어난 고요한 변화를 객관적으로 들여다보고자 합니다.",
+  "text_source": "assets/voice_ref_voxcpm2_ko/H.txt (30/10/2026)"
+ },
+ "D": {
+  "f0_target": [
+   78,
+   88
+  ],
+  "takes": [
+   [
+    2.0,
+    7
+   ],
+   [
+    2.0,
+    42
+   ],
+   [
+    2.0,
+    101
+   ],
+   [
+    2.0,
+    2024
+   ]
+  ],
+  "why": "BO KO THEO SEED BO VN (31/10/2026, ko2). Dieu tra vien D3_SH (VN) = D_NEW_subbass-husky_t02, seed 7 cfg 2.0 (ghi trong refs.json). en2 cung seed 7 ra D 85-145 Hz => them seed 101/2024",
+  "control_variants": [
+   {
+    "tag": "vnctrl_ko",
+    "control": "A Vietnamese man in his late fifties, sub-bass, very deep and husky, chest voice, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, crisp consonants, quiet studio recording"
+   },
+   {
+    "tag": "koctrl",
+    "control": "A man in his late fifties, sub-bass, very deep and husky, chest voice, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, crisp consonants, quiet studio recording"
+   }
+  ],
+  "text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "text_source": "assets/voice_ref_voxcpm2_ko/D.txt (30/10/2026)"
+ },
+ "C": {
+  "f0_target": [
+   200,
+   218
+  ],
+  "takes": [
+   [
+    2.0,
+    77
+   ],
+   [
+    2.0,
+    42
+   ]
+  ],
+  "why": "BO KO THEO SEED BO VN (31/10/2026, ko2). Chuyen gia C2_AB03 (VN) = C_NEW_alto-brisk_t03, seed 77 (ghi trong refs.json)",
+  "control_variants": [
+   {
+    "tag": "vnctrl_ko",
+    "control": "A Vietnamese woman around forty, lower mid-pitched alto voice, clear and crisp articulation with precise consonants, confident and assertive forensic psychologist, Vietnamese Standard, brisk pace, quiet studio recording"
+   },
+   {
+    "tag": "koctrl",
+    "control": "A woman around forty, lower mid-pitched alto voice, clear and crisp articulation with precise consonants, confident and assertive forensic psychologist, Korean Standard, brisk pace, quiet studio recording"
+   }
+  ],
+  "text": "이러한 기제는 단순한 기억에서 비롯되는 것이 아니라, 익숙한 행동 양식을 반복하려는 경향에서 기인합니다. 그것이 바로 동일한 행동이 같은 장소에서 계속해서 되풀이되는 이유입니다. 임상 연구에 따르면, 통제력을 상실했다고 느낄 때 방어 반응이 가장 두드러지게 나타납니다. 심리 구조를 규명하기 위해서는 장기간 축적된 객관적인 행동 데이터에 기반한 분석이 필수적입니다.",
+  "text_source": "assets/voice_ref_voxcpm2_ko/C.txt (30/10/2026)"
+ },
+ "W5_HIGH": {
+  "f0_target": [
+   258,
+   292
+  ],
+  "takes": [
+   [
+    2.0,
+    2024
+   ],
+   [
+    2.0,
+    42
+   ]
+  ],
+  "why": "BO KO THEO SEED BO VN (31/10/2026, ko2). N2 W5_HIGH (VN) = soprano take01 do thang; seed khong ghi, suy ra 2024 (bien thu 3 -> TAKE_CONFIGS[2])",
+  "control_variants": [
+   {
+    "tag": "vnctrl_ko",
+    "control": "A young woman in her early twenties, soprano and very high-pitched with a bright bell-like youthful timbre, conversational and slightly breathy, Vietnamese Standard, neutral and relaxed tone, natural everyday pace"
+   },
+   {
+    "tag": "koctrl",
+    "control": "A young woman in her early twenties, soprano and very high-pitched with a bright bell-like youthful timbre, conversational and slightly breathy, Korean Standard, neutral and relaxed tone, natural everyday pace"
+   }
+  ],
+  "text": "이 길은 밤이 되면 인적이 드물어지고, 멀리서 지나가는 차 소리만 희미하게 들려옵니다. 저는 보통 시장 골목을 지나 과일 가게 앞에 잠시 들르곤 했습니다. 그 일에 대해 묻는 사람이 있어도 그저 못 들은 척 어깨를 으쓱할 뿐이었죠. 그 무렵 날씨가 쌀쌀해져서 길가 가게들도 평소보다 일찍 문을 닫았습니다. 가로등 아래에 서 있던 그림자를 본 기억은 나지만, 그저 지나가는 행인인 줄만 알았습니다.",
+  "text_source": "assets/voice_ref_voxcpm2_ko/W1.txt (30/10/2026)"
+ },
+ "W6_LOW": {
+  "f0_target": [
+   148,
+   182
+  ],
+  "takes": [
+   [
+    2.5,
+    999
+   ],
+   [
+    2.0,
+    42
+   ]
+  ],
+  "why": "BO KO THEO SEED BO VN (31/10/2026, ko2). N1 W6_LOW (VN) = low take05 do thang; seed khong ghi, suy ra (2.5, 999) = TAKE_CONFIGS[4]",
+  "control_variants": [
+   {
+    "tag": "vnctrl_ko",
+    "control": "A woman in her late thirties, low-pitched and warm with a deep rounded resonance, calm and unhurried, intimate close-mic narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace"
+   },
+   {
+    "tag": "koctrl",
+    "control": "A woman in her late thirties, low-pitched and warm with a deep rounded resonance, calm and unhurried, intimate close-mic narration, Korean Standard, neutral and reflective tone, moderately slow pace"
+   }
+  ],
+  "text": "저는 매일 이른 아침부터 가게 문을 열고 밤늦게까지 자리를 지킵니다. 오가는 이웃들이 다 아는 얼굴들이라 누가 문을 두드려도 반갑게 맞이하곤 하죠. 장사 이야기를 물어오면 오랜 지인처럼 이런저런 이야기를 편하게 나눕니다. 이 동네는 예전부터 조용해서 아침마다 산책하는 어르신들이 대부분이었습니다. 툇마루에서 차를 마시며 세월에 따라 변해가는 골목의 모습을 눈에 담아왔습니다.",
+  "text_source": "assets/voice_ref_voxcpm2_ko/W4.txt (30/10/2026)"
+ }
+}
