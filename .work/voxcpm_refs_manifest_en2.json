@@ -1,0 +1,146 @@
+{
+ "H": {
+  "f0_target": [
+   100,
+   118
+  ],
+  "takes": [
+   [
+    2.0,
+    42
+   ],
+   [
+    2.0,
+    101
+   ],
+   [
+    2.0,
+    2024
+   ]
+  ],
+  "why": "BO EN THEO SEED BO VN (31/10/2026). Host H.wav (VN) - take01 cua generator cu, seed khong ghi trong refs.json; suy ra 42 (TAKE_CONFIGS[0]), them 101/2024 phong khi sai",
+  "control_variants": [
+   {
+    "tag": "vnctrl",
+    "control": "A man in his early forties, low-pitched and warm with a deep chesty resonance, calm and unhurried, intimate late-night podcast narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace"
+   },
+   {
+    "tag": "enctrl",
+    "control": "A man in his early forties, low-pitched and warm with a deep chesty resonance, calm and unhurried, intimate late-night podcast narration, English Standard, neutral and reflective tone, moderately slow pace"
+   }
+  ],
+  "text": "Welcome to the criminal psychology archives. Every case begins with a heavy question that nobody seems able to answer, even though the truth has been there all along. As we retrace the investigative files, we are not looking for hasty judgments, but seeking to understand the quiet internal shifts within a human mind through every testimony and lasting trace."
+ },
+ "D": {
+  "f0_target": [
+   78,
+   88
+  ],
+  "takes": [
+   [
+    2.0,
+    7
+   ],
+   [
+    2.0,
+    42
+   ]
+  ],
+  "why": "BO EN THEO SEED BO VN (31/10/2026). Dieu tra vien D3_SH (VN) = D_NEW_subbass-husky_t02, seed 7 cfg 2.0 (ghi trong refs.json)",
+  "control_variants": [
+   {
+    "tag": "vnctrl",
+    "control": "A Vietnamese man in his late fifties, sub-bass, very deep and husky, chest voice, cold and flat, emotionless police investigator, Vietnamese Standard, slow and measured pace, crisp consonants, quiet studio recording"
+   },
+   {
+    "tag": "enctrl",
+    "control": "A man in his late fifties, sub-bass, very deep and husky, chest voice, cold and flat, emotionless police investigator, English Standard, slow and measured pace, crisp consonants, quiet studio recording"
+   }
+  ],
+  "text": "The case file records every detail. Not a single statement matches what we uncovered inside the residence. The question remains open, and this entire record has not revealed everything yet. The scene was secured from the start, and every piece of evidence was cataloged and sealed in strict sequence. We must cross-reference every timestamp and verify the movement logs before reaching a final conclusion."
+ },
+ "C": {
+  "f0_target": [
+   200,
+   218
+  ],
+  "takes": [
+   [
+    2.0,
+    77
+   ],
+   [
+    2.0,
+    42
+   ]
+  ],
+  "why": "BO EN THEO SEED BO VN (31/10/2026). Chuyen gia C2_AB03 (VN) = C_NEW_alto-brisk_t03, seed 77 (ghi trong refs.json)",
+  "control_variants": [
+   {
+    "tag": "vnctrl",
+    "control": "A Vietnamese woman around forty, lower mid-pitched alto voice, clear and crisp articulation with precise consonants, confident and assertive forensic psychologist, Vietnamese Standard, brisk pace, quiet studio recording"
+   },
+   {
+    "tag": "enctrl",
+    "control": "A woman around forty, lower mid-pitched alto voice, clear and crisp articulation with precise consonants, confident and assertive forensic psychologist, English Standard, brisk pace, quiet studio recording"
+   }
+  ],
+  "text": "This mechanism does not stem from memory, but from how individuals repeat familiar patterns. That is why such behavior constantly resurfaces in the exact same place and requires thorough explanation. In clinical studies, defensive reactions manifest most prominently when a subject perceives a total loss of control. Analyzing psychological structures demands an objective lens, founded on behavioral data gathered over extended periods."
+ },
+ "W5_HIGH": {
+  "f0_target": [
+   258,
+   292
+  ],
+  "takes": [
+   [
+    2.0,
+    2024
+   ],
+   [
+    2.0,
+    42
+   ]
+  ],
+  "why": "BO EN THEO SEED BO VN (31/10/2026). N2 W5_HIGH (VN) = soprano take01 do thang; seed khong ghi, suy ra 2024 (bien thu 3 -> TAKE_CONFIGS[2])",
+  "control_variants": [
+   {
+    "tag": "vnctrl",
+    "control": "A young woman in her early twenties, soprano and very high-pitched with a bright bell-like youthful timbre, conversational and slightly breathy, Vietnamese Standard, neutral and relaxed tone, natural everyday pace"
+   },
+   {
+    "tag": "enctrl",
+    "control": "A young woman in her early twenties, soprano and very high-pitched with a bright bell-like youthful timbre, conversational and slightly breathy, English Standard, neutral and relaxed tone, natural everyday pace"
+   }
+  ],
+  "text": "During our years at Trenton base, we grew used to the neat, orderly roads and the silent hallways. Every morning, everyone would pause in front of the brass plaque on the main gate, and no one ever mentioned what happened afterward. I still clearly remember the face of the soldier on night duty that last night."
+ },
+ "W6_LOW": {
+  "f0_target": [
+   148,
+   182
+  ],
+  "takes": [
+   [
+    2.5,
+    999
+   ],
+   [
+    2.0,
+    42
+   ]
+  ],
+  "why": "BO EN THEO SEED BO VN (31/10/2026). N1 W6_LOW (VN) = low take05 do thang; seed khong ghi, suy ra (2.5, 999) = TAKE_CONFIGS[4]",
+  "control_variants": [
+   {
+    "tag": "vnctrl",
+    "control": "A woman in her late thirties, low-pitched and warm with a deep rounded resonance, calm and unhurried, intimate close-mic narration, Vietnamese Standard, neutral and reflective tone, moderately slow pace"
+   },
+   {
+    "tag": "enctrl",
+    "control": "A woman in her late thirties, low-pitched and warm with a deep rounded resonance, calm and unhurried, intimate close-mic narration, English Standard, neutral and reflective tone, moderately slow pace"
+   }
+  ],
+  "text": "In the eyes of all of us at Trenton base, Colonel Williams was the very picture of perfection. He was calm, correct down to every crease of his uniform, worked tirelessly, and never once raised his voice at a subordinate. But after everything came to light, whenever we recall his placid gaze at the parades, we all feel a chill. We had stood beside a most dangerous predator, and still bowed our heads in admiration."
+ }
+}

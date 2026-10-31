@@ -154,9 +154,12 @@ def run_candidates(model, manifest, sample_rate, n_seeds):
         role_dir = RAW / role
         role_dir.mkdir(parents=True, exist_ok=True)
         print(f"\n--- {role}  (muc tieu F0 clip {lo_f0}-{hi_f0} Hz) ---")
+        # manifest co the ghim (cfg, seed) rieng cho vai: "takes": [[2.0, 7], ...]
+        # (bo EN 31/10/2026 — dung lai seed cua giong VN da chot); khong co -> nhu cu
+        takes = [(float(c), int(s)) for c, s in data["takes"]] if data.get("takes") else \
+            [TAKE_CONFIGS[i % len(TAKE_CONFIGS)] for i in range(n_seeds)]
         for v in data["control_variants"]:
-            for i in range(n_seeds):
-                cfg, seed = TAKE_CONFIGS[i % len(TAKE_CONFIGS)]
+            for i, (cfg, seed) in enumerate(takes):
                 name = f"{role}_{v['tag']}_t{i + 1:02d}"
                 raw_p = role_dir / f"{name}.wav"
                 print(f"  > {name} (seed={seed}, cfg={cfg})...", end="", flush=True)
