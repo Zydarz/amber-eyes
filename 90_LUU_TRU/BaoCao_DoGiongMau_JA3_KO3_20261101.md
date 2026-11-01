@@ -70,7 +70,7 @@ CER đo bằng `listen_audio`, 2 lượt (Q6), so ký tự sau NFKC + bỏ dấu
 | Vai | JA | KO |
 |---|---|---|
 | H | ✅ `ja2/H_vnctrl_ja_t02` (0 lỗi đọc sai) | ✅ `ko2/H_koctrl_t01` (CER 0%) |
-| D | ✅ `ja3/D_lowgrowl_ja3_t01` (93 Hz, CER 0–0,7%) | ✅ `ko5/D_clone_d3sh_ko5_t02` (86,6 Hz) / `t01` (87,1 Hz) |
+| D | ✅ `ja3/D_lowgrowl_ja3_t01` (93 Hz, CER 0–0,7%) | ✅ `ko5/D_clone_d3sh_ko5_t01` (87,1 Hz, CER 0%) · dự phòng `t10` (83,0 Hz, CER 0%) — ⚠ dài 31 s |
 | C | ✅ `ja3/C_deepalto_ja3_t03` (CER 0%) | ✅ `ko3/C_contralto_ko3_t04` (CER 0%) |
 
 ## Bổ sung 01/11/2026 — vòng ko5 (chỉ D tiếng Hàn qua chế độ clone từ D3_SH): ĐẠT
@@ -95,8 +95,21 @@ Thực hiện theo chỉ đạo của người dùng: dùng `D3_SH.wav` (`assets
 | `D_clone_d3sh_ko5_t09` | 888 | 30,7 s | 22,2 s | 83,3 | 83,2 | −18,0 | −2,0 | 1,28 s | ✅ ĐẠT |
 | `D_clone_d3sh_ko5_t10` | 2024 | 30,9 s | 22,4 s | 82,9 | 83,0 | −18,3 | −2,1 | 1,24 s | ✅ ĐẠT |
 
-### Đánh giá G9 tiếng Hàn (H↔D ≥ 4 nửa cung):
-- Host tiếng Hàn `ko2/H_koctrl_t01`: F0 trung vị **129 Hz**.
-- Detective tiếng Hàn `ko5/D_clone_d3sh_ko5_t01` hoặc `t02`: F0 trung vị **86,6 – 87,1 Hz**.
-- Khoảng cách cao độ: $12 \times \log_2(129 / 86.6) \approx \mathbf{6,88\text{ nửa cung}}$ (nếu chọn `t04` F0 78,7 Hz thì khoảng cách lên tới **8,56 nửa cung**).
-- **Vượt xa yêu cầu G9 ($\ge 4$ nửa cung)**. Lần đầu tiên tiếng Hàn có giọng Điều tra viên cực trầm, tách bạch hoàn toàn với Host.
+### Kiểm lại trên Windows (01/11/2026) — sửa số của báo cáo Mac
+
+Đo lại bằng `voxcpm_do_mau.measure(final=True)` + YIN, CER `listen_audio` 2 lượt (Q6). F0 khớp số Mac (±1 Hz). **Hai chỗ sai trong phần Mac ghi ở trên:**
+1. **"Tiếng nói 21,9–22,9 s" sai** — file không có lặng đầu/cuối, phần có tiếng thực là **29,8–32,0 s ⇒ cả 10 take vượt 28 s (V2)**. Clone đọc chậm hơn Voice Design (cùng lời: ko3 ~24 s).
+2. **"Host KO 129 Hz" sai** — 129 Hz là bản Higgs clone giọng H **tiếng Việt** (pilot). Giọng mẫu `ko2/H_koctrl_t01` đo được AC 121,2 / YIN 124,5 Hz. Trên giọng mẫu H~D = 12·log2(124,5/87,1) ≈ **6,2 nc** (vẫn đạt). G9 thật phải đo trên bản Higgs đọc tiếng Hàn — **chưa đo**.
+
+| Take | YIN (Hz) | CER lượt 1 / 2 | Lỗi đọc sai | Kết luận |
+|---|---:|---|---|---|
+| `t01` (seed 7) | 87,1 | **0,0% / 0,0%** | 0 | ✅ **chọn** |
+| `t10` (seed 2024) | 83,0 | **0,0% / 0,0%** | 0 | ✅ dự phòng |
+| `t03` | 84,4 | 1,3% / 1,3% | 일지→의지, 상세→상쇄 | loại |
+| `t02`, `t08` | 86,6 / 83,2 | 2,0% / 2,0% | 상세→생생 / 상쇄 | loại |
+| `t05`, `t06`, `t09` | 82,8–83,2 | 2,0–3,3% | 상세→상쇄, 주택→도태… | loại |
+| `t07` | 81,1 | 5,3% / 5,3% | 일지에→의뢰하, 주택→조태 | loại |
+| `t04` | 78,7 | 9,9% / 6,6% | nhiều | loại (F0 thấp nhất nhưng đọc sai nhiều) |
+
+Không take nào lẫn tiếng Việt từ giọng tham chiếu.
+**Còn lại:** `t01` dài 31,2 s > 28 s. Cách sửa không động tới cao độ: cắt tại khoảng lặng trước câu cuối (+ sửa `.txt` khớp lời) → ~25 s; cần người dùng đồng ý (L4, sao lưu L5). Hoặc người dùng chấp nhận 31 s.
