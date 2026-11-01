@@ -34,6 +34,7 @@ Từ khoá: **PHẢI** = bắt buộc · **CẤM** = không bao giờ · **NÊN*
 | L7 | **Mọi tài sản PHẢI có dòng trong `provenance.json`** (công cụ, prompt, ngày, điều khoản, đã kiểm thương mại chưa) | Hồ sơ khi bị khiếu nại bản quyền |
 | L8 | **Tách bạch tập:** mọi lệnh chạy với `AE_EP=XX` (Tập 01 không cần); bản ngôn ngữ khác thêm `AE_LANG=..`. **CẤM sửa script cho riêng một tập** — cấu hình tập nằm trong `EPISODES` của `.work/edition.py` | Tập 02 suýt ghi đè file Tập 01; nhiều chỗ "viết cứng cho Tập 01" gây lỗi ở Tập 02 |
 | L9 | **Sửa script dùng chung → PHẢI kiểm hồi quy Tập 01** (danh sách câu, mốc thời gian, bảng shot giống hệt bản cũ) | Script dùng chung cho mọi tập |
+| L10 | **CẤM commit media (video/audio) và artifact QC** (contact sheet PNG, khung hình QC, ảnh nền `assets/bg/`). Chỉ commit **tài liệu + code + config**; media/artifact đã bị `.gitignore` loại, file vẫn còn nguyên trên đĩa | Lịch sử repo phình ~680 MB vì ảnh nhị phân; người dùng chốt 01/11/2026 |
 
 ---
 
