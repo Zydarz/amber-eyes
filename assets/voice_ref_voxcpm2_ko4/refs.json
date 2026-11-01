@@ -1,0 +1,963 @@
+{
+ "D_bassgravel_ko4_t01": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late fifties, extremely low-pitched deep bass voice, rough and gravelly, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_bassgravel_ko4_t01.wav",
+  "seconds": 28.12,
+  "f0_median_hz": 158.4,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.71,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "THOI LUONG 28.1s ngoai [16.0-28.0]s",
+   "F0 158Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "bassgravel_ko4",
+  "seed": 3,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_bassgravel_ko4_t01.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:00:50.013421"
+ },
+ "D_bassgravel_ko4_t02": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late fifties, extremely low-pitched deep bass voice, rough and gravelly, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_bassgravel_ko4_t02.wav",
+  "seconds": 22.83,
+  "f0_median_hz": 173.9,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 2.1,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 174Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "bassgravel_ko4",
+  "seed": 11,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_bassgravel_ko4_t02.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:01:45.857678"
+ },
+ "D_bassgravel_ko4_t03": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late fifties, extremely low-pitched deep bass voice, rough and gravelly, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_bassgravel_ko4_t03.wav",
+  "seconds": 25.29,
+  "f0_median_hz": 139.1,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.9,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 139Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "bassgravel_ko4",
+  "seed": 99,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_bassgravel_ko4_t03.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:02:47.978486"
+ },
+ "D_bassgravel_ko4_t04": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late fifties, extremely low-pitched deep bass voice, rough and gravelly, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_bassgravel_ko4_t04.wav",
+  "seconds": 21.92,
+  "f0_median_hz": 131.1,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 2.19,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 131Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "bassgravel_ko4",
+  "seed": 256,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_bassgravel_ko4_t04.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:03:42.394864"
+ },
+ "D_bassgravel_ko4_t05": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late fifties, extremely low-pitched deep bass voice, rough and gravelly, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_bassgravel_ko4_t05.wav",
+  "seconds": 22.56,
+  "f0_median_hz": 175.8,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 2.13,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 176Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "bassgravel_ko4",
+  "seed": 500,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_bassgravel_ko4_t05.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:04:38.517792"
+ },
+ "D_bassgravel_ko4_t06": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late fifties, extremely low-pitched deep bass voice, rough and gravelly, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_bassgravel_ko4_t06.wav",
+  "seconds": 24.83,
+  "f0_median_hz": 127.0,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.93,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 127Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "bassgravel_ko4",
+  "seed": 888,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_bassgravel_ko4_t06.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:05:39.274188"
+ },
+ "D_bassgravel_ko4_t07": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late fifties, extremely low-pitched deep bass voice, rough and gravelly, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_bassgravel_ko4_t07.wav",
+  "seconds": 26.95,
+  "f0_median_hz": 109.6,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.78,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 110Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "bassgravel_ko4",
+  "seed": 2025,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_bassgravel_ko4_t07.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:06:44.890287"
+ },
+ "D_bassgravel_ko4_t08": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late fifties, extremely low-pitched deep bass voice, rough and gravelly, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_bassgravel_ko4_t08.wav",
+  "seconds": 22.51,
+  "f0_median_hz": 137.9,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 2.13,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 138Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "bassgravel_ko4",
+  "seed": 4096,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_bassgravel_ko4_t08.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:07:40.205973"
+ },
+ "D_smokerbass_ko4_t01": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late fifties, deep bass voice with a gritty smoker's rasp, very low register, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_smokerbass_ko4_t01.wav",
+  "seconds": 23.7,
+  "f0_median_hz": 161.6,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 2.03,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 162Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "smokerbass_ko4",
+  "seed": 3,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_smokerbass_ko4_t01.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:08:38.397251"
+ },
+ "D_smokerbass_ko4_t02": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late fifties, deep bass voice with a gritty smoker's rasp, very low register, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_smokerbass_ko4_t02.wav",
+  "seconds": 24.6,
+  "f0_median_hz": 163.3,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.95,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 163Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "smokerbass_ko4",
+  "seed": 11,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_smokerbass_ko4_t02.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:09:38.309533"
+ },
+ "D_smokerbass_ko4_t03": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late fifties, deep bass voice with a gritty smoker's rasp, very low register, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_smokerbass_ko4_t03.wav",
+  "seconds": 24.07,
+  "f0_median_hz": 135.0,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.99,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 135Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "smokerbass_ko4",
+  "seed": 99,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_smokerbass_ko4_t03.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:10:37.575928"
+ },
+ "D_smokerbass_ko4_t04": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late fifties, deep bass voice with a gritty smoker's rasp, very low register, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_smokerbass_ko4_t04.wav",
+  "seconds": 26.46,
+  "f0_median_hz": 126.0,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.81,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 126Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "smokerbass_ko4",
+  "seed": 256,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_smokerbass_ko4_t04.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:11:42.282537"
+ },
+ "D_smokerbass_ko4_t05": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late fifties, deep bass voice with a gritty smoker's rasp, very low register, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_smokerbass_ko4_t05.wav",
+  "seconds": 20.71,
+  "f0_median_hz": 109.6,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 2.32,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 110Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "smokerbass_ko4",
+  "seed": 500,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_smokerbass_ko4_t05.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:12:33.470646"
+ },
+ "D_smokerbass_ko4_t06": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late fifties, deep bass voice with a gritty smoker's rasp, very low register, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_smokerbass_ko4_t06.wav",
+  "seconds": 24.55,
+  "f0_median_hz": 124.0,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.96,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 124Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "smokerbass_ko4",
+  "seed": 888,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_smokerbass_ko4_t06.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:13:33.959277"
+ },
+ "D_smokerbass_ko4_t07": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late fifties, deep bass voice with a gritty smoker's rasp, very low register, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_smokerbass_ko4_t07.wav",
+  "seconds": 24.15,
+  "f0_median_hz": 132.2,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.99,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 132Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "smokerbass_ko4",
+  "seed": 2025,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_smokerbass_ko4_t07.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:14:33.603408"
+ },
+ "D_smokerbass_ko4_t08": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A man in his late fifties, deep bass voice with a gritty smoker's rasp, very low register, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_smokerbass_ko4_t08.wav",
+  "seconds": 22.77,
+  "f0_median_hz": 137.9,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 2.11,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 138Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "smokerbass_ko4",
+  "seed": 4096,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_smokerbass_ko4_t08.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:15:29.653453"
+ },
+ "D_oldbass_ko4_t01": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "An elderly man in his mid-sixties, extremely deep bass voice, very low and heavy chest resonance, slightly rough, cold and flat, emotionless veteran police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_oldbass_ko4_t01.wav",
+  "seconds": 23.35,
+  "f0_median_hz": 187.1,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 2.06,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 187Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "oldbass_ko4",
+  "seed": 3,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_oldbass_ko4_t01.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:16:27.463050"
+ },
+ "D_oldbass_ko4_t02": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "An elderly man in his mid-sixties, extremely deep bass voice, very low and heavy chest resonance, slightly rough, cold and flat, emotionless veteran police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_oldbass_ko4_t02.wav",
+  "seconds": 24.38,
+  "f0_median_hz": 144.1,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.97,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 144Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "oldbass_ko4",
+  "seed": 11,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_oldbass_ko4_t02.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:17:27.034642"
+ },
+ "D_oldbass_ko4_t03": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "An elderly man in his mid-sixties, extremely deep bass voice, very low and heavy chest resonance, slightly rough, cold and flat, emotionless veteran police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_oldbass_ko4_t03.wav",
+  "seconds": 25.46,
+  "f0_median_hz": 153.8,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.89,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 154Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "oldbass_ko4",
+  "seed": 99,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_oldbass_ko4_t03.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:18:29.830250"
+ },
+ "D_oldbass_ko4_t04": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "An elderly man in his mid-sixties, extremely deep bass voice, very low and heavy chest resonance, slightly rough, cold and flat, emotionless veteran police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_oldbass_ko4_t04.wav",
+  "seconds": 25.77,
+  "f0_median_hz": 110.3,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.86,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 110Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "oldbass_ko4",
+  "seed": 256,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_oldbass_ko4_t04.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:19:32.990841"
+ },
+ "D_oldbass_ko4_t05": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "An elderly man in his mid-sixties, extremely deep bass voice, very low and heavy chest resonance, slightly rough, cold and flat, emotionless veteran police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_oldbass_ko4_t05.wav",
+  "seconds": 23.45,
+  "f0_median_hz": 172.0,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 2.05,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 172Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "oldbass_ko4",
+  "seed": 500,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_oldbass_ko4_t05.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:20:30.510678"
+ },
+ "D_oldbass_ko4_t06": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "An elderly man in his mid-sixties, extremely deep bass voice, very low and heavy chest resonance, slightly rough, cold and flat, emotionless veteran police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_oldbass_ko4_t06.wav",
+  "seconds": 24.85,
+  "f0_median_hz": 133.3,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.93,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 133Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "oldbass_ko4",
+  "seed": 888,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_oldbass_ko4_t06.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:21:31.398568"
+ },
+ "D_oldbass_ko4_t07": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "An elderly man in his mid-sixties, extremely deep bass voice, very low and heavy chest resonance, slightly rough, cold and flat, emotionless veteran police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_oldbass_ko4_t07.wav",
+  "seconds": 21.38,
+  "f0_median_hz": 137.9,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 2.25,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 138Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "oldbass_ko4",
+  "seed": 2025,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_oldbass_ko4_t07.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:22:24.479809"
+ },
+ "D_oldbass_ko4_t08": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "An elderly man in his mid-sixties, extremely deep bass voice, very low and heavy chest resonance, slightly rough, cold and flat, emotionless veteran police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_oldbass_ko4_t08.wav",
+  "seconds": 24.2,
+  "f0_median_hz": 124.0,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.98,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 124Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "oldbass_ko4",
+  "seed": 4096,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_oldbass_ko4_t08.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:23:24.021893"
+ },
+ "D_basso_ko4_t01": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A large heavy-set man in his late fifties, basso profundo, the lowest possible male register, dark and husky, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, crisp consonants, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_basso_ko4_t01.wav",
+  "seconds": 23.14,
+  "f0_median_hz": 145.5,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 2.07,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 145Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "basso_ko4",
+  "seed": 3,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_basso_ko4_t01.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:24:20.713208"
+ },
+ "D_basso_ko4_t02": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A large heavy-set man in his late fifties, basso profundo, the lowest possible male register, dark and husky, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, crisp consonants, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_basso_ko4_t02.wav",
+  "seconds": 26.34,
+  "f0_median_hz": 172.0,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.82,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 172Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "basso_ko4",
+  "seed": 11,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_basso_ko4_t02.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:25:25.945712"
+ },
+ "D_basso_ko4_t03": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A large heavy-set man in his late fifties, basso profundo, the lowest possible male register, dark and husky, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, crisp consonants, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_basso_ko4_t03.wav",
+  "seconds": 24.27,
+  "f0_median_hz": 144.1,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.98,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 144Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "basso_ko4",
+  "seed": 99,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_basso_ko4_t03.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:26:26.929365"
+ },
+ "D_basso_ko4_t04": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A large heavy-set man in his late fifties, basso profundo, the lowest possible male register, dark and husky, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, crisp consonants, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_basso_ko4_t04.wav",
+  "seconds": 26.79,
+  "f0_median_hz": 115.1,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.79,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 115Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "basso_ko4",
+  "seed": 256,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_basso_ko4_t04.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:27:32.778710"
+ },
+ "D_basso_ko4_t05": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A large heavy-set man in his late fifties, basso profundo, the lowest possible male register, dark and husky, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, crisp consonants, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_basso_ko4_t05.wav",
+  "seconds": 22.79,
+  "f0_median_hz": 183.9,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 2.11,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 184Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "basso_ko4",
+  "seed": 500,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_basso_ko4_t05.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:28:28.704594"
+ },
+ "D_basso_ko4_t06": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A large heavy-set man in his late fifties, basso profundo, the lowest possible male register, dark and husky, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, crisp consonants, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_basso_ko4_t06.wav",
+  "seconds": 24.54,
+  "f0_median_hz": 118.5,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.96,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 119Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "basso_ko4",
+  "seed": 888,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_basso_ko4_t06.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:29:28.859458"
+ },
+ "D_basso_ko4_t07": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A large heavy-set man in his late fifties, basso profundo, the lowest possible male register, dark and husky, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, crisp consonants, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_basso_ko4_t07.wav",
+  "seconds": 27.23,
+  "f0_median_hz": 128.0,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.76,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 128Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "basso_ko4",
+  "seed": 2025,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_basso_ko4_t07.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:30:35.839504"
+ },
+ "D_basso_ko4_t08": {
+  "voice_source": "VoxCPM2 (OpenBMB) - Voice Design",
+  "control_instruction": "A large heavy-set man in his late fifties, basso profundo, the lowest possible male register, dark and husky, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, crisp consonants, quiet studio recording",
+  "target_text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다.",
+  "source_file": "/Users/duonganhhai/CodeGit/amber-eyes/.work/voxcpm_raw/D/D_basso_ko4_t08.wav",
+  "seconds": 24.85,
+  "f0_median_hz": 134.5,
+  "f0_target_hz": [
+   78,
+   88
+  ],
+  "syl_per_s": 1.93,
+  "syl_target": null,
+  "sample_rate": 24000,
+  "channels": 1,
+  "lufs_target": -18.0,
+  "model": "openbmb/VoxCPM2",
+  "license": "Apache-2.0",
+  "attribution_required": false,
+  "notes": [
+   "F0 134Hz ngoai dai muc tieu 78-88Hz"
+  ],
+  "role": "D",
+  "variant": "basso_ko4",
+  "seed": 4096,
+  "cfg": 2.0,
+  "reference_file": "/Users/duonganhhai/CodeGit/amber-eyes/assets/voice_ref_voxcpm2_ko4/D_basso_ko4_t08.wav",
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "generated_at": "2026-11-01T13:31:39.149984"
+ }
+}
