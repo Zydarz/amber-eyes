@@ -64,3 +64,13 @@ CER đo bằng `listen_audio`, 2 lượt (Q6), so ký tự sau NFKC + bỏ dấu
 ⇒ Qua **56 take** (ko2 + ko3 + ko4), VoxCPM2 Voice Design đọc tiếng Hàn **không cho giọng nam nào dưới 101 Hz**. Thêm seed/câu mô tả không có ích.
 
 **Hướng đề xuất: VoxCPM2 chế độ clone.** Pilot clone 31/10 (`assets/pilot_voxcpm_clone/`, tiếng Việt) đo lại: clone `D3_SH` → YIN trung vị **91,7 Hz** (87–100), clone `H` → 129 Hz ⇒ cách 5,8 nc. Clone giữ được giọng D trầm. Đề xuất: dùng `D3_SH.wav` (VN) làm giọng tham chiếu cho VoxCPM2 đọc lời tiếng Hàn → sinh clip mới `D_KO` (file mới, không chép/đổi tên clip VN, §4.4). Cần người dùng đồng ý vì đây là cách làm mới (L4).
+
+## Trạng thái tổng hợp 3 vai chính (01/11/2026)
+
+| Vai | JA | KO |
+|---|---|---|
+| H | ✅ `ja2/H_vnctrl_ja_t02` (0 lỗi đọc sai) | ✅ `ko2/H_koctrl_t01` (CER 0%) |
+| D | ✅ `ja3/D_lowgrowl_ja3_t01` (93 Hz, CER 0–0,7%) | ❌ chưa có — chờ người dùng duyệt hướng clone |
+| C | ✅ `ja3/C_deepalto_ja3_t03` (CER 0%) | ✅ `ko3/C_contralto_ko3_t04` (CER 0%) |
+
+Nếu duyệt clone: Mac **chỉ sinh lại vai D** (~8 take KO, tuỳ chọn thêm ~8 take JA để so), H/C/N1/N2 giữ nguyên. Sau đó: đo F0 + CER 2 lượt → chọn D → tham số hoá Higgs cho `ja`/`ko` → chạy thử 1 hồi đo G9 trên bản đọc.
