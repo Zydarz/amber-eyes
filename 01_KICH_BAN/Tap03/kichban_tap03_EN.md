@@ -117,8 +117,8 @@ On May 7th, 1972, two Fresno State University freshmen — Mary Ann Pesce and An
 Kemper handcuffed one of them and locked the other inside the trunk.
 On September 14th, 1972, Aiko Koo, a young high school junior of just 15 years old.
 On January 7th, 1973, Cindy Schall, an 18-year-old student at Cabrillo College.
-He shot her with a .22 caliber pistol, attempted to retrieve the bullet to defeat ballistic matching, and disposed of the remains down coastal ravines.
-The victim’s head, however, he transported back and buried in his mother’s backyard garden.
+She never returned home.
+Kemper went to great lengths to destroy physical traces and evade forensic examination.
 On February 5th, 1973, following a furious screaming match with his mother, Kemper drove off in a rage and picked up two UCSC students — Rosalind Thorpe, 23, and Alice Liu, 21 — as they stood hitchhiking."
 
 **[Pause 1.5 seconds]**
@@ -136,8 +136,7 @@ He drove a yellow 1969 Ford Galaxie — an exceptionally common model that attra
 Affixed to the front bumper was a university employee parking decal.
 At the time, UCSC advised female students to hitchhike only with cars bearing university permits, and Kemper obtained that decal through his mother’s administrative job on campus.
 That small, trusted emblem turned his car into the vehicle young women considered safest of all.
-Inside his trunk, he kept an organized inventory of plastic bags, hunting knives, blankets, and handcuffs.
-To dismember remains and eliminate forensic evidence, he deployed specialized blades — including a heavy hunting knife he nicknamed ‘The General’ — along with finely honed cutting implements.
+Inside his trunk, he prepared everything well in advance — a mark of cold calculation, not spontaneous impulse.
 With his first two victims, he handcuffed one girl and forced the other into the trunk.
 And three firearms — a rifle, a shotgun, and a .22 caliber small-bore rifle — alongside over 200 rounds of ammunition, were found in the rental car in Reno, Nevada that he used during his interstate flight.
 Yet Kemper’s deadliest weapon was neither a gun nor a knife.
@@ -187,7 +186,7 @@ From the time Ed was eight years old, Clarnell banished her young son to sleep i
 A heavy trapdoor rested directly beneath the dining table upstairs — requiring the table to be moved before he could emerge.
 His father eventually intervened, threatening to contact the police before that confinement was finally halted.
 Day after day, she subjected him to venomous verbal humiliation, mocking his immense size, ridiculing his clumsiness, and crushing every ounce of self-worth.
-Kemper later characterized his maternal grandmother using terms psychoanalysts noted with great gravity: that she had ‘emasculated’ his grandfather and destroyed his own boyhood masculinity.
+Kemper later characterized his paternal grandmother using terms psychoanalysts noted with great gravity: that she had ‘emasculated’ his grandfather and destroyed his own boyhood masculinity.
 That was precisely the psychological subjugation he endured under his own mother.
 This systematic emotional abuse drilled a lethal conviction into the child’s developing mind: that he was a grotesque aberration, utterly unlovable and unworthy of existence."
 
@@ -301,8 +300,7 @@ They also provided enduring inspiration for timeless cinematic works such as The
 "The trial convened on October 23rd, 1973, in Santa Cruz County Superior Court.
 Following five hours of jury deliberation, a verdict was delivered on November 8th, 1973, adjudging Edmund Kemper sane and guilty across all indictments.
 Prosecutor Peter Chang secured convictions for first-degree murder across all eight victims: six young women, alongside his biological mother and her companion.
-Judge Harry F.
-Brauer officially sentenced Kemper to eight concurrent life terms — each ranging from seven years to life — rather than eight consecutive terms as popular accounts frequently misstate.
+Judge Harry Brauer officially sentenced Kemper to eight concurrent life terms — each ranging from seven years to life — rather than eight consecutive terms as popular accounts frequently misstate.
 And in his final address to the court, the IQ 145 giant made an extraordinary plea unprecedented in American legal history.
 He requested that the jury sentence him to death by torture, in an effort to atone for the agony he had inflicted upon his victims.
 However, because California had temporarily suspended capital punishment at the time, Kemper was remanded to the California Medical Facility in Vacaville — an institution serving as both maximum-security prison and psychiatric hospital.
@@ -320,8 +318,8 @@ Reflecting upon the tragic and horrifying chronicle of Edmund Kemper, and ensuri
 "Red flag number one: The childhood Macdonald Triad.
 These represent three classic clinical indicators in developmental criminology: intentional cruelty to animals, persistent fire-setting, and prolonged enuresis.
 In Kemper’s developmental history, the first indicator was explicit and severe.
-At age ten, the boy buried a family cat alive, subsequently disinterred it, and performed macabre dissections.
-Three years later, he used a blade to slaughter another household feline.
+At age ten, the boy mistreated a family cat.
+Three years later, that behavior was repeated with another household cat.
 Repetitive, premeditated animal abuse serves as a primary warning sign of profound empathy deficits and escalating violent conduct — an alarm bell tragically ignored by his guardians.
 Red flag number two: Extreme psychological domestic abuse.
 Confining a developing child to isolated spaces like basements, subjecting them to chronic verbal humiliation, or projecting gender-based hatred onto children irrevocably shatters their capacity for healthy empathy."

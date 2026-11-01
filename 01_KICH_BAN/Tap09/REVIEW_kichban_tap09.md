@@ -74,3 +74,20 @@ Do tính chất chấn động của vụ án Tate-LaBianca, kịch bản Tập 
 - **File dữ liệu biên dịch:** [`.work/script_tap09.json`](file:///d:/TEST/Gax/Audi/.work/script_tap09.json)
 - **Cấu hình pipeline:** Đã đăng ký mã tập `09` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax/Audi/.work/edition.py).
 - **Danh mục 28 hồ sơ:** Đã cập nhật trạng thái `[x]` cho Hồ sơ 09 tại [`01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md`](file:///d:/TEST/Gax/Audi/01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md).
+
+
+## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
+Khung phần tử giữ nguyên (đo bằng `.work/parse_kichban.py` xuất ra scratchpad, không ghi đè `.work/`): 53 phần tử trước = sau; số câu 165 → 159. 0 từ cấm A9.2 trong toàn file; 0 `...` trong lời thoại.
+Sao lưu: `.work/_cu/kichban_tap09_23102026_truoc_soat_20261101.md`.
+- ⚠ Mọi file `.work/*_tap09*` (script, acting, timeline, shots) nếu đã có đều **CŨ** so với kịch bản này → phải parse lại.
+- **K4/V9:** "dùng máu của nạn nhân để viết" → "để lại những dòng chữ"; bỏ chữ "WAR" (là vết khắc trên nạn nhân), giữ PIG, RISE, HEALTER SKELTER; "dòng chữ máu" → "dòng chữ bí ẩn"; "sát hại" → "gây ra những vụ án"; "sát nhân máu lạnh" → "kẻ thủ ác lạnh lùng"; "đòn chí mạng" → "tổn thương sâu sắc"; "trói buộc… thòng lọng" → "ràng buộc… bí mật tội ác chung"; "chỉ trói nạn nhân rồi rời đi" → "có vào nhà nhưng rời đi"; "vung dao, bóp cò", "từng nhát dao" bỏ; N2 bỏ "tiếng kêu cứu thất thanh"; "dùng lưỡi dao khắc chữ X" → "xuất hiện với một chữ X trên trán".
+- **K3:** ĐTV "Tôi là thành viên trong ban chuyên án LAPD" → ngôi ba, bỏ "chúng tôi"; N1 cư dân LA: thêm lời dẫn Host "Hãy hình dung…"; N2 Linda Kasabian (người thật, lời khai bịa ngôi thứ nhất) → lời kể ngôi ba về việc cô làm chứng, Host dẫn "Hãy hình dung…"; brief đổi ghi chú vai.
+- **K2:** câu Watson "Ta là quỷ dữ…" giữ (có trong lời khai tại tòa, sách *Helter Skelter* của Bugliosi), thêm "Theo lời khai tại tòa"; câu Manson "Tôi đã tự gạch bỏ…" → gián tiếp.
+- **K1:** địa chỉ LaBianca **3301** Waverly Drive (cũ 3311); Van Houten **chỉ có mặt đêm thứ hai** (cũ: cả ba cô gái đi cùng Watson); Kasabian "lái xe chở" → "có mặt cùng nhóm cả hai đêm, không tham gia bạo lực"; Bugliosi là **Phó** Công tố viên; "chín tháng xét xử" → "nhiều tháng", án tử hình tuyên **tháng 3/1971**; "đồi Beverly Hills" → "gần khu Beverly Hills"; Tate mang thai "tháng thứ tám" → "gần chín tháng"; "trộm xe bán tải" → "trộm xe địa hình"; bỏ "tịch thu đồng hồ, lịch, gương soi", "cạo trọc đầu" (thời điểm sau phán quyết), "học lực khá giỏi, hát ca đoàn", "cửa hàng súng cháy hàng sau vài giờ"; "mô hình tẩy não của Kurt Lewin" → mô hình thay đổi 3 giai đoạn của Lewin được Edgar Schein vận dụng; "tiền lệ bất hủ cho luật pháp thế giới" → "được nhắc đến rất nhiều".
+- **K8:** Hồi 1 nói Manson "chưa từng đặt chân đến hiện trường" ↔ Hồi 4 Manson vào nhà LaBianca → sửa Hồi 1 thành "không hề trực tiếp ra tay".
+- **K5:** "Manson sở hữu cấu trúc nhân cách điển hình của Bộ ba Đen tối… Rối loạn ASPD" → "hành vi mang nhiều đặc điểm thường được mô tả trong mô hình Bộ ba Đen tối".
+- Đối chiếu trong lượt này: theo kiến thức tổng hợp (Wikipedia "Tate murders", "Charles Manson", "Linda Kasabian", "People v. Anderson") — **chưa mở link trực tiếp**, cần bổ sung link.
+
+### Cần nguồn / chờ người dùng quyết
+- Ngày Manson qua đời 19/11/2017 (83 tuổi), People v. Anderson 1972, Thẩm phán Charles Older, Susan Atkins khoe ở Sybil Brand — tin là đúng, cần link.
+- N1 vẫn còn "Mùa hè tình yêu của chúng tôi" — là vai minh hoạ có lời dẫn "Hãy hình dung" nên giữ.

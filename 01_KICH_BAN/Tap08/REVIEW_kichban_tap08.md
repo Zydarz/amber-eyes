@@ -73,3 +73,17 @@ Do tính chất thảm họa tấn công hóa học, kịch bản Tập 08 đư�
 - **File kịch bản:** [`01_KICH_BAN/Tap08/kichban_tap08_23102026.md`](file:///d:/TEST/Gax/Audi/01_KICH_BAN/Tap08/kichban_tap08_23102026.md)
 - **File dữ liệu biên dịch:** [`.work/script_tap08.json`](file:///d:/TEST/Gax/Audi/.work/script_tap08.json)
 - **Cấu hình pipeline:** Đã đăng ký mã tập `08` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax/Audi/.work/edition.py).
+
+
+## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
+Khung phần tử giữ nguyên (đo bằng `.work/parse_kichban.py` xuất ra scratchpad, không ghi đè `.work/`): 47 phần tử trước = sau; số câu 165 → 154. 0 từ cấm A9.2 trong toàn file; 0 `...` trong lời thoại.
+Sao lưu: `.work/_cu/kichban_tap08_23102026_truoc_soat_20261101.md`.
+- ⚠ Mọi file `.work/*_tap08*` (script, acting, timeline, shots) nếu đã có đều **CŨ** so với kịch bản này → phải parse lại.
+- **K4/V9:** bỏ tên + quy trình chất độc dùng gây án (Sarin, VX, bệnh Than, Botulinum, túi nylon bọc báo, dùng mũi ô chọc thủng, chất lỏng bay hơi) → "chất độc thần kinh", "vũ khí sinh học"; SFX "mũi ô cắm thủng màng nylon" → tiếng cửa toa; N1 bỏ "giẫm đạp", "bò… mù lòa"; "tổn thương hệ thần kinh và suy giảm thị lực nghiêm trọng" → "bị ảnh hưởng sức khỏe"; "sát hại" (3 chỗ), "hài cốt", "đẫm máu" (tiêu đề Hồi 4 + Murai), "đòn đánh", "bỏ đói", "máu của đồng loại", "đâm tử vong", "treo cổ", "chui rúc hầm ngầm pha chế chất độc" → lời kể giảm nhẹ.
+- **K3:** N1 hành khách (ngôi thứ nhất) giữ dạng minh hoạ, thêm lời dẫn Host "Hãy hình dung những gì một hành khách…"; N2 Bác sĩ Ikuo Hayashi (người thật, lời khai bịa ngôi thứ nhất) → lời kể ngôi ba về việc ông khai nhận và hối hận trước tòa, Host dẫn "Hãy hình dung…"; ĐTV bỏ "chúng tôi phá cửa / phát hiện"; brief đổi ghi chú vai.
+- **K1:** "tổng hợp thành công hàng trăm lít Sarin" (không nguồn) bỏ; hài cốt gia đình Sakamoto **không tìm thấy trong vụ đột kích** mà tháng 9/1995 nhờ lời khai → sửa; Matsumoto "thử nghiệm thực địa đầu tiên" → "một vụ tấn công"; Tsuchiya "thủ khoa" bỏ; Endo "Đại học Y Kyoto" → "Đại học Kyoto"; Hayashi "Trưởng khoa Phẫu thuật Tim mạch, BV Quốc gia Tokorozawa" → "bác sĩ tim mạch đứng đầu một khoa tại bệnh viện quốc gia" (tên bệnh viện chưa xác minh); Nakagawa "người điều chế độc dược" bỏ; Murai "nhân vật số ba", "đâm tử vong trước truyền hình trực tiếp" → bị tấn công trước ống kính, qua đời hôm sau; Asahara "bọc tiền khổng lồ và thỏi vàng" → "một khoản tiền mặt lớn"; "Kẻ chủ mưu là nhóm nhà khoa học" (sai — chủ mưu là Asahara) → "trong số kẻ thực hiện có…"; "chưa từng có trong lịch sử nhân loại" → "Nhật Bản thời hậu chiến"; "kho vũ khí xóa sổ hàng triệu sinh mạng" → "kho vũ khí hủy diệt"; lý giải "thùy trán bị tê liệt" (giả khoa học) bỏ; lỗi gõ "ngầm ngầm".
+- Đối chiếu trong lượt này: theo kiến thức tổng hợp (Wikipedia "Tokyo subway sarin attack", "Aum Shinrikyo", "Sakamoto family murder") — **chưa mở link trực tiếp**, cần người dùng/AI sau bổ sung link.
+
+### Cần nguồn / chờ người dùng quyết
+- Có giữ tên "Sarin" không? (rất phổ biến trong tư liệu lịch sử; chuẩn T04 bỏ tên chất gây án → đã bỏ). Người dùng quyết.
+- 14 người chết (13 + 1 qua đời 2020), ~5.800 người bị ảnh hưởng, >1.000 cảnh sát đột kích, chế độ ngủ/ăn, phí mũ PSI "hàng nghìn đô la/tháng", trực thăng Mi-17, Murakami phỏng vấn "gần một năm" — cần link.

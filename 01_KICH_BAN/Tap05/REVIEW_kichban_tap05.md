@@ -52,3 +52,22 @@ Toàn bộ kịch bản được viết bám sát Quy tắc V9: Không mô tả 
 *   **Tổng số từ:** **4.209 từ tiếng Việt**.
 *   **Thời lượng ước tính:** **25 – 27 phút** (rất cân đối cho một tập podcast tài liệu chuyên sâu của kênh).
 *   **Tương thích Pipeline:** Đã cấu hình và kết nối sẵn sàng trong `.work/edition.py` cho `AE_EP=05`.
+
+
+## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
+Khung phần tử giữ nguyên (đo bằng `.work/parse_kichban.py` xuất ra scratchpad, không ghi đè `.work/`): 58 phần tử trước = sau; số câu 164 → 162. 0 từ cấm A9.2 trong toàn file; 0 `...` trong lời thoại.
+Sao lưu: `.work/_cu/kichban_tap05_23102026_truoc_soat_20261101.md`.
+- ⚠ **Tập đã dựng video:** `script_tap05.json`, `acting_tap05.json`, audio, bảng shot, video xuất bản đều **CŨ** so với kịch bản này → cần chạy lại từ bước 2 (parse) đến bước 10, và nghe duyệt lại.
+- **K4/V9:** bỏ diễn giải 3 chữ B-T-K (có từ cấm "Trói", "Tra tấn") → "ba động từ tiếng Anh… chương trình xin không diễn giải"; bỏ quy trình đột nhập/cắt dây điện thoại/trói nạn nhân (Hồi 2, ĐTV) → nói khái quát về nhu cầu quyền lực; "máu lạnh" → "tàn nhẫn"; "giáng một đòn" → "tổn thương sâu sắc"; "đòn lừa" → "nước cờ"; "nhát dao đâm thẳng" → "cú chạm thẳng"; "10 vụ án mạng rùng rợn" → "tước đoạt mạng sống của 10 người"; BGM "nhịp tim đập" → "trống trầm".
+- **K3:** N1 dẫn "hãy lắng nghe chia sẻ từ một người dân" → "hãy hình dung tâm trạng…"; ĐTV bỏ ngôi "chúng tôi/tôi" như người thật trong ban chuyên án (Landwehr) → "ban chuyên án"; N2 không còn nói ngôi thứ nhất như Kerri Rawson → lời kể ngôi ba, Host dẫn "Hãy hình dung… qua những gì Kerri Rawson kể lại trong cuốn hồi ký năm 2019".
+- **K2:** đối thoại Rader–Landwehr ("Ken, tại sao anh nói dối tôi…" / "Bởi vì chúng tôi đang cố bắt anh") chuyển thành lời kể gián tiếp (chưa tìm được bản ghi gốc); câu "'Không phải tôi muốn…'" gán cho Rader → lời kể; câu hỏi về đĩa mềm giữ, thêm "Theo bản ghi được công bố".
+- **K1:** tuổi Rader lúc bắt (25/2/2005) là **59**, không phải 60 (sinh 9/3/1945) — sửa 2 chỗ; hộp ngũ cốc "8/1/2005" → "cuối tháng 1/2005" (History.com ghi 25/1); quảng cáo "Rex, it will be OK" "10/2/2005" → **28/1/2005**; bỏ "Sáu ngày sau" (16/2 là ngày đĩa đến tay điều tra viên); "xe bán tải màu đen… camera tại các điểm gửi thư" → Jeep Cherokee đen, camera bãi Home Depot; bỏ "mục rao vặt 494"; Beattie là luật sư, giả thuyết "chết hoặc ngồi tù" gán cho bài báo; "hàng chục xe" → "nhiều xe"; "30 giờ" → "nhiều giờ liền"; án: "tối thiểu 175 năm trước khi được xét ân xá" (cũ: "không có cơ hội ân xá"); bỏ "thắt dây thừng", "thu tiền công đức".
+- **K5:** "một kẻ ái kỷ nặng như Dennis Rader" → "người mang những đặc điểm thường được mô tả trong ái kỷ ác tính"; "Kẻ ái kỷ Dennis Rader" → "Dennis Rader".
+- **K8:** "không để lại dấu vết sinh học" mâu thuẫn với kết quả ADN Hồi 4 → chỉ giữ "không để lại vân tay".
+- **G1:** bỏ 3 chỗ `...` trong lời thoại (N1, N2, Host kết); SFX/BGM đổi `...` thành dấu phẩy.
+- Nguồn: britannica.com/biography/Dennis-Rader · history.com/this-day-in-history/january-25/btk-killer-sends-message · biography.com/crime/btk-killer-dennis-rader-timeline · oxygen.com/snapped/crime-time/floppy-disk-exposed-dennis-rader-btk-killer
+
+### Cần nguồn / chờ người dùng quyết
+- Lời đối đáp Rader–Landwehr (đã chuyển gián tiếp, vẫn cần một nguồn: sách *Bind, Torture, Kill* hoặc phỏng vấn Landwehr). Không có → bỏ hẳn câu.
+- Chi tiết N2 (câu cá, dắt vào lễ đường, đặc vụ FBI gõ cửa căn hộ) cần đối chiếu hồi ký *A Serial Killer's Daughter* (2019).
+- Dòng chữ metadata ("Christ Lutheran Church", "Dennis") đúng theo nhiều nguồn; tên file "TestA.rtf" chưa đối chiếu nguồn gốc.

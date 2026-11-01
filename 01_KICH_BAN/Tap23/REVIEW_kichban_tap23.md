@@ -78,3 +78,14 @@ Kịch bản Tập 23 tuân thủ tuyệt đối Quy tắc V9 (YouTube Safe) đ�
 - **File dữ liệu biên dịch:** [`.work/script_tap23.json`](file:///d:/TEST/Gax/Audi/.work/script_tap23.json)
 - **Cấu hình pipeline:** Đã đăng ký mã tập `23` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax/Audi/.work/edition.py).
 - **Danh mục 28 hồ sơ:** Đã cập nhật trạng thái `[x]` cho Hồ sơ 23 tại [`01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md`](file:///d:/TEST/Gax/Audi/01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md).
+
+## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
+Sao lưu: `.work/_cu/kichban_tap23_23102026_truoc_soat_20261101.md`. Khung 51 phần tử giữ nguyên (id + loại khớp bản cũ, parse thử ra scratchpad); số câu 165 → 166 (thêm câu dẫn "Hãy hình dung…" trước N1).
+- **K1:** tai nạn thời thơ ấu bị **đảo ngược/thổi phồng** ("2 tuổi xích đu, 5 tuổi tủ đè nát hộp sọ") → kể chung hai tai nạn (tủ đổ, xích đu) không kèm tuổi; "động kinh thùy thái dương, tổn thương thùy trán" → "theo một số tư liệu bị co giật"; bỏ "xích qua đêm ngoài nghĩa địa"; câu cuối khi tuyên án là **"hẹn gặp ở Disneyland"** (cũ "gặp ở thế giới bên kia"); ADN **2009** liên kết vụ án năm 1984 (cũ "những năm 2000… trẻ em"); bỏ "suy gan", "không ai nhận xác", "bị gia đình từ mặt", "hàng trăm phụ nữ… ảnh khỏa thân", "hàng nghìn thư", "cháy hàng vũ khí", "vest đen, nháy mắt"; phiên tòa: chọn bồi thẩm 1988 → phán quyết 20/9/1989 (43 tội danh, 13 án mạng), tuyên án 11/1989, thẩm phán Michael Tynan, qua đời 7/6/2013 tại Marin General, 53 tuổi, ung thư hạch.
+- **K3:** D không còn nói ngôi thứ nhất như Thám tử **Gil Carrillo** (người thật, lời bịa: "mùi hôi từ hàm răng", "chứng kiến cảnh buồn nôn") → điều tra viên minh hoạ; N1 cư dân và N2 nhà báo → minh hoạ, có "Hãy hình dung…".
+- **K4/V9:** bỏ "gậy gộc, xà beng, quật ngã, đè bẹp", "bắn chết vợ", "ảnh tra tấn phụ nữ", "đánh đập", "đòn" (2), "đập", "đẫm máu", "máu me", "máu và nước mắt", "xương máu", "thi thể" (2), "tim đập" (SFX), "thuốc độc"; vụ ADN không nhắc nạn nhân trẻ em.
+- **K5:** "chấn thương gây động kinh làm tê liệt kiểm soát xung động", "rối loạn tâm thần nặng nề" của người anh họ, "Hybristophilia là lệch lạc tình dục" → diễn giải thận trọng ("một số tác giả", "được cho là").
+- **G1:** 0 "...".
+- Nguồn: en.wikipedia.org/wiki/Richard_Ramirez · latimes.com (cáo phó 7/6/2013) · en.wikipedia.org/wiki/Hybristophilia
+- **Cần nguồn / chờ người dùng quyết:** "75 lá thư" của Doreen Lioy và việc bà rời bỏ Ramirez sau 2009 (theo báo lá cải, chưa có nguồn chính thống) — đã viết "được cho là"; chi tiết người anh họ "kể chuyện bạo lực thời chiến" (bản cũ: khoe ảnh) — nên đối chiếu Wikipedia trước khi thu âm.
+- ⚠ `.work/script_tap23.json` (và JA) là CŨ.

@@ -75,3 +75,15 @@ Kịch bản Tập 14 được biên soạn với chuẩn mực đạo đức, p
 - **File dữ liệu biên dịch:** [`.work/script_tap14.json`](file:///d:/TEST/Gax/Audi/.work/script_tap14.json)
 - **Cấu hình pipeline:** Đã đăng ký mã tập `14` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax/Audi/.work/edition.py).
 - **Danh mục 28 hồ sơ:** Đã cập nhật trạng thái `[x]` cho Hồ sơ 14 tại [`01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md`](file:///d:/TEST/Gax/Audi/01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md#L73).
+
+
+## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
+Sao lưu: `.work/_cu/kichban_tap14_23102026_truoc_soat_20261101.md`. Khung phần tử giữ nguyên (id + loại + vai khớp 100% bản cũ, đo bằng `parse_kichban.parse_file` ra scratchpad, không ghi đè `.work`); mã câu trong `summary` của `edition.py` vẫn tồn tại. Kiểm: từ cấm A9.2 = 0 · "..." trong lời thoại = 0. Số câu: **165 → 143**.
+- **K1 (nghiêm trọng nhất):** phiên tòa thứ nhất: **hai** bồi thẩm viên giữ quan điểm ngộ sát (cũ: "10 ủng hộ ngộ sát, 2 đòi cấp độ một" — đảo ngược) · địa chỉ "10412 Caminito Bautizo" (bịa) → khu Marston Hills · súng mua ~1 tháng trước đám cưới của Dan (cũ: "nhiều tháng") · Betty **mang điện thoại ra khỏi phòng** (cũ: "giật đứt dây điện thoại") · liên lạc con gái Lee rồi đầu thú (cũ: "đến đồn chiều cùng ngày") · Linda được thuê **mùa thu 1982** (cũ: 1983) · bản án: 2 × 15 năm–chung thân + 2 năm dùng súng = 32 năm–chung thân · ân xá bị từ chối 2010, 2017 · **Betty mất 8/5/2026, 78 tuổi, khi đang thụ án — đã xác minh**.
+- **K9:** "Daniel T. Broderick III" → "Daniel Broderick".
+- **K2/K4:** bỏ câu trăng trối không nguồn "Được rồi, bà đã bắn tôi, tôi chết rồi"; bỏ vị trí trúng đạn, "năm phát đạn", "vỏ đạn rơi", "đẫm máu", "đầu độc", "đòn chí mạng".
+- **K3:** N2 = **Kim Broderick** (người thật) nói ngôi thứ nhất + "mẹ liên tục gọi điện đe dọa giết cha" (không nguồn) → "Hãy hình dung nỗi đau của những đứa con…". N1 (bạn thân ngôi thứ nhất, câu trích "bà già điên rồ…" không nguồn) → "Hãy hình dung góc nhìn…", kể theo phía Betty.
+- **Cần nguồn → đã bỏ/làm mềm:** dạy mầm non; du thuyền; Coral Reef + "bán nhà không chữ ký"; phong tỏa tài khoản; vệ sĩ mặc áo chống đạn ở đám cưới; "không luật sư nào dám nhận"; "tạm giam 3 ngày"; sơn xịt; "Sở Cảnh sát ghi nhận"; cải cách luật gia đình "California và nhiều quốc gia"; "đề tài kinh điển toàn cầu".
+- **Cần nguồn / chờ người dùng quyết:** phạt tiền cấp dưỡng theo lời thô tục, bánh kem lên giường, theo dõi tâm thần sau vụ lao xe (để "theo các tường thuật"); ngày tuyên án (để "đầu năm 1992", cũ 7/2/1992); ngày phán quyết lần 2 (để "tháng 12/1991").
+- Nguồn: https://en.wikipedia.org/wiki/Betty_Broderick · https://www.ktvu.com/news/betty-broderick-death-murder-conviction-trial
+- ⚠ File CŨ (dựng từ kịch bản trước rà soát): `.work/script_tap14.json`, `.work/script_tap14_JA.json`, `02_SAN_XUAT/Tap14/Danh_Sach_Anh_Tap14.md` + bộ ảnh nền / contact sheet. Chưa có audio/shot/video. Phải chạy lại `parse_kichban.py` (AE_EP=14) và rà lại danh sách ảnh trước khi sản xuất. Bản EN/JA/KO CHƯA đồng bộ.

@@ -74,3 +74,20 @@ Toàn bộ các mốc thời gian, nhân vật, địa danh, vật chứng và c
 - **File kịch bản:** [`01_KICH_BAN/Tap06/kichban_tap06_23102026.md`](file:///d:/TEST/Gax\Audi\01_KICH_BAN\Tap06\kichban_tap06_23102026.md)
 - **File dữ liệu biên dịch:** [`.work/script_tap06.json`](file:///d:/TEST/Gax\Audi\.work\script_tap06.json)
 - **Cấu hình pipeline:** Đã đăng ký mã tập `06` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax\Audi\.work\edition.py).
+
+
+## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
+Khung phần tử giữ nguyên (đo bằng `.work/parse_kichban.py` xuất ra scratchpad, không ghi đè `.work/`): 61 phần tử trước = sau; số câu 165 → 154. 0 từ cấm A9.2 trong toàn file; 0 `...` trong lời thoại.
+Sao lưu: `.work/_cu/kichban_tap06_23102026_truoc_soat_20261101.md`.
+- ⚠ **Tập đã dựng video:** `script_tap06.json`, `acting_tap06.json`, audio, bảng shot, video xuất bản đều **CŨ** so với kịch bản này → cần chạy lại từ bước 2 (parse) đến bước 10, và nghe duyệt lại.
+- **K4/V9:** bỏ mô tả mùi phân hủy, sáp thơm, vôi bột, nhát xẻng, "dấu vết sinh học thứ hai, thứ ba…" (Hồi 3); bỏ mánh còng tay và vôi bột (Hồi 4, ĐTV); "ném xuống sông vì hết chỗ" → "được tìm thấy ở sông Des Plaines"; "chôn vùi" → "bị tước đoạt"; "đập vào mắt" → "lọt vào mắt"; "đòn roi" → "bạo hành"; "đập tan" → "bác bỏ"; "máu lạnh" (N2) → "lạnh lùng"; "dây trói" (dấu hiệu 3) bỏ; bỏ "tiêm thuốc độc" và câu chửi thề trích nguyên văn khi thi hành án; tội 1968 → "xâm hại một thiếu niên" (khái quát).
+- **K3:** N1 Kim Byers (người thật, ngôi thứ nhất) → góc nhìn minh hoạ, Host dẫn "Hãy hình dung tâm trạng của Kim Byers…", lời ngôi ba; N2 sĩ quan Mike Albrecht (ngôi thứ nhất) → "Hãy hình dung cảm giác của những sĩ quan…"; ĐTV bỏ "chúng tôi" như cảnh sát Des Plaines.
+- **K2:** lời Robert "Mẹ ơi, mẹ đợi con…" → gián tiếp; câu Gacy "Tôi biết các anh đang làm nhiệm vụ…" bỏ; câu "Tôi là nạn nhân thứ 34" + sách "Họ bảo tôi là quái vật" (không tìm được nguồn) → lời kể "tự xem mình như nạn nhân"; tiêu đề Hồi 5 đổi tương ứng; lời giải thích "mua ở tiệm cầm đồ" bỏ.
+- **K1:** bà Piest chờ trong xe nổ máy / Robert gõ cửa kính xe → bà đến hiệu thuốc đón con (cũ mâu thuẫn với lời kể phổ biến); "$5/giờ gấp hơn hai lần lương tối thiểu" → **gần gấp đôi** (lương tối thiểu liên bang 1978 = $2,65); "không mang áo ấm / áo khoác còn treo" bỏ (áo parka do Kim Byers mượn rồi để biên nhận trong túi — chính là vật chứng); bắt giữ 21/12/1978 vì **tàng trữ cần sa** (cũ: "vi phạm liên quan tài sản", "tối hôm đó" 20/12); phán quyết **12/3/1980** (cũ 13/3), án tử hình hôm sau; Kunkle "Công tố viên trưởng" → "Công tố viên"; bỏ "rút tiền, sắp đi xa", "buột miệng nói với sĩ quan", "hàng chục xe cứu hỏa, máy bơm bùn", "Học viện FBI", "vượt mọi vòng thẩm tra an ninh"; vị trí 3 nạn nhân khác → "trong khuôn viên" (không khẳng định sân sau/nhà xe).
+- **K5:** "những kẻ thái nhân cách ái kỷ như Gacy" → "người mang đặc điểm… như những gì được mô tả ở Gacy"; "kẻ mang Rối loạn ASPD" → "đặc điểm thường được mô tả"; "khiếm khuyết vùng chức năng đồng cảm trong não bộ" → "thường được mô tả là thiếu hụt khả năng đồng cảm".
+- Nguồn: aetv.com/real-crime/gacys-trial (bồi thẩm đoàn nghị án ~1 giờ 50 phút ngày 12/3/1980) · aetv.com/articles/john-wayne-gacy-capture-missing-teen-case (Kim Byers, biên nhận) · historic-newspapers.com/blog/john-wayne-gacy-newspaper-analysis/
+
+### Cần nguồn / chờ người dùng quyết
+- "Nạn nhân thứ 34": nếu người dùng muốn giữ, cần nguồn phỏng vấn/sách của Gacy.
+- Tuổi bà Elizabeth Piest (46), "học sinh danh dự lớp mười", 4 tên sĩ quan theo dõi, Oldsmobile, "Jack Hanley": chưa đối chiếu link trong lượt này.
+- Gacy vẽ sơ đồ cho cảnh sát (N2) — có trong nhiều tài liệu, cần link.

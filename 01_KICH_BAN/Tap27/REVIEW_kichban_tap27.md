@@ -79,3 +79,16 @@ Kịch bản Tập 27 tuân thủ tuyệt đối Quy tắc V9 (YouTube Safe) đ�
 - **File dữ liệu biên dịch:** [`.work/script_tap27.json`](file:///d:/TEST/Gax/Audi/.work/script_tap27.json)
 - **Cấu hình pipeline:** Đã đăng ký mã tập `27` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax/Audi/.work/edition.py).
 - **Danh mục 28 hồ sơ:** Đã cập nhật trạng thái `[x]` cho Hồ sơ 27 tại [`01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md`](file:///d:/TEST/Gax/Audi/01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md).
+
+
+## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
+- **K4/V9:** tiêu đề Hồi 1 "ĐẪM MÁU" → "CHÌM TRONG IM LẶNG"; bỏ "nạn nhân nhỏ tuổi nằm gục ở cổng", tang vật "súng bắn điện, dao bấm, dây trói", "tự đi mua từng loại hung khí", "hứa cho tiền và gà chọi để dụ mở cổng", "khống chế từng nạn nhân để tra khảo", "mang hung khí… mua thêm dao" (Thoại), "siết dây khống chế" ×2, "trừng mắt đe dọa bằng hung khí", "dấu vết mẫu máu", "vết trầy xước cổ tay", "tàn sát đẫm máu", "đòn sỉ nhục", "đập phá", "đập tan" (chỉ dẫn diễn xuất), "tiêm thuốc độc".
+- **K3:** N1 (công nhân xưởng gỗ, ngôi "tôi") → "Hãy hình dung buổi sáng hôm ấy qua ánh mắt của những người thợ…"; N2 (nhân chứng phiên tòa, "tôi và hàng nghìn bà con") → "Hãy hình dung cảm xúc của những người dân…".
+- **K2:** câu trích "mọi chuyện đã lỡ rồi… ngồi tù mục xương" (không nguồn) → bỏ, thay bằng phân tích cơ chế "không còn đường lui".
+- **K1:** án sơ thẩm 17/12/2015 (Dương, Tiến tử hình; Thoại 16 năm) — đúng; phiên tòa mở "sáng 17/12" → "tháng 12/2015"; phúc thẩm: bỏ ngày "18/7/2016" → "năm 2016"; thi hành án Dương 17/11/2017 — khớp tiêu đề PLO, bỏ phương thức. Bỏ con số nợ "800–900 triệu" → "theo lời khai… một khoản tiền lớn"; "hơn bốn nghìn người" → "hàng nghìn"; "hai con và hai cháu" → "các con và người cháu"; bỏ "Tiến chuẩn bị trốn về miền Tây", "Tiến nhiều lần bật khóc van xin" (không nguồn).
+- **K5:** "kẻ ái kỷ nặng như Dương" → "một người mang đặc điểm ái kỷ nặng"; "kẻ chủ mưu ái kỷ" → "kẻ chủ mưu".
+- **Nguồn:** https://tuoitre.vn/dam-dong-gian-du-khi-nghe-hai-duong-khai-cach-giet-6-nguoi-1022419.htm · https://baophapluat.vn/tham-an-o-binh-phuoc-nguyen-hai-duong-xin-thi-hanh-an-tu-post215005.html · https://vtcnews.vn/tu-tu-nguyen-hai-duong-xin-hien-xac-nhung-khong-duoc-chap-nhan-ar285960.html · https://www.vietnamplus.vn/y-an-tu-hinh-hai-doi-tuong-trong-vu-tham-sat-6-nguoi-tai-binh-phuoc-post396598.vnp · https://baophapluat.vn/bac-khang-cao-cua-cac-hung-thu-tan-ac-vu-tham-sat-o-binh-phuoc-post221986.html
+- **Cần nguồn / chờ người dùng quyết:** (1) mốc "60 giờ", "chiều 10/7 lệnh triệu tập", "tối 10/7 nhận tội", "Tiến bị bắt ở Hóc Môn đêm 10/7" — chưa đối chiếu; (2) danh sách 6 nạn nhân; (3) Thoại cùng Dương đến lần trước đó; (4) vụ án Việt Nam, thân nhân còn sống — người dùng quyết có giữ tên đầy đủ nạn nhân (Lê Thị Ánh Linh, Dư Minh Vỹ, bé Na) không.
+- **Kiểm sau sửa:** khung giữ nguyên 51 phần tử (id + loại khớp 1-1) · số câu 165 → 165 · từ cấm A9.2 trong lời thoại = 0 (còn ở dòng tiêu chuẩn đầu file, "búa tòa án" ở BGM/SFX, "khóa chặt") · G1 "..." = 0.
+- **Sao lưu:** `.work/_cu/kichban_tap27_23102026_truoc_soat_20261101.md`
+- ⚠ **File .work CŨ:** `.work/script_tap27.json`, `script_tap27_JA.json`, `temp_parse_t27.json`, `temp_verify_*_t27.json` theo bản cũ → chạy lại `parse_kichban.py`. Bản EN/JA/KO chưa đồng bộ.

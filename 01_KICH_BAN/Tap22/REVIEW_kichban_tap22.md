@@ -78,3 +78,14 @@ Kịch bản Tập 22 tuân thủ tuyệt đối Quy tắc V9 (YouTube Safe) đ�
 - **File dữ liệu biên dịch:** [`.work/script_tap22.json`](file:///d:/TEST/Gax/Audi/.work/script_tap22.json)
 - **Cấu hình pipeline:** Đã đăng ký mã tập `22` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax/Audi/.work/edition.py).
 - **Danh mục 28 hồ sơ:** Đã cập nhật trạng thái `[x]` cho Hồ sơ 22 tại [`01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md`](file:///d:/TEST/Gax/Audi/01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md).
+
+## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
+Sao lưu: `.work/_cu/kichban_tap22_23102026_truoc_soat_20261101.md`. Khung 51 phần tử giữ nguyên (id + loại khớp bản cũ, parse thử ra scratchpad); số câu 165 → 165.
+- **K1/K2 (lỗi nặng nhất):** bỏ cảnh **Michael bước vào phòng thẩm vấn** và câu trích "Mike, lại đây với em, em không làm gì cả" — không có nguồn, nghi dựng kịch (Hồi 1 D, Hồi 2 Host ×2) → thay bằng diễn biến có nguồn: cô được cho biết "sát thủ" là cảnh sát chìm, vẫn phủ nhận; phía Dalia về sau cho rằng đó là màn kịch Michael dựng để lên truyền hình thực tế. Bỏ tên "Trung sĩ Frank Ranzie", "Thám tử Alex Gomez" (không xác minh), "xe đỏ ngày 3/8", "1.200 đô mua súng", "tuổi 26", "phiên 2011 nghị án dưới 3 giờ", "6 bồi thẩm", "Trại Lowell", "ra tù 2032", "Michael thành tiếng nói tích cực", "hơn mười lăm năm". Phiên 2017 nghị án **khoảng 90 phút** (cũ "nhiều giờ"); công tố đề nghị 30 năm; lời thẩm phán Kelley theo báo: "cold and calculated" → lời kể gián tiếp. Giữ có nguồn: 7.000 đô, "5.000 phần trăm", Widy Jean, 2011 – 20 năm, hủy 2014, 2016 hung jury, 21/7/2017 – 16 năm.
+- **K3:** D không còn ngôi thứ nhất như một thám tử có thật → "Hãy hình dung…"; N1 hàng xóm và N2 bồi thẩm viên → nhân vật minh hoạ có lời dẫn "Hãy hình dung…".
+- **K4/V9:** bỏ "bắn hai phát vào đầu", "bắn chết" (3), "mua súng", "xác chết đẫm máu", "chất độc chống đông vào trà" → "gây hại qua đồ uống" (ghi là lời khai), "máu lạnh" (3), "xương máu", "sát hại", "nhịp đập" (2 BGM), "đẫm máu" (dòng V9).
+- **K5:** "thể hiện đầy đủ đặc điểm cốt lõi của Rối loạn nhân cách chống đối xã hội", "hồ sơ tâm lý xác định", "dối trá bệnh lý" → "mang đặc điểm thường được mô tả trong…"; phân tích vi biểu cảm → "nhiều nhà bình luận nhận thấy".
+- **G1:** 0 "...".
+- Nguồn: nbcnews.com/news/us-news/ex-escort-dalia-dippolito-gets-16-years-trying-have-husband-n785621 · nbcnews.com/news/us-news/mistrial-declared-dalia-dippolito-newlywed-murder-hire-case-jury-locked-n696031 · cbsnews.com/news/fla-woman-dalia-dippolito-sought-hit-man-to-kill-husband-gets-20-years-in-prison · foxnews.com/us/mistrial-in-murder-for-hire-case-featured-on-cops
+- **Cần nguồn / chờ người dùng quyết:** tỷ lệ 3–3 phiên 2016 và lý do hủy án 2014 (chọn bồi thẩm) — giữ theo trí nhớ báo chí, cần mở đối chiếu; ngày tuyên có tội 2017 (đã đổi thành "tháng 6/2017"); phân tích "nước mắt cá sấu" là nhận định bình luận, không phải giám định.
+- ⚠ `.work/script_tap22.json` (và JA) là CŨ.

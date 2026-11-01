@@ -79,3 +79,16 @@ Do tính chất cực kỳ bi thương và quy mô chấn động của thảm k
 - **File dữ liệu biên dịch:** [`.work/script_tap12.json`](file:///d:/TEST/Gax\Audi\.work\script_tap12.json)
 - **Cấu hình pipeline:** Đã đăng ký mã tập `12` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax\Audi\.work\edition.py).
 - **Danh mục 28 hồ sơ:** Đã cập nhật trạng thái `[x]` cho Hồ sơ 12 tại [`01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md`](file:///d:/TEST/Gax\Audi\01_KICH_BAN\KHO_Y_TUONG_28_HO_SO.md#L60).
+
+
+## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
+Sao lưu: `.work/_cu/kichban_tap12_23102026_truoc_soat_20261101.md`. Khung phần tử giữ nguyên (id + loại + vai khớp 100% bản cũ, đo bằng `parse_kichban.parse_file` ra scratchpad, không ghi đè `.work`); mã câu trong `summary` của `edition.py` vẫn tồn tại. Kiểm: từ cấm A9.2 = 0 · "..." trong lời thoại = 0. Số câu: **165 → 148**.
+- **K1/K8 (số liệu):** 918 là tổng số người chết (Jonestown + đường băng Port Kaituma + Georgetown); riêng Jonestown là **909** — sửa câu mở đầu và Hồi 4 (cũ "chín trăm mười ba" — sai) · tín đồ "hàng chục ngàn" → "hàng nghìn" · nhiếp ảnh gia Greg Robinson thuộc **San Francisco Examiner** (cũ: Chronicle) · bỏ giờ "4 giờ 30" · Leo Ryan: "thành viên Quốc hội Mỹ duy nhất thiệt mạng khi thi hành công vụ".
+- **K2:** câu trích Christine Miller "Tôi nghĩ rằng việc sống luôn có giá trị hơn là chết" (không nguyên văn) → theo bản ghi Q 042: "Chừng nào còn sự sống, chừng đó còn hy vọng" (*as long as there's life, there's hope*). Mảnh giấy Gosney "Xin hãy cứu chúng tôi…" → lời kể (ghi tên hai người, nhờ giúp rời Jonestown).
+- **K4:** bỏ quy trình pha chế (thùng phuy, độc chất, thuốc an thần, cho trẻ uống trước), "thi thể Jim Jones với vết đạn vào đầu", "xả đạn điên cuồng, bắn gục", "năm vết đạn", "đánh đập", "tra tấn sinh học", "cốc nước đỏ là thuốc độc", "đòn bẩy/đòn chí mạng", "trói buộc".
+- **K3:** N1 gán tên người thật **Leslie Wagner-Wilson** nói ngôi thứ nhất → "Nhân vật minh họa", "Hãy hình dung…"; N2 (nhân viên FBI ngôi thứ nhất) → "Hãy hình dung…".
+- **K5:** "kẻ tâm thần phân liệt hoang tưởng", "mang chứng Ái kỷ Ác tính" → "kẻ cầm đầu đầy hoang tưởng", "mang nhiều đặc điểm thường được mô tả trong…".
+- Bỏ khẳng định không nguồn: "quy chế an ninh mới cho nghị sĩ", "vỏ não trước trán"; sửa lỗi chính tả "nghiêmặt".
+- **Cần nguồn / chờ người dùng quyết:** Ryan phát biểu thấy nhiều người yêu cuộc sống ở đây (để lời kể); "khoảng mười lăm người rời đi"; diễn tập "Đêm Trắng" (lời người đào thoát); câu Christine Miller nên đối chiếu bản chép Q 042.
+- Nguồn: https://en.wikipedia.org/wiki/Jonestown · https://jonestown.sdsu.edu/ (bản chép Q 042) — chưa mở lại trong lượt này.
+- ⚠ File CŨ (dựng từ kịch bản trước rà soát): `.work/script_tap12.json`, `.work/script_tap12_JA.json`, `02_SAN_XUAT/Tap12/Danh_Sach_Anh_Tap12.md` + bộ ảnh nền / contact sheet. Chưa có audio/shot/video. Phải chạy lại `parse_kichban.py` (AE_EP=12) và rà lại danh sách ảnh trước khi sản xuất. Bản EN/JA/KO CHƯA đồng bộ.

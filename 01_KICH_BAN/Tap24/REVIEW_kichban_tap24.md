@@ -79,3 +79,15 @@ Kịch bản Tập 24 tuân thủ tuyệt đối Quy tắc V9 (YouTube Safe) đ�
 - **File dữ liệu biên dịch:** [`.work/script_tap24.json`](file:///d:/TEST/Gax/Audi/.work/script_tap24.json)
 - **Cấu hình pipeline:** Đã đăng ký mã tập `24` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax/Audi/.work/edition.py).
 - **Danh mục 28 hồ sơ:** Đã cập nhật trạng thái `[x]` cho Hồ sơ 24 tại [`01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md`](file:///d:/TEST/Gax/Audi/01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md).
+
+## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
+Sao lưu: `.work/_cu/kichban_tap24_23102026_truoc_soat_20261101.md`. Khung 51 phần tử giữ nguyên (id + loại khớp bản cũ, parse thử ra scratchpad); số câu 165 → 165.
+- **K3 (lỗi nặng nhất):** N2 cũ nói ngôi thứ nhất **như chính ông Yoon Sung-yeo** (người thật, lời bịa: "đánh đập", "muốn từ bỏ cuộc sống", "người thân mỉm cười nơi chín suối") → chuyển sang lời kể ngôi thứ ba của "người bạn minh hoạ", Host dẫn "Hãy hình dung…"; N1 cư dân → "Hãy hình dung…"; D bỏ các lời "chúng tôi xin lỗi", "chúng tôi cam kết" gán cho cảnh sát Gyeonggi → lời kể gián tiếp.
+- **K2:** bỏ câu trích "Tôi đã nghĩ rằng các người sẽ tìm ra tôi sớm hơn…" (không nguồn) + cảnh nhấp cà phê; bỏ lời tuyên bố nguyên văn của Lee trước tòa và lời đọc phán quyết → gián tiếp.
+- **K1:** nạn nhân năm 1994 là **em vợ** (cũ "em dâu"); bỏ tên profiler "Gong Eun-kyung" (không xác minh được), "từng vào danh sách ân xá", "trại giam hủy vĩnh viễn ân xá" (bịa), "lái xe tải", "sĩ quan tự tử", "binh sĩ quân đội", "đài tưởng niệm 14 nạn nhân", "hàng chục nghìn camera", "cúi gập 90 độ, hàng trăm cơ quan truyền thông", "Thẩm phán Park Jeong-je" (đổi thành "tòa án/hội đồng xét xử"); Lee làm chứng tháng 11/2020; họp báo của Bae Yong-ju tháng 7/2020; Đạo luật Taewan 2015 bãi bỏ thời hiệu cho **tội giết người có thể bị tử hình** (cũ "giết người cấp độ một" — Hàn Quốc không có phân cấp này) ; "ghi hình bắt buộc tất cả đồn" → "ngày càng áp dụng"; Hồi ức kẻ sát nhân (2003).
+- **K4/V9:** bỏ "tra tấn dã man", "bỏ đói", "đánh đập", "đòn chí mạng", "máu" (rỉ máu, máu lạnh, nhóm máu ×2, bằng máu), "sát hại", "tim… thắt lại", mô tả "vẽ vị trí… cách tiếp cận nạn nhân đến từng centimet", "hơn ba mươi vụ tấn công" → "hàng chục vụ xâm hại khác" (khái quát).
+- **K5:** "cấu trúc nhân cách chống đối xã hội cực đoan", "nhân cách ái kỷ ác tính", "cái tôi ái kỷ bệnh hoạn" → "mang đặc điểm thường được mô tả trong…"; khung Power-Control ghi đúng nguồn gốc (Holmes & DeBurger, không phải "thang FBI").
+- **G1:** 0 "...".
+- Nguồn: en.wikipedia.org/wiki/Hwaseong_serial_murders · en.wikipedia.org/wiki/Lee_Choon-jae · koreaherald.com / yna.co.kr (tuyên vô tội Yoon Sung-yeo 17/12/2020, họp báo cảnh sát 7/2020)
+- **Cần nguồn / chờ người dùng quyết:** ADN từ vụ số 5, 7, 9; "ba lần bị thẩm vấn" và lý do lọt lưới; Yoon "không được ngủ" khi bị ép cung; tên thẩm phán chủ tọa tái thẩm — chưa mở trang nguồn đối chiếu trong lượt này, cần kiểm trước khi thu âm.
+- ⚠ `.work/script_tap24.json` (và JA) là CŨ.

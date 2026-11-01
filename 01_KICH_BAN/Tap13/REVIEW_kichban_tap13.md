@@ -78,3 +78,16 @@ Kịch bản Tập 13 được biên soạn với chuẩn mực đạo đức, p
 - **File dữ liệu biên dịch:** [`.work/script_tap13.json`](file:///d:/TEST/Gax/Audi/.work/script_tap13.json)
 - **Cấu hình pipeline:** Đã đăng ký mã tập `13` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax/Audi/.work/edition.py).
 - **Danh mục 28 hồ sơ:** Đã cập nhật trạng thái `[x]` cho Hồ sơ 13 tại [`01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md`](file:///d:/TEST/Gax/Audi/01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md#L69).
+
+
+## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
+Sao lưu: `.work/_cu/kichban_tap13_23102026_truoc_soat_20261101.md`. Khung phần tử giữ nguyên (id + loại + vai khớp 100% bản cũ, đo bằng `parse_kichban.parse_file` ra scratchpad, không ghi đè `.work`); mã câu trong `summary` của `edition.py` vẫn tồn tại. Kiểm: từ cấm A9.2 = 0 · "..." trong lời thoại = 0. Số câu: **165 → 154**.
+- **K1 (nghiêm trọng nhất — tình trạng pháp lý):** "các thủ tục phúc thẩm kéo dài đến 2025 và 2026 đã điều chỉnh một số tội danh" → Tòa Phúc thẩm Ontario (2023) hủy phán quyết giết người cấp độ một, yêu cầu xử lại tội này, giữ tội giết người không thành; **Tòa án Tối cao Canada giữ nguyên ngày 10/4/2025 (R. v. Pan, 2025 SCC 12)**. "Tòa án Tối cao Ontario" → "bồi thẩm đoàn tại Ontario"; "các đồng phạm" → "ba đồng phạm".
+- **K8:** "lời nói dối mười năm / gần mười năm / suốt bốn năm" (cuối lớp 12 ≈ 2004 → 2010 ≈ 6 năm) → "nhiều năm". "Ở tuổi hai mươi tư" → "ngoài hai mươi" (sinh 1986).
+- **K4:** bỏ chi tiết nổ súng (đạn vào đầu/mặt/cổ, "vũng máu", "ba phát súng"), "thuê sát thủ trừ khử", "giả vờ trói", "đẫm máu", "tội ác man rợ", "diệt thân".
+- **K3:** N2 = ông Huei Hann Pan (người thật) nói ngôi thứ nhất → "Hãy hình dung nỗi đau của một người cha…" + kể gián tiếp lời khai; N1 (bạn học ngôi thứ nhất) → "Hãy hình dung góc nhìn…". Điều tra viên bỏ "chúng tôi".
+- **K2/K1 cần nguồn → đã bỏ/làm mềm:** "nhắn tin báo hiệu ngay khi mẹ về", "hàng trăm tin nhắn", máy tính/ví/xe không bị lấy, kéo–keo–photocopy, giấy khen điểm A, Olympic, "làm giả bằng cử nhân", cha bám theo con gái, giờ 10:35, tên ba người đột nhập, băng thẩm vấn "tài liệu giảng dạy kinh điển" + suy diễn ngôn ngữ cơ thể (thêm cảnh báo: không cử chỉ nào chứng minh nói dối).
+- **K5:** "Hội chứng nói dối bệnh lý / Mythomania" như chẩn đoán → "mang những đặc điểm thường được mô tả trong khái niệm Nói dối bệnh lý"; bỏ "cấu trúc tâm lý ái kỷ".
+- **Cần nguồn / chờ người dùng quyết:** thừa kế ~500.000 CAD (để "theo cáo buộc của bên công tố"); ngày 22/11/2010; phiên xử lại sau 4/2025 chưa kiểm.
+- Nguồn: https://scc-csc.ca/judgments-jugements/cb/2025/40839/ · https://www.cp24.com/news/canada/2025/04/10/supreme-court-confirms-order-for-new-murder-trials-in-attack-on-womans-parents/ · https://www.canadianlawyermag.com/practice-areas/criminal/scc-upholds-decision-to-overturn-first-degree-murder-conviction-for-jennifer-pan-orders-new-trial/392116
+- ⚠ File CŨ (dựng từ kịch bản trước rà soát): `.work/script_tap13.json`, `.work/script_tap13_JA.json`, `02_SAN_XUAT/Tap13/Danh_Sach_Anh_Tap13.md` + bộ ảnh nền / contact sheet. Chưa có audio/shot/video. Phải chạy lại `parse_kichban.py` (AE_EP=13) và rà lại danh sách ảnh trước khi sản xuất. Bản EN/JA/KO CHƯA đồng bộ.

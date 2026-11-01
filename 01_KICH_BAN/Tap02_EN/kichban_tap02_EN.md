@@ -189,7 +189,7 @@ And it is the statement that compels us to recalibrate our entire understanding 
 
 **PSYCHOLOGIST** *(steady, analytically razor-sharp)*:
 "It is **Malignant Narcissism coupled with a God Complex** — theoretical models frequently utilized to explain predators of this caliber.
-At the apex of military command, Williams grew accustomed to issuing orders that hundreds unquestioningly obeyed.
+At the apex of military command, Williams grew accustomed to issuing orders that thousands unquestioningly obeyed.
 Yet military authority remains bound by regulations, civil oversight, and command chains.
 When he broke into private bedrooms carrying a digital camera, he attained an unconstrained authority: the absolute power to decide another human being's fate and strip away their dignity.
 The photographs he took were not merely for sexual gratification; they were tangible trophies feeding his pathological narcissism: *I stand above everyone, I control your existence, and none of you can touch me.*
@@ -223,7 +223,7 @@ To understand how this confrontation became one of the most celebrated interroga
 "For years, our small town of Tweed lived under an intangible sense of dread.
 Doors remained locked, yet personal belongings were mysteriously rearranged without explanation.
 When the truth was finally revealed... the realization was far more terrifying than any nightmare.
-You realize that while you were asleep in your own bedroom, a man disguised in an officer's uniform was standing right there in the dark, watching you."
+You realize that while you were asleep in your own bedroom, a predator hiding behind an officer’s uniform was standing right there in the dark, watching you."
 
 **HOST** *(lowered voice, measured)*:
 "That lingering terror persisted until the Nissan Pathfinder passed through the snowy checkpoint.
@@ -236,7 +236,7 @@ He maintained a flat, calm, disarming cadence, systematically guiding Williams i
 Smyth asked: What would Williams be willing to provide to help police eliminate him from suspicion?
 And the colonel, confident in his own standing, readily agreed: DNA swabs, fingerprints, and footwear impressions.
 While the two men spoke, forensic teams were quietly executing search warrants at his Ottawa residence and his Tweed cottage.
-Then Smyth laid down photographs of the snowshoe footprint from the crime scene beside Williams’s own boots, stating plainly: 'They are identical.'
+Then Smyth laid down photographs of the snow boot impression from the crime scene beside Williams’s own boots, stating plainly: 'They are identical.'
 The colonel paused noticeably.
 He then made a revealing request: 'Just call me Russ.'
 That was the moment the invisible noose began to tighten."
@@ -244,7 +244,7 @@ That was the moment the invisible noose began to tighten."
 **[SFX]:** A cell phone vibrating softly: "Buzz... buzz...", a photograph sliding across the table: "Swish".
 
 **INVESTIGATOR** *(reminiscent, chilled, precise)*:
-"Smyth’s phone buzzed with an incoming update: search teams in Ottawa had uncovered hard drives hidden within the basement ceiling joists — containing thousands of classified photographs and meticulous logs of every intrusion.
+"Smyth’s phone buzzed with an incoming update: search teams in Ottawa had uncovered hard drives hidden within the basement ceiling joists — containing thousands of photographs and meticulous logs of every intrusion.
 Smyth looked up, stared directly into Williams’s eyes, and made his decisive move: 'Investigators are at your home right now.'
 'Your wife now knows what’s going on.'
 Williams froze.

@@ -79,3 +79,16 @@ Kịch bản Tập 26 tuân thủ tuyệt đối Quy tắc V9 (YouTube Safe) đ�
 - **File dữ liệu biên dịch:** [`.work/script_tap26.json`](file:///d:/TEST/Gax/Audi/.work/script_tap26.json)
 - **Cấu hình pipeline:** Đã đăng ký mã tập `26` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax/Audi/.work/edition.py).
 - **Danh mục 28 hồ sơ:** Đã cập nhật trạng thái `[x]` cho Hồ sơ 26 tại [`01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md`](file:///d:/TEST/Gax/Audi/01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md).
+
+
+## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
+- **K4/V9:** bỏ "thi thể" ×4, "bỏ đói" ×2, "tim ngừng đập", "đập tan"; bỏ quy trình "cắt giảm khẩu phần sữa và nước uống… suy kiệt dần" và "dạ dày trống rỗng" (cách gây hại) → "bị bỏ mặc, không được chăm sóc".
+- **K3:** N1 (cảnh sát tuần tra Waseda, ngôi "tôi") → "Hãy hình dung tâm trạng của hai viên cảnh sát trẻ…"; N2 (người mẹ, "chồng tôi… bán áo kimono…") → "Hãy hình dung một người mẹ trẻ ở Tokyo năm ấy…". HOST "những người mẹ được triệu tập lên bục nhân chứng" (không nguồn) → lời dẫn chung về nỗi đau các bà mẹ.
+- **K1:** án sơ thẩm 11/10/1948: Ishikawa 8 năm, Takeshi 4 năm, kết tội trên **5 trường hợp** (bỏ "bác sĩ Nakayama một năm" — nguồn khác ghi 4 năm); phúc thẩm 4/1952: Ishikawa 4 năm, Takeshi 2 năm. Số nạn nhân: "ít nhất 85… hơn 100" (khẳng định) → "các nguồn ước tính từ khoảng 85 đến hơn 100, có thể nhiều hơn"; "hàng trăm đứa trẻ" → "hàng chục / rất nhiều". **Sai lịch sử:** "ngay sau vụ án thông qua Luật Phúc lợi Trẻ em" — luật này ban hành 12/1947, trước vụ án → "góp phần thúc đẩy nới lỏng quy định về phá thai và siết quản lý cơ sở hộ sinh". Bỏ: bác sĩ "Yurie Taniguchi" (không nguồn), "tốt nghiệp Đại học Hoàng gia Tokyo", "đèn dầu", kimono tại tòa, "phóng viên quốc tế", "bán sữa ra chợ đen", "Nakayama thừa nhận nhận hối lộ".
+- **K5:** "nhân cách ái kỷ lạnh lùng", "cấu trúc tâm thần… kẻ thao túng chuyên nghiệp" → "mang những đặc điểm thường được mô tả ở kiểu người thao túng".
+- Nhỏ: "cơ quan công an" → "đồn cảnh sát".
+- **Nguồn:** https://en.wikipedia.org/wiki/Miyuki_Ishikawa · https://en.wikipedia.org/wiki/List_of_major_crimes_in_Japan · https://es.hispanopedia.com/wiki/Miyuki_Ishikawa
+- **Cần nguồn / chờ người dùng quyết:** (1) mức phí "bốn nghìn đến năm nghìn yên" (lượt HOST "bản hợp đồng ma quỷ") chưa xác minh — đang giữ, đề nghị bỏ nếu không tìm được nguồn; (2) ngày bắt 15/1/1948 và tuổi (sinh 1897) theo Wikipedia, chưa mở nguồn Nhật; (3) mức án của bác sĩ Shiro Nakayama.
+- **Kiểm sau sửa:** khung giữ nguyên 51 phần tử (id + loại khớp 1-1) · số câu 165 → 164 · từ cấm A9.2 trong lời thoại = 0 (còn "búa tòa án" ở thẻ BGM/SFX, "chặt chẽ") · G1 "..." = 0.
+- **Sao lưu:** `.work/_cu/kichban_tap26_23102026_truoc_soat_20261101.md`
+- ⚠ **File .work CŨ:** `.work/script_tap26.json`, `script_tap26_JA.json`, `temp_parse_t26.json`, `temp_verify_*_t26.json` theo bản cũ → chạy lại `parse_kichban.py`. Bảng phân vai đầu file chưa cập nhật. Bản EN/JA/KO chưa đồng bộ.

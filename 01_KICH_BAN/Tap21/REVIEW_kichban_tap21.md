@@ -80,3 +80,15 @@ Kịch bản Tập 21 tuân thủ tuyệt đối Quy tắc V9 (YouTube Safe) đ�
 - **File dữ liệu biên dịch:** [`.work/script_tap21.json`](file:///d:/TEST/Gax/Audi/.work/script_tap21.json)
 - **Cấu hình pipeline:** Đã đăng ký mã tập `21` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax/Audi/.work/edition.py).
 - **Danh mục 28 hồ sơ:** Đã cập nhật trạng thái `[x]` cho Hồ sơ 21 tại [`01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md`](file:///d:/TEST/Gax/Audi/01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md).
+
+## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
+Sao lưu: `.work/_cu/kichban_tap21_23102026_truoc_soat_20261101.md`. Khung 51 phần tử giữ nguyên (id + loại khớp bản cũ, parse thử ra scratchpad); số câu 165 → 165.
+- **K1:** khoảng trống không người trông **khoảng một giờ** (mẹ chồng đến ~1 giờ sau khi Rusty đi; cũ "8:30 → 9:00, 30 phút"); Haldol bị ngừng **khoảng hai tuần** trước vụ án (cũ "vài ngày, cắt giảm dần"); Resnick do **phía bào chữa** mời (cũ "cơ quan tố tụng trưng cầu"); bỏ tên "Bệnh viện Memorial Spring Shadows", "bảy tháng sau xuất viện", "dặn giám sát 24/24", "đan lát bán đồ ủng hộ quỹ", "Đạo luật Andrea Yates" (không có luật mang tên này — đã thay bằng câu chung về nhận thức); Vernon = Bệnh viện Bang Bắc Texas, chuyển Kerrville **1/2007**; quỹ do Parnham **và vợ** lập; bỏ so sánh Nikolas Cruz.
+- **K2:** bỏ câu trích "Đến lúc rồi, anh hãy về nhà ngay đi", "Tôi vừa giết chết các con của mình", lời đọc phán quyết của thẩm phán → lời kể gián tiếp.
+- **K3:** D không còn nói ngôi thứ nhất như Sgt. **Eric Mehl** (người thật) → điều tra viên minh hoạ, "Hãy hình dung…"; C không còn là TS. **Phillip Resnick**; N1 hàng xóm và N2 bồi thẩm viên → nhân vật minh hoạ có lời dẫn "Hãy hình dung…".
+- **K4/V9:** bỏ cách thức gây án ("dìm… trong bồn tắm", "quần áo ướt sũng", "năm chiếc cáng phủ khăn trắng"), phương thức tự hại ("thuốc ngủ và dao nhọn"); "sát hại" (3), "máu lạnh", "xương máu" (2), "nhịp tim" trong BGM.
+- **K5:** "các bác sĩ chẩn đoán Loạn thần sau sinh cực kỳ nguy hiểm", "bằng chứng y khoa xác nhận", "bằng chứng không thể chối cãi" → quy về nhận định của chuyên gia bào chữa / phán quyết của bồi thẩm đoàn.
+- **G1:** 0 "...".
+- Nguồn: en.wikipedia.org/wiki/Andrea_Yates (lịch thời gian, Starbranch, Haldol, Dietz/Law & Order, phán quyết 26/7/2006, Vernon/Kerrville, quỹ Parnham).
+- **Cần nguồn / chờ người dùng quyết:** "thủ khoa trung học, 8 năm ở MD Anderson", "từ chối buổi xem xét hằng năm" (giữ, có nguồn báo nhưng chưa mở đối chiếu lượt này); Resnick làm chứng ở phiên 2002 hay 2006.
+- ⚠ `.work/script_tap21.json` (và JA) là CŨ.

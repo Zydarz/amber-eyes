@@ -72,3 +72,14 @@ Kịch bản Tập 18 tuân thủ nghiêm ngặt Quy tắc V9 (YouTube Safe) đ�
 - **File dữ liệu biên dịch:** [`.work/script_tap18.json`](file:///d:/TEST/Gax/Audi/.work/script_tap18.json)
 - **Cấu hình pipeline:** Đã đăng ký mã tập `18` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax/Audi/.work/edition.py#L525).
 - **Danh mục 28 hồ sơ:** Đã cập nhật trạng thái `[x]` cho Hồ sơ 18 tại [`01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md`](file:///d:/TEST/Gax/Audi/01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md#L89).
+
+## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
+- **K1:** Alex Cox là **anh trai** của Lori (bản cũ ghi "em trai"). Bản án của Lori: "**năm** bản án chung thân" → "nhiều bản án chung thân liên tiếp, không ân xá" (các nguồn lệch nhau; KMVT ghi 3 án liên tiếp + 1 án — kmvt.com, 31/7/2023 · nbcnews.com/news/us-news/lori-vallow-sentenced-life-prison-murders-2-children-romantic-rival-rcna97312). Nơi Chad chờ thi hành án: "Trại cải tạo ở Boise" → "khu tử tù của bang Idaho"; án tử do **bồi thẩm đoàn** quyết định ngày 1/6/2024. "Chad lái xe bỏ trốn, bị bao vây sau vài dãy phố" → "bị bắt giữ ngay trong ngày". Bỏ các chi tiết không xác minh được: "từng thi sắc đẹp", "khu tưởng niệm ở Rexburg", "Pocatello", "hơn 60 nhân chứng" (→ "hàng chục"), "144.000 người", "tận thế tháng 7/2020", "đêm 22/9" (→ "cuối tháng 9"), "tiếng đàn ukulele".
+- **K3:** N1 (Kay Woodcock, ngôi thứ nhất) → "Hãy hình dung tâm trạng của một người bà…"; N2 (bồi thẩm viên) → "Hãy hình dung…"; nhãn vai D bỏ "Thanh tra Rexburg". Phần mô tả vai N1 ở header bỏ tên người thật.
+- **K4/V9:** bỏ "hài cốt bọc nilon, băng dính", "hố lửa thiêu hủy", "làm ngạt", "bị bắn tử vong", "phi tang thi thể", "giọt máu", "tiền vấy máu", "đẫm máu", "sát hại", "dục vọng". BGM "nhịp tim đập" → "nhịp trống trầm". Cái chết của Charles Vallow chỉ nói "liên quan đến Alex Cox", vụ này xét xử riêng ở Arizona.
+- **K5:** Folie à Deux, ái kỷ → "khung lý thuyết, không phải chẩn đoán của tòa".
+- **K8:** Hồi 2 cũ đưa Charles Vallow vào "chuỗi nạn nhân" của cặp đôi, trong khi bản án ở Idaho không gồm vụ này → sửa thành "xét xử riêng tại Arizona".
+- **Cần nguồn / chờ người dùng quyết:** số tiền bảo hiểm (đã bỏ con số "hơn 400.000 đô la", chỉ ghi "hàng trăm nghìn đô la"); kết quả phiên tòa ở Arizona (2025) chưa được đưa vào kịch bản.
+- **Kiểm tự động (01/11/2026):** tách câu thử bằng `parse_lines()` của `.work/parse_kichban.py` trong bộ nhớ (không ghi file): khung **51 phần tử giữ nguyên** (id + loại + vai khớp bản cũ) → `click_cues`, `act1_cue`, `summary` trong `edition.py` vẫn đúng; số câu 165 → 165. Từ cấm A9.2 trong lời thoại: **0**. Dấu "..." (G1): **0**.
+- Sao lưu: `.work/_cu/kichban_tap18_23102026_truoc_soat_20261101.md`
+- ⚠ `.work/script_tap18.json` (và các file acting / tts / timeline / shots nếu có) là bản **CŨ** — phải chạy lại `parse_kichban.py` → diễn xuất → TTS. Bản EN/JA/KO **chưa đồng bộ** với bản vá này.

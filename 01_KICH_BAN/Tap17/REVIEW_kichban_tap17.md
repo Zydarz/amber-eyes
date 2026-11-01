@@ -72,3 +72,13 @@ Kịch bản Tập 17 tuân thủ nghiêm ngặt Quy tắc V9 (YouTube Safe) đ�
 - **File dữ liệu biên dịch:** [`.work/script_tap17.json`](file:///d:/TEST/Gax/Audi/.work/script_tap17.json)
 - **Cấu hình pipeline:** Đã đăng ký mã tập `17` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax/Audi/.work/edition.py#L497).
 - **Danh mục 28 hồ sơ:** Đã cập nhật trạng thái `[x]` cho Hồ sơ 17 tại [`01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md`](file:///d:/TEST/Gax/Audi/01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md#L85).
+
+## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
+- **K1:** "thiếu niên **14** tuổi nặng bằng trẻ 7 tuổi" → **12** tuổi, theo lời biện lý Hestrin (en.wikipedia.org/wiki/Turpin_case · ktla.com). "Ba nạn nhân bị trói" → "một số người con bị xích". Câu nói tại tòa gán cho **Jennifer** → "một người con gái" (không xác minh được ai là người nói), chuyển sang lời kể gián tiếp. Bỏ các chi tiết không xác minh được: "số nhà 160" (giữ tên đường), "cuộc gọi 20 phút", "điện thoại tìm thấy trong đồ phế thải của mẹ", "teo não / thoái hóa khớp", "cấm nhìn ra cửa sổ / ánh mặt trời", tên hai nhà tù Corcoran / Chowchilla, "ân xá năm 2044", "Trung tâm Y tế Đại học Riverside", "tập đoàn quốc phòng danh tiếng".
+- **K3:** N1 (tổng đài viên, ngôi thứ nhất) và N2 (đại diện y tế) → "Hãy hình dung…"; nhãn vai D bỏ tên Manuel Campos / "Công tố viên Hestrin".
+- **K4/V9:** bỏ "đòn roi", "đánh đập dã man", "trói bằng dây thừng", "bỏ đói" (→ "cố tình hạn chế ăn uống"), "trái tim đập liên hồi", "người cha cầm súng đuổi theo". BGM "nhịp tim đập" → "nhịp trống trầm". Không có chi tiết tình dục nào (cáo buộc riêng đối với David không được nhắc tới).
+- **K5:** Folie à Deux → "cách diễn giải của giới phân tích, không phải chẩn đoán chính thức".
+- **Cần nguồn / chờ người dùng quyết:** "lên kế hoạch khoảng hai năm" (có bản tin AP/Yahoo, cần link chuẩn), "tắm một lần mỗi năm" (lời công tố), nội dung lời phát biểu của người con trai (yêu thương, tha thứ) — cần bản tin phiên tòa 19/4/2019.
+- **Kiểm tự động (01/11/2026):** tách câu thử bằng `parse_lines()` của `.work/parse_kichban.py` trong bộ nhớ (không ghi file): khung **51 phần tử giữ nguyên** (id + loại + vai khớp bản cũ) → `click_cues`, `act1_cue`, `summary` trong `edition.py` vẫn đúng; số câu 165 → 165. Từ cấm A9.2 trong lời thoại: **0**. Dấu "..." (G1): **0**.
+- Sao lưu: `.work/_cu/kichban_tap17_23102026_truoc_soat_20261101.md`
+- ⚠ `.work/script_tap17.json` (và các file acting / tts / timeline / shots nếu có) là bản **CŨ** — phải chạy lại `parse_kichban.py` → diễn xuất → TTS. Bản EN/JA/KO **chưa đồng bộ** với bản vá này.

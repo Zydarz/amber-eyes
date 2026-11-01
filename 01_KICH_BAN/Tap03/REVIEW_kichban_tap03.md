@@ -264,3 +264,11 @@ Bản gốc (và bản sửa lần đầu của tôi) đặt nguyên văn tiến
    - Đã re-parse bằng `parse_kichban.py` $\to$ `.work/script_tap03.json`.
    - Đã sinh lại `.work/acting_tap03.json` bằng `make_acting_tap03.py` (220 câu, 162 mốc then chốt, 60 khoảng lặng).
    - Kiểm tra `_check_ep03.py`: Toàn bộ mốc BGM/SFX/NGHI sạch 100%, sẵn sàng chạy TTS.
+
+## Vá V9 + K9 — 31/10/2026 (người dùng duyệt)
+Sao lưu: `.work/_cu/kichban_tap03_22102026_truoc_V9_20261031.md`.
+- Hồi 2: bỏ mô tả phi tang, thi thể, phần đầu nạn nhân (Cindy Schall), danh sách hung khí trong cốp xe → lời kể giảm nhẹ ("xóa dấu vết", "giấu chứng cứ", "chuẩn bị sẵn"). Giữ câu trích "luôn muốn người ta phải ngước nhìn lên".
+- Hồi 4: "loại bỏ đầu đạn khỏi thi thể… chôn đầu" → "xóa dấu vết… giấu chứng cứ"; "thực hành trên nạn nhân thật hàng trăm lần" → "tập dượt trong tưởng tượng" (bản cũ sai nghĩa khái niệm fantasy rehearsal).
+- Hồi 5: chuyện con mèo bỏ chi tiết "chôn sống/giải phẫu/dao" → "ngược đãi".
+- K9: "Harry F. Brauer" → "Harry Brauer".
+- ⚠ `.work/acting_tap03.json` đã CŨ so với kịch bản — phải chạy lại `parse_kichban.py` + `make_acting_tap03.py` trước TTS.

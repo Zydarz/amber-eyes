@@ -75,3 +75,22 @@ Do tính chất đặc biệt nhạy cảm của vụ án liên quan đến kh�
 - **File kịch bản:** [`01_KICH_BAN/Tap07/kichban_tap07_23102026.md`](file:///d:/TEST/Gax/Audi/01_KICH_BAN/Tap07/kichban_tap07_23102026.md)
 - **File dữ liệu biên dịch:** [`.work/script_tap07.json`](file:///d:/TEST/Gax/Audi/.work/script_tap07.json)
 - **Cấu hình pipeline:** Đã đăng ký mã tập `07` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax/Audi/.work/edition.py).
+
+
+## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
+Khung phần tử giữ nguyên (đo bằng `.work/parse_kichban.py` xuất ra scratchpad, không ghi đè `.work/`): 50 phần tử trước = sau; số câu 164 → 146. 0 từ cấm A9.2 trong toàn file; 0 `...` trong lời thoại.
+Sao lưu: `.work/_cu/kichban_tap07_23102026_truoc_soat_20261101.md`.
+- ⚠ **Tập đã dựng video:** `script_tap07.json`, `acting_tap07.json`, audio, bảng shot, video xuất bản đều **CŨ** so với kịch bản này → cần chạy lại từ bước 2 (parse) đến bước 10, và nghe duyệt lại.
+- **K4/V9 (tự tử — vùng YouTube nhạy cảm):** bỏ mọi chi tiết phương thức (khí thải, máy bơm chạy xăng, khí độc tích tụ, "khí bắt đầu ngập xe", "ngạt thở", "hậu quả chết người của khí độc"); trích tin nhắn thúc ép chuyển thành tóm lược gián tiếp.
+- **K3:** ĐTV "Tôi là Thám tử Scott Gordon" (mạo danh người thật) → "Vụ việc do Thám tử Scott Gordon… phụ trách", bỏ "chúng tôi"; N1 Lynn Roy (ngôi thứ nhất) → Host dẫn "Hãy hình dung nỗi đau của mẹ cậu, bà Lynn Roy", N1 ngôi ba; N2 Samantha Boardman (ngôi thứ nhất + chi tiết "không thể giữ im lặng" không có nguồn) → Host dẫn "Hãy hình dung…", N2 tóm lược tin nhắn theo bản ghi trình trước tòa; ghi chú vai trong brief đổi tương ứng.
+- **K2:** 2 trích đoạn tin nhắn dài, câu "Hãy trèo trở lại vào trong xe ngay lập tức", và đoạn trích phán quyết dài của Thẩm phán Moniz (không nguyên văn) → lời kể gián tiếp.
+- **K1:** Carter 17 tuổi lúc sự việc nhưng **20 tuổi khi bị kết án** (cũ: "nữ sinh mười bảy tuổi bị kết án"); phán quyết 16/6/2017, **án tuyên tháng 8/2017**; tội danh "ngộ sát gián tiếp" → "ngộ sát"; Katie Rayburn là Phó Công tố viên; "hơn hai mươi nghìn tin nhắn và hàng trăm cuộc gọi" (không nguồn) → "hàng nghìn" (tiêu đề Hồi 2 đổi tương ứng); "cuộc gọi hơn 40 phút" → nói cuộc gọi không được ghi âm, nội dung biết qua tin nhắn Carter gửi bạn; "nhân viên bảo vệ phát hiện xe" → "cảnh sát tìm đến"; "giải bóng chày" → "giải bóng mềm"; bỏ "tổ chức tại thị trấn của Michelle"; "vài ngày trước… Conrad đang xem tivi cùng gia đình" (không nguồn) → "ngay trong đêm… nhắn bạn bè rằng không liên lạc được"; "hàng trăm ống kính quốc tế", "phán quyết dài 15 phút" bỏ.
+- **K1 quan trọng — Đạo luật Conrad:** bản cũ khẳng định đã "thông qua", "chính thức hình sự hóa". Nguồn tìm được (2019–2021) chỉ cho thấy **dự luật được đệ trình và tái đệ trình**, chưa thấy được ký → sửa thành "kiên trì vận động cho một dự luật mang tên Đạo luật Conrad".
+- **K5:** "Câu trả lời nằm ở… Rối loạn nhân cách kịch tính kết hợp Münchausen kỹ thuật số. Những người mắc chứng bệnh này…" → "Một khung lý thuyết có thể giúp giải thích: hành vi của Carter mang những đặc điểm thường được mô tả trong…"; "trầm cảm lâm sàng cực độ" → "trầm cảm nặng".
+- Nguồn: boston.com/news/politics/2019/07/25/conrads-law · wbur.org/news/2019/11/12/massachusetts-legislation-suicide-text-case · nbcnews.com/news/us-news/conrad-s-law-inspired-michelle-carter-case-would-outlaw-coerced-n1034166
+
+### Cần nguồn / chờ người dùng quyết
+- Tình trạng hiện tại của Đạo luật Conrad (đã ký chưa?) — kiểm malegislature.gov trước khi dựng lại.
+- Việc Carter nhắn bạn bè "không liên lạc được với Conrad" trong đêm 12/7 — cần nguồn (hồ sơ tòa / Commonwealth v. Carter).
+- Ngày tin nhắn gửi Boardman (15/9/2014), "gặp nhau ở Florida 2012", "Plainville cách 35 dặm" — chưa có link trong lượt này.
+- **Đề nghị (chưa làm, cần người dùng quyết):** thêm câu thông tin đường dây hỗ trợ tâm lý vào lời kết/mô tả vì tập nói về tự tử.

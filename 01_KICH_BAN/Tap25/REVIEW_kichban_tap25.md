@@ -79,3 +79,18 @@ Kịch bản Tập 25 tuân thủ tuyệt đối Quy tắc V9 (YouTube Safe) đ�
 - **File dữ liệu biên dịch:** [`.work/script_tap25.json`](file:///d:/TEST/Gax/Audi/.work/script_tap25.json)
 - **Cấu hình pipeline:** Đã đăng ký mã tập `25` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax/Audi/.work/edition.py).
 - **Danh mục 28 hồ sơ:** Đã cập nhật trạng thái `[x]` cho Hồ sơ 25 tại [`01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md`](file:///d:/TEST/Gax/Audi/01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md).
+
+
+## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
+- **K4/V9:** bỏ búa tạ / dao / thẻ cảnh sát trong túi (1.10), cách đột nhập + hung khí (1.04), "thi thể… phi tang… dùng búa tạ" (2.06), "đôi giày dính máu", "vết thương trên hộp sọ… hung khí" (4.06), "xâm phạm thi thể" (4.02), "nhát búa" (3.10), "máu lạnh" ×3, "đòn chí mạng", "sát hại", "tàn sát đồng loại"; SFX búa tạ / xẻng đào → âm thanh trung tính.
+- **K3:** N1 (chủ cơ sở massage, ngôi "tôi" như người thật) → lời kể minh hoạ mở bằng "Hãy hình dung…", ngôi thứ ba; N2 (đại diện gia đình nạn nhân, "cha mẹ tôi") → "Hãy hình dung nỗi đau của những người con…", 8 → 6 câu.
+- **K2:** câu tuyên bố trước micro → lời kể gián tiếp "Theo các bản tin thời đó…".
+- **K1:** bắt giữ 15/7/2004 nhờ chủ cơ sở báo cảnh sát (bỏ cảnh rượt đuổi, áo mưa vàng, túi đồ); bỏ "mua thuốc ngủ tự sát", "gầm cầu vượt", "sáng 18/7… hàng trăm điều tra viên"; tìm thấy 11 nạn nhân sau chùa Bongwon; tòa xác nhận 20 nạn nhân; "Tòa án Quận Trung tâm Seoul"; Tòa Tối cao 6/2005 giữ nguyên án; thêm: Hàn Quốc chưa thi hành án tử nào từ cuối 1997 (bỏ "biệt giam chờ ngày thi hành án"); sinh 1970, Bắc Jeolla; bỏ "cha nghiện rượu, bạo hành" (cần nguồn); bỏ "hàng trăm cảnh sát tư pháp", "cắt ngang lời công tố viên", "tài liệu ghi thói quen nạn nhân", "hai mươi mốt tội danh" (không nguồn).
+- **K5:** "kẻ có rối loạn nhân cách chống đối xã hội", "sự kết hợp RLNC chống đối XH và ái kỷ ác tính" → "mang những đặc điểm thường được mô tả trong…", "khung lý thuyết… giúp giải thích".
+- **K8:** cũ: bằng chứng pháp y khiến hắn "buộc phải thừa nhận trước tòa" ↔ hắn đã tự khai, chỉ chỗ từ tháng 7 → sửa: bằng chứng biến lời tự thú khoe khoang thành hồ sơ buộc tội. Cảnh báo 4 cũ ("nhiều lần tuyên bố trước khi gây án", không nguồn) → sau khi bị bắt mới khoác áo "trừng phạt người giàu".
+- Nhỏ: "công an" → "cảnh sát" (bối cảnh Hàn Quốc).
+- **Nguồn:** https://en.wikipedia.org/wiki/Yoo_Young-chul · https://en.wikipedia.org/wiki/Bongwonsa · https://www.koreaherald.com/article/3251159 · https://crimelibrary.org/serial_killers/weird/yoo_young_cheol/biblio.html
+- **Cần nguồn / chờ người dùng quyết:** (1) cuộc đào tẩu 16/7/2004 giả động kinh, bắt lại sau ~12 giờ ở Yeongdeungpo — một kết quả tìm kiếm gắn chi tiết giả động kinh với lần bắt năm 2002 → cần đối chiếu báo Hàn trước khi dựng; (2) 14 tiền án, mù màu / trường nghệ thuật, ly hôn 2002 — phổ biến nhưng chưa mở bài gốc; (3) câu tuyên bố "phụ nữ… người giàu…" — cần link bản tin gốc 2004.
+- **Kiểm sau sửa:** khung giữ nguyên 51 phần tử (id + loại khớp 1-1, đo bằng `.work/parse_kichban.py` ghi ra scratchpad, không ghi đè `.work`) · số câu 165 → 159 · từ cấm A9.2 trong lời thoại = 0 (còn lại chỉ ở dòng tiêu chuẩn đầu file, "búa tòa án" trong thẻ BGM/SFX, "chặt chẽ", "đao to búa lớn") · G1 "..." = 0.
+- **Sao lưu:** `.work/_cu/kichban_tap25_23102026_truoc_soat_20261101.md`
+- ⚠ **File .work CŨ:** `.work/script_tap25.json`, `script_tap25_JA.json`, `temp_parse_t25.json`, `temp_verify_*_t25.json` vẫn theo bản trước khi soát → chạy lại `parse_kichban.py` trước bước diễn xuất/TTS. Bảng phân vai đầu file (số câu theo vai) chưa cập nhật. Bản EN/JA/KO chưa đồng bộ.

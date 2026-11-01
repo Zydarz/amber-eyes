@@ -51,8 +51,8 @@ Mỗi bước chỉ làm khi bước trước **ĐẠT**. Lệnh cụ thể: ti�
 | 6 | Âm thanh `build_audio3.py` | 0 khoảng câm > 0,3 s ở −60 dB · −16 ± 1 LUFS · đỉnh ≤ −1,5 dBFS · lời đầu 22,8–23,5 s |
 | 7 | Bảng shot `parse_shots.py` | Phủ 100% câu đúng thứ tự · mọi nền có file · số trên hình có trong câu |
 | 8 | **Ảnh tĩnh MỌI shot** `build_video3.py --stills …` | Không lỗi, không đè chữ, không chữ lạ, không lộ mặt (mục 6) |
-| 9 | Dựng hình `build_video3.py --workers 6` (~1 giờ / 27 phút video) | `picture.mp4` đủ dài |
-| 10 | Phụ đề + đóng gói `subtitles.py`, `package.py --mux` | Hình = tiếng ± 0,05 s · giải mã 0 lỗi · thumbnail đúng tập |
+| 9 | Dựng hình `build_video3.py --workers 6` (~1 giờ / 27 phút video) | `picture.mp4` khớp `timeline.total` ± 0,05 s (đổi audio ⇒ phải chạy lại `parse_shots.py` + dựng lại hình, H14) |
+| 10 | Phụ đề + đóng gói `subtitles.py`, `package.py --mux` | Hình = tiếng ± 0,05 s · giải mã 0 lỗi · thumbnail đúng tập · khung cuối có thẻ kết |
 | 11 | Giao cho người dùng | Báo số đo + danh sách việc người dùng phải làm (nguồn, điều khoản, nghe duyệt) |
 
 **Mốc dừng chờ người dùng:** sau bước 1 (kịch bản), sau bước 5 (nghe giọng), sau bước 8 (ảnh tĩnh), sau bước 11.
@@ -77,9 +77,11 @@ Mỗi bước chỉ làm khi bước trước **ĐẠT**. Lệnh cụ thể: ti�
 
 ## 4. Giọng đọc — phần dễ sai nhất
 
-> **Chuyển sang Higgs Audio v3 — chạy cục bộ Mac mini M2 16 GB qua MLX-Audio (27/10/2026, chưa dùng sản xuất):** khi engine TTS là Higgs, đọc và tuân theo `00_TIEU_CHUAN/QUY_TAC_AUDIO_HIGGS.md` — file đó thay mục này cùng T2, T8, T9.
+> **Higgs Audio v3 trên Kaggle GPU — đã dùng sản xuất Tập 02 (31/10/2026):** khi engine TTS là Higgs, đọc và tuân theo `00_TIEU_CHUAN/QUY_TAC_AUDIO_HIGGS.md` (bản 3) — file đó thay mục này cùng T2, T8, T9. Ba luật cốt lõi: đo cao độ **trên bản Higgs đọc**, không trên giọng mẫu · G9 xét **mọi cặp vai liền kề, kể cả khác giới** · **CẤM thẻ `<|emotion:…|>`**.
 >
 > **Tạo giọng mẫu cho Higgs bằng VoxCPM2 (28/10/2026, đã chốt hướng, chưa chạy thử):** đọc `00_TIEU_CHUAN/TAO_GIONG_MAU_VOXCPM2.md` — chứa prompt Voice Design cho 7 vai, cách điền form web, và quy trình đóng gói thành file tham chiếu.
+>
+> **TÁCH RIÊNG giọng mẫu tiếng Việt và tiếng Anh (31/10/2026, người dùng chốt):** mỗi ngôn ngữ một bộ độc lập — thư mục, dataset Kaggle (`amber-eyes-voice-ref-voxcpm2` / `…-voxcpm2-en`), bảng gán vai (`g9_role_map.json` / `g9_role_map_EN.json`), clip EN mang đuôi `_EN`. **CẤM** chép, đổi tên hay ghi đè clip giữa hai bộ. Chi tiết: `QUY_TAC_AUDIO_HIGGS.md` §4.4.
 >
 > **Luật + ngưỡng đo cho giọng mẫu VoxCPM2 (29/10/2026):** `00_TIEU_CHUAN/QUY_TAC_GIONG_MAU_VOXCPM2.md` — cổng V1–V8 (CER < 2% **và 0 lỗi thanh điệu**, F0 theo vai, chuẩn WAV 24 kHz −18 LUFS), đo bằng `.work/voxcpm_do_mau.py`, báo cáo bắt buộc trước khi giao.
 
@@ -133,7 +135,7 @@ Mỗi bước chỉ làm khi bước trước **ĐẠT**. Lệnh cụ thể: ti�
 | A4 | **PHẢI cắt đúng đoạn** tiếng động (thường 1–12 s). File tải về dài 14–59 s mà đặt nguyên thì sẽ kêu suốt chục câu. Khai `CUTS`; file sai khai `KEEP_CODE` trong `import_sfx_video.py` |
 | A5 | Tiếng tự tổng hợp bằng code chỉ đạt ~6–8/10 độ thật: dùng tốt cho nền và nhấn kịch tính, **kém cho vật thật** (xe, bộ đàm, búa) |
 | A6 | Nhạc chỉ lấy đoạn liên tục (`bgm_ambient_deep` có khoảng câm bên trong); nhạc hồi mới vào **tại ranh giới hồi** |
-| A7 | Chuẩn hoá `loudnorm I=-16:TP=-1.5:LRA=11`, hai lượt, `linear=true` |
+| A7 | Chuẩn hoá `loudnorm I=-16:TP=-1.5:LRA=11`, hai lượt, `linear=true`. **Đo lại trên mp4 cuối**: AAC đẩy true peak lên ~0,1–0,6 dB ⇒ `package.py` đã có `alimiter` giới hạn đỉnh trước khi mã hoá (A11 #38). **Bắt buộc `latency=1`** — thiếu nó thì limiter chèn trễ 5 ms (âm thanh lệch hình) và có thể tạo burst full-scale (A11 #64) |
 | A8 | **Nguồn SFX thứ 2: Freesound (CC0)** — dùng khi YouTube Audio Library không có track đúng nghĩa (19 mã đang dùng track thay thế, mục 4.2). Công cụ: `.work/freesound_client.py` + `.work/fs_fetch.py` + `.work/fs_provenance.py`. Token auth = cột "Client secret/Api key" của https://freesound.org/apiv2/apply. Chỉ tải được **preview 160 kbps mp3**, KHÔNG tải được file gốc (endpoint `download/` là OAuth2-required). Mọi file phải là **CC0** cho kênh kiếm tiền, và phải **nghe duyệt** trước khi nhập |
 | A9 | **Tối ưu ducking và sàn môi trường tập dài (>30 phút):** dùng `np.cumsum` cho đường bao ducking (giảm từ 5 phút xuống 0,05 s); sàn môi trường đặt −31 dB, đuôi piano ấm 7,8 s fade out mượt để tránh lỗi V4 cuối video |
 | A10 | **Bed nhạc nền phải khớp kịch bản, không copy pattern của tập khác.** Mỗi hồi lấy mood thẻ `[BGM]` ĐẦU TIÊN của hồi đó trong `01_KICH_BAN/TapXX/` (Hồi 1 lấy tại mốc `act1_cue`). Lỗi đã gặp 25/10/2026: 20/29 tập dùng chung 1 pattern; T09/T16 đòi guitar/organ nhưng bed trỏ piano/cello; 2 track dài nhất (220 s + 196 s) nằm không ai dùng. Kiểm: `py -3 .work/_qc_bgm_bed_start.py` trước khi dựng |
@@ -159,6 +161,7 @@ Mỗi bước chỉ làm khi bước trước **ĐẠT**. Lệnh cụ thể: ti�
 | H12 | **Shot cuối (thẻ kết) PHẢI có chữ:** nhãn `HỒ SƠ TẬP XX · ĐÃ ĐÓNG` + tên kênh **AMBER EYES** + khẩu hiệu "Phân tích tâm lý tội phạm / qua những hồ sơ có thật". Cột Chữ của shot cuối không được để "—" (Tập 01 và Tập 02 từng kết thúc bằng tờ giấy trống). Renderer tự phóng to tên kênh ở shot cuối không lời |
 | H13 | **Khớp 3 chiều (Ảnh — Chữ — Lời thoại):** Chữ trên hình lấy nguyên văn từ câu thoại đang đọc (H6/V3); ảnh nền phản ánh đúng ngữ cảnh câu đó (H3); vai nói và avatar bán thân khớp 100% kịch bản. Chạy script đối chiếu trước khi dựng |
 | H11 | Thumbnail: nền và chữ **của đúng tập** (khoá `thumb`, `thumb_bg`). Tập 02 từng ra thumbnail mang nền nhà Tập 01 |
+| H14 | **Đổi audio ⇒ phải dựng lại hình.** Mốc thời gian của bảng shot lấy **chỉ từ `timeline_s.json`**, nên đọc lại giọng / cắt lại nhạc ⇒ chạy lại `parse_shots.py` **rồi** `build_video3.py`. Tập 02 (31/10/2026): audio mới 1411,9 s nhưng `picture.mp4` cũ dài 1554,3 s → lệch tới 142 s và **mất thẻ kết** khi ghép. Cổng trước khi đóng gói: `picture.mp4` khớp `timeline.total` ± 0,05 s + trích khung `timeline.total − 2 s` thấy thẻ kết (tiêu chuẩn A11 #55) |
 
 ---
 

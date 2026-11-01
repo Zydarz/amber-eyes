@@ -1,317 +1,284 @@
-# QUY TẮC TẠO AUDIO BẰNG HIGGS AUDIO — MAC MINI M2 16 GB (thay MiniMax)
+# QUY TẮC TẠO AUDIO BẰNG HIGGS AUDIO v3 — bản 4 (31/10/2026)
 
-> Dành cho mọi AI làm việc trong dự án Amber eyes. Đọc cùng `AGENTS.md`. File này **thay mục 4 (Giọng đọc) và T2, T8, T9** của AGENTS.md khi engine TTS là Higgs.
-> Cấu hình đã chốt (người dùng, 27/10/2026): **Higgs Audio (Boson AI) chạy cục bộ trên Mac mini M2, RAM 16 GB, qua MLX-Audio.** Người dùng đã cài và tạo được audio.
-> Nghiên cứu từ tài liệu chính thức ngày 27/10/2026 (nguồn: mục 12). Dòng ghi **CHƯA XÁC MINH** = phải đo trên máy trước khi dựa vào.
-> Bản đầu (hướng API/GPU) lưu ở `.work/_cu/QUY_TAC_AUDIO_HIGGS_v1_20261027.md`.
+> Dành cho mọi AI làm audio kênh Amber eyes bằng Higgs. Đọc cùng `AGENTS.md`. Khi engine là Higgs, file này **thay mục 4 (Giọng đọc) và T2, T8, T9** của AGENTS.md.
+> Bản 3 viết lại từ kinh nghiệm dựng **Tập 02** bằng Higgs (29–31/10/2026): 10 lượt chạy thử, 2 lượt sản xuất, 1 vòng 2. Mỗi luật có lý do là **một lỗi đã thật sự xảy ra**, kèm số đo.
+> **Bản 4** thêm kinh nghiệm dựng **Tập 03** (cả tập + 2 vòng sửa, 31/10/2026) và quy trình chạy cho tập bất kỳ (§7, §14). Bản 3: `.work/_cu/QUY_TAC_AUDIO_HIGGS_v3_20261031.md`.
+> Bản trước nữa (MLX/Mac + nhật ký đo): `.work/_cu/QUY_TAC_AUDIO_HIGGS_v2_20261030.md`. Số đo đầy đủ: `90_LUU_TRU/BaoCao_H2_Higgs_Pilot_Tap02_20261030.md`, `90_LUU_TRU/BaoCao_DoGiongMau_DC_20261030.md`, `02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md` Phụ lục C.
 
 Từ khoá: **PHẢI** · **CẤM** · **NÊN** — như AGENTS.md.
 
 ---
 
-## 0. Nguyên tắc cao nhất
+## 0. Tóm tắt 1 phút
 
-1. **"Higgs tốt hơn MiniMax" là giả thuyết, chưa phải kết luận.** Chỉ được thay MiniMax trong sản xuất khi số đo qua cổng ở mục 9 (CER < 2%, G8, G9, nghe duyệt). Bảng so sánh phải có **cùng 20 câu** đọc bằng cả hai engine.
-2. **Chất lượng trước, tốc độ sau.** Máy chạy miễn phí ⇒ được phép đọc nhiều bản một câu và chọn bản tốt nhất (mục 7). Không đánh đổi chất lượng lấy thời gian.
-3. **Chỉ đo, không đoán** (L2, L3).
+| # | Luật quan trọng nhất | Lỗi đã gặp |
+|---|---|---|
+| 1 | **Đo trên bản Higgs đã đọc, không đo trên giọng mẫu.** Giọng mẫu nghe khác nhau ≠ bản đọc khác nhau | `H.wav` 108 Hz và `D.wav` 128 Hz → Higgs đọc ra 130 và 124 Hz (0,22 nửa cung) |
+| 2 | **G9 xét MỌI cặp vai đứng liền nhau, kể cả khác giới** | D (nam) ← `M_HIGH` 192 Hz → Higgs đọc 193 Hz, cách C (nữ) 1,03 nửa cung → người nghe nhầm D với C. G9 cũ chỉ xét cùng giới nên lọt |
+| 3 | **CẤM mọi thẻ `<|emotion:…|>`** | `sadness`/`surprise` làm giọng nam vọt ~1 quãng tám: Host câu buồn 203–228 Hz (nghe như nữ) |
+| 4 | **Giọng nam: chỉ dùng giọng mẫu ≤ 96 Hz hoặc chấp nhận vùng ~125 Hz** — Higgs kéo giọng nam trung (105–130 Hz) về ~125 Hz | Chỉ được **một** vai nam ở vùng ~125 Hz |
+| 5 | **CẤM chỉnh cao độ giọng mẫu bằng xử lý tín hiệu** (phase vocoder, TD-PSOLA, sox…) | Giọng mẫu đọc ASR 0% nhưng Higgs clone ra CER 8–12%, sai nội dung |
+| 6 | **Mỗi câu ≥ 2 bản, chọn bản theo CER + loại bản lệch cao độ**, rồi vòng 2 cho câu trượt | 29 → 12 câu > 2% sau vòng 2; lượt chọn đầu từng lấy nhầm bản lệch cao độ khi hoà CER |
+| 7 | **Chuyển cache ASR cũ trước khi đo lượt mới** — cache đặt theo tên file | File Host lượt mới trùng tên lượt cũ → sẽ lấy bản chép của audio cũ |
+| 8 | **Kịch bản đổi số câu ⇒ mọi file khoá theo mã câu phải chuyển theo NỘI DUNG** (acting, sfx, tts_manifest) | Tập 03: Higgs đọc câu 5.02#12 thành câu khác, 2.06#2 đọc lại câu cũ vi phạm V9 — CER **không** bắt được |
+| 9 | **Ưu tiên giữ đúng 3 giọng chính (H, D, C).** Vai phụ N1/N2 dùng bộ giọng chung, không ép theo giới tính kịch bản (người dùng chốt 31/10/2026) | Tập 03: N1 giọng nữ đọc lời cảnh sát nam — người nghe có lúc tưởng D đổi giọng; người dùng chấp nhận |
 
-## 1. Chọn đúng mô hình — lỗi dễ mắc nhất
+---
 
-| Mô hình | Tiếng Việt | Bản MLX | Dùng? |
-|---|---|---|---|
-| **Higgs Audio v3 / Higgs TTS 3 (4B)** — `bosonai/higgs-audio-v3-tts-4b` (= `bosonai/higgs-tts-3-4b`) | **Có**, nhóm WER/CER < 5 (số của Boson) | bf16 (~9,3 GB trọng số). MLX-Audio có hỗ trợ v3; bản chuyển MLX của bên thứ ba: `aufklarer/Higgs-TTS-3-4B-MLX-bf16` | **DÙNG** |
-| Higgs Audio v2 (3B) — `mlx-community/higgs-audio-v2-3B-mlx-q8` / `-q6` | **Không xác nhận** | q8 6,2 GB · q6 4,8 GB | **CẤM** cho bản VN |
+## 1. Phạm vi và trạng thái
 
-- ⚠ Hướng dẫn Higgs trong MLX-Audio **chủ yếu là v2** (các bản q8/q6 nhẹ đều là v2). Dễ tải nhầm v2 vì nhẹ hơn.
-- **PHẢI kiểm và ghi vào hồ sơ tập** tên repo model đang chạy thật + phiên bản `mlx-audio` (`pip show mlx-audio`). Nếu là v2 → dừng, báo người dùng.
-- Ưu tiên trọng số **gốc `bosonai/...`**. Bản bên thứ ba (`aufklarer/...`) chỉ dùng khi bản gốc không chạy được, và phải ghi `provenance.json`.
-- Không có bản v3 nén MLX chính thức. Bản GGUF Q8/Q4 (`drbaph/Higgs-Audio-v3-Studio`) là cho llama.cpp, **không phải MLX** → CẤM trộn vào pipeline khi chưa đo CER riêng.
+- **Engine sản xuất:** Higgs Audio v3 (`bosonai/higgs-tts-3-4b`, trọng số gốc) chạy trên **Kaggle GPU** (2 × Tesla T4, transformers). Đường MLX trên Mac **đã bỏ** (chỉ chạy được trên Apple Silicon, không ổn định với 16 GB).
+- **Mac mini** chỉ dùng để **tạo giọng mẫu bằng VoxCPM2** (mục 4) — theo brief 4–5 bước (mẫu: `.work/DC3_MAC_BRIEF.md`).
+- **Đã dùng sản xuất:** Tập 02 (31/10/2026). **Tập 03:** người dùng chốt dùng Higgs + bộ giọng mẫu Tập 02 (31/10/2026), đang sinh hồi 3. Các tập khác vẫn MiniMax.
+- **Đang so sánh:** VoxCPM2 chế độ clone đọc thẳng câu thoại (`.work/VOXCLONE_MAC_BRIEF.md`) — chưa có số đo. Đổi engine phải qua số đo (G13).
 
-## 2. Máy M2 16 GB — vận hành
+## 2. Giấy phép
 
-- Trọng số v3 bf16 ~9,3 GB; Boson đo bộ nhớ đỉnh **~9–12 GB trên M1 32 GB**. Trên 16 GB là **sát giới hạn** (macOS + bộ mã hoá âm thanh cũng chiếm RAM).
-- **PHẢI** khi chạy loạt dài:
-  - Đóng trình duyệt, IDE nặng, app khác. Chỉ **1 tiến trình Higgs** tại một thời điểm (T3).
-  - **Nạp model 1 lần**, đọc tuần tự mọi câu trong cùng tiến trình Python (`mlx_audio.tts.utils.load` → lặp `model.generate`). **CẤM** gọi CLI một lần/câu (nạp lại ~9 GB mỗi câu).
-  - Theo dõi swap: `sysctl vm.swapusage` trước/sau 10 câu. Swap tăng mạnh hoặc mỗi câu chậm dần → dừng, khởi động lại tiến trình. Đây là việc **tạm dừng đúng mức**, không phải lỗi giọng.
-  - Ghi log ra file, chạy nền, lưu tiến độ để chạy tiếp từ câu dở (T1). File đã có thì bỏ qua.
-- Đo và ghi vào hồ sơ: **giây máy / giây audio (RTF)** trên M2 sau 20 câu đầu (CHƯA XÁC MINH — số Boson/MLX đều đo trên máy khác). Dùng số này ước giờ chạy cả tập.
-- **CẤM** hạ xuống bản lượng tử hoá để chạy nhanh hơn nếu bản đó chưa qua CER < 2% (mục 9).
-
-## 3. Giấy phép (chạy cục bộ)
-
-- Trọng số v3: *Boson Higgs Audio v3 Research and Non-Commercial License*. Chạy cục bộ để làm video cho **kênh mình sở hữu** thuộc **Creator Use Grant (mục II-A)**: được đăng và **kiếm tiền**.
-- **Điều kiện bắt buộc: ghi công** trong audio hoặc chữ hiển thị rõ. Mẫu của Boson:
+- Trọng số: *Boson Higgs Audio v3 Research and Non-Commercial License* — kênh mình sở hữu thuộc **Creator Use Grant II-A**: được đăng và kiếm tiền.
+- **PHẢI ghi công trong mô tả YouTube mọi tập dùng Higgs** (người dùng chốt 30/10/2026: chỉ trong mô tả, **không** ghép vào audio):
   `This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio`
-  → **PHẢI** có trong mô tả YouTube **mọi tập** dùng Higgs. Sửa mô tả/thẻ kết là quyết định của người dùng (mục 9 AGENTS.md: thẻ miễn trừ intro CẤM sửa).
-  ⇒ **Quyết định người dùng 30/10/2026 (H0):** đặt câu ghi công ở **phần mô tả video khi đăng YouTube**,
-  **không ghép vào audio** (không đọc trước intro, không nhúng vào file master). Đã ghi vào
-  `02_SAN_XUAT/Tap02/xuat_ban/mo_ta.txt`.
-- **Clone giọng chỉ khi có đồng ý rõ ràng, kiểm chứng được** của chủ giọng; lưu hồ sơ đồng ý. **CẤM** clone giọng người trong vụ án, phóng viên, diễn viên, giọng tải từ YouTube/MiniMax/ElevenLabs.
-- **CẤM** gán lời bịa cho người thật (trùng K2/K3). Giữ "Nội dung bị thay đổi hoặc tổng hợp" khi đăng.
-- *Tóm tắt văn bản giấy phép, không phải tư vấn pháp lý.*
+- Giọng mẫu VoxCPM2 (Voice Design): Apache-2.0, không cần ghi công.
+- **CẤM** clone giọng người thật (người trong vụ án, phóng viên, diễn viên, giọng tải từ YouTube/MiniMax/ElevenLabs).
+- *Tóm tắt giấy phép, không phải tư vấn pháp lý.*
 
-## 4. Giọng — dùng audio tham chiếu (yếu tố quyết định chất lượng số 1)
+## 3. Hành vi của Higgs đã đo được (căn cứ cho mọi luật)
 
-Không đưa tham chiếu thì Higgs chọn **giọng ngẫu nhiên mỗi lần** ("smart voice") ⇒ mỗi câu một người ⇒ vi phạm G8 ngay. ⇒ **PHẢI clone từ file tham chiếu cố định cho mỗi vai.** Giọng mẫu sẵn trong repo (`en_woman`, `en_man`, `en_man_deep`) là giọng Anh — chỉ để thử, không dùng sản xuất.
-
-**Chuẩn file tham chiếu** (`assets/voice_ref/<vai>.wav` + `<vai>.txt`):
-
-| Mục | Yêu cầu | Nguồn |
+| Hành vi | Số đo | Hệ quả |
 |---|---|---|
-| Độ dài | **8–15 s** (MLX-Audio khuyên 5–15 s; Boson 5–30 s → lấy phần giao, tránh mép 5 s) | MLX-Audio, docs Boson |
-| Ngôn ngữ | **Tiếng Việt**, người đọc giọng Việt chuẩn — để mô hình học đúng thanh điệu | suy từ cơ chế clone; CHƯA XÁC MINH bằng số đo ⇒ so với tham chiếu tiếng Anh ở bước H2 |
-| Âm thanh | Sạch: không nhạc, không giọng thứ hai, không vọng phòng, không nén mạnh; không cắt cụt đầu/cuối | docs Boson |
-| Định dạng | WAV mono, 24 kHz (tần số đầu ra của Higgs), 16-bit | |
-| Mức | −20…−16 LUFS, đỉnh ≤ −1 dBFS | |
-| Lời | `ref_text` **chép đúng từng chữ, kể cả "ờ, à"**. MLX-Audio: ref_text **bắt buộc** để căn chỉnh ổn định | MLX-Audio, docs Boson |
-| Chất giọng | Đọc **đúng chất vai, cảm xúc trung tính, tốc độ production**. Tham chiếu buồn/nhanh sẽ làm mọi câu buồn/nhanh | |
-| Nội dung | Câu đủ 6 thanh (ngang, huyền, sắc, hỏi, ngã, nặng), không có số, không tên nước ngoài | |
+| Cao độ bản đọc **do giọng mẫu quyết định** | Cùng clip cho 2 vai → F0 gần như y hệt (W4: 140,4 / 141,2 Hz) | Đổi giọng = đổi giọng mẫu; không có tham số nào khác |
+| **Kéo giọng nam trung** về ~125 Hz | `H.wav` 108→130 Hz (+20%) · `D.wav` 128→124 Hz · `M_LOW` 96→98 Hz | Giọng nam ≤ 96 Hz giữ được; 105–130 Hz dồn về một chỗ |
+| Giọng nữ và giọng rất trầm **giữ gần nguyên** (±3%) | `C2_AB03` 210→209 Hz · `D3_SH` 89→88 Hz · `M_HIGH` 192→193 Hz | Giọng nam cao (> 180 Hz) **thành giọng nữ** |
+| Thẻ `sadness`/`surprise` làm **giọng nam** vọt cao | Host sad 213 Hz (neutral 126) · D surprised 172–247 Hz · **giọng nữ không bị** | CẤM thẻ cảm xúc (mục 5) |
+| Bỏ thẻ → cảm xúc **không còn lệch** | Host sad 125 Hz · D surprised 88 Hz (416 file, 31/10) | |
+| **Âm đầu câu** dễ mờ/sai | "Vợ"→"Mợ", "Đó"→"nó", "Ban đầu"→"thăng dầu", mất "Thứ", "Trong", "Cuối" | Cần ≥ 2 bản + vòng 2 (mục 7) |
+| Tốc độ **không điều khiển được** | D3_SH 4,0 âm/s, Host 3,4–3,55 (thiết kế D chậm hơn) | Chưa có cách sửa (mục 11) |
+| Thỉnh thoảng 1 bản lệch cao độ ≥ 4 nửa cung | 5/474 file (Tập 02) | Loại bằng `--exclude` (mục 7) |
 
-- **Bộ tham chiếu hiện tại (27/10/2026) — để giống giọng MiniMax bộ A:** `assets/voice_ref_higgs/{H,D,C,N1,N2}.wav/.txt`, sinh bằng `AE_EP=02 py -3 .work/higgs_make_refs.py` từ audio MiniMax Tập 02: chỉ câu `neutral`, không chữ số, không từ Latin, **loại câu có CER đo > 2%** (`cer_bo_a_tap02`), ưu tiên câu đã đo CER = 0. Lỗi đã gặp: lần chạy đầu chọn đúng câu "Thứ hắn lấy đi…" mà giọng Korean đọc sai thành "Thương hiệu Han Lady" (CER 28%) — **clone từ câu đọc sai thì Higgs học luôn lỗi thanh điệu**. Trạng thái: **chờ người dùng xác nhận điều khoản MiniMax cho phép dùng đầu ra làm tham chiếu** (L4); trước đó chỉ dùng để thử, không đăng.
-- Triệu chứng "lẫn nam nữ, cao thấp" = đang chạy **không có `ref_audio`** (người dùng gặp 27/10/2026). Đọc bằng `.work/higgs_tts_mac.py` (luôn truyền `ref_audio` + `ref_text` theo vai, nạp model 1 lần, seed theo câu).
-- Mỗi vai **một** file tham chiếu, cố định cho cả tập và cả kênh. **Đổi file tham chiếu = đổi giọng nhân vật** → L4 + G8–G13.
-- Mỗi file có dòng `provenance.json`: người đọc, giấy đồng ý, ngày thu, thiết bị.
-- 3 vai chính khác nhau rõ (G9: cùng giới cách ≥ 4 nửa cung F0 trung vị) **ngay từ file tham chiếu** — đo F0 tham chiếu trước khi đọc câu nào.
-- Khai bộ giọng Higgs thành bộ mới trong `.work/edition.py` (ví dụ `CAST_HIGGS`: vai → đường dẫn tham chiếu). **Không** đè `CAST` và `EPISODES["01"]["cast"]` (L8, L9).
+## 4. Giọng mẫu (giọng tham chiếu)
 
-## 5. Văn bản gửi vào Higgs
+### 4.1 Bộ giọng đang dùng (Tập 02, người dùng chốt 31/10/2026)
 
-| Luật | Với Higgs |
+Dataset Kaggle `chiduong2026/amber-eyes-voice-ref-voxcpm2`. Phép gán: `.work/g9_role_map.json`.
+
+| Vai | Giọng mẫu | Nguồn trong repo | F0 bản đọc (câu neutral, AC/YIN) |
+|---|---|---|---|
+| Host (Cú) | `H.wav` | `assets/voice_ref_voxcpm2/H.wav` | 122 / 128 Hz |
+| Điều tra viên (Sói) | `D3_SH.wav` | `assets/voice_ref_voxcpm2_dc3/D_NEW_subbass-husky_t02` (seed 7) | 88 / 88 Hz |
+| Chuyên gia (Cáo) | `C2_AB03.wav` | `assets/voice_ref_voxcpm2_dc2/C_NEW_alto-brisk_t03` (seed 77) | 207 / 209 Hz |
+| N1 (nữ trầm) | `W6_LOW.wav` | `assets/voice_ref_voxcpm2_g9/` | 178 Hz |
+| N2 (nữ cao) | `W5_HIGH.wav` | `assets/voice_ref_voxcpm2_g9/` | 287–290 Hz |
+
+Khoảng cách (Tập 02): H-D 5,69 · H-C 8,54 · D-C 14,82 · C-N2 5,66 · H-N1 5,75 nửa cung. **C-N1 2,56 — chưa đạt**, chỉ chấp nhận vì N1 không bao giờ đứng liền C (kiểm lại cho mỗi tập, mục 8).
+
+- **Dùng chung bộ này cho mọi tập** (danh tính nhân vật cố định). Đổi giọng mẫu = đổi giọng nhân vật → L4 + mục 4.3.
+- Vai phụ N1/N2 của tập mới: chọn theo giới/tuổi ghi trong kịch bản (A11 #51), rồi kiểm mục 8.
+
+### 4.2 Chuẩn file giọng mẫu
+
+| Mục | Yêu cầu |
 |---|---|
-| **1 câu kịch bản = 1 lần sinh** | Giới hạn mặc định `max_new_frames = 1200` ≈ **48 s**. Câu dài hơn bị **cắt cụt im lặng** ⇒ kiểm độ dài (mục 8). Câu > ~300 ký tự: tách tại dấu câu, không cắt giữa ý (G1) |
-| G1 | **Xoá mọi thẻ MiniMax `<#…#>`** và `...`. Thẻ lạ bị đọc thành chữ hoặc làm hỏng câu |
-| G11 | Giữ `vi_numbers()`: số → chữ tiếng Việt **trước** khi gửi. Ký hiệu (%, $, km) viết bằng chữ (K7) |
-| G7 | Bỏ chú thích tiếng Anh trong ngoặc; tên riêng nước ngoài NÊN phiên âm nhẹ nếu đo thấy đọc sai |
-| G6 | Thẻ `<|…|>` chỉ có trong **bản gửi TTS**; phụ đề/chữ trên hình lấy câu gốc. Script so chữ **bỏ thẻ trước khi so** |
-| Dấu câu | Giữ dấu chấm, phẩy, hỏi chuẩn — đó là tín hiệu ngắt nhịp tự nhiên. Không dùng nhiều dấu chấm than |
+| Nguồn | **VoxCPM2 Voice Design** trên Mac (`.work/voxcpm_generate_g9.py --candidates/--seeds`) |
+| Độ dài | 16–28 s tiếng, không khoảng lặng > 1,5 s bên trong |
+| Định dạng | WAV PCM16 mono 24 kHz, −18 ± 1 LUFS, đỉnh ≤ −1,5 dBFS, kèm `.txt` khớp từng chữ |
+| Lời đọc | Đúng kiểu câu của vai, cảm xúc trung tính; lời đã chứng minh tốt: `D.txt` (biên bản), `C.txt` (phân tích), `H.txt` (dẫn chuyện) |
+| Độ đúng chữ | ASR 2 lượt trên chính giọng mẫu: **CER 0%, 0 lỗi thanh điệu** (`.work/voxcpm_do_dc.py --asr`) |
+| CẤM | Chỉnh cao độ/tốc độ bằng phần mềm; giọng tải ngoài; giọng người thật |
 
-**Thẻ điều khiển** (Higgs v3, cú pháp `<|nhóm:tên|>`, chỉ 43 thẻ trong `PROMPTING.md` được nhận; thẻ khác bị đọc thành chữ):
-
-| Loại | Quy định |
-|---|---|
-| Cảm xúc (G3) | Ánh xạ cố định, đặt **đầu câu**: `neutral` → không thẻ · `sad` → `<|emotion:sadness|>` · `fearful` → `<|emotion:fear|>` · `surprised` → `<|emotion:surprise|>`. **CẤM** 17 cảm xúc khác |
-| Ngắt | Chỉ **một** `<|prosody:pause|>` (~0,4–0,7 s) sau dấu `:` trước câu trích. CẤM `pause`/`long_pause` ở chỗ khác (G1); kịch tính đặt giữa câu bằng `_pause_after` (G2) |
-| Tốc độ (G4) | **CẤM `speed_*`** (4 nấc ×0,65–×1,4, vượt dải G4). Lệch tốc nhỏ −0,06…+0,02 làm bằng ffmpeg `atempo` sau khi đọc |
-| Cao độ (G5) | **CẤM `pitch_low/high`** (−3/+2,5 nửa cung = nguy cơ "thành người khác") |
-| `expressive_*`, `style:*` | CẤM khi chưa qua G8 |
-| `sfx:*` | **CẤM** — tiếng động thuộc lớp SFX của `build_audio3.py`; `crying`/`screaming` trái tinh thần V9 |
-
-- ⚠ **CHƯA XÁC MINH:** đường MLX-Audio có hiểu các thẻ `<|…|>` của v3 hay đọc chúng thành chữ. **Trước khi dùng bất kỳ thẻ nào: đọc 5 câu có thẻ, đo `listen_audio` — nếu bản chép có chữ "emotion", "sadness"… → tắt toàn bộ thẻ**, chỉ dùng câu trơn.
-- Script **PHẢI** kiểm regex: mọi `<|…|>` trong văn bản gửi đi thuộc danh sách cho phép ở bảng trên; sai → dừng.
-
-## 6. Tham số sinh
-
-| Tham số | Giá trị khởi đầu | Ghi chú |
-|---|---|---|
-| `temperature` | **0,7** (mặc định MLX-Audio); Boson khuyên 0,8 cho clone | Thấp → ổn định danh tính, ít lỗi chữ, nhưng đều đều. **Dò 0,6 / 0,7 / 0,8** trên 20 câu ở bước H2, chọn mức có CER thấp nhất mà vẫn qua nghe duyệt. Ghi mức đã chọn vào `CAST_HIGGS` |
-| `top_p` | 0,95 | mặc định MLX-Audio |
-| `top_k` | 50 | Boson khuyên |
-| `max_new_frames` | 1200 (≈ 48 s) | Đủ cho câu kịch bản; không tăng — câu dài thì tách |
-| `fade_in_ms` / `fade_out_ms` | 30 | mặc định; tránh tiếng "bụp" ở mép |
-| `seed` | Cố định theo câu (ví dụ hash mã câu), ghi vào manifest | Để đọc lại ra đúng bản. Cờ seed **CHƯA XÁC MINH** trên đường MLX — kiểm `--help`; nếu không có thì đặt `mx.random.seed()` trước mỗi câu |
-| Đầu ra | WAV 24 kHz mono | **Không xuất mp3** (tránh nén 2 lần). Pipeline chạy `SR = 44100` ⇒ resample bằng `ffmpeg -ar 44100 -af aresample=resampler=soxr` khi nhập |
-
-- CLI tối thiểu đã được ghi trong tài liệu MLX-Audio: `--model --text --ref_audio --ref_text`. Các cờ khác **chỉ dùng sau khi xem `python -m mlx_audio.tts.generate --help` trên máy**, ghi kết quả vào hồ sơ.
-
-## 7. Đọc nhiều bản, chọn bản tốt nhất (lợi thế của chạy miễn phí)
-
-- Mỗi câu NÊN sinh **2 bản** (seed khác nhau), câu hé lộ/câu trích sinh **3 bản**.
-- Chọn tự động theo thứ tự: (1) CER thấp nhất qua `listen_audio` (Q3: áp `vi_numbers` cả hai vế; câu bị bộ lọc Gemini chặn thì loại khỏi chấm, chọn theo tiêu chí 2–3) · (2) không cắt cụt, không lặp chữ · (3) độ dài gần trung vị các câu cùng vai (tốc độ đều).
-- Bản thắng có CER > 2% → sinh thêm tối đa 2 bản; vẫn trượt → **đánh dấu cho người dùng nghe**, không tự sửa chữ câu.
-- Lưu **mọi bản**, manifest ghi bản nào được chọn và vì sao.
-
-## 8. Kiểm tra mỗi file (thay T2)
-
-Một câu chỉ tính **xong** khi:
-1. File giải mã được (`ffprobe`), 24 kHz.
-2. Độ dài > 0,5 s và **< 47 s** (chạm 48 s = nghi bị cắt bởi `max_new_frames`).
-3. Tỉ lệ giây/âm tiết trong khoảng trung vị ± 35% của vai đó (bắt câu nói vội, bỏ chữ, hoặc lặp).
-4. Không có khoảng lặng > 0,3 s ở −60 dB **bên trong** câu (V4), không có đuôi tạp âm/tiếng thở dài cuối câu (cắt đuôi ở −50 dB).
-5. Đạt mục 7.
-
-## 9. Quy trình chuyển đổi — có cổng, không nhảy cổng
+### 4.3 Tạo hoặc thay giọng mẫu — quy trình có cổng
 
 | Bước | Việc | ĐẠT khi |
 |---|---|---|
-| H0 | Người dùng chốt: người đọc tham chiếu cho từng vai + giấy đồng ý · chấp nhận ghi công Boson | Ghi trong hồ sơ tập |
-| H1 | Xác minh môi trường: model **v3**, `mlx-audio --help`, RAM/swap, RTF 20 câu; thẻ `<|…|>` có tác dụng hay bị đọc thành chữ | Ghi số đo vào hồ sơ |
-| H2 | **So với MiniMax**: cùng 20 câu/vai, đúng emotion production. Đo CER (lượt 2 cho câu vượt ngưỡng, Q6), dò temperature (mục 6) | Mỗi vai **CER < 2%** và **không tệ hơn MiniMax** |
-| H3 | G8 (1 câu × mọi cảm xúc dùng → 1 người) · G9 (≥ 4 nửa cung, F0 trung vị) · nghe mù gán vai đúng 100% (Q1, Q4) | Qua cả ba |
-| H4 | Đọc 1 hồi, `voice_role_check.py` (G10), `build_audio3.py` | 0 câm > 0,3 s · −16 ± 1 LUFS · đỉnh ≤ −1,5 dBFS · người dùng nghe duyệt |
-| H5 | Đọc cả tập | 100% câu qua mục 8 |
+| R1 | Mac sinh **nhiều ứng viên**: câu mô tả × seed (16–32 take/vai). **Seed quyết định cao độ hơn câu mô tả** (cùng câu ra 90–195 Hz); seed **42 và 7** ra giọng nam trầm ổn định. Sàn VoxCPM2 ≈ 88 Hz | Có ≥ 2 take trong dải F0 mục tiêu (2 thuật toán) |
+| R2 | Đo giọng mẫu: `voxcpm_do_dc.py` (V2–V6) + `voxcpm_yin_f0.py` + ASR 2 lượt | CER 0%, sàn ồn ≤ −55 dB |
+| R3 | **Chạy thử trên Kaggle**: 3–4 ứng viên × 12 câu thật của đúng vai (8 neutral + sad/fearful/surprised) × 2 bản, kèm giọng đã chốt của vai đứng cạnh làm đối chứng (`prep_v9.py --mode …`, `build_nb.py`, `analyze_pilot_v9.py --tag … --cer`, `_v9_padtest.py`, `_v9_final.py`) | Mục 8 đạt **trên bản đọc** |
+| R4 | Người dùng nghe file xen kẽ (H D C D H C D H C) | Người dùng duyệt (L4) |
 
-**Mốc dừng chờ người dùng:** sau H0, sau H2 (bảng so sánh Higgs vs MiniMax), sau H4.
-Code: thêm nhánh engine trong `tts_sentences.py` (ví dụ `AE_TTS=higgs`), **giữ nguyên nhánh MiniMax**; không đặt `AE_TTS` → manifest Tập 01 giống hệt bản cũ (L9). Script chạy trên Mac; nếu chạy từ máy Windows thì Mac chỉ sinh audio, Windows giữ phần dựng.
+Dải F0 giọng mẫu **nên nhắm** (suy từ mục 3): nam rất trầm **82–92 Hz** · nữ **200–218 Hz** (để cách N2 ~270–290 Hz ≥ 4 nc). **Không** nhắm nam 105–180 Hz nếu đã có Host ở ~125 Hz.
 
-## 10. Lưu trữ
+### 4.4 TÁCH RIÊNG giọng mẫu tiếng Việt và tiếng Anh (người dùng chốt 31/10/2026)
 
-- Audio Higgs vào thư mục riêng (ví dụ `audio_s_higgs/`), **CẤM ghi đè** `audio_s/` của MiniMax (L5).
-- Kèm `higgs_manifest.json`: văn bản gửi đi (có thẻ), vai, file tham chiếu, model + phiên bản mlx-audio, temperature, top_p, top_k, seed, các bản đã sinh, bản được chọn, CER.
-- `provenance.json` từng file: `tool: "Higgs Audio v3 (MLX, Mac mini M2)"`, `license: "Boson Higgs Audio v3 Research and Non-Commercial License — Creator Use Grant II-A"`, `attribution_required: true`, `commercial_checked: false` (đến khi người dùng xác nhận).
+**Luật: bộ giọng mẫu mỗi ngôn ngữ là một bộ ĐỘC LẬP, không bao giờ dùng chung thư mục, dataset, bảng gán vai hay tên file.** Lý do: tên file VN hiện tại trần trụi (`H.wav`, `C.wav`, `W5_HIGH.wav`) — chép một file EN cùng tên vào là **ghi đè giọng Việt đã chốt**, và Higgs clone ra giọng khác mà không có lỗi nào báo.
 
-## 11. CHƯA biết — phải đo trên máy (L2/L3)
+| Tầng | Tiếng Việt (giữ nguyên, CẤM đổi) | Tiếng Anh (riêng) |
+|---|---|---|
+| Ứng viên Mac (`assets/`) | `voice_ref_voxcpm2/`, `_dc/`, `_dc2/`, `_dc3/`, `_g9/` | `voice_ref_voxcpm2_en2/` (22 take, manifest `.work/voxcpm_refs_manifest_en2.json`) |
+| Tên clip đã chốt | `H.wav`, `D3_SH.wav`, `C2_AB03.wav`, `W6_LOW.wav`, `W5_HIGH.wav` | **PHẢI có đuôi `_EN`**: `H_EN.wav`, `D_EN.wav`, `C_EN.wav`, `N1_EN.wav`, `N2_EN.wav` (+ `.txt` lời tiếng Anh) |
+| Thư mục dataset cục bộ | `.work/kaggle_higgs/dataset_voxcpm2/` | `.work/kaggle_higgs/dataset_voxcpm2_en/` |
+| Dataset Kaggle | `chiduong2026/amber-eyes-voice-ref-voxcpm2` | `chiduong2026/amber-eyes-voice-ref-voxcpm2-en` (`ref_dir` = `/kaggle/input/amber-eyes-voice-ref-voxcpm2-en`) |
+| Bảng gán vai | `.work/g9_role_map.json` | `.work/g9_role_map_EN.json` |
+| Số đo F0/G9 | §4.1 (đo trên bản Higgs đọc tiếng Việt) | Đo lại riêng trên bản Higgs đọc **tiếng Anh** — CẤM mượn số của bản Việt |
 
-> **ĐÃ ĐO 30/10/2026** (đường PyTorch/transformers trên Kaggle GPU, không dùng MLX-Audio — chỉ chạy được
-> trên Apple Silicon). Báo cáo đầy đủ: `90_LUU_TRU/BaoCao_H2_Higgs_Pilot_Tap02_20261030.md`.
+- **CẤM** chép clip EN vào thư mục/dataset VN và ngược lại; **CẤM** đổi tên/ghi đè clip VN để "dùng chung".
+- **Code (khi tham số hoá `AE_LANG`)** PHẢI chọn thư mục dataset, slug, `ref_dir`, bảng gán vai theo ngôn ngữ, và **tự chặn**: chạy EN mà bảng gán vai trỏ clip không có đuôi `_EN` → dừng; chạy VN mà gặp clip `_EN` → dừng.
+- Bộ `assets/voice_ref_voxcpm2_en/` (30/10) **lưu trữ, không dùng**: sinh độc lập trước vòng D/C mới nên D/C là người khác; D 101 Hz dễ bị Higgs dồn sát Host (§3).
 
-**Đã có số đo:**
+**Cách tạo bộ EN (en2):** dùng **nguyên câu mô tả + seed** của từng giọng Việt đã chốt, chỉ thay lời đọc bằng tiếng Anh; mỗi seed × 2 kiểu câu mô tả (`vnctrl` nguyên văn / `enctrl` "English Standard"). Brief: `.work/EN2_MAC_BRIEF.md`. Seed D 7, C 77 có ghi trong `refs.json`; **H 42, W5 2024, W6 (2.5, 999) là suy ra** — Mac đối chiếu `voxcpm_raw/*/takes.json`.
+- ⚠ Cùng seed + câu mô tả nhưng khác lời đọc **không bảo đảm cùng âm sắc** ⇒ đo F0 + người dùng nghe so VN↔EN (R4) trước khi chốt. Chốt xong mới đổi tên `_EN` và chép vào `dataset_voxcpm2_en/`.
 
-1. Model **v3** (`bosonai/higgs-tts-3-4b`, trọng số gốc; mượn 2 file loader từ
-   `multimodalart/higgs-audio-v3-tts-4b-transformers` + tự thêm `auto_map`). transformers **5.22.0**,
-   torch **2.11.0+cu128**, GPU **Tesla T4 15,6 GB (sm_75)**, **bf16 có**. Frame-rate bộ giải mã
-   **25,02 Hz** ⇒ `max_new_tokens = int(47,5 × 25,02) + 8 = **1196**` (KHÔNG dùng `max_new_frames`).
-   VRAM đỉnh **9,94 GB**, RTF tb **2,15** (max 2,98). Không dùng được GGUF (luật 1).
-2. ~~RAM/swap trên M2 16 GB~~ → **bỏ đường MLX-Audio** (chỉ chạy trên Apple Silicon, máy này không có
-   GPU) ⇒ chuyển sang Kaggle GPU (30 h/tuần, còn ~29,5 h).
-3. **Thẻ `<|…|>`: CÓ tác dụng** — đo bằng `listen_audio`, bản chép không chứa từ khóa thẻ.
-   ⚠ Nhưng **không truyền `reference_audio` thì đọc sai thanh điệu nặng** ⇒ bắt buộc clone (§4).
-4. API `generate_speech(text, tok, *, reference_codes, reference_text, max_new_tokens, temperature,
-   top_p, top_k)` — **không có** tham số `speed_*`/`pitch_*` ⇒ G4/G5 tự động đạt; **không có tham số seed**
-   ⇒ phải `torch.manual_seed` + `torch.cuda.manual_seed_all` trước mỗi lời gọi.
-   Mã hoá ref: `model._encode_reference(torch.from_numpy(arr).float().unsqueeze(0), sr)` → `[T, N]`;
-   **encode 1 lần/clip rồi cache** (tiết kiệm lớn GPU).
-5. **CER thật** (96 bản pilot, 2 lượt `listen_audio`, lấy lượt xấu hơn, chuẩn hóa 2 vế theo Q3a):
-   **H t=0,8 → 0,00%** · **C t=0,8 → 0,00%** · **D t=0,7 → 0,99%** / t=0,8 → 2,27% ·
-   **N2←W1 → 0,63%** · N1←W1 → 1,08% (MiniMax cùng chuẩn hóa: H 0,89% · D 1,72% · C/N1/N2 0,00%).
-   ⇒ **Higgs tốt hơn MiniMax rõ ở vai H**; D cần đa bản §7.
-6. Tham chiếu **tiếng Việt** cho thanh điệu tốt hơn: **có** — cùng model, clip VI cho CER 0,00% ở H/C.
-7. ~~G8 ổn định danh tính~~ — **chưa đo** (cần nghe mù V7).
+**Kết quả en2 (31/10/2026, `90_LUU_TRU/BaoCao_DoGiongMau_EN2_20261031.md`):** **cùng seed KHÔNG giữ danh tính** — D seed 7 ra 85–145 Hz (VN 88). H, C, N1, N2 có ứng viên trong dải; D chưa có (nghe `D_vnctrl_t01`, AC 145 / YIN 85). CER tiếng Anh chưa đo được (chưa có bộ chuẩn hoá EN).
 
-**MỚI phát hiện 30/10 — G9 KHÔNG ĐẠT ở H↔D (đo lại trên 192 audio pilot v3+v4, n=16/ô):**
+**Chuỗi Higgs đã hỗ trợ `AE_LANG=en` (31/10/2026).** Mọi tên file/thư mục/dataset/slug lấy từ một chỗ: `.work/higgs_paths.py`. Bản Việt giữ nguyên tên cũ — đã kiểm hồi quy: payload Tập 02 cũ = mới, `build_spec` Tập 02/03 cũ = mới từng byte, notebook + push Tập 02/03/03-hồi 3/04 cũ = mới, mọi đường dẫn P5–P9 Tập 02/03/04 trùng. Bản EN:
+- Payload `higgs_payload_EN_t02.json`: bỏ mọi thẻ ngắt MiniMax `<#x#>` giữa câu (lời đọc EN có sẵn), chỉ giữ `<|prosody:pause|>` sau `:`; "Elizabeth II" → "Elizabeth the Second" (K7, chỉ lời đọc). Chữ số giữ nguyên (Higgs đọc tiếng Anh tự nhiên).
+- CER: `.work/en_cer.py` (cùng giao diện `vi_cer`, số → chữ tiếng Anh cả 2 vế, năm đọc kiểu năm). ASR hỏi "Transcribe verbatim in English".
+- Kernel `amber-eyes-higgs-prod-en-tXX[-aN]-kaggle-gpu`, dataset `amber-eyes-voice-ref-voxcpm2-en`, đầu ra `out_higgs_prod_EN_tXX`, master `02_SAN_XUAT/TapXX_EN/xuat_ban/TapXX_EN_master.mp3`.
+- `build_spec.py` không sinh pilot v6–v8 (clip VN) cho bản EN; `build_spec`/`build_spec_r2` chặn clip sai ngôn ngữ (`check_ref_lang`).
+- Bộ giọng EN **TẠM** (`g9_role_map_EN.json`): H ← `H_vnctrl_t01`, D ← `D_vnctrl_t01`, C ← `C_enctrl_t01`, N1 ← `W6_LOW_vnctrl_t01`, N2 ← `W5_HIGH_enctrl_t01`. Giọng mẫu: ASR 2 lượt CER 0% cả 5. Chạy thử hồi 4 Tập 02 EN (đủ 5 vai, 47 câu, 102 file).
 
-* F0 **của audio đã clone** (không phải clip gốc): H **131,1 Hz**, D **122,4 Hz** ⇒ **1,19 nửa cung**
-  (AC thô) / **0,01 nc** (AC chuẩn hóa + sửa octave) — cần ≥ 4.
-* Cơ chế (**đã xác nhận bằng pilot v5, 104 bản**): Higgs **CÓ bắt chước cao độ** của clip tham chiếu,
-  nhưng **không chính xác 1-1**. Cho **cùng một clip** vào **hai vai khác nhau** thì F0 clone gần như
-  **y hệt** (W4: H 140,4 Hz vs D 141,2 Hz · W3: H 162,2 Hz vs D 160,0 Hz) ⇒ **cao độ clone do clip
-  tham chiếu quyết định**. Tỉ lệ `clone / clip` = **1,02–1,06** ở ref ≥ 132 Hz, nhưng **1,22** ở ref
-  thấp (H.wav 107→131 Hz) ⇒ **khi tạo clip thấp (cho vai H) phải chừa biên cho cú kéo lên này**.
-* ⇒ Đổi clip tham chiếu **là đủ** để tách vai — không cần tinh chỉnh thêm tham số đọc.
-* Với 7 clip VoxCPM2 VI hiện có **không thể đạt G9 cho H↔D**: tổ hợp tốt nhất là
-  `H←W3 + D←D.wav` = 4,78 nc (AC thô) / 3,96 nc (AC chuẩn hóa) — *chưa chắc đạt theo cả 2 thuật toán*,
-  và W3 là giọng nam trẻ ⇒ **cần clip tham chiếu mới** (H: clip **70–86 Hz** · D: clip 150–190 Hz)
-  hoặc ghi nhận vi phạm (cần người dùng quyết).
-* **3 vai nữ ⇒ 3 cặp phải kiểm** (C↔N1 · C↔N2 · **N1↔N2**). Cặp **N1↔N2 bị bỏ sót** trong bản đo đầu:
-  N1←W1 = 247,4 Hz, N2←W1 = 275,9 Hz ⇒ **1,89 nc ❌**. `C ↔ N1` (W1) = 3,25 nc ❌ ·
-  `C ↔ N2` (W1) = 5,13 nc ✅ ⇒ **N2 ← W1 chốt được**.
-* ⇒ **N1 phải là giọng nữ THẤP, không phải cao.** Vì C (205 Hz) và N2 (276 Hz) đã cách nhau 5,13 nc,
-  N1 phải **≤ 162,8 Hz** để cách **cả hai** ≥ 4 nc. Nếu đưa N1 lên 258–276 Hz thì N1 **áp sát N2**
-  (~1,7 nc) ⇒ vi phạm G9 mới. Cần clip nữ mới `W6_LOW` (F0 clip 148–162 Hz).
-* Bảng G9 đầy đủ + script đo lại được: `.work/g9_matrix.py` → `.work/g9_matrix.json` / `.work/g9_matrix.txt`.
+**Bộ JA/KO (ja2, ko2 — 31/10/2026, chưa chạy):** làm theo cách en2. Brief `.work/JA2_MAC_BRIEF.md`, `.work/KO2_MAC_BRIEF.md`; manifest `.work/voxcpm_refs_manifest_ja2.json` / `_ko2.json` (26 take mỗi bộ, D thêm seed 101/2024); thư mục `assets/voice_ref_voxcpm2_ja2/`, `_ko2/`. Bộ `_ja`/`_ko` cũ (30/10) **không dùng**: H~D chỉ 0,14 nc (JA) / ~1,9 nc (KO), và báo cáo `BaoCao_DoGiongMau_VoxCPM2_Multilang_20261030.md` ghi "ĐẠT" dù 6/7 giọng JA ngoài dải F0. Còn thiếu trước khi chạy Higgs JA/KO: `higgs_paths.py` mới nhận `vi|en`, chưa có CER tiếng Nhật/Hàn, chưa có `g9_role_map_JA/KO.json`, chưa có dòng `provenance.json`. ⚠ `.work/*` bị gitignore ⇒ log trên Mac phải `git add -f` riêng (en2 từng phải commit log sau).
 
-**CẬP NHẬT 30/10 (sau khi 4 clip mới đã về + đo lại payload sản xuất):**
+**Chuỗi Higgs hỗ trợ `AE_LANG=ja` (01/11/2026).** `higgs_paths.py` nhận `vi|en|ja` (biến `FOREIGN`, `JA`; hậu tố `_JA`, dataset `chiduong2026/amber-eyes-voice-ref-voxcpm2-ja` → thư mục `.work/kaggle_higgs/dataset_voxcpm2_ja/`, bảng gán vai `.work/g9_role_map_JA.json`, clip bắt buộc đuôi `_JA`). Hồi quy L9: mọi giá trị `higgs_paths` vi/en × Tập 02/03/04 × cả tập/hồi 3 **trùng hệt** bản cũ; payload VN/EN `--check` không đổi (lệch 1.10#2 của VN Tập 02 có từ trước). Lời đọc JA: chữ số → số kanji (`ja_cer.ja_numbers`, 2009年 → 二千九年), bỏ `<#x#>`/`...`; tên Latin (Russell Williams, Elizabeth II) giữ nguyên — xem CER chạy thử. CER JA: `.work/ja_cer.py` (pykakasi, so trên **cách đọc hiragana** cả hai vế ⇒ không tính lỗi chính tả kana↔kanji của ASR). Bộ giọng: H `ja2/H_vnctrl_ja_t02` · D `ja3/D_lowgrowl_ja3_t01` · C `ja3/C_deepalto_ja3_t03` · N1 `ja3/W6_LOW_huskycontralto_ja3_t04` · N2 `ja2/W5_HIGH_vnctrl_ja_t02` (5 dòng `provenance.json`). ⚠ Trên giọng mẫu H 106,7 Hz – D 93,0 Hz chỉ ~2,4 nc ⇒ G9 H–D phải đo trên bản đọc. Chạy thử hồi 4 (94 file): kernel `amber-eyes-higgs-prod-ja-t02-a4-kaggle-gpu`. **Kết quả (01/11/2026): 94/94 file OK (~15 phút Kaggle). F0 câu neutral: H 105,0/96,6 · D 90,1/89,5 · C 226,4/242,9 Hz (AC/YIN). G9: D–H 1,33 nc ❌ TRƯỢT · C–H 13,3 · C–D 16,0 ✅. G8: 3 bản H lệch. CER (`ja_cer`, 2 lượt, bản tốt nhất): 39/47 câu ≤ 2%; 8 câu > 2% đa số do tên riêng/ASR (ツイード↔ツィード), lỗi đọc thật: 将校→商工 (4.06#4), 鑑識→監視 (4.08#5), スミス→済み (4.08#3). ⇒ DỪNG trước khi chạy cả tập: cần đổi giọng mẫu H hoặc D (chờ người dùng).** `check_higgs_f0.py` chỉ đọc thư mục cả tập; với chạy thử 1 hồi phải trỏ `PROD` vào `P.PROD` (đã làm bằng wrapper, chưa sửa script).
 
-* **Số đo thật 4 clip mới** (2 thuật toán) — cả 4 đều **cao hơn dải mục tiêu** (VoxCPM2 không bám tuyệt đối
-  từ khoá `very low` / `lower mid`):
-  `M_LOW` 95,6 / 95,5 Hz (mục tiêu 70–86) · `M_HIGH` 192,0 / 185,7 (168–182) ·
-  `W6_LOW` 179,1 / 169,0 (148–162, **+ thời lượng 28,13 s > 28 s**) · `W5_HIGH` 289,2 / 275,4 (258–276).
-* **Payload sản xuất thật** (`higgs_payload_t02.json`) gán `N1 ← W1.wav` và `N2 ← W2.wav`
-  ⇒ tính lại: `C↔N1` 3,23 / 3,16 nc ❌ · `C↔N2` **0,16 / 0,33 nc ❌** · `N1↔N2` 3,08 / 2,82 nc ❌
-  ⇒ **cả 3 cặp nữ đều trượt** (bản cũ chỉ kiểm 2 cặp).
-* **Ràng buộc định lượng** (2 thuật toán đo trên **2 thang khác nhau**, tỉ lệ pp2/ac ≈ 0,95):
-  `N1_ac ≤ 162,8 Hz` **và** `N1_pp2 ≤ 154,7 Hz`. Ngân sách cao độ cho 3 vai nữ:
-  `F0_max/F0_min ≥ 2^(8/12) = 1,5874`.
-* **Không tổ hợp nào trong 5 clip nữ có sẵn đạt cả 3 cặp** ⇒ phải **hạ F0 clip**, không tìm clip khác.
-  Đã tạo 5 biến thể hạ bằng **phase vocoder** (`.work/g9_shift_clip.py`, time-stretch + resample,
-  giữ thời lượng): `W6_LOW_S20/S25/S30/S35/S40` → F0 160,0 / 157,9 / 154,8 / **150,0** / **144,6** Hz.
-  Chỉ `S35` và `S40` thoát vùng trượt ở worst-case drift 0,95–1,10.
-* ⇒ **Pilot v6** (kernel `chiduong2026/amber-eyes-higgs-v6-pilot-g9-f0-cer`, 156 audio:
-  13 ô × 6 câu × 2 bản) đo F0 clone + CER thật để chốt ánh xạ vai. Script đọc kết quả:
-  `.work/analyze_pilot_v6.py` → `.work/pilot_v6_result.txt`.
+**Trạng thái:** người dùng chốt bộ giọng EN sau khi nghe hồi 4 (31/10/2026). **Tập 02 EN đã có master Higgs** (`02_SAN_XUAT/Tap02_EN/xuat_ban/Tap02_EN_master.mp3`, 1434,4 s, cổng §9 đạt) — số đo trong hồ sơ tập EN. Higgs đọc tiếng Anh đúng chữ tốt hơn tiếng Việt (lượt 1: 4/203 câu > 2% so với 29/203 bản VN) và **không** kéo Host lên ~125 Hz (112–116 Hz). Chuỗi P1–P9 **chưa** đọc `AE_LANG` (tên file sẽ ghi đè bản Việt: `higgs_payload_t02.json`, `Tap02_master.mp3`; `lang` cứng `"vi"`; `vi_numbers`, `vi_cer`) ⇒ phải tham số hoá + kiểm hồi quy Tập 02 VN từng byte (L9) trước khi chạy Kaggle bản EN.
 
-**CẬP NHẬT 30/10 (vòng 2 — sau pilot v6 đo xong):**
+## 5. Văn bản gửi vào Higgs
 
-* **CER pilot v6 đã tính lại đúng** (`vi_cer.py`, chuẩn hoá **cả hai vế** bằng đúng `vi_number()`
-  của pipeline; `selfcheck()` tự so với file pipeline ⇒ khớp 100%). Ô **không** dùng biến thể dịch
-  cao độ: `H.wav` **0,00%** · `M_HIGH` 0,47% · `W6_LOW` 1,47% · `W5_HIGH` 0,25% · `C.wav` 2,14% ·
-  `D.wav` 2,62% (số này là CER **bỏ danh từ riêng**; bản đầy đủ 13 ô ở
-  `90_LUU_TRU/BaoCao_H2_Higgs_Pilot_Tap02_20261030.md` §8.10).
-* **PHẤT HIỆN QUAN TRỌNG — biến thể phase vocoder hỏng *khi clone*, không hỏng *khi đọc*:**
-  đo ASR trên **chính clip tham chiếu** (`cer_ref_clips.py`, mỗi clip có lời mẫu):
-  `W6_LOW` 0,00% · `S20` 0,91% · `S25` **0,00%** · `S30` 0,45% · `S35` 0,45% · `S40` 4,31%
-  ⇒ **clip sạch**, nhưng **clone** từ chúng cho CER **9,5–12,5%** với lỗi **sai nội dung**
-  (cả 2 vòng ASR sai giống nhau ⇒ audio thật sự nói sai). Nghi vân "cắt im lặng giữa câu" đã **loại**
-  (chính `W6_LOW` giữ đoạn im lặng đó mà clone vẫn sạch) ⇒ **thủ phạm là phase vocoder**
-  (time-stretch FFT làm nhoè dạng sóng ⇒ codec sinh token mờ ⇒ Higgs nói sai lời).
-* ⇒ **Cấm dùng phase vocoder để tạo clip tham chiếu.** Thay bằng **TD-PSOLA**
-  (`.work/g9_psola_shift.py`: giai thuốc sóng giữ dạng sóng + resample FFT giữ dải thông).
-  5 clip mới: `W6_LOW_TRIM` (đối chứng) 179,1/168,9 Hz · `PS15` 164,4/163,7 · `PS20` 160,0/159,1 ·
-  `PS25` 155,8/154,5 · `PS30` 150,9/150,4 Hz — **ASR trên clip = 0,00%** (PS20/25/30).
-* **Ràng buộc G9 rút lại từ số đo thật** (C clone 214,3/202,8 · N2←`W5_HIGH` clone 285,7/268,0):
-  N1 clone cần **F0_ac ≤ 170,1 Hz** và **F0_pp2 ≤ 161,0 Hz** (và `F0_pp2 ≤ 168,8 Hz` theo ngân sách
-  tỉ lệ 1,5874). ⇒ `W6_LOW_PS25` và `W6_LOW_PS30` nằm trong cửa sổ (drift clip tiếng Việt ±3%).
-* **Dữ liệu kịch bản thật** (36 phần lời Tập 02): N1 chỉ ở cảnh **1.07**, N2 chỉ ở cảnh **4.06**;
-  cặp liền kề thật = `H↔D` (8) · `C↔H` (8) · `H↔N1` (2) · `H↔N2` (2) · `C↔D` (2).
-  **`C↔N1`, `C↔N2`, `N1↔N2` không bao giờ liền kề trong Tập 02.**
-* ⇒ **Pilot v8** (kernel `chiduong2026/amber-eyes-higgs-v8-td-psola-kaggle-gpu`, 36 audio:
-  3 ô TD-PSOLA × 6 câu × 2 bản) đo F0 clone + CER thật của các biến thể TD-PSOLA.
-* Kernel **v7** (clone `W4`/`W2` cho bộ nghe mù H3) → **24/24 OK, 0 lỗi**.
+| Luật | Quy định |
+|---|---|
+| **Thẻ cảm xúc** | **CẤM mọi `<|emotion:…|>`** (cả `fear`, để đồng nhất). Cấu hình: `g9_role_map.json` khoá `"_emotion_tags": false` — `build_spec.py` và `build_spec_r2.py` đều đọc khoá này. Cảm xúc thể hiện bằng ngắt giữa câu (G2), nhạc và tiếng động |
+| Ngắt | Chỉ `<|prosody:pause|>` **sau dấu `:` trước câu trích** (G1). CẤM thẻ khác (`speed_*`, `pitch_*`, `style:*`, `expressive_*`, `sfx:*`) |
+| Số | `vi_numbers()` của `tts_sentences.py` (G11). Ký hiệu (%, $, km) viết bằng chữ (K7) |
+| Thẻ MiniMax | Xoá `<#…#>` và `...` |
+| Độ dài | Mỗi câu < 47 s (`max_new_tokens = 1196` ≈ 47,8 s ở 25,02 Hz). Câu dài tách tại dấu câu |
+| Câu gốc | Phụ đề và chữ trên hình lấy câu gốc (G6); payload giữ `text_plain` |
+| Kiểm | Sau `build_spec.py`: **0 thẻ `<|emotion` trong payload**, text khớp lượt trước ngoài việc bỏ thẻ |
 
-**CẬP NHẬT 30/10 (vòng 3 — sau pilot v8 + smoke 2 GPU):**
+## 6. Tham số sinh (đã chốt)
 
-* **TD-PSOLA CŨNG HỎNG khi clone ⇒ CẤM HẠ CAO ĐỘ CLIP THAM CHIẾU BẰNG MỌI PHƯƠNG PHÁP XỬ LÝ TÍN HIỆU.**
-  Pilot v8 (36/36 OK) đo clone thật của 3 biến thể TD-PSOLA:
-  `PS20` CER 9,62% · `PS25` 8,44% · `PS30` 10,87% — **sai nội dung** (cả 2 vòng ASR sai giống nhau),
-  tệ ngang phase vocoder (9,5–12,5%), trong khi clip gốc đọc ASR 0,00%.
-  Cơ chế: mọi biến đổi dạng sóng theo thời gian ⇒ **codec âm thanh sinh token mờ** ⇒ Higgs nghe nhầm.
-  ⇒ Muốn đổi cao độ của một vai phải **có clip đã tồn tại sẵn ở cao độ đó** (và phải sạch).
-* **Bảng G9 đầy đủ, đo lại mọi ô pilot v6+v7+v8** (`.work/g9_decide.py` → `.work/g9_decide.txt`):
-  F0 clone thật (ac/pp2) — `H←H.wav` 130,4/127,1 · `H←M_LOW` 97,8/97,1 · `D←D.wav` 124,0/125,5 ·
-  `D←M_HIGH` 198,3/185,8 · `C←C.wav` 214,3/202,8 · `N1←W6_LOW` 184,6/173,1 ·
-  `N2←W1` 260,9/246,9 · `N2←W2` 201,7/195,5 · `N2←W5_HIGH` 285,7/268,0.
-* **Nút thắt G9 = `C↔N1` = 2,58 / 2,13 nc — KHÔNG clip sạch nào đạt được.**
-  Để đạt, N1 clone phải ≤ 170,1 Hz (ac) **và** ≤ 161,0 Hz (pp2); `W6_LOW` là clip nữ sạch duy nhất
-  dành được cho N1 (184,6 / 173,1 Hz). ⇒ **0/12 phương án** đạt nếu G9 áp cho *mọi* cặp cùng giới.
-  Chỉ đạt được nếu hiểu G9 là **"cặp cùng giới thật sự liền kề"** — trong Tập 02 cặp cùng giới
-  duy nhất liền kề là `H↔D` (8 lần): `H.wav↔M_HIGH` 7,27/6,57 ✅ · `M_LOW↔M_HIGH` 12,24/11,23 ✅ ·
-  `M_LOW↔D.wav` 4,11/4,45 ✅ · `H.wav↔D.wav` 0,22/0,26 ❌.
-* **Ánh xạ vai chốt TẠM** (`.work/g9_role_map.json`, chờ người dùng duyệt L4):
-  `H←H.wav` (giữ giọng gốc, CER⊘P **0,00%**) · `D←M_HIGH` (đúng mô tả "nam 50+ khàn";
-  D bắt buộc phải đổi vì `H.wav↔D.wav` chỉ cách 0,22 nc) · `C←C.wav` (giữ) ·
-  `N1←W6_LOW` · `N2←W5_HIGH` (`C↔N2` 4,99/4,83 ✅; `W2`/`W1` chỉ 1,04/3,41 ❌).
-* **Smoke 2 GPU PASS** (kernel `chiduong2026/amber-eyes-higgs-smoke-2-gpu-kaggle-gpu`):
-  **12/12 OK, 0 lỗi, 13,53 s/file**, mỗi worker 1 Tesla T4 (`CUDA_VISIBLE_DEVICES=0/1`).
-  ⇒ đường chạy 2 card + catch-up đã chứng minh hoạt động.
-* **Lượt sản xuất** (kernel `chiduong2026/amber-eyes-higgs-prod-t02-kaggle-gpu`):
-  203 câu → **416 file** (2 bản/câu; 10 câu trích → 3 bản), seed cố định theo câu.
-* **BẪY slug Kaggle:** slug do Kaggle **sinh từ `title`**, không phải từ `id`.
-  Title "…smoke 2 GPU Kaggle GPU" ⇒ slug `…-smoke-2-gpu-…` (không phải `2gpu`). Sai ⇒ tạo kernel trùng.
+| Tham số | Giá trị |
+|---|---|
+| `temperature` | **0,8** mọi vai (`GEN_PARAMS.temp_by_role` trong `build_spec.py`) |
+| `top_p` / `top_k` | 0,95 / 50 |
+| `max_new_tokens` | 1196 (tính từ frame-rate đo thật 25,02 Hz) |
+| `fade_ms` | 30 |
+| seed | `sha256(id|role|ref|temp|vN)` → `torch.manual_seed` + `cuda.manual_seed_all` trước mỗi câu; cùng seed ra cùng kết quả trên card nào cũng vậy |
+| Bản / câu | **2** (`variants [0,1]`); câu có trích dẫn **3**; vòng 2 thêm 2 bản (biến 2,3 hoặc 3,4) |
+| Đầu ra | WAV 24 kHz mono, không chuẩn hoá (`build_audio3.py` chuẩn hoá ở master) |
+| Phần cứng | 2 worker × 1 T4; VRAM đỉnh ~10 GB; **416 file ≈ 42 phút**, 58 file ≈ 6 phút |
+| Mã hoá giọng mẫu | `model._encode_reference(...)` **1 lần/clip rồi cache** |
 
+## 7. Quy trình sản xuất một tập — từng lệnh
 
-**BẪY ĐO LẠI (rất dễ sai):** `tts_sentences.py:105` gửi **số → chữ** cho TTS, còn ASR trả **chữ số**.
-Phải áp `vi_numbers()` cho **CẢ HAI VÊ** và dùng **đúng** `vi_number()` của `tts_sentences.py`
-(bản rút gọn làm `"2009"` → *"two nine"*). Không sửa thì **cả Higgs lẫn MiniMax đều bị phình CER**
-(câu `1.03#1` hoàn toàn đúng bị tính thành 73,8%).
-**Module dùng chung: `.work/vi_cer.py`** (`cer_pair` = số chính thức · `cer_pair_nonum` ·
-`cer_pair_prop` = bỏ danh từ riêng, vì ASR đọc sai *Tweed/Russell/Williams* là lỗi ASR chứ không
-phải lỗi TTS).
+Mọi lệnh chạy từ thư mục repo với `AE_EP=XX` (không đặt ⇒ Tập 02, ra **đúng từng byte** bản đã push — đã kiểm 6/6 file lượt 1 và 4/4 file vòng 2). `AE_ACT=N` chỉ sinh một hồi (spec/payload/kernel mang hậu tố `_aN`). Đặt `PYTHONIOENCODING=utf-8`; Kaggle CLI ở `%LOCALAPPDATA%\kaggle-venv\Scripts\kaggle.exe`. Tên file tập khác 02 mang hậu tố `_tXX`; kernel `amber-eyes-higgs-prod-tXX-kaggle-gpu` và `…-tXX-r2-…`.
 
-**Còn chưa biết:**
+| # | Việc | Lệnh | ĐẠT khi |
+|---|---|---|---|
+| P0 | **Kiểm đầu vào khớp kịch bản** (§14.2) + giới tính vai phụ (§14.3) + sao lưu lượt cũ (L5) | `py -3 .work/parse_kichban.py <md> .work/script_tapXX.json` · so mã câu của `acting_tapXX.json`, `sfx_tapXX.json`, `EPISODES[XX]` theo nội dung · sinh lại `tts_manifest_tXX.json` · `py -3 .work/_qc_bgm_bed_start.py` | 0 mã câu lệch · mọi `alt` khớp câu hiện tại · nhạc 5/5 hồi OK |
+| P1a | Payload nguồn | `py -3 .work/export_higgs_payload.py` | 0 chữ số · 0 ngoặc ngoại ngữ · 0 `...` |
+| P1 | Spec + payload Kaggle | `py -3 .work/build_spec.py` | `the cam xuc: BO`, đủ câu, "OK: moi clip + file .txt deu co" |
+| P2 | Notebook + thư mục push | `py -3 .work/build_nb.py --mode prod` · `py -3 .work/prep_push_dirs.py prod` | `verify: OK` |
+| P3 | Dataset | PowerShell: `kaggle datasets version -p "D:\…\.work\kaggle_higgs\dataset_voxcpm2" -m "…"` → lặp `kaggle datasets status chiduong2026/amber-eyes-voice-ref-voxcpm2` | `ready` |
+| P4 | Chạy | `kaggle kernels push -p "…\_push_prod_tXX"` | `RUNNING` |
+| P5 | Chờ + tải (nền) | `py -3 .work/watch_kernel.py --slug <slug> --out .work/kaggle_higgs/out_higgs_prod_tXX --pattern "out_higgs_prod_tXX/.*\.(wav|json|log)"` | `XONG: n OK / 0 FAIL` mỗi worker |
+| P6 | CER (nền) | `py -3 .work/measure_cer_prod.py --rounds 2 --workers 2` | 0 lỗi connector · 0 file thiếu ASR |
+| P7 | F0 + G9 + danh sách loại | `py -3 .work/check_higgs_f0.py` (sau vòng 2/3: `--new-only`) | G9 mọi cặp liền kề ≥ 4 nc · xem dòng "câu MỌI bản đều bị loại" |
+| P8 | Vòng 2 | `py -3 .work/build_spec_r2.py --max-cer 0.02 --exclude .work/higgs_exclude_f0_tXX.json` → `build_nb.py --mode r2` → `prep_push_dirs.py r2` → P3–P5 (out `out_higgs_r2_tXX`) → `py -3 .work/merge_r2.py` → P6 (cache, chỉ đo file mới) → P7 `--new-only` | Câu > 2% giảm |
+| P8b | Vòng 3 (câu đổi chữ, câu mọi bản bị loại) | đổi tên `out_higgs_r2_tXX` → `…_vong2` và `higgs_manifest.before_r2.json` → `…before_r2_vong2.json` · `build_spec_r2.py --max-cer 99 --ids "a#1,b#2" --exclude …` → như P8 | Số thứ tự bản tự nối tiếp, không trùng file vòng 2 |
+| P9 | Chọn bản + master | `py -3 .work/finish_prod.py` | 0 bản chọn trong danh sách loại · đủ số câu |
+| P10 | Cổng master (§9) + danh sách cần nghe kèm mốc thời gian + ghi hồ sơ tập (L6) | ffmpeg ở `.work/ffmpeg/…/bin/ffmpeg.exe`: `ebur128=peak=true`, `silencedetect` | §9 đạt |
 
-6. Tham chiếu nào cho **H**, **D** và **N1** để đạt G9 — **đã chốt TẠM** (`H←H.wav` · `D←M_HIGH` ·
-   `C←C.wav` · `N1←W6_LOW` · `N2←W5_HIGH`), lượt sản xuất 416 file đang chạy.
-   ⇒ chỉ còn chờ **người dùng duyệt L4** (đổi clip = đổi giọng vai) + trả lời câu hỏi
-   "G9 áp cho *mọi* cặp cùng giới hay chỉ cặp liền kề thật" (vì `C↔N1` = 2,58 nc và **không**
-   clip sạch nào đạt được — nếu bắt buộc mọi cặp thì phải nhờ Mac mini tạo thêm clip nữ F0 ≤ 160 Hz).
-   Bảng lựa chọn + số đo: `90_LUU_TRU/BaoCao_H2_Higgs_Pilot_Tap02_20261030.md` §9.1 và §8.12.
-8. G8 (nghe mù 100%) — chưa chạy; bộ nghe mù H3 đã dựng được (kernel v7 xong 24/24).
-9. ~~Người dùng xác nhận **chấp nhận ghi công Boson** (H0)~~ — **ĐÃ CHỐT 30/10/2026**:
-   người dùng chọn đặt câu ghi công ở **phần mô tả video khi đăng YouTube**,
-   **KHÔNG ghép vào audio** và **KHÔNG nhúng vào file master**.
-   ⇒ H0 **đóng**, H4 được phép tiếp tục.
-   Câu ghi công đã ghi vào `02_SAN_XUAT/Tap02/xuat_ban/mo_ta.txt`:
-   `This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio`
-   (chỉ Tập 02 dùng Higgs; Tập 01/03–07 dùng MiniMax nên không cần câu này).
+**Số mốc:** Tập 02 — lượt 1 29/203 câu > 2% → vòng 2 12/203 (~7 là tên riêng/ASR dao động). Tập 04 (31/10) — lượt 1 28/154 (316 file, 41 phút) → vòng 2 (66 file) 18/154 → master 21 câu cần nghe, đa số mất chữ đầu câu ("Thế nhưng"→"Nhưng"). Tập 03 — lượt 1 45/218 (455 file, 53 phút) → vòng 2 (94 file) 22/218 → vòng 3 (8 file, sửa chữ) → master: 24/218 cần nghe, đa số ASR nghe nhầm "Kemper".
 
-Lỗi mới gặp: thêm dòng vào mục 5/8/11 ở đây **và** tiêu chuẩn mục A11 (L6). Khi Higgs được chốt sản xuất: cập nhật bảng bộ giọng ở mục 4 AGENTS.md.
+## 8. Cổng giọng — đo trên bản đọc
 
-## 12. Nguồn (truy cập 27/10/2026)
+| Cổng | Cách đo | ĐẠT khi |
+|---|---|---|
+| **G9 mở rộng** | F0 trung vị **câu neutral** của mỗi vai, **2 thuật toán** (AC `voice_audition.f0_median` + YIN `voxcpm_yin_f0.yin`), lấy **min** | **Mọi cặp vai đứng liền nhau trong kịch bản** (tính từ `script_tapXX.json`, kể cả khác giới) **≥ 4 nửa cung**. Cặp không liền kề < 4: ghi vào hồ sơ, người dùng chấp nhận |
+| **G8** | Mỗi câu cảm xúc so với trung vị neutral của chính vai | 0 bản **được chọn** lệch ≥ 4 nửa cung |
+| **CER** | `listen_audio` 2 lượt/file, lấy lượt xấu hơn, chuẩn hoá 2 vế bằng `vi_cer.py` (Q3a) | Mỗi câu có ≥ 1 bản ≤ 2%; câu còn > 2% → liệt kê cho người dùng nghe (mục 10) |
+| Nghe mù | `listen_audio` hỏi "mấy người nói" trên file xen kẽ | **Chỉ tham khảo**: 2 lượt Tập 02 cho kết quả mâu thuẫn (Q4) — không thay được F0 + tai người dùng |
+
+## 9. Cổng master (bước 6 AGENTS.md)
+
+0 khoảng câm > 0,3 s ở −60 dB · −16 ± 1 LUFS · đỉnh ≤ −1,5 dBFS · lời đầu 22,8–23,5 s.
+Tập 02 (31/10): 1411,9 s · −16,2 LUFS · −1,7 dBFS · 0 · 23,0 s ✅.
+Tập 03 (31/10): 1683,7 s · −16,2 LUFS · −1,7 dBFS (sau giới hạn đỉnh; `loudnorm` linear để lại −1,0) · 0 · 23,0 s ✅. `build_audio3.py` tự giới hạn đỉnh −2,5 dBFS khi mp3 vượt −1,5.
+
+## 10. Đọc kết quả ASR — đừng kết luận sai
+
+| Hiện tượng | Ví dụ Tập 02 | Xử lý |
+|---|---|---|
+| ASR bỏ chữ đầu câu | "Thứ dẫn…" → "Dẫn…" (câu 14 từ → 6,5%) | Chèn 0,5 s lặng rồi ASR lại (`_v9_padtest.py`) cứu ~30%; còn lại xếp "cần nghe" |
+| Tên riêng nước ngoài | Tweed→"Thuýt", Lloyd→"Lôi", Smyth→"Smark/Smith", Genest→"Cenes" | Chấp nhận (xem thêm `cer_prop`) |
+| ASR dao động | Cùng file: 2,3% → 266,7% giữa 2 lượt | Không kết luận từ 1 lượt (Q6) |
+| Sai giống nhau ở 2 engine | "Thứ hắn lấy đi" → "nhãn lady" (Higgs) / "Thương hiệu Han Lady" (MiniMax) | Nghi ASR; người dùng nghe |
+| Câu ngắn | < 12 từ: 1 lỗi = 6–20% | Báo riêng (Q3c) |
+| Lỗi thật | "Vợ"→"Mợ", "Và đó là"→"Đây là" | Vòng 2; vẫn sai → báo người dùng, **không** tự sửa chữ câu |
+
+Báo cáo cho người dùng: danh sách câu còn > 2% kèm **mốc thời gian trong master** (`timeline_s_tXX.json`).
+
+## 11. Bẫy kỹ thuật đã gặp
+
+| Bẫy | Cách làm đúng |
+|---|---|
+| Cache ASR `_asr_cache_prod/` đặt theo **tên file** → lượt mới trùng tên dùng bản chép cũ | Chuyển cache vào bản sao lưu ở P0 |
+| `build_spec_r2.py` đọc payload gốc **còn thẻ cảm xúc** | Đã sửa: đọc `_emotion_tags`. Mọi script sinh payload PHẢI đọc khoá này |
+| Chọn bản khi **hoà CER** lấy nhầm bản lệch cao độ | `--exclude` cho `install_higgs_audio.py` và `build_spec_r2.py` |
+| Câu có bản tốt nhất bị loại vì lệch cao độ → không vào vòng 2 | `build_spec_r2.py --exclude` |
+| 6 luồng ASR → hàng loạt `connector_tool_error (latency_ms=0)` | `--workers 2` (~13 lượt/phút) |
+| `measure_cer_prod.py` lỗi in báo cáo (`%` chưa escape) | Đã sửa; dữ liệu ghi trước bước in nên không mất |
+| Slug Kaggle **sinh từ `title`** | `prep_push_dirs.py` khai `slug` khớp title; sai → kernel trùng |
+| `kaggle kernels output` không lọc → tải cả model 10 GB | Luôn `--pattern` (`watch_kernel.py`) |
+| Cảnh báo "not valid tags" khi push | Vô hại |
+| Chèn code bằng heredoc Python có `\|` → SyntaxWarning | Kiểm dòng regex trong file + đếm byte `\x00`/`\x08` (T4) |
+
+## 12. Chưa giải quyết
+
+1. ~~Tham số hoá theo `AE_EP`~~ — xong toàn chuỗi (31/10/2026, dùng cho Tập 03).
+2. **Tốc độ** D nhanh hơn Host — Higgs không có tham số tốc độ; thử `atempo` sau khi đọc (G4: −0,06…+0,02) chưa làm.
+3. **Âm đầu câu** — cơ chế chưa rõ (Higgs hay fade-in 30 ms?). Chưa thử tăng/giảm `fade_ms`.
+4. **C-N1 2,56 nửa cung** — cần giọng nữ sạch ≤ 160 Hz nếu tập sau có N1 đứng cạnh C.
+7. Giọng nam cho vai phụ — **không làm** (người dùng chốt 31/10/2026, §14.3).
+8. **Một số câu ngắn của Host bị Higgs đọc trầm ~5 nc ở mọi bản** (Tập 03 1.03#8, 6/6 bản ~95 Hz). Chưa rõ nguyên nhân; thử đổi dấu câu/thêm từ dẫn ở lời đọc riêng.
+5. **So sánh VoxCPM2 clone** — chờ Mac (`.work/VOXCLONE_MAC_BRIEF.md`).
+6. Cập nhật bảng bộ giọng ở mục 4 AGENTS.md khi người dùng chốt Higgs cho các tập sau.
+
+Lỗi mới: thêm dòng vào mục 3/10/11 ở đây **và** tiêu chuẩn A11 (L6).
+
+## 14. Kinh nghiệm sau Tập 02 và Tập 03
+
+### 14.1 Cái đã chạy tốt — giữ nguyên
+
+| Kinh nghiệm | Số đo |
+|---|---|
+| **Bộ giọng mẫu dùng lại được giữa các tập**: F0 bản đọc gần như không đổi theo nội dung | C 209 → 207 Hz · D 88 → 89 · H 128 → 129; G9 các cặp lệch ≤ 0,4 nc giữa 2 tập ⇒ dùng F0 tập trước để duyệt G9 sơ bộ trước khi tốn GPU (vẫn đo lại trên bản đọc) |
+| **Seed tất định**: sinh lại ra đúng từng byte | 78/78 file hồi 3 trùng byte giữa lượt riêng hồi và lượt cả tập ⇒ sinh thử một hồi không phí; chép cache ASR sang lượt cả tập |
+| **Bỏ thẻ cảm xúc** giữ cao độ ổn định | Câu sad/fearful/surprised của H, D, C lệch ≤ 0,6 nc so với neutral (Tập 03) |
+| **Vòng 2 hiệu quả** | Tập 02: 29 → 12 câu > 2% · Tập 03: 45 → 22 · hồi 3 Tập 03: 10 → 4 (3.05#3 15% → 5%) |
+| **Chạy thử một hồi trước** (`AE_ACT`) | 38 câu ≈ 10 phút Kaggle + 15 phút đo — người dùng nghe được giọng trước khi chạy cả tập ~1 giờ |
+| Thời gian thực tế | Kaggle ~7 s/file (455 file ≈ 53 phút + ~10 phút tải) · ASR ~13 lượt/phút (`--workers 2`) |
+
+### 14.2 Lỗi đã gặp và luật rút ra
+
+| # | Lỗi | Luật |
+|---|---|---|
+| K1 | **Payload Tập 02 làm tay**, chứa 3 phép đổi chữ ngầm không ghi ở đâu | Payload PHẢI sinh bằng `export_higgs_payload.py`; mọi phép đổi chữ PHẢI nằm trong code |
+| K2 | **Script viết cứng cho một tập** chặn tập sau | Script mới đọc `AE_EP` từ đầu; Tập 02 giữ tên file cũ để kiểm hồi quy từng byte |
+| K3 | **`script_tap03.json` cũ (220 câu) lệch kịch bản (218)**; `parse_kichban.py` chạy thiếu tham số chỉ báo lỗi, JSON cũ vẫn nằm đó | Sau khi sửa kịch bản: chạy lại với 2 tham số và so số câu |
+| K4 | **Acting/sfx/tts_manifest theo mã câu cũ** ⇒ lời đọc riêng `alt` gắn nhầm câu: đọc câu khác, đọc lại câu cũ vi phạm V9 | P0: chuyển mã theo nội dung; so mọi `alt` với câu hiện tại. **CER không phát hiện được** vì so với chính chữ đã gửi |
+| K5 | Câu có **mọi bản** bị loại bị bỏ khỏi vòng 2 | Đã sửa `build_spec_r2.py`; `check_higgs_f0.py` in danh sách này |
+| K6 | Cache ASR theo tên file — tên wav trùng giữa các tập | Cache riêng mỗi tập (`_asr_cache_prod_tXX`) |
+| K7 | Nhạc nền hồi 5 Tập 03 không khớp kịch bản (A10) | Chạy `_qc_bgm_bed_start.py` ở P0 |
+| K8 | `loudnorm` linear để lại đỉnh −1,0 dBFS | Đo đỉnh trên **mp3**; `build_audio3.py` tự giới hạn |
+| K9 | N1/N2 giọng nữ đọc lời cảnh sát nam ⇒ khi nghe tưởng "Điều tra viên thành nữ"; đo lại thì D vẫn 89 Hz (0/56 bản > 120 Hz) | Khi người nghe báo "vai X đổi giọng": kiểm F0 bản đã chọn của vai X **và** xem đoạn đó có phải vai phụ không, trước khi sửa gì |
+| K10 | Kaggle CLI trên Git Bash: đường dẫn `/` làm `datasets version` lỗi | Chạy P3/P4 bằng PowerShell, đường dẫn `\` |
+| K11 | Tập 05 (01/11): `finish_prod.py` ghi đè `xuat_ban/TapXX_master.mp3` của bản MiniMax cũ, không sao lưu (L5); câu ngắn 2.04#2 của D: 8/8 seed đều đọc ở 115–131 Hz (vùng Host), lỗi theo câu chứ không theo seed | Trước P9: chép `xuat_ban/TapXX_master.mp3` + `timeline_s_tXX.json` vào `.work/_cu/`. Câu có mọi bản lệch F0 qua 2 vòng ⇒ dừng thử seed, đưa người dùng nghe hoặc đề xuất sửa chữ (cần duyệt kịch bản) |
+| K12 | **Câu ngắn của D (≤ 8 từ, câu cụt/liệt kê) bị Higgs đẩy cao giọng về vùng Host** — đo T03–T05: câu dài D 88–89 Hz (n > 340) nhưng câu ≤ 8 từ trung vị 90/130/108 Hz; T04 "Đúng như vậy." vào master ở 122 Hz, T03 hai câu 110 Hz lọt ngưỡng 4 nc. Kéo dài câu T05 2.04#2 (8 → 14 từ) giảm 115–131 → 106–118 Hz: **có tác dụng nhưng không triệt để** | Khi viết kịch bản: lời D NÊN ≥ 9 từ, tránh câu cụt "Thứ nhất: …" đứng riêng. Khi chọn bản D: ưu tiên bản F0 thấp nhất khi CER bằng nhau (`finish_prod.py` chưa xét F0). Nếu nhiều câu ngắn vẫn > 105 Hz ⇒ cân nhắc giọng mẫu D khác (phải qua G8/G9) |
+
+### 14.3 Vai phụ (N1/N2)
+
+- **Người dùng chốt 31/10/2026: chỉ cần giữ 3 giọng chính; N1/N2 giọng nào cũng được** ⇒ mọi tập dùng chung N1 = `W6_LOW` (nữ trầm ~176 Hz), N2 = `W5_HIGH` (nữ cao ~285 Hz), kể cả khi kịch bản ghi nhân chứng nam. **Không** tạo giọng mẫu mới cho vai phụ trừ khi người dùng yêu cầu.
+- Vẫn PHẢI đạt G9 với vai đứng liền kề (thường là Host): Tập 03 H–N1 5,46 · H–N2 13,81 nc.
+- Nếu sau này cần giọng nam cho vai phụ: phải cách Host ≥ 4 nc **và** D ≥ 4 nc; vùng trống ~150–165 Hz. `M_LOW` (98 Hz) quá gần D, `D.wav` (~124 Hz) trùng Host.
+
+### 14.4 Báo cáo cho người dùng
+
+- Danh sách câu cần nghe PHẢI có **mốc thời gian trong master** (`timeline_s_tXX.json`) và bản chép ASR.
+- Đa số câu > 2% là ASR nghe nhầm tên riêng ("Kemper" → "Camper/Kem Bờ/Ember"); tách riêng câu nghi lỗi thật (CER > 10%, chữ phổ thông sai) để người dùng nghe trước.
+
+## 13. Nguồn
 
 - Model card v3: https://huggingface.co/bosonai/higgs-audio-v3-tts-4b
 - Danh mục thẻ: https://huggingface.co/bosonai/higgs-tts-3-4b/blob/main/PROMPTING.md
-- Hướng dẫn agent (có số RAM MLX): https://huggingface.co/bosonai/higgs-tts-3-4b/blob/main/AGENTS.md
 - Giấy phép: https://huggingface.co/bosonai/higgs-tts-3-4b/blob/main/LICENSE
-- MLX-Audio, mô hình Higgs: https://github.com/Blaizzy/mlx-audio/tree/main/mlx_audio/tts/models/higgs_audio
-- Bản MLX bf16 bên thứ ba: https://huggingface.co/aufklarer/Higgs-TTS-3-4B-MLX-bf16
-- Docs Boson (giọng, tham chiếu): https://docs.boson.ai/models/higgs-audio-tts/voices
+- Loader transformers mượn: `multimodalart/higgs-audio-v3-tts-4b-transformers`
+- VoxCPM2: `openbmb/VoxCPM2` (Apache-2.0)
