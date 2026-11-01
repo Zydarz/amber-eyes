@@ -14,10 +14,15 @@ def yin(x, sr, fmin=60, fmax=400, win=0.04, hop=0.01, th=0.15):
             a,b,cc=dn[t-1],dn[t],dn[t+1]; den=a-2*b+cc; t=t+(0.5*(a-cc)/den if den else 0)
         out.append(sr/t)
     return np.array(out)
-for p in sys.argv[1:]:
-    x,sr=sf.read(p,dtype='float32')
-    if x.ndim>1: x=x.mean(1)
-    f=yin(x,sr); m=np.median(f)
-    lo=np.mean(f<m/1.6)*100; hi=np.mean(f>m*1.6)*100
-    p10,p90=np.percentile(f,[10,90])
-    print(f"{os.path.basename(p)[:-4]:28} YIN med {m:6.1f}  p10 {p10:6.1f}  p90 {p90:6.1f}  voiced {len(f):4d}  octave-low {lo:4.1f}%  octave-high {hi:4.1f}%")
+def main():
+  for p in sys.argv[1:]:
+      x,sr=sf.read(p,dtype='float32')
+      if x.ndim>1: x=x.mean(1)
+      f=yin(x,sr); m=np.median(f)
+      lo=np.mean(f<m/1.6)*100; hi=np.mean(f>m*1.6)*100
+      p10,p90=np.percentile(f,[10,90])
+      print(f"{os.path.basename(p)[:-4]:28} YIN med {m:6.1f}  p10 {p10:6.1f}  p90 {p90:6.1f}  voiced {len(f):4d}  octave-low {lo:4.1f}%  octave-high {hi:4.1f}%")
+
+
+if __name__ == "__main__":
+    main()

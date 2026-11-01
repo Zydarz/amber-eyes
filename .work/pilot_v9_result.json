@@ -1,0 +1,6393 @@
+{
+ "table": {
+  "D|D1_VG": {
+   "role": "D",
+   "ref": "D1_VG",
+   "n": 24,
+   "f0_ac": 100.9,
+   "f0_yin": 94.8,
+   "syl_s": 3.54,
+   "gap_gt03": 21,
+   "gap_max": 0.8,
+   "peak_max": -0.0,
+   "f0_by_emotion": {
+    "neutral": 94.2,
+    "sad": 90.0,
+    "fearful": 106.8,
+    "surprised": 191.5
+   },
+   "g8_spread_nc": 13.07,
+   "cer_mean_r1": 0.53,
+   "cer_max_min": 3.8,
+   "n_cer_fail": 3,
+   "n_blocked": 0
+  },
+  "D|D1_DS": {
+   "role": "D",
+   "ref": "D1_DS",
+   "n": 24,
+   "f0_ac": 96.4,
+   "f0_yin": 101.3,
+   "syl_s": 3.56,
+   "gap_gt03": 23,
+   "gap_max": 1.54,
+   "peak_max": -0.0,
+   "f0_by_emotion": {
+    "neutral": 100.8,
+    "sad": 96.1,
+    "fearful": 104.2,
+    "surprised": 122.1
+   },
+   "g8_spread_nc": 4.15,
+   "cer_mean_r1": 0.98,
+   "cer_max_min": 5.1,
+   "n_cer_fail": 5,
+   "n_blocked": 0
+  },
+  "D|D2_VG": {
+   "role": "D",
+   "ref": "D2_VG",
+   "n": 24,
+   "f0_ac": 93.2,
+   "f0_yin": 94.7,
+   "syl_s": 4.08,
+   "gap_gt03": 23,
+   "gap_max": 0.92,
+   "peak_max": -0.1,
+   "f0_by_emotion": {
+    "neutral": 91.3,
+    "sad": 104.5,
+    "fearful": 101.2,
+    "surprised": 203.0
+   },
+   "g8_spread_nc": 13.83,
+   "cer_mean_r1": 4.08,
+   "cer_max_min": 19.4,
+   "n_cer_fail": 13,
+   "n_blocked": 0
+  },
+  "D|D2_DS": {
+   "role": "D",
+   "ref": "D2_DS",
+   "n": 24,
+   "f0_ac": 101.0,
+   "f0_yin": 102.8,
+   "syl_s": 3.58,
+   "gap_gt03": 21,
+   "gap_max": 0.84,
+   "peak_max": 0.0,
+   "f0_by_emotion": {
+    "neutral": 99.4,
+    "sad": 105.5,
+    "fearful": 111.2,
+    "surprised": 147.7
+   },
+   "g8_spread_nc": 6.86,
+   "cer_mean_r1": 1.86,
+   "cer_max_min": 15.6,
+   "n_cer_fail": 7,
+   "n_blocked": 0
+  },
+  "C|C2_AB05": {
+   "role": "C",
+   "ref": "C2_AB05",
+   "n": 24,
+   "f0_ac": 194.3,
+   "f0_yin": 193.1,
+   "syl_s": 4.0,
+   "gap_gt03": 10,
+   "gap_max": 0.74,
+   "peak_max": -1.9,
+   "f0_by_emotion": {
+    "neutral": 193.4,
+    "sad": 194.6,
+    "fearful": 187.6
+   },
+   "g8_spread_nc": 0.63,
+   "cer_mean_r1": 0.48,
+   "cer_max_min": 4.2,
+   "n_cer_fail": 1,
+   "n_blocked": 0
+  },
+  "C|C2_LE03": {
+   "role": "C",
+   "ref": "C2_LE03",
+   "n": 24,
+   "f0_ac": 210.5,
+   "f0_yin": 207.6,
+   "syl_s": 4.32,
+   "gap_gt03": 13,
+   "gap_max": 0.58,
+   "peak_max": -2.6,
+   "f0_by_emotion": {
+    "neutral": 209.3,
+    "sad": 207.1,
+    "fearful": 203.8
+   },
+   "g8_spread_nc": 0.46,
+   "cer_mean_r1": 1.66,
+   "cer_max_min": 7.2,
+   "n_cer_fail": 6,
+   "n_blocked": 0
+  },
+  "C|C2_AB03": {
+   "role": "C",
+   "ref": "C2_AB03",
+   "n": 24,
+   "f0_ac": 208.7,
+   "f0_yin": 209.7,
+   "syl_s": 4.07,
+   "gap_gt03": 9,
+   "gap_max": 0.78,
+   "peak_max": -2.8,
+   "f0_by_emotion": {
+    "neutral": 210.6,
+    "sad": 211.5,
+    "fearful": 206.5
+   },
+   "g8_spread_nc": 0.41,
+   "cer_mean_r1": 1.92,
+   "cer_max_min": 10.1,
+   "n_cer_fail": 7,
+   "n_blocked": 0
+  },
+  "C|C2_LE02": {
+   "role": "C",
+   "ref": "C2_LE02",
+   "n": 24,
+   "f0_ac": 208.2,
+   "f0_yin": 205.9,
+   "syl_s": 3.96,
+   "gap_gt03": 23,
+   "gap_max": 0.8,
+   "peak_max": -0.9,
+   "f0_by_emotion": {
+    "neutral": 205.6,
+    "sad": 208.6,
+    "fearful": 205.8
+   },
+   "g8_spread_nc": 0.25,
+   "cer_mean_r1": 1.14,
+   "cer_max_min": 6.9,
+   "n_cer_fail": 4,
+   "n_blocked": 0
+  },
+  "H|PROD_H": {
+   "role": "H",
+   "ref": "PROD_H",
+   "n": 40,
+   "f0_ac": 122.6,
+   "f0_yin": 127.5,
+   "syl_s": 3.55,
+   "gap_gt03": 30,
+   "gap_max": 0.7,
+   "peak_max": -0.0,
+   "f0_by_emotion": {
+    "neutral": 126.2,
+    "fearful": 110.2,
+    "sad": 212.9,
+    "surprised": 148.6
+   },
+   "g8_spread_nc": 11.4
+  },
+  "N1|PROD_W6_LOW": {
+   "role": "N1",
+   "ref": "PROD_W6_LOW",
+   "n": 8,
+   "f0_ac": 178.4,
+   "f0_yin": 178.0,
+   "syl_s": 3.81,
+   "gap_gt03": 7,
+   "gap_max": 0.6,
+   "peak_max": -3.5,
+   "f0_by_emotion": {
+    "neutral": 178.0
+   },
+   "g8_spread_nc": 0.0
+  },
+  "N2|PROD_W5_HIGH": {
+   "role": "N2",
+   "ref": "PROD_W5_HIGH",
+   "n": 8,
+   "f0_ac": 309.7,
+   "f0_yin": 316.0,
+   "syl_s": 3.52,
+   "gap_gt03": 5,
+   "gap_max": 0.42,
+   "peak_max": -0.3,
+   "f0_by_emotion": {
+    "surprised": 321.8,
+    "fearful": 297.0
+   },
+   "g8_spread_nc": 1.39
+  }
+ },
+ "pairs": {
+  "D1_VG~PROD_H": 3.37,
+  "D1_VG~PROD_W6_LOW": 9.87,
+  "D1_VG~PROD_W5_HIGH": 19.42,
+  "D1_VG~C2_AB05": 11.34,
+  "D1_VG~C2_LE03": 12.73,
+  "D1_VG~C2_AB03": 12.58,
+  "D1_VG~C2_LE02": 12.54,
+  "D1_DS~PROD_H": 3.98,
+  "D1_DS~PROD_W6_LOW": 9.76,
+  "D1_DS~PROD_W5_HIGH": 19.7,
+  "D1_DS~C2_AB05": 11.17,
+  "D1_DS~C2_LE03": 12.42,
+  "D1_DS~C2_AB03": 12.6,
+  "D1_DS~C2_LE02": 12.28,
+  "D2_VG~PROD_H": 4.75,
+  "D2_VG~PROD_W6_LOW": 10.93,
+  "D2_VG~PROD_W5_HIGH": 20.79,
+  "D2_VG~C2_AB05": 12.33,
+  "D2_VG~C2_LE03": 13.59,
+  "D2_VG~C2_AB03": 13.76,
+  "D2_VG~C2_LE02": 13.45,
+  "D2_DS~PROD_H": 3.36,
+  "D2_DS~PROD_W6_LOW": 9.5,
+  "D2_DS~PROD_W5_HIGH": 19.4,
+  "D2_DS~C2_AB05": 10.91,
+  "D2_DS~C2_LE03": 12.17,
+  "D2_DS~C2_AB03": 12.34,
+  "D2_DS~C2_LE02": 12.03,
+  "C2_AB05~PROD_H": 7.19,
+  "C2_AB05~PROD_W6_LOW": 1.41,
+  "C2_AB05~PROD_W5_HIGH": 8.07,
+  "C2_LE03~PROD_H": 8.44,
+  "C2_LE03~PROD_W6_LOW": 2.66,
+  "C2_LE03~PROD_W5_HIGH": 6.68,
+  "C2_AB03~PROD_H": 8.61,
+  "C2_AB03~PROD_W6_LOW": 2.72,
+  "C2_AB03~PROD_W5_HIGH": 6.83,
+  "C2_LE02~PROD_H": 8.3,
+  "C2_LE02~PROD_W6_LOW": 2.52,
+  "C2_LE02~PROD_W5_HIGH": 6.87
+ },
+ "combos": [
+  {
+   "D": "D1_VG",
+   "C": "C2_AB03",
+   "min_nc": 2.72,
+   "worst_pair": "C~PROD_W6_LOW",
+   "pairs": {
+    "D~PROD_H": 3.37,
+    "D~PROD_W6_LOW": 9.87,
+    "D~PROD_W5_HIGH": 19.42,
+    "C~PROD_H": 8.61,
+    "C~PROD_W6_LOW": 2.72,
+    "C~PROD_W5_HIGH": 6.83,
+    "D~C": 12.58
+   },
+   "g9_pass": false,
+   "cer_pass": false
+  },
+  {
+   "D": "D1_DS",
+   "C": "C2_AB03",
+   "min_nc": 2.72,
+   "worst_pair": "C~PROD_W6_LOW",
+   "pairs": {
+    "D~PROD_H": 3.98,
+    "D~PROD_W6_LOW": 9.76,
+    "D~PROD_W5_HIGH": 19.7,
+    "C~PROD_H": 8.61,
+    "C~PROD_W6_LOW": 2.72,
+    "C~PROD_W5_HIGH": 6.83,
+    "D~C": 12.6
+   },
+   "g9_pass": false,
+   "cer_pass": false
+  },
+  {
+   "D": "D2_VG",
+   "C": "C2_AB03",
+   "min_nc": 2.72,
+   "worst_pair": "C~PROD_W6_LOW",
+   "pairs": {
+    "D~PROD_H": 4.75,
+    "D~PROD_W6_LOW": 10.93,
+    "D~PROD_W5_HIGH": 20.79,
+    "C~PROD_H": 8.61,
+    "C~PROD_W6_LOW": 2.72,
+    "C~PROD_W5_HIGH": 6.83,
+    "D~C": 13.76
+   },
+   "g9_pass": false,
+   "cer_pass": false
+  },
+  {
+   "D": "D2_DS",
+   "C": "C2_AB03",
+   "min_nc": 2.72,
+   "worst_pair": "C~PROD_W6_LOW",
+   "pairs": {
+    "D~PROD_H": 3.36,
+    "D~PROD_W6_LOW": 9.5,
+    "D~PROD_W5_HIGH": 19.4,
+    "C~PROD_H": 8.61,
+    "C~PROD_W6_LOW": 2.72,
+    "C~PROD_W5_HIGH": 6.83,
+    "D~C": 12.34
+   },
+   "g9_pass": false,
+   "cer_pass": false
+  },
+  {
+   "D": "D1_VG",
+   "C": "C2_LE03",
+   "min_nc": 2.66,
+   "worst_pair": "C~PROD_W6_LOW",
+   "pairs": {
+    "D~PROD_H": 3.37,
+    "D~PROD_W6_LOW": 9.87,
+    "D~PROD_W5_HIGH": 19.42,
+    "C~PROD_H": 8.44,
+    "C~PROD_W6_LOW": 2.66,
+    "C~PROD_W5_HIGH": 6.68,
+    "D~C": 12.73
+   },
+   "g9_pass": false,
+   "cer_pass": false
+  },
+  {
+   "D": "D1_DS",
+   "C": "C2_LE03",
+   "min_nc": 2.66,
+   "worst_pair": "C~PROD_W6_LOW",
+   "pairs": {
+    "D~PROD_H": 3.98,
+    "D~PROD_W6_LOW": 9.76,
+    "D~PROD_W5_HIGH": 19.7,
+    "C~PROD_H": 8.44,
+    "C~PROD_W6_LOW": 2.66,
+    "C~PROD_W5_HIGH": 6.68,
+    "D~C": 12.42
+   },
+   "g9_pass": false,
+   "cer_pass": false
+  },
+  {
+   "D": "D2_VG",
+   "C": "C2_LE03",
+   "min_nc": 2.66,
+   "worst_pair": "C~PROD_W6_LOW",
+   "pairs": {
+    "D~PROD_H": 4.75,
+    "D~PROD_W6_LOW": 10.93,
+    "D~PROD_W5_HIGH": 20.79,
+    "C~PROD_H": 8.44,
+    "C~PROD_W6_LOW": 2.66,
+    "C~PROD_W5_HIGH": 6.68,
+    "D~C": 13.59
+   },
+   "g9_pass": false,
+   "cer_pass": false
+  },
+  {
+   "D": "D2_DS",
+   "C": "C2_LE03",
+   "min_nc": 2.66,
+   "worst_pair": "C~PROD_W6_LOW",
+   "pairs": {
+    "D~PROD_H": 3.36,
+    "D~PROD_W6_LOW": 9.5,
+    "D~PROD_W5_HIGH": 19.4,
+    "C~PROD_H": 8.44,
+    "C~PROD_W6_LOW": 2.66,
+    "C~PROD_W5_HIGH": 6.68,
+    "D~C": 12.17
+   },
+   "g9_pass": false,
+   "cer_pass": false
+  },
+  {
+   "D": "D1_VG",
+   "C": "C2_LE02",
+   "min_nc": 2.52,
+   "worst_pair": "C~PROD_W6_LOW",
+   "pairs": {
+    "D~PROD_H": 3.37,
+    "D~PROD_W6_LOW": 9.87,
+    "D~PROD_W5_HIGH": 19.42,
+    "C~PROD_H": 8.3,
+    "C~PROD_W6_LOW": 2.52,
+    "C~PROD_W5_HIGH": 6.87,
+    "D~C": 12.54
+   },
+   "g9_pass": false,
+   "cer_pass": false
+  },
+  {
+   "D": "D1_DS",
+   "C": "C2_LE02",
+   "min_nc": 2.52,
+   "worst_pair": "C~PROD_W6_LOW",
+   "pairs": {
+    "D~PROD_H": 3.98,
+    "D~PROD_W6_LOW": 9.76,
+    "D~PROD_W5_HIGH": 19.7,
+    "C~PROD_H": 8.3,
+    "C~PROD_W6_LOW": 2.52,
+    "C~PROD_W5_HIGH": 6.87,
+    "D~C": 12.28
+   },
+   "g9_pass": false,
+   "cer_pass": false
+  },
+  {
+   "D": "D2_VG",
+   "C": "C2_LE02",
+   "min_nc": 2.52,
+   "worst_pair": "C~PROD_W6_LOW",
+   "pairs": {
+    "D~PROD_H": 4.75,
+    "D~PROD_W6_LOW": 10.93,
+    "D~PROD_W5_HIGH": 20.79,
+    "C~PROD_H": 8.3,
+    "C~PROD_W6_LOW": 2.52,
+    "C~PROD_W5_HIGH": 6.87,
+    "D~C": 13.45
+   },
+   "g9_pass": false,
+   "cer_pass": false
+  },
+  {
+   "D": "D2_DS",
+   "C": "C2_LE02",
+   "min_nc": 2.52,
+   "worst_pair": "C~PROD_W6_LOW",
+   "pairs": {
+    "D~PROD_H": 3.36,
+    "D~PROD_W6_LOW": 9.5,
+    "D~PROD_W5_HIGH": 19.4,
+    "C~PROD_H": 8.3,
+    "C~PROD_W6_LOW": 2.52,
+    "C~PROD_W5_HIGH": 6.87,
+    "D~C": 12.03
+   },
+   "g9_pass": false,
+   "cer_pass": false
+  },
+  {
+   "D": "D1_VG",
+   "C": "C2_AB05",
+   "min_nc": 1.41,
+   "worst_pair": "C~PROD_W6_LOW",
+   "pairs": {
+    "D~PROD_H": 3.37,
+    "D~PROD_W6_LOW": 9.87,
+    "D~PROD_W5_HIGH": 19.42,
+    "C~PROD_H": 7.19,
+    "C~PROD_W6_LOW": 1.41,
+    "C~PROD_W5_HIGH": 8.07,
+    "D~C": 11.34
+   },
+   "g9_pass": false,
+   "cer_pass": false
+  },
+  {
+   "D": "D1_DS",
+   "C": "C2_AB05",
+   "min_nc": 1.41,
+   "worst_pair": "C~PROD_W6_LOW",
+   "pairs": {
+    "D~PROD_H": 3.98,
+    "D~PROD_W6_LOW": 9.76,
+    "D~PROD_W5_HIGH": 19.7,
+    "C~PROD_H": 7.19,
+    "C~PROD_W6_LOW": 1.41,
+    "C~PROD_W5_HIGH": 8.07,
+    "D~C": 11.17
+   },
+   "g9_pass": false,
+   "cer_pass": false
+  },
+  {
+   "D": "D2_VG",
+   "C": "C2_AB05",
+   "min_nc": 1.41,
+   "worst_pair": "C~PROD_W6_LOW",
+   "pairs": {
+    "D~PROD_H": 4.75,
+    "D~PROD_W6_LOW": 10.93,
+    "D~PROD_W5_HIGH": 20.79,
+    "C~PROD_H": 7.19,
+    "C~PROD_W6_LOW": 1.41,
+    "C~PROD_W5_HIGH": 8.07,
+    "D~C": 12.33
+   },
+   "g9_pass": false,
+   "cer_pass": false
+  },
+  {
+   "D": "D2_DS",
+   "C": "C2_AB05",
+   "min_nc": 1.41,
+   "worst_pair": "C~PROD_W6_LOW",
+   "pairs": {
+    "D~PROD_H": 3.36,
+    "D~PROD_W6_LOW": 9.5,
+    "D~PROD_W5_HIGH": 19.4,
+    "C~PROD_H": 7.19,
+    "C~PROD_W6_LOW": 1.41,
+    "C~PROD_W5_HIGH": 8.07,
+    "D~C": 10.91
+   },
+   "g9_pass": false,
+   "cer_pass": false
+  }
+ ],
+ "rows": [
+  {
+   "key": "P9_D__D1_VG__0__D__D1_VG__0.8__s0",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__0_D_D1_VG_t0.8_s0.wav",
+   "text": "Tuyết mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù: một vệt gai lốp xe địa hình khá hiếm gặp, cùng một dấu giày đi tuyết cỡ lớn.",
+   "f0_ac": 110.1,
+   "f0_yin": 102.8,
+   "dur": 11.44,
+   "gap": 0.58,
+   "syl_s": 3.46,
+   "peak_db": -0.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0132,
+     "hyp": "tuyết mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù, một vệt gai lốp xe địa hình khá hiếm gặp cùng một dấu dày đi tuyết cỡ lớn."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0132,
+   "cer_min": 0.0132,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__1__D__D1_VG__0.8__s0",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__1_D_D1_VG_t0.8_s0.wav",
+   "text": "Một lệnh khám xét được chuẩn bị cho hai nơi: ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa, và ngôi nhà nghỉ dưỡng tại thị trấn Tweed.",
+   "f0_ac": 96.0,
+   "f0_yin": 94.7,
+   "dur": 9.44,
+   "gap": 0.44,
+   "syl_s": 3.31,
+   "peak_db": -0.7,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Một lệnh khám xét được chuẩn bị cho hai nơi, ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa và ngôi nhà nghỉ dưỡng tại thị trấn Tweed."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__2__D__D1_VG__0.8__s0",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__2_D_D1_VG_t0.8_s0.wav",
+   "text": "Tháng chín năm hai nghìn không trăm lẻ chín, ngưỡng kích thích tiếp tục bị lờn.",
+   "f0_ac": 108.1,
+   "f0_yin": 98.2,
+   "dur": 5.04,
+   "gap": 0.48,
+   "syl_s": 3.6,
+   "peak_db": -1.7,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "tháng 9 năm 2009, ngưỡng kích thích tiếp tục bị lờn."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__3__D__D1_VG__0.8__s0",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__3_D_D1_VG_t0.8_s0.wav",
+   "text": "Khi việc đứng ngoài cửa sổ không còn đủ hưng phấn, hắn bắt đầu luồn vào những căn nhà vắng.",
+   "f0_ac": 92.3,
+   "f0_yin": 88.3,
+   "dur": 5.88,
+   "gap": 0.52,
+   "syl_s": 3.68,
+   "peak_db": -1.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi việc đứng ngoài cửa sổ không còn đủ hưng phấn, hắn bắt đầu luồn vào những căn nhà vắng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__4__D__D1_VG__0.8__s0",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__4_D_D1_VG_t0.8_s0.wav",
+   "text": "Kẻ phạm tội thông thường sẽ tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân.",
+   "f0_ac": 100.8,
+   "f0_yin": 95.5,
+   "dur": 5.12,
+   "gap": 0.36,
+   "syl_s": 3.56,
+   "peak_db": -2.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "kẻ phạm tội thông thường sẽ tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__5__D__D1_VG__0.8__s0",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__5_D_D1_VG_t0.8_s0.wav",
+   "text": "Thứ dẫn cảnh sát tới gần hắn là vân lốp và dấu giày trên tuyết.",
+   "f0_ac": 101.3,
+   "f0_yin": 85.1,
+   "dur": 4.68,
+   "gap": 0.24,
+   "syl_s": 3.57,
+   "peak_db": -2.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "thứ dẫn cảnh sát tới gần hắn là vân lốp và dấu giày trên tuyết."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__6__D__D1_VG__0.8__s0",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__6_D_D1_VG_t0.8_s0.wav",
+   "text": "Rồi Smyth đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: <|prosody:pause|> Chúng giống hệt nhau.",
+   "f0_ac": 88.6,
+   "f0_yin": 84.7,
+   "dur": 9.04,
+   "gap": 0.78,
+   "syl_s": 3.02,
+   "peak_db": -1.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Rồi Smyth đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: \"Chúng giống hệt nhau.\""
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__7__D__D1_VG__0.8__s0",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__7_D_D1_VG_t0.8_s0.wav",
+   "text": "Mọi thứ hắn xây dựng suốt hơn hai mươi năm binh nghiệp – danh dự, quân hàm và người vợ mà hắn sợ mất nhất – đã hoàn toàn sụp đổ.",
+   "f0_ac": 98.2,
+   "f0_yin": 92.7,
+   "dur": 9.68,
+   "gap": 0.58,
+   "syl_s": 3.15,
+   "peak_db": -1.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Mọi thứ hắn xây dựng suốt hơn 20 năm binh nghiệp, danh dự, quân hàm và người vợ mà hắn sợ mất nhất đã hoàn toàn sụp đổ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__8__D__D1_VG__0.8__s0",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "sad",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__8_D_D1_VG_t0.8_s0.wav",
+   "text": "Và nấc thang cuối cùng: Cái chết.",
+   "f0_ac": 98.0,
+   "f0_yin": 92.0,
+   "dur": 3.2,
+   "gap": 0.66,
+   "syl_s": 2.92,
+   "peak_db": -2.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0323,
+     "hyp": "vào nấc thang cuối cùng cái chết"
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0323,
+     "hyp": "vào nấc thang cuối cùng cái chết"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0323,
+   "cer_min": 0.0323,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D1_VG__9__D__D1_VG__0.8__s0",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "sad",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__9_D_D1_VG_t0.8_s0.wav",
+   "text": "Lời đầu tiên của hắn chỉ là: <|prosody:pause|> Tôi không biết phải nói gì.",
+   "f0_ac": 111.1,
+   "f0_yin": 101.4,
+   "dur": 4.08,
+   "gap": 0.8,
+   "syl_s": 3.65,
+   "peak_db": -2.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Lời đầu tiên của hắn chỉ là tôi không biết phải nói gì."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__10__D__D1_VG__0.8__s0",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "fearful",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__10_D_D1_VG_t0.8_s0.wav",
+   "text": "Nhưng thứ mà các điều tra viên đang ráo riết săn lùng chính là chiếc kho bằng chứng bí mật ấy – chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá.",
+   "f0_ac": 107.6,
+   "f0_yin": 101.4,
+   "dur": 11.0,
+   "gap": 0.46,
+   "syl_s": 3.71,
+   "peak_db": -1.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0234,
+     "hyp": "những thứ mà các điều tra viên đang giáo giết săn lùng, chính là chiếc kho bằng chứng bí mật ấy, chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0234,
+     "hyp": "những thứ mà các điều tra viên đang giáo giết săn lùng, chính là chiếc kho bằng chứng bí mật ấy, chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0234,
+   "cer_min": 0.0234,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D1_VG__11__D__D1_VG__0.8__s0",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "surprised",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__11_D_D1_VG_t0.8_s0.wav",
+   "text": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường – đủ để ghi lại và báo về cho nhóm điều tra.",
+   "f0_ac": 169.0,
+   "f0_yin": 174.8,
+   "dur": 9.36,
+   "gap": 0.46,
+   "syl_s": 3.59,
+   "peak_db": 0.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường, đủ để ghi lại và báo về cho nhóm điều tra."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__0__D__D1_DS__0.8__s0",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__0_D_D1_DS_t0.8_s0.wav",
+   "text": "Tuyết mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù: một vệt gai lốp xe địa hình khá hiếm gặp, cùng một dấu giày đi tuyết cỡ lớn.",
+   "f0_ac": 100.0,
+   "f0_yin": 104.5,
+   "dur": 10.72,
+   "gap": 0.92,
+   "syl_s": 3.45,
+   "peak_db": -0.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0397,
+     "hyp": "Mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù, một vệt gai lốp xe địa hình khá hiếm gặp cùng một dấu giày đi tuyết cỡ lớn."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0397,
+     "hyp": "Mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù, một vệt gai lốp xe địa hình khá hiếm gặp cùng một dấu giày đi tuyết cỡ lớn."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0397,
+   "cer_min": 0.0397,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D1_DS__1__D__D1_DS__0.8__s0",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__1_D_D1_DS_t0.8_s0.wav",
+   "text": "Một lệnh khám xét được chuẩn bị cho hai nơi: ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa, và ngôi nhà nghỉ dưỡng tại thị trấn Tweed.",
+   "f0_ac": 93.0,
+   "f0_yin": 95.5,
+   "dur": 8.8,
+   "gap": 0.6,
+   "syl_s": 3.43,
+   "peak_db": -0.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0303,
+     "hyp": "Lệnh khám xét được chuẩn bị cho hai nơi: ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa và ngôi nhà nghỉ dưỡng tại thị trấn Tweed."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0303,
+     "hyp": "Lệnh khám xét được chuẩn bị cho hai nơi: ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa và ngôi nhà nghỉ dưỡng tại thị trấn Tweed."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0303,
+   "cer_min": 0.0303,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D1_DS__2__D__D1_DS__0.8__s0",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__2_D_D1_DS_t0.8_s0.wav",
+   "text": "Tháng chín năm hai nghìn không trăm lẻ chín, ngưỡng kích thích tiếp tục bị lờn.",
+   "f0_ac": 101.1,
+   "f0_yin": 100.9,
+   "dur": 4.52,
+   "gap": 0.54,
+   "syl_s": 3.56,
+   "peak_db": -0.4,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Tháng 9 năm 2009, ngưỡng kích thích tiếp tục bị lờn"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__3__D__D1_DS__0.8__s0",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__3_D_D1_DS_t0.8_s0.wav",
+   "text": "Khi việc đứng ngoài cửa sổ không còn đủ hưng phấn, hắn bắt đầu luồn vào những căn nhà vắng.",
+   "f0_ac": 96.0,
+   "f0_yin": 100.8,
+   "dur": 5.2,
+   "gap": 0.54,
+   "syl_s": 3.89,
+   "peak_db": -1.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0449,
+     "hyp": "Việc đứng ngoài cửa sổ không còn đủ hưng phấn, hắn bắt đầu luồn vào những căn nhà vắng."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0449,
+     "hyp": "Việc đứng ngoài cửa sổ không còn đủ hưng phấn, hắn bắt đầu luồn vào những căn nhà vắng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0449,
+   "cer_min": 0.0449,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D1_DS__4__D__D1_DS__0.8__s0",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__4_D_D1_DS_t0.8_s0.wav",
+   "text": "Kẻ phạm tội thông thường sẽ tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân.",
+   "f0_ac": 96.0,
+   "f0_yin": 93.9,
+   "dur": 4.68,
+   "gap": 0.42,
+   "syl_s": 3.85,
+   "peak_db": -0.8,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "kẻ phạm tội thông thường sẽ tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__5__D__D1_DS__0.8__s0",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__5_D_D1_DS_t0.8_s0.wav",
+   "text": "Thứ dẫn cảnh sát tới gần hắn là vân lốp và dấu giày trên tuyết.",
+   "f0_ac": 96.8,
+   "f0_yin": 112.6,
+   "dur": 3.64,
+   "gap": 0.26,
+   "syl_s": 4.24,
+   "peak_db": -0.7,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Thứ dẫn cảnh sát tới gần hắn là vân lốp và dấu giày trên tuyết"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__6__D__D1_DS__0.8__s0",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__6_D_D1_DS_t0.8_s0.wav",
+   "text": "Rồi Smyth đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: <|prosody:pause|> Chúng giống hệt nhau.",
+   "f0_ac": 91.4,
+   "f0_yin": 97.4,
+   "dur": 8.72,
+   "gap": 0.86,
+   "syl_s": 2.89,
+   "peak_db": -0.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0085,
+     "hyp": "Rồi Smith đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói chúng giống hệt nhau."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0085,
+   "cer_min": 0.0085,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__7__D__D1_DS__0.8__s0",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__7_D_D1_DS_t0.8_s0.wav",
+   "text": "Mọi thứ hắn xây dựng suốt hơn hai mươi năm binh nghiệp – danh dự, quân hàm và người vợ mà hắn sợ mất nhất – đã hoàn toàn sụp đổ.",
+   "f0_ac": 90.6,
+   "f0_yin": 93.5,
+   "dur": 9.04,
+   "gap": 0.62,
+   "syl_s": 3.22,
+   "peak_db": -0.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Mọi thứ hắn xây dựng suốt hơn 20 năm binh nghiệp, danh dự, quân hàm và người vợ mà hắn sợ mất nhất đã hoàn toàn sụp đổ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__8__D__D1_DS__0.8__s0",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "sad",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__8_D_D1_DS_t0.8_s0.wav",
+   "text": "Và nấc thang cuối cùng: Cái chết.",
+   "f0_ac": 93.6,
+   "f0_yin": 98.9,
+   "dur": 3.04,
+   "gap": 1.04,
+   "syl_s": 2.59,
+   "peak_db": -1.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Và nấc thang cuối cùng, cái chết."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__9__D__D1_DS__0.8__s0",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "sad",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__9_D_D1_DS_t0.8_s0.wav",
+   "text": "Lời đầu tiên của hắn chỉ là: <|prosody:pause|> Tôi không biết phải nói gì.",
+   "f0_ac": 115.4,
+   "f0_yin": 118.0,
+   "dur": 4.0,
+   "gap": 1.06,
+   "syl_s": 3.53,
+   "peak_db": -1.4,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Lời đầu tiên của hắn chỉ là tôi không biết phải nói gì."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__10__D__D1_DS__0.8__s0",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "fearful",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__10_D_D1_DS_t0.8_s0.wav",
+   "text": "Nhưng thứ mà các điều tra viên đang ráo riết săn lùng chính là chiếc kho bằng chứng bí mật ấy – chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá.",
+   "f0_ac": 97.8,
+   "f0_yin": 105.7,
+   "dur": 10.68,
+   "gap": 0.86,
+   "syl_s": 3.8,
+   "peak_db": -0.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Nhưng thứ mà các điều tra viên đang ráo riết săn lùng, chính là chiếc kho bằng chứng bí mật ấy, chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__11__D__D1_DS__0.8__s0",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "surprised",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__11_D_D1_DS_t0.8_s0.wav",
+   "text": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường – đủ để ghi lại và báo về cho nhóm điều tra.",
+   "f0_ac": 120.0,
+   "f0_yin": 132.2,
+   "dur": 8.68,
+   "gap": 0.46,
+   "syl_s": 3.94,
+   "peak_db": -0.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường, đủ để ghi lại và báo về cho nhóm điều tra."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_VG__0__D__D2_VG__0.8__s0",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__0_D_D2_VG_t0.8_s0.wav",
+   "text": "Tuyết mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù: một vệt gai lốp xe địa hình khá hiếm gặp, cùng một dấu giày đi tuyết cỡ lớn.",
+   "f0_ac": 97.2,
+   "f0_yin": 97.9,
+   "dur": 9.16,
+   "gap": 0.66,
+   "syl_s": 4.05,
+   "peak_db": -1.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0662,
+     "hyp": "mới trời đã lưu lại gần nhà nạn nhân một dấu vết lớp xe vô cùng đặc thù. Một vệt gai lớp xe địa hình khá hiếm gặp cùng một dấu giày đi tuyết cỡ lớn."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0662,
+     "hyp": "mới, trời đã lưu lại gần nhà nạn nhân một dấu vết lớp xe vô cùng đặc thù. Một vệt gai lớp xe địa hình khá hiếm gặp cùng một dấu giày đi tuyết cỡ lớn."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0662,
+   "cer_min": 0.0662,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_VG__1__D__D2_VG__0.8__s0",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__1_D_D2_VG_t0.8_s0.wav",
+   "text": "Một lệnh khám xét được chuẩn bị cho hai nơi: ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa, và ngôi nhà nghỉ dưỡng tại thị trấn Tweed.",
+   "f0_ac": 91.6,
+   "f0_yin": 93.9,
+   "dur": 7.4,
+   "gap": 0.64,
+   "syl_s": 4.05,
+   "peak_db": -1.8,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.1061,
+     "hyp": "cuộc khám xét được chuẩn bị cho hai nơi. Ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa và ngôi nhà nghỉ dưỡng tại thị trấn"
+    },
+    {
+     "rnd": 2,
+     "cer": 0.1061,
+     "hyp": "cuộc khám xét được chuẩn bị cho hai nơi. Ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa và ngôi nhà nghỉ dưỡng tại thị trấn"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.1061,
+   "cer_min": 0.1061,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_VG__2__D__D2_VG__0.8__s0",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__2_D_D2_VG_t0.8_s0.wav",
+   "text": "Tháng chín năm hai nghìn không trăm lẻ chín, ngưỡng kích thích tiếp tục bị lờn.",
+   "f0_ac": 93.4,
+   "f0_yin": 92.9,
+   "dur": 4.04,
+   "gap": 0.64,
+   "syl_s": 4.06,
+   "peak_db": -1.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0779,
+     "hyp": "9 năm 2009, ngưỡng kích thích tiếp tục bị lờn."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.1818,
+     "hyp": "Chín năm hai nghìn không trăm lẻ chín, gói kích thích tiếp tục bị hoãn."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0779,
+   "cer_min": 0.0779,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_VG__3__D__D2_VG__0.8__s0",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__3_D_D2_VG_t0.8_s0.wav",
+   "text": "Khi việc đứng ngoài cửa sổ không còn đủ hưng phấn, hắn bắt đầu luồn vào những căn nhà vắng.",
+   "f0_ac": 86.6,
+   "f0_yin": 83.3,
+   "dur": 4.6,
+   "gap": 0.54,
+   "syl_s": 4.35,
+   "peak_db": -1.7,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "khi việc đứng ngoài cửa sổ không còn đủ hưng phấn. Hắn bắt đầu luồn vào những căn nhà vắng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_VG__4__D__D2_VG__0.8__s0",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__4_D_D2_VG_t0.8_s0.wav",
+   "text": "Kẻ phạm tội thông thường sẽ tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân.",
+   "f0_ac": 88.4,
+   "f0_yin": 88.5,
+   "dur": 4.08,
+   "gap": 0.32,
+   "syl_s": 4.41,
+   "peak_db": -2.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Kẻ phạm tội thông thường sẽ tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_VG__5__D__D2_VG__0.8__s0",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__5_D_D2_VG_t0.8_s0.wav",
+   "text": "Thứ dẫn cảnh sát tới gần hắn là vân lốp và dấu giày trên tuyết.",
+   "f0_ac": 95.6,
+   "f0_yin": 105.9,
+   "dur": 3.04,
+   "gap": 0.1,
+   "syl_s": 4.97,
+   "peak_db": -1.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.1935,
+     "hyp": "dấu cảnh sát tới gần hắn, là bưng lốc và dấu dày trên tuyết."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.1935,
+     "hyp": "dấu cảnh sát tới gần hắn, là bưng lốc và dấu dày trên tuyết."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.1935,
+   "cer_min": 0.1935,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_VG__6__D__D2_VG__0.8__s0",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__6_D_D2_VG_t0.8_s0.wav",
+   "text": "Rồi Smyth đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: <|prosody:pause|> Chúng giống hệt nhau.",
+   "f0_ac": 89.2,
+   "f0_yin": 89.2,
+   "dur": 6.16,
+   "gap": 0.78,
+   "syl_s": 4.06,
+   "peak_db": -1.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0254,
+     "hyp": "Rồi Smart đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: Chúng giống hệt nhau."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0508,
+     "hyp": "O'Smart đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: \"Chúng giống hệt nhau\"."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0254,
+   "cer_min": 0.0254,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_VG__7__D__D2_VG__0.8__s0",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__7_D_D2_VG_t0.8_s0.wav",
+   "text": "Mọi thứ hắn xây dựng suốt hơn hai mươi năm binh nghiệp – danh dự, quân hàm và người vợ mà hắn sợ mất nhất – đã hoàn toàn sụp đổ.",
+   "f0_ac": 85.1,
+   "f0_yin": 84.6,
+   "dur": 7.68,
+   "gap": 0.5,
+   "syl_s": 3.78,
+   "peak_db": -2.4,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0246,
+     "hyp": "Vậy thứ hắn xây dựng suốt hơn 20 năm binh nghiệp, danh dự, quân hàm và người vợ mà hắn sợ mất nhất đã hoàn toàn sụp đổ."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0246,
+     "hyp": "Vậy thứ hắn xây dựng suốt hơn 20 năm binh nghiệp, danh dự, quân hàm và người vợ mà hắn sợ mất nhất đã hoàn toàn sụp đổ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0246,
+   "cer_min": 0.0246,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_VG__8__D__D2_VG__0.8__s0",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "sad",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__8_D_D2_VG_t0.8_s0.wav",
+   "text": "Và nấc thang cuối cùng: Cái chết.",
+   "f0_ac": 102.6,
+   "f0_yin": 101.9,
+   "dur": 2.28,
+   "gap": 0.6,
+   "syl_s": 3.65,
+   "peak_db": -1.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Và nấc thang cuối cùng cái chết"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_VG__9__D__D2_VG__0.8__s0",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "sad",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__9_D_D2_VG_t0.8_s0.wav",
+   "text": "Lời đầu tiên của hắn chỉ là: <|prosody:pause|> Tôi không biết phải nói gì.",
+   "f0_ac": 195.1,
+   "f0_yin": 194.7,
+   "dur": 4.0,
+   "gap": 0.86,
+   "syl_s": 3.78,
+   "peak_db": -8.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Lời đầu tiên của hắn chỉ là: Tôi không biết phải nói gì"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_VG__10__D__D2_VG__0.8__s0",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "fearful",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__10_D_D2_VG_t0.8_s0.wav",
+   "text": "Nhưng thứ mà các điều tra viên đang ráo riết săn lùng chính là chiếc kho bằng chứng bí mật ấy – chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá.",
+   "f0_ac": 95.2,
+   "f0_yin": 98.0,
+   "dur": 9.04,
+   "gap": 0.6,
+   "syl_s": 4.32,
+   "peak_db": -0.7,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0292,
+     "hyp": "một thứ mà các điều tra viên đang ráo riết săn lùng, chính là chiếc kho bằng chứng bí mật ấy. Chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0292,
+     "hyp": "một thứ mà các điều tra viên đang ráo riết săn lùng, chính là chiếc kho bằng chứng bí mật ấy. Chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0292,
+   "cer_min": 0.0292,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_VG__11__D__D2_VG__0.8__s0",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "surprised",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__11_D_D2_VG_t0.8_s0.wav",
+   "text": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường – đủ để ghi lại và báo về cho nhóm điều tra.",
+   "f0_ac": 226.4,
+   "f0_yin": 247.0,
+   "dur": 7.84,
+   "gap": 0.44,
+   "syl_s": 4.31,
+   "peak_db": -0.5,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường, đủ để ghi lại và báo về cho nhóm điều tra."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_DS__0__D__D2_DS__0.8__s0",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__0_D_D2_DS_t0.8_s0.wav",
+   "text": "Tuyết mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù: một vệt gai lốp xe địa hình khá hiếm gặp, cùng một dấu giày đi tuyết cỡ lớn.",
+   "f0_ac": 101.3,
+   "f0_yin": 103.2,
+   "dur": 10.16,
+   "gap": 0.58,
+   "syl_s": 3.64,
+   "peak_db": -1.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0397,
+     "hyp": "kẻ mới rời, đã lưu lại gần nhà nạn nhân, một dấu vết lốp xe vô cùng đặc thù, một vệt gai lốp xe địa hình khá hiếm gặp cùng một dấu giày đi tuyết cỡ lớn."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0397,
+     "hyp": "kẻ mới rời, đã lưu lại gần nhà nạn nhân, một dấu vết lốp xe vô cùng đặc thù, một vệt gai lốp xe địa hình khá hiếm gặp cùng một dấu giày đi tuyết cỡ lớn."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0397,
+   "cer_min": 0.0397,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_DS__1__D__D2_DS__0.8__s0",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__1_D_D2_DS_t0.8_s0.wav",
+   "text": "Một lệnh khám xét được chuẩn bị cho hai nơi: ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa, và ngôi nhà nghỉ dưỡng tại thị trấn Tweed.",
+   "f0_ac": 97.8,
+   "f0_yin": 97.9,
+   "dur": 9.16,
+   "gap": 0.54,
+   "syl_s": 3.31,
+   "peak_db": -2.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0227,
+     "hyp": "Cuộc lệnh khám xét được chuẩn bị cho hai nơi: ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa và ngôi nhà nghỉ dưỡng tại thị trấn Tweed."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0227,
+     "hyp": "Cuộc lệnh khám xét được chuẩn bị cho hai nơi: ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa và ngôi nhà nghỉ dưỡng tại thị trấn Tweed."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0227,
+   "cer_min": 0.0227,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_DS__2__D__D2_DS__0.8__s0",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__2_D_D2_DS_t0.8_s0.wav",
+   "text": "Tháng chín năm hai nghìn không trăm lẻ chín, ngưỡng kích thích tiếp tục bị lờn.",
+   "f0_ac": 103.0,
+   "f0_yin": 102.3,
+   "dur": 4.12,
+   "gap": 0.36,
+   "syl_s": 3.92,
+   "peak_db": -1.5,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Tháng 9 năm 2009, ngưỡng kích thích tiếp tục bị lờn"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_DS__3__D__D2_DS__0.8__s0",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__3_D_D2_DS_t0.8_s0.wav",
+   "text": "Khi việc đứng ngoài cửa sổ không còn đủ hưng phấn, hắn bắt đầu luồn vào những căn nhà vắng.",
+   "f0_ac": 98.4,
+   "f0_yin": 107.3,
+   "dur": 5.2,
+   "gap": 0.4,
+   "syl_s": 3.92,
+   "peak_db": -2.5,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi việc đứng ngoài cửa sổ không còn đủ hưng phấn, hắn bắt đầu luồn vào những căn nhà vắng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_DS__4__D__D2_DS__0.8__s0",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__4_D_D2_DS_t0.8_s0.wav",
+   "text": "Kẻ phạm tội thông thường sẽ tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân.",
+   "f0_ac": 96.8,
+   "f0_yin": 94.9,
+   "dur": 4.72,
+   "gap": 0.2,
+   "syl_s": 3.81,
+   "peak_db": -2.4,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Kẻ phạm tội thông thường sẽ tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_DS__5__D__D2_DS__0.8__s0",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__5_D_D2_DS_t0.8_s0.wav",
+   "text": "Thứ dẫn cảnh sát tới gần hắn là vân lốp và dấu giày trên tuyết.",
+   "f0_ac": 97.8,
+   "f0_yin": 99.7,
+   "dur": 3.64,
+   "gap": 0.2,
+   "syl_s": 4.17,
+   "peak_db": -2.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0323,
+     "hyp": "chỉ dẫn cảnh sát tới gần hắn là vân lốp và dấu giày trên tuyết"
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0323,
+     "hyp": "Chỉ dẫn cảnh sát tới gần hắn là vân lốp và dấu giày trên tuyết"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0323,
+   "cer_min": 0.0323,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_DS__6__D__D2_DS__0.8__s0",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__6_D_D2_DS_t0.8_s0.wav",
+   "text": "Rồi Smyth đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: <|prosody:pause|> Chúng giống hệt nhau.",
+   "f0_ac": 91.3,
+   "f0_yin": 96.7,
+   "dur": 7.52,
+   "gap": 0.78,
+   "syl_s": 3.34,
+   "peak_db": -1.8,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0169,
+     "hyp": "rồi Smite đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói. Chúng giống hệt nhau."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0169,
+   "cer_min": 0.0169,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_DS__7__D__D2_DS__0.8__s0",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__7_D_D2_DS_t0.8_s0.wav",
+   "text": "Mọi thứ hắn xây dựng suốt hơn hai mươi năm binh nghiệp – danh dự, quân hàm và người vợ mà hắn sợ mất nhất – đã hoàn toàn sụp đổ.",
+   "f0_ac": 90.9,
+   "f0_yin": 95.3,
+   "dur": 8.64,
+   "gap": 0.46,
+   "syl_s": 3.38,
+   "peak_db": -1.7,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Mọi thứ hắn xây dựng suốt hơn 20 năm binh nghiệp, danh dự, quân hàm và người vợ mà hắn sợ mất nhất đã hoàn toàn sụp đổ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_DS__8__D__D2_DS__0.8__s0",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "sad",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__8_D_D2_DS_t0.8_s0.wav",
+   "text": "Và nấc thang cuối cùng: Cái chết.",
+   "f0_ac": 104.8,
+   "f0_yin": 104.2,
+   "dur": 2.44,
+   "gap": 0.48,
+   "syl_s": 3.33,
+   "peak_db": -4.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Và nấc thang cuối cùng, cái chết"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_DS__9__D__D2_DS__0.8__s0",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "sad",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__9_D_D2_DS_t0.8_s0.wav",
+   "text": "Lời đầu tiên của hắn chỉ là: <|prosody:pause|> Tôi không biết phải nói gì.",
+   "f0_ac": 166.7,
+   "f0_yin": 167.9,
+   "dur": 3.84,
+   "gap": 0.74,
+   "syl_s": 3.69,
+   "peak_db": -2.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Lời đầu tiên của hắn chỉ là, tôi không biết phải nói gì."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_DS__10__D__D2_DS__0.8__s0",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "fearful",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__10_D_D2_DS_t0.8_s0.wav",
+   "text": "Nhưng thứ mà các điều tra viên đang ráo riết săn lùng chính là chiếc kho bằng chứng bí mật ấy – chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá.",
+   "f0_ac": 111.1,
+   "f0_yin": 116.3,
+   "dur": 9.52,
+   "gap": 0.62,
+   "syl_s": 4.13,
+   "peak_db": -2.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Nhưng thứ mà các điều tra viên đang ráo riết săn lùng chính là chiếc kho bằng chứng bí mật ấy chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_DS__11__D__D2_DS__0.8__s0",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "surprised",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__11_D_D2_DS_t0.8_s0.wav",
+   "text": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường – đủ để ghi lại và báo về cho nhóm điều tra.",
+   "f0_ac": 131.1,
+   "f0_yin": 135.9,
+   "dur": 9.52,
+   "gap": 0.36,
+   "syl_s": 3.52,
+   "peak_db": -1.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Nhưng, khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường, đủ để ghi lại và báo về cho nhóm điều tra."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__0__C__C2_AB05__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__0_C_C2_AB05_t0.8_s0.wav",
+   "text": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí.",
+   "f0_ac": 190.5,
+   "f0_yin": 190.1,
+   "dur": 5.72,
+   "gap": 0.3,
+   "syl_s": 3.87,
+   "peak_db": -2.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__1__C__C2_AB05__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__1_C_C2_AB05_t0.8_s0.wav",
+   "text": "Những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật, và chúng không bắt đầu từ một vụ giết người, mà từ những xung lực rất nhỏ.",
+   "f0_ac": 196.7,
+   "f0_yin": 195.8,
+   "dur": 8.6,
+   "gap": 0.44,
+   "syl_s": 4.07,
+   "peak_db": -3.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật và chúng không bắt đầu từ một vụ giết người mà từ những xung lực rất nhỏ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__2__C__C2_AB05__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__2_C_C2_AB05_t0.8_s0.wav",
+   "text": "Đó chính là Tầng thứ hai: Sự phân mảnh tâm trí tuyệt đối.",
+   "f0_ac": 200.0,
+   "f0_yin": 198.3,
+   "dur": 4.4,
+   "gap": 0.74,
+   "syl_s": 3.01,
+   "peak_db": -2.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "đó chính là tầng thứ hai sự phân mảnh tâm trí tuyệt đối."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__3__C__C2_AB05__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__3_C_C2_AB05_t0.8_s0.wav",
+   "text": "Ngăn kéo thứ hai: Kẻ săn mồi bóng đêm – nơi hắn trút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất.",
+   "f0_ac": 200.0,
+   "f0_yin": 199.1,
+   "dur": 6.68,
+   "gap": 0.36,
+   "syl_s": 4.07,
+   "peak_db": -2.7,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0171,
+     "hyp": "ăn kéo thứ hai. Kẻ săn mồi bóng đêm, nơi hắn trút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0171,
+   "cer_min": 0.0171,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__4__C__C2_AB05__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__4_C_C2_AB05_t0.8_s0.wav",
+   "text": "Đó là Ái kỷ ác tính kết hợp Phức cảm Chúa trời – hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này.",
+   "f0_ac": 192.0,
+   "f0_yin": 189.8,
+   "dur": 6.32,
+   "gap": 0.24,
+   "syl_s": 4.47,
+   "peak_db": -3.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Đó là ái kỷ ác tính kết hợp phức cảm chúa trời, hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__5__C__C2_AB05__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__5_C_C2_AB05_t0.8_s0.wav",
+   "text": "Bởi vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ.",
+   "f0_ac": 183.2,
+   "f0_yin": 182.2,
+   "dur": 3.24,
+   "gap": 0.26,
+   "syl_s": 4.4,
+   "peak_db": -2.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "bởi vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__6__C__C2_AB05__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__6_C_C2_AB05_t0.8_s0.wav",
+   "text": "Và Thám tử Jim Smyth đã đánh trúng tử huyệt tâm lý của Williams: người vợ.",
+   "f0_ac": 193.5,
+   "f0_yin": 192.6,
+   "dur": 4.4,
+   "gap": 0.26,
+   "syl_s": 3.72,
+   "peak_db": -2.4,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0417,
+     "hyp": "Cú thám tử Jim Smith đã đánh trúng tử huyệt tâm lý của Williams, người vợ."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0417,
+     "hyp": "Cú thám tử Jim Smith đã đánh trúng tử huyệt tâm lý của Williams, người vợ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0417,
+   "cer_min": 0.0417,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_C__C2_AB05__7__C__C2_AB05__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__7_C_C2_AB05_t0.8_s0.wav",
+   "text": "Khi một người khoác lên mình địa vị cao và danh vọng xã hội, chúng ta thường vô thức hạ thấp ranh giới đề phòng.",
+   "f0_ac": 196.7,
+   "f0_yin": 198.0,
+   "dur": 5.76,
+   "gap": 0.32,
+   "syl_s": 4.36,
+   "peak_db": -3.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "khi một người khoác lên mình địa vị cao và danh vọng xã hội, chúng ta thường vô thức hạ thấp ranh giới đề phòng"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__8__C__C2_AB05__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "sad",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__8_C_C2_AB05_t0.8_s0.wav",
+   "text": "Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người: <|prosody:pause|> Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng.",
+   "f0_ac": 195.1,
+   "f0_yin": 193.1,
+   "dur": 12.88,
+   "gap": 0.44,
+   "syl_s": 3.88,
+   "peak_db": -5.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người. Có, nhưng tôi không biết câu trả lời và tôi khá chắc là câu trả lời cũng chẳng quan trọng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__9__C__C2_AB05__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "sad",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__9_C_C2_AB05_t0.8_s0.wav",
+   "text": "Theo bản ghi thẩm vấn, Williams lặp đi lặp lại: <|prosody:pause|> Tôi muốn giảm thiểu ảnh hưởng lên vợ tôi.",
+   "f0_ac": 200.0,
+   "f0_yin": 199.7,
+   "dur": 5.72,
+   "gap": 0.54,
+   "syl_s": 3.56,
+   "peak_db": -3.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Theo bản ghi thẩm vấn, Williams lặp đi lặp lại: \"Tôi muốn giảm thiểu ảnh hưởng lên vợ tôi\"."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__10__C__C2_AB05__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "fearful",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__10_C_C2_AB05_t0.8_s0.wav",
+   "text": "Để tìm lại cảm giác ban đầu, hắn nâng dần mức độ rủi ro: từ nhà trống, đến đối diện với nạn nhân, đến khống chế nạn nhân, và cuối cùng là nắm giữ quyền sinh tử của một con người.",
+   "f0_ac": 187.5,
+   "f0_yin": 186.6,
+   "dur": 10.6,
+   "gap": 0.6,
+   "syl_s": 3.88,
+   "peak_db": -2.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Để tìm lại cảm giác ban đầu, hắn nâng dần mức độ rủi ro. Từ nhà trống đến đối diện với nạn nhân, đến khống chế nạn nhân và cuối cùng là nắm giữ quyền sinh tử của một con người."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__11__C__C2_AB05__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__11_C_C2_AB05_t0.8_s0.wav",
+   "text": "Ngược lại, Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội.",
+   "f0_ac": 187.5,
+   "f0_yin": 187.1,
+   "dur": 4.12,
+   "gap": 0.2,
+   "syl_s": 3.69,
+   "peak_db": -1.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Ngược lại, Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__0__C__C2_LE03__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__0_C_C2_LE03_t0.8_s0.wav",
+   "text": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí.",
+   "f0_ac": 205.1,
+   "f0_yin": 205.5,
+   "dur": 5.08,
+   "gap": 0.28,
+   "syl_s": 4.37,
+   "peak_db": -3.4,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__1__C__C2_LE03__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__1_C_C2_LE03_t0.8_s0.wav",
+   "text": "Những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật, và chúng không bắt đầu từ một vụ giết người, mà từ những xung lực rất nhỏ.",
+   "f0_ac": 208.7,
+   "f0_yin": 210.6,
+   "dur": 8.12,
+   "gap": 0.48,
+   "syl_s": 4.44,
+   "peak_db": -4.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật, và chúng không bắt đầu từ một vụ giết người, mà từ những xung lực rất nhỏ"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__2__C__C2_LE03__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__2_C_C2_LE03_t0.8_s0.wav",
+   "text": "Đó chính là Tầng thứ hai: Sự phân mảnh tâm trí tuyệt đối.",
+   "f0_ac": 214.3,
+   "f0_yin": 207.6,
+   "dur": 3.2,
+   "gap": 0.28,
+   "syl_s": 4.39,
+   "peak_db": -5.4,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Đó chính là tầng thứ hai, sự phân mảnh tâm trí tuyệt đối."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__3__C__C2_LE03__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__3_C_C2_LE03_t0.8_s0.wav",
+   "text": "Ngăn kéo thứ hai: Kẻ săn mồi bóng đêm – nơi hắn trút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất.",
+   "f0_ac": 222.2,
+   "f0_yin": 225.3,
+   "dur": 6.4,
+   "gap": 0.32,
+   "syl_s": 4.27,
+   "peak_db": -4.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0171,
+     "hyp": "ăn kéo thứ hai, Kẻ săn mồi bóng đêm, nơi hắn trút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0171,
+   "cer_min": 0.0171,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__4__C__C2_LE03__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__4_C_C2_LE03_t0.8_s0.wav",
+   "text": "Đó là Ái kỷ ác tính kết hợp Phức cảm Chúa trời – hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này.",
+   "f0_ac": 206.9,
+   "f0_yin": 203.8,
+   "dur": 5.56,
+   "gap": 0.18,
+   "syl_s": 5.15,
+   "peak_db": -4.5,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0714,
+     "hyp": "Hoặc ai khi áp tính kết hợp phức cảm chúa trời. Hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0714,
+     "hyp": "Hoặc ai khi áp tính kết hợp phức cảm chúa trời. Hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0714,
+   "cer_min": 0.0714,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_C__C2_LE03__5__C__C2_LE03__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__5_C_C2_LE03_t0.8_s0.wav",
+   "text": "Bởi vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ.",
+   "f0_ac": 195.1,
+   "f0_yin": 195.4,
+   "dur": 3.0,
+   "gap": 0.24,
+   "syl_s": 4.76,
+   "peak_db": -4.7,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0566,
+     "hyp": "Vì vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0566,
+     "hyp": "Vì vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0566,
+   "cer_min": 0.0566,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_C__C2_LE03__6__C__C2_LE03__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__6_C_C2_LE03_t0.8_s0.wav",
+   "text": "Và Thám tử Jim Smyth đã đánh trúng tử huyệt tâm lý của Williams: người vợ.",
+   "f0_ac": 212.4,
+   "f0_yin": 209.9,
+   "dur": 4.32,
+   "gap": 0.26,
+   "syl_s": 3.81,
+   "peak_db": -3.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Và thám tử Jim Smyth đã đánh trúng tử huyệt tâm lý của Williams: người vợ"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__7__C__C2_LE03__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__7_C_C2_LE03_t0.8_s0.wav",
+   "text": "Khi một người khoác lên mình địa vị cao và danh vọng xã hội, chúng ta thường vô thức hạ thấp ranh giới đề phòng.",
+   "f0_ac": 222.2,
+   "f0_yin": 222.0,
+   "dur": 5.36,
+   "gap": 0.32,
+   "syl_s": 4.66,
+   "peak_db": -2.7,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "khi một người khoác lên mình địa vị cao và danh vọng xã hội, chúng ta thường vô thức hạ thấp ranh giới đề phòng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__8__C__C2_LE03__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "sad",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__8_C_C2_LE03_t0.8_s0.wav",
+   "text": "Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người: <|prosody:pause|> Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng.",
+   "f0_ac": 208.7,
+   "f0_yin": 205.8,
+   "dur": 12.16,
+   "gap": 0.5,
+   "syl_s": 4.12,
+   "peak_db": -3.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người. Có, nhưng tôi không biết câu trả lời và tôi khá chắc là câu trả lời cũng chẳng quan trọng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__9__C__C2_LE03__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "sad",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__9_C_C2_LE03_t0.8_s0.wav",
+   "text": "Theo bản ghi thẩm vấn, Williams lặp đi lặp lại: <|prosody:pause|> Tôi muốn giảm thiểu ảnh hưởng lên vợ tôi.",
+   "f0_ac": 205.1,
+   "f0_yin": 206.7,
+   "dur": 5.44,
+   "gap": 0.58,
+   "syl_s": 3.74,
+   "peak_db": -3.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Theo bản ghi thẩm vấn, Williams lặp đi lặp lại: \"Tôi muốn giảm thiểu ảnh hưởng lên vợ tôi\"."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__10__C__C2_LE03__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "fearful",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__10_C_C2_LE03_t0.8_s0.wav",
+   "text": "Để tìm lại cảm giác ban đầu, hắn nâng dần mức độ rủi ro: từ nhà trống, đến đối diện với nạn nhân, đến khống chế nạn nhân, và cuối cùng là nắm giữ quyền sinh tử của một con người.",
+   "f0_ac": 203.4,
+   "f0_yin": 200.6,
+   "dur": 10.24,
+   "gap": 0.32,
+   "syl_s": 4.24,
+   "peak_db": -3.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Để tìm lại cảm giác ban đầu, hắn nâng dần mức độ rủi ro, từ nhà trống đến đối diện với nạn nhân, đến khống chế nạn nhân và cuối cùng là nắm giữ quyền sinh tử của một con người."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__11__C__C2_LE03__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__11_C_C2_LE03_t0.8_s0.wav",
+   "text": "Ngược lại, Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội.",
+   "f0_ac": 211.5,
+   "f0_yin": 208.7,
+   "dur": 3.64,
+   "gap": 0.28,
+   "syl_s": 4.19,
+   "peak_db": -4.4,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0725,
+     "hyp": "trở lại. Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0725,
+     "hyp": "trở lại. Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0725,
+   "cer_min": 0.0725,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_C__C2_AB03__0__C__C2_AB03__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__0_C_C2_AB03_t0.8_s0.wav",
+   "text": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí.",
+   "f0_ac": 208.7,
+   "f0_yin": 209.5,
+   "dur": 5.48,
+   "gap": 0.28,
+   "syl_s": 4.01,
+   "peak_db": -3.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí,"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__1__C__C2_AB03__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__1_C_C2_AB03_t0.8_s0.wav",
+   "text": "Những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật, và chúng không bắt đầu từ một vụ giết người, mà từ những xung lực rất nhỏ.",
+   "f0_ac": 206.9,
+   "f0_yin": 207.3,
+   "dur": 8.32,
+   "gap": 0.32,
+   "syl_s": 4.23,
+   "peak_db": -4.4,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật, và chúng không bắt đầu từ một vụ giết người, mà từ những xung lực rất nhỏ"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__2__C__C2_AB03__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__2_C_C2_AB03_t0.8_s0.wav",
+   "text": "Đó chính là Tầng thứ hai: Sự phân mảnh tâm trí tuyệt đối.",
+   "f0_ac": 222.2,
+   "f0_yin": 222.7,
+   "dur": 3.2,
+   "gap": 0.2,
+   "syl_s": 4.06,
+   "peak_db": -3.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Đó chính là tầng thứ hai, sự phân mảnh tâm trí tuyệt đối."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__3__C__C2_AB03__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__3_C_C2_AB03_t0.8_s0.wav",
+   "text": "Ngăn kéo thứ hai: Kẻ săn mồi bóng đêm – nơi hắn trút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất.",
+   "f0_ac": 212.4,
+   "f0_yin": 220.2,
+   "dur": 6.28,
+   "gap": 0.28,
+   "syl_s": 4.33,
+   "peak_db": -4.7,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Ngăn kéo thứ hai: kẻ săn mồi bóng đêm, nơi hắn trút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__4__C__C2_AB03__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__4_C_C2_AB03_t0.8_s0.wav",
+   "text": "Đó là Ái kỷ ác tính kết hợp Phức cảm Chúa trời – hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này.",
+   "f0_ac": 212.4,
+   "f0_yin": 212.2,
+   "dur": 5.84,
+   "gap": 0.2,
+   "syl_s": 4.81,
+   "peak_db": -4.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Đó là ái kỷ ác tính kết hợp phức cảm Chúa Trời, hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__5__C__C2_AB03__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__5_C_C2_AB03_t0.8_s0.wav",
+   "text": "Bởi vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ.",
+   "f0_ac": 205.1,
+   "f0_yin": 214.8,
+   "dur": 3.24,
+   "gap": 0.2,
+   "syl_s": 4.4,
+   "peak_db": -4.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "bởi vậy cái tôi của hắn không bị đè bẹp bởi sự xấu hổ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__6__C__C2_AB03__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__6_C_C2_AB03_t0.8_s0.wav",
+   "text": "Và Thám tử Jim Smyth đã đánh trúng tử huyệt tâm lý của Williams: người vợ.",
+   "f0_ac": 208.7,
+   "f0_yin": 211.7,
+   "dur": 4.6,
+   "gap": 0.3,
+   "syl_s": 3.49,
+   "peak_db": -3.5,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0556,
+     "hyp": "Thám tử Jim Smith đã đánh trúng tử huyệt tâm lý của Williams, người vợ"
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0278,
+     "hyp": "và thám tử Sim Smith đã đánh trúng tử huyệt tâm lý của Williams, người vợ"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0556,
+   "cer_min": 0.0278,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_C__C2_AB03__7__C__C2_AB03__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__7_C_C2_AB03_t0.8_s0.wav",
+   "text": "Khi một người khoác lên mình địa vị cao và danh vọng xã hội, chúng ta thường vô thức hạ thấp ranh giới đề phòng.",
+   "f0_ac": 206.9,
+   "f0_yin": 205.3,
+   "dur": 5.52,
+   "gap": 0.24,
+   "syl_s": 4.55,
+   "peak_db": -4.5,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "khi một người khoác lên mình địa vị cao và danh vọng xã hội, chúng ta thường vô thức hạ thấp ranh giới đề phòng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__8__C__C2_AB03__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "sad",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__8_C_C2_AB03_t0.8_s0.wav",
+   "text": "Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người: <|prosody:pause|> Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng.",
+   "f0_ac": 206.9,
+   "f0_yin": 208.3,
+   "dur": 12.88,
+   "gap": 0.78,
+   "syl_s": 3.93,
+   "peak_db": -3.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người: Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__9__C__C2_AB03__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "sad",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__9_C_C2_AB03_t0.8_s0.wav",
+   "text": "Theo bản ghi thẩm vấn, Williams lặp đi lặp lại: <|prosody:pause|> Tôi muốn giảm thiểu ảnh hưởng lên vợ tôi.",
+   "f0_ac": 220.2,
+   "f0_yin": 223.7,
+   "dur": 5.44,
+   "gap": 0.36,
+   "syl_s": 3.6,
+   "peak_db": -4.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Theo bản ghi thẩm vấn, Williams lặp đi lặp lại: \"Tôi muốn giảm thiểu ảnh hưởng lên vợ tôi\"."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__10__C__C2_AB03__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "fearful",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__10_C_C2_AB03_t0.8_s0.wav",
+   "text": "Để tìm lại cảm giác ban đầu, hắn nâng dần mức độ rủi ro: từ nhà trống, đến đối diện với nạn nhân, đến khống chế nạn nhân, và cuối cùng là nắm giữ quyền sinh tử của một con người.",
+   "f0_ac": 203.4,
+   "f0_yin": 204.5,
+   "dur": 10.48,
+   "gap": 0.32,
+   "syl_s": 4.09,
+   "peak_db": -4.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Để tìm lại cảm giác ban đầu, hắn nâng dần mức độ rủi ro, từ nhà trống, đến đối diện với nạn nhân, đến khống chế nạn nhân, và cuối cùng là nắm giữ quyền sinh tử của một con người."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__11__C__C2_AB03__0.8__s0",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__11_C_C2_AB03_t0.8_s0.wav",
+   "text": "Ngược lại, Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội.",
+   "f0_ac": 205.1,
+   "f0_yin": 206.8,
+   "dur": 4.4,
+   "gap": 0.18,
+   "syl_s": 3.61,
+   "peak_db": -4.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.1014,
+     "hyp": "Lúc này, Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.1014,
+     "hyp": "Lúc này, Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.1014,
+   "cer_min": 0.1014,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_C__C2_LE02__0__C__C2_LE02__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__0_C_C2_LE02_t0.8_s0.wav",
+   "text": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí.",
+   "f0_ac": 203.4,
+   "f0_yin": 203.7,
+   "dur": 5.56,
+   "gap": 0.34,
+   "syl_s": 3.97,
+   "peak_db": -4.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__1__C__C2_LE02__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__1_C_C2_LE02_t0.8_s0.wav",
+   "text": "Những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật, và chúng không bắt đầu từ một vụ giết người, mà từ những xung lực rất nhỏ.",
+   "f0_ac": 205.1,
+   "f0_yin": 205.5,
+   "dur": 8.52,
+   "gap": 0.48,
+   "syl_s": 4.11,
+   "peak_db": -2.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật và chúng không bắt đầu từ một vụ giết người mà từ những xung lực rất nhỏ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__2__C__C2_LE02__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__2_C_C2_LE02_t0.8_s0.wav",
+   "text": "Đó chính là Tầng thứ hai: Sự phân mảnh tâm trí tuyệt đối.",
+   "f0_ac": 218.2,
+   "f0_yin": 216.0,
+   "dur": 4.08,
+   "gap": 0.68,
+   "syl_s": 3.23,
+   "peak_db": -3.8,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Đó chính là tầng thứ hai, sự phân mảnh tâm trí tuyệt đối."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__3__C__C2_LE02__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__3_C_C2_LE02_t0.8_s0.wav",
+   "text": "Ngăn kéo thứ hai: Kẻ săn mồi bóng đêm – nơi hắn trút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất.",
+   "f0_ac": 214.3,
+   "f0_yin": 215.5,
+   "dur": 6.76,
+   "gap": 0.4,
+   "syl_s": 4.07,
+   "peak_db": -1.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0342,
+     "hyp": "ăn kéo thứ hai, kẻ săn mồi bóng đêm, nơi hắn chút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0342,
+     "hyp": "ăn kéo thứ hai, kẻ săn mồi bóng đêm, nơi hắn chút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0342,
+   "cer_min": 0.0342,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_C__C2_LE02__4__C__C2_LE02__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__4_C_C2_LE02_t0.8_s0.wav",
+   "text": "Đó là Ái kỷ ác tính kết hợp Phức cảm Chúa trời – hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này.",
+   "f0_ac": 206.9,
+   "f0_yin": 205.6,
+   "dur": 6.68,
+   "gap": 0.52,
+   "syl_s": 4.26,
+   "peak_db": -2.8,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0397,
+     "hyp": "hoặc ái kỷ ác tính kết hợp, phức cảm Chúa Trời, hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0397,
+     "hyp": "hoặc ái kỷ ác tính kết hợp, phức cảm Chúa Trời, hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0397,
+   "cer_min": 0.0397,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_C__C2_LE02__5__C__C2_LE02__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__5_C_C2_LE02_t0.8_s0.wav",
+   "text": "Bởi vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ.",
+   "f0_ac": 193.5,
+   "f0_yin": 192.2,
+   "dur": 3.36,
+   "gap": 0.38,
+   "syl_s": 4.17,
+   "peak_db": -5.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Bởi vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__6__C__C2_LE02__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__6_C_C2_LE02_t0.8_s0.wav",
+   "text": "Và Thám tử Jim Smyth đã đánh trúng tử huyệt tâm lý của Williams: người vợ.",
+   "f0_ac": 198.3,
+   "f0_yin": 195.5,
+   "dur": 4.44,
+   "gap": 0.3,
+   "syl_s": 3.65,
+   "peak_db": -3.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.1111,
+     "hyp": "Thám tử James Smith đã đánh trúng tử huyệt tâm lý của William, người vợ"
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0694,
+     "hyp": "Thám tử Jim Smythe đã đánh trúng tử huyệt tâm lý của William, người vợ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.1111,
+   "cer_min": 0.0694,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_C__C2_LE02__7__C__C2_LE02__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__7_C_C2_LE02_t0.8_s0.wav",
+   "text": "Khi một người khoác lên mình địa vị cao và danh vọng xã hội, chúng ta thường vô thức hạ thấp ranh giới đề phòng.",
+   "f0_ac": 215.3,
+   "f0_yin": 213.9,
+   "dur": 6.0,
+   "gap": 0.32,
+   "syl_s": 4.17,
+   "peak_db": -1.8,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "khi một người khoác lên mình địa vị cao và danh vọng xã hội, chúng ta thường vô thức hạ thấp ranh giới đề phòng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__8__C__C2_LE02__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "sad",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__8_C_C2_LE02_t0.8_s0.wav",
+   "text": "Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người: <|prosody:pause|> Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng.",
+   "f0_ac": 205.1,
+   "f0_yin": 204.8,
+   "dur": 12.6,
+   "gap": 0.52,
+   "syl_s": 3.96,
+   "peak_db": -2.4,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người. Có, nhưng tôi không biết câu trả lời và tôi khá chắc là câu trả lời cũng chẳng quan trọng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__9__C__C2_LE02__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "sad",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__9_C_C2_LE02_t0.8_s0.wav",
+   "text": "Theo bản ghi thẩm vấn, Williams lặp đi lặp lại: <|prosody:pause|> Tôi muốn giảm thiểu ảnh hưởng lên vợ tôi.",
+   "f0_ac": 208.7,
+   "f0_yin": 209.0,
+   "dur": 5.64,
+   "gap": 0.52,
+   "syl_s": 3.67,
+   "peak_db": -3.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Theo bản ghi thẩm vấn, Williams lặp đi lặp lại: \"Tôi muốn giảm thiểu ảnh hưởng lên vợ tôi\""
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__10__C__C2_LE02__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "fearful",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__10_C_C2_LE02_t0.8_s0.wav",
+   "text": "Để tìm lại cảm giác ban đầu, hắn nâng dần mức độ rủi ro: từ nhà trống, đến đối diện với nạn nhân, đến khống chế nạn nhân, và cuối cùng là nắm giữ quyền sinh tử của một con người.",
+   "f0_ac": 211.5,
+   "f0_yin": 210.5,
+   "dur": 10.88,
+   "gap": 0.4,
+   "syl_s": 3.88,
+   "peak_db": -1.8,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Để tìm lại cảm giác ban đầu, hắn nâng dần mức độ rủi ro, từ nhà trống đến đối diện với nạn nhân, đến khống chế nạn nhân và cuối cùng là nắm giữ quyền sinh tử của một con người."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__11__C__C2_LE02__0.8__s0",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 0,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__11_C_C2_LE02_t0.8_s0.wav",
+   "text": "Ngược lại, Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội.",
+   "f0_ac": 200.0,
+   "f0_yin": 198.5,
+   "dur": 3.92,
+   "gap": 0.34,
+   "syl_s": 3.89,
+   "peak_db": -2.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.058,
+     "hyp": "phục lại. Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.058,
+     "hyp": "phục lại. Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.058,
+   "cer_min": 0.058,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D1_VG__0__D__D1_VG__0.8__s1",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__0_D_D1_VG_t0.8_s1.wav",
+   "text": "Tuyết mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù: một vệt gai lốp xe địa hình khá hiếm gặp, cùng một dấu giày đi tuyết cỡ lớn.",
+   "f0_ac": 101.1,
+   "f0_yin": 97.5,
+   "dur": 10.68,
+   "gap": 0.52,
+   "syl_s": 3.65,
+   "peak_db": -0.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0132,
+     "hyp": "Tuyết mưa rơi, đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù, một vệt gai lốp xe địa hình khá hiếm gặp cùng một dấu giày đi tuyết cỡ lớn."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0132,
+   "cer_min": 0.0132,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__1__D__D1_VG__0.8__s1",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__1_D_D1_VG_t0.8_s1.wav",
+   "text": "Một lệnh khám xét được chuẩn bị cho hai nơi: ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa, và ngôi nhà nghỉ dưỡng tại thị trấn Tweed.",
+   "f0_ac": 94.9,
+   "f0_yin": 91.6,
+   "dur": 9.28,
+   "gap": 0.38,
+   "syl_s": 3.25,
+   "peak_db": -1.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Một lệnh khám xét được chuẩn bị cho hai nơi, ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa và ngôi nhà nghỉ dưỡng tại thị trấn Tweed"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__2__D__D1_VG__0.8__s1",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__2_D_D1_VG_t0.8_s1.wav",
+   "text": "Tháng chín năm hai nghìn không trăm lẻ chín, ngưỡng kích thích tiếp tục bị lờn.",
+   "f0_ac": 109.1,
+   "f0_yin": 102.1,
+   "dur": 5.8,
+   "gap": 0.42,
+   "syl_s": 3.27,
+   "peak_db": -2.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "tháng 9 năm 2009, ngưỡng kích thích tiếp tục bị lờn."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__3__D__D1_VG__0.8__s1",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__3_D_D1_VG_t0.8_s1.wav",
+   "text": "Khi việc đứng ngoài cửa sổ không còn đủ hưng phấn, hắn bắt đầu luồn vào những căn nhà vắng.",
+   "f0_ac": 94.9,
+   "f0_yin": 88.6,
+   "dur": 5.76,
+   "gap": 0.38,
+   "syl_s": 3.77,
+   "peak_db": -1.7,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi việc đứng ngoài cửa sổ không còn đủ hưng phấn, hắn bắt đầu luồn vào những căn nhà vắng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__4__D__D1_VG__0.8__s1",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__4_D_D1_VG_t0.8_s1.wav",
+   "text": "Kẻ phạm tội thông thường sẽ tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân.",
+   "f0_ac": 102.6,
+   "f0_yin": 96.1,
+   "dur": 5.84,
+   "gap": 0.32,
+   "syl_s": 3.47,
+   "peak_db": -1.7,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0375,
+     "hyp": "kẻ phạm tội thông thường, xếp tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0375,
+     "hyp": "kẻ phạm tội thông thường, xếp tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0375,
+   "cer_min": 0.0375,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D1_VG__5__D__D1_VG__0.8__s1",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__5_D_D1_VG_t0.8_s1.wav",
+   "text": "Thứ dẫn cảnh sát tới gần hắn là vân lốp và dấu giày trên tuyết.",
+   "f0_ac": 101.3,
+   "f0_yin": 88.2,
+   "dur": 4.32,
+   "gap": 0.08,
+   "syl_s": 3.87,
+   "peak_db": -1.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "thứ dẫn cảnh sát tới gần hắn là vân lốp và dấu giày trên tuyết."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__6__D__D1_VG__0.8__s1",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__6_D_D1_VG_t0.8_s1.wav",
+   "text": "Rồi Smyth đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: <|prosody:pause|> Chúng giống hệt nhau.",
+   "f0_ac": 97.2,
+   "f0_yin": 94.9,
+   "dur": 9.48,
+   "gap": 0.78,
+   "syl_s": 2.82,
+   "peak_db": -0.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0085,
+     "hyp": "Rồi Smith đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: \"Chúng giống hệt nhau.\""
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0085,
+   "cer_min": 0.0085,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__7__D__D1_VG__0.8__s1",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__7_D_D1_VG_t0.8_s1.wav",
+   "text": "Mọi thứ hắn xây dựng suốt hơn hai mươi năm binh nghiệp – danh dự, quân hàm và người vợ mà hắn sợ mất nhất – đã hoàn toàn sụp đổ.",
+   "f0_ac": 97.2,
+   "f0_yin": 93.8,
+   "dur": 9.52,
+   "gap": 0.46,
+   "syl_s": 3.37,
+   "peak_db": -1.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "mọi thứ hắn xây dựng suốt hơn 20 năm binh nghiệp danh dự quân hàm và người vợ mà hắn sợ mất nhất đã hoàn toàn sụp đổ"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__8__D__D1_VG__0.8__s1",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "sad",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__8_D_D1_VG_t0.8_s1.wav",
+   "text": "Và nấc thang cuối cùng: Cái chết.",
+   "f0_ac": 95.0,
+   "f0_yin": 88.1,
+   "dur": 2.84,
+   "gap": 0.7,
+   "syl_s": 2.89,
+   "peak_db": -7.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Và nấc thang cuối cùng, cái chết."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__9__D__D1_VG__0.8__s1",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "sad",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__9_D_D1_VG_t0.8_s1.wav",
+   "text": "Lời đầu tiên của hắn chỉ là: <|prosody:pause|> Tôi không biết phải nói gì.",
+   "f0_ac": 100.0,
+   "f0_yin": 85.9,
+   "dur": 4.24,
+   "gap": 0.62,
+   "syl_s": 3.51,
+   "peak_db": -2.5,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Lời đầu tiên của hắn chỉ là: Tôi không biết phải nói gì."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__10__D__D1_VG__0.8__s1",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "fearful",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__10_D_D1_VG_t0.8_s1.wav",
+   "text": "Nhưng thứ mà các điều tra viên đang ráo riết săn lùng chính là chiếc kho bằng chứng bí mật ấy – chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá.",
+   "f0_ac": 114.3,
+   "f0_yin": 112.1,
+   "dur": 10.12,
+   "gap": 0.44,
+   "syl_s": 4.01,
+   "peak_db": -0.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Nhưng thứ mà các điều tra viên đang ráo riết săn lùng chính là chiếc kho bằng chứng bí mật ấy, chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_VG__11__D__D1_VG__0.8__s1",
+   "role": "D",
+   "ref": "D1_VG",
+   "emotion": "surprised",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_VG__11_D_D1_VG_t0.8_s1.wav",
+   "text": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường – đủ để ghi lại và báo về cho nhóm điều tra.",
+   "f0_ac": 206.9,
+   "f0_yin": 208.2,
+   "dur": 8.08,
+   "gap": 0.28,
+   "syl_s": 4.19,
+   "peak_db": 0.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường, đủ để ghi lại và báo về cho nhóm điều tra."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__0__D__D1_DS__0.8__s1",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__0_D_D1_DS_t0.8_s1.wav",
+   "text": "Tuyết mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù: một vệt gai lốp xe địa hình khá hiếm gặp, cùng một dấu giày đi tuyết cỡ lớn.",
+   "f0_ac": 103.0,
+   "f0_yin": 106.6,
+   "dur": 10.4,
+   "gap": 0.9,
+   "syl_s": 3.57,
+   "peak_db": -1.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0199,
+     "hyp": "Vết mới rơi đã lưu lại gần nhà nạn nhân, một dấu vết lốp xe vô cùng đặc thù. Một vệt gai lốp xe địa hình khá hiếm gặp, cùng một dấu giày đi tuyết cỡ lớn."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0199,
+   "cer_min": 0.0199,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__1__D__D1_DS__0.8__s1",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__1_D_D1_DS_t0.8_s1.wav",
+   "text": "Một lệnh khám xét được chuẩn bị cho hai nơi: ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa, và ngôi nhà nghỉ dưỡng tại thị trấn Tweed.",
+   "f0_ac": 98.2,
+   "f0_yin": 101.8,
+   "dur": 8.36,
+   "gap": 0.54,
+   "syl_s": 3.62,
+   "peak_db": -0.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0076,
+     "hyp": "một lệnh khám xét được chuẩn bị cho hai nơi, ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa và ngôi nhà nghỉ dưỡng tại thị trấn Tweet."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0076,
+   "cer_min": 0.0076,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__2__D__D1_DS__0.8__s1",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__2_D_D1_DS_t0.8_s1.wav",
+   "text": "Tháng chín năm hai nghìn không trăm lẻ chín, ngưỡng kích thích tiếp tục bị lờn.",
+   "f0_ac": 100.8,
+   "f0_yin": 104.0,
+   "dur": 4.32,
+   "gap": 0.52,
+   "syl_s": 3.7,
+   "peak_db": -1.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "tháng 9 năm 2009, ngưỡng kích thích tiếp tục bị lờn."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__3__D__D1_DS__0.8__s1",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__3_D_D1_DS_t0.8_s1.wav",
+   "text": "Khi việc đứng ngoài cửa sổ không còn đủ hưng phấn, hắn bắt đầu luồn vào những căn nhà vắng.",
+   "f0_ac": 96.0,
+   "f0_yin": 104.3,
+   "dur": 5.12,
+   "gap": 0.48,
+   "syl_s": 3.92,
+   "peak_db": -1.4,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi việc đứng ngoài cửa sổ không còn đủ hưng phấn, hắn bắt đầu luồn vào những căn nhà vắng"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__4__D__D1_DS__0.8__s1",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__4_D_D1_DS_t0.8_s1.wav",
+   "text": "Kẻ phạm tội thông thường sẽ tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân.",
+   "f0_ac": 94.9,
+   "f0_yin": 94.0,
+   "dur": 4.68,
+   "gap": 0.4,
+   "syl_s": 3.88,
+   "peak_db": -0.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Kẻ phạm tội thông thường sẽ tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__5__D__D1_DS__0.8__s1",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__5_D_D1_DS_t0.8_s1.wav",
+   "text": "Thứ dẫn cảnh sát tới gần hắn là vân lốp và dấu giày trên tuyết.",
+   "f0_ac": 105.3,
+   "f0_yin": 112.8,
+   "dur": 3.72,
+   "gap": 0.54,
+   "syl_s": 4.12,
+   "peak_db": -0.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0323,
+     "hyp": "cứ dẫn cảnh sát tới gần hắn là vân lốp và dấu giày trên tuyết"
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0323,
+     "hyp": "cứ dẫn cảnh sát tới gần hắn là vân lốp và dấu giày trên tuyết"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0323,
+   "cer_min": 0.0323,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D1_DS__6__D__D1_DS__0.8__s1",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__6_D_D1_DS_t0.8_s1.wav",
+   "text": "Rồi Smyth đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: <|prosody:pause|> Chúng giống hệt nhau.",
+   "f0_ac": 94.5,
+   "f0_yin": 97.7,
+   "dur": 7.48,
+   "gap": 0.8,
+   "syl_s": 3.38,
+   "peak_db": -0.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0508,
+     "hyp": "Smite đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: \"Chúng giống hệt nhau.\""
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0508,
+     "hyp": "Smite đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: \"Chúng giống hệt nhau.\""
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0508,
+   "cer_min": 0.0508,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D1_DS__7__D__D1_DS__0.8__s1",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__7_D_D1_DS_t0.8_s1.wav",
+   "text": "Mọi thứ hắn xây dựng suốt hơn hai mươi năm binh nghiệp – danh dự, quân hàm và người vợ mà hắn sợ mất nhất – đã hoàn toàn sụp đổ.",
+   "f0_ac": 93.4,
+   "f0_yin": 95.3,
+   "dur": 8.64,
+   "gap": 0.88,
+   "syl_s": 3.36,
+   "peak_db": -0.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Mọi thứ hắn xây dựng suốt hơn 20 năm binh nghiệp, danh dự, quân hàm và người vợ mà hắn sợ mất nhất đã hoàn toàn sụp đổ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__8__D__D1_DS__0.8__s1",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "sad",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__8_D_D1_DS_t0.8_s1.wav",
+   "text": "Và nấc thang cuối cùng: Cái chết.",
+   "f0_ac": 88.2,
+   "f0_yin": 83.8,
+   "dur": 3.44,
+   "gap": 1.54,
+   "syl_s": 2.24,
+   "peak_db": -1.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "và nấc thang cuối cùng cái chết."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__9__D__D1_DS__0.8__s1",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "sad",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__9_D_D1_DS_t0.8_s1.wav",
+   "text": "Lời đầu tiên của hắn chỉ là: <|prosody:pause|> Tôi không biết phải nói gì.",
+   "f0_ac": 92.0,
+   "f0_yin": 93.2,
+   "dur": 4.16,
+   "gap": 0.96,
+   "syl_s": 3.42,
+   "peak_db": -1.5,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Lời đầu tiên của hắn chỉ là, tôi không biết phải nói gì."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__10__D__D1_DS__0.8__s1",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "fearful",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__10_D_D1_DS_t0.8_s1.wav",
+   "text": "Nhưng thứ mà các điều tra viên đang ráo riết săn lùng chính là chiếc kho bằng chứng bí mật ấy – chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá.",
+   "f0_ac": 99.6,
+   "f0_yin": 102.7,
+   "dur": 11.92,
+   "gap": 0.88,
+   "syl_s": 3.56,
+   "peak_db": -0.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Nhưng thứ mà các điều tra viên đang ráo riết săn lùng chính là chiếc kho bằng chứng bí mật ấy, chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D1_DS__11__D__D1_DS__0.8__s1",
+   "role": "D",
+   "ref": "D1_DS",
+   "emotion": "surprised",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D1_DS__11_D_D1_DS_t0.8_s1.wav",
+   "text": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường – đủ để ghi lại và báo về cho nhóm điều tra.",
+   "f0_ac": 106.7,
+   "f0_yin": 112.0,
+   "dur": 8.88,
+   "gap": 0.54,
+   "syl_s": 3.81,
+   "peak_db": -0.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường, đủ để ghi lại và báo về cho nhóm điều tra."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_VG__0__D__D2_VG__0.8__s1",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__0_D_D2_VG_t0.8_s1.wav",
+   "text": "Tuyết mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù: một vệt gai lốp xe địa hình khá hiếm gặp, cùng một dấu giày đi tuyết cỡ lớn.",
+   "f0_ac": 88.9,
+   "f0_yin": 88.7,
+   "dur": 9.2,
+   "gap": 0.72,
+   "syl_s": 4.02,
+   "peak_db": -1.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Tuyết mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù, một vệt gai lốp xe địa hình khá hiếm gặp, cùng một dấu giày đi tuyết cỡ lớn."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_VG__1__D__D2_VG__0.8__s1",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__1_D_D2_VG_t0.8_s1.wav",
+   "text": "Một lệnh khám xét được chuẩn bị cho hai nơi: ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa, và ngôi nhà nghỉ dưỡng tại thị trấn Tweed.",
+   "f0_ac": 90.6,
+   "f0_yin": 91.7,
+   "dur": 7.32,
+   "gap": 0.56,
+   "syl_s": 4.11,
+   "peak_db": -1.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.053,
+     "hyp": "lệnh khám xét được chuẩn bị cho hai nơi: ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa và ngôi nhà nghỉ dưỡng tại thị trấn Twist."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.053,
+     "hyp": "Lệnh khám xét được chuẩn bị cho hai nơi: ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa và ngôi nhà nghỉ dưỡng tại thị trấn Twist."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.053,
+   "cer_min": 0.053,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_VG__2__D__D2_VG__0.8__s1",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__2_D_D2_VG_t0.8_s1.wav",
+   "text": "Tháng chín năm hai nghìn không trăm lẻ chín, ngưỡng kích thích tiếp tục bị lờn.",
+   "f0_ac": 93.0,
+   "f0_yin": 94.7,
+   "dur": 3.8,
+   "gap": 0.5,
+   "syl_s": 4.21,
+   "peak_db": -1.5,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.1169,
+     "hyp": "9 năm 2009, ngưỡng kích thích tiếp tục bị nâng"
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0909,
+     "hyp": "9 năm 2009, ngưỡng kích thích tiếp tục bị lấn"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.1169,
+   "cer_min": 0.0909,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_VG__3__D__D2_VG__0.8__s1",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__3_D_D2_VG_t0.8_s1.wav",
+   "text": "Khi việc đứng ngoài cửa sổ không còn đủ hưng phấn, hắn bắt đầu luồn vào những căn nhà vắng.",
+   "f0_ac": 92.5,
+   "f0_yin": 91.0,
+   "dur": 4.44,
+   "gap": 0.46,
+   "syl_s": 4.5,
+   "peak_db": -0.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0449,
+     "hyp": "việc đứng ngoài cửa sổ không còn đủ hưng phấn, hắn bắt đầu luồn vào những căn nhà vắng."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0449,
+     "hyp": "việc đứng ngoài cửa sổ không còn đủ hưng phấn, hắn bắt đầu luồn vào những căn nhà vắng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0449,
+   "cer_min": 0.0449,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_VG__4__D__D2_VG__0.8__s1",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__4_D_D2_VG_t0.8_s1.wav",
+   "text": "Kẻ phạm tội thông thường sẽ tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân.",
+   "f0_ac": 87.4,
+   "f0_yin": 83.8,
+   "dur": 3.96,
+   "gap": 0.48,
+   "syl_s": 4.55,
+   "peak_db": -2.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0375,
+     "hyp": "phạm tội thông thường, sẽ tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân"
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0375,
+     "hyp": "phạm tội thông thường sẽ tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0375,
+   "cer_min": 0.0375,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_VG__5__D__D2_VG__0.8__s1",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__5_D_D2_VG_t0.8_s1.wav",
+   "text": "Thứ dẫn cảnh sát tới gần hắn là vân lốp và dấu giày trên tuyết.",
+   "f0_ac": 95.6,
+   "f0_yin": 103.6,
+   "dur": 3.52,
+   "gap": 0.36,
+   "syl_s": 4.29,
+   "peak_db": -1.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.1452,
+     "hyp": "dấu cảnh sát tới gần hắn, là vầng lấp và dấu giày trên tuyết."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.1452,
+     "hyp": "dấu cảnh sát tới gần hắn, là vầng lấp và dấu giày trên tuyết."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.1452,
+   "cer_min": 0.1452,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_VG__6__D__D2_VG__0.8__s1",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__6_D_D2_VG_t0.8_s1.wav",
+   "text": "Rồi Smyth đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: <|prosody:pause|> Chúng giống hệt nhau.",
+   "f0_ac": 88.6,
+   "f0_yin": 88.8,
+   "dur": 6.8,
+   "gap": 0.92,
+   "syl_s": 3.68,
+   "peak_db": -1.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0593,
+     "hyp": "Smitty đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: \"Chúng giống hệt nhau.\""
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0593,
+     "hyp": "Smitty đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: \"Chúng giống hệt nhau.\""
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0593,
+   "cer_min": 0.0593,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_VG__7__D__D2_VG__0.8__s1",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__7_D_D2_VG_t0.8_s1.wav",
+   "text": "Mọi thứ hắn xây dựng suốt hơn hai mươi năm binh nghiệp – danh dự, quân hàm và người vợ mà hắn sợ mất nhất – đã hoàn toàn sụp đổ.",
+   "f0_ac": 92.3,
+   "f0_yin": 94.6,
+   "dur": 8.04,
+   "gap": 0.56,
+   "syl_s": 3.61,
+   "peak_db": -1.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Mọi thứ hắn xây dựng suốt hơn 20 năm binh nghiệp, danh dự, quân hàm và người vợ mà hắn sợ mất nhất, đã hoàn toàn sụp đổ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_VG__8__D__D2_VG__0.8__s1",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "sad",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__8_D_D2_VG_t0.8_s1.wav",
+   "text": "Và nấc thang cuối cùng: Cái chết.",
+   "f0_ac": 108.6,
+   "f0_yin": 104.3,
+   "dur": 2.4,
+   "gap": 0.7,
+   "syl_s": 3.3,
+   "peak_db": -2.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Và nấc thang cuối cùng, cái chết"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_VG__9__D__D2_VG__0.8__s1",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "sad",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__9_D_D2_VG_t0.8_s1.wav",
+   "text": "Lời đầu tiên của hắn chỉ là: <|prosody:pause|> Tôi không biết phải nói gì.",
+   "f0_ac": 103.4,
+   "f0_yin": 104.7,
+   "dur": 3.48,
+   "gap": 0.8,
+   "syl_s": 3.82,
+   "peak_db": -2.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Lời đầu tiên của hắn chỉ là, tôi không biết phải nói gì."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_VG__10__D__D2_VG__0.8__s1",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "fearful",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__10_D_D2_VG_t0.8_s1.wav",
+   "text": "Nhưng thứ mà các điều tra viên đang ráo riết săn lùng chính là chiếc kho bằng chứng bí mật ấy – chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá.",
+   "f0_ac": 102.6,
+   "f0_yin": 104.3,
+   "dur": 8.28,
+   "gap": 0.5,
+   "syl_s": 4.77,
+   "peak_db": -0.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Nhưng thứ mà các điều tra viên đang ráo riết săn lùng chính là chiếc kho bằng chứng bí mật ấy, chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_VG__11__D__D2_VG__0.8__s1",
+   "role": "D",
+   "ref": "D2_VG",
+   "emotion": "surprised",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_VG__11_D_D2_VG_t0.8_s1.wav",
+   "text": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường – đủ để ghi lại và báo về cho nhóm điều tra.",
+   "f0_ac": 140.4,
+   "f0_yin": 159.0,
+   "dur": 7.2,
+   "gap": 0.56,
+   "syl_s": 4.53,
+   "peak_db": -1.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường. Đủ để ghi lại và báo về cho nhóm điều tra."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_DS__0__D__D2_DS__0.8__s1",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__0_D_D2_DS_t0.8_s1.wav",
+   "text": "Tuyết mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù: một vệt gai lốp xe địa hình khá hiếm gặp, cùng một dấu giày đi tuyết cỡ lớn.",
+   "f0_ac": 99.0,
+   "f0_yin": 98.9,
+   "dur": 11.04,
+   "gap": 0.7,
+   "syl_s": 3.37,
+   "peak_db": -2.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.053,
+     "hyp": "vừa mới rời, đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù, một vệt gai lốp xe địa hình khá hiếm gặp cùng một dấu dày đi tuyết cỡ lớn."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.053,
+     "hyp": "vừa mới rời, đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù, một vệt gai lốp xe địa hình khá hiếm gặp cùng một dấu dày đi tuyết cỡ lớn."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.053,
+   "cer_min": 0.053,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_DS__1__D__D2_DS__0.8__s1",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__1_D_D2_DS_t0.8_s1.wav",
+   "text": "Một lệnh khám xét được chuẩn bị cho hai nơi: ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa, và ngôi nhà nghỉ dưỡng tại thị trấn Tweed.",
+   "f0_ac": 98.0,
+   "f0_yin": 99.8,
+   "dur": 9.48,
+   "gap": 0.6,
+   "syl_s": 3.4,
+   "peak_db": -0.4,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0303,
+     "hyp": "Lệnh khám xét được chuẩn bị cho hai nơi, ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa và ngôi nhà nghỉ dưỡng tại thị trấn Tweed."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0,
+     "hyp": "Một lệnh khám xét được chuẩn bị cho hai nơi, ngôi nhà của vợ chồng ông ta tại thủ đô Ottawa và ngôi nhà nghỉ dưỡng tại thị trấn Tweed."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0303,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_DS__2__D__D2_DS__0.8__s1",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__2_D_D2_DS_t0.8_s1.wav",
+   "text": "Tháng chín năm hai nghìn không trăm lẻ chín, ngưỡng kích thích tiếp tục bị lờn.",
+   "f0_ac": 107.9,
+   "f0_yin": 109.1,
+   "dur": 4.64,
+   "gap": 0.4,
+   "syl_s": 3.51,
+   "peak_db": -1.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.1558,
+     "hyp": "952009 ngưỡng kích thích tiếp tục bị lờn."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.1558,
+     "hyp": "952009 ngưỡng kích thích tiếp tục bị lờn."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.1558,
+   "cer_min": 0.1558,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_DS__3__D__D2_DS__0.8__s1",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__3_D_D2_DS_t0.8_s1.wav",
+   "text": "Khi việc đứng ngoài cửa sổ không còn đủ hưng phấn, hắn bắt đầu luồn vào những căn nhà vắng.",
+   "f0_ac": 101.5,
+   "f0_yin": 101.6,
+   "dur": 5.12,
+   "gap": 0.36,
+   "syl_s": 3.97,
+   "peak_db": -1.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi việc đứng ngoài cửa sổ không còn đủ hưng phấn, hắn bắt đầu luồn vào những căn nhà vắng"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_DS__4__D__D2_DS__0.8__s1",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__4_D_D2_DS_t0.8_s1.wav",
+   "text": "Kẻ phạm tội thông thường sẽ tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân.",
+   "f0_ac": 96.8,
+   "f0_yin": 95.5,
+   "dur": 4.64,
+   "gap": 0.24,
+   "syl_s": 3.91,
+   "peak_db": -2.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "kẻ phạm tội thông thường sẽ tìm mọi cách xóa sạch dấu vết liên quan đến nạn nhân."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_DS__5__D__D2_DS__0.8__s1",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__5_D_D2_DS_t0.8_s1.wav",
+   "text": "Thứ dẫn cảnh sát tới gần hắn là vân lốp và dấu giày trên tuyết.",
+   "f0_ac": 100.8,
+   "f0_yin": 103.6,
+   "dur": 3.92,
+   "gap": 0.32,
+   "syl_s": 3.87,
+   "peak_db": -2.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0645,
+     "hyp": "dẫn cảnh sát tới gần hắn, là vân lốp và dấu giày trên tuyết."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0645,
+     "hyp": "dẫn cảnh sát tới gần hắn, là vân lốp và dấu giày trên tuyết."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0645,
+   "cer_min": 0.0645,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_DS__6__D__D2_DS__0.8__s1",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__6_D_D2_DS_t0.8_s1.wav",
+   "text": "Rồi Smyth đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: <|prosody:pause|> Chúng giống hệt nhau.",
+   "f0_ac": 97.2,
+   "f0_yin": 99.1,
+   "dur": 8.2,
+   "gap": 0.84,
+   "syl_s": 3.22,
+   "peak_db": -1.5,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0254,
+     "hyp": "Roy Smith đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: \"Chúng giống hệt nhau.\""
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0254,
+     "hyp": "Roy Smith đặt lên bàn bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: \"Chúng giống hệt nhau.\""
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0254,
+   "cer_min": 0.0254,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_D__D2_DS__7__D__D2_DS__0.8__s1",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__7_D_D2_DS_t0.8_s1.wav",
+   "text": "Mọi thứ hắn xây dựng suốt hơn hai mươi năm binh nghiệp – danh dự, quân hàm và người vợ mà hắn sợ mất nhất – đã hoàn toàn sụp đổ.",
+   "f0_ac": 93.0,
+   "f0_yin": 97.6,
+   "dur": 9.16,
+   "gap": 0.56,
+   "syl_s": 3.18,
+   "peak_db": -1.8,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "mọi thứ hắn xây dựng suốt hơn 20 năm binh nghiệp, danh dự, quân hàm và người vợ mà hắn sợ mất nhất đã hoàn toàn sụp đổ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_DS__8__D__D2_DS__0.8__s1",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "sad",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__8_D_D2_DS_t0.8_s1.wav",
+   "text": "Và nấc thang cuối cùng: Cái chết.",
+   "f0_ac": 110.1,
+   "f0_yin": 106.8,
+   "dur": 2.72,
+   "gap": 0.66,
+   "syl_s": 3.07,
+   "peak_db": -2.7,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "và nấc thang cuối cùng, cái chết."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_DS__9__D__D2_DS__0.8__s1",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "sad",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__9_D_D2_DS_t0.8_s1.wav",
+   "text": "Lời đầu tiên của hắn chỉ là: <|prosody:pause|> Tôi không biết phải nói gì.",
+   "f0_ac": 101.3,
+   "f0_yin": 103.4,
+   "dur": 4.4,
+   "gap": 0.8,
+   "syl_s": 3.35,
+   "peak_db": -1.7,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Lời đầu tiên của hắn chỉ là Tôi không biết phải nói gì"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_DS__10__D__D2_DS__0.8__s1",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "fearful",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__10_D_D2_DS_t0.8_s1.wav",
+   "text": "Nhưng thứ mà các điều tra viên đang ráo riết săn lùng chính là chiếc kho bằng chứng bí mật ấy – chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá.",
+   "f0_ac": 104.8,
+   "f0_yin": 106.2,
+   "dur": 10.68,
+   "gap": 0.42,
+   "syl_s": 3.82,
+   "peak_db": 0.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0058,
+     "hyp": "những thứ mà các điều tra viên đang ráo riết săn lùng chính là chiếc kho bằng chứng bí mật ấy, chiếc chìa khóa duy nhất có thể bóc trần toàn bộ con người thật của vị đại tá."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0058,
+   "cer_min": 0.0058,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_D__D2_DS__11__D__D2_DS__0.8__s1",
+   "role": "D",
+   "ref": "D2_DS",
+   "emotion": "surprised",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_D__D2_DS__11_D_D2_DS_t0.8_s1.wav",
+   "text": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường – đủ để ghi lại và báo về cho nhóm điều tra.",
+   "f0_ac": 146.3,
+   "f0_yin": 159.5,
+   "dur": 8.84,
+   "gap": 0.36,
+   "syl_s": 3.82,
+   "peak_db": -0.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường, đủ để ghi lại và báo về cho nhóm điều tra."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__0__C__C2_AB05__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__0_C_C2_AB05_t0.8_s1.wav",
+   "text": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí.",
+   "f0_ac": 190.5,
+   "f0_yin": 188.8,
+   "dur": 5.6,
+   "gap": 0.26,
+   "syl_s": 3.97,
+   "peak_db": -2.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__1__C__C2_AB05__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__1_C_C2_AB05_t0.8_s1.wav",
+   "text": "Những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật, và chúng không bắt đầu từ một vụ giết người, mà từ những xung lực rất nhỏ.",
+   "f0_ac": 193.5,
+   "f0_yin": 193.9,
+   "dur": 8.28,
+   "gap": 0.24,
+   "syl_s": 4.26,
+   "peak_db": -3.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật, và chúng không bắt đầu từ một vụ giết người, mà từ những xung lực rất nhỏ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__2__C__C2_AB05__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__2_C_C2_AB05_t0.8_s1.wav",
+   "text": "Đó chính là Tầng thứ hai: Sự phân mảnh tâm trí tuyệt đối.",
+   "f0_ac": 201.7,
+   "f0_yin": 199.1,
+   "dur": 3.28,
+   "gap": 0.3,
+   "syl_s": 4.04,
+   "peak_db": -2.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "đó chính là tầng thứ hai, sự phân mảnh tâm trí tuyệt đối."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__3__C__C2_AB05__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__3_C_C2_AB05_t0.8_s1.wav",
+   "text": "Ngăn kéo thứ hai: Kẻ săn mồi bóng đêm – nơi hắn trút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất.",
+   "f0_ac": 198.3,
+   "f0_yin": 200.0,
+   "dur": 6.56,
+   "gap": 0.28,
+   "syl_s": 4.14,
+   "peak_db": -2.7,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "ngăn kéo thứ hai kẻ săn mồi bóng đêm nơi hắn trút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__4__C__C2_AB05__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__4_C_C2_AB05_t0.8_s1.wav",
+   "text": "Đó là Ái kỷ ác tính kết hợp Phức cảm Chúa trời – hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này.",
+   "f0_ac": 193.5,
+   "f0_yin": 192.8,
+   "dur": 6.2,
+   "gap": 0.22,
+   "syl_s": 4.56,
+   "peak_db": -2.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Đó là ái kỷ ác tính kết hợp phức cảm Chúa Trời, hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__5__C__C2_AB05__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__5_C_C2_AB05_t0.8_s1.wav",
+   "text": "Bởi vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ.",
+   "f0_ac": 186.0,
+   "f0_yin": 187.4,
+   "dur": 3.16,
+   "gap": 0.24,
+   "syl_s": 4.49,
+   "peak_db": -2.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Bởi vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__6__C__C2_AB05__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__6_C_C2_AB05_t0.8_s1.wav",
+   "text": "Và Thám tử Jim Smyth đã đánh trúng tử huyệt tâm lý của Williams: người vợ.",
+   "f0_ac": 196.7,
+   "f0_yin": 196.4,
+   "dur": 4.44,
+   "gap": 0.26,
+   "syl_s": 3.64,
+   "peak_db": -2.4,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0556,
+     "hyp": "Thám tử Jim Smith đã đánh trúng tử huyệt tâm lý của Williams, người vợ"
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0139,
+     "hyp": "Và thám tử Jim Smith đã đánh trúng tử huyệt tâm lý của Williams, người vợ"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0556,
+   "cer_min": 0.0139,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__7__C__C2_AB05__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__7_C_C2_AB05_t0.8_s1.wav",
+   "text": "Khi một người khoác lên mình địa vị cao và danh vọng xã hội, chúng ta thường vô thức hạ thấp ranh giới đề phòng.",
+   "f0_ac": 196.7,
+   "f0_yin": 197.5,
+   "dur": 5.64,
+   "gap": 0.28,
+   "syl_s": 4.45,
+   "peak_db": -2.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "khi một người khoác lên mình địa vị cao và danh vọng xã hội, chúng ta thường vô thức hạ thấp ranh giới đề phòng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__8__C__C2_AB05__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "sad",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__8_C_C2_AB05_t0.8_s1.wav",
+   "text": "Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người: <|prosody:pause|> Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng.",
+   "f0_ac": 196.7,
+   "f0_yin": 193.2,
+   "dur": 12.56,
+   "gap": 0.72,
+   "syl_s": 3.92,
+   "peak_db": -2.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người: Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__9__C__C2_AB05__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "sad",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__9_C_C2_AB05_t0.8_s1.wav",
+   "text": "Theo bản ghi thẩm vấn, Williams lặp đi lặp lại: <|prosody:pause|> Tôi muốn giảm thiểu ảnh hưởng lên vợ tôi.",
+   "f0_ac": 196.7,
+   "f0_yin": 196.0,
+   "dur": 5.72,
+   "gap": 0.7,
+   "syl_s": 3.43,
+   "peak_db": -4.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Theo bản ghi thẩm vấn, Williams lặp đi lặp lại: “Tôi muốn giảm thiểu ảnh hưởng lên vợ tôi.”"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__10__C__C2_AB05__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "fearful",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__10_C_C2_AB05_t0.8_s1.wav",
+   "text": "Để tìm lại cảm giác ban đầu, hắn nâng dần mức độ rủi ro: từ nhà trống, đến đối diện với nạn nhân, đến khống chế nạn nhân, và cuối cùng là nắm giữ quyền sinh tử của một con người.",
+   "f0_ac": 190.5,
+   "f0_yin": 188.5,
+   "dur": 10.68,
+   "gap": 0.52,
+   "syl_s": 4.04,
+   "peak_db": -2.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Để tìm lại cảm giác ban đầu, hắn nâng dần mức độ rủi ro, từ nhà trống đến đối diện với nạn nhân, đến khống chế nạn nhân và cuối cùng là nắm giữ quyền sinh tử của một con người."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB05__11__C__C2_AB05__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB05",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB05__11_C_C2_AB05_t0.8_s1.wav",
+   "text": "Ngược lại, Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội.",
+   "f0_ac": 192.0,
+   "f0_yin": 191.7,
+   "dur": 3.96,
+   "gap": 0.26,
+   "syl_s": 3.85,
+   "peak_db": -2.8,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Ngược lại, Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__0__C__C2_LE03__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__0_C_C2_LE03_t0.8_s1.wav",
+   "text": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí.",
+   "f0_ac": 204.3,
+   "f0_yin": 203.9,
+   "dur": 4.96,
+   "gap": 0.24,
+   "syl_s": 4.44,
+   "peak_db": -3.5,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__1__C__C2_LE03__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__1_C_C2_LE03_t0.8_s1.wav",
+   "text": "Những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật, và chúng không bắt đầu từ một vụ giết người, mà từ những xung lực rất nhỏ.",
+   "f0_ac": 216.2,
+   "f0_yin": 217.1,
+   "dur": 8.04,
+   "gap": 0.46,
+   "syl_s": 4.42,
+   "peak_db": -4.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0377,
+     "hyp": "hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật. Và chúng không bắt đầu từ một vụ giết người mà từ những xung lực rất nhỏ."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0377,
+     "hyp": "hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật. Và chúng không bắt đầu từ một vụ giết người mà từ những xung lực rất nhỏ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0377,
+   "cer_min": 0.0377,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_C__C2_LE03__2__C__C2_LE03__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__2_C_C2_LE03_t0.8_s1.wav",
+   "text": "Đó chính là Tầng thứ hai: Sự phân mảnh tâm trí tuyệt đối.",
+   "f0_ac": 222.2,
+   "f0_yin": 217.7,
+   "dur": 3.16,
+   "gap": 0.4,
+   "syl_s": 4.17,
+   "peak_db": -4.8,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Đó chính là tầng thứ hai, sự phân mảnh tâm trí tuyệt đối"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__3__C__C2_LE03__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__3_C_C2_LE03_t0.8_s1.wav",
+   "text": "Ngăn kéo thứ hai: Kẻ săn mồi bóng đêm – nơi hắn trút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất.",
+   "f0_ac": 223.3,
+   "f0_yin": 223.3,
+   "dur": 6.04,
+   "gap": 0.22,
+   "syl_s": 4.67,
+   "peak_db": -2.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "ngăn kéo thứ hai, kẻ săn mồi bóng đêm, nơi hắn trút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__4__C__C2_LE03__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__4_C_C2_LE03_t0.8_s1.wav",
+   "text": "Đó là Ái kỷ ác tính kết hợp Phức cảm Chúa trời – hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này.",
+   "f0_ac": 208.7,
+   "f0_yin": 205.2,
+   "dur": 5.6,
+   "gap": 0.2,
+   "syl_s": 5.09,
+   "peak_db": -4.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0079,
+     "hyp": "Đó là ái kỳ ác tính kết hợp phức cảm chúa trời. Hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0079,
+   "cer_min": 0.0079,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__5__C__C2_LE03__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__5_C_C2_LE03_t0.8_s1.wav",
+   "text": "Bởi vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ.",
+   "f0_ac": 196.7,
+   "f0_yin": 196.9,
+   "dur": 3.08,
+   "gap": 0.28,
+   "syl_s": 4.67,
+   "peak_db": -3.8,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0566,
+     "hyp": "Vì vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ,"
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0566,
+     "hyp": "Vì vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0566,
+   "cer_min": 0.0566,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_C__C2_LE03__6__C__C2_LE03__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__6_C_C2_LE03_t0.8_s1.wav",
+   "text": "Và Thám tử Jim Smyth đã đánh trúng tử huyệt tâm lý của Williams: người vợ.",
+   "f0_ac": 205.1,
+   "f0_yin": 202.8,
+   "dur": 3.88,
+   "gap": 0.42,
+   "syl_s": 4.17,
+   "peak_db": -3.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0694,
+     "hyp": "Thám tử Jim Smith đã đánh trúng tử huyệt tâm lý của William. Người vợ"
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0694,
+     "hyp": "Thám tử Jim Smith đã đánh trúng tử huyệt tâm lý của William: người vợ"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0694,
+   "cer_min": 0.0694,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_C__C2_LE03__7__C__C2_LE03__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__7_C_C2_LE03_t0.8_s1.wav",
+   "text": "Khi một người khoác lên mình địa vị cao và danh vọng xã hội, chúng ta thường vô thức hạ thấp ranh giới đề phòng.",
+   "f0_ac": 216.2,
+   "f0_yin": 216.4,
+   "dur": 5.28,
+   "gap": 0.32,
+   "syl_s": 4.79,
+   "peak_db": -4.4,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0091,
+     "hyp": "khi một người khoác lên mình địa vị cao và danh vọng xã hội, chúng ta thường vô thức hạ thấp danh giới đề phòng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0091,
+   "cer_min": 0.0091,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__8__C__C2_LE03__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "sad",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__8_C_C2_LE03_t0.8_s1.wav",
+   "text": "Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người: <|prosody:pause|> Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng.",
+   "f0_ac": 210.5,
+   "f0_yin": 207.5,
+   "dur": 11.84,
+   "gap": 0.5,
+   "syl_s": 4.27,
+   "peak_db": -3.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi thám tử hỏi hắn đã từng nghĩ, vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người. Có, nhưng tôi không biết câu trả lời và tôi khá chắc là câu trả lời cũng chẳng quan trọng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__9__C__C2_LE03__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "sad",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__9_C_C2_LE03_t0.8_s1.wav",
+   "text": "Theo bản ghi thẩm vấn, Williams lặp đi lặp lại: <|prosody:pause|> Tôi muốn giảm thiểu ảnh hưởng lên vợ tôi.",
+   "f0_ac": 212.4,
+   "f0_yin": 212.7,
+   "dur": 5.56,
+   "gap": 0.56,
+   "syl_s": 3.77,
+   "peak_db": -3.4,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Theo bản ghi thẩm vấn, Williams lặp đi lặp lại: \"Tôi muốn giảm thiểu ảnh hưởng lên vợ tôi\"."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__10__C__C2_LE03__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "fearful",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__10_C_C2_LE03_t0.8_s1.wav",
+   "text": "Để tìm lại cảm giác ban đầu, hắn nâng dần mức độ rủi ro: từ nhà trống, đến đối diện với nạn nhân, đến khống chế nạn nhân, và cuối cùng là nắm giữ quyền sinh tử của một con người.",
+   "f0_ac": 210.5,
+   "f0_yin": 206.9,
+   "dur": 10.2,
+   "gap": 0.48,
+   "syl_s": 4.18,
+   "peak_db": -3.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Để tìm lại cảm giác ban đầu, hắn nâng dần mức độ rủi ro, từ nhà trống đến đối diện với nạn nhân, đến khống chế nạn nhân và cuối cùng là nắm giữ quyền sinh tử của một con người."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE03__11__C__C2_LE03__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE03__11_C_C2_LE03_t0.8_s1.wav",
+   "text": "Ngược lại, Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội.",
+   "f0_ac": 216.2,
+   "f0_yin": 213.7,
+   "dur": 4.0,
+   "gap": 0.26,
+   "syl_s": 3.81,
+   "peak_db": -4.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Ngược lại, Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__0__C__C2_AB03__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__0_C_C2_AB03_t0.8_s1.wav",
+   "text": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí.",
+   "f0_ac": 212.4,
+   "f0_yin": 214.4,
+   "dur": 5.56,
+   "gap": 0.36,
+   "syl_s": 3.96,
+   "peak_db": -3.5,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__1__C__C2_AB03__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__1_C_C2_AB03_t0.8_s1.wav",
+   "text": "Những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật, và chúng không bắt đầu từ một vụ giết người, mà từ những xung lực rất nhỏ.",
+   "f0_ac": 205.1,
+   "f0_yin": 206.6,
+   "dur": 8.48,
+   "gap": 0.3,
+   "syl_s": 4.14,
+   "peak_db": -3.8,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật, và chúng không bắt đầu từ một vụ giết người, mà từ những xung lực rất nhỏ"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__2__C__C2_AB03__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__2_C_C2_AB03_t0.8_s1.wav",
+   "text": "Đó chính là Tầng thứ hai: Sự phân mảnh tâm trí tuyệt đối.",
+   "f0_ac": 222.2,
+   "f0_yin": 222.0,
+   "dur": 3.12,
+   "gap": 0.2,
+   "syl_s": 4.17,
+   "peak_db": -5.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Đó chính là tầng thứ hai, sự phân mảnh tâm trí tuyệt đối."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__3__C__C2_AB03__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__3_C_C2_AB03_t0.8_s1.wav",
+   "text": "Ngăn kéo thứ hai: Kẻ săn mồi bóng đêm – nơi hắn trút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất.",
+   "f0_ac": 208.7,
+   "f0_yin": 216.9,
+   "dur": 6.72,
+   "gap": 0.3,
+   "syl_s": 4.03,
+   "peak_db": -3.7,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0342,
+     "hyp": "kẻ kéo thứ hai, kẻ săn mồi bóng đêm, nơi hắn trút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0342,
+     "hyp": "kẻ kéo thứ hai, kẻ săn mồi bóng đêm, nơi hắn trút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0342,
+   "cer_min": 0.0342,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_C__C2_AB03__4__C__C2_AB03__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__4_C_C2_AB03_t0.8_s1.wav",
+   "text": "Đó là Ái kỷ ác tính kết hợp Phức cảm Chúa trời – hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này.",
+   "f0_ac": 208.7,
+   "f0_yin": 209.1,
+   "dur": 6.04,
+   "gap": 0.2,
+   "syl_s": 4.65,
+   "peak_db": -3.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0238,
+     "hyp": "Là ái kỷ ác tính kết hợp phức cảm chúa trời, hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0238,
+     "hyp": "Là ái kỷ ác tính kết hợp phức cảm chúa trời, hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0238,
+   "cer_min": 0.0238,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_C__C2_AB03__5__C__C2_AB03__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__5_C_C2_AB03_t0.8_s1.wav",
+   "text": "Bởi vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ.",
+   "f0_ac": 206.0,
+   "f0_yin": 218.6,
+   "dur": 3.36,
+   "gap": 0.2,
+   "syl_s": 4.24,
+   "peak_db": -3.8,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0755,
+     "hyp": "Vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0755,
+     "hyp": "Vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0755,
+   "cer_min": 0.0755,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_C__C2_AB03__6__C__C2_AB03__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__6_C_C2_AB03_t0.8_s1.wav",
+   "text": "Và Thám tử Jim Smyth đã đánh trúng tử huyệt tâm lý của Williams: người vợ.",
+   "f0_ac": 205.1,
+   "f0_yin": 207.3,
+   "dur": 4.32,
+   "gap": 0.32,
+   "syl_s": 3.74,
+   "peak_db": -4.3,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0972,
+     "hyp": "Thám tử Jim Small đã đánh trúng tử huyệt tâm lý của William, người vợ,"
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0972,
+     "hyp": "Thám tử Jim Small đã đánh trúng tử huyệt tâm lý của William, người vợ,"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0972,
+   "cer_min": 0.0972,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_C__C2_AB03__7__C__C2_AB03__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__7_C_C2_AB03_t0.8_s1.wav",
+   "text": "Khi một người khoác lên mình địa vị cao và danh vọng xã hội, chúng ta thường vô thức hạ thấp ranh giới đề phòng.",
+   "f0_ac": 208.7,
+   "f0_yin": 208.3,
+   "dur": 5.8,
+   "gap": 0.32,
+   "syl_s": 4.34,
+   "peak_db": -4.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi một người khoác lên mình địa vị cao và danh vọng xã hội, chúng ta thường vô thức hạ thấp ranh giới đề phòng"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__8__C__C2_AB03__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "sad",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__8_C_C2_AB03_t0.8_s1.wav",
+   "text": "Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người: <|prosody:pause|> Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng.",
+   "f0_ac": 208.7,
+   "f0_yin": 209.9,
+   "dur": 11.96,
+   "gap": 0.44,
+   "syl_s": 4.14,
+   "peak_db": -3.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người: Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__9__C__C2_AB03__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "sad",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__9_C_C2_AB03_t0.8_s1.wav",
+   "text": "Theo bản ghi thẩm vấn, Williams lặp đi lặp lại: <|prosody:pause|> Tôi muốn giảm thiểu ảnh hưởng lên vợ tôi.",
+   "f0_ac": 210.5,
+   "f0_yin": 213.1,
+   "dur": 5.6,
+   "gap": 0.3,
+   "syl_s": 3.67,
+   "peak_db": -4.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Theo bản ghi thẩm vấn, Williams lặp đi lặp lại, tôi muốn giảm thiểu ảnh hưởng lên vợ tôi."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__10__C__C2_AB03__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "fearful",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__10_C_C2_AB03_t0.8_s1.wav",
+   "text": "Để tìm lại cảm giác ban đầu, hắn nâng dần mức độ rủi ro: từ nhà trống, đến đối diện với nạn nhân, đến khống chế nạn nhân, và cuối cùng là nắm giữ quyền sinh tử của một con người.",
+   "f0_ac": 206.9,
+   "f0_yin": 208.5,
+   "dur": 10.88,
+   "gap": 0.38,
+   "syl_s": 3.96,
+   "peak_db": -2.8,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Để tìm lại cảm giác ban đầu, hắn nâng dần mức độ rủi ro, từ nhà trống đến đối diện với nạn nhân, đến khống chế nạn nhân, và cuối cùng là nắm giữ quyền sinh tử của một con người."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_AB03__11__C__C2_AB03__0.8__s1",
+   "role": "C",
+   "ref": "C2_AB03",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_AB03__11_C_C2_AB03_t0.8_s1.wav",
+   "text": "Ngược lại, Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội.",
+   "f0_ac": 201.7,
+   "f0_yin": 204.1,
+   "dur": 3.88,
+   "gap": 0.2,
+   "syl_s": 3.87,
+   "peak_db": -3.5,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0725,
+     "hyp": "của lại Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội."
+    },
+    {
+     "rnd": 2,
+     "cer": 0.0725,
+     "hyp": "của lại Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0725,
+   "cer_min": 0.0725,
+   "cer_fail": true
+  },
+  {
+   "key": "P9_C__C2_LE02__0__C__C2_LE02__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__0_C_C2_LE02_t0.8_s1.wav",
+   "text": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí.",
+   "f0_ac": 200.0,
+   "f0_yin": 198.3,
+   "dur": 5.48,
+   "gap": 0.34,
+   "syl_s": 4.06,
+   "peak_db": -3.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí"
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__1__C__C2_LE02__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__1_C_C2_LE02_t0.8_s1.wav",
+   "text": "Những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật, và chúng không bắt đầu từ một vụ giết người, mà từ những xung lực rất nhỏ.",
+   "f0_ac": 210.5,
+   "f0_yin": 210.7,
+   "dur": 8.84,
+   "gap": 0.52,
+   "syl_s": 3.96,
+   "peak_db": -2.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "những hành vi của Williams mang nhiều đặc điểm thường được mô tả trong rối loạn ái vật và chúng không bắt đầu từ một vụ giết người mà từ những xung lực rất nhỏ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__2__C__C2_LE02__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__2_C_C2_LE02_t0.8_s1.wav",
+   "text": "Đó chính là Tầng thứ hai: Sự phân mảnh tâm trí tuyệt đối.",
+   "f0_ac": 212.4,
+   "f0_yin": 210.2,
+   "dur": 3.4,
+   "gap": 0.34,
+   "syl_s": 3.85,
+   "peak_db": -2.5,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Đó chính là tầng thứ hai, sự phân mảnh tâm trí tuyệt đối."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__3__C__C2_LE02__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__3_C_C2_LE02_t0.8_s1.wav",
+   "text": "Ngăn kéo thứ hai: Kẻ săn mồi bóng đêm – nơi hắn trút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất.",
+   "f0_ac": 212.4,
+   "f0_yin": 211.8,
+   "dur": 6.88,
+   "gap": 0.66,
+   "syl_s": 3.97,
+   "peak_db": -1.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0171,
+     "hyp": "ăn kéo thứ hai. Kẻ săn mồi bóng đêm, nơi hắn trút bỏ mọi quy chuẩn xã hội để thỏa mãn những dục vọng nguyên thủy nhất."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0171,
+   "cer_min": 0.0171,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__4__C__C2_LE02__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__4_C_C2_LE02_t0.8_s1.wav",
+   "text": "Đó là Ái kỷ ác tính kết hợp Phức cảm Chúa trời – hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này.",
+   "f0_ac": 208.7,
+   "f0_yin": 206.3,
+   "dur": 6.24,
+   "gap": 0.34,
+   "syl_s": 4.5,
+   "peak_db": -2.8,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "đó là ái kỷ ác tính kết hợp phức cảm chúa trời. Hai khung lý thuyết thường được dùng để giải thích những trường hợp như thế này."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__5__C__C2_LE02__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__5_C_C2_LE02_t0.8_s1.wav",
+   "text": "Bởi vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ.",
+   "f0_ac": 196.7,
+   "f0_yin": 199.3,
+   "dur": 3.68,
+   "gap": 0.4,
+   "syl_s": 4.24,
+   "peak_db": -2.5,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Bởi vậy, cái tôi của hắn không bị đè bẹp bởi sự xấu hổ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__6__C__C2_LE02__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__6_C_C2_LE02_t0.8_s1.wav",
+   "text": "Và Thám tử Jim Smyth đã đánh trúng tử huyệt tâm lý của Williams: người vợ.",
+   "f0_ac": 203.4,
+   "f0_yin": 203.2,
+   "dur": 4.68,
+   "gap": 0.34,
+   "syl_s": 3.46,
+   "peak_db": -0.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0139,
+     "hyp": "và thám tử Jim Smith đã đánh trúng tử huyệt tâm lý của Williams, người vợ."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0139,
+   "cer_min": 0.0139,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__7__C__C2_LE02__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__7_C_C2_LE02_t0.8_s1.wav",
+   "text": "Khi một người khoác lên mình địa vị cao và danh vọng xã hội, chúng ta thường vô thức hạ thấp ranh giới đề phòng.",
+   "f0_ac": 212.4,
+   "f0_yin": 212.5,
+   "dur": 5.6,
+   "gap": 0.4,
+   "syl_s": 4.46,
+   "peak_db": -3.0,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "khi một người khoác lên mình địa vị cao và danh vọng xã hội, chúng ta thường vô thức hạ thấp ranh giới đề phòng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__8__C__C2_LE02__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "sad",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__8_C_C2_LE02_t0.8_s1.wav",
+   "text": "Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người: <|prosody:pause|> Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng.",
+   "f0_ac": 210.5,
+   "f0_yin": 208.7,
+   "dur": 12.84,
+   "gap": 0.74,
+   "syl_s": 3.9,
+   "peak_db": -3.9,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người. Có, nhưng tôi không biết câu trả lời và tôi khá chắc là câu trả lời cũng chẳng quan trọng."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__9__C__C2_LE02__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "sad",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__9_C_C2_LE02_t0.8_s1.wav",
+   "text": "Theo bản ghi thẩm vấn, Williams lặp đi lặp lại: <|prosody:pause|> Tôi muốn giảm thiểu ảnh hưởng lên vợ tôi.",
+   "f0_ac": 208.7,
+   "f0_yin": 208.4,
+   "dur": 6.2,
+   "gap": 0.8,
+   "syl_s": 3.15,
+   "peak_db": -5.2,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Theo bản ghi thẩm vấn, Williams lặp đi lặp lại, tôi muốn giảm thiểu ảnh hưởng lên vợ tôi."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__10__C__C2_LE02__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "fearful",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__10_C_C2_LE02_t0.8_s1.wav",
+   "text": "Để tìm lại cảm giác ban đầu, hắn nâng dần mức độ rủi ro: từ nhà trống, đến đối diện với nạn nhân, đến khống chế nạn nhân, và cuối cùng là nắm giữ quyền sinh tử của một con người.",
+   "f0_ac": 203.4,
+   "f0_yin": 201.2,
+   "dur": 11.56,
+   "gap": 0.68,
+   "syl_s": 3.58,
+   "peak_db": -1.6,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "Để tìm lại cảm giác ban đầu, hắn nâng dần mức độ rủi ro, từ nhà trống, đến đối diện với nạn nhân, đến khống chế nạn nhân, và cuối cùng là nắm giữ quyền sinh tử của một con người."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  },
+  {
+   "key": "P9_C__C2_LE02__11__C__C2_LE02__0.8__s1",
+   "role": "C",
+   "ref": "C2_LE02",
+   "emotion": "neutral",
+   "variant": 1,
+   "path": "D:\\TEST\\Gax\\amber-eyes\\.work\\kaggle_higgs\\out_higgs_v9\\out_higgs_v9\\P9_C__C2_LE02__11_C_C2_LE02_t0.8_s1.wav",
+   "text": "Ngược lại, Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội.",
+   "f0_ac": 207.8,
+   "f0_yin": 200.7,
+   "dur": 3.96,
+   "gap": 0.36,
+   "syl_s": 3.79,
+   "peak_db": -3.1,
+   "asr": [
+    {
+     "rnd": 1,
+     "cer": 0.0,
+     "hyp": "ngược lại, Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ vượt trội."
+    }
+   ],
+   "blocked": false,
+   "cer_r1": 0.0,
+   "cer_min": 0.0,
+   "cer_fail": false
+  }
+ ],
+ "base": [
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 137.1,
+   "f0_yin": 137.8,
+   "dur": 2.4,
+   "gap": 0.0,
+   "syl_s": 4.09,
+   "peak_db": -0.9
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 124.4,
+   "f0_yin": 120.2,
+   "dur": 8.8,
+   "gap": 0.42,
+   "syl_s": 3.07,
+   "peak_db": -1.9
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "fearful",
+   "f0_ac": 106.0,
+   "f0_yin": 106.4,
+   "dur": 3.52,
+   "gap": 0.44,
+   "syl_s": 3.51,
+   "peak_db": -3.3
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 122.4,
+   "f0_yin": 123.1,
+   "dur": 8.16,
+   "gap": 0.38,
+   "syl_s": 3.19,
+   "peak_db": -2.2
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "fearful",
+   "f0_ac": 111.9,
+   "f0_yin": 106.9,
+   "dur": 9.76,
+   "gap": 0.46,
+   "syl_s": 3.8,
+   "peak_db": -2.4
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "fearful",
+   "f0_ac": 130.4,
+   "f0_yin": 130.8,
+   "dur": 3.68,
+   "gap": 0.36,
+   "syl_s": 4.02,
+   "peak_db": -1.5
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 124.7,
+   "f0_yin": 132.2,
+   "dur": 5.08,
+   "gap": 0.36,
+   "syl_s": 3.74,
+   "peak_db": -2.2
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 121.2,
+   "f0_yin": 121.7,
+   "dur": 8.92,
+   "gap": 0.48,
+   "syl_s": 3.03,
+   "peak_db": -1.6
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "fearful",
+   "f0_ac": 108.1,
+   "f0_yin": 113.1,
+   "dur": 9.76,
+   "gap": 0.46,
+   "syl_s": 3.51,
+   "peak_db": -2.3
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 120.3,
+   "f0_yin": 138.0,
+   "dur": 9.84,
+   "gap": 0.7,
+   "syl_s": 3.35,
+   "peak_db": -1.0
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 118.2,
+   "f0_yin": 134.7,
+   "dur": 8.28,
+   "gap": 0.6,
+   "syl_s": 3.2,
+   "peak_db": -1.1
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "sad",
+   "f0_ac": 228.6,
+   "f0_yin": 227.3,
+   "dur": 9.44,
+   "gap": 0.52,
+   "syl_s": 3.77,
+   "peak_db": -3.7
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 110.1,
+   "f0_yin": 116.0,
+   "dur": 2.96,
+   "gap": 0.14,
+   "syl_s": 3.1,
+   "peak_db": -2.1
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 122.8,
+   "f0_yin": 140.5,
+   "dur": 10.24,
+   "gap": 0.36,
+   "syl_s": 3.33,
+   "peak_db": -0.0
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 125.7,
+   "f0_yin": 130.4,
+   "dur": 4.28,
+   "gap": 0.06,
+   "syl_s": 3.79,
+   "peak_db": -1.8
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 124.4,
+   "f0_yin": 138.7,
+   "dur": 9.52,
+   "gap": 0.42,
+   "syl_s": 3.58,
+   "peak_db": -1.0
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 123.7,
+   "f0_yin": 123.3,
+   "dur": 5.92,
+   "gap": 0.4,
+   "syl_s": 2.56,
+   "peak_db": -0.7
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 103.2,
+   "f0_yin": 99.5,
+   "dur": 5.96,
+   "gap": 0.24,
+   "syl_s": 3.58,
+   "peak_db": -1.4
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 122.8,
+   "f0_yin": 124.2,
+   "dur": 5.56,
+   "gap": 0.52,
+   "syl_s": 3.78,
+   "peak_db": -1.7
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "sad",
+   "f0_ac": 203.4,
+   "f0_yin": 202.5,
+   "dur": 10.08,
+   "gap": 0.64,
+   "syl_s": 3.21,
+   "peak_db": -2.1
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "sad",
+   "f0_ac": 112.7,
+   "f0_yin": 112.0,
+   "dur": 8.28,
+   "gap": 0.36,
+   "syl_s": 3.14,
+   "peak_db": -1.9
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "sad",
+   "f0_ac": 218.2,
+   "f0_yin": 220.5,
+   "dur": 13.04,
+   "gap": 0.54,
+   "syl_s": 3.52,
+   "peak_db": -2.4
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "sad",
+   "f0_ac": 115.4,
+   "f0_yin": 128.4,
+   "dur": 8.36,
+   "gap": 0.38,
+   "syl_s": 3.96,
+   "peak_db": -3.0
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 129.0,
+   "f0_yin": 151.7,
+   "dur": 3.52,
+   "gap": 0.08,
+   "syl_s": 4.14,
+   "peak_db": -1.0
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 137.9,
+   "f0_yin": 138.7,
+   "dur": 5.12,
+   "gap": 0.42,
+   "syl_s": 3.12,
+   "peak_db": -0.4
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 111.1,
+   "f0_yin": 112.6,
+   "dur": 10.0,
+   "gap": 0.48,
+   "syl_s": 3.5,
+   "peak_db": -1.9
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "fearful",
+   "f0_ac": 107.4,
+   "f0_yin": 126.5,
+   "dur": 4.32,
+   "gap": 0.52,
+   "syl_s": 3.73,
+   "peak_db": -2.3
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 131.1,
+   "f0_yin": 135.3,
+   "dur": 3.48,
+   "gap": 0.06,
+   "syl_s": 4.19,
+   "peak_db": -3.7
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 125.0,
+   "f0_yin": 126.2,
+   "dur": 5.16,
+   "gap": 0.38,
+   "syl_s": 3.17,
+   "peak_db": -1.3
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 112.7,
+   "f0_yin": 123.1,
+   "dur": 4.04,
+   "gap": 0.3,
+   "syl_s": 3.27,
+   "peak_db": -1.0
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 120.6,
+   "f0_yin": 125.4,
+   "dur": 3.52,
+   "gap": 0.14,
+   "syl_s": 4.09,
+   "peak_db": -0.2
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "fearful",
+   "f0_ac": 102.6,
+   "f0_yin": 107.3,
+   "dur": 9.16,
+   "gap": 0.42,
+   "syl_s": 3.52,
+   "peak_db": -1.7
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 117.1,
+   "f0_yin": 120.5,
+   "dur": 4.44,
+   "gap": 0.22,
+   "syl_s": 3.86,
+   "peak_db": -1.7
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 107.9,
+   "f0_yin": 120.4,
+   "dur": 3.0,
+   "gap": 0.22,
+   "syl_s": 3.68,
+   "peak_db": -0.0
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "sad",
+   "f0_ac": 220.2,
+   "f0_yin": 220.1,
+   "dur": 12.12,
+   "gap": 0.54,
+   "syl_s": 3.52,
+   "peak_db": -4.9
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "surprised",
+   "f0_ac": 118.8,
+   "f0_yin": 118.4,
+   "dur": 6.0,
+   "gap": 0.36,
+   "syl_s": 3.68,
+   "peak_db": -1.5
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 107.6,
+   "f0_yin": 129.4,
+   "dur": 7.52,
+   "gap": 0.64,
+   "syl_s": 3.19,
+   "peak_db": -1.3
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "neutral",
+   "f0_ac": 125.0,
+   "f0_yin": 129.6,
+   "dur": 11.44,
+   "gap": 0.32,
+   "syl_s": 3.62,
+   "peak_db": -0.1
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "sad",
+   "f0_ac": 214.3,
+   "f0_yin": 212.9,
+   "dur": 6.76,
+   "gap": 0.52,
+   "syl_s": 3.79,
+   "peak_db": -5.1
+  },
+  {
+   "role": "H",
+   "ref": "PROD_H",
+   "emotion": "surprised",
+   "f0_ac": 175.2,
+   "f0_yin": 178.8,
+   "dur": 3.64,
+   "gap": 0.5,
+   "syl_s": 3.74,
+   "peak_db": -1.8
+  },
+  {
+   "role": "N1",
+   "ref": "PROD_W6_LOW",
+   "emotion": "neutral",
+   "f0_ac": 177.8,
+   "f0_yin": 178.2,
+   "dur": 5.76,
+   "gap": 0.48,
+   "syl_s": 3.65,
+   "peak_db": -4.3
+  },
+  {
+   "role": "N1",
+   "ref": "PROD_W6_LOW",
+   "emotion": "neutral",
+   "f0_ac": 186.0,
+   "f0_yin": 185.0,
+   "dur": 7.84,
+   "gap": 0.54,
+   "syl_s": 3.58,
+   "peak_db": -3.7
+  },
+  {
+   "role": "N1",
+   "ref": "PROD_W6_LOW",
+   "emotion": "neutral",
+   "f0_ac": 179.1,
+   "f0_yin": 178.5,
+   "dur": 7.64,
+   "gap": 0.6,
+   "syl_s": 3.8,
+   "peak_db": -3.8
+  },
+  {
+   "role": "N1",
+   "ref": "PROD_W6_LOW",
+   "emotion": "neutral",
+   "f0_ac": 175.2,
+   "f0_yin": 173.4,
+   "dur": 5.68,
+   "gap": 0.48,
+   "syl_s": 4.04,
+   "peak_db": -5.2
+  },
+  {
+   "role": "N1",
+   "ref": "PROD_W6_LOW",
+   "emotion": "neutral",
+   "f0_ac": 179.1,
+   "f0_yin": 177.8,
+   "dur": 5.64,
+   "gap": 0.3,
+   "syl_s": 3.74,
+   "peak_db": -4.3
+  },
+  {
+   "role": "N1",
+   "ref": "PROD_W6_LOW",
+   "emotion": "neutral",
+   "f0_ac": 184.6,
+   "f0_yin": 181.0,
+   "dur": 7.52,
+   "gap": 0.34,
+   "syl_s": 3.83,
+   "peak_db": -3.5
+  },
+  {
+   "role": "N1",
+   "ref": "PROD_W6_LOW",
+   "emotion": "neutral",
+   "f0_ac": 175.2,
+   "f0_yin": 175.3,
+   "dur": 7.52,
+   "gap": 0.48,
+   "syl_s": 3.88,
+   "peak_db": -4.6
+  },
+  {
+   "role": "N1",
+   "ref": "PROD_W6_LOW",
+   "emotion": "neutral",
+   "f0_ac": 176.5,
+   "f0_yin": 175.6,
+   "dur": 5.32,
+   "gap": 0.52,
+   "syl_s": 3.99,
+   "peak_db": -4.8
+  },
+  {
+   "role": "N2",
+   "ref": "PROD_W5_HIGH",
+   "emotion": "surprised",
+   "f0_ac": 311.7,
+   "f0_yin": 313.9,
+   "dur": 6.0,
+   "gap": 0.38,
+   "syl_s": 3.35,
+   "peak_db": -1.4
+  },
+  {
+   "role": "N2",
+   "ref": "PROD_W5_HIGH",
+   "emotion": "surprised",
+   "f0_ac": 307.7,
+   "f0_yin": 318.1,
+   "dur": 7.16,
+   "gap": 0.28,
+   "syl_s": 3.6,
+   "peak_db": -2.0
+  },
+  {
+   "role": "N2",
+   "ref": "PROD_W5_HIGH",
+   "emotion": "surprised",
+   "f0_ac": 300.0,
+   "f0_yin": 303.3,
+   "dur": 6.0,
+   "gap": 0.26,
+   "syl_s": 3.38,
+   "peak_db": -1.3
+  },
+  {
+   "role": "N2",
+   "ref": "PROD_W5_HIGH",
+   "emotion": "fearful",
+   "f0_ac": 296.3,
+   "f0_yin": 302.6,
+   "dur": 8.44,
+   "gap": 0.36,
+   "syl_s": 4.08,
+   "peak_db": -3.3
+  },
+  {
+   "role": "N2",
+   "ref": "PROD_W5_HIGH",
+   "emotion": "surprised",
+   "f0_ac": 333.3,
+   "f0_yin": 339.0,
+   "dur": 5.64,
+   "gap": 0.34,
+   "syl_s": 3.38,
+   "peak_db": -2.2
+  },
+  {
+   "role": "N2",
+   "ref": "PROD_W5_HIGH",
+   "emotion": "surprised",
+   "f0_ac": 324.3,
+   "f0_yin": 330.1,
+   "dur": 7.04,
+   "gap": 0.42,
+   "syl_s": 3.69,
+   "peak_db": -1.7
+  },
+  {
+   "role": "N2",
+   "ref": "PROD_W5_HIGH",
+   "emotion": "surprised",
+   "f0_ac": 320.0,
+   "f0_yin": 325.5,
+   "dur": 6.24,
+   "gap": 0.2,
+   "syl_s": 3.44,
+   "peak_db": -0.9
+  },
+  {
+   "role": "N2",
+   "ref": "PROD_W5_HIGH",
+   "emotion": "fearful",
+   "f0_ac": 285.7,
+   "f0_yin": 291.3,
+   "dur": 9.36,
+   "gap": 0.38,
+   "syl_s": 3.68,
+   "peak_db": -0.3
+  }
+ ]
+}

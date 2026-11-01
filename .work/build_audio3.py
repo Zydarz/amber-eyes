@@ -9,6 +9,7 @@ Outputs
 """
 import json
 import os
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -312,6 +313,23 @@ def main():
                     str(ED.w("audio_master.wav"))], check=True)
     subprocess.run([str(FF), "-y", "-v", "error", "-i", str(ED.w("audio_master.wav")),
                     "-c:a", "libmp3lame", "-b:a", "192k", str(OUT_DIR / (ED.MASTER + ".mp3"))], check=True)
+    # loudnorm linear khong ep duoc TP khi am co dinh nhon (Tap 03: wav -1,2 / mp3 -1,0 dBFS).
+    # Chi khi mp3 vuot -1,5 dBFS: gioi han dinh -2,5 dBFS roi nen lai. Tap dat san giu nguyen.
+    def true_peak(path):
+        e = subprocess.run([str(FF), "-hide_banner", "-nostats", "-i", str(path), "-af", "ebur128=peak=true",
+                            "-f", "null", "-"], capture_output=True, text=True, encoding="utf-8", errors="replace").stderr
+        return float(re.findall(r"Peak:\s+(-?[\d.]+) dBFS", e)[-1])
+    mp3 = OUT_DIR / (ED.MASTER + ".mp3")
+    tp = true_peak(mp3)
+    if tp > -1.5:
+        print(f"  dinh that mp3 {tp:.1f} dBFS > -1,5 -> gioi han dinh -2,5 dBFS")
+        lim = ED.w("audio_master_lim.wav")
+        subprocess.run([str(FF), "-y", "-v", "error", "-i", str(ED.w("audio_master.wav")), "-af",
+                        "alimiter=limit=0.75:attack=1:release=50:level=false:asc=1", str(lim)], check=True)
+        os.replace(lim, ED.w("audio_master.wav"))
+        subprocess.run([str(FF), "-y", "-v", "error", "-i", str(ED.w("audio_master.wav")),
+                        "-c:a", "libmp3lame", "-b:a", "192k", str(mp3)], check=True)
+        print(f"  dinh that mp3 sau gioi han: {true_peak(mp3):.1f} dBFS")
 
     # ---------------- 6. stems (16 kHz is enough for waveforms)
     sd = ED.w("stems")

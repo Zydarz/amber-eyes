@@ -1,0 +1,37 @@
+======================================================================================================================
+PILOT v9 — F0 CLONE (AC / YIN) · toc do · lang · G8 · CER
+======================================================================================================================
+Vai  Clip           n  F0_ac F0_yin  am/s lang>0.3  G8 nc  CER tb CER loi chan  F0 theo cam xuc
+C    C2_AB03       24  209.6  211.6  4.03   11/24    0.48    2.12       8    0  neutral=211.6 sad=212.6 fearful=206.8
+D    D3_BG         24   91.2   91.1  4.02   24/24   11.70    3.09      11    0  neutral=89.0 sad=139.7 fearful=93.3 surprised=174.9
+D    D3_LG         24   92.2   93.3  3.99   20/24    8.41    2.43       9    0  neutral=91.8 sad=102.4 fearful=96.7 surprised=149.2
+D    D3_SH         24   88.6   89.2  4.04   22/24   12.47     1.7       3    0  neutral=85.9 sad=96.7 fearful=90.8 surprised=176.5
+H    PROD_H        40  122.6  127.5  3.55   30/40   11.40       -       -    -  neutral=126.2 fearful=110.2 sad=212.9 surprised=148.6
+N1   PROD_W6_LOW    8  178.4  178.0  3.81    7/8     0.00       -       -    -  neutral=178.0
+N2   PROD_W5_HIGH   8  309.7  316.0  3.52    5/8     1.39       -       -    -  surprised=321.8 fearful=297.0
+
+======================================================================================================================
+G9 — MOI cap vai (ke ca khac gioi). DAT khi min(AC, YIN) >= 4 nua cung
+======================================================================================================================
+  D:D3_SH      <-> H:PROD_H         5.62 nc  DAT
+  D:D3_SH      <-> N1:PROD_W6_LOW   11.96 nc  DAT
+  D:D3_SH      <-> N2:PROD_W5_HIGH  21.67 nc  DAT
+  D:D3_SH      <-> C:C2_AB03       14.91 nc  DAT
+  D:D3_BG      <-> H:PROD_H         5.12 nc  DAT
+  D:D3_BG      <-> N1:PROD_W6_LOW   11.60 nc  DAT
+  D:D3_BG      <-> N2:PROD_W5_HIGH  21.17 nc  DAT
+  D:D3_BG      <-> C:C2_AB03       14.41 nc  DAT
+  D:D3_LG      <-> H:PROD_H         4.93 nc  DAT
+  D:D3_LG      <-> N1:PROD_W6_LOW   11.18 nc  DAT
+  D:D3_LG      <-> N2:PROD_W5_HIGH  20.98 nc  DAT
+  D:D3_LG      <-> C:C2_AB03       14.18 nc  DAT
+  C:C2_AB03    <-> H:PROD_H         8.77 nc  DAT
+  C:C2_AB03    <-> N1:PROD_W6_LOW    2.79 nc  TRUOT
+  C:C2_AB03    <-> N2:PROD_W5_HIGH   6.76 nc  DAT
+
+======================================================================================================================
+TO HOP D x C (H = PROD_H, N1/N2 = san xuat). Bien = cap gan nhat
+======================================================================================================================
+  D=D3_SH    C=C2_AB03  bien  2.79 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do
+  D=D3_BG    C=C2_AB03  bien  2.79 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do
+  D=D3_LG    C=C2_AB03  bien  2.79 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do

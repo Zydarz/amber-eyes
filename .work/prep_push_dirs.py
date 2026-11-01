@@ -8,6 +8,7 @@ LUU Y: `id` trong kernel-metadata.json PHAI khop slug that, neu khong
 `kaggle kernels push` tra 409 Conflict.
 """
 import json
+import os
 import pathlib
 import shutil
 import sys
@@ -16,7 +17,9 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 HERE = pathlib.Path(__file__).resolve().parent        # .work/
 KG = HERE / "kaggle_higgs"
 
-DATASET = "chiduong2026/amber-eyes-voice-ref-voxcpm2"
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import higgs_paths as P  # noqa: E402  (AE_LANG=en -> dataset ...-voxcpm2-en, §4.4)
+DATASET = P.DATASET
 
 KERNELS = {
     "pilot_v6": {
@@ -48,6 +51,19 @@ KERNELS = {
         "nb": "higgs_pilot_v8_kaggle.ipynb",
         "dir": "_push_v8",
     },
+    "v9": {
+        # slug phai khop slug Kaggle TU SINH tu title
+        "slug": "chiduong2026/amber-eyes-higgs-v9-voice-dc-kaggle-gpu",
+        "title": "Amber Eyes Higgs v9 voice DC Kaggle GPU",
+        "nb": "higgs_pilot_v9_kaggle.ipynb",
+        "dir": "_push_v9",
+    },
+    "v10": {
+        "slug": "chiduong2026/amber-eyes-higgs-v10-voice-d3-kaggle-gpu",
+        "title": "Amber Eyes Higgs v10 voice D3 Kaggle GPU",
+        "nb": "higgs_pilot_v10_kaggle.ipynb",
+        "dir": "_push_v10",
+    },
     "prod": {
         "slug": "chiduong2026/amber-eyes-higgs-prod-t02-kaggle-gpu",
         "title": "Amber Eyes Higgs prod T02 Kaggle GPU",
@@ -61,6 +77,27 @@ KERNELS = {
         "dir": "_push_r2",
     },
 }
+
+# Tap khac Tap 02 (L8): AE_EP=03 [AE_ACT=3] -> kernel rieng cua tap, khong de len kernel Tap 02.
+# Slug Kaggle sinh tu title: "Amber Eyes Higgs prod T03 Kaggle GPU" -> amber-eyes-higgs-prod-t03-kaggle-gpu
+_EPN, _ACT = P.EPN, P.ACT
+_LT = P.LANG.upper() + " " if P.FOREIGN else ""                   # ban EN: "...prod-en-t02-..."
+if P.SFX:
+    _sfx = P.SFX
+    _tag = "%sT%s%s" % (_LT, _EPN, " A" + _ACT if _ACT else "")
+    KERNELS["prod"] = {
+        "slug": "chiduong2026/amber-eyes-higgs-prod-%s-kaggle-gpu" % _tag.lower().replace(" ", "-"),
+        "title": "Amber Eyes Higgs prod %s Kaggle GPU" % _tag,
+        "nb": "higgs_prod%s_kaggle.ipynb" % _sfx,
+        "dir": "_push_prod%s" % _sfx,
+    }
+    if not _ACT:
+        KERNELS["r2"] = {
+            "slug": "chiduong2026/amber-eyes-higgs-prod-%st%s-r2-kaggle-gpu" % (_LT.lower().replace(" ", "-"), _EPN),
+            "title": "Amber Eyes Higgs prod %sT%s r2 Kaggle GPU" % (_LT, _EPN),
+            "nb": "higgs_r2%s_kaggle.ipynb" % _sfx,
+            "dir": "_push_r2%s" % _sfx,
+        }
 
 README = """# Amber Eyes — Higgs Audio v3 (Boson AI) tren Kaggle GPU
 
@@ -94,7 +131,7 @@ def build(kind):
         "enable_gpu": True,
         "enable_tpu": False,
         "enable_internet": True,
-        "keywords": ["tts", "higgs-audio-v3", "vietnamese"],
+        "keywords": ["tts", "higgs-audio-v3", {"en": "english", "ja": "japanese"}.get(P.LANG, "vietnamese")],
         "dataset_sources": [DATASET],
         "competition_sources": [],
         "model_sources": [],

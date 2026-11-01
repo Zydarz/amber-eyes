@@ -21,9 +21,15 @@ import sys
 HERE = pathlib.Path(__file__).resolve().parent          # .work/
 ROOT = HERE.parent
 PY = sys.executable
-PROD = HERE / "kaggle_higgs" / "out_higgs_prod"
-AUDIO_OUT = HERE / "audio_s_higgs_t02"
-MASTER_DIR = ROOT / "02_SAN_XUAT" / "Tap02" / "xuat_ban"
+# Tap (L8) + ngon ngu (AE_LANG=en -> Tap02_EN/xuat_ban/Tap02_EN_master.mp3): Tap 02 VN giu ten cu (L9).
+sys.path.insert(0, str(HERE))
+import higgs_paths as P  # noqa: E402
+EPN = P.EPN
+PROD = P.PROD_EP
+AUDIO_OUT = P.AUDIO_OUT
+MASTER_DIR = P.MASTER_DIR
+# so cau cua tap = so item trong payload nguon
+N_SENT = len(json.loads(P.PAYLOAD_SRC.read_text(encoding="utf-8-sig"))["items"])
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -50,25 +56,26 @@ def main():
     ids = {r["id"] for r in ok}
     print("manifest:", man_p)
     print("task OK: %d / %d | cau co it nhat 1 ban: %d" % (len(ok), len(rows), len(ids)))
-    if len(ids) < 203:
-        print("!! chi %d/203 cau co audio — master se thieu. Can chay catch-up." % len(ids))
+    if len(ids) < N_SENT:
+        print("!! chi %d/%d cau co audio — master se thieu. Can chay catch-up." % (len(ids), N_SENT))
 
     # 1. cai audio vao thu muc rieng
+    excl = P.EXCLUDE     # ban lech cao do >= 4 nc (khong uu tien)
     run([PY, HERE / "install_higgs_audio.py", "--dir", man_p.parent,
-         "--out", AUDIO_OUT])
+         "--out", AUDIO_OUT] + (["--exclude", excl] if excl.exists() else []))
     n = len(list(AUDIO_OUT.glob("*.wav")))
     print("\nfile wav da cai:", n)
-    if n < 203:
-        raise SystemExit("!! thieu file audio (%d/203) — dung catch-up truoc" % n)
+    if n < N_SENT:
+        raise SystemExit("!! thieu file audio (%d/%d) — dung catch-up truoc" % (n, N_SENT))
 
     # 2. dung master
     env = os.environ.copy()
-    env["AE_EP"] = "02"
+    env["AE_EP"] = EPN
     env["AE_AUDIO_DIR"] = "audio_s_higgs"
     env["PYTHONIOENCODING"] = "utf-8"
     run([PY, HERE / "build_audio3.py"], env=env)
 
-    mp3 = MASTER_DIR / "Tap02_master.mp3"
+    mp3 = P.MASTER_MP3
     if mp3.exists():
         print("\n== MASTER ==")
         print(mp3, "%.2f MB" % (mp3.stat().st_size / 1e6))

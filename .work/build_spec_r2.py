@@ -14,30 +14,47 @@ Usage:
 """
 import argparse
 import json
+import os
 import pathlib
+import re
 import sys
 from collections import Counter, defaultdict
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 HERE = pathlib.Path(__file__).resolve().parent        # .work/
-DS = HERE / "kaggle_higgs" / "dataset_voxcpm2"
+sys.path.insert(0, str(HERE))
+import higgs_paths as P  # noqa: E402
+# Tap (L8) + ngon ngu (AE_LANG=en, §4.4): file rieng; Tap 02 VN giu ten cu (hoi quy L9).
+EPN = P.EPN
+SFX = P.SFX_EP
+DS = P.DS
 DS.mkdir(parents=True, exist_ok=True)
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--max-cer", type=float, default=0.02)
-ap.add_argument("--rows", default=str(HERE / "higgs_cer_rows_t02.json"))
+ap.add_argument("--rows", default=str(P.CER_ROWS_EP))
 ap.add_argument("--extra", type=int, default=2, help="so ban them toi da")
+ap.add_argument("--ids", default="",
+                help="ma cau ep vao vong nay, cach nhau dau phay (vd. cau da doi chu sau luot truoc)")
+ap.add_argument("--exclude", default=None,
+                help="JSON danh sach file khong tinh la ban tot (vd. lech cao do) — giong install_higgs_audio.py")
 a = ap.parse_args()
 
-ROLE_MAP_RAW = json.loads((HERE / "g9_role_map.json").read_text(encoding="utf-8-sig"))
+ROLE_MAP_RAW = json.loads(P.ROLE_MAP.read_text(encoding="utf-8-sig"))
 ROLE_MAP = {k: v for k, v in ROLE_MAP_RAW.items()
             if not k.startswith("_") and isinstance(v, str) and v.endswith(".wav")}
 print("phan gan vai:", ROLE_MAP)
+for _clip in ROLE_MAP.values():
+    P.check_ref_lang(_clip)
+# cung co voi build_spec.py: `_emotion_tags: false` -> bo the <|emotion:...|> (giu <|prosody:pause|>)
+EMOTION_TAGS_OFF = ROLE_MAP_RAW.get("_emotion_tags") is False
+RE_EMOTION_TAG = re.compile(r"<\|emotion:[^|]+\|>\s*")
+print("the cam xuc:", "BO" if EMOTION_TAGS_OFF else "giu")
 
-payload_src = json.loads((HERE / "kaggle_higgs" / "higgs_payload_t02.json").read_text(encoding="utf-8-sig"))
+payload_src = json.loads(P.PAYLOAD_SRC.read_text(encoding="utf-8-sig"))
 ITEMS_SRC = payload_src["items"]
 
-spec_p = DS / "prod_spec.json"
+spec_p = DS / ("prod_spec%s.json" % SFX)
 spec1 = json.loads(spec_p.read_text(encoding="utf-8-sig")) if spec_p.exists() else {}
 V_BY_ITEM_1 = spec1.get("variants_by_item", {})
 VARIANTS_1 = spec1.get("variants", [0, 1])
@@ -52,10 +69,13 @@ for r in rows:
     if r.get("cer_ok") is not None:
         by_id[r["id"]].append(r)
 
+EXCL = set(json.loads(pathlib.Path(a.exclude).read_text(encoding="utf-8"))) if a.exclude else set()
 bad = []
 for sid, v in sorted(by_id.items()):
-    cs = [x["cer"] for x in v if x.get("cer") is not None]
-    if not cs:
+    cs = [x["cer"] for x in v if x.get("cer") is not None and x["file"] not in EXCL]
+    if not cs:              # moi ban deu bi loai (lech cao do) -> van phai vao vong 2
+        if v and EXCL:
+            bad.append((sid, 9.99, len(v)))
         continue
     best = min(cs)          # dung bai tot nhat cua cau
     if best > a.max_cer:
@@ -65,6 +85,10 @@ print("cau co du lieu CER: %d | trượt > %.0f%%: %d" % (len(by_id), 100 * a.ma
 for sid, c, n in bad:
     print("   %-12s CER tot nhat %.1f%% (%d ban)" % (sid, 100 * c, n))
 
+FORCE = [x.strip() for x in a.ids.split(",") if x.strip()]
+for sid in FORCE:
+    if sid not in {b[0] for b in bad}:
+        bad.append((sid, 9.99, len(by_id.get(sid, []))))
 if not bad:
     raise SystemExit("khong co cau nao trượt -> khong can vong 2")
 
@@ -77,16 +101,20 @@ for sid, c, n in bad:
     if src is None:
         print("!! khong tim thay cau %s trong payload" % sid)
         continue
-    have = list(V_BY_ITEM_1.get(sid, VARIANTS_1))
+    # tinh ca cac ban da sinh o vong truoc (co trong bang CER) -> khong trung ten file
+    have = list(V_BY_ITEM_1.get(sid, VARIANTS_1)) + [x["variant"] for x in by_id.get(sid, [])]
     new_v = [max(have) + 1 + i for i in range(a.extra)]
     variants_by_item[sid] = new_v
     p = dict(src)
+    if EMOTION_TAGS_OFF:
+        p["text"] = RE_EMOTION_TAG.sub("", p["text"]).strip()
+        p["emotion_tag"] = ""
     p["ref_wav"] = ROLE_MAP[p["role"]]
     p["ref_txt"] = p["ref_wav"].replace(".wav", ".txt")
     r2_items.append(p)
 
 r2_spec = {
-    "episode": "02",
+    "episode": EPN,
     "mode": "prod_r2",
     "purpose": "§7 — sinh them %d ban cho %d cau trượt CER > %.0f%%" % (
         a.extra, len(r2_items), 100 * a.max_cer),
@@ -102,22 +130,22 @@ r2_spec = {
     "items": [it["id"] for it in r2_items],
 }
 r2_payload = {
-    "episode": payload_src.get("episode", "02"),
+    "episode": payload_src.get("episode", EPN),
     "lang": payload_src.get("lang", "vi"),
     "model": payload_src.get("model", "bosonai/higgs-tts-3-4b"),
-    "ref_dir": payload_src.get("ref_dir", "/kaggle/input/amber-eyes-voice-ref-voxcpm2"),
+    "ref_dir": payload_src.get("ref_dir", P.REF_DIR),
     "role_ref": {r: {"wav": w, "txt": w.replace(".wav", ".txt")}
                  for r, w in ROLE_MAP.items()},
     "items": r2_items,
 }
 
-(DS / "prod_spec_r2.json").write_text(
+(DS / ("prod_spec_r2%s.json" % SFX)).write_text(
     json.dumps(r2_spec, ensure_ascii=False, indent=1), encoding="utf-8")
-(DS / "higgs_payload_r2.json").write_text(
+(DS / ("higgs_payload_r2%s.json" % SFX)).write_text(
     json.dumps(r2_payload, ensure_ascii=False, indent=1), encoding="utf-8")
 
 n_files = sum(len(v) for v in variants_by_item.values())
 print("\nvong 2: %d cau | %d file" % (len(r2_items), n_files))
 print("theo vai:", dict(Counter(it["role"] for it in r2_items)))
-print("-> ", DS / "prod_spec_r2.json")
-print("-> ", DS / "higgs_payload_r2.json")
+print("-> ", DS / ("prod_spec_r2%s.json" % SFX))
+print("-> ", DS / ("higgs_payload_r2%s.json" % SFX))

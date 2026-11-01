@@ -1,0 +1,17 @@
+the emotion con trong text gui Higgs: 0
+vai    n   neutral AC/YIN   theo cam xuc (YIN)          file lech>=4nc so neutral
+C    100   206.9/  209.2   neutral=209 fearful=213 sad=213   0/100
+D    109    87.9/   88.3   neutral=88 surprised=88 sad=89 fearful=88   1/109
+H    191   122.1/  127.7   neutral=128 fearful=124 sad=125 surprised=116   3/191
+N1     8   178.4/  178.0   neutral=178   0/8
+N2     8   287.4/  290.1   surprised=295 fearful=286   0/8
+
+G9 (neutral, min 2 thuat toan):
+  H-D:  5.69 nc
+  H-C:  8.54 nc
+  D-C: 14.82 nc
+  C-N1:  2.56 nc
+  C-N2:  5.66 nc
+  H-N1:  5.75 nc
+  H-N2: 14.20 nc
+  D-N1: 12.14 nc

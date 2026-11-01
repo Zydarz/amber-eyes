@@ -13,6 +13,7 @@ Output: .work/audio_s_higgs_t02/*.wav
 """
 import argparse
 import json
+import os
 import pathlib
 import shutil
 import sys
@@ -22,12 +23,18 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 HERE = pathlib.Path(__file__).resolve().parent        # .work/
 ROOT = HERE.parent
 
+# Tap (L8) + ngon ngu (AE_LANG=en): file rieng; Tap 02 VN giu ten cu (hoi quy L9).
+sys.path.insert(0, str(HERE))
+import higgs_paths as P  # noqa: E402
+EPN = P.EPN
 ap = argparse.ArgumentParser()
-ap.add_argument("--dir", default=str(HERE / "kaggle_higgs" / "out_higgs_prod" / "out_higgs_prod"))
-ap.add_argument("--cer", default=str(HERE / "higgs_cer_rows_t02.json"))
-ap.add_argument("--out", default=str(HERE / "audio_s_higgs_t02"))
+ap.add_argument("--dir", default=str(P.PROD_EP / P.PROD_EP.name))
+ap.add_argument("--cer", default=str(P.CER_ROWS_EP))
+ap.add_argument("--out", default=str(P.AUDIO_OUT))
 ap.add_argument("--max-cer", type=float, default=0.02)
 ap.add_argument("--no-copy", action="store_true", help="chi tinh, khong ghi file")
+ap.add_argument("--exclude", default=None,
+                help="JSON danh sach ten file KHONG uu tien (vd. lech cao do >= 4 nc); van dung neu cau khong con ban khac")
 a = ap.parse_args()
 
 WAVDIR = pathlib.Path(a.dir)
@@ -36,7 +43,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 
 man_p = WAVDIR / "higgs_manifest.json"
 if not man_p.exists():
-    cands = sorted((HERE / "kaggle_higgs" / "out_higgs_prod").rglob("higgs_manifest.json"))
+    cands = sorted(P.PROD_EP.rglob("higgs_manifest.json"))
     if not cands:
         raise SystemExit("khong tim thay manifest san xuat")
     man_p = cands[0]
@@ -61,20 +68,24 @@ for r in rows:
     by_id[r["id"]].append(r)
 
 # ten file cua manifest MiniMax (gia dung ten de build_audio3 tim thay)
-tman_p = HERE / "tts_manifest_t02.json"
+tman_p = P.TTS_MANIFEST
 stem_of = {}
 if tman_p.exists():
     for m in json.loads(tman_p.read_text(encoding="utf-8")):
         stem_of[m["id"]] = pathlib.Path(m["file"]).stem
 else:
-    print("!! khong co tts_manifest_t02.json => dung ten id lam ten file")
+    print("!! khong co %s => dung ten id lam ten file" % tman_p.name)
+
+EXCL = set(json.loads(pathlib.Path(a.exclude).read_text(encoding="utf-8"))) if a.exclude else set()
+if EXCL:
+    print("loai uu tien:", len(EXCL), "file")
 
 sel = {}
 bad = []
 for sid, v in sorted(by_id.items()):
     def key(r):
         c = cer_by_file.get(r["file"])
-        return (c if c is not None else 9.9, r.get("variant", 0))
+        return (r["file"] in EXCL, c if c is not None else 9.9, r.get("variant", 0))
     v2 = sorted(v, key=key)
     win = v2[0]
     c = cer_by_file.get(win["file"])
@@ -100,7 +111,7 @@ if not a.no_copy:
     for sid, s in sel.items():
         src = WAVDIR / s["src_file"]
         if not src.exists():
-            cands = list((HERE / "kaggle_higgs" / "out_higgs_prod").rglob(s["src_file"]))
+            cands = list(P.PROD_EP.rglob(s["src_file"]))
             if not cands:
                 print("!! thieu file:", s["src_file"])
                 continue
@@ -109,7 +120,7 @@ if not a.no_copy:
         n += 1
     print("da cai %d file -> %s" % (n, OUT))
 
-out_p = HERE / "higgs_selection_t02.json"
+out_p = P.SELECTION
 out_p.write_text(json.dumps({
     "source_manifest": str(man_p),
     "out_dir": str(OUT),

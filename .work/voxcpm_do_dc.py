@@ -1,10 +1,10 @@
-import sys, json
+import sys, json, os
 from pathlib import Path
 sys.path.insert(0, r"D:\TEST\Gax\amber-eyes\.work")
 import voxcpm_do_mau as M
-M.F0_TARGET.update({"D_NEW": (82, 95), "C_NEW": (200, 218), "H": (100, 115)})
+M.F0_TARGET.update({"D_NEW": (82, 95), "C_NEW": (200, 218), "H": (100, 115), "D_NEW3": (78, 88)})
 use_asr = "--asr" in sys.argv
-D = M.ROOT / "assets" / "voice_ref_voxcpm2_dc"
+D = M.ROOT / "assets" / os.environ.get("DC_DIR","voice_ref_voxcpm2_dc")
 refs = json.loads((D / "refs.json").read_text(encoding="utf-8"))
 rows = []
 KEEP = set(a for a in sys.argv[2:] if not a.startswith("--"))

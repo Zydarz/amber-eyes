@@ -1,0 +1,42 @@
+{
+ "dur|Tap02_EN_master.mp3|1793494732|33428204": 1392.79,
+ "dur|Tap02_EN_master.mp4|1793501918|503893749": 1392.766667,
+ "lufs|Tap02_EN_master.mp3|1793494732|33428204": [
+  -16.2,
+  -1.7
+ ],
+ "lufs|Tap02_EN_master.mp4|1793501918|503893749": [
+  -16.0,
+  -1.7
+ ],
+ "probe|Tap02_EN_master.mp4|1793501918|503893749": {
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+   {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "nb_frames": "41783"
+   },
+   {
+    "codec_name": "aac",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "r_frame_rate": "0/0",
+    "nb_frames": "65286"
+   }
+  ],
+  "format": {
+   "duration": "1392.766667",
+   "size": "503893749",
+   "bit_rate": "2894346"
+  }
+ },
+ "sil|Tap02_EN_master.mp4|1793501918|503893749": 0,
+ "dec|Tap02_EN_master.mp4|1793501918|503893749": "",
+ "sil|Tap02_EN_master.mp3|1793494732|33428204": 0
+}

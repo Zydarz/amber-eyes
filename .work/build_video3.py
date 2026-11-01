@@ -242,6 +242,19 @@ def gradient_bottom(frac=0.45, alpha=180):
     return g
 
 
+def soft_scrim(x, y0, y1, w, alpha=170, feather=64):
+    """Lop toi MEM (vien mo) de chu trang khong bi 'chim' khi nen sang (H9).
+
+    Ve bang Pillow (H5) - khong dung AI ve chu.
+    """
+    mask = Image.new("L", (W, H), 0)
+    ImageDraw.Draw(mask).rectangle([x, y0, x + w, y1], fill=alpha)
+    mask = mask.filter(ImageFilter.GaussianBlur(feather))
+    g = Image.new("RGBA", (W, H), (8, 8, 10, 0))
+    g.putalpha(mask)
+    return g
+
+
 GRAD = None
 DARK70 = None
 
@@ -276,6 +289,7 @@ def build_elements(shot):
 
     if T in ("T1", None):
         els.append(El(GRAD, 0, 0, st - 10, fade=0, rise=0))
+        seg_imgs = []
         for t, sg in zip(times, segs):
             lab, head, quo = split_elems(sg["elems"])
             spec = []
@@ -288,9 +302,16 @@ def build_elements(shot):
             for lb in lab[1:] if (lab and (not head or sg["elems"][0][0] == "ital")) else lab:
                 spec.append((lb, F_SUB(34), C["muted"], 6))
             img = text_block(spec, 1180 if x_left < 200 else 1240)
+            seg_imgs.append(img)
             # stack segments upward from y=900
             els.append(("stack", t, img))
         els = stack_bottom(els, x_left, 900)
+        if shot["id"] in ED.EP.get("text_scrim", []):
+            # H9: nen sang o dai chu -> lop toi mem dung khoi chu (Pillow, H5)
+            tot = sum(i.height for i in seg_imgs) + 18 * max(0, len(seg_imgs) - 1)
+            wid = max((i.width for i in seg_imgs), default=1180)
+            els.insert(1, El(soft_scrim(x_left - 30, 900 - tot - 30, 900 + 34, wid + 60),
+                             0, 0, st - 10, fade=0, rise=0))
 
     elif T == "T2":
         els += t2_card(shot, times, col)
@@ -301,6 +322,16 @@ def build_elements(shot):
         els += t4_quote(shot, times, col)
     elif T == "T5":
         els.append(El(DARK70 if shot["variant"] != "date" else GRAD, 0, 0, st - 10, fade=0, rise=0))
+        if shot["id"] in ED.EP.get("text_scrim", []):
+            # H9: nen sang o dai chu -> do bề rộng chu thật roi lop toi mem
+            X5 = 560 if bust_visible_at(st + 0.5) else 140
+            wmax = 900
+            for sg in shot["segments"]:
+                for k, v in sg["elems"]:
+                    if k == "bold":
+                        bb = ImageDraw.Draw(Image.new("L", (4, 4))).textbbox((0, 0), v, font=F_MONO(150))
+                        wmax = max(wmax, bb[2] - bb[0])
+            els.append(El(soft_scrim(X5 - 30, 360, 800, wmax + 70), 0, 0, st - 10, fade=0, rise=0))
         els += t5_number(shot, times, col)
     elif T == "T6":
         els.append(El(DARK70, 0, 0, st - 10, fade=0, rise=0))

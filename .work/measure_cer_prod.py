@@ -13,6 +13,7 @@ Usage:
   python .work/measure_cer_prod.py --rounds 2     # 2 luot (dung de chot §7)
 """
 import argparse
+import os
 import json
 import pathlib
 import re
@@ -28,16 +29,32 @@ sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(ROOT))
 
 from voice_audition import cer, norm  # noqa: E402  (giữ để tương thích, không dùng cho CER chính)
-import vi_cer  # noqa: E402
+import higgs_paths as P  # noqa: E402
+# AE_LANG=en -> chuan hoa tieng Anh (en_cer, cung giao dien); ten bien giu "vi_cer" de khong doi code duoi
+if P.EN:
+    import en_cer as vi_cer  # noqa: E402
+elif P.JA:
+    import ja_cer as vi_cer  # noqa: E402  (so tren cach doc hiragana, pykakasi)
+else:
+    import vi_cer  # noqa: E402
 
-CACHE = HERE / "kaggle_higgs" / "_asr_cache_prod"
+# Tap (L8) + ngon ngu: AE_EP=03 [AE_ACT=3] [AE_LANG=en] -> cache/out/bao cao rieng; Tap 02 VN ten cu.
+# Cache PHAI rieng moi tap + ngon ngu: ten file wav (3_05_1__v0.wav) trung giua cac tap (§11).
+EPN, ACT = P.EPN, P.ACT
+SFX = P.SFX
+TAG = P.TAG
+ASR_PROMPT = ("Transcribe verbatim in English, do not add or omit anything." if P.EN
+              else "日本語でそのまま書き起こしてください。追加も省略もしないでください。" if P.JA
+              else "Chép lại nguyên văn bằng tiếng Việt, không thêm bớt.")
+PROD_DIR = HERE / "kaggle_higgs" / ("out_higgs_prod" + SFX)
+CACHE = HERE / "kaggle_higgs" / ("_asr_cache_prod" + SFX)
 CACHE.mkdir(parents=True, exist_ok=True)
-OUT_ROWS = HERE / "higgs_cer_rows_t02.json"
-OUT_REP = HERE / "higgs_cer_report_t02.md"
+OUT_ROWS = HERE / ("higgs_cer_rows_%s.json" % TAG)
+OUT_REP = HERE / ("higgs_cer_report_%s.md" % TAG)
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--rounds", type=int, default=1)
-ap.add_argument("--dir", default=str(HERE / "kaggle_higgs" / "out_higgs_prod" / "out_higgs_prod"))
+ap.add_argument("--dir", default=str(PROD_DIR / ("out_higgs_prod" + SFX)))
 ap.add_argument("--workers", type=int, default=6)
 a = ap.parse_args()
 ROUNDS = a.rounds
@@ -47,7 +64,7 @@ WAVDIR = pathlib.Path(a.dir)
 # DUNG module dung chung `.work/vi_cer.py` — ban sao rieng trong file nay da TUNG SAI
 # (`divmod(n, 1000)` thay vi `divmod(n, 100)`) => vỡ với số >= 100 va doc sai nam
 # (2009 -> "khong tram chin"). `vi_cer.selfcheck()` kiem tra khop 100% voi pipeline.
-vi_numbers = vi_cer.vi_numbers
+vi_numbers = vi_cer.en_numbers if P.EN else vi_cer.ja_numbers if P.JA else vi_cer.vi_numbers
 
 
 # ------------------------------------------------------------------ ASR
@@ -73,7 +90,7 @@ def asr(path, rnd):
     af = CACHE / f"{path.stem}__r{rnd}.args.json"
     af.write_text(json.dumps(
         {"audio_info": {"url": url, "mime_type": "audio/wav",
-                        "prompt": "Chép lại nguyên văn bằng tiếng Việt, không thêm bớt."}},
+                        "prompt": ASR_PROMPT}},
         ensure_ascii=False), encoding="utf-8")
     res = mcode(["connector", "call", "connector__matrix__listen_audio",
                  "--args-file", str(af)])
@@ -85,7 +102,7 @@ def asr(path, rnd):
 def main():
     man_p = WAVDIR / "higgs_manifest.json"
     if not man_p.exists():
-        cands = sorted((HERE / "kaggle_higgs" / "out_higgs_prod").rglob("higgs_manifest.json"))
+        cands = sorted(PROD_DIR.rglob("higgs_manifest.json"))
         if not cands:
             raise SystemExit("khong tim thay manifest san xuat")
         man_p = cands[0]
@@ -98,7 +115,7 @@ def main():
     def work(r):
         p = WAVDIR / r["file"]
         if not p.exists():
-            cands = list((HERE / "kaggle_higgs" / "out_higgs_prod").rglob(r["file"]))
+            cands = list(PROD_DIR.rglob(r["file"]))
             if not cands:
                 r["_missing"] = True
                 return r
@@ -110,7 +127,9 @@ def main():
             except Exception as e:
                 res = {"transcription": "", "error": str(e)[:200]}
             h = res.get("transcription") or res.get("text") or ""
-            if re.search(r"This request was blocked|blocked by|safety", h, re.I):
+            # Chi bat CAU BAO CHAN cua bo loc (Q3b). Chu "safety" tran tung loai nham cau
+            # EN dung "...boundaries of safety..." (Tap 02 EN 5.12#3, 31/10/2026).
+            if re.search(r"This request was blocked|blocked by|blocked due to safety", h, re.I):
                 h = ""
             hyps.append(h)
         r["hyps"] = hyps
@@ -148,7 +167,7 @@ def main():
     for r in rows:
         g[(r["role"], r["ref_wav"], r["temp"])].append(r)
 
-    md = ["# CER lượt sản xuất Tập 02 — Higgs Audio v3", "",
+    md = ["# CER lượt sản xuất Tập %s%s — Higgs Audio v3" % (EPN, " (%s)" % P.LANG.upper() if P.FOREIGN else ""), "",
           f"ASR `listen_audio` **{ROUNDS} lượt/câu**, lấy lượt xấu hơn. "
           f"CER chính thức = `vi_cer.cer_pair` (chuẩn hoá **cả hai vế**, Q3a). "
           f"`cer_pair_nonum` bỏ số · `cer_pair_prop` bỏ danh từ riêng (tách nhiễu ASR khỏi lỗi TTS). "
@@ -199,7 +218,7 @@ def main():
            "| Câu | CER max | số bản |", "|---|---:|---:|"]
     for sid, c, n in sorted(bad, key=lambda x: -x[1]):
         md.append("| %s | %.1f%% | %d |" % (sid, 100 * c, n))
-    md += ["", "**Tổng: %d/%d câu có ít nhất 1 bản vượt 2%.**" % (len(bad), len(by_id))]
+    md += ["", "**Tổng: %d/%d câu có ít nhất 1 bản vượt 2%%.**" % (len(bad), len(by_id))]
 
     OUT_REP.write_text("\n".join(md) + "\n", encoding="utf-8")
     print("\n".join(md))

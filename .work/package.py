@@ -30,10 +30,22 @@ OUT_DIR = ED.OUT_DIR                                       # thành phẩm của
 def mux():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     out = OUT_DIR / (ED.MASTER + ".mp4")
-    subprocess.run([str(FF), "-y", "-v", "error", "-i", str(ED.w("video3") / "picture.mp4"),
-                    "-i", str(ED.w("audio_master.wav")), "-map", "0:v", "-map", "1:a",
-                    "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest",
-                    "-movflags", "+faststart", str(out)], check=True)
+    # A7: trần là -1,5 dBFS. AAC dựng lại true peak vượt trần ~0,1-0,6 dB (bẫy A11 #38)
+    # -> giới hạn đỉnh SAMPLE ở -2 dBFS (0.7943) trước khi mã hoá, đo lại trên chính mp4.
+    # alimiter(level=disabled) chỉ bóp đỉnh, không đổi loudness tổng.
+    # A7 + A11 #64: `latency=1` bu tri do lech cua dong tre cua alimiter
+    # (khong bu = audio lech 4,98 ms so voi hinh + burst full-scale tai 869,496 s).
+    # De duong cu cho T01/T02: khoa `mux_af` theo tap; mac dinh giu nguyen chuoi cu.
+    mux_af = ED.EP.get("mux_af",
+                   "alimiter=limit=0.7943:attack=5:release=50:level=disabled")
+    cmd = [str(FF), "-y", "-v", "error", "-i", str(ED.w("video3") / "picture.mp4"),
+           "-i", str(ED.w("audio_master.wav")), "-map", "0:v", "-map", "1:a",
+           "-c:v", "copy"]
+    if mux_af:
+        cmd += ["-af", mux_af]
+    cmd += ["-c:a", "aac", "-b:a", "192k", "-shortest",
+            "-movflags", "+faststart", str(out)]
+    subprocess.run(cmd, check=True)
     return out
 
 
@@ -82,6 +94,8 @@ def description():
     chap = ["00:00 Intro"] + [f"{mmss(starts[a])} {act_titles[a]}" for a in sorted(starts)]
     sents = {i["id"]: i["text"] for i in TL["items"]}
     summary = " ".join(sents[k] for k in ED.EP["summary"])
+    credit = ED.EP.get("voice_credit", "")
+    credit_line = ("\n" + credit) if credit else ""
     txt = f"""{ED.EP["title"]} | Amber eyes
 
 {summary}
@@ -98,6 +112,7 @@ def description():
 • Các nhân vật Cú, Sói, Cáo, Cừu, Mèo là nhân vật minh hoạ, không phải người thật.
   Lời của Điều tra viên, Chuyên gia và Người dân là lời dựng lại dựa trên tư liệu.
 • Giọng đọc, hình ảnh và âm nhạc được tạo cho kênh bằng công cụ AI.
+{credit_line}
 
 📚 NGUỒN THAM KHẢO
 [CHƯA CÓ — phải bổ sung nguồn công khai đã kiểm chứng trước khi đăng, xem nguon_tham_khao.md]

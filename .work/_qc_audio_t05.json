@@ -1,0 +1,109 @@
+{
+ "file": "D:\\TEST\\Gax\\amber-eyes\\02_SAN_XUAT\\Tap05\\xuat_ban\\Tap05_master.mp3",
+ "timeline": {
+  "total": 1306.74,
+  "intro": 22.41,
+  "n_items": 162,
+  "first_item": "{\"id\": \"1.03#1\", \"element\": \"1.03\", \"act\": 1, \"role\": \"H\", \"start\": 23.0, \"end\": 26.64, \"text\": \"Ngày 19 tháng 3 năm 2004.\"}",
+  "first_start": 23.0,
+  "last_end": 1296.94,
+  "n_roles": 5
+ },
+ "mp3": {
+  "duration_s": 1306.74,
+  "size_bytes": 0,
+  "bit_rate": null,
+  "codec": "mp3",
+  "sample_rate": "48000",
+  "channels": 2
+ },
+ "wav": {
+  "duration_s": 1306.74,
+  "size_bytes": 0,
+  "bit_rate": null,
+  "codec": "pcm_s16le",
+  "sample_rate": "48000",
+  "channels": 2
+ },
+ "loudnorm_mp3": {
+  "error": "orm_0 @ 000001f5eabf7cc0] \n{\n\t\"input_i\" : \"-16.27\",\n\t\"input_tp\" : \"-1.94\",\n\t\"input_lra\" : \"3.60\",\n\t\"input_thresh\" : \"-26.85\",\n\t\"output_i\" : \"-16.11\",\n\t\"output_tp\" : \"-1.50\",\n\t\"output_lra\" : \"3.60\",\n\t\"output_thresh\" : \"-26.67\",\n\t\"normalization_type\" : \"dynamic\",\n\t\"target_offset\" : \"0.11\"\n}\n[out#0/null @ 000001f5eacdcf40] video:0KiB audio:980055KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:21:46.80 bitrate=N/A speed=15.3x elapsed=0:01:25.61    \n"
+ },
+ "silence_count": 0,
+ "silences_over_0_3s": [],
+ "silences_all": [],
+ "sync": {
+  "timeline_total": 1306.74,
+  "mp3_duration": 1306.74,
+  "drift_s": 0.0,
+  "pass_0_05": true
+ },
+ "cer_selected": {
+  "n_sentences": 162,
+  "mean_cer_pct": 0.3,
+  "max_cer_pct": 7.14,
+  "n_over_2pct": 5,
+  "over_2pct": [
+   [
+    "4.08#9",
+    0.0714
+   ],
+   [
+    "4.12#1",
+    0.0714
+   ],
+   [
+    "4.12#4",
+    0.0606
+   ],
+   [
+    "4.04#8",
+    0.0568
+   ],
+   [
+    "3.05#3",
+    0.0204
+   ]
+  ],
+  "n_zero_cer": 140,
+  "n_over_max_cer_flag": 5,
+  "max_cer_flag": 0.02,
+  "by_role": {
+   "C": {
+    "n": 24,
+    "mean_cer_pct": 0.18,
+    "max_cer_pct": 2.04,
+    "n_over_2pct": 1
+   },
+   "D": {
+    "n": 50,
+    "mean_cer_pct": 0.7,
+    "max_cer_pct": 7.14,
+    "n_over_2pct": 4
+   },
+   "H": {
+    "n": 81,
+    "mean_cer_pct": 0.1,
+    "max_cer_pct": 1.97,
+    "n_over_2pct": 0
+   },
+   "N1": {
+    "n": 3,
+    "mean_cer_pct": 0.0,
+    "max_cer_pct": 0.0,
+    "n_over_2pct": 0
+   },
+   "N2": {
+    "n": 4,
+    "mean_cer_pct": 0.34,
+    "max_cer_pct": 1.35,
+    "n_over_2pct": 0
+   }
+  }
+ },
+ "coverage": {
+  "n_timeline_ids": 162,
+  "n_selection_ids": 162,
+  "missing_in_selection": [],
+  "extra_in_selection": []
+ }
+}

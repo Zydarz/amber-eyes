@@ -17,6 +17,7 @@ Verify cuoi: moi code cell phai compile, va khong con placeholder.
 import argparse
 import ast
 import json
+import os
 import pathlib
 import sys
 
@@ -101,6 +102,38 @@ Do F0 clone thuc + CER cho 3 bien the: -2.0 / -2.5 / -3.0 nua cung.
 Ket qua khong phu thuoc card nao: seed co dinh theo `(id|role|ref|temp|variant)`.
 """,
     },
+    "v9": {
+        "SPEC_NAME": "pilot_spec_v9.json",
+        "PAYLOAD_NAME": "pilot_payload_v9.json",
+        "OUT_NAME": "out_higgs_v9",
+        "NB_NAME": "higgs_pilot_v9_kaggle.ipynb",
+        "N_WORKERS": 2,
+        "TITLE": "PILOT v9 — giong mau moi vai D (khan tram) + C (trong sac)",
+        "MD": """# PILOT v9 — giong mau VoxCPM2 moi cho vai D va C
+
+Ban san xuat Tap 02: D (`M_HIGH`) clone ~193 Hz, chi cach C 1,03 nua cung -> nguoi nghe nham.
+V9 do F0 clone + CER + G8 cho 4 clip D rat tram (89-98 Hz) va 4 clip C (200-216 Hz, noi nhanh).
+Moi clip x 12 cau that cua dung vai (8 neutral + sad/fearful/surprised) x 2 ban.
+
+Ket qua khong phu thuoc card nao: seed co dinh theo `(id|role|ref|temp|variant)`.
+""",
+    },
+    "v10": {
+        "SPEC_NAME": "pilot_spec_v10.json",
+        "PAYLOAD_NAME": "pilot_payload_v10.json",
+        "OUT_NAME": "out_higgs_v10",
+        "NB_NAME": "higgs_pilot_v10_kaggle.ipynb",
+        "N_WORKERS": 2,
+        "TITLE": "PILOT v10 — giong mau D vong 3 (seed 7, 88-90 Hz) + C2_AB03",
+        "MD": """# PILOT v10 — giong mau D vong 3
+
+Pilot v9: D dung chu (D1_DS) chi cach Host 3,6-3,9 nua cung (can >= 4).
+V10 do 3 clip D tram hon (88-90 Hz, seed 7) + C2_AB03 (da chon) lam doi chung D~C.
+Moi clip x 12 cau that cua dung vai x 2 ban.
+
+Ket qua khong phu thuoc card nao: seed co dinh theo `(id|role|ref|temp|variant)`.
+""",
+    },
     "prod": {
         "SPEC_NAME": "prod_spec.json",
         "PAYLOAD_NAME": "higgs_payload_t02.json",
@@ -133,6 +166,31 @@ Ket qua khong phu thuoc card nao: seed co dinh theo `(id|role|ref|temp|variant)`
 """,
     },
 }
+
+# Tap khac Tap 02 (L8): AE_EP=03 [AE_ACT=3] -> mode "prod" dung spec/payload/out cua tap do.
+# Ten file khop .work/build_spec.py. Tap 02 giu nguyen CFG["prod"] (hoi quy L9).
+# AE_LANG=en -> hau to "_EN_tXX" (higgs_paths.py, §4.4).
+sys.path.insert(0, str(HERE))
+import higgs_paths as P  # noqa: E402
+_EPN, _ACT = P.EPN, P.ACT
+if P.SFX:
+    _sfx = P.SFX
+    _scope = "Tap %s%s%s" % (_EPN, " " + P.LANG.upper() if P.FOREIGN else "", " hoi " + _ACT if _ACT else "")
+    CFG["prod"] = {
+        "SPEC_NAME": "prod_spec%s.json" % _sfx,
+        "PAYLOAD_NAME": "higgs_payload%s.json" % _sfx,
+        "OUT_NAME": "out_higgs_prod%s" % _sfx,
+        "NB_NAME": "higgs_prod%s_kaggle.ipynb" % _sfx,
+        "N_WORKERS": 2,
+        "TITLE": "SAN XUAT %s — Higgs Audio v3 (2 GPU song song)" % _scope,
+        "MD": CFG["prod"]["MD"].replace("Tap 02", _scope),
+    }
+    if not _ACT:
+        CFG["r2"] = dict(CFG["r2"], SPEC_NAME="prod_spec_r2%s.json" % _sfx,
+                         PAYLOAD_NAME="higgs_payload_r2%s.json" % _sfx,
+                         OUT_NAME="out_higgs_r2%s" % _sfx, NB_NAME="higgs_r2%s_kaggle.ipynb" % _sfx,
+                         TITLE=CFG["r2"]["TITLE"].replace("Tap 02", _scope),
+                         MD=CFG["r2"]["MD"].replace("Tap 02", _scope))
 
 p = argparse.ArgumentParser()
 p.add_argument("--mode", required=True, choices=sorted(CFG))

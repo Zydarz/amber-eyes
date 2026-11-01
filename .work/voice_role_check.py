@@ -64,6 +64,40 @@ def ask(path, prompt):
     return (r.get("results") or [{}])[0].get("description", json.dumps(r)[:300])
 
 
+def higgs_refs():
+    """{vai: {ref_wav}} của tập đang chạy, nếu tập dùng Higgs Audio v3.
+
+    Tệp `higgs_selection_tXX.json` chỉ tồn tại cho các tập đã chạy Higgs
+    (T02–T05 bản tiếng Việt, T02 bản tiếng Anh). Tập MiniMax không có file
+    này ⇒ nhãn giọng giữ nguyên như cũ (tên giọng trong ED.CAST).
+    """
+    out = {}
+    sel = ED.w("higgs_selection.json")
+    if not sel.exists():
+        return out
+    try:
+        d = json.loads(sel.read_text(encoding="utf-8-sig"))
+    except Exception:
+        return out
+    for v in (d.get("selection") or {}).values():
+        role, ref = v.get("role"), v.get("ref_wav")
+        if role and ref:
+            out.setdefault(role, set()).add(ref)
+    return out
+
+
+def voice_label(role, refs, code=True):
+    """Nhãn giọng cho báo cáo G10.
+
+    Higgs : `H.wav` (Higgs Audio v3) — nói đúng giọng thật đã dùng để dựng.
+    MiniMax: `English_CaptivatingStoryteller` — giữ nguyên hành vi cũ.
+    """
+    if role in refs:
+        s = ", ".join(sorted(refs[role]))
+        return "`%s` (Higgs Audio v3)" % s if code else "%s (Higgs Audio v3)" % s
+    return "`%s`" % ED.CAST[role][0] if code else ED.CAST[role][0]
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     man = json.loads(ED.w("tts_manifest.json").read_text(encoding="utf-8"))
@@ -81,6 +115,9 @@ def main():
 
     names = NAMES_KO if ED.KO else (NAMES_JA if ED.JA else (NAMES_EN if ED.EN else NAMES))
     lang = "Korean" if ED.KO else ("Japanese" if ED.JA else ("English" if ED.EN else "Vietnamese"))
+    refs = higgs_refs()
+    if refs:
+        print("nhan giong: Higgs Audio v3 —", {k: sorted(v) for k, v in sorted(refs.items())})
     md = [f"# G10 — nghe liền theo vai ({ED.MASTER})", ""]
     ok_all = True
     picks = {}
@@ -94,7 +131,7 @@ def main():
         out = OUT / f"vai_{role}.mp3"
         join([audio_path(m) for m in pick], out)
         if len(pick) < 3:
-            md += [f"## {names[role]} ({ED.CAST[role][0]}): {len(pick)} câu — bỏ qua (quá ít)", ""]
+            md += [f"## {names[role]} ({voice_label(role, refs, code=False)}): {len(pick)} câu — bỏ qua (quá ít)", ""]
             continue
         ans = ask(out, f"This file has {len(pick)} short {lang} sentences separated by ~1 s silence, all supposedly by ONE narrator. "
                        "Ignore the words; judge only VOICE IDENTITY (timbre, age, accent). First line exactly: 'SPEAKERS: <number>'. "
@@ -104,7 +141,7 @@ def main():
         ok = n == 1
         ok_all &= ok
         emos = sorted({x["emotion"] for x in pick})
-        md += [f"## {names[role]} — `{ED.CAST[role][0]}` — {'ĐẠT' if ok else 'KHÔNG ĐẠT'} ({n} người)", "",
+        md += [f"## {names[role]} — {voice_label(role, refs)} — {'ĐẠT' if ok else 'KHÔNG ĐẠT'} ({n} người)", "",
                f"{len(pick)} câu: {', '.join(x['id'] for x in pick)} · cảm xúc có mặt: {', '.join(emos)}", "", ans, ""]
         print(names[role], "->", n, "người", flush=True)
     # G9: xen kẽ 3 vai chính

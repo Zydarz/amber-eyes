@@ -178,6 +178,9 @@ def vi_numbers(text):
     text = re.sub(r"\b(Elizabeth|Charles|John Paul|Henry)\s+(II|III|IV)\b",
                   lambda m: f"{m.group(1)} {ROMAN[m.group(2)]}", text)
     text = re.sub(r"\d{1,3}(?:\.\d{3})+(?!\d)", lambda m: vi_number(int(m.group(0).replace(".", ""))), text)
+    # số thập phân "1.44" / "1,44" (1–2 chữ số sau dấu) → "một phẩy bốn mươi tư" (Tập 05: "một.bốn mươi tư")
+    text = re.sub(r"(?<![\d@])(\d+)[.,](\d{1,2})(?!\d)",
+                  lambda m: f"{vi_number(int(m.group(1)))} phẩy {vi_number(int(m.group(2)))}", text)
     text = re.sub(r"(?<!@)\d+(?!@)", lambda m: vi_number(int(m.group(0))), text)
     return re.sub(r"@@(\d+)@@", lambda m: tags[int(m.group(1))], text)
 

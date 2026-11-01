@@ -1,0 +1,79 @@
+======================================================================================================================
+PILOT v9 — F0 CLONE (AC / YIN) · toc do · lang · G8 · CER
+======================================================================================================================
+Vai  Clip           n  F0_ac F0_yin  am/s lang>0.3  G8 nc  CER tb CER loi chan  F0 theo cam xuc
+C    C2_AB03       24  208.7  209.7  4.07    9/24    0.41    1.92       7    0  neutral=210.6 sad=211.5 fearful=206.5
+C    C2_AB05       24  194.3  193.1  4.00   10/24    0.63    0.48       1    0  neutral=193.4 sad=194.6 fearful=187.6
+C    C2_LE02       24  208.2  205.9  3.96   23/24    0.25    1.14       4    0  neutral=205.6 sad=208.6 fearful=205.8
+C    C2_LE03       24  210.5  207.6  4.32   13/24    0.46    1.66       6    0  neutral=209.3 sad=207.1 fearful=203.8
+D    D1_DS         24   96.4  101.3  3.56   23/24    4.15    0.98       5    0  neutral=100.8 sad=96.1 fearful=104.2 surprised=122.1
+D    D1_VG         24  100.9   94.8  3.54   21/24   13.07    0.53       3    0  neutral=94.2 sad=90.0 fearful=106.8 surprised=191.5
+D    D2_DS         24  101.0  102.8  3.58   21/24    6.86    1.86       7    0  neutral=99.4 sad=105.5 fearful=111.2 surprised=147.7
+D    D2_VG         24   93.2   94.7  4.08   23/24   13.83    4.08      13    0  neutral=91.3 sad=104.5 fearful=101.2 surprised=203.0
+H    PROD_H        40  122.6  127.5  3.55   30/40   11.40       -       -    -  neutral=126.2 fearful=110.2 sad=212.9 surprised=148.6
+N1   PROD_W6_LOW    8  178.4  178.0  3.81    7/8     0.00       -       -    -  neutral=178.0
+N2   PROD_W5_HIGH   8  309.7  316.0  3.52    5/8     1.39       -       -    -  surprised=321.8 fearful=297.0
+
+======================================================================================================================
+G9 — MOI cap vai (ke ca khac gioi). DAT khi min(AC, YIN) >= 4 nua cung
+======================================================================================================================
+  D:D1_VG      <-> H:PROD_H         3.37 nc  TRUOT
+  D:D1_VG      <-> N1:PROD_W6_LOW    9.87 nc  DAT
+  D:D1_VG      <-> N2:PROD_W5_HIGH  19.42 nc  DAT
+  D:D1_VG      <-> C:C2_AB05       11.34 nc  DAT
+  D:D1_VG      <-> C:C2_LE03       12.73 nc  DAT
+  D:D1_VG      <-> C:C2_AB03       12.58 nc  DAT
+  D:D1_VG      <-> C:C2_LE02       12.54 nc  DAT
+  D:D1_DS      <-> H:PROD_H         3.98 nc  TRUOT
+  D:D1_DS      <-> N1:PROD_W6_LOW    9.76 nc  DAT
+  D:D1_DS      <-> N2:PROD_W5_HIGH  19.70 nc  DAT
+  D:D1_DS      <-> C:C2_AB05       11.17 nc  DAT
+  D:D1_DS      <-> C:C2_LE03       12.42 nc  DAT
+  D:D1_DS      <-> C:C2_AB03       12.60 nc  DAT
+  D:D1_DS      <-> C:C2_LE02       12.28 nc  DAT
+  D:D2_VG      <-> H:PROD_H         4.75 nc  DAT
+  D:D2_VG      <-> N1:PROD_W6_LOW   10.93 nc  DAT
+  D:D2_VG      <-> N2:PROD_W5_HIGH  20.79 nc  DAT
+  D:D2_VG      <-> C:C2_AB05       12.33 nc  DAT
+  D:D2_VG      <-> C:C2_LE03       13.59 nc  DAT
+  D:D2_VG      <-> C:C2_AB03       13.76 nc  DAT
+  D:D2_VG      <-> C:C2_LE02       13.45 nc  DAT
+  D:D2_DS      <-> H:PROD_H         3.36 nc  TRUOT
+  D:D2_DS      <-> N1:PROD_W6_LOW    9.50 nc  DAT
+  D:D2_DS      <-> N2:PROD_W5_HIGH  19.40 nc  DAT
+  D:D2_DS      <-> C:C2_AB05       10.91 nc  DAT
+  D:D2_DS      <-> C:C2_LE03       12.17 nc  DAT
+  D:D2_DS      <-> C:C2_AB03       12.34 nc  DAT
+  D:D2_DS      <-> C:C2_LE02       12.03 nc  DAT
+  C:C2_AB05    <-> H:PROD_H         7.19 nc  DAT
+  C:C2_AB05    <-> N1:PROD_W6_LOW    1.41 nc  TRUOT
+  C:C2_AB05    <-> N2:PROD_W5_HIGH   8.07 nc  DAT
+  C:C2_LE03    <-> H:PROD_H         8.44 nc  DAT
+  C:C2_LE03    <-> N1:PROD_W6_LOW    2.66 nc  TRUOT
+  C:C2_LE03    <-> N2:PROD_W5_HIGH   6.68 nc  DAT
+  C:C2_AB03    <-> H:PROD_H         8.61 nc  DAT
+  C:C2_AB03    <-> N1:PROD_W6_LOW    2.72 nc  TRUOT
+  C:C2_AB03    <-> N2:PROD_W5_HIGH   6.83 nc  DAT
+  C:C2_LE02    <-> H:PROD_H         8.30 nc  DAT
+  C:C2_LE02    <-> N1:PROD_W6_LOW    2.52 nc  TRUOT
+  C:C2_LE02    <-> N2:PROD_W5_HIGH   6.87 nc  DAT
+
+======================================================================================================================
+TO HOP D x C (H = PROD_H, N1/N2 = san xuat). Bien = cap gan nhat
+======================================================================================================================
+  D=D1_VG    C=C2_AB03  bien  2.72 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do
+  D=D1_DS    C=C2_AB03  bien  2.72 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do
+  D=D2_VG    C=C2_AB03  bien  2.72 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do
+  D=D2_DS    C=C2_AB03  bien  2.72 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do
+  D=D1_VG    C=C2_LE03  bien  2.66 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do
+  D=D1_DS    C=C2_LE03  bien  2.66 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do
+  D=D2_VG    C=C2_LE03  bien  2.66 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do
+  D=D2_DS    C=C2_LE03  bien  2.66 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do
+  D=D1_VG    C=C2_LE02  bien  2.52 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do
+  D=D1_DS    C=C2_LE02  bien  2.52 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do
+  D=D2_VG    C=C2_LE02  bien  2.52 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do
+  D=D2_DS    C=C2_LE02  bien  2.52 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do
+  D=D1_VG    C=C2_AB05  bien  1.41 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do
+  D=D1_DS    C=C2_AB05  bien  1.41 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do
+  D=D2_VG    C=C2_AB05  bien  1.41 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do
+  D=D2_DS    C=C2_AB05  bien  1.41 nc (C~PROD_W6_LOW)  G9 TRUOT  CER TRUOT/chua do

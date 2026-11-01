@@ -462,7 +462,7 @@
   "fearful",
   -0.06,
   0,
-  "Riêng phần đầu của cô Cindy Schall được hắn chôn trong vườn nhà mẹ, hướng thẳng lên cửa sổ phòng ngủ của bà, bởi vì theo lời hắn mỉa mai: <#0.35#> mẹ hắn luôn muốn người ta phải ngước nhìn lên."
+  "Một phần chứng cứ về cô Cindy Schall được hắn giấu ngay trong vườn nhà mẹ, hướng thẳng lên cửa sổ phòng ngủ của bà, bởi vì theo lời hắn mỉa mai: <#0.35#> mẹ hắn luôn muốn người ta phải ngước nhìn lên."
  ],
  "2.06#3": [
   "neutral",
@@ -512,61 +512,49 @@
   0,
   null
  ],
- "2.07#6": [
-  "neutral",
-  -0.05,
-  0,
-  null
- ],
  "2.07#7": [
   "neutral",
-  -0.03,
+  -0.05,
   0,
   null
  ],
  "2.07#8": [
   "neutral",
-  -0.05,
+  -0.03,
   0,
   null
  ],
  "2.07#9": [
   "neutral",
-  -0.03,
+  -0.06,
   0,
   null
  ],
  "2.07#10": [
-  "neutral",
+  "fearful",
   -0.06,
   0,
   null
  ],
  "2.07#11": [
-  "fearful",
-  -0.06,
-  0,
-  null
- ],
- "2.07#12": [
   "neutral",
   -0.05,
   0,
   null
  ],
- "2.07#13": [
+ "2.07#12": [
   "neutral",
   -0.03,
   0,
   null
  ],
- "2.07#14": [
+ "2.07#13": [
   "fearful",
   -0.06,
   0,
   null
  ],
- "2.07#15": [
+ "2.07#14": [
   "surprised",
   -0.05,
   0,
@@ -1160,27 +1148,21 @@
   0,
   null
  ],
- "5.02#4": [
-  "neutral",
-  -0.04,
-  0,
-  null
- ],
  "5.02#5": [
-  "neutral",
-  -0.04,
-  0,
-  null
- ],
- "5.02#6": [
   "neutral",
   -0.05,
   0,
   null
  ],
- "5.02#7": [
+ "5.02#6": [
   "fearful",
   -0.06,
+  0,
+  null
+ ],
+ "5.02#7": [
+  "neutral",
+  -0.04,
   0,
   null
  ],
@@ -1197,8 +1179,8 @@
   null
  ],
  "5.02#10": [
-  "neutral",
-  -0.04,
+  "sad",
+  -0.05,
   0,
   null
  ],
@@ -1206,15 +1188,9 @@
   "sad",
   -0.05,
   0,
-  null
- ],
- "5.02#12": [
-  "sad",
-  -0.05,
-  0,
   "Trong một phiên xin ân xá năm 1988, hắn đã nói: <#0.35#> Xã hội chưa sẵn sàng cho tôi, dưới bất kỳ hình thức nào."
  ],
- "5.02#13": [
+ "5.02#12": [
   "sad",
   -0.06,
   0,
@@ -1381,5 +1357,18 @@
   -0.04,
   0,
   null
- ]
+ ],
+ "2.07#6": [
+  "neutral",
+  -0.05,
+  0,
+  null
+ ],
+ "5.02#4": [
+  "neutral",
+  -0.04,
+  0,
+  null
+ ],
+ "_note_ma_cau": "31/10/2026: chuyen sang ma cau cua script_tap03.json 218 cau (ban cu 220). 2.06#2 viet lai theo cau sau review V9. Ban cu: .work/_cu/kichban_t03_20261031/"
 }
