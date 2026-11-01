@@ -36,3 +36,24 @@ Lỗi chuẩn file khác: JA `C_deepalto_ja3_t01/t02/t04` −19,5…−20,1 LUFS
 1. Người dùng nghe các ứng viên (danh tính, độ trung tính).
 2. JA: đủ 5 vai ⇒ cần tham số hoá chuỗi Higgs cho `AE_LANG=ja` + CER tiếng Nhật, rồi chạy thử 1 hồi đo F0/G9 trên bản đọc.
 3. KO: vòng D riêng (nhiều seed hơn cho `smokerbass`/`bassgravel`), hoặc đo thử Higgs với D ~102 Hz trước khi tốn thêm lượt Mac.
+
+## Bổ sung 01/11/2026 — người dùng chốt ưu tiên + đo CER giọng mẫu 3 vai chính
+
+**Người dùng chốt:** 3 vai chính (H, D, C) phải rõ và đúng chữ; vai phụ (N1, N2) không quan trọng ⇒ **chấp nhận N1 ~205 Hz** ngoài dải 148–182 (N1 không đứng cạnh C trong Tập 02).
+
+CER đo bằng `listen_audio`, 2 lượt (Q6), so ký tự sau NFKC + bỏ dấu câu. Tiếng Nhật: phải tách lỗi **chính tả** (kana↔kanji: すべて→全て, とき→時, 辿る→たどる, 一→1, 馴染み→なじみ — ASR viết khác, máy đọc đúng) khỏi lỗi **đọc sai thật**.
+
+| Lang | Take | CER lượt 1 / 2 | Lỗi đọc sai thật | Kết luận |
+|---|---|---|---|---|
+| JA | H `H_vnctrl_ja_t02` | 5,8% / 1,7% | 0 (chỉ chính tả) | ✅ chọn |
+| JA | H `H_jactrl_t02` | 9,1% / 9,1% | 拙速 → 接待 (lượt 2) | dự phòng |
+| JA | D `D_smokerbass_ja3_t02` | 6,8% / 6,8% | **捜査 → その作業** (cả 2 lượt) | ❌ loại dù F0 đẹp nhất |
+| JA | D `D_lowgrowl_ja3_t01` | 0,0% / 0,7% | 0 (1 chữ 全→存 lượt 2) | ✅ chọn (F0 93 Hz, sát mép +6%) |
+| JA | C `C_deepalto_ja3_t03` | 0,0% / 0,0% | 0 | ✅ chọn |
+| JA | C `C_contralto_ja3_t04` | 1,7% / 1,7% | 0 (chỉ chính tả) | dự phòng |
+| KO | H `H_koctrl_t01`, `H_vnctrl_ko_t01` | 0,0% / 0,0% | 0 | ✅ |
+| KO | C `C_contralto_ko3_t04`, `C_deepalto_ko3_t04` | 0,0% / 0,0% | 0 | ✅ |
+| KO | D `D_smokerbass_ko3_t01` (102 Hz) | 0,0% / 0,0% | 0 | rõ chữ nhưng F0 quá cao ⇒ vòng ko4 |
+
+**Bộ 3 vai chính:** JA = H `ja2/H_vnctrl_ja_t02` · D `ja3/D_lowgrowl_ja3_t01` · C `ja3/C_deepalto_ja3_t03`. KO = H `ko2/H_koctrl_t01` · C `ko3/C_contralto_ko3_t04` · D **chờ vòng ko4** (`.work/KO4_MAC_BRIEF.md`, 32 take, 8 seed mới).
+**Chưa bảo đảm được G9** (H~D ≥ 4 nc): JA trên giọng mẫu chỉ ~1,9 nc (H 104 / D 93); phải đo trên bản Higgs đọc (§0 #1). Cần tham số hoá chuỗi Higgs cho `ja`/`ko` trước.

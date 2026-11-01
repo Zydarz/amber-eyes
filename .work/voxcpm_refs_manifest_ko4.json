@@ -1,0 +1,62 @@
+{
+ "D": {
+  "f0_target": [
+   78,
+   88
+  ],
+  "takes": [
+   [
+    2.0,
+    3
+   ],
+   [
+    2.0,
+    11
+   ],
+   [
+    2.0,
+    99
+   ],
+   [
+    2.0,
+    256
+   ],
+   [
+    2.0,
+    500
+   ],
+   [
+    2.0,
+    888
+   ],
+   [
+    2.0,
+    2025
+   ],
+   [
+    2.0,
+    4096
+   ]
+  ],
+  "why": "VONG 4 KO (01/11/2026): ko2+ko3 24 take D deu >= 101 Hz. 2 cau mo ta tot nhat + 2 cau tram hon x 8 seed MOI (seed cu cho lai dung ket qua cu).",
+  "control_variants": [
+   {
+    "tag": "bassgravel_ko4",
+    "control": "A man in his late fifties, extremely low-pitched deep bass voice, rough and gravelly, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording"
+   },
+   {
+    "tag": "smokerbass_ko4",
+    "control": "A man in his late fifties, deep bass voice with a gritty smoker's rasp, very low register, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording"
+   },
+   {
+    "tag": "oldbass_ko4",
+    "control": "An elderly man in his mid-sixties, extremely deep bass voice, very low and heavy chest resonance, slightly rough, cold and flat, emotionless veteran police investigator, Korean Standard, slow and measured pace, every word clearly articulated, quiet studio recording"
+   },
+   {
+    "tag": "basso_ko4",
+    "control": "A large heavy-set man in his late fifties, basso profundo, the lowest possible male register, dark and husky, cold and flat, emotionless police investigator, Korean Standard, slow and measured pace, crisp consonants, quiet studio recording"
+   }
+  ],
+  "text": "수사 일지에는 모든 정황이 상세히 기록되어 있습니다. 현장 주택에서 발견된 증거와 일치하는 진술은 단 하나도 없었습니다. 질문은 여전히 남아 있고, 전체 기록은 아직 모든 것을 말해주지 않았습니다. 현장은 초기부터 철저히 통제되었으며, 모든 증거물은 절차에 따라 번호가 매겨지고 봉인되었습니다. 최종 결론을 내리기 전에 시간대와 이동 동선을 철저히 재검증해야 합니다."
+ }
+}
