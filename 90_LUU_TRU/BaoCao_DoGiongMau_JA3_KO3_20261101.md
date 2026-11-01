@@ -57,3 +57,10 @@ CER đo bằng `listen_audio`, 2 lượt (Q6), so ký tự sau NFKC + bỏ dấu
 
 **Bộ 3 vai chính:** JA = H `ja2/H_vnctrl_ja_t02` · D `ja3/D_lowgrowl_ja3_t01` · C `ja3/C_deepalto_ja3_t03`. KO = H `ko2/H_koctrl_t01` · C `ko3/C_contralto_ko3_t04` · D **chờ vòng ko4** (`.work/KO4_MAC_BRIEF.md`, 32 take, 8 seed mới).
 **Chưa bảo đảm được G9** (H~D ≥ 4 nc): JA trên giọng mẫu chỉ ~1,9 nc (H 104 / D 93); phải đo trên bản Higgs đọc (§0 #1). Cần tham số hoá chuỗi Higgs cho `ja`/`ko` trước.
+
+## Bổ sung 01/11/2026 — vòng ko4 (chỉ D tiếng Hàn): TRƯỢT
+
+`assets/voice_ref_voxcpm2_ko4/` (Mac commit `082b4f1`, 32 take, log 0 lỗi). **32/32 take ≥ 109 Hz** (thấp nhất `D_bassgravel_ko4_t07` và `D_smokerbass_ko4_t05`, AC 109,6). Câu mô tả mới (`oldbass`, `basso`) còn cao hơn: 110–200 Hz.
+⇒ Qua **56 take** (ko2 + ko3 + ko4), VoxCPM2 Voice Design đọc tiếng Hàn **không cho giọng nam nào dưới 101 Hz**. Thêm seed/câu mô tả không có ích.
+
+**Hướng đề xuất: VoxCPM2 chế độ clone.** Pilot clone 31/10 (`assets/pilot_voxcpm_clone/`, tiếng Việt) đo lại: clone `D3_SH` → YIN trung vị **91,7 Hz** (87–100), clone `H` → 129 Hz ⇒ cách 5,8 nc. Clone giữ được giọng D trầm. Đề xuất: dùng `D3_SH.wav` (VN) làm giọng tham chiếu cho VoxCPM2 đọc lời tiếng Hàn → sinh clip mới `D_KO` (file mới, không chép/đổi tên clip VN, §4.4). Cần người dùng đồng ý vì đây là cách làm mới (L4).
