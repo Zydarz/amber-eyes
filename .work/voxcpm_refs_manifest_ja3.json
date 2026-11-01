@@ -1,0 +1,126 @@
+{
+ "D": {
+  "f0_target": [
+   78,
+   88
+  ],
+  "takes": [
+   [
+    2.0,
+    7
+   ],
+   [
+    2.0,
+    42
+   ],
+   [
+    2.0,
+    777
+   ],
+   [
+    2.0,
+    1234
+   ]
+  ],
+  "why": "VONG 3 Japanese (01/11/2026): ja2 khong co D < 98 Hz. 4 cau mo ta dc3 x 4 seed.",
+  "control_variants": [
+   {
+    "tag": "bassgravel_ja3",
+    "control": "A man in his late fifties, extremely low-pitched deep bass voice, rough and gravelly, cold and flat, emotionless police investigator, Japanese Standard, slow and measured pace, every word clearly articulated, quiet studio recording"
+   },
+   {
+    "tag": "smokerbass_ja3",
+    "control": "A man in his late fifties, deep bass voice with a gritty smoker's rasp, very low register, cold and flat, emotionless police investigator, Japanese Standard, slow and measured pace, every word clearly articulated, quiet studio recording"
+   },
+   {
+    "tag": "subbasshusky_ja3",
+    "control": "A man in his late fifties, sub-bass, very deep and husky, chest voice, cold and flat, emotionless police investigator, Japanese Standard, slow and measured pace, crisp consonants, quiet studio recording"
+   },
+   {
+    "tag": "lowgrowl_ja3",
+    "control": "A man in his late fifties, very low-pitched, deep and gravelly with a slight growl, cold and flat, emotionless police investigator, Japanese Standard, slow and measured pace, crisp consonants, quiet studio recording"
+   }
+  ],
+  "text": "捜査記録にはすべての詳細が記録されています。現場の住宅で発見された物証と一致する供述は一つもありません。疑問は依然として残されており、全容はまだ解明されていません。現場は当初から厳重に保全され、すべての証拠品が番号順に封印されました。最終的な結論を下す前に、タイムラインと行動経路を再検証する必要があります。"
+ },
+ "C": {
+  "f0_target": [
+   200,
+   218
+  ],
+  "takes": [
+   [
+    2.0,
+    7
+   ],
+   [
+    2.0,
+    42
+   ],
+   [
+    2.0,
+    777
+   ],
+   [
+    2.0,
+    1234
+   ]
+  ],
+  "why": "VONG 3 Japanese: ja2 C ra 242-275 Hz (cao hon VN 208). Them cau mo ta tram hon. Loi doc bo cau cuoi de < 28 s (C_jactrl_t01 dai 29,2 s).",
+  "control_variants": [
+   {
+    "tag": "altobrisk_ja3",
+    "control": "A woman around forty, lower mid-pitched alto voice, clear and crisp articulation with precise consonants, confident and assertive forensic psychologist, Japanese Standard, brisk pace, quiet studio recording"
+   },
+   {
+    "tag": "contralto_ja3",
+    "control": "A woman in her mid-forties, low-pitched contralto voice with a firm chest resonance, clear and crisp articulation, confident and assertive forensic psychologist, Japanese Standard, measured pace, quiet studio recording"
+   },
+   {
+    "tag": "deepalto_ja3",
+    "control": "A mature woman in her late forties, deep alto voice, low and steady, precise consonants, authoritative forensic psychologist giving a lecture, Japanese Standard, calm brisk pace, quiet studio recording"
+   }
+  ],
+  "text": "このメカニズムは記憶に起因するのではなく、人間が馴染みのある行動パターンを繰り返す特性から生じます。それが同じ行動が同じ場所で繰り返される理由であり、詳細な解明が求められます。臨床研究において、自己統制を失ったと感じた際、防衛反応が最も顕著に現れます。"
+ },
+ "W6_LOW": {
+  "f0_target": [
+   148,
+   182
+  ],
+  "takes": [
+   [
+    2.0,
+    7
+   ],
+   [
+    2.0,
+    42
+   ],
+   [
+    2.0,
+    777
+   ],
+   [
+    2.0,
+    1234
+   ]
+  ],
+  "why": "VONG 3 Japanese: ja2 N1 ra 195-269 Hz. Them cau mo ta tram hon.",
+  "control_variants": [
+   {
+    "tag": "lowwarm_ja3",
+    "control": "A woman in her late thirties, low-pitched and warm with a deep rounded resonance, calm and unhurried, intimate close-mic narration, Japanese Standard, neutral and reflective tone, moderately slow pace"
+   },
+   {
+    "tag": "deepalto_ja3",
+    "control": "A woman in her forties, deep alto voice, low and soft with a warm chest resonance, ordinary neighbour talking quietly, Japanese Standard, neutral and calm tone, natural pace, quiet studio recording"
+   },
+   {
+    "tag": "huskycontralto_ja3",
+    "control": "A woman in her forties, low husky contralto voice, relaxed and plain, ordinary neighbour recalling the past, Japanese Standard, neutral tone, natural everyday pace, quiet studio recording"
+   }
+  ],
+  "text": "私は毎朝早くから店のシャッターを開け、夜遅くまで営業しています。近所の人たちはみんな顔なじみですから、誰かが声をかけてくればいつでも迎えます。この界隈は昔から穏やかで、朝は散歩をするお年寄りばかりでした。縁側でお茶を淹れながら、何年ものあいだ通りの移り変わりと人々の足音を見守ってきました。"
+ }
+}
