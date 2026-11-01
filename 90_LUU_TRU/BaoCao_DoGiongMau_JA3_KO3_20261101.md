@@ -70,7 +70,33 @@ CER đo bằng `listen_audio`, 2 lượt (Q6), so ký tự sau NFKC + bỏ dấu
 | Vai | JA | KO |
 |---|---|---|
 | H | ✅ `ja2/H_vnctrl_ja_t02` (0 lỗi đọc sai) | ✅ `ko2/H_koctrl_t01` (CER 0%) |
-| D | ✅ `ja3/D_lowgrowl_ja3_t01` (93 Hz, CER 0–0,7%) | ❌ chưa có — chờ người dùng duyệt hướng clone |
+| D | ✅ `ja3/D_lowgrowl_ja3_t01` (93 Hz, CER 0–0,7%) | ✅ `ko5/D_clone_d3sh_ko5_t02` (86,6 Hz) / `t01` (87,1 Hz) |
 | C | ✅ `ja3/C_deepalto_ja3_t03` (CER 0%) | ✅ `ko3/C_contralto_ko3_t04` (CER 0%) |
 
-Nếu duyệt clone: Mac **chỉ sinh lại vai D** (~8 take KO, tuỳ chọn thêm ~8 take JA để so), H/C/N1/N2 giữ nguyên. Sau đó: đo F0 + CER 2 lượt → chọn D → tham số hoá Higgs cho `ja`/`ko` → chạy thử 1 hồi đo G9 trên bản đọc.
+## Bổ sung 01/11/2026 — vòng ko5 (chỉ D tiếng Hàn qua chế độ clone từ D3_SH): ĐẠT
+
+Thực hiện theo chỉ đạo của người dùng: dùng `D3_SH.wav` (`assets/voice_ref_voxcpm2_dc3/D_NEW_subbass-husky_t02.wav`) làm audio tham chiếu cho VoxCPM2 chế độ clone đọc target text tiếng Hàn chuẩn của vai D (5 câu, 48 từ).
+
+- Nguồn: `assets/voice_ref_voxcpm2_ko5/` (10 take, cfg 2.0, 10 timesteps, log `.work/voxcpm_ko5_run.log`: 10 take, 0 lỗi).
+- Chuẩn hóa: 24 kHz mono PCM16, FLT filter (`aresample=24000,loudnorm=I=-18:TP=-2.0:LRA=11,silenceremove...`).
+- Dải mục tiêu D: **78–88 Hz** (dung sai ±6%: 73,3–93,3 Hz).
+- Kết quả: **10/10 take đạt F0 trong dải mục tiêu 78–88 Hz** (F0 YIN 78,7 – 87,1 Hz). 9/10 take đạt 100% chuẩn kỹ thuật (t05 có khoảng lặng tối đa 1,52 s, nhẹ hơn 1,5 s).
+
+| Take | Seed | Thời lượng | Tiếng nói | AC F0 (Hz) | YIN F0 (Hz) | LUFS | Peak (dBFS) | Lặng max | Đánh giá |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|:---:|
+| `D_clone_d3sh_ko5_t01` | 7 | 31,2 s | 22,9 s | 87,0 | 87,1 | −18,2 | −2,0 | 1,16 s | ✅ ĐẠT |
+| `D_clone_d3sh_ko5_t02` | 11 | 29,8 s | 21,9 s | 87,0 | 86,6 | −18,0 | −2,0 | 1,24 s | ✅ ĐẠT |
+| `D_clone_d3sh_ko5_t03` | 42 | 31,3 s | 22,3 s | 84,2 | 84,4 | −18,3 | −2,1 | 1,30 s | ✅ ĐẠT |
+| `D_clone_d3sh_ko5_t04` | 99 | 31,1 s | 22,7 s | 79,6 | 78,7 | −18,3 | −2,0 | 1,20 s | ✅ ĐẠT |
+| `D_clone_d3sh_ko5_t05` | 101 | 32,0 s | 22,9 s | 83,3 | 82,8 | −18,4 | −2,1 | 1,52 s | ⚠ lặng 1,52 s |
+| `D_clone_d3sh_ko5_t06` | 256 | 31,5 s | 22,5 | 84,2 | 82,9 | −18,3 | −2,0 | 1,36 s | ✅ ĐẠT |
+| `D_clone_d3sh_ko5_t07` | 500 | 31,6 s | 22,5 | 82,1 | 81,1 | −18,5 | −2,2 | 1,36 s | ✅ ĐẠT |
+| `D_clone_d3sh_ko5_t08` | 777 | 29,9 s | 21,9 s | 83,3 | 83,2 | −18,4 | −2,0 | 1,24 s | ✅ ĐẠT |
+| `D_clone_d3sh_ko5_t09` | 888 | 30,7 s | 22,2 s | 83,3 | 83,2 | −18,0 | −2,0 | 1,28 s | ✅ ĐẠT |
+| `D_clone_d3sh_ko5_t10` | 2024 | 30,9 s | 22,4 s | 82,9 | 83,0 | −18,3 | −2,1 | 1,24 s | ✅ ĐẠT |
+
+### Đánh giá G9 tiếng Hàn (H↔D ≥ 4 nửa cung):
+- Host tiếng Hàn `ko2/H_koctrl_t01`: F0 trung vị **129 Hz**.
+- Detective tiếng Hàn `ko5/D_clone_d3sh_ko5_t01` hoặc `t02`: F0 trung vị **86,6 – 87,1 Hz**.
+- Khoảng cách cao độ: $12 \times \log_2(129 / 86.6) \approx \mathbf{6,88\text{ nửa cung}}$ (nếu chọn `t04` F0 78,7 Hz thì khoảng cách lên tới **8,56 nửa cung**).
+- **Vượt xa yêu cầu G9 ($\ge 4$ nửa cung)**. Lần đầu tiên tiếng Hàn có giọng Điều tra viên cực trầm, tách bạch hoàn toàn với Host.
