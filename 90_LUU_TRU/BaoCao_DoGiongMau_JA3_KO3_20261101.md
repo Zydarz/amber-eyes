@@ -70,7 +70,7 @@ CER đo bằng `listen_audio`, 2 lượt (Q6), so ký tự sau NFKC + bỏ dấu
 | Vai | JA | KO |
 |---|---|---|
 | H | ✅ `ja2/H_vnctrl_ja_t02` (0 lỗi đọc sai) | ✅ `ko2/H_koctrl_t01` (CER 0%) |
-| D | ✅ `ja3/D_lowgrowl_ja3_t01` (93 Hz, CER 0–0,7%) | ✅ `ko5/D_clone_d3sh_ko5_t01` (87,1 Hz, CER 0%) · dự phòng `t10` (83,0 Hz, CER 0%) — ⚠ dài 31 s |
+| D | ✅ `ja3/D_lowgrowl_ja3_t01` (93 Hz, CER 0–0,7%) | ✅ `ko5/D_clone_d3sh_ko5_t01` (đã cắt 25,5 s, 87,7 Hz, CER 0,8% / 0%) · dự phòng `t10` (83,0 Hz, CER 0%, dài 30,9 s) |
 | C | ✅ `ja3/C_deepalto_ja3_t03` (CER 0%) | ✅ `ko3/C_contralto_ko3_t04` (CER 0%) |
 
 ## Bổ sung 01/11/2026 — vòng ko5 (chỉ D tiếng Hàn qua chế độ clone từ D3_SH): ĐẠT
@@ -113,3 +113,5 @@ Thực hiện theo chỉ đạo của người dùng: dùng `D3_SH.wav` (`assets
 
 Không take nào lẫn tiếng Việt từ giọng tham chiếu.
 **Còn lại:** `t01` dài 31,2 s > 28 s. Cách sửa không động tới cao độ: cắt tại khoảng lặng trước câu cuối (+ sửa `.txt` khớp lời) → ~25 s; cần người dùng đồng ý (L4, sao lưu L5). Hoặc người dùng chấp nhận 31 s.
+
+**Đã cắt `t01` (người dùng chọn phương án a, 01/11/2026):** cắt tại khoảng lặng 25,32–26,38 s (bỏ câu cuối 최종 결론을…), fade-out 80 ms, PCM16 24 kHz mono; `.txt` và `refs.json` sửa khớp lời. Bản gốc: `.work/_cu/ko5_t01_truoc_cat_20261101/`. Đo lại: 25,5 s · AC 87,4 / YIN 87,7 Hz · −18,3 LUFS · đỉnh −2,0 dBFS · lặng cuối 0,16 s · **0 lỗi V2/V6** · CER 0,8% / 0,0%.
