@@ -137,3 +137,49 @@
 | 5-20 | `5.10#3` | H | T1 | `t3_brain_mirror`, `push` | **HÃY LUÔN YÊU THƯƠNG VÀ LẮNG NGHE CON TRẺ** · *Hẹn gặp lại trong tập tiếp theo* | — |  |  |
 | 5-21 | `5.11`–`5.12` (hết tập) | — | T10 | `t3_closing_desk` | **AMBER EYES** · *Đón xem tập tiếp theo* | Đóng hồ sơ, tắt cassette, cello fade out | ⊘ | ◼ |
 **Tổng: 110 shot — 93 shot có lời + 17 khoảng nghỉ / chuyển cảnh**
+
+## Kiểm giọng mẫu Higgs (bộ Tập 02) cho Tập 03 — 31/10/2026
+
+Căn cứ: F0 đo trên bản Higgs đã đọc của Tập 02 (`.work/_prod2_f0.txt`, 416 file); cặp vai liền kề đếm từ `.work/script_tap03.json` (N1 = `1.09`, N2 = `2.09`). Chưa sinh audio Tập 03.
+
+| Cặp liền kề Tập 03 | Số lần | Khoảng cách (đo T02) | G9 |
+|---|---:|---:|---|
+| H–D | 7 | 5,69 nc | ĐẠT |
+| C–H | 7 (cả hồi 3) | 8,54 nc | ĐẠT |
+| H–N1 | 2 | 5,75 nc | ĐẠT |
+| H–N2 | 2 | 14,20 nc | ĐẠT |
+| C–D | 1 | 14,82 nc | ĐẠT |
+
+- C–N1 (2,56 nc) không liền kề trong Tập 03, nên chấp nhận như Tập 02.
+- Hồi 3: 38 câu (C 33, H 5); chỉ có cặp C–H.
+- **Rủi ro:** 22/38 câu hồi 3 có từ tiếng Anh. 7 câu có chú thích tiếng Anh trong ngoặc (3.05#1, 3.05#3, 3.08#1, 3.08#3, 3.11#1, 3.11#6…) mà `build_spec.py`/`tts_sentences.py` không bỏ ngoặc ⇒ vi phạm G7. PHẢI có lời đọc riêng trước khi sinh. Vai C ở Tập 02 có CER tb 2,17%, 32/110 câu > 2%.
+- N1/N2 Tập 03 là lời kể dựng lại, kịch bản không nêu giới tính; giữ giọng nữ như bản MiniMax — cần người dùng xác nhận.
+
+### Sửa kịch bản cho Higgs (G7) — 31/10/2026
+- Người dùng chốt: phân vai giọng như Tập 02 (Host nam `H.wav`, Chuyên gia nữ `C2_AB03.wav`, Điều tra viên `D3_SH.wav`).
+- Bỏ 26 chú thích tiếng Anh trong ngoặc trên 24 câu thoại (vd "(Toxic Mother-Son Pathology)", "(6 feet 9 inch)", "(UCSC)"); *The Silence of the Lambs (Sự im lặng của bầy cừu)* → *Sự im lặng của bầy cừu*. Bản trước: `.work/_cu/kichban_t03_20261031/`.
+- Tách lại `script_tap03.json`: **218 câu**, mã câu giữ nguyên so với kịch bản trước khi sửa. JSON cũ (220 câu) đã **lệch với kịch bản từ trước** (chưa tách lại sau review 23/10) ⇒ bảng shot ở trên đang dùng mã câu cũ, PHẢI dựng lại ở bước 7.
+- ⚠ Bảng shot còn chữ trên hình tiếng Anh (Co-ed Killer, UCSC, BSU, Red Flags, Shallow Affect…) — không còn trong lời ⇒ vi phạm H6, sửa khi dựng lại bảng shot.
+- Còn tiếng Anh trong lời (tên riêng, giữ): Big Ed, The Jury Room, The Lust Murderer, FBI Law Enforcement Bulletin, Mindhunter.
+- ⚠ Kịch bản ghi N1 (`1.09`) "giọng nam trung niên", N2 (`2.09`) "giọng nam trẻ"; giọng mẫu N1/N2 Tập 02 là **nữ** (W6_LOW, W5_HIGH) ⇒ chờ người dùng quyết định.
+
+### Higgs hồi 3 — lượt 1 (31/10/2026)
+- Kernel `amber-eyes-higgs-prod-t03-a3-kaggle-gpu` v1: 38 câu (C 33, H 5) → **78/78 file, 0 lỗi**, 560 s. Spec/payload `*_t03_a3.json`; out `.work/kaggle_higgs/out_higgs_prod_t03_a3/`.
+- F0 (YIN, câu neutral): C 207 Hz · H 136 Hz (n=4) ⇒ **H–C 7,25 nc** (G9 đạt) · **0/78 file lệch ≥ 4 nc** (G8 đạt). 0 thẻ cảm xúc.
+- CER (2 lượt ASR, lấy lượt xấu): C tb 2,24% · H tb 2,21%. Theo bản tốt nhất mỗi câu: **28/38 câu ≤ 2%**, 10 câu > 2% (3.05#3 15% "căn ngục"→"căn hộ", "thiến hoạn"→"thiếu hụt"; còn lại 2,5–6,4%, đa số mất chữ đầu câu / tên riêng Kemper, Clarnell Strandberg).
+- Bản tốt nhất mỗi câu: `.work/higgs_selection_t03_a3.json`; nghe: `02_SAN_XUAT/Tap03/thu_giong_higgs_hoi3/HOI3_nghe_lien.wav` (298,6 s).
+- Chưa làm: vòng 2 cho 10 câu (`build_spec_r2.py` chưa tham số hoá), master hồi (cần cả 5 hồi).
+
+### Higgs cả tập — 31/10/2026
+- Lượt 1: kernel `amber-eyes-higgs-prod-t03-kaggle-gpu` 455/455 file, 0 lỗi (~53 phút). Hồi 3 trùng byte 78/78 với lượt riêng hồi 3 (seed tất định).
+- G9 trên bản đọc: H–D 5,63 · H–C 8,23 · C–D 14,61 · H–N1 5,39 · H–N2 13,65 nc (đạt). C–N1 2,84 nc — không liền kề.
+- CER lượt 1: 45/218 câu > 2% → vòng 2 (94 file, kernel `…-t03-r2-…` v1) → còn 22 câu.
+- **Lỗi phát hiện:** `acting_tap03.json`, `sfx_tap03.json`, `tts_manifest_t03.json` vẫn theo mã câu cũ (220). Đã chuyển sang mã mới theo nội dung (sao lưu `.work/_cu/kichban_t03_20261031/`). 3 câu đã sinh sai chữ (2.06#2 đọc câu cũ trước review V9; 5.02#11 thiếu ngắt; 5.02#12 đọc nhầm câu) → loại mọi bản, sinh lại ở vòng 3 (kernel `…-t03-r2-…` v2) cùng 1.03#8 (mọi bản lệch cao độ ~95 Hz).
+- SFX: 5.02#13→#12 (nền toà), stinger 5.02#7→#6, vùng tắt nhạc 5.02#6–7→#5–6.
+- Vòng 3 (8 file): 2.06#2 0% · 5.02#11 1,6% · 5.02#12 0% (cao độ bình thường). **1.03#8: cả 6 bản Higgs đọc ~95 Hz** (Host 129) — giữ bản CER 0% (97 Hz), chờ người dùng nghe.
+- Nhạc nền hồi 5 sửa theo A10: `bgm_piano_warm` → `bgm_violin_heart` + `bgm_piano_minimal` (kịch bản 5.01: piano tối giản + vĩ cầm).
+- **Master Higgs** `02_SAN_XUAT/Tap03/xuat_ban/Tap03_master.mp3`: 1683,7 s (28:04) · −16,2 LUFS · đỉnh thật −1,7 dBFS (sau giới hạn đỉnh; trước đó −1,0) · 0 khoảng lặng > 0,3 s · lời đầu 23,0 s ✅. Hồi: 1 23,0–372,8 · 2 374,8–706,1 · 3 708,1–1015,9 · 4 1017,9–1344,6 · 5 1346,6–1674,7 s.
+- 25 câu cần nghe (24 câu CER > 2% + 1.03#8), có mốc thời gian: `02_SAN_XUAT/Tap03/xuat_ban/CanNghe_Higgs_Tap03.txt`.
+- File cũ trước Higgs (timeline, master wav, stems, srt, edition.py, build_audio3.py): `.work/_cu/prod_t03_truoc_higgs_20261031/`.
+- Chưa làm: bảng shot (mã câu cũ + chữ tiếng Anh, H6), dựng hình, phụ đề.
+- Người dùng nghe master, báo "Điều tra viên thành nữ" → đo lại: D 56/56 bản chọn ≤ 120 Hz (trung vị 89 Hz); đoạn nghe là N1 (02:22–03:07, lời cảnh sát, giọng nữ). Người dùng chốt: **giữ nguyên, chỉ cần đúng 3 giọng chính**.

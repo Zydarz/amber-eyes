@@ -55,7 +55,7 @@
 
 ## 4. Tương thích kỹ thuật với Pipeline tự động
 
-* Toàn bộ 63 phần tử (`kind`) và 215 câu thoại (`LOI`) khớp 100% về ID với bản gốc tiếng Việt.
+* Toàn bộ 63 phần tử (`kind`) và **203 câu thoại** (`LOI`) khớp 100% về ID với bản gốc tiếng Việt *(đếm lại 01/11/2026 từ `script_tap02_EN.json`: 63 phần tử · 36 LOI · 203 câu — con số "215" ở bản review 22/10 là sai; đối chiếu VN↔EN↔`acting_tap02_EN.json`↔`tts_manifest_EN_t02.json` khớp 1:1 đủ 203 ID)*.
 * Đã lưu trữ file parse chuẩn tại: `.work/script_tap02_EN.json`.
 * Đã kiểm tra chính tả: **0 lỗi** trên 3.536 từ.
 * Cấu trúc dấu câu: Tuân thủ quy chuẩn typography Hoa Kỳ (dấu chấm/phẩy trong ngoặc kép, single curly quotes `‘...’` bên trong lời thoại để tránh xung đột mã hoá).

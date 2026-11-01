@@ -82,6 +82,7 @@ In this episode of Amber eyes, we dissect the chilling case of Russell Williams 
 • Psychological analyses represent theoretical frameworks in forensic criminology, not an official clinical diagnosis.
 • Colonel Williams's former spouse had no knowledge of or involvement in his crimes and was completely exonerated. In compliance with Canadian court publication bans (Section 486.4 of the Criminal Code), the identities of surviving victims are strictly protected and omitted.
 • Synthetic / Altered Content Disclosure: This program features AI-generated voiceovers and stylized artistic illustrations.
+• Voice production: all narration in this episode is synthetic speech generated with Boson AI Higgs Audio v3, voice-cloned from reference clips that were themselves produced by AI text-to-speech for this channel. No real person's voice was recorded, used, or cloned.
 
 📞 CRISIS & SUPPORT RESOURCES (FREE & CONFIDENTIAL)
 If you or someone you know has been affected by sexual assault, stalking, or domestic violence, support is available:

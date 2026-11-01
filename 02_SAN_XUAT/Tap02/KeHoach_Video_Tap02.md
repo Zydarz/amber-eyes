@@ -462,3 +462,119 @@ Khác Tập 01 (chỉ giảm bạo lực), kịch bản Tập 02 được sửa 
 ---
 
 *Lập từ mẫu `02_SAN_XUAT/Tap01/KeHoach_Video_Tap01.md` ngày 22/10/2026. Chưa sửa file script nào — các thay đổi ở B3 chờ người dùng đồng ý.*
+---
+
+## PHỤ LỤC C (Tập 02) — QUYẾT ĐỊNH GIỌNG HIGGS (31/10/2026, người dùng chốt)
+
+| Vai | Giọng mẫu (dataset Kaggle `amber-eyes-voice-ref-voxcpm2`) | Nguồn |
+|---|---|---|
+| Host | `H.wav` (giữ) | VoxCPM2 bộ gốc |
+| Điều tra viên | **`D3_SH.wav`** | `assets/voice_ref_voxcpm2_dc3/D_NEW_subbass-husky_t02` (seed 7) |
+| Chuyên gia | **`C2_AB03.wav`** | `assets/voice_ref_voxcpm2_dc2/C_NEW_alto-brisk_t03` (seed 77) |
+| N1 / N2 | `W6_LOW.wav` / `W5_HIGH.wav` (giữ) | |
+
+- **Bỏ mọi thẻ `<|emotion:…|>`** khi gửi câu vào Higgs (giữ `<|prosody:pause|>`). Cấu hình: `.work/g9_role_map.json` khoá `_emotion_tags: false`, `build_spec.py` đọc khoá này.
+- Lý do: bản sản xuất trước D ← `M_HIGH` ra ~193 Hz, cách C 1,03 nc → người nghe nhầm D với C; thẻ `sadness`/`surprise` làm Host vọt 203–228 Hz. Pilot v10: D3_SH cách Host 5,85 nc, cách C 15,1 nc.
+- Bản sản xuất cũ sao lưu: `.work/_cu/prod_t02_20261031/` (output Kaggle, audio cài, master, timeline, stems).
+- Số đo: `90_LUU_TRU/BaoCao_DoGiongMau_DC_20261030.md`.
+
+### C.1 Lượt sản xuất lần 2 (31/10/2026) — số đo
+
+Kernel `amber-eyes-higgs-prod-t02-kaggle-gpu` v2: 416/416 file, 0 lỗi, 0 thẻ cảm xúc trong văn bản gửi Higgs.
+
+| Đo | Kết quả | Cổng |
+|---|---|---|
+| F0 câu neutral (AC/YIN) | H 122/128 · D 88/88 · C 207/209 · N1 178 · N2 287–290 Hz | |
+| G9 | H-D 5,69 · H-C 8,54 · D-C 14,82 · C-N2 5,66 · H-N1 5,75 nc | ✅ (C-N1 2,56: không liền kề, chấp nhận như trước) |
+| Câu cảm xúc | Host `sad` 125 Hz (lần 1: 213 Hz) · D `surprised` 88 Hz | ✅ hết vọt |
+| File lệch ≥ 4 nc so với neutral của vai | 4/416 → loại khỏi lựa chọn (`.work/higgs_exclude_f0_t02.json`) | ✅ 0 bản đã chọn bị lệch |
+| CER bản đã chọn > 2% (lượt ASR xấu hơn) | 29/203 câu: 8 ASR dao động · ~6 mất chữ đầu · tên riêng (Tweed, Lloyd, Smyth, Genest) · ~7 nghi đọc sai âm đầu ("Vợ"→"Mợ", "Đó"→"nó", "Ban đầu"→"thăng dầu"…) | ⚠ cần vòng 2 (§7) |
+| Master `xuat_ban/Tap02_master.mp3` | 1412,0 s · −16,2 LUFS · đỉnh −1,7 dBFS · 0 khoảng câm > 0,3 s @ −60 dB · lời đầu 23,0 s | ✅ |
+
+Bản sản xuất lần 1 + master cũ: `.work/_cu/prod_t02_20261031/`.
+
+### C.2 Vòng 2 §7 (31/10/2026)
+
+29 câu (28 CER > 2% + 5.02#6 có bản tốt duy nhất bị lệch cao độ) × 2 bản = 58 file, kernel `amber-eyes-higgs-prod-t02-r2-kaggle-gpu`, 0 lỗi, không thẻ cảm xúc (`build_spec_r2.py` đọc `_emotion_tags`, thêm `--exclude`). Gộp bằng `.work/merge_r2.py` (manifest trước vòng 2: `higgs_manifest.before_r2.json`).
+
+- Câu CER > 2%: **29 → 12**. 5 câu đọc sai rõ (4.10#3 "Vợ", 4.11#8 "Đó", 2.05#3 "Ban đầu", 5.10#2 "Quân hàm", 5.02#6 "Và đó là") → **0,0%**. 21/203 câu dùng bản vòng 2.
+- 12 câu còn lại: tên riêng (Smyth, Genest) · ASR dao động (2.02#2, 4.08#2 có lượt 0%) · mất/sai âm đầu câu (1.07#1 "Trong", 2.05#15 "Cuối", 3.05#4 "Tầng", 4.11#3 "Và", 5.10#10 "Chúng") · 2.05#9 "Thứ hắn lấy đi" → "nhãn lady" (19,6%, giống hệt lỗi G12 của giọng MiniMax `Korean_ColdYoungMan` ⇒ nghi ASR).
+- Master: 1411,9 s · −16,2 LUFS · đỉnh −1,7 dBFS · 0 khoảng câm > 0,3 s · lời đầu 23,0 s · 0 bản chọn bị lệch cao độ.
+
+---
+
+## PHỤ LỤC D (Tập 02) — ĐÓNG GÓI LẠI THEO AUDIO HIGGS (31/10/2026)
+
+> Yêu cầu: "dựng lại phụ đề và đóng gói video theo audio mới".
+> Kết quả: **không chỉ lệch ~1 s** — video cũ lệch tiếng **142,46 s** và phải dựng lại toàn bộ hình.
+
+### D.1 Phát hiện: video cũ không khớp audio (lỗi có sẵn từ trước, chưa ai phát hiện)
+
+| Đo | Số liệu |
+|---|---|
+| Audio master hiện tại `xuat_ban/Tap02_master.mp3` (31/10 11:23, vòng 2 §7) | **1411,87 s** |
+| `picture.mp4` cũ (dựng 25/10 17:23) | **1554,33 s** → dài hơn audio **142,46 s** |
+| Bảng shot cũ `shots_t02.json` (25/10 16:14) | 151 shot, kéo tới 1554,34 s |
+| Lệch bảng shot so với timeline mới | shot `1-01` lệch −0,2 s → shot `5-28` lệch **+141,5 s** (lệch dần theo thời gian) |
+| Vị trí thẻ kết trong video cũ | **1545,34–1554,34 s** ⇒ ghép `-shortest` sẽ **cắt mất thẻ kết** |
+| Khung tại 1410 s của video cũ | vẫn là shot `5-16` — "NHỮNG BƯỚC LẪN RANH GIỚI RẤT NHỎ" (giữa hồi 5), **không** phải thẻ kết |
+
+**Lịch sử thời lượng audio master (đo bằng ffprobe):**
+
+| Mốc | Master | Thời lượng |
+|---|---|---|
+| 23/10 18:09 | MiniMax, bản `.bak_bgm` | 1605,70 s |
+| 31/10 08:37 | Higgs lượt 1 (`.work/_cu/prod_t02_20261031/`) | 1476,27 s |
+| 31/10 11:23 | Higgs lượt 2 — bản đang dùng | **1411,87 s** |
+| 25/10 17:23 | **video dựng** (từ timeline lúc đó, tổng 1554,34 s) | picture 1554,33 s |
+
+⇒ Hình **chưa bao giờ** được dựng lại sau mỗi lần audio đổi; độ lệch tích luỹ dần.
+
+**Nguyên nhân:** `parse_shots.py` lấy mốc thời gian **chỉ từ `timeline_s.json`** (đo từ audio). Đổi audio ⇒ timeline đổi ⇒ bảng shot và hình phải sinh lại. `mtime` bảng shot vẫn **CŨ HƠN** mp4 nên bẫy A11 #37 không bắt được — phải so **thời lượng** (`picture.mp4` ↔ `timeline.total`), không so mtime.
+
+### D.2 Cách làm (đúng quy trình A3, mọi lệnh có `AE_EP=02`)
+
+| Bước | Lệnh | Kết quả |
+|---|---|---|
+| 0 | Sao lưu (L5) | `.work/_cu/repack_t02_20261031/` — `shots_t02.json`, `picture.mp4`, `Tap02.srt`, `Tap02_master.mp3`, `thumbnail.png`, `mo_ta.txt`, `nguon_tham_khao.md`, `package.py` |
+| 1 | `py -3 .work/parse_shots.py` | 151 shot · **0 khác biệt nội dung** so với bản cũ (chỉ `start`/`end`) ⇒ **ảnh tĩnh không cần duyệt lại** · tổng 1411,87 s · 0 nền thiếu file |
+| 2 | `py -3 .work/build_video3.py --workers 6` | **37 phút 41 s** (30 fps tổng ≈ 5 fps/worker) → `picture.mp4` **1411,87 s** · 475,2 MB |
+| 3 | `py -3 .work/subtitles.py` | **380 cue** (không đổi số cue, lệch −142,47 s) |
+| 4 | `py -3 .work/package.py --mux` | `Tap02_master.mp4` **510,6 MB** + thumbnail + `mo_ta.txt` + `nguon_tham_khao.md` |
+
+### D.3 Số đo thành phẩm (đo trên CHÍNH file mp4 cuối — A11 #38)
+
+| Đo | Kết quả | Cổng |
+|---|---|---|
+| Thời lượng mp4 | **1411,867 s** (khớp `timeline.total` 1411,87 s) | ±0,05 s ✅ |
+| Video / tiếng | 1411,867 s / 1411,861 s · h264 1920×1080 @30 · AAC 48 kHz 2ch · 2,89 Mbps | ✅ |
+| Giải mã toàn tệp | **0 dòng lỗi** | ✅ |
+| Loudness (ebur128 trên mp4) | **−16,0 LUFS** | −16 ± 1 ✅ |
+| Đỉnh true peak (trên mp4) | lần ghép đầu **−1,4 dBTP** → sau vá **−1,9 dBTP** | ≤ −1,5 ✅ |
+| Câu thoại nằm trọn trong shot của nó | **203/203 câu** | ✅ |
+| Shot liền kề (không hở) | 0 chỗ hở | ✅ |
+| Phụ đề | 380 cue · 0 cue > 6 s · 0 overlap · cue cuối 1402,87 s | ✅ |
+| Phụ đề vs kịch bản (G6) | **203/203 câu khớp nguyên văn**; phụ đề (bỏ tag vai) == lời đọc | ✅ |
+| Thẻ kết | shot `5-29` ở 1402,87–1411,87 s; khung trích từ mp4 có đủ "HỒ SƠ TẬP 02 · ĐÃ ĐÓNG / AMBER EYES / Phân tích tâm lý tội phạm / qua những hồ sơ có thật" | ✅ |
+| Mốc chương trong mô tả | 00:00 · 00:20 Hồi 1 · 05:03 Hồi 2 · 08:39 Hồi 3 · 13:32 Hồi 4 · 18:32 Hồi 5 | ✅ |
+
+### D.4 Vá `package.py` — giới hạn đỉnh trước khi mã hoá AAC
+
+Lần ghép đầu: WAV đã ở đúng trần (sample peak −1,5 dBFS) nhưng **AAC dựng lại true peak thành −1,4 dBTP** → vượt trần của dự án (A11 #38). Vá trong `mux()`:
+
+```
+-af "alimiter=limit=0.7943:attack=5:release=50:level=disabled"
+```
+
+`limit` = sample peak −2 dBFS; `level=disabled` để không đổi loudness tổng. Đo lại trên mp4: **đỉnh −1,9 dBTP · −16,0 LUFS**. Vá áp dụng cho **mọi tập** (không riêng Tập 02) và không đụng danh sách câu / mốc thời gian / bảng shot ⇒ không cần hồi quy Tập 01. Bản gốc: `.work/_cu/repack_t02_20261031/package.py.bak`.
+
+### D.5 Bài học đã ghi vào tài liệu
+
+- Tiêu chuẩn A11 **#55**: đổi audio ⇒ phải chạy lại `parse_shots.py` + dựng lại hình. Cổng trước khi đóng gói: so thời lượng `picture.mp4` với `timeline.total` (±0,05 s) + trích khung `timeline.total − 2 s` xem thẻ kết có thật không.
+- `AGENTS.md` mục 2 (bước 9–10) + mục 6 **H14**.
+
+### D.6 Việc còn lại của người dùng
+
+- Bổ sung nguồn công khai vào `xuat_ban/nguon_tham_khao.md` (34 dòng còn trống link) trước khi đăng.
+- Nghe duyệt lại tập 02 bản tiếng Việt (giọng Higgs mới, hình dựng lại).
+- Bản EN / JA của Tập 02 dùng audio riêng (25/10, không đổi) ⇒ không bị ảnh hưởng.
