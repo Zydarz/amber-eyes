@@ -60,6 +60,13 @@ assets/bg/
 *.pyc
 __pycache__/
 
+# ---------- Artifact QC (contact sheet / khung hien) — sinh lai duoc ----------
+# 56 file PNG ~280 MB chi la QC output (build_video3.py --stills + script ghep sheet).
+# KHONG commit: file van con tren dia, chi bo theo doi git.
+# Tap sinh lai: .work/_make_stills_sheets_by_act_tXX.py, .work/_make_qc_tXX.py
+02_SAN_XUAT/**/contact_sheet*.png
+02_SAN_XUAT/**/qc_*.png
+
 # ---------- Clip tham chieu VoxCPM2 moi cho G9 ----------
 # Ban 48 kHz trung gian nam o .work/voxcpm_raw/ (da bi ignore boi `.work/*` o dong 31).
 # Chi commit ban dong goi 24 kHz trong assets/voice_ref_voxcpm2_g9/
