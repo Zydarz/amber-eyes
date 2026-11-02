@@ -8,7 +8,7 @@
 
 ### A. Title Options
 * **Option 1 (Recommended — Balanced True Crime & Clinical Psychology):**  
-  `The Purple Floppy Disk: Narcissistic Addiction & Compartmentalization (The BTK Dennis Rader Case) | Amber eyes`
+  `Ep. 05: The Purple Floppy Disk | The Psychology of BTK Dennis Rader (Compartmentalization)`
 * **Option 2 (High CTR / Dramatic):**  
   `The 30-Year Mask: How a Purple Floppy Disk Shattered the BTK Killer | Criminal Psychology`
 * **Option 3 (Documentary Focus):**  
@@ -56,7 +56,7 @@ SHATTERED
 ## 4. US YouTube Description with Crisis Resources
 
 ```text
-The Purple Floppy Disk: Narcissistic Addiction & Compartmentalization (The BTK Dennis Rader Case) | Amber eyes
+Ep. 05: The Purple Floppy Disk | The Psychology of BTK Dennis Rader (Compartmentalization)
 
 For thirty years, Dennis Rader lived a double life as a devoted family man, church council president, and Cub Scout leader—while secretly terrorizing the Midwest as the serial perpetrator known as BTK. Why did he break a 13-year silence in 2004, and how did a simple purple floppy disk collapse his impenetrable facade?
 

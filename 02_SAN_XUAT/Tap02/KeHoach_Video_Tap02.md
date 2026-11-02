@@ -578,3 +578,92 @@ Lần ghép đầu: WAV đã ở đúng trần (sample peak −1,5 dBFS) nhưng 
 - Bổ sung nguồn công khai vào `xuat_ban/nguon_tham_khao.md` (34 dòng còn trống link) trước khi đăng.
 - Nghe duyệt lại tập 02 bản tiếng Việt (giọng Higgs mới, hình dựng lại).
 - Bản EN / JA của Tập 02 dùng audio riêng (25/10, không đổi) ⇒ không bị ảnh hưởng.
+
+---
+
+## PHỤ LỤC E (Tập 02) — RÀ MÔ TẢ (`mo_ta.txt`) VỚI VIDEO THẬT (02/11/2026)
+
+**Cách làm:** trích frame từ CHÍNH `xuat_ban/Tap02_master.mp4` (1920×1080 @30 · 1411,867 s) bằng OpenCV, dò độ sáng để tìm thẻ hồi, đọc chữ trên thẻ, đối chiếu từng dòng của `mo_ta.txt`. Không tin bảng shot trong hồ sơ — đo lại từ file xuất.
+
+### E.1 Số đo trên chính file mp4
+
+| Mốc trong `mo_ta.txt` | Thực tế trong mp4 (đo) | Kết luận |
+|---|---|---|
+| 00:00 Intro | intro 0 → 22,41 s; thẻ "LƯU Ý TRƯỚC KHI XEM" ~19–21 s | ✅ |
+| 00:20 Hồi 1 | thẻ **HỒI 01** hiện **22,0 s**; lời đầu 23,0 s | ⚠ lệch 2 s → đổi 00:22 |
+| 05:03 Hồi 2 | thẻ ở **303,2 s** (timeline ACT 2 = 303,640 s) | ✅ |
+| 08:39 Hồi 3 | thẻ ở **519,5 s** (timeline ACT 3 = 519,590 s) | ✅ |
+| 13:32 Hồi 4 | thẻ ở **~812–813 s** (timeline ACT 4 = 812,090 s) | ✅ |
+| 18:32 Hồi 5 | thẻ ở **1112,5 s** (timeline ACT 5 = 1112,640 s) | ✅ |
+
+Ngoài ra: câu *"không tồn tại một chẩn đoán lâm sàng công khai nào về Russell Williams"* có thật trong video (lúc 09:11) · thẻ kết ở 1402,9–1411,9 s có đủ "HỒ SƠ TẬP 02 · ĐÃ ĐÓNG / AMBER EYES / Phân tích tâm lý tội phạm qua những hồ sơ có thật" · thumbnail đúng tập.
+
+### E.2 Ba lệch đã sửa (lượt 02/11/2026)
+
+| # | Lệch | Sửa ở đâu |
+|---|---|---|
+| 1 | Tên Hồi 1 thiếu "cực đại" (thẻ ghi "SỰ TƯƠNG PHẢN **CỰC ĐẠI** PHÍA SAU QUÂN HÀM ĐẠI TÁ") | `.work/edition.py` → `EPISODES["02"]["act_titles"][1]` |
+| 2 | Mốc Hồi 1 lệch 2 s | `.work/package.py` → `starts = {1: TL.get("intro", 20.5)}` (mọi timeline VN đều `intro = 22,41` s) |
+| 3 | Disclaimer ghi vai "Người dân", nhưng phụ đề tập 02 dùng nhãn **[BINH SĨ]** (cue 14) và **[KHÁN GIẢ]** (cue 237) — không có "Người dân" | `.work/edition.py` → khoá mới `EPISODES["02"]["roles_line"]`; `.work/package.py` đọc khoá này, **mặc định giữ nguyên** câu cũ cho tập khác |
+
+### E.3 Vì sao sửa ở generator chứ không sửa tay `mo_ta.txt`
+
+`mo_ta.txt` do `package.py description()` **sinh ra** mỗi lần chạy ⇒ sửa tay file thành phẩm sẽ bị ghi đè. Đã sửa đúng 3 tầng: `edition.py` (cấu hình tập) → `package.py` (template) → sinh lại bằng `AE_EP=02 python .work/package.py` (**không** `--mux` ⇒ không ghép lại video).
+
+**Kết quả:** `mo_ta.txt` diff đúng **3 dòng**, `nguon_tham_khao.md` **không đổi** (sha256 giống nhau), `thumbnail.png` **không đổi** (sha256 giống nhau).
+
+### E.4 Kiểm hồi quy Tập 01 (L9)
+
+Sinh thử trong bộ nhớ (chặn `Path.write_text` ⇒ **không** đụng file Tập 01) rồi diff với file trên đĩa:
+
+- **Tập 01:** đúng **1 dòng đổi** — `00:20 Hồi 1` → `00:22 Hồi 1`. Tên 5 hồi, câu disclaimer và phần còn lại giữ nguyên. `nguon_tham_khao.md` Tập 01 **giống hệt** file sinh ra ⇒ không mất link nào.
+- **Tập 02:** **0 dòng đổi** ⇒ file trên đĩa = đúng output của pipeline (chạy lại `package.py` không làm lệch thêm).
+
+Cơ sở của việc đổi Tập 01: `timeline_s.json` (T01) cũng có `intro = 22,41 s`, hồ sơ Tập 01 mục "INTRO KÊNH · 0,00–22,41 s" và shot 1-00 (thẻ HỒI 01) chồng lên phần đen cuối intro — **cùng thiết kế** với Tập 02.
+
+### E.5 Bài học đã ghi
+
+- Tiêu chuẩn A11 **#70** (file mô tả là file sinh — sửa generator + config, không sửa tay) và **#71** (mốc chương phải đo từ mp4; `starts` hardcode 20,5 s lệch 2 s).
+- `AGENTS.md` mục 8 **T10** (file mô tả là file sinh) và **T11** (mốc chương phải đo, không đoán).
+
+### E.6 Việc còn lại của người dùng
+
+- **34 dòng nguồn trong `nguon_tham_khao.md` vẫn trống link** ⇒ chặn đăng (bản EN cũng 0/37).
+- Dòng tổng đài **111 (bảo vệ trẻ em)** không liên quan nội dung tập này (cả hai nạn nhân đều là người lớn: Jessica Lloyd 27 tuổi, Marie-France Comeau 37 tuổi). Bản EN dùng đường dây nóng tấn công tình dục + nạn nhân Canada. **Cần người dùng chốt** số điện thoại — AI không tự bịa.
+- Bản EN (`Tap02_EN/xuat_ban/mo_ta.txt`) vẫn dùng mốc `00:20 Act 1` và `package.py` vẫn hardcode `20.5` ở nhánh EN/JA/KO ⇒ cùng lệch 2 s, **chưa sửa** (ngoài phạm vi lượt này).
+
+---
+
+## PHỤ LỤC F (Tập 02) — HASHTAG CHO MÔ TẢ TIẾNG VIỆT (02/11/2026)
+
+**Quyết định của người dùng (02/11/2026):** hashtag = **bộ tag EN của tập + 3 tag tiếng Việt không dấu** `#TamLyToiPham #PhamVan #HoiTo`; áp dụng cho **toàn bộ tập tiếng Việt** (01, 03–07 cùng Tập 02).
+
+### F.1 Vì sao phải sửa ở generator
+
+`mo_ta.txt` do `package.py description()` sinh ra ⇒ sửa tay sẽ mất. Đã vá 2 tầng:
+
+- `.work/edition.py`: thêm khoá `"hashtags"` vào `EPISODES["01".."07"]` (mỗi tập một bộ tag riêng).
+- `.work/package.py` (nhánh VN): `hashtags = ED.EP.get("hashtags", "")` → `tag_line = ("\n\n" + hashtags) if hashtags else ""`, chèn ở cuối mô tả (sau dòng tổng đài 111). **Bản EN/JA/KO không đọc khoá này** — EN lấy tag từ `CHU_CO_DINH_EN.md`.
+
+### F.2 Bộ tag đã đặt
+
+| Tập | Tag EN (nguồn) | Tag bản VN |
+|---|---|---|
+| 01 Blanchard | tự đặt theo vụ án (EN chưa có dòng tag) | + `#TamLyToiPham #PhamVan #HoiTo` |
+| 02 Williams | `CHU_CO_DINH_EN.md` | + 3 tag VN |
+| 03 Kemper | `CHU_CO_DINH_EN.md` | + 3 tag VN |
+| 04 Cullen | `CHU_CO_DINH_EN.md` | + 3 tag VN |
+| 05 BTK | `CHU_CO_DINH_EN.md` | + 3 tag VN |
+| 06 Gacy | tự đặt theo vụ án (chưa có bản EN) | + 3 tag VN |
+| 07 Carter–Roy | tự đặt theo vụ án (chưa có bản EN) | + 3 tag VN |
+
+### F.3 Cách sinh lại (không đụng thumbnail)
+
+Gọi `description()` **trực tiếp** cho từng tập — **không** chạy CLI `package.py` vì CLI còn gọi `thumbnail()` ⇒ sẽ **ghi đè thumbnail đã xuất** của các tập cũ (Tập 01, 03–07 có thumbnail từ 22/10–01/11).
+
+**Đo sau khi sinh:** `thumbnail.png` của cả 7 tập **không đổi** (sha256 giống bản trên đĩa) · `nguon_tham_khao.md` 6/7 tập không đổi · **Tập 03 đổi 6 dòng** vì file nguồn cũ sinh trước khi kịch bản viết lại (trích dẫn trong bảng lấy từ câu hiện tại) ⇒ **không mất link nào**, chỉ cập nhật đoạn trích. `mo_ta.txt` mỗi tập **+1 dòng hashtag**; Tập 03 thêm dòng `voice_credit` (Higgs) vì file cũ sinh trước khi có khoá này; Tập 04/05 mất 1 dòng trống thừa do template credit cũ.
+
+### F.4 Ghi chú
+
+- Tập 08–29 trong `EPISODES` **chưa có mô tả** ⇒ chưa đặt tag; khi dựng tập mới, khai `"hashtags"` theo cùng khuôn (tag EN/vụ án + 3 tag VN).
+- `#PhamVan` hơi "lệch" với Tập 01 (Münchausen — không có phần thẩm vấn) nhưng giữ **đồng nhất 3 tag VN cho mọi tập** theo quyết định của người dùng.

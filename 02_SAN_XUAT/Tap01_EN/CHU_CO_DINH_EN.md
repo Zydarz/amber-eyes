@@ -92,7 +92,7 @@ Phương án ngắn hơn, đọc được trên điện thoại: `POISONED` / `B
 Mốc chương để `[mm:ss]`. Script tự điền sau khi đo thời lượng bản EN (bản EN ngắn hơn bản VN nên mốc sẽ khác).
 
 ```
-Poison in the Name of a Mother’s Love — Inside Munchausen Syndrome by Proxy | Amber eyes
+Ep. 01: Poison Disguised as Mother’s Love | The Psychology of Gypsy Rose Blanchard (FDIA)
 
 Today we step inside a small pink house in Missouri to unpack one of the strangest and cruelest psychological disorders ever hidden behind a mask of love: Munchausen syndrome by proxy. Dee Dee Blanchard was never formally diagnosed, but her behavior is widely believed to reflect this condition, which the modern diagnostic manual DSM-5-TR calls factitious disorder imposed on another (FDIA).
 
@@ -129,6 +129,6 @@ Số Childhelp 1-800-422-4453 (gọi hoặc nhắn tin, 24/7) đã kiểm trên 
 
 ## 8. Tên tập và thẻ YouTube
 
-- **Tiêu đề video:** `Poison in the Name of a Mother’s Love — Inside Munchausen Syndrome by Proxy | Amber eyes`. Dài 88 ký tự, dưới giới hạn 100.
+- **Tiêu đề video:** `Ep. 01: Poison Disguised as Mother’s Love | The Psychology of Gypsy Rose Blanchard (FDIA)`. Dài 88 ký tự, dưới giới hạn 100.
 - **Tên tập trên màn hình** (shot 1-21): `EPISODE 01 · POISON IN THE NAME OF A MOTHER’S LOVE`
 - **Thẻ đề xuất:** Gypsy Rose Blanchard, Dee Dee Blanchard, Munchausen syndrome by proxy, FDIA, factitious disorder, criminal psychology, true crime, psychology explained, learned helplessness, trauma bonding

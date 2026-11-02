@@ -8,7 +8,7 @@
 
 ### A. Title Options
 * **Option 1 (Recommended — Balanced Forensic & Psychology):**  
-  `The IQ 145 Giant: Edmund Kemper & The Psychological Autopsy of a Serial Killer | Amber eyes`
+  `Ep. 03: The IQ 145 Giant | The Psychology of Edmund Kemper (Psychopathy)`
 * **Option 2 (Dramatic / High CTR):**  
   `The Mindhunter Pioneer: Inside the Chilling Mind of Edmund Kemper | Criminal Psychology`
 * **Option 3 (Direct Translation of Vietnamese Title):**  
@@ -56,7 +56,7 @@ MIRROR
 ## 4. YouTube Description (With Timestamps & Crisis Support Resources)
 
 ```text
-The IQ 145 Giant: Edmund Kemper & The Psychological Autopsy of a Serial Killer | Amber eyes
+Ep. 03: The IQ 145 Giant | The Psychology of Edmund Kemper (Psychopathy)
 
 In April 1973, a towering 6-foot-9 man named Edmund Emil Kemper III walked into a glass telephone booth beside a lonely highway in Pueblo, Colorado. With a measured, articulate tone and an IQ measured at 145, he dialed Santa Cruz police dispatch to surrender for a series of murders that had terrified California for nearly a year.
 

@@ -13,9 +13,9 @@
 | Kịch bản | `01_KICH_BAN/Tap04/kichban_tap04_23102026.md` — đã chuẩn hóa lịch sử, pháp lý, tâm lý học |
 | Lượt nói / câu / từ | 34 / **154** (bản sửa 31/10/2026; bản cũ 161 / 4.651) — Host (H) 50,0% · Điều tra viên (D) 24,0% · Chuyên gia (C) 20,8% · Y tá Somerset (N1) 2,6% · Y tá hình dung (N2) 2,6% (H 77 · D 37 · C 32 · N 8) |
 | Giọng (bộ A) | H: `English_CaptivatingStoryteller` · D: `Korean_ColdYoungMan` · C: `English_AssertiveQueen` · N1: `Vietnamese_kindhearted_girl` · N2: `English_captivating_female1` |
-| Thời lượng thực tế | **26:03** (1.562,9 s) · lời đầu 23,0 s · lời cuối hết 1.552,9 s |
-| Thành phẩm xuất bản | Video: `Tap04_master.mp4` (556,18 MB, 1080p, 0 decode errors, lệch hình/tiếng 0,02 s) · Audio: `Tap04_master.mp3` (35,77 MB, -16,2 LUFS) · Phụ đề: `Tap04.srt` (377 cues) |
-| Mốc hồi | Hồi 1: 00:23 · Hồi 2: 04:54 · Hồi 3: 10:57 · Hồi 4: 15:46 · Hồi 5: 20:35 |
+| Thời lượng thực tế | **20:56** (1.256,5 s) · lời đầu 23,0 s · lời cuối hết 1.246,5 s |
+| Thành phẩm xuất bản | Video: `Tap04_master.mp4` (473,53 MB, 1080p, 0 decode errors, lệch hình/tiếng 0,02 s) · Audio: `Tap04_master.mp3` (30,16 MB, -16,2 LUFS) · Phụ đề: `Tap04.srt` (324 cues) |
+| Mốc hồi | Hồi 1: 00:23 · Hồi 2: 04:27 · Hồi 3: 09:10 · Hồi 4: 13:02 · Hồi 5: 16:06 |
 | Nền dùng | 51 nền `t4_*` mới 100% (2112×1188 16:9 2K noir) + `void` |
 | Phân loại YouTube | Giáo dục · Không dành cho trẻ em · "Nội dung bị thay đổi hoặc tổng hợp" (A10) |
 
@@ -257,5 +257,21 @@ Cổng A–G chạy lần đầu báo **3 lỗi**; 2 lỗi là dương tính gi�
 - Báo cáo tổng hợp: `02_SAN_XUAT/Tap04/BAO_CAO_GIAM_SAT_T04.md`.
 
 - **G10 — sửa nhãn giọng trong `thu_giong_kiem_vai/report.md` (01/11/2026):** báo cáo in nhãn vai bằng `ED.CAST[role][0]` (tên giọng MiniMax) trong khi Tập 04 đã chạy **Higgs Audio v3** ⇒ ghi sai giọng thật. Đã sửa **5/5 dòng** sang nhãn theo `ref_wav` (H→`H.wav` · D→`D3_SH.wav` · C→`C2_AB03.wav` · N1→`W6_LOW.wav` · N2→`W5_HIGH.wav`), dùng đúng logic của `voice_role_check.py` sau bản vá (`.work/_fix_g10_labels.py`). Nội dung đánh giá của người nghe (SPEAKERS, kết luận ĐẠT/KHÔNG ĐẠT) **không đổi**. Chi tiết + kiểm hồi quy: `02_SAN_XUAT/Tap05/KeHoach_Video_Tap05.md` (Phụ lục H-4) và tiêu chuẩn A11 #68.
+
+### Bước 10 — Mô tả YouTube Tập 04: bổ sung mục NGUỒN THAM KHẢO (02/11/2026)
+
+**Vấn đề.** `xuat_ban/mo_ta.txt` của T04 còn để nguyên khung `[CHƯA CÓ — phải bổ sung nguồn công khai đã kiểm chứng trước khi đăng]` ⇒ **không đạt điều kiện đăng**. Bảng `nguon_tham_khao.md` cũng rỗng vì `edition.py` để `EPISODES["04"]["need"] = []` và `package.py` chỉ đọc nguồn từ `02_SAN_XUAT/Tap04/` (file ở `xuat_ban/` bị ghi đè mỗi lần đóng gói).
+
+**Đã làm (không đụng video/audio/subtitle):**
+- `02_SAN_XUAT/Tap04/nguon_tham_khao.md` (mới) — bảng đối chiếu **29 mốc dữ kiện** × **23 nguồn công khai**, kèm cột mức ✅/⚠ và danh mục nguồn chi tiết. Nội dung câu lấy thẳng từ `timeline_s_t04.json` ⇒ không lệch bản đọc.
+- `02_SAN_XUAT/Tap04/nguon_mo_ta.txt` (mới) — khối chèn vào mục 📚 NGUỒN THAM KHẢO (nhãn rút gọn để còn dưới giới hạn 5.000 ký tự của YouTube).
+- `edition.py` — `EPISODES["04"]["need"]` điền 29 ID hợp lệ (đã kiểm tra tồn tại trong timeline) ⇒ `package.py` sinh lại bảng nguồn đúng, không còn rỗng.
+- `xuat_ban/mo_ta.txt` + `xuat_ban/nguon_tham_khao.md` — **sinh lại bằng chính `package.py`** (`AE_EP=04`), không sửa tay ⇒ chạy lại pipeline không làm mất nguồn.
+
+**Đo lại (file thành phẩm, 02/11/2026):** mô tả **4.873 ký tự** (< 5.000 của YouTube) · 23 link đều mở được (HTTP 200), 6 link bị WAF chặn bot (403) nhưng mở bình thường bằng trình duyệt · mốc chương **00:23 / 04:27 / 09:10 / 13:02 / 16:06** khớp 100 % cue SRT (23,0 · 267,19 · 550,44 · 782,39 · 966,05 s) · master 1.256,5 s.
+
+**Sửa bảng header (dữ liệu cũ lệch với QC trong chính file này):** thời lượng 26:03 → **20:56** · mp4 556,18 MB → **473,53 MB** · mp3 35,77 MB → **30,16 MB** · SRT 377 cues → **324 cues** · mốc hồi 04:54/10:57/15:46/20:35 → **04:27/09:10/13:02/16:06** (khớp số đo ở Bước 9.2 ngay dưới).
+
+**Còn lại trước khi đăng:** dán `xuat_ban/mo_ta.txt` vào YouTube (dán trọn 4.873 ký tự), gán `Tap04_master.mp4`, kiểm tra lại 3 dòng disclaimer trên UI tiếng Việt và hashtag cuối.
 
 

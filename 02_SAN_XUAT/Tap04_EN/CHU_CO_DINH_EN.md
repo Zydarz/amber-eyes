@@ -8,7 +8,7 @@
 
 ### A. Title Options
 * **Option 1 (Recommended — High Authority & Psychology):**  
-  `The Angel of Death: Covert God Complex & 16 Years of Institutional Silence (The Charles Cullen Case) | Amber eyes`
+  `Ep. 04: The Angel of Death | The Psychology of Charles Cullen (God Complex)`
 * **Option 2 (Investigative & Dramatic):**  
   `The Good Nurse’s Secret: Inside the Mind of American Healthcare's Deadliest Serial Killer | Amber eyes`
 * **Option 3 (Direct Translation of Vietnamese Title):**  
@@ -56,7 +56,7 @@ OF SILENCE
 ## 4. YouTube Description (With Timestamps & Crisis Support Resources)
 
 ```text
-The Angel of Death: Covert God Complex & 16 Years of Institutional Silence (The Charles Cullen Case) | Amber eyes
+Ep. 04: The Angel of Death | The Psychology of Charles Cullen (God Complex)
 
 In the quiet hours of October 2003, inside the intensive care unit of Somerset Medical Center in New Jersey, a quiet, 43-year-old nurse named Charles Edmund Cullen was regarded as a model employee—always willing to take grueling night shifts and rushing to assist during medical crises.
 

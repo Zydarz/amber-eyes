@@ -65,10 +65,10 @@
 | 2-12 | `2.06#3`–`#5` | H | T1 | `t3_case_photos` | **ERASED ALL FORENSIC TRACES** · *Zero fingerprints · Zero foreign fibers · Zero witnesses* | — | →D |  |
 | 2-13 | `2.07#1` | D | T1 | `t3_under_seat` | **A MOBILE DEATH TRAP** · *Meticulous Modus Operandi (M.O.)* | — | ✦ Sói |  |
 | 2-14 | `2.07#2`–`#5` | D | T1 | `t3_galaxie` | **1969 YELLOW FORD GALAXIE** · *Official UCSC parking sticker · Cultivating an illusion of total safety* | Tiêu đề ở "Ford Galaxie" |  |  |
-| 2-15 | `2.07#6`–`#8` | D | T8 | `t3_trunk` | *Trunk: plastic bags, hunting knife ("The General"), blankets, handcuffs · Handcuffing one, locking the other in trunk* | — | ⊘ |  |
-| 2-16 | `2.07#9`–`#10` | D | T1 | `t3_case_file` | *Three firearms and over 200 rounds of ammunition in rented car in Reno, Nevada* | — |  |  |
-| 2-17 | `2.07#11`–`#13` | D | T3 so sánh | `t3_bar_stool_shadow` | *Towering 6-foot-9 frame* · **AN INTELLECTUAL FACADE & CALCULATED CHARM** · *Soft-spoken, glasses, impeccably dressed* | Cột phải ở `#13` |  |  |
-| 2-18 | `2.07#14`–`#15` | D | T5 | `t3_hitchhiker` | **150** · *Practice runs offering rides to hitchhikers before ever striking* | Số đếm 0 → 150 |  |  |
+| 2-15 | `2.07#6`–`#7` | D | T8 | `t3_trunk` | *Trunk: plastic bags, hunting knife ("The General"), blankets, handcuffs · Handcuffing one, locking the other in trunk* | — | ⊘ |  |
+| 2-16 | `2.07#8`–`#9` | D | T1 | `t3_case_file` | *Three firearms and over 200 rounds of ammunition in rented car in Reno, Nevada* | — |  |  |
+| 2-17 | `2.07#10`–`#12` | D | T3 so sánh | `t3_bar_stool_shadow` | *Towering 6-foot-9 frame* · **AN INTELLECTUAL FACADE & CALCULATED CHARM** · *Soft-spoken, glasses, impeccably dressed* | Cột phải ở `#12` |  |  |
+| 2-18 | `2.07#13`–`#14` | D | T5 | `t3_hitchhiker` | **150** · *Practice runs offering rides to hitchhikers before ever striking* | Số đếm 0 → 150 |  |  |
 | 2-19 | `2.08#1`–`#3` | H | T1 | `t3_courthouse_exterior` | **THE CENTRAL ENIGMA:** *Why did he deliberately befriend the very detectives hunting him?* | — | →N2 |  |
 | 2-20 | `2.09#1`–`#3` | N2 | T1 | `t3_bar_jury_room` | **THE JURY ROOM BAR** · *Directly opposite the Santa Cruz County Courthouse* | — | ✦ Cảnh sát |  |
 | 2-21 | `2.09#4`–`#6` | N2 | T4 lời kể | `t3_bar_stool_shadow` | “He genuinely dreamed of becoming a police officer himself… Yet with his towering frame, no agency could accept him.” | — | 🅑 |  |
@@ -113,10 +113,10 @@
 | 4-17 | `4.08#6`–`#7` | H | T1 | `t3_brain_mirror` | *INSPIRATION FOR MODERN CLASSICS:* **THE SILENCE OF THE LAMBS & MINDHUNTER** | — | 🅑 |  |
 | 4-18 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *ACT 5* · **THE VERDICT, BEHAVIORAL RED FLAGS & FINAL THOUGHTS** | — | ⊘ | ◼ |
 | 5-01 | `5.01`–`5.02#1` | H | T5 ngày | `t2_gavel` | **23 · 10 · 1973** · *Santa Cruz County Superior Court* | Búa gõ (SFX `5.01`) ở đầu | ✦ Cú |  |
-| 5-02 | `5.02#2`–`#5` | H | T2 | `t3_courtroom_1973` | *PROSECUTOR PETER CHANG* · **8 CONCURRENT LIFE TERMS** · *Judge Harry F. Brauer* | Dấu mộc ở "concurrent life terms" |  |  |
-| 5-03 | `5.02#6`–`#7` | H | T1 | `t3_courtroom_1973`, `push` | **AN UNPRECEDENTED REQUEST:** *Demanding capital punishment by being tortured to death* | — | ⊘ |  |
-| 5-04 | `5.02#8`–`#11` | H | T8 | `t3_life_sentence` | *CMF Vacaville · Denied parole over 10 times · Next hearing: 2031* | Mỗi mục ở cụm từ |  |  |
-| 5-05 | `5.02#12`–`#13` | H | T4 lời kể | `t3_life_sentence`, `still` | “Society is not ready for me, in any way, shape, or form. I don’t blame them for that.” | — | ⊘ |  |
+| 5-02 | `5.02#2`–`#4` | H | T2 | `t3_courtroom_1973` | *PROSECUTOR PETER CHANG* · **8 CONCURRENT LIFE TERMS** · *Judge Harry F. Brauer* | Dấu mộc ở "concurrent life terms" |  |  |
+| 5-03 | `5.02#5`–`#6` | H | T1 | `t3_courtroom_1973`, `push` | **AN UNPRECEDENTED REQUEST:** *Demanding capital punishment by being tortured to death* | — | ⊘ |  |
+| 5-04 | `5.02#7`–`#10` | H | T8 | `t3_life_sentence` | *CMF Vacaville · Denied parole over 10 times · Next hearing: 2031* | Mỗi mục ở cụm từ |  |  |
+| 5-05 | `5.02#11`–`#12` | H | T4 lời kể | `t3_life_sentence`, `still` | “Society is not ready for me, in any way, shape, or form. I don’t blame them for that.” | — | ⊘ |  |
 | 5-06 | `5.03` (nghỉ 2 s) | — | — | giữ 5-05 | — | — | ⊘ |  |
 | 5-07 | `5.04#1` | H | T1 | `t3_red_flags` | **4 BEHAVIORAL RED FLAGS** · *Recognizing early markers of catastrophic violence* | — | →C+D |  |
 | 5-08 | `5.05#1`–`#3` | C | T9 `1/4` | `t3_red_flags` | **RED FLAG 01: THE MACDONALD TRIAD** · *Animal cruelty · Fire-setting · Persistent enuresis* | — | ✦ Cáo |  |
@@ -135,3 +135,18 @@
 | 5-21 | `5.11`–`5.12` (hết tập) | — | T10 | `t3_closing_desk` | *CASE FILE 03 · CLOSED* · **AMBER EYES** · *Criminal psychology through real case files* | Đóng hồ sơ, tắt cassette, cello fade out | ⊘ | ◼ |
 **Tổng: 110 shot — 93 shot có lời + 17 khoảng nghỉ / chuyển cảnh**
 **Total: 110 shots — 93 spoken shots + 17 pauses / transitions**
+
+## Audio Higgs bản tiếng Anh (02/11/2026)
+
+Bộ giọng EN của Tập 02 (`g9_role_map_EN.json`, dataset `chiduong2026/amber-eyes-voice-ref-voxcpm2-en`). Master: `xuat_ban/Tap03_EN_master.mp3`. Danh sách nghe: `CanNghe_Tap03_EN_higgs.md`.
+
+| Bước | Số đo |
+|---|---|
+| P0 | `edition.py` Tập 03 chưa có nhánh EN → đã thêm. `acting_tap03_EN.json` theo 220 mã cũ → chuyển theo nội dung (2.07#8–15→#7–14, 5.02#5–13→#4–12), 3.05#10 sửa "maternal"→"paternal". Bản gốc: `.work/_cu/en_t03_p0_20261102/` |
+| Lượt 1 | 445/445 file, 0 FAIL, ~52 phút Kaggle |
+| F0 (câu neutral AC/YIN) | H 113/115 · D 97 · C 189/193 · N1 167/175 Hz. G9: C–H 8,85 · H–N1 6,74 · H–N2 11,73 · C–D 11,55 ✅ · **D–H 2,70 nc ❌** (Tập 02 EN: 2,74 — đã được chấp nhận; cần người dùng xác nhận lại) |
+| Vòng 2 / 3 | 24 file / 6 file (3 câu). Còn 7 câu > 2% (đa số ASR bỏ chữ đầu hoặc "4:00" vs "four") |
+| 1.05#6 | "Six of them." — 6/6 bản CER 0% nhưng đều bị loại vì AC/YIN lệch (câu 1 s, nghi nhảy quãng tám). Đã bỏ s1 khỏi danh sách loại (gốc: `_cu/…/higgs_exclude_f0_EN_t03.json`); **người dùng nghe xác nhận** |
+| Lỗi master | Khoảng câm 0,39 s tại 268,3 s (giữa 1.13#4 và 1.13#5): bảng `ambience` của `sfx_tap03.json` không phủ 1.13#1–1.15#2, nền chung có chỗ trũng 14 dB. Thêm `['1.13#1','1.15#2','t2/amb_office_night.wav',-33]` → 0 khoảng câm. **File này dùng chung với bản VN Tập 03** (chưa dựng lại bản VN) |
+| Master | 1646,6 s · −16,3 LUFS · −1,8 dBFS · 0 câm > 0,3 s · lời đầu 23,0 s · 0 file Higgs có đuôi câm ✅ |
+| Chưa làm | G10 nghe mù theo vai · `parse_shots.py` + dựng hình · phụ đề · đóng gói |

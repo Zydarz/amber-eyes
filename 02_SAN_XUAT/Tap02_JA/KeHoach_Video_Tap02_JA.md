@@ -15,7 +15,7 @@
 | Kịch bản | `01_KICH_BAN/Tap02_JA/kichban_tap02_JA.md` (chuẩn `00_TIEU_CHUAN/CHU_CO_DINH_JA.md`, 203 câu, 36 lượt nói, Director's Cut) |
 | Lượt nói / câu | 36 / **203**. Host 50% · Chuyên gia 25% · Điều tra viên 20% · Người bình thường 5%. Mã câu trùng 100% bản VN (`script_tap02_JA.json`) |
 | N1 / N2 | `1.07` トレントン基地関係者 (Cừu) / `4.06` ツイード住民 (Mèo) |
-| Bảng shot | 151 dòng = 135 shot có lời + 16 dòng không lời |
+| Bảng shot | 151 dòng = 134 shot có lời + 17 dòng không lời |
 | Nền dùng | `assets/bg/` (dùng lại 100% của bản VN/EN) |
 | Giọng | H `Japanese_GentleButler` 0.95 · D `Japanese_SeriousCommander` 0.97 · C `Japanese_DependableWoman` 0.95 · N1 `Japanese_KindLady` 0.95 · N2 `Japanese_DecisivePrincess` 0.95 |
 
@@ -32,7 +32,8 @@ Cột cuối: trống = hoà tan · ✂ cắt · ◼ tối đen.
 
 ### INTRO KÊNH · 0,00–22,41 s · `bgm_music_box.mp3`
 
-Đặt `assets/brand/intro_kenh.mov` ở 0,00 s (A5.7). Không câu thoại nào thuộc intro.
+Đặt `assets/brand/intro_kenh_JA_t02.mov` ở 0,00 s (A5.7). Không câu thoại nào thuộc intro.
+Renderer hiện ảnh intro ở 0,00–20,50 s; shot `1-00` (20,50–22,80 s) mở dần từ đuôi đen của intro.
 
 ### HỒI 1 — SỰ TƯƠNG PHẢN CỰC ĐẠI PHÍA SAU QUÂN HÀM ĐẠI TÁ · nền chủ đạo `t2_base_trenton`
 
@@ -210,5 +211,5 @@ Cột cuối: trống = hoà tan · ✂ cắt · ◼ tối đen.
 | 5-28 | `5.12#4` | H | T10 | `t2_podcast_desk` mờ | **次回の事件ファイルでお会いしましょう** · *コメント欄にご意見をお寄せください* | — | 🅑 | |
 | 5-29 | `5.13`–`5.14` | — | T2 | `t2_podcast_desk`, bìa hồ sơ gập (Pillow), cassette dừng | *事件ファイル 第02話 · 終結* · **AMBER EYES** · *実際の事件記録から読み解く犯罪心理学* | Thẻ hồ sơ hiện sau tiếng "Cạch"; mờ ra đen | ⊘ | ◼ |
 
-**Tổng: 151 dòng = 134 shot có lời + 17 dòng không lời.** Phủ 215/215 câu, đúng thứ tự, cột Vai khớp người nói, mọi nền có file, mọi câu trích nguyên văn (kiểm tra bằng script ngày 22/10/2026). Các số `01`–`04`, `02` trên hình là nhãn thứ tự (giống *TẦNG 01*, cờ *01* của Tập 01), không phải dữ kiện.
+**Tổng: 151 dòng = 134 shot có lời + 17 dòng không lời.** Phủ 203/203 câu, đúng thứ tự, cột Vai khớp người nói, mọi nền có file, mọi câu trích nguyên văn (đo lại 02/11/2026 sau khi dựng lại hình theo audio Higgs mới). Các số `01`–`04`, `02` trên hình là nhãn thứ tự (giống *TẦNG 01*, cờ *01* của Tập 01), không phải dữ kiện.
 **Tổng:** 151 shot phủ 100% kịch bản.
