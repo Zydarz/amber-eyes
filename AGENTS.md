@@ -218,4 +218,19 @@ Mỗi bước chỉ làm khi bước trước **ĐẠT**. Lệnh cụ thể: ti�
 
 ---
 
+## 11. Dọn đĩa sau khi tập đã đăng
+
+> Lần đầu áp dụng 02/11/2026 cho Tap01 + Tap02 (4 ngôn ngữ): giải phóng **20,1 GB** trên ổ D: (12,7 → 32,8 GB).
+
+- **QUY TẮC**: tập đã upload YouTube xong → xoá media của tập đó khỏi đĩa. Dọn **theo tập × ngôn ngữ**, không dọn "mọi thứ cũ" — mỗi tập chạy song song, xoá nhầm là mất công dựng lại.
+- **XOÁ**: `02_SAN_XUAT/TapXX*/xuat_ban/*_master.mp4|mp3` · `thumbnail.png` · `contact_sheet*` · `_qc_frames/` · `thu_giong*/` (mẫu giọng thử) · `.work/video3*` (picture.mp4, part_*.mp4) · `.work/audio_s*` (TTS theo câu) · `.work/stems*` (6 lớp âm thanh) · `.work/audio_master_*_t0X.wav` · `.work/kaggle_higgs/out_higgs_*t0X` (output Higgs TTS) · `.work/_cu/*` bản sao của tập đó · `assets/brand/intro_*_t0X.mov` + `intro_preview*`.
+- **GIỮ**: file text của tập (`.md` `.txt` `.srt`) — xoá media **không** được xoá kịch bản/phụ đề · `assets/bg/` (dùng chung 29 tập) · `assets/voice_ref_voxcpm2*/` (thư viện giọng mẫu) · `assets/brand/intro_kenh.mov` + `intro_kenh_EN.mov` (intro gốc, mọi tập dùng lại) · output Higgs và `_cu` của **tập khác**.
+- **Đường dẫn trong `.work` theo quy ước**: hậu tố `_EN` `_JA` `_KO` = ngôn ngữ, `_t02` = tập 2, **không hậu tố = tập 1**. Vậy `video3_EN_t02` = Tap02 EN, `video3_KO` = Tap01 KO.
+- **Cơ chế xoá trên máy này**: `rm -- "<đường dẫn tuyệt đối>"` → runtime chuyển sang `mavis-trash` (**Recycle Bin**). KHÔNG dùng `Remove-Item`/`del`/script xoá — runtime chặn. KHÔNG gọi `mavis-trash` trực tiếp, và **không `cd` trước lệnh `rm`** (runtime chặn: "cannot be verified safely after a command working directory change").
+- **Muốn thật sự giải phóng ổ D: phải dọn Recycle Bin sau đó**: `Clear-RecycleBin -DriveLetter D -Force`. Nó **báo lỗi `The system cannot find the path specified` nhưng vẫn dọn được** → kiểm bằng `Get-PSDrive D` (số GB trống), đừng tin exit code. Dọn Recycle Bin xoá **cả** rác cũ của người dùng trên ổ đó.
+- **Sau khi xoá**: `git status` sẽ hiện `D` cho file media đang được track (vd `thumbnail.png`) → **PHẢI commit + push** để repo không bẩn. Thêm luật `.gitignore` `02_SAN_XUAT/Tap0[12]*/xuat_ban/thumbnail.png` để `package.py` chạy lại không track lại.
+- **Đừng tin tên thư mục, hãy đọc log**: `.work/kaggle_higgs/out_higgs_prod` chứa file `amber-eyes-higgs-prod-t02-kaggle-gpu.log` → là **Tap02**, không phải Tap01. File `D_clone_d3sh_ko5_t01.wav` có `t01` là **số thứ tự clip**, không phải tập 1.
+
+---
+
 *Khi thêm bài học mới: thêm một dòng vào bảng phù hợp ở đây (ngắn, mệnh lệnh, kèm lỗi đã gặp) **và** vào tiêu chuẩn mục A11.*
