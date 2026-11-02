@@ -71,10 +71,10 @@ EPISODES = {
         "route_pins": {"1-16": ("SPRINGFIELD, MISSOURI", "WISCONSIN")},   # T7: nhãn 2 ghim
         # package
         "thumb": ("POISON IN THE NAME", "OF A MOTHER’S LOVE") if EN else ("母の愛という名の", "毒薬") if JA else ("엄마의 사랑이라는", "이름의 독약") if KO else ("ĐỘC DƯỢC", "NHÂN DANH TÌNH MẸ"),
-        "title": ("The Blanchard Case: Deciphering Munchausen Syndrome by Proxy | Amber eyes" if EN else
-                  "母の愛という名の毒薬――代理型ミュンハウゼン症候群を解読（Blanchard事件） | Amber eyes" if JA else
-                  "엄마의 사랑이라는 이름의 독약――대리 뮌하우젠 증후군(FDIA) 해독 (Blanchard 사건) | Amber eyes" if KO else
-                  "Độc Dược Nhân Danh Tình Mẹ — Giải mã Hội chứng Münchausen qua trung gian"),
+        "title": ("Ep. 01: Poison Disguised as Mother’s Love | The Psychology of Gypsy Rose Blanchard (FDIA)" if EN else
+                  "第01話 · 母の愛という名の毒薬 | Gypsy Rose Blanchardの心理学 (FDIA)" if JA else
+                  "01화 · 엄마의 사랑이라는 이름의 독약 | Gypsy Rose Blanchard의 심리학 (FDIA)" if KO else
+                  "Tập 01: Độc Dược Nhân Danh Tình Mẹ | Tâm lý học tội phạm: Gypsy Rose Blanchard (FDIA)"),
         "act_titles": ({1: "Act 1 · The Moment Trust Broke", 2: "Act 2 · 23 Years in a Medical Prison",
                         3: "Act 3 · Inside the Mind of an FDIA Perpetrator", 4: "Act 4 · Why Didn't Gypsy Walk Away?",
                         5: "Act 5 · Forensic Verdict & Epilogue"} if EN else
@@ -87,6 +87,9 @@ EPISODES = {
                        {1: "Hồi 1 · Khoảnh khắc đứt gãy niềm tin", 2: "Hồi 2 · 23 năm trong nhà tù y khoa",
                         3: "Hồi 3 · Bên trong bộ não của kẻ mắc FDIA", 4: "Hồi 4 · Tại sao Gypsy không đứng dậy?",
                         5: "Hồi 5 · Phán quyết pháp y & lời kết"}),
+        # Hashtag dòng cuối mô tả YouTube (bản tiếng Việt). Bản EN có sẵn trong
+        # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
+        "hashtags": "#TrueCrime #CriminalPsychology #MunchausenSyndrome #GypsyRoseBlanchard #FDIA #ForensicPsychology #Documentary #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
         "summary": ("1.13#2", "3.02#5"),
         "need": ["4.15#2", "5.02#3", "5.04#2", "2.07#10", "3.05#5", "3.07#2", "4.07#8", "4.10#5"],
         "case": "Blanchard", "n1": (("SPRINGFIELD RESIDENT", "Longtime neighbor", "SPRINGFIELD RESIDENT") if EN else
@@ -119,10 +122,9 @@ EPISODES = {
         "route_pins": {},                                      # T7 Tập 02: ghim không nhãn (không nêu địa điểm nhà nạn nhân)
         "thumb": ("THE TWO-FACED", "COLONEL") if EN else ("二重生活の", "大佐") if JA else ("ĐẠI TÁ", "HAI MẶT"),
         "thumb_bg": "t2_two_chairs",                           # nền thumbnail (Tập 01 mặc định house_police)
-        "title": ("The Double Life of Colonel Russell Williams: Behavioral Escalation & "
-                  "The Psychology of a Predator | Amber eyes" if EN else
-                  "ラッセル・ウィリアムズ大佐の二重生活――行動のエスカレーションと捕食者の心理学 | Amber eyes" if JA else
-                  "Đại Tá Hai Mặt — Quy luật leo thang hành vi & sự phân mảnh tâm trí (vụ Russell Williams)"),
+        "title": ("Ep. 02: A Predator Disguised as Honor | The Psychology of Colonel Russell Williams (Behavioral Escalation)" if EN else
+                  "第02話 · 二重生活の大佐 | ラッセル・ウィリアムズ大佐の心理学 (行動のエスカレーション)" if JA else
+                  "Tập 02: Kẻ Săn Mồi Ẩn Sau Danh Dựng | Tâm lý học tội phạm: Đại tá Russell Williams (Quy luật leo thang hành vi)"),
         "act_titles": ({1: "Act 1 · The Extreme Contrast Behind a Colonel’s Rank",
                         2: "Act 2 · The Scene & Dossier — The 4 Stages of the Abyss",
                         3: "Act 3 · Psychological Autopsy — Inside the Mind of a Two-Faced Predator",
@@ -133,9 +135,17 @@ EPISODES = {
                         3: "第3幕 · 心理解剖――二重生活の捕食者の内面",
                         4: "第4幕 · 取調室――軍人の頭脳を打ち砕く",
                         5: "第5幕 · 判決、危険信号、そして結びの考察"} if JA else
-                       {1: "Hồi 1 · Sự tương phản phía sau quân hàm đại tá", 2: "Hồi 2 · 4 bậc thang của vực thẳm",
+                       {1: "Hồi 1 · Sự tương phản cực đại phía sau quân hàm đại tá", 2: "Hồi 2 · 4 bậc thang của vực thẳm",
                         3: "Hồi 3 · Bên trong bộ não của sát nhân hai mặt", 4: "Hồi 4 · Nghệ thuật bẻ gãy bộ óc quân sự",
                         5: "Hồi 5 · Phán quyết, cảnh báo đỏ & lời kết"}),
+        # 02/11/2026: tên hồi 1 phải có "cực đại" — thẻ trên màn hình ghi
+        # "HỒI 01 · SỰ TƯƠNG PHẢN CỰC ĐẠI PHÍA SAU QUÂN HÀM ĐẠI TÁ" (đo trên mp4).
+        # Dòng disclaimer vai lời: nhãn phụ đề thực tế của tập 02 là
+        # [ĐIỀU TRA VIÊN] · [CHUYÊN GIA TÂM LÝ] · [BINH SĨ] · [KHÁN GIẢ] (không có "Người dân").
+        "roles_line": "Lời của Điều tra viên, Chuyên gia tâm lý, Binh sĩ căn cứ Trenton và Khán giả theo dõi vụ án là lời dựng lại dựa trên tư liệu.",
+        # Hashtag dòng cuối mô tả YouTube (bản tiếng Việt). Bản EN có sẵn trong
+        # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
+        "hashtags": "#TrueCrime #CriminalPsychology #RussellWilliams #Interrogation #Documentary #ForensicPsychology #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
         "summary": ("1.18#3", "3.04#1"),
         "need": ["1.03#4", "1.05#1", "1.05#2", "1.10#2", "1.12#2", "1.14#2", "1.17#3", "2.04#1", "2.04#2",
                  "2.05#6", "2.05#7", "2.05#13", "2.05#15", "2.08#7", "3.08#10", "4.03#6", "4.08#3",
@@ -180,13 +190,14 @@ EPISODES = {
         "cast": None,                  # dùng giọng mặc định của kênh (bộ A)
     },
     "03": {
-        "script": WORK / "script_tap03.json",
-        "dir": "Tap03",
-        "plan": "KeHoach_Video_Tap03.md",
-        "master": "Tap03_master",
-        "srt": "Tap03.srt",
+        "script": WORK / ("script_tap03_EN.json" if EN else "script_tap03.json"),
+        "dir": "Tap03_EN" if EN else "Tap03",
+        "plan": "KeHoach_Video_Tap03_EN.md" if EN else "KeHoach_Video_Tap03.md",
+        "master": "Tap03_EN_master" if EN else "Tap03_master",
+        "srt": "Tap03_EN.srt" if EN else "Tap03.srt",
+        "intro": "intro_kenh_EN_t03.mov" if EN else "intro_kenh.mov",
         "n_element": {"1.09": "N1", "2.09": "N2"},
-        "acting": WORK / "acting_tap03.json",
+        "acting": WORK / ("acting_tap03_EN.json" if EN else "acting_tap03.json"),
         "sfx_sheet": WORK / "sfx_tap03.json",
         "act1_cue": "1.14", "silence_cue": "1.11", "click_cues": ("1.08",),
         "bed": {1: ("bgm_cello_sad.mp3", "bgm_piano_minimal.mp3"),
@@ -200,13 +211,16 @@ EPISODES = {
         "route_pins": {},
         "thumb": ("IQ 145", "GƯƠNG"),
         "thumb_bg": "t3_brain_mirror",
-        "title": "Gã Khổng Lồ IQ 145 — Hồ sơ Edmund Kemper & chiếc gương giải phẫu tâm trí",
+        "title": "Tập 03: Gã Khổng Lồ IQ 145 | Tâm lý học tội phạm: Edmund Kemper (Thái nhân cách)",
         "voice_credit": "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio",
         "act_titles": {1: "Hồi 1 · Cuộc gọi nửa đêm từ bốt điện thoại Colorado",
                        2: "Hồi 2 · Hiện trường & chuỗi săn mồi — Nấc thang của sự thay thế",
                        3: "Hồi 3 · Giải phẫu tâm lý — Bên trong bộ não kẻ thái nhân cách tự phản tỉnh",
                        4: "Hồi 4 · Đối thoại với FBI — Nền tảng của nghệ thuật lập hồ sơ tội phạm",
                        5: "Hồi 5 · Phán quyết, bài học cảnh báo đỏ & lời kết"},
+        # Hashtag dòng cuối mô tả YouTube (bản tiếng Việt). Bản EN có sẵn trong
+        # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
+        "hashtags": "#TrueCrime #CriminalPsychology #EdmundKemper #Mindhunter #FBIProfiling #ForensicPsychology #Documentary #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
         "summary": ("1.03#1", "5.08#1"),
         "need": ["1.05#3", "1.10#1", "1.10#10", "1.13#7", "2.04#5", "2.06#2", "3.05#7", "3.05#10", "3.08#8", "3.08#10", "4.05#15", "4.05#19", "4.08#2", "5.02#5", "5.02#7", "5.02#12", "5.05#4", "5.05#5", "5.08#3"],
         "case": "Kemper",
@@ -236,12 +250,21 @@ EPISODES = {
         "text_scrim": ["1-06", "1-10", "1-15", "1-17", "2-08", "4-03", "4-07", "4-13"],
         "voice_credit": "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio",
         "mux_af": "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1",
-        "title": "Thiên Thần Tử Thần — Phức cảm Chúa trời và 16 năm lặng câm của 9 bệnh viện (vụ Charles Cullen)",
+        "title": "Tập 04: Thiên Thần Tử Thần | Tâm lý học tội phạm: Charles Cullen (Phức cảm Chúa trời)",
         "act_titles": {1: "Hồi 1 · Nghịch lý của người y tá mẫu mực", 2: "Hồi 2 · Lỗ hổng chết người của máy phát thuốc",
                        3: "Hồi 3 · Bên trong bộ não của kẻ mang Phức cảm Chúa trời", 4: "Hồi 4 · Đấu trí thẩm vấn và bước ngoặt điều tra",
                        5: "Hồi 5 · Phán quyết, bài học cảnh báo đỏ và lời kết"},
+        # Hashtag dòng cuối mô tả YouTube (bản tiếng Việt). Bản EN có sẵn trong
+        # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
+        "hashtags": "#TrueCrime #CriminalPsychology #CharlesCullen #TheGoodNurse #ForensicPsychology #AngelOfDeath #Documentary #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
         "summary": ("1.03#1", "5.08#2"),
-        "need": [],
+        # 02/11/2026: 29 mốc dữ kiện đã đối chiếu nguồn công khai (bảng nguồn:
+        # 02_SAN_XUAT/Tap04/nguon_tham_khao.md). Trước đó rỗng ⇒ package.py ghi
+        # bảng "cần bổ sung" rỗng và mô tả thiếu mục NGUỒN THAM KHẢO.
+        "need": ["1.03#2", "1.03#4", "1.05#3", "1.08#2", "1.10#1", "1.10#2", "1.14#5", "1.14#6",
+                 "2.04#1", "2.06#1", "2.06#4", "2.08#2", "2.08#6", "2.11#2", "2.11#4", "2.11#6",
+                 "3.04#2", "3.04#3", "3.09#1", "3.09#6", "4.02#2", "4.04#2", "4.08#3", "4.11#1",
+                 "5.02#3", "5.02#4", "5.02#6", "5.04#4", "5.08#3"],
         "case": "Cullen", "n1": ("NỮ Y TÁ SOMERSET", "Đồng nghiệp ca đêm", "Y TÁ"),
         "n2": ("Y TÁ CA ĐÊM", "Nhân vật hình dung", "Y TÁ CA ĐÊM"),
         "cast": None,
@@ -266,8 +289,8 @@ EPISODES = {
         "route_pins": {},
         "thumb": ("THE PURPLE", "FLOPPY DISK") if EN else ("CHIẾC ĐĨA MỀM", "MÀU TÍM"),
         "thumb_bg": "t5_purple_floppy_disk",
-        "title": ("The Purple Floppy Disk: Narcissistic Addiction & Compartmentalization (The BTK Dennis Rader Case) | Amber eyes"
-                  if EN else "Chiếc Đĩa Mềm Màu Tím — Sự phân mảnh tâm trí và cơn nghiện ái kỷ (vụ BTK Dennis Rader)"),
+        "title": ("Ep. 05: The Purple Floppy Disk | The Psychology of BTK Dennis Rader (Compartmentalization)"
+                  if EN else "Tập 05: Chiếc Đĩa Mềm Màu Tím | Tâm lý học tội phạm: BTK Dennis Rader (Sự phân mảnh tâm trí)"),
         "act_titles": ({1: "Act 1 · The Letter Resurfaces After 13 Years of Silence",
                         2: "Act 2 · The Crime Scene & Psychological Signature of a Two-Faced Predator",
                         3: "Act 3 · Inside the Mind of Malignant Narcissism",
@@ -276,6 +299,9 @@ EPISODES = {
                        {1: "Hồi 1 · Bức thư tái xuất sau 13 năm lặng căm", 2: "Hồi 2 · Chữ ký tâm lý của con thú hai mặt",
                         3: "Hồi 3 · Bên trong bộ não ái kỷ ác tính", 4: "Hồi 4 · Đấu trí thẩm vấn và bẫy công nghệ đĩa mềm",
                         5: "Hồi 5 · Phán quyết, bài học cảnh báo đỏ và lời kết"}),
+        # Hashtag dòng cuối mô tả YouTube (bản tiếng Việt). Bản EN có sẵn trong
+        # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
+        "hashtags": "#AmberEyes #TrueCrime #CriminalPsychology #BTK #DennisRader #ForensicFiles #DigitalForensics #TamLyToiPham #PhamVan #HoiTo",
         "summary": ("1.10#5", "3.02#1"),
         "need": [],
         "case": "Rader",
@@ -316,7 +342,6 @@ EPISODES = {
         "plan": "KeHoach_Video_Tap06.md",
         "master": "Tap06_master",
         "srt": "Tap06.srt",
-        "tts_fix": {"5.04#3": "Hắn chỉ nhếch mép buông ra một lời chửi thề ngạo mạn đầy thù hận: Hãy cút đi."},
         "n_element": {"1.09": "N1", "4.04": "N2"},
         "acting": WORK / "acting_tap06.json",
         "sfx_sheet": WORK / "sfx_tap06.json",
@@ -329,10 +354,13 @@ EPISODES = {
         "route_pins": {},
         "thumb": ("NỤ CƯỜI CHÚ HỀ", "29 BÍ MẬT DƯỚI SÀN"),
         "thumb_bg": "t6_clown_mirror_chiaroscuro",
-        "title": "Nụ Cười Chú Hề & 29 Bí Mật Dưới Sàn Nhà — Mặt nạ ái kỷ và sự phủ nhận trách nhiệm bệnh lý (vụ John Wayne Gacy)",
+        "title": "Tập 06: Nụ Cười Chú Hề | Tâm lý học tội phạm: John Wayne Gacy (ASPD)",
         "act_titles": {1: "Hồi 1 · Bức ảnh với Đệ nhất phu nhân và cậu bé hiệu thuốc", 2: "Hồi 2 · Cuộc đấu trí trên đường phố Des Plaines",
                        3: "Hồi 3 · Khoảng không gian tối dưới nền nhà Summerdale", 4: "Hồi 4 · Vở kịch đa nhân cách và lời nói dối bệnh lý",
                        5: "Hồi 5 · Tôi là nạn nhân thứ 34 và bài học về mặt nạ ái kỷ"},
+        # Hashtag dòng cuối mô tả YouTube (bản tiếng Việt). Bản EN có sẵn trong
+        # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
+        "hashtags": "#TrueCrime #CriminalPsychology #JohnWayneGacy #TheKillerClown #ForensicPsychology #Documentary #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
         "summary": ("1.02#1", "3.07#1"),
         "need": [],
         "case": "Gacy", "n1": ("KIM BYERS", "Nhân viên hiệu thuốc", "KIM"),
@@ -356,10 +384,13 @@ EPISODES = {
         "flag_hold_shots": (),
         "route_pins": {},
         "thumb": ("BẢN ÁN GIẾT NGƯỜI", "BẰNG TIN NHẮN"),
-        "title": "Bản Án Giết Người Bằng Tin Nhắn — Thao túng tâm lý và hội chứng Münchausen kỹ thuật số (vụ Michelle Carter & Conrad Roy)",
+        "title": "Tập 07: Bản Án Giết Người Bằng Tin Nhắn | Tâm lý học tội phạm: Michelle Carter (Nhân cách kịch tính)",
         "act_titles": {1: "Hồi 1 · Buổi sáng định mệnh tại bãi đỗ xe Kmart", 2: "Hồi 2 · Mê cung hai mươi nghìn dòng tin nhắn",
                        3: "Hồi 3 · Vở kịch cô bạn gái đau khổ & bộ não ái kỷ kịch tính", 4: "Hồi 4 · Dòng tin nhắn đầy tội lỗi và bản án lịch sử",
                        5: "Hồi 5 · Đạo đức không gian số & Đạo luật Conrad"},
+        # Hashtag dòng cuối mô tả YouTube (bản tiếng Việt). Bản EN có sẵn trong
+        # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
+        "hashtags": "#TrueCrime #CriminalPsychology #MichelleCarter #ConradRoy #DigitalForensics #Documentary #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
         "summary": ("1.02#1", "3.04#1"),
         "need": [],
         "case": "Carter", "n1": ("BÀ LYNN ROY", "Mẹ của nạn nhân", "BÀ ROY"),

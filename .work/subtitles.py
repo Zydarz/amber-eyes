@@ -56,7 +56,12 @@ def two_lines(t):
         mid = len(t) // 2
         cuts = [m.end() for m in re.finditer(r"[、。――…」）)\]]", t)]
         k = min(cuts, key=lambda i: abs(i - mid)) if cuts else mid
-        return t[:k].strip() + "\n" + t[k:].strip()
+        a, b = t[:k].strip(), t[k:].strip()
+        # k có thể rơi vào cuối câu (dấu câu cuối cùng) -> phần 2 rỗng.
+        # Trả về chuỗi có "\n" cuối -> cue sinh ra 1 dòng trống, SRT bị lệch khối.
+        if not b:
+            return a or t
+        return a + "\n" + b
     words = t.split()
     # break where the longer of the two lines is shortest
     k = min(range(1, len(words)), key=lambda i: max(len(" ".join(words[:i])), len(" ".join(words[i:]))))

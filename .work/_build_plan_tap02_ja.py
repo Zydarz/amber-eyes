@@ -94,7 +94,9 @@ for l in vn_lines[i0:i1 + 1]:
 
     # --- kiểm số trên hình
     screen = re.sub(r"→\s*`#\d+`:", " ", chu)
-    allowed = set(re.findall(r"\d+", flat))
+    # số viết bằng kanji trong câu (一/二/… 十) vẫn truy được về số trên hình
+    flat_arabic = flat.translate(str.maketrans("〇一二三四五六七八九十百千", "0123456789101001000"))
+    allowed = set(re.findall(r"\d+", flat)) | set(re.findall(r"\d+", flat_arabic))
     for a in list(allowed):
         allowed.add(a.zfill(2))
         allowed.add(str(int(a)))
@@ -149,9 +151,9 @@ header = """# HỒ SƠ SẢN XUẤT TẬP 02 · BẢN TIẾNG NHẬT · 「二�
 | Kịch bản | `01_KICH_BAN/Tap02_JA/kichban_tap02_JA.md` (chuẩn `00_TIEU_CHUAN/CHU_CO_DINH_JA.md`, 203 câu, 36 lượt nói, Director's Cut) |
 | Lượt nói / câu | 36 / **203**. Host 50% · Chuyên gia 25% · Điều tra viên 20% · Người bình thường 5%. Mã câu trùng 100% bản VN (`script_tap02_JA.json`) |
 | N1 / N2 | `1.07` トレントン基地関係者 (Cừu) / `4.06` ツイード住民 (Mèo) |
-| Bảng shot | 151 dòng = 135 shot có lời + 16 dòng không lời |
+| Bảng shot | 151 dòng = 134 shot có lời + 17 dòng không lời |
 | Nền dùng | `assets/bg/` (dùng lại 100% của bản VN/EN) |
-| Giọng | H `Japanese_GentleButler` 0.95 · D `Japanese_SeriousCommander` 0.97 · C `Japanese_DependableWoman` 0.95 · N1 `Japanese_KindLady` 0.95 · N2 `Japanese_DecisivePrincess` 0.95 |
+| Giọng | Higgs Audio v3 (Kaggle GPU) — clone từ giọng mẫu JA làm bằng VoxCPM2 Voice Design: H `H_JA` (ja2, 122,1 Hz) · D `D_JA` (ja3 t02, 87,4 Hz) · C `C_JA` · N1 `N1_JA` · N2 `N2_JA` |
 
 ## B3. Ánh xạ riêng (trong `parse_shots.py`)
 

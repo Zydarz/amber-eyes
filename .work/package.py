@@ -76,7 +76,55 @@ def thumbnail():
 
 
 def mmss(t):
-    return f"{int(t // 60):02d}:{int(t % 60):02d}"
+    """mm:ss — LÀM TRÒN giây (không cắt cụt). Cắt cụt làm chapter rơi vào khoảng
+    đen chuyển hồi (ví dụ 495,0 s khi hồi 3 bắt đầu lúc 495,63 s)."""
+    total = int(t + 0.5)
+    return f"{total // 60:02d}:{total % 60:02d}"
+
+
+def act_start_times(tl):
+    """Mốc bắt đầu thật của từng hồi = câu thoại ĐẦU TIÊN của hồi đó.
+
+    Marker 'ACT' trong timeline là THỜI ĐIỂM KẾT THÚC hồi trước (vd EN Tập 02:
+    hồi 1 kết thúc 280,40 s, hồi 2 bắt đầu 282,40 s) ⇒ đặt chapter theo marker là
+    rơi vào khoảng đen chuyển hồi. Lấy cue đầu tiên của hồi thì chapter trỏ đúng
+    vào lúc card tiêu đề hồi đã lên màn hình."""
+    starts = {}
+    for it in tl.get("items", []):
+        a = it.get("act")
+        if a and a not in starts:
+            starts[a] = it["start"]
+    if not starts:                                  # fallback: marker
+        for m in tl.get("markers", []):
+            if m["type"] == "ACT":
+                starts[m["act"]] = m["start"]
+    return starts
+
+
+def with_brand(title):
+    """Tiêu đề đã đổi sang khuôn mới (Ep. NN: / Tập NN: / 第NN話 / NN화) thì tự
+    mang thương hiệu theo tập → KHÔNG nối thêm '| Amber eyes'. Các tập chưa đổi
+    (Tập 08+) giữ nguyên hành vi cũ."""
+    if re.match(r"^(Ep\.\s*\d+\s*[:：]|Tập\s*\d+\s*[:：]|第\d+話|\d+화)", title):
+        return title
+    return f"{title} | Amber eyes"
+
+
+def sources_vn():
+    """Nguon da kiem chung cho ban tieng Viet.
+
+    Doc `02_SAN_XUAT/<Tap>/nguon_mo_ta.txt` (khoi chen vao muc NGUON THAM KHAO)
+    va `02_SAN_XUAT/<Tap>/nguon_tham_khao.md` (bang doi chieu tung cau).
+    Khong co file => tra ve khung rong nhu truoc. KHONG bia nguon.
+    """
+    blk_p = ED.EP_DIR / "nguon_mo_ta.txt"
+    tbl_p = ED.EP_DIR / "nguon_tham_khao.md"
+    block = blk_p.read_text(encoding="utf-8").strip() if blk_p.exists() else ""
+    table = tbl_p.read_text(encoding="utf-8").strip() if tbl_p.exists() else ""
+    if not block:
+        block = ("[CHUA CO - phai bo sung nguon cong khai da kiem chung truoc khi dang, "
+                 "xem nguon_tham_khao.md]")
+    return block, (table + "\n") if table else ""
 
 
 def description():
@@ -86,17 +134,27 @@ def description():
         return description_ja()
     if ED.EN:
         return description_en()
+    src_block, src_table = sources_vn()
     act_titles = ED.EP["act_titles"]
-    starts = {1: 20.5}
-    for m in TL["markers"]:
-        if m["type"] == "ACT":
-            starts[m["act"]] = m["start"]
+    # 02/11/2026: mốc mỗi hồi = câu thoại đầu tiên của hồi (xem act_start_times).
+    # Marker ACT là thời điểm KẾT THÚC hồi trước ⇒ chapter rơi vào khoảng đen
+    # chuyển hồi; mốc cũ 00:20 còn nằm trong thẻ cảnh báo intro (intro 0→22,41 s).
+    starts = act_start_times(TL)
     chap = ["00:00 Intro"] + [f"{mmss(starts[a])} {act_titles[a]}" for a in sorted(starts)]
     sents = {i["id"]: i["text"] for i in TL["items"]}
     summary = " ".join(sents[k] for k in ED.EP["summary"])
     credit = ED.EP.get("voice_credit", "")
     credit_line = ("\n" + credit) if credit else ""
-    txt = f"""{ED.EP["title"]} | Amber eyes
+    # 02/11/2026: câu disclaimer về vai lời — ghi đè được theo tập (Tập 02 dùng nhãn
+    # BINH SĨ / KHÁN GIẢ, không có "Người dân" như Tập 01). Mặc định giữ nguyên cho tập khác.
+    roles_line = ED.EP.get(
+        "roles_line",
+        "Lời của Điều tra viên, Chuyên gia và Người dân là lời dựng lại dựa trên tư liệu.")
+    # 02/11/2026: dòng hashtag ở cuối mô tả (bản tiếng Việt). Bản EN có sẵn trong
+    # CHU_CO_DINH_EN.md, bản JA/KO chưa có dòng này ⇒ chỉ nhánh VN đọc khoá "hashtags".
+    hashtags = ED.EP.get("hashtags", "")
+    tag_line = ("\n\n" + hashtags) if hashtags else ""
+    txt = f"""{with_brand(ED.EP["title"])}
 
 {summary}
 
@@ -110,15 +168,14 @@ def description():
 • Thông tin dựa trên tư liệu công khai (hồ sơ tòa án, báo chí) — xem nguồn bên dưới.
   Kênh không nhằm kết tội, bôi nhọ hay cổ suý bất kỳ cá nhân nào.
 • Các nhân vật Cú, Sói, Cáo, Cừu, Mèo là nhân vật minh hoạ, không phải người thật.
-  Lời của Điều tra viên, Chuyên gia và Người dân là lời dựng lại dựa trên tư liệu.
-• Giọng đọc, hình ảnh và âm nhạc được tạo cho kênh bằng công cụ AI.
-{credit_line}
+  {roles_line}
+• Giọng đọc, hình ảnh và âm nhạc được tạo cho kênh bằng công cụ AI.{credit_line}
 
 📚 NGUỒN THAM KHẢO
-[CHƯA CÓ — phải bổ sung nguồn công khai đã kiểm chứng trước khi đăng, xem nguon_tham_khao.md]
+{src_block}
 
 🆘 Nếu bạn biết một trẻ em đang bị bạo hành, hãy gọi Tổng đài quốc gia
-bảo vệ trẻ em 111 (Việt Nam, miễn phí, 24/7).
+bảo vệ trẻ em 111 (Việt Nam, miễn phí, 24/7).{tag_line}
 """
     (OUT_DIR / "mo_ta.txt").write_text(txt, encoding="utf-8")
     need = ED.EP["need"]
@@ -126,7 +183,10 @@ bảo vệ trẻ em 111 (Việt Nam, miễn phí, 24/7).
           "Mỗi dòng cần một nguồn công khai có link mở được (hồ sơ tòa án, bài báo). **Không được bịa nguồn.**", "",
           "| Câu | Nội dung | Nguồn (link) |", "|---|---|---|"]
     md += [f"| `{k}` | {sents[k][:140]} | |" for k in need]
-    (OUT_DIR / "nguon_tham_khao.md").write_text("\n".join(md) + "\n", encoding="utf-8")
+    if src_table:
+        (OUT_DIR / "nguon_tham_khao.md").write_text(src_table, encoding="utf-8")
+    else:
+        (OUT_DIR / "nguon_tham_khao.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     return chap
 
 
@@ -135,10 +195,7 @@ def description_en():
     the ⏱ CHAPTERS list), chapter times measured from the EN timeline, SOURCES = the verified
     (✅) links of nguon_tham_khao_EN.md. The sources file itself is never rewritten."""
     act_titles = ED.EP["act_titles"]
-    starts = {1: 20.5}
-    for m in TL["markers"]:
-        if m["type"] == "ACT":
-            starts[m["act"]] = m["start"]
+    starts = act_start_times(TL)
     chap = ["00:00 Intro"] + [f"{mmss(starts[a])} {act_titles[a]}" for a in sorted(starts)]
     tpl = (ED.EP_DIR / "CHU_CO_DINH_EN.md").read_text(encoding="utf-8")
     body = pick_block(tpl)
@@ -185,15 +242,12 @@ def description_ko():
     """Korean edition: description.txt and mo_ta.txt with measured chapter times,
     proper Korean disclaimers, and verified source links."""
     act_titles = ED.EP["act_titles"]
-    starts = {1: 20.5}
-    for m in TL["markers"]:
-        if m["type"] == "ACT":
-            starts[m["act"]] = m["start"]
+    starts = act_start_times(TL)
     chap = ["00:00 오프닝"] + [f"{mmss(starts[a])} {act_titles[a]}" for a in sorted(starts)]
     sents = {i["id"]: i["text"] for i in TL["items"]}
     summary = " ".join(sents[k] for k in ED.EP["summary"])
     raw_title = ED.EP["title"]
-    title = raw_title if "Amber eyes" in raw_title else f"{raw_title} | Amber eyes"
+    title = with_brand(raw_title)
     links = verified_links()
     src_text = links if links else "[출처 미확인 — 공개 기록의 출처 링크를 추가해주세요]"
     body = f"""{title}
@@ -226,15 +280,12 @@ def description_ja():
     """Japanese edition: description.txt and mo_ta.txt with measured chapter times,
     proper Japanese disclaimers, and verified source links."""
     act_titles = ED.EP["act_titles"]
-    starts = {1: 20.5}
-    for m in TL["markers"]:
-        if m["type"] == "ACT":
-            starts[m["act"]] = m["start"]
+    starts = act_start_times(TL)
     chap = ["00:00 オープニング"] + [f"{mmss(starts[a])} {act_titles[a]}" for a in sorted(starts)]
     sents = {i["id"]: i["text"] for i in TL["items"]}
     summary = " ".join(sents[k] for k in ED.EP["summary"])
     raw_title = ED.EP["title"]
-    title = raw_title if "Amber eyes" in raw_title else f"{raw_title} | Amber eyes"
+    title = with_brand(raw_title)
     links = verified_links()
     src_text = links if links else "[未確認 — 公開記録の出典リンクを追加してください]"
     body = f"""{title}

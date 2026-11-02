@@ -1,5 +1,5 @@
 {
- "_doc": "Diễn xuất từng câu cho TTS bản EN Tập 03. id: [cảm xúc, lệch tốc độ so với tốc độ gốc của vai, cao độ (luôn 0), lời đọc riêng hoặc null]. Lời đọc riêng dựng lại từ câu gốc EN, chỉ thêm một thẻ <#0.35#> sau dấu ':' đứng trước câu trích. Mọi câu còn lại dùng quy tắc ngắt nghỉ tự động của tts_sentences.py. Chữ trên màn hình và phụ đề không đổi. — xem make_acting_tap03_en.py",
+ "_doc": "Diễn xuất từng câu cho TTS bản EN Tập 03. id: [cảm xúc, lệch tốc độ so với tốc độ gốc của vai, cao độ (luôn 0), lời đọc riêng hoặc null]. Lời đọc riêng dựng lại từ câu gốc EN, chỉ thêm một thẻ <#0.35#> sau dấu ':' đứng trước câu trích. Mọi câu còn lại dùng quy tắc ngắt nghỉ tự động của tts_sentences.py. Chữ trên màn hình và phụ đề không đổi. — xem make_acting_tap03_en.py — 02/11/2026: chuyen ma theo noi dung sau khi kich ban 220->218 cau (K4); sao luu .work/_cu/en_t03_p0_20261102/.",
  "_pause_after": {
   "1.03#8": 0.8,
   "1.05#3": 0.5,
@@ -15,8 +15,8 @@
   "2.04#7": 0.4,
   "2.06#1": 0.4,
   "2.06#2": 0.5,
+  "2.07#9": 0.5,
   "2.07#10": 0.5,
-  "2.07#11": 0.5,
   "2.09#7": 0.4,
   "2.09#9": 0.8,
   "3.05#3": 0.4,
@@ -47,10 +47,10 @@
   "4.07#8": 0.4,
   "4.07#10": 0.5,
   "4.08#4": 0.4,
-  "5.02#6": 0.4,
-  "5.02#7": 0.8,
-  "5.02#11": 0.4,
-  "5.02#13": 0.7,
+  "5.02#5": 0.4,
+  "5.02#6": 0.8,
+  "5.02#10": 0.4,
+  "5.02#12": 0.7,
   "5.05#1": 0.4,
   "5.05#4": 0.4,
   "5.05#6": 0.5,
@@ -520,53 +520,47 @@
  ],
  "2.07#7": [
   "neutral",
-  0.02,
+  -0.02,
   0,
   null
  ],
  "2.07#8": [
   "neutral",
-  -0.02,
+  0.02,
   0,
   null
  ],
  "2.07#9": [
   "neutral",
-  0.02,
-  0,
-  null
- ],
- "2.07#10": [
-  "neutral",
   -0.01,
   0,
   null
  ],
- "2.07#11": [
+ "2.07#10": [
   "fearful",
+  -0.02,
+  0,
+  null
+ ],
+ "2.07#11": [
+  "neutral",
   -0.02,
   0,
   null
  ],
  "2.07#12": [
   "neutral",
-  -0.02,
-  0,
-  null
- ],
- "2.07#13": [
-  "neutral",
   0.02,
   0,
   null
  ],
- "2.07#14": [
+ "2.07#13": [
   "fearful",
   -0.01,
   0,
   null
  ],
- "2.07#15": [
+ "2.07#14": [
   "surprised",
   0.0,
   0,
@@ -720,7 +714,7 @@
   "sad",
   -0.02,
   0,
-  "Kemper later characterized his maternal grandmother using terms psychoanalysts noted with great gravity: <#0.35#> that she had emasculated his grandfather and destroyed his own boyhood masculinity."
+  "Kemper later characterized his paternal grandmother using terms psychoanalysts noted with great gravity: <#0.35#> that she had emasculated his grandfather and destroyed his own boyhood masculinity."
  ],
  "3.05#11": [
   "neutral",
@@ -1168,37 +1162,37 @@
  ],
  "5.02#5": [
   "neutral",
-  0.0,
-  0,
-  null
- ],
- "5.02#6": [
-  "neutral",
   -0.01,
   0,
   null
  ],
- "5.02#7": [
+ "5.02#6": [
   "fearful",
   -0.02,
   0,
   null
  ],
- "5.02#8": [
+ "5.02#7": [
   "neutral",
   0.0,
   0,
   null
  ],
- "5.02#9": [
+ "5.02#8": [
   "neutral",
   -0.05,
   0,
   null
  ],
- "5.02#10": [
+ "5.02#9": [
   "neutral",
   0.0,
+  0,
+  null
+ ],
+ "5.02#10": [
+  "sad",
+  -0.01,
   0,
   null
  ],
@@ -1209,12 +1203,6 @@
   null
  ],
  "5.02#12": [
-  "sad",
-  -0.01,
-  0,
-  null
- ],
- "5.02#13": [
   "sad",
   -0.02,
   0,

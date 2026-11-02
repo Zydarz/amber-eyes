@@ -22,7 +22,7 @@ except Exception:
 
 W = Path(__file__).resolve().parents[1] / ".work"
 SCRIPT = json.loads((W / "script_tap06.json").read_text(encoding="utf-8"))
-N_ELEMENT = {"1.09": "N1", "4.04": "N2"}
+N_ELEMENT = {"1.09": "N1", "4.04": "N2"}  # KEY đã chuyển theo NỘI DUNG sau khi kịch bản 01/11/2026 đổi 165→154 câu (K4)
 
 # Tốc độ gốc trong edition.CAST (bộ A): H 0.90 · D 0.95 · C 0.92 · N1 0.95 · N2 0.95
 BASE_DELTA = {"H": -0.04, "D": -0.05, "C": -0.04, "N1": -0.03, "N2": -0.02}
@@ -47,15 +47,15 @@ KEY = {
     "1.06#1": ["neutral", -0.01, 0, None, 0.3],
     "1.06#2": ["sad", -0.01, 0, None, 0.4],
     "1.06#4": ["neutral", 0.0, 0, None, 0.2],
-    "1.06#7": ["surprised", 0.0, 0, None, 0.4],
-    "1.06#8": ["neutral", -0.01, 0, None, 0.5],
+    "1.06#6": ["surprised", 0.0, 0, None, 0.4],
+    "1.06#7": ["neutral", -0.01, 0, None, 0.5],
     "1.08#1": ["neutral", 0.0, 0, None, 0.3],
     "1.08#3": ["sad", -0.02, 0, None, 0.7],
     "1.08#5": ["fearful", -0.02, 0, None, 0.8],
     "1.09#1": ["sad", -0.01, 0, None, 0.3],
     "1.09#3": ["neutral", 0.0, 0, None, 0.3],
-    "1.09#5": ["fearful", -0.02, 0, None, 0.5],
-    "1.09#6": ["fearful", -0.02, 0, None, 0.8],
+    "1.09#4": ["fearful", -0.02, 0, None, 0.5],
+    "1.09#5": ["fearful", -0.02, 0, None, 0.8],
     "1.11#1": ["surprised", -0.01, 0, None, 0.3],
     "1.12#1": ["neutral", 0.0, 0, None, 0.3],
     "1.14#1": ["neutral", -0.01, 0, None, 0.3],
@@ -91,14 +91,12 @@ KEY = {
     "3.02#2": ["fearful", -0.02, 0, None, 0.6],
     "3.03#1": ["neutral", 0.0, 0, None, 0.3],
     "3.03#3": ["neutral", -0.01, 0, None, 0.5],
-    "3.05#1": ["fearful", -0.01, 0, None, 0.5],
-    "3.05#2": ["fearful", -0.02, 0, None, 0.6],
+    "3.05#1": ["fearful", -0.02, 0, None, 0.6],
     "3.06#1": ["neutral", -0.01, 0, None, 0.4],
     "3.06#2": ["fearful", -0.02, 0, None, 0.6],
     "3.07#1": ["neutral", -0.01, 0, None, 0.4],
-    "3.07#3": ["fearful", -0.02, 0, None, 0.8],
-    "3.09#1": ["fearful", -0.01, 0, None, 0.5],
-    "3.09#2": ["fearful", -0.02, 0, None, 0.8],
+    "3.07#2": ["fearful", -0.02, 0, None, 0.8],
+    "3.09#1": ["fearful", -0.02, 0, None, 0.8],
     "3.10#1": ["neutral", 0.0, 0, None, 0.3],
     "3.10#4": ["fearful", -0.01, 0, None, 0.5],
     "3.11#1": ["surprised", 0.0, 0, None, 0.4],
@@ -122,8 +120,7 @@ KEY = {
     "4.06#4": ["neutral", 0.0, 0, None, 0.4],
     "4.07#1": ["neutral", 0.0, 0, None, 0.4],
     "4.08#1": ["neutral", 0.0, 0, None, 0.3],
-    "4.08#3": ["fearful", -0.01, 0, None, 0.4],
-    "4.08#4": ["fearful", -0.02, 0, None, 0.6],
+    "4.08#3": ["fearful", -0.02, 0, None, 0.6],
     "4.09#1": ["neutral", 0.0, 0, None, 0.3],
     "4.09#3": ["neutral", -0.01, 0, None, 0.5],
     "4.10#1": ["neutral", 0.0, 0, None, 0.4],
@@ -132,13 +129,11 @@ KEY = {
     # ── HỒI 5 — "Tôi là nạn nhân thứ 34" và bài học về mặt nạ ái kỷ ──────────
     "5.02#1": ["sad", -0.01, 0, None, 0.4],
     "5.02#3": ["fearful", -0.01, 0, None, 0.5],
-    "5.02#5": ["surprised", 0.0, 0, None, 0.5],
-    "5.02#6": ["fearful", -0.02, 0, None, 0.8],
+    "5.02#4": ["fearful", -0.02, 0, None, 0.8],
     "5.03#1": ["neutral", 0.0, 0, None, 0.3],
     "5.03#3": ["sad", -0.01, 0, None, 0.5],
     "5.04#1": ["neutral", 0.0, 0, None, 0.4],
-    "5.04#3": ["fearful", -0.02, 0, None, 0.6],
-    "5.04#4": ["sad", -0.02, 0, None, 0.9],
+    "5.04#3": ["sad", -0.02, 0, None, 0.9],
     "5.06#1": ["neutral", 0.0, 0, None, 0.3],
     "5.06#3": ["neutral", 0.0, 0, None, 0.4],
     "5.06#4": ["neutral", 0.0, 0, None, 0.3],
