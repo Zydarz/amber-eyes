@@ -69,6 +69,10 @@ __pycache__/
 # Thu muc QC trich frame thu cong (soi mo ta vs video): .work/_qc_frames/ + xuat_ban/_qc_frames/
 02_SAN_XUAT/**/_qc_frames/
 
+# ---------- Thumbnail Tap01/Tap02 (tap da upload, media da xoa 02/11/2026) ----------
+# package.py sinh lai thumbnail khi chay lai -> ignore de khong bi track lai
+02_SAN_XUAT/Tap0[12]*/xuat_ban/thumbnail.png
+
 # ---------- Clip tham chieu VoxCPM2 moi cho G9 ----------
 # Ban 48 kHz trung gian nam o .work/voxcpm_raw/ (da bi ignore boi `.work/*` o dong 31).
 # Chi commit ban dong goi 24 kHz trong assets/voice_ref_voxcpm2_g9/
