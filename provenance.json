@@ -31452,5 +31452,126 @@
   "sha256": "bd1d1959d4f2a4e040f005140a5d581b2a77996afeebd89f3471f3f6f28cf21e",
   "dieu_khoan": "Apache-2.0, thương mại tự do, không cần ghi công, giọng tổng hợp từ mô tả văn bản không clone giọng người thật",
   "kiem_tra_thuong_mai": "đạt"
+ },
+ {
+  "file": "assets/brand/intro_kenh_JA_t02.mov",
+  "loai": "intro (chỉ hình) — bản tiếng Nhật",
+  "cong_cu": ".work/make_intro.py — Pillow + ffmpeg, từ logo tự vẽ",
+  "ngay": "2026-10-25",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "Kênh tự tạo",
+  "kiem_tra_thuong_mai": "đạt (phần hình)",
+  "ghi_chu": "Cắt 0–20,50 s trong renderer; 20,50–22,80 s shot 1-00 mở dần từ đuôi đen intro"
+ },
+ {
+  "file": "assets/voice_ref_voxcpm2_ja3/",
+  "loai": "bộ giọng mẫu tiếng Nhật (VoxCPM2 vòng 3) — 40 clip ứng viên",
+  "cong_cu": "VoxCPM2 (OpenBMB) — Voice Design, qua .work/higgs_make_refs_voxcpm.py",
+  "ngay": "2026-10-31",
+  "prompt": "control_instruction tiếng Anh mô tả chất giọng + target_text tiếng Nhật (xem refs.json)",
+  "seed": "seed 7 (nhóm D) / seed 77 (nhóm C)",
+  "dieu_khoan": "VoxCPM2 — cần kiểm tra điều khoản thương mại",
+  "kiem_tra_thuong_mai": "chưa",
+  "ghi_chu": "5 clip được chọn làm giọng mẫu vai: H←W6_LOW_lowwarm_ja3_t01, D←D_smokerbass_ja3_t02, C←C_altobrisk_ja3_t01, N1←W6_LOW_huskycontralto_ja3_t01, N2←W6_LOW_deepalto_ja3_t01"
+ },
+ {
+  "file": "assets/voice_ref_voxcpm2_ja3/H_JA.wav",
+  "loai": "giọng mẫu JA vai H — ホスト (Cú) · 122,1 Hz · CER mẫu 1,2%",
+  "cong_cu": "VoxCPM2 (OpenBMB) — Voice Design, cắt từ clip ứng viên vòng 3, đóng gói làm dataset Higgs",
+  "ngay": "2026-10-31",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "VoxCPM2 — cần kiểm tra điều khoản thương mại",
+  "kiem_tra_thuong_mai": "chưa",
+  "ghi_chu": "Nguồn: assets/voice_ref_voxcpm2_ja3/W6_LOW_lowwarm_ja3_t01.wav"
+ },
+ {
+  "file": "assets/voice_ref_voxcpm2_ja3/D_JA.wav",
+  "loai": "giọng mẫu JA vai D — 捜査官 (Sói) · 87,4 Hz · CER mẫu 1,9%",
+  "cong_cu": "VoxCPM2 (OpenBMB) — Voice Design, cắt từ clip ứng viên vòng 3, đóng gói làm dataset Higgs",
+  "ngay": "2026-10-31",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "VoxCPM2 — cần kiểm tra điều khoản thương mại",
+  "kiem_tra_thuong_mai": "chưa",
+  "ghi_chu": "Nguồn: assets/voice_ref_voxcpm2_ja3/D_smokerbass_ja3_t02.wav"
+ },
+ {
+  "file": "assets/voice_ref_voxcpm2_ja3/C_JA.wav",
+  "loai": "giọng mẫu JA vai C — 心理学者 (Cáo)",
+  "cong_cu": "VoxCPM2 (OpenBMB) — Voice Design, cắt từ clip ứng viên vòng 3, đóng gói làm dataset Higgs",
+  "ngay": "2026-10-31",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "VoxCPM2 — cần kiểm tra điều khoản thương mại",
+  "kiem_tra_thuong_mai": "chưa",
+  "ghi_chu": "Nguồn: assets/voice_ref_voxcpm2_ja3/C_altobrisk_ja3_t01.wav"
+ },
+ {
+  "file": "assets/voice_ref_voxcpm2_ja3/N1_JA.wav",
+  "loai": "giọng mẫu JA vai N1 — 証人 (Cừu)",
+  "cong_cu": "VoxCPM2 (OpenBMB) — Voice Design, cắt từ clip ứng viên vòng 3, đóng gói làm dataset Higgs",
+  "ngay": "2026-10-31",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "VoxCPM2 — cần kiểm tra điều khoản thương mại",
+  "kiem_tra_thuong_mai": "chưa",
+  "ghi_chu": "Nguồn: assets/voice_ref_voxcpm2_ja3/W6_LOW_huskycontralto_ja3_t01.wav"
+ },
+ {
+  "file": "assets/voice_ref_voxcpm2_ja3/N2_JA.wav",
+  "loai": "giọng mẫu JA vai N2 — 視聴者 (Mèo)",
+  "cong_cu": "VoxCPM2 (OpenBMB) — Voice Design, cắt từ clip ứng viên vòng 3, đóng gói làm dataset Higgs",
+  "ngay": "2026-10-31",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "VoxCPM2 — cần kiểm tra điều khoản thương mại",
+  "kiem_tra_thuong_mai": "chưa",
+  "ghi_chu": "Nguồn: assets/voice_ref_voxcpm2_ja3/W6_LOW_deepalto_ja3_t01.wav"
+ },
+ {
+  "file": ".work/audio_s_higgs_JA_t02/",
+  "loai": "audio TTS tiếng Nhật — 203 câu (vòng r2)",
+  "cong_cu": "Higgs Audio v3 trên Kaggle GPU — .work/higgs_prod_r2_JA_t02_kaggle.ipynb + .work/install_higgs_audio.py",
+  "ngay": "2026-11-01",
+  "prompt": "clone từ giọng mẫu JA (Voice Design của VoxCPM2)",
+  "seed": null,
+  "dieu_khoan": "Higgs Audio v3 — cần kiểm tra điều khoản thương mại",
+  "kiem_tra_thuong_mai": "chưa",
+  "ghi_chu": "35/203 câu vượt ngưỡng CER 2% (xem .work/higgs_cer_report_JA_t02.md) — đã có bản vòng 2 chọn ưu tiên"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA_master.mp3",
+  "loai": "audio tổng bản tiếng Nhật (1791,85 s)",
+  "cong_cu": "TTS Higgs Audio v3 (203 câu) + nhạc assets/bgm + tiếng động assets/sfx (kênh tự tổng hợp bằng code) ghép bằng .work/build_audio3.py (loudnorm I=-16, trần đỉnh -1,5 dBFS)",
+  "ngay": "2026-11-01",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "TTS: Higgs — cần kiểm tra; nhạc/SFX: kênh tự tạo",
+  "kiem_tra_thuong_mai": "chưa",
+  "ghi_chu": "Lời đầu 23,0 s · lời cuối hết 1865,3 s · hồi 1: 23,0–374,0 · hồi 5: 1501,4–1865,3 (timeline_s_JA_t02.json)"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA_master.mp4",
+  "loai": "video tổng bản tiếng Nhật",
+  "cong_cu": ".work/build_video3.py (Pillow + ffmpeg libopenh264, 6 worker) ghép .work/package.py --mux (AAC 192k, alimiter latency=1)",
+  "ngay": "2026-11-02",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "Hình: kênh tự tạo · nhạc/SFX: kênh tự tạo",
+  "kiem_tra_thuong_mai": "chưa",
+  "ghi_chu": "151 shot · nền dùng lại 100% từ assets/bg của bản VN/EN · chữ do Pillow vẽ bằng YuGothB/YuGothM"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA.srt",
+  "loai": "phụ đề bản tiếng Nhật (212 cue)",
+  "cong_cu": ".work/subtitles.py — tách từ timeline_s_JA_t02.json, nhãn vai [ホスト]/[捜査官]/[心理学者]/[証人]/[視聴者]",
+  "ngay": "2026-11-02",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "Kênh tự tạo",
+  "kiem_tra_thuong_mai": "đạt",
+  "ghi_chu": "UTF-8 không BOM, CRLF — cùng định dạng với bản VN/EN"
  }
 ]
