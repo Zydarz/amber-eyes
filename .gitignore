@@ -66,6 +66,8 @@ __pycache__/
 # Tap sinh lai: .work/_make_stills_sheets_by_act_tXX.py, .work/_make_qc_tXX.py
 02_SAN_XUAT/**/contact_sheet*.png
 02_SAN_XUAT/**/qc_*.png
+# Thu muc QC trich frame thu cong (soi mo ta vs video): .work/_qc_frames/ + xuat_ban/_qc_frames/
+02_SAN_XUAT/**/_qc_frames/
 
 # ---------- Clip tham chieu VoxCPM2 moi cho G9 ----------
 # Ban 48 kHz trung gian nam o .work/voxcpm_raw/ (da bi ignore boi `.work/*` o dong 31).
