@@ -1,6 +1,6 @@
 # Câu cần nghe — Tập 03 JA (Higgs) — 02/11/2026
 
-Dự kiến Master: `02_SAN_XUAT/Tap03_JA/xuat_ban/Tap03_JA_master.mp3` · 1936.7 s (~32.3 min) · 218 câu · lời đầu 23.0 s · lời cuối 1927.7 s
+Dự kiến Master: `02_SAN_XUAT/Tap03_JA/xuat_ban/Tap03_JA_master.mp3` · 1927.9 s (~32.1 min) · 218 câu · lời đầu 23.0 s · lời cuối 1918.9 s · -16.2 LUFS · Peak -1.6 dBFS
 
 | Mốc | Câu | Vai | CER | Câu gốc | ASR nghe được | Ghi chú |
 |---|---|---|---:|---|---|---|

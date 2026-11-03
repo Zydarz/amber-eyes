@@ -212,12 +212,22 @@ Place `assets/brand/intro_kenh_EN_t05.mov` at 0.00 s (A5.7). No spoken line belo
   - Vai N2 (Kerri Rawson): Trung bình **2.90** (2.62 – 3.36).
 
 ### 7.4. Mốc thời gian & Phụ đề
-- **Tổng thời lượng:** **1273.40 s** (~21 phút 13 giây).
+- **Tổng thời lượng:** **1272.50 s** (~21 phút 12 giây).
 - **Intro kênh:** 0.00 – 22.41 s (`bgm_music_box.mp3`).
 - **Lời đầu:** 23.00 s (`1.03#1` Host).
-- **Lời cuối:** 1263.56 s (`5.10#3` Host).
-- **Thẻ kết (Closing card):** 1264.40 – 1273.40 s (9.0 s fade out).
+- **Lời cuối:** 1263.50 s (`5.10#3` Host).
+- **Thẻ kết (Closing card):** 1263.50 – 1272.50 s (9.0 s fade out).
+- **Phân bổ hồi:** H1 23.0–273.6s, H2 275.6–506.2s, H3 508.2–715.1s, H4 717.1–1045.9s, H5 1047.9–1263.5s.
 - **File Timeline:** `.work/timeline_s_EN_t05.json`.
 - **File Phụ đề:** `02_SAN_XUAT/Tap05_EN/xuat_ban/Tap05_EN.srt` (356 cue).
 - **File Danh sách nghe kiểm tra:** `02_SAN_XUAT/Tap05_EN/CanNghe_Tap05_EN_higgs.md`.
+
+### 7.5. Master Audio (03/11/2026)
+- **File Master:** `02_SAN_XUAT/Tap05_EN/xuat_ban/Tap05_EN_master.mp3` (29 MB).
+- **Integrated Loudness:** **-16.3 LUFS** (đạt chuẩn -16 ± 1 LUFS).
+- **True Peak:** **-1.9 dBFS** (đạt chuẩn $\le -1.5\text{ dBFS}$).
+- **LRA (Loudness Range):** 3.6 LU.
+- **Kiểm tra khoảng câm (Rule A1 / V4 @ -60dB):** **0 lỗi**.
+- **Hiệu ứng & Tiếng động:** Đủ 10 đoạn môi trường (ambience) + 18 hiệu ứng tiếng động (SFX) khớp kịch bản.
+
 

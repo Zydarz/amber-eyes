@@ -128,6 +128,6 @@ Phụ đề: `xuat_ban/Tap04_EN.srt` (408 cues).
 | Cổng G9 | **D–H: 4.65 nc ✅** · **H–C: 8.90 nc ✅** · **D–C: 13.55 nc ✅** · **H–N1: 7.05 nc ✅** · **C–N2: 4.98 nc ✅** (100% các cặp vai đạt chuẩn $\ge 4$ nửa cung). |
 | Vòng 2 (CER > 2%) | Sinh Take 1 (Variant 1) cho 29 câu > 2%, tự động giữ bản tốt hơn (9 câu cải thiện, nhiều câu giảm về 0.00%). |
 | CER toàn tập | **Trung bình: 0.87% · Trung vị: 0.00%**. H: 0.43% · D: 0.64% · C: 1.75% · N1: 0.34% · N2: 4.22%. Các câu > 2% do tên riêng (Cullen, Digoxin, Loughren) và định dạng Whisper. |
-| Timeline | Tổng 1340.5 s (22.3 phút) · 161 câu · Intro 22.41 s · Lời đầu 23.0 s · Lời cuối 1331.5 s. |
-| Phụ đề | Đã xuất `xuat_ban/Tap04_EN.srt` (408 cues, khớp timeline 100%). |
-| Cần làm tiếp | Bổ sung file BGM vào `assets/bgm/` để mix master `Tap04_EN_master.mp3` hoàn chỉnh; chuẩn bị ảnh nền `assets/bg/` để render video. |
+| Timeline | Tổng 1390.0 s (23.2 phút) · 161 câu · Intro 22.41 s · Lời đầu 23.0 s · Lời cuối hết 1381.0 s · Hồi: H1 23.0–246.8s, H2 248.8–576.1s, H3 578.1–824.3s, H4 826.3–1103.0s, H5 1105.0–1381.0s. |
+| Phụ đề | Đã xuất `xuat_ban/Tap04_EN.srt` (399 cues, khớp timeline 100%). |
+| Master Audio (03/11/2026) | **ĐÃ HOÀN THÀNH**: `xuat_ban/Tap04_EN_master.mp3` (32 MB) · Loudness: **-16.3 LUFS** (chuẩn -16 ± 1 LUFS) · True Peak: **-1.5 dBFS** (chuẩn $\le -1.5\text{ dBFS}$) · Khoảng câm @ -60dB: **0 lỗi** (chuẩn A1/V4) · Đủ 7 đoạn ambience + 21 SFX. |

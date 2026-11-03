@@ -31878,5 +31878,38 @@
   "dieu_khoan": "Kênh tự tạo",
   "kiem_tra_thuong_mai": "đạt",
   "ghi_chu": "UTF-8 không BOM, CRLF — 238 cue, độ dài timeline 1936.7 s"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap03_JA/xuat_ban/Tap03_JA_master.mp3",
+  "loai": "master audio hoàn chỉnh Tập 03 tiếng Nhật (lời thoại + BGM + SFX)",
+  "cong_cu": ".work/build_audio3.py — 2-pass loudnorm -16 LUFS, alimiter true peak <= -1.5 dBFS",
+  "ngay": "2026-11-03",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "Tài nguyên kênh tự sản xuất & BGM/SFX giấy phép hợp lệ",
+  "kiem_tra_thuong_mai": "đạt",
+  "ghi_chu": "1927.91 s (~32m08s); -16.2 LUFS; True Peak -1.6 dBFS; LRA 4.4 LU; 0 khoảng câm > 0.3s @ -60dBFS; lời đầu 23.0 s"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap04_JA/xuat_ban/Tap04_JA_master.mp3",
+  "loai": "audio master bản tiếng Nhật Tập 04 (1581.8 s ~ 26m22s)",
+  "cong_cu": ".work/generate_higgs_prod_t04ja.py (Higgs Audio v3 trên MLX Apple Silicon + VoxCPM2 ref voices) + .work/build_audio3.py",
+  "ngay": "2026-11-03",
+  "prompt": "Giọng mẫu VoxCPM2 JA (H/D/C/N1/N2), kịch bản kichban_tap04_JA.md, chuẩn hoá EBUR128 -16.2 LUFS, TP -1.8 dBFS",
+  "seed": "SHA256 tiền định từng câu theo SID + Role + Ref + Variant",
+  "dieu_khoan": "Kênh tự tạo (Higgs Audio Apache-2.0, VoxCPM2 Apache-2.0, BGM/SFX bản quyền kênh)",
+  "kiem_tra_thuong_mai": "đạt",
+  "ghi_chu": "166 câu, 5 hồi, 0 khoảng câm > 0.3s @ -60 dBFS, UTMOS MOS 3.00/5.0, G9 D-H 6.57 nc, H-C 10.81 nc"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap04_JA/xuat_ban/Tap04_JA.srt",
+  "loai": "phụ đề bản tiếng Nhật Tập 04 (188 cue)",
+  "cong_cu": ".work/subtitles.py — tách từ timeline_s_JA_t04.json, nhãn vai tiếng Nhật",
+  "ngay": "2026-11-03",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "Kênh tự tạo",
+  "kiem_tra_thuong_mai": "đạt",
+  "ghi_chu": "UTF-8 không BOM, CRLF — 188 cue, độ dài timeline 1581.8 s khớp từng miligiây với master audio"
  }
 ]
