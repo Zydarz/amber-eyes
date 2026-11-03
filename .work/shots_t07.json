@@ -1,5 +1,5 @@
 {
- "total": 1309.626,
+ "total": 1134.87,
  "shots": [
   {
    "id": "1-00",
@@ -43,7 +43,7 @@
    "id": "1-01",
    "act": 1,
    "start": 22.8,
-   "end": 42.383,
+   "end": 40.91,
    "role": "H",
    "sentences": [
     "1.02#1",
@@ -84,8 +84,8 @@
   {
    "id": "1-02",
    "act": 1,
-   "start": 42.383,
-   "end": 58.317,
+   "start": 40.91,
+   "end": 56.22,
    "role": "H",
    "sentences": [
     "1.02#4",
@@ -126,8 +126,8 @@
   {
    "id": "1-03",
    "act": 1,
-   "start": 58.317,
-   "end": 81.457,
+   "start": 56.22,
+   "end": 75.02,
    "role": "H",
    "sentences": [
     "1.04#1",
@@ -167,8 +167,8 @@
   {
    "id": "1-04",
    "act": 1,
-   "start": 81.457,
-   "end": 89.373,
+   "start": 75.02,
+   "end": 79.21,
    "role": "H",
    "sentences": [
     "1.04#3"
@@ -207,8 +207,8 @@
   {
    "id": "1-05",
    "act": 1,
-   "start": 89.373,
-   "end": 107.627,
+   "start": 79.21,
+   "end": 89.53,
    "role": "H",
    "sentences": [
     "1.06#1",
@@ -248,8 +248,8 @@
   {
    "id": "1-06",
    "act": 1,
-   "start": 107.627,
-   "end": 132.764,
+   "start": 89.53,
+   "end": 110.26,
    "role": "H",
    "sentences": [
     "1.06#3",
@@ -290,8 +290,8 @@
   {
    "id": "1-07",
    "act": 1,
-   "start": 132.764,
-   "end": 144.472,
+   "start": 110.26,
+   "end": 119.76,
    "role": "H",
    "sentences": [
     "1.06#6",
@@ -331,8 +331,50 @@
   {
    "id": "1-08",
    "act": 1,
-   "start": 144.472,
-   "end": 165.196,
+   "start": 119.76,
+   "end": 125.46,
+   "role": "H",
+   "sentences": [
+    "1.06#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t7_mothers_empty_kitchen_phone",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Gian bếp gia đình im lặng trong buổi sáng, chiếc điện thoại úp trên bàn ăn bên tách cà phê đã nguội ngắt..."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N1"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-09",
+   "act": 1,
+   "start": 125.46,
+   "end": 137.33,
    "role": "N1",
    "sentences": [
     "1.07#1",
@@ -371,15 +413,14 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-09",
+   "id": "1-10",
    "act": 1,
-   "start": 165.196,
-   "end": 185.828,
+   "start": 137.33,
+   "end": 149.92,
    "role": "N1",
    "sentences": [
     "1.07#4",
-    "1.07#5",
-    "1.07#6"
+    "1.07#5"
    ],
    "template": "T1",
    "variant": "",
@@ -404,7 +445,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -413,10 +456,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-10",
+   "id": "1-11",
    "act": 1,
-   "start": 185.828,
-   "end": 203.585,
+   "start": 149.92,
+   "end": 165.9,
    "role": "H",
    "sentences": [
     "1.09#1",
@@ -446,7 +489,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -455,10 +500,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-11",
+   "id": "1-12",
    "act": 1,
-   "start": 203.585,
-   "end": 232.012,
+   "start": 165.9,
+   "end": 192.67,
    "role": "D",
    "sentences": [
     "1.10#1",
@@ -489,7 +534,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -498,10 +545,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-12",
+   "id": "1-13",
    "act": 1,
-   "start": 232.012,
-   "end": 249.847,
+   "start": 192.67,
+   "end": 208.86,
    "role": "H",
    "sentences": [
     "1.11#1",
@@ -530,7 +577,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "C"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -539,10 +588,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-13",
+   "id": "1-14",
    "act": 1,
-   "start": 249.847,
-   "end": 278.281,
+   "start": 208.86,
+   "end": 230.36,
    "role": "C",
    "sentences": [
     "1.12#1",
@@ -572,7 +621,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -581,10 +632,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-14",
+   "id": "1-15",
    "act": 1,
-   "start": 278.281,
-   "end": 298.394,
+   "start": 230.36,
+   "end": 249.33,
    "role": "H",
    "sentences": [
     "1.13#1",
@@ -602,7 +653,7 @@
      "elems": [
       [
        "ital",
-       "Bìa hồ sơ điều tra vụ án Tập 07 Amber Eyes đặt trên bàn gỗ sẫm màu bên cạnh c..."
+       "Bìa hồ sơ điều tra vụ án Amber Eyes đặt trên bàn gỗ sẫm màu, dây thừ buộc chắc bên cạnh chiếc kính lúp và cây bút sắt cạnh..."
       ]
      ]
     }
@@ -624,8 +675,8 @@
   {
    "id": "2-01",
    "act": 2,
-   "start": 298.394,
-   "end": 323.337,
+   "start": 249.33,
+   "end": 274.03,
    "role": "H",
    "sentences": [
     "2.02#1",
@@ -655,7 +706,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -666,8 +719,8 @@
   {
    "id": "2-02",
    "act": 2,
-   "start": 323.337,
-   "end": 337.085,
+   "start": 274.03,
+   "end": 287.55,
    "role": "D",
    "sentences": [
     "2.03#1",
@@ -707,8 +760,8 @@
   {
    "id": "2-03",
    "act": 2,
-   "start": 337.085,
-   "end": 352.509,
+   "start": 287.55,
+   "end": 302.9,
    "role": "D",
    "sentences": [
     "2.03#3",
@@ -726,7 +779,7 @@
      "elems": [
       [
        "ital",
-       "Góc phòng ngủ thiếu niên lúc 3 giờ sáng, ánh sáng màn hình điện thoại rọi một..."
+       "Góc phòng ngủ thiếu niên lúc ba giờ sáng, ánh sáng màn hình điện thoại xanh lạnh rọi xuống chăn nhàu nát..."
       ]
      ]
     }
@@ -737,7 +790,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -748,8 +803,8 @@
   {
    "id": "2-04",
    "act": 2,
-   "start": 352.509,
-   "end": 374.358,
+   "start": 302.9,
+   "end": 323.29,
    "role": "H",
    "sentences": [
     "2.04#1",
@@ -790,8 +845,8 @@
   {
    "id": "2-05",
    "act": 2,
-   "start": 374.358,
-   "end": 400.569,
+   "start": 323.29,
+   "end": 346.01,
    "role": "H",
    "sentences": [
     "2.04#4",
@@ -821,7 +876,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -832,13 +889,11 @@
   {
    "id": "2-06",
    "act": 2,
-   "start": 400.569,
-   "end": 421.317,
+   "start": 346.01,
+   "end": 353.34,
    "role": "D",
    "sentences": [
-    "2.06#1",
-    "2.06#2",
-    "2.06#3"
+    "2.06#1"
    ],
    "template": "T4",
    "variant": "",
@@ -874,13 +929,11 @@
   {
    "id": "2-07",
    "act": 2,
-   "start": 421.317,
-   "end": 430.873,
+   "start": 353.34,
+   "end": 362.02,
    "role": "D",
    "sentences": [
-    "2.06#4",
-    "2.06#5",
-    "2.06#6"
+    "2.06#2"
    ],
    "template": "T5",
    "variant": "date",
@@ -905,7 +958,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -916,14 +971,12 @@
   {
    "id": "2-08",
    "act": 2,
-   "start": 430.873,
-   "end": 460.818,
+   "start": 362.02,
+   "end": 382.23,
    "role": "H",
    "sentences": [
     "2.07#1",
-    "2.07#2",
-    "2.07#3",
-    "2.07#4"
+    "2.07#2"
    ],
    "template": "T1",
    "variant": "",
@@ -948,7 +1001,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "C"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -959,8 +1014,8 @@
   {
    "id": "2-09",
    "act": 2,
-   "start": 460.818,
-   "end": 493.259,
+   "start": 382.23,
+   "end": 408.76,
    "role": "C",
    "sentences": [
     "2.08#1",
@@ -991,7 +1046,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1002,13 +1059,12 @@
   {
    "id": "2-10",
    "act": 2,
-   "start": 493.259,
-   "end": 512.593,
+   "start": 408.76,
+   "end": 419.6,
    "role": "H",
    "sentences": [
     "2.09#1",
-    "2.09#2",
-    "2.09#3"
+    "2.09#2"
    ],
    "template": "T1",
    "variant": "",
@@ -1044,13 +1100,12 @@
   {
    "id": "2-11",
    "act": 2,
-   "start": 512.593,
-   "end": 533.322,
+   "start": 419.6,
+   "end": 431.76,
    "role": "H",
    "sentences": [
-    "2.09#4",
-    "2.09#5",
-    "2.09#6"
+    "2.09#3",
+    "2.09#4"
    ],
    "template": "T1",
    "variant": "",
@@ -1086,12 +1141,12 @@
   {
    "id": "2-12",
    "act": 2,
-   "start": 533.322,
-   "end": 545.424,
+   "start": 431.76,
+   "end": 442.13,
    "role": "H",
    "sentences": [
-    "2.09#7",
-    "2.09#8"
+    "2.09#5",
+    "2.09#6"
    ],
    "template": "T1",
    "variant": "",
@@ -1116,7 +1171,9 @@
     "bust": false,
     "nobust": true,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1127,8 +1184,8 @@
   {
    "id": "2-13",
    "act": 2,
-   "start": 545.424,
-   "end": 556.374,
+   "start": 442.13,
+   "end": 452.41,
    "role": "D",
    "sentences": [
     "2.10#1",
@@ -1146,7 +1203,7 @@
      "elems": [
       [
        "ital",
-       "Chiếc điện thoại hiển thị giao diện cuộc gọi đang diễn ra hơn 40 phút, nằm tr..."
+       "Chiếc điện thoại nằm trên nắp xe ướt đầy nước mưa, sóng âm thanh xanh lạnh nhấp nháy trên màn hình dưới ánh trăng mờ..."
       ]
      ]
     }
@@ -1168,8 +1225,8 @@
   {
    "id": "2-14",
    "act": 2,
-   "start": 556.374,
-   "end": 566.926,
+   "start": 452.41,
+   "end": 460.51,
    "role": "D",
    "sentences": [
     "2.10#3"
@@ -1197,7 +1254,9 @@
     "bust": false,
     "nobust": true,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1208,8 +1267,8 @@
   {
    "id": "3-01",
    "act": 3,
-   "start": 566.926,
-   "end": 589.047,
+   "start": 460.51,
+   "end": 480.49,
    "role": "H",
    "sentences": [
     "3.02#1",
@@ -1238,7 +1297,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "C"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1249,8 +1310,8 @@
   {
    "id": "3-02",
    "act": 3,
-   "start": 589.047,
-   "end": 611.606,
+   "start": 480.49,
+   "end": 502.75,
    "role": "C",
    "sentences": [
     "3.03#1",
@@ -1280,7 +1341,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1291,8 +1354,8 @@
   {
    "id": "3-03",
    "act": 3,
-   "start": 611.606,
-   "end": 631.743,
+   "start": 502.75,
+   "end": 522.09,
    "role": "H",
    "sentences": [
     "3.04#1",
@@ -1322,7 +1385,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1333,8 +1398,8 @@
   {
    "id": "3-04",
    "act": 3,
-   "start": 631.743,
-   "end": 651.319,
+   "start": 522.09,
+   "end": 543.05,
    "role": "D",
    "sentences": [
     "3.05#1",
@@ -1374,8 +1439,8 @@
   {
    "id": "3-05",
    "act": 3,
-   "start": 651.319,
-   "end": 667.435,
+   "start": 543.05,
+   "end": 558.9,
    "role": "D",
    "sentences": [
     "3.05#3",
@@ -1404,7 +1469,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1415,8 +1482,8 @@
   {
    "id": "3-06",
    "act": 3,
-   "start": 667.435,
-   "end": 691.512,
+   "start": 558.9,
+   "end": 582.75,
    "role": "H",
    "sentences": [
     "3.06#1",
@@ -1457,13 +1524,11 @@
   {
    "id": "3-07",
    "act": 3,
-   "start": 691.512,
-   "end": 717.129,
+   "start": 582.75,
+   "end": 598.17,
    "role": "H",
    "sentences": [
-    "3.06#4",
-    "3.06#5",
-    "3.06#6"
+    "3.06#4"
    ],
    "template": "T1",
    "variant": "",
@@ -1488,7 +1553,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "C"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1499,8 +1566,8 @@
   {
    "id": "3-08",
    "act": 3,
-   "start": 717.129,
-   "end": 742.881,
+   "start": 598.17,
+   "end": 619.47,
    "role": "C",
    "sentences": [
     "3.07#1",
@@ -1530,7 +1597,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1541,8 +1610,8 @@
   {
    "id": "3-09",
    "act": 3,
-   "start": 742.881,
-   "end": 766.871,
+   "start": 619.47,
+   "end": 644.1,
    "role": "H",
    "sentences": [
     "3.08#1",
@@ -1583,13 +1652,12 @@
   {
    "id": "3-10",
    "act": 3,
-   "start": 766.871,
-   "end": 788.345,
+   "start": 644.1,
+   "end": 655.62,
    "role": "H",
    "sentences": [
     "3.08#4",
-    "3.08#5",
-    "3.08#6"
+    "3.08#5"
    ],
    "template": "T1",
    "variant": "",
@@ -1625,11 +1693,11 @@
   {
    "id": "3-11",
    "act": 3,
-   "start": 788.345,
-   "end": 799.82,
+   "start": 655.62,
+   "end": 666.14,
    "role": "H",
    "sentences": [
-    "3.08#7"
+    "3.08#6"
    ],
    "template": "T1",
    "variant": "",
@@ -1665,13 +1733,14 @@
   {
    "id": "4-01",
    "act": 4,
-   "start": 799.82,
-   "end": 829.292,
+   "start": 666.14,
+   "end": 698.13,
    "role": "H",
    "sentences": [
     "4.02#1",
     "4.02#2",
-    "4.02#3"
+    "4.02#3",
+    "4.02#4"
    ],
    "template": "T4",
    "variant": "",
@@ -1696,7 +1765,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "N2"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1707,14 +1778,12 @@
   {
    "id": "4-02",
    "act": 4,
-   "start": 829.292,
-   "end": 851.119,
+   "start": 698.13,
+   "end": 717.93,
    "role": "N2",
    "sentences": [
     "4.03#1",
-    "4.03#2",
-    "4.03#3",
-    "4.03#4"
+    "4.03#2"
    ],
    "template": "T1",
    "variant": "",
@@ -1750,14 +1819,11 @@
   {
    "id": "4-03",
    "act": 4,
-   "start": 851.119,
-   "end": 869.023,
+   "start": 717.93,
+   "end": 726.03,
    "role": "N2",
    "sentences": [
-    "4.03#5",
-    "4.03#6",
-    "4.03#7",
-    "4.03#8"
+    "4.03#3"
    ],
    "template": "T4",
    "variant": "",
@@ -1771,7 +1837,7 @@
      "elems": [
       [
        "ital",
-       "Tập tài liệu in lời khai nhân chứng Samantha Boardman được đóng dấu tiếp nhận..."
+       "Tập tài liệu in lời khai nhân chứng được đóng dấu tiếp nhận, các dòng khai về tin nhắn nằm ngay ngắn dưới con dấu đỏ..."
       ]
      ]
     }
@@ -1782,7 +1848,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1793,8 +1861,8 @@
   {
    "id": "4-04",
    "act": 4,
-   "start": 869.023,
-   "end": 897.339,
+   "start": 726.03,
+   "end": 754.6,
    "role": "H",
    "sentences": [
     "4.05#1",
@@ -1835,8 +1903,8 @@
   {
    "id": "4-05",
    "act": 4,
-   "start": 897.339,
-   "end": 910.682,
+   "start": 754.6,
+   "end": 766.86,
    "role": "H",
    "sentences": [
     "4.05#4",
@@ -1876,8 +1944,8 @@
   {
    "id": "4-06",
    "act": 4,
-   "start": 910.682,
-   "end": 921.618,
+   "start": 766.86,
+   "end": 778.28,
    "role": "H",
    "sentences": [
     "4.05#6"
@@ -1905,7 +1973,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1916,8 +1986,8 @@
   {
    "id": "4-07",
    "act": 4,
-   "start": 921.618,
-   "end": 942.274,
+   "start": 778.28,
+   "end": 797.8,
    "role": "D",
    "sentences": [
     "4.06#1",
@@ -1957,8 +2027,8 @@
   {
    "id": "4-08",
    "act": 4,
-   "start": 942.274,
-   "end": 955.306,
+   "start": 797.8,
+   "end": 809.37,
    "role": "D",
    "sentences": [
     "4.06#3",
@@ -1987,7 +2057,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "C"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1998,8 +2070,8 @@
   {
    "id": "4-09",
    "act": 4,
-   "start": 955.306,
-   "end": 985.281,
+   "start": 809.37,
+   "end": 832.72,
    "role": "C",
    "sentences": [
     "4.07#1",
@@ -2030,7 +2102,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2041,8 +2115,8 @@
   {
    "id": "4-10",
    "act": 4,
-   "start": 985.281,
-   "end": 1019.061,
+   "start": 832.72,
+   "end": 860.6,
    "role": "H",
    "sentences": [
     "4.08#1",
@@ -2084,13 +2158,11 @@
   {
    "id": "4-11",
    "act": 4,
-   "start": 1019.061,
-   "end": 1045.144,
+   "start": 860.6,
+   "end": 869.27,
    "role": "H",
    "sentences": [
-    "4.08#5",
-    "4.08#6",
-    "4.08#7"
+    "4.08#5"
    ],
    "template": "T1",
    "variant": "",
@@ -2126,8 +2198,8 @@
   {
    "id": "4-12",
    "act": 4,
-   "start": 1045.144,
-   "end": 1061.296,
+   "start": 869.27,
+   "end": 886.53,
    "role": "H",
    "sentences": [
     "4.10#1",
@@ -2167,8 +2239,8 @@
   {
    "id": "4-13",
    "act": 4,
-   "start": 1061.296,
-   "end": 1069.265,
+   "start": 886.53,
+   "end": 893.97,
    "role": "H",
    "sentences": [
     "4.10#3"
@@ -2207,8 +2279,8 @@
   {
    "id": "5-01",
    "act": 5,
-   "start": 1069.265,
-   "end": 1094.496,
+   "start": 893.97,
+   "end": 917.04,
    "role": "H",
    "sentences": [
     "5.02#1",
@@ -2249,13 +2321,12 @@
   {
    "id": "5-02",
    "act": 5,
-   "start": 1094.496,
-   "end": 1124.164,
+   "start": 917.04,
+   "end": 940.39,
    "role": "H",
    "sentences": [
     "5.02#4",
-    "5.02#5",
-    "5.02#6"
+    "5.02#5"
    ],
    "template": "T1",
    "variant": "",
@@ -2280,7 +2351,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "C"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2291,8 +2364,8 @@
   {
    "id": "5-03",
    "act": 5,
-   "start": 1124.164,
-   "end": 1148.465,
+   "start": 940.39,
+   "end": 959.37,
    "role": "C",
    "sentences": [
     "5.03#1",
@@ -2322,7 +2395,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2333,14 +2408,12 @@
   {
    "id": "5-04",
    "act": 5,
-   "start": 1148.465,
-   "end": 1188.997,
+   "start": 959.37,
+   "end": 978.23,
    "role": "H",
    "sentences": [
     "5.04#1",
-    "5.04#2",
-    "5.04#3",
-    "5.04#4"
+    "5.04#2"
    ],
    "template": "T8",
    "variant": "flags",
@@ -2354,7 +2427,11 @@
      "elems": [
       [
        "ital",
-       "Cảnh báo đỏ 1: Một quả cầu thủy tinh phát sáng cô lập giữa rừng cây tăm tối, ..."
+       "01"
+      ],
+      [
+       "bold",
+       "CẢNH BÁO ĐỎ 1 — CẢNH GIÁC TRƯỚC CÁC MỐI QUAN HỆ ẢO SIÊU TỐC VÀ CÔ LẬP"
       ]
      ]
     }
@@ -2376,8 +2453,49 @@
   {
    "id": "5-05",
    "act": 5,
-   "start": 1188.997,
-   "end": 1217.169,
+   "start": 978.23,
+   "end": 997.55,
+   "role": "H",
+   "sentences": [
+    "5.04#3",
+    "5.04#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t7_redflag1_isolated_virtual_bubble",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bong bóng thuỷ tinh phát sáng cô lập giữa rừng cây tăm tối, bên trong là một bóng người bị giam trong không gian số khép kín không lối ra..."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-06",
+   "act": 5,
+   "start": 997.55,
+   "end": 1023.22,
    "role": "H",
    "sentences": [
     "5.04#5",
@@ -2416,16 +2534,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-06",
+   "id": "5-07",
    "act": 5,
-   "start": 1217.169,
-   "end": 1248.315,
+   "start": 1023.22,
+   "end": 1047.59,
    "role": "H",
    "sentences": [
     "5.04#8",
     "5.04#9",
-    "5.04#10",
-    "5.04#11"
+    "5.04#10"
    ],
    "template": "T8",
    "variant": "flags",
@@ -2439,50 +2556,11 @@
      "elems": [
       [
        "ital",
-       "Cảnh báo đỏ 3: Một chiếc bục phát biểu vây quanh bởi hàng chục micrô và ống k..."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "5-07",
-   "act": 5,
-   "start": 1248.315,
-   "end": 1281.999,
-   "role": "H",
-   "sentences": [
-    "5.04#12",
-    "5.04#13",
-    "5.04#14",
-    "5.04#15"
-   ],
-   "template": "T8",
-   "variant": "flags",
-   "bg": "t7_redflag4_disconnect_phone_dawn",
-   "bg2": null,
-   "inset": null,
-   "camera": "pan",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
+       "03"
+      ],
       [
-       "ital",
-       "Cảnh báo đỏ 4: Chiếc điện thoại thông minh bị đặt úp mặt xuống chiếc bàn gỗ b..."
+       "bold",
+       "CẢNH BÁO ĐỎ 3 — HỘI CHỨNG KHAO KHÁT SỰ CHÚ Ý VÀ KỊCH TÍN HÓA BI KỊCH"
       ]
      ]
     }
@@ -2504,8 +2582,95 @@
   {
    "id": "5-08",
    "act": 5,
-   "start": 1281.999,
-   "end": 1295.362,
+   "start": 1047.59,
+   "end": 1061.07,
+   "role": "H",
+   "sentences": [
+    "5.04#11",
+    "5.04#12"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "t7_redflag4_disconnect_phone_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "04"
+      ],
+      [
+       "bold",
+       "CẢNH BÁO ĐỎ 4 — LẮNG NGHE BẢN NĂNG SINH TỒN VÀ DỨT KHOÁT CẮT ĐỨT LIÊN LẠC"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-09",
+   "act": 5,
+   "start": 1061.07,
+   "end": 1085.44,
+   "role": "H",
+   "sentences": [
+    "5.04#13",
+    "5.04#14",
+    "5.04#15"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t7_redflag4_disconnect_phone_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chiếc điện thoại thông minh bị đặt úp mặt xuống chiếc bàn gỗ sáng bên cửa sổ bình minh, ánh nắng đầu ngày rọi qua lưng điện thoại..."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-10",
+   "act": 5,
+   "start": 1085.44,
+   "end": 1115.04,
    "role": "H",
    "sentences": [
     "5.04#16",
@@ -2543,15 +2708,54 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-09",
+   "id": "5-11",
    "act": 5,
-   "start": 1295.362,
-   "end": 1299.626,
+   "start": 1115.04,
+   "end": 1124.87,
    "role": "H",
    "sentences": [
-    "5.04#18"
+    "5.04#18",
+    "5.04#19"
    ],
-   "template": "T2",
+   "template": "T1",
+   "variant": "",
+   "bg": "t7_closing_dossier_white_rose",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chồng hồ sơ đã đóng dấu trên bàn gỗ, bên cạnh bình hoa bông hồng trắng và ngọn nến đang cháy trong buổi sáng sớm..."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-12",
+   "act": 5,
+   "start": 1124.87,
+   "end": 1134.87,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
    "variant": "",
    "bg": "t7_closing_dossier_white_rose",
    "bg2": null,

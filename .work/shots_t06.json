@@ -1,5 +1,5 @@
 {
- "total": 1529.112,
+ "total": 1258.37,
  "shots": [
   {
    "id": "1-00",
@@ -43,7 +43,7 @@
    "id": "1-01",
    "act": 1,
    "start": 22.8,
-   "end": 40.261,
+   "end": 39.69,
    "role": "H",
    "sentences": [
     "1.02#1"
@@ -86,8 +86,8 @@
   {
    "id": "1-02",
    "act": 1,
-   "start": 40.261,
-   "end": 56.867,
+   "start": 39.69,
+   "end": 54.31,
    "role": "H",
    "sentences": [
     "1.02#2",
@@ -131,8 +131,8 @@
   {
    "id": "1-03",
    "act": 1,
-   "start": 56.867,
-   "end": 68.595,
+   "start": 54.31,
+   "end": 65.1,
    "role": "H",
    "sentences": [
     "1.02#4"
@@ -175,8 +175,8 @@
   {
    "id": "1-04",
    "act": 1,
-   "start": 68.595,
-   "end": 85.664,
+   "start": 65.1,
+   "end": 82.3,
    "role": "H",
    "sentences": [
     "1.02#5",
@@ -220,8 +220,8 @@
   {
    "id": "1-05",
    "act": 1,
-   "start": 85.664,
-   "end": 99.92,
+   "start": 82.3,
+   "end": 94.97,
    "role": "H",
    "sentences": [
     "1.04#1"
@@ -246,7 +246,7 @@
       ],
       [
        "ital",
-       "Vận hành suốt gần một thập kỷ giữa khu dân cư"
+       "Âm thầm vận hành ngay giữa khu dân cư yên bình"
       ]
      ]
     }
@@ -268,8 +268,8 @@
   {
    "id": "1-06",
    "act": 1,
-   "start": 99.92,
-   "end": 109.546,
+   "start": 94.97,
+   "end": 103.33,
    "role": "H",
    "sentences": [
     "1.04#2"
@@ -290,7 +290,7 @@
       ],
       [
        "ital",
-       "Ngôi nhà 8213 West Summerdale Avenue"
+       "Mái ấm biến thành nơi che giấu tội ác"
       ]
      ]
     }
@@ -312,8 +312,8 @@
   {
    "id": "1-07",
    "act": 1,
-   "start": 109.546,
-   "end": 110.846,
+   "start": 103.33,
+   "end": 104.63,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -332,7 +332,7 @@
       ],
       [
        "ital",
-       "Ngôi nhà 8213 West Summerdale Avenue"
+       "Mái ấm biến thành nơi che giấu tội ác"
       ]
      ]
     }
@@ -355,8 +355,8 @@
   {
    "id": "1-08",
    "act": 1,
-   "start": 110.846,
-   "end": 131.008,
+   "start": 104.63,
+   "end": 123.27,
    "role": "H",
    "sentences": [
     "1.06#1",
@@ -400,8 +400,8 @@
   {
    "id": "1-09",
    "act": 1,
-   "start": 131.008,
-   "end": 147.787,
+   "start": 123.27,
+   "end": 136.81,
    "role": "H",
    "sentences": [
     "1.06#3",
@@ -445,8 +445,8 @@
   {
    "id": "1-10",
    "act": 1,
-   "start": 147.787,
-   "end": 156.172,
+   "start": 136.81,
+   "end": 144.56,
    "role": "H",
    "sentences": [
     "1.06#5"
@@ -467,7 +467,7 @@
       ],
       [
        "ital",
-       "Robert Piest: Học sinh danh dự trường Maine West"
+       "Cậu là một thiếu niên ngoan ngoãn, chăm chỉ"
       ]
      ]
     }
@@ -489,12 +489,11 @@
   {
    "id": "1-11",
    "act": 1,
-   "start": 156.172,
-   "end": 170.311,
+   "start": 144.56,
+   "end": 149.23,
    "role": "H",
    "sentences": [
-    "1.06#6",
-    "1.06#7"
+    "1.06#6"
    ],
    "template": "T1",
    "variant": "",
@@ -508,11 +507,11 @@
      "elems": [
       [
        "bold",
-       "“MẸ ƠI, MẸ ĐỢI CON VÀI PHÚT NHÉ”"
+       "KHOẢNG CHÍN GIỜ TỐI"
       ],
       [
        "ital",
-       "Robert khoác vội chiếc áo mỏng, gõ cửa kính xe với ánh mắt lấp lánh niềm vui"
+       "Robert xin mẹ đợi thêm vài phút"
       ]
      ]
     }
@@ -534,11 +533,11 @@
   {
    "id": "1-12",
    "act": 1,
-   "start": 170.311,
-   "end": 190.921,
+   "start": 149.23,
+   "end": 167.01,
    "role": "H",
    "sentences": [
-    "1.06#8",
+    "1.06#7",
     "1.08#1"
    ],
    "template": "T1",
@@ -557,7 +556,7 @@
       ],
       [
        "ital",
-       "Cao gấp hơn hai lần mức lương tối thiểu năm 1978"
+       "Cao gần gấp đôi mức lương tối thiểu liên bang năm 1978"
       ]
      ]
     }
@@ -579,8 +578,8 @@
   {
    "id": "1-13",
    "act": 1,
-   "start": 190.921,
-   "end": 205.197,
+   "start": 167.01,
+   "end": 179.73,
    "role": "H",
    "sentences": [
     "1.08#2",
@@ -624,8 +623,8 @@
   {
    "id": "1-14",
    "act": 1,
-   "start": 205.197,
-   "end": 221.06,
+   "start": 179.73,
+   "end": 187.91,
    "role": "H",
    "sentences": [
     "1.08#4",
@@ -647,7 +646,7 @@
       ],
       [
        "ital",
-       "Chiếc xe vẫn nổ máy nhưng Robert không bao giờ quay lại"
+       "Mười phút, hai mươi phút rồi một tiếng đồng hồ trôi qua · Robert không bao giờ quay lại"
       ]
      ]
     }
@@ -669,13 +668,58 @@
   {
    "id": "1-15",
    "act": 1,
-   "start": 221.06,
-   "end": 241.53,
+   "start": 187.91,
+   "end": 195.65,
+   "role": "H",
+   "sentences": [
+    "1.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_pharmacy_counters_renovation",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TÂM TRẠNG KIM BYERS"
+      ],
+      [
+       "ital",
+       "Cô đồng nghiệp mười bảy tuổi của Robert ở hiệu thuốc tối hôm ấy"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N1"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-16",
+   "act": 1,
+   "start": 195.65,
+   "end": 204.05,
    "role": "N1",
    "sentences": [
     "1.09#1",
-    "1.09#2",
-    "1.09#3"
+    "1.09#2"
    ],
    "template": "T4",
    "variant": "testimony",
@@ -689,7 +733,7 @@
      "elems": [
       [
        "quote",
-       "Người thầu xây dựng John Gacy đứng trò chuyện rất cởi mở… Sẵn sàng trả mức thù lao rất hậu hĩnh."
+       "Tối hôm đó, hiệu thuốc đang được sửa lại một số kệ hàng. Nhà thầu John Gacy trò chuyện khá cởi mở với nhân viên."
       ]
      ]
     }
@@ -709,15 +753,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-16",
+   "id": "1-17",
    "act": 1,
-   "start": 241.53,
-   "end": 269.331,
+   "start": 204.05,
+   "end": 219.85,
    "role": "N1",
    "sentences": [
+    "1.09#3",
     "1.09#4",
-    "1.09#5",
-    "1.09#6"
+    "1.09#5"
    ],
    "template": "T4",
    "variant": "testimony",
@@ -731,7 +775,7 @@
      "elems": [
       [
        "quote",
-       "Chiếc áo khoác của cậu ấy vẫn còn treo trong phòng nghỉ… Không ngờ người đàn ông vui tính lại mang đến bóng tối kinh hoàng."
+       "Robert hào hứng lắm, cậu bảo chỉ ra nói chuyện vài phút rồi sẽ về mừng sinh nhật mẹ. Nhưng Robert không quay lại."
       ]
      ]
     }
@@ -742,7 +786,9 @@
     "bust": true,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -751,10 +797,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-17",
+   "id": "1-18",
    "act": 1,
-   "start": 269.331,
-   "end": 283.011,
+   "start": 219.85,
+   "end": 232.64,
    "role": "H",
    "sentences": [
     "1.11#1",
@@ -787,7 +833,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -796,10 +844,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-18",
+   "id": "1-19",
    "act": 1,
-   "start": 283.011,
-   "end": 304.708,
+   "start": 232.64,
+   "end": 253.86,
    "role": "D",
    "sentences": [
     "1.12#1",
@@ -833,7 +881,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -842,10 +892,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-19",
+   "id": "1-20",
    "act": 1,
-   "start": 304.708,
-   "end": 327.864,
+   "start": 253.86,
+   "end": 276.75,
    "role": "H",
    "sentences": [
     "1.13#1",
@@ -878,7 +928,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -887,15 +939,14 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-20",
+   "id": "1-21",
    "act": 1,
-   "start": 327.864,
-   "end": 345.129,
+   "start": 276.75,
+   "end": 286.14,
    "role": "D",
    "sentences": [
     "1.14#1",
-    "1.14#2",
-    "1.14#3"
+    "1.14#2"
    ],
    "template": "T1",
    "variant": "",
@@ -909,11 +960,11 @@
      "elems": [
       [
        "bold",
-       "ỐNG QUẦN TÂY DÍNH BÙN ĐẤT TƯƠI"
+       "QUẦN ÁO DÍNH ĐẦY BÙN ĐẤT"
       ],
       [
        "ital",
-       "Mùi hôi thối kỳ lạ trên cơ thể sáng 12/12/1978"
+       "Một chi tiết nhỏ lọt vào mắt các điều tra viên dày dạn"
       ]
      ]
     }
@@ -924,7 +975,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "C"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -933,10 +986,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-21",
+   "id": "1-22",
    "act": 1,
-   "start": 345.129,
-   "end": 375.787,
+   "start": 286.14,
+   "end": 314.69,
    "role": "C",
    "sentences": [
     "1.15#1",
@@ -971,7 +1024,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -980,10 +1035,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-22",
+   "id": "1-23",
    "act": 1,
-   "start": 375.787,
-   "end": 402.48,
+   "start": 314.69,
+   "end": 340.38,
    "role": "H",
    "sentences": [
     "1.16#1",
@@ -1027,8 +1082,8 @@
   {
    "id": "2-01",
    "act": 2,
-   "start": 402.48,
-   "end": 422.128,
+   "start": 340.38,
+   "end": 359.49,
    "role": "H",
    "sentences": [
     "2.02#1",
@@ -1061,7 +1116,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1072,9 +1129,9 @@
   {
    "id": "2-02",
    "act": 2,
-   "start": 422.128,
-   "end": 443.613,
-   "role": "H",
+   "start": 359.49,
+   "end": 379.85,
+   "role": "D",
    "sentences": [
     "2.03#1",
     "2.03#2"
@@ -1095,7 +1152,7 @@
       ],
       [
        "ital",
-       "Năm 10 năm tù tại Iowa · Trại cải tạo Anamosa · Ân xá sớm sau 18 tháng"
+       "Kết án mười năm tù tại thị trấn Waterloo, bang Iowa · Ân xá sớm sau mười tám tháng"
       ]
      ]
     }
@@ -1117,9 +1174,9 @@
   {
    "id": "2-03",
    "act": 2,
-   "start": 443.613,
-   "end": 458.654,
-   "role": "H",
+   "start": 379.85,
+   "end": 395.18,
+   "role": "D",
    "sentences": [
     "2.03#3",
     "2.03#4"
@@ -1151,7 +1208,9 @@
     "bust": true,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1162,8 +1221,8 @@
   {
    "id": "2-04",
    "act": 2,
-   "start": 458.654,
-   "end": 488.119,
+   "start": 395.18,
+   "end": 421.23,
    "role": "H",
    "sentences": [
     "2.04#1",
@@ -1196,7 +1255,9 @@
     "bust": true,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1207,8 +1268,8 @@
   {
    "id": "2-05",
    "act": 2,
-   "start": 488.119,
-   "end": 494.204,
+   "start": 421.23,
+   "end": 426.42,
    "role": "D",
    "sentences": [
     "2.06#1"
@@ -1251,8 +1312,8 @@
   {
    "id": "2-06",
    "act": 2,
-   "start": 494.204,
-   "end": 520.036,
+   "start": 426.42,
+   "end": 449.92,
    "role": "D",
    "sentences": [
     "2.06#2",
@@ -1271,7 +1332,7 @@
      "elems": [
       [
        "bold",
-       "CÒNG TAY KIM LOẠI & PHÙ HIỆU GIẢ"
+       "CÒNG TAY KIM LOẠI & NHIỀU PHÙ HIỆU CẢNH SÁT"
       ],
       [
        "ital",
@@ -1286,7 +1347,9 @@
     "bust": true,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1297,8 +1360,8 @@
   {
    "id": "2-07",
    "act": 2,
-   "start": 520.036,
-   "end": 530.555,
+   "start": 449.92,
+   "end": 459.61,
    "role": "H",
    "sentences": [
     "2.07#1"
@@ -1341,8 +1404,8 @@
   {
    "id": "2-08",
    "act": 2,
-   "start": 530.555,
-   "end": 562.17,
+   "start": 459.61,
+   "end": 483.43,
    "role": "H",
    "sentences": [
     "2.07#2",
@@ -1365,7 +1428,7 @@
       ],
       [
        "ital",
-       "John Alan Szyc (19 tuổi, mất tích 1/1977) · Lời ngụy biện mua từ tiệm cầm đồ"
+       "John Alan Szyc (19 tuổi, mất tích 1/1977) · Một lời giải thích qua loa"
       ]
      ]
     }
@@ -1387,8 +1450,8 @@
   {
    "id": "2-09",
    "act": 2,
-   "start": 562.17,
-   "end": 585.172,
+   "start": 483.43,
+   "end": 504.58,
    "role": "H",
    "sentences": [
     "2.07#5",
@@ -1421,7 +1484,9 @@
     "bust": true,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1432,9 +1497,9 @@
   {
    "id": "2-10",
    "act": 2,
-   "start": 585.172,
-   "end": 603.531,
-   "role": "H",
+   "start": 504.58,
+   "end": 524.09,
+   "role": "D",
    "sentences": [
     "2.08#1",
     "2.08#2"
@@ -1466,7 +1531,9 @@
     "bust": true,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1477,8 +1544,8 @@
   {
    "id": "2-11",
    "act": 2,
-   "start": 603.531,
-   "end": 623.259,
+   "start": 524.09,
+   "end": 543.48,
    "role": "H",
    "sentences": [
     "2.09#1",
@@ -1511,7 +1578,9 @@
     "bust": true,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "C"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1522,8 +1591,8 @@
   {
    "id": "2-12",
    "act": 2,
-   "start": 623.259,
-   "end": 655.879,
+   "start": 543.48,
+   "end": 571.27,
    "role": "C",
    "sentences": [
     "2.10#1",
@@ -1558,7 +1627,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1569,8 +1640,8 @@
   {
    "id": "2-13",
    "act": 2,
-   "start": 655.879,
-   "end": 678.3,
+   "start": 571.27,
+   "end": 588.67,
    "role": "H",
    "sentences": [
     "2.11#1",
@@ -1614,8 +1685,8 @@
   {
    "id": "2-14",
    "act": 2,
-   "start": 678.3,
-   "end": 693.823,
+   "start": 588.67,
+   "end": 600.45,
    "role": "H",
    "sentences": [
     "2.11#3",
@@ -1633,11 +1704,11 @@
      "elems": [
       [
        "bold",
-       "MỜI CÀ PHÊ VÀ TRẢ TIỀN BỮA ĂN"
+       "HÀO PHÓNG MUA BIA CHO CẢNH SÁT"
       ],
       [
        "ital",
-       "Nụ cười trơ tráo: “Tôi biết các anh đang làm nhiệm vụ mà”"
+       "Nụ cười rạng rỡ như thể đang tiếp đãi bạn bè"
       ]
      ]
     }
@@ -1659,8 +1730,8 @@
   {
    "id": "2-15",
    "act": 2,
-   "start": 693.823,
-   "end": 711.906,
+   "start": 600.45,
+   "end": 611.7,
    "role": "H",
    "sentences": [
     "2.11#5",
@@ -1668,7 +1739,7 @@
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t6_bank_cash_withdrawal",
+   "bg": "t6_des_plaines_police_station",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -1678,11 +1749,11 @@
      "elems": [
       [
        "bold",
-       "RÚT TIỀN MẶT CHUẨN BỊ BỎ TRỐN"
+       "NGÀY CÀNG MẤT BÌNH TĨNH"
       ],
       [
        "ital",
-       "Thời cơ hành động duy nhất của ban chuyên án đã điểm"
+       "Cơ hội hành động duy nhất của ban chuyên án đã điểm"
       ]
      ]
     }
@@ -1704,8 +1775,8 @@
   {
    "id": "3-01",
    "act": 3,
-   "start": 711.906,
-   "end": 738.558,
+   "start": 611.7,
+   "end": 632.79,
    "role": "H",
    "sentences": [
     "3.02#1",
@@ -1738,7 +1809,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1749,8 +1822,8 @@
   {
    "id": "3-02",
    "act": 3,
-   "start": 738.558,
-   "end": 763.096,
+   "start": 632.79,
+   "end": 658.35,
    "role": "D",
    "sentences": [
     "3.03#1",
@@ -1784,7 +1857,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1795,9 +1870,9 @@
   {
    "id": "3-03",
    "act": 3,
-   "start": 763.096,
-   "end": 775.138,
-   "role": "D",
+   "start": 658.35,
+   "end": 668.57,
+   "role": "H",
    "sentences": [
     "3.05#1"
    ],
@@ -1813,11 +1888,11 @@
      "elems": [
       [
        "bold",
-       "NẮP HẦM KỸ THUẬT PHÒNG NGỦ"
+       "NẮP SÀN DẪN XUỐNG GẦM NHÀ"
       ],
       [
        "ital",
-       "Mùi phân hủy hữu cơ đặc quánh xộc thẳng vào mũi"
+       "Họ dần nhận ra điều mình lo sợ nhất có thể đã thành sự thật"
       ]
      ]
     }
@@ -1825,10 +1900,12 @@
    "beats": [],
    "beat_text": "—",
    "flags": {
-    "bust": true,
-    "nobust": false,
+    "bust": false,
+    "nobust": true,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1839,53 +1916,8 @@
   {
    "id": "3-04",
    "act": 3,
-   "start": 775.138,
-   "end": 794.969,
-   "role": "D",
-   "sentences": [
-    "3.05#2",
-    "3.05#3"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t6_scented_air_fresheners",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "HÀNG CHỤC HỘP SÁP THƠM KHỬ MÙI"
-      ],
-      [
-       "ital",
-       "Tử khí bốc ngược lên khi bật sưởi sàn mùa đông"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": true,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-05",
-   "act": 3,
-   "start": 794.969,
-   "end": 812.541,
+   "start": 668.57,
+   "end": 686.58,
    "role": "D",
    "sentences": [
     "3.06#1",
@@ -1907,7 +1939,7 @@
       ],
       [
        "ital",
-       "Cao chưa đầy một mét · Trườn về phía trước bằng khuỷu tay"
+       "Cao chưa đầy nửa mét · Trườn về phía trước bằng khuỷu tay"
       ]
      ]
     }
@@ -1915,10 +1947,12 @@
    "beats": [],
    "beat_text": "—",
    "flags": {
-    "bust": true,
-    "nobust": false,
+    "bust": false,
+    "nobust": true,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1927,14 +1961,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-06",
+   "id": "3-05",
    "act": 3,
-   "start": 812.541,
-   "end": 826.761,
-   "role": "D",
+   "start": 686.58,
+   "end": 690.93,
+   "role": "H",
    "sentences": [
-    "3.07#1",
-    "3.07#2"
+    "3.07#1"
    ],
    "template": "T1",
    "variant": "",
@@ -1948,11 +1981,11 @@
      "elems": [
       [
        "bold",
-       "ÁNH ĐÈN PIN QUÉT QUA LỚP VÔI BỘT"
+       "ÁNH ĐÈN PIN QUÉT QUA MẶT ĐẤT"
       ],
       [
        "ital",
-       "Đất xốp mới xới sát chân tường móng"
+       "Mặt đất phủ đầy bụi bặm"
       ]
      ]
     }
@@ -1960,8 +1993,8 @@
    "beats": [],
    "beat_text": "Tiếng gió lùa gầm sàn",
    "flags": {
-    "bust": true,
-    "nobust": false,
+    "bust": false,
+    "nobust": true,
     "intro": false,
     "handoff": [],
     "dual": false,
@@ -1972,15 +2005,14 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-07",
+   "id": "3-06",
    "act": 3,
-   "start": 826.761,
-   "end": 849.975,
-   "role": "D",
+   "start": 690.93,
+   "end": 705.58,
+   "role": "H",
    "sentences": [
-    "3.07#3",
-    "3.09#1",
-    "3.09#2"
+    "3.07#2",
+    "3.09#1"
    ],
    "template": "T1",
    "variant": "",
@@ -1994,11 +2026,11 @@
      "elems": [
       [
        "bold",
-       "NHÁT XẺNG ĐẦU TIÊN CẮM XUỐNG"
+       "MỘT SỰ THẬT KINH HOÀNG XÉ TOẠC MÀN ĐÊM"
       ],
       [
        "ital",
-       "Các dấu vết sinh học liên tiếp lộ diện trong đêm"
+       "Đội ngũ pháp y lần lượt xác định thêm nhiều nạn nhân"
       ]
      ]
     }
@@ -2006,10 +2038,12 @@
    "beats": [],
    "beat_text": "Tiếng xẻng cắm đất `3.08`",
    "flags": {
-    "bust": true,
-    "nobust": false,
+    "bust": false,
+    "nobust": true,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "C"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2018,17 +2052,16 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-08",
+   "id": "3-07",
    "act": 3,
-   "start": 849.975,
-   "end": 884.826,
+   "start": 705.58,
+   "end": 725.81,
    "role": "C",
    "sentences": [
     "3.10#1",
     "3.10#2",
     "3.10#3",
-    "3.10#4",
-    "3.10#5"
+    "3.10#4"
    ],
    "template": "T1",
    "variant": "",
@@ -2042,11 +2075,11 @@
      "elems": [
       [
        "bold",
-       "CHIẾN LỢI PHẨM VÔ HÌNH DƯỚI BÀN CHÂN"
+       "TỘI ÁC GIẤU NGAY DƯỚI NƠI SINH HOẠT"
       ],
       [
        "ital",
-       "Nhu cầu bệnh lý về sự kiểm soát và chiếm hữu vĩnh viễn"
+       "Nhu cầu kiểm soát và chiếm hữu ở mức bệnh hoạn"
       ]
      ]
     }
@@ -2057,7 +2090,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2066,10 +2101,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-09",
+   "id": "3-08",
    "act": 3,
-   "start": 884.826,
-   "end": 914.888,
+   "start": 725.81,
+   "end": 748.15,
    "role": "H",
    "sentences": [
     "3.11#1",
@@ -2088,11 +2123,11 @@
      "elems": [
       [
        "bold",
-       "CHIẾN DỊCH KHAI QUẬT XUYÊN ĐÊM"
+       "CHIẾN DỊCH KHAI QUẬT QUY MÔ KHỔNG LỒ"
       ],
       [
        "ital",
-       "Quy mô lớn chưa từng thấy trong lịch sử Illinois"
+       "Các chuyên gia pháp y được huy động đến hiện trường"
       ]
      ]
     }
@@ -2101,9 +2136,11 @@
    "beat_text": "Tiếng động cơ máy bơm",
    "flags": {
     "bust": false,
-    "nobust": false,
-    "intro": true,
-    "handoff": [],
+    "nobust": true,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2112,11 +2149,11 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-10",
+   "id": "3-09",
    "act": 3,
-   "start": 914.888,
-   "end": 948.19,
-   "role": "H",
+   "start": 748.15,
+   "end": 768.6,
+   "role": "D",
    "sentences": [
     "3.12#1",
     "3.12#2",
@@ -2139,7 +2176,7 @@
       ],
       [
        "ital",
-       "26 dưới sàn · 3 ngoài sân · 4 bị ném xuống dòng sông Des Plaines"
+       "26 dưới sàn · 3 trong khuôn viên · 4 ở sông Des Plaines"
       ]
      ]
     }
@@ -2147,10 +2184,12 @@
    "beats": [],
    "beat_text": "—",
    "flags": {
-    "bust": true,
-    "nobust": false,
+    "bust": false,
+    "nobust": true,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2159,10 +2198,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-11",
+   "id": "3-10",
    "act": 3,
-   "start": 948.19,
-   "end": 972.131,
+   "start": 768.6,
+   "end": 793.62,
    "role": "H",
    "sentences": [
     "3.13#1",
@@ -2207,8 +2246,8 @@
   {
    "id": "4-01",
    "act": 4,
-   "start": 972.131,
-   "end": 999.029,
+   "start": 793.62,
+   "end": 819.06,
    "role": "H",
    "sentences": [
     "4.02#1",
@@ -2242,7 +2281,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2253,9 +2294,9 @@
   {
    "id": "4-02",
    "act": 4,
-   "start": 999.029,
-   "end": 1027.946,
-   "role": "H",
+   "start": 819.06,
+   "end": 848.54,
+   "role": "D",
    "sentences": [
     "4.03#1",
     "4.03#2",
@@ -2288,7 +2329,9 @@
     "bust": true,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "N2"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2299,9 +2342,9 @@
   {
    "id": "4-03",
    "act": 4,
-   "start": 1027.946,
-   "end": 1067.836,
-   "role": "D",
+   "start": 848.54,
+   "end": 878.92,
+   "role": "N2",
    "sentences": [
     "4.04#1",
     "4.04#2",
@@ -2321,7 +2364,7 @@
      "elems": [
       [
        "quote",
-       "Gacy là một kẻ thao túng bậc thầy… Chỉ cần chúng tôi rời mắt vài giây, ánh mắt hắn lập tức thay đổi: Sắc lạnh, tỉnh táo và nhớ chính xác từng vị trí hố chôn."
+       "Nhưng chỉ vài giây sau, ánh mắt hắn lại sắc lạnh, tỉnh táo và đầy toan tính."
       ]
      ]
     }
@@ -2332,7 +2375,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2343,8 +2388,8 @@
   {
    "id": "4-04",
    "act": 4,
-   "start": 1067.836,
-   "end": 1091.895,
+   "start": 878.92,
+   "end": 902.99,
    "role": "H",
    "sentences": [
     "4.05#1",
@@ -2377,7 +2422,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "C"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2388,8 +2435,8 @@
   {
    "id": "4-05",
    "act": 4,
-   "start": 1091.895,
-   "end": 1126.582,
+   "start": 902.99,
+   "end": 931.34,
    "role": "C",
    "sentences": [
     "4.06#1",
@@ -2413,7 +2460,7 @@
       ],
       [
        "ital",
-       "Tuổi thơ đòn roi và tính mục đích lập kế hoạch chi tiết"
+       "Tuổi thơ bị bạo hành và tính mục đích lập kế hoạch chi tiết"
       ]
      ]
     }
@@ -2424,7 +2471,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2435,8 +2484,8 @@
   {
    "id": "4-06",
    "act": 4,
-   "start": 1126.582,
-   "end": 1138.537,
+   "start": 931.34,
+   "end": 942.76,
    "role": "H",
    "sentences": [
     "4.07#1"
@@ -2468,7 +2517,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2479,8 +2530,8 @@
   {
    "id": "4-07",
    "act": 4,
-   "start": 1138.537,
-   "end": 1156.213,
+   "start": 942.76,
+   "end": 955.4,
    "role": "D",
    "sentences": [
     "4.08#1",
@@ -2498,11 +2549,11 @@
      "elems": [
       [
        "bold",
-       "CHỨNG CỨ PREMEDITATED SẮC BÉN"
+       "HÀNH ĐỘNG CÓ KẾ HOẠCH TỪ TRƯỚC"
       ],
       [
        "ital",
-       "Chuẩn bị vôi bột dự trữ và thuê thợ đào sẵn rãnh đất"
+       "Hắn sai thợ phụ đào rãnh dưới nền nhà để che giấu tội ác"
       ]
      ]
     }
@@ -2524,16 +2575,15 @@
   {
    "id": "4-08",
    "act": 4,
-   "start": 1156.213,
-   "end": 1171.44,
+   "start": 955.4,
+   "end": 960.38,
    "role": "D",
    "sentences": [
-    "4.08#3",
-    "4.08#4"
+    "4.08#3"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t6_handcuff_trick_demonstration",
+   "bg": "t6_lawyer_office_night",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -2543,22 +2593,24 @@
      "elems": [
       [
        "bold",
-       "TRÒ ẢO THUẬT CÒNG TAY BẪY MỒI"
+       "MÁNH KHÓE LỪA GẠT"
       ],
       [
        "ital",
-       "Vô hiệu hóa khả năng tự vệ · Thao túng tâm lý các chàng trai trẻ"
+       "Hắn khiến các nạn nhân mất cảnh giác"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Tiếng cạch còng tay",
+   "beat_text": "—",
    "flags": {
     "bust": true,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "C"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2569,8 +2621,8 @@
   {
    "id": "4-09",
    "act": 4,
-   "start": 1171.44,
-   "end": 1196.942,
+   "start": 960.38,
+   "end": 979.78,
    "role": "C",
    "sentences": [
     "4.09#1",
@@ -2604,7 +2656,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2615,8 +2669,8 @@
   {
    "id": "4-10",
    "act": 4,
-   "start": 1196.942,
-   "end": 1226.227,
+   "start": 979.78,
+   "end": 1006.59,
    "role": "H",
    "sentences": [
     "4.10#1",
@@ -2634,11 +2688,11 @@
      "elems": [
       [
        "bold",
-       "13 · 03 · 1980"
+       "12 · 03 · 1980"
       ],
       [
        "ital",
-       "Bồi thẩm đoàn kết tội 33 vụ án mạng · Phán quyết: Án tử hình"
+       "Bồi thẩm đoàn kết tội ba mươi ba vụ tước đoạt mạng · Phán quyết: Án tử hình"
       ]
      ]
     }
@@ -2660,8 +2714,8 @@
   {
    "id": "5-01",
    "act": 5,
-   "start": 1226.227,
-   "end": 1251.278,
+   "start": 1006.59,
+   "end": 1026.97,
    "role": "H",
    "sentences": [
     "5.02#1",
@@ -2679,11 +2733,11 @@
      "elems": [
       [
        "bold",
-       "14 NĂM TẠI KHU BIỆT GIAM TỬ TÙ"
+       "MƯỜI BỐN NĂM TẠI MENARD"
       ],
       [
        "ital",
-       "Trung tâm Cải huấn Menard · Không một lời ăn năn"
+       "Trung tâm Cải huấn Menard, bang Illinois · Chưa từng một lần thể hiện sự hối hận"
       ]
      ]
     }
@@ -2692,8 +2746,8 @@
    "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": false,
-    "intro": true,
+    "nobust": true,
+    "intro": false,
     "handoff": [],
     "dual": false,
     "guests": false,
@@ -2705,8 +2759,8 @@
   {
    "id": "5-02",
    "act": 5,
-   "start": 1251.278,
-   "end": 1262.461,
+   "start": 1026.97,
+   "end": 1037.46,
    "role": "H",
    "sentences": [
     "5.02#3"
@@ -2749,13 +2803,11 @@
   {
    "id": "5-03",
    "act": 5,
-   "start": 1262.461,
-   "end": 1285.381,
+   "start": 1037.46,
+   "end": 1051.12,
    "role": "H",
    "sentences": [
-    "5.02#4",
-    "5.02#5",
-    "5.02#6"
+    "5.02#4"
    ],
    "template": "T1",
    "variant": "",
@@ -2769,11 +2821,11 @@
      "elems": [
       [
        "bold",
-       "“TÔI LÀ NẠN NHÂN THỨ 34”"
+       "“NẠN NHÂN THỨ BA MƯƠI TƯ”"
       ],
       [
        "ital",
-       "Cuốn sách Họ bảo tôi là quái vật · Sự trơ tráo tột cùng"
+       "Gacy tự tuyên bố trong tự truyện và các đoạn ghi âm trước ngày thi hành án"
       ]
      ]
     }
@@ -2784,7 +2836,9 @@
     "bust": true,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "C"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2795,8 +2849,8 @@
   {
    "id": "5-04",
    "act": 5,
-   "start": 1285.381,
-   "end": 1319.963,
+   "start": 1051.12,
+   "end": 1080.19,
    "role": "C",
    "sentences": [
     "5.03#1",
@@ -2831,7 +2885,9 @@
     "bust": false,
     "nobust": false,
     "intro": true,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2842,12 +2898,11 @@
   {
    "id": "5-05",
    "act": 5,
-   "start": 1319.963,
-   "end": 1341.938,
+   "start": 1080.19,
+   "end": 1091.82,
    "role": "H",
    "sentences": [
-    "5.04#1",
-    "5.04#2"
+    "5.04#1"
    ],
    "template": "T5",
    "variant": "date",
@@ -2865,7 +2920,7 @@
       ],
       [
        "ital",
-       "Trại giam Stateville · Thi hành án tử hình bằng tiêm thuốc độc"
+       "Trại giam Stateville · Bản án tử hình được thi hành đối với John Wayne Gacy"
       ]
      ]
     }
@@ -2874,8 +2929,8 @@
    "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": false,
-    "intro": true,
+    "nobust": true,
+    "intro": false,
     "handoff": [],
     "dual": false,
     "guests": false,
@@ -2887,12 +2942,12 @@
   {
    "id": "5-06",
    "act": 5,
-   "start": 1341.938,
-   "end": 1363.618,
+   "start": 1091.82,
+   "end": 1109.33,
    "role": "H",
    "sentences": [
-    "5.04#3",
-    "5.04#4"
+    "5.04#2",
+    "5.04#3"
    ],
    "template": "T1",
    "variant": "",
@@ -2906,11 +2961,11 @@
      "elems": [
       [
        "bold",
-       "LỜI TRĂN TRỐI CUỐI CÙNG"
+       "LỜI CUỐI CÙNG"
       ],
       [
        "ital",
-       "“Kiss my ass” — Hãy cút đi · Chống đối đến hơi thở cuối cùng"
+       "Không hề ăn năn · Chỉ một câu chửi thề thô tục · Chống đối đến hơi thở cuối cùng"
       ]
      ]
     }
@@ -2918,8 +2973,8 @@
    "beats": [],
    "beat_text": "Thở dài trầm lặng `5.05`",
    "flags": {
-    "bust": true,
-    "nobust": false,
+    "bust": false,
+    "nobust": true,
     "intro": false,
     "handoff": [],
     "dual": false,
@@ -2932,8 +2987,8 @@
   {
    "id": "5-07",
    "act": 5,
-   "start": 1363.618,
-   "end": 1394.59,
+   "start": 1109.33,
+   "end": 1135.28,
    "role": "H",
    "sentences": [
     "5.06#1",
@@ -2952,7 +3007,7 @@
      "elems": [
       [
        "bold",
-       "BÀI HỌC KINH ĐIỂN TẠI HỌC VIỆN FBI"
+       "MỘT BÀI HỌC ĐẮT GIÁ"
       ],
       [
        "ital",
@@ -2978,8 +3033,8 @@
   {
    "id": "5-08",
    "act": 5,
-   "start": 1394.59,
-   "end": 1419.902,
+   "start": 1135.28,
+   "end": 1158.59,
    "role": "H",
    "sentences": [
     "5.06#4",
@@ -2998,7 +3053,7 @@
      "elems": [
       [
        "bold",
-       "CẢNH BÁO ĐỎ 1: VỎ BỌC TỪ THIỆN & ĐỊA VỊ"
+       "CẢNH BÁO ĐỎ THỨ NHẤT: VỎ BỌC TỪ THIỆN & ĐỊA VỊ"
       ],
       [
        "ital",
@@ -3024,8 +3079,8 @@
   {
    "id": "5-09",
    "act": 5,
-   "start": 1419.902,
-   "end": 1443.304,
+   "start": 1158.59,
+   "end": 1180.3,
    "role": "H",
    "sentences": [
     "5.06#7",
@@ -3044,7 +3099,7 @@
      "elems": [
       [
        "bold",
-       "CẢNH BÁO ĐỎ 2: BẪY CÔNG VIỆC LƯƠNG CAO"
+       "CẢNH BÁO ĐỎ THỨ HAI: BẪY CÔNG VIỆC LƯƠNG CAO"
       ],
       [
        "ital",
@@ -3070,8 +3125,8 @@
   {
    "id": "5-10",
    "act": 5,
-   "start": 1443.304,
-   "end": 1469.924,
+   "start": 1180.3,
+   "end": 1205.09,
    "role": "H",
    "sentences": [
     "5.06#10",
@@ -3090,7 +3145,7 @@
      "elems": [
       [
        "bold",
-       "CẢNH BÁO ĐỎ 3: TRÒ CHƠI TIẾP XÚC THÂN THỂ"
+       "CẢNH BÁO ĐỎ THỨ BA: TRÒ CHƠI TIẾP XÚC THÂN THỂ"
       ],
       [
        "ital",
@@ -3116,8 +3171,8 @@
   {
    "id": "5-11",
    "act": 5,
-   "start": 1469.924,
-   "end": 1493.162,
+   "start": 1205.09,
+   "end": 1225.52,
    "role": "H",
    "sentences": [
     "5.06#13",
@@ -3136,7 +3191,7 @@
      "elems": [
       [
        "bold",
-       "CẢNH BÁO ĐỎ 4: ĐỔ LỖI NGƯỢC & THIẾU TRẮC ẨN"
+       "CẢNH BÁO ĐỎ THỨ TƯ: ĐỔ LỖI NGƯỢC & THIẾU TRẮC ẨN"
       ],
       [
        "ital",
@@ -3162,8 +3217,8 @@
   {
    "id": "5-12",
    "act": 5,
-   "start": 1493.162,
-   "end": 1504.496,
+   "start": 1225.52,
+   "end": 1235.13,
    "role": "H",
    "sentences": [
     "5.06#16"
@@ -3206,8 +3261,8 @@
   {
    "id": "5-13",
    "act": 5,
-   "start": 1504.496,
-   "end": 1519.512,
+   "start": 1235.13,
+   "end": 1248.77,
    "role": "H",
    "sentences": [
     "5.06#17",
@@ -3252,8 +3307,8 @@
   {
    "id": "5-14",
    "act": 5,
-   "start": 1519.512,
-   "end": 1529.112,
+   "start": 1248.77,
+   "end": 1258.37,
    "role": null,
    "sentences": [],
    "template": "T1",

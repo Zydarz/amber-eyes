@@ -7,6 +7,13 @@
 
 Từ khoá: **PHẢI** · **CẤM** · **NÊN** — như AGENTS.md.
 
+> ### ⚠ PHẠM VI: MỌI QUY TẮC TRONG FILE NÀY CHỈ ÁP DỤNG KHI HIGGS CHẠY TRÊN KAGGLE GPU
+> (người dùng chốt 02/11/2026)
+> - Mọi số đo (F0 bản đọc, kéo giọng nam ~125 Hz, tốc độ, thời gian chạy, VRAM, `max_new_tokens`, seed tất định…), tham số sinh (§6) và quy trình lệnh (§7) được rút ra từ **Higgs Audio v3 trọng số gốc chạy qua `transformers` fp16 trên Kaggle 2 × Tesla T4**.
+> - **CẤM** áp nguyên các quy tắc / ngưỡng / số đo này cho Higgs chạy ở nơi khác (máy local, Mac/MLX, SGLang/vLLM, bản GGUF, GPU khác, API Boson…). Muốn chạy nơi khác ⇒ coi là **engine mới**: đo lại từ đầu (CER, G8, G9 trên bản đọc) và viết quy tắc riêng.
+> - Bước **kiểm chất lượng nặng** (Whisper, UTMOS) cũng chạy trên Kaggle (`build_qc_nb.py`); máy local chỉ làm việc nhẹ (so chuỗi CER, ghép master, ffmpeg).
+> - Phần **tạo giọng mẫu VoxCPM2 trên Mac** (§4.2–4.4) là bước chuẩn bị đầu vào, không thuộc phạm vi "Higgs trên Kaggle"; luật riêng ở `QUY_TAC_GIONG_MAU_VOXCPM2.md`.
+
 ---
 
 ## 0. Tóm tắt 1 phút
@@ -221,6 +228,9 @@ Báo cáo cho người dùng: danh sách câu còn > 2% kèm **mốc thời gian
 | Slug Kaggle **sinh từ `title`** | `prep_push_dirs.py` khai `slug` khớp title; sai → kernel trùng |
 | `kaggle kernels output` không lọc → tải cả model 10 GB | Luôn `--pattern` (`watch_kernel.py`) |
 | Cảnh báo "not valid tags" khi push | Vô hại |
+| Kernel gắn **bản dataset cũ** dù `datasets status` = `ready` (Tập 06 vòng 4: chạy lại spec vòng 3) | Tải `prod_spec*.json` từ Kaggle về kiểm mã câu mới rồi mới `kernels push`; sau khi tải output đếm file theo mã câu mong đợi (A11 #96) |
+| Master trượt đỉnh −1,5 dBFS sau một lần `alimiter` | `build_audio3.py` đã siết dần 0,75→0,60 (A11 #97). Chạy tay cho Higgs: đặt `AE_AUDIO_DIR=audio_s_higgs` |
+| "Máy không có kaggle CLI" | CLI ở `%LOCALAPPDATA%\kaggle-venv\Scripts\kaggle.exe`, ngoài PATH — gọi thử `kernels list --mine` trước khi kết luận (A11 #98) |
 | Chèn code bằng heredoc Python có `\|` → SyntaxWarning | Kiểm dòng regex trong file + đếm byte `\x00`/`\x08` (T4) |
 
 ## 12. Chưa giải quyết
@@ -230,7 +240,8 @@ Báo cáo cho người dùng: danh sách câu còn > 2% kèm **mốc thời gian
 3. **Âm đầu câu** — cơ chế chưa rõ (Higgs hay fade-in 30 ms?). Chưa thử tăng/giảm `fade_ms`.
 4. **C-N1 2,56 nửa cung** — cần giọng nữ sạch ≤ 160 Hz nếu tập sau có N1 đứng cạnh C.
 7. Giọng nam cho vai phụ — **không làm** (người dùng chốt 31/10/2026, §14.3).
-8. **Một số câu ngắn của Host bị Higgs đọc trầm ~5 nc ở mọi bản** (Tập 03 1.03#8, 6/6 bản ~95 Hz). Chưa rõ nguyên nhân; thử đổi dấu câu/thêm từ dẫn ở lời đọc riêng.
+8. **Một số câu của Host bị Higgs đọc trầm ~4–5 nc ở mọi bản** (Tập 03 1.03#8, 6/6 bản ~95 Hz; Tập 06 3.11#3, 3.13#1, 5.06#12). Nguyên nhân chưa rõ. **Cách đã có tác dụng (Tập 06, 02/11/2026):** thêm từ dẫn đầu câu ở kịch bản (người dùng duyệt) rồi chạy vòng 3 ⇒ lệch còn −1,2…−2,6 nc, CER 0% (tiêu chuẩn A11 #75).
+9. **Kiểm chất lượng thứ hai trên Kaggle: Whisper large-v3 + UTMOS** (`build_qc_nb.py [--round r2]` → `qc_whisper_cer.py`). Whisper tiếng Việt **có thể bịa câu** ⇒ không dùng một mình để chọn bản (A11 #74). `measure_cer_prod.py` cần `mcode-tools` trong PATH (A11 #73).
 5. **So sánh VoxCPM2 clone** — chờ Mac (`.work/VOXCLONE_MAC_BRIEF.md`).
 6. Cập nhật bảng bộ giọng ở mục 4 AGENTS.md khi người dùng chốt Higgs cho các tập sau.
 

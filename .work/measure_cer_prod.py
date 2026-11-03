@@ -126,6 +126,7 @@ def main():
                 res = asr(p, rnd)
             except Exception as e:
                 res = {"transcription": "", "error": str(e)[:200]}
+                r["_asr_error"] = str(e)[:200]
             h = res.get("transcription") or res.get("text") or ""
             # Chi bat CAU BAO CHAN cua bo loc (Q3b). Chu "safety" tran tung loai nham cau
             # EN dung "...boundaries of safety..." (Tap 02 EN 5.12#3, 31/10/2026).
@@ -158,6 +159,19 @@ def main():
     with ThreadPoolExecutor(max_workers=a.workers) as ex:
         rows = list(ex.map(work, rows))
     print("ASR xong trong %.0f s" % (time.time() - t0))
+
+    # CHOT CHAN (L3, 02/11/2026): ASR hong (vd. thieu mcode-tools trong PATH) tung lam bao cao in
+    # "0/N cau vuot nguong" gia. Qua nua so file khong co ban chep hop le => dung, KHONG ghi bao cao.
+    n_ok = sum(1 for r in rows if r.get("cer_ok"))
+    errs = [r["_asr_error"] for r in rows if r.get("_asr_error")]
+    if n_ok < 0.5 * len(rows):
+        print("LOI: chi %d/%d file co ban chep ASR hop le (%d file bao loi) => KHONG ghi bao cao CER." % (n_ok, len(rows), len(errs)))
+        if errs:
+            print("  loi dau tien:", errs[0])
+            print("  goi y: mcode-tools nam trong thu muc .minimax/bin cua nguoi dung - them vao PATH truoc khi chay.")
+        raise SystemExit(2)
+    if errs:
+        print("CANH BAO: %d file co loi ASR (da bo qua, khong tinh CER): %s" % (len(errs), errs[0]))
 
     OUT_ROWS.write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")
 

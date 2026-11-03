@@ -395,10 +395,26 @@ EPISODES = {
         # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
         "hashtags": "#TrueCrime #CriminalPsychology #JohnWayneGacy #TheKillerClown #ForensicPsychology #Documentary #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
         "summary": ("1.02#1", "3.07#1"),
-        "need": [],
+        # 02/11/2026: 58 mốc dữ kiện đã đối chiếu nguồn công khai (bảng nguồn:
+        # 02_SAN_XUAT/Tap06/nguon_tham_khao.md — 20 nguồn, mọi URL đã kiểm chứng
+        # HTTP 200). 7 mốc gắn mức ⚠ cần người dùng duyệt lại (xem cột "Ghi chú").
+        "need": ["1.02#1", "1.02#2", "1.02#4", "1.02#5", "1.02#6", "1.06#1", "1.06#2",
+                 "1.06#3", "1.06#4", "1.06#7", "1.08#1", "1.08#3", "1.08#6", "1.09#1",
+                 "1.09#2", "1.11#2", "1.13#1", "1.14#2", "1.16#1", "2.03#1", "2.03#2",
+                 "2.03#3", "2.03#4", "2.04#2", "2.06#3", "2.06#4", "2.07#3", "2.07#5",
+                 "2.07#6", "2.08#1", "2.08#2", "2.11#1", "2.11#2", "2.11#3", "3.02#1",
+                 "3.02#2", "3.03#1", "3.03#2", "3.06#1", "3.06#2", "3.11#1", "3.11#2",
+                 "3.12#1", "3.12#2", "3.12#3", "3.12#4", "4.03#2", "4.03#3", "4.05#1",
+                 "4.07#1", "4.08#2", "4.10#1", "4.10#2", "5.02#1", "5.02#3", "5.02#4",
+                 "5.04#1", "5.04#2"],
         "case": "Gacy", "n1": ("KIM BYERS", "Nhân viên hiệu thuốc", "KIM"),
         "n2": ("MIKE ALBRECHT", "Sĩ quan theo dõi Des Plaines", "ALBRECHT"),
         "cast": None,
+        # A11 #64: chuoi limiter co latency=1 -> khong lech audio-video 5 ms,
+        # khong co burst full-scale, true peak -1,8 dBFS tren chinh file mp4.
+        "mux_af": "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1",
+        # QUY_TAC_AUDIO_HIGGS §2: bat buoc ghi cong Higgs trong mo ta YouTube.
+        "voice_credit": "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio",
     },
     "07": {
         "script": WORK / "script_tap07.json",
@@ -417,6 +433,12 @@ EPISODES = {
         "flag_hold_shots": (),
         "route_pins": {},
         "thumb": ("BẢN ÁN GIẾT NGƯỜI", "BẰNG TIN NHẮN"),
+        # H11: thumbnail phải mang nền CỦA TẬP NÀY (Tập 02 từng dùng nhà của Tập 01)
+        "thumb_bg": "t7_confession_text_timestamp",
+        # A11 #64: latency=1 bù trễ của alimiter khi ghép (không có = lệch 4,98 ms)
+        "mux_af": "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1",
+        # QUY_TAC_AUDIO_HIGGS §2: bắt buộc ghi công Higgs trong mô tả YouTube
+        "voice_credit": "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio",
         "title": "Tập 07: Bản Án Giết Người Bằng Tin Nhắn | Tâm lý học tội phạm: Michelle Carter (Nhân cách kịch tính)",
         "act_titles": {1: "Hồi 1 · Buổi sáng định mệnh tại bãi đỗ xe Kmart", 2: "Hồi 2 · Mê cung hai mươi nghìn dòng tin nhắn",
                        3: "Hồi 3 · Vở kịch cô bạn gái đau khổ & bộ não ái kỷ kịch tính", 4: "Hồi 4 · Dòng tin nhắn đầy tội lỗi và bản án lịch sử",
@@ -425,7 +447,10 @@ EPISODES = {
         # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
         "hashtags": "#TrueCrime #CriminalPsychology #MichelleCarter #ConradRoy #DigitalForensics #Documentary #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
         "summary": ("1.02#1", "3.04#1"),
-        "need": [],
+        "need": ["1.02#4", "1.02#5", "1.04#1", "1.04#2", "1.06#1", "1.06#2", "1.06#5", "1.06#7", "1.07#1", "1.09#2", "1.10#1", "1.10#2", "1.10#3", "1.11#2", "1.12#1", "1.13#1", "2.02#2", "2.02#3", "2.03#2", "2.03#3", "2.04#3", "2.04#5", "2.06#2", "2.07#1", "2.08#1", "2.08#2", "2.09#1", "2.09#2", "2.09#5", "3.02#2", "3.04#1", "3.05#1", "3.05#2", "3.03#1", "3.06#4", "3.07#2", "3.08#1", "3.08#3", "4.02#3", "4.03#1", "4.05#1", "4.05#3", "4.05#6", "4.06#1", "4.06#3", "4.07#1", "4.07#2", "4.08#1", "4.10#1", "4.10#2", "5.02#2", "5.02#3", "5.02#4", "5.02#5", "5.04#3", "5.04#16"],
+        # 03/11/2026: 56 moc du lieu da doi chieu nguon cong khai (bang nguon:
+        # 02_SAN_XUAT/Tap07/nguon_tham_khao.md — 54 nguon). Truoc do rong => package.py ghi
+        # bang "can bo sung" rong va mo ta thieu muc NGUON THAM KHAO.
         "case": "Carter", "n1": ("BÀ LYNN ROY", "Mẹ của nạn nhân", "BÀ ROY"),
         "n2": ("SAMANTHA BOARDMAN", "Bạn thân của Michelle", "SAMANTHA"),
         "cast": None,

@@ -78,7 +78,7 @@ Mỗi bước chỉ làm khi bước trước **ĐẠT**. Lệnh cụ thể: ti�
 
 ## 4. Giọng đọc — phần dễ sai nhất
 
-> **Higgs Audio v3 trên Kaggle GPU — đã dùng sản xuất Tập 02 (31/10/2026):** khi engine TTS là Higgs trên Cloud/Kaggle, đọc và tuân theo `00_TIEU_CHUAN/QUY_TAC_AUDIO_HIGGS.md` (bản 4).
+> **Higgs Audio v3 trên Kaggle GPU — đã dùng sản xuất Tập 02 (31/10/2026):** khi engine TTS là Higgs trên Cloud/Kaggle, đọc và tuân theo `00_TIEU_CHUAN/QUY_TAC_AUDIO_HIGGS.md` (bản 4) — file đó thay mục này cùng T2, T8, T9. **Mọi quy tắc Higgs CHỈ áp dụng cho Higgs chạy trên Kaggle** (người dùng chốt 02/11/2026); chạy Higgs ở nơi khác = engine mới, phải đo lại và viết quy tắc riêng (Mac: `00_TIEU_CHUAN/QUY_TAC_HIGGS_MAC.md`). Ba luật cốt lõi: đo cao độ **trên bản Higgs đọc**, không trên giọng mẫu · G9 xét **mọi cặp vai liền kề, kể cả khác giới** · **CẤM thẻ `<|emotion:…|>`**.
 >
 > **Higgs Audio v3 trên Mac Apple Silicon — đã dùng sản xuất Tập 04 & 05 EN (02/11/2026):** khi chạy Higgs Audio v3 cục bộ trên Mac (M1/M2/M3/M4), đọc và tuân theo `00_TIEU_CHUAN/QUY_TAC_HIGGS_MAC.md` — kỹ thuật pre-encoding giọng mẫu 1 lần (tiết kiệm 70% thời gian, giải quyết triệt để nghẽn RAM 16GB), tự động cắt tỉa đuôi câm $\ge 0.8\text{ s}$ @ $-45\text{ dBFS}$, kiểm định chất lượng song song bằng Whisper Base (CER) và UTMOSv2 (MOS) trên CPU.
 >
@@ -157,10 +157,10 @@ Mỗi bước chỉ làm khi bước trước **ĐẠT**. Lệnh cụ thể: ti�
 | H4 | **Không dùng hình minh hoạ đúng lúc lời nói về hành vi gây hại** (ví dụ bóng người leo cầu thang nhà dân đúng câu "tấn công tình dục") — dời sang ẩn dụ |
 | H5 | **CẤM để AI vẽ chữ.** Mọi chữ trên hình do Pillow vẽ; font đã đo đủ dấu tiếng Việt (tiêu chuẩn A5.3). Georgia không có dấu; Bahnschrift thiếu "ỷ" |
 | H6 | **V3: chữ trên hình lấy từ chính câu đang đọc.** Mọi chữ số trên hình phải có trong câu; câu trích phải nguyên văn |
-| H7 | **Mẫu T5 (con số) chỉ hiện MỘT số / tiêu đề lớn.** Thông tin thêm viết nghiêng. Hai `**…**` sẽ đè lên nhau ("B8ẾN 01 · 2010") |
+| H7 | **Mẫu T5 (con số) chỉ hiện MỘT số / tiêu đề lớn.** Thông tin thêm viết nghiêng. Hai `**…**` sẽ đè lên nhau ("B8ẾN 01 · 2010"). **Mẫu T8 (cờ) chỉ hiện tiêu đề lớn khi caption BẮT ĐẦU bằng số: `*01* · **CẢNH BÁO ĐỎ 1 — …**`** (Tập 07: caption viết tay "Cảnh báo đỏ 1: …" ⇒ chỉ hiện cờ, **mất tiêu đề** — mọi cổng QC vẫn xanh, chỉ thấy khi soi bằng mắt) |
 | H8 | **T3 "so sánh"** viết `trái → phải`; **T8 danh sách** đọc mọi đoạn; **T7 bản đồ** có nhãn ghim khai ở `route_pins` của tập (Tập 01 từng viết cứng "SPRINGFIELD/WISCONSIN") |
 | H9 | **Ảnh tĩnh MỌI shot trước khi dựng cả tập** (151 ảnh ~2 phút). Một shot lỗi làm hỏng cả lượt dựng ~1 giờ — đã xảy ra |
-| H10 | Mỗi shot 3–15 s; tắt bán thân linh thú `⊘` ở khoảnh khắc nặng nề; tránh một nền lặp quá 4 shot liền |
+| H10 | Mỗi shot 3–15 s; tắt bán thân linh thú `⊘` ở khoảnh khắc nặng nề; tránh một nền lặp quá 4 shot liền. **Cả hai vế phải ĐO bằng script, không ước lượng** (`.work/qc_final_t07/_qc_h10_t07.py`: thời lượng từng shot + chuỗi nền liên tiếp) |
 | H12 | **Shot cuối (thẻ kết) PHẢI có chữ:** nhãn `HỒ SƠ TẬP XX · ĐÃ ĐÓNG` + tên kênh **AMBER EYES** + khẩu hiệu "Phân tích tâm lý tội phạm / qua những hồ sơ có thật". Cột Chữ của shot cuối không được để "—" (Tập 01 và Tập 02 từng kết thúc bằng tờ giấy trống). Renderer tự phóng to tên kênh ở shot cuối không lời |
 | H13 | **Khớp 3 chiều (Ảnh — Chữ — Lời thoại):** Chữ trên hình lấy nguyên văn từ câu thoại đang đọc (H6/V3); ảnh nền phản ánh đúng ngữ cảnh câu đó (H3); vai nói và avatar bán thân khớp 100% kịch bản. Chạy script đối chiếu trước khi dựng |
 | H11 | Thumbnail: nền và chữ **của đúng tập** (khoá `thumb`, `thumb_bg`). Tập 02 từng ra thumbnail mang nền nhà Tập 01 |

@@ -324,13 +324,24 @@ def main():
     tp = true_peak(mp3)
     if tp > -1.5:
         print(f"  dinh that mp3 {tp:.1f} dBFS > -1,5 -> gioi han dinh -2,5 dBFS")
+        # Tap 06 (03/11/2026): mot lan 0.75 van ra mp3 -1,3 dBFS => siet dan toi khi dat.
+        # Lan dau van la 0.75 nen tap da dat o lan dau ra giong het ban cu.
+        src = ED.w("audio_master_prelim.wav")
+        os.replace(ED.w("audio_master.wav"), src)
         lim = ED.w("audio_master_lim.wav")
-        subprocess.run([str(FF), "-y", "-v", "error", "-i", str(ED.w("audio_master.wav")), "-af",
-                        "alimiter=limit=0.75:attack=1:release=50:level=false:asc=1", str(lim)], check=True)
+        for limit in (0.75, 0.70, 0.65, 0.60):
+            subprocess.run([str(FF), "-y", "-v", "error", "-i", str(src), "-af",
+                            f"alimiter=limit={limit}:attack=1:release=50:level=false:asc=1", str(lim)], check=True)
+            subprocess.run([str(FF), "-y", "-v", "error", "-i", str(lim),
+                            "-c:a", "libmp3lame", "-b:a", "192k", str(mp3)], check=True)
+            tp = true_peak(mp3)
+            print(f"  dinh that mp3 sau gioi han {limit}: {tp:.1f} dBFS")
+            if tp <= -1.5:
+                break
         os.replace(lim, ED.w("audio_master.wav"))
-        subprocess.run([str(FF), "-y", "-v", "error", "-i", str(ED.w("audio_master.wav")),
-                        "-c:a", "libmp3lame", "-b:a", "192k", str(mp3)], check=True)
-        print(f"  dinh that mp3 sau gioi han: {true_peak(mp3):.1f} dBFS")
+        src.unlink()
+        if tp > -1.5:
+            raise SystemExit(f"LOI: dinh mp3 {tp:.1f} dBFS van > -1,5 sau khi siet toi 0.60")
 
     # ---------------- 6. stems (16 kHz is enough for waveforms)
     sd = ED.w("stems")

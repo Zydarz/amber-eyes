@@ -50,7 +50,7 @@ KEY = {
     "1.06#5": ["sad", -0.02, 0, None, 0.6],
     "1.07#1": ["sad", -0.01, 0, None, 0.4],
     "1.07#3": ["sad", -0.01, 0, None, 0.5],
-    "1.07#6": ["sad", -0.02, 0, None, 0.9],
+    "1.07#5": ["sad", -0.02, 0, None, 0.9],
     "1.09#1": ["neutral", 0.0, 0, None, 0.3],
     "1.10#1": ["neutral", 0.0, 0, None, 0.3],
     "1.10#4": ["fearful", -0.02, 0, None, 0.8],
@@ -68,16 +68,14 @@ KEY = {
     "2.04#1": ["neutral", 0.0, 0, None, 0.3],
     "2.04#3": ["fearful", -0.01, 0, None, 0.6],
     "2.06#1": ["fearful", -0.01, 0, None, 0.5],
-    "2.06#4": ["fearful", -0.01, 0, None, 0.4],
-    "2.06#5": ["fearful", -0.01, 0, None, 0.4],
-    "2.06#6": ["fearful", -0.02, 0, None, 0.9],
+    "2.06#2": ["fearful", -0.02, 0, None, 0.9],
     "2.07#1": ["fearful", -0.01, 0, None, 0.4],
-    "2.07#4": ["fearful", -0.02, 0, None, 0.8],
+    "2.07#2": ["fearful", -0.02, 0, None, 0.8],
     "2.08#1": ["neutral", 0.0, 0, None, 0.3],
     "2.08#4": ["fearful", -0.01, 0, None, 0.6],
     "2.09#1": ["neutral", 0.0, 0, None, 0.3],
-    "2.09#4": ["fearful", -0.01, 0, None, 0.7],
-    "2.09#6": ["surprised", -0.01, 0, None, 0.6],
+    "2.09#3": ["fearful", -0.01, 0, None, 0.7],
+    "2.09#4": ["surprised", -0.01, 0, None, 0.6],
     "2.10#1": ["neutral", 0.0, 0, None, 0.3],
     "2.10#3": ["fearful", -0.02, 0, None, 1.2],
 
@@ -91,27 +89,26 @@ KEY = {
     "3.05#4": ["surprised", -0.01, 0, None, 0.6],
     "3.06#1": ["neutral", 0.0, 0, None, 0.3],
     "3.06#3": ["fearful", -0.02, 0, None, 0.9],
-    "3.06#6": ["surprised", -0.01, 0, None, 0.8],
+    "3.06#4": ["surprised", -0.01, 0, None, 0.8],
     "3.07#1": ["neutral", 0.0, 0, None, 0.3],
     "3.07#3": ["fearful", -0.01, 0, None, 0.6],
     "3.08#1": ["neutral", 0.0, 0, None, 0.3],
-    "3.08#6": ["neutral", -0.01, 0, None, 0.5],
-    "3.08#7": ["fearful", -0.02, 0, None, 1.0],
+    "3.08#5": ["neutral", -0.01, 0, None, 0.5],
+    "3.08#6": ["fearful", -0.02, 0, None, 1.0],
 
     # ── HỒI 4 — Dòng tin nhắn đầy tội lỗi và bản án lịch sử ────────────
     "4.02#1": ["neutral", 0.0, 0, None, 0.3],
     "4.02#2": ["neutral", -0.01, 0, None, 0.5],
     "4.03#1": ["fearful", -0.01, 0, None, 0.4],
-    "4.03#2": ["fearful", -0.01, 0, None, 0.4],
-    "4.03#5": ["fearful", -0.02, 0, None, 0.9],
-    "4.03#8": ["surprised", -0.01, 0, None, 0.8],
+    "4.03#2": ["fearful", -0.02, 0, None, 0.9],
+    "4.03#3": ["surprised", -0.01, 0, None, 0.8],
     "4.05#1": ["neutral", 0.0, 0, None, 0.4],
     "4.05#6": ["neutral", -0.01, 0, None, 0.6],
     "4.06#1": ["neutral", 0.0, 0, None, 0.3],
     "4.07#1": ["neutral", 0.0, 0, None, 0.3],
     "4.07#4": ["fearful", -0.01, 0, None, 0.7],
     "4.08#1": ["neutral", 0.0, 0, None, 0.4],
-    "4.08#7": ["fearful", -0.02, 0, None, 1.0],
+    "4.08#5": ["fearful", -0.02, 0, None, 1.0],
     "4.10#1": ["surprised", -0.01, 0, None, 0.8],
     "4.10#3": ["neutral", -0.02, 0, None, 1.0],
 
@@ -126,9 +123,18 @@ KEY = {
     "5.04#7": ["neutral", -0.01, 0, None, 0.5],
     "5.04#11": ["neutral", -0.01, 0, None, 0.5],
     "5.04#15": ["neutral", -0.01, 0, None, 0.6],
-    "5.04#16": ["neutral", -0.01, 0, None, 0.7],
-    "5.04#17": ["neutral", 0.0, 0, None, 0.4],
-    "5.04#18": ["neutral", -0.02, 0, None, 1.0],
+    "5.04#17": ["neutral", -0.01, 0, None, 0.7],
+    "5.04#18": ["neutral", 0.0, 0, None, 0.4],
+    "5.04#19": ["neutral", -0.02, 0, None, 1.0],
+}
+
+
+# Lời đọc số đặc biệt (K7/G11): vi_numbers đọc "911" thành "chín trăm mười một" và số điện thoại
+# thành số đếm. Chỉ đổi lời đọc; phụ đề và chữ trên hình vẫn lấy câu gốc (G6).
+SPOKEN = {
+    "2.10#3": [("911", "chín một một")],
+    "5.04#16": [("096 306 1414", "không chín sáu, ba không sáu, một bốn một bốn"),
+                ("Tổng đài Quốc gia 111", "Tổng đài Quốc gia một một một")],
 }
 
 
@@ -177,6 +183,9 @@ def main():
             dsp = max(-0.06, min(0.02, dsp))
             # G1 & G6: Lời đọc không đổi chữ, chỉ thêm thẻ hợp lệ
             alt = soften(s["text"])
+            for src, dst in SPOKEN.get(sid, []):
+                assert src in alt, (sid, src)
+                alt = alt.replace(src, dst)
             if alt == text:
                 alt = None
             acting[sid] = [emo, dsp, pitch, alt]
@@ -186,7 +195,7 @@ def main():
 
     # Kiểm tra tính toàn vẹn: mọi KEY phải có trong kịch bản
     real = set(acting)
-    for sid in KEY:
+    for sid in list(KEY) + list(SPOKEN):
         if sid not in real:
             unknown.append(sid)
     if unknown:
