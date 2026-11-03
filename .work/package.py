@@ -332,12 +332,23 @@ def verified_links():
         return ""
     links = []
     for row in src_p.read_text(encoding="utf-8").splitlines():
-        if row.startswith("| `") or row.startswith("| Mô tả") or row.startswith("| `1.") or row.startswith("| `2.") or row.startswith("| `3.") or row.startswith("| `4.") or row.startswith("| `5."):
-            cells = [c.strip() for c in row.strip("|").split("|")]
+        if not row.startswith("|"):
+            continue
+        cells = [c.strip() for c in row.strip("|").split("|")]
+        urls = []
+        if (row.startswith("| `") or row.startswith("| Mô tả")
+                or row.startswith("| `1.") or row.startswith("| `2.")
+                or row.startswith("| `3.") or row.startswith("| `4.")
+                or row.startswith("| `5.")):
+            # (a) bang 4 cot chuan: | Cau | Du lieu | Nguon | ✅ |
             if len(cells) >= 4 and cells[3].startswith("✅"):
-                for u in re.findall(r"https?://\S+", cells[2]):
-                    if u not in links:
-                        links.append(u)
+                urls = re.findall(r"https?://\S+", cells[2])
+        elif len(cells) == 3 and cells[2].startswith("✅") and cells[0].startswith("http"):
+            # (b) bang 3 cot: | link | Type | ✅ |  -- DUNG cho TAT CA tap EN
+            urls = re.findall(r"https?://\S+", cells[0])
+        for u in urls:
+            if u not in links:
+                links.append(u)
     return "\n".join(links)
 
 

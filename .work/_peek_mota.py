@@ -1,0 +1,10 @@
+﻿import pathlib, re
+p = pathlib.Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Tap03_EN\xuat_ban\mo_ta.txt")
+t = p.read_text(encoding="utf-8")
+i = t.find("SOURCES")
+print("=== tu SOURCES den het (600 ky tu dau) ===")
+print(t[i:i+600])
+print("...")
+print("=== 400 ky tu cuoi ===")
+print(t[-400:])
+print("\ntong link trong ca file:", len(re.findall(r"https?://\S+", t)))

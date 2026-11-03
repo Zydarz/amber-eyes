@@ -32,6 +32,8 @@ import sys
 
 import wave
 
+import zlib
+
 from functools import lru_cache
 
 from multiprocessing import Pool
@@ -825,7 +827,10 @@ def t2_card(shot, times, col):
 
     ch = max(440 if closing else 340, y + 70)   # card fits its text
 
-    rng = np.random.default_rng(abs(hash(shot["id"])) % 999)
+    # Seed ỔN ĐỊNH: hash() của Python bị ngẫu nhiên hoá theo PYTHONHASHSEED mỗi tiến trình
+    # => cùng 1 shot render ra 2 lần cho 2 khung hình khác nhau -> ảnh tĩnh QC khớp với
+    # video không? Đổi sang crc32 (ổn định giữa các tiến trình/máy).
+    rng = np.random.default_rng(zlib.crc32(shot["id"].encode("utf-8")) % 999)
 
     tex = rng.normal(0, 5, (ch, cw, 1)).repeat(3, axis=2)
 

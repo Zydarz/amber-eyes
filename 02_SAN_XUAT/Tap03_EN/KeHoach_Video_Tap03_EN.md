@@ -65,7 +65,7 @@
 | 2-12 | `2.06#3`–`#5` | H | T1 | `t3_case_photos` | **ERASED ALL FORENSIC TRACES** · *Zero fingerprints · Zero foreign fibers · Zero witnesses* | — | →D |  |
 | 2-13 | `2.07#1` | D | T1 | `t3_under_seat` | **A MOBILE DEATH TRAP** · *Meticulous Modus Operandi (M.O.)* | — | ✦ Sói |  |
 | 2-14 | `2.07#2`–`#5` | D | T1 | `t3_galaxie` | **1969 YELLOW FORD GALAXIE** · *Official UCSC parking sticker · Cultivating an illusion of total safety* | Tiêu đề ở "Ford Galaxie" |  |  |
-| 2-15 | `2.07#6`–`#7` | D | T8 | `t3_trunk` | *Trunk: plastic bags, hunting knife ("The General"), blankets, handcuffs · Handcuffing one, locking the other in trunk* | — | ⊘ |  |
+| 2-15 | `2.07#6`–`#7` | D | T8 | `t3_trunk` | *Trunk: plastic bags, hunting knife, blankets, handcuffs · Handcuffing one, locking the other in trunk* | — | ⊘ |  |
 | 2-16 | `2.07#8`–`#9` | D | T1 | `t3_case_file` | *Three firearms and over 200 rounds of ammunition in rented car in Reno, Nevada* | — |  |  |
 | 2-17 | `2.07#10`–`#12` | D | T3 so sánh | `t3_bar_stool_shadow` | *Towering 6-foot-9 frame* · **AN INTELLECTUAL FACADE & CALCULATED CHARM** · *Soft-spoken, glasses, impeccably dressed* | Cột phải ở `#12` |  |  |
 | 2-18 | `2.07#13`–`#14` | D | T5 | `t3_hitchhiker` | **150** · *Practice runs offering rides to hitchhikers before ever striking* | Số đếm 0 → 150 |  |  |

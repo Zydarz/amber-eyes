@@ -234,6 +234,13 @@ EPISODES = {
         # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
         "hashtags": "#TrueCrime #CriminalPsychology #EdmundKemper #Mindhunter #FBIProfiling #ForensicPsychology #Documentary #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
         "summary": ("1.03#1", "5.08#1"),
+        # A7 + A11 #64 (bản EN, 03/11/2026): audio master EN có đỉnh mẫu −2,5 dBFS ⇒
+        # AAC dựng lại vọn true peak lên −0,7 dBFS (vượt trần A7 −1,5 dBFS).
+        # Hạ trần alimiter xuống −4 dBFS (0.63) + latency=1 để bù trễ 4,98 ms của
+        # limiter ⇒ true peak ≈ −2,2 dBFS và lệch A/V ≈ 0 ms.
+        # Bản VN giữ nguyên chuỗi cũ (đang đạt −1,7 dBFS) ⇒ không đổi thành phẩm đã xuất.
+        "mux_af": ("alimiter=limit=0.63:attack=5:release=50:level=disabled:latency=1" if EN else
+                   "alimiter=limit=0.7943:attack=5:release=50:level=disabled"),
         "need": ["1.05#3", "1.10#1", "1.10#10", "1.13#7", "2.04#5", "2.06#2", "3.05#7", "3.05#10", "3.08#8", "3.08#10", "4.05#15", "4.05#19", "4.08#2", "5.02#5", "5.02#7", "5.02#12", "5.05#4", "5.05#5", "5.08#3"],
         "case": "Kemper",
         "n1": (("SANTA CRUZ DESK OFFICER", "Night Desk Officer", "SANTA CRUZ DESK") if EN else
@@ -242,6 +249,15 @@ EPISODES = {
         "n2": (("BAR COLLEAGUE OFFICER", "The Jury Room Regular", "BAR POLICE") if EN else
                ("酒場の同僚警察官", "市民と警察の視点", "警察官") if JA else
                ("CẢNH SÁT QUÁN RƯỢU", "Đồng nghiệp tại The Jury Room", "CẢNH SÁT")),
+        # ---- bản tiếng Anh: nhãn vai (CHU_CO_DINH_EN.md §3)
+        # THIẾU khối này thì ROLE_NAME/SUB_TAG rơi về nhãn cứng của Tập 01 EN
+        # ("Blanchard case file", "SPRINGFIELD RESIDENT") -> sai vụ án hiện trên màn hình.
+        "roles_en": {"H": ("HOST", "Your Narrator"), "D": ("INVESTIGATOR", "Forensic Case Analysis"),
+                     "C": ("PSYCHOLOGIST", "Behavioral Dynamics"),
+                     "N1": ("SANTA CRUZ DESK OFFICER", "Night Desk Officer"),
+                     "N2": ("BAR COLLEAGUE OFFICER", "The Jury Room Regular")},
+        "sub_tags_en": {"H": "HOST", "D": "INVESTIGATOR", "C": "PSYCHOLOGIST",
+                        "N1": "SANTA CRUZ DESK", "N2": "BAR POLICE"},
         "cast": None,                  # dùng giọng mặc định của kênh (bộ A)
     },
     "04": {

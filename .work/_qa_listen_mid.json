@@ -1,0 +1,19 @@
+{
+    "audio_info":  [
+                       {
+                           "url":  "https://matrix-internal.oss-us-east-1.aliyuncs.com/user_file_upload_tmp%2F2026-11-03%2Ff25a9b92-2ab2-4f9d-948c-cc456b190ae4.mp3?x-oss-credential=LTAI5t9dXq2sLrMZ8f1XfiFZ%2F20261103%2Fus-east-1%2Foss%2Faliyun_v4_request\u0026x-oss-date=20261103T153747Z\u0026x-oss-expires=3600\u0026x-oss-signature=1b3aad09f116f7255e3acc2d1e16633d6d4922f6c232faa25ca0fd040d4f3a41\u0026x-oss-signature-version=OSS4-HMAC-SHA256",
+                           "prompt":  "Clip starts at 600s of a Japanese podcast. Transcribe verbatim in Japanese with approximate timestamps relative to the clip start (mm:ss). Write numbers exactly as spoken.",
+                           "mime_type":  "audio/mpeg"
+                       },
+                       {
+                           "url":  "https://matrix-internal.oss-us-east-1.aliyuncs.com/user_file_upload_tmp%2F2026-11-03%2Ff34ef6aa-5981-4b4d-ae03-c26290e9aa7d.mp3?x-oss-credential=LTAI5t9dXq2sLrMZ8f1XfiFZ%2F20261103%2Fus-east-1%2Foss%2Faliyun_v4_request\u0026x-oss-date=20261103T153749Z\u0026x-oss-expires=3600\u0026x-oss-signature=60825ac4379231ec19bcffddcff1f687dd48ff08641dfa5ce4bffcbbeeaad0cd\u0026x-oss-signature-version=OSS4-HMAC-SHA256",
+                           "prompt":  "Clip starts at 1100s of a Japanese podcast. Transcribe verbatim in Japanese with approximate timestamps relative to the clip start (mm:ss). Write numbers exactly as spoken.",
+                           "mime_type":  "audio/mpeg"
+                       },
+                       {
+                           "url":  "https://matrix-internal.oss-us-east-1.aliyuncs.com/user_file_upload_tmp%2F2026-11-03%2F224cadba-37b4-4c70-a897-859fab3c6cbb.mp3?x-oss-credential=LTAI5t9dXq2sLrMZ8f1XfiFZ%2F20261103%2Fus-east-1%2Foss%2Faliyun_v4_request\u0026x-oss-date=20261103T153752Z\u0026x-oss-expires=3600\u0026x-oss-signature=1e58500a63b84efd307c772317119137d4bdb543473fa59e16812bd6f014baf2\u0026x-oss-signature-version=OSS4-HMAC-SHA256",
+                           "prompt":  "Clip starts at 1600s of a Japanese podcast. Transcribe verbatim in Japanese with approximate timestamps relative to the clip start (mm:ss). Write numbers exactly as spoken.",
+                           "mime_type":  "audio/mpeg"
+                       }
+                   ]
+}

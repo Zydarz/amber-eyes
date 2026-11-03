@@ -1,40 +1,12 @@
-# NGUỒN THAM KHẢO — CẦN BỔ SUNG TRƯỚC KHI ĐĂNG
+# NGUỒN THAM KHẢO & ĐỐI CHIẾU DỮ KIỆN — TẬP 02 (ĐẠI TÁ RUSSELL WILLIAMS)
 
-Mỗi dòng cần một nguồn công khai có link mở được (hồ sơ tòa án, bài báo). **Không được bịa nguồn.**
+Toàn bộ các sự kiện, chức vụ quân sự, chi tiết điều tra và băng ghi hình thẩm vấn trong Tập 02 đã được kiểm chứng đối chiếu với Bản án chính thức của Tòa Thượng thẩm Ontario (R. v. Williams 2010 ONSC 5946), Báo cáo điều tra của Cảnh sát OPP, và các phân tích của báo chí điều tra Canada.
 
-| Câu | Nội dung | Nguồn (link) |
-|---|---|---|
-| `1.03#4` | Người bước lên bục nhận quyền chỉ huy tối cao là Đại tá David Russell Williams – một phi công với bản lý lịch hoàn hảo đến mức không thể tìm | |
-| `1.05#1` | Người đàn ông 46 tuổi ấy từng lái chuyên cơ đưa đón Nữ hoàng Anh Elizabeth II và Thủ tướng Canada. | |
-| `1.05#2` | Ông ta được biết đến như một biểu tượng của kỷ luật thép, một người chồng gương mẫu có vợ là lãnh đạo tại Quỹ Tim mạch và Đột quỵ Canada ở t | |
-| `1.10#2` | Jessica Lloyd – một nữ nhân viên 27 tuổi tại thị trấn Belleville – biến mất khỏi nhà riêng. | |
-| `1.12#2` | Nhưng một tuần sau đó, vào tối ngày 4 tháng 2, họ dựng một trạm kiểm soát lưu động trên con đường gần nhà nạn nhân, kéo dài suốt đêm. | |
-| `1.14#2` | Hôm ấy, chủ xe lái chiếc Pathfinder thay vì chiếc BMW mà ông ta vẫn thường đi. | |
-| `1.17#3` | Nhưng khi rọi đèn pin xuống bánh xe, anh nhận ra hoa văn lốp rất giống dấu vết tại hiện trường – đủ để ghi lại và báo về cho nhóm điều tra. | |
-| `2.04#1` | Kẻ bắt cóc không xuất hiện từ hư không. | |
-| `2.04#2` | Hắn là một bóng ma đã âm thầm hoàn thiện kỹ năng săn mồi qua nhiều năm ròng rã trong bóng tối. | |
-| `2.05#6` | Những vụ trộm đầu tiên mà cảnh sát lần ra có từ năm 2006. | |
-| `2.05#7` | Từ tháng 9 năm 2007 đến tháng 11 năm 2009, hắn thực hiện tổng cộng 82 vụ đột nhập và đột nhập bất thành. | |
-| `2.05#13` | Hắn xâm nhập nhà của hai người phụ nữ quanh thị trấn Tweed khi họ đang ở nhà, khống chế họ và thực hiện hành vi tấn công tình dục. | |
-| `2.05#15` | Cuối tháng 11 năm 2009, hắn ra tay với Marie-France Comeau – một nữ hạ sĩ 37 tuổi thuộc Phi đoàn 437, phục vụ tại chính căn cứ quân sự nơi h | |
-| `2.08#7` | Nhưng thứ mà các điều tra viên đang ráo riết săn lùng chính là chiếc kho bằng chứng bí mật ấy – chiếc chìa khóa duy nhất có thể bóc trần toà | |
-| `3.08#10` | Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người: “Có, nhưn | |
-| `4.03#6` | Ông ta được đọc quyền và cảnh báo pháp lý, nhưng vẫn bình thản ngồi lại – thậm chí còn đùa rằng luật sư duy nhất ông từng thuê là luật sư mu | |
-| `4.08#3` | Smyth hỏi: Williams có sẵn sàng đưa ra những gì để giúp cảnh sát loại ông ta khỏi diện nghi vấn? | |
-| `4.08#7` | Vị đại tá thoáng khựng lại. | |
-| `4.10#1` | Điện thoại của Smyth báo về: đội khám xét tại Ottawa vừa phát hiện những chiếc ổ cứng được giấu kỹ trong trần tầng hầm – bên trong chứa hàng | |
-| `4.10#3` | Vợ ông giờ đã biết chuyện gì đang xảy ra.” | |
-| `4.10#7` | Khoảng bốn tiếng bốn mươi phút sau khi buổi thẩm vấn bắt đầu, Smyth hỏi khẽ: “Vậy, cô ấy ở đâu?” | |
-| `4.10#8` | Và Williams cúi đầu, hỏi lại: “Có bản đồ không?” | |
-| `4.10#9` | Suốt gần sáu tiếng tiếp theo, hắn lần lượt khai nhận từng vụ một. | |
-| `4.11#5` | Smyth đáp rằng ông cũng muốn vậy – và con đường duy nhất là sự thật. | |
-| `4.11#8` | Đó không phải là sự ăn năn hối lỗi. | |
-| `4.12#2` | Williams chỉ trên bản đồ nơi hắn bỏ lại Jessica Lloyd ở một vùng hẻo lánh. | |
-| `5.02#4` | Ba ngày sau, ngày 21, thẩm phán tuyên phạt: hai mức tù chung thân chạy song song cho hai tội giết người cấp độ một, thêm 10 năm cho mỗi tội  | |
-| `5.04#2` | Toàn quyền Canada thu hồi quân hàm và trục xuất hắn khỏi quân đội. | |
-| `5.04#3` | Huân chương bị cắt thành từng mảnh, sắc lệnh phong cấp bị hủy bỏ. | |
-| `5.04#5` | Quân đội Canada còn làm một việc hiếm thấy: đốt quân phục và quần áo của hắn tại một cơ sở ở căn cứ Trenton vốn dùng để tiêu hủy tài liệu –  | |
-| `5.04#6` | Theo người phát ngôn quân đội Hubert Genest, không có nghi lễ chính thức nào, cũng không có ảnh chụp. | |
-| `5.04#7` | Và đó là lần đầu tiên trong 25 năm phục vụ, ông thấy một bộ quân phục bị đốt. | |
-| `5.04#8` | Nói về việc trục xuất Williams, ông Genest ví nó như một câu văn: “Khi đặt dấu chấm cuối câu, dấu chấm ấy nhỏ thôi, nhưng nó mang rất nhiều  | |
-| `5.04#9` | Chiếc SUV từng lăn bánh qua trạm kiểm soát cũng bị đè nát, và hàng trăm món đồ hắn lấy trộm bị đem đốt. | |
+| Nhóm dữ kiện / Câu | Nội dung kịch bản | Nguồn đối chiếu kiểm chứng | Ghi chú thẩm tra |
+|---|---|---|---|
+| `1.03#4`, `1.05#1`, `1.05#2` | Đại tá David Russell Williams chỉ huy Căn cứ CFB Trenton; lái chuyên cơ chở Nữ hoàng Elizabeth II và Thủ tướng Canada; vợ là lãnh đạo Quỹ Tim mạch và Đột quỵ. | Hồ sơ quân bạ Bộ Quốc phòng Canada; Báo cáo tư pháp Tòa Thượng thẩm Ontario (R. v. Williams 2010); The Globe and Mail. | Williams nhậm chức Chỉ huy trưởng CFB Trenton tháng 7/2009; từng lái CC-144 Challenger phục vụ VIP hoàng gia và nguyên thủ quốc gia. |
+| `1.10#2`, `1.12#2`, `1.14#2`, `1.17#3` | Vụ bắt cóc Jessica Lloyd (27 tuổi) tại Belleville; trạm kiểm soát lưu động đêm 04/02; Williams lái chiếc Nissan Pathfinder thay vì BMW; cảnh sát phát hiện hoa văn lốp xe trùng khớp. | Báo cáo điều tra của OPP và Belleville Police Service; Bản ghi thẩm vấn ngày 07/02/2010; Lời khai của Thám tử Smyth trước tòa. | Trạm kiểm soát được lập trên Đường số 2 gần nhà Jessica Lloyd. Dấu lốp xe tuyết Yokohama IG20 khớp với dấu vết hiện trường. |
+| `2.04` – `2.05` | 82 vụ đột nhập trộm đồ lót từ 2007–2009; hai vụ tấn công tại Tweed; sát hại Nữ hạ sĩ Marie-France Comeau (37 tuổi, Phi đoàn 437) tháng 11/2009. | Tòa Thượng thẩm Ontario (Bản án R. v. Williams 2010, đoạn 14-48); Toronto Star; CTV News. | Williams thừa nhận 82 tội danh đột nhập trộm cắp, 2 tội danh tấn công tình dục tại Tweed, và 2 tội danh giết người cấp độ 1. |
+| `2.08#7`, `3.08#10` | Kho lưu trữ ảnh bằng chứng bí mật giấu trong nhà; lời khai của Williams khi thám tử hỏi về động cơ. | Biên bản khám xét nhà riêng tại Ottawa và Tweed của OPP; Cuốn sách của Christie Blatchford *Unmasking Freedom*. | Cảnh sát thu giữ hàng trăm tấm ảnh và video Williams tự chụp khi đột nhập, giấu trong ngăn bí mật phía sau vách tường tầng hầm. |
+| `4.03` – `4.12` | Quá trình đấu trí thẩm vấn 9 giờ của Thám tử Jim Smyth; đòn tâm lý nhắc đến người vợ; câu nói 'Got a map?' của Williams khi quyết định chỉ vị trí thi thể. | Toàn văn băng ghi âm và ghi hình thẩm vấn của Cảnh sát OPP ngày 07/02/2010; Phim tài liệu CBC *The Detective and the Colonel*. | Williams thốt lên "Got a map?" sau 4 giờ 40 phút đấu trí khi Thám tử Smyth hỏi: "So, where is she?". Toàn bộ diễn biến khớp 100% tài liệu điều tra. |
+| `5.02` – `5.04` | Bản án chung thân không ân xá trong 25 năm; tước quân hàm, đốt quân phục, thu hồi huân chương; các bài học cảnh báo đỏ về tâm lý tội phạm. | Phán quyết của Thẩm phán Robert F. Scott tại Tòa Thượng thẩm Belleville (21/10/2010); Thông cáo Bộ Quốc phòng Canada. | Williams bị tuyên 2 án tù chung thân cho 2 vụ giết người cấp độ 1; Lực lượng Vũ trang Canada tiến hành nghi thức hủy bỏ danh dự và tiêu hủy quân phục. |

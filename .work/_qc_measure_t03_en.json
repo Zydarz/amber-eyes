@@ -1,0 +1,66 @@
+{
+ "mp4_duration": 1646.6,
+ "wav_duration": 1646.619979,
+ "timeline_total": 1646.62,
+ "size_mb": 570.005649,
+ "video_stream": {
+  "codec_name": "h264",
+  "width": "1920",
+  "height": "1080",
+  "r_frame_rate": "30/1",
+  "bit_rate": "2565207",
+  "nb_frames": "49398"
+ },
+ "audio_stream": {
+  "codec_name": "aac",
+  "sample_rate": "48000",
+  "channels": "2",
+  "bit_rate": "197254"
+ },
+ "ebur_tail": "I:         -16.1 LUFS",
+ "ebur_summary": "Integrated loudness:\nI:         -16.1 LUFS\nThreshold: -26.7 LUFS\nLoudness range:\nLRA:         3.1 LU\nThreshold: -36.7 LUFS\nLRA low:   -18.4 LUFS\nLRA high:  -15.3 LUFS\nTrue peak:\nPeak:       -3.4 dBFS\n[out#0/null @ 0000024d8e21fb40] video:20454KiB audio:308736KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=49398 fps=658 q=-0.0 Lsize=N/A time=00:27:26.60 bitrate=N/A speed=21.9x elapsed=0:01:15.12",
+ "lufs": -16.1,
+ "peak": -3.4,
+ "lra": 3.1,
+ "sil60": [],
+ "sil35": [],
+ "first_speech": 182.964604,
+ "last_silence_start": 1563.785729,
+ "decode_errors": "",
+ "end_card": {
+  "end_minus2": {
+   "t": 1644.62,
+   "pct_bright": 0.0,
+   "mean": 0.1
+  },
+  "end_minus5": {
+   "t": 1641.62,
+   "pct_bright": 12.42,
+   "mean": 40.0
+  },
+  "mid_last_shot": {
+   "t": 1642.12,
+   "pct_bright": 11.5,
+   "mean": 37.7
+  }
+ },
+ "srt_cues": 469,
+ "srt_bytes": 42390,
+ "srt_bom": false,
+ "srt_last_end": 1637.62,
+ "srt_overlap": [],
+ "srt_maxline": 47,
+ "shots_n": 110,
+ "shots_mean": 14.8,
+ "shots_max": 40.4,
+ "shots_max_id": "3-14",
+ "shots_min": 0.8,
+ "shots_min_id": "1-10",
+ "shots_outside_3_15": 68,
+ "shots_hold": 17,
+ "bg_max_run": 3,
+ "handoff_shots": 9,
+ "nobust_shots": 37,
+ "thumbnail_exists": true,
+ "thumbnail_bytes": 1222310
+}

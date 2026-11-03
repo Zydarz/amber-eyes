@@ -58,16 +58,16 @@ MIRROR
 ```text
 Ep. 03: The IQ 145 Giant | The Psychology of Edmund Kemper (Psychopathy)
 
-In April 1973, a towering 6-foot-9 man named Edmund Emil Kemper III walked into a glass telephone booth beside a lonely highway in Pueblo, Colorado. With a measured, articulate tone and an IQ measured at 145, he dialed Santa Cruz police dispatch to surrender for a series of murders that had terrified California for nearly a year.
+In April 1973, a 6-foot-9 man named Edmund Emil Kemper III walked into a glass telephone booth on a highway outside Pueblo, Colorado. Measured, articulate, and with an IQ of 145, he called Santa Cruz dispatch to surrender for a series of murders that had terrified California for nearly a year.
 
-Standing outside conventional criminal stereotypes, Kemper possessed an intellect rivaling top forensic minds and an extraordinary ability to self-reflect. Instead of retreating into silence, he opened the doors of his internal architecture to FBI special agents John Douglas and Robert Ressler—becoming the cornerstone of modern behavioral profiling and the FBI's Behavioral Science Unit (BSU).
+Outside conventional criminal stereotypes, Kemper possessed an intellect rivaling top forensic minds and an extraordinary ability to self-reflect. Instead of retreating into silence, he opened his mind to FBI agents John Douglas and Robert Ressler—a cornerstone of modern behavioral profiling and the FBI's Behavioral Science Unit (BSU).
 
-In this deep psychological dossier, Amber eyes dissects the Kemper case across five structured acts:
-• The Midnight Call from Colorado: How an active manhunt ended in disbelief at a sleepy police station.
-• The Escalator of Substitution: How unresolved childhood trauma and maternal hostility transformed innocent hitchhikers into symbolic stand-ins.
-• Psychological Autopsy: Inside the mind of an analytical psychopath—narcissistic compartmentalization and calculated self-awareness.
-• Conversations with the FBI: The birth of organized vs. disorganized offender typology.
-• Behavioral Red Flags: 4 critical indicators of high-intellect predatory behavior concealed behind an affable persona.
+In this psychological dossier, Amber eyes dissects the Kemper case across five acts:
+• The Midnight Call from Colorado: how an active manhunt ended at a sleepy police station.
+• The Escalator of Substitution: how childhood trauma and maternal hostility turned innocent hitchhikers into symbolic stand-ins.
+• Psychological Autopsy: inside an analytical psychopath's mind—narcissistic compartmentalization and calculated self-awareness.
+• Conversations with the FBI: the birth of organized vs. disorganized offender typology.
+• Behavioral Red Flags: 4 critical indicators of high-intellect predation behind an affable persona.
 
 ⏱ CHAPTERS
 00:00 Intro & Documentary Advisory
@@ -79,15 +79,15 @@ In this deep psychological dossier, Amber eyes dissects the Kemper case across f
 
 ⚠️ LEGAL & ETHICAL DISCLAIMER
 • This documentary is created exclusively for educational, criminological, and historical analysis.
-• All factual events, dates, and direct quotes are verified against court documents, public California Department of Corrections archives, and official FBI Behavioral Science interviews.
-• Psychological analysis is based on established criminological frameworks, not a direct clinical diagnosis of surviving individuals.
-• The identities of all surviving family members not directly involved in public trial proceedings are respectfully protected.
-• Synthetic / Altered Content Disclosure: This program features synthetic AI voice performances and stylized artistic graphic novel illustrations.
+• All facts, dates and direct quotes are verified against court documents, public California Department of Corrections archives, and official FBI Behavioral Science interviews.
+• Psychological analysis uses established criminological frameworks, not a clinical diagnosis of any individual.
+• Identities of surviving family members not directly involved in public proceedings are respectfully protected.
+• Synthetic Content Disclosure: synthetic AI voice performances and stylized graphic-novel illustrations.
 
 📞 CRISIS & SUPPORT RESOURCES (FREE & CONFIDENTIAL)
 If you or someone you know has been affected by violence, abuse, or psychological distress, help is available 24/7:
 • National Sexual Assault Hotline (RAINN - USA): Call 1-800-656-4673 or chat at https://www.rainn.org
-• National Domestic Violence Hotline (USA): Call 1-800-799-SAFE (7233) or text "START" to 88788 (https://www.thehotline.org)
+• National Domestic Violence Hotline: Call 1-800-799-SAFE or text START to 88788 (https://www.thehotline.org)
 • Suicide & Crisis Lifeline (USA): Call or text 988 (https://988lifeline.org)
 • VictimConnect Resource Center (USA): Call/Text 1-855-4-VICTIM (1-855-484-2846) (https://victimconnect.org)
 • In an emergency, please dial 911 immediately.
