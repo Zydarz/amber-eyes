@@ -27,8 +27,10 @@ Từ khoá: **PHẢI** · **CẤM** · **NÊN** — như AGENTS.md.
 
 ## 1. Phạm vi và trạng thái
 
-- **Engine sản xuất:** Higgs Audio v3 (`bosonai/higgs-tts-3-4b`, trọng số gốc) chạy trên **Kaggle GPU** (2 × Tesla T4, transformers). Đường MLX trên Mac **đã bỏ** (chỉ chạy được trên Apple Silicon, không ổn định với 16 GB).
-- **Mac mini** chỉ dùng để **tạo giọng mẫu bằng VoxCPM2** (mục 4) — theo brief 4–5 bước (mẫu: `.work/DC3_MAC_BRIEF.md`).
+- **Engine sản xuất:**
+  - **Trên Cloud (Kaggle GPU):** Higgs Audio v3 (`bosonai/higgs-tts-3-4b`, trọng số gốc) chạy trên Kaggle GPU (2 × Tesla T4, transformers) theo quy trình file này.
+  - **Trên Mac Apple Silicon (M1/M2/M3/M4):** Higgs Audio v3 (`bosonai/higgs-audio-v3-tts-4b`) chạy local qua MLX theo bộ quy tắc độc lập tại `00_TIEU_CHUAN/QUY_TAC_HIGGS_MAC.md` (chuẩn hóa 02/11/2026 sau khi tối ưu kỹ thuật pre-encoding và cắt đuôi câm, sản xuất thành công Tập 04 EN và Tập 05 EN trên Mac mini M2 16GB).
+- **Mac mini** dùng để: (1) tạo giọng mẫu bằng VoxCPM2; (2) chạy trực tiếp production Higgs Audio v3 MLX + Whisper CER + UTMOSv2 MOS theo `00_TIEU_CHUAN/QUY_TAC_HIGGS_MAC.md`.
 - **Đã dùng sản xuất:** Tập 02 (31/10/2026). **Tập 03:** người dùng chốt dùng Higgs + bộ giọng mẫu Tập 02 (31/10/2026), đang sinh hồi 3. Các tập khác vẫn MiniMax.
 - **Đang so sánh:** VoxCPM2 chế độ clone đọc thẳng câu thoại (`.work/VOXCLONE_MAC_BRIEF.md`) — chưa có số đo. Đổi engine phải qua số đo (G13).
 

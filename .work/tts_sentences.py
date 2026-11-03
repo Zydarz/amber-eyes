@@ -93,7 +93,7 @@ def plan_items():
             text = s["text"].replace("“", "").replace("”", "").replace('"', "").replace("‘", "").replace("’", "")
             text = ED.TTS_FIX.get(s["id"], text)
             extra = {}
-            if VN_MAN:                       # English edition: same acting as the VN sentence
+            if VN_MAN and s["id"] in VN_MAN:  # English edition: same acting as the VN sentence
                 emo, dsp = VN_MAN[s["id"]]
             if s["id"] in ACT:               # diễn xuất từng câu (acting_EN.json / acting_tap02.json)
                 emo, dsp, pitch, alt = ACT[s["id"]]

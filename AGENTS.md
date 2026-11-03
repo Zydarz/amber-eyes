@@ -78,7 +78,9 @@ Mỗi bước chỉ làm khi bước trước **ĐẠT**. Lệnh cụ thể: ti�
 
 ## 4. Giọng đọc — phần dễ sai nhất
 
-> **Higgs Audio v3 trên Kaggle GPU — đã dùng sản xuất Tập 02 (31/10/2026):** khi engine TTS là Higgs, đọc và tuân theo `00_TIEU_CHUAN/QUY_TAC_AUDIO_HIGGS.md` (bản 3) — file đó thay mục này cùng T2, T8, T9. Ba luật cốt lõi: đo cao độ **trên bản Higgs đọc**, không trên giọng mẫu · G9 xét **mọi cặp vai liền kề, kể cả khác giới** · **CẤM thẻ `<|emotion:…|>`**.
+> **Higgs Audio v3 trên Kaggle GPU — đã dùng sản xuất Tập 02 (31/10/2026):** khi engine TTS là Higgs trên Cloud/Kaggle, đọc và tuân theo `00_TIEU_CHUAN/QUY_TAC_AUDIO_HIGGS.md` (bản 4).
+>
+> **Higgs Audio v3 trên Mac Apple Silicon — đã dùng sản xuất Tập 04 & 05 EN (02/11/2026):** khi chạy Higgs Audio v3 cục bộ trên Mac (M1/M2/M3/M4), đọc và tuân theo `00_TIEU_CHUAN/QUY_TAC_HIGGS_MAC.md` — kỹ thuật pre-encoding giọng mẫu 1 lần (tiết kiệm 70% thời gian, giải quyết triệt để nghẽn RAM 16GB), tự động cắt tỉa đuôi câm $\ge 0.8\text{ s}$ @ $-45\text{ dBFS}$, kiểm định chất lượng song song bằng Whisper Base (CER) và UTMOSv2 (MOS) trên CPU.
 >
 > **Tạo giọng mẫu cho Higgs bằng VoxCPM2 (28/10/2026, đã chốt hướng, chưa chạy thử):** đọc `00_TIEU_CHUAN/TAO_GIONG_MAU_VOXCPM2.md` — chứa prompt Voice Design cho 7 vai, cách điền form web, và quy trình đóng gói thành file tham chiếu.
 >

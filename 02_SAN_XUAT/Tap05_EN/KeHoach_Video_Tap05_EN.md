@@ -178,3 +178,46 @@ Place `assets/brand/intro_kenh_EN_t05.mov` at 0.00 s (A5.7). No spoken line belo
 
 - Fact-checking: 100% verified against public court records (State of Kansas v. Dennis L. Rader), Sedgwick County District Court transcripts, and Wichita Police Department archives.
 - V9 content safety: Strictly non-violent educational documentary format compliant with YouTube US monetization policies.
+
+---
+
+## 7. Báo cáo Sản xuất Audio Higgs & Đánh giá Chất lượng (02/11/2026)
+
+### 7.1. Cấu hình & Giọng mẫu VoxCPM2
+- **Engine TTS:** Higgs Audio v3 (chạy local trên Mac mini M2 qua MLX).
+- **Bộ giọng mẫu VoxCPM2 EN (Bộ A EN):**
+  - **Host (H · Cú):** `English_magnetic_voiced_man` (tốc độ 0.95, F0 trung vị $112.1\text{ Hz}$).
+  - **Điều tra viên (D · Sói):** `English_Trustworth_Man` (tốc độ 0.97, F0 trung vị $84.2\text{ Hz}$).
+  - **Chuyên gia tâm lý (C · Cáo):** `English_Wiselady` (tốc độ 0.95, F0 trung vị $189.0\text{ Hz}$).
+  - **Nhân chứng (N1 · Cừu):** `English_SentimentalLady` (tốc độ 0.95, F0 trung vị $164.4\text{ Hz}$).
+  - **Khách mời (N2 · Mèo):** `English_captivating_female1` (tốc độ 0.95, F0 trung vị $221.2\text{ Hz}$).
+
+### 7.2. Tách bạch cao độ (Quy tắc G9)
+- **D → H:** $12 \times \log_2(112.1 / 84.2) = 4.96\text{ nửa cung}$ (ĐẠT $\ge 4.0\text{ nc}$).
+- **H → C:** $12 \times \log_2(189.0 / 112.1) = 9.03\text{ nửa cung}$ (ĐẠT $\ge 4.0\text{ nc}$).
+- **D → C:** $12 \times \log_2(189.0 / 84.2) = 13.99\text{ nửa cung}$ (ĐẠT $\ge 4.0\text{ nc}$).
+- **H → N1:** $12 \times \log_2(164.4 / 112.1) = 6.62\text{ nửa cung}$ (ĐẠT $\ge 4.0\text{ nc}$).
+
+### 7.3. Đánh giá chất lượng bằng Whisper CER & UTMOSv2 MOS
+- **Tổng số câu đo:** 164 câu.
+- **Whisper CER:**
+  - Trung bình: **1.04%** · Trung vị: **0.00%**.
+  - Số câu CER $> 2\%$: **24/164 câu** (chủ yếu do tên riêng "Rader" $\to$ "Raider", "Rawson" $\to$ "Rossin" hoặc định dạng ngày tháng `19th` $\to$ `19`).
+- **UTMOSv2 MOS (Thang điểm tự nhiên 1.0 – 5.0):**
+  - Toàn tập: Trung bình **3.37 / 5.0** (Min: 2.11, Max: 4.09).
+  - Vai C (Chuyên gia): Trung bình **3.68** (3.31 – 4.03).
+  - Vai H (Host): Trung bình **3.49** (2.92 – 4.09).
+  - Vai N1 (Nhân chứng): Trung bình **3.34** (2.84 – 3.77).
+  - Vai D (Điều tra viên): Trung bình **3.10** (2.11 – 3.53).
+  - Vai N2 (Kerri Rawson): Trung bình **2.90** (2.62 – 3.36).
+
+### 7.4. Mốc thời gian & Phụ đề
+- **Tổng thời lượng:** **1273.40 s** (~21 phút 13 giây).
+- **Intro kênh:** 0.00 – 22.41 s (`bgm_music_box.mp3`).
+- **Lời đầu:** 23.00 s (`1.03#1` Host).
+- **Lời cuối:** 1263.56 s (`5.10#3` Host).
+- **Thẻ kết (Closing card):** 1264.40 – 1273.40 s (9.0 s fade out).
+- **File Timeline:** `.work/timeline_s_EN_t05.json`.
+- **File Phụ đề:** `02_SAN_XUAT/Tap05_EN/xuat_ban/Tap05_EN.srt` (356 cue).
+- **File Danh sách nghe kiểm tra:** `02_SAN_XUAT/Tap05_EN/CanNghe_Tap05_EN_higgs.md`.
+

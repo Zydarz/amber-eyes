@@ -31573,5 +31573,27 @@
   "dieu_khoan": "Kênh tự tạo",
   "kiem_tra_thuong_mai": "đạt",
   "ghi_chu": "UTF-8 không BOM, CRLF — cùng định dạng với bản VN/EN"
+ },
+ {
+  "file": ".work/audio_s_higgs_JA_t03/",
+  "loai": "audio TTS tiếng Nhật — 218 câu (vòng 1 + vòng 2 multi-take)",
+  "cong_cu": "Higgs Audio v3 trên Mac Apple Silicon (MLX) — .work/generate_higgs_prod_t03ja.py",
+  "ngay": "2026-11-03",
+  "prompt": "clone từ giọng mẫu JA (Voice Design của VoxCPM2, bộ vòng 2/3: H ja2, D ja3, C ja3, N1 ja3, N2 ja2)",
+  "seed": null,
+  "dieu_khoan": "Higgs Audio v3 — Creator Use Grant II-A",
+  "kiem_tra_thuong_mai": "đạt (Creator Use Grant)",
+  "ghi_chu": "218 câu; F0 medians: D=85.5Hz, H=123.1Hz, N1=212.4Hz, C=228.6Hz, N2=275.9Hz; G9: D->H 6.31nc, H->C 10.72nc (đạt >= 4nc)"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap03_JA/xuat_ban/Tap03_JA.srt",
+  "loai": "phụ đề bản tiếng Nhật Tập 03 (238 cue)",
+  "cong_cu": ".work/subtitles.py — tách từ timeline_s_JA_t03.json, nhãn vai [ホスト]/[捜査官]/[心理学者]/[証人]/[視聴者]",
+  "ngay": "2026-11-03",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "Kênh tự tạo",
+  "kiem_tra_thuong_mai": "đạt",
+  "ghi_chu": "UTF-8 không BOM, CRLF — 238 cue, độ dài timeline 1936.7 s"
  }
 ]

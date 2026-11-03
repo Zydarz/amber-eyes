@@ -209,33 +209,50 @@ EPISODES = {
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
         "route_pins": {},
-        "thumb": ("IQ 145", "GƯƠNG"),
+        "thumb": ("IQ 145", "GIANT") if EN else ("IQ 145の", "怪物") if JA else ("IQ 145", "GƯƠNG"),
         "thumb_bg": "t3_brain_mirror",
-        "title": "Tập 03: Gã Khổng Lồ IQ 145 | Tâm lý học tội phạm: Edmund Kemper (Thái nhân cách)",
+        "title": ("Ep. 03: The IQ 145 Giant | The Psychology of Edmund Kemper (Psychopathy)" if EN else
+                  "第03話 · IQ 145の怪物と心を探る鏡 | エドモンド・ケンパーの心理学 (サイコパス)" if JA else
+                  "Tập 03: Gã Khổng Lồ IQ 145 | Tâm lý học tội phạm: Edmund Kemper (Thái nhân cách)"),
         "voice_credit": "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio",
-        "act_titles": {1: "Hồi 1 · Cuộc gọi nửa đêm từ bốt điện thoại Colorado",
-                       2: "Hồi 2 · Hiện trường & chuỗi săn mồi — Nấc thang của sự thay thế",
-                       3: "Hồi 3 · Giải phẫu tâm lý — Bên trong bộ não kẻ thái nhân cách tự phản tỉnh",
-                       4: "Hồi 4 · Đối thoại với FBI — Nền tảng của nghệ thuật lập hồ sơ tội phạm",
-                       5: "Hồi 5 · Phán quyết, bài học cảnh báo đỏ & lời kết"},
+        "act_titles": ({1: "Act 1 · Midnight Call from a Colorado Phone Booth",
+                        2: "Act 2 · The Scene & The Hunting Chain — Ladder of Substitution",
+                        3: "Act 3 · Psychological Autopsy — Inside the Mind of an Introspective Psychopath",
+                        4: "Act 4 · Dialogues with the FBI — Foundation of Criminal Profiling",
+                        5: "Act 5 · Verdict, Red Flag Lessons & Epilogue"} if EN else
+                       {1: "第1幕 · コロラドの電話ボックスから届く深夜の通話",
+                        2: "第2幕 · 現場と狩りの連鎖――代替の階段",
+                        3: "第3幕 · 心理剖検――内省型サイコパスの脳の内側",
+                        4: "第4幕 · FBIとの対話――犯罪プロファイリング技術の基礎",
+                        5: "第5幕 · 判決、赤い警鐘の教訓＆終幕"} if JA else
+                       {1: "Hồi 1 · Cuộc gọi nửa đêm từ bốt điện thoại Colorado",
+                        2: "Hồi 2 · Hiện trường & chuỗi săn mồi — Nấc thang của sự thay thế",
+                        3: "Hồi 3 · Giải phẫu tâm lý — Bên trong bộ não kẻ thái nhân cách tự phản tỉnh",
+                        4: "Hồi 4 · Đối thoại với FBI — Nền tảng của nghệ thuật lập hồ sơ tội phạm",
+                        5: "Hồi 5 · Phán quyết, bài học cảnh báo đỏ & lời kết"}),
         # Hashtag dòng cuối mô tả YouTube (bản tiếng Việt). Bản EN có sẵn trong
         # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
         "hashtags": "#TrueCrime #CriminalPsychology #EdmundKemper #Mindhunter #FBIProfiling #ForensicPsychology #Documentary #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
         "summary": ("1.03#1", "5.08#1"),
         "need": ["1.05#3", "1.10#1", "1.10#10", "1.13#7", "2.04#5", "2.06#2", "3.05#7", "3.05#10", "3.08#8", "3.08#10", "4.05#15", "4.05#19", "4.08#2", "5.02#5", "5.02#7", "5.02#12", "5.05#4", "5.05#5", "5.08#3"],
         "case": "Kemper",
-        "n1": ("TRỰC BAN CẢNH SÁT SANTA CRUZ", "Người trực đêm", "TRỰC BAN"),
-        "n2": ("CẢNH SÁT QUÁN RƯỢU", "Đồng nghiệp tại The Jury Room", "CẢNH SÁT"),
+        "n1": (("SANTA CRUZ DESK OFFICER", "Night Desk Officer", "SANTA CRUZ DESK") if EN else
+               ("サンタクルーズ警察当直", "当直警官の証言", "警察官") if JA else
+               ("TRỰC BAN CẢNH SÁT SANTA CRUZ", "Người trực đêm", "TRỰC BAN")),
+        "n2": (("BAR COLLEAGUE OFFICER", "The Jury Room Regular", "BAR POLICE") if EN else
+               ("酒場の同僚警察官", "市民と警察の視点", "警察官") if JA else
+               ("CẢNH SÁT QUÁN RƯỢU", "Đồng nghiệp tại The Jury Room", "CẢNH SÁT")),
         "cast": None,                  # dùng giọng mặc định của kênh (bộ A)
     },
     "04": {
-        "script": WORK / "script_tap04.json",
-        "dir": "Tap04",
-        "plan": "KeHoach_Video_Tap04.md",
-        "master": "Tap04_master",
-        "srt": "Tap04.srt",
+        "script": WORK / ("script_tap04_EN.json" if EN else "script_tap04.json"),
+        "dir": "Tap04_EN" if EN else "Tap04",
+        "plan": "KeHoach_Video_Tap04_EN.md" if EN else "KeHoach_Video_Tap04.md",
+        "master": "Tap04_EN_master" if EN else "Tap04_master",
+        "srt": "Tap04_EN.srt" if EN else "Tap04.srt",
+        "intro": "intro_kenh_EN_t04.mov" if EN else "intro_kenh.mov",
         "n_element": {"1.07": "N1", "4.06": "N2"},
-        "acting": WORK / "acting_tap04.json",
+        "acting": WORK / ("acting_tap04_EN.json" if EN else "acting_tap04.json"),
         "sfx_sheet": WORK / "sfx_tap04.json",
         "act1_cue": "1.15", "silence_cue": "1.11", "click_cues": ("1.06", "4.05"),
         "bed": {1: ("bgm_cello_sad.mp3", "bgm_piano_minimal.mp3", "bgm_sub_drone.mp3"), 2: ("bgm_piano_minimal.mp3", "bgm_piano_minimal_v2.mp3"),
@@ -244,16 +261,22 @@ EPISODES = {
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
         "route_pins": {},                                      # T7 Tập 02: ghim không nhãn (không nêu địa điểm nhà nạn nhân)
-        "thumb": ("THIÊN THẦN", "TỬ THẦN"),
+        "thumb": ("ANGEL OF", "DEATH") if EN else ("THIÊN THẦN", "TỬ THẦN"),
         "thumb_bg": "t4_somerset_exterior",
         # H9: nen sang o dai chu -> them lop toi mem (chi T04; T01/T02 giu nguyen duong cu)
         "text_scrim": ["1-06", "1-10", "1-15", "1-17", "2-08", "4-03", "4-07", "4-13"],
         "voice_credit": "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio",
         "mux_af": "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1",
-        "title": "Tập 04: Thiên Thần Tử Thần | Tâm lý học tội phạm: Charles Cullen (Phức cảm Chúa trời)",
-        "act_titles": {1: "Hồi 1 · Nghịch lý của người y tá mẫu mực", 2: "Hồi 2 · Lỗ hổng chết người của máy phát thuốc",
-                       3: "Hồi 3 · Bên trong bộ não của kẻ mang Phức cảm Chúa trời", 4: "Hồi 4 · Đấu trí thẩm vấn và bước ngoặt điều tra",
-                       5: "Hồi 5 · Phán quyết, bài học cảnh báo đỏ và lời kết"},
+        "title": ("Ep. 04: The Angel of Death | The Psychology of Charles Cullen (God Complex)"
+                  if EN else "Tập 04: Thiên Thần Tử Thần | Tâm lý học tội phạm: Charles Cullen (Phức cảm Chúa trời)"),
+        "act_titles": ({1: "Act 1 · The Paradox of the Model Nurse",
+                        2: "Act 2 · The Deadly Loophole of the Dispensing Machine",
+                        3: "Act 3 · Inside the Mind of the Covert God Complex",
+                        4: "Act 4 · Interrogation & The Turning Point",
+                        5: "Act 5 · The Verdict, Red Flags & Epilogue"} if EN else
+                       {1: "Hồi 1 · Nghịch lý của người y tá mẫu mực", 2: "Hồi 2 · Lỗ hổng chết người của máy phát thuốc",
+                        3: "Hồi 3 · Bên trong bộ não của kẻ mang Phức cảm Chúa trời", 4: "Hồi 4 · Đấu trí thẩm vấn và bước ngoặt điều tra",
+                        5: "Hồi 5 · Phán quyết, bài học cảnh báo đỏ và lời kết"}),
         # Hashtag dòng cuối mô tả YouTube (bản tiếng Việt). Bản EN có sẵn trong
         # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
         "hashtags": "#TrueCrime #CriminalPsychology #CharlesCullen #TheGoodNurse #ForensicPsychology #AngelOfDeath #Documentary #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
@@ -265,8 +288,18 @@ EPISODES = {
                  "2.04#1", "2.06#1", "2.06#4", "2.08#2", "2.08#6", "2.11#2", "2.11#4", "2.11#6",
                  "3.04#2", "3.04#3", "3.09#1", "3.09#6", "4.02#2", "4.04#2", "4.08#3", "4.11#1",
                  "5.02#3", "5.02#4", "5.02#6", "5.04#4", "5.08#3"],
-        "case": "Cullen", "n1": ("NỮ Y TÁ SOMERSET", "Đồng nghiệp ca đêm", "Y TÁ"),
-        "n2": ("Y TÁ CA ĐÊM", "Nhân vật hình dung", "Y TÁ CA ĐÊM"),
+        "case": "Cullen",
+        "n1": (("SOMERSET NURSE", "Night Shift Perspective", "NURSE") if EN else
+               ("NỮ Y TÁ SOMERSET", "Đồng nghiệp ca đêm", "Y TÁ")),
+        "n2": (("AMY LOUGHREN", "ICU Colleague & Whistleblower", "AMY") if EN else
+               ("Y TÁ CA ĐÊM", "Nhân vật hình dung", "Y TÁ CA ĐÊM")),
+        # ---- bản tiếng Anh: nhãn vai (CHU_CO_DINH_EN.md §3)
+        "roles_en": {"H": ("HOST", "Your Narrator"), "D": ("INVESTIGATOR", "Forensic Case Analysis"),
+                     "C": ("PSYCHOLOGIST", "Behavioral Dynamics"),
+                     "N1": ("SOMERSET NURSE", "Night Shift Perspective"),
+                     "N2": ("AMY LOUGHREN", "ICU Colleague & Whistleblower")},
+        "sub_tags_en": {"H": "HOST", "D": "INVESTIGATOR", "C": "PSYCHOLOGIST",
+                        "N1": "SOMERSET NURSE", "N2": "AMY LOUGHREN"},
         "cast": None,
     },
     "05": {

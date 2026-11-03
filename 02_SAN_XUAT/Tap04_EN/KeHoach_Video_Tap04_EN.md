@@ -113,3 +113,21 @@
 | 5-18 | hết tập (10 s) | — | T1 | `t4_case_file_open` | **CASE FILE 04 · CLOSED** · *AMBER EYES · Criminal psychology through real case files* | Music fade out | ⊘ | ◼ |
 
 **Tổng: 86 shot** (Act 1: 20 shots · Act 2: 20 shots · Act 3: 13 shots · Act 4: 15 shots · Act 5: 18 shots) · 100% covered across 161/161 sentences.
+
+## 7. Audio Higgs bản tiếng Anh (02/11/2026)
+
+Bộ giọng EN tạo từ VoxCPM2 (`assets/voice_ref_voxcpm2_en2/`: `H_EN`, `D_EN`, `C_EN`, `N1_EN`, `N2_EN`). Sinh bằng MLX-Audio Higgs Audio v3 4B trên Apple Silicon M2.
+Danh sách nghe kiểm: `CanNghe_Tap04_EN_higgs.md`.
+Phụ đề: `xuat_ban/Tap04_EN.srt` (408 cues).
+
+| Bước | Số đo |
+|---|---|
+| P0 | Đồng bộ git, cấu hình `edition.py` cho `Tap04_EN`, sửa lỗi `KeyError` số câu lệch EN/VN trong `tts_sentences.py`. |
+| Lượt 1 | 161/161 câu hoàn thành 100%, 0 FAIL, sinh trên Mac mini M2. Phát hiện và cắt gọt đuôi im lặng kỹ thuật (`s4_02_03.wav` từ 38.4s -> 8.0s). |
+| F0 trung vị | D: 85.7 Hz · H: 112.1 Hz · N1: 168.4 Hz · C: 187.5 Hz · N2: 250.0 Hz. |
+| Cổng G9 | **D–H: 4.65 nc ✅** · **H–C: 8.90 nc ✅** · **D–C: 13.55 nc ✅** · **H–N1: 7.05 nc ✅** · **C–N2: 4.98 nc ✅** (100% các cặp vai đạt chuẩn $\ge 4$ nửa cung). |
+| Vòng 2 (CER > 2%) | Sinh Take 1 (Variant 1) cho 29 câu > 2%, tự động giữ bản tốt hơn (9 câu cải thiện, nhiều câu giảm về 0.00%). |
+| CER toàn tập | **Trung bình: 0.87% · Trung vị: 0.00%**. H: 0.43% · D: 0.64% · C: 1.75% · N1: 0.34% · N2: 4.22%. Các câu > 2% do tên riêng (Cullen, Digoxin, Loughren) và định dạng Whisper. |
+| Timeline | Tổng 1340.5 s (22.3 phút) · 161 câu · Intro 22.41 s · Lời đầu 23.0 s · Lời cuối 1331.5 s. |
+| Phụ đề | Đã xuất `xuat_ban/Tap04_EN.srt` (408 cues, khớp timeline 100%). |
+| Cần làm tiếp | Bổ sung file BGM vào `assets/bgm/` để mix master `Tap04_EN_master.mp3` hoàn chỉnh; chuẩn bị ảnh nền `assets/bg/` để render video. |
