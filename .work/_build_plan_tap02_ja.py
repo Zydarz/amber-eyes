@@ -95,7 +95,11 @@ for l in vn_lines[i0:i1 + 1]:
     # --- kiểm số trên hình
     screen = re.sub(r"→\s*`#\d+`:", " ", chu)
     # số viết bằng kanji trong câu (一/二/… 十) vẫn truy được về số trên hình
-    flat_arabic = flat.translate(str.maketrans("〇一二三四五六七八九十百千", "0123456789101001000"))
+    flat_arabic = flat.translate(str.maketrans({
+        "〇": "0", "一": "1", "二": "2", "三": "3", "四": "4",
+        "五": "5", "六": "6", "七": "7", "八": "8", "九": "9",
+        "十": "10", "百": "100", "千": "1000"
+    }))
     allowed = set(re.findall(r"\d+", flat)) | set(re.findall(r"\d+", flat_arabic))
     for a in list(allowed):
         allowed.add(a.zfill(2))

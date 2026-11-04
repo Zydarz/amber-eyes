@@ -19,9 +19,9 @@
 | Font tiếng Nhật | ✅ YuGothB / YuGothM thiếu **0 ký tự** (647 ký tự Nhật) |
 | Thẻ kết cuối tập | ✅ Có — trích khung 1784,85 s thấy thẻ `AMBER EYES` |
 | Ảnh tĩnh soi bằng mắt | ✅ 151/151 shot, 5 trang contact sheet |
-| **Chữ trên hình còn lệch lời đọc** | ⚠️ **21 phần tử** (15 beat + 6 trích dẫn) — xem mục 3 |
+| **Chữ trên hình khớp lời đọc (H13)** | ✅ **ĐÃ KHẮC PHỤC 100% (04/11/2026)** — 21 phần tử chữ/trích dẫn đã được cập nhật chuẩn bản dịch mới, dựng lại video thành phẩm đạt chuẩn |
 
-**Kết luận:** Video dựng xong, khớp thời lượng, đạt chuẩn âm thanh, hình ảnh sạch, phụ đề khớp 100 % lời đọc. Phần còn lại là **21 dòng chữ trên hình** vẫn mang văn bản của bản dịch cũ (25/10) trong khi giọng đọc đã đổi sang bản dịch 31/10 — mục 3 nêu chi tiết và cách sửa đã chuẩn bị.
+**Kết luận (Cập nhật 04/11/2026):** Toàn bộ 21 phần tử chữ/trích dẫn đã được đồng bộ chuẩn xác với kịch bản 31/10 và audio master Higgs mới (1793.27 s). Video `Tap02_JA_master.mp4` đã được dựng lại hoàn chỉnh, đạt 32/32 cổng QC (chi tiết: `BaoCao_QC_Tap02_JA_20261104.md`).
 
 ---
 

@@ -65,10 +65,10 @@ Place `assets/brand/intro_kenh_EN_t05.mov` at 0.00 s (A5.7). No spoken line belo
 | 1-08 | `1.05#5` | H | T1 | `t5_cold_case_archives` | **WICHITA POLICE & FBI COLD CASE ARCHIVES** · *Believed the perpetrator was deceased or imprisoned* | — | ⊘ |  |
 | 1-09 | `1.06` (nghỉ 1.5 s) | — | — | giữ 1-08 | — | — | ⊘ |  |
 | 1-10 | `1.07#1` | H | T1 | `t5_park_city_suburb` | *HEAR FROM A RESIDENT OF* · **PARK CITY SUBURBAN COMMUNITY** | — | →N1 |  |
-| 1-11 | `1.09#1`–`#2` | N1 | T4 lời kể | `t5_park_city_suburb`, `push` | “When word spread that BTK had resumed sending letters after a decade, our town held its breath…” → `#2`: “Checked window latches, bought firearms, bolted doors before sundown.” | Tape recorder click `1.08` | ✦ Cừu |  |
-| 1-12 | `1.09#3` | N1 | T4 lời kể | `t5_suburban_house_locked` | “No one could ever have imagined the monster hunted across America… was the very man measuring grass heights every day.” | — | ⊘ | →H |
-| 1-13 | `1.10#1`–`#4` | H | T1 | `t5_compliance_truck_street` | **THE MOST BIZARRE PARADOX IN JURISPRUDENCE** · *Dormant for thirteen years · Evidence gone cold* → `#3`: *Technology utterly helpless* → `#4`: *Could have lived out his days under a respected guise* | — | ✦ Cú |  |
-| 1-14 | `1.10#5`–`#7` | H | T1 | `t5_detective_war_room` | **WHAT COMPELLED THE MONSTER TO SHATTER HIS SILENCE?** · *Why deliver himself directly into a police trap?* | — | ⊘ |  |
+| 1-11 | `1.09#1`–`#2` | N1 | T4 lời kể | `t5_park_city_suburb`, `push` | “When word spread that BTK had resumed sending letters after more than a decade, our entire town held its breath in dread.” → `#2`: “People checked their window latches again, bought extra firearms, and bolted their doors before sundown.” | Tape recorder click `1.08` | ✦ Cừu |  |
+| 1-12 | `1.09#3` | N1 | T4 lời kể | `t5_suburban_house_locked` | “No one could ever have imagined that the monster hunted across America for thirty years… was the very same diligent man who walked our neighborhood measuring grass heights every day.” | — | ⊘ | →H |
+| 1-13 | `1.10#1`–`#4` | H | T1 | `t5_compliance_truck_street` | **THE MOST BIZARRE PARADOX IN JURISPRUDENCE** · *Dormant for thirteen years* → `#3`: *Crime scene evidence gone cold* → `#4`: *Technology utterly helpless* | — | ✦ Cú |  |
+| 1-14 | `1.10#5`–`#7` | H | T1 | `t5_detective_war_room` | **WHAT COMPELLED THE MONSTER TO SHATTER HIS SILENCE?** · *Why deliver himself directly into a police trap?* → `#5`: *Could have lived out his days under a respected guise* | — | ⊘ |  |
 | 1-15 | `1.11` (nghỉ 2 s) | — | — | giữ 1-14, nhạc nền dừng đột ngột | — | Dry clock ticking | ⊘ |  |
 | 1-16 | `1.12#1` | H | T1 | `t5_detective_war_room` | *HEAR FROM THE INVESTIGATOR* · **THE OPENING MOMENTS OF A HISTORIC BATTLE OF WITS** | — | →D |  |
 | 1-17 | `1.14#1`–`#2` | D | T1 | `t5_detective_war_room`, `still` | **THE TASK FORCE'S FIRST QUESTION:** *Why now?* → `#2`: *Flipping back through local newspapers* | Drawer opens & dossier placed `1.13` | ✦ Sói |  |
@@ -138,7 +138,7 @@ Place `assets/brand/intro_kenh_EN_t05.mov` at 0.00 s (A5.7). No spoken line belo
 | 4-14 | `4.12#1`–`#4` | D | T1 | `t5_interrogation_confrontation` | **CLASSIC INTERROGATION ROOM CONFRONTATION** · *'Why did you lie to me?' — 'Because we were trying to catch you!'* | Cửa sắt đóng sầm `4.11` | ✦ Sói |  |
 | 4-15 | `4.12#5`–`#8` | D | T1 | `t5_shattered_mask_confession`, `push` | **THE FACADE SHATTERS COMPLETELY** · *Confessing continuously to each murder over 30 hours* | — | ⊘ | →H |
 | 4-16 | `4.14#1`–`#2` | H | T1 | `t5_kerri_rawson_tears` | *HEAR THE GRIEF-STRICKEN WORDS OF* · **KERRI RAWSON — DAUGHTER OF DENNIS RADER** | Điểm nhấn stinger `4.13` | ✦ Cú | →N2 |
-| 4-17 | `4.15#1`–`#4` | N2 | T4 lời kể | `t5_kerri_rawson_tears`, `still` | “The world knows him as a monster, but to me he was the best father…” → `#4`: **“THE PREDATOR HUNTED NATIONWIDE HUGGED ME GOODNIGHT EVERY NIGHT.”** | Tiếng bật cassette `4.15#1` | ✦ Kerri |  |
+| 4-17 | `4.15#1`–`#4` | N2 | T4 lời kể | `t5_kerri_rawson_tears`, `still` | “The world knows him as a barbaric monster… Yet to me, he was once the most wonderful father…” → `#4`: **“THE MONSTER HUNTED BY THE ENTIRE NATION… WAS THE MAN WHO KISSED ME GOODNIGHT EVERY EVENING.”** | Tiếng bật cassette `4.15#1` | ✦ Kerri |  |
 | 4-18 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *ACT 05* · **THE VERDICT, RED FLAGS & CLOSING THOUGHTS** | — | ⊘ | ◼ |
 
 ### ACT 5 — THE VERDICT, RED FLAGS & EPILOGUE · Lead background `t5_sedgwick_courtroom`
@@ -153,13 +153,13 @@ Place `assets/brand/intro_kenh_EN_t05.mov` at 0.00 s (A5.7). No spoken line belo
 | 5-05 | `5.04#1`–`#2` | H | T1 | `t5_solitary_confinement_cell` | **FOUR CRITICAL RED FLAGS** · *Recognizing malignant narcissistic personalities in everyday life* | — | ✦ Cú | →C+D |
 | 5-06 | `5.05#1`–`#3` | C | T9 `1/4` | `t5_redflag_rule_control` | **RED FLAG 01: EXTREME OBSESSION WITH RULES & CONTROL** · *Morbid rigidity over minor regulations to subjugate others* | — | ✦ Cáo |  |
 | 5-07 | `5.05#4`–`#5` | C | T9 `2/4` | `t5_redflag_shallow_affect` | **RED FLAG 02: SHALLOW AFFECT BEHIND A CHARMING EXTERIOR** · *Active in social/religious circles yet lacking authentic empathy* | — | 🅑 | →D |
-| 5-08 | `5.06#1`–`#3` | D | T9 `3/4` | `t5_redflag_secret_trophies` | **RED FLAG 03: SECRET COMPULSION TO KEEP TROPHIES** · *Hoarding private mementos, personal items, or documents of others* | — | ✦ Sói |  |
-| 5-09 | `5.06#4`–`#5` | D | T9 `4/4` | `t5_redflag_narcissistic_hubris` | **RED FLAG 04: INSATIABLE NARCISSISTIC CRAVING FOR RECOGNITION** · *Fragile ego easily unravelling when challenged* | — | 🅑 |  |
+| 5-08 | `5.06#1`–`#2` | D | T9 `3/4` | `t5_redflag_secret_trophies` | **RED FLAG 03: SECRET COMPULSION TO KEEP TROPHIES** · *Hoarding private mementos, personal items, or documents of others* | — | ✦ Sói |  |
+| 5-09 | `5.06#3`–`#5` | D | T9 `4/4` | `t5_redflag_narcissistic_hubris` | **RED FLAG 04: INSATIABLE NARCISSISTIC CRAVING FOR RECOGNITION** · *Fragile ego easily unravelling when challenged* | — | 🅑 |  |
 | 5-10 | `5.07` (nghỉ 2 s) | — | — | giữ 5-09, Piano dâng lên nhẹ nhàng | — | Piano ấm áp | ⊘ |  |
 | 5-11 | `5.08#1`–`#5` | H | T1 | `t5_justice_dawn_sunlight` | **JUSTICE MAY DELAY, BUT TRUTH INEVITABLY TRIUMPHS** · *Darkness must always yield to the light of truth* | — | ✦ Cú |  |
 | 5-12 | `5.09` (nghỉ 1.5 s) | — | — | giữ 5-11 | — | — | ⊘ |  |
-| 5-13 | `5.10#1`–`#2` | H | T1 | `t5_closing_typewriter_rose` | **SPECIAL THANKS TO OUR GUESTS & VALUED LISTENERS** · *Stay vigilant and nurture an upright heart* | Folder closes `5.11` | ✦ Cú |  |
-| 5-14 | `5.10#3` | H | T1 | `t5_closing_typewriter_rose`, `still` | **UNTIL NEXT TIME IN OUR UPCOMING CRIMINAL PSYCHOLOGY DOSSIER** | Decisive typewriter strike | 🅑 |  |
+| 5-13 | `5.10#1`–`#2` | H | T1 | `t5_closing_typewriter_rose` | **SPECIAL THANKS TO OUR GUESTS & VALUED LISTENERS** | Folder closes `5.11` | ✦ Cú |  |
+| 5-14 | `5.10#3` | H | T1 | `t5_closing_typewriter_rose`, `still` | **UNTIL NEXT TIME IN OUR UPCOMING CRIMINAL PSYCHOLOGY DOSSIER** → `#3`: *Stay vigilant and nurture a compassionate spirit* | Decisive typewriter strike | 🅑 |  |
 | 5-15 | hết tập (10 s) | — | T1 | `t5_closing_typewriter_rose` | **DOSSIER EPISODE 05 · CLOSED** · *AMBER EYES · Criminal psychology through real case files* | Cello sustains 5s then fades out `5.12` | ⊘ | ◼ |
 
 **Tổng: 83 shot** (Hồi 1: 22 shot · Hồi 2: 15 shot · Hồi 3: 13 shot · Hồi 4: 18 shot · Hồi 5: 15 shot) · Phủ 100% 164/164 câu · 100% nền có file.

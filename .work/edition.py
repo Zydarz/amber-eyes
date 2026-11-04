@@ -147,6 +147,8 @@ EPISODES = {
         # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
         "hashtags": "#TrueCrime #CriminalPsychology #RussellWilliams #Interrogation #Documentary #ForensicPsychology #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
         "summary": ("1.18#3", "3.04#1"),
+        "mux_af": ("alimiter=limit=0.63:attack=5:release=50:level=disabled:latency=1" if (EN or JA) else
+                   "alimiter=limit=0.7943:attack=5:release=50:level=disabled"),
         "need": ["1.03#4", "1.05#1", "1.05#2", "1.10#2", "1.12#2", "1.14#2", "1.17#3", "2.04#1", "2.04#2",
                  "2.05#6", "2.05#7", "2.05#13", "2.05#15", "2.08#7", "3.08#10", "4.03#6", "4.08#3",
                  "4.08#7", "4.10#1", "4.10#3", "4.10#7", "4.10#8", "4.10#9", "4.11#5", "4.11#8", "4.12#2",
@@ -239,7 +241,12 @@ EPISODES = {
         # Hạ trần alimiter xuống −4 dBFS (0.63) + latency=1 để bù trễ 4,98 ms của
         # limiter ⇒ true peak ≈ −2,2 dBFS và lệch A/V ≈ 0 ms.
         # Bản VN giữ nguyên chuỗi cũ (đang đạt −1,7 dBFS) ⇒ không đổi thành phẩm đã xuất.
-        "mux_af": ("alimiter=limit=0.63:attack=5:release=50:level=disabled:latency=1" if EN else
+        # Bản JA (03/11/2026): đo master wav JA = true peak −1,6 dBFS / sample peak −1,90 dBFS
+        # ⇒ chỉ 0,1 dB dưới trần A7 −1,5 dBFS; AAC dựng lại vọn true peak lên ~+1,8 dB
+        # (đúng như bản EN) ⇒ dùng CÙNG chuỗi đã chứng minh cho EN: limit=0.63 (−4 dBFS)
+        # + latency=1 (bù trễ 4,98 ms của limiter ⇒ lệch A/V ≈ 0 ms).
+        # KHÔNG đụng chuỗi của VN/KO (đã xuất, đang đạt chuẩn).
+        "mux_af": ("alimiter=limit=0.63:attack=5:release=50:level=disabled:latency=1" if (EN or JA) else
                    "alimiter=limit=0.7943:attack=5:release=50:level=disabled"),
         "need": ["1.05#3", "1.10#1", "1.10#10", "1.13#7", "2.04#5", "2.06#2", "3.05#7", "3.05#10", "3.08#8", "3.08#10", "4.05#15", "4.05#19", "4.08#2", "5.02#5", "5.02#7", "5.02#12", "5.05#4", "5.05#5", "5.08#3"],
         "case": "Kemper",
@@ -384,6 +391,14 @@ EPISODES = {
                 [("Professional boundaries:", 1),
                  (" Not a substitute for professional legal, medical, or psychiatric advice.", 0)]])),
         "cast": None,
+        # A7 + A11 #64 (bản EN, 04/11/2026): đo master mp3 EN Tap05 = true peak −1,9 dBFS
+        # / I −16,3 LUFS. Trần mặc định 0,7943 (−2,00 dBFS) cao hơn đỉnh master chỉ 0,1 dB
+        # ⇒ limiter gần như không kích hoạt, còn AAC dựng lại vọn true peak lên ~0,1–0,6 dB
+        # ⇒ có thể vượt trần A7 −1,5 dBFS. Dùng CÙNG chuỗi đã chứng minh cho EN/JA
+        # (Tap03): limit=0,63 (−4 dBFS) + latency=1 (bù trễ 4,98 ms của limiter ⇒ lệch A/V ≈ 0 ms).
+        # KHÔNG đụng chuỗi VN (đã xuất).
+        "mux_af": ("alimiter=limit=0.63:attack=5:release=50:level=disabled:latency=1" if (EN or JA) else
+                   "alimiter=limit=0.7943:attack=5:release=50:level=disabled"),
     },
     "06": {
         "script": WORK / "script_tap06.json",

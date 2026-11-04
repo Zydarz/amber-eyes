@@ -46,6 +46,9 @@ assets/bg/
 !.work/*.md
 !.work/*.txt
 !.work/tap03_review/
+# Ban sao tam khi sua file dung chung (vd edition_bak_muxaf_tmp.py) — file van con
+# tren dia, chi bo the doi git. Ban chinh dung: .work/_cu/ theo L5.
+.work/*_bak_*.py
 
 # ---------- Artifact dựng, binary, cache ----------
 *.tmp

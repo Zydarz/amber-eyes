@@ -1,0 +1,19 @@
+{
+ "ok": [
+  "1) Thoi luong mp4 = 1272.500 s == timeline.total (1272.51 s), lech -0.010 s",
+  "2) So khung = 38175 == int(1272.51 * 30) = 38175",
+  "3) Khung hinh 1920x1080 · fps = 30/1 · codec = h264",
+  "3) Audio: aac 195954 · 48000 Hz · 2 kenh",
+  "4) Lech A/V lon nhat 0.0 ms (<= 20 ms) so voi mp3 master tai 5 moc",
+  "5) The ket hien dung tai t=1264.5 s · do sang TB 89.6 · MAE anh tinh 23.4",
+  "5) The ket hien dung tai t=1266.7 s · do sang TB 90.5 · MAE anh tinh 21.3",
+  "5) Duoi video fade den dung nhu VN Tap05 / EN Tap04 (TB 0.11)",
+  "6) Giai ma toan bo video: 0 loi",
+  "7) Loudness -16.4 LUFS (chuan -16 ± 1)",
+  "7) True peak -3.1 dBFS (<= -1,5)"
+ ],
+ "fail": [],
+ "sha256": "aa37032e1efb",
+ "duration": 1272.5,
+ "frames": 38175
+}

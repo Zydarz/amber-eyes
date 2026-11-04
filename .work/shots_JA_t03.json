@@ -1,0 +1,5119 @@
+{
+ "total": 1927.91,
+ "shots": [
+  {
+   "id": "1-00",
+   "act": 1,
+   "start": 20.5,
+   "end": 22.8,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_phone_booth",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第1幕 · コロラドの電話ボックスから届く深夜の通話"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng gió rít, tiếng đồng xu, quay số",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-01",
+   "act": 1,
+   "start": 22.8,
+   "end": 33.3,
+   "role": "H",
+   "sentences": [
+    "1.03#1",
+    "1.03#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t3_case_file",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "1973年4月24日"
+      ],
+      [
+       "ital",
+       "午前4時 · コロラド州プエブロ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gõ từng ký tự",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-02",
+   "act": 1,
+   "start": 33.3,
+   "end": 47.88,
+   "role": "H",
+   "sentences": [
+    "1.03#3",
+    "1.03#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_dispatch_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "1,600キロメートル以上 · カリフォルニア州サンタクルーズ"
+      ],
+      [
+       "bold",
+       "当直電話のベルが静寂を破った"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "ital",
+       "向こうの男の声は低く温かく、奇妙なほど冷静だった"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-03",
+   "act": 1,
+   "start": 47.88,
+   "end": 65.3,
+   "role": "H",
+   "sentences": [
+    "1.03#5",
+    "1.03#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_phone_booth",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "EDMUND KEMPER"
+      ],
+      [
+       "ital",
+       "道沿いの公衆電話から通話"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "bold",
+       "BIG ED"
+      ],
+      [
+       "ital",
+       "2メートル06 · 約127キログラム"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Big Ed"
+   ],
+   "beat_text": "Tiêu đề ở \"Big Ed\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-04",
+   "act": 1,
+   "start": 65.3,
+   "end": 72.85,
+   "role": "H",
+   "sentences": [
+    "1.03#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_bar_stool_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE JURY ROOMというバー"
+      ],
+      [
+       "ital",
+       "巡回勤務の後もビールを飲んで警察官たちと親しげに話した"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-05",
+   "act": 1,
+   "start": 72.85,
+   "end": 78.33,
+   "role": "H",
+   "sentences": [
+    "1.03#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "そのわずか数日前のこと"
+      ],
+      [
+       "ital",
+       "彼は自分の母親を殺していた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-06",
+   "act": 1,
+   "start": 78.33,
+   "end": 79.63,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "そのわずか数日前のこと"
+      ],
+      [
+       "ital",
+       "彼は自分の母親を殺していた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-05"
+  },
+  {
+   "id": "1-07",
+   "act": 1,
+   "start": 79.63,
+   "end": 90.57,
+   "role": "H",
+   "sentences": [
+    "1.05#1",
+    "1.05#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t3_dispatch_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "サンタクルーズの夜勤当直"
+      ],
+      [
+       "bold",
+       "血の気が凍った言葉"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "血の気が凍った"
+   ],
+   "beat_text": "Dấu mộc ở \"血の気が凍った\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-08",
+   "act": 1,
+   "start": 90.57,
+   "end": 102.81,
+   "role": "H",
+   "sentences": [
+    "1.05#3",
+    "1.05#4"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_case_photos",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "INSIDE DETECTIVE 1973年8月号"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "quote",
+       "私は母と、その友人を殺しました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-09",
+   "act": 1,
+   "start": 102.81,
+   "end": 113.05,
+   "role": "H",
+   "sentences": [
+    "1.05#5",
+    "1.05#6",
+    "1.05#7"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_case_file",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "そして、女子学生たちを殺しました。 6人でした。 私はあなたたちに、彼女たちの遺体をどこに埋めたか教えられます。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-10",
+   "act": 1,
+   "start": 113.05,
+   "end": 113.85,
+   "role": null,
+   "sentences": [],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_case_file",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "そして、女子学生たちを殺しました。 6人でした。 私はあなたたちに、彼女たちの遺体をどこに埋めたか教えられます。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-09"
+  },
+  {
+   "id": "1-11",
+   "act": 1,
+   "start": 113.85,
+   "end": 131.62,
+   "role": "H",
+   "sentences": [
+    "1.07#1",
+    "1.07#2",
+    "1.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_phone_booth",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "通話が切れると、彼はかけ直した"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "さらに人を殺してしまうことを恐れていた"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "数時間後、巡回車が公衆電話の横で止まった"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-12",
+   "act": 1,
+   "start": 131.62,
+   "end": 139.52,
+   "role": "H",
+   "sentences": [
+    "1.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_case_file",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "抵抗せず自首"
+      ],
+      [
+       "ital",
+       "車内に3丁の銃と数百発の弾薬"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng \"Tách\" (SFX `1.08`) ở cuối",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N1"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-13",
+   "act": 1,
+   "start": 139.52,
+   "end": 173.04,
+   "role": "N1",
+   "sentences": [
+    "1.09#1",
+    "1.09#2",
+    "1.09#3",
+    "1.09#4"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_dispatch_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "最初は、Edが酔っ払ってふざけるように電話をかけてきたのだと思っていました。"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "quote",
+       "私たちに人を派遣して家を確認するよう指示しました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-14",
+   "act": 1,
+   "start": 173.04,
+   "end": 186.22,
+   "role": "N1",
+   "sentences": [
+    "1.09#5",
+    "1.09#6"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_phone_booth",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "数時間後、プエブロ警察の巡回車が公衆電話の横に止まった。"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "quote",
+       "私たちはそこに座っていた彼を見つけましたが、コーヒーを買う列に並んでいる人のように平然としていました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-15",
+   "act": 1,
+   "start": 186.22,
+   "end": 202.98,
+   "role": "N1",
+   "sentences": [
+    "1.09#7",
+    "1.09#8",
+    "1.09#9"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_bar_stool_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "私たちは彼をサンタ・クルーズへ連れて行きました。"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 9,
+     "elems": [
+      [
+       "quote",
+       "長い間、カリフォルニア州全体が必死に探していた人物が、毎晩私たちのすぐ隣に座っていたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-16",
+   "act": 1,
+   "start": 202.98,
+   "end": 218.48,
+   "role": "H",
+   "sentences": [
+    "1.10#1",
+    "1.10#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t3_apartos_house",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "オード・ドライブ609A番地 · アプトス"
+      ],
+      [
+       "bold",
+       "現場に突入"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "Clarnell Strandberg · 52歳"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "現場に突入"
+   ],
+   "beat_text": "Dấu mộc ở \"現場に突入\"",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "1-17",
+   "act": 1,
+   "start": 218.48,
+   "end": 234.66,
+   "role": "H",
+   "sentences": [
+    "1.10#3",
+    "1.10#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "同じ日の午後 · Sara Taylor “Sally” Hallett · 59歳"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "bold",
+       "女子学生殺人魔"
+      ],
+      [
+       "ital",
+       "(The Co-ed Killer)"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "The Co-ed Killer"
+   ],
+   "beat_text": "Tiêu đề ở \"The Co-ed Killer\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-18",
+   "act": 1,
+   "start": 234.66,
+   "end": 242.64,
+   "role": "H",
+   "sentences": [
+    "1.10#5",
+    "1.10#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_case_file",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "警察の巧みな罠には捕まらなかった"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "発見につながる痕跡を一切残さなかった"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-19",
+   "act": 1,
+   "start": 242.64,
+   "end": 270.65,
+   "role": "H",
+   "sentences": [
+    "1.10#7",
+    "1.10#8",
+    "1.10#9",
+    "1.10#10",
+    "1.10#11"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_phone_booth",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "自ら公衆電話ボックスに入り、投降した"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 10,
+     "elems": [
+      [
+       "quote",
+       "私を止めてください。 私はそれをもう一度するつもりです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-20",
+   "act": 1,
+   "start": 270.65,
+   "end": 286.55,
+   "role": "H",
+   "sentences": [
+    "1.10#12",
+    "1.10#13",
+    "1.10#14"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_prison_corridor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "自分が止められなくなることを恐れて電話した"
+      ],
+      [
+       "ital",
+       "FBI捜査官の視点を聞く"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-21",
+   "act": 1,
+   "start": 286.55,
+   "end": 288.35,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_prison_corridor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "自分が止められなくなることを恐れて電話した"
+      ],
+      [
+       "ital",
+       "FBI捜査官の視点を聞く"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng bước chân, cửa sắt \"Rầm\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-20"
+  },
+  {
+   "id": "1-22",
+   "act": 1,
+   "start": 288.35,
+   "end": 306.29,
+   "role": "D",
+   "sentences": [
+    "1.13#1",
+    "1.13#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_giant_doorway",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "FBIの犯罪記録史上、唯一無二のケース"
+      ],
+      [
+       "ital",
+       "身長2メートル06 · IQ 145 · 地球上でも最も賢い0.13％の集団"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-23",
+   "act": 1,
+   "start": 306.29,
+   "end": 319.83,
+   "role": "D",
+   "sentences": [
+    "1.13#3",
+    "1.13#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_brain_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "非凡な自己認識能力"
+      ],
+      [
+       "ital",
+       "置かれた状況をかばうことも、罪を否定することもしなかった"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-24",
+   "act": 1,
+   "start": 319.83,
+   "end": 338.81,
+   "role": "D",
+   "sentences": [
+    "1.13#5",
+    "1.13#6"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t3_fbi_corridor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "BSU · FBI"
+      ],
+      [
+       "bold",
+       "犯罪性格研究プロジェクト"
+      ],
+      [
+       "ital",
+       "Criminal Personality Research Project · 行動科学部門の最初の研究者"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Criminal Personality Research Project"
+   ],
+   "beat_text": "Dấu mộc ở \"Criminal Personality Research Project\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-25",
+   "act": 1,
+   "start": 338.81,
+   "end": 373.07,
+   "role": "D",
+   "sentences": [
+    "1.13#7",
+    "1.13#8",
+    "1.13#9"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t3_case_file",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "36人の連続殺人犯 · VICAPネットワークの土台 · 標準化された科学"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-26",
+   "act": 1,
+   "start": 373.07,
+   "end": 391.46,
+   "role": "H",
+   "sentences": [
+    "1.15#1",
+    "1.15#2"
+   ],
+   "template": "T10",
+   "variant": "",
+   "bg": "t3_brain_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "IQ 145の巨漢と、内なる怪物を読み解く鏡"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tên tập ở cuối",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-27",
+   "act": 1,
+   "start": 391.46,
+   "end": 393.26,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第2幕"
+      ],
+      [
+       "bold",
+       "現場と狩りの連鎖――代替の階段"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "2-01",
+   "act": 2,
+   "start": 393.26,
+   "end": 401.37,
+   "role": "H",
+   "sentences": [
+    "2.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_rain_wipers",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "1970年代初め · サンタ・クラルズ"
+      ],
+      [
+       "ital",
+       "ヒッピー運動の自由な空気"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mưa rả rích, gạt nước",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-02",
+   "act": 2,
+   "start": 401.37,
+   "end": 413.12,
+   "role": "H",
+   "sentences": [
+    "2.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_hitchhiker",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ヒッチハイキング"
+      ],
+      [
+       "ital",
+       "親指を立てて道を尋ねる · 当時一般的で、表面上は害のない文化"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Hitchhiking"
+   ],
+   "beat_text": "Tiêu đề ở \"Hitchhiking\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-03",
+   "act": 2,
+   "start": 413.12,
+   "end": 421.67,
+   "role": "H",
+   "sentences": [
+    "2.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_ucsc_campus",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "UCSC"
+      ],
+      [
+       "ital",
+       "不可解な失踪の影が構内全体を覆い始めた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-04",
+   "act": 2,
+   "start": 421.67,
+   "end": 440.09,
+   "role": "H",
+   "sentences": [
+    "2.04#1",
+    "2.04#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t3_case_photos",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "行方不明者たちのファイル"
+      ],
+      [
+       "ital",
+       "連続殺人事件の6人の被害者"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Lật ảnh (SFX `2.03`) ở đầu",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "2-05",
+   "act": 2,
+   "start": 440.09,
+   "end": 456.51,
+   "role": "H",
+   "sentences": [
+    "2.04#3",
+    "2.04#4"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t3_santacruz_street",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "1972年5月7日 · Mary Ann PesceとAnita Luchessa（いずれも18歳） · 1人を制圧し、もう1人を車のトランクに閉じ込めた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-06",
+   "act": 2,
+   "start": 456.51,
+   "end": 472.37,
+   "role": "H",
+   "sentences": [
+    "2.04#5",
+    "2.04#6"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t3_case_photos",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "1972年9月14日 · Aiko Koo（15歳） · 1973年1月7日 · Cindy Schall（18歳）"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-07",
+   "act": 2,
+   "start": 472.37,
+   "end": 480.19,
+   "role": "H",
+   "sentences": [
+    "2.04#7",
+    "2.04#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_backyard_garden",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "海へ逃げた"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "bold",
+       "母親の庭に遺体を埋めた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-08",
+   "act": 2,
+   "start": 480.19,
+   "end": 496.59,
+   "role": "H",
+   "sentences": [
+    "2.04#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_ucsc_campus",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "UCSCの女子学生2人"
+      ],
+      [
+       "ital",
+       "Rosalind Thorpe（23歳）とAlice Liu（21歳）"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-09",
+   "act": 2,
+   "start": 496.59,
+   "end": 497.89,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_ucsc_campus",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "UCSCの女子学生2人"
+      ],
+      [
+       "ital",
+       "Rosalind Thorpe（23歳）とAlice Liu（21歳）"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "2-08"
+  },
+  {
+   "id": "2-10",
+   "act": 2,
+   "start": 497.89,
+   "end": 503.76,
+   "role": "H",
+   "sentences": [
+    "2.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_ravine",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "サンタ・クリアズ山地"
+      ],
+      [
+       "ital",
+       "遺体は深い峡谷に散らばって発見された"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-11",
+   "act": 2,
+   "start": 503.76,
+   "end": 515.89,
+   "role": "H",
+   "sentences": [
+    "2.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_backyard_garden",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "母親の庭に埋められた"
+      ],
+      [
+       "ital",
+       "母の寝室の窓に正対するように"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-12",
+   "act": 2,
+   "start": 515.89,
+   "end": 535.01,
+   "role": "H",
+   "sentences": [
+    "2.06#3",
+    "2.06#4",
+    "2.06#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_case_photos",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "法医学的な痕跡は皆無"
+      ],
+      [
+       "ital",
+       "指紋も、見慣れない繊維も、目撃者もいなかった"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-13",
+   "act": 2,
+   "start": 535.01,
+   "end": 540.12,
+   "role": "D",
+   "sentences": [
+    "2.07#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_under_seat",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "動く死の罠"
+      ],
+      [
+       "ital",
+       "精緻なModus Operandi"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-14",
+   "act": 2,
+   "start": 540.12,
+   "end": 572.76,
+   "role": "D",
+   "sentences": [
+    "2.07#2",
+    "2.07#3",
+    "2.07#4",
+    "2.07#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_galaxie",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "1969年型 · 黄色いFord Galaxie"
+      ],
+      [
+       "ital",
+       "大学の職員用駐車場のステッカー · 誰にも目立たない安全な車"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Ford Galaxie"
+   ],
+   "beat_text": "Tiêu đề ở \"Ford Galaxie\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-15",
+   "act": 2,
+   "start": 572.76,
+   "end": 589.34,
+   "role": "D",
+   "sentences": [
+    "2.07#6",
+    "2.07#7"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t3_trunk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "トランクには全てを前もって用意 · 1人を手錠で拘束し、もう1人を閉じ込めた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-16",
+   "act": 2,
+   "start": 589.34,
+   "end": 609.16,
+   "role": "D",
+   "sentences": [
+    "2.07#8",
+    "2.07#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_case_file",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ネバダ州レノのレンタカーに3丁の銃と200発を超える弾薬"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-17",
+   "act": 2,
+   "start": 609.16,
+   "end": 636.29,
+   "role": "D",
+   "sentences": [
+    "2.07#10",
+    "2.07#11",
+    "2.07#12"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t3_bar_stool_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "巨大な体格 2メートル06"
+      ],
+      [
+       "bold",
+       "知性の仮面と偽りの礼儀"
+      ],
+      [
+       "ital",
+       "静かで穏やかな声 · 知性的な眼鏡 · 端正な服装"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cột phải ở `#12`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-18",
+   "act": 2,
+   "start": 636.29,
+   "end": 658.46,
+   "role": "D",
+   "sentences": [
+    "2.07#13",
+    "2.07#14"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "t3_hitchhiker",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "約150人"
+      ],
+      [
+       "ital",
+       "犯行前にリハーサルとして人を乗せていた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Số đếm 0 → 150",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-19",
+   "act": 2,
+   "start": 658.46,
+   "end": 680.3,
+   "role": "H",
+   "sentences": [
+    "2.08#1",
+    "2.08#2",
+    "2.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_courthouse_exterior",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "最大の疑問："
+      ],
+      [
+       "ital",
+       "なぜ自分を追い詰めている人々と友人になれたのか？"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N2"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-20",
+   "act": 2,
+   "start": 680.3,
+   "end": 702.83,
+   "role": "N2",
+   "sentences": [
+    "2.09#1",
+    "2.09#2",
+    "2.09#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_bar_jury_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE JURY ROOM"
+      ],
+      [
+       "ital",
+       "Santa Cruz地方裁判所の真正向かい"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "quote",
+       "Big Edは、いつもいつものバーの隅に座っていた。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-21",
+   "act": 2,
+   "start": 702.83,
+   "end": 720.08,
+   "role": "N2",
+   "sentences": [
+    "2.09#4",
+    "2.09#5",
+    "2.09#6"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_bar_stool_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Big Edは、警察官になることすら考えていました。"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "quote",
+       "しかし、ああした体格では、どこからも採用してもらえませんでした。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-22",
+   "act": 2,
+   "start": 720.08,
+   "end": 742.34,
+   "role": "N2",
+   "sentences": [
+    "2.09#7",
+    "2.09#8",
+    "2.09#9"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_bar_stool_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Edはビールを飲みながらうなずき、分析しながら、殺人者の心理に関する仮説も示してくれました。"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "quote",
+       "あの者は、私たちと一緒にビールを飲みながら、その追跡そのものについて冗談を言っていたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-23",
+   "act": 2,
+   "start": 742.34,
+   "end": 744.14,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第3幕"
+      ],
+      [
+       "bold",
+       "心理剖検――内省型サイコパスの脳の内側"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "3-01",
+   "act": 3,
+   "start": 744.14,
+   "end": 767.65,
+   "role": "H",
+   "sentences": [
+    "3.02#1",
+    "3.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_basement_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "モンタナ州の湿った暗い地下室"
+      ],
+      [
+       "ital",
+       "1950年代 · 囚われた幼少期"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Nước nhỏ giọt, cello u ám",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-02",
+   "act": 3,
+   "start": 767.65,
+   "end": 769.45,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_basement_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "モンタナ州の湿った暗い地下室"
+      ],
+      [
+       "ital",
+       "1950年代 · 囚われた幼少期"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-01"
+  },
+  {
+   "id": "3-03",
+   "act": 3,
+   "start": 769.45,
+   "end": 779.63,
+   "role": "H",
+   "sentences": [
+    "3.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_layers_stair",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "傾聴する："
+      ],
+      [
+       "bold",
+       "3つの病理層を深掘りする専門家の見解"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-04",
+   "act": 3,
+   "start": 779.63,
+   "end": 797.21,
+   "role": "C",
+   "sentences": [
+    "3.05#1",
+    "3.05#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t3_mother_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "有害な母子関係の病理"
+      ],
+      [
+       "bold",
+       "3層のメカニズム"
+      ],
+      [
+       "ital",
+       "先天的な反社会性人格"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Toxic Mother-Son Pathology"
+   ],
+   "beat_text": "Dấu mộc ở \"Toxic Mother-Son Pathology\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-05",
+   "act": 3,
+   "start": 797.21,
+   "end": 827.1,
+   "role": "C",
+   "sentences": [
+    "3.05#3",
+    "3.05#4",
+    "3.05#5"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_coal_furnace",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "第1層：地下の深淵"
+      ],
+      [
+       "ital",
+       "心理的去勢（Psychological Castration）"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "Clarnell Strandberg"
+      ],
+      [
+       "ital",
+       "アルコール依存 · 威圧的で支配的な性格"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Thuật ngữ ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-06",
+   "act": 3,
+   "start": 827.1,
+   "end": 842.45,
+   "role": "C",
+   "sentences": [
+    "3.05#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_small_bed",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "8歳から"
+      ],
+      [
+       "ital",
+       "石炭ストーブのそばの冷たい地下室で眠っていた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-07",
+   "act": 3,
+   "start": 842.45,
+   "end": 857.27,
+   "role": "C",
+   "sentences": [
+    "3.05#7",
+    "3.05#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_trapdoor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ダイニングテーブルの真下の落とし戸"
+      ],
+      [
+       "ital",
+       "テーブルを持ち上げなければ出られなかった"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-08",
+   "act": 3,
+   "start": 857.27,
+   "end": 900.98,
+   "role": "C",
+   "sentences": [
+    "3.05#9",
+    "3.05#10",
+    "3.05#11",
+    "3.05#12"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_basement_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "醜悪な姿の侮辱で自己尊重を破壊"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 12,
+     "elems": [
+      [
+       "ital",
+       "異常で、忌むべき存在であり、生きるに値しない"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-09",
+   "act": 3,
+   "start": 900.98,
+   "end": 902.28,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_basement_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "醜悪な姿の侮辱で自己尊重を破壊"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 12,
+     "elems": [
+      [
+       "ital",
+       "異常で、忌むべき存在であり、生きるに値しない"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-08"
+  },
+  {
+   "id": "3-10",
+   "act": 3,
+   "start": 902.28,
+   "end": 911.74,
+   "role": "H",
+   "sentences": [
+    "3.07#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_mother_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "思春期における母親への憎しみはどう変わったのか？"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-11",
+   "act": 3,
+   "start": 911.74,
+   "end": 952.23,
+   "role": "C",
+   "sentences": [
+    "3.08#1",
+    "3.08#2",
+    "3.08#3"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_atascadero",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "第2層：投射と代理被害者"
+      ],
+      [
+       "ital",
+       "15歳で祖父母を銃殺 · 1964年8月27日 · アタスカデロ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-12",
+   "act": 3,
+   "start": 952.23,
+   "end": 988.28,
+   "role": "C",
+   "sentences": [
+    "3.08#4",
+    "3.08#5",
+    "3.08#6"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t3_textbooks",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "アタスカデロで5年間 · MMPI尺度を自行開発 · 1969年12月18日（21歳の誕生日）に釈放"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-13",
+   "act": 3,
+   "start": 988.28,
+   "end": 1019.17,
+   "role": "C",
+   "sentences": [
+    "3.08#7",
+    "3.08#8",
+    "3.08#9"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t3_mother_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "母親：権力の偶像と恐怖"
+      ],
+      [
+       "bold",
+       "代替の被害者を求めた脳"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cột phải ở `#8`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-14",
+   "act": 3,
+   "start": 1019.17,
+   "end": 1075.54,
+   "role": "C",
+   "sentences": [
+    "3.08#10",
+    "3.08#11",
+    "3.08#12",
+    "3.08#13"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_ucsc_campus",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "代理被害者"
+      ],
+      [
+       "ital",
+       "(Proxy Victims)"
+      ],
+      [
+       "ital",
+       "自由への渇望を体現する若い女性たち"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-15",
+   "act": 3,
+   "start": 1075.54,
+   "end": 1077.34,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_ucsc_campus",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "代理被害者"
+      ],
+      [
+       "ital",
+       "(Proxy Victims)"
+      ],
+      [
+       "ital",
+       "自由への渇望を体現する若い女性たち"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-14"
+  },
+  {
+   "id": "3-16",
+   "act": 3,
+   "start": 1077.34,
+   "end": 1085.6,
+   "role": "H",
+   "sentences": [
+    "3.10#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_brain_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第3層"
+      ],
+      [
+       "bold",
+       "Kemperと他の連続殺人者との違い？"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-17",
+   "act": 3,
+   "start": 1085.6,
+   "end": 1114.09,
+   "role": "C",
+   "sentences": [
+    "3.11#1",
+    "3.11#2",
+    "3.11#3"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_self_observation",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "理知的解離と異常な自己内省能力"
+      ],
+      [
+       "ital",
+       "The Introspective Psychopath ― IQ 145、初回の測定では136"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-18",
+   "act": 3,
+   "start": 1114.09,
+   "end": 1144.7,
+   "role": "C",
+   "sentences": [
+    "3.11#4",
+    "3.11#5",
+    "3.11#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_brain_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "感情を完全に切り離した"
+      ],
+      [
+       "ital",
+       "渴望を科学者のように観察していた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-19",
+   "act": 3,
+   "start": 1144.7,
+   "end": 1170.85,
+   "role": "C",
+   "sentences": [
+    "3.11#7",
+    "3.11#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "最後の一歩："
+      ],
+      [
+       "ital",
+       "実母を殺すため帰る"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-20",
+   "act": 3,
+   "start": 1170.85,
+   "end": 1172.65,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第4幕"
+      ],
+      [
+       "bold",
+       "FBIとの対話――犯罪プロファイリングの基盤"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "4-01",
+   "act": 4,
+   "start": 1172.65,
+   "end": 1185.52,
+   "role": "H",
+   "sentences": [
+    "4.02#1",
+    "4.02#2",
+    "4.02#3"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t3_vacaville_1978",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "1978年 · バカビル"
+      ],
+      [
+       "ital",
+       "カリフォルニア州立医療施設（CMF）"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng cassette \"Cạch\" (SFX `4.01`)",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-02",
+   "act": 4,
+   "start": 1185.52,
+   "end": 1215.01,
+   "role": "H",
+   "sentences": [
+    "4.02#4",
+    "4.02#5",
+    "4.02#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_two_agents",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "John Douglas & Robert Ressler"
+      ],
+      [
+       "ital",
+       "FBI行動科学部門（BSU）"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-03",
+   "act": 4,
+   "start": 1215.01,
+   "end": 1231.08,
+   "role": "H",
+   "sentences": [
+    "4.02#7",
+    "4.02#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_interview_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "最大の疑問："
+      ],
+      [
+       "ital",
+       "私たちの脳は本当はどう動いているのか？"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-04",
+   "act": 4,
+   "start": 1231.08,
+   "end": 1232.38,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_interview_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "最大の疑問："
+      ],
+      [
+       "ital",
+       "私たちの脳は本当はどう動いているのか？"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "4-03"
+  },
+  {
+   "id": "4-05",
+   "act": 4,
+   "start": 1232.38,
+   "end": 1239.88,
+   "role": "H",
+   "sentences": [
+    "4.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_fbi_corridor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "傾聴する："
+      ],
+      [
+       "bold",
+       "FBI特別検査官の歴史的出会いを再現"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-06",
+   "act": 4,
+   "start": 1239.88,
+   "end": 1262.77,
+   "role": "D",
+   "sentences": [
+    "4.05#1",
+    "4.05#2",
+    "4.05#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_giant_doorway",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "巨大すぎて扉枠いっぱいに広がった"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "大学教授のような声で話した"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-07",
+   "act": 4,
+   "start": 1262.77,
+   "end": 1296.73,
+   "role": "D",
+   "sentences": [
+    "4.05#4",
+    "4.05#5",
+    "4.05#6",
+    "4.05#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_interview_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "IQ 145 · 彼が自分たちより賢いのではと心配した"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "母親から残酷な扱いを受けた話をするときだけ涙が込み上げた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-08",
+   "act": 4,
+   "start": 1296.73,
+   "end": 1320.85,
+   "role": "D",
+   "sentences": [
+    "4.05#8",
+    "4.05#9",
+    "4.05#10",
+    "4.05#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_cassette",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "数時間続く作業セッション"
+      ],
+      [
+       "ital",
+       "数年にわたる多次の面接"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-09",
+   "act": 4,
+   "start": 1320.85,
+   "end": 1351.0,
+   "role": "D",
+   "sentences": [
+    "4.05#12",
+    "4.05#13",
+    "4.05#14",
+    "4.05#15",
+    "4.05#16"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_interview_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "その後、私は他の人を助けられる方法を見つけられることを願っています――おそらく、彼らは私を研究し、私のような人が私たちが行うことの原因を探り当てられるでしょう"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-10",
+   "act": 4,
+   "start": 1351.0,
+   "end": 1381.09,
+   "role": "D",
+   "sentences": [
+    "4.05#17",
+    "4.05#18",
+    "4.05#19"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t3_fbi_corridor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Criminal Personality Research Project"
+      ],
+      [
+       "bold",
+       "36人の性犯罪殺人犯"
+      ],
+      [
+       "ital",
+       "1985年のVICAPネットワーク"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Lật sổ (SFX `4.06`) ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-11",
+   "act": 4,
+   "start": 1381.09,
+   "end": 1389.4,
+   "role": "D",
+   "sentences": [
+    "4.07#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_interview_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "性格を左右する3つの概念"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-12",
+   "act": 4,
+   "start": 1389.4,
+   "end": 1423.84,
+   "role": "D",
+   "sentences": [
+    "4.07#2",
+    "4.07#3",
+    "4.07#4",
+    "4.07#5"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_fantasy_spiral",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "概念01：暴力妄想サイクル"
+      ],
+      [
+       "ital",
+       "(Violent Fantasy Cycle)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-13",
+   "act": 4,
+   "start": 1423.84,
+   "end": 1443.54,
+   "role": "D",
+   "sentences": [
+    "4.07#6",
+    "4.07#7"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_trophy_box",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "概念02：戦利品"
+      ],
+      [
+       "ital",
+       "(Trophies/Souvenirs)"
+      ],
+      [
+       "ital",
+       "絶対的な権力感の再体験"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-14",
+   "act": 4,
+   "start": 1443.54,
+   "end": 1466.92,
+   "role": "D",
+   "sentences": [
+    "4.07#8",
+    "4.07#9",
+    "4.07#10"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_phone_booth",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "概念03：犯罪を止めた理由"
+      ],
+      [
+       "ital",
+       "止まれないことへの恐怖"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-15",
+   "act": 4,
+   "start": 1466.92,
+   "end": 1514.81,
+   "role": "H",
+   "sentences": [
+    "4.08#1",
+    "4.08#2",
+    "4.08#3"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t3_organized_split",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "組織型の殺人者"
+      ],
+      [
+       "ital",
+       "(Organized)"
+      ],
+      [
+       "ital",
+       "vs 非組織型（Disorganized）"
+      ],
+      [
+       "ital",
+       "The Lust Murderer（1980）"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cột phải ở `#2`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-16",
+   "act": 4,
+   "start": 1514.81,
+   "end": 1535.35,
+   "role": "H",
+   "sentences": [
+    "4.08#4",
+    "4.08#5"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_signature_trace",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "心理的署名"
+      ],
+      [
+       "ital",
+       "(Behavioral Signature)"
+      ],
+      [
+       "ital",
+       "物理的痕跡とともに犯罪者に残るもの"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-17",
+   "act": 4,
+   "start": 1535.35,
+   "end": 1559.42,
+   "role": "H",
+   "sentences": [
+    "4.08#6",
+    "4.08#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_brain_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "古典作品へのひらめき："
+      ],
+      [
+       "bold",
+       "羊たちの沈黙 ＆ MINDHUNTER"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-18",
+   "act": 4,
+   "start": 1559.42,
+   "end": 1561.22,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第5幕"
+      ],
+      [
+       "bold",
+       "判決、赤い警鐘の教訓＆終幕"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "5-01",
+   "act": 5,
+   "start": 1561.22,
+   "end": 1568.97,
+   "role": "H",
+   "sentences": [
+    "5.02#1"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t2_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "1973年10月23日"
+      ],
+      [
+       "ital",
+       "サンタ・クルーズ郡高等裁判所"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Búa gõ (SFX `5.01`) ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-02",
+   "act": 5,
+   "start": 1568.97,
+   "end": 1608.78,
+   "role": "H",
+   "sentences": [
+    "5.02#2",
+    "5.02#3",
+    "5.02#4"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t3_courtroom_1973",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "検察官Peter Chang"
+      ],
+      [
+       "bold",
+       "8件の判決を同時執行"
+      ],
+      [
+       "ital",
+       "Harry Brauer判事"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "判決8件を同時執行"
+   ],
+   "beat_text": "Dấu mộc ở \"判決8件を同時執行\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-03",
+   "act": 5,
+   "start": 1608.78,
+   "end": 1626.04,
+   "role": "H",
+   "sentences": [
+    "5.02#5",
+    "5.02#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_courtroom_1973",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "司法史上例のない要求："
+      ],
+      [
+       "ital",
+       "拷問によって死ぬまで処刑される死刑"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-04",
+   "act": 5,
+   "start": 1626.04,
+   "end": 1657.52,
+   "role": "H",
+   "sentences": [
+    "5.02#7",
+    "5.02#8",
+    "5.02#9",
+    "5.02#10"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t3_life_sentence",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "CMFバカビル · 赦免申請は10回を超えて却下 · 次回は2031年"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-05",
+   "act": 5,
+   "start": 1657.52,
+   "end": 1670.87,
+   "role": "H",
+   "sentences": [
+    "5.02#11",
+    "5.02#12"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_life_sentence",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "社会は、いかなる形でも私を受け入れる準備ができていません。 そのことについて彼らを責めるつもりはありません。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-06",
+   "act": 5,
+   "start": 1670.87,
+   "end": 1672.67,
+   "role": null,
+   "sentences": [],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_life_sentence",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "社会は、いかなる形でも私を受け入れる準備ができていません。 そのことについて彼らを責めるつもりはありません。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-05"
+  },
+  {
+   "id": "5-07",
+   "act": 5,
+   "start": 1672.67,
+   "end": 1691.65,
+   "role": "H",
+   "sentences": [
+    "5.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_red_flags",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "4つの赤い警告"
+      ],
+      [
+       "ital",
+       "(Red Flags)"
+      ],
+      [
+       "ital",
+       "暴力的な人格の初期形成を早期に発見する"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C+D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-08",
+   "act": 5,
+   "start": 1691.65,
+   "end": 1711.46,
+   "role": "C",
+   "sentences": [
+    "5.05#1",
+    "5.05#2",
+    "5.05#3"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_red_flags",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "兆候01：Macdonald Triad"
+      ],
+      [
+       "ital",
+       "意図的な動物虐待 · 放火癖 · 異常に長引く遺尿"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-09",
+   "act": 5,
+   "start": 1711.46,
+   "end": 1733.25,
+   "role": "C",
+   "sentences": [
+    "5.05#4",
+    "5.05#5",
+    "5.05#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_small_bed",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "動物虐待の反復"
+      ],
+      [
+       "ital",
+       "10歳で飼い猫を虐待 · 3年後に別の猫でも繰り返す"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-10",
+   "act": 5,
+   "start": 1733.25,
+   "end": 1754.98,
+   "role": "C",
+   "sentences": [
+    "5.05#7",
+    "5.05#8"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_basement_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "兆候02：極端な心理的虐待"
+      ],
+      [
+       "ital",
+       "閉ざされた空間に隔離 · 長期にわたり人の尊厳を踏みにじること"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-11",
+   "act": 5,
+   "start": 1754.98,
+   "end": 1772.08,
+   "role": "D",
+   "sentences": [
+    "5.06#1",
+    "5.06#2"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_fantasy_spiral",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "兆候03：現実から切り離された暴力の幻想世界"
+      ],
+      [
+       "ital",
+       "支配の幻想 · 武器の収集 · 病的な研究に没頭"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-12",
+   "act": 5,
+   "start": 1772.08,
+   "end": 1795.79,
+   "role": "D",
+   "sentences": [
+    "5.06#3",
+    "5.06#4"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_self_observation",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "兆候04：高い知性と冷たさ"
+      ],
+      [
+       "ital",
+       "Shallow Affect — 自己防御としての理屈"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-13",
+   "act": 5,
+   "start": 1795.79,
+   "end": 1797.59,
+   "role": null,
+   "sentences": [],
+   "template": "T9",
+   "variant": "",
+   "bg": "t3_self_observation",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "兆候04：高い知性と冷たさ"
+      ],
+      [
+       "ital",
+       "Shallow Affect — 自己防御としての理屈"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Nhạc piano dâng lên nhẹ nhàng",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-12"
+  },
+  {
+   "id": "5-14",
+   "act": 5,
+   "start": 1797.59,
+   "end": 1824.8,
+   "role": "H",
+   "sentences": [
+    "5.08#1",
+    "5.08#2",
+    "5.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_closing_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "人間味に富んだ細部："
+      ],
+      [
+       "ital",
+       "刑務所の看守 · 警察副署長Bruce Colomy"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-15",
+   "act": 5,
+   "start": 1824.8,
+   "end": 1841.74,
+   "role": "H",
+   "sentences": [
+    "5.08#4",
+    "5.08#5"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t3_courtroom_1973",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "私にとって、かつて持っていたかった父親です"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-16",
+   "act": 5,
+   "start": 1841.74,
+   "end": 1867.75,
+   "role": "H",
+   "sentences": [
+    "5.08#6",
+    "5.08#7",
+    "5.08#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_gift_drowned",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "天才的な脳と卓越した体力"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "ital",
+       "虐待と憎悪に満ちた水槽に沈められ、凶悪な破壊兵器へ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-17",
+   "act": 5,
+   "start": 1867.75,
+   "end": 1893.87,
+   "role": "H",
+   "sentences": [
+    "5.08#9",
+    "5.08#10",
+    "5.08#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_life_sentence",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "悪を鉄格子の向こうに閉じ込めるのは法の責任"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 11,
+     "elems": [
+      [
+       "ital",
+       "子どもの心の傷を家庭内で認め、守り、癒すことこそ唯一の方法"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-18",
+   "act": 5,
+   "start": 1893.87,
+   "end": 1895.17,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_life_sentence",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "悪を鉄格子の向こうに閉じ込めるのは法の責任"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 11,
+     "elems": [
+      [
+       "ital",
+       "子どもの心の傷を家庭内で認め、守り、癒すことこそ唯一の方法"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-17"
+  },
+  {
+   "id": "5-19",
+   "act": 5,
+   "start": 1895.17,
+   "end": 1909.55,
+   "role": "H",
+   "sentences": [
+    "5.10#1",
+    "5.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_closing_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "専門家とリスナーへの感謝"
+      ],
+      [
+       "ital",
+       "犯罪心理学の分析ファイル"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-20",
+   "act": 5,
+   "start": 1909.55,
+   "end": 1918.91,
+   "role": "H",
+   "sentences": [
+    "5.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t3_brain_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "愛を絶やさず、子どもに耳を傾けよう"
+      ],
+      [
+       "ital",
+       "次の『犯罪心理学の解剖』エピソードでまたお会いしましょう"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-21",
+   "act": 5,
+   "start": 1918.91,
+   "end": 1927.91,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "t3_closing_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "AMBER EYES"
+      ],
+      [
+       "ital",
+       "次回のエピソードをお楽しみに"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Đóng hồ sơ, tắt cassette, cello fade out",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  }
+ ]
+}
