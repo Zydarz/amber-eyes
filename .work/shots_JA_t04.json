@@ -1,0 +1,4155 @@
+{
+ "total": 1581.79,
+ "shots": [
+  {
+   "id": "1-00",
+   "act": 1,
+   "start": 20.5,
+   "end": 22.8,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_somerset_exterior",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第1幕 · つかみ――模範の看護師の逆説"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng còi cấp cứu, máy thở ICU",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-01",
+   "act": 1,
+   "start": 22.8,
+   "end": 29.62,
+   "role": "H",
+   "sentences": [
+    "1.03#1",
+    "1.03#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t4_somerset_exterior",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2003年秋"
+      ],
+      [
+       "ital",
+       "Somerset Medical Center"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "ニュージャージー州ソマービル町"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gõ từng ký tự",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-02",
+   "act": 1,
+   "start": 29.62,
+   "end": 39.29,
+   "role": "H",
+   "sentences": [
+    "1.03#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_icu_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "第ICU（集中治療室）"
+      ],
+      [
+       "ital",
+       "冷たい白い蛍光灯の光に満ちた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-03",
+   "act": 1,
+   "start": 39.29,
+   "end": 48.99,
+   "role": "H",
+   "sentences": [
+    "1.03#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_cullen_silhouette",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "43歳の男"
+      ],
+      [
+       "ital",
+       "痩身で声も小さく"
+      ],
+      [
+       "ital",
+       "温和な笑顔"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "同僚の代わりに夜勤を引き受ける"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-04",
+   "act": 1,
+   "start": 48.99,
+   "end": 50.29,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_cullen_silhouette",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "43歳の男"
+      ],
+      [
+       "ital",
+       "痩身で声も小さく"
+      ],
+      [
+       "ital",
+       "温和な笑顔"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "同僚の代わりに夜勤を引き受ける"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-03"
+  },
+  {
+   "id": "1-05",
+   "act": 1,
+   "start": 50.29,
+   "end": 57.92,
+   "role": "H",
+   "sentences": [
+    "1.05#1"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t4_nurse_station",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "高圧な医療環境"
+      ],
+      [
+       "bold",
+       "生と死の境目"
+      ],
+      [
+       "ital",
+       "信頼できる同僚"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "生と死の境目"
+   ],
+   "beat_text": "ở \"生と死の境目\"",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-06",
+   "act": 1,
+   "start": 57.92,
+   "end": 76.37,
+   "role": "H",
+   "sentences": [
+    "1.05#2",
+    "1.05#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_code_blue_aftermath",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "真っ先に駆けつけて助け"
+      ],
+      [
+       "ital",
+       "蘇生が奏功しなかった後には病室を片づけた"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "同僚たちの信頼と愛着"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng sốc tim & flatline",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-07",
+   "act": 1,
+   "start": 76.37,
+   "end": 87.79,
+   "role": "N1",
+   "sentences": [
+    "1.07#1",
+    "1.07#2"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t4_breakroom_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "私たち看護師全員にとって、Charlieは素晴らしい友人でした。"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "quote",
+       "彼は親切で気を配り、苛立つこともなく、患者には常に細やかな思いやりを注いでいました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-08",
+   "act": 1,
+   "start": 87.79,
+   "end": 102.98,
+   "role": "N1",
+   "sentences": [
+    "1.07#3",
+    "1.07#4"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t4_breakroom_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "夜勤が過酷で疲れているとき、彼は自分から、最も苦労の多い仕事を何の不平も言わずに引き受けました。"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "quote",
+       "病院の中で、彼のように親切で献身的な同僚を疑う者は一人もいませんでした。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-09",
+   "act": 1,
+   "start": 102.98,
+   "end": 111.63,
+   "role": "H",
+   "sentences": [
+    "1.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_corridor_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "真っ白な白衣の奥で"
+      ],
+      [
+       "ital",
+       "幽霊のような死神が病院の各廊下を静かに歩いていた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-10",
+   "act": 1,
+   "start": 111.63,
+   "end": 138.92,
+   "role": "H",
+   "sentences": [
+    "1.08#2",
+    "1.08#3",
+    "1.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_patient_room_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "68歳の司祭 FLORIAN GALL"
+      ],
+      [
+       "ital",
+       "肺炎と感染に伴う合併症で入院"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "順調に回復し退院の準備"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "bold",
+       "劇的な不整脈を発し、心停止に至った"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-11",
+   "act": 1,
+   "start": 138.92,
+   "end": 154.99,
+   "role": "H",
+   "sentences": [
+    "1.10#1"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t4_toxicology_lab",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "法医学の毒性物質検査結果"
+      ],
+      [
+       "bold",
+       "安全域を数十倍も上回るDIGOXIN濃度"
+      ],
+      [
+       "ital",
+       "心臓を補助するきわめて強力な薬"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "安全域を数十倍も上回っている"
+   ],
+   "beat_text": "ở \"安全域を数十倍も上回っている\"",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-12",
+   "act": 1,
+   "start": 154.99,
+   "end": 166.8,
+   "role": "H",
+   "sentences": [
+    "1.10#2",
+    "1.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_digoxin_vial",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "医療上の誤りではない"
+      ],
+      [
+       "ital",
+       "許容上限を数十倍も超える"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "意図的に静脈内へ直接注射された"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "意図的に"
+   ],
+   "beat_text": "ở \"意図的に\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-13",
+   "act": 1,
+   "start": 166.8,
+   "end": 168.6,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_digoxin_vial",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "医療上の誤りではない"
+      ],
+      [
+       "ital",
+       "許容上限を数十倍も超える"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "意図的に静脈内へ直接注射された"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-12"
+  },
+  {
+   "id": "1-14",
+   "act": 1,
+   "start": 168.6,
+   "end": 177.24,
+   "role": "H",
+   "sentences": [
+    "1.12#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_case_file_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "事件の衝撃"
+      ],
+      [
+       "bold",
+       "事件を担当した捜査官の話を聞く"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-15",
+   "act": 1,
+   "start": 177.24,
+   "end": 190.38,
+   "role": "D",
+   "sentences": [
+    "1.14#1",
+    "1.14#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_case_file_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CHARLES CULLENの勤務歴"
+      ],
+      [
+       "ital",
+       "事件担当チームの前に驚愕すべき事実が明らかに"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "Somerset病院は最初の職場ではなかった"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-16",
+   "act": 1,
+   "start": 190.38,
+   "end": 216.04,
+   "role": "D",
+   "sentences": [
+    "1.14#3",
+    "1.14#4"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t4_ten_hospitals_map",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "16年間：9つの病院と1つの老人ホーム"
+      ],
+      [
+       "ital",
+       "夜勤中に心停止で異常死亡する割合が跳ね上がっていた"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "老人ホーム",
+    "跳ね上がって"
+   ],
+   "beat_text": "ở \"老人ホーム\" · ở \"跳ね上がって\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-17",
+   "act": 1,
+   "start": 216.04,
+   "end": 242.51,
+   "role": "D",
+   "sentences": [
+    "1.14#5",
+    "1.14#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_ten_hospitals_map",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "自供：40人"
+      ],
+      [
+       "ital",
+       "疫学専門家の見積もり：300から400人"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "bold",
+       "アメリカ医療史で最も多くの命を奪った殺人者"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-18",
+   "act": 1,
+   "start": 242.51,
+   "end": 274.23,
+   "role": "H",
+   "sentences": [
+    "1.16#1",
+    "1.16#2",
+    "1.16#3"
+   ],
+   "template": "T10",
+   "variant": "",
+   "bg": "t4_somerset_exterior",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "死の天使"
+      ],
+      [
+       "ital",
+       "隠された神のコンプレックス · 9つの病院にまたがる組織的な沈黙の秘密"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tên tập ở cuối",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-19",
+   "act": 1,
+   "start": 274.23,
+   "end": 276.03,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第2幕"
+      ],
+      [
+       "bold",
+       "歪んだ心理のプロファイル――神のコンプレックスと無力感の補償"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "2-01",
+   "act": 2,
+   "start": 276.03,
+   "end": 291.11,
+   "role": "H",
+   "sentences": [
+    "2.02#1",
+    "2.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_sterile_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "無菌の治療室"
+      ],
+      [
+       "ital",
+       "患者が命と絶対的な信頼を託していた場所"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Nhạc piano tối giản",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-02",
+   "act": 2,
+   "start": 291.11,
+   "end": 300.27,
+   "role": "H",
+   "sentences": [
+    "2.02#3"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t4_lethal_trio",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "現代医療が生み出した救命薬を凶器に"
+      ],
+      [
+       "bold",
+       "DIGOXIN、INSULIN、VECURONIUM"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Insulin",
+    "Vecuronium"
+   ],
+   "beat_text": "ở \"Insulin\" · ở \"Vecuronium\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-03",
+   "act": 2,
+   "start": 300.27,
+   "end": 301.57,
+   "role": null,
+   "sentences": [],
+   "template": "T8",
+   "variant": "",
+   "bg": "t4_lethal_trio",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "現代医療が生み出した救命薬を凶器に"
+      ],
+      [
+       "bold",
+       "DIGOXIN、INSULIN、VECURONIUM"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "2-02"
+  },
+  {
+   "id": "2-04",
+   "act": 2,
+   "start": 301.57,
+   "end": 318.3,
+   "role": "H",
+   "sentences": [
+    "2.04#1",
+    "2.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_pyxis_station",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "自動薬剤管理システムの機械的な隙"
+      ],
+      [
+       "ital",
+       "16年間にわたり数百人の命を奪い、痕跡を残さない"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-05",
+   "act": 2,
+   "start": 318.3,
+   "end": 337.4,
+   "role": "D",
+   "sentences": [
+    "2.06#1",
+    "2.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_pyxis_station",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "PYXIS MEDSTATION"
+      ],
+      [
+       "ital",
+       "自動配薬キャビネット"
+      ],
+      [
+       "ital",
+       "個人ごとの暗証番号でログインし患者名を選択"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-06",
+   "act": 2,
+   "start": 337.4,
+   "end": 349.68,
+   "role": "D",
+   "sentences": [
+    "2.06#3",
+    "2.06#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_pyxis_drawer_ajar",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "運用ソフトウェアの重大な脆弱性"
+      ],
+      [
+       "ital",
+       "操作時刻と操作者の身元をすべて記録するシステム"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-07",
+   "act": 2,
+   "start": 349.68,
+   "end": 365.66,
+   "role": "D",
+   "sentences": [
+    "2.06#5",
+    "2.06#6"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t4_pyxis_cancel_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "自分が担当していない患者"
+      ],
+      [
+       "bold",
+       "特別管理薬の高用量取り出し指示"
+      ],
+      [
+       "ital",
+       "DigoxinやInsulin"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "特別管理薬"
+   ],
+   "beat_text": "ở \"特別管理薬\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-08",
+   "act": 2,
+   "start": 365.66,
+   "end": 384.58,
+   "role": "D",
+   "sentences": [
+    "2.06#7",
+    "2.06#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_pyxis_cancel_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "タッチスクリーンの「注文を取り消す」ボタンを押す"
+      ],
+      [
+       "ital",
+       "引き出しが閉じる前に薬瓶を取り出しポケットへ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-09",
+   "act": 2,
+   "start": 384.58,
+   "end": 398.33,
+   "role": "D",
+   "sentences": [
+    "2.06#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_pyxis_cancel_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "取引を「取り消し」として記録"
+      ],
+      [
+       "ital",
+       "電子台帳には取り出された記録が一つも残らない"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-10",
+   "act": 2,
+   "start": 398.33,
+   "end": 414.92,
+   "role": "D",
+   "sentences": [
+    "2.06#10"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_saline_storage",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "生理食塩水バッグ保管庫"
+      ],
+      [
+       "ital",
+       "保管庫のNaClバッグへ過剰量の薬液を注入"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-11",
+   "act": 2,
+   "start": 414.92,
+   "end": 426.26,
+   "role": "D",
+   "sentences": [
+    "2.06#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_syringe_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "誤って投与された患者"
+      ],
+      [
+       "ital",
+       "攻撃源を知らないまま呼吸不全または突然の心停止に陥る"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-12",
+   "act": 2,
+   "start": 426.26,
+   "end": 456.09,
+   "role": "H",
+   "sentences": [
+    "2.07#1",
+    "2.07#2",
+    "2.07#3",
+    "2.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_sterile_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "痕跡を残さない完璧な方法"
+      ],
+      [
+       "ital",
+       "警告のベルはすでにはるか昔から鳴らされていた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-13",
+   "act": 2,
+   "start": 456.09,
+   "end": 487.76,
+   "role": "D",
+   "sentences": [
+    "2.08#1",
+    "2.08#2",
+    "2.08#3"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t4_urgent_memo",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "NJ毒物対策センター長 STEVEN MARCUS博士"
+      ],
+      [
+       "bold",
+       "2003年7月の緊急警告"
+      ],
+      [
+       "ital",
+       "患者に有害な薬物を意図的に注射している"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "緊急警告"
+   ],
+   "beat_text": "ở \"緊急警告\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-14",
+   "act": 2,
+   "start": 487.76,
+   "end": 521.54,
+   "role": "D",
+   "sentences": [
+    "2.08#4",
+    "2.08#5",
+    "2.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_boardroom_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SOMERSET病院の経営陣"
+      ],
+      [
+       "ital",
+       "約3か月にわたり沈黙を保つ · 少なくとも5人の無実の患者が犠牲に"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-15",
+   "act": 2,
+   "start": 521.54,
+   "end": 547.92,
+   "role": "H",
+   "sentences": [
+    "2.10#1",
+    "2.10#2",
+    "2.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_locked_archives",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "なぜ明白な兆候を無視できたのか？"
+      ],
+      [
+       "ital",
+       "他の9つの病院でも発見されることなく転職できた理由"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-16",
+   "act": 2,
+   "start": 547.92,
+   "end": 582.21,
+   "role": "C",
+   "sentences": [
+    "2.11#1",
+    "2.11#2",
+    "2.11#3"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t4_institutional_bystander",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "組織心理学と法社会学"
+      ],
+      [
+       "bold",
+       "制度内の傍観者効果"
+      ],
+      [
+       "ital",
+       "Saint Barnabas病院 1992年：静かに退職することを許した"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "傍観者効果"
+   ],
+   "beat_text": "ở \"傍観者効果\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-17",
+   "act": 2,
+   "start": 582.21,
+   "end": 607.72,
+   "role": "C",
+   "sentences": [
+    "2.11#4",
+    "2.11#5",
+    "2.11#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_institutional_bystander",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Warren病院 1993年：評判の毀損を恐れて事件を閉じる"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "bold",
+       "ST. LUKE病院 2002年：針廃棄箱から多数の指定薬物瓶を発見"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-18",
+   "act": 2,
+   "start": 607.72,
+   "end": 636.02,
+   "role": "C",
+   "sentences": [
+    "2.11#7",
+    "2.11#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_neutral_letter",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "確認の手紙"
+      ],
+      [
+       "ital",
+       "彼の勤務については一切否定的評価をしていない"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "次の病院へ容易に移れるようにした"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-19",
+   "act": 2,
+   "start": 636.02,
+   "end": 666.44,
+   "role": "C",
+   "sentences": [
+    "2.11#9",
+    "2.11#10",
+    "2.11#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_neutral_letter",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "商業化された医療システム"
+      ],
+      [
+       "ital",
+       "時限爆弾を近隣の病院へ渡し、組織の財政上の安定を優先した"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-20",
+   "act": 2,
+   "start": 666.44,
+   "end": 668.24,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第3幕"
+      ],
+      [
+       "bold",
+       "道徳的無効化と被害者の人間性の剥奪"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "3-01",
+   "act": 3,
+   "start": 668.24,
+   "end": 688.35,
+   "role": "H",
+   "sentences": [
+    "3.02#1",
+    "3.02#2",
+    "3.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_god_complex_metaphor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "この男を実際に動かしている動機は何か？"
+      ],
+      [
+       "ital",
+       "冷徹な弁明：「彼らの苦しみを終わらせたかった」"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Nhạc drone trầm đục",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-02",
+   "act": 3,
+   "start": 688.35,
+   "end": 714.06,
+   "role": "H",
+   "sentences": [
+    "3.02#4",
+    "3.02#5",
+    "3.02#6",
+    "3.02#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_god_complex_metaphor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "「安らかな死を授ける慈悲の天使」の肖像"
+      ],
+      [
+       "ital",
+       "極めて有害な病的なコンプレックスを隠す偽りの仮面"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-03",
+   "act": 3,
+   "start": 714.06,
+   "end": 744.27,
+   "role": "C",
+   "sentences": [
+    "3.04#1",
+    "3.04#2",
+    "3.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_childhood_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "重度に分断された人格像"
+      ],
+      [
+       "ital",
+       "童年期の深い傷 · 生後7ヶ月で父を失う"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "17歳のとき母親が交通事故で死亡"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-04",
+   "act": 3,
+   "start": 744.27,
+   "end": 775.81,
+   "role": "C",
+   "sentences": [
+    "3.04#4",
+    "3.04#5",
+    "3.04#6"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t4_rainy_hearse_1977",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "1977年 · 病院が母の遺体を勝手に火葬"
+      ],
+      [
+       "ital",
+       "医療機関に対する深い憤り"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "隠された神のコンプレックス"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-05",
+   "act": 3,
+   "start": 775.81,
+   "end": 777.11,
+   "role": null,
+   "sentences": [],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t4_rainy_hearse_1977",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "1977年 · 病院が母の遺体を勝手に火葬"
+      ],
+      [
+       "ital",
+       "医療機関に対する深い憤り"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "隠された神のコンプレックス"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-04"
+  },
+  {
+   "id": "3-06",
+   "act": 3,
+   "start": 777.11,
+   "end": 795.2,
+   "role": "H",
+   "sentences": [
+    "3.06#1",
+    "3.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_cullen_silhouette",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "病的な代償メカニズム"
+      ],
+      [
+       "ital",
+       "劣等感と無力感に満ちた男が、白衣を着ることで全能感を見出す"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-07",
+   "act": 3,
+   "start": 795.2,
+   "end": 803.54,
+   "role": "C",
+   "sentences": [
+    "3.07#1",
+    "3.07#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_childhood_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "日常生活において"
+      ],
+      [
+       "ital",
+       "Cullenは完全に無力で、目立たない存在だった"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-08",
+   "act": 3,
+   "start": 803.54,
+   "end": 834.06,
+   "role": "C",
+   "sentences": [
+    "3.07#3",
+    "3.07#4",
+    "3.07#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_hypodermic_control",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "集中治療室の夜勤帯"
+      ],
+      [
+       "ital",
+       "たった一本の注射器で、人の生死を左右する絶対的な権力を握る"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "絶対的な権力"
+   ],
+   "beat_text": "ở \"絶対的な権力\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-09",
+   "act": 3,
+   "start": 834.06,
+   "end": 851.65,
+   "role": "H",
+   "sentences": [
+    "3.08#1",
+    "3.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_two_faces_mask",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "「慈悲深い心」から行動していると自らを説得"
+      ],
+      [
+       "ital",
+       "自らの脳でどのように良心を騙したのか？"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-10",
+   "act": 3,
+   "start": 851.65,
+   "end": 895.27,
+   "role": "C",
+   "sentences": [
+    "3.09#1",
+    "3.09#2",
+    "3.09#3",
+    "3.09#4"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t4_two_faces_mask",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第2のメカニズム"
+      ],
+      [
+       "bold",
+       "道徳的中立化技術"
+      ],
+      [
+       "ital",
+       "(Moral Neutralization)"
+      ],
+      [
+       "ital",
+       "深い慈悲の情に訴える自己正当化"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "道徳的中立化技術"
+   ],
+   "beat_text": "ở \"道徳的中立化技術\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-11",
+   "act": 3,
+   "start": 895.27,
+   "end": 944.87,
+   "role": "C",
+   "sentences": [
+    "3.09#5",
+    "3.09#6",
+    "3.09#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_broken_mercy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "自己正当化の仮面を完全に打破"
+      ],
+      [
+       "ital",
+       "通常の手術から回復した21歳のMichael Strenko"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "bold",
+       "人の生死を左右する権力行使への渇望"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-12",
+   "act": 3,
+   "start": 944.87,
+   "end": 966.03,
+   "role": "H",
+   "sentences": [
+    "3.10#1",
+    "3.10#2",
+    "3.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_innocent_files",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CULLENは誰一人も救っていない"
+      ],
+      [
+       "ital",
+       "病弱な患者たちの命を生贄にして、自らの人格危機を鎮めた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-13",
+   "act": 3,
+   "start": 966.03,
+   "end": 967.83,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第4幕"
+      ],
+      [
+       "bold",
+       "捜査官の心理戦と潜入看護師の勇気"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "4-01",
+   "act": 4,
+   "start": 967.83,
+   "end": 980.43,
+   "role": "H",
+   "sentences": [
+    "4.02#1",
+    "4.02#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t4_prosecutor_office",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2003年10月"
+      ],
+      [
+       "ital",
+       "Somerset郡検察局 · 刑事Tim BraunとDanny Baldwin"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng bước chân vội vã",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-02",
+   "act": 4,
+   "start": 980.43,
+   "end": 1010.99,
+   "role": "H",
+   "sentences": [
+    "4.02#3",
+    "4.02#4",
+    "4.02#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_detectives_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "病院経営陣による頑固な沈黙の壁"
+      ],
+      [
+       "ital",
+       "真実への扉を開けられる唯一の人物：看護師Amy Loughren"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-03",
+   "act": 4,
+   "start": 1010.99,
+   "end": 1056.8,
+   "role": "D",
+   "sentences": [
+    "4.04#1",
+    "4.04#2",
+    "4.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_pyxis_printout",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "PYXISアクセスログ"
+      ],
+      [
+       "ital",
+       "数百ページにわたる印刷物"
+      ],
+      [
+       "ital",
+       "心臓病患者に不要な筋弛緩薬Vecuroniumを数十回分引き出す"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-04",
+   "act": 4,
+   "start": 1056.8,
+   "end": 1082.89,
+   "role": "D",
+   "sentences": [
+    "4.04#4",
+    "4.04#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_wire_recorder",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "危険な心筋疾患を抱えながら"
+      ],
+      [
+       "ital",
+       "小型録音機を身につけ、Charles Cullenに接近することを決断"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-05",
+   "act": 4,
+   "start": 1082.89,
+   "end": 1103.42,
+   "role": "N2",
+   "sentences": [
+    "4.06#1",
+    "4.06#2",
+    "4.06#3"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t4_amy_scrubs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "刑事がCharlieの薬剤管理記録を見せてくれたとき、足元の地面が完全に崩れ落ちるようでした。"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "quote",
+       "Charlieは私にとって最も親しい友人で…"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "quote",
+       "しかし、私は看護師です。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-06",
+   "act": 4,
+   "start": 1103.42,
+   "end": 1118.27,
+   "role": "N2",
+   "sentences": [
+    "4.06#4",
+    "4.06#5"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t4_amy_scrubs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "私たちの職業上の誓いは、生命を守ることであり、悪と共謀することではありません。"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "quote",
+       "自分は決して背を向けられないと知っていた。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-07",
+   "act": 4,
+   "start": 1118.27,
+   "end": 1127.87,
+   "role": "H",
+   "sentences": [
+    "4.08#1",
+    "4.08#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t4_somerville_diner",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2003年12月12日"
+      ],
+      [
+       "ital",
+       "ブリッジウォーターのレストラン"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng kéo ghế, dao nĩa",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-08",
+   "act": 4,
+   "start": 1127.87,
+   "end": 1156.53,
+   "role": "H",
+   "sentences": [
+    "4.08#3",
+    "4.08#4",
+    "4.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_diner_table",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "木製のテーブルを挟んで向かい合う"
+      ],
+      [
+       "ital",
+       "Amyは穏やかにCullenに自首を勧めた"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "Cullenは困惑し、目は虚ろになりながらも戦うと宣言"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-09",
+   "act": 4,
+   "start": 1156.53,
+   "end": 1158.33,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_diner_table",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "木製のテーブルを挟んで向かい合う"
+      ],
+      [
+       "ital",
+       "Amyは穏やかにCullenに自首を勧めた"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "Cullenは困惑し、目は虚ろになりながらも戦うと宣言"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "4-08"
+  },
+  {
+   "id": "4-10",
+   "act": 4,
+   "start": 1158.33,
+   "end": 1178.25,
+   "role": "H",
+   "sentences": [
+    "4.11#1",
+    "4.11#2",
+    "4.11#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_parking_arrest",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "駐車場での逮捕"
+      ],
+      [
+       "ital",
+       "捜査官たちが飛び出して制圧し、その場で身柄を拘束"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-11",
+   "act": 4,
+   "start": 1178.25,
+   "end": 1205.62,
+   "role": "D",
+   "sentences": [
+    "4.12#1",
+    "4.12#2",
+    "4.12#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_interrogation_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SOMERSET尋問室"
+      ],
+      [
+       "ital",
+       "石像のように微動だにせず、質問にも答えず24時間座り続ける"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-12",
+   "act": 4,
+   "start": 1205.62,
+   "end": 1226.32,
+   "role": "D",
+   "sentences": [
+    "4.12#4",
+    "4.12#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_warm_sweater",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "決定的な切り札：AMY LOUGHREN"
+      ],
+      [
+       "ital",
+       "警察としてではなく、かつての友人として温かいセーターを渡す"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-13",
+   "act": 4,
+   "start": 1226.32,
+   "end": 1239.92,
+   "role": "D",
+   "sentences": [
+    "4.12#6",
+    "4.12#7"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t4_confession_tape",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Charlie、もし本当に罪を償うつもりなら、被害者家族に答えが得られるようにしてください…"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "Cullenのこけた頬には、涙がながく伝い落ちた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-14",
+   "act": 4,
+   "start": 1239.92,
+   "end": 1277.8,
+   "role": "D",
+   "sentences": [
+    "4.12#8",
+    "4.12#9",
+    "4.12#10",
+    "4.12#11",
+    "4.12#12"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_confession_tape",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "頭を下げて告白した"
+      ],
+      [
+       "ital",
+       "「私はただ、彼らの苦しみに終止符を打てればよかっただけです」"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 12,
+     "elems": [
+      [
+       "bold",
+       "偽りの仮面が崩壊し、16年間の殺人を語り始めた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng còng tay",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-15",
+   "act": 4,
+   "start": 1277.8,
+   "end": 1279.6,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第5幕"
+      ],
+      [
+       "bold",
+       "法廷、制度的沈黙への警鐘、そして終幕"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "5-01",
+   "act": 5,
+   "start": 1279.6,
+   "end": 1285.7,
+   "role": "H",
+   "sentences": [
+    "5.02#1",
+    "5.02#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t4_somerset_courtroom",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2006年3月"
+      ],
+      [
+       "ital",
+       "サマセット郡高等裁判所 · Paul W. Armstrong判事"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-02",
+   "act": 5,
+   "start": 1285.7,
+   "end": 1295.14,
+   "role": "H",
+   "sentences": [
+    "5.02#3",
+    "5.02#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_judge_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "連続する11件の終身刑"
+      ],
+      [
+       "ital",
+       "さらに7件の終身刑が加わり合計18件の終身刑 · 最低刑期397年"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng búa tòa",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-03",
+   "act": 5,
+   "start": 1295.14,
+   "end": 1335.16,
+   "role": "H",
+   "sentences": [
+    "5.02#5",
+    "5.02#6",
+    "5.02#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_trenton_state_prison",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ニュージャージー州立刑務所 (トレントン)"
+      ],
+      [
+       "ital",
+       "外界とは完全に隔絶された場所で服役中"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-04",
+   "act": 5,
+   "start": 1335.16,
+   "end": 1336.46,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_trenton_state_prison",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ニュージャージー州立刑務所 (トレントン)"
+      ],
+      [
+       "ital",
+       "外界とは完全に隔絶された場所で服役中"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-03"
+  },
+  {
+   "id": "5-05",
+   "act": 5,
+   "start": 1336.46,
+   "end": 1361.82,
+   "role": "H",
+   "sentences": [
+    "5.04#1",
+    "5.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_institutional_bystander",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "なぜ16年間も阻止されなかったのか？"
+      ],
+      [
+       "ital",
+       "9つの医療機関を渡り歩き、誰も彼を止めようとしなかった"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-06",
+   "act": 5,
+   "start": 1361.82,
+   "end": 1377.58,
+   "role": "H",
+   "sentences": [
+    "5.04#3",
+    "5.04#4"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t4_cullen_law_doc",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ニュージャージー州が制定"
+      ],
+      [
+       "bold",
+       "CULLEN法"
+      ],
+      [
+       "ital",
+       "医療従事者の説明責任・報告強化法"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Cullen法"
+   ],
+   "beat_text": "ở \"Cullen法\"",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-07",
+   "act": 5,
+   "start": 1377.58,
+   "end": 1407.21,
+   "role": "H",
+   "sentences": [
+    "5.04#5",
+    "5.04#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_red_flags_board",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "医療従事者の重大な不正行為に対する報告義務"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "bold",
+       "組織に潜む捕食者についての4つの赤い警告 (RED FLAGS)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-08",
+   "act": 5,
+   "start": 1407.21,
+   "end": 1423.13,
+   "role": "C",
+   "sentences": [
+    "5.05#1",
+    "5.05#2"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t4_redflag_savior",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "第1の兆候：偽の救済者症候群"
+      ],
+      [
+       "ital",
+       "危機時には最初の一人として現れる一方、仕事ぶりはきわめて曖昧"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-09",
+   "act": 5,
+   "start": 1423.13,
+   "end": 1450.89,
+   "role": "C",
+   "sentences": [
+    "5.05#3",
+    "5.05#4",
+    "5.05#5"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t4_redflag_savior",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "第2の兆候：継ぎはぎの職歴と頻繁な転職"
+      ],
+      [
+       "ital",
+       "短期間の勤務を繰り返して職場を変え、明確な理由を示さずに去る"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-10",
+   "act": 5,
+   "start": 1450.89,
+   "end": 1473.69,
+   "role": "D",
+   "sentences": [
+    "5.06#1",
+    "5.06#2"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t4_redflag_resumes",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "第3の兆候：権限を超えて管理システムを操作する不正行為"
+      ],
+      [
+       "ital",
+       "担当範囲外のデータにアクセスし、保管庫を開けた直後に取り消す"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-11",
+   "act": 5,
+   "start": 1473.69,
+   "end": 1502.8,
+   "role": "D",
+   "sentences": [
+    "5.06#3",
+    "5.06#4"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t4_redflag_resumes",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "第4の兆候：集団の異様な沈黙"
+      ],
+      [
+       "ital",
+       "管理部門が内々で処理し、法的な介入を避け、苦情をなだめようとする"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-12",
+   "act": 5,
+   "start": 1502.8,
+   "end": 1504.6,
+   "role": null,
+   "sentences": [],
+   "template": "T9",
+   "variant": "",
+   "bg": "t4_redflag_resumes",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "第4の兆候：集団の異様な沈黙"
+      ],
+      [
+       "ital",
+       "管理部門が内々で処理し、法的な介入を避け、苦情をなだめようとする"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-11"
+  },
+  {
+   "id": "5-13",
+   "act": 5,
+   "start": 1504.6,
+   "end": 1527.17,
+   "role": "H",
+   "sentences": [
+    "5.08#1",
+    "5.08#2",
+    "5.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_beacon_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "礼節の衣を纏った危険な悪"
+      ],
+      [
+       "ital",
+       "人々の無関心と沈黙の陰に隠れ、数百人の命を奪った"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-14",
+   "act": 5,
+   "start": 1527.17,
+   "end": 1551.83,
+   "role": "H",
+   "sentences": [
+    "5.08#4",
+    "5.08#5",
+    "5.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_beacon_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "生命の聖厳さを守る灯台"
+      ],
+      [
+       "ital",
+       "看護師Amy Loughrenの勇気と、妥協を許さない堅固な意志"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-15",
+   "act": 5,
+   "start": 1551.83,
+   "end": 1553.13,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_beacon_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "生命の聖厳さを守る灯台"
+      ],
+      [
+       "ital",
+       "看護師Amy Loughrenの勇気と、妥協を許さない堅固な意志"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng gấp hồ sơ",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-14"
+  },
+  {
+   "id": "5-16",
+   "act": 5,
+   "start": 1553.13,
+   "end": 1564.39,
+   "role": "H",
+   "sentences": [
+    "5.10#1",
+    "5.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_case_file_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "リスナーの皆様へ心より感謝申し上げます"
+      ],
+      [
+       "ital",
+       "最後までご視聴いただき誠にありがとうございました"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-17",
+   "act": 5,
+   "start": 1564.39,
+   "end": 1571.79,
+   "role": "H",
+   "sentences": [
+    "5.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_case_file_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "常に警戒を怠らず、大切な人の安全を大事に"
+      ],
+      [
+       "ital",
+       "次回の犯罪心理分析ファイルでお会いしましょう"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng tắt máy ghi âm",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-18",
+   "act": 5,
+   "start": 1571.79,
+   "end": 1581.79,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_case_file_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "事件記録 第04話 · 終了"
+      ],
+      [
+       "bold",
+       "AMBER EYES"
+      ],
+      [
+       "ital",
+       "実際の事件記録から読み解く犯罪心理学"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Nhạc fade out",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  }
+ ]
+}

@@ -284,11 +284,17 @@ def description_ja():
     starts = act_start_times(TL)
     chap = ["00:00 オープニング"] + [f"{mmss(starts[a])} {act_titles[a]}" for a in sorted(starts)]
     sents = {i["id"]: i["text"] for i in TL["items"]}
-    summary = " ".join(sents[k] for k in ED.EP["summary"])
+    summary = ED.EP.get("summary_ja") or " ".join(sents[k] for k in ED.EP["summary"])
     raw_title = ED.EP["title"]
     title = with_brand(raw_title)
     links = verified_links()
     src_text = links if links else "[未確認 — 公開記録の出典リンクを追加してください]"
+    sos_block = ED.EP.get("sos_ja", """🆘 児童虐待に関する相談窓口
+もし虐待を受けている子ども、または虐待の疑いがある子どもに気づいた場合は、
+児童相談所虐待対応ダイヤル「189（いちはやく）」（通話料無料・24時間対応）へご連絡ください。
+緊急の場合は110番または119番通報を行ってください。""")
+    tags = ED.EP.get("hashtags_ja", "")
+    tag_block = ("\n\n" + tags) if tags else ""
     body = f"""{title}
 
 {summary}
@@ -311,10 +317,7 @@ def description_ja():
 📚 参考資料・出典
 {src_text}
 
-🆘 児童虐待に関する相談窓口
-もし虐待を受けている子ども、または虐待の疑いがある子どもに気づいた場合は、
-児童相談所虐待対応ダイヤル「189（いちはやく）」（通話料無料・24時間対応）へご連絡ください。
-緊急の場合は110番または119番通報を行ってください。
+{sos_block}{tag_block}
 """
     (OUT_DIR / "description.txt").write_text(body, encoding="utf-8")
     (OUT_DIR / "mo_ta.txt").write_text(body, encoding="utf-8")

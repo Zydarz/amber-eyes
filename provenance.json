@@ -31944,5 +31944,49 @@
   "dieu_khoan": "Kênh tự tạo",
   "kiem_tra_thuong_mai": "đạt",
   "ghi_chu": "câu cuối kết 21:02,710 = 1262,71 s khớp timeline; thẻ kết không có lời"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap05_JA/xuat_ban/Tap05_JA_master.mp3",
+  "loai": "audio master bản tiếng Nhật Tập 05 (1471.4 s ~ 24m31s)",
+  "cong_cu": "Higgs Audio v3 (Kaggle/Apple Silicon) + .work/build_audio3.py",
+  "ngay": "2026-11-04",
+  "prompt": "Giọng mẫu VoxCPM2 JA (H/D/C/N1/N2), kịch bản kichban_tap05_JA.md, chuẩn hoá EBUR128 -16.28 LUFS, TP -2.00 dBFS",
+  "seed": "SHA256 tiền định từng câu theo SID + Role + Ref + Variant",
+  "dieu_khoan": "Kênh tự tạo (Higgs Audio Apache-2.0, VoxCPM2 Apache-2.0, BGM/SFX bản quyền kênh)",
+  "kiem_tra_thuong_mai": "đạt",
+  "ghi_chu": "164 câu, 5 hồi, 0 khoảng câm > 0.3s @ -60 dBFS, khớp 100% kịch bản tiếng Nhật"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap05_JA/xuat_ban/Tap05_JA_master.mp4",
+  "loai": "video master hoàn chỉnh bản tiếng Nhật Tập 05 (1920x1080 30fps, 1471.43 s)",
+  "cong_cu": ".work/build_video3.py --workers 6 + .work/package.py --mux (alimiter=limit=0.63:latency=1)",
+  "ngay": "2026-11-04",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "Kênh tự tạo (Pillow renderer, assets kênh Amber Eyes)",
+  "kiem_tra_thuong_mai": "đạt",
+  "ghi_chu": "83 shot, 44143 khung hình, lệch video vs audio 0.019 s, 0 decode error, LUFS -16.3, TP -3.4 dBFS"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap05_JA/xuat_ban/Tap05_JA.srt",
+  "loai": "phụ đề tiếng Nhật Tập 05 (179 cue)",
+  "cong_cu": ".work/subtitles.py — trích xuất từ timeline_s_JA_t05.json",
+  "ngay": "2026-11-04",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "Kênh tự tạo",
+  "kiem_tra_thuong_mai": "đạt",
+  "ghi_chu": "UTF-8 không BOM, 179 cue, khớp từng miligiây với master audio"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap05_JA/xuat_ban/thumbnail.png",
+  "loai": "thumbnail YouTube bản tiếng Nhật Tập 05 (1280x720 PNG)",
+  "cong_cu": ".work/package.py thumbnail()",
+  "ngay": "2026-11-04",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "Kênh tự tạo (ảnh nền t5_purple_floppy_disk, phông YuGothB)",
+  "kiem_tra_thuong_mai": "đạt",
+  "ghi_chu": "Chữ: 紫色の / フロッピーディスク, tagline kênh 実際の事件記録から読み解く犯罪心理学"
  }
 ]

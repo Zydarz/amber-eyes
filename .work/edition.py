@@ -284,19 +284,26 @@ EPISODES = {
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
         "route_pins": {},                                      # T7 Tập 02: ghim không nhãn (không nêu địa điểm nhà nạn nhân)
-        "thumb": ("ANGEL OF", "DEATH") if EN else ("THIÊN THẦN", "TỬ THẦN"),
+        "thumb": ("ANGEL OF", "DEATH") if EN else ("死の天使", "16年の沈黙") if JA else ("THIÊN THẦN", "TỬ THẦN"),
         "thumb_bg": "t4_somerset_exterior",
         # H9: nen sang o dai chu -> them lop toi mem (chi T04; T01/T02 giu nguyen duong cu)
         "text_scrim": ["1-06", "1-10", "1-15", "1-17", "2-08", "4-03", "4-07", "4-13"],
         "voice_credit": "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio",
-        "mux_af": "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1",
-        "title": ("Ep. 04: The Angel of Death | The Psychology of Charles Cullen (God Complex)"
-                  if EN else "Tập 04: Thiên Thần Tử Thần | Tâm lý học tội phạm: Charles Cullen (Phức cảm Chúa trời)"),
+        "mux_af": ("alimiter=limit=0.63:attack=5:release=50:level=disabled:latency=1" if (EN or JA) else
+                   "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1"),
+        "title": ("Ep. 04: The Angel of Death | The Psychology of Charles Cullen (God Complex)" if EN else
+                  "第04話 · 死の天使と神のコンプレックス――9つの病院を巡った16年の沈黙の裏にある秘密 | チャールズ・カレンの心理学" if JA else
+                  "Tập 04: Thiên Thần Tử Thần | Tâm lý học tội phạm: Charles Cullen (Phức cảm Chúa trời)"),
         "act_titles": ({1: "Act 1 · The Paradox of the Model Nurse",
                         2: "Act 2 · The Deadly Loophole of the Dispensing Machine",
                         3: "Act 3 · Inside the Mind of the Covert God Complex",
                         4: "Act 4 · Interrogation & The Turning Point",
                         5: "Act 5 · The Verdict, Red Flags & Epilogue"} if EN else
+                       {1: "第1幕 · つかみ――模範の看護師の逆説",
+                        2: "第2幕 · 歪んだ心理のプロファイル――神のコンプレックスと無力感の補償",
+                        3: "第3幕 · 道徳的無効化と被害者の人間性の剥奪",
+                        4: "第4幕 · 捜査官の心理戦と潜入看護師の勇気",
+                        5: "第5幕 · 終幕――法廷、制度的沈黙への警鐘、そして終幕"} if JA else
                        {1: "Hồi 1 · Nghịch lý của người y tá mẫu mực", 2: "Hồi 2 · Lỗ hổng chết người của máy phát thuốc",
                         3: "Hồi 3 · Bên trong bộ não của kẻ mang Phức cảm Chúa trời", 4: "Hồi 4 · Đấu trí thẩm vấn và bước ngoặt điều tra",
                         5: "Hồi 5 · Phán quyết, bài học cảnh báo đỏ và lời kết"}),
@@ -313,8 +320,10 @@ EPISODES = {
                  "5.02#3", "5.02#4", "5.02#6", "5.04#4", "5.08#3"],
         "case": "Cullen",
         "n1": (("SOMERSET NURSE", "Night Shift Perspective", "NURSE") if EN else
+               ("ソマーセットの看護師", "夜勤の同僚", "看護師") if JA else
                ("NỮ Y TÁ SOMERSET", "Đồng nghiệp ca đêm", "Y TÁ")),
         "n2": (("AMY LOUGHREN", "ICU Colleague & Whistleblower", "AMY") if EN else
+               ("エイミー・ローレン", "集中治療室の同僚・告発者", "看護師") if JA else
                ("Y TÁ CA ĐÊM", "Nhân vật hình dung", "Y TÁ CA ĐÊM")),
         # ---- bản tiếng Anh: nhãn vai (CHU_CO_DINH_EN.md §3)
         "roles_en": {"H": ("HOST", "Your Narrator"), "D": ("INVESTIGATOR", "Forensic Case Analysis"),
@@ -343,15 +352,21 @@ EPISODES = {
         "combo": {}, "inset": {}, "bg2": {"2-06": "t5_park_trashcan_drop", "2-10": "t5_church_council_altar"},
         "flag_hold_shots": (),
         "route_pins": {},
-        "thumb": ("THE PURPLE", "FLOPPY DISK") if EN else ("CHIẾC ĐĨA MỀM", "MÀU TÍM"),
+        "thumb": ("THE PURPLE", "FLOPPY DISK") if EN else ("紫色の", "フロッピーディスク") if JA else ("CHIẾC ĐĨA MỀM", "MÀU TÍM"),
         "thumb_bg": "t5_purple_floppy_disk",
         "title": ("Ep. 05: The Purple Floppy Disk | The Psychology of BTK Dennis Rader (Compartmentalization)"
-                  if EN else "Tập 05: Chiếc Đĩa Mềm Màu Tím | Tâm lý học tội phạm: BTK Dennis Rader (Sự phân mảnh tâm trí)"),
+                  if EN else "第05話：紫色のフロッピーディスク | BTK デニス・レイダーの心理分析（精神の分断）" if JA else
+                  "Tập 05: Chiếc Đĩa Mềm Màu Tím | Tâm lý học tội phạm: BTK Dennis Rader (Sự phân mảnh tâm trí)"),
         "act_titles": ({1: "Act 1 · The Letter Resurfaces After 13 Years of Silence",
                         2: "Act 2 · The Crime Scene & Psychological Signature of a Two-Faced Predator",
                         3: "Act 3 · Inside the Mind of Malignant Narcissism",
                         4: "Act 4 · The Interrogation & The Digital Forensic Trap",
                         5: "Act 5 · The Verdict, Red Flags & Closing Thoughts"} if EN else
+                       {1: "第1幕 · 13年の沈黙を破る手紙",
+                        2: "第2幕 · 犯罪現場と二面獣の心理的署名",
+                        3: "第3幕 · 心理剖検――歪んだ自己愛の内面",
+                        4: "第4幕 · 尋問の心理戦とフロッピーディスクの罠",
+                        5: "第5幕 · 判決、赤い警報と終幕"} if JA else
                        {1: "Hồi 1 · Bức thư tái xuất sau 13 năm lặng căm", 2: "Hồi 2 · Chữ ký tâm lý của con thú hai mặt",
                         3: "Hồi 3 · Bên trong bộ não ái kỷ ác tính", 4: "Hồi 4 · Đấu trí thẩm vấn và bẫy công nghệ đĩa mềm",
                         5: "Hồi 5 · Phán quyết, bài học cảnh báo đỏ và lời kết"}),
@@ -359,11 +374,20 @@ EPISODES = {
         # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
         "hashtags": "#AmberEyes #TrueCrime #CriminalPsychology #BTK #DennisRader #ForensicFiles #DigitalForensics #TamLyToiPham #PhamVan #HoiTo",
         "summary": ("1.10#5", "3.02#1"),
+        "summary_ja": "30年間にわたり、良き夫、模範的な父親、そして教会の会長として「完全な仮面」を被り続けた連続殺人鬼BTKことDennis Rader。自らの全能感と名声への渇望に駆られ、13年の沈黙を破って警察へ一枚の「紫色のフロッピーディスク」を送りつけたことで、その二重生活は自滅への道をたどります。犯罪心理学者と法執行機関の専門家が、彼を自己破滅へと導いた2つの極端な心理機制――「精神の分断（コンパートメンタライゼーション）」と「肥大化した自己愛（悪性ナルシシズム）」を徹底分析します。",
+        "sos_ja": """🆘 相談窓口・緊急連絡先（日本国内）
+• 警察相談専用電話：#9110（事件事故に至る前のストーカー・嫌がらせ・犯罪被害等の相談窓口）
+• よりそいホットライン：0120-279-338（通話料無料・24時間対応）
+• こころの健康相談統一ダイヤル：0570-064-556
+• 緊急通報：110（警察）、119（消防・救急）""",
+        "hashtags_ja": "#AmberEyes #犯罪心理学 #BTK #デニスレイダー #実録犯罪 #心理分析 #デジタルフォレンジック #フロッピーディスク #事件記録 #プロファイリング",
         "need": [],
         "case": "Rader",
         "n1": (("PARK CITY RESIDENT", "Suburban Neighbor", "RESIDENT") if EN else
+               ("パークシティ住民", "郊外の隣人", "住民") if JA else
                ("NGƯỜI DÂN PARK CITY", "Hàng xóm ngoại ô", "NGƯỜI DÂN")),
         "n2": (("KERRI RAWSON", "Daughter of Dennis Rader", "KERRI") if EN else
+               ("ケリー・ローソン", "デニス・レイダーの実娘", "娘") if JA else
                ("KERRI RAWSON", "Con gái ruột", "KERRI")),
         "roles_en": {"H": ("HOST", "Your Narrator"), "D": ("INVESTIGATOR", "Forensic Case Analysis"),
                      "C": ("PSYCHOLOGIST", "Behavioral Dynamics"),
@@ -401,13 +425,14 @@ EPISODES = {
                    "alimiter=limit=0.7943:attack=5:release=50:level=disabled"),
     },
     "06": {
-        "script": WORK / "script_tap06.json",
-        "dir": "Tap06",
-        "plan": "KeHoach_Video_Tap06.md",
-        "master": "Tap06_master",
-        "srt": "Tap06.srt",
+        "script": WORK / ("script_tap06_EN.json" if EN else "script_tap06.json"),
+        "dir": "Tap06_EN" if EN else "Tap06",
+        "plan": "KeHoach_Video_Tap06_EN.md" if EN else "KeHoach_Video_Tap06.md",
+        "master": "Tap06_EN_master" if EN else "Tap06_master",
+        "srt": "Tap06_EN.srt" if EN else "Tap06.srt",
+        "intro": "intro_kenh_EN_t06.mov" if EN else "intro_kenh.mov",
         "n_element": {"1.09": "N1", "4.04": "N2"},
-        "acting": WORK / "acting_tap06.json",
+        "acting": WORK / ("acting_tap06_EN.json" if EN else "acting_tap06.json"),
         "sfx_sheet": WORK / "sfx_tap06.json",
         "act1_cue": "1.06", "silence_cue": "1.05", "click_cues": ("1.08", "4.03"),
         "bed": {1: "bgm_piano_minimal.mp3", 2: "bgm_ambient_deep.mp3",
@@ -416,19 +441,23 @@ EPISODES = {
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
         "route_pins": {},
-        "thumb": ("NỤ CƯỜI CHÚ HỀ", "29 BÍ MẬT DƯỚI SÀN"),
+        "thumb": ("THE CLOWN'S SMILE", "& 29 SECRETS") if EN else ("NỤ CƯỜI CHÚ HỀ", "29 BÍ MẬT DƯỚI SÀN"),
         "thumb_bg": "t6_clown_mirror_chiaroscuro",
-        "title": "Tập 06: Nụ Cười Chú Hề | Tâm lý học tội phạm: John Wayne Gacy (ASPD)",
-        "act_titles": {1: "Hồi 1 · Bức ảnh với Đệ nhất phu nhân và cậu bé hiệu thuốc", 2: "Hồi 2 · Cuộc đấu trí trên đường phố Des Plaines",
-                       3: "Hồi 3 · Khoảng không gian tối dưới nền nhà Summerdale", 4: "Hồi 4 · Vở kịch đa nhân cách và lời nói dối bệnh lý",
-                       5: "Hồi 5 · Tôi là nạn nhân thứ 34 và bài học về mặt nạ ái kỷ"},
-        # Hashtag dòng cuối mô tả YouTube (bản tiếng Việt). Bản EN có sẵn trong
-        # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
+        "title": ("Ep. 06: The Clown’s Smile & 29 Secrets Under the Floor | The Psychology of John Wayne Gacy (ASPD)"
+                  if EN else "Tập 06: Nụ Cười Chú Hề | Tâm lý học tội phạm: John Wayne Gacy (ASPD)"),
+        "act_titles": ({1: "Act 1 · The Photograph with the First Lady and the Pharmacy Boy",
+                        2: "Act 2 · The Cat-and-Mouse Game on the Streets of Des Plaines",
+                        3: "Act 3 · The Dark Void Under the Summerdale Floorboards",
+                        4: "Act 4 · The Multiple Personality Drama and Pathological Lies",
+                        5: "Act 5 · 'I Am the 34th Victim' and the Lesson of the Narcissistic Mask"}
+                       if EN else
+                       {1: "Hồi 1 · Bức ảnh với Đệ nhất phu nhân và cậu bé hiệu thuốc",
+                        2: "Hồi 2 · Cuộc đấu trí trên đường phố Des Plaines",
+                        3: "Hồi 3 · Khoảng không gian tối dưới nền nhà Summerdale",
+                        4: "Hồi 4 · Vở kịch đa nhân cách và lời nói dối bệnh lý",
+                        5: "Hồi 5 · Tôi là nạn nhân thứ 34 và bài học về mặt nạ ái kỷ"}),
         "hashtags": "#TrueCrime #CriminalPsychology #JohnWayneGacy #TheKillerClown #ForensicPsychology #Documentary #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
         "summary": ("1.02#1", "3.07#1"),
-        # 02/11/2026: 58 mốc dữ kiện đã đối chiếu nguồn công khai (bảng nguồn:
-        # 02_SAN_XUAT/Tap06/nguon_tham_khao.md — 20 nguồn, mọi URL đã kiểm chứng
-        # HTTP 200). 7 mốc gắn mức ⚠ cần người dùng duyệt lại (xem cột "Ghi chú").
         "need": ["1.02#1", "1.02#2", "1.02#4", "1.02#5", "1.02#6", "1.06#1", "1.06#2",
                  "1.06#3", "1.06#4", "1.06#7", "1.08#1", "1.08#3", "1.08#6", "1.09#1",
                  "1.09#2", "1.11#2", "1.13#1", "1.14#2", "1.16#1", "2.03#1", "2.03#2",
@@ -438,13 +467,14 @@ EPISODES = {
                  "3.12#1", "3.12#2", "3.12#3", "3.12#4", "4.03#2", "4.03#3", "4.05#1",
                  "4.07#1", "4.08#2", "4.10#1", "4.10#2", "5.02#1", "5.02#3", "5.02#4",
                  "5.04#1", "5.04#2"],
-        "case": "Gacy", "n1": ("KIM BYERS", "Nhân viên hiệu thuốc", "KIM"),
-        "n2": ("MIKE ALBRECHT", "Sĩ quan theo dõi Des Plaines", "ALBRECHT"),
+        "case": "Gacy",
+        "n1": (("KIM BYERS", "Pharmacy coworker", "KIM") if EN else
+               ("KIM BYERS", "Nhân viên hiệu thuốc", "KIM")),
+        "n2": (("MIKE ALBRECHT", "Des Plaines surveillance officer", "ALBRECHT") if EN else
+               ("MIKE ALBRECHT", "Sĩ quan theo dõi Des Plaines", "ALBRECHT")),
         "cast": None,
-        # A11 #64: chuoi limiter co latency=1 -> khong lech audio-video 5 ms,
-        # khong co burst full-scale, true peak -1,8 dBFS tren chinh file mp4.
-        "mux_af": "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1",
-        # QUY_TAC_AUDIO_HIGGS §2: bat buoc ghi cong Higgs trong mo ta YouTube.
+        "mux_af": ("alimiter=limit=0.63:attack=5:release=50:level=disabled:latency=1" if EN else
+                   "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1"),
         "voice_credit": "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio",
     },
     "07": {

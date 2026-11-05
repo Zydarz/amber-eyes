@@ -44,7 +44,7 @@ Mỗi bước chỉ làm khi bước trước **ĐẠT**. Lệnh cụ thể: ti�
 
 | Bước | Việc | ĐẠT khi |
 |---|---|---|
-| 1 | **Duyệt kịch bản** (mục 3) | Mọi dữ kiện về người thật đã đối chiếu nguồn công khai; 0 lỗi V9; người dùng duyệt |
+| 1 | **Duyệt kịch bản** (mục 3) | Mọi dữ kiện về người thật đã đối chiếu nguồn công khai; 0 lỗi V9; đạt đủ Hệ sinh thái 10 chỉ dấu tâm lý & hành vi (tiêu chuẩn A2c, K10); người dùng duyệt |
 | 2 | Tách kịch bản `parse_kichban.py` | Số câu, N1/N2 đúng như bảng Phụ lục A của hồ sơ tập |
 | 3 | Diễn xuất `make_acting_tapXX.py` | Lời đọc khớp từng chữ với câu gốc (mục 4, G6) |
 | 4 | Đọc giọng `tts_sentences.py` | Đủ 100% câu |
@@ -73,6 +73,7 @@ Mỗi bước chỉ làm khi bước trước **ĐẠT**. Lệnh cụ thể: ti�
 | K7 | **Số, ký hiệu viết bằng chữ khi có thể** (%, km, $, số La Mã). Script tự đổi số sang chữ khi đọc (G11), nhưng ký hiệu thì không |
 | K8 | **Kiểm logic nội bộ:** cộng số (17 + 61 ≠ 82), đếm ngày (4/2 → 7/2 là 3 ngày), mâu thuẫn trước–sau, vai tự mời chính mình |
 | K9 | Định dạng kịch bản theo tiêu chuẩn A2. Tên riêng có viết tắt có dấu chấm ("Robert F. Scott") sẽ bị tách câu sai → viết "Robert Scott" |
+| K10 | **Hệ sinh thái 10 chỉ dấu tâm lý bắt buộc (tiêu chuẩn A2c):** Kịch bản PHẢI làm rõ: (1) Ảnh hưởng & sự quan tâm xã hội; (2) Cách hung thủ nhìn nạn nhân & vì sao; (3) Cách hung thủ nhìn người thân & chia ngăn; (4) Thái độ trước bản án; (5) Hệ thống tự bào chữa; (6) Ngòi nổ & điểm gãy tâm lý; (7) Dấu ấn Signature vs. Thủ đoạn MO; (8) Quỹ đạo leo thang ảo tưởng; (9) Hiệu ứng hào quang & điểm mù xã hội; (10) Nạn nhân học & cảnh báo đỏ sinh tồn. Tuyệt đối không biến kịch bản thành phóng sự phá án thuần túy |
 
 ---
 

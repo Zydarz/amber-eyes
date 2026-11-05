@@ -76,6 +76,11 @@ __pycache__/
 # package.py sinh lai thumbnail khi chay lai -> ignore de khong bi track lai
 02_SAN_XUAT/Tap0[12]*/xuat_ban/thumbnail.png
 
+# ---------- Ban copy trung thumbnail (Tap06_EN: Tap06_EN_thumb.png vs thumbnail.png) ----------
+# Chi 1 thumbnail duoc commit, ten chuan la xuat_ban/thumbnail.png (package.py thumbnail()).
+# Ban *_thumb.png trung byte voi no -> khong commit (file van con tren dia).
+02_SAN_XUAT/**/xuat_ban/*_thumb.png
+
 # ---------- Clip tham chieu VoxCPM2 moi cho G9 ----------
 # Ban 48 kHz trung gian nam o .work/voxcpm_raw/ (da bi ignore boi `.work/*` o dong 31).
 # Chi commit ban dong goi 24 kHz trong assets/voice_ref_voxcpm2_g9/

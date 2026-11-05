@@ -31,7 +31,7 @@ Người dùng chỉ cần đưa **kịch bản đúng định dạng A2**. AI l
 | **V6** | **Linh thú là nhân vật minh hoạ**, nhãn *"Nhân vật minh hoạ · giọng đọc AI"* ở lần xuất hiện đầu | Không để người xem hiểu là phỏng vấn thật |
 | **V7** | **Nền vụ án luôn toàn màn hình; linh thú ≤ 20% khung**, chỉ ở góc | Bố cục đã chốt |
 | **V8** | **Mọi tập mở đầu bằng intro kênh 22,41 s; mọi tài sản có dòng trong `provenance.json`** | Nhận diện kênh; hồ sơ khi bị khiếu nại |
-| **V9** | **Trọng tâm là phân tích tâm lý.** Không mô tả chi tiết bạo lực, thương tích, thi thể, cách gây hại — cả lời lẫn hình | Định hướng kênh; giảm rủi ro quảng cáo hạn chế |
+| **V9** | **Trọng tâm là phân tích tâm lý theo 5 trụ cột (A2c).** Không mô tả chi tiết bạo lực, thương tích, thi thể, cách gây hại — cả lời lẫn hình | Định hướng kênh; chiều sâu kịch bản; giảm rủi ro quảng cáo hạn chế |
 
 ## A1. Đầu vào và đầu ra của mỗi tập
 
@@ -110,6 +110,60 @@ Ngoài bản tiếng Việt (nguồn chuẩn), mỗi tập có thể có các **
 - `tts_sentences.py` chỉ đổi số thành chữ cho bản **tiếng Việt** (G11) — bản EN/KO/JA giữ nguyên chữ số.
 
 **QC bản KO:** `py -3 .work/_qc_ko_parity.py <file_vn.md> <file_ko.md>` — phải in `PASS` (đối chiếu hồi, thứ tự element, vai, số câu, số giây nghỉ, mọi con số, tên riêng, tỉ lệ Hangul). Chạy cả 29 tập: `py -3 .work/_qc_ko_all.py`.
+
+### A2c. Hệ sinh thái phân tích tâm lý tội phạm — Bộ 10 chỉ dấu chiều sâu kịch bản
+
+Kênh **Amber eyes** định vị là *phân tích tâm lý tội phạm qua những hồ sơ có thật*, **tuyệt đối không phải là bản tin thời sự, phóng sự điều tra hay bản tóm tắt pháp đình thuần túy**. Một kịch bản chỉ kể diễn biến vụ án, quá trình khám nghiệm và kết quả tuyên án là **CHƯA ĐẠT**.
+
+Mọi kịch bản (bản tiếng Việt gốc và các bản dịch ngôn ngữ EN/JA/KO) **BẮT BUỘC** phải vận dụng **Hệ sinh thái 10 chỉ dấu tâm lý & hành vi** được chia thành 2 nhóm:
+- **Nhóm I: 5 Trụ cột tâm lý cốt lõi** (Định vị chiều sâu nhân văn, đạo đức và tác động xã hội).
+- **Nhóm II: 5 Yếu tố khoa học hành vi bổ trợ** (Giải mã cơ chế phát triển tội ác, dấu ấn tâm thần học và giá trị thức tỉnh thực tiễn).
+
+---
+
+#### 1. Nhóm I: 5 Trụ cột tâm lý cốt lõi
+
+| # | Trụ cột | Bản chất & Chiều sâu cần khai thác | Vị trí khuyến nghị trong 5 hồi |
+|---|---|---|---|
+| 1 | **Ảnh hưởng xã hội & Sự quan tâm của dư luận** | - **Chấn thương tập thể & hoang tưởng xã hội (Collective Trauma & Paranoia):** Cảm giác an toàn bị phá vỡ; người dân hoảng loạn, mua súng, khóa cửa, nghi kỵ lẫn nhau.<br>- **Cơn sốt truyền thông (Media Frenzy):** Xã hội theo dõi, chia rẽ hoặc phẫn nộ tột cùng trước tội ác.<br>- **Khủng hoảng niềm tin & Cải cách thể chế (Institutional Betrayal & Reform):** Sự rạn nứt uy tín của quân đội, cảnh sát, cơ quan quản lý; những cải cách quy trình, điều luật hoặc tiền lệ tư pháp lịch sử sau vụ án. | **Hồi 1** (thiết lập tầm vóc và sức nặng vụ án) & **Hồi 5** (đúc kết di chứng xã hội). |
+| 2 | **Góc nhìn của hung thủ về nạn nhân & Lý do** | - **Vật hóa & Phi nhân hóa (Objectification & Dehumanization):** Nạn nhân không được nhìn nhận như con người có tri giác và gia đình, mà bị giáng cấp thành "đạo cụ" (props), "dự án" (projects), hoặc "công cụ cung cấp sự thỏa mãn ái kỷ" (narcissistic supply).<br>- **Lý do gốc rễ (The Why):** Sự thiếu hụt thấu cảm cảm xúc (Affective Empathy Deficit), khuyết tật Thuyết tâm trí (Theory of Mind), ảo tưởng đặc quyền săn mồi (predatory entitlement). Tiếng khóc van xin không gây trắc ẩn mà kích hoạt sự hưng phấn quyền lực (power arousal). | **Hồi 2** (hành vi hiện trường) & **Hồi 3** (giải phẫu tâm lý). |
+| 3 | **Góc nhìn của hung thủ về người thân & Nghịch lý chia ngăn** | - **Cơ chế Chia ngăn nhận thức (Compartmentalization):** Bộ não tội phạm hai mặt khóa chặt "ngăn gia đình bình thường" và "ngăn bóng tối săn mồi" thành hai thế giới riêng biệt không giao thoa.<br>- **Gia đình là "Lá chắn bình thường hóa" (Shield of Normalcy):** Dùng gia đình để tự thuyết phục mình vẫn là người tốt, hoặc coi người thân là tài sản danh dự cần bảo vệ quyền sở hữu.<br>- **Bi kịch của nạn nhân thứ hai:** Người thân (vợ, con, cha mẹ) bị sụp đổ toàn bộ danh tính khi sự thật bại lộ; nỗi sợ mất mặt trước người thân thường lớn hơn nỗi sợ tòa án. | **Hồi 3** (giải phẫu động cơ) & **Hồi 4** (sự sụp đổ phòng thẩm vấn khi đối diện gia đình). |
+| 4 | **Thái độ của hung thủ trước bản án nhận được** | - **Hối hận giả tạo vs. Tự thương hại bệnh lý (False Remorse vs. Pathological Self-Pity):** Kẻ ái kỷ/thái nhân cách không khóc vì xót thương nạn nhân, mà khóc vì tiếc thương danh vọng, tự do và đặc quyền của chính mình đã tan vỡ (narcissistic collapse).<br>- **Phản ứng trước sự trừng phạt:** Có kẻ ngoan cố chối tội, coi mình là nạn nhân của tư pháp, thách thức đến phút chót; có kẻ tìm cách tự sát hoặc sụp đổ hoàn toàn khi mất quyền kiểm soát.<br>- **Bản án tâm lý:** Tòa án trừng phạt thể xác, nhưng bản án tâm lý phơi bày sự trơ tráo, trống rỗng tột cùng của nhân cách. | **Hồi 5** (Phán quyết & Lời kết). |
+| 5 | **Hệ thống tự bào chữa & Cơ chế trung hòa đạo đức** | - **Kỹ thuật Trung hòa đạo đức (Techniques of Neutralization) & Ngắt kết nối đạo đức (Moral Disengagement):** Cách hung thủ tự lừa dối để vô hiệu hóa lương tri và ngủ ngon mỗi đêm:<br>  + *Đổ lỗi cho nạn nhân (Victim Blaming):* "Cô ta bất cẩn", "Cậu ta vốn muốn chết".<br>  + *Ngoại hóa trách nhiệm (Displacement of Responsibility):* "Do quỷ dữ/Factor X bên trong ép tôi", "Do cấp dưới làm".<br>  + *Giảm thiểu tổn hại (Minimization):* "Tôi chỉ xem trộm thôi", "Tôi chỉ giúp giải thoát".<br>  + *Tự khoác áo thiên thần (Hero Complex):* Đóng vai người mẹ tận tụy, người cứu rỗi.<br>  + *Cưỡng chế hoàn cảnh:* "Cô ta thấy mặt tôi rồi nên ép tôi phải ra tay để tự vệ". | **Hồi 3** (cơ chế nhận thức) & **Hồi 4** (lời khai bào chữa khi đối chất). |
+
+---
+
+#### 2. Nhóm II: 5 Yếu tố khoa học hành vi bổ trợ
+
+| # | Yếu tố hành vi | Bản chất & Chiều sâu cần khai thác | Vị trí khuyến nghị trong 5 hồi |
+|---|---|---|---|
+| 6 | **Ngòi nổ & Điểm gãy tâm lý (Precipitating Stressor & Tipping Point)** | - **Biến cố kích hoạt (Trigger):** Vì sao tội ác bùng phát vào đúng thời điểm đó? Giọt nước nào làm tràn ly?<br>- Khủng hoảng sự nghiệp, đổ vỡ tình cảm, mất quyền kiểm soát, sự sỉ nhục cái tôi, hoặc áp lực thăng tiến vượt ngưỡng chịu đựng đã đánh sập cơ chế ức chế hành vi. | **Hồi 1** (bối cảnh dẫn nhập) & **Hồi 2** (mốc bắt đầu chuỗi hành vi). |
+| 7 | **Dấu ấn tâm lý ("Chữ ký") vs. Thủ đoạn gây án (Signature vs. Modus Operandi)** | - **Thủ đoạn (Modus Operandi - MO):** Cách thức hung thủ làm để gây án và tẩu thoát (găng tay, chọn ban đêm, cắt liên lạc); MO liên tục thay đổi và tiến hóa theo kinh nghiệm.<br>- **Chữ ký tâm lý (Signature):** Hành vi không nhằm phục vụ mục đích trốn thoát, mà để thỏa mãn nhu cầu cảm xúc bệnh lý (chụp ảnh chiến lợi phẩm, các nút thắt dây trói kỳ quặc, trang phục, gửi thư trêu ngươi). Signature là "vân tay linh hồn", không bao giờ thay đổi. | **Hồi 2** (phân tích hiện trường) & **Hồi 3** (giải mã động cơ). |
+| 8 | **Chu kỳ ảo tưởng & Quỹ đạo leo thang (Fantasy Addiction & Escalation Cycle)** | - **Cơ chế dung nạp kích thích (Tolerance Buildup):** Tội ác không xuất hiện tức thì mà leo thang như một cơn nghiện. Hành vi ban đầu (nhìn trộm, lấy trộm vặt, nói dối bệnh lý) chỉ thỏa mãn tạm thời.<br>- Khi não bộ quen liều, hung thủ rơi vào "đói ảo tưởng" (fantasy starvation) và buộc phải nâng ngưỡng liều: từ rình mò $\rightarrow$ đột nhập $\rightarrow$ khống chế $\rightarrow$ hủy diệt mạng sống. | **Hồi 2** (diễn biến leo thang) & **Hồi 3** (quy luật tâm lý học). |
+| 9 | **Hiệu ứng Hào quang & Điểm mù xã hội (Halo Effect & Collective Blindspots)** | - **Hiệu ứng Hào quang (Halo Effect):** Xã hội đánh đồng "Thành đạt/Lịch thiệp/Đạo mạo = Người tốt". Quân phục đại tá, chức danh chủ tịch nhà thờ, danh xưng chính trị gia hay bộ mặt người mẹ hiền trở thành tấm khiên tàng hình hoàn hảo.<br>- **Thành kiến bình thường hóa (Normalcy Bias):** Người xung quanh vô thức lờ đi các dấu hiệu kỳ quặc vì não bộ từ chối tin vào điều kinh hoàng nhất. | **Hồi 1** (vỏ bọc ban đầu) & **Hồi 4** (sự bàng hoàng khi sự thật phơi bày). |
+| 10 | **Nạn nhân học & Tín hiệu cảnh báo đỏ sinh tồn (Victimology & Survival Red Flags)** | - **Nạn nhân học (Victimology):** Phân tích sự bất đối xứng quyền lực và tiêu chí chọn mồi của kẻ săn mồi (sự cô lập xã hội, phụ thuộc cảm xúc, tổn thương tâm lý sẵn có). Tuyệt đối không đổ lỗi nạn nhân; luôn tôn vinh phẩm giá, nỗ lực phản kháng và nhân vị trọn vẹn của nạn nhân.<br>- **Bài học sinh tồn (The Gift of Fear):** Cung cấp giá trị thực tiễn cho người xem: cách lắng nghe trực giác bất an, nhận diện các vi tín hiệu thao túng (phá vỡ ranh giới, làm thân dồn dập, đóng vai nạn nhân, kiểm soát đội lốt chăm sóc). | **Hồi 2** (chân dung nạn nhân) & **Hồi 5** (bài học cảnh giác đời thực). |
+
+---
+
+#### 3. Phân vai thể hiện Hệ sinh thái 10 chỉ dấu
+- **Host (Cú - Trầm ấm, sâu sắc):** Nêu bật bối cảnh chấn động xã hội (1), hiệu ứng hào quang đánh lừa dư luận (9), dẫn dắt các nghịch lý đạo đức, và đúc kết bài học cảnh tỉnh sinh tồn/trực giác cho khán giả (10) ở đầu và cuối tập.
+- **Điều tra viên (Sói - Lạnh lùng, chuẩn xác):** Phân tích rạch ròi giữa thủ đoạn MO và chữ ký Signature (7), ngòi nổ kích hoạt (6), hồ sơ thẩm vấn, phản ứng thực tế của hung thủ với người thân (3), thái độ trước búa tòa (4) và các phát ngôn tự bào chữa nguyên văn (5).
+- **Chuyên gia tâm lý (Cáo - Nhấn mạnh, học thuật):** Bóc trần cơ chế chia ngăn nhận thức (3), quá trình leo thang dung nạp ảo tưởng (8), sự vật hóa và khuyết tật thấu cảm đối với nạn nhân (2), kỹ thuật trung hòa đạo đức (5) và sự sụp đổ của bản ngã ái kỷ (4).
+
+---
+
+#### 4. Cổng kiểm kịch bản (Checklist 10 chỉ dấu trước khi duyệt sản xuất)
+Trước khi chuyển sang bước Diễn xuất (Bước 1b), biên kịch và AI **PHẢI** đối soát và trả lời được 10 câu hỏi:
+- [ ] 1. **Dư chấn xã hội:** Đã làm rõ vụ án gây chấn động, hoang tưởng tập thể hoặc thúc đẩy cải cách thể chế/luật pháp nào chưa?
+- [ ] 2. **Góc nhìn về nạn nhân:** Đã bóc trần hung thủ xem nạn nhân là gì (đạo cụ/dự án) và lý giải gốc rễ thiếu hụt thấu cảm chưa?
+- [ ] 3. **Góc nhìn về người thân:** Đã mổ xẻ cơ chế chia ngăn nhận thức và bi kịch sụp đổ danh tính của người thân chưa?
+- [ ] 4. **Thái độ trước bản án:** Đã phân biệt đúng sự hối hận giả tạo/tự thương hại bản thân so với sự ăn năn chân chính chưa?
+- [ ] 5. **Hệ thống tự bào chữa:** Đã vạch trần các lý lẽ trung hòa đạo đức (đổ lỗi nạn nhân, ngoại hóa trách nhiệm) hung thủ dùng để ru ngủ lương tri chưa?
+- [ ] 6. **Ngòi nổ tâm lý:** Đã chỉ ra biến cố kích hoạt (giọt nước tràn ly) khiến tội ác bùng phát vào đúng thời điểm đó chưa?
+- [ ] 7. **Chữ ký vs. Thủ đoạn:** Đã tách bạch giữa phương thức tẩu thoát (MO) và dấu ấn thỏa mãn nhu cầu cảm xúc bệnh lý (Signature) chưa?
+- [ ] 8. **Quỹ đạo leo thang:** Đã cho thấy chu kỳ phát triển của tội ác từ những hành vi xâm lấn ranh giới nhỏ ban đầu chưa?
+- [ ] 9. **Hiệu ứng hào quang:** Đã lý giải tại sao vỏ bọc đạo mạo/thành đạt lại tạo ra điểm mù che mắt cộng đồng suốt thời gian dài chưa?
+- [ ] 10. **Nạn nhân học & Bài học sinh tồn:** Đã trả lại nhân phẩm cho nạn nhân và đúc kết những tín hiệu cảnh báo đỏ (Red Flags) thực tiễn cho người xem chưa?
 
 ## A3. Quy trình chuẩn — lệnh chạy và thời gian đo được
 
@@ -582,6 +636,8 @@ Lời đầu tiên 22,8–23,5 s; mỗi câu đúng giọng vai (`tts_manifest.j
 | 115 | **Cổng hồi quy tra `EPISODES` bằng `str(ep)` ⇒ mọi lần tra đều TRƯỢT ⇒ cổng báo "không khác biệt" trong khi đã sửa** (Tập 03 JA, 04/11/2026): khoá của `EPISODES` là chuỗi **2 chữ số** (`"01"`…`"29"`) còn mã so sánh dùng `str(ep)` = `"3"` ⇒ `EPISODES.get("3", {})` trả `{}` ⇒ cả bản cũ lẫn bản mới đều `None` ⇒ **"không có khác biệt"** ⇒ dễ tưởng đã sửa đúng. Cùng kiểu: dựng `f"3-{i-1}"` thay vì `f"3-{i-1:02d}"` làm mã không khớp key nào ⇒ **dòng biến mất khỏi bảng mà không ai báo** | Luôn format khoá theo **độ rộng của khoá gốc**: `"%02d" % ep`, `f"{i-1:02d}"`. Sau mỗi lần đánh lại ID: assert (a) mọi ID khớp regex đúng định dạng, (b) **số dòng trước == sau**, (c) `len(set(id)) == len(id)`. Cổng hồi quy phải **in ra giá trị đọc được** (ví dụ `EP03 mux_af = …`), không chỉ in "không khác biệt" — và phải **fail** khi không có khác biệt dù đã kỳ vọng có |
 | 116 | **Cổng "hình không đen" cho INTRO phải là PARITY với intro chuẩn, không phải ngưỡng tuyệt đối** (Tập 03 JA, 04/11/2026): intro có **fade-in đen 0–1,5 s** (và fade-out 21–22,4 s) **cố ý** ⇒ cổng "khung t=1 s không đen" báo FAIL giả. Đối chiếu profile độ sáng 10 mốc thời gian của intro JA với `assets/brand/intro_kenh.mov`: khớp trong sai số **0,45 điểm %** ⇒ đúng thiết kế | Cổng kiểm intro = **so profile độ sáng** (% pixel > 140) của bản mới với bản chuẩn của dự án ở cùng bộ mốc thời gian ⇒ sai lệch ≤ 1,5 điểm %. Đừng dùng ngưỡng "phải sáng" tuyệt đối cho 1,5 s đầu. Cùng nguyên tắc với #65 (khung cuối đen là do renderer mờ dần) — **ngưỡng tuyệt đối phải đi kèm lý do thiết kế** |
 | 117 | **File trong `.work/` có thể bị GHI ĐÈ bởi session khác — phải kiểm hash/mtime ngay trước khi mux** (Tập 03 JA, 03–04/11/2026): lúc 22:24 đọc `timeline_s_JA_t03.json` cho `total` = **1936,71 s**; lúc 22:40:06 file bị **ghi đè hàng loạt** (cùng lúc `build_video3.py`, `edition.py`, `package.py`, `timeline_s_JA_t02/t04`, `shots_EN_t03.json`…) ⇒ `total` = **1927,91 s**. Lệch **8,80 s** toàn video, và mọi mốc thời gian đã đọc trước đó thành sai. Dùng bản 1936,71 sẽ ghép video lệch audio master ⇒ **mất thẻ kết** (A11 #55) | Trước khi mux: in **hash SHA-256 (12 ký tự) + mtime** của `timeline_s_*.json`, `shots_*.json`, `build_video3.py`, `edition.py`, `package.py` ⇒ lưu vào báo cáo. Nếu timeline có **nhiều bản**, chọn bản khớp audio master: **đo bằng ASR** (upload audio tạm → `connector__matrix__listen_audio`) và so **nhiều mốc rải rác** (22 mốc / 0–1910 s) — bản 1927,91 khớp tuyệt đối (lệch TB −0,50 s, max +0,10, min −1,36 = sai số timestamp ASR), bản 1936,71 là file stale. Sau khi đọc lại file đã dùng ⇒ **kiểm hash còn nguyên** |
+
+| 118 | **Kịch bản sa đà vào nghiệp vụ phá án thuần túy, thiếu chiều sâu tâm lý và dư chấn xã hội** (Nhận xét người dùng 05/11/2026): video kể đủ tình tiết, pháp y và điều tra nhưng không làm sáng tỏ tác động xã hội, thế giới quan của hung thủ về nạn nhân/người thân, thái độ trước bản án, cơ chế tự bào chữa và các yếu tố hành vi (ngòi nổ, chữ ký, leo thang, hào quang, nạn nhân học) ⇒ video biến thành phóng sự phá án thông thường, mất bản sắc "giải phẫu tâm lý" của kênh | **Tuân thủ Hệ sinh thái 10 chỉ dấu tâm lý & hành vi (A2c) & cổng K10 (AGENTS.md)**: Đối soát đủ 10 câu hỏi cốt lõi trước khi duyệt kịch bản (Nhóm I: 5 trụ cột cốt lõi; Nhóm II: 5 yếu tố khoa học hành vi). Phân vai rõ: Host dẫn dắt dư chấn xã hội/triết lý/cảnh báo sinh tồn; Điều tra viên cung cấp dữ kiện/MO vs Signature/ngòi nổ; Chuyên gia tâm lý mổ xẻ chia ngăn/vật hóa/nghiện ảo tưởng |
 
 ## A12. Cấu hình tập mới — một mục trong `.work/edition.py`
 
