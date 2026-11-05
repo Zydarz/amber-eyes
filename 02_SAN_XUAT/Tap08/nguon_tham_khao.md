@@ -1,11 +1,47 @@
-# NGUỒN THAM KHẢO & ĐỐI CHIẾU DỮ KIỆN — KHI CÁC THIÊN TÀI BỊ TẨY NÃO — THAO TÚNG TÂM LÝ TINH HOA VÀ THẢM HỌA SARIN (VỤ AUM SHINRIKYO & SHOKO ASAHARA)
+# NGUỒN THAM KHẢO & ĐỐI CHIẾU DỮ KIỆN — TẬP 08
 
-Toàn bộ các mốc thời gian, nhân vật, địa danh, quy trình điều tra và phán quyết tư pháp trong hồ sơ vụ án **Aum** đã được đối chiếu chéo với các nguồn tài liệu chính thống của cơ quan điều tra, bản án tòa án và báo chí chính luận có uy tín.
+▸ Hồ sơ tư pháp & cơ quan điều tra Nhật Bản:
+• [1] Tòa án Tối cao Nhật Bản & Tòa án Địa phương Tokyo — Bản án chung thẩm vụ án Aum Shinrikyo và Shoko Asahara:
+  https://www.courts.go.jp/app/hanrei_en/detail?id=968
+• [2] Cơ quan Cảnh sát Quốc gia Nhật Bản (NPA) — Báo cáo tổng kết điều tra thảm họa Sarin Tokyo:
+  https://www.npa.go.jp/english/bureau/security/aum.html
+• [3] Bộ Tư pháp Nhật Bản (Ministry of Justice) — Thông cáo chính thức thi hành án tử hình đối với Shoko Asahara và 12 đồng phạm (07/2018):
+  https://www.moj.go.jp/hisho/kouhou/hisho06_00411.html
+• [4] Wikipedia — Toàn cảnh vụ tấn công khí độc tàu điện ngầm Tokyo và giáo phái Aum Shinrikyo:
+  https://en.wikipedia.org/wiki/Tokyo_subway_sarin_attack
 
-| Dữ kiện trong kịch bản | Nội dung đối chiếu kiểm chứng | Nguồn tham chiếu chính thức | Trạng thái |
-|---|---|---|:---:|
-| **Vụ tấn công ga tàu Tokyo** | 20/03/1995, 5 chuyến tàu trên 3 tuyến Chiyoda, Marunouchi, Hibiya; túi Sarin đâm thủng bằng ô; 13 nạn nhân tử vong trực tiếp, hơn 5.800 người bị thương. | Tokyo Metropolitan Police Department, Bộ Giao thông Nhật Bản | **Chính xác 100%** |
-| **Thủ lĩnh Shoko Asahara** | Tên thật Chizuo Matsumoto (sinh 1955), thành lập Aum Shinrikyo 1987; tuyên xưng Đấng Cứu thế giải thoát nghiệp chướng. | National Police Agency (Japan) | **Chính xác 100%** |
-| **Căn cứ Satyam Kamikuishiki** | Quần thể Satyam tại tỉnh Yamanashi; tòa nhà số 7 chứa dây chuyền hóa chất tổng hợp Sarin, VX quy mô công nghiệp. | Hồ sơ đột kích Cảnh sát Nhật Bản ngày 22/03/1995 | **Chính xác 100%** |
-| **Thử nghiệm Matsumoto 1994** | Đêm 27/06/1994, rải Sarin bằng xe tải vào khu thẩm phán tại Matsumoto, làm 8 người chết và hàng trăm người bị thương. | Bản án Tòa án Nagano | **Chính xác 100%** |
-| **Án phạt & Thi hành án** | Tòa án Nhật Bản tuyên 13 án tử hình; Shoko Asahara cùng 6 đồng phạm bị thi hành án treo cổ ngày 06/07/2018. | Bộ Tư pháp Nhật Bản (Ministry of Justice) | **Chính xác 100%** |
+▸ Tác phẩm điều tra chuyên sâu & nghiên cứu học thuật:
+• [5] Haruki Murakami — 'Ngầm' (Underground: The Tokyo Gas Attack and the Japanese Psyche, 1997):
+  https://www.harukimurakami.com/book/underground
+• [6] Robert Jay Lifton — 'Destroying the World to Save It: Aum Shinrikyo, Apocalyptic Violence, and the New Global Terrorism' (1999):
+  https://us.macmillan.com/books/9780805065114/destroyingtheworldtosaveit
+• [7] David E. Kaplan & Andrew Marshall — 'The Cult at the End of the World: The Incredible Story of Aum' (1996):
+  https://www.penguinrandomhouse.com/books/89831/the-cult-at-the-end-of-the-world-by-david-e-kaplan-and-andrew-marshall/
+• [8] Margaret Thaler Singer — 'Cults in Our Midst: The Continuing Fight Against Their Hidden Menace':
+  https://www.wiley.com/en-us/Cults+in+Our+Midst%3A+The+Continuing+Fight+Against+Their+Hidden+Menace-p-9780787967413
+
+▸ Báo chí quốc tế & truyền thông tư liệu:
+• [9] BBC News — Vụ thi hành án tử hình Shoko Asahara và dấu mốc lịch sử tư pháp (06/07/2018):
+  https://www.bbc.com/news/world-asia-44734788
+• [10] The New York Times — Hồ sơ toàn cảnh vụ tấn công Kasumigaseki và phòng thí nghiệm Satyam 7:
+  https://www.nytimes.com/1995/03/21/world/subway-attack-tokyo-poison-gas-attack-tokyo-subway-kills-six-thousands-are-sick.html
+• [11] The Guardian — Bên trong giáo phái ngày tận thế: Cách thức Aum gieo rắc kinh hoàng dưới lòng đất Tokyo:
+  https://www.theguardian.com/world/2018/jul/06/aum-shinrikyo-cult-tokyo-sarin-attack-shoko-asahara
+• [12] NHK World-Japan — Lưu trữ tư liệu lịch sử vụ án tàu điện ngầm Tokyo và cuộc truy quét Kamikuishiki:
+  https://www3.nhk.or.jp/nhkworld/en/news/backstories/168/
+• [13] Asahi Shimbun — Hồ sơ vụ thảm sát gia đình Luật sư Tsutsumi Sakamoto (1989):
+  https://www.asahi.com/special/aum/
+• [14] Mainichi Shimbun — Vụ tấn công sarin thành phố Matsumoto mùa hè năm 1994:
+  https://mainichi.jp/english/articles/20180706/p2a/00m/0na/012000c
+• [15] Reuters — Lời khai và sự hối hận của Bác sĩ Ikuo Hayashi trước Tòa án Tokyo:
+  https://www.reuters.com/article/world/japan-hangs-doomsday-cult-leader-asahara-and-followers-for-sarin-attack-idUSKBN1JW04O/
+• [16] Time Magazine — Chân dung Shoko Asahara và các trí thức tinh hoa bị tẩy não:
+  https://time.com/5331590/japan-shoko-asahara-aum-shinrikyo-execution/
+
+▸ Tâm lý học hành vi & thao túng tâm trí:
+• [17] Steven Hassan — Mô hình BITE về kiểm soát tâm trí trong các tổ chức độc hại (Freedom of Mind Resource Center):
+  https://freedomofmind.com/cult-mind-control/bite-model/
+• [18] Gresham Sykes & David Matza — Lý thuyết Kỹ thuật Trung hòa Đạo đức (Techniques of Neutralization):
+  https://www.jstor.org/stable/2089195
+• [19] Viktor Frankl — 'Ý niệm về sự trống rỗng hiện sinh' (The Existential Vacuum, Man's Search for Meaning):
+  https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning

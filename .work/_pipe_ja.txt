@@ -1,0 +1,45 @@
+﻿=== 1. parse_shots ===
+   161 shot · dài nhất (40.6, '3-30') · ngắn nhất (2.1, '1-17')
+   nền chưa có file: []
+--- rc=0 · 0.1s
+
+=== 2. QC bang shot ===
+   [OK  ] Mọi câu trong timeline có mặt trong bảng shot — thiếu [] · thừa []
+   [OK  ] Không câu nào thuộc hai shot
+   [OK  ] 203 câu được phủ — 203/203
+   [OK  ] Thứ tự shot khớp thứ tự kịch bản — lệch tại vị trí None
+   [OK  ] Cột Vai khớp người nói trong timeline
+   [OK  ] Mọi nền dùng trong shot đều có file
+   [OK  ] Chữ trích dẫn nguyên văn (lược bằng …) trong câu — V3 — 0 lỗi: 
+   [OK  ] Mọi con số trên hình có trong câu — A9.2 — 0 lỗi: 
+   [GHI ] Số là nhãn cấu trúc (hồi/tập/bậc thang), không phải dữ kiện bịa — 2 chỗ: 1-00: “1” là nhãn cấu trúc, 5-36: “02” là nhãn cấu trúc
+   [OK  ] Không từ cấm / không nhắc hành vi tình dục trên hình — 0 lỗi: 
+   [OK  ] Shot > 15 s có nhịp hoặc bám V2 (chữ hiện ở đầu câu)
+   [GHI ] Ghi nhận về nhịp của shot dài (không phải lỗi nội dung) — 1-07 (17.5s): 1 khoanh — tiêu đề hiện ở đầu câu (đúng V2); 1-12 (15.6s): 1 khoanh — tiêu đề hiện ở đầu câu (đúng V2); 1-30 (15.5s, 2 khoanh) — kế hoạch ghi beat dạng văn xuôi; 1-31 (33.0s): 1 khoanh — tiêu đề hiện ở đầu câu (đúng V2); 1-34 (18.1s, 2 khoanh) — kế hoạch ghi beat dạng văn xuôi; 3-13 (25.2s): 1 khoanh — tiêu đề hiện ở đầu câu (đúng V2); 3-20 (17.9s): 1 khoanh — tiêu đề hiện ở đầu câu (đúng V2); 3-23 (22.8s): 1 khoanh — tiêu đề hiện ở đầu câu (đúng V2)
+   [OK  ] Các shot liền nhau (không hở/chồng)
+   [OK  ] H10: không lặp cùng nền quá 4 shot liên tiếp
+   
+   Tap 02 · BẢN JA · 161 shot · 203 câu · tong 2049.5 s (34:09)
+   Mẫu dùng: T1×83, T4×14, T3×14, T2×12, T9×11, T5×10, T8×10, T10×5, T7×1, T6×1
+   Câu theo vai: C=45, D=53, H=97, N1=4, N2=4
+   Nhãn hồi: 第1幕 · 大佐の階級章の裏にある極端な対比 · 第2幕 · 現場と犯行記録――エスカレーションの深淵 · 第3幕 · 心理の深層解剖――精神の分断と自己正当化 · 第4幕 · 尋問室での心理戦――10時間の仮面の崩壊 · 第5幕 · 判決、心理的結末と生存の警告
+   
+   TAT CA DA DAT
+--- rc=0 · 0.1s
+
+=== 3. Render anh tinh ===
+   stills -> D:\TEST\Gax\amber-eyes\.work\video3_JA_t02\stills
+   [vost#0:0/rawvideo @ 0000013b89bd4800] Error submitting a packet to the muxer: Broken pipe
+       Last message repeated 1 times
+   [out#0/rawvideo @ 0000013b89bf6b80] Error muxing a packet
+   [out#0/rawvideo @ 0000013b89bf6b80] Task finished with error code: -32 (Broken pipe)
+   [out#0/rawvideo @ 0000013b89bf6b80] Terminating thread with return code -32 (Broken pipe)
+   [out#0/rawvideo @ 0000013b89bf6b80] Error writing trailer: Broken pipe
+   [out#0/rawvideo @ 0000013b89bf6b80] Error closing file: Broken pipe
+--- rc=0 · 132.1s
+
+=== 4. Contact sheet ===
+   JA: 18 contact sheet · 161 shot -> D:\TEST\Gax\amber-eyes\.work\qc_t02_ja_20261105\contact_sheet
+--- rc=0 · 18.7s
+
+HOAN TAT

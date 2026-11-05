@@ -3,6 +3,7 @@
 **Standard Applied:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Part A)  
 **Script:** `01_KICH_BAN/Tap03/kichban_tap03_EN.md` · **Release Target:** `02_SAN_XUAT/Tap03_EN/xuat_ban/`  
 **Fixed Text & Cards:** `02_SAN_XUAT/Tap03_EN/CHU_CO_DINH_EN.md`  
+**Update 05/11/2026 (round 2 — re-render stills, 3 languages):** shot table structure unchanged; fixed **`5-02`** — on-screen `8 CONCURRENT LIFE TERMS` → **`EIGHT CONCURRENT LIFE TERMS`** (channel rule: the spoken line says "eight concurrent life terms"); end card `5-21` already complied with H12 and was left as-is; 110 stills re-rendered · 11/11 QC gates pass. Report: `90_LUU_TRU/BaoCao_QC_Tap03_RenderAnhTinh_3NguonNgu_20261105.md`
 
 ## B1. Episode Information
 
@@ -113,7 +114,7 @@
 | 4-17 | `4.08#6`–`#7` | H | T1 | `t3_brain_mirror` | *INSPIRATION FOR MODERN CLASSICS:* **THE SILENCE OF THE LAMBS & MINDHUNTER** | — | 🅑 |  |
 | 4-18 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *ACT 5* · **THE VERDICT, BEHAVIORAL RED FLAGS & FINAL THOUGHTS** | — | ⊘ | ◼ |
 | 5-01 | `5.01`–`5.02#1` | H | T5 ngày | `t2_gavel` | **23 · 10 · 1973** · *Santa Cruz County Superior Court* | Búa gõ (SFX `5.01`) ở đầu | ✦ Cú |  |
-| 5-02 | `5.02#2`–`#4` | H | T2 | `t3_courtroom_1973` | *PROSECUTOR PETER CHANG* · **8 CONCURRENT LIFE TERMS** · *Judge Harry F. Brauer* | Dấu mộc ở "concurrent life terms" |  |  |
+| 5-02 | `5.02#2`–`#4` | H | T2 | `t3_courtroom_1973` | *PROSECUTOR PETER CHANG* · **EIGHT CONCURRENT LIFE TERMS** · *Judge Harry F. Brauer* | Dấu mộc ở "concurrent life terms" |  |  |
 | 5-03 | `5.02#5`–`#6` | H | T1 | `t3_courtroom_1973`, `push` | **AN UNPRECEDENTED REQUEST:** *Demanding capital punishment by being tortured to death* | — | ⊘ |  |
 | 5-04 | `5.02#7`–`#10` | H | T8 | `t3_life_sentence` | *CMF Vacaville · Denied parole over TEN TIMES · Next hearing: 2031* | Mỗi mục ở cụm từ |  |  |
 | 5-05 | `5.02#11`–`#12` | H | T4 lời kể | `t3_life_sentence`, `still` | “Society is not ready for me, in any way, shape, or form. I don’t blame them for that.” | — | ⊘ |  |

@@ -3,6 +3,7 @@
 **Tiêu chuẩn áp dụng:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Phần A)
 **Kịch bản:** `01_KICH_BAN/Tap03/kichban_tap03_22102026.md` · **Thành phẩm:** `02_SAN_XUAT/Tap03/xuat_ban/`
 **Ngày lập:** 23/10/2026 — **Hiệu chỉnh khớp ngữ nghĩa 100%:** 24/10/2026
+**Cập nhật 05/11/2026 (lượt 2 — render lại ảnh tĩnh 3 ngôn ngữ):** bảng shot giữ nguyên cấu trúc; sửa **thẻ kết `5-21`** theo H12 (thêm nhãn *HỒ SƠ TẬP 03 · ĐÃ ĐÓNG* + khẩu hiệu *Phân tích tâm lý tội phạm qua những hồ sơ có thật*, giữ dòng *Đón xem tập tiếp theo*) · 110 ảnh tĩnh render lại · 11/11 cổng QC đạt. Báo cáo: `90_LUU_TRU/BaoCao_QC_Tap03_RenderAnhTinh_3NguonNgu_20261105.md`
 
 ## B1. Thông tin tập
 
@@ -135,7 +136,7 @@
 | 5-18 | `5.09` (nghỉ 1.5 s) | — | — | giữ 5-17 | — | — | ⊘ |  |
 | 5-19 | `5.10#1`–`#2` | H | T1 | `t3_closing_desk` | **CẢM ƠN CÁC CHUYÊN GIA & THÍNH GIẢ** · *Hồ sơ phân tích tâm lý học tội phạm* | — | 🅑 |  |
 | 5-20 | `5.10#3` | H | T1 | `t3_brain_mirror`, `push` | **HÃY LUÔN YÊU THƯƠNG VÀ LẮNG NGHE CON TRẺ** · *Hẹn gặp lại trong tập tiếp theo* | — |  |  |
-| 5-21 | `5.11`–`5.12` (hết tập) | — | T10 | `t3_closing_desk` | **AMBER EYES** · *Đón xem tập tiếp theo* | Đóng hồ sơ, tắt cassette, cello fade out | ⊘ | ◼ |
+| 5-21 | `5.11`–`5.12` (hết tập) | — | T10 | `t3_closing_desk` | *HỒ SƠ TẬP 03 · ĐÃ ĐÓNG* · **AMBER EYES** · *Phân tích tâm lý tội phạm qua những hồ sơ có thật* · *Đón xem tập tiếp theo* | Đóng hồ sơ, tắt cassette, cello fade out | ⊘ | ◼ |
 **Tổng: 110 shot — 93 shot có lời + 17 khoảng nghỉ / chuyển cảnh**
 
 ## Kiểm giọng mẫu Higgs (bộ Tập 02) cho Tập 03 — 31/10/2026

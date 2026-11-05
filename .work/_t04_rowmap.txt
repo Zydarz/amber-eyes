@@ -1,0 +1,306 @@
+dòng cũ: 83 · câu mới: 212 · đã phủ: 138
+câu mới CHƯA có dòng (74): ['1.03#2', '1.03#3', '1.03#4', '1.03#5', '1.03#6', '1.07#5', '1.08#2', '1.08#5', '1.08#6', '1.10#2', '1.12#2', '1.14#3', '1.14#5', '1.14#8', '1.16#4', '1.16#5', '2.02#4', '2.06#5', '2.06#6', '2.06#7', '2.06#8', '2.06#9', '2.06#10', '2.06#11', '2.06#12', '2.06#13', '2.06#14', '2.06#15', '2.08#2', '2.08#3', '2.08#4', '2.08#5', '2.08#6', '2.08#7', '2.11#9', '2.11#10', '3.02#6', '3.04#7', '3.04#8', '3.06#2', '3.06#3', '3.07#2', '3.07#3', '3.07#4', '3.07#6', '3.07#7', '3.07#8', '3.09#4', '3.09#5', '3.09#6', '3.09#7', '3.09#8', '3.09#9', '4.02#7', '4.06#6', '4.11#3', '4.11#4', '4.12#7', '4.12#8', '4.12#9', '4.12#10', '4.12#11', '4.12#12', '5.02#2', '5.02#7', '5.02#8', '5.06#4', '5.06#5', '5.06#6', '5.08#5', '5.08#6', '5.08#7', '5.10#2', '5.10#4']
+
+--- 1-00 el=1.01 spans=[] -> []
+    CHỮ CŨ: *HỒI 01 · NGHỊCH LÝ CỦA NGƯỜI Y TÁ MẪU MỰC*
+    CÂU MỚI: 
+    ⚠ SAI: ['*HỒI 01 · NGHỊCH LÝ CỦA NGƯỜI Y TÁ MẪU MỰC*']
+--- 1-01 el=1.03 spans=[('1.03', 1, 2)] -> [('1.03', 1, 1)]
+    CHỮ CŨ: **MÙA THU NĂM 2003** · *Trung tâm Y tế Somerset* → `#2`: *Thị trấn Somerville · Bang New Jersey*
+    CÂU MỚI: Mùa thu năm 2003.
+    ⚠ SAI: ['*Trung tâm Y tế Somerset*', '*Thị trấn Somerville · Bang New Jersey*']
+--- 1-02 el=1.03 spans=[('1.03', 3, 3)] -> [('1.03', None, None)]
+    CHỮ CŨ: **PHÒNG HỒI SỨC TÍCH CỰC ICU** · *Ánh đèn huỳnh quang trắng lạnh*
+    CÂU MỚI: 
+    ⚠ SAI: ['**PHÒNG HỒI SỨC TÍCH CỰC ICU**', '*Ánh đèn huỳnh quang trắng lạnh*']
+--- 1-03 el=1.03 spans=[('1.03', 4, 4)] -> [('1.03', None, None)]
+    CHỮ CŨ: **NGƯỜI ĐÀN ÔNG 43 TUỔI** · *Dáng người gầy gò · Giọng nói nhỏ nhẹ* → *Sẵn sàng làm thay ca trực cho đồng nghiệp*
+    CÂU MỚI: 
+    ⚠ SAI: ['**NGƯỜI ĐÀN ÔNG 43 TUỔI**', '*Dáng người gầy gò · Giọng nói nhỏ nhẹ*', '*Sẵn sàng làm thay ca trực cho đồng nghiệp*']
+--- 1-04 el=1.04 spans=[] -> []
+    CHỮ CŨ: —
+    CÂU MỚI: 
+--- 1-05 el=1.05 spans=[('1.05', 1, 1)] -> [('1.05', 1, 1)]
+    CHỮ CŨ: *MÔI TRƯỜNG Y TẾ ĐẦY ÁP LỰC* · **RANH GIỚI GIỮA SỰ SỐNG VÀ SỰ RA ĐI** · *Một người đồng nghiệp đáng tin cậy*
+    CÂU MỚI: Trong một môi trường y tế đầy áp lực, nơi ranh giới giữa sự sống và sự ra đi chỉ tính bằng từng giây, Cullen được xem như một chỗ dựa đáng tin cậy.
+    ⚠ SAI: ['*Một người đồng nghiệp đáng tin cậy*']
+--- 1-06 el=1.05 spans=[('1.05', 2, 3)] -> [('1.05', 2, 4)]
+    CHỮ CŨ: **NGƯỜI ĐẦU TIÊN CHẠY ĐẾN PHỤ GIÚP** · *Lặng lẽ dọn dẹp phòng bệnh sau ca cấp cứu* → `#3`: *Sự quý mến và tin tưởng của đồng nghiệp*
+    CÂU MỚI: Hắn luôn là người đầu tiên chạy đến phụ giúp khi có bệnh nhân trở nặng, và lặng lẽ ở lại dọn dẹp phòng bệnh sau những ca cấp cứu thất bại. Đồng nghiệp coi hắn là một người bạn hiền lành, một người cha trầm lặng luôn hết lòng vì công việc. Để hiểu sự quý mến và tin tưởng ấy lớn đến mức nào, hãy hình dung cảm nhận của những người từng kề vai sát cánh cùng hắn qua hàng trăm ca trực đêm.
+    ⚠ SAI: ['*Lặng lẽ dọn dẹp phòng bệnh sau ca cấp cứu*', '*Sự quý mến và tin tưởng của đồng nghiệp*']
+--- 1-07 el=1.07 spans=[('1.07', 1, 2)] -> [('1.07', 1, 2)]
+    CHỮ CŨ: “Trong mắt tất cả y tá chúng tôi, Charlie là một người bạn tuyệt vời.” → `#2`: “Anh ấy chu đáo, không bao giờ cáu gắt và luôn chăm sóc người bệnh vô cùng ân cần.”
+    CÂU MỚI: Trong mắt tất cả y tá chúng tôi tại bệnh viện Somerset, Charlie là một người bạn tuyệt vời. Anh ấy chu đáo, không bao giờ cáu gắt và luôn chăm sóc người bệnh vô cùng ân cần.
+    ⚠ SAI: ['“Trong mắt tất cả y tá chúng tôi, Charlie là một người bạn tuyệt vời.”']
+--- 1-08 el=1.07 spans=[('1.07', 3, 4)] -> [('1.07', 3, 4)]
+    CHỮ CŨ: “Anh ấy luôn chủ động nhận gánh vác những phần việc nặng nhọc nhất mà chẳng một lời than vãn.” → `#4`: “Không một ai trong bệnh viện có thể mảy may nghi ngờ một người đồng nghiệp hiền lành và tận tụy đến như thế.”
+    CÂU MỚI: Khi các ca trực đêm quá tải và mệt mỏi, anh ấy luôn chủ động nhận gánh vác những phần việc nặng nhọc nhất mà chẳng một lời than vãn. Không một ai trong bệnh viện có thể mảy may nghi ngờ một người đồng nghiệp hiền lành và tận tụy đến như thế.
+--- 1-09 el=1.08 spans=[('1.08', 1, 1)] -> [('1.08', 1, 1)]
+    CHỮ CŨ: **ĐẰNG SAU CHIẾC ÁO BLOUSE TRẮNG** · *Bóng ma tử thần âm thầm bước đi qua từng hành lang*
+    CÂU MỚI: Thế nhưng, đằng sau cặp kính cận trí thức và nụ cười hòa nhã ấy, một bóng ma tử thần đang âm thầm gieo rắc bi kịch qua từng hành lang bệnh viện.
+    ⚠ SAI: ['**ĐẰNG SAU CHIẾC ÁO BLOUSE TRẮNG**', '*Bóng ma tử thần âm thầm bước đi qua từng hành lang*']
+--- 1-10 el=1.08 spans=[('1.08', 2, 4)] -> [('1.08', 3, 4)]
+    CHỮ CŨ: **LINH MỤC FLORIAN GALL · 68 TUỔI** · *Nhập viện vì viêm phổi và biến chứng nhiễm trùng* → `#3`: *Không ai nghĩ rằng đó sẽ là những ngày cuối cùng của ngài* → `#4`: **ĐỘT NGỘT RƠI VÀO CƠN LOẠN NHỊP VÀ TRỤY TIM HOÀN TOÀN*
+    CÂU MỚI: Bệnh tình của ngài đang tiến triển rất khả quan và các bác sĩ dự kiến ngài sẽ sớm được xuất viện về nhà. Thế nhưng, chỉ vài giờ sau khi bước vào ca trực đêm của Charles Cullen, vị linh mục đột ngột rơi vào cơn loạn nhịp kịch phát rồi trụy tim hoàn toàn.
+    ⚠ SAI: ['**LINH MỤC FLORIAN GALL · 68 TUỔI**', '*Nhập viện vì viêm phổi và biến chứng nhiễm trùng*', '*Không ai nghĩ rằng đó sẽ là những ngày cuối cùng của ngài*', '**ĐỘT NGỘT RƠI VÀO CƠN LOẠN NHỊP VÀ TRỤY TIM HOÀN TOÀN**']
+--- 1-11 el=1.10 spans=[('1.10', 1, 1)] -> [('1.10', 1, 1)]
+    CHỮ CŨ: *XÉT NGHIỆM ĐỘC CHẤT HỌC PHÁP Y* · **NỒNG ĐỘ DIGOXIN CAO GẤP HÀNG CHỤC LẦN** · *Trong cơ thể vị linh mục*
+    CÂU MỚI: Khi kết quả xét nghiệm độc chất học pháp y được gửi về từ phòng thí nghiệm, các bác sĩ đã kinh hoàng phát hiện nồng độ Digoxin cực cao trong cơ thể vị linh mục.
+    ⚠ SAI: ['**NỒNG ĐỘ DIGOXIN CAO GẤP HÀNG CHỤC LẦN**']
+--- 1-12 el=1.10 spans=[('1.10', 2, 3)] -> [('1.10', 3, 5)]
+    CHỮ CŨ: **KHÔNG PHẢI LÀ MỘT SỰ NHẦM LẪN Y KHOA** → `#3`: **ĐÓ LÀ MỘT HÀNH VI CÓ CHỦ ĐÍCH**
+    CÂU MỚI: Trái tim của vị linh mục đã bị bóp nghẹt bởi một liều độc dược nhân tạo chứ không phải vì bệnh lý tự nhiên. Tiến sĩ Steven Marcus, Giám đốc Hệ thống Thông tin Độc chất New Jersey, đã lập tức gửi cảnh báo khẩn cấp tới ban giám đốc bệnh viện về nguy cơ có kẻ đang đầu độc bệnh nhân. Thế nhưng, thay vì báo cảnh sát, ban lãnh đạo bệnh viện đã chọn cách trì hoãn và giữ kín sự việc suốt nhiều tháng trời.
+    ⚠ SAI: ['**KHÔNG PHẢI LÀ MỘT SỰ NHẦM LẪN Y KHOA**', '**ĐÓ LÀ MỘT HÀNH VI CÓ CHỦ ĐÍCH**']
+--- 1-13 el=1.11 spans=[] -> []
+    CHỮ CŨ: —
+    CÂU MỚI: 
+--- 1-14 el=1.12 spans=[('1.12', 1, 1)] -> [('1.12', 1, 1)]
+    CHỮ CŨ: *QUY MÔ CHẤN ĐỘNG CỦA VỤ ÁN* · **LẮNG NGHE ĐIỀU TRA VIÊN THỤ LÝ HỒ SƠ**
+    CÂU MỚI: Để hiểu rõ quy mô chấn động và bức tranh toàn cảnh của hồ sơ y tế đen tối này, chúng ta hãy lắng nghe phân tích từ Điều tra viên chuyên án.
+    ⚠ SAI: ['*QUY MÔ CHẤN ĐỘNG CỦA VỤ ÁN*', '**LẮNG NGHE ĐIỀU TRA VIÊN THỤ LÝ HỒ SƠ**']
+--- 1-15 el=1.14 spans=[('1.14', 1, 2)] -> [('1.14', 1, 2)]
+    CHỮ CŨ: **LỊCH SỬ CÔNG TÁC CỦA CHARLES CULLEN** · *Một sự thật kinh hoàng mở ra trước mắt ban chuyên án* → `#2`: *Somerset Medical Center không phải là nơi đầu tiên*
+    CÂU MỚI: Khi chúng tôi lật lại lịch sử công tác của Charles Cullen, một bức tranh kinh hoàng đã hiện rõ trước mắt ban chuyên án. Trung tâm Y tế Somerset hoàn toàn không phải là hiện trường đầu tiên.
+    ⚠ SAI: ['*Một sự thật kinh hoàng mở ra trước mắt ban chuyên án*', '*Somerset Medical Center không phải là nơi đầu tiên*']
+--- 1-16 el=1.14 spans=[('1.14', 3, 4)] -> [('1.14', 4, 4)]
+    CHỮ CŨ: *16 NĂM HÀNH NGHỀ: 9 BỆNH VIỆN VÀ 1 VIỆN DƯỠNG LÃO* · *Tỷ lệ tử vong ca đêm tăng vọt theo đồ thị kỳ dị*
+    CÂU MỚI: Ở bất cứ nơi nào hắn đặt chân đến, tỷ lệ bệnh nhân tử vong vì ngưng tim đột ngột vào ca trực đêm đều tăng vọt theo một đồ thị bất thường.
+    ⚠ SAI: ['*16 NĂM HÀNH NGHỀ: 9 BỆNH VIỆN VÀ 1 VIỆN DƯỠNG LÃO*', '*Tỷ lệ tử vong ca đêm tăng vọt theo đồ thị kỳ dị*']
+--- 1-17 el=1.14 spans=[('1.14', 5, 6)] -> [('1.14', 6, 7)]
+    CHỮ CŨ: **CULLEN TỰ NHẬN 40 VỤ · TÒA XÁC NHẬN 29 VỤ** · *Con số thực sự có thể lên tới hàng trăm người* → `#6`: *Kẻ thủ ác cướp đi nhiều sinh mạng nhất lịch sử y tế Mỹ*
+    CÂU MỚI: Cullen thừa nhận đã sát hại khoảng 40 bệnh nhân, và cơ quan công tố xác nhận 29 nạn nhân trong số đó. Tuy nhiên, dựa trên hồ sơ theo dõi dịch tễ và lượng thuốc mất tích bí ẩn, các chuyên gia điều tra nhận định con số thực tế có thể lên tới 400 nạn nhân.
+    ⚠ SAI: ['**CULLEN TỰ NHẬN 40 VỤ · TÒA XÁC NHẬN 29 VỤ**', '*Con số thực sự có thể lên tới hàng trăm người*', '*Kẻ thủ ác cướp đi nhiều sinh mạng nhất lịch sử y tế Mỹ*']
+--- 1-18 el=1.16 spans=[('1.16', 1, 3)] -> [('1.16', 1, 3)]
+    CHỮ CŨ: **THIÊN THẦN TỬ THẦN** · *Phức cảm Chúa trời ngầm & Kỹ thuật trung hòa đạo đức*
+    CÂU MỚI: Chào mừng bạn đến với kênh phân tích tâm lý tội phạm Amber Eyes. Hôm nay, chúng ta cùng giải phẫu một trong những hồ sơ đen tối và nhức nhối nhất của nền y học thế giới: Hồ sơ Charles Cullen, kẻ mang biệt danh “Thiên thần Tử thần”. Tập phim này sẽ làm sáng tỏ hai hiện tượng tâm lý méo mó: “Phức cảm Chúa trời” và kỹ thuật trung hòa đạo đức giúp một kẻ sát nhân ngủ yên mỗi đêm.
+    ⚠ SAI: ['*Phức cảm Chúa trời ngầm & Kỹ thuật trung hòa đạo đức*']
+--- 2-01 el=2.02 spans=[('2.02', 1, 2)] -> [('2.02', 1, 2)]
+    CHỮ CŨ: **HIỆN TRƯỜNG CỦA NHỮNG VỤ ÁN** · *Những căn phòng điều trị vô trùng · Nơi người bệnh gửi gắm niềm tin*
+    CÂU MỚI: Hiện trường của những vụ án giết người thông thường là những con hẻm tối, những căn nhà hoang hay rừng sâu hẻo lánh. Thế nhưng, hiện trường của Charles Cullen lại là những căn phòng điều trị vô trùng, nơi người bệnh gửi gắm sự sống và niềm tin trọn vẹn nhất.
+    ⚠ SAI: ['*Những căn phòng điều trị vô trùng · Nơi người bệnh gửi gắm niềm tin*']
+--- 2-02 el=2.02 spans=[('2.02', 3, 3)] -> [('2.02', 3, 3)]
+    CHỮ CŨ: *CÔNG CỤ GÂY ÁN KHÔNG PHẢI SÚNG ĐẠN* · **NHỮNG LOẠI THUỐC CỨU NGƯỜI** · *Của nền y tế hiện đại*
+    CÂU MỚI: Công cụ gây án của hắn không phải là súng đạn hay hung khí thô bạo, mà là chính những ống thuốc cứu người của nền y học hiện đại.
+    ⚠ SAI: ['*CÔNG CỤ GÂY ÁN KHÔNG PHẢI SÚNG ĐẠN*', '**NHỮNG LOẠI THUỐC CỨU NGƯỜI**', '*Của nền y tế hiện đại*']
+--- 2-03 el=2.03 spans=[] -> []
+    CHỮ CŨ: —
+    CÂU MỚI: 
+--- 2-04 el=2.04 spans=[('2.04', 1, 2)] -> [('2.04', 1, 3)]
+    CHỮ CŨ: **KẼ HỞ TRONG HỆ THỐNG QUẢN LÝ THUỐC** · *Để lẩn tránh suốt 16 năm*
+    CÂU MỚI: Để có thể lẩn tránh qua chín cơ sở y tế mà không bị phát giác, Cullen đã khai thác triệt để những kẽ hở quản lý kỹ thuật số thời kỳ đầu. Hắn biến chiếc máy cấp phát thuốc tự động thành công cụ phục vụ cho những ảo tưởng quyền lực bệnh hoạn của mình. Xin mời Điều tra viên tái hiện lại thủ đoạn tinh vi và quỹ đạo leo thang hành vi của kẻ thủ ác.
+    ⚠ SAI: ['**KẼ HỞ TRONG HỆ THỐNG QUẢN LÝ THUỐC**', '*Để lẩn tránh suốt 16 năm*']
+--- 2-05 el=2.06 spans=[('2.06', 1, 2)] -> [('2.06', 1, 1)]
+    CHỮ CŨ: **TỦ CẤP THUỐC TỰ ĐỘNG PYXIS MEDSTATION** · *Đăng nhập bằng mã số cá nhân để lấy thuốc*
+    CÂU MỚI: Vào đầu những năm 2000, các bệnh viện bắt đầu sử dụng tủ cấp phát thuốc tự động Pyxis MedStation để quản lý dược phẩm chặt chẽ hơn.
+    ⚠ SAI: ['**TỦ CẤP THUỐC TỰ ĐỘNG PYXIS MEDSTATION**', '*Đăng nhập bằng mã số cá nhân để lấy thuốc*']
+--- 2-06 el=2.06 spans=[('2.06', 3, 4)] -> [('2.06', 2, 3)]
+    CHỮ CŨ: **MÁY TÍNH LƯU LẠI THỜI GIAN VÀ DANH TÍNH NGƯỜI THAO TÁC** → `#4`: **KẼ HỞ: GỌI THUỐC RỒI HỦY LỆNH** · *Trong khi ngăn kéo vẫn kịp mở ra*
+    CÂU MỚI: Mỗi y tá phải dùng mã số cá nhân để đăng nhập, chọn đúng tên bệnh nhân được bác sĩ chỉ định và nhấn lệnh xuất thuốc. Tuy nhiên, Charles Cullen đã phát hiện ra một lỗ hổng nghiêm trọng trong thiết kế phần mềm của hệ thống này.
+    ⚠ SAI: ['**MÁY TÍNH LƯU LẠI THỜI GIAN VÀ DANH TÍNH NGƯỜI THAO TÁC**', '**KẼ HỞ: GỌI THUỐC RỒI HỦY LỆNH**', '*Trong khi ngăn kéo vẫn kịp mở ra*']
+--- 2-07 el=2.06 spans=[('2.06', 5, 6)] -> [('2.06', 3, 4)]
+    CHỮ CŨ: **SỔ KHO: GIAO DỊCH “ĐÃ HỦY BỎ”** · *Như thể không có lọ thuốc nào rời khỏi tủ* → `#6`: *Hắn còn tra cứu hồ sơ của cả những bệnh nhân không thuộc quyền chăm sóc của mình*
+    CÂU MỚI: Tuy nhiên, Charles Cullen đã phát hiện ra một lỗ hổng nghiêm trọng trong thiết kế phần mềm của hệ thống này. Hắn nhập lệnh yêu cầu lấy những loại thuốc độc bảng A như Digoxin, Insulin hay Norepinephrine, nhưng ngay khi ngăn kéo máy vừa mở ra, hắn lập tức nhấn nút hủy lệnh.
+    ⚠ SAI: ['**SỔ KHO: GIAO DỊCH “ĐÃ HỦY BỎ”**', '*Như thể không có lọ thuốc nào rời khỏi tủ*', '*Hắn còn tra cứu hồ sơ của cả những bệnh nhân không thuộc quyền chăm sóc của mình*']
+--- 2-08 el=2.06 spans=[('2.06', 7, 8)] -> [('2.06', 4, 4)]
+    CHỮ CŨ: **MÁY VẪN LƯU LẠI TỪNG LỆNH HỦY** · *Từng lần tra cứu* → `#8`: **CHÍNH NHỮNG DẤU VẾT ẤY SẼ TỐ CÁO HẮN**
+    CÂU MỚI: Hắn nhập lệnh yêu cầu lấy những loại thuốc độc bảng A như Digoxin, Insulin hay Norepinephrine, nhưng ngay khi ngăn kéo máy vừa mở ra, hắn lập tức nhấn nút hủy lệnh.
+    ⚠ SAI: ['**MÁY VẪN LƯU LẠI TỪNG LỆNH HỦY**', '*Từng lần tra cứu*', '**CHÍNH NHỮNG DẤU VẾT ẤY SẼ TỐ CÁO HẮN**']
+--- 2-09 el=2.07 spans=[('2.07', 1, 4)] -> [('2.07', 1, 5)]
+    CHỮ CŨ: **PHƯƠNG THỨC HOÀN HẢO ĐẾN MỨC VÔ HÌNH** · *Hồi chuông cảnh báo từng bị bỏ quên*
+    CÂU MỚI: Nhìn vào danh sách nạn nhân của Charles Cullen, chúng ta thấy rõ một sự bất đối xứng quyền lực tàn nhẫn đến cùng cực. Những người nằm trên giường bệnh ICU là những sinh mệnh yếu ớt nhất, bị gắn chặt vào dây truyền dịch và hoàn toàn mất khả năng tự vệ. Họ không thể kêu cứu, không thể nghi ngờ bàn tay đang chăm sóc mình, và tin tưởng tuyệt đối vào người y tá đứng bên cạnh. Từ linh mục Florian Gall đ
+    ⚠ SAI: ['**PHƯƠNG THỨC HOÀN HẢO ĐẾN MỨC VÔ HÌNH**', '*Hồi chuông cảnh báo từng bị bỏ quên*']
+--- 2-10 el=2.08 spans=[('2.08', 1, 3)] -> [('2.08', 1, 1)]
+    CHỮ CŨ: *TIẾN SĨ STEVEN MARCUS · TRUNG TÂM CHỐNG ĐỘC NJ* · **CẢNH BÁO KHẨN CẤP THÁNG 7 NĂM 2003** · *Có thể có người đang cố tình gây hại cho bệnh nhân*
+    CÂU MỚI: Về mặt khoa học hành vi, chúng tôi phân biệt rất rõ ràng giữa phương thức gây án và chữ ký tâm lý của Charles Cullen.
+    ⚠ SAI: ['*TIẾN SĨ STEVEN MARCUS · TRUNG TÂM CHỐNG ĐỘC NJ*', '**CẢNH BÁO KHẨN CẤP THÁNG 7 NĂM 2003**', '*Có thể có người đang cố tình gây hại cho bệnh nhân*']
+--- 2-11 el=2.08 spans=[('2.08', 4, 6)] -> [('2.08', 1, 1)]
+    CHỮ CŨ: **BAN GIÁM ĐỐC BỆNH VIỆN SOMERSET** · *Gần ba tháng im lặng điều tra nội bộ · Thêm ít nhất năm bệnh nhân tử vong*
+    CÂU MỚI: Về mặt khoa học hành vi, chúng tôi phân biệt rất rõ ràng giữa phương thức gây án và chữ ký tâm lý của Charles Cullen.
+    ⚠ SAI: ['**BAN GIÁM ĐỐC BỆNH VIỆN SOMERSET**', '*Gần ba tháng im lặng điều tra nội bộ · Thêm ít nhất năm bệnh nhân tử vong*']
+--- 2-12 el=2.10 spans=[('2.10', 1, 3)] -> [('2.10', 1, 3)]
+    CHỮ CŨ: **TẠI SAO LẠI CÓ THỂ LÀM NGƠ?** · *Làm thế nào chuyển việc trót lọt qua 9 bệnh viện khác nhau?*
+    CÂU MỚI: Cảm giác toàn năng ấy chính là chiếc bẫy tâm lý nguy hiểm nhất của những kẻ giết người đội lốt thiên thần. Vậy điều gì đã khiến một người bình thường biến những bệnh nhân vô tội thành công cụ thỏa mãn bản năng thống trị của mình? Xin mời Chuyên gia tâm lý phân tích cơ chế vật hóa nạn nhân và sự tê liệt cảm xúc của Charles Cullen.
+    ⚠ SAI: ['**TẠI SAO LẠI CÓ THỂ LÀM NGƠ?**', '*Làm thế nào chuyển việc trót lọt qua 9 bệnh viện khác nhau?*']
+--- 2-13 el=2.11 spans=[('2.11', 1, 3)] -> [('2.11', 1, 3)]
+    CHỮ CŨ: *TÂM LÝ HỌC TỔ CHỨC VÀ XÃ HỘI HỌC PHÁP LÝ* · **HIỆN TƯỢNG BÀNG QUAN THỂ CHẾ** · *Saint Barnabas 1992: Cho thôi việc trong lặng lẽ*
+    CÂU MỚI: Dưới góc độ tâm lý học hành vi, Charles Cullen biểu hiện một cơ chế “Vật hóa” và phi nhân hóa nạn nhân vô cùng điển hình. Hắn không nhìn người bệnh như một con người có cảm xúc, có gia đình đang chờ đợi và có quyền được sống trọn vẹn. Trong tâm trí méo mó của Cullen, các bệnh nhân bị giáng cấp thành những “đạo cụ sống” để hắn trình diễn vở kịch cứu rỗi đầy ảo tưởng của bản thân.
+    ⚠ SAI: ['*TÂM LÝ HỌC TỔ CHỨC VÀ XÃ HỘI HỌC PHÁP LÝ*', '**HIỆN TƯỢNG BÀNG QUAN THỂ CHẾ**', '*Saint Barnabas 1992: Cho thôi việc trong lặng lẽ*']
+--- 2-14 el=2.11 spans=[('2.11', 4, 6)] -> [('2.11', 3, 8)]
+    CHỮ CŨ: *Bệnh viện Warren 1993: Khép lại vụ việc vì lo ngại danh tiếng* → `#6`: **BỆNH VIỆN SAINT LUKE NĂM 2002: TÌM THẤY NHIỀU LỌ THUỐC KIỂM SOÁT ĐẶC BIỆT**
+    CÂU MỚI: Trong tâm trí méo mó của Cullen, các bệnh nhân bị giáng cấp thành những “đạo cụ sống” để hắn trình diễn vở kịch cứu rỗi đầy ảo tưởng của bản thân. Hắn mắc phải một sự khiếm khuyết nghiêm trọng về Thấu cảm Cảm xúc, khiến hắn hoàn toàn trơ lỳ trước nỗi đau đớn và sự hoảng loạn của người khác. Khi nghe tiếng máy đo nhịp tim báo động dồn dập, tâm trí hắn không hề khởi sinh lòng trắc ẩn hay sự hối hận.
+    ⚠ SAI: ['*Bệnh viện Warren 1993: Khép lại vụ việc vì lo ngại danh tiếng*', '**BỆNH VIỆN SAINT LUKE NĂM 2002: TÌM THẤY NHIỀU LỌ THUỐC KIỂM SOÁT ĐẶC BIỆT**']
+--- 2-15 el=2.11 spans=[('2.11', 7, 8)] -> [('2.11', 8, 8)]
+    CHỮ CŨ: **THƯ XÁC NHẬN CÔNG TÁC TRUNG TÍNH** · *Thỏa thuận cho tự nguyện thôi việc để chuyển sang bệnh viện tiếp theo* → `#8`: *Tại sao các nhà quản lý bệnh viện lại hành xử như vậy?*
+    CÂU MỚI: Sự trống rỗng bên trong bản ngã đã thôi thúc hắn phải liên tục tìm kiếm những nạn nhân mới để lấp đầy cơn đói ảo tưởng quyền năng ấy.
+    ⚠ SAI: ['**THƯ XÁC NHẬN CÔNG TÁC TRUNG TÍNH**', '*Thỏa thuận cho tự nguyện thôi việc để chuyển sang bệnh viện tiếp theo*', '*Tại sao các nhà quản lý bệnh viện lại hành xử như vậy?*']
+--- 2-16 el=2.11 spans=[('2.11', 9, 10)] -> [('2.11', 8, 8)]
+    CHỮ CŨ: **HỆ THỐNG Y TẾ THƯƠNG MẠI HÓA** · *Đặt sự an toàn tài chính lên trên tính mạng bệnh nhân vô tội*
+    CÂU MỚI: Sự trống rỗng bên trong bản ngã đã thôi thúc hắn phải liên tục tìm kiếm những nạn nhân mới để lấp đầy cơn đói ảo tưởng quyền năng ấy.
+    ⚠ SAI: ['**HỆ THỐNG Y TẾ THƯƠNG MẠI HÓA**', '*Đặt sự an toàn tài chính lên trên tính mạng bệnh nhân vô tội*']
+--- 3-01 el=3.02 spans=[('3.02', 1, 3)] -> [('3.02', 1, 3)]
+    CHỮ CŨ: **ĐỘNG CƠ THỰC SỰ ĐIỀU KHIỂN CULLEN LÀ GÌ?** · *Hắn nhiều lần biện minh rằng hắn chỉ muốn chấm dứt nỗi đau đớn cho những người bệnh*
+    CÂU MỚI: Đến đây, chúng ta phải bước vào tầng sâu u tối nhất trong bộ não của Charles Cullen để tìm kiếm câu trả lời cốt lõi: Điều gì đã biến một thiếu niên nhút nhát, từng là nạn nhân của bạo lực học đường, trở thành một kẻ sát nhân hàng loạt khét tiếng? Khi bị bắt giữ và đối diện với cơ quan điều tra, Cullen luôn lặp đi lặp lại rằng hắn ra tay vì lòng thương cảm, muốn kết thúc nỗi đau đớn cho người bệnh.
+    ⚠ SAI: ['**ĐỘNG CƠ THỰC SỰ ĐIỀU KHIỂN CULLEN LÀ GÌ?**', '*Hắn nhiều lần biện minh rằng hắn chỉ muốn chấm dứt nỗi đau đớn cho những người bệnh*']
+--- 3-02 el=3.02 spans=[('3.02', 4, 6)] -> [('3.02', 3, 5)]
+    CHỮ CŨ: **BỨC CHÂN DUNG “THIÊN THẦN NHÂN TỪ”** · *Chiếc mặt nạ dối trá che đậy một phức cảm bệnh lý cực kỳ độc hại*
+    CÂU MỚI: Khi bị bắt giữ và đối diện với cơ quan điều tra, Cullen luôn lặp đi lặp lại rằng hắn ra tay vì lòng thương cảm, muốn kết thúc nỗi đau đớn cho người bệnh. Hắn cố tình vẽ nên chân dung của một vị thiên thần đi ban phát cái chết êm dịu cho những số phận bất hạnh. Thế nhưng, những bằng chứng khách quan tại hiện trường lại vạch trần một sự thật hoàn toàn trái ngược.
+    ⚠ SAI: ['**BỨC CHÂN DUNG “THIÊN THẦN NHÂN TỪ”**', '*Chiếc mặt nạ dối trá che đậy một phức cảm bệnh lý cực kỳ độc hại*']
+--- 3-03 el=3.04 spans=[('3.04', 1, 3)] -> [('3.04', 1, 4)]
+    CHỮ CŨ: **NHÂN CÁCH BỊ PHÂN MẢNH NGHIÊM TRỌNG** · *Tổn thương sâu sắc thời thơ ấu* → `#2`: *Mồ côi cha từ khi mới bảy tháng tuổi* → `#3`: *Năm hắn 17 tuổi: Mẹ qua đời trong một vụ tai nạn giao thông*
+    CÂU MỚI: Hồ sơ tâm lý pháp y của Charles Cullen cho thấy một tuổi thơ ngập tràn bóng tối và sự chối bỏ xã hội. Là con út trong một gia đình nghèo có tám người con tại bang New Jersey, hắn mồ côi cha khi mới chỉ được bảy tháng tuổi. Suốt những năm tháng đi học, Cullen liên tục bị bạn bè bắt nạt tàn nhẫn, trở thành một đứa trẻ cô độc, thu mình và có xu hướng tự hủy hoại bản thân từ rất sớm. Biến cố mang tính
+    ⚠ SAI: ['**NHÂN CÁCH BỊ PHÂN MẢNH NGHIÊM TRỌNG**', '*Tổn thương sâu sắc thời thơ ấu*', '*Mồ côi cha từ khi mới bảy tháng tuổi*', '*Năm hắn 17 tuổi: Mẹ qua đời trong một vụ tai nạn giao thông*']
+--- 3-04 el=3.04 spans=[('3.04', 4, 5)] -> [('3.04', 4, 6)]
+    CHỮ CŨ: **MẤT ĐI CHỖ DỰA CUỐI CÙNG** · *Với một thiếu niên vốn đã bất ổn* → `#5`: **SỰ CHUYỂN HÓA TỪ MẶC CẢM BẤT LỰC** · *Sang Phức cảm Chúa trời ngầm (Submerged God Complex)*
+    CÂU MỚI: Biến cố mang tính bước ngoặt và để lại vết thương sâu sắc nhất xảy ra vào năm hắn 17 tuổi, khi người mẹ thân yêu qua đời trong một vụ tai nạn giao thông thảm khốc. Bệnh viện nơi tiếp nhận người mẹ quá cố của hắn đã tự ý hỏa táng mà không hề thông báo hay cho phép hắn được nhìn mặt mẹ lần cuối. Sự kiện chấn động này đã gieo vào tâm trí Cullen một mối thù hằn âm ỉ đối với các thể chế y tế, đồng thời
+    ⚠ SAI: ['**MẤT ĐI CHỖ DỰA CUỐI CÙNG**', '*Với một thiếu niên vốn đã bất ổn*', '**SỰ CHUYỂN HÓA TỪ MẶC CẢM BẤT LỰC**', '*Sang Phức cảm Chúa trời ngầm (Submerged God Complex)*']
+--- 3-05 el=3.05 spans=[] -> []
+    CHỮ CŨ: —
+    CÂU MỚI: 
+--- 3-06 el=3.06 spans=[('3.06', 1, 2)] -> [('3.06', 1, 1)]
+    CHỮ CŨ: **CƠ CHẾ BÙ TRỪ QUYỀN LỰC** · *Tự ti, cô độc ngoài xã hội nhưng lại tìm thấy quyền lực tối thượng khi khoác chiếc áo blouse trắng*
+    CÂU MỚI: Thế nhưng, làm thế nào một người mang đầy những tổn thương tâm lý và hành vi lệch lạc như vậy lại có thể duy trì cuộc sống thường nhật suốt nhiều năm?
+    ⚠ SAI: ['**CƠ CHẾ BÙ TRỪ QUYỀN LỰC**', '*Tự ti, cô độc ngoài xã hội nhưng lại tìm thấy quyền lực tối thượng khi khoác chiếc áo blouse trắng*']
+--- 3-07 el=3.07 spans=[('3.07', 1, 2)] -> [('3.07', 1, 1)]
+    CHỮ CŨ: **TRONG CUỘC SỐNG ĐỜI THƯỜNG** · *Cullen cảm thấy mình hoàn toàn bất lực và vô hình*
+    CÂU MỚI: Để tồn tại và che mắt thế giới xung quanh, bộ não của Charles Cullen đã vận hành một cơ chế phòng vệ cực đoan gọi là “Chia ngăn tâm lý”.
+    ⚠ SAI: ['**TRONG CUỘC SỐNG ĐỜI THƯỜNG**', '*Cullen cảm thấy mình hoàn toàn bất lực và vô hình*']
+--- 3-08 el=3.07 spans=[('3.07', 3, 5)] -> [('3.07', 5, 5)]
+    CHỮ CŨ: **KHOA HỒI SỨC CẤP CỨU TRONG CA TRỰC ĐÊM** · *Quyền năng quyết định một con người được tiếp tục sống hay phải ra đi*
+    CÂU MỚI: Thế nhưng ở ngăn kéo thứ hai, trong bóng tối của những ca trực đêm, hắn mở khóa bản năng hủy diệt và hành động như một kẻ phán xét sinh tử lạnh lùng.
+    ⚠ SAI: ['**KHOA HỒI SỨC CẤP CỨU TRONG CA TRỰC ĐÊM**', '*Quyền năng quyết định một con người được tiếp tục sống hay phải ra đi*']
+--- 3-09 el=3.08 spans=[('3.08', 1, 2)] -> [('3.08', 1, 3)]
+    CHỮ CŨ: **TỰ THUYẾT PHỤC VÌ “LÒNG NHÂN TỪ”** · *Bộ não đã tự đánh lừa lương tâm bằng cách nào?*
+    CÂU MỚI: Sự chia ngăn ấy cho thấy sự rạn nứt sâu sắc trong nhân cách của một kẻ sát nhân có học thức. Và câu hỏi nhức nhối nhất là: Hắn đã sử dụng hệ thống lý lẽ nào để vô hiệu hóa cảm giác tội lỗi và ngủ ngon sau mỗi ca trực đẫm máu? Chúng ta hãy cùng xem xét lý thuyết về kỹ thuật trung hòa đạo đức trong hành vi phạm tội của Cullen.
+    ⚠ SAI: ['**TỰ THUYẾT PHỤC VÌ “LÒNG NHÂN TỪ”**', '*Bộ não đã tự đánh lừa lương tâm bằng cách nào?*']
+--- 3-10 el=3.09 spans=[('3.09', 1, 4)] -> [('3.09', 1, 2)]
+    CHỮ CŨ: *CƠ CHẾ THỨ HAI* · **KỸ THUẬT TRUNG HÒA ĐẠO ĐỨC (MORAL NEUTRALIZATION)** · *Ngụy biện: Viện dẫn lòng trắc ẩn cao cả*
+    CÂU MỚI: Để tiếp tục gây tội ác mà không bị lương tâm cắn rứt, Charles Cullen đã vận dụng triệt để các “Kỹ thuật Trung hòa Đạo đức” theo lý thuyết của Sykes và Matza. Đầu tiên là kỹ thuật “Phủ nhận tổn hại”: Hắn tự thuyết phục bản thân rằng mình không hề giết người, mà chỉ đang giúp các bệnh nhân chấm dứt sự đau đớn thể xác.
+    ⚠ SAI: ['*CƠ CHẾ THỨ HAI*', '**KỸ THUẬT TRUNG HÒA ĐẠO ĐỨC (MORAL NEUTRALIZATION)**', '*Ngụy biện: Viện dẫn lòng trắc ẩn cao cả*']
+--- 3-11 el=3.09 spans=[('3.09', 5, 7)] -> [('3.09', 2, 3)]
+    CHỮ CŨ: **BẺ GÃY HOÀN TOÀN CHIẾC MẶT NẠ NGỤY BIỆN** · *Michael Strenko 21 tuổi đang hồi phục hoàn toàn sau phẫu thuật thông thường* → `#7`: **KHAO KHÁT THỰC HIỆN QUYỀN NĂNG THỐNG TRỊ SINH SÁT**
+    CÂU MỚI: Đầu tiên là kỹ thuật “Phủ nhận tổn hại”: Hắn tự thuyết phục bản thân rằng mình không hề giết người, mà chỉ đang giúp các bệnh nhân chấm dứt sự đau đớn thể xác. Khi đối diện với sự thật rằng nhiều nạn nhân không hề mắc bệnh hiểm nghèo, hắn lập tức chuyển sang kỹ thuật “Ngoại hóa trách nhiệm”.
+    ⚠ SAI: ['**BẺ GÃY HOÀN TOÀN CHIẾC MẶT NẠ NGỤY BIỆN**', '*Michael Strenko 21 tuổi đang hồi phục hoàn toàn sau phẫu thuật thông thường*', '**KHAO KHÁT THỰC HIỆN QUYỀN NĂNG THỐNG TRỊ SINH SÁT**']
+--- 3-12 el=3.10 spans=[('3.10', 1, 3)] -> [('3.10', 1, 3)]
+    CHỮ CŨ: **CULLEN KHÔNG CỨU RỖI AI CẢ** · *Người bệnh yếu thế làm vật tế thần cho khủng hoảng nhân cách*
+    CÂU MỚI: Một hệ thống tự bào chữa hoàn hảo được dựng lên để bao biện cho sự trống rỗng và hèn nhát của một kẻ cuồng quyền lực. Hắn tự cho mình quyền quyết định số phận của đồng loại nhưng lại hèn hạ trốn tránh trách nhiệm trước công lý. Và bức tường ngụy biện kiên cố ấy chỉ có thể bị phá vỡ bởi lòng dũng cảm của một người phụ nữ dám nhìn thẳng vào sự thật.
+    ⚠ SAI: ['**CULLEN KHÔNG CỨU RỖI AI CẢ**', '*Người bệnh yếu thế làm vật tế thần cho khủng hoảng nhân cách*']
+--- 4-01 el=4.02 spans=[('4.02', 1, 2)] -> [('4.02', 1, 2)]
+    CHỮ CŨ: **THÁNG 10 · 2003** · *Văn phòng Công tố Quận Somerset · Thám tử Tim Braun & Danny Baldwin*
+    CÂU MỚI: Tháng 10 năm 2003. Sau cái chết bất thường của linh mục Florian Gall, Văn phòng Công tố Quận Somerset chính thức mở cuộc điều tra hình sự.
+    ⚠ SAI: ['**THÁNG 10 · 2003**', '*Văn phòng Công tố Quận Somerset · Thám tử Tim Braun & Danny Baldwin*']
+--- 4-02 el=4.02 spans=[('4.02', 3, 5)] -> [('4.02', 2, 6)]
+    CHỮ CŨ: **BỨC TƯỜNG IM LẶNG TỪ PHÍA BỆNH VIỆN** · *Tiếp cận người duy nhất có thể mở toang cánh cửa sự thật: Nữ y tá Amy Loughren*
+    CÂU MỚI: Sau cái chết bất thường của linh mục Florian Gall, Văn phòng Công tố Quận Somerset chính thức mở cuộc điều tra hình sự. Hai thám tử kỳ cựu Tim Braun và Danny Baldwin được giao trọng trách thụ lý một vụ án mà ngay từ đầu đã vấp phải muôn vàn trắc trở. Họ không chỉ phải đối đầu với một kẻ sát nhân vô hình, mà còn phải đối mặt với bức tường im lặng kiên cố từ phía ban giám đốc Trung tâm Y tế Somerset
+    ⚠ SAI: ['**BỨC TƯỜNG IM LẶNG TỪ PHÍA BỆNH VIỆN**', '*Tiếp cận người duy nhất có thể mở toang cánh cửa sự thật: Nữ y tá Amy Loughren*']
+--- 4-03 el=4.04 spans=[('4.04', 1, 3)] -> [('4.04', 1, 6)]
+    CHỮ CŨ: **BẢN IN NHẬT KÝ MÁY PYXIS** · *Amy lập tức nhận ra quy luật bất thường: gọi rồi hủy thuốc nhiều hơn hẳn một y tá bình thường* → `#3`: *Cô ấy đang một mình nuôi hai con nhỏ và mang bệnh tim*
+    CÂU MỚI: Khi chúng tôi bí mật tiếp cận Amy Loughren tại một quán ăn nhỏ ngoài giờ trực và trải ra trước mặt cô ấy bản in nhật ký máy Pyxis, Amy đã chết lặng. Với chuyên môn của một y tá hồi sức cấp cứu lâu năm, cô ấy lập tức nhìn thấy những dấu hiệu bất thường mà người ngoài không thể nhận ra. Charles Cullen đã liên tục tra cứu hồ sơ và rút thuốc của hàng chục bệnh nhân không hề thuộc sự quản lý hay phân c
+    ⚠ SAI: ['*Amy lập tức nhận ra quy luật bất thường: gọi rồi hủy thuốc nhiều hơn hẳn một y tá bình thường*', '*Cô ấy đang một mình nuôi hai con nhỏ và mang bệnh tim*']
+--- 4-04 el=4.04 spans=[('4.04', 4, 5)] -> [('4.04', 6, 7)]
+    CHỮ CŨ: **MANG THIẾT BỊ GHI ÂM ĐỂ GẶP CULLEN** · *Giúp thu thập bằng chứng* → `#5`: *Hãy hình dung tâm trạng của một người y tá khi ấy*
+    CÂU MỚI: Điều khiến tình thế trở nên sinh tử là lúc bấy giờ, Amy đang một mình nuôi hai con nhỏ và mang trong mình căn bệnh cơ tim nguy hiểm có thể đe dọa tính mạng bất cứ lúc nào. Thế nhưng, đứng trước sự an nguy của các bệnh nhân, người nữ y tá dũng cảm ấy đã quyết định dấn thân vào một cuộc đấu trí cân não.
+    ⚠ SAI: ['**MANG THIẾT BỊ GHI ÂM ĐỂ GẶP CULLEN**', '*Giúp thu thập bằng chứng*', '*Hãy hình dung tâm trạng của một người y tá khi ấy*']
+--- 4-05 el=4.06 spans=[('4.06', 1, 3)] -> [('4.06', 1, 4)]
+    CHỮ CŨ: “Người bạn mà mình tin tưởng nhất, hóa ra lại là người mình không hề biết.” → `#2`: “Nhưng tôi là một y tá.” → `#3`: “Lời thề nghề nghiệp của chúng tôi là bảo vệ sự sống.”
+    CÂU MỚI: Charlie từng là người bạn thân thiết nhất của tôi trong những đêm trực lạnh lẽo tại khoa hồi sức. Anh ấy biết bệnh tim của tôi, luôn nhận làm giúp tôi những phần việc nặng và nắm chặt tay giúp tôi thở qua những cơn đau thắt ngực dữ dội. Tôi đã từng yêu quý và tin tưởng anh ấy như một người anh em ruột thịt trong gia đình. Nhưng khi nhìn thấy những trang nhật ký máy tính ghi lại các loại thuốc độc 
+    ⚠ SAI: ['“Người bạn mà mình tin tưởng nhất, hóa ra lại là người mình không hề biết.”', '“Nhưng tôi là một y tá.”', '“Lời thề nghề nghiệp của chúng tôi là bảo vệ sự sống.”']
+--- 4-06 el=4.06 spans=[('4.06', 4, 4)] -> [('4.06', 5, 5)]
+    CHỮ CŨ: “Dù sợ đến mức nào, tôi biết mình không được phép quay lưng.”
+    CÂU MỚI: Tôi nhận ra người đàn ông hiền lành ngồi ăn khuya cùng tôi bấy lâu nay lại là một kẻ gieo rắc cái chết trong bóng tối.
+    ⚠ SAI: ['“Dù sợ đến mức nào, tôi biết mình không được phép quay lưng.”']
+--- 4-07 el=4.08 spans=[('4.08', 1, 2)] -> [('4.08', 1, 2)]
+    CHỮ CŨ: **THÁNG 12 · 2003** · *Trong một nhà hàng ở vùng Somerville*
+    CÂU MỚI: Ngày 6 tháng 12 năm 2003. Một cuộc gặp gỡ lịch sử được dàn xếp tại một quán ăn địa phương ở thị trấn Somerville.
+    ⚠ SAI: ['**THÁNG 12 · 2003**', '*Trong một nhà hàng ở vùng Somerville*']
+--- 4-08 el=4.08 spans=[('4.08', 3, 5)] -> [('4.08', 3, 9)]
+    CHỮ CŨ: **NGỒI ĐỐI DIỆN QUA CHIẾC BÀN GỖ** · *Amy nhẹ nhàng khuyên hắn nên đối diện với sự thật* → `#5`: *Cullen lộ rõ vẻ hoang mang, không nói ra lời thú nhận nào*
+    CÂU MỚI: Amy Loughren bước vào quán ăn với chiếc micro bí mật được các điều tra viên gắn khéo léo dưới lớp áo khoác mùa đông. Bên ngoài bãi đỗ xe, các trinh sát nín thở theo dõi từng cử động qua thiết bị thu âm tầm xa. Đối diện với Amy là Charles Cullen, vẫn với dáng vẻ gầy gò và ánh mắt ngây thơ quen thuộc. Bằng sự khéo léo và thấu hiểu tâm lý, Amy nhẹ nhàng gợi mở về những bất thường tại bệnh viện và đề 
+    ⚠ SAI: ['**NGỒI ĐỐI DIỆN QUA CHIẾC BÀN GỖ**', '*Amy nhẹ nhàng khuyên hắn nên đối diện với sự thật*', '*Cullen lộ rõ vẻ hoang mang, không nói ra lời thú nhận nào*']
+--- 4-09 el=4.09 spans=[] -> []
+    CHỮ CŨ: —
+    CÂU MỚI: 
+--- 4-10 el=4.11 spans=[('4.11', 1, 3)] -> [('4.11', 1, 2)]
+    CHỮ CŨ: **BỊ BẮT NGOÀI NHÀ HÀNG Ở BRIDGEWATER** · *Ngày 12 tháng 12 năm 2003*
+    CÂU MỚI: Ngày 12 tháng 12 năm 2003, Charles Cullen chính thức bị tra tay vào còng số tám ngay tại bãi đỗ xe bệnh viện. Một cuộc thẩm vấn kéo dài suốt bảy tiếng đồng hồ bắt đầu diễn ra tại trụ sở Văn phòng Công tố Quận Somerset.
+    ⚠ SAI: ['**BỊ BẮT NGOÀI NHÀ HÀNG Ở BRIDGEWATER**']
+--- 4-11 el=4.12 spans=[('4.12', 1, 3)] -> [('4.12', 1, 2)]
+    CHỮ CŨ: **PHÒNG THẨM VẤN SOMERSET** · *Cullen gần như im lặng* → `#3`: *Chứng cứ giấy tờ đã có, nhưng chúng tôi cần lời khai*
+    CÂU MỚI: Chiến thuật hỏi cung của chúng tôi là không bao giờ tấn công hay phán xét nhân cách của Cullen một cách trực diện. Chúng tôi hiểu rằng nếu dồn một kẻ ái kỷ vào chân tường, hắn sẽ lập tức kích hoạt cơ chế phòng vệ và im lặng tuyệt đối.
+    ⚠ SAI: ['**PHÒNG THẨM VẤN SOMERSET**', '*Cullen gần như im lặng*', '*Chứng cứ giấy tờ đã có, nhưng chúng tôi cần lời khai*']
+--- 4-12 el=4.12 spans=[('4.12', 4, 5)] -> [('4.12', 3, 4)]
+    CHỮ CŨ: **MỜI AMY LOUGHREN ĐẾN NÓI CHUYỆN** · *Không phải với tư cách cảnh sát, mà với tư cách người bạn cũ*
+    CÂU MỚI: Thay vào đó, chúng tôi khai thác chính ảo tưởng về lòng nhân từ mà hắn tự dựng lên, xem hắn như một người chăm sóc đang kiệt sức vì gánh nặng. Khi thám tử Danny Baldwin nhẹ nhàng đặt câu hỏi về động cơ thực sự, Cullen bắt đầu khóc nấc lên và suy sụp hoàn toàn.
+    ⚠ SAI: ['**MỜI AMY LOUGHREN ĐẾN NÓI CHUYỆN**', '*Không phải với tư cách cảnh sát, mà với tư cách người bạn cũ*']
+--- 4-13 el=4.12 spans=[('4.12', 6, 7)] -> [('4.12', 4, 6)]
+    CHỮ CŨ: **CHO GIA ĐÌNH CÁC NẠN NHÂN MỘT CÂU TRẢ LỜI** → `#7`: **VÀ SAU CUỘC GẶP ẤY, CHIẾC MẶT NẠ SỤP ĐỔ**
+    CÂU MỚI: Khi thám tử Danny Baldwin nhẹ nhàng đặt câu hỏi về động cơ thực sự, Cullen bắt đầu khóc nấc lên và suy sụp hoàn toàn. Hắn thừa nhận đã dùng Digoxin và Insulin sát hại linh mục Florian Gall, bệnh nhân Michael Strenko và hàng chục nạn nhân khác qua nhiều năm. Thế nhưng, điều làm chúng tôi căm phẫn nhất là những giọt nước mắt của hắn trong phòng hỏi cung không hề dành cho các nạn nhân xấu số.
+    ⚠ SAI: ['**CHO GIA ĐÌNH CÁC NẠN NHÂN MỘT CÂU TRẢ LỜI**', '**VÀ SAU CUỘC GẶP ẤY, CHIẾC MẶT NẠ SỤP ĐỔ**']
+--- 4-14 el=4.12 spans=[('4.12', 8, 8)] -> [('4.12', 6, 6)]
+    CHỮ CŨ: **BẮT ĐẦU KHAI NHẬN, TỪNG VỤ MỘT** · *Suốt 16 năm bóng tối*
+    CÂU MỚI: Thế nhưng, điều làm chúng tôi căm phẫn nhất là những giọt nước mắt của hắn trong phòng hỏi cung không hề dành cho các nạn nhân xấu số.
+    ⚠ SAI: ['**BẮT ĐẦU KHAI NHẬN, TỪNG VỤ MỘT**', '*Suốt 16 năm bóng tối*']
+--- 5-01 el=5.02 spans=[('5.02', 1, 2)] -> [('5.02', 1, 1)]
+    CHỮ CŨ: **THÁNG 3 · 2006** · *Tòa án Thượng thẩm Quận Somerset · Thẩm phán Paul Armstrong*
+    CÂU MỚI: Tháng 3 năm 2006.
+    ⚠ SAI: ['**THÁNG 3 · 2006**', '*Tòa án Thượng thẩm Quận Somerset · Thẩm phán Paul Armstrong*']
+--- 5-02 el=5.02 spans=[('5.02', 3, 4)] -> [('5.02', 3, 5)]
+    CHỮ CŨ: **11 BẢN ÁN TÙ CHUNG THÂN** · *397 năm mới đủ điều kiện xét ân xá* → `#4`: **THÊM 6 BẢN ÁN CHUNG THÂN · TỔNG 18 BẢN ÁN**
+    CÂU MỚI: Một phiên tòa lịch sử diễn ra dưới sự chủ trì của Thẩm phán Paul Armstrong trong sự dõi theo của hàng triệu người dân trên khắp nước Mỹ. Để đổi lấy việc không bị áp dụng án tử hình, Charles Cullen đã chấp nhận hợp tác toàn diện với cơ quan điều tra để nhận diện các nạn nhân. Thẩm phán Paul Armstrong đã tuyên phạt Charles Cullen 11 bản án tù chung thân liên tiếp, với thời gian thụ án tối thiểu 397 
+    ⚠ SAI: ['*397 năm mới đủ điều kiện xét ân xá*', '**THÊM 6 BẢN ÁN CHUNG THÂN · TỔNG 18 BẢN ÁN**']
+--- 5-03 el=5.02 spans=[('5.02', 5, 6)] -> [('5.02', 6, 6)]
+    CHỮ CŨ: **NHÀ TÙ BANG NEW JERSEY TẠI TRENTON** · *Rà soát hàng ngàn trang hồ sơ y tế cùng các điều tra viên* → `#6`: *Hắn hiện đang thụ án tại Nhà tù Bang New Jersey ở thành phố Trenton*
+    CÂU MỚI: Ít ngày sau, tòa án tại bang Pennsylvania tiếp tục tuyên thêm bảy bản án chung thân nữa, nâng tổng mức án lên 18 bản án tù chung thân.
+    ⚠ SAI: ['**NHÀ TÙ BANG NEW JERSEY TẠI TRENTON**', '*Rà soát hàng ngàn trang hồ sơ y tế cùng các điều tra viên*', '*Hắn hiện đang thụ án tại Nhà tù Bang New Jersey ở thành phố Trenton*']
+--- 5-04 el=5.03 spans=[] -> []
+    CHỮ CŨ: —
+    CÂU MỚI: 
+--- 5-05 el=5.04 spans=[('5.04', 1, 2)] -> [('5.04', 1, 1)]
+    CHỮ CŨ: **TẠI SAO SUỐT 16 NĂM KHÔNG BỊ PHÁT HIỆN?** · *Những người từng lên tiếng – một người con, những đồng nghiệp, một bác sĩ chống độc – đều bị chính các thể chế phớt lờ*
+    CÂU MỚI: Thế nhưng, ngay cả khi đứng trước vành móng ngựa, bản chất ái kỷ méo mó của Charles Cullen vẫn tiếp tục bộc lộ một cách trơ tráo.
+    ⚠ SAI: ['**TẠI SAO SUỐT 16 NĂM KHÔNG BỊ PHÁT HIỆN?**', '*Những người từng lên tiếng – một người con, những đồng nghiệp, một bác sĩ chống độc – đều bị chính các thể chế phớt lờ*']
+--- 5-06 el=5.04 spans=[('5.04', 3, 4)] -> [('5.04', 1, 7)]
+    CHỮ CŨ: *BANG NEW JERSEY BAN HÀNH* · **ĐẠO LUẬT CULLEN** · *Đạo luật Tăng cường Trách nhiệm và Báo cáo của Nhân viên Y tế*
+    CÂU MỚI: Thế nhưng, ngay cả khi đứng trước vành móng ngựa, bản chất ái kỷ méo mó của Charles Cullen vẫn tiếp tục bộc lộ một cách trơ tráo. Tại phiên tòa tuyên án ở Hạt Lehigh, bang Pennsylvania, Cullen đã từ chối bước ra đối diện với gia đình các nạn nhân xấu số. Khi bị áp giải vào phòng xử án, hắn liên tục lặp đi lặp lại một câu nói duy nhất như một kẻ mất trí: “Thưa quý tòa, ngài cần phải từ chức.” Hắn g
+    ⚠ SAI: ['*BANG NEW JERSEY BAN HÀNH*', '**ĐẠO LUẬT CULLEN**', '*Đạo luật Tăng cường Trách nhiệm và Báo cáo của Nhân viên Y tế*']
+--- 5-07 el=5.04 spans=[('5.04', 5, 6)] -> [('5.04', None, None)]
+    CHỮ CŨ: **BÁO CÁO SAI PHẠM NGHIÊM TRỌNG CỦA NHÂN VIÊN Y TẾ** → `#6`: **4 DẤU HIỆU CẢNH BÁO ĐỎ (RED FLAGS)** · *Về những kẻ săn mồi ẩn danh trong tổ chức*
+    CÂU MỚI: 
+    ⚠ SAI: ['**BÁO CÁO SAI PHẠM NGHIÊM TRỌNG CỦA NHÂN VIÊN Y TẾ**', '**4 DẤU HIỆU CẢNH BÁO ĐỎ (RED FLAGS)**', '*Về những kẻ săn mồi ẩn danh trong tổ chức*']
+--- 5-08 el=5.05 spans=[('5.05', 1, 2)] -> [('5.05', 1, 1)]
+    CHỮ CŨ: **DẤU HIỆU 01: HỘI CHỨNG VỊ CỨU TINH GIẢ TẠO** · *Luôn là người đầu tiên có mặt khi có khủng hoảng*
+    CÂU MỚI: Khép lại hồ sơ đen tối này, bài học nhức nhối nhất không chỉ nằm ở sự tha hóa nhân cách của cá nhân Charles Cullen.
+    ⚠ SAI: ['**DẤU HIỆU 01: HỘI CHỨNG VỊ CỨU TINH GIẢ TẠO**', '*Luôn là người đầu tiên có mặt khi có khủng hoảng*']
+--- 5-09 el=5.05 spans=[('5.05', 3, 5)] -> [('5.05', 1, 7)]
+    CHỮ CŨ: **DẤU HIỆU 02: LỊCH SỬ LÀM VIỆC CHẮP VÁ VÀ NHẢY VIỆC LIÊN TỤC** · *Liên tục chuyển đổi nơi làm việc sau những khoảng thời gian ngắn*
+    CÂU MỚI: Khép lại hồ sơ đen tối này, bài học nhức nhối nhất không chỉ nằm ở sự tha hóa nhân cách của cá nhân Charles Cullen. Vấn đề cốt lõi mà vụ án để lại là “Sự phản bội thể chế” và điểm mù tập thể của một hệ thống y tế bị chi phối bởi lợi ích kinh tế. Chín bệnh viện nơi Cullen từng làm việc đều đã từng ghi nhận những bất thường, từng phát hiện thuốc mất tích và nghi ngờ các ca tử vong vào ca trực của hắ
+    ⚠ SAI: ['**DẤU HIỆU 02: LỊCH SỬ LÀM VIỆC CHẮP VÁ VÀ NHẢY VIỆC LIÊN TỤC**', '*Liên tục chuyển đổi nơi làm việc sau những khoảng thời gian ngắn*']
+--- 5-10 el=5.06 spans=[('5.06', 1, 2)] -> [('5.06', 1, 2)]
+    CHỮ CŨ: **DẤU HIỆU 03: THAO TÁC GIAN LẬN VƯỢT QUYỀN TRÊN HỆ THỐNG QUẢN LÝ** · *Thường xuyên hủy giao dịch ngay sau khi mở kho tài sản hoặc thuốc men*
+    CÂU MỚI: Chính sự trả giá bằng sinh mạng của hàng chục nạn nhân vô tội đã thúc đẩy một cuộc đại cải tổ mang tính lịch sử trong hệ thống pháp luật y tế Mỹ. Năm 2004, Thống đốc bang New Jersey đã ký ban hành “Đạo luật Cullen” nhằm bẻ gãy vĩnh viễn sự im lặng thể chế nguy hiểm này.
+    ⚠ SAI: ['**DẤU HIỆU 03: THAO TÁC GIAN LẬN VƯỢT QUYỀN TRÊN HỆ THỐNG QUẢN LÝ**', '*Thường xuyên hủy giao dịch ngay sau khi mở kho tài sản hoặc thuốc men*']
+--- 5-11 el=5.06 spans=[('5.06', 3, 4)] -> [('5.06', 2, 3)]
+    CHỮ CŨ: **DẤU HIỆU 04: SỰ IM LẶNG BẤT THƯỜNG CỦA TẬP THỂ** · *Né tránh pháp luật và giải quyết nội bộ vì sợ phiền phức*
+    CÂU MỚI: Năm 2004, Thống đốc bang New Jersey đã ký ban hành “Đạo luật Cullen” nhằm bẻ gãy vĩnh viễn sự im lặng thể chế nguy hiểm này. Đạo luật quy định các bệnh viện bắt buộc phải báo cáo mọi hành vi sai phạm nghiêm trọng của nhân viên y tế cho cơ quan chức năng nhà nước.
+    ⚠ SAI: ['**DẤU HIỆU 04: SỰ IM LẶNG BẤT THƯỜNG CỦA TẬP THỂ**', '*Né tránh pháp luật và giải quyết nội bộ vì sợ phiền phức*']
+--- 5-12 el=5.07 spans=[] -> []
+    CHỮ CŨ: —
+    CÂU MỚI: 
+--- 5-13 el=5.08 spans=[('5.08', 1, 3)] -> [('5.08', 1, 2)]
+    CHỮ CŨ: **CÁI ÁC KHOÁC CHIẾC ÁO CỦA SỰ TỬ TẾ** · *Ẩn mình sau sự thờ ơ và im lặng của đám đông* → `#3`: *Có thể đã cướp đi sinh mạng của hàng trăm người*
+    CÂU MỚI: Hồ sơ về Charles Cullen là một lời cảnh tỉnh lạnh lùng gửi đến tất cả chúng ta về bản chất phức tạp của lòng tin con người. Chiếc áo blouse trắng, bằng cấp chuyên môn hay những cử chỉ ân cần bề ngoài không bao giờ là sự bảo chứng tuyệt đối cho đạo đức của một tâm hồn.
+    ⚠ SAI: ['**CÁI ÁC KHOÁC CHIẾC ÁO CỦA SỰ TỬ TẾ**', '*Ẩn mình sau sự thờ ơ và im lặng của đám đông*', '*Có thể đã cướp đi sinh mạng của hàng trăm người*']
+--- 5-14 el=5.08 spans=[('5.08', 4, 6)] -> [('5.08', 3, 4)]
+    CHỮ CŨ: **NGỌN HẢI ĐĂNG CỦA SỰ CHÍNH TRỰC** · *Lòng dũng cảm bảo vệ phẩm giá y học và sự thiêng liêng của sự sống*
+    CÂU MỚI: Tội ác tinh vi nhất không xuất hiện với bộ mặt gớm ghiếc, mà luôn ẩn mình hoàn hảo phía sau những vỏ bọc mẫu mực và đáng tin cậy nhất. Bài học sinh tồn lớn nhất mà vụ án này để lại chính là: “Hãy luôn biết lắng nghe và tin tưởng vào trực giác của chính mình.”
+    ⚠ SAI: ['**NGỌN HẢI ĐĂNG CỦA SỰ CHÍNH TRỰC**', '*Lòng dũng cảm bảo vệ phẩm giá y học và sự thiêng liêng của sự sống*']
+--- 5-15 el=5.09 spans=[] -> []
+    CHỮ CŨ: —
+    CÂU MỚI: 
+--- 5-16 el=5.10 spans=[('5.10', 1, 2)] -> [('5.10', 1, 1)]
+    CHỮ CŨ: **CẢM ƠN QUÝ VỊ THÍNH GIẢ ĐÃ THEO DÕI** · *Cảm ơn các chuyên gia và điều tra viên đã đồng hành*
+    CÂU MỚI: Cảm ơn các khách mời chuyên gia đã cùng đồng hành giải phẫu hồ sơ tâm lý học tội phạm ngày hôm nay.
+    ⚠ SAI: ['**CẢM ƠN QUÝ VỊ THÍNH GIẢ ĐÃ THEO DÕI**', '*Cảm ơn các chuyên gia và điều tra viên đã đồng hành*']
+--- 5-17 el=5.10 spans=[('5.10', 3, 3)] -> [('5.10', 3, 3)]
+    CHỮ CŨ: **HÃY LUÔN TỈNH THỨC VÀ TRÂN QUÝ SỰ AN TOÀN** · *Hẹn gặp lại trong hồ sơ phân tích tâm lý tội phạm tiếp theo*
+    CÂU MỚI: Hãy luôn giữ cho mình một cái nhìn tỉnh táo, biết bảo vệ những ranh giới an toàn và trân trọng từng phút giây quý giá của cuộc sống.
+    ⚠ SAI: ['**HÃY LUÔN TỈNH THỨC VÀ TRÂN QUÝ SỰ AN TOÀN**', '*Hẹn gặp lại trong hồ sơ phân tích tâm lý tội phạm tiếp theo*']

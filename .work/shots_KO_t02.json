@@ -1,0 +1,7668 @@
+{
+ "total": 1953.97,
+ "shots": [
+  {
+   "id": "1-00",
+   "act": 1,
+   "start": 20.5,
+   "end": 20.673,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_town_snow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "제1막 · 대령의 계급장 뒤에 숨겨진 극단적 대비"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng phản lực tụt thành drone; kim đồng hồ",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-01",
+   "act": 1,
+   "start": 20.673,
+   "end": 28.201,
+   "role": "H",
+   "sentences": [
+    "1.03#1",
+    "1.03#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t2_base_trenton",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2009년 7월"
+      ],
+      [
+       "ital",
+       "Canada 군 최대 공군 기지, Trenton 공군 기지"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gõ từng ký tự",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-02",
+   "act": 1,
+   "start": 28.201,
+   "end": 34.623,
+   "role": "H",
+   "sentences": [
+    "1.03#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_oath_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "이취임식"
+      ],
+      [
+       "ital",
+       "군 최고위 관료들이 지켜보는 가운데"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-03",
+   "act": 1,
+   "start": 34.623,
+   "end": 48.99,
+   "role": "H",
+   "sentences": [
+    "1.03#4"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t2_oath_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "최고 지휘권을 넘겨받다"
+      ],
+      [
+       "bold",
+       "대령 DAVID RUSSELL WILLIAMS"
+      ],
+      [
+       "ital",
+       "완벽한 경력"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "완벽한"
+   ],
+   "beat_text": "Dấu mộc ở \"완벽한\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-04",
+   "act": 1,
+   "start": 48.99,
+   "end": 50.315,
+   "role": null,
+   "sentences": [],
+   "template": "T2",
+   "variant": "",
+   "bg": "t2_oath_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "최고 지휘권을 넘겨받다"
+      ],
+      [
+       "bold",
+       "대령 DAVID RUSSELL WILLIAMS"
+      ],
+      [
+       "ital",
+       "완벽한 경력"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-03"
+  },
+  {
+   "id": "1-05",
+   "act": 1,
+   "start": 50.315,
+   "end": 62.297,
+   "role": "H",
+   "sentences": [
+    "1.05#1"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "t2_base_trenton",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "46세"
+      ],
+      [
+       "ital",
+       "영국 여왕 Elizabeth II와 Philip 공, Canada 총리들의 전용기를 직접 조종"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Số đếm",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-06",
+   "act": 1,
+   "start": 62.297,
+   "end": 77.561,
+   "role": "H",
+   "sentences": [
+    "1.05#2"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t2_base_trenton",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "철의 규율의 상징 · 모범적인 남편 · 아내: Ottawa의 Canada 심장·뇌졸중 재단 고위 간부"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-07",
+   "act": 1,
+   "start": 77.561,
+   "end": 92.931,
+   "role": "H",
+   "sentences": [
+    "1.05#3"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t2_oath_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "단순한 군사 기지가 아닌 곳"
+      ],
+      [
+       "bold",
+       "전사한 장병들의 유해를 맞이던 성스러운 장소"
+      ],
+      [
+       "ital",
+       "Afghanistan 전장에서"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "유해"
+   ],
+   "beat_text": "Dấu mộc ở \"유해\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-08",
+   "act": 1,
+   "start": 92.931,
+   "end": 99.771,
+   "role": "H",
+   "sentences": [
+    "1.05#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_siren_wall",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "엄숙한 추모 의식의 최고 책임자"
+      ],
+      [
+       "ital",
+       "바로 Williams 자신"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "엄숙한"
+   ],
+   "beat_text": "Tiêu đề ở \"엄숙한\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-09",
+   "act": 1,
+   "start": 99.771,
+   "end": 110.178,
+   "role": "H",
+   "sentences": [
+    "1.05#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_base_trenton",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "상상해 보십시오:"
+      ],
+      [
+       "bold",
+       "그의 지휘 아래 복무했던 대원들의 감정"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N1"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-10",
+   "act": 1,
+   "start": 110.178,
+   "end": 118.393,
+   "role": "N1",
+   "sentences": [
+    "1.07#1"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t2_base_trenton",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "…절대적인 완벽함 그 자체였습니다."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-11",
+   "act": 1,
+   "start": 118.393,
+   "end": 128.698,
+   "role": "N1",
+   "sentences": [
+    "1.07#2"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t2_oath_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "항상 침착 · 군복 주름 하나 흐트러짐 없이 정돈 · 부하에게 언성을 높인 적 단 한 번도 없음"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-12",
+   "act": 1,
+   "start": 128.698,
+   "end": 146.415,
+   "role": "N1",
+   "sentences": [
+    "1.07#3",
+    "1.07#4"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t2_base_trenton",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "…밤이 되면 가장 흉악한 포식자로 돌변하는 괴물…"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-13",
+   "act": 1,
+   "start": 146.415,
+   "end": 158.739,
+   "role": "H",
+   "sentences": [
+    "1.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_town_snow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "조용한 심야"
+      ],
+      [
+       "ital",
+       "외곽 소도시의 어둠 속으로 사라지다"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "야심한 시각"
+   ],
+   "beat_text": "Tiêu đề ở \"야심한 시각\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-14",
+   "act": 1,
+   "start": 158.739,
+   "end": 169.669,
+   "role": "H",
+   "sentences": [
+    "1.08#2",
+    "1.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_street",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "위풍당당한 대령의 모습은 없었습니다"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "음침한 스토커의 그림자만이"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "그림자"
+   ],
+   "beat_text": "Tiêu đề ở \"그림자\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-15",
+   "act": 1,
+   "start": 169.669,
+   "end": 180.801,
+   "role": "H",
+   "sentences": [
+    "1.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_base_trenton",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "후광 효과"
+      ],
+      [
+       "ital",
+       "대중의 경계심을 완전히 마비시킨 절대적 사회적 위상"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "후광 효과"
+   ],
+   "beat_text": "Tiêu đề ở \"후광 효과\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-16",
+   "act": 1,
+   "start": 180.801,
+   "end": 182.507,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_base_trenton",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "후광 효과"
+      ],
+      [
+       "ital",
+       "대중의 경계심을 완전히 마비시킨 절대적 사회적 위상"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "1-15"
+  },
+  {
+   "id": "1-17",
+   "act": 1,
+   "start": 182.507,
+   "end": 184.561,
+   "role": "H",
+   "sentences": [
+    "1.10#1"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t2_house_missing",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2010년 1월 28일"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gõ từng ký tự",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "1-18",
+   "act": 1,
+   "start": 184.561,
+   "end": 214.798,
+   "role": "H",
+   "sentences": [
+    "1.10#2",
+    "1.10#3"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t2_house_missing_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "JESSICA LLOYD · 27세 · BELLEVILLE"
+      ],
+      [
+       "bold",
+       "자택에서 흔적도 없이 사라집니다"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Ontario 주 경찰, 대대적인 수색 작전 개시"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "수색 작전을 개시"
+   ],
+   "beat_text": "Dấu mộc ở \"수색 작전을 개시\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-19",
+   "act": 1,
+   "start": 214.798,
+   "end": 219.419,
+   "role": "H",
+   "sentences": [
+    "1.12#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_town_snow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "단서를 발견하지 못한 경찰"
+      ],
+      [
+       "ital",
+       "실종 초기 며칠 동안"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gió, bước chân (SFX `1.11`) ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-20",
+   "act": 1,
+   "start": 219.419,
+   "end": 228.213,
+   "role": "H",
+   "sentences": [
+    "1.12#2"
+   ],
+   "template": "T7",
+   "variant": "",
+   "bg": "t2_checkpoint",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2월 4일 저녁"
+      ],
+      [
+       "ital",
+       "피해자 집 근처 임시 검문소 · 밤샘 검문"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "2 ghim không nhãn, đường tự vẽ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-21",
+   "act": 1,
+   "start": 228.213,
+   "end": 242.094,
+   "role": "H",
+   "sentences": [
+    "1.12#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_tire_track",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "검문소의 유일한 목적"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "희귀한 오프로드 타이어 자국"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "타이어 자국"
+   ],
+   "beat_text": "Tiêu đề ở \"타이어 자국\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-22",
+   "act": 1,
+   "start": 242.094,
+   "end": 257.892,
+   "role": "H",
+   "sentences": [
+    "1.14#1",
+    "1.14#2"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t2_suv_stop",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NISSAN PATHFINDER"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "평소 타던 BMW 대신"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gõ kính (SFX `1.13`) ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-23",
+   "act": 1,
+   "start": 257.892,
+   "end": 264.758,
+   "role": "H",
+   "sentences": [
+    "1.14#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_suv_stop",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TRENTON 공군 기지 최고 사령관"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "바로"
+   ],
+   "beat_text": "Tiêu đề ở \"바로\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-24",
+   "act": 1,
+   "start": 264.758,
+   "end": 282.135,
+   "role": "H",
+   "sentences": [
+    "1.14#4",
+    "1.14#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_tire_track",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "눈밭 위의 흔적과 놀라울 정도로 유사한 타이어 트레드"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "당당한 고급 장교 앞에서는 붙잡아 둘 수 없었다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-25",
+   "act": 1,
+   "start": 282.135,
+   "end": 288.488,
+   "role": "H",
+   "sentences": [
+    "1.14#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_checkpoint_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "여전히 자유로운 대령"
+      ],
+      [
+       "ital",
+       "그 후 3일 동안"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-26",
+   "act": 1,
+   "start": 288.488,
+   "end": 297.028,
+   "role": "H",
+   "sentences": [
+    "1.14#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "들은 보시겠습니다:"
+      ],
+      [
+       "bold",
+       "수사관의 기록으로 되짚는 그 긴박했던 사흘"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cửa sắt \"Rầm\" (SFX `1.15`) sau câu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-27",
+   "act": 1,
+   "start": 297.028,
+   "end": 307.812,
+   "role": "D",
+   "sentences": [
+    "1.17#1"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t2_tire_track",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "눈 위의 특이한 타이어 자국"
+      ],
+      [
+       "bold",
+       "보기 드문 Kumho 오프로드 타이어 패턴"
+      ],
+      [
+       "ital",
+       "커다란 방한 부츠 발자국"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "발자국"
+   ],
+   "beat_text": "Dấu mộc ở \"발자국\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-28",
+   "act": 1,
+   "start": 307.812,
+   "end": 328.067,
+   "role": "D",
+   "sentences": [
+    "1.17#2",
+    "1.17#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_suv_stop",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "겉으로는 일상적인 교통 검문처럼"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "손전등이 타이어를 비춘 순간의 충격적 일치"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "타이어를 비춘"
+   ],
+   "beat_text": "Vệt sáng đèn pin ở \"타이어를 비춘\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-29",
+   "act": 1,
+   "start": 328.067,
+   "end": 337.596,
+   "role": "D",
+   "sentences": [
+    "1.17#4"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t2_checkpoint",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Russell Williams 대령의 어두운 세계"
+      ],
+      [
+       "bold",
+       "정면 충돌"
+      ],
+      [
+       "ital",
+       "경찰의 수사망"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "경찰의 수사망"
+   ],
+   "beat_text": "Cột phải ở \"경찰의 수사망\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-30",
+   "act": 1,
+   "start": 337.596,
+   "end": 352.595,
+   "role": "D",
+   "sentences": [
+    "1.17#5"
+   ],
+   "template": "T6",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "밤낮없이 은밀한 수사 · 타이어 흔적 대조 · 이동 경로 분석"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "긴급 압수수색 영장"
+      ],
+      [
+       "ital",
+       "Ottawa · Tweed"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi cụm từ một mốc",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-31",
+   "act": 1,
+   "start": 352.595,
+   "end": 367.628,
+   "role": "D",
+   "sentences": [
+    "1.17#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_phone_call",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "요란한 공개 체포 작전 대신"
+      ],
+      [
+       "bold",
+       "정중한 전화 한 통"
+      ],
+      [
+       "ital",
+       "주 경찰 본부로의 방문 요청"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "전화 한 통"
+   ],
+   "beat_text": "Tiêu đề ở \"전화 한 통\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-32",
+   "act": 1,
+   "start": 367.628,
+   "end": 371.394,
+   "role": "H",
+   "sentences": [
+    "1.18#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "범죄심리 프로파일링 파일"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-33",
+   "act": 1,
+   "start": 371.394,
+   "end": 381.901,
+   "role": "H",
+   "sentences": [
+    "1.18#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "사건 파일"
+      ],
+      [
+       "bold",
+       "대령 RUSSELL WILLIAMS"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "사건 파일"
+   ],
+   "beat_text": "Dấu mộc ở \"사건 파일\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-34",
+   "act": 1,
+   "start": 381.901,
+   "end": 405.893,
+   "role": "H",
+   "sentences": [
+    "1.18#3"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_two_masks",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "행동 에스컬레이션의 법칙"
+      ],
+      [
+       "bold",
+       "정신적 분할"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "02화 · 두 얼굴의 대령"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi thuật ngữ ở cụm từ; tên tập cuối câu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-35",
+   "act": 1,
+   "start": 405.893,
+   "end": 408.445,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "제2막"
+      ],
+      [
+       "bold",
+       "심연의 4단계"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "2-01",
+   "act": 2,
+   "start": 408.445,
+   "end": 419.057,
+   "role": "H",
+   "sentences": [
+    "2.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_cottage_search",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "단순한 단발성 사건이 아니었다"
+      ],
+      [
+       "ital",
+       "Ontario 주 경찰이 마주한 실종 사건"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-02",
+   "act": 2,
+   "start": 419.057,
+   "end": 432.391,
+   "role": "H",
+   "sentences": [
+    "2.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_cottage_search",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "소름 끼치는 전모가 드러나기 시작"
+      ],
+      [
+       "ital",
+       "Tweed · Belleville"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-03",
+   "act": 2,
+   "start": 432.391,
+   "end": 437.012,
+   "role": "H",
+   "sentences": [
+    "2.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_house_missing_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "결코 하루아침에 나타난 존재가 아니었다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Lật hồ sơ (SFX `2.03`) ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-04",
+   "act": 2,
+   "start": 437.012,
+   "end": 443.794,
+   "role": "H",
+   "sentences": [
+    "2.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_escalation_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "수년에 걸쳐 어둠 속에서 사냥의 기술을 정밀하게 다듬어 온"
+      ],
+      [
+       "bold",
+       "그림자"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-05",
+   "act": 2,
+   "start": 443.794,
+   "end": 457.078,
+   "role": "H",
+   "sentences": [
+    "2.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_escalation_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "거대한 빙산의 일각에 불과"
+      ],
+      [
+       "bold",
+       "행동 에스컬레이션의 4단계 사다리"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-06",
+   "act": 2,
+   "start": 457.078,
+   "end": 463.074,
+   "role": "H",
+   "sentences": [
+    "2.04#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "들은 보시겠습니다:"
+      ],
+      [
+       "bold",
+       "수사관의 범행 수법 분석"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-07",
+   "act": 2,
+   "start": 463.074,
+   "end": 474.885,
+   "role": "D",
+   "sentences": [
+    "2.05#1"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "4단계의 명확한 에스컬레이션"
+      ],
+      [
+       "ital",
+       "디지털 증거와 압수된 물적 증거"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Bộ đếm `0/4`, 4 thẻ trống ghim lên",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-08",
+   "act": 2,
+   "start": 474.885,
+   "end": 487.962,
+   "role": "D",
+   "sentences": [
+    "2.05#2",
+    "2.05#3"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "t2_open_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "첫 번째 단계"
+      ],
+      [
+       "bold",
+       "심야의 관음 행위"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "인적이 드문 심야의 주택가를 배회하며"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-09",
+   "act": 2,
+   "start": 487.962,
+   "end": 505.47,
+   "role": "D",
+   "sentences": [
+    "2.05#4",
+    "2.05#5",
+    "2.05#6"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "t2_drawer_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "두 번째 단계"
+      ],
+      [
+       "bold",
+       "빈집 침입과 사적 물품 절취"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "경찰이 밝혀낸 최초의 침입 범행: 2006"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-10",
+   "act": 2,
+   "start": 505.47,
+   "end": 514.656,
+   "role": "D",
+   "sentences": [
+    "2.05#7"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "t2_open_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "2007년 9월 – 2009년 11월"
+      ],
+      [
+       "bold",
+       "82건"
+      ],
+      [
+       "ital",
+       "주거 침입 및 미수 범행"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Số đếm 0 → 82",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-11",
+   "act": 2,
+   "start": 514.656,
+   "end": 525.009,
+   "role": "D",
+   "sentences": [
+    "2.05#8",
+    "2.05#9"
+   ],
+   "template": "T8",
+   "variant": "strike",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "돈 · 귀금속"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 9,
+     "elems": [
+      [
+       "bold",
+       "여성들의 사적 의류"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "손을 대지 않았습니다"
+   ],
+   "beat_text": "Gạch ở \"손을 대지 않았습니다\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-12",
+   "act": 2,
+   "start": 525.009,
+   "end": 534.269,
+   "role": "D",
+   "sentences": [
+    "2.05#10"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t2_logbook",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "의식은 모든 집에서 똑같이 반복"
+      ],
+      [
+       "ital",
+       "사진 촬영 · 물건 확보 · 꼼꼼한 기록"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-13",
+   "act": 2,
+   "start": 534.269,
+   "end": 555.052,
+   "role": "D",
+   "sentences": [
+    "2.05#11",
+    "2.05#12",
+    "2.05#13"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "t2_escalation_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "세 번째 단계"
+      ],
+      [
+       "bold",
+       "거주자가 재택 시 침입"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 12,
+     "elems": [
+      [
+       "ital",
+       "2009년 9월 · 자극에 대한 역치 무감각화"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 13,
+     "elems": [
+      [
+       "ital",
+       "두 여성 · Tweed 마을 주변"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-14",
+   "act": 2,
+   "start": 555.052,
+   "end": 580.043,
+   "role": "D",
+   "sentences": [
+    "2.05#14",
+    "2.05#15",
+    "2.05#16"
+   ],
+   "template": "T3",
+   "variant": "",
+   "bg": "fog",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "네 번째 단계"
+      ],
+      [
+       "bold",
+       "생명 박탈"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 15,
+     "elems": [
+      [
+       "ital",
+       "2009년 11월 말 · Marie-France Comeau · 하사 · 37세 · 제437비행대"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 16,
+     "elems": [
+      [
+       "ital",
+       "두 달 뒤 · Jessica Lloyd"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Chỉ chữ, không hình người",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-15",
+   "act": 2,
+   "start": 580.043,
+   "end": 581.431,
+   "role": null,
+   "sentences": [],
+   "template": "T3",
+   "variant": "",
+   "bg": "fog",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "네 번째 단계"
+      ],
+      [
+       "bold",
+       "생명 박탈"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 15,
+     "elems": [
+      [
+       "ital",
+       "2009년 11월 말 · Marie-France Comeau · 하사 · 37세 · 제437비행대"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 16,
+     "elems": [
+      [
+       "ital",
+       "두 달 뒤 · Jessica Lloyd"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "2-14"
+  },
+  {
+   "id": "2-16",
+   "act": 2,
+   "start": 581.431,
+   "end": 588.62,
+   "role": "H",
+   "sentences": [
+    "2.07#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_two_masks",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "권력 비대칭의 역학"
+      ],
+      [
+       "ital",
+       "포식자의 잔혹한 권력"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-17",
+   "act": 2,
+   "start": 588.62,
+   "end": 607.208,
+   "role": "H",
+   "sentences": [
+    "2.07#2",
+    "2.07#3"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t2_two_masks",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Marie-France Comeau 하사 · 자기 군 기지에서 복무하던 부하"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Jessica Lloyd · 외딴 단독주택에 거주하던 젊은 미혼 여성"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Jessica Lloyd"
+   ],
+   "beat_text": "Cột phải ở \"Jessica Lloyd\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-18",
+   "act": 2,
+   "start": 607.208,
+   "end": 631.303,
+   "role": "H",
+   "sentences": [
+    "2.07#4",
+    "2.07#5",
+    "2.07#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_drawer_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "두 사람 모두 생명을 빼앗겼다"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "bold",
+       "왜곡된 포식 본능 + 군대식 엄격한 규율"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "모든 것을 사진으로 남기고, 매번의 침입을 꼼꼼하게 기록"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-19",
+   "act": 2,
+   "start": 631.303,
+   "end": 644.063,
+   "role": "H",
+   "sentences": [
+    "2.07#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "들은 보시겠습니다:"
+      ],
+      [
+       "bold",
+       "수사관님의 설명"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-20",
+   "act": 2,
+   "start": 644.063,
+   "end": 677.239,
+   "role": "D",
+   "sentences": [
+    "2.08#1",
+    "2.08#2",
+    "2.08#3"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "분명히 구분해야 할 두 가지 개념"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "bold",
+       "범행 수법"
+      ],
+      [
+       "ital",
+       "(Modus Operandi)"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "82건의 침입 범행을 거치며 계속 수정·발전"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Thuật ngữ ở `#2`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-21",
+   "act": 2,
+   "start": 677.239,
+   "end": 689.384,
+   "role": "D",
+   "sentences": [
+    "2.08#4"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_drawer_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "심리학적 개념"
+      ],
+      [
+       "bold",
+       "심리적 시그니처"
+      ],
+      [
+       "ital",
+       "(Signature)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Thuật ngữ ở `#4`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-22",
+   "act": 2,
+   "start": 689.384,
+   "end": 713.406,
+   "role": "D",
+   "sentences": [
+    "2.08#5",
+    "2.08#6",
+    "2.08#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_boot_evidence",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "물건을 내다 팔려고 훔친 것이 아니었다"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "피해자의 옷을 입고 거울 앞 셀카를 찍었다"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "심리적 흥분을 유지하기 위해 반드시 필요했던 것"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-23",
+   "act": 2,
+   "start": 713.406,
+   "end": 719.127,
+   "role": "D",
+   "sentences": [
+    "2.08#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_tire_track",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "눈 위의 타이어 자국이 경찰을 그에게로 몰고 갔다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-24",
+   "act": 2,
+   "start": 719.127,
+   "end": 728.228,
+   "role": "D",
+   "sentences": [
+    "2.08#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_hidden_drive",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "단 하나의 결정적 열쇠"
+      ],
+      [
+       "ital",
+       "대령의 가면을 완전히 벗겨낸 비밀 디지털 보관소"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-25",
+   "act": 2,
+   "start": 728.228,
+   "end": 730.363,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "제3막"
+      ],
+      [
+       "bold",
+       "두 얼굴을 가진 포식자의 내면"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "3-01",
+   "act": 3,
+   "start": 730.363,
+   "end": 739.778,
+   "role": "H",
+   "sentences": [
+    "3.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_command_chair",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "영혼이 서늘해지는 질문 하나"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-02",
+   "act": 3,
+   "start": 739.778,
+   "end": 751.888,
+   "role": "H",
+   "sentences": [
+    "3.02#2"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t2_command_chair",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "사회적 지위 · 명성 · 뛰어난 아내 · 온국민의 존경까지"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "왜 모든 것을 내던졌을까요?"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "내던졌을까요"
+   ],
+   "beat_text": "Mỗi mục ở cụm từ; tiêu đề ở \"내던졌을까요\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-03",
+   "act": 3,
+   "start": 751.888,
+   "end": 752.105,
+   "role": null,
+   "sentences": [],
+   "template": "T8",
+   "variant": "",
+   "bg": "t2_command_chair",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "사회적 지위 · 명성 · 뛰어난 아내 · 온국민의 존경까지"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "왜 모든 것을 내던졌을까요?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-02"
+  },
+  {
+   "id": "3-04",
+   "act": 3,
+   "start": 752.105,
+   "end": 764.429,
+   "role": "H",
+   "sentences": [
+    "3.04#1"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "분석에 앞서"
+      ],
+      [
+       "bold",
+       "공개된 공식적인 임상 정신과 진단은 존재하지 않는다"
+      ],
+      [
+       "ital",
+       "Russell Williams에 대해"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-05",
+   "act": 3,
+   "start": 764.429,
+   "end": 775.228,
+   "role": "H",
+   "sentences": [
+    "3.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_brain_neural",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "올바른 질문을 던지기 위한 시각"
+      ],
+      [
+       "ital",
+       "확정된 진단이 아닌 분석 도구"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-06",
+   "act": 3,
+   "start": 775.228,
+   "end": 784.477,
+   "role": "H",
+   "sentences": [
+    "3.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_brain_neural",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "들은 보시겠습니다:"
+      ],
+      [
+       "bold",
+       "심리학 전문가"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "이 대령의 뇌 속에서 작동했던 다층적인 심리 메커니즘"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-07",
+   "act": 3,
+   "start": 784.477,
+   "end": 809.568,
+   "role": "C",
+   "sentences": [
+    "3.05#1",
+    "3.05#2",
+    "3.05#3"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_brain_neural",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "심신상실이나 정신병 상태의 인물이 아니었다"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "bold",
+       "완전히 온전한 정신"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "3단계의 심리 메커니즘"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "3 vòng sáng ở `#3`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-08",
+   "act": 3,
+   "start": 809.568,
+   "end": 817.906,
+   "role": "C",
+   "sentences": [
+    "3.05#4"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_escalation_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "첫 번째 층위"
+      ],
+      [
+       "bold",
+       "망상의 주기"
+      ],
+      [
+       "ital",
+       "Dopamine 내성화 · 심리적 폭발의 기폭제"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-09",
+   "act": 3,
+   "start": 817.906,
+   "end": 826.922,
+   "role": "C",
+   "sentences": [
+    "3.05#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_escalation_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "흔히 관찰되는 전형적인 양상"
+      ],
+      [
+       "ital",
+       "Williams의 초기 행동"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "전형적인 양상"
+   ],
+   "beat_text": "Tiêu đề ở \"전형적인 양상\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-10",
+   "act": 3,
+   "start": 826.922,
+   "end": 841.526,
+   "role": "C",
+   "sentences": [
+    "3.05#6"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_brain_neural",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "DOPAMINE"
+      ],
+      [
+       "ital",
+       "뇌에서 분비된 쾌감"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "극도의 권력적 쾌감"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Nhịp nhấp nháy ở `#6`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-11",
+   "act": 3,
+   "start": 841.526,
+   "end": 848.971,
+   "role": "C",
+   "sentences": [
+    "3.05#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_brain_neural",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "자극에 대한 내성 메커니즘"
+      ],
+      [
+       "ital",
+       "인간의 뇌가 지닌 기제"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-12",
+   "act": 3,
+   "start": 848.971,
+   "end": 870.916,
+   "role": "C",
+   "sentences": [
+    "3.05#8",
+    "3.05#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_brain_neural",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "기존의 일탈이 익숙해지다"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 9,
+     "elems": [
+      [
+       "ital",
+       "최초의 쾌감을 되찾으려면 위험의 수위를 높여야 했다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-13",
+   "act": 3,
+   "start": 870.916,
+   "end": 897.424,
+   "role": "C",
+   "sentences": [
+    "3.05#10"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_stairs_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "심리적 기폭제"
+      ],
+      [
+       "ital",
+       "(Precipitating Trigger)"
+      ],
+      [
+       "ital",
+       "2009년 7월 · Trenton 기지 최고 사령관 취임"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "기폭제"
+   ],
+   "beat_text": "Tiêu đề ở \"기폭제\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-14",
+   "act": 3,
+   "start": 897.424,
+   "end": 898.567,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_stairs_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "심리적 기폭제"
+      ],
+      [
+       "ital",
+       "(Precipitating Trigger)"
+      ],
+      [
+       "ital",
+       "2009년 7월 · Trenton 기지 최고 사령관 취임"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-13"
+  },
+  {
+   "id": "3-15",
+   "act": 3,
+   "start": 898.567,
+   "end": 915.94,
+   "role": "H",
+   "sentences": [
+    "3.07#1"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t2_two_masks",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "낮에는 수천 명의 장병을 통솔"
+      ],
+      [
+       "ital",
+       "훌륭한 아내 곁에서 평온한 생활"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 1,
+     "elems": [
+      [
+       "ital",
+       "밤이 되면"
+      ],
+      [
+       "bold",
+       "완전히 다른 존재"
+      ],
+      [
+       "ital",
+       "미치지 않고 양심의 가책도 느끼지 않음"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "밤이 되면"
+   ],
+   "beat_text": "Cột phải ở \"밤이 되면\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-16",
+   "act": 3,
+   "start": 915.94,
+   "end": 937.907,
+   "role": "C",
+   "sentences": [
+    "3.08#1",
+    "3.08#2"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_two_drawers",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "두 번째 층위"
+      ],
+      [
+       "bold",
+       "절대적인 정신적 분할"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "(Compartmentalization)"
+      ],
+      [
+       "ital",
+       "자기합리화 시스템 · 독립된 마음의 서랍 두 개"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Thuật ngữ Anh ở `#2`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-17",
+   "act": 3,
+   "start": 937.907,
+   "end": 963.785,
+   "role": "C",
+   "sentences": [
+    "3.08#3",
+    "3.08#4",
+    "3.08#5"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t2_two_drawers",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "첫 번째 서랍"
+      ],
+      [
+       "bold",
+       "WILLIAMS 대령"
+      ],
+      [
+       "ital",
+       "Ottawa · 모범적인 사령관이자 남편"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "두 번째 서랍"
+      ],
+      [
+       "bold",
+       "밤의 포식자"
+      ],
+      [
+       "ital",
+       "Tweed에서 어둠의 괴물"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cột phải ở `#5`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-18",
+   "act": 3,
+   "start": 963.785,
+   "end": 997.791,
+   "role": "C",
+   "sentences": [
+    "3.08#6",
+    "3.08#7",
+    "3.08#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_drawer_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "다른 쪽 서랍의 문을 철저히 닫아걸었다"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "“정상성의 방패” · 스스로를 기만하다"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "ital",
+       "도덕적 중화 기술 · 초기 82건의 침입"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "닫아걸었습니다"
+   ],
+   "beat_text": "Ngăn kéo đóng ở \"닫아걸었습니다\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-19",
+   "act": 3,
+   "start": 997.791,
+   "end": 1014.106,
+   "role": "C",
+   "sentences": [
+    "3.08#9",
+    "3.08#10"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "“피해자가 내 얼굴을 보았으니”라는 자기합리화"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 10,
+     "elems": [
+      [
+       "bold",
+       "진정한 도덕적 설명 따위는 없었다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-20",
+   "act": 3,
+   "start": 1014.106,
+   "end": 1028.961,
+   "role": "C",
+   "sentences": [
+    "3.08#11"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "예, 하지만 답은 모르겠고, 답이 중요하다고 생각하지도 않습니다."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Câu trích từng dòng từ dấu `:`",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-21",
+   "act": 3,
+   "start": 1028.961,
+   "end": 1044.8,
+   "role": "C",
+   "sentences": [
+    "3.08#12",
+    "3.08#13"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "가장 파렴치한 대답"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 13,
+     "elems": [
+      [
+       "ital",
+       "자기합리화의 기제가 무의식에 깊이 박혀 있었다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-22",
+   "act": 3,
+   "start": 1044.8,
+   "end": 1046.769,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "가장 파렴치한 대답"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 13,
+     "elems": [
+      [
+       "ital",
+       "자기합리화의 기제가 무의식에 깊이 박혀 있었다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-21"
+  },
+  {
+   "id": "3-23",
+   "act": 3,
+   "start": 1046.769,
+   "end": 1070.694,
+   "role": "H",
+   "sentences": [
+    "3.10#1",
+    "3.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_command_chair",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "또 하나의 고통스러운 질문"
+      ],
+      [
+       "ital",
+       "아내와 가족 앞에서는 어떻게 완벽한 태연함을 유지할 수 있었을까"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-24",
+   "act": 3,
+   "start": 1070.694,
+   "end": 1078.911,
+   "role": "C",
+   "sentences": [
+    "3.11#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_command_chair",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "세 번째 층위"
+      ],
+      [
+       "bold",
+       "전형적인 심리적 구획화 메커니즘"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "구획화"
+   ],
+   "beat_text": "Thuật ngữ ở \"구획화\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-25",
+   "act": 3,
+   "start": 1078.911,
+   "end": 1087.327,
+   "role": "C",
+   "sentences": [
+    "3.11#2"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_brain_neural",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "심리학"
+      ],
+      [
+       "bold",
+       "정신 이론"
+      ],
+      [
+       "ital",
+       "(Theory of Mind)"
+      ],
+      [
+       "ital",
+       "감정 이해력의 결핍"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-26",
+   "act": 3,
+   "start": 1087.327,
+   "end": 1094.781,
+   "role": "C",
+   "sentences": [
+    "3.11#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_base_trenton",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "공적 가면을 지켜내기 위한 갑옷"
+      ],
+      [
+       "ital",
+       "결혼 생활과 사회적 지위"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-27",
+   "act": 3,
+   "start": 1094.781,
+   "end": 1106.657,
+   "role": "C",
+   "sentences": [
+    "3.11#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_two_masks",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "낮의 모범적인 남편과 군 지휘관, 밤의 병적인 포식자"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "병적인 포식자"
+   ],
+   "beat_text": "Tiêu đề ở \"병적인 포식자\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-28",
+   "act": 3,
+   "start": 1106.657,
+   "end": 1120.344,
+   "role": "C",
+   "sentences": [
+    "3.11#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_command_chair",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "두 인격은 결코 모순되지 않았다"
+      ],
+      [
+       "ital",
+       "가족은 사회적 가면의 방패 · 본능은 숨겨진 영역"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-29",
+   "act": 3,
+   "start": 1120.344,
+   "end": 1140.058,
+   "role": "C",
+   "sentences": [
+    "3.11#6"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_command_chair",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "내가 너희를 지배하고 있으며, 그 누구도 내게 손댈 수 없다"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "내가 너희를 지배하고"
+   ],
+   "beat_text": "Câu trích ở \"내가 너희를 지배하고\" (lời độc thoại tưởng tượng — dấu “” màu tím `violet` của Cáo, không phải lời thật)",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-30",
+   "act": 3,
+   "start": 1140.058,
+   "end": 1143.16,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "제4막"
+      ],
+      [
+       "bold",
+       "군인 정신을 깨우는 기술"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "4-01",
+   "act": 4,
+   "start": 1143.16,
+   "end": 1150.419,
+   "role": "H",
+   "sentences": [
+    "4.03#1",
+    "4.03#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2010년 2월 7일"
+      ],
+      [
+       "ital",
+       "일요일 · Ottawa 주 경찰 본부 · 오후 3시"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gõ từng ký tự; đèn huỳnh quang (SFX `4.01`)",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-02",
+   "act": 4,
+   "start": 1150.419,
+   "end": 1167.842,
+   "role": "H",
+   "sentences": [
+    "4.03#3",
+    "4.03#4"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t2_two_chairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "테이블 한쪽"
+      ],
+      [
+       "bold",
+       "대령 RUSSELL WILLIAMS"
+      ],
+      [
+       "ital",
+       "사복 차림"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "ital",
+       "맞은편"
+      ],
+      [
+       "bold",
+       "형사 JIM SMYTH"
+      ],
+      [
+       "ital",
+       "Ontario 주 경찰 행동과학 수사 전문가"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cột phải ở `#4`; chỉ tên, không gắn lên bóng (V5)",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-03",
+   "act": 4,
+   "start": 1167.842,
+   "end": 1187.587,
+   "role": "H",
+   "sentences": [
+    "4.03#5",
+    "4.03#6"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "자발적으로 이곳에 걸어 들어왔다"
+      ],
+      [
+       "ital",
+       "참고인 면담 요청 전화 이후"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "변호인의 입회를 거절한 채 편안히 앉아"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-04",
+   "act": 4,
+   "start": 1187.587,
+   "end": 1188.839,
+   "role": null,
+   "sentences": [],
+   "template": "T2",
+   "variant": "",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "자발적으로 이곳에 걸어 들어왔다"
+      ],
+      [
+       "ital",
+       "참고인 면담 요청 전화 이후"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "변호인의 입회를 거절한 채 편안히 앉아"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "4-03"
+  },
+  {
+   "id": "4-05",
+   "act": 4,
+   "start": 1188.839,
+   "end": 1201.847,
+   "role": "H",
+   "sentences": [
+    "4.05#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_tape_recorder",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "들은 보시겠습니다:"
+      ],
+      [
+       "bold",
+       "지역 주민들의 목소리"
+      ],
+      [
+       "ital",
+       "Williams의 어두운 그림자 아래서 살아온 사람들의 증언"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N2"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-06",
+   "act": 4,
+   "start": 1201.847,
+   "end": 1217.147,
+   "role": "N2",
+   "sentences": [
+    "4.06#1",
+    "4.06#2"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t2_house_missing_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "…저희의 작은 Tweed 마을은 숨이 막힐 듯한 막연한 불안감 속에서…"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-07",
+   "act": 4,
+   "start": 1217.147,
+   "end": 1225.462,
+   "role": "N2",
+   "sentences": [
+    "4.06#3"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "…스스로가 지나치게 예민한 탓이라고만 생각했습니다…충격적인 진실이 드러나기 전까지…"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-08",
+   "act": 4,
+   "start": 1225.462,
+   "end": 1245.145,
+   "role": "N2",
+   "sentences": [
+    "4.06#4"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "…고급 장교의 탈을 쓴 악마 같은 남자가 바로 침실 안에 서서 어둠 속에서 자신을 가만히 내려다보고 있었다…"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-09",
+   "act": 4,
+   "start": 1245.145,
+   "end": 1271.035,
+   "role": "H",
+   "sentences": [
+    "4.07#1",
+    "4.07#2",
+    "4.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_two_chairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "심리 심문의 정수"
+      ],
+      [
+       "ital",
+       "수사관 Jim Smyth"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "들은 보시겠습니다:"
+      ],
+      [
+       "bold",
+       "숨 막히는 두뇌 싸움"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-10",
+   "act": 4,
+   "start": 1271.035,
+   "end": 1290.255,
+   "role": "D",
+   "sentences": [
+    "4.08#1",
+    "4.08#2"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_two_chairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "신뢰 구축 기법"
+      ],
+      [
+       "ital",
+       "(Rapport Building)"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "차분하고 정중한 어조 · 스스로 오만함의 함정으로 걸어가도록 유도"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-11",
+   "act": 4,
+   "start": 1290.255,
+   "end": 1310.34,
+   "role": "D",
+   "sentences": [
+    "4.08#3",
+    "4.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_two_chairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "무엇을 제공할 수 있겠는가?"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "bold",
+       "ADN 샘플 · 지문 · 신발 자국"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-12",
+   "act": 4,
+   "start": 1310.34,
+   "end": 1322.836,
+   "role": "D",
+   "sentences": [
+    "4.08#5"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t2_tape_recorder",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "두 사람이 대화하는 동안"
+      ],
+      [
+       "bold",
+       "현장 수색팀의 은밀한 압수수색"
+      ],
+      [
+       "ital",
+       "Ottawa의 자택과 Tweed의 별장"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Đèn xanh đỏ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-13",
+   "act": 4,
+   "start": 1322.836,
+   "end": 1336.409,
+   "role": "D",
+   "sentences": [
+    "4.08#6"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t2_boot_evidence",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "범죄 현장의 눈 위에 남겨진 스노부츠 사진"
+      ],
+      [
+       "ital",
+       "Williams의 신발 밑창"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "완전히 일치합니다."
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "라고 말했을 때였습니다"
+   ],
+   "beat_text": "Câu trích ở \"라고 말했을 때였습니다\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-14",
+   "act": 4,
+   "start": 1336.409,
+   "end": 1346.889,
+   "role": "D",
+   "sentences": [
+    "4.08#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_head_down",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "한 가지 제안"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "그냥 Russ라고 불러주십시오."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-15",
+   "act": 4,
+   "start": 1346.889,
+   "end": 1353.03,
+   "role": "D",
+   "sentences": [
+    "4.08#8"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_two_chairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "보이지 않는 밧줄이 목을 바짝 죄어오기 시작한 순간"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Trượt ảnh \"Xoẹt\" ở đầu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-16",
+   "act": 4,
+   "start": 1353.03,
+   "end": 1368.435,
+   "role": "D",
+   "sentences": [
+    "4.10#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_hidden_drive",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "지하실 천장 틈새의 비밀 외장하드"
+      ],
+      [
+       "ital",
+       "수천 장의 사진과 범행 일지"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-17",
+   "act": 4,
+   "start": 1368.435,
+   "end": 1384.963,
+   "role": "D",
+   "sentences": [
+    "4.10#2",
+    "4.10#3"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_siren_wall",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Smyth가 Williams의 눈을 똑바로 응시하며"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "quote",
+       "부인께서도 지금 무슨 일이 벌어지고 있는지 알게 되었습니다."
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "부인께서도"
+   ],
+   "beat_text": "Câu trích ở \"부인께서도\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-18",
+   "act": 4,
+   "start": 1384.963,
+   "end": 1410.63,
+   "role": "D",
+   "sentences": [
+    "4.10#4",
+    "4.10#5",
+    "4.10#6"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_head_down",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "그가 평생 쌓아 올린 전 세계가 산산조각 났다"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "quote",
+       "무슨 말을 해야 할지 모르겠습니다."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-19",
+   "act": 4,
+   "start": 1410.63,
+   "end": 1420.808,
+   "role": "D",
+   "sentences": [
+    "4.10#7"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "심문 시작 4시간 40분 후"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "그래서, 그녀는 어디에 있습니까?"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "나지막이 물었습니다"
+   ],
+   "beat_text": "Câu trích ở \"나지막이 물었습니다\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-20",
+   "act": 4,
+   "start": 1420.808,
+   "end": 1430.007,
+   "role": "D",
+   "sentences": [
+    "4.10#8"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_forest_map",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "혹시 지도가 있습니까?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "cut"
+  },
+  {
+   "id": "4-21",
+   "act": 4,
+   "start": 1430.007,
+   "end": 1439.202,
+   "role": "D",
+   "sentences": [
+    "4.10#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_interrogation_early",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "이후 약 6시간 동안"
+      ],
+      [
+       "bold",
+       "하나하나 털어놓기 시작"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-22",
+   "act": 4,
+   "start": 1439.202,
+   "end": 1463.461,
+   "role": "C",
+   "sentences": [
+    "4.11#1",
+    "4.11#2",
+    "4.11#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_two_drawers",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "인지적 방벽이 무너져 내린 순간"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "두 정신세계 사이의 장벽이 완전히 붕괴"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Hai ngăn kéo bật mở ở `#3`",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-23",
+   "act": 4,
+   "start": 1463.461,
+   "end": 1472.98,
+   "role": "C",
+   "sentences": [
+    "4.11#4"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_interrogation_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "심문 조서에서"
+      ],
+      [
+       "bold",
+       "아내"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "제 아내에게 미칠 영향을 최소화하고 싶습니다."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-24",
+   "act": 4,
+   "start": 1472.98,
+   "end": 1481.053,
+   "role": "C",
+   "sentences": [
+    "4.11#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_two_chairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Smyth도 자신 역시 그것을 원하며"
+      ],
+      [
+       "bold",
+       "유일한 길은 진실을 말하는 것"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-25",
+   "act": 4,
+   "start": 1481.053,
+   "end": 1503.966,
+   "role": "C",
+   "sentences": [
+    "4.11#6",
+    "4.11#7"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "아내가 자신을 어떻게 볼 것인가 · Trenton 기지의 명예"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "피해자들의 고통에는 단 한 방울의 눈물도"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-26",
+   "act": 4,
+   "start": 1503.966,
+   "end": 1508.545,
+   "role": "C",
+   "sentences": [
+    "4.11#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "결코 진정한 참회가 아니었다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-27",
+   "act": 4,
+   "start": 1508.545,
+   "end": 1523.367,
+   "role": "C",
+   "sentences": [
+    "4.11#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_head_down",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "명예의 가면이 완전히 박살 났다"
+      ],
+      [
+       "ital",
+       "가족과 세상 앞에서의 극단적인 자기연민"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-28",
+   "act": 4,
+   "start": 1523.367,
+   "end": 1531.412,
+   "role": "H",
+   "sentences": [
+    "4.12#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_head_down",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "완전히 무릎을 꿇었다"
+      ],
+      [
+       "ital",
+       "객관적인 물적 증거의 무게 앞에서"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-29",
+   "act": 4,
+   "start": 1531.412,
+   "end": 1541.793,
+   "role": "H",
+   "sentences": [
+    "4.12#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_head_down",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "JESSICA LLOYD"
+      ],
+      [
+       "ital",
+       "숲속에 숨긴 위치를 지도 위에 표시했다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-30",
+   "act": 4,
+   "start": 1541.793,
+   "end": 1554.096,
+   "role": "H",
+   "sentences": [
+    "4.12#3"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "인정"
+      ],
+      [
+       "ital",
+       "Marie-France Comeau 하사 · Tweed에서 두 차례 주거침입 공격"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-31",
+   "act": 4,
+   "start": 1554.096,
+   "end": 1563.747,
+   "role": "H",
+   "sentences": [
+    "4.12#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_folder_tree",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "외장하드의 기록"
+      ],
+      [
+       "bold",
+       "82건의 비밀 침입 범행"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-32",
+   "act": 4,
+   "start": 1563.747,
+   "end": 1568.168,
+   "role": "H",
+   "sentences": [
+    "4.12#5"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "88"
+      ],
+      [
+       "ital",
+       "88건의 전율할 중범죄 기소 · 단 한 명의 남성이 저지른"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Số đếm 0 → 88",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-33",
+   "act": 4,
+   "start": 1568.168,
+   "end": 1573.674,
+   "role": "H",
+   "sentences": [
+    "4.12#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_head_down",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "화려한 허상이 물거품처럼 사라졌다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-34",
+   "act": 4,
+   "start": 1573.674,
+   "end": 1576.771,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "제5막"
+      ],
+      [
+       "bold",
+       "판결, 레드 플래그 & 마무리"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "5-01",
+   "act": 5,
+   "start": 1576.771,
+   "end": 1586.983,
+   "role": "H",
+   "sentences": [
+    "5.02#1",
+    "5.02#2"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t2_courtroom",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2010년 10월"
+      ],
+      [
+       "ital",
+       "Ontario 주 고등법원 · Robert Scott 판사 · Belleville"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Búa gõ ba lần (SFX `5.01`) trước câu",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-02",
+   "act": 5,
+   "start": 1586.983,
+   "end": 1595.635,
+   "role": "H",
+   "sentences": [
+    "5.02#3"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "t2_courtroom",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "10월 18일"
+      ],
+      [
+       "bold",
+       "88"
+      ],
+      [
+       "ital",
+       "모든 기소 사실에 대해 유죄 인정"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Số đếm",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-03",
+   "act": 5,
+   "start": 1595.635,
+   "end": 1610.05,
+   "role": "H",
+   "sentences": [
+    "5.02#4"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t2_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "21일 · 판결 선고"
+      ],
+      [
+       "ital",
+       "동시 집행 종신형 2건 · 성폭행 각 10년 · 불법 감금 각 10년 · 82건의 주거침입 각 1년"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi mục ở cụm từ (câu dài ~20 s → 5 beat)",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-04",
+   "act": 5,
+   "start": 1610.05,
+   "end": 1621.926,
+   "role": "H",
+   "sentences": [
+    "5.02#5",
+    "5.02#6"
+   ],
+   "template": "T5",
+   "variant": "",
+   "bg": "t2_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "25년"
+      ],
+      [
+       "ital",
+       "가석방 불가"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "Canada 형법이 정한 법정 절대 최소 형량"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Số đếm 0 → 25",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-05",
+   "act": 5,
+   "start": 1621.926,
+   "end": 1623.559,
+   "role": null,
+   "sentences": [],
+   "template": "T5",
+   "variant": "",
+   "bg": "t2_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "25년"
+      ],
+      [
+       "ital",
+       "가석방 불가"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "Canada 형법이 정한 법정 절대 최소 형량"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-04"
+  },
+  {
+   "id": "5-06",
+   "act": 5,
+   "start": 1623.559,
+   "end": 1631.945,
+   "role": "H",
+   "sentences": [
+    "5.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_oath_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "명예와 권력의 완전한 박탈"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Gọi lại hình lễ nhậm chức, nay tối",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-07",
+   "act": 5,
+   "start": 1631.945,
+   "end": 1653.011,
+   "role": "H",
+   "sentences": [
+    "5.04#2",
+    "5.04#3",
+    "5.04#4"
+   ],
+   "template": "T8",
+   "variant": "strike",
+   "bg": "t2_medals_cut",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "군 장교 임관 취소 · 모든 훈장 폐기 · 임관 사령장 무효화 · 국방부 웹사이트에서 복무 기록 삭제"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi câu gạch mục tương ứng",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-08",
+   "act": 5,
+   "start": 1653.011,
+   "end": 1665.135,
+   "role": "H",
+   "sentences": [
+    "5.04#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_uniform_fire",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "군복과 피복류를 완전히 불태워 버렸다"
+      ],
+      [
+       "ital",
+       "Trenton 기지 · 비밀문서 소각로"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "군복"
+   ],
+   "beat_text": "Lửa bùng ở \"군복\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-09",
+   "act": 5,
+   "start": 1665.135,
+   "end": 1681.953,
+   "role": "H",
+   "sentences": [
+    "5.04#6",
+    "5.04#7"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t2_uniform_fire",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hubert Genest · 군 대변인"
+      ],
+      [
+       "ital",
+       "공식 의전도 · 사진 촬영도 없이"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "bold",
+       "25년 군 복무 기간 중 처음"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiêu đề ở `#7`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-10",
+   "act": 5,
+   "start": 1681.953,
+   "end": 1695.104,
+   "role": "H",
+   "sentences": [
+    "5.04#8"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t2_uniform_fire",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "문장의 끝에 찍히는 마침표처럼, 그 점은 매우 작지만 대단히 중대한 의미를 지닌다."
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "문장"
+   ],
+   "beat_text": "Câu trích ở \"문장\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-11",
+   "act": 5,
+   "start": 1695.104,
+   "end": 1708.238,
+   "role": "H",
+   "sentences": [
+    "5.04#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_checkpoint_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "폐차 압축기 속에서 짓눌린 Nissan Pathfinder"
+      ],
+      [
+       "ital",
+       "수백 점의 물품은 남김없이 불태워졌다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-12",
+   "act": 5,
+   "start": 1708.238,
+   "end": 1709.899,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_checkpoint_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "폐차 압축기 속에서 짓눌린 Nissan Pathfinder"
+      ],
+      [
+       "ital",
+       "수백 점의 물품은 남김없이 불태워졌다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-11"
+  },
+  {
+   "id": "5-13",
+   "act": 5,
+   "start": 1709.899,
+   "end": 1715.033,
+   "role": "H",
+   "sentences": [
+    "5.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_red_flags",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "판결을 앞둔 Williams의 내면 상태"
+      ],
+      [
+       "ital",
+       "심리학 전문가에게 묻는 질문"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-14",
+   "act": 5,
+   "start": 1715.033,
+   "end": 1721.635,
+   "role": "H",
+   "sentences": [
+    "5.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_courtroom",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "감정 없는 메마른 사과문"
+      ],
+      [
+       "ital",
+       "대본을 읽는 기계처럼"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-15",
+   "act": 5,
+   "start": 1721.635,
+   "end": 1735.51,
+   "role": "H",
+   "sentences": [
+    "5.06#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_cell_medical",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "KINGSTON PENITENTIARY"
+      ],
+      [
+       "ital",
+       "모든 특권 박탈 · 가장 경멸받는 수형자"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-16",
+   "act": 5,
+   "start": 1735.51,
+   "end": 1753.469,
+   "role": "H",
+   "sentences": [
+    "5.06#4"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t2_red_flags",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "심리학"
+      ],
+      [
+       "bold",
+       "자기애적 붕괴"
+      ],
+      [
+       "ital",
+       "(Narcissistic Collapse)"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "ital",
+       "남은 것은 비참한 자기연민뿐"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-17",
+   "act": 5,
+   "start": 1753.469,
+   "end": 1774.581,
+   "role": "C",
+   "sentences": [
+    "5.07#1",
+    "5.07#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "씻을 수 없는 깊은 트라우마"
+      ],
+      [
+       "ital",
+       "Canada 군의 보안 심사·심리 평가 시스템 전면 개편"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-18",
+   "act": 5,
+   "start": 1774.581,
+   "end": 1783.885,
+   "role": "C",
+   "sentences": [
+    "5.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_red_flags",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "결코 후광 효과에 직관을 마비시켜서는 안 된다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-19",
+   "act": 5,
+   "start": 1783.885,
+   "end": 1805.82,
+   "role": "C",
+   "sentences": [
+    "5.07#4",
+    "5.07#5",
+    "5.07#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_escalation_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "높은 사회적 지위 · 학벌 · 화려한 계급장은 사회적 외투에 불과"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "bold",
+       "아주 작은 경계 침범에서 싹틉니다"
+      ],
+      [
+       "ital",
+       "엿보기 · 사적 물품 뒤지기"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-20",
+   "act": 5,
+   "start": 1805.82,
+   "end": 1816.314,
+   "role": "C",
+   "sentences": [
+    "5.07#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_stairs_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "만족의 역치는 끝없이 확장된다"
+      ],
+      [
+       "ital",
+       "피해자는 물론 가해자 자신까지 삼키는 날"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-21",
+   "act": 5,
+   "start": 1816.314,
+   "end": 1831.891,
+   "role": "D",
+   "sentences": [
+    "5.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_folder_tree",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "군대식 철저한 규율과 기록"
+      ],
+      [
+       "bold",
+       "스스로 유죄 판결문을 쓰게 만들었다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-22",
+   "act": 5,
+   "start": 1831.891,
+   "end": 1836.455,
+   "role": "D",
+   "sentences": [
+    "5.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "자기애적 오만함은 반드시 흔적을 남긴다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-23",
+   "act": 5,
+   "start": 1836.455,
+   "end": 1845.26,
+   "role": "D",
+   "sentences": [
+    "5.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_red_flags",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "자신의 직관을 언제나 신뢰하라"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-24",
+   "act": 5,
+   "start": 1845.26,
+   "end": 1863.921,
+   "role": "D",
+   "sentences": [
+    "5.08#4",
+    "5.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_head_down",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "모호한 불안감 · 사적인 경계의 미세한 침해당"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "bold",
+       "내면에 장착된 조기 경보 레이더"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-25",
+   "act": 5,
+   "start": 1863.921,
+   "end": 1865.736,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_head_down",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "모호한 불안감 · 사적인 경계의 미세한 침해당"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "bold",
+       "내면에 장착된 조기 경보 레이더"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-24"
+  },
+  {
+   "id": "5-26",
+   "act": 5,
+   "start": 1865.736,
+   "end": 1874.294,
+   "role": "H",
+   "sentences": [
+    "5.10#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "인간 심연의 헤아릴 수 없는 어둠을 경고하는 기록"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-27",
+   "act": 5,
+   "start": 1874.294,
+   "end": 1886.035,
+   "role": "H",
+   "sentences": [
+    "5.10#2",
+    "5.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "탁월한 엘리트 지능도 아무도 구원하지 못한다"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "파멸의 순간을 뒤로 미루고 붕괴를 더 처참하게 만들 뿐"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-28",
+   "act": 5,
+   "start": 1886.035,
+   "end": 1894.327,
+   "role": "H",
+   "sentences": [
+    "5.10#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "비밀을 쥐고 있던 유일한 사람은 한 명"
+      ],
+      [
+       "ital",
+       "바로 그 남자였다"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-29",
+   "act": 5,
+   "start": 1894.327,
+   "end": 1900.125,
+   "role": "H",
+   "sentences": [
+    "5.10#5",
+    "5.10#6"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t2_folder_tree",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "그의 전리품"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "치밀하게 정리된 사진들"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "세심하게 숨겨두었던 도난품들"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mỗi câu một mục",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-30",
+   "act": 5,
+   "start": 1900.125,
+   "end": 1910.62,
+   "role": "H",
+   "sentences": [
+    "5.10#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_escalation_stairs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "열 시간 동안 이어진 심리전"
+      ],
+      [
+       "ital",
+       "명예로운 가면이 영원히 회복 불가능함을 깨닫기에"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-31",
+   "act": 5,
+   "start": 1910.62,
+   "end": 1919.39,
+   "role": "H",
+   "sentences": [
+    "5.10#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_oath_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "가장 큰 배움은 공포가 아니라"
+      ],
+      [
+       "ital",
+       "안전한 경계를 분별하고 지켜내기 위한 각성"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "각성"
+   ],
+   "beat_text": "Tiêu đề ở \"각성\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-32",
+   "act": 5,
+   "start": 1919.39,
+   "end": 1920.551,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_oath_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "hero",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "가장 큰 배움은 공포가 아니라"
+      ],
+      [
+       "ital",
+       "안전한 경계를 분별하고 지켜내기 위한 각성"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-31"
+  },
+  {
+   "id": "5-33",
+   "act": 5,
+   "start": 1920.551,
+   "end": 1932.334,
+   "role": "H",
+   "sentences": [
+    "5.12#1",
+    "5.12#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "함께해 주신 전문가 여러분께 감사드립니다"
+      ],
+      [
+       "ital",
+       "가상 인물 · AI 음성"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "5 ảnh P0 sáng lần lượt",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": true,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-34",
+   "act": 5,
+   "start": 1932.334,
+   "end": 1941.556,
+   "role": "H",
+   "sentences": [
+    "5.12#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t2_podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "언제나 깨어 있는 시선을 유지하라"
+      ],
+      [
+       "ital",
+       "내면의 직관에 귀를 기울이며 · 삶의 평온함을 지켜라"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-35",
+   "act": 5,
+   "start": 1941.556,
+   "end": 1945.693,
+   "role": "H",
+   "sentences": [
+    "5.12#4"
+   ],
+   "template": "T10",
+   "variant": "",
+   "bg": "t2_podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "다음 범죄심리 분석 파일에서 다시 뵙겠습니다"
+      ],
+      [
+       "ital",
+       "여러분의 의견을 댓글로 남겨주세요"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-36",
+   "act": 5,
+   "start": 1945.693,
+   "end": 1953.97,
+   "role": null,
+   "sentences": [],
+   "template": "T2",
+   "variant": "",
+   "bg": "t2_podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "02화 · 두 얼굴의 대령"
+      ],
+      [
+       "bold",
+       "AMBER EYES"
+      ],
+      [
+       "ital",
+       "범죄심리 분석"
+      ],
+      [
+       "ital",
+       "실제 사건 파일을 통해"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Thẻ hồ sơ hiện sau tiếng \"Cạch\"; mờ ra đen",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  }
+ ]
+}

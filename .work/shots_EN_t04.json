@@ -1,5 +1,5 @@
 {
- "total": 1588.089,
+ "total": 1533.113,
  "shots": [
   {
    "id": "1-00",
@@ -26,7 +26,7 @@
     }
    ],
    "beats": [],
-   "beat_text": "Distant siren, ICU ventilator",
+   "beat_text": "Còi xe cấp cứu từ xa, tiếng máy thở ICU",
    "flags": {
     "bust": false,
     "nobust": true,
@@ -43,11 +43,12 @@
    "id": "1-01",
    "act": 1,
    "start": 22.8,
-   "end": 29.693,
+   "end": 34.533,
    "role": "H",
    "sentences": [
     "1.03#1",
-    "1.03#2"
+    "1.03#2",
+    "1.03#3"
    ],
    "template": "T5",
    "variant": "date",
@@ -61,7 +62,7 @@
      "elems": [
       [
        "bold",
-       "AUTUMN 2003"
+       "AUTUMN OF 2003"
       ],
       [
        "ital",
@@ -74,7 +75,7 @@
      "elems": [
       [
        "ital",
-       "Town of Somerville · New Jersey"
+       "Somerville · New Jersey"
       ]
      ]
     }
@@ -96,11 +97,11 @@
   {
    "id": "1-02",
    "act": 1,
-   "start": 29.693,
-   "end": 38.391,
+   "start": 34.533,
+   "end": 44.728,
    "role": "H",
    "sentences": [
-    "1.03#3"
+    "1.03#4"
    ],
    "template": "T1",
    "variant": "",
@@ -114,11 +115,20 @@
      "elems": [
       [
        "bold",
-       "INTENSIVE CARE UNIT (ICU)"
+       "THE 43-YEAR-OLD MAN"
       ],
       [
        "ital",
-       "Bathed in cold white fluorescent light"
+       "A frail frame, spoke in a quiet murmur"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Eagerly volunteered to cover shifts"
       ]
      ]
     }
@@ -140,11 +150,12 @@
   {
    "id": "1-03",
    "act": 1,
-   "start": 38.391,
-   "end": 49.003,
+   "start": 44.728,
+   "end": 59.527,
    "role": "H",
    "sentences": [
-    "1.03#4"
+    "1.03#5",
+    "1.03#6"
    ],
    "template": "T1",
    "variant": "",
@@ -158,11 +169,11 @@
      "elems": [
       [
        "bold",
-       "FORTY-THREE-YEAR-OLD MAN"
+       "PRISTINE WHITE SCRUBS"
       ],
       [
        "ital",
-       "Slight build · Gentle voice"
+       "A lethal “Halo Effect”"
       ]
      ]
     },
@@ -171,7 +182,7 @@
      "elems": [
       [
        "ital",
-       "Ever ready to cover shifts for exhausted colleagues"
+       "Concealed a terrifying psychological abyss for 16 long years"
       ]
      ]
     }
@@ -193,8 +204,8 @@
   {
    "id": "1-04",
    "act": 1,
-   "start": 49.003,
-   "end": 50.303,
+   "start": 59.527,
+   "end": 60.827,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -209,11 +220,11 @@
      "elems": [
       [
        "bold",
-       "FORTY-THREE-YEAR-OLD MAN"
+       "PRISTINE WHITE SCRUBS"
       ],
       [
        "ital",
-       "Slight build · Gentle voice"
+       "A lethal “Halo Effect”"
       ]
      ]
     },
@@ -222,7 +233,7 @@
      "elems": [
       [
        "ital",
-       "Ever ready to cover shifts for exhausted colleagues"
+       "Concealed a terrifying psychological abyss for 16 long years"
       ]
      ]
     }
@@ -245,8 +256,8 @@
   {
    "id": "1-05",
    "act": 1,
-   "start": 50.303,
-   "end": 59.883,
+   "start": 60.827,
+   "end": 69.741,
    "role": "H",
    "sentences": [
     "1.05#1"
@@ -267,19 +278,19 @@
       ],
       [
        "bold",
-       "BOUNDARY BETWEEN LIFE AND PASSING"
+       "THE THRESHOLD BETWEEN SURVIVAL AND DEATH"
       ],
       [
        "ital",
-       "A thoroughly dependable colleague"
+       "A pillar of reliability"
       ]
      ]
     }
    ],
    "beats": [
-    "Boundary"
+    "threshold"
    ],
-   "beat_text": "Dấu mộc ở \"Boundary\"",
+   "beat_text": "Dấu mộc ở \"threshold\"",
    "flags": {
     "bust": true,
     "nobust": false,
@@ -295,12 +306,13 @@
   {
    "id": "1-06",
    "act": 1,
-   "start": 59.883,
-   "end": 79.921,
+   "start": 69.741,
+   "end": 92.697,
    "role": "H",
    "sentences": [
     "1.05#2",
-    "1.05#3"
+    "1.05#3",
+    "1.05#4"
    ],
    "template": "T1",
    "variant": "",
@@ -314,11 +326,11 @@
      "elems": [
       [
        "bold",
-       "FIRST TO RUSH OVER TO ASSIST"
+       "ALWAYS THE FIRST TO RUSH IN"
       ],
       [
        "ital",
-       "Quietly tidying the room after resuscitation"
+       "Quietly stayed behind to tidy up the room"
       ]
      ]
     },
@@ -327,7 +339,7 @@
      "elems": [
       [
        "ital",
-       "Depth of fondness and trust of colleagues"
+       "A humble confidant · A quiet father"
       ]
      ]
     }
@@ -349,12 +361,13 @@
   {
    "id": "1-07",
    "act": 1,
-   "start": 79.921,
-   "end": 93.682,
+   "start": 92.697,
+   "end": 111.254,
    "role": "N1",
    "sentences": [
     "1.07#1",
-    "1.07#2"
+    "1.07#2",
+    "1.07#3"
    ],
    "template": "T4",
    "variant": "testimony",
@@ -368,7 +381,7 @@
      "elems": [
       [
        "quote",
-       "In the eyes of every nurse among us, Charlie was a wonderful friend."
+       "To all of us nurses at Somerset Medical Center, Charlie was simply an incredible friend."
       ]
      ]
     },
@@ -377,7 +390,7 @@
      "elems": [
       [
        "quote",
-       "He was thoughtful, never lost his temper, and possessed extraordinarily gentle hands…"
+       "He was considerate, never lost his temper, and cared for patients with exceptional gentleness."
       ]
      ]
     }
@@ -399,12 +412,12 @@
   {
    "id": "1-08",
    "act": 1,
-   "start": 93.682,
-   "end": 113.808,
+   "start": 111.254,
+   "end": 125.63,
    "role": "N1",
    "sentences": [
-    "1.07#3",
-    "1.07#4"
+    "1.07#4",
+    "1.07#5"
    ],
    "template": "T4",
    "variant": "testimony",
@@ -418,16 +431,16 @@
      "elems": [
       [
        "quote",
-       "Whenever I was exhausted or unwell, he took the initiative to shoulder the workload…"
+       "Not a single person in the hospital could ever have suspected a coworker so gentle and dedicated."
       ]
      ]
     },
     {
-     "at_sentence": 4,
+     "at_sentence": 5,
      "elems": [
       [
        "quote",
-       "No one in the entire hospital could have harbored the slightest suspicion…"
+       "…we had worked alongside one of the most prolific serial killers in history."
       ]
      ]
     }
@@ -449,11 +462,12 @@
   {
    "id": "1-09",
    "act": 1,
-   "start": 113.808,
-   "end": 124.144,
+   "start": 125.63,
+   "end": 140.841,
    "role": "H",
    "sentences": [
-    "1.08#1"
+    "1.08#1",
+    "1.08#2"
    ],
    "template": "T1",
    "variant": "",
@@ -467,11 +481,20 @@
      "elems": [
       [
        "bold",
-       "BEHIND THE PRISTINE WHITE LAB COAT"
+       "A DEADLY SHADOW"
       ],
       [
        "ital",
-       "A phantom of death quietly stalking the hospital corridors"
+       "Silently stalking through the hospital corridors"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "Father Florian Gall, a 68-year-old"
       ]
      ]
     }
@@ -493,13 +516,13 @@
   {
    "id": "1-10",
    "act": 1,
-   "start": 124.144,
-   "end": 149.344,
+   "start": 140.841,
+   "end": 160.79,
    "role": "H",
    "sentences": [
-    "1.08#2",
     "1.08#3",
-    "1.08#4"
+    "1.08#4",
+    "1.08#5"
    ],
    "template": "T1",
    "variant": "",
@@ -513,20 +536,7 @@
      "elems": [
       [
        "bold",
-       "FATHER FLORIAN GALL · 68 YEARS OLD"
-      ],
-      [
-       "ital",
-       "Admitted for pneumonia and infectious complications"
-      ]
-     ]
-    },
-    {
-     "at_sentence": 3,
-     "elems": [
-      [
-       "ital",
-       "Condition had stabilized and preparing for discharge"
+       "RECOVERY WAS PROGRESSING FAVORABLY"
       ]
      ]
     },
@@ -535,7 +545,16 @@
      "elems": [
       [
        "bold",
-       "CONVULSED INTO ARRHYTHMIA BEFORE ARRESTING COMPLETELY"
+       "PLUNGED INTO SEVERE CARDIAC ARRHYTHMIA"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "Fought for hours to resuscitate him, but were unable to reverse his collapse"
       ]
      ]
     }
@@ -557,11 +576,56 @@
   {
    "id": "1-11",
    "act": 1,
-   "start": 149.344,
-   "end": 164.678,
+   "start": 160.79,
+   "end": 166.975,
    "role": "H",
    "sentences": [
-    "1.10#1"
+    "1.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_patient_room_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "AN ABRUPT AND PERPLEXING DEMISE"
+      ],
+      [
+       "ital",
+       "Family members and treating clinicians deeply troubled"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-12",
+   "act": 1,
+   "start": 166.975,
+   "end": 184.748,
+   "role": "H",
+   "sentences": [
+    "1.10#1",
+    "1.10#2"
    ],
    "template": "T2",
    "variant": "",
@@ -579,19 +643,19 @@
       ],
       [
        "bold",
-       "DIGOXIN LEVELS DOZENS OF TIMES HIGHER"
+       "LETHAL CONCENTRATIONS OF DIGOXIN"
       ],
       [
        "ital",
-       "Dozens of times above therapeutic threshold"
+       "Dozens of times higher than therapeutic limits"
       ]
      ]
     }
    ],
    "beats": [
-    "Digoxin levels"
+    "Digoxin"
    ],
-   "beat_text": "Dấu mộc ở \"Digoxin levels\"",
+   "beat_text": "Dấu mộc ở \"Digoxin\"",
    "flags": {
     "bust": true,
     "nobust": false,
@@ -605,14 +669,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-12",
+   "id": "1-13",
    "act": 1,
-   "start": 164.678,
-   "end": 177.485,
+   "start": 184.748,
+   "end": 210.354,
    "role": "H",
    "sentences": [
-    "1.10#2",
-    "1.10#3"
+    "1.10#3",
+    "1.10#4",
+    "1.10#5"
    ],
    "template": "T1",
    "variant": "",
@@ -626,28 +691,33 @@
      "elems": [
       [
        "bold",
-       "THIS WAS NO MEDICAL MISTAKE"
-      ],
-      [
-       "ital",
-       "Lethal overdose dozens of times above allowable limits"
+       "SEIZED BY A DELIBERATE OVERDOSE"
       ]
      ]
     },
     {
-     "at_sentence": 3,
+     "at_sentence": 4,
+     "elems": [
+      [
+       "bold",
+       "PROMPTLY ISSUED AN URGENT WARNING"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
      "elems": [
       [
        "ital",
-       "Intentionally administered directly into intravenous line"
+       "Chose to delay, keeping the matter quiet"
       ]
      ]
     }
    ],
    "beats": [
-    "Intentionally"
+    "deliberate"
    ],
-   "beat_text": "Sub-drop ở \"Intentionally\"",
+   "beat_text": "Sub-drop ở \"deliberate\"",
    "flags": {
     "bust": false,
     "nobust": true,
@@ -661,10 +731,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-13",
+   "id": "1-14",
    "act": 1,
-   "start": 177.485,
-   "end": 179.285,
+   "start": 210.354,
+   "end": 212.154,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -679,20 +749,25 @@
      "elems": [
       [
        "bold",
-       "THIS WAS NO MEDICAL MISTAKE"
-      ],
-      [
-       "ital",
-       "Lethal overdose dozens of times above allowable limits"
+       "SEIZED BY A DELIBERATE OVERDOSE"
       ]
      ]
     },
     {
-     "at_sentence": 3,
+     "at_sentence": 4,
+     "elems": [
+      [
+       "bold",
+       "PROMPTLY ISSUED AN URGENT WARNING"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
      "elems": [
       [
        "ital",
-       "Intentionally administered directly into intravenous line"
+       "Chose to delay, keeping the matter quiet"
       ]
      ]
     }
@@ -710,16 +785,17 @@
    },
    "hold": true,
    "transition": "dissolve",
-   "inherit": "1-12"
+   "inherit": "1-13"
   },
   {
-   "id": "1-14",
+   "id": "1-15",
    "act": 1,
-   "start": 179.285,
-   "end": 186.705,
+   "start": 212.154,
+   "end": 225.862,
    "role": "H",
    "sentences": [
-    "1.12#1"
+    "1.12#1",
+    "1.12#2"
    ],
    "template": "T1",
    "variant": "",
@@ -733,11 +809,20 @@
      "elems": [
       [
        "ital",
-       "MAGNITUDE OF THIS CASE"
+       "STAGGERING MAGNITUDE"
       ],
       [
        "bold",
-       "HEAR FROM THE LEAD INVESTIGATOR"
+       "LET US EXAMINE THE INVESTIGATIVE FINDINGS"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "The numbers buried deep within administrative records"
       ]
      ]
     }
@@ -759,10 +844,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-15",
+   "id": "1-16",
    "act": 1,
-   "start": 186.705,
-   "end": 196.566,
+   "start": 225.862,
+   "end": 236.395,
    "role": "D",
    "sentences": [
     "1.14#1",
@@ -780,11 +865,11 @@
      "elems": [
       [
        "bold",
-       "CHARLES CULLEN'S EMPLOYMENT HISTORY"
+       "THE EMPLOYMENT HISTORY OF CHARLES CULLEN"
       ],
       [
        "ital",
-       "An appalling truth unraveled before our task force"
+       "A horrifying reality emerged before our eyes"
       ]
      ]
     },
@@ -793,7 +878,7 @@
      "elems": [
       [
        "ital",
-       "Somerset Medical Center was not the first"
+       "By no means his initial crime scene"
       ]
      ]
     }
@@ -813,14 +898,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-16",
+   "id": "1-17",
    "act": 1,
-   "start": 196.566,
-   "end": 216.47,
+   "start": 236.395,
+   "end": 261.411,
    "role": "D",
    "sentences": [
     "1.14#3",
-    "1.14#4"
+    "1.14#4",
+    "1.14#5"
    ],
    "template": "T8",
    "variant": "",
@@ -834,11 +920,20 @@
      "elems": [
       [
        "ital",
-       "16 YEARS: 9 HOSPITALS AND 1 NURSING HOME"
+       "16 YEARS"
       ],
       [
        "ital",
-       "Fatal nocturnal cardiac arrests spiked in a bizarre statistical curve"
+       "9 DIFFERENT HOSPITALS AND 1 NURSING HOME"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "ital",
+       "Nighttime cardiac arrest fatalities consistently spiked"
       ]
      ]
     }
@@ -858,14 +953,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-17",
+   "id": "1-18",
    "act": 1,
-   "start": 216.47,
-   "end": 241.631,
+   "start": 261.411,
+   "end": 283.198,
    "role": "D",
    "sentences": [
-    "1.14#5",
-    "1.14#6"
+    "1.14#6",
+    "1.14#7",
+    "1.14#8"
    ],
    "template": "T1",
    "variant": "",
@@ -879,11 +975,33 @@
      "elems": [
       [
        "bold",
-       "TRUE VICTIM COUNT: 300 TO 400 PEOPLE"
+       "CULLEN ULTIMATELY ADMITTED"
       ],
       [
        "ital",
-       "Most prolific serial perpetrator in American healthcare history"
+       "Murdering approximately 40 patients"
+      ],
+      [
+       "ital",
+       "Prosecutors confirming 29 documented victims"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "bold",
+       "THE TRUE TOLL COULD REACH 400 LIVES"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "ital",
+       "The most prolific serial poisoner in American healthcare history"
       ]
      ]
     }
@@ -903,10 +1021,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-18",
+   "id": "1-19",
    "act": 1,
-   "start": 241.631,
-   "end": 273.792,
+   "start": 283.198,
+   "end": 307.323,
    "role": "H",
    "sentences": [
     "1.16#1",
@@ -929,7 +1047,11 @@
       ],
       [
        "ital",
-       "The Submerged God Complex & 16 Years of Hospital Silence"
+       "“God Complex”"
+      ],
+      [
+       "ital",
+       "Moral neutralization techniques"
       ]
      ]
     }
@@ -949,10 +1071,64 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-19",
+   "id": "1-20",
    "act": 1,
-   "start": 273.792,
-   "end": 275.592,
+   "start": 307.323,
+   "end": 324.182,
+   "role": "H",
+   "sentences": [
+    "1.16#4",
+    "1.16#5"
+   ],
+   "template": "T10",
+   "variant": "",
+   "bg": "t4_somerset_exterior",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE SYSTEMIC COMPLICITY AND PROLONGED SILENCE"
+      ],
+      [
+       "ital",
+       "Of nine medical centers driven by fear of legal liability"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "An enduring lesson on institutional blindspots"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tên tập ở cuối",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-21",
+   "act": 1,
+   "start": 324.182,
+   "end": 325.982,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -993,12 +1169,13 @@
   {
    "id": "2-01",
    "act": 2,
-   "start": 275.592,
-   "end": 290.175,
+   "start": 325.982,
+   "end": 348.827,
    "role": "H",
    "sentences": [
     "2.02#1",
-    "2.02#2"
+    "2.02#2",
+    "2.02#3"
    ],
    "template": "T1",
    "variant": "",
@@ -1012,11 +1189,20 @@
      "elems": [
       [
        "bold",
-       "STERILE HOSPITAL WARDS"
+       "THE KILLING GROUNDS OF CHARLES CULLEN"
       ],
       [
        "ital",
-       "Where patients entrusted their lives and deepest faith"
+       "Sanitized hospital wards where patients entrusted their lives"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "THE VERY LIFE-SAVING PHARMACEUTICALS"
       ]
      ]
     }
@@ -1038,11 +1224,11 @@
   {
    "id": "2-02",
    "act": 2,
-   "start": 290.175,
-   "end": 303.415,
+   "start": 348.827,
+   "end": 355.324,
    "role": "H",
    "sentences": [
-    "2.02#3"
+    "2.02#4"
    ],
    "template": "T8",
    "variant": "",
@@ -1056,11 +1242,11 @@
      "elems": [
       [
        "ital",
-       "WEAPONIZING LIFE-SAVING PHARMACEUTICALS: DIGOXIN, INSULIN, AND VECURONIUM"
+       "16 YEARS"
       ],
       [
-       "ital",
-       "Engineered by modern medical science"
+       "bold",
+       "BLINDED INSTITUTIONAL OVERSIGHT MECHANISMS"
       ]
      ]
     }
@@ -1082,8 +1268,8 @@
   {
    "id": "2-03",
    "act": 2,
-   "start": 303.415,
-   "end": 304.715,
+   "start": 355.324,
+   "end": 356.624,
    "role": null,
    "sentences": [],
    "template": "T8",
@@ -1098,11 +1284,11 @@
      "elems": [
       [
        "ital",
-       "WEAPONIZING LIFE-SAVING PHARMACEUTICALS: DIGOXIN, INSULIN, AND VECURONIUM"
+       "16 YEARS"
       ],
       [
-       "ital",
-       "Engineered by modern medical science"
+       "bold",
+       "BLINDED INSTITUTIONAL OVERSIGHT MECHANISMS"
       ]
      ]
     }
@@ -1125,12 +1311,13 @@
   {
    "id": "2-04",
    "act": 2,
-   "start": 304.715,
-   "end": 324.0,
+   "start": 356.624,
+   "end": 379.803,
    "role": "H",
    "sentences": [
     "2.04#1",
-    "2.04#2"
+    "2.04#2",
+    "2.04#3"
    ],
    "template": "T1",
    "variant": "",
@@ -1144,11 +1331,24 @@
      "elems": [
       [
        "bold",
-       "VULNERABILITIES IN AUTOMATED DRUG DISPENSING"
+       "SYSTEMATICALLY EXPLOITED CRITICAL VULNERABILITIES"
       ],
       [
        "ital",
-       "Claiming lives of hundreds without leaving a trace"
+       "Early digital medication distribution networks"
+      ],
+      [
+       "ital",
+       "Automated pharmacy dispensers"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Behavioral escalation trajectory"
       ]
      ]
     }
@@ -1172,12 +1372,13 @@
   {
    "id": "2-05",
    "act": 2,
-   "start": 324.0,
-   "end": 342.777,
+   "start": 379.803,
+   "end": 401.979,
    "role": "D",
    "sentences": [
     "2.06#1",
-    "2.06#2"
+    "2.06#2",
+    "2.06#3"
    ],
    "template": "T1",
    "variant": "",
@@ -1191,11 +1392,20 @@
      "elems": [
       [
        "bold",
-       "PYXIS MEDSTATION AUTOMATED CABINETS"
+       "AUTOMATED DISPENSING CABINETS"
       ],
       [
        "ital",
-       "Log in with individual code and select specific patient"
+       "Each nurse was required to log in with personalized credentials"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "A CRITICAL SOFTWARE VULNERABILITY"
       ]
      ]
     }
@@ -1217,12 +1427,13 @@
   {
    "id": "2-06",
    "act": 2,
-   "start": 342.777,
-   "end": 354.888,
+   "start": 401.979,
+   "end": 427.051,
    "role": "D",
    "sentences": [
-    "2.06#3",
-    "2.06#4"
+    "2.06#4",
+    "2.06#5",
+    "2.06#6"
    ],
    "template": "T1",
    "variant": "",
@@ -1236,11 +1447,37 @@
      "elems": [
       [
        "bold",
-       "A FATAL LOOPHOLE IN OPERATING SOFTWARE"
+       "ENTER REQUESTS"
       ],
       [
        "ital",
-       "System logged exact timestamp and identity of operator"
+       "Dangerous medications"
+      ],
+      [
+       "ital",
+       "Digoxin, Insulin, or Norepinephrine"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "bold",
+       "THE LETHAL VIAL"
+      ],
+      [
+       "ital",
+       "Already concealed inside Cullen's pocket"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "Four distinct developmental stages"
       ]
      ]
     }
@@ -1262,16 +1499,15 @@
   {
    "id": "2-07",
    "act": 2,
-   "start": 354.888,
-   "end": 370.205,
+   "start": 427.051,
+   "end": 429.951,
    "role": "D",
    "sentences": [
-    "2.06#5",
-    "2.06#6"
+    "2.06#7"
    ],
-   "template": "T3",
-   "variant": "compare",
-   "bg": "t4_pyxis_cancel_screen",
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_pyxis_drawer_ajar",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -1280,22 +1516,18 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "Looking up patients outside assigned care"
-      ],
-      [
        "bold",
-       "BROWSE & CANCEL: REQUESTING RESTRICTED MEDICATIONS"
+       "FIRST STAGE"
       ],
       [
        "ital",
-       "Lethal doses of Digoxin or Insulin"
+       "Internal crisis and petty drug theft"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Cột phải ở `#6`",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -1311,12 +1543,13 @@
   {
    "id": "2-08",
    "act": 2,
-   "start": 370.205,
-   "end": 385.435,
+   "start": 429.951,
+   "end": 447.394,
    "role": "D",
    "sentences": [
-    "2.06#7",
-    "2.06#8"
+    "2.06#8",
+    "2.06#9",
+    "2.06#10"
    ],
    "template": "T1",
    "variant": "",
@@ -1329,12 +1562,30 @@
      "at_sentence": null,
      "elems": [
       [
+       "ital",
+       "Severe depression, self-harm, and stole minor sedatives"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 9,
+     "elems": [
+      [
        "bold",
-       "HIT CANCEL ON TOUCHSCREEN"
+       "SECOND STAGE"
       ],
       [
        "ital",
-       "Slipping the vial into his pocket before drawer locked"
+       "Terminating dying patients"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 10,
+     "elems": [
+      [
+       "ital",
+       "In 1988, at Saint Barnabas Medical Center"
       ]
      ]
     }
@@ -1343,7 +1594,7 @@
    "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": true,
+    "nobust": false,
     "intro": false,
     "handoff": [],
     "dual": false,
@@ -1356,11 +1607,11 @@
   {
    "id": "2-09",
    "act": 2,
-   "start": 385.435,
-   "end": 396.104,
+   "start": 447.394,
+   "end": 450.628,
    "role": "D",
    "sentences": [
-    "2.06#9"
+    "2.06#11"
    ],
    "template": "T1",
    "variant": "",
@@ -1374,11 +1625,11 @@
      "elems": [
       [
        "bold",
-       "RECORDED TRANSACTION AS CANCELED"
+       "THIRD STAGE"
       ],
       [
        "ital",
-       "On electronic ledger sheets, not a single vial removed"
+       "Random poisoning of intravenous fluid bags"
       ]
      ]
     }
@@ -1388,7 +1639,7 @@
    "flags": {
     "bust": false,
     "nobust": false,
-    "intro": true,
+    "intro": false,
     "handoff": [],
     "dual": false,
     "guests": false,
@@ -1400,15 +1651,17 @@
   {
    "id": "2-10",
    "act": 2,
-   "start": 396.104,
-   "end": 408.239,
+   "start": 450.628,
+   "end": 470.688,
    "role": "D",
    "sentences": [
-    "2.06#10"
+    "2.06#12",
+    "2.06#13",
+    "2.06#14"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t4_saline_storage",
+   "bg": "t4_pyxis_printout",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -1417,12 +1670,26 @@
      "at_sentence": null,
      "elems": [
       [
+       "ital",
+       "Secretly injected Insulin and Digoxin into stored saline IV bags"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 13,
+     "elems": [
+      [
        "bold",
-       "SALINE IV BAG STORAGE ROOM"
-      ],
+       "FOURTH STAGE: UNCONTROLLED MASS MURDER"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 14,
+     "elems": [
       [
        "ital",
-       "Injecting lethal doses directly into IV bags hanging on racks"
+       "Target young, recovering patients slated for discharge"
       ]
      ]
     }
@@ -1444,15 +1711,15 @@
   {
    "id": "2-11",
    "act": 2,
-   "start": 408.239,
-   "end": 421.593,
+   "start": 470.688,
+   "end": 477.04,
    "role": "D",
    "sentences": [
-    "2.06#11"
+    "2.06#15"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t4_syringe_shadow",
+   "bg": "t4_pyxis_printout",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -1462,11 +1729,7 @@
      "elems": [
       [
        "bold",
-       "CONTAMINATED IV BAGS ADMINISTERED TO PATIENTS"
-      ],
-      [
-       "ital",
-       "Plunge into acute respiratory failure or cardiac arrest"
+       "AN UNSTOPPABLE DESTRUCTIVE ENGINE"
       ]
      ]
     }
@@ -1488,14 +1751,13 @@
   {
    "id": "2-12",
    "act": 2,
-   "start": 421.593,
-   "end": 451.496,
+   "start": 477.04,
+   "end": 499.217,
    "role": "H",
    "sentences": [
     "2.07#1",
     "2.07#2",
-    "2.07#3",
-    "2.07#4"
+    "2.07#3"
    ],
    "template": "T1",
    "variant": "",
@@ -1509,11 +1771,20 @@
      "elems": [
       [
        "bold",
-       "A PERFECT AND VIRTUALLY INVISIBLE METHOD"
+       "A CHILLING AND ABSOLUTE POWER ASYMMETRY"
       ],
       [
        "ital",
-       "Early warning alarms were sounded long before"
+       "The most defenseless demographic, tethered to intravenous lines"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Placing absolute faith in their bedside nurse"
       ]
      ]
     }
@@ -1535,8 +1806,62 @@
   {
    "id": "2-13",
    "act": 2,
-   "start": 451.496,
-   "end": 477.262,
+   "start": 499.217,
+   "end": 514.261,
+   "role": "H",
+   "sentences": [
+    "2.07#4",
+    "2.07#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_sterile_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "FATHER FLORIAN GALL"
+      ],
+      [
+       "ital",
+       "To 21-year-old Michael Strenko"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "bold",
+       "THE ULTIMATE BETRAYAL OF THE FOUNDATIONAL HIPPOCRATIC OATH"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-14",
+   "act": 2,
+   "start": 514.261,
+   "end": 537.996,
    "role": "D",
    "sentences": [
     "2.08#1",
@@ -1555,23 +1880,23 @@
      "elems": [
       [
        "ital",
-       "DR. STEVEN MARCUS · NJ POISON INFORMATION CENTER"
+       "BEHAVIORAL SCIENCE"
       ],
       [
        "bold",
-       "URGENT WARNING IN JULY 2003"
+       "MODUS OPERANDI"
       ],
       [
        "ital",
-       "Someone intentionally poisoning patients"
+       "His psychological signature"
       ]
      ]
     }
    ],
    "beats": [
-    "Urgent warning"
+    "modus operandi"
    ],
-   "beat_text": "Dấu mộc ở \"Urgent warning\"",
+   "beat_text": "Dấu mộc ở \"modus operandi\"",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -1585,10 +1910,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-14",
+   "id": "2-15",
    "act": 2,
-   "start": 477.262,
-   "end": 504.044,
+   "start": 537.996,
+   "end": 559.282,
    "role": "D",
    "sentences": [
     "2.08#4",
@@ -1606,12 +1931,30 @@
      "at_sentence": null,
      "elems": [
       [
+       "ital",
+       "Refined and adapted over the years to circumvent evolving hospital monitoring protocols"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
        "bold",
-       "LEADERSHIP OF SOMERSET MEDICAL CENTER"
+       "HIS PSYCHOLOGICAL SIGNATURE"
       ],
       [
        "ital",
-       "Silence for nearly three months · Claiming the lives of at least five more patients"
+       "“God Complex”"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "He did not steal pharmaceuticals for commercial gain"
       ]
      ]
     }
@@ -1631,10 +1974,54 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-15",
+   "id": "2-16",
    "act": 2,
-   "start": 504.044,
-   "end": 531.275,
+   "start": 559.282,
+   "end": 569.31,
+   "role": "D",
+   "sentences": [
+    "2.08#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_boardroom_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CODE BLUE EMERGENCIES"
+      ],
+      [
+       "ital",
+       "Savoring the godlike sensation of holding life and death in his hands"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-17",
+   "act": 2,
+   "start": 569.31,
+   "end": 588.924,
    "role": "H",
    "sentences": [
     "2.10#1",
@@ -1653,11 +2040,20 @@
      "elems": [
       [
        "bold",
-       "WHY WAS AN ENTIRE HEALTHCARE SYSTEM BLIND?"
+       "THE MOST DANGEROUS PSYCHOLOGICAL TRAP"
       ],
       [
        "ital",
-       "Transition across nine different medical centers"
+       "Transform vulnerable patients into instruments for psychological dominance"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Victim objectification and emotional detachment"
       ]
      ]
     }
@@ -1677,10 +2073,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-16",
+   "id": "2-18",
    "act": 2,
-   "start": 531.275,
-   "end": 565.837,
+   "start": 588.924,
+   "end": 612.493,
    "role": "C",
    "sentences": [
     "2.11#1",
@@ -1699,23 +2095,23 @@
      "elems": [
       [
        "ital",
-       "ORGANIZATIONAL PSYCHOLOGY"
+       "CRIMINAL PSYCHOLOGY"
       ],
       [
        "bold",
-       "INSTITUTIONAL BYSTANDER EFFECT"
+       "“OBJECTIFICATION” AND SEVERE DEHUMANIZATION"
       ],
       [
        "ital",
-       "Saint Barnabas 1992: Permitted Cullen to resign quietly"
+       "Degraded into “living props”"
       ]
      ]
     }
    ],
    "beats": [
-    "Bystander"
+    "dehumanization"
    ],
-   "beat_text": "Dấu mộc ở \"Bystander\"",
+   "beat_text": "Dấu mộc ở \"dehumanization\"",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -1729,10 +2125,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-17",
+   "id": "2-19",
    "act": 2,
-   "start": 565.837,
-   "end": 595.303,
+   "start": 612.493,
+   "end": 631.996,
    "role": "C",
    "sentences": [
     "2.11#4",
@@ -1750,8 +2146,12 @@
      "at_sentence": null,
      "elems": [
       [
+       "bold",
+       "A PROFOUND DEFICIT IN AFFECTIVE EMPATHY"
+      ],
+      [
        "ital",
-       "Warren Hospital 1993: Fear of reputational damage"
+       "Entirely numb to the agony and terror experienced by others"
       ]
      ]
     },
@@ -1760,97 +2160,7 @@
      "elems": [
       [
        "bold",
-       "SAINT LUKE'S 2002: EMPTY SEDATIVE & PARALYTIC VIALS IN TRASH"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": true,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "2-18",
-   "act": 2,
-   "start": 595.303,
-   "end": 611.83,
-   "role": "C",
-   "sentences": [
-    "2.11#7",
-    "2.11#8"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t4_neutral_letter",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "NEUTRAL EMPLOYMENT VERIFICATION LETTER"
-      ],
-      [
-       "ital",
-       "Voluntarily resigned for personal reasons · Enabling next hire"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "2-19",
-   "act": 2,
-   "start": 611.83,
-   "end": 640.115,
-   "role": "C",
-   "sentences": [
-    "2.11#9",
-    "2.11#10"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t4_neutral_letter",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "CORPORATIZED HEALTHCARE SYSTEM"
-      ],
-      [
-       "ital",
-       "Passing the ticking time bomb to protect institutional finances"
+       "A SURGE OF PATHOLOGICAL POWER AROUSAL"
       ]
      ]
     }
@@ -1872,8 +2182,116 @@
   {
    "id": "2-20",
    "act": 2,
-   "start": 640.115,
-   "end": 641.915,
+   "start": 631.996,
+   "end": 646.372,
+   "role": "C",
+   "sentences": [
+    "2.11#7",
+    "2.11#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_neutral_letter",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ELEVATED ABOVE MEDICINE AND DESTINY"
+      ],
+      [
+       "ital",
+       "The sole arbiter of who survived"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "ital",
+       "Continually seek new victims to satisfy his escalating fantasy starvation"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-21",
+   "act": 2,
+   "start": 646.372,
+   "end": 661.226,
+   "role": "C",
+   "sentences": [
+    "2.11#9",
+    "2.11#10"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_neutral_letter",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE WHITE SCRUBS"
+      ],
+      [
+       "ital",
+       "Weaponized to legitimize the ultimate corruption of human empathy"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 10,
+     "elems": [
+      [
+       "bold",
+       "THE COLDEST WEAPON IMAGINABLE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-22",
+   "act": 2,
+   "start": 661.226,
+   "end": 663.026,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -1914,8 +2332,8 @@
   {
    "id": "3-01",
    "act": 3,
-   "start": 641.915,
-   "end": 667.96,
+   "start": 663.026,
+   "end": 685.091,
    "role": "H",
    "sentences": [
     "3.02#1",
@@ -1934,17 +2352,26 @@
      "elems": [
       [
        "bold",
-       "WHAT WAS THE TRUE UNDERLYING MOTIVE?"
+       "THE DEEPEST RECESSES OF CHARLES CULLEN'S PSYCHE"
       ],
       [
        "ital",
-       "Chilling rationalization: I only wanted to end their suffering"
+       "A shy adolescent, himself a frequent victim of schoolyard bullying"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Rationalized his actions as acts of mercy"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Nhạc drone trầm đục",
+   "beat_text": "Low drone music",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -1960,8 +2387,8 @@
   {
    "id": "3-02",
    "act": 3,
-   "start": 667.96,
-   "end": 689.514,
+   "start": 685.091,
+   "end": 705.207,
    "role": "H",
    "sentences": [
     "3.02#4",
@@ -1980,11 +2407,33 @@
      "elems": [
       [
        "bold",
-       "PORTRAIT OF A “MERCIFUL ANGEL”"
+       "AN IDEALIZED PERSONA OF A BENEVOLENT ANGEL"
       ],
       [
        "ital",
-       "Deceitful mask concealing an intensely toxic complex"
+       "Granting peaceful departure to tortured souls"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "bold",
+       "EMPIRICAL CRIME SCENE EVIDENCE"
+      ],
+      [
+       "ital",
+       "Completely shatters that convenient narrative"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "Formative developmental trauma and psychological tipping points"
       ]
      ]
     }
@@ -2008,8 +2457,8 @@
   {
    "id": "3-03",
    "act": 3,
-   "start": 689.514,
-   "end": 724.869,
+   "start": 705.207,
+   "end": 728.609,
    "role": "C",
    "sentences": [
     "3.04#1",
@@ -2028,11 +2477,20 @@
      "elems": [
       [
        "bold",
-       "SEVERELY FRAGMENTED PERSONALITY"
+       "AN EARLY LIFE PERMEATED BY EMOTIONAL NEGLECT"
       ],
       [
        "ital",
-       "Profound childhood trauma · Relentless peer bullying"
+       "Forensic psychiatric examinations"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "His father died when Cullen was merely seven months old"
       ]
      ]
     },
@@ -2041,7 +2499,7 @@
      "elems": [
       [
        "ital",
-       "Age 17: Mother killed in motor vehicle accident"
+       "Relentless bullying, withdrawing into severe isolation"
       ]
      ]
     }
@@ -2063,123 +2521,16 @@
   {
    "id": "3-04",
    "act": 3,
-   "start": 724.869,
-   "end": 760.685,
+   "start": 728.609,
+   "end": 742.427,
    "role": "C",
    "sentences": [
     "3.04#4",
-    "3.04#5",
-    "3.04#6"
-   ],
-   "template": "T5",
-   "variant": "date",
-   "bg": "t4_rainy_hearse_1977",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "1977 · HOSPITAL INCINERATED MOTHER'S REMAINS"
-      ],
-      [
-       "ital",
-       "Resentment and emotional detachment toward medical institutions"
-      ]
-     ]
-    },
-    {
-     "at_sentence": 6,
-     "elems": [
-      [
-       "ital",
-       "Submerged God Complex"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Gõ từng ký tự",
-   "flags": {
-    "bust": false,
-    "nobust": true,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-05",
-   "act": 3,
-   "start": 760.685,
-   "end": 761.985,
-   "role": null,
-   "sentences": [],
-   "template": "T5",
-   "variant": "date",
-   "bg": "t4_rainy_hearse_1977",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "1977 · HOSPITAL INCINERATED MOTHER'S REMAINS"
-      ],
-      [
-       "ital",
-       "Resentment and emotional detachment toward medical institutions"
-      ]
-     ]
-    },
-    {
-     "at_sentence": 6,
-     "elems": [
-      [
-       "ital",
-       "Submerged God Complex"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": true,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": true,
-   "transition": "dissolve",
-   "inherit": "3-04"
-  },
-  {
-   "id": "3-06",
-   "act": 3,
-   "start": 761.985,
-   "end": 779.381,
-   "role": "H",
-   "sentences": [
-    "3.06#1",
-    "3.06#2"
+    "3.04#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t4_cullen_silhouette",
+   "bg": "t4_childhood_window",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -2189,11 +2540,24 @@
      "elems": [
       [
        "bold",
-       "COMPENSATORY POWER MECHANISM"
+       "THE DEFINING TRAUMATIC RUPTURE"
       ],
       [
        "ital",
-       "Insecure and alienated, finding omnipotence in a white lab coat"
+       "At age 17"
+      ],
+      [
+       "ital",
+       "His beloved mother was killed in a catastrophic automobile accident"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "Cremated her remains without notifying Cullen"
       ]
      ]
     }
@@ -2213,18 +2577,19 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-07",
+   "id": "3-05",
    "act": 3,
-   "start": 779.381,
-   "end": 788.359,
+   "start": 742.427,
+   "end": 766.809,
    "role": "C",
    "sentences": [
-    "3.07#1",
-    "3.07#2"
+    "3.04#6",
+    "3.04#7",
+    "3.04#8"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t4_childhood_window",
+   "bg": "t4_rainy_hearse_1977",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -2234,11 +2599,149 @@
      "elems": [
       [
        "bold",
-       "IN EVERYDAY CIVILIAN LIFE"
+       "AN ENDURING, SUBTERRANEAN RESENTMENT TOWARD HEALTHCARE INSTITUTIONS"
       ],
       [
        "ital",
-       "Cullen felt completely powerless and invisible"
+       "Severing his sole emotional anchor"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "Severe depressive episodes, precipitating multiple suicide attempts"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "ital",
+       "Not an endeavor toward healing"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-06",
+   "act": 3,
+   "start": 766.809,
+   "end": 768.109,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_rainy_hearse_1977",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "AN ENDURING, SUBTERRANEAN RESENTMENT TOWARD HEALTHCARE INSTITUTIONS"
+      ],
+      [
+       "ital",
+       "Severing his sole emotional anchor"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "Severe depressive episodes, precipitating multiple suicide attempts"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "ital",
+       "Not an endeavor toward healing"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-05"
+  },
+  {
+   "id": "3-07",
+   "act": 3,
+   "start": 768.109,
+   "end": 789.004,
+   "role": "H",
+   "sentences": [
+    "3.06#1",
+    "3.06#2",
+    "3.06#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_cullen_silhouette",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SEVERE PSYCHOLOGICAL INSTABILITY"
+      ],
+      [
+       "ital",
+       "He married, raised two daughters, donated a kidney to save an acquaintance"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "The cognitive compartmentalization"
+      ],
+      [
+       "ital",
+       "Conceal the predator lurking within"
       ]
      ]
     }
@@ -2260,13 +2763,77 @@
   {
    "id": "3-08",
    "act": 3,
-   "start": 788.359,
-   "end": 831.48,
+   "start": 789.004,
+   "end": 812.183,
    "role": "C",
    "sentences": [
-    "3.07#3",
+    "3.07#1",
+    "3.07#2",
+    "3.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_childhood_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "AN EXTREME DEFENSE MECHANISM"
+      ],
+      [
+       "ital",
+       "“Compartmentalization”"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "Two mutually exclusive mental drawers"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "A gentle father, a dependable peer"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-09",
+   "act": 3,
+   "start": 812.183,
+   "end": 832.076,
+   "role": "C",
+   "sentences": [
     "3.07#4",
-    "3.07#5"
+    "3.07#5",
+    "3.07#6"
    ],
    "template": "T1",
    "variant": "",
@@ -2280,19 +2847,37 @@
      "elems": [
       [
        "bold",
-       "INTENSIVE CARE UNIT NIGHT SHIFTS"
+       "“SHIELD OF NORMALIZATION”"
       ],
       [
        "ital",
-       "With a single slender syringe · Ultimate authority over life and death"
+       "Overt pro-social gestures"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "bold",
+       "UNLOCKED PREDATORY IMPULSES"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "Could not fully deceive those in closest proximity"
       ]
      ]
     }
    ],
    "beats": [
-    "Ultimate authority"
+    "unlocked predatory impulses"
    ],
-   "beat_text": "Sub-drop ở \"Ultimate authority\"",
+   "beat_text": "Sub-drop ở \"unlocked predatory impulses\"",
    "flags": {
     "bust": false,
     "nobust": true,
@@ -2306,14 +2891,75 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-09",
+   "id": "3-10",
    "act": 3,
-   "start": 831.48,
-   "end": 846.05,
+   "start": 832.076,
+   "end": 848.456,
+   "role": "C",
+   "sentences": [
+    "3.07#7",
+    "3.07#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_hypodermic_control",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ADRIENNE BAUM"
+      ],
+      [
+       "ital",
+       "His former spouse"
+      ],
+      [
+       "ital",
+       "Recognized alarming warning signs"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "ital",
+       "Filed for divorce and restraining orders in 1993"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "contaminating household beverages"
+   ],
+   "beat_text": "Sub-drop ở \"contaminating household beverages\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-11",
+   "act": 3,
+   "start": 848.456,
+   "end": 866.902,
    "role": "H",
    "sentences": [
     "3.08#1",
-    "3.08#2"
+    "3.08#2",
+    "3.08#3"
    ],
    "template": "T1",
    "variant": "",
@@ -2327,11 +2973,29 @@
      "elems": [
       [
        "bold",
-       "CONVINCING HIMSELF HE ACTED OUT OF “MERCY”"
+       "PROFOUND CHARACTER PATHOLOGY"
       ],
       [
        "ital",
-       "How did his brain dupe his own conscience?"
+       "In an educated perpetrator"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "Neutralize guilt and sleep soundly after lethal shifts"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Neutralization techniques in Cullen's criminal conduct"
       ]
      ]
     }
@@ -2351,16 +3015,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-10",
+   "id": "3-12",
    "act": 3,
-   "start": 846.05,
-   "end": 887.986,
+   "start": 866.902,
+   "end": 889.858,
    "role": "C",
    "sentences": [
     "3.09#1",
     "3.09#2",
-    "3.09#3",
-    "3.09#4"
+    "3.09#3"
    ],
    "template": "T2",
    "variant": "",
@@ -2374,23 +3037,37 @@
      "elems": [
       [
        "ital",
-       "SECOND MECHANISM"
+       "SYKES AND MATZA"
       ],
       [
        "bold",
-       "TECHNIQUES OF MORAL NEUTRALIZATION"
-      ],
+       "“TECHNIQUES OF NEUTRALIZATION”"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "bold",
+       "“DENIAL OF INJURY”"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
       [
        "ital",
-       "Appeal to higher loyalties: Framing murder as ending pain"
+       "“Displacement of Responsibility”"
       ]
      ]
     }
    ],
    "beats": [
-    "Neutralization"
+    "Techniques of Neutralization"
    ],
-   "beat_text": "Dấu mộc ở \"Neutralization\"",
+   "beat_text": "Dấu mộc ở \"Techniques of Neutralization\"",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -2404,15 +3081,71 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-11",
+   "id": "3-13",
    "act": 3,
-   "start": 887.986,
-   "end": 938.151,
+   "start": 889.858,
+   "end": 905.124,
    "role": "C",
    "sentences": [
-    "3.09#5",
+    "3.09#4",
+    "3.09#5"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t4_two_faces_mask",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "BLAMED HOSPITAL ADMINISTRATIONS"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "bold",
+       "“CONDEMNATION OF THE CONDEMNERS”"
+      ],
+      [
+       "ital",
+       "Labeling the healthcare industry hypocritical"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Condemnation of the Condemners"
+   ],
+   "beat_text": "Dấu mộc ở \"Condemnation of the Condemners\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-14",
+   "act": 3,
+   "start": 905.124,
+   "end": 930.475,
+   "role": "C",
+   "sentences": [
     "3.09#6",
-    "3.09#7"
+    "3.09#7",
+    "3.09#8"
    ],
    "template": "T1",
    "variant": "",
@@ -2426,20 +3159,20 @@
      "elems": [
       [
        "bold",
-       "SHATTERED THAT HYPOCRITICAL VENEER"
+       "CASTING HIMSELF AS AN UNFORTUNATE VICTIM"
       ],
       [
        "ital",
-       "Patients fully recovering · Preparing for imminent discharge"
+       "Deactivated internal moral self-sanctions entirely"
       ]
      ]
     },
     {
-     "at_sentence": 7,
+     "at_sentence": 8,
      "elems": [
       [
        "bold",
-       "CRAVED THE EXERCISE OF DOMINION OVER LIFE AND DEATH"
+       "THE TOTAL COLLAPSE OF CONSCIENCE"
       ]
      ]
     }
@@ -2459,10 +3192,50 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-12",
+   "id": "3-15",
    "act": 3,
-   "start": 938.151,
-   "end": 959.226,
+   "start": 930.475,
+   "end": 937.106,
+   "role": "C",
+   "sentences": [
+    "3.09#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_broken_mercy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SUSTAINED HIS MURDEROUS CAREER FOR 16 YEARS"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-16",
+   "act": 3,
+   "start": 937.106,
+   "end": 956.642,
    "role": "H",
    "sentences": [
     "3.10#1",
@@ -2481,11 +3254,20 @@
      "elems": [
       [
        "bold",
-       "DELIVERING SALVATION TO NO ONE"
+       "A SELF-SERVING ARCHITECTURE"
       ],
       [
        "ital",
-       "Vulnerable patients as sacrificial pawns to appease his personality crisis"
+       "Arrogated the authority to decide human survival"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "THE COURAGE OF A WOMAN WILLING TO CONFRONT THE TRUTH"
       ]
      ]
     }
@@ -2505,10 +3287,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-13",
+   "id": "3-17",
    "act": 3,
-   "start": 959.226,
-   "end": 961.026,
+   "start": 956.642,
+   "end": 958.442,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -2549,12 +3331,13 @@
   {
    "id": "4-01",
    "act": 4,
-   "start": 961.026,
-   "end": 975.795,
+   "start": 958.442,
+   "end": 975.911,
    "role": "H",
    "sentences": [
     "4.02#1",
-    "4.02#2"
+    "4.02#2",
+    "4.02#3"
    ],
    "template": "T5",
    "variant": "date",
@@ -2568,11 +3351,20 @@
      "elems": [
       [
        "bold",
-       "OCTOBER 2003"
+       "OCTOBER OF 2003"
       ],
       [
        "ital",
-       "Somerset County Prosecutor’s Office · Tim Braun & Danny Baldwin"
+       "Somerset County Prosecutor's Office"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Veteran detectives Tim Braun and Danny Baldwin"
       ]
      ]
     }
@@ -2594,13 +3386,13 @@
   {
    "id": "4-02",
    "act": 4,
-   "start": 975.795,
-   "end": 1009.393,
+   "start": 975.911,
+   "end": 999.536,
    "role": "H",
    "sentences": [
-    "4.02#3",
     "4.02#4",
-    "4.02#5"
+    "4.02#5",
+    "4.02#6"
    ],
    "template": "T1",
    "variant": "",
@@ -2614,11 +3406,29 @@
      "elems": [
       [
        "bold",
-       "WALL OF INSTITUTIONAL SILENCE"
+       "THE IMPENETRABLE STONE WALL"
       ],
       [
        "ital",
-       "Approaching Cullen's closest confidante: Nurse Amy Loughren"
+       "Erected by Somerset Medical Center administration"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "The hospital delayed subpoena compliance"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "Their sole breakthrough lay with clinical insiders"
       ]
      ]
     }
@@ -2642,263 +3452,15 @@
   {
    "id": "4-03",
    "act": 4,
-   "start": 1009.393,
-   "end": 1046.739,
-   "role": "D",
-   "sentences": [
-    "4.04#1",
-    "4.04#2",
-    "4.04#3"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t4_pyxis_printout",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "HUNDREDS OF PAGES OF PYXIS AUDIT RECORDS"
-      ],
-      [
-       "ital",
-       "Querying dozens of doses of Vecuronium for cardiac patients"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": true,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-04",
-   "act": 4,
-   "start": 1046.739,
-   "end": 1069.992,
-   "role": "D",
-   "sentences": [
-    "4.04#4",
-    "4.04#5"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t4_wire_recorder",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "BATTLING GRAVE CARDIOMYOPATHY"
-      ],
-      [
-       "ital",
-       "Agreed to wear a concealed wire to get close to Charles Cullen"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": true,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-05",
-   "act": 4,
-   "start": 1069.992,
-   "end": 1092.258,
-   "role": "N2",
-   "sentences": [
-    "4.06#1",
-    "4.06#2",
-    "4.06#3"
-   ],
-   "template": "T4",
-   "variant": "testimony",
-   "bg": "t4_amy_scrubs",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "quote",
-       "When the detectives laid out Charlie’s medication logs before me, the ground beneath my feet gave way completely."
-      ]
-     ]
-    },
-    {
-     "at_sentence": 2,
-     "elems": [
-      [
-       "quote",
-       "Charlie was my closest friend, who held me when I suffered heart spasms…"
-      ]
-     ]
-    },
-    {
-     "at_sentence": 3,
-     "elems": [
-      [
-       "quote",
-       "Yet I am a registered nurse."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": true,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-06",
-   "act": 4,
-   "start": 1092.258,
-   "end": 1107.509,
-   "role": "N2",
-   "sentences": [
-    "4.06#4",
-    "4.06#5"
-   ],
-   "template": "T4",
-   "variant": "testimony",
-   "bg": "t4_amy_scrubs",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "quote",
-       "Our professional oath is to preserve life, never to be complicit in taking it."
-      ]
-     ]
-    },
-    {
-     "at_sentence": 5,
-     "elems": [
-      [
-       "quote",
-       "Even though my heart condition could have triggered sudden death, I knew I could never look away."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": true,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-07",
-   "act": 4,
-   "start": 1107.509,
-   "end": 1115.048,
+   "start": 999.536,
+   "end": 1006.612,
    "role": "H",
    "sentences": [
-    "4.08#1",
-    "4.08#2"
-   ],
-   "template": "T5",
-   "variant": "date",
-   "bg": "t4_somerville_diner",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "12 · 12 · 2003"
-      ],
-      [
-       "ital",
-       "Casual restaurant in the town of Somerville"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Cutlery & chairs",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": true,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-08",
-   "act": 4,
-   "start": 1115.048,
-   "end": 1141.647,
-   "role": "H",
-   "sentences": [
-    "4.08#3",
-    "4.08#4",
-    "4.08#5"
+    "4.02#7"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t4_diner_table",
+   "bg": "t4_detectives_shadow",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -2908,118 +3470,15 @@
      "elems": [
       [
        "bold",
-       "SITTING OPPOSITE CULLEN ACROSS A WOODEN BOOTH"
+       "LED THEM DIRECTLY TO AMY LOUGHREN"
       ],
       [
        "ital",
-       "Amy gently nudged him to cooperate"
-      ]
-     ]
-    },
-    {
-     "at_sentence": 5,
-     "elems": [
-      [
-       "ital",
-       "Cullen displayed visible anxiety yet stubbornly insisting he would fight to the end"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": true,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-09",
-   "act": 4,
-   "start": 1141.647,
-   "end": 1143.447,
-   "role": null,
-   "sentences": [],
-   "template": "T1",
-   "variant": "",
-   "bg": "t4_diner_table",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "SITTING OPPOSITE CULLEN ACROSS A WOODEN BOOTH"
+       "A skilled intensive care nurse"
       ],
       [
        "ital",
-       "Amy gently nudged him to cooperate"
-      ]
-     ]
-    },
-    {
-     "at_sentence": 5,
-     "elems": [
-      [
-       "ital",
-       "Cullen displayed visible anxiety yet stubbornly insisting he would fight to the end"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": true,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": true,
-   "transition": "dissolve",
-   "inherit": "4-08"
-  },
-  {
-   "id": "4-10",
-   "act": 4,
-   "start": 1143.447,
-   "end": 1165.582,
-   "role": "H",
-   "sentences": [
-    "4.11#1",
-    "4.11#2",
-    "4.11#3"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t4_parking_arrest",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "PARKING LOT ARREST"
-      ],
-      [
-       "ital",
-       "Tactical officers closed in and took him into custody"
+       "Charles Cullen's closest confidante"
       ]
      ]
     }
@@ -3041,19 +3500,19 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-11",
+   "id": "4-04",
    "act": 4,
-   "start": 1165.582,
-   "end": 1194.054,
+   "start": 1006.612,
+   "end": 1027.786,
    "role": "D",
    "sentences": [
-    "4.12#1",
-    "4.12#2",
-    "4.12#3"
+    "4.04#1",
+    "4.04#2",
+    "4.04#3"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t4_interrogation_room",
+   "bg": "t4_pyxis_printout",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -3063,11 +3522,20 @@
      "elems": [
       [
        "bold",
-       "SOMERSET INTERROGATION ROOM"
+       "CULLEN'S PRINTED PYXIS ACCESS LOGS"
       ],
       [
        "ital",
-       "Sat motionless like a stone statue for nearly 24 hours"
+       "She was utterly stunned"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "WITHDRAWN MEDICATIONS FOR DOZENS OF PATIENTS"
       ]
      ]
     }
@@ -3087,18 +3555,17 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-12",
+   "id": "4-05",
    "act": 4,
-   "start": 1194.054,
-   "end": 1217.483,
+   "start": 1027.786,
+   "end": 1034.64,
    "role": "D",
    "sentences": [
-    "4.12#4",
-    "4.12#5"
+    "4.04#4"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t4_warm_sweater",
+   "bg": "t4_pyxis_printout",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -3108,11 +3575,11 @@
      "elems": [
       [
        "bold",
-       "AMY'S WARM CARDIGAN"
+       "LETHAL AGENTS"
       ],
       [
        "ital",
-       "Handed her own cardigan to him, gently grasping his cold hands"
+       "Capable of inducing rapid cardiac collapse"
       ]
      ]
     }
@@ -3122,6 +3589,399 @@
    "flags": {
     "bust": false,
     "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-06",
+   "act": 4,
+   "start": 1034.64,
+   "end": 1057.484,
+   "role": "D",
+   "sentences": [
+    "4.04#5",
+    "4.04#6",
+    "4.04#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_wire_recorder",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CLEAR SIGNATURES OF CALCULATED SERIAL HOMICIDES"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "A single mother battling severe cardiomyopathy"
+      ],
+      [
+       "ital",
+       "Endangered her own life"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "bold",
+       "A HIGH-STAKES PSYCHOLOGICAL CONFRONTATION"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-07",
+   "act": 4,
+   "start": 1057.484,
+   "end": 1072.978,
+   "role": "N2",
+   "sentences": [
+    "4.06#1",
+    "4.06#2",
+    "4.06#3"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t4_amy_scrubs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Charlie was my closest and dearest friend during those exhausting overnight shifts in the ICU."
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "quote",
+       "He knew about my severe heart condition, covered for me when I struggled"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "quote",
+       "I genuinely loved and trusted him like a brother."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-08",
+   "act": 4,
+   "start": 1072.978,
+   "end": 1080.277,
+   "role": "N2",
+   "sentences": [
+    "4.06#4"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t4_amy_scrubs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Computer printouts showing the lethal drugs he pulled"
+      ],
+      [
+       "ital",
+       "My world shattered"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-09",
+   "act": 4,
+   "start": 1080.277,
+   "end": 1092.983,
+   "role": "N2",
+   "sentences": [
+    "4.06#5",
+    "4.06#6"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t4_amy_scrubs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "I realized that the gentle man I shared midnight meals with was silently ending lives in the dark."
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "quote",
+       "I knew staying silent would make me complicit in his murders."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-10",
+   "act": 4,
+   "start": 1092.983,
+   "end": 1105.273,
+   "role": "H",
+   "sentences": [
+    "4.08#1",
+    "4.08#2",
+    "4.08#3"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t4_somerville_diner",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "DECEMBER 6, 2003"
+      ],
+      [
+       "ital",
+       "A historic meeting"
+      ],
+      [
+       "ital",
+       "At a local diner in Somerville"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "A covert transmitter"
+      ],
+      [
+       "ital",
+       "Carefully concealed beneath her winter sweater"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Iron door closing & chair scrape",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-11",
+   "act": 4,
+   "start": 1105.273,
+   "end": 1111.347,
+   "role": "H",
+   "sentences": [
+    "4.08#4"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t4_somerville_diner",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "IN THE SURROUNDING PARKING LOT"
+      ],
+      [
+       "ital",
+       "Monitored every syllable via long-range audio receivers"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Iron door closing & chair scrape",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-12",
+   "act": 4,
+   "start": 1111.347,
+   "end": 1128.846,
+   "role": "H",
+   "sentences": [
+    "4.08#5",
+    "4.08#6",
+    "4.08#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_diner_table",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CHARLES CULLEN, PROJECTING HIS FAMILIAR FRAIL POSTURE"
+      ],
+      [
+       "ital",
+       "And innocent gaze"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "Amy gently broached the hospital anomalies"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "bold",
+       "CULLEN'S IMPASSIVE VENEER"
+      ],
+      [
+       "ital",
+       "Began to fracture"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
     "intro": false,
     "handoff": [],
     "dual": false,
@@ -3134,16 +3994,16 @@
   {
    "id": "4-13",
    "act": 4,
-   "start": 1217.483,
-   "end": 1234.079,
-   "role": "D",
+   "start": 1128.846,
+   "end": 1142.53,
+   "role": "H",
    "sentences": [
-    "4.12#6",
-    "4.12#7"
+    "4.08#8",
+    "4.08#9"
    ],
-   "template": "T4",
-   "variant": "testimony",
-   "bg": "t4_confession_tape",
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_diner_table",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -3153,7 +4013,351 @@
      "elems": [
       [
        "quote",
-       "Charlie, if you truly sought to offer mercy, give these families their answers…"
+       "I want to stop, I want it all to be over."
+      ]
+     ]
+    },
+    {
+     "at_sentence": 9,
+     "elems": [
+      [
+       "bold",
+       "THAT PIVOTAL ADMISSION"
+      ],
+      [
+       "ital",
+       "An immediate arrest warrant"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-14",
+   "act": 4,
+   "start": 1142.53,
+   "end": 1144.33,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_diner_table",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "I want to stop, I want it all to be over."
+      ]
+     ]
+    },
+    {
+     "at_sentence": 9,
+     "elems": [
+      [
+       "bold",
+       "THAT PIVOTAL ADMISSION"
+      ],
+      [
+       "ital",
+       "An immediate arrest warrant"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "4-13"
+  },
+  {
+   "id": "4-15",
+   "act": 4,
+   "start": 1144.33,
+   "end": 1161.383,
+   "role": "H",
+   "sentences": [
+    "4.11#1",
+    "4.11#2",
+    "4.11#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_parking_arrest",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "DECEMBER 12, 2003"
+      ],
+      [
+       "ital",
+       "Charles Cullen was arrested in the hospital parking lot"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "A grueling seven-hour interrogation"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "THE PSYCHOLOGICAL DEFENSES OF THE “ANGEL OF DEATH”"
+      ],
+      [
+       "ital",
+       "Crumbled entirely"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-16",
+   "act": 4,
+   "start": 1161.383,
+   "end": 1166.232,
+   "role": "H",
+   "sentences": [
+    "4.11#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_parking_arrest",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE DECISIVE TURNING POINTS"
+      ],
+      [
+       "ital",
+       "Within that fateful interrogation chamber"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-17",
+   "act": 4,
+   "start": 1166.232,
+   "end": 1188.854,
+   "role": "D",
+   "sentences": [
+    "4.12#1",
+    "4.12#2",
+    "4.12#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_interrogation_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "AVOIDED CONFRONTATIONAL CONDEMNATION"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "Cornering a pathological narcissist"
+      ],
+      [
+       "ital",
+       "Defensive withdrawal into absolute silence"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "THE BENEVOLENT CAREGIVER PERSONA HE HAD MANUFACTURED"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-18",
+   "act": 4,
+   "start": 1188.854,
+   "end": 1195.318,
+   "role": "D",
+   "sentences": [
+    "4.12#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_interrogation_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BROKE DOWN INTO HEAVY, CONVULSIVE SOBS"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-19",
+   "act": 4,
+   "start": 1195.318,
+   "end": 1217.216,
+   "role": "D",
+   "sentences": [
+    "4.12#5",
+    "4.12#6",
+    "4.12#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_detectives_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "DIGOXIN AND INSULIN"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "bold",
+       "HIS TEARS"
+      ],
+      [
+       "ital",
+       "Were not shed for the victims whose lives he stole"
+      ],
+      [
+       "ital",
+       "What provoked our deepest indignation"
       ]
      ]
     },
@@ -3162,7 +4366,7 @@
      "elems": [
       [
        "ital",
-       "Tears began streaming down Cullen’s gaunt cheeks"
+       "The unadulterated “Pathological Self-Pity” of a collapsed narcissist"
       ]
      ]
     }
@@ -3182,10 +4386,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-14",
+   "id": "4-20",
    "act": 4,
-   "start": 1234.079,
-   "end": 1265.416,
+   "start": 1217.216,
+   "end": 1235.773,
    "role": "D",
    "sentences": [
     "4.12#8",
@@ -3204,11 +4408,20 @@
      "elems": [
       [
        "bold",
-       "HE BURIED HIS HEAD, MURMURING"
+       "HE WEPT BECAUSE HE FACED PRISON"
       ],
       [
        "ital",
-       "“I just wanted to make them stop suffering...”"
+       "Without a trace of genuine compassion for the deceased"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 9,
+     "elems": [
+      [
+       "ital",
+       "Described fatal injections in detached, clinical terminology"
       ]
      ]
     },
@@ -3217,13 +4430,67 @@
      "elems": [
       [
        "bold",
-       "COMPLETE COLLAPSE OF HIS DECEITFUL MASK"
+       "A 16-YEAR PREDATORY CAMPAIGN"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Handcuffs snap",
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-21",
+   "act": 4,
+   "start": 1235.773,
+   "end": 1246.06,
+   "role": "D",
+   "sentences": [
+    "4.12#11",
+    "4.12#12"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_confession_tape",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE CELL DOOR CLOSED"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 12,
+     "elems": [
+      [
+       "bold",
+       "THE ENTIRE MEDICAL ESTABLISHMENT"
+      ],
+      [
+       "ital",
+       "Forced to confront its own profound culpability"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": true,
@@ -3237,10 +4504,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-15",
+   "id": "4-22",
    "act": 4,
-   "start": 1265.416,
-   "end": 1267.216,
+   "start": 1246.06,
+   "end": 1247.86,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -3281,8 +4548,8 @@
   {
    "id": "5-01",
    "act": 5,
-   "start": 1267.216,
-   "end": 1274.252,
+   "start": 1247.86,
+   "end": 1252.462,
    "role": "H",
    "sentences": [
     "5.02#1",
@@ -3300,17 +4567,17 @@
      "elems": [
       [
        "bold",
-       "MARCH 2006"
+       "MARCH OF 2006"
       ],
       [
        "ital",
-       "Somerset County Superior Court · Judge Paul Armstrong"
+       "Superior Court of New Jersey in Somerset County"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Gõ từng ký tự",
+   "beat_text": "Typewriter sound",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -3326,12 +4593,13 @@
   {
    "id": "5-02",
    "act": 5,
-   "start": 1274.252,
-   "end": 1298.64,
+   "start": 1252.462,
+   "end": 1273.97,
    "role": "H",
    "sentences": [
     "5.02#3",
-    "5.02#4"
+    "5.02#4",
+    "5.02#5"
    ],
    "template": "T1",
    "variant": "",
@@ -3345,17 +4613,17 @@
      "elems": [
       [
        "bold",
-       "EIGHTEEN CONSECUTIVE LIFE SENTENCES"
+       "11 CONSECUTIVE LIFE TERMS"
       ],
       [
        "ital",
-       "Mandatory minimum of 397 years without possibility of parole"
+       "A minimum of 397 years without the possibility of parole"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Gavel sound",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": true,
@@ -3371,12 +4639,13 @@
   {
    "id": "5-03",
    "act": 5,
-   "start": 1298.64,
-   "end": 1324.155,
+   "start": 1273.97,
+   "end": 1294.898,
    "role": "H",
    "sentences": [
-    "5.02#5",
-    "5.02#6"
+    "5.02#6",
+    "5.02#7",
+    "5.02#8"
    ],
    "template": "T1",
    "variant": "",
@@ -3390,11 +4659,33 @@
      "elems": [
       [
        "bold",
-       "NEW JERSEY STATE PRISON IN TRENTON"
+       "SEVEN ADDITIONAL LIFE SENTENCES"
       ],
       [
        "ital",
-       "Entirely sequestered from the outside world"
+       "A total of 18 life sentences"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "Condemned to spend the remainder of his natural life behind the bars"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "bold",
+       "THE SEVERE JUDGMENT"
+      ],
+      [
+       "ital",
+       "Concluded the reign of the most lethal serial killer"
       ]
      ]
     }
@@ -3416,8 +4707,8 @@
   {
    "id": "5-04",
    "act": 5,
-   "start": 1324.155,
-   "end": 1325.455,
+   "start": 1294.898,
+   "end": 1296.198,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -3432,11 +4723,33 @@
      "elems": [
       [
        "bold",
-       "NEW JERSEY STATE PRISON IN TRENTON"
+       "SEVEN ADDITIONAL LIFE SENTENCES"
       ],
       [
        "ital",
-       "Entirely sequestered from the outside world"
+       "A total of 18 life sentences"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "Condemned to spend the remainder of his natural life behind the bars"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "bold",
+       "THE SEVERE JUDGMENT"
+      ],
+      [
+       "ital",
+       "Concluded the reign of the most lethal serial killer"
       ]
      ]
     }
@@ -3459,12 +4772,13 @@
   {
    "id": "5-05",
    "act": 5,
-   "start": 1325.455,
-   "end": 1355.644,
+   "start": 1296.198,
+   "end": 1317.483,
    "role": "H",
    "sentences": [
     "5.04#1",
-    "5.04#2"
+    "5.04#2",
+    "5.04#3"
    ],
    "template": "T1",
    "variant": "",
@@ -3478,11 +4792,29 @@
      "elems": [
       [
        "bold",
-       "WHY WAS HE ABLE TO PERSIST FOR 16 YEARS?"
+       "PATHOLOGICAL NARCISSISM"
       ],
       [
        "ital",
-       "Across nine healthcare facilities, not a single institution took the stand to stop him"
+       "Continued to manifest in bizarre defiance"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "Stubbornly refused to face the families of his victims"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "“YOUR HONOR, YOU NEED TO STEP DOWN.”"
       ]
      ]
     }
@@ -3504,12 +4836,12 @@
   {
    "id": "5-06",
    "act": 5,
-   "start": 1355.644,
-   "end": 1373.089,
+   "start": 1317.483,
+   "end": 1333.251,
    "role": "H",
    "sentences": [
-    "5.04#3",
-    "5.04#4"
+    "5.04#4",
+    "5.04#5"
    ],
    "template": "T2",
    "variant": "",
@@ -3523,23 +4855,23 @@
      "elems": [
       [
        "ital",
-       "STATE OF NEW JERSEY ENACTED"
+       "FOR HOURS"
       ],
       [
        "bold",
-       "THE CULLEN LAW (2004)"
+       "JUDGE WILLIAM PLATT"
       ],
       [
        "ital",
-       "Health Care Professional Responsibility and Reporting Enhancement Act"
+       "To order his mouth taped shut with cloth"
       ]
      ]
     }
    ],
    "beats": [
-    "Cullen Law"
+    "mouth taped shut"
    ],
-   "beat_text": "Dấu mộc ở \"Cullen Law\"",
+   "beat_text": "Dấu mộc ở \"mouth taped shut\"",
    "flags": {
     "bust": true,
     "nobust": false,
@@ -3555,12 +4887,12 @@
   {
    "id": "5-07",
    "act": 5,
-   "start": 1373.089,
-   "end": 1399.45,
+   "start": 1333.251,
+   "end": 1346.792,
    "role": "H",
    "sentences": [
-    "5.04#5",
-    "5.04#6"
+    "5.04#6",
+    "5.04#7"
    ],
    "template": "T1",
    "variant": "",
@@ -3574,11 +4906,20 @@
      "elems": [
       [
        "bold",
-       "FOUR CRITICAL RED FLAGS"
+       "THE COMPLETE NARCISSISTIC COLLAPSE"
       ],
       [
        "ital",
-       "Identifying covert institutional predators in healthcare settings"
+       "An ego stripped of all control and relevance"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "bold",
+       "RATHER THAN BOWING HIS HEAD IN SHAME"
       ]
      ]
     }
@@ -3602,12 +4943,13 @@
   {
    "id": "5-08",
    "act": 5,
-   "start": 1399.45,
-   "end": 1417.541,
+   "start": 1346.792,
+   "end": 1370.305,
    "role": "C",
    "sentences": [
     "5.05#1",
-    "5.05#2"
+    "5.05#2",
+    "5.05#3"
    ],
    "template": "T9",
    "variant": "",
@@ -3621,11 +4963,24 @@
      "elems": [
       [
        "bold",
-       "RED FLAG 01: THE FALSE “SAVIOR” SYNDROME"
+       "“INSTITUTIONAL BETRAYAL”"
       ],
       [
        "ital",
-       "Always the first to arrive during clinical crises"
+       "The collective blindspots of a healthcare system compromised by financial self-preservation"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Noted anomalies"
+      ],
+      [
+       "ital",
+       "Documented missing narcotics"
       ]
      ]
     }
@@ -3647,13 +5002,13 @@
   {
    "id": "5-09",
    "act": 5,
-   "start": 1417.541,
-   "end": 1450.094,
+   "start": 1370.305,
+   "end": 1394.207,
    "role": "C",
    "sentences": [
-    "5.05#3",
     "5.05#4",
-    "5.05#5"
+    "5.05#5",
+    "5.05#6"
    ],
    "template": "T9",
    "variant": "",
@@ -3666,12 +5021,30 @@
      "at_sentence": null,
      "elems": [
       [
+       "ital",
+       "THE FEAR OF MULTIMILLION-DOLLAR MALPRACTICE LIABILITIES"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
        "bold",
-       "RED FLAG 02: FRAGMENTED EMPLOYMENT & CHRONIC JOB-HOPPING"
+       "PASSING A LETHAL HAZARD ONTO SUBSEQUENT HOSPITALS"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "That systemic silence"
       ],
       [
        "ital",
-       "Continuously rotating facilities after brief stints"
+       "Inadvertent sanctuaries for serial homicide across 16 years"
       ]
      ]
     }
@@ -3695,12 +5068,59 @@
   {
    "id": "5-10",
    "act": 5,
-   "start": 1450.094,
-   "end": 1474.094,
+   "start": 1394.207,
+   "end": 1401.284,
+   "role": "C",
+   "sentences": [
+    "5.05#7"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t4_redflag_savior",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THE SACRED VALUE OF HUMAN LIFE"
+      ],
+      [
+       "ital",
+       "What occurs when institutional preservation is prioritized"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-11",
+   "act": 5,
+   "start": 1401.284,
+   "end": 1423.906,
    "role": "D",
    "sentences": [
     "5.06#1",
-    "5.06#2"
+    "5.06#2",
+    "5.06#3"
    ],
    "template": "T9",
    "variant": "",
@@ -3714,11 +5134,29 @@
      "elems": [
       [
        "bold",
-       "RED FLAG 03: UNAUTHORIZED MANIPULATIONS ON INVENTORY SYSTEMS"
+       "HISTORIC LEGISLATIVE REFORM"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "bold",
+       "THE LANDMARK CULLEN ACT"
       ],
       [
        "ital",
-       "Habitual order cancellations immediately following physical compartment access"
+       "In 2004"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Formally report serious misconduct by medical personnel"
       ]
      ]
     }
@@ -3738,14 +5176,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-11",
+   "id": "5-12",
    "act": 5,
-   "start": 1474.094,
-   "end": 1499.815,
+   "start": 1423.906,
+   "end": 1447.619,
    "role": "D",
    "sentences": [
-    "5.06#3",
-    "5.06#4"
+    "5.06#4",
+    "5.06#5",
+    "5.06#6"
    ],
    "template": "T9",
    "variant": "",
@@ -3759,11 +5198,29 @@
      "elems": [
       [
        "bold",
-       "RED FLAG 04: ABNORMAL INSTITUTIONAL SILENCE"
+       "CIVIL IMMUNITY TO HOSPITALS"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "Completely overhauled nationwide"
       ],
       [
        "ital",
-       "Evading law enforcement and seeking internal resolution to protect reputation"
+       "Eliminating the cancellation loophole"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "bold",
+       "VITAL SAFEGUARDS"
       ]
      ]
     }
@@ -3783,10 +5240,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-12",
+   "id": "5-13",
    "act": 5,
-   "start": 1499.815,
-   "end": 1501.615,
+   "start": 1447.619,
+   "end": 1449.419,
    "role": null,
    "sentences": [],
    "template": "T9",
@@ -3801,11 +5258,29 @@
      "elems": [
       [
        "bold",
-       "RED FLAG 04: ABNORMAL INSTITUTIONAL SILENCE"
+       "CIVIL IMMUNITY TO HOSPITALS"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "Completely overhauled nationwide"
       ],
       [
        "ital",
-       "Evading law enforcement and seeking internal resolution to protect reputation"
+       "Eliminating the cancellation loophole"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "bold",
+       "VITAL SAFEGUARDS"
       ]
      ]
     }
@@ -3823,13 +5298,13 @@
    },
    "hold": true,
    "transition": "dissolve",
-   "inherit": "5-11"
+   "inherit": "5-12"
   },
   {
-   "id": "5-13",
+   "id": "5-14",
    "act": 5,
-   "start": 1501.615,
-   "end": 1527.688,
+   "start": 1449.419,
+   "end": 1469.924,
    "role": "H",
    "sentences": [
     "5.08#1",
@@ -3848,11 +5323,37 @@
      "elems": [
       [
        "bold",
-       "EVIL CLOAKED IN THE VESTMENTS OF KINDNESS"
+       "A CHILLING REMINDER"
       ],
       [
        "ital",
-       "Sheltered by the apathy and silence of the collective"
+       "Regarding the fragile nature of human trust"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "Clinical scrubs"
+      ],
+      [
+       "ital",
+       "Never absolute guarantees of moral character"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "THE MOST DANGEROUS EVIL"
+      ],
+      [
+       "ital",
+       "Disguises itself behind model masks of competence and reliability"
       ]
      ]
     }
@@ -3872,10 +5373,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-14",
+   "id": "5-15",
    "act": 5,
-   "start": 1527.688,
-   "end": 1558.349,
+   "start": 1469.924,
+   "end": 1492.546,
    "role": "H",
    "sentences": [
     "5.08#4",
@@ -3894,11 +5395,29 @@
      "elems": [
       [
        "bold",
-       "AN ENDURING BEACON OF INTEGRITY"
+       "“ALWAYS LISTEN TO AND HONOR YOUR OWN INTUITION”"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "Never allow rationalization or social deference to silence your conscience"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "bold",
+       "THE COURAGE OF NURSE AMY LOUGHREN"
       ],
       [
        "ital",
-       "The uncompromising moral resolve of nurse Amy Loughren"
+       "A single individual willing to confront fear and speak truth can save countless lives"
       ]
      ]
     }
@@ -3918,10 +5437,54 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-15",
+   "id": "5-16",
    "act": 5,
-   "start": 1558.349,
-   "end": 1559.649,
+   "start": 1492.546,
+   "end": 1498.876,
+   "role": "H",
+   "sentences": [
+    "5.08#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t4_beacon_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SILENCE BEFORE WRONGDOING NEVER BRINGS PEACE"
+      ],
+      [
+       "ital",
+       "It merely surrenders the vulnerable to the gathering darkness"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-17",
+   "act": 5,
+   "start": 1498.876,
+   "end": 1500.176,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -3936,17 +5499,17 @@
      "elems": [
       [
        "bold",
-       "AN ENDURING BEACON OF INTEGRITY"
+       "SILENCE BEFORE WRONGDOING NEVER BRINGS PEACE"
       ],
       [
        "ital",
-       "The uncompromising moral resolve of nurse Amy Loughren"
+       "It merely surrenders the vulnerable to the gathering darkness"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Case dossier shutting",
+   "beat_text": "Tiếng gấp hồ sơ",
    "flags": {
     "bust": false,
     "nobust": true,
@@ -3958,17 +5521,18 @@
    },
    "hold": true,
    "transition": "dissolve",
-   "inherit": "5-14"
+   "inherit": "5-16"
   },
   {
-   "id": "5-16",
+   "id": "5-18",
    "act": 5,
-   "start": 1559.649,
-   "end": 1570.365,
+   "start": 1500.176,
+   "end": 1517.841,
    "role": "H",
    "sentences": [
     "5.10#1",
-    "5.10#2"
+    "5.10#2",
+    "5.10#3"
    ],
    "template": "T1",
    "variant": "",
@@ -3981,12 +5545,26 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "OUR SINCERE GRATITUDE TO OUR LISTENERS"
-      ],
+       "ital",
+       "Our gratitude to our investigative and psychological contributors"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
       [
        "ital",
-       "Thank you for tuning into every moment of today’s broadcast"
+       "We thank you for listening through the final moments"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "bold",
+       "REMAIN VIGILANT, HONOR YOUR PERSONAL INTUITION"
       ]
      ]
     }
@@ -4006,13 +5584,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-17",
+   "id": "5-19",
    "act": 5,
-   "start": 1570.365,
-   "end": 1578.089,
+   "start": 1517.841,
+   "end": 1523.113,
    "role": "H",
    "sentences": [
-    "5.10#3"
+    "5.10#4"
    ],
    "template": "T1",
    "variant": "",
@@ -4025,18 +5603,18 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "REMAIN VIGILANT & CHERISH THE SAFETY OF LOVED ONES"
+       "ital",
+       "Stay safe and farewell"
       ],
       [
-       "ital",
-       "Look forward to meeting you in our next criminal psychology case file"
+       "bold",
+       "NEXT INVESTIGATIVE PSYCHOLOGICAL DOSSIER ON AMBER EYES"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Power button click",
+   "beat_text": "Recorder switch-off click",
    "flags": {
     "bust": true,
     "nobust": false,
@@ -4050,10 +5628,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-18",
+   "id": "5-20",
    "act": 5,
-   "start": 1578.089,
-   "end": 1588.089,
+   "start": 1523.113,
+   "end": 1533.113,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -4067,18 +5645,22 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
+       "ital",
        "CASE FILE 04 · CLOSED"
       ],
       [
+       "bold",
+       "AMBER EYES"
+      ],
+      [
        "ital",
-       "AMBER EYES · Criminal psychology through real case files"
+       "Criminal psychology through real case files"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Music fade out",
+   "beat_text": "Nhạc fade out",
    "flags": {
     "bust": false,
     "nobust": true,

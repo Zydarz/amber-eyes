@@ -1,6 +1,11 @@
-"""Contact sheet 84 anh — tach theo HOI, kich thuoc lon de DOC CHU tren hinh (H9).
+"""Contact sheet ảnh tĩnh — tách theo HỒI, kích thước lớn để ĐỌC CHỮ trên hình (H9).
 
-Dung khi can soi bang mat: 4 cot, thumbnail 480x270, ten shot + so thu tu.
+Dùng khi cần soi bằng mắt: 4 cột, thumbnail 480x270, tên shot + số thứ tự.
+
+Dung:
+    py -3 .work/_make_stills_sheets_by_act_t04.py vi
+    py -3 .work/_make_stills_sheets_by_act_t04.py en
+    py -3 .work/_make_stills_sheets_by_act_t04.py ja
 """
 import math
 import pathlib
@@ -10,8 +15,18 @@ from PIL import Image, ImageDraw, ImageFont
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-STILLS = ROOT / ".work" / "video3_t04" / "stills"
-OUT = ROOT / "02_SAN_XUAT" / "Tap04"
+
+LANGS = {
+    "vi": (".work/video3_t04/stills", "02_SAN_XUAT/Tap04", "contact_sheet_t04_act"),
+    "en": (".work/video3_EN_t04/stills", "02_SAN_XUAT/Tap04_EN", "contact_sheet_t04_EN_act"),
+    "ja": (".work/video3_JA_t04/stills", "02_SAN_XUAT/Tap04_JA", "contact_sheet_t04_JA_act"),
+}
+LANG = (sys.argv[1] if len(sys.argv) > 1 else "vi").lower()
+if LANG not in LANGS:
+    sys.exit(f"ngon ngu khong hop le: {LANG} (vi|en|ja)")
+STILLS = ROOT / LANGS[LANG][0]
+OUT = ROOT / LANGS[LANG][1]
+PREFIX = LANGS[LANG][2]
 
 cols, tw, th, pad, header_h = 4, 480, 270, 12, 26
 try:
@@ -44,7 +59,7 @@ for act in sorted(groups):
         draw.text((x + 4, y + 3), p.stem.replace("shot_", "Shot "), fill=(210, 220, 240), font=font)
         with Image.open(p) as im:
             sheet.paste(im.resize((tw, th), Image.Resampling.LANCZOS), (x, y + header_h))
-    out = OUT / f"contact_sheet_t04_act{act}.png"
+    out = OUT / f"{PREFIX}{act}.png"
     sheet.save(out)
-    print(f"act {act}: {len(lst)} anh -> {out.name} ({W}x{H})")
+    print(f"[{LANG}] act {act}: {len(lst)} anh -> {out.name} ({W}x{H})")
 print("xong")

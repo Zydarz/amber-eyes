@@ -1,5 +1,5 @@
 {
- "total": 1256.52,
+ "total": 1676.419,
  "intro": 22.41,
  "items": [
   {
@@ -8,7 +8,7 @@
    "act": 1,
    "role": "H",
    "start": 23.0,
-   "end": 25.92,
+   "end": 24.371,
    "text": "Mùa thu năm 2003."
   },
   {
@@ -16,8 +16,8 @@
    "element": "1.03",
    "act": 1,
    "role": "H",
-   "start": 26.67,
-   "end": 32.51,
+   "start": 24.371,
+   "end": 29.412,
    "text": "Tại Trung tâm Y tế Somerset thuộc thị trấn Somerville, bang New Jersey, nước Mỹ."
   },
   {
@@ -25,8 +25,8 @@
    "element": "1.03",
    "act": 1,
    "role": "H",
-   "start": 32.86,
-   "end": 42.06,
+   "start": 29.412,
+   "end": 38.358,
    "text": "Trong căn phòng Hồi sức Tích cực ICU ngập ánh đèn huỳnh quang trắng lạnh, Charles Cullen là gương mặt quen thuộc của những ca trực đêm vất vả nhất."
   },
   {
@@ -34,53 +34,80 @@
    "element": "1.03",
    "act": 1,
    "role": "H",
-   "start": 42.41,
-   "end": 53.65,
+   "start": 38.358,
+   "end": 49.109,
    "text": "Người đàn ông 43 tuổi ấy có dáng người gầy gò, giọng nói nhỏ nhẹ, luôn xuất hiện với nụ cười hiền lành và sẵn sàng nhận làm thay ca trực cho bất kỳ đồng nghiệp nào đang kiệt sức."
+  },
+  {
+   "id": "1.03#5",
+   "element": "1.03",
+   "act": 1,
+   "role": "H",
+   "start": 49.109,
+   "end": 56.015,
+   "text": "Hắn là hiện thân của một người chăm sóc tận tụy, không bao giờ phàn nàn trước những ca cấp cứu kéo dài thâu đêm."
+  },
+  {
+   "id": "1.03#6",
+   "element": "1.03",
+   "act": 1,
+   "role": "H",
+   "start": 56.015,
+   "end": 65.427,
+   "text": "Thế nhưng, chính chiếc áo blouse trắng tinh tươm ấy đã tạo nên một “Hiệu ứng Hào quang” hoàn hảo, che giấu một vực thẳm tâm lý đen tối suốt 16 năm ròng rã."
   },
   {
    "id": "1.05#1",
    "element": "1.05",
    "act": 1,
    "role": "H",
-   "start": 55.45,
-   "end": 65.41,
-   "text": "Trong một môi trường y tế đầy áp lực, nơi ranh giới giữa sự sống và sự ra đi chỉ tính bằng từng giây, Cullen được xem như một người đồng nghiệp đáng tin cậy."
+   "start": 66.927,
+   "end": 75.872,
+   "text": "Trong một môi trường y tế đầy áp lực, nơi ranh giới giữa sự sống và sự ra đi chỉ tính bằng từng giây, Cullen được xem như một chỗ dựa đáng tin cậy."
   },
   {
    "id": "1.05#2",
    "element": "1.05",
    "act": 1,
    "role": "H",
-   "start": 65.76,
-   "end": 75.52,
-   "text": "Hắn luôn là người đầu tiên chạy đến phụ giúp khi có bệnh nhân trở nặng, và là người lặng lẽ dọn dẹp phòng bệnh sau những ca cấp cứu bất thành."
+   "start": 75.872,
+   "end": 84.293,
+   "text": "Hắn luôn là người đầu tiên chạy đến phụ giúp khi có bệnh nhân trở nặng, và lặng lẽ ở lại dọn dẹp phòng bệnh sau những ca cấp cứu thất bại."
   },
   {
    "id": "1.05#3",
    "element": "1.05",
    "act": 1,
    "role": "H",
-   "start": 75.87,
-   "end": 85.79,
-   "text": "Để hiểu sự quý mến và tin tưởng ấy lớn đến mức nào, hãy hình dung cảm nhận của những đồng nghiệp từng kề vai sát cánh cùng hắn qua hàng trăm ca trực đêm."
+   "start": 84.293,
+   "end": 90.441,
+   "text": "Đồng nghiệp coi hắn là một người bạn hiền lành, một người cha trầm lặng luôn hết lòng vì công việc."
+  },
+  {
+   "id": "1.05#4",
+   "element": "1.05",
+   "act": 1,
+   "role": "H",
+   "start": 90.441,
+   "end": 99.387,
+   "text": "Để hiểu sự quý mến và tin tưởng ấy lớn đến mức nào, hãy hình dung cảm nhận của những người từng kề vai sát cánh cùng hắn qua hàng trăm ca trực đêm."
   },
   {
    "id": "1.07#1",
    "element": "1.07",
    "act": 1,
    "role": "N1",
-   "start": 86.89,
-   "end": 90.85,
-   "text": "Trong mắt tất cả y tá chúng tôi, Charlie là một người bạn tuyệt vời."
+   "start": 99.387,
+   "end": 105.069,
+   "text": "Trong mắt tất cả y tá chúng tôi tại bệnh viện Somerset, Charlie là một người bạn tuyệt vời."
   },
   {
    "id": "1.07#2",
    "element": "1.07",
    "act": 1,
    "role": "N1",
-   "start": 91.2,
-   "end": 96.24,
+   "start": 105.069,
+   "end": 110.169,
    "text": "Anh ấy chu đáo, không bao giờ cáu gắt và luôn chăm sóc người bệnh vô cùng ân cần."
   },
   {
@@ -88,8 +115,8 @@
    "element": "1.07",
    "act": 1,
    "role": "N1",
-   "start": 96.59,
-   "end": 104.23,
+   "start": 110.169,
+   "end": 118.24,
    "text": "Khi các ca trực đêm quá tải và mệt mỏi, anh ấy luôn chủ động nhận gánh vác những phần việc nặng nhọc nhất mà chẳng một lời than vãn."
   },
   {
@@ -97,26 +124,35 @@
    "element": "1.07",
    "act": 1,
    "role": "N1",
-   "start": 104.58,
-   "end": 110.62,
+   "start": 118.24,
+   "end": 124.913,
    "text": "Không một ai trong bệnh viện có thể mảy may nghi ngờ một người đồng nghiệp hiền lành và tận tụy đến như thế."
+  },
+  {
+   "id": "1.07#5",
+   "element": "1.07",
+   "act": 1,
+   "role": "N1",
+   "start": 124.913,
+   "end": 133.8,
+   "text": "Cho đến khi sự thật vỡ lở, tất cả chúng tôi đều lạnh sống lưng vì nhận ra mình đã cùng làm việc bên cạnh một kẻ sát nhân hàng loạt nguy hiểm nhất."
   },
   {
    "id": "1.08#1",
    "element": "1.08",
    "act": 1,
    "role": "H",
-   "start": 111.82,
-   "end": 121.38,
-   "text": "Thế nhưng, đằng sau cặp kính cận trí thức và chiếc áo blouse trắng tinh tươm ấy, một bóng ma tử thần đang âm thầm bước đi qua từng hành lang bệnh viện."
+   "start": 133.8,
+   "end": 142.571,
+   "text": "Thế nhưng, đằng sau cặp kính cận trí thức và nụ cười hòa nhã ấy, một bóng ma tử thần đang âm thầm gieo rắc bi kịch qua từng hành lang bệnh viện."
   },
   {
    "id": "1.08#2",
    "element": "1.08",
    "act": 1,
    "role": "H",
-   "start": 122.03,
-   "end": 134.23,
+   "start": 142.571,
+   "end": 151.05,
    "text": "Ngày 28 tháng 6 năm 2003, linh mục Florian Gall 68 tuổi, nguyên cha sở tại vùng Somerset, nhập viện vì viêm phổi và biến chứng nhiễm trùng."
   },
   {
@@ -124,80 +160,125 @@
    "element": "1.08",
    "act": 1,
    "role": "H",
-   "start": 134.58,
-   "end": 137.82,
-   "text": "Không ai nghĩ rằng đó sẽ là những ngày cuối cùng của ngài."
+   "start": 151.05,
+   "end": 157.49,
+   "text": "Bệnh tình của ngài đang tiến triển rất khả quan và các bác sĩ dự kiến ngài sẽ sớm được xuất viện về nhà."
   },
   {
    "id": "1.08#4",
    "element": "1.08",
    "act": 1,
    "role": "H",
-   "start": 138.97,
-   "end": 148.41,
+   "start": 157.49,
+   "end": 166.494,
    "text": "Thế nhưng, chỉ vài giờ sau khi bước vào ca trực đêm của Charles Cullen, vị linh mục đột ngột rơi vào cơn loạn nhịp kịch phát rồi trụy tim hoàn toàn."
+  },
+  {
+   "id": "1.08#5",
+   "element": "1.08",
+   "act": 1,
+   "role": "H",
+   "start": 166.494,
+   "end": 172.118,
+   "text": "Các bác sĩ hồi sức cấp cứu đã chiến đấu suốt nhiều giờ nhưng không thể đảo ngược tình thế."
+  },
+  {
+   "id": "1.08#6",
+   "element": "1.08",
+   "act": 1,
+   "role": "H",
+   "start": 172.118,
+   "end": 177.625,
+   "text": "Đó là một sự ra đi đầy bất thường khiến gia đình và các đồng nghiệp bàng hoàng nghi vấn."
   },
   {
    "id": "1.10#1",
    "element": "1.10",
    "act": 1,
    "role": "H",
-   "start": 148.76,
-   "end": 163.72,
-   "text": "Khi kết quả xét nghiệm độc chất học pháp y được gửi về từ phòng thí nghiệm, các bác sĩ đã kinh hoàng phát hiện: Nồng độ Digoxin – một loại thuốc trợ tim cực mạnh – trong cơ thể vị linh mục cao gấp hàng chục lần ngưỡng an toàn."
+   "start": 177.625,
+   "end": 187.328,
+   "text": "Khi kết quả xét nghiệm độc chất học pháp y được gửi về từ phòng thí nghiệm, các bác sĩ đã kinh hoàng phát hiện nồng độ Digoxin cực cao trong cơ thể vị linh mục."
   },
   {
    "id": "1.10#2",
    "element": "1.10",
    "act": 1,
    "role": "H",
-   "start": 164.47,
-   "end": 166.95,
-   "text": "Đó không phải là một sự nhầm lẫn y khoa."
+   "start": 187.328,
+   "end": 195.574,
+   "text": "Digoxin là một loại thuốc trợ tim cực mạnh, nhưng liều lượng tìm thấy trong máu nạn nhân cao gấp hàng chục lần ngưỡng an toàn cho phép."
   },
   {
    "id": "1.10#3",
    "element": "1.10",
    "act": 1,
    "role": "H",
-   "start": 167.6,
-   "end": 169.48,
-   "text": "Đó là một hành vi có chủ đích."
+   "start": 195.574,
+   "end": 202.189,
+   "text": "Trái tim của vị linh mục đã bị bóp nghẹt bởi một liều độc dược nhân tạo chứ không phải vì bệnh lý tự nhiên."
+  },
+  {
+   "id": "1.10#4",
+   "element": "1.10",
+   "act": 1,
+   "role": "H",
+   "start": 202.189,
+   "end": 212.591,
+   "text": "Tiến sĩ Steven Marcus, Giám đốc Hệ thống Thông tin Độc chất New Jersey, đã lập tức gửi cảnh báo khẩn cấp tới ban giám đốc bệnh viện về nguy cơ có kẻ đang đầu độc bệnh nhân."
+  },
+  {
+   "id": "1.10#5",
+   "element": "1.10",
+   "act": 1,
+   "role": "H",
+   "start": 212.591,
+   "end": 219.905,
+   "text": "Thế nhưng, thay vì báo cảnh sát, ban lãnh đạo bệnh viện đã chọn cách trì hoãn và giữ kín sự việc suốt nhiều tháng trời."
   },
   {
    "id": "1.12#1",
    "element": "1.12",
    "act": 1,
    "role": "H",
-   "start": 172.28,
-   "end": 179.2,
-   "text": "Để hiểu rõ quy mô chấn động của vụ án, chúng ta hãy lắng nghe thông tin từ Điều tra viên trực tiếp thụ lý hồ sơ."
+   "start": 221.905,
+   "end": 230.384,
+   "text": "Để hiểu rõ quy mô chấn động và bức tranh toàn cảnh của hồ sơ y tế đen tối này, chúng ta hãy lắng nghe phân tích từ Điều tra viên chuyên án."
+  },
+  {
+   "id": "1.12#2",
+   "element": "1.12",
+   "act": 1,
+   "role": "H",
+   "start": 230.384,
+   "end": 236.766,
+   "text": "Những con số nằm sâu trong bóng tối sẽ cho thấy mức độ tàn khốc vượt xa trí tưởng tượng của công chúng."
   },
   {
    "id": "1.14#1",
    "element": "1.14",
    "act": 1,
    "role": "D",
-   "start": 180.2,
-   "end": 186.36,
-   "text": "Khi chúng tôi lật lại lịch sử công tác của Charles Cullen, một sự thật kinh hoàng đã mở ra trước mắt ban chuyên án:"
+   "start": 236.766,
+   "end": 244.08,
+   "text": "Khi chúng tôi lật lại lịch sử công tác của Charles Cullen, một bức tranh kinh hoàng đã hiện rõ trước mắt ban chuyên án."
   },
   {
    "id": "1.14#2",
    "element": "1.14",
    "act": 1,
    "role": "D",
-   "start": 186.71,
-   "end": 189.51,
-   "text": "Somerset Medical Center không phải là nơi đầu tiên."
+   "start": 244.08,
+   "end": 248.48,
+   "text": "Trung tâm Y tế Somerset hoàn toàn không phải là hiện trường đầu tiên."
   },
   {
    "id": "1.14#3",
    "element": "1.14",
    "act": 1,
    "role": "D",
-   "start": 189.86,
-   "end": 203.34,
+   "start": 248.48,
+   "end": 258.416,
    "text": "Trong suốt 16 năm, từ năm 1988 đến năm 2003, Charles Cullen đã làm việc qua 9 bệnh viện và 1 viện dưỡng lão khác nhau trên khắp hai bang New Jersey và Pennsylvania."
   },
   {
@@ -205,656 +286,881 @@
    "element": "1.14",
    "act": 1,
    "role": "D",
-   "start": 204.09,
-   "end": 211.93,
-   "text": "Và ở bất cứ nơi nào hắn đặt chân đến, tỷ lệ bệnh nhân tử vong vì ngưng tim bất thường vào ca đêm đều tăng vọt theo một đồ thị kỳ dị."
+   "start": 258.416,
+   "end": 266.779,
+   "text": "Ở bất cứ nơi nào hắn đặt chân đến, tỷ lệ bệnh nhân tử vong vì ngưng tim đột ngột vào ca trực đêm đều tăng vọt theo một đồ thị bất thường."
   },
   {
    "id": "1.14#5",
    "element": "1.14",
    "act": 1,
    "role": "D",
-   "start": 212.68,
-   "end": 217.8,
-   "text": "Cullen tự nhận khoảng 40 vụ, và tòa án xác nhận 29 vụ trong số đó."
+   "start": 266.779,
+   "end": 276.423,
+   "text": "Hắn bị nghi ngờ ở nơi này, liền bị buộc thôi việc trong im lặng, rồi lại dễ dàng cầm thư giới thiệu chuyển sang một bệnh viện khác để tiếp tục hành vi săn mồi."
   },
   {
    "id": "1.14#6",
    "element": "1.14",
    "act": 1,
    "role": "D",
-   "start": 218.45,
-   "end": 228.93,
-   "text": "Nhưng nhiều nhà điều tra tin rằng con số thực sự có thể lên tới hàng trăm người, khiến Charles Cullen có thể là kẻ thủ ác cướp đi nhiều sinh mạng nhất trong lịch sử y tế nước Mỹ."
+   "start": 276.423,
+   "end": 282.688,
+   "text": "Cullen thừa nhận đã sát hại khoảng 40 bệnh nhân, và cơ quan công tố xác nhận 29 nạn nhân trong số đó."
+  },
+  {
+   "id": "1.14#7",
+   "element": "1.14",
+   "act": 1,
+   "role": "D",
+   "start": 282.688,
+   "end": 291.867,
+   "text": "Tuy nhiên, dựa trên hồ sơ theo dõi dịch tễ và lượng thuốc mất tích bí ẩn, các chuyên gia điều tra nhận định con số thực tế có thể lên tới 400 nạn nhân."
+  },
+  {
+   "id": "1.14#8",
+   "element": "1.14",
+   "act": 1,
+   "role": "D",
+   "start": 291.867,
+   "end": 298.481,
+   "text": "Điều đó biến Charles Cullen thành kẻ giết người hàng loạt tàn khốc nhất trong toàn bộ lịch sử y tế nước Mỹ."
   },
   {
    "id": "1.16#1",
    "element": "1.16",
    "act": 1,
    "role": "H",
-   "start": 230.63,
-   "end": 233.99,
-   "text": "Chào mừng bạn đến với hồ sơ phân tích tâm lý học tội phạm."
+   "start": 298.481,
+   "end": 302.591,
+   "text": "Chào mừng bạn đến với kênh phân tích tâm lý tội phạm Amber Eyes."
   },
   {
    "id": "1.16#2",
    "element": "1.16",
    "act": 1,
    "role": "H",
-   "start": 234.34,
-   "end": 246.46,
-   "text": "Hôm nay, chúng ta sẽ mở khóa một trong những hồ sơ đen tối và nhức nhối nhất của nền y tế thế giới: Hồ sơ Charles Cullen – kẻ mang biệt danh “Thiên thần Tử thần”."
+   "start": 302.591,
+   "end": 312.643,
+   "text": "Hôm nay, chúng ta cùng giải phẫu một trong những hồ sơ đen tối và nhức nhối nhất của nền y học thế giới: Hồ sơ Charles Cullen, kẻ mang biệt danh “Thiên thần Tử thần”."
   },
   {
    "id": "1.16#3",
    "element": "1.16",
    "act": 1,
    "role": "H",
-   "start": 247.31,
-   "end": 265.19,
-   "text": "Tập này sẽ giải phẫu hai cơ chế tâm lý đen tối: Phức cảm Chúa trời ngầm và Kỹ thuật trung hòa đạo đức, đồng thời vạch trần một sự thật tàn nhẫn hơn cả tội ác của kẻ thủ ác: Bí mật về sự im lặng có hệ thống của 9 bệnh viện suốt gần hai thập kỷ."
+   "start": 312.643,
+   "end": 321.53,
+   "text": "Tập phim này sẽ làm sáng tỏ hai hiện tượng tâm lý méo mó: “Phức cảm Chúa trời” và kỹ thuật trung hòa đạo đức giúp một kẻ sát nhân ngủ yên mỗi đêm."
+  },
+  {
+   "id": "1.16#4",
+   "element": "1.16",
+   "act": 1,
+   "role": "H",
+   "start": 321.53,
+   "end": 330.883,
+   "text": "Đồng thời, chúng ta sẽ bóc trần sự thật cay đắng hơn cả tội ác của hắn: sự im lặng đồng lõa của chín bệnh viện vì nỗi sợ kiện tụng và trách nhiệm pháp lý."
+  },
+  {
+   "id": "1.16#5",
+   "element": "1.16",
+   "act": 1,
+   "role": "H",
+   "start": 330.883,
+   "end": 338.547,
+   "text": "Đó là bài học đắt giá về sự bất an tập thể và cái giá phải trả khi xã hội nhắm mắt trước những tín hiệu cảnh báo đỏ sinh tồn."
   },
   {
    "id": "2.02#1",
    "element": "2.02",
    "act": 2,
    "role": "H",
-   "start": 267.19,
-   "end": 274.11,
-   "text": "Hiện trường của những vụ án nghiêm trọng thông thường là những con hẻm tối, những căn nhà hoang hay rừng sâu hẻo lánh."
+   "start": 340.547,
+   "end": 347.686,
+   "text": "Hiện trường của những vụ án giết người thông thường là những con hẻm tối, những căn nhà hoang hay rừng sâu hẻo lánh."
   },
   {
    "id": "2.02#2",
    "element": "2.02",
    "act": 2,
    "role": "H",
-   "start": 274.46,
-   "end": 282.62,
-   "text": "Nhưng hiện trường của Charles Cullen lại là những căn phòng điều trị vô trùng, nơi người bệnh gửi gắm sinh mạng và niềm tin trọn vẹn nhất."
+   "start": 347.686,
+   "end": 356.282,
+   "text": "Thế nhưng, hiện trường của Charles Cullen lại là những căn phòng điều trị vô trùng, nơi người bệnh gửi gắm sự sống và niềm tin trọn vẹn nhất."
   },
   {
    "id": "2.02#3",
    "element": "2.02",
    "act": 2,
    "role": "H",
-   "start": 283.27,
-   "end": 291.35,
-   "text": "Và công cụ gây án của hắn không phải là súng đạn hay hung khí, mà là chính những loại thuốc cứu người của nền y học hiện đại."
+   "start": 356.282,
+   "end": 364.178,
+   "text": "Công cụ gây án của hắn không phải là súng đạn hay hung khí thô bạo, mà là chính những ống thuốc cứu người của nền y học hiện đại."
+  },
+  {
+   "id": "2.02#4",
+   "element": "2.02",
+   "act": 2,
+   "role": "H",
+   "start": 364.178,
+   "end": 371.142,
+   "text": "Chính sự đối lập tàn nhẫn ấy đã tạo nên một tấm bình phong che mắt toàn bộ hệ thống giám sát suốt 16 năm ròng rã."
   },
   {
    "id": "2.04#1",
    "element": "2.04",
    "act": 2,
    "role": "H",
-   "start": 293.45,
-   "end": 300.13,
-   "text": "Để có thể lẩn tránh suốt 16 năm, Cullen đã lợi dụng những kẽ hở trong hệ thống quản lý thuốc của bệnh viện."
+   "start": 372.642,
+   "end": 380.947,
+   "text": "Để có thể lẩn tránh qua chín cơ sở y tế mà không bị phát giác, Cullen đã khai thác triệt để những kẽ hở quản lý kỹ thuật số thời kỳ đầu."
   },
   {
    "id": "2.04#2",
    "element": "2.04",
    "act": 2,
    "role": "H",
-   "start": 300.78,
-   "end": 304.7,
-   "text": "Xin mời Điều tra viên tái hiện lại phương thức hoạt động tinh vi này."
+   "start": 380.947,
+   "end": 387.853,
+   "text": "Hắn biến chiếc máy cấp phát thuốc tự động thành công cụ phục vụ cho những ảo tưởng quyền lực bệnh hoạn của mình."
+  },
+  {
+   "id": "2.04#3",
+   "element": "2.04",
+   "act": 2,
+   "role": "H",
+   "start": 387.853,
+   "end": 393.768,
+   "text": "Xin mời Điều tra viên tái hiện lại thủ đoạn tinh vi và quỹ đạo leo thang hành vi của kẻ thủ ác."
   },
   {
    "id": "2.06#1",
    "element": "2.06",
    "act": 2,
    "role": "D",
-   "start": 305.7,
-   "end": 315.02,
-   "text": "Vào đầu thập niên 2000, các bệnh viện tại Mỹ bắt đầu chuyển sang sử dụng tủ cấp phát thuốc tự động có tên là Pyxis MedStation."
+   "start": 393.768,
+   "end": 401.781,
+   "text": "Vào đầu những năm 2000, các bệnh viện bắt đầu sử dụng tủ cấp phát thuốc tự động Pyxis MedStation để quản lý dược phẩm chặt chẽ hơn."
   },
   {
    "id": "2.06#2",
    "element": "2.06",
    "act": 2,
    "role": "D",
-   "start": 315.37,
-   "end": 322.49,
-   "text": "Về nguyên lý, mỗi y tá phải dùng mã số cá nhân để đăng nhập, chọn tên bệnh nhân được bác sĩ chỉ định và nhấn lệnh lấy thuốc."
+   "start": 401.781,
+   "end": 408.92,
+   "text": "Mỗi y tá phải dùng mã số cá nhân để đăng nhập, chọn đúng tên bệnh nhân được bác sĩ chỉ định và nhấn lệnh xuất thuốc."
   },
   {
    "id": "2.06#3",
    "element": "2.06",
    "act": 2,
    "role": "D",
-   "start": 322.84,
-   "end": 326.4,
-   "text": "Máy tính sẽ lưu lại toàn bộ thời gian và danh tính người thao tác."
+   "start": 408.92,
+   "end": 415.593,
+   "text": "Tuy nhiên, Charles Cullen đã phát hiện ra một lỗ hổng nghiêm trọng trong thiết kế phần mềm của hệ thống này."
   },
   {
    "id": "2.06#4",
    "element": "2.06",
    "act": 2,
    "role": "D",
-   "start": 326.75,
-   "end": 333.43,
-   "text": "Tuy nhiên, Charles Cullen đã nhận ra một kẽ hở: hắn gọi thuốc rồi hủy lệnh, trong khi ngăn kéo vẫn kịp mở ra."
+   "start": 415.593,
+   "end": 425.529,
+   "text": "Hắn nhập lệnh yêu cầu lấy những loại thuốc độc bảng A như Digoxin, Insulin hay Norepinephrine, nhưng ngay khi ngăn kéo máy vừa mở ra, hắn lập tức nhấn nút hủy lệnh."
   },
   {
    "id": "2.06#5",
    "element": "2.06",
    "act": 2,
    "role": "D",
-   "start": 334.08,
-   "end": 339.92,
-   "text": "Trên sổ kho, giao dịch ấy hiện là “Đã hủy bỏ” – như thể không có lọ thuốc nào rời khỏi tủ."
+   "start": 425.529,
+   "end": 435.29,
+   "text": "Hệ thống máy tính ghi nhận giao dịch đã bị hủy và không trừ thuốc vào tài khoản bệnh nhân, nhưng trên thực tế, viên thuốc độc đã nằm gọn trong túi áo của Cullen."
   },
   {
    "id": "2.06#6",
    "element": "2.06",
    "act": 2,
    "role": "D",
-   "start": 340.67,
-   "end": 344.79,
-   "text": "Hắn còn tra cứu hồ sơ của cả những bệnh nhân không thuộc quyền chăm sóc của mình."
+   "start": 435.29,
+   "end": 443.478,
+   "text": "Quá trình điều tra cho thấy hành vi của Cullen không bộc phát ngẫu nhiên, mà phát triển qua bốn nấc thang leo thang hành vi điển hình:"
   },
   {
    "id": "2.06#7",
    "element": "2.06",
    "act": 2,
    "role": "D",
-   "start": 345.14,
-   "end": 350.98,
-   "text": "Nhưng có một điều hắn không lường trước: chiếc máy vẫn lưu lại từng lệnh hủy, từng lần tra cứu."
+   "start": 443.478,
+   "end": 447.005,
+   "text": "Nấc thang thứ nhất: Khủng hoảng nội tâm và trộm thuốc."
   },
   {
    "id": "2.06#8",
    "element": "2.06",
    "act": 2,
    "role": "D",
-   "start": 351.63,
-   "end": 355.91,
-   "text": "Và chính những dấu vết tưởng như vô hại ấy, về sau, sẽ tố cáo hắn."
+   "start": 447.005,
+   "end": 454.027,
+   "text": "Ban đầu, Cullen rơi vào trầm cảm nặng nề, tự hủy hoại bản thân và lấy trộm các loại thuốc an thần nhỏ để tích trữ."
+  },
+  {
+   "id": "2.06#9",
+   "element": "2.06",
+   "act": 2,
+   "role": "D",
+   "start": 454.027,
+   "end": 457.03,
+   "text": "Nấc thang thứ hai: Sát hại bệnh nhân hấp hối."
+  },
+  {
+   "id": "2.06#10",
+   "element": "2.06",
+   "act": 2,
+   "role": "D",
+   "start": 457.03,
+   "end": 466.324,
+   "text": "Năm 1988, tại Trung tâm Y tế Saint Barnabas, hắn bắt đầu tiêm thuốc quá liều cho những bệnh nhân cao tuổi tiên lượng xấu để thỏa mãn cảm giác giải thoát."
+  },
+  {
+   "id": "2.06#11",
+   "element": "2.06",
+   "act": 2,
+   "role": "D",
+   "start": 466.324,
+   "end": 470.026,
+   "text": "Nấc thang thứ ba: Đầu độc ngẫu nhiên các túi dịch truyền."
+  },
+  {
+   "id": "2.06#12",
+   "element": "2.06",
+   "act": 2,
+   "role": "D",
+   "start": 470.026,
+   "end": 479.962,
+   "text": "Ngưỡng kích thích bị lờn, hắn lén tiêm Insulin và Digoxin vào các túi nước muối sinh lý dự trữ trong kho, khiến bất kỳ ai truyền phải đều tử vong mà không rõ lý do."
+  },
+  {
+   "id": "2.06#13",
+   "element": "2.06",
+   "act": 2,
+   "role": "D",
+   "start": 479.962,
+   "end": 483.43,
+   "text": "Nấc thang thứ tư: Giết người hàng loạt mất kiểm soát."
+  },
+  {
+   "id": "2.06#14",
+   "element": "2.06",
+   "act": 2,
+   "role": "D",
+   "start": 483.43,
+   "end": 490.919,
+   "text": "Tại bệnh viện Somerset, hắn mất hoàn toàn khả năng kiềm chế, sát hại cả những bệnh nhân trẻ tuổi đang bình phục khỏe mạnh."
+  },
+  {
+   "id": "2.06#15",
+   "element": "2.06",
+   "act": 2,
+   "role": "D",
+   "start": 490.919,
+   "end": 497.417,
+   "text": "Cơn nghiện quyền lực đã đẩy hắn từ một kẻ bất ổn tâm lý trở thành một cỗ máy hủy diệt không thể dừng lại."
   },
   {
    "id": "2.07#1",
    "element": "2.07",
    "act": 2,
    "role": "H",
-   "start": 357.41,
-   "end": 360.05,
-   "text": "Một phương thức hoàn hảo đến mức vô hình."
+   "start": 497.417,
+   "end": 504.614,
+   "text": "Nhìn vào danh sách nạn nhân của Charles Cullen, chúng ta thấy rõ một sự bất đối xứng quyền lực tàn nhẫn đến cùng cực."
   },
   {
    "id": "2.07#2",
    "element": "2.07",
    "act": 2,
    "role": "H",
-   "start": 360.7,
-   "end": 369.66,
-   "text": "Nạn nhân qua đời trong vòng tay của các bác sĩ đang dốc sức hồi sức cấp cứu, và nguyên nhân tử vong thường được ghi nhận là biến chứng bệnh nền."
+   "start": 504.614,
+   "end": 512.744,
+   "text": "Những người nằm trên giường bệnh ICU là những sinh mệnh yếu ớt nhất, bị gắn chặt vào dây truyền dịch và hoàn toàn mất khả năng tự vệ."
   },
   {
    "id": "2.07#3",
    "element": "2.07",
    "act": 2,
    "role": "H",
-   "start": 370.01,
-   "end": 378.85,
-   "text": "Thế nhưng, hồ sơ điều tra còn hé lộ một sự thật gây chấn động hơn nhiều: Đã từng có những hồi chuông cảnh báo được gióng lên từ rất sớm."
+   "start": 512.744,
+   "end": 520.174,
+   "text": "Họ không thể kêu cứu, không thể nghi ngờ bàn tay đang chăm sóc mình, và tin tưởng tuyệt đối vào người y tá đứng bên cạnh."
   },
   {
    "id": "2.07#4",
    "element": "2.07",
    "act": 2,
    "role": "H",
-   "start": 379.2,
-   "end": 384.08,
-   "text": "Xin mời Điều tra viên làm rõ chi tiết về bức công văn cảnh báo từng bị bỏ quên."
+   "start": 520.174,
+   "end": 530.693,
+   "text": "Từ linh mục Florian Gall đáng kính đến chàng thanh niên Michael Strenko mới 21 tuổi nhập viện vì biến chứng cắt amidan, tất cả đều bị tước đoạt sinh mạng một cách oan nghiệt."
+  },
+  {
+   "id": "2.07#5",
+   "element": "2.07",
+   "act": 2,
+   "role": "H",
+   "start": 530.693,
+   "end": 536.9,
+   "text": "Đó là sự phản bội niềm tin y đức kinh hoàng nhất mà một nhân viên y tế có thể gây ra cho người bệnh."
   },
   {
    "id": "2.08#1",
    "element": "2.08",
    "act": 2,
    "role": "D",
-   "start": 385.08,
-   "end": 386.24,
-   "text": "Đúng như vậy."
+   "start": 536.9,
+   "end": 544.097,
+   "text": "Về mặt khoa học hành vi, chúng tôi phân biệt rất rõ ràng giữa phương thức gây án và chữ ký tâm lý của Charles Cullen."
   },
   {
    "id": "2.08#2",
    "element": "2.08",
    "act": 2,
    "role": "D",
-   "start": 386.59,
-   "end": 398.15,
-   "text": "Ngay từ tháng 7 năm 2003, Tiến sĩ Steven Marcus – Giám đốc Trung tâm Chống độc New Jersey – đã phát hiện những bất thường nghiêm trọng trong các kết quả xét nghiệm từ Bệnh viện Somerset."
+   "start": 544.097,
+   "end": 551.178,
+   "text": "Phương thức gây án, tức thủ đoạn MO, là cách hắn thực hiện hành vi và che giấu dấu vết để trốn tránh sự trừng phạt."
   },
   {
    "id": "2.08#3",
    "element": "2.08",
    "act": 2,
    "role": "D",
-   "start": 398.5,
-   "end": 408.98,
-   "text": "Ông đã trực tiếp liên hệ và gửi cảnh báo khẩn cấp tới ban giám đốc bệnh viện, cảnh báo rằng có thể có người đang cố tình gây hại cho bệnh nhân, và đề nghị phải báo ngay cho cảnh sát."
+   "start": 551.178,
+   "end": 560.822,
+   "text": "MO của hắn bao gồm kỹ thuật hủy lệnh trên máy Pyxis, tiêm thuốc độc vào túi truyền dịch chưa dùng, và liên tục thay đổi bệnh viện để xóa sạch lịch sử sai phạm."
   },
   {
    "id": "2.08#4",
    "element": "2.08",
    "act": 2,
    "role": "D",
-   "start": 409.63,
-   "end": 412.43,
-   "text": "Thế nhưng, ban giám đốc Bệnh viện Somerset đã làm gì?"
+   "start": 560.822,
+   "end": 568.486,
+   "text": "Thủ đoạn này liên tục được hắn điều chỉnh và tinh vi hóa qua từng năm tháng để thích ứng với quy chế kiểm tra của từng cơ sở."
   },
   {
    "id": "2.08#5",
    "element": "2.08",
    "act": 2,
    "role": "D",
-   "start": 413.43,
-   "end": 417.59,
-   "text": "Họ chọn cách giữ im lặng suốt gần ba tháng để tiến hành điều tra nội bộ."
+   "start": 568.486,
+   "end": 575.741,
+   "text": "Ngược lại, chữ ký tâm lý Signature – thứ nhu cầu cảm xúc bất biến thúc đẩy hắn gây án – chính là “Phức cảm Chúa trời”."
   },
   {
    "id": "2.08#6",
    "element": "2.08",
    "act": 2,
    "role": "D",
-   "start": 418.44,
-   "end": 433.96,
-   "text": "Và trong suốt gần chín mươi ngày trì hoãn vô trách nhiệm đó, Charles Cullen vẫn tiếp tục điềm nhiên đi làm ca đêm, tước đoạt sinh mạng của thêm ít nhất năm bệnh nhân vô tội – trong đó có một chàng trai trẻ chỉ mới ba mươi tám tuổi – trước khi cảnh sát được phép bước chân vào cuộc."
+   "start": 575.741,
+   "end": 581.832,
+   "text": "Hắn không lấy cắp thuốc để bán kiếm tiền, cũng không có mâu thuẫn cá nhân với bất kỳ nạn nhân nào."
+  },
+  {
+   "id": "2.08#7",
+   "element": "2.08",
+   "act": 2,
+   "role": "D",
+   "start": 581.832,
+   "end": 593.282,
+   "text": "Hắn giết người để bí mật đứng nhìn các bác sĩ kích hoạt báo động khẩn cấp Code Blue, tận hưởng cảm giác toàn năng khi nắm giữ ranh giới mong manh giữa sự sống và cái chết trong lòng bàn tay."
   },
   {
    "id": "2.10#1",
    "element": "2.10",
    "act": 2,
    "role": "H",
-   "start": 435.46,
-   "end": 447.5,
-   "text": "Một câu hỏi nhức nhối khiến bất kỳ ai cũng phải phẫn nộ: Tại sao một hệ thống y tế hiện đại với hàng trăm y bác sĩ lại có thể làm ngơ trước những dấu hiệu rõ ràng đến như vậy?"
+   "start": 593.282,
+   "end": 599.839,
+   "text": "Cảm giác toàn năng ấy chính là chiếc bẫy tâm lý nguy hiểm nhất của những kẻ giết người đội lốt thiên thần."
   },
   {
    "id": "2.10#2",
    "element": "2.10",
    "act": 2,
    "role": "H",
-   "start": 448.5,
-   "end": 455.62,
-   "text": "Làm thế nào một gã y tá từng có tiền sử bất ổn lại có thể chuyển việc trót lọt qua 9 bệnh viện khác nhau?"
+   "start": 599.839,
+   "end": 607.328,
+   "text": "Vậy điều gì đã khiến một người bình thường biến những bệnh nhân vô tội thành công cụ thỏa mãn bản năng thống trị của mình?"
   },
   {
    "id": "2.10#3",
    "element": "2.10",
    "act": 2,
    "role": "H",
-   "start": 456.22,
-   "end": 462.26,
-   "text": "Xin mời Chuyên gia tâm lý giải mã góc khuất đen tối phía sau bức tường của các tổ chức y tế."
+   "start": 607.328,
+   "end": 613.593,
+   "text": "Xin mời Chuyên gia tâm lý phân tích cơ chế vật hóa nạn nhân và sự tê liệt cảm xúc của Charles Cullen."
   },
   {
    "id": "2.11#1",
    "element": "2.11",
    "act": 2,
    "role": "C",
-   "start": 463.26,
-   "end": 473.34,
-   "text": "Dưới góc độ tâm lý học tổ chức và xã hội học pháp lý, bi kịch Charles Cullen là một minh chứng đau lòng cho Hiện tượng bàng quan thể chế (Institutional Bystander Effect) và sự thoái thác trách nhiệm đạo đức vì lợi ích tài chính:"
+   "start": 613.593,
+   "end": 621.023,
+   "text": "Dưới góc độ tâm lý học hành vi, Charles Cullen biểu hiện một cơ chế “Vật hóa” và phi nhân hóa nạn nhân vô cùng điển hình."
   },
   {
    "id": "2.11#2",
    "element": "2.11",
    "act": 2,
    "role": "C",
-   "start": 473.99,
-   "end": 481.75,
-   "text": "Tại Bệnh viện Saint Barnabas năm 1992, bệnh viện mở cuộc điều tra nội bộ về những túi dịch truyền có dấu hiệu bị can thiệp."
+   "start": 621.023,
+   "end": 627.929,
+   "text": "Hắn không nhìn người bệnh như một con người có cảm xúc, có gia đình đang chờ đợi và có quyền được sống trọn vẹn."
   },
   {
    "id": "2.11#3",
    "element": "2.11",
    "act": 2,
    "role": "C",
-   "start": 482.1,
-   "end": 486.82,
-   "text": "Thay vì báo cảnh sát để điều tra hình sự, họ cho phép Cullen xin thôi việc trong lặng lẽ."
+   "start": 627.929,
+   "end": 636.816,
+   "text": "Trong tâm trí méo mó của Cullen, các bệnh nhân bị giáng cấp thành những “đạo cụ sống” để hắn trình diễn vở kịch cứu rỗi đầy ảo tưởng của bản thân."
   },
   {
    "id": "2.11#4",
    "element": "2.11",
    "act": 2,
    "role": "C",
-   "start": 487.47,
-   "end": 498.95,
-   "text": "Tại Bệnh viện Warren năm 1993, con trai của bà Helen Dean, chín mươi mốt tuổi, đã tố cáo rằng một nam y tá lạ đã vào phòng làm gì đó với mẹ mình, chỉ vài giờ trước khi bà qua đời."
+   "start": 636.816,
+   "end": 645.587,
+   "text": "Hắn mắc phải một sự khiếm khuyết nghiêm trọng về Thấu cảm Cảm xúc, khiến hắn hoàn toàn trơ lỳ trước nỗi đau đớn và sự hoảng loạn của người khác."
   },
   {
    "id": "2.11#5",
    "element": "2.11",
    "act": 2,
    "role": "C",
-   "start": 499.3,
-   "end": 505.06,
-   "text": "Nhưng bệnh viện quyết định khép lại vụ việc sau cuộc kiểm tra nội bộ qua loa vì lo ngại danh tiếng bị tổn hại."
+   "start": 645.587,
+   "end": 652.26,
+   "text": "Khi nghe tiếng máy đo nhịp tim báo động dồn dập, tâm trí hắn không hề khởi sinh lòng trắc ẩn hay sự hối hận."
   },
   {
    "id": "2.11#6",
    "element": "2.11",
    "act": 2,
    "role": "C",
-   "start": 505.71,
-   "end": 514.55,
-   "text": "Đến Bệnh viện Saint Luke năm 2002, các y tá đồng nghiệp tìm thấy nhiều lọ thuốc kiểm soát đặc biệt bị vứt lẫn trong thùng rác y tế sau ca trực của Cullen."
+   "start": 652.26,
+   "end": 658.758,
+   "text": "Ngược lại, sự suy sụp của cơ thể nạn nhân kích hoạt trong hắn một cơn khoái cảm quyền lực cực kỳ độc hại."
   },
   {
    "id": "2.11#7",
    "element": "2.11",
    "act": 2,
    "role": "C",
-   "start": 515.3,
-   "end": 524.7,
-   "text": "Ban giám đốc bệnh viện không báo cảnh sát mà thỏa thuận cho hắn tự nguyện thôi việc với một lá thư xác nhận công tác hoàn toàn trung tính, giúp hắn dễ dàng chuyển tiếp sang bệnh viện tiếp theo."
+   "start": 658.758,
+   "end": 666.654,
+   "text": "Hắn cảm thấy bản thân mình trở nên vĩ đại, đứng trên cả y học và số phận khi có quyền quyết định ai được thở và ai phải dừng lại."
   },
   {
    "id": "2.11#8",
    "element": "2.11",
    "act": 2,
    "role": "C",
-   "start": 525.35,
-   "end": 528.03,
-   "text": "Tại sao các nhà quản lý bệnh viện lại hành xử như vậy?"
+   "start": 666.654,
+   "end": 674.784,
+   "text": "Sự trống rỗng bên trong bản ngã đã thôi thúc hắn phải liên tục tìm kiếm những nạn nhân mới để lấp đầy cơn đói ảo tưởng quyền năng ấy."
   },
   {
    "id": "2.11#9",
    "element": "2.11",
    "act": 2,
    "role": "C",
-   "start": 528.93,
-   "end": 539.77,
-   "text": "Bởi vì trong hệ thống y tế thương mại hóa, việc thừa nhận có một kẻ thủ ác hàng loạt đang hoạt động trong phòng cấp cứu đồng nghĩa với việc bệnh viện sẽ đối mặt với nguy cơ kiện tụng và tổn hại danh tiếng nghiêm trọng."
+   "start": 674.784,
+   "end": 681.981,
+   "text": "Và bi kịch lớn nhất là khi chiếc áo blouse trắng được dùng làm công cụ để hợp thức hóa sự tha hóa nhân cách tột cùng."
   },
   {
    "id": "2.11#10",
    "element": "2.11",
    "act": 2,
    "role": "C",
-   "start": 540.12,
-   "end": 547.64,
-   "text": "Họ chọn cách đẩy quả bom nổ chậm sang tay các bệnh viện lân cận, đặt sự an toàn tài chính của tổ chức lên trên tính mạng của những bệnh nhân vô tội."
+   "start": 681.981,
+   "end": 690.344,
+   "text": "Đó là lời cảnh tỉnh sâu sắc về việc khi quyền lực chăm sóc bị tước mất lòng trắc ẩn, nó sẽ biến thành một vũ khí hủy diệt lạnh lùng nhất."
   },
   {
    "id": "3.02#1",
    "element": "3.02",
    "act": 3,
    "role": "H",
-   "start": 550.44,
-   "end": 557.04,
-   "text": "Đến đây, chúng ta phải bước vào tầng sâu nhất của bộ não Charles Cullen để trả lời câu hỏi cốt lõi:"
+   "start": 692.344,
+   "end": 699.483,
+   "text": "Đến đây, chúng ta phải bước vào tầng sâu u tối nhất trong bộ não của Charles Cullen để tìm kiếm câu trả lời cốt lõi:"
   },
   {
    "id": "3.02#2",
    "element": "3.02",
    "act": 3,
    "role": "H",
-   "start": 557.39,
-   "end": 560.51,
-   "text": "Động cơ thực sự điều khiển người đàn ông này là gì?"
+   "start": 699.483,
+   "end": 707.38,
+   "text": "Điều gì đã biến một thiếu niên nhút nhát, từng là nạn nhân của bạo lực học đường, trở thành một kẻ sát nhân hàng loạt khét tiếng?"
   },
   {
    "id": "3.02#3",
    "element": "3.02",
    "act": 3,
    "role": "H",
-   "start": 561.51,
-   "end": 570.19,
-   "text": "Khi bị bắt giữ và đối diện với các điều tra viên, Cullen nhiều lần biện minh rằng hắn chỉ muốn chấm dứt nỗi đau đớn cho những người bệnh."
+   "start": 707.38,
+   "end": 716.674,
+   "text": "Khi bị bắt giữ và đối diện với cơ quan điều tra, Cullen luôn lặp đi lặp lại rằng hắn ra tay vì lòng thương cảm, muốn kết thúc nỗi đau đớn cho người bệnh."
   },
   {
    "id": "3.02#4",
    "element": "3.02",
    "act": 3,
    "role": "H",
-   "start": 571.04,
-   "end": 576.4,
-   "text": "Hắn tự vẽ nên bức chân dung của một “Thiên thần nhân từ” đi ban phát cái chết êm ái."
+   "start": 716.674,
+   "end": 723.231,
+   "text": "Hắn cố tình vẽ nên chân dung của một vị thiên thần đi ban phát cái chết êm dịu cho những số phận bất hạnh."
   },
   {
    "id": "3.02#5",
    "element": "3.02",
    "act": 3,
    "role": "H",
-   "start": 577.05,
-   "end": 586.89,
-   "text": "Nhưng liệu đó có phải là lòng trắc ẩn thực sự, hay chỉ là một chiếc mặt nạ dối trá được dựng lên để che đậy một phức cảm bệnh lý cực kỳ độc hại?"
+   "start": 723.231,
+   "end": 729.554,
+   "text": "Thế nhưng, những bằng chứng khách quan tại hiện trường lại vạch trần một sự thật hoàn toàn trái ngược."
   },
   {
    "id": "3.02#6",
    "element": "3.02",
    "act": 3,
    "role": "H",
-   "start": 587.89,
-   "end": 593.65,
-   "text": "Xin mời Chuyên gia tâm lý bóc tách cấu trúc tâm lý và động cơ gây án của Charles Cullen."
+   "start": 729.554,
+   "end": 737.334,
+   "text": "Xin mời Chuyên gia tâm lý giải phẫu những sang chấn nguồn cội và điểm gãy tâm lý đã định hình nên nhân cách của Charles Cullen."
   },
   {
    "id": "3.04#1",
    "element": "3.04",
    "act": 3,
    "role": "C",
-   "start": 594.65,
-   "end": 602.21,
-   "text": "Hồ sơ tâm lý pháp y của Charles Cullen cho thấy một bức tranh nhân cách bị phân mảnh nghiêm trọng, bắt nguồn từ những tổn thương sâu sắc thời thơ ấu."
+   "start": 737.334,
+   "end": 743.599,
+   "text": "Hồ sơ tâm lý pháp y của Charles Cullen cho thấy một tuổi thơ ngập tràn bóng tối và sự chối bỏ xã hội."
   },
   {
    "id": "3.04#2",
    "element": "3.04",
    "act": 3,
    "role": "C",
-   "start": 602.86,
-   "end": 610.82,
-   "text": "Cullen sinh ra trong một gia đình nghèo khó, mồ côi cha từ khi mới bảy tháng tuổi, lớn lên cô độc và nhiều lần khủng hoảng tâm lý từ khi còn nhỏ."
+   "start": 743.599,
+   "end": 750.971,
+   "text": "Là con út trong một gia đình nghèo có tám người con tại bang New Jersey, hắn mồ côi cha khi mới chỉ được bảy tháng tuổi."
   },
   {
    "id": "3.04#3",
    "element": "3.04",
    "act": 3,
    "role": "C",
-   "start": 611.17,
-   "end": 616.81,
-   "text": "Bước ngoặt tâm lý tồi tệ nhất xảy ra vào năm hắn 17 tuổi: Mẹ hắn qua đời trong một vụ tai nạn giao thông."
+   "start": 750.971,
+   "end": 760.616,
+   "text": "Suốt những năm tháng đi học, Cullen liên tục bị bạn bè bắt nạt tàn nhẫn, trở thành một đứa trẻ cô độc, thu mình và có xu hướng tự hủy hoại bản thân từ rất sớm."
   },
   {
    "id": "3.04#4",
    "element": "3.04",
    "act": 3,
    "role": "C",
-   "start": 617.46,
-   "end": 623.14,
-   "text": "Với một thiếu niên vốn đã bất ổn, mất đi chỗ dựa cuối cùng là một cú sốc để lại vết hằn rất sâu."
+   "start": 760.616,
+   "end": 770.494,
+   "text": "Biến cố mang tính bước ngoặt và để lại vết thương sâu sắc nhất xảy ra vào năm hắn 17 tuổi, khi người mẹ thân yêu qua đời trong một vụ tai nạn giao thông thảm khốc."
   },
   {
    "id": "3.04#5",
    "element": "3.04",
    "act": 3,
    "role": "C",
-   "start": 624.09,
-   "end": 631.13,
-   "text": "Và từ mảnh đất tổn thương đó, cơ chế nguy hiểm đầu tiên đã hình thành: Sự chuyển hóa từ mặc cảm bất lực sang Phức cảm Chúa trời ngầm (Submerged God Complex)."
+   "start": 770.494,
+   "end": 778.448,
+   "text": "Bệnh viện nơi tiếp nhận người mẹ quá cố của hắn đã tự ý hỏa táng mà không hề thông báo hay cho phép hắn được nhìn mặt mẹ lần cuối."
+  },
+  {
+   "id": "3.04#6",
+   "element": "3.04",
+   "act": 3,
+   "role": "C",
+   "start": 778.448,
+   "end": 788.035,
+   "text": "Sự kiện chấn động này đã gieo vào tâm trí Cullen một mối thù hằn âm ỉ đối với các thể chế y tế, đồng thời tước đi điểm tựa tình cảm duy nhất của cuộc đời hắn."
+  },
+  {
+   "id": "3.04#7",
+   "element": "3.04",
+   "act": 3,
+   "role": "C",
+   "start": 788.035,
+   "end": 796.864,
+   "text": "Sau đó, thời gian phục vụ đầy áp lực trên tàu ngầm Hải quân Mỹ tiếp tục đẩy hắn vào các cơn trầm cảm nặng và nhiều lần mưu toan tự sát bất thành."
+  },
+  {
+   "id": "3.04#8",
+   "element": "3.04",
+   "act": 3,
+   "role": "C",
+   "start": 796.864,
+   "end": 807.266,
+   "text": "Khi Cullen bước chân vào trường đào tạo y tá, đó không phải là con đường tìm kiếm sự cứu rỗi, mà là nỗ lực tuyệt vọng nhằm giành lại quyền kiểm soát một cuộc đời đã vỡ vụn."
   },
   {
    "id": "3.06#1",
    "element": "3.06",
    "act": 3,
    "role": "H",
-   "start": 633.23,
-   "end": 642.31,
-   "text": "Một kẻ thất bại toàn diện, tự ti, cô độc ngoài xã hội nhưng lại tìm thấy quyền lực tối thượng khi khoác lên mình chiếc áo blouse trắng."
+   "start": 808.766,
+   "end": 817.886,
+   "text": "Thế nhưng, làm thế nào một người mang đầy những tổn thương tâm lý và hành vi lệch lạc như vậy lại có thể duy trì cuộc sống thường nhật suốt nhiều năm?"
   },
   {
    "id": "3.06#2",
    "element": "3.06",
    "act": 3,
    "role": "H",
-   "start": 642.96,
-   "end": 648.56,
-   "text": "Cơ chế bù trừ quyền lực ấy đã vận hành như thế nào trong bóng đêm phòng bệnh thưa chuyên gia?"
+   "start": 817.886,
+   "end": 824.792,
+   "text": "Hắn kết hôn, có hai người con gái, hiến thận cứu người, và được đồng nghiệp xem là một nhân viên y tế chuẩn mực."
+  },
+  {
+   "id": "3.06#3",
+   "element": "3.06",
+   "act": 3,
+   "role": "H",
+   "start": 824.792,
+   "end": 831.698,
+   "text": "Xin mời Chuyên gia tâm lý bóc tách cơ chế phân mảnh tâm trí đã giúp Cullen che giấu con quái vật bên trong mình."
   },
   {
    "id": "3.07#1",
    "element": "3.07",
    "act": 3,
    "role": "C",
-   "start": 649.56,
-   "end": 650.6,
-   "text": "Chính xác là như vậy."
+   "start": 831.698,
+   "end": 840.002,
+   "text": "Để tồn tại và che mắt thế giới xung quanh, bộ não của Charles Cullen đã vận hành một cơ chế phòng vệ cực đoan gọi là “Chia ngăn tâm lý”."
   },
   {
    "id": "3.07#2",
    "element": "3.07",
    "act": 3,
    "role": "C",
-   "start": 650.95,
-   "end": 654.79,
-   "text": "Trong cuộc sống đời thường, Cullen cảm thấy mình hoàn toàn bất lực và vô hình."
+   "start": 840.002,
+   "end": 847.258,
+   "text": "Hắn chia thế giới nội tâm của mình thành hai ngăn kéo hoàn toàn độc lập và không bao giờ cho phép chúng chạm vào nhau."
   },
   {
    "id": "3.07#3",
    "element": "3.07",
    "act": 3,
    "role": "C",
-   "start": 655.14,
-   "end": 660.46,
-   "text": "Nhưng khi bước vào ca trực đêm tại khoa hồi sức cấp cứu, động lực tâm lý của hắn bị đảo ngược hoàn toàn."
+   "start": 847.258,
+   "end": 856.087,
+   "text": "Ở ngăn kéo thứ nhất, hắn là một người cha dịu dàng, một người bạn tận tụy từng tình nguyện hiến một quả thận để cứu sống anh trai của bạn gái cũ."
   },
   {
    "id": "3.07#4",
    "element": "3.07",
    "act": 3,
    "role": "C",
-   "start": 660.81,
-   "end": 669.57,
-   "text": "Giữa đêm tối, khi các bác sĩ trưởng khoa đã về nhà, hắn tự cho mình nắm giữ quyền lực tối thượng: quyền năng quyết định một con người được tiếp tục sống hay phải ra đi."
+   "start": 856.087,
+   "end": 865.323,
+   "text": "Hắn sử dụng những hành vi thiện nguyện và sự tận tụy ban ngày như một “Lá chắn bình thường hóa” để chứng minh với bản thân rằng mình là một người tử tế."
   },
   {
    "id": "3.07#5",
    "element": "3.07",
    "act": 3,
    "role": "C",
-   "start": 670.52,
-   "end": 677.68,
-   "text": "Cảm giác quyền lực ấy hoạt động như một loại ma túy tâm lý cực mạnh, bù đắp cho sự trống rỗng và mặc cảm phế thải bên trong con người hắn."
+   "start": 865.323,
+   "end": 874.385,
+   "text": "Thế nhưng ở ngăn kéo thứ hai, trong bóng tối của những ca trực đêm, hắn mở khóa bản năng hủy diệt và hành động như một kẻ phán xét sinh tử lạnh lùng."
+  },
+  {
+   "id": "3.07#6",
+   "element": "3.07",
+   "act": 3,
+   "role": "C",
+   "start": 874.385,
+   "end": 879.427,
+   "text": "Tuy nhiên, chiếc mặt nạ ấy không thể che giấu được những người ở cự ly gần nhất."
+  },
+  {
+   "id": "3.07#7",
+   "element": "3.07",
+   "act": 3,
+   "role": "C",
+   "start": 879.427,
+   "end": 888.838,
+   "text": "Vợ cũ của hắn, bà Adrienne Baum, đã sớm nhận ra những dấu hiệu tâm thần bất ổn khi hắn giết hại thú cưng và lén đổ chất lỏng lạ vào đồ uống của người khác."
+  },
+  {
+   "id": "3.07#8",
+   "element": "3.07",
+   "act": 3,
+   "role": "C",
+   "start": 888.838,
+   "end": 900.522,
+   "text": "Bà đã nộp đơn xin lệnh cách ly và ly hôn vào năm 1993, nhưng hệ thống tòa án gia đình thời điểm đó đã coi đó chỉ là những xích mích hôn nhân thông thường và bỏ qua tín hiệu cảnh báo sinh tử này."
   },
   {
    "id": "3.08#1",
    "element": "3.08",
    "act": 3,
    "role": "H",
-   "start": 678.98,
-   "end": 683.82,
-   "text": "Một cảm giác quyền lực bệnh hoạn để khỏa lấp sự yếu đuối của bản thân."
+   "start": 900.522,
+   "end": 906.263,
+   "text": "Sự chia ngăn ấy cho thấy sự rạn nứt sâu sắc trong nhân cách của một kẻ sát nhân có học thức."
   },
   {
    "id": "3.08#2",
    "element": "3.08",
    "act": 3,
    "role": "H",
-   "start": 684.47,
-   "end": 696.19,
-   "text": "Nhưng nếu hắn luôn tự thuyết phục rằng mình hành động vì “lòng nhân từ”, thì dưới góc nhìn tâm lý học tội phạm, bộ não của hắn đã tự đánh lừa lương tâm bằng cách nào?"
+   "start": 906.263,
+   "end": 914.334,
+   "text": "Và câu hỏi nhức nhối nhất là: Hắn đã sử dụng hệ thống lý lẽ nào để vô hiệu hóa cảm giác tội lỗi và ngủ ngon sau mỗi ca trực đẫm máu?"
+  },
+  {
+   "id": "3.08#3",
+   "element": "3.08",
+   "act": 3,
+   "role": "H",
+   "start": 914.334,
+   "end": 920.541,
+   "text": "Chúng ta hãy cùng xem xét lý thuyết về kỹ thuật trung hòa đạo đức trong hành vi phạm tội của Cullen."
   },
   {
    "id": "3.09#1",
    "element": "3.09",
    "act": 3,
    "role": "C",
-   "start": 697.29,
-   "end": 700.13,
-   "text": "Đó chính là Cơ chế thứ hai: Kỹ thuật trung hòa đạo đức (Moral Neutralization)."
+   "start": 920.541,
+   "end": 930.069,
+   "text": "Để tiếp tục gây tội ác mà không bị lương tâm cắn rứt, Charles Cullen đã vận dụng triệt để các “Kỹ thuật Trung hòa Đạo đức” theo lý thuyết của Sykes và Matza."
   },
   {
    "id": "3.09#2",
    "element": "3.09",
    "act": 3,
    "role": "C",
-   "start": 700.78,
-   "end": 708.94,
-   "text": "Theo lý thuyết tội phạm học kinh điển của hai giáo sư Gresham Sykes và David Matza, tội phạm không thể sống thanh thản nếu chúng ý thức rõ bản thân là kẻ thủ ác."
+   "start": 930.069,
+   "end": 939.713,
+   "text": "Đầu tiên là kỹ thuật “Phủ nhận tổn hại”: Hắn tự thuyết phục bản thân rằng mình không hề giết người, mà chỉ đang giúp các bệnh nhân chấm dứt sự đau đớn thể xác."
   },
   {
    "id": "3.09#3",
    "element": "3.09",
    "act": 3,
    "role": "C",
-   "start": 709.29,
-   "end": 713.33,
-   "text": "Vì vậy, não bộ của chúng sẽ tự động kích hoạt các cơ chế ngụy biện tinh vi:"
+   "start": 939.713,
+   "end": 947.785,
+   "text": "Khi đối diện với sự thật rằng nhiều nạn nhân không hề mắc bệnh hiểm nghèo, hắn lập tức chuyển sang kỹ thuật “Ngoại hóa trách nhiệm”."
   },
   {
    "id": "3.09#4",
    "element": "3.09",
    "act": 3,
    "role": "C",
-   "start": 713.68,
-   "end": 724.0,
-   "text": "Cơ chế “Viện dẫn lòng trắc ẩn cao cả”: Cullen tự ru ngủ lương tâm rằng hành vi của mình không phải là tội ác, mà là một sự “giải thoát” để giúp bệnh nhân thoát khỏi cảnh đau đớn."
+   "start": 947.785,
+   "end": 956.555,
+   "text": "Hắn đổ lỗi cho ban giám đốc bệnh viện bắt y tá làm việc quá tải, đổ lỗi cho sự thiếu thốn nhân lực đã đẩy hắn vào trạng thái kiệt quệ tinh thần."
   },
   {
    "id": "3.09#5",
    "element": "3.09",
    "act": 3,
    "role": "C",
-   "start": 724.35,
-   "end": 733.15,
-   "text": "Cơ chế “Phủ nhận thiệt hại”: Hắn tự huyễn hoặc rằng những người bệnh nặng đằng nào cũng sắp qua đời, nên hành vi của hắn chỉ là đẩy nhanh tiến trình tự nhiên thêm vài ngày."
+   "start": 956.555,
+   "end": 966.608,
+   "text": "Hắn còn trơ tráo sử dụng kỹ thuật “Kết án những kẻ kết án”: Hắn chỉ trích hệ thống y tế là đạo đức giả, coi thường người bệnh và chỉ quan tâm đến lợi nhuận tài chính."
   },
   {
    "id": "3.09#6",
    "element": "3.09",
    "act": 3,
    "role": "C",
-   "start": 733.8,
-   "end": 749.08,
-   "text": "Thế nhưng, toàn bộ hồ sơ điều tra đã bẻ gãy hoàn toàn chiếc mặt nạ ngụy biện ấy: Trong số các nạn nhân của Cullen, có những người đang hồi phục hoàn toàn sau phẫu thuật thông thường như nam sinh viên hai mươi mốt tuổi Michael Strenko, và nhiều người khác hoàn toàn không ở trong giai đoạn cuối đời."
+   "start": 966.608,
+   "end": 978.117,
+   "text": "Câu nói nổi tiếng của hắn trong phòng thẩm vấn đã bộc trần toàn bộ sự trung hòa méo mó đó: “Tôi nghĩ tôi đã kết thúc nỗi thống khổ của họ, nhưng tôi không biết tại sao không ai ngăn tôi lại.”"
   },
   {
    "id": "3.09#7",
    "element": "3.09",
    "act": 3,
    "role": "C",
-   "start": 749.93,
-   "end": 757.13,
-   "text": "Hắn tước đoạt mạng sống của nạn nhân không phải vì họ đau đớn, mà vì chính nội tâm hắn đang khao khát được thực hiện quyền năng thống trị sinh sát."
+   "start": 978.117,
+   "end": 985.722,
+   "text": "Bằng cách biến mình thành nạn nhân của hoàn cảnh, Cullen đã vô hiệu hóa hoàn toàn cơ chế phán xét đạo đức bên trong tâm trí."
+  },
+  {
+   "id": "3.09#8",
+   "element": "3.09",
+   "act": 3,
+   "role": "C",
+   "start": 985.722,
+   "end": 993.036,
+   "text": "Đó là sự sụp đổ toàn diện của nhân tính khi cái tôi ái kỷ tìm mọi cách để tự thanh minh cho những hành vi tàn bạo nhất."
+  },
+  {
+   "id": "3.09#9",
+   "element": "3.09",
+   "act": 3,
+   "role": "C",
+   "start": 993.036,
+   "end": 1000.757,
+   "text": "Và chính sự tự lừa dối tinh vi này đã nuôi dưỡng con quỷ dữ trong hắn suốt 16 năm mà không hề có một phút giây ăn năn thực sự."
   },
   {
    "id": "3.10#1",
    "element": "3.10",
    "act": 3,
    "role": "H",
-   "start": 758.63,
-   "end": 761.23,
-   "text": "Cullen không cứu rỗi ai cả."
+   "start": 1000.757,
+   "end": 1007.955,
+   "text": "Một hệ thống tự bào chữa hoàn hảo được dựng lên để bao biện cho sự trống rỗng và hèn nhát của một kẻ cuồng quyền lực."
   },
   {
    "id": "3.10#2",
    "element": "3.10",
    "act": 3,
    "role": "H",
-   "start": 761.88,
-   "end": 769.84,
-   "text": "Hắn chỉ đang sử dụng sinh mạng của những người bệnh yếu thế làm vật tế thần để xoa dịu cơn khủng hoảng nhân cách của chính mình."
+   "start": 1007.955,
+   "end": 1014.686,
+   "text": "Hắn tự cho mình quyền quyết định số phận của đồng loại nhưng lại hèn hạ trốn tránh trách nhiệm trước công lý."
   },
   {
    "id": "3.10#3",
    "element": "3.10",
    "act": 3,
    "role": "H",
-   "start": 770.59,
-   "end": 779.59,
-   "text": "Và trò chơi chết chóc ấy có thể đã tiếp diễn vô tận nếu không có sự xuất hiện của hai điều tra viên quả cảm cùng một người phụ nữ phi thường."
+   "start": 1014.686,
+   "end": 1022.116,
+   "text": "Và bức tường ngụy biện kiên cố ấy chỉ có thể bị phá vỡ bởi lòng dũng cảm của một người phụ nữ dám nhìn thẳng vào sự thật."
   },
   {
    "id": "4.02#1",
    "element": "4.02",
    "act": 4,
    "role": "H",
-   "start": 782.39,
-   "end": 784.83,
+   "start": 1024.116,
+   "end": 1025.545,
    "text": "Tháng 10 năm 2003."
   },
   {
@@ -862,269 +1168,404 @@
    "element": "4.02",
    "act": 4,
    "role": "H",
-   "start": 785.48,
-   "end": 796.76,
-   "text": "Sau khi nhận được thông báo về cái chết bất thường của linh mục Florian Gall, hai thám tử Tim Braun và Danny Baldwin thuộc Văn phòng Công tố Quận Somerset chính thức thụ lý vụ án."
+   "start": 1025.545,
+   "end": 1032.859,
+   "text": "Sau cái chết bất thường của linh mục Florian Gall, Văn phòng Công tố Quận Somerset chính thức mở cuộc điều tra hình sự."
   },
   {
    "id": "4.02#3",
    "element": "4.02",
    "act": 4,
    "role": "H",
-   "start": 797.11,
-   "end": 804.87,
-   "text": "Ngay từ những ngày đầu tiên, hai viên thám tử đã vấp phải bức tường im lặng kiên cố từ phía ban giám đốc bệnh viện."
+   "start": 1032.859,
+   "end": 1040.814,
+   "text": "Hai thám tử kỳ cựu Tim Braun và Danny Baldwin được giao trọng trách thụ lý một vụ án mà ngay từ đầu đã vấp phải muôn vàn trắc trở."
   },
   {
    "id": "4.02#4",
    "element": "4.02",
    "act": 4,
    "role": "H",
-   "start": 805.52,
-   "end": 812.52,
-   "text": "Bệnh viện trì hoãn giao nộp hồ sơ, cấm nhân viên tự ý tiếp xúc với cảnh sát và tìm cách bưng bít thông tin."
+   "start": 1040.814,
+   "end": 1049.934,
+   "text": "Họ không chỉ phải đối đầu với một kẻ sát nhân vô hình, mà còn phải đối mặt với bức tường im lặng kiên cố từ phía ban giám đốc Trung tâm Y tế Somerset."
   },
   {
    "id": "4.02#5",
    "element": "4.02",
    "act": 4,
    "role": "H",
-   "start": 812.87,
-   "end": 828.31,
-   "text": "Biết rằng các chứng cứ giấy tờ đã bị làm khó, hai điều tra viên quyết định tiếp cận người duy nhất có thể mở toang cánh cửa sự thật: Nữ y tá Amy Loughren – người bạn thân của Charles Cullen tại khoa hồi sức."
+   "start": 1049.934,
+   "end": 1059.054,
+   "text": "Bệnh viện tìm cách trì hoãn giao nộp tài liệu, cấm nhân viên tự ý tiếp xúc với cơ quan điều tra và tìm mọi cách bưng bít sự việc để bảo vệ danh tiếng."
+  },
+  {
+   "id": "4.02#6",
+   "element": "4.02",
+   "act": 4,
+   "role": "H",
+   "start": 1059.054,
+   "end": 1068.699,
+   "text": "Hiểu rằng các tài liệu hành chính đã bị can thiệp, hai thám tử hiểu rằng chìa khóa duy nhất để phá vỡ bế tắc nằm ở chính những nhân chứng bên trong phòng bệnh."
+  },
+  {
+   "id": "4.02#7",
+   "element": "4.02",
+   "act": 4,
+   "role": "H",
+   "start": 1068.699,
+   "end": 1075.43,
+   "text": "Và họ đã tìm đến Amy Loughren – nữ y tá ca đêm tài năng, người đồng thời là bạn thân nhất của Charles Cullen."
   },
   {
    "id": "4.04#1",
    "element": "4.04",
    "act": 4,
    "role": "D",
-   "start": 829.51,
-   "end": 840.11,
-   "text": "Khi chúng tôi bí mật gặp Amy Loughren bên ngoài bệnh viện và đặt trước mặt cô ấy bản in nhật ký truy cập máy Pyxis của Charles Cullen, Amy đã hoàn toàn chết lặng."
+   "start": 1075.43,
+   "end": 1084.434,
+   "text": "Khi chúng tôi bí mật tiếp cận Amy Loughren tại một quán ăn nhỏ ngoài giờ trực và trải ra trước mặt cô ấy bản in nhật ký máy Pyxis, Amy đã chết lặng."
   },
   {
    "id": "4.04#2",
    "element": "4.04",
    "act": 4,
    "role": "D",
-   "start": 840.76,
-   "end": 852.44,
-   "text": "Với chuyên môn của một y tá kỳ cựu, Amy lập tức nhận ra quy luật bất thường: Cullen gọi rồi hủy thuốc nhiều hơn hẳn một y tá bình thường, và tra cứu hồ sơ của những bệnh nhân không thuộc ca mình."
+   "start": 1084.434,
+   "end": 1092.738,
+   "text": "Với chuyên môn của một y tá hồi sức cấp cứu lâu năm, cô ấy lập tức nhìn thấy những dấu hiệu bất thường mà người ngoài không thể nhận ra."
   },
   {
    "id": "4.04#3",
    "element": "4.04",
    "act": 4,
    "role": "D",
-   "start": 853.09,
-   "end": 857.13,
-   "text": "Lúc bấy giờ, Amy đang một mình nuôi hai con nhỏ và mang bệnh tim."
+   "start": 1092.738,
+   "end": 1100.984,
+   "text": "Charles Cullen đã liên tục tra cứu hồ sơ và rút thuốc của hàng chục bệnh nhân không hề thuộc sự quản lý hay phân công chăm sóc của hắn."
   },
   {
    "id": "4.04#4",
    "element": "4.04",
    "act": 4,
    "role": "D",
-   "start": 858.08,
-   "end": 865.64,
-   "text": "Nhưng cô ấy đã đưa ra một quyết định dũng cảm: Chấp nhận mang thiết bị ghi âm để gặp Charles Cullen, giúp chúng tôi thu thập bằng chứng."
+   "start": 1100.984,
+   "end": 1108.531,
+   "text": "Những loại thuốc hắn lấy với số lượng lớn bất thường toàn là thuốc độc cực mạnh có khả năng làm ngừng tim chỉ sau vài phút."
   },
   {
    "id": "4.04#5",
    "element": "4.04",
    "act": 4,
    "role": "D",
-   "start": 865.99,
-   "end": 868.55,
-   "text": "Hãy hình dung tâm trạng của một người y tá khi ấy."
+   "start": 1108.531,
+   "end": 1116.136,
+   "text": "Amy hiểu rõ rằng đó không phải là những nhầm lẫn nghiệp vụ vô hại, mà là dấu vết của những vụ ám sát hàng loạt có tính toán."
+  },
+  {
+   "id": "4.04#6",
+   "element": "4.04",
+   "act": 4,
+   "role": "D",
+   "start": 1116.136,
+   "end": 1126.48,
+   "text": "Điều khiến tình thế trở nên sinh tử là lúc bấy giờ, Amy đang một mình nuôi hai con nhỏ và mang trong mình căn bệnh cơ tim nguy hiểm có thể đe dọa tính mạng bất cứ lúc nào."
+  },
+  {
+   "id": "4.04#7",
+   "element": "4.04",
+   "act": 4,
+   "role": "D",
+   "start": 1126.48,
+   "end": 1134.435,
+   "text": "Thế nhưng, đứng trước sự an nguy của các bệnh nhân, người nữ y tá dũng cảm ấy đã quyết định dấn thân vào một cuộc đấu trí cân não."
   },
   {
    "id": "4.06#1",
    "element": "4.06",
    "act": 4,
    "role": "N2",
-   "start": 869.85,
-   "end": 874.61,
-   "text": "Người bạn mà mình tin tưởng nhất, hóa ra lại là người mình không hề biết."
+   "start": 1134.435,
+   "end": 1140.467,
+   "text": "Charlie từng là người bạn thân thiết nhất của tôi trong những đêm trực lạnh lẽo tại khoa hồi sức."
   },
   {
    "id": "4.06#2",
    "element": "4.06",
    "act": 4,
    "role": "N2",
-   "start": 875.26,
-   "end": 877.3,
-   "text": "Nhưng tôi là một y tá."
+   "start": 1140.467,
+   "end": 1148.888,
+   "text": "Anh ấy biết bệnh tim của tôi, luôn nhận làm giúp tôi những phần việc nặng và nắm chặt tay giúp tôi thở qua những cơn đau thắt ngực dữ dội."
   },
   {
    "id": "4.06#3",
    "element": "4.06",
    "act": 4,
    "role": "N2",
-   "start": 877.95,
-   "end": 881.79,
-   "text": "Lời thề nghề nghiệp của chúng tôi là bảo vệ sự sống."
+   "start": 1148.888,
+   "end": 1154.279,
+   "text": "Tôi đã từng yêu quý và tin tưởng anh ấy như một người anh em ruột thịt trong gia đình."
   },
   {
    "id": "4.06#4",
    "element": "4.06",
    "act": 4,
    "role": "N2",
-   "start": 882.14,
-   "end": 886.26,
-   "text": "Dù sợ đến mức nào, tôi biết mình không được phép quay lưng."
+   "start": 1154.279,
+   "end": 1163.341,
+   "text": "Nhưng khi nhìn thấy những trang nhật ký máy tính ghi lại các loại thuốc độc mà anh ấy đã rút ra cho những bệnh nhân vô tội, trái tim tôi như tan nát."
+  },
+  {
+   "id": "4.06#5",
+   "element": "4.06",
+   "act": 4,
+   "role": "N2",
+   "start": 1163.341,
+   "end": 1170.597,
+   "text": "Tôi nhận ra người đàn ông hiền lành ngồi ăn khuya cùng tôi bấy lâu nay lại là một kẻ gieo rắc cái chết trong bóng tối."
+  },
+  {
+   "id": "4.06#6",
+   "element": "4.06",
+   "act": 4,
+   "role": "N2",
+   "start": 1170.597,
+   "end": 1178.843,
+   "text": "Dù vô cùng sợ hãi cho mạng sống của bản thân và tương lai của các con, tôi biết mình không có quyền im lặng để tội ác tiếp tục diễn ra."
   },
   {
    "id": "4.08#1",
    "element": "4.08",
    "act": 4,
    "role": "H",
-   "start": 887.76,
-   "end": 890.28,
-   "text": "Tháng 12 năm 2003."
+   "start": 1178.843,
+   "end": 1180.68,
+   "text": "Ngày 6 tháng 12 năm 2003."
   },
   {
    "id": "4.08#2",
    "element": "4.08",
    "act": 4,
    "role": "H",
-   "start": 890.93,
-   "end": 893.93,
-   "text": "Trong một nhà hàng ở vùng Somerville."
+   "start": 1180.68,
+   "end": 1186.071,
+   "text": "Một cuộc gặp gỡ lịch sử được dàn xếp tại một quán ăn địa phương ở thị trấn Somerville."
   },
   {
    "id": "4.08#3",
    "element": "4.08",
    "act": 4,
    "role": "H",
-   "start": 894.28,
-   "end": 901.36,
-   "text": "Amy ngồi đối diện với Cullen, lồng ngực thắt nghẹn dưới lớp áo giấu thiết bị ghi âm, trong khi các thám tử chờ bên ngoài."
+   "start": 1186.071,
+   "end": 1193.21,
+   "text": "Amy Loughren bước vào quán ăn với chiếc micro bí mật được các điều tra viên gắn khéo léo dưới lớp áo khoác mùa đông."
   },
   {
    "id": "4.08#4",
    "element": "4.08",
    "act": 4,
    "role": "H",
-   "start": 902.11,
-   "end": 905.71,
-   "text": "Cô nhẹ nhàng gợi mở, khuyên hắn nên đối diện với sự thật."
+   "start": 1193.21,
+   "end": 1198.95,
+   "text": "Bên ngoài bãi đỗ xe, các trinh sát nín thở theo dõi từng cử động qua thiết bị thu âm tầm xa."
   },
   {
    "id": "4.08#5",
    "element": "4.08",
    "act": 4,
    "role": "H",
-   "start": 906.06,
-   "end": 910.34,
-   "text": "Cullen lộ rõ vẻ hoang mang, nhưng không nói ra lời thú nhận nào."
+   "start": 1198.95,
+   "end": 1204.575,
+   "text": "Đối diện với Amy là Charles Cullen, vẫn với dáng vẻ gầy gò và ánh mắt ngây thơ quen thuộc."
+  },
+  {
+   "id": "4.08#6",
+   "element": "4.08",
+   "act": 4,
+   "role": "H",
+   "start": 1204.575,
+   "end": 1213.054,
+   "text": "Bằng sự khéo léo và thấu hiểu tâm lý, Amy nhẹ nhàng gợi mở về những bất thường tại bệnh viện và đề nghị giúp đỡ hắn tìm kiếm sự giải thoát."
+  },
+  {
+   "id": "4.08#7",
+   "element": "4.08",
+   "act": 4,
+   "role": "H",
+   "start": 1213.054,
+   "end": 1219.028,
+   "text": "Trước sự dồn ép đầy tinh tế của người bạn thân, lớp mặt nạ điềm tĩnh của Cullen bắt đầu rạn nứt."
+  },
+  {
+   "id": "4.08#8",
+   "element": "4.08",
+   "act": 4,
+   "role": "H",
+   "start": 1219.028,
+   "end": 1228.439,
+   "text": "Hắn cúi gục đầu xuống bàn, giọng run rẩy thốt lên những lời thì thầm được máy ghi âm ghi lại nguyên văn: “Tôi muốn dừng lại, tôi muốn mọi chuyện kết thúc.”"
+  },
+  {
+   "id": "4.08#9",
+   "element": "4.08",
+   "act": 4,
+   "role": "H",
+   "start": 1228.439,
+   "end": 1235.054,
+   "text": "Đó là mắt xích quyết định cung cấp đủ căn cứ pháp lý để cơ quan công tố ra lệnh bắt giữ khẩn cấp kẻ thủ ác."
   },
   {
    "id": "4.11#1",
    "element": "4.11",
    "act": 4,
    "role": "H",
-   "start": 913.14,
-   "end": 920.74,
-   "text": "Ngày 12 tháng 12 năm 2003, Charles Cullen bị bắt bên ngoài một nhà hàng ở Bridgewater."
+   "start": 1237.054,
+   "end": 1243.785,
+   "text": "Ngày 12 tháng 12 năm 2003, Charles Cullen chính thức bị tra tay vào còng số tám ngay tại bãi đỗ xe bệnh viện."
   },
   {
    "id": "4.11#2",
    "element": "4.11",
    "act": 4,
    "role": "H",
-   "start": 921.39,
-   "end": 926.07,
-   "text": "Nhưng cuộc chiến thực sự chỉ mới bắt đầu phía sau cánh cửa phòng thẩm vấn."
+   "start": 1243.785,
+   "end": 1250.458,
+   "text": "Một cuộc thẩm vấn kéo dài suốt bảy tiếng đồng hồ bắt đầu diễn ra tại trụ sở Văn phòng Công tố Quận Somerset."
   },
   {
    "id": "4.11#3",
    "element": "4.11",
    "act": 4,
    "role": "H",
-   "start": 926.42,
-   "end": 929.62,
-   "text": "Chúng ta hãy lắng nghe Điều tra viên kể lại bước ngoặt ấy."
+   "start": 1250.458,
+   "end": 1258.762,
+   "text": "Đứng trước hai thám tử dày dạn kinh nghiệm Tim Braun và Danny Baldwin, bức tường tâm lý của vị “Thiên thần Tử thần” đã sụp đổ hoàn toàn."
+  },
+  {
+   "id": "4.11#4",
+   "element": "4.11",
+   "act": 4,
+   "role": "H",
+   "start": 1258.762,
+   "end": 1264.619,
+   "text": "Xin mời Điều tra viên tái hiện lại cuộc đấu trí quyết định trong căn phòng thẩm vấn định mệnh."
   },
   {
    "id": "4.12#1",
    "element": "4.12",
    "act": 4,
    "role": "D",
-   "start": 930.82,
-   "end": 933.94,
-   "text": "Trong phòng thẩm vấn, Charles Cullen gần như im lặng."
+   "start": 1264.619,
+   "end": 1271.642,
+   "text": "Chiến thuật hỏi cung của chúng tôi là không bao giờ tấn công hay phán xét nhân cách của Cullen một cách trực diện."
   },
   {
    "id": "4.12#2",
    "element": "4.12",
    "act": 4,
    "role": "D",
-   "start": 934.59,
-   "end": 936.99,
-   "text": "Hắn không chịu nói ra câu: tôi đã làm điều đó."
+   "start": 1271.642,
+   "end": 1278.956,
+   "text": "Chúng tôi hiểu rằng nếu dồn một kẻ ái kỷ vào chân tường, hắn sẽ lập tức kích hoạt cơ chế phòng vệ và im lặng tuyệt đối."
   },
   {
    "id": "4.12#3",
    "element": "4.12",
    "act": 4,
    "role": "D",
-   "start": 937.74,
-   "end": 941.02,
-   "text": "Chứng cứ giấy tờ đã có, nhưng chúng tôi cần lời khai."
+   "start": 1278.956,
+   "end": 1287.61,
+   "text": "Thay vào đó, chúng tôi khai thác chính ảo tưởng về lòng nhân từ mà hắn tự dựng lên, xem hắn như một người chăm sóc đang kiệt sức vì gánh nặng."
   },
   {
    "id": "4.12#4",
    "element": "4.12",
    "act": 4,
    "role": "D",
-   "start": 941.67,
-   "end": 946.11,
-   "text": "Vì vậy, chúng tôi mời Amy Loughren đến nói chuyện với hắn thêm một lần nữa."
+   "start": 1287.61,
+   "end": 1294.807,
+   "text": "Khi thám tử Danny Baldwin nhẹ nhàng đặt câu hỏi về động cơ thực sự, Cullen bắt đầu khóc nấc lên và suy sụp hoàn toàn."
   },
   {
    "id": "4.12#5",
    "element": "4.12",
    "act": 4,
    "role": "D",
-   "start": 946.76,
-   "end": 950.2,
-   "text": "Không phải với tư cách cảnh sát, mà với tư cách người bạn cũ."
+   "start": 1294.807,
+   "end": 1303.286,
+   "text": "Hắn thừa nhận đã dùng Digoxin và Insulin sát hại linh mục Florian Gall, bệnh nhân Michael Strenko và hàng chục nạn nhân khác qua nhiều năm."
   },
   {
    "id": "4.12#6",
    "element": "4.12",
    "act": 4,
    "role": "D",
-   "start": 950.85,
-   "end": 953.89,
-   "text": "Cô khuyên hắn hãy cho gia đình các nạn nhân một câu trả lời."
+   "start": 1303.286,
+   "end": 1311.474,
+   "text": "Thế nhưng, điều làm chúng tôi căm phẫn nhất là những giọt nước mắt của hắn trong phòng hỏi cung không hề dành cho các nạn nhân xấu số."
   },
   {
    "id": "4.12#7",
    "element": "4.12",
    "act": 4,
    "role": "D",
-   "start": 954.74,
-   "end": 957.62,
-   "text": "Và sau cuộc gặp ấy, chiếc mặt nạ sụp đổ."
+   "start": 1311.474,
+   "end": 1318.788,
+   "text": "Đó là sự “Tự thương hại bệnh lý” của một kẻ ái kỷ khi nhận ra vị thế và danh dự giả tạo của mình đã tan thành mây khói."
   },
   {
    "id": "4.12#8",
    "element": "4.12",
    "act": 4,
    "role": "D",
-   "start": 958.57,
-   "end": 963.05,
-   "text": "Người đàn ông ấy bắt đầu khai nhận, từng vụ một, suốt 16 năm bóng tối."
+   "start": 1318.788,
+   "end": 1327.5,
+   "text": "Hắn khóc vì thương bản thân phải vào tù, khóc vì sự sụp đổ của cái tôi toàn năng, chứ không hề có một tia trắc ẩn nào cho những người đã khuất."
+  },
+  {
+   "id": "4.12#9",
+   "element": "4.12",
+   "act": 4,
+   "role": "D",
+   "start": 1327.5,
+   "end": 1335.339,
+   "text": "Hắn khai báo một cách vô cảm về cách thức tiêm thuốc, như thể đang thuật lại quy trình kỹ thuật của một ca làm việc bình thường."
+  },
+  {
+   "id": "4.12#10",
+   "element": "4.12",
+   "act": 4,
+   "role": "D",
+   "start": 1335.339,
+   "end": 1341.72,
+   "text": "Lời thú tội kéo dài nhiều giờ đã khép lại hành trình lẩn trốn suốt 16 năm của một bóng ma y tế tàn bạo."
+  },
+  {
+   "id": "4.12#11",
+   "element": "4.12",
+   "act": 4,
+   "role": "D",
+   "start": 1341.72,
+   "end": 1347.519,
+   "text": "Cánh cửa phòng tạm giam đóng lại, chuẩn bị cho ngày phán quyết lịch sử trước búa tòa công lý."
+  },
+  {
+   "id": "4.12#12",
+   "element": "4.12",
+   "act": 4,
+   "role": "D",
+   "start": 1347.519,
+   "end": 1354.076,
+   "text": "Và đó cũng là lúc toàn bộ hệ thống y tế phải đối diện với sự thật nhức nhối về trách nhiệm của chính mình."
   },
   {
    "id": "5.02#1",
    "element": "5.02",
    "act": 5,
    "role": "H",
-   "start": 966.05,
-   "end": 968.37,
+   "start": 1356.076,
+   "end": 1357.446,
    "text": "Tháng 3 năm 2006."
   },
   {
@@ -1132,8 +1573,8 @@
    "element": "5.02",
    "act": 5,
    "role": "H",
-   "start": 969.02,
-   "end": 973.06,
+   "start": 1357.446,
+   "end": 1360.973,
    "text": "Tại Tòa án Thượng thẩm Quận Somerset, bang New Jersey."
   },
   {
@@ -1141,252 +1582,333 @@
    "element": "5.02",
    "act": 5,
    "role": "H",
-   "start": 973.71,
-   "end": 984.87,
-   "text": "Thẩm phán Paul Armstrong tuyên phạt Charles Cullen 11 bản án tù chung thân liên tiếp – nghĩa là hắn phải thụ án 397 năm mới đủ điều kiện xét ân xá."
+   "start": 1360.973,
+   "end": 1369.277,
+   "text": "Một phiên tòa lịch sử diễn ra dưới sự chủ trì của Thẩm phán Paul Armstrong trong sự dõi theo của hàng triệu người dân trên khắp nước Mỹ."
   },
   {
    "id": "5.02#4",
    "element": "5.02",
    "act": 5,
    "role": "H",
-   "start": 985.62,
-   "end": 993.9,
-   "text": "Ít ngày sau, tòa án quận Lehigh, bang Pennsylvania, tuyên thêm 6 bản án chung thân, nâng tổng số lên 18."
+   "start": 1369.277,
+   "end": 1377.698,
+   "text": "Để đổi lấy việc không bị áp dụng án tử hình, Charles Cullen đã chấp nhận hợp tác toàn diện với cơ quan điều tra để nhận diện các nạn nhân."
   },
   {
    "id": "5.02#5",
    "element": "5.02",
    "act": 5,
    "role": "H",
-   "start": 995.05,
-   "end": 1011.93,
-   "text": "Đổi lại việc không bị tuyên án tử hình, Cullen chấp nhận ngồi vào chiếc bàn làm việc với các điều tra viên suốt nhiều tháng ròng để rà soát hàng ngàn trang hồ sơ y tế, giúp hàng chục gia đình trên khắp nước Mỹ tìm ra câu trả lời cho sự ra đi đột ngột của người thân họ."
+   "start": 1377.698,
+   "end": 1387.052,
+   "text": "Thẩm phán Paul Armstrong đã tuyên phạt Charles Cullen 11 bản án tù chung thân liên tiếp, với thời gian thụ án tối thiểu 397 năm không có cơ hội xét ân xá."
   },
   {
    "id": "5.02#6",
    "element": "5.02",
    "act": 5,
    "role": "H",
-   "start": 1012.68,
-   "end": 1017.32,
-   "text": "Hắn hiện đang thụ án tại Nhà tù Bang New Jersey ở thành phố Trenton."
+   "start": 1387.052,
+   "end": 1395.239,
+   "text": "Ít ngày sau, tòa án tại bang Pennsylvania tiếp tục tuyên thêm bảy bản án chung thân nữa, nâng tổng mức án lên 18 bản án tù chung thân."
+  },
+  {
+   "id": "5.02#7",
+   "element": "5.02",
+   "act": 5,
+   "role": "H",
+   "start": 1395.239,
+   "end": 1403.952,
+   "text": "Kẻ mang danh “Thiên thần Tử thần” sẽ phải chôn vùi toàn bộ phần đời còn lại phía sau song sắt của nhà tù bang New Jersey tại thành phố Trenton."
+  },
+  {
+   "id": "5.02#8",
+   "element": "5.02",
+   "act": 5,
+   "role": "H",
+   "start": 1403.952,
+   "end": 1411.557,
+   "text": "Bản án nghiêm khắc đã khép lại chuỗi ngày săn mồi kinh hoàng của kẻ giết người hàng loạt tàn bạo nhất lịch sử y tế hiện đại."
   },
   {
    "id": "5.04#1",
    "element": "5.04",
    "act": 5,
    "role": "H",
-   "start": 1019.42,
-   "end": 1034.82,
-   "text": "Khi nhìn lại vụ án làm rúng động lịch sử y khoa, các chuyên gia và tác giả cuốn sách điều tra “The Good Nurse” đã đúc kết bi kịch bằng một câu hỏi day dứt: Tại sao một kẻ thủ ác có thể tiếp diễn hành vi suốt 16 năm mà không bị phát hiện?"
+   "start": 1413.057,
+   "end": 1420.953,
+   "text": "Thế nhưng, ngay cả khi đứng trước vành móng ngựa, bản chất ái kỷ méo mó của Charles Cullen vẫn tiếp tục bộc lộ một cách trơ tráo."
   },
   {
    "id": "5.04#2",
    "element": "5.04",
    "act": 5,
    "role": "H",
-   "start": 1035.72,
-   "end": 1046.04,
-   "text": "Câu trả lời đau đớn nhất chính là: những người từng lên tiếng – một người con, những đồng nghiệp, một bác sĩ chống độc – đều bị chính các thể chế phớt lờ."
+   "start": 1420.953,
+   "end": 1428.559,
+   "text": "Tại phiên tòa tuyên án ở Hạt Lehigh, bang Pennsylvania, Cullen đã từ chối bước ra đối diện với gia đình các nạn nhân xấu số."
   },
   {
    "id": "5.04#3",
    "element": "5.04",
    "act": 5,
    "role": "H",
-   "start": 1046.99,
-   "end": 1052.63,
-   "text": "Tội ác của Charles Cullen đã để lại một vết thương sâu sắc cho ngành y tế toàn cầu."
+   "start": 1428.559,
+   "end": 1437.038,
+   "text": "Khi bị áp giải vào phòng xử án, hắn liên tục lặp đi lặp lại một câu nói duy nhất như một kẻ mất trí: “Thưa quý tòa, ngài cần phải từ chức.”"
   },
   {
    "id": "5.04#4",
    "element": "5.04",
    "act": 5,
    "role": "H",
-   "start": 1052.98,
-   "end": 1065.3,
-   "text": "Nhưng từ trong đống tro tàn của thảm kịch, bang New Jersey đã ban hành Đạo luật Tăng cường Trách nhiệm và Báo cáo của Nhân viên Y tế – thường được biết đến với tên gọi Đạo luật Cullen."
+   "start": 1437.038,
+   "end": 1445.634,
+   "text": "Hắn gào thét câu nói ấy suốt hàng giờ đồng hồ nhằm phá vỡ phiên tòa và bịt tai trước những lời vạch tội xé lòng của thân nhân người đã khuất."
   },
   {
    "id": "5.04#5",
    "element": "5.04",
    "act": 5,
    "role": "H",
-   "start": 1066.15,
-   "end": 1077.99,
-   "text": "Đạo luật này buộc các bệnh viện phải báo cáo sai phạm nghiêm trọng của nhân viên y tế lên cơ quan quản lý, và bảo vệ bệnh viện khi họ cung cấp thông tin trung thực về nhân viên cũ."
+   "start": 1445.634,
+   "end": 1453.996,
+   "text": "Sự phản kháng lố bịch ấy buộc thẩm phán William Platt phải ra lệnh dùng băng dính bịt miệng hắn lại để phiên tòa có thể tiếp tục diễn ra."
   },
   {
    "id": "5.04#6",
    "element": "5.04",
    "act": 5,
    "role": "H",
-   "start": 1078.34,
-   "end": 1093.54,
-   "text": "Để bảo vệ bản thân và những người thân yêu khi bước chân vào môi trường chăm sóc y tế, chúng ta hãy cùng Chuyên gia tâm lý và Điều tra viên đúc kết 4 Dấu hiệu cảnh báo đỏ (Red Flags) về những kẻ săn mồi ẩn danh trong tổ chức."
+   "start": 1453.996,
+   "end": 1460.844,
+   "text": "Hành vi đó đã phơi bày sự sụp đổ thảm hại của một bản ngã ái kỷ khi bị tước đoạt toàn bộ quyền lực và sự chú ý."
+  },
+  {
+   "id": "5.04#7",
+   "element": "5.04",
+   "act": 5,
+   "role": "H",
+   "start": 1460.844,
+   "end": 1469.498,
+   "text": "Hắn thà đóng vai một kẻ điên loạn chống đối thể chế chứ nhất quyết không chịu cúi đầu nhận tội trước nỗi đau thương của các gia đình nạn nhân."
   },
   {
    "id": "5.05#1",
    "element": "5.05",
    "act": 5,
    "role": "C",
-   "start": 1094.74,
-   "end": 1097.5,
-   "text": "Dấu hiệu thứ nhất: Hội chứng “Vị cứu tinh” giả tạo."
+   "start": 1469.498,
+   "end": 1476.579,
+   "text": "Khép lại hồ sơ đen tối này, bài học nhức nhối nhất không chỉ nằm ở sự tha hóa nhân cách của cá nhân Charles Cullen."
   },
   {
    "id": "5.05#2",
    "element": "5.05",
    "act": 5,
    "role": "C",
-   "start": 1098.15,
-   "end": 1107.79,
-   "text": "Hãy cẩn trọng với những cá nhân luôn khao khát xuất hiện tại trung tâm của mọi sự cố khẩn cấp, luôn là người đầu tiên có mặt khi có khủng hoảng nhưng hiệu suất công việc thực tế lại rất mơ hồ."
+   "start": 1476.579,
+   "end": 1484.475,
+   "text": "Vấn đề cốt lõi mà vụ án để lại là “Sự phản bội thể chế” và điểm mù tập thể của một hệ thống y tế bị chi phối bởi lợi ích kinh tế."
   },
   {
    "id": "5.05#3",
    "element": "5.05",
    "act": 5,
    "role": "C",
-   "start": 1108.14,
-   "end": 1112.1,
-   "text": "Đó có thể là biểu hiện của một nhân cách tìm kiếm sự kiểm soát thông qua thảm kịch."
+   "start": 1484.475,
+   "end": 1493.945,
+   "text": "Chín bệnh viện nơi Cullen từng làm việc đều đã từng ghi nhận những bất thường, từng phát hiện thuốc mất tích và nghi ngờ các ca tử vong vào ca trực của hắn."
   },
   {
    "id": "5.05#4",
    "element": "5.05",
    "act": 5,
    "role": "C",
-   "start": 1112.85,
-   "end": 1116.41,
-   "text": "Dấu hiệu thứ hai: Lịch sử làm việc chắp vá và nhảy việc liên tục."
+   "start": 1493.945,
+   "end": 1502.949,
+   "text": "Thế nhưng, vì nỗi sợ bị kiện tụng bồi thường hàng triệu đô la và sợ tổn hại danh tiếng thương hiệu, họ đã chọn cách giải quyết êm thấm trong nội bộ."
   },
   {
    "id": "5.05#5",
    "element": "5.05",
    "act": 5,
    "role": "C",
-   "start": 1116.76,
-   "end": 1129.04,
-   "text": "Một nhân viên có chuyên môn nhưng liên tục chuyển đổi nơi làm việc sau những khoảng thời gian ngắn, rời đi trong sự mơ hồ không có lý do rõ ràng từ các đơn vị cũ, là dấu hiệu báo động đỏ về những sai phạm hành vi từng bị che giấu."
+   "start": 1502.949,
+   "end": 1512.011,
+   "text": "Họ cho hắn thôi việc với lý do trung tính, thậm chí ký những lá thư giới thiệu tích cực để đẩy quả bom nổ chậm sang cho các bệnh viện khác gánh chịu."
+  },
+  {
+   "id": "5.05#6",
+   "element": "5.05",
+   "act": 5,
+   "role": "C",
+   "start": 1512.011,
+   "end": 1520.024,
+   "text": "Sự im lặng có hệ thống của các nhà quản lý đã biến chính những cơ sở chữa bệnh thành nơi đồng lõa cho cái ác tiếp diễn suốt 16 năm."
+  },
+  {
+   "id": "5.05#7",
+   "element": "5.05",
+   "act": 5,
+   "role": "C",
+   "start": 1520.024,
+   "end": 1527.92,
+   "text": "Đó là minh chứng tàn nhẫn cho thấy khi sự an toàn của con người bị xếp sau danh tiếng và tiền bạc, thảm kịch chắc chắn sẽ xảy ra."
   },
   {
    "id": "5.06#1",
    "element": "5.06",
    "act": 5,
    "role": "D",
-   "start": 1129.74,
-   "end": 1133.82,
-   "text": "Dấu hiệu thứ ba: Thao tác gian lận vượt quyền trên hệ thống quản lý."
+   "start": 1527.92,
+   "end": 1536.749,
+   "text": "Chính sự trả giá bằng sinh mạng của hàng chục nạn nhân vô tội đã thúc đẩy một cuộc đại cải tổ mang tính lịch sử trong hệ thống pháp luật y tế Mỹ."
   },
   {
    "id": "5.06#2",
    "element": "5.06",
    "act": 5,
    "role": "D",
-   "start": 1134.47,
-   "end": 1148.35,
-   "text": "Trong bất kỳ tổ chức nào có hệ thống dữ liệu tự động, những hành vi liên tục truy cập dữ liệu ngoài phạm vi phân công, thường xuyên hủy giao dịch ngay sau khi mở kho tài sản hoặc thuốc men, là chỉ dấu rõ ràng nhất của hành vi trục lợi hoặc phá hoại có chủ đích."
+   "start": 1536.749,
+   "end": 1544.354,
+   "text": "Năm 2004, Thống đốc bang New Jersey đã ký ban hành “Đạo luật Cullen” nhằm bẻ gãy vĩnh viễn sự im lặng thể chế nguy hiểm này."
   },
   {
    "id": "5.06#3",
    "element": "5.06",
    "act": 5,
    "role": "D",
-   "start": 1148.7,
-   "end": 1153.22,
-   "text": "Và dấu hiệu thứ tư: Sự im lặng bất thường của tập thể trước sự cố lặp lại."
+   "start": 1544.354,
+   "end": 1552.775,
+   "text": "Đạo luật quy định các bệnh viện bắt buộc phải báo cáo mọi hành vi sai phạm nghiêm trọng của nhân viên y tế cho cơ quan chức năng nhà nước."
   },
   {
    "id": "5.06#4",
    "element": "5.06",
    "act": 5,
    "role": "D",
-   "start": 1153.97,
-   "end": 1171.65,
-   "text": "Khi những sự cố nghiêm trọng, bất thường diễn ra liên tiếp trong một bộ phận nhưng ban quản lý có xu hướng giải quyết nội bộ, né tránh sự can thiệp của pháp luật hoặc tìm cách xoa dịu người khiếu nại thay vì làm rõ bản chất – đó là lúc cơ chế phòng vệ của tổ chức đang vô tình đồng lõa cho cái ác tiếp diễn."
+   "start": 1552.775,
+   "end": 1562.012,
+   "text": "Đồng thời, luật cung cấp quyền miễn trừ trách nhiệm pháp lý cho các cơ sở y tế khi cung cấp thông tin trung thực về quá trình công tác của nhân viên cũ."
+  },
+  {
+   "id": "5.06#5",
+   "element": "5.06",
+   "act": 5,
+   "role": "D",
+   "start": 1562.012,
+   "end": 1571.831,
+   "text": "Quy trình vận hành máy phát thuốc tự động Pyxis cũng được tái thiết kế trên toàn quốc, xóa bỏ hoàn toàn lỗ hổng hủy lệnh và siết chặt theo dõi từng liều độc dược."
+  },
+  {
+   "id": "5.06#6",
+   "element": "5.06",
+   "act": 5,
+   "role": "D",
+   "start": 1571.831,
+   "end": 1580.019,
+   "text": "Những cải cách bước ngoặt ấy đã dựng lên một hàng rào bảo vệ vững chắc để ngăn chặn những thảm kịch tương tự tái diễn trong tương lai."
   },
   {
    "id": "5.08#1",
    "element": "5.08",
    "act": 5,
    "role": "H",
-   "start": 1173.65,
-   "end": 1181.37,
-   "text": "Hồ sơ về Charles Cullen khép lại, để lại cho chúng ta một bài học sâu sắc và nhức nhối về lòng tin con người."
+   "start": 1582.019,
+   "end": 1589.566,
+   "text": "Hồ sơ về Charles Cullen là một lời cảnh tỉnh lạnh lùng gửi đến tất cả chúng ta về bản chất phức tạp của lòng tin con người."
   },
   {
    "id": "5.08#2",
    "element": "5.08",
    "act": 5,
    "role": "H",
-   "start": 1182.12,
-   "end": 1194.32,
-   "text": "Cái ác nguy hiểm nhất không phải là cái ác mang nanh vuốt gầm rú ngoài bóng tối, mà là cái ác khoác lên mình chiếc áo choàng của sự tử tế, ẩn mình sau sự thờ ơ và im lặng của đám đông."
+   "start": 1589.566,
+   "end": 1598.337,
+   "text": "Chiếc áo blouse trắng, bằng cấp chuyên môn hay những cử chỉ ân cần bề ngoài không bao giờ là sự bảo chứng tuyệt đối cho đạo đức của một tâm hồn."
   },
   {
    "id": "5.08#3",
    "element": "5.08",
    "act": 5,
    "role": "H",
-   "start": 1195.07,
-   "end": 1198.83,
-   "text": "Charles Cullen có thể đã cướp đi sinh mạng của hàng trăm người."
+   "start": 1598.337,
+   "end": 1606.524,
+   "text": "Tội ác tinh vi nhất không xuất hiện với bộ mặt gớm ghiếc, mà luôn ẩn mình hoàn hảo phía sau những vỏ bọc mẫu mực và đáng tin cậy nhất."
   },
   {
    "id": "5.08#4",
    "element": "5.08",
    "act": 5,
    "role": "H",
-   "start": 1199.78,
-   "end": 1210.86,
-   "text": "Nhưng chính sự hèn nhát, vị kỷ của những tổ chức đặt danh tiếng và tiền bạc lên trên mạng sống con người đã trao cho hắn chiếc kim tiêm tử thần suốt 16 năm ròng rã."
+   "start": 1606.524,
+   "end": 1614.13,
+   "text": "Bài học sinh tồn lớn nhất mà vụ án này để lại chính là: “Hãy luôn biết lắng nghe và tin tưởng vào trực giác của chính mình.”"
   },
   {
    "id": "5.08#5",
    "element": "5.08",
    "act": 5,
    "role": "H",
-   "start": 1212.01,
-   "end": 1214.17,
-   "text": "Pháp luật đã trừng trị kẻ thủ ác."
+   "start": 1614.13,
+   "end": 1623.774,
+   "text": "Khi bạn nhận thấy một điều gì đó bất thường lặp đi lặp lại trong môi trường xung quanh, đừng bao giờ để sự tự trấn an hay thói quen thỏa hiệp ru ngủ lương tri."
   },
   {
    "id": "5.08#6",
    "element": "5.08",
    "act": 5,
    "role": "H",
-   "start": 1214.52,
-   "end": 1227.76,
-   "text": "Nhưng chính lòng dũng cảm, sự kiên định không chịu thỏa hiệp của những con người chính trực như nữ y tá Amy Loughren mới là ngọn hải đăng bảo vệ cho phẩm giá của nền y học và sự thiêng liêng của sự sống con người."
+   "start": 1623.774,
+   "end": 1632.836,
+   "text": "Lòng dũng cảm của nữ y tá Amy Loughren đã chứng minh rằng: Một cá nhân dám bước qua nỗi sợ hãi để lên tiếng có thể cứu sống hàng trăm sinh mệnh khác."
+  },
+  {
+   "id": "5.08#7",
+   "element": "5.08",
+   "act": 5,
+   "role": "H",
+   "start": 1632.836,
+   "end": 1640.15,
+   "text": "Sự im lặng trước cái ác không bao giờ mang lại sự bình yên, mà chỉ tiếp tay cho vực thẳm nuốt chửng những người vô tội."
   },
   {
    "id": "5.10#1",
    "element": "5.10",
    "act": 5,
    "role": "H",
-   "start": 1229.26,
-   "end": 1232.9,
-   "text": "Cảm ơn các chuyên gia và điều tra viên đã đồng hành cùng chương trình."
+   "start": 1641.65,
+   "end": 1647.799,
+   "text": "Cảm ơn các khách mời chuyên gia đã cùng đồng hành giải phẫu hồ sơ tâm lý học tội phạm ngày hôm nay."
   },
   {
    "id": "5.10#2",
    "element": "5.10",
    "act": 5,
    "role": "H",
-   "start": 1233.55,
-   "end": 1237.51,
-   "text": "Cảm ơn quý vị thính giả đã theo dõi trọn vẹn tập podcast ngày hôm nay."
+   "start": 1647.799,
+   "end": 1652.898,
+   "text": "Cảm ơn bạn đã lắng nghe đến những phút cuối cùng của câu chuyện đầy suy ngẫm này."
   },
   {
    "id": "5.10#3",
    "element": "5.10",
    "act": 5,
    "role": "H",
-   "start": 1238.16,
-   "end": 1246.52,
-   "text": "Hãy luôn tỉnh thức, luôn trân quý sự an toàn của những người thân yêu, và hẹn gặp lại các bạn trong hồ sơ phân tích tâm lý tội phạm tiếp theo."
+   "start": 1652.898,
+   "end": 1660.97,
+   "text": "Hãy luôn giữ cho mình một cái nhìn tỉnh táo, biết bảo vệ những ranh giới an toàn và trân trọng từng phút giây quý giá của cuộc sống."
+  },
+  {
+   "id": "5.10#4",
+   "element": "5.10",
+   "act": 5,
+   "role": "H",
+   "start": 1660.97,
+   "end": 1666.419,
+   "text": "Xin chào và hẹn gặp lại các bạn trong những hồ sơ tâm lý tiếp theo của kênh Amber Eyes."
   }
  ],
  "markers": [
@@ -1410,206 +1932,206 @@
   {
    "type": "NGHI",
    "id": "1.04",
-   "start": 53.95,
-   "end": 55.45,
+   "start": 65.427,
+   "end": 66.927,
    "desc": ""
   },
   {
    "type": "SFX",
    "id": "1.06",
-   "at": 86.19,
-   "desc": "Tiếng băng ghi âm bật nhẹ 'Tách'."
+   "at": 99.387,
+   "desc": "Tiếng băng ghi âm bật nhẹ \"Tách\"."
   },
   {
    "type": "SFX",
    "id": "1.09",
-   "at": 148.41,
-   "desc": "Tiếng máy khử rung tim nạp điện rít cao dần, theo sau là tiếng giật sốc điện 'Bụp', rồi chuyển thành tiếng còi báo tử đơn âm kéo dài của máy đo điện tim (Flatline) trước khi tắt lịm."
+   "at": 177.625,
+   "desc": "Tiếng máy khử rung tim nạp điện rít cao dần, theo sau là tiếng giật sốc điện \"Bụp\", rồi chuyển thành tiếng còi báo tử đơn âm kéo dài của máy đo điện tim trước khi tắt lịm."
   },
   {
    "type": "NGHI",
    "id": "1.11",
-   "start": 170.28,
-   "end": 172.28,
+   "start": 219.905,
+   "end": 221.905,
    "desc": "Nhạc nền dừng đột ngột, chỉ còn tiếng giọt nước nhỏ chậm rãi"
   },
   {
    "type": "SFX",
    "id": "1.13",
-   "at": 179.5,
+   "at": 236.766,
    "desc": "Tiếng mở tập hồ sơ vụ án cọt kẹt, tiếng lật giấy tờ dồn dập."
   },
   {
    "type": "BGM",
    "id": "1.15",
-   "at": 229.93,
+   "at": 298.481,
    "desc": "Một cú Sub-bass drop chìm sâu giáng xuống sau con số bốn trăm nạn nhân, kéo theo giai điệu Cello u uất hòa cùng tiếng piano lạnh lẽo dâng lên nghẹt thở."
   },
   {
    "type": "ACT",
    "act": 2,
-   "start": 265.19,
-   "end": 267.19
+   "start": 338.547,
+   "end": 340.547
   },
   {
    "type": "BGM",
    "id": "2.01",
-   "at": 267.19,
+   "at": 340.547,
    "desc": "Nhạc Minimalist Piano rải những nốt rời rạc, xen lẫn tiếng gõ bàn phím vi tính lạch cạch đều đặn trong đêm vắng."
   },
   {
    "type": "NGHI",
    "id": "2.03",
-   "start": 291.95,
-   "end": 293.45,
+   "start": 371.142,
+   "end": 372.642,
    "desc": ""
   },
   {
    "type": "SFX",
    "id": "2.05",
-   "at": 305.0,
-   "desc": "Tiếng quẹt thẻ từ vang lên tiếng 'Tít', tiếng mô-tơ ngăn kéo tủ thuốc tự động bật mở 'Cạch'."
+   "at": 393.768,
+   "desc": "Tiếng quẹt thẻ từ vang lên tiếng \"Tít\", tiếng mô-tơ ngăn kéo tủ thuốc tự động bật mở \"Cạch\"."
   },
   {
    "type": "SFX",
    "id": "2.09",
-   "at": 434.76,
-   "desc": "Tiếng đóng dấu mộc đỏ lên hồ sơ 'Cộp... Cộp...', theo sau là tiếng đóng sập ngăn kéo tủ tài liệu và tiếng khóa chìa 'Cạch' dứt khoát, phong tỏa mọi thông tin."
+   "at": 593.282,
+   "desc": "Tiếng đóng dấu mộc đỏ lên hồ sơ bệnh án vang lên tiếng \"Cộp\" khô khốc."
   },
   {
    "type": "ACT",
    "act": 3,
-   "start": 548.44,
-   "end": 550.44
+   "start": 690.344,
+   "end": 692.344
   },
   {
    "type": "BGM",
    "id": "3.01",
-   "at": 550.44,
+   "at": 692.344,
    "desc": "Nhạc Sub-bass drone trầm đục, kết hợp tiếng nhịp tim dồn chậm rãi, ngột ngạt như đang ở dưới đáy đại dương."
   },
   {
    "type": "SFX",
    "id": "3.03",
-   "at": 593.95,
+   "at": 737.334,
    "desc": "Tiếng lật mở từng trang hồ sơ giám định tâm lý pháp y sột soạt, nặng trĩu trong không gian tĩnh mịch."
   },
   {
    "type": "NGHI",
    "id": "3.05",
-   "start": 631.73,
-   "end": 633.23,
+   "start": 807.266,
+   "end": 808.766,
    "desc": ""
   },
   {
    "type": "ACT",
    "act": 4,
-   "start": 780.39,
-   "end": 782.39
+   "start": 1022.116,
+   "end": 1024.116
   },
   {
    "type": "BGM",
    "id": "4.01",
-   "at": 782.39,
+   "at": 1024.116,
    "desc": "Nhạc Synth Ambient căng thẳng, dồn dập với tiếng bass trầm ngắt quãng, tạo không khí của một cuộc điều tra bí mật trong đêm."
   },
   {
    "type": "SFX",
    "id": "4.03",
-   "at": 828.81,
+   "at": 1075.43,
    "desc": "Tiếng bước chân vội vã trong hành lang bệnh viện, tiếng mở cửa phòng trà khép kín và tiếng đặt tập tài liệu Pyxis dày cộp xuống mặt bàn."
   },
   {
    "type": "SFX",
    "id": "4.05",
-   "at": 869.15,
-   "desc": "Tiếng băng ghi âm bật nhẹ 'Tách'."
+   "at": 1134.435,
+   "desc": "Tiếng băng ghi âm bật nhẹ \"Tách\"."
   },
   {
    "type": "SFX",
    "id": "4.07",
-   "at": 887.06,
-   "desc": "Không gian nhà hàng với tiếng thìa đĩa lách cách và tiếng trò chuyện rì rầm xung quanh, xen lẫn tiếng tim đập hồi hộp."
+   "at": 1178.843,
+   "desc": "Không gian nhà hàng với tiếng thìa dĩa kim loại chạm vào đĩa sứ, tiếng nhạc nền radio mờ nhạt từ xa."
   },
   {
    "type": "NGHI",
    "id": "4.09",
-   "start": 911.14,
-   "end": 913.14,
-   "desc": "Nhạc nền dừng đột ngột, chỉ còn tiếng nền nhà hàng xa dần"
+   "start": 1235.054,
+   "end": 1237.054,
+   "desc": "Nhạc nền dừng đột ngột, chỉ còn tiếng tích tắc của đồng hồ"
   },
   {
    "type": "SFX",
    "id": "4.10",
-   "at": 913.14,
-   "desc": "Tiếng cánh cửa sắt phòng hỏi cung kéo lê ken két trên sàn bê tông rồi sập lại một tiếng 'Rầm' nặng nề."
+   "at": 1237.054,
+   "desc": "Tiếng cánh cửa sắt phòng hỏi cung kéo lê ken két rồi đóng sập lại \"Rầm\"."
   },
   {
    "type": "ACT",
    "act": 5,
-   "start": 964.05,
-   "end": 966.05
+   "start": 1354.076,
+   "end": 1356.076
   },
   {
    "type": "BGM",
    "id": "5.01",
-   "at": 966.05,
-   "desc": "Tiếng búa tòa án gõ 'Cốp... Cốp... Cốp' vang vọng không gian trang nghiêm. Nhạc nền Piano tối giản hòa cùng tiếng vĩ cầm ngân dài da diết, mang sắc thái chiêm nghiệm sâu lắng."
+   "at": 1356.076,
+   "desc": "Tiếng búa tòa án gõ \"Cốp... Cốp... Cốp\" vang vọng không gian trang nghiêm. Nhạc nền Piano tối giản hòa cùng tiếng vĩ cầm ngân dài da diết, mang sắc thái chiêm nghiệm sâu lắng."
   },
   {
    "type": "NGHI",
    "id": "5.03",
-   "start": 1017.92,
-   "end": 1019.42,
+   "start": 1411.557,
+   "end": 1413.057,
    "desc": ""
   },
   {
    "type": "NGHI",
    "id": "5.07",
-   "start": 1171.65,
-   "end": 1173.65,
+   "start": 1580.019,
+   "end": 1582.019,
    "desc": "Nhạc nền Piano dâng lên nhẹ nhàng, ấm áp"
   },
   {
    "type": "NGHI",
    "id": "5.09",
-   "start": 1227.76,
-   "end": 1229.26,
+   "start": 1640.15,
+   "end": 1641.65,
    "desc": ""
   },
   {
    "type": "SFX",
    "id": "5.11",
-   "at": 1247.52,
-   "desc": "Tiếng đóng nắp máy đo điện tim vang lên một tiếng 'Tách', theo sau là tiếng gấp tập hồ sơ giấy 'Bụp'."
+   "at": 1666.419,
+   "desc": "Tiếng đóng nắp máy đo điện tim vang lên một tiếng \"Tách\" dứt khoát, theo sau là tiếng cất tập hồ sơ."
   },
   {
    "type": "BGM",
    "id": "5.12",
-   "at": 1247.52,
-   "desc": "Tiếng đàn Cello ngân dài sâu lắng 5 giây rồi từ từ nhỏ dần và tan vào hư không (Fade out)."
+   "at": 1666.419,
+   "desc": "Tiếng đàn Cello ngân dài sâu lắng hòa cùng tiếng piano chậm rãi, âm lượng nhỏ dần rồi tắt hẳn."
   }
  ],
  "acts": {
   "1": [
    23.0,
-   265.19
+   338.547
   ],
   "2": [
-   267.19,
-   548.44
+   340.547,
+   690.344
   ],
   "3": [
-   550.44,
-   780.39
+   692.344,
+   1022.116
   ],
   "4": [
-   782.39,
-   964.05
+   1024.116,
+   1354.076
   ],
   "5": [
-   966.05,
-   1247.52
+   1356.076,
+   1666.419
   ]
  }
 }

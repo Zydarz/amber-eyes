@@ -12,9 +12,9 @@
 | Lượt nói / câu / từ | 36 / **203** / 4.547 — Bản Director's Cut (25/10/2026): nâng cấp kịch tính, dời ổ cứng sang Hồi 4, bỏ giáo điều Hồi 5 |
 | **Giọng (bộ A)** | Host `English_CaptivatingStoryteller` (trầm ấm) · Điều tra viên `Korean_ColdYoungMan` (lạnh lùng) · Chuyên gia `English_AssertiveQueen` (nhấn mạnh, nữ) · N1 `Vietnamese_kindhearted_girl` · N2 `English_captivating_female1`. Cao độ luôn 0, chỉ 4 cảm xúc an toàn (A4.2 G5, G8) |
 | N1 / N2 | `1.07` Người từng phục vụ dưới quyền (Cừu) / `4.06` Người dân Tweed (Mèo) |
-| Thời lượng | **25:54** (1.554,3 s) — bản Director's Cut (giọng bộ A + MiniMax TTS 68 câu mới + số đọc bằng chữ) |
-| Mốc hồi (đo) | Hồi 1 · 00:20 · Hồi 2 · 05:28 · Hồi 3 · 09:12 · Hồi 4 · 14:58 · Hồi 5 · 20:28 |
-| Bảng shot | **151 dòng** — 100% QC đạt (H13 khớp 3 chiều ảnh - chữ - lời thoại, P0 thẻ kết đã sửa hoàn chỉnh) |
+| Thời lượng | **25:19** (1.519,08 s) — bản 10 chỉ dấu tâm lý (khớp 100% audio master Tap02_master.mp3) |
+| Mốc hồi (đo) | Hồi 1 · 00:23 · Hồi 2 · 05:44 · Hồi 3 · 09:53 · Hồi 4 · 14:44 · Hồi 5 · 19:52 |
+| Bảng shot | **161 dòng** — 100% QC đạt (H13 khớp 3 chiều ảnh - chữ - lời thoại, P0 thẻ kết đã sửa hoàn chỉnh) |
 | Nền dùng | 36/37 nền `t2_*` (chỉ bỏ `t2_cell_medical`) + 9 nền Tập 01. `t2_two_chairs`, `t2_hidden_drive`, `t2_tape_recorder` đã **tạo lại 23/10** (dịch vụ ảnh chạy lại) và dùng lại theo bảng shot gốc |
 | Phân loại YouTube | Giáo dục · Không dành cho trẻ em · "Nội dung bị thay đổi hoặc tổng hợp" · tự đánh giá quảng cáo: chủ đề gây tranh cãi, có nhắc tội phạm tình dục ở mức khái quát (A10) |
 
@@ -25,11 +25,11 @@
 | Kịch bản | ✅ Đã sửa, đã đối chiếu nguồn, parse đạt (215 câu, không còn từ cấm A9.2) |
 | Ảnh nền | ✅ 37 nền `t2_*`; 3 nền tạo lại 23/10 (`t2_two_chairs`, `t2_hidden_drive`, `t2_tape_recorder`); duyệt ảnh tĩnh đủ 151 shot. **QC lại 23/10: 37/37 đạt** (đủ 2112×1188, không viền, không ảnh thừa) — `py -3 .work/qc_bg.py t2 --sheet` |
 | Cấu hình script | ✅ Đã làm 22/10 — mục B3 nằm trong `EPISODES["02"]` của `.work/edition.py`; chạy mọi lệnh với `AE_EP=02`. Tập 01 kiểm hồi quy đạt |
-| TTS, âm thanh, hình, đóng gói | ✅ **Bản 4 — dựng lại 23/10/2026, 18:09–19:43** (giọng bộ A + số đọc bằng chữ) · 215/215 câu · G10 đạt (mỗi vai 1 người, 3 vai tách bạch 10/10) · âm thanh 1.605,7 s, −15,9 LUFS, đỉnh −1,5 dBFS, 0 khoảng câm · 14 đoạn nền + 37 tiếng động · hình dựng lại 6 worker 92 phút → `picture.mp4` 1.605,70 s · **`Tap02_master.mp4` 552,8 MB — 1.605,70 s, 1920×1080@30, 48.171 khung, H.264 + AAC 192 kbps stereo, lệch hình/tiếng 0,002 s**. Lịch sử: bản 1 (11:14, giọng cũ — Host đổi danh tính) → bản 2 (15:07, bộ A — đọc "1.400" thành "một phẩy bốn trăm") → bản 3 (18:08, audio) → **bản 4 (19:43, video + đóng gói)**. *Bản 3 dựng lúc 15:05 bị lệch 1,77 s với audio bản 3 → đã dựng lại toàn bộ.* |
+| TTS, âm thanh, hình, đóng gói | ✅ **Bản hoàn thiện — dựng lại 05/11/2026** (khớp master audio Tap02_master.mp3 1.519,08 s) · 203/203 câu · âm thanh 1.519,05 s, −16,3 LUFS, max volume −2,0 dB, 0 khoảng câm > 0,3 s · 161 shot video render 6 worker → picture.mp4 1.519,07 s · **Tap02_master.mp4 525,7 MB — 1.519,07 s, 1920×1080@30, 45.572 khung, H.264 + AAC 194 kbps stereo, lệch hình/tiếng 0,017 s (17,2 ms)**. Decode check: 0 lỗi. Thẻ kết shot 5-36 hoàn chỉnh đầy đủ logo, tên kênh, khẩu hiệu. |
 | Nguồn | ⚠ `xuat_ban/nguon_tham_khao.md` đã sinh (35 câu) — **người dùng điền link**; gợi ý ở mục "LẦN 2" của `01_KICH_BAN/Tap02/REVIEW_kichban_tap02.md` |
 | **Sổ nguồn gốc** | ✅ `provenance.json` **587 dòng** — bổ sung 23/10: **9 file nhạc nền `assets/bgm/`** (trước đó thiếu hẳn — A10 dựa vào sổ này để kháng nghị khi bị Content ID nhận nhầm), 15 linh thú (`P0`/`full`/mascot), 41 ảnh gốc `_raw/t2_*`, 37 SFX tự tổng hợp, 15 ảnh người dùng cung cấp, 5 file nhận diện kênh. **92/92 tài sản Tập 02 đã có dòng.** Sao cũ: `.work/provenance.backup_23102026.json` |
 | **Trước khi đăng** | ① Điền nguồn · ② Kiểm tra điều khoản thương mại (`provenance.json` — xem cột `kiem_tra_thuong_mai`; **9 file nhạc nền MiniMax còn "chưa"**, phải kiểm tra điều khoản MiniMax trước khi bật kiếm tiền; **ảnh linh thú + ảnh người dùng cung cấp còn "chưa"** — cần người dùng xác nhận công cụ đã dùng) · ③ Người dùng nghe toàn tập |
-| **Thành phẩm** | `xuat_ban/` — `Tap02_master.mp4` (552,8 MB) · `Tap02_master.mp3` (38,5 MB) · `Tap02.srt` (391 cue, có tên vai) · `thumbnail.png` (1280×720) · `mo_ta.txt` (có mốc chương 00:20 / 05:25 / 09:32 / 15:18 / 20:58) · `nguon_tham_khao.md` (35 câu) |
+| **Thành phẩm** | xuat_ban/ — Tap02_master.mp4 (525,7 MB) · Tap02_master.mp3 (34,8 MB) · Tap02.srt (408 cue) · 	humbnail.png (1280×720) · mo_ta.txt (có mốc chương 00:20 / 05:44 / 09:53 / 14:44 / 19:52) |
 
 ### Quy tắc hình riêng của tập này (bổ sung V5, V9)
 
