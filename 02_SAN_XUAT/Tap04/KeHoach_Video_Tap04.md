@@ -292,4 +292,17 @@ Cổng A–G chạy lần đầu báo **3 lỗi**; 2 lỗi là dương tính gi�
 
 **Còn lại trước khi đăng:** dán `xuat_ban/mo_ta.txt` vào YouTube (dán trọn 4.873 ký tự), gán `Tap04_master.mp4`, kiểm tra lại 3 dòng disclaimer trên UI tiếng Việt và hashtag cuối.
 
+### Bước 11 — Tái sản xuất Audio Higgs Audio v3 trên Mac Apple Silicon (06/11/2026)
+
+- **Công cụ:** `.work/generate_higgs_prod_t04vi.py` (Higgs Audio v3 trên MLX Apple Silicon + 5 giọng mẫu VoxCPM2 độc lập: `H.wav`, `D_NEW_subbass-husky_t02.wav`, `C_NEW_alto-brisk_t03.wav`, `W6_LOW.wav`, `W5_HIGH.wav`) + `.work/build_audio3.py`.
+- **Quy chuẩn tuân thủ:** `QUY_TAC_HIGGS_MAC.md` (Pre-encode M1, tách TTS/QC M2, trim silence tail M3, cấm emotion M4, UTMOSv2 MOS CPU M5).
+- **Số đo kỹ thuật:**
+  - Tổng số câu: **154 câu**, 5 hồi (Hồi 1: 23.0–267.2, Hồi 5: 978.6–1236.6 s).
+  - Thời lượng master: **1245.6 s (~20m45s)**, lời đầu 23.0 s, lời cuối hết 1236.6 s.
+  - Chuẩn hoá EBUR128: **Integrated Loudness -16.2 LUFS**, **True Peak -1.7 dBFS** (đạt trần $\le -1.5\text{ dBFS}$), LRA 3.3 LU.
+  - Tách vai G9: Delta D $\to$ H = **5.90 nc** ($\ge 4.0\text{ nc}$ ✅), Delta H $\to$ C = **9.32 nc** ($\ge 4.0\text{ nc}$ ✅).
+  - Độ tự nhiên UTMOSv2 MOS: Mean = **2.62/5.0** (khớp baseline tiếng Việt).
+  - File xuất bản: `02_SAN_XUAT/Tap04/xuat_ban/Tap04_master.mp3` (29 MB) & `Tap04_master.wav` (228 MB), phụ đề `Tap04.srt` (308 cue), báo cáo `CanNghe_Tap04_higgs.md`.
+
+
 

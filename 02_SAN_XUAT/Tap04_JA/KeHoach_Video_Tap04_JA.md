@@ -152,3 +152,20 @@
 | 5-20 | hết tập (10 s) | — | T1 | `t4_case_file_open` | *事件記録 第04話 · 終了* · **AMBER EYES** · *実際の事件記録から読み解く犯罪心理学* | Nhạc fade out | ⊘ | ◼ |
 
 **Tổng: 89 shot** (Hồi 1: 22 shot · Hồi 2: 22 shot · Hồi 3: 17 shot · Hồi 4: 22 shot · Hồi 5: 20 shot) · Phủ 100% 212/212 câu · chữ trên hình lấy từ câu đang đọc (H6).
+
+## 7. Audio Higgs bản tiếng Nhật (06/11/2026)
+
+Bộ giọng JA tạo từ VoxCPM2 (`.work/kaggle_higgs/dataset_voxcpm2_ja/`: `H_JA.wav`, `D_JA.wav`, `C_JA.wav`, `N1_JA.wav`, `N2_JA.wav`). Sinh bằng MLX-Audio Higgs Audio v3 4B trên Apple Silicon.
+Danh sách nghe kiểm: `02_SAN_XUAT/Tap04_JA/xuat_ban/CanNghe_Tap04_JA_higgs.md`.
+Phụ đề: `02_SAN_XUAT/Tap04_JA/xuat_ban/Tap04_JA.srt` (167 cues).
+
+| Bước | Số đo |
+|---|---|
+| Lượt 1 | 166/166 câu hoàn thành 100%, 0 FAIL, sinh trên MLX Mac Apple Silicon. Tự động cắt đuôi câm $\ge 0.8\text{ s}$ @ $-45\text{ dBFS}$. |
+| F0 trung vị | D: 79.4 Hz · H: 116.1 Hz · C: 213.6 Hz (và N1, N2). |
+| Cổng G9 | **D–H: 6.54 nc ✅** · **H–C: 10.56 nc ✅** (đều vượt ngưỡng $\ge 4.0\text{ nc}$). |
+| UTMOS MOS | **Mean = 3.01/5.0** (min=2.24, max=4.06) ✅ ĐẠT. |
+| Timeline | Tổng 1578.9 s (~26m18s) · 166 câu · Lời đầu 23.0 s · Lời cuối hết 1569.9 s. |
+| Phụ đề | Đã xuất `02_SAN_XUAT/Tap04_JA/xuat_ban/Tap04_JA.srt` (167 cues). |
+| Master Audio | **ĐÃ HOÀN THÀNH**: `02_SAN_XUAT/Tap04_JA/xuat_ban/Tap04_JA_master.mp3` (36.14 MB) & `Tap04_JA_master.wav` (289 MB) · Loudness: **-16.2 LUFS**, LRA 4.6 LU, True Peak: **-1.9 dBFS** (chuẩn $\le -1.5\text{ dBFS}$). |
+
