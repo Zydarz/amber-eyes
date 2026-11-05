@@ -25,8 +25,8 @@
 |---|---|---|---|---|---|---|---|---|
 | 1-00 | `1.01`–`1.02` (20.5 s → lời đầu 23.0 s) | — | T1 | `t3_phone_booth` hiện dần từ đen | *ACT 1 · THE MIDNIGHT CALL FROM A COLORADO PAYPHONE* | Tiếng gió rít, tiếng đồng xu, quay số | ⊘ |  |
 | 1-01 | `1.03#1`–`#2` | H | T5 ngày | `t3_case_file` | **24 · 04 · 1973** · *Four in the morning · Pueblo, Colorado* | Gõ từng ký tự | ✦ Cú |  |
-| 1-02 | `1.03#3`–`#4` | H | T1 | `t3_dispatch_desk` | *OVER 1,000 MILES AWAY · SANTA CRUZ, CALIFORNIA* · **THE DISPATCH TELEPHONE SHATTERS THE SILENCE** → `#4`: *On the other end: a calm, eerily articulate male voice* | — |  |  |
-| 1-03 | `1.03#5`–`#6` | H | T1 | `t3_phone_booth`, `push` | **EDMUND KEMPER** · *Calling from a roadside payphone* → `#6`: **BIG ED** · *6-foot-9 · 280 pounds* | Tiêu đề ở "Big Ed" |  |  |
+| 1-02 | `1.03#3`–`#4` | H | T1 | `t3_dispatch_desk` | *OVER ONE THOUSAND MILES AWAY · SANTA CRUZ, CALIFORNIA* · **THE DISPATCH TELEPHONE SHATTERS THE SILENCE** → `#4`: *On the other end: a calm, eerily articulate male voice* | — |  |  |
+| 1-03 | `1.03#5`–`#6` | H | T1 | `t3_phone_booth`, `push` | **EDMUND KEMPER** · *Calling from a roadside payphone* → `#6`: **BIG ED** · *SIX FEET NINE INCHES · 280 POUNDS* | Tiêu đề ở "Big Ed" |  |  |
 | 1-04 | `1.03#7` | H | T1 | `t3_bar_stool_shadow` | **THE JURY ROOM BAR** · *Drinking beer and sharing friendly conversations with off-duty officers* | — |  |  |
 | 1-05 | `1.03#8` | H | T1 | `t3_bedroom_door` | **AND JUST DAYS BEFORE** · *He had murdered his own mother* | — | ⊘ |  |
 | 1-06 | `1.04` (nghỉ 1.5 s) | — | — | giữ 1-05 | — | — | ⊘ |  |
@@ -45,7 +45,7 @@
 | 1-19 | `1.10#7`–`#11` | H | T4 lời kể | `t3_phone_booth` | **HE WALKED INTO A PAYPHONE AND SURRENDERED** → `#10`: “Stop me. I’m going to do it again.” | — | ⊘ |  |
 | 1-20 | `1.10#12`–`#14` | H | T1 | `t3_prison_corridor`, `push` | **HE CALLED BECAUSE HE WAS AFRAID HE WOULDN'T STOP** · *Hear the perspective of an FBI Special Agent* | — | →D |  |
 | 1-21 | `1.11`–`1.12` (nghỉ 2 s) | — | — | `t3_gate_slam` | — | Tiếng bước chân, cửa sắt "Rầm" | ⊘ |  |
-| 1-22 | `1.13#1`–`#2` | D | T1 | `t3_giant_doorway` | **A TRULY SINGULAR CASE** · *6-foot-9 · IQ 145 · Top 0.13% of the human population* | — | ✦ Sói |  |
+| 1-22 | `1.13#1`–`#2` | D | T1 | `t3_giant_doorway` | **A TRULY SINGULAR CASE** · *SIX FEET NINE INCHES · IQ 145 · Top 0.13% of the human population* | — | ✦ Sói |  |
 | 1-23 | `1.13#3`–`#4` | D | T1 | `t3_brain_mirror` | **EXTRAORDINARY CAPACITY FOR INTROSPECTIVE SELF-AWARENESS** · *Dissecting his own mind with the clinical precision of a neurosurgeon* | — |  |  |
 | 1-24 | `1.13#5`–`#6` | D | T2 | `t3_fbi_corridor` | *BSU · FBI* · **CRIMINAL PERSONALITY RESEARCH PROJECT** · *First case study in serial homicide research* | Dấu mộc ở "Criminal Personality" |  |  |
 | 1-25 | `1.13#7`–`#9` | D | T8 | `t3_case_file` | *Foundation for VICAP network · Standardized science of behavioral profiling* | Mỗi mục ở cụm từ |  |  |
@@ -55,8 +55,8 @@
 | 2-02 | `2.02#2` | H | T1 | `t3_hitchhiker` | **HITCHHIKING** · *A thumb in the air · A widespread cultural norm* | Tiêu đề ở "Hitchhiking" |  |  |
 | 2-03 | `2.02#3` | H | T1 | `t3_ucsc_campus` | **UCSC** · *University of California, Santa Cruz · Vanishing into the shadows* | — |  |  |
 | 2-04 | `2.04#1`–`#2` | H | T2 | `t3_case_photos` | *DISAPPEARANCES BEGIN* · **CASE DOSSIER OF MISSING CO-EDS** | Lật ảnh (SFX `2.03`) ở đầu | 🅑 | ✂ |
-| 2-05 | `2.04#3`–`#4` | H | T8 | `t3_santacruz_street` | *May 7, 1972: Mary Ann Pesce & Anita Luchessa (18 years old) · Locked in trunk* | Mỗi mục ở cụm từ |  |  |
-| 2-06 | `2.04#5`–`#6` | H | T8 | `t3_case_photos` | *September 14, 1972: Aiko Koo (15 years old) · January 7, 1973: Cindy Schall (18 years old)* | — | ⊘ |  |
+| 2-05 | `2.04#3`–`#4` | H | T8 | `t3_santacruz_street` | *May 7th, 1972: Mary Ann Pesce & Anita Luchessa (18 years old) · Locked in trunk* | Mỗi mục ở cụm từ |  |  |
+| 2-06 | `2.04#5`–`#6` | H | T8 | `t3_case_photos` | *September 14th, 1972: Aiko Koo (15 years old) · January 7th, 1973: Cindy Schall (18 years old)* | — | ⊘ |  |
 | 2-07 | `2.04#7`–`#8` | H | T1 | `t3_backyard_garden` | *Disposed of in the ocean* → `#8`: **BURIED THE VICTIM'S HEAD IN HIS MOTHER'S BACKYARD** | — | ⊘ |  |
 | 2-08 | `2.04#9` | H | T1 | `t3_ucsc_campus` | **TWO UCSC STUDENTS** · *Rosalind Thorpe (23 years old) & Alice Liu (21 years old)* | — |  |  |
 | 2-09 | `2.05` (nghỉ 1.5 s) | — | — | giữ 2-08 | — | — | ⊘ |  |
@@ -67,7 +67,7 @@
 | 2-14 | `2.07#2`–`#5` | D | T1 | `t3_galaxie` | **1969 YELLOW FORD GALAXIE** · *Official UCSC parking sticker · Cultivating an illusion of total safety* | Tiêu đề ở "Ford Galaxie" |  |  |
 | 2-15 | `2.07#6`–`#7` | D | T8 | `t3_trunk` | *Trunk: plastic bags, hunting knife, blankets, handcuffs · Handcuffing one, locking the other in trunk* | — | ⊘ |  |
 | 2-16 | `2.07#8`–`#9` | D | T1 | `t3_case_file` | *Three firearms and over 200 rounds of ammunition in rented car in Reno, Nevada* | — |  |  |
-| 2-17 | `2.07#10`–`#12` | D | T3 so sánh | `t3_bar_stool_shadow` | *Towering 6-foot-9 frame* · **AN INTELLECTUAL FACADE & CALCULATED CHARM** · *Soft-spoken, glasses, impeccably dressed* | Cột phải ở `#12` |  |  |
+| 2-17 | `2.07#10`–`#12` | D | T3 so sánh | `t3_bar_stool_shadow` | *Towering six-foot-nine frame* · **AN INTELLECTUAL FACADE & CALCULATED CHARM** · *Soft-spoken, glasses, impeccably dressed* | Cột phải ở `#12` |  |  |
 | 2-18 | `2.07#13`–`#14` | D | T5 | `t3_hitchhiker` | **150** · *Practice runs offering rides to hitchhikers before ever striking* | Số đếm 0 → 150 |  |  |
 | 2-19 | `2.08#1`–`#3` | H | T1 | `t3_courthouse_exterior` | **THE CENTRAL ENIGMA:** *Why did he deliberately befriend the very detectives hunting him?* | — | →N2 |  |
 | 2-20 | `2.09#1`–`#3` | N2 | T1 | `t3_bar_jury_room` | **THE JURY ROOM BAR** · *Directly opposite the Santa Cruz County Courthouse* | — | ✦ Cảnh sát |  |
@@ -76,16 +76,16 @@
 | 2-23 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *ACT 3* · **PSYCHOLOGICAL AUTOPSY — INSIDE THE MIND OF AN ANALYTICAL PSYCHOPATH** | — | ⊘ | ◼ |
 | 3-01 | `3.02#1`–`#2` | H | T1 | `t3_basement_stairs` | **A DAMP BASEMENT IN MONTANA** · *1950s — A captive childhood* | Nước nhỏ giọt, cello u ám |  |  |
 | 3-02 | `3.03` (nghỉ 2 s) | — | — | giữ 3-01 | — | — | ⊘ |  |
-| 3-03 | `3.04#1` | H | T1 | `t3_layers_stair` | *LISTEN:* **EXAMINING 3 DISTINCT PATHOLOGICAL LAYERS** | — | →C |  |
+| 3-03 | `3.04#1` | H | T1 | `t3_layers_stair` | *LISTEN:* **EXAMINING THREE DISTINCT PATHOLOGICAL LAYERS** | — | →C |  |
 | 3-04 | `3.05#1`–`#3` | C | T2 | `t3_mother_shadow` | *TOXIC MATERNAL TRAUMA* · **MRS. CLARNELL STRANDBERG** · *Authoritarian, emasculating personality* | Dấu mộc ở "toxic" | ✦ Cáo |  |
 | 3-05 | `3.05#4`–`#5` | C | T9 `1/3` | `t3_coal_furnace` | **LAYER 01: THE BASEMENT DUNGEON** · *Psychological Castration* | Thuật ngữ ở đầu |  |  |
-| 3-06 | `3.05#6` | C | T1 | `t3_small_bed` | **FROM AGE 8** · *Banished to sleep beside the coal furnace* | — | ⊘ |  |
+| 3-06 | `3.05#6` | C | T1 | `t3_small_bed` | **FROM AGE EIGHT** · *Banished to sleep beside the coal furnace* | — | ⊘ |  |
 | 3-07 | `3.05#7`–`#8` | C | T1 | `t3_trapdoor` | **TRAPDOOR BENEATH DINING TABLE** · *Forced to lift table before being allowed out* | — |  |  |
 | 3-08 | `3.05#9`–`#12` | C | T1 | `t3_basement_stairs`, `still` | *Humiliating his appearance, annihilating his self-worth* → `#12`: *A grotesque creature undeserving of human existence* | — |  |  |
 | 3-09 | `3.06` (nghỉ 1.5 s) | — | — | giữ 3-08 | — | — | ⊘ |  |
 | 3-10 | `3.07#1` | H | T1 | `t3_mother_shadow` mờ | *HOW DID THIS SIMMERING RESENTMENT ESCALATE AS HE REACHED ADOLESCENCE?* | — | →C |  |
 | 3-11 | `3.08#1`–`#3` | C | T9 `2/3` | `t3_atascadero` | **LAYER 02: MECHANISM OF PROJECTION** · *Proxy Victims* | — | 🅑 |  |
-| 3-12 | `3.08#4`–`#6` | C | T8 | `t3_textbooks` | *Atascadero State Hospital: 5 years · Mastered the MMPI test, devised own scoring criteria · Released on 21st birthday* | Mỗi mục ở cụm từ |  |  |
+| 3-12 | `3.08#4`–`#6` | C | T8 | `t3_textbooks` | *Atascadero State Hospital: FIVE YEARS · Mastered the MMPI test, devised own scoring criteria · Released on 21st birthday* | Mỗi mục ở cụm từ |  |  |
 | 3-13 | `3.08#7`–`#9` | C | T3 so sánh | `t3_mother_shadow` | *His mother: the towering monument of hatred & fear* · **THE PSYCHE SEEKING SUBSTITUTE TARGETS** | Cột phải ở `#8` |  |  |
 | 3-14 | `3.08#10`–`#13` | C | T1 | `t3_ucsc_campus` | **THE PROXY VICTIMS** · *Living embodiments of the social freedom he craved* | — | ⊘ |  |
 | 3-15 | `3.09` (nghỉ 2 s) | — | — | giữ 3-14 | — | — | ⊘ |  |
@@ -104,7 +104,7 @@
 | 4-08 | `4.05#8`–`#11` | D | T1 | `t3_cassette` | **INTERVIEWS SPANNING HOURS AT A TIME** · *Across multiple sessions over several years* | — | 🅑 |  |
 | 4-09 | `4.05#12`–`#15` | D | T4 lời kể | `t3_interview_room` | “After that, I hope I can find some way to help others…” | — |  |  |
 | 4-10 | `4.05#16`–`#19` | D | T2 | `t3_fbi_corridor` | *CRIMINAL PERSONALITY RESEARCH PROJECT* · **36 INCARCERATED SEXUAL MURDERERS** · *VICAP network 1985* | Lật sổ (SFX `4.06`) ở đầu |  |  |
-| 4-11 | `4.07#1` | D | T1 | `t3_interview_room`, `still` | **3 REVOLUTIONARY CONCEPTS** | — |  |  |
+| 4-11 | `4.07#1` | D | T1 | `t3_interview_room`, `still` | **THREE REVOLUTIONARY CONCEPTS** | — |  |  |
 | 4-12 | `4.07#2`–`#5` | D | T9 `1/3` | `t3_fantasy_spiral` | **CONCEPT 01: THE VIOLENT FANTASY CYCLE** | — |  |  |
 | 4-13 | `4.07#6`–`#7` | D | T9 `2/3` | `t3_trophy_box` | **CONCEPT 02: TROPHIES & SOUVENIRS** · *Reactivating the feeling of absolute domination* | — |  |  |
 | 4-14 | `4.07#8`–`#10` | D | T9 `3/3` | `t3_phone_booth` | **CONCEPT 03: THE MOTIVATION BEHIND HIS SURRENDER** · *The dread that he would never stop* | — | ⊘ |  |
@@ -115,12 +115,12 @@
 | 5-01 | `5.01`–`5.02#1` | H | T5 ngày | `t2_gavel` | **23 · 10 · 1973** · *Santa Cruz County Superior Court* | Búa gõ (SFX `5.01`) ở đầu | ✦ Cú |  |
 | 5-02 | `5.02#2`–`#4` | H | T2 | `t3_courtroom_1973` | *PROSECUTOR PETER CHANG* · **8 CONCURRENT LIFE TERMS** · *Judge Harry F. Brauer* | Dấu mộc ở "concurrent life terms" |  |  |
 | 5-03 | `5.02#5`–`#6` | H | T1 | `t3_courtroom_1973`, `push` | **AN UNPRECEDENTED REQUEST:** *Demanding capital punishment by being tortured to death* | — | ⊘ |  |
-| 5-04 | `5.02#7`–`#10` | H | T8 | `t3_life_sentence` | *CMF Vacaville · Denied parole over 10 times · Next hearing: 2031* | Mỗi mục ở cụm từ |  |  |
+| 5-04 | `5.02#7`–`#10` | H | T8 | `t3_life_sentence` | *CMF Vacaville · Denied parole over TEN TIMES · Next hearing: 2031* | Mỗi mục ở cụm từ |  |  |
 | 5-05 | `5.02#11`–`#12` | H | T4 lời kể | `t3_life_sentence`, `still` | “Society is not ready for me, in any way, shape, or form. I don’t blame them for that.” | — | ⊘ |  |
 | 5-06 | `5.03` (nghỉ 2 s) | — | — | giữ 5-05 | — | — | ⊘ |  |
-| 5-07 | `5.04#1` | H | T1 | `t3_red_flags` | **4 BEHAVIORAL RED FLAGS** · *Recognizing early markers of catastrophic violence* | — | →C+D |  |
+| 5-07 | `5.04#1` | H | T1 | `t3_red_flags` | **FOUR BEHAVIORAL RED FLAGS** · *Recognizing early markers of catastrophic violence* | — | →C+D |  |
 | 5-08 | `5.05#1`–`#3` | C | T9 `1/4` | `t3_red_flags` | **RED FLAG 01: THE MACDONALD TRIAD** · *Animal cruelty · Fire-setting · Persistent enuresis* | — | ✦ Cáo |  |
-| 5-09 | `5.05#4`–`#6` | C | T1 | `t3_small_bed` | **REPEATED ANIMAL CRUELTY** · *Burying family cat alive at age 10 · Early manifestation of profound callousness* | — | ⊘ |  |
+| 5-09 | `5.05#4`–`#6` | C | T1 | `t3_small_bed` | **REPEATED ANIMAL CRUELTY** · *Burying family cat alive at age TEN · Early manifestation of profound callousness* | — | ⊘ |  |
 | 5-10 | `5.05#7`–`#8` | C | T9 `2/4` | `t3_basement_stairs` | **RED FLAG 02: EXTREME PSYCHOLOGICAL ABUSE** · *Confined isolation, systematic emotional humiliation* | — |  |  |
 | 5-11 | `5.06#1`–`#2` | D | T9 `3/4` | `t3_fantasy_spiral` | **RED FLAG 03: ESCALATING VIOLENT FANTASIES** · *Immersion in fantasies of coercive domination* | — | ✦ Sói |  |
 | 5-12 | `5.06#3`–`#4` | D | T9 `4/4` | `t3_self_observation` | **RED FLAG 04: HIGH INTELLECT & SHALLOW AFFECT** · *The armor of psychopathic detachment* | — |  |  |

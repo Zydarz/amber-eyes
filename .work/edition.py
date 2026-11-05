@@ -122,22 +122,30 @@ EPISODES = {
         "route_pins": {},                                      # T7 Tập 02: ghim không nhãn (không nêu địa điểm nhà nạn nhân)
         "thumb": ("THE TWO-FACED", "COLONEL") if EN else ("二重生活の", "大佐") if JA else ("ĐẠI TÁ", "HAI MẶT"),
         "thumb_bg": "t2_two_chairs",                           # nền thumbnail (Tập 01 mặc định house_police)
-        "title": ("Ep. 02: A Predator Disguised as Honor | The Psychology of Colonel Russell Williams (Behavioral Escalation)" if EN else
-                  "第02話 · 二重生活の大佐 | ラッセル・ウィリアムズ大佐の心理学 (行動のエスカレーション)" if JA else
-                  "Tập 02: Kẻ Săn Mồi Ẩn Sau Danh Dựng | Tâm lý học tội phạm: Đại tá Russell Williams (Quy luật leo thang hành vi)"),
+        "title": ("Ep. 02: A Predator Disguised as Honor | Criminal Psychology: Colonel Russell Williams (10 Psychological Markers & 4 Stages of Escalation)" if EN else
+                  "第02話 · 二重生活の大佐とエスカレーションの深淵 | ラッセル・ウィリアムズ大佐の犯罪心理学 (10の心理指標と4段階の暴走)" if JA else
+                  ("02화 · 두 얼굴의 대령과 심연의 에스컬레이션 | 러셀 윌리엄스 대령의 범죄심리학 (10가지 심리 지표와 4단계의 파멸)" if KO else
+                   "Tập 02: Kẻ Săn Mồi Ẩn Sau Quân Hàm Đại Tá | Tâm lý học tội phạm: Russell Williams (10 Chỉ Dấu Tâm Lý & 4 Bậc Thang Vực Thẳm)")),
         "act_titles": ({1: "Act 1 · The Extreme Contrast Behind a Colonel’s Rank",
                         2: "Act 2 · The Scene & Dossier — The 4 Stages of the Abyss",
-                        3: "Act 3 · Psychological Autopsy — Inside the Mind of a Two-Faced Predator",
-                        4: "Act 4 · The Interrogation Room — Breaking a Military Mind",
-                        5: "Act 5 · The Verdict, Red Flags & Closing Thoughts"} if EN else
-                       {1: "第1幕 · 大佐の階級章の裏にある極端なコントラスト",
-                        2: "第2幕 · 現場と証拠ファイル――深淵への4段階",
-                        3: "第3幕 · 心理解剖――二重生活の捕食者の内面",
-                        4: "第4幕 · 取調室――軍人の頭脳を打ち砕く",
-                        5: "第5幕 · 判決、危険信号、そして結びの考察"} if JA else
-                       {1: "Hồi 1 · Sự tương phản cực đại phía sau quân hàm đại tá", 2: "Hồi 2 · 4 bậc thang của vực thẳm",
-                        3: "Hồi 3 · Bên trong bộ não của sát nhân hai mặt", 4: "Hồi 4 · Nghệ thuật bẻ gãy bộ óc quân sự",
-                        5: "Hồi 5 · Phán quyết, cảnh báo đỏ & lời kết"}),
+                        3: "Act 3 · Psychological Autopsy — Compartmentalization & Self-Justification",
+                        4: "Act 4 · The Interrogation Room & Ten-Hour Duel — Unmasking the Predator",
+                        5: "Act 5 · The Verdict, Psychological Sentence & Red Flag Lessons"} if EN else
+                       {1: "第1幕 · 大佐の階級章の裏にある極端な対比",
+                        2: "第2幕 · 現場と犯行記録――エスカレーションの深淵",
+                        3: "第3幕 · 心理の深層解剖――精神の分断と自己正当化",
+                        4: "第4幕 · 尋問室での心理戦――10時間の仮面の崩壊",
+                        5: "第5幕 · 判決、心理的結末と生存の警告"} if JA else
+                       {1: "제1막 · 대령의 계급장 뒤에 숨겨진 극단적 대비",
+                        2: "제2막 · 현장 & 범죄 프로파일 – 심연의 에스컬레이션 궤적",
+                        3: "제3막 · 심층 심리 해부 – 심리적 구획화와 자기 합리화",
+                        4: "제4막 · 취조실 안의 심리전 – 10시간의 가면의 붕괴",
+                        5: "제5막 · 판결, 심리적 종말 & 생존의 경고"} if KO else
+                       {1: "Hồi 1 · Sự tương phản cực đại phía sau quân hàm đại tá",
+                        2: "Hồi 2 · Hiện trường & Quỹ đạo leo thang của vực thẳm",
+                        3: "Hồi 3 · Giải phẫu tâm lý chuyên sâu — Sự chia ngăn & Tự bào chữa",
+                        4: "Hồi 4 · Phòng thẩm vấn & Cuộc đấu trí mười tiếng — Sụp đổ mặt nạ",
+                        5: "Hồi 5 · Phán quyết, bản án tâm lý & Bài học cảnh báo đỏ sinh tồn"}),
         # 02/11/2026: tên hồi 1 phải có "cực đại" — thẻ trên màn hình ghi
         # "HỒI 01 · SỰ TƯƠNG PHẢN CỰC ĐẠI PHÍA SAU QUÂN HÀM ĐẠI TÁ" (đo trên mp4).
         # Dòng disclaimer vai lời: nhãn phụ đề thực tế của tập 02 là
@@ -145,8 +153,14 @@ EPISODES = {
         "roles_line": "Lời của Điều tra viên, Chuyên gia tâm lý, Binh sĩ căn cứ Trenton và Khán giả theo dõi vụ án là lời dựng lại dựa trên tư liệu.",
         # Hashtag dòng cuối mô tả YouTube (bản tiếng Việt). Bản EN có sẵn trong
         # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
-        "hashtags": "#TrueCrime #CriminalPsychology #RussellWilliams #Interrogation #Documentary #ForensicPsychology #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
+        "hashtags": "#AmberEyes #TrueCrime #TamLyToiPham #RussellWilliams #QuyLuatLeoThang #ChiaNganTamTri #ThamVanDinhCao #10ChiDauTamLy #CanhBaoDo #HoSoToiPham",
+        "hashtags_en": "#AmberEyes #TrueCrime #CriminalPsychology #RussellWilliams #BehavioralEscalation #Compartmentalization #InterrogationTechniques #ForensicPsychology #RedFlags #Documentary",
+        "hashtags_ja": "#AmberEyes #TrueCrime #犯罪心理学 #心理分析 #ラッセルウィリアムズ #エスカレーションの法則 #精神の分断 #取調室の心理戦 #プロファイリング #未解決事件",
+        "hashtags_ko": "#AmberEyes #TrueCrime #범죄심리학 #러셀윌리엄스 #프로파일링 #에스컬레이션 #심리적구획화 #10시간의취조 #레드플래그 #실화사건",
         "summary": ("1.18#3", "3.04#1"),
+        "summary_vn": 'Tháng 7/2009, Đại tá David Russell Williams nhậm chức chỉ huy trưởng Căn cứ Không quân Trenton – căn cứ chiến lược lớn nhất Canada. Từng lái chuyên cơ cho Nữ hoàng Elizabeth II và Thủ tướng Canada, Williams là biểu tượng mẫu mực của kỷ luật thép và học thức. Nhưng sau quân phục danh dự là một kẻ săn mồi nguy hiểm với đời sống hai mặt bệnh hoạn. Vụ án chỉ khép lại sau cuộc đấu trí 10 tiếng trong phòng thẩm vấn của Trung sĩ OPP Jim Smyth ngày 07/02/2010.\n\nHồ sơ Russell Williams được giải phẫu qua Hệ sinh thái 10 chỉ dấu tâm lý & hành vi cốt lõi:\n1. DƯ CHẤN XÃ HỘI & NỖI HOANG TƯỞNG TẬP THỂ: Sự biến mất của Jessica Lloyd gieo rắc kinh hoàng; phụ nữ chèn ghế sau then cửa, niềm tin vào quân đội sụp đổ.\n2. VẬT HÓA NẠN NHÂN (OBJECTIFICATION): Coi nạn nhân là "vật phẩm" trong bộ sưu tập; lưu hàng nghìn bức ảnh chiến tích để kích hoạt lại cảm giác quyền lực.\n3. CƠ CHẾ CHIA NGĂN (COMPARTMENTALIZATION): Biến vợ và mái ấm thành "tấm khiên bình thường hóa", cô lập 2 thế giới để sống song song mà không xung đột nội tâm.\n4. BẢN NGÃ ÁI KỶ SỤP ĐỔ (NARCISSISTIC COLLAPSE): Nhận án chung thân 25 năm, hắn chỉ tự thương hại bản thân vì mất danh dự, quân hàm, không hề có sự ăn năn chân thành.\n5. HỆ THỐNG TỰ BÀO CHỮA (NEUTRALIZATION): Ngụy biện mình là sĩ quan tốt bị "xung lực nhất thời cuốn đi", đổ lỗi cho ham muốn để bảo vệ bản ngã.\n6. NGÒI NỔ TÂM LÝ & ĐIỂM GÃY: Thăng chức chỉ huy căn cứ Trenton (7/2009) đẩy áp lực trách nhiệm lên tột độ, kích hoạt xung lực giải tỏa bệnh hoạn.\n7. SIGNATURE VS. THỦ ĐOẠN MO: MO (cắt dây điện thoại, che dấu vết) liên tục đổi để trốn tránh; Signature (chụp ảnh chiến tích, mặc đồ nạn nhân) bất biến vì là nguồn thỏa mãn tâm lý duy nhất.\n8. QUỸ ĐẠO LEO THANG 4 GIAI ĐOẠN: Sự trơ lỳ thụ thể Dopamine khiến ngưỡng thỏa mãn sụp đổ: nhìn trộm (1) → trộm đồ lưu niệm (2) → đột nhập khống chế (3) → sát hại (4).\n9. HIỆU ỨNG HÀO QUANG: Quân hàm đại tá và các huân chương tạo nên điểm mù xã hội che mắt toàn bộ cộng đồng lẫn cơ quan điều tra suốt nhiều năm.\n10. CẢNH BÁO ĐỎ SINH TỒN: 4 tín hiệu nhận diện kẻ săn mồi ẩn mình phía sau những lớp vỏ bọc đạo mạo, hoàn hảo.',
+        "summary_ja": '2009年7月、デイヴィッド・ラッセル・ウィリアムズ大佐は、カナダ軍最大の戦略空軍基地であるトレントン基地の最高司令官に着任しました。エリザベス女王やカナダ首相の専用機操縦士を務め、完璧な軍規と高い知性、そして理想的な夫としての顔を持つ「非の打ち所がないエリート軍人」――それが表の顔でした。\n\nしかし、勲章に飾られた軍服の裏で、彼は二重生活を送る冷酷な捕食者でした。夜間の盗撮・下着窃盗から始まり、住居侵入、そして2名の女性（マリー＝フランス・コモー伍長、ジェシカ・ロイドさん）の命を奪うに至るまで、4段階のエスカレーションを駆け上がったのです。その仮面は2010年2月7日、オンタリオ州警察（OPP）のジム・スミス捜査官による10時間の伝説的な尋問によって完全に剥ぎ取られました。\n\n犯罪心理学ドキュメンタリー『Amber eyes』第02話では、ラッセル・ウィリアムズ事件を「10の心理・行動指標エコシステム」を通じて深層解剖します：\n1. 社会的衝撃と集団的偏執病（Collective Paranoia）：平和な町を突如襲った失踪事件は住民を疑心暗鬼に陥れ、ドアの後ろに椅子を挟んで夜を明かす恐怖と、軍への全幅の信頼が崩壊した社会的トラウマを検証。\n2. 被害者の「モノ化（Objectification）」と記念品収集：被害者を血の通った人間としてではなく、自らの支配欲を満たす「コレクション」として扱い、膨大な写真を撮影して優越感を再体験する心理構造。\n3. 身内への認識と「精神の区画化（Compartmentalization）」：献身的な妻と家庭を自らの怪異を隠す「正常性の盾」として利用し、良心の呵責を感じることなく二重生活を可能にした防音壁のメカニズム。\n4. 判決への態度と自己愛性崩壊（Narcissistic Collapse）：仮釈放なしの終身刑を宣告された際に見せたのは、被害者への真の悔悟ではなく、地位・名誉・年金を失ったことに対する病的自己憐憫（エゴの崩壊）。\n5. 自己正当化の防衛機制（Techniques of Neutralization）：「自分は本来規律正しい人間であり、抑えきれない衝動に流されただけだ」と責任を外的衝動に転嫁する認知的正当化。\n6. 心理的トリガーと限界点：2009年7月の基地司令官昇進に伴う極度の重圧が、歪んだコントロール欲求を爆発させた引き金。\n7. シグネチャー（Signature）vs 手口（MO）：発覚を防ぐために進化し続けた手口（MO）と、心理的快感を得るために一切妥協しなかった執着（シグネチャー）の決定的な違い。\n8. 4段階のエスカレーションとドーパミン耐性：神経伝達物質の耐性化により満足の閾値が崩壊し、覗き・下着窃盗から住居侵入、そして最悪の結末へと暴走した軌跡。\n9. ハロー効果（Halo Effect）と組織の盲点：輝かしい肩書と社会的威光が周囲の警戒心を麻痺させ、長年にわたり捜査網から逃れ続けた心理的要因。\n10. 生存のためのレッドフラッグ：完璧な仮面を被った捕食者を見破り、身を守るための4つの危機兆候。',
+        "summary_ko": '2009년 7월, 데이비드 러셀 윌리엄스 대령은 캐나다군 최대 전략 기지인 트렌턴 공군기지의 최고사령관으로 취임했습니다. 영국 엘리자베스 2세 여왕과 캐나다 총리의 전용기를 직접 조종했던 베테랑 파일럿이자, 흠잡을 데 없는 군인 정신과 완벽한 지성을 겸비한 모범적인 남편――그것이 그가 세상에 보여준 모습이었습니다.\n\n하지만 훈장으로 가득 찬 제복 뒤편에는, 밤마다 이웃집을 배회하며 4단계의 치명적인 에스컬레이션을 거듭하던 위험한 포식자가 숨어 있었습니다. 단순 관음과 연쇄 주거침입에서 시작된 그의 범행은 결국 두 여성(마리 프랑스 코모 하사와 제시카 로이드)의 생명을 앗아가는 비극으로 치달았습니다. 그의 이중생활은 2010년 2월 7일, 온타리오 주경찰(OPP) 짐 스미스 형사가 이끈 10시간의 전설적인 심리전 끝에 종지부를 찍게 됩니다.\n\n범죄심리학 다큐멘터리 \'Amber eyes\' 02화에서는, 러셀 윌리엄스 사건을 \'10가지 핵심 심리 및 행동 지표\'를 통해 심층 해부합니다:\n1. 사회적 파장 및 집단적 공포(Collective Paranoia): 제시카 로이드의 실종 이후 마을 전체를 집어삼킨 공포, 문 뒤에 의자를 괴어놓고 밤을 지새우던 여성들, 그리고 군 최고 엘리트의 몰락이 가져온 제도적 신뢰의 붕괴.\n2. 피해자의 \'사물화(Objectification)\'와 전리품 수집: 피해자를 인격체가 아닌 지배 욕망을 채우기 위한 \'도구\'이자 \'수집품\'으로 취급하고, 수천 장의 사진을 촬영해 지배감을 지속적으로 재체험한 왜곡된 심리.\n3. 가족을 향한 태도와 \'심리적 구획화(Compartmentalization)\': 가정과 아내를 자신의 일탈을 숨기기 위한 \'정상성의 방패\'로 삼고, 두 개의 상반된 인격을 철저히 분리해 내적 갈등 없이 이중생활을 유지한 인지적 방음벽.\n4. 판결 앞에서의 나르시시즘적 붕괴(Narcissistic Collapse): 25년간 가석방 없는 무기징역 선고 앞에서도 피해자에 대한 진정한 참회가 아닌, 자신의 계급·연금·명예를 잃은 것에 대한 병적인 자기연민.\n5. 자기 정당화 및 중화 기술(Techniques of Neutralization): "나는 본래 훌륭한 군인이었으나 통제할 수 없는 충동에 휩쓸렸을 뿐"이라며 책임을 회피하고 자아를 보존하려 한 인지적 왜곡.\n6. 방아쇠가 된 심리적 트리거: 2009년 7월 기지사령관 승진에 따른 극도의 책임감과 중압감이 통제 욕구를 분출시킨 결정적 계기.\n7. 시그니처(Signature) vs 범행 수법(MO): 수사망을 피하기 위해 끊임없이 진화한 수법(MO)과, 왜곡된 쾌락을 위해 결코 포기하지 않았던 심리적 각인(시그니처)의 본질.\n8. 4단계 에스컬레이션과 도파민 내성: 신경생물학적 자극 역치가 무너지며 관음증(1단계) → 절도(2단계) → 주거침입 결박(3단계) → 살인(4단계)으로 질주한 궤적.\n9. 후광 효과(Halo Effect)와 제도의 맹점: 높은 사회적 신분과 완벽한 외적 평판이 만들어낸 보이지 않는 방패가 경찰과 사회의 감시망을 무력화한 과정.\n10. 생존을 위한 레드플래그: 도덕적 완벽주의의 가면 뒤에 숨은 포식자를 감지하고 스스로를 보호하기 위한 4대 생존 경고 신호.',
         "mux_af": ("alimiter=limit=0.63:attack=5:release=50:level=disabled:latency=1" if (EN or JA) else
                    "alimiter=limit=0.7943:attack=5:release=50:level=disabled"),
         "need": ["1.03#4", "1.05#1", "1.05#2", "1.10#2", "1.12#2", "1.14#2", "1.17#3", "2.04#1", "2.04#2",
@@ -190,6 +204,7 @@ EPISODES = {
                  (" Not a substitute for professional legal, medical, or psychiatric advice.", 0)]])),
         "card_geom": {"cw": 1660, "ch": 780, "size": 40, "line_h": 54, "gap": 22, "y0": 178},
         "cast": None,                  # dùng giọng mặc định của kênh (bộ A)
+        "cast_ko": True,
     },
     "03": {
         "script": WORK / ("script_tap03_EN.json" if EN else "script_tap03.json"),
@@ -213,9 +228,30 @@ EPISODES = {
         "route_pins": {},
         "thumb": ("IQ 145", "GIANT") if EN else ("IQ 145の", "怪物") if JA else ("IQ 145", "GƯƠNG"),
         "thumb_bg": "t3_brain_mirror",
-        "title": ("Ep. 03: The IQ 145 Giant | The Psychology of Edmund Kemper (Psychopathy)" if EN else
-                  "第03話 · IQ 145の怪物と心を探る鏡 | エドモンド・ケンパーの心理学 (サイコパス)" if JA else
-                  "Tập 03: Gã Khổng Lồ IQ 145 | Tâm lý học tội phạm: Edmund Kemper (Thái nhân cách)"),
+        "title": ("Ep. 03: The IQ 145 Giant & The Mirror of Psychological Autopsy | Criminal Psychology: Edmund Kemper (10 Psychological Markers & The Birth of FBI Mindhunter)" if EN else
+                  "第03話 · IQ 145の巨人と精神解剖の鏡 | エドマンド・ケンパーの犯罪心理学 (10の心理指標とFBIマインドハンターの起源)" if JA else
+                  ("03화 · IQ 145의 거인과 정신 해부의 거울 | 에드먼드 켐퍼의 범죄심리학 (10가지 심리 지표와 FBI 마인드헌터의 기원)" if KO else
+                   "Tập 03: Gã Khổng Lồ IQ 145 & Chiếc Gương Giải Phẫu Tâm Trí | Tâm lý học tội phạm: Edmund Kemper (10 Chỉ Dấu Tâm Lý & Nguồn Gốc FBI Mindhunter)")),
+        "summary_vn": ("Rạng sáng ngày 24/4/1973, từ một bốt điện thoại ven đường tại thị trấn Pueblo, bang Colorado, "
+                        "một gã thanh niên khổng lồ cao 2m06, nặng 127kg đã gọi điện đến đồn cảnh sát Santa Cruz, California "
+                        "để đầu thú về chuỗi tội ác kinh hoàng: sát hại mẹ ruột, bạn thân của mẹ và 6 nữ sinh trẻ tuổi. "
+                        "Đó là Edmund Kemper – một trường hợp dị biệt sở hữu chỉ số IQ 145 thuộc top 0,13% trí tuệ nhân loại. "
+                        "Thay vì chối tội, Kemper đã mở toang tâm trí trong buồng giam tại Cơ sở Y tế Vacaville, đối thoại hàng chục "
+                        "giờ đồng hồ cùng các đặc vụ tiên phong Robert Ressler và John Douglas, đặt nền móng khai sinh ra "
+                        "Đơn vị Khoa học Hành vi (BSU) và mạng lưới hồ sơ tội phạm quốc gia VICAP của FBI."),
+        "summary_en": ("In the early morning of April 24, 1973, from a roadside payphone in Pueblo, Colorado, a 6'9\", 280-pound giant "
+                        "called Santa Cruz police to confess to a string of horrifying murders: his mother, her friend, and six young college students. "
+                        "That man was Edmund Kemper — an extraordinary anomaly in criminal history possessing an IQ of 145. Rather than denying guilt, "
+                        "Kemper opened his mind at the Vacaville Medical Facility, engaging in deep dialogues with FBI pioneering agents "
+                        "Robert Ressler and John Douglas that laid the cornerstone for the Behavioral Science Unit (BSU) and VICAP."),
+        "summary_ja": ("1973年4月24日未明、コロラド州プエブロの公衆電話から、身長2メートル06、体重127キロの巨漢が警察に電話をかけ、"
+                        "実母と親友、そして6人の女子大生たちの連続殺害を自首しました。その男の名はエドマンド・ケンパー――IQ 145の天才的頭脳を持つ"
+                        "異例の連続殺人鬼でした。彼は独房でFBI特別捜査官ロバート・レスラーやジョン・ダグラスと対話を重ね、"
+                        "自身の精神を冷徹に解剖してみせ、FBI行動科学部門（BSU）と凶悪犯罪追跡網（ViCAP）の礎となりました。"),
+        "summary_ko": ("1973년 4월 24일 새벽, 콜로라도주 푸에블로의 공중전화에서 키 2m 06cm, 몸무게 127kg의 거구가 경찰에 전화를 걸어 "
+                        "친어머니와 어머니의 친구, 그리고 6명의 여대생 연쇄 살인을 자수했습니다. IQ 145의 천재적 지능을 지닌 에드먼드 켐퍼였습니다. "
+                        "그는 독방에서 FBI 프로파일러 로버트 레슬러, 존 더글러스와 마주 앉아 자신의 내면을 냉철하게 해부하며 "
+                        "FBI 행동과학국(BSU)과 연쇄범죄 추적망(ViCAP)의 초석을 놓았습니다."),
         "voice_credit": "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio",
         "act_titles": ({1: "Act 1 · Midnight Call from a Colorado Phone Booth",
                         2: "Act 2 · The Scene & The Hunting Chain — Ladder of Substitution",
@@ -266,6 +302,7 @@ EPISODES = {
         "sub_tags_en": {"H": "HOST", "D": "INVESTIGATOR", "C": "PSYCHOLOGIST",
                         "N1": "SANTA CRUZ DESK", "N2": "BAR POLICE"},
         "cast": None,                  # dùng giọng mặc định của kênh (bộ A)
+        "cast_ko": True,
     },
     "04": {
         "script": WORK / ("script_tap04_EN.json" if EN else "script_tap04.json"),
@@ -291,22 +328,30 @@ EPISODES = {
         "voice_credit": "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio",
         "mux_af": ("alimiter=limit=0.63:attack=5:release=50:level=disabled:latency=1" if (EN or JA) else
                    "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1"),
-        "title": ("Ep. 04: The Angel of Death | The Psychology of Charles Cullen (God Complex)" if EN else
-                  "第04話 · 死の天使と神のコンプレックス――9つの病院を巡った16年の沈黙の裏にある秘密 | チャールズ・カレンの心理学" if JA else
-                  "Tập 04: Thiên Thần Tử Thần | Tâm lý học tội phạm: Charles Cullen (Phức cảm Chúa trời)"),
+        "title": ("Ep. 04: The Angel of Death & The God Complex | Criminal Psychology: Charles Cullen" if EN else
+                  "第04話 · 死の天使と神コンプレックス | 犯罪心理学：チャールズ・カレン事件" if JA else
+                  "04화 · 죽음의 천사와 신 콤플렉스 | 범죄심리학: 찰스 컬런 사건" if KO else
+                  "Tập 04: Thiên Thần Tử Thần & Phức Cảm Chúa Trời | Tâm lý học tội phạm: Charles Cullen (Phức cảm Chúa trời)"),
         "act_titles": ({1: "Act 1 · The Paradox of the Model Nurse",
-                        2: "Act 2 · The Deadly Loophole of the Dispensing Machine",
-                        3: "Act 3 · Inside the Mind of the Covert God Complex",
-                        4: "Act 4 · Interrogation & The Turning Point",
-                        5: "Act 5 · The Verdict, Red Flags & Epilogue"} if EN else
-                       {1: "第1幕 · つかみ――模範の看護師の逆説",
-                        2: "第2幕 · 歪んだ心理のプロファイル――神のコンプレックスと無力感の補償",
-                        3: "第3幕 · 道徳的無効化と被害者の人間性の剥奪",
-                        4: "第4幕 · 捜査官の心理戦と潜入看護師の勇気",
-                        5: "第5幕 · 終幕――法廷、制度的沈黙への警鐘、そして終幕"} if JA else
-                       {1: "Hồi 1 · Nghịch lý của người y tá mẫu mực", 2: "Hồi 2 · Lỗ hổng chết người của máy phát thuốc",
-                        3: "Hồi 3 · Bên trong bộ não của kẻ mang Phức cảm Chúa trời", 4: "Hồi 4 · Đấu trí thẩm vấn và bước ngoặt điều tra",
-                        5: "Hồi 5 · Phán quyết, bài học cảnh báo đỏ và lời kết"}),
+                        2: "Act 2 · The Crime Scene – The Escalation Trajectory of the Abyss",
+                        3: "Act 3 · Psychological Autopsy – Inside the Brain of the God Complex",
+                        4: "Act 4 · The Interrogation & The Breakthrough",
+                        5: "Act 5 · The Verdict, Survival Red Flags & Epilogue"} if EN else
+                       {1: "第1幕 · 模範的看護師のパラドックス",
+                        2: "第2幕 · 犯行現場――深淵のエスカレーション軌道",
+                        3: "第3幕 · 心理解剖――神コンプレックスの脳内",
+                        4: "第4幕 · 取調の攻防――捜査の重大な転換点",
+                        5: "第5幕 · 判決、生存への警告と結び"} if JA else
+                       {1: "제1막 · 모범 간호사의 역설",
+                        2: "제2막 · 범죄 현장 – 심연의 에스컬레이션 궤적",
+                        3: "제3막 · 심리 부검 – 신 콤플렉스의 뇌 속으로",
+                        4: "제4막 · 심문실의 공방 – 수사의 결정적 돌파구",
+                        5: "제5막 · 판결, 생존을 위한 경고와 맺음말"} if KO else
+                       {1: "Hồi 1 · Nghịch lý của người y tá mẫu mực",
+                        2: "Hồi 2 · Hiện trường & Hồ sơ tội ác – Quỹ đạo leo thang của vực thẳm",
+                        3: "Hồi 3 · Giải phẫu tâm lý – Bên trong bộ não của kẻ mang Phức cảm Chúa trời",
+                        4: "Hồi 4 · Đấu trí thẩm vấn & Bước ngoặt điều tra",
+                        5: "Hồi 5 · Phán quyết, Bài học cảnh báo đỏ & Lời kết"}),
         # Hashtag dòng cuối mô tả YouTube (bản tiếng Việt). Bản EN có sẵn trong
         # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
         "hashtags": "#TrueCrime #CriminalPsychology #CharlesCullen #TheGoodNurse #ForensicPsychology #AngelOfDeath #Documentary #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
@@ -333,6 +378,7 @@ EPISODES = {
         "sub_tags_en": {"H": "HOST", "D": "INVESTIGATOR", "C": "PSYCHOLOGIST",
                         "N1": "SOMERSET NURSE", "N2": "AMY LOUGHREN"},
         "cast": None,
+        "cast_ko": True,
     },
     "05": {
         "script": WORK / ("script_tap05_EN.json" if EN else "script_tap05.json"),

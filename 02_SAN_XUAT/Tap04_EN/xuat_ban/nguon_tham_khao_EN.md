@@ -1,4 +1,4 @@
-# SOURCES & FACT-CHECKING REFERENCE — EP. 04: THE ANGEL OF DEATH & THE GOD COMPLEX — THE SECRET BEHIND 16 YEARS OF SILENCE ACROSS 9 HOSPITALS
+# SOURCES & FACT-CHECKING REFERENCE — EPISODE 04: THE ANGEL OF DEATH & THE GOD COMPLEX — CHARLES CULLEN
 
 All events, dates, court verdicts, and psychological frameworks have been cross-checked with verified public records:
 

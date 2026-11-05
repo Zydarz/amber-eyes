@@ -26,13 +26,45 @@ def ja_split(para):
     if tail:
         parts.append(tail)
     return parts
+
+
+def vn_quotes(paras):
+    """Bản tiếng Việt: '…' = trích dẫn nguyên văn -> “…”.
+
+    Trích dẫn có thể TRÀI NHIỀU DÒNG (kịch bản viết 1 câu 1 dòng, dấu nháy mở ở
+    câu đầu và đóng ở câu cuối). Regex theo dòng cũ bỏ sót dấu nháy => phải
+    theo dõi trạng thái mở/đóng xuyên suốt element.
+    """
+    out, opened = [], False
+    for p in paras:
+        buf = []
+        for i, ch in enumerate(p):
+            if ch == "'":
+                prev = p[i - 1] if i > 0 else ""
+                nxt = p[i + 1] if i + 1 < len(p) else ""
+                if prev.isalpha() and nxt.isalpha():
+                    buf.append(ch)          # dấu nháy kép của tiếng Anh
+                else:
+                    buf.append('”' if opened else '“')
+                    opened = not opened
+            else:
+                buf.append(ch)
+        out.append(''.join(buf))
+    return out
+
 # câu VN/EN/Hàn: . ? ! … (kể cả .”) rồi tới chữ hoa / chữ Hán / chữ Hangeul
 LATIN_SPLIT = r'(?:(?<=[.?!…])|(?<=[.?!…]”))\s+(?=[A-ZÀ-ỸĐ가-힣“(])'
+
+# Vai CHỈ có trong bản tiếng Việt -> nhận diện bản VN (bản EN/Hàn/Nhật dùng
+# dấu nháy cong ‘…’ cho trích dẫn, còn dấu ' là dấu nháy kép của tiếng Anh).
+VN_ROLE_HDR = re.compile(
+    r'^\*\*(?:NGƯỜI BÌNH THƯỜNG|ĐIỀU TRA VIÊN|CHUYÊN GIA TÂM LÝ|ĐẶC VỤ FBI|CẢNH SÁT ĐỊA PHƠNG)\*\*', re.M)
 
 
 def parse_lines(src):
     """Script text (list of lines) -> list of elements."""
     act=0; els=[]; cur=None; n=0
+    vn = bool(VN_ROLE_HDR.search('\n'.join(src)))
     def new(kind,**kw):
         nonlocal n; n+=1; e=dict(id=f"{act}.{n:02d}",act=act,kind=kind,**kw); els.append(e); return e
     for line in src:
@@ -50,7 +82,7 @@ def parse_lines(src):
         t=re.sub(r'^\*\s+','',s); t=re.sub(r'^\d+\.\s+','',t)
         t=t.replace('**','').replace('*','')
         t=t.strip().strip('"“”').strip()
-        t=re.sub(r"'([^']+)'",r'“\1”',t)                  # Vietnamese edition: '…'
+        t=re.sub(r"'([^']+)'",r'“\1”',t)                  # trích dẫn trên 1 dòng
         t=re.sub(r"‘(.*?)’(?![A-Za-z])",r'“\1”',t)        # English/Korean edition: ‘…’ (’ inside a word = apostrophe)
         if not t: continue
         if els and els[-1]['kind']=='LOI' and els[-1]['role']==cur['role'] and els[-1].get('_open'):
@@ -64,6 +96,11 @@ def parse_lines(src):
     for e in els:
         e.pop('_open',None)
         if e['kind']=='LOI':
+            if vn and any("'" in p for p in e['paras']):
+                # Bản VN: trích dẫn TRẢI NHIỀU DÒNG ('…' mở ở câu đầu, đóng ở câu
+                # cuối) => regex theo dòng không khớp, dấu nháy ' bị sót lại.
+                # Đóng mở xuyên element cho các dấu ' còn sót.
+                e['paras']=vn_quotes(e['paras'])
             # câu cắt ở . ? ! … (kể cả .”) khi theo sau là chữ hoa / chữ Hán / chữ Hangeul
             # bản Nhật: cắt ở 。 ！ ？ … (kể cả dấu đóng nháy)
             parts=[]

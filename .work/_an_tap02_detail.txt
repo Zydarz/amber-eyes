@@ -1,0 +1,434 @@
+﻿ELEMENT DOI SO CAU: 17
+
+====================================================================================================
+1.05: 3 -> 5 cau
+  [1-05] cau=`1.05#1`
+      mau='T5' nen='`t2_base_trenton`'
+      chu='**46 TUỔI** · *Lái chuyên cơ đưa đón Nữ hoàng Anh Elizabeth II và Thủ tướng Canada*'
+      beat='Số đếm' nv=''
+  [1-06] cau=`1.05#2`
+      mau='T8' nen='`t2_base_trenton` mờ'
+      chu='*Biểu tượng của kỷ luật thép · Một người chồng gương mẫu · Vợ: lãnh đạo tại Quỹ Tim mạch và Đột quỵ Canada*'
+      beat='Mỗi mục ở cụm từ' nv=''
+  [1-07] cau=`1.05#3`
+      mau='T1' nen='`t2_base_trenton`, `pull`'
+      chu='*HÃY HÌNH DUNG:* **NHỮNG NGƯỜI TỪNG PHỤC VỤ DƯỚI QUYỀN ÔNG**'
+      beat='—' nv='→N1'
+  --- CAU MOI ---
+   1.05#1: Người đàn ông 46 tuổi ấy từng trực tiếp lái chuyên cơ đưa đón Nữ hoàng Anh Elizabeth II, Hoàng thân Philip và các Thủ tướng Canada.
+   1.05#2: Ông ta được tôn vinh như biểu tượng của kỷ luật thép, một người chồng mẫu mực có vợ là lãnh đạo tại Quỹ Tim mạch và Đột quỵ Canada ở thủ đô Ottawa.
+   1.05#3: Trenton không chỉ là căn cứ quân sự đơn thuần, mà là nơi đón nhận linh cữu các liệt sĩ Canada từ chiến trường Afghanistan trở về dọc “Con lộ Anh hùng”.
+   1.05#4: Người đứng đầu nghi lễ thiêng liêng ấy chính là Williams.
+   1.05#5: Để hiểu sự ngưỡng mộ và niềm tin ấy lớn đến mức nào, hãy hình dung cảm nhận của những người từng phục vụ dưới quyền ông.
+
+====================================================================================================
+1.08: 3 -> 4 cau
+  [1-11] cau=`1.08#1`
+      mau='T1' nen='`t2_town_snow`, `pan`'
+      chu='**NHỮNG ĐÊM KHUYA THANH VẮNG** · *Biến mất vào bóng tối của những thị trấn ngoại ô*'
+      beat='Tiêu đề ở "đêm khuya"' nv=''
+  [1-12] cau=`1.08#2`–`#3`
+      mau='T1' nen='`night_street`, `still`'
+      chu='*Không còn một vị đại tá oai phong* → `#3`: **CHỈ CÒN MỘT KẺ RÌNH RẬP**'
+      beat='Tiêu đề ở "kẻ rình rập"' nv='⊘'
+  --- CAU MOI ---
+   1.08#1: Thế nhưng... có ai ngờ rằng người đàn ông khoác trên mình bộ quân phục đính đầy huân chương danh dự ấy, vào những đêm khuya thanh vắng khi rời khỏi căn cứ quân sự, lại biến mất vào bóng tối của những thị trấn ngoại ô.
+   1.08#2: Ở đó, không còn một vị đại tá oai phong lẫm liệt.
+   1.08#3: Chỉ còn một bóng đen rình rập, lặng lẽ bước qua những hàng rào tuyết trắng.
+   1.08#4: Chính vị thế đỉnh cao này đã tạo nên một “Hiệu ứng Hào quang” chết người – một tấm khiên vô hình khiến cả xã hội lẫn cơ quan thực thi pháp luật bị che mắt suốt nhiều năm ròng.
+
+====================================================================================================
+1.12: 4 -> 3 cau
+  [1-16] cau=`1.12#1`
+      mau='T1' nen='`t2_town_snow`'
+      chu='**KHÔNG TÌM RA MANH MỐI NÀO**'
+      beat='Gió, bước chân (SFX `1.11`) ở đầu' nv=''
+  [1-17] cau=`1.12#2`
+      mau='T7' nen='`t2_checkpoint`'
+      chu='**TỐI 4 THÁNG 2** · *Trạm kiểm soát lưu động · Gần nhà nạn nhân · Suốt đêm*'
+      beat='2 ghim không nhãn, đường tự vẽ' nv=''
+  [1-18] cau=`1.12#3`–`#4`
+      mau='T1' nen='`t2_tire_track`, `still`'
+      chu='*Không phải kiểm tra giấy tờ* → `#4`: **MỘT VỆT VÂN LỐP XE ĐỘC ĐÁO**'
+      beat='Tiêu đề ở "vân lốp"' nv=''
+  --- CAU MOI ---
+   1.12#1: Cảnh sát không tìm ra manh mối nào trong những ngày đầu tiên.
+   1.12#2: Nhưng một tuần sau đó, vào tối ngày 4 tháng 2, một trạm kiểm soát lưu động được thiết lập trên con đường gần nhà nạn nhân, kéo dài suốt đêm.
+   1.12#3: Mục tiêu duy nhất của trạm ấy là săn tìm một dấu vết cụ thể: vệt vân lốp xe địa hình hiếm gặp in hằn trên nền tuyết gần nhà Jessica Lloyd.
+
+====================================================================================================
+1.14: 8 -> 7 cau
+  [1-19] cau=`1.14#1`–`#2`
+      mau='T3 so sánh' nen='`t2_suv_stop`'
+      chu='**NISSAN PATHFINDER** → `#2`: *Thay vì chiếc BMW mà ông ta vẫn thường đi*'
+      beat='Gõ kính (SFX `1.13`) ở đầu' nv=''
+  [1-20] cau=`1.14#3`
+      mau='T1 `hero`' nen='`t2_suv_stop`'
+      chu='**CHỈ HUY TRƯỞNG CĂN CỨ KHÔNG QUÂN TRENTON**'
+      beat='Tiêu đề ở "chính là"' nv='⊘'
+  [1-21] cau=`1.14#4`–`#5`
+      mau='T1' nen='`t2_tire_track`'
+      chu='**RẤT GIỐNG DẤU VẾT TRÊN TUYẾT** → `#5`: *Nhưng chưa đủ để giữ một người như ông ta lại*'
+      beat='—' nv=''
+  [1-22] cau=`1.14#6`–`#7`
+      mau='T1' nen='`t2_checkpoint_dawn`'
+      chu='*Được cho đi với lời chào lịch sự* → `#7`: **BA NGÀY TIẾP THEO** · *Vẫn là một vị đại tá tự do*'
+      beat='—' nv=''
+  [1-23] cau=`1.14#8`
+      mau='T1' nen='`t2_interrogation_empty`, `push`'
+      chu='*LẮNG NGHE:* **ĐIỀU TRA VIÊN TÁI HIỆN BA NGÀY ĐÓ**'
+      beat='Cửa sắt "Rầm" (SFX `1.15`) sau câu' nv='→D'
+  --- CAU MOI ---
+   1.14#1: Trong dòng xe đi qua trạm đêm hôm đó có một chiếc Nissan Pathfinder.
+   1.14#2: Hôm ấy, chủ xe lái chiếc Pathfinder thay vì chiếc BMW mà ông ta vẫn thường đi.
+   1.14#3: Người ngồi sau vô-lăng hạ cửa kính xuống – chính là Chỉ huy trưởng căn cứ không quân Trenton.
+   1.14#4: Vân lốp chiếc xe của ông ta trông rất giống dấu vết trên tuyết.
+   1.14#5: Nhưng trước một sĩ quan cấp cao đĩnh đạc, các sĩ quan tuần tra không thể giữ ông ta lại mà chỉ ghi nhận thông tin rồi kính cẩn chào cho đi.
+   1.14#6: Và trong ba ngày tiếp theo, ông ta vẫn là một vị đại tá tự do.
+   1.14#7: Chúng ta hãy nghe Điều tra viên tái hiện lại những gì đã diễn ra trong ba ngày cân não đó.
+
+====================================================================================================
+1.17: 7 -> 6 cau
+  [1-24] cau=`1.17#1`
+      mau='T2' nen='`t2_tire_track`'
+      chu='*GẦN NHÀ NẠN NHÂN* · **VỆT GAI LỐP XE ĐỊA HÌNH KHÁ HIẾM GẶP** · *Một dấu giày đi tuyết cỡ lớn*'
+      beat='Dấu mộc ở "dấu giày"' nv='✦ Sói'
+  [1-25] cau=`1.17#2`–`#3`
+      mau='T1' nen='`t2_suv_stop`'
+      chu='*Một cuộc dừng xe thủ tục* → `#3`: **HOA VĂN LỐP RẤT GIỐNG DẤU VẾT TẠI HIỆN TRƯỜNG**'
+      beat='Vệt sáng đèn pin ở "rọi đèn pin"' nv=''
+  [1-26] cau=`1.17#4`
+      mau='T3 so sánh' nen='`t2_checkpoint`'
+      chu='*Thế giới của Đại tá Russell Williams* · **CHẠM VÀO** · *Thế giới của cảnh sát*'
+      beat='Cột phải ở "thế giới của cảnh sát"' nv=''
+  [1-27] cau=`1.17#5`–`#6`
+      mau='T6' nen='`pinboard`'
+      chu='*Ba ngày · Lặng lẽ đối chiếu dấu vết* → `#6`: **LỆNH KHÁM XÉT** · *Ottawa · Tweed*'
+      beat='Mỗi câu một mốc' nv=''
+  [1-28] cau=`1.17#7`
+      mau='T1' nen='`t2_phone_call`'
+      chu='*Thay vì lệnh triệu tập* · **MỘT LỜI MỜI BẰNG ĐIỆN THOẠI**'
+      beat='Tiêu đề ở "lời mời"' nv=''
+  --- CAU MOI ---
+   1.17#1: Tuyết mới rơi đã lưu lại gần nhà nạn nhân một dấu vết lốp xe vô cùng đặc thù: hoa văn lốp xe địa hình Kumho khá hiếm, cùng một dấu giày đi tuyết cỡ lớn.
+   1.17#2: Khi tổ tuần tra chặn chiếc Nissan Pathfinder của Đại tá Russell Williams, đó tưởng chừng chỉ là một cuộc dừng xe ngẫu nhiên.
+   1.17#3: Nhưng khi ánh đèn pin rọi xuống bánh xe, sự tương đồng đến kinh ngạc đã được ghi lại và báo ngay về trung tâm chỉ huy tác chiến.
+   1.17#4: Đó là lần đầu tiên thế giới ngầm của Đại tá Russell Williams va chạm với thế giới của cơ quan điều tra.
+   1.17#5: Trong ba ngày sau đó, các điều tra viên âm thầm làm việc ngày đêm: đối chiếu dấu lốp, rà soát lịch trình di chuyển và chuẩn bị các lệnh khám xét khẩn cấp cho cả hai căn nhà – một ở thủ đô Ottawa, một ở thị trấn Tweed.
+   1.17#6: Và thay vì tung quân vây bắt ồn ào, Đại tá Russell Williams nhận được một cuộc gọi lịch sự: mời đến trụ sở cảnh sát tỉnh để hỗ trợ loại trừ diện nghi vấn.
+
+====================================================================================================
+2.07: 4 -> 7 cau
+  [2-16] cau=`2.07#1`–`#2`
+      mau='T3 so sánh' nen='`t2_two_masks`'
+      chu='*Bản năng săn mồi lệch lạc* → `#2`: *Tính kỷ luật, tỉ mỉ của một sĩ quan* · **NHƯ MỘT BẢN BÁO CÁO QUÂN SỰ**'
+      beat='Cột phải ở `#2`' nv=''
+  [2-17] cau=`2.07#3`
+      mau='T9' nen='`t2_logbook`'
+      chu='**CHỮ KÝ TÂM LÝ** *(Signature)* · *Thứ không thể từ bỏ*'
+      beat='—' nv=''
+  [2-18] cau=`2.07#4`
+      mau='T1' nen='`pinboard`, `push`'
+      chu='*LẮNG NGHE:* **ĐIỀU TRA VIÊN LÀM RÕ**'
+      beat='—' nv='→D'
+  --- CAU MOI ---
+   2.07#1: Nhìn vào danh tính hai nạn nhân xấu số, chúng ta thấy rõ động lực bất đối xứng quyền lực tàn nhẫn của kẻ săn mồi.
+   2.07#2: Hạ sĩ Marie-France Comeau là cấp dưới phục vụ ngay trong căn cứ quân đội của hắn, một người lính luôn tin tưởng tuyệt đối vào người chỉ huy.
+   2.07#3: Còn Jessica Lloyd là một cô gái trẻ độc thân sống trong căn nhà riêng tách biệt.
+   2.07#4: Cả hai đều bị tước đoạt mạng sống bởi một kẻ lợi dụng triệt để sự cô lập và chức quyền.
+   2.07#5: Điều đáng sợ nhất là sự kết hợp giữa bản năng săn mồi lệch lạc và tính kỷ luật quân sự của hắn.
+   2.07#6: Hắn lặp lại đúng một trình tự, chụp ảnh mọi thứ, và ghi chép lại từng lần đột nhập như đang lập một bản báo cáo tác chiến.
+   2.07#7: Xin mời Điều tra viên làm rõ sự khác biệt giữa thủ đoạn gây án và chữ ký tâm lý của hung thủ.
+
+====================================================================================================
+2.08: 7 -> 9 cau
+  [2-19] cau=`2.08#1`–`#2`
+      mau='T9' nen='`records`'
+      chu='*Kẻ phạm tội thông thường: xóa dấu vết* → `#2`: **CHIẾN LỢI PHẨM** *(Trophies)* · *Thứ hắn cần, chứ không chỉ là thứ hắn muốn*'
+      beat='Thuật ngữ ở `#2`' nv=''
+  [2-20] cau=`2.08#3`–`#4`
+      mau='T1' nen='`t2_drawer_dark`'
+      chu='**SỐNG LẠI CẢM GIÁC KIỂM SOÁT**'
+      beat='Tiêu đề ở "sống lại"' nv='🅑'
+  [2-21] cau=`2.08#5`
+      mau='T1' nen='`t2_boot_evidence`'
+      chu='**BẰNG CHỨNG BẤT TỬ CHO SỰ THỐNG TRỊ**'
+      beat='—' nv=''
+  [2-22] cau=`2.08#6`
+      mau='T1' nen='`t2_suv_stop`'
+      chu='*VÂN LỐP VÀ DẤU GIÀY TRÊN TUYẾT* · **DẤU VẾT HIỆN TRƯỜNG**'
+      beat='—' nv=''
+  [2-23] cau=`2.08#7`
+      mau='T1' nen='`t2_house_missing_dawn`'
+      chu='*CHIẾC CHÌA KHÓA DUY NHẤT* · **KHO BẰNG CHỨNG BÍ MẬT**'
+      beat='—' nv=''
+  --- CAU MOI ---
+   2.08#1: Về mặt nghiệp vụ, chúng tôi phân biệt rất rõ giữa hai khái niệm:
+   2.08#2: Thủ đoạn gây án (Modus Operandi) của Williams là những kỹ thuật hắn dùng để hoàn thành tội ác và trốn thoát: đi tất để không để lại dấu giày trong nhà, đeo găng tay, cắt đường dây điện thoại, và chọn những đêm tuyết rơi dày để xóa dấu vết.
+   2.08#3: Thủ đoạn này liên tục được hắn điều chỉnh qua 82 vụ đột nhập.
+   2.08#4: Nhưng Dấu ấn tâm lý (Signature) – thứ không bao giờ thay đổi – chính là việc lưu giữ Chiến lợi phẩm (Trophies) và thực hiện các nghi thức bệnh hoạn.
+   2.08#5: Hắn không lấy đồ để bán.
+   2.08#6: Hắn mặc đồ của nạn nhân, đứng trước gương phòng ngủ chụp ảnh tự sướng với khuôn mặt lạnh lùng vô cảm, rồi lưu trữ có hệ thống.
+   2.08#7: Đó là thứ hắn cần để duy trì hưng phấn tâm lý, nuôi dưỡng cơn nghiện ảo tưởng khi ngồi lại một mình.
+   2.08#8: Dấu vết lốp xe trên tuyết dẫn cảnh sát tới gần hắn.
+   2.08#9: Nhưng kho dữ liệu bí mật ghi lại chữ ký tâm lý ấy mới chính là chiếc chìa khóa duy nhất bóc trần hoàn toàn bộ mặt thật của vị đại tá.
+
+====================================================================================================
+3.05: 11 -> 10 cau
+  [3-07] cau=`3.05#1`–`#3`
+      mau='T9' nen='`t2_brain_neural` + sơ đồ 3 vòng (dùng lại `brain3` Tập 01)'
+      chu='*Không phải một kẻ loạn thần mất trí* → `#2`: **HOÀN TOÀN TỈNH TÁO** → `#3`: **3 TẦNG CƠ CHẾ TÂM LÝ**'
+      beat='3 vòng sáng ở `#3`' nv='✦ Cáo'
+  [3-08] cau=`3.05#4`
+      mau='T9' nen='`t2_escalation_stairs`'
+      chu='*TẦNG 01* · **QUY LUẬT LEO THANG HÀNH VI** · *Và sự lờn Dopamine*'
+      beat='—' nv=''
+  [3-09] cau=`3.05#5`
+      mau='T1' nen='`t2_escalation_stairs`, `pan`'
+      chu='**BẮT ĐẦU TỪ NHỮNG XUNG LỰC RẤT NHỎ**'
+      beat='Tiêu đề ở "xung lực" (thuật ngữ y khoa chỉ đọc, không hiện)' nv=''
+  [3-10] cau=`3.05#6`–`#7`
+      mau='T9' nen='`t2_brain_neural` + đường nhịp tăng vọt (Pillow)'
+      chu='**DOPAMINE** · *Phấn khích và phần thưởng* → `#7`: *Theo mô hình đó: một cơn hưng phấn dị thường*'
+      beat='Nhịp nhấp nháy ở `#7`' nv=''
+  [3-11] cau=`3.05#8`–`#9`
+      mau='T9' nen='`t2_brain_neural`, đường nhịp phẳng dần'
+      chu='**CƠ CHẾ DUNG NẠP** → `#9`: *Như người nghiện cần liều lượng ngày càng cao*'
+      beat='—' nv='🅑'
+  [3-12] cau=`3.05#10`
+      mau='T8' nen='`t2_escalation_stairs`, `pan`'
+      chu='*Nhà trống · Đối diện với nạn nhân · Khống chế nạn nhân · Quyền sinh tử*'
+      beat='Mỗi bậc ở cụm từ, camera leo dần' nv=''
+  [3-13] cau=`3.05#11`
+      mau='T1 `hero`' nen='`t2_stairs_dark`, tối dần'
+      chu='**MỘT CHIẾC DỐC KHÔNG ĐÁY**'
+      beat='Tiêu đề ở "dốc không đáy"' nv='⊘'
+  --- CAU MOI ---
+   3.05#1: Khi phân tích trường hợp của Russell Williams, chúng ta không thể nhìn nhận hắn như một kẻ loạn thần mất trí.
+   3.05#2: Ngược lại, Williams hoàn toàn tỉnh táo và sở hữu một trí tuệ sắc bén.
+   3.05#3: Hành vi của hắn vận hành qua 3 tầng cơ chế tâm lý cực kỳ nguy hiểm.
+   3.05#4: Tầng thứ nhất là: Chu kỳ ảo tưởng, sự lờn Dopamine và Ngòi nổ điểm gãy.
+   3.05#5: Hành vi của Williams ban đầu mang đặc điểm thường thấy trong rối loạn ái vật.
+   3.05#6: Khi lần đầu lén lút lấy trộm đồ riêng tư, nỗi sợ hãi kết hợp với cảm giác phá vỡ điều cấm kỵ đã kích hoạt một lượng lớn Dopamine – tạo ra cảm giác hưng phấn quyền lực tột độ.
+   3.05#7: Nhưng não bộ con người có cơ chế dung nạp kích thích.
+   3.05#8: Khi hành vi cũ trở nên quen thuộc, hung thủ rơi vào trạng thái “đói ảo tưởng”.
+   3.05#9: Hắn buộc phải tăng liều lượng rủi ro để tìm lại khoái cảm ban đầu: từ nhìn trộm ngoài cửa sổ, đến đột nhập nhà trống, rồi bước qua lằn ranh tấn công khi nạn nhân đang ngủ.
+   3.05#10: Đặc biệt, tháng 7 năm 2009, khi Williams được thăng cấp chỉ huy trưởng căn cứ Trenton, biến cố này đóng vai trò như một Ngòi nổ tâm lý (Precipitating Trigger): cảm giác quyền lực tối cao kết hợp áp lực công việc khổng lồ đã đánh sập chốt chặn kiểm soát cuối cùng, đẩy hắn trượt thẳng xuống vực thẳm giết người.
+
+====================================================================================================
+3.07: 3 -> 1 cau
+  [3-15] cau=`3.07#1`
+      mau='T1' nen='`t2_drawer_dark`'
+      chu='**CÁCH HẮN CHE GIẤU NÓ**'
+      beat='—' nv=''
+  [3-16] cau=`3.07#2`
+      mau='T3 so sánh' nen='`t2_two_masks`'
+      chu='*BAN NGÀY* · *Điều hành các cuộc họp · Bắt tay các quan chức · Ăn tối cùng vợ* → *NỬA ĐÊM* · **MỘT KẺ KHÁC HOÀN TOÀN**'
+      beat='Cột phải ở "nửa đêm"' nv=''
+  [3-17] cau=`3.07#3`
+      mau='T1' nen='`t2_two_masks`, `push`'
+      chu='**LÀM THẾ NÀO MÀ KHÔNG BỊ PHÁT ĐIÊN?**'
+      beat='—' nv='→C'
+  --- CAU MOI ---
+   3.07#1: Nhưng điều khiến dư luận kinh ngạc nhất là: làm thế nào hắn có thể sống ung dung bên cạnh người vợ tài năng và điều hành hàng ngàn binh sĩ vào ban ngày, rồi ban đêm lại biến thành một kẻ săn mồi máu lạnh mà không hề phát điên hay cắn rứt lương tâm?
+
+====================================================================================================
+3.08: 12 -> 13 cau
+  [3-18] cau=`3.08#1`–`#2`
+      mau='T9' nen='`t2_two_drawers`'
+      chu='*TẦNG 02* · **SỰ PHÂN MẢNH TÂM TRÍ TUYỆT ĐỐI** → `#2`: *(Compartmentalization)* · *Một cơ chế phòng vệ · Những ngăn kéo riêng biệt*'
+      beat='Thuật ngữ Anh ở `#2`' nv=''
+  [3-19] cau=`3.08#3`–`#5`
+      mau='T3 so sánh' nen='`t2_two_drawers`'
+      chu='*Ngăn kéo 01* · **ĐẠI TÁ WILLIAMS** · *Trật tự · Kỷ cương · Đạo đức* → `#5`: *Ngăn kéo 02* · **KẺ SĂN MỒI BÓNG ĐÊM** · *Trút bỏ mọi quy chuẩn xã hội*'
+      beat='Cột phải ở `#5`' nv=''
+  [3-20] cau=`3.08#6`–`#8`
+      mau='T1' nen='`t2_drawer_dark`'
+      chu='**ĐÓNG CHẶT CÁNH CỬA CỦA NGĂN KÉO KIA** → `#8`: *Không bị giằng xé nội tâm*'
+      beat='Ngăn kéo đóng ở "đóng chặt"' nv=''
+  [3-21] cau=`3.08#9`–`#10`
+      mau='T4 `hero`' nen='`t2_interrogation_empty`'
+      chu='*KHÔNG THỂ TỰ GIẢI THÍCH* → `#10`: “Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng.”'
+      beat='Câu trích từng dòng từ dấu `:`' nv='⊘'
+  [3-22] cau=`3.08#11`–`#12`
+      mau='T1' nen='`t2_interrogation_empty`'
+      chu='**CÂU TRẢ LỜI TRUNG THỰC NHẤT** → `#12`: *Đặt lại toàn bộ khung phân tích*'
+      beat='—' nv='🅑'
+  --- CAU MOI ---
+   3.08#1: Câu trả lời nằm ở Tầng thứ hai: Sự phân mảnh tâm trí tuyệt đối (Compartmentalization) và Hệ thống tự bào chữa.
+   3.08#2: Trong tâm lý học, Compartmentalization là cơ chế phòng vệ cho phép bộ não khóa chặt các luồng nhận thức và cảm xúc trái ngược nhau vào hai ngăn kéo hoàn toàn biệt lập.
+   3.08#3: Williams dường như đã xây dựng hai con người tách biệt bên trong cùng một thể xác:
+   3.08#4: Ngăn kéo thứ nhất: Đại tá Williams – người chỉ huy mẫu mực, người chồng chu đáo chăm sóc vườn tược, sống vì chuẩn mực đạo đức và lý tưởng quân đội tại Ottawa.
+   3.08#5: Ngăn kéo thứ hai: Kẻ săn mồi bóng đêm – nơi hắn giải phóng những xung lực tàn bạo nhất tại Tweed.
+   3.08#6: Khi ở ngăn kéo này, hắn đóng chặt cánh cửa của ngăn kéo kia.
+   3.08#7: Hắn dùng chính người vợ và cuộc hôn nhân chuẩn mực làm “Lá chắn bình thường hóa” để tự ru ngủ mình rằng: Ta vẫn là một người đàn ông danh giá.
+   3.08#8: Để lương tri không lên tiếng, hắn áp dụng triệt để kỹ thuật Trung hòa đạo đức (Neutralization): trong 82 vụ trộm đầu tiên, hắn tự nhủ “mình chỉ nhìn, mình không làm hại ai, mình chỉ giữ một món kỷ niệm”.
+   3.08#9: Đến khi gây ra án mạng, hắn lại tự biện minh rằng “nạn nhân đã thấy mặt mình, cô ta ép mình phải ra tay để tự vệ”.
+   3.08#10: Và chính vì vậy, cuối cùng hắn không thể tự giải thích một cách có lương tri.
+   3.08#11: Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người: “Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng.”
+   3.08#12: Đó có lẽ là câu trả lời trơ trẽn nhất, phơi bày sự ngắt kết nối đạo đức tuyệt đối của một kẻ săn mồi máu lạnh.
+   3.08#13: Và nó cho thấy cơ chế tự bào chữa đã ăn sâu vào tiềm thức của hắn đến mức nào.
+
+====================================================================================================
+3.10: 1 -> 2 cau
+  [3-24] cau=`3.10#1`
+      mau='T1' nen='`t2_command_chair`, `push`'
+      chu='*TẦNG TÂM LÝ THỨ BA* · **ĐỘNG CƠ CỐT LÕI?**'
+      beat='—' nv='→C'
+  --- CAU MOI ---
+   3.10#1: Và góc nhìn của hắn đối với những người phụ nữ là gì, thưa chuyên gia?
+   3.10#2: Tại sao hắn có thể ra tay lạnh lùng với chính cấp dưới của mình?
+
+====================================================================================================
+3.11: 11 -> 6 cau
+  [3-25] cau=`3.11#1`
+      mau='T9' nen='`t2_command_chair`'
+      chu='*TẦNG 03* · **ÁI KỶ ÁC TÍNH** *(Malignant Narcissism)* · **PHỨC CẢM CHÚA TRỜI** *(God Complex)*'
+      beat='Thuật ngữ 2 ở "Phức cảm"' nv=''
+  [3-26] cau=`3.11#2`–`#3`
+      mau='T3' nen='`t2_base_trenton`'
+      chu='**QUYỀN LỰC QUÂN SỰ** · *Hàng nghìn người phải phục tùng* → `#3`: *Bị ràng buộc bởi luật pháp và hệ thống*'
+      beat='—' nv=''
+  [3-27] cau=`3.11#4`
+      mau='T1' nen='`bedroom_door` tối'
+      chu='**MỘT THỨ QUYỀN LỰC KHÔNG BỊ RÀNG BUỘC** · *Định đoạt số phận · Tước đoạt nhân phẩm*'
+      beat='Tiêu đề ở "quyền lực không"' nv='⊘'
+  [3-28] cau=`3.11#5`
+      mau='T4' nen='`t2_command_chair` tối'
+      chu='*Bằng chứng nuôi dưỡng cái tôi ái kỷ* → “Ta là kẻ đứng trên tất cả… không một ai trong các ngươi có thể chạm tới ta.”'
+      beat='Câu trích ở "Ta là kẻ" (lời độc thoại tưởng tượng — dấu “” màu tím `violet` của Cáo, không phải lời thật)' nv=''
+  [3-29] cau=`3.11#6`–`#8`
+      mau='T1' nen='`t2_oath_hall`'
+      chu='**KHÔNG BỊ ĐÈ BẸP BỞI SỰ XẤU HỔ** → `#8`: *Vẫn là người đàn ông ở bục nhậm chức*'
+      beat='Gọi lại hình lễ nhậm chức Hồi 1' nv='🅑'
+  [3-30] cau=`3.11#9`–`#11`
+      mau='T3 so sánh' nen='`void`'
+      chu='**MỘT CƠN CUỒNG** · *Sẽ tự tắt* → `#11`: **Ở ĐÂY** · *Mỗi lần vi phạm lại được thưởng*'
+      beat='Cột phải ở `#11`' nv=''
+  --- CAU MOI ---
+   3.11#1: Đó là Tầng thứ ba: Sự vật hóa nạn nhân (Objectification) và Ái kỷ ác tính.
+   3.11#2: Williams hoàn toàn thiếu hụt Thuyết tâm trí (Theory of Mind) và năng lực thấu cảm cảm xúc.
+   3.11#3: Trong mắt hắn, những người phụ nữ không phải là những con người có sinh mệnh, ước mơ hay nỗi đau.
+   3.11#4: Họ bị giáng cấp thành những “đạo cụ sống” trong nhà hát tưởng tượng thị dâm và quyền lực của hắn.
+   3.11#5: Tiếng khóc van xin hay sự sợ hãi của nạn nhân không kích hoạt lòng trắc ẩn, mà kích hoạt sự hưng phấn quyền lực (power arousal) – ảo tưởng tối thượng rằng hắn nắm giữ quyền sinh tử như một vị Chúa trời.
+   3.11#6: Hắn chụp ảnh nạn nhân không chỉ để thỏa mãn dục vọng nhất thời, mà để biến họ thành những chiến lợi phẩm vĩnh cửu nuôi dưỡng bản ngã ái kỷ bệnh hoạn: Ta kiểm soát các ngươi, và không ai có thể chạm tới ta.
+
+====================================================================================================
+4.08: 9 -> 8 cau
+  [4-10] cau=`4.08#1`–`#2`
+      mau='T9' nen='`t2_two_chairs`'
+      chu='**NGHỆ THUẬT XÂY DỰNG SỰ KẾT NỐI** *(Rapport Building)* · *Chiếc bẫy hạ nhiệt cảm xúc*'
+      beat='—' nv=''
+  [4-11] cau=`4.08#3`–`#4`
+      mau='T1' nen='`t2_two_chairs`'
+      chu='*SẴN SÀNG ĐƯA RA NHỮNG GÌ* · **ADN · VÂN TAY · DẤU GIÀY**'
+      beat='—' nv=''
+  [4-12] cau=`4.08#5`
+      mau='T3 so sánh' nen='`t2_siren_wall`'
+      chu='**CÁI BẪY CỦA SỰ TỰ TIN** · *Cùng lúc: lệnh khám xét Tweed & Ottawa*'
+      beat='Đèn xanh đỏ' nv=''
+  [4-13] cau=`4.08#6`
+      mau='T3 so sánh' nen='`t2_boot_evidence`, `still`'
+      chu='*Dấu giày gần nhà nạn nhân* · *Dấu giày của chính Williams* → “Chúng giống hệt nhau.”'
+      beat='Câu trích ở "và nói"' nv=''
+  [4-14] cau=`4.08#7`
+      mau='T1' nen='`t2_head_down`'
+      chu='**VỊ ĐẠI TÁ THOÁNG KHỰNG LẠI**'
+      beat='—' nv=''
+  [4-15] cau=`4.08#8`–`#9`
+      mau='T4' nen='`t2_two_chairs`'
+      chu='*MỘT ĐỀ NGHỊ KỲ LẠ* → “Cứ gọi tôi là Russ.”'
+      beat='Trượt ảnh "Xoẹt" ở đầu' nv=''
+  --- CAU MOI ---
+   4.08#1: Trong suốt nhiều giờ đầu, Thám tử Jim Smyth không hề cao giọng hay đập bàn tạo áp lực.
+   4.08#2: Ông dùng một giọng điệu phẳng lặng, tôn trọng và nhẹ nhàng dẫn dắt Williams vào chiếc bẫy của sự tự phụ.
+   4.08#3: Smyth hỏi: Williams có sẵn sàng cung cấp những gì để giúp cảnh sát loại trừ ông ta?
+   4.08#4: Và vị đại tá tự tin đồng ý: mẫu ADN, dấu vân tay, dấu giày.
+   4.08#5: Trong lúc hai người đối thoại, các mũi trinh sát thực địa đang lặng lẽ thực thi lệnh khám xét tại căn nhà ở Ottawa và ngôi nhà nghỉ dưỡng ở Tweed.
+   4.08#6: Khi Smyth đặt bức ảnh dấu giày tuyết tại hiện trường bên cạnh đế giày của Williams và nói: “Chúng giống hệt nhau.”
+   4.08#7: Vị đại tá thoáng khựng lại, bắt đầu bất an và đưa ra một đề nghị: “Cứ gọi tôi là Russ.”
+   4.08#8: Chiếc thòng lọng vô hình bắt đầu siết chặt.
+
+====================================================================================================
+5.06: 2 -> 4 cau
+  [5-13] cau=`5.06#1`
+      mau='T1' nen='`t2_red_flags`'
+      chu='**ẨN MÌNH SAU VỎ BỌC HOÀN HẢO** · *Làm thế nào để nhận diện?*'
+      beat='—' nv=''
+  [5-14] cau=`5.06#2`
+      mau='T1' nen='`t2_red_flags`, `pull`'
+      chu='**GÓC NHÌN ĐÚC KẾT** · *Chuyên gia tâm lý & Điều tra viên*'
+      beat='—' nv='→C+D'
+  --- CAU MOI ---
+   5.06#1: Và thái độ tâm lý của Williams trước bản án ra sao?
+   5.06#2: Trước tòa, hắn đọc một lời xin lỗi khô khốc, máy móc như một cỗ máy trả bài.
+   5.06#3: Nhưng khi bị giam giữ tại nhà tù Kingston Penitentiary, đối mặt với việc bị tước sạch đặc quyền và trở thành một kẻ bị khinh bỉ nhất, hắn đã tuyệt thực và tìm cách tự sát trong buồng giam.
+   5.06#4: Đó là biểu hiện kinh điển của Sự sụp đổ cái tôi ái kỷ (Narcissistic Collapse): khi không còn quyền kiểm soát và không chịu nổi sự nhục nhã trần trụi, kẻ săn mồi chỉ còn lại sự tự thương hại bản thân thảm hại.
+
+====================================================================================================
+5.07: 6 -> 7 cau
+  [5-15] cau=`5.07#1`–`#3`
+      mau='T1' nen='`void`'
+      chu='**ẢO TƯỞNG VỀ SỰ CHUẨN MỰC** · *Hạ thấp ranh giới đề phòng*'
+      beat='—' nv=''
+  [5-16] cau=`5.07#4`–`#6`
+      mau='T1' nen='`t2_bedroom_intruder`'
+      chu='**NHỮNG BƯỚC LẤN RANH GIỚI RẤT NHỎ** · *Ngưỡng thỏa mãn bị đẩy xa hơn*'
+      beat='—' nv=''
+  --- CAU MOI ---
+   5.07#1: Vụ án Đại tá Russell Williams để lại một chấn thương sâu sắc cho toàn xã hội Canada.
+   5.07#2: Nó làm sụp đổ niềm tin vào những thể chế danh giá nhất, buộc Quân đội Canada phải cải tổ toàn diện quy trình kiểm tra an ninh và đánh giá tâm lý đối với các sĩ quan chỉ huy cấp cao.
+   5.07#3: Nhưng bài học lớn nhất dành cho mỗi chúng ta là: Đừng bao giờ để Hiệu ứng Hào quang ru ngủ trực giác.
+   5.07#4: Địa vị, bằng cấp hay quân hàm lộng lẫy chỉ là lớp áo khoác xã hội, không phải là tấm bảo chứng cho sự lương thiện của một tâm hồn.
+   5.07#5: Tội ác không bao giờ bắt đầu từ một nhát dao hay một vụ án mạng.
+   5.07#6: Nó luôn bắt đầu từ những bước lấn ranh giới rất nhỏ: một cái nhìn trộm, một lần lục lọi đồ riêng tư, một sự xâm phạm không bị trừng phạt.
+   5.07#7: Khi những xung lực lệch lạc đó được nuôi dưỡng trong bóng tối, ngưỡng thỏa mãn sẽ liên tục bị đẩy xa hơn cho đến khi nuốt chửng cả nạn nhân lẫn kẻ thủ ác.
+
+====================================================================================================
+5.08: 3 -> 5 cau
+  [5-17] cau=`5.08#1`
+      mau='T1' nen='`t2_folder_tree`'
+      chu='*TÍNH KỶ LUẬT VÀ GHI CHÉP* · **TỰ VIẾT BẢN ÁN CHO CHÍNH MÌNH**'
+      beat='—' nv=''
+  [5-18] cau=`5.08#2`
+      mau='T1' nen='`void`'
+      chu='**SỰ KIÊU HÃNH CỦA KẺ ÁI KỶ LUÔN ĐỂ LẠI DẤU VẾT**'
+      beat='—' nv=''
+  [5-19] cau=`5.08#3`
+      mau='T1' nen='`t2_suv_stop`'
+      chu='**KHÔNG MỘT VỎ BỌC NÀO ĐỨNG TRÊN BẰNG CHỨNG HIỆN TRƯỜNG**'
+      beat='—' nv=''
+  --- CAU MOI ---
+   5.08#1: Về mặt nghiệp vụ, tính kỷ luật quân đội đã giúp Williams che giấu hành vi suốt nhiều năm, nhưng chính nhu cầu lưu giữ chiến lợi phẩm để thỏa mãn ảo tưởng bệnh hoạn đã biến hắn thành kẻ tự viết bản án cho chính mình.
+   5.08#2: Sự kiêu hãnh của một kẻ ái kỷ luôn để lại dấu vết.
+   5.08#3: Và bài học sinh tồn đắt giá từ hồ sơ này chính là: Hãy luôn tin vào trực giác của bạn.
+   5.08#4: Nếu bạn cảm thấy một sự bất an mơ hồ, nếu ranh giới riêng tư của bạn bị xâm phạm dù là nhỏ nhất, đừng hợp lý hóa hay coi thường nó.
+   5.08#5: Trực giác sinh tồn chính là hệ thống cảnh báo sớm giúp bảo vệ mạng sống của chúng ta.
+
+====================================================================================================
+5.10: 11 -> 8 cau
+  [5-21] cau=`5.10#1`–`#3`
+      mau='T1' nen='`t2_podcast_desk`, đèn ấm dần'
+      chu='*Vực thẳm sâu hoắm của tâm trí con người* → `#2`: **CHỈ LÀ LỚP ÁO KHOÁC BÊN NGOÀI** → `#3`: *Không phải tấm khiên bảo chứng cho đạo đức*'
+      beat='—' nv=''
+  [5-22] cau=`5.10#4`–`#5`
+      mau='T1 `hero`' nen='`t2_escalation_stairs`'
+      chu='*Hiếm khi bắt đầu bằng một phát súng hay một nhát dao* → `#5`: **TỪ MỘT BƯỚC CHÂN VƯỢT QUA LẰN RANH**'
+      beat='Câu dài → beat ở "từng bước"' nv=''
+  [5-23] cau=`5.10#6`–`#9`
+      mau='T8' nen='`t2_folder_tree`'
+      chu='**NGƯỜI DUY NHẤT GIỮ BÍ MẬT** → `#7`: *Những tập ảnh được sắp xếp tỉ mỉ* → `#8`: *Những món đồ được cất giấu cẩn thận* → `#9`: *Một cuộc đấu trí khoảng mười tiếng đồng hồ*'
+      beat='Mỗi câu một mục' nv=''
+  [5-24] cau=`5.10#10`–`#11`
+      mau='T1 `hero`' nen='`t2_oath_hall`'
+      chu='**BỘ ÓC TINH HOA KHÔNG BẢO VỆ ĐƯỢC AI CẢ** → `#11`: *Chỉ làm cho lần sụp đổ ấy đến muộn hơn, và nặng hơn*'
+      beat='Tiêu đề ở "không bảo vệ"' nv='⊘'
+  --- CAU MOI ---
+   5.10#1: Hồ sơ về Đại tá Russell Williams là một lời nhắc nhở lạnh lùng về vực thẳm khôn lường của tâm trí con người.
+   5.10#2: Bộ óc tinh hoa không bảo vệ được ai cả.
+   5.10#3: Nó chỉ làm cho lần sụp đổ ấy đến muộn hơn, và tàn khốc hơn.
+   5.10#4: Xin đừng quên rằng, trong toàn bộ vụ án này, người duy nhất giữ bí mật là chính người đàn ông ấy.
+   5.10#5: Những tập ảnh được sắp xếp tỉ mỉ.
+   5.10#6: Những món đồ được cất giấu cẩn thận.
+   5.10#7: Và một cuộc đấu trí kéo dài mười tiếng đồng hồ – đủ lâu để một kẻ kiêu ngạo hiểu rằng chiếc mặt nạ danh dự đã vĩnh viễn không thể hàn gắn.
+   5.10#8: Chúng ta hãy luôn nhớ: bài học lớn nhất sau mỗi bi kịch không phải là sự sợ hãi, mà là sự tỉnh thức để nhận diện và bảo vệ những ranh giới an toàn của cuộc sống.

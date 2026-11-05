@@ -22,8 +22,10 @@ import edition as ED  # noqa: E402  (AE_LANG=en -> English edition)
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 FF = Path(shutil.which("ffmpeg")) if shutil.which("ffmpeg") else WORK / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
-TL = json.loads(ED.w("timeline_s.json").read_text(encoding="utf-8"))
-SH = json.loads(ED.w("shots.json").read_text(encoding="utf-8"))["shots"]
+_tl_p = ED.w("timeline_s.json")
+TL = json.loads(_tl_p.read_text(encoding="utf-8")) if _tl_p.exists() else {"total": 0, "items": []}
+_sh_p = ED.w("shots.json")
+SH = json.loads(_sh_p.read_text(encoding="utf-8"))["shots"] if _sh_p.exists() else []
 FONTS = Path(r"C:\Windows\Fonts")
 OUT_DIR = ED.OUT_DIR                                       # thành phẩm của tập
 
@@ -99,6 +101,8 @@ def act_start_times(tl):
         for m in tl.get("markers", []):
             if m["type"] == "ACT":
                 starts[m["act"]] = m["start"]
+    if not starts:                                  # fallback: default estimate
+        starts = ED.EP.get("act_default_times", {1: 23.0, 2: 300.0, 3: 525.0, 4: 810.0, 5: 1115.0})
     return starts
 
 
@@ -143,7 +147,7 @@ def description():
     starts = act_start_times(TL)
     chap = ["00:00 Intro"] + [f"{mmss(starts[a])} {act_titles[a]}" for a in sorted(starts)]
     sents = {i["id"]: i["text"] for i in TL["items"]}
-    summary = " ".join(sents[k] for k in ED.EP["summary"])
+    summary = ED.EP.get("summary_vn") or " ".join(sents.get(k, "") for k in ED.EP["summary"] if sents.get(k))
     credit = ED.EP.get("voice_credit", "")
     credit_line = ("\n" + credit) if credit else ""
     # 02/11/2026: câu disclaimer về vai lời — ghi đè được theo tập (Tập 02 dùng nhãn
@@ -183,7 +187,7 @@ bảo vệ trẻ em 111 (Việt Nam, miễn phí, 24/7).{tag_line}
     md = ["# NGUỒN THAM KHẢO — CẦN BỔ SUNG TRƯỚC KHI ĐĂNG", "",
           "Mỗi dòng cần một nguồn công khai có link mở được (hồ sơ tòa án, bài báo). **Không được bịa nguồn.**", "",
           "| Câu | Nội dung | Nguồn (link) |", "|---|---|---|"]
-    md += [f"| `{k}` | {sents[k][:140]} | |" for k in need]
+    md += [f"| `{k}` | {sents.get(k, '')[:140]} | |" for k in need]
     if src_table:
         (OUT_DIR / "nguon_tham_khao.md").write_text(src_table, encoding="utf-8")
     else:
@@ -246,11 +250,15 @@ def description_ko():
     starts = act_start_times(TL)
     chap = ["00:00 오프닝"] + [f"{mmss(starts[a])} {act_titles[a]}" for a in sorted(starts)]
     sents = {i["id"]: i["text"] for i in TL["items"]}
-    summary = " ".join(sents[k] for k in ED.EP["summary"])
+    summary = ED.EP.get("summary_ko") or " ".join(sents.get(k, "") for k in ED.EP["summary"] if sents.get(k))
     raw_title = ED.EP["title"]
     title = with_brand(raw_title)
+    src_p = ED.EP_DIR / "nguon_mo_ta_KO.txt"
     links = verified_links()
-    src_text = links if links else "[출처 미확인 — 공개 기록의 출처 링크를 추가해주세요]"
+    src_text = src_p.read_text(encoding="utf-8").strip() if src_p.exists() else (links if links else "[출처 미확인 — 공개 기록의 출처 링크를 추가해주세요]")
+    sos_block = ED.EP.get("sos_ko", """🆘 아동학대 예방 및 신고 상담전화\n주변에 학대받거나 방치된 아동을 발견하시면 국번없이 112(경찰청) 또는 129(보건복지상담센터)로 신고해 주시기 바랍니다.""")
+    tags = ED.EP.get("hashtags_ko", "")
+    tag_block = ("\n\n" + tags) if tags else ""
     body = f"""{title}
 
 {summary}
@@ -269,8 +277,7 @@ def description_ko():
 📚 참고자료 및 출처(References)
 {src_text}
 
-🆘 아동학대 예방 및 신고 상담전화
-주변에 학대받거나 방치된 아동을 발견하시면 국번없이 112(경찰청) 또는 129(보건복지상담센터)로 신고해 주시기 바랍니다.
+{sos_block}{tag_block}
 """
     (OUT_DIR / "description.txt").write_text(body, encoding="utf-8")
     (OUT_DIR / "mo_ta.txt").write_text(body, encoding="utf-8")
@@ -287,8 +294,9 @@ def description_ja():
     summary = ED.EP.get("summary_ja") or " ".join(sents[k] for k in ED.EP["summary"])
     raw_title = ED.EP["title"]
     title = with_brand(raw_title)
+    src_p = ED.EP_DIR / "nguon_mo_ta_JA.txt"
     links = verified_links()
-    src_text = links if links else "[未確認 — 公開記録の出典リンクを追加してください]"
+    src_text = src_p.read_text(encoding="utf-8").strip() if src_p.exists() else (links if links else "[未確認 — 公開記録の出典リンクを追加してください]")
     sos_block = ED.EP.get("sos_ja", """🆘 児童虐待に関する相談窓口
 もし虐待を受けている子ども、または虐待の疑いがある子どもに気づいた場合は、
 児童相談所虐待対応ダイヤル「189（いちはやく）」（通話料無料・24時間対応）へご連絡ください。

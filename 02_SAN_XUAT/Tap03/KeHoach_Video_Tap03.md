@@ -31,7 +31,7 @@
 | 1-02 | `1.03#3`–`#4` | H | T1 | `t3_dispatch_desk` | *CÁCH ĐÓ HƠN 1.600 KM · SANTA CRUZ, CALIFORNIA* · **CHUÔNG ĐIỆN THOẠI TRỰC BAN REO VANG** → `#4`: *Đầu dây bên kia: giọng nam trầm ấm, điềm đạm kỳ lạ* | — |  |  |
 | 1-03 | `1.03#5`–`#6` | H | T1 | `t3_phone_booth`, `push` | **EDMUND KEMPER** · *Đang gọi từ một bốt điện thoại ven đường* → `#6`: **BIG ED** · *2m06 · 127 kg* | Tiêu đề ở "Big Ed" |  |  |
 | 1-04 | `1.03#7` | H | T1 | `t3_bar_stool_shadow` | **QUÁN RƯỢU THE JURY ROOM** · *Uống bia và trò chuyện thân mật với cảnh sát sau giờ tuần tra* | — |  |  |
-| 1-05 | `1.03#8` | H | T1 | `t3_bedroom_door` | **VÀ CHỈ VÀI NGÀY TRƯỚC ĐÓ** · *Hắn đã sát hại mẹ mình* | — | ⊘ |  |
+| 1-05 | `1.03#8` | H | T1 | `t3_bedroom_door` | **VÀ CHỈ VÀI NGÀY TRƯỚC ĐÓ** · *Hắn đã giết mẹ mình* | — | ⊘ |  |
 | 1-06 | `1.04` (nghỉ 1.5 s) | — | — | giữ 1-05 | — | — | ⊘ |  |
 | 1-07 | `1.05#1`–`#2` | H | T2 | `t3_dispatch_desk` | *TRỰC BAN ĐÊM SANTA CRUZ* · **NHỮNG LỜI LÀM ĐÔNG CỨNG CẢ CA TRỰC** | Dấu mộc ở "Đông cứng" |  |  |
 | 1-08 | `1.05#3`–`#4` | H | T4 lời kể | `t3_case_photos` | *TẠP CHÍ INSIDE DETECTIVE · SỐ THÁNG 8 NĂM 1973* → `#4`: “Tôi đã giết mẹ tôi và người bạn của bà.” | — | ⊘ |  |
@@ -63,7 +63,7 @@
 | 2-07 | `2.04#7`–`#8` | H | T1 | `t3_backyard_garden` | *Phi tang xuống biển* → `#8`: **CHÔN ĐẦU NẠN NHÂN TRONG VƯỜN SAU NHÀ MẸ** | — | ⊘ |  |
 | 2-08 | `2.04#9` | H | T1 | `t3_ucsc_campus` | **HAI NỮ SINH UCSC** · *Rosalind Thorpe (23 tuổi) & Alice Liu (21 tuổi)* | — |  |  |
 | 2-09 | `2.05` (nghỉ 1.5 s) | — | — | giữ 2-08 | — | — | ⊘ |  |
-| 2-10 | `2.06#1` | H | T1 | `t3_ravine` | **DÃY NÚI SANTA CRUZ** · *Thi thể rải rác dưới những vực sâu hẻo lánh* | — | ⊘ |  |
+| 2-10 | `2.06#1` | H | T1 | `t3_ravine` | **DÃY NÚI SANTA CRUZ** · *Dấu vết của các nạn nhân được tìm thấy rải rác ở những vùng hẻo lánh* | — | ⊘ |  |
 | 2-11 | `2.06#2` | H | T1 | `t3_backyard_garden` | **CHÔN TRONG VƯỜN NHÀ MẸ** · *Hướng thẳng lên cửa sổ phòng ngủ của bà* | — | ⊘ |  |
 | 2-12 | `2.06#3`–`#5` | H | T1 | `t3_case_photos` | **XÓA SẠCH DẤU VẾT PHÁP Y** · *Không vân tay · Không sợi vải lạ · Không nhân chứng* | — | →D |  |
 | 2-13 | `2.07#1` | D | T1 | `t3_under_seat` | **CHIẾC BẪY CHẾT CHÓC DI ĐỘNG** · *Phương thức hành động (Modus Operandi) tinh vi* | — | ✦ Sói |  |
@@ -88,13 +88,13 @@
 | 3-09 | `3.06` (nghỉ 1.5 s) | — | — | giữ 3-08 | — | — | ⊘ |  |
 | 3-10 | `3.07#1` | H | T1 | `t3_mother_shadow` mờ | **CĂM HẬN DỒN NÉN BIẾN CHUYỂN THẾ NÀO Ở TUỔI DẬY THÌ?** | — | →C |  |
 | 3-11 | `3.08#1`–`#3` | C | T9 `2/3` | `t3_atascadero` | **TẦNG 02: CƠ CHẾ PHÓNG CHIẾU** · *Nạn nhân thay thế (Projection & Proxy Victims)* | — | 🅑 |  |
-| 3-12 | `3.08#4`–`#6` | C | T8 | `t3_textbooks` | *Bệnh viện Atascadero: 5 năm · Tự làm bài test MMPI, phát triển thang đo riêng · Thả ra đúng sinh nhật 21 tuổi* | Mỗi mục ở cụm từ |  |  |
+| 3-12 | `3.08#4`–`#6` | C | T8 | `t3_textbooks` | *Bệnh viện Atascadero: NĂM NĂM · Tự làm bài test MMPI, phát triển thang đo riêng · Thả ra đúng sinh nhật 21 tuổi* | Mỗi mục ở cụm từ |  |  |
 | 3-13 | `3.08#7`–`#9` | C | T3 so sánh | `t3_mother_shadow` | *Người mẹ: tượng đài quyền lực căm thù & khiếp sợ* · **BỘ NÃO TÌM KIẾM NHỮNG NẠN NHÂN THAY THẾ** | Cột phải ở `#8` |  |  |
 | 3-14 | `3.08#10`–`#13` | C | T1 | `t3_ucsc_campus` | **NHỮNG NẠN NHÂN THAY THẾ** *(Proxy Victims)* · *Hiện thân của sự tự do mà hắn thèm khát* | — | ⊘ |  |
 | 3-15 | `3.09` (nghỉ 2 s) | — | — | giữ 3-14 | — | — | ⊘ |  |
 | 3-16 | `3.10#1` | H | T1 | `t3_brain_mirror` | *TẦNG 03* · **ĐIỀU LÀM NÊN SỰ KHÁC BIỆT HOÀN TOÀN GIỮA KEMPER VÀ KẺ KHÁC?** | — | →C |  |
 | 3-17 | `3.11#1`–`#3` | C | T9 `3/3` | `t3_self_observation` | **PHÂN LY TRÍ TUỆ** · *Kẻ thái nhân cách tự phản tỉnh (The Introspective Psychopath)* | — | 🅑 |  |
-| 3-18 | `3.11#4`–`#6` | C | T1 | `t3_brain_mirror` | **TÁCH RỜI CẢM XÚC HOÀN TOÀN** · *Quan sát cơn khát máu như nhà khoa học theo dõi thí nghiệm* | — | ⊘ |  |
+| 3-18 | `3.11#4`–`#6` | C | T1 | `t3_brain_mirror` | **TÁCH RỜI CẢM XÚC HOÀN TOÀN** · *Không có cảm xúc tội lỗi như người bình thường* | — | ⊘ |  |
 | 3-19 | `3.11#7`–`#8` | C | T1 | `t3_bedroom_door` | **BƯỚC ĐI CUỐI CÙNG:** *Quay về kết liễu người mẹ ruột* | — | ⊘ |  |
 | 3-20 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 04* · **ĐỐI THOẠI VỚI FBI — NỀN TẢNG CỦA NGHỆ THUẬT LẬP HỒ SƠ TỘI PHẠM** | — | ⊘ | ◼ |
 | 4-01 | `4.02#1`–`#3` | H | T5 ngày | `t3_vacaville_1978` | **1978 · VACAVILLE** · *Cơ sở Y tế Bang California (CMF)* | Tiếng cassette "Cạch" (SFX `4.01`) | ✦ Cú |  |
@@ -107,7 +107,7 @@
 | 4-08 | `4.05#8`–`#11` | D | T1 | `t3_cassette` | **NHỮNG PHIÊN LÀM VIỆC KÉO DÀI HÀNG GIỜ** · *Nhiều lần qua nhiều năm* | — | 🅑 |  |
 | 4-09 | `4.05#12`–`#16` | D | T4 lời kể | `t3_interview_room` | → `#15`: “Sau đó, tôi hy vọng mình có thể tìm được cách để giúp đỡ người khác... Có lẽ họ có thể nghiên cứu tôi và tìm ra điều gì khiến những người như tôi làm những điều chúng tôi làm.” | — |  |  |
 | 4-10 | `4.05#17`–`#19` | D | T2 | `t3_fbi_corridor` | *DỰ ÁN NGHIÊN CỨU TÍNH CÁCH TỘI PHẠM* · **36 TÙ NHÂN GIẾT NGƯỜI TÌNH DỤC** · *Mạng lưới VICAP 1985* | Lật sổ (SFX `4.06`) ở đầu |  |  |
-| 4-11 | `4.07#1` | D | T1 | `t3_interview_room`, `still` | **3 KHÁI NIỆM MANG TÍNH CÁCH MẠNG** | — |  |  |
+| 4-11 | `4.07#1` | D | T1 | `t3_interview_room`, `still` | **BA KHÁI NIỆM MANG TÍNH CÁCH MẠNG** | — |  |  |
 | 4-12 | `4.07#2`–`#5` | D | T9 `1/3` | `t3_fantasy_spiral` | **KHÁI NIỆM 01: VÒNG LẶP ẢO TƯỞNG BẠO LỰC** *(Violent Fantasy Cycle)* | — |  |  |
 | 4-13 | `4.07#6`–`#7` | D | T9 `2/3` | `t3_trophy_box` | **KHÁI NIỆM 02: CHIẾN LỢI PHẨM** *(Trophies / Souvenirs)* · *Tái kích hoạt cảm giác quyền lực tối thượng* | — |  |  |
 | 4-14 | `4.07#8`–`#10` | D | T9 `3/3` | `t3_phone_booth` | **KHÁI NIỆM 03: LÝ DO HẮN DỪNG LẠI** · *Nỗi sợ mình sẽ không dừng lại* | — | ⊘ |  |
@@ -118,7 +118,7 @@
 | 5-01 | `5.01`–`5.02#1` | H | T5 ngày | `t2_gavel` | **23 · 10 · 1973** · *Tòa án Thượng thẩm Quận Santa Cruz* | Búa gõ (SFX `5.01`) ở đầu | ✦ Cú |  |
 | 5-02 | `5.02#2`–`#4` | H | T2 | `t3_courtroom_1973` | *CÔNG TỐ VIÊN PETER CHANG* · **8 ÁN CHUNG THÂN THI HÀNH ĐỒNG THỜI** · *Thẩm phán Harry Brauer* | Dấu mộc ở "8 án chung thân" |  |  |
 | 5-03 | `5.02#5`–`#6` | H | T1 | `t3_courtroom_1973`, `push` | **YÊU CẦU CHƯA TỪNG CÓ TRONG LỊCH SỬ:** *Tuyên án tử hình bằng hình thức tra tấn đến chết* | — | ⊘ |  |
-| 5-04 | `5.02#7`–`#10` | H | T8 | `t3_life_sentence` | *Cơ sở CMF Vacaville · Bị bác ân xá hơn 10 lần · Lần kế tiếp: 2031* | Mỗi mục ở cụm từ |  |  |
+| 5-04 | `5.02#7`–`#10` | H | T8 | `t3_life_sentence` | *Cơ sở CMF Vacaville · Bị bác ân xá hơn MƯỜI LẦN · Lần kế tiếp: 2031* | Mỗi mục ở cụm từ |  |  |
 | 5-05 | `5.02#11`–`#12` | H | T4 lời kể | `t3_life_sentence`, `still` | “Xã hội chưa sẵn sàng cho tôi, dưới bất kỳ hình thức nào. Tôi không trách họ điều đó.” | — | ⊘ |  |
 | 5-06 | `5.03` (nghỉ 2 s) | — | — | giữ 5-05 | — | — | ⊘ |  |
 | 5-07 | `5.04#1` | H | T1 | `t3_red_flags` | **4 DẤU HIỆU CẢNH BÁO ĐỎ** *(Red Flags)* · *Nhận diện mầm mống bạo lực từ sớm* | — | →C+D |  |

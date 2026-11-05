@@ -110,7 +110,8 @@ for s in SHOTS:
         for frag in [f.strip() for f in core.split("…") if f.strip()]:
             if frag not in ctx:
                 quote_bad.append(f"{s['id']}: “{frag[:45]}…” không nguyên văn trong câu")
-chk("Chữ trích dẫn nguyên văn (lược bằng …) trong câu — V3", not quote_bad, "; ".join(quote_bad[:6]))
+chk("Chữ trích dẫn nguyên văn (lược bằng …) trong câu — V3", not quote_bad,
+    f"{len(quote_bad)} lỗi: " + "; ".join(quote_bad[:12]) + (" …" if len(quote_bad) > 12 else ""))
 
 # ---------------------------------------------------------------- 5. so tren hinh
 ORDINAL = {"thứ nhất": "1", "thứ hai": "2", "thứ ba": "3", "thứ tư": "4"}
@@ -126,6 +127,10 @@ MONTHS_EN = {"january": "1", "february": "2", "march": "3", "april": "4", "may":
               "december": "12"}
 STRUCT_VN = r"(HỒI|TẬP|NẤC|TẦNG)"
 STRUCT_EN = r"(ACT|STAGE|LAYER|COMPARTMENT|EPISODE)"
+# Bản Nhật: nhãn hồi là 第N幕 (hồi N) — "1" trong "第1幕" là nhãn cấu trúc
+STRUCT_JA = r"(第\s*\d+\s*幕)"
+# hợp nhất: mọi bản đều dùng chung danh sách nhãn cấu trúc
+STRUCT_ANY = r"(?:" + STRUCT_VN + "|" + STRUCT_EN + "|" + STRUCT_JA + ")"
 num_bad, num_notes = [], []
 for s in SHOTS:
     ctx = ctx_of(s)
@@ -162,13 +167,19 @@ for s in SHOTS:
         # "1.400" (dấu chấm = phân tách nghìn) phải khớp nguyên dạng trong câu
         if m in allowed or m in flat or tok in allowed:
             continue
-        # nhan cau truc: HỒI 0X / TẬP 0X / NẤC 0X / TẦNG 0X  (EN: ACT/STAGE/LAYER/COMPARTMENT)
-        if re.search((STRUCT_EN if EN else STRUCT_VN) + r"\s*" + re.escape(m) + r"\b",
-                     " ".join(t for _k, t in on_screen(s))):
+        screen = " ".join(t for _k, t in on_screen(s))
+        # Bản Nhật: số nằm TRONG nhãn cấu trúc (第1幕 = hồi 1) — khác VN/EN
+        # (HỒI 01 / ACT 1) là số đứng SAU nhãn.
+        if re.search(r"第\s*" + re.escape(m) + r"\s*幕", screen):
+            num_notes.append(f"{s['id']}: “{m}” là nhãn cấu trúc (第N幕)")
+            continue
+        # nhan cau truc: HỒI 0X / TẬP 0X / NẤC 0X / TẦNG 0X (EN: ACT/STAGE/LAYER/…)
+        if re.search(STRUCT_ANY + r"\s*" + re.escape(m) + r"\b", screen):
             num_notes.append(f"{s['id']}: “{m}” là nhãn cấu trúc (hồi/tập/nấc)")
             continue
         num_bad.append(f"{s['id']}: số “{m}” không có trong câu")
-chk("Mọi con số trên hình có trong câu — A9.2", not num_bad, "; ".join(num_bad[:6]))
+chk("Mọi con số trên hình có trong câu — A9.2", not num_bad,
+    f"{len(num_bad)} lỗi: " + "; ".join(num_bad[:12]) + (" …" if len(num_bad) > 12 else ""))
 if num_notes:
     note("Số là nhãn cấu trúc (hồi/tập/bậc thang), không phải dữ kiện bịa",
          f"{len(num_notes)} chỗ: " + ", ".join(num_notes[:6]))
@@ -188,7 +199,9 @@ forbidden_hit = []
 for s in SHOTS:
     low = " ".join(t for _k, t in on_screen(s)).lower()
     for w in (FORBIDDEN_EN if EN else FORBIDDEN):
-        if w not in low:
+        # so theo ranh giua TU: "khiếp sợ" KHÔNG phải "hiếp" (rape).
+        # Van giu "sát hại" / "thi thể" (2 tu) vi chung la 2 tu lap.
+        if not re.search(r"(?<!\w)" + r"\s+".join(re.escape(x) for x in w.split()) + r"(?!\w)", low):
             continue
         if EN:
             if any(g in low for g in SAFE_EN if g in w or w in g):
@@ -197,7 +210,7 @@ for s in SHOTS:
         elif not any(g in low for g in SAFE if g in w or w in g):
             forbidden_hit.append(f"{s['id']}: “{w}”")
 chk("Không từ cấm / không nhắc hành vi tình dục trên hình", not forbidden_hit,
-    "; ".join(forbidden_hit[:6]))
+    f"{len(forbidden_hit)} lỗi: " + "; ".join(forbidden_hit[:12]) + (" …" if len(forbidden_hit) > 12 else ""))
 
 # ---------------------------------------------------------------- 7. nhip trong shot
 def reveal_moments(s):

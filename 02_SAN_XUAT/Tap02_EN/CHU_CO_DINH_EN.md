@@ -56,41 +56,53 @@ UNIFORM
 ## 4. Mô tả YouTube chuẩn Mỹ (YouTube Description with Crisis Resources)
 
 ```text
-Ep. 02: A Predator Disguised as Honor | The Psychology of Colonel Russell Williams (Behavioral Escalation)
+Ep. 02: A Predator Disguised as Honor | Criminal Psychology: Colonel Russell Williams (10 Psychological Markers & 4 Stages of Escalation) | Amber eyes
 
-In July 2009, Colonel David Russell Williams took command of CFB Trenton, Canada’s largest military airbase. A decorated pilot who had flown Queen Elizabeth II and the Canadian Prime Minister, Williams appeared to be the very epitome of military discipline, intellectual excellence, and impeccable character.
+In July 2009, Col. David Russell Williams took command of CFB Trenton, Canada’s largest airbase. A decorated pilot who flew Queen Elizabeth II and Canadian Prime Ministers, Williams seemed the epitome of honor and discipline. Yet behind his uniform lurked a predator whose compulsion escalated from voyeurism to serial home invasions and the murders of Corporal Marie-France Comeau and Jessica Lloyd. His double life collapsed on Feb 7, 2010, during a 10-hour interrogation masterclass by OPP Det. Sgt. Jim Smyth.
 
-Yet beneath this flawless exterior lurked an active predator whose hidden compulsion progressed through four dangerous stages: from nocturnal voyeurism to dozens of break-ins, home invasions, and ultimately homicide. 
-
-In this episode of Amber eyes, we dissect the chilling case of Russell Williams through the lenses of criminal psychology:
-• Behavioral Escalation & Dopamine Desensitization: Why every transgression demands a bigger thrill to feel the same.
-• Extreme Psychological Compartmentalization: How an elite mind isolated two conflicting cognitive streams without collapsing into madness.
-• The Interrogation Masterclass: How Detective Sergeant Jim Smyth used a calm, disarming cadence and surgical psychological pressure to dismantle a formidable military mind.
-• Spotting Predators Early: Four critical red flags concealed behind spotless moral facades.
+Amber eyes dissects the case through our 10-Indicator Behavioral & Psychological Ecosystem:
+1. SOCIAL IMPACT & COLLECTIVE PARANOIA: Jessica Lloyd's disappearance panicked Tweed; women barricaded doors with chairs, shattering public trust in institutions.
+2. OBJECTIFICATION OF VICTIMS: Victims were treated as props in thousands of photos taken to re-experience omnipotent domination.
+3. COMPARTMENTALIZATION (SHIELD OF NORMALIZATION): Marriage and status formed an impenetrable shield, insulating two conflicting realities.
+4. NARCISSISTIC COLLAPSE: Facing life without parole, he mourned his lost status, medals, and pension, showing zero authentic remorse.
+5. TECHNIQUES OF NEUTRALIZATION: Rationalizing himself as an honorable officer overtaken by an external urge to protect his narcissistic ego.
+6. PRECIPITATING TRIGGER: Promotion to Base Commander in July 2009 pushed stress to the limit, accelerating compensatory urges.
+7. SIGNATURE VS. MO: MO (cutting lines, evasion) evolved constantly; Signature (trophy collecting, staging photos) remained immutable.
+8. 4-STAGE ESCALATION: Dopamine desensitization eroded thresholds: voyeurism (1) → burglaries (2) → home invasions (3) → homicide (4).
+9. HALO EFFECT: High military rank created an institutional blind spot that deflected suspicion for years.
+10. SURVIVAL RED FLAGS: 4 critical behavioral indicators to spot predatory personalities hidden behind respectable facades.
 
 ⏱ CHAPTERS
 00:00 Intro & Advisory
-00:23 Act 1: The Extreme Contrast Behind a Colonel’s Rank
-04:42 Act 2: The Scene & Dossier — The 4 Stages of the Abyss
-08:16 Act 3: Psychological Autopsy — Inside the Mind of a Two-Faced Predator
-13:33 Act 4: The Interrogation Room — Breaking a Military Mind
-18:35 Act 5: The Verdict, Red Flags & Closing Thoughts
+00:23 Act 1 · The Extreme Contrast Behind a Colonel’s Rank
+04:42 Act 2 · The Scene & Dossier — The 4 Stages of the Abyss
+08:15 Act 3 · Psychological Autopsy — Compartmentalization & Self-Justification
+13:32 Act 4 · The Interrogation Room & Ten-Hour Duel — Unmasking the Predator
+18:34 Act 5 · The Verdict, Psychological Sentence & Red Flag Lessons
 
-⚠️ LEGAL & ETHICAL DISCLAIMER
-• This documentary is created exclusively for educational, criminological, and historical analysis.
-• All factual events, dates, and quotes are sourced from public court records, the Ontario Provincial Police (OPP) interrogation transcripts, and verified journalistic archives.
-• Psychological analyses represent theoretical frameworks in forensic criminology, not an official clinical diagnosis.
-• Colonel Williams's former spouse had no knowledge of or involvement in his crimes and was fully cleared of any wrongdoing. In compliance with Canadian court publication bans (Section 486.4 of the Criminal Code), the identities of surviving victims are strictly protected and omitted.
-• Synthetic / Altered Content Disclosure: This program features AI-generated voiceovers and stylized artistic illustrations.
-• Voice production: all narration in this episode is synthetic speech generated with Boson AI Higgs Audio v3, voice-cloned from reference clips that were themselves produced by AI text-to-speech for this channel. No real person's voice was recorded, used, or cloned.
+⚠️ LEGAL & SAFETY DISCLAIMER
+• Produced exclusively for educational, criminological, and historical analysis; not medical or legal advice.
+• Based on public Canadian judicial archives (court rulings, OPP interrogation transcripts, accredited news archives). No intent to defame, harass, or glorify any individual.
+• Colonel Williams's former spouse had no knowledge of his crimes and was completely exonerated. Under Canadian publication bans (Section 486.4 Criminal Code), surviving victims' identities are strictly protected.
+• Avatars and dialogue are dramatized. Synthetic AI voices and visuals are utilized.
 
-📞 CRISIS & SUPPORT RESOURCES (FREE & CONFIDENTIAL)
-If you or someone you know has been affected by sexual assault, stalking, or domestic violence, support is available:
-• National Sexual Assault Hotline (RAINN - USA): Call 1-800-656-4673 or chat online at https://www.rainn.org (Available 24/7)
-• National Domestic Violence Hotline (USA): Call 1-800-799-SAFE (7233) or text "START" to 88788 (https://www.thehotline.org)
-• VictimConnect Resource Center (USA): Call/Text 1-855-4-VICTIM (1-855-484-2846) (https://victimconnect.org)
-• Canadian Resource Centre for Victims of Crime (Canada): 1-877-232-2610, Mon-Fri 8:30am-4:30pm ET (https://crcvc.ca)
-• In an emergency, please dial 911 immediately.
+📚 VERIFIED SOURCES & COURT EXHIBITS
+Verified against public Canadian archives:
+• Ontario Superior Court of Justice: R. v. Williams (2010 ONSC 5946) — https://www.canlii.org/en/on/onsc/doc/2010/2010onsc5946/2010onsc5946.html
+• Ontario Provincial Police (OPP): Interrogation transcript (Feb 7, 2010) — https://www.opp.ca/
+• CBC News (The Fifth Estate): 'The Detective and the Colonel' — https://www.cbc.ca/news/canada/the-colonel-and-the-detective-1.954751
+• The Globe and Mail: Investigative series by Christie Blatchford — https://www.theglobeandmail.com/news/national/unmasking-col-russell-williams-what-happened-in-the-interrogation-room/article1213560/
+• Toronto Star: Case dossier & timeline — https://www.thestar.com/news/crime/russell-williams-from-top-officer-to-disgraced-killer/article_4279b360-6453-5d75-9c59-bf72f056d60a.html
+• Maclean's Magazine: 'The secret life of a colonel' — https://macleans.ca/news/canada/russell-williams-the-secret-life-of-a-colonel/
+• APA: DSM-5-TR (Voyeuristic & Fetishistic Disorders) — https://www.psychiatry.org/psychiatrists/practice/dsm
+• FBI BAU: Escalation Principle & Compartmentalization — https://leb.fbi.gov/
 
-#TrueCrime #CriminalPsychology #RussellWilliams #Interrogation #Documentary #ForensicPsychology #AmberEyes
+🆘 CRISIS & SUPPORT HOTLINES (24/7, FREE & CONFIDENTIAL)
+• National Sexual Assault Hotline (RAINN - USA): 1-800-656-4673 — https://www.rainn.org
+• National Domestic Violence Hotline (USA): 1-800-799-SAFE (7233) — https://www.thehotline.org
+• Canadian Resource Centre for Victims of Crime: 1-877-232-2610 — https://crcvc.ca
+• National Suicide and Crisis Lifeline (USA/Canada): 988 — https://988lifeline.org/
+• Emergency Services: Dial 911 (USA/Canada)
+
+#AmberEyes #TrueCrime #CriminalPsychology #RussellWilliams #BehavioralEscalation #Compartmentalization #InterrogationTechniques #ForensicPsychology #RedFlags #Documentary
 ```

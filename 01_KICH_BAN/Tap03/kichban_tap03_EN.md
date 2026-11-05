@@ -1,7 +1,8 @@
 # CRIMINAL PSYCHOLOGY AUDIO / PODCAST SCRIPT — ENGLISH EDITION
-**Topic:** Mother-son pathology & the introspective psychopath — the case of Edmund Kemper and the origins of the FBI Behavioral Science Unit.
-**Translated from:** `01_KICH_BAN/Tap03/kichban_tap03_22102026.md`. One English sentence for every Vietnamese sentence, same structure, same IDs.
-**Fact and legal review:** Based on public trial reporting, official police interrogation transcripts, and verified public records; analysis of real people is framed as opinion.
+**Topic:** The 10 Psychological Indicators Framework & The Introspective Paradox of a Psychopath — The Edmund Kemper File and the Birth of the FBI Behavioral Science Unit.
+**Version:** 4 — Fully restructured under the 10 Psychological & Behavioral Indicators Framework (A2c / K10), November 5, 2026
+**Translated from:** `01_KICH_BAN/Tap03/kichban_tap03_22102026.md`. One English sentence for every Vietnamese sentence, same structure, same IDs (Parity 1:1).
+**Fact and legal review:** Based on public trial reporting, official police interrogation transcripts, and verified public records; analysis of real people is framed as clinical criminological opinion.
 
 ---
 
@@ -10,8 +11,13 @@
 | Item | Standard setting (host-driven documentary) |
 | :--- | :--- |
 | **Episode title** | Episode 03: The IQ 145 Giant & The Mirror of Psychological Autopsy — The Edmund Kemper File |
-| **Format** | Narrator-led investigative documentary — the **Host** carries the story and invites each perspective (Investigator, Psychologist, Ordinary person) at the right moment. |
-| **Voices** | Host (narration) · Investigator (cold, factual) · Psychologist (calm, academic) · Ordinary person (natural; local police perspective). |
+| **Format** | Narrator-led investigative documentary — the **Host** anchors the core narrative, balancing pacing and emotional resonance while integrating deep criminological insights from the FBI Special Agent, Psychologist, and Local Police under the 10 Psychological Indicators Framework. |
+| **Total estimated runtime** | 25 – 27 minutes (5 content acts + dramatic atmospheric pauses) |
+| **Suggested BGM** | 1970s nostalgic Dark Ambient, mournful Solo Cello, somber Minimalist Piano, combined with the gentle mechanical whir of vintage reel-to-reel magnetic tape. Volume: -26dB under narration, rising to -14dB at act transitions. |
+| **Voice distribution** | - **Host (~45–50% runtime):** Warm, calm, deep male voice, leading the narrative, philosophical reflections, societal impact, halo effects, and survival red flags.<br>- **FBI Special Agent / Investigator (~25%):** Firm, cold, incisive male voice, representing forensic investigative methodology, interrogation dynamics, MO vs. Signature distinction, and the CPRP / VICAP database.<br>- **Psychologist (~25%):** Composed, academic, profound voice, dissecting cognitive compartmentalization, victim objectification, maternal trauma, escalation cycles, and introspective paradoxes.<br>- **Local Police / Witness (~5%):** Honest, stunned, authentic voice, recreating direct eyewitness accounts from the night duty officer (N1) and bar companion at The Jury Room (N2). |
+| **Composite character rule (MANDATORY)** | The three voices — **FBI Special Agent / Psychologist / Local Police** — are **fictional composite characters**, NOT real historical persons. Visuals must display labels such as "FILE / DRAMATIZED ACCOUNT". Real faces must NEVER be rendered (John Douglas, Robert Ressler, Clarnell Strandberg, Edmund Kemper, Judge Harry Brauer, Deputy Bruce Colomy, etc.). Use silhouettes, back shadows, symbols, or official names only. |
+| **Quotation rules** | All verbatim on-screen quotations must be **100% faithful** to historical sources and cross-referenced with links in `nguon_tham_khao.md`. Notation: `‘…’` = verbatim English quote. |
+| **Primary reference sources** | Wikipedia – *Edmund Kemper* & *Behavioral Science Unit* · *Inside Detective*, August 1973 (Kemper interview, original statement) · *Front Page Detective*, March 1974 (Kemper interview – Marj von Beroldingen) · *Mindhunter* (John Douglas & Mark Olshaker, 1995) · *Sexual Homicide: Patterns and Motives* (Ressler, Burgess & Douglas, 1988) · *Whoever Fights Monsters* (Robert Ressler, 1992) · *The Lust Murderer* (Hazelwood & Douglas, FBI LEB 1980) · *The Men Who Murdered* (Ressler & Burgess, FBI LEB 1985) |
 
 ---
 
