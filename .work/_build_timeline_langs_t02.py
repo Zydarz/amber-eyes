@@ -41,11 +41,14 @@ def measure(text, lang):
     return max(1, len(re.sub(r"\s+", "", text)))
 
 
-def rebuild(base, S, ELEM, lang, global_scale=1.0):
+def rebuild(base, S, ELEM, lang, global_scale=1.0, rate=None):
     """Trả về timeline mới: giữ mốc element của `base`, chia lại câu theo độ dài câu mới.
 
     Câu nào chưa có trong `base` (15 câu mới của bản dịch) vẫn được đặt vào đúng element,
     chen theo thứ tự đọc, dùng thời lượng của timeline VN làm neo tương đối.
+
+    `rate` = giây/ký-tự của ngôn ngữ đích (chỉ dùng khi `base` là timeline TIẾNG VIỆT:
+    1 ký tự Hàn/Nhật không tương đương 1 ký tự Việt về thời lượng đọc).
     """
     bitems = {it["id"]: it for it in base["items"]}
     out_items, cursor = [], None
@@ -88,7 +91,13 @@ def rebuild(base, S, ELEM, lang, global_scale=1.0):
         bw = sum(measure(bitems[i]["text"], lang) for i in inb) or sum(
             measure(S.get(i, ""), lang) for i in ids)
         nw = sum(measure(S.get(i, ""), lang) for i in ids)
-        ratio = (nw / bw) if bw else 1.0
+        if rate is not None:
+            # base là timeline tiếng Việt -> suy thời lượng đích từ tốc độ đọc thật
+            vn_speech = sum(base_dur.values())
+            pred = nw * rate
+            ratio = (pred / vn_speech) if vn_speech else 1.0
+        else:
+            ratio = (nw / bw) if bw else 1.0
 
         if b0 is None:
             b0 = b1 = intro_end
@@ -167,11 +176,13 @@ def main():
             base = vn_tl
             S, ELEM = S_KO, ELEM_KO
             gs = 1.0
+            rate = r_ja
         else:
             base = json.loads((W / base_name).read_text(encoding="utf-8"))
             S, ELEM = load_script(lang)
             gs = 1.0
-        tl = rebuild(base, S, ELEM, lang, global_scale=gs)
+            rate = None
+        tl = rebuild(base, S, ELEM, lang, global_scale=gs, rate=rate)
 
         if lang == "KO":
             # nhân toàn cục theo tỉ lệ du đoán

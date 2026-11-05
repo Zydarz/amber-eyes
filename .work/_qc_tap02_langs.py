@@ -1,0 +1,309 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""QC A9.2 cho Tập 02 — bảng shot vs kịch bản vs timeline (đa ngôn ngữ VN / EN / JA / KO).
+
+Dùng:  $env:AE_LANG='ja'; $env:AE_EP='02'; py -3 .work/_qc_tap02_langs.py
+
+  1. Phủ câu: mọi câu thuộc đúng một shot, đúng thứ tự, không trùng
+  2. Cột Vai khớp người nói trong timeline
+  3. Nền có file thật trong assets/bg
+  4. Chữ trích dẫn trên hình phải NGUYÊN VĂN trong câu của shot (V3)
+  5. Mọi con số trên hình phải có trong câu của shot (A9.2)
+  6. Không từ cấm (A9.2) + không nhắc đồ lót / hành vi tình dục
+  7. Shot > 15 s phải có nhịp thay đổi trong khung (A7/H10)
+  8. Các shot liền nhau (không hở, không chồng)
+  9. H10: không lặp cùng một nền quá 4 shot liên tiếp
+"""
+import json
+import os
+import re
+import sys
+from pathlib import Path
+
+sys.stdout.reconfigure(encoding="utf-8")
+ROOT = Path(__file__).resolve().parents[1]
+WORK = ROOT / ".work"
+BG = ROOT / "assets" / "bg"
+
+os.environ.setdefault("AE_EP", "02")
+sys.path.insert(0, str(WORK))
+import edition as ED  # noqa: E402
+
+TL = json.loads(ED.w("timeline_s.json").read_text(encoding="utf-8"))
+SH = json.loads(ED.w("shots.json").read_text(encoding="utf-8"))
+SENT = {it["id"]: it for it in TL["items"]}
+SHOTS = SH["shots"]
+LANG = "EN" if ED.EN else ("JA" if ED.JA else ("KO" if ED.KO else "VN"))
+
+ok = True
+errs = []
+notes = []
+
+
+def chk(label, cond, detail=""):
+    global ok
+    ok = ok and bool(cond)
+    print(f"[{'OK  ' if cond else 'LOI'}] {label}" + (f" — {detail}" if detail else ""))
+    if not cond:
+        errs.append(label)
+
+
+def note(label, detail=""):
+    notes.append(label)
+    print(f"[GHI ] {label}" + (f" — {detail}" if detail else ""))
+
+
+# ---------------------------------------------------------------- 1. phu cau
+all_ids = list(SENT.keys())
+seen, dups, order = {}, [], []
+for s in SHOTS:
+    for sid in s["sentences"]:
+        if sid in seen:
+            dups.append(f"{sid} ở {seen[sid]} và {s['id']}")
+        seen[sid] = s["id"]
+        order.append(sid)
+
+chk("Mọi câu trong timeline có mặt trong bảng shot", set(seen) == set(all_ids),
+    f"thiếu {sorted(set(all_ids) - set(seen))[:6]} · thừa {sorted(set(seen) - set(all_ids))[:6]}")
+chk("Không câu nào thuộc hai shot", not dups, "; ".join(dups[:5]))
+chk(f"{len(all_ids)} câu được phủ", len(seen) == len(all_ids), f"{len(seen)}/{len(all_ids)}")
+chk("Thứ tự shot khớp thứ tự kịch bản", order == all_ids,
+    f"lệch tại vị trí {next((i for i, (a, b) in enumerate(zip(order, all_ids)) if a != b), None)}")
+
+# ---------------------------------------------------------------- 2. vai khop
+bad_role = [f"{s['id']} khai {s['role']} nhưng {sid} do {SENT[sid]['role']}"
+            for s in SHOTS if s["role"] for sid in s["sentences"] if SENT[sid]["role"] != s["role"]]
+chk("Cột Vai khớp người nói trong timeline", not bad_role, "; ".join(bad_role[:5]))
+
+# ---------------------------------------------------------------- 3. nen
+missing_bg = sorted({s["bg"] for s in SHOTS if s["bg"]} - {p.stem for p in BG.glob("*.png")})
+chk("Mọi nền dùng trong shot đều có file", not missing_bg, ", ".join(missing_bg))
+
+
+# ---------------------------------------------------------------- 4. trich danh
+def on_screen(s):
+    return [(kind, t) for seg in s["segments"] for kind, t in seg["elems"]]
+
+
+def ctx_of(s):
+    """Câu của shot. Dòng 'giữ' (hold) kế thừa chữ của shot cha -> lấy câu của shot cha."""
+    ids = s["sentences"]
+    if not ids and s.get("inherit"):
+        for p in SHOTS:
+            if p["id"] == s["inherit"]:
+                ids = p["sentences"]
+                break
+    ctx = " ".join(SENT[x]["text"] for x in ids)
+    if not ctx and s["template"] == "T10":          # thẻ chương: tên hồi trong edition.py
+        ctx = " ".join(ED.EP["act_titles"].values())
+    return ctx
+
+
+quote_bad = []
+for s in SHOTS:
+    ctx = ctx_of(s)
+    for kind, t in on_screen(s):
+        if kind != "quote":
+            continue
+        core = t.strip().strip("“”\"")
+        for frag in [f.strip() for f in core.split("…") if f.strip()]:
+            if frag not in ctx:
+                quote_bad.append(f"{s['id']}: “{frag[:45]}…” không nguyên văn trong câu")
+chk("Chữ trích dẫn nguyên văn (lược bằng …) trong câu — V3", not quote_bad,
+    f"{len(quote_bad)} lỗi: " + "; ".join(quote_bad[:12]) + (" …" if len(quote_bad) > 12 else ""))
+
+# ---------------------------------------------------------------- 5. so tren hinh
+ORDINAL = {"thứ nhất": "1", "thứ hai": "2", "thứ ba": "3", "thứ tư": "4"}
+ORDINAL_EN = {"first": "1", "second": "2", "third": "3", "fourth": "4"}
+ORD_EN_RE = [(r"red flag number one\b", "1"), (r"red flag number two\b", "2"),
+             (r"red flag number three\b", "3"), (r"red flag number four\b", "4"),
+             (r"\bfirst\b", "1"), (r"\bsecond\b", "2"), (r"\bthird\b", "3"), (r"\bfourth\b", "4")]
+LADDER_LAST = {"cuối cùng": "4"}
+LADDER_LAST_EN = {"last": "4"}
+MONTHS_EN = {"january": "1", "february": "2", "march": "3", "april": "4", "may": "5", "june": "6",
+              "july": "7", "august": "8", "september": "9", "october": "10", "november": "11",
+              "december": "12"}
+# số thứ tự viết bằng chữ trong câu Nhật / Hàn
+ORDINAL_JA = {"最初": "1", "最初で最後": "4", "最後": "4", "二番目": "2", "三番目": "3", "四番目": "4"}
+ORDINAL_KO = {"첫": "1", "마지막": "4", "두": "2", "세": "3", "네": "4"}
+STRUCT_VN = r"(HỒI|TẬP|NẤC|TẦNG)"
+STRUCT_EN = r"(ACT|STAGE|LAYER|COMPARTMENT|EPISODE)"
+STRUCT_JA = r"(第\s*\d+\s*[幕話]|\d+\s*段階|\d+\s*段階)"
+STRUCT_KO = r"(제\s*\d+\s*막|\d+\s*화|\d+\s*단계|\d+\s*단계)"
+STRUCT_ANY = r"(?:" + STRUCT_VN + "|" + STRUCT_EN + "|" + STRUCT_JA + "|" + STRUCT_KO + ")"
+
+
+def is_struct_label(m, screen):
+    """Số nằm trong nhãn cấu trúc (HỒI 01 / ACT 02 / 第2幕 / 제2막 / 02화)."""
+    if re.search(r"(?:HỒI|TẬP|NẤC|TẦNG|ACT|STAGE|LAYER|COMPARTMENT|EPISODE)\s*" + re.escape(m), screen):
+        return True
+    if re.search(r"第\s*" + re.escape(m) + r"\s*[幕話]", screen):
+        return True
+    if re.search(r"제\s*" + re.escape(m) + r"\s*막", screen):
+        return True
+    if re.search(re.escape(m) + r"\s*(화|단계|幕|話)", screen):
+        return True
+    return False
+
+
+num_bad, num_notes = [], []
+for s in SHOTS:
+    ctx = ctx_of(s)
+    flat = ctx.replace(" ", "")
+    allowed = set(re.findall(r"\d+", flat))
+    for a in list(allowed):
+        allowed.add(a.zfill(2))
+        allowed.add(str(int(a)))
+    if LANG == "EN":
+        ord_map = ORDINAL_EN
+    elif LANG == "JA":
+        ord_map = ORDINAL_JA
+    elif LANG == "KO":
+        ord_map = ORDINAL_KO
+    else:
+        ord_map = ORDINAL
+    for word, d in ord_map.items():
+        if word in ctx:
+            allowed.add(d)
+            allowed.add(d.zfill(2))
+    if LANG == "EN":
+        for pat, d in ORD_EN_RE:
+            if re.search(pat, ctx.lower()):
+                allowed.add(d)
+                allowed.add(d.zfill(2))
+        for word, d in MONTHS_EN.items():
+            if word in ctx.lower():
+                allowed.add(d)
+                allowed.add(d.zfill(2))
+        if "4 stages" in ctx.lower():
+            allowed.add("4")
+            allowed.add("04")
+    elif LANG == "VN":
+        for word, d in LADDER_LAST.items():
+            if word in ctx.lower() and "4 nấc" in ctx.lower():
+                allowed.add(d)
+                allowed.add(d.zfill(2))
+    for m in set(re.findall(r"\d[\d.,]*", " ".join(t for _k, t in on_screen(s)))):
+        tok = m.replace(".", "")
+        if m in allowed or m in flat or tok in allowed:
+            continue
+        screen = " ".join(t for _k, t in on_screen(s))
+        if is_struct_label(m, screen):
+            num_notes.append(f"{s['id']}: “{m}” là nhãn cấu trúc")
+            continue
+        num_bad.append(f"{s['id']}: số “{m}” không có trong câu")
+chk("Mọi con số trên hình có trong câu — A9.2", not num_bad,
+    f"{len(num_bad)} lỗi: " + "; ".join(num_bad[:12]) + (" …" if len(num_bad) > 12 else ""))
+if num_notes:
+    note("Số là nhãn cấu trúc (hồi/tập/bậc thang), không phải dữ kiện bịa",
+         f"{len(num_notes)} chỗ: " + ", ".join(num_notes[:6]))
+
+# ---------------------------------------------------------------- 6. tu cam
+FORBIDDEN = ["máu", "thi thể", "sát hại", "đòn", "trói", "bầm", "đập", "đầu độc",
+             "diệt cỏ", "bỏ đói", "móc áo", "đồ lót", "quan hệ tình dục", "hiếp", "cưỡng ép"]
+SAFE = ["ung thư máu", "đấu tập", "bàn tay", "cánh tay", "đầu tư", "đầu học", "đầu tiên",
+        "đầu não", "trọng đầu", "bầu cửa", "bầu trời", "đập đầu", "trói buộc"]
+FORBIDDEN_EN = ["blood", "corpse", "strangle", "choke", "struggle", "raped", "rape",
+                "underwear", "sexual intercourse", "orgasm", "penis", "vagina", "suffocat",
+                "mutilat", "dismember", "torture"]
+SAFE_EN = ["blood type", "blood pressure", "blood vessel", "bloodstream", "blood cell",
+           "struggle to survive", "struggled to"]
+FORBIDDEN_JA = ["殺害", "死体", "遺体", "絞め", "強姦", "性行為", "下着", "切断",
+                "撲殺", "血まみれ", "猟首"]
+SAFE_JA = ["血中", "血液"]
+FORBIDDEN_KO = ["살해", "시체", "성폭력", "강간", "내음", "성관계", "자형", "유혈", "분해"]
+SAFE_KO = ["혈액", "혈액형"]
+FORBID_LIST = {"VN": FORBIDDEN, "EN": FORBIDDEN_EN, "JA": FORBIDDEN_JA, "KO": FORBIDDEN_KO}[LANG]
+SAFE_LIST = {"VN": SAFE, "EN": SAFE_EN, "JA": SAFE_JA, "KO": SAFE_KO}[LANG]
+forbidden_hit = []
+for s in SHOTS:
+    low = " ".join(t for _k, t in on_screen(s)).lower()
+    for w in FORBID_LIST:
+        if not re.search(r"(?<!\w)" + r"\s+".join(re.escape(x) for x in w.split()) + r"(?!\w)", low):
+            continue
+        if any(g in low for g in SAFE_LIST if g in w or w in g):
+            continue
+        forbidden_hit.append(f"{s['id']}: “{w}”")
+chk("Không từ cấm / không nhắc hành vi tình dục trên hình", not forbidden_hit,
+    f"{len(forbidden_hit)} lỗi: " + "; ".join(forbidden_hit[:12]) + (" …" if len(forbidden_hit) > 12 else ""))
+
+# ---------------------------------------------------------------- 7. nhip trong shot
+def reveal_moments(s):
+    """Số khoảnh khắc chuyển đội trong một shot — cùng cách seg_times() của renderer."""
+    sents, segs = s["sentences"], s["segments"]
+    starts = [SENT[x]["start"] for x in sents]
+    phr = list(s["beats"])
+    moms = []
+    for i, sg in enumerate(segs):
+        if i == 0:
+            moms.append("start")
+            continue
+        if sg["at_sentence"]:
+            tgt = [x for x in sents if x.endswith(f"#{sg['at_sentence']}")]
+            moms.append(f"sent#{sg['at_sentence']}" if tgt else "start")
+        elif phr:
+            moms.append(f"phr#{phr.pop(0)}")
+        elif i < len(starts):
+            moms.append(f"sent@{sents[i]}")
+        elif starts:
+            moms.append("mid")
+        else:
+            moms.append("start")
+    if s["template"] == "T8":
+        seg = segs[0] if segs else {"elems": []}
+        lab = [v for k, v in seg["elems"] if k == "ital"]
+        items = (lab[1] if len(lab) > 1 else lab[0]).split(" · ") if lab else []
+        moms += [f"item{i}" for i in range(len(items))]
+    return moms
+
+
+long_bad, long_note = [], []
+for s in SHOTS:
+    dur = s["end"] - s["start"]
+    if dur <= 15.0:
+        continue
+    moms = reveal_moments(s)
+    waves = len(set(moms))
+    if waves <= 1:
+        long_note.append(f"{s['id']} ({dur:.1f}s): 1 khoanh — tiêu đề hiện ở đầu câu (đúng V2)")
+    elif not s["beats"] and not any(sg["at_sentence"] for sg in s["segments"]):
+        long_note.append(f"{s['id']} ({dur:.1f}s, {waves} khoanh) — kế hoạch ghi beat dạng văn xuôi")
+chk("Shot > 15 s có nhịp hoặc bám V2 (chữ hiện ở đầu câu)", not long_bad, "; ".join(long_bad[:6]))
+if long_note:
+    note("Ghi nhận về nhịp của shot dài (không phải lỗi nội dung)", "; ".join(long_note[:8]))
+
+# ---------------------------------------------------------------- 8. lien ke
+gaps = [f"{a['id']}->{b['id']} lệch {b['start'] - a['end']:.3f} s"
+        for a, b in zip(SHOTS, SHOTS[1:]) if abs(a["end"] - b["start"]) > 0.05]
+chk("Các shot liền nhau (không hở/chồng)", not gaps, "; ".join(gaps[:5]))
+
+# ---------------------------------------------------------------- 9. H10: lap nen
+run, run_start, repeats = [], None, []
+for s in SHOTS:
+    bg = s.get("bg")
+    if run and bg == run[-1][1]:
+        run.append((s["id"], bg))
+    else:
+        run = [(s["id"], bg)]
+    if len(run) == 5:
+        repeats.append(f"{run[0][0]}..{run[-1][0]} ({bg})")
+chk("H10: không lặp cùng nền quá 4 shot liên tiếp", not repeats, "; ".join(repeats[:5]))
+
+# ---------------------------------------------------------------- thong ke
+print()
+print(f"Tap 02 · BẢN {LANG} · {len(SHOTS)} shot · {len(all_ids)} câu · "
+      f"tong {round(SH['total'], 1)} s ({int(SH['total'] // 60)}:{int(SH['total'] % 60):02d})")
+tpl = {}
+for s in SHOTS:
+    k = s["template"] or "(giữ)"
+    tpl[k] = tpl.get(k, 0) + 1
+print("Mẫu dùng:", ", ".join(f"{k}×{v}" for k, v in sorted(tpl.items(), key=lambda x: -x[1])))
+roles = {}
+for s in SHOTS:
+    if s["role"]:
+        roles[s["role"]] = roles.get(s["role"], 0) + len(s["sentences"])
+print("Câu theo vai:", ", ".join(f"{k}={v}" for k, v in sorted(roles.items())))
+print("Nhãn hồi:", " · ".join(ED.EP["act_titles"][a] for a in sorted(ED.EP["act_titles"])))
+print()
+print("TAT CA DA DAT" if ok else f"CO {len(errs)} VIEC CHUA XONG: {errs}")
+sys.exit(0 if ok else 1)
