@@ -63,6 +63,8 @@ def two_lines(t):
             return a or t
         return a + "\n" + b
     words = t.split()
+    if len(words) < 2:
+        return t
     # break where the longer of the two lines is shortest
     k = min(range(1, len(words)), key=lambda i: max(len(" ".join(words[:i])), len(" ".join(words[i:]))))
     return " ".join(words[:k]) + "\n" + " ".join(words[k:])

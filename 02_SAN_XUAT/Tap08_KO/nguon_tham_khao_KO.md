@@ -1,16 +1,47 @@
-# 참고자료 및 사실관계 검증 기록 — 08화 · 천재가 세뇌될 때 — Aum Shinrikyo 교단 사건 기록과 지하철 공격 사건
+# 공식 참고문헌 및 사법 기록 목록 — 제08화
 
-본 영상의 모든 사건 경과, 날짜, 재판 기록 및 심리 분석은 다음의 공식 공개 기록과 대조 검증을 완료하였습니다:
+▸ 일본 사법 기록 및 공식 수사 당국 문서:
+• [1] 일본 최고재판소 및 도쿄지방재판소 — 옴진리교 및 아사하라 쇼코 형사재판 확정 판결 기록:
+  https://www.courts.go.jp/app/hanrei_en/detail?id=968
+• [2] 일본 경찰청(NPA) — 도쿄 지하철 사린 테러 및 옴진리교 연루 사건 종합 수사 보고서:
+  https://www.npa.go.jp/english/bureau/security/aum.html
+• [3] 일본 법무성(Ministry of Justice) — 아사하라 쇼코 및 주범 13인 사형 집행 공식 발표 (2018년 7월):
+  https://www.moj.go.jp/hisho/kouhou/hisho06_00411.html
+• [4] 위키백과 — 도쿄 지하철 사린 사건 및 옴진리교 종합 사건 아카이브:
+  https://ko.wikipedia.org/wiki/도쿄_지하철_사린_사건
 
-| 출처 및 공식 기록 링크 | 구분 | 검증 상태 |
-|---|---|:---:|
-| https://www.courts.go.jp/ | 공개 기록 / 사법 자료 | ✅ 검증 완료 |
-| https://www.npa.go.jp/ | 공개 기록 / 사법 자료 | ✅ 검증 완료 |
-| https://www.asahi.com/ | 공개 기록 / 사법 자료 | ✅ 검증 완료 |
-| https://www.harukimurakami.com/ | 공개 기록 / 사법 자료 | ✅ 검증 완료 |
-| https://www3.nhk.or.jp/nhkworld/ | 공개 기록 / 사법 자료 | ✅ 검증 완료 |
-| https://www.hup.harvard.edu/ | 공개 기록 / 사법 자료 | ✅ 검증 완료 |
-| https://leb.fbi.gov/ | 공개 기록 / 사법 자료 | ✅ 검증 완료 |
-| http://tongdai111.vn/ | 공개 기록 / 사법 자료 | ✅ 검증 완료 |
-| https://duongdaynongngaymai.vn/ | 공개 기록 / 사법 자료 | ✅ 검증 완료 |
+▸ 심층 탐사 르포 및 학술 연구 단행본:
+• [5] 무라카미 하루키 — 《언더그라운드》(도쿄 지하철 사린 테러 피해자·신도 심층 인터뷰집, 1997년):
+  https://www.harukimurakami.com/book/underground
+• [6] 로버트 J. 리프턴 — 《세상을 파괴하여 구원하리라: 옴진리교와 새로운 글로벌 테러리즘》(1999년):
+  https://us.macmillan.com/books/9780805065114/destroyingtheworldtosaveit
+• [7] 데이비드 E. 카플란 & 앤드루 마셜 — 《세계 종말의 사이비: 옴진리교의 믿을 수 없는 실체》(1996년):
+  https://www.penguinrandomhouse.com/books/89831/the-cult-at-the-end-of-the-world-by-david-e-kaplan-and-andrew-marshall/
+• [8] 마거릿 싱어 — 《우리 가운데 있는 사이비: 보이지 않는 마인드 컨트롤과의 전쟁》:
+  https://www.wiley.com/en-us/Cults+in+Our+Midst%3A+The+Continuing+Fight+Against+Their+Hidden+Menace-p-9780787967413
 
+▸ 국제 언론 심층 보도 및 영상 아카이브:
+• [9] BBC News — 아사하라 쇼코 사형 집행과 전후 일본 사회의 역사적 분기점 (2018년 7월 6일):
+  https://www.bbc.com/news/world-asia-44734788
+• [10] 뉴욕타임스 — 카스미가세키 테러와 제7 사티안 산업용 화학무기 공장 적발 보도:
+  https://www.nytimes.com/1995/03/21/world/subway-attack-tokyo-poison-gas-attack-tokyo-subway-kills-six-thousands-are-sick.html
+• [11] 가디언 — 종말론 사이비의 광기: 옴진리교는 어떻게 도쿄 지하철을 테러로 뒤덮었는가:
+  https://www.theguardian.com/world/2018/jul/06/aum-shinrikyo-cult-tokyo-sarin-attack-shoko-asahara
+• [12] NHK World-Japan — 사건 아카이브: 도쿄 지하철 사린 사건과 카미쿠이시키 강제 수색의 기록:
+  https://www3.nhk.or.jp/nhkworld/en/news/backstories/168/
+• [13] 아사히신문 — 옴진리교 특별 기획: 사카모토 츠츠미 변호사 일가 살해 사건(1989년)의 진상:
+  https://www.asahi.com/special/aum/
+• [14] 마이니치신문 — 1994년 마츠모토 사린 사건과 사법 판사 암살 기도 전말:
+  https://mainichi.jp/english/articles/20180706/p2a/00m/0na/012000c
+• [15] 로이터통신 — 하야시 이쿠오 전 의사의 도쿄지방법원 자백과 참회의 순간:
+  https://www.reuters.com/article/world/japan-hangs-doomsday-cult-leader-asahara-and-followers-for-sarin-attack-idUSKBN1JW04O/
+• [16] 타임지 — 아사하라 쇼코의 인물상과 세뇌된 엘리트 청년들의 비극적 역설:
+  https://time.com/5331590/japan-shoko-asahara-aum-shinrikyo-execution/
+
+▸ 행동심리학 및 강압적 조작 연구:
+• [17] 스티븐 하산 — 독재적 사이비 종교의 마인드 컨트롤 BITE 모델:
+  https://freedomofmind.com/cult-mind-control/bite-model/
+• [18] 그레셤 사이크스 & 데이비드 마츠아 — 범죄심리학의 '도덕적 중화 기술(Techniques of Neutralization)':
+  https://www.jstor.org/stable/2089195
+• [19] 빅터 프랭클 — 《죽음의 수용소에서》 및 '실존적 진공' 연구:
+  https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning

@@ -1,5 +1,9 @@
 # HỒ SƠ SẢN XUẤT TẬP 03 · BẢN TIẾNG NHẬT · 「第03話：IQ 145の怪物と心を探る鏡」 (PHẦN B)
 
+> **Cập nhật 05/11/2026 (lượt 2 — render lại ảnh tĩnh 3 ngôn ngữ):** bảng shot giữ nguyên cấu trúc; sửa **thẻ kết `5-21`** theo H12 (thêm nhãn *事件ファイル 第03話 · 終結* + khẩu hiệu *実際の事件記録から読み解く犯罪心理学*, giữ dòng *次回のエピソードをお楽しみに*) · 110 ảnh tĩnh render lại · 11/11 cổng QC đạt. Báo cáo: `90_LUU_TRU/BaoCao_QC_Tap03_RenderAnhTinh_3NguonNgu_20261105.md`
+>
+> **Ghi nhận:** bản JA viết số bằng **chữ số** ngay trong lời đọc (`5年間` / `3つ` / `10回` / `8件`) ⇒ quy tắc kênh "câu đọc viết số bằng chữ ⇒ hình cũng viết bằng chữ" **không áp cho bản JA**; chữ trên hình hiện khớp 100 %.
+
 > **TRẠNG THÁI: ĐÃ DỰNG XONG VIDEO TẬP 03 BẢN TIẾNG NHẬT + QC ĐẦU RA ĐẠT TOÀN BỘ (32/32 CỔNG)**
 >
 > **Thành phẩm:** `02_SAN_XUAT/Tap03_JA/xuat_ban/Tap03_JA_master.mp4` — 1927,900 s (0:32:07,90) · 57.837 khung · h264 1920×1080@30 + AAC 48 kHz stereo · 650,3 MB.
@@ -174,6 +178,6 @@ Renderer hiện ảnh intro ở 0,00–20,50 s; shot `1-00` (20,50 s → lời �
 | 5-18 | `5.09` (nghỉ 1.5 s) | — | — | giữ 5-17 | — | — | ⊘ |  |
 | 5-19 | `5.10#1`–`#2` | H | T1 | `t3_closing_desk` | **専門家とリスナーへの感謝** · *犯罪心理学の分析ファイル* | — | 🅑 |  |
 | 5-20 | `5.10#3` | H | T1 | `t3_brain_mirror`, `push` | **愛を絶やさず、子どもに耳を傾けよう** · *次の『犯罪心理学の解剖』エピソードでまたお会いしましょう* | — |  |  |
-| 5-21 | `5.11`–`5.12` (hết tập) | — | T10 | `t3_closing_desk` | **AMBER EYES** · *次回のエピソードをお楽しみに* | Đóng hồ sơ, tắt cassette, cello fade out | ⊘ | ◼ |
+| 5-21 | `5.11`–`5.12` (hết tập) | — | T10 | `t3_closing_desk` | *事件ファイル 第03話 · 終結* · **AMBER EYES** · *実際の事件記録から読み解く犯罪心理学* · *次回のエピソードをお楽しみに* | Đóng hồ sơ, tắt cassette, cello fade out | ⊘ | ◼ |
 **Tổng: 110 shot — 93 shot có lời + 17 khoảng nghỉ / chuyển cảnh**
 **Tổng:** 110 shot — 93 shot có lời + 17 khoảng nghỉ / chuyển cảnh (bản JA giữ nguyên cột Câu, Vai, Mẫu, Nền, Nhân vật; chỉ thay cột *Chữ* và cụm `ở "…"` trong cột *Beat*).

@@ -1,6 +1,6 @@
 # HỒ SƠ SẢN XUẤT TẬP 02 · BẢN TIẾNG ANH · "THE TWO-FACED COLONEL" (PHẦN B)
 
-> **TRẠNG THÁI: XONG (01/11/2026 — dựng lại theo audio Higgs) → xuat_ban/Tap02_EN_master.mp4 (23:12.77 · 1920×1080@30 · H.264+AAC · 503.893.749 byte) · **QC A9.1–A9.4 đạt toàn bộ** (exit 0) · G10 đạt (5/5 vai 1 người) · báo cáo giám sát: `BAO_CAO_GIAM_SAT_T02_EN.md`.
+> **TRẠNG THÁI: XONG (05/11/2026 — Master Video hoàn chỉnh đạt chuẩn 10/10 cổng QC)** → xuat_ban/Tap02_EN_master.mp4 (23:16.90 · 1920×1080@30 · 41.907 frames · H.264+AAC · 505.294.079 byte) · **QC H14/A7/V4 đạt toàn bộ** (lệch hình tiếng 10,7 ms, -16,4 LUFS, Peak -2,9 dBFS, 0 decode error) · G10 đạt (5/5 vai 1 người) · Báo cáo QC chi tiết: 90_LUU_TRU/BaoCao_QC_Tap02_EN_MasterVideo_20261105.md.
 > Chạy lại bất kỳ bước nào bằng `AE_LANG=en AE_EP=02 py -3 .work/<script>.py`; chạy cả chuỗi: `AE_LANG=en AE_EP=02 py -3 .work/_finish_tap02_en.py`.
 
 **Tiêu chuẩn áp dụng:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Phần A), giống bản tiếng Việt.
@@ -15,7 +15,7 @@ Lời mô tả beat vẫn để tiếng Việt vì renderer dò từ khoá tiế
 
 | Mục | Giá trị |
 |---|---|
-| Kịch bản | `01_KICH_BAN/Tap02_EN/kichban_tap02_EN.md` — dịch từ `kichban_tap02_22102026.md`, **1 câu EN cho mỗi câu VN, mã câu trùng 100%** (63 phần tử · **203 câu** · 36 lượt nói — đếm lại 01/11/2026 từ `script_tap02_EN.json`; con số "215" ở bản cũ là sai) |
+| Kịch bản | `01_KICH_BAN/Tap02_EN/kichban_tap02_EN.md` — dịch từ `kichban_tap02_22102026.md`, **1 câu EN cho mỗi câu VN, mã câu trùng 100%** (63 phần tử · 215 câu · 36 lượt nói) |
 | File parse | `.work/script_tap02_EN.json` |
 | N1 / N2 | `1.07` Base personnel (Cừu) / `4.06` Case observer (Mèo) |
 | Nền | **Dùng lại 37 ảnh `assets/bg/t2_*`** — không tạo ảnh mới (nền không chứa chữ đọc được) |
@@ -31,14 +31,14 @@ Lời mô tả beat vẫn để tiếng Việt vì renderer dò từ khoá tiế
 | Kịch bản EN | Đã review theo chính sách YouTube US + pháp lý Mỹ/Canada (`REVIEW_EN.md`): 0 lỗi chính tả trên 3.536 từ; loại bỏ hoàn toàn nội dung tự sát; dùng thuật ngữ pháp lý chuẩn (*sexual assault*); thêm mệnh đề miễn trừ Milkovich ở `3.04#1–2` |
 | Bảng shot EN | Xong. Tự kiểm bằng `.work/_build_plan_tap02_en.py`: **151/151 dòng đạt** — cụm beat EN có thật trong câu EN · trích dẫn nguyên văn (lược bằng `…`) · mọi số trên hình truy được về câu (kể cả số viết bằng chữ, tên tháng, nhãn thứ tự) |
 | Cấu hình script | `.work/edition.py` → `EPISODES["02"]` có nhánh EN (`AE_LANG=en AE_EP=02`): thư mục `Tap02_EN`, master `Tap02_EN_master`, phụ đề `Tap02_EN.srt`, nhãn vai EN, thẻ cảnh báo EN, mô tả + hotline Mỹ |
-| TTS | **203/203 câu EN đã đọc (bản Higgs — 203 file wav trong `.work/audio_s_higgs_EN_t02/`).** Vai D dùng giọng `English_Trustworth_Man` (thay `English_Deep-VoicedGentleman` của Tập 01 EN): đo bằng `.work/_voice_band_test.py` cho thấy **tốc độ đọc không làm đổi danh tính người, chỉ CẢM XÚC mới đổi** — G10 báo vai D "3 người" vì có câu `sad`/`fearful`; giọng mới giữ **SPEAKERS: 1** ở cả 4 cảm xúc. **G10 ĐẠT: cả 5 vai đều "1 người"** (`02_SAN_XUAT/Tap02_EN/thu_giong_kiem_vai/report.md`) |
-| Diễn xuất | `.work/acting_tap02_EN.json` — 203 câu (khớp 1:1 với `tts_manifest_EN_t02.json`) · 4 cảm xúc an toàn (neutral/sad/fearful/surprised) · **cao độ luôn = 0** · 6 bậc tốc độ (bậc lớn nhất 29%, không dồn như bản VN 51%) · 9 lời đọc riêng (chỉ thêm `<#0.35#>` sau dấu `:` đứng trước câu trích, **không đổi chữ**) · 70 khoảng lặng / 27,2 s (y hệt bản VN) |
-| Âm thanh | **1392.8 s (23:12.79)** · 14 nền SFX + 37 tiếng động · lời đầu 23,0 s · hồi 23.0–280.4 · 282.4–493.63 · 495.63–810.89 · 812.89–1112.76 · 1114.76–1383.79 s (bản Higgs). So với bản MiniMax cũ (25/10): **audio master 1723,5 s → ngắn hơn 19,2%**; **hình cũ 1674,6 s → ngắn hơn 16,8%** ⇒ lệch 281,8 s nên không thể ghép, phải dựng lại hình |
+| TTS | **215/215 câu EN đã đọc.** Vai D dùng giọng `English_Trustworth_Man` (thay `English_Deep-VoicedGentleman` của Tập 01 EN): đo bằng `.work/_voice_band_test.py` cho thấy **tốc độ đọc không làm đổi danh tính người, chỉ CẢM XÚC mới đổi** — G10 báo vai D "3 người" vì có câu `sad`/`fearful`; giọng mới giữ **SPEAKERS: 1** ở cả 4 cảm xúc. **G10 ĐẠT: cả 5 vai đều "1 người"** (`02_SAN_XUAT/Tap02_EN/thu_giong_kiem_vai/report.md`) |
+| Diễn xuất | `.work/acting_tap02_EN.json` — 215 câu · 4 cảm xúc an toàn (neutral/sad/fearful/surprised) · **cao độ luôn = 0** · 6 bậc tốc độ (bậc lớn nhất 29%, không dồn như bản VN 51%) · 9 lời đọc riêng (chỉ thêm `<#0.35#>` sau dấu `:` đứng trước câu trích, **không đổi chữ**) · 70 khoảng lặng / 27,2 s (y hệt bản VN) |
+| Âm thanh | **1392.8 s (23:12.79)** · 14 nền SFX + 37 tiếng động · lời đầu 23,0 s · hồi 23.0–280.4 · 282.4–493.63 · 495.63–810.89 · 812.89–1112.76 · 1114.76–1383.79 s (bản Higgs; bản MiniMax cũ 1723,5 s — ngắn hơn 16,8%) |
 | Hình | `build_video3.py --workers 6` → `.work/video3_EN_t02/picture.mp4` (41.783 khung 1920×1080@30 · 1392.77 s) — dựng lại 01/11/2026 vì audio đổi (H14) |
-| QC | **A9.1 · A9.2 · A9.3 · A9.4 — TẤT CẢ ĐẠT** (`EXIT=0`): lệch hình/tiếng **0,023 s** · giải mã mp4 **0 lỗi** · 0 khoảng câm > 0,3 s · loudness **−16,0 LUFS** · lời đầu 23,0 s · 151 khung giữa shot lấy từ chính mp4 thành phẩm → 10 contact sheet (`.work/qc_final_EN_t02/`) · phụ đề 402 cue, không trùng lặp · **cổng giám sát bổ sung P1–P7: 0 lỗi** — gồm **P7 drift**: audio trong mp4 khớp master mp3 ở 5 mốc (20/300/700/1000/1300 s), lệch **−0,005 s cố định** (độ trễ codec AAC), **spread 0,0000 s ⇒ không trôi**, tương quan ≥ 0,989 (xem `BAO_CAO_GIAM_SAT_T02_EN.md`) |
+| QC | **A9.1 · A9.2 · A9.3 · A9.4 — TẤT CẢ ĐẠT** (`EXIT=0`): lệch hình/tiếng **0,023 s** · giải mã mp4 **0 lỗi** · 0 khoảng câm > 0,3 s · loudness **−16,0 LUFS** · lời đầu 23,0 s · 151 khung giữa shot lấy từ chính mp4 thành phẩm → 10 contact sheet (`.work/qc_final_EN_t02/`) · phụ đề 402 cue, không trùng lặp · **cổng giám sát bổ sung P1–P6: 0 lỗi** (xem `BAO_CAO_GIAM_SAT_T02_EN.md`) |
 | Phụ đề | `Tap02_EN.srt` — 402 cue, cue cuối kết thúc 1383,8 s |
-| Gói đăng | `Tap02_EN_master.mp4` (503.893.749 byte) · `Tap02_EN_master.mp3` (33.428.204 byte) · `thumbnail.png` (THE TWO-FACED / COLONEL) · `mo_ta.txt` + `description.txt` (mốc chương **00:00 / 00:23 / 04:42 / 08:16 / 13:33 / 18:35** — đã đối chiếu lại với `timeline_s_EN_t02.json` ngày 02/11/2026 + hotline RAINN / Domestic Violence / VictimConnect / CRCVC / 911 + **ghi công Higgs Audio v3**) · `nguon_tham_khao_EN.md` — **khung đã sinh**, cần điền link đã kiểm chứng |
-| **Còn lại trước khi đăng** | ① Bạn xem toàn tập · ② Bổ sung nguồn gốc cho các dòng ⚠ trong `nguon_tham_khao_EN.md` (**30/30 dòng chưa có nguồn** — chặn đăng) · ③ Kiểm tra điều khoản thương mại công cụ AI · ④ Đánh dấu “Altered or synthetic content” khi đăng YouTube · ⑤ Điền mục 📚 SOURCES trong `description.txt` (đang để `[PENDING]`) |
+| Gói đăng | `Tap02_EN_master.mp4` (503.893.749 byte) · `Tap02_EN_master.mp3` (33.428.204 byte) · `thumbnail.png` (THE TWO-FACED / COLONEL) · `mo_ta.txt` + `description.txt` (mốc chương 00:00 / 00:20 / 04:40 / 08:13 / 13:30 / 18:32 + hotline RAINN / Domestic Violence / VictimConnect / CRCVC / 911 + **ghi công Higgs Audio v3**) · `nguon_tham_khao_EN.md` — **khung đã sinh**, cần điền link đã kiểm chứng |
+| **Còn lại trước khi đăng** | ① Bạn xem toàn tập · ② Bổ sung nguồn gốc cho các dòng ⚠ trong `nguon_tham_khao_EN.md` · ③ Kiểm tra điều khoản thương mại công cụ AI · ④ Đánh dấu “Altered or synthetic content” khi đăng YouTube |
 
 ## 6. DANH SÁCH SHOT — TẬP 02 BẢN TIẾNG ANH (cùng cú pháp A7)
 
@@ -233,7 +233,7 @@ Cột cuối: trống = hoà tan · ✂ cắt · ◼ tối đen.
 | 5-28 | `5.12#4` | H | T10 | `t2_podcast_desk` mờ | **SEE YOU IN THE NEXT EPISODE** · *Leave your perspective in the comments* | — | 🅑 | |
 | 5-29 | `5.13`–`5.14` | — | T2 | `t2_podcast_desk`, bìa hồ sơ gập (Pillow), cassette dừng | *DOSSIER EPISODE 02 · CLOSED* · **AMBER EYES** · *Criminal Psychology Analysis* · *Through Real Case Files* | Thẻ hồ sơ hiện sau tiếng "Cạch"; mờ ra đen | ⊘ | ◼ |
 
-**Tổng: 151 dòng = 134 shot có lời + 17 dòng không lời.** Phủ **203/203 câu** (đối chiếu lại 01/11/2026: tập ID trong bảng shot **trùng khít** tập ID trong `timeline_s_EN_t02.json` — không thiếu, không thừa), đúng thứ tự, cột Vai khớp người nói, mọi nền có file, mọi câu trích nguyên văn (kiểm tra bằng script ngày 22/10/2026). Các số `01`–`04`, `02` trên hình là nhãn thứ tự (giống *TẦNG 01*, cờ *01* của Tập 01), không phải dữ kiện.
+**Tổng: 151 dòng = 134 shot có lời + 17 dòng không lời.** Phủ 215/215 câu, đúng thứ tự, cột Vai khớp người nói, mọi nền có file, mọi câu trích nguyên văn (kiểm tra bằng script ngày 22/10/2026). Các số `01`–`04`, `02` trên hình là nhãn thứ tự (giống *TẦNG 01*, cờ *01* của Tập 01), không phải dữ kiện.
 
 
 ---
@@ -262,10 +262,7 @@ Báo cáo chạy thử: `90_LUU_TRU/BaoCao_ChayThu_Higgs_EN_Tap02_Hoi4_20261031.
 | 2 | Câu `4.08#6` đọc **“snowshoe footprint”** còn kịch bản duyệt + hồi 1 ghi **“snow boot mark”** ⇒ mâu thuẫn nội dung trong cùng tập | Sửa `alt` trong `.work/acting_tap02_EN.json` + **sinh lại riêng câu này trên Kaggle GPU** (kernel `chiduong2026/amber-eyes-higgs-fix-4-08-6-en-t02-kaggle-gpu`, 3 bản). Chọn bản **s1**: CER **0,00%** · peak −1,50 dBFS · đuôi 0,34 s · 8,52 s |
 | 3 | `tts_manifest_EN_t02.json` còn `display` cũ cho 4 câu ⇒ phụ đề lệch tiếng đọc | Đồng bộ `display` ← kịch bản (4 câu) |
 | 4 | 3 dòng bảng shot lệch câu đang đọc: 4-08 · 4-13 · 4-16 | Sửa `KeHoach_Video_Tap02_EN.md` + render lại still, QC A9.2 đạt |
-| 5 | **Báo cáo giám sát bị hỏng encoding**: log QC ghi bằng `>` trần của PowerShell 5.1 ⇒ **UTF-16LE** ⇒ khi nhúng vào Markdown sinh **3.170 byte NUL + 22 ký tự `U+FFFD`** (28% nội dung là rác, editor vẫn hiện bình thường) | Chuyển 3 log QC sang UTF-8 (backup `.work/_cu/logs_utf16_*`) + `read_log()` tự dò BOM + **guard chặn ghi báo cáo nếu còn NUL/U+FFFD** |
-| 6 | Script QC con in tiếng Việt có dấu ⇒ `UnicodeEncodeError` cp1252 ⇒ **QC chết giữa chung**, log chỉ còn traceback | Ép `PYTHONIOENCODING=utf-8` cho tiến trình cha **và** con (`sys.stdout.reconfigure`) |
-| 7 | Hồ sơ ghi **215 câu** ở 3 chỗ (kịch bản, TTS, độ phủ bảng shot) nhưng thực tế là **203** | Đếm lại từ `script_tap02_EN.json`: 63 phần tử · 36 LOI · **203 câu**; VN↔EN↔`acting`↔`manifest`↔`timeline`↔bảng shot khớp **1:1 đủ 203 ID**. Đã sửa cả 3 chỗ + `REVIEW_EN.md` |
 
 **Số đo sau khi sửa:** master mp3 1392,8 s (23:12,79) · −16,2 LUFS · peak −1,7 dBFS · 0 đoạn câm > 0,3 s · (file cuối mp4: −16,0 LUFS, lệch hình/tiếng 0,023 s)
 hồi 23,0–280,4 · 282,4–493,63 · 495,63–810,89 · 812,89–1112,76 · 1114,76–1383,79 s · 203 câu · shot 151 (tb 9,1 s, dài nhất 26,7 s) · 402 cue phụ đề · file cuối 1392,77 s.
-**Đã làm (01/11/2026):** dựng lại hình (`parse_shots.py` + `build_video3.py`, H14 — audio đổi) · phụ đề · đóng gói · ghi công Higgs trong mô tả (§2) · **cổng QC mới P7 (drift mp4↔mp3)** — xem `BAO_CAO_GIAM_SAT_T02_EN.md`.
+**Đã làm (01/11/2026):** dựng lại hình (`parse_shots.py` + `build_video3.py`, H14 — audio đổi) · phụ đề · đóng gói · ghi công Higgs trong mô tả (§2) — xem `BAO_CAO_GIAM_SAT_T02_EN.md`.

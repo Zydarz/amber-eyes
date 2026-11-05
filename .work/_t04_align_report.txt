@@ -1,0 +1,452 @@
+=== 1.03  cũ 4 → mới 6  | khớp 4 | mới-mồ côi [4, 5] | cũ-mồ côi []
+   1.03#1 -> 1.03#1  sim=1.00
+      cũ : Mùa thu năm 2003.
+      mới: Mùa thu năm 2003.
+   1.03#2 -> 1.03#2  sim=1.00
+      cũ : Tại Trung tâm Y tế Somerset thuộc thị trấn Somerville, bang New Jersey, nước Mỹ.
+      mới: Tại Trung tâm Y tế Somerset thuộc thị trấn Somerville, bang New Jersey, nước Mỹ.
+   1.03#3 -> 1.03#3  sim=1.00
+      cũ : Trong căn phòng Hồi sức Tích cực ICU ngập ánh đèn huỳnh quang trắng lạnh, Charles Cullen là gương mặt quen thuộc của những ca trực đêm vất vả nhất.
+      mới: Trong căn phòng Hồi sức Tích cực ICU ngập ánh đèn huỳnh quang trắng lạnh, Charles Cullen là gương mặt quen thuộc của những ca trực đêm vất vả nhất.
+   1.03#4 -> 1.03#4  sim=1.00
+      cũ : Người đàn ông 43 tuổi ấy có dáng người gầy gò, giọng nói nhỏ nhẹ, luôn xuất hiện với nụ cười hiền lành và sẵn sàng nhận làm thay ca trực cho bất kỳ đồ
+      mới: Người đàn ông 43 tuổi ấy có dáng người gầy gò, giọng nói nhỏ nhẹ, luôn xuất hiện với nụ cười hiền lành và sẵn sàng nhận làm thay ca trực cho bất kỳ đồ
+   [MỚI, chưa có dòng] 1.03#5: Hắn là hiện thân của một người chăm sóc tận tụy, không bao giờ phàn nàn trước những ca cấp cứu kéo dài thâu đêm.
+   [MỚI, chưa có dòng] 1.03#6: Thế nhưng, chính chiếc áo blouse trắng tinh tươm ấy đã tạo nên một “Hiệu ứng Hào quang” hoàn hảo, che giấu một vực thẳm tâm lý đen tối suốt 16 năm ròng rã.
+=== 1.05  cũ 3 → mới 4  | khớp 3 | mới-mồ côi [2] | cũ-mồ côi []
+   1.05#1 -> 1.05#1  sim=0.93
+      cũ : Trong một môi trường y tế đầy áp lực, nơi ranh giới giữa sự sống và sự ra đi chỉ tính bằng từng giây, Cullen được xem như một người đồng nghiệp đáng t
+      mới: Trong một môi trường y tế đầy áp lực, nơi ranh giới giữa sự sống và sự ra đi chỉ tính bằng từng giây, Cullen được xem như một chỗ dựa đáng tin cậy.
+   1.05#2 -> 1.05#2  sim=0.91
+      cũ : Hắn luôn là người đầu tiên chạy đến phụ giúp khi có bệnh nhân trở nặng, và là người lặng lẽ dọn dẹp phòng bệnh sau những ca cấp cứu bất thành.
+      mới: Hắn luôn là người đầu tiên chạy đến phụ giúp khi có bệnh nhân trở nặng, và lặng lẽ ở lại dọn dẹp phòng bệnh sau những ca cấp cứu thất bại.
+   1.05#3 -> 1.05#4  sim=0.81
+      cũ : Để hiểu sự quý mến và tin tưởng ấy lớn đến mức nào, hãy lắng nghe chia sẻ từ một nữ y tá từng kề vai sát cánh cùng hắn qua hàng trăm ca trực đêm.
+      mới: Để hiểu sự quý mến và tin tưởng ấy lớn đến mức nào, hãy hình dung cảm nhận của những người từng kề vai sát cánh cùng hắn qua hàng trăm ca trực đêm.
+   [MỚI, chưa có dòng] 1.05#3: Đồng nghiệp coi hắn là một người bạn hiền lành, một người cha trầm lặng luôn hết lòng vì công việc.
+=== 1.07  cũ 4 → mới 5  | khớp 4 | mới-mồ côi [4] | cũ-mồ côi []
+   1.07#1 -> 1.07#1  sim=0.85
+      cũ : Trong mắt tất cả y tá chúng tôi, Charlie là một người bạn tuyệt vời.
+      mới: Trong mắt tất cả y tá chúng tôi tại bệnh viện Somerset, Charlie là một người bạn tuyệt vời.
+   1.07#2 -> 1.07#2  sim=0.85
+      cũ : Anh ấy chu đáo, không bao giờ cáu gắt và có đôi bàn tay chăm sóc bệnh nhân vô cùng ân cần.
+      mới: Anh ấy chu đáo, không bao giờ cáu gắt và luôn chăm sóc người bệnh vô cùng ân cần.
+   1.07#3 -> 1.07#3  sim=0.48
+      cũ : Khi tôi mệt mỏi hay đau ốm, anh ấy luôn chủ động chia sẻ công việc, thậm chí lén lấy thuốc giảm đau giúp tôi.
+      mới: Khi các ca trực đêm quá tải và mệt mỏi, anh ấy luôn chủ động nhận gánh vác những phần việc nặng nhọc nhất mà chẳng một lời than vãn.
+   1.07#4 -> 1.07#4  sim=0.94
+      cũ : Không một ai trong bệnh viện có thể mảy may nghi ngờ một người đàn ông hiền lành và tận tụy đến như thế.
+      mới: Không một ai trong bệnh viện có thể mảy may nghi ngờ một người đồng nghiệp hiền lành và tận tụy đến như thế.
+   [MỚI, chưa có dòng] 1.07#5: Cho đến khi sự thật vỡ lở, tất cả chúng tôi đều lạnh sống lưng vì nhận ra mình đã cùng làm việc bên cạnh một kẻ sát nhân hàng loạt nguy hiểm nhất.
+=== 1.08  cũ 4 → mới 6  | khớp 4 | mới-mồ côi [4, 5] | cũ-mồ côi []
+   1.08#1 -> 1.08#1  sim=0.82
+      cũ : Thế nhưng, đằng sau cặp kính cận trí thức và chiếc áo blouse trắng tinh tươm ấy, một bóng ma tử thần đang âm thầm bước đi qua từng hành lang bệnh viện
+      mới: Thế nhưng, đằng sau cặp kính cận trí thức và nụ cười hòa nhã ấy, một bóng ma tử thần đang âm thầm gieo rắc bi kịch qua từng hành lang bệnh viện.
+   1.08#2 -> 1.08#2  sim=1.00
+      cũ : Ngày 28 tháng 6 năm 2003, linh mục Florian Gall 68 tuổi, nguyên cha sở tại vùng Somerset, nhập viện vì viêm phổi và biến chứng nhiễm trùng.
+      mới: Ngày 28 tháng 6 năm 2003, linh mục Florian Gall 68 tuổi, nguyên cha sở tại vùng Somerset, nhập viện vì viêm phổi và biến chứng nhiễm trùng.
+   1.08#3 -> 1.08#3  sim=0.56
+      cũ : Sức khỏe của ngài khi ấy đang hồi phục ổn định và chuẩn bị được xuất viện về nhà.
+      mới: Bệnh tình của ngài đang tiến triển rất khả quan và các bác sĩ dự kiến ngài sẽ sớm được xuất viện về nhà.
+   1.08#4 -> 1.08#4  sim=0.84
+      cũ : Thế nhưng, chỉ vài giờ sau khi bước vào ca trực đêm của Charles Cullen, tim của vị linh mục đột ngột đập loạn nhịp rồi ngừng thở hoàn toàn.
+      mới: Thế nhưng, chỉ vài giờ sau khi bước vào ca trực đêm của Charles Cullen, vị linh mục đột ngột rơi vào cơn loạn nhịp kịch phát rồi trụy tim hoàn toàn.
+   [MỚI, chưa có dòng] 1.08#5: Các bác sĩ hồi sức cấp cứu đã chiến đấu suốt nhiều giờ nhưng không thể đảo ngược tình thế.
+   [MỚI, chưa có dòng] 1.08#6: Đó là một sự ra đi đầy bất thường khiến gia đình và các đồng nghiệp bàng hoàng nghi vấn.
+=== 1.10  cũ 3 → mới 5  | khớp 1 | mới-mồ côi [1, 2, 3, 4] | cũ-mồ côi [1, 2]
+   1.10#1 -> 1.10#1  sim=0.82
+      cũ : Khi kết quả xét nghiệm độc chất học pháp y được gửi về từ phòng thí nghiệm, các bác sĩ đã kinh hoàng phát hiện: Nồng độ Digoxin – một loại thuốc trợ t
+      mới: Khi kết quả xét nghiệm độc chất học pháp y được gửi về từ phòng thí nghiệm, các bác sĩ đã kinh hoàng phát hiện nồng độ Digoxin cực cao trong cơ thể vị
+   [MỚI, chưa có dòng] 1.10#2: Digoxin là một loại thuốc trợ tim cực mạnh, nhưng liều lượng tìm thấy trong máu nạn nhân cao gấp hàng chục lần ngưỡng an toàn cho phép.
+   [MỚI, chưa có dòng] 1.10#3: Trái tim của vị linh mục đã bị bóp nghẹt bởi một liều độc dược nhân tạo chứ không phải vì bệnh lý tự nhiên.
+   [MỚI, chưa có dòng] 1.10#4: Tiến sĩ Steven Marcus, Giám đốc Hệ thống Thông tin Độc chất New Jersey, đã lập tức gửi cảnh báo khẩn cấp tới ban giám đốc bệnh viện về nguy cơ có kẻ đang đầu độ
+   [MỚI, chưa có dòng] 1.10#5: Thế nhưng, thay vì báo cảnh sát, ban lãnh đạo bệnh viện đã chọn cách trì hoãn và giữ kín sự việc suốt nhiều tháng trời.
+=== 1.12  cũ 1 → mới 2  | khớp 1 | mới-mồ côi [1] | cũ-mồ côi []
+   1.12#1 -> 1.12#1  sim=0.66
+      cũ : Để hiểu rõ quy mô chấn động của vụ án, chúng ta hãy lắng nghe thông tin từ Điều tra viên trực tiếp thụ lý hồ sơ.
+      mới: Để hiểu rõ quy mô chấn động và bức tranh toàn cảnh của hồ sơ y tế đen tối này, chúng ta hãy lắng nghe phân tích từ Điều tra viên chuyên án.
+   [MỚI, chưa có dòng] 1.12#2: Những con số nằm sâu trong bóng tối sẽ cho thấy mức độ tàn khốc vượt xa trí tưởng tượng của công chúng.
+=== 1.14  cũ 6 → mới 8  | khớp 6 | mới-mồ côi [4, 7] | cũ-mồ côi []
+   1.14#1 -> 1.14#1  sim=0.92
+      cũ : Khi chúng tôi lật lại lịch sử công tác của Charles Cullen, một sự thật kinh hoàng đã mở ra trước mắt ban chuyên án:
+      mới: Khi chúng tôi lật lại lịch sử công tác của Charles Cullen, một bức tranh kinh hoàng đã hiện rõ trước mắt ban chuyên án.
+   1.14#2 -> 1.14#2  sim=0.61
+      cũ : Somerset Medical Center không phải là nơi đầu tiên.
+      mới: Trung tâm Y tế Somerset hoàn toàn không phải là hiện trường đầu tiên.
+   1.14#3 -> 1.14#3  sim=1.00
+      cũ : Trong suốt 16 năm, từ năm 1988 đến năm 2003, Charles Cullen đã làm việc qua 9 bệnh viện và 1 viện dưỡng lão khác nhau trên khắp hai bang New Jersey và
+      mới: Trong suốt 16 năm, từ năm 1988 đến năm 2003, Charles Cullen đã làm việc qua 9 bệnh viện và 1 viện dưỡng lão khác nhau trên khắp hai bang New Jersey và
+   1.14#4 -> 1.14#4  sim=0.88
+      cũ : Và ở bất cứ nơi nào hắn đặt chân đến, tỷ lệ bệnh nhân tử vong vì ngưng tim bất thường vào ca đêm đều tăng vọt theo một đồ thị kỳ dị.
+      mới: Ở bất cứ nơi nào hắn đặt chân đến, tỷ lệ bệnh nhân tử vong vì ngưng tim đột ngột vào ca trực đêm đều tăng vọt theo một đồ thị bất thường.
+   1.14#5 -> 1.14#6  sim=0.53
+      cũ : Cullen thừa nhận đã tước đoạt mạng sống của khoảng 40 bệnh nhân.
+      mới: Cullen thừa nhận đã sát hại khoảng 40 bệnh nhân, và cơ quan công tố xác nhận 29 nạn nhân trong số đó.
+   1.14#6 -> 1.14#7  sim=0.42
+      cũ : Nhưng dựa trên nhật ký rút thuốc và hồ sơ bệnh án qua 16 năm, chúng tôi cùng các chuyên gia dịch tễ học ước tính: Con số nạn nhân thực sự có thể lên t
+      mới: Tuy nhiên, dựa trên hồ sơ theo dõi dịch tễ và lượng thuốc mất tích bí ẩn, các chuyên gia điều tra nhận định con số thực tế có thể lên tới 400 nạn nhân
+   [MỚI, chưa có dòng] 1.14#5: Hắn bị nghi ngờ ở nơi này, liền bị buộc thôi việc trong im lặng, rồi lại dễ dàng cầm thư giới thiệu chuyển sang một bệnh viện khác để tiếp tục hành vi săn mồi.
+   [MỚI, chưa có dòng] 1.14#8: Điều đó biến Charles Cullen thành kẻ giết người hàng loạt tàn khốc nhất trong toàn bộ lịch sử y tế nước Mỹ.
+=== 1.16  cũ 3 → mới 5  | khớp 3 | mới-mồ côi [3, 4] | cũ-mồ côi []
+   1.16#1 -> 1.16#1  sim=0.82
+      cũ : Chào mừng bạn đến với hồ sơ phân tích tâm lý học tội phạm.
+      mới: Chào mừng bạn đến với kênh phân tích tâm lý tội phạm Amber Eyes.
+   1.16#2 -> 1.16#2  sim=0.93
+      cũ : Hôm nay, chúng ta sẽ mở khóa một trong những hồ sơ đen tối và nhức nhối nhất của nền y tế thế giới: Hồ sơ Charles Cullen – kẻ mang biệt danh “Thiên th
+      mới: Hôm nay, chúng ta cùng giải phẫu một trong những hồ sơ đen tối và nhức nhối nhất của nền y học thế giới: Hồ sơ Charles Cullen, kẻ mang biệt danh “Thiê
+   1.16#3 -> 1.16#3  sim=0.50
+      cũ : Tập này sẽ giải phẫu hai cơ chế tâm lý đen tối: Phức cảm Chúa trời ngầm và Kỹ thuật trung hòa đạo đức, đồng thời vạch trần một sự thật tàn nhẫn hơn cả
+      mới: Tập phim này sẽ làm sáng tỏ hai hiện tượng tâm lý méo mó: “Phức cảm Chúa trời” và kỹ thuật trung hòa đạo đức giúp một kẻ sát nhân ngủ yên mỗi đêm.
+   [MỚI, chưa có dòng] 1.16#4: Đồng thời, chúng ta sẽ bóc trần sự thật cay đắng hơn cả tội ác của hắn: sự im lặng đồng lõa của chín bệnh viện vì nỗi sợ kiện tụng và trách nhiệm pháp lý.
+   [MỚI, chưa có dòng] 1.16#5: Đó là bài học đắt giá về sự bất an tập thể và cái giá phải trả khi xã hội nhắm mắt trước những tín hiệu cảnh báo đỏ sinh tồn.
+=== 2.02  cũ 3 → mới 4  | khớp 3 | mới-mồ côi [3] | cũ-mồ côi []
+   2.02#1 -> 2.02#1  sim=0.93
+      cũ : Hiện trường của những vụ án nghiêm trọng thông thường là những con hẻm tối, những căn nhà hoang hay rừng sâu hẻo lánh.
+      mới: Hiện trường của những vụ án giết người thông thường là những con hẻm tối, những căn nhà hoang hay rừng sâu hẻo lánh.
+   2.02#2 -> 2.02#2  sim=0.96
+      cũ : Nhưng hiện trường của Charles Cullen lại là những căn phòng điều trị vô trùng, nơi người bệnh gửi gắm sinh mạng và niềm tin trọn vẹn nhất.
+      mới: Thế nhưng, hiện trường của Charles Cullen lại là những căn phòng điều trị vô trùng, nơi người bệnh gửi gắm sự sống và niềm tin trọn vẹn nhất.
+   2.02#3 -> 2.02#3  sim=0.78
+      cũ : Và công cụ gây án của hắn không phải là súng đạn hay hung khí, mà là những ống thuốc cứu người được bào chế bởi nền y học hiện đại: Digoxin, Insulin v
+      mới: Công cụ gây án của hắn không phải là súng đạn hay hung khí thô bạo, mà là chính những ống thuốc cứu người của nền y học hiện đại.
+   [MỚI, chưa có dòng] 2.02#4: Chính sự đối lập tàn nhẫn ấy đã tạo nên một tấm bình phong che mắt toàn bộ hệ thống giám sát suốt 16 năm ròng rã.
+=== 2.04  cũ 2 → mới 3  | khớp 2 | mới-mồ côi [1] | cũ-mồ côi []
+   2.04#1 -> 2.04#1  sim=0.52
+      cũ : Để có thể tước đoạt mạng sống của hàng trăm con người suốt 16 năm mà không để lại bất kỳ dấu vết nào, Cullen đã khai thác triệt để những kẽ hở cơ học 
+      mới: Để có thể lẩn tránh qua chín cơ sở y tế mà không bị phát giác, Cullen đã khai thác triệt để những kẽ hở quản lý kỹ thuật số thời kỳ đầu.
+   2.04#2 -> 2.04#3  sim=0.64
+      cũ : Xin mời Điều tra viên tái hiện lại phương thức hoạt động tinh vi này.
+      mới: Xin mời Điều tra viên tái hiện lại thủ đoạn tinh vi và quỹ đạo leo thang hành vi của kẻ thủ ác.
+   [MỚI, chưa có dòng] 2.04#2: Hắn biến chiếc máy cấp phát thuốc tự động thành công cụ phục vụ cho những ảo tưởng quyền lực bệnh hoạn của mình.
+=== 2.06  cũ 11 → mới 15  | khớp 6 | mới-mồ côi [3, 5, 6, 7, 8, 10, 12, 13, 14] | cũ-mồ côi [2, 4, 6, 7, 10]
+   2.06#1 -> 2.06#1  sim=0.70
+      cũ : Vào đầu thập niên 2000, các bệnh viện tại Mỹ bắt đầu chuyển sang sử dụng tủ cấp phát thuốc tự động có tên là Pyxis MedStation.
+      mới: Vào đầu những năm 2000, các bệnh viện bắt đầu sử dụng tủ cấp phát thuốc tự động Pyxis MedStation để quản lý dược phẩm chặt chẽ hơn.
+   2.06#2 -> 2.06#2  sim=0.90
+      cũ : Về nguyên lý, mỗi y tá phải dùng mã số cá nhân để đăng nhập, chọn tên bệnh nhân được bác sĩ chỉ định và nhấn lệnh lấy thuốc.
+      mới: Mỗi y tá phải dùng mã số cá nhân để đăng nhập, chọn đúng tên bệnh nhân được bác sĩ chỉ định và nhấn lệnh xuất thuốc.
+   2.06#4 -> 2.06#3  sim=0.80
+      cũ : Tuy nhiên, Charles Cullen đã phát hiện ra một lỗ hổng chí mạng trong phần mềm vận hành:
+      mới: Tuy nhiên, Charles Cullen đã phát hiện ra một lỗ hổng nghiêm trọng trong thiết kế phần mềm của hệ thống này.
+   2.06#6 -> 2.06#5  sim=0.31
+      cũ : Tiếp theo, hắn nhập lệnh yêu cầu rút các loại thuốc kiểm soát đặc biệt như Digoxin hoặc Insulin liều cực cao.
+      mới: Hệ thống máy tính ghi nhận giao dịch đã bị hủy và không trừ thuốc vào tài khoản bệnh nhân, nhưng trên thực tế, viên thuốc độc đã nằm gọn trong túi áo 
+   2.06#9 -> 2.06#10  sim=0.31
+      cũ : Hệ thống vi tính của bệnh viện ghi nhận giao dịch đó là “Đã hủy bỏ” – nghĩa là trên sổ sách điện tử, không hề có viên thuốc hay lọ dung dịch nào bị rú
+      mới: Năm 1988, tại Trung tâm Y tế Saint Barnabas, hắn bắt đầu tiêm thuốc quá liều cho những bệnh nhân cao tuổi tiên lượng xấu để thỏa mãn cảm giác giải tho
+   2.06#10 -> 2.06#12  sim=0.43
+      cũ : Sau đó, vào lúc nửa đêm khi mọi người không chú ý, Cullen dùng ống tiêm bơm thẳng dung dịch thuốc quá liều vào những túi nước muối sinh lý NaCl treo s
+      mới: Ngưỡng kích thích bị lờn, hắn lén tiêm Insulin và Digoxin vào các túi nước muối sinh lý dự trữ trong kho, khiến bất kỳ ai truyền phải đều tử vong mà k
+   [MỚI, chưa có dòng] 2.06#4: Hắn nhập lệnh yêu cầu lấy những loại thuốc độc bảng A như Digoxin, Insulin hay Norepinephrine, nhưng ngay khi ngăn kéo máy vừa mở ra, hắn lập tức nhấn nút hủy l
+   [MỚI, chưa có dòng] 2.06#6: Quá trình điều tra cho thấy hành vi của Cullen không bộc phát ngẫu nhiên, mà phát triển qua bốn nấc thang leo thang hành vi điển hình:
+   [MỚI, chưa có dòng] 2.06#7: Nấc thang thứ nhất: Khủng hoảng nội tâm và trộm thuốc.
+   [MỚI, chưa có dòng] 2.06#8: Ban đầu, Cullen rơi vào trầm cảm nặng nề, tự hủy hoại bản thân và lấy trộm các loại thuốc an thần nhỏ để tích trữ.
+   [MỚI, chưa có dòng] 2.06#9: Nấc thang thứ hai: Sát hại bệnh nhân hấp hối.
+   [MỚI, chưa có dòng] 2.06#11: Nấc thang thứ ba: Đầu độc ngẫu nhiên các túi dịch truyền.
+   [MỚI, chưa có dòng] 2.06#13: Nấc thang thứ tư: Giết người hàng loạt mất kiểm soát.
+   [MỚI, chưa có dòng] 2.06#14: Tại bệnh viện Somerset, hắn mất hoàn toàn khả năng kiềm chế, sát hại cả những bệnh nhân trẻ tuổi đang bình phục khỏe mạnh.
+   [MỚI, chưa có dòng] 2.06#15: Cơn nghiện quyền lực đã đẩy hắn từ một kẻ bất ổn tâm lý trở thành một cỗ máy hủy diệt không thể dừng lại.
+=== 2.07  cũ 4 → mới 5  | khớp 1 | mới-mồ côi [0, 1, 3, 4] | cũ-mồ côi [0, 2, 3]
+   2.07#2 -> 2.07#3  sim=0.33
+      cũ : Nạn nhân qua đời trong vòng tay của các bác sĩ đang dốc sức hồi sức cấp cứu, và nguyên nhân tử vong luôn được ghi nhận là biến chứng bệnh nền.
+      mới: Họ không thể kêu cứu, không thể nghi ngờ bàn tay đang chăm sóc mình, và tin tưởng tuyệt đối vào người y tá đứng bên cạnh.
+   [MỚI, chưa có dòng] 2.07#1: Nhìn vào danh sách nạn nhân của Charles Cullen, chúng ta thấy rõ một sự bất đối xứng quyền lực tàn nhẫn đến cùng cực.
+   [MỚI, chưa có dòng] 2.07#2: Những người nằm trên giường bệnh ICU là những sinh mệnh yếu ớt nhất, bị gắn chặt vào dây truyền dịch và hoàn toàn mất khả năng tự vệ.
+   [MỚI, chưa có dòng] 2.07#4: Từ linh mục Florian Gall đáng kính đến chàng thanh niên Michael Strenko mới 21 tuổi nhập viện vì biến chứng cắt amidan, tất cả đều bị tước đoạt sinh mạng một cá
+   [MỚI, chưa có dòng] 2.07#5: Đó là sự phản bội niềm tin y đức kinh hoàng nhất mà một nhân viên y tế có thể gây ra cho người bệnh.
+=== 2.08  cũ 6 → mới 7  | khớp 3 | mới-mồ côi [0, 1, 3, 6] | cũ-mồ côi [0, 1, 3]
+   2.08#3 -> 2.08#3  sim=0.30
+      cũ : Ông đã trực tiếp liên hệ và gửi cảnh báo khẩn cấp tới ban giám đốc bệnh viện, khẳng định rằng có kẻ đang cố tình tiêm thuốc gây hại cho bệnh nhân và y
+      mới: MO của hắn bao gồm kỹ thuật hủy lệnh trên máy Pyxis, tiêm thuốc độc vào túi truyền dịch chưa dùng, và liên tục thay đổi bệnh viện để xóa sạch lịch sử 
+   2.08#5 -> 2.08#5  sim=0.33
+      cũ : Họ chọn cách giữ im lặng suốt gần 3 tháng để tiến hành điều tra nội bộ.
+      mới: Ngược lại, chữ ký tâm lý Signature – thứ nhu cầu cảm xúc bất biến thúc đẩy hắn gây án – chính là “Phức cảm Chúa trời”.
+   2.08#6 -> 2.08#6  sim=0.32
+      cũ : Và trong suốt 90 ngày trì hoãn vô trách nhiệm đó, Charles Cullen vẫn tiếp tục điềm nhiên đi làm ca đêm, và tước đoạt sinh mạng của thêm ít nhất 5 bệnh
+      mới: Hắn không lấy cắp thuốc để bán kiếm tiền, cũng không có mâu thuẫn cá nhân với bất kỳ nạn nhân nào.
+   [MỚI, chưa có dòng] 2.08#1: Về mặt khoa học hành vi, chúng tôi phân biệt rất rõ ràng giữa phương thức gây án và chữ ký tâm lý của Charles Cullen.
+   [MỚI, chưa có dòng] 2.08#2: Phương thức gây án, tức thủ đoạn MO, là cách hắn thực hiện hành vi và che giấu dấu vết để trốn tránh sự trừng phạt.
+   [MỚI, chưa có dòng] 2.08#4: Thủ đoạn này liên tục được hắn điều chỉnh và tinh vi hóa qua từng năm tháng để thích ứng với quy chế kiểm tra của từng cơ sở.
+   [MỚI, chưa có dòng] 2.08#7: Hắn giết người để bí mật đứng nhìn các bác sĩ kích hoạt báo động khẩn cấp Code Blue, tận hưởng cảm giác toàn năng khi nắm giữ ranh giới mong manh giữa sự sống v
+=== 2.10  cũ 3 → mới 3  | khớp 2 | mới-mồ côi [0] | cũ-mồ côi [0]
+   2.10#2 -> 2.10#2  sim=0.32
+      cũ : Làm thế nào một gã y tá từng có tiền sử bất ổn lại có thể chuyển việc trót lọt qua 9 bệnh viện khác nhau?
+      mới: Vậy điều gì đã khiến một người bình thường biến những bệnh nhân vô tội thành công cụ thỏa mãn bản năng thống trị của mình?
+   2.10#3 -> 2.10#3  sim=0.47
+      cũ : Xin mời Chuyên gia tâm lý giải mã góc khuất đen tối phía sau bức tường của các tổ chức y tế.
+      mới: Xin mời Chuyên gia tâm lý phân tích cơ chế vật hóa nạn nhân và sự tê liệt cảm xúc của Charles Cullen.
+   [MỚI, chưa có dòng] 2.10#1: Cảm giác toàn năng ấy chính là chiếc bẫy tâm lý nguy hiểm nhất của những kẻ giết người đội lốt thiên thần.
+=== 2.11  cũ 11 → mới 10  | khớp 4 | mới-mồ côi [2, 5, 6, 7, 8, 9] | cũ-mồ côi [2, 5, 6, 7, 8, 9, 10]
+   2.11#1 -> 2.11#1  sim=0.44
+      cũ : Dưới góc độ tâm lý học tổ chức và xã hội học pháp lý, bi kịch Charles Cullen là một minh chứng đau lòng cho Hiện tượng bàng quan thể chế (Institutiona
+      mới: Dưới góc độ tâm lý học hành vi, Charles Cullen biểu hiện một cơ chế “Vật hóa” và phi nhân hóa nạn nhân vô cùng điển hình.
+   2.11#2 -> 2.11#2  sim=0.34
+      cũ : Tại Bệnh viện Saint Barnabas năm 1992, ban giám trị phát hiện hàng chục túi truyền dịch bị đâm thủng và thuốc bị thất thoát.
+      mới: Hắn không nhìn người bệnh như một con người có cảm xúc, có gia đình đang chờ đợi và có quyền được sống trọn vẹn.
+   2.11#4 -> 2.11#4  sim=0.35
+      cũ : Tại Bệnh viện Warren năm 1993, nhiều người nhà bệnh nhân đã lên tiếng nghi ngờ Cullen can thiệp thuốc sai quy định dẫn đến sự ra đi đột ngột của người
+      mới: Hắn mắc phải một sự khiếm khuyết nghiêm trọng về Thấu cảm Cảm xúc, khiến hắn hoàn toàn trơ lỳ trước nỗi đau đớn và sự hoảng loạn của người khác.
+   2.11#5 -> 2.11#5  sim=0.37
+      cũ : Nhưng bệnh viện quyết định không mở cuộc thanh tra vì lo ngại danh tiếng bị tổn hại.
+      mới: Khi nghe tiếng máy đo nhịp tim báo động dồn dập, tâm trí hắn không hề khởi sinh lòng trắc ẩn hay sự hối hận.
+   [MỚI, chưa có dòng] 2.11#3: Trong tâm trí méo mó của Cullen, các bệnh nhân bị giáng cấp thành những “đạo cụ sống” để hắn trình diễn vở kịch cứu rỗi đầy ảo tưởng của bản thân.
+   [MỚI, chưa có dòng] 2.11#6: Ngược lại, sự suy sụp của cơ thể nạn nhân kích hoạt trong hắn một cơn khoái cảm quyền lực cực kỳ độc hại.
+   [MỚI, chưa có dòng] 2.11#7: Hắn cảm thấy bản thân mình trở nên vĩ đại, đứng trên cả y học và số phận khi có quyền quyết định ai được thở và ai phải dừng lại.
+   [MỚI, chưa có dòng] 2.11#8: Sự trống rỗng bên trong bản ngã đã thôi thúc hắn phải liên tục tìm kiếm những nạn nhân mới để lấp đầy cơn đói ảo tưởng quyền năng ấy.
+   [MỚI, chưa có dòng] 2.11#9: Và bi kịch lớn nhất là khi chiếc áo blouse trắng được dùng làm công cụ để hợp thức hóa sự tha hóa nhân cách tột cùng.
+   [MỚI, chưa có dòng] 2.11#10: Đó là lời cảnh tỉnh sâu sắc về việc khi quyền lực chăm sóc bị tước mất lòng trắc ẩn, nó sẽ biến thành một vũ khí hủy diệt lạnh lùng nhất.
+=== 3.02  cũ 7 → mới 6  | khớp 5 | mới-mồ côi [1] | cũ-mồ côi [1, 3]
+   3.02#1 -> 3.02#1  sim=0.82
+      cũ : Đến đây, chúng ta phải bước vào tầng sâu nhất của bộ não Charles Cullen để trả lời câu hỏi cốt lõi:
+      mới: Đến đây, chúng ta phải bước vào tầng sâu u tối nhất trong bộ não của Charles Cullen để tìm kiếm câu trả lời cốt lõi:
+   3.02#3 -> 3.02#3  sim=0.70
+      cũ : Khi bị bắt giữ và đối diện với các điều tra viên, Cullen luôn lặp đi lặp lại một lời biện minh lạnh lùng: “Tôi chỉ muốn chấm dứt nỗi đau đớn cho họ.
+      mới: Khi bị bắt giữ và đối diện với cơ quan điều tra, Cullen luôn lặp đi lặp lại rằng hắn ra tay vì lòng thương cảm, muốn kết thúc nỗi đau đớn cho người bệ
+   3.02#5 -> 3.02#4  sim=0.71
+      cũ : Hắn tự vẽ nên bức chân dung của một “Thiên thần nhân từ” đi ban phát cái chết êm ái.
+      mới: Hắn cố tình vẽ nên chân dung của một vị thiên thần đi ban phát cái chết êm dịu cho những số phận bất hạnh.
+   3.02#6 -> 3.02#5  sim=0.32
+      cũ : Nhưng liệu đó có phải là lòng trắc ẩn thực sự, hay chỉ là một chiếc mặt nạ dối trá được dựng lên để che đậy một phức cảm bệnh lý cực kỳ độc hại?
+      mới: Thế nhưng, những bằng chứng khách quan tại hiện trường lại vạch trần một sự thật hoàn toàn trái ngược.
+   3.02#7 -> 3.02#6  sim=0.59
+      cũ : Xin mời Chuyên gia tâm lý bóc tách cấu trúc tâm thần của Charles Cullen.
+      mới: Xin mời Chuyên gia tâm lý giải phẫu những sang chấn nguồn cội và điểm gãy tâm lý đã định hình nên nhân cách của Charles Cullen.
+   [MỚI, chưa có dòng] 3.02#2: Điều gì đã biến một thiếu niên nhút nhát, từng là nạn nhân của bạo lực học đường, trở thành một kẻ sát nhân hàng loạt khét tiếng?
+=== 3.04  cũ 6 → mới 8  | khớp 5 | mới-mồ côi [1, 6, 7] | cũ-mồ côi [5]
+   3.04#1 -> 3.04#1  sim=0.49
+      cũ : Hồ sơ tâm lý pháp y của Charles Cullen cho thấy một bức tranh nhân cách bị phân mảnh nghiêm trọng, bắt nguồn từ những tổn thương sâu sắc thời thơ ấu.
+      mới: Hồ sơ tâm lý pháp y của Charles Cullen cho thấy một tuổi thơ ngập tràn bóng tối và sự chối bỏ xã hội.
+   3.04#2 -> 3.04#3  sim=0.46
+      cũ : Cullen sinh ra trong một gia đình nghèo khó, mồ côi cha từ khi mới 7 tháng tuổi, liên tục bị bạn bè bắt nạt và có tiền sử tự làm hại bản thân từ năm l
+      mới: Suốt những năm tháng đi học, Cullen liên tục bị bạn bè bắt nạt tàn nhẫn, trở thành một đứa trẻ cô độc, thu mình và có xu hướng tự hủy hoại bản thân từ
+   3.04#3 -> 3.04#4  sim=0.71
+      cũ : Bước ngoặt tâm lý tồi tệ nhất xảy ra vào năm hắn 17 tuổi: Mẹ hắn qua đời trong một vụ tai nạn giao thông.
+      mới: Biến cố mang tính bước ngoặt và để lại vết thương sâu sắc nhất xảy ra vào năm hắn 17 tuổi, khi người mẹ thân yêu qua đời trong một vụ tai nạn giao thô
+   3.04#4 -> 3.04#5  sim=0.43
+      cũ : Cú sốc không chỉ đến từ sự mất mát, mà là việc bệnh viện đã tự ý hỏa táng thi thể người mẹ mà không thông báo kịp thời cho gia đình.
+      mới: Bệnh viện nơi tiếp nhận người mẹ quá cố của hắn đã tự ý hỏa táng mà không hề thông báo hay cho phép hắn được nhìn mặt mẹ lần cuối.
+   3.04#5 -> 3.04#6  sim=0.43
+      cũ : Bi kịch ấy đã gieo vào tiềm thức của một thiếu niên bất ổn nỗi oán hận và sự mất kết nối sâu sắc đối với các thiết chế y tế.
+      mới: Sự kiện chấn động này đã gieo vào tâm trí Cullen một mối thù hằn âm ỉ đối với các thể chế y tế, đồng thời tước đi điểm tựa tình cảm duy nhất của cuộc 
+   [MỚI, chưa có dòng] 3.04#2: Là con út trong một gia đình nghèo có tám người con tại bang New Jersey, hắn mồ côi cha khi mới chỉ được bảy tháng tuổi.
+   [MỚI, chưa có dòng] 3.04#7: Sau đó, thời gian phục vụ đầy áp lực trên tàu ngầm Hải quân Mỹ tiếp tục đẩy hắn vào các cơn trầm cảm nặng và nhiều lần mưu toan tự sát bất thành.
+   [MỚI, chưa có dòng] 3.04#8: Khi Cullen bước chân vào trường đào tạo y tá, đó không phải là con đường tìm kiếm sự cứu rỗi, mà là nỗ lực tuyệt vọng nhằm giành lại quyền kiểm soát một cuộc đờ
+=== 3.06  cũ 2 → mới 3  | khớp 1 | mới-mồ côi [1, 2] | cũ-mồ côi [1]
+   3.06#1 -> 3.06#1  sim=0.31
+      cũ : Một kẻ thất bại toàn diện, tự ti, cô độc ngoài xã hội nhưng lại tìm thấy quyền lực tối thượng khi khoác lên mình chiếc áo blouse trắng.
+      mới: Thế nhưng, làm thế nào một người mang đầy những tổn thương tâm lý và hành vi lệch lạc như vậy lại có thể duy trì cuộc sống thường nhật suốt nhiều năm?
+   [MỚI, chưa có dòng] 3.06#2: Hắn kết hôn, có hai người con gái, hiến thận cứu người, và được đồng nghiệp xem là một nhân viên y tế chuẩn mực.
+   [MỚI, chưa có dòng] 3.06#3: Xin mời Chuyên gia tâm lý bóc tách cơ chế phân mảnh tâm trí đã giúp Cullen che giấu con quái vật bên trong mình.
+=== 3.07  cũ 5 → mới 8  | khớp 3 | mới-mồ côi [0, 2, 3, 5, 7] | cũ-mồ côi [0, 3]
+   3.07#2 -> 3.07#2  sim=0.36
+      cũ : Trong cuộc sống đời thường, Cullen cảm thấy mình hoàn toàn bất lực và vô hình.
+      mới: Hắn chia thế giới nội tâm của mình thành hai ngăn kéo hoàn toàn độc lập và không bao giờ cho phép chúng chạm vào nhau.
+   3.07#3 -> 3.07#5  sim=0.39
+      cũ : Nhưng khi bước vào ca trực đêm tại khoa hồi sức cấp cứu, động lực tâm lý của hắn bị đảo ngược hoàn toàn.
+      mới: Thế nhưng ở ngăn kéo thứ hai, trong bóng tối của những ca trực đêm, hắn mở khóa bản năng hủy diệt và hành động như một kẻ phán xét sinh tử lạnh lùng.
+   3.07#5 -> 3.07#7  sim=0.31
+      cũ : Cảm giác quyền lực ấy hoạt động như một loại ma túy tâm lý cực mạnh, bù đắp cho sự trống rỗng và mặc cảm phế thải bên trong con người hắn.
+      mới: Vợ cũ của hắn, bà Adrienne Baum, đã sớm nhận ra những dấu hiệu tâm thần bất ổn khi hắn giết hại thú cưng và lén đổ chất lỏng lạ vào đồ uống của người 
+   [MỚI, chưa có dòng] 3.07#1: Để tồn tại và che mắt thế giới xung quanh, bộ não của Charles Cullen đã vận hành một cơ chế phòng vệ cực đoan gọi là “Chia ngăn tâm lý”.
+   [MỚI, chưa có dòng] 3.07#3: Ở ngăn kéo thứ nhất, hắn là một người cha dịu dàng, một người bạn tận tụy từng tình nguyện hiến một quả thận để cứu sống anh trai của bạn gái cũ.
+   [MỚI, chưa có dòng] 3.07#4: Hắn sử dụng những hành vi thiện nguyện và sự tận tụy ban ngày như một “Lá chắn bình thường hóa” để chứng minh với bản thân rằng mình là một người tử tế.
+   [MỚI, chưa có dòng] 3.07#6: Tuy nhiên, chiếc mặt nạ ấy không thể che giấu được những người ở cự ly gần nhất.
+   [MỚI, chưa có dòng] 3.07#8: Bà đã nộp đơn xin lệnh cách ly và ly hôn vào năm 1993, nhưng hệ thống tòa án gia đình thời điểm đó đã coi đó chỉ là những xích mích hôn nhân thông thường và bỏ 
+=== 3.08  cũ 2 → mới 3  | khớp 2 | mới-mồ côi [1] | cũ-mồ côi []
+   3.08#1 -> 3.08#1  sim=0.34
+      cũ : Một cảm giác quyền lực bệnh hoạn để khỏa lấp sự yếu đuối của bản thân.
+      mới: Sự chia ngăn ấy cho thấy sự rạn nứt sâu sắc trong nhân cách của một kẻ sát nhân có học thức.
+   3.08#2 -> 3.08#3  sim=0.35
+      cũ : Nhưng nếu hắn luôn tự thuyết phục rằng mình hành động vì “lòng nhân từ”, thì dưới góc nhìn tâm lý học tội phạm, bộ não của hắn đã tự đánh lừa lương tâ
+      mới: Chúng ta hãy cùng xem xét lý thuyết về kỹ thuật trung hòa đạo đức trong hành vi phạm tội của Cullen.
+   [MỚI, chưa có dòng] 3.08#2: Và câu hỏi nhức nhối nhất là: Hắn đã sử dụng hệ thống lý lẽ nào để vô hiệu hóa cảm giác tội lỗi và ngủ ngon sau mỗi ca trực đẫm máu?
+=== 3.09  cũ 7 → mới 9  | khớp 3 | mới-mồ côi [1, 2, 5, 6, 7, 8] | cũ-mồ côi [1, 2, 5, 6]
+   3.09#1 -> 3.09#1  sim=0.37
+      cũ : Đó chính là Cơ chế thứ hai: Kỹ thuật trung hòa đạo đức (Moral Neutralization).
+      mới: Để tiếp tục gây tội ác mà không bị lương tâm cắn rứt, Charles Cullen đã vận dụng triệt để các “Kỹ thuật Trung hòa Đạo đức” theo lý thuyết của Sykes và
+   3.09#4 -> 3.09#4  sim=0.31
+      cũ : Cơ chế “Viện dẫn lòng trắc ẩn cao cả”: Cullen tự ru ngủ lương tâm rằng hành vi của mình không phải là tội ác, mà là một sự “giải thoát” để giúp bệnh n
+      mới: Hắn đổ lỗi cho ban giám đốc bệnh viện bắt y tá làm việc quá tải, đổ lỗi cho sự thiếu thốn nhân lực đã đẩy hắn vào trạng thái kiệt quệ tinh thần.
+   3.09#5 -> 3.09#5  sim=0.36
+      cũ : Cơ chế “Phủ nhận thiệt hại”: Hắn tự huyễn hoặc rằng những người bệnh nặng đằng nào cũng sắp qua đời, nên hành vi của hắn chỉ là đẩy nhanh tiến trình t
+      mới: Hắn còn trơ tráo sử dụng kỹ thuật “Kết án những kẻ kết án”: Hắn chỉ trích hệ thống y tế là đạo đức giả, coi thường người bệnh và chỉ quan tâm đến lợi 
+   [MỚI, chưa có dòng] 3.09#2: Đầu tiên là kỹ thuật “Phủ nhận tổn hại”: Hắn tự thuyết phục bản thân rằng mình không hề giết người, mà chỉ đang giúp các bệnh nhân chấm dứt sự đau đớn thể xác.
+   [MỚI, chưa có dòng] 3.09#3: Khi đối diện với sự thật rằng nhiều nạn nhân không hề mắc bệnh hiểm nghèo, hắn lập tức chuyển sang kỹ thuật “Ngoại hóa trách nhiệm”.
+   [MỚI, chưa có dòng] 3.09#6: Câu nói nổi tiếng của hắn trong phòng thẩm vấn đã bộc trần toàn bộ sự trung hòa méo mó đó: “Tôi nghĩ tôi đã kết thúc nỗi thống khổ của họ, nhưng tôi không biết 
+   [MỚI, chưa có dòng] 3.09#7: Bằng cách biến mình thành nạn nhân của hoàn cảnh, Cullen đã vô hiệu hóa hoàn toàn cơ chế phán xét đạo đức bên trong tâm trí.
+   [MỚI, chưa có dòng] 3.09#8: Đó là sự sụp đổ toàn diện của nhân tính khi cái tôi ái kỷ tìm mọi cách để tự thanh minh cho những hành vi tàn bạo nhất.
+   [MỚI, chưa có dòng] 3.09#9: Và chính sự tự lừa dối tinh vi này đã nuôi dưỡng con quỷ dữ trong hắn suốt 16 năm mà không hề có một phút giây ăn năn thực sự.
+=== 3.10  cũ 3 → mới 3  | khớp 2 | mới-mồ côi [0] | cũ-mồ côi [0]
+   3.10#2 -> 3.10#2  sim=0.31
+      cũ : Hắn chỉ đang sử dụng sinh mạng của những người bệnh yếu thế làm vật tế thần để xoa dịu cơn khủng hoảng nhân cách của chính mình.
+      mới: Hắn tự cho mình quyền quyết định số phận của đồng loại nhưng lại hèn hạ trốn tránh trách nhiệm trước công lý.
+   3.10#3 -> 3.10#3  sim=0.42
+      cũ : Và trò chơi chết chóc ấy có thể đã tiếp diễn vô tận nếu không có sự xuất hiện của hai điều tra viên quả cảm cùng một người phụ nữ phi thường.
+      mới: Và bức tường ngụy biện kiên cố ấy chỉ có thể bị phá vỡ bởi lòng dũng cảm của một người phụ nữ dám nhìn thẳng vào sự thật.
+   [MỚI, chưa có dòng] 3.10#1: Một hệ thống tự bào chữa hoàn hảo được dựng lên để bao biện cho sự trống rỗng và hèn nhát của một kẻ cuồng quyền lực.
+=== 4.02  cũ 5 → mới 7  | khớp 5 | mới-mồ côi [2, 5] | cũ-mồ côi []
+   4.02#1 -> 4.02#1  sim=1.00
+      cũ : Tháng 10 năm 2003.
+      mới: Tháng 10 năm 2003.
+   4.02#2 -> 4.02#2  sim=0.65
+      cũ : Sau khi nhận được thông báo về cái chết bất thường của linh mục Florian Gall, hai thám tử Tim Braun và Danny Baldwin thuộc Văn phòng Công tố Quận Some
+      mới: Sau cái chết bất thường của linh mục Florian Gall, Văn phòng Công tố Quận Somerset chính thức mở cuộc điều tra hình sự.
+   4.02#3 -> 4.02#4  sim=0.54
+      cũ : Ngay từ những ngày đầu tiên, hai viên thám tử đã vấp phải bức tường im lặng kiên cố từ phía ban giám đốc bệnh viện.
+      mới: Họ không chỉ phải đối đầu với một kẻ sát nhân vô hình, mà còn phải đối mặt với bức tường im lặng kiên cố từ phía ban giám đốc Trung tâm Y tế Somerset.
+   4.02#4 -> 4.02#5  sim=0.74
+      cũ : Bệnh viện trì hoãn giao nộp hồ sơ, cấm nhân viên tự ý tiếp xúc với cảnh sát và tìm cách bưng bít thông tin.
+      mới: Bệnh viện tìm cách trì hoãn giao nộp tài liệu, cấm nhân viên tự ý tiếp xúc với cơ quan điều tra và tìm mọi cách bưng bít sự việc để bảo vệ danh tiếng.
+   4.02#5 -> 4.02#7  sim=0.40
+      cũ : Biết rằng các chứng cứ giấy tờ đã bị làm khó, hai điều tra viên quyết định tiếp cận người duy nhất có thể mở toang cánh cửa sự thật: Nữ y tá Amy Lough
+      mới: Và họ đã tìm đến Amy Loughren – nữ y tá ca đêm tài năng, người đồng thời là bạn thân nhất của Charles Cullen.
+   [MỚI, chưa có dòng] 4.02#3: Hai thám tử kỳ cựu Tim Braun và Danny Baldwin được giao trọng trách thụ lý một vụ án mà ngay từ đầu đã vấp phải muôn vàn trắc trở.
+   [MỚI, chưa có dòng] 4.02#6: Hiểu rằng các tài liệu hành chính đã bị can thiệp, hai thám tử hiểu rằng chìa khóa duy nhất để phá vỡ bế tắc nằm ở chính những nhân chứng bên trong phòng bệnh.
+=== 4.04  cũ 5 → mới 7  | khớp 4 | mới-mồ côi [2, 4, 6] | cũ-mồ côi [4]
+   4.04#1 -> 4.04#1  sim=0.70
+      cũ : Khi chúng tôi bí mật hẹn gặp Amy Loughren tại một quán cà phê bên ngoài bệnh viện và đặt trước mặt cô ấy bản in nhật ký truy cập máy Pyxis dài hàng tr
+      mới: Khi chúng tôi bí mật tiếp cận Amy Loughren tại một quán ăn nhỏ ngoài giờ trực và trải ra trước mặt cô ấy bản in nhật ký máy Pyxis, Amy đã chết lặng.
+   4.04#2 -> 4.04#2  sim=0.42
+      cũ : Với chuyên môn của một y tá cấp cứu kỳ cựu, Amy lập tức nhận ra quy luật bất thường: Cullen đã tra cứu và rút hàng chục liều Vecuronium – một loại thu
+      mới: Với chuyên môn của một y tá hồi sức cấp cứu lâu năm, cô ấy lập tức nhìn thấy những dấu hiệu bất thường mà người ngoài không thể nhận ra.
+   4.04#3 -> 4.04#4  sim=0.34
+      cũ : Cô ấy thốt lên trong nước mắt: “Chúa ơi, anh ấy đang cướp đi sinh mạng của họ!”
+      mới: Những loại thuốc hắn lấy với số lượng lớn bất thường toàn là thuốc độc cực mạnh có khả năng làm ngừng tim chỉ sau vài phút.
+   4.04#4 -> 4.04#6  sim=0.73
+      cũ : Lúc bấy giờ, Amy đang phải một mình nuôi hai con nhỏ và mang trong mình căn bệnh cơ tim hiểm nghèo có thể cướp đi tính mạng bất cứ lúc nào nếu làm việ
+      mới: Điều khiến tình thế trở nên sinh tử là lúc bấy giờ, Amy đang một mình nuôi hai con nhỏ và mang trong mình căn bệnh cơ tim nguy hiểm có thể đe dọa tính
+   [MỚI, chưa có dòng] 4.04#3: Charles Cullen đã liên tục tra cứu hồ sơ và rút thuốc của hàng chục bệnh nhân không hề thuộc sự quản lý hay phân công chăm sóc của hắn.
+   [MỚI, chưa có dòng] 4.04#5: Amy hiểu rõ rằng đó không phải là những nhầm lẫn nghiệp vụ vô hại, mà là dấu vết của những vụ ám sát hàng loạt có tính toán.
+   [MỚI, chưa có dòng] 4.04#7: Thế nhưng, đứng trước sự an nguy của các bệnh nhân, người nữ y tá dũng cảm ấy đã quyết định dấn thân vào một cuộc đấu trí cân não.
+=== 4.06  cũ 5 → mới 6  | khớp 3 | mới-mồ côi [0, 2, 3] | cũ-mồ côi [0, 2]
+   4.06#2 -> 4.06#2  sim=0.41
+      cũ : Charlie là người bạn thân nhất của tôi, người từng ôm tôi khi tôi lên cơn đau tim và chăm sóc tôi suốt những ca trực dài.
+      mới: Anh ấy biết bệnh tim của tôi, luôn nhận làm giúp tôi những phần việc nặng và nắm chặt tay giúp tôi thở qua những cơn đau thắt ngực dữ dội.
+   4.06#4 -> 4.06#5  sim=0.30
+      cũ : Lời thề nghề nghiệp của chúng tôi là bảo vệ sự sống, không phải đồng lõa với cái ác.
+      mới: Tôi nhận ra người đàn ông hiền lành ngồi ăn khuya cùng tôi bấy lâu nay lại là một kẻ gieo rắc cái chết trong bóng tối.
+   4.06#5 -> 4.06#6  sim=0.37
+      cũ : Dù căn bệnh cơ tim có thể khiến tôi đột tử vì sợ hãi, tôi biết mình không bao giờ được phép quay lưng.
+      mới: Dù vô cùng sợ hãi cho mạng sống của bản thân và tương lai của các con, tôi biết mình không có quyền im lặng để tội ác tiếp tục diễn ra.
+   [MỚI, chưa có dòng] 4.06#1: Charlie từng là người bạn thân thiết nhất của tôi trong những đêm trực lạnh lẽo tại khoa hồi sức.
+   [MỚI, chưa có dòng] 4.06#3: Tôi đã từng yêu quý và tin tưởng anh ấy như một người anh em ruột thịt trong gia đình.
+   [MỚI, chưa có dòng] 4.06#4: Nhưng khi nhìn thấy những trang nhật ký máy tính ghi lại các loại thuốc độc mà anh ấy đã rút ra cho những bệnh nhân vô tội, trái tim tôi như tan nát.
+=== 4.08  cũ 5 → mới 9  | khớp 4 | mới-mồ côi [3, 4, 6, 7, 8] | cũ-mồ côi [4]
+   4.08#1 -> 4.08#1  sim=0.94
+      cũ : Ngày 12 tháng 12 năm 2003.
+      mới: Ngày 6 tháng 12 năm 2003.
+   4.08#2 -> 4.08#2  sim=0.61
+      cũ : Tại một quán ăn nhanh ở thị trấn Somerville.
+      mới: Một cuộc gặp gỡ lịch sử được dàn xếp tại một quán ăn địa phương ở thị trấn Somerville.
+   4.08#3 -> 4.08#3  sim=0.41
+      cũ : Amy ngồi đối diện với Cullen qua chiếc bàn gỗ, tim đập loạn nhịp dưới lớp áo cài thiết bị thu âm của cảnh sát.
+      mới: Amy Loughren bước vào quán ăn với chiếc micro bí mật được các điều tra viên gắn khéo léo dưới lớp áo khoác mùa đông.
+   4.08#4 -> 4.08#6  sim=0.37
+      cũ : Amy nhẹ nhàng gợi mở, khuyên Cullen nên hợp tác và đối diện với những nghi vấn từ cơ quan điều tra.
+      mới: Bằng sự khéo léo và thấu hiểu tâm lý, Amy nhẹ nhàng gợi mở về những bất thường tại bệnh viện và đề nghị giúp đỡ hắn tìm kiếm sự giải thoát.
+   [MỚI, chưa có dòng] 4.08#4: Bên ngoài bãi đỗ xe, các trinh sát nín thở theo dõi từng cử động qua thiết bị thu âm tầm xa.
+   [MỚI, chưa có dòng] 4.08#5: Đối diện với Amy là Charles Cullen, vẫn với dáng vẻ gầy gò và ánh mắt ngây thơ quen thuộc.
+   [MỚI, chưa có dòng] 4.08#7: Trước sự dồn ép đầy tinh tế của người bạn thân, lớp mặt nạ điềm tĩnh của Cullen bắt đầu rạn nứt.
+   [MỚI, chưa có dòng] 4.08#8: Hắn cúi gục đầu xuống bàn, giọng run rẩy thốt lên những lời thì thầm được máy ghi âm ghi lại nguyên văn: “Tôi muốn dừng lại, tôi muốn mọi chuyện kết thúc.”
+   [MỚI, chưa có dòng] 4.08#9: Đó là mắt xích quyết định cung cấp đủ căn cứ pháp lý để cơ quan công tố ra lệnh bắt giữ khẩn cấp kẻ thủ ác.
+=== 4.11  cũ 3 → mới 4  | khớp 3 | mới-mồ côi [2] | cũ-mồ côi []
+   4.11#1 -> 4.11#1  sim=0.36
+      cũ : Ngay khi Cullen bước ra khỏi quán ăn hướng về bãi đỗ xe, các trinh sát ập vào khống chế và bắt giữ hắn tại trận.
+      mới: Ngày 12 tháng 12 năm 2003, Charles Cullen chính thức bị tra tay vào còng số tám ngay tại bãi đỗ xe bệnh viện.
+   4.11#2 -> 4.11#2  sim=0.39
+      cũ : Nhưng cuộc chiến thực sự chỉ mới bắt đầu phía sau cánh cửa phòng thẩm vấn.
+      mới: Một cuộc thẩm vấn kéo dài suốt bảy tiếng đồng hồ bắt đầu diễn ra tại trụ sở Văn phòng Công tố Quận Somerset.
+   4.11#3 -> 4.11#4  sim=0.38
+      cũ : Chúng ta hãy lắng nghe Điều tra viên kể lại thời khắc bẻ gãy bộ óc của kẻ thủ ác.
+      mới: Xin mời Điều tra viên tái hiện lại cuộc đấu trí quyết định trong căn phòng thẩm vấn định mệnh.
+   [MỚI, chưa có dòng] 4.11#3: Đứng trước hai thám tử dày dạn kinh nghiệm Tim Braun và Danny Baldwin, bức tường tâm lý của vị “Thiên thần Tử thần” đã sụp đổ hoàn toàn.
+=== 4.12  cũ 12 → mới 12  | khớp 5 | mới-mồ côi [3, 4, 6, 7, 8, 10, 11] | cũ-mồ côi [0, 4, 6, 7, 8, 10, 11]
+   4.12#2 -> 4.12#1  sim=0.44
+      cũ : Hắn từ chối trả lời các câu hỏi của chúng tôi, không đòi luật sư, không ăn uống và chỉ lặp đi lặp lại những lời chối từ vô hồn.
+      mới: Chiến thuật hỏi cung của chúng tôi là không bao giờ tấn công hay phán xét nhân cách của Cullen một cách trực diện.
+   4.12#3 -> 4.12#2  sim=0.34
+      cũ : Chiến thuật thẩm vấn cứng rắn bằng chứng cứ hoàn toàn bế tắc trước một kẻ đã chai lì cảm xúc và không còn thiết tha gì đến sự sống.
+      mới: Chúng tôi hiểu rằng nếu dồn một kẻ ái kỷ vào chân tường, hắn sẽ lập tức kích hoạt cơ chế phòng vệ và im lặng tuyệt đối.
+   4.12#4 -> 4.12#3  sim=0.34
+      cũ : Nhận thấy điều đó, chúng tôi quyết định đưa quân bài tâm lý quyết định vào phòng: Nữ y tá Amy Loughren.
+      mới: Thay vào đó, chúng tôi khai thác chính ảo tưởng về lòng nhân từ mà hắn tự dựng lên, xem hắn như một người chăm sóc đang kiệt sức vì gánh nặng.
+   4.12#6 -> 4.12#6  sim=0.38
+      cũ : Cô nói: “Charlie, nếu anh thực sự muốn cứu rỗi, hãy cho gia đình các nạn nhân câu trả lời.
+      mới: Thế nhưng, điều làm chúng tôi căm phẫn nhất là những giọt nước mắt của hắn trong phòng hỏi cung không hề dành cho các nạn nhân xấu số.
+   4.12#10 -> 4.12#10  sim=0.35
+      cũ : Nhưng khi Amy hỏi: “Thế còn những bệnh nhân đang khỏe mạnh thì sao Charlie?”, Cullen run rẩy rơi vào bế tắc: “Anh không biết...
+      mới: Lời thú tội kéo dài nhiều giờ đã khép lại hành trình lẩn trốn suốt 16 năm của một bóng ma y tế tàn bạo.
+   [MỚI, chưa có dòng] 4.12#4: Khi thám tử Danny Baldwin nhẹ nhàng đặt câu hỏi về động cơ thực sự, Cullen bắt đầu khóc nấc lên và suy sụp hoàn toàn.
+   [MỚI, chưa có dòng] 4.12#5: Hắn thừa nhận đã dùng Digoxin và Insulin sát hại linh mục Florian Gall, bệnh nhân Michael Strenko và hàng chục nạn nhân khác qua nhiều năm.
+   [MỚI, chưa có dòng] 4.12#7: Đó là sự “Tự thương hại bệnh lý” của một kẻ ái kỷ khi nhận ra vị thế và danh dự giả tạo của mình đã tan thành mây khói.
+   [MỚI, chưa có dòng] 4.12#8: Hắn khóc vì thương bản thân phải vào tù, khóc vì sự sụp đổ của cái tôi toàn năng, chứ không hề có một tia trắc ẩn nào cho những người đã khuất.
+   [MỚI, chưa có dòng] 4.12#9: Hắn khai báo một cách vô cảm về cách thức tiêm thuốc, như thể đang thuật lại quy trình kỹ thuật của một ca làm việc bình thường.
+   [MỚI, chưa có dòng] 4.12#11: Cánh cửa phòng tạm giam đóng lại, chuẩn bị cho ngày phán quyết lịch sử trước búa tòa công lý.
+   [MỚI, chưa có dòng] 4.12#12: Và đó cũng là lúc toàn bộ hệ thống y tế phải đối diện với sự thật nhức nhối về trách nhiệm của chính mình.
+=== 5.02  cũ 6 → mới 8  | khớp 4 | mới-mồ côi [2, 3, 5, 7] | cũ-mồ côi [2, 4]
+   5.02#1 -> 5.02#1  sim=1.00
+      cũ : Tháng 3 năm 2006.
+      mới: Tháng 3 năm 2006.
+   5.02#2 -> 5.02#2  sim=1.00
+      cũ : Tại Tòa án Thượng thẩm Quận Somerset, bang New Jersey.
+      mới: Tại Tòa án Thượng thẩm Quận Somerset, bang New Jersey.
+   5.02#4 -> 5.02#5  sim=0.76
+      cũ : Armstrong chính thức tuyên phạt Charles Edmund Cullen 18 bản án tù chung thân liên tiếp, với thời hạn thụ án tối thiểu lên tới gần 400 năm mà không có
+      mới: Thẩm phán Paul Armstrong đã tuyên phạt Charles Cullen 11 bản án tù chung thân liên tiếp, với thời gian thụ án tối thiểu 397 năm không có cơ hội xét ân
+   5.02#6 -> 5.02#7  sim=0.42
+      cũ : Hắn hiện đang thụ án tại Nhà tù Bang New Jersey ở thành phố Trenton – một nơi cách ly hoàn toàn với thế giới bên ngoài.
+      mới: Kẻ mang danh “Thiên thần Tử thần” sẽ phải chôn vùi toàn bộ phần đời còn lại phía sau song sắt của nhà tù bang New Jersey tại thành phố Trenton.
+   [MỚI, chưa có dòng] 5.02#3: Một phiên tòa lịch sử diễn ra dưới sự chủ trì của Thẩm phán Paul Armstrong trong sự dõi theo của hàng triệu người dân trên khắp nước Mỹ.
+   [MỚI, chưa có dòng] 5.02#4: Để đổi lấy việc không bị áp dụng án tử hình, Charles Cullen đã chấp nhận hợp tác toàn diện với cơ quan điều tra để nhận diện các nạn nhân.
+   [MỚI, chưa có dòng] 5.02#6: Ít ngày sau, tòa án tại bang Pennsylvania tiếp tục tuyên thêm bảy bản án chung thân nữa, nâng tổng mức án lên 18 bản án tù chung thân.
+   [MỚI, chưa có dòng] 5.02#8: Bản án nghiêm khắc đã khép lại chuỗi ngày săn mồi kinh hoàng của kẻ giết người hàng loạt tàn bạo nhất lịch sử y tế hiện đại.
+=== 5.04  cũ 5 → mới 7  | khớp 1 | mới-mồ côi [0, 1, 3, 4, 5, 6] | cũ-mồ côi [0, 1, 3, 4]
+   5.04#3 -> 5.04#3  sim=0.31
+      cũ : Tội ác của Charles Cullen đã để lại một vết thương sâu sắc cho ngành y tế toàn cầu.
+      mới: Khi bị áp giải vào phòng xử án, hắn liên tục lặp đi lặp lại một câu nói duy nhất như một kẻ mất trí: “Thưa quý tòa, ngài cần phải từ chức.”
+   [MỚI, chưa có dòng] 5.04#1: Thế nhưng, ngay cả khi đứng trước vành móng ngựa, bản chất ái kỷ méo mó của Charles Cullen vẫn tiếp tục bộc lộ một cách trơ tráo.
+   [MỚI, chưa có dòng] 5.04#2: Tại phiên tòa tuyên án ở Hạt Lehigh, bang Pennsylvania, Cullen đã từ chối bước ra đối diện với gia đình các nạn nhân xấu số.
+   [MỚI, chưa có dòng] 5.04#4: Hắn gào thét câu nói ấy suốt hàng giờ đồng hồ nhằm phá vỡ phiên tòa và bịt tai trước những lời vạch tội xé lòng của thân nhân người đã khuất.
+   [MỚI, chưa có dòng] 5.04#5: Sự phản kháng lố bịch ấy buộc thẩm phán William Platt phải ra lệnh dùng băng dính bịt miệng hắn lại để phiên tòa có thể tiếp tục diễn ra.
+   [MỚI, chưa có dòng] 5.04#6: Hành vi đó đã phơi bày sự sụp đổ thảm hại của một bản ngã ái kỷ khi bị tước đoạt toàn bộ quyền lực và sự chú ý.
+   [MỚI, chưa có dòng] 5.04#7: Hắn thà đóng vai một kẻ điên loạn chống đối thể chế chứ nhất quyết không chịu cúi đầu nhận tội trước nỗi đau thương của các gia đình nạn nhân.
+=== 5.05  cũ 5 → mới 7  | khớp 1 | mới-mồ côi [1, 2, 3, 4, 5, 6] | cũ-mồ côi [1, 2, 3, 4]
+   5.05#1 -> 5.05#1  sim=0.31
+      cũ : Dấu hiệu thứ nhất: Hội chứng “Vị cứu tinh” giả tạo.
+      mới: Khép lại hồ sơ đen tối này, bài học nhức nhối nhất không chỉ nằm ở sự tha hóa nhân cách của cá nhân Charles Cullen.
+   [MỚI, chưa có dòng] 5.05#2: Vấn đề cốt lõi mà vụ án để lại là “Sự phản bội thể chế” và điểm mù tập thể của một hệ thống y tế bị chi phối bởi lợi ích kinh tế.
+   [MỚI, chưa có dòng] 5.05#3: Chín bệnh viện nơi Cullen từng làm việc đều đã từng ghi nhận những bất thường, từng phát hiện thuốc mất tích và nghi ngờ các ca tử vong vào ca trực của hắn.
+   [MỚI, chưa có dòng] 5.05#4: Thế nhưng, vì nỗi sợ bị kiện tụng bồi thường hàng triệu đô la và sợ tổn hại danh tiếng thương hiệu, họ đã chọn cách giải quyết êm thấm trong nội bộ.
+   [MỚI, chưa có dòng] 5.05#5: Họ cho hắn thôi việc với lý do trung tính, thậm chí ký những lá thư giới thiệu tích cực để đẩy quả bom nổ chậm sang cho các bệnh viện khác gánh chịu.
+   [MỚI, chưa có dòng] 5.05#6: Sự im lặng có hệ thống của các nhà quản lý đã biến chính những cơ sở chữa bệnh thành nơi đồng lõa cho cái ác tiếp diễn suốt 16 năm.
+   [MỚI, chưa có dòng] 5.05#7: Đó là minh chứng tàn nhẫn cho thấy khi sự an toàn của con người bị xếp sau danh tiếng và tiền bạc, thảm kịch chắc chắn sẽ xảy ra.
+=== 5.06  cũ 4 → mới 6  | khớp 1 | mới-mồ côi [1, 2, 3, 4, 5] | cũ-mồ côi [1, 2, 3]
+   5.06#1 -> 5.06#1  sim=0.30
+      cũ : Dấu hiệu thứ ba: Thao tác gian lận vượt quyền trên hệ thống quản lý.
+      mới: Chính sự trả giá bằng sinh mạng của hàng chục nạn nhân vô tội đã thúc đẩy một cuộc đại cải tổ mang tính lịch sử trong hệ thống pháp luật y tế Mỹ.
+   [MỚI, chưa có dòng] 5.06#2: Năm 2004, Thống đốc bang New Jersey đã ký ban hành “Đạo luật Cullen” nhằm bẻ gãy vĩnh viễn sự im lặng thể chế nguy hiểm này.
+   [MỚI, chưa có dòng] 5.06#3: Đạo luật quy định các bệnh viện bắt buộc phải báo cáo mọi hành vi sai phạm nghiêm trọng của nhân viên y tế cho cơ quan chức năng nhà nước.
+   [MỚI, chưa có dòng] 5.06#4: Đồng thời, luật cung cấp quyền miễn trừ trách nhiệm pháp lý cho các cơ sở y tế khi cung cấp thông tin trung thực về quá trình công tác của nhân viên cũ.
+   [MỚI, chưa có dòng] 5.06#5: Quy trình vận hành máy phát thuốc tự động Pyxis cũng được tái thiết kế trên toàn quốc, xóa bỏ hoàn toàn lỗ hổng hủy lệnh và siết chặt theo dõi từng liều độc dượ
+   [MỚI, chưa có dòng] 5.06#6: Những cải cách bước ngoặt ấy đã dựng lên một hàng rào bảo vệ vững chắc để ngăn chặn những thảm kịch tương tự tái diễn trong tương lai.
+=== 5.08  cũ 6 → mới 7  | khớp 2 | mới-mồ côi [1, 3, 4, 5, 6] | cũ-mồ côi [2, 3, 4, 5]
+   5.08#1 -> 5.08#1  sim=0.61
+      cũ : Hồ sơ về Charles Cullen khép lại, để lại cho chúng ta một bài học sâu sắc và nhức nhối về lòng tin con người.
+      mới: Hồ sơ về Charles Cullen là một lời cảnh tỉnh lạnh lùng gửi đến tất cả chúng ta về bản chất phức tạp của lòng tin con người.
+   5.08#2 -> 5.08#3  sim=0.40
+      cũ : Cái ác nguy hiểm nhất không phải là cái ác mang nanh vuốt gầm rú ngoài bóng tối, mà là cái ác khoác lên mình chiếc áo choàng của sự tử tế, ẩn mình sau
+      mới: Tội ác tinh vi nhất không xuất hiện với bộ mặt gớm ghiếc, mà luôn ẩn mình hoàn hảo phía sau những vỏ bọc mẫu mực và đáng tin cậy nhất.
+   [MỚI, chưa có dòng] 5.08#2: Chiếc áo blouse trắng, bằng cấp chuyên môn hay những cử chỉ ân cần bề ngoài không bao giờ là sự bảo chứng tuyệt đối cho đạo đức của một tâm hồn.
+   [MỚI, chưa có dòng] 5.08#4: Bài học sinh tồn lớn nhất mà vụ án này để lại chính là: “Hãy luôn biết lắng nghe và tin tưởng vào trực giác của chính mình.”
+   [MỚI, chưa có dòng] 5.08#5: Khi bạn nhận thấy một điều gì đó bất thường lặp đi lặp lại trong môi trường xung quanh, đừng bao giờ để sự tự trấn an hay thói quen thỏa hiệp ru ngủ lương tri.
+   [MỚI, chưa có dòng] 5.08#6: Lòng dũng cảm của nữ y tá Amy Loughren đã chứng minh rằng: Một cá nhân dám bước qua nỗi sợ hãi để lên tiếng có thể cứu sống hàng trăm sinh mệnh khác.
+   [MỚI, chưa có dòng] 5.08#7: Sự im lặng trước cái ác không bao giờ mang lại sự bình yên, mà chỉ tiếp tay cho vực thẳm nuốt chửng những người vô tội.
+=== 5.10  cũ 3 → mới 4  | khớp 2 | mới-mồ côi [1, 2] | cũ-mồ côi [1]
+   5.10#1 -> 5.10#1  sim=0.49
+      cũ : Cảm ơn các chuyên gia và điều tra viên đã đồng hành cùng chương trình.
+      mới: Cảm ơn các khách mời chuyên gia đã cùng đồng hành giải phẫu hồ sơ tâm lý học tội phạm ngày hôm nay.
+   5.10#3 -> 5.10#4  sim=0.50
+      cũ : Hãy luôn tỉnh thức, luôn trân quý sự an toàn của những người thân yêu, và hẹn gặp lại các bạn trong hồ sơ phân tích tâm lý tội phạm tiếp theo.
+      mới: Xin chào và hẹn gặp lại các bạn trong những hồ sơ tâm lý tiếp theo của kênh Amber Eyes.
+   [MỚI, chưa có dòng] 5.10#2: Cảm ơn bạn đã lắng nghe đến những phút cuối cùng của câu chuyện đầy suy ngẫm này.
+   [MỚI, chưa có dòng] 5.10#3: Hãy luôn giữ cho mình một cái nhìn tỉnh táo, biết bảo vệ những ranh giới an toàn và trân trọng từng phút giây quý giá của cuộc sống.

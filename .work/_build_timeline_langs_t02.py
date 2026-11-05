@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """Dựng lại timeline cho Tập 02 của các bản dịch (EN / JA / KO) theo kịch bản viết lại 05/11.
 
 Cách làm
@@ -14,24 +14,35 @@ Mọi timeline sinh ra đều là TẠM THỜI: khi có audio master mới phả
 
 python .work/_build_timeline_langs_t02.py [--apply]
 """
-import json, re, sys
+import json, os, re, sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path(r'D:/TEST/Gax/amber-eyes')
 W = ROOT / ".work"
 
+os.environ.setdefault("AE_EP", "02")
+sys.path.insert(0, str(W))
+import edition as ED  # noqa: E402
+
+NE = ED.EP["n_element"]          # {"1.07": "N1", "4.06": "N2"}
+
 
 def load_script(lang):
     p = W / f"script_tap02_{lang}.json"
     els = json.loads(p.read_text(encoding="utf-8"))
-    S, ELEM = {}, {}
+    S, ELEM, ROLE = {}, {}, {}
     for e in els:
         if e.get("kind") == "LOI":
+            role = e.get("role", "H")
+            # Vai "N" (người bình thường) -> N1/N2 theo EPISODES["02"]["n_element"]
+            if role == "N":
+                role = NE.get(e["id"], "N1")
+            ROLE[e["id"]] = role
             for s in e["sentences"]:
                 S[s["id"]] = s["text"]
                 ELEM.setdefault(s["id"].split("#")[0], []).append(s["id"])
-    return S, ELEM
+    return S, ELEM, ROLE
 
 
 def measure(text, lang):
@@ -41,7 +52,7 @@ def measure(text, lang):
     return max(1, len(re.sub(r"\s+", "", text)))
 
 
-def rebuild(base, S, ELEM, lang, global_scale=1.0, rate=None):
+def rebuild(base, S, ELEM, lang, global_scale=1.0, rate=None, ROLE=None):
     """Trả về timeline mới: giữ mốc element của `base`, chia lại câu theo độ dài câu mới.
 
     Câu nào chưa có trong `base` (15 câu mới của bản dịch) vẫn được đặt vào đúng element,
@@ -61,6 +72,27 @@ def rebuild(base, S, ELEM, lang, global_scale=1.0, rate=None):
     elems = [e for e in ELEM if e in belems]
     intro_end = base.get("intro", 22.41)
     missing = 0
+
+    # --- thứ tự element GỒC gồm cả element "nghỉ" (marker NGHI) để đặt lại khoảng lặng ---
+    # Mã element ("1.04") đúng là thứ tự đọc trong kịch bản => sắp xếp theo (hồi, số).
+    # (không dùng mốc thời gian của marker cũ vì sau khi chia lại câu chúng đã lệch)
+    spoken_order = []
+    for it in base["items"]:
+        e = it.get("element") or it["id"].split("#")[0]
+        if e not in spoken_order:
+            spoken_order.append(e)
+    pause_ids = [m["id"] for m in base.get("markers", [])
+                 if m.get("type") == "NGHI" and m.get("id")]
+    all_el = sorted(set(spoken_order) | set(pause_ids),
+                    key=lambda e: (int(e.split(".")[0]), int(e.split(".")[1])))
+    pauses_before, pend = {}, []
+    for e in all_el:
+        if e in pause_ids:
+            pend.append(e)
+        else:
+            pauses_before[e] = pend
+            pend = []
+    PAUSE = {m["id"]: m for m in base.get("markers", []) if m.get("type") == "NGHI" and m.get("id")}
 
     for el in elems:
         ids = list(ELEM[el])                       # thứ tự đọc trong kịch bản mới
@@ -107,10 +139,22 @@ def rebuild(base, S, ELEM, lang, global_scale=1.0, rate=None):
         speech_total = max(0.0, new_total - gap_total)
 
         # vị trí bắt đầu của element: giữ khoảng lặng giữa các element như bản gốc
+        prev_cursor = cursor
         if prev_base_end is None:
             start_el = intro_end + (b0 - intro_end) * global_scale
         else:
             start_el = cursor + (b0 - prev_base_end) * global_scale
+
+        # các element "nghỉ" nằm trong khoảng lặng này -> chia khoảng lặng cho chúng
+        pauses = pauses_before.get(el, [])
+        if pauses and prev_cursor is not None:
+            n = len(pauses)
+            for k, pe in enumerate(pauses):
+                pm = PAUSE.get(pe)
+                if pm is None:
+                    continue
+                pm["start"] = round(prev_cursor + (start_el - prev_cursor) * k / n, 3)
+                pm["end"] = round(prev_cursor + (start_el - prev_cursor) * (k + 1) / n, 3)
 
         # chia speech_total cho các câu theo trọng số độ dài câu mới
         wts = [measure(S.get(i, ""), lang) for i in ids]
@@ -118,8 +162,8 @@ def rebuild(base, S, ELEM, lang, global_scale=1.0, rate=None):
         t = start_el
         for k, i in enumerate(ids):
             d = speech_total * wts[k] / sw
-            out_items.append({"id": i, "element": el, "act": bitems.get(i, {}).get("act", 1),
-                              "role": bitems.get(i, {}).get("role", "H"),
+            out_items.append({"id": i, "element": el, "act": int(el.split(".")[0]),
+                              "role": (ROLE or {}).get(el, bitems.get(i, {}).get("role", "H")),
                               "start": round(t, 3), "end": round(t + d, 3),
                               "text": S.get(i, "")})
             t += d
@@ -130,19 +174,59 @@ def rebuild(base, S, ELEM, lang, global_scale=1.0, rate=None):
     if missing:
         print(f"  ({missing} câu mới — chưa có trong timeline gốc, đặt theo thứ tự đọc)")
 
-    # markers
+    # ---- tính lại marker + mốc hồi theo mốc câu MỚI ----
+    # (mốc cũ là của audio cũ, không còn khớp sau khi chia lại câu)
+    el_order = []
+    for it in out_items:
+        if it["element"] not in el_order:
+            el_order.append(it["element"])
+    el_idx = {e: i for i, e in enumerate(el_order)}
+    first_of = {}
+    last_of = {}
+    for it in out_items:
+        e = it["element"]
+        if e not in first_of:
+            first_of[e] = it["start"]
+        last_of[e] = it["end"]
+    act_items = {}
+    for it in out_items:
+        a = str(it.get("act", 1))
+        act_items.setdefault(a, []).append(it)
+
     markers = []
     for m in base.get("markers", []):
         mm = dict(m)
-        for k in ("start", "end", "at"):
-            if isinstance(mm.get(k), (int, float)):
-                mm[k] = round(mm[k] * global_scale, 3)
+        t = m.get("type")
+        if t == "NGHI":
+            # đã đặt lại ở vòng lặp element (chia khoảng lặng) — lấy từ PAUSE
+            e = m.get("id")
+            if e in PAUSE:
+                mm["start"] = round(PAUSE[e]["start"], 3)
+                mm["end"] = round(PAUSE[e]["end"], 3)
+        elif t == "ACT":
+            a = str(m.get("act"))
+            prev_a = str(int(a) - 1)
+            mm["start"] = round(max((it["end"] for it in act_items.get(prev_a, [])), default=m.get("start", 0)), 3)
+            mm["end"] = round(min((it["start"] for it in act_items.get(a, [])), default=m.get("end", 0)), 3)
+            if mm["end"] < mm["start"]:
+                mm["end"] = mm["start"]
+        else:                                   # BGM / SFX -> bám đầu element
+            e = m.get("id")
+            if e in first_of and isinstance(m.get("at"), (int, float)):
+                mm["at"] = round(first_of[e], 3)
         markers.append(mm)
 
-    total = max([it["end"] for it in out_items] + [m.get("end", 0) for m in markers if isinstance(m.get("end"), (int, float))])
     acts = {}
-    for k, v in base.get("acts", {}).items():
-        acts[k] = [round(v[0] * global_scale, 3), round(v[1] * global_scale, 3)]
+    for a, its in act_items.items():
+        acts[a] = [round(min(i["start"] for i in its), 3), round(max(i["end"] for i in its), 3)]
+
+    total = max([it["end"] for it in out_items] + [m.get("end", 0) for m in markers if isinstance(m.get("end"), (int, float))])
+    # giữ đoạn outro (từ câu cuối tới hết tập) như bản gốc.
+    # 9,0 s là outro chuẩn của kênh (đo trên cả 3 timeline gốc: VN 9,12 s · EN 9,0 s · JA 9,0 s).
+    outro = max(0.0, base.get("total", total) - base["items"][-1]["end"]) if base.get("items") else 0.0
+    if outro <= 0.01:
+        outro = 9.0
+    total += outro
     return {"total": round(total, 2), "intro": round(base.get("intro", 22.41) * global_scale, 2),
             "items": out_items, "markers": markers, "acts": acts}
 
@@ -158,14 +242,16 @@ def main():
     apply = "--apply" in sys.argv
     langs = [("EN", "timeline_s_EN_t02.json"), ("JA", "timeline_s_JA_t02.json"), ("KO", None)]
 
-    # tỉ lệ toàn cục cho KO: dùng tốc độ đọc của tiếng Nhật (cùng hệ âm tiết CJK)
-    ja_tl = json.loads((W / "timeline_s_JA_t02.json").read_text(encoding="utf-8"))
-    S_JA, _ = load_script("JA")
-    r_ja, c_ja, s_ja = rate_per_char(ja_tl, "JA", S_JA)
+    # tỉ lệ toàn cục cho KO: dùng tốc độ đọc của tiếng Nhật (cùng hệ âm tiết CJK),
+    # đo trên TIMELINE GỐC (đo thật từ audio master) + text gốc của chính nó.
+    ja_base = json.loads((W / "_cu" / "timeline_s_JA_t02_pre_20261105.json").read_text(encoding="utf-8")) \
+        if (W / "_cu" / "timeline_s_JA_t02_pre_20261105.json").exists() \
+        else json.loads((W / "timeline_s_JA_t02.json").read_text(encoding="utf-8"))
+    r_ja, c_ja, s_ja = rate_per_char(ja_base, "JA", {})
     vn_tl = json.loads((W / "timeline_s_t02.json").read_text(encoding="utf-8"))
-    S_VN, _ = load_script("VN")
+    S_VN, _, _ = load_script("VN")
     r_vn, c_vn, s_vn = rate_per_char(vn_tl, "VN", S_VN)
-    S_KO, ELEM_KO = load_script("KO")
+    S_KO, ELEM_KO, ROLE_KO = load_script("KO")
     c_ko = sum(measure(S_KO.get(i, ""), "KO") for i in S_KO)
     pred_ko_speech = c_ko * r_ja
     print(f"toc do doc: JA {r_ja:.4f} s/ky tu ({c_ja} ky tu) · VN {r_vn:.4f} s/ky tu ({c_vn}) · "
@@ -174,15 +260,20 @@ def main():
     for lang, base_name in langs:
         if base_name is None:
             base = vn_tl
-            S, ELEM = S_KO, ELEM_KO
+            S, ELEM, ROLE = S_KO, ELEM_KO, ROLE_KO
             gs = 1.0
             rate = r_ja
         else:
-            base = json.loads((W / base_name).read_text(encoding="utf-8"))
-            S, ELEM = load_script(lang)
+            # base = timeline GỐC đo thật (trước khi viết lại) — luôn đọc từ backup
+            # để chạy lại script cho ra kết quả giống nhau (idempotent).
+            bp = W / "_cu" / base_name.replace(".json", "_pre_20261105.json")
+            src = bp if bp.exists() else (W / base_name)
+            base = json.loads(src.read_text(encoding="utf-8"))
+            print(f"  base {lang} <- {src.name}")
+            S, ELEM, ROLE = load_script(lang)
             gs = 1.0
             rate = None
-        tl = rebuild(base, S, ELEM, lang, global_scale=gs, rate=rate)
+        tl = rebuild(base, S, ELEM, lang, global_scale=gs, rate=rate, ROLE=ROLE)
 
         if lang == "KO":
             # nhân toàn cục theo tỉ lệ du đoán
@@ -215,3 +306,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

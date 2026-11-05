@@ -155,7 +155,7 @@ header = """# HỒ SƠ SẢN XUẤT TẬP 02 · BẢN TIẾNG NHẬT · 「二�
 | Kịch bản | `01_KICH_BAN/Tap02_JA/kichban_tap02_JA.md` (chuẩn `00_TIEU_CHUAN/CHU_CO_DINH_JA.md`, 203 câu, 36 lượt nói, Director's Cut) |
 | Lượt nói / câu | 36 / **203**. Host 50% · Chuyên gia 25% · Điều tra viên 20% · Người bình thường 5%. Mã câu trùng 100% bản VN (`script_tap02_JA.json`) |
 | N1 / N2 | `1.07` トレントン基地関係者 (Cừu) / `4.06` ツイード住民 (Mèo) |
-| Bảng shot | 151 dòng = 134 shot có lời + 17 dòng không lời |
+| Bảng shot | 161 dòng = 144 shot có lời + 17 dòng không lời |
 | Nền dùng | `assets/bg/` (dùng lại 100% của bản VN/EN) |
 | Giọng | Higgs Audio v3 (Kaggle GPU) — clone từ giọng mẫu JA làm bằng VoxCPM2 Voice Design: H `H_JA` (ja2, 122,1 Hz) · D `D_JA` (ja3 t02, 87,4 Hz) · C `C_JA` · N1 `N1_JA` · N2 `N2_JA` |
 
@@ -166,7 +166,9 @@ Giống hệt bản VN (`COMBO`, `BG2`, `INSET`), vì số hiệu shot và nền
 <!--TABLE-->
 """
 
-tail = "\n**Tổng:** 151 shot phủ 100% kịch bản.\n"
+tail = ("\n> ⚠ **Timeline tạm (05/11/2026):** `.work/timeline_s_JA_t02.json` dựng lại theo kịch bản JA mới "
+        "(203 câu, 2.049,54 s) — giữ nhịp element đo được từ audio master cũ, chia lại thời lượng từng câu theo độ dài câu mới. "
+        "**Chưa có audio master JA mới** ⇒ sau khi đọc lại TTS phải dựng lại timeline bằng Whisper rồi dựng lại ảnh.\n")
 body = "\n".join(out_lines)
 out = header + body + tail
 plan_path.write_text(out, encoding="utf-8")

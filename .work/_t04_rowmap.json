@@ -1,0 +1,3010 @@
+{
+ "rows": [
+  {
+   "sid": "1-00",
+   "kind": "shot",
+   "row": [
+    "1-00",
+    "`1.01`–`1.02` (20.5 s → lời đầu)",
+    "—",
+    "T1",
+    "`t4_somerset_exterior` hiện dần từ đen",
+    "*HỒI 01 · NGHỊCH LÝ CỦA NGƯỜI Y TÁ MẪU MỰC*",
+    "Còi xe cấp cứu từ xa, tiếng máy thở ICU",
+    "⊘",
+    ""
+   ],
+   "el": "1.01",
+   "spans": [],
+   "new_spans": [],
+   "need_text": true,
+   "ctx": "",
+   "bad_frags": [
+    "*HỒI 01 · NGHỊCH LÝ CỦA NGƯỜI Y TÁ MẪU MỰC*"
+   ]
+  },
+  {
+   "sid": "1-01",
+   "kind": "shot",
+   "row": [
+    "1-01",
+    "`1.03#1`–`#2`",
+    "H",
+    "T5 ngày",
+    "`t4_somerset_exterior`",
+    "**MÙA THU NĂM 2003** · *Trung tâm Y tế Somerset* → `#2`: *Thị trấn Somerville · Bang New Jersey*",
+    "Gõ từng ký tự",
+    "✦ Cú",
+    ""
+   ],
+   "el": "1.03",
+   "spans": [
+    [
+     "1.03",
+     1,
+     2
+    ]
+   ],
+   "new_spans": [
+    [
+     "1.03",
+     1,
+     1
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Mùa thu năm 2003.",
+   "bad_frags": [
+    "*Trung tâm Y tế Somerset*",
+    "*Thị trấn Somerville · Bang New Jersey*"
+   ]
+  },
+  {
+   "sid": "1-02",
+   "kind": "shot",
+   "row": [
+    "1-02",
+    "`1.03#3`",
+    "H",
+    "T1",
+    "`t4_icu_night`",
+    "**PHÒNG HỒI SỨC TÍCH CỰC ICU** · *Ánh đèn huỳnh quang trắng lạnh*",
+    "—",
+    "",
+    ""
+   ],
+   "el": "1.03",
+   "spans": [
+    [
+     "1.03",
+     3,
+     3
+    ]
+   ],
+   "new_spans": [
+    [
+     "1.03",
+     null,
+     null
+    ]
+   ],
+   "need_text": true,
+   "ctx": "",
+   "bad_frags": [
+    "**PHÒNG HỒI SỨC TÍCH CỰC ICU**",
+    "*Ánh đèn huỳnh quang trắng lạnh*"
+   ]
+  },
+  {
+   "sid": "1-03",
+   "kind": "shot",
+   "row": [
+    "1-03",
+    "`1.03#4`",
+    "H",
+    "T1",
+    "`t4_cullen_silhouette`, `push`",
+    "**NGƯỜI ĐÀN ÔNG 43 TUỔI** · *Dáng người gầy gò · Giọng nói nhỏ nhẹ* → *Sẵn sàng làm thay ca trực cho đồng nghiệp*",
+    "—",
+    "",
+    ""
+   ],
+   "el": "1.03",
+   "spans": [
+    [
+     "1.03",
+     4,
+     4
+    ]
+   ],
+   "new_spans": [
+    [
+     "1.03",
+     null,
+     null
+    ]
+   ],
+   "need_text": true,
+   "ctx": "",
+   "bad_frags": [
+    "**NGƯỜI ĐÀN ÔNG 43 TUỔI**",
+    "*Dáng người gầy gò · Giọng nói nhỏ nhẹ*",
+    "*Sẵn sàng làm thay ca trực cho đồng nghiệp*"
+   ]
+  },
+  {
+   "sid": "1-04",
+   "kind": "shot",
+   "row": [
+    "1-04",
+    "`1.04` (nghỉ 1.5 s)",
+    "—",
+    "—",
+    "giữ 1-03",
+    "—",
+    "—",
+    "⊘",
+    ""
+   ],
+   "el": "1.04",
+   "spans": [],
+   "new_spans": [],
+   "need_text": false,
+   "ctx": ""
+  },
+  {
+   "sid": "1-05",
+   "kind": "shot",
+   "row": [
+    "1-05",
+    "`1.05#1`",
+    "H",
+    "T2",
+    "`t4_nurse_station`",
+    "*MÔI TRƯỜNG Y TẾ ĐẦY ÁP LỰC* · **RANH GIỚI GIỮA SỰ SỐNG VÀ SỰ RA ĐI** · *Một người đồng nghiệp đáng tin cậy*",
+    "Dấu mộc ở \"Ranh giới\"",
+    "🅑",
+    ""
+   ],
+   "el": "1.05",
+   "spans": [
+    [
+     "1.05",
+     1,
+     1
+    ]
+   ],
+   "new_spans": [
+    [
+     "1.05",
+     1,
+     1
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Trong một môi trường y tế đầy áp lực, nơi ranh giới giữa sự sống và sự ra đi chỉ tính bằng từng giây, Cullen được xem như một chỗ dựa đáng tin cậy.",
+   "bad_frags": [
+    "*Một người đồng nghiệp đáng tin cậy*"
+   ]
+  },
+  {
+   "sid": "1-06",
+   "kind": "shot",
+   "row": [
+    "1-06",
+    "`1.05#2`–`#3`",
+    "H",
+    "T1",
+    "`t4_code_blue_aftermath`",
+    "**NGƯỜI ĐẦU TIÊN CHẠY ĐẾN PHỤ GIÚP** · *Lặng lẽ dọn dẹp phòng bệnh sau ca cấp cứu* → `#3`: *Sự quý mến và tin tưởng của đồng nghiệp*",
+    "Tiếng sốc tim & flatline",
+    "⊘",
+    "→N1"
+   ],
+   "el": "1.05",
+   "spans": [
+    [
+     "1.05",
+     2,
+     3
+    ]
+   ],
+   "new_spans": [
+    [
+     "1.05",
+     2,
+     4
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Hắn luôn là người đầu tiên chạy đến phụ giúp khi có bệnh nhân trở nặng, và lặng lẽ ở lại dọn dẹp phòng bệnh sau những ca cấp cứu thất bại. Đồng nghiệp coi hắn là một người bạn hiền lành, một người cha trầm lặng luôn hết lòng vì công việc. Để hiểu sự quý mến và tin tưởng ấy lớn đến mức nào, hãy hình dung cảm nhận của những người từng kề vai sát cánh cùng hắn qua hàng trăm ca trực đêm.",
+   "bad_frags": [
+    "*Lặng lẽ dọn dẹp phòng bệnh sau ca cấp cứu*",
+    "*Sự quý mến và tin tưởng của đồng nghiệp*"
+   ]
+  },
+  {
+   "sid": "1-07",
+   "kind": "shot",
+   "row": [
+    "1-07",
+    "`1.07#1`–`#2`",
+    "N1",
+    "T4 lời kể",
+    "`t4_breakroom_night`",
+    "“Trong mắt tất cả y tá chúng tôi, Charlie là một người bạn tuyệt vời.” → `#2`: “Anh ấy chu đáo, không bao giờ cáu gắt và luôn chăm sóc người bệnh vô cùng ân cần.”",
+    "—",
+    "✦ Y tá",
+    ""
+   ],
+   "el": "1.07",
+   "spans": [
+    [
+     "1.07",
+     1,
+     2
+    ]
+   ],
+   "new_spans": [
+    [
+     "1.07",
+     1,
+     2
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Trong mắt tất cả y tá chúng tôi tại bệnh viện Somerset, Charlie là một người bạn tuyệt vời. Anh ấy chu đáo, không bao giờ cáu gắt và luôn chăm sóc người bệnh vô cùng ân cần.",
+   "bad_frags": [
+    "“Trong mắt tất cả y tá chúng tôi, Charlie là một người bạn tuyệt vời.”"
+   ]
+  },
+  {
+   "sid": "1-08",
+   "kind": "shot",
+   "row": [
+    "1-08",
+    "`1.07#3`–`#4`",
+    "N1",
+    "T4 lời kể",
+    "`t4_breakroom_night`, `push`",
+    "“Anh ấy luôn chủ động nhận gánh vác những phần việc nặng nhọc nhất mà chẳng một lời than vãn.” → `#4`: “Không một ai trong bệnh viện có thể mảy may nghi ngờ một người đồng nghiệp hiền lành và tận tụy đến như thế.”",
+    "—",
+    "⊘",
+    "→H"
+   ],
+   "el": "1.07",
+   "spans": [
+    [
+     "1.07",
+     3,
+     4
+    ]
+   ],
+   "new_spans": [
+    [
+     "1.07",
+     3,
+     4
+    ]
+   ],
+   "need_text": false,
+   "ctx": "Khi các ca trực đêm quá tải và mệt mỏi, anh ấy luôn chủ động nhận gánh vác những phần việc nặng nhọc nhất mà chẳng một lời than vãn. Không một ai trong bệnh viện có thể mảy may nghi ngờ một người đồng nghiệp hiền lành và tận tụy đến như thế.",
+   "bad_frags": []
+  },
+  {
+   "sid": "1-09",
+   "kind": "shot",
+   "row": [
+    "1-09",
+    "`1.08#1`",
+    "H",
+    "T1",
+    "`t4_corridor_shadow`",
+    "**ĐẰNG SAU CHIẾC ÁO BLOUSE TRẮNG** · *Bóng ma tử thần âm thầm bước đi qua từng hành lang*",
+    "—",
+    "✦ Cú",
+    ""
+   ],
+   "el": "1.08",
+   "spans": [
+    [
+     "1.08",
+     1,
+     1
+    ]
+   ],
+   "new_spans": [
+    [
+     "1.08",
+     1,
+     1
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Thế nhưng, đằng sau cặp kính cận trí thức và nụ cười hòa nhã ấy, một bóng ma tử thần đang âm thầm gieo rắc bi kịch qua từng hành lang bệnh viện.",
+   "bad_frags": [
+    "**ĐẰNG SAU CHIẾC ÁO BLOUSE TRẮNG**",
+    "*Bóng ma tử thần âm thầm bước đi qua từng hành lang*"
+   ]
+  },
+  {
+   "sid": "1-10",
+   "kind": "shot",
+   "row": [
+    "1-10",
+    "`1.08#2`–`#4`",
+    "H",
+    "T1",
+    "`t4_patient_room_night`",
+    "**LINH MỤC FLORIAN GALL · 68 TUỔI** · *Nhập viện vì viêm phổi và biến chứng nhiễm trùng* → `#3`: *Không ai nghĩ rằng đó sẽ là những ngày cuối cùng của ngài* → `#4`: **ĐỘT NGỘT RƠI VÀO CƠN LOẠN NHỊP VÀ TRỤY TIM HOÀN TOÀN**",
+    "—",
+    "⊘",
+    ""
+   ],
+   "el": "1.08",
+   "spans": [
+    [
+     "1.08",
+     2,
+     4
+    ]
+   ],
+   "new_spans": [
+    [
+     "1.08",
+     3,
+     4
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Bệnh tình của ngài đang tiến triển rất khả quan và các bác sĩ dự kiến ngài sẽ sớm được xuất viện về nhà. Thế nhưng, chỉ vài giờ sau khi bước vào ca trực đêm của Charles Cullen, vị linh mục đột ngột rơi vào cơn loạn nhịp kịch phát rồi trụy tim hoàn toàn.",
+   "bad_frags": [
+    "**LINH MỤC FLORIAN GALL · 68 TUỔI**",
+    "*Nhập viện vì viêm phổi và biến chứng nhiễm trùng*",
+    "*Không ai nghĩ rằng đó sẽ là những ngày cuối cùng của ngài*",
+    "**ĐỘT NGỘT RƠI VÀO CƠN LOẠN NHỊP VÀ TRỤY TIM HOÀN TOÀN**"
+   ]
+  },
+  {
+   "sid": "1-11",
+   "kind": "shot",
+   "row": [
+    "1-11",
+    "`1.10#1`",
+    "H",
+    "T2",
+    "`t4_toxicology_lab`",
+    "*XÉT NGHIỆM ĐỘC CHẤT HỌC PHÁP Y* · **NỒNG ĐỘ DIGOXIN CAO GẤP HÀNG CHỤC LẦN** · *Trong cơ thể vị linh mục*",
+    "Dấu mộc ở \"Nồng độ Digoxin\"",
+    "🅑",
+    ""
+   ],
+   "el": "1.10",
+   "spans": [
+    [
+     "1.10",
+     1,
+     1
+    ]
+   ],
+   "new_spans": [
+    [
+     "1.10",
+     1,
+     1
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Khi kết quả xét nghiệm độc chất học pháp y được gửi về từ phòng thí nghiệm, các bác sĩ đã kinh hoàng phát hiện nồng độ Digoxin cực cao trong cơ thể vị linh mục.",
+   "bad_frags": [
+    "**NỒNG ĐỘ DIGOXIN CAO GẤP HÀNG CHỤC LẦN**"
+   ]
+  },
+  {
+   "sid": "1-12",
+   "kind": "shot",
+   "row": [
+    "1-12",
+    "`1.10#2`–`#3`",
+    "H",
+    "T1",
+    "`t4_digoxin_vial`, `push`",
+    "**KHÔNG PHẢI LÀ MỘT SỰ NHẦM LẪN Y KHOA** → `#3`: **ĐÓ LÀ MỘT HÀNH VI CÓ CHỦ ĐÍCH**",
+    "Sub-drop ở \"có chủ đích\"",
+    "⊘",
+    ""
+   ],
+   "el": "1.10",
+   "spans": [
+    [
+     "1.10",
+     2,
+     3
+    ]
+   ],
+   "new_spans": [
+    [
+     "1.10",
+     3,
+     5
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Trái tim của vị linh mục đã bị bóp nghẹt bởi một liều độc dược nhân tạo chứ không phải vì bệnh lý tự nhiên. Tiến sĩ Steven Marcus, Giám đốc Hệ thống Thông tin Độc chất New Jersey, đã lập tức gửi cảnh báo khẩn cấp tới ban giám đốc bệnh viện về nguy cơ có kẻ đang đầu độc bệnh nhân. Thế nhưng, thay vì báo cảnh sát, ban lãnh đạo bệnh viện đã chọn cách trì hoãn và giữ kín sự việc suốt nhiều tháng trời.",
+   "bad_frags": [
+    "**KHÔNG PHẢI LÀ MỘT SỰ NHẦM LẪN Y KHOA**",
+    "**ĐÓ LÀ MỘT HÀNH VI CÓ CHỦ ĐÍCH**"
+   ]
+  },
+  {
+   "sid": "1-13",
+   "kind": "shot",
+   "row": [
+    "1-13",
+    "`1.11` (nghỉ 2 s)",
+    "—",
+    "—",
+    "giữ 1-12",
+    "—",
+    "—",
+    "⊘",
+    ""
+   ],
+   "el": "1.11",
+   "spans": [],
+   "new_spans": [],
+   "need_text": false,
+   "ctx": ""
+  },
+  {
+   "sid": "1-14",
+   "kind": "shot",
+   "row": [
+    "1-14",
+    "`1.12#1`",
+    "H",
+    "T1",
+    "`t4_case_file_open`",
+    "*QUY MÔ CHẤN ĐỘNG CỦA VỤ ÁN* · **LẮNG NGHE ĐIỀU TRA VIÊN THỤ LÝ HỒ SƠ**",
+    "—",
+    "→D",
+    ""
+   ],
+   "el": "1.12",
+   "spans": [
+    [
+     "1.12",
+     1,
+     1
+    ]
+   ],
+   "new_spans": [
+    [
+     "1.12",
+     1,
+     1
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Để hiểu rõ quy mô chấn động và bức tranh toàn cảnh của hồ sơ y tế đen tối này, chúng ta hãy lắng nghe phân tích từ Điều tra viên chuyên án.",
+   "bad_frags": [
+    "*QUY MÔ CHẤN ĐỘNG CỦA VỤ ÁN*",
+    "**LẮNG NGHE ĐIỀU TRA VIÊN THỤ LÝ HỒ SƠ**"
+   ]
+  },
+  {
+   "sid": "1-15",
+   "kind": "shot",
+   "row": [
+    "1-15",
+    "`1.14#1`–`#2`",
+    "D",
+    "T1",
+    "`t4_case_file_open`",
+    "**LỊCH SỬ CÔNG TÁC CỦA CHARLES CULLEN** · *Một sự thật kinh hoàng mở ra trước mắt ban chuyên án* → `#2`: *Somerset Medical Center không phải là nơi đầu tiên*",
+    "—",
+    "✦ Sói",
+    ""
+   ],
+   "el": "1.14",
+   "spans": [
+    [
+     "1.14",
+     1,
+     2
+    ]
+   ],
+   "new_spans": [
+    [
+     "1.14",
+     1,
+     2
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Khi chúng tôi lật lại lịch sử công tác của Charles Cullen, một bức tranh kinh hoàng đã hiện rõ trước mắt ban chuyên án. Trung tâm Y tế Somerset hoàn toàn không phải là hiện trường đầu tiên.",
+   "bad_frags": [
+    "*Một sự thật kinh hoàng mở ra trước mắt ban chuyên án*",
+    "*Somerset Medical Center không phải là nơi đầu tiên*"
+   ]
+  },
+  {
+   "sid": "1-16",
+   "kind": "shot",
+   "row": [
+    "1-16",
+    "`1.14#3`–`#4`",
+    "D",
+    "T8",
+    "`t4_ten_hospitals_map`",
+    "*16 NĂM HÀNH NGHỀ: 9 BỆNH VIỆN VÀ 1 VIỆN DƯỠNG LÃO* · *Tỷ lệ tử vong ca đêm tăng vọt theo đồ thị kỳ dị*",
+    "Mỗi mục ở cụm từ",
+    "",
+    ""
+   ],
+   "el": "1.14",
+   "spans": [
+    [
+     "1.14",
+     3,
+     4
+    ]
+   ],
+   "new_spans": [
+    [
+     "1.14",
+     4,
+     4
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Ở bất cứ nơi nào hắn đặt chân đến, tỷ lệ bệnh nhân tử vong vì ngưng tim đột ngột vào ca trực đêm đều tăng vọt theo một đồ thị bất thường.",
+   "bad_frags": [
+    "*16 NĂM HÀNH NGHỀ: 9 BỆNH VIỆN VÀ 1 VIỆN DƯỠNG LÃO*",
+    "*Tỷ lệ tử vong ca đêm tăng vọt theo đồ thị kỳ dị*"
+   ]
+  },
+  {
+   "sid": "1-17",
+   "kind": "shot",
+   "row": [
+    "1-17",
+    "`1.14#5`–`#6`",
+    "D",
+    "T1",
+    "`t4_ten_hospitals_map`, `pull`",
+    "**CULLEN TỰ NHẬN 40 VỤ · TÒA XÁC NHẬN 29 VỤ** · *Con số thực sự có thể lên tới hàng trăm người* → `#6`: *Kẻ thủ ác cướp đi nhiều sinh mạng nhất lịch sử y tế Mỹ*",
+    "—",
+    "⊘",
+    "→H"
+   ],
+   "el": "1.14",
+   "spans": [
+    [
+     "1.14",
+     5,
+     6
+    ]
+   ],
+   "new_spans": [
+    [
+     "1.14",
+     6,
+     7
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Cullen thừa nhận đã sát hại khoảng 40 bệnh nhân, và cơ quan công tố xác nhận 29 nạn nhân trong số đó. Tuy nhiên, dựa trên hồ sơ theo dõi dịch tễ và lượng thuốc mất tích bí ẩn, các chuyên gia điều tra nhận định con số thực tế có thể lên tới 400 nạn nhân.",
+   "bad_frags": [
+    "**CULLEN TỰ NHẬN 40 VỤ · TÒA XÁC NHẬN 29 VỤ**",
+    "*Con số thực sự có thể lên tới hàng trăm người*",
+    "*Kẻ thủ ác cướp đi nhiều sinh mạng nhất lịch sử y tế Mỹ*"
+   ]
+  },
+  {
+   "sid": "1-18",
+   "kind": "shot",
+   "row": [
+    "1-18",
+    "`1.16#1`–`#3`",
+    "H",
+    "T10",
+    "`t4_somerset_exterior`",
+    "**THIÊN THẦN TỬ THẦN** · *Phức cảm Chúa trời ngầm & Kỹ thuật trung hòa đạo đức*",
+    "Tên tập ở cuối",
+    "🅑",
+    ""
+   ],
+   "el": "1.16",
+   "spans": [
+    [
+     "1.16",
+     1,
+     3
+    ]
+   ],
+   "new_spans": [
+    [
+     "1.16",
+     1,
+     3
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Chào mừng bạn đến với kênh phân tích tâm lý tội phạm Amber Eyes. Hôm nay, chúng ta cùng giải phẫu một trong những hồ sơ đen tối và nhức nhối nhất của nền y học thế giới: Hồ sơ Charles Cullen, kẻ mang biệt danh “Thiên thần Tử thần”. Tập phim này sẽ làm sáng tỏ hai hiện tượng tâm lý méo mó: “Phức cảm Chúa trời” và kỹ thuật trung hòa đạo đức giúp một kẻ sát nhân ngủ yên mỗi đêm.",
+   "bad_frags": [
+    "*Phức cảm Chúa trời ngầm & Kỹ thuật trung hòa đạo đức*"
+   ]
+  },
+  {
+   "sid": "1-19",
+   "kind": "meta",
+   "row": [
+    "1-19",
+    "nghỉ chuyển hồi (2 s)",
+    "—",
+    "T10",
+    "`void`",
+    "*HỒI 02* · **LỖ HỔNG CHẾT NGƯỜI CỦA MÁY PHÁT THUỐC**",
+    "—",
+    "⊘",
+    "◼"
+   ],
+   "el": null,
+   "spans": null,
+   "new_spans": null,
+   "need_text": false
+  },
+  {
+   "sid": "2-01",
+   "kind": "shot",
+   "row": [
+    "2-01",
+    "`2.02#1`–`#2`",
+    "H",
+    "T1",
+    "`t4_sterile_room`",
+    "**HIỆN TRƯỜNG CỦA NHỮNG VỤ ÁN** · *Những căn phòng điều trị vô trùng · Nơi người bệnh gửi gắm niềm tin*",
+    "Nhạc piano tối giản",
+    "✦ Cú",
+    ""
+   ],
+   "el": "2.02",
+   "spans": [
+    [
+     "2.02",
+     1,
+     2
+    ]
+   ],
+   "new_spans": [
+    [
+     "2.02",
+     1,
+     2
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Hiện trường của những vụ án giết người thông thường là những con hẻm tối, những căn nhà hoang hay rừng sâu hẻo lánh. Thế nhưng, hiện trường của Charles Cullen lại là những căn phòng điều trị vô trùng, nơi người bệnh gửi gắm sự sống và niềm tin trọn vẹn nhất.",
+   "bad_frags": [
+    "*Những căn phòng điều trị vô trùng · Nơi người bệnh gửi gắm niềm tin*"
+   ]
+  },
+  {
+   "sid": "2-02",
+   "kind": "shot",
+   "row": [
+    "2-02",
+    "`2.02#3`",
+    "H",
+    "T8",
+    "`t4_lethal_trio`",
+    "*CÔNG CỤ GÂY ÁN KHÔNG PHẢI SÚNG ĐẠN* · **NHỮNG LOẠI THUỐC CỨU NGƯỜI** · *Của nền y tế hiện đại*",
+    "Mỗi mục ở cụm từ",
+    "",
+    ""
+   ],
+   "el": "2.02",
+   "spans": [
+    [
+     "2.02",
+     3,
+     3
+    ]
+   ],
+   "new_spans": [
+    [
+     "2.02",
+     3,
+     3
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Công cụ gây án của hắn không phải là súng đạn hay hung khí thô bạo, mà là chính những ống thuốc cứu người của nền y học hiện đại.",
+   "bad_frags": [
+    "*CÔNG CỤ GÂY ÁN KHÔNG PHẢI SÚNG ĐẠN*",
+    "**NHỮNG LOẠI THUỐC CỨU NGƯỜI**",
+    "*Của nền y tế hiện đại*"
+   ]
+  },
+  {
+   "sid": "2-03",
+   "kind": "shot",
+   "row": [
+    "2-03",
+    "`2.03` (nghỉ 1.5 s)",
+    "—",
+    "—",
+    "giữ 2-02",
+    "—",
+    "—",
+    "⊘",
+    ""
+   ],
+   "el": "2.03",
+   "spans": [],
+   "new_spans": [],
+   "need_text": false,
+   "ctx": ""
+  },
+  {
+   "sid": "2-04",
+   "kind": "shot",
+   "row": [
+    "2-04",
+    "`2.04#1`–`#2`",
+    "H",
+    "T1",
+    "`t4_pyxis_station`",
+    "**KẼ HỞ TRONG HỆ THỐNG QUẢN LÝ THUỐC** · *Để lẩn tránh suốt 16 năm*",
+    "—",
+    "→D",
+    ""
+   ],
+   "el": "2.04",
+   "spans": [
+    [
+     "2.04",
+     1,
+     2
+    ]
+   ],
+   "new_spans": [
+    [
+     "2.04",
+     1,
+     3
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Để có thể lẩn tránh qua chín cơ sở y tế mà không bị phát giác, Cullen đã khai thác triệt để những kẽ hở quản lý kỹ thuật số thời kỳ đầu. Hắn biến chiếc máy cấp phát thuốc tự động thành công cụ phục vụ cho những ảo tưởng quyền lực bệnh hoạn của mình. Xin mời Điều tra viên tái hiện lại thủ đoạn tinh vi và quỹ đạo leo thang hành vi của kẻ thủ ác.",
+   "bad_frags": [
+    "**KẼ HỞ TRONG HỆ THỐNG QUẢN LÝ THUỐC**",
+    "*Để lẩn tránh suốt 16 năm*"
+   ]
+  },
+  {
+   "sid": "2-05",
+   "kind": "shot",
+   "row": [
+    "2-05",
+    "`2.06#1`–`#2`",
+    "D",
+    "T1",
+    "`t4_pyxis_station`, `still`",
+    "**TỦ CẤP THUỐC TỰ ĐỘNG PYXIS MEDSTATION** · *Đăng nhập bằng mã số cá nhân để lấy thuốc*",
+    "—",
+    "✦ Sói",
+    ""
+   ],
+   "el": "2.06",
+   "spans": [
+    [
+     "2.06",
+     1,
+     2
+    ]
+   ],
+   "new_spans": [
+    [
+     "2.06",
+     1,
+     1
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Vào đầu những năm 2000, các bệnh viện bắt đầu sử dụng tủ cấp phát thuốc tự động Pyxis MedStation để quản lý dược phẩm chặt chẽ hơn.",
+   "bad_frags": [
+    "**TỦ CẤP THUỐC TỰ ĐỘNG PYXIS MEDSTATION**",
+    "*Đăng nhập bằng mã số cá nhân để lấy thuốc*"
+   ]
+  },
+  {
+   "sid": "2-06",
+   "kind": "shot",
+   "row": [
+    "2-06",
+    "`2.06#3`–`#4`",
+    "D",
+    "T1",
+    "`t4_pyxis_drawer_ajar`",
+    "**MÁY TÍNH LƯU LẠI THỜI GIAN VÀ DANH TÍNH NGƯỜI THAO TÁC** → `#4`: **KẼ HỞ: GỌI THUỐC RỒI HỦY LỆNH** · *Trong khi ngăn kéo vẫn kịp mở ra*",
+    "—",
+    "",
+    ""
+   ],
+   "el": "2.06",
+   "spans": [
+    [
+     "2.06",
+     3,
+     4
+    ]
+   ],
+   "new_spans": [
+    [
+     "2.06",
+     2,
+     3
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Mỗi y tá phải dùng mã số cá nhân để đăng nhập, chọn đúng tên bệnh nhân được bác sĩ chỉ định và nhấn lệnh xuất thuốc. Tuy nhiên, Charles Cullen đã phát hiện ra một lỗ hổng nghiêm trọng trong thiết kế phần mềm của hệ thống này.",
+   "bad_frags": [
+    "**MÁY TÍNH LƯU LẠI THỜI GIAN VÀ DANH TÍNH NGƯỜI THAO TÁC**",
+    "**KẼ HỞ: GỌI THUỐC RỒI HỦY LỆNH**",
+    "*Trong khi ngăn kéo vẫn kịp mở ra*"
+   ]
+  },
+  {
+   "sid": "2-07",
+   "kind": "shot",
+   "row": [
+    "2-07",
+    "`2.06#5`–`#6`",
+    "D",
+    "T1",
+    "`t4_pyxis_cancel_screen`",
+    "**SỔ KHO: GIAO DỊCH “ĐÃ HỦY BỎ”** · *Như thể không có lọ thuốc nào rời khỏi tủ* → `#6`: *Hắn còn tra cứu hồ sơ của cả những bệnh nhân không thuộc quyền chăm sóc của mình*",
+    "—",
+    "",
+    ""
+   ],
+   "el": "2.06",
+   "spans": [
+    [
+     "2.06",
+     5,
+     6
+    ]
+   ],
+   "new_spans": [
+    [
+     "2.06",
+     3,
+     4
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Tuy nhiên, Charles Cullen đã phát hiện ra một lỗ hổng nghiêm trọng trong thiết kế phần mềm của hệ thống này. Hắn nhập lệnh yêu cầu lấy những loại thuốc độc bảng A như Digoxin, Insulin hay Norepinephrine, nhưng ngay khi ngăn kéo máy vừa mở ra, hắn lập tức nhấn nút hủy lệnh.",
+   "bad_frags": [
+    "**SỔ KHO: GIAO DỊCH “ĐÃ HỦY BỎ”**",
+    "*Như thể không có lọ thuốc nào rời khỏi tủ*",
+    "*Hắn còn tra cứu hồ sơ của cả những bệnh nhân không thuộc quyền chăm sóc của mình*"
+   ]
+  },
+  {
+   "sid": "2-08",
+   "kind": "shot",
+   "row": [
+    "2-08",
+    "`2.06#7`–`#8`",
+    "D",
+    "T1",
+    "`t4_pyxis_printout`",
+    "**MÁY VẪN LƯU LẠI TỪNG LỆNH HỦY** · *Từng lần tra cứu* → `#8`: **CHÍNH NHỮNG DẤU VẾT ẤY SẼ TỐ CÁO HẮN**",
+    "—",
+    "⊘",
+    "→H"
+   ],
+   "el": "2.06",
+   "spans": [
+    [
+     "2.06",
+     7,
+     8
+    ]
+   ],
+   "new_spans": [
+    [
+     "2.06",
+     4,
+     4
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Hắn nhập lệnh yêu cầu lấy những loại thuốc độc bảng A như Digoxin, Insulin hay Norepinephrine, nhưng ngay khi ngăn kéo máy vừa mở ra, hắn lập tức nhấn nút hủy lệnh.",
+   "bad_frags": [
+    "**MÁY VẪN LƯU LẠI TỪNG LỆNH HỦY**",
+    "*Từng lần tra cứu*",
+    "**CHÍNH NHỮNG DẤU VẾT ẤY SẼ TỐ CÁO HẮN**"
+   ]
+  },
+  {
+   "sid": "2-09",
+   "kind": "shot",
+   "row": [
+    "2-09",
+    "`2.07#1`–`#4`",
+    "H",
+    "T1",
+    "`t4_sterile_room`",
+    "**PHƯƠNG THỨC HOÀN HẢO ĐẾN MỨC VÔ HÌNH** · *Hồi chuông cảnh báo từng bị bỏ quên*",
+    "—",
+    "✦ Cú",
+    "→D"
+   ],
+   "el": "2.07",
+   "spans": [
+    [
+     "2.07",
+     1,
+     4
+    ]
+   ],
+   "new_spans": [
+    [
+     "2.07",
+     1,
+     5
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Nhìn vào danh sách nạn nhân của Charles Cullen, chúng ta thấy rõ một sự bất đối xứng quyền lực tàn nhẫn đến cùng cực. Những người nằm trên giường bệnh ICU là những sinh mệnh yếu ớt nhất, bị gắn chặt vào dây truyền dịch và hoàn toàn mất khả năng tự vệ. Họ không thể kêu cứu, không thể nghi ngờ bàn tay đang chăm sóc mình, và tin tưởng tuyệt đối vào người y tá đứng bên cạnh. Từ linh mục Florian Gall đáng kính đến chàng thanh niên Michael Strenko mới 21 tuổi nhập viện vì biến chứng cắt amidan, tất cả đều bị tước đoạt sinh mạng một cách oan nghiệt. Đó là sự phản bội niềm tin y đức kinh hoàng nhất mà một nhân viên y tế có thể gây ra cho người bệnh.",
+   "bad_frags": [
+    "**PHƯƠNG THỨC HOÀN HẢO ĐẾN MỨC VÔ HÌNH**",
+    "*Hồi chuông cảnh báo từng bị bỏ quên*"
+   ]
+  },
+  {
+   "sid": "2-10",
+   "kind": "shot",
+   "row": [
+    "2-10",
+    "`2.08#1`–`#3`",
+    "D",
+    "T2",
+    "`t4_urgent_memo`",
+    "*TIẾN SĨ STEVEN MARCUS · TRUNG TÂM CHỐNG ĐỘC NJ* · **CẢNH BÁO KHẨN CẤP THÁNG 7 NĂM 2003** · *Có thể có người đang cố tình gây hại cho bệnh nhân*",
+    "Dấu mộc ở \"Cảnh báo khẩn cấp\"",
+    "✦ Sói",
+    ""
+   ],
+   "el": "2.08",
+   "spans": [
+    [
+     "2.08",
+     1,
+     3
+    ]
+   ],
+   "new_spans": [
+    [
+     "2.08",
+     1,
+     1
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Về mặt khoa học hành vi, chúng tôi phân biệt rất rõ ràng giữa phương thức gây án và chữ ký tâm lý của Charles Cullen.",
+   "bad_frags": [
+    "*TIẾN SĨ STEVEN MARCUS · TRUNG TÂM CHỐNG ĐỘC NJ*",
+    "**CẢNH BÁO KHẨN CẤP THÁNG 7 NĂM 2003**",
+    "*Có thể có người đang cố tình gây hại cho bệnh nhân*"
+   ]
+  },
+  {
+   "sid": "2-11",
+   "kind": "shot",
+   "row": [
+    "2-11",
+    "`2.08#4`–`#6`",
+    "D",
+    "T1",
+    "`t4_boardroom_empty`",
+    "**BAN GIÁM ĐỐC BỆNH VIỆN SOMERSET** · *Gần ba tháng im lặng điều tra nội bộ · Thêm ít nhất năm bệnh nhân tử vong*",
+    "—",
+    "⊘",
+    "→H"
+   ],
+   "el": "2.08",
+   "spans": [
+    [
+     "2.08",
+     4,
+     6
+    ]
+   ],
+   "new_spans": [
+    [
+     "2.08",
+     1,
+     1
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Về mặt khoa học hành vi, chúng tôi phân biệt rất rõ ràng giữa phương thức gây án và chữ ký tâm lý của Charles Cullen.",
+   "bad_frags": [
+    "**BAN GIÁM ĐỐC BỆNH VIỆN SOMERSET**",
+    "*Gần ba tháng im lặng điều tra nội bộ · Thêm ít nhất năm bệnh nhân tử vong*"
+   ]
+  },
+  {
+   "sid": "2-12",
+   "kind": "shot",
+   "row": [
+    "2-12",
+    "`2.10#1`–`#3`",
+    "H",
+    "T1",
+    "`t4_locked_archives`, `push`",
+    "**TẠI SAO LẠI CÓ THỂ LÀM NGƠ?** · *Làm thế nào chuyển việc trót lọt qua 9 bệnh viện khác nhau?*",
+    "—",
+    "✦ Cú",
+    "→C"
+   ],
+   "el": "2.10",
+   "spans": [
+    [
+     "2.10",
+     1,
+     3
+    ]
+   ],
+   "new_spans": [
+    [
+     "2.10",
+     1,
+     3
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Cảm giác toàn năng ấy chính là chiếc bẫy tâm lý nguy hiểm nhất của những kẻ giết người đội lốt thiên thần. Vậy điều gì đã khiến một người bình thường biến những bệnh nhân vô tội thành công cụ thỏa mãn bản năng thống trị của mình? Xin mời Chuyên gia tâm lý phân tích cơ chế vật hóa nạn nhân và sự tê liệt cảm xúc của Charles Cullen.",
+   "bad_frags": [
+    "**TẠI SAO LẠI CÓ THỂ LÀM NGƠ?**",
+    "*Làm thế nào chuyển việc trót lọt qua 9 bệnh viện khác nhau?*"
+   ]
+  },
+  {
+   "sid": "2-13",
+   "kind": "shot",
+   "row": [
+    "2-13",
+    "`2.11#1`–`#3`",
+    "C",
+    "T2",
+    "`t4_institutional_bystander`",
+    "*TÂM LÝ HỌC TỔ CHỨC VÀ XÃ HỘI HỌC PHÁP LÝ* · **HIỆN TƯỢNG BÀNG QUAN THỂ CHẾ** · *Saint Barnabas 1992: Cho thôi việc trong lặng lẽ*",
+    "Dấu mộc ở \"Hiện tượng bàng quan\"",
+    "✦ Cáo",
+    ""
+   ],
+   "el": "2.11",
+   "spans": [
+    [
+     "2.11",
+     1,
+     3
+    ]
+   ],
+   "new_spans": [
+    [
+     "2.11",
+     1,
+     3
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Dưới góc độ tâm lý học hành vi, Charles Cullen biểu hiện một cơ chế “Vật hóa” và phi nhân hóa nạn nhân vô cùng điển hình. Hắn không nhìn người bệnh như một con người có cảm xúc, có gia đình đang chờ đợi và có quyền được sống trọn vẹn. Trong tâm trí méo mó của Cullen, các bệnh nhân bị giáng cấp thành những “đạo cụ sống” để hắn trình diễn vở kịch cứu rỗi đầy ảo tưởng của bản thân.",
+   "bad_frags": [
+    "*TÂM LÝ HỌC TỔ CHỨC VÀ XÃ HỘI HỌC PHÁP LÝ*",
+    "**HIỆN TƯỢNG BÀNG QUAN THỂ CHẾ**",
+    "*Saint Barnabas 1992: Cho thôi việc trong lặng lẽ*"
+   ]
+  },
+  {
+   "sid": "2-14",
+   "kind": "shot",
+   "row": [
+    "2-14",
+    "`2.11#4`–`#6`",
+    "C",
+    "T1",
+    "`t4_institutional_bystander`, `still`",
+    "*Bệnh viện Warren 1993: Khép lại vụ việc vì lo ngại danh tiếng* → `#6`: **BỆNH VIỆN SAINT LUKE NĂM 2002: TÌM THẤY NHIỀU LỌ THUỐC KIỂM SOÁT ĐẶC BIỆT**",
+    "—",
+    "⊘",
+    ""
+   ],
+   "el": "2.11",
+   "spans": [
+    [
+     "2.11",
+     4,
+     6
+    ]
+   ],
+   "new_spans": [
+    [
+     "2.11",
+     3,
+     8
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Trong tâm trí méo mó của Cullen, các bệnh nhân bị giáng cấp thành những “đạo cụ sống” để hắn trình diễn vở kịch cứu rỗi đầy ảo tưởng của bản thân. Hắn mắc phải một sự khiếm khuyết nghiêm trọng về Thấu cảm Cảm xúc, khiến hắn hoàn toàn trơ lỳ trước nỗi đau đớn và sự hoảng loạn của người khác. Khi nghe tiếng máy đo nhịp tim báo động dồn dập, tâm trí hắn không hề khởi sinh lòng trắc ẩn hay sự hối hận. Ngược lại, sự suy sụp của cơ thể nạn nhân kích hoạt trong hắn một cơn khoái cảm quyền lực cực kỳ độc hại. Hắn cảm thấy bản thân mình trở nên vĩ đại, đứng trên cả y học và số phận khi có quyền quyết định ai được thở và ai phải dừng lại. Sự trống rỗng bên trong bản ngã đã thôi thúc hắn phải liên tục tìm kiếm những nạn nhân mới để lấp đầy cơn đói ảo tưởng quyền năng ấy.",
+   "bad_frags": [
+    "*Bệnh viện Warren 1993: Khép lại vụ việc vì lo ngại danh tiếng*",
+    "**BỆNH VIỆN SAINT LUKE NĂM 2002: TÌM THẤY NHIỀU LỌ THUỐC KIỂM SOÁT ĐẶC BIỆT**"
+   ]
+  },
+  {
+   "sid": "2-15",
+   "kind": "shot",
+   "row": [
+    "2-15",
+    "`2.11#7`–`#8`",
+    "C",
+    "T1",
+    "`t4_neutral_letter`",
+    "**THƯ XÁC NHẬN CÔNG TÁC TRUNG TÍNH** · *Thỏa thuận cho tự nguyện thôi việc để chuyển sang bệnh viện tiếp theo* → `#8`: *Tại sao các nhà quản lý bệnh viện lại hành xử như vậy?*",
+    "—",
+    "",
+    ""
+   ],
+   "el": "2.11",
+   "spans": [
+    [
+     "2.11",
+     7,
+     8
+    ]
+   ],
+   "new_spans": [
+    [
+     "2.11",
+     8,
+     8
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Sự trống rỗng bên trong bản ngã đã thôi thúc hắn phải liên tục tìm kiếm những nạn nhân mới để lấp đầy cơn đói ảo tưởng quyền năng ấy.",
+   "bad_frags": [
+    "**THƯ XÁC NHẬN CÔNG TÁC TRUNG TÍNH**",
+    "*Thỏa thuận cho tự nguyện thôi việc để chuyển sang bệnh viện tiếp theo*",
+    "*Tại sao các nhà quản lý bệnh viện lại hành xử như vậy?*"
+   ]
+  },
+  {
+   "sid": "2-16",
+   "kind": "shot",
+   "row": [
+    "2-16",
+    "`2.11#9`–`#10`",
+    "C",
+    "T1",
+    "`t4_neutral_letter`, `push`",
+    "**HỆ THỐNG Y TẾ THƯƠNG MẠI HÓA** · *Đặt sự an toàn tài chính lên trên tính mạng bệnh nhân vô tội*",
+    "—",
+    "⊘",
+    ""
+   ],
+   "el": "2.11",
+   "spans": [
+    [
+     "2.11",
+     9,
+     10
+    ]
+   ],
+   "new_spans": [
+    [
+     "2.11",
+     8,
+     8
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Sự trống rỗng bên trong bản ngã đã thôi thúc hắn phải liên tục tìm kiếm những nạn nhân mới để lấp đầy cơn đói ảo tưởng quyền năng ấy.",
+   "bad_frags": [
+    "**HỆ THỐNG Y TẾ THƯƠNG MẠI HÓA**",
+    "*Đặt sự an toàn tài chính lên trên tính mạng bệnh nhân vô tội*"
+   ]
+  },
+  {
+   "sid": "2-17",
+   "kind": "meta",
+   "row": [
+    "2-17",
+    "nghỉ chuyển hồi (2 s)",
+    "—",
+    "T10",
+    "`void`",
+    "*HỒI 03* · **BÊN TRONG BỘ NÃO CỦA KẺ MANG PHỨC CẢM CHÚA TRỜI**",
+    "—",
+    "⊘",
+    "◼"
+   ],
+   "el": null,
+   "spans": null,
+   "new_spans": null,
+   "need_text": false
+  },
+  {
+   "sid": "3-01",
+   "kind": "shot",
+   "row": [
+    "3-01",
+    "`3.02#1`–`#3`",
+    "H",
+    "T1",
+    "`t4_god_complex_metaphor`",
+    "**ĐỘNG CƠ THỰC SỰ ĐIỀU KHIỂN CULLEN LÀ GÌ?** · *Hắn nhiều lần biện minh rằng hắn chỉ muốn chấm dứt nỗi đau đớn cho những người bệnh*",
+    "Nhạc drone trầm đục",
+    "✦ Cú",
+    ""
+   ],
+   "el": "3.02",
+   "spans": [
+    [
+     "3.02",
+     1,
+     3
+    ]
+   ],
+   "new_spans": [
+    [
+     "3.02",
+     1,
+     3
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Đến đây, chúng ta phải bước vào tầng sâu u tối nhất trong bộ não của Charles Cullen để tìm kiếm câu trả lời cốt lõi: Điều gì đã biến một thiếu niên nhút nhát, từng là nạn nhân của bạo lực học đường, trở thành một kẻ sát nhân hàng loạt khét tiếng? Khi bị bắt giữ và đối diện với cơ quan điều tra, Cullen luôn lặp đi lặp lại rằng hắn ra tay vì lòng thương cảm, muốn kết thúc nỗi đau đớn cho người bệnh.",
+   "bad_frags": [
+    "**ĐỘNG CƠ THỰC SỰ ĐIỀU KHIỂN CULLEN LÀ GÌ?**",
+    "*Hắn nhiều lần biện minh rằng hắn chỉ muốn chấm dứt nỗi đau đớn cho những người bệnh*"
+   ]
+  },
+  {
+   "sid": "3-02",
+   "kind": "shot",
+   "row": [
+    "3-02",
+    "`3.02#4`–`#6`",
+    "H",
+    "T1",
+    "`t4_god_complex_metaphor`, `push`",
+    "**BỨC CHÂN DUNG “THIÊN THẦN NHÂN TỪ”** · *Chiếc mặt nạ dối trá che đậy một phức cảm bệnh lý cực kỳ độc hại*",
+    "—",
+    "→C",
+    ""
+   ],
+   "el": "3.02",
+   "spans": [
+    [
+     "3.02",
+     4,
+     6
+    ]
+   ],
+   "new_spans": [
+    [
+     "3.02",
+     3,
+     5
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Khi bị bắt giữ và đối diện với cơ quan điều tra, Cullen luôn lặp đi lặp lại rằng hắn ra tay vì lòng thương cảm, muốn kết thúc nỗi đau đớn cho người bệnh. Hắn cố tình vẽ nên chân dung của một vị thiên thần đi ban phát cái chết êm dịu cho những số phận bất hạnh. Thế nhưng, những bằng chứng khách quan tại hiện trường lại vạch trần một sự thật hoàn toàn trái ngược.",
+   "bad_frags": [
+    "**BỨC CHÂN DUNG “THIÊN THẦN NHÂN TỪ”**",
+    "*Chiếc mặt nạ dối trá che đậy một phức cảm bệnh lý cực kỳ độc hại*"
+   ]
+  },
+  {
+   "sid": "3-03",
+   "kind": "shot",
+   "row": [
+    "3-03",
+    "`3.04#1`–`#3`",
+    "C",
+    "T1",
+    "`t4_childhood_window`",
+    "**NHÂN CÁCH BỊ PHÂN MẢNH NGHIÊM TRỌNG** · *Tổn thương sâu sắc thời thơ ấu* → `#2`: *Mồ côi cha từ khi mới bảy tháng tuổi* → `#3`: *Năm hắn 17 tuổi: Mẹ qua đời trong một vụ tai nạn giao thông*",
+    "—",
+    "✦ Cáo",
+    ""
+   ],
+   "el": "3.04",
+   "spans": [
+    [
+     "3.04",
+     1,
+     3
+    ]
+   ],
+   "new_spans": [
+    [
+     "3.04",
+     1,
+     4
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Hồ sơ tâm lý pháp y của Charles Cullen cho thấy một tuổi thơ ngập tràn bóng tối và sự chối bỏ xã hội. Là con út trong một gia đình nghèo có tám người con tại bang New Jersey, hắn mồ côi cha khi mới chỉ được bảy tháng tuổi. Suốt những năm tháng đi học, Cullen liên tục bị bạn bè bắt nạt tàn nhẫn, trở thành một đứa trẻ cô độc, thu mình và có xu hướng tự hủy hoại bản thân từ rất sớm. Biến cố mang tính bước ngoặt và để lại vết thương sâu sắc nhất xảy ra vào năm hắn 17 tuổi, khi người mẹ thân yêu qua đời trong một vụ tai nạn giao thông thảm khốc.",
+   "bad_frags": [
+    "**NHÂN CÁCH BỊ PHÂN MẢNH NGHIÊM TRỌNG**",
+    "*Tổn thương sâu sắc thời thơ ấu*",
+    "*Mồ côi cha từ khi mới bảy tháng tuổi*",
+    "*Năm hắn 17 tuổi: Mẹ qua đời trong một vụ tai nạn giao thông*"
+   ]
+  },
+  {
+   "sid": "3-04",
+   "kind": "shot",
+   "row": [
+    "3-04",
+    "`3.04#4`–`#5`",
+    "C",
+    "T1",
+    "`t4_rainy_hearse_1977`",
+    "**MẤT ĐI CHỖ DỰA CUỐI CÙNG** · *Với một thiếu niên vốn đã bất ổn* → `#5`: **SỰ CHUYỂN HÓA TỪ MẶC CẢM BẤT LỰC** · *Sang Phức cảm Chúa trời ngầm (Submerged God Complex)*",
+    "—",
+    "⊘",
+    "→H"
+   ],
+   "el": "3.04",
+   "spans": [
+    [
+     "3.04",
+     4,
+     5
+    ]
+   ],
+   "new_spans": [
+    [
+     "3.04",
+     4,
+     6
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Biến cố mang tính bước ngoặt và để lại vết thương sâu sắc nhất xảy ra vào năm hắn 17 tuổi, khi người mẹ thân yêu qua đời trong một vụ tai nạn giao thông thảm khốc. Bệnh viện nơi tiếp nhận người mẹ quá cố của hắn đã tự ý hỏa táng mà không hề thông báo hay cho phép hắn được nhìn mặt mẹ lần cuối. Sự kiện chấn động này đã gieo vào tâm trí Cullen một mối thù hằn âm ỉ đối với các thể chế y tế, đồng thời tước đi điểm tựa tình cảm duy nhất của cuộc đời hắn.",
+   "bad_frags": [
+    "**MẤT ĐI CHỖ DỰA CUỐI CÙNG**",
+    "*Với một thiếu niên vốn đã bất ổn*",
+    "**SỰ CHUYỂN HÓA TỪ MẶC CẢM BẤT LỰC**",
+    "*Sang Phức cảm Chúa trời ngầm (Submerged God Complex)*"
+   ]
+  },
+  {
+   "sid": "3-05",
+   "kind": "shot",
+   "row": [
+    "3-05",
+    "`3.05` (nghỉ 1.5 s)",
+    "—",
+    "—",
+    "giữ 3-04",
+    "—",
+    "—",
+    "⊘",
+    ""
+   ],
+   "el": "3.05",
+   "spans": [],
+   "new_spans": [],
+   "need_text": false,
+   "ctx": ""
+  },
+  {
+   "sid": "3-06",
+   "kind": "shot",
+   "row": [
+    "3-06",
+    "`3.06#1`–`#2`",
+    "H",
+    "T1",
+    "`t4_cullen_silhouette`, `push`",
+    "**CƠ CHẾ BÙ TRỪ QUYỀN LỰC** · *Tự ti, cô độc ngoài xã hội nhưng lại tìm thấy quyền lực tối thượng khi khoác chiếc áo blouse trắng*",
+    "—",
+    "✦ Cú",
+    "→C"
+   ],
+   "el": "3.06",
+   "spans": [
+    [
+     "3.06",
+     1,
+     2
+    ]
+   ],
+   "new_spans": [
+    [
+     "3.06",
+     1,
+     1
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Thế nhưng, làm thế nào một người mang đầy những tổn thương tâm lý và hành vi lệch lạc như vậy lại có thể duy trì cuộc sống thường nhật suốt nhiều năm?",
+   "bad_frags": [
+    "**CƠ CHẾ BÙ TRỪ QUYỀN LỰC**",
+    "*Tự ti, cô độc ngoài xã hội nhưng lại tìm thấy quyền lực tối thượng khi khoác chiếc áo blouse trắng*"
+   ]
+  },
+  {
+   "sid": "3-07",
+   "kind": "shot",
+   "row": [
+    "3-07",
+    "`3.07#1`–`#2`",
+    "C",
+    "T1",
+    "`t4_childhood_window`",
+    "**TRONG CUỘC SỐNG ĐỜI THƯỜNG** · *Cullen cảm thấy mình hoàn toàn bất lực và vô hình*",
+    "—",
+    "✦ Cáo",
+    ""
+   ],
+   "el": "3.07",
+   "spans": [
+    [
+     "3.07",
+     1,
+     2
+    ]
+   ],
+   "new_spans": [
+    [
+     "3.07",
+     1,
+     1
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Để tồn tại và che mắt thế giới xung quanh, bộ não của Charles Cullen đã vận hành một cơ chế phòng vệ cực đoan gọi là “Chia ngăn tâm lý”.",
+   "bad_frags": [
+    "**TRONG CUỘC SỐNG ĐỜI THƯỜNG**",
+    "*Cullen cảm thấy mình hoàn toàn bất lực và vô hình*"
+   ]
+  },
+  {
+   "sid": "3-08",
+   "kind": "shot",
+   "row": [
+    "3-08",
+    "`3.07#3`–`#5`",
+    "C",
+    "T1",
+    "`t4_hypodermic_control`, `push`",
+    "**KHOA HỒI SỨC CẤP CỨU TRONG CA TRỰC ĐÊM** · *Quyền năng quyết định một con người được tiếp tục sống hay phải ra đi*",
+    "Sub-drop ở \"quyền lực tối thượng\"",
+    "⊘",
+    "→H"
+   ],
+   "el": "3.07",
+   "spans": [
+    [
+     "3.07",
+     3,
+     5
+    ]
+   ],
+   "new_spans": [
+    [
+     "3.07",
+     5,
+     5
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Thế nhưng ở ngăn kéo thứ hai, trong bóng tối của những ca trực đêm, hắn mở khóa bản năng hủy diệt và hành động như một kẻ phán xét sinh tử lạnh lùng.",
+   "bad_frags": [
+    "**KHOA HỒI SỨC CẤP CỨU TRONG CA TRỰC ĐÊM**",
+    "*Quyền năng quyết định một con người được tiếp tục sống hay phải ra đi*"
+   ]
+  },
+  {
+   "sid": "3-09",
+   "kind": "shot",
+   "row": [
+    "3-09",
+    "`3.08#1`–`#2`",
+    "H",
+    "T1",
+    "`t4_two_faces_mask`",
+    "**TỰ THUYẾT PHỤC VÌ “LÒNG NHÂN TỪ”** · *Bộ não đã tự đánh lừa lương tâm bằng cách nào?*",
+    "—",
+    "✦ Cú",
+    "→C"
+   ],
+   "el": "3.08",
+   "spans": [
+    [
+     "3.08",
+     1,
+     2
+    ]
+   ],
+   "new_spans": [
+    [
+     "3.08",
+     1,
+     3
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Sự chia ngăn ấy cho thấy sự rạn nứt sâu sắc trong nhân cách của một kẻ sát nhân có học thức. Và câu hỏi nhức nhối nhất là: Hắn đã sử dụng hệ thống lý lẽ nào để vô hiệu hóa cảm giác tội lỗi và ngủ ngon sau mỗi ca trực đẫm máu? Chúng ta hãy cùng xem xét lý thuyết về kỹ thuật trung hòa đạo đức trong hành vi phạm tội của Cullen.",
+   "bad_frags": [
+    "**TỰ THUYẾT PHỤC VÌ “LÒNG NHÂN TỪ”**",
+    "*Bộ não đã tự đánh lừa lương tâm bằng cách nào?*"
+   ]
+  },
+  {
+   "sid": "3-10",
+   "kind": "shot",
+   "row": [
+    "3-10",
+    "`3.09#1`–`#4`",
+    "C",
+    "T2",
+    "`t4_two_faces_mask`",
+    "*CƠ CHẾ THỨ HAI* · **KỸ THUẬT TRUNG HÒA ĐẠO ĐỨC (MORAL NEUTRALIZATION)** · *Ngụy biện: Viện dẫn lòng trắc ẩn cao cả*",
+    "Dấu mộc ở \"Kỹ thuật trung hòa\"",
+    "✦ Cáo",
+    ""
+   ],
+   "el": "3.09",
+   "spans": [
+    [
+     "3.09",
+     1,
+     4
+    ]
+   ],
+   "new_spans": [
+    [
+     "3.09",
+     1,
+     2
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Để tiếp tục gây tội ác mà không bị lương tâm cắn rứt, Charles Cullen đã vận dụng triệt để các “Kỹ thuật Trung hòa Đạo đức” theo lý thuyết của Sykes và Matza. Đầu tiên là kỹ thuật “Phủ nhận tổn hại”: Hắn tự thuyết phục bản thân rằng mình không hề giết người, mà chỉ đang giúp các bệnh nhân chấm dứt sự đau đớn thể xác.",
+   "bad_frags": [
+    "*CƠ CHẾ THỨ HAI*",
+    "**KỸ THUẬT TRUNG HÒA ĐẠO ĐỨC (MORAL NEUTRALIZATION)**",
+    "*Ngụy biện: Viện dẫn lòng trắc ẩn cao cả*"
+   ]
+  },
+  {
+   "sid": "3-11",
+   "kind": "shot",
+   "row": [
+    "3-11",
+    "`3.09#5`–`#7`",
+    "C",
+    "T1",
+    "`t4_broken_mercy`, `push`",
+    "**BẺ GÃY HOÀN TOÀN CHIẾC MẶT NẠ NGỤY BIỆN** · *Michael Strenko 21 tuổi đang hồi phục hoàn toàn sau phẫu thuật thông thường* → `#7`: **KHAO KHÁT THỰC HIỆN QUYỀN NĂNG THỐNG TRỊ SINH SÁT**",
+    "—",
+    "⊘",
+    "→H"
+   ],
+   "el": "3.09",
+   "spans": [
+    [
+     "3.09",
+     5,
+     7
+    ]
+   ],
+   "new_spans": [
+    [
+     "3.09",
+     2,
+     3
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Đầu tiên là kỹ thuật “Phủ nhận tổn hại”: Hắn tự thuyết phục bản thân rằng mình không hề giết người, mà chỉ đang giúp các bệnh nhân chấm dứt sự đau đớn thể xác. Khi đối diện với sự thật rằng nhiều nạn nhân không hề mắc bệnh hiểm nghèo, hắn lập tức chuyển sang kỹ thuật “Ngoại hóa trách nhiệm”.",
+   "bad_frags": [
+    "**BẺ GÃY HOÀN TOÀN CHIẾC MẶT NẠ NGỤY BIỆN**",
+    "*Michael Strenko 21 tuổi đang hồi phục hoàn toàn sau phẫu thuật thông thường*",
+    "**KHAO KHÁT THỰC HIỆN QUYỀN NĂNG THỐNG TRỊ SINH SÁT**"
+   ]
+  },
+  {
+   "sid": "3-12",
+   "kind": "shot",
+   "row": [
+    "3-12",
+    "`3.10#1`–`#3`",
+    "H",
+    "T1",
+    "`t4_innocent_files`, `push`",
+    "**CULLEN KHÔNG CỨU RỖI AI CẢ** · *Người bệnh yếu thế làm vật tế thần cho khủng hoảng nhân cách*",
+    "—",
+    "⊘",
+    ""
+   ],
+   "el": "3.10",
+   "spans": [
+    [
+     "3.10",
+     1,
+     3
+    ]
+   ],
+   "new_spans": [
+    [
+     "3.10",
+     1,
+     3
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Một hệ thống tự bào chữa hoàn hảo được dựng lên để bao biện cho sự trống rỗng và hèn nhát của một kẻ cuồng quyền lực. Hắn tự cho mình quyền quyết định số phận của đồng loại nhưng lại hèn hạ trốn tránh trách nhiệm trước công lý. Và bức tường ngụy biện kiên cố ấy chỉ có thể bị phá vỡ bởi lòng dũng cảm của một người phụ nữ dám nhìn thẳng vào sự thật.",
+   "bad_frags": [
+    "**CULLEN KHÔNG CỨU RỖI AI CẢ**",
+    "*Người bệnh yếu thế làm vật tế thần cho khủng hoảng nhân cách*"
+   ]
+  },
+  {
+   "sid": "3-13",
+   "kind": "meta",
+   "row": [
+    "3-13",
+    "nghỉ chuyển hồi (2 s)",
+    "—",
+    "T10",
+    "`void`",
+    "*HỒI 04* · **ĐẤU TRÍ THẨM VẤN VÀ BƯỚC NGOẶT ĐIỀU TRA**",
+    "—",
+    "⊘",
+    "◼"
+   ],
+   "el": null,
+   "spans": null,
+   "new_spans": null,
+   "need_text": false
+  },
+  {
+   "sid": "4-01",
+   "kind": "shot",
+   "row": [
+    "4-01",
+    "`4.02#1`–`#2`",
+    "H",
+    "T5 ngày",
+    "`t4_prosecutor_office`",
+    "**THÁNG 10 · 2003** · *Văn phòng Công tố Quận Somerset · Thám tử Tim Braun & Danny Baldwin*",
+    "Tiếng bước chân vội vã",
+    "✦ Cú",
+    ""
+   ],
+   "el": "4.02",
+   "spans": [
+    [
+     "4.02",
+     1,
+     2
+    ]
+   ],
+   "new_spans": [
+    [
+     "4.02",
+     1,
+     2
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Tháng 10 năm 2003. Sau cái chết bất thường của linh mục Florian Gall, Văn phòng Công tố Quận Somerset chính thức mở cuộc điều tra hình sự.",
+   "bad_frags": [
+    "**THÁNG 10 · 2003**",
+    "*Văn phòng Công tố Quận Somerset · Thám tử Tim Braun & Danny Baldwin*"
+   ]
+  },
+  {
+   "sid": "4-02",
+   "kind": "shot",
+   "row": [
+    "4-02",
+    "`4.02#3`–`#5`",
+    "H",
+    "T1",
+    "`t4_detectives_shadow`",
+    "**BỨC TƯỜNG IM LẶNG TỪ PHÍA BỆNH VIỆN** · *Tiếp cận người duy nhất có thể mở toang cánh cửa sự thật: Nữ y tá Amy Loughren*",
+    "—",
+    "→D",
+    ""
+   ],
+   "el": "4.02",
+   "spans": [
+    [
+     "4.02",
+     3,
+     5
+    ]
+   ],
+   "new_spans": [
+    [
+     "4.02",
+     2,
+     6
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Sau cái chết bất thường của linh mục Florian Gall, Văn phòng Công tố Quận Somerset chính thức mở cuộc điều tra hình sự. Hai thám tử kỳ cựu Tim Braun và Danny Baldwin được giao trọng trách thụ lý một vụ án mà ngay từ đầu đã vấp phải muôn vàn trắc trở. Họ không chỉ phải đối đầu với một kẻ sát nhân vô hình, mà còn phải đối mặt với bức tường im lặng kiên cố từ phía ban giám đốc Trung tâm Y tế Somerset. Bệnh viện tìm cách trì hoãn giao nộp tài liệu, cấm nhân viên tự ý tiếp xúc với cơ quan điều tra và tìm mọi cách bưng bít sự việc để bảo vệ danh tiếng. Hiểu rằng các tài liệu hành chính đã bị can thiệp, hai thám tử hiểu rằng chìa khóa duy nhất để phá vỡ bế tắc nằm ở chính những nhân chứng bên trong phòng bệnh.",
+   "bad_frags": [
+    "**BỨC TƯỜNG IM LẶNG TỪ PHÍA BỆNH VIỆN**",
+    "*Tiếp cận người duy nhất có thể mở toang cánh cửa sự thật: Nữ y tá Amy Loughren*"
+   ]
+  },
+  {
+   "sid": "4-03",
+   "kind": "shot",
+   "row": [
+    "4-03",
+    "`4.04#1`–`#3`",
+    "D",
+    "T1",
+    "`t4_pyxis_printout`",
+    "**BẢN IN NHẬT KÝ MÁY PYXIS** · *Amy lập tức nhận ra quy luật bất thường: gọi rồi hủy thuốc nhiều hơn hẳn một y tá bình thường* → `#3`: *Cô ấy đang một mình nuôi hai con nhỏ và mang bệnh tim*",
+    "—",
+    "✦ Sói",
+    ""
+   ],
+   "el": "4.04",
+   "spans": [
+    [
+     "4.04",
+     1,
+     3
+    ]
+   ],
+   "new_spans": [
+    [
+     "4.04",
+     1,
+     6
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Khi chúng tôi bí mật tiếp cận Amy Loughren tại một quán ăn nhỏ ngoài giờ trực và trải ra trước mặt cô ấy bản in nhật ký máy Pyxis, Amy đã chết lặng. Với chuyên môn của một y tá hồi sức cấp cứu lâu năm, cô ấy lập tức nhìn thấy những dấu hiệu bất thường mà người ngoài không thể nhận ra. Charles Cullen đã liên tục tra cứu hồ sơ và rút thuốc của hàng chục bệnh nhân không hề thuộc sự quản lý hay phân công chăm sóc của hắn. Những loại thuốc hắn lấy với số lượng lớn bất thường toàn là thuốc độc cực mạnh có khả năng làm ngừng tim chỉ sau vài phút. Amy hiểu rõ rằng đó không phải là những nhầm lẫn nghiệp vụ vô hại, mà là dấu vết của những vụ ám sát hàng loạt có tính toán. Điều khiến tình thế trở nên sinh tử là lúc bấy giờ, Amy đang một mình nuôi hai con nhỏ và mang trong mình căn bệnh cơ tim nguy hiểm có thể đe dọa tính mạng bất cứ lúc nào.",
+   "bad_frags": [
+    "*Amy lập tức nhận ra quy luật bất thường: gọi rồi hủy thuốc nhiều hơn hẳn một y tá bình thường*",
+    "*Cô ấy đang một mình nuôi hai con nhỏ và mang bệnh tim*"
+   ]
+  },
+  {
+   "sid": "4-04",
+   "kind": "shot",
+   "row": [
+    "4-04",
+    "`4.04#4`–`#5`",
+    "D",
+    "T1",
+    "`t4_wire_recorder`, `push`",
+    "**MANG THIẾT BỊ GHI ÂM ĐỂ GẶP CULLEN** · *Giúp thu thập bằng chứng* → `#5`: *Hãy hình dung tâm trạng của một người y tá khi ấy*",
+    "—",
+    "⊘",
+    "→N2"
+   ],
+   "el": "4.04",
+   "spans": [
+    [
+     "4.04",
+     4,
+     5
+    ]
+   ],
+   "new_spans": [
+    [
+     "4.04",
+     6,
+     7
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Điều khiến tình thế trở nên sinh tử là lúc bấy giờ, Amy đang một mình nuôi hai con nhỏ và mang trong mình căn bệnh cơ tim nguy hiểm có thể đe dọa tính mạng bất cứ lúc nào. Thế nhưng, đứng trước sự an nguy của các bệnh nhân, người nữ y tá dũng cảm ấy đã quyết định dấn thân vào một cuộc đấu trí cân não.",
+   "bad_frags": [
+    "**MANG THIẾT BỊ GHI ÂM ĐỂ GẶP CULLEN**",
+    "*Giúp thu thập bằng chứng*",
+    "*Hãy hình dung tâm trạng của một người y tá khi ấy*"
+   ]
+  },
+  {
+   "sid": "4-05",
+   "kind": "shot",
+   "row": [
+    "4-05",
+    "`4.06#1`–`#3`",
+    "N2",
+    "T4 lời kể",
+    "`t4_amy_scrubs`",
+    "“Người bạn mà mình tin tưởng nhất, hóa ra lại là người mình không hề biết.” → `#2`: “Nhưng tôi là một y tá.” → `#3`: “Lời thề nghề nghiệp của chúng tôi là bảo vệ sự sống.”",
+    "—",
+    "✦ Y tá",
+    ""
+   ],
+   "el": "4.06",
+   "spans": [
+    [
+     "4.06",
+     1,
+     3
+    ]
+   ],
+   "new_spans": [
+    [
+     "4.06",
+     1,
+     4
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Charlie từng là người bạn thân thiết nhất của tôi trong những đêm trực lạnh lẽo tại khoa hồi sức. Anh ấy biết bệnh tim của tôi, luôn nhận làm giúp tôi những phần việc nặng và nắm chặt tay giúp tôi thở qua những cơn đau thắt ngực dữ dội. Tôi đã từng yêu quý và tin tưởng anh ấy như một người anh em ruột thịt trong gia đình. Nhưng khi nhìn thấy những trang nhật ký máy tính ghi lại các loại thuốc độc mà anh ấy đã rút ra cho những bệnh nhân vô tội, trái tim tôi như tan nát.",
+   "bad_frags": [
+    "“Người bạn mà mình tin tưởng nhất, hóa ra lại là người mình không hề biết.”",
+    "“Nhưng tôi là một y tá.”",
+    "“Lời thề nghề nghiệp của chúng tôi là bảo vệ sự sống.”"
+   ]
+  },
+  {
+   "sid": "4-06",
+   "kind": "shot",
+   "row": [
+    "4-06",
+    "`4.06#4`",
+    "N2",
+    "T4 lời kể",
+    "`t4_amy_scrubs`, `push`",
+    "“Dù sợ đến mức nào, tôi biết mình không được phép quay lưng.”",
+    "—",
+    "⊘",
+    "→H"
+   ],
+   "el": "4.06",
+   "spans": [
+    [
+     "4.06",
+     4,
+     4
+    ]
+   ],
+   "new_spans": [
+    [
+     "4.06",
+     5,
+     5
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Tôi nhận ra người đàn ông hiền lành ngồi ăn khuya cùng tôi bấy lâu nay lại là một kẻ gieo rắc cái chết trong bóng tối.",
+   "bad_frags": [
+    "“Dù sợ đến mức nào, tôi biết mình không được phép quay lưng.”"
+   ]
+  },
+  {
+   "sid": "4-07",
+   "kind": "shot",
+   "row": [
+    "4-07",
+    "`4.08#1`–`#2`",
+    "H",
+    "T5 ngày",
+    "`t4_somerville_diner`",
+    "**THÁNG 12 · 2003** · *Trong một nhà hàng ở vùng Somerville*",
+    "Cửa sắt đóng & kéo ghế",
+    "✦ Cú",
+    ""
+   ],
+   "el": "4.08",
+   "spans": [
+    [
+     "4.08",
+     1,
+     2
+    ]
+   ],
+   "new_spans": [
+    [
+     "4.08",
+     1,
+     2
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Ngày 6 tháng 12 năm 2003. Một cuộc gặp gỡ lịch sử được dàn xếp tại một quán ăn địa phương ở thị trấn Somerville.",
+   "bad_frags": [
+    "**THÁNG 12 · 2003**",
+    "*Trong một nhà hàng ở vùng Somerville*"
+   ]
+  },
+  {
+   "sid": "4-08",
+   "kind": "shot",
+   "row": [
+    "4-08",
+    "`4.08#3`–`#5`",
+    "H",
+    "T1",
+    "`t4_diner_table`",
+    "**NGỒI ĐỐI DIỆN QUA CHIẾC BÀN GỖ** · *Amy nhẹ nhàng khuyên hắn nên đối diện với sự thật* → `#5`: *Cullen lộ rõ vẻ hoang mang, không nói ra lời thú nhận nào*",
+    "—",
+    "⊘",
+    ""
+   ],
+   "el": "4.08",
+   "spans": [
+    [
+     "4.08",
+     3,
+     5
+    ]
+   ],
+   "new_spans": [
+    [
+     "4.08",
+     3,
+     9
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Amy Loughren bước vào quán ăn với chiếc micro bí mật được các điều tra viên gắn khéo léo dưới lớp áo khoác mùa đông. Bên ngoài bãi đỗ xe, các trinh sát nín thở theo dõi từng cử động qua thiết bị thu âm tầm xa. Đối diện với Amy là Charles Cullen, vẫn với dáng vẻ gầy gò và ánh mắt ngây thơ quen thuộc. Bằng sự khéo léo và thấu hiểu tâm lý, Amy nhẹ nhàng gợi mở về những bất thường tại bệnh viện và đề nghị giúp đỡ hắn tìm kiếm sự giải thoát. Trước sự dồn ép đầy tinh tế của người bạn thân, lớp mặt nạ điềm tĩnh của Cullen bắt đầu rạn nứt. Hắn cúi gục đầu xuống bàn, giọng run rẩy thốt lên những lời thì thầm được máy ghi âm ghi lại nguyên văn: “Tôi muốn dừng lại, tôi muốn mọi chuyện kết thúc.” Đó là mắt xích quyết định cung cấp đủ căn cứ pháp lý để cơ quan công tố ra lệnh bắt giữ khẩn cấp kẻ thủ ác.",
+   "bad_frags": [
+    "**NGỒI ĐỐI DIỆN QUA CHIẾC BÀN GỖ**",
+    "*Amy nhẹ nhàng khuyên hắn nên đối diện với sự thật*",
+    "*Cullen lộ rõ vẻ hoang mang, không nói ra lời thú nhận nào*"
+   ]
+  },
+  {
+   "sid": "4-09",
+   "kind": "shot",
+   "row": [
+    "4-09",
+    "`4.09` (nghỉ 1.5 s)",
+    "—",
+    "—",
+    "giữ 4-08",
+    "—",
+    "—",
+    "⊘",
+    ""
+   ],
+   "el": "4.09",
+   "spans": [],
+   "new_spans": [],
+   "need_text": false,
+   "ctx": ""
+  },
+  {
+   "sid": "4-10",
+   "kind": "shot",
+   "row": [
+    "4-10",
+    "`4.11#1`–`#3`",
+    "H",
+    "T1",
+    "`t4_parking_arrest`, `push`",
+    "**BỊ BẮT NGOÀI NHÀ HÀNG Ở BRIDGEWATER** · *Ngày 12 tháng 12 năm 2003*",
+    "—",
+    "→D",
+    ""
+   ],
+   "el": "4.11",
+   "spans": [
+    [
+     "4.11",
+     1,
+     3
+    ]
+   ],
+   "new_spans": [
+    [
+     "4.11",
+     1,
+     2
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Ngày 12 tháng 12 năm 2003, Charles Cullen chính thức bị tra tay vào còng số tám ngay tại bãi đỗ xe bệnh viện. Một cuộc thẩm vấn kéo dài suốt bảy tiếng đồng hồ bắt đầu diễn ra tại trụ sở Văn phòng Công tố Quận Somerset.",
+   "bad_frags": [
+    "**BỊ BẮT NGOÀI NHÀ HÀNG Ở BRIDGEWATER**"
+   ]
+  },
+  {
+   "sid": "4-11",
+   "kind": "shot",
+   "row": [
+    "4-11",
+    "`4.12#1`–`#3`",
+    "D",
+    "T1",
+    "`t4_interrogation_room`",
+    "**PHÒNG THẨM VẤN SOMERSET** · *Cullen gần như im lặng* → `#3`: *Chứng cứ giấy tờ đã có, nhưng chúng tôi cần lời khai*",
+    "—",
+    "✦ Sói",
+    ""
+   ],
+   "el": "4.12",
+   "spans": [
+    [
+     "4.12",
+     1,
+     3
+    ]
+   ],
+   "new_spans": [
+    [
+     "4.12",
+     1,
+     2
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Chiến thuật hỏi cung của chúng tôi là không bao giờ tấn công hay phán xét nhân cách của Cullen một cách trực diện. Chúng tôi hiểu rằng nếu dồn một kẻ ái kỷ vào chân tường, hắn sẽ lập tức kích hoạt cơ chế phòng vệ và im lặng tuyệt đối.",
+   "bad_frags": [
+    "**PHÒNG THẨM VẤN SOMERSET**",
+    "*Cullen gần như im lặng*",
+    "*Chứng cứ giấy tờ đã có, nhưng chúng tôi cần lời khai*"
+   ]
+  },
+  {
+   "sid": "4-12",
+   "kind": "shot",
+   "row": [
+    "4-12",
+    "`4.12#4`–`#5`",
+    "D",
+    "T1",
+    "`t4_detectives_shadow`",
+    "**MỜI AMY LOUGHREN ĐẾN NÓI CHUYỆN** · *Không phải với tư cách cảnh sát, mà với tư cách người bạn cũ*",
+    "—",
+    "",
+    ""
+   ],
+   "el": "4.12",
+   "spans": [
+    [
+     "4.12",
+     4,
+     5
+    ]
+   ],
+   "new_spans": [
+    [
+     "4.12",
+     3,
+     4
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Thay vào đó, chúng tôi khai thác chính ảo tưởng về lòng nhân từ mà hắn tự dựng lên, xem hắn như một người chăm sóc đang kiệt sức vì gánh nặng. Khi thám tử Danny Baldwin nhẹ nhàng đặt câu hỏi về động cơ thực sự, Cullen bắt đầu khóc nấc lên và suy sụp hoàn toàn.",
+   "bad_frags": [
+    "**MỜI AMY LOUGHREN ĐẾN NÓI CHUYỆN**",
+    "*Không phải với tư cách cảnh sát, mà với tư cách người bạn cũ*"
+   ]
+  },
+  {
+   "sid": "4-13",
+   "kind": "shot",
+   "row": [
+    "4-13",
+    "`4.12#6`–`#7`",
+    "D",
+    "T1",
+    "`t4_confession_tape`",
+    "**CHO GIA ĐÌNH CÁC NẠN NHÂN MỘT CÂU TRẢ LỜI** → `#7`: **VÀ SAU CUỘC GẶP ẤY, CHIẾC MẶT NẠ SỤP ĐỔ**",
+    "—",
+    "",
+    ""
+   ],
+   "el": "4.12",
+   "spans": [
+    [
+     "4.12",
+     6,
+     7
+    ]
+   ],
+   "new_spans": [
+    [
+     "4.12",
+     4,
+     6
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Khi thám tử Danny Baldwin nhẹ nhàng đặt câu hỏi về động cơ thực sự, Cullen bắt đầu khóc nấc lên và suy sụp hoàn toàn. Hắn thừa nhận đã dùng Digoxin và Insulin sát hại linh mục Florian Gall, bệnh nhân Michael Strenko và hàng chục nạn nhân khác qua nhiều năm. Thế nhưng, điều làm chúng tôi căm phẫn nhất là những giọt nước mắt của hắn trong phòng hỏi cung không hề dành cho các nạn nhân xấu số.",
+   "bad_frags": [
+    "**CHO GIA ĐÌNH CÁC NẠN NHÂN MỘT CÂU TRẢ LỜI**",
+    "**VÀ SAU CUỘC GẶP ẤY, CHIẾC MẶT NẠ SỤP ĐỔ**"
+   ]
+  },
+  {
+   "sid": "4-14",
+   "kind": "shot",
+   "row": [
+    "4-14",
+    "`4.12#8`",
+    "D",
+    "T1",
+    "`t4_confession_tape`, `push`",
+    "**BẮT ĐẦU KHAI NHẬN, TỪNG VỤ MỘT** · *Suốt 16 năm bóng tối*",
+    "—",
+    "⊘",
+    ""
+   ],
+   "el": "4.12",
+   "spans": [
+    [
+     "4.12",
+     8,
+     8
+    ]
+   ],
+   "new_spans": [
+    [
+     "4.12",
+     6,
+     6
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Thế nhưng, điều làm chúng tôi căm phẫn nhất là những giọt nước mắt của hắn trong phòng hỏi cung không hề dành cho các nạn nhân xấu số.",
+   "bad_frags": [
+    "**BẮT ĐẦU KHAI NHẬN, TỪNG VỤ MỘT**",
+    "*Suốt 16 năm bóng tối*"
+   ]
+  },
+  {
+   "sid": "4-15",
+   "kind": "meta",
+   "row": [
+    "4-15",
+    "nghỉ chuyển hồi (2 s)",
+    "—",
+    "T10",
+    "`void`",
+    "*HỒI 05* · **PHÁN QUYẾT, BÀI HỌC CẢNH BÁO ĐỎ VÀ LỜI KẾT**",
+    "—",
+    "⊘",
+    "◼"
+   ],
+   "el": null,
+   "spans": null,
+   "new_spans": null,
+   "need_text": false
+  },
+  {
+   "sid": "5-01",
+   "kind": "shot",
+   "row": [
+    "5-01",
+    "`5.02#1`–`#2`",
+    "H",
+    "T5 ngày",
+    "`t4_somerset_courtroom`",
+    "**THÁNG 3 · 2006** · *Tòa án Thượng thẩm Quận Somerset · Thẩm phán Paul Armstrong*",
+    "Gõ từng ký tự",
+    "✦ Cú",
+    ""
+   ],
+   "el": "5.02",
+   "spans": [
+    [
+     "5.02",
+     1,
+     2
+    ]
+   ],
+   "new_spans": [
+    [
+     "5.02",
+     1,
+     1
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Tháng 3 năm 2006.",
+   "bad_frags": [
+    "**THÁNG 3 · 2006**",
+    "*Tòa án Thượng thẩm Quận Somerset · Thẩm phán Paul Armstrong*"
+   ]
+  },
+  {
+   "sid": "5-02",
+   "kind": "shot",
+   "row": [
+    "5-02",
+    "`5.02#3`–`#4`",
+    "H",
+    "T1",
+    "`t4_judge_gavel`, `push`",
+    "**11 BẢN ÁN TÙ CHUNG THÂN** · *397 năm mới đủ điều kiện xét ân xá* → `#4`: **THÊM 6 BẢN ÁN CHUNG THÂN · TỔNG 18 BẢN ÁN**",
+    "—",
+    "⊘",
+    ""
+   ],
+   "el": "5.02",
+   "spans": [
+    [
+     "5.02",
+     3,
+     4
+    ]
+   ],
+   "new_spans": [
+    [
+     "5.02",
+     3,
+     5
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Một phiên tòa lịch sử diễn ra dưới sự chủ trì của Thẩm phán Paul Armstrong trong sự dõi theo của hàng triệu người dân trên khắp nước Mỹ. Để đổi lấy việc không bị áp dụng án tử hình, Charles Cullen đã chấp nhận hợp tác toàn diện với cơ quan điều tra để nhận diện các nạn nhân. Thẩm phán Paul Armstrong đã tuyên phạt Charles Cullen 11 bản án tù chung thân liên tiếp, với thời gian thụ án tối thiểu 397 năm không có cơ hội xét ân xá.",
+   "bad_frags": [
+    "*397 năm mới đủ điều kiện xét ân xá*",
+    "**THÊM 6 BẢN ÁN CHUNG THÂN · TỔNG 18 BẢN ÁN**"
+   ]
+  },
+  {
+   "sid": "5-03",
+   "kind": "shot",
+   "row": [
+    "5-03",
+    "`5.02#5`–`#6`",
+    "H",
+    "T1",
+    "`t4_trenton_state_prison`",
+    "**NHÀ TÙ BANG NEW JERSEY TẠI TRENTON** · *Rà soát hàng ngàn trang hồ sơ y tế cùng các điều tra viên* → `#6`: *Hắn hiện đang thụ án tại Nhà tù Bang New Jersey ở thành phố Trenton*",
+    "—",
+    "⊘",
+    ""
+   ],
+   "el": "5.02",
+   "spans": [
+    [
+     "5.02",
+     5,
+     6
+    ]
+   ],
+   "new_spans": [
+    [
+     "5.02",
+     6,
+     6
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Ít ngày sau, tòa án tại bang Pennsylvania tiếp tục tuyên thêm bảy bản án chung thân nữa, nâng tổng mức án lên 18 bản án tù chung thân.",
+   "bad_frags": [
+    "**NHÀ TÙ BANG NEW JERSEY TẠI TRENTON**",
+    "*Rà soát hàng ngàn trang hồ sơ y tế cùng các điều tra viên*",
+    "*Hắn hiện đang thụ án tại Nhà tù Bang New Jersey ở thành phố Trenton*"
+   ]
+  },
+  {
+   "sid": "5-04",
+   "kind": "shot",
+   "row": [
+    "5-04",
+    "`5.03` (nghỉ 1.5 s)",
+    "—",
+    "—",
+    "giữ 5-03",
+    "—",
+    "—",
+    "⊘",
+    ""
+   ],
+   "el": "5.03",
+   "spans": [],
+   "new_spans": [],
+   "need_text": false,
+   "ctx": ""
+  },
+  {
+   "sid": "5-05",
+   "kind": "shot",
+   "row": [
+    "5-05",
+    "`5.04#1`–`#2`",
+    "H",
+    "T1",
+    "`t4_institutional_bystander`",
+    "**TẠI SAO SUỐT 16 NĂM KHÔNG BỊ PHÁT HIỆN?** · *Những người từng lên tiếng – một người con, những đồng nghiệp, một bác sĩ chống độc – đều bị chính các thể chế phớt lờ*",
+    "—",
+    "✦ Cú",
+    ""
+   ],
+   "el": "5.04",
+   "spans": [
+    [
+     "5.04",
+     1,
+     2
+    ]
+   ],
+   "new_spans": [
+    [
+     "5.04",
+     1,
+     1
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Thế nhưng, ngay cả khi đứng trước vành móng ngựa, bản chất ái kỷ méo mó của Charles Cullen vẫn tiếp tục bộc lộ một cách trơ tráo.",
+   "bad_frags": [
+    "**TẠI SAO SUỐT 16 NĂM KHÔNG BỊ PHÁT HIỆN?**",
+    "*Những người từng lên tiếng – một người con, những đồng nghiệp, một bác sĩ chống độc – đều bị chính các thể chế phớt lờ*"
+   ]
+  },
+  {
+   "sid": "5-06",
+   "kind": "shot",
+   "row": [
+    "5-06",
+    "`5.04#3`–`#4`",
+    "H",
+    "T2",
+    "`t4_cullen_law_doc`",
+    "*BANG NEW JERSEY BAN HÀNH* · **ĐẠO LUẬT CULLEN** · *Đạo luật Tăng cường Trách nhiệm và Báo cáo của Nhân viên Y tế*",
+    "Dấu mộc ở \"Đạo luật Cullen\"",
+    "🅑",
+    ""
+   ],
+   "el": "5.04",
+   "spans": [
+    [
+     "5.04",
+     3,
+     4
+    ]
+   ],
+   "new_spans": [
+    [
+     "5.04",
+     1,
+     7
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Thế nhưng, ngay cả khi đứng trước vành móng ngựa, bản chất ái kỷ méo mó của Charles Cullen vẫn tiếp tục bộc lộ một cách trơ tráo. Tại phiên tòa tuyên án ở Hạt Lehigh, bang Pennsylvania, Cullen đã từ chối bước ra đối diện với gia đình các nạn nhân xấu số. Khi bị áp giải vào phòng xử án, hắn liên tục lặp đi lặp lại một câu nói duy nhất như một kẻ mất trí: “Thưa quý tòa, ngài cần phải từ chức.” Hắn gào thét câu nói ấy suốt hàng giờ đồng hồ nhằm phá vỡ phiên tòa và bịt tai trước những lời vạch tội xé lòng của thân nhân người đã khuất. Sự phản kháng lố bịch ấy buộc thẩm phán William Platt phải ra lệnh dùng băng dính bịt miệng hắn lại để phiên tòa có thể tiếp tục diễn ra. Hành vi đó đã phơi bày sự sụp đổ thảm hại của một bản ngã ái kỷ khi bị tước đoạt toàn bộ quyền lực và sự chú ý. Hắn thà đóng vai một kẻ điên loạn chống đối thể chế chứ nhất quyết không chịu cúi đầu nhận tội trước nỗi đau thương của các gia đình nạn nhân.",
+   "bad_frags": [
+    "*BANG NEW JERSEY BAN HÀNH*",
+    "**ĐẠO LUẬT CULLEN**",
+    "*Đạo luật Tăng cường Trách nhiệm và Báo cáo của Nhân viên Y tế*"
+   ]
+  },
+  {
+   "sid": "5-07",
+   "kind": "shot",
+   "row": [
+    "5-07",
+    "`5.04#5`–`#6`",
+    "H",
+    "T1",
+    "`t4_red_flags_board`",
+    "**BÁO CÁO SAI PHẠM NGHIÊM TRỌNG CỦA NHÂN VIÊN Y TẾ** → `#6`: **4 DẤU HIỆU CẢNH BÁO ĐỎ (RED FLAGS)** · *Về những kẻ săn mồi ẩn danh trong tổ chức*",
+    "—",
+    "→C",
+    ""
+   ],
+   "el": "5.04",
+   "spans": [
+    [
+     "5.04",
+     5,
+     6
+    ]
+   ],
+   "new_spans": [
+    [
+     "5.04",
+     null,
+     null
+    ]
+   ],
+   "need_text": true,
+   "ctx": "",
+   "bad_frags": [
+    "**BÁO CÁO SAI PHẠM NGHIÊM TRỌNG CỦA NHÂN VIÊN Y TẾ**",
+    "**4 DẤU HIỆU CẢNH BÁO ĐỎ (RED FLAGS)**",
+    "*Về những kẻ săn mồi ẩn danh trong tổ chức*"
+   ]
+  },
+  {
+   "sid": "5-08",
+   "kind": "shot",
+   "row": [
+    "5-08",
+    "`5.05#1`–`#2`",
+    "C",
+    "T9 `1/4`",
+    "`t4_redflag_savior`",
+    "**DẤU HIỆU 01: HỘI CHỨNG VỊ CỨU TINH GIẢ TẠO** · *Luôn là người đầu tiên có mặt khi có khủng hoảng*",
+    "—",
+    "✦ Cáo",
+    ""
+   ],
+   "el": "5.05",
+   "spans": [
+    [
+     "5.05",
+     1,
+     2
+    ]
+   ],
+   "new_spans": [
+    [
+     "5.05",
+     1,
+     1
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Khép lại hồ sơ đen tối này, bài học nhức nhối nhất không chỉ nằm ở sự tha hóa nhân cách của cá nhân Charles Cullen.",
+   "bad_frags": [
+    "**DẤU HIỆU 01: HỘI CHỨNG VỊ CỨU TINH GIẢ TẠO**",
+    "*Luôn là người đầu tiên có mặt khi có khủng hoảng*"
+   ]
+  },
+  {
+   "sid": "5-09",
+   "kind": "shot",
+   "row": [
+    "5-09",
+    "`5.05#3`–`#5`",
+    "C",
+    "T9 `2/4`",
+    "`t4_redflag_savior`, `push`",
+    "**DẤU HIỆU 02: LỊCH SỬ LÀM VIỆC CHẮP VÁ VÀ NHẢY VIỆC LIÊN TỤC** · *Liên tục chuyển đổi nơi làm việc sau những khoảng thời gian ngắn*",
+    "—",
+    "→D",
+    ""
+   ],
+   "el": "5.05",
+   "spans": [
+    [
+     "5.05",
+     3,
+     5
+    ]
+   ],
+   "new_spans": [
+    [
+     "5.05",
+     1,
+     7
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Khép lại hồ sơ đen tối này, bài học nhức nhối nhất không chỉ nằm ở sự tha hóa nhân cách của cá nhân Charles Cullen. Vấn đề cốt lõi mà vụ án để lại là “Sự phản bội thể chế” và điểm mù tập thể của một hệ thống y tế bị chi phối bởi lợi ích kinh tế. Chín bệnh viện nơi Cullen từng làm việc đều đã từng ghi nhận những bất thường, từng phát hiện thuốc mất tích và nghi ngờ các ca tử vong vào ca trực của hắn. Thế nhưng, vì nỗi sợ bị kiện tụng bồi thường hàng triệu đô la và sợ tổn hại danh tiếng thương hiệu, họ đã chọn cách giải quyết êm thấm trong nội bộ. Họ cho hắn thôi việc với lý do trung tính, thậm chí ký những lá thư giới thiệu tích cực để đẩy quả bom nổ chậm sang cho các bệnh viện khác gánh chịu. Sự im lặng có hệ thống của các nhà quản lý đã biến chính những cơ sở chữa bệnh thành nơi đồng lõa cho cái ác tiếp diễn suốt 16 năm. Đó là minh chứng tàn nhẫn cho thấy khi sự an toàn của con người bị xếp sau danh tiếng và tiền bạc, thảm kịch chắc chắn sẽ xảy ra.",
+   "bad_frags": [
+    "**DẤU HIỆU 02: LỊCH SỬ LÀM VIỆC CHẮP VÁ VÀ NHẢY VIỆC LIÊN TỤC**",
+    "*Liên tục chuyển đổi nơi làm việc sau những khoảng thời gian ngắn*"
+   ]
+  },
+  {
+   "sid": "5-10",
+   "kind": "shot",
+   "row": [
+    "5-10",
+    "`5.06#1`–`#2`",
+    "D",
+    "T9 `3/4`",
+    "`t4_redflag_resumes`",
+    "**DẤU HIỆU 03: THAO TÁC GIAN LẬN VƯỢT QUYỀN TRÊN HỆ THỐNG QUẢN LÝ** · *Thường xuyên hủy giao dịch ngay sau khi mở kho tài sản hoặc thuốc men*",
+    "—",
+    "✦ Sói",
+    ""
+   ],
+   "el": "5.06",
+   "spans": [
+    [
+     "5.06",
+     1,
+     2
+    ]
+   ],
+   "new_spans": [
+    [
+     "5.06",
+     1,
+     2
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Chính sự trả giá bằng sinh mạng của hàng chục nạn nhân vô tội đã thúc đẩy một cuộc đại cải tổ mang tính lịch sử trong hệ thống pháp luật y tế Mỹ. Năm 2004, Thống đốc bang New Jersey đã ký ban hành “Đạo luật Cullen” nhằm bẻ gãy vĩnh viễn sự im lặng thể chế nguy hiểm này.",
+   "bad_frags": [
+    "**DẤU HIỆU 03: THAO TÁC GIAN LẬN VƯỢT QUYỀN TRÊN HỆ THỐNG QUẢN LÝ**",
+    "*Thường xuyên hủy giao dịch ngay sau khi mở kho tài sản hoặc thuốc men*"
+   ]
+  },
+  {
+   "sid": "5-11",
+   "kind": "shot",
+   "row": [
+    "5-11",
+    "`5.06#3`–`#4`",
+    "D",
+    "T9 `4/4`",
+    "`t4_redflag_resumes`, `push`",
+    "**DẤU HIỆU 04: SỰ IM LẶNG BẤT THƯỜNG CỦA TẬP THỂ** · *Né tránh pháp luật và giải quyết nội bộ vì sợ phiền phức*",
+    "—",
+    "⊘",
+    "→H"
+   ],
+   "el": "5.06",
+   "spans": [
+    [
+     "5.06",
+     3,
+     4
+    ]
+   ],
+   "new_spans": [
+    [
+     "5.06",
+     2,
+     3
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Năm 2004, Thống đốc bang New Jersey đã ký ban hành “Đạo luật Cullen” nhằm bẻ gãy vĩnh viễn sự im lặng thể chế nguy hiểm này. Đạo luật quy định các bệnh viện bắt buộc phải báo cáo mọi hành vi sai phạm nghiêm trọng của nhân viên y tế cho cơ quan chức năng nhà nước.",
+   "bad_frags": [
+    "**DẤU HIỆU 04: SỰ IM LẶNG BẤT THƯỜNG CỦA TẬP THỂ**",
+    "*Né tránh pháp luật và giải quyết nội bộ vì sợ phiền phức*"
+   ]
+  },
+  {
+   "sid": "5-12",
+   "kind": "shot",
+   "row": [
+    "5-12",
+    "`5.07` (nghỉ 1.5 s)",
+    "—",
+    "—",
+    "giữ 5-11",
+    "—",
+    "—",
+    "⊘",
+    ""
+   ],
+   "el": "5.07",
+   "spans": [],
+   "new_spans": [],
+   "need_text": false,
+   "ctx": ""
+  },
+  {
+   "sid": "5-13",
+   "kind": "shot",
+   "row": [
+    "5-13",
+    "`5.08#1`–`#3`",
+    "H",
+    "T1",
+    "`t4_beacon_window`",
+    "**CÁI ÁC KHOÁC CHIẾC ÁO CỦA SỰ TỬ TẾ** · *Ẩn mình sau sự thờ ơ và im lặng của đám đông* → `#3`: *Có thể đã cướp đi sinh mạng của hàng trăm người*",
+    "—",
+    "✦ Cú",
+    ""
+   ],
+   "el": "5.08",
+   "spans": [
+    [
+     "5.08",
+     1,
+     3
+    ]
+   ],
+   "new_spans": [
+    [
+     "5.08",
+     1,
+     2
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Hồ sơ về Charles Cullen là một lời cảnh tỉnh lạnh lùng gửi đến tất cả chúng ta về bản chất phức tạp của lòng tin con người. Chiếc áo blouse trắng, bằng cấp chuyên môn hay những cử chỉ ân cần bề ngoài không bao giờ là sự bảo chứng tuyệt đối cho đạo đức của một tâm hồn.",
+   "bad_frags": [
+    "**CÁI ÁC KHOÁC CHIẾC ÁO CỦA SỰ TỬ TẾ**",
+    "*Ẩn mình sau sự thờ ơ và im lặng của đám đông*",
+    "*Có thể đã cướp đi sinh mạng của hàng trăm người*"
+   ]
+  },
+  {
+   "sid": "5-14",
+   "kind": "shot",
+   "row": [
+    "5-14",
+    "`5.08#4`–`#6`",
+    "H",
+    "T1",
+    "`t4_beacon_window`, `push`",
+    "**NGỌN HẢI ĐĂNG CỦA SỰ CHÍNH TRỰC** · *Lòng dũng cảm bảo vệ phẩm giá y học và sự thiêng liêng của sự sống*",
+    "—",
+    "⊘",
+    ""
+   ],
+   "el": "5.08",
+   "spans": [
+    [
+     "5.08",
+     4,
+     6
+    ]
+   ],
+   "new_spans": [
+    [
+     "5.08",
+     3,
+     4
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Tội ác tinh vi nhất không xuất hiện với bộ mặt gớm ghiếc, mà luôn ẩn mình hoàn hảo phía sau những vỏ bọc mẫu mực và đáng tin cậy nhất. Bài học sinh tồn lớn nhất mà vụ án này để lại chính là: “Hãy luôn biết lắng nghe và tin tưởng vào trực giác của chính mình.”",
+   "bad_frags": [
+    "**NGỌN HẢI ĐĂNG CỦA SỰ CHÍNH TRỰC**",
+    "*Lòng dũng cảm bảo vệ phẩm giá y học và sự thiêng liêng của sự sống*"
+   ]
+  },
+  {
+   "sid": "5-15",
+   "kind": "shot",
+   "row": [
+    "5-15",
+    "`5.09` (nghỉ 1.5 s)",
+    "—",
+    "—",
+    "`t4_case_file_open`",
+    "—",
+    "Tiếng gấp hồ sơ",
+    "⊘",
+    ""
+   ],
+   "el": "5.09",
+   "spans": [],
+   "new_spans": [],
+   "need_text": false,
+   "ctx": ""
+  },
+  {
+   "sid": "5-16",
+   "kind": "shot",
+   "row": [
+    "5-16",
+    "`5.10#1`–`#2`",
+    "H",
+    "T1",
+    "`t4_case_file_open`",
+    "**CẢM ƠN QUÝ VỊ THÍNH GIẢ ĐÃ THEO DÕI** · *Cảm ơn các chuyên gia và điều tra viên đã đồng hành*",
+    "—",
+    "✦ Cú",
+    ""
+   ],
+   "el": "5.10",
+   "spans": [
+    [
+     "5.10",
+     1,
+     2
+    ]
+   ],
+   "new_spans": [
+    [
+     "5.10",
+     1,
+     1
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Cảm ơn các khách mời chuyên gia đã cùng đồng hành giải phẫu hồ sơ tâm lý học tội phạm ngày hôm nay.",
+   "bad_frags": [
+    "**CẢM ƠN QUÝ VỊ THÍNH GIẢ ĐÃ THEO DÕI**",
+    "*Cảm ơn các chuyên gia và điều tra viên đã đồng hành*"
+   ]
+  },
+  {
+   "sid": "5-17",
+   "kind": "shot",
+   "row": [
+    "5-17",
+    "`5.10#3`",
+    "H",
+    "T1",
+    "`t4_case_file_open`, `still`",
+    "**HÃY LUÔN TỈNH THỨC VÀ TRÂN QUÝ SỰ AN TOÀN** · *Hẹn gặp lại trong hồ sơ phân tích tâm lý tội phạm tiếp theo*",
+    "Tiếng tắt máy ghi âm",
+    "🅑",
+    ""
+   ],
+   "el": "5.10",
+   "spans": [
+    [
+     "5.10",
+     3,
+     3
+    ]
+   ],
+   "new_spans": [
+    [
+     "5.10",
+     3,
+     3
+    ]
+   ],
+   "need_text": true,
+   "ctx": "Hãy luôn giữ cho mình một cái nhìn tỉnh táo, biết bảo vệ những ranh giới an toàn và trân trọng từng phút giây quý giá của cuộc sống.",
+   "bad_frags": [
+    "**HÃY LUÔN TỈNH THỨC VÀ TRÂN QUÝ SỰ AN TOÀN**",
+    "*Hẹn gặp lại trong hồ sơ phân tích tâm lý tội phạm tiếp theo*"
+   ]
+  },
+  {
+   "sid": "5-18",
+   "kind": "meta",
+   "row": [
+    "5-18",
+    "hết tập (10 s)",
+    "—",
+    "T1",
+    "`t4_case_file_open`",
+    "*HỒ SƠ TẬP 04 · ĐÃ ĐÓNG* · **AMBER EYES** · *Phân tích tâm lý tội phạm* · *qua những hồ sơ có thật*",
+    "Nhạc fade out",
+    "⊘",
+    "◼"
+   ],
+   "el": null,
+   "spans": null,
+   "new_spans": null,
+   "need_text": false
+  }
+ ],
+ "missing": [
+  "1.03#2",
+  "1.03#3",
+  "1.03#4",
+  "1.03#5",
+  "1.03#6",
+  "1.07#5",
+  "1.08#2",
+  "1.08#5",
+  "1.08#6",
+  "1.10#2",
+  "1.12#2",
+  "1.14#3",
+  "1.14#5",
+  "1.14#8",
+  "1.16#4",
+  "1.16#5",
+  "2.02#4",
+  "2.06#5",
+  "2.06#6",
+  "2.06#7",
+  "2.06#8",
+  "2.06#9",
+  "2.06#10",
+  "2.06#11",
+  "2.06#12",
+  "2.06#13",
+  "2.06#14",
+  "2.06#15",
+  "2.08#2",
+  "2.08#3",
+  "2.08#4",
+  "2.08#5",
+  "2.08#6",
+  "2.08#7",
+  "2.11#9",
+  "2.11#10",
+  "3.02#6",
+  "3.04#7",
+  "3.04#8",
+  "3.06#2",
+  "3.06#3",
+  "3.07#2",
+  "3.07#3",
+  "3.07#4",
+  "3.07#6",
+  "3.07#7",
+  "3.07#8",
+  "3.09#4",
+  "3.09#5",
+  "3.09#6",
+  "3.09#7",
+  "3.09#8",
+  "3.09#9",
+  "4.02#7",
+  "4.06#6",
+  "4.11#3",
+  "4.11#4",
+  "4.12#7",
+  "4.12#8",
+  "4.12#9",
+  "4.12#10",
+  "4.12#11",
+  "4.12#12",
+  "5.02#2",
+  "5.02#7",
+  "5.02#8",
+  "5.06#4",
+  "5.06#5",
+  "5.06#6",
+  "5.08#5",
+  "5.08#6",
+  "5.08#7",
+  "5.10#2",
+  "5.10#4"
+ ],
+ "mapping": {
+  "1.03#1": 1,
+  "1.05#1": 1,
+  "1.05#2": 2,
+  "1.05#3": 4,
+  "1.07#1": 1,
+  "1.07#2": 2,
+  "1.07#3": 3,
+  "1.07#4": 4,
+  "1.08#1": 1,
+  "1.08#3": 3,
+  "1.08#4": 4,
+  "1.10#1": 1,
+  "1.10#2": 3,
+  "1.10#3": 5,
+  "1.12#1": 1,
+  "1.14#1": 1,
+  "1.14#2": 2,
+  "1.14#4": 4,
+  "1.14#5": 6,
+  "1.14#6": 7,
+  "1.16#1": 1,
+  "1.16#2": 2,
+  "1.16#3": 3,
+  "2.02#1": 1,
+  "2.02#2": 2,
+  "2.02#3": 3,
+  "2.04#1": 1,
+  "2.04#2": 3,
+  "2.06#1": 1,
+  "2.06#2": 1,
+  "2.06#3": 2,
+  "2.06#4": 3,
+  "2.06#5": 3,
+  "2.06#6": 4,
+  "2.06#7": 4,
+  "2.06#8": 4,
+  "2.06#9": 5,
+  "2.06#10": 6,
+  "2.06#11": 12,
+  "2.07#1": 1,
+  "2.07#2": 1,
+  "2.07#3": 4,
+  "2.07#4": 5,
+  "2.08#1": 1,
+  "2.08#2": 1,
+  "2.08#3": 1,
+  "2.08#5": 1,
+  "2.08#6": 1,
+  "2.10#1": 1,
+  "2.10#2": 2,
+  "2.10#3": 3,
+  "2.11#1": 1,
+  "2.11#2": 1,
+  "2.11#3": 3,
+  "2.11#4": 3,
+  "2.11#5": 7,
+  "2.11#6": 8,
+  "2.11#7": 8,
+  "2.11#8": 8,
+  "2.11#9": 8,
+  "2.11#10": 8,
+  "2.11#11": 9,
+  "3.02#1": 1,
+  "3.02#2": 2,
+  "3.02#3": 3,
+  "3.02#4": 3,
+  "3.02#5": 4,
+  "3.02#6": 5,
+  "3.02#7": 6,
+  "3.04#1": 1,
+  "3.04#2": 2,
+  "3.04#3": 4,
+  "3.04#4": 4,
+  "3.04#5": 6,
+  "3.04#6": 6,
+  "3.06#1": 1,
+  "3.06#2": 1,
+  "3.07#1": 1,
+  "3.07#2": 1,
+  "3.07#3": 5,
+  "3.07#4": 5,
+  "3.07#5": 5,
+  "3.08#1": 1,
+  "3.08#2": 3,
+  "3.09#1": 1,
+  "3.09#2": 1,
+  "3.09#3": 2,
+  "3.09#5": 2,
+  "3.09#7": 3,
+  "3.10#1": 1,
+  "3.10#2": 2,
+  "3.10#3": 3,
+  "4.02#1": 1,
+  "4.02#2": 2,
+  "4.02#3": 2,
+  "4.02#4": 5,
+  "4.02#5": 6,
+  "4.04#1": 1,
+  "4.04#2": 2,
+  "4.04#3": 6,
+  "4.04#4": 6,
+  "4.04#5": 7,
+  "4.06#1": 1,
+  "4.06#2": 1,
+  "4.06#3": 4,
+  "4.06#4": 5,
+  "4.06#5": 6,
+  "4.08#1": 1,
+  "4.08#2": 2,
+  "4.08#3": 3,
+  "4.08#4": 6,
+  "4.08#5": 9,
+  "4.11#1": 1,
+  "4.11#2": 2,
+  "4.12#1": 1,
+  "4.12#2": 1,
+  "4.12#3": 2,
+  "4.12#4": 3,
+  "4.12#5": 4,
+  "4.12#6": 4,
+  "4.12#7": 6,
+  "4.12#8": 6,
+  "4.12#9": 6,
+  "4.12#10": 6,
+  "4.12#11": 6,
+  "4.12#12": 8,
+  "5.02#1": 1,
+  "5.02#3": 3,
+  "5.02#4": 5,
+  "5.02#5": 6,
+  "5.02#6": 6,
+  "5.04#1": 1,
+  "5.04#2": 1,
+  "5.04#3": 1,
+  "5.04#4": 7,
+  "5.05#1": 1,
+  "5.05#2": 1,
+  "5.05#3": 1,
+  "5.05#4": 7,
+  "5.06#1": 1,
+  "5.06#2": 2,
+  "5.06#3": 2,
+  "5.06#4": 3,
+  "5.08#1": 1,
+  "5.08#2": 2,
+  "5.08#4": 3,
+  "5.08#5": 4,
+  "5.08#6": 4,
+  "5.10#1": 1,
+  "5.10#2": 1,
+  "5.10#3": 3
+ }
+}

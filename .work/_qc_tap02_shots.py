@@ -126,7 +126,10 @@ MONTHS_EN = {"january": "1", "february": "2", "march": "3", "april": "4", "may":
               "july": "7", "august": "8", "september": "9", "october": "10", "november": "11",
               "december": "12"}
 STRUCT_VN = r"(HỒI|TẬP|NẤC|TẦNG)"
-STRUCT_EN = r"(ACT|STAGE|LAYER|COMPARTMENT|EPISODE)"
+# "CASE FILE 04" (thẻ kết bản EN) là nhãn cấu trúc như "ACT 3"/"EPISODE 3":
+# số là số tập, không phải dữ kiện bịa. Thiếu mục này thì thẻ kết Tập 04 EN bị
+# báo nhầm là "số trên hình không có trong câu" (thẻ kết không có câu đọc).
+STRUCT_EN = r"(ACT|STAGE|LAYER|COMPARTMENT|EPISODE|CASE\s+FILE)"
 # Bản Nhật: nhãn hồi là 第N幕 (hồi N) — "1" trong "第1幕" là nhãn cấu trúc
 STRUCT_JA = r"(第\s*\d+\s*幕)"
 # hợp nhất: mọi bản đều dùng chung danh sách nhãn cấu trúc
@@ -168,10 +171,10 @@ for s in SHOTS:
         if m in allowed or m in flat or tok in allowed:
             continue
         screen = " ".join(t for _k, t in on_screen(s))
-        # Bản Nhật: số nằm TRONG nhãn cấu trúc (第1幕 = hồi 1) — khác VN/EN
-        # (HỒI 01 / ACT 1) là số đứng SAU nhãn.
-        if re.search(r"第\s*" + re.escape(m) + r"\s*幕", screen):
-            num_notes.append(f"{s['id']}: “{m}” là nhãn cấu trúc (第N幕)")
+        # Bản Nhật: số nằm TRONG nhãn cấu trúc (第1幕 = hồi 1, 第04話 = tập 4) — khác VN/EN
+        # (HỒI 01 / ACT 1) là số đứng SAU nhãn. 幕 = hồi, 話 = tập (thẻ kết).
+        if re.search(r"第\s*" + re.escape(m) + r"\s*[幕話]", screen):
+            num_notes.append(f"{s['id']}: “{m}” là nhãn cấu trúc (第N幕/第N話)")
             continue
         # nhan cau truc: HỒI 0X / TẬP 0X / NẤC 0X / TẦNG 0X (EN: ACT/STAGE/LAYER/…)
         if re.search(STRUCT_ANY + r"\s*" + re.escape(m) + r"\b", screen):

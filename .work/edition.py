@@ -170,9 +170,11 @@ EPISODES = {
         "case": "Williams",
         "n1": (("BASE PERSONNEL", "Military Community Perspective", "BASE PERSONNEL") if EN else
                ("トレントン基地関係者", "軍関係者の証言", "関係者") if JA else
+               ("트렌턴 기지 관계자", "군 관련자 증언", "관계자") if KO else
                ("BINH SĨ CĂN CỨ TRENTON", "Nhân vật hình dung", "BINH SĨ")),
         "n2": (("CASE OBSERVER", "Public Reaction", "CASE OBSERVER") if EN else
                ("ツイード住民", "市民の反応", "住民") if JA else
+               ("트위드 주민", "시민의 반응", "주민") if KO else
                ("KHÁN GIẢ", "Theo dõi vụ án", "KHÁN GIẢ")),
         # ---- bản tiếng Anh: nhãn vai (CHU_CO_DINH_EN.md §3)
         "roles_en": {"H": ("HOST", "Your Narrator"), "D": ("INVESTIGATOR", "Forensic Case Analysis"),
@@ -181,6 +183,21 @@ EPISODES = {
                      "N2": ("CASE OBSERVER", "Public Reaction")},
         "sub_tags_en": {"H": "HOST", "D": "INVESTIGATOR", "C": "PSYCHOLOGIST",
                         "N1": "BASE PERSONNEL", "N2": "CASE OBSERVER"},
+        # ---- bản tiếng Nhật / Hàn: nhãn vai riêng cho Tập 02.
+        # Vai N1 = quan binh căn cứ Trenton · N2 = dân Tweed (Mèo). Nhãn chung
+        # ("証人"/"증인") của Tập 01 sai với vụ án này -> phải khai riêng.
+        "roles_ja": {"H": ("ホスト", "ナレーター"), "D": ("捜査官", "事件記録 Williams"),
+                     "C": ("心理学者", "犯罪心理学"),
+                     "N1": ("トレントン基地関係者", "軍関係者の証言"),
+                     "N2": ("ツイード住民", "市民の反応")},
+        "sub_tags_ja": {"H": "ホスト", "D": "捜査官", "C": "心理学者",
+                        "N1": "関係者", "N2": "住民"},
+        "roles_ko": {"H": ("호스트", "내레이터"), "D": ("수사관", "사건 기록 Williams"),
+                     "C": ("심리학자", "범죄심리학"),
+                     "N1": ("트렌턴 기지 관계자", "군 관련자 증언"),
+                     "N2": ("트위드 주민", "시민의 반응")},
+        "sub_tags_ko": {"H": "호스트", "D": "수사관", "C": "심리학자",
+                        "N1": "관계자", "N2": "주민"},
         # ---- bản tiếng Anh: thẻ cảnh báo intro (CHU_CO_DINH_EN.md §2) — chữ dài hơn bản Tập 01
         # nên thẻ rộng hơn, chữ nhỏ hơn, mỗi gạch đầu dòng tự xuống dòng.
         "cards_en": (
@@ -324,7 +341,7 @@ EPISODES = {
         "thumb": ("ANGEL OF", "DEATH") if EN else ("死の天使", "16年の沈黙") if JA else ("THIÊN THẦN", "TỬ THẦN"),
         "thumb_bg": "t4_somerset_exterior",
         # H9: nen sang o dai chu -> them lop toi mem (chi T04; T01/T02 giu nguyen duong cu)
-        "text_scrim": ["1-06", "1-10", "1-15", "1-17", "2-08", "4-03", "4-07", "4-13"],
+        "text_scrim": ["1-06", "1-10", "1-11", "1-16", "1-18", "2-10", "2-11", "4-04", "4-05", "4-10", "4-11", "4-20"],
         "voice_credit": "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio",
         "mux_af": ("alimiter=limit=0.63:attack=5:release=50:level=disabled:latency=1" if (EN or JA) else
                    "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1"),
@@ -377,6 +394,16 @@ EPISODES = {
                      "N2": ("AMY LOUGHREN", "ICU Colleague & Whistleblower")},
         "sub_tags_en": {"H": "HOST", "D": "INVESTIGATOR", "C": "PSYCHOLOGIST",
                         "N1": "SOMERSET NURSE", "N2": "AMY LOUGHREN"},
+        # ---- bản tiếng Nhật: nhãn vai riêng cho Tập 04.
+        # Thiếu khoá này thì ROLE_NAME rơi về nhãn chung của Tập 01
+        # ("証人"/"視聴者") -> sai với vụ án Cullen (N1 = y tá ca đêm ở Somerset,
+        # N2 = Amy Laughren, đồng nghiệp ICU & người tố giác).
+        "roles_ja": {"H": ("ホスト", "ナレーター"), "D": ("捜査官", "事件記録 Cullen"),
+                     "C": ("心理学者", "犯罪心理学"),
+                     "N1": ("ソマーセットの看護師", "夜勤の同僚"),
+                     "N2": ("エイミー・ローレン", "集中治療室の同僚・告発者")},
+        "sub_tags_ja": {"H": "ホスト", "D": "捜査官", "C": "心理学者",
+                        "N1": "看護師", "N2": "看護師"},
         "cast": None,
         "cast_ko": True,
     },
@@ -537,7 +564,7 @@ EPISODES = {
         "master": "Tap06_EN_master" if EN else "Tap06_master",
         "srt": "Tap06_EN.srt" if EN else "Tap06.srt",
         "intro": "intro_kenh_EN_t06.mov" if EN else "intro_kenh.mov",
-        "n_element": {"1.09": "N1", "4.04": "N2"},
+        "n_element": {"1.09": "N1", "4.05": "N2"},
         "acting": WORK / ("acting_tap06_EN.json" if EN else "acting_tap06.json"),
         "sfx_sheet": WORK / "sfx_tap06.json",
         "act1_cue": "1.06", "silence_cue": "1.05", "click_cues": ("1.08", "4.03"),
@@ -547,23 +574,43 @@ EPISODES = {
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
         "route_pins": {},
-        "thumb": ("THE CLOWN'S SMILE", "& 29 SECRETS") if EN else ("NỤ CƯỜI CHÚ HỀ", "29 BÍ MẬT DƯỚI SÀN"),
+        "thumb": (("THE CLOWN'S SMILE", "& 29 SECRETS") if EN else
+                  ("道化師の微笑みと", "床下の29の秘密") if JA else
+                  ("광대의 미소와", "29개의 비밀") if KO else
+                  ("NỤ CƯỜI CHÚ HỀ", "29 BÍ MẬT DƯỚI SÀN")),
         "thumb_bg": "t6_clown_mirror_chiaroscuro",
-        "title": ("Ep. 06: The Clown’s Smile & 29 Secrets Under the Floor | The Psychology of John Wayne Gacy (ASPD)"
-                  if EN else "Tập 06: Nụ Cười Chú Hề | Tâm lý học tội phạm: John Wayne Gacy (ASPD)"),
+        "title": ("Ep. 06: The Killer Clown’s Smile & 29 Secrets Under the Floor | Criminal Psychology: John Wayne Gacy (ASPD & Malignant Narcissism)"
+                  if EN else
+                  "第06話 · 道化師の微笑みと床下の29の秘密 | 犯罪心理学：ジョン・ウェイン・ゲイシー事件 (反社会性人格障害と悪性自己愛)"
+                  if JA else
+                  "06화 · 광대의 미소와 바닥 아래 29개의 비밀 | 범죄심리학: 존 웨인 게이시 사건 (반사회적 성격장애와 악성 자기애)"
+                  if KO else
+                  "Tập 06: Nụ Cười Chú Hề & 29 Bí Mật Dưới Sàn Nhà | Tâm lý học tội phạm: John Wayne Gacy (ASPD & Ái Kỷ Ác Tính)"),
         "act_titles": ({1: "Act 1 · The Photograph with the First Lady and the Pharmacy Boy",
-                        2: "Act 2 · The Cat-and-Mouse Game on the Streets of Des Plaines",
-                        3: "Act 3 · The Dark Void Under the Summerdale Floorboards",
-                        4: "Act 4 · The Multiple Personality Drama and Pathological Lies",
-                        5: "Act 5 · 'I Am the 34th Victim' and the Lesson of the Narcissistic Mask"}
+                        2: "Act 2 · The Crime Scene & The Escalation Trajectory of the Abyss",
+                        3: "Act 3 · Psychological Autopsy — Compartmentalization & The Summerdale Void",
+                        4: "Act 4 · The Interrogation Duel & The Collapse of the Multiple Personality Defense",
+                        5: "Act 5 · The Verdict, Psychological Sentence & Survival Red Flags"}
                        if EN else
+                       {1: "第1幕 · 大統領夫人との写真と薬局の少年",
+                        2: "第2幕 · 現場と犯行記録――深淵のエスカレーション軌道",
+                        3: "第3幕 · 心理の深層解剖――精神の分断とサマーデールの空隙",
+                        4: "第4幕 · 取調の攻防――多重人格劇の崩壊と法の審判",
+                        5: "第5幕 · 判決、心理的結末と生存の警告"}
+                       if JA else
+                       {1: "제1막 · 영부인과의 사진과 약국의 소년",
+                        2: "제2막 · 현장과 범죄 기록 – 심연의 에스컬레이션 궤적",
+                        3: "제3막 · 심리 부검 – 인지적 구획화와 서머데일의 심연",
+                        4: "제4막 · 심문실 안의 심리전 – 다중인격 연극의 붕괴와 법의 심판",
+                        5: "제5막 · 판결, 심리적 종말과 생존을 위한 경고"}
+                       if KO else
                        {1: "Hồi 1 · Bức ảnh với Đệ nhất phu nhân và cậu bé hiệu thuốc",
-                        2: "Hồi 2 · Cuộc đấu trí trên đường phố Des Plaines",
-                        3: "Hồi 3 · Khoảng không gian tối dưới nền nhà Summerdale",
-                        4: "Hồi 4 · Vở kịch đa nhân cách và lời nói dối bệnh lý",
-                        5: "Hồi 5 · Tôi là nạn nhân thứ 34 và bài học về mặt nạ ái kỷ"}),
+                        2: "Hồi 2 · Hiện trường & Quỹ đạo leo thang của vực thẳm",
+                        3: "Hồi 3 · Giải phẫu tâm lý — Sự chia ngăn nhận thức & Khoảng tối Summerdale",
+                        4: "Hồi 4 · Đấu trí thẩm vấn & Sụp đổ vở kịch đa nhân cách",
+                        5: "Hồi 5 · Phán quyết, bản án tâm lý & bài học cảnh báo đỏ sinh tồn"}),
         "hashtags": "#TrueCrime #CriminalPsychology #JohnWayneGacy #TheKillerClown #ForensicPsychology #Documentary #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
-        "summary": ("1.02#1", "3.07#1"),
+        "summary": ("1.02#1", "3.10#4"),
         "need": ["1.02#1", "1.02#2", "1.02#4", "1.02#5", "1.02#6", "1.06#1", "1.06#2",
                  "1.06#3", "1.06#4", "1.06#7", "1.08#1", "1.08#3", "1.08#6", "1.09#1",
                  "1.09#2", "1.11#2", "1.13#1", "1.14#2", "1.16#1", "2.03#1", "2.03#2",
@@ -579,6 +626,7 @@ EPISODES = {
         "n2": (("MIKE ALBRECHT", "Des Plaines surveillance officer", "ALBRECHT") if EN else
                ("MIKE ALBRECHT", "Sĩ quan theo dõi Des Plaines", "ALBRECHT")),
         "cast": None,
+        "cast_ko": True,
         "mux_af": ("alimiter=limit=0.63:attack=5:release=50:level=disabled:latency=1" if EN else
                    "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1"),
         "voice_credit": "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio",
@@ -647,6 +695,16 @@ EPISODES = {
         "need": [],
         "case": "Aum", "n1": ("HÀNH KHÁCH TOKYO", "Nhân chứng sống sót", "HÀNH KHÁCH"),
         "n2": ("BÁC SĨ IKUO HAYASHI", "Cựu bác sĩ Aum", "HAYASHI"),
+        "roles_en": {'H': ('HOST', 'Your Narrator'), 'D': ('INVESTIGATOR', 'Forensic Case Analysis'), 'C': ('PSYCHOLOGIST', 'Behavioral Dynamics'), 'N1': ('TOKYO COMMUTER', 'Surviving Witness'), 'N2': ('DR. IKUO HAYASHI', 'Former Aum Doctor')},
+        "sub_tags_en": {'H': 'HOST', 'D': 'INVESTIGATOR', 'C': 'PSYCHOLOGIST', 'N1': 'COMMUTER', 'N2': 'HAYASHI'},
+        "roles_ja": {'H': ('ホスト', 'ナレーター'), 'D': ('捜査官', '事件記録 Aum'), 'C': ('心理学者', '犯罪心理学'), 'N1': ('東京の通勤客', '生存者の証言'), 'N2': ('林郁夫医師', '元オウム医師')},
+        "sub_tags_ja": {'H': 'ホスト', 'D': '捜査官', 'C': '心理学者', 'N1': '通勤客', 'N2': '林郁夫'},
+        "roles_ko": {'H': ('호스트', '내레이터'), 'D': ('수사관', '사건 기록 Aum'), 'C': ('심리학자', '범죄심리학'), 'N1': ('도쿄 승객', '생존자 증언'), 'N2': ('하야시 이쿠오 의사', '전직 옴진리교 의사')},
+        "sub_tags_ko": {'H': '호스트', 'D': '수사관', 'C': '심리학자', 'N1': '승객', 'N2': '하야시'},
+        "hashtags": "#AmberEyes #TrueCrime #TamLyToiPham #AumShinrikyo #ShokoAsahara #SarinTokyo #ThaoTungTamLy #10ChiDauTamLy #CanhBaoDo #HoSoToiPham",
+        "hashtags_en": "#AmberEyes #TrueCrime #CriminalPsychology #AumShinrikyo #ShokoAsahara #TokyoSarinAttack #CultMindControl #ExistentialVacuum #RedFlags #Documentary",
+        "hashtags_ja": "#AmberEyes #TrueCrime #犯罪心理学 #心理分析 #オウム真理教 #麻原彰晃 #地下鉄サリン事件 #マインドコントロール #実存的真空 #プロファイリング",
+        "hashtags_ko": "#AmberEyes #TrueCrime #범죄심리학 #옴진리교 #아사하라쇼코 #도쿄지하철사린 #세뇌 #실존적진공 #마인드컨트롤 #레드플래그",
         "cast": None,
     },
     "09": {
@@ -1271,19 +1329,23 @@ ROLE_NAME = ((EP.get("roles_en") or
                "C": ("PSYCHOLOGIST", "Criminal psychology"),
                "N1": ("SPRINGFIELD RESIDENT", "Longtime neighbor"), "N2": ("VIEWER", "Following the case")})
              if EN else
-             {"H": ("ホスト", "ストーリーテラー"), "D": ("捜査官", f"事件記録 {EP['case']}"),
-              "C": ("心理学者", "犯罪心理学"),
-              "N1": ("証人", "当事者"), "N2": ("視聴者", "事件を見守る人")} if JA else
-             {"H": ("호스트", "내레이터"), "D": ("수사관", f"사건 기록 {EP['case']}"),
-              "C": ("심리학자", "범죄심리학"),
-              "N1": ("증인", "당사자"), "N2": ("시청자", "사건을 지켜본 사람")} if KO else
+             (EP.get("roles_ja") or
+              {"H": ("ホスト", "ストーリーテラー"), "D": ("捜査官", f"事件記録 {EP['case']}"),
+               "C": ("心理学者", "犯罪心理学"),
+               "N1": ("証人", "当事者"), "N2": ("視聴者", "事件を見守る人")}) if JA else
+             (EP.get("roles_ko") or
+              {"H": ("호스트", "내레이터"), "D": ("수사관", f"사건 기록 {EP['case']}"),
+               "C": ("심리학자", "범죄심리학"),
+               "N1": ("증인", "당사자"), "N2": ("시청자", "사건을 지켜본 사람")}) if KO else
              {"H": ("HOST", "Người dẫn chuyện"), "D": ("ĐIỀU TRA VIÊN", f"Hồ sơ vụ án {EP['case']}"),
               "C": ("CHUYÊN GIA TÂM LÝ", "Tâm lý học tội phạm"),
               "N1": EP["n1"][:2], "N2": EP["n2"][:2]})
 SUB_TAG = ((EP.get("sub_tags_en") or
             {"H": "HOST", "D": "INVESTIGATOR", "C": "PSYCHOLOGIST", "N1": "RESIDENT", "N2": "VIEWER"}) if EN else
-           {"H": "ホスト", "D": "捜査官", "C": "心理学者", "N1": "証人", "N2": "視聴者"} if JA else
-           {"H": "호스트", "D": "수사관", "C": "심리학자", "N1": "증인", "N2": "시청자"} if KO else
+           (EP.get("sub_tags_ja") or
+            {"H": "ホスト", "D": "捜査官", "C": "心理学者", "N1": "証人", "N2": "視聴者"}) if JA else
+           (EP.get("sub_tags_ko") or
+            {"H": "호스트", "D": "수사관", "C": "심리학자", "N1": "증인", "N2": "시청자"}) if KO else
            {"H": "HOST", "D": "ĐIỀU TRA VIÊN", "C": "CHUYÊN GIA TÂM LÝ", "N1": EP["n1"][2], "N2": EP["n2"][2]})
 UI = ({"next": "NEXT", "illus": "ILLUSTRATION", "intro_line": "Fictional character · AI voice · Dramatized",
        "stamp_forged": "FORGED", "stamp_secret": "CONFIDENTIAL"} if EN else

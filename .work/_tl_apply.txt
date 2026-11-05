@@ -1,10 +1,10 @@
-﻿toc do doc: JA 0.1676 s/ky tu (10564 ky tu) · VN 0.0875 s/ky tu (17110) · KO 10252 ky tu -> du doan 1718.6s lời
-  (15 câu mới — chưa có trong timeline gốc, đặt theo thứ tự đọc)
-EN: items=203 total=1540.35s intro=22.41 first=1.03#1@23.0 last=5.12#4@1540.352
+﻿toc do doc: JA 0.1886 s/ky tu (10700 ky tu) · VN 0.0875 s/ky tu (17110) · KO 10252 ky tu -> du doan 1934.0s lời
+  base EN <- timeline_s_EN_t02_pre_20261105.json
+EN: items=203 total=1539.69s intro=22.41 first=1.03#1@23.0 last=5.12#4@1539.688
   -> ghi D:\TEST\Gax\amber-eyes\.work\timeline_s_EN_t02.json
-  (15 câu mới — chưa có trong timeline gốc, đặt theo thứ tự đọc)
-JA: items=203 total=2041.23s intro=22.41 first=1.03#1@23.0 last=5.12#4@2041.226
+  base JA <- timeline_s_JA_t02_pre_20261105.json
+JA: items=203 total=2040.54s intro=22.41 first=1.03#1@23.0 last=5.12#4@2040.543
   -> ghi D:\TEST\Gax\amber-eyes\.work\timeline_s_JA_t02.json
-KO: nhan toan cuc x0.9092 -> total 1738.93s
-KO: items=203 total=1738.93s intro=22.41 first=1.03#1@20.911 last=5.12#4@1738.93
+KO: nhan toan cuc x0.9114 -> total 1954.38s
+KO: items=203 total=1954.38s intro=22.41 first=1.03#1@20.963 last=5.12#4@1954.383
   -> ghi D:\TEST\Gax\amber-eyes\.work\timeline_s_KO_t02.json

@@ -164,7 +164,9 @@ Giống hệt bản VN (`COMBO`, `BG2`, `INSET`), vì số hiệu shot và nền
 <!--TABLE-->
 """
 
-tail = "\n**Tổng:** 161 shot phủ 100% kịch bản.\n"
+tail = ("\n> ⚠ **Timeline tạm (05/11/2026):** `.work/timeline_s_KO_t02.json` dựng lại theo kịch bản KO mới "
+        "(203 câu, 1.953,97 s) — dùng khung nhịp của timeline VN (đo thật) và tốc độ đọc ước tính theo tiếng Nhật "
+        "(hệ âm tiết CJK). **Chưa có audio master KO** ⇒ sau khi đọc lại TTS phải dựng lại timeline bằng Whisper rồi dựng lại ảnh.\n")
 body = "\n".join(out_lines)
 plan_path.write_text(header + body + tail, encoding="utf-8")
 print(f"Đã ghi {plan_path}")
