@@ -31988,5 +31988,93 @@
   "dieu_khoan": "Kênh tự tạo (ảnh nền t5_purple_floppy_disk, phông YuGothB)",
   "kiem_tra_thuong_mai": "đạt",
   "ghi_chu": "Chữ: 紫色の / フロッピーディスク, tagline kênh 実際の事件記録から読み解く犯罪心理学"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap09/xuat_ban/Tap09_master.mp3",
+  "loai": "audio master bản tiếng Việt Tập 09 (1228.5 s ~ 20m28s)",
+  "cong_cu": ".work/generate_higgs_prod_t09vi.py (Higgs Audio v3 trên MLX Apple Silicon + VoxCPM2 ref voices) + .work/build_audio3.py",
+  "ngay": "2026-11-04",
+  "prompt": "Giọng mẫu VoxCPM2 VI (H/D/C/N1/N2), kịch bản kichban_tap09_23102026.md, chuẩn hoá EBUR128 -16.2 LUFS, TP -1.5 dBFS",
+  "seed": "SHA256 tiền định từng câu theo SID + Role + Ref + Variant",
+  "dieu_khoan": "Kênh tự tạo (Higgs Audio Apache-2.0, VoxCPM2 Apache-2.0, BGM/SFX bản quyền kênh)",
+  "kiem_tra_thuong_mai": "đạt",
+  "ghi_chu": "159 câu, 5 hồi, 0 khoảng câm > 0.3s @ -60 dBFS, UTMOS MOS 2.60/5.0, G9 D-H 6.24 nc, H-C 8.86 nc, lời đầu 23.0 s, lời cuối 1219.5 s"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap09/xuat_ban/Tap09.srt",
+  "loai": "phụ đề bản tiếng Việt Tập 09 (310 cue)",
+  "cong_cu": ".work/subtitles.py — tách từ timeline_s_t09.json, nhãn vai tiếng Việt",
+  "ngay": "2026-11-04",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "Kênh tự tạo",
+  "kiem_tra_thuong_mai": "đạt",
+  "ghi_chu": "UTF-8 không BOM, CRLF — 310 cue, độ dài timeline 1228.5 s khớp từng miligiây với master audio"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap07_EN/xuat_ban/Tap07_EN_master.mp3",
+  "loai": "audio master bản tiếng Anh Tập 07 (1086.8 s ~ 18m07s)",
+  "cong_cu": ".work/generate_higgs_prod_t07en.py (Higgs Audio v3 trên MLX Apple Silicon + VoxCPM2 ref voices EN) + .work/build_audio3.py",
+  "ngay": "2026-11-04",
+  "prompt": "Giọng mẫu VoxCPM2 EN (H_EN/D_EN/C_EN/N1_EN/N2_EN), kịch bản kichban_tap07_EN.md, chuẩn hoá EBUR128 -16.2 LUFS, TP -1.7 dBFS",
+  "seed": "SHA256 tiền định từng câu theo SID + Role + Ref + Variant",
+  "dieu_khoan": "Kênh tự tạo (Higgs Audio Apache-2.0, VoxCPM2 Apache-2.0, BGM/SFX bản quyền kênh)",
+  "kiem_tra_thuong_mai": "đạt",
+  "ghi_chu": "164 câu, 5 hồi, 0 khoảng câm > 0.3s @ -60 dBFS, Whisper CER trung bình 0.76% (trung vị 0.00%), UTMOS MOS 3.42/5.0, G9 D-H 5.14 nc, H-C 9.27 nc, lời đầu 23.0 s, lời cuối 1077.4 s"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap08_EN/xuat_ban/Tap08_EN_master.mp3",
+  "loai": "audio master bản tiếng Anh Tập 08 (1181.9 s ~ 19m41s)",
+  "cong_cu": ".work/generate_higgs_prod_t08en.py (Higgs Audio v3 trên MLX Apple Silicon + VoxCPM2 ref voices EN) + .work/build_audio3.py",
+  "ngay": "2026-11-04",
+  "prompt": "Giọng mẫu VoxCPM2 EN (H_EN/D_EN/C_EN/N1_EN/N2_EN), kịch bản kichban_tap08_EN.md, chuẩn hoá EBUR128 -16.2 LUFS, TP -1.5 dBFS",
+  "seed": "SHA256 tiền định từng câu theo SID + Role + Ref + Variant",
+  "dieu_khoan": "Kênh tự tạo (Higgs Audio Apache-2.0, VoxCPM2 Apache-2.0, BGM/SFX bản quyền kênh)",
+  "kiem_tra_thuong_mai": "đạt",
+  "ghi_chu": "165 câu, 5 hồi, 0 khoảng câm > 0.3s @ -60 dBFS, Whisper CER trung bình 0.86% (trung vị 0.00%), UTMOS MOS 3.43/5.0, G9 D-H 5.13 nc, H-C 9.01 nc, lời đầu 23.0 s, lời cuối 1171.4 s"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap02/xuat_ban/Tap02_master.mp3",
+  "loai": "audio tổng bản tiếng Việt (1519.1 s)",
+  "cong_cu": "TTS Higgs Audio v3 trên MLX Mac (203 câu, giọng mẫu VoxCPM2) + nhạc assets/bgm + tiếng động assets/sfx ghép bằng .work/build_audio3.py (loudnorm I=-16.2 LUFS, trần đỉnh -1.7 dBFS)",
+  "ngay": "2026-11-05",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "TTS: Higgs Audio v3 bosonai/higgs-audio-v3-tts-4b; nhạc/SFX: kênh tự tạo",
+  "kiem_tra_thuong_mai": "chưa",
+  "ghi_chu": "Lời đầu 23.0 s · lời cuối hết 1510.1 s · hồi 1: 23.0–341.9 · hồi 5: 1192.3–1510.1 (timeline_s_t02.json) · CER Whisper + UTMOSv2 MOS 2.59"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap02/xuat_ban/Tap02.srt",
+  "loai": "phụ đề tiếng Việt Tập 02 (408 cue)",
+  "cong_cu": ".work/subtitles.py từ timeline_s_t02.json",
+  "ngay": "2026-11-05",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "Kênh tự tạo",
+  "kiem_tra_thuong_mai": "đạt",
+  "ghi_chu": "UTF-8 không BOM, 408 cue, độ dài timeline 1519.1 s khớp từng miligiây với master audio"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap02_EN/xuat_ban/Tap02_EN_master.mp3",
+  "loai": "audio master bản tiếng Anh Tập 02 (1396.9 s ~ 23m17s)",
+  "cong_cu": ".work/generate_higgs_prod_t02en.py (Higgs Audio v3 trên MLX Apple Silicon + VoxCPM2 ref voices EN) + .work/build_audio3.py",
+  "ngay": "2026-11-05",
+  "prompt": "Giọng mẫu VoxCPM2 EN (H_EN/D_EN/C_EN/N1_EN/N2_EN), kịch bản kichban_tap02_EN.md, chuẩn hoá EBUR128 -16.2 LUFS, TP -1.7 dBFS",
+  "seed": "SHA256 tiền định từng câu theo SID + Role + Ref + Variant",
+  "dieu_khoan": "Kênh tự tạo (Higgs Audio Apache-2.0, VoxCPM2 Apache-2.0, BGM/SFX bản quyền kênh)",
+  "kiem_tra_thuong_mai": "đạt",
+  "ghi_chu": "203 câu, 5 hồi, 0 khoảng câm > 0.3s @ -60 dBFS, Whisper CER trung bình 0.89% (trung vị 0.00%), UTMOS MOS 3.42/5.0, G9 D-H 5.04 nc, H-C 8.68 nc, lời đầu 23.0 s, lời cuối 1388.9 s"
+ },
+ {
+  "file": "02_SAN_XUAT/Tap02_EN/xuat_ban/Tap02_EN.srt",
+  "loai": "phụ đề tiếng Anh Tập 02 (402 cue)",
+  "cong_cu": ".work/subtitles.py từ timeline_s_EN_t02.json",
+  "ngay": "2026-11-05",
+  "prompt": null,
+  "seed": null,
+  "dieu_khoan": "Kênh tự tạo",
+  "kiem_tra_thuong_mai": "đạt",
+  "ghi_chu": "UTF-8 không BOM, 402 cue, độ dài timeline 1396.9 s khớp từng miligiây với master audio, 0 cue > 6s"
  }
 ]
