@@ -33,99 +33,99 @@
 ## 3. Cổng QC A9.1 / A9.3 / A9.4 (file chuẩn của dự án)
 
 ```
-=== A9.4 file cuoi ===
-   mp4  = 1392.767 s (23:12.77)
-   wav  = 1392.790 s
-[OK  ] Hinh va tieng cung thoi luong (±0,05 s) — lech 0.023 s
-   codec_name=h264 width=1920 height=1080 r_frame_rate=30/1 nb_frames=41783 
-[OK  ] Video 1920x1080 @ 30 fps
-[OK  ] So khung = so giay x 30 — 41783 khung
-   giai ma toan bo mp4 ...
-[OK  ] Giai ma khong loi
-=== A9.1 am thanh ===
-[OK  ] Khong co khoang cam tuyet doi > 0,3 s (V4) — 0 doan: []
-   doan im lap >= 2,5 s (chi duoc phep neu co chu dich): 0 []
-   loudness: I:         -16.0 LUFS
-[OK  ] Do lon trong khoang -16 ± 1 LUFS — -16.0 LUFS
-[OK  ] Loi dau tien 22,8 – 23,5 s — 23.0 s
-=== A9.3 hinh: 1 khung giua moi shot lay tu chinh mp4 thanh pham ===
-[OK  ] Lay du 151 khung giua shot tu mp4
-   10 contact sheet -> D:\TEST\Gax\amber-eyes\.work\qc_final_EN_t02
-=== phu de: 402 cue ===
-[OK  ] Phu de khong co cue chong lap / vo trong
-   cue cuoi ket thuc luc 1383.8 s · video 1392.8 s
-
+=== A9.4 file cuoi ===
+   mp4  = 1392.767 s (23:12.77)
+   wav  = 1392.790 s
+[OK  ] Hinh va tieng cung thoi luong (±0,05 s) — lech 0.023 s
+   codec_name=h264 width=1920 height=1080 r_frame_rate=30/1 nb_frames=41783 
+[OK  ] Video 1920x1080 @ 30 fps
+[OK  ] So khung = so giay x 30 — 41783 khung
+   giai ma toan bo mp4 ...
+[OK  ] Giai ma khong loi
+=== A9.1 am thanh ===
+[OK  ] Khong co khoang cam tuyet doi > 0,3 s (V4) — 0 doan: []
+   doan im lap >= 2,5 s (chi duoc phep neu co chu dich): 0 []
+   loudness: I:         -16.0 LUFS
+[OK  ] Do lon trong khoang -16 ± 1 LUFS — -16.0 LUFS
+[OK  ] Loi dau tien 22,8 – 23,5 s — 23.0 s
+=== A9.3 hinh: 1 khung giua moi shot lay tu chinh mp4 thanh pham ===
+[OK  ] Lay du 151 khung giua shot tu mp4
+   10 contact sheet -> D:\TEST\Gax\amber-eyes\.work\qc_final_EN_t02
+=== phu de: 402 cue ===
+[OK  ] Phu de khong co cue chong lap / vo trong
+   cue cuoi ket thuc luc 1383.8 s · video 1392.8 s
+
 TAT CA DA DAT
 ```
 
 ## 4. Cổng giám sát bổ sung P1–P6 (nhip · sync · dead air · frame · phụ đề · đối chiếu chữ)
 
 ```
-==============================================================================
-P1 — NHIP (pacing) cua bang shot moi
-==============================================================================
-   151 shot · min 1.30 · p25 5.59 · median 8.31 · p75 12.46 · max 26.72 · TB 9.09
-   shot > 15 s: 23  [('1-25', 19.8), ('1-31', 16.2), ('2-09', 16.2), ('2-13', 17.8), ('2-14', 20.0), ('2-16', 15.0), ('2-19', 15.7), ('3-07', 16.9)]
-   shot < 3 s : 20 (cac hang nghỉ/nghỉ chuyen hoi — thiet ke)
-[OK  ] Khong shot co loi nao < 1,5 s
-   [GHI] 23 shot > 15 s co loi — QC A9.2 đã xác nhận có nhịp/bám V2: 1-25=19.8s, 1-31=16.2s, 2-09=16.2s, 2-13=17.8s, 2-14=20.0s, 2-16=15.0s, 2-19=15.7s, 3-07=16.9s, 3-10=16.8s, 3-18=16.5s
-   so sanh ban du 25/10: 151 shot · TB 11.0 s · max 33.9 s · > 15 s: 37
-                ban moi : 151 shot · TB 9.1 s · max 26.7 s · > 15 s: 23
-
-==============================================================================
-P2 — SYNC: moi shot co loi phai co tieng trong khoang
-==============================================================================
-   master: 1392.79 s @ 48000 Hz, 2 kenh
-[OK  ] Moi shot co loi deu co tieng trong khoang
-[OK  ] Moi 1 trong 203 cau deu co tieng
-
-==============================================================================
-P3 — DEAD AIR trong master (nguong -45 dB, >= 1,0 s)
-==============================================================================
-   doan im >= 1,0 s: 0
-[OK  ] Khong co dead air > 1,0 s ngoai khoang nghi da thiet ke
-
-==============================================================================
-P4 — FRAME: khong khung den toan bo / khong freeze
-==============================================================================
-   doan den toan bo >= 0,5 s: 6 [('0', '0.766667'), ('280.4', '280.933333'), ('493.5', '494.133333'), ('810.4', '811.433333'), ('1112.633333', '1113.266667'), ('1390.166667', '1392.733333')]
-[OK  ] Khong co khung den toan bo ngoai dip chuyen hoi / intro / outro — []
-   den o cuoi (nen thiet ke): [(1390.166667, 1392.733333)]
-   ranh hoi (dip thiet ke): [280.4, 493.6, 810.9, 1112.8, 1383.8]
-   doan freeze >= 3 s: 0 []
-[OK  ] Khong co freeze >= 6 s (tru doan cuoi chuyen den) — []
-
-==============================================================================
-P5 — PHU DE
-==============================================================================
-   402 cue
-[OK  ] Cue phu de khong chong lap
-[OK  ] Cue cuoi phai nam trong video — 1383.8 vs 1392.8
-[OK  ] Moi cau trong timeline deu co trong phu de
-   cau khong doi chung: 0
-
-==============================================================================
-P6 — DOI CHIEU text: timeline / phu de / ke hoach
-==============================================================================
-[OK  ] Text timeline == text phu de (tuoc 1:1)
-[OK  ] Bang shot khong con cum cu 'snowshoe' — []
-[OK  ] Bang shot khong con cum cu 'man disguised' — []
-[OK  ] Bang shot khong con cum cu 'classified' — []
-
-==============================================================================
-P7 — DRIFT: audio trong mp4 co khop voi master mp3 (tuong quan cheo)
-==============================================================================
-   tai    20 s -> lech -0.0050 s | tuong quan 0.9945
-   tai   300 s -> lech -0.0050 s | tuong quan 0.9946
-   tai   700 s -> lech -0.0050 s | tuong quan 0.9886
-   tai  1000 s -> lech -0.0050 s | tuong quan 0.9899
-   tai  1300 s -> lech -0.0050 s | tuong quan 0.9947
-[OK  ] Lech audio mp4 <-> master mp3 < 50 ms o moi moc — 20s:-0.005s, 300s:-0.005s, 700s:-0.005s, 1000s:-0.005s, 1300s:-0.005s
-[OK  ] Khong co drift tich luy (do lech giua cac moc < 20 ms) — spread 0.0000 s
-[OK  ] Tuong quan audio mp4 <-> master mp3 >= 0,95 o moi moc — 20s:0.994, 300s:0.995, 700s:0.989, 1000s:0.990, 1300s:0.995
-
-==============================================================================
-TONG KET: 0 phep that bai
+==============================================================================
+P1 — NHIP (pacing) cua bang shot moi
+==============================================================================
+   151 shot · min 1.30 · p25 5.59 · median 8.31 · p75 12.46 · max 26.72 · TB 9.09
+   shot > 15 s: 23  [('1-25', 19.8), ('1-31', 16.2), ('2-09', 16.2), ('2-13', 17.8), ('2-14', 20.0), ('2-16', 15.0), ('2-19', 15.7), ('3-07', 16.9)]
+   shot < 3 s : 20 (cac hang nghỉ/nghỉ chuyen hoi — thiet ke)
+[OK  ] Khong shot co loi nao < 1,5 s
+   [GHI] 23 shot > 15 s co loi — QC A9.2 đã xác nhận có nhịp/bám V2: 1-25=19.8s, 1-31=16.2s, 2-09=16.2s, 2-13=17.8s, 2-14=20.0s, 2-16=15.0s, 2-19=15.7s, 3-07=16.9s, 3-10=16.8s, 3-18=16.5s
+   so sanh ban du 25/10: 151 shot · TB 11.0 s · max 33.9 s · > 15 s: 37
+                ban moi : 151 shot · TB 9.1 s · max 26.7 s · > 15 s: 23
+
+==============================================================================
+P2 — SYNC: moi shot co loi phai co tieng trong khoang
+==============================================================================
+   master: 1392.79 s @ 48000 Hz, 2 kenh
+[OK  ] Moi shot co loi deu co tieng trong khoang
+[OK  ] Moi 1 trong 203 cau deu co tieng
+
+==============================================================================
+P3 — DEAD AIR trong master (nguong -45 dB, >= 1,0 s)
+==============================================================================
+   doan im >= 1,0 s: 0
+[OK  ] Khong co dead air > 1,0 s ngoai khoang nghi da thiet ke
+
+==============================================================================
+P4 — FRAME: khong khung den toan bo / khong freeze
+==============================================================================
+   doan den toan bo >= 0,5 s: 6 [('0', '0.766667'), ('280.4', '280.933333'), ('493.5', '494.133333'), ('810.4', '811.433333'), ('1112.633333', '1113.266667'), ('1390.166667', '1392.733333')]
+[OK  ] Khong co khung den toan bo ngoai dip chuyen hoi / intro / outro — []
+   den o cuoi (nen thiet ke): [(1390.166667, 1392.733333)]
+   ranh hoi (dip thiet ke): [280.4, 493.6, 810.9, 1112.8, 1383.8]
+   doan freeze >= 3 s: 0 []
+[OK  ] Khong co freeze >= 6 s (tru doan cuoi chuyen den) — []
+
+==============================================================================
+P5 — PHU DE
+==============================================================================
+   402 cue
+[OK  ] Cue phu de khong chong lap
+[OK  ] Cue cuoi phai nam trong video — 1383.8 vs 1392.8
+[OK  ] Moi cau trong timeline deu co trong phu de
+   cau khong doi chung: 0
+
+==============================================================================
+P6 — DOI CHIEU text: timeline / phu de / ke hoach
+==============================================================================
+[OK  ] Text timeline == text phu de (tuoc 1:1)
+[OK  ] Bang shot khong con cum cu 'snowshoe' — []
+[OK  ] Bang shot khong con cum cu 'man disguised' — []
+[OK  ] Bang shot khong con cum cu 'classified' — []
+
+==============================================================================
+P7 — DRIFT: audio trong mp4 co khop voi master mp3 (tuong quan cheo)
+==============================================================================
+   tai    20 s -> lech -0.0050 s | tuong quan 0.9945
+   tai   300 s -> lech -0.0050 s | tuong quan 0.9946
+   tai   700 s -> lech -0.0050 s | tuong quan 0.9886
+   tai  1000 s -> lech -0.0050 s | tuong quan 0.9899
+   tai  1300 s -> lech -0.0050 s | tuong quan 0.9947
+[OK  ] Lech audio mp4 <-> master mp3 < 50 ms o moi moc — 20s:-0.005s, 300s:-0.005s, 700s:-0.005s, 1000s:-0.005s, 1300s:-0.005s
+[OK  ] Khong co drift tich luy (do lech giua cac moc < 20 ms) — spread 0.0000 s
+[OK  ] Tuong quan audio mp4 <-> master mp3 >= 0,95 o moi moc — 20s:0.994, 300s:0.995, 700s:0.989, 1000s:0.990, 1300s:0.995
+
+==============================================================================
+TONG KET: 0 phep that bai
 ==============================================================================
 ```
 

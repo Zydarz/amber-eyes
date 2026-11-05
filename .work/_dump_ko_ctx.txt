@@ -1,0 +1,1049 @@
+RAW: ## 6. DANH SÁCH SHOT — TẬP 02 (viết theo A7)
+RAW: 
+RAW: 
+RAW: 
+RAW: **Đọc bảng:** *Vai* = người đang nói (H Cú · D Sói · C Cáo · N1 Cừu · N2 Mèo). Bảng chỉ mô tả **nền + đồ hoạ**; badge và bán thân tự đặt theo A5.4.
+RAW: Cột *Nhân vật*: `🅑` = thêm bán thân ngoài câu đầu lượt · `→X` = Host đang mời X · `✦` = lần đầu xuất hiện · `⊘` = tắt bán thân.
+RAW: Cột cuối: trống = hoà tan · ✂ cắt · ◼ tối đen.
+RAW: 
+RAW: ### INTRO KÊNH · 0,00–22,41 s · `bgm_music_box.mp3`
+RAW: 
+RAW: Đặt `assets/brand/intro_kenh.mov` ở 0,00 s (A5.7). Không câu thoại nào thuộc intro.
+RAW: 
+RAW: ### HỒI 1 — SỰ TƯƠNG PHẢN CỰC ĐẠI PHÍA SAU QUÂN HÀM ĐẠI TÁ · nền chủ đạo `t2_base_trenton`
+RAW: 
+RAW: | Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
+RAW: |---|---|---|---|---|---|---|---|---|
+RAW: | 1-00 | `1.01`–`1.02` (20,5 s → lời đầu ≈ 23,0 s) | — | T1 | `t2_town_snow` hiện dần từ đen | *HỒI 01 · SỰ TƯƠNG PHẢN CỰC ĐẠI PHÍA SAU QUÂN HÀM ĐẠI TÁ* | Tiếng phản lực tụt thành drone; kim đồng hồ | ⊘ | |
+RAW: | 1-01 | `1.03#1`–`#2` | H | T5 ngày | `t2_base_trenton` | **07 · 2009** · *Căn cứ Không quân Trenton — căn cứ không quân lớn nhất của quân đội Canada* | Gõ từng ký tự | ✦ Cú |  |
+RAW: | 1-02 | `1.03#3` | H | T1 | `t2_oath_hall` | **LỄ NHẬM CHỨC** · *Trước các quan chức cấp cao trong quân đội* | — |  |  |
+RAW: | 1-03 | `1.03#4` | H | T2 | `t2_oath_hall`, `still` | *NHẬN QUYỀN CHỈ HUY TỐI CAO* · **ĐẠI TÁ DAVID RUSSELL WILLIAMS** · *Một bản lý lịch hoàn hảo* | Dấu mộc ở "hoàn hảo" |  |  |
+RAW: | 1-04 | `1.04` (nghỉ 1,5 s) | — | — | giữ 1-03 | — | — |  |  |
+RAW: | 1-05 | `1.05#1` | H | T5 | `t2_base_trenton` | **46 TUỔI** · *Lái chuyên cơ đưa đón Nữ hoàng Anh Elizabeth II, Hoàng thân Philip và các Thủ tướng Canada* | Số đếm |  |  |
+RAW: | 1-06 | `1.05#2` | H | T8 | `t2_base_trenton` mờ | *Biểu tượng của kỷ luật thép · Một người chồng mẫu mực · Vợ: lãnh đạo tại Quỹ Tim mạch và Đột quỵ Canada ở Ottawa* | Mỗi mục ở cụm từ |  |  |
+RAW: | 1-07 | `1.05#3` | H | T2 | `t2_oath_hall` | *CON LỘ ANH HÙNG* · **NƠI ĐÓN LINH CỮU LIỆT SĨ** · *Từ chiến trường Afghanistan về* | Dấu mộc ở "linh cữu" |  |  |
+RAW: | 1-08 | `1.05#4` | H | T1 | `t2_siren_wall` | **NGƯỜI ĐỨNG ĐẦU NGHI LỄ THIÊNG LIÊNG** · *Chính là Williams* | Tiêu đề ở "thiêng liêng" |  |  |
+RAW: | 1-09 | `1.05#5` | H | T1 | `t2_base_trenton`, `pull` | *HÃY HÌNH DUNG:* **NHỮNG NGƯỜI TỪNG PHỤC VỤ DƯỚI QUYỀN ÔNG** | — | →N1 |  |
+RAW: | 1-10 | `1.07#1` | N1 | T4 lời kể | `t2_base_trenton` ấm, mờ | “…hiện thân của sự chuẩn mực tuyệt đối.” | — | ✦ Cừu |  |
+RAW: | 1-11 | `1.07#2` | N1 | T8 | `t2_oath_hall` mờ | *Điềm tĩnh · Chuẩn mực đến từng nếp gấp quân phục · Chưa từng to tiếng* | Mỗi mục ở cụm từ |  |  |
+RAW: | 1-12 | `1.07#3`–`#4` | N1 | T4 lời kể | `t2_base_trenton` ấm | “…một người đàn ông mà ban đêm lại là một kẻ săn mồi nguy hiểm nhất.” | — | 🅑 |  |
+RAW: | 1-13 | `1.08#1` | H | T1 | `t2_town_snow`, `pan` | **NHỮNG ĐÊM KHUYA THANH VẮNG** · *Biến mất vào bóng tối của những thị trấn ngoại ô* | Tiêu đề ở "đêm khuya" |  |  |
+RAW: | 1-14 | `1.08#2`–`#3` | H | T1 | `night_street`, `still` | *Không còn một vị đại tá oai phong* → `#3`: **CHỈ CÒN MỘT BÓNG ĐEN RÌNH RẬP** | Tiêu đề ở "bóng đen" | ⊘ |  |
+RAW: | 1-15 | `1.08#4` | H | T1 | `t2_base_trenton`, `push` | **HIỆU ỨNG HÀO QUANG** · *Một tấm khiên vô hình khiến cả xã hội lẫn cơ quan thực thi pháp luật bị che mắt suốt nhiều năm ròng* | Tiêu đề ở "Hào quang" |  |  |
+RAW: | 1-16 | `1.09` (nghỉ 2 s) | — | — | giữ 1-12, nhạc tắt, chỉ còn nền trầm | — | — | ⊘ |  |
+RAW: | 1-17 | `1.10#1` | H | T5 ngày | `t2_house_missing` | **28 · 01 · 2010** | Gõ từng ký tự |  | ✂ |
+RAW: | 1-18 | `1.10#2`–`#3` | H | T2 | `t2_house_missing_dawn` | *JESSICA LLOYD · 27 TUỔI · BELLEVILLE* · **BIẾN MẤT KHỎI NHÀ RIÊNG** → `#3`: *Cảnh sát tỉnh Ontario mở hồ sơ điều tra · Một cuộc tìm kiếm quy mô lớn* | Dấu mộc ở "mở hồ sơ" |  |  |
+RAW: | 1-19 | `1.12#1` | H | T1 | `t2_town_snow` | **KHÔNG TÌM RA MANH MỐI NÀO** · *Cảnh sát trong những ngày đầu tiên* | Gió, bước chân (SFX `1.11`) ở đầu |  |  |
+RAW: | 1-20 | `1.12#2` | H | T7 | `t2_checkpoint` | **TỐI 4 THÁNG 2** · *Trạm kiểm soát lưu động · Gần nhà nạn nhân · Suốt đêm* | 2 ghim không nhãn, đường tự vẽ |  |  |
+RAW: | 1-21 | `1.12#3` | H | T1 | `t2_tire_track`, `still` | *Mục tiêu duy nhất của trạm* → `#3`: **MỘT VỆT VÂN LỐP XE ĐỊA HÌNH HIẾM GẶP** | Tiêu đề ở "vân lốp" |  |  |
+RAW: | 1-22 | `1.14#1`–`#2` | H | T3 so sánh | `t2_suv_stop` | **NISSAN PATHFINDER** → `#2`: *Thay vì chiếc BMW mà ông ta vẫn thường đi* | Gõ kính (SFX `1.13`) ở đầu |  |  |
+RAW: | 1-23 | `1.14#3` | H | T1 `hero` | `t2_suv_stop` | **CHỈ HUY TRƯỞNG CĂN CỨ KHÔNG QUÂN TRENTON** | Tiêu đề ở "chính là" | ⊘ |  |
+RAW: | 1-24 | `1.14#4`–`#5` | H | T1 | `t2_tire_track` | **VÂN LỐP RẤT GIỐNG DẤU VẾT TRÊN TUYẾT** → `#5`: *Không giữ được một sĩ quan cấp cao đĩnh đạc* | — |  |  |
+RAW: | 1-25 | `1.14#6` | H | T1 | `t2_checkpoint_dawn` | **VẪN LÀ MỘT VỊ ĐẠI TÁ TỰ DO** · *Trong ba ngày tiếp theo* | — |  |  |
+RAW: | 1-26 | `1.14#7` | H | T1 | `t2_interrogation_empty`, `push` | *LẮNG NGHE:* **ĐIỀU TRA VIÊN TÁI HIỆN BA NGÀY ĐÓ** | Cửa sắt "Rầm" (SFX `1.15`) sau câu | →D |  |
+RAW: | 1-27 | `1.17#1` | D | T2 | `t2_tire_track` | *GẦN NHÀ NẠN NHÂN* · **HOA VĂN LỐP XE ĐỊA HÌNH KUMHO** · *Một dấu giày đi tuyết cỡ lớn* | Dấu mộc ở "dấu giày" | ✦ Sói |  |
+RAW: | 1-28 | `1.17#2`–`#3` | D | T1 | `t2_suv_stop` | *Một cuộc dừng xe ngẫu nhiên* → `#3`: **SỰ TƯƠNG ĐỒNG ĐẾN KINH NGẠC** | Vệt sáng đèn pin ở "rọi xuống bánh xe" |  |  |
+RAW: | 1-29 | `1.17#4` | D | T3 so sánh | `t2_checkpoint` | *Thế giới ngầm của Đại tá Russell Williams* · **CHẠM VÀO** · *Thế giới của cơ quan điều tra* | Cột phải ở "cơ quan điều tra" |  |  |
+RAW: | 1-30 | `1.17#5` | D | T6 | `pinboard` | *Ba ngày đêm · Đối chiếu dấu lốp · Rà soát lịch trình di chuyển* → **LỆNH KHÁM XÉT KHẨN CẤP** · *Ottawa · Tweed* | Mỗi cụm từ một mốc |  |  |
+RAW: | 1-31 | `1.17#6` | D | T1 | `t2_phone_call` | *Thay vì tung quân vây bắt ồn ào* · **MỘT CUỘC GỌI LỊCH SỰ** · *Mời đến trụ sở cảnh sát tỉnh* | Tiêu đề ở "cuộc gọi" |  |  |
+RAW: | 1-32 | `1.18#1` | H | T1 | `t2_podcast_desk`, cassette quay | **HỒ SƠ PHÂN TÍCH TÂM LÝ HỌC TỘI PHẠM** | — | 🅑 |  |
+RAW: | 1-33 | `1.18#2` | H | T2 | `records` | *HỒ SƠ* · **ĐẠI TÁ RUSSELL WILLIAMS** | Dấu mộc ở "Hồ sơ Đại tá" |  |  |
+RAW: | 1-34 | `1.18#3` | H | T9 → T10 | `t2_two_masks` | **QUY LUẬT LEO THANG HÀNH VI** · **SỰ PHÂN MẢNH TÂM TRÍ** → *TẬP 02 · ĐẠI TÁ HAI MẶT* | Mỗi thuật ngữ ở cụm từ; tên tập cuối câu |  |  |
+RAW: | 1-35 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 02* · **4 BẬC THANG CỦA VỰC THẲM** | — | ⊘ | ◼ |
+RAW: 
+RAW: ### HỒI 2 — HIỆN TRƯỜNG & HỒ SƠ TỘI ÁC · nền chủ đạo `t2_folder_tree`
+RAW: 
+RAW: | Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
+RAW: |---|---|---|---|---|---|---|---|---|
+RAW: | 2-01 | `2.02#1` | H | T1 | `t2_cottage_search` | **MỘT VỤ ÁN ĐƠN LẺ** · *Cảnh sát tỉnh Ontario đối mặt với vụ biến mất* | — |  |  |
+RAW: | 2-02 | `2.02#2` | H | T1 | `t2_cottage_search`, `push` | **MỘT BỨC TRANH GHÊ RỢN LỘ DIỆN** · *Tweed · Belleville* | — |  |  |
+RAW: | 2-03 | `2.04#1` | H | T1 | `t2_house_missing_dawn` | **KẺ BẮT CÓC KHÔNG XUẤT HIỆN TỪ HƯ KHÔNG** | Lật hồ sơ (SFX `2.03`) ở đầu |  |  |
+RAW: | 2-04 | `2.04#2` | H | T1 | `t2_escalation_stairs` | *Âm thầm hoàn thiện kỹ năng săn mồi* · **BÓNG MA TRONG BÓNG TỐI** | — |  |  |
+RAW: | 2-05 | `2.04#3` | H | T1 | `t2_escalation_stairs` | *Đỉnh chóp của một tảng băng chìm* · **4 NẤC THANG LEO THANG HÀNH VI** | — |  |  |
+RAW: | 2-06 | `2.04#4` | H | T1 | `pinboard` mờ, `push` | *LẮNG NGHE:* **ĐIỀU TRA VIÊN PHÂN TÍCH PHƯƠNG THỨC HOẠT ĐỘNG** | — | →D |  |
+RAW: | 2-07 | `2.05#1` | D | T2 | `pinboard` | **4 GIAI ĐOẠN LEO THANG** · *Dữ liệu số và chứng cứ thu giữ* | Bộ đếm `0/4`, 4 thẻ trống ghim lên |  |  |
+RAW: | 2-08 | `2.05#2`–`#3` | D | T3 `1/4` | `t2_open_window` | *NẤC 01* · **NHÌN TRỘM** → `#3`: *Lảng vảng ban đêm trong các khu dân cư vắng* | — |  |  |
+RAW: | 2-09 | `2.05#4`–`#6` | D | T3 `2/4` | `t2_drawer_dark` | *NẤC 02* · **ĐỘT NHẬP LẤY ĐỒ RIÊNG TƯ** → `#6`: *Những vụ trộm đầu tiên cảnh sát lần ra: 2006* | — |  |  |
+RAW: | 2-10 | `2.05#7` | D | T5 | `t2_open_window` mờ | *09 · 2007 – 11 · 2009* · **82** · *Vụ đột nhập và đột nhập bất thành* | Số đếm 0 → 82 |  |  |
+RAW: | 2-11 | `2.05#8`–`#9` | D | T8 gạch bỏ | `records` | *Tiền bạc · Trang sức* → `#9`: **ĐỒ RIÊNG TƯ CỦA PHỤ NỮ** | Gạch ở "không lấy" |  |  |
+RAW: | 2-12 | `2.05#10` | D | T8 | `t2_logbook` | *NGHI THỨC LẶP LẠI Y HỆT* · *Chụp ảnh · Lấy đồ · Ghi chép lại* | Mỗi mục ở cụm từ |  |  |
+RAW: | 2-13 | `2.05#11`–`#13` | D | T3 `3/4` | `t2_escalation_stairs` | *NẤC 03* · **XÂM NHẬP KHI CÓ NGƯỜI Ở NHÀ** → `#12`: *09 · 2009 · Ngưỡng kích thích tiếp tục bị lờn* → `#13`: *Hai người phụ nữ · Quanh thị trấn Tweed* | — | ⊘ ở `#13` |  |
+RAW: | 2-14 | `2.05#14`–`#16` | D | T3 `4/4` | `fog`, tối dần | *NẤC 04* · **CÁI CHẾT** → `#15`: *Cuối tháng 11 · 2009 · Marie-France Comeau · Hạ sĩ · 37 tuổi · Phi đoàn 437* → `#16`: *Hai tháng sau · Jessica Lloyd* | Chỉ chữ, không hình người | ⊘ |  |
+RAW: | 2-15 | `2.06` (nghỉ 1,5 s) | — | — | giữ 2-14, tối dần | — | — | ⊘ |  |
+RAW: | 2-16 | `2.07#1` | H | T1 | `t2_two_masks` | **ĐỘNG LỰC BẤT ĐỐI XỨNG** · *Quyền lực tàn nhẫn của kẻ săn mồi* | — |  |  |
+RAW: | 2-17 | `2.07#2`–`#3` | H | T3 so sánh | `t2_two_masks` | *Hạ sĩ Marie-France Comeau · Cấp dưới phục vụ trong căn cứ* → `#3`: *Jessica Lloyd · Cô gái trẻ độc thân sống trong căn nhà riêng* | Cột phải ở "Jessica Lloyd" |  |  |
+RAW: | 2-18 | `2.07#4`–`#6` | H | T1 | `t2_drawer_dark` | *Cả hai đều bị tước đoạt mạng sống* → `#5`: **BẢN NĂNG SĂN MỒI LỆCH LẠC + KỶ LUẬT QUÂN SỰ** → `#6`: *Chụp ảnh mọi thứ, ghi chép lại từng lần đột nhập* | — |  |  |
+RAW: | 2-19 | `2.07#7` | H | T1 | `pinboard`, `push` | *LẮNG NGHE:* **ĐIỀU TRA VIÊN LÀM RÕ** | — | →D |  |
+RAW: | 2-20 | `2.08#1`–`#3` | D | T9 | `records` | *Hai khái niệm phải phân biệt* → `#2`: **THỦ ĐOẠN GÂY ÁN** *(Modus Operandi)* → `#3`: *Điều chỉnh liên tục qua 82 vụ đột nhập* | Thuật ngữ ở `#2` |  |  |
+RAW: | 2-21 | `2.08#4` | D | T9 | `t2_drawer_dark` | *TÂM LÝ HỌC* · **DẤU ẤN TÂM LÝ** *(Signature)* | Thuật ngữ ở `#4` |  |  |
+RAW: | 2-22 | `2.08#5`–`#7` | D | T1 | `t2_boot_evidence` | **HẮN KHÔNG LẤY ĐỒ ĐỂ BÁN** → `#6`: *Mặc đồ nạn nhân · Chụp ảnh tự sướng trước gương* → `#7`: *Thứ hắn cần để duy trì hưng phấn tâm lý* | — |  |  |
+RAW: | 2-23 | `2.08#8` | D | T1 | `t2_tire_track` | **DẤU VẾT LỐP XE DẪN CẢNH SÁT TỚI HẮN** | — |  |  |
+RAW: | 2-24 | `2.08#9` | D | T1 | `t2_hidden_drive` | **CHIẾC CHÌA KHÓA DUY NHẤT** · *Kho dữ liệu bí mật bóc trần hoàn toàn bề mặt thật của vị đại tá* | — |  |  |
+RAW: | 2-25 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 03* · **BÊN TRONG BỘ NÃO CỦA SÁT NHÂN HAI MẶT** | — | ⊘ | ◼ |
+RAW: 
+RAW: ### HỒI 3 — GIẢI PHẪU TÂM LÝ · nền chủ đạo `t2_brain_neural`
+RAW: 
+RAW: | Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
+RAW: |---|---|---|---|---|---|---|---|---|
+RAW: | 3-01 | `3.02#1` | H | T1 | `t2_command_chair` | **MỘT CÂU HỎI HÓC BÚA ĐẾN RỢN NGƯỜI** | — |  |  |
+RAW: | 3-02 | `3.02#2` | H | T8 | `t2_command_chair` tối | *Địa vị · Danh vọng · Một người vợ tài năng · Sự kính trọng của cả một quốc gia* → **TẠI SAO ĐÁNH CƯỢC TẤT CẢ?** | Mỗi mục ở cụm từ; tiêu đề ở "đánh cược" |  |  |
+RAW: | 3-03 | `3.03` (nghỉ 2 s) | — | — | giữ 3-02 | — | — |  |  |
+RAW: | 3-04 | `3.04#1` | H | T2 | `records` | *TRƯỚC KHI PHÂN TÍCH* · **KHÔNG TỒN TẠI MỘT CHẨN ĐOÁN LÂM SÀNG CÔNG KHAI NÀO** · *Về Russell Williams* | — | 🅑 |  |
+RAW: | 3-05 | `3.04#2` | H | T1 | `t2_brain_neural` mờ | **GIÚP TA ĐẶT CÂU HỎI ĐÚNG** · *Không phải một sự phán xét đã được cơ quan chuyên môn xác nhận* | — |  |  |
+RAW: | 3-06 | `3.04#3` | H | T1 | `t2_brain_neural`, `push` | *LẮNG NGHE:* **CHUYÊN GIA TÂM LÝ** → *Các tầng cơ chế vận hành bên trong bộ não* | — | →C |  |
+RAW: | 3-07 | `3.05#1`–`#3` | C | T9 | `t2_brain_neural` + sơ đồ 3 vòng (dùng lại `brain3` Tập 01) | *Không phải một kẻ loạn thần mất trí* → `#2`: **HOÀN TOÀN TỈNH TÁO** → `#3`: **3 TẦNG CƠ CHẾ TÂM LÝ** | 3 vòng sáng ở `#3` | ✦ Cáo |  |
+RAW: | 3-08 | `3.05#4` | C | T9 | `t2_escalation_stairs` | *TẦNG 01* · **CHU KỲ ẢO TƯỞNG** · *Sự lờn Dopamine · Ngòi nổ điểm gãy* | — |  |  |
+RAW: | 3-09 | `3.05#5` | C | T1 | `t2_escalation_stairs`, `pan` | **ĐẶC ĐIỂM THƯỜNG THẤY** · *Hành vi ban đầu của hắn* | Tiêu đề ở "đặc điểm thường thấy" |  |  |
+RAW: | 3-10 | `3.05#6` | C | T9 | `t2_brain_neural` + đường nhịp tăng vọt (Pillow) | **DOPAMINE** · *Phấn khích và phần thưởng* → `#6`: *Cảm giác hưng phấn quyền lực tột độ* | Nhịp nhấp nháy ở `#6` |  |  |
+RAW: | 3-11 | `3.05#7` | C | T1 | `t2_brain_neural`, đường nhịp phẳng dần | **CƠ CHẾ DUNG NẠP KÍCH THÍCH** · *Não bộ con người có cơ chế này* | — |  |  |
+RAW: | 3-12 | `3.05#8`–`#9` | C | T1 | `t2_brain_neural`, đường nhịp phẳng dần | **HÀNH VI CŨ TRỞ NÊN QUEN THUỘC** → `#9`: *Phải tăng liều lượng rủi ro để tìm lại khoái cảm ban đầu* | — | 🅑 |  |
+RAW: | 3-13 | `3.05#10` | C | T1 `hero` | `t2_stairs_dark`, tối dần | *NGÒI NỔ TÂM LÝ* *(Precipitating Trigger)* · *Tháng 7 năm 2009 · Thăng cấp chỉ huy trưởng căn cứ Trenton* | Tiêu đề ở "Ngòi nổ" | ⊘ |  |
+RAW: | 3-14 | `3.06` (nghỉ 1,5 s) | — | — | giữ 3-13 | — | — |  |  |
+RAW: | 3-15 | `3.07#1` | H | T3 so sánh | `t2_two_masks` | *BAN NGÀY* · *Điều hành hàng ngàn binh sĩ · Sống bên cạnh người vợ tài năng* → `#1`: *BAN ĐÊM* · **MỘT KẺ KHÁC HOÀN TOÀN** · *Không hề phát điên hay cắn rứt lương tâm* | Cột phải ở "ban đêm" | →C |  |
+RAW: | 3-16 | `3.08#1`–`#2` | C | T9 | `t2_two_drawers` | *TẦNG 02* · **SỰ PHÂN MẢNH TÂM TRÍ TUYỆT ĐỐI** → `#2`: *(Compartmentalization)* · *Hệ thống tự bào chữa · Hai ngăn kéo hoàn toàn biệt lập* | Thuật ngữ Anh ở `#2` |  |  |
+RAW: | 3-17 | `3.08#3`–`#5` | C | T3 so sánh | `t2_two_drawers` | *Ngăn kéo 01* · **ĐẠI TÁ WILLIAMS** · *Mẫu mực · Chu đáo · Chuẩn mực đạo đức tại Ottawa* → `#5`: *Ngăn kéo 02* · **KẺ SĂN MỒI BÓNG ĐÊM** · *Giải phóng xung lực tàn bạo tại Tweed* | Cột phải ở `#5` |  |  |
+RAW: | 3-18 | `3.08#6`–`#8` | C | T1 | `t2_drawer_dark` | **ĐÓNG CHẶT CÁNH CỬA CỦA NGĂN KÉO KIA** → `#7`: *Lá chắn bình thường hóa · Tự ru ngủ mình là người đàn ông danh giá* → `#8`: *Trung hòa đạo đức · 82 vụ trộm đầu tiên* | Ngăn kéo đóng ở "đóng chặt" |  |  |
+RAW: | 3-19 | `3.08#9`–`#10` | C | T1 | `t2_interrogation_empty` | *Tự biện minh: nạn nhân đã thấy mặt mình* → `#10`: **HẮN KHÔNG THỂ TỰ GIẢI THÍCH** | — | ⊘ |  |
+RAW: | 3-20 | `3.08#11` | C | T4 `hero` | `t2_interrogation_empty` | “Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng.” | Câu trích từng dòng từ dấu `:` | ⊘ |  |
+RAW: | 3-21 | `3.08#12`–`#13` | C | T1 | `t2_interrogation_empty` | **CÂU TRẢ LỜI TRƠ TRẼN NHẤT** → `#13`: *Cơ chế tự bào chữa đã ăn sâu vào tiềm thức của hắn* | — | 🅑 |  |
+RAW: | 3-22 | `3.09` (nghỉ 2 s) | — | — | giữ 3-22 | — | — |  |  |
+RAW: | 3-23 | `3.10#1`–`#2` | H | T1 | `t2_command_chair`, `push` | **GÓC NHÌN CỦA HẮN VỚI NHỮNG NGƯỜI PHỤ NỮ** · *Tại sao lạnh lùng với chính cấp dưới?* | — | →C |  |
+RAW: | 3-24 | `3.11#1` | C | T9 | `t2_command_chair` | *TẦNG 03* · **SỰ VẬT HÓA NẠN NHÂN** *(Objectification)* → *Ái kỷ ác tính* | Thuật ngữ ở "vật hóa" |  |  |
+RAW: | 3-25 | `3.11#2` | C | T9 | `t2_brain_neural` | *TÂM LÝ HỌC* · **THUYẾT TÂM TRÍ** *(Theory of Mind)* · *Thiếu hụt năng lực thấu cảm cảm xúc* | — |  |  |
+RAW: | 3-26 | `3.11#3` | C | T1 | `t2_base_trenton` | **KHÔNG PHẢI NHỮNG CON NGƯỜI** · *Không có sinh mệnh, ước mơ hay nỗi đau* | — |  |  |
+RAW: | 3-27 | `3.11#4` | C | T1 | `t2_two_masks` | **BỊ GIÁNG CẤP THÀNH ĐẠO CỤ SỐNG** | Tiêu đề ở "giáng cấp" |  |  |
+RAW: | 3-28 | `3.11#5` | C | T1 | `t2_command_chair` tối | **HƯNG PHẤN QUYỀN LỰC** · *Ảo tưởng tối thượng · Quyền sinh tử như một vị Chúa trời* | — |  |  |
+RAW: | 3-29 | `3.11#6` | C | T4 `hero` | `t2_command_chair` tối | “Ta kiểm soát các ngươi, và không ai có thể chạm tới ta.” | Câu trích ở "Ta kiểm soát" (lời độc thoại tưởng tượng — dấu “” màu tím `violet` của Cáo, không phải lời thật) | 🅑 |  |
+RAW: | 3-30 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 04* · **NGHỆ THUẬT BẺ GÃY BỘ ÓC QUÂN SỰ** | — | ⊘ | ◼ |
+RAW: 
+RAW: ### HỒI 4 — ĐẤU TRÍ PHÒNG THẨM VẤN · nền chủ đạo `t2_two_chairs`
+RAW: 
+RAW: | Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
+RAW: |---|---|---|---|---|---|---|---|---|
+RAW: | 4-01 | `4.03#1`–`#2` | H | T5 ngày | `t2_interrogation_empty` | **07 · 02 · 2010** · *Chủ nhật · Trụ sở cảnh sát tại Ottawa · 3 giờ chiều* | Gõ từng ký tự; đèn huỳnh quang (SFX `4.01`) |  |  |
+RAW: | 4-02 | `4.03#3`–`#4` | H | T3 so sánh | `t2_two_chairs` | *Một bên bàn* · **ĐẠI TÁ RUSSELL WILLIAMS** · *Quần áo dân sự* → `#4`: *Đối diện* · **THÁM TỬ JIM SMYTH** · *Chuyên gia khoa học hành vi · Cảnh sát tỉnh Ontario* | Cột phải ở `#4`; chỉ tên, không gắn lên bóng (V5) |  |  |
+RAW: | 4-03 | `4.03#5`–`#6` | H | T2 | `t2_interrogation_empty` | **TỰ NGUYỆN ĐẾN ĐÂY** · *Sau một cuộc gọi mời trao đổi* → `#6`: *Bình thản ngồi lại · Từ chối luật sư* | — |  |  |
+RAW: | 4-04 | `4.04` (nghỉ 2 s) | — | — | giữ 4-03 | — | — |  |  |
+RAW: | 4-05 | `4.05#1` | H | T1 | `t2_tape_recorder`, `push` | *LẮNG NGHE:* **KÝ ỨC CỦA NGƯỜI DÂN** · *Tiếng lòng của những người từng sống trong bóng tối của Williams* | — | →N2 |  |
+RAW: | 4-06 | `4.06#1`–`#2` | N2 | T4 lời kể | `t2_house_missing_dawn` | “…thị trấn nhỏ Tweed của chúng tôi sống trong một nỗi bất an mơ hồ…” | — | ✦ Mèo |  |
+RAW: | 4-07 | `4.06#3` | N2 | T4 lời kể | `bedroom_door` | “…Chúng tôi tưởng mình đang hoang tưởng… cho đến khi sự thật vỡ lở.” | — | ✦ Mèo |  |
+RAW: | 4-08 | `4.06#4` | N2 | T4 lời kể | `bedroom_door` | “…một kẻ đội lốt sĩ quan cấp cao đã đứng ngay trong phòng ngủ, nhìn chằm chằm vào bạn trong bóng tối.” | — | 🅑 |  |
+RAW: | 4-09 | `4.07#1`–`#3` | H | T1 | `t2_two_chairs`, `pull` | **KỸ THUẬT THẨM VẤN TÂM LÝ** · *Thám tử Jim Smyth* → `#3`: *LẮNG NGHE:* **TỪNG NƯỚC CỜ** | — | →D |  |
+RAW: | 4-10 | `4.08#1`–`#2` | D | T9 | `t2_two_chairs` | **NGHỆ THUẬT XÂY DỰNG SỰ KẾT NỐI** *(Rapport Building)* → `#2`: *Giọng điệu phẳng lặng, tôn trọng · Dẫn dắt vào chiếc bẫy của sự tự phụ* | — |  |  |
+RAW: | 4-11 | `4.08#3`–`#4` | D | T1 | `t2_two_chairs` | *SẴN SÀNG CUNG CẤP NHỮNG GÌ?* → `#4`: **ADN · VÂN TAY · DẤU GIÀY** | — |  |  |
+RAW: | 4-12 | `4.08#5` | D | T3 so sánh | `t2_tape_recorder` | *Trong lúc hai người đối thoại* · **MŨI TRINH SÁT THỰC ĐỊA** · *Lệnh khám xét tại Ottawa và Tweed* | Đèn xanh đỏ |  |  |
+RAW: | 4-13 | `4.08#6` | D | T3 so sánh | `t2_boot_evidence`, `still` | *Dấu giày tuyết tại hiện trường* · *Dấu giày của chính Williams* → “Chúng giống hệt nhau.” | Câu trích ở "và nói" |  |  |
+RAW: | 4-14 | `4.08#7` | D | T1 | `t2_head_down` | *MỘT ĐỀ NGHỊ KỲ LẠI* → “Cứ gọi tôi là Russ.” | — |  |  |
+RAW: | 4-15 | `4.08#8` | D | T4 | `t2_two_chairs` | **CHIẾC THÒNG LỌNG VÔ HÌNH BẮT ĐẦU SIẾT CHẶT** | Trượt ảnh "Xoẹt" ở đầu |  |  |
+RAW: | 4-16 | `4.10#1` | D | T1 | `t2_hidden_drive` | **Ổ CỨNG TRÊN TRẦN TẦNG HẦM** · *Hàng nghìn bức ảnh và ghi chép chi tiết* | — | ⊘ |  |
+RAW: | 4-17 | `4.10#2`–`#3` | D | T4 `hero` | `t2_siren_wall` | *Smyth nhìn thẳng vào mắt Williams* → `#3`: “Vợ ông giờ đã biết chuyện gì đang xảy ra.” | Câu trích ở "nói thêm" | ⊘ |  |
+RAW: | 4-18 | `4.10#4`–`#6` | D | T4 | `t2_head_down` | *Toàn bộ thế giới danh dự đã hoàn toàn sụp đổ* → `#6`: “Tôi không biết phải nói gì.” | — |  |  |
+RAW: | 4-19 | `4.10#7` | D | T4 | `t2_interrogation_empty`, `still` | *4 giờ 40 phút sau* → “Vậy, cô ấy ở đâu?” | Câu trích ở "hỏi khẽ" |  |  |
+RAW: | 4-20 | `4.10#8` | D | T4 `hero` | `t2_forest_map` | “Có bản đồ không?” | — | ⊘ | ✂ |
+RAW: | 4-21 | `4.10#9` | D | T1 | `t2_interrogation_early` | *Gần 6 tiếng tiếp theo* · **TỪNG VỤ MỘT** | — |  |  |
+RAW: | 4-22 | `4.11#1`–`#3` | C | T1 | `t2_two_drawers` | **KHOẢNH KHẮC TÂM LÝ SỤP ĐỔ** → `#3`: *Bức tường giữa hai ngăn kéo tâm trí · Vỡ vụn* | Hai ngăn kéo bật mở ở `#3` | 🅑 |  |
+RAW: | 4-23 | `4.11#4` | C | T4 | `t2_interrogation_empty` | *Theo bản ghi thẩm vấn* · **NGƯỜI VỢ** → “Tôi muốn giảm thiểu ảnh hưởng lên vợ tôi.” | — |  |  |
+RAW: | 4-24 | `4.11#5` | C | T1 | `t2_two_chairs` | *Smyth đáp rằng ông cũng muốn vậy* · **CON ĐƯỜNG DUY NHẤT LÀ SỰ THẬT** | — |  |  |
+RAW: | 4-25 | `4.11#6`–`#7` | C | T3 so sánh | `void` | *NỖI LO VỢ MÌNH VÀ CĂN CỨ* → *KHÔNG PHẢI NỖI ĐAU CỦA NẠN NHÂN* | — | ⊘ |  |
+RAW: | 4-26 | `4.11#8` | C | T1 | `void` | **KHÔNG PHẢI SỰ ĂN NĂN HỐI LỖI** | — |  |  |
+RAW: | 4-27 | `4.11#9` | C | T1 | `t2_head_down` | **MẶT NẠ DANH DỰ VỠ VỤN** · *Sự thương hại bản thân tột độ · Trước người thân và xã hội* | — | 🅑 |  |
+RAW: | 4-28 | `4.12#1` | H | T1 `hero` | `t2_head_down` | **CHÍNH THỨC GỤC NGÃ** · *Trước sức ép của sự thật khách quan* | — | ⊘ |  |
+RAW: | 4-29 | `4.12#2` | H | T1 | `t2_head_down` | **JESSICA LLOYD** · *Đánh dấu trên bản đồ nơi hắn phi tang* | — |  |  |
+RAW: | 4-30 | `4.12#3` | H | T8 | `records` | *THỪA NHẬN* · *Nữ hạ sĩ Marie-France Comeau · Hai vụ tấn công tại Tweed* | Mỗi mục ở cụm từ |  |  |
+RAW: | 4-31 | `4.12#4` | H | T1 | `t2_folder_tree` | *Kho dữ liệu trong ổ cứng* · **82 VỤ ĐỘT NHẬP BÍ MẬT** | — |  |  |
+RAW: | 4-32 | `4.12#5` | H | T5 | `pinboard` | **88** · *88 Cáo buộc hình sự · Một người đàn ông duy nhất* | Số đếm 0 → 88 |  |  |
+RAW: | 4-33 | `4.12#6` | H | T1 | `t2_head_down` | **VỎ BỌC HÀO NHOÁNG TAN THÀNH MÂY KHÓI** | — |  |  |
+RAW: | 4-34 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 05* · **PHÁN QUYẾT, CẢNH BÁO ĐỎ & LỜI KẾT** | — | ⊘ | ◼ |
+RAW: 
+RAW: ### HỒI 5 — PHÁN QUYẾT, BÀI HỌC CẢNH BÁO ĐỎ & LỜI KẾT · nền chủ đạo `t2_courtroom`
+RAW: 
+RAW: | Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
+RAW: |---|---|---|---|---|---|---|---|---|
+RAW: | 5-01 | `5.02#1`–`#2` | H | T5 ngày | `t2_courtroom` | **10 · 2010** · *Tòa án Cấp cao Ontario · Thẩm phán Robert Scott · Belleville* (chỉ chữ, V5) | Búa gõ ba lần (SFX `5.01`) trước câu |  |  |
+RAW: | 5-02 | `5.02#3` | H | T5 | `t2_courtroom` | *Ngày 18 tháng 10* · **88** · *Nhận tội trước toàn bộ cáo buộc* | Số đếm |  |  |
+RAW: | 5-03 | `5.02#4` | H | T8 | `t2_gavel` | *NGÀY 21 · THẨM PHÁN TUYÊN PHẠT* · *Hai mức tù chung thân chạy song song · 10 năm cho mỗi tội tấn công tình dục · 10 năm cho mỗi tội giam giữ trái phép · 1 năm cho mỗi trong 82 vụ đột nhập* | Mỗi mục ở cụm từ (câu dài ~20 s → 5 beat) |  |  |
+RAW: | 5-04 | `5.02#5`–`#6` | H | T5 | `t2_gavel` | **25 NĂM** · *Không được xét ân xá* → `#6`: *Mức án tối thiểu luật hình sự Canada bắt buộc* | Số đếm 0 → 25 |  |  |
+RAW: | 5-05 | `5.03` (nghỉ 2 s) | — | — | giữ 5-04 | — | — |  |  |
+RAW: | 5-06 | `5.04#1` | H | T1 | `t2_oath_hall` tối | **SỰ SỤP ĐỔ HOÀN TOÀN VỀ DANH DỰ** | Gọi lại hình lễ nhậm chức, nay tối |  |  |
+RAW: | 5-07 | `5.04#2`–`#4` | H | T8 gạch bỏ | `t2_medals_cut` | *Quân hàm · Huân chương · Sắc lệnh phong cấp · Tiểu sử trên trang Bộ Quốc phòng* | Mỗi câu gạch mục tương ứng |  |  |
+RAW: | 5-08 | `5.04#5` | H | T1 | `t2_uniform_fire` | **ĐỐT QUÂN PHỤC** · *Căn cứ Trenton · Một cơ sở vốn dùng để tiêu hủy tài liệu* | Lửa bùng ở "đốt quân phục" |  |  |
+RAW: | 5-09 | `5.04#6`–`#7` | H | T2 | `t2_uniform_fire` mờ | *Hubert Genest · Người phát ngôn quân đội* · *Không có nghi lễ chính thức · Không có ảnh chụp* → `#7`: **LẦN ĐẦU TIÊN TRONG HAI MƯƠI LĂM NĂM PHỤC VỤ** | Tiêu đề ở `#7` |  |  |
+RAW: | 5-10 | `5.04#8` | H | T4 | `t2_uniform_fire` tối | “Khi đặt dấu chấm cuối câu, dấu chấm ấy nhỏ thôi, nhưng nó mang rất nhiều ý nghĩa.” | Câu trích ở "câu văn" | ⊘ |  |
+RAW: | 5-11 | `5.04#9` | H | T1 | `t2_checkpoint_dawn` | **CHIẾC SUV BỊ ĐÈ NÁT** · *Hàng trăm món đồ bị đem đốt* | — |  |  |
+RAW: | 5-12 | `5.05` (nghỉ 2 s) | — | — | giữ 5-11 | — | — |  |  |
+RAW: | 5-13 | `5.06#1` | H | T1 | `t2_red_flags` | **THÁI ĐỘ TÂM LÝ TRƯỚC BẢN ÁN** · *Câu hỏi dành cho chuyên gia tâm lý* | — |  |  |
+RAW: | 5-14 | `5.06#2` | H | T1 | `t2_courtroom` | **MỘT LỜI XIN LỖI KHÔ KHỐC** · *Máy móc như một cỗ máy trả bài* | — |  |  |
+RAW: | 5-15 | `5.06#3` | H | T1 | `t2_cell_medical` | **KINGSTON PENITENTIARY** · *Đặc quyền bị tước sạch · Thành kẻ bị khinh bỉ nhất* | — |  |  |
+RAW: | 5-16 | `5.06#4` | H | T9 | `t2_red_flags` | *TÂM LÝ HỌC* · **SỰ SỤP ĐỔ CÁI TÔI ÁI KỶ** *(Narcissistic Collapse)* → `#4`: *Chỉ còn lại sự tự thương hại bản thân* | — | →C |  |
+RAW: | 5-17 | `5.07#1`–`#2` | C | T1 | `void` | **MỘT CHẤN THƯƠNG SÂU SẮC** · *Quân đội Canada phải cải tổ toàn diện quy trình kiểm tra an ninh* | — |  |  |
+RAW: | 5-18 | `5.07#3` | C | T1 | `t2_red_flags` | **ĐỪNG ĐỂ HIỆU ỨNG HÀO QUANG RU NGỦ TRỰC GIÁC** | — |  |  |
+RAW: | 5-19 | `5.07#4`–`#6` | C | T1 | `t2_escalation_stairs` | *Địa vị, bằng cấp, quân hàm chỉ là lớp áo khoác xã hội* → `#6`: **TỘI ÁC LUÔN BẮT ĐẦU TỪ NHỮNG BƯỚC RẤT NHỎ** · *Một cái nhìn trộm · Một lần lục lọi đồ riêng tư* | — |  |  |
+RAW: | 5-20 | `5.07#7` | C | T1 | `t2_stairs_dark`, `push` | **NGƯỠNG THỎA MÃN BỊ ĐẨY XA HƠN** · *Cho đến khi nuốt chửng cả nạn nhân lẫn kẻ thủ ác* | — |  |  |
+RAW: | 5-21 | `5.08#1` | D | T1 | `t2_folder_tree` | *TÍNH KỶ LUẬT VÀ GHI CHÉP* · **TỰ VIẾT BẢN ÁN CHO CHÍNH MÌNH** | — |  |  |
+RAW: | 5-22 | `5.08#2` | D | T1 | `void` | **SỰ KIÊU HÃNH CỦA KẺ ÁI KỶ LUÔN ĐỂ LẠI DẤU VẾT** | — |  |  |
+RAW: | 5-23 | `5.08#3` | D | T1 | `t2_red_flags` | **HÃY LUÔN TIN VÀO TRỰC GIÁC CỦA BẠN** | — |  |  |
+RAW: | 5-24 | `5.08#4`–`#5` | D | T1 | `t2_head_down` | *Sự bất an mơ hồ · Ranh giới riêng tư bị xâm phạm* → `#5`: **TRỰC GIÁC LÀ HỆ THỐNG CẢNH BÁO SỚM** | — |  |  |
+RAW: | 5-25 | `5.09` (nghỉ 2 s) | — | — | giữ 5-19 | — | — | ⊘ |  |
+RAW: | 5-26 | `5.10#1` | H | T1 | `t2_podcast_desk`, đèn ấm dần | *Vực thẳm khôn lường của tâm trí con người* | — |  |  |
+RAW: | 5-27 | `5.10#2`–`#3` | H | T1 | `t2_podcast_desk` | **BỘ ÓC TINH HOA KHÔNG BẢO VỆ ĐƯỢC AI CẢ** → `#3`: *Chỉ làm cho lần sụp đổ ấy đến muộn hơn, và tàn khốc hơn* | — |  |  |
+RAW: | 5-28 | `5.10#4` | H | T1 | `t2_podcast_desk` | **NGƯỜI DUY NHẤT GIỮ BÍ MẬT** · *Chính người đàn ông ấy* | — |  |  |
+RAW: | 5-29 | `5.10#5`–`#6` | H | T8 | `t2_folder_tree` | **CHIẾN LỢI PHẨM CỦA HẮN** → `#5`: *Những tập ảnh được sắp xếp tỉ mỉ* → `#6`: *Những món đồ được cất giấu cẩn thận* | Mỗi câu một mục |  |  |
+RAW: | 5-30 | `5.10#7` | H | T1 | `t2_escalation_stairs` | **MỘT CUỘC ĐẤU TRÍ KÉO DÀI MƯỜI TIẾNG** · *Chiếc mặt nạ danh dự không thể hàn gắn* | — |  |  |
+RAW: | 5-31 | `5.10#8` | H | T1 `hero` | `t2_oath_hall` | **BÀI HỌC LỚN NHẤT KHÔNG PHẢI LÀ SỢ HÃI** · *Mà là sự tỉnh thức để nhận diện và bảo vệ ranh giới an toàn* | Tiêu đề ở "tỉnh thức" | ⊘ |  |
+RAW: | 5-32 | `5.11` (nghỉ 1,5 s) | — | — | giữ 5-24 | — | — |  |  |
+RAW: | 5-33 | `5.12#1`–`#2` | H | T1 | `t2_podcast_desk` | **CẢM ƠN CÁC KHÁCH MỜI** · *Nhân vật minh hoạ · giọng đọc AI* | 5 ảnh P0 sáng lần lượt | dàn khách mời |  |
+RAW: | 5-34 | `5.12#3` | H | T1 | `t2_podcast_desk` | **GIỮ MỘT CÁI NHÌN TỈNH TÁO** · *Lắng nghe trực giác · Trân trọng sự bình yên của cuộc sống* | — |  |  |
+RAW: | 5-35 | `5.12#4` | H | T10 | `t2_podcast_desk` mờ | **HẸN GẶP LẠI Ở TẬP TIẾP THEO** · *Để lại góc nhìn của bạn ở phần bình luận* | — | 🅑 |  |
+RAW: | 5-36 | `5.13`–`5.14` | — | T2 | `t2_podcast_desk`, bìa hồ sơ gập (Pillow), cassette dừng | *HỒ SƠ TẬP 02 · ĐÃ ĐÓNG* · **AMBER EYES** · *Phân tích tâm lý tội phạm* · *qua những hồ sơ có thật* | Thẻ hồ sơ hiện sau tiếng "Cạch"; mờ ra đen | ⊘ | ◼ |
+RAW: 
+RAW: **Tổng: 161 dòng = 144 shot có lời + 17 dòng không lời.** Phủ 203/203 câu, đúng thứ tự, cột Vai khớp người nói, mọi nền có file, mọi câu trích nguyên văn (kiểm bằng `.work/_qc_tap02_shots.py`, 05/11/2026). Các số `01`–`04`, `02` trên hình là nhãn thứ tự (giống *TẦNG 01*, cờ *01* của Tập 01), không phải dữ kiện.
+====================================================================================================
+
+### 1-00 | COT-CAU: `1.01`–`1.02` (20,5 s → lời đầu ≈ 23,0 s)
+  VN CHU : *HỒI 01 · SỰ TƯƠNG PHẢN CỰC ĐẠI PHÍA SAU QUÂN HÀM ĐẠI TÁ*
+  VN BEAT: Tiếng phản lực tụt thành drone; kim đồng hồ
+
+### 1-01 | COT-CAU: `1.03#1`–`#2`
+  VN CHU : **07 · 2009** · *Căn cứ Không quân Trenton — căn cứ không quân lớn nhất của quân đội Canada*
+  VN BEAT: Gõ từng ký tự
+  KO 1.03#1: 2009년 7월.
+  KO 1.03#2: Canada 군 최대의 전략 공군 기지인 Trenton 공군 기지에서.
+
+### 1-02 | COT-CAU: `1.03#3`
+  VN CHU : **LỄ NHẬM CHỨC** · *Trước các quan chức cấp cao trong quân đội*
+  VN BEAT: —
+  KO 1.03#3: 군 최고위 관료들이 엄숙히 지켜보는 가운데 부대장 이취임식이 거행되었습니다.
+
+### 1-03 | COT-CAU: `1.03#4`
+  VN CHU : *NHẬN QUYỀN CHỈ HUY TỐI CAO* · **ĐẠI TÁ DAVID RUSSELL WILLIAMS** · *Một bản lý lịch hoàn hảo*
+  VN BEAT: Dấu mộc ở "hoàn hảo"
+  KO 1.03#4: 최고 지휘권을 넘겨받기 위해 연단에 오른 인물은 대령 David Russell Williams – 단 하나의 오점조차 찾아볼 수 없을 만큼 완벽한 경력을 지닌 베테랑 파일럿이었습니다.
+
+### 1-04 | COT-CAU: `1.04` (nghỉ 1,5 s)
+  VN CHU : —
+  VN BEAT: —
+
+### 1-05 | COT-CAU: `1.05#1`
+  VN CHU : **46 TUỔI** · *Lái chuyên cơ đưa đón Nữ hoàng Anh Elizabeth II, Hoàng thân Philip và các Thủ tướng Canada*
+  VN BEAT: Số đếm
+  KO 1.05#1: 그 46세의 남성은 영국 여왕 Elizabeth II와 Philip 공, 그리고 Canada 총리들의 전용기를 직접 조종했던 화려한 이력을 가지고 있었습니다.
+
+### 1-06 | COT-CAU: `1.05#2`
+  VN CHU : *Biểu tượng của kỷ luật thép · Một người chồng mẫu mực · Vợ: lãnh đạo tại Quỹ Tim mạch và Đột quỵ Canada ở Ottawa*
+  VN BEAT: Mỗi mục ở cụm từ
+  KO 1.05#2: 그는 철의 규율을 상징하는 표상으로 칭송받았으며, 수도 Ottawa에 위치한 Canada 심장 및 뇌졸중 재단의 고위 간부로 일하는 아내를 둔 모범적인 남편으로도 널리 알려져 있었습니다.
+
+### 1-07 | COT-CAU: `1.05#3`
+  VN CHU : *CON LỘ ANH HÙNG* · **NƠI ĐÓN LINH CỮU LIỆT SĨ** · *Từ chiến trường Afghanistan về*
+  VN BEAT: Dấu mộc ở "linh cữu"
+  KO 1.05#3: Trenton 기지는 단순한 군사 기지를 넘어, Afghanistan 전장에서 전사한 Canada 장병들의 유해를 “영웅의 고속도로”를 따라 엄숙히 맞이하던 성스러운 장소였습니다.
+
+### 1-08 | COT-CAU: `1.05#4`
+  VN CHU : **NGƯỜI ĐỨNG ĐẦU NGHI LỄ THIÊNG LIÊNG** · *Chính là Williams*
+  VN BEAT: Tiêu đề ở "thiêng liêng"
+  KO 1.05#4: 그 엄숙한 추모 의식을 주관하던 최고 책임자가 바로 Williams 자신이었습니다.
+
+### 1-09 | COT-CAU: `1.05#5`
+  VN CHU : *HÃY HÌNH DUNG:* **NHỮNG NGƯỜI TỪNG PHỤC VỤ DƯỚI QUYỀN ÔNG**
+  VN BEAT: —
+  KO 1.05#5: 그를 향한 존경과 신뢰가 얼마나 절대적이었는지, 당시 그의 지휘 아래 복무했던 대원들의 감정을 상상해 보십시오.
+
+### 1-10 | COT-CAU: `1.07#1`
+  VN CHU : “…hiện thân của sự chuẩn mực tuyệt đối.”
+  VN BEAT: —
+  KO 1.07#1: Trenton 기지에서 복무하던 저희 모두의 눈에 Williams 대령은 절대적인 완벽함 그 자체였습니다.
+
+### 1-11 | COT-CAU: `1.07#2`
+  VN CHU : *Điềm tĩnh · Chuẩn mực đến từng nếp gấp quân phục · Chưa từng to tiếng*
+  VN BEAT: Mỗi mục ở cụm từ
+  KO 1.07#2: 그는 항상 침착했고, 군복 주름 하나 흐트러짐 없이 정돈되었으며, 지치지 않고 헌신했고 부하에게 단 한 번도 언성을 높이지 않았습니다.
+
+### 1-12 | COT-CAU: `1.07#3`–`#4`
+  VN CHU : “…một người đàn ông mà ban đêm lại là một kẻ săn mồi nguy hiểm nhất.”
+  VN BEAT: —
+  KO 1.07#3: 하지만 모든 진실이 폭로되었을 때, 온 나라가 경악에 휩싸였고 저희는 등골이 오싹해졌습니다.
+  KO 1.07#4: 우리가 부동자세로 경례를 올리며 진심으로 존경했던 사람이, 밤이 되면 가장 흉악한 포식자로 돌변하는 괴물이었다니 말입니다.
+
+### 1-13 | COT-CAU: `1.08#1`
+  VN CHU : **NHỮNG ĐÊM KHUYA THANH VẮNG** · *Biến mất vào bóng tối của những thị trấn ngoại ô*
+  VN BEAT: Tiêu đề ở "đêm khuya"
+  KO 1.08#1: 하지만 명예로운 훈장들로 가득 찬 제복을 입은 그 남자가, 부대를 벗어난 야심한 시각에 외곽 소도시의 어둠 속으로 사라지곤 했다는 사실을 누가 상상이나 할 수 있었겠습니까.
+
+### 1-14 | COT-CAU: `1.08#2`–`#3`
+  VN CHU : *Không còn một vị đại tá oai phong* → `#3`: **CHỈ CÒN MỘT BÓNG ĐEN RÌNH RẬP**
+  VN BEAT: Tiêu đề ở "bóng đen"
+  KO 1.08#2: 그곳에 더 이상 위풍당당한 대령의 모습은 없었습니다.
+  KO 1.08#3: 눈 덮인 울타리를 소리 없이 넘어가는 음침한 스토커의 그림자만이 있었을 뿐입니다.
+
+### 1-15 | COT-CAU: `1.08#4`
+  VN CHU : **HIỆU ỨNG HÀO QUANG** · *Một tấm khiên vô hình khiến cả xã hội lẫn cơ quan thực thi pháp luật bị che mắt suốt nhiều năm ròng*
+  VN BEAT: Tiêu đề ở "Hào quang"
+  KO 1.08#4: 이러한 절대적인 사회적 위상은 치명적인 “후광 효과”를 만들어내어, 누구도 그를 의심하지 못하도록 대중의 경계심을 완전히 마비시켰습니다.
+
+### 1-16 | COT-CAU: `1.09` (nghỉ 2 s)
+  VN CHU : —
+  VN BEAT: —
+
+### 1-17 | COT-CAU: `1.10#1`
+  VN CHU : **28 · 01 · 2010**
+  VN BEAT: Gõ từng ký tự
+  KO 1.10#1: 2010년 1월 28일 밤.
+
+### 1-18 | COT-CAU: `1.10#2`–`#3`
+  VN CHU : *JESSICA LLOYD · 27 TUỔI · BELLEVILLE* · **BIẾN MẤT KHỎI NHÀ RIÊNG** → `#3`: *Cảnh sát tỉnh Ontario mở hồ sơ điều tra · Một cuộc tìm kiếm quy mô lớn*
+  VN BEAT: Dấu mộc ở "mở hồ sơ"
+  KO 1.10#2: Belleville 시에 거주하던 독립적이고 따뜻한 성품의 27세 여성 직장인 Jessica Lloyd가 자택에서 흔적도 없이 사라졌습니다.
+  KO 1.10#3: Ontario 주 경찰은 전례 없는 대대적인 수색 작전을 개시했고, 지역 사회는 극심한 집단적 불안에 휩싸였습니다, 여성들은 방문 뒤에 의자를 괴어놓았고, 얼어붙은 겨울밤 주민들은 서로를 의심 어린 눈초리로 바라보았습니다.
+
+### 1-19 | COT-CAU: `1.12#1`
+  VN CHU : **KHÔNG TÌM RA MANH MỐI NÀO** · *Cảnh sát trong những ngày đầu tiên*
+  VN BEAT: Gió, bước chân (SFX `1.11`) ở đầu
+  KO 1.12#1: 경찰은 실종 초기 며칠 동안 아무런 단서도 발견하지 못했습니다.
+
+### 1-20 | COT-CAU: `1.12#2`
+  VN CHU : **TỐI 4 THÁNG 2** · *Trạm kiểm soát lưu động · Gần nhà nạn nhân · Suốt đêm*
+  VN BEAT: 2 ghim không nhãn, đường tự vẽ
+  KO 1.12#2: 그러나 일주일 뒤인 2월 4일 저녁, 피해자 집 근처 도로에 임시 검문소가 설치되어 밤샘 검문이 시작되었습니다.
+
+### 1-21 | COT-CAU: `1.12#3`
+  VN CHU : *Mục tiêu duy nhất của trạm* → `#3`: **MỘT VỆT VÂN LỐP XE ĐỊA HÌNH HIẾM GẶP**
+  VN BEAT: Tiêu đề ở "vân lốp"
+  KO 1.12#3: 그 검문소의 유일한 목적은 특정한 흔적 하나를 추적하는 것이었습니다, Jessica Lloyd의 집 주변 눈밭에 선명히 찍혀 있던 희귀한 오프로드 타이어 자국이었습니다.
+
+### 1-22 | COT-CAU: `1.14#1`–`#2`
+  VN CHU : **NISSAN PATHFINDER** → `#2`: *Thay vì chiếc BMW mà ông ta vẫn thường đi*
+  VN BEAT: Gõ kính (SFX `1.13`) ở đầu
+  KO 1.14#1: 그날 밤 검문소를 통과하던 차량들 중에 Nissan Pathfinder 한 대가 있었습니다.
+  KO 1.14#2: 그날 차량 소유자는 평소 타던 BMW 대신 특이하게도 Pathfinder를 운전하고 있었습니다.
+
+### 1-23 | COT-CAU: `1.14#3`
+  VN CHU : **CHỈ HUY TRƯỞNG CĂN CỨ KHÔNG QUÂN TRENTON**
+  VN BEAT: Tiêu đề ở "chính là"
+  KO 1.14#3: 운전석 창문을 내린 인물은 바로 Trenton 공군 기지의 최고 사령관이었습니다.
+
+### 1-24 | COT-CAU: `1.14#4`–`#5`
+  VN CHU : **VÂN LỐP RẤT GIỐNG DẤU VẾT TRÊN TUYẾT** → `#5`: *Không giữ được một sĩ quan cấp cao đĩnh đạc*
+  VN BEAT: —
+  KO 1.14#4: 그의 차량 타이어 트레드 패턴은 눈밭 위의 흔적과 놀라울 정도로 유사했습니다.
+  KO 1.14#5: 하지만 당당한 고급 장교 앞에서 순찰관들은 감히 그를 붙잡아두지 못했고, 인적 사항만 기록한 뒤 정중히 경례를 올리며 통과시켰습니다.
+
+### 1-25 | COT-CAU: `1.14#6`
+  VN CHU : **VẪN LÀ MỘT VỊ ĐẠI TÁ TỰ DO** · *Trong ba ngày tiếp theo*
+  VN BEAT: —
+  KO 1.14#6: 그리고 그 후 3일 동안, 그는 여전히 자유로운 대령으로 거리를 활보했습니다.
+
+### 1-26 | COT-CAU: `1.14#7`
+  VN CHU : *LẮNG NGHE:* **ĐIỀU TRA VIÊN TÁI HIỆN BA NGÀY ĐÓ**
+  VN BEAT: Cửa sắt "Rầm" (SFX `1.15`) sau câu
+  KO 1.14#7: 그 긴박했던 사흘 동안 물밑에서 무슨 일이 벌어졌는지, 수사관의 기록을 통해 들어보겠습니다.
+
+### 1-27 | COT-CAU: `1.17#1`
+  VN CHU : *GẦN NHÀ NẠN NHÂN* · **HOA VĂN LỐP XE ĐỊA HÌNH KUMHO** · *Một dấu giày đi tuyết cỡ lớn*
+  VN BEAT: Dấu mộc ở "dấu giày"
+  KO 1.17#1: 새로 내린 눈 위에는 대단히 특이한 타이어 자국이 남아 있었습니다, 보기 드문 Kumho 오프로드 타이어 패턴과 커다란 방한 부츠 발자국이었습니다.
+
+### 1-28 | COT-CAU: `1.17#2`–`#3`
+  VN CHU : *Một cuộc dừng xe ngẫu nhiên* → `#3`: **SỰ TƯƠNG ĐỒNG ĐẾN KINH NGẠC**
+  VN BEAT: Vệt sáng đèn pin ở "rọi xuống bánh xe"
+  KO 1.17#2: 순찰대가 Russell Williams 대령의 Nissan Pathfinder를 세웠을 때, 겉으로는 일상적인 교통 검문처럼 보였습니다.
+  KO 1.17#3: 하지만 손전등 불빛이 타이어를 비춘 순간 충격적인 일치점이 기록되었고, 즉시 합동 작전 본부로 보고되었습니다.
+
+### 1-29 | COT-CAU: `1.17#4`
+  VN CHU : *Thế giới ngầm của Đại tá Russell Williams* · **CHẠM VÀO** · *Thế giới của cơ quan điều tra*
+  VN BEAT: Cột phải ở "cơ quan điều tra"
+  KO 1.17#4: 그것은 Russell Williams 대령의 어두운 세계가 경찰의 수사망과 처음으로 정면 충돌한 순간이었습니다.
+
+### 1-30 | COT-CAU: `1.17#5`
+  VN CHU : *Ba ngày đêm · Đối chiếu dấu lốp · Rà soát lịch trình di chuyển* → **LỆNH KHÁM XÉT KHẨN CẤP** · *Ottawa · Tweed*
+  VN BEAT: Mỗi cụm từ một mốc
+  KO 1.17#5: 이후 사흘 동안 수사관들은 밤낮없이 은밀히 움직였습니다, 타이어 흔적 대조, 이동 경로 분석, 그리고 Ottawa의 자택과 Tweed의 별장 두 곳에 대한 긴급 압수수색 영장 준비였습니다.
+
+### 1-31 | COT-CAU: `1.17#6`
+  VN CHU : *Thay vì tung quân vây bắt ồn ào* · **MỘT CUỘC GỌI LỊCH SỰ** · *Mời đến trụ sở cảnh sát tỉnh*
+  VN BEAT: Tiêu đề ở "cuộc gọi"
+  KO 1.17#6: 그리고 요란한 공개 체포 작전 대신, Russell Williams 대령에게 정중한 전화 한 통이 걸려왔습니다, 용의선상에서 배제해 줄 수 있도록 주 경찰 본부로 방문해 달라는 요청이었습니다.
+
+### 1-32 | COT-CAU: `1.18#1`
+  VN CHU : **HỒ SƠ PHÂN TÍCH TÂM LÝ HỌC TỘI PHẠM**
+  VN BEAT: —
+  KO 1.18#1: 범죄심리 프로파일링 파일에 오신 것을 환영합니다.
+
+### 1-33 | COT-CAU: `1.18#2`
+  VN CHU : *HỒ SƠ* · **ĐẠI TÁ RUSSELL WILLIAMS**
+  VN BEAT: Dấu mộc ở "Hồ sơ Đại tá"
+  KO 1.18#2: 오늘 우리가 마주할 사건은 범죄심리학 역사상 가장 기괴하고 충격적인 기록 – 대령 Russell Williams 사건 파일입니다.
+
+### 1-34 | COT-CAU: `1.18#3`
+  VN CHU : **QUY LUẬT LEO THANG HÀNH VI** · **SỰ PHÂN MẢNH TÂM TRÍ** → *TẬP 02 · ĐẠI TÁ HAI MẶT*
+  VN BEAT: Mỗi thuật ngữ ở cụm từ; tên tập cuối câu
+  KO 1.18#3: 이번 회차에서는 인간 심리의 가장 어두운 두 가지 기제, "행동 에스컬레이션의 법칙(Behavioral Escalation)"과 "정신적 분할(Compartmentalization)"을 깊이 있게 해부하여, 어떻게 엘리트의 두뇌가 군복의 명예 뒤에서 두 개의 삶을 살아갈 수 있었는지 그 심연을 추적합니다.
+
+### 1-35 | COT-CAU: nghỉ chuyển hồi (2 s)
+  VN CHU : *HỒI 02* · **4 BẬC THANG CỦA VỰC THẲM**
+  VN BEAT: —
+
+### 2-01 | COT-CAU: `2.02#1`
+  VN CHU : **MỘT VỤ ÁN ĐƠN LẺ** · *Cảnh sát tỉnh Ontario đối mặt với vụ biến mất*
+  VN BEAT: —
+  KO 2.02#1: Jessica Lloyd가 눈 덮인 겨울밤에 실종되었을 때, Ontario 주 경찰은 이것이 결코 단순한 단발성 사건이 아님을 직감했습니다.
+
+### 2-02 | COT-CAU: `2.02#2`
+  VN CHU : **MỘT BỨC TRANH GHÊ RỢN LỘ DIỆN** · *Tweed · Belleville*
+  VN BEAT: —
+  KO 2.02#2: 현장의 단서들과 Tweed 및 Belleville 일대에서 발생했던 미제 사건들을 연결해 나가자, 소름 끼치는 전모가 서서히 모습을 드러내기 시작했습니다.
+
+### 2-03 | COT-CAU: `2.04#1`
+  VN CHU : **KẺ BẮT CÓC KHÔNG XUẤT HIỆN TỪ HƯ KHÔNG**
+  VN BEAT: Lật hồ sơ (SFX `2.03`) ở đầu
+  KO 2.04#1: 납치범은 결코 하루아침에 갑자기 나타난 존재가 아니었습니다.
+
+### 2-04 | COT-CAU: `2.04#2`
+  VN CHU : *Âm thầm hoàn thiện kỹ năng săn mồi* · **BÓNG MA TRONG BÓNG TỐI**
+  VN BEAT: —
+  KO 2.04#2: 그는 수년에 걸쳐 어둠 속에서 사냥의 기술을 정밀하게 다듬어 온 그림자였습니다.
+
+### 2-05 | COT-CAU: `2.04#3`
+  VN CHU : *Đỉnh chóp của một tảng băng chìm* · **4 NẤC THANG LEO THANG HÀNH VI**
+  VN BEAT: —
+  KO 2.04#3: Jessica Lloyd 사건은 거대한 빙산의 일각에 불과했습니다, 수년에 걸쳐 치밀하게 밟아 올라간 "행동 에스컬레이션의 4단계 사다리"의 정점이었던 것입니다.
+
+### 2-06 | COT-CAU: `2.04#4`
+  VN CHU : *LẮNG NGHE:* **ĐIỀU TRA VIÊN PHÂN TÍCH PHƯƠNG THỨC HOẠT ĐỘNG**
+  VN BEAT: —
+  KO 2.04#4: 범인의 구체적인 범행 수법에 대해 수사관의 분석을 들어보겠습니다.
+
+### 2-07 | COT-CAU: `2.05#1`
+  VN CHU : **4 GIAI ĐOẠN LEO THANG** · *Dữ liệu số và chứng cứ thu giữ*
+  VN BEAT: Bộ đếm `0/4`, 4 thẻ trống ghim lên
+  KO 2.05#1: 디지털 증거와 압수된 물적 증거를 바탕으로, 저희는 Russell Williams의 타락의 궤적을 4단계의 명확한 에스컬레이션 과정으로 재구성했습니다.
+
+### 2-08 | COT-CAU: `2.05#2`–`#3`
+  VN CHU : *NẤC 01* · **NHÌN TRỘM** → `#3`: *Lảng vảng ban đêm trong các khu dân cư vắng*
+  VN BEAT: —
+  KO 2.05#2: 첫 번째 단계: 심야의 관음 행위.
+  KO 2.05#3: 초기에 Williams는 인적이 드문 심야의 주택가를 배회하며 어둠 속에 숨어 창문을 통해 여성들을 훔쳐보기 시작했습니다.
+
+### 2-09 | COT-CAU: `2.05#4`–`#6`
+  VN CHU : *NẤC 02* · **ĐỘT NHẬP LẤY ĐỒ RIÊNG TƯ** → `#6`: *Những vụ trộm đầu tiên cảnh sát lần ra: 2006*
+  VN BEAT: —
+  KO 2.05#4: 두 번째 단계: 빈집 침입과 사적 물품 절취.
+  KO 2.05#5: 창밖에서 훔쳐보는 것만으로 더 이상 만족할 수 없게 되자, 그는 빈집에 몰래 침입하기 시작했습니다.
+  KO 2.05#6: 경찰이 추적해 밝혀낸 최초의 침입 범행은 2006년으로 거슬러 올라갑니다.
+
+### 2-10 | COT-CAU: `2.05#7`
+  VN CHU : *09 · 2007 – 11 · 2009* · **82** · *Vụ đột nhập và đột nhập bất thành*
+  VN BEAT: Số đếm 0 → 82
+  KO 2.05#7: 그는 2007년 9월부터 2009년 11월까지 총 82건에 달하는 주거 침입 및 미수 범행을 저질렀습니다.
+
+### 2-11 | COT-CAU: `2.05#8`–`#9`
+  VN CHU : *Tiền bạc · Trang sức* → `#9`: **ĐỒ RIÊNG TƯ CỦA PHỤ NỮ**
+  VN BEAT: Gạch ở "không lấy"
+  KO 2.05#8: 그는 돈이나 값비싼 귀금속에는 전혀 손을 대지 않았습니다.
+  KO 2.05#9: 그가 훔쳐간 것은 여성들의 속옷과 지극히 은밀한 사적 의류였습니다.
+
+### 2-12 | COT-CAU: `2.05#10`
+  VN CHU : *NGHI THỨC LẶP LẠI Y HỆT* · *Chụp ảnh · Lấy đồ · Ghi chép lại*
+  VN BEAT: Mỗi mục ở cụm từ
+  KO 2.05#10: 그의 의식은 모든 집에서 똑같이 반복되었습니다, 사진을 찍고, 물건을 챙기고, 꼼꼼하게 기록을 남기는 것이었습니다.
+
+### 2-13 | COT-CAU: `2.05#11`–`#13`
+  VN CHU : *NẤC 03* · **XÂM NHẬP KHI CÓ NGƯỜI Ở NHÀ** → `#12`: *09 · 2009 · Ngưỡng kích thích tiếp tục bị lờn* → `#13`: *Hai người phụ nữ · Quanh thị trấn Tweed*
+  VN BEAT: —
+  KO 2.05#11: 세 번째 단계: 거주자 재택 시 침입과 제압.
+  KO 2.05#12: 이후 2009년 9월, 자극에 대한 역치는 계속해서 무감각해졌습니다.
+  KO 2.05#13: 그는 Tweed 마을 주변에서 거주자가 집에 머물고 있던 두 여성의 집에 침입하여 피해자들을 결박하고 성폭행을 저질렀습니다.
+
+### 2-14 | COT-CAU: `2.05#14`–`#16`
+  VN CHU : *NẤC 04* · **CÁI CHẾT** → `#15`: *Cuối tháng 11 · 2009 · Marie-France Comeau · Hạ sĩ · 37 tuổi · Phi đoàn 437* → `#16`: *Hai tháng sau · Jessica Lloyd*
+  VN BEAT: Chỉ chữ, không hình người
+  KO 2.05#14: 그리고 마지막 단계: 피해자의 생명 박탈.
+  KO 2.05#15: 결국 2009년 11월 말, 그는 자신이 최고 지휘관으로 재직하던 바로 그 군 기지에서 근무하던 제437비행대 소속의 성실한 37세 하사 Marie-France Comeau를 살해했습니다.
+  KO 2.05#16: 그리고 불과 두 달 뒤, 다음 희생자는 Jessica Lloyd였습니다.
+
+### 2-15 | COT-CAU: `2.06` (nghỉ 1,5 s)
+  VN CHU : —
+  VN BEAT: —
+
+### 2-16 | COT-CAU: `2.07#1`
+  VN CHU : **ĐỘNG LỰC BẤT ĐỐI XỨNG** · *Quyền lực tàn nhẫn của kẻ săn mồi*
+  VN BEAT: —
+  KO 2.07#1: 비극적인 두 피해자의 신원을 살펴보면, 포식자의 잔혹한 권력 비대칭 동학이 뚜렷하게 드러납니다.
+
+### 2-17 | COT-CAU: `2.07#2`–`#3`
+  VN CHU : *Hạ sĩ Marie-France Comeau · Cấp dưới phục vụ trong căn cứ* → `#3`: *Jessica Lloyd · Cô gái trẻ độc thân sống trong căn nhà riêng*
+  VN BEAT: Cột phải ở "Jessica Lloyd"
+  KO 2.07#2: Marie-France Comeau 하사는 그 자신의 군 기지 내에서 복무하던 부하 군인이었으며, 지휘관을 절대적으로 신뢰하던 병사였습니다.
+  KO 2.07#3: 반면 Jessica Lloyd는 외딴 단독주택에 거주하던 젊은 미혼 여성이었습니다.
+
+### 2-18 | COT-CAU: `2.07#4`–`#6`
+  VN CHU : *Cả hai đều bị tước đoạt mạng sống* → `#5`: **BẢN NĂNG SĂN MỒI LỆCH LẠC + KỶ LUẬT QUÂN SỰ** → `#6`: *Chụp ảnh mọi thứ, ghi chép lại từng lần đột nhập*
+  VN BEAT: —
+  KO 2.07#4: 두 사람 모두 고립된 환경과 제도적 권력을 철저하게 악용한 자에 의해 생명을 빼앗겼습니다.
+  KO 2.07#5: 가장 소름 끼치는 점은 그의 왜곡된 포식 본능과 군대식 엄격한 규율의 결합이었습니다.
+  KO 2.07#6: 그는 정확한 순서를 반복하고 모든 것을 사진으로 남겼으며, 마치 군사 작전 보고서를 작성하듯 매번의 침입을 꼼꼼하게 기록했습니다.
+
+### 2-19 | COT-CAU: `2.07#7`
+  VN CHU : *LẮNG NGHE:* **ĐIỀU TRA VIÊN LÀM RÕ**
+  VN BEAT: —
+  KO 2.07#7: 그럼 수사관님, 범인의 범행 수법(Modus Operandi)과 심리적 시그니처(Signature)의 차이에 대해 구체적으로 설명해 주시겠습니까.
+
+### 2-20 | COT-CAU: `2.08#1`–`#3`
+  VN CHU : *Hai khái niệm phải phân biệt* → `#2`: **THỦ ĐOẠN GÂY ÁN** *(Modus Operandi)* → `#3`: *Điều chỉnh liên tục qua 82 vụ đột nhập*
+  VN BEAT: Thuật ngữ ở `#2`
+  KO 2.08#1: 수사 실무에서 저희는 두 가지 개념을 대단히 명확하게 구분합니다.
+  KO 2.08#2: Williams의 범행 수법(Modus Operandi)은 범죄를 완성하고 도주하기 위해 사용한 기능적 기술이었습니다, 집 안에 신발 자국을 남기지 않기 위해 양말만 신고 다니고, 장갑을 착용하고, 전화선을 차단하고, 타이어 자국을 지우기 위해 폭설이 내리는 밤을 골라 범행을 저질렀습니다.
+  KO 2.08#3: 이러한 수법은 82건의 침입 범행을 거치며 끊임없이 수정되고 발전했습니다.
+
+### 2-21 | COT-CAU: `2.08#4`
+  VN CHU : *TÂM LÝ HỌC* · **DẤU ẤN TÂM LÝ** *(Signature)*
+  VN BEAT: Thuật ngữ ở `#4`
+  KO 2.08#4: 그러나 결코 변하지 않는 심리적 시그니처(Signature)는 바로 전리품(Trophies)의 수집과 병적인 의식 행위의 집착이었습니다.
+
+### 2-22 | COT-CAU: `2.08#5`–`#7`
+  VN CHU : **HẮN KHÔNG LẤY ĐỒ ĐỂ BÁN** → `#6`: *Mặc đồ nạn nhân · Chụp ảnh tự sướng trước gương* → `#7`: *Thứ hắn cần để duy trì hưng phấn tâm lý*
+  VN BEAT: —
+  KO 2.08#5: 그는 물건을 내다 팔기 위해 훔친 것이 아니었습니다.
+  KO 2.08#6: 그는 피해자의 옷을 입고 침실 거울 앞에 서서 차갑고 무표정한 얼굴로 셀카를 찍은 뒤, 이를 체계적으로 분류해 보관했습니다.
+  KO 2.08#7: 그것이야말로 혼자 있을 때 심리적 흥분을 유지하고 망상의 중독을 유지하기 위해 그에게 반드시 필요했던 핵심이었습니다.
+
+### 2-23 | COT-CAU: `2.08#8`
+  VN CHU : **DẤU VẾT LỐP XE DẪN CẢNH SÁT TỚI HẮN**
+  VN BEAT: —
+  KO 2.08#8: 눈 위의 타이어 자국은 경찰을 그에게로 다가가게 만들었습니다.
+
+### 2-24 | COT-CAU: `2.08#9`
+  VN CHU : **CHIẾC CHÌA KHÓA DUY NHẤT** · *Kho dữ liệu bí mật bóc trần hoàn toàn bề mặt thật của vị đại tá*
+  VN BEAT: —
+  KO 2.08#9: 그러나 그 심리적 시그니처가 담긴 비밀 디지털 보관소야말로 대령의 가면을 완전히 벗겨낸 단 하나의 결정적인 열쇠였습니다.
+
+### 2-25 | COT-CAU: nghỉ chuyển hồi (2 s)
+  VN CHU : *HỒI 03* · **BÊN TRONG BỘ NÃO CỦA SÁT NHÂN HAI MẶT**
+  VN BEAT: —
+
+### 3-01 | COT-CAU: `3.02#1`
+  VN CHU : **MỘT CÂU HỎI HÓC BÚA ĐẾN RỢN NGƯỜI**
+  VN BEAT: —
+  KO 3.02#1: Russell Williams의 사건 파일을 마주할 때, 우리 누구나 영혼이 서늘해지는 질문 하나를 던지지 않을 수 없습니다.
+
+### 3-02 | COT-CAU: `3.02#2`
+  VN CHU : *Địa vị · Danh vọng · Một người vợ tài năng · Sự kính trọng của cả một quốc gia* → **TẠI SAO ĐÁNH CƯỢC TẤT CẢ?**
+  VN BEAT: Mỗi mục ở cụm từ; tiêu đề ở "đánh cược"
+  KO 3.02#2: 사회적 지위, 명성, 뛰어난 아내, 온 국민의 존경까지 – 모든 것을 다 가졌던 한 남자가, 왜 여성의 속옷과 잔혹한 폭력을 위해 자신의 모든 것을 내던졌을까요.
+
+### 3-03 | COT-CAU: `3.03` (nghỉ 2 s)
+  VN CHU : —
+  VN BEAT: —
+
+### 3-04 | COT-CAU: `3.04#1`
+  VN CHU : *TRƯỚC KHI PHÂN TÍCH* · **KHÔNG TỒN TẠI MỘT CHẨN ĐOÁN LÂM SÀNG CÔNG KHAI NÀO** · *Về Russell Williams*
+  VN BEAT: —
+  KO 3.04#1: 분석에 들어가기에 앞서, 한 가지 사실을 명확히 해두어야 합니다, Russell Williams에 대해 공개된 공식적인 임상 정신과 진단은 전혀 존재하지 않습니다.
+
+### 3-05 | COT-CAU: `3.04#2`
+  VN CHU : **GIÚP TA ĐẶT CÂU HỎI ĐÚNG** · *Không phải một sự phán xét đã được cơ quan chuyên môn xác nhận*
+  VN BEAT: —
+  KO 3.04#2: 아래 제시되는 이론적 틀은 범죄심리학에서 널리 활용되는 분석 도구이며, 올바른 질문을 던지기 위한 시각일 뿐 확정된 진단이 아닙니다.
+
+### 3-06 | COT-CAU: `3.04#3`
+  VN CHU : *LẮNG NGHE:* **CHUYÊN GIA TÂM LÝ** → *Các tầng cơ chế vận hành bên trong bộ não*
+  VN BEAT: —
+  KO 3.04#3: 두 얼굴을 가진 이 대령의 뇌 속에서 작동했던 다층적인 심리 메커니즘을 심리학 전문가와 함께 파헤쳐 보겠습니다.
+
+### 3-07 | COT-CAU: `3.05#1`–`#3`
+  VN CHU : *Không phải một kẻ loạn thần mất trí* → `#2`: **HOÀN TOÀN TỈNH TÁO** → `#3`: **3 TẦNG CƠ CHẾ TÂM LÝ**
+  VN BEAT: 3 vòng sáng ở `#3`
+  KO 3.05#1: Russell Williams의 사례를 분석할 때, 우리는 그를 결코 심신상실이나 정신병 상태의 인물로 보아서는 안 됩니다.
+  KO 3.05#2: 오히려 Williams는 완전히 온전한 정신이었으며, 대단히 날카롭고 명석한 지능을 지니고 있었습니다.
+  KO 3.05#3: 그의 범죄 행위는 3단계의 극도로 위험한 심리 메커니즘을 통해 작동했습니다.
+
+### 3-08 | COT-CAU: `3.05#4`
+  VN CHU : *TẦNG 01* · **CHU KỲ ẢO TƯỞNG** · *Sự lờn Dopamine · Ngòi nổ điểm gãy*
+  VN BEAT: —
+  KO 3.05#4: 그 첫 번째 단계는 바로 망상의 주기, Dopamine 내성화, 그리고 심리적 폭발의 기폭제였습니다.
+
+### 3-09 | COT-CAU: `3.05#5`
+  VN CHU : **ĐẶC ĐIỂM THƯỜNG THẤY** · *Hành vi ban đầu của hắn*
+  VN BEAT: Tiêu đề ở "đặc điểm thường thấy"
+  KO 3.05#5: Williams의 초기 행동은 성애적 페티시즘 장애에서 흔히 관찰되는 전형적인 양상을 띠고 있었습니다.
+
+### 3-10 | COT-CAU: `3.05#6`
+  VN CHU : **DOPAMINE** · *Phấn khích và phần thưởng* → `#6`: *Cảm giác hưng phấn quyền lực tột độ*
+  VN BEAT: Nhịp nhấp nháy ở `#6`
+  KO 3.05#6: 처음으로 은밀하게 여성의 사적 물품을 훔쳐냈을 때, 발각의 공포와 금기를 깨뜨렸다는 감각이 결합하며 뇌 속에서 막대한 양의 Dopamine을 분비시켜 극도의 권력적 쾌감을 촉발했습니다.
+
+### 3-11 | COT-CAU: `3.05#7`
+  VN CHU : **CƠ CHẾ DUNG NẠP KÍCH THÍCH** · *Não bộ con người có cơ chế này*
+  VN BEAT: —
+  KO 3.05#7: 그러나 인간의 뇌는 자극에 대해 점차 적응하고 내성을 키우는 메커니즘을 가지고 있습니다.
+
+### 3-12 | COT-CAU: `3.05#8`–`#9`
+  VN CHU : **HÀNH VI CŨ TRỞ NÊN QUEN THUỘC** → `#9`: *Phải tăng liều lượng rủi ro để tìm lại khoái cảm ban đầu*
+  VN BEAT: —
+  KO 3.05#8: 기존의 일탈이 익숙해지자, 포식자는 “망상의 굶주림” 상태로 추락했습니다.
+  KO 3.05#9: 그는 최초의 쾌감을 되찾기 위해 위험의 수위를 점차 높여야만 했습니다: 창밖을 훔쳐보는 것에서 빈집 침입으로, 그리고 피해자가 잠들어 있는 방 안으로 침입해 직접 공격하는 선을 넘기에 이른 것입니다.
+
+### 3-13 | COT-CAU: `3.05#10`
+  VN CHU : *NGÒI NỔ TÂM LÝ* *(Precipitating Trigger)* · *Tháng 7 năm 2009 · Thăng cấp chỉ huy trưởng căn cứ Trenton*
+  VN BEAT: Tiêu đề ở "Ngòi nổ"
+  KO 3.05#10: 특히 2009년 7월 Williams가 Trenton 기지의 최고 사령관으로 취임한 사건은 심리적 기폭제(Precipitating Trigger) 역할을 했습니다: 절대적 권력에 대한 도취와 막중한 직무 스트레스가 결합하며 내면의 마지막 통제 장치를 무너뜨렸고, 그를 살인이라는 파멸의 심연 속으로 거침없이 밀어 넣었던 것입니다.
+
+### 3-14 | COT-CAU: `3.06` (nghỉ 1,5 s)
+  VN CHU : —
+  VN BEAT: —
+
+### 3-15 | COT-CAU: `3.07#1`
+  VN CHU : *BAN NGÀY* · *Điều hành hàng ngàn binh sĩ · Sống bên cạnh người vợ tài năng* → `#1`: *BAN ĐÊM* · **MỘT KẺ KHÁC HOÀN TOÀN** · *Không hề phát điên hay cắn rứt lương tâm*
+  VN BEAT: Cột phải ở "ban đêm"
+  KO 3.07#1: 하지만 대중이 가장 경악했던 지점은 따로 있습니다, 어떻게 그가 훌륭한 아내 곁에서 평온하게 생활하고 낮에는 수천 명의 장병을 통솔하면서, 밤이 되면 냉혈한 포식자로 변신하고도 미치지 않고 양심의 가책도 느끼지 않을 수 있었을까요.
+
+### 3-16 | COT-CAU: `3.08#1`–`#2`
+  VN CHU : *TẦNG 02* · **SỰ PHÂN MẢNH TÂM TRÍ TUYỆT ĐỐI** → `#2`: *(Compartmentalization)* · *Hệ thống tự bào chữa · Hai ngăn kéo hoàn toàn biệt lập*
+  VN BEAT: Thuật ngữ Anh ở `#2`
+  KO 3.08#1: 그 해답은 바로 두 번째 층위: 절대적인 정신적 분할(Compartmentalization)과 자기합리화 시스템에 있습니다.
+  KO 3.08#2: 심리학에서 Compartmentalization이란 양립할 수 없는 인지와 감정을 완전히 독립된 마음의 서랍 속에 격리하는 방어 기제를 의미합니다.
+
+### 3-17 | COT-CAU: `3.08#3`–`#5`
+  VN CHU : *Ngăn kéo 01* · **ĐẠI TÁ WILLIAMS** · *Mẫu mực · Chu đáo · Chuẩn mực đạo đức tại Ottawa* → `#5`: *Ngăn kéo 02* · **KẺ SĂN MỒI BÓNG ĐÊM** · *Giải phóng xung lực tàn bạo tại Tweed*
+  VN BEAT: Cột phải ở `#5`
+  KO 3.08#3: Williams는 한 몸 안에 완전히 분리된 두 개의 인격을 구축했던 것으로 보입니다.
+  KO 3.08#4: 첫 번째 서랍: Williams 대령 – Ottawa에서 정원을 정성스레 가꾸고, 군의 규율과 도덕적 이상에 헌신하는 모범적인 사령관이자 남편.
+  KO 3.08#5: 두 번째 서랍: 밤의 포식자 – Tweed에서 가장 끔찍한 가학적 충동을 마음껏 배출하는 어둠의 괴물.
+
+### 3-18 | COT-CAU: `3.08#6`–`#8`
+  VN CHU : **ĐÓNG CHẶT CÁNH CỬA CỦA NGĂN KÉO KIA** → `#7`: *Lá chắn bình thường hóa · Tự ru ngủ mình là người đàn ông danh giá* → `#8`: *Trung hòa đạo đức · 82 vụ trộm đầu tiên*
+  VN BEAT: Ngăn kéo đóng ở "đóng chặt"
+  KO 3.08#6: 한쪽 서랍에 머무를 때, 그는 다른 쪽 서랍의 문을 철저히 닫아걸었습니다.
+  KO 3.08#7: 그는 아내와의 품격 있는 결혼 생활을 “정상성의 방패”로 삼아 스스로를 기만했습니다.
+  KO 3.08#8: 양심의 가책을 완전히 차단하기 위해 그는 도덕적 중화 기술(Techniques of Neutralization)을 철저히 동원했습니다: 초기 82건의 침입에서는 “나는 단지 바라보기만 할 뿐 아무도 해치지 않는다, 기념품을 보관할 뿐이다”라고 스스로를 달랬습니다.
+
+### 3-19 | COT-CAU: `3.08#9`–`#10`
+  VN CHU : *Tự biện minh: nạn nhân đã thấy mặt mình* → `#10`: **HẮN KHÔNG THỂ TỰ GIẢI THÍCH**
+  VN BEAT: —
+  KO 3.08#9: 살인으로 치달았을 때조차 “피해자가 내 얼굴을 보았으니, 나를 지키기 위해 어쩔 수 없었다”라며 피해자에게 책임을 전가했습니다.
+  KO 3.08#10: 결국 그에게는 진정한 도덕적 설명 따위는 애초에 존재하지 않았습니다.
+
+### 3-20 | COT-CAU: `3.08#11`
+  VN CHU : “Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng.”
+  VN BEAT: Câu trích từng dòng từ dấu `:`
+  KO 3.08#11: 심문관이 왜 그런 짓을 저질렀는지 생각해 본 적이 있느냐고 물었을 때, 조서에 기록된 그의 대답은 섬뜩할 만큼 공허했습니다: “예, 하지만 답은 모르겠고, 답이 중요하다고 생각하지도 않습니다.”
+
+### 3-21 | COT-CAU: `3.08#12`–`#13`
+  VN CHU : **CÂU TRẢ LỜI TRƠ TRẼN NHẤT** → `#13`: *Cơ chế tự bào chữa đã ăn sâu vào tiềm thức của hắn*
+  VN BEAT: —
+  KO 3.08#12: 그것이야말로 냉혈한 포식자의 절대적인 도덕적 이탈을 여실히 보여주는 가장 파렴치한 대답이었습니다.
+  KO 3.08#13: 그리고 자기합리화의 기제가 그의 무의식에 얼마나 뿌리 깊게 박혀 있었는지를 분명히 증명합니다.
+
+### 3-22 | COT-CAU: `3.09` (nghỉ 2 s)
+  VN CHU : —
+  VN BEAT: —
+
+### 3-23 | COT-CAU: `3.10#1`–`#2`
+  VN CHU : **GÓC NHÌN CỦA HẮN VỚI NHỮNG NGƯỜI PHỤ NỮ** · *Tại sao lạnh lùng với chính cấp dưới?*
+  VN BEAT: —
+  KO 3.10#1: 또 하나의 고통스러운 질문이 남습니다, 어떻게 그토록 끔찍한 범죄를 저지르면서 아내와 가족 앞에서는 완벽하게 태연함을 유지할 수 있었을까요.
+  KO 3.10#2: 전문가님께서 악성 자기애자들에게 나타나는 심리적 구획화(Compartmentalization) 기제에 대해 분석해 주시겠습니까.
+
+### 3-24 | COT-CAU: `3.11#1`
+  VN CHU : *TẦNG 03* · **SỰ VẬT HÓA NẠN NHÂN** *(Objectification)* → *Ái kỷ ác tính*
+  VN BEAT: Thuật ngữ ở "vật hóa"
+  KO 3.11#1: 이것이 바로 전형적인 심리적 구획화(Compartmentalization) 메커니즘의 특성입니다.
+
+### 3-25 | COT-CAU: `3.11#2`
+  VN CHU : *TÂM LÝ HỌC* · **THUYẾT TÂM TRÍ** *(Theory of Mind)* · *Thiếu hụt năng lực thấu cảm cảm xúc*
+  VN BEAT: —
+  KO 3.11#2: Williams는 자신의 가족이나 아내를 자신의 왜곡된 어둠의 세계의 일부로 전혀 보지 않았습니다.
+
+### 3-26 | COT-CAU: `3.11#3`
+  VN CHU : **KHÔNG PHẢI NHỮNG CON NGƯỜI** · *Không có sinh mệnh, ước mơ hay nỗi đau*
+  VN BEAT: —
+  KO 3.11#3: 그에게 결혼 생활과 사회적 지위는 완벽한 공적 가면을 지켜내기 위한 단단한 갑옷이었습니다.
+
+### 3-27 | COT-CAU: `3.11#4`
+  VN CHU : **BỊ GIÁNG CẤP THÀNH ĐẠO CỤ SỐNG**
+  VN BEAT: Tiêu đề ở "giáng cấp"
+  KO 3.11#4: 그는 두 개의 세계를 철저하게 격리시켰습니다, 낮에는 모범적인 남편이자 훌륭한 군 지휘관이었고, 밤에는 어둠 속을 배회하는 병적인 포식자였습니다.
+
+### 3-28 | COT-CAU: `3.11#5`
+  VN CHU : **HƯNG PHẤN QUYỀN LỰC** · *Ảo tưởng tối thượng · Quyền sinh tử như một vị Chúa trời*
+  VN BEAT: —
+  KO 3.11#5: 그의 사고방식 속에서 이 두 인격은 결코 모순되지 않았습니다, 가족은 사회적 가면을 지탱해 주는 방패였고, 본능의 만족은 철저히 숨겨둔 "은밀한 개인적 영역"일 뿐이었습니다.
+
+### 3-29 | COT-CAU: `3.11#6`
+  VN CHU : “Ta kiểm soát các ngươi, và không ai có thể chạm tới ta.”
+  VN BEAT: Câu trích ở "Ta kiểm soát" (lời độc thoại tưởng tượng — dấu “” màu tím `violet` của Cáo, không phải lời thật)
+  KO 3.11#6: 그가 피해자들의 사진을 촬영한 것은 단순한 일시적 욕망 때문만이 아니라, 피해자들을 자신의 병적인 에고를 위한 “살아있는 소품”이자 영원한 전리품으로 변질시키기 위해서였습니다: 내가 너희를 지배하고 있으며, 그 누구도 내게 손댈 수 없다는 왜곡된 오만이었습니다.
+
+### 3-30 | COT-CAU: nghỉ chuyển hồi (2 s)
+  VN CHU : *HỒI 04* · **NGHỆ THUẬT BẺ GÃY BỘ ÓC QUÂN SỰ**
+  VN BEAT: —
+
+### 4-01 | COT-CAU: `4.03#1`–`#2`
+  VN CHU : **07 · 02 · 2010** · *Chủ nhật · Trụ sở cảnh sát tại Ottawa · 3 giờ chiều*
+  VN BEAT: Gõ từng ký tự; đèn huỳnh quang (SFX `4.01`)
+  KO 4.03#1: 2010년 2월 7일, 일요일.
+  KO 4.03#2: Ottawa에 위치한 주 경찰 본부, 정확히 오후 3시.
+
+### 4-02 | COT-CAU: `4.03#3`–`#4`
+  VN CHU : *Một bên bàn* · **ĐẠI TÁ RUSSELL WILLIAMS** · *Quần áo dân sự* → `#4`: *Đối diện* · **THÁM TỬ JIM SMYTH** · *Chuyên gia khoa học hành vi · Cảnh sát tỉnh Ontario*
+  VN BEAT: Cột phải ở `#4`; chỉ tên, không gắn lên bóng (V5)
+  KO 4.03#3: 비좁은 취조실 안, 테이블 한쪽에 사복 차림의 Russell Williams 대령이 앉아 있습니다.
+  KO 4.03#4: 그 맞은편에 앉은 인물은 Jim Smyth 형사였습니다, Ontario 주 경찰의 베테랑 행동과학 수사 전문가였습니다.
+
+### 4-03 | COT-CAU: `4.03#5`–`#6`
+  VN CHU : **TỰ NGUYỆN ĐẾN ĐÂY** · *Sau một cuộc gọi mời trao đổi* → `#6`: *Bình thản ngồi lại · Từ chối luật sư*
+  VN BEAT: —
+  KO 4.03#5: 대령은 참고인 면담 요청 전화를 받고 자발적으로 이곳에 걸어 들어왔습니다.
+  KO 4.03#6: 단 한 번도 실패해 본 적 없는 엘리트 특유의 오만함에 차서, 그는 변호인의 입회를 거절한 채 편안히 앉아 자신의 군사적 지능으로 맞은편 수사관을 손쉽게 속여넘길 수 있다고 확신했습니다.
+
+### 4-04 | COT-CAU: `4.04` (nghỉ 2 s)
+  VN CHU : —
+  VN BEAT: —
+
+### 4-05 | COT-CAU: `4.05#1`
+  VN CHU : *LẮNG NGHE:* **KÝ ỨC CỦA NGƯỜI DÂN** · *Tiếng lòng của những người từng sống trong bóng tối của Williams*
+  VN BEAT: —
+  KO 4.05#1: 닫힌 문 뒤에서 역사적인 심리전이 벌어지고 있던 바로 그 시각, Williams의 어두운 그림자 아래에서 살아가던 지역 주민들의 목소리에 귀를 기울여 보십시오.
+
+### 4-06 | COT-CAU: `4.06#1`–`#2`
+  VN CHU : “…thị trấn nhỏ Tweed của chúng tôi sống trong một nỗi bất an mơ hồ…”
+  VN BEAT: —
+  KO 4.06#1: 수년 동안 저희의 작은 Tweed 마을은 숨이 막힐 듯한 막연한 불안감 속에서 살아야 했습니다.
+  KO 4.06#2: 사적인 물건들이 이따금 흐트러져 있고 문에 뜯긴 흔적이 있었지만 돈이나 패물은 전혀 없어지지 않았습니다.
+
+### 4-07 | COT-CAU: `4.06#3`
+  VN CHU : “…Chúng tôi tưởng mình đang hoang tưởng… cho đến khi sự thật vỡ lở.”
+  VN BEAT: —
+  KO 4.06#3: 우리는 그저 스스로가 지나치게 예민한 탓이라고만 생각했습니다, 충격적인 진실이 드러나기 전까지는요.
+
+### 4-08 | COT-CAU: `4.06#4`
+  VN CHU : “…một kẻ đội lốt sĩ quan cấp cao đã đứng ngay trong phòng ngủ, nhìn chằm chằm vào bạn trong bóng tối.”
+  VN BEAT: —
+  KO 4.06#4: 그 깨달음은 어떤 공포 영화보다도 소름 끼쳤습니다, 자신이 깊은 잠에 빠져 있는 동안, 고급 장교의 탈을 쓴 악마 같은 남자가 바로 침실 안에 서서 어둠 속에서 자신을 가만히 내려다보고 있었다는 사실을 알게 되었을 때의 공포는 상상조차 할 수 없습니다.
+
+### 4-09 | COT-CAU: `4.07#1`–`#3`
+  VN CHU : **KỸ THUẬT THẨM VẤN TÂM LÝ** · *Thám tử Jim Smyth* → `#3`: *LẮNG NGHE:* **TỪNG NƯỚC CỜ**
+  VN BEAT: —
+  KO 4.07#1: 그 끔찍한 공포는 그 Nissan Pathfinder가 눈 덮인 겨울밤 검문소를 통과하던 그날까지 계속되었습니다.
+  KO 4.07#2: 하지만 노련한 군의 두뇌를 무너뜨리기 위해, Jim Smyth 수사관은 심리 심문의 정수라 할 만한 치밀한 덫을 놓았습니다.
+  KO 4.07#3: 취조실 안에서 벌어진 숨 막히는 두뇌 싸움을 수사관의 기록을 통해 다시 살펴보겠습니다.
+
+### 4-10 | COT-CAU: `4.08#1`–`#2`
+  VN CHU : **NGHỆ THUẬT XÂY DỰNG SỰ KẾT NỐI** *(Rapport Building)* → `#2`: *Giọng điệu phẳng lặng, tôn trọng · Dẫn dắt vào chiếc bẫy của sự tự phụ*
+  VN BEAT: —
+  KO 4.08#1: 취조 초반의 수 시간 동안 Jim Smyth 형사는 결코 언성을 높이거나 책상을 내리치며 위압감을 조성하지 않았습니다.
+  KO 4.08#2: 그는 차분하고 정중한 어조를 유지하며, Williams 스스로가 자신의 오만함이 판 함정 속으로 걸어 들어가도록 부드럽게 유도했습니다.
+
+### 4-11 | COT-CAU: `4.08#3`–`#4`
+  VN CHU : *SẴN SÀNG CUNG CẤP NHỮNG GÌ?* → `#4`: **ADN · VÂN TAY · DẤU GIÀY**
+  VN BEAT: —
+  KO 4.08#3: Smyth 형사는 물었습니다, Williams 대령은 수사선상에서 자신을 용의자에서 배제하기 위해 어떤 증거를 제공해 줄 수 있느냐고요.
+  KO 4.08#4: 그리고 자신만만했던 대령은 기꺼이 동의했습니다, ADN 샘플, 지문, 그리고 신발 자국 채취까지요.
+
+### 4-12 | COT-CAU: `4.08#5`
+  VN CHU : *Trong lúc hai người đối thoại* · **MŨI TRINH SÁT THỰC ĐỊA** · *Lệnh khám xét tại Ottawa và Tweed*
+  VN BEAT: Đèn xanh đỏ
+  KO 4.08#5: 두 사람이 대화를 이어가는 동안, 현장의 수색팀들은 Ottawa의 자택과 Tweed의 별장에 대한 압수수색 영장을 은밀하게 집행하고 있었습니다.
+
+### 4-13 | COT-CAU: `4.08#6`
+  VN CHU : *Dấu giày tuyết tại hiện trường* · *Dấu giày của chính Williams* → “Chúng giống hệt nhau.”
+  VN BEAT: Câu trích ở "và nói"
+  KO 4.08#6: Smyth 형사가 범죄 현장의 눈 위에 남겨진 스노부츠 사진을 Williams의 신발 밑창 옆에 나란히 놓으며 “완전히 일치합니다.”라고 말했을 때였습니다.
+
+### 4-14 | COT-CAU: `4.08#7`
+  VN CHU : *MỘT ĐỀ NGHỊ KỲ LẠI* → “Cứ gọi tôi là Russ.”
+  VN BEAT: —
+  KO 4.08#7: 대령은 순간적으로 굳어지며 불안감을 느끼기 시작했고 한 가지 제안을 던졌습니다: “그냥 Russ라고 불러주십시오.”
+
+### 4-15 | COT-CAU: `4.08#8`
+  VN CHU : **CHIẾC THÒNG LỌNG VÔ HÌNH BẮT ĐẦU SIẾT CHẶT**
+  VN BEAT: Trượt ảnh "Xoẹt" ở đầu
+  KO 4.08#8: 보이지 않는 밧줄이 목을 바짝 죄어오기 시작한 순간이었습니다.
+
+### 4-16 | COT-CAU: `4.10#1`
+  VN CHU : **Ổ CỨNG TRÊN TRẦN TẦNG HẦM** · *Hàng nghìn bức ảnh và ghi chép chi tiết*
+  VN BEAT: —
+  KO 4.10#1: Smyth의 휴대전화가 진동했습니다, Ottawa 수색팀이 지하실 천장 틈새에 숨겨져 있던 비밀 외장하드를 발견했다는 소식이었습니다, 그 속에는 수천 장의 사진과 범행 일지가 빼곡히 저장되어 있었습니다.
+
+### 4-17 | COT-CAU: `4.10#2`–`#3`
+  VN CHU : *Smyth nhìn thẳng vào mắt Williams* → `#3`: “Vợ ông giờ đã biết chuyện gì đang xảy ra.”
+  VN BEAT: Câu trích ở "nói thêm"
+  KO 4.10#2: Smyth는 고개를 들어 Williams의 눈을 똑바로 응시하며 결정적인 일격을 날렸습니다: “수사관들이 지금 당신 집에 가 있습니다.”
+  KO 4.10#3: “부인께서도 지금 무슨 일이 벌어지고 있는지 알게 되었습니다.”
+
+### 4-18 | COT-CAU: `4.10#4`–`#6`
+  VN CHU : *Toàn bộ thế giới danh dự đã hoàn toàn sụp đổ* → `#6`: “Tôi không biết phải nói gì.”
+  VN BEAT: —
+  KO 4.10#4: Williams는 완전히 얼어붙었습니다.
+  KO 4.10#5: 군인으로서의 명예, 권력, 그리고 무엇보다 잃는 것을 가장 두려워했던 아내 앞에서의 완벽한 위신 – 그가 평생 쌓아 올린 전 세계가 산산조각 난 순간이었습니다.
+  KO 4.10#6: 떨리는 목소리로 그가 내뱉을 수 있었던 말은 “무슨 말을 해야 할지 모르겠습니다.”뿐이었습니다.
+
+### 4-19 | COT-CAU: `4.10#7`
+  VN CHU : *4 giờ 40 phút sau* → “Vậy, cô ấy ở đâu?”
+  VN BEAT: Câu trích ở "hỏi khẽ"
+  KO 4.10#7: 심문이 시작된 지 정확히 4시간 40분 만에 Smyth는 나지막이 물었습니다: “그래서, 그녀는 어디에 있습니까?”
+
+### 4-20 | COT-CAU: `4.10#8`
+  VN CHU : “Có bản đồ không?”
+  VN BEAT: —
+  KO 4.10#8: Williams는 고개를 떨구며 목이 메인 목소리로 물었습니다: “혹시 지도가 있습니까?”
+
+### 4-21 | COT-CAU: `4.10#9`
+  VN CHU : *Gần 6 tiếng tiếp theo* · **TỪNG VỤ MỘT**
+  VN BEAT: —
+  KO 4.10#9: 그리고 이후 약 6시간 동안, 그는 자신의 모든 범죄를 하나하나 털어놓기 시작했습니다.
+
+### 4-22 | COT-CAU: `4.11#1`–`#3`
+  VN CHU : **KHOẢNH KHẮC TÂM LÝ SỤP ĐỔ** → `#3`: *Bức tường giữa hai ngăn kéo tâm trí · Vỡ vụn*
+  VN BEAT: Hai ngăn kéo bật mở ở `#3`
+  KO 4.11#1: 그것이 바로 마음의 서랍을 가로막고 있던 인지적 방벽이 완벽히 무너져 내린 순간이었습니다.
+  KO 4.11#2: 외장하드가 발견된 순간, 두 개의 정신세계를 나누고 있던 장벽은 완전히 붕괴되었습니다.
+  KO 4.11#3: 그리고 Jim Smyth 수사관은 Williams의 가장 치명적인 심리적 역린을 정확히 타격했습니다, 바로 아내였습니다.
+
+### 4-23 | COT-CAU: `4.11#4`
+  VN CHU : *Theo bản ghi thẩm vấn* · **NGƯỜI VỢ** → “Tôi muốn giảm thiểu ảnh hưởng lên vợ tôi.”
+  VN BEAT: —
+  KO 4.11#4: 심문 조서에서 Williams는 강박적으로 반복했습니다: “제 아내에게 미칠 영향을 최소화하고 싶습니다.”
+
+### 4-24 | COT-CAU: `4.11#5`
+  VN CHU : *Smyth đáp rằng ông cũng muốn vậy* · **CON ĐƯỜNG DUY NHẤT LÀ SỰ THẬT**
+  VN BEAT: —
+  KO 4.11#5: Smyth는 자신 역시 그것을 원하며, 유일한 길은 진실을 말하는 것뿐이라고 답했습니다.
+
+### 4-25 | COT-CAU: `4.11#6`–`#7`
+  VN CHU : *NỖI LO VỢ MÌNH VÀ CĂN CỨ* → *KHÔNG PHẢI NỖI ĐAU CỦA NẠN NHÂN*
+  VN BEAT: —
+  KO 4.11#6: 그리고 여기에 가장 본질적인 심리가 드러납니다, 그가 쏟아낸 불안은 오직 아내가 자신을 어떻게 볼 것인가, 그리고 Trenton 기지의 명예가 어떻게 실추될 것인가에만 쏠려 있었습니다.
+  KO 4.11#7: 피해 여성들이나 유가족들이 겪었을 극심한 고통에 대해서는 단 한 방울의 눈물도 흘리지 않았습니다.
+
+### 4-26 | COT-CAU: `4.11#8`
+  VN CHU : **KHÔNG PHẢI SỰ ĂN NĂN HỐI LỖI**
+  VN BEAT: —
+  KO 4.11#8: 그것은 결코 진정한 참회가 아니었습니다.
+
+### 4-27 | COT-CAU: `4.11#9`
+  VN CHU : **MẶT NẠ DANH DỰ VỠ VỤN** · *Sự thương hại bản thân tột độ · Trước người thân và xã hội*
+  VN BEAT: —
+  KO 4.11#9: 이는 25년간 가꾸어 온 명예의 가면이 가족과 세상 앞에서 완전히 박살 난 것에 대한 극단적인 자기연민(Pathological Self-Pity)에 불과했던 것입니다.
+
+### 4-28 | COT-CAU: `4.12#1`
+  VN CHU : **CHÍNH THỨC GỤC NGÃ** · *Trước sức ép của sự thật khách quan*
+  VN BEAT: —
+  KO 4.12#1: 객관적인 물적 증거의 무게 앞에서 Canada 최대 공군 기지를 지휘하던 사령관은 완전히 무릎을 꿇었습니다.
+
+### 4-29 | COT-CAU: `4.12#2`
+  VN CHU : **JESSICA LLOYD** · *Đánh dấu trên bản đồ nơi hắn phi tang*
+  VN BEAT: —
+  KO 4.12#2: Williams는 자신이 Jessica Lloyd의 시신을 유기한 외딴 숲속의 위치를 지도 위에 펜으로 표시했습니다.
+
+### 4-30 | COT-CAU: `4.12#3`
+  VN CHU : *THỪA NHẬN* · *Nữ hạ sĩ Marie-France Comeau · Hai vụ tấn công tại Tweed*
+  VN BEAT: Mỗi mục ở cụm từ
+  KO 4.12#3: 이어진 자백 속에서 그는 Marie-France Comeau 하사에 대한 살해 혐의와 Tweed에서의 두 차례 주거침입 공격을 모두 인정했습니다.
+
+### 4-31 | COT-CAU: `4.12#4`
+  VN CHU : *Kho dữ liệu trong ổ cứng* · **82 VỤ ĐỘT NHẬP BÍ MẬT**
+  VN BEAT: —
+  KO 4.12#4: 지하실 천장에 치밀하게 숨겨두었던 외장하드의 기록을 통해 경찰은 추가로 82건에 달하는 비밀 침입 범행을 밝혀냈습니다.
+
+### 4-32 | COT-CAU: `4.12#5`
+  VN CHU : **88** · *88 Cáo buộc hình sự · Một người đàn ông duy nhất*
+  VN BEAT: Số đếm 0 → 88
+  KO 4.12#5: 단 한 명의 남성이 저지른 – 총 88건의 전율할 중범죄 기소.
+
+### 4-33 | COT-CAU: `4.12#6`
+  VN CHU : **VỎ BỌC HÀO NHOÁNG TAN THÀNH MÂY KHÓI**
+  VN BEAT: —
+  KO 4.12#6: 대령의 군복 뒤에 감추어져 있던 화려한 허상은 물거품처럼 사라졌습니다.
+
+### 4-34 | COT-CAU: nghỉ chuyển hồi (2 s)
+  VN CHU : *HỒI 05* · **PHÁN QUYẾT, CẢNH BÁO ĐỎ & LỜI KẾT**
+  VN BEAT: —
+
+### 5-01 | COT-CAU: `5.02#1`–`#2`
+  VN CHU : **10 · 2010** · *Tòa án Cấp cao Ontario · Thẩm phán Robert Scott · Belleville* (chỉ chữ, V5)
+  VN BEAT: Búa gõ ba lần (SFX `5.01`) trước câu
+  KO 5.02#1: 2010년 10월.
+  KO 5.02#2: Belleville 시에서 열린 Ontario 주 고등법원, Robert Scott 판사의 재판정에서.
+
+### 5-02 | COT-CAU: `5.02#3`
+  VN CHU : *Ngày 18 tháng 10* · **88** · *Nhận tội trước toàn bộ cáo buộc*
+  VN BEAT: Số đếm
+  KO 5.02#3: 그해 10월 18일, Russell Williams는 88건의 기소 사실 모두에 대해 유죄를 인정했습니다.
+
+### 5-03 | COT-CAU: `5.02#4`
+  VN CHU : *NGÀY 21 · THẨM PHÁN TUYÊN PHẠT* · *Hai mức tù chung thân chạy song song · 10 năm cho mỗi tội tấn công tình dục · 10 năm cho mỗi tội giam giữ trái phép · 1 năm cho mỗi trong 82 vụ đột nhập*
+  VN BEAT: Mỗi mục ở cụm từ (câu dài ~20 s → 5 beat)
+  KO 5.02#4: 사흘 뒤인 21일, 판사는 판결을 선고했습니다. 1급 살인 2건에 대한 동시 집행 종신형, 성폭행 각 10년, 불법 감금 각 10년, 그리고 82건의 주거침입에 대한 각 1년 징역형이었습니다.
+
+### 5-04 | COT-CAU: `5.02#5`–`#6`
+  VN CHU : **25 NĂM** · *Không được xét ân xá* → `#6`: *Mức án tối thiểu luật hình sự Canada bắt buộc*
+  VN BEAT: Số đếm 0 → 25
+  KO 5.02#5: 이는 25년간 가석방이 불가능한 종신형이었습니다.
+  KO 5.02#6: 그리고 그것은 Canada 형법이 1급 살인에 대해 규정한 법정 절대 최소 형량이었습니다.
+
+### 5-05 | COT-CAU: `5.03` (nghỉ 2 s)
+  VN CHU : —
+  VN BEAT: —
+
+### 5-06 | COT-CAU: `5.04#1`
+  VN CHU : **SỰ SỤP ĐỔ HOÀN TOÀN VỀ DANH DỰ**
+  VN BEAT: Gọi lại hình lễ nhậm chức, nay tối
+  KO 5.04#1: 그러나 Williams와 같은 악성 나르시시스트에게 가장 가혹한 형벌은 명예와 권력의 완전한 박탈이었습니다.
+
+### 5-07 | COT-CAU: `5.04#2`–`#4`
+  VN CHU : *Quân hàm · Huân chương · Sắc lệnh phong cấp · Tiểu sử trên trang Bộ Quốc phòng*
+  VN BEAT: Mỗi câu gạch mục tương ứng
+  KO 5.04#2: Canada 총독은 그의 군 장교 임관을 공식 취소하고 불명예 전역 처분을 내렸습니다.
+  KO 5.04#3: 그가 받았던 모든 훈장은 조각조각 잘려 폐기되었고, 임관 사령장은 무효화되었습니다.
+  KO 5.04#4: 체포 직후 국방부 공식 웹사이트에서 그의 복무 기록과 이력은 영구히 삭제되었습니다.
+
+### 5-08 | COT-CAU: `5.04#5`
+  VN CHU : **ĐỐT QUÂN PHỤC** · *Căn cứ Trenton · Một cơ sở vốn dùng để tiêu hủy tài liệu*
+  VN BEAT: Lửa bùng ở "đốt quân phục"
+  KO 5.04#5: Canada 군은 전례 없는 결정을 내렸습니다, 그의 이름이 새겨진 모든 군복과 피복류를 Trenton 기지 내의 비밀문서 소각로에서 완전히 불태워 버렸습니다.
+
+### 5-09 | COT-CAU: `5.04#6`–`#7`
+  VN CHU : *Hubert Genest · Người phát ngôn quân đội* · *Không có nghi lễ chính thức · Không có ảnh chụp* → `#7`: **LẦN ĐẦU TIÊN TRONG HAI MƯƠI LĂM NĂM PHỤC VỤ**
+  VN BEAT: Tiêu đề ở `#7`
+  KO 5.04#6: 군 대변인 Hubert Genest에 따르면 어떠한 공식 의전도 없었고 사진 촬영조차 엄격히 금지되었습니다.
+  KO 5.04#7: 그리고 25년의 군 복무 기간 동안 군복이 소각되는 장면을 목격한 것은 그에게도 처음 있는 일이었습니다.
+
+### 5-10 | COT-CAU: `5.04#8`
+  VN CHU : “Khi đặt dấu chấm cuối câu, dấu chấm ấy nhỏ thôi, nhưng nó mang rất nhiều ý nghĩa.”
+  VN BEAT: Câu trích ở "câu văn"
+  KO 5.04#8: Williams의 퇴출에 대해 Genest 대변인은 그 처벌을 한 문장에 비유했습니다: “문장의 끝에 찍히는 마침표처럼, 그 점은 매우 작지만 대단히 중대한 의미를 지닌다.”
+
+### 5-11 | COT-CAU: `5.04#9`
+  VN CHU : **CHIẾC SUV BỊ ĐÈ NÁT** · *Hàng trăm món đồ bị đem đốt*
+  VN BEAT: —
+  KO 5.04#9: 한때 검문소를 통과했던 Nissan Pathfinder 차량은 폐차 압축기 속에서 고철로 짓눌렸고, 도난당했던 수백 점의 물품들은 남김없이 불태워졌습니다.
+
+### 5-12 | COT-CAU: `5.05` (nghỉ 2 s)
+  VN CHU : —
+  VN BEAT: —
+
+### 5-13 | COT-CAU: `5.06#1`
+  VN CHU : **THÁI ĐỘ TÂM LÝ TRƯỚC BẢN ÁN** · *Câu hỏi dành cho chuyên gia tâm lý*
+  VN BEAT: —
+  KO 5.06#1: 그렇다면 판결을 앞둔 Williams의 내면 상태는 어떠했을까요.
+
+### 5-14 | COT-CAU: `5.06#2`
+  VN CHU : **MỘT LỜI XIN LỖI KHÔ KHỐC** · *Máy móc như một cỗ máy trả bài*
+  VN BEAT: —
+  KO 5.06#2: 법정에서 그는 대본을 읽는 기계처럼 감정 없는 메마른 사과문을 낭독했습니다.
+
+### 5-15 | COT-CAU: `5.06#3`
+  VN CHU : **KINGSTON PENITENTIARY** · *Đặc quyền bị tước sạch · Thành kẻ bị khinh bỉ nhất*
+  VN BEAT: —
+  KO 5.06#3: 하지만 Kingston Penitentiary에 수감되어 모든 특권을 박탈당하고 가장 경멸받는 수형자로 전락하자, 그는 감방 안에서 단식 투쟁을 벌이며 자살을 기도했습니다.
+
+### 5-16 | COT-CAU: `5.06#4`
+  VN CHU : *TÂM LÝ HỌC* · **SỰ SỤP ĐỔ CÁI TÔI ÁI KỶ** *(Narcissistic Collapse)* → `#4`: *Chỉ còn lại sự tự thương hại bản thân*
+  VN BEAT: —
+  KO 5.06#4: 그것이 바로 전형적인 "자기애적 붕괴(Narcissistic Collapse)"의 양상이었습니다, 통제력을 상실하고 적나라한 굴욕을 견디지 못하게 되었을 때, 포식자에게 남은 것은 비참한 자기연민뿐이었던 것입니다.
+
+### 5-17 | COT-CAU: `5.07#1`–`#2`
+  VN CHU : **MỘT CHẤN THƯƠNG SÂU SẮC** · *Quân đội Canada phải cải tổ toàn diện quy trình kiểm tra an ninh*
+  VN BEAT: —
+  KO 5.07#1: 대령 Russell Williams 사건은 Canada 사회 전체에 씻을 수 없는 깊은 트라우마를 남겼습니다.
+  KO 5.07#2: 가장 존경받던 국가 기관에 대한 신뢰가 근본부터 흔들렸고, Canada 군은 고급 장교들에 대한 보안 심사와 심리 평가 시스템을 전면적으로 뜯어고쳐야 했습니다.
+
+### 5-18 | COT-CAU: `5.07#3`
+  VN CHU : **ĐỪNG ĐỂ HIỆU ỨNG HÀO QUANG RU NGỦ TRỰC GIÁC**
+  VN BEAT: —
+  KO 5.07#3: 하지만 이 사건이 우리 모두에게 남긴 가장 준엄한 교훈은, "결코 후광 효과에 직관을 마비시켜서는 안 된다"는 것입니다.
+
+### 5-19 | COT-CAU: `5.07#4`–`#6`
+  VN CHU : *Địa vị, bằng cấp, quân hàm chỉ là lớp áo khoác xã hội* → `#6`: **TỘI ÁC LUÔN BẮT ĐẦU TỪ NHỮNG BƯỚC RẤT NHỎ** · *Một cái nhìn trộm · Một lần lục lọi đồ riêng tư*
+  VN BEAT: —
+  KO 5.07#4: 높은 사회적 지위, 학벌, 화려한 계급장은 사회적인 외투에 불과할 뿐, 결코 한 인간 영혼의 선함을 보증하는 방패가 될 수 없습니다.
+  KO 5.07#5: 범죄는 결코 첫 칼부림이나 살인에서 시작되지 않습니다.
+  KO 5.07#6: 엿보기, 사적 물품 뒤지기, 처벌받지 않은 침입과 같은 아주 작은 경계 침범에서부터 싹틉니다.
+
+### 5-20 | COT-CAU: `5.07#7`
+  VN CHU : **NGƯỠNG THỎA MÃN BỊ ĐẨY XA HƠN** · *Cho đến khi nuốt chửng cả nạn nhân lẫn kẻ thủ ác*
+  VN BEAT: —
+  KO 5.07#7: 왜곡된 충동이 어둠 속에서 자라날 때 만족의 역치는 끝없이 확장되어, 마침내 피해자는 물론 가해자 자신마저 집어삼키고 마는 것입니다.
+
+### 5-21 | COT-CAU: `5.08#1`
+  VN CHU : *TÍNH KỶ LUẬT VÀ GHI CHÉP* · **TỰ VIẾT BẢN ÁN CHO CHÍNH MÌNH**
+  VN BEAT: —
+  KO 5.08#1: 수사학적 관점에서 볼 때, 군대식 철저한 규율은 Williams가 범행을 오랫동안 은폐할 수 있게 도왔지만, 병적인 판타지를 위해 전리품을 집착적으로 수집한 행위야말로 스스로 유죄 판결문을 쓰게 만들었습니다.
+
+### 5-22 | COT-CAU: `5.08#2`
+  VN CHU : **SỰ KIÊU HÃNH CỦA KẺ ÁI KỶ LUÔN ĐỂ LẠI DẤU VẾT**
+  VN BEAT: —
+  KO 5.08#2: 자기애적 오만함은 반드시 흔적을 남기기 마련입니다.
+
+### 5-23 | COT-CAU: `5.08#3`
+  VN CHU : **HÃY LUÔN TIN VÀO TRỰC GIÁC CỦA BẠN**
+  VN BEAT: —
+  KO 5.08#3: 그리고 이 사건 파일이 우리에게 전하는 가장 절실한 생존의 지혜는, "자신의 직관을 언제나 신뢰하라"는 것입니다.
+
+### 5-24 | COT-CAU: `5.08#4`–`#5`
+  VN CHU : *Sự bất an mơ hồ · Ranh giới riêng tư bị xâm phạm* → `#5`: **TRỰC GIÁC LÀ HỆ THỐNG CẢNH BÁO SỚM**
+  VN BEAT: —
+  KO 5.08#4: 만약 무언가 모호한 불안감이 느껴진다면, 사적인 경계가 아주 작게라도 침해당했다고 느낀다면, 결코 그것을 합리화하거나 무시하지 마십시오.
+  KO 5.08#5: 생존의 직관이야말로 우리의 생명을 지키기 위해 내면에 장착된 조기 경보 레이더입니다.
+
+### 5-25 | COT-CAU: `5.09` (nghỉ 2 s)
+  VN CHU : —
+  VN BEAT: —
+
+### 5-26 | COT-CAU: `5.10#1`
+  VN CHU : *Vực thẳm khôn lường của tâm trí con người*
+  VN BEAT: —
+  KO 5.10#1: 대령 Russell Williams의 사건 파일은 인간 심연의 헤아릴 수 없는 어둠을 경고하는 서늘한 기록입니다.
+
+### 5-27 | COT-CAU: `5.10#2`–`#3`
+  VN CHU : **BỘ ÓC TINH HOA KHÔNG BẢO VỆ ĐƯỢC AI CẢ** → `#3`: *Chỉ làm cho lần sụp đổ ấy đến muộn hơn, và tàn khốc hơn*
+  VN BEAT: —
+  KO 5.10#2: 탁월한 엘리트 지능이라 해도 결코 아무도 구원하지 못합니다.
+  KO 5.10#3: 그것은 단지 파멸의 순간을 뒤로 미루어, 그 붕괴를 훨씬 더 처참하게 만들 뿐입니다.
+
+### 5-28 | COT-CAU: `5.10#4`
+  VN CHU : **NGƯỜI DUY NHẤT GIỮ BÍ MẬT** · *Chính người đàn ông ấy*
+  VN BEAT: —
+  KO 5.10#4: 이 사건의 전말에서 비밀을 쥐고 있던 유일한 사람은 바로 그 남자 한 명뿐이었다는 사실을 결코 잊지 마십시오.
+
+### 5-29 | COT-CAU: `5.10#5`–`#6`
+  VN CHU : **CHIẾN LỢI PHẨM CỦA HẮN** → `#5`: *Những tập ảnh được sắp xếp tỉ mỉ* → `#6`: *Những món đồ được cất giấu cẩn thận*
+  VN BEAT: Mỗi câu một mục
+  KO 5.10#5: 치밀하게 정리된 사진들.
+  KO 5.10#6: 세심하게 숨겨두었던 도난품들.
+
+### 5-30 | COT-CAU: `5.10#7`
+  VN CHU : **MỘT CUỘC ĐẤU TRÍ KÉO DÀI MƯỜI TIẾNG** · *Chiếc mặt nạ danh dự không thể hàn gắn*
+  VN BEAT: —
+  KO 5.10#7: 그리고 열 시간 동안 이어진 심리전 – 오만한 포식자가 자신의 명예로운 가면이 영원히 회복 불가능함을 깨닫기에는 충분한 시간이었습니다.
+
+### 5-31 | COT-CAU: `5.10#8`
+  VN CHU : **BÀI HỌC LỚN NHẤT KHÔNG PHẢI LÀ SỢ HÃI** · *Mà là sự tỉnh thức để nhận diện và bảo vệ ranh giới an toàn*
+  VN BEAT: Tiêu đề ở "tỉnh thức"
+  KO 5.10#8: 비극이 남긴 가장 큰 배움은 공포가 아니라, 우리 삶의 안전한 경계를 분별하고 지켜내기 위한 각성이어야 합니다.
+
+### 5-32 | COT-CAU: `5.11` (nghỉ 1,5 s)
+  VN CHU : —
+  VN BEAT: —
+
+### 5-33 | COT-CAU: `5.12#1`–`#2`
+  VN CHU : **CẢM ƠN CÁC KHÁCH MỜI** · *Nhân vật minh hoạ · giọng đọc AI*
+  VN BEAT: 5 ảnh P0 sáng lần lượt
+  KO 5.12#1: 오늘 프로파일링 분석에 함께해 주신 전문가 여러분께 진심으로 감사드립니다.
+  KO 5.12#2: 이야기의 마지막 순간까지 귀 기울여 주신 청취자 여러분께도 깊은 감사를 전합니다.
+
+### 5-34 | COT-CAU: `5.12#3`
+  VN CHU : **GIỮ MỘT CÁI NHÌN TỈNH TÁO** · *Lắng nghe trực giác · Trân trọng sự bình yên của cuộc sống*
+  VN BEAT: —
+  KO 5.12#3: 언제나 깨어 있는 시선을 유지하시고, 내면의 직관에 귀를 기울이며, 삶의 평온함을 소중히 지켜나가시길 바랍니다.
+
+### 5-35 | COT-CAU: `5.12#4`
+  VN CHU : **HẸN GẶP LẠI Ở TẬP TIẾP THEO** · *Để lại góc nhìn của bạn ở phần bình luận*
+  VN BEAT: —
+  KO 5.12#4: 그럼, 다음 범죄심리 분석 파일에서 다시 뵙겠습니다.
+
+### 5-36 | COT-CAU: `5.13`–`5.14`
+  VN CHU : *HỒ SƠ TẬP 02 · ĐÃ ĐÓNG* · **AMBER EYES** · *Phân tích tâm lý tội phạm* · *qua những hồ sơ có thật*
+  VN BEAT: Thẻ hồ sơ hiện sau tiếng "Cạch"; mờ ra đen
+
+TOTAL SHOT ROWS: 161

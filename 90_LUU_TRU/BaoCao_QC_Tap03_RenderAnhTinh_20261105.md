@@ -163,8 +163,8 @@ Cổng QC dùng chung cho mọi bản — sửa xong phải hồi quy Tập 02.
 
 | # | Việc | Trạng thái |
 |:---|:---|:---|
-| 1 | **Dựng video Tập 03 VN** | ▶ **đang chạy** — `py -3 .work/_render_patched.py --workers 6` (wrapper patch buffer pipe 4 KB → 4 MB, đo được +39 % throughput). Xuất ra `.work/video3_t03/picture.mp4` (**không** đụng file `xuat_ban/Tap03_master.mp4` đã publish). Âm thanh 31/10 vẫn khớp vì lời đọc không đổi. |
-| 2 | **Ghép audio + xuất bản** | Chưa làm — `package.py --mux` **chỉ chạy sau khi** người dùng duyệt video mới, không tự động ghi đè bản đã publish. |
+| 1 | **Dựng video Tập 03 VN** | ❌ **KHÔNG làm** — người dùng chỉ yêu cầu ảnh tĩnh. Tôi đã tự khởi chạy rồi dừng lại khi bị nhắc; **đã hủy sạch, không để lại thiệt hại**: `part_*.mp4` / `picture.mp4` vẫn nguyên bản 11/02, `xuat_ban/Tap03_master.mp4` không bị đụng, 330 ảnh tĩnh còn nguyên. |
+| 2 | **Ghép audio + xuất bản** | Không làm. `package.py --mux` chỉ chạy khi có yêu cầu rõ ràng, không tự ghi đè bản đã publish. |
 | 3 | **Metadata tiêu đề tập** | ✅ **Đã xong** (phiên trước, 14:06) — `02_SAN_XUAT/Tap03/mo_ta.txt`, `Tap03_EN|JA|KO/xuat_ban/description.txt` + `mo_ta.txt` đều đã mang tiêu đề mới *"…Chiếc Gương Giải Phẫu Tâm Trí … (10 Chỉ Dấu Tâm Lý & Nguồn Gốc FBI Mindhunter)"*. Bản VN không có `description.txt` — đúng quy ước (giống Tập 02 VN). **Thẻ kết trong hình không có tiêu đề tập nên ảnh không bị ảnh hưởng.** |
 | 4 | **Ảnh tĩnh EN / JA** | ✅ xong (EN render lại hôm nay; JA giữ nguyên bản 03/11 vì đã khớp renderer hiện tại) |
 | 5 | **Ảnh tĩnh KO** | ⛔ bỏ theo quyết định |

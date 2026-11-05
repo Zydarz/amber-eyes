@@ -1,0 +1,33 @@
+﻿=== VI ['total', 'intro', 'items', 'markers', 'acts']
+   items: 203 markers: 32
+   item0: {"id": "1.03#1", "element": "1.03", "act": 1, "role": "H", "start": 23.0, "end": 25.11, "text": "Tháng 7 năm 2009."}
+   itemN: {"id": "5.12#4", "element": "5.12", "act": 5, "role": "H", "start": 1505.3, "end": 1509.96, "text": "Xin chào và hẹn gặp lại các bạn trong tập phân tích tâm lý tội phạm tiếp theo."}
+   marker: {"type": "INTRO", "start": 0.0, "end": 22.41}
+   marker: {"type": "BGM", "id": "1.01", "at": 23.0, "desc": "Tiếng động cơ phản lực gầm rú vang rền từ xa, sau đó bị kéo tuột xuống thành một nốt Sub-bass trầm đục, nghẹt thở. Tiếng kim đồng hồ tích tắc đều đặn, khô khốc."}
+   marker: {"type": "SFX", "id": "1.02", "at": 23.0, "desc": "Tiếng lốp xe nghiến chậm rãi trên mặt đường phủ đầy băng tuyết giữa đêm đông lạnh giá."}
+   marker: {"type": "NGHI", "id": "1.04", "start": 50.1, "end": 51.58, "desc": ""}
+   other: total 1519.08
+   other: intro 22.41
+   other: acts {'1': [23.0, 341.67], '2': [343.79, 591.62], '3': [593.42, 881.55], '4': [883.98, 1189.61], '5': [1192.18, 1509.96]}
+=== _EN ['total', 'intro', 'items', 'markers', 'acts']
+   items: 203 markers: 32
+   item0: {"id": "1.03#1", "element": "1.03", "act": 1, "role": "H", "start": 23.0, "end": 24.44, "text": "July 2009."}
+   itemN: {"id": "5.12#4", "element": "5.12", "act": 5, "role": "H", "start": 1379.39, "end": 1383.79, "text": "Farewell, and we look forward to seeing you in our next criminal psychology investigation."}
+   marker: {"type": "INTRO", "start": 0.0, "end": 22.41}
+   marker: {"type": "BGM", "id": "1.01", "at": 23.0, "desc": "The roar of a jet engine rumbles in the distance, then plunges into a hollow, suffocating sub-bass drone. The steady, dry ticking of a clock echoes."}
+   marker: {"type": "SFX", "id": "1.02", "at": 23.0, "desc": "Tires grinding slowly over ice and packed snow on a freezing winter night."}
+   marker: {"type": "NGHI", "id": "1.04", "start": 43.91, "end": 45.41, "desc": ""}
+   other: total 1392.79
+   other: intro 22.41
+   other: acts {'1': [23.0, 280.4], '2': [282.4, 493.63], '3': [495.63, 810.89], '4': [812.89, 1112.76], '5': [1114.76, 1383.79]}
+=== _JA ['total', 'intro', 'items', 'markers', 'acts']
+   items: 203 markers: 32
+   item0: {"id": "1.03#1", "element": "1.03", "act": 1, "role": "H", "start": 23.0, "end": 24.64, "text": "2009年7月。"}
+   itemN: {"id": "5.12#4", "element": "5.12", "act": 5, "role": "H", "start": 1778.55, "end": 1784.27, "text": "それでは、次回の犯罪心理学分析ファイルでまたお会いしましょう。"}
+   marker: {"type": "INTRO", "start": 0.0, "end": 22.41}
+   marker: {"type": "BGM", "id": "1.01", "at": 23.0, "desc": "遠方からジェットエンジンの轟音が響き、やがて息苦しい沈痛なサブベースドローンへと沈み込んでいく。時計の乾いた規則正しい秒針の音が響く。"}
+   marker: {"type": "SFX", "id": "1.02", "at": 23.0, "desc": "厳冬の夜、氷雪に覆われた路面をタイヤがゆっくりと軋ませながら進む音。"}
+   marker: {"type": "NGHI", "id": "1.04", "start": 45.31, "end": 46.81, "desc": ""}
+   other: total 1793.27
+   other: intro 22.41
+   other: acts {'1': [23.0, 326.96], '2': [328.96, 597.83], '3': [599.83, 1048.57], '4': [1050.57, 1419.37], '5': [1421.37, 1784.27]}

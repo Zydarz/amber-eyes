@@ -452,30 +452,31 @@ def bust_visible_at(t):
 
 # ---------------------------------------------------------------- templates
 
-F_HEAD = lambda s=64: font("YuGothB.ttc", s) if ED.JA else font("segoeuib.ttf", s)
+F_HEAD = lambda s=64: font("YuGothB.ttc", s) if ED.JA else (font("malgunbd.ttf", s) if ED.KO else font("segoeuib.ttf", s))
 
-F_LAB = lambda s=26: font("YuGothB.ttc", s) if ED.JA else font("seguisb.ttf", s)
+F_LAB = lambda s=26: font("YuGothB.ttc", s) if ED.JA else (font("malgunbd.ttf", s) if ED.KO else font("seguisb.ttf", s))
 
-F_SUB = lambda s=32: font("YuGothM.ttc", s) if ED.JA else font("segoeui.ttf", s)
+F_SUB = lambda s=32: font("YuGothM.ttc", s) if ED.JA else (font("malgun.ttf", s) if ED.KO else font("segoeui.ttf", s))
 
 # Georgia lacks 92 Vietnamese glyphs (ơ ư ả ạ ề ể ố…): Cambria is the serif with full coverage
 
-F_QUOTE = lambda s=56: font("YuGothM.ttc", s) if ED.JA else font("cambriai.ttf", s)
+F_QUOTE = lambda s=56: font("YuGothM.ttc", s) if ED.JA else (font("malgun.ttf", s) if ED.KO else font("cambriai.ttf", s))
 
-F_GEO = lambda s=72: font("YuGothB.ttc", s) if ED.JA else font("cambria.ttc", s)
+F_GEO = lambda s=72: font("YuGothB.ttc", s) if ED.JA else (font("malgunbd.ttf", s) if ED.KO else font("cambria.ttc", s))
 
-F_GEOB = lambda s=50: font("YuGothB.ttc", s) if ED.JA else font("cambriab.ttf", s)
+F_GEOB = lambda s=50: font("YuGothB.ttc", s) if ED.JA else (font("malgunbd.ttf", s) if ED.KO else font("cambriab.ttf", s))
 
-F_MONO = lambda s=28: font("YuGothM.ttc", s) if ED.JA else font("consola.ttf", s)
+F_MONO = lambda s=28: font("YuGothM.ttc", s) if ED.JA else (font("malgun.ttf", s) if ED.KO else font("consola.ttf", s))
 
 F_NUM = lambda s=260: font("bahnschrift.ttf", s)
 
 # Bahnschrift chi co Latin -> ky tu Nhat trong T5 ("46歳", "25年間") ra o vuong TOFU.
 # Phan duoi sau con so ve bang font co Nhat; phan con so giu nguyen Bahnschrift
 # de kiem tra kieu chu cua ban VN/EN khong doi.
-F_NUM_JP = lambda s=260: font("YuGothB.ttc", s) if ED.JA else font("bahnschrift.ttf", s)
+F_NUM_JP = lambda s=260: font("YuGothB.ttc", s) if ED.JA else (font("malgunbd.ttf", s) if ED.KO else font("bahnschrift.ttf", s))
 
-_HAS_JP = re.compile(r"[぀-ヿ㐀-䶿一-鿿＀-￯]")
+# Hangul (ko) cung can font CJK cho phan duoi sau con so
+_HAS_JP = re.compile(r"[぀-ヿ㐀-䶿一-鿿＀-￯가-힯ᄀ-ᇿ]")
 
 
 
@@ -1797,9 +1798,19 @@ ENV_CHUNK = 1 << 20          # so frame doc mot lan (RAM tam ~4 MB)
 
 def _env_for(role):
 
-    """RMS moi frame (30 Hz) cua stem role — doc theo khoi, khong nap ca file."""
+    """RMS moi frame (30 Hz) cua stem role — doc theo khoi, khong nap ca file.
 
-    with wave.open(str(ED.w("stems") / f"{role}.wav")) as wf:
+    Chua co stem (bản dịch chờ TTS) -> trả về mảng rỗng: badge vẽ khong co song,
+    khong crash. Sau khi co stem that thi hinh bo song se hien dung.
+    """
+
+    stem_path = ED.w("stems") / f"{role}.wav"
+
+    if not stem_path.exists():
+
+        return np.zeros(0, dtype=np.float32)
+
+    with wave.open(str(stem_path)) as wf:
 
         sr = wf.getframerate()
 

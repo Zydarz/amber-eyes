@@ -400,33 +400,93 @@ EPISODES = {
         "route_pins": {},
         "thumb": ("THE PURPLE", "FLOPPY DISK") if EN else ("紫色の", "フロッピーディスク") if JA else ("CHIẾC ĐĨA MỀM", "MÀU TÍM"),
         "thumb_bg": "t5_purple_floppy_disk",
-        "title": ("Ep. 05: The Purple Floppy Disk | The Psychology of BTK Dennis Rader (Compartmentalization)"
-                  if EN else "第05話：紫色のフロッピーディスク | BTK デニス・レイダーの心理分析（精神の分断）" if JA else
-                  "Tập 05: Chiếc Đĩa Mềm Màu Tím | Tâm lý học tội phạm: BTK Dennis Rader (Sự phân mảnh tâm trí)"),
+        "title": ("Ep. 05: The Purple Floppy Disk | The Psychology of BTK Dennis Rader (10 Psychological Markers & Compartmentalization)"
+                  if EN else "第05話：紫色のフロッピーディスク | BTK デニス・レイダーの犯罪心理学（10の心理指標と精神の分断）" if JA else
+                  "05화 · 보라색 플로피 디스크 | BTK 데니스 레이더의 범죄심리학 (10가지 심리 지표와 내면의 구획화)" if KO else
+                  "Tập 05: Chiếc Đĩa Mềm Màu Tím & Cơn Nghiện Ái Kỷ | Tâm lý học tội phạm: BTK Dennis Rader (10 Chỉ Dấu Tâm Lý & Sự Phân Mảnh Tâm Trí)"),
         "act_titles": ({1: "Act 1 · The Letter Resurfaces After 13 Years of Silence",
                         2: "Act 2 · The Crime Scene & Psychological Signature of a Two-Faced Predator",
-                        3: "Act 3 · Inside the Mind of Malignant Narcissism",
+                        3: "Act 3 · Inside the Mind of Malignant Narcissism — Compartmentalization & Factor X",
                         4: "Act 4 · The Interrogation & The Digital Forensic Trap",
-                        5: "Act 5 · The Verdict, Red Flags & Closing Thoughts"} if EN else
+                        5: "Act 5 · The Verdict, Survival Red Flags & Epilogue"} if EN else
                        {1: "第1幕 · 13年の沈黙を破る手紙",
                         2: "第2幕 · 犯罪現場と二面獣の心理的署名",
-                        3: "第3幕 · 心理剖検――歪んだ自己愛の内面",
+                        3: "第3幕 · 歪んだ自己愛の内面――精神の分断とファクターX",
                         4: "第4幕 · 尋問の心理戦とフロッピーディスクの罠",
                         5: "第5幕 · 判決、赤い警報と終幕"} if JA else
-                       {1: "Hồi 1 · Bức thư tái xuất sau 13 năm lặng căm", 2: "Hồi 2 · Chữ ký tâm lý của con thú hai mặt",
-                        3: "Hồi 3 · Bên trong bộ não ái kỷ ác tính", 4: "Hồi 4 · Đấu trí thẩm vấn và bẫy công nghệ đĩa mềm",
+                       {1: "제1막 · 13년의 침묵을 깨고 나타난 편지",
+                        2: "제2막 · 범죄 현장과 두 얼굴을 가진 포식자의 시그너처",
+                        3: "제3막 · 악성 나르시시즘의 내면 — 구획화와 요인 X",
+                        4: "제4막 · 심문실의 심리전과 플로피 디스크의 함정",
+                        5: "제5막 · 판결, 생존을 위한 붉은 경보와 맺음말"} if KO else
+                       {1: "Hồi 1 · Bức thư tái xuất sau 13 năm lặng căm", 2: "Hồi 2 · Hiện trường & Chữ ký tâm lý của con thú hai mặt",
+                        3: "Hồi 3 · Bên trong bộ não ái kỷ ác tính — Sự chia ngăn & Tự bào chữa", 4: "Hồi 4 · Đấu trí thẩm vấn & Bẫy công nghệ đĩa mềm",
                         5: "Hồi 5 · Phán quyết, bài học cảnh báo đỏ và lời kết"}),
-        # Hashtag dòng cuối mô tả YouTube (bản tiếng Việt). Bản EN có sẵn trong
-        # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
-        "hashtags": "#AmberEyes #TrueCrime #CriminalPsychology #BTK #DennisRader #ForensicFiles #DigitalForensics #TamLyToiPham #PhamVan #HoiTo",
+        "roles_line": "Lời của Điều tra viên, Chuyên gia tâm lý, Người dân Park City và Kerri Rawson là lời dựng lại dựa trên tư liệu.",
+        "hashtags": "#AmberEyes #TrueCrime #TamLyToiPham #BTK #DennisRader #ChiecDiaMemMauTim #ChiaNganTamTri #AiKyAcTinh #10ChiDauTamLy #CanhBaoDo #HoSoToiPham",
         "summary": ("1.10#5", "3.02#1"),
-        "summary_ja": "30年間にわたり、良き夫、模範的な父親、そして教会の会長として「完全な仮面」を被り続けた連続殺人鬼BTKことDennis Rader。自らの全能感と名声への渇望に駆られ、13年の沈黙を破って警察へ一枚の「紫色のフロッピーディスク」を送りつけたことで、その二重生活は自滅への道をたどります。犯罪心理学者と法執行機関の専門家が、彼を自己破滅へと導いた2つの極端な心理機制――「精神の分断（コンパートメンタライゼーション）」と「肥大化した自己愛（悪性ナルシシズム）」を徹底分析します。",
+        "summary_vn": (
+            "Suốt hơn 30 năm (1974–2005), Dennis Lynn Rader đã dựng nên một chiếc mặt nạ công dân mẫu mực đến kinh ngạc tại Park City, Kansas: "
+            "chủ tịch hội đồng nhà thờ Lutheran, huynh trưởng Hướng đạo sinh, cựu quân nhân Không quân và kiểm soát viên trật tự đô thị nghiêm khắc. "
+            "Nhưng ẩn sâu dưới vỏ bọc đạo mạo đó là kẻ săn mồi hai mặt gieo rắc kinh hoàng cho cả vùng Wichita. "
+            "Cuộc đấu trí lịch sử chỉ ngã ngũ vào ngày 25/02/2005 khi trung úy Ken Landwehr giăng chiếc bẫy công nghệ qua một chiếc đĩa mềm màu tím, "
+            "bóc trần toàn bộ cơ chế phân mảnh tâm trí và cơn nghiện ái kỷ ác tính kéo dài ba thập kỷ.\n\n"
+            "Hồ sơ Dennis Rader (\"BTK\") được giải phẫu qua Hệ sinh thái 10 chỉ dấu tâm lý & hành vi cốt lõi:\n"
+            "1. DƯ CHẤN XÃ HỘI & NỖI HOANG TƯỞNG TẬP THỂ: Cuộc săn lùng kéo dài 3 thập kỷ gieo rắc kinh hoàng tại Wichita; người dân chốt cửa, mua vũ khí, nghịch lý khi chính Rader lắp đặt còi báo động cho hàng trăm gia đình.\n"
+            "2. VẬT HÓA NẠN NHÂN (OBJECTIFICATION): Xem nạn nhân là \"dự án\", \"con mồi\" vô danh; cướp đồ lưu niệm và phác thảo sơ đồ để kích hoạt lại cảm giác toàn năng trong tưởng tượng.\n"
+            "3. CƠ CHẾ CHIA NGĂN (COMPARTMENTALIZATION): Xây dựng \"bức tường bê tông\" tâm lý tách biệt hoàn hảo người chồng mẫu mực, chủ tịch hội đồng nhà thờ với kẻ săn mồi máu lạnh.\n"
+            "4. BẢN NGÃ ÁI KỶ SỤP ĐỔ (NARCISSISTIC COLLAPSE): Khi nhận án 175 năm tù, Rader chỉ than vãn về việc bị cảnh sát lừa dối qua đĩa mềm và danh dự cá nhân tan biến, không hề có sự ăn năn thực thụ.\n"
+            "5. HỆ THỐNG TỰ BÀO CHỮA (NEUTRALIZATION / FACTOR X): Ngụy tạo khái niệm \"Nhân tố X\" ma quái như một thực thể ngoại lai chiếm đoạt tâm trí để phủi sạch trách nhiệm đạo đức.\n"
+            "6. NGÒI NỔ TÂM LÝ & ĐIỂM GÃY: Năm 2004, kỷ niệm 30 năm vụ án Otero và cuốn sách sắp xuất bản của tờ Wichita Eagle đe dọa biến hắn thành kẻ vô danh, kích hoạt cơn khát danh vọng trở lại.\n"
+            "7. SIGNATURE VS. THỦ ĐOẠN MO: MO (cắt dây điện thoại, dùng đĩa mềm, ký hiệu chữ) biến đổi theo công nghệ; Signature (thư khiêu khích, trói buộc biểu tượng, nhu cầu được công chúng sùng bái) bất biến.\n"
+            "8. QUỸ ĐẠO LEO THANG 4 GIAI ĐOẠN: Sự trơ lỳ thụ thể Dopamine đẩy hành vi qua 4 nấc: ảo tưởng xâm nhập (1) → bám đuôi rình rập (2) → đột nhập khống chế (3) → xâm hại và tước đoạt sinh mạng (4).\n"
+            "9. HIỆU ỨNG HÀO QUANG: Chiếc áo phản quang kiểm soát viên trật tự đô thị và chức chủ tịch hội đồng nhà thờ tạo điểm mù tuyệt đối che mắt láng giềng suốt 3 thập kỷ.\n"
+            "10. CẢNH BÁO ĐỎ SINH TỒN: 4 tín hiệu nhận diện kẻ săn mồi ẩn danh: lạm quyền vi mô, thói quen thu thập đồ đạc bí mật, sự thấu cảm có điều kiện và phản ứng giận dữ tột cùng khi bị phớt lờ."
+        ),
+        "summary_ja": (
+            "30年以上にわたり（1974–2005）、デニス・リン・レイダーは米カンザス州パークシティで完璧な善良市民の仮面を維持し続けました。"
+            "ルーテル教会の役員会長、ボーイスカウトの指導員、空軍退役軍人、そして厳格な市規律取締官――しかしその裏で、彼はウィチタ一帯を恐怖に陥れた連続捕食者「BTK」でした。"
+            "2004年に13年の沈黙を破った彼は、2005年2月25日、ケン・ランドウェアー警部補が仕掛けた「紫色のフロッピーディスク」のデジタルフォレンジックの罠に落ち、30年におよぶ二重生活は自滅へと向かいます。\n\n"
+            "本動画では、デニス・レイダー（BTK）の精神構造を「10の核心的心理・行動指標」から徹底解剖します：\n"
+            "1. 社会的余震と集団的妄想：30年にわたる恐怖がウィチタを覆い、市民が防犯に走る中、皮肉にもレイダー自身が警報装置の設置技術者として家庭に入り込んでいた逆説。\n"
+            "2. 被害者の客体化（モノ化）：被害者を人格なき「標的」「獲物」と見なし、記念品を奪いスケッチを描くことで全能感を反芻する心理。\n"
+            "3. 精神の分断（コンパートメンタライゼーション）：模範的な家長・教団幹部と冷酷な捕食者を強固な心理的分離壁で隔て、良心の呵責なく共存させた異常機制。\n"
+            "4. 自己愛の崩壊（ナルシシスティック・コラプス）：懲役175年の判決に直面しても、警察に騙されたことと社会的地位の喪失を嘆くだけで、真の悔悟は見られない自己憐憫。\n"
+            "5. 自己正当化システム（中和技術・ファクターX）：「ファクターX」という外的な悪霊の仕業だと主張し、道徳的責任を外部化して自尊心を守る防衛機制。\n"
+            "6. 心理的トリガーと破綻点：2004年、オテロ事件30周年と地元紙記者による書籍化計画に危機感を覚え、自らの名声が忘れ去られる恐怖から再始動した衝動。\n"
+            "7. シグネチャー対犯行手口（MO）：手口（電話線切断、フロッピー活用）は進化する一方、シグネチャー（挑発文、象徴的拘束、世間の称賛欲求）は一生不変の核心動機。\n"
+            "8. 4段階のエスカレーション軌道：ドーパミン受容体の鈍麻による閾値低下：侵入的妄想（1）→ 執拗な尾行・ストーキング（2）→ 住居侵入拘束（3）→ 致命的危害（4）。\n"
+            "9. ハロー効果と社会的盲点：行政制服、記章、教団役員の肩書が最強の社会的防壁となり、近隣住民や捜査機関の目を30年間完全に遮断した盲点。\n"
+            "10. 生存のための赤い警報（レッドフラグ）：微細な権力乱用、収集癖と隠し場所、条件付きの共感性、無視された際の激しい自己愛憤怒の4つの危険シグナル。"
+        ),
+        "summary_ko": (
+            "30년이 넘는 세월(1974~2005) 동안 데니스 린 레이더는 미국 캔자스주 파크시티에서 완벽한 모범 시민의 가면을 유지했습니다. "
+            "루터교회 평의회 의장, 보이스카우트 지도자, 공군 전역자, 그리고 엄격한 시 조례 단속관—하지만 그 점잖은 외피 아래에는 위치타 일대를 공포에 떨게 한 연쇄 포식자 'BTK'가 숨어 있었습니다. "
+            "2004년 13년의 침묵을 깨고 나타난 그는 2005년 2월 25일, 켄 랜드웨어 경위가 파놓은 '보라색 플로피 디스크' 디지털 포렌식 함정에 걸려들며 30년간의 이중생활에 종지부를 찍게 됩니다.\n\n"
+            "본 영상에서는 데니스 레이더의 내면을 '10가지 핵심 심리 및 행동 지표'를 통해 정밀 해부합니다:\n"
+            "1. 사회적 여진과 집단적 공포증: 30년간 위치타를 짓누른 공포 속에서 시민들이 문을 걸어 잠글 때, 정작 레이더 자신이 방범 경보기를 설치하며 집집마다 드나든 잔혹한 역설.\n"
+            "2. 피해자의 객체화(사물화): 피해자를 인격체가 아닌 '프로젝트'이자 소유물로 취급하며, 전리품과 스케치를 통해 전능감을 환상 속에서 지속적으로 재활성화.\n"
+            "3. 내면의 구획화(심리적 콘크리트벽): 헌신적인 가장·교회 지도자의 영역과 냉혹한 가해자의 영역 사이에 절대적 분리벽을 세워 죄책감 없이 병행한 이상 방어기제.\n"
+            "4. 악성 나르시시즘의 붕괴: 175년형 선고 앞에서도 피해자에 대한 진정한 참회 없이, 경찰의 속임수에 넘어간 수치심과 자신의 명예 실추만을 한탄하는 자기연민.\n"
+            "5. 자기정당화 기제(요인 X의 왜곡): 내면의 범죄 충동을 '요인 X'라는 외부 초자연적 존재 탓으로 돌려 도덕적 죄책감을 회피하고 자아를 방어한 기술.\n"
+            "6. 심리적 방아쇠와 임계점: 2004년 오테로 사건 30주년과 지역 기자의 책 출간 소식이 자신의 악명을 잊히게 만들 것이라는 공포를 자극해 재출현을 촉발.\n"
+            "7. 시그너처 대 범행 수법(MO): 수법(전화선 절단, 디스크 전달)은 상황에 따라 변했으나, 시그너처(도발 편지, 상징적 결박, 사회적 관심 갈망)는 불변의 핵심 욕망으로 지속.\n"
+            "8. 4단계 에스컬레이션 궤적: 도파민 수용체 둔감화로 인한 자극 역치 붕괴: 침습적 망상(1) → 스토킹 및 미행(2) → 가택 침입(3) → 치명적 가해(4).\n"
+            "9. 후광 효과와 사회적 맹점: 단속관 완장, 군 경력, 교회 회장이라는 반듯한 사회적 지위가 이웃과 수사망을 30년간 완벽히 가린 맹점 형성.\n"
+            "10. 생존을 위한 붉은 경보: 일상적 소권력 남용, 비밀 수집벽, 조건부 공감 능력, 무시당했을 때 폭발하는 나르시시즘적 분노 등 4가지 위험 신호."
+        ),
         "sos_ja": """🆘 相談窓口・緊急連絡先（日本国内）
 • 警察相談専用電話：#9110（事件事故に至る前のストーカー・嫌がらせ・犯罪被害等の相談窓口）
 • よりそいホットライン：0120-279-338（通話料無料・24時間対応）
 • こころの健康相談統一ダイヤル：0570-064-556
 • 緊急通報：110（警察）、119（消防・救急）""",
+        "sos_ko": """🆘 범죄 피해 및 위기 상담 전화 (대한민국)
+• 경찰청 범죄 신고: 112
+• 여성긴급전화: 1366 (24시간 가정폭력·성폭력 상담)
+• 정신건강위기상담전화: 1577-0199
+• 자살예방상담전화: 109""",
         "hashtags_ja": "#AmberEyes #犯罪心理学 #BTK #デニスレイダー #実録犯罪 #心理分析 #デジタルフォレンジック #フロッピーディスク #事件記録 #プロファイリング",
+        "hashtags_ko": "#AmberEyes #범죄심리학 #BTK #데니스レイ더 #연쇄살인 #프로파일링 #디지털포렌식 #플로피디스크 #실제사건 #사건기록",
         "need": [],
         "case": "Rader",
         "n1": (("PARK CITY RESIDENT", "Suburban Neighbor", "RESIDENT") if EN else

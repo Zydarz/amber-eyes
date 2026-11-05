@@ -56,19 +56,34 @@ SHATTERED
 ## 4. US YouTube Description with Crisis Resources
 
 ```text
-Ep. 05: The Purple Floppy Disk | The Psychology of BTK Dennis Rader (Compartmentalization)
+Ep. 05: The Purple Floppy Disk | The Psychology of BTK Dennis Rader (10 Psychological Markers & Compartmentalization)
 
-For thirty years, Dennis Rader lived a double life as a devoted family man, church council president, and Cub Scout leader—while secretly terrorizing the Midwest as the serial perpetrator known as BTK. Why did he break a 13-year silence in 2004, and how did a simple purple floppy disk collapse his impenetrable facade?
+For over thirty years (1974–2005), Dennis Lynn Rader constructed an astonishingly flawless mask of normalcy in Park City, Kansas: Lutheran church council president, Boy Scout leader, Air Force veteran, and strict city compliance officer. Beneath this facade lived a two-faced predator who terrorized the Wichita metro area. The historic manhunt culminated on February 25, 2005, when Lieutenant Ken Landwehr baited Rader with digital forensics via a purple floppy disk, collapsing three decades of extreme compartmentalization and malignant narcissism.
 
-In this documentary, Amber eyes examines the intersection of digital forensics, malignant narcissism, and extreme compartmentalization (Factor X) through official police files and trial exhibits.
+The Dennis Rader ("BTK") dossier is dissected through the 10 Core Psychological & Behavioral Markers:
+1. SOCIAL AFTERSHOCKS & COLLECTIVE PARANOIA: A 30-year reign of fear gripped Wichita; families installed deadbolts and guard dogs while Rader himself paradoxically installed security alarms in hundreds of homes.
+2. OBJECTIFICATION OF VICTIMS: Reduced victims to nameless "projects" and prey, harvesting trophies and drafting obsessive sketches to rekindle omnipotent fantasies.
+3. COMPARTMENTALIZATION (THE CONCRETE WALL): Erected an airtight psychological barrier separating the devoted family man and church elder from the cold-blooded predator.
+4. NARCISSISTIC COLLAPSE: Facing 175 years without parole, Rader expressed no genuine remorse, weeping only over police deception and the destruction of his self-image.
+5. NEUTRALIZATION & "FACTOR X": Invented a mystical "Factor X" demon to externalize blame and absolve his ego of moral responsibility.
+6. PSYCHOLOGICAL TRIGGER & FRACTURE POINT: The 30th anniversary of the Otero case and Robert Beattie's upcoming book in 2004 threatened Rader with obsolescence, triggering an insatiable hunger for attention.
+7. SIGNATURE VS. MODUS OPERANDI: MO evolved from phone-line cutting to floppy disks; Signature (taunting communiqués, bondage rituals, craving public adulation) remained frozen.
+8. 4-STAGE ESCALATION TRAJECTORY: Dopamine receptor desensitization drove progressive escalation: intrusive fantasies (1) → stalking & prowling (2) → home invasion (3) → lethal violence (4).
+9. THE HALO EFFECT & BLIND SPOTS: His municipal uniform, badges, and church presidency created an impenetrable social shield that blinded neighbors and authorities for decades.
+10. SURVIVAL RED FLAGS: 4 behavioral indicators of hidden predators: petty bureaucratic tyranny, secretive trophy hoarding, conditional empathy, and narcissistic rage when ignored.
 
 ⏱ CHAPTERS
 00:00 Intro
-00:20 Act 1 · The Letter Resurfaces After 13 Years of Silence
-05:24 Act 2 · The Crime Scene & Psychological Signature of a Two-Faced Predator
-09:22 Act 3 · Inside the Mind of Malignant Narcissism
-13:36 Act 4 · The Interrogation & The Digital Forensic Trap
-19:47 Act 5 · The Verdict, Red Flags & Closing Thoughts
+00:23 Act 1 · The Letter Resurfaces After 13 Years of Silence
+05:15 Act 2 · The Crime Scene & Psychological Signature of a Two-Faced Predator
+09:20 Act 3 · Inside the Mind of Malignant Narcissism — Compartmentalization & Factor X
+13:40 Act 4 · The Interrogation & The Digital Forensic Trap
+19:15 Act 5 · The Verdict, Survival Red Flags & Epilogue
+
+⚠️ DISCLAIMER & ADVISORY
+• Educational content: A forensic & criminal psychology analysis based strictly on public records, trial exhibits, and official police interrogation transcripts.
+• Investigative purpose: Produced solely for educational, criminological, and public safety awareness; not a substitute for professional legal, medical, or psychiatric advice.
+• Dramatized AI narration and artwork: Characters Owl, Wolf, Fox, Sheep, and Cat are symbolic artistic representations.
 
 CRISIS AND SUPPORT RESOURCES:
 If you or someone you know has been affected by crime, abuse, or trauma, support is available:
@@ -76,8 +91,5 @@ If you or someone you know has been affected by crime, abuse, or trauma, support
 • Suicide & Crisis Lifeline: Call or text 988 (Available 24/7, free and confidential)
 • National Domestic Violence Hotline: 1-800-799-SAFE (7233) | thehotline.org
 
-DISCLAIMER:
-This documentary is produced for educational and criminological awareness purposes. All facts and quotes are derived from public records, trial exhibits, and official law enforcement archives. Narration and visual avatars are dramatized AI productions.
-
-#AmberEyes #TrueCrime #CriminalPsychology #BTK #DennisRader #ForensicFiles #DigitalForensics
+#AmberEyes #TrueCrime #CriminalPsychology #BTK #DennisRader #ForensicFiles #DigitalForensics #MalignantNarcissism #Compartmentalization #10PsychologicalMarkers
 ```
