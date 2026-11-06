@@ -1,0 +1,38 @@
+# Câu cần nghe — Tập 02 EN (Higgs) — 05/11/2026
+
+Master Target: `02_SAN_XUAT/Tap02_EN/xuat_ban/Tap02_EN_master.mp3` · 1396.9 s (~23.3 min) · 203 câu · lời đầu 23.0 s · lời cuối 1387.91 s
+
+**Chất lượng tổng quan:** Whisper CER trung bình = 0.89% (trung vị 0.00%) · UTMOSv2 MOS = 3.42/5.0 · Cặp vai D-H = 5.04 nửa cung.
+
+| Mốc | Câu | Vai | CER | MOS | Câu gốc | ASR nghe được | Ghi chú |
+|---|---|---|---:|---:|---|---|---|
+| 1:21.59 | 1.07#3 | N1 | 3.5% | 3.27 | Yet after the truth broke every time I recall his composed gaze during military parades, a chill runs down my spine. | After the truth broke every time I recall his composed gaze during military parades, a chill runs down my spine. | Nghe xác nhận |
+| 1:45.47 | 1.08#2 | H | 8.0% | 3.79 | Out there, the commanding colonel no longer existed. | Out there, the commanding kernel no longer existed. | Nghe xác nhận |
+| 1:54.78 | 1.10#1 | H | 4.3% | 3.51 | The night of January 28th, 2010. | The night of January 28, 2010. | Nghe xác nhận |
+| 1:57.85 | 1.10#2 | H | 2.1% | 3.11 | Jessica Lloyd — a 27-year-old employee in the city of Belleville — vanished from her home. | Jessica Lloyd, a 27-year-old employee in the city of Belville, vanished from her home. | Nghe xác nhận |
+| 3:00.72 | 1.14#6 | H | 8.9% | 3.22 | He was sent on his way with polite courtesies. | He was sent on his way with polite curses. | Nghe xác nhận |
+| 6:41.17 | 2.05#15 | D | 2.1% | 3.09 | In late November 2009, he targeted Corporal Marie-France Comeau — a 37-year-old soldier serving with 437 Transport Squadron on the very base he commanded. | In late November 2009, he targeted Corporal Marie-France Camo, a 37-year-old soldier serving with 437 transport squadron on the very base he commanded. | Nghe xác nhận |
+| 9:03.74 | 3.05#1 | C | 4.2% | 3.65 | When analyzing Russell Williams, we must not dismiss him as a psychotic or delusional individual. | and analyzing Russell Williams. We must not dismiss him as a psychotic or delusional individual. | Nghe xác nhận |
+| 9:09.41 | 3.05#2 | C | 3.4% | 3.99 | On the contrary, Williams was entirely lucid and possessed exceptional intellectual capability. | From the contrary, Williams was entirely lucid and possessed exceptional intellectual capability. | Nghe xác nhận |
+| 9:20.43 | 3.05#4 | C | 4.1% | 3.53 | The first layer: <\|prosody:pause\|> The Law of Behavioral Escalation and Dopamine Desensitization. | At first layer, the law of behavioral escalation and dopamine desensitization. | Nghe xác nhận |
+| 11:11.47 | 3.08#4 | C | 5.1% | 3.90 | The first compartment: <\|prosody:pause\|> Colonel Williams — the immaculate commander, devoted to military order, rigor, hierarchy, and civic virtue. | First compartment, Colonel Williams, the Immaculate Commander, devoted to military order, Riga, hierarchy and civic virtue. | Nghe xác nhận |
+| 11:20.34 | 3.08#5 | C | 5.0% | 3.47 | The second compartment: <\|prosody:pause\|> The nocturnal predator — where he discarded every societal constraint to indulge his most primitive desires. | second compartment, the nocturnal predator, where he discarded every societal constraint to indulge his most primitive desires. | Nghe xác nhận |
+| 11:28.49 | 3.08#6 | C | 4.8% | 3.37 | When inhabiting one compartment, he sealed the door to the other. | In inhabiting one compartment, he sealed the door to the other. | Nghe xác nhận |
+| 12:07.35 | 3.08#12 | C | 4.0% | 3.74 | And it is the statement that compels us to recalibrate our entire understanding of human culpability. | It is the statement that compels us to recalibrate our entire understanding of human culpability. | Nghe xác nhận |
+| 12:28.68 | 3.11#2 | C | 2.7% | 3.71 | At the apex of military command, Williams grew accustomed to issuing orders that thousands unquestioningly obeyed. | the apex of military command, Williams grew accustomed to issuing orders that thousands unquestioningly obeyed. | Nghe xác nhận |
+| 12:35.39 | 3.11#3 | C | 2.4% | 3.39 | Yet military authority remains bound by regulations, civil oversight, and command chains. | At Military Authority remains bound by regulations, civil oversight and command chains. | Nghe xác nhận |
+| 13:05.14 | 3.11#6 | C | 5.1% | 3.71 | Thus, his ego was never crushed by shame. | us his ego was never crushed by shame. | Nghe xác nhận |
+| 13:22.34 | 3.11#10 | C | 8.0% | 3.64 | A frenzy burns itself out. | frenzy burns itself out. | Nghe xác nhận |
+| 13:32.85 | 4.03#1 | H | 5.9% | 3.69 | Sunday, February 7th, 2010. | Sunday, February 7, 2010. | Nghe xác nhận |
+| 13:36.36 | 4.03#2 | H | 14.0% | 3.49 | Police headquarters in Ottawa, 3:00 PM. | Police headquarters in Ottawa, 3 o'clock p.m. | Nghe xác nhận |
+| 13:54.07 | 4.03#5 | H | 3.3% | 3.71 | And the most telling aspect of this setting lay elsewhere: the colonel had arrived voluntarily, following a polite phone call. | and the most telling aspect of this setting, Lay Elsewhere. The kernel had arrived voluntarily following a polite phone call. | Nghe xác nhận |
+| 14:28.45 | 4.06#2 | N2 | 4.3% | 2.95 | Doors remained locked, yet personal belongings were mysteriously rearranged without explanation. | or is remained locked, yet personal belongings were mysteriously rearranged without explanation. | Nghe xác nhận |
+| 15:55.94 | 4.08#7 | D | 13.8% | 3.23 | The colonel paused noticeably. | The kernel paused noticeably. | Nghe xác nhận |
+| 17:12.36 | 4.11#2 | C | 3.9% | 4.13 | The discovery of the hard drives permanently shattered the wall between his two compartmentalized minds. | discovery of the hard drives permanently shattered the wall between his two compartmentalized minds. | Nghe xác nhận |
+| 17:34.72 | 4.11#6 | C | 5.6% | 3.88 | And here lies the most telling psychological insight: the concerns he voiced were entirely focused on his wife and the fallout for the military base. | He realized the most telling psychological insight. The concerns he voiced were entirely focused on his wife, and the fallout for the military base. | Nghe xác nhận |
+| 17:51.01 | 4.11#9 | C | 3.5% | 3.50 | It was the agonizing collapse of a malignant narcissist realizing his facade of honor had been stripped away before the people who matter most. | It was the agonizing collapse of a malignant narcissist realizing his facade of honor had been stripped away before the people who met him most. | Nghe xác nhận |
+| 18:11.49 | 4.12#3 | H | 3.0% | 3.50 | Throughout the remaining hours of questioning, he confessed to the murder of Corporal Marie-France Comeau and two home invasions in Tweed. | Throughout the remaining hours of questioning, he confessed to the murder of Corporal Marie-France Camo and two home invasions in Tweed. | Nghe xác nhận |
+| 18:44.86 | 5.02#3 | H | 2.1% | 3.61 | On October 18th, Russell Williams entered guilty pleas to all 88 criminal counts. | On October 18, Russell Williams entered guilty pleas to all 88 criminal counts. | Nghe xác nhận |
+| 20:42.58 | 5.07#2 | C | 3.3% | 3.91 | When an individual commands high social standing, we instinctively lower our defensive guard. | In an individual commands high social standing, we instinctively lower our defensive guard. | Nghe xác nhận |
+| 20:47.89 | 5.07#3 | C | 2.7% | 3.89 | Yet predatory violence never starts with a lethal weapon or a fatal crime. | At predatory violence never starts with a lethal weapon or a fatal crime. | Nghe xác nhận |
+| 21:11.02 | 5.07#6 | C | 2.7% | 3.61 | By the time guilt is completely anesthetized, the abyss devours both the innocent victims and the perpetrator himself. | The time guilt is completely anesthetized, the abyss devours both the innocent victims and the perpetrator himself. | Nghe xác nhận |

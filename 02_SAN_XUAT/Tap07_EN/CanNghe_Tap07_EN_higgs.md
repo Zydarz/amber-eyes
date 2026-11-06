@@ -1,0 +1,30 @@
+# Câu cần nghe — Tập 07 EN (Higgs) — 04/11/2026
+
+Master Target: `02_SAN_XUAT/Tap07_EN/xuat_ban/Tap07_EN_master.mp3` · 1086.8 s (~18.1 min) · 164 câu · lời đầu 23.0 s · lời cuối 1077.42 s
+
+**Chất lượng tổng quan:** Whisper CER trung bình = 0.76% (trung vị 0.00%) · UTMOSv2 MOS = 3.42/5.0 · Cặp vai D-H = 5.14 nửa cung.
+
+| Mốc | Câu | Vai | CER | MOS | Câu gốc | ASR nghe được | Ghi chú |
+|---|---|---|---:|---:|---|---|---|
+| 0:23.00 | 1.02#1 | H | 15.4% | 3.52 | Welcome back to Amber Eyes. | Welcome back to Amberize. | Nghe xác nhận |
+| 1:12.73 | 1.06#1 | H | 10.4% | 3.03 | Inside the cabin lay the body of eighteen-year-old Conrad Henri Roy the Third. | Inside the cabin lay the body of 18-year-old Conrad Henri Roy III. | Nghe xác nhận |
+| 1:54.03 | 1.07#1 | N1 | 2.3% | 2.93 | That entire morning, I called Conrad repeatedly, but his phone went straight to voicemail. | At entire morning, I called Conrad repeatedly, but his phone went straight to voicemail. | Nghe xác nhận |
+| 2:09.90 | 1.07#4 | N1 | 2.4% | 3.54 | I blamed myself in agonizing grief for failing to rescue my son from his depression. | Blamed myself in agonizing grief for failing to rescue my son from his depression. | Nghe xác nhận |
+| 2:20.34 | 1.07#6 | N1 | 2.0% | 3.86 | I had no inkling that an invisible hand had pushed my child to his death from dozens of miles away. | had no inkling that an invisible hand had pushed my child to his death from dozens of miles away. | Nghe xác nhận |
+| 3:33.99 | 1.12#2 | C | 3.7% | 3.82 | They constantly oscillate between the instinct for survival and the desperate longing to end their mental agony. | It constantly oscillate between the instinct for survival and the desperate longing to end their mental agony. | Nghe xác nhận |
+| 5:37.07 | 2.06#1 | D | 3.7% | 3.35 | The transcripts we extracted between July 2nd and July 12th, 2014, are genuinely chilling to read. | The transcripts we extracted between July 2 and July 12, 2014, are genuinely chilling to read. | Nghe xác nhận |
+| 6:29.30 | 2.08#2 | C | 3.8% | 3.36 | The manipulator does not wield physical force, but targets the victim's self-esteem and vulnerability to shame. | Manipulator does not wield physical force, but targets the victim's self-esteem and vulnerability to shame. | Nghe xác nhận |
+| 6:44.04 | 2.08#4 | C | 2.4% | 3.20 | In Conrads impressionable perception, stepping back meant admitting he was an absolute failure in the eyes of his girlfriend. | Conrad's impressionable perception, stepping back meant admitting he was an absolute failure in the eyes of his girlfriend. | Nghe xác nhận |
+| 6:51.78 | 2.09#1 | H | 2.4% | 3.41 | On the night of July 12th, 2014, that psychological snare snapped shut. | On the night of July 12, 2014, that psychological snare snapped shut. | Nghe xác nhận |
+| 7:18.17 | 2.09#6 | H | 7.0% | 3.49 | Overcome by asphyxiation, he opened the truck door and stepped out into the clean night air. | Overcome by his fixation, he opened the truck door and stepped out into the clean night air. | Nghe xác nhận |
+| 8:10.97 | 3.03#1 | C | 2.3% | 3.70 | The answer resides within a complex clinical pathology: <\|prosody:pause\|> Histrionic Personality Disorder intertwined with Digital Munchausen Syndrome. | The answer resides within a complex clinical pathology. Historyonic personality disorder, intertwined with digital Munchhausen syndrome. | Nghe xác nhận |
+| 8:28.59 | 3.03#3 | C | 4.7% | 3.64 | They cannot tolerate feelings of being ordinary or overlooked within their peer group. | It cannot tolerate feelings of being ordinary or overlooked within their peer group. | Nghe xác nhận |
+| 9:02.92 | 3.05#2 | D | 6.9% | 3.31 | In 2013, actor Cory Monteith, Lea Micheles real-life partner, passed away suddenly from a substance overdose. | In 2013, actor Corey Montyth, Leah McEllis, real-life partner, passed away suddenly from a substance overdose. | Nghe xác nhận |
+| 10:20.37 | 3.07#3 | C | 2.4% | 3.75 | When Conrad hesitated, his act of exiting the truck threatened to dismantle the grand scenario she had painstakingly constructed. | In Conrad hesitated, his act of exiting the truck threatened to dismantle the grand scenario she had painstakingly constructed. | Nghe xác nhận |
+| 11:01.69 | 3.08#7 | H | 4.1% | 3.64 | Until her own arrogance and compulsive need to boast stripped that facade away. | until her own arrogance and compulsive need to boast, strip that facade away. | Nghe xác nhận |
+| 11:37.90 | 4.03#2 | N2 | 7.3% | 2.61 | Michelle wrote to me verbatim: <\|prosody:pause\|> Conrad's death is my fault. | She'll wrote to me verbatim. Conrad's death is my fault. | Nghe xác nhận |
+| 11:55.71 | 4.03#7 | N2 | 3.1% | 2.77 | The girl who had been crying every day playing the devastated girlfriend was the one who ordered Conrad back into that toxic trap. | Girl who had been crying every day playing the devastated girlfriend was the one who ordered Conrad back into that toxic trap. | Nghe xác nhận |
+| 13:17.44 | 4.07#1 | C | 6.2% | 3.70 | The defense even retained a prominent psychiatrist to argue that Michelle suffered involuntary intoxication triggered by side effects of the antidepressant Celexa. | Defence even retained a prominent psychiatrist to argue that Michelle suffered involuntary intoxication triggered by side-effects of the antidepressant selector. | Nghe xác nhận |
+| 13:26.85 | 4.07#2 | C | 6.0% | 3.76 | They framed her conduct as involuntary pharmacological intoxication. | It framed her conduct as involuntary pharmacological intoxication. | Nghe xác nhận |
+| 15:38.81 | 5.03#1 | C | 3.8% | 3.67 | The Michelle Carter dossier stands as a stark warning to parents and adolescents across the social media era. | Michelle Carter-Dossier stands as a stark warning to parents and adolescents across the social media era. | Nghe xác nhận |
+| 17:13.53 | 5.04#11 | H | 2.2% | 3.35 | The fourth red flag: <\|prosody:pause\|> Heed your survival instincts and decisively sever toxic digital communication. | The fourth red flag, heat your survival instincts, and decisively sever toxic digital communication. | Nghe xác nhận |
