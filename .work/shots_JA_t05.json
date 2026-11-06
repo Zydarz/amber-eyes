@@ -1,11 +1,11 @@
 {
- "total": 1471.43,
+ "total": 1745.37,
  "shots": [
   {
    "id": "1-00",
    "act": 1,
    "start": 20.5,
-   "end": 22.6,
+   "end": 22.81,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -42,8 +42,8 @@
   {
    "id": "1-01",
    "act": 1,
-   "start": 22.6,
-   "end": 36.52,
+   "start": 22.81,
+   "end": 37.37,
    "role": "H",
    "sentences": [
     "1.03#1",
@@ -61,11 +61,11 @@
      "elems": [
       [
        "bold",
-       "2004年3月19日"
+       "19 · 03 · 2004"
       ],
       [
        "ital",
-       "カンザス州ウィシタ市"
+       "ウィチタ市・カンザス州・アメリカ"
       ]
      ]
     }
@@ -87,8 +87,8 @@
   {
    "id": "1-02",
    "act": 1,
-   "start": 36.52,
-   "end": 44.28,
+   "start": 37.37,
+   "end": 49.24,
    "role": "H",
    "sentences": [
     "1.03#3"
@@ -105,11 +105,11 @@
      "elems": [
       [
        "bold",
-       "THE WICHITA EAGLE 編集局"
+       "VICKI WEGERLEの運転免許証コピー"
       ],
       [
        "ital",
-       "差出人住所のない封筒"
+       "1986年に命を奪われ未解決事件となっていた被害者"
       ]
      ]
     }
@@ -131,8 +131,8 @@
   {
    "id": "1-03",
    "act": 1,
-   "start": 44.28,
-   "end": 48.41,
+   "start": 49.24,
+   "end": 59.24,
    "role": "H",
    "sentences": [
     "1.03#4"
@@ -149,11 +149,15 @@
      "elems": [
       [
        "bold",
-       "VICKI WEGERLE の運転免許証コピー"
+       "署名された3つの頭文字"
+      ],
+      [
+       "quote",
+       "B-T-K"
       ],
       [
        "ital",
-       "現場写真3枚"
+       "数十年にわたりアメリカ中西部を恐怖に陥れた"
       ]
      ]
     }
@@ -175,8 +179,8 @@
   {
    "id": "1-04",
    "act": 1,
-   "start": 48.41,
-   "end": 61.83,
+   "start": 59.24,
+   "end": 68.1,
    "role": "H",
    "sentences": [
     "1.03#5"
@@ -193,11 +197,11 @@
      "elems": [
       [
        "ital",
-       "中西部全域を覆った恐怖"
+       "冷徹な宣言"
       ],
       [
        "bold",
-       "署名：B-T-K"
+       "かつて地域を震撼させた連続犯が公式に再び戻った"
       ]
      ]
     }
@@ -219,8 +223,8 @@
   {
    "id": "1-05",
    "act": 1,
-   "start": 61.83,
-   "end": 63.13,
+   "start": 68.1,
+   "end": 69.2,
    "role": null,
    "sentences": [],
    "template": "T2",
@@ -235,11 +239,11 @@
      "elems": [
       [
        "ital",
-       "中西部全域を覆った恐怖"
+       "冷徹な宣言"
       ],
       [
        "bold",
-       "署名：B-T-K"
+       "かつて地域を震撼させた連続犯が公式に再び戻った"
       ]
      ]
     }
@@ -262,8 +266,8 @@
   {
    "id": "1-06",
    "act": 1,
-   "start": 63.13,
-   "end": 82.61,
+   "start": 69.2,
+   "end": 87.52,
    "role": "H",
    "sentences": [
     "1.05#1",
@@ -281,11 +285,11 @@
      "elems": [
       [
        "bold",
-       "全米を揺るがせたニュース"
+       "全米を震撼させたBTK再出現"
       ],
       [
        "ital",
-       "1974年から1991年まで"
+       "1974年から1991年にかけて10人もの無辜の市民の命を奪う"
       ]
      ]
     }
@@ -307,8 +311,8 @@
   {
    "id": "1-07",
    "act": 1,
-   "start": 82.61,
-   "end": 95.41,
+   "start": 87.52,
+   "end": 102.57,
    "role": "H",
    "sentences": [
     "1.05#3",
@@ -326,11 +330,11 @@
      "elems": [
       [
        "bold",
-       "痕跡を残さず消えた幽霊"
+       "何の痕跡も残さず姿を消した亡霊"
       ],
       [
        "ital",
-       "13年間の沈黙"
+       "13年間、新たな事件も書簡も浮上せず"
       ]
      ]
     }
@@ -352,8 +356,8 @@
   {
    "id": "1-08",
    "act": 1,
-   "start": 95.41,
-   "end": 107.67,
+   "start": 102.57,
+   "end": 111.69,
    "role": "H",
    "sentences": [
     "1.05#5"
@@ -370,11 +374,11 @@
      "elems": [
       [
        "bold",
-       "ウィシタ警察とFBIの記録"
+       "ウィチタ警察とFBIの認識"
       ],
       [
        "ital",
-       "死亡または服役と推測"
+       "犯人は死亡したか、別名で刑務所に服役中のでしょう"
       ]
      ]
     }
@@ -396,8 +400,8 @@
   {
    "id": "1-09",
    "act": 1,
-   "start": 107.67,
-   "end": 108.97,
+   "start": 111.69,
+   "end": 112.79,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -412,11 +416,11 @@
      "elems": [
       [
        "bold",
-       "ウィシタ警察とFBIの記録"
+       "ウィチタ警察とFBIの認識"
       ],
       [
        "ital",
-       "死亡または服役と推測"
+       "犯人は死亡したか、別名で刑務所に服役中のでしょう"
       ]
      ]
     }
@@ -439,8 +443,8 @@
   {
    "id": "1-10",
    "act": 1,
-   "start": 108.97,
-   "end": 118.58,
+   "start": 112.79,
+   "end": 124.17,
    "role": "H",
    "sentences": [
     "1.07#1"
@@ -457,11 +461,11 @@
      "elems": [
       [
        "ital",
-       "ウィシタ郊外の静かな町"
+       "心情を思い浮かべてください"
       ],
       [
        "bold",
-       "パークシティの住民の話"
+       "ウィチタ郊外の静かな町Park Cityの住民"
       ]
      ]
     }
@@ -485,12 +489,13 @@
   {
    "id": "1-11",
    "act": 1,
-   "start": 118.58,
-   "end": 135.45,
+   "start": 124.17,
+   "end": 149.42,
    "role": "N1",
    "sentences": [
     "1.09#1",
-    "1.09#2"
+    "1.09#2",
+    "1.09#3"
    ],
    "template": "T4",
    "variant": "testimony",
@@ -504,16 +509,16 @@
      "elems": [
       [
        "quote",
-       "町中全体が恐怖で息を詰まらせました。"
+       "10年以上を経てBTKが再び手紙を送ってきたと知ったとき、町全体が恐怖で息をのみました。"
       ]
      ]
     },
     {
-     "at_sentence": null,
+     "at_sentence": 3,
      "elems": [
       [
        "quote",
-       "人々は窓を点検し、ドアを施錠しました。"
+       "人々は銃を買い足し、鍵を取り替え、センサーライトを設置し、日が暮れる前に雨戸を固く閉ざしました。"
       ]
      ]
     }
@@ -535,11 +540,12 @@
   {
    "id": "1-12",
    "act": 1,
-   "start": 135.45,
-   "end": 156.7,
+   "start": 149.42,
+   "end": 168.78,
    "role": "N1",
    "sentences": [
-    "1.09#3"
+    "1.09#4",
+    "1.09#5"
    ],
    "template": "T4",
    "variant": "testimony",
@@ -553,7 +559,7 @@
      "elems": [
       [
        "quote",
-       "毎日草刈りをしていた男だったとは誰も予想しませんでした。"
+       "全米が捜し求めていた怪物が、毎日近所の芝生の長さを測りに来ていたあの誠実な職員だったとは、夢にも思いませんでした"
       ]
      ]
     }
@@ -575,14 +581,13 @@
   {
    "id": "1-13",
    "act": 1,
-   "start": 156.7,
-   "end": 175.75,
+   "start": 168.78,
+   "end": 184.55,
    "role": "H",
    "sentences": [
     "1.10#1",
     "1.10#2",
-    "1.10#3",
-    "1.10#4"
+    "1.10#3"
    ],
    "template": "T1",
    "variant": "",
@@ -596,20 +601,20 @@
      "elems": [
       [
        "bold",
-       "司法史における奇異な逆説"
+       "現代の犯罪捜査史で最も奇妙な逆説の一つ"
       ],
       [
        "ital",
-       "13年間眠り続けていた"
+       "犯人は13年もの間、完璧な冬眠状態を維持"
       ]
      ]
     },
     {
-     "at_sentence": null,
+     "at_sentence": 3,
      "elems": [
       [
        "ital",
-       "当時の科学と技術は無力だった"
+       "かつての現場の手がかりは完全に冷え切っていた"
       ]
      ]
     }
@@ -631,8 +636,52 @@
   {
    "id": "1-14",
    "act": 1,
-   "start": 175.75,
-   "end": 198.63,
+   "start": 184.55,
+   "end": 191.71,
+   "role": "H",
+   "sentences": [
+    "1.10#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_compliance_truck_street",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "当時の捜査技術では正体を掴めなかった"
+      ],
+      [
+       "ital",
+       "いかなる手がかりも得られなかった"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-15",
+   "act": 1,
+   "start": 191.71,
+   "end": 218.41,
    "role": "H",
    "sentences": [
     "1.10#5",
@@ -650,12 +699,17 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "尊敬される市民として生き抜くこともできた"
-      ],
-      [
        "bold",
-       "なぜ自ら罠へ足を踏み入れたのか"
+       "何がその怪物を突き動かし、自ら沈黙を破らせたのか"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "なぜあれほど極端に慎重だった捕食者が、自ら光の中へと踏み出たのか"
       ]
      ]
     }
@@ -675,10 +729,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-15",
+   "id": "1-16",
    "act": 1,
-   "start": 198.63,
-   "end": 200.03,
+   "start": 218.41,
+   "end": 219.61,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -692,12 +746,17 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "尊敬される市民として生き抜くこともできた"
-      ],
-      [
        "bold",
-       "なぜ自ら罠へ足を踏み入れたのか"
+       "何がその怪物を突き動かし、自ら沈黙を破らせたのか"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "なぜあれほど極端に慎重だった捕食者が、自ら光の中へと踏み出たのか"
       ]
      ]
     }
@@ -715,13 +774,13 @@
    },
    "hold": true,
    "transition": "dissolve",
-   "inherit": "1-14"
+   "inherit": "1-15"
   },
   {
-   "id": "1-16",
+   "id": "1-17",
    "act": 1,
-   "start": 200.03,
-   "end": 208.33,
+   "start": 219.61,
+   "end": 226.76,
    "role": "H",
    "sentences": [
     "1.12#1"
@@ -738,11 +797,11 @@
      "elems": [
       [
        "ital",
-       "歴史的な頭脳戦の始まり"
+       "捜査官に事件ファイルを開いていただきましょう"
       ],
       [
        "bold",
-       "事件を直接指揮した捜査官の話"
+       "歴史的な心理戦の幕開け"
       ]
      ]
     }
@@ -764,10 +823,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-17",
+   "id": "1-18",
    "act": 1,
-   "start": 208.33,
-   "end": 224.17,
+   "start": 226.76,
+   "end": 246.56,
    "role": "D",
    "sentences": [
     "1.14#1",
@@ -785,11 +844,20 @@
      "elems": [
       [
        "bold",
-       "捜査班の最初の問い"
+       "専従班が抱いた最大の疑問"
       ],
       [
        "ital",
-       "なぜ今なのか？"
+       "「なぜ今なのか」という点"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "彼の眠れる衝動を爆発させた心理的引き金が判明"
       ]
      ]
     }
@@ -809,10 +877,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-18",
+   "id": "1-19",
    "act": 1,
-   "start": 224.17,
-   "end": 257.82,
+   "start": 246.56,
+   "end": 279.41,
    "role": "D",
    "sentences": [
     "1.14#3",
@@ -831,11 +899,11 @@
      "elems": [
       [
        "bold",
-       "30周年記念の一連の記事"
+       "BTK初犯から30年を記念する特集記事"
       ],
       [
        "ital",
-       "事件に関する書籍の出版発表"
+       "弁護士Robert Beattieが死亡説や忘れ去られた存在説を提示"
       ]
      ]
     }
@@ -855,10 +923,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-19",
+   "id": "1-20",
    "act": 1,
-   "start": 257.82,
-   "end": 274.86,
+   "start": 279.41,
+   "end": 297.32,
    "role": "D",
    "sentences": [
     "1.14#6",
@@ -875,12 +943,12 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "致命的な弱点"
+       "bold",
+       "病的な自尊心への致命的な一撃"
       ],
       [
-       "bold",
-       "病的な自愛心を貫く一撃"
+       "ital",
+       "Dennis Raderは自分が忘れ去られることに耐えられなかった"
       ]
      ]
     }
@@ -900,10 +968,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-20",
+   "id": "1-21",
    "act": 1,
-   "start": 274.86,
-   "end": 307.51,
+   "start": 297.32,
+   "end": 319.21,
    "role": "H",
    "sentences": [
     "1.16#1",
@@ -922,11 +990,15 @@
      "elems": [
       [
        "bold",
-       "忘れられることを受け入れられなかった"
+       "紫色のフロッピーディスク & 悪性自己愛"
       ],
       [
        "ital",
-       "怪物は今も生きていると誇示する"
+       "Dennis Rader（BTK）事件ファイル"
+      ],
+      [
+       "ital",
+       "10の心理的指標エコシステム"
       ]
      ]
     }
@@ -946,10 +1018,50 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-21",
+   "id": "1-22",
    "act": 1,
-   "start": 307.51,
-   "end": 309.31,
+   "start": 319.21,
+   "end": 329.91,
+   "role": "H",
+   "sentences": [
+    "1.16#4"
+   ],
+   "template": "T10",
+   "variant": "",
+   "bg": "t5_amber_eyes_dossier_05",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "なぜ一枚の紫色のフロッピーディスクが難攻不落の要塞を崩したのか"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Mournful cello `1.15` rises",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-23",
+   "act": 1,
+   "start": 329.91,
+   "end": 331.71,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -990,8 +1102,8 @@
   {
    "id": "2-01",
    "act": 2,
-   "start": 309.31,
-   "end": 333.79,
+   "start": 331.71,
+   "end": 355.03,
    "role": "H",
    "sentences": [
     "2.02#1",
@@ -1009,11 +1121,11 @@
      "elems": [
       [
        "bold",
-       "1974年 · 最初の事件"
+       "1974年から1991年にかけて彼が残した痕跡"
       ],
       [
        "ital",
-       "手紙による挑発的メッセージ"
+       "極めて特異な手口と心理的署名"
       ]
      ]
     }
@@ -1035,12 +1147,13 @@
   {
    "id": "2-02",
    "act": 2,
-   "start": 333.79,
-   "end": 354.91,
+   "start": 355.03,
+   "end": 379.91,
    "role": "H",
    "sentences": [
     "2.02#3",
-    "2.02#4"
+    "2.02#4",
+    "2.02#5"
    ],
    "template": "T2",
    "variant": "",
@@ -1054,11 +1167,15 @@
      "elems": [
       [
        "ital",
-       "自ら作った頭文字"
+       "自らに付けた呼び名"
       ],
       [
        "bold",
-       "B-T-K"
+       "BTK"
+      ],
+      [
+       "ital",
+       "拘束・苦痛・命の破壊を意味する3つの英単語の頭文字"
       ]
      ]
     }
@@ -1080,8 +1197,8 @@
   {
    "id": "2-03",
    "act": 2,
-   "start": 354.91,
-   "end": 373.84,
+   "start": 379.91,
+   "end": 412.38,
    "role": "D",
    "sentences": [
     "2.04#1",
@@ -1099,12 +1216,16 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "犯行の手口（MO）"
+       "ital",
+       "FBI行動科学部 · 心理的署名"
       ],
       [
        "ital",
-       "侵入し、遂行し、逃走する"
+       "MOは環境に応じて柔軟に変化する"
+      ],
+      [
+       "ital",
+       "Signatureは内面的な感情を満たすため決して変わらない"
       ]
      ]
     }
@@ -1126,8 +1247,8 @@
   {
    "id": "2-04",
    "act": 2,
-   "start": 373.84,
-   "end": 389.0,
+   "start": 412.38,
+   "end": 427.69,
    "role": "D",
    "sentences": [
     "2.04#4",
@@ -1144,12 +1265,12 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "心理的署名（Signature）"
+       "bold",
+       "3つの特徴"
       ],
       [
-       "bold",
-       "感情面のニーズを満たす行為"
+       "ital",
+       "第1の特徴：無力な被害者を前に絶対的な権力を行使し完全に支配したいという欲求"
       ]
      ]
     }
@@ -1171,13 +1292,12 @@
   {
    "id": "2-05",
    "act": 2,
-   "start": 389.0,
-   "end": 410.11,
+   "start": 427.69,
+   "end": 444.82,
    "role": "D",
    "sentences": [
     "2.04#6",
-    "2.04#7",
-    "2.04#8"
+    "2.04#7"
    ],
    "template": "T1",
    "variant": "",
@@ -1191,11 +1311,20 @@
      "elems": [
       [
        "bold",
-       "記念品（Trophy）の略奪"
+       "第2の特徴：戦利品『Trophies』の保管"
       ],
       [
        "ital",
-       "運転免許証や所持品を持ち去る"
+       "一人でいるときに興奮を反芻するため"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "第3の特徴：法執行機関やマスメディアを挑発したいという欲求"
       ]
      ]
     }
@@ -1217,12 +1346,12 @@
   {
    "id": "2-06",
    "act": 2,
-   "start": 410.11,
-   "end": 428.77,
+   "start": 444.82,
+   "end": 463.42,
    "role": "D",
    "sentences": [
-    "2.04#9",
-    "2.04#10"
+    "2.04#8",
+    "2.04#9"
    ],
    "template": "T1",
    "variant": "",
@@ -1235,12 +1364,21 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "記念品を何度も取り出して眺める"
+       "bold",
+       "秘密と挑発"
       ],
       [
-       "bold",
-       "暗黒の幻想を追体験する"
+       "ital",
+       "公共図書館の本の中や公園のゴミ箱に残した小包"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 9,
+     "elems": [
+      [
+       "ital",
+       "これらの戦利品や挑発状こそが捕食者の異常な精神状態を物語っていた"
       ]
      ]
     }
@@ -1262,14 +1400,13 @@
   {
    "id": "2-07",
    "act": 2,
-   "start": 428.77,
-   "end": 460.77,
+   "start": 463.42,
+   "end": 486.55,
    "role": "H",
    "sentences": [
     "2.05#1",
     "2.05#2",
-    "2.05#3",
-    "2.05#4"
+    "2.05#3"
    ],
    "template": "T1",
    "variant": "",
@@ -1283,11 +1420,20 @@
      "elems": [
       [
        "bold",
-       "極めて狡猾な手口"
+       "4段階の危険な『妄想のエスカレーション軌道』"
       ],
       [
        "ital",
-       "入念な計画と現場の隠蔽"
+       "ある日突然生じたものではない"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "第1段階：小動物への虐待と夜間の覗き行為"
       ]
      ]
     }
@@ -1309,15 +1455,17 @@
   {
    "id": "2-08",
    "act": 2,
-   "start": 460.77,
-   "end": 470.89,
-   "role": "D",
+   "start": 486.55,
+   "end": 510.03,
+   "role": "H",
    "sentences": [
-    "2.06#1"
+    "2.05#4",
+    "2.05#5",
+    "2.05#6"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t5_air_force_service_era",
+   "bg": "t5_gloves_forensic_desk",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -1326,12 +1474,35 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "指紋や痕跡を残さなかった"
-      ],
-      [
        "bold",
-       "30年間にわたり捜査を阻んだ壁"
+       "4段階の妄想の階段"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "ital",
+       "第2段階：民家への忍び込みと女性の私的な衣服の収集"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "第3段階：明確な標的を定めて住居に侵入"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "第4段階：人命を奪い異様な写真を演出する凶行"
       ]
      ]
     }
@@ -1353,11 +1524,100 @@
   {
    "id": "2-09",
    "act": 2,
-   "start": 470.89,
-   "end": 480.77,
+   "start": 510.03,
+   "end": 518.05,
+   "role": "H",
+   "sentences": [
+    "2.05#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_gloves_forensic_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "際限なく強い刺激を求め続ける捕食者"
+      ],
+      [
+       "ital",
+       "外部からの決定的な制止がない限り"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-10",
+   "act": 2,
+   "start": 518.05,
+   "end": 537.48,
    "role": "D",
    "sentences": [
+    "2.06#1",
     "2.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_air_force_service_era",
+   "bg2": "t5_church_council_altar",
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "DENNIS RADER · 1945年生まれ"
+      ],
+      [
+       "ital",
+       "4年間アメリカ空軍に服役し司法行政学の学位を取得"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-11",
+   "act": 2,
+   "start": 537.48,
+   "end": 548.96,
+   "role": "D",
+   "sentences": [
+    "2.06#3"
    ],
    "template": "T1",
    "variant": "",
@@ -1371,11 +1631,11 @@
      "elems": [
       [
        "bold",
-       "昼の世界のDennis Rader"
+       "Park City インディペンデンス通り6220番地"
       ],
       [
        "ital",
-       "良き夫、二人の子供の父親"
+       "30年以上連れ添った妻と2人の子供を育て上げた家長"
       ]
      ]
     }
@@ -1395,18 +1655,18 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-10",
+   "id": "2-12",
    "act": 2,
-   "start": 480.77,
-   "end": 491.33,
+   "start": 548.96,
+   "end": 558.58,
    "role": "D",
    "sentences": [
-    "2.06#3"
+    "2.06#4"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t5_lutheran_church_exterior",
-   "bg2": "t5_church_council_altar",
+   "bg2": null,
    "inset": null,
    "camera": "push",
    "segments": [
@@ -1415,11 +1675,11 @@
      "elems": [
       [
        "bold",
-       "キリスト教ルーテル教会協議会の議長"
+       "キリスト・ルーテル教会の教会評議会議長"
       ],
       [
        "ital",
-       "ボーイスカウトの隊長"
+       "鍵の管理や財務運営を任されていた"
       ]
      ]
     }
@@ -1439,13 +1699,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-11",
+   "id": "2-13",
    "act": 2,
-   "start": 491.33,
-   "end": 501.49,
+   "start": 558.58,
+   "end": 567.09,
    "role": "D",
    "sentences": [
-    "2.06#4"
+    "2.06#5"
    ],
    "template": "T1",
    "variant": "",
@@ -1459,11 +1719,11 @@
      "elems": [
       [
        "bold",
-       "パークシティの法令遵守調査員"
+       "カブスカウトの隊長"
       ],
       [
        "ital",
-       "草の高さや犬の鎖を厳格に取り締まる"
+       "子供たちに野外技術や正直さを教えていた"
       ]
      ]
     }
@@ -1483,14 +1743,14 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-12",
+   "id": "2-14",
    "act": 2,
-   "start": 501.49,
-   "end": 524.41,
+   "start": 567.09,
+   "end": 590.61,
    "role": "D",
    "sentences": [
-    "2.06#5",
-    "2.06#6"
+    "2.06#6",
+    "2.06#7"
    ],
    "template": "T1",
    "variant": "",
@@ -1503,12 +1763,12 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "隣人たちの記憶"
+       "bold",
+       "1991年からのPark City市役所 規則遵守指導員"
       ],
       [
-       "bold",
-       "規則に異常なほど厳格な男"
+       "ital",
+       "見回り・芝生の長さの測定・放し飼いの動物の取り締まり"
       ]
      ]
     }
@@ -1528,13 +1788,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-13",
+   "id": "2-15",
    "act": 2,
-   "start": 524.41,
-   "end": 537.04,
+   "start": 590.61,
+   "end": 601.01,
    "role": "D",
    "sentences": [
-    "2.06#7"
+    "2.06#8"
    ],
    "template": "T1",
    "variant": "",
@@ -1547,12 +1807,12 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "二重生活の仮面"
+       "bold",
+       "『ハロー効果』と集団的な正常性バイアス"
       ],
       [
-       "bold",
-       "誰も裏の顔に気づかなかった"
+       "ital",
+       "30年間にわたり町の目を曇らせる巨大な死角"
       ]
      ]
     }
@@ -1572,16 +1832,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-14",
+   "id": "2-16",
    "act": 2,
-   "start": 537.04,
-   "end": 564.97,
+   "start": 601.01,
+   "end": 626.64,
    "role": "H",
    "sentences": [
     "2.07#1",
     "2.07#2",
-    "2.07#3",
-    "2.07#4"
+    "2.07#3"
    ],
    "template": "T3",
    "variant": "compare",
@@ -1595,24 +1854,15 @@
      "elems": [
       [
        "ital",
-       "昼の顔"
+       "昼間：誠実な地域の番人・模範的な父親"
       ],
       [
        "bold",
-       "模範市民 · 敬虔な信者 · 手本となる父親"
-      ]
-     ]
-    },
-    {
-     "at_sentence": null,
-     "elems": [
+       "夜間：窓の外を徘徊する冷酷な狩人"
+      ],
       [
        "ital",
-       "夜の顔"
-      ],
-      [
-       "bold",
-       "命を奪う冷酷な捕食者"
+       "1974年から1988年までADT警備会社に勤務"
       ]
      ]
     }
@@ -1632,10 +1882,60 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-15",
+   "id": "2-17",
    "act": 2,
-   "start": 564.97,
-   "end": 566.77,
+   "start": 626.64,
+   "end": 648.66,
+   "role": "H",
+   "sentences": [
+    "2.07#4",
+    "2.07#5",
+    "2.07#6"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t5_two_faces_silhouette",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "昼間：誠実な地域の番人・模範的な父親"
+      ],
+      [
+       "bold",
+       "夜間：窓の外を徘徊する冷酷な狩人"
+      ],
+      [
+       "ital",
+       "30年以上も破綻せずに共存できたのはなぜ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Sub-drop on \"predator\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-18",
+   "act": 2,
+   "start": 648.66,
+   "end": 650.46,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -1676,8 +1976,8 @@
   {
    "id": "3-01",
    "act": 3,
-   "start": 566.77,
-   "end": 594.27,
+   "start": 650.46,
+   "end": 678.46,
    "role": "C",
    "sentences": [
     "3.02#1",
@@ -1695,12 +1995,16 @@
      "at_sentence": null,
      "elems": [
       [
+       "ital",
+       "第一の防衛機制"
+      ],
+      [
        "bold",
-       "心理専門家の分析"
+       "精神の分断（コンパートメンタライゼーション）"
       ],
       [
        "ital",
-       "悪性ナルシシズムと精神の分断"
+       "認知の引き出しを完全に分離して閉ざす驚異的な能力"
       ]
      ]
     }
@@ -1722,12 +2026,13 @@
   {
    "id": "3-02",
    "act": 3,
-   "start": 594.27,
-   "end": 615.17,
+   "start": 678.46,
+   "end": 705.12,
    "role": "C",
    "sentences": [
     "3.02#4",
-    "3.02#5"
+    "3.02#5",
+    "3.02#6"
    ],
    "template": "T1",
    "variant": "",
@@ -1741,11 +2046,20 @@
      "elems": [
       [
        "bold",
-       "精神の分断（Compartmentalization）"
+       "罪悪感や良心の呵責を全く覚えない"
       ],
       [
        "ital",
-       "人格を切り離す防衛機制"
+       "意識の中で凶行は別の引き出しに隔離されていた"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "家族や親族は『正常性の防壁』として利用されていた"
       ]
      ]
     }
@@ -1767,12 +2081,12 @@
   {
    "id": "3-03",
    "act": 3,
-   "start": 615.17,
-   "end": 634.87,
+   "start": 705.12,
+   "end": 722.17,
    "role": "C",
    "sentences": [
-    "3.02#6",
-    "3.02#7"
+    "3.02#7",
+    "3.02#8"
    ],
    "template": "T1",
    "variant": "",
@@ -1785,12 +2099,12 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "日常生活と暗黒の衝動"
+       "bold",
+       "妄想的な概念『要因X（Factor X）』"
       ],
       [
-       "bold",
-       "罪悪感を感じることなく共存させる"
+       "ital",
+       "自らの内に潜む闇を弁解するために警方への手紙で執拗に繰り返した"
       ]
      ]
     }
@@ -1812,8 +2126,8 @@
   {
    "id": "3-04",
    "act": 3,
-   "start": 634.87,
-   "end": 636.27,
+   "start": 722.17,
+   "end": 723.37,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -1827,12 +2141,12 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "日常生活と暗黒の衝動"
+       "bold",
+       "妄想的な概念『要因X（Factor X）』"
       ],
       [
-       "bold",
-       "罪悪感を感じることなく共存させる"
+       "ital",
+       "自らの内に潜む闇を弁解するために警方への手紙で執拗に繰り返した"
       ]
      ]
     }
@@ -1855,8 +2169,8 @@
   {
    "id": "3-05",
    "act": 3,
-   "start": 636.27,
-   "end": 651.72,
+   "start": 723.37,
+   "end": 738.39,
    "role": "H",
    "sentences": [
     "3.04#1",
@@ -1875,11 +2189,11 @@
      "elems": [
       [
        "ital",
-       "共感性の完全な欠如"
+       "極めて異様な概念ですね、先生"
       ],
       [
        "bold",
-       "他者を自らの道具とみなす"
+       "行動科学の観点から『要因X』の正体とは何だったのでしょうか？"
       ]
      ]
     }
@@ -1901,8 +2215,8 @@
   {
    "id": "3-06",
    "act": 3,
-   "start": 651.72,
-   "end": 675.03,
+   "start": 738.39,
+   "end": 759.76,
    "role": "C",
    "sentences": [
     "3.05#1",
@@ -1921,15 +2235,15 @@
      "elems": [
       [
        "ital",
-       "典型的な防御機構"
+       "第二の防衛機制"
       ],
       [
        "bold",
-       "投影と合理化 · RATIONALIZATION & PROJECTION"
+       "合理化と心理的投射"
       ],
       [
        "ital",
-       "“X Factor”"
+       "典型的な『道徳的合理化技術』"
       ]
      ]
     }
@@ -1951,12 +2265,62 @@
   {
    "id": "3-07",
    "act": 3,
-   "start": 675.03,
-   "end": 701.17,
+   "start": 759.76,
+   "end": 775.15,
    "role": "C",
    "sentences": [
     "3.05#4",
     "3.05#5"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t5_projection_mask",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第二の防衛機制"
+      ],
+      [
+       "bold",
+       "合理化と心理的投射"
+      ],
+      [
+       "ital",
+       "『内なる要因Xに強いられたのだ』という詭弁"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Stamp on \"Rationalization & Projection\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-08",
+   "act": 3,
+   "start": 775.15,
+   "end": 798.94,
+   "role": "C",
+   "sentences": [
+    "3.05#6",
+    "3.05#7",
+    "3.05#8"
    ],
    "template": "T1",
    "variant": "",
@@ -1970,11 +2334,11 @@
      "elems": [
       [
        "bold",
-       "注目の依存症（Addiction to Attention）"
+       "個人の道徳的責任をきれいに拭い去る"
       ],
       [
        "ital",
-       "世間からの注目こそが最高の報酬"
+       "恐ろしい悲劇を起こした後も平然と帰宅して夕食を楽しむ"
       ]
      ]
     }
@@ -1994,10 +2358,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-08",
+   "id": "3-09",
    "act": 3,
-   "start": 701.17,
-   "end": 722.57,
+   "start": 798.94,
+   "end": 816.27,
    "role": "H",
    "sentences": [
     "3.06#1",
@@ -2015,12 +2379,21 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "13年間の沈黙の苦痛"
+       "bold",
+       "背筋が凍るほど精巧な自己欺瞞"
       ],
       [
-       "bold",
-       "忘れ去られることへの恐怖"
+       "ital",
+       "Raderが被害者たちに向けていた内面の眼差し"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "なぜ悲痛な懇願が同情心すら呼び起こさなかったのか"
       ]
      ]
     }
@@ -2040,14 +2413,55 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-09",
+   "id": "3-10",
    "act": 3,
-   "start": 722.57,
-   "end": 741.65,
+   "start": 816.27,
+   "end": 821.59,
+   "role": "H",
+   "sentences": [
+    "3.06#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_narcissistic_throne",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "決定的な瞬間に人間としての温もりを消し去ったもの"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-11",
+   "act": 3,
+   "start": 821.59,
+   "end": 847.49,
    "role": "C",
    "sentences": [
     "3.07#1",
-    "3.07#2"
+    "3.07#2",
+    "3.07#3"
    ],
    "template": "T2",
    "variant": "",
@@ -2060,12 +2474,16 @@
      "at_sentence": null,
      "elems": [
       [
+       "ital",
+       "次の機制"
+      ],
+      [
        "bold",
-       "本の出版予告という引き金"
+       "被害者の『客体化（物扱い）』と非人間化"
       ],
       [
        "ital",
-       "BTKは死んだという推測への反発"
+       "悪性自己愛と反社会性人格障害の結合：共感能力の完全な欠如"
       ]
      ]
     }
@@ -2087,14 +2505,14 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-10",
+   "id": "3-12",
    "act": 3,
-   "start": 741.65,
-   "end": 770.85,
+   "start": 847.49,
+   "end": 861.03,
    "role": "C",
    "sentences": [
-    "3.07#3",
-    "3.07#4"
+    "3.07#4",
+    "3.07#5"
    ],
    "template": "T1",
    "variant": "",
@@ -2107,12 +2525,17 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "自らの存在を誇示するため"
-      ],
-      [
        "bold",
-       "怪物は再び姿を現した"
+       "冷たく『プロジェクト』と呼んでいた"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "頭の中の加虐的なシナリオを演じるための『生きた小道具』"
       ]
      ]
     }
@@ -2132,15 +2555,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-11",
+   "id": "3-13",
    "act": 3,
-   "start": 770.85,
-   "end": 802.57,
+   "start": 861.03,
+   "end": 885.56,
    "role": "C",
    "sentences": [
-    "3.07#5",
     "3.07#6",
-    "3.07#7"
+    "3.07#7",
+    "3.07#8"
    ],
    "template": "T1",
    "variant": "",
@@ -2154,11 +2577,20 @@
      "elems": [
       [
        "bold",
-       "ナルシシストの最大の恐怖：忘却"
+       "被害者の涙や命乞いは哀れみを誘わなかった"
       ],
       [
        "ital",
-       "無名の公務員として死ぬより捕まる危険を選ぶ"
+       "むしろ全能の支配感を高める感覚的刺激として機能"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "ital",
+       "人間が小道具に格下げされたとき、凶行は機械のように冷徹に執行される"
       ]
      ]
     }
@@ -2180,10 +2612,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-12",
+   "id": "3-14",
    "act": 3,
-   "start": 802.57,
-   "end": 824.81,
+   "start": 885.56,
+   "end": 907.6,
    "role": "H",
    "sentences": [
     "3.08#1",
@@ -2202,11 +2634,16 @@
      "elems": [
       [
        "bold",
-       "注目への渇望が生んだ盲点"
-      ],
+       "温和な笑顔の裏の、骨の髄まで冷たい無慈悲さ"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
       [
        "ital",
-       "歴史的なフォレンジックの罠へ"
+       "何が30年間にわたり自身を守ってきた防壁を自ら破壊させたのか"
       ]
      ]
     }
@@ -2226,10 +2663,338 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-13",
+   "id": "3-15",
    "act": 3,
-   "start": 824.81,
-   "end": 826.61,
+   "start": 907.6,
+   "end": 912.52,
+   "role": "H",
+   "sentences": [
+    "3.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_hubris_chessboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "悪性自己愛は自己破滅の種を宿しているのか？"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-16",
+   "act": 3,
+   "start": 912.52,
+   "end": 936.33,
+   "role": "C",
+   "sentences": [
+    "3.09#1",
+    "3.09#2",
+    "3.09#3"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t5_narcissistic_throne",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第三の機制"
+      ],
+      [
+       "bold",
+       "世間の注目への病的な依存と妄想の飢餓"
+      ],
+      [
+       "ital",
+       "大衆の関心と社会的な恐怖は誇大自己を支える酸素"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Stamp on \"世間の注目への病的な依存\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-17",
+   "act": 3,
+   "start": 936.33,
+   "end": 953.17,
+   "role": "C",
+   "sentences": [
+    "3.09#4",
+    "3.09#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_fear_of_oblivion",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "自己愛者にとって最も耐えがたい地獄"
+      ],
+      [
+       "ital",
+       "世間からの完全な忘却"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Sub-drop on \"世間からの完全な忘却\"",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-18",
+   "act": 3,
+   "start": 953.17,
+   "end": 968.5,
+   "role": "C",
+   "sentences": [
+    "3.09#6",
+    "3.09#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_secret_scrapbook",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "悪名への渇望"
+      ],
+      [
+       "ital",
+       "忘れ去られるくらいなら危険を冒してでも再び世間を震撼させる道"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "悪名への渇望が生存本能と合理的な理性を完全に盲目にした"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-19",
+   "act": 3,
+   "start": 968.5,
+   "end": 980.74,
+   "role": "H",
+   "sentences": [
+    "3.10#1",
+    "3.10#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t5_hubris_chessboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "専門家の結論"
+      ],
+      [
+       "bold",
+       "傲慢さ — 捕食者の首を絞める罠"
+      ],
+      [
+       "ital",
+       "自らが全ての捜査陣よりも優秀だと錯覚していた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Stamp on \"傲慢さ\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-20",
+   "act": 3,
+   "start": 980.74,
+   "end": 988.22,
+   "role": "H",
+   "sentences": [
+    "3.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_winter_home_depot",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "司法の歴史上最も信じがたい技術的失策"
+      ],
+      [
+       "ital",
+       "その盲目的な過信がRaderを導いた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-21",
+   "act": 3,
+   "start": 988.22,
+   "end": 996.35,
+   "role": "H",
+   "sentences": [
+    "3.10#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_detective_war_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "捜査官から振り返っていただきましょう"
+      ],
+      [
+       "bold",
+       "紫色のフロッピーディスクを巡る運命的な心理戦"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-22",
+   "act": 3,
+   "start": 996.35,
+   "end": 998.15,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -2270,14 +3035,13 @@
   {
    "id": "4-01",
    "act": 4,
-   "start": 826.61,
-   "end": 855.29,
+   "start": 998.15,
+   "end": 1020.98,
    "role": "H",
    "sentences": [
     "4.02#1",
     "4.02#2",
-    "4.02#3",
-    "4.02#4"
+    "4.02#3"
    ],
    "template": "T5",
    "variant": "date",
@@ -2291,11 +3055,29 @@
      "elems": [
       [
        "bold",
-       "2004年から2005年"
+       "2005年初頭"
       ],
       [
        "ital",
-       "メディアや警察へ送られた一連の通信"
+       "メディアへの挑発的な小包を繰り返していたDennis Raderの新たなアイデア"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "コンピュータファイルでのやり取りへと手段を更新したい"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "59歳のRaderはデジタル技術の根本的な仕組みについて全くの無知"
       ]
      ]
     }
@@ -2317,8 +3099,52 @@
   {
    "id": "4-02",
    "act": 4,
-   "start": 855.29,
-   "end": 866.01,
+   "start": 1020.98,
+   "end": 1030.64,
+   "role": "H",
+   "sentences": [
+    "4.02#4"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t5_winter_home_depot",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "2005年1月下旬"
+      ],
+      [
+       "ital",
+       "ウィチタのHome Depot駐車場のピックアップトラックの荷台にシリアル箱を密かに置いた"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng gió đông & quạt server",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-03",
+   "act": 4,
+   "start": 1030.64,
+   "end": 1034.88,
    "role": "H",
    "sentences": [
     "4.02#5"
@@ -2335,11 +3161,11 @@
      "elems": [
       [
        "bold",
-       "警察の捜査戦略"
+       "シリアル箱の中身"
       ],
       [
        "ital",
-       "殺人犯の傲慢さと虚栄心を利用する"
+       "捜査官へ宛てた手書きのメモ"
       ]
      ]
     }
@@ -2359,16 +3185,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-03",
+   "id": "4-04",
    "act": 4,
-   "start": 866.01,
-   "end": 892.62,
+   "start": 1034.88,
+   "end": 1054.64,
    "role": "H",
    "sentences": [
     "4.02#6",
     "4.02#7",
-    "4.02#8",
-    "4.02#9"
+    "4.02#8"
    ],
    "template": "T1",
    "variant": "",
@@ -2381,12 +3206,21 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "手紙での奇妙な質問"
+       "bold",
+       "信じられないほど無邪気な質問"
       ],
       [
-       "bold",
-       "フロッピーディスクは追跡可能か？"
+       "quote",
+       "フロッピーディスクでやり取りしてもコンピュータまで追跡されませんか？ 正直に答えてください"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "ital",
+       "The Wichita Eagle紙の三行広告欄に暗号で回答を掲載するよう要求"
       ]
      ]
     }
@@ -2406,17 +3240,55 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-04",
+   "id": "4-05",
    "act": 4,
-   "start": 892.62,
-   "end": 935.33,
+   "start": 1054.64,
+   "end": 1059.91,
+   "role": "H",
+   "sentences": [
+    "4.02#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_handwritten_note_floppy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "30年間固く閉ざされていた城壁についに亀裂"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-06",
+   "act": 4,
+   "start": 1059.91,
+   "end": 1087.02,
    "role": "D",
    "sentences": [
     "4.04#1",
     "4.04#2",
-    "4.04#3",
-    "4.04#4",
-    "4.04#5"
+    "4.04#3"
    ],
    "template": "T2",
    "variant": "",
@@ -2429,12 +3301,16 @@
      "at_sentence": null,
      "elems": [
       [
+       "ital",
+       "30年ぶりの決定機"
+      ],
+      [
        "bold",
-       "捜査班の決断"
+       "そのメモがKen Landwehr警部の机に置かれたとき、部屋全体が息をのみました"
       ],
       [
        "ital",
-       "新聞広告を通じた偽りの回答"
+       "直ちに一流のデジタル鑑識専門家に助言を求めた"
       ]
      ]
     }
@@ -2454,14 +3330,69 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-05",
+   "id": "4-07",
    "act": 4,
-   "start": 935.33,
-   "end": 949.49,
+   "start": 1087.02,
+   "end": 1112.95,
    "role": "D",
    "sentences": [
-    "4.04#6",
-    "4.04#7"
+    "4.04#4",
+    "4.04#5",
+    "4.04#6"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t5_newspaper_classified_494",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The Wichita Eagle紙の広告欄"
+      ],
+      [
+       "quote",
+       "レックス、送っても大丈夫だ"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "自分が状況を支配しているという錯覚に溺れ、警察の言葉を信じ込んだ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Lật báo giấy `4.03`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-08",
+   "act": 4,
+   "start": 1112.95,
+   "end": 1128.1,
+   "role": "D",
+   "sentences": [
+    "4.04#7",
+    "4.04#8"
    ],
    "template": "T1",
    "variant": "",
@@ -2475,11 +3406,11 @@
      "elems": [
       [
        "bold",
-       "“フロッピーディスクは安全で追跡できない”"
+       "2005年2月中旬"
       ],
       [
        "ital",
-       "新聞の告知欄"
+       "書類に包まれた1.44メガバイトの紫色Memorex製フロッピーディスク"
       ]
      ]
     }
@@ -2499,13 +3430,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-06",
+   "id": "4-09",
    "act": 4,
-   "start": 949.49,
-   "end": 960.13,
+   "start": 1128.1,
+   "end": 1132.82,
    "role": "D",
    "sentences": [
-    "4.04#8"
+    "4.04#9"
    ],
    "template": "T1",
    "variant": "",
@@ -2518,12 +3449,8 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "罠にかかったDennis Rader"
-      ],
-      [
        "bold",
-       "紫色のフロッピーディスクの送付"
+       "私たちが仕掛けた技術的な罠が完全に作動"
       ]
      ]
     }
@@ -2543,10 +3470,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-07",
+   "id": "4-10",
    "act": 4,
-   "start": 960.13,
-   "end": 974.33,
+   "start": 1132.82,
+   "end": 1146.41,
    "role": "H",
    "sentences": [
     "4.06#1",
@@ -2564,11 +3491,11 @@
      "elems": [
       [
        "bold",
-       "警察デジタルフォレンジック研究室"
+       "デジタル鑑識室"
       ],
       [
        "ital",
-       "専門家 Randy Stone がディスク情報を詳細にスキャン"
+       "鑑識専門家のRandy Stoneがディスクの磁気セクタを精密に復元"
       ]
      ]
     }
@@ -2588,16 +3515,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-08",
+   "id": "4-11",
    "act": 4,
-   "start": 974.33,
-   "end": 1000.57,
+   "start": 1146.41,
+   "end": 1167.84,
    "role": "H",
    "sentences": [
     "4.06#3",
     "4.06#4",
-    "4.06#5",
-    "4.06#6"
+    "4.06#5"
    ],
    "template": "T8",
    "variant": "",
@@ -2610,12 +3536,21 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "デジタルフォレンジック捜査"
+       "ital",
+       "隠されたメタデータが開かれた"
       ],
       [
        "ital",
-       "ディスク内メタデータの解析"
+       "TestA.rtfファイルほかに過去に削除されたWordファイルを復元"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "モニター上に決定的な2行のデータがはっきりと表示"
       ]
      ]
     }
@@ -2635,10 +3570,55 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-09",
+   "id": "4-12",
    "act": 4,
-   "start": 1000.57,
-   "end": 1001.97,
+   "start": 1167.84,
+   "end": 1175.13,
+   "role": "H",
+   "sentences": [
+    "4.06#6",
+    "4.06#7"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t5_metadata_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "1行目には『最終更新者：Dennis』"
+      ],
+      [
+       "ital",
+       "2行目には『登録団体：キリスト・ルーテル教会』"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Sub-drop ở Metadata",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-13",
+   "act": 4,
+   "start": 1175.13,
+   "end": 1176.33,
    "role": null,
    "sentences": [],
    "template": "T8",
@@ -2652,12 +3632,12 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "デジタルフォレンジック捜査"
+       "ital",
+       "1行目には『最終更新者：Dennis』"
       ],
       [
        "ital",
-       "ディスク内メタデータの解析"
+       "2行目には『登録団体：キリスト・ルーテル教会』"
       ]
      ]
     }
@@ -2675,13 +3655,13 @@
    },
    "hold": true,
    "transition": "dissolve",
-   "inherit": "4-08"
+   "inherit": "4-12"
   },
   {
-   "id": "4-10",
+   "id": "4-14",
    "act": 4,
-   "start": 1001.97,
-   "end": 1020.8,
+   "start": 1176.33,
+   "end": 1201.38,
    "role": "D",
    "sentences": [
     "4.08#1",
@@ -2700,11 +3680,11 @@
      "elems": [
       [
        "bold",
-       "最後の修正者：DENNIS"
+       "検索キーワード：キリスト・ルーテル教会 ウィチタ Dennis"
       ],
       [
        "ital",
-       "教会のウェブサイトに記載された議長名"
+       "教会評議会の会長はまさにDennis Raderだった"
       ]
      ]
     }
@@ -2724,14 +3704,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-11",
+   "id": "4-15",
    "act": 4,
-   "start": 1020.8,
-   "end": 1034.0,
+   "start": 1201.38,
+   "end": 1230.42,
    "role": "D",
    "sentences": [
     "4.08#4",
-    "4.08#5"
+    "4.08#5",
+    "4.08#6"
    ],
    "template": "T1",
    "variant": "",
@@ -2744,12 +3725,12 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "30年間の捜査の突破口"
+       "bold",
+       "Home Depot駐車場の防犯カメラと完全一致"
       ],
       [
-       "bold",
-       "容疑者Dennis Raderの特定"
+       "ital",
+       "娘が大学の診療所に残していた生体組織検体を令状で確保"
       ]
      ]
     }
@@ -2769,13 +3750,12 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-12",
+   "id": "4-16",
    "act": 4,
-   "start": 1034.0,
-   "end": 1074.79,
+   "start": 1230.42,
+   "end": 1249.48,
    "role": "D",
    "sentences": [
-    "4.08#6",
     "4.08#7",
     "4.08#8",
     "4.08#9"
@@ -2791,12 +3771,16 @@
      "at_sentence": null,
      "elems": [
       [
+       "ital",
+       "DNA鑑定の結果は決定的"
+      ],
+      [
        "bold",
-       "DNA採取と科学鑑定"
+       "明白な父子関係"
       ],
       [
        "ital",
-       "現場のDNAとの完全な一致"
+       "もはや何の疑いもありません"
       ]
      ]
     }
@@ -2818,16 +3802,61 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-13",
+   "id": "4-17",
    "act": 4,
-   "start": 1074.79,
-   "end": 1103.62,
+   "start": 1249.48,
+   "end": 1254.8,
+   "role": "D",
+   "sentences": [
+    "4.08#10"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t5_dna_pap_smear_vial",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "捜査員たちによる包囲"
+      ],
+      [
+       "bold",
+       "Park Cityの自宅の周囲を完全に囲む"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Khẳng định 100%"
+   ],
+   "beat_text": "Dấu mộc ở \"Khẳng định 100%\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-18",
+   "act": 4,
+   "start": 1254.8,
+   "end": 1276.54,
    "role": "H",
    "sentences": [
     "4.10#1",
     "4.10#2",
-    "4.10#3",
-    "4.10#4"
+    "4.10#3"
    ],
    "template": "T1",
    "variant": "",
@@ -2841,11 +3870,11 @@
      "elems": [
       [
        "bold",
-       "2005年2月25日 · 逮捕"
+       "2005年2月25日の昼"
       ],
       [
        "ital",
-       "自宅近くの路上で身柄を拘束"
+       "パトカーが前後から遮断したピックアップトラック"
       ]
      ]
     }
@@ -2865,16 +3894,61 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-14",
+   "id": "4-19",
    "act": 4,
-   "start": 1103.62,
-   "end": 1120.93,
+   "start": 1276.54,
+   "end": 1294.66,
+   "role": "H",
+   "sentences": [
+    "4.10#4",
+    "4.10#5",
+    "4.10#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_highway_takedown_arrest",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "傲慢な仮面は粉々に砕け散った"
+      ],
+      [
+       "ital",
+       "全能の幻影を奪われて動揺する哀れな自己愛患者"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Còi xe cảnh sát & phanh `4.09`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-20",
+   "act": 4,
+   "start": 1294.66,
+   "end": 1318.88,
    "role": "D",
    "sentences": [
     "4.12#1",
     "4.12#2",
-    "4.12#3",
-    "4.12#4"
+    "4.12#3"
    ],
    "template": "T1",
    "variant": "",
@@ -2887,12 +3961,21 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "尋問室での驚愕"
+       "bold",
+       "取調室の古典的な対決"
       ],
       [
-       "bold",
-       "“なぜ警察は嘘をついたのか？”"
+       "quote",
+       "なぜフロッピーについて私に嘘をついたのですか"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "quote",
+       "あなたを逮捕するためです"
       ]
      ]
     }
@@ -2912,13 +3995,57 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-15",
+   "id": "4-21",
    "act": 4,
-   "start": 1120.93,
-   "end": 1156.22,
+   "start": 1318.88,
+   "end": 1336.26,
    "role": "D",
    "sentences": [
-    "4.12#5",
+    "4.12#4",
+    "4.12#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_interrogation_confrontation",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "『自己愛の完全崩壊』"
+      ],
+      [
+       "ital",
+       "罠に落ち正体が暴かれたことを悟る"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cửa sắt đóng sầm `4.11`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-22",
+   "act": 4,
+   "start": 1336.26,
+   "end": 1360.17,
+   "role": "D",
+   "sentences": [
     "4.12#6",
     "4.12#7",
     "4.12#8"
@@ -2934,12 +4061,12 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "家族の悲痛な証言"
+       "bold",
+       "仮面は完全に剥がれ落ちた"
       ],
       [
-       "bold",
-       "父親の二重生活に直面した娘"
+       "ital",
+       "10件の凶行を長時間をかけて自供"
       ]
      ]
     }
@@ -2959,14 +4086,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-16",
+   "id": "4-23",
    "act": 4,
-   "start": 1156.22,
-   "end": 1174.66,
+   "start": 1360.17,
+   "end": 1384.83,
    "role": "H",
    "sentences": [
     "4.14#1",
-    "4.14#2"
+    "4.14#2",
+    "4.14#3"
    ],
    "template": "T1",
    "variant": "",
@@ -2980,11 +4108,11 @@
      "elems": [
       [
        "ital",
-       "悲痛な証言"
+       "その痛切な告白をお聞きください"
       ],
       [
        "bold",
-       "KERRI RAWSON — DENNIS RADERの娘"
+       "KERRI RAWSON — DENNIS RADERの実の娘"
       ]
      ]
     }
@@ -3004,16 +4132,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-17",
+   "id": "4-24",
    "act": 4,
-   "start": 1174.66,
-   "end": 1216.32,
+   "start": 1384.83,
+   "end": 1410.27,
    "role": "N2",
    "sentences": [
     "4.15#1",
     "4.15#2",
-    "4.15#3",
-    "4.15#4"
+    "4.15#3"
    ],
    "template": "T4",
    "variant": "testimony",
@@ -3027,7 +4154,16 @@
      "elems": [
       [
        "quote",
-       "世間は彼を怪物として知っています…しかし私にとって、彼はかつて素晴らしい父親でした…"
+       "世界は父を怪物と見なしていますが、私にとっては最も模範的な父親でした。"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "quote",
+       "FBI特別捜査官がドアを叩き、父がBTKだと告げられた瞬間、足元の世界が完全に崩れ去りました。"
       ]
      ]
     }
@@ -3047,10 +4183,61 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-18",
+   "id": "4-25",
    "act": 4,
-   "start": 1216.32,
-   "end": 1218.12,
+   "start": 1410.27,
+   "end": 1433.2,
+   "role": "N2",
+   "sentences": [
+    "4.15#4",
+    "4.15#5",
+    "4.15#6"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t5_kerri_rawson_tears",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "最大の苦痛は単なる恐怖ではなく、信じていた絆の完全な裏切りでした。"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "quote",
+       "毎晩おやすみのキスをしてくれた優しい父親が、数多くの家庭を破壊した悪魔だったという真実をどう受け止めればいいのでしょうか？"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng bật cassette `4.15#1`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-26",
+   "act": 4,
+   "start": 1433.2,
+   "end": 1435.0,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -3091,12 +4278,13 @@
   {
    "id": "5-01",
    "act": 5,
-   "start": 1218.12,
-   "end": 1224.12,
+   "start": 1435.0,
+   "end": 1462.11,
    "role": "H",
    "sentences": [
     "5.02#1",
-    "5.02#2"
+    "5.02#2",
+    "5.02#3"
    ],
    "template": "T5",
    "variant": "date",
@@ -3110,11 +4298,11 @@
      "elems": [
       [
        "bold",
-       "法廷での詳細な自白"
+       "18 · 08 · 2005"
       ],
       [
        "ital",
-       "淡々と語られた犯行の記録"
+       "ウィチタ市セジウィック郡地方裁判所 · Gregory Waller判事"
       ]
      ]
     }
@@ -3136,11 +4324,11 @@
   {
    "id": "5-02",
    "act": 5,
-   "start": 1224.12,
-   "end": 1239.57,
+   "start": 1462.11,
+   "end": 1470.52,
    "role": "H",
    "sentences": [
-    "5.02#3"
+    "5.02#4"
    ],
    "template": "T1",
    "variant": "",
@@ -3153,12 +4341,12 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "感情の揺らぎのない冷酷さ"
+       "bold",
+       "『病的な自己憐憫』"
       ],
       [
-       "bold",
-       "自らの行為を誇るかのような語り口"
+       "ital",
+       "遺族への真摯な悔悟を一切示さず"
       ]
      ]
     }
@@ -3182,12 +4370,13 @@
   {
    "id": "5-03",
    "act": 5,
-   "start": 1239.57,
-   "end": 1264.02,
+   "start": 1470.52,
+   "end": 1492.06,
    "role": "H",
    "sentences": [
-    "5.02#4",
-    "5.02#5"
+    "5.02#5",
+    "5.02#6",
+    "5.02#7"
    ],
    "template": "T1",
    "variant": "",
@@ -3201,11 +4390,11 @@
      "elems": [
       [
        "bold",
-       "判決：10回の終身刑"
+       "El Dorado刑務所の独房"
       ],
       [
        "ital",
-       "最低175年間の仮釈放なし"
+       "社会から完全に隔離され最期まで永遠の沈黙と向き合う"
       ]
      ]
     }
@@ -3227,8 +4416,8 @@
   {
    "id": "5-04",
    "act": 5,
-   "start": 1264.02,
-   "end": 1265.42,
+   "start": 1492.06,
+   "end": 1493.26,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -3243,11 +4432,11 @@
      "elems": [
       [
        "bold",
-       "判決：10回の終身刑"
+       "El Dorado刑務所の独房"
       ],
       [
        "ital",
-       "最低175年間の仮釈放なし"
+       "社会から完全に隔離され最期まで永遠の沈黙と向き合う"
       ]
      ]
     }
@@ -3270,12 +4459,13 @@
   {
    "id": "5-05",
    "act": 5,
-   "start": 1265.42,
-   "end": 1289.0,
+   "start": 1493.26,
+   "end": 1517.72,
    "role": "H",
    "sentences": [
     "5.04#1",
-    "5.04#2"
+    "5.04#2",
+    "5.04#3"
    ],
    "template": "T1",
    "variant": "",
@@ -3289,11 +4479,11 @@
      "elems": [
       [
        "bold",
-       "日常生活における4つの赤い警告"
+       "30年の時を経て幕を閉じたBTK事件"
       ],
       [
        "ital",
-       "完璧な仮面の裏に潜む悪質自己愛人格の見分け方"
+       "いかなる電子的痕跡も完全に消し去ることはできない"
       ]
      ]
     }
@@ -3315,17 +4505,15 @@
   {
    "id": "5-06",
    "act": 5,
-   "start": 1289.0,
-   "end": 1312.19,
-   "role": "C",
+   "start": 1517.72,
+   "end": 1530.55,
+   "role": "H",
    "sentences": [
-    "5.05#1",
-    "5.05#2",
-    "5.05#3"
+    "5.04#4"
    ],
-   "template": "T9",
+   "template": "T1",
    "variant": "",
-   "bg": "t5_redflag_rule_control",
+   "bg": "t5_solitary_confinement_cell",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -3335,11 +4523,11 @@
      "elems": [
       [
        "bold",
-       "第1の兆候：ルールと支配への異常な執着"
+       "生存のための4つの赤い警告（Red Flags）"
       ],
       [
        "ital",
-       "他者を服従させるための病的な厳格さ"
+       "日常の中で悪の仮面を見抜くため"
       ]
      ]
     }
@@ -3361,16 +4549,17 @@
   {
    "id": "5-07",
    "act": 5,
-   "start": 1312.19,
-   "end": 1334.38,
+   "start": 1530.55,
+   "end": 1553.23,
    "role": "C",
    "sentences": [
-    "5.05#4",
-    "5.05#5"
+    "5.05#1",
+    "5.05#2",
+    "5.05#3"
    ],
    "template": "T9",
    "variant": "",
-   "bg": "t5_redflag_shallow_affect",
+   "bg": "t5_redflag_rule_control",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -3380,11 +4569,11 @@
      "elems": [
       [
        "bold",
-       "第2の兆候：温かい外見の裏にある感情の欠如"
+       "第1の信号：極端なルール統制への執着"
       ],
       [
        "ital",
-       "社会生活に紛れ込む共感性の完全な欠如"
+       "些細な規則に異常に執着し他人を威圧・処罰しようとする人物"
       ]
      ]
     }
@@ -3392,9 +4581,9 @@
    "beats": [],
    "beat_text": "—",
    "flags": {
-    "bust": true,
+    "bust": false,
     "nobust": false,
-    "intro": false,
+    "intro": true,
     "handoff": [],
     "dual": false,
     "guests": false,
@@ -3406,16 +4595,15 @@
   {
    "id": "5-08",
    "act": 5,
-   "start": 1334.38,
-   "end": 1354.83,
-   "role": "D",
+   "start": 1553.23,
+   "end": 1561.08,
+   "role": "C",
    "sentences": [
-    "5.06#1",
-    "5.06#2"
+    "5.05#4"
    ],
    "template": "T9",
    "variant": "",
-   "bg": "t5_redflag_secret_trophies",
+   "bg": "t5_redflag_rule_control",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -3424,12 +4612,12 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "第3の兆候：他人の物品を密かに保管する習慣"
+       "ital",
+       "第一の危険信号"
       ],
       [
-       "ital",
-       "戦利品として他人の私物を隠し持つ危険な兆候"
+       "bold",
+       "抑圧された支配欲が暴力的な形で噴出する機会を待つ"
       ]
      ]
     }
@@ -3451,17 +4639,17 @@
   {
    "id": "5-09",
    "act": 5,
-   "start": 1354.83,
-   "end": 1383.51,
-   "role": "D",
+   "start": 1561.08,
+   "end": 1588.63,
+   "role": "C",
    "sentences": [
-    "5.06#3",
-    "5.06#4",
-    "5.06#5"
+    "5.05#5",
+    "5.05#6",
+    "5.05#7"
    ],
    "template": "T9",
    "variant": "",
-   "bg": "t5_redflag_narcissistic_hubris",
+   "bg": "t5_redflag_shallow_affect",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -3471,11 +4659,11 @@
      "elems": [
       [
        "bold",
-       "第4の兆候：認められたいと渇望する自己愛的な欲求"
+       "第2の信号：社交的な外面の裏にある感情的な断絶"
       ],
       [
        "ital",
-       "脆い自我と名声への抑えきれない渇望"
+       "浅薄な情動（Shallow Affect）"
       ]
      ]
     }
@@ -3497,13 +4685,17 @@
   {
    "id": "5-10",
    "act": 5,
-   "start": 1383.51,
-   "end": 1385.76,
-   "role": null,
-   "sentences": [],
+   "start": 1588.63,
+   "end": 1612.11,
+   "role": "D",
+   "sentences": [
+    "5.06#1",
+    "5.06#2",
+    "5.06#3"
+   ],
    "template": "T9",
    "variant": "",
-   "bg": "t5_redflag_narcissistic_hubris",
+   "bg": "t5_redflag_secret_trophies",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -3513,60 +4705,11 @@
      "elems": [
       [
        "bold",
-       "第4の兆候：認められたいと渇望する自己愛的な欲求"
+       "第3の信号：他人の私物を戦利品のように密かに収集する習癖"
       ],
       [
        "ital",
-       "脆い自我と名声への抑えきれない渇望"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Piano ấm áp",
-   "flags": {
-    "bust": false,
-    "nobust": true,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": true,
-   "transition": "dissolve",
-   "inherit": "5-09"
-  },
-  {
-   "id": "5-11",
-   "act": 5,
-   "start": 1385.76,
-   "end": 1442.94,
-   "role": "H",
-   "sentences": [
-    "5.08#1",
-    "5.08#2",
-    "5.08#3",
-    "5.08#4",
-    "5.08#5"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t5_justice_dawn_sunlight",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "闇は常に真実の光の前に頭を下げざるを得ません"
-      ],
-      [
-       "ital",
-       "Dennis Raderの事件記録が残した因果律の教訓"
+       "私物や身分証、私的な記念品を隠し持つ"
       ]
      ]
     }
@@ -3586,10 +4729,275 @@
    "transition": "dissolve"
   },
   {
+   "id": "5-11",
+   "act": 5,
+   "start": 1612.11,
+   "end": 1639.23,
+   "role": "D",
+   "sentences": [
+    "5.06#4",
+    "5.06#5",
+    "5.06#6"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t5_redflag_narcissistic_hubris",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "第4の信号：どんな代償を払ってでも認められ賞賛されたい渇望"
+      ],
+      [
+       "ital",
+       "巨大な自己肯定感の欠落"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
    "id": "5-12",
    "act": 5,
-   "start": 1442.94,
-   "end": 1444.34,
+   "start": 1639.23,
+   "end": 1647.91,
+   "role": "D",
+   "sentences": [
+    "5.06#7"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t5_redflag_narcissistic_hubris",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "最後の危険信号"
+      ],
+      [
+       "bold",
+       "自尊心を刺激されれば自ら隙を晒して自滅への道をたどる"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-13",
+   "act": 5,
+   "start": 1647.91,
+   "end": 1649.71,
+   "role": null,
+   "sentences": [],
+   "template": "T9",
+   "variant": "",
+   "bg": "t5_redflag_narcissistic_hubris",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "最後の危険信号"
+      ],
+      [
+       "bold",
+       "自尊心を刺激されれば自ら隙を晒して自滅への道をたどる"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Piano ấm áp",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-12"
+  },
+  {
+   "id": "5-14",
+   "act": 5,
+   "start": 1649.71,
+   "end": 1679.7,
+   "role": "H",
+   "sentences": [
+    "5.08#1",
+    "5.08#2",
+    "5.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_justice_dawn_sunlight",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "悪が持つ必然的な自滅の法則"
+      ],
+      [
+       "ital",
+       "自らの内的自己愛の怪物だけは決して欺くことができなかった"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-15",
+   "act": 5,
+   "start": 1679.7,
+   "end": 1711.41,
+   "role": "H",
+   "sentences": [
+    "5.08#4",
+    "5.08#5",
+    "5.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_justice_dawn_sunlight",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "目覚めた警戒心"
+      ],
+      [
+       "ital",
+       "日常の安全の境界を守るため"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-16",
+   "act": 5,
+   "start": 1711.41,
+   "end": 1721.57,
+   "role": "H",
+   "sentences": [
+    "5.08#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_justice_dawn_sunlight",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "専門家とリスナーの皆さまに深く感謝申し上げます"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-17",
+   "act": 5,
+   "start": 1721.57,
+   "end": 1722.77,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -3604,11 +5012,7 @@
      "elems": [
       [
        "bold",
-       "闇は常に真実の光の前に頭を下げざるを得ません"
-      ],
-      [
-       "ital",
-       "Dennis Raderの事件記録が残した因果律の教訓"
+       "専門家とリスナーの皆さまに深く感謝申し上げます"
       ]
      ]
     }
@@ -3626,13 +5030,13 @@
    },
    "hold": true,
    "transition": "dissolve",
-   "inherit": "5-11"
+   "inherit": "5-16"
   },
   {
-   "id": "5-13",
+   "id": "5-18",
    "act": 5,
-   "start": 1444.34,
-   "end": 1454.73,
+   "start": 1722.77,
+   "end": 1731.99,
    "role": "H",
    "sentences": [
     "5.10#1",
@@ -3650,7 +5054,7 @@
      "elems": [
       [
        "bold",
-       "専門家・調査員・リスナーの皆様に深く感謝いたします"
+       "常に心の平安を保ち、自らを守り、日々の平穏を大切にする"
       ]
      ]
     }
@@ -3670,10 +5074,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-14",
+   "id": "5-19",
    "act": 5,
-   "start": 1454.73,
-   "end": 1461.78,
+   "start": 1731.99,
+   "end": 1735.37,
    "role": "H",
    "sentences": [
     "5.10#3"
@@ -3691,15 +5095,10 @@
       [
        "bold",
        "次回の犯罪心理分析ファイルでお会いしましょう"
-      ]
-     ]
-    },
-    {
-     "at_sentence": 3,
-     "elems": [
+      ],
       [
        "ital",
-       "常に警戒を怠らず、善意ある心を"
+       "安らかな夜をお過ごしください"
       ]
      ]
     }
@@ -3719,10 +5118,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-15",
+   "id": "5-20",
    "act": 5,
-   "start": 1461.78,
-   "end": 1471.43,
+   "start": 1735.37,
+   "end": 1745.37,
    "role": null,
    "sentences": [],
    "template": "T1",

@@ -69,9 +69,15 @@ B = 8
 for i in range(0, len(wavs), B):
     chunk = wavs[i:i + B]
     audios = [librosa.load(p, sr=16000, mono=True)[0] for p in chunk]
-    res = asr([{"raw": x, "sampling_rate": 16000} for x in audios], batch_size=B,
-              generate_kwargs={"language": LANG, "task": "transcribe"},
-              return_timestamps=any(len(x) > 30 * 16000 for x in audios))
+    # File > 30 s (vd duoi cam cham tran token) lam vo padding khi chay lo cung file ngan
+    # (Tap06 EN/JA 06/11/2026: RuntimeError 3000 vs 4756) -> chay rieng tung file, co timestamps.
+    if any(len(x) > 30 * 16000 for x in audios):
+        res = [asr({"raw": x, "sampling_rate": 16000},
+                   generate_kwargs={"language": LANG, "task": "transcribe"},
+                   return_timestamps=len(x) > 30 * 16000) for x in audios]
+    else:
+        res = asr([{"raw": x, "sampling_rate": 16000} for x in audios], batch_size=B,
+                  generate_kwargs={"language": LANG, "task": "transcribe"})
     for p, x, r in zip(chunk, audios, res):
         with torch.no_grad():
             mos = float(utmos(torch.from_numpy(x).unsqueeze(0).to(dev), 16000).item())

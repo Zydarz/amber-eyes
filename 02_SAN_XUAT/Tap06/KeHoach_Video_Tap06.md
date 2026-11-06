@@ -11,12 +11,17 @@
 | Mục | Giá trị |
 |---|---|
 | Kịch bản | `01_KICH_BAN/Tap06/kichban_tap06_23102026.md` — đã chuẩn hóa lịch sử, pháp lý, tâm lý học (John Wayne Gacy) |
-| Lượt nói / câu / từ | 61 lượt · **154** câu · 3.886 — Host (H) 61,0% · Điều tra viên (D) 19,0% · Chuyên gia (C) 15,7% · N2 (Mike Albrecht) 2,3% · N1 (Kim Byers) 1,9% |
+| Lượt nói / câu / từ | 62 lượt · **212** câu · 6.306 — Cú · Host 50.5% · Sói · Điều tra viên 25.5% · Cáo · Chuyên gia 19.3% · Mèo · N2 2.4% · Cừu · N1 2.4% |
 | Giọng | **Higgs Audio v3** (Kaggle GPU, 02/11/2026) — bộ giọng thật tiếng Việt: H `H` · D `D3_SH` · C `C2_AB03` · N1 `W6_LOW` · N2 `W5_HIGH`. Không thẻ cảm xúc. Master: `xuat_ban/Tap06_master.mp3` (1265,4 s · −16,2 LUFS · true peak −1,6 dBFS) |
-| N1 / N2 | `1.09` Kim Byers - nhân viên hiệu thuốc Nisson (Cừu) / `4.04` Sĩ quan Mike Albrecht - cảnh sát Des Plaines (Mèo) |
-| Thời lượng | **21 phút 05 giây** (1265,4 s) |
-| Nền dùng | 64 nền `t6_*` mới 100% (2112×1188 16:9 2K noir) + `void` |
+| N1 / N2 | `1.09` Kim Byers - nhân viên hiệu thuốc Nisson (Cừu) / `4.05` Sĩ quan Mike Albrecht - cảnh sát Des Plaines (Mèo) |
+| Thời lượng | **1939.5 s (32:19)** — *timeline tạm, chờ thu âm lại kịch bản mới* |
+| Nền dùng | 65 nền `t6_*` + `charity` + `void` (2112×1188 16:9 2K noir) |
 | Phân loại YouTube | Giáo dục · Không dành cho trẻ em · "Nội dung bị thay đổi hoặc tổng hợp" · Tự đánh giá quảng cáo: chủ đề tội phạm phân tích tâm lý khách quan (A10) |
+
+> **Cập nhật 06/11/2026 — dựng lại theo kịch bản mới.** Bảng shot mục 6 được dựng lại từ đầu: **129 shot** (123 shot nội dung + 4 dòng nghỉ + 2 thẻ chuyển hồi) thay cho 73 shot của bản cũ; thêm **thẻ chuyển hồi (T10)** và **4 dòng nghỉ** theo chuẩn Tập 03/04/05. Ảnh tĩnh đã render lại cho **3 ngôn ngữ** (VN / EN / JA) — mỗi bản 129 ảnh tại `.work/video3{,_EN,_JA}_t06/stills/`.
+> - **Timeline là bản TẠM** (giữ mốc element đo từ audio master cũ, chia lại thời lượng câu theo độ dài câu mới) — chưa có audio master mới để neo lại. Cần thu âm lại rồi dựng lại timeline + stems + video.
+> - **H9 — lớp tối mềm (`text_scrim`)** bổ sung cho 23 shot có chữ nằm trên nền sáng (lập bằng `.work/_t06_scan_contrast.py`: đo tương phản tại đúng vị trí nét chữ sau khi áp lớp phủ của renderer). Danh sách nằm trong `.work/edition.py` → `EPISODES["06"]["text_scrim"]`.
+> - **PHỤ LỤC C–E bên dưới mô tả bản dựng cũ (73 shot, 02–03/11/2026)** — giữ nguyên làm hồ sơ lịch sử; trạng thái hiện tại là bản dựng 129 shot nêu trên.
 
 ---
 
@@ -31,184 +36,209 @@
 
 ---
 
-## 6. DANH SÁCH SHOT — TẬP 06 (viết theo A7)
+## 6. DANH SÁCH SHOT — TẬP 06 (tiếng Việt)
 
-**Đọc bảng:** *Vai* = người đang nói (H Cú · D Sói · C Cáo · N1 Cừu · N2 Mèo). Bảng chỉ mô tả **nền + đồ hoạ**; badge và bán thân tự đặt theo A5.4.
-Cột *Nhân vật*: `🅑` = thêm bán thân ngoài câu đầu lượt · `→X` = Host đang mời X · `✦` = lần đầu xuất hiện · `⊘` = tắt bán thân.
-Cột cuối: trống = hoà tan · ✂ cắt · ◼ tối đen.
-
-### INTRO KÊNH · 0,00–22,41 s · `bgm_music_box.mp3`
-
-Đặt `assets/brand/intro_kenh.mov` ở 0,00 s (A5.7). Không câu thoại nào thuộc intro.
-
-### HỒI 1 — BỨC ẢNH VỚI ĐỆ NHẤT PHU NHÂN VÀ CẬU BÉ HIỆU THUỐC · nền chủ đạo `t6_polish_parade_chicago_1978`
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
+| Shot | Câu | Vai | Mẫu | Nền | Chữ | SFX / Beat | Nhân vật | Ghi chú |
 |---|---|---|---|---|---|---|---|---|
-| 1-00 | `1.01` (20.5 s → lời đầu) | — | T1 | `t6_polish_parade_chicago_1978` hiện dần từ đen | *HỒI 01 · BỨC ẢNH VỚI ĐỆ NHẤT PHU NHÂN VÀ CẬU BÉ HIỆU THUỐC* | Tiếng dương cầm mở đầu trầm buồn | ⊘ |  |
+| 1-00 | `1.01` (20.5 s → lời đầu) | — | T1 | `t6_polish_parade_chicago_1978` | *HỒI 01 · BỨC ẢNH VỚI ĐỆ NHẤT PHU NHÂN VÀ CẬU BÉ HIỆU THUỐC* | Tiếng dương cầm mở đầu trầm buồn | ⊘ |  |
 | 1-01 | `1.02#1` | H | T5 ngày | `t6_polish_parade_chicago_1978` | **06 · 05 · 1978** · *Chicago, Illinois · Lễ diễu hành Ngày Hiến pháp Ba Lan* | Chớp máy ảnh lách tách `1.03` | ✦ Cú |  |
-| 1-02 | `1.02#2`–`#3` | H | T1 | `t6_secret_service_pin_handshake` | **HUY HIỆU CHỮ S CỦA MẬT VỤ HOA KỲ** · *Cái bắt tay với Đệ nhất phu nhân Rosalynn Carter* | — | 🅑 |  |
+| 1-02 | `1.02#2`–`#3` | H | T1 | `t6_secret_service_pin_handshake` | **HUY HIỆU CHỮ S CỦA MẬT VỤ HOA KỲ** · *Được cấp phát sau quy trình thẩm tra lý lịch nghiêm ngặt* | — | 🅑 |  |
 | 1-03 | `1.02#4` | H | T1 | `t6_pdm_contractors_truck` | **NHÀ THẦU XÂY DỰNG PDM CONTRACTORS** · *Đội trưởng khu dân cư tận tụy vùng Norwood Park* | — | 🅑 |  |
-| 1-04 | `1.02#5`–`#6` | H | T1 | `t6_clown_costume_closet` | **CHÚ HỀ POGO VÀ NHỮNG NỤ CƯỜI MIỄN PHÍ** · *Mang lại niềm vui cho bệnh nhi đang chống chọi bệnh tật* | — | 🅑 |  |
-| 1-05 | `1.04#1` | H | T2 | `t6_clown_mirror_chiaroscuro` | *CHIẾC BẪY SĂN MỒI TÀN ĐỘC* · **MẶT NẠ CHÚ HỀ** · *Âm thầm vận hành ngay giữa khu dân cư yên bình* | Chớp máy ảnh lách tách `1.03` | ⊘ |  |
-| 1-06 | `1.04#2` | H | T1 | `t6_summerdale_house_winter_exterior` | **KHU LĂNG MỘ NGẦM RÙNG RỢN** · *Mái ấm biến thành nơi che giấu tội ác* | — | ⊘ |  |
-| 1-07 | `1.05` (nghỉ 1.5 s) | — | — | giữ 1-06 | — | Cello u uất trỗi dậy | ⊘ |  |
-| 1-08 | `1.06#1`–`#2` | H | T5 ngày | `t6_des_plaines_winter_night` | **11 · 12 · 1978** · *Des Plaines, Illinois · Sinh nhật 46 tuổi của bà Elizabeth Piest* | — | ✦ Cú |  |
-| 1-09 | `1.06#3`–`#4` | H | T1 | `t6_car_exhaust_snow_lot` | **CHIẾC XE HƠI NỔ MÁY SƯỞI ẤM** · *Người mẹ kiên nhẫn chờ đón con trai 15 tuổi tan ca* | — | 🅑 |  |
-| 1-10 | `1.06#5` | H | T1 | `t6_nisson_pharmacy_exterior` | **HIỆU THUỐC NISSON PHARMACY** · *Cậu là một thiếu niên ngoan ngoãn, chăm chỉ* | — | 🅑 |  |
-| 1-11 | `1.06#6` | H | T1 | `t6_car_exhaust_snow_lot` | **KHOẢNG CHÍN GIỜ TỐI** · *Robert xin mẹ đợi thêm vài phút* | Đóng cửa xe `1.07` | 🅑 |  |
-| 1-12 | `1.06#7`, `1.08#1` | H | T1 | `t6_pharmacy_counters_renovation` | **MỨC LƯƠNG NĂM ĐÔ LA MỘT GIỜ** · *Cao gần gấp đôi mức lương tối thiểu liên bang năm 1978* | — | 🅑 |  |
-| 1-13 | `1.08#2`–`#3` | H | T1 | `t6_empty_coat_locker` | **CHIẾC ÁO KHOÁC MỎNG BỎ QUÊN** · *Lần cuối cùng người mẹ nhìn thấy bóng dáng con trai còn sống* | Bước chân trên tuyết | ⊘ |  |
-| 1-14 | `1.08#4`–`#5` | H | T1 | `t6_deserted_parking_lot_snow` | **BÃI ĐỖ XE HOANG VẮNG GIỮA GIÓ TUYẾT** · *Mười phút, hai mươi phút rồi một tiếng đồng hồ trôi qua · Robert không bao giờ quay lại* | — | ⊘ |  |
-| 1-15 | `1.08#6` | H | T1 | `t6_pharmacy_counters_renovation` | **TÂM TRẠNG KIM BYERS** · *Cô đồng nghiệp mười bảy tuổi của Robert ở hiệu thuốc tối hôm ấy* | — | →N1 |  |
-| 1-16 | `1.09#1`–`#2` | N1 | T4 lời kể | `t6_pharmacy_register_receipt`, `push` | “Tối hôm đó, hiệu thuốc đang được sửa lại một số kệ hàng. Nhà thầu John Gacy trò chuyện khá cởi mở với nhân viên.” | — | ✦ Cừu |  |
-| 1-17 | `1.09#3`–`#5` | N1 | T4 lời kể | `t6_empty_coat_locker`, `push` | “Robert hào hứng lắm, cậu bảo chỉ ra nói chuyện vài phút rồi sẽ về mừng sinh nhật mẹ. Nhưng Robert không quay lại.” | Tiếng chuông điện thoại đồn cảnh sát `1.10` | 🅑 →H |  |
-| 1-18 | `1.11#1`–`#2` | H | T1 | `t6_des_plaines_police_station` | **BÁO ĐỘNG KHẨN CẤP** · *Sở Cảnh sát Des Plaines vào cuộc* | — | ✦ Cú →D |  |
-| 1-19 | `1.12#1`–`#3` | D | T1 | `t6_detective_desk_missing_file` | **TRUNG ÚY JOSEPH KOZENCZAK** · *Manh mối duy nhất: Nhà thầu John Wayne Gacy* | — | ✦ Sói →H |  |
-| 1-20 | `1.13#1`–`#2` | H | T1 | `t6_police_interrogation_room_empty` | **PHÒNG THẨM VẤN CẢNH SÁT DES PLAINES** · *Gacy xuất hiện với phong thái vô cùng tự tin* | — | ✦ Cú →D |  |
-| 1-21 | `1.14#1`–`#2` | D | T1 | `t6_muddy_trousers_boots` | **QUẦN ÁO DÍNH ĐẦY BÙN ĐẤT** · *Một chi tiết nhỏ lọt vào mắt các điều tra viên dày dạn* | — | ✦ Sói →C |  |
-| 1-22 | `1.15#1`–`#4` | C | T1 | `t6_psychological_mask_metaphor` | **MẶT NẠ ÁI KỶ CỦA KẺ THÁI NHÂN CÁCH** · *Lòng nhân ái giả tạo tự thôi miên chính bản thân* | — | ✦ Cáo →H |  |
-| 1-23 | `1.16#1`–`#2` | H | T1 | `t6_dossier_gacy_case_06` | **PHÁT SÚNG MỞ MÀN CUỘC ĐẤU TRÍ** · *Quyết không lùi bước trước các mối quan hệ ngầm* | — | ✦ Cú |  |
+| 1-04 | `1.02#5` | H | T1 | `t6_pdm_contractors_office` | **BẾP NGOÀI TRỜI & GIỚI THẦU ĐỊA PHƯƠNG** · *Quen biết thẩm phán, nghị sĩ và quan chức thực thi pháp luật* | — | 🅑 |  |
+| 1-05 | `1.02#6` | H | T1 | `t6_clown_costume_closet` | **BỘ TRANG PHỤC CHÚ HỀ POGO** · *Người đàn ông nhân từ thường xuyên khoác lên mình* | — | 🅑 |  |
+| 1-06 | `1.02#7`–`#8` | H | T1 | `charity` | **HÌNH MẪU CÔNG DÂN GƯƠNG MẪU** · *Bệnh viện nhi và hội chợ từ thiện — một trụ cột đáng kính của xã hội đương thời* | — | 🅑 |  |
+| 1-07 | `1.04#1` | H | T2 | `t6_clown_mirror_chiaroscuro` | *CHIẾC BẪY SĂN MỒI TÀN ĐỘC* · **MẶT NẠ CHÚ HỀ** · *Hiệu ứng Hào quang che mắt cả cộng đồng* | — | ⊘ |  |
+| 1-08 | `1.04#2` | H | T1 | `t6_summerdale_house_winter_exterior` | **KHU LĂNG MỘ NGẦM RÙNG RỢN** · *Chiếc bẫy âm thầm vận hành suốt nhiều năm giữa khu dân cư yên bình* | — | ⊘ |  |
+| 1-09 | `1.04#3` | H | T1 | `t6_psychological_mask_metaphor` | **MÁI ẤM GIA ĐÌNH HÓA KHU LĂNG MỘ** · *Một nhân cách đen tối biến chính mái ấm của mình thành nghĩa trang ngầm* | — | ⊘ |  |
+| 1-10 | `1.04#4` | H | T1 | `t6_dossier_gacy_case_06` | **SỤP ĐỔ CỦA CHIẾC MẶT NẠ** · *Cơn chấn động tập thể bao trùm khắp toàn bộ xã hội Mỹ* | — | ⊘ →D |  |
+| 1-11 | `1.05` (nghỉ 1.5 s) | — | — | giữ 1-10 | — | Cello u uất trỗi dậy | ⊘ |  |
+| 1-12 | `1.06#1`–`#2` | H | T5 ngày | `t6_des_plaines_winter_night` | **11 · 12 · 1978** · *Des Plaines, Illinois · Sinh nhật 46 tuổi của bà Elizabeth Piest* | — | ✦ Cú |  |
+| 1-13 | `1.06#3` | H | T1 | `t6_car_exhaust_snow_lot` | **NGƯỜI MẸ LÁI XE ĐẾN HIỆU THUỐC** · *Đón cậu con trai 15 tuổi tan ca làm thêm sau giờ học* | — | 🅑 |  |
+| 1-14 | `1.06#4` | H | T1 | `t6_nisson_pharmacy_exterior` | **HIỆU THUỐC NISSON PHARMACY** · *Robert Piest — học sinh danh dự lớp mười trường trung học Maine West* | — | 🅑 |  |
+| 1-15 | `1.06#5` | H | T1 | `t6_deserted_parking_lot_snow` | **KHOẢNG CHÍN GIỜ TỐI** · *Robert chạy vội ra xe xin mẹ đợi thêm vài phút* | — | 🅑 |  |
+| 1-16 | `1.06#6`–`#7` | H | T1 | `t6_pharmacy_counters_renovation` | **NĂM ĐÔ LA MỘT GIỜ** · *Lời mời làm thêm của một nhà thầu đang sửa kệ trong tiệm thuốc* | — | 🅑 |  |
+| 1-17 | `1.08#1` | H | T1 | `t6_bank_cash_withdrawal` | **MỨC LƯƠNG NĂM ĐÔ LA MỘT GIỜ** · *Cao gần gấp đôi mức lương tối thiểu liên bang năm 1978* | — | 🅑 |  |
+| 1-18 | `1.08#2`–`#3` | H | T1 | `t6_empty_coat_locker` | **MỘT CƠ HỘI KHÔNG THỂ CHỐI TỪ** · *Cậu học sinh trung học háo hức quay lại gặp người đàn ông lạ mặt* | — | ⊘ |  |
+| 1-19 | `1.08#4` | H | T1 | `t6_deserted_parking_lot_snow` | **LẦN CUỐI CÙNG NGƯỜI MẸ NHÌN THẤY CON** · *Robert biến mất không một dấu vết* | — | ⊘ |  |
+| 1-20 | `1.08#5` | H | T1 | `t6_car_exhaust_snow_lot` | **MƯỜI PHÚT · BA MƯƠI PHÚT · MỘT TIẾNG** · *Trong nỗi bồn chồn nghẹt thở ngồi đợi giữa bão tuyết* | — | ⊘ |  |
+| 1-21 | `1.08#6` | H | T1 | `t6_dossier_gacy_case_06` | **BIẾN MẤT KHÔNG MỘT DẤU VẾT** · *Cậu bé Robert Piest không bao giờ quay lại* | — | ⊘ |  |
+| 1-22 | `1.08#7` | H | T1 | `t6_pharmacy_counters_renovation` | **LẮNG NGHE KÝ ỨC CỦA KIM BYERS** · *Cô đồng nghiệp mười bảy tuổi của Robert tại hiệu thuốc Nisson* | — | 🅑 →N1 |  |
+| 1-23 | `1.09#1`–`#3` | N1 | T4 lời kể | `t6_pharmacy_register_receipt` | “Tối hôm đó, hiệu thuốc chúng tôi đang sửa chữa một số dãy tủ kệ và nhà thầu John Gacy đã ở đó suốt buổi chiều. Ông ta nói chuyện rất vui vẻ, cởi mở với tất cả nhân viên và tỏ ra là một người lớn vô cùng tốt bụng.” | — | ✦ Cừu |  |
+| 1-24 | `1.09#4`–`#5` | N1 | T4 lời kể | `t6_empty_coat_locker` | “Cậu ấy chỉ chạy vào nói với tôi vài câu rồi vội vã đi ra ngoài để nói chuyện với Gacy trước khi về nhà cắt bánh sinh nhật với mẹ. Nhưng Robert không bao giờ quay trở lại” | — | 🅑 →H |  |
+| 1-25 | `1.11#1`–`#2` | H | T1 | `t6_des_plaines_police_station` | **BÁO ĐỘNG KHẨN CẤP** · *Sở Cảnh sát Des Plaines vào cuộc ngay trước mắt người mẹ* | — | ✦ Cú →D |  |
+| 1-26 | `1.11#3` | H | T1 | `t6_detective_desk_missing_file` | **MANH MỐI DUY NHẤT** · *Nhà thầu xây dựng John Wayne Gacy — người tiếp xúc cuối cùng với cậu bé* | — | ⊘ →D |  |
+| 1-27 | `1.12#1`–`#2` | D | T1 | `t6_detective_desk_missing_file` | **DẤU HIỆU BẤT THƯỜNG** · *Học sinh danh dự chuẩn bị về nhà mừng sinh nhật mẹ không thuộc nhóm bỏ nhà đi bụi* | — | ⊘ |  |
+| 1-28 | `1.12#3`–`#4` | D | T1 | `t6_des_plaines_police_station` | **LỆNH TRIỆU TẬP GIỮA ĐÊM 11 THÁNG 12** · *Gacy viện cớ xe sa lầy tuyết để trì hoãn cuộc thẩm vấn* | — | ⊘ |  |
+| 1-29 | `1.12#5`–`#6` | D | T1 | `t6_police_interrogation_room_empty` | **BÌNH THẢN BƯỚC VÀO PHÒNG THẨM VẤN** · *Hắn hoàn toàn phủ nhận mọi lời hứa với Robert Piest* | — | ⊘ →H |  |
+| 1-30 | `1.13#1`–`#2` | H | T1 | `t6_police_interrogation_room_empty` | **SỰ TỰ TIN TUYỆT ĐỐI TRƯỚC THẨM VẤN** · *Uy tín chính trị khiến các sĩ quan thị trấn nhỏ phải e dè* | — | ✦ Cú →D |  |
+| 1-31 | `1.14#1` | D | T1 | `t6_muddy_trousers_boots` | **QUẦN ÁO DÍNH ĐẦY BÙN ĐẤT ẨM ƯỚT** · *Trên gấu quần và đế giày của Gacy* | — | ⊘ |  |
+| 1-32 | `1.14#2`–`#3` | D | T1 | `t6_summerdale_house_winter_exterior` | **MÂU THUẪN KHÔNG THỂ GIẢI THÍCH** · *Giữa một đêm Illinois đóng băng tuyết trắng* | — | ⊘ →C |  |
+| 1-33 | `1.15#1` | C | T1 | `t6_psychological_mask_metaphor` | **RỐI LOẠN NHÂN CÁCH CHỐNG ĐỐI XÃ HỘI** · *Hiện thân kinh điển kết hợp với Ái kỷ ác tính* | — | ✦ Cáo →H |  |
+| 1-34 | `1.15#2` | C | T1 | `t6_clown_costume_closet` | **MẶT NẠ KHÔNG ĐƯỢC TẠO TỪ SỰ CÔ ĐƠC** · *Mà dệt nên từ chính sự hào nhoáng của địa vị xã hội* | — | ⊘ →H |  |
+| 1-35 | `1.15#3`–`#5` | C | T1 | `t6_clown_mirror_chiaroscuro` | **HAI MỤC ĐÍCH SỐNG CÒN** · *Hiệu ứng Hào quang làm tê liệt cảnh giác · Cơ chế tự thôi miên nhận thức* | — | ⊘ →H |  |
+| 1-36 | `1.16#1`–`#2` | H | T1 | `t6_dossier_gacy_case_06` | **PHÁT SÚNG MỞ MÀN CUỘC ĐẤU TRÍ** · *Cuộc đối đầu tại đồn cảnh sát Des Plaines lúc rạng sáng* | — | ✦ Cú |  |
+| 1-37 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 02* · **HIỆN TRƯỜNG & QUỸ ĐẠO LEO THANG CỦA VỰC THẲM** | — | ⊘ | ◼ |
+| 2-01 | `2.02#1`–`#2` | H | T1 | `t6_iowa_prison_records` | **LÝ LỊCH TƯ PHÁP LƯU TRỮ** · *Trung úy Kozenczak lập tức ra lệnh rà soát tàng thư căn cước tư pháp* | — | ✦ Cú →D |  |
+| 2-02 | `2.03#1`–`#2` | D | T5 ngày | `t6_iowa_prison_records` | **1968** · *Thị trấn Waterloo, bang Iowa — kết án mười năm tù giam* | — | 🅑 |  |
+| 2-03 | `2.03#3`–`#4` | D | T1 | `t6_pdm_contractors_office` | **TỪ NHÀ TÙ RA VỀ THÀNH PHỐ** · *Ân xá sớm sau mười tám tháng · Thành lập PDM Contractors và thâm nhập câu lạc bộ chính trị* | — | 🅑 →H |  |
+| 2-04 | `2.04#1`–`#2` | C | T1 | `t6_psychological_floor_cross_section` | **NÓI NỔ VÀ ĐIỂM GÃY TÂM LÝ** · *Bản án năm 1968 tại Iowa định hình toàn bộ chuỗi hành vi tội ác về sau* | — | ✦ Cáo →H |  |
+| 2-05 | `2.04#3`–`#4` | C | T1 | `t6_abusive_childhood_shadow` | **NẤC THANG THỨ NHẤT** · *Tổn thương tuổi thơ bị bạo hành và sỉ nhục hình thành khao khát kiểm soát* | — | ⊘ |  |
+| 2-06 | `2.04#5`–`#7` | C | T1 | `t6_psychological_mask_metaphor` | **NẤC THANG THỨ HAI · THỨ BA · THỨ TƯ** · *Từ Iowa đến tháng 1 năm 1972; rồi cơn nghiện ảo tưởng mất kiểm soát giai đoạn 1976–1978* | — | ⊘ →H |  |
+| 2-07 | `2.05#1`–`#2` | H | T5 ngày | `t6_search_warrant_documents` | **13 · 12 · 1978** · *Lệnh khám xét đầu tiên — số 8213 Đại lộ West Summerdale* | — | 🅑 →D |  |
+| 2-08 | `2.07#1` | D | T1 | `t6_gacy_house_daylight_winter` | **CĂN NHÀ NGOẠI Ô KHANG TRANG** · *Một ngôi nhà một tầng kiểu nông trại ở vùng ngoại ô yên bình* | — | ✦ Sói |  |
+| 2-09 | `2.07#2`–`#4` | D | T1 | `t6_handcuffs_fake_badge` | **CÒNG TAY KIM LOẠI & PHÙ HIỆU CẢNH SÁT GIẢ** · *Dùi cui và sách nghiên cứu kỹ thuật trói buộc* | — | 🅑 |  |
+| 2-10 | `2.07#5` | D | T1 | `t6_pharmacy_register_receipt` | **CUỐNG BIÊN NHẬN ẢNH NISSON** · *Chứng minh Gacy đã tiếp xúc với nhân viên quầy thuốc đúng buổi tối Robert mất tích* | — | 🅑 |  |
+| 2-11 | `2.07#6` | D | T1 | `t6_highschool_ring_jas` | **CHIẾC NHẪN KHẮC BA CHỮ LỒNG: JAS** · *Chiếc nhẫn tốt nghiệp trung học năm 1975* | — | 🅑 |  |
+| 2-12 | `2.08#1`–`#2` | H | T1 | `t6_cold_case_szyc_dossier` | **JOHN ALAN SZYC, MƯỜI CHÍN TUỔI** · *Mất tích bí ẩn tại Chicago từ tháng 1 năm 1977 — Gacy bịa câu chuyện về chiếc nhẫn* | — | ✦ Cú |  |
+| 2-13 | `2.08#3` | H | T1 | `t6_dossier_gacy_case_06` | **ROBERT PIEST KHÔNG PHẢI LÀ NẠN NHÂN DUY NHẤT** · *Một kỷ vật của người mất tích đã xác nhận một nghi vấn rùng mình* | — | ⊘ →D |  |
+| 2-14 | `2.09#1`–`#2` | D | T1 | `t6_handwritten_crawlspace_map` | **THỦ ĐOẠN GÂY ÁN (MO)** · *Hắn liên tục thay đổi và hoàn thiện kỹ thuật theo thời gian* | — | ⊘ |  |
+| 2-15 | `2.09#3` | D | T1 | `t6_pharmacy_register_receipt` | **MỒI NHỬ LƯƠNG CAO** · *Lời hứa việc làm lương cao để làm tê liệt phản kháng* | — | 🅑 |  |
+| 2-16 | `2.09#4` | D | T1 | `t6_handcuff_trick_demonstration` | **CÒNG TAY ẢO THUẬT** · *Lừa nạn nhân tự đưa tay vào còng trước khi bị khóa chặt* | — | ⊘ |  |
+| 2-17 | `2.09#5`–`#6` | D | T1 | `t6_psychological_mask_metaphor` | **CHỮ KÝ TÂM LÝ (SIGNATURE)** · *Nhu cầu bệnh lý biến nạn nhân thành đạo cụ quyền lực* | — | ⊘ |  |
+| 2-18 | `2.09#7` | D | T1 | `t6_highschool_ring_jas` | **CHIẾN LỢI PHẨM** · *Nhẫn tốt nghiệp, ví tiền và giấy tờ lái xe của nạn nhân* | — | 🅑 |  |
+| 2-19 | `2.09#8` | D | T1 | `t6_psychological_floor_cross_section` | **CHÔN GIẤU NGAY DƯỚI SÀN NHÀ** · *Đi lại bên trên những sinh mạng do chính mình đoạt quyền* | — | ⊘ →H |  |
+| 2-20 | `2.10#1` | H | T1 | `t6_search_warrant_documents` | **CHƯA ĐỦ CHỨNG CỨ VẬT CHẤT** · *Chưa thể ra lệnh bắt giữ chính thức về nơi ở hay nơi cất giấu* | — | ⊘ |  |
+| 2-21 | `2.10#2` | H | T1 | `t6_des_plaines_police_station` | **CHIẾN THUẬT GIÁM SÁT ĐẶC BIỆT** · *Tránh kẻ thủ ác tiêu huỷ chứng cứ hoặc tiếp tục gây hại* | — | ⊘ |  |
+| 2-22 | `2.10#3`–`#4` | H | T1 | `t6_surveillance_car_rain_night` | **BỐN SĨ QUAN BÁM ĐUÔI** · *Hai chiếc xe cảnh sát dân sự theo sát chiếc xe của Gacy từ sáng sớm tinh mơ đến nửa đêm* | — | 🅑 |  |
+| 2-23 | `2.10#5`–`#6` | H | T1 | `t6_psychological_mask_metaphor` | **SÀN DIỄN CÁ NHÂN** · *Thay vì sợ hãi, Gacy biến cuộc theo dõi thành sân khấu riêng cho mình* | — | ⊘ →C |  |
+| 2-24 | `2.10#7` | H | T1 | `t6_gas_station_neon_midnight` | **LÁI XE VÒNG VÈO QUA CÁC TRẠM XĂNG** · *Chạy chậm rì rì trên đường cao tốc để thử thách lòng kiên nhẫn* | — | 🅑 |  |
+| 2-25 | `2.10#8`–`#9` | H | T1 | `t6_diner_booth_confrontation` | **MỜI CẢNH SÁT VÀO NHÀ HÀNG TỐI** · *Hắn cười lớn, hào phóng mua bia chiêu đãi họ | — | ⊘ |  |
+| 2-26 | `2.11#1`–`#2` | C | T1 | `t6_psychological_mask_metaphor` | **CƠ CHẾ BÙ TRỪ QUYỀN LỰC** · *Bị cả đội cảnh sát bám đuôi không tạo sợ hãi mà tạo hưng phấn adrenaline* | — | ✦ Cáo →H |  |
+| 2-27 | `2.11#3`–`#4` | C | T1 | `t6_clown_mirror_chiaroscuro` | **KHÁNH GIẢ BẤT ĐẮC DĨ** · *Hắn xem các nhân viên thực thi pháp luật như người chiêm ngưỡng sự vượt trội của mình* | — | ⊘ →H |  |
+| 2-28 | `2.12#1`–`#2` | H | T1 | `t6_police_entry_summerdale` | **MỘT SƠ HỞ TỪ HỆ THỐNG SƯỞI ẤM** · *Sự căng thẳng bào mòn sức chịu đựng qua từng ngày bị phong tỏa* | — | ⊘ →D |  |
+| 2-29 | `2.13` (nghỉ 1.5 s) | — | — | giữ 2-28 | — | Tiếng còi xe cảnh sát rít xé màn đêm | ⊘ |  |
+| 2-30 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 03* · **GIẢI PHẪU TÂM LÝ — SỰ CHIA NGĂN NHẬN THỨC & KHOẢNG TỐI SUMMERDALE** | — | ⊘ | ◼ |
+| 3-01 | `3.02#1`–`#2` | H | T5 ngày | `t6_lawyer_office_night` | **20 · 12 · 1978** · *Rượu, nước mắt và những lời lẩm bẩm về những điều không thể cứu vãn* | — | ✦ Cú →D |  |
+| 3-02 | `3.02#3` | H | T1 | `t6_des_plaines_police_station` | **CHẠM TỚI ĐIỂM GÃY TÂM LÝ** · *Ban chuyên án quyết định hành động ngay lập tức* | — | ⊘ →D |  |
+| 3-03 | `3.03#1` | D | T1 | `t6_des_plaines_police_station` | **BẮT GIỮ NGÀY 21 THÁNG 12** · *Cáo buộc tàng trữ chất cấm để giữ chân hắn tại đồn cảnh sát* | — | ✦ Sói →H |  |
+| 3-04 | `3.03#2` | D | T1 | `t6_police_entry_summerdale` | **LỆNH KHÁM XÉT THỨ HAI** · *Một đội đặc biệt âm thầm tiến vào số 8213 West Summerdale* | — | ⊘ |  |
+| 3-05 | `3.03#3`–`#5` | D | T1 | `t6_crawlspace_trapdoor_opened` | **MÙI HÔI THỐI TỪ HỆ THỐNG SƯỞI ẤM** · *Mỗi khi sàn nhà được bật sưởi, một luồng khí ngột ngạt bốc lên qua các khe thông gió* | — | ⊘ |  |
+| 3-06 | `3.03#6` | D | T1 | `t6_forensic_trowel_damp_soil` | **MỞ NẮP SÀN KỸ THUẬT** · *Kiểm tra toàn bộ nền móng của ngôi nhà* | — | ⊘ →H |  |
+| 3-07 | `3.05#1`–`#2` | H | T1 | `t6_crawlspace_subterranean_tunnel` | **KHOẢNG KHÔNG GIAN BÒ CHẬT HẸP** · *Cao chưa đầy nửa mét — chạy dọc toàn bộ diện tích sàn nhà* | — | ⊘ →D |  |
+| 3-08 | `3.06#1`–`#2` | D | T1 | `t6_flashlight_beam_lime_dust` | **NẰM SẤP TRÊN NỀN ĐẤT ẨM** · *Điều tra viên phải cởi quân phục, đeo mặt nạ dưỡng khí và trườn bằng khuỷu tay* | — | ⊘ →H |  |
+| 3-09 | `3.06#3`–`#4` | D | T1 | `t6_forensic_trowel_damp_soil` | **MỘT CHIẾC XẺNG CẮM SÂU** · *Những rãnh đất bị xới xáo và lấp vội vàng dưới phòng ngủ* | — | ⊘ |  |
+| 3-10 | `3.08#1`–`#2` | H | T1 | `t6_forensic_trowel_damp_soil` | **CHỈ SAU VÀI NHÁT XẺNG** · *Mảnh vải quần áo và xương cốt người nằm sâu trong lòng đất* | — | ⊘ |  |
+| 3-11 | `3.08#3` | H | T1 | `t6_psychological_floor_cross_section` | **NGHĨA TRANG NGẦM DƯỚI PHÒNG KHÁCH** · *Ngay dưới nơi Gacy từng tiếp đón bạn bè và đi lại mỗi đêm* | — | ⊘ →C |  |
+| 3-12 | `3.09` (nghỉ 1.5 s) | — | — | giữ 3-11 | — | Tiếng thở dài trầm lặng | ⊘ |  |
+| 3-13 | `3.10#1`–`#2` | D | T1 | `t6_night_excavation_floodlights` | **CHIẾN DỊCH KHAI QUẬT QUY MÔ LỚN** · *Chuyên gia pháp y Clyde Snow tỉ mỉ sàng lọc từng tấc đất* | — | ✦ Sói |  |
+| 3-14 | `3.10#3`–`#5` | D | T1 | `t6_evidence_boxes_van` | **HAI MƯƠI SÁU NẠN NHÂN DƯỚI KHOẢNG KHÔNG GIAN BÒ** · *Ba nạn nhân khác trong khuôn viên sân sau và dưới lối đi lát bê tông* | — | 🅑 |  |
+| 3-15 | `3.10#6`–`#7` | D | T1 | `t6_des_plaines_river_bridge_winter` | **BA MƯƠI BA SINH MẠNG BỊ TƯỚC ĐOẠT** · *Bốn nạn nhân cuối cùng bị ném xuống dòng sông Des Plaines băng giá* | — | ⊘ →H |  |
+| 3-16 | `3.11#1`–`#2` | C | T1 | `t6_psychological_floor_cross_section` | **CHIA NGĂN NHẬN THỨC** · *Hai ngăn kéo hoàn toàn biệt lập — không bao giờ giao thoa* | — | ✦ Cáo →H |  |
+| 3-17 | `3.11#3`–`#4` | C | T1 | `t6_four_masks_psychiatric` | **NGĂN KÉO THỨ NHẤT** · *Nhà thầu cần mẫn · người con hiếu thảo phụng dưỡng mẹ già · người chồng chu đáo* | — | ⊘ |  |
+| 3-18 | `3.11#5`–`#6` | C | T1 | `t6_scented_air_fresheners` | **LÁ CHẮN BÌNH THƯỜNG HÓA** · *Gia đình và người mẹ được dùng làm bảo chứng cho danh dự công dân* | — | 🅑 |  |
+| 3-19 | `3.11#7`–`#8` | C | T1 | `t6_clown_mirror_chiaroscuro` | **NGĂN KÉO THỨ HAI** · *Thế giới bóng đêm săn mồi — tắm rửa rồi ăn tối cùng gia đình như chưa từng có chuyện gì* | — | ⊘ |  |
+| 3-20 | `3.11#9`–`#11` | C | T1 | `t6_psychological_mask_metaphor` | **VẬT HÓA & PHI NHÂN HÓA** · *Nạn nhân bị quy đổi thành đạo cụ quyền lực tạm thời* | — | ⊘ |  |
+| 3-21 | `3.11#12` | C | T1 | `t6_abusive_childhood_shadow` | **THIẾU HỤT THẤU CẢM XÚC** · *Tiếng van xin không thể kích hoạt lòng trắc ẩn* | — | ⊘ →H |  |
+| 3-22 | `3.11#13`–`#15` | C | T1 | `t6_clown_oil_painting_easel` | **KỸ THUẬT TRUNG HÒA ĐẠO ĐỨC** · *Hắn đổ lỗi hoàn toàn cho nạn nhân rồi tự cấp cho mình quyền tước đoạt* | — | ⊘ →H |  |
+| 3-23 | `3.12#1`–`#3` | H | T1 | `t6_evidence_boxes_van` | **CON QUÁI VẬT ĐÁNG SỢ NHẤT THẾ KỶ HAI MƯƠI** · *Nó sống ngay giữa một khu dân cư kiểu mẫu và mỉm cười chào hỏi hàng xóm* | — | ✦ Cú |  |
+| 3-24 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 04* · **ĐẤU TRÍ THẨM VẤN & SỤP ĐỔ VỞ KỊCH ĐA NHÂN CÁCH** | — | ⊘ | ◼ |
+| 4-01 | `4.02#1`–`#3` | H | T1 | `t6_four_masks_psychiatric` | **CHIẾN THUẬT PHÒNG VỆ TINH VI** · *Dàn dựng một vở kịch tâm thần đa nhân cách để trốn án tử* | — | ✦ Cú →D |  |
+| 4-02 | `4.03#1`–`#3` | D | T1 | `t6_psychiatric_evaluation_room` | **BỐN NHÂN CÁCH TỰ DỰNG LÊN** · *John nhà thầu xây dựng · John chính trị gia · Pogo chú hề · Jack Hanley* | — | 🅑 →N2 |  |
+| 4-03 | `4.03#4`–`#5` | D | T1 | `t6_dossier_gacy_case_06` | **ĐỔ TOÀN BỘ HÀNH VI LÊN ĐẦU JACK HANLEY** · *Gacy tuyên bố bản thân chỉ là một nhân chứng bất lực bị kẹt trong thân xác* | — | ⊘ |  |
+| 4-04 | `4.04#1` | H | T1 | `t6_handwritten_crawlspace_map` | **LẮNG NGHE KÝ ỨC SĨ QUAN MIKE ALBRECHT** · *Người trực tiếp ngồi đối diện Gacy trong những giờ phút đấu trí* | — | ✦ Sói →N2 |  |
+| 4-05 | `4.05#1`–`#2` | N2 | T1 | `t6_lawyer_office_night` | **HỒI NHỮNG GIỜ PHÚT NGỒI ĐỐI DIỆN** · *Căn phòng hỏi cung ngột ngạt và nước mắt thật* | — | ✦ Cú →C |  |
+| 4-06 | `4.05#3`–`#5` | N2 | T4 lời kể | `t6_handwritten_crawlspace_map` | “chỉ vài giây sau, khi nhắc đến một chi tiết hiện trường, ánh mắt hắn lập tức trở nên sắc lạnh, tỉnh táo và đầy toan tính.” | — | ⊘ →H |  |
+| 4-07 | `4.06#1`–`#2` | H | T5 ngày | `t6_cook_county_courthouse_exterior` | **THÁNG 02 · 1980** · *Tòa án Hạt Cook — phiên tòa được toàn thế giới theo dõi sát sao* | — | ✦ Cáo →H |  |
+| 4-08 | `4.06#3` | H | T1 | `t6_psychiatric_evaluation_room` | **LÝ DO MẤT NĂNG LỰC NHẬN THỨC** · *Các luật sư dựa vào tổn thương tâm lý thời thơ ấu bị bạo hành* | — | ⊘ |  |
+| 4-09 | `4.07#1`–`#2` | C | T1 | `t6_abusive_childhood_shadow` | **TUỔI THƠ NGẬP TRÀN SỈ NHỤC** · *Những sang chấn bẻ gãy sự phát triển cảm xúc bình thường* | — | ✦ Cáo →H |  |
+| 4-10 | `4.07#3`–`#4` | C | T1 | `t6_jury_deliberation_room` | **TÍNH MỤC ĐÍCH & KHẢ NĂNG LÊN KẾ HOẠCH** · *Ranh giới mấu chốt giữa bệnh nhân và kẻ thái nhân cách* | — | ⊘ →H |  |
+| 4-11 | `4.08#1` | H | T1 | `t6_cook_county_courthouse_exterior` | **CÔNG TỐ VIÊN TRƯỞNG WILLIAM KUNKLE** · *Bẻ nát tấm bình phong đa nhân cách bằng chứng cứ thực nghiệm* | — | ✦ Cú →D |  |
+| 4-12 | `4.09#1`–`#2` | D | T1 | `t6_handwritten_crawlspace_map` | **HÀNH ĐỘNG CÓ KẾ HOẠCH TỪ TRƯỚC** · *Người thợ phụ trẻ đào sẵn rãnh đất dưới khoảng không gian bò* | — | ✦ Cáo →H |  |
+| 4-13 | `4.09#3`–`#4` | D | T1 | `t6_bags_of_lime_garage` | **DỤNG CỤ KHỐNG CHẾ GIẤU KÍN** · *Rải vôi bột khử mùi và dọn sạch hiện trường sau mỗi vụ* | — | 🅑 |  |
+| 4-14 | `4.09#5` | D | T1 | `t6_judge_gavel_death_penalty` | **SỰ TỈNH TÁO TUYỆT ĐỐI** · *Ý thức che giấu dấu vết hình sự ở mức độ cao nhất* | — | ⊘ |  |
+| 4-15 | `4.10#1`–`#2` | C | T1 | `t6_psychiatric_evaluation_room` | **BÁC BỎ HOÀN TOÀN LÝ DO TÂM THẦN** · *Không hề bị phân liệt — hoàn toàn nhận thức tính chất sai trái của hành vi* | — | ✦ Cú |  |
+| 4-16 | `4.11#1`–`#2` | H | T5 ngày | `t6_judge_gavel_death_penalty` | **12 · 03 · 1980** · *Chưa đầy hai giờ nghị án — phán quyết lịch sử bác bỏ yêu cầu tuyên vô tội* | — | ✦ Cú |  |
+| 4-17 | `4.11#3`–`#4` | H | T1 | `t6_jury_deliberation_room` | **ÁN TỬ HÌNH** · *Tội danh cho toàn bộ ba mươi ba vụ tước đoạt sinh mạng con người* | — | ⊘ |  |
+| 4-18 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 05* · **PHÁN QUYẾT, BẢN ÁN TÂM LÝ & BÀI HỌC CẢNH BÁO ĐỎ SINH TỒN** | — | ⊘ | ◼ |
+| 5-01 | `5.02#1` | H | T1 | `t6_menard_death_row_corridor` | **MƯỜI BỐN NĂM TẠI MENARD** · *Chưa một lần ăn năn chân chính hay gửi lời xin lỗi* | — | ⊘ |  |
+| 5-02 | `5.02#2`–`#3` | H | T1 | `t6_clown_oil_painting_easel` | **SÂN KHẤU MỚI TRONG PHÒNG GIAM** · *Hơn hai nghìn tranh sơn dầu Chú hề Pogo rồi tìm cách bán đấu giá* | — | 🅑 |  |
+| 5-03 | `5.02#4`–`#5` | H | T1 | `t6_manuscript_victim_34` | **“NẠN NHÂN THỨ BA MƯƠI TƯ”** · *Tự tuyên bố mình là nạn nhân vô tội bị mắc kẹt trong âm mưu chính trị* | — | 🅑 →C |  |
+| 5-04 | `5.03#1`–`#4` | C | T1 | `t6_broken_mirror_narcissism` | **CƠ CHẾ PHÒNG VỆ ĐỔ LỖI NGOẠI VI** · *Sự sụp đổ duy nhất là sụp đổ cái tôi ái kỷ — không phải sự ra đi của ba mươi ba thiếu niên* | — | ✦ Cáo →H |  |
+| 5-05 | `5.04#1` | H | T5 ngày | `t6_stateville_prison_gates` | **10 · 05 · 1994** · *Trại giam Stateville — bản án tử hình thi hành bằng tiêm thuốc độc* | — | ⊘ |  |
+| 5-06 | `5.04#2`–`#4` | H | T1 | `t6_execution_chamber_table` | **LỜI CUỐI CÙNG** · *Không hề ăn năn — chỉ một câu chửi thề đầy khinh miệt* | — | ⊘ |  |
+| 5-07 | `5.05` (nghỉ 1.5 s) | — | — | giữ 5-06 | — | Cello u uất trỗi dậy | ⊘ |  |
+| 5-08 | `5.06#1`–`#2` | H | T1 | `t6_fbi_academy_lecture_hall` | **MỘT BÀI HỌC ĐẮT GIÁ** · *Một cuộc cách mạng trong nhận thức xã hội và quy trình thực thi pháp luật* | — | ✦ Cú |  |
+| 5-09 | `5.06#3`–`#4` | H | T1 | `t6_dossier_gacy_case_06` | **ĐẠO LUẬT TRẺ EM MẤT TÍCH NĂM 1982** · *Sự kiên trì của gia đình nạn nhân thúc đẩy Quốc hội thông qua đạo luật* | — | 🅑 |  |
+| 5-10 | `5.06#5` | H | T1 | `t6_evidence_boxes_van` | **TRUNG TÂM QUỐC GIA VỀ TRẺ EM MẤT TÍCH** · *Ra đời năm 1984 — cứu sống hàng chục nghìn thanh thiếu niên* | — | 🅑 |  |
+| 5-11 | `5.06#6`–`#7` | H | T1 | `t6_dossier_gacy_case_06` | **GẦN NỬA THẾ KỶ ĐÃ TRÔI QUA** · *Hồ sơ Gacy vẫn là lời nhắc nhở về kẻ săn mồi đội lốt người tốt* | — | ✦ Cú →D |  |
+| 5-12 | `5.06#8` | H | T1 | `t6_fbi_academy_lecture_hall` | **BỐN DẤU HIỆU CẢNH BÁO ĐỎ SINH TỒN** · *Đúc kết trực tiếp từ chính hồ sơ này* | — | ⊘ |  |
+| 5-13 | `5.06#9`–`#11` | H | T1 | `t6_redflag_charity_facade` | **CẢNH BÁO ĐỎ THỨ NHẤT: VỎ BỌC TỪ THIỆN & ĐỊA VỊ** · *Chiếc mặt nạ nhân ái là công cụ nguy hiểm nhất để làm tê liệt trực giác cảnh giác* | — | 🅑 |  |
+| 5-14 | `5.06#12`–`#14` | H | T1 | `t6_redflag_wage_trap` | **CẢNH BÁO ĐỎ THỨ HAI: BẪY VIỆC LÀM THÙ LAO CAO** · *Lời hứa hẹn vượt trội không đòi hỏi kỹ năng — mồi nhử dụ dỗ* | — | 🅑 |  |
+| 5-15 | `5.06#15`–`#17` | H | T1 | `t6_redflag_trick_handcuffs` | **CẢNH BÁO ĐỎ THỨ BA: KHÔNG CHO PHÉP KHÓA TAY** · *Biến công cụ khống chế thành trò ảo thuật để nạn nhân tự bỏ quyền tự vệ* | — | 🅑 |  |
+| 5-16 | `5.06#18`–`#20` | H | T1 | `t6_redflag_externalized_blame` | **CẢNH BÁO ĐỎ THỨ TƯ: LẮNG NGHE TRỰC GIÁC BẤT AN** · *Tội ác bắt đầu từ những hành động vượt ranh giới tinh vi* | — | 🅑 |  |
+| 5-17 | `5.06#21` | H | T1 | `t6_pogo_mask_fallen` | **MẶT NẠ CHÚ HỀ RƠI TRÊN NỀN ĐƯỜNG** · *Sự an toàn thực sự xây từ sự tỉnh táo, lý trí và lòng dũng cảm* | — | ⊘ |  |
+| 5-18 | `5.06#22`–`#24` | H | T1 | `t6_closing_rose_closed_dossier` | **CẢM ƠN QUÝ VỊ ĐÃ ĐỒNG HÀNH** · *Bấm đăng ký kênh và chia sẻ góc nhìn ở phần bình luận bên dưới* | — | 🅑 |  |
+| 5-19 | hết tập (10 s) | — | T1 | `t6_closing_rose_closed_dossier` | **HỒ SƠ TẬP 06 · ĐÃ ĐÓNG** · *AMBER EYES · Phân tích tâm lý tội phạm qua những hồ sơ có thật* | Nhạc ngân vang rồi mờ dần `5.07` | ⊘ | ◼ |
 
-### HỒI 2 — CUỘC ĐẤU TRÍ TRÊN ĐƯỜNG PHỐ DES PLAINES · nền chủ đạo `t6_iowa_prison_records`
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 2-01 | `2.02#1`–`#2` | H | T1 | `t6_iowa_prison_records` | **LÝ LỊCH TƯ PHÁP LƯU TRỮ** · *Những dữ liệu bàng hoàng hiện lên màn hình* | — | ✦ Cú →D |  |
-| 2-02 | `2.03#1`–`#2` | D | T5 ngày | `t6_iowa_prison_records` | **1968** · *Kết án mười năm tù tại thị trấn Waterloo, bang Iowa · Ân xá sớm sau mười tám tháng* | — | 🅑 |  |
-| 2-03 | `2.03#3`–`#4` | D | T1 | `t6_pdm_contractors_office` | **VĂN PHÒNG PDM CONTRACTORS** · *Nỗ lực xóa sạch dấu vết quá khứ* | — | 🅑 →H |  |
-| 2-04 | `2.04#1`–`#2` | H | T5 ngày | `t6_search_warrant_documents` | **13 · 12 · 1978** · *Lệnh khám xét đầu tiên số 8213 West Summerdale* | Tiếng gõ cửa điều tra `2.05` | 🅑 →D |  |
-| 2-05 | `2.06#1` | D | T1 | `t6_gacy_house_daylight_winter` | **CĂN NHÀ NGOẠI Ô KHANG TRANG** · *Rà soát bên trong hiện trường* | — | ✦ Sói |  |
-| 2-06 | `2.06#2`–`#4` | D | T1 | `t6_handcuffs_fake_badge` | **CÒNG TAY KIM LOẠI & NHIỀU PHÙ HIỆU CẢNH SÁT** · *Hai vật chứng bước ngoặt: Cuống vé Nisson và chiếc nhẫn JAS* | — | 🅑 →H |  |
-| 2-07 | `2.07#1` | H | T1 | `t6_pharmacy_register_receipt` | **CUỐNG BIÊN NHẬN ẢNH NISSON** · *Bằng chứng Gacy có mặt vào đúng buổi tối Robert mất tích* | — | ✦ Cú |  |
-| 2-08 | `2.07#2`–`#4` | H | T1 | `t6_highschool_ring_jas` | **CHIẾC NHẪN KHẮC BA CHỮ LỒNG: JAS** · *John Alan Szyc (19 tuổi, mất tích 1/1977) · Một lời giải thích qua loa* | — | 🅑 |  |
-| 2-09 | `2.07#5`–`#6` | H | T1 | `t6_cold_case_szyc_dossier` | **CHIẾN THUẬT GIÁM SÁT TỐI HẬU** · *Đặc nhiệm bám đuôi Gacy 24/24 giờ mỗi ngày* | — | 🅑 →D |  |
-| 2-10 | `2.08#1`–`#2` | D | T1 | `t6_surveillance_car_rain_night` | **BỐN SĨ QUAN DÀY DẠN KINH NGHIỆM** · *Albrecht · Hachmeister · Schultz · Robinson bám sát không rời* | Tiếng cần gạt nước mưa đêm | 🅑 →H |  |
-| 2-11 | `2.09#1`–`#2` | H | T1 | `t6_chicago_highway_pursuit` | **CUỘC BÁM ĐUỔI TRÊN CAO TỐC CHICAGO** · *Sự lệch lạc tâm lý và thói ngạo mạn tột cùng* | — | 🅑 →C |  |
-| 2-12 | `2.10#1`–`#4` | C | T1 | `t6_psychological_mask_metaphor` | **CƠ CHẾ BÙ TRỪ QUYỀN LỰC** · *Ái kỷ ác tính xem cảnh sát là khán giả của mình* | — | ✦ Cáo →H |  |
-| 2-13 | `2.11#1`–`#2` | H | T1 | `t6_gas_station_neon_midnight` | **LÁI XE VÒNG VÈO QUA CÁC TRẠM XĂNG** · *Thử thách lòng kiên nhẫn của các thám tử* | — | ✦ Cú |  |
-| 2-14 | `2.11#3`–`#4` | H | T1 | `t6_diner_booth_confrontation` | **HÀO PHÓNG MUA BIA CHO CẢNH SÁT** · *Nụ cười rạng rỡ như thể đang tiếp đãi bạn bè* | Tiếng leng keng thìa cốc | 🅑 |  |
-| 2-15 | `2.11#5`–`#6` | H | T1 | `t6_des_plaines_police_station` | **NGÀY CÀNG MẤT BÌNH TĨNH** · *Cơ hội hành động duy nhất của ban chuyên án đã điểm* | — | 🅑 |  |
-
-### HỒI 3 — KHOẢNG KHÔNG GIAN TỐI DƯỚI NỀN NHÀ SUMMERDALE · nền chủ đạo `t6_police_entry_summerdale`
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 3-01 | `3.02#1`–`#2` | H | T5 ngày | `t6_lawyer_office_night` | **20 · 12 · 1978** · *Văn phòng luật sư riêng · Dấu hiệu suy sụp bất thường* | — | ✦ Cú →D |  |
-| 3-02 | `3.03#1`–`#3` | D | T1 | `t6_police_entry_summerdale` | **LỆNH KHÁM XÉT THỨ HAI** · *Rà soát toàn bộ kết cấu nền móng căn nhà* | Tiếng mở cửa gỗ kẽo kẹt `3.04` | ✦ Sói →H |  |
-| 3-03 | `3.05#1` | H | T1 | `t6_crawlspace_trapdoor_opened` | **NẮP SÀN DẪN XUỐNG GẦM NHÀ** · *Họ dần nhận ra điều mình lo sợ nhất có thể đã thành sự thật* | — | ⊘ →D |  |
-| 3-04 | `3.06#1`–`#2` | D | T1 | `t6_crawlspace_subterranean_tunnel` | **KHOẢNG KHÔNG GIAN BÒ (CRAWL SPACE)** · *Cao chưa đầy nửa mét · Trườn về phía trước bằng khuỷu tay* | — | ⊘ →H |  |
-| 3-05 | `3.07#1` | H | T1 | `t6_flashlight_beam_lime_dust` | **ÁNH ĐÈN PIN QUÉT QUA MẶT ĐẤT** · *Mặt đất phủ đầy bụi bặm* | Tiếng gió lùa gầm sàn | ⊘ |  |
-| 3-06 | `3.07#2`, `3.09#1` | H | T1 | `t6_forensic_trowel_damp_soil` | **MỘT SỰ THẬT KINH HOÀNG XÉ TOẠC MÀN ĐÊM** · *Đội ngũ pháp y lần lượt xác định thêm nhiều nạn nhân* | Tiếng xẻng cắm đất `3.08` | ⊘ →C |  |
-| 3-07 | `3.10#1`–`#4` | C | T1 | `t6_psychological_floor_cross_section` | **TỘI ÁC GIẤU NGAY DƯỚI NƠI SINH HOẠT** · *Nhu cầu kiểm soát và chiếm hữu ở mức bệnh hoạn* | — | ✦ Cáo →H |  |
-| 3-08 | `3.11#1`–`#3` | H | T1 | `t6_night_excavation_floodlights` | **CHIẾN DỊCH KHAI QUẬT QUY MÔ KHỔNG LỒ** · *Các chuyên gia pháp y được huy động đến hiện trường* | Tiếng động cơ máy bơm | ⊘ →D |  |
-| 3-09 | `3.12#1`–`#4` | D | T5 số liệu | `t6_des_plaines_river_bridge_winter` | **33 NẠN NHÂN** · *26 dưới sàn · 3 trong khuôn viên · 4 ở sông Des Plaines* | — | ⊘ →H |  |
-| 3-10 | `3.13#1`–`#3` | H | T1 | `t6_evidence_boxes_van` | **NƯỚC MỸ BÀNG HOÀNG RÚNG ĐỘNG** · *Hai mặt nhân cách tàn độc nhất thế kỷ 20* | — | 🅑 |  |
-
-### HỒI 4 — VỞ KỊCH ĐA NHÂN CÁCH VÀ LỜI NÓI DỐI BỆNH LÝ · nền chủ đạo `t6_four_masks_psychiatric`
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 4-01 | `4.02#1`–`#3` | H | T1 | `t6_four_masks_psychiatric` | **CHIẾN THUẬT PHÒNG VỆ TINH VI MỚI** · *Dàn dựng vở kịch tâm thần nhằm trốn án tử* | — | ✦ Cú →D |  |
-| 4-02 | `4.03#1`–`#3` | D | T1 | `t6_psychiatric_evaluation_room` | **BỐN NHÂN CÁCH TỰ DỰNG LÊN** · *John thầu xây dựng · John chính trị gia · Chú hề Pogo · Jack Hanley* | — | 🅑 →N2 |  |
-| 4-03 | `4.04#1`–`#5` | N2 | T4 lời kể | `t6_handwritten_crawlspace_map`, `push` | “Nhưng chỉ vài giây sau, ánh mắt hắn lại sắc lạnh, tỉnh táo và đầy toan tính.” | — | ✦ Sói →H |  |
-| 4-04 | `4.05#1`–`#2` | H | T5 ngày | `t6_cook_county_courthouse_exterior` | **THÁNG 02 · 1980** · *Tòa án Hạt Cook · Phiên tòa xét xử mở màn* | — | ✦ Cú →C |  |
-| 4-05 | `4.06#1`–`#4` | C | T1 | `t6_abusive_childhood_shadow` | **CÁI TÔI ÁI KỶ BÙ ĐẮP BẤT LỰC** · *Tuổi thơ bị bạo hành và tính mục đích lập kế hoạch chi tiết* | — | ✦ Cáo →H |  |
-| 4-06 | `4.07#1` | H | T1 | `t6_cook_county_courthouse_exterior` | **CÔNG TỐ VIÊN WILLIAM KUNKLE** · *Đập tan tấm bình phong đa nhân cách bằng chứng cứ thực nghiệm* | — | ✦ Cú →D |  |
-| 4-07 | `4.08#1`–`#2` | D | T1 | `t6_bags_of_lime_garage` | **HÀNH ĐỘNG CÓ KẾ HOẠCH TỪ TRƯỚC** · *Hắn sai thợ phụ đào rãnh dưới nền nhà để che giấu tội ác* | — | ✦ Sói |  |
-| 4-08 | `4.08#3` | D | T1 | `t6_lawyer_office_night` | **MÁNH KHÓE LỪA GẠT** · *Hắn khiến các nạn nhân mất cảnh giác* | — | 🅑 →C |  |
-| 4-09 | `4.09#1`–`#3` | C | T1 | `t6_jury_deliberation_room` | **BÁC BỎ LÝ DO TÂM THẦN** · *Chuỗi liên kết nhân quả mạch lạc và che giấu có hệ thống* | — | ✦ Cáo →H |  |
-| 4-10 | `4.10#1`–`#2` | H | T5 ngày | `t6_judge_gavel_death_penalty` | **12 · 03 · 1980** · *Bồi thẩm đoàn kết tội ba mươi ba vụ tước đoạt mạng · Phán quyết: Án tử hình* | Tiếng búa thẩm phán `4.11` | ✦ Cú |  |
-
-### HỒI 5 — "TÔI LÀ NẠN NHÂN THỨ 34" VÀ BÀI HỌC VỀ MẶT NẠ ÁI KỶ · nền chủ đạo `t6_menard_death_row_corridor`
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 5-01 | `5.02#1`–`#2` | H | T1 | `t6_menard_death_row_corridor` | **MƯỜI BỐN NĂM TẠI MENARD** · *Trung tâm Cải huấn Menard, bang Illinois · Chưa từng một lần thể hiện sự hối hận* | — | ⊘ |  |
-| 5-02 | `5.02#3` | H | T1 | `t6_clown_oil_painting_easel` | **TRANH SƠN DẦU CHÚ HỀ POGO** · *Khóe miệng nhọn hoắt ma quái bán ra bên ngoài* | — | 🅑 |  |
-| 5-03 | `5.02#4` | H | T1 | `t6_manuscript_victim_34` | **“NẠN NHÂN THỨ BA MƯƠI TƯ”** · *Gacy tự tuyên bố trong tự truyện và các đoạn ghi âm trước ngày thi hành án* | — | 🅑 →C |  |
-| 5-04 | `5.03#1`–`#4` | C | T1 | `t6_broken_mirror_narcissism` | **CƠ CHẾ PHÒNG VỆ ĐỔ LỖI NGOẠI VI** · *Khiếm khuyết vùng đồng cảm · Luôn tự đặt mình làm trung tâm* | — | ✦ Cáo →H |  |
-| 5-05 | `5.04#1` | H | T5 ngày | `t6_stateville_prison_gates` | **10 · 05 · 1994** · *Trại giam Stateville · Bản án tử hình được thi hành đối với John Wayne Gacy* | — | ⊘ |  |
-| 5-06 | `5.04#2`–`#3` | H | T1 | `t6_execution_chamber_table` | **LỜI CUỐI CÙNG** · *Không hề ăn năn · Chỉ một câu chửi thề thô tục · Chống đối đến hơi thở cuối cùng* | Thở dài trầm lặng `5.05` | ⊘ |  |
-| 5-07 | `5.06#1`–`#3` | H | T1 | `t6_fbi_academy_lecture_hall` | **MỘT BÀI HỌC ĐẮT GIÁ** · *Bốn dấu hiệu cảnh báo đỏ từ hồ sơ John Wayne Gacy* | — | ✦ Cú |  |
-| 5-08 | `5.06#4`–`#6` | H | T1 | `t6_redflag_charity_facade` | **CẢNH BÁO ĐỎ THỨ NHẤT: VỎ BỌC TỪ THIỆN & ĐỊA VỊ** · *Chiếc khiên hoàn hảo làm tê liệt sự nghi ngờ của xã hội* | — | 🅑 |  |
-| 5-09 | `5.06#7`–`#9` | H | T1 | `t6_redflag_wage_trap` | **CẢNH BÁO ĐỎ THỨ HAI: BẪY CÔNG VIỆC LƯƠNG CAO** · *Dụ dỗ người trẻ bước vào không gian cô lập* | — | 🅑 |  |
-| 5-10 | `5.06#10`–`#12` | H | T1 | `t6_redflag_trick_handcuffs` | **CẢNH BÁO ĐỎ THỨ BA: TRÒ CHƠI TIẾP XÚC THÂN THỂ** · *Vô hiệu hóa phản kháng bằng ảo thuật còng tay* | — | 🅑 |  |
-| 5-11 | `5.06#13`–`#15` | H | T1 | `t6_redflag_externalized_blame` | **CẢNH BÁO ĐỎ THỨ TƯ: ĐỔ LỖI NGƯỢC & THIẾU TRẮC ẨN** · *Sự thờ ơ trước nỗi đau của người xung quanh* | — | 🅑 |  |
-| 5-12 | `5.06#16` | H | T1 | `t6_pogo_mask_fallen` | **MẶT NẠ CHÚ HỀ RƠI TRÊN NỀN ĐƯỜNG** · *Sự an toàn thực sự đến từ sự tỉnh táo và lý trí* | — | 🅑 |  |
-| 5-13 | `5.06#17`–`#19` | H | T1 | `t6_closing_rose_closed_dossier` | **CẢM ƠN QUÝ VỊ ĐÃ ĐỒNG HÀNH** · *Bấm đăng ký kênh và chia sẻ góc nhìn bên dưới* | — | 🅑 |  |
-| 5-14 | hết tập (10 s) | — | T1 | `t6_closing_rose_closed_dossier` | **HỒ SƠ TẬP 06 · ĐÃ ĐÓNG** · *AMBER EYES · Phân tích tâm lý tội phạm qua những hồ sơ có thật* | Nhạc ngân vang rồi mờ dần `5.07` | ⊘ | ◼ |
-
-**Tổng: 73 shot** (Hồi 1: 24 shot · Hồi 2: 15 shot · Hồi 3: 10 shot · Hồi 4: 10 shot · Hồi 5: 14 shot) · Phủ 100% 154/154 câu · 100% nền có file trong `assets/bg/`.
-
----
+**Tổng:** 129 shot · 212 câu · 43 element lời (5 hồi) · nền dùng 65 loại.
 
 ## PHỤ LỤC A (Tập 06) — CẤU TRÚC KỊCH BẢN (`parse_kichban.py`)
 
 | Mã | Vai / loại | Câu | Từ | Chỉ dẫn / mô tả |
 |---|---|---:|---:|---|
-| `1.01` | *BGM* | — | — | Tiếng dương cầm mở đầu trầm buồn, chậm rãi, tạo không khí bí ẩn và u uất. |
-| `1.02` | Cú · Host | 6 | 179 | Giọng trầm ấm gợi mở không gian lịch sử |
-| `1.03` | *SFX* | — | — | Tiếng máy ảnh chớp nháy lách tách, tiếng vỗ tay tán thưởng vang vọng xa xăm. |
-| `1.04` | Cú · Host | 2 | 68 | Chuyển giọng đanh thép, lạnh lùng |
+| `1.01` | *BGM* | — | — | Tiếng dương cầm mở đầu trầm buồn, chậm rãi hòa cùng âm thanh Dark Ambient u uất thập niên 70, tạo không gian lịch sử bí ẩn và nghẹt thở. |
+| `1.02` | Cú · Host | 8 | 255 | Giọng đọc chậm, trầm ấm, mở đầu không gian tài liệu lịch sử |
+| `1.03` | *SFX* | — | — | Tiếng máy ảnh chớp nháy lách tách dồn dập, tiếng vỗ tay tán thưởng vang vọng xa xăm rồi chìm lịm vào tiếng gió rít lạnh buốt của đêm đông Chicago. |
+| `1.04` | Cú · Host | 4 | 134 | Hạ trầm giọng, đanh thép và lạnh lùng |
 | `1.05` | *Nghỉ 1.5 s* | — | — | Tiếng cello u uất trỗi dậy |
-| `1.06` | Cú · Host | 7 | 144 | Đêm 11/12/1978 · bà Elizabeth Piest đón Robert tan ca ở hiệu thuốc Nisson |
-| `1.07` | *SFX* | — | — | Tiếng đóng cửa xe cọt kẹt, tiếng bước chân vội vã trên nền tuyết lạnh. |
-| `1.08` | Cú · Host | 6 | 105 | Mức lương 5 đô/giờ · Robert đi vào tiệm và không bao giờ quay lại |
-| `1.09` | **Cừu · N1** | 5 | 75 | Kim Byers - giọng nữ trẻ 17 tuổi bàng hoàng, nghẹn ngào |
-| `1.10` | *SFX* | — | — | Tiếng chuông điện thoại đồn cảnh sát reo vang dồn dập trong đêm. |
-| `1.11` | Cú · Host | 2 | 40 | Tiết tấu nhanh hơn |
-| `1.12` | **Sói · Điều tra viên** | 3 | 75 | Giọng nam sắc bén, quyết đoán |
-| `1.13` | Cú · Host | 2 | 75 | Kể tiếp cuộc gặp sáng hôm sau |
-| `1.14` | **Sói · Điều tra viên** | 2 | 28 | Một chi tiết nhỏ: quần áo của Gacy dính đầy bùn đất |
-| `1.15` | **Cáo · Chuyên gia** | 4 | 112 | Phân tích cấu trúc mặt nạ ái kỷ |
-| `1.16` | Cú · Host | 2 | 69 | Khép lại Hồi 1, phát súng mở màn cuộc đấu trí |
-| `1.17` | *BGM* | — | — | Âm nhạc dâng cao kịch tính rồi ngắt nhịp bằng một tiếng gõ kim loại sắc lạnh. |
-| `2.01` | *BGM* | — | — | Giai điệu Dark Ambient căng thẳng, nhịp bass dồn dập mô phỏng cuộc bám đuổi trong đêm. |
-| `2.02` | Cú · Host | 2 | 57 | Giọng hồi hộp |
-| `2.03` | **Sói · Điều tra viên** | 4 | 115 | Giọng nghiêm nghị, lý lịch Waterloo Anamosa |
-| `2.04` | Cú · Host | 2 | 69 | Nhận thức kẻ săn mồi nguy hiểm, lệnh khám xét 13/12/1978 |
-| `2.05` | *SFX* | — | — | Tiếng lật mở hồ sơ, tiếng bước chân kiểm tra hiện trường. |
-| `2.06` | **Sói · Điều tra viên** | 4 | 99 | Liệt kê vật chứng: còng tay, phù hiệu giả, cuống vé Nisson, nhẫn JAS |
-| `2.07` | Cú · Host | 6 | 158 | Nhấn mạnh vật chứng và triển khai đội giám sát 24/24 |
-| `2.08` | **Sói · Điều tra viên** | 2 | 55 | Bốn sĩ quan dày dạn kinh nghiệm bám đuôi chiếc Oldsmobile |
-| `2.09` | Cú · Host | 2 | 61 | Sự lệch lạc tâm lý và thói ngạo mạn tột cùng của Gacy |
-| `2.10` | **Cáo · Chuyên gia** | 4 | 116 | Cơ chế bù trừ quyền lực ở kẻ mang ASPD kết hợp ái kỷ ác tính |
-| `2.11` | Cú · Host | 6 | 133 | Trêu ngươi cảnh sát: trạm xăng, mời cà phê và chuẩn bị bỏ trốn |
-| `2.12` | *Nghỉ 1.0 s* | — | — | Tiếng còi xe cảnh sát xa xăm |
-| `3.01` | *BGM* | — | — | Nhạc nền chuyển sang không gian Sub-drone trầm đục, u tối và nặng nề đến nghẹt thở. |
-| `3.02` | Cú · Host | 2 | 55 | Giọng chùng xuống, căng thẳng, Gacy tại văn phòng luật sư |
-| `3.03` | **Sói · Điều tra viên** | 3 | 78 | Giữ Gacy tại đồn, lệnh khám xét thứ hai số 8213 Summerdale |
-| `3.04` | *SFX* | — | — | Tiếng bước chân nặng nề trên sàn gỗ, tiếng cọt kẹt mở nắp hầm kỹ thuật. |
-| `3.05` | Cú · Host | 1 | 32 | Mở nắp sàn xuống tầng dưới ngôi nhà · điều mình lo sợ nhất thành sự thật |
-| `3.06` | **Sói · Điều tra viên** | 2 | 63 | Tái hiện không gian crawl space cao chưa đầy 1 mét |
-| `3.07` | Cú · Host | 2 | 35 | Ánh đèn pin quét qua mặt đất phủ đầy bụi bặm · sự thật kinh hoàng xé toạc màn đêm |
-| `3.08` | *SFX* | — | — | Tiếng xẻng cắm sâu vào đất ẩm, tiếng thở dốc nghẹn ngào của người điều tra. |
-| `3.09` | Cú · Host | 1 | 17 | Đội ngũ pháp y lần lượt xác định thêm nhiều nạn nhân |
-| `3.10` | **Cáo · Chuyên gia** | 4 | 74 | Giải phẫu tâm lý: không gian chôn giấu và nhu cầu chiếm hữu ở mức bệnh hoạn |
-| `3.11` | Cú · Host | 3 | 72 | Chiến dịch khai quật xuyên đêm lớn chưa từng có |
-| `3.12` | **Sói · Điều tra viên** | 4 | 64 | Công bố số liệu chấn động: 26 dưới sàn, 3 ngoài sân, 4 dưới sông = 33 nạn nhân |
-| `3.13` | Cú · Host | 3 | 76 | Nước Mỹ bàng hoàng rúng động |
-| `3.14` | *BGM* | — | — | Một nốt trầm kéo dài rồi rơi vào im lặng buốt giá. |
-| `4.01` | *BGM* | — | — | Âm thanh vĩ cầm u uất, giằng xé, tái hiện cuộc đấu trí tâm lý tại phòng hỏi cung. |
-| `4.02` | Cú · Host | 3 | 79 | Kích hoạt chiến thuật phòng vệ mới: dàn dựng vở kịch tâm thần |
-| `4.03` | **Sói · Điều tra viên** | 3 | 103 | Bốn nhân cách: John thầu, John chính trị gia, Pogo chú hề, Jack Hanley |
-| `4.04` | **Mèo · N2** | 5 | 91 | Sĩ quan Mike Albrecht: kẻ thao túng bậc thầy nhớ từng vị trí hố chôn |
-| `4.05` | Cú · Host | 2 | 73 | Phiên tòa xét xử tháng 2/1980 tại Tòa án Hạt Cook |
-| `4.06` | **Cáo · Chuyên gia** | 4 | 112 | Tuổi thơ đòn roi và tính mục đích, lập kế hoạch chi tiết của hành vi |
-| `4.07` | Cú · Host | 1 | 33 | Công tố viên William Kunkle đập tan tấm bình phong đa nhân cách |
-| `4.08` | **Sói · Điều tra viên** | 3 | 60 | Luận cứ đanh thép: hành động có kế hoạch từ trước, đào rãnh dưới nền nhà, mánh khóe lừa gạt |
-| `4.09` | **Cáo · Chuyên gia** | 3 | 78 | Đúc kết khoa học: chuỗi liên kết nhân quả mạch lạc và che giấu có hệ thống |
-| `4.10` | Cú · Host | 2 | 67 | Ngày 13/03/1980: Kết tội 33 vụ án mạng, phán quyết Án tử hình |
-| `4.11` | *SFX* | — | — | Tiếng búa gõ phán quyết của thẩm phán vang lên đanh thép. |
-| `5.01` | *BGM* | — | — | Nhạc nền chuyển sang giai điệu Piano sâu lắng, ấm áp nhưng đượm buồn và suy tư. |
-| `5.02` | Cú · Host | 4 | 142 | 14 năm biệt giam Menard, tranh chú hề và tuyên bố 'nạn nhân thứ ba mươi tư' |
-| `5.03` | **Cáo · Chuyên gia** | 4 | 119 | Bóc trần cơ chế phòng vệ đổ lỗi ngoại vi của kẻ thái nhân cách ái kỷ |
-| `5.04` | Cú · Host | 3 | 83 | Thi hành án tử hình đêm 10/05/1994 tại Trại giam Stateville |
-| `5.05` | *Nghỉ 1.5 s* | — | — | Tiếng thở dài trầm lặng |
-| `5.06` | Cú · Host | 19 | 447 | Bốn bài học nhận diện Red Flags tự bảo vệ bản thân và lời chào kết kênh |
-| `5.07` | *BGM* | — | — | Nhạc nền ngân vang ấm áp rồi mờ dần (Fade out hoàn toàn ở giây thứ 5). |
-| | **Tổng** | **154** | **3.886** | |
+| `1.06` | Cú · Host | 7 | 166 | Tiếp tục mạch kể hồ sơ |
+| `1.07` | *SFX* | — | — | Tiếng đóng cửa xe ô tô cọt kẹt giữa đêm buốt giá, tiếng bước chân vội vã giẫm trên nền tuyết lạnh. |
+| `1.08` | Cú · Host | 7 | 169 | Trầm giọng nhấn mạnh |
+| `1.09` | **Cừu · N1** | 5 | 141 | N1: Kim Byers - giọng nữ trẻ run rẩy, bàng hoàng nghẹn ngào |
+| `1.10` | *SFX* | — | — | Tiếng chuông điện thoại bàn tại đồn cảnh sát reo vang dồn dập, tiếng nhấc ống nghe vội vã. |
+| `1.11` | Cú · Host | 3 | 71 | Tiết tấu nhanh hơn, dồn dập |
+| `1.12` | **Sói · Điều tra viên** | 6 | 155 | Giọng nam sắc bén, quyết đoán, mang tính nghiệp vụ hình sự |
+| `1.13` | Cú · Host | 2 | 60 | Mô tả chi tiết phá án |
+| `1.14` | **Sói · Điều tra viên** | 3 | 97 | Nhấn mạnh chi tiết then chốt |
+| `1.15` | **Cáo · Chuyên gia** | 5 | 173 | Giọng nữ điềm đạm, học thuật, phân tích bản chất tâm lý học |
+| `1.16` | Cú · Host | 2 | 73 | Khép lại Hồi 1 |
+| `1.17` | *BGM* | — | — | Âm nhạc dâng cao kịch tính rồi chuyển sang nhịp điệu dồn dập mô phỏng cuộc săn đuổi. |
+| `2.01` | *BGM* | — | — | Giai điệu Dark Ambient căng thẳng với tiếng gõ kim loại sắc lạnh và nhịp bass dồn dập, mô phỏng cuộc bám đuổi nghẹt thở trên đường phố mùa đông. |
+| `2.02` | Cú · Host | 2 | 62 | Giọng hồi hộp, dẫn dắt vào hồ sơ nghiệp vụ |
+| `2.03` | **Sói · Điều tra viên** | 4 | 136 | Giọng nghiêm nghị, công bố hồ sơ tiền án |
+| `2.04` | **Cáo · Chuyên gia** | 7 | 240 | Phân tích Quỹ đạo leo thang và 4 nấc thang ảo tưởng |
+| `2.05` | Cú · Host | 2 | 66 | Tiếp tục mạch truyện điều tra |
+| `2.06` | *SFX* | — | — | Tiếng lật mở hồ sơ lệnh tòa án, tiếng bước chân thám tử rà soát hiện trường cọt kẹt trên sàn gỗ. |
+| `2.07` | **Sói · Điều tra viên** | 6 | 145 | Liệt kê các vật chứng thu giữ ban đầu |
+| `2.08` | Cú · Host | 3 | 97 | Nhấn mạnh ý nghĩa pháp lý của vật chứng |
+| `2.09` | **Sói · Điều tra viên** | 8 | 249 | Phân tích Dấu ấn Signature vs Thủ đoạn Modus Operandi |
+| `2.10` | Cú · Host | 9 | 278 | Mô tả cuộc đấu trí giám sát trên đường phố |
+| `2.11` | **Cáo · Chuyên gia** | 4 | 118 | Phân tích hành vi trêu ngươi |
+| `2.12` | Cú · Host | 2 | 58 | Thắt lại nút thắt Hồi 2 |
+| `2.13` | *Nghỉ 1.0 s* | — | — | Tiếng còi xe cảnh sát rít xé màn đêm |
+| `3.01` | *BGM* | — | — | Không gian âm nhạc chuyển sang dạng Sub-drone trầm đục, u tối và nặng nề đến nghẹt thở, gợi tả sự chìm sâu vào lòng đất lạnh lẽo. |
+| `3.02` | Cú · Host | 3 | 83 | Giọng chùng xuống, căng thẳng và ngột ngạt |
+| `3.03` | **Sói · Điều tra viên** | 6 | 142 | Giọng dứt khoát, tái hiện thời khắc đột kích |
+| `3.04` | *SFX* | — | — | Tiếng bước chân nặng nề trên sàn gỗ, tiếng cạy bẩy then sắt cọt kẹt mở toang nắp hầm dẫn xuống khoảng không dưới sàn nhà. |
+| `3.05` | Cú · Host | 2 | 62 | Tả lại không gian rùng rợn dưới nền nhà |
+| `3.06` | **Sói · Điều tra viên** | 4 | 117 | Tái hiện quá trình bò vào crawl space |
+| `3.07` | *SFX* | — | — | Tiếng lưỡi xẻng cắm sâu vào nền đất xốp ẩm ướt, tiếng thở dốc nghẹn ngào vì kinh hoàng của người điều tra. |
+| `3.08` | Cú · Host | 3 | 88 | Giọng nghẹn lại, xúc động sâu sắc |
+| `3.09` | *Nghỉ 1.5 s* | — | — | Tiếng thở dài trầm lặng |
+| `3.10` | **Sói · Điều tra viên** | 7 | 180 | Công bố số liệu cuộc khai quật lịch sử |
+| `3.11` | **Cáo · Chuyên gia** | 15 | 483 | Phân tích sâu sắc Cơ chế Chia ngăn nhận thức |
+| `3.12` | Cú · Host | 3 | 84 | Khép lại Hồi 3 |
+| `3.13` | *BGM* | — | — | Một nốt trầm kéo dài u uất rồi rơi vào sự im lặng buốt giá. |
+| `4.01` | *BGM* | — | — | Âm thanh vĩ cầm u uất, giằng xé kết hợp nhịp gõ đều đặn của đồng hồ, tái hiện cuộc đấu trí tâm lý căng thẳng tột cùng tại phòng hỏi cung và pháp đình. |
+| `4.02` | Cú · Host | 3 | 92 | Mở đầu Hồi 4 |
+| `4.03` | **Sói · Điều tra viên** | 5 | 133 | Giọng vạch trần âm mưu của hung thủ |
+| `4.04` | Cú · Host | 1 | 35 | Dẫn dắt sang lời khai nhân chứng nghiệp vụ |
+| `4.05` | **Mèo · N2** | 5 | 154 | N2: Sĩ quan Mike Albrecht - giọng nam trung niên trầm ấm, cứng cáp và chân thực |
+| `4.06` | Cú · Host | 3 | 93 | Phân tích bối cảnh phiên tòa lịch sử |
+| `4.07` | **Cáo · Chuyên gia** | 4 | 144 | Phân tích học thuật tại tòa |
+| `4.08` | Cú · Host | 1 | 34 | Tái hiện cuộc phản công của công tố viên |
+| `4.09` | **Sói · Điều tra viên** | 5 | 154 | Trình bày các luận cứ đanh thép của cơ quan công tố |
+| `4.10` | **Cáo · Chuyên gia** | 2 | 78 | Đúc kết bản chất pháp tâm thần học |
+| `4.11` | Cú · Host | 4 | 78 | Tuyên bố phán quyết lịch sử |
+| `4.12` | *SFX* | — | — | Tiếng búa gõ phán quyết của thẩm phán vang lên đanh thép ba lần "Cộp! Cộp! Cộp!", chốt lại số phận của kẻ sát nhân. |
+| `5.01` | *BGM* | — | — | Nhạc nền chuyển sang giai điệu Dương cầm (Minimalist Piano) sâu lắng, ấm áp nhưng đượm buồn và suy tư, mang âm hưởng triết lý nhân văn. |
+| `5.02` | Cú · Host | 5 | 167 | Giọng suy ngẫm, triết lý |
+| `5.03` | **Cáo · Chuyên gia** | 4 | 150 | Bóc tách Sự tự thương hại bệnh lý và Sụp đổ cái tôi ái kỷ |
+| `5.04` | Cú · Host | 4 | 114 | Khoảnh khắc thi hành án |
+| `5.05` | *Nghỉ 1.5 s* | — | — | Tiếng thở dài trầm lặng của Host |
+| `5.06` | Cú · Host | 24 | 698 | Chuyển sang dư chấn xã hội và cải cách thể chế |
+| `5.07` | *BGM* | — | — | Nhạc nền ngân vang ấm áp rồi mờ dần và tắt hoàn toàn ở giây thứ 5. |
+| | **Tổng** | **212** | **6306** | |
 
 ## PHỤ LỤC B (Tập 06) — THẨM ĐỊNH KỊCH BẢN & TUÂN THỦ V9
 

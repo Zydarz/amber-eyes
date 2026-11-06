@@ -31,125 +31,122 @@
 
 ---
 
-## 6. DANH SÁCH SHOT — TẬP 05 (viết theo A7)
-
-**Đọc bảng:** *Vai* = người đang nói (H Cú · D Sói · C Cáo · N1 Cừu · N2 Mèo). Bảng chỉ mô tả **nền + đồ hoạ**; badge và bán thân tự đặt theo A5.4.  
-Cột *Nhân vật*: `🅑` = thêm bán thân ngoài câu đầu lượt · `→X` = Host đang mời X · `✦` = lần đầu xuất hiện · `⊘` = tắt bán thân.  
-Cột cuối: trống = hoà tan · ✂ cắt · ◼ tối đen.
-
-### INTRO KÊNH · 0,00–22,41 s · `bgm_music_box.mp3`
-
-Đặt `assets/brand/intro_kenh.mov` ở 0,00 s (A5.7). Không câu thoại nào thuộc intro.
-
-### HỒI 1 — BỨC THƯ TÁI XUẤT SAU 13 NĂM LẶNG CĂM · nền chủ đạo `t5_wichita_skyline_dusk`
+## 6. DANH SÁCH SHOT — TẬP 05 (dựng lại 05/11/2026 theo kịch bản v4 — 209 câu, 209 câu phủ)
 
 | Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
 |---|---|---|---|---|---|---|---|---|
-| 1-00 | `1.01`–`1.02` (20.5 s → lời đầu) | — | T1 | `t5_wichita_skyline_dusk` hiện dần từ đen | *HỒI 01 · BỨC THƯ TÁI XUẤT SAU 13 NĂM LẶNG CĂM* | Tiếng máy đánh chữ & gió đông | ⊘ | |
-| 1-01 | `1.03#1`–`#2` | H | T5 ngày | `t5_wichita_skyline_dusk` | **19 · 03 · 2004** · *Wichita, Kansas · Nước Mỹ* | Gõ từng ký tự | ✦ Cú | |
-| 1-02 | `1.03#3` | H | T1 | `t5_eagle_newsroom_night` | **TÒA SOẠN BÁO THE WICHITA EAGLE** · *Nhận được một phong bì thư ký tên người gửi giả* | — | 🅑 |  |
-| 1-03 | `1.03#4` | H | T1 | `t5_manila_envelope_polaroids` | **BẢN SAO BẰNG LÁI VICKI WEGERLE** · *Cùng ba bản sao ảnh liên quan đến vụ án ấy* | — | 🅑 |  |
-| 1-04 | `1.03#5` | H | T2 | `t5_btk_signature_letter` | *CƠN ÁC MỘNG VÙNG TRUNG TÂY* · **KÝ TÊN B-T-K** · *Bind · Torture · Kill* | Dấu mộc ở "B-T-K" | ⊘ | |
-| 1-05 | `1.04` (nghỉ 1.5 s) | — | — | giữ 1-04 | — | — | ⊘ | |
+| 1-00 | `1.01`–`1.02` (20.5 s → lời đầu) | — | T1 | `t5_wichita_skyline_dusk` hiện dần từ đen | *HỒI 01 · BỨC THƯ TÁI XUẤT SAU 13 NĂM LẶNG CĂM* | Tiếng máy đánh chữ & gió đông | ⊘ |  |
+| 1-01 | `1.03#1`–`#2` | H | T5 ngày | `t5_wichita_skyline_dusk` | **19 · 03 · 2004** · *Wichita, Kansas · Nước Mỹ* | Gõ từng ký tự | ✦ Cú |  |
+| 1-02 | `1.03#3` | H | T1 | `t5_eagle_newsroom_night` | **BẢN SAO BẰNG LÁI XE CỦA VICKI WEGERLE** · *Nạn nhân bị tước đoạt mạng sống năm 1986 trong một vụ án chưa có lời giải* | — | 🅑 |  |
+| 1-03 | `1.03#4` | H | T1 | `t5_manila_envelope_polaroids` | **KÝ TÊN BA CHỮ CÁI** · “B-T-K” · *Nỗi kinh hoàng ám ảnh cả miền Trung Tây nước Mỹ suốt nhiều thập kỷ* | — | 🅑 |  |
+| 1-04 | `1.03#5` | H | T2 | `t5_btk_signature_letter` | *LỜI KHẲNG ĐỊNH LẠNH LÙNG* · **KẺ SÁT NHÂN HÀNG LOẠT ĐÃ CHÍNH THỨC QUAY TRỞ LẠI** | Dấu mộc ở "B-T-K" | ⊘ |  |
+| 1-05 | `1.04` (nghỉ 1.5 s) | — | — | giữ 1-04 | — | — | ⊘ |  |
 | 1-06 | `1.05#1`–`#2` | H | T1 | `t5_newspaper_bundle_dawn` | **RÚNG ĐỘNG TOÀN BỘ NƯỚC MỸ** · *Tước đoạt mạng sống của 10 người từ 1974 đến 1991* | Báo in giật tít | 🅑 |  |
-| 1-07 | `1.05#3`–`#4` | H | T1 | `t5_vintage_typewriter_desk` | **BÓNG MA BỐC HƠI VÀO HƯ KHÔNG** · *13 năm ròng rã không một dấu vết* | Tiếng máy đánh chữ | ⊘ | |
-| 1-08 | `1.05#5` | H | T1 | `t5_cold_case_archives` | **HỒ SƠ ÁN NGUỘI CẢNH SÁT WICHITA** · *Từng tin rằng kẻ thủ ác đã qua đời hoặc đang thụ án* | — | ⊘ | |
-| 1-09 | `1.06` (nghỉ 1.5 s) | — | — | giữ 1-08 | — | — | ⊘ | |
+| 1-07 | `1.05#3`–`#4` | H | T1 | `t5_vintage_typewriter_desk` | **BÓNG MA BỐC HƠI VÀO HƯ KHÔNG** · *13 năm ròng rã không một dấu vết* | Tiếng máy đánh chữ | ⊘ |  |
+| 1-08 | `1.05#5` | H | T1 | `t5_cold_case_archives` | **HỒ SƠ ÁN NGUỘI CẢNH SÁT WICHITA** · *Từng tin rằng kẻ thủ ác đã qua đời hoặc đang thụ án* | — | ⊘ |  |
+| 1-09 | `1.06` (nghỉ 1.5 s) | — | — | giữ 1-08 | — | — | ⊘ |  |
 | 1-10 | `1.07#1` | H | T1 | `t5_park_city_suburb` | *HÃY HÌNH DUNG TÂM TRẠNG TỪ* · **MỘT NGƯỜI DÂN THỊ TRẤN PARK CITY** | — | →N1 |  |
-| 1-11 | `1.09#1`–`#2` | N1 | T4 lời kể | `t5_park_city_suburb`, `push` | “Khi nghe tin BTK gửi thư trở lại sau hơn một thập kỷ, cả thị trấn chúng tôi nín thở trong sợ hãi” → `#2`: “Người ta lại kiểm tra then cài cửa sổ, mua thêm súng và khóa chặt cửa trước khi trời tối.” | Tiếng bật băng ghi âm `1.08` | ✦ Cừu |  |
-| 1-12 | `1.09#3` | N1 | T4 lời kể | `t5_suburban_house_locked` | “Không một ai có thể ngờ rằng, kẻ thủ ác mà cả nước Mỹ đang lùng sục suốt 30 năm qua lại chính là người đàn ông mẫn cán hàng ngày đi đo chiều cao từng bãi cỏ” | — | ⊘ | →H |
-| 1-13 | `1.10#1`–`#4` | H | T1 | `t5_compliance_truck_street` | **NGHỊCH LÝ KỲ DỊ NHẤT CỦA NGÀNH ĐIỀU TRA HÌNH SỰ** · *Kẻ thủ ác an toàn ngủ đông suốt 13 năm* → `#3`: *Các manh mối đã nguội lạnh* → `#4`: *Công nghệ lúc bấy giờ vẫn chưa lần ra được danh tính của hắn* | — | ✦ Cú |  |
-| 1-14 | `1.10#5`–`#7` | H | T1 | `t5_detective_war_room` | **ĐIỀU GÌ THÔI THÚC CON QUÁI VẬT PHÁ VỠ SỰ IM LẶNG?** · *Tại sao lại tự tay dâng mình vào chiếc bẫy của cảnh sát?* | — | ⊘ | |
-| 1-15 | `1.11` (nghỉ 2 s) | — | — | giữ 1-14, nhạc nền dừng đột ngột | — | Tiếng tích tắc đồng hồ khô khốc | ⊘ | |
-| 1-16 | `1.12#1` | H | T1 | `t5_detective_war_room` | *XIN MỜI ĐIỀU TRA VIÊN MỞ LẠI HỒ SƠ CHUYÊN ÁN* · **BẮT ĐẦU CUỘC ĐẤU TRÍ LỊCH SỬ** | — | →D |  |
-| 1-17 | `1.14#1`–`#2` | D | T1 | `t5_detective_war_room`, `still` | **CÂU HỎI ĐẦU TIÊN CỦA BAN CHUYÊN ÁN:** *Tại sao lại là lúc này?* → `#2`: *Lật lại các mặt báo địa phương những tháng trước đó* | Ngăn kéo mở & đặt hồ sơ `1.13` | ✦ Sói | |
-| 1-18 | `1.14#3`–`#5` | D | T1 | `t5_book_manuscript_desk` | **BÀI BÁO KỶ NIỆM 30 NĂM CỦA THE WICHITA EAGLE** · *Luật sư Robert Beattie đang viết sách và nêu giả thuyết BTK đã chết hoặc đang ngồi tù* | — | 🅑 |  |
-| 1-19 | `1.14#6`–`#7` | D | T1 | `t5_narcissist_mirror_shadow`, `push` | **NHÁT DAO ĐÂM THẲNG VÀO LÒNG TỰ TÔN ÁI KỶ** · *Không chấp nhận sự lãng quên · Con quái vật BTK vẫn đang sống* | — | ⊘ | →H |
-| 1-20 | `1.16#1`–`#3` | H | T10 | `t5_amber_eyes_dossier_05` | **CHIẾC ĐĨA MỀM MÀU TÍM & CƠN NGHIỆN ÁI KỶ** · *Hồ sơ Dennis Rader (BTK)* · *Cơn nghiện sự chú ý & Sự phân mảnh tâm trí tuyệt đối* | Cello u uất `1.15` dâng lên | ✦ Cú | |
-| 1-21 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 02* · **HIỆN TRƯỜNG & HỒ SƠ TỘI ÁC — CHỮ KÝ TÂM LÝ CỦA CON THÚ HAI MẶT** | — | ⊘ | ◼ |
-
-### HỒI 2 — HIỆN TRƯỜNG & HỒ SƠ TỘI ÁC · nền chủ đạo `t5_darkened_house_exterior`
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 2-01 | `2.02#1`–`#2` | H | T1 | `t5_darkened_house_exterior` | **HIỆN TRƯỜNG VÀ DẤU VẾT TRONG 17 NĂM HOẠT ĐỘNG** · *1974 – 1991 · Phương thức hoạt động và Chữ ký tâm lý đặc dị* | Nhịp tim & cuộn băng từ | ✦ Cú | |
+| 1-11 | `1.09#1`–`#3` | N1 | T4 lời kể | `t5_park_city_suburb`, `push` | “Khi nghe tin BTK gửi thư trở lại sau hơn một thập kỷ, cả thị trấn chúng tôi như nín thở trong sự hoảng loạn.” → `#3`: “Người ta đổ xô đi mua thêm súng, thay khóa cửa, lắp đèn cảm ứng và chèn then cửa sổ trước khi trời tối.” | Tiếng bật băng ghi âm `1.08` | ✦ Cừu |  |
+| 1-12 | `1.09#4`–`#5` | N1 | T4 lời kể | `t5_suburban_house_locked` | “Không một ai trong chúng tôi có thể ngờ rằng, con quái vật cả nước Mỹ đang lùng sục lại chính là người đàn ông mẫn cán ngày ngày lái xe đi đo từng bãi cỏ trong khu phố.” | — | ⊘ | →H |
+| 1-13 | `1.10#1`–`#3` | H | T1 | `t5_compliance_truck_street` | **NGHỊCH LÝ KỲ DỊ NHẤT CỦA NGÀNH ĐIỀU TRA HÌNH SỰ** · *Kẻ thủ ác đã ngủ đông hoàn toàn suốt 13 năm* → `#3`: *Các dấu vết hiện trường năm xưa đã nguội lạnh* | — | ✦ Cú |  |
+| 1-14 | `1.10#4` | H | T1 | `t5_compliance_truck_street` | **NGHỊCH LÝ KỲ DỊ NHẤT CỦA NGÀNH ĐIỀU TRA HÌNH SỰ** → `#4`: *Công nghệ truy vết thời đó chưa thể tìm ra bất kỳ manh mối nào về tung tích của hắn* | — | ✦ Cú |  |
+| 1-15 | `1.10#5`–`#7` | H | T1 | `t5_detective_war_room` | **ĐIỀU GÌ THÔI THÚC CON QUÁI VẬT PHÁ VỠ SỰ IM LẶNG?** · *Tại sao lại tự tay dâng mình vào chiếc bẫy của cơ quan điều tra?* | — | ⊘ |  |
+| 1-16 | `1.11` (nghỉ 2 s) | — | — | giữ 1-14, nhạc nền dừng đột ngột | — | Tiếng tích tắc đồng hồ khô khốc | ⊘ |  |
+| 1-17 | `1.12#1` | H | T1 | `t5_detective_war_room` | *XIN MỜI ĐIỀU TRA VIÊN MỞ LẠI HỒ SƠ CHUYÊN ÁN* · **BẮT ĐẦU CUỘC ĐẤU TRÍ LỊCH SỬ** | — | →D |  |
+| 1-18 | `1.14#1`–`#2` | D | T1 | `t5_detective_war_room`, `still` | **CÂU HỎI ĐẦU TIÊN CỦA BAN CHUYÊN ÁN:** *Tại sao lại là lúc này?* → `#2`: *Lật lại các trang báo địa phương những tháng trước đó* | Ngăn kéo mở & đặt hồ sơ `1.13` | ✦ Sói |  |
+| 1-19 | `1.14#3`–`#5` | D | T1 | `t5_book_manuscript_desk` | **BÀI BÁO KỶ NIỆM 30 NĂM CỦA THE WICHITA EAGLE** · *Luật sư Robert Beattie nêu giả thuyết BTK đã chết hoặc đang sống trong bóng tối của sự lãng quên* | — | 🅑 |  |
+| 1-20 | `1.14#6`–`#7` | D | T1 | `t5_narcissist_mirror_shadow`, `push` | **NHÁT DAO ĐÂM THẲNG VÀO LÒNG TỰ TÔN ÁI KỶ** · *Không chấp nhận sự lãng quên · Con quái vật BTK vẫn đang sống* | — | ⊘ | →H |
+| 1-21 | `1.16#1`–`#3` | H | T10 | `t5_amber_eyes_dossier_05` | **CHIẾC ĐĨA MỀM MÀU TÍM & CƠN NGHIỆN ÁI KỶ** · *Hồ sơ Dennis Rader (BTK)* · *Cơn nghiện sự chú ý & Sự phân mảnh tâm trí tuyệt đối* | Cello u uất `1.15` dâng lên | ✦ Cú |  |
+| 1-22 | `1.16#4` | H | T10 | `t5_amber_eyes_dossier_05` | **CHIẾC ĐĨA MỀM MÀU TÍM & CƠN NGHIỆN ÁI KỶ** · *Hồ sơ Dennis Rader (BTK)* · *Cơn nghiện sự chú ý & Sự phân mảnh tâm trí tuyệt đối* | Cello u uất `1.15` dâng lên | ✦ Cú |  |
+| 1-23 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 02* · **HIỆN TRƯỜNG & HỒ SƠ TỘI ÁC — CHỮ KÝ TÂM LÝ CỦA CON THÚ HAI MẶT** | — | ⊘ | ◼ |
+| 2-01 | `2.02#1`–`#2` | H | T1 | `t5_darkened_house_exterior` | **HIỆN TRƯỜNG VÀ DẤU VẾT TRONG 17 NĂM HOẠT ĐỘNG** · *1974 – 1991 · Phương thức hoạt động và Chữ ký tâm lý đặc dị* | Nhịp tim & cuộn băng từ | ✦ Cú |  |
 | 2-02 | `2.02#3`–`#5` | H | T2 | `t5_btk_signature_metaphor` | *BIỆT DANH TỰ ĐẶT* · **BTK** · *Chương trình xin không diễn giải chi tiết ba chữ ấy* | Dấu mộc ở "BTK" | 🅑 | →D |
-| 2-03 | `2.04#1`–`#3` | D | T8 | `t5_btk_signature_metaphor`, `still` | *KHOA HỌC HÀNH VI FBI · CHỮ KÝ TÂM LÝ ĐẶC TRƯNG* · *Đặc điểm thứ nhất là nhu cầu áp chế tuyệt đối* · *Được biến những người vô tội thành người hoàn toàn bất lực và sợ hãi* | Lật ảnh hiện trường `2.03` | ✦ Sói |  |
-| 2-04 | `2.04#4`–`#5` | D | T1 | `t5_trophy_lockbox`, `push` | **THỨ HAI: NHU CẦU LƯU GIỮ CHIẾN LỢI PHẨM** · *Lấy đi bằng lái xe, đồng hồ hoặc đồ trang sức* | — | 🅑 |  |
-| 2-05 | `2.04#6` | D | T1 | `t5_narcissist_mirror_shadow` | **MÓN ĐỒ KHÔNG MANG GIÁ TRỊ VẬT CHẤT** · *Chúng kích hoạt cảm xúc để hắn hồi tưởng lại cảm giác thống trị mỗi khi ở một mình* | — |  |  |
-| 2-06 | `2.04#7`–`#8` | D | T1 | `t5_public_library_bookshelves` | **THỨ BA: TRUYỀN THÔNG TRÊU NGƯƠI** · *Bưu kiện giấu trong thư viện công cộng và thùng rác công viên* | — | ⊘ | →H |
-| 2-07 | `2.05#1`–`#4` | H | T1 | `t5_gloves_forensic_desk` | **MỘT KẺ SĂN MỒI TỈ MỈ VÀ CỰC KỲ KIÊN NHẪN** · *Nắm rõ kỹ thuật trinh sát, cẩn thận không lưu lại vân tay* → `#3`: *Danh tính thực sự phía sau chiếc mặt nạ* | — | ✦ Cú | →D |
-| 2-08 | `2.06#1` | D | T1 | `t5_air_force_service_era` | **DENNIS RADER · SINH NĂM 1945** · *Bốn năm Không quân Mỹ · Tốt nghiệp Quản trị tư pháp* | — | ✦ Sói | |
-| 2-09 | `2.06#2` | D | T1 | `t5_rader_house_park_city` | **NGÔI NHÀ 6220 INDEPENDENCE TẠI PARK CITY** · *Người vợ hơn 30 năm và hai đứa con ngoan ngoãn* | — | | |
-| 2-10 | `2.06#3` | D | T1 | `t5_lutheran_church_exterior` | **CHỦ TỊCH HỘI ĐỒNG NHÀ THỜ LUTHERAN CHÚA KITÔ** · *Người được cả giáo đoàn tin tưởng giao trọng trách* | — |  |  |
-| 2-11 | `2.06#4` | D | T1 | `t5_scout_camp_campfire` | **ĐỘI TRƯỞNG HƯỚNG ĐẠO SINH CUB SCOUT** · *Dạy trẻ em trong thị trấn cách dựng lều và rèn luyện tính trung thực* | — | ⊘ |  |
-| 2-12 | `2.06#5`–`#6` | D | T1 | `t5_compliance_truck_street` | **NHÂN VIÊN KIỂM TRA TRẬT TỰ ĐÔ THỊ TỪ NĂM 1991** · *Lái xe bán tải đi đo chiều cao từng bãi cỏ, bắt giữ chó mèo chạy rông* | — | ⊘ | |
-| 2-13 | `2.06#7` | D | T1 | `t5_compliance_measuring_tape`, `push` | **TỈ MỈ ĐẾN MỨC BỆNH HOẠN, HÀ KHẮC** · *Không ai ngờ người đàn ông luôn cầm thước đo cỏ lại là con quái vật BTK* | Tiếng thước dây đo cỏ | ⊘ | →H |
-| 2-14 | `2.07#1`–`#4` | H | T3 so sánh | `t5_two_faces_silhouette` | *Ban ngày: Công dân mẫu mực · Người cha chuẩn mực* · **BAN ĐÊM: KẺ SĂN MỒI LẠNH LÙNG TƯỚC ĐOẠT SINH MẠNG** · *Làm thế nào hai nhân cách đối lập cùng tồn tại hơn 30 năm?* | Sub-drop ở "kẻ săn mồi" | ✦ Cú | →C |
-| 2-15 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 03* · **GIẢI PHẪU TÂM LÝ — BÊN TRONG BỘ NÃO ÁI KỶ ÁC TÍNH** | — | ⊘ | ◼ |
+| 2-03 | `2.04#1`–`#3` | D | T8 | `t5_btk_signature_metaphor`, `still` | *KHOA HỌC HÀNH VI FBI · CHỮ KÝ TÂM LÝ ĐẶC TRƯNG* · *Thủ đoạn có thể thay đổi linh hoạt theo thời gian* · *Chữ ký tâm lý thì bất biến, vì nó phục vụ cho nhu cầu thỏa mãn cảm xúc nội tại* | Lật ảnh hiện trường `2.03` | ✦ Sói |  |
+| 2-04 | `2.04#4`–`#5` | D | T1 | `t5_trophy_lockbox`, `push` | **BA ĐẶC ĐIỂM CỐT LÕI** · *Thứ nhất: nhu cầu áp chế và kiểm soát quyền lực tuyệt đối trước sự bất lực của người khác* | — | 🅑 |  |
+| 2-05 | `2.04#6`–`#7` | D | T1 | `t5_narcissist_mirror_shadow` | **THỨ HAI: NHU CẦU LƯU GIỮ CHIẾN LỢI PHẨM** · *Chiến lợi phẩm kích hoạt hồi tưởng hưng phấn khi ở một mình* → `#7`: *Thứ ba: nhu cầu trêu ngươi cơ quan thực thi pháp luật và truyền thông đại chúng* | — |  |  |
+| 2-06 | `2.04#8`–`#9` | D | T1 | `t5_public_library_bookshelves` | **BÍ MẬT VÀ TRÊU NGƯƠI** · *Bưu kiện giấu trong thư viện công cộng và thùng rác công viên* → `#9`: *Chính những chiến lợi phẩm và bức thư ấy hé lộ bản chất tâm thần của con thú săn mồi* | — | ⊘ | →H |
+| 2-07 | `2.05#1`–`#3` | H | T1 | `t5_gloves_forensic_desk` | **QUỸ ĐẠO LEO THANG ẢO TƯỞNG QUA 4 NẤC THANG** · *Hành vi tội ác không xuất hiện ngẫu nhiên chỉ sau một đêm* → `#3`: *Nấc thang thứ nhất: bạo hành súc vật nhỏ và nhìn trộm qua cửa sổ ban đêm* | — | ✦ Cú | →D |
+| 2-08 | `2.05#4`–`#6` | H | T1 | `t5_gloves_forensic_desk` | **QUỸ ĐẠO BỐN NẤC THANG TÂM LÝ** → `#4`: *Nấc thang thứ hai: đột nhập lén lút và trộm đồ riêng tư* → `#5`: *Nấc thang thứ ba: xâm nhập có chủ đích, khống chế trực tiếp nạn nhân* → `#6`: *Nấc thang thứ tư: hủy hoại sinh mạng kết hợp tự dàn dựng chụp ảnh bệnh hoạn* | — | ✦ Cú | →D |
+| 2-09 | `2.05#7` | H | T1 | `t5_gloves_forensic_desk` | **CƠN ĐÓI ẢO TƯỞNG KHÔNG CÒN GIỚI HẠN** · *Liều kích thích ngày càng mạnh hơn cho đến khi không còn giới hạn nào ngăn cản hắn* | — | ✦ Cú | →D |
+| 2-10 | `2.06#1`–`#2` | D | T1 | `t5_air_force_service_era` | **DENNIS RADER · SINH NĂM 1945** · *4 năm trong Không quân Mỹ · Tốt nghiệp Quản trị tư pháp* | — | ✦ Sói |  |
+| 2-11 | `2.06#3` | D | T1 | `t5_rader_house_park_city` | **NGÔI NHÀ 6220 INDEPENDENCE TẠI PARK CITY** · *Người vợ hơn 30 năm và hai đứa con* | — |  |  |
+| 2-12 | `2.06#4` | D | T1 | `t5_lutheran_church_exterior` | **CHỦ TỊCH HỘI ĐỒNG NHÀ THỜ LUTHERAN CHÚA KITÔ** · *Người được cả giáo đoàn tin tưởng giao trọng trách* | — |  |  |
+| 2-13 | `2.06#5` | D | T1 | `t5_scout_camp_campfire` | **ĐỘI TRƯỞNG HƯỚNG ĐẠO SINH CUB SCOUT** · *Dạy trẻ em trong thị trấn cách dựng lều và rèn luyện tính trung thực* | — | ⊘ |  |
+| 2-14 | `2.06#6`–`#7` | D | T1 | `t5_compliance_truck_street` | **NHÂN VIÊN KIỂM TRA TRẬT TỰ ĐÔ THỊ TỪ NĂM 1991** · *Lái xe bán tải đi đo chiều cao từng bãi cỏ, bắt giữ thú cưng chạy rông* | — | ⊘ |  |
+| 2-15 | `2.06#8` | D | T1 | `t5_compliance_measuring_tape`, `push` | **HIỆU ỨNG HÀO QUANG & TÂM LÝ BÌNH THƯỜNG HÓA XÃ HỘI** · *Điểm mù khổng lồ che mắt cả thị trấn suốt ba thập kỷ* | Tiếng thước dây đo cỏ | ⊘ | →H |
+| 2-16 | `2.07#1`–`#3` | H | T3 so sánh | `t5_two_faces_silhouette` | *Ban ngày: Công dân mẫu mực · Người cha gương mẫu* · **BAN ĐÊM: KẺ SĂN MỒI LẠNH LÙNG TƯỚC ĐOẠT SINH MẠNG** · *Nhân viên lắp đặt báo động an ninh ADT từ năm 1974 đến 1988* | Sub-drop ở "kẻ săn mồi" | ✦ Cú | →C |
+| 2-17 | `2.07#4`–`#6` | H | T3 so sánh | `t5_two_faces_silhouette` | *Ban ngày: Công dân mẫu mực · Người cha gương mực* · **BAN ĐÊM: KẺ SĂN MỒI LẠNH LÙNG TƯỚC ĐOẠT SINH MẠNG** · *Làm thế nào hai thế giới đối lập tột cùng ấy cùng tồn tại hơn 30 năm?* | Sub-drop ở "kẻ săn mồi" | ✦ Cú | →C |
+| 2-18 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 03* · **GIẢI PHẪU TÂM LÝ — BÊN TRONG BỘ NÃO ÁI KỶ ÁC TÍNH** | — | ⊘ | ◼ |
+| 3-01 | `3.02#1`–`#3` | C | T2 | `t5_compartmentalization_cabinet` | *CƠ CHẾ PHÒNG VỆ THỨ NHẤT* · **SỰ PHÂN MẢNH TÂM TRÍ TUYỆT ĐỐI (COMPARTMENTALIZATION)** · *Khả năng đóng kín từng ngăn kéo tâm lý hoàn hảo* | Dấu mộc ở "Phân mảnh tâm trí" | ✦ Cáo |  |
+| 3-02 | `3.02#4`–`#6` | C | T1 | `t5_concrete_wall_divide` | **KHÔNG MỘT TỘI LỖI HAY CẮN RỨT LƯƠNG TÂM** · *Những hành vi tội ác thuộc về một ngăn kéo hoàn toàn khác* → `#6`: *Gia đình và người thân được dùng như một “lá chắn bình thường hóa”* | — | 🅑 |  |
+| 3-03 | `3.02#7`–`#8` | C | T1 | `t5_factor_x_shadow`, `push` | **KHÁI NIỆM TÂM LÝ HOANG TƯỞNG: “NHÂN TỐ X”** · *Tự gán tội lỗi cho một thực thể trừu tượng* | — | ⊘ |  |
+| 3-04 | `3.03` (nghỉ 1.5 s) | — | — | giữ 3-03 | — | — | ⊘ |  |
+| 3-05 | `3.04#1`–`#3` | H | T1 | `t5_factor_x_shadow` | *MỘT KHÁI NIỆM KỲ DỊ THƯA CHUYÊN GIA* · **DƯỚI GÓC ĐỘ KHOA HỌC: “NHÂN TỐ X” THỰC CHẤT LÀ GÌ?** | — | ✦ Cú | →C |
+| 3-06 | `3.05#1`–`#3` | C | T2 | `t5_projection_mask` | *CƠ CHẾ PHÒNG VỆ THỨ HAI* · **PHÓNG CHIẾU VÀ NGỤY BIỆN (RATIONALIZATION & PROJECTION)** · *Nhân tố X thực chất là biểu hiện kinh điển của kỹ thuật Trung hòa Đạo đức* | Dấu mộc ở "Phóng chiếu và ngụy biện" | ✦ Cáo |  |
+| 3-07 | `3.05#4`–`#5` | C | T2 | `t5_projection_mask` | *CƠ CHẾ PHÒNG VỆ THỨ HAI* · **PHÓNG CHIẾU VÀ NGỤY BIỆN (RATIONALIZATION & PROJECTION)** · *Hắn tự ru ngủ bản thân bằng lý lẽ rằng chính Nhân tố X bên trong ép hắn phải làm* | Dấu mộc ở "Phóng chiếu và ngụy biện" | ✦ Cáo |  |
+| 3-08 | `3.05#6`–`#8` | C | T1 | `t5_family_dinner_warmth` | **RỨ BỎ HOÀN TOÀN TRÁCH NHIỆM ĐẠO ĐỨC** · *Vừa gây ra những thảm kịch kinh hoàng, vừa quay về nhà ăn tối cùng vợ con như một người đàn ông hoàn toàn vô tội* | — | ⊘ | →H |
+| 3-09 | `3.06#1`–`#3` | H | T1 | `t5_narcissistic_throne` | **CƠ CHẾ TỰ LỪA DỐI BẢN THÂN** · *Còn cách nhìn nhận của Rader đối với các nạn nhân thì sao?* → `#3`: *Tại sao tiếng van xin của người vô tội không thể đánh thức chút lòng trắc ẩn nào trong tâm hồn hắn?* | — | ✦ Cú | →C |
+| 3-10 | `3.06#4` | H | T1 | `t5_narcissistic_throne` | **ĐIỀU GÌ ĐÃ TRIỆT TIÊU HOÀN TOÀN TÍNH NGƯỜI?** | — | ✦ Cú | →C |
+| 3-11 | `3.07#1`–`#3` | C | T2 | `t5_narcissistic_throne`, `still` | *CƠ CHẾ TIẾP THEO* · **VẬT HÓA VÀ PHI NHÂN HÓA NẠN NHÂN (OBJECTIFICATION & DEHUMANIZATION)** · *Kết hợp cấu trúc ái kỷ ác tính với rối loạn nhân cách chống đối xã hội: khả năng thấu cảm cảm xúc bị thiếu hụt hoàn toàn* | Dấu mộc ở "Ái kỷ ác tính" | ✦ Cáo |  |
+| 3-12 | `3.07#4`–`#5` | C | T1 | `t5_secret_scrapbook` | **HẮN GỌI HỌ MỘT CÁCH LẠNH LÙNG LÀ** · “dự án” → `#5`: *Với hắn, họ chỉ là những “đạo cụ sống” để hiện thực hóa kịch bản ảo tưởng trong đầu mình* | — | 🅑 |  |
+| 3-13 | `3.07#6`–`#8` | C | T1 | `t5_fear_of_oblivion`, `push` | **NƯỚC MẮT KHÔNG THỂ TẠO RA LÒNG TRẮC ẨN** · *Chúng chỉ càng kích hoạt cảm giác hưng phấn quyền lực toàn năng của kẻ săn mồi* → `#8`: *Khi con người bị giáng cấp thành đồ vật, tội ác được thực hiện với sự lạnh lùng tuyệt đối của một cỗ máy* | Sub-drop ở "Sự lãng quên" | ⊘ | →H |
+| 3-14 | `3.08#1`–`#3` | H | T1 | `t5_hubris_chessboard` | **MỘT SỰ LẠNH LẼO RỢN NGƯỜI** · *Phía sau nụ cười của người hàng xóm đáng kính* → `#3`: *Điều gì đã buộc hắn phá hủy vỏ bọc hoàn hảo che chắn cho mình suốt ba mươi năm?* | — | ✦ Cú |  |
+| 3-15 | `3.08#4` | H | T1 | `t5_hubris_chessboard` | **BẢN NGÃ ÁI KỶ LUÔN MANG TRONG MÌNH HẠT MẦM CỦA SỰ TỰ DIỆT VONG?** | — | ✦ Cú |  |
+| 3-16 | `3.09#1`–`#3` | C | T2 | `t5_narcissistic_throne` | *CƠ CHẾ THỨ BA* · **CƠN NGHIỆN SỰ CHÚ Ý & CƠN ĐÓI ẢO TƯỞNG** · *Sự công nhận của xã hội chính là nguồn oxy sống nuôi dưỡng cái tôi ngạo mạn* | Dấu mộc ở "Cơn nghiện sự chú ý" | ⊘ |  |
+| 3-17 | `3.09#4`–`#5` | C | T1 | `t5_fear_of_oblivion` | **NỖI SỢ LỚN NHẤT CỦA KẺ ÁI KỶ: SỰ LÃNG QUÊN** · *Đối với kẻ ái kỷ, không có hình phạt nào tàn khốc hơn sự lãng quên của công chúng* | Sub-drop ở "Sự lãng quên" | 🅑 |  |
+| 3-18 | `3.09#6`–`#7` | C | T1 | `t5_secret_scrapbook` | **CƠN NGHIỆN DANH TIẾNG ĐEN TỐI** · *Thà chấp nhận rủi ro bước ra ánh sáng để cả thế giới phải nhắc đến tên mình* → `#7`: *Cơn nghiện danh tiếng đen tối đã che mờ hoàn toàn lý trí và bản năng sinh tồn* |  | ⊘ |  |
+| 3-19 | `3.10#1`–`#2` | H | T2 | `t5_hubris_chessboard` | *KẾT LUẬN CỦA CHUYÊN GIA* · **SỰ KIÊU NGẠO · CHIẾC THÒNG LỌNG TỰ TƯỚC ĐOẠT LỐI THOÁT** · *Hắn ảo tưởng mình thông minh hơn toàn bộ lực lượng điều tra* | Dấu mộc ở "Sự kiêu ngạo" | ✦ Cú |  |
+| 3-20 | `3.10#3` | H | T1 | `t5_winter_home_depot` | **MỘT TRONG NHỮNG SAI LẦM CÔNG NGHỆ KINH ĐIỂN NHẤT LỊCH SỬ TƯ PHÁP** · *Sự tự phụ mù quáng đã dẫn dắt Rader đi thẳng vào bẫy của chính cơ quan điều tra* |  | ⊘ |  |
+| 3-21 | `3.10#4` | H | T1 | `t5_detective_war_room` | *XIN MỜI ĐIỀU TRA VIÊN TÁI HIỆN LẠI* · **MÀN ĐẤU TRÍ ĐỊNH MỆNH VỚI CHIẾC ĐĨA MỀM MÀU TÍM** |  | →D |  |
+| 3-22 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 04* · **ĐẤU TRÍ THẨM VẤN & BẪY CÔNG NGHỆ ĐĨA MỀM** | — | ⊘ | ◼ |
+| 4-01 | `4.02#1`–`#3` | H | T5 ngày | `t5_winter_home_depot` | **ĐẦU NĂM 2005** · *Sau hàng loạt bưu phẩm trêu ngươi gửi tới truyền thông, Rader nảy ra một ý định mới* → `#2`: *Hắn muốn nâng cấp cách thức liên lạc: gửi các tập tin vi tính* → `#3`: *Ở tuổi 59, Rader hoàn toàn mù mờ về công nghệ số* | Tiếng gió đông & quạt server | ✦ Cú |  |
+| 4-02 | `4.02#4` | H | T5 ngày | `t5_winter_home_depot` | **CUỐI THÁNG 1 NĂM 2005** · *Rader lén đặt một hộp ngũ cốc trên thùng chiếc xe bán tải tại bãi đỗ xe Home Depot* | Tiếng gió đông & quạt server | ✦ Cú |  |
+| 4-03 | `4.02#5` | H | T1 | `t5_cereal_box_pickup` | **BÊN TRONG HỘP NGŨ CỐC** · *Một mẩu giấy gửi trực tiếp cho cảnh sát* | — | 🅑 |  |
+| 4-04 | `4.02#6`–`#8` | H | T1 | `t5_handwritten_note_floppy` | **CÂU HỎI NGÂY THƠ ĐẾN MỨC KHÓ TIN** · “Tôi có thể liên lạc bằng Đĩa mềm vi tính mà không bị truy vết đến máy tính hay không? Hãy trả lời thành thật nhé.” → `#8`: *Yêu cầu cảnh sát trả lời bằng tin nhắn ám hiệu trên mục rao vặt The Wichita Eagle* | — | ⊘ | →D |
+| 4-05 | `4.02#9` | H | T1 | `t5_handwritten_note_floppy` | **CÁNH CỬA SỐ PHẬN HÉ MỞ** · *Sau ba mươi năm bế tắc, cơ quan điều tra cuối cùng có được một manh mối* | — | ⊘ | →D |
+| 4-06 | `4.04#1`–`#3` | D | T2 | `t5_newspaper_classified_494` | *CHUYÊN ÁN CHUYÊN GIÁ LÀNH* · **MỘT CƠ HỘI LỊCH SỬ BA MƯƠI NĂM** · *Khi bức thư được đặt lên bàn của Trung úy Ken Landwehr, toàn đội điều tra đều nín thở* | Lật báo giấy `4.03` | ✦ Sói |  |
+| 4-07 | `4.04#4`–`#6` | D | T2 | `t5_newspaper_classified_494` | *MỤC RAO VẶT BÁO THE WICHITA EAGLE* · “Rex, mọi chuyện sẽ ổn để gửi nó” → `#6`: *Kẻ sát nhân đa nghi bậc nhất lại cả tin mù quáng vào lời cam kết của cảnh sát* | Lật báo giấy `4.03` | ✦ Sói |  |
+| 4-08 | `4.04#7`–`#8` | D | T1 | `t5_ksas_tv_station` | **GIỮA THÁNG 2 NĂM 2005** · *Bên trong là một chiếc đĩa mềm Memorex 1.44 Megabyte màu tím* | — | 🅑 |  |
+| 4-09 | `4.04#9` | D | T1 | `t5_purple_floppy_disk`, `push` | **CHIẾC BẪY CÔNG NGHỆ ĐÃ SẬP XUỐNG** · *Đúng như dự tính của chúng tôi* | Tiếng nạp đĩa mềm `4.05` | ⊘ | →H |
+| 4-10 | `4.06#1`–`#2` | H | T1 | `t5_digital_forensics_lab` | **PHÒNG GIÁM ĐỊNH KỸ THUẬT SỐ CẢNH SÁT** · *Chuyên gia Randy Stone trích xuất sâu các phân vùng từ tính trên đĩa* | Tiếng gõ phím vi tính | ✦ Cú |  |
+| 4-11 | `4.06#3`–`#5` | H | T8 | `t5_metadata_screen` | *THUỘC TÍNH SIÊU DỮ LIỆU ẨN (METADATA) LỘ DIỆN* · *Bên cạnh tập tin TestA.rtf, chuyên gia khôi phục được một tập tin Microsoft Word đã bị xóa* → `#5`: *Hai dòng dữ liệu hiển thị rõ mồn một trên màn hình* | Sub-drop ở Metadata | ⊘ |  |
+| 4-12 | `4.06#6`–`#7` | H | T8 | `t5_metadata_screen` | *Dòng thứ nhất: “Sửa đổi lần cuối bởi: Dennis”* · *Dòng thứ hai: “Được đăng ký bởi tổ chức: Nhà thờ Lutheran Chúa Kitô”* | Sub-drop ở Metadata | ⊘ |  |
+| 4-13 | `4.07` (nghỉ 2 s) | — | — | giữ 4-08, nhạc nền dừng đột ngột | — | Nền quạt server vo ve | ⊘ |  |
+| 4-14 | `4.08#1`–`#3` | D | T1 | `t5_church_website_search` | **TÌM KIẾM: “NHÀ THỜ LUTHERAN CHÚA KITÔ WICHITA DENNIS”** · *Chủ tịch Hội đồng Nhà thờ chính là Dennis Rader* | — | ✦ Sói |  |
+| 4-15 | `4.08#4`–`#6` | D | T1 | `t5_traffic_camera_pickup` | **KHỚP VỚI CAMERA AN NINH TẠI BÃI ĐỖ HOME DEPOT** · *Và mẫu bệnh phẩm xét nghiệm cũ của con gái Rader được thu giữ để đối chiếu ADN* | — | 🅑 |  |
+| 4-16 | `4.08#7`–`#9` | D | T2 | `t5_dna_pap_smear_vial` | *KẾT QUẢ ĐỐI CHIẾU ADN TẾ BÀO PAP SMEAR* · **XÁC NHẬN QUAN HỆ CHA CON** · *Không còn một chút nghi ngờ nào nữa* | Dấu mộc ở "Quan hệ cha con" | ⊘ | →H |
+| 4-17 | `4.08#10` | D | T2 | `t5_dna_pap_smear_vial` | *VÒNG VÂY TRINH SÁT* · **BAO VÂY HOÀN TOÀN CĂN NHÀ Ở PARK CITY** | Dấu mộc ở "Quan hệ cha con" | ⊘ | →H |
+| 4-18 | `4.10#1`–`#3` | H | T1 | `t5_highway_takedown_arrest`, `push` | **TRƯA NGÀY 25 THÁNG 2 NĂM 2005** · *Nhiều xe cảnh sát bao vây và chặn đứng đầu xe của hắn* | Còi xe cảnh sát & phanh `4.09` | ✦ Cú | →D |
+| 4-19 | `4.10#4`–`#6` | H | T1 | `t5_highway_takedown_arrest`, `push` | **CHIẾC MẶT NẠ NGẠO NGHỄ NỨT VỠ TRONG PHÒNG THẨM VẤN** · *Từ kẻ thách thức luật pháp, hắn biến thành một kẻ bàng hoàng trước sự sụp đổ của ảo tưởng toàn năng* | Còi xe cảnh sát & phanh `4.09` | ✦ Cú | →D |
+| 4-20 | `4.12#1`–`#3` | D | T1 | `t5_interrogation_confrontation` | **CUỘC ĐỐI CHẤT KINH ĐIỂN TRONG PHÒNG HỎI CUNG** · “Tại sao các anh lại nói dối tôi về chiếc đĩa mềm?” → `#3`: “Vì chúng tôi tìm cách bắt ông.” | Cửa sắt đóng sầm `4.11` | ✦ Sói |  |
+| 4-21 | `4.12#4`–`#5` | D | T1 | `t5_interrogation_confrontation` | **SỤP ĐỔ CÁI TÔI ÁI KỶ (NARCISSISTIC COLLAPSE)** · *Nhận ra chiếc bẫy đã sập và danh tính đã bị phơi bày* | Cửa sắt đóng sầm `4.11` | ✦ Sói |  |
+| 4-22 | `4.12#6`–`#8` | D | T1 | `t5_shattered_mask_confession`, `push` | **CHIẾC MẶT NẠ VỠ VỤN HOÀN TOÀN** · *Thao thao bất tuyệt thừa nhận toàn bộ 10 vụ án mạng trong suốt nhiều giờ liền* | — | ⊘ | →H |
+| 4-23 | `4.14#1`–`#3` | H | T1 | `t5_kerri_rawson_tears` | *HÃY LẮNG NGHE NỖI ĐAU ẤY* · **KERRI RAWSON — CON GÁI RUỘT CỦA DENNIS RADER** | Điểm nhấn stinger `4.13` | ✦ Cú | →N2 |
+| 4-24 | `4.15#1`–`#3` | N2 | T4 lời kể | `t5_kerri_rawson_tears`, `still` | “Cả thế giới nhìn thấy ông ấy như một con quái vật đáng ghê tởm, nhưng với tôi, ông từng là người cha mẫu mực nhất.” → `#3`: “Khi đặc vụ FBI gõ cửa căn hộ và thông báo cha tôi chính là sát nhân BTK, toàn bộ mặt đất dưới chân tôi như sụp đổ hoàn toàn.” | Tiếng bật cassette `4.15#1` | ✦ Kerri |  |
+| 4-25 | `4.15#4`–`#6` | N2 | T4 lời kể | `t5_kerri_rawson_tears`, `still` | “Nỗi đau đớn lớn nhất không chỉ là sự sợ hãi, mà là sự phản bội niềm tin tột cùng.” → `#5`: “Làm sao tôi có thể chấp nhận người đàn ông từng chúc tôi ngủ ngon mỗi đêm lại chính là bóng ma reo rắc kinh hoàng cho hàng chục gia đình khác?” | Tiếng bật cassette `4.15#1` | ✦ Kerri |  |
+| 4-26 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 05* · **PHÁN QUYẾT, BÀI HỌC CẢNH BÁO ĐỎ & LỜI KẾT** | — | ⊘ | ◼ |
+| 5-01 | `5.02#1`–`#3` | H | T5 ngày | `t5_sedgwick_courtroom` | **18 · 08 · 2005** · *Tòa án Quận Sedgwick · Thẩm phán Gregory Waller* | Tiếng búa tòa án gõ 3 tiếng `5.01` | ✦ Cú |  |
+| 5-02 | `5.02#4` | H | T1 | `t5_judge_gavel_verdict`, `push` | **THÁI ĐỘ TỰ THƯƠNG HẠI BẢN THÂN BỆNH HOẠN** · *Không hề có sự ăn năn chân chính đối với gia đình các nạn nhân* | Sub-drop ở "175 năm" | ⊘ |  |
+| 5-03 | `5.02#5`–`#7` | H | T1 | `t5_el_dorado_prison` | **NHÀ TÙ EL DORADO CORRECTIONAL FACILITY** · *Nơi cách ly hoàn toàn với xã hội loài người* | — | ⊘ |  |
+| 5-04 | `5.03` (nghỉ 1.5 s) | — | — | giữ 5-03 | — | — | ⊘ |  |
+| 5-05 | `5.04#1`–`#3` | H | T1 | `t5_solitary_confinement_cell` | **HỒ SƠ BTK KHÉP LẠI SAU HƠN BA THẬP KỶ** · *Không một dấu vết số nào có thể hoàn toàn biến mất* | — | ✦ Cú | →C+D |
+| 5-06 | `5.04#4` | H | T1 | `t5_solitary_confinement_cell` | **BỐN DẤU HIỆU CẢNH BÁO ĐỎ (RED FLAGS)** · *Nhận diện nhân cách ái kỷ ác tính trong đời sống thường nhật* | — | ✦ Cú | →C+D |
+| 5-07 | `5.05#1`–`#3` | C | T9 `1/4` | `t5_redflag_rule_control` | **CẢNH BÁO 01: SỰ ÁM ẢNH KIỂM SOÁT QUY TẮC CỰC ĐOAN** · *Cứng nhắc bệnh hoạn với luật lệ nhỏ nhặt để áp chế người khác* | — | ✦ Cáo |  |
+| 5-08 | `5.05#4` | C | T9 `1/4` | `t5_redflag_rule_control` | *CẢNH BÁO ĐẦU TIÊN* · **Nhu cầu kiểm soát quyền lực bị dồn nén, chờ thời cơ để bộc phát thành hành vi bạo lực** | — | ✦ Cáo |  |
+| 5-09 | `5.05#5`–`#7` | C | T9 `2/4` | `t5_redflag_shallow_affect` | **CẢNH BÁO 02: SỰ TÁCH BIỆT CẢM XÚC (SHALLOW AFFECT)** · *Nhiệt thành bên ngoài nhưng thiếu vắng sự thấu cảm chân thành* | — | 🅑 | →D |
+| 5-10 | `5.06#1`–`#3` | D | T9 `3/4` | `t5_redflag_secret_trophies` | **CẢNH BÁO 03: THÓI QUEN BÍ MẬT LƯU TRỮ VẬT DỤNG** · *Lén lút cất giấu kỷ vật, giấy tờ của người khác làm chiến lợi phẩm* | — | ✦ Sói |  |
+| 5-11 | `5.06#4`–`#6` | D | T9 `4/4` | `t5_redflag_narcissistic_hubris` | **CẢNH BÁO 04: NHU CẦU ÁI KỶ KHAO KHÁT ĐƯỢC CÔNG NHẬN** · *Lỗ hổng tự tôn khổng lồ dễ tự hủy hoại khi cái tôi bị thách thức* | — | 🅑 |  |
+| 5-12 | `5.06#7` | D | T9 `4/4` | `t5_redflag_narcissistic_hubris` | *CẢNH BÁO CUỐI CÙNG* · **Tự để lộ sơ hở và hủy hoại chính mình khi cái tôi kiêu ngạo bị thách thức trước công luận** | — | 🅑 |  |
+| 5-13 | `5.07` (nghỉ 2 s) | — | — | giữ 5-09, Piano dâng lên nhẹ nhàng | — | Piano ấm áp | ⊘ |  |
+| 5-14 | `5.08#1`–`#3` | H | T1 | `t5_justice_dawn_sunlight` | **CÔNG LÝ CÓ THỂ ĐẾN MUỘN NHƯNG LUÔN CHIẾN THẮNG** · *Bóng tối sẽ luôn phải cúi đầu trước ánh sáng của sự thật* | — | ✦ Cú |  |
+| 5-15 | `5.08#4`–`#6` | H | T1 | `t5_justice_dawn_sunlight` | **HÃY LUÔN TỈNH THỨC VÀ GIỮ CHO MÌNH MỘT TÂM HỒN HƯỚNG THIỆN** · *Bài học sinh tồn lớn nhất không phải nỗi sợ hãi tê liệt, mà là sự tỉnh thức để nhận diện và bảo vệ những ranh giới an toàn* | — | ✦ Cú |  |
+| 5-16 | `5.08#7` | H | T1 | `t5_justice_dawn_sunlight` | **CẢM ƠN CÁC CHUYÊN GIA & QUÝ VỊ THÍNH GIẢ** · *Đã đồng hành cùng chương trình và lắng nghe trọn vẹn tập tài liệu ngày hôm nay* | — | ✦ Cú |  |
+| 5-17 | `5.09` (nghỉ 1.5 s) | — | — | giữ 5-11 | — | — | ⊘ |  |
+| 5-18 | `5.10#1`–`#2` | H | T1 | `t5_closing_typewriter_rose` | **GIỮ CHO MÌNH MỘT TÂM HỒN HƯỚNG THIỆN** · *Biết bảo vệ bản thân và trân trọng sự bình yên của cuộc sống* | Đóng tập hồ sơ `5.11` | ✦ Cú |  |
+| 5-19 | `5.10#3` | H | T1 | `t5_closing_typewriter_rose`, `still` | **HẸN GẶP LẠI TRONG HỒ SƠ PHÂN TÍCH TÂM LÝ TIẾP THEO** · *Chúc quý vị một đêm an lành* | Tiếng gõ máy đánh chữ dứt khoát | 🅑 |  |
+| 5-20 | hết tập (10 s) | — | T1 | `t5_closing_typewriter_rose` | **HỒ SƠ TẬP 05 · ĐÃ ĐÓNG** · *AMBER EYES · Phân tích tâm lý tội phạm qua những hồ sơ có thật* | Cello ngân dài 5s rồi fade out `5.12` | ⊘ | ◼ |
 
-### HỒI 3 — GIẢI PHẪU TÂM LÝ · nền chủ đạo `t5_compartmentalization_cabinet`
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 3-01 | `3.02#1`–`#3` | C | T2 | `t5_compartmentalization_cabinet` | *CƠ CHẾ PHÒNG VỆ THỨ NHẤT* · **SỰ PHÂN MẢNH TÂM TRÍ TUYỆT ĐỐI (COMPARTMENTALIZATION)** · *Khả năng đóng kín từng ngăn kéo tâm lý hoàn hảo* | Dấu mộc ở "Phân mảnh tâm trí" | ✦ Cáo | |
-| 3-02 | `3.02#4`–`#5` | C | T1 | `t5_concrete_wall_divide` | **BỨC TƯỜNG BÊ TÔNG VÔ HÌNH** · *Tách biệt cuộc sống gia đình với thế giới tưởng tượng đen tối* | — | 🅑 | |
-| 3-03 | `3.02#6`–`#7` | C | T1 | `t5_factor_x_shadow`, `push` | **KHÁI NIỆM TÂM LÝ HOANG TƯỞNG: 'NHÂN TỐ X'** · *Tự gán tội lỗi cho một thực thể trừu tượng (Factor X)* | — | ⊘ | |
-| 3-04 | `3.03` (nghỉ 1.5 s) | — | — | giữ 3-03 | — | — | ⊘ | |
-| 3-05 | `3.04#1`–`#3` | H | T1 | `t5_factor_x_shadow` | *MỘT KHÁI NIỆM KỲ DỊ THƯA CHUYÊN GIA* · **DƯỚI GÓC ĐỘ KHOA HỌC: 'NHÂN TỐ X' THỰC CHẤT LÀ GÌ?** | — | ✦ Cú | →C |
-| 3-06 | `3.05#1`–`#3` | C | T2 | `t5_projection_mask` | *CƠ CHẾ PHÒNG VỆ ĐIỂN HÌNH* · **PHÓNG CHIẾU VÀ NGỤY BIỆN (RATIONALIZATION & PROJECTION)** · *Không phải hắn muốn làm, mà chính Nhân tố X bên trong buộc hắn phải làm* | Dấu mộc ở "Phóng chiếu và ngụy biện" | ✦ Cáo |  |
-| 3-07 | `3.05#4`–`#5` | C | T1 | `t5_family_dinner_warmth` | **RỨ BỎ HOÀN TOÀN TRÁCH NHIỆM ĐẠO ĐỨC** · *Vừa thỏa mãn hưng tưởng đen tối, vừa quay về nhà ăn tối cùng vợ như một người đàn ông vô tội* | — | ⊘ | →H |
-| 3-08 | `3.06#1`–`#3` | H | T1 | `t5_narcissistic_throne` | **SỰ NGỤY BIỆN ĐỂ TỰ RU NGỦ LƯƠNG TÂM** · *Động cơ nào kéo hắn trở lại trò chơi nguy hiểm vào năm 2004?* | — | ✦ Cú | →C |
-| 3-09 | `3.07#1`–`#2` | C | T2 | `t5_narcissistic_throne`, `still` | *CƠ CHẾ THỨ HAI* · **ÁI KỶ ÁC TÍNH (MALIGNANT NARCISSISM) & CƠN NGHIỆN ĐƯỢC CHÚ Ý** · *Cảm giác kiểm soát và sự ngưỡng mộ là nguồn oxy sống* | Dấu mộc ở "Ái kỷ ác tính" | ✦ Cáo | |
-| 3-10 | `3.07#3`–`#4` | C | T1 | `t5_secret_scrapbook` | **13 NĂM SỐNG BẰNG HÀO QUANG QUÁ KHỨ** · *Âm thầm cắt từng bài báo dán vào sổ lưu niệm bí mật* | — | 🅑 | |
-| 3-11 | `3.07#5`–`#7` | C | T1 | `t5_fear_of_oblivion`, `push` | **NỖI SỢ LỚN NHẤT CỦA KẺ ÁI KỶ: SỰ LÃNG QUÊN** · *Thà chấp nhận rủi ro bị bắt để cả thế giới nhìn thấy chiếc mặt nạ* | Sub-drop ở "Sự lãng quên" | ⊘ | →H |
-| 3-12 | `3.08#1`–`#3` | H | T1 | `t5_hubris_chessboard` | **CƠN NGHIỆN SỰ CHÚ Ý CHE MỜ BẢN NĂNG SINH TỒN** · *Sự tự phụ mù quáng mở đường cho chiếc bẫy công nghệ lịch sử* | — | ✦ Cú | |
-| 3-13 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 04* · **ĐẤU TRÍ THẨM VẤN & BẪY CÔNG NGHỆ ĐĨA MỀM** | — | ⊘ | ◼ |
-
-### HỒI 4 — ĐẤU TRÍ THẨM VẤN & BẪY CÔNG NGHỆ ĐĨA MỀM · nền chủ đạo `t5_winter_home_depot`
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 4-01 | `4.02#1`–`#4` | H | T5 ngày | `t5_winter_home_depot` | **ĐẦU NĂM 2005** · *Mệt mỏi với cắt dán bưu kiện giữa trời đông giá rét* → `#3`: *Muốn chuyển sang gửi tập tin vi tính* → `#4`: *Rader 59 tuổi và hoàn toàn mù mờ về công nghệ số* | Tiếng gió đông & quạt server | ✦ Cú |  |
-| 4-02 | `4.02#5` | H | T1 | `t5_cereal_box_pickup` | **BÃI ĐỖ XE HOME DEPOT WICHITA** · *Hộp ngũ cốc đặt trên thùng xe bán tải cuối tháng 1 năm 2005* | — | 🅑 |  |
-| 4-03 | `4.02#6`–`#10` | H | T1 | `t5_handwritten_note_floppy` | **CÂU HỎI NGÂY THƠ ĐẾN MỨC KHÓ TIN:** *'Tôi có thể liên lạc bằng Đĩa mềm vi tính mà không bị truy vết đến máy tính hay không?'* | — | ⊘ | →D |
-| 4-04 | `4.04#1`–`#5` | D | T2 | `t5_newspaper_classified_494` | *MỤC RAO VẶT BÁO THE WICHITA EAGLE* · **'REX, MỌI CHUYỆN SẼ ỔN ĐỂ GỬI NÓ'** · *Cú lừa tâm lý ngoạn mục của Trung úy Ken Landwehr* | Lật báo giấy `4.03` | ✦ Sói |  |
-| 4-05 | `4.04#6`–`#7` | D | T1 | `t5_ksas_tv_station` | **GIỮA THÁNG 2 NĂM 2005** · *Bưu phẩm gửi tới đài truyền hình KSAS-TV* | — | 🅑 |  |
-| 4-06 | `4.04#8` | D | T1 | `t5_purple_floppy_disk`, `push` | **CHIẾC ĐĨA MỀM MEMOREX 1.44MB MÀU TÍM** · *Vật chứng thế kỷ định đoạt số phận kẻ thủ ác* | Tiếng nạp đĩa mềm `4.05` | ⊘ | →H |
-| 4-07 | `4.06#1`–`#2` | H | T1 | `t5_digital_forensics_lab` | **PHÒNG GIÁM ĐỊNH KỸ THUẬT SỐ CẢNH SÁT** · *Chuyên gia Randy Stone quét sâu vào các cung từ tính bằng phần mềm pháp y* | Tiếng gõ phím vi tính | ✦ Cú | |
-| 4-08 | `4.06#3`–`#6` | H | T8 | `t5_metadata_screen` | *THUỘC TÍNH SIÊU DỮ LIỆU ẨN (METADATA) LỘ DIỆN:* · *Dòng thứ nhất: 'Sửa đổi lần cuối bởi: Dennis'* · *Dòng thứ hai: 'Được đăng ký bởi: Nhà thờ Lutheran Chúa Kitô'* | Sub-drop ở Metadata | ⊘ | |
-| 4-09 | `4.07` (nghỉ 2 s) | — | — | giữ 4-08, nhạc nền dừng đột ngột | — | Nền quạt server vo ve | ⊘ | |
-| 4-10 | `4.08#1`–`#3` | D | T1 | `t5_church_website_search` | **TÌM KIẾM TRÊN CÔNG CỤ: 'Nhà thờ Lutheran Chúa Kitô Wichita Dennis'** · *Chủ tịch Hội đồng Nhà thờ: Dennis Rader* | — | ✦ Sói |  |
-| 4-11 | `4.08#4`–`#5` | D | T1 | `t5_traffic_camera_pickup` | **CHIẾC XE JEEP CHEROKEE MÀU ĐEN TRÊN CAMERA AN NINH** · *Khớp với chiếc xe xuất hiện tại bãi đỗ xe Home Depot* | — | 🅑 |  |
-| 4-12 | `4.08#6`–`#9` | D | T2 | `t5_dna_pap_smear_vial` | *KẾT QUẢ ĐỐI CHIẾU ADN TẾ BÀO PAP SMEAR* · **XÁC NHẬN QUAN HỆ CHA CON** · *Mẫu tế bào y tế của con gái Rader từ trường đại học* | Dấu mộc ở "Quan hệ cha con" | ⊘ | →H |
-| 4-13 | `4.10#1`–`#4` | H | T1 | `t5_highway_takedown_arrest`, `push` | **TRƯA NGÀY 25 THÁNG 2 NĂM 2005** · *Nhiều xe cảnh sát bao vây và chặn đứng đầu xe của hắn* | Còi xe cảnh sát & phanh `4.09` | ✦ Cú | →D |
-| 4-14 | `4.12#1`–`#4` | D | T1 | `t5_interrogation_confrontation` | **CUỘC ĐỐI CHẤT KINH ĐIỂN TRONG PHÒNG HỎI CUNG** · *Hắn hỏi vì sao cảnh sát lại nói dối hắn về chiếc đĩa mềm* · *Và câu trả lời hắn nhận được rất ngắn gọn: Vì cảnh sát đang tìm cách bắt hắn* | Cửa sắt đóng sầm `4.11` | ✦ Sói |  |
-| 4-15 | `4.12#5`–`#6` | D | T1 | `t5_shattered_mask_confession`, `push` | **CHIẾC MẶT NẠ VỠ VỤN HOÀN TOÀN** · *Thao thao bất tuyệt thú nhận từng vụ án trong nhiều giờ liền* | — | ⊘ | →H |
-| 4-16 | `4.14#1`–`#2` | H | T1 | `t5_kerri_rawson_tears` | *HÃY HÌNH DUNG KHOẢNH KHẮC ĐỊNH MỆNH ẤY* · **KERRI RAWSON — CON GÁI RUỘT CỦA DENNIS RADER** | Điểm nhấn stinger `4.13` | ✦ Cú | →N2 |
-| 4-17 | `4.15#1`–`#4` | N2 | T4 lời kể | `t5_kerri_rawson_tears`, `still` | “Cả thế giới biết đến ông ấy như một con quái vật.” → `#4`: **“Kẻ bị cả đất nước truy lùng lại chính là người từng chúc cô ngủ ngon mỗi đêm.”** | Tiếng bật cassette `4.15#1` | ✦ Kerri |  |
-| 4-18 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 05* · **PHÁN QUYẾT, BÀI HỌC CẢNH BÁO ĐỎ & LỜI KẾT** | — | ⊘ | ◼ |
-
-### HỒI 5 — PHÁN QUYẾT, BÀI HỌC CẢNH BÁO ĐỎ & LỜI KẾT · nền chủ đạo `t5_sedgwick_courtroom`
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 5-01 | `5.02#1`–`#2` | H | T5 ngày | `t5_sedgwick_courtroom` | **18 · 08 · 2005** · *Tòa án Quận Sedgwick · Thẩm phán Gregory Waller* | Tiếng búa tòa án gõ 3 tiếng `5.01` | ✦ Cú | |
-| 5-02 | `5.02#3` | H | T1 | `t5_judge_gavel_verdict`, `push` | **MƯỜI BẢN ÁN TÙ CHUNG THÂN LIÊN TIẾP** · *Thời hạn thụ án tối thiểu 175 năm không ân xá* | Sub-drop ở "175 năm" | ⊘ | |
-| 5-03 | `5.02#4`–`#5` | H | T1 | `t5_el_dorado_prison` | **NHÀ TÙ EL DORADO CORRECTIONAL FACILITY** · *Nơi cách ly hoàn toàn với xã hội loài người* | — | ⊘ | |
-| 5-04 | `5.03` (nghỉ 1.5 s) | — | — | giữ 5-03 | — | — | ⊘ | |
-| 5-05 | `5.04#1`–`#2` | H | T1 | `t5_solitary_confinement_cell` | **BỐN DẤU HIỆU CẢNH BÁO ĐỎ (RED FLAGS)** · *Nhận diện nhân cách ái kỷ ác tính trong đời sống thường nhật* | — | ✦ Cú | →C+D |
-| 5-06 | `5.05#1`–`#3` | C | T9 `1/4` | `t5_redflag_rule_control` | **CẢNH BÁO 01: SỰ ÁM ẢNH KIỂM SOÁT QUY TẮC CỰC ĐOAN** · *Cứng nhắc bệnh hoạn với luật lệ nhỏ nhặt để áp chế người khác* | — | ✦ Cáo | |
-| 5-07 | `5.05#4`–`#5` | C | T9 `2/4` | `t5_redflag_shallow_affect` | **CẢNH BÁO 02: SỰ TÁCH BIỆT CẢM XÚC (SHALLOW AFFECT)** · *Nhiệt thành bên ngoài nhưng thiếu vắng sự thấu cảm chân thành* | — | 🅑 | →D |
-| 5-08 | `5.06#1`–`#2` | D | T9 `3/4` | `t5_redflag_secret_trophies` | **CẢNH BÁO 03: THÓI QUEN BÍ MẬT LƯU TRỮ VẬT DỤNG** · *Lén lút cất giấu kỷ vật, giấy tờ của người khác làm chiến lợi phẩm* | — | ✦ Sói |  |
-| 5-09 | `5.06#3`–`#5` | D | T9 `4/4` | `t5_redflag_narcissistic_hubris` | **CẢNH BÁO 04: NHU CẦU ÁI KỶ KHAO KHÁT ĐƯỢC CÔNG NHẬN** · *Lỗ hổng tự tôn khổng lồ dễ tự hủy hoại khi cái tôi bị thách thức* | — | 🅑 |  |
-| 5-10 | `5.07` (nghỉ 2 s) | — | — | giữ 5-09, Piano dâng lên nhẹ nhàng | — | Piano ấm áp | ⊘ | |
-| 5-11 | `5.08#1`–`#5` | H | T1 | `t5_justice_dawn_sunlight` | **CÔNG LÝ CÓ THỂ ĐẾN MUỘN NHƯNG LUÔN CHIẾN THẮNG** · *Bóng tối sẽ luôn phải cúi đầu trước ánh sáng của sự thật* | — | ✦ Cú | |
-| 5-12 | `5.09` (nghỉ 1.5 s) | — | — | giữ 5-11 | — | — | ⊘ | |
-| 5-13 | `5.10#1`–`#2` | H | T1 | `t5_closing_typewriter_rose` | **CẢM ƠN CÁC KHÁCH MỜI & QUÝ VỊ THÍNH GIẢ** · *Hãy luôn tỉnh thức và giữ cho mình một tâm hồn hướng thiện* | Đóng tập hồ sơ `5.11` | ✦ Cú | |
-| 5-14 | `5.10#3` | H | T1 | `t5_closing_typewriter_rose`, `still` | **HẸN GẶP LẠI TRONG HỒ SƠ PHÂN TÍCH TÂM LÝ TIẾP THEO** | Tiếng gõ máy đánh chữ dứt khoát | 🅑 | |
-| 5-15 | hết tập (10 s) | — | T1 | `t5_closing_typewriter_rose` | **HỒ SƠ TẬP 05 · ĐÃ ĐÓNG** · *AMBER EYES · Phân tích tâm lý tội phạm qua những hồ sơ có thật* | Cello ngân dài 5s rồi fade out `5.12` | ⊘ | ◼ |
-
-**Tổng: 83 shot** (Hồi 1: 22 shot · Hồi 2: 15 shot · Hồi 3: 13 shot · Hồi 4: 18 shot · Hồi 5: 15 shot) · Phủ 100% 164/164 câu · 100% nền có file.
+**Tổng: 96 shot** (Hồi 1: 24 shot · Hồi 2: 18 shot · Hồi 3: 22 shot · Hồi 4: 26 shot · Hồi 5: 20 shot) · Phủ 100% 209/209 câu · chữ trên hình lấy từ câu đang đọc (H6).
 
 ---
 

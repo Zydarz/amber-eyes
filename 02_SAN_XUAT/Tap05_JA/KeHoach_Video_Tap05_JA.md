@@ -34,137 +34,122 @@
 
 <!--TABLE-->
 
-## 6. DANH SÁCH SHOT — TẬP 05
-
-**Guide:** *Role* = speaker (H Owl · D Wolf · C Fox · N1 Sheep · N2 Cat). Table specifies **background + graphics**; badges & busts placed automatically.  
-*Characters*: `🅑` = bust beyond first sentence · `→X` = Host invites X · `✦` = first appearance · `⊘` = bust disabled.  
-Last column: blank = dissolve · ✂ cut · ◼ black.
-
-**Đọc bảng:** *Vai* = người đang nói (H Cú · D Sói · C Cáo · N1 Cừu · N2 Mèo). Bảng chỉ mô tả **nền + đồ hoạ**; badge và bán thân tự đặt theo A5.4.  
-Cột *Nhân vật*: `🅑` = thêm bán thân ngoài câu đầu lượt · `→X` = Host đang mời X · `✦` = lần đầu xuất hiện · `⊘` = tắt bán thân.  
-Cột cuối: trống = hoà tan · ✂ cắt · ◼ tối đen.
-
-### CHANNEL INTRO · 0.00–22.41 s · `bgm_music_box.mp3`
-
-Place `assets/brand/intro_kenh_JA_t05.mov` at 0.00 s (A5.7). No spoken line belongs to the intro.
-
-
-Place `assets/brand/intro_kenh_JA_t05.mov` at 0.00 s (A5.7). No spoken line belongs to the intro.
-
-### ACT 1 — 13年の沈黙のあと、再浮上した手紙 · Lead background `t5_wichita_skyline_dusk`
-
+## 6. DANH SÁCH SHOT — TẬP 05 (dựng lại 05/11/2026 theo kịch bản v4 — 209 câu, 209 câu phủ)
 
 | Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
 |---|---|---|---|---|---|---|---|---|
 | 1-00 | `1.01`–`1.02` (20.5 s → lời đầu) | — | T1 | `t5_wichita_skyline_dusk` hiện dần từ đen | *第1幕 · 13年の沈黙のあと、再浮上した手紙* | Typewriter clicks & winter wind | ⊘ |  |
-| 1-01 | `1.03#1`–`#2` | H | T5 ngày | `t5_wichita_skyline_dusk` | **2004年3月19日** · *カンザス州ウィシタ市* | Typewriter sound | ✦ Cú |  |
-| 1-02 | `1.03#3` | H | T1 | `t5_eagle_newsroom_night` | **THE WICHITA EAGLE 編集局** · *差出人住所のない封筒* | — | 🅑 |  |
-| 1-03 | `1.03#4` | H | T1 | `t5_manila_envelope_polaroids` | **VICKI WEGERLE の運転免許証コピー** · *現場写真3枚* | — | 🅑 |  |
-| 1-04 | `1.03#5` | H | T2 | `t5_btk_signature_letter` | *中西部全域を覆った恐怖* · **署名：B-T-K** | Stamp on "B-T-K" | ⊘ |  |
+| 1-01 | `1.03#1`–`#2` | H | T5 ngày | `t5_wichita_skyline_dusk` | **19 · 03 · 2004** · *ウィチタ市・カンザス州・アメリカ* | Typewriter sound | ✦ Cú |  |
+| 1-02 | `1.03#3` | H | T1 | `t5_eagle_newsroom_night` | **VICKI WEGERLEの運転免許証コピー** · *1986年に命を奪われ未解決事件となっていた被害者* | — | 🅑 |  |
+| 1-03 | `1.03#4` | H | T1 | `t5_manila_envelope_polaroids` | **署名された3つの頭文字** · “B-T-K” · *数十年にわたりアメリカ中西部を恐怖に陥れた* | — | 🅑 |  |
+| 1-04 | `1.03#5` | H | T2 | `t5_btk_signature_letter` | *冷徹な宣言* · **かつて地域を震撼させた連続犯が公式に再び戻った** | Stamp on "B-T-K" | ⊘ |  |
 | 1-05 | `1.04` (nghỉ 1.5 s) | — | — | giữ 1-04 | — | — | ⊘ |  |
-| 1-06 | `1.05#1`–`#2` | H | T1 | `t5_newspaper_bundle_dawn` | **全米を揺るがせたニュース** · *1974年から1991年まで* | Newspaper headline | 🅑 |  |
-| 1-07 | `1.05#3`–`#4` | H | T1 | `t5_vintage_typewriter_desk` | **痕跡を残さず消えた幽霊** · *13年間の沈黙* | Typewriter sound | ⊘ |  |
-| 1-08 | `1.05#5` | H | T1 | `t5_cold_case_archives` | **ウィシタ警察とFBIの記録** · *死亡または服役と推測* | — | ⊘ |  |
+| 1-06 | `1.05#1`–`#2` | H | T1 | `t5_newspaper_bundle_dawn` | **全米を震撼させたBTK再出現** · *1974年から1991年にかけて10人もの無辜の市民の命を奪う* | Newspaper headline | 🅑 |  |
+| 1-07 | `1.05#3`–`#4` | H | T1 | `t5_vintage_typewriter_desk` | **何の痕跡も残さず姿を消した亡霊** · *13年間、新たな事件も書簡も浮上せず* | Typewriter sound | ⊘ |  |
+| 1-08 | `1.05#5` | H | T1 | `t5_cold_case_archives` | **ウィチタ警察とFBIの認識** · *犯人は死亡したか、別名で刑務所に服役中のでしょう* | — | ⊘ |  |
 | 1-09 | `1.06` (nghỉ 1.5 s) | — | — | giữ 1-08 | — | — | ⊘ |  |
-| 1-10 | `1.07#1` | H | T1 | `t5_park_city_suburb` | *ウィシタ郊外の静かな町* · **パークシティの住民の話** | — | →N1 |  |
-| 1-11 | `1.09#1`–`#2` | N1 | T4 lời kể | `t5_park_city_suburb`, `push` | “町中全体が恐怖で息を詰まらせました。” → “人々は窓を点検し、ドアを施錠しました。” | Tape recorder click `1.08` | ✦ Cừu |  |
-| 1-12 | `1.09#3` | N1 | T4 lời kể | `t5_suburban_house_locked` | “毎日草刈りをしていた男だったとは誰も予想しませんでした。” | — | ⊘ | →H |
-| 1-13 | `1.10#1`–`#4` | H | T1 | `t5_compliance_truck_street` | **司法史における奇異な逆説** · *13年間眠り続けていた* → *当時の科学と技術は無力だった* | — | ✦ Cú |  |
-| 1-14 | `1.10#5`–`#7` | H | T1 | `t5_detective_war_room` | *尊敬される市民として生き抜くこともできた* · **なぜ自ら罠へ足を踏み入れたのか** | — | ⊘ |  |
-| 1-15 | `1.11` (nghỉ 2 s) | — | — | giữ 1-14, nhạc nền dừng đột ngột | — | Dry clock ticking | ⊘ |  |
-| 1-16 | `1.12#1` | H | T1 | `t5_detective_war_room` | *歴史的な頭脳戦の始まり* · **事件を直接指揮した捜査官の話** | — | →D |  |
-| 1-17 | `1.14#1`–`#2` | D | T1 | `t5_detective_war_room`, `still` | **捜査班の最初の問い** · *なぜ今なのか？* | Drawer opens & dossier placed `1.13` | ✦ Sói |  |
-| 1-18 | `1.14#3`–`#5` | D | T1 | `t5_book_manuscript_desk` | **30周年記念の一連の記事** · *事件に関する書籍の出版発表* | — | 🅑 |  |
-| 1-19 | `1.14#6`–`#7` | D | T1 | `t5_narcissist_mirror_shadow`, `push` | *致命的な弱点* · **病的な自愛心を貫く一撃** | — | ⊘ | →H |
-| 1-20 | `1.16#1`–`#3` | H | T10 | `t5_amber_eyes_dossier_05` | **忘れられることを受け入れられなかった** · *怪物は今も生きていると誇示する* | Mournful cello `1.15` rises | ✦ Cú |  |
-| 1-21 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | **Dennis Rader 事件ファイル** · *自らBTKを名乗った男* | — | ⊘ | ◼ |
-
-### ACT 2 — 犯罪現場＆事件ファイル――二面獣の心理的署名 · Lead background `t5_btk_signature_letter`
-
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 2-01 | `2.02#1`–`#2` | H | T1 | `t5_darkened_house_exterior` | **1974年 · 最初の事件** · *手紙による挑発的メッセージ* | Heartbeat & magnetic tape | ✦ Cú |  |
-| 2-02 | `2.02#3`–`#4` | H | T2 | `t5_btk_signature_metaphor` | *自ら作った頭文字* · **B-T-K** | Stamp on "BTK" | 🅑 | →D |
-| 2-03 | `2.04#1`–`#3` | D | T8 | `t5_btk_signature_metaphor`, `still` | **犯行の手口（MO）** · *侵入し、遂行し、逃走する* | Flipping crime scene photos `2.03` | ✦ Sói |  |
-| 2-04 | `2.04#4`–`#5` | D | T1 | `t5_darkened_house_exterior`, `push` | *心理的署名（Signature）* · **感情面のニーズを満たす行為** | — | 🅑 |  |
-| 2-05 | `2.04#6`–`#8` | D | T1 | `t5_trophy_lockbox` | **記念品（Trophy）の略奪** · *運転免許証や所持品を持ち去る* | — |  |  |
-| 2-06 | `2.04#9`–`#10` | D | T1 | `t5_public_library_bookshelves` | *記念品を何度も取り出して眺める* · **暗黒の幻想を追体験する** | — | ⊘ | →H |
-| 2-07 | `2.05#1`–`#4` | H | T1 | `t5_gloves_forensic_desk` | **極めて狡猾な手口** · *入念な計画と現場の隠蔽* | — | ✦ Cú | →D |
-| 2-08 | `2.06#1` | D | T1 | `t5_air_force_service_era` | *指紋や痕跡を残さなかった* · **30年間にわたり捜査を阻んだ壁** | — | ✦ Sói |  |
-| 2-09 | `2.06#2` | D | T1 | `t5_rader_house_park_city` | **昼の世界のDennis Rader** · *良き夫、二人の子供の父親* | — |  |  |
-| 2-10 | `2.06#3` | D | T1 | `t5_lutheran_church_exterior` | **キリスト教ルーテル教会協議会の議長** · *ボーイスカウトの隊長* | — |  |  |
-| 2-11 | `2.06#4` | D | T1 | `t5_scout_camp_campfire` | **パークシティの法令遵守調査員** · *草の高さや犬の鎖を厳格に取り締まる* | — | ⊘ |  |
-| 2-12 | `2.06#5`–`#6` | D | T1 | `t5_compliance_truck_street` | *隣人たちの記憶* · **規則に異常なほど厳格な男** | — | ⊘ |  |
-| 2-13 | `2.06#7` | D | T1 | `t5_compliance_measuring_tape`, `push` | *二重生活の仮面* · **誰も裏の顔に気づかなかった** | Tape measure sound | ⊘ | →H |
-| 2-14 | `2.07#1`–`#4` | H | T3 so sánh | `t5_two_faces_silhouette` | *昼の顔* · **模範市民 · 敬虔な信者 · 手本となる父親** → *夜の顔* · **命を奪う冷酷な捕食者** | Sub-drop on "predator" | ✦ Cú | →C |
-| 2-15 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *第3幕* · **心理剖検――歪んだ殺人者の脳内** | — | ⊘ | ◼ |
-
-### ACT 3 — 心理剖検――歪んだ殺人者の脳内 · Lead background `t5_narcissist_mirror_shadow`
-
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 3-01 | `3.02#1`–`#3` | C | T2 | `t5_compartmentalization_cabinet` | **心理専門家の分析** · *悪性ナルシシズムと精神の分断* | Stamp on "Compartmentalization" | ✦ Cáo |  |
-| 3-02 | `3.02#4`–`#5` | C | T1 | `t5_concrete_wall_divide` | **精神の分断（Compartmentalization）** · *人格を切り離す防衛機制* | — | 🅑 |  |
-| 3-03 | `3.02#6`–`#7` | C | T1 | `t5_factor_x_shadow`, `push` | *日常生活と暗黒の衝動* · **罪悪感を感じることなく共存させる** | — | ⊘ |  |
+| 1-10 | `1.07#1` | H | T1 | `t5_park_city_suburb` | *心情を思い浮かべてください* · **ウィチタ郊外の静かな町Park Cityの住民** | — | →N1 |  |
+| 1-11 | `1.09#1`–`#3` | N1 | T4 lời kể | `t5_park_city_suburb`, `push` | “10年以上を経てBTKが再び手紙を送ってきたと知ったとき、町全体が恐怖で息をのみました。” → `#3`: “人々は銃を買い足し、鍵を取り替え、センサーライトを設置し、日が暮れる前に雨戸を固く閉ざしました。” | Tape recorder click `1.08` | ✦ Cừu |  |
+| 1-12 | `1.09#4`–`#5` | N1 | T4 lời kể | `t5_suburban_house_locked` | “全米が捜し求めていた怪物が、毎日近所の芝生の長さを測りに来ていたあの誠実な職員だったとは、夢にも思いませんでした” | — | ⊘ | →H |
+| 1-13 | `1.10#1`–`#3` | H | T1 | `t5_compliance_truck_street` | **現代の犯罪捜査史で最も奇妙な逆説の一つ** · *犯人は13年もの間、完璧な冬眠状態を維持* → `#3`: *かつての現場の手がかりは完全に冷え切っていた* | — | ✦ Cú |  |
+| 1-14 | `1.10#4` | H | T1 | `t5_compliance_truck_street` | **当時の捜査技術では正体を掴めなかった** · *いかなる手がかりも得られなかった* | — | ✦ Cú |  |
+| 1-15 | `1.10#5`–`#7` | H | T1 | `t5_detective_war_room` | **何がその怪物を突き動かし、自ら沈黙を破らせたのか** → `#6`: *なぜあれほど極端に慎重だった捕食者が、自ら光の中へと踏み出たのか* | — | ⊘ |  |
+| 1-16 | `1.11` (nghỉ 2 s) | — | — | giữ 1-14, nhạc nền dừng đột ngột | — | Dry clock ticking | ⊘ |  |
+| 1-17 | `1.12#1` | H | T1 | `t5_detective_war_room` | *捜査官に事件ファイルを開いていただきましょう* · **歴史的な心理戦の幕開け** | — | →D |  |
+| 1-18 | `1.14#1`–`#2` | D | T1 | `t5_detective_war_room`, `still` | **専従班が抱いた最大の疑問** · *「なぜ今なのか」という点* → `#2`: *彼の眠れる衝動を爆発させた心理的引き金が判明* | Drawer opens & dossier placed `1.13` | ✦ Sói |  |
+| 1-19 | `1.14#3`–`#5` | D | T1 | `t5_book_manuscript_desk` | **BTK初犯から30年を記念する特集記事** · *弁護士Robert Beattieが死亡説や忘れ去られた存在説を提示* | — | 🅑 |  |
+| 1-20 | `1.14#6`–`#7` | D | T1 | `t5_narcissist_mirror_shadow`, `push` | **病的な自尊心への致命的な一撃** · *Dennis Raderは自分が忘れ去られることに耐えられなかった* | — | ⊘ | →H |
+| 1-21 | `1.16#1`–`#3` | H | T10 | `t5_amber_eyes_dossier_05` | **紫色のフロッピーディスク & 悪性自己愛** · *Dennis Rader（BTK）事件ファイル* · *10の心理的指標エコシステム* | Mournful cello `1.15` rises | ✦ Cú |  |
+| 1-22 | `1.16#4` | H | T10 | `t5_amber_eyes_dossier_05` | **なぜ一枚の紫色のフロッピーディスクが難攻不落の要塞を崩したのか** | Mournful cello `1.15` rises | ✦ Cú |  |
+| 1-23 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | **Dennis Rader 事件ファイル** · *自らBTKを名乗った男* | — | ⊘ | ◼ |
+| 2-01 | `2.02#1`–`#2` | H | T1 | `t5_darkened_house_exterior` | **1974年から1991年にかけて彼が残した痕跡** · *極めて特異な手口と心理的署名* | Heartbeat & magnetic tape | ✦ Cú |  |
+| 2-02 | `2.02#3`–`#5` | H | T2 | `t5_btk_signature_metaphor` | *自らに付けた呼び名* · **BTK** · *拘束・苦痛・命の破壊を意味する3つの英単語の頭文字* | Stamp on "BTK" | 🅑 | →D |
+| 2-03 | `2.04#1`–`#3` | D | T8 | `t5_btk_signature_metaphor`, `still` | *FBI行動科学部 · 心理的署名* · *MOは環境に応じて柔軟に変化する* · *Signatureは内面的な感情を満たすため決して変わらない* | Flipping crime scene photos `2.03` | ✦ Sói |  |
+| 2-04 | `2.04#4`–`#5` | D | T1 | `t5_darkened_house_exterior`, `push` | **3つの特徴** · *第1の特徴：無力な被害者を前に絶対的な権力を行使し完全に支配したいという欲求* | — | 🅑 |  |
+| 2-05 | `2.04#6`–`#7` | D | T1 | `t5_trophy_lockbox` | **第2の特徴：戦利品『Trophies』の保管** · *一人でいるときに興奮を反芻するため* → `#7`: *第3の特徴：法執行機関やマスメディアを挑発したいという欲求* | — |  |  |
+| 2-06 | `2.04#8`–`#9` | D | T1 | `t5_public_library_bookshelves` | **秘密と挑発** · *公共図書館の本の中や公園のゴミ箱に残した小包* → `#9`: *これらの戦利品や挑発状こそが捕食者の異常な精神状態を物語っていた* | — | ⊘ | →H |
+| 2-07 | `2.05#1`–`#3` | H | T1 | `t5_gloves_forensic_desk` | **4段階の危険な『妄想のエスカレーション軌道』** · *ある日突然生じたものではない* → `#3`: *第1段階：小動物への虐待と夜間の覗き行為* | — | ✦ Cú | →D |
+| 2-08 | `2.05#4`–`#6` | H | T1 | `t5_gloves_forensic_desk` | **4段階の妄想の階段** → `#4`: *第2段階：民家への忍び込みと女性の私的な衣服の収集* → `#5`: *第3段階：明確な標的を定めて住居に侵入* → `#6`: *第4段階：人命を奪い異様な写真を演出する凶行* | — | ✦ Cú | →D |
+| 2-09 | `2.05#7` | H | T1 | `t5_gloves_forensic_desk` | **際限なく強い刺激を求め続ける捕食者** · *外部からの決定的な制止がない限り* | — | ✦ Cú | →D |
+| 2-10 | `2.06#1`–`#2` | D | T1 | `t5_air_force_service_era` | **DENNIS RADER · 1945年生まれ** · *4年間アメリカ空軍に服役し司法行政学の学位を取得* | — | ✦ Sói |  |
+| 2-11 | `2.06#3` | D | T1 | `t5_rader_house_park_city` | **Park City インディペンデンス通り6220番地** · *30年以上連れ添った妻と2人の子供を育て上げた家長* | — |  |  |
+| 2-12 | `2.06#4` | D | T1 | `t5_lutheran_church_exterior` | **キリスト・ルーテル教会の教会評議会議長** · *鍵の管理や財務運営を任されていた* | — |  |  |
+| 2-13 | `2.06#5` | D | T1 | `t5_scout_camp_campfire` | **カブスカウトの隊長** · *子供たちに野外技術や正直さを教えていた* | — | ⊘ |  |
+| 2-14 | `2.06#6`–`#7` | D | T1 | `t5_compliance_truck_street` | **1991年からのPark City市役所 規則遵守指導員** · *見回り・芝生の長さの測定・放し飼いの動物の取り締まり* | — | ⊘ |  |
+| 2-15 | `2.06#8` | D | T1 | `t5_compliance_measuring_tape`, `push` | **『ハロー効果』と集団的な正常性バイアス** · *30年間にわたり町の目を曇らせる巨大な死角* | Tape measure sound | ⊘ | →H |
+| 2-16 | `2.07#1`–`#3` | H | T3 so sánh | `t5_two_faces_silhouette` | *昼間：誠実な地域の番人・模範的な父親* · **夜間：窓の外を徘徊する冷酷な狩人** · *1974年から1988年までADT警備会社に勤務* | Sub-drop on "predator" | ✦ Cú | →C |
+| 2-17 | `2.07#4`–`#6` | H | T3 so sánh | `t5_two_faces_silhouette` | *昼間：誠実な地域の番人・模範的な父親* · **夜間：窓の外を徘徊する冷酷な狩人** · *30年以上も破綻せずに共存できたのはなぜ* | Sub-drop on "predator" | ✦ Cú | →C |
+| 2-18 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *第3幕* · **心理剖検――歪んだ殺人者の脳内** | — | ⊘ | ◼ |
+| 3-01 | `3.02#1`–`#3` | C | T2 | `t5_compartmentalization_cabinet` | *第一の防衛機制* · **精神の分断（コンパートメンタライゼーション）** · *認知の引き出しを完全に分離して閉ざす驚異的な能力* | Stamp on "Compartmentalization" | ✦ Cáo |  |
+| 3-02 | `3.02#4`–`#6` | C | T1 | `t5_concrete_wall_divide` | **罪悪感や良心の呵責を全く覚えない** · *意識の中で凶行は別の引き出しに隔離されていた* → `#6`: *家族や親族は『正常性の防壁』として利用されていた* | — | 🅑 |  |
+| 3-03 | `3.02#7`–`#8` | C | T1 | `t5_factor_x_shadow`, `push` | **妄想的な概念『要因X（Factor X）』** · *自らの内に潜む闇を弁解するために警方への手紙で執拗に繰り返した* | — | ⊘ |  |
 | 3-04 | `3.03` (nghỉ 1.5 s) | — | — | giữ 3-03 | **悪性ナルシシズム（Malignant Narcissism）** · *優越性と全能感への病的な執着* | — | ⊘ |  |
-| 3-05 | `3.04#1`–`#3` | H | T1 | `t5_factor_x_shadow` | *共感性の完全な欠如* · **他者を自らの道具とみなす** | — | ✦ Cú | →C |
-| 3-06 | `3.05#1`–`#3` | C | T2 | `t5_projection_mask` | *典型的な防御機構* · **投影と合理化 · RATIONALIZATION & PROJECTION** · *“X Factor”* | Stamp on "Rationalization & Projection" | ✦ Cáo |  |
-| 3-07 | `3.05#4`–`#5` | C | T1 | `t5_family_dinner_warmth` | **注目の依存症（Addiction to Attention）** · *世間からの注目こそが最高の報酬* | — | ⊘ | →H |
-| 3-08 | `3.06#1`–`#3` | H | T1 | `t5_narcissistic_throne` | *13年間の沈黙の苦痛* · **忘れ去られることへの恐怖** | — | ✦ Cú | →C |
-| 3-09 | `3.07#1`–`#2` | C | T2 | `t5_narcissistic_throne`, `still` | **本の出版予告という引き金** · *BTKは死んだという推測への反発* | Dấu mộc ở "Ái kỷ ác tính" | ✦ Cáo |  |
-| 3-10 | `3.07#3`–`#4` | C | T1 | `t5_secret_scrapbook` | *自らの存在を誇示するため* · **怪物は再び姿を現した** | — | 🅑 |  |
-| 3-11 | `3.07#5`–`#7` | C | T1 | `t5_fear_of_oblivion`, `push` | **ナルシシストの最大の恐怖：忘却** · *無名の公務員として死ぬより捕まる危険を選ぶ* | Sub-drop ở "Sự lãng quên" | ⊘ | →H |
-| 3-12 | `3.08#1`–`#3` | H | T1 | `t5_hubris_chessboard` | **注目への渇望が生んだ盲点** · *歴史的なフォレンジックの罠へ* | — | ✦ Cú |  |
-| 3-13 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *第4幕* · **尋問の心理戦＆フロッピーディスクの罠** | — | ⊘ | ◼ |
-
-### ACT 4 — 尋問の心理戦＆フロッピーディスク技術の罠 · Lead background `t5_interrogation_room`
-
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 4-01 | `4.02#1`–`#4` | H | T5 ngày | `t5_winter_home_depot` | **2004年から2005年** · *メディアや警察へ送られた一連の通信* | Tiếng gió đông & quạt server | ✦ Cú |  |
-| 4-02 | `4.02#5` | H | T1 | `t5_cereal_box_pickup` | **警察の捜査戦略** · *殺人犯の傲慢さと虚栄心を利用する* | — | 🅑 |  |
-| 4-03 | `4.02#6`–`#9` | H | T1 | `t5_handwritten_note_floppy` | *手紙での奇妙な質問* · **フロッピーディスクは追跡可能か？** | — | ⊘ | →D |
-| 4-04 | `4.04#1`–`#5` | D | T2 | `t5_newspaper_classified_494` | **捜査班の決断** · *新聞広告を通じた偽りの回答* | Lật báo giấy `4.03` | ✦ Sói |  |
-| 4-05 | `4.04#6`–`#7` | D | T1 | `t5_ksas_tv_station` | **“フロッピーディスクは安全で追跡できない”** · *新聞の告知欄* | — | 🅑 |  |
-| 4-06 | `4.04#8` | D | T1 | `t5_purple_floppy_disk`, `push` | *罠にかかったDennis Rader* · **紫色のフロッピーディスクの送付** | Tiếng nạp đĩa mềm `4.05` | ⊘ | →H |
-| 4-07 | `4.06#1`–`#2` | H | T1 | `t5_digital_forensics_lab` | **警察デジタルフォレンジック研究室** · *専門家 Randy Stone がディスク情報を詳細にスキャン* | Tiếng gõ phím vi tính | ✦ Cú |  |
-| 4-08 | `4.06#3`–`#6` | H | T8 | `t5_metadata_screen` | **デジタルフォレンジック捜査** · *ディスク内メタデータの解析* | Sub-drop ở Metadata | ⊘ |  |
-| 4-09 | `4.07` (nghỉ 2 s) | — | — | giữ 4-08, nhạc nền dừng đột ngột | **CHRIST LUTHERAN CHURCH** · *削除された文書に残された教会名* | Nền quạt server vo ve | ⊘ |  |
-| 4-10 | `4.08#1`–`#3` | D | T1 | `t5_church_website_search` | **最後の修正者：DENNIS** · *教会のウェブサイトに記載された議長名* | — | ✦ Sói |  |
-| 4-11 | `4.08#4`–`#5` | D | T1 | `t5_traffic_camera_pickup` | *30年間の捜査の突破口* · **容疑者Dennis Raderの特定** | — | 🅑 |  |
-| 4-12 | `4.08#6`–`#9` | D | T2 | `t5_dna_pap_smear_vial` | **DNA採取と科学鑑定** · *現場のDNAとの完全な一致* | Dấu mộc ở "Khẳng định 100%" | ⊘ | →H |
-| 4-13 | `4.10#1`–`#4` | H | T1 | `t5_highway_takedown_arrest`, `push` | **2005年2月25日 · 逮捕** · *自宅近くの路上で身柄を拘束* | Còi xe cảnh sát & phanh `4.09` | ✦ Cú | →D |
-| 4-14 | `4.12#1`–`#4` | D | T1 | `t5_interrogation_confrontation` | *尋問室での驚愕* · **“なぜ警察は嘘をついたのか？”** | Cửa sắt đóng sầm `4.11` | ✦ Sói |  |
-| 4-15 | `4.12#5`–`#8` | D | T1 | `t5_shattered_mask_confession`, `push` | *家族の悲痛な証言* · **父親の二重生活に直面した娘** | — | ⊘ | →H |
-| 4-16 | `4.14#1`–`#2` | H | T1 | `t5_kerri_rawson_tears` | *悲痛な証言* · **KERRI RAWSON — DENNIS RADERの娘** | Điểm nhấn stinger `4.13` | ✦ Cú | →N2 |
-| 4-17 | `4.15#1`–`#4` | N2 | T4 lời kể | `t5_kerri_rawson_tears`, `still` | “世間は彼を怪物として知っています…しかし私にとって、彼はかつて素晴らしい父親でした…” | Tiếng bật cassette `4.15#1` | ✦ Kerri |  |
-| 4-18 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *第5幕* · **判決、赤い警報の教訓＆終幕** | — | ⊘ | ◼ |
-
-### ACT 5 — 判決、赤い警報の教訓＆終幕 · Lead background `t5_courtroom_sentencing`
-
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 5-01 | `5.02#1`–`#2` | H | T5 ngày | `t5_sedgwick_courtroom` | **法廷での詳細な自白** · *淡々と語られた犯行の記録* | Tiếng búa tòa án gõ 3 tiếng `5.01` | ✦ Cú |  |
-| 5-02 | `5.02#3` | H | T1 | `t5_judge_gavel_verdict`, `push` | *感情の揺らぎのない冷酷さ* · **自らの行為を誇るかのような語り口** | Sub-drop ở "175 năm" | ⊘ |  |
-| 5-03 | `5.02#4`–`#5` | H | T1 | `t5_el_dorado_prison` | **判決：10回の終身刑** · *最低175年間の仮釈放なし* | — | ⊘ |  |
+| 3-05 | `3.04#1`–`#3` | H | T1 | `t5_factor_x_shadow` | *極めて異様な概念ですね、先生* · **行動科学の観点から『要因X』の正体とは何だったのでしょうか？** | — | ✦ Cú | →C |
+| 3-06 | `3.05#1`–`#3` | C | T2 | `t5_projection_mask` | *第二の防衛機制* · **合理化と心理的投射** · *典型的な『道徳的合理化技術』* | Stamp on "Rationalization & Projection" | ✦ Cáo |  |
+| 3-07 | `3.05#4`–`#5` | C | T2 | `t5_projection_mask` | *第二の防衛機制* · **合理化と心理的投射** · *『内なる要因Xに強いられたのだ』という詭弁* | Stamp on "Rationalization & Projection" | ✦ Cáo |  |
+| 3-08 | `3.05#6`–`#8` | C | T1 | `t5_family_dinner_warmth` | **個人の道徳的責任をきれいに拭い去る** · *恐ろしい悲劇を起こした後も平然と帰宅して夕食を楽しむ* | — | ⊘ | →H |
+| 3-09 | `3.06#1`–`#3` | H | T1 | `t5_narcissistic_throne` | **背筋が凍るほど精巧な自己欺瞞** · *Raderが被害者たちに向けていた内面の眼差し* → `#3`: *なぜ悲痛な懇願が同情心すら呼び起こさなかったのか* | — | ✦ Cú | →C |
+| 3-10 | `3.06#4` | H | T1 | `t5_narcissistic_throne` | **決定的な瞬間に人間としての温もりを消し去ったもの** | — | ✦ Cú | →C |
+| 3-11 | `3.07#1`–`#3` | C | T2 | `t5_narcissistic_throne`, `still` | *次の機制* · **被害者の『客体化（物扱い）』と非人間化** · *悪性自己愛と反社会性人格障害の結合：共感能力の完全な欠如* | Dấu mộc ở "Ái kỷ ác tính" | ✦ Cáo |  |
+| 3-12 | `3.07#4`–`#5` | C | T1 | `t5_secret_scrapbook` | **冷たく『プロジェクト』と呼んでいた** → `#5`: *頭の中の加虐的なシナリオを演じるための『生きた小道具』* | — | 🅑 |  |
+| 3-13 | `3.07#6`–`#8` | C | T1 | `t5_fear_of_oblivion`, `push` | **被害者の涙や命乞いは哀れみを誘わなかった** · *むしろ全能の支配感を高める感覚的刺激として機能* → `#8`: *人間が小道具に格下げされたとき、凶行は機械のように冷徹に執行される* | Sub-drop ở "Sự lãng quên" | ⊘ | →H |
+| 3-14 | `3.08#1`–`#3` | H | T1 | `t5_hubris_chessboard` | **温和な笑顔の裏の、骨の髄まで冷たい無慈悲さ** → `#3`: *何が30年間にわたり自身を守ってきた防壁を自ら破壊させたのか* | — | ✦ Cú |  |
+| 3-15 | `3.08#4` | H | T1 | `t5_hubris_chessboard` | **悪性自己愛は自己破滅の種を宿しているのか？** | — | ✦ Cú |  |
+| 3-16 | `3.09#1`–`#3` | C | T2 | `t5_narcissistic_throne` | *第三の機制* · **世間の注目への病的な依存と妄想の飢餓** · *大衆の関心と社会的な恐怖は誇大自己を支える酸素* | Stamp on "世間の注目への病的な依存" | ⊘ |  |
+| 3-17 | `3.09#4`–`#5` | C | T1 | `t5_fear_of_oblivion` | **自己愛者にとって最も耐えがたい地獄** · *世間からの完全な忘却* | Sub-drop on "世間からの完全な忘却" | 🅑 |  |
+| 3-18 | `3.09#6`–`#7` | C | T1 | `t5_secret_scrapbook` | **悪名への渇望** · *忘れ去られるくらいなら危険を冒してでも再び世間を震撼させる道* → `#7`: *悪名への渇望が生存本能と合理的な理性を完全に盲目にした* | — | ⊘ |  |
+| 3-19 | `3.10#1`–`#2` | H | T2 | `t5_hubris_chessboard` | *専門家の結論* · **傲慢さ — 捕食者の首を絞める罠** · *自らが全ての捜査陣よりも優秀だと錯覚していた* | Stamp on "傲慢さ" | ✦ Cú |  |
+| 3-20 | `3.10#3` | H | T1 | `t5_winter_home_depot` | **司法の歴史上最も信じがたい技術的失策** · *その盲目的な過信がRaderを導いた* | — | ⊘ |  |
+| 3-21 | `3.10#4` | H | T1 | `t5_detective_war_room` | *捜査官から振り返っていただきましょう* · **紫色のフロッピーディスクを巡る運命的な心理戦** | — | →D |  |
+| 3-22 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *第4幕* · **尋問の心理戦＆フロッピーディスクの罠** | — | ⊘ | ◼ |
+| 4-01 | `4.02#1`–`#3` | H | T5 ngày | `t5_winter_home_depot` | **2005年初頭** · *メディアへの挑発的な小包を繰り返していたDennis Raderの新たなアイデア* → `#2`: *コンピュータファイルでのやり取りへと手段を更新したい* → `#3`: *59歳のRaderはデジタル技術の根本的な仕組みについて全くの無知* | Tiếng gió đông & quạt server | ✦ Cú |  |
+| 4-02 | `4.02#4` | H | T5 ngày | `t5_winter_home_depot` | **2005年1月下旬** · *ウィチタのHome Depot駐車場のピックアップトラックの荷台にシリアル箱を密かに置いた* | Tiếng gió đông & quạt server | ✦ Cú |  |
+| 4-03 | `4.02#5` | H | T1 | `t5_cereal_box_pickup` | **シリアル箱の中身** · *捜査官へ宛てた手書きのメモ* | — | 🅑 |  |
+| 4-04 | `4.02#6`–`#8` | H | T1 | `t5_handwritten_note_floppy` | **信じられないほど無邪気な質問** · “フロッピーディスクでやり取りしてもコンピュータまで追跡されませんか？ 正直に答えてください” → `#8`: *The Wichita Eagle紙の三行広告欄に暗号で回答を掲載するよう要求* | — | ⊘ | →D |
+| 4-05 | `4.02#9` | H | T1 | `t5_handwritten_note_floppy` | **30年間固く閉ざされていた城壁についに亀裂** | — | ⊘ | →D |
+| 4-06 | `4.04#1`–`#3` | D | T2 | `t5_newspaper_classified_494` | *30年ぶりの決定機* · **そのメモがKen Landwehr警部の机に置かれたとき、部屋全体が息をのみました** · *直ちに一流のデジタル鑑識専門家に助言を求めた* | Lật báo giấy `4.03` | ✦ Sói |  |
+| 4-07 | `4.04#4`–`#6` | D | T2 | `t5_newspaper_classified_494` | *The Wichita Eagle紙の広告欄* · “レックス、送っても大丈夫だ” → `#6`: *自分が状況を支配しているという錯覚に溺れ、警察の言葉を信じ込んだ* | Lật báo giấy `4.03` | ✦ Sói |  |
+| 4-08 | `4.04#7`–`#8` | D | T1 | `t5_ksas_tv_station` | **2005年2月中旬** · *書類に包まれた1.44メガバイトの紫色Memorex製フロッピーディスク* | — | 🅑 |  |
+| 4-09 | `4.04#9` | D | T1 | `t5_purple_floppy_disk`, `push` | **私たちが仕掛けた技術的な罠が完全に作動** | Tiếng nạp đĩa mềm `4.05` | ⊘ | →H |
+| 4-10 | `4.06#1`–`#2` | H | T1 | `t5_digital_forensics_lab` | **デジタル鑑識室** · *鑑識専門家のRandy Stoneがディスクの磁気セクタを精密に復元* | Tiếng gõ phím vi tính | ✦ Cú |  |
+| 4-11 | `4.06#3`–`#5` | H | T8 | `t5_metadata_screen` | *隠されたメタデータが開かれた* · *TestA.rtfファイルほかに過去に削除されたWordファイルを復元* → `#5`: *モニター上に決定的な2行のデータがはっきりと表示* | Sub-drop ở Metadata | ⊘ |  |
+| 4-12 | `4.06#6`–`#7` | H | T8 | `t5_metadata_screen` | *1行目には『最終更新者：Dennis』* · *2行目には『登録団体：キリスト・ルーテル教会』* | Sub-drop ở Metadata | ⊘ |  |
+| 4-13 | `4.07` (nghỉ 2 s) | — | — | giữ 4-08, nhạc nền dừng đột ngột | **CHRIST LUTHERAN CHURCH** · *削除された文書に残された教会名* | Nền quạt server vo ve | ⊘ |  |
+| 4-14 | `4.08#1`–`#3` | D | T1 | `t5_church_website_search` | **検索キーワード：キリスト・ルーテル教会 ウィチタ Dennis** · *教会評議会の会長はまさにDennis Raderだった* | — | ✦ Sói |  |
+| 4-15 | `4.08#4`–`#6` | D | T1 | `t5_traffic_camera_pickup` | **Home Depot駐車場の防犯カメラと完全一致** · *娘が大学の診療所に残していた生体組織検体を令状で確保* | — | 🅑 |  |
+| 4-16 | `4.08#7`–`#9` | D | T2 | `t5_dna_pap_smear_vial` | *DNA鑑定の結果は決定的* · **明白な父子関係** · *もはや何の疑いもありません* | Dấu mộc ở "Khẳng định 100%" | ⊘ | →H |
+| 4-17 | `4.08#10` | D | T2 | `t5_dna_pap_smear_vial` | *捜査員たちによる包囲* · **Park Cityの自宅の周囲を完全に囲む** | Dấu mộc ở "Khẳng định 100%" | ⊘ | →H |
+| 4-18 | `4.10#1`–`#3` | H | T1 | `t5_highway_takedown_arrest`, `push` | **2005年2月25日の昼** · *パトカーが前後から遮断したピックアップトラック* | Còi xe cảnh sát & phanh `4.09` | ✦ Cú | →D |
+| 4-19 | `4.10#4`–`#6` | H | T1 | `t5_highway_takedown_arrest`, `push` | **傲慢な仮面は粉々に砕け散った** · *全能の幻影を奪われて動揺する哀れな自己愛患者* | Còi xe cảnh sát & phanh `4.09` | ✦ Cú | →D |
+| 4-20 | `4.12#1`–`#3` | D | T1 | `t5_interrogation_confrontation` | **取調室の古典的な対決** · “なぜフロッピーについて私に嘘をついたのですか” → `#3`: “あなたを逮捕するためです” | Cửa sắt đóng sầm `4.11` | ✦ Sói |  |
+| 4-21 | `4.12#4`–`#5` | D | T1 | `t5_interrogation_confrontation` | **『自己愛の完全崩壊』** · *罠に落ち正体が暴かれたことを悟る* | Cửa sắt đóng sầm `4.11` | ✦ Sói |  |
+| 4-22 | `4.12#6`–`#8` | D | T1 | `t5_shattered_mask_confession`, `push` | **仮面は完全に剥がれ落ちた** · *10件の凶行を長時間をかけて自供* | — | ⊘ | →H |
+| 4-23 | `4.14#1`–`#3` | H | T1 | `t5_kerri_rawson_tears` | *その痛切な告白をお聞きください* · **KERRI RAWSON — DENNIS RADERの実の娘** | Điểm nhấn stinger `4.13` | ✦ Cú | →N2 |
+| 4-24 | `4.15#1`–`#3` | N2 | T4 lời kể | `t5_kerri_rawson_tears`, `still` | “世界は父を怪物と見なしていますが、私にとっては最も模範的な父親でした。” → `#3`: “FBI特別捜査官がドアを叩き、父がBTKだと告げられた瞬間、足元の世界が完全に崩れ去りました。” | Tiếng bật cassette `4.15#1` | ✦ Kerri |  |
+| 4-25 | `4.15#4`–`#6` | N2 | T4 lời kể | `t5_kerri_rawson_tears`, `still` | “最大の苦痛は単なる恐怖ではなく、信じていた絆の完全な裏切りでした。” → `#5`: “毎晩おやすみのキスをしてくれた優しい父親が、数多くの家庭を破壊した悪魔だったという真実をどう受け止めればいいのでしょうか？” | Tiếng bật cassette `4.15#1` | ✦ Kerri |  |
+| 4-26 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *第5幕* · **判決、赤い警報の教訓＆終幕** | — | ⊘ | ◼ |
+| 5-01 | `5.02#1`–`#3` | H | T5 ngày | `t5_sedgwick_courtroom` | **18 · 08 · 2005** · *ウィチタ市セジウィック郡地方裁判所 · Gregory Waller判事* | Tiếng búa tòa án gõ 3 tiếng `5.01` | ✦ Cú |  |
+| 5-02 | `5.02#4` | H | T1 | `t5_judge_gavel_verdict`, `push` | **『病的な自己憐憫』** · *遺族への真摯な悔悟を一切示さず* | Sub-drop ở "175 năm" | ⊘ |  |
+| 5-03 | `5.02#5`–`#7` | H | T1 | `t5_el_dorado_prison` | **El Dorado刑務所の独房** · *社会から完全に隔離され最期まで永遠の沈黙と向き合う* | — | ⊘ |  |
 | 5-04 | `5.03` (nghỉ 1.5 s) | — | — | giữ 5-03 | — | — | ⊘ |  |
-| 5-05 | `5.04#1`–`#2` | H | T1 | `t5_solitary_confinement_cell` | **日常生活における4つの赤い警告** · *完璧な仮面の裏に潜む悪質自己愛人格の見分け方* | — | ✦ Cú | →C+D |
-| 5-06 | `5.05#1`–`#3` | C | T9 `1/4` | `t5_redflag_rule_control` | **第1の兆候：ルールと支配への異常な執着** · *他者を服従させるための病的な厳格さ* | — | ✦ Cáo |  |
-| 5-07 | `5.05#4`–`#5` | C | T9 `2/4` | `t5_redflag_shallow_affect` | **第2の兆候：温かい外見の裏にある感情の欠如** · *社会生活に紛れ込む共感性の完全な欠如* | — | 🅑 | →D |
-| 5-08 | `5.06#1`–`#2` | D | T9 `3/4` | `t5_redflag_secret_trophies` | **第3の兆候：他人の物品を密かに保管する習慣** · *戦利品として他人の私物を隠し持つ危険な兆候* | — | ✦ Sói |  |
-| 5-09 | `5.06#3`–`#5` | D | T9 `4/4` | `t5_redflag_narcissistic_hubris` | **第4の兆候：認められたいと渇望する自己愛的な欲求** · *脆い自我と名声への抑えきれない渇望* | — | 🅑 |  |
-| 5-10 | `5.07` (nghỉ 2 s) | — | — | giữ 5-09, Piano dâng lên nhẹ nhàng | **番組を共にしてくれた専門家と捜査官に感謝します** | Piano ấm áp | ⊘ |  |
-| 5-11 | `5.08#1`–`#5` | H | T1 | `t5_justice_dawn_sunlight` | **闇は常に真実の光の前に頭を下げざるを得ません** · *Dennis Raderの事件記録が残した因果律の教訓* | — | ✦ Cú |  |
-| 5-12 | `5.09` (nghỉ 1.5 s) | — | — | giữ 5-11 | — | — | ⊘ |  |
-| 5-13 | `5.10#1`–`#2` | H | T1 | `t5_closing_typewriter_rose` | **専門家・調査員・リスナーの皆様に深く感謝いたします** | Folder closes `5.11` | ✦ Cú |  |
-| 5-14 | `5.10#3` | H | T1 | `t5_closing_typewriter_rose`, `still` | **次回の犯罪心理分析ファイルでお会いしましょう** → `#3`: *常に警戒を怠らず、善意ある心を* | Decisive typewriter strike | 🅑 |  |
-| 5-15 | hết tập (10 s) | — | T1 | `t5_closing_typewriter_rose` | **事件記録 第05話 · 終了** · *AMBER EYES · 実際の事件記録から読み解く犯罪心理学* | Cello sustains 5s then fades out `5.12` | ⊘ | ◼ |
+| 5-05 | `5.04#1`–`#3` | H | T1 | `t5_solitary_confinement_cell` | **30年の時を経て幕を閉じたBTK事件** · *いかなる電子的痕跡も完全に消し去ることはできない* | — | ✦ Cú | →C+D |
+| 5-06 | `5.04#4` | H | T1 | `t5_solitary_confinement_cell` | **生存のための4つの赤い警告（Red Flags）** · *日常の中で悪の仮面を見抜くため* | — | ✦ Cú | →C+D |
+| 5-07 | `5.05#1`–`#3` | C | T9 `1/4` | `t5_redflag_rule_control` | **第1の信号：極端なルール統制への執着** · *些細な規則に異常に執着し他人を威圧・処罰しようとする人物* | — | ✦ Cáo |  |
+| 5-08 | `5.05#4` | C | T9 `1/4` | `t5_redflag_rule_control` | *第一の危険信号* · **抑圧された支配欲が暴力的な形で噴出する機会を待つ** | — | ✦ Cáo |  |
+| 5-09 | `5.05#5`–`#7` | C | T9 `2/4` | `t5_redflag_shallow_affect` | **第2の信号：社交的な外面の裏にある感情的な断絶** · *浅薄な情動（Shallow Affect）* | — | 🅑 | →D |
+| 5-10 | `5.06#1`–`#3` | D | T9 `3/4` | `t5_redflag_secret_trophies` | **第3の信号：他人の私物を戦利品のように密かに収集する習癖** · *私物や身分証、私的な記念品を隠し持つ* | — | ✦ Sói |  |
+| 5-11 | `5.06#4`–`#6` | D | T9 `4/4` | `t5_redflag_narcissistic_hubris` | **第4の信号：どんな代償を払ってでも認められ賞賛されたい渇望** · *巨大な自己肯定感の欠落* | — | 🅑 |  |
+| 5-12 | `5.06#7` | D | T9 `4/4` | `t5_redflag_narcissistic_hubris` | *最後の危険信号* · **自尊心を刺激されれば自ら隙を晒して自滅への道をたどる** | — | 🅑 |  |
+| 5-13 | `5.07` (nghỉ 2 s) | — | — | giữ 5-09, Piano dâng lên nhẹ nhàng | **番組を共にしてくれた専門家と捜査官に感謝します** | Piano ấm áp | ⊘ |  |
+| 5-14 | `5.08#1`–`#3` | H | T1 | `t5_justice_dawn_sunlight` | **悪が持つ必然的な自滅の法則** · *自らの内的自己愛の怪物だけは決して欺くことができなかった* | — | ✦ Cú |  |
+| 5-15 | `5.08#4`–`#6` | H | T1 | `t5_justice_dawn_sunlight` | **目覚めた警戒心** · *日常の安全の境界を守るため* | — | ✦ Cú |  |
+| 5-16 | `5.08#7` | H | T1 | `t5_justice_dawn_sunlight` | **専門家とリスナーの皆さまに深く感謝申し上げます** | — | ✦ Cú |  |
+| 5-17 | `5.09` (nghỉ 1.5 s) | — | — | giữ 5-11 | — | — | ⊘ |  |
+| 5-18 | `5.10#1`–`#2` | H | T1 | `t5_closing_typewriter_rose` | **常に心の平安を保ち、自らを守り、日々の平穏を大切にする** | Folder closes `5.11` | ✦ Cú |  |
+| 5-19 | `5.10#3` | H | T1 | `t5_closing_typewriter_rose`, `still` | **次回の犯罪心理分析ファイルでお会いしましょう** · *安らかな夜をお過ごしください* | Decisive typewriter strike | 🅑 |  |
+| 5-20 | hết tập (10 s) | — | T1 | `t5_closing_typewriter_rose` | **事件記録 第05話 · 終了** · *AMBER EYES · 実際の事件記録から読み解く犯罪心理学* | Cello sustains 5s then fades out `5.12` | ⊘ | ◼ |
 
-**Tổng: 83 shot** (Hồi 1: 22 shot · Hồi 2: 15 shot · Hồi 3: 13 shot · Hồi 4: 18 shot · Hồi 5: 15 shot) · Phủ 100% 164/164 câu · 100% nền có file.
+**Tổng: 96 shot** (Hồi 1: 24 shot · Hồi 2: 18 shot · Hồi 3: 22 shot · Hồi 4: 26 shot · Hồi 5: 20 shot) · Phủ 100% 209/209 câu · chữ trên hình lấy từ câu đang đọc (H6).
 
 ---
 

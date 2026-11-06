@@ -3,45 +3,50 @@
   "id": "1.01",
   "act": 1,
   "kind": "BGM",
-  "desc": "*Tiếng đàn Cello u buồn cất lên chậm rãi giữa không gian tĩnh lặng, hòa cùng tiếng gió rít hiu hắt trên xa lộ hoang vắng.*"
+  "desc": "Tiếng đàn Cello u buồn cất lên chậm rãi giữa không gian tĩnh lặng, hòa cùng tiếng gió rít hiu hắt trên xa lộ hoang vắng, tạo cảm giác bất an và ngột ngạt."
  },
  {
   "id": "1.02",
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "chậm rãi, giọng trầm ấm gợi mở không gian hoài niệm",
-  "text": "Nước Mỹ vào thập niên 1970 là thời hoàng kim của văn hóa xê dịch tự do. Dọc theo những dải xa lộ liên bang ngập tràn ánh nắng của bờ Tây, hình ảnh những thanh niên trẻ mang ba lô đứng bên lề đường vẫy tay xin đi nhờ xe là một nét văn hóa vô cùng quen thuộc. Những chiếc xe hơi gia đình hay những chiếc xe tải nhỏ trở thành biểu tượng của sự kết nối và sẻ chia trên các nẻo đường nước Mỹ. Người ta trao gửi niềm tin cho những người xa lạ một cách tự nhiên và ngây thơ. Họ tin rằng phía sau mỗi tay lái là một người bạn đường tử tế sẵn sàng sẻ chia một chặng hành trình. Nhưng không ai có thể ngờ rằng, những cung đường tự do rực rỡ ấy lại ẩn chứa những chiếc bẫy chết người giăng sẵn đón chờ những tâm hồn ngây thơ.",
+  "direction": "chậm rãi, giọng trầm ấm gợi mở không gian lịch sử",
+  "text": "Vào thập niên 1970, nước Mỹ trải qua thời kỳ hoàng kim của văn hóa xê dịch tự do với những chuyến đi nhờ xe dọc theo những dải xa lộ ngập tràn ánh nắng bờ Tây. Hình ảnh những thanh niên trẻ mang ba lô đứng bên lề đường vẫy tay xin quá giang là một nét văn hóa phóng khoáng mang tính biểu tượng của cả một thế hệ. Người ta trao gửi niềm tin trọn vẹn cho những người xa lạ một cách tự nhiên và ngây thơ. Họ tin rằng phía sau mỗi tay lái là một người bạn đường tử tế sẵn sàng sẻ chia một chặng hành trình. Thế nhưng, chính sự ngây thơ tập thể ấy đã tạo nên một “Điểm mù xã hội” vô cùng nguy hiểm. Những dải xa lộ thênh thang rực rỡ nắng vàng đã vô tình trở thành ngư trường lý tưởng giăng sẵn cho những kẻ săn mồi tàn độc. Một trong những vụ bắt cóc kỳ lạ và chấn động nhất lịch sử tư pháp nước Mỹ đã bắt đầu từ chính một chuyến xe định mệnh như thế.",
   "sentences": [
    {
     "id": "1.02#1",
-    "text": "Nước Mỹ vào thập niên 1970 là thời hoàng kim của văn hóa xê dịch tự do.",
-    "words": 17
+    "text": "Vào thập niên 1970, nước Mỹ trải qua thời kỳ hoàng kim của văn hóa xê dịch tự do với những chuyến đi nhờ xe dọc theo những dải xa lộ ngập tràn ánh nắng bờ Tây.",
+    "words": 37
    },
    {
     "id": "1.02#2",
-    "text": "Dọc theo những dải xa lộ liên bang ngập tràn ánh nắng của bờ Tây, hình ảnh những thanh niên trẻ mang ba lô đứng bên lề đường vẫy tay xin đi nhờ xe là một nét văn hóa vô cùng quen thuộc.",
-    "words": 43
+    "text": "Hình ảnh những thanh niên trẻ mang ba lô đứng bên lề đường vẫy tay xin quá giang là một nét văn hóa phóng khoáng mang tính biểu tượng của cả một thế hệ.",
+    "words": 34
    },
    {
     "id": "1.02#3",
-    "text": "Những chiếc xe hơi gia đình hay những chiếc xe tải nhỏ trở thành biểu tượng của sự kết nối và sẻ chia trên các nẻo đường nước Mỹ.",
-    "words": 29
+    "text": "Người ta trao gửi niềm tin trọn vẹn cho những người xa lạ một cách tự nhiên và ngây thơ.",
+    "words": 20
    },
    {
     "id": "1.02#4",
-    "text": "Người ta trao gửi niềm tin cho những người xa lạ một cách tự nhiên và ngây thơ.",
-    "words": 18
-   },
-   {
-    "id": "1.02#5",
     "text": "Họ tin rằng phía sau mỗi tay lái là một người bạn đường tử tế sẵn sàng sẻ chia một chặng hành trình.",
     "words": 23
    },
    {
+    "id": "1.02#5",
+    "text": "Thế nhưng, chính sự ngây thơ tập thể ấy đã tạo nên một “Điểm mù xã hội” vô cùng nguy hiểm.",
+    "words": 21
+   },
+   {
     "id": "1.02#6",
-    "text": "Nhưng không ai có thể ngờ rằng, những cung đường tự do rực rỡ ấy lại ẩn chứa những chiếc bẫy chết người giăng sẵn đón chờ những tâm hồn ngây thơ.",
-    "words": 32
+    "text": "Những dải xa lộ thênh thang rực rỡ nắng vàng đã vô tình trở thành ngư trường lý tưởng giăng sẵn cho những kẻ săn mồi tàn độc.",
+    "words": 28
+   },
+   {
+    "id": "1.02#7",
+    "text": "Một trong những vụ bắt cóc kỳ lạ và chấn động nhất lịch sử tư pháp nước Mỹ đã bắt đầu từ chính một chuyến xe định mệnh như thế.",
+    "words": 30
    }
   ]
  },
@@ -49,7 +54,7 @@
   "id": "1.03",
   "act": 1,
   "kind": "SFX",
-  "desc": "*Tiếng xe cộ lao vút trên đường cao tốc, tiếng gió rít bên cửa kính ô tô.*"
+  "desc": "Tiếng xe cộ lao vút trên đường cao tốc, tiếng gió rít bên cửa kính ô tô."
  },
  {
   "id": "1.04",
@@ -57,7 +62,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "chuyển giọng u tối, báo hiệu tai ương",
-  "text": "Ngày 19 tháng 5 năm 1977, cô gái trẻ hai mươi tuổi Colleen Stan rời khỏi thị trấn Eugene, bang Oregon. Cô đứng bên Quốc lộ 99, giơ ngón tay cái xin quá giang về phía Bắc California để tham dự bữa tiệc sinh nhật của một người bạn thân. Cô mang theo một chiếc ba lô nhỏ, vài cuốn sách và tấm bản đồ đường bộ đã sờn mép. Trong tâm trí của cô gái đôi mươi lúc ấy chỉ ngập tràn niềm vui gặp lại bạn bè và những hoài bão thanh xuân rực rỡ.",
+  "text": "Ngày 19 tháng 5 năm 1977, cô gái trẻ hai mươi tuổi Colleen Stan rời khỏi thị trấn Eugene, bang Oregon. Cô xin đi nhờ xe về phía Bắc California, tới thị trấn Westwood để dự bữa tiệc sinh nhật của một người bạn thân. Trong tâm trí của cô gái đôi mươi lúc ấy chỉ ngập tràn niềm vui hội ngộ và những hoài bão thanh xuân rực rỡ. Colleen vốn là một cô gái thận trọng và có hiểu biết thực tế về cuộc sống. Cô đã lắng nghe trực giác bất an và kiên quyết từ chối hai chiếc xe đầu tiên dừng lại vì nhận thấy người lái có biểu hiện kỳ lạ.",
   "sentences": [
    {
     "id": "1.04#1",
@@ -66,18 +71,23 @@
    },
    {
     "id": "1.04#2",
-    "text": "Cô đứng bên Quốc lộ 99, giơ ngón tay cái xin quá giang về phía Bắc California để tham dự bữa tiệc sinh nhật của một người bạn thân.",
-    "words": 29
+    "text": "Cô xin đi nhờ xe về phía Bắc California, tới thị trấn Westwood để dự bữa tiệc sinh nhật của một người bạn thân.",
+    "words": 24
    },
    {
     "id": "1.04#3",
-    "text": "Cô mang theo một chiếc ba lô nhỏ, vài cuốn sách và tấm bản đồ đường bộ đã sờn mép.",
-    "words": 20
+    "text": "Trong tâm trí của cô gái đôi mươi lúc ấy chỉ ngập tràn niềm vui hội ngộ và những hoài bão thanh xuân rực rỡ.",
+    "words": 25
    },
    {
     "id": "1.04#4",
-    "text": "Trong tâm trí của cô gái đôi mươi lúc ấy chỉ ngập tràn niềm vui gặp lại bạn bè và những hoài bão thanh xuân rực rỡ.",
-    "words": 27
+    "text": "Colleen vốn là một cô gái thận trọng và có hiểu biết thực tế về cuộc sống.",
+    "words": 17
+   },
+   {
+    "id": "1.04#5",
+    "text": "Cô đã lắng nghe trực giác bất an và kiên quyết từ chối hai chiếc xe đầu tiên dừng lại vì nhận thấy người lái có biểu hiện kỳ lạ.",
+    "words": 30
    }
   ]
  },
@@ -85,7 +95,7 @@
   "id": "1.05",
   "act": 1,
   "kind": "SFX",
-  "desc": "*Tiếng lốp xe rít phanh chầm chậm tấp vào lề đường, tiếng động cơ nổ trầm đục.*"
+  "desc": "Tiếng lốp xe rít phanh chầm chậm tấp vào lề đường, tiếng động cơ nổ trầm đục."
  },
  {
   "id": "1.06",
@@ -93,37 +103,37 @@
   "kind": "LOI",
   "role": "H",
   "direction": "tiếp tục mạch tự sự nghẹt thở",
-  "text": "Colleen là một cô gái thận trọng và có hiểu biết. Cô đã từ chối hai chiếc xe đầu tiên dừng lại vì cảm thấy người lái có biểu hiện bất thường. Nhưng khi chiếc xe tải nhỏ hiệu Dodge màu xanh lam dừng lại, mọi sự cảnh giác trong cô hoàn toàn tan biến. Ngồi trên xe là một cặp vợ chồng trẻ trạc tuổi cô, người vợ đang bế trên tay một đứa trẻ sơ sinh tám tháng tuổi kháu khỉnh. Một bức tranh gia đình ấm áp và hoàn hảo đến mức không ai có thể mảy may nghi ngờ bất kỳ hiểm nguy nào. Colleen mỉm cười bước lên xe mà không hề biết rằng, cô vừa bước chân vào cánh cửa của một cơn ác mộng kéo dài suốt hai nghìn sáu trăm sáu mươi ngày.",
+  "text": "Thế nhưng, tại thị trấn Red Bluff bang California bên xa lộ liên bang số năm, một chiếc xe van màu xanh lam bất ngờ dừng lại. Ngồi trên xe không phải một gã đàn ông khả nghi đơn độc, mà là một cặp vợ chồng trẻ trạc tuổi cô. Người vợ trẻ mỉm cười thân thiện, trên tay bế ẵm một đứa con nhỏ thơ ngây. Bức tranh gia đình ấm áp và mẫu mực ấy đã tạo nên một “Hiệu ứng Hào quang” hoàn hảo, đánh sập toàn bộ bức tường phòng bị của cô gái trẻ. Ai có thể nghi ngờ một người cha, người mẹ đang ôm con nhỏ lại là hiện thân của cạm bẫy đen tối? Colleen mỉm cười bước lên xe mà không hề hay biết rằng, bước chân ấy đã đưa cô thẳng vào cánh cửa của một cơn ác mộng kéo dài hơn bảy năm.",
   "sentences": [
    {
     "id": "1.06#1",
-    "text": "Colleen là một cô gái thận trọng và có hiểu biết.",
-    "words": 11
+    "text": "Thế nhưng, tại thị trấn Red Bluff bang California bên xa lộ liên bang số năm, một chiếc xe van màu xanh lam bất ngờ dừng lại.",
+    "words": 27
    },
    {
     "id": "1.06#2",
-    "text": "Cô đã từ chối hai chiếc xe đầu tiên dừng lại vì cảm thấy người lái có biểu hiện bất thường.",
-    "words": 21
-   },
-   {
-    "id": "1.06#3",
-    "text": "Nhưng khi chiếc xe tải nhỏ hiệu Dodge màu xanh lam dừng lại, mọi sự cảnh giác trong cô hoàn toàn tan biến.",
+    "text": "Ngồi trên xe không phải một gã đàn ông khả nghi đơn độc, mà là một cặp vợ chồng trẻ trạc tuổi cô.",
     "words": 23
    },
    {
+    "id": "1.06#3",
+    "text": "Người vợ trẻ mỉm cười thân thiện, trên tay bế ẵm một đứa con nhỏ thơ ngây.",
+    "words": 17
+   },
+   {
     "id": "1.06#4",
-    "text": "Ngồi trên xe là một cặp vợ chồng trẻ trạc tuổi cô, người vợ đang bế trên tay một đứa trẻ sơ sinh tám tháng tuổi kháu khỉnh.",
-    "words": 28
+    "text": "Bức tranh gia đình ấm áp và mẫu mực ấy đã tạo nên một “Hiệu ứng Hào quang” hoàn hảo, đánh sập toàn bộ bức tường phòng bị của cô gái trẻ.",
+    "words": 32
    },
    {
     "id": "1.06#5",
-    "text": "Một bức tranh gia đình ấm áp và hoàn hảo đến mức không ai có thể mảy may nghi ngờ bất kỳ hiểm nguy nào.",
-    "words": 25
+    "text": "Ai có thể nghi ngờ một người cha, người mẹ đang ôm con nhỏ lại là hiện thân của cạm bẫy đen tối?",
+    "words": 23
    },
    {
     "id": "1.06#6",
-    "text": "Colleen mỉm cười bước lên xe mà không hề biết rằng, cô vừa bước chân vào cánh cửa của một cơn ác mộng kéo dài suốt hai nghìn sáu trăm sáu mươi ngày.",
-    "words": 33
+    "text": "Colleen mỉm cười bước lên xe mà không hề hay biết rằng, bước chân ấy đã đưa cô thẳng vào cánh cửa của một cơn ác mộng kéo dài hơn bảy năm.",
+    "words": 32
    }
   ]
  },
@@ -132,43 +142,33 @@
   "act": 1,
   "kind": "LOI",
   "role": "N",
-  "direction": "N1: Bạn của Colleen Stan, giọng nữ bàng hoàng, nghẹn ngào",
-  "text": "Vào đêm hôm đó, chúng tôi chờ mãi ở bữa tiệc sinh nhật nhưng Colleen không hề xuất hiện. Ban đầu mọi người chỉ nghĩ xe cô ấy bị hỏng hoặc cô ấy đổi ý quay về. Nhưng một ngày, rồi một tuần trôi qua trong im lặng tuyệt đối. Mẹ của Colleen gần như ngã quỵ khi gọi điện khắp các bệnh viện và trạm cảnh sát địa phương. Chúng tôi cùng nhau in hàng nghìn tờ rơi, dán kín các trạm xăng và bến xe dọc tuyến Quốc lộ 99. Nhưng không một manh mối, không một cuộc gọi tống tiền, không một vết tích. Colleen như thể đã bốc hơi hoàn toàn khỏi mặt đất giữa ban ngày.",
+  "direction": "N1: Bạn của Colleen Stan, giọng nữ trẻ bàng hoàng, nghẹn ngào",
+  "text": "Hãy hình dung tâm trạng của chúng tôi khi ngồi chờ Colleen ở bữa tiệc sinh nhật đêm hôm ấy. Bánh sinh nhật đã thắp nến, bạn bè đã tề tựu đông đủ nhưng bóng dáng của cô ấy vẫn bặt vô âm tín. Ban đầu, ai cũng tự an ủi rằng có thể Colleen chỉ bị lỡ một chuyến xe dọc đường hoặc đổi ý quay về nhà. Nhưng một ngày, rồi một tuần, rồi một tháng trôi qua trong nỗi tuyệt vọng câm lặng. Một con người bằng xương bằng thịt bỗng chốc như tan biến hoàn toàn khỏi mặt đất, để lại nỗi hoang mang tột cùng cho gia đình và bè bạn.",
   "sentences": [
    {
     "id": "1.07#1",
-    "text": "Vào đêm hôm đó, chúng tôi chờ mãi ở bữa tiệc sinh nhật nhưng Colleen không hề xuất hiện.",
-    "words": 19
-   },
-   {
-    "id": "1.07#2",
-    "text": "Ban đầu mọi người chỉ nghĩ xe cô ấy bị hỏng hoặc cô ấy đổi ý quay về.",
-    "words": 18
-   },
-   {
-    "id": "1.07#3",
-    "text": "Nhưng một ngày, rồi một tuần trôi qua trong im lặng tuyệt đối.",
-    "words": 13
-   },
-   {
-    "id": "1.07#4",
-    "text": "Mẹ của Colleen gần như ngã quỵ khi gọi điện khắp các bệnh viện và trạm cảnh sát địa phương.",
+    "text": "Hãy hình dung tâm trạng của chúng tôi khi ngồi chờ Colleen ở bữa tiệc sinh nhật đêm hôm ấy.",
     "words": 20
    },
    {
+    "id": "1.07#2",
+    "text": "Bánh sinh nhật đã thắp nến, bạn bè đã tề tựu đông đủ nhưng bóng dáng của cô ấy vẫn bặt vô âm tín.",
+    "words": 24
+   },
+   {
+    "id": "1.07#3",
+    "text": "Ban đầu, ai cũng tự an ủi rằng có thể Colleen chỉ bị lỡ một chuyến xe dọc đường hoặc đổi ý quay về nhà.",
+    "words": 25
+   },
+   {
+    "id": "1.07#4",
+    "text": "Nhưng một ngày, rồi một tuần, rồi một tháng trôi qua trong nỗi tuyệt vọng câm lặng.",
+    "words": 17
+   },
+   {
     "id": "1.07#5",
-    "text": "Chúng tôi cùng nhau in hàng nghìn tờ rơi, dán kín các trạm xăng và bến xe dọc tuyến Quốc lộ 99.",
-    "words": 22
-   },
-   {
-    "id": "1.07#6",
-    "text": "Nhưng không một manh mối, không một cuộc gọi tống tiền, không một vết tích.",
-    "words": 15
-   },
-   {
-    "id": "1.07#7",
-    "text": "Colleen như thể đã bốc hơi hoàn toàn khỏi mặt đất giữa ban ngày.",
-    "words": 14
+    "text": "Một con người bằng xương bằng thịt bỗng chốc như tan biến hoàn toàn khỏi mặt đất, để lại nỗi hoang mang tột cùng cho gia đình và bè bạn.",
+    "words": 30
    }
   ]
  },
@@ -176,7 +176,7 @@
   "id": "1.08",
   "act": 1,
   "kind": "SFX",
-  "desc": "*Tiếng còi cảnh sát vang vọng xa xăm, tiếng lật giấy tờ hồ sơ vội vã.*"
+  "desc": "Tiếng còi cảnh sát vang vọng xa xăm, tiếng lật giấy tờ hồ sơ vội vã."
  },
  {
   "id": "1.09",
@@ -184,17 +184,32 @@
   "kind": "LOI",
   "role": "H",
   "direction": "trầm giọng",
-  "text": "Sau hơn hai giờ di chuyển bình lặng, khi chiếc xe chạy qua thị trấn Red Bluff thuộc bang California, người tài xế đột ngột bẻ lái rẽ vào một con đường mòn heo hút trong rừng. Vỏ bọc ấm áp của người cha mẫu mực lập tức rơi rụng, để lộ ra gương mặt của một kẻ săn mồi máu lạnh.",
+  "text": "Không lâu sau khi xe lăn bánh, người tài xế đột ngột rẽ vào một con đường mòn hoang vắng trong cánh rừng hẻo lánh. Vỏ bọc ấm áp của người cha gia đình mẫu mực lập tức rơi rụng, để lộ ra gương mặt của một kẻ săn mồi lạnh lùng. Hắn dùng hung khí khống chế Colleen, tước đoạt toàn bộ khả năng phản kháng và cô lập cô với thế giới bên ngoài. Bức màn đen tối chính thức buông xuống cuộc đời của cô gái trẻ. Một cuộc giam cầm kỳ quặc bậc nhất bắt đầu được thiết lập từng bước một.",
   "sentences": [
    {
     "id": "1.09#1",
-    "text": "Sau hơn hai giờ di chuyển bình lặng, khi chiếc xe chạy qua thị trấn Red Bluff thuộc bang California, người tài xế đột ngột bẻ lái rẽ vào một con đường mòn heo hút trong rừng.",
-    "words": 37
+    "text": "Không lâu sau khi xe lăn bánh, người tài xế đột ngột rẽ vào một con đường mòn hoang vắng trong cánh rừng hẻo lánh.",
+    "words": 25
    },
    {
     "id": "1.09#2",
-    "text": "Vỏ bọc ấm áp của người cha mẫu mực lập tức rơi rụng, để lộ ra gương mặt của một kẻ săn mồi máu lạnh.",
-    "words": 25
+    "text": "Vỏ bọc ấm áp của người cha gia đình mẫu mực lập tức rơi rụng, để lộ ra gương mặt của một kẻ săn mồi lạnh lùng.",
+    "words": 27
+   },
+   {
+    "id": "1.09#3",
+    "text": "Hắn dùng hung khí khống chế Colleen, tước đoạt toàn bộ khả năng phản kháng và cô lập cô với thế giới bên ngoài.",
+    "words": 24
+   },
+   {
+    "id": "1.09#4",
+    "text": "Bức màn đen tối chính thức buông xuống cuộc đời của cô gái trẻ.",
+    "words": 14
+   },
+   {
+    "id": "1.09#5",
+    "text": "Một cuộc giam cầm kỳ quặc bậc nhất bắt đầu được thiết lập từng bước một.",
+    "words": 16
    }
   ]
  },
@@ -204,42 +219,37 @@
   "kind": "LOI",
   "role": "D",
   "direction": "giọng nam sắc bén, tái hiện hiện trường",
-  "text": "Kẻ cầm lái là Cameron Hooker, hai mươi ba tuổi, làm việc tại một xưởng cưa địa phương. Hắn bất ngờ rút dao khống chế Colleen, bịt miệng và trói chặt hai tay cô ra sau lưng. Ngay sau đó, hắn chụp lên đầu nạn nhân một chiếc hộp gỗ nặng gần mười ký được đóng kín như một chiếc mũ sắt cách âm hoàn toàn. Chiếc hộp có lớp lót mút xốp dày đặc, chỉ chừa những lỗ thông hơi nhỏ xíu. Toàn bộ ánh sáng và âm thanh của thế giới bên ngoài lập tức bị dập tắt. Điều rùng rợn là chiếc hộp này đã được Hooker kỳ công chế tạo từ nhiều tháng trước, chứng minh hành vi bắt cóc đã được lên kế hoạch vô cùng tỉ mỉ. Địa hình rừng thông rậm rạp và những cung đường mòn hoang vắng tại Red Bluff đã trở thành bình phong lý tưởng để hắn che giấu tội ác.",
+  "text": "Kẻ cầm lái là Cameron Hooker, hai mươi ba tuổi, làm việc tại một xưởng cưa địa phương ở Red Bluff. Ngay sau khi khống chế nạn nhân, Hooker đã bộc lộ một hành vi mang tính “Chữ ký tâm lý” vô cùng bệnh hoạn. Hắn trùm lên đầu Colleen một chiếc hộp gỗ cách âm có lót mút xốp dày được chế tạo công phu từ trước. Chiếc hộp trùm đầu này nặng gần chín ký, cắt đứt hoàn toàn mọi ánh sáng và âm thanh của thế giới bên ngoài. Việc chế tạo chiếc hộp từ nhiều tháng trước chứng minh đây không phải một hành vi bộc phát nhất thời. Đó là một kế hoạch săn mồi được toan tính tỉ mỉ, đánh dấu “Ngòi nổ và điểm gãy tâm lý” khi ảo tưởng thống trị chuyển hóa thành hành động thực tế.",
   "sentences": [
    {
     "id": "1.10#1",
-    "text": "Kẻ cầm lái là Cameron Hooker, hai mươi ba tuổi, làm việc tại một xưởng cưa địa phương.",
-    "words": 18
+    "text": "Kẻ cầm lái là Cameron Hooker, hai mươi ba tuổi, làm việc tại một xưởng cưa địa phương ở Red Bluff.",
+    "words": 21
    },
    {
     "id": "1.10#2",
-    "text": "Hắn bất ngờ rút dao khống chế Colleen, bịt miệng và trói chặt hai tay cô ra sau lưng.",
-    "words": 19
+    "text": "Ngay sau khi khống chế nạn nhân, Hooker đã bộc lộ một hành vi mang tính “Chữ ký tâm lý” vô cùng bệnh hoạn.",
+    "words": 24
    },
    {
     "id": "1.10#3",
-    "text": "Ngay sau đó, hắn chụp lên đầu nạn nhân một chiếc hộp gỗ nặng gần mười ký được đóng kín như một chiếc mũ sắt cách âm hoàn toàn.",
-    "words": 29
+    "text": "Hắn trùm lên đầu Colleen một chiếc hộp gỗ cách âm có lót mút xốp dày được chế tạo công phu từ trước.",
+    "words": 23
    },
    {
     "id": "1.10#4",
-    "text": "Chiếc hộp có lớp lót mút xốp dày đặc, chỉ chừa những lỗ thông hơi nhỏ xíu.",
-    "words": 17
+    "text": "Chiếc hộp trùm đầu này nặng gần chín ký, cắt đứt hoàn toàn mọi ánh sáng và âm thanh của thế giới bên ngoài.",
+    "words": 24
    },
    {
     "id": "1.10#5",
-    "text": "Toàn bộ ánh sáng và âm thanh của thế giới bên ngoài lập tức bị dập tắt.",
-    "words": 17
+    "text": "Việc chế tạo chiếc hộp từ nhiều tháng trước chứng minh đây không phải một hành vi bộc phát nhất thời.",
+    "words": 21
    },
    {
     "id": "1.10#6",
-    "text": "Điều rùng rợn là chiếc hộp này đã được Hooker kỳ công chế tạo từ nhiều tháng trước, chứng minh hành vi bắt cóc đã được lên kế hoạch vô cùng tỉ mỉ.",
+    "text": "Đó là một kế hoạch săn mồi được toan tính tỉ mỉ, đánh dấu “Ngòi nổ và điểm gãy tâm lý” khi ảo tưởng thống trị chuyển hóa thành hành động thực tế.",
     "words": 33
-   },
-   {
-    "id": "1.10#7",
-    "text": "Địa hình rừng thông rậm rạp và những cung đường mòn hoang vắng tại Red Bluff đã trở thành bình phong lý tưởng để hắn che giấu tội ác.",
-    "words": 29
    }
   ]
  },
@@ -249,12 +259,12 @@
   "kind": "LOI",
   "role": "H",
   "direction": "khép lại Hồi 1",
-  "text": "Colleen Stan bị đưa về một căn nhà gỗ biệt lập tại Red Bluff. Tại đây, cô bị nhốt vào một chiếc hộp gỗ hẹp đóng kín, đặt lọt thỏm dưới gầm giường ngủ của hai vợ chồng kẻ bắt cóc. Bảy năm đằng đẵng bị giam cầm trong bóng tối bắt đầu, mở ra một trong những vụ án kỳ lạ và chấn động nhất lịch sử tâm lý học tội phạm hiện đại.",
+  "text": "Colleen Stan bị đưa về một căn nhà gỗ biệt lập của hai vợ chồng Hooker tại Red Bluff. Tại đây, cô bị nhốt vào một chiếc hộp gỗ hẹp đóng kín, đặt lọt thỏm dưới gầm giường ngủ của hai vợ chồng kẻ bắt cóc. Bảy năm đằng đẵng bị giam cầm trong bóng tối bắt đầu từ giây phút định mệnh ấy. Một hành trình chịu đựng phi thường trước sự tước đoạt nhân phẩm chính thức mở ra. Dư chấn của vụ án này về sau đã làm rúng động toàn bộ nền tư pháp và xã hội hiện đại.",
   "sentences": [
    {
     "id": "1.11#1",
-    "text": "Colleen Stan bị đưa về một căn nhà gỗ biệt lập tại Red Bluff.",
-    "words": 14
+    "text": "Colleen Stan bị đưa về một căn nhà gỗ biệt lập của hai vợ chồng Hooker tại Red Bluff.",
+    "words": 19
    },
    {
     "id": "1.11#2",
@@ -263,8 +273,18 @@
    },
    {
     "id": "1.11#3",
-    "text": "Bảy năm đằng đẵng bị giam cầm trong bóng tối bắt đầu, mở ra một trong những vụ án kỳ lạ và chấn động nhất lịch sử tâm lý học tội phạm hiện đại.",
-    "words": 34
+    "text": "Bảy năm đằng đẵng bị giam cầm trong bóng tối bắt đầu từ giây phút định mệnh ấy.",
+    "words": 18
+   },
+   {
+    "id": "1.11#4",
+    "text": "Một hành trình chịu đựng phi thường trước sự tước đoạt nhân phẩm chính thức mở ra.",
+    "words": 17
+   },
+   {
+    "id": "1.11#5",
+    "text": "Dư chấn của vụ án này về sau đã làm rúng động toàn bộ nền tư pháp và xã hội hiện đại.",
+    "words": 22
    }
   ]
  },
@@ -272,13 +292,13 @@
   "id": "1.12",
   "act": 1,
   "kind": "BGM",
-  "desc": "*Một nốt cello trầm đục ngân dài rồi chìm vào khoảng không im lặng đến nghẹt thở.*"
+  "desc": "Một nốt cello trầm đục ngân dài rồi chìm vào khoảng không im lặng đến nghẹt thở."
  },
  {
   "id": "2.01",
   "act": 2,
   "kind": "BGM",
-  "desc": "*Âm thanh Dark Ambient lạnh lẽo, tiếng kim đồng hồ tích tắc chậm rãi như đếm từng giây vô vọng.*"
+  "desc": "Âm thanh Dark Ambient lạnh lẽo, tiếng kim đồng hồ tích tắc chậm rãi như đếm từng giây vô vọng giữa căn phòng cô đặc bóng tối."
  },
  {
   "id": "2.02",
@@ -286,27 +306,32 @@
   "kind": "LOI",
   "role": "H",
   "direction": "giọng hồi hộp dẫn dắt",
-  "text": "Hãy thử tưởng tượng bạn bị nhốt vào một chiếc hộp gỗ có kích thước tương đương một cỗ quan tài, dài chưa đầy hai mét và chiều cao chỉ vừa đủ để bạn nằm thẳng lưng. Không có ánh sáng, không có không khí lưu thông tự nhiên, và xung quanh chỉ là sự cô đặc của bóng tối. Không gian chật hẹp đến mức ngay cả việc trở mình hay duỗi thẳng các khớp ngón tay cũng là một cực hình đau đớn. Đó chính là thực tại tàn khốc mà Colleen Stan phải đối mặt suốt hai mươi ba giờ mỗi ngày trong suốt nhiều năm trời.",
+  "text": "Hãy thử nhắm mắt lại và hình dung bạn bị nhốt chặt trong một chiếc hộp gỗ có kích thước tương đương một cỗ quan tài. Chiếc hộp dài chưa đầy hai mét và chiều cao chỉ vừa đủ để một cơ thể người nằm thẳng lưng mà không thể ngồi dậy. Hoàn toàn không có ánh sáng mặt trời, không có dưỡng khí lưu thông tự nhiên, chỉ có mùi gỗ ván ép và bóng tối đặc quánh. Không gian chật chội đến mức ngay cả việc xoay mình hay co duỗi các khớp xương cũng trở thành một cực hình đau đớn. Đó chính là thực tại nghiệt ngã mà Colleen Stan phải gánh chịu suốt hai mươi ba giờ mỗi ngày trong suốt hơn hai nghìn sáu trăm ngày liên tiếp.",
   "sentences": [
    {
     "id": "2.02#1",
-    "text": "Hãy thử tưởng tượng bạn bị nhốt vào một chiếc hộp gỗ có kích thước tương đương một cỗ quan tài, dài chưa đầy hai mét và chiều cao chỉ vừa đủ để bạn nằm thẳng lưng.",
-    "words": 37
+    "text": "Hãy thử nhắm mắt lại và hình dung bạn bị nhốt chặt trong một chiếc hộp gỗ có kích thước tương đương một cỗ quan tài.",
+    "words": 26
    },
    {
     "id": "2.02#2",
-    "text": "Không có ánh sáng, không có không khí lưu thông tự nhiên, và xung quanh chỉ là sự cô đặc của bóng tối.",
-    "words": 23
+    "text": "Chiếc hộp dài chưa đầy hai mét và chiều cao chỉ vừa đủ để một cơ thể người nằm thẳng lưng mà không thể ngồi dậy.",
+    "words": 26
    },
    {
     "id": "2.02#3",
-    "text": "Không gian chật hẹp đến mức ngay cả việc trở mình hay duỗi thẳng các khớp ngón tay cũng là một cực hình đau đớn.",
-    "words": 25
+    "text": "Hoàn toàn không có ánh sáng mặt trời, không có dưỡng khí lưu thông tự nhiên, chỉ có mùi gỗ ván ép và bóng tối đặc quánh.",
+    "words": 27
    },
    {
     "id": "2.02#4",
-    "text": "Đó chính là thực tại tàn khốc mà Colleen Stan phải đối mặt suốt hai mươi ba giờ mỗi ngày trong suốt nhiều năm trời.",
+    "text": "Không gian chật chội đến mức ngay cả việc xoay mình hay co duỗi các khớp xương cũng trở thành một cực hình đau đớn.",
     "words": 25
+   },
+   {
+    "id": "2.02#5",
+    "text": "Đó chính là thực tại nghiệt ngã mà Colleen Stan phải gánh chịu suốt hai mươi ba giờ mỗi ngày trong suốt hơn hai nghìn sáu trăm ngày liên tiếp.",
+    "words": 30
    }
   ]
  },
@@ -314,7 +339,7 @@
   "id": "2.03",
   "act": 2,
   "kind": "SFX",
-  "desc": "*Tiếng nắp gỗ nặng nề sập xuống, tiếng then cài sắt khóa rít chói tai.*"
+  "desc": "Tiếng nắp gỗ nặng nề sập xuống, tiếng then cài sắt khóa rít chói tai."
  },
  {
   "id": "2.04",
@@ -322,32 +347,37 @@
   "kind": "LOI",
   "role": "D",
   "direction": "mô tả cấu trúc nhà tù dưới gầm giường",
-  "text": "Chiếc hộp gỗ được Cameron Hooker tự tay đóng bằng ván ép chịu lực dày dặn. Hắn giấu nó bên dưới chiếc giường đệm nước cồng kềnh trong phòng ngủ của mình. Sức nặng của chiếc đệm nước phía trên khiến việc nạn nhân tự đẩy nắp hộp từ bên trong là điều hoàn toàn bất khả thi. Hắn còn gắn thêm những chiếc then sắt kiên cố bên ngoài để ngăn chặn mọi nỗ lực cào cấu của nạn nhân. Mỗi ngày, Colleen chỉ được phép rời khỏi hộp khoảng một giờ đồng hồ để làm những công việc nội trợ nặng nhọc hoặc chịu sự hành hạ dưới sự giám sát nghiêm ngặt của Hooker.",
+  "text": "Chiếc hộp gỗ giam giữ nạn nhân do chính Cameron Hooker tự tay thiết kế và cưa lắp bằng những tấm ván ép chịu lực dày dặn. Hắn giấu chiếc hộp này ngay bên dưới chiếc giường đệm nước cồng kềnh trong phòng ngủ của mình. Trọng lượng khổng lồ của đệm nước phía trên khiến việc nạn nhân tự đẩy nắp hộp từ bên trong là điều hoàn toàn bất khả thi. Hắn thiết lập một cơ chế kiểm soát thể xác tuyệt đối: Colleen chỉ được phép rời khỏi hộp trong khoảng thời gian ngắn mỗi ngày để làm việc nhà dưới sự giám sát nghiêm ngặt. Phân tích hành vi hiện trường cho thấy đây là biểu hiện điển hình của “Thủ đoạn gây án” kết hợp “Chữ ký tâm lý”. Hắn biến không gian riêng tư của gia đình thành một nhà tù ngầm kiên cố không thể xuyên thủng.",
   "sentences": [
    {
     "id": "2.04#1",
-    "text": "Chiếc hộp gỗ được Cameron Hooker tự tay đóng bằng ván ép chịu lực dày dặn.",
-    "words": 16
+    "text": "Chiếc hộp gỗ giam giữ nạn nhân do chính Cameron Hooker tự tay thiết kế và cưa lắp bằng những tấm ván ép chịu lực dày dặn.",
+    "words": 27
    },
    {
     "id": "2.04#2",
-    "text": "Hắn giấu nó bên dưới chiếc giường đệm nước cồng kềnh trong phòng ngủ của mình.",
-    "words": 16
+    "text": "Hắn giấu chiếc hộp này ngay bên dưới chiếc giường đệm nước cồng kềnh trong phòng ngủ của mình.",
+    "words": 19
    },
    {
     "id": "2.04#3",
-    "text": "Sức nặng của chiếc đệm nước phía trên khiến việc nạn nhân tự đẩy nắp hộp từ bên trong là điều hoàn toàn bất khả thi.",
-    "words": 26
+    "text": "Trọng lượng khổng lồ của đệm nước phía trên khiến việc nạn nhân tự đẩy nắp hộp từ bên trong là điều hoàn toàn bất khả thi.",
+    "words": 27
    },
    {
     "id": "2.04#4",
-    "text": "Hắn còn gắn thêm những chiếc then sắt kiên cố bên ngoài để ngăn chặn mọi nỗ lực cào cấu của nạn nhân.",
-    "words": 23
+    "text": "Hắn thiết lập một cơ chế kiểm soát thể xác tuyệt đối: Colleen chỉ được phép rời khỏi hộp trong khoảng thời gian ngắn mỗi ngày để làm việc nhà dưới sự giám sát nghiêm ngặt.",
+    "words": 36
    },
    {
     "id": "2.04#5",
-    "text": "Mỗi ngày, Colleen chỉ được phép rời khỏi hộp khoảng một giờ đồng hồ để làm những công việc nội trợ nặng nhọc hoặc chịu sự hành hạ dưới sự giám sát nghiêm ngặt của Hooker.",
-    "words": 36
+    "text": "Phân tích hành vi hiện trường cho thấy đây là biểu hiện điển hình của “Thủ đoạn gây án” kết hợp “Chữ ký tâm lý”.",
+    "words": 25
+   },
+   {
+    "id": "2.04#6",
+    "text": "Hắn biến không gian riêng tư của gia đình thành một nhà tù ngầm kiên cố không thể xuyên thủng.",
+    "words": 20
    }
   ]
  },
@@ -357,32 +387,32 @@
   "kind": "LOI",
   "role": "H",
   "direction": "phác họa chân dung kẻ thủ ác",
-  "text": "Cameron Hooker không phải là một kẻ điên loạn mất kiểm soát ngoài xã hội. Trong mắt đồng nghiệp tại xưởng cưa và những người hàng xóm lân cận, hắn là một thanh niên trầm tính, chăm chỉ và yêu thương gia đình. Hắn thậm chí còn thường xuyên tham gia các hoạt động cộng đồng và giúp đỡ mọi người xung quanh mà không đòi hỏi đền đáp. Nhưng ẩn sâu bên dưới vỏ bọc bình thường ấy là một tâm lý lệch lạc quyền lực cực đoan. Hắn khao khát được kiểm soát và thống trị hoàn toàn một sinh mạng khác.",
+  "text": "Ở ngoài xã hội, Cameron Hooker không hề có biểu hiện của một kẻ điên loạn mất tự chủ. Trong mắt những người đồng nghiệp tại xưởng cưa và láng giềng xung quanh, hắn là một công nhân trầm lặng, cần mẫn và yêu thương gia đình. Hắn chưa từng có tiền án bạo lực nghiêm trọng nào trước khi vụ án bị phanh phui. Thế nhưng, bên dưới vỏ bọc bình lặng ấy là một “Quỹ đạo leo thang của ảo tưởng” vô cùng nguy hiểm. Cơn đói quyền lực và ám ảnh bệnh hoạn về việc sở hữu trọn vẹn một sinh mạng khác đã âm ỉ thiêu đốt tâm trí hắn suốt nhiều năm.",
   "sentences": [
    {
     "id": "2.05#1",
-    "text": "Cameron Hooker không phải là một kẻ điên loạn mất kiểm soát ngoài xã hội.",
-    "words": 15
+    "text": "Ở ngoài xã hội, Cameron Hooker không hề có biểu hiện của một kẻ điên loạn mất tự chủ.",
+    "words": 19
    },
    {
     "id": "2.05#2",
-    "text": "Trong mắt đồng nghiệp tại xưởng cưa và những người hàng xóm lân cận, hắn là một thanh niên trầm tính, chăm chỉ và yêu thương gia đình.",
+    "text": "Trong mắt những người đồng nghiệp tại xưởng cưa và láng giềng xung quanh, hắn là một công nhân trầm lặng, cần mẫn và yêu thương gia đình.",
     "words": 28
    },
    {
     "id": "2.05#3",
-    "text": "Hắn thậm chí còn thường xuyên tham gia các hoạt động cộng đồng và giúp đỡ mọi người xung quanh mà không đòi hỏi đền đáp.",
-    "words": 26
+    "text": "Hắn chưa từng có tiền án bạo lực nghiêm trọng nào trước khi vụ án bị phanh phui.",
+    "words": 18
    },
    {
     "id": "2.05#4",
-    "text": "Nhưng ẩn sâu bên dưới vỏ bọc bình thường ấy là một tâm lý lệch lạc quyền lực cực đoan.",
-    "words": 20
+    "text": "Thế nhưng, bên dưới vỏ bọc bình lặng ấy là một “Quỹ đạo leo thang của ảo tưởng” vô cùng nguy hiểm.",
+    "words": 22
    },
    {
     "id": "2.05#5",
-    "text": "Hắn khao khát được kiểm soát và thống trị hoàn toàn một sinh mạng khác.",
-    "words": 15
+    "text": "Cơn đói quyền lực và ám ảnh bệnh hoạn về việc sở hữu trọn vẹn một sinh mạng khác đã âm ỉ thiêu đốt tâm trí hắn suốt nhiều năm.",
+    "words": 30
    }
   ]
  },
@@ -392,37 +422,42 @@
   "kind": "LOI",
   "role": "C",
   "direction": "phân tích hiệu ứng tước đoạt cảm giác",
-  "text": "Việc giam giữ một con người trong bóng tối và không gian chật hẹp suốt thời gian dài được tâm lý học gọi là Hội chứng Tước đoạt Cảm giác cực hạn. Khi não bộ bị cắt đứt khỏi các kích thích thị giác, thính giác và xúc giác thông thường, ranh giới về thời gian hoàn toàn sụp đổ. Nạn nhân không còn phân biệt được đâu là ngày, đâu là đêm, đâu là thực tại và đâu là ảo giác. Hiện tượng mất phương hướng này dần phá hủy hệ thống tự vệ tự nhiên, khiến tâm trí rơi vào trạng thái tê liệt cảm xúc. Để giữ cho mình không phát điên trong chiếc hộp kín, Colleen đã phải tự nhẩm đi nhẩm lại những bài thơ thời thơ ấu, đọc thuộc lòng các đoạn kinh thánh và đếm từng nhịp thở của chính mình. Trí tưởng tượng phong phú chính là thành trì cuối cùng giúp cô giữ vững phần nhân tính mong manh trước sự vây hãm của bóng tối.",
+  "text": "Dưới góc độ tâm lý học hành vi, việc giam giữ một con người trong bóng tối và không gian hẹp suốt thời gian dài dẫn tới hiện tượng “Tước đoạt cảm giác cực hạn”. Khi não bộ bị cô lập hoàn toàn khỏi các kích thích giác quan thông thường, khái niệm về thời gian và không gian sẽ hoàn toàn tan rã. Nạn nhân nhanh chóng mất phương hướng, không thể phân định đâu là ngày, đâu là đêm, đâu là thực tại và đâu là ảo giác. Tình trạng kiệt quệ cảm giác này đánh sập hệ thống phòng vệ tâm lý tự nhiên của con người. Đồng thời, nó phản ánh cơ chế “Vật hóa và Phi nhân hóa” nạn nhân ở mức độ tàn bạo nhất. Hung thủ hoàn toàn khuyết tật “Thuyết tâm trí” và thiếu hụt khả năng thấu cảm cảm xúc. Hắn không nhìn nhận Colleen như một con người có tri giác và nỗi đau, mà giáng cấp cô thành một món đồ chơi độc quyền phục vụ cơn khoái cảm quyền lực của mình.",
   "sentences": [
    {
     "id": "2.06#1",
-    "text": "Việc giam giữ một con người trong bóng tối và không gian chật hẹp suốt thời gian dài được tâm lý học gọi là Hội chứng Tước đoạt Cảm giác cực hạn.",
-    "words": 32
+    "text": "Dưới góc độ tâm lý học hành vi, việc giam giữ một con người trong bóng tối và không gian hẹp suốt thời gian dài dẫn tới hiện tượng “Tước đoạt cảm giác cực hạn”.",
+    "words": 35
    },
    {
     "id": "2.06#2",
-    "text": "Khi não bộ bị cắt đứt khỏi các kích thích thị giác, thính giác và xúc giác thông thường, ranh giới về thời gian hoàn toàn sụp đổ.",
-    "words": 28
+    "text": "Khi não bộ bị cô lập hoàn toàn khỏi các kích thích giác quan thông thường, khái niệm về thời gian và không gian sẽ hoàn toàn tan rã.",
+    "words": 29
    },
    {
     "id": "2.06#3",
-    "text": "Nạn nhân không còn phân biệt được đâu là ngày, đâu là đêm, đâu là thực tại và đâu là ảo giác.",
-    "words": 22
-   },
-   {
-    "id": "2.06#4",
-    "text": "Hiện tượng mất phương hướng này dần phá hủy hệ thống tự vệ tự nhiên, khiến tâm trí rơi vào trạng thái tê liệt cảm xúc.",
+    "text": "Nạn nhân nhanh chóng mất phương hướng, không thể phân định đâu là ngày, đâu là đêm, đâu là thực tại và đâu là ảo giác.",
     "words": 26
    },
    {
+    "id": "2.06#4",
+    "text": "Tình trạng kiệt quệ cảm giác này đánh sập hệ thống phòng vệ tâm lý tự nhiên của con người.",
+    "words": 20
+   },
+   {
     "id": "2.06#5",
-    "text": "Để giữ cho mình không phát điên trong chiếc hộp kín, Colleen đã phải tự nhẩm đi nhẩm lại những bài thơ thời thơ ấu, đọc thuộc lòng các đoạn kinh thánh và đếm từng nhịp thở của chính mình.",
-    "words": 40
+    "text": "Đồng thời, nó phản ánh cơ chế “Vật hóa và Phi nhân hóa” nạn nhân ở mức độ tàn bạo nhất.",
+    "words": 21
    },
    {
     "id": "2.06#6",
-    "text": "Trí tưởng tượng phong phú chính là thành trì cuối cùng giúp cô giữ vững phần nhân tính mong manh trước sự vây hãm của bóng tối.",
-    "words": 27
+    "text": "Hung thủ hoàn toàn khuyết tật “Thuyết tâm trí” và thiếu hụt khả năng thấu cảm cảm xúc.",
+    "words": 18
+   },
+   {
+    "id": "2.06#7",
+    "text": "Hắn không nhìn nhận Colleen như một con người có tri giác và nỗi đau, mà giáng cấp cô thành một món đồ chơi độc quyền phục vụ cơn khoái cảm quyền lực của mình.",
+    "words": 35
    }
   ]
  },
@@ -432,17 +467,27 @@
   "kind": "LOI",
   "role": "H",
   "direction": "tiếp tục mạch tự sự",
-  "text": "Thế nhưng, sự giam cầm về thể xác chỉ là một nửa chiếc bẫy của Cameron Hooker. Để biến Colleen thành một tù nhân ngoan ngoãn vĩnh viễn mà không bao giờ dám nghĩ đến chuyện trốn chạy, hắn đã tạo ra một bóng ma tâm lý vô cùng tinh vi mang tên The Company.",
+  "text": "Sự giam cầm về thể xác dù tàn khốc đến đâu cũng mới chỉ là một nửa chiếc bẫy mà Cameron Hooker tạo ra. Để biến Colleen thành một tù nhân ngoan ngoãn vĩnh viễn mà không bao giờ dám khởi phát ý định trốn chạy, hắn đã dệt nên một chiếc lồng giam tâm lý vô hình. Một bóng ma thao túng tinh vi mang tên “The Company”. Đó là một đòn thao túng tâm lý bậc thầy nhằm biến nỗi sợ hãi mơ hồ thành xiềng xích vĩnh cửu.",
   "sentences": [
    {
     "id": "2.07#1",
-    "text": "Thế nhưng, sự giam cầm về thể xác chỉ là một nửa chiếc bẫy của Cameron Hooker.",
-    "words": 17
+    "text": "Sự giam cầm về thể xác dù tàn khốc đến đâu cũng mới chỉ là một nửa chiếc bẫy mà Cameron Hooker tạo ra.",
+    "words": 24
    },
    {
     "id": "2.07#2",
-    "text": "Để biến Colleen thành một tù nhân ngoan ngoãn vĩnh viễn mà không bao giờ dám nghĩ đến chuyện trốn chạy, hắn đã tạo ra một bóng ma tâm lý vô cùng tinh vi mang tên The Company.",
-    "words": 38
+    "text": "Để biến Colleen thành một tù nhân ngoan ngoãn vĩnh viễn mà không bao giờ dám khởi phát ý định trốn chạy, hắn đã dệt nên một chiếc lồng giam tâm lý vô hình.",
+    "words": 34
+   },
+   {
+    "id": "2.07#3",
+    "text": "Một bóng ma thao túng tinh vi mang tên “The Company”.",
+    "words": 11
+   },
+   {
+    "id": "2.07#4",
+    "text": "Đó là một đòn thao túng tâm lý bậc thầy nhằm biến nỗi sợ hãi mơ hồ thành xiềng xích vĩnh cửu.",
+    "words": 22
    }
   ]
  },
@@ -452,27 +497,37 @@
   "kind": "LOI",
   "role": "D",
   "direction": "giải thích bẫy thao túng The Company",
-  "text": "Hooker thêu dệt nên một câu chuyện giả tưởng rùng rợn. Hắn khẳng định với Colleen rằng hắn chỉ là một mắt xích nhỏ trong một tổ chức tội phạm ngầm quy mô toàn quốc có tên là The Company. Hắn nói rằng tổ chức này có hàng nghìn đặc vụ ngầm cài cắm ở khắp mọi nơi, từ lực lượng cảnh sát cho đến các cơ quan chính quyền. Nếu Colleen tìm cách bỏ trốn hoặc hé răng nói với bất kỳ ai, tổ chức The Company sẽ lập tức cử sát thủ đến thanh trừng và thiêu rụi toàn bộ gia đình cha mẹ cô.",
+  "text": "Hooker thêu dệt nên một câu chuyện giả tưởng có quy mô toàn quốc về một tổ chức tội phạm ngầm bí ẩn mang tên “The Company”. Hắn tuyên bố với Colleen rằng tổ chức này có hàng nghìn đặc vụ ngầm cài cắm ở khắp mọi nơi, từ lực lượng cảnh sát cho đến các cơ quan chính quyền bang California. Hắn đe dọa rằng mọi nhất cử nhất động của cô đều nằm dưới tầm ngắm của các đặc vụ vô hình. Nếu cô tìm cách trốn chạy hoặc hé lộ sự thật với bất kỳ ai, tổ chức sẽ lập tức săn lùng và trừng phạt cả gia đình cha mẹ cô. Đỉnh điểm của sự kiểm soát tâm lý diễn ra vào tháng 1 năm 1978. Hooker đã ép Colleen ký vào một “Bản hợp đồng nô lệ” bằng văn bản, buộc cô từ bỏ mọi quyền công dân để cam kết phục tùng hắn tuyệt đối.",
   "sentences": [
    {
     "id": "2.08#1",
-    "text": "Hooker thêu dệt nên một câu chuyện giả tưởng rùng rợn.",
-    "words": 11
+    "text": "Hooker thêu dệt nên một câu chuyện giả tưởng có quy mô toàn quốc về một tổ chức tội phạm ngầm bí ẩn mang tên “The Company”.",
+    "words": 27
    },
    {
     "id": "2.08#2",
-    "text": "Hắn khẳng định với Colleen rằng hắn chỉ là một mắt xích nhỏ trong một tổ chức tội phạm ngầm quy mô toàn quốc có tên là The Company.",
-    "words": 29
+    "text": "Hắn tuyên bố với Colleen rằng tổ chức này có hàng nghìn đặc vụ ngầm cài cắm ở khắp mọi nơi, từ lực lượng cảnh sát cho đến các cơ quan chính quyền bang California.",
+    "words": 35
    },
    {
     "id": "2.08#3",
-    "text": "Hắn nói rằng tổ chức này có hàng nghìn đặc vụ ngầm cài cắm ở khắp mọi nơi, từ lực lượng cảnh sát cho đến các cơ quan chính quyền.",
-    "words": 30
+    "text": "Hắn đe dọa rằng mọi nhất cử nhất động của cô đều nằm dưới tầm ngắm của các đặc vụ vô hình.",
+    "words": 22
    },
    {
     "id": "2.08#4",
-    "text": "Nếu Colleen tìm cách bỏ trốn hoặc hé răng nói với bất kỳ ai, tổ chức The Company sẽ lập tức cử sát thủ đến thanh trừng và thiêu rụi toàn bộ gia đình cha mẹ cô.",
-    "words": 37
+    "text": "Nếu cô tìm cách trốn chạy hoặc hé lộ sự thật với bất kỳ ai, tổ chức sẽ lập tức săn lùng và trừng phạt cả gia đình cha mẹ cô.",
+    "words": 31
+   },
+   {
+    "id": "2.08#5",
+    "text": "Đỉnh điểm của sự kiểm soát tâm lý diễn ra vào tháng 1 năm 1978.",
+    "words": 15
+   },
+   {
+    "id": "2.08#6",
+    "text": "Hooker đã ép Colleen ký vào một “Bản hợp đồng nô lệ” bằng văn bản, buộc cô từ bỏ mọi quyền công dân để cam kết phục tùng hắn tuyệt đối.",
+    "words": 31
    }
   ]
  },
@@ -482,27 +537,27 @@
   "kind": "LOI",
   "role": "H",
   "direction": "nhấn mạnh bản hợp đồng nô lệ",
-  "text": "Để khắc sâu nỗi kinh hoàng ấy vào tiềm thức nạn nhân, Hooker thậm chí còn soạn thảo một bản hợp đồng nô lệ bằng văn bản. Hắn ép Colleen phải ký tên cam kết từ bỏ mọi quyền con người, chấp nhận phục tùng tuyệt đối và xem hắn như một chủ nhân tối cao. Hắn quy định nghiêm ngặt rằng cô không bao giờ được phép nhìn thẳng vào mắt hắn hoặc tự ý phát ra âm thanh khi chưa có lệnh. Đối với một cô gái trẻ bị cô lập hoàn toàn với thế giới bên ngoài, bản hợp đồng ma quái ấy chính là bản án tử hình tinh thần giam lỏng linh hồn cô.",
+  "text": "Đối với một cô gái trẻ bị cắt đứt hoàn toàn với thực tại bên ngoài, bản hợp đồng quái đản ấy không chỉ là một tờ giấy vô nghĩa. Nó trở thành một bản án tâm lý khóa chặt tâm trí cô vào một lời thề nguyền bắt buộc. Nỗi sợ hãi đối với tổ chức “The Company” đã trở thành một thực tại thép kiên cố hơn bất kỳ chấn song nhà tù nào. Cô tin tuyệt đối rằng mọi sự phản kháng đều sẽ dẫn tới sự hủy diệt của những người thân yêu nhất.",
   "sentences": [
    {
     "id": "2.09#1",
-    "text": "Để khắc sâu nỗi kinh hoàng ấy vào tiềm thức nạn nhân, Hooker thậm chí còn soạn thảo một bản hợp đồng nô lệ bằng văn bản.",
-    "words": 27
+    "text": "Đối với một cô gái trẻ bị cắt đứt hoàn toàn với thực tại bên ngoài, bản hợp đồng quái đản ấy không chỉ là một tờ giấy vô nghĩa.",
+    "words": 30
    },
    {
     "id": "2.09#2",
-    "text": "Hắn ép Colleen phải ký tên cam kết từ bỏ mọi quyền con người, chấp nhận phục tùng tuyệt đối và xem hắn như một chủ nhân tối cao.",
-    "words": 29
+    "text": "Nó trở thành một bản án tâm lý khóa chặt tâm trí cô vào một lời thề nguyền bắt buộc.",
+    "words": 20
    },
    {
     "id": "2.09#3",
-    "text": "Hắn quy định nghiêm ngặt rằng cô không bao giờ được phép nhìn thẳng vào mắt hắn hoặc tự ý phát ra âm thanh khi chưa có lệnh.",
-    "words": 28
+    "text": "Nỗi sợ hãi đối với tổ chức “The Company” đã trở thành một thực tại thép kiên cố hơn bất kỳ chấn song nhà tù nào.",
+    "words": 26
    },
    {
     "id": "2.09#4",
-    "text": "Đối với một cô gái trẻ bị cô lập hoàn toàn với thế giới bên ngoài, bản hợp đồng ma quái ấy chính là bản án tử hình tinh thần giam lỏng linh hồn cô.",
-    "words": 35
+    "text": "Cô tin tuyệt đối rằng mọi sự phản kháng đều sẽ dẫn tới sự hủy diệt của những người thân yêu nhất.",
+    "words": 22
    }
   ]
  },
@@ -512,22 +567,32 @@
   "kind": "LOI",
   "role": "C",
   "direction": "đúc kết sự tê liệt nhận thức",
-  "text": "Bằng cách tạo ra một kẻ thù tưởng tượng nhưng mang sức mạnh toàn năng, kẻ thao túng đã tước đoạt hy vọng cuối cùng của nạn nhân. Colleen không còn dám tin vào bất kỳ ai, kể cả cảnh sát. Trong tâm trí cô, chiếc hộp gỗ dù tăm tối nhưng lại là nơi an toàn duy nhất giúp cha mẹ cô không bị tổ chức ngầm sát hại.",
+  "text": "Đây là một ví dụ điển hình về “Sự kiến tạo thực tại méo mó” thông qua cô lập thông tin. Bằng cách gieo rắc một kẻ thù tưởng tượng mang sức mạnh toàn năng, kẻ thao túng đã tước đoạt triệt để hy vọng cầu cứu của nạn nhân. Nạn nhân không còn dám tin tưởng vào bất kỳ ai, kể cả lực lượng thực thi pháp luật. Trong nhận thức bị thao túng của cô, chiếc hộp gỗ dù ngột ngạt và tăm tối lại biến thành nơi an toàn duy nhất để giữ cho gia đình mình được bình yên. Bản thân kẻ thủ ác lại được nhìn nhận như người trung gian duy nhất có thể bảo vệ cô khỏi sự trừng phạt của tổ chức ngầm.",
   "sentences": [
    {
     "id": "2.10#1",
-    "text": "Bằng cách tạo ra một kẻ thù tưởng tượng nhưng mang sức mạnh toàn năng, kẻ thao túng đã tước đoạt hy vọng cuối cùng của nạn nhân.",
-    "words": 28
+    "text": "Đây là một ví dụ điển hình về “Sự kiến tạo thực tại méo mó” thông qua cô lập thông tin.",
+    "words": 21
    },
    {
     "id": "2.10#2",
-    "text": "Colleen không còn dám tin vào bất kỳ ai, kể cả cảnh sát.",
-    "words": 13
+    "text": "Bằng cách gieo rắc một kẻ thù tưởng tượng mang sức mạnh toàn năng, kẻ thao túng đã tước đoạt triệt để hy vọng cầu cứu của nạn nhân.",
+    "words": 29
    },
    {
     "id": "2.10#3",
-    "text": "Trong tâm trí cô, chiếc hộp gỗ dù tăm tối nhưng lại là nơi an toàn duy nhất giúp cha mẹ cô không bị tổ chức ngầm sát hại.",
-    "words": 29
+    "text": "Nạn nhân không còn dám tin tưởng vào bất kỳ ai, kể cả lực lượng thực thi pháp luật.",
+    "words": 19
+   },
+   {
+    "id": "2.10#4",
+    "text": "Trong nhận thức bị thao túng của cô, chiếc hộp gỗ dù ngột ngạt và tăm tối lại biến thành nơi an toàn duy nhất để giữ cho gia đình mình được bình yên.",
+    "words": 34
+   },
+   {
+    "id": "2.10#5",
+    "text": "Bản thân kẻ thủ ác lại được nhìn nhận như người trung gian duy nhất có thể bảo vệ cô khỏi sự trừng phạt của tổ chức ngầm.",
+    "words": 28
    }
   ]
  },
@@ -537,17 +602,22 @@
   "kind": "LOI",
   "role": "H",
   "direction": "thắt lại Hồi 2",
-  "text": "Thời gian cứ thế trôi đi trong sự câm lặng tuyệt đối. Cho đến một ngày nọ, một biến cố kỳ lạ xảy ra đã làm đảo lộn mọi quy luật thông thường của các vụ bắt cóc trên thế giới.",
+  "text": "Năm tháng cứ thế lặng lẽ trôi qua trong căn phòng ngủ u tối ở Red Bluff. Chiếc hộp gỗ dưới gầm giường trở thành trung tâm của một thế giới bị lãng quên. Cho đến một ngày nọ, một biến cố không tưởng xảy ra, làm đảo lộn toàn bộ nhận thức thông thường về tâm lý nạn nhân bắt cóc.",
   "sentences": [
    {
     "id": "2.11#1",
-    "text": "Thời gian cứ thế trôi đi trong sự câm lặng tuyệt đối.",
-    "words": 12
+    "text": "Năm tháng cứ thế lặng lẽ trôi qua trong căn phòng ngủ u tối ở Red Bluff.",
+    "words": 17
    },
    {
     "id": "2.11#2",
-    "text": "Cho đến một ngày nọ, một biến cố kỳ lạ xảy ra đã làm đảo lộn mọi quy luật thông thường của các vụ bắt cóc trên thế giới.",
-    "words": 29
+    "text": "Chiếc hộp gỗ dưới gầm giường trở thành trung tâm của một thế giới bị lãng quên.",
+    "words": 17
+   },
+   {
+    "id": "2.11#3",
+    "text": "Cho đến một ngày nọ, một biến cố không tưởng xảy ra, làm đảo lộn toàn bộ nhận thức thông thường về tâm lý nạn nhân bắt cóc.",
+    "words": 28
    }
   ]
  },
@@ -555,14 +625,14 @@
   "id": "2.12",
   "act": 2,
   "kind": "NGHI",
-  "sec": 1.0,
-  "desc": "tiếng drone u uất kéo dài"
+  "sec": 1.5,
+  "desc": "Tiếng drone u uất kéo dài rồi tan biến"
  },
  {
   "id": "3.01",
   "act": 3,
   "kind": "BGM",
-  "desc": "*Âm nhạc chuyển sang tiếng Dương cầm tối giản, chậm rãi, mang màu sắc triết học và đầy tính tự vấn.*"
+  "desc": "Âm nhạc chuyển sang tiếng Dương cầm tối giản, chậm rãi, mang màu sắc triết học và đầy tính tự vấn về giới hạn tâm lý con người."
  },
  {
   "id": "3.02",
@@ -570,17 +640,27 @@
   "kind": "LOI",
   "role": "H",
   "direction": "đặt vấn đề gây chấn động",
-  "text": "Tháng 3 năm 1981, gần bốn năm sau ngày biến mất không dấu vết, một sự kiện không tưởng đã diễn ra. Cameron Hooker tự tin vào quyền lực kiểm soát tâm lý của mình đến mức, hắn quyết định đưa Colleen Stan trở về thăm gia đình tại thành phố Riverside, bang California.",
+  "text": "Vào năm 1981, gần bốn năm sau ngày biến mất không dấu vết, một sự kiện khó tin bậc nhất đã diễn ra trong hồ sơ vụ án. Cameron Hooker tự tin vào quyền lực thao túng tâm lý của mình đến mức, hắn quyết định đưa Colleen Stan về thăm gia đình ruột thịt tại Riverside, California. Cánh cửa tự do thực sự đã mở toang ngay trước mắt người phụ nữ sau nhiều năm trời bị giam cầm trong bóng tối. Nhưng diễn biến của cuộc hội ngộ ấy lại trở thành một câu hỏi hóc búa làm bàng hoàng toàn bộ giới tâm lý học pháp y.",
   "sentences": [
    {
     "id": "3.02#1",
-    "text": "Tháng 3 năm 1981, gần bốn năm sau ngày biến mất không dấu vết, một sự kiện không tưởng đã diễn ra.",
-    "words": 22
+    "text": "Vào năm 1981, gần bốn năm sau ngày biến mất không dấu vết, một sự kiện khó tin bậc nhất đã diễn ra trong hồ sơ vụ án.",
+    "words": 28
    },
    {
     "id": "3.02#2",
-    "text": "Cameron Hooker tự tin vào quyền lực kiểm soát tâm lý của mình đến mức, hắn quyết định đưa Colleen Stan trở về thăm gia đình tại thành phố Riverside, bang California.",
-    "words": 32
+    "text": "Cameron Hooker tự tin vào quyền lực thao túng tâm lý của mình đến mức, hắn quyết định đưa Colleen Stan về thăm gia đình ruột thịt tại Riverside, California.",
+    "words": 30
+   },
+   {
+    "id": "3.02#3",
+    "text": "Cánh cửa tự do thực sự đã mở toang ngay trước mắt người phụ nữ sau nhiều năm trời bị giam cầm trong bóng tối.",
+    "words": 25
+   },
+   {
+    "id": "3.02#4",
+    "text": "Nhưng diễn biến của cuộc hội ngộ ấy lại trở thành một câu hỏi hóc búa làm bàng hoàng toàn bộ giới tâm lý học pháp y.",
+    "words": 27
    }
   ]
  },
@@ -588,7 +668,7 @@
   "id": "3.03",
   "act": 3,
   "kind": "SFX",
-  "desc": "*Tiếng chuông cửa ngân vang, tiếng then cài mở khóa gấp gáp.*"
+  "desc": "Tiếng chuông cửa ngân vang, tiếng then cài mở khóa gấp gáp, tiếng nấc nghẹn ngào của cuộc hội ngộ."
  },
  {
   "id": "3.04",
@@ -596,37 +676,27 @@
   "kind": "LOI",
   "role": "H",
   "direction": "tái hiện cuộc hội ngộ nghẹt thở",
-  "text": "Hãy hình dung khoảnh khắc cánh cửa ngôi nhà cũ mở ra. Người cha, người mẹ từng khóc cạn nước mắt suốt bốn năm trời bỗng nhìn thấy đứa con gái mất tích bằng xương bằng thịt đứng ngay trước hiên nhà. Đi bên cạnh cô là Cameron Hooker, được Colleen giới thiệu như một người bạn trai quen biết tình cờ. Cameron đã tính toán từng chi tiết trong chuyến đi này như một vở kịch hoàn hảo. Hắn luôn xuất hiện với nụ cười lịch thiệp, chủ động phụ giúp việc nhà và tỏ ra là một người bạn trai chu đáo trước mặt cha mẹ cô. Họ ngồi cùng nhau trong phòng khách, chia sẻ bữa ăn gia đình và trò chuyện suốt nhiều giờ đồng hồ.",
+  "text": "Hãy tưởng tượng khoảnh khắc cánh cửa ngôi nhà cũ tại Riverside mở ra. Người cha, người mẹ từng khóc cạn nước mắt và tưởng như đã mất đi đứa con gái mãi mãi bỗng nhìn thấy Colleen bằng xương bằng thịt đứng ngay trước bậc thềm. Nhưng cô gái ngày nào giờ đây mang theo một ánh nhìn xa xăm, dè dặt và đầy e sợ. Ngày hôm sau, Cameron Hooker cũng xuất hiện tại ngôi nhà, đóng vai một người bạn trai lịch thiệp và ân cần của cô.",
   "sentences": [
    {
     "id": "3.04#1",
-    "text": "Hãy hình dung khoảnh khắc cánh cửa ngôi nhà cũ mở ra.",
-    "words": 12
+    "text": "Hãy tưởng tượng khoảnh khắc cánh cửa ngôi nhà cũ tại Riverside mở ra.",
+    "words": 14
    },
    {
     "id": "3.04#2",
-    "text": "Người cha, người mẹ từng khóc cạn nước mắt suốt bốn năm trời bỗng nhìn thấy đứa con gái mất tích bằng xương bằng thịt đứng ngay trước hiên nhà.",
-    "words": 30
+    "text": "Người cha, người mẹ từng khóc cạn nước mắt và tưởng như đã mất đi đứa con gái mãi mãi bỗng nhìn thấy Colleen bằng xương bằng thịt đứng ngay trước bậc thềm.",
+    "words": 33
    },
    {
     "id": "3.04#3",
-    "text": "Đi bên cạnh cô là Cameron Hooker, được Colleen giới thiệu như một người bạn trai quen biết tình cờ.",
+    "text": "Nhưng cô gái ngày nào giờ đây mang theo một ánh nhìn xa xăm, dè dặt và đầy e sợ.",
     "words": 20
    },
    {
     "id": "3.04#4",
-    "text": "Cameron đã tính toán từng chi tiết trong chuyến đi này như một vở kịch hoàn hảo.",
-    "words": 17
-   },
-   {
-    "id": "3.04#5",
-    "text": "Hắn luôn xuất hiện với nụ cười lịch thiệp, chủ động phụ giúp việc nhà và tỏ ra là một người bạn trai chu đáo trước mặt cha mẹ cô.",
-    "words": 30
-   },
-   {
-    "id": "3.04#6",
-    "text": "Họ ngồi cùng nhau trong phòng khách, chia sẻ bữa ăn gia đình và trò chuyện suốt nhiều giờ đồng hồ.",
-    "words": 21
+    "text": "Ngày hôm sau, Cameron Hooker cũng xuất hiện tại ngôi nhà, đóng vai một người bạn trai lịch thiệp và ân cần của cô.",
+    "words": 24
    }
   ]
  },
@@ -636,37 +706,37 @@
   "kind": "LOI",
   "role": "D",
   "direction": "nhấn mạnh chi tiết nghịch lý",
-  "text": "Trong suốt chuyến thăm kéo dài nhiều ngày ấy, Colleen đã có hàng chục cơ hội thuận lợi để trốn thoát hoặc phát tín hiệu cầu cứu. Cô từng ở một mình trong phòng tắm, có lúc đi dạo cùng người thân mà không có sự hiện diện của Hooker. Cha mẹ cô nhận thấy con gái mình trở nên trầm lặng khác thường, ánh mắt đượm buồn và luôn nhìn chằm chằm xuống đất. Người cha từng gặng hỏi xem cô có gặp khó khăn gì không, nhưng Colleen một mực khẳng định mình đang sống rất ổn. Mỗi khi ánh mắt cha mẹ dừng lại trên gương mặt mình, Colleen khao khát được òa khóc nức nở, nhưng bóng ma của The Company lại lập tức hiện về bóp nghẹt cổ họng cô. Sau chuyến thăm, cô ngoan ngoãn thu dọn hành lý, bước lên xe cùng kẻ bắt cóc để quay trở lại căn nhà gỗ tại Red Bluff.",
+  "text": "Hồ sơ thẩm tra xác nhận chuyến thăm nhà kéo dài trong sự hòa nhã kỳ lạ. Trong suốt khoảng thời gian ở nhà cha mẹ, Colleen đã có nhiều thời điểm ở một mình với người thân mà hoàn toàn không có sự hiện diện của Hooker. Điện thoại nằm ngay trong tầm tay, gia đình ở ngay bên cạnh, và cảnh sát luôn sẵn sàng can thiệp. Thế nhưng, cô tuyệt đối không hề hé răng nói nửa lời về chiếc hộp gỗ hay hoàn cảnh giam cầm của mình. Khi chuyến thăm kết thúc, cô lặng lẽ thu dọn hành lý, ngoan ngoãn bước lên xe cùng kẻ bắt cóc để quay trở lại căn nhà gỗ tại Red Bluff. Nghịch lý khó hiểu này đã từng khiến các điều tra viên ban đầu vô cùng bối rối trước hành vi của nạn nhân.",
   "sentences": [
    {
     "id": "3.05#1",
-    "text": "Trong suốt chuyến thăm kéo dài nhiều ngày ấy, Colleen đã có hàng chục cơ hội thuận lợi để trốn thoát hoặc phát tín hiệu cầu cứu.",
-    "words": 27
+    "text": "Hồ sơ thẩm tra xác nhận chuyến thăm nhà kéo dài trong sự hòa nhã kỳ lạ.",
+    "words": 17
    },
    {
     "id": "3.05#2",
-    "text": "Cô từng ở một mình trong phòng tắm, có lúc đi dạo cùng người thân mà không có sự hiện diện của Hooker.",
-    "words": 23
+    "text": "Trong suốt khoảng thời gian ở nhà cha mẹ, Colleen đã có nhiều thời điểm ở một mình với người thân mà hoàn toàn không có sự hiện diện của Hooker.",
+    "words": 31
    },
    {
     "id": "3.05#3",
-    "text": "Cha mẹ cô nhận thấy con gái mình trở nên trầm lặng khác thường, ánh mắt đượm buồn và luôn nhìn chằm chằm xuống đất.",
-    "words": 25
+    "text": "Điện thoại nằm ngay trong tầm tay, gia đình ở ngay bên cạnh, và cảnh sát luôn sẵn sàng can thiệp.",
+    "words": 21
    },
    {
     "id": "3.05#4",
-    "text": "Người cha từng gặng hỏi xem cô có gặp khó khăn gì không, nhưng Colleen một mực khẳng định mình đang sống rất ổn.",
-    "words": 24
+    "text": "Thế nhưng, cô tuyệt đối không hề hé răng nói nửa lời về chiếc hộp gỗ hay hoàn cảnh giam cầm của mình.",
+    "words": 23
    },
    {
     "id": "3.05#5",
-    "text": "Mỗi khi ánh mắt cha mẹ dừng lại trên gương mặt mình, Colleen khao khát được òa khóc nức nở, nhưng bóng ma của The Company lại lập tức hiện về bóp nghẹt cổ họng cô.",
-    "words": 36
+    "text": "Khi chuyến thăm kết thúc, cô lặng lẽ thu dọn hành lý, ngoan ngoãn bước lên xe cùng kẻ bắt cóc để quay trở lại căn nhà gỗ tại Red Bluff.",
+    "words": 31
    },
    {
     "id": "3.05#6",
-    "text": "Sau chuyến thăm, cô ngoan ngoãn thu dọn hành lý, bước lên xe cùng kẻ bắt cóc để quay trở lại căn nhà gỗ tại Red Bluff.",
-    "words": 27
+    "text": "Nghịch lý khó hiểu này đã từng khiến các điều tra viên ban đầu vô cùng bối rối trước hành vi của nạn nhân.",
+    "words": 24
    }
   ]
  },
@@ -676,22 +746,27 @@
   "kind": "LOI",
   "role": "H",
   "direction": "giọng đầy trăn trở",
-  "text": "Tại sao một nạn nhân lại không bỏ trốn khi cánh cửa tự do đã mở toang ngay trước mắt? Tại sao một con người có thể tự nguyện quay trở lại với chính chiếc hộp giam cầm cuộc đời mình? Câu hỏi ấy đã từng khiến các điều tra viên bối rối và làm chấn động toàn bộ giới nghiên cứu tâm lý học tội phạm.",
+  "text": "Tại sao một con người lại không bỏ chạy khi cánh cửa lồng giam đã hoàn toàn mở toang? Tại sao một nạn nhân lại tự nguyện quay trở lại với chính chiếc hộp gỗ đã tước đoạt tuổi thanh xuân của mình? Phải chăng tâm trí con người có thể bị nô dịch đến mức tự khóa chặt bản thân vào bóng tối? Lời giải đáp cho nghịch lý này không nằm ở sự đồng thuận, mà ẩn chứa trong những quy luật sâu sắc của khoa học tâm lý hành vi.",
   "sentences": [
    {
     "id": "3.06#1",
-    "text": "Tại sao một nạn nhân lại không bỏ trốn khi cánh cửa tự do đã mở toang ngay trước mắt?",
-    "words": 20
+    "text": "Tại sao một con người lại không bỏ chạy khi cánh cửa lồng giam đã hoàn toàn mở toang?",
+    "words": 19
    },
    {
     "id": "3.06#2",
-    "text": "Tại sao một con người có thể tự nguyện quay trở lại với chính chiếc hộp giam cầm cuộc đời mình?",
-    "words": 21
+    "text": "Tại sao một nạn nhân lại tự nguyện quay trở lại với chính chiếc hộp gỗ đã tước đoạt tuổi thanh xuân của mình?",
+    "words": 24
    },
    {
     "id": "3.06#3",
-    "text": "Câu hỏi ấy đã từng khiến các điều tra viên bối rối và làm chấn động toàn bộ giới nghiên cứu tâm lý học tội phạm.",
-    "words": 26
+    "text": "Phải chăng tâm trí con người có thể bị nô dịch đến mức tự khóa chặt bản thân vào bóng tối?",
+    "words": 21
+   },
+   {
+    "id": "3.06#4",
+    "text": "Lời giải đáp cho nghịch lý này không nằm ở sự đồng thuận, mà ẩn chứa trong những quy luật sâu sắc của khoa học tâm lý hành vi.",
+    "words": 29
    }
   ]
  },
@@ -701,22 +776,42 @@
   "kind": "LOI",
   "role": "C",
   "direction": "giải phẫu hiện tượng Bất lực tập nhiễm",
-  "text": "Lời giải đáp cho nghịch lý này nằm ở một khám phá tâm lý học kinh điển của Giáo sư Martin Seligman mang tên Sự Bất Lực Tập Nhiễm, hay Learned Helplessness. Trong các thí nghiệm nổi tiếng của mình, Seligman đã chỉ ra rằng: Khi một sinh vật bị đặt trong môi trường đau đớn kéo dài mà mọi nỗ lực phản kháng ban đầu đều bất lực, não bộ của nó sẽ tự động học cách từ bỏ. Dần dần, ngay cả khi cánh cửa chuồng được mở toang và lối thoát xuất hiện ngay trước mắt, nó cũng không còn ý chí để bước ra nữa.",
+  "text": "Chìa khóa giải mã hiện tượng này chính là học thuyết kinh điển “Sự Bất Lực Tập Nhiễm”, hay “Learned Helplessness”, do Giáo sư Martin Seligman phát hiện. Trong các nghiên cứu của mình, Seligman chỉ ra rằng: khi một sinh thể phải chịu đựng đau đớn kéo dài mà mọi nỗ lực phản kháng ban đầu đều vô hiệu, hệ thần kinh sẽ tự động học cách từ bỏ. Não bộ thiết lập một niềm tin tuyệt đối rằng số phận là bất khả kháng và không có hành động nào có thể thay đổi được thực tại. Đến khi lối thoát thực sự mở ra ngay trước mắt, sinh thể ấy vẫn tê liệt ý chí và không còn khả năng chủ động bước qua ranh giới tự do. Đối với Colleen, chuyến về thăm nhà thực chất bị cô nhìn nhận như một “Bài kiểm tra lòng trung thành” đầy cạm bẫy của tổ chức “The Company”. Cô tin rằng chỉ một lời kêu cứu sơ sẩy, các đặc vụ ngầm sẽ trừng phạt và hủy hoại cả gia đình cha mẹ cô ngay tức khắc. Việc im lặng và quay trở lại chiếc hộp gỗ chính là hành động hy sinh cao nhất để bảo vệ tính mạng cho những người thân yêu.",
   "sentences": [
    {
     "id": "3.07#1",
-    "text": "Lời giải đáp cho nghịch lý này nằm ở một khám phá tâm lý học kinh điển của Giáo sư Martin Seligman mang tên Sự Bất Lực Tập Nhiễm, hay Learned Helplessness.",
-    "words": 32
+    "text": "Chìa khóa giải mã hiện tượng này chính là học thuyết kinh điển “Sự Bất Lực Tập Nhiễm”, hay “Learned Helplessness”, do Giáo sư Martin Seligman phát hiện.",
+    "words": 28
    },
    {
     "id": "3.07#2",
-    "text": "Trong các thí nghiệm nổi tiếng của mình, Seligman đã chỉ ra rằng: Khi một sinh vật bị đặt trong môi trường đau đớn kéo dài mà mọi nỗ lực phản kháng ban đầu đều bất lực, não bộ của nó sẽ tự động học cách từ bỏ.",
-    "words": 48
+    "text": "Trong các nghiên cứu của mình, Seligman chỉ ra rằng: khi một sinh thể phải chịu đựng đau đớn kéo dài mà mọi nỗ lực phản kháng ban đầu đều vô hiệu, hệ thần kinh sẽ tự động học cách từ bỏ.",
+    "words": 42
    },
    {
     "id": "3.07#3",
-    "text": "Dần dần, ngay cả khi cánh cửa chuồng được mở toang và lối thoát xuất hiện ngay trước mắt, nó cũng không còn ý chí để bước ra nữa.",
+    "text": "Não bộ thiết lập một niềm tin tuyệt đối rằng số phận là bất khả kháng và không có hành động nào có thể thay đổi được thực tại.",
     "words": 29
+   },
+   {
+    "id": "3.07#4",
+    "text": "Đến khi lối thoát thực sự mở ra ngay trước mắt, sinh thể ấy vẫn tê liệt ý chí và không còn khả năng chủ động bước qua ranh giới tự do.",
+    "words": 32
+   },
+   {
+    "id": "3.07#5",
+    "text": "Đối với Colleen, chuyến về thăm nhà thực chất bị cô nhìn nhận như một “Bài kiểm tra lòng trung thành” đầy cạm bẫy của tổ chức “The Company”.",
+    "words": 29
+   },
+   {
+    "id": "3.07#6",
+    "text": "Cô tin rằng chỉ một lời kêu cứu sơ sẩy, các đặc vụ ngầm sẽ trừng phạt và hủy hoại cả gia đình cha mẹ cô ngay tức khắc.",
+    "words": 29
+   },
+   {
+    "id": "3.07#7",
+    "text": "Việc im lặng và quay trở lại chiếc hộp gỗ chính là hành động hy sinh cao nhất để bảo vệ tính mạng cho những người thân yêu.",
+    "words": 28
    }
   ]
  },
@@ -725,28 +820,33 @@
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "phân tích chiều sâu tâm lý",
-  "text": "Colleen không bỏ trốn không phải vì cô không muốn tự do, mà vì sự tự do bên ngoài đối với cô mang theo một cái giá quá khủng khiếp. Trong tâm trí bị lập trình của cô, chuyến thăm nhà thực chất là một bài kiểm tra lòng trung thành của tổ chức The Company. Cô tin chắc rằng nếu mình cất tiếng kêu cứu, những tay súng vô hình đang rình rập ngoài cửa sổ sẽ lập tức nổ súng thảm sát cha mẹ và người thân của cô. Nỗi sợ hãi mất đi những người mình yêu thương nhất đã trở thành chiếc cùm xích vô hình trói chặt mọi ý định phản kháng.",
+  "direction": "bóc tách cơ chế Gắn kết chấn thương",
+  "text": "Cùng với sự bất lực tập nhiễm, một cơ chế tâm lý thứ hai đã giam giữ Colleen suốt những năm tháng ấy chính là “Gắn kết Chấn thương cực đoan”, hay “Trauma Bonding”. Khái niệm được Tiến sĩ Patrick Carnes đúc kết nhằm lý giải sự gắn kết nghịch lý giữa nạn nhân và kẻ thao túng. Cameron Hooker đã vận dụng một chu kỳ thao túng tinh vi: đan cài giữa sự trừng phạt khắc nghiệt và những ân huệ nhỏ giọt bất ngờ. Hắn thỉnh thoảng cho cô ra ngoài hít thở không khí, tặng cô một món quà nhỏ hoặc ban phát những lời khen ngợi khi cô phục tùng. Trong đáy sâu cùng cực của sự tước đoạt, những ân huệ nhỏ nhoi ấy biến kẻ giam cầm trở thành “Vị cứu tinh” duy nhất mà nạn nhân bám víu để tồn tại.",
   "sentences": [
    {
     "id": "3.08#1",
-    "text": "Colleen không bỏ trốn không phải vì cô không muốn tự do, mà vì sự tự do bên ngoài đối với cô mang theo một cái giá quá khủng khiếp.",
-    "words": 30
+    "text": "Cùng với sự bất lực tập nhiễm, một cơ chế tâm lý thứ hai đã giam giữ Colleen suốt những năm tháng ấy chính là “Gắn kết Chấn thương cực đoan”, hay “Trauma Bonding”.",
+    "words": 34
    },
    {
     "id": "3.08#2",
-    "text": "Trong tâm trí bị lập trình của cô, chuyến thăm nhà thực chất là một bài kiểm tra lòng trung thành của tổ chức The Company.",
-    "words": 26
+    "text": "Khái niệm được Tiến sĩ Patrick Carnes đúc kết nhằm lý giải sự gắn kết nghịch lý giữa nạn nhân và kẻ thao túng.",
+    "words": 24
    },
    {
     "id": "3.08#3",
-    "text": "Cô tin chắc rằng nếu mình cất tiếng kêu cứu, những tay súng vô hình đang rình rập ngoài cửa sổ sẽ lập tức nổ súng thảm sát cha mẹ và người thân của cô.",
-    "words": 35
+    "text": "Cameron Hooker đã vận dụng một chu kỳ thao túng tinh vi: đan cài giữa sự trừng phạt khắc nghiệt và những ân huệ nhỏ giọt bất ngờ.",
+    "words": 28
    },
    {
     "id": "3.08#4",
-    "text": "Nỗi sợ hãi mất đi những người mình yêu thương nhất đã trở thành chiếc cùm xích vô hình trói chặt mọi ý định phản kháng.",
-    "words": 26
+    "text": "Hắn thỉnh thoảng cho cô ra ngoài hít thở không khí, tặng cô một món quà nhỏ hoặc ban phát những lời khen ngợi khi cô phục tùng.",
+    "words": 28
+   },
+   {
+    "id": "3.08#5",
+    "text": "Trong đáy sâu cùng cực của sự tước đoạt, những ân huệ nhỏ nhoi ấy biến kẻ giam cầm trở thành “Vị cứu tinh” duy nhất mà nạn nhân bám víu để tồn tại.",
+    "words": 34
    }
   ]
  },
@@ -755,38 +855,43 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "bóc tách cơ chế Gắn kết chấn thương",
-  "text": "Bên cạnh sự bất lực tập nhiễm, một cơ chế tâm lý thứ hai đã trói chặt Colleen chính là Gắn kết Chấn thương cực đoan, hay Trauma Bonding. Cameron Hooker đã khéo léo đan cài giữa sự trừng phạt tàn bạo và những ân huệ nhỏ giọt. Hắn thỉnh thoảng cho cô ra ngoài ngắm bầu trời, cho cô ăn những món ngon hoặc khen ngợi sự phục tùng của cô. Trong sự cùng cực của bóng tối, những cử chỉ tử tế giả tạo ấy biến kẻ hành hạ trở thành vị cứu tinh duy nhất mà nạn nhân bám víu để tồn tại. Nạn nhân vô thức đồng nhất sự sống còn của bản thân với sự hài lòng của chính kẻ giam cầm mình. Trong tâm thần học, đây là cơ chế phòng vệ nguyên thủy nhằm bảo toàn mạng sống trong những hoàn cảnh không thể đảo ngược.",
+  "direction": "bóc tách cơ chế chia ngăn nhận thức",
+  "text": "Về phía kẻ thủ ác Cameron Hooker, hắn vận dụng hoàn hảo cơ chế “Chia ngăn nhận thức”, hay “Compartmentalization”. Bộ não tội phạm của hắn phân chia thành hai ngăn kéo hoàn toàn độc lập và không bao giờ giao thoa. Ngăn kéo thứ nhất là cuộc sống thường nhật của một người chồng, người cha gương mẫu, một người thợ mộc mẫn cán trong cộng đồng. Ngăn kéo thứ hai là thế giới bóng tối dưới gầm giường, nơi hắn thỏa mãn cơn nghiện quyền lực bệnh hoạn. Hắn dùng chính người vợ Janice và đứa con nhỏ như một “Lá chắn bình thường hóa” để tự ru ngủ lương tâm của bản thân. Đồng thời, hắn áp dụng lý thuyết “Kỹ thuật Trung hòa Đạo đức” của Sykes và Matza để tự bào chữa. Hắn tự huyễn hoặc rằng bản hợp đồng năm xưa là sự tự nguyện của Colleen, và cô ở lại vì muốn thuộc về thế giới của hắn.",
   "sentences": [
    {
     "id": "3.09#1",
-    "text": "Bên cạnh sự bất lực tập nhiễm, một cơ chế tâm lý thứ hai đã trói chặt Colleen chính là Gắn kết Chấn thương cực đoan, hay Trauma Bonding.",
-    "words": 29
+    "text": "Về phía kẻ thủ ác Cameron Hooker, hắn vận dụng hoàn hảo cơ chế “Chia ngăn nhận thức”, hay “Compartmentalization”.",
+    "words": 20
    },
    {
     "id": "3.09#2",
-    "text": "Cameron Hooker đã khéo léo đan cài giữa sự trừng phạt tàn bạo và những ân huệ nhỏ giọt.",
-    "words": 19
-   },
-   {
-    "id": "3.09#3",
-    "text": "Hắn thỉnh thoảng cho cô ra ngoài ngắm bầu trời, cho cô ăn những món ngon hoặc khen ngợi sự phục tùng của cô.",
-    "words": 24
-   },
-   {
-    "id": "3.09#4",
-    "text": "Trong sự cùng cực của bóng tối, những cử chỉ tử tế giả tạo ấy biến kẻ hành hạ trở thành vị cứu tinh duy nhất mà nạn nhân bám víu để tồn tại.",
-    "words": 34
-   },
-   {
-    "id": "3.09#5",
-    "text": "Nạn nhân vô thức đồng nhất sự sống còn của bản thân với sự hài lòng của chính kẻ giam cầm mình.",
+    "text": "Bộ não tội phạm của hắn phân chia thành hai ngăn kéo hoàn toàn độc lập và không bao giờ giao thoa.",
     "words": 22
    },
    {
+    "id": "3.09#3",
+    "text": "Ngăn kéo thứ nhất là cuộc sống thường nhật của một người chồng, người cha gương mẫu, một người thợ mộc mẫn cán trong cộng đồng.",
+    "words": 26
+   },
+   {
+    "id": "3.09#4",
+    "text": "Ngăn kéo thứ hai là thế giới bóng tối dưới gầm giường, nơi hắn thỏa mãn cơn nghiện quyền lực bệnh hoạn.",
+    "words": 22
+   },
+   {
+    "id": "3.09#5",
+    "text": "Hắn dùng chính người vợ Janice và đứa con nhỏ như một “Lá chắn bình thường hóa” để tự ru ngủ lương tâm của bản thân.",
+    "words": 26
+   },
+   {
     "id": "3.09#6",
-    "text": "Trong tâm thần học, đây là cơ chế phòng vệ nguyên thủy nhằm bảo toàn mạng sống trong những hoàn cảnh không thể đảo ngược.",
-    "words": 25
+    "text": "Đồng thời, hắn áp dụng lý thuyết “Kỹ thuật Trung hòa Đạo đức” của Sykes và Matza để tự bào chữa.",
+    "words": 21
+   },
+   {
+    "id": "3.09#7",
+    "text": "Hắn tự huyễn hoặc rằng bản hợp đồng năm xưa là sự tự nguyện của Colleen, và cô ở lại vì muốn thuộc về thế giới của hắn.",
+    "words": 28
    }
   ]
  },
@@ -796,17 +901,22 @@
   "kind": "LOI",
   "role": "H",
   "direction": "khép lại Hồi 3",
-  "text": "Chiếc hộp gỗ vô hình được xây bằng nỗi sợ hãi và sự thao túng tâm lý còn kiên cố hơn ngàn lần chiếc hộp bằng gỗ ván ép dưới gầm giường. Liệu có tia sáng nào có thể xuyên thủng lớp phòng thủ kiên cố ấy để cứu rỗi cuộc đời của Colleen Stan?",
+  "text": "Chiếc lồng giam xây bằng sự bất lực tập nhiễm và nỗi sợ hãi tâm lý quả thực còn kiên cố hơn ngàn lần những tấm ván ép dưới gầm giường. Colleen Stan đã sống trong chiếc lồng giam vô hình ấy suốt bảy năm dài đằng đẵng. Nhưng bóng tối dẫu có dày đặc đến đâu cũng không thể ngăn được những vết nứt của sự thật bắt đầu xuất hiện ngay từ bên trong căn nhà.",
   "sentences": [
    {
     "id": "3.10#1",
-    "text": "Chiếc hộp gỗ vô hình được xây bằng nỗi sợ hãi và sự thao túng tâm lý còn kiên cố hơn ngàn lần chiếc hộp bằng gỗ ván ép dưới gầm giường.",
-    "words": 32
+    "text": "Chiếc lồng giam xây bằng sự bất lực tập nhiễm và nỗi sợ hãi tâm lý quả thực còn kiên cố hơn ngàn lần những tấm ván ép dưới gầm giường.",
+    "words": 31
    },
    {
     "id": "3.10#2",
-    "text": "Liệu có tia sáng nào có thể xuyên thủng lớp phòng thủ kiên cố ấy để cứu rỗi cuộc đời của Colleen Stan?",
-    "words": 23
+    "text": "Colleen Stan đã sống trong chiếc lồng giam vô hình ấy suốt bảy năm dài đằng đẵng.",
+    "words": 17
+   },
+   {
+    "id": "3.10#3",
+    "text": "Nhưng bóng tối dẫu có dày đặc đến đâu cũng không thể ngăn được những vết nứt của sự thật bắt đầu xuất hiện ngay từ bên trong căn nhà.",
+    "words": 30
    }
   ]
  },
@@ -814,13 +924,13 @@
   "id": "3.11",
   "act": 3,
   "kind": "BGM",
-  "desc": "*Một nốt piano trầm buồn ngân vang rồi tắt lịm.*"
+  "desc": "Một nốt piano trầm buồn ngân vang rồi từ từ tắt lịm vào không gian tĩnh lặng."
  },
  {
   "id": "4.01",
   "act": 4,
   "kind": "BGM",
-  "desc": "*Âm thanh vĩ cầm dồn dập, giằng xé, tái hiện cuộc khủng hoảng lương tâm và bước ngoặt phá án định mệnh.*"
+  "desc": "Âm thanh vĩ cầm dồn dập, giằng xé, tái hiện cuộc khủng hoảng lương tâm nghẹt thở và bước ngoặt định mệnh phá vỡ lồng giam."
  },
  {
   "id": "4.02",
@@ -828,22 +938,32 @@
   "kind": "LOI",
   "role": "H",
   "direction": "mở đầu Hồi 4",
-  "text": "Thời gian trôi qua, bước sang năm 1984, Colleen Stan đã trải qua năm thứ bảy trong thân phận của một tù nhân vô hình. Cô được phép rời khỏi chiếc hộp gỗ nhiều hơn để làm việc phụ giúp và chăm sóc hai đứa con nhỏ của vợ chồng Hooker. Thế nhưng, chính trong lúc Cameron Hooker tin rằng quyền lực thống trị của mình đã đạt đến mức hoàn hảo, vết nứt đầu tiên đã xuất hiện ngay bên trong căn nhà của hắn.",
+  "text": "Bước sang năm 1984, Colleen Stan đã trải qua năm thứ bảy trong thân phận của một tù nhân vô hình. Lúc này, cô được phép rời khỏi chiếc hộp gỗ nhiều hơn và phụ trách việc chăm sóc con cái trong gia đình Hooker. Dù không còn bị khóa chặt trong hộp mỗi ngày, xiềng xích tâm lý về tổ chức “The Company” vẫn kiểm soát hoàn toàn ý chí của cô. Cameron Hooker ngày càng tự mãn và tin rằng quyền lực thống trị của mình đã đạt tới mức tuyệt đối không thể lay chuyển. Thế nhưng, sự kiêu ngạo quá mức ấy đã đẩy hắn tới một điểm gãy tâm lý mới, làm bùng phát vết rạn nứt ngay trong chính mái ấm gia đình của mình.",
   "sentences": [
    {
     "id": "4.02#1",
-    "text": "Thời gian trôi qua, bước sang năm 1984, Colleen Stan đã trải qua năm thứ bảy trong thân phận của một tù nhân vô hình.",
-    "words": 25
+    "text": "Bước sang năm 1984, Colleen Stan đã trải qua năm thứ bảy trong thân phận của một tù nhân vô hình.",
+    "words": 21
    },
    {
     "id": "4.02#2",
-    "text": "Cô được phép rời khỏi chiếc hộp gỗ nhiều hơn để làm việc phụ giúp và chăm sóc hai đứa con nhỏ của vợ chồng Hooker.",
-    "words": 26
+    "text": "Lúc này, cô được phép rời khỏi chiếc hộp gỗ nhiều hơn và phụ trách việc chăm sóc con cái trong gia đình Hooker.",
+    "words": 24
    },
    {
     "id": "4.02#3",
-    "text": "Thế nhưng, chính trong lúc Cameron Hooker tin rằng quyền lực thống trị của mình đã đạt đến mức hoàn hảo, vết nứt đầu tiên đã xuất hiện ngay bên trong căn nhà của hắn.",
-    "words": 35
+    "text": "Dù không còn bị khóa chặt trong hộp mỗi ngày, xiềng xích tâm lý về tổ chức “The Company” vẫn kiểm soát hoàn toàn ý chí của cô.",
+    "words": 28
+   },
+   {
+    "id": "4.02#4",
+    "text": "Cameron Hooker ngày càng tự mãn và tin rằng quyền lực thống trị của mình đã đạt tới mức tuyệt đối không thể lay chuyển.",
+    "words": 25
+   },
+   {
+    "id": "4.02#5",
+    "text": "Thế nhưng, sự kiêu ngạo quá mức ấy đã đẩy hắn tới một điểm gãy tâm lý mới, làm bùng phát vết rạn nứt ngay trong chính mái ấm gia đình của mình.",
+    "words": 33
    }
   ]
  },
@@ -853,27 +973,32 @@
   "kind": "LOI",
   "role": "D",
   "direction": "thuật lại nguồn cơn rạn nứt",
-  "text": "Người làm lung lay bức tường kiên cố ấy chính là Janice Hooker, người vợ kiêm đồng phạm của Cameron. Janice quen biết Cameron từ năm mười lăm tuổi và bản thân cô cũng từng là nạn nhân bị hắn kiểm soát, bạo hành tâm lý suốt thời niên thiếu. Tuy nhiên, sự xuất hiện của hai đứa con nhỏ cùng nỗi lo sợ ngày càng lớn khi chứng kiến sự biến dạng nhân cách của người chồng đã đẩy Janice vào trạng thái hoảng loạn tột độ. Cô nhận ra rằng nếu tiếp tục đồng lõa, chính những đứa con ruột thịt của mình sẽ phải lớn lên trong một địa ngục ngập tràn sự tha hóa.",
+  "text": "Người làm lung lay bức tường kiên cố ấy không ai khác chính là Janice Hooker, người vợ kiêm đồng phạm của Cameron. Janice quen biết Cameron từ năm mười lăm tuổi và bản thân cô cũng từng là nạn nhân bị hắn thao túng và kiểm soát tâm lý suốt nhiều năm. Tuy nhiên, khi Cameron bắt đầu bộc lộ tham vọng muốn bắt cóc thêm một cô gái thứ hai để mở rộng thế giới nô lệ bệnh hoạn, Janice rơi vào hoảng loạn cực độ. Nỗi sợ hãi tội ác leo thang và gánh nặng tội lỗi đè nặng suốt bảy năm đã đánh sập cơ chế phòng vệ tâm lý của cô. Janice đã tìm đến một vị mục sư địa phương để trút bỏ gánh nặng lương tâm và tìm kiếm sự cứu rỗi.",
   "sentences": [
    {
     "id": "4.03#1",
-    "text": "Người làm lung lay bức tường kiên cố ấy chính là Janice Hooker, người vợ kiêm đồng phạm của Cameron.",
-    "words": 20
+    "text": "Người làm lung lay bức tường kiên cố ấy không ai khác chính là Janice Hooker, người vợ kiêm đồng phạm của Cameron.",
+    "words": 23
    },
    {
     "id": "4.03#2",
-    "text": "Janice quen biết Cameron từ năm mười lăm tuổi và bản thân cô cũng từng là nạn nhân bị hắn kiểm soát, bạo hành tâm lý suốt thời niên thiếu.",
+    "text": "Janice quen biết Cameron từ năm mười lăm tuổi và bản thân cô cũng từng là nạn nhân bị hắn thao túng và kiểm soát tâm lý suốt nhiều năm.",
     "words": 30
    },
    {
     "id": "4.03#3",
-    "text": "Tuy nhiên, sự xuất hiện của hai đứa con nhỏ cùng nỗi lo sợ ngày càng lớn khi chứng kiến sự biến dạng nhân cách của người chồng đã đẩy Janice vào trạng thái hoảng loạn tột độ.",
-    "words": 38
+    "text": "Tuy nhiên, khi Cameron bắt đầu bộc lộ tham vọng muốn bắt cóc thêm một cô gái thứ hai để mở rộng thế giới nô lệ bệnh hoạn, Janice rơi vào hoảng loạn cực độ.",
+    "words": 35
    },
    {
     "id": "4.03#4",
-    "text": "Cô nhận ra rằng nếu tiếp tục đồng lõa, chính những đứa con ruột thịt của mình sẽ phải lớn lên trong một địa ngục ngập tràn sự tha hóa.",
-    "words": 30
+    "text": "Nỗi sợ hãi tội ác leo thang và gánh nặng tội lỗi đè nặng suốt bảy năm đã đánh sập cơ chế phòng vệ tâm lý của cô.",
+    "words": 28
+   },
+   {
+    "id": "4.03#5",
+    "text": "Janice đã tìm đến một vị mục sư địa phương để trút bỏ gánh nặng lương tâm và tìm kiếm sự cứu rỗi.",
+    "words": 23
    }
   ]
  },
@@ -883,17 +1008,27 @@
   "kind": "LOI",
   "role": "H",
   "direction": "tiết lộ giọt nước tràn ly",
-  "text": "Giọt nước làm tràn ly xuất hiện vào mùa hè năm 1984, khi Cameron Hooker tuyên bố kế hoạch bắt cóc thêm một cô gái trẻ khác về căn nhà gỗ để mở rộng hậu cung phục vụ thú vui bệnh hoạn của hắn. Janice nhận ra rằng nếu tiếp tục im lặng, không chỉ Colleen mà chính cô và các con sẽ bị cuốn vào vòng xoáy tội ác không có lối thoát.",
+  "text": "Vị mục sư đã khuyên Janice phải đối diện với sự thật và chấm dứt ngay lập tức hành vi đồng lõa trước khi quá muộn. Giọt nước tràn ly vào đầu tháng 8 năm 1984, khi Cameron vắng nhà. Janice nhận ra rằng nếu tiếp tục im lặng, không chỉ Colleen mà chính tương lai của những đứa con thơ của cô cũng sẽ bị chôn vùi trong vực thẳm tội ác. Cô quyết định thực hiện một hành động dũng cảm làm thay đổi hoàn toàn cục diện vụ án.",
   "sentences": [
    {
     "id": "4.04#1",
-    "text": "Giọt nước làm tràn ly xuất hiện vào mùa hè năm 1984, khi Cameron Hooker tuyên bố kế hoạch bắt cóc thêm một cô gái trẻ khác về căn nhà gỗ để mở rộng hậu cung phục vụ thú vui bệnh hoạn của hắn.",
-    "words": 44
+    "text": "Vị mục sư đã khuyên Janice phải đối diện với sự thật và chấm dứt ngay lập tức hành vi đồng lõa trước khi quá muộn.",
+    "words": 26
    },
    {
     "id": "4.04#2",
-    "text": "Janice nhận ra rằng nếu tiếp tục im lặng, không chỉ Colleen mà chính cô và các con sẽ bị cuốn vào vòng xoáy tội ác không có lối thoát.",
-    "words": 30
+    "text": "Giọt nước tràn ly vào đầu tháng 8 năm 1984, khi Cameron vắng nhà.",
+    "words": 14
+   },
+   {
+    "id": "4.04#3",
+    "text": "Janice nhận ra rằng nếu tiếp tục im lặng, không chỉ Colleen mà chính tương lai của những đứa con thơ của cô cũng sẽ bị chôn vùi trong vực thẳm tội ác.",
+    "words": 33
+   },
+   {
+    "id": "4.04#4",
+    "text": "Cô quyết định thực hiện một hành động dũng cảm làm thay đổi hoàn toàn cục diện vụ án.",
+    "words": 19
    }
   ]
  },
@@ -902,48 +1037,33 @@
   "act": 4,
   "kind": "LOI",
   "role": "N",
-  "direction": "N2: Janice Hooker, giọng nữ run rẩy, đầy giằng xé tội lỗi",
-  "text": "Tôi đã sống trong nỗi khiếp sợ Cameron suốt nhiều năm trời. Hắn kiểm soát mọi suy nghĩ của tôi và tôi đã mù quáng tiếp tay cho tội ác của hắn. Nhưng khi hắn nói muốn bắt thêm một người nữa, tôi biết mình phải dừng lại. Tôi tìm đến một vị mục sư địa phương để xin lời khuyên trong sự tuyệt vọng. Vị mục sư nhìn thẳng vào mắt tôi và nói rằng: Con phải cứu cô gái đó và tự cứu lấy linh hồn của chính mình. Vào buổi sáng ngày 9 tháng 8 năm 1984, khi Cameron đang làm việc tại xưởng cưa, tôi đã lấy hết can đảm lái xe chở Colleen rời khỏi thị trấn Red Bluff. Tôi nói với cô ấy rằng tổ chức The Company hoàn toàn không có thật, đó chỉ là lời nói dối quái đản của Cameron để giam cầm cô ấy mà thôi. Colleen nghe xong liền bật khóc nức nở, như thể một giấc mộng kinh hoàng vừa tan biến.",
+  "direction": "N2: Lời dẫn minh họa về Janice Hooker, giọng nữ trung niên run rẩy, đầy giằng xé tội lỗi",
+  "text": "Hãy hình dung sự giằng xé xé nát tâm can của một người phụ nữ đã sống trong nỗi sợ hãi người chồng suốt cả thời tuổi trẻ. Tôi đã im lặng, đã tiếp tay và đã trở thành một phần của tội ác khủng khiếp ấy suốt bảy năm trời. Mỗi ngày nhìn thấy cô gái ấy trong bóng tối, lương tâm tôi như bị hàng ngàn mũi dao cào xé. Đến giây phút ấy, tôi hiểu rằng mình không thể hèn nhát thêm một giây phút nào nữa. Tôi nắm lấy tay Colleen và nói sự thật: “Cameron không hề thuộc về tổ chức The Company nào cả, tất cả chỉ là lời dối trá của anh ta để giam cầm cô.”",
   "sentences": [
    {
     "id": "4.05#1",
-    "text": "Tôi đã sống trong nỗi khiếp sợ Cameron suốt nhiều năm trời.",
-    "words": 12
+    "text": "Hãy hình dung sự giằng xé xé nát tâm can của một người phụ nữ đã sống trong nỗi sợ hãi người chồng suốt cả thời tuổi trẻ.",
+    "words": 28
    },
    {
     "id": "4.05#2",
-    "text": "Hắn kiểm soát mọi suy nghĩ của tôi và tôi đã mù quáng tiếp tay cho tội ác của hắn.",
-    "words": 20
+    "text": "Tôi đã im lặng, đã tiếp tay và đã trở thành một phần của tội ác khủng khiếp ấy suốt bảy năm trời.",
+    "words": 23
    },
    {
     "id": "4.05#3",
-    "text": "Nhưng khi hắn nói muốn bắt thêm một người nữa, tôi biết mình phải dừng lại.",
-    "words": 16
+    "text": "Mỗi ngày nhìn thấy cô gái ấy trong bóng tối, lương tâm tôi như bị hàng ngàn mũi dao cào xé.",
+    "words": 21
    },
    {
     "id": "4.05#4",
-    "text": "Tôi tìm đến một vị mục sư địa phương để xin lời khuyên trong sự tuyệt vọng.",
-    "words": 17
+    "text": "Đến giây phút ấy, tôi hiểu rằng mình không thể hèn nhát thêm một giây phút nào nữa.",
+    "words": 18
    },
    {
     "id": "4.05#5",
-    "text": "Vị mục sư nhìn thẳng vào mắt tôi và nói rằng: Con phải cứu cô gái đó và tự cứu lấy linh hồn của chính mình.",
-    "words": 26
-   },
-   {
-    "id": "4.05#6",
-    "text": "Vào buổi sáng ngày 9 tháng 8 năm 1984, khi Cameron đang làm việc tại xưởng cưa, tôi đã lấy hết can đảm lái xe chở Colleen rời khỏi thị trấn Red Bluff.",
-    "words": 33
-   },
-   {
-    "id": "4.05#7",
-    "text": "Tôi nói với cô ấy rằng tổ chức The Company hoàn toàn không có thật, đó chỉ là lời nói dối quái đản của Cameron để giam cầm cô ấy mà thôi.",
-    "words": 32
-   },
-   {
-    "id": "4.05#8",
-    "text": "Colleen nghe xong liền bật khóc nức nở, như thể một giấc mộng kinh hoàng vừa tan biến.",
-    "words": 18
+    "text": "Tôi nắm lấy tay Colleen và nói sự thật: “Cameron không hề thuộc về tổ chức The Company nào cả, tất cả chỉ là lời dối trá của anh ta để giam cầm cô.”",
+    "words": 34
    }
   ]
  },
@@ -951,7 +1071,7 @@
   "id": "4.06",
   "act": 4,
   "kind": "SFX",
-  "desc": "*Tiếng động cơ xe nổ gấp gáp, tiếng bánh xe nghiến trên sỏi đá.*"
+  "desc": "Tiếng động cơ xe nổ gấp gáp, tiếng bánh xe nghiến trên sỏi đá, tiếng cửa xe buýt mở ra đón người."
  },
  {
   "id": "4.07",
@@ -959,22 +1079,32 @@
   "kind": "LOI",
   "role": "H",
   "direction": "tiếp tục diễn biến giải cứu",
-  "text": "Janice chở Colleen đến bến xe buýt Red Bluff, đưa cho cô một ít tiền mặt và giục cô lên xe rời đi ngay lập tức. Sau bảy năm đằng đẵng bị giam cầm trong bóng tối, lần đầu tiên Colleen bước lên một chuyến xe buýt công cộng mà không có chiếc hộp gỗ chụp trên đầu hay chiếc còng sắt khóa chặt đôi tay. Khi bánh xe lăn bánh, bức màn đen tối giam hãm cuộc đời cô suốt hai nghìn sáu trăm sáu mươi ngày cuối cùng đã sụp đổ.",
+  "text": "Câu nói giản đơn ấy như một tiếng sét đánh tan hoàn toàn chiếc lồng giam vô hình đã khóa chặt Colleen Stan suốt hai nghìn sáu trăm ba mươi chín ngày. Bức tường sợ hãi về tổ chức “The Company” sụp đổ trong tích tắc, trả lại cho cô ý chí sinh tồn nguyên bản. Ngày 9 tháng 8 năm 1984, Colleen nhanh chóng thu dọn đồ đạc và chạy thẳng ra bến xe buýt thị trấn Red Bluff. Cô gọi điện báo cho Hooker rằng cô sẽ vĩnh viễn không quay trở lại, rồi bước lên chuyến xe buýt trở về vòng tay gia đình. Chiếc hộp gỗ dưới gầm giường chính thức vỡ vụn, khép lại bảy năm địa ngục tăm tối.",
   "sentences": [
    {
     "id": "4.07#1",
-    "text": "Janice chở Colleen đến bến xe buýt Red Bluff, đưa cho cô một ít tiền mặt và giục cô lên xe rời đi ngay lập tức.",
-    "words": 26
+    "text": "Câu nói giản đơn ấy như một tiếng sét đánh tan hoàn toàn chiếc lồng giam vô hình đã khóa chặt Colleen Stan suốt hai nghìn sáu trăm ba mươi chín ngày.",
+    "words": 32
    },
    {
     "id": "4.07#2",
-    "text": "Sau bảy năm đằng đẵng bị giam cầm trong bóng tối, lần đầu tiên Colleen bước lên một chuyến xe buýt công cộng mà không có chiếc hộp gỗ chụp trên đầu hay chiếc còng sắt khóa chặt đôi tay.",
-    "words": 40
+    "text": "Bức tường sợ hãi về tổ chức “The Company” sụp đổ trong tích tắc, trả lại cho cô ý chí sinh tồn nguyên bản.",
+    "words": 24
    },
    {
     "id": "4.07#3",
-    "text": "Khi bánh xe lăn bánh, bức màn đen tối giam hãm cuộc đời cô suốt hai nghìn sáu trăm sáu mươi ngày cuối cùng đã sụp đổ.",
+    "text": "Ngày 9 tháng 8 năm 1984, Colleen nhanh chóng thu dọn đồ đạc và chạy thẳng ra bến xe buýt thị trấn Red Bluff.",
+    "words": 24
+   },
+   {
+    "id": "4.07#4",
+    "text": "Cô gọi điện báo cho Hooker rằng cô sẽ vĩnh viễn không quay trở lại, rồi bước lên chuyến xe buýt trở về vòng tay gia đình.",
     "words": 27
+   },
+   {
+    "id": "4.07#5",
+    "text": "Chiếc hộp gỗ dưới gầm giường chính thức vỡ vụn, khép lại bảy năm địa ngục tăm tối.",
+    "words": 18
    }
   ]
  },
@@ -984,27 +1114,27 @@
   "kind": "LOI",
   "role": "D",
   "direction": "thuật lại diễn biến pháp lý",
-  "text": "Sau khi Colleen an toàn trở về với gia đình, Janice Hooker vì lo sợ sự trả thù điên cuồng của chồng đã quyết định đến trình diện tại Sở Cảnh sát Hạt Tehama vào tháng 11 năm 1984. Để đổi lấy sự thật toàn diện về bảy năm giam giữ và hành vi phạm tội của Cameron Hooker, cơ quan công tố bang California đã ký thỏa thuận miễn trừ truy tố đối với Janice. Khi khám xét căn nhà gỗ tại Red Bluff, các thám tử đã không khỏi rùng mình khi tìm thấy chiếc hộp gỗ nằm im lìm dưới giường ngủ cùng những bằng chứng giam cầm không thể chối cãi. Chiếc hộp gỗ cách âm đội đầu cũng được thu giữ tại hiện trường như một minh chứng sống động cho sự tàn nhẫn và tính toán lạnh lùng của hung thủ.",
+  "text": "Sau khi Colleen an toàn trở về nhà, gần ba tháng sau, vào tháng 11 năm 1984, Janice Hooker đã chính thức bước vào đồn cảnh sát đầu thú. Để đổi lấy sự thật toàn diện về bảy năm giam giữ và lời khai chống lại chồng, cơ quan công tố bang California đã ký thỏa thuận miễn trừ truy tố đối với Janice. Cảnh sát Hạt Tehama lập tức đột kích căn nhà gỗ tại Red Bluff, thu giữ chiếc hộp giam giữ dưới gầm giường và chiếc hộp trùm đầu làm vật chứng lịch sử. Cameron Hooker bị bắt giữ ngay tại chỗ trong sự ngỡ ngàng của toàn bộ cộng đồng địa phương.",
   "sentences": [
    {
     "id": "4.08#1",
-    "text": "Sau khi Colleen an toàn trở về với gia đình, Janice Hooker vì lo sợ sự trả thù điên cuồng của chồng đã quyết định đến trình diện tại Sở Cảnh sát Hạt Tehama vào tháng 11 năm 1984.",
-    "words": 39
+    "text": "Sau khi Colleen an toàn trở về nhà, gần ba tháng sau, vào tháng 11 năm 1984, Janice Hooker đã chính thức bước vào đồn cảnh sát đầu thú.",
+    "words": 29
    },
    {
     "id": "4.08#2",
-    "text": "Để đổi lấy sự thật toàn diện về bảy năm giam giữ và hành vi phạm tội của Cameron Hooker, cơ quan công tố bang California đã ký thỏa thuận miễn trừ truy tố đối với Janice.",
-    "words": 37
+    "text": "Để đổi lấy sự thật toàn diện về bảy năm giam giữ và lời khai chống lại chồng, cơ quan công tố bang California đã ký thỏa thuận miễn trừ truy tố đối với Janice.",
+    "words": 35
    },
    {
     "id": "4.08#3",
-    "text": "Khi khám xét căn nhà gỗ tại Red Bluff, các thám tử đã không khỏi rùng mình khi tìm thấy chiếc hộp gỗ nằm im lìm dưới giường ngủ cùng những bằng chứng giam cầm không thể chối cãi.",
-    "words": 39
+    "text": "Cảnh sát Hạt Tehama lập tức đột kích căn nhà gỗ tại Red Bluff, thu giữ chiếc hộp giam giữ dưới gầm giường và chiếc hộp trùm đầu làm vật chứng lịch sử.",
+    "words": 33
    },
    {
     "id": "4.08#4",
-    "text": "Chiếc hộp gỗ cách âm đội đầu cũng được thu giữ tại hiện trường như một minh chứng sống động cho sự tàn nhẫn và tính toán lạnh lùng của hung thủ.",
-    "words": 32
+    "text": "Cameron Hooker bị bắt giữ ngay tại chỗ trong sự ngỡ ngàng của toàn bộ cộng đồng địa phương.",
+    "words": 19
    }
   ]
  },
@@ -1014,27 +1144,32 @@
   "kind": "LOI",
   "role": "C",
   "direction": "phân tích tâm lý của kẻ thủ ác trước tòa",
-  "text": "Tại phiên tòa xét xử diễn ra vào năm 1985, Cameron Hooker vẫn kiên quyết không nhận tội. Hắn trơ trẽn lập luận rằng Colleen tự nguyện ở lại căn nhà và bản hợp đồng năm xưa là sự đồng thuận giữa hai bên. Chuyên gia tâm thần học hàng đầu Frank Ochberg đã ra làm chứng trước tòa, giải thích tường tận cho bồi thẩm đoàn về cơ chế tê liệt tâm lý khiến nạn nhân không thể bỏ trốn. Trước những bằng chứng vật lý rùng rợn và lời khai đẫm nước mắt của hai người phụ nữ, bức mặt nạ của kẻ ái kỷ biến thái đã hoàn toàn bị bóc trần.",
+  "text": "Tại phiên tòa xét xử lịch sử diễn ra vào năm 1985 tại Tòa án Thượng thẩm Hạt Tehama, Cameron Hooker vẫn bộc lộ bản chất ái kỷ trơ trẽn. Hắn kiên quyết không nhận tội, ngang nhiên lập luận rằng Colleen tự nguyện ở lại căn nhà và bản hợp đồng năm xưa là sự đồng thuận giữa hai bên. Trước những lý lẽ ngụy biện ấy, Tiến sĩ tâm lý học pháp y Chris Hatcher đã ra làm chứng trước bồi thẩm đoàn. Lời khai chuyên môn của ông đã giải phẫu cơ chế “Tẩy não và Kiểm soát cưỡng ép”, giúp bồi thẩm đoàn hiểu rõ tại sao một nạn nhân lại bị tê liệt ý chí phản kháng. Bức màn ngụy biện về sự tự nguyện hoàn toàn bị bóc trần trước ánh sáng công lý.",
   "sentences": [
    {
     "id": "4.09#1",
-    "text": "Tại phiên tòa xét xử diễn ra vào năm 1985, Cameron Hooker vẫn kiên quyết không nhận tội.",
-    "words": 18
+    "text": "Tại phiên tòa xét xử lịch sử diễn ra vào năm 1985 tại Tòa án Thượng thẩm Hạt Tehama, Cameron Hooker vẫn bộc lộ bản chất ái kỷ trơ trẽn.",
+    "words": 30
    },
    {
     "id": "4.09#2",
-    "text": "Hắn trơ trẽn lập luận rằng Colleen tự nguyện ở lại căn nhà và bản hợp đồng năm xưa là sự đồng thuận giữa hai bên.",
-    "words": 26
+    "text": "Hắn kiên quyết không nhận tội, ngang nhiên lập luận rằng Colleen tự nguyện ở lại căn nhà và bản hợp đồng năm xưa là sự đồng thuận giữa hai bên.",
+    "words": 31
    },
    {
     "id": "4.09#3",
-    "text": "Chuyên gia tâm thần học hàng đầu Frank Ochberg đã ra làm chứng trước tòa, giải thích tường tận cho bồi thẩm đoàn về cơ chế tê liệt tâm lý khiến nạn nhân không thể bỏ trốn.",
-    "words": 37
+    "text": "Trước những lý lẽ ngụy biện ấy, Tiến sĩ tâm lý học pháp y Chris Hatcher đã ra làm chứng trước bồi thẩm đoàn.",
+    "words": 24
    },
    {
     "id": "4.09#4",
-    "text": "Trước những bằng chứng vật lý rùng rợn và lời khai đẫm nước mắt của hai người phụ nữ, bức mặt nạ của kẻ ái kỷ biến thái đã hoàn toàn bị bóc trần.",
-    "words": 34
+    "text": "Lời khai chuyên môn của ông đã giải phẫu cơ chế “Tẩy não và Kiểm soát cưỡng ép”, giúp bồi thẩm đoàn hiểu rõ tại sao một nạn nhân lại bị tê liệt ý chí phản kháng.",
+    "words": 37
+   },
+   {
+    "id": "4.09#5",
+    "text": "Bức màn ngụy biện về sự tự nguyện hoàn toàn bị bóc trần trước ánh sáng công lý.",
+    "words": 18
    }
   ]
  },
@@ -1044,27 +1179,32 @@
   "kind": "LOI",
   "role": "H",
   "direction": "khép lại Hồi 4",
-  "text": "Ngày phán quyết cuối cùng cũng điểm. Bồi thẩm đoàn Tòa án Thượng thẩm Hạt Tehama đã tuyên phạt Cameron Hooker mức án một trăm lẻ bốn năm tù giam cho hàng loạt tội danh bắt cóc và hủy hoại nhân phẩm con người. Bản án thế kỷ đã giáng xuống đầu kẻ thủ ác như một sự trừng phạt thích đáng của công lý. Kẻ thủ ác sẽ phải trải qua phần đời còn lại phía sau song sắt nhà tù bang California mà không bao giờ có cơ hội nhìn thấy ánh sáng mặt trời.",
+  "text": "Trước những bằng chứng đanh thép và lời khai rành mạch của hai người phụ nữ, Thẩm phán Clarence Knight đã tuyên mức án nghiêm khắc nhất. Cameron Hooker bị kết án tổng cộng một trăm lẻ bốn năm tù giam cho hàng loạt tội danh bắt cóc và hủy hoại nhân phẩm. Khi tiếng búa tòa vang lên, kẻ săn mồi hoàn toàn rơi vào trạng thái “Sự sụp đổ cái tôi ái kỷ” và “Tự thương hại bệnh lý”. Hắn không hề khóc thương cho bảy năm thanh xuân bị đánh cắp của nạn nhân, mà chỉ tiếc nuối cho quyền lực và tự do đã vĩnh viễn tiêu tan của chính mình. Bản án thế kỷ đã giáng xuống đầu kẻ thủ ác như một sự phán quyết thích đáng của luật pháp.",
   "sentences": [
    {
     "id": "4.10#1",
-    "text": "Ngày phán quyết cuối cùng cũng điểm.",
-    "words": 7
+    "text": "Trước những bằng chứng đanh thép và lời khai rành mạch của hai người phụ nữ, Thẩm phán Clarence Knight đã tuyên mức án nghiêm khắc nhất.",
+    "words": 27
    },
    {
     "id": "4.10#2",
-    "text": "Bồi thẩm đoàn Tòa án Thượng thẩm Hạt Tehama đã tuyên phạt Cameron Hooker mức án một trăm lẻ bốn năm tù giam cho hàng loạt tội danh bắt cóc và hủy hoại nhân phẩm con người.",
-    "words": 37
+    "text": "Cameron Hooker bị kết án tổng cộng một trăm lẻ bốn năm tù giam cho hàng loạt tội danh bắt cóc và hủy hoại nhân phẩm.",
+    "words": 26
    },
    {
     "id": "4.10#3",
-    "text": "Bản án thế kỷ đã giáng xuống đầu kẻ thủ ác như một sự trừng phạt thích đáng của công lý.",
-    "words": 21
+    "text": "Khi tiếng búa tòa vang lên, kẻ săn mồi hoàn toàn rơi vào trạng thái “Sự sụp đổ cái tôi ái kỷ” và “Tự thương hại bệnh lý”.",
+    "words": 28
    },
    {
     "id": "4.10#4",
-    "text": "Kẻ thủ ác sẽ phải trải qua phần đời còn lại phía sau song sắt nhà tù bang California mà không bao giờ có cơ hội nhìn thấy ánh sáng mặt trời.",
-    "words": 32
+    "text": "Hắn không hề khóc thương cho bảy năm thanh xuân bị đánh cắp của nạn nhân, mà chỉ tiếc nuối cho quyền lực và tự do đã vĩnh viễn tiêu tan của chính mình.",
+    "words": 34
+   },
+   {
+    "id": "4.10#5",
+    "text": "Bản án thế kỷ đã giáng xuống đầu kẻ thủ ác như một sự phán quyết thích đáng của luật pháp.",
+    "words": 21
    }
   ]
  },
@@ -1072,13 +1212,13 @@
   "id": "4.11",
   "act": 4,
   "kind": "BGM",
-  "desc": "*Một nốt nhạc u uất lắng xuống rồi tan biến.*"
+  "desc": "Một nốt nhạc u uất lắng xuống rồi tan biến vào sự tĩnh lặng trang nghiêm của phòng xử án."
  },
  {
   "id": "5.01",
   "act": 5,
   "kind": "BGM",
-  "desc": "*Nhạc nền chuyển sang giai điệu Piano ấm áp, trang trọng, ngân vang niềm tin vào sự kiên cường và tái sinh của tâm hồn.*"
+  "desc": "Nhạc nền chuyển sang giai điệu Piano ấm áp, trang trọng, ngân vang niềm tin mãnh liệt vào sự kiên cường và tái sinh của tâm hồn con người."
  },
  {
   "id": "5.02",
@@ -1086,52 +1226,42 @@
   "kind": "LOI",
   "role": "H",
   "direction": "giọng suy ngẫm, triết lý và đầy xúc động",
-  "text": "Bản án một trăm lẻ bốn năm tù dành cho Cameron Hooker đã khép lại một chương đen tối trong hồ sơ tư pháp nước Mỹ. Nhưng đối với Colleen Stan, cuộc chiến thực sự để giành lại chính mình khỏi bóng ma của chiếc hộp gỗ chỉ vừa mới bắt đầu. Nhiều nạn nhân sau những chấn thương tâm lý cực hạn thường rơi vào trầm cảm nặng nề hoặc đánh mất vĩnh viễn niềm tin vào cuộc sống. Thế nhưng, Colleen Stan đã làm nên một điều kỳ diệu làm lay động hàng triệu trái tim. Bằng một nghị lực phi thường, cô từng bước chữa lành những vết thương sâu hoắm trong tâm hồn. Cô kiên trì theo học đại học, xuất sắc tốt nghiệp ngành kế toán, lập gia đình và trở thành một người mẹ mẫu mực. Trong cuốn hồi ký mang tên Những món quà giản dị của cuộc sống, Colleen chia sẻ rằng cô trân trọng từng khoảnh khắc bình dị nhất: Một tách cà phê nóng vào buổi sáng, làn gió mát thổi qua mái tóc và ánh nắng vàng của sự tự do. Cô đã biến những nỗi đau tột cùng của quá khứ thành nguồn cảm hứng sống cho hàng nghìn người khác. Tình yêu thương từ gia đình và niềm tin tôn giáo đã trở thành điểm tựa vững chắc nâng đỡ cô đứng dậy sau bảy năm tăm tối.",
+  "text": "Bản án một trăm lẻ bốn năm tù dành cho Cameron Hooker đã khép lại một chương tăm tối trong biên niên sử tư pháp nước Mỹ. Thế nhưng, đối với Colleen Stan, cuộc chiến cam go nhất để giành lại chính mình khỏi bóng ma của chiếc hộp gỗ dưới gầm giường mới thực sự bắt đầu. Nhiều nạn nhân sau những chấn thương tâm lý cực hạn thường rơi vào trầm cảm kinh niên hoặc đánh mất vĩnh viễn niềm tin vào đồng loại. Họ có thể tự giam mình trong chiếc hộp gỗ vô hình của sự ám ảnh suốt phần đời còn lại. Thế nhưng, Colleen Stan đã viết nên một trong những thiên sử thi chữa lành kỳ diệu nhất làm rung động hàng triệu trái tim trên khắp thế giới. Bằng một nghị lực phi thường, cô từng bước nhặt nhạnh lại những mảnh vỡ tâm hồn sau bảy năm tăm tối. Cô nỗ lực theo học đại học ngành kế toán, lập gia đình, sinh con và tích cực tham gia các hoạt động thiện nguyện hỗ trợ những người phụ nữ từng là nạn nhân bạo lực.",
   "sentences": [
    {
     "id": "5.02#1",
-    "text": "Bản án một trăm lẻ bốn năm tù dành cho Cameron Hooker đã khép lại một chương đen tối trong hồ sơ tư pháp nước Mỹ.",
-    "words": 26
+    "text": "Bản án một trăm lẻ bốn năm tù dành cho Cameron Hooker đã khép lại một chương tăm tối trong biên niên sử tư pháp nước Mỹ.",
+    "words": 27
    },
    {
     "id": "5.02#2",
-    "text": "Nhưng đối với Colleen Stan, cuộc chiến thực sự để giành lại chính mình khỏi bóng ma của chiếc hộp gỗ chỉ vừa mới bắt đầu.",
-    "words": 26
+    "text": "Thế nhưng, đối với Colleen Stan, cuộc chiến cam go nhất để giành lại chính mình khỏi bóng ma của chiếc hộp gỗ dưới gầm giường mới thực sự bắt đầu.",
+    "words": 31
    },
    {
     "id": "5.02#3",
-    "text": "Nhiều nạn nhân sau những chấn thương tâm lý cực hạn thường rơi vào trầm cảm nặng nề hoặc đánh mất vĩnh viễn niềm tin vào cuộc sống.",
+    "text": "Nhiều nạn nhân sau những chấn thương tâm lý cực hạn thường rơi vào trầm cảm kinh niên hoặc đánh mất vĩnh viễn niềm tin vào đồng loại.",
     "words": 28
    },
    {
     "id": "5.02#4",
-    "text": "Thế nhưng, Colleen Stan đã làm nên một điều kỳ diệu làm lay động hàng triệu trái tim.",
-    "words": 18
-   },
-   {
-    "id": "5.02#5",
-    "text": "Bằng một nghị lực phi thường, cô từng bước chữa lành những vết thương sâu hoắm trong tâm hồn.",
-    "words": 19
-   },
-   {
-    "id": "5.02#6",
-    "text": "Cô kiên trì theo học đại học, xuất sắc tốt nghiệp ngành kế toán, lập gia đình và trở thành một người mẹ mẫu mực.",
-    "words": 25
-   },
-   {
-    "id": "5.02#7",
-    "text": "Trong cuốn hồi ký mang tên Những món quà giản dị của cuộc sống, Colleen chia sẻ rằng cô trân trọng từng khoảnh khắc bình dị nhất: Một tách cà phê nóng vào buổi sáng, làn gió mát thổi qua mái tóc và ánh nắng vàng của sự tự do.",
-    "words": 50
-   },
-   {
-    "id": "5.02#8",
-    "text": "Cô đã biến những nỗi đau tột cùng của quá khứ thành nguồn cảm hứng sống cho hàng nghìn người khác.",
+    "text": "Họ có thể tự giam mình trong chiếc hộp gỗ vô hình của sự ám ảnh suốt phần đời còn lại.",
     "words": 21
    },
    {
-    "id": "5.02#9",
-    "text": "Tình yêu thương từ gia đình và niềm tin tôn giáo đã trở thành điểm tựa vững chắc nâng đỡ cô đứng dậy sau bảy năm tăm tối.",
-    "words": 28
+    "id": "5.02#5",
+    "text": "Thế nhưng, Colleen Stan đã viết nên một trong những thiên sử thi chữa lành kỳ diệu nhất làm rung động hàng triệu trái tim trên khắp thế giới.",
+    "words": 29
+   },
+   {
+    "id": "5.02#6",
+    "text": "Bằng một nghị lực phi thường, cô từng bước nhặt nhạnh lại những mảnh vỡ tâm hồn sau bảy năm tăm tối.",
+    "words": 22
+   },
+   {
+    "id": "5.02#7",
+    "text": "Cô nỗ lực theo học đại học ngành kế toán, lập gia đình, sinh con và tích cực tham gia các hoạt động thiện nguyện hỗ trợ những người phụ nữ từng là nạn nhân bạo lực.",
+    "words": 37
    }
   ]
  },
@@ -1141,22 +1271,32 @@
   "kind": "LOI",
   "role": "C",
   "direction": "đúc kết khái niệm Tăng trưởng sau sang chấn",
-  "text": "Hành trình hồi sinh của Colleen Stan là minh chứng sống động nhất cho khái niệm Tăng trưởng Sau Sang chấn, hay Post-Traumatic Growth trong tâm lý học hiện đại. Khi trải qua những nghịch cảnh cùng cực nhất, nếu con người tìm thấy được ý nghĩa của sự sống và tình yêu thương, họ không chỉ hồi phục mà còn tôi luyện nên một sức mạnh tinh thần kiên cường gấp bội phần. Colleen đã chứng minh rằng quá trình chữa lành không phải là xóa bỏ quá khứ, mà là học cách sống hòa bình với những vết thương và biến chúng thành sức mạnh nội tâm.",
+  "text": "Hành trình hồi sinh của Colleen Stan là minh chứng sống động nhất cho khái niệm “Tăng trưởng Sau Sang chấn”, hay “Post-Traumatic Growth”, được phát triển bởi các nhà tâm lý học Richard Tedeschi và Lawrence Calhoun. Khái niệm này khẳng định rằng: con người khi trải qua những thảm kịch khắc nghiệt nhất, nếu tìm thấy điểm tựa ý nghĩa sống và tình yêu thương, họ không chỉ phục hồi mà còn phát triển một tầng sâu sức mạnh nội tâm phi thường. Colleen đã duy trì được nhân tính của mình ngay trong chiếc hộp gỗ nhờ vào trí tưởng tượng phong phú, hồi tưởng về gia đình và niềm tin tâm linh vững chắc. Cô từng tâm sự rằng quá trình chữa lành không phải là cố gắng xóa bỏ quá khứ đau thương, mà là học cách sống hòa bình với những vết sẹo và biến chúng thành sức mạnh để bước tiếp. Câu chuyện của cô được ghi lại trọn vẹn trong cuốn sách “The Simple Gifts of Life”, trở thành ngọn hải đăng hy vọng cho biết bao tâm hồn đang chìm trong bế tắc.",
   "sentences": [
    {
     "id": "5.03#1",
-    "text": "Hành trình hồi sinh của Colleen Stan là minh chứng sống động nhất cho khái niệm Tăng trưởng Sau Sang chấn, hay Post-Traumatic Growth trong tâm lý học hiện đại.",
-    "words": 30
+    "text": "Hành trình hồi sinh của Colleen Stan là minh chứng sống động nhất cho khái niệm “Tăng trưởng Sau Sang chấn”, hay “Post-Traumatic Growth”, được phát triển bởi các nhà tâm lý học Richard Tedeschi và Lawrence Calhoun.",
+    "words": 38
    },
    {
     "id": "5.03#2",
-    "text": "Khi trải qua những nghịch cảnh cùng cực nhất, nếu con người tìm thấy được ý nghĩa của sự sống và tình yêu thương, họ không chỉ hồi phục mà còn tôi luyện nên một sức mạnh tinh thần kiên cường gấp bội phần.",
-    "words": 44
+    "text": "Khái niệm này khẳng định rằng: con người khi trải qua những thảm kịch khắc nghiệt nhất, nếu tìm thấy điểm tựa ý nghĩa sống và tình yêu thương, họ không chỉ phục hồi mà còn phát triển một tầng sâu sức mạnh nội tâm phi thường.",
+    "words": 47
    },
    {
     "id": "5.03#3",
-    "text": "Colleen đã chứng minh rằng quá trình chữa lành không phải là xóa bỏ quá khứ, mà là học cách sống hòa bình với những vết thương và biến chúng thành sức mạnh nội tâm.",
-    "words": 35
+    "text": "Colleen đã duy trì được nhân tính của mình ngay trong chiếc hộp gỗ nhờ vào trí tưởng tượng phong phú, hồi tưởng về gia đình và niềm tin tâm linh vững chắc.",
+    "words": 33
+   },
+   {
+    "id": "5.03#4",
+    "text": "Cô từng tâm sự rằng quá trình chữa lành không phải là cố gắng xóa bỏ quá khứ đau thương, mà là học cách sống hòa bình với những vết sẹo và biến chúng thành sức mạnh để bước tiếp.",
+    "words": 40
+   },
+   {
+    "id": "5.03#5",
+    "text": "Câu chuyện của cô được ghi lại trọn vẹn trong cuốn sách “The Simple Gifts of Life”, trở thành ngọn hải đăng hy vọng cho biết bao tâm hồn đang chìm trong bế tắc.",
+    "words": 34
    }
   ]
  },
@@ -1166,17 +1306,27 @@
   "kind": "LOI",
   "role": "D",
   "direction": "nhận định di sản tư pháp và giáo dục",
-  "text": "Hồ sơ vụ án Cô gái trong hộp gỗ đã trở thành một bài học giáo trình bắt buộc tại Học viện FBI và các cơ quan thực thi pháp luật quốc tế. Nó cảnh tỉnh toàn xã hội về một loại tội phạm nguy hiểm: Những kẻ không chỉ cướp đoạt thể xác, mà còn dùng nỗi sợ hãi để xây dựng những nhà tù vô hình giam hãm tâm trí của nạn nhân.",
+  "text": "Về mặt tư pháp và xã hội, hồ sơ vụ án Colleen Stan đã tạo nên một bước ngoặt lịch sử trong nhận thức của các cơ quan thực thi pháp luật quốc tế. Vụ án đặt nền móng quan trọng cho các đạo luật hiện đại về “Kiểm soát cưỡng ép” và “Bạo lực tâm lý phi thể xác”. Nó cảnh tỉnh toàn xã hội rằng: có những chiếc lồng giam không hề dùng tới chấn song sắt, mà được xây bằng sự thao túng, nỗi sợ hãi và sự cô lập thông tin tinh vi. Các phiên điều trần xét ân xá của Cameron Hooker trong nhiều năm sau đó đều liên tục bị bác bỏ, khẳng định sự nghiêm minh không khoan nhượng của công lý đối với tội ác kiểm soát con người.",
   "sentences": [
    {
     "id": "5.04#1",
-    "text": "Hồ sơ vụ án Cô gái trong hộp gỗ đã trở thành một bài học giáo trình bắt buộc tại Học viện FBI và các cơ quan thực thi pháp luật quốc tế.",
-    "words": 33
+    "text": "Về mặt tư pháp và xã hội, hồ sơ vụ án Colleen Stan đã tạo nên một bước ngoặt lịch sử trong nhận thức của các cơ quan thực thi pháp luật quốc tế.",
+    "words": 34
    },
    {
     "id": "5.04#2",
-    "text": "Nó cảnh tỉnh toàn xã hội về một loại tội phạm nguy hiểm: Những kẻ không chỉ cướp đoạt thể xác, mà còn dùng nỗi sợ hãi để xây dựng những nhà tù vô hình giam hãm tâm trí của nạn nhân.",
-    "words": 42
+    "text": "Vụ án đặt nền móng quan trọng cho các đạo luật hiện đại về “Kiểm soát cưỡng ép” và “Bạo lực tâm lý phi thể xác”.",
+    "words": 26
+   },
+   {
+    "id": "5.04#3",
+    "text": "Nó cảnh tỉnh toàn xã hội rằng: có những chiếc lồng giam không hề dùng tới chấn song sắt, mà được xây bằng sự thao túng, nỗi sợ hãi và sự cô lập thông tin tinh vi.",
+    "words": 37
+   },
+   {
+    "id": "5.04#4",
+    "text": "Các phiên điều trần xét ân xá của Cameron Hooker trong nhiều năm sau đó đều liên tục bị bác bỏ, khẳng định sự nghiêm minh không khoan nhượng của công lý đối với tội ác kiểm soát con người.",
+    "words": 40
    }
   ]
  },
@@ -1186,92 +1336,77 @@
   "kind": "LOI",
   "role": "H",
   "direction": "chuyển sang phần đúc kết và bài học nhận diện",
-  "text": "Để bảo vệ bản thân và những người thân yêu trước những kẻ thao túng và bẫy tâm lý độc hại, kênh Amber Eyes xin đúc kết bốn dấu hiệu cảnh báo đỏ từ câu chuyện lịch sử này: Dấu hiệu thứ nhất: Cảnh giác trước những bẫy niềm tin ngụy tạo. Kẻ săn mồi tâm lý thường không xuất hiện với vẻ ngoài hung hãn. Chúng thường ẩn mình sau những vỏ bọc vô hại nhất, như một gia đình ấm áp, một nụ cười thân thiện hay một cử chỉ tử tế bất ngờ nhằm hạ gục bức tường cảnh giác tự nhiên của bạn. Dấu hiệu thứ hai: Nhận diện thủ thuật cô lập không gian và tước đoạt thông tin. Mọi mối quan hệ độc hại, từ gia đình, tình yêu cho đến các hội nhóm xã hội, đều bắt đầu bằng việc tìm cách cắt đứt mối liên hệ giữa bạn với bạn bè, người thân và các nguồn tin độc lập. Khi bạn bị cô lập, thực tại duy nhất của bạn sẽ bị bóp méo theo ý muốn của kẻ thao túng. Dấu hiệu thứ ba: Tỉnh táo trước những kẻ thù tưởng tượng. Kẻ thao túng luôn tìm cách gieo rắc nỗi sợ hãi về một mối đe dọa mơ hồ bên ngoài nhằm biến bản thân chúng thành nơi che chở hoặc là chuẩn mực duy nhất mà bạn phải phục tùng. Hãy luôn kiểm chứng thông tin và dũng cảm đối chiếu thực tế. Dấu hiệu thứ tư: Phá vỡ sự bất lực tập nhiễm trong suy nghĩ. Không có lồng giam nào là vĩnh cửu nếu chúng ta không tự mình từ bỏ hy vọng. Dù hoàn cảnh có tăm tối đến đâu, khả năng làm chủ suy nghĩ và ý chí hướng về ánh sáng luôn là ngọn lửa thiêng liêng mà không một kẻ thủ ác nào có thể dập tắt. Tự do đích thực không chỉ là bước đôi chân ra khỏi một chiếc hộp gỗ, mà là sự dũng cảm đập tan những xiềng xích vô hình đang kìm kẹp tâm trí của chính mình. Cảm ơn quý vị đã đồng hành cùng Amber Eyes trong tập hồ sơ giàu cảm xúc ngày hôm nay. Hãy bấm đăng ký kênh và chia sẻ suy nghĩ của bạn ở phần bình luận bên dưới. Xin chào và hẹn gặp lại quý vị trong những tập tiếp theo.",
+  "text": "Để bảo vệ chính mình và những người thân yêu trước những kẻ săn mồi tâm lý độc hại, kênh Amber Eyes xin đúc kết bốn bài học cảnh báo đỏ sinh tồn từ tấn bi kịch lịch sử này theo nguyên lý “The Gift of Fear” của Gavin de Becker. Dấu hiệu thứ nhất: Cảnh giác trước “Hiệu ứng Hào quang” và những vỏ bọc vô hại hoàn hảo. Kẻ săn mồi tâm lý nguy hiểm nhất thường không xuất hiện với vẻ ngoài hung tợn, mà ẩn mình sau hình ảnh một gia đình ấm áp, một đứa trẻ thơ ngây hoặc một cử chỉ tử tế dồn dập nhằm đánh sập bức tường phòng ngự tự nhiên của bạn. Dấu hiệu thứ hai: Nhận diện thủ thuật cô lập không gian và tước đoạt thông tin. Mọi mối quan hệ độc hại thao túng đều bắt đầu bằng việc tìm cách cắt đứt mối liên kết giữa bạn với người thân, bạn bè và thế giới bên ngoài, nhằm biến kẻ thao túng thành nguồn chân lý duy nhất. Dấu hiệu thứ ba: Tỉnh táo trước những “Kẻ thù tưởng tượng” và mối đe dọa vô hình. Kẻ thao túng luôn tìm cách thêu dệt nên những bóng ma bên ngoài để gieo rắc nỗi sợ hãi tê liệt, biến bản thân chúng thành chiếc khiên bảo vệ duy nhất mà bạn buộc phải phục tùng. Dấu hiệu thứ tư: Phá vỡ “Sự bất lực tập nhiễm” trong suy nghĩ. Lồng giam kiên cố nhất không phải là chiếc hộp bằng gỗ dưới gầm giường, mà là ý nghĩ buông xuôi rằng bản thân hoàn toàn bất lực trước nghịch cảnh. Hãy luôn lắng nghe tiếng nói trực giác bất an bên trong bạn, bởi trực giác chính là món quà sinh tồn nguyên thủy bảo vệ con người trước hiểm nguy. Tự do đích thực không chỉ là bước đôi chân ra khỏi một căn phòng tối, mà là sự dũng cảm phá tan những xiềng xích thao túng đang giam hãm tâm trí của chính mình. Cảm ơn quý vị đã đồng hành cùng Amber Eyes trong tập hồ sơ giải phẫu tâm lý đặc biệt ngày hôm nay. Hãy nhấn đăng ký kênh, bật chuông thông báo và chia sẻ góc nhìn sâu sắc của quý vị ở phần bình luận bên dưới. Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
   "sentences": [
    {
     "id": "5.05#1",
-    "text": "Để bảo vệ bản thân và những người thân yêu trước những kẻ thao túng và bẫy tâm lý độc hại, kênh Amber Eyes xin đúc kết bốn dấu hiệu cảnh báo đỏ từ câu chuyện lịch sử này:",
-    "words": 39
+    "text": "Để bảo vệ chính mình và những người thân yêu trước những kẻ săn mồi tâm lý độc hại, kênh Amber Eyes xin đúc kết bốn bài học cảnh báo đỏ sinh tồn từ tấn bi kịch lịch sử này theo nguyên lý “The Gift of Fear” của Gavin de Becker.",
+    "words": 51
    },
    {
     "id": "5.05#2",
-    "text": "Dấu hiệu thứ nhất: Cảnh giác trước những bẫy niềm tin ngụy tạo.",
-    "words": 13
+    "text": "Dấu hiệu thứ nhất: Cảnh giác trước “Hiệu ứng Hào quang” và những vỏ bọc vô hại hoàn hảo.",
+    "words": 19
    },
    {
     "id": "5.05#3",
-    "text": "Kẻ săn mồi tâm lý thường không xuất hiện với vẻ ngoài hung hãn.",
-    "words": 14
+    "text": "Kẻ săn mồi tâm lý nguy hiểm nhất thường không xuất hiện với vẻ ngoài hung tợn, mà ẩn mình sau hình ảnh một gia đình ấm áp, một đứa trẻ thơ ngây hoặc một cử chỉ tử tế dồn dập nhằm đánh sập bức tường phòng ngự tự nhiên của bạn.",
+    "words": 52
    },
    {
     "id": "5.05#4",
-    "text": "Chúng thường ẩn mình sau những vỏ bọc vô hại nhất, như một gia đình ấm áp, một nụ cười thân thiện hay một cử chỉ tử tế bất ngờ nhằm hạ gục bức tường cảnh giác tự nhiên của bạn.",
-    "words": 41
-   },
-   {
-    "id": "5.05#5",
     "text": "Dấu hiệu thứ hai: Nhận diện thủ thuật cô lập không gian và tước đoạt thông tin.",
     "words": 17
    },
    {
-    "id": "5.05#6",
-    "text": "Mọi mối quan hệ độc hại, từ gia đình, tình yêu cho đến các hội nhóm xã hội, đều bắt đầu bằng việc tìm cách cắt đứt mối liên hệ giữa bạn với bạn bè, người thân và các nguồn tin độc lập.",
+    "id": "5.05#5",
+    "text": "Mọi mối quan hệ độc hại thao túng đều bắt đầu bằng việc tìm cách cắt đứt mối liên kết giữa bạn với người thân, bạn bè và thế giới bên ngoài, nhằm biến kẻ thao túng thành nguồn chân lý duy nhất.",
     "words": 43
    },
    {
+    "id": "5.05#6",
+    "text": "Dấu hiệu thứ ba: Tỉnh táo trước những “Kẻ thù tưởng tượng” và mối đe dọa vô hình.",
+    "words": 18
+   },
+   {
     "id": "5.05#7",
-    "text": "Khi bạn bị cô lập, thực tại duy nhất của bạn sẽ bị bóp méo theo ý muốn của kẻ thao túng.",
-    "words": 22
+    "text": "Kẻ thao túng luôn tìm cách thêu dệt nên những bóng ma bên ngoài để gieo rắc nỗi sợ hãi tê liệt, biến bản thân chúng thành chiếc khiên bảo vệ duy nhất mà bạn buộc phải phục tùng.",
+    "words": 39
    },
    {
     "id": "5.05#8",
-    "text": "Dấu hiệu thứ ba: Tỉnh táo trước những kẻ thù tưởng tượng.",
-    "words": 12
-   },
-   {
-    "id": "5.05#9",
-    "text": "Kẻ thao túng luôn tìm cách gieo rắc nỗi sợ hãi về một mối đe dọa mơ hồ bên ngoài nhằm biến bản thân chúng thành nơi che chở hoặc là chuẩn mực duy nhất mà bạn phải phục tùng.",
-    "words": 40
-   },
-   {
-    "id": "5.05#10",
-    "text": "Hãy luôn kiểm chứng thông tin và dũng cảm đối chiếu thực tế.",
-    "words": 13
-   },
-   {
-    "id": "5.05#11",
-    "text": "Dấu hiệu thứ tư: Phá vỡ sự bất lực tập nhiễm trong suy nghĩ.",
+    "text": "Dấu hiệu thứ tư: Phá vỡ “Sự bất lực tập nhiễm” trong suy nghĩ.",
     "words": 14
    },
    {
-    "id": "5.05#12",
-    "text": "Không có lồng giam nào là vĩnh cửu nếu chúng ta không tự mình từ bỏ hy vọng.",
-    "words": 18
+    "id": "5.05#9",
+    "text": "Lồng giam kiên cố nhất không phải là chiếc hộp bằng gỗ dưới gầm giường, mà là ý nghĩ buông xuôi rằng bản thân hoàn toàn bất lực trước nghịch cảnh.",
+    "words": 31
    },
    {
-    "id": "5.05#13",
-    "text": "Dù hoàn cảnh có tăm tối đến đâu, khả năng làm chủ suy nghĩ và ý chí hướng về ánh sáng luôn là ngọn lửa thiêng liêng mà không một kẻ thủ ác nào có thể dập tắt.",
-    "words": 38
+    "id": "5.05#10",
+    "text": "Hãy luôn lắng nghe tiếng nói trực giác bất an bên trong bạn, bởi trực giác chính là món quà sinh tồn nguyên thủy bảo vệ con người trước hiểm nguy.",
+    "words": 31
    },
    {
-    "id": "5.05#14",
-    "text": "Tự do đích thực không chỉ là bước đôi chân ra khỏi một chiếc hộp gỗ, mà là sự dũng cảm đập tan những xiềng xích vô hình đang kìm kẹp tâm trí của chính mình.",
+    "id": "5.05#11",
+    "text": "Tự do đích thực không chỉ là bước đôi chân ra khỏi một căn phòng tối, mà là sự dũng cảm phá tan những xiềng xích thao túng đang giam hãm tâm trí của chính mình.",
     "words": 36
    },
    {
-    "id": "5.05#15",
-    "text": "Cảm ơn quý vị đã đồng hành cùng Amber Eyes trong tập hồ sơ giàu cảm xúc ngày hôm nay.",
-    "words": 20
+    "id": "5.05#12",
+    "text": "Cảm ơn quý vị đã đồng hành cùng Amber Eyes trong tập hồ sơ giải phẫu tâm lý đặc biệt ngày hôm nay.",
+    "words": 23
    },
    {
-    "id": "5.05#16",
-    "text": "Hãy bấm đăng ký kênh và chia sẻ suy nghĩ của bạn ở phần bình luận bên dưới.",
-    "words": 18
+    "id": "5.05#13",
+    "text": "Hãy nhấn đăng ký kênh, bật chuông thông báo và chia sẻ góc nhìn sâu sắc của quý vị ở phần bình luận bên dưới.",
+    "words": 25
    },
    {
-    "id": "5.05#17",
-    "text": "Xin chào và hẹn gặp lại quý vị trong những tập tiếp theo.",
-    "words": 13
+    "id": "5.05#14",
+    "text": "Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
+    "words": 17
    }
   ]
  },
@@ -1279,6 +1414,6 @@
   "id": "5.06",
   "act": 5,
   "kind": "BGM",
-  "desc": "*Nhạc nền ngân vang ấm áp, trang trọng rồi mờ dần (Fade out hoàn toàn ở giây thứ 5).*"
+  "desc": "Nhạc nền ngân vang ấm áp, trang trọng rồi mờ dần và tắt hoàn toàn ở giây thứ 5."
  }
 ]

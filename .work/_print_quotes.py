@@ -1,15 +1,7 @@
-import json
-import sys
-
-try:
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-except Exception:
-    pass
-
-s = json.loads(open(".work/script_tap04.json", encoding="utf-8").read())
-targets = ("1.07#1", "1.07#2", "1.07#3", "1.07#4", "4.06#1", "4.06#2", "4.06#3", "4.06#4", "4.06#5", "4.12#6", "4.12#7")
-
-for e in s:
-    for it in e.get("sentences", []):
-        if it["id"] in targets:
-            print(f"[{it['id']}]: \"{it['text']}\"")
+import re, sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+raw = open('01_KICH_BAN/Tap09/kichban_tap09_23102026.md', encoding='utf-8').read()
+q = re.findall(r"'([^']{2,})'", raw)
+print(f"Total {len(q)} quotes in VN:")
+for i, item in enumerate(q, 1):
+    print(f"  [{i}] {item}")

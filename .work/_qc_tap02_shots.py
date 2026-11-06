@@ -94,7 +94,10 @@ def ctx_of(s):
                 ids = p["sentences"]
                 break
     ctx = " ".join(SENT[x]["text"] for x in ids)
-    if not ctx and s["template"] == "T10":          # thẻ chương: tên hồi trong edition.py
+    if not ctx and (s["template"] == "T10" or not s.get("sentences")):
+        # Thẻ tiêu đề (không có câu đọc): nguồn dữ kiện là TÊN HỒI trong edition.py
+        # (ví dụ thẻ mở đầu "HỒI 01 · BỨC THƯ TÁI XUẤT SAU 13 NĂM LẶNG CĂM" —
+        #  con số nằm trong tên hồi, không phải số bịa trên hình).
         ctx = " ".join(ED.EP["act_titles"].values())
     return ctx
 

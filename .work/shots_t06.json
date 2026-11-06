@@ -1,11 +1,11 @@
 {
- "total": 1258.37,
+ "total": 1939.45,
  "shots": [
   {
    "id": "1-00",
    "act": 1,
    "start": 20.5,
-   "end": 22.8,
+   "end": 22.81,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -42,8 +42,8 @@
   {
    "id": "1-01",
    "act": 1,
-   "start": 22.8,
-   "end": 39.69,
+   "start": 22.81,
+   "end": 36.94,
    "role": "H",
    "sentences": [
     "1.02#1"
@@ -86,8 +86,8 @@
   {
    "id": "1-02",
    "act": 1,
-   "start": 39.69,
-   "end": 54.31,
+   "start": 36.94,
+   "end": 58.54,
    "role": "H",
    "sentences": [
     "1.02#2",
@@ -109,7 +109,7 @@
       ],
       [
        "ital",
-       "Cái bắt tay với Đệ nhất phu nhân Rosalynn Carter"
+       "Được cấp phát sau quy trình thẩm tra lý lịch nghiêm ngặt"
       ]
      ]
     }
@@ -131,8 +131,8 @@
   {
    "id": "1-03",
    "act": 1,
-   "start": 54.31,
-   "end": 65.1,
+   "start": 58.54,
+   "end": 70.78,
    "role": "H",
    "sentences": [
     "1.02#4"
@@ -175,16 +175,15 @@
   {
    "id": "1-04",
    "act": 1,
-   "start": 65.1,
-   "end": 82.3,
+   "start": 70.78,
+   "end": 81.4,
    "role": "H",
    "sentences": [
-    "1.02#5",
-    "1.02#6"
+    "1.02#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t6_clown_costume_closet",
+   "bg": "t6_pdm_contractors_office",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -194,11 +193,11 @@
      "elems": [
       [
        "bold",
-       "CHÚ HỀ POGO VÀ NHỮNG NỤ CƯỜI MIỄN PHÍ"
+       "BẾP NGOÀI TRỜI & GIỚI THẦU ĐỊA PHƯƠNG"
       ],
       [
        "ital",
-       "Mang lại niềm vui cho bệnh nhi đang chống chọi bệnh tật"
+       "Quen biết thẩm phán, nghị sĩ và quan chức thực thi pháp luật"
       ]
      ]
     }
@@ -220,8 +219,97 @@
   {
    "id": "1-05",
    "act": 1,
-   "start": 82.3,
-   "end": 94.97,
+   "start": 81.4,
+   "end": 90.62,
+   "role": "H",
+   "sentences": [
+    "1.02#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_clown_costume_closet",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BỘ TRANG PHỤC CHÚ HỀ POGO"
+      ],
+      [
+       "ital",
+       "Người đàn ông nhân từ thường xuyên khoác lên mình"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-06",
+   "act": 1,
+   "start": 90.62,
+   "end": 107.21,
+   "role": "H",
+   "sentences": [
+    "1.02#7",
+    "1.02#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "charity",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HÌNH MẪU CÔNG DÂN GƯƠNG MẪU"
+      ],
+      [
+       "ital",
+       "Bệnh viện nhi và hội chợ từ thiện — một trụ cột đáng kính của xã hội đương thời"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-07",
+   "act": 1,
+   "start": 107.21,
+   "end": 117.79,
    "role": "H",
    "sentences": [
     "1.04#1"
@@ -246,13 +334,13 @@
       ],
       [
        "ital",
-       "Âm thầm vận hành ngay giữa khu dân cư yên bình"
+       "Hiệu ứng Hào quang che mắt cả cộng đồng"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Chớp máy ảnh lách tách `1.03`",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": true,
@@ -266,10 +354,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-06",
+   "id": "1-08",
    "act": 1,
-   "start": 94.97,
-   "end": 103.33,
+   "start": 117.79,
+   "end": 129.04,
    "role": "H",
    "sentences": [
     "1.04#2"
@@ -290,7 +378,7 @@
       ],
       [
        "ital",
-       "Mái ấm biến thành nơi che giấu tội ác"
+       "Chiếc bẫy âm thầm vận hành suốt nhiều năm giữa khu dân cư yên bình"
       ]
      ]
     }
@@ -310,15 +398,17 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-07",
+   "id": "1-09",
    "act": 1,
-   "start": 103.33,
-   "end": 104.63,
-   "role": null,
-   "sentences": [],
+   "start": 129.04,
+   "end": 137.93,
+   "role": "H",
+   "sentences": [
+    "1.04#3"
+   ],
    "template": "T1",
    "variant": "",
-   "bg": "t6_summerdale_house_winter_exterior",
+   "bg": "t6_psychological_mask_metaphor",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -328,11 +418,99 @@
      "elems": [
       [
        "bold",
-       "KHU LĂNG MỘ NGẦM RÙNG RỢN"
+       "MÁI ẤM GIA ĐÌNH HÓA KHU LĂNG MỘ"
       ],
       [
        "ital",
-       "Mái ấm biến thành nơi che giấu tội ác"
+       "Một nhân cách đen tối biến chính mái ấm của mình thành nghĩa trang ngầm"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-10",
+   "act": 1,
+   "start": 137.93,
+   "end": 148.32,
+   "role": "H",
+   "sentences": [
+    "1.04#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_dossier_gacy_case_06",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SỤP ĐỔ CỦA CHIẾC MẶT NẠ"
+      ],
+      [
+       "ital",
+       "Cơn chấn động tập thể bao trùm khắp toàn bộ xã hội Mỹ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-11",
+   "act": 1,
+   "start": 148.32,
+   "end": 149.62,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_dossier_gacy_case_06",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SỤP ĐỔ CỦA CHIẾC MẶT NẠ"
+      ],
+      [
+       "ital",
+       "Cơn chấn động tập thể bao trùm khắp toàn bộ xã hội Mỹ"
       ]
      ]
     }
@@ -350,13 +528,13 @@
    },
    "hold": true,
    "transition": "dissolve",
-   "inherit": "1-06"
+   "inherit": "1-10"
   },
   {
-   "id": "1-08",
+   "id": "1-12",
    "act": 1,
-   "start": 104.63,
-   "end": 123.27,
+   "start": 149.62,
+   "end": 165.69,
    "role": "H",
    "sentences": [
     "1.06#1",
@@ -398,14 +576,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-09",
+   "id": "1-13",
    "act": 1,
-   "start": 123.27,
-   "end": 136.81,
+   "start": 165.69,
+   "end": 175.26,
    "role": "H",
    "sentences": [
-    "1.06#3",
-    "1.06#4"
+    "1.06#3"
    ],
    "template": "T1",
    "variant": "",
@@ -419,11 +596,11 @@
      "elems": [
       [
        "bold",
-       "CHIẾC XE HƠI NỔ MÁY SƯỞI ẤM"
+       "NGƯỜI MẸ LÁI XE ĐẾN HIỆU THUỐC"
       ],
       [
        "ital",
-       "Người mẹ kiên nhẫn chờ đón con trai 15 tuổi tan ca"
+       "Đón cậu con trai 15 tuổi tan ca làm thêm sau giờ học"
       ]
      ]
     }
@@ -443,13 +620,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-10",
+   "id": "1-14",
    "act": 1,
-   "start": 136.81,
-   "end": 144.56,
+   "start": 175.26,
+   "end": 188.13,
    "role": "H",
    "sentences": [
-    "1.06#5"
+    "1.06#4"
    ],
    "template": "T1",
    "variant": "",
@@ -467,7 +644,7 @@
       ],
       [
        "ital",
-       "Cậu là một thiếu niên ngoan ngoãn, chăm chỉ"
+       "Robert Piest — học sinh danh dự lớp mười trường trung học Maine West"
       ]
      ]
     }
@@ -487,17 +664,17 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-11",
+   "id": "1-15",
    "act": 1,
-   "start": 144.56,
-   "end": 149.23,
+   "start": 188.13,
+   "end": 193.88,
    "role": "H",
    "sentences": [
-    "1.06#6"
+    "1.06#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t6_car_exhaust_snow_lot",
+   "bg": "t6_deserted_parking_lot_snow",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -511,13 +688,13 @@
       ],
       [
        "ital",
-       "Robert xin mẹ đợi thêm vài phút"
+       "Robert chạy vội ra xe xin mẹ đợi thêm vài phút"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Đóng cửa xe `1.07`",
+   "beat_text": "—",
    "flags": {
     "bust": true,
     "nobust": false,
@@ -531,18 +708,62 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-12",
+   "id": "1-16",
    "act": 1,
-   "start": 149.23,
-   "end": 167.01,
+   "start": 193.88,
+   "end": 209.75,
    "role": "H",
    "sentences": [
-    "1.06#7",
-    "1.08#1"
+    "1.06#6",
+    "1.06#7"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t6_pharmacy_counters_renovation",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NĂM ĐÔ LA MỘT GIỜ"
+      ],
+      [
+       "ital",
+       "Lời mời làm thêm của một nhà thầu đang sửa kệ trong tiệm thuốc"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-17",
+   "act": 1,
+   "start": 209.75,
+   "end": 217.49,
+   "role": "H",
+   "sentences": [
+    "1.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_bank_cash_withdrawal",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -576,10 +797,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-13",
+   "id": "1-18",
    "act": 1,
-   "start": 167.01,
-   "end": 179.73,
+   "start": 217.49,
+   "end": 232.28,
    "role": "H",
    "sentences": [
     "1.08#2",
@@ -597,17 +818,17 @@
      "elems": [
       [
        "bold",
-       "CHIẾC ÁO KHOÁC MỎNG BỎ QUÊN"
+       "MỘT CƠ HỘI KHÔNG THỂ CHỐI TỪ"
       ],
       [
        "ital",
-       "Lần cuối cùng người mẹ nhìn thấy bóng dáng con trai còn sống"
+       "Cậu học sinh trung học háo hức quay lại gặp người đàn ông lạ mặt"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Bước chân trên tuyết",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": true,
@@ -621,14 +842,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-14",
+   "id": "1-19",
    "act": 1,
-   "start": 179.73,
-   "end": 187.91,
+   "start": 232.28,
+   "end": 240.09,
    "role": "H",
    "sentences": [
-    "1.08#4",
-    "1.08#5"
+    "1.08#4"
    ],
    "template": "T1",
    "variant": "",
@@ -642,11 +862,11 @@
      "elems": [
       [
        "bold",
-       "BÃI ĐỖ XE HOANG VẮNG GIỮA GIÓ TUYẾT"
+       "LẦN CUỐI CÙNG NGƯỜI MẸ NHÌN THẤY CON"
       ],
       [
        "ital",
-       "Mười phút, hai mươi phút rồi một tiếng đồng hồ trôi qua · Robert không bao giờ quay lại"
+       "Robert biến mất không một dấu vết"
       ]
      ]
     }
@@ -666,13 +886,101 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-15",
+   "id": "1-20",
    "act": 1,
-   "start": 187.91,
-   "end": 195.65,
+   "start": 240.09,
+   "end": 250.59,
+   "role": "H",
+   "sentences": [
+    "1.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_car_exhaust_snow_lot",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MƯỜI PHÚT · BA MƯƠI PHÚT · MỘT TIẾNG"
+      ],
+      [
+       "ital",
+       "Trong nỗi bồn chồn nghẹt thở ngồi đợi giữa bão tuyết"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-21",
+   "act": 1,
+   "start": 250.59,
+   "end": 254.61,
    "role": "H",
    "sentences": [
     "1.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_dossier_gacy_case_06",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BIẾN MẤT KHÔNG MỘT DẤU VẾT"
+      ],
+      [
+       "ital",
+       "Cậu bé Robert Piest không bao giờ quay lại"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-22",
+   "act": 1,
+   "start": 254.61,
+   "end": 265.48,
+   "role": "H",
+   "sentences": [
+    "1.08#7"
    ],
    "template": "T1",
    "variant": "",
@@ -686,11 +994,11 @@
      "elems": [
       [
        "bold",
-       "TÂM TRẠNG KIM BYERS"
+       "LẮNG NGHE KÝ ỨC CỦA KIM BYERS"
       ],
       [
        "ital",
-       "Cô đồng nghiệp mười bảy tuổi của Robert ở hiệu thuốc tối hôm ấy"
+       "Cô đồng nghiệp mười bảy tuổi của Robert tại hiệu thuốc Nisson"
       ]
      ]
     }
@@ -698,7 +1006,7 @@
    "beats": [],
    "beat_text": "—",
    "flags": {
-    "bust": false,
+    "bust": true,
     "nobust": false,
     "intro": false,
     "handoff": [
@@ -712,14 +1020,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-16",
+   "id": "1-23",
    "act": 1,
-   "start": 195.65,
-   "end": 204.05,
+   "start": 265.48,
+   "end": 286.08,
    "role": "N1",
    "sentences": [
     "1.09#1",
-    "1.09#2"
+    "1.09#2",
+    "1.09#3"
    ],
    "template": "T4",
    "variant": "testimony",
@@ -733,7 +1042,7 @@
      "elems": [
       [
        "quote",
-       "Tối hôm đó, hiệu thuốc đang được sửa lại một số kệ hàng. Nhà thầu John Gacy trò chuyện khá cởi mở với nhân viên."
+       "Tối hôm đó, hiệu thuốc chúng tôi đang sửa chữa một số dãy tủ kệ và nhà thầu John Gacy đã ở đó suốt buổi chiều. Ông ta nói chuyện rất vui vẻ, cởi mở với tất cả nhân viên và tỏ ra là một người lớn vô cùng tốt bụng."
       ]
      ]
     }
@@ -753,13 +1062,12 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-17",
+   "id": "1-24",
    "act": 1,
-   "start": 204.05,
-   "end": 219.85,
+   "start": 286.08,
+   "end": 303.93,
    "role": "N1",
    "sentences": [
-    "1.09#3",
     "1.09#4",
     "1.09#5"
    ],
@@ -775,13 +1083,13 @@
      "elems": [
       [
        "quote",
-       "Robert hào hứng lắm, cậu bảo chỉ ra nói chuyện vài phút rồi sẽ về mừng sinh nhật mẹ. Nhưng Robert không quay lại."
+       "Cậu ấy chỉ chạy vào nói với tôi vài câu rồi vội vã đi ra ngoài để nói chuyện với Gacy trước khi về nhà cắt bánh sinh nhật với mẹ. Nhưng Robert không bao giờ quay trở lại"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Tiếng chuông điện thoại đồn cảnh sát `1.10`",
+   "beat_text": "—",
    "flags": {
     "bust": true,
     "nobust": false,
@@ -797,10 +1105,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-18",
+   "id": "1-25",
    "act": 1,
-   "start": 219.85,
-   "end": 232.64,
+   "start": 303.93,
+   "end": 319.04,
    "role": "H",
    "sentences": [
     "1.11#1",
@@ -822,7 +1130,7 @@
       ],
       [
        "ital",
-       "Sở Cảnh sát Des Plaines vào cuộc"
+       "Sở Cảnh sát Des Plaines vào cuộc ngay trước mắt người mẹ"
       ]
      ]
     }
@@ -844,15 +1152,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-19",
+   "id": "1-26",
    "act": 1,
-   "start": 232.64,
-   "end": 253.86,
-   "role": "D",
+   "start": 319.04,
+   "end": 325.94,
+   "role": "H",
    "sentences": [
-    "1.12#1",
-    "1.12#2",
-    "1.12#3"
+    "1.11#3"
    ],
    "template": "T1",
    "variant": "",
@@ -866,11 +1172,11 @@
      "elems": [
       [
        "bold",
-       "TRUNG ÚY JOSEPH KOZENCZAK"
+       "MANH MỐI DUY NHẤT"
       ],
       [
        "ital",
-       "Manh mối duy nhất: Nhà thầu John Wayne Gacy"
+       "Nhà thầu xây dựng John Wayne Gacy — người tiếp xúc cuối cùng với cậu bé"
       ]
      ]
     }
@@ -879,8 +1185,145 @@
    "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": false,
-    "intro": true,
+    "nobust": true,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-27",
+   "act": 1,
+   "start": 325.94,
+   "end": 340.63,
+   "role": "D",
+   "sentences": [
+    "1.12#1",
+    "1.12#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_detective_desk_missing_file",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "DẤU HIỆU BẤT THƯỜNG"
+      ],
+      [
+       "ital",
+       "Học sinh danh dự chuẩn bị về nhà mừng sinh nhật mẹ không thuộc nhóm bỏ nhà đi bụi"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-28",
+   "act": 1,
+   "start": 340.63,
+   "end": 356.07,
+   "role": "D",
+   "sentences": [
+    "1.12#3",
+    "1.12#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_des_plaines_police_station",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "LỆNH TRIỆU TẬP GIỮA ĐÊM 11 THÁNG 12"
+      ],
+      [
+       "ital",
+       "Gacy viện cớ xe sa lầy tuyết để trì hoãn cuộc thẩm vấn"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-29",
+   "act": 1,
+   "start": 356.07,
+   "end": 370.29,
+   "role": "D",
+   "sentences": [
+    "1.12#5",
+    "1.12#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_police_interrogation_room_empty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BÌNH THẢN BƯỚC VÀO PHÒNG THẨM VẤN"
+      ],
+      [
+       "ital",
+       "Hắn hoàn toàn phủ nhận mọi lời hứa với Robert Piest"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
     "handoff": [
      "H"
     ],
@@ -892,10 +1335,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-20",
+   "id": "1-30",
    "act": 1,
-   "start": 253.86,
-   "end": 276.75,
+   "start": 370.29,
+   "end": 386.0,
    "role": "H",
    "sentences": [
     "1.13#1",
@@ -913,11 +1356,11 @@
      "elems": [
       [
        "bold",
-       "PHÒNG THẨM VẤN CẢNH SÁT DES PLAINES"
+       "SỰ TỰ TIN TUYỆT ĐỐI TRƯỚC THẨM VẤN"
       ],
       [
        "ital",
-       "Gacy xuất hiện với phong thái vô cùng tự tin"
+       "Uy tín chính trị khiến các sĩ quan thị trấn nhỏ phải e dè"
       ]
      ]
     }
@@ -939,14 +1382,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-21",
+   "id": "1-31",
    "act": 1,
-   "start": 276.75,
-   "end": 286.14,
+   "start": 386.0,
+   "end": 396.02,
    "role": "D",
    "sentences": [
-    "1.14#1",
-    "1.14#2"
+    "1.14#1"
    ],
    "template": "T1",
    "variant": "",
@@ -960,11 +1402,11 @@
      "elems": [
       [
        "bold",
-       "QUẦN ÁO DÍNH ĐẦY BÙN ĐẤT"
+       "QUẦN ÁO DÍNH ĐẦY BÙN ĐẤT ẨM ƯỚT"
       ],
       [
        "ital",
-       "Một chi tiết nhỏ lọt vào mắt các điều tra viên dày dạn"
+       "Trên gấu quần và đế giày của Gacy"
       ]
      ]
     }
@@ -973,8 +1415,53 @@
    "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": false,
-    "intro": true,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-32",
+   "act": 1,
+   "start": 396.02,
+   "end": 415.49,
+   "role": "D",
+   "sentences": [
+    "1.14#2",
+    "1.14#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_summerdale_house_winter_exterior",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MÂU THUẪN KHÔNG THỂ GIẢI THÍCH"
+      ],
+      [
+       "ital",
+       "Giữa một đêm Illinois đóng băng tuyết trắng"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
     "handoff": [
      "C"
     ],
@@ -986,16 +1473,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-22",
+   "id": "1-33",
    "act": 1,
-   "start": 286.14,
-   "end": 314.69,
+   "start": 415.49,
+   "end": 423.26,
    "role": "C",
    "sentences": [
-    "1.15#1",
-    "1.15#2",
-    "1.15#3",
-    "1.15#4"
+    "1.15#1"
    ],
    "template": "T1",
    "variant": "",
@@ -1009,11 +1493,11 @@
      "elems": [
       [
        "bold",
-       "MẶT NẠ ÁI KỶ CỦA KẺ THÁI NHÂN CÁCH"
+       "RỐI LOẠN NHÂN CÁCH CHỐNG ĐỐI XÃ HỘI"
       ],
       [
        "ital",
-       "Lòng nhân ái giả tạo tự thôi miên chính bản thân"
+       "Hiện thân kinh điển kết hợp với Ái kỷ ác tính"
       ]
      ]
     }
@@ -1035,10 +1519,104 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-23",
+   "id": "1-34",
    "act": 1,
-   "start": 314.69,
-   "end": 340.38,
+   "start": 423.26,
+   "end": 432.41,
+   "role": "C",
+   "sentences": [
+    "1.15#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_clown_costume_closet",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MẶT NẠ KHÔNG ĐƯỢC TẠO TỪ SỰ CÔ ĐƠC"
+      ],
+      [
+       "ital",
+       "Mà dệt nên từ chính sự hào nhoáng của địa vị xã hội"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-35",
+   "act": 1,
+   "start": 432.41,
+   "end": 457.06,
+   "role": "C",
+   "sentences": [
+    "1.15#3",
+    "1.15#4",
+    "1.15#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_clown_mirror_chiaroscuro",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HAI MỤC ĐÍCH SỐNG CÒN"
+      ],
+      [
+       "ital",
+       "Hiệu ứng Hào quang làm tê liệt cảnh giác · Cơ chế tự thôi miên nhận thức"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-36",
+   "act": 1,
+   "start": 457.06,
+   "end": 481.75,
    "role": "H",
    "sentences": [
     "1.16#1",
@@ -1060,7 +1638,7 @@
       ],
       [
        "ital",
-       "Quyết không lùi bước trước các mối quan hệ ngầm"
+       "Cuộc đối đầu tại đồn cảnh sát Des Plaines lúc rạng sáng"
       ]
      ]
     }
@@ -1080,10 +1658,52 @@
    "transition": "dissolve"
   },
   {
+   "id": "1-37",
+   "act": 1,
+   "start": 481.75,
+   "end": 483.55,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 02"
+      ],
+      [
+       "bold",
+       "HIỆN TRƯỜNG & QUỸ ĐẠO LEO THANG CỦA VỰC THẲM"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
    "id": "2-01",
    "act": 2,
-   "start": 340.38,
-   "end": 359.49,
+   "start": 483.55,
+   "end": 503.82,
    "role": "H",
    "sentences": [
     "2.02#1",
@@ -1105,7 +1725,7 @@
       ],
       [
        "ital",
-       "Những dữ liệu bàng hoàng hiện lên màn hình"
+       "Trung úy Kozenczak lập tức ra lệnh rà soát tàng thư căn cước tư pháp"
       ]
      ]
     }
@@ -1129,8 +1749,8 @@
   {
    "id": "2-02",
    "act": 2,
-   "start": 359.49,
-   "end": 379.85,
+   "start": 503.82,
+   "end": 524.71,
    "role": "D",
    "sentences": [
     "2.03#1",
@@ -1152,7 +1772,7 @@
       ],
       [
        "ital",
-       "Kết án mười năm tù tại thị trấn Waterloo, bang Iowa · Ân xá sớm sau mười tám tháng"
+       "Thị trấn Waterloo, bang Iowa — kết án mười năm tù giam"
       ]
      ]
     }
@@ -1174,8 +1794,8 @@
   {
    "id": "2-03",
    "act": 2,
-   "start": 379.85,
-   "end": 395.18,
+   "start": 524.71,
+   "end": 544.83,
    "role": "D",
    "sentences": [
     "2.03#3",
@@ -1193,11 +1813,11 @@
      "elems": [
       [
        "bold",
-       "VĂN PHÒNG PDM CONTRACTORS"
+       "TỪ NHÀ TÙ RA VỀ THÀNH PHỐ"
       ],
       [
        "ital",
-       "Nỗ lực xóa sạch dấu vết quá khứ"
+       "Ân xá sớm sau mười tám tháng · Thành lập PDM Contractors và thâm nhập câu lạc bộ chính trị"
       ]
      ]
     }
@@ -1221,12 +1841,152 @@
   {
    "id": "2-04",
    "act": 2,
-   "start": 395.18,
-   "end": 421.23,
-   "role": "H",
+   "start": 544.83,
+   "end": 564.11,
+   "role": "C",
    "sentences": [
     "2.04#1",
     "2.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_psychological_floor_cross_section",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NÓI NỔ VÀ ĐIỂM GÃY TÂM LÝ"
+      ],
+      [
+       "ital",
+       "Bản án năm 1968 tại Iowa định hình toàn bộ chuỗi hành vi tội ác về sau"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-05",
+   "act": 2,
+   "start": 564.11,
+   "end": 583.77,
+   "role": "C",
+   "sentences": [
+    "2.04#3",
+    "2.04#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_abusive_childhood_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NẤC THANG THỨ NHẤT"
+      ],
+      [
+       "ital",
+       "Tổn thương tuổi thơ bị bạo hành và sỉ nhục hình thành khao khát kiểm soát"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-06",
+   "act": 2,
+   "start": 583.77,
+   "end": 616.79,
+   "role": "C",
+   "sentences": [
+    "2.04#5",
+    "2.04#6",
+    "2.04#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_psychological_mask_metaphor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NẤC THANG THỨ HAI · THỨ BA · THỨ TƯ"
+      ],
+      [
+       "ital",
+       "Từ Iowa đến tháng 1 năm 1972; rồi cơn nghiện ảo tưởng mất kiểm soát giai đoạn 1976–1978"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-07",
+   "act": 2,
+   "start": 616.79,
+   "end": 641.08,
+   "role": "H",
+   "sentences": [
+    "2.05#1",
+    "2.05#2"
    ],
    "template": "T5",
    "variant": "date",
@@ -1244,13 +2004,13 @@
       ],
       [
        "ital",
-       "Lệnh khám xét đầu tiên số 8213 West Summerdale"
+       "Lệnh khám xét đầu tiên — số 8213 Đại lộ West Summerdale"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Tiếng gõ cửa điều tra `2.05`",
+   "beat_text": "—",
    "flags": {
     "bust": true,
     "nobust": false,
@@ -1266,13 +2026,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-05",
+   "id": "2-08",
    "act": 2,
-   "start": 421.23,
-   "end": 426.42,
+   "start": 641.08,
+   "end": 647.27,
    "role": "D",
    "sentences": [
-    "2.06#1"
+    "2.07#1"
    ],
    "template": "T1",
    "variant": "",
@@ -1290,7 +2050,7 @@
       ],
       [
        "ital",
-       "Rà soát bên trong hiện trường"
+       "Một ngôi nhà một tầng kiểu nông trại ở vùng ngoại ô yên bình"
       ]
      ]
     }
@@ -1310,15 +2070,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-06",
+   "id": "2-09",
    "act": 2,
-   "start": 426.42,
-   "end": 449.92,
+   "start": 647.27,
+   "end": 667.39,
    "role": "D",
    "sentences": [
-    "2.06#2",
-    "2.06#3",
-    "2.06#4"
+    "2.07#2",
+    "2.07#3",
+    "2.07#4"
    ],
    "template": "T1",
    "variant": "",
@@ -1332,11 +2092,11 @@
      "elems": [
       [
        "bold",
-       "CÒNG TAY KIM LOẠI & NHIỀU PHÙ HIỆU CẢNH SÁT"
+       "CÒNG TAY KIM LOẠI & PHÙ HIỆU CẢNH SÁT GIẢ"
       ],
       [
        "ital",
-       "Hai vật chứng bước ngoặt: Cuống vé Nisson và chiếc nhẫn JAS"
+       "Dùi cui và sách nghiên cứu kỹ thuật trói buộc"
       ]
      ]
     }
@@ -1347,9 +2107,7 @@
     "bust": true,
     "nobust": false,
     "intro": false,
-    "handoff": [
-     "H"
-    ],
+    "handoff": [],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1358,13 +2116,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-07",
+   "id": "2-10",
    "act": 2,
-   "start": 449.92,
-   "end": 459.61,
-   "role": "H",
+   "start": 667.39,
+   "end": 677.13,
+   "role": "D",
    "sentences": [
-    "2.07#1"
+    "2.07#5"
    ],
    "template": "T1",
    "variant": "",
@@ -1382,7 +2140,7 @@
       ],
       [
        "ital",
-       "Bằng chứng Gacy có mặt vào đúng buổi tối Robert mất tích"
+       "Chứng minh Gacy đã tiếp xúc với nhân viên quầy thuốc đúng buổi tối Robert mất tích"
       ]
      ]
     }
@@ -1390,9 +2148,9 @@
    "beats": [],
    "beat_text": "—",
    "flags": {
-    "bust": false,
+    "bust": true,
     "nobust": false,
-    "intro": true,
+    "intro": false,
     "handoff": [],
     "dual": false,
     "guests": false,
@@ -1402,15 +2160,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-08",
+   "id": "2-11",
    "act": 2,
-   "start": 459.61,
-   "end": 483.43,
-   "role": "H",
+   "start": 677.13,
+   "end": 681.7,
+   "role": "D",
    "sentences": [
-    "2.07#2",
-    "2.07#3",
-    "2.07#4"
+    "2.07#6"
    ],
    "template": "T1",
    "variant": "",
@@ -1428,7 +2184,7 @@
       ],
       [
        "ital",
-       "John Alan Szyc (19 tuổi, mất tích 1/1977) · Một lời giải thích qua loa"
+       "Chiếc nhẫn tốt nghiệp trung học năm 1975"
       ]
      ]
     }
@@ -1448,14 +2204,14 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-09",
+   "id": "2-12",
    "act": 2,
-   "start": 483.43,
-   "end": 504.58,
+   "start": 681.7,
+   "end": 703.49,
    "role": "H",
    "sentences": [
-    "2.07#5",
-    "2.07#6"
+    "2.08#1",
+    "2.08#2"
    ],
    "template": "T1",
    "variant": "",
@@ -1469,11 +2225,11 @@
      "elems": [
       [
        "bold",
-       "CHIẾN THUẬT GIÁM SÁT TỐI HẬU"
+       "JOHN ALAN SZYC, MƯỜI CHÍN TUỔI"
       ],
       [
        "ital",
-       "Đặc nhiệm bám đuôi Gacy 24/24 giờ mỗi ngày"
+       "Mất tích bí ẩn tại Chicago từ tháng 1 năm 1977 — Gacy bịa câu chuyện về chiếc nhẫn"
       ]
      ]
     }
@@ -1481,8 +2237,52 @@
    "beats": [],
    "beat_text": "—",
    "flags": {
-    "bust": true,
+    "bust": false,
     "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-13",
+   "act": 2,
+   "start": 703.49,
+   "end": 713.33,
+   "role": "H",
+   "sentences": [
+    "2.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_dossier_gacy_case_06",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ROBERT PIEST KHÔNG PHẢI LÀ NẠN NHÂN DUY NHẤT"
+      ],
+      [
+       "ital",
+       "Một kỷ vật của người mất tích đã xác nhận một nghi vấn rùng mình"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
     "intro": false,
     "handoff": [
      "D"
@@ -1495,18 +2295,18 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-10",
+   "id": "2-14",
    "act": 2,
-   "start": 504.58,
-   "end": 524.09,
+   "start": 713.33,
+   "end": 727.25,
    "role": "D",
    "sentences": [
-    "2.08#1",
-    "2.08#2"
+    "2.09#1",
+    "2.09#2"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t6_surveillance_car_rain_night",
+   "bg": "t6_handwritten_crawlspace_map",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -1516,24 +2316,22 @@
      "elems": [
       [
        "bold",
-       "BỐN SĨ QUAN DÀY DẠN KINH NGHIỆM"
+       "THỦ ĐOẠN GÂY ÁN (MO)"
       ],
       [
        "ital",
-       "Albrecht · Hachmeister · Schultz · Robinson bám sát không rời"
+       "Hắn liên tục thay đổi và hoàn thiện kỹ thuật theo thời gian"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Tiếng cần gạt nước mưa đêm",
+   "beat_text": "—",
    "flags": {
-    "bust": true,
-    "nobust": false,
+    "bust": false,
+    "nobust": true,
     "intro": false,
-    "handoff": [
-     "H"
-    ],
+    "handoff": [],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1542,18 +2340,17 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-11",
+   "id": "2-15",
    "act": 2,
-   "start": 524.09,
-   "end": 543.48,
-   "role": "H",
+   "start": 727.25,
+   "end": 734.19,
+   "role": "D",
    "sentences": [
-    "2.09#1",
-    "2.09#2"
+    "2.09#3"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t6_chicago_highway_pursuit",
+   "bg": "t6_pharmacy_register_receipt",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -1563,11 +2360,11 @@
      "elems": [
       [
        "bold",
-       "CUỘC BÁM ĐUỔI TRÊN CAO TỐC CHICAGO"
+       "MỒI NHỬ LƯƠNG CAO"
       ],
       [
        "ital",
-       "Sự lệch lạc tâm lý và thói ngạo mạn tột cùng"
+       "Lời hứa việc làm lương cao để làm tê liệt phản kháng"
       ]
      ]
     }
@@ -1578,9 +2375,7 @@
     "bust": true,
     "nobust": false,
     "intro": false,
-    "handoff": [
-     "C"
-    ],
+    "handoff": [],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1589,16 +2384,58 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-12",
+   "id": "2-16",
    "act": 2,
-   "start": 543.48,
-   "end": 571.27,
-   "role": "C",
+   "start": 734.19,
+   "end": 744.45,
+   "role": "D",
    "sentences": [
-    "2.10#1",
-    "2.10#2",
-    "2.10#3",
-    "2.10#4"
+    "2.09#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_handcuff_trick_demonstration",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CÒNG TAY ẢO THUẬT"
+      ],
+      [
+       "ital",
+       "Lừa nạn nhân tự đưa tay vào còng trước khi bị khóa chặt"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-17",
+   "act": 2,
+   "start": 744.45,
+   "end": 755.31,
+   "role": "D",
+   "sentences": [
+    "2.09#5",
+    "2.09#6"
    ],
    "template": "T1",
    "variant": "",
@@ -1612,11 +2449,11 @@
      "elems": [
       [
        "bold",
-       "CƠ CHẾ BÙ TRỪ QUYỀN LỰC"
+       "CHỮ KÝ TÂM LÝ (SIGNATURE)"
       ],
       [
        "ital",
-       "Ái kỷ ác tính xem cảnh sát là khán giả của mình"
+       "Nhu cầu bệnh lý biến nạn nhân thành đạo cụ quyền lực"
       ]
      ]
     }
@@ -1625,8 +2462,96 @@
    "beat_text": "—",
    "flags": {
     "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-18",
+   "act": 2,
+   "start": 755.31,
+   "end": 763.35,
+   "role": "D",
+   "sentences": [
+    "2.09#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_highschool_ring_jas",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CHIẾN LỢI PHẨM"
+      ],
+      [
+       "ital",
+       "Nhẫn tốt nghiệp, ví tiền và giấy tờ lái xe của nạn nhân"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
     "nobust": false,
-    "intro": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-19",
+   "act": 2,
+   "start": 763.35,
+   "end": 773.56,
+   "role": "D",
+   "sentences": [
+    "2.09#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_psychological_floor_cross_section",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CHÔN GIẤU NGAY DƯỚI SÀN NHÀ"
+      ],
+      [
+       "ital",
+       "Đi lại bên trên những sinh mạng do chính mình đoạt quyền"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
     "handoff": [
      "H"
     ],
@@ -1638,14 +2563,193 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-13",
+   "id": "2-20",
    "act": 2,
-   "start": 571.27,
-   "end": 588.67,
+   "start": 773.56,
+   "end": 783.99,
    "role": "H",
    "sentences": [
-    "2.11#1",
-    "2.11#2"
+    "2.10#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_search_warrant_documents",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CHƯA ĐỦ CHỨNG CỨ VẬT CHẤT"
+      ],
+      [
+       "ital",
+       "Chưa thể ra lệnh bắt giữ chính thức về nơi ở hay nơi cất giấu"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-21",
+   "act": 2,
+   "start": 783.99,
+   "end": 794.73,
+   "role": "H",
+   "sentences": [
+    "2.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_des_plaines_police_station",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CHIẾN THUẬT GIÁM SÁT ĐẶC BIỆT"
+      ],
+      [
+       "ital",
+       "Tránh kẻ thủ ác tiêu huỷ chứng cứ hoặc tiếp tục gây hại"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-22",
+   "act": 2,
+   "start": 794.73,
+   "end": 811.66,
+   "role": "H",
+   "sentences": [
+    "2.10#3",
+    "2.10#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_surveillance_car_rain_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BỐN SĨ QUAN BÁM ĐUÔI"
+      ],
+      [
+       "ital",
+       "Hai chiếc xe cảnh sát dân sự theo sát chiếc xe của Gacy từ sáng sớm tinh mơ đến nửa đêm"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-23",
+   "act": 2,
+   "start": 811.66,
+   "end": 830.2,
+   "role": "H",
+   "sentences": [
+    "2.10#5",
+    "2.10#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_psychological_mask_metaphor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SÀN DIỄN CÁ NHÂN"
+      ],
+      [
+       "ital",
+       "Thay vì sợ hãi, Gacy biến cuộc theo dõi thành sân khấu riêng cho mình"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-24",
+   "act": 2,
+   "start": 830.2,
+   "end": 838.95,
+   "role": "H",
+   "sentences": [
+    "2.10#7"
    ],
    "template": "T1",
    "variant": "",
@@ -1663,7 +2767,7 @@
       ],
       [
        "ital",
-       "Thử thách lòng kiên nhẫn của các thám tử"
+       "Chạy chậm rì rì trên đường cao tốc để thử thách lòng kiên nhẫn"
       ]
      ]
     }
@@ -1671,9 +2775,9 @@
    "beats": [],
    "beat_text": "—",
    "flags": {
-    "bust": false,
+    "bust": true,
     "nobust": false,
-    "intro": true,
+    "intro": false,
     "handoff": [],
     "dual": false,
     "guests": false,
@@ -1683,14 +2787,14 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-14",
+   "id": "2-25",
    "act": 2,
-   "start": 588.67,
-   "end": 600.45,
+   "start": 838.95,
+   "end": 858.32,
    "role": "H",
    "sentences": [
-    "2.11#3",
-    "2.11#4"
+    "2.10#8",
+    "2.10#9"
    ],
    "template": "T1",
    "variant": "",
@@ -1704,20 +2808,16 @@
      "elems": [
       [
        "bold",
-       "HÀO PHÓNG MUA BIA CHO CẢNH SÁT"
-      ],
-      [
-       "ital",
-       "Nụ cười rạng rỡ như thể đang tiếp đãi bạn bè"
+       "MỜI CẢNH SÁT VÀO NHÀ HÀNG TỐI"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Tiếng leng keng thìa cốc",
+   "beat_text": "—",
    "flags": {
-    "bust": true,
-    "nobust": false,
+    "bust": false,
+    "nobust": true,
     "intro": false,
     "handoff": [],
     "dual": false,
@@ -1728,18 +2828,18 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-15",
+   "id": "2-26",
    "act": 2,
-   "start": 600.45,
-   "end": 611.7,
-   "role": "H",
+   "start": 858.32,
+   "end": 872.44,
+   "role": "C",
    "sentences": [
-    "2.11#5",
-    "2.11#6"
+    "2.11#1",
+    "2.11#2"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t6_des_plaines_police_station",
+   "bg": "t6_psychological_mask_metaphor",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -1749,11 +2849,11 @@
      "elems": [
       [
        "bold",
-       "NGÀY CÀNG MẤT BÌNH TĨNH"
+       "CƠ CHẾ BÙ TRỪ QUYỀN LỰC"
       ],
       [
        "ital",
-       "Cơ hội hành động duy nhất của ban chuyên án đã điểm"
+       "Bị cả đội cảnh sát bám đuôi không tạo sợ hãi mà tạo hưng phấn adrenaline"
       ]
      ]
     }
@@ -1761,10 +2861,12 @@
    "beats": [],
    "beat_text": "—",
    "flags": {
-    "bust": true,
+    "bust": false,
     "nobust": false,
-    "intro": false,
-    "handoff": [],
+    "intro": true,
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1773,10 +2875,189 @@
    "transition": "dissolve"
   },
   {
+   "id": "2-27",
+   "act": 2,
+   "start": 872.44,
+   "end": 884.86,
+   "role": "C",
+   "sentences": [
+    "2.11#3",
+    "2.11#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_clown_mirror_chiaroscuro",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "KHÁNH GIẢ BẤT ĐẮC DĨ"
+      ],
+      [
+       "ital",
+       "Hắn xem các nhân viên thực thi pháp luật như người chiêm ngưỡng sự vượt trội của mình"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-28",
+   "act": 2,
+   "start": 884.86,
+   "end": 903.27,
+   "role": "H",
+   "sentences": [
+    "2.12#1",
+    "2.12#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_police_entry_summerdale",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MỘT SƠ HỞ TỪ HỆ THỐNG SƯỞI ẤM"
+      ],
+      [
+       "ital",
+       "Sự căng thẳng bào mòn sức chịu đựng qua từng ngày bị phong tỏa"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-29",
+   "act": 2,
+   "start": 903.27,
+   "end": 905.37,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_police_entry_summerdale",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MỘT SƠ HỞ TỪ HỆ THỐNG SƯỞI ẤM"
+      ],
+      [
+       "ital",
+       "Sự căng thẳng bào mòn sức chịu đựng qua từng ngày bị phong tỏa"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng còi xe cảnh sát rít xé màn đêm",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "2-28"
+  },
+  {
+   "id": "2-30",
+   "act": 2,
+   "start": 905.37,
+   "end": 907.17,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 03"
+      ],
+      [
+       "bold",
+       "GIẢI PHẪU TÂM LÝ — SỰ CHIA NGĂN NHẬN THỨC & KHOẢNG TỐI SUMMERDALE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
    "id": "3-01",
    "act": 3,
-   "start": 611.7,
-   "end": 632.79,
+   "start": 907.17,
+   "end": 929.14,
    "role": "H",
    "sentences": [
     "3.02#1",
@@ -1798,7 +3079,7 @@
       ],
       [
        "ital",
-       "Văn phòng luật sư riêng · Dấu hiệu suy sụp bất thường"
+       "Rượu, nước mắt và những lời lẩm bẩm về những điều không thể cứu vãn"
       ]
      ]
     }
@@ -1822,13 +3103,103 @@
   {
    "id": "3-02",
    "act": 3,
-   "start": 632.79,
-   "end": 658.35,
+   "start": 929.14,
+   "end": 936.72,
+   "role": "H",
+   "sentences": [
+    "3.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_des_plaines_police_station",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CHẠM TỚI ĐIỂM GÃY TÂM LÝ"
+      ],
+      [
+       "ital",
+       "Ban chuyên án quyết định hành động ngay lập tức"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-03",
+   "act": 3,
+   "start": 936.72,
+   "end": 945.88,
    "role": "D",
    "sentences": [
-    "3.03#1",
-    "3.03#2",
-    "3.03#3"
+    "3.03#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_des_plaines_police_station",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BẮT GIỮ NGÀY 21 THÁNG 12"
+      ],
+      [
+       "ital",
+       "Cáo buộc tàng trữ chất cấm để giữ chân hắn tại đồn cảnh sát"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-04",
+   "act": 3,
+   "start": 945.88,
+   "end": 955.05,
+   "role": "D",
+   "sentences": [
+    "3.03#2"
    ],
    "template": "T1",
    "variant": "",
@@ -1846,20 +3217,18 @@
       ],
       [
        "ital",
-       "Rà soát toàn bộ kết cấu nền móng căn nhà"
+       "Một đội đặc biệt âm thầm tiến vào số 8213 West Summerdale"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Tiếng mở cửa gỗ kẽo kẹt `3.04`",
+   "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": false,
-    "intro": true,
-    "handoff": [
-     "H"
-    ],
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1868,13 +3237,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-03",
+   "id": "3-05",
    "act": 3,
-   "start": 658.35,
-   "end": 668.57,
-   "role": "H",
+   "start": 955.05,
+   "end": 976.64,
+   "role": "D",
    "sentences": [
-    "3.05#1"
+    "3.03#3",
+    "3.03#4",
+    "3.03#5"
    ],
    "template": "T1",
    "variant": "",
@@ -1888,110 +3259,17 @@
      "elems": [
       [
        "bold",
-       "NẮP SÀN DẪN XUỐNG GẦM NHÀ"
+       "MÙI HÔI THỐI TỪ HỆ THỐNG SƯỞI ẤM"
       ],
       [
        "ital",
-       "Họ dần nhận ra điều mình lo sợ nhất có thể đã thành sự thật"
+       "Mỗi khi sàn nhà được bật sưởi, một luồng khí ngột ngạt bốc lên qua các khe thông gió"
       ]
      ]
     }
    ],
    "beats": [],
    "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": true,
-    "intro": false,
-    "handoff": [
-     "D"
-    ],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-04",
-   "act": 3,
-   "start": 668.57,
-   "end": 686.58,
-   "role": "D",
-   "sentences": [
-    "3.06#1",
-    "3.06#2"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t6_crawlspace_subterranean_tunnel",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "KHOẢNG KHÔNG GIAN BÒ (CRAWL SPACE)"
-      ],
-      [
-       "ital",
-       "Cao chưa đầy nửa mét · Trườn về phía trước bằng khuỷu tay"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": true,
-    "intro": false,
-    "handoff": [
-     "H"
-    ],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-05",
-   "act": 3,
-   "start": 686.58,
-   "end": 690.93,
-   "role": "H",
-   "sentences": [
-    "3.07#1"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t6_flashlight_beam_lime_dust",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "ÁNH ĐÈN PIN QUÉT QUA MẶT ĐẤT"
-      ],
-      [
-       "ital",
-       "Mặt đất phủ đầy bụi bặm"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Tiếng gió lùa gầm sàn",
    "flags": {
     "bust": false,
     "nobust": true,
@@ -2007,12 +3285,11 @@
   {
    "id": "3-06",
    "act": 3,
-   "start": 690.93,
-   "end": 705.58,
-   "role": "H",
+   "start": 976.64,
+   "end": 982.2,
+   "role": "D",
    "sentences": [
-    "3.07#2",
-    "3.09#1"
+    "3.03#6"
    ],
    "template": "T1",
    "variant": "",
@@ -2026,60 +3303,11 @@
      "elems": [
       [
        "bold",
-       "MỘT SỰ THẬT KINH HOÀNG XÉ TOẠC MÀN ĐÊM"
+       "MỞ NẮP SÀN KỸ THUẬT"
       ],
       [
        "ital",
-       "Đội ngũ pháp y lần lượt xác định thêm nhiều nạn nhân"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Tiếng xẻng cắm đất `3.08`",
-   "flags": {
-    "bust": false,
-    "nobust": true,
-    "intro": false,
-    "handoff": [
-     "C"
-    ],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-07",
-   "act": 3,
-   "start": 705.58,
-   "end": 725.81,
-   "role": "C",
-   "sentences": [
-    "3.10#1",
-    "3.10#2",
-    "3.10#3",
-    "3.10#4"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t6_psychological_floor_cross_section",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "TỘI ÁC GIẤU NGAY DƯỚI NƠI SINH HOẠT"
-      ],
-      [
-       "ital",
-       "Nhu cầu kiểm soát và chiếm hữu ở mức bệnh hoạn"
+       "Kiểm tra toàn bộ nền móng của ngôi nhà"
       ]
      ]
     }
@@ -2088,8 +3316,8 @@
    "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": false,
-    "intro": true,
+    "nobust": true,
+    "intro": false,
     "handoff": [
      "H"
     ],
@@ -2101,19 +3329,18 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-08",
+   "id": "3-07",
    "act": 3,
-   "start": 725.81,
-   "end": 748.15,
+   "start": 982.2,
+   "end": 998.23,
    "role": "H",
    "sentences": [
-    "3.11#1",
-    "3.11#2",
-    "3.11#3"
+    "3.05#1",
+    "3.05#2"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t6_night_excavation_floodlights",
+   "bg": "t6_crawlspace_subterranean_tunnel",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -2123,17 +3350,17 @@
      "elems": [
       [
        "bold",
-       "CHIẾN DỊCH KHAI QUẬT QUY MÔ KHỔNG LỒ"
+       "KHOẢNG KHÔNG GIAN BÒ CHẬT HẸP"
       ],
       [
        "ital",
-       "Các chuyên gia pháp y được huy động đến hiện trường"
+       "Cao chưa đầy nửa mét — chạy dọc toàn bộ diện tích sàn nhà"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Tiếng động cơ máy bơm",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": true,
@@ -2149,20 +3376,18 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-09",
+   "id": "3-08",
    "act": 3,
-   "start": 748.15,
-   "end": 768.6,
+   "start": 998.23,
+   "end": 1021.69,
    "role": "D",
    "sentences": [
-    "3.12#1",
-    "3.12#2",
-    "3.12#3",
-    "3.12#4"
+    "3.06#1",
+    "3.06#2"
    ],
-   "template": "T5",
+   "template": "T1",
    "variant": "",
-   "bg": "t6_des_plaines_river_bridge_winter",
+   "bg": "t6_flashlight_beam_lime_dust",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -2172,11 +3397,11 @@
      "elems": [
       [
        "bold",
-       "33 NẠN NHÂN"
+       "NẰM SẤP TRÊN NỀN ĐẤT ẨM"
       ],
       [
        "ital",
-       "26 dưới sàn · 3 trong khuôn viên · 4 ở sông Des Plaines"
+       "Điều tra viên phải cởi quân phục, đeo mặt nạ dưỡng khí và trườn bằng khuỷu tay"
       ]
      ]
     }
@@ -2198,15 +3423,239 @@
    "transition": "dissolve"
   },
   {
+   "id": "3-09",
+   "act": 3,
+   "start": 1021.69,
+   "end": 1037.65,
+   "role": "D",
+   "sentences": [
+    "3.06#3",
+    "3.06#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_forensic_trowel_damp_soil",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MỘT CHIẾC XẺNG CẮM SÂU"
+      ],
+      [
+       "ital",
+       "Những rãnh đất bị xới xáo và lấp vội vàng dưới phòng ngủ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
    "id": "3-10",
    "act": 3,
-   "start": 768.6,
-   "end": 793.62,
+   "start": 1037.65,
+   "end": 1053.4,
    "role": "H",
    "sentences": [
-    "3.13#1",
-    "3.13#2",
-    "3.13#3"
+    "3.08#1",
+    "3.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_forensic_trowel_damp_soil",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CHỈ SAU VÀI NHÁT XẺNG"
+      ],
+      [
+       "ital",
+       "Mảnh vải quần áo và xương cốt người nằm sâu trong lòng đất"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-11",
+   "act": 3,
+   "start": 1053.4,
+   "end": 1064.83,
+   "role": "H",
+   "sentences": [
+    "3.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_psychological_floor_cross_section",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NGHĨA TRANG NGẦM DƯỚI PHÒNG KHÁCH"
+      ],
+      [
+       "ital",
+       "Ngay dưới nơi Gacy từng tiếp đón bạn bè và đi lại mỗi đêm"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-12",
+   "act": 3,
+   "start": 1064.83,
+   "end": 1066.13,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_psychological_floor_cross_section",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NGHĨA TRANG NGẦM DƯỚI PHÒNG KHÁCH"
+      ],
+      [
+       "ital",
+       "Ngay dưới nơi Gacy từng tiếp đón bạn bè và đi lại mỗi đêm"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng thở dài trầm lặng",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "3-11"
+  },
+  {
+   "id": "3-13",
+   "act": 3,
+   "start": 1066.13,
+   "end": 1085.17,
+   "role": "D",
+   "sentences": [
+    "3.10#1",
+    "3.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_night_excavation_floodlights",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CHIẾN DỊCH KHAI QUẬT QUY MÔ LỚN"
+      ],
+      [
+       "ital",
+       "Chuyên gia pháp y Clyde Snow tỉ mỉ sàng lọc từng tấc đất"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-14",
+   "act": 3,
+   "start": 1085.17,
+   "end": 1102.88,
+   "role": "D",
+   "sentences": [
+    "3.10#3",
+    "3.10#4",
+    "3.10#5"
    ],
    "template": "T1",
    "variant": "",
@@ -2220,11 +3669,11 @@
      "elems": [
       [
        "bold",
-       "NƯỚC MỸ BÀNG HOÀNG RÚNG ĐỘNG"
+       "HAI MƯƠI SÁU NẠN NHÂN DƯỚI KHOẢNG KHÔNG GIAN BÒ"
       ],
       [
        "ital",
-       "Hai mặt nhân cách tàn độc nhất thế kỷ 20"
+       "Ba nạn nhân khác trong khuôn viên sân sau và dưới lối đi lát bê tông"
       ]
      ]
     }
@@ -2244,10 +3693,467 @@
    "transition": "dissolve"
   },
   {
+   "id": "3-15",
+   "act": 3,
+   "start": 1102.88,
+   "end": 1118.94,
+   "role": "D",
+   "sentences": [
+    "3.10#6",
+    "3.10#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_des_plaines_river_bridge_winter",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BA MƯƠI BA SINH MẠNG BỊ TƯỚC ĐOẠT"
+      ],
+      [
+       "ital",
+       "Bốn nạn nhân cuối cùng bị ném xuống dòng sông Des Plaines băng giá"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-16",
+   "act": 3,
+   "start": 1118.94,
+   "end": 1135.84,
+   "role": "C",
+   "sentences": [
+    "3.11#1",
+    "3.11#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_psychological_floor_cross_section",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CHIA NGĂN NHẬN THỨC"
+      ],
+      [
+       "ital",
+       "Hai ngăn kéo hoàn toàn biệt lập — không bao giờ giao thoa"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-17",
+   "act": 3,
+   "start": 1135.84,
+   "end": 1155.7,
+   "role": "C",
+   "sentences": [
+    "3.11#3",
+    "3.11#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_four_masks_psychiatric",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NGĂN KÉO THỨ NHẤT"
+      ],
+      [
+       "ital",
+       "Nhà thầu cần mẫn · người con hiếu thảo phụng dưỡng mẹ già · người chồng chu đáo"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-18",
+   "act": 3,
+   "start": 1155.7,
+   "end": 1178.83,
+   "role": "C",
+   "sentences": [
+    "3.11#5",
+    "3.11#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_scented_air_fresheners",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "LÁ CHẮN BÌNH THƯỜNG HÓA"
+      ],
+      [
+       "ital",
+       "Gia đình và người mẹ được dùng làm bảo chứng cho danh dự công dân"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-19",
+   "act": 3,
+   "start": 1178.83,
+   "end": 1199.33,
+   "role": "C",
+   "sentences": [
+    "3.11#7",
+    "3.11#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_clown_mirror_chiaroscuro",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NGĂN KÉO THỨ HAI"
+      ],
+      [
+       "ital",
+       "Thế giới bóng đêm săn mồi — tắm rửa rồi ăn tối cùng gia đình như chưa từng có chuyện gì"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-20",
+   "act": 3,
+   "start": 1199.33,
+   "end": 1225.16,
+   "role": "C",
+   "sentences": [
+    "3.11#9",
+    "3.11#10",
+    "3.11#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_psychological_mask_metaphor",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "VẬT HÓA & PHI NHÂN HÓA"
+      ],
+      [
+       "ital",
+       "Nạn nhân bị quy đổi thành đạo cụ quyền lực tạm thời"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-21",
+   "act": 3,
+   "start": 1225.16,
+   "end": 1239.94,
+   "role": "C",
+   "sentences": [
+    "3.11#12"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_abusive_childhood_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "THIẾU HỤT THẤU CẢM XÚC"
+      ],
+      [
+       "ital",
+       "Tiếng van xin không thể kích hoạt lòng trắc ẩn"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-22",
+   "act": 3,
+   "start": 1239.94,
+   "end": 1266.41,
+   "role": "C",
+   "sentences": [
+    "3.11#13",
+    "3.11#14",
+    "3.11#15"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_clown_oil_painting_easel",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "KỸ THUẬT TRUNG HÒA ĐẠO ĐỨC"
+      ],
+      [
+       "ital",
+       "Hắn đổ lỗi hoàn toàn cho nạn nhân rồi tự cấp cho mình quyền tước đoạt"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-23",
+   "act": 3,
+   "start": 1266.41,
+   "end": 1291.1,
+   "role": "H",
+   "sentences": [
+    "3.12#1",
+    "3.12#2",
+    "3.12#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_evidence_boxes_van",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CON QUÁI VẬT ĐÁNG SỢ NHẤT THẾ KỶ HAI MƯƠI"
+      ],
+      [
+       "ital",
+       "Nó sống ngay giữa một khu dân cư kiểu mẫu và mỉm cười chào hỏi hàng xóm"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-24",
+   "act": 3,
+   "start": 1291.1,
+   "end": 1292.9,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 04"
+      ],
+      [
+       "bold",
+       "ĐẤU TRÍ THẨM VẤN & SỤP ĐỔ VỞ KỊCH ĐA NHÂN CÁCH"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
    "id": "4-01",
    "act": 4,
-   "start": 793.62,
-   "end": 819.06,
+   "start": 1292.9,
+   "end": 1320.56,
    "role": "H",
    "sentences": [
     "4.02#1",
@@ -2266,11 +4172,11 @@
      "elems": [
       [
        "bold",
-       "CHIẾN THUẬT PHÒNG VỆ TINH VI MỚI"
+       "CHIẾN THUẬT PHÒNG VỆ TINH VI"
       ],
       [
        "ital",
-       "Dàn dựng vở kịch tâm thần nhằm trốn án tử"
+       "Dàn dựng một vở kịch tâm thần đa nhân cách để trốn án tử"
       ]
      ]
     }
@@ -2294,8 +4200,8 @@
   {
    "id": "4-02",
    "act": 4,
-   "start": 819.06,
-   "end": 848.54,
+   "start": 1320.56,
+   "end": 1343.17,
    "role": "D",
    "sentences": [
     "4.03#1",
@@ -2318,7 +4224,7 @@
       ],
       [
        "ital",
-       "John thầu xây dựng · John chính trị gia · Chú hề Pogo · Jack Hanley"
+       "John nhà thầu xây dựng · John chính trị gia · Pogo chú hề · Jack Hanley"
       ]
      ]
     }
@@ -2342,15 +4248,151 @@
   {
    "id": "4-03",
    "act": 4,
-   "start": 848.54,
-   "end": 878.92,
+   "start": 1343.17,
+   "end": 1358.11,
+   "role": "D",
+   "sentences": [
+    "4.03#4",
+    "4.03#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_dossier_gacy_case_06",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ĐỔ TOÀN BỘ HÀNH VI LÊN ĐẦU JACK HANLEY"
+      ],
+      [
+       "ital",
+       "Gacy tuyên bố bản thân chỉ là một nhân chứng bất lực bị kẹt trong thân xác"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-04",
+   "act": 4,
+   "start": 1358.11,
+   "end": 1368.51,
+   "role": "H",
+   "sentences": [
+    "4.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_handwritten_crawlspace_map",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "LẮNG NGHE KÝ ỨC SĨ QUAN MIKE ALBRECHT"
+      ],
+      [
+       "ital",
+       "Người trực tiếp ngồi đối diện Gacy trong những giờ phút đấu trí"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [
+     "N2"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-05",
+   "act": 4,
+   "start": 1368.51,
+   "end": 1387.0,
    "role": "N2",
    "sentences": [
-    "4.04#1",
-    "4.04#2",
-    "4.04#3",
-    "4.04#4",
-    "4.04#5"
+    "4.05#1",
+    "4.05#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_lawyer_office_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HỒI NHỮNG GIỜ PHÚT NGỒI ĐỐI DIỆN"
+      ],
+      [
+       "ital",
+       "Căn phòng hỏi cung ngột ngạt và nước mắt thật"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-06",
+   "act": 4,
+   "start": 1387.0,
+   "end": 1417.1,
+   "role": "N2",
+   "sentences": [
+    "4.05#3",
+    "4.05#4",
+    "4.05#5"
    ],
    "template": "T4",
    "variant": "testimony",
@@ -2364,7 +4406,7 @@
      "elems": [
       [
        "quote",
-       "Nhưng chỉ vài giây sau, ánh mắt hắn lại sắc lạnh, tỉnh táo và đầy toan tính."
+       "chỉ vài giây sau, khi nhắc đến một chi tiết hiện trường, ánh mắt hắn lập tức trở nên sắc lạnh, tỉnh táo và đầy toan tính."
       ]
      ]
     }
@@ -2373,8 +4415,8 @@
    "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": false,
-    "intro": true,
+    "nobust": true,
+    "intro": false,
     "handoff": [
      "H"
     ],
@@ -2386,14 +4428,14 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-04",
+   "id": "4-07",
    "act": 4,
-   "start": 878.92,
-   "end": 902.99,
+   "start": 1417.1,
+   "end": 1436.78,
    "role": "H",
    "sentences": [
-    "4.05#1",
-    "4.05#2"
+    "4.06#1",
+    "4.06#2"
    ],
    "template": "T5",
    "variant": "date",
@@ -2411,56 +4453,7 @@
       ],
       [
        "ital",
-       "Tòa án Hạt Cook · Phiên tòa xét xử mở màn"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": true,
-    "handoff": [
-     "C"
-    ],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-05",
-   "act": 4,
-   "start": 902.99,
-   "end": 931.34,
-   "role": "C",
-   "sentences": [
-    "4.06#1",
-    "4.06#2",
-    "4.06#3",
-    "4.06#4"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t6_abusive_childhood_shadow",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "CÁI TÔI ÁI KỶ BÙ ĐẮP BẤT LỰC"
-      ],
-      [
-       "ital",
-       "Tuổi thơ bị bạo hành và tính mục đích lập kế hoạch chi tiết"
+       "Tòa án Hạt Cook — phiên tòa được toàn thế giới theo dõi sát sao"
       ]
      ]
     }
@@ -2482,108 +4475,17 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-06",
-   "act": 4,
-   "start": 931.34,
-   "end": 942.76,
-   "role": "H",
-   "sentences": [
-    "4.07#1"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t6_cook_county_courthouse_exterior",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "CÔNG TỐ VIÊN WILLIAM KUNKLE"
-      ],
-      [
-       "ital",
-       "Đập tan tấm bình phong đa nhân cách bằng chứng cứ thực nghiệm"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": true,
-    "handoff": [
-     "D"
-    ],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-07",
-   "act": 4,
-   "start": 942.76,
-   "end": 955.4,
-   "role": "D",
-   "sentences": [
-    "4.08#1",
-    "4.08#2"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t6_bags_of_lime_garage",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "HÀNH ĐỘNG CÓ KẾ HOẠCH TỪ TRƯỚC"
-      ],
-      [
-       "ital",
-       "Hắn sai thợ phụ đào rãnh dưới nền nhà để che giấu tội ác"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": true,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
    "id": "4-08",
    "act": 4,
-   "start": 955.4,
-   "end": 960.38,
-   "role": "D",
+   "start": 1436.78,
+   "end": 1447.96,
+   "role": "H",
    "sentences": [
-    "4.08#3"
+    "4.06#3"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t6_lawyer_office_night",
+   "bg": "t6_psychiatric_evaluation_room",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -2593,11 +4495,11 @@
      "elems": [
       [
        "bold",
-       "MÁNH KHÓE LỪA GẠT"
+       "LÝ DO MẤT NĂNG LỰC NHẬN THỨC"
       ],
       [
        "ital",
-       "Hắn khiến các nạn nhân mất cảnh giác"
+       "Các luật sư dựa vào tổn thương tâm lý thời thơ ấu bị bạo hành"
       ]
      ]
     }
@@ -2605,12 +4507,10 @@
    "beats": [],
    "beat_text": "—",
    "flags": {
-    "bust": true,
-    "nobust": false,
+    "bust": false,
+    "nobust": true,
     "intro": false,
-    "handoff": [
-     "C"
-    ],
+    "handoff": [],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2621,17 +4521,16 @@
   {
    "id": "4-09",
    "act": 4,
-   "start": 960.38,
-   "end": 979.78,
+   "start": 1447.96,
+   "end": 1463.89,
    "role": "C",
    "sentences": [
-    "4.09#1",
-    "4.09#2",
-    "4.09#3"
+    "4.07#1",
+    "4.07#2"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t6_jury_deliberation_room",
+   "bg": "t6_abusive_childhood_shadow",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -2641,11 +4540,11 @@
      "elems": [
       [
        "bold",
-       "BÁC BỎ LÝ DO TÂM THẦN"
+       "TUỔI THƠ NGẬP TRÀN SỈ NHỤC"
       ],
       [
        "ital",
-       "Chuỗi liên kết nhân quả mạch lạc và che giấu có hệ thống"
+       "Những sang chấn bẻ gãy sự phát triển cảm xúc bình thường"
       ]
      ]
     }
@@ -2669,12 +4568,286 @@
   {
    "id": "4-10",
    "act": 4,
-   "start": 979.78,
-   "end": 1006.59,
+   "start": 1463.89,
+   "end": 1483.77,
+   "role": "C",
+   "sentences": [
+    "4.07#3",
+    "4.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_jury_deliberation_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "TÍNH MỤC ĐÍCH & KHẢ NĂNG LÊN KẾ HOẠCH"
+      ],
+      [
+       "ital",
+       "Ranh giới mấu chốt giữa bệnh nhân và kẻ thái nhân cách"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-11",
+   "act": 4,
+   "start": 1483.77,
+   "end": 1494.62,
    "role": "H",
+   "sentences": [
+    "4.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_cook_county_courthouse_exterior",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CÔNG TỐ VIÊN TRƯỞNG WILLIAM KUNKLE"
+      ],
+      [
+       "ital",
+       "Bẻ nát tấm bình phong đa nhân cách bằng chứng cứ thực nghiệm"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-12",
+   "act": 4,
+   "start": 1494.62,
+   "end": 1513.4,
+   "role": "D",
+   "sentences": [
+    "4.09#1",
+    "4.09#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_handwritten_crawlspace_map",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HÀNH ĐỘNG CÓ KẾ HOẠCH TỪ TRƯỚC"
+      ],
+      [
+       "ital",
+       "Người thợ phụ trẻ đào sẵn rãnh đất dưới khoảng không gian bò"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-13",
+   "act": 4,
+   "start": 1513.4,
+   "end": 1527.09,
+   "role": "D",
+   "sentences": [
+    "4.09#3",
+    "4.09#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_bags_of_lime_garage",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "DỤNG CỤ KHỐNG CHẾ GIẤU KÍN"
+      ],
+      [
+       "ital",
+       "Rải vôi bột khử mùi và dọn sạch hiện trường sau mỗi vụ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-14",
+   "act": 4,
+   "start": 1527.09,
+   "end": 1534.91,
+   "role": "D",
+   "sentences": [
+    "4.09#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_judge_gavel_death_penalty",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SỰ TỈNH TÁO TUYỆT ĐỐI"
+      ],
+      [
+       "ital",
+       "Ý thức che giấu dấu vết hình sự ở mức độ cao nhất"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-15",
+   "act": 4,
+   "start": 1534.91,
+   "end": 1557.71,
+   "role": "C",
    "sentences": [
     "4.10#1",
     "4.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_psychiatric_evaluation_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BÁC BỎ HOÀN TOÀN LÝ DO TÂM THẦN"
+      ],
+      [
+       "ital",
+       "Không hề bị phân liệt — hoàn toàn nhận thức tính chất sai trái của hành vi"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-16",
+   "act": 4,
+   "start": 1557.71,
+   "end": 1573.08,
+   "role": "H",
+   "sentences": [
+    "4.11#1",
+    "4.11#2"
    ],
    "template": "T5",
    "variant": "date",
@@ -2692,13 +4865,13 @@
       ],
       [
        "ital",
-       "Bồi thẩm đoàn kết tội ba mươi ba vụ tước đoạt mạng · Phán quyết: Án tử hình"
+       "Chưa đầy hai giờ nghị án — phán quyết lịch sử bác bỏ yêu cầu tuyên vô tội"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Tiếng búa thẩm phán `4.11`",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -2712,14 +4885,100 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-01",
-   "act": 5,
-   "start": 1006.59,
-   "end": 1026.97,
+   "id": "4-17",
+   "act": 4,
+   "start": 1573.08,
+   "end": 1587.71,
    "role": "H",
    "sentences": [
-    "5.02#1",
-    "5.02#2"
+    "4.11#3",
+    "4.11#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_jury_deliberation_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ÁN TỬ HÌNH"
+      ],
+      [
+       "ital",
+       "Tội danh cho toàn bộ ba mươi ba vụ tước đoạt sinh mạng con người"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-18",
+   "act": 4,
+   "start": 1587.71,
+   "end": 1589.51,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 05"
+      ],
+      [
+       "bold",
+       "PHÁN QUYẾT, BẢN ÁN TÂM LÝ & BÀI HỌC CẢNH BÁO ĐỎ SINH TỒN"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "5-01",
+   "act": 5,
+   "start": 1589.51,
+   "end": 1603.41,
+   "role": "H",
+   "sentences": [
+    "5.02#1"
    ],
    "template": "T1",
    "variant": "",
@@ -2737,7 +4996,7 @@
       ],
       [
        "ital",
-       "Trung tâm Cải huấn Menard, bang Illinois · Chưa từng một lần thể hiện sự hối hận"
+       "Chưa một lần ăn năn chân chính hay gửi lời xin lỗi"
       ]
      ]
     }
@@ -2759,10 +5018,11 @@
   {
    "id": "5-02",
    "act": 5,
-   "start": 1026.97,
-   "end": 1037.46,
+   "start": 1603.41,
+   "end": 1623.91,
    "role": "H",
    "sentences": [
+    "5.02#2",
     "5.02#3"
    ],
    "template": "T1",
@@ -2777,11 +5037,11 @@
      "elems": [
       [
        "bold",
-       "TRANH SƠN DẦU CHÚ HỀ POGO"
+       "SÂN KHẤU MỚI TRONG PHÒNG GIAM"
       ],
       [
        "ital",
-       "Khóe miệng nhọn hoắt ma quái bán ra bên ngoài"
+       "Hơn hai nghìn tranh sơn dầu Chú hề Pogo rồi tìm cách bán đấu giá"
       ]
      ]
     }
@@ -2803,11 +5063,12 @@
   {
    "id": "5-03",
    "act": 5,
-   "start": 1037.46,
-   "end": 1051.12,
+   "start": 1623.91,
+   "end": 1641.75,
    "role": "H",
    "sentences": [
-    "5.02#4"
+    "5.02#4",
+    "5.02#5"
    ],
    "template": "T1",
    "variant": "",
@@ -2825,7 +5086,7 @@
       ],
       [
        "ital",
-       "Gacy tự tuyên bố trong tự truyện và các đoạn ghi âm trước ngày thi hành án"
+       "Tự tuyên bố mình là nạn nhân vô tội bị mắc kẹt trong âm mưu chính trị"
       ]
      ]
     }
@@ -2849,8 +5110,8 @@
   {
    "id": "5-04",
    "act": 5,
-   "start": 1051.12,
-   "end": 1080.19,
+   "start": 1641.75,
+   "end": 1676.05,
    "role": "C",
    "sentences": [
     "5.03#1",
@@ -2874,7 +5135,7 @@
       ],
       [
        "ital",
-       "Khiếm khuyết vùng đồng cảm · Luôn tự đặt mình làm trung tâm"
+       "Sự sụp đổ duy nhất là sụp đổ cái tôi ái kỷ — không phải sự ra đi của ba mươi ba thiếu niên"
       ]
      ]
     }
@@ -2898,8 +5159,8 @@
   {
    "id": "5-05",
    "act": 5,
-   "start": 1080.19,
-   "end": 1091.82,
+   "start": 1676.05,
+   "end": 1688.17,
    "role": "H",
    "sentences": [
     "5.04#1"
@@ -2920,7 +5181,7 @@
       ],
       [
        "ital",
-       "Trại giam Stateville · Bản án tử hình được thi hành đối với John Wayne Gacy"
+       "Trại giam Stateville — bản án tử hình thi hành bằng tiêm thuốc độc"
       ]
      ]
     }
@@ -2942,12 +5203,13 @@
   {
    "id": "5-06",
    "act": 5,
-   "start": 1091.82,
-   "end": 1109.33,
+   "start": 1688.17,
+   "end": 1714.62,
    "role": "H",
    "sentences": [
     "5.04#2",
-    "5.04#3"
+    "5.04#3",
+    "5.04#4"
    ],
    "template": "T1",
    "variant": "",
@@ -2965,13 +5227,13 @@
       ],
       [
        "ital",
-       "Không hề ăn năn · Chỉ một câu chửi thề thô tục · Chống đối đến hơi thở cuối cùng"
+       "Không hề ăn năn — chỉ một câu chửi thề đầy khinh miệt"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Thở dài trầm lặng `5.05`",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": true,
@@ -2987,13 +5249,55 @@
   {
    "id": "5-07",
    "act": 5,
-   "start": 1109.33,
-   "end": 1135.28,
+   "start": 1714.62,
+   "end": 1715.92,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_execution_chamber_table",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "LỜI CUỐI CÙNG"
+      ],
+      [
+       "ital",
+       "Không hề ăn năn — chỉ một câu chửi thề đầy khinh miệt"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cello u uất trỗi dậy",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": true,
+   "transition": "dissolve",
+   "inherit": "5-06"
+  },
+  {
+   "id": "5-08",
+   "act": 5,
+   "start": 1715.92,
+   "end": 1738.63,
    "role": "H",
    "sentences": [
     "5.06#1",
-    "5.06#2",
-    "5.06#3"
+    "5.06#2"
    ],
    "template": "T1",
    "variant": "",
@@ -3011,7 +5315,7 @@
       ],
       [
        "ital",
-       "Bốn dấu hiệu cảnh báo đỏ từ hồ sơ John Wayne Gacy"
+       "Một cuộc cách mạng trong nhận thức xã hội và quy trình thực thi pháp luật"
       ]
      ]
     }
@@ -3031,65 +5335,18 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-08",
-   "act": 5,
-   "start": 1135.28,
-   "end": 1158.59,
-   "role": "H",
-   "sentences": [
-    "5.06#4",
-    "5.06#5",
-    "5.06#6"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t6_redflag_charity_facade",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "CẢNH BÁO ĐỎ THỨ NHẤT: VỎ BỌC TỪ THIỆN & ĐỊA VỊ"
-      ],
-      [
-       "ital",
-       "Chiếc khiên hoàn hảo làm tê liệt sự nghi ngờ của xã hội"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": true,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
    "id": "5-09",
    "act": 5,
-   "start": 1158.59,
-   "end": 1180.3,
+   "start": 1738.63,
+   "end": 1755.5,
    "role": "H",
    "sentences": [
-    "5.06#7",
-    "5.06#8",
-    "5.06#9"
+    "5.06#3",
+    "5.06#4"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t6_redflag_wage_trap",
+   "bg": "t6_dossier_gacy_case_06",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -3099,11 +5356,11 @@
      "elems": [
       [
        "bold",
-       "CẢNH BÁO ĐỎ THỨ HAI: BẪY CÔNG VIỆC LƯƠNG CAO"
+       "ĐẠO LUẬT TRẺ EM MẤT TÍCH NĂM 1982"
       ],
       [
        "ital",
-       "Dụ dỗ người trẻ bước vào không gian cô lập"
+       "Sự kiên trì của gia đình nạn nhân thúc đẩy Quốc hội thông qua đạo luật"
       ]
      ]
     }
@@ -3125,17 +5382,15 @@
   {
    "id": "5-10",
    "act": 5,
-   "start": 1180.3,
-   "end": 1205.09,
+   "start": 1755.5,
+   "end": 1767.37,
    "role": "H",
    "sentences": [
-    "5.06#10",
-    "5.06#11",
-    "5.06#12"
+    "5.06#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t6_redflag_trick_handcuffs",
+   "bg": "t6_evidence_boxes_van",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -3145,11 +5400,11 @@
      "elems": [
       [
        "bold",
-       "CẢNH BÁO ĐỎ THỨ BA: TRÒ CHƠI TIẾP XÚC THÂN THỂ"
+       "TRUNG TÂM QUỐC GIA VỀ TRẺ EM MẤT TÍCH"
       ],
       [
        "ital",
-       "Vô hiệu hóa phản kháng bằng ảo thuật còng tay"
+       "Ra đời năm 1984 — cứu sống hàng chục nghìn thanh thiếu niên"
       ]
      ]
     }
@@ -3171,17 +5426,16 @@
   {
    "id": "5-11",
    "act": 5,
-   "start": 1205.09,
-   "end": 1225.52,
+   "start": 1767.37,
+   "end": 1781.77,
    "role": "H",
    "sentences": [
-    "5.06#13",
-    "5.06#14",
-    "5.06#15"
+    "5.06#6",
+    "5.06#7"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t6_redflag_externalized_blame",
+   "bg": "t6_dossier_gacy_case_06",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -3191,11 +5445,11 @@
      "elems": [
       [
        "bold",
-       "CẢNH BÁO ĐỎ THỨ TƯ: ĐỔ LỖI NGƯỢC & THIẾU TRẮC ẨN"
+       "GẦN NỬA THẾ KỶ ĐÃ TRÔI QUA"
       ],
       [
        "ital",
-       "Sự thờ ơ trước nỗi đau của người xung quanh"
+       "Hồ sơ Gacy vẫn là lời nhắc nhở về kẻ săn mồi đội lốt người tốt"
       ]
      ]
     }
@@ -3203,10 +5457,12 @@
    "beats": [],
    "beat_text": "—",
    "flags": {
-    "bust": true,
+    "bust": false,
     "nobust": false,
-    "intro": false,
-    "handoff": [],
+    "intro": true,
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -3217,15 +5473,15 @@
   {
    "id": "5-12",
    "act": 5,
-   "start": 1225.52,
-   "end": 1235.13,
+   "start": 1781.77,
+   "end": 1790.66,
    "role": "H",
    "sentences": [
-    "5.06#16"
+    "5.06#8"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t6_pogo_mask_fallen",
+   "bg": "t6_fbi_academy_lecture_hall",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -3235,11 +5491,11 @@
      "elems": [
       [
        "bold",
-       "MẶT NẠ CHÚ HỀ RƠI TRÊN NỀN ĐƯỜNG"
+       "BỐN DẤU HIỆU CẢNH BÁO ĐỎ SINH TỒN"
       ],
       [
        "ital",
-       "Sự an toàn thực sự đến từ sự tỉnh táo và lý trí"
+       "Đúc kết trực tiếp từ chính hồ sơ này"
       ]
      ]
     }
@@ -3247,8 +5503,8 @@
    "beats": [],
    "beat_text": "—",
    "flags": {
-    "bust": true,
-    "nobust": false,
+    "bust": false,
+    "nobust": true,
     "intro": false,
     "handoff": [],
     "dual": false,
@@ -3261,17 +5517,17 @@
   {
    "id": "5-13",
    "act": 5,
-   "start": 1235.13,
-   "end": 1248.77,
+   "start": 1790.66,
+   "end": 1816.49,
    "role": "H",
    "sentences": [
-    "5.06#17",
-    "5.06#18",
-    "5.06#19"
+    "5.06#9",
+    "5.06#10",
+    "5.06#11"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t6_closing_rose_closed_dossier",
+   "bg": "t6_redflag_charity_facade",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -3281,11 +5537,11 @@
      "elems": [
       [
        "bold",
-       "CẢM ƠN QUÝ VỊ ĐÃ ĐỒNG HÀNH"
+       "CẢNH BÁO ĐỎ THỨ NHẤT: VỎ BỌC TỪ THIỆN & ĐỊA VỊ"
       ],
       [
        "ital",
-       "Bấm đăng ký kênh và chia sẻ góc nhìn bên dưới"
+       "Chiếc mặt nạ nhân ái là công cụ nguy hiểm nhất để làm tê liệt trực giác cảnh giác"
       ]
      ]
     }
@@ -3307,8 +5563,236 @@
   {
    "id": "5-14",
    "act": 5,
-   "start": 1248.77,
-   "end": 1258.37,
+   "start": 1816.49,
+   "end": 1842.31,
+   "role": "H",
+   "sentences": [
+    "5.06#12",
+    "5.06#13",
+    "5.06#14"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_redflag_wage_trap",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CẢNH BÁO ĐỎ THỨ HAI: BẪY VIỆC LÀM THÙ LAO CAO"
+      ],
+      [
+       "ital",
+       "Lời hứa hẹn vượt trội không đòi hỏi kỹ năng — mồi nhử dụ dỗ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-15",
+   "act": 5,
+   "start": 1842.31,
+   "end": 1870.79,
+   "role": "H",
+   "sentences": [
+    "5.06#15",
+    "5.06#16",
+    "5.06#17"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_redflag_trick_handcuffs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CẢNH BÁO ĐỎ THỨ BA: KHÔNG CHO PHÉP KHÓA TAY"
+      ],
+      [
+       "ital",
+       "Biến công cụ khống chế thành trò ảo thuật để nạn nhân tự bỏ quyền tự vệ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-16",
+   "act": 5,
+   "start": 1870.79,
+   "end": 1900.96,
+   "role": "H",
+   "sentences": [
+    "5.06#18",
+    "5.06#19",
+    "5.06#20"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_redflag_externalized_blame",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CẢNH BÁO ĐỎ THỨ TƯ: LẮNG NGHE TRỰC GIÁC BẤT AN"
+      ],
+      [
+       "ital",
+       "Tội ác bắt đầu từ những hành động vượt ranh giới tinh vi"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-17",
+   "act": 5,
+   "start": 1900.96,
+   "end": 1913.23,
+   "role": "H",
+   "sentences": [
+    "5.06#21"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_pogo_mask_fallen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MẶT NẠ CHÚ HỀ RƠI TRÊN NỀN ĐƯỜNG"
+      ],
+      [
+       "ital",
+       "Sự an toàn thực sự xây từ sự tỉnh táo, lý trí và lòng dũng cảm"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-18",
+   "act": 5,
+   "start": 1913.23,
+   "end": 1929.45,
+   "role": "H",
+   "sentences": [
+    "5.06#22",
+    "5.06#23",
+    "5.06#24"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t6_closing_rose_closed_dossier",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CẢM ƠN QUÝ VỊ ĐÃ ĐỒNG HÀNH"
+      ],
+      [
+       "ital",
+       "Bấm đăng ký kênh và chia sẻ góc nhìn ở phần bình luận bên dưới"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-19",
+   "act": 5,
+   "start": 1929.45,
+   "end": 1939.45,
    "role": null,
    "sentences": [],
    "template": "T1",

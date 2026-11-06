@@ -80,9 +80,20 @@ for r in sk["rows"]:
             txt = frag[0] or frag[1] or frag[2]
             if not contains(txt, ctx):
                 errs.append((sid, f"mảnh không có trong câu (từ #{cur_from}): «{txt}»"))
+        # Số trên hình phải có trong câu. Bản Nhật không có khoảng trắng
+        # ("43歳" là MỘT token) nên so theo RUN (bỏ khoảng trắng) — đúng quy tắc
+        # của cổng dự án _qc_tap02_shots.py. Trước đây dùng contains() theo
+        # token ⇒ mọi số JA đều FAIL ⇒ buộc phải bỏ số khỏi ảnh JA.
+        flat_ctx = ctx.replace(" ", "")
+        allowed_nums = set(re.findall(r"\d+", flat_ctx))
+        allowed_nums |= {a.zfill(2) for a in list(allowed_nums)}
         for num in re.findall(r"\d[\d.,]*", part):
-            if num.strip(".,") and not contains(num, ctx):
-                errs.append((sid, f"số không có trong câu: «{num}»"))
+            tok = num.replace(".", "")
+            if not tok.strip(","):
+                continue
+            if num in flat_ctx or tok in allowed_nums:
+                continue
+            errs.append((sid, f"số không có trong câu: «{num}»"))
 
 print(f"[{LANG}] shot kiểm: {sum(1 for r in sk['rows'] if r['kind'] == 'shot')} · lỗi: {len(errs)}")
 for sid, msg in errs:

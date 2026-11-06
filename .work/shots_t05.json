@@ -1,11 +1,11 @@
 {
- "total": 1306.74,
+ "total": 1710.49,
  "shots": [
   {
    "id": "1-00",
    "act": 1,
    "start": 20.5,
-   "end": 22.8,
+   "end": 22.81,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -42,8 +42,8 @@
   {
    "id": "1-01",
    "act": 1,
-   "start": 22.8,
-   "end": 31.02,
+   "start": 22.81,
+   "end": 38.18,
    "role": "H",
    "sentences": [
     "1.03#1",
@@ -87,8 +87,8 @@
   {
    "id": "1-02",
    "act": 1,
-   "start": 31.02,
-   "end": 37.81,
+   "start": 38.18,
+   "end": 52.5,
    "role": "H",
    "sentences": [
     "1.03#3"
@@ -105,11 +105,11 @@
      "elems": [
       [
        "bold",
-       "TÒA SOẠN BÁO THE WICHITA EAGLE"
+       "BẢN SAO BẰNG LÁI XE CỦA VICKI WEGERLE"
       ],
       [
        "ital",
-       "Nhận được một phong bì thư ký tên người gửi giả"
+       "Nạn nhân bị tước đoạt mạng sống năm 1986 trong một vụ án chưa có lời giải"
       ]
      ]
     }
@@ -131,8 +131,8 @@
   {
    "id": "1-03",
    "act": 1,
-   "start": 37.81,
-   "end": 53.38,
+   "start": 52.5,
+   "end": 64.83,
    "role": "H",
    "sentences": [
     "1.03#4"
@@ -149,11 +149,15 @@
      "elems": [
       [
        "bold",
-       "BẢN SAO BẰNG LÁI VICKI WEGERLE"
+       "KÝ TÊN BA CHỮ CÁI"
+      ],
+      [
+       "quote",
+       "B-T-K"
       ],
       [
        "ital",
-       "Cùng ba bản sao ảnh liên quan đến vụ án ấy"
+       "Nỗi kinh hoàng ám ảnh cả miền Trung Tây nước Mỹ suốt nhiều thập kỷ"
       ]
      ]
     }
@@ -175,8 +179,8 @@
   {
    "id": "1-04",
    "act": 1,
-   "start": 53.38,
-   "end": 65.5,
+   "start": 64.83,
+   "end": 74.41,
    "role": "H",
    "sentences": [
     "1.03#5"
@@ -193,15 +197,11 @@
      "elems": [
       [
        "ital",
-       "CƠN ÁC MỘNG VÙNG TRUNG TÂY"
+       "LỜI KHẲNG ĐỊNH LẠNH LÙNG"
       ],
       [
        "bold",
-       "KÝ TÊN B-T-K"
-      ],
-      [
-       "ital",
-       "Bind · Torture · Kill"
+       "KẺ SÁT NHÂN HÀNG LOẠT ĐÃ CHÍNH THỨC QUAY TRỞ LẠI"
       ]
      ]
     }
@@ -225,8 +225,8 @@
   {
    "id": "1-05",
    "act": 1,
-   "start": 65.5,
-   "end": 66.8,
+   "start": 74.41,
+   "end": 75.71,
    "role": null,
    "sentences": [],
    "template": "T2",
@@ -241,15 +241,11 @@
      "elems": [
       [
        "ital",
-       "CƠN ÁC MỘNG VÙNG TRUNG TÂY"
+       "LỜI KHẲNG ĐỊNH LẠNH LÙNG"
       ],
       [
        "bold",
-       "KÝ TÊN B-T-K"
-      ],
-      [
-       "ital",
-       "Bind · Torture · Kill"
+       "KẺ SÁT NHÂN HÀNG LOẠT ĐÃ CHÍNH THỨC QUAY TRỞ LẠI"
       ]
      ]
     }
@@ -272,8 +268,8 @@
   {
    "id": "1-06",
    "act": 1,
-   "start": 66.8,
-   "end": 88.9,
+   "start": 75.71,
+   "end": 96.8,
    "role": "H",
    "sentences": [
     "1.05#1",
@@ -317,8 +313,8 @@
   {
    "id": "1-07",
    "act": 1,
-   "start": 88.9,
-   "end": 104.3,
+   "start": 96.8,
+   "end": 113.48,
    "role": "H",
    "sentences": [
     "1.05#3",
@@ -362,8 +358,8 @@
   {
    "id": "1-08",
    "act": 1,
-   "start": 104.3,
-   "end": 115.54,
+   "start": 113.48,
+   "end": 124.65,
    "role": "H",
    "sentences": [
     "1.05#5"
@@ -406,8 +402,8 @@
   {
    "id": "1-09",
    "act": 1,
-   "start": 115.54,
-   "end": 116.84,
+   "start": 124.65,
+   "end": 125.95,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -449,8 +445,8 @@
   {
    "id": "1-10",
    "act": 1,
-   "start": 116.84,
-   "end": 129.88,
+   "start": 125.95,
+   "end": 139.53,
    "role": "H",
    "sentences": [
     "1.07#1"
@@ -495,12 +491,13 @@
   {
    "id": "1-11",
    "act": 1,
-   "start": 129.88,
-   "end": 143.08,
+   "start": 139.53,
+   "end": 159.09,
    "role": "N1",
    "sentences": [
     "1.09#1",
-    "1.09#2"
+    "1.09#2",
+    "1.09#3"
    ],
    "template": "T4",
    "variant": "testimony",
@@ -514,16 +511,16 @@
      "elems": [
       [
        "quote",
-       "Khi nghe tin BTK gửi thư trở lại sau hơn một thập kỷ, cả thị trấn chúng tôi nín thở trong sợ hãi"
+       "Khi nghe tin BTK gửi thư trở lại sau hơn một thập kỷ, cả thị trấn chúng tôi như nín thở trong sự hoảng loạn."
       ]
      ]
     },
     {
-     "at_sentence": 2,
+     "at_sentence": 3,
      "elems": [
       [
        "quote",
-       "Người ta lại kiểm tra then cài cửa sổ, mua thêm súng và khóa chặt cửa trước khi trời tối."
+       "Người ta đổ xô đi mua thêm súng, thay khóa cửa, lắp đèn cảm ứng và chèn then cửa sổ trước khi trời tối."
       ]
      ]
     }
@@ -545,11 +542,12 @@
   {
    "id": "1-12",
    "act": 1,
-   "start": 143.08,
-   "end": 161.18,
+   "start": 159.09,
+   "end": 177.15,
    "role": "N1",
    "sentences": [
-    "1.09#3"
+    "1.09#4",
+    "1.09#5"
    ],
    "template": "T4",
    "variant": "testimony",
@@ -563,7 +561,7 @@
      "elems": [
       [
        "quote",
-       "Không một ai có thể ngờ rằng, kẻ thủ ác mà cả nước Mỹ đang lùng sục suốt 30 năm qua lại chính là người đàn ông mẫn cán hàng ngày đi đo chiều cao từng bãi cỏ"
+       "Không một ai trong chúng tôi có thể ngờ rằng, con quái vật cả nước Mỹ đang lùng sục lại chính là người đàn ông mẫn cán ngày ngày lái xe đi đo từng bãi cỏ trong khu phố."
       ]
      ]
     }
@@ -585,14 +583,13 @@
   {
    "id": "1-13",
    "act": 1,
-   "start": 161.18,
-   "end": 176.96,
+   "start": 177.15,
+   "end": 190.14,
    "role": "H",
    "sentences": [
     "1.10#1",
     "1.10#2",
-    "1.10#3",
-    "1.10#4"
+    "1.10#3"
    ],
    "template": "T1",
    "variant": "",
@@ -610,7 +607,7 @@
       ],
       [
        "ital",
-       "Kẻ thủ ác an toàn ngủ đông suốt 13 năm"
+       "Kẻ thủ ác đã ngủ đông hoàn toàn suốt 13 năm"
       ]
      ]
     },
@@ -619,16 +616,7 @@
      "elems": [
       [
        "ital",
-       "Các manh mối đã nguội lạnh"
-      ]
-     ]
-    },
-    {
-     "at_sentence": 4,
-     "elems": [
-      [
-       "ital",
-       "Công nghệ lúc bấy giờ vẫn chưa lần ra được danh tính của hắn"
+       "Các dấu vết hiện trường năm xưa đã nguội lạnh"
       ]
      ]
     }
@@ -650,8 +638,57 @@
   {
    "id": "1-14",
    "act": 1,
-   "start": 176.96,
-   "end": 201.99,
+   "start": 190.14,
+   "end": 196.56,
+   "role": "H",
+   "sentences": [
+    "1.10#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_compliance_truck_street",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NGHỊCH LÝ KỲ DỊ NHẤT CỦA NGÀNH ĐIỀU TRA HÌNH SỰ"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
+      [
+       "ital",
+       "Công nghệ truy vết thời đó chưa thể tìm ra bất kỳ manh mối nào về tung tích của hắn"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-15",
+   "act": 1,
+   "start": 196.56,
+   "end": 220.39,
    "role": "H",
    "sentences": [
     "1.10#5",
@@ -674,7 +711,7 @@
       ],
       [
        "ital",
-       "Tại sao lại tự tay dâng mình vào chiếc bẫy của cảnh sát?"
+       "Tại sao lại tự tay dâng mình vào chiếc bẫy của cơ quan điều tra?"
       ]
      ]
     }
@@ -694,10 +731,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-15",
+   "id": "1-16",
    "act": 1,
-   "start": 201.99,
-   "end": 203.79,
+   "start": 220.39,
+   "end": 222.19,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -716,7 +753,7 @@
       ],
       [
        "ital",
-       "Tại sao lại tự tay dâng mình vào chiếc bẫy của cảnh sát?"
+       "Tại sao lại tự tay dâng mình vào chiếc bẫy của cơ quan điều tra?"
       ]
      ]
     }
@@ -734,13 +771,13 @@
    },
    "hold": true,
    "transition": "dissolve",
-   "inherit": "1-14"
+   "inherit": "1-15"
   },
   {
-   "id": "1-16",
+   "id": "1-17",
    "act": 1,
-   "start": 203.79,
-   "end": 211.19,
+   "start": 222.19,
+   "end": 228.72,
    "role": "H",
    "sentences": [
     "1.12#1"
@@ -783,10 +820,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-17",
+   "id": "1-18",
    "act": 1,
-   "start": 211.19,
-   "end": 227.76,
+   "start": 228.72,
+   "end": 245.78,
    "role": "D",
    "sentences": [
     "1.14#1",
@@ -817,7 +854,7 @@
      "elems": [
       [
        "ital",
-       "Lật lại các mặt báo địa phương những tháng trước đó"
+       "Lật lại các trang báo địa phương những tháng trước đó"
       ]
      ]
     }
@@ -837,10 +874,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-18",
+   "id": "1-19",
    "act": 1,
-   "start": 227.76,
-   "end": 252.65,
+   "start": 245.78,
+   "end": 270.34,
    "role": "D",
    "sentences": [
     "1.14#3",
@@ -863,7 +900,7 @@
       ],
       [
        "ital",
-       "Luật sư Robert Beattie đang viết sách và nêu giả thuyết BTK đã chết hoặc đang ngồi tù"
+       "Luật sư Robert Beattie nêu giả thuyết BTK đã chết hoặc đang sống trong bóng tối của sự lãng quên"
       ]
      ]
     }
@@ -883,10 +920,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-19",
+   "id": "1-20",
    "act": 1,
-   "start": 252.65,
-   "end": 266.62,
+   "start": 270.34,
+   "end": 285.06,
    "role": "D",
    "sentences": [
     "1.14#6",
@@ -928,10 +965,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-20",
+   "id": "1-21",
    "act": 1,
-   "start": 266.62,
-   "end": 301.52,
+   "start": 285.06,
+   "end": 306.25,
    "role": "H",
    "sentences": [
     "1.16#1",
@@ -978,10 +1015,58 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-21",
+   "id": "1-22",
    "act": 1,
-   "start": 301.52,
-   "end": 303.32,
+   "start": 306.25,
+   "end": 316.04,
+   "role": "H",
+   "sentences": [
+    "1.16#4"
+   ],
+   "template": "T10",
+   "variant": "",
+   "bg": "t5_amber_eyes_dossier_05",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CHIẾC ĐĨA MỀM MÀU TÍM & CƠN NGHIỆN ÁI KỶ"
+      ],
+      [
+       "ital",
+       "Hồ sơ Dennis Rader (BTK)"
+      ],
+      [
+       "ital",
+       "Cơn nghiện sự chú ý & Sự phân mảnh tâm trí tuyệt đối"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cello u uất `1.15` dâng lên",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-23",
+   "act": 1,
+   "start": 316.04,
+   "end": 317.84,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -1022,8 +1107,8 @@
   {
    "id": "2-01",
    "act": 2,
-   "start": 303.32,
-   "end": 328.58,
+   "start": 317.84,
+   "end": 338.91,
    "role": "H",
    "sentences": [
     "2.02#1",
@@ -1067,8 +1152,8 @@
   {
    "id": "2-02",
    "act": 2,
-   "start": 328.58,
-   "end": 346.26,
+   "start": 338.91,
+   "end": 365.3,
    "role": "H",
    "sentences": [
     "2.02#3",
@@ -1119,8 +1204,8 @@
   {
    "id": "2-03",
    "act": 2,
-   "start": 346.26,
-   "end": 369.63,
+   "start": 365.3,
+   "end": 393.26,
    "role": "D",
    "sentences": [
     "2.04#1",
@@ -1143,11 +1228,11 @@
       ],
       [
        "ital",
-       "Đặc điểm thứ nhất là nhu cầu áp chế tuyệt đối"
+       "Thủ đoạn có thể thay đổi linh hoạt theo thời gian"
       ],
       [
        "ital",
-       "Được biến những người vô tội thành người hoàn toàn bất lực và sợ hãi"
+       "Chữ ký tâm lý thì bất biến, vì nó phục vụ cho nhu cầu thỏa mãn cảm xúc nội tại"
       ]
      ]
     }
@@ -1169,8 +1254,8 @@
   {
    "id": "2-04",
    "act": 2,
-   "start": 369.63,
-   "end": 379.33,
+   "start": 393.26,
+   "end": 404.06,
    "role": "D",
    "sentences": [
     "2.04#4",
@@ -1188,11 +1273,11 @@
      "elems": [
       [
        "bold",
-       "THỨ HAI: NHU CẦU LƯU GIỮ CHIẾN LỢI PHẨM"
+       "BA ĐẶC ĐIỂM CỐT LÕI"
       ],
       [
        "ital",
-       "Lấy đi bằng lái xe, đồng hồ hoặc đồ trang sức"
+       "Thứ nhất: nhu cầu áp chế và kiểm soát quyền lực tuyệt đối trước sự bất lực của người khác"
       ]
      ]
     }
@@ -1214,11 +1299,12 @@
   {
    "id": "2-05",
    "act": 2,
-   "start": 379.33,
-   "end": 388.92,
+   "start": 404.06,
+   "end": 420.39,
    "role": "D",
    "sentences": [
-    "2.04#6"
+    "2.04#6",
+    "2.04#7"
    ],
    "template": "T1",
    "variant": "",
@@ -1232,11 +1318,20 @@
      "elems": [
       [
        "bold",
-       "MÓN ĐỒ KHÔNG MANG GIÁ TRỊ VẬT CHẤT"
+       "THỨ HAI: NHU CẦU LƯU GIỮ CHIẾN LỢI PHẨM"
       ],
       [
        "ital",
-       "Chúng kích hoạt cảm xúc để hắn hồi tưởng lại cảm giác thống trị mỗi khi ở một mình"
+       "Chiến lợi phẩm kích hoạt hồi tưởng hưng phấn khi ở một mình"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "Thứ ba: nhu cầu trêu ngươi cơ quan thực thi pháp luật và truyền thông đại chúng"
       ]
      ]
     }
@@ -1258,12 +1353,12 @@
   {
    "id": "2-06",
    "act": 2,
-   "start": 388.92,
-   "end": 404.55,
+   "start": 420.39,
+   "end": 438.36,
    "role": "D",
    "sentences": [
-    "2.04#7",
-    "2.04#8"
+    "2.04#8",
+    "2.04#9"
    ],
    "template": "T1",
    "variant": "",
@@ -1277,11 +1372,20 @@
      "elems": [
       [
        "bold",
-       "THỨ BA: TRUYỀN THÔNG TRÊU NGƯƠI"
+       "BÍ MẬT VÀ TRÊU NGƯƠI"
       ],
       [
        "ital",
        "Bưu kiện giấu trong thư viện công cộng và thùng rác công viên"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 9,
+     "elems": [
+      [
+       "ital",
+       "Chính những chiến lợi phẩm và bức thư ấy hé lộ bản chất tâm thần của con thú săn mồi"
       ]
      ]
     }
@@ -1303,14 +1407,13 @@
   {
    "id": "2-07",
    "act": 2,
-   "start": 404.55,
-   "end": 434.16,
+   "start": 438.36,
+   "end": 459.44,
    "role": "H",
    "sentences": [
     "2.05#1",
     "2.05#2",
-    "2.05#3",
-    "2.05#4"
+    "2.05#3"
    ],
    "template": "T1",
    "variant": "",
@@ -1324,11 +1427,11 @@
      "elems": [
       [
        "bold",
-       "MỘT KẺ SĂN MỒI TỈ MỈ VÀ CỰC KỲ KIÊN NHẪN"
+       "QUỸ ĐẠO LEO THANG ẢO TƯỞNG QUA 4 NẤC THANG"
       ],
       [
        "ital",
-       "Nắm rõ kỹ thuật trinh sát, cẩn thận không lưu lại vân tay"
+       "Hành vi tội ác không xuất hiện ngẫu nhiên chỉ sau một đêm"
       ]
      ]
     },
@@ -1337,7 +1440,7 @@
      "elems": [
       [
        "ital",
-       "Danh tính thực sự phía sau chiếc mặt nạ"
+       "Nấc thang thứ nhất: bạo hành súc vật nhỏ và nhìn trộm qua cửa sổ ban đêm"
       ]
      ]
     }
@@ -1359,15 +1462,17 @@
   {
    "id": "2-08",
    "act": 2,
-   "start": 434.16,
-   "end": 442.71,
-   "role": "D",
+   "start": 459.44,
+   "end": 484.74,
+   "role": "H",
    "sentences": [
-    "2.06#1"
+    "2.05#4",
+    "2.05#5",
+    "2.05#6"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t5_air_force_service_era",
+   "bg": "t5_gloves_forensic_desk",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -1377,11 +1482,34 @@
      "elems": [
       [
        "bold",
-       "DENNIS RADER · SINH NĂM 1945"
-      ],
+       "QUỸ ĐẠO BỐN NẤC THANG TÂM LÝ"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 4,
+     "elems": [
       [
        "ital",
-       "Bốn năm Không quân Mỹ · Tốt nghiệp Quản trị tư pháp"
+       "Nấc thang thứ hai: đột nhập lén lút và trộm đồ riêng tư"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "Nấc thang thứ ba: xâm nhập có chủ đích, khống chế trực tiếp nạn nhân"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "Nấc thang thứ tư: hủy hoại sinh mạng kết hợp tự dàn dựng chụp ảnh bệnh hoạn"
       ]
      ]
     }
@@ -1403,11 +1531,100 @@
   {
    "id": "2-09",
    "act": 2,
-   "start": 442.71,
-   "end": 450.5,
+   "start": 484.74,
+   "end": 493.09,
+   "role": "H",
+   "sentences": [
+    "2.05#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_gloves_forensic_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CƠN ĐÓI ẢO TƯỞNG KHÔNG CÒN GIỚI HẠN"
+      ],
+      [
+       "ital",
+       "Liều kích thích ngày càng mạnh hơn cho đến khi không còn giới hạn nào ngăn cản hắn"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-10",
+   "act": 2,
+   "start": 493.09,
+   "end": 510.67,
    "role": "D",
    "sentences": [
+    "2.06#1",
     "2.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_air_force_service_era",
+   "bg2": "t5_church_council_altar",
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "DENNIS RADER · SINH NĂM 1945"
+      ],
+      [
+       "ital",
+       "4 năm trong Không quân Mỹ · Tốt nghiệp Quản trị tư pháp"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-11",
+   "act": 2,
+   "start": 510.67,
+   "end": 519.14,
+   "role": "D",
+   "sentences": [
+    "2.06#3"
    ],
    "template": "T1",
    "variant": "",
@@ -1425,7 +1642,7 @@
       ],
       [
        "ital",
-       "Người vợ hơn 30 năm và hai đứa con ngoan ngoãn"
+       "Người vợ hơn 30 năm và hai đứa con"
       ]
      ]
     }
@@ -1445,18 +1662,18 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-10",
+   "id": "2-12",
    "act": 2,
-   "start": 450.5,
-   "end": 456.65,
+   "start": 519.14,
+   "end": 527.61,
    "role": "D",
    "sentences": [
-    "2.06#3"
+    "2.06#4"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t5_lutheran_church_exterior",
-   "bg2": "t5_church_council_altar",
+   "bg2": null,
    "inset": null,
    "camera": "push",
    "segments": [
@@ -1489,13 +1706,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-11",
+   "id": "2-13",
    "act": 2,
-   "start": 456.65,
-   "end": 464.6,
+   "start": 527.61,
+   "end": 535.01,
    "role": "D",
    "sentences": [
-    "2.06#4"
+    "2.06#5"
    ],
    "template": "T1",
    "variant": "",
@@ -1533,14 +1750,14 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-12",
+   "id": "2-14",
    "act": 2,
-   "start": 464.6,
-   "end": 482.82,
+   "start": 535.01,
+   "end": 553.84,
    "role": "D",
    "sentences": [
-    "2.06#5",
-    "2.06#6"
+    "2.06#6",
+    "2.06#7"
    ],
    "template": "T1",
    "variant": "",
@@ -1558,7 +1775,7 @@
       ],
       [
        "ital",
-       "Lái xe bán tải đi đo chiều cao từng bãi cỏ, bắt giữ chó mèo chạy rông"
+       "Lái xe bán tải đi đo chiều cao từng bãi cỏ, bắt giữ thú cưng chạy rông"
       ]
      ]
     }
@@ -1578,13 +1795,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-13",
+   "id": "2-15",
    "act": 2,
-   "start": 482.82,
-   "end": 494.28,
+   "start": 553.84,
+   "end": 561.18,
    "role": "D",
    "sentences": [
-    "2.06#7"
+    "2.06#8"
    ],
    "template": "T1",
    "variant": "",
@@ -1598,11 +1815,11 @@
      "elems": [
       [
        "bold",
-       "TỈ MỈ ĐẾN MỨC BỆNH HOẠN, HÀ KHẮC"
+       "HIỆU ỨNG HÀO QUANG & TÂM LÝ BÌNH THƯỜNG HÓA XÃ HỘI"
       ],
       [
        "ital",
-       "Không ai ngờ người đàn ông luôn cầm thước đo cỏ lại là con quái vật BTK"
+       "Điểm mù khổng lồ che mắt cả thị trấn suốt ba thập kỷ"
       ]
      ]
     }
@@ -1622,16 +1839,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-14",
+   "id": "2-16",
    "act": 2,
-   "start": 494.28,
-   "end": 520.86,
+   "start": 561.18,
+   "end": 590.31,
    "role": "H",
    "sentences": [
     "2.07#1",
     "2.07#2",
-    "2.07#3",
-    "2.07#4"
+    "2.07#3"
    ],
    "template": "T3",
    "variant": "compare",
@@ -1645,7 +1861,7 @@
      "elems": [
       [
        "ital",
-       "Ban ngày: Công dân mẫu mực · Người cha chuẩn mực"
+       "Ban ngày: Công dân mẫu mực · Người cha gương mẫu"
       ],
       [
        "bold",
@@ -1653,7 +1869,7 @@
       ],
       [
        "ital",
-       "Làm thế nào hai nhân cách đối lập cùng tồn tại hơn 30 năm?"
+       "Nhân viên lắp đặt báo động an ninh ADT từ năm 1974 đến 1988"
       ]
      ]
     }
@@ -1675,10 +1891,62 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-15",
+   "id": "2-17",
    "act": 2,
-   "start": 520.86,
-   "end": 522.66,
+   "start": 590.31,
+   "end": 611.11,
+   "role": "H",
+   "sentences": [
+    "2.07#4",
+    "2.07#5",
+    "2.07#6"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t5_two_faces_silhouette",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ban ngày: Công dân mẫu mực · Người cha gương mực"
+      ],
+      [
+       "bold",
+       "BAN ĐÊM: KẺ SĂN MỒI LẠNH LÙNG TƯỚC ĐOẠT SINH MẠNG"
+      ],
+      [
+       "ital",
+       "Làm thế nào hai thế giới đối lập tột cùng ấy cùng tồn tại hơn 30 năm?"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "kẻ săn mồi"
+   ],
+   "beat_text": "Sub-drop ở \"kẻ săn mồi\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-18",
+   "act": 2,
+   "start": 611.11,
+   "end": 612.91,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -1719,8 +1987,8 @@
   {
    "id": "3-01",
    "act": 3,
-   "start": 522.66,
-   "end": 543.39,
+   "start": 612.91,
+   "end": 633.94,
    "role": "C",
    "sentences": [
     "3.02#1",
@@ -1771,12 +2039,13 @@
   {
    "id": "3-02",
    "act": 3,
-   "start": 543.39,
-   "end": 558.21,
+   "start": 633.94,
+   "end": 658.2,
    "role": "C",
    "sentences": [
     "3.02#4",
-    "3.02#5"
+    "3.02#5",
+    "3.02#6"
    ],
    "template": "T1",
    "variant": "",
@@ -1790,11 +2059,20 @@
      "elems": [
       [
        "bold",
-       "BỨC TƯỜNG BÊ TÔNG VÔ HÌNH"
+       "KHÔNG MỘT TỘI LỖI HAY CẮN RỨT LƯƠNG TÂM"
       ],
       [
        "ital",
-       "Tách biệt cuộc sống gia đình với thế giới tưởng tượng đen tối"
+       "Những hành vi tội ác thuộc về một ngăn kéo hoàn toàn khác"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "Gia đình và người thân được dùng như một “lá chắn bình thường hóa”"
       ]
      ]
     }
@@ -1816,12 +2094,12 @@
   {
    "id": "3-03",
    "act": 3,
-   "start": 558.21,
-   "end": 572.12,
+   "start": 658.2,
+   "end": 671.19,
    "role": "C",
    "sentences": [
-    "3.02#6",
-    "3.02#7"
+    "3.02#7",
+    "3.02#8"
    ],
    "template": "T1",
    "variant": "",
@@ -1835,11 +2113,11 @@
      "elems": [
       [
        "bold",
-       "KHÁI NIỆM TÂM LÝ HOANG TƯỞNG: 'NHÂN TỐ X'"
+       "KHÁI NIỆM TÂM LÝ HOANG TƯỞNG: “NHÂN TỐ X”"
       ],
       [
        "ital",
-       "Tự gán tội lỗi cho một thực thể trừu tượng (Factor X)"
+       "Tự gán tội lỗi cho một thực thể trừu tượng"
       ]
      ]
     }
@@ -1861,8 +2139,8 @@
   {
    "id": "3-04",
    "act": 3,
-   "start": 572.12,
-   "end": 573.42,
+   "start": 671.19,
+   "end": 672.49,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -1877,11 +2155,11 @@
      "elems": [
       [
        "bold",
-       "KHÁI NIỆM TÂM LÝ HOANG TƯỞNG: 'NHÂN TỐ X'"
+       "KHÁI NIỆM TÂM LÝ HOANG TƯỞNG: “NHÂN TỐ X”"
       ],
       [
        "ital",
-       "Tự gán tội lỗi cho một thực thể trừu tượng (Factor X)"
+       "Tự gán tội lỗi cho một thực thể trừu tượng"
       ]
      ]
     }
@@ -1904,8 +2182,8 @@
   {
    "id": "3-05",
    "act": 3,
-   "start": 573.42,
-   "end": 588.08,
+   "start": 672.49,
+   "end": 690.11,
    "role": "H",
    "sentences": [
     "3.04#1",
@@ -1928,7 +2206,7 @@
       ],
       [
        "bold",
-       "DƯỚI GÓC ĐỘ KHOA HỌC: 'NHÂN TỐ X' THỰC CHẤT LÀ GÌ?"
+       "DƯỚI GÓC ĐỘ KHOA HỌC: “NHÂN TỐ X” THỰC CHẤT LÀ GÌ?"
       ]
      ]
     }
@@ -1950,8 +2228,8 @@
   {
    "id": "3-06",
    "act": 3,
-   "start": 588.08,
-   "end": 603.35,
+   "start": 690.11,
+   "end": 707.54,
    "role": "C",
    "sentences": [
     "3.05#1",
@@ -1970,7 +2248,7 @@
      "elems": [
       [
        "ital",
-       "CƠ CHẾ PHÒNG VỆ ĐIỂN HÌNH"
+       "CƠ CHẾ PHÒNG VỆ THỨ HAI"
       ],
       [
        "bold",
@@ -1978,7 +2256,7 @@
       ],
       [
        "ital",
-       "Không phải hắn muốn làm, mà chính Nhân tố X bên trong buộc hắn phải làm"
+       "Nhân tố X thực chất là biểu hiện kinh điển của kỹ thuật Trung hòa Đạo đức"
       ]
      ]
     }
@@ -2002,12 +2280,64 @@
   {
    "id": "3-07",
    "act": 3,
-   "start": 603.35,
-   "end": 623.96,
+   "start": 707.54,
+   "end": 720.38,
    "role": "C",
    "sentences": [
     "3.05#4",
     "3.05#5"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t5_projection_mask",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "CƠ CHẾ PHÒNG VỆ THỨ HAI"
+      ],
+      [
+       "bold",
+       "PHÓNG CHIẾU VÀ NGỤY BIỆN (RATIONALIZATION & PROJECTION)"
+      ],
+      [
+       "ital",
+       "Hắn tự ru ngủ bản thân bằng lý lẽ rằng chính Nhân tố X bên trong ép hắn phải làm"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Phóng chiếu và ngụy biện"
+   ],
+   "beat_text": "Dấu mộc ở \"Phóng chiếu và ngụy biện\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-08",
+   "act": 3,
+   "start": 720.38,
+   "end": 739.2,
+   "role": "C",
+   "sentences": [
+    "3.05#6",
+    "3.05#7",
+    "3.05#8"
    ],
    "template": "T1",
    "variant": "",
@@ -2025,7 +2355,7 @@
       ],
       [
        "ital",
-       "Vừa thỏa mãn hưng tưởng đen tối, vừa quay về nhà ăn tối cùng vợ như một người đàn ông vô tội"
+       "Vừa gây ra những thảm kịch kinh hoàng, vừa quay về nhà ăn tối cùng vợ con như một người đàn ông hoàn toàn vô tội"
       ]
      ]
     }
@@ -2045,10 +2375,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-08",
+   "id": "3-09",
    "act": 3,
-   "start": 623.96,
-   "end": 647.03,
+   "start": 739.2,
+   "end": 758.22,
    "role": "H",
    "sentences": [
     "3.06#1",
@@ -2067,11 +2397,20 @@
      "elems": [
       [
        "bold",
-       "SỰ NGỤY BIỆN ĐỂ TỰ RU NGỦ LƯƠNG TÂM"
+       "CƠ CHẾ TỰ LỪA DỐI BẢN THÂN"
       ],
       [
        "ital",
-       "Động cơ nào kéo hắn trở lại trò chơi nguy hiểm vào năm 2004?"
+       "Còn cách nhìn nhận của Rader đối với các nạn nhân thì sao?"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Tại sao tiếng van xin của người vô tội không thể đánh thức chút lòng trắc ẩn nào trong tâm hồn hắn?"
       ]
      ]
     }
@@ -2091,14 +2430,55 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-09",
+   "id": "3-10",
    "act": 3,
-   "start": 647.03,
-   "end": 662.25,
+   "start": 758.22,
+   "end": 763.26,
+   "role": "H",
+   "sentences": [
+    "3.06#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_narcissistic_throne",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "ĐIỀU GÌ ĐÃ TRIỆT TIÊU HOÀN TOÀN TÍNH NGƯỜI?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-11",
+   "act": 3,
+   "start": 763.26,
+   "end": 787.6,
    "role": "C",
    "sentences": [
     "3.07#1",
-    "3.07#2"
+    "3.07#2",
+    "3.07#3"
    ],
    "template": "T2",
    "variant": "",
@@ -2112,15 +2492,15 @@
      "elems": [
       [
        "ital",
-       "CƠ CHẾ THỨ HAI"
+       "CƠ CHẾ TIẾP THEO"
       ],
       [
        "bold",
-       "ÁI KỶ ÁC TÍNH (MALIGNANT NARCISSISM) & CƠN NGHIỆN ĐƯỢC CHÚ Ý"
+       "VẬT HÓA VÀ PHI NHÂN HÓA NẠN NHÂN (OBJECTIFICATION & DEHUMANIZATION)"
       ],
       [
        "ital",
-       "Cảm giác kiểm soát và sự ngưỡng mộ là nguồn oxy sống"
+       "Kết hợp cấu trúc ái kỷ ác tính với rối loạn nhân cách chống đối xã hội: khả năng thấu cảm cảm xúc bị thiếu hụt hoàn toàn"
       ]
      ]
     }
@@ -2142,14 +2522,14 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-10",
+   "id": "3-12",
    "act": 3,
-   "start": 662.25,
-   "end": 683.47,
+   "start": 787.6,
+   "end": 798.77,
    "role": "C",
    "sentences": [
-    "3.07#3",
-    "3.07#4"
+    "3.07#4",
+    "3.07#5"
    ],
    "template": "T1",
    "variant": "",
@@ -2163,11 +2543,20 @@
      "elems": [
       [
        "bold",
-       "13 NĂM SỐNG BẰNG HÀO QUANG QUÁ KHỨ"
+       "HẮN GỌI HỌ MỘT CÁCH LẠNH LÙNG LÀ"
       ],
       [
+       "quote",
+       "dự án"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
        "ital",
-       "Âm thầm cắt từng bài báo dán vào sổ lưu niệm bí mật"
+       "Với hắn, họ chỉ là những “đạo cụ sống” để hiện thực hóa kịch bản ảo tưởng trong đầu mình"
       ]
      ]
     }
@@ -2187,15 +2576,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-11",
+   "id": "3-13",
    "act": 3,
-   "start": 683.47,
-   "end": 706.91,
+   "start": 798.77,
+   "end": 823.62,
    "role": "C",
    "sentences": [
-    "3.07#5",
     "3.07#6",
-    "3.07#7"
+    "3.07#7",
+    "3.07#8"
    ],
    "template": "T1",
    "variant": "",
@@ -2209,11 +2598,20 @@
      "elems": [
       [
        "bold",
-       "NỖI SỢ LỚN NHẤT CỦA KẺ ÁI KỶ: SỰ LÃNG QUÊN"
+       "NƯỚC MẮT KHÔNG THỂ TẠO RA LÒNG TRẮC ẨN"
       ],
       [
        "ital",
-       "Thà chấp nhận rủi ro bị bắt để cả thế giới nhìn thấy chiếc mặt nạ"
+       "Chúng chỉ càng kích hoạt cảm giác hưng phấn quyền lực toàn năng của kẻ săn mồi"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
+       "ital",
+       "Khi con người bị giáng cấp thành đồ vật, tội ác được thực hiện với sự lạnh lùng tuyệt đối của một cỗ máy"
       ]
      ]
     }
@@ -2235,10 +2633,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-12",
+   "id": "3-14",
    "act": 3,
-   "start": 706.91,
-   "end": 728.77,
+   "start": 823.62,
+   "end": 846.9,
    "role": "H",
    "sentences": [
     "3.08#1",
@@ -2257,11 +2655,20 @@
      "elems": [
       [
        "bold",
-       "CƠN NGHIỆN SỰ CHÚ Ý CHE MỜ BẢN NĂNG SINH TỒN"
+       "MỘT SỰ LẠNH LẼO RỢN NGƯỜI"
       ],
       [
        "ital",
-       "Sự tự phụ mù quáng mở đường cho chiếc bẫy công nghệ lịch sử"
+       "Phía sau nụ cười của người hàng xóm đáng kính"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
+      [
+       "ital",
+       "Điều gì đã buộc hắn phá hủy vỏ bọc hoàn hảo che chắn cho mình suốt ba mươi năm?"
       ]
      ]
     }
@@ -2281,10 +2688,344 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-13",
+   "id": "3-15",
    "act": 3,
-   "start": 728.77,
-   "end": 730.57,
+   "start": 846.9,
+   "end": 851.62,
+   "role": "H",
+   "sentences": [
+    "3.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_hubris_chessboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "BẢN NGÃ ÁI KỶ LUÔN MANG TRONG MÌNH HẠT MẦM CỦA SỰ TỰ DIỆT VONG?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-16",
+   "act": 3,
+   "start": 851.62,
+   "end": 875.65,
+   "role": "C",
+   "sentences": [
+    "3.09#1",
+    "3.09#2",
+    "3.09#3"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t5_narcissistic_throne",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "CƠ CHẾ THỨ BA"
+      ],
+      [
+       "bold",
+       "CƠN NGHIỆN SỰ CHÚ Ý & CƠN ĐÓI ẢO TƯỞNG"
+      ],
+      [
+       "ital",
+       "Sự công nhận của xã hội chính là nguồn oxy sống nuôi dưỡng cái tôi ngạo mạn"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Cơn nghiện sự chú ý"
+   ],
+   "beat_text": "Dấu mộc ở \"Cơn nghiện sự chú ý\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-17",
+   "act": 3,
+   "start": 875.65,
+   "end": 889.78,
+   "role": "C",
+   "sentences": [
+    "3.09#4",
+    "3.09#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_fear_of_oblivion",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "NỖI SỢ LỚN NHẤT CỦA KẺ ÁI KỶ: SỰ LÃNG QUÊN"
+      ],
+      [
+       "ital",
+       "Đối với kẻ ái kỷ, không có hình phạt nào tàn khốc hơn sự lãng quên của công chúng"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Sự lãng quên"
+   ],
+   "beat_text": "Sub-drop ở \"Sự lãng quên\"",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-18",
+   "act": 3,
+   "start": 889.78,
+   "end": 908.59,
+   "role": "C",
+   "sentences": [
+    "3.09#6",
+    "3.09#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_secret_scrapbook",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CƠN NGHIỆN DANH TIẾNG ĐEN TỐI"
+      ],
+      [
+       "ital",
+       "Thà chấp nhận rủi ro bước ra ánh sáng để cả thế giới phải nhắc đến tên mình"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 7,
+     "elems": [
+      [
+       "ital",
+       "Cơn nghiện danh tiếng đen tối đã che mờ hoàn toàn lý trí và bản năng sinh tồn"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-19",
+   "act": 3,
+   "start": 908.59,
+   "end": 923.43,
+   "role": "H",
+   "sentences": [
+    "3.10#1",
+    "3.10#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t5_hubris_chessboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "KẾT LUẬN CỦA CHUYÊN GIA"
+      ],
+      [
+       "bold",
+       "SỰ KIÊU NGẠO · CHIẾC THÒNG LỌNG TỰ TƯỚC ĐOẠT LỐI THOÁT"
+      ],
+      [
+       "ital",
+       "Hắn ảo tưởng mình thông minh hơn toàn bộ lực lượng điều tra"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Sự kiêu ngạo"
+   ],
+   "beat_text": "Dấu mộc ở \"Sự kiêu ngạo\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-20",
+   "act": 3,
+   "start": 923.43,
+   "end": 931.33,
+   "role": "H",
+   "sentences": [
+    "3.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_winter_home_depot",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "MỘT TRONG NHỮNG SAI LẦM CÔNG NGHỆ KINH ĐIỂN NHẤT LỊCH SỬ TƯ PHÁP"
+      ],
+      [
+       "ital",
+       "Sự tự phụ mù quáng đã dẫn dắt Rader đi thẳng vào bẫy của chính cơ quan điều tra"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-21",
+   "act": 3,
+   "start": 931.33,
+   "end": 937.46,
+   "role": "H",
+   "sentences": [
+    "3.10#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_detective_war_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "XIN MỜI ĐIỀU TRA VIÊN TÁI HIỆN LẠI"
+      ],
+      [
+       "bold",
+       "MÀN ĐẤU TRÍ ĐỊNH MỆNH VỚI CHIẾC ĐĨA MỀM MÀU TÍM"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-22",
+   "act": 3,
+   "start": 937.46,
+   "end": 939.26,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -2325,14 +3066,13 @@
   {
    "id": "4-01",
    "act": 4,
-   "start": 730.57,
-   "end": 754.45,
+   "start": 939.26,
+   "end": 962.69,
    "role": "H",
    "sentences": [
     "4.02#1",
     "4.02#2",
-    "4.02#3",
-    "4.02#4"
+    "4.02#3"
    ],
    "template": "T5",
    "variant": "date",
@@ -2350,7 +3090,16 @@
       ],
       [
        "ital",
-       "Mệt mỏi với cắt dán bưu kiện giữa trời đông giá rét"
+       "Sau hàng loạt bưu phẩm trêu ngươi gửi tới truyền thông, Rader nảy ra một ý định mới"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 2,
+     "elems": [
+      [
+       "ital",
+       "Hắn muốn nâng cấp cách thức liên lạc: gửi các tập tin vi tính"
       ]
      ]
     },
@@ -2359,16 +3108,7 @@
      "elems": [
       [
        "ital",
-       "Muốn chuyển sang gửi tập tin vi tính"
-      ]
-     ]
-    },
-    {
-     "at_sentence": 4,
-     "elems": [
-      [
-       "ital",
-       "Rader 59 tuổi và hoàn toàn mù mờ về công nghệ số"
+       "Ở tuổi 59, Rader hoàn toàn mù mờ về công nghệ số"
       ]
      ]
     }
@@ -2390,8 +3130,52 @@
   {
    "id": "4-02",
    "act": 4,
-   "start": 754.45,
-   "end": 765.8,
+   "start": 962.69,
+   "end": 971.4,
+   "role": "H",
+   "sentences": [
+    "4.02#4"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t5_winter_home_depot",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CUỐI THÁNG 1 NĂM 2005"
+      ],
+      [
+       "ital",
+       "Rader lén đặt một hộp ngũ cốc trên thùng chiếc xe bán tải tại bãi đỗ xe Home Depot"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng gió đông & quạt server",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-03",
+   "act": 4,
+   "start": 971.4,
+   "end": 976.57,
    "role": "H",
    "sentences": [
     "4.02#5"
@@ -2408,11 +3192,11 @@
      "elems": [
       [
        "bold",
-       "BÃI ĐỖ XE HOME DEPOT WICHITA"
+       "BÊN TRONG HỘP NGŨ CỐC"
       ],
       [
        "ital",
-       "Hộp ngũ cốc đặt trên thùng xe bán tải cuối tháng 1 năm 2005"
+       "Một mẩu giấy gửi trực tiếp cho cảnh sát"
       ]
      ]
     }
@@ -2432,17 +3216,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-03",
+   "id": "4-04",
    "act": 4,
-   "start": 765.8,
-   "end": 791.77,
+   "start": 976.57,
+   "end": 999.52,
    "role": "H",
    "sentences": [
     "4.02#6",
     "4.02#7",
-    "4.02#8",
-    "4.02#9",
-    "4.02#10"
+    "4.02#8"
    ],
    "template": "T1",
    "variant": "",
@@ -2456,11 +3238,20 @@
      "elems": [
       [
        "bold",
-       "CÂU HỎI NGÂY THƠ ĐẾN MỨC KHÓ TIN:"
+       "CÂU HỎI NGÂY THƠ ĐẾN MỨC KHÓ TIN"
       ],
       [
+       "quote",
+       "Tôi có thể liên lạc bằng Đĩa mềm vi tính mà không bị truy vết đến máy tính hay không? Hãy trả lời thành thật nhé."
+      ]
+     ]
+    },
+    {
+     "at_sentence": 8,
+     "elems": [
+      [
        "ital",
-       "'Tôi có thể liên lạc bằng Đĩa mềm vi tính mà không bị truy vết đến máy tính hay không?'"
+       "Yêu cầu cảnh sát trả lời bằng tin nhắn ám hiệu trên mục rao vặt The Wichita Eagle"
       ]
      ]
     }
@@ -2480,17 +3271,59 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-04",
+   "id": "4-05",
    "act": 4,
-   "start": 791.77,
-   "end": 828.18,
+   "start": 999.52,
+   "end": 1004.73,
+   "role": "H",
+   "sentences": [
+    "4.02#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_handwritten_note_floppy",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CÁNH CỬA SỐ PHẬN HÉ MỞ"
+      ],
+      [
+       "ital",
+       "Sau ba mươi năm bế tắc, cơ quan điều tra cuối cùng có được một manh mối"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-06",
+   "act": 4,
+   "start": 1004.73,
+   "end": 1033.47,
    "role": "D",
    "sentences": [
     "4.04#1",
     "4.04#2",
-    "4.04#3",
-    "4.04#4",
-    "4.04#5"
+    "4.04#3"
    ],
    "template": "T2",
    "variant": "",
@@ -2504,15 +3337,15 @@
      "elems": [
       [
        "ital",
-       "MỤC RAO VẶT BÁO THE WICHITA EAGLE"
+       "CHUYÊN ÁN CHUYÊN GIÁ LÀNH"
       ],
       [
        "bold",
-       "'REX, MỌI CHUYỆN SẼ ỔN ĐỂ GỬI NÓ'"
+       "MỘT CƠ HỘI LỊCH SỬ BA MƯƠI NĂM"
       ],
       [
        "ital",
-       "Cú lừa tâm lý ngoạn mục của Trung úy Ken Landwehr"
+       "Khi bức thư được đặt lên bàn của Trung úy Ken Landwehr, toàn đội điều tra đều nín thở"
       ]
      ]
     }
@@ -2532,14 +3365,69 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-05",
+   "id": "4-07",
    "act": 4,
-   "start": 828.18,
-   "end": 839.4,
+   "start": 1033.47,
+   "end": 1060.48,
    "role": "D",
    "sentences": [
-    "4.04#6",
-    "4.04#7"
+    "4.04#4",
+    "4.04#5",
+    "4.04#6"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t5_newspaper_classified_494",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "MỤC RAO VẶT BÁO THE WICHITA EAGLE"
+      ],
+      [
+       "quote",
+       "Rex, mọi chuyện sẽ ổn để gửi nó"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 6,
+     "elems": [
+      [
+       "ital",
+       "Kẻ sát nhân đa nghi bậc nhất lại cả tin mù quáng vào lời cam kết của cảnh sát"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Lật báo giấy `4.03`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-08",
+   "act": 4,
+   "start": 1060.48,
+   "end": 1074.52,
+   "role": "D",
+   "sentences": [
+    "4.04#7",
+    "4.04#8"
    ],
    "template": "T1",
    "variant": "",
@@ -2557,7 +3445,7 @@
       ],
       [
        "ital",
-       "Bưu phẩm gửi tới đài truyền hình KSAS-TV"
+       "Bên trong là một chiếc đĩa mềm Memorex 1.44 Megabyte màu tím"
       ]
      ]
     }
@@ -2577,13 +3465,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-06",
+   "id": "4-09",
    "act": 4,
-   "start": 839.4,
-   "end": 846.82,
+   "start": 1074.52,
+   "end": 1078.76,
    "role": "D",
    "sentences": [
-    "4.04#8"
+    "4.04#9"
    ],
    "template": "T1",
    "variant": "",
@@ -2597,11 +3485,11 @@
      "elems": [
       [
        "bold",
-       "CHIẾC ĐĨA MỀM MEMOREX 1.44MB MÀU TÍM"
+       "CHIẾC BẪY CÔNG NGHỆ ĐÃ SẬP XUỐNG"
       ],
       [
        "ital",
-       "Vật chứng thế kỷ định đoạt số phận kẻ thủ ác"
+       "Đúng như dự tính của chúng tôi"
       ]
      ]
     }
@@ -2621,10 +3509,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-07",
+   "id": "4-10",
    "act": 4,
-   "start": 846.82,
-   "end": 859.62,
+   "start": 1078.76,
+   "end": 1096.22,
    "role": "H",
    "sentences": [
     "4.06#1",
@@ -2646,7 +3534,7 @@
       ],
       [
        "ital",
-       "Chuyên gia Randy Stone quét sâu vào các cung từ tính bằng phần mềm pháp y"
+       "Chuyên gia Randy Stone trích xuất sâu các phân vùng từ tính trên đĩa"
       ]
      ]
     }
@@ -2666,16 +3554,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-08",
+   "id": "4-11",
    "act": 4,
-   "start": 859.62,
-   "end": 887.87,
+   "start": 1096.22,
+   "end": 1118.81,
    "role": "H",
    "sentences": [
     "4.06#3",
     "4.06#4",
-    "4.06#5",
-    "4.06#6"
+    "4.06#5"
    ],
    "template": "T8",
    "variant": "",
@@ -2689,15 +3576,20 @@
      "elems": [
       [
        "ital",
-       "THUỘC TÍNH SIÊU DỮ LIỆU ẨN (METADATA) LỘ DIỆN:"
+       "THUỘC TÍNH SIÊU DỮ LIỆU ẨN (METADATA) LỘ DIỆN"
       ],
       [
        "ital",
-       "Dòng thứ nhất: 'Sửa đổi lần cuối bởi: Dennis'"
-      ],
+       "Bên cạnh tập tin TestA.rtf, chuyên gia khôi phục được một tập tin Microsoft Word đã bị xóa"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
       [
        "ital",
-       "Dòng thứ hai: 'Được đăng ký bởi: Nhà thờ Lutheran Chúa Kitô'"
+       "Hai dòng dữ liệu hiển thị rõ mồn một trên màn hình"
       ]
      ]
     }
@@ -2717,10 +3609,55 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-09",
+   "id": "4-12",
    "act": 4,
-   "start": 887.87,
-   "end": 889.67,
+   "start": 1118.81,
+   "end": 1128.56,
+   "role": "H",
+   "sentences": [
+    "4.06#6",
+    "4.06#7"
+   ],
+   "template": "T8",
+   "variant": "",
+   "bg": "t5_metadata_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Dòng thứ nhất: “Sửa đổi lần cuối bởi: Dennis”"
+      ],
+      [
+       "ital",
+       "Dòng thứ hai: “Được đăng ký bởi tổ chức: Nhà thờ Lutheran Chúa Kitô”"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Sub-drop ở Metadata",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-13",
+   "act": 4,
+   "start": 1128.56,
+   "end": 1130.36,
    "role": null,
    "sentences": [],
    "template": "T8",
@@ -2735,15 +3672,11 @@
      "elems": [
       [
        "ital",
-       "THUỘC TÍNH SIÊU DỮ LIỆU ẨN (METADATA) LỘ DIỆN:"
+       "Dòng thứ nhất: “Sửa đổi lần cuối bởi: Dennis”"
       ],
       [
        "ital",
-       "Dòng thứ nhất: 'Sửa đổi lần cuối bởi: Dennis'"
-      ],
-      [
-       "ital",
-       "Dòng thứ hai: 'Được đăng ký bởi: Nhà thờ Lutheran Chúa Kitô'"
+       "Dòng thứ hai: “Được đăng ký bởi tổ chức: Nhà thờ Lutheran Chúa Kitô”"
       ]
      ]
     }
@@ -2761,13 +3694,13 @@
    },
    "hold": true,
    "transition": "dissolve",
-   "inherit": "4-08"
+   "inherit": "4-12"
   },
   {
-   "id": "4-10",
+   "id": "4-14",
    "act": 4,
-   "start": 889.67,
-   "end": 905.44,
+   "start": 1130.36,
+   "end": 1152.75,
    "role": "D",
    "sentences": [
     "4.08#1",
@@ -2786,11 +3719,11 @@
      "elems": [
       [
        "bold",
-       "TÌM KIẾM TRÊN CÔNG CỤ: 'Nhà thờ Lutheran Chúa Kitô Wichita Dennis'"
+       "TÌM KIẾM: “NHÀ THỜ LUTHERAN CHÚA KITÔ WICHITA DENNIS”"
       ],
       [
        "ital",
-       "Chủ tịch Hội đồng Nhà thờ: Dennis Rader"
+       "Chủ tịch Hội đồng Nhà thờ chính là Dennis Rader"
       ]
      ]
     }
@@ -2810,14 +3743,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-11",
+   "id": "4-15",
    "act": 4,
-   "start": 905.44,
-   "end": 916.52,
+   "start": 1152.75,
+   "end": 1178.21,
    "role": "D",
    "sentences": [
     "4.08#4",
-    "4.08#5"
+    "4.08#5",
+    "4.08#6"
    ],
    "template": "T1",
    "variant": "",
@@ -2831,11 +3765,11 @@
      "elems": [
       [
        "bold",
-       "CHIẾC XE JEEP CHEROKEE MÀU ĐEN TRÊN CAMERA AN NINH"
+       "KHỚP VỚI CAMERA AN NINH TẠI BÃI ĐỖ HOME DEPOT"
       ],
       [
        "ital",
-       "Khớp với chiếc xe xuất hiện tại bãi đỗ xe Home Depot"
+       "Và mẫu bệnh phẩm xét nghiệm cũ của con gái Rader được thu giữ để đối chiếu ADN"
       ]
      ]
     }
@@ -2855,13 +3789,12 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-12",
+   "id": "4-16",
    "act": 4,
-   "start": 916.52,
-   "end": 945.43,
+   "start": 1178.21,
+   "end": 1196.84,
    "role": "D",
    "sentences": [
-    "4.08#6",
     "4.08#7",
     "4.08#8",
     "4.08#9"
@@ -2886,7 +3819,7 @@
       ],
       [
        "ital",
-       "Mẫu tế bào y tế của con gái Rader từ trường đại học"
+       "Không còn một chút nghi ngờ nào nữa"
       ]
      ]
     }
@@ -2908,16 +3841,61 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-13",
+   "id": "4-17",
    "act": 4,
-   "start": 945.43,
-   "end": 974.68,
+   "start": 1196.84,
+   "end": 1200.84,
+   "role": "D",
+   "sentences": [
+    "4.08#10"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t5_dna_pap_smear_vial",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "VÒNG VÂY TRINH SÁT"
+      ],
+      [
+       "bold",
+       "BAO VÂY HOÀN TOÀN CĂN NHÀ Ở PARK CITY"
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "Quan hệ cha con"
+   ],
+   "beat_text": "Dấu mộc ở \"Quan hệ cha con\"",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-18",
+   "act": 4,
+   "start": 1200.84,
+   "end": 1228.49,
    "role": "H",
    "sentences": [
     "4.10#1",
     "4.10#2",
-    "4.10#3",
-    "4.10#4"
+    "4.10#3"
    ],
    "template": "T1",
    "variant": "",
@@ -2955,16 +3933,61 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-14",
+   "id": "4-19",
    "act": 4,
-   "start": 974.68,
-   "end": 990.26,
+   "start": 1228.49,
+   "end": 1250.79,
+   "role": "H",
+   "sentences": [
+    "4.10#4",
+    "4.10#5",
+    "4.10#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_highway_takedown_arrest",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CHIẾC MẶT NẠ NGẠO NGHỄ NỨT VỠ TRONG PHÒNG THẨM VẤN"
+      ],
+      [
+       "ital",
+       "Từ kẻ thách thức luật pháp, hắn biến thành một kẻ bàng hoàng trước sự sụp đổ của ảo tưởng toàn năng"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Còi xe cảnh sát & phanh `4.09`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-20",
+   "act": 4,
+   "start": 1250.79,
+   "end": 1269.37,
    "role": "D",
    "sentences": [
     "4.12#1",
     "4.12#2",
-    "4.12#3",
-    "4.12#4"
+    "4.12#3"
    ],
    "template": "T1",
    "variant": "",
@@ -2981,12 +4004,17 @@
        "CUỘC ĐỐI CHẤT KINH ĐIỂN TRONG PHÒNG HỎI CUNG"
       ],
       [
-       "ital",
-       "Hắn hỏi vì sao cảnh sát lại nói dối hắn về chiếc đĩa mềm"
-      ],
+       "quote",
+       "Tại sao các anh lại nói dối tôi về chiếc đĩa mềm?"
+      ]
+     ]
+    },
+    {
+     "at_sentence": 3,
+     "elems": [
       [
-       "ital",
-       "Và câu trả lời hắn nhận được rất ngắn gọn: Vì cảnh sát đang tìm cách bắt hắn"
+       "quote",
+       "Vì chúng tôi tìm cách bắt ông."
       ]
      ]
     }
@@ -3006,14 +4034,60 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-15",
+   "id": "4-21",
    "act": 4,
-   "start": 990.26,
-   "end": 1016.35,
+   "start": 1269.37,
+   "end": 1287.36,
    "role": "D",
    "sentences": [
-    "4.12#5",
-    "4.12#6"
+    "4.12#4",
+    "4.12#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_interrogation_confrontation",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "SỤP ĐỔ CÁI TÔI ÁI KỶ (NARCISSISTIC COLLAPSE)"
+      ],
+      [
+       "ital",
+       "Nhận ra chiếc bẫy đã sập và danh tính đã bị phơi bày"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Cửa sắt đóng sầm `4.11`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-22",
+   "act": 4,
+   "start": 1287.36,
+   "end": 1312.22,
+   "role": "D",
+   "sentences": [
+    "4.12#6",
+    "4.12#7",
+    "4.12#8"
    ],
    "template": "T1",
    "variant": "",
@@ -3031,7 +4105,7 @@
       ],
       [
        "ital",
-       "Thao thao bất tuyệt thú nhận từng vụ án trong nhiều giờ liền"
+       "Thao thao bất tuyệt thừa nhận toàn bộ 10 vụ án mạng trong suốt nhiều giờ liền"
       ]
      ]
     }
@@ -3051,14 +4125,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-16",
+   "id": "4-23",
    "act": 4,
-   "start": 1016.35,
-   "end": 1035.1,
+   "start": 1312.22,
+   "end": 1335.03,
    "role": "H",
    "sentences": [
     "4.14#1",
-    "4.14#2"
+    "4.14#2",
+    "4.14#3"
    ],
    "template": "T1",
    "variant": "",
@@ -3072,7 +4147,7 @@
      "elems": [
       [
        "ital",
-       "HÃY HÌNH DUNG KHOẢNH KHẮC ĐỊNH MỆNH ẤY"
+       "HÃY LẮNG NGHE NỖI ĐAU ẤY"
       ],
       [
        "bold",
@@ -3096,16 +4171,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-17",
+   "id": "4-24",
    "act": 4,
-   "start": 1035.1,
-   "end": 1061.71,
+   "start": 1335.03,
+   "end": 1362.48,
    "role": "N2",
    "sentences": [
     "4.15#1",
     "4.15#2",
-    "4.15#3",
-    "4.15#4"
+    "4.15#3"
    ],
    "template": "T4",
    "variant": "testimony",
@@ -3119,16 +4193,16 @@
      "elems": [
       [
        "quote",
-       "Cả thế giới biết đến ông ấy như một con quái vật."
+       "Cả thế giới nhìn thấy ông ấy như một con quái vật đáng ghê tởm, nhưng với tôi, ông từng là người cha mẫu mực nhất."
       ]
      ]
     },
     {
-     "at_sentence": 4,
+     "at_sentence": 3,
      "elems": [
       [
-       "bold",
-       "“Kẻ bị cả đất nước truy lùng lại chính là người từng chúc cô ngủ ngon mỗi đêm.”"
+       "quote",
+       "Khi đặc vụ FBI gõ cửa căn hộ và thông báo cha tôi chính là sát nhân BTK, toàn bộ mặt đất dưới chân tôi như sụp đổ hoàn toàn."
       ]
      ]
     }
@@ -3148,10 +4222,61 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-18",
+   "id": "4-25",
    "act": 4,
-   "start": 1061.71,
-   "end": 1063.51,
+   "start": 1362.48,
+   "end": 1388.51,
+   "role": "N2",
+   "sentences": [
+    "4.15#4",
+    "4.15#5",
+    "4.15#6"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t5_kerri_rawson_tears",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "Nỗi đau đớn lớn nhất không chỉ là sự sợ hãi, mà là sự phản bội niềm tin tột cùng."
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "quote",
+       "Làm sao tôi có thể chấp nhận người đàn ông từng chúc tôi ngủ ngon mỗi đêm lại chính là bóng ma reo rắc kinh hoàng cho hàng chục gia đình khác?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "Tiếng bật cassette `4.15#1`",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-26",
+   "act": 4,
+   "start": 1388.51,
+   "end": 1390.31,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -3192,12 +4317,13 @@
   {
    "id": "5-01",
    "act": 5,
-   "start": 1063.51,
-   "end": 1072.51,
+   "start": 1390.31,
+   "end": 1424.7,
    "role": "H",
    "sentences": [
     "5.02#1",
-    "5.02#2"
+    "5.02#2",
+    "5.02#3"
    ],
    "template": "T5",
    "variant": "date",
@@ -3237,11 +4363,11 @@
   {
    "id": "5-02",
    "act": 5,
-   "start": 1072.51,
-   "end": 1088.54,
+   "start": 1424.7,
+   "end": 1438.97,
    "role": "H",
    "sentences": [
-    "5.02#3"
+    "5.02#4"
    ],
    "template": "T1",
    "variant": "",
@@ -3255,11 +4381,11 @@
      "elems": [
       [
        "bold",
-       "MƯỜI BẢN ÁN TÙ CHUNG THÂN LIÊN TIẾP"
+       "THÁI ĐỘ TỰ THƯƠNG HẠI BẢN THÂN BỆNH HOẠN"
       ],
       [
        "ital",
-       "Thời hạn thụ án tối thiểu 175 năm không ân xá"
+       "Không hề có sự ăn năn chân chính đối với gia đình các nạn nhân"
       ]
      ]
     }
@@ -3283,12 +4409,13 @@
   {
    "id": "5-03",
    "act": 5,
-   "start": 1088.54,
-   "end": 1116.85,
+   "start": 1438.97,
+   "end": 1465.43,
    "role": "H",
    "sentences": [
-    "5.02#4",
-    "5.02#5"
+    "5.02#5",
+    "5.02#6",
+    "5.02#7"
    ],
    "template": "T1",
    "variant": "",
@@ -3328,8 +4455,8 @@
   {
    "id": "5-04",
    "act": 5,
-   "start": 1116.85,
-   "end": 1118.15,
+   "start": 1465.43,
+   "end": 1466.73,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -3371,12 +4498,57 @@
   {
    "id": "5-05",
    "act": 5,
-   "start": 1118.15,
-   "end": 1141.68,
+   "start": 1466.73,
+   "end": 1493.84,
    "role": "H",
    "sentences": [
     "5.04#1",
-    "5.04#2"
+    "5.04#2",
+    "5.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_solitary_confinement_cell",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HỒ SƠ BTK KHÉP LẠI SAU HƠN BA THẬP KỶ"
+      ],
+      [
+       "ital",
+       "Không một dấu vết số nào có thể hoàn toàn biến mất"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-06",
+   "act": 5,
+   "start": 1493.84,
+   "end": 1501.64,
+   "role": "H",
+   "sentences": [
+    "5.04#4"
    ],
    "template": "T1",
    "variant": "",
@@ -3414,10 +4586,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-06",
+   "id": "5-07",
    "act": 5,
-   "start": 1141.68,
-   "end": 1158.85,
+   "start": 1501.64,
+   "end": 1520.85,
    "role": "C",
    "sentences": [
     "5.05#1",
@@ -3460,14 +4632,59 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-07",
+   "id": "5-08",
    "act": 5,
-   "start": 1158.85,
-   "end": 1176.98,
+   "start": 1520.85,
+   "end": 1527.11,
    "role": "C",
    "sentences": [
-    "5.05#4",
-    "5.05#5"
+    "5.05#4"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t5_redflag_rule_control",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "CẢNH BÁO ĐẦU TIÊN"
+      ],
+      [
+       "bold",
+       "Nhu cầu kiểm soát quyền lực bị dồn nén, chờ thời cơ để bộc phát thành hành vi bạo lực"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-09",
+   "act": 5,
+   "start": 1527.11,
+   "end": 1548.55,
+   "role": "C",
+   "sentences": [
+    "5.05#5",
+    "5.05#6",
+    "5.05#7"
    ],
    "template": "T9",
    "variant": "",
@@ -3505,14 +4722,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-08",
+   "id": "5-10",
    "act": 5,
-   "start": 1176.98,
-   "end": 1194.16,
+   "start": 1548.55,
+   "end": 1572.35,
    "role": "D",
    "sentences": [
     "5.06#1",
-    "5.06#2"
+    "5.06#2",
+    "5.06#3"
    ],
    "template": "T9",
    "variant": "",
@@ -3550,15 +4768,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-09",
+   "id": "5-11",
    "act": 5,
-   "start": 1194.16,
-   "end": 1215.9,
+   "start": 1572.35,
+   "end": 1595.0,
    "role": "D",
    "sentences": [
-    "5.06#3",
     "5.06#4",
-    "5.06#5"
+    "5.06#5",
+    "5.06#6"
    ],
    "template": "T9",
    "variant": "",
@@ -3596,10 +4814,54 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-10",
+   "id": "5-12",
    "act": 5,
-   "start": 1215.9,
-   "end": 1217.7,
+   "start": 1595.0,
+   "end": 1603.62,
+   "role": "D",
+   "sentences": [
+    "5.06#7"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t5_redflag_narcissistic_hubris",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "CẢNH BÁO CUỐI CÙNG"
+      ],
+      [
+       "bold",
+       "Tự để lộ sơ hở và hủy hoại chính mình khi cái tôi kiêu ngạo bị thách thức trước công luận"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": true,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-13",
+   "act": 5,
+   "start": 1603.62,
+   "end": 1605.42,
    "role": null,
    "sentences": [],
    "template": "T9",
@@ -3613,12 +4875,12 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "CẢNH BÁO 04: NHU CẦU ÁI KỶ KHAO KHÁT ĐƯỢC CÔNG NHẬN"
+       "ital",
+       "CẢNH BÁO CUỐI CÙNG"
       ],
       [
-       "ital",
-       "Lỗ hổng tự tôn khổng lồ dễ tự hủy hoại khi cái tôi bị thách thức"
+       "bold",
+       "Tự để lộ sơ hở và hủy hoại chính mình khi cái tôi kiêu ngạo bị thách thức trước công luận"
       ]
      ]
     }
@@ -3636,20 +4898,18 @@
    },
    "hold": true,
    "transition": "dissolve",
-   "inherit": "5-09"
+   "inherit": "5-12"
   },
   {
-   "id": "5-11",
+   "id": "5-14",
    "act": 5,
-   "start": 1217.7,
-   "end": 1278.44,
+   "start": 1605.42,
+   "end": 1637.67,
    "role": "H",
    "sentences": [
     "5.08#1",
     "5.08#2",
-    "5.08#3",
-    "5.08#4",
-    "5.08#5"
+    "5.08#3"
    ],
    "template": "T1",
    "variant": "",
@@ -3687,10 +4947,100 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-12",
+   "id": "5-15",
    "act": 5,
-   "start": 1278.44,
-   "end": 1279.74,
+   "start": 1637.67,
+   "end": 1675.96,
+   "role": "H",
+   "sentences": [
+    "5.08#4",
+    "5.08#5",
+    "5.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_justice_dawn_sunlight",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HÃY LUÔN TỈNH THỨC VÀ GIỮ CHO MÌNH MỘT TÂM HỒN HƯỚNG THIỆN"
+      ],
+      [
+       "ital",
+       "Bài học sinh tồn lớn nhất không phải nỗi sợ hãi tê liệt, mà là sự tỉnh thức để nhận diện và bảo vệ những ranh giới an toàn"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-16",
+   "act": 5,
+   "start": 1675.96,
+   "end": 1684.73,
+   "role": "H",
+   "sentences": [
+    "5.08#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t5_justice_dawn_sunlight",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "CẢM ƠN CÁC CHUYÊN GIA & QUÝ VỊ THÍNH GIẢ"
+      ],
+      [
+       "ital",
+       "Đã đồng hành cùng chương trình và lắng nghe trọn vẹn tập tài liệu ngày hôm nay"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-17",
+   "act": 5,
+   "start": 1684.73,
+   "end": 1686.03,
    "role": null,
    "sentences": [],
    "template": "T1",
@@ -3705,11 +5055,11 @@
      "elems": [
       [
        "bold",
-       "CÔNG LÝ CÓ THỂ ĐẾN MUỘN NHƯNG LUÔN CHIẾN THẮNG"
+       "CẢM ƠN CÁC CHUYÊN GIA & QUÝ VỊ THÍNH GIẢ"
       ],
       [
        "ital",
-       "Bóng tối sẽ luôn phải cúi đầu trước ánh sáng của sự thật"
+       "Đã đồng hành cùng chương trình và lắng nghe trọn vẹn tập tài liệu ngày hôm nay"
       ]
      ]
     }
@@ -3727,13 +5077,13 @@
    },
    "hold": true,
    "transition": "dissolve",
-   "inherit": "5-11"
+   "inherit": "5-16"
   },
   {
-   "id": "5-13",
+   "id": "5-18",
    "act": 5,
-   "start": 1279.74,
-   "end": 1288.34,
+   "start": 1686.03,
+   "end": 1698.66,
    "role": "H",
    "sentences": [
     "5.10#1",
@@ -3751,11 +5101,11 @@
      "elems": [
       [
        "bold",
-       "CẢM ƠN CÁC KHÁCH MỜI & QUÝ VỊ THÍNH GIẢ"
+       "GIỮ CHO MÌNH MỘT TÂM HỒN HƯỚNG THIỆN"
       ],
       [
        "ital",
-       "Hãy luôn tỉnh thức và giữ cho mình một tâm hồn hướng thiện"
+       "Biết bảo vệ bản thân và trân trọng sự bình yên của cuộc sống"
       ]
      ]
     }
@@ -3775,10 +5125,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-14",
+   "id": "5-19",
    "act": 5,
-   "start": 1288.34,
-   "end": 1296.94,
+   "start": 1698.66,
+   "end": 1700.49,
    "role": "H",
    "sentences": [
     "5.10#3"
@@ -3796,6 +5146,10 @@
       [
        "bold",
        "HẸN GẶP LẠI TRONG HỒ SƠ PHÂN TÍCH TÂM LÝ TIẾP THEO"
+      ],
+      [
+       "ital",
+       "Chúc quý vị một đêm an lành"
       ]
      ]
     }
@@ -3815,10 +5169,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-15",
+   "id": "5-20",
    "act": 5,
-   "start": 1296.94,
-   "end": 1306.74,
+   "start": 1700.49,
+   "end": 1710.49,
    "role": null,
    "sentences": [],
    "template": "T1",

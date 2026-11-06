@@ -32,137 +32,122 @@
 - **H13 — 3-way synchronization (Image — Text — Voice):** 100% verified 1-to-1 match across all 83 shots.
 
 <!--TABLE-->
-## 6. DANH SÁCH SHOT — TẬP 05
-
-**Guide:** *Role* = speaker (H Owl · D Wolf · C Fox · N1 Sheep · N2 Cat). Table specifies **background + graphics**; badges & busts placed automatically.  
-*Characters*: `🅑` = bust beyond first sentence · `→X` = Host invites X · `✦` = first appearance · `⊘` = bust disabled.  
-Last column: blank = dissolve · ✂ cut · ◼ black.
-
-**Đọc bảng:** *Vai* = người đang nói (H Cú · D Sói · C Cáo · N1 Cừu · N2 Mèo). Bảng chỉ mô tả **nền + đồ hoạ**; badge và bán thân tự đặt theo A5.4.  
-Cột *Nhân vật*: `🅑` = thêm bán thân ngoài câu đầu lượt · `→X` = Host đang mời X · `✦` = lần đầu xuất hiện · `⊘` = tắt bán thân.  
-Cột cuối: trống = hoà tan · ✂ cắt · ◼ tối đen.
-
-### CHANNEL INTRO · 0.00–22.41 s · `bgm_music_box.mp3`
-
-Place `assets/brand/intro_kenh_EN_t05.mov` at 0.00 s (A5.7). No spoken line belongs to the intro.
-
-
-Đặt `assets/brand/intro_kenh.mov` ở 0,00 s (A5.7). Không câu thoại nào thuộc intro.
-
-### ACT 1 — THE RESURFACED LETTER AFTER 13 YEARS OF SILENCE · Lead background `t5_wichita_skyline_dusk`
-
+## 6. DANH SÁCH SHOT — TẬP 05 (dựng lại 05/11/2026 theo kịch bản v4 — 209 câu, 209 câu phủ)
 
 | Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
 |---|---|---|---|---|---|---|---|---|
 | 1-00 | `1.01`–`1.02` (20.5 s → lời đầu) | — | T1 | `t5_wichita_skyline_dusk` hiện dần từ đen | *ACT 01 · THE RESURFACED LETTER AFTER 13 YEARS OF SILENCE* | Typewriter clicks & winter wind | ⊘ |  |
-| 1-01 | `1.03#1`–`#2` | H | T5 ngày | `t5_wichita_skyline_dusk` | **MARCH 19 · 2004** · *Wichita, Kansas · United States* | Typewriter sound | ✦ Cú |  |
-| 1-02 | `1.03#3` | H | T1 | `t5_eagle_newsroom_night` | **THE WICHITA EAGLE EDITORIAL OFFICE** · *Manila envelope bearing no return address* | — | 🅑 |  |
-| 1-03 | `1.03#4` | H | T1 | `t5_manila_envelope_polaroids` | **PHOTOCOPY OF VICKI WEGERLE'S LICENSE** · *Accompanied by three crime scene photographs* | — | 🅑 |  |
-| 1-04 | `1.03#5` | H | T2 | `t5_btk_signature_letter` | *MIDWEST'S TERRIFYING NIGHTMARE* · **SIGNED: B-T-K** · *Bind · Torture · Kill* | Stamp on "B-T-K" | ⊘ |  |
+| 1-01 | `1.03#1`–`#2` | H | T5 ngày | `t5_wichita_skyline_dusk` | **19 · 03 · 2004** · *Wichita, Kansas · United States* | Typewriter sound | ✦ Cú |  |
+| 1-02 | `1.03#3` | H | T1 | `t5_eagle_newsroom_night` | **PHOTOCOPY OF VICKI WEGERLE'S DRIVER'S LICENSE** · *A woman murdered in 1986 in an unsolved cold case* | — | 🅑 |  |
+| 1-03 | `1.03#4` | H | T1 | `t5_manila_envelope_polaroids` | **THE THREE-INITIAL SIGNATURE** · “B-T-K” · *Three initials that haunted the American Midwest for decades* | — | 🅑 |  |
+| 1-04 | `1.03#5` | H | T2 | `t5_btk_signature_letter` | *A CHILLING PROCLAMATION* · **THE SERIAL PREDATOR WAS OFFICIALLY BACK** | Stamp on "B-T-K" | ⊘ |  |
 | 1-05 | `1.04` (nghỉ 1.5 s) | — | — | giữ 1-04 | — | — | ⊘ |  |
-| 1-06 | `1.05#1`–`#2` | H | T1 | `t5_newspaper_bundle_dawn` | **SHOCKWAVES ACROSS THE UNITED STATES** · *Ten victims claimed between 1974 and 1991* | Newspaper headline | 🅑 |  |
-| 1-07 | `1.05#3`–`#4` | H | T1 | `t5_vintage_typewriter_desk` | **PHANTOM VANISHED INTO THIN AIR** · *Thirteen agonizing years without a shred of evidence* | Typewriter sound | ⊘ |  |
-| 1-08 | `1.05#5` | H | T1 | `t5_cold_case_archives` | **WICHITA POLICE & FBI COLD CASE ARCHIVES** · *Believed the perpetrator was deceased or imprisoned* | — | ⊘ |  |
+| 1-06 | `1.05#1`–`#2` | H | T1 | `t5_newspaper_bundle_dawn` | **SHOCKWAVES ACROSS THE ENTIRE UNITED STATES** · *Ten innocent victims claimed between 1974 and 1991* | Newspaper headline | 🅑 |  |
+| 1-07 | `1.05#3`–`#4` | H | T1 | `t5_vintage_typewriter_desk` | **THE PHANTOM VANISHED INTO THIN AIR** · *Thirteen long years without a single new crime* | Typewriter sound | ⊘ |  |
+| 1-08 | `1.05#5` | H | T1 | `t5_cold_case_archives` | **THE COLD CASE FILES** · *Police believed the predator was dead, or serving life under another name* | — | ⊘ |  |
 | 1-09 | `1.06` (nghỉ 1.5 s) | — | — | giữ 1-08 | — | — | ⊘ |  |
-| 1-10 | `1.07#1` | H | T1 | `t5_park_city_suburb` | *HEAR FROM A RESIDENT OF* · **PARK CITY SUBURBAN COMMUNITY** | — | →N1 |  |
-| 1-11 | `1.09#1`–`#2` | N1 | T4 lời kể | `t5_park_city_suburb`, `push` | “When word spread that BTK had resumed sending letters after more than a decade, our entire town held its breath in dread.” → `#2`: “People checked their window latches again, bought extra firearms, and bolted their doors before sundown.” | Tape recorder click `1.08` | ✦ Cừu |  |
-| 1-12 | `1.09#3` | N1 | T4 lời kể | `t5_suburban_house_locked` | “No one could ever have imagined that the monster hunted across America for thirty years… was the very same diligent man who walked our neighborhood measuring grass heights every day.” | — | ⊘ | →H |
-| 1-13 | `1.10#1`–`#4` | H | T1 | `t5_compliance_truck_street` | **THE MOST BIZARRE PARADOX IN JURISPRUDENCE** · *Dormant for thirteen years* → `#3`: *Crime scene evidence gone cold* → `#4`: *Technology utterly helpless* | — | ✦ Cú |  |
-| 1-14 | `1.10#5`–`#7` | H | T1 | `t5_detective_war_room` | **WHAT COMPELLED THE MONSTER TO SHATTER HIS SILENCE?** · *Why deliver himself directly into a police trap?* → `#5`: *Could have lived out his days under a respected guise* | — | ⊘ |  |
-| 1-15 | `1.11` (nghỉ 2 s) | — | — | giữ 1-14, nhạc nền dừng đột ngột | — | Dry clock ticking | ⊘ |  |
-| 1-16 | `1.12#1` | H | T1 | `t5_detective_war_room` | *HEAR FROM THE INVESTIGATOR* · **THE OPENING MOMENTS OF A HISTORIC BATTLE OF WITS** | — | →D |  |
-| 1-17 | `1.14#1`–`#2` | D | T1 | `t5_detective_war_room`, `still` | **THE TASK FORCE'S FIRST QUESTION:** *Why now?* → `#2`: *Flipping back through local newspapers* | Drawer opens & dossier placed `1.13` | ✦ Sói |  |
-| 1-18 | `1.14#3`–`#5` | D | T1 | `t5_book_manuscript_desk` | **WICHITA EAGLE 30TH ANNIVERSARY SERIES** · *Robert Beattie's book questioned if BTK was dead or incapacitated* | — | 🅑 |  |
-| 1-19 | `1.14#6`–`#7` | D | T1 | `t5_narcissist_mirror_shadow`, `push` | **A DAGGER TO MALIGNANT NARCISSISTIC PRIDE** · *Refusing to be forgotten · The BTK monster is still alive* | — | ⊘ | →H |
-| 1-20 | `1.16#1`–`#3` | H | T10 | `t5_amber_eyes_dossier_05` | **THE PURPLE FLOPPY DISK & NARCISSISTIC ADDICTION** · *The Dennis Rader (BTK) Dossier* · *Addiction to attention & Total compartmentalization* | Mournful cello `1.15` rises | ✦ Cú |  |
-| 1-21 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *ACT 02* · **THE CRIME SCENE & PSYCHOLOGICAL SIGNATURE OF A TWO-FACED PREDATOR** | — | ⊘ | ◼ |
-
-### ACT 2 — THE CRIME SCENE & PSYCHOLOGICAL SIGNATURE OF A TWO-FACED PREDATOR · Lead background `t5_darkened_house_exterior`
-
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 2-01 | `2.02#1`–`#2` | H | T1 | `t5_darkened_house_exterior` | **CRIME SCENES ACROSS 17 YEARS OF ACTIVITY** · *1974–1991 · Highly idiosyncratic modus operandi and psychological signature* | Heartbeat & magnetic tape | ✦ Cú |  |
-| 2-02 | `2.02#3`–`#4` | H | T2 | `t5_btk_signature_metaphor` | *SELF-COINED MONIKER* · **BTK: BIND, TORTURE, KILL** · *Bind, Psychological Torture, and Kill* | Stamp on "BTK" | 🅑 | →D |
-| 2-03 | `2.04#1`–`#3` | D | T8 | `t5_btk_signature_metaphor`, `still` | *FBI BEHAVIORAL SCIENCE · PSYCHOLOGICAL SIGNATURE* · *First: Absolute need for subjugation* · *Binding victims, relishing terror* | Flipping crime scene photos `2.03` | ✦ Sói |  |
-| 2-04 | `2.04#4`–`#5` | D | T1 | `t5_darkened_house_exterior`, `push` | **NIGHT BURGLARY, SEVERING PHONE WIRES & BINDING** · *Prolonging time to savor sheer terror in the dark* | — | 🅑 |  |
-| 2-05 | `2.04#6`–`#8` | D | T1 | `t5_trophy_lockbox` | **SECOND: COMPULSION TO KEEP TROPHIES** · *Taking driver's licenses, watches, jewelry as emotional triggers* | — |  |  |
-| 2-06 | `2.04#9`–`#10` | D | T1 | `t5_public_library_bookshelves` | **THIRD: TAUNTING THE MEDIA** · *Packages hidden in public libraries and park trash cans* | — | ⊘ | →H |
-| 2-07 | `2.05#1`–`#4` | H | T1 | `t5_gloves_forensic_desk` | **A METICULOUS AND PATIENT PREDATOR** · *Schooled in police tradecraft, always wearing gloves* → `#3`: *The true identity behind the mask* | — | ✦ Cú | →D |
-| 2-08 | `2.06#1` | D | T1 | `t5_air_force_service_era` | **DENNIS RADER · BORN IN 1945** · *Four years in the U.S. Air Force · Degree in Administration of Justice* | — | ✦ Sói |  |
-| 2-09 | `2.06#2` | D | T1 | `t5_rader_house_park_city` | **6220 INDEPENDENCE STREET, PARK CITY** · *A wife of thirty years and two well-mannered children* | — |  |  |
-| 2-10 | `2.06#3` | D | T1 | `t5_lutheran_church_exterior` | **CHRIST LUTHERAN CHURCH COUNCIL PRESIDENT** · *Standing at the pulpit, greeting congregants, organizing charity* | — |  |  |
-| 2-11 | `2.06#4` | D | T1 | `t5_scout_camp_campfire` | **CUB SCOUT PACK LEADER** · *Teaching children how to tie knots, pitch tents, and value honesty* | — | ⊘ |  |
-| 2-12 | `2.06#5`–`#6` | D | T1 | `t5_compliance_truck_street` | **PARK CITY COMPLIANCE OFFICER SINCE 1991** · *Driving government pickup, measuring grass height, impounding stray animals* | — | ⊘ |  |
-| 2-13 | `2.06#7` | D | T1 | `t5_compliance_measuring_tape`, `push` | **STRICT TO THE POINT OF RIGID OBSESSION** · *No one could imagine the man with the measuring tape was the BTK monster* | Tape measure sound | ⊘ | →H |
-| 2-14 | `2.07#1`–`#4` | H | T3 so sánh | `t5_two_faces_silhouette` | *Daytime: Model citizen · Dedicated churchgoer · Caring father* · **NIGHT: COLD-BLOODED PREDATOR STEALING LIVES** · *How did two antithetical personas coexist for thirty years?* | Sub-drop on "predator" | ✦ Cú | →C |
-| 2-15 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *ACT 03* · **PSYCHOLOGICAL AUTOPSY — INSIDE THE MIND OF MALIGNANT NARCISSISM** | — | ⊘ | ◼ |
-
-### ACT 3 — PSYCHOLOGICAL AUTOPSY — INSIDE THE MIND OF MALIGNANT NARCISSISM · Lead background `t5_compartmentalization_cabinet`
-
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 3-01 | `3.02#1`–`#3` | C | T2 | `t5_compartmentalization_cabinet` | *FIRST DEFENSE MECHANISM* · **TOTAL COMPARTMENTALIZATION** · *Ability to seal off psychological compartments with flawless precision* | Stamp on "Compartmentalization" | ✦ Cáo |  |
-| 3-02 | `3.02#4`–`#5` | C | T1 | `t5_concrete_wall_divide` | **AN INVISIBLE CONCRETE WALL** · *Severing family life from dark fantasy worlds* | — | 🅑 |  |
-| 3-03 | `3.02#6`–`#7` | C | T1 | `t5_factor_x_shadow`, `push` | **DELUSIONAL PSYCHOLOGICAL CONSTRUCT: 'FACTOR X'** · *Attributing crimes to an abstract external entity* | — | ⊘ |  |
+| 1-10 | `1.07#1` | H | T1 | `t5_park_city_suburb` | *PICTURE THE STATE OF MIND* · **AN ORDINARY RESIDENT OF PARK CITY** | — | →N1 |  |
+| 1-11 | `1.09#1`–`#3` | N1 | T4 lời kể | `t5_park_city_suburb`, `push` | “When word broke that BTK was sending letters again after more than a decade, our entire town held its breath in dread.” → `#3`: “Families rushed to buy handguns, reinforce door locks, install motion sensors, and brace windows before sundown.” | Tape recorder click `1.08` | ✦ Cừu |  |
+| 1-12 | `1.09#4`–`#5` | N1 | T4 lời kể | `t5_suburban_house_locked` | “None of us could have ever fathomed that the predator hunted across the country was the diligent compliance officer who drove around measuring grass height on our street.” | — | ⊘ | →H |
+| 1-13 | `1.10#1`–`#3` | H | T1 | `t5_compliance_truck_street` | **ONE OF THE MOST BIZARRE PARADOXES IN MODERN CRIMINAL INVESTIGATION** · *The predator had successfully hibernated for thirteen full years* → `#3`: *The old physical trails had grown stone cold* | — | ✦ Cú |  |
+| 1-14 | `1.10#4` | H | T1 | `t5_compliance_truck_street` | **ONE OF THE MOST BIZARRE PARADOXES IN MODERN CRIMINAL INVESTIGATION** → `#4`: *Forensic technology at the time had yielded no clue as to his true identity* | — | ✦ Cú |  |
+| 1-15 | `1.10#5`–`#7` | H | T1 | `t5_detective_war_room` | **WHAT COMPELLED THE CREATURE TO SHATTER ITS OWN SILENCE?** · *Why would an obsessively cautious stalker step into an investigative trap?* | — | ⊘ |  |
+| 1-16 | `1.11` (nghỉ 2 s) | — | — | giữ 1-14, nhạc nền dừng đột ngột | — | Dry clock ticking | ⊘ |  |
+| 1-17 | `1.12#1` | H | T1 | `t5_detective_war_room` | *LET US INVITE THE INVESTIGATOR TO REOPEN THE CASE FILE* · **THE OPENING MOVE OF A HISTORIC PSYCHOLOGICAL DUEL** | — | →D |  |
+| 1-18 | `1.14#1`–`#2` | D | T1 | `t5_detective_war_room`, `still` | **THE TASK FORCE'S PRIMARY QUESTION:** *Why now?* → `#2`: *Reviewing local press coverage from the preceding months* | Drawer opens & dossier placed `1.13` | ✦ Sói |  |
+| 1-19 | `1.14#3`–`#5` | D | T1 | `t5_book_manuscript_desk` | **A RETROSPECTIVE MARKING THIRTY YEARS OF BTK** · *Attorney Robert Beattie openly theorizing that BTK was deceased or languishing in forgotten obscurity* | — | 🅑 |  |
+| 1-20 | `1.14#6`–`#7` | D | T1 | `t5_narcissist_mirror_shadow`, `push` | **A DEVASTATING STRIKE TO A PATHOLOGICAL EGO** · *He could not endure humanity forgetting his control and terrorizing power* | — | ⊘ | →H |
+| 1-21 | `1.16#1`–`#3` | H | T10 | `t5_amber_eyes_dossier_05` | **THE PURPLE FLOPPY DISK & THE NARCISSIST'S ADDICTION** · *The Dennis Rader (BTK) File* · *Addiction to Notoriety & Absolute Compartmentalization* | Mournful cello `1.15` rises | ✦ Cú |  |
+| 1-22 | `1.16#4` | H | T10 | `t5_amber_eyes_dossier_05` | **THE PURPLE FLOPPY DISK & THE NARCISSIST'S ADDICTION** · *The Dennis Rader (BTK) File* · *Addiction to Notoriety & Absolute Compartmentalization* | Mournful cello `1.15` rises | ✦ Cú |  |
+| 1-23 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *ACT 02* · **THE CRIME SCENE & PSYCHOLOGICAL SIGNATURE OF A TWO-FACED PREDATOR** | — | ⊘ | ◼ |
+| 2-01 | `2.02#1`–`#2` | H | T1 | `t5_darkened_house_exterior` | **THE SCENES LEFT BEHIND ACROSS SEVENTEEN ACTIVE YEARS** · *1974 – 1991 · A calculated modus operandi and a bizarre psychological signature* | Heartbeat & magnetic tape | ✦ Cú |  |
+| 2-02 | `2.02#3`–`#5` | H | T2 | `t5_btk_signature_metaphor` | *A MONIKER HE CHOSE FOR HIMSELF* · **BTK** · *An acronym for three English verbs* | Stamp on "BTK" | 🅑 | →D |
+| 2-03 | `2.04#1`–`#3` | D | T8 | `t5_btk_signature_metaphor`, `still` | *FBI BEHAVIORAL SCIENCE · THE PSYCHOLOGICAL SIGNATURE* · *An MO evolves dynamically with time* · *The Signature remains immutable, serving an internal emotional compulsion* | Flipping crime scene photos `2.03` | ✦ Sói |  |
+| 2-04 | `2.04#4`–`#5` | D | T1 | `t5_darkened_house_exterior`, `push` | **THREE DISTINCT PILLARS** · *First: an insatiable craving for absolute subjugation and total control over helpless victims* | — | 🅑 |  |
+| 2-05 | `2.04#6`–`#7` | D | T1 | `t5_trophy_lockbox` | **SECOND: THE COMPULSIVE RETENTION OF “TROPHIES”** · *Personal tokens kept to fuel private fantasies long after the event* → `#7`: *Third: the compulsion to taunt law enforcement and mass media* | — |  |  |
+| 2-06 | `2.04#8`–`#9` | D | T1 | `t5_public_library_bookshelves` | **SECRETS AND TAUNTS** · *Packages hidden inside public library volumes and park trash receptacles* → `#9`: *Those trophies and taunting letters laid bare the predatory psyche of the man* | — | ⊘ | →H |
+| 2-07 | `2.05#1`–`#3` | H | T1 | `t5_gloves_forensic_desk` | **THE FOUR-STAGE FANTASY ESCALATION TRAJECTORY** · *His predatory behavior did not materialize out of nowhere overnight* → `#3`: *Stage One: cruelty to small animals and nocturnal voyeurism* | — | ✦ Cú | →D |
+| 2-08 | `2.05#4`–`#6` | H | T1 | `t5_gloves_forensic_desk` | **THE FOUR-STAGE LADDER OF PSYCHOLOGY** → `#4`: *Stage Two: covert residential prowling and theft of women's private garments* → `#5`: *Stage Three: purposeful home invasions confronting victims directly* → `#6`: *Stage Four: taking human lives with bizarre, staged photographs* | — | ✦ Cú | →D |
+| 2-09 | `2.05#7` | H | T1 | `t5_gloves_forensic_desk` | **A HUNGER FOR ESCALATING FANTASY WITH NO INTERNAL BOUNDARY** · *Ever-higher doses of stimulation until nothing can stop him* | — | ✦ Cú | →D |
+| 2-10 | `2.06#1`–`#2` | D | T1 | `t5_air_force_service_era` | **DENNIS RADER · BORN IN 1945** · *Four years in the United States Air Force · A degree in Administration of Justice* | — | ✦ Sói |  |
+| 2-11 | `2.06#3` | D | T1 | `t5_rader_house_park_city` | **THE HOUSE AT 6220 INDEPENDENCE STREET, PARK CITY** · *A married man of over thirty years, raising two children* | — |  |  |
+| 2-12 | `2.06#4` | D | T1 | `t5_lutheran_church_exterior` | **COUNCIL PRESIDENT AT CHRIST LUTHERAN CHURCH** · *Entrusted with the church keys and financial stewardship* | — |  |  |
+| 2-13 | `2.06#5` | D | T1 | `t5_scout_camp_campfire` | **A LOCAL CUB SCOUT TROOP LEADER** · *Teaching young boys wilderness skills and civic integrity* | — | ⊘ |  |
+| 2-14 | `2.06#6`–`#7` | D | T1 | `t5_compliance_truck_street` | **PARK CITY'S COMPLIANCE SUPERVISOR FROM 1991 ONWARD** · *Inspecting neighborhoods, measuring grass heights, impounding stray pets* | — | ⊘ |  |
+| 2-15 | `2.06#8` | D | T1 | `t5_compliance_measuring_tape`, `push` | **THE HALO EFFECT & INSTITUTIONAL NORMALCY BIAS** · *An enormous blind spot that shielded him for three decades* | Tape measure sound | ⊘ | →H |
+| 2-16 | `2.07#1`–`#3` | H | T3 so sánh | `t5_two_faces_silhouette` | *By day: a pillar of civic virtue · An exemplary father* · **BY NIGHT: A COLD PREDATOR STALKING PREY** · *A security systems installer from 1974 to 1988* | Sub-drop on "predator" | ✦ Cú | →C |
+| 2-17 | `2.07#4`–`#6` | H | T3 so sánh | `t5_two_faces_silhouette` | *By day: a pillar of civic virtue · An exemplary father* · **BY NIGHT: A COLD PREDATOR STALKING PREY** · *How could two antithetical worlds coexist for thirty years?* | Sub-drop on "predator" | ✦ Cú | →C |
+| 2-18 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *ACT 03* · **PSYCHOLOGICAL AUTOPSY — INSIDE THE MIND OF MALIGNANT NARCISSISM** | — | ⊘ | ◼ |
+| 3-01 | `3.02#1`–`#3` | C | T2 | `t5_compartmentalization_cabinet` | *THE FIRST DEFENSE MECHANISM* · **ABSOLUTE COMPARTMENTALIZATION** · *An astonishing capacity to seal off cognitive drawers from one another* | Stamp on "Compartmentalization" | ✦ Cáo |  |
+| 3-02 | `3.02#4`–`#6` | C | T1 | `t5_concrete_wall_divide` | **NEITHER GUILT NOR MORAL CONFLICT** · *His violent deeds belonged to an entirely separate mental compartment* → `#6`: *Family and civic position functioned as a “Shield of Normalization”* | — | 🅑 |  |
+| 3-03 | `3.02#7`–`#8` | C | T1 | `t5_factor_x_shadow`, `push` | **A DELUSIONAL CONCEPT: “FACTOR X”** · *Assigning blame to an abstract entity* | — | ⊘ |  |
 | 3-04 | `3.03` (nghỉ 1.5 s) | — | — | giữ 3-03 | — | — | ⊘ |  |
-| 3-05 | `3.04#1`–`#3` | H | T1 | `t5_factor_x_shadow` | *A BIZARRE CONSTRUCT INDEED* · **UNDER PSYCHOLOGICAL SCRUTINY: WHAT WAS 'FACTOR X'?** | — | ✦ Cú | →C |
-| 3-06 | `3.05#1`–`#3` | C | T2 | `t5_projection_mask` | *CLASSIC DEFENSE MECHANISM* · **RATIONALIZATION & PROJECTION** · *'It wasn't me, Factor X inside made me do it'* | Stamp on "Rationalization & Projection" | ✦ Cáo |  |
-| 3-07 | `3.05#4`–`#5` | C | T1 | `t5_family_dinner_warmth` | **STRIPPING AWAY MORAL RESPONSIBILITY** · *Satisfying dark fantasies, then returning home to dine with family* | — | ⊘ | →H |
-| 3-08 | `3.06#1`–`#3` | H | T1 | `t5_narcissistic_throne` | **SOPHISTICATED RATIONALIZATION TO LULL CONSCIENCE** · *What compelled him to return to the lethal game in 2004?* | — | ✦ Cú | →C |
-| 3-09 | `3.07#1`–`#2` | C | T2 | `t5_narcissistic_throne`, `still` | *SECOND MECHANISM* · **MALIGNANT NARCISSISM & ADDICTION TO ATTENTION** · *Control and public admiration were his vital oxygen* | Dấu mộc ở "Ái kỷ ác tính" | ✦ Cáo |  |
-| 3-10 | `3.07#3`–`#4` | C | T1 | `t5_secret_scrapbook` | **13 YEARS BASKING IN PAST GLORY** · *Silently clipping news coverage into a secret scrapbook* | — | 🅑 |  |
-| 3-11 | `3.07#5`–`#7` | C | T1 | `t5_fear_of_oblivion`, `push` | **THE NARCISSIST'S GREATEST FEAR: OBLIVION** · *Risking capture so the world would see his mask, rather than dying an anonymous officer* | Sub-drop ở "Sự lãng quên" | ⊘ | →H |
-| 3-12 | `3.08#1`–`#3` | H | T1 | `t5_hubris_chessboard` | **ADDICTION TO ATTENTION BLINDED SURVIVAL INSTINCTS** · *Blinded hubris paving the way for a historic forensic trap* | — | ✦ Cú |  |
-| 3-13 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *ACT 04* · **THE INTERROGATION & THE DIGITAL FORENSIC TRAP** | — | ⊘ | ◼ |
-
-### ACT 4 — THE INTERROGATION & THE DIGITAL FORENSIC TRAP · Lead background `t5_winter_home_depot`
-
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 4-01 | `4.02#1`–`#4` | H | T5 ngày | `t5_winter_home_depot` | **EARLY 2005** · *Fatigued with printing and stashing packages in winter* → *Transitioning to digital computer files* → *Rader was 60 and computer illiterate* | Tiếng gió đông & quạt server | ✦ Cú |  |
-| 4-02 | `4.02#5` | H | T1 | `t5_cereal_box_pickup` | **HOME DEPOT PARKING LOT IN WICHITA** · *Cereal box placed on pickup truck bed on January 8, 2005* | — | 🅑 |  |
-| 4-03 | `4.02#6`–`#9` | H | T1 | `t5_handwritten_note_floppy` | **AN ASTONISHINGLY NAIVE QUESTION:** · *'Can I communicate with Floppy Disks without being traced?'* | — | ⊘ | →D |
-| 4-04 | `4.04#1`–`#5` | D | T2 | `t5_newspaper_classified_494` | *WICHITA EAGLE CLASSIFIED AD 494* · **'REX, IT WILL BE OKAY TO SEND IT'** · *Lt. Ken Landwehr's brilliant psychological bluff* | Lật báo giấy `4.03` | ✦ Sói |  |
-| 4-05 | `4.04#6`–`#7` | D | T1 | `t5_ksas_tv_station` | **FEBRUARY 16 · 2005** · *Package delivered to KSAS-TV station* | — | 🅑 |  |
-| 4-06 | `4.04#8` | D | T1 | `t5_purple_floppy_disk`, `push` | **PURPLE MEMOREX 1.44MB FLOPPY DISK** · *The critical exhibit that sealed the predator's fate* | Tiếng nạp đĩa mềm `4.05` | ⊘ | →H |
-| 4-07 | `4.06#1`–`#2` | H | T1 | `t5_digital_forensics_lab` | **POLICE DIGITAL FORENSICS LAB** · *Specialist Randy Stone scanning magnetic sectors with forensic software* | Tiếng gõ phím vi tính | ✦ Cú |  |
-| 4-08 | `4.06#3`–`#6` | H | T8 | `t5_metadata_screen` | *HIDDEN METADATA PROPERTIES REVEALED:* · *Line 1: 'Last saved by: Dennis'* · *Line 2: 'Company: Christ Lutheran Church'* | Sub-drop ở Metadata | ⊘ |  |
-| 4-09 | `4.07` (nghỉ 2 s) | — | — | giữ 4-08, nhạc nền dừng đột ngột | — | Nền quạt server vo ve | ⊘ |  |
-| 4-10 | `4.08#1`–`#3` | D | T1 | `t5_church_website_search` | **SEARCH ENGINE QUERY: 'Dennis Christ Lutheran Church'** · *Church Council President: Dennis Rader* | — | ✦ Sói |  |
-| 4-11 | `4.08#4`–`#5` | D | T1 | `t5_traffic_camera_pickup` | **BLACK PICKUP TRUCK ON SURVEILLANCE CAMERAS** · *Matching vehicle seen at package drop sites* | — | 🅑 |  |
-| 4-12 | `4.08#6`–`#9` | D | T2 | `t5_dna_pap_smear_vial` | *PAP SMEAR CELL DNA COMPARISON* · **100% FAMILIAL DNA MATCH** · *Medical sample of Rader's daughter from university clinic* | Dấu mộc ở "Khẳng định 100%" | ⊘ | →H |
-| 4-13 | `4.10#1`–`#4` | H | T1 | `t5_highway_takedown_arrest`, `push` | **NOON ON FEBRUARY 25 · 2005** · *Dozens of police cruisers surrounding and intercepting his vehicle on highway* | Còi xe cảnh sát & phanh `4.09` | ✦ Cú | →D |
-| 4-14 | `4.12#1`–`#4` | D | T1 | `t5_interrogation_confrontation` | **CLASSIC INTERROGATION ROOM CONFRONTATION** · *'Why did you lie to me?' — 'Because we were trying to catch you!'* | Cửa sắt đóng sầm `4.11` | ✦ Sói |  |
-| 4-15 | `4.12#5`–`#8` | D | T1 | `t5_shattered_mask_confession`, `push` | **THE FACADE SHATTERS COMPLETELY** · *Confessing continuously to each murder over 30 hours* | — | ⊘ | →H |
-| 4-16 | `4.14#1`–`#2` | H | T1 | `t5_kerri_rawson_tears` | *HEAR THE GRIEF-STRICKEN WORDS OF* · **KERRI RAWSON — DAUGHTER OF DENNIS RADER** | Điểm nhấn stinger `4.13` | ✦ Cú | →N2 |
-| 4-17 | `4.15#1`–`#4` | N2 | T4 lời kể | `t5_kerri_rawson_tears`, `still` | “The world knows him as a barbaric monster… Yet to me, he was once the most wonderful father…” → `#4`: **“THE MONSTER HUNTED BY THE ENTIRE NATION… WAS THE MAN WHO KISSED ME GOODNIGHT EVERY EVENING.”** | Tiếng bật cassette `4.15#1` | ✦ Kerri |  |
-| 4-18 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *ACT 05* · **THE VERDICT, RED FLAGS & CLOSING THOUGHTS** | — | ⊘ | ◼ |
-
-### ACT 5 — THE VERDICT, RED FLAGS & EPILOGUE · Lead background `t5_sedgwick_courtroom`
-
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 5-01 | `5.02#1`–`#2` | H | T5 ngày | `t5_sedgwick_courtroom` | **AUGUST 18 · 2005** · *Sedgwick County Court · Judge Gregory Waller* | Tiếng búa tòa án gõ 3 tiếng `5.01` | ✦ Cú |  |
-| 5-02 | `5.02#3` | H | T1 | `t5_judge_gavel_verdict`, `push` | **TEN CONSECUTIVE LIFE TERMS** · *Minimum 175-year sentence without possibility of parole* | Sub-drop ở "175 năm" | ⊘ |  |
-| 5-03 | `5.02#4`–`#5` | H | T1 | `t5_el_dorado_prison` | **EL DORADO CORRECTIONAL FACILITY** · *Complete isolation from human society* | — | ⊘ |  |
+| 3-05 | `3.04#1`–`#3` | H | T1 | `t5_factor_x_shadow` | *AN UTTERLY BIZARRE CONSTRUCT, DOCTOR* · **FROM A BEHAVIORAL SCIENCE VIEWPOINT, WHAT WAS “FACTOR X” IN REALITY?** | — | ✦ Cú | →C |
+| 3-06 | `3.05#1`–`#3` | C | T2 | `t5_projection_mask` | *THE SECOND DEFENSE MECHANISM* · **RATIONALIZATION & PROJECTION** · *A textbook manifestation of Techniques of Neutralization* | Stamp on "Rationalization & Projection" | ✦ Cáo |  |
+| 3-07 | `3.05#4`–`#5` | C | T2 | `t5_projection_mask` | *THE SECOND DEFENSE MECHANISM* · **RATIONALIZATION & PROJECTION** · *He comforted his conscience: “it was not that I wanted to do it, but Factor X forced my hand”* | Stamp on "Rationalization & Projection" | ✦ Cáo |  |
+| 3-08 | `3.05#6`–`#8` | C | T1 | `t5_family_dinner_warmth` | **SHEDDING PERSONAL MORAL ACCOUNTABILITY ENTIRELY** · *He executed horrific acts, then returned home to embrace his children and share dinner* | — | ⊘ | →H |
+| 3-09 | `3.06#1`–`#3` | H | T1 | `t5_narcissistic_throne` | **A CHILLING MECHANISM OF SELF-DELUSION** · *But what about Rader's internal perception of his victims?* → `#3`: *Why did the desperate pleas of innocent people fail to evoke the slightest trace of compassion?* | — | ✦ Cú | →C |
+| 3-10 | `3.06#4` | H | T1 | `t5_narcissistic_throne` | **WHAT ERADICATED HIS BASIC HUMANITY IN THOSE DECISIVE MOMENTS?** | — | ✦ Cú | →C |
+| 3-11 | `3.07#1`–`#3` | C | T2 | `t5_narcissistic_throne`, `still` | *THE NEXT MECHANISM* · **VICTIM OBJECTIFICATION & DEHUMANIZATION** · *Malignant Narcissism fused with Antisocial Personality Disorder: a total deficit in affective empathy* | Dấu mộc ở "Ái kỷ ác tính" | ✦ Cáo |  |
+| 3-12 | `3.07#4`–`#5` | C | T1 | `t5_secret_scrapbook` | **HE REFERRED TO THEM DISPASSIONATELY AS** · “projects” → `#5`: *To him, they were merely “living props” required to stage the sadistic scenarios in his mind* | — | 🅑 |  |
+| 3-13 | `3.07#6`–`#8` | C | T1 | `t5_fear_of_oblivion`, `push` | **TEARS AND BEGGING COULD NEVER STIR REMORSE** · *Instead they served as sensory triggers intensifying his sensation of omnipotent power* → `#8`: *Once human beings are reduced to props, cruelty is administered with mechanical indifference* | Sub-drop ở "Sự lãng quên" | ⊘ | →H |
+| 3-14 | `3.08#1`–`#3` | H | T1 | `t5_hubris_chessboard` | **A BONE-CHILLING COLDNESS** · *Masked behind the polite smile of a suburban neighbor* → `#3`: *What drove him to dismantle the protective disguise of three decades?* | — | ✦ Cú |  |
+| 3-15 | `3.08#4` | H | T1 | `t5_hubris_chessboard` | **DOES MALIGNANT NARCISSISM HARBOR THE SEEDS OF ITS OWN DESTRUCTION?** | — | ✦ Cú |  |
+| 3-16 | `3.09#1`–`#3` | C | T2 | `t5_narcissistic_throne` | *THE THIRD MECHANISM* · **ADDICTION TO NOTORIETY & FANTASY STARVATION** · *Public attention and social terror are the vital oxygen sustaining the grandiose self* | Stamp on "Addiction to Notoriety" | ⊘ |  |
+| 3-17 | `3.09#4`–`#5` | C | T1 | `t5_fear_of_oblivion` | **THE NARCISSIST'S GREATEST FEAR: PUBLIC IRRELEVANCE** · *No earthly fate is more terrifying than being forgotten by the public* | Sub-drop on "Public Irrelevance" | 🅑 |  |
+| 3-18 | `3.09#6`–`#7` | C | T1 | `t5_secret_scrapbook` | **A TOXIC THIRST FOR NOTORIETY** · *He preferred risking exposure so the world would witness his dark legacy* → `#7`: *His toxic thirst completely blinded his survival instincts and rational caution* | — | ⊘ |  |
+| 3-19 | `3.10#1`–`#2` | H | T2 | `t5_hubris_chessboard` | *THE PSYCHOLOGIST'S CONCLUSION* · **ARROGANCE — THE NOOSE THAT CHOKED OFF THE PREDATOR** · *He assumed he was sharper than the entire investigative apparatus* | Stamp on "Arrogance" | ✦ Cú |  |
+| 3-20 | `3.10#3` | H | T1 | `t5_winter_home_depot` | **ONE OF THE MOST FAMOUS TECHNICAL BLUNDERS IN FORENSIC HISTORY** · *That blind hubris propelled Rader straight into the snare* | — | ⊘ |  |
+| 3-21 | `3.10#4` | H | T1 | `t5_detective_war_room` | *LET US RETURN TO THE INVESTIGATOR* · **THE FATEFUL DUEL OVER THE PURPLE FLOPPY DISK** | — | →D |  |
+| 3-22 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *ACT 04* · **THE INTERROGATION & THE DIGITAL FORENSIC TRAP** | — | ⊘ | ◼ |
+| 4-01 | `4.02#1`–`#3` | H | T5 ngày | `t5_winter_home_depot` | **EARLY 2005** · *Following several provocative packages sent to local newsrooms, Rader conceived a new scheme* → `#2`: *He wished to modernize his communications: transmitting digital computer files* → `#3`: *At age fifty-nine, Rader remained profoundly illiterate about digital technology* | Tiếng gió đông & quạt server | ✦ Cú |  |
+| 4-02 | `4.02#4` | H | T5 ngày | `t5_winter_home_depot` | **LATE JANUARY 2005** · *Rader slipped a cereal box into the bed of a parked pickup at a Home Depot lot in Wichita* | Tiếng gió đông & quạt server | ✦ Cú |  |
+| 4-03 | `4.02#5` | H | T1 | `t5_cereal_box_pickup` | **INSIDE THE CEREAL BOX** · *A handwritten note addressed directly to detectives* | — | 🅑 |  |
+| 4-04 | `4.02#6`–`#8` | H | T1 | `t5_handwritten_note_floppy` | **AN ASTOUNDINGLY NAIVE QUESTION** · “Can I communicate with a floppy disk and not have it traced to a computer? Be honest.” → `#8`: *He instructed police to reply via a coded classified advertisement in The Wichita Eagle* | — | ⊘ | →D |
+| 4-05 | `4.02#9` | H | T1 | `t5_handwritten_note_floppy` | **A CRACK IN A THIRTY-YEAR COLD CASE** · *The unyielding armor finally opened* | — | ⊘ | →D |
+| 4-06 | `4.04#1`–`#3` | D | T2 | `t5_newspaper_classified_494` | *A ONCE-IN-A-CAREER OPENING* · **THIRTY YEARS OF COLD CASE HISTORY** · *When the note was laid before Lieutenant Ken Landwehr, the room held its breath* | Lật báo giấy `4.03` | ✦ Sói |  |
+| 4-07 | `4.04#4`–`#6` | D | T2 | `t5_newspaper_classified_494` | *THE CLASSIFIEDS SECTION OF THE WICHITA EAGLE* · “Rex, it will be okay to send it” → `#6`: *The fiercely paranoid serial killer placed blind faith in law enforcement's reassurance* | Lật báo giấy `4.03` | ✦ Sói |  |
+| 4-08 | `4.04#7`–`#8` | D | T1 | `t5_ksas_tv_station` | **MID-FEBRUARY 2005** · *Nestled inside was a purple Memorex 1.44-megabyte floppy disk* | — | 🅑 |  |
+| 4-09 | `4.04#9` | D | T1 | `t5_purple_floppy_disk`, `push` | **OUR TECHNOLOGICAL SNARE SNAPPED SHUT** · *Precisely as planned* | Tiếng nạp đĩa mềm `4.05` | ⊘ | →H |
+| 4-10 | `4.06#1`–`#2` | H | T1 | `t5_digital_forensics_lab` | **THE DIGITAL FORENSIC UNIT** · *Examiner Randy Stone extracted magnetic sectors with specialized recovery tools* | Tiếng gõ phím vi tính | ✦ Cú |  |
+| 4-11 | `4.06#3`–`#5` | H | T8 | `t5_metadata_screen` | *HIDDEN METADATA PROPERTIES REVEALED* · *Alongside an active file named TestA.rtf, he undeleted an erased Microsoft Word document* → `#5`: *Two definitive entries were glowing upon the monitor* | Sub-drop ở Metadata | ⊘ |  |
+| 4-12 | `4.06#6`–`#7` | H | T8 | `t5_metadata_screen` | *The first line recorded: “Last modified by: Dennis”* · *The second line confirmed: “Registered organization: Christ Lutheran Church”* | Sub-drop ở Metadata | ⊘ |  |
+| 4-13 | `4.07` (nghỉ 2 s) | — | — | giữ 4-08, nhạc nền dừng đột ngột | — | Nền quạt server vo ve | ⊘ |  |
+| 4-14 | `4.08#1`–`#3` | D | T1 | `t5_church_website_search` | **SEARCH: “CHRIST LUTHERAN CHURCH WICHITA DENNIS”** · *Council President was Dennis Rader* | — | ✦ Sói |  |
+| 4-15 | `4.08#4`–`#6` | D | T1 | `t5_traffic_camera_pickup` | **MATCHED THE SECURITY FOOTAGE AT THE HOME DEPOT LOT** · *A sealed court order for his daughter's discarded medical sample* | — | 🅑 |  |
+| 4-16 | `4.08#7`–`#9` | D | T2 | `t5_dna_pap_smear_vial` | *FORENSIC DNA PROFILING* · **A DIRECT FILIAL MATCH CONFIRMED** · *Not a shred of reasonable doubt remained* | Dấu mộc ở "Khẳng định 100%" | ⊘ | →H |
+| 4-17 | `4.08#10` | D | T2 | `t5_dna_pap_smear_vial` | *SURVEILLANCE UNITS CLOSED A PERIMETER* · **AROUND HIS HOME IN PARK CITY** | Dấu mộc ở "Khẳng định 100%" | ⊘ | →H |
+| 4-18 | `4.10#1`–`#3` | H | T1 | `t5_highway_takedown_arrest`, `push` | **MIDDAY ON FEBRUARY 25, 2005** · *Squad cars converged and blocked his path* | Còi xe cảnh sát & phanh `4.09` | ✦ Cú | →D |
+| 4-19 | `4.10#4`–`#6` | H | T1 | `t5_highway_takedown_arrest`, `push` | **THE HAUGHTY MASK FRACTURED COMPLETELY** · *A bewildered narcissist experiencing total collapse* | Còi xe cảnh sát & phanh `4.09` | ✦ Cú | →D |
+| 4-20 | `4.12#1`–`#3` | D | T1 | `t5_interrogation_confrontation` | **THE CLASSIC INTERROGATION ROOM CONFRONTATION** · “Why did you lie to me about the floppy disk?” → `#3`: “Because we were trying to catch you.” | Cửa sắt đóng sầm `4.11` | ✦ Sói |  |
+| 4-21 | `4.12#4`–`#5` | D | T1 | `t5_interrogation_confrontation` | **NARCISSISTIC COLLAPSE** · *Realizing his game was finished and his disguise destroyed* | Cửa sắt đóng sầm `4.11` | ✦ Sói |  |
+| 4-22 | `4.12#6`–`#8` | D | T1 | `t5_shattered_mask_confession`, `push` | **THE MASK SHATTERED COMPLETELY** · *A marathon confession of ten murders spanning thirty hours* | — | ⊘ | →H |
+| 4-23 | `4.14#1`–`#3` | H | T1 | `t5_kerri_rawson_tears` | *LISTEN TO THAT RAW HEARTBREAK* · **KERRI RAWSON — DENNIS RADER'S BIOLOGICAL DAUGHTER** | Điểm nhấn stinger `4.13` | ✦ Cú | →N2 |
+| 4-24 | `4.15#1`–`#3` | N2 | T4 lời kể | `t5_kerri_rawson_tears`, `still` | “The whole world sees him as a monster, but to me, he was the devoted father who raised me.” → `#3`: “When FBI agents knocked on my apartment door and revealed that my father was BTK, the earth vanished beneath my feet.” | Tiếng bật cassette `4.15#1` | ✦ Kerri |  |
+| 4-25 | `4.15#4`–`#6` | N2 | T4 lời kể | `t5_kerri_rawson_tears`, `still` | “The deepest agony was not merely shock, but the ultimate betrayal of trust.” → `#5`: “How could I ever reconcile that the man who kissed me goodnight was the demon terrorizing countless families?” | Tiếng bật cassette `4.15#1` | ✦ Kerri |  |
+| 4-26 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *ACT 05* · **THE VERDICT, RED FLAGS & CLOSING THOUGHTS** | — | ⊘ | ◼ |
+| 5-01 | `5.02#1`–`#3` | H | T5 ngày | `t5_sedgwick_courtroom` | **18 · 08 · 2005** · *Sedgwick County District Court · Judge Gregory Waller* | Tiếng búa tòa án gõ 3 tiếng `5.01` | ✦ Cú |  |
+| 5-02 | `5.02#4` | H | T1 | `t5_judge_gavel_verdict`, `push` | **PATHOLOGICAL SELF-PITY** · *Devoid of genuine remorse for the bereaved families* | Sub-drop ở "175 năm" | ⊘ |  |
+| 5-03 | `5.02#5`–`#7` | H | T1 | `t5_el_dorado_prison` | **EL DORADO CORRECTIONAL FACILITY** · *Completely isolated from society until his final breath* | — | ⊘ |  |
 | 5-04 | `5.03` (nghỉ 1.5 s) | — | — | giữ 5-03 | — | — | ⊘ |  |
-| 5-05 | `5.04#1`–`#2` | H | T1 | `t5_solitary_confinement_cell` | **FOUR CRITICAL RED FLAGS** · *Recognizing malignant narcissistic personalities in everyday life* | — | ✦ Cú | →C+D |
-| 5-06 | `5.05#1`–`#3` | C | T9 `1/4` | `t5_redflag_rule_control` | **RED FLAG 01: EXTREME OBSESSION WITH RULES & CONTROL** · *Morbid rigidity over minor regulations to subjugate others* | — | ✦ Cáo |  |
-| 5-07 | `5.05#4`–`#5` | C | T9 `2/4` | `t5_redflag_shallow_affect` | **RED FLAG 02: SHALLOW AFFECT BEHIND A CHARMING EXTERIOR** · *Active in social/religious circles yet lacking authentic empathy* | — | 🅑 | →D |
-| 5-08 | `5.06#1`–`#2` | D | T9 `3/4` | `t5_redflag_secret_trophies` | **RED FLAG 03: SECRET COMPULSION TO KEEP TROPHIES** · *Hoarding private mementos, personal items, or documents of others* | — | ✦ Sói |  |
-| 5-09 | `5.06#3`–`#5` | D | T9 `4/4` | `t5_redflag_narcissistic_hubris` | **RED FLAG 04: INSATIABLE NARCISSISTIC CRAVING FOR RECOGNITION** · *Fragile ego easily unravelling when challenged* | — | 🅑 |  |
-| 5-10 | `5.07` (nghỉ 2 s) | — | — | giữ 5-09, Piano dâng lên nhẹ nhàng | — | Piano ấm áp | ⊘ |  |
-| 5-11 | `5.08#1`–`#5` | H | T1 | `t5_justice_dawn_sunlight` | **JUSTICE MAY DELAY, BUT TRUTH INEVITABLY TRIUMPHS** · *Darkness must always yield to the light of truth* | — | ✦ Cú |  |
-| 5-12 | `5.09` (nghỉ 1.5 s) | — | — | giữ 5-11 | — | — | ⊘ |  |
-| 5-13 | `5.10#1`–`#2` | H | T1 | `t5_closing_typewriter_rose` | **SPECIAL THANKS TO OUR GUESTS & VALUED LISTENERS** | Folder closes `5.11` | ✦ Cú |  |
-| 5-14 | `5.10#3` | H | T1 | `t5_closing_typewriter_rose`, `still` | **UNTIL NEXT TIME IN OUR UPCOMING CRIMINAL PSYCHOLOGY DOSSIER** → `#3`: *Stay vigilant and nurture a compassionate spirit* | Decisive typewriter strike | 🅑 |  |
-| 5-15 | hết tập (10 s) | — | T1 | `t5_closing_typewriter_rose` | **DOSSIER EPISODE 05 · CLOSED** · *AMBER EYES · Criminal psychology through real case files* | Cello sustains 5s then fades out `5.12` | ⊘ | ◼ |
+| 5-05 | `5.04#1`–`#3` | H | T1 | `t5_solitary_confinement_cell` | **THE BTK FILE CLOSED AFTER MORE THAN THREE DECADES** · *Electronic traces never truly disappear* | — | ✦ Cú | →C+D |
+| 5-06 | `5.04#4` | H | T1 | `t5_solitary_confinement_cell` | **THE FOUR SURVIVAL RED FLAGS** · *Recognizing predatory masks in everyday life* | — | ✦ Cú | →C+D |
+| 5-07 | `5.05#1`–`#3` | C | T9 `1/4` | `t5_redflag_rule_control` | **RED FLAG 01: EXTREME CONTROL OBSESSION** · *Pathological inflexibility over minor rules, punishing others with petty regulations* | — | ✦ Cáo |  |
+| 5-08 | `5.05#4` | C | T9 `1/4` | `t5_redflag_rule_control` | *THE FIRST RED FLAG* · **A REPRESSED CRAVING FOR COERCIVE DOMINATION WAITING TO ERUPT INTO VIOLENCE** | — | ✦ Cáo |  |
+| 5-09 | `5.05#5`–`#7` | C | T9 `2/4` | `t5_redflag_shallow_affect` | **RED FLAG 02: EMOTIONAL DETACHMENT (SHALLOW AFFECT)** · *Warm civic participation without genuine empathy for human suffering* | — | 🅑 | →D |
+| 5-10 | `5.06#1`–`#3` | D | T9 `3/4` | `t5_redflag_secret_trophies` | **RED FLAG 03: THE COVERT ACCUMULATION OF PRIVATE BELONGINGS** · *Personal keepsakes, identity documents, and private articles kept as trophies* | — | ✦ Sói |  |
+| 5-11 | `5.06#4`–`#6` | D | T9 `4/4` | `t5_redflag_narcissistic_hubris` | **RED FLAG 04: AN INSATIABLE NEED FOR PUBLIC VALIDATION** · *Vast chasms of insecurity, unable to tolerate being ignored or dismissed* | — | 🅑 |  |
+| 5-12 | `5.06#7` | D | T9 `4/4` | `t5_redflag_narcissistic_hubris` | *THE FINAL RED FLAG* · **THEY MAY HIDE FOR YEARS, YET WILL INEVITABLY MAKE FATAL ERRORS WHEN PROVOKED PUBLICLY** | — | 🅑 |  |
+| 5-13 | `5.07` (nghỉ 2 s) | — | — | giữ 5-09, Piano dâng lên nhẹ nhàng | — | Piano ấm áp | ⊘ |  |
+| 5-14 | `5.08#1`–`#3` | H | T1 | `t5_justice_dawn_sunlight` | **JUSTICE MAY ARRIVE LATE, BUT IT ALWAYS WINS** · *Darkness must always bow before the light of truth* | — | ✦ Cú |  |
+| 5-15 | `5.08#4`–`#6` | H | T1 | `t5_justice_dawn_sunlight` | **REMAIN VIGILANT AND KEEP A COMPASSIONATE SPIRIT** · *The greatest survival lesson is vigilance in recognizing and defending our safety boundaries* | — | ✦ Cú |  |
+| 5-16 | `5.08#7` | H | T1 | `t5_justice_dawn_sunlight` | **OUR DEEPEST GRATITUDE TO OUR GUESTS AND LISTENERS** · *For their guidance and for joining us today* | — | ✦ Cú |  |
+| 5-17 | `5.09` (nghỉ 1.5 s) | — | — | giữ 5-11 | — | — | ⊘ |  |
+| 5-18 | `5.10#1`–`#2` | H | T1 | `t5_closing_typewriter_rose` | **KEEP A COMPASSIONATE SPIRIT** · *Protect yourself and cherish the peace in your everyday life* | Folder closes `5.11` | ✦ Cú |  |
+| 5-19 | `5.10#3` | H | T1 | `t5_closing_typewriter_rose`, `still` | **SEE YOU IN OUR NEXT CRIMINAL PSYCHOLOGY PROFILE** · *Wishing you a restful and peaceful night* | Decisive typewriter strike | 🅑 |  |
+| 5-20 | hết tập (10 s) | — | T1 | `t5_closing_typewriter_rose` | **DOSSIER EPISODE 05 · CLOSED** · *AMBER EYES · Criminal psychology through real case files* | Cello sustains 5s then fades out `5.12` | ⊘ | ◼ |
 
-**Tổng: 83 shot** (Hồi 1: 22 shot · Hồi 2: 15 shot · Hồi 3: 13 shot · Hồi 4: 18 shot · Hồi 5: 15 shot) · Phủ 100% 164/164 câu · 100% nền có file.
+**Tổng: 96 shot** (Hồi 1: 24 shot · Hồi 2: 18 shot · Hồi 3: 22 shot · Hồi 4: 26 shot · Hồi 5: 20 shot) · Phủ 100% 209/209 câu · chữ trên hình lấy từ câu đang đọc (H6).
 
 ---
 
