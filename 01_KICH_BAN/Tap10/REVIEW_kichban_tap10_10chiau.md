@@ -11,8 +11,8 @@
 |---|---:|---|:---:|
 | **Tổng số phần tử (Elements)** | **52** | Khớp nguyên mẫu cấu trúc 52 phần tử | ✅ ĐẠT |
 | **Lượt lời thoại (LOI)** | **36** | 36 lượt thoại phân vai | ✅ ĐẠT |
-| **Tổng số câu (Sentences)** | **192** | 192 câu (khớp cấu trúc đa ngôn ngữ 1:1) | ✅ ĐẠT |
-| **Tổng số từ** | **5.059 từ** | Ước tính 3,1 từ/s $\approx$ 27,2 phút lời | ✅ ĐẠT |
+| **Tổng số câu (Sentences)** | **208** | 208 câu (>200 câu, khớp cấu trúc đa ngôn ngữ 1:1) | ✅ ĐẠT |
+| **Tổng số từ** | **5.524 từ** | Ước tính 3,1 từ/s $\approx$ 29,7 phút lời | ✅ ĐẠT |
 | **Độ an toàn quảng cáo (V9)** | **0 lỗi** | Không mô tả gore, không từ cấm A9.2 | ✅ ĐẠT |
 | **Lỗi dấu ba chấm (G1)** | **0 lỗi** | Không có dấu `...` hay `…` giữa câu | ✅ ĐẠT |
 | **Vai N1 / N2** | `1.07` (N1) / `4.05` (N2) | Khai báo `n_element` trong `edition.py` | ✅ ĐẠT |

@@ -80,7 +80,7 @@ for i in range(1,len(items_tl)):
 
 
 # ---- ghi de co do that (ASR bo sot; do nang luong master 16 kHz, cua so 0,25 s, sang -13..-23 dB, im < -30 dB)
-OVERRIDE={}
+OVERRIDE={"1.14#7":(274.55,282.7),"1.16#1":(284.65,287.65)}   # ASR bo sot; nang luong 16 kHz: noi 274.55-282.7, im 282.7-284.65, noi 284.65-287.65, im 287.65-288.65
 for _it in items_tl:
     if _it["id"] in OVERRIDE: _it["start"],_it["end"]=OVERRIDE[_it["id"]]
 # ---- cat bien theo khoang lang o RIA cau (<-40 dB, >=0.4 s): ASR tieng Nhat tho -> bien cau co the nam trong khoang lang
@@ -109,7 +109,7 @@ def _edge_trim(it):
 for _it in items_tl:
     if _it["id"] not in OVERRIDE: _edge_trim(_it)
 # ---- chinh mot dau (None = giu): ASR bo sot vai tu dau cau sau quang ngat (do nang luong 16 kHz)
-ADJ={}
+ADJ={"1.10#3":(None,179.25),"1.10#4":(179.75,None),"2.05#1":(450.15,None),"4.06#6":(None,1170.3),"4.06#7":(1171.85,None),"2.02#5":(357.75,None),"5.02#1":(1435.75,None)}   # do nang luong 16 kHz: ASR bo sot dau/cuoi cau
 for _it in items_tl:
     if _it["id"] in ADJ:
         _s,_e=ADJ[_it["id"]]

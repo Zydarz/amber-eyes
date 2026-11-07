@@ -46,6 +46,6 @@ for lang in ['EN', 'JA', 'KO']:
                 all_ok = False
 
 if all_ok:
-    print("\n>>> ALL 4 LANGUAGES (VN, EN, JA, KO): 100% PERFECT 1:1 PARITY ACROSS ALL 53 ELEMENTS AND 171 SENTENCES! <<<")
+    print("\n>>> ALL 4 LANGUAGES (VN, EN, JA, KO): 100% PERFECT 1:1 PARITY ACROSS ALL 53 ELEMENTS AND 218 SENTENCES! <<<")
 else:
     print("\n>>> PARITY ISSUES FOUND! <<<")

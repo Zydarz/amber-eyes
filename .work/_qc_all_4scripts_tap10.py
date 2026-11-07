@@ -66,7 +66,7 @@ for lang, path in files:
     for d in ellipsis_hits:
         print(f"  - {d[0]}: ellipsis in '{d[1]}'")
         
-    status = (len(fb_hits) == 0 and len(ellipsis_hits) == 0 and total_sentences == 192 and total_elements == 52)
+    status = (len(fb_hits) == 0 and len(ellipsis_hits) == 0 and total_sentences == 208 and total_elements == 52)
     print(f"Result for {lang}: {'PASS' if status else 'FAIL'}")
     all_green = all_green and status
 

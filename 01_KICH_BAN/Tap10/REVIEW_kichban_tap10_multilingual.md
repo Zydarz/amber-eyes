@@ -21,25 +21,25 @@ Theo quy tắc **L3** (*"CẤM nói xong khi chưa đo. Mỗi bước báo số 
 | **Số Hồi (Acts)** | 5 | 5 | 5 | 5 | **Khớp 100% (5/5)** |
 | **Tổng số phần tử (Elements)** | **52** | **52** | **52** | **52** | **Khớp 100% (52/52)** |
 | **Lượt lời thoại (LOI)** | **36** | **36** | **36** | **36** | **Khớp 100% (36/36)** |
-| **Tổng số câu đọc (Sentences)** | **192** | **192** | **192** | **192** | **Khớp 1:1 tuyệt đối** |
+| **Tổng số câu đọc (Sentences)** | **208** | **208** | **208** | **208** | **Khớp 1:1 tuyệt đối** |
 | **Số điểm ngắt nghỉ (NGHI)** | 1 | 1 | 1 | 1 | **Khớp 100% (1.5 giây tại `2.12`)** |
 | **Số cue âm thanh (BGM / SFX)** | 15 (6 BGM / 9 SFX) | 15 | 15 | 15 | **Khớp 100% vị trí & thứ tự** |
 | **Số câu trích dẫn (Quotes)** | 43 | 43 | 43 | 43 | **Khớp 100% (43/43)** |
-| **Dung lượng văn bản** | 5.059 từ | 3.311 từ | 11.450 ký tự | 2.755 từ / 86.5% Hangul | Chuẩn tỷ lệ đa ngôn ngữ |
-| **Ước tính thời lượng lời** | ~27,2 phút | ~26,0 phút | ~26,8 phút | ~26,5 phút | Chuẩn kênh 25–28 phút |
+| **Dung lượng văn bản** | 5.524 từ | 3.594 từ | 14.501 ký tự | 3.020 từ | Chuẩn tỷ lệ đa ngôn ngữ |
+| **Ước tính thời lượng lời** | ~29,7 phút | ~28,5 phút | ~29,0 phút | ~28,8 phút | Chuẩn kênh 25–28 phút |
 
 ### Phân bổ số câu theo từng Hồi:
-- **Hồi 1 (The Hook & Chuyến xe định mệnh và chiếc hộp đen dưới gầm giường):** VN = 39 | EN = 39 | JA = 39 | KO = 39
-- **Hồi 2 (Hiện trường & Bảy năm trong bóng tối và sự biến mất của thời gian):** VN = 45 | EN = 45 | JA = 45 | KO = 45
-- **Hồi 3 (Giải phẫu tâm lý & Nghịch lý ngày về và sự bất lực tập nhiễm):** VN = 40 | EN = 40 | JA = 40 | KO = 40
-- **Hồi 4 (Đấu trí thẩm vấn & Sự rạn nứt của lồng giam và cuộc giải cứu ngầm):** VN = 38 | EN = 38 | JA = 38 | KO = 38
-- **Hồi 5 (Phán quyết, Sự hồi sinh kỳ diệu & Bài học cảnh báo đỏ sinh tồn):** VN = 30 | EN = 30 | JA = 30 | KO = 30
+- **Hồi 1 (The Hook & Chuyến xe định mệnh và chiếc hộp đen dưới gầm giường):** VN = 42 | EN = 42 | JA = 42 | KO = 42
+- **Hồi 2 (Hiện trường & Bảy năm trong bóng tối và sự biến mất của thời gian):** VN = 49 | EN = 49 | JA = 49 | KO = 49
+- **Hồi 3 (Giải phẫu tâm lý & Nghịch lý ngày về và sự bất lực tập nhiễm):** VN = 44 | EN = 44 | JA = 44 | KO = 44
+- **Hồi 4 (Đấu trí thẩm vấn & Sự rạn nứt của lồng giam và cuộc giải cứu ngầm):** VN = 40 | EN = 40 | JA = 40 | KO = 40
+- **Hồi 5 (Phán quyết, Sự hồi sinh kỳ diệu & Bài học cảnh báo đỏ sinh tồn):** VN = 33 | EN = 33 | JA = 33 | KO = 33
 
 ### Phân bổ tỷ lệ thoại giữa các vai diễn:
-- **Host (Cú) — Trầm ấm, bao quát, triết lý:** 21 lượt thoại, 104 câu (**54,2%**) — *Đạt chuẩn thiết kế (~50–55%)*.
-- **Điều tra viên (Sói) — Sắc lạnh, nghiệp vụ, chứng cứ:** 7 lượt thoại, 37 câu (**19,3%**) — *Đạt chuẩn thiết kế (~20–25%)*.
-- **Chuyên gia tâm lý (Cáo) — Học thuật, sâu sắc:** 6 lượt thoại, 41 câu (**21,3%**) — *Đạt chuẩn thiết kế (~20–25%)*.
-- **Người bình thường (Cừu/Mèo) — Chân thật, cảm xúc:** 2 lượt thoại, 10 câu (**5,2%**) gồm N1 tại `1.07` (5 câu) và N2 (Janice Hooker) tại `4.05` (5 câu) — *Đạt chuẩn thiết kế (~5%)*.
+- **Host (Cú) — Trầm ấm, bao quát, triết lý:** 21 lượt thoại, 115 câu (**55,3%**) — *Đạt chuẩn thiết kế (~50–55%)*.
+- **Điều tra viên (Sói) — Sắc lạnh, nghiệp vụ, chứng cứ:** 7 lượt thoại, 41 câu (**19,7%**) — *Đạt chuẩn thiết kế (~20–25%)*.
+- **Chuyên gia tâm lý (Cáo) — Học thuật, sâu sắc:** 6 lượt thoại, 42 câu (**20,2%**) — *Đạt chuẩn thiết kế (~20–25%)*.
+- **Người bình thường (Cừu/Mèo) — Chân thật, cảm xúc:** 2 lượt thoại, 10 câu (**4,8%**) gồm N1 tại `1.07` (5 câu) và N2 (Janice Hooker) tại `4.05` (5 câu) — *Đạt chuẩn thiết kế (~5%)*.
 
 ---
 
