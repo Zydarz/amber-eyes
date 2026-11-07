@@ -215,3 +215,9 @@ flowchart TD
 | Timeline tập dài $> 25\text{ phút}$ (kịch bản chỉ 21 phút) | Higgs sinh đuôi câm tĩnh dài 1–3s ở mỗi câu | Áp dụng hàm `trim_silence_tail` (ngưỡng $-45\text{ dBFS}$, cắt đuôi $> 0.8\text{ s}$) |
 | Giọng Host nghe thé thé như giọng nữ | Bị dính thẻ `<|emotion:...|>` trong text | Xóa bỏ toàn bộ thẻ emotion khỏi kịch bản, chỉ để text thuần + pause |
 | Hai vai nam nghe giống hệt nhau | Cả hai vai dùng giọng mẫu có F0 rơi vào vùng dồn $110–125\text{ Hz}$ | Chọn lại giọng mẫu: 1 giọng siêu trầm ($< 90\text{ Hz}$) và 1 giọng trung ($110–125\text{ Hz}$) |
+
+---
+
+## Cổng nhịp nghỉ giữa câu — áp dụng cho MỌI engine (07/11/2026)
+
+Higgs trên Mac chỉ sinh **từng câu**; nhịp chậm rãi của cả tập do `_pause_after` trong file diễn xuất + `build_audio3.py` quyết định. Trước khi trộn chạy `py -3 .work/qc_pause_gate.py --pre`, sau khi trộn chạy `py -3 .work/qc_pause_gate.py` (đặt `AE_EP`, `AE_LANG`). ĐẠT: trung vị nghỉ ≥ 0,60 s · ≤ 25% khoảng nghỉ < 0,40 s. Chi tiết: tiêu chuẩn A4.3b · AGENTS A13.

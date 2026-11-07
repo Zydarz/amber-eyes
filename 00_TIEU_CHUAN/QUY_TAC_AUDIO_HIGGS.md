@@ -171,7 +171,7 @@ Mọi lệnh chạy từ thư mục repo với `AE_EP=XX` (không đặt ⇒ T�
 
 | # | Việc | Lệnh | ĐẠT khi |
 |---|---|---|---|
-| P0 | **Kiểm đầu vào khớp kịch bản** (§14.2) + giới tính vai phụ (§14.3) + sao lưu lượt cũ (L5) | `py -3 .work/parse_kichban.py <md> .work/script_tapXX.json` · so mã câu của `acting_tapXX.json`, `sfx_tapXX.json`, `EPISODES[XX]` theo nội dung · sinh lại `tts_manifest_tXX.json` · `py -3 .work/_qc_bgm_bed_start.py` | 0 mã câu lệch · mọi `alt` khớp câu hiện tại · nhạc 5/5 hồi OK |
+| P0 | **Kiểm đầu vào khớp kịch bản** (§14.2) + giới tính vai phụ (§14.3) + sao lưu lượt cũ (L5) | `py -3 .work/parse_kichban.py <md> .work/script_tapXX.json` · so mã câu của `acting_tapXX.json`, `sfx_tapXX.json`, `EPISODES[XX]` theo nội dung · sinh lại `tts_manifest_tXX.json` · `py -3 .work/_qc_bgm_bed_start.py` | 0 mã câu lệch · mọi `alt` khớp câu hiện tại · nhạc 5/5 hồi OK · **`qc_pause_gate.py --pre` ĐẠT cho từng ngôn ngữ** (có `acting_tapXX[_LANG].json`, 0 mã lạ — tiêu chuẩn A4.3b) |
 | P1a | Payload nguồn | `py -3 .work/export_higgs_payload.py` | 0 chữ số · 0 ngoặc ngoại ngữ · 0 `...` |
 | P1 | Spec + payload Kaggle | `py -3 .work/build_spec.py` | `the cam xuc: BO`, đủ câu, "OK: moi clip + file .txt deu co" |
 | P2 | Notebook + thư mục push | `py -3 .work/build_nb.py --mode prod` · `py -3 .work/prep_push_dirs.py prod` | `verify: OK` |
@@ -183,7 +183,7 @@ Mọi lệnh chạy từ thư mục repo với `AE_EP=XX` (không đặt ⇒ T�
 | P8 | Vòng 2 | `py -3 .work/build_spec_r2.py --max-cer 0.02 --exclude .work/higgs_exclude_f0_tXX.json` → `build_nb.py --mode r2` → `prep_push_dirs.py r2` → P3–P5 (out `out_higgs_r2_tXX`) → `py -3 .work/merge_r2.py` → P6 (cache, chỉ đo file mới) → P7 `--new-only` | Câu > 2% giảm |
 | P8b | Vòng 3 (câu đổi chữ, câu mọi bản bị loại) | đổi tên `out_higgs_r2_tXX` → `…_vong2` và `higgs_manifest.before_r2.json` → `…before_r2_vong2.json` · `build_spec_r2.py --max-cer 99 --ids "a#1,b#2" --exclude …` → như P8 | Số thứ tự bản tự nối tiếp, không trùng file vòng 2 |
 | P9 | Chọn bản + master | `py -3 .work/finish_prod.py` | 0 bản chọn trong danh sách loại · đủ số câu |
-| P10 | Cổng master (§9) + danh sách cần nghe kèm mốc thời gian + ghi hồ sơ tập (L6) | ffmpeg ở `.work/ffmpeg/…/bin/ffmpeg.exe`: `ebur128=peak=true`, `silencedetect` | §9 đạt |
+| P10 | Cổng master (§9) + **cổng nhịp nghỉ** + danh sách cần nghe kèm mốc thời gian + ghi hồ sơ tập (L6) | ffmpeg ở `.work/ffmpeg/…/bin/ffmpeg.exe`: `ebur128=peak=true`, `silencedetect` · `py -3 .work/qc_pause_gate.py` | §9 đạt (cả nhịp nghỉ) |
 
 **Số mốc:** Tập 02 — lượt 1 29/203 câu > 2% → vòng 2 12/203 (~7 là tên riêng/ASR dao động). Tập 04 (31/10) — lượt 1 28/154 (316 file, 41 phút) → vòng 2 (66 file) 18/154 → master 21 câu cần nghe, đa số mất chữ đầu câu ("Thế nhưng"→"Nhưng"). Tập 03 — lượt 1 45/218 (455 file, 53 phút) → vòng 2 (94 file) 22/218 → vòng 3 (8 file, sửa chữ) → master: 24/218 cần nghe, đa số ASR nghe nhầm "Kemper".
 
@@ -199,6 +199,7 @@ Mọi lệnh chạy từ thư mục repo với `AE_EP=XX` (không đặt ⇒ T�
 ## 9. Cổng master (bước 6 AGENTS.md)
 
 0 khoảng câm > 0,3 s ở −60 dB · −16 ± 1 LUFS · đỉnh ≤ −1,5 dBFS · lời đầu 22,8–23,5 s.
+**Nhịp nghỉ (07/11/2026):** trung vị nghỉ giữa câu ≥ 0,60 s · ≤ 25% khoảng nghỉ < 0,40 s — `py -3 .work/qc_pause_gate.py` (tiêu chuẩn A4.3b). Tập 06 trượt cổng này (0,35 s) nhưng **mọi cổng khác vẫn xanh** ⇒ người dùng nghe "đọc nhanh, không chậm rãi". Không đạt ⇒ sửa `_pause_after` trong file diễn xuất rồi chạy lại `build_audio3.py` (không cần sinh lại giọng).
 Tập 02 (31/10): 1411,9 s · −16,2 LUFS · −1,7 dBFS · 0 · 23,0 s ✅.
 Tập 03 (31/10): 1683,7 s · −16,2 LUFS · −1,7 dBFS (sau giới hạn đỉnh; `loudnorm` linear để lại −1,0) · 0 · 23,0 s ✅. `build_audio3.py` tự giới hạn đỉnh −2,5 dBFS khi mp3 vượt −1,5.
 

@@ -341,6 +341,32 @@ Lượt không có chỉ dẫn kế thừa lượt trước cùng vai, cùng h�
 | `[Nghỉ X giây]` | X, tối đa 2,5 s (khoảng nghỉ thay cho khoảng ngắt) |
 | Ranh giới hồi | 2,0 s |
 
+### A4.3b Nhịp nghỉ giữa câu — CỔNG BẮT BUỘC khi tạo audio (07/11/2026, AGENTS A13)
+
+Khoảng ngắt cố định ở bảng trên **không đủ**: chỉ 0,35 s giữa 2 câu cùng lượt ⇒ cả tập nghe "đọc nhanh, không chậm rãi" dù tốc độ đọc trong câu bình thường. Nhịp chậm rãi đến từ `_pause_after` của **file diễn xuất**, cộng thêm vào sau câu.
+
+| Vị trí | `_pause_after` |
+|---|---:|
+| Câu nối ý tiếp theo (cùng lượt) | 0,3 s |
+| Hết một đoạn ý, câu dài ≥ 120 ký tự | 0,4–0,5 s |
+| Sau câu hé lộ / con số nặng / câu kết hồi | 0,6–0,9 s |
+| Cuối lượt nói trước khi đổi vai | ≥ 0,4 s (cộng với 0,70 s đổi người) |
+
+**Quy định:**
+- **Mỗi ngôn ngữ một file diễn xuất có `_pause_after`**: `acting_tapXX.json` (VN) · `acting_tapXX_EN.json` · `acting_tapXX_JA.json` · `acting_tapXX_KO.json`. Bản JA/KO có cùng mã câu với VN ⇒ được lấy bảng nghỉ VN làm điểm xuất phát. **Thiếu file ⇒ DỪNG**: `build_audio3.py` không báo lỗi mà trộn với 0 khoảng nghỉ.
+- **Mọi mã trong `_pause_after` phải tồn tại** trong `script_tapXX[_LANG].json`. Mã sót từ kịch bản cũ bị bỏ qua **im lặng** (Tập 06 EN: 21/162 mã sót).
+- Sửa kịch bản / đổi mã câu ⇒ chuyển `_pause_after` **theo nội dung câu**, so số mục trước–sau. Kịch bản viết lại nhiều ⇒ bổ sung bằng `.work/_fix_pause_t06.py` (mẫu: chuyển theo nội dung rồi bổ sung 0,3/0,4 s đến khi dự đoán đạt cổng).
+- Số mục thường **50–65% số câu** (T04 104, T05 100, T06 135 VN/JA · 141 EN). Đây là hệ quả — **cổng đo mới là chuẩn**.
+
+**Cổng — `py -3 .work/qc_pause_gate.py`** (đặt `AE_EP`, `AE_LANG`):
+
+| Lúc chạy | Lệnh | ĐẠT khi |
+|---|---|---|
+| **Trước** `build_audio3.py` | `qc_pause_gate.py --pre` | Có file diễn xuất đúng ngôn ngữ · 0 mã lạ · mọi giá trị 0,2–1,2 s |
+| **Sau** `build_audio3.py`, trước `parse_shots.py` | `qc_pause_gate.py` | **Trung vị nghỉ giữa 2 câu liền kề (cùng hồi) ≥ 0,60 s** · **≤ 25% khoảng nghỉ < 0,40 s** · `timeline.total` = master mp3 ± 0,05 s |
+
+Mốc đo: Tập 05 VN 0,74 s / 16% ✅ · Tập 05 EN 0,84 s / 4% ✅ · Tập 06 VN 0,35 s / 67% ❌ · Tập 06 JA 0,35 s / 83% ❌ · Tập 06 EN 0,65 s / 43% ❌.
+
 ### A4.4 Nhạc và lớp nền
 
 | Lớp | Quy tắc |
