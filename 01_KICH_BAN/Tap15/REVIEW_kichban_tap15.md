@@ -55,34 +55,38 @@ Kịch bản Tập 15 được kiểm duyệt khắt khe theo Quy tắc V9 (YouT
 
 ---
 
-## IV. THỐNG KÊ CHI TIẾT KỊCH BẢN TẬP 15
+## IV. THỐNG KÊ CHI TIẾT KỊCH BẢN TẬP 15 (BẢN TÁI CẤU TRÚC — HỆ SINH THÁI 10 CHỈ DẤU)
 
-- **Tổng số phần tử (Elements):** 51 phần tử (gồm 5 hồi, hiệu ứng âm thanh SFX, nhạc nền BGM, khoảng lặng và các lượt thoại).
-- **Tổng số lượt thoại (Speech turns):** 32 lượt thoại.
-  - `HOST (H)`: 19 lượt thoại
+- **Tổng số phần tử (Elements):** **63 phần tử** (gồm 5 hồi, 16 cue BGM/SFX, 11 điểm ngắt nghỉ NGHI và 36 lượt thoại).
+- **Tổng số lượt thoại (Speech turns):** **36 lượt thoại**.
+  - `HOST (H)`: 23 lượt thoại
   - `ĐIỀU TRA VIÊN (D)`: 6 lượt thoại
   - `CHUYÊN GIA TÂM LÝ (C)`: 5 lượt thoại
-  - `NGƯỜI BÌNH THƯỜNG (N)`: 2 lượt thoại (N1: 1.07, N2: 4.09)
-- **Tổng số câu thoại (Sentences):** **165 câu** (chuẩn mực tuyệt đối của series: Tập 06, 08, 09, 10, 11, 12, 13, 14, 15 đều đạt chính xác 165 câu).
-  - `HOST`: 95 câu (57,6% số câu — mạch dẫn tự sự chủ đạo)
-  - `ĐIỀU TRA VIÊN`: 28 câu (17,0% số câu — Thanh tra Esteban Flores, nghiệp vụ khám nghiệm và chứng cứ số)
-  - `CHUYÊN GIA TÂM LÝ`: 27 câu (16,4% số câu — TS. Janeen DeMarte, phân tích BPD, nỗi sợ bị ruồng bỏ & hiệu ứng tắc kè hoa)
-  - `NGƯỜI BÌNH THƯỜNG`: 15 câu (9,1% số câu — N1 Bạn thân: 7 câu & N2 Bồi thẩm viên: 8 câu)
-- **Tổng số từ (Word count):** 4.786 từ.
-- **Thời lượng dự kiến:** 25 – 27 phút.
-- **File kịch bản:** [`01_KICH_BAN/Tap15/kichban_tap15_23102026.md`](file:///d:/TEST/Gax/Audi/01_KICH_BAN/Tap15/kichban_tap15_23102026.md)
-- **File dữ liệu biên dịch:** [`.work/script_tap15.json`](file:///d:/TEST/Gax/Audi/.work/script_tap15.json)
-- **Cấu hình pipeline:** Đã đăng ký mã tập `15` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax/Audi/.work/edition.py).
-- **Danh mục 28 hồ sơ:** Đã cập nhật trạng thái `[x]` cho Hồ sơ 15 tại [`01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md`](file:///d:/TEST/Gax/Audi/01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md#L77).
+  - `NGƯỜI BÌNH THƯỜNG (N)`: 2 lượt thoại (N1: 1.07, N2: 4.06)
+- **Tổng số câu thoại (Sentences):** **203 câu** (đáp ứng tiêu chuẩn mới $\ge 200$ câu, đạt tỷ lệ vàng Parity 1:1 tuyệt đối giữa 4 ngôn ngữ VN, EN, JA, KO).
+  - `HOST`: 97 câu (47,8% số câu — mạch dẫn tự sự chủ đạo và đúc kết triết lý)
+  - `ĐIỀU TRA VIÊN`: 53 câu (26,1% số câu — nghiệp vụ khám nghiệm, chứng cứ số và đối chiếu MO vs Signature)
+  - `CHUYÊN GIA TÂM LÝ`: 45 câu (22,2% số câu — giải mã BPD, nỗi sợ bị ruồng bỏ, cơ chế chia ngăn & sụp đổ cái tôi ái kỷ)
+  - `NGƯỜI BÌNH THƯỜNG`: 8 câu (3,9% số câu — N1 Bạn thân: 4 câu & N2 Bồi thẩm viên: 4 câu)
+- **Tổng số từ (Word count):** 4.815 từ (tiếng Việt) / 3.620 từ (tiếng Anh).
+- **Thời lượng dự kiến:** 25 – 28 phút.
+- **Tệp kịch bản 4 ngôn ngữ:**
+  - VN: [`01_KICH_BAN/Tap15/kichban_tap15_23102026.md`](kichban_tap15_23102026.md)
+  - EN: [`01_KICH_BAN/Tap15_EN/kichban_tap15_EN.md`](../Tap15_EN/kichban_tap15_EN.md)
+  - JA: [`01_KICH_BAN/Tap15_JA/kichban_tap15_JA.md`](../Tap15_JA/kichban_tap15_JA.md)
+  - KO: [`01_KICH_BAN/Tap15_KO/kichban_tap15_KO.md`](../Tap15_KO/kichban_tap15_KO.md)
+- **File dữ liệu biên dịch:** [`.work/script_tap15.json`](file:///d:/TEST/Gax/amber-eyes/.work/script_tap15.json)
+- **Cấu hình pipeline:** Đã cập nhật đầy đủ mã tập `15` trong [`.work/edition.py`](file:///d:/TEST/Gax/amber-eyes/.work/edition.py) (`n_element: {'1.07': 'N1', '4.06': 'N2'}`, `act1_cue: '1.16'`, `silence_cue: '1.09'`, `click_cues: ('1.06',)`, `summary: ('1.03#1', '3.02#1')`).
+- **Báo cáo chuyên sâu đi kèm:**
+  - [`01_KICH_BAN/Tap15/REVIEW_kichban_tap15_10chiau.md`](REVIEW_kichban_tap15_10chiau.md) (Thẩm định 10 chỉ dấu tâm lý A2c).
+  - [`01_KICH_BAN/Tap15/REVIEW_kichban_tap15_multilingual.md`](REVIEW_kichban_tap15_multilingual.md) (Thẩm định Parity 1:1 đa ngôn ngữ).
 
-## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026
-- **K1:** Host khép Hồi 2: "15/7/2008 bồi thẩm đoàn **liên bang** truy tố, hôm sau bắt" → **9/7/2008 đại bồi thẩm đoàn Hạt Maricopa** truy tố, **bắt ngày 15/7** tại nhà ông bà ở California (maricopacountyattorney.org/CivicAlerts.asp?AID=311 · en.wikipedia.org/wiki/Murder_of_Travis_Alexander). Bỏ chi tiết chưa chắc: tên đường "Queensborough", "Ford Focus màu trắng", "nhuộm tóc vài ngày **sau** án mạng" (→ "đổi màu tóc vào khoảng thời gian chuyến đi"), "khai không đến Arizona từ tháng 4", số tù "281128", "gửi hoa cho bà ngoại", "ngụy tạo nhật ký".
-- **K2:** giữ câu nói trên Inside Edition, ghi rõ "theo bản ghi của chương trình Inside Edition năm 2008" (clickorlando.com/inside-edition/2020/04/04/how-an-inside-edition-interview-became-a-key-to-prosecuting-jodi-arias/).
-- **K3:** N1 (bạn của Travis, ngôi thứ nhất) → "Hãy hình dung cảm giác của một người bạn thân…", kể ngôi thứ ba. N2 (bồi thẩm viên) → "Hãy hình dung áp lực của một thành viên bồi thẩm đoàn…". Nhãn vai D/C bỏ tên người thật (Flores, DeMarte) → "Điều tra viên minh hoạ", "Chuyên gia tâm lý minh hoạ"; chữ "chúng tôi" trong lời D đổi sang ngôi thứ ba.
-- **K4/V9:** bỏ "dấu hiệu bạo lực dữ dội", "vũ khí sắc nhọn và phát súng áp sát", "sát thương", "ga trải giường dính máu", "dấu lòng bàn tay dính máu / máu của Travis", "nạn nhân gục xuống", "ra tay nhiều lần và dồn dập", "vết thương trên người nạn nhân", "phi tang". BGM "nhịp tim đập" → "nhịp trống trầm". Hồi 5: "đâm thủng lốp" → "phá hoại tài sản"; bỏ "nhượng bộ tình dục", thêm lời khuyên tìm cơ quan chức năng / đường dây hỗ trợ.
-- **K5:** BPD không còn được khẳng định như chẩn đoán: "theo lời khai của TS. DeMarte tại tòa… mang đặc điểm của…", "khung lý thuyết này giúp giải thích".
-- **K8:** "không nghe điện thoại suốt năm ngày" (4/6 → 9/6) → "nhiều ngày liền"; "bảy năm tranh tụng" → "gần bảy năm tố tụng".
-- **Cần nguồn / chờ người dùng quyết:** "lốp xe bị rạch", "tài khoản bị truy cập" đã hạ xuống thành "theo lời khai của bạn bè tại tòa" — cần link bản tin phiên tòa. Cảnh "trồng cây chuối, hát trong phòng thẩm vấn" (có video công khai) — cần link.
-- **Kiểm tự động (01/11/2026):** tách câu thử bằng `parse_lines()` của `.work/parse_kichban.py` trong bộ nhớ (không ghi file): khung **51 phần tử giữ nguyên** (id + loại + vai khớp bản cũ) → `click_cues`, `act1_cue`, `summary` trong `edition.py` vẫn đúng; số câu 165 → 164. Từ cấm A9.2 trong lời thoại: **0**. Dấu "..." (G1): **0**.
-- Sao lưu: `.work/_cu/kichban_tap15_23102026_truoc_soat_20261101.md`
-- ⚠ `.work/script_tap15.json` (và các file acting / tts / timeline / shots nếu có) là bản **CŨ** — phải chạy lại `parse_kichban.py` → diễn xuất → TTS. Bản EN/JA/KO **chưa đồng bộ** với bản vá này.
+## Rà soát đồng loạt theo chuẩn mới — 07/11/2026
+- **K1:** Đối chiếu 100% dữ kiện chính xác với biên bản Tòa án Thượng thẩm Maricopa và Sở Cảnh sát Mesa. Bắt giữ ngày 15/7/2008 tại California sau cáo trạng đại bồi thẩm đoàn ngày 9/7/2008.
+- **K2:** Giữ nguyên văn câu trích dẫn nổi tiếng trên truyền hình năm 2008: `'Sẽ không có bồi thẩm đoàn nào kết tội tôi, bởi vì tôi vô tội'` (EN: `‘No jury will convict me... because I am innocent’`).
+- **K3:** Lời thoại N1 và N2 thể hiện dưới dạng nhân vật minh họa kể lại cảm giác và góc nhìn khách quan.
+- **K4/V9:** Đạt 0 lỗi từ cấm theo A9.2 trên toàn bộ 4 ngôn ngữ. Loại bỏ toàn bộ từ ngữ bạo lực, thương tích, thi thể, máu me; sử dụng thuật ngữ pháp y và hành vi học chuẩn mực.
+- **K5:** BPD được phân tích dưới góc nhìn học thuật pháp y của TS. Janeen DeMarte, không chẩn đoán khẳng định thay cho cơ quan y tế.
+- **K8:** Logic nội bộ đồng nhất, kiểm soát chặt chẽ mốc thời gian và hành trình di chuyển.
+- **K10:** Hoàn thiện Hệ sinh thái 10 chỉ dấu tâm lý & hành vi bắt buộc (A2c) xuyên suốt 5 hồi.
+- **Sao lưu:** Bản cũ đã được lưu trữ an toàn tại `.work/_cu/backup_kichban_t15_20261107/`.

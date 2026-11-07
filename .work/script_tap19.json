@@ -3,45 +3,50 @@
   "id": "1.01",
   "act": 1,
   "kind": "BGM",
-  "desc": "*Tiếng Drone âm u, tiếng kim đồng hồ tích tắc nặng nề tạo không khí căng thẳng, ngột ngạt bên trong phòng thẩm vấn kín.*"
+  "desc": "*Tiếng Drone u ám, tiếng kim đồng hồ tích tắc nặng nề tạo không khí căng thẳng, ngột ngạt bên trong phòng thẩm vấn kín.*"
  },
  {
   "id": "1.02",
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "giọng trầm, mở đầu câu chuyện với sức nặng tâm lý",
-  "text": "Chiều ngày 14 tháng 2 năm 2018, một thảm kịch kinh hoàng đã giáng xuống thị trấn yên bình Parkland thuộc bang Florida. Tại Trường Trung học Marjory Stoneman Douglas, một cựu học sinh mười chín tuổi đã thực hiện một vụ tấn công bạo lực chấn động toàn thế giới. Sau khi gây ra tội ác tày trời, kẻ thủ ác đã vứt bỏ vũ khí và hòa lẫn vào dòng học sinh đang hoảng loạn sơ tán để tẩu thoát. Tuy nhiên, cuộc trốn chạy hèn hạ ấy chỉ kéo dài được hơn một giờ đồng hồ trước khi hắn bị cảnh sát bắt giữ trên đường phố lân cận. Nghi phạm mang tên Nikolas Cruz lập tức được áp giải về trụ sở Văn phòng Cảnh sát trưởng Hạt Broward. Tại đây, bên trong căn phòng hỏi cung lạnh lẽo có gắn máy quay giám sát, một màn kịch tâm lý quái đản bắt đầu mở màn.",
+  "direction": "chậm rãi, giọng trầm ấm gợi mở bối cảnh",
+  "text": "Chiều ngày 14 tháng 2 năm 2018, một thảm kịch kinh hoàng đã giáng xuống thành phố Parkland thuộc bang Florida. Tại Trường Trung học Marjory Stoneman Douglas, một cựu học sinh mười chín tuổi đã gây ra một vụ tấn công làm chấn động toàn thế giới. Sau khi gây án, hung thủ đã cố tình bỏ lại trang bị và hòa lẫn vào dòng học sinh đang sơ tán hỗn loạn để rời khỏi hiện trường. Tuy nhiên, chỉ hơn một giờ sau, hắn đã bị lực lượng tuần tra phát hiện và bắt giữ khi đang thản nhiên đi bộ tại một khu dân cư lân cận. Nghi phạm Nikolas Cruz ngay sau đó được áp giải về trụ sở Văn phòng Cảnh sát trưởng Hạt Broward. Tại đây, bên trong căn phòng hỏi cung có gắn máy quay quan sát liên tục, một màn kịch tâm lý công phu bắt đầu hé lộ. Dư chấn xã hội từ buổi chiều định mệnh ấy đã lập tức thổi bùng lên làn sóng bàng hoàng và phẫn nộ chưa từng có trong lịch sử giáo dục nước Mỹ.",
   "sentences": [
    {
     "id": "1.02#1",
-    "text": "Chiều ngày 14 tháng 2 năm 2018, một thảm kịch kinh hoàng đã giáng xuống thị trấn yên bình Parkland thuộc bang Florida.",
-    "words": 23
-   },
-   {
-    "id": "1.02#2",
-    "text": "Tại Trường Trung học Marjory Stoneman Douglas, một cựu học sinh mười chín tuổi đã thực hiện một vụ tấn công bạo lực chấn động toàn thế giới.",
-    "words": 28
-   },
-   {
-    "id": "1.02#3",
-    "text": "Sau khi gây ra tội ác tày trời, kẻ thủ ác đã vứt bỏ vũ khí và hòa lẫn vào dòng học sinh đang hoảng loạn sơ tán để tẩu thoát.",
-    "words": 31
-   },
-   {
-    "id": "1.02#4",
-    "text": "Tuy nhiên, cuộc trốn chạy hèn hạ ấy chỉ kéo dài được hơn một giờ đồng hồ trước khi hắn bị cảnh sát bắt giữ trên đường phố lân cận.",
-    "words": 30
-   },
-   {
-    "id": "1.02#5",
-    "text": "Nghi phạm mang tên Nikolas Cruz lập tức được áp giải về trụ sở Văn phòng Cảnh sát trưởng Hạt Broward.",
+    "text": "Chiều ngày 14 tháng 2 năm 2018, một thảm kịch kinh hoàng đã giáng xuống thành phố Parkland thuộc bang Florida.",
     "words": 21
    },
    {
-    "id": "1.02#6",
-    "text": "Tại đây, bên trong căn phòng hỏi cung lạnh lẽo có gắn máy quay giám sát, một màn kịch tâm lý quái đản bắt đầu mở màn.",
+    "id": "1.02#2",
+    "text": "Tại Trường Trung học Marjory Stoneman Douglas, một cựu học sinh mười chín tuổi đã gây ra một vụ tấn công làm chấn động toàn thế giới.",
     "words": 27
+   },
+   {
+    "id": "1.02#3",
+    "text": "Sau khi gây án, hung thủ đã cố tình bỏ lại trang bị và hòa lẫn vào dòng học sinh đang sơ tán hỗn loạn để rời khỏi hiện trường.",
+    "words": 30
+   },
+   {
+    "id": "1.02#4",
+    "text": "Tuy nhiên, chỉ hơn một giờ sau, hắn đã bị lực lượng tuần tra phát hiện và bắt giữ khi đang thản nhiên đi bộ tại một khu dân cư lân cận.",
+    "words": 32
+   },
+   {
+    "id": "1.02#5",
+    "text": "Nghi phạm Nikolas Cruz ngay sau đó được áp giải về trụ sở Văn phòng Cảnh sát trưởng Hạt Broward.",
+    "words": 20
+   },
+   {
+    "id": "1.02#6",
+    "text": "Tại đây, bên trong căn phòng hỏi cung có gắn máy quay quan sát liên tục, một màn kịch tâm lý công phu bắt đầu hé lộ.",
+    "words": 27
+   },
+   {
+    "id": "1.02#7",
+    "text": "Dư chấn xã hội từ buổi chiều định mệnh ấy đã lập tức thổi bùng lên làn sóng bàng hoàng và phẫn nộ chưa từng có trong lịch sử giáo dục nước Mỹ.",
+    "words": 33
    }
   ]
  },
@@ -49,7 +54,7 @@
   "id": "1.03",
   "act": 1,
   "kind": "SFX",
-  "desc": "*Tiếng cùm tay sắt va chạm lách cách trên mặt bàn kim loại, tiếng thở dốc run rẩy.*"
+  "desc": "*Tiếng còng tay sắt va chạm lách cách trên mặt bàn kim loại, tiếng thở dốc run rẩy.*"
  },
  {
   "id": "1.04",
@@ -57,42 +62,42 @@
   "kind": "LOI",
   "role": "H",
   "direction": "nhấn mạnh các chi tiết quan sát ban đầu",
-  "text": "Ngồi đối diện với Thám tử kỳ cựu John Curcio, Nikolas Cruz xuất hiện với vẻ ngoài tiều tụy, co ro trong chiếc áo bệnh viện màu xanh. Hắn liên tục ôm đầu, rên rỉ, lấy tay đập vào trán và phát ra những âm thanh thì thào đứt quãng như một kẻ mất trí. Khi được hỏi về nguyên nhân dẫn đến hành động tàn bạo của mình, Cruz đưa ra một lời giải thích rùng mình. Hắn khẳng định rằng bên trong tâm trí mình luôn tồn tại một giọng nói ma quỷ bí ẩn đã sai khiến hắn suốt nhiều năm qua. Cruz gọi thực thể vô hình đó là con quỷ hoặc phần tăm tối trong con người mình, kẻ luôn gào thét những mệnh lệnh đáng sợ. Hắn khai rằng con quỷ ấy liên tục lặp đi lặp lại trong đầu hắn ba từ ngữ tàn độc: Đốt cháy, Giết chóc và Phá hủy. Màn trình diễn đầy vẻ ma quái này dường như là một nỗ lực tuyệt vọng nhằm xây dựng vỏ bọc của một kẻ tâm thần phân liệt mất kiểm soát hành vi.",
+  "text": "Ngồi đối diện với Thám tử kỳ cựu John Curcio, Nikolas Cruz xuất hiện trong bộ áo choàng bệnh viện màu xanh nhạt với dáng vẻ co ro, thiểu não. Hắn liên tục cúi gằm đầu, nói lí nhí và cố tình tạo ra những quãng ngắt giọng run rẩy như một kẻ hoàn toàn mất phương hướng. Khi được hỏi về động cơ dẫn đến hành vi hủy diệt tại trường học, Cruz đưa ra một lời giải thích rợn người nhằm đánh lạc hướng. Hắn quả quyết rằng trong đầu mình luôn tồn tại một giọng nói ma quỷ thúc ép và chi phối tâm trí suốt nhiều năm qua. Theo đoạn băng ghi hình được công bố sau đó, khi điều tra viên gặng hỏi giọng nói ấy ra lệnh điều gì, hắn thì thào đáp bằng ba từ ngắn gọn: “Đốt, Giết, Phá hủy”. Những biểu hiện co giật và ánh mắt lấm lét được hắn thể hiện như một nỗ lực tuyệt vọng nhằm xây dựng vỏ bọc của một kẻ loạn thần mất nhận thức. Tuy nhiên, những điều tra viên dày dạn kinh nghiệm hiểu rất rõ ranh giới giữa một bệnh lý tâm thần thực sự và một màn kịch được toan tính kỹ lưỡng.",
   "sentences": [
    {
     "id": "1.04#1",
-    "text": "Ngồi đối diện với Thám tử kỳ cựu John Curcio, Nikolas Cruz xuất hiện với vẻ ngoài tiều tụy, co ro trong chiếc áo bệnh viện màu xanh.",
-    "words": 28
+    "text": "Ngồi đối diện với Thám tử kỳ cựu John Curcio, Nikolas Cruz xuất hiện trong bộ áo choàng bệnh viện màu xanh nhạt với dáng vẻ co ro, thiểu não.",
+    "words": 30
    },
    {
     "id": "1.04#2",
-    "text": "Hắn liên tục ôm đầu, rên rỉ, lấy tay đập vào trán và phát ra những âm thanh thì thào đứt quãng như một kẻ mất trí.",
-    "words": 27
+    "text": "Hắn liên tục cúi gằm đầu, nói lí nhí và cố tình tạo ra những quãng ngắt giọng run rẩy như một kẻ hoàn toàn mất phương hướng.",
+    "words": 28
    },
    {
     "id": "1.04#3",
-    "text": "Khi được hỏi về nguyên nhân dẫn đến hành động tàn bạo của mình, Cruz đưa ra một lời giải thích rùng mình.",
-    "words": 23
+    "text": "Khi được hỏi về động cơ dẫn đến hành vi hủy diệt tại trường học, Cruz đưa ra một lời giải thích rợn người nhằm đánh lạc hướng.",
+    "words": 28
    },
    {
     "id": "1.04#4",
-    "text": "Hắn khẳng định rằng bên trong tâm trí mình luôn tồn tại một giọng nói ma quỷ bí ẩn đã sai khiến hắn suốt nhiều năm qua.",
-    "words": 27
+    "text": "Hắn quả quyết rằng trong đầu mình luôn tồn tại một giọng nói ma quỷ thúc ép và chi phối tâm trí suốt nhiều năm qua.",
+    "words": 26
    },
    {
     "id": "1.04#5",
-    "text": "Cruz gọi thực thể vô hình đó là con quỷ hoặc phần tăm tối trong con người mình, kẻ luôn gào thét những mệnh lệnh đáng sợ.",
-    "words": 27
+    "text": "Theo đoạn băng ghi hình được công bố sau đó, khi điều tra viên gặng hỏi giọng nói ấy ra lệnh điều gì, hắn thì thào đáp bằng ba từ ngắn gọn: “Đốt, Giết, Phá hủy”.",
+    "words": 36
    },
    {
     "id": "1.04#6",
-    "text": "Hắn khai rằng con quỷ ấy liên tục lặp đi lặp lại trong đầu hắn ba từ ngữ tàn độc: Đốt cháy, Giết chóc và Phá hủy.",
-    "words": 27
+    "text": "Những biểu hiện co giật và ánh mắt lấm lét được hắn thể hiện như một nỗ lực tuyệt vọng nhằm xây dựng vỏ bọc của một kẻ loạn thần mất nhận thức.",
+    "words": 33
    },
    {
     "id": "1.04#7",
-    "text": "Màn trình diễn đầy vẻ ma quái này dường như là một nỗ lực tuyệt vọng nhằm xây dựng vỏ bọc của một kẻ tâm thần phân liệt mất kiểm soát hành vi.",
-    "words": 33
+    "text": "Tuy nhiên, những điều tra viên dày dạn kinh nghiệm hiểu rất rõ ranh giới giữa một bệnh lý tâm thần thực sự và một màn kịch được toan tính kỹ lưỡng.",
+    "words": 32
    }
   ]
  },
@@ -100,7 +105,7 @@
   "id": "1.05",
   "act": 1,
   "kind": "SFX",
-  "desc": "*Tiếng còi xe cứu thương từ xa, tiếng người hoảng loạn hỗn loạn ngoài sân trường.*"
+  "desc": "*Tiếng còi xe cứu thương dồn dập từ xa, tiếng bước chân hỗn loạn và tiếng còi báo động trường học.*"
  },
  {
   "id": "1.06",
@@ -108,32 +113,42 @@
   "kind": "LOI",
   "role": "H",
   "direction": "chuyển giọng đồng cảm sâu sắc với nạn nhân",
-  "text": "Trong khi kẻ sát nhân đang cố gắng sắm vai một nạn nhân bị ma quỷ thao túng trong phòng hỏi cung, bên ngoài kia là nỗi đau xé lòng của hàng nghìn gia đình. Ngày lễ tình nhân ấm áp đã vĩnh viễn biến thành một ngày đen tối nhất trong lịch sử giáo dục nước Mỹ. Những đứa trẻ ngây thơ và những người thầy tận tụy đã ngã xuống trong sự bàng hoàng tột độ của toàn xã hội. Sự tương phản giữa nỗi đau đớn tột cùng của cộng đồng với màn diễn kịch vụng về của kẻ thủ ác đã thổi bùng lên một làn sóng phẫn nộ dữ dội. Những nhân chứng sống sót sau thảm kịch không thể nào chấp nhận bất kỳ lời ngụy biện nào cho hành vi tàn bạo có tính toán ấy.",
+  "text": "Trong khi kẻ thủ ác đang cố gắng đóng vai một nạn nhân bị ma quỷ thao túng trong phòng kín, bên ngoài kia là nỗi đau xé lòng của hàng trăm gia đình. Ngày lễ tình nhân vốn dĩ tràn ngập hoa hồng và lời chúc đã vĩnh viễn biến thành một ngày đen tối trong tâm thức cộng đồng Parkland. Mười bảy học sinh và thầy cô giáo đã ngã xuống trong sự bàng hoàng tột cùng của bạn bè và người thân. Sự đối lập ghê rợn giữa màn diễn kịch trốn tránh trách nhiệm của hung thủ với nỗi mất mát tột cùng ngoài xã hội đã tạo nên một làn sóng phẫn nộ sâu sắc. Những người sống sót không thể chấp nhận bất kỳ lời ngụy biện nào cho một tội ác đã được chuẩn bị chu đáo đến từng chi tiết. Phong trào “March for Our Lives” do chính các học sinh Parkland khởi xướng ngay sau đó đã lan rộng khắp nước Mỹ để đòi lại công lý và an toàn học đường. Nỗi đau ấy trở thành động lực thúc đẩy một cuộc đại cải cách pháp lý, vạch trần những lỗ hổng nguy hiểm trong việc bảo vệ con người trước bạo lực.",
   "sentences": [
    {
     "id": "1.06#1",
-    "text": "Trong khi kẻ sát nhân đang cố gắng sắm vai một nạn nhân bị ma quỷ thao túng trong phòng hỏi cung, bên ngoài kia là nỗi đau xé lòng của hàng nghìn gia đình.",
-    "words": 35
+    "text": "Trong khi kẻ thủ ác đang cố gắng đóng vai một nạn nhân bị ma quỷ thao túng trong phòng kín, bên ngoài kia là nỗi đau xé lòng của hàng trăm gia đình.",
+    "words": 34
    },
    {
     "id": "1.06#2",
-    "text": "Ngày lễ tình nhân ấm áp đã vĩnh viễn biến thành một ngày đen tối nhất trong lịch sử giáo dục nước Mỹ.",
-    "words": 23
+    "text": "Ngày lễ tình nhân vốn dĩ tràn ngập hoa hồng và lời chúc đã vĩnh viễn biến thành một ngày đen tối trong tâm thức cộng đồng Parkland.",
+    "words": 28
    },
    {
     "id": "1.06#3",
-    "text": "Những đứa trẻ ngây thơ và những người thầy tận tụy đã ngã xuống trong sự bàng hoàng tột độ của toàn xã hội.",
-    "words": 24
+    "text": "Mười bảy học sinh và thầy cô giáo đã ngã xuống trong sự bàng hoàng tột cùng của bạn bè và người thân.",
+    "words": 23
    },
    {
     "id": "1.06#4",
-    "text": "Sự tương phản giữa nỗi đau đớn tột cùng của cộng đồng với màn diễn kịch vụng về của kẻ thủ ác đã thổi bùng lên một làn sóng phẫn nộ dữ dội.",
-    "words": 33
+    "text": "Sự đối lập ghê rợn giữa màn diễn kịch trốn tránh trách nhiệm của hung thủ với nỗi mất mát tột cùng ngoài xã hội đã tạo nên một làn sóng phẫn nộ sâu sắc.",
+    "words": 35
    },
    {
     "id": "1.06#5",
-    "text": "Những nhân chứng sống sót sau thảm kịch không thể nào chấp nhận bất kỳ lời ngụy biện nào cho hành vi tàn bạo có tính toán ấy.",
+    "text": "Những người sống sót không thể chấp nhận bất kỳ lời ngụy biện nào cho một tội ác đã được chuẩn bị chu đáo đến từng chi tiết.",
     "words": 28
+   },
+   {
+    "id": "1.06#6",
+    "text": "Phong trào “March for Our Lives” do chính các học sinh Parkland khởi xướng ngay sau đó đã lan rộng khắp nước Mỹ để đòi lại công lý và an toàn học đường.",
+    "words": 33
+   },
+   {
+    "id": "1.06#7",
+    "text": "Nỗi đau ấy trở thành động lực thúc đẩy một cuộc đại cải cách pháp lý, vạch trần những lỗ hổng nguy hiểm trong việc bảo vệ con người trước bạo lực.",
+    "words": 32
    }
   ]
  },
@@ -142,43 +157,38 @@
   "act": 1,
   "kind": "LOI",
   "role": "N",
-  "direction": "N1: Học sinh sống sót Parkland, giọng nữ nghẹn ngào, đau xót",
-  "text": "Đó là một buổi chiều mà tôi sẽ không bao giờ có thể quên được trong suốt phần đời còn lại của mình. Tiếng chuông báo cháy reo lên, tiếng bước chân chạy loạn xạ và sự hoảng loạn tột cùng bao trùm lên toàn bộ các dãy hành lang. Chúng tôi phải trốn dưới gầm bàn trong bóng tối, ôm chặt lấy nhau và cầu nguyện trong tiếng khóc nghẹn ngào. Những người bạn cùng lớp vui vẻ, năng động của tôi chỉ vài phút trước đó còn cười nói, bỗng chốc đã ra đi mãi mãi. Khi nghe tin hắn ta ngồi trong phòng cảnh sát và nói rằng có con quỷ trong đầu ra lệnh, tôi cảm thấy vô cùng tức giận. Hắn ta từng học cùng trường với chúng tôi, hắn ta luôn mang theo sự thù hận, đe dọa mọi người và khoe khoang về súng đạn. Không có con quỷ nào trong đầu hắn cả, chính sự độc ác và ích kỷ của hắn đã cướp đi tương lai của những người bạn thân yêu của chúng tôi.",
+  "direction": "N1: Học sinh sống sót thảm kịch Parkland, giọng nghẹn ngào, đau xót",
+  "text": "Hãy hình dung buổi chiều định mệnh ấy qua góc nhìn bàng hoàng của những học sinh đang ngồi trong lớp học. Tiếng chuông báo cháy bất ngờ vang lên dồn dập, kéo theo những tiếng la hét hỗn loạn và nỗi sợ hãi tột cùng bao trùm khắp các hành lang. Chúng tôi phải chen chúc trốn dưới gầm bàn, nắm chặt tay nhau trong bóng tối và nghẹn ngào cầu nguyện điều kỳ diệu sẽ đến. Những người bạn vừa mới vài phút trước còn cùng nhau cười đùa, chia sẻ từng viên kẹo, bỗng chốc đã vĩnh viễn không thể trở về nhà. Khi nghe tin hắn nói với cảnh sát rằng có một con quỷ xui khiến trong đầu, tất cả chúng tôi chỉ cảm thấy một sự phẫn nộ đến tột cùng. Với chúng tôi, không hề có con quỷ nào ngoài kia cả, chỉ có một sự độc ác hoàn toàn tỉnh táo đã cướp đi tương lai tươi đẹp của mười bảy con người vô tội.",
   "sentences": [
    {
     "id": "1.07#1",
-    "text": "Đó là một buổi chiều mà tôi sẽ không bao giờ có thể quên được trong suốt phần đời còn lại của mình.",
-    "words": 23
-   },
-   {
-    "id": "1.07#2",
-    "text": "Tiếng chuông báo cháy reo lên, tiếng bước chân chạy loạn xạ và sự hoảng loạn tột cùng bao trùm lên toàn bộ các dãy hành lang.",
-    "words": 27
-   },
-   {
-    "id": "1.07#3",
-    "text": "Chúng tôi phải trốn dưới gầm bàn trong bóng tối, ôm chặt lấy nhau và cầu nguyện trong tiếng khóc nghẹn ngào.",
+    "text": "Hãy hình dung buổi chiều định mệnh ấy qua góc nhìn bàng hoàng của những học sinh đang ngồi trong lớp học.",
     "words": 22
    },
    {
-    "id": "1.07#4",
-    "text": "Những người bạn cùng lớp vui vẻ, năng động của tôi chỉ vài phút trước đó còn cười nói, bỗng chốc đã ra đi mãi mãi.",
+    "id": "1.07#2",
+    "text": "Tiếng chuông báo cháy bất ngờ vang lên dồn dập, kéo theo những tiếng la hét hỗn loạn và nỗi sợ hãi tột cùng bao trùm khắp các hành lang.",
+    "words": 30
+   },
+   {
+    "id": "1.07#3",
+    "text": "Chúng tôi phải chen chúc trốn dưới gầm bàn, nắm chặt tay nhau trong bóng tối và nghẹn ngào cầu nguyện điều kỳ diệu sẽ đến.",
     "words": 26
    },
    {
+    "id": "1.07#4",
+    "text": "Những người bạn vừa mới vài phút trước còn cùng nhau cười đùa, chia sẻ từng viên kẹo, bỗng chốc đã vĩnh viễn không thể trở về nhà.",
+    "words": 28
+   },
+   {
     "id": "1.07#5",
-    "text": "Khi nghe tin hắn ta ngồi trong phòng cảnh sát và nói rằng có con quỷ trong đầu ra lệnh, tôi cảm thấy vô cùng tức giận.",
-    "words": 27
+    "text": "Khi nghe tin hắn nói với cảnh sát rằng có một con quỷ xui khiến trong đầu, tất cả chúng tôi chỉ cảm thấy một sự phẫn nộ đến tột cùng.",
+    "words": 31
    },
    {
     "id": "1.07#6",
-    "text": "Hắn ta từng học cùng trường với chúng tôi, hắn ta luôn mang theo sự thù hận, đe dọa mọi người và khoe khoang về súng đạn.",
-    "words": 27
-   },
-   {
-    "id": "1.07#7",
-    "text": "Không có con quỷ nào trong đầu hắn cả, chính sự độc ác và ích kỷ của hắn đã cướp đi tương lai của những người bạn thân yêu của chúng tôi.",
-    "words": 32
+    "text": "Với chúng tôi, không hề có con quỷ nào ngoài kia cả, chỉ có một sự độc ác hoàn toàn tỉnh táo đã cướp đi tương lai tươi đẹp của mười bảy con người vô tội.",
+    "words": 36
    }
   ]
  },
@@ -186,7 +196,7 @@
   "id": "1.08",
   "act": 1,
   "kind": "SFX",
-  "desc": "*Tiếng lật mở tập hồ sơ vụ án trên bàn, tiếng bút bi gõ nhịp xuống mặt bàn.*"
+  "desc": "*Tiếng lật mở tập hồ sơ vụ án trên bàn, tiếng bút bi gõ nhịp dứt khoát xuống mặt bàn kim loại.*"
  },
  {
   "id": "1.09",
@@ -194,37 +204,37 @@
   "kind": "LOI",
   "role": "H",
   "direction": "chuyển giọng sắc lạnh, hé lộ cuộc đấu trí",
-  "text": "Trước mặt Thám tử John Curcio không phải là một điều tra viên dễ bị lung lay bởi những màn kịch tâm linh huyền bí. Với hàng chục năm kinh nghiệm đối mặt với những tên tội phạm nguy hiểm nhất, ông hiểu rõ bản chất của tâm lý học tội phạm. Ánh mắt sắc bén của người điều tra viên đã nhìn thấu những khoảng ngập ngừng và sự tính toán ngầm phía sau những tiếng rên rỉ của nghi phạm. Cuộc thẩm vấn kéo dài hàng giờ đồng hồ nhanh chóng biến thành một ván cờ tâm lý cân não giữa người thực thi pháp luật và kẻ sát nhân tuổi thiếu niên. Ông kiên nhẫn lắng nghe từng lời khai hoang đường, từng bước giăng ra một cái bẫy logic để kẻ thủ ác tự phơi bày sự mâu thuẫn của chính mình. Và chiếc máy quay an ninh trên góc tường đã lặng lẽ ghi lại từng khoảnh khắc chân thực nhất của một sự lừa dối có hệ thống.",
+  "text": "Thám tử John Curcio không hề để bản thân bị cuốn theo hay lung lay bởi màn kịch siêu nhiên đầy vụng về ấy. Là một điều tra viên kỳ cựu của Văn phòng Cảnh sát trưởng Hạt Broward, ông đã trực tiếp đối mặt với hàng trăm đối tượng tội phạm nguy hiểm nhất. Bằng linh cảm nghiệp vụ sắc bén, Curcio lập tức phát hiện những điểm bất thường trong cách hành xử và nhịp độ khai báo của nghi phạm. Mỗi khi bị dồn vào các câu hỏi then chốt về quy trình chuẩn bị vũ khí, Cruz thường giả vờ mất tập trung hoặc kêu đau đầu để thoái thác. Nhưng khi chuyển sang những chủ đề đời thường không liên quan đến tội ác, ngôn ngữ cơ thể của hắn lại nhanh chóng trở về trạng thái kiểm soát ổn định. Điều tra viên quyết định triển khai một chiến thuật thẩm vấn đặc biệt, từng bước bóc trần sự thật đằng sau chiếc mặt nạ dối trá.",
   "sentences": [
    {
     "id": "1.09#1",
-    "text": "Trước mặt Thám tử John Curcio không phải là một điều tra viên dễ bị lung lay bởi những màn kịch tâm linh huyền bí.",
-    "words": 25
+    "text": "Thám tử John Curcio không hề để bản thân bị cuốn theo hay lung lay bởi màn kịch siêu nhiên đầy vụng về ấy.",
+    "words": 24
    },
    {
     "id": "1.09#2",
-    "text": "Với hàng chục năm kinh nghiệm đối mặt với những tên tội phạm nguy hiểm nhất, ông hiểu rõ bản chất của tâm lý học tội phạm.",
-    "words": 27
-   },
-   {
-    "id": "1.09#3",
-    "text": "Ánh mắt sắc bén của người điều tra viên đã nhìn thấu những khoảng ngập ngừng và sự tính toán ngầm phía sau những tiếng rên rỉ của nghi phạm.",
-    "words": 30
-   },
-   {
-    "id": "1.09#4",
-    "text": "Cuộc thẩm vấn kéo dài hàng giờ đồng hồ nhanh chóng biến thành một ván cờ tâm lý cân não giữa người thực thi pháp luật và kẻ sát nhân tuổi thiếu niên.",
-    "words": 33
-   },
-   {
-    "id": "1.09#5",
-    "text": "Ông kiên nhẫn lắng nghe từng lời khai hoang đường, từng bước giăng ra một cái bẫy logic để kẻ thủ ác tự phơi bày sự mâu thuẫn của chính mình.",
+    "text": "Là một điều tra viên kỳ cựu của Văn phòng Cảnh sát trưởng Hạt Broward, ông đã trực tiếp đối mặt với hàng trăm đối tượng tội phạm nguy hiểm nhất.",
     "words": 31
    },
    {
-    "id": "1.09#6",
-    "text": "Và chiếc máy quay an ninh trên góc tường đã lặng lẽ ghi lại từng khoảnh khắc chân thực nhất của một sự lừa dối có hệ thống.",
+    "id": "1.09#3",
+    "text": "Bằng linh cảm nghiệp vụ sắc bén, Curcio lập tức phát hiện những điểm bất thường trong cách hành xử và nhịp độ khai báo của nghi phạm.",
     "words": 28
+   },
+   {
+    "id": "1.09#4",
+    "text": "Mỗi khi bị dồn vào các câu hỏi then chốt về quy trình chuẩn bị vũ khí, Cruz thường giả vờ mất tập trung hoặc kêu đau đầu để thoái thác.",
+    "words": 31
+   },
+   {
+    "id": "1.09#5",
+    "text": "Nhưng khi chuyển sang những chủ đề đời thường không liên quan đến tội ác, ngôn ngữ cơ thể của hắn lại nhanh chóng trở về trạng thái kiểm soát ổn định.",
+    "words": 32
+   },
+   {
+    "id": "1.09#6",
+    "text": "Điều tra viên quyết định triển khai một chiến thuật thẩm vấn đặc biệt, từng bước bóc trần sự thật đằng sau chiếc mặt nạ dối trá.",
+    "words": 27
    }
   ]
  },
@@ -233,33 +243,33 @@
   "act": 1,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Thám tử John Curcio, giọng nam trung niên, sắc bén, quyết đoán",
-  "text": "Ngay khi Nikolas Cruz bắt đầu nói về giọng nói quỷ dữ trong đầu, tôi đã lập tức đặt ra những câu hỏi kiểm tra tính logic của câu chuyện. Tôi nhìn thẳng vào mắt hắn và chỉ ra rằng: giọng nói đó không hề mua súng, giọng nói đó không hề đặt xe công nghệ để đến trường. Chính hắn là người đã tự mình đi đến cửa hàng, bỏ tiền ra mua khẩu súng trường bán tự động, mua từng hộp đạn và lên kế hoạch tỉ mỉ. Một người thực sự bị loạn thần và mất kiểm soát sẽ không thể thực hiện một chuỗi hành vi phức tạp, có tính toán thời gian và đường lui chính xác đến từng phút như vậy. Hắn đang cố gắng bám víu vào một thực thể siêu nhiên tưởng tượng để trốn tránh trách nhiệm hình sự nặng nề đang chờ đợi phía trước.",
+  "direction": "giọng nam đanh thép, điềm tĩnh, giàu nghiệp vụ",
+  "text": "Trong nghiệp vụ điều tra thẩm vấn, điều quan trọng nhất là không bao giờ tranh cãi trực diện về tính xác thực của ảo giác mà đối tượng tự vẽ ra. Chúng tôi cho đối tượng cơ hội trình bày thật chi tiết về giọng nói vô hình đó, ghi nhận từng mốc thời gian và từng mệnh lệnh cụ thể. Khi một kẻ cố tình giả vờ loạn thần, lời khai của hắn sẽ bộc lộ vô số lỗ hổng logic nội tại mà chính hắn không lường trước được. Những người thực sự mắc hội chứng ảo thanh mệnh lệnh hiếm khi có thể kiểm soát và bật tắt triệu chứng một cách tiện lợi theo tình huống như vậy. Mục tiêu của chúng tôi là thu thập đầy đủ dữ liệu hành vi để làm cơ sở cho các chuyên gia giám định tâm thần pháp y đưa ra kết luận chính xác trước tòa.",
   "sentences": [
    {
     "id": "1.10#1",
-    "text": "Ngay khi Nikolas Cruz bắt đầu nói về giọng nói quỷ dữ trong đầu, tôi đã lập tức đặt ra những câu hỏi kiểm tra tính logic của câu chuyện.",
-    "words": 30
+    "text": "Trong nghiệp vụ điều tra thẩm vấn, điều quan trọng nhất là không bao giờ tranh cãi trực diện về tính xác thực của ảo giác mà đối tượng tự vẽ ra.",
+    "words": 32
    },
    {
     "id": "1.10#2",
-    "text": "Tôi nhìn thẳng vào mắt hắn và chỉ ra rằng: giọng nói đó không hề mua súng, giọng nói đó không hề đặt xe công nghệ để đến trường.",
-    "words": 29
+    "text": "Chúng tôi cho đối tượng cơ hội trình bày thật chi tiết về giọng nói vô hình đó, ghi nhận từng mốc thời gian và từng mệnh lệnh cụ thể.",
+    "words": 30
    },
    {
     "id": "1.10#3",
-    "text": "Chính hắn là người đã tự mình đi đến cửa hàng, bỏ tiền ra mua khẩu súng trường bán tự động, mua từng hộp đạn và lên kế hoạch tỉ mỉ.",
-    "words": 31
+    "text": "Khi một kẻ cố tình giả vờ loạn thần, lời khai của hắn sẽ bộc lộ vô số lỗ hổng logic nội tại mà chính hắn không lường trước được.",
+    "words": 30
    },
    {
     "id": "1.10#4",
-    "text": "Một người thực sự bị loạn thần và mất kiểm soát sẽ không thể thực hiện một chuỗi hành vi phức tạp, có tính toán thời gian và đường lui chính xác đến từng phút như vậy.",
-    "words": 37
+    "text": "Những người thực sự mắc hội chứng ảo thanh mệnh lệnh hiếm khi có thể kiểm soát và bật tắt triệu chứng một cách tiện lợi theo tình huống như vậy.",
+    "words": 31
    },
    {
     "id": "1.10#5",
-    "text": "Hắn đang cố gắng bám víu vào một thực thể siêu nhiên tưởng tượng để trốn tránh trách nhiệm hình sự nặng nề đang chờ đợi phía trước.",
-    "words": 28
+    "text": "Mục tiêu của chúng tôi là thu thập đầy đủ dữ liệu hành vi để làm cơ sở cho các chuyên gia giám định tâm thần pháp y đưa ra kết luận chính xác trước tòa.",
+    "words": 36
    }
   ]
  },
@@ -268,23 +278,28 @@
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "khép lại Hồi 1, dẫn dắt sang phân tích chứng cứ camera",
-  "text": "Lời chất vấn đanh thép của Thám tử Curcio đã giáng một đòn chí mạng vào màn kịch ma quỷ ban đầu của nghi phạm. Nhưng bằng chứng xác thực nhất vạch trần bộ mặt thật của Nikolas Cruz không nằm ở lời nói, mà nằm ở những gì xảy ra khi cánh cửa phòng thẩm vấn khép lại và kẻ sát nhân tin rằng mình đang ở một mình. Cuộc đấu trí bước sang một bước ngoặt quyết định khi ống kính máy quay lật tẩy toàn bộ sự thật trần trụi.",
+  "direction": "dẫn dắt bước ngoặt của cuộc thẩm vấn",
+  "text": "Cuộc đấu trí cân não bên trong căn phòng hỏi cung chính thức bước vào giai đoạn quyết định. Thám tử Curcio tạm thời rời khỏi căn phòng, để nghi phạm lại một mình trước ống kính máy quay đang ghi hình bí mật. Tại đây, toàn bộ phản ứng tự nhiên và chân thật nhất của Nikolas Cruz khi không có người quan sát đã được lưu giữ trọn vẹn. Những hình ảnh chân thực này sẽ trở thành bằng chứng đắt giá nhất, đánh sập hoàn toàn ảo tưởng trốn tội của kẻ thủ ác lạnh lùng.",
   "sentences": [
    {
     "id": "1.11#1",
-    "text": "Lời chất vấn đanh thép của Thám tử Curcio đã giáng một đòn chí mạng vào màn kịch ma quỷ ban đầu của nghi phạm.",
-    "words": 25
+    "text": "Cuộc đấu trí cân não bên trong căn phòng hỏi cung chính thức bước vào giai đoạn quyết định.",
+    "words": 19
    },
    {
     "id": "1.11#2",
-    "text": "Nhưng bằng chứng xác thực nhất vạch trần bộ mặt thật của Nikolas Cruz không nằm ở lời nói, mà nằm ở những gì xảy ra khi cánh cửa phòng thẩm vấn khép lại và kẻ sát nhân tin rằng mình đang ở một mình.",
-    "words": 45
+    "text": "Thám tử Curcio tạm thời rời khỏi căn phòng, để nghi phạm lại một mình trước ống kính máy quay đang ghi hình bí mật.",
+    "words": 25
    },
    {
     "id": "1.11#3",
-    "text": "Cuộc đấu trí bước sang một bước ngoặt quyết định khi ống kính máy quay lật tẩy toàn bộ sự thật trần trụi.",
-    "words": 23
+    "text": "Tại đây, toàn bộ phản ứng tự nhiên và chân thật nhất của Nikolas Cruz khi không có người quan sát đã được lưu giữ trọn vẹn.",
+    "words": 27
+   },
+   {
+    "id": "1.11#4",
+    "text": "Những hình ảnh chân thực này sẽ trở thành bằng chứng đắt giá nhất, đánh sập hoàn toàn ảo tưởng trốn tội của kẻ thủ ác lạnh lùng.",
+    "words": 28
    }
   ]
  },
@@ -292,36 +307,56 @@
   "id": "1.12",
   "act": 1,
   "kind": "BGM",
-  "desc": "*Một nốt trầm đục ngân dài rồi ngắt quãng, tạo khoảng lặng nghẹt thở trước khi bước sang Hồi 2.*"
+  "desc": "*Nhạc nền chuyển hồi, tiết tấu tăng dần độ căng thẳng.*"
  },
  {
   "id": "2.01",
   "act": 2,
   "kind": "BGM",
-  "desc": "*Âm thanh Dark Ambient nhịp đập điện tử dồn dập, tiếng tích tắc đồng hồ lạnh lẽo và sắc lạnh.*"
+  "desc": "*Tiếng Ambient sâu thẳm, âm vang kim loại u uất mô tả sự lạnh lẽo của căn phòng hỏi cung.*"
  },
  {
   "id": "2.02",
   "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "tiết tấu nhanh, cuốn hút",
-  "text": "Trong quá trình thẩm vấn, Thám tử John Curcio đã nhiều lần chủ động đứng dậy và rời khỏi phòng hỏi cung trong khoảng thời gian ngắn. Đây là một kỹ thuật nghiệp vụ kinh điển nhằm quan sát ngôn ngữ cơ thể tự nhiên của nghi phạm khi không còn đối diện với áp lực điều tra, và những thước phim ghi lại trong những khoảng lặng ấy đã trở thành tư liệu pháp y đắt giá nhất của vụ án. Ngay khi viên thám tử bước ra khỏi cửa, toàn bộ dáng vẻ đau đớn, quằn quại của Nikolas Cruz lập tức biến mất như chưa từng tồn tại.",
+  "direction": "quan sát sắc sảo qua màn hình giám sát",
+  "text": "Khi cánh cửa phòng hỏi cung khép lại và chỉ còn lại một mình, Nikolas Cruz bắt đầu một màn độc diễn kỳ lạ trước không gian tĩnh lặng. Hắn nhìn lên trần nhà, đưa tay lên ôm đầu và liên tục thốt ra những câu nói đứt quãng như tự van xin: “Hãy tha cho tôi, tôi muốn kết thúc tất cả”. Đôi lúc, hắn dùng nắm đấm tự đập vào trán mình hoặc cào cấu vào hai cánh tay như muốn thể hiện sự dằn vặt tột độ. Tuy nhiên, nếu quan sát kỹ chuyển động mắt của nghi phạm qua màn hình giám sát, có thể thấy rõ những cái liếc nhìn kín đáo về phía góc đặt máy quay. Hành vi tự tổn hại mang tính trình diễn này không hề xuất phát từ sự bùng nổ xung động thực sự của một cơn hoảng loạn tâm thần. Đó là nỗ lực vụng về nhằm củng cố tính chân thực cho câu chuyện về con quỷ mà hắn vừa thêu dệt với điều tra viên. Cruz hoàn toàn không ngờ rằng từng cử chỉ toan tính ấy đang biến thành chuỗi chứng cứ đanh thép chống lại chính hắn.",
   "sentences": [
    {
     "id": "2.02#1",
-    "text": "Trong quá trình thẩm vấn, Thám tử John Curcio đã nhiều lần chủ động đứng dậy và rời khỏi phòng hỏi cung trong khoảng thời gian ngắn.",
-    "words": 27
+    "text": "Khi cánh cửa phòng hỏi cung khép lại và chỉ còn lại một mình, Nikolas Cruz bắt đầu một màn độc diễn kỳ lạ trước không gian tĩnh lặng.",
+    "words": 29
    },
    {
     "id": "2.02#2",
-    "text": "Đây là một kỹ thuật nghiệp vụ kinh điển nhằm quan sát ngôn ngữ cơ thể tự nhiên của nghi phạm khi không còn đối diện với áp lực điều tra, và những thước phim ghi lại trong những khoảng lặng ấy đã trở thành tư liệu pháp y đắt giá nhất của vụ án.",
-    "words": 55
+    "text": "Hắn nhìn lên trần nhà, đưa tay lên ôm đầu và liên tục thốt ra những câu nói đứt quãng như tự van xin: “Hãy tha cho tôi, tôi muốn kết thúc tất cả”.",
+    "words": 34
    },
    {
     "id": "2.02#3",
-    "text": "Ngay khi viên thám tử bước ra khỏi cửa, toàn bộ dáng vẻ đau đớn, quằn quại của Nikolas Cruz lập tức biến mất như chưa từng tồn tại.",
+    "text": "Đôi lúc, hắn dùng nắm đấm tự đập vào trán mình hoặc cào cấu vào hai cánh tay như muốn thể hiện sự dằn vặt tột độ.",
+    "words": 27
+   },
+   {
+    "id": "2.02#4",
+    "text": "Tuy nhiên, nếu quan sát kỹ chuyển động mắt của nghi phạm qua màn hình giám sát, có thể thấy rõ những cái liếc nhìn kín đáo về phía góc đặt máy quay.",
+    "words": 33
+   },
+   {
+    "id": "2.02#5",
+    "text": "Hành vi tự tổn hại mang tính trình diễn này không hề xuất phát từ sự bùng nổ xung động thực sự của một cơn hoảng loạn tâm thần.",
     "words": 29
+   },
+   {
+    "id": "2.02#6",
+    "text": "Đó là nỗ lực vụng về nhằm củng cố tính chân thực cho câu chuyện về con quỷ mà hắn vừa thêu dệt với điều tra viên.",
+    "words": 27
+   },
+   {
+    "id": "2.02#7",
+    "text": "Cruz hoàn toàn không ngờ rằng từng cử chỉ toan tính ấy đang biến thành chuỗi chứng cứ đanh thép chống lại chính hắn.",
+    "words": 24
    }
   ]
  },
@@ -329,45 +364,50 @@
   "id": "2.03",
   "act": 2,
   "kind": "SFX",
-  "desc": "*Tiếng đóng cửa đánh cạch, tiếng mở bao bì bánh mì sột soạt.*"
+  "desc": "*Tiếng mở cửa sắt cọt kẹt, tiếng đặt túi thức ăn nhanh giấy và cốc nước ngọt đá lạo xạo lên mặt bàn.*"
  },
  {
   "id": "2.04",
   "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "giọng rùng mình, vạch trần ngôn ngữ cơ thể giả tạo",
-  "text": "Hắn ngồi thẳng lưng dậy một cách hoàn toàn bình thường, bình thản nhìn ngắm đôi bàn tay của mình và ngước nhìn xung quanh căn phòng. Khi thám tử mang vào cho hắn một chiếc bánh kẹp và một cốc nước, Cruz thản nhiên cầm lấy, ăn uống một cách ngon lành và thong thả. Không hề có bất kỳ dấu hiệu nào của một người đang bị hành hạ bởi những tiếng thét ma quái bên trong màng nhĩ. Thậm chí khi ở một mình, hắn còn tò mò săm soi các đồ vật trên bàn và lẩm bẩm những câu nói tự sự đầy vẻ tỉnh táo. Chỉ đến khi nghe thấy tiếng bước chân người bước lại gần cửa, hắn mới vội vàng gục đầu xuống bàn và bắt đầu lẩm bẩm những lời rên rỉ quen thuộc. Sự thay đổi trạng thái cảm xúc có chọn lọc và mang tính cơ hội này đã chứng minh rằng giọng nói quỷ dữ chỉ là một công cụ diễn xuất được kích hoạt khi có khán giả.",
+  "direction": "hé lộ phép thử tâm lý kinh điển",
+  "text": "Vài phút sau, Thám tử Curcio quay trở lại phòng với một chiếc túi đựng bánh kẹp, khoai tây chiên và một cốc nước ngọt lạnh. Đây không đơn thuần là sự đáp ứng nhu cầu ăn uống của nghi phạm, mà là một phép thử hành vi kinh điển trong tâm lý học điều tra. Khi nhìn thấy thức ăn, dáng vẻ run rẩy và khổ sở của Cruz lập tức biến mất, nhường chỗ cho sự tập trung vào món ăn trước mặt. Hắn cầm chiếc bánh kẹp lên ăn một cách ngon lành, uống từng ngụm nước ngọt và trả lời các câu hỏi về sở thích cá nhân rất lưu loát. Sự thèm ăn tự nhiên và khả năng tận hưởng cảm giác thỏa mãn thể chất này hoàn toàn trái ngược với trạng thái của một người đang trong cơn hoảng loạn tột độ. Thám tử Curcio khéo léo gài bẫy bằng cách hỏi liệu con quỷ có cho phép hắn ăn uống ngon miệng như vậy hay không. Câu trả lời ngập ngừng của Cruz đã hé lộ lỗ hổng trí mạng đầu tiên trong toàn bộ hệ thống phòng thủ tâm lý của hắn.",
   "sentences": [
    {
     "id": "2.04#1",
-    "text": "Hắn ngồi thẳng lưng dậy một cách hoàn toàn bình thường, bình thản nhìn ngắm đôi bàn tay của mình và ngước nhìn xung quanh căn phòng.",
-    "words": 27
+    "text": "Vài phút sau, Thám tử Curcio quay trở lại phòng với một chiếc túi đựng bánh kẹp, khoai tây chiên và một cốc nước ngọt lạnh.",
+    "words": 26
    },
    {
     "id": "2.04#2",
-    "text": "Khi thám tử mang vào cho hắn một chiếc bánh kẹp và một cốc nước, Cruz thản nhiên cầm lấy, ăn uống một cách ngon lành và thong thả.",
-    "words": 29
+    "text": "Đây không đơn thuần là sự đáp ứng nhu cầu ăn uống của nghi phạm, mà là một phép thử hành vi kinh điển trong tâm lý học điều tra.",
+    "words": 30
    },
    {
     "id": "2.04#3",
-    "text": "Không hề có bất kỳ dấu hiệu nào của một người đang bị hành hạ bởi những tiếng thét ma quái bên trong màng nhĩ.",
-    "words": 25
-   },
-   {
-    "id": "2.04#4",
-    "text": "Thậm chí khi ở một mình, hắn còn tò mò săm soi các đồ vật trên bàn và lẩm bẩm những câu nói tự sự đầy vẻ tỉnh táo.",
+    "text": "Khi nhìn thấy thức ăn, dáng vẻ run rẩy và khổ sở của Cruz lập tức biến mất, nhường chỗ cho sự tập trung vào món ăn trước mặt.",
     "words": 29
    },
    {
+    "id": "2.04#4",
+    "text": "Hắn cầm chiếc bánh kẹp lên ăn một cách ngon lành, uống từng ngụm nước ngọt và trả lời các câu hỏi về sở thích cá nhân rất lưu loát.",
+    "words": 30
+   },
+   {
     "id": "2.04#5",
-    "text": "Chỉ đến khi nghe thấy tiếng bước chân người bước lại gần cửa, hắn mới vội vàng gục đầu xuống bàn và bắt đầu lẩm bẩm những lời rên rỉ quen thuộc.",
-    "words": 32
+    "text": "Sự thèm ăn tự nhiên và khả năng tận hưởng cảm giác thỏa mãn thể chất này hoàn toàn trái ngược với trạng thái của một người đang trong cơn hoảng loạn tột độ.",
+    "words": 34
    },
    {
     "id": "2.04#6",
-    "text": "Sự thay đổi trạng thái cảm xúc có chọn lọc và mang tính cơ hội này đã chứng minh rằng giọng nói quỷ dữ chỉ là một công cụ diễn xuất được kích hoạt khi có khán giả.",
-    "words": 38
+    "text": "Thám tử Curcio khéo léo gài bẫy bằng cách hỏi liệu con quỷ có cho phép hắn ăn uống ngon miệng như vậy hay không.",
+    "words": 25
+   },
+   {
+    "id": "2.04#7",
+    "text": "Câu trả lời ngập ngừng của Cruz đã hé lộ lỗ hổng trí mạng đầu tiên trong toàn bộ hệ thống phòng thủ tâm lý của hắn.",
+    "words": 27
    }
   ]
  },
@@ -375,40 +415,50 @@
   "id": "2.05",
   "act": 2,
   "kind": "SFX",
-  "desc": "*Tiếng bấm mở khóa màn hình điện thoại, tiếng rè rè của đoạn video tự quay.*"
+  "desc": "*Tiếng ghi âm thẩm vấn phát lại giọng đối thoại sắc lạnh giữa điều tra viên và nghi phạm.*"
  },
  {
   "id": "2.06",
   "act": 2,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Bằng chứng video tự quay đập tan vỏ bọc loạn thần",
-  "text": "Chiếc đinh cuối cùng đóng vào cỗ quan tài ngụy biện của Nikolas Cruz chính là dữ liệu được chúng tôi trích xuất từ chiếc điện thoại cá nhân của hắn. Chỉ vài ngày trước khi vụ xả súng diễn ra, chính Cruz đã tự cầm điện thoại quay lại ba đoạn video ngắn ghi lại hình ảnh của bản thân. Trong video, hắn ngồi trong phòng ngủ với phong thái hoàn toàn tỉnh táo, ánh mắt lạnh lùng và giọng nói bình thản đến rợn người. Hắn nhìn thẳng vào ống kính và tuyên bố: “Tên tôi là Nik, và tôi sẽ là kẻ xả súng trường học tiếp theo của năm 2018, mục tiêu của tôi là ít nhất hai mươi người.” Hắn thậm chí còn cười khẩy và vạch ra chi tiết lộ trình di chuyển, phương thức mang súng vào trường và nói rằng: “Tất cả các người sẽ biết tôi là ai.”",
+  "direction": "giọng đanh thép, bẻ gãy lập luận đối tượng",
+  "text": "Tôi đã hỏi thẳng Cruz rằng nếu giọng nói đó ra lệnh cho hắn mọi lúc mọi nơi, tại sao hắn không nghe theo khi nó bảo không được làm những việc hắn thích. Cụ thể, khi Cruz muốn mua khẩu súng trường bán tự động, con quỷ bảo không nên, nhưng hắn vẫn quyết định dùng tiền tiết kiệm để mua nó bằng được. Khi hắn muốn ăn đồ ăn nhanh, giọng nói bảo hãy nhịn đói, nhưng hắn vẫn vui vẻ đi mua thức ăn mà không hề gặp trở ngại nào. Tôi nhìn thẳng vào mắt hắn và hỏi: “Vậy thì con quỷ có thực sự kiểm soát mày không, hay mày chỉ chọn nghe theo nó khi mày muốn làm điều độc ác?”. Cruz sững người trong vài giây, lúng túng nhìn xuống bàn rồi lí nhí thừa nhận rằng hắn hoàn toàn có thể từ chối giọng nói đó nếu muốn. Lời thừa nhận ngắn ngủi ấy chính là chìa khóa chứng minh năng lực nhận thức và quyền tự quyết hành vi của đối tượng vẫn hoàn toàn nguyên vẹn. Hắn nhận thức rõ đúng sai, biết rõ hậu quả pháp lý, nhưng đã chủ động lựa chọn thực hiện tội ác để thỏa mãn mục đích cá nhân.",
   "sentences": [
    {
     "id": "2.06#1",
-    "text": "Chiếc đinh cuối cùng đóng vào cỗ quan tài ngụy biện của Nikolas Cruz chính là dữ liệu được chúng tôi trích xuất từ chiếc điện thoại cá nhân của hắn.",
-    "words": 31
+    "text": "Tôi đã hỏi thẳng Cruz rằng nếu giọng nói đó ra lệnh cho hắn mọi lúc mọi nơi, tại sao hắn không nghe theo khi nó bảo không được làm những việc hắn thích.",
+    "words": 34
    },
    {
     "id": "2.06#2",
-    "text": "Chỉ vài ngày trước khi vụ xả súng diễn ra, chính Cruz đã tự cầm điện thoại quay lại ba đoạn video ngắn ghi lại hình ảnh của bản thân.",
-    "words": 30
+    "text": "Cụ thể, khi Cruz muốn mua khẩu súng trường bán tự động, con quỷ bảo không nên, nhưng hắn vẫn quyết định dùng tiền tiết kiệm để mua nó bằng được.",
+    "words": 31
    },
    {
     "id": "2.06#3",
-    "text": "Trong video, hắn ngồi trong phòng ngủ với phong thái hoàn toàn tỉnh táo, ánh mắt lạnh lùng và giọng nói bình thản đến rợn người.",
-    "words": 26
+    "text": "Khi hắn muốn ăn đồ ăn nhanh, giọng nói bảo hãy nhịn đói, nhưng hắn vẫn vui vẻ đi mua thức ăn mà không hề gặp trở ngại nào.",
+    "words": 29
    },
    {
     "id": "2.06#4",
-    "text": "Hắn nhìn thẳng vào ống kính và tuyên bố: “Tên tôi là Nik, và tôi sẽ là kẻ xả súng trường học tiếp theo của năm 2018, mục tiêu của tôi là ít nhất hai mươi người.”",
-    "words": 37
+    "text": "Tôi nhìn thẳng vào mắt hắn và hỏi: “Vậy thì con quỷ có thực sự kiểm soát mày không, hay mày chỉ chọn nghe theo nó khi mày muốn làm điều độc ác?”.",
+    "words": 33
    },
    {
     "id": "2.06#5",
-    "text": "Hắn thậm chí còn cười khẩy và vạch ra chi tiết lộ trình di chuyển, phương thức mang súng vào trường và nói rằng: “Tất cả các người sẽ biết tôi là ai.”",
-    "words": 33
+    "text": "Cruz sững người trong vài giây, lúng túng nhìn xuống bàn rồi lí nhí thừa nhận rằng hắn hoàn toàn có thể từ chối giọng nói đó nếu muốn.",
+    "words": 29
+   },
+   {
+    "id": "2.06#6",
+    "text": "Lời thừa nhận ngắn ngủi ấy chính là chìa khóa chứng minh năng lực nhận thức và quyền tự quyết hành vi của đối tượng vẫn hoàn toàn nguyên vẹn.",
+    "words": 30
+   },
+   {
+    "id": "2.06#7",
+    "text": "Hắn nhận thức rõ đúng sai, biết rõ hậu quả pháp lý, nhưng đã chủ động lựa chọn thực hiện tội ác để thỏa mãn mục đích cá nhân.",
+    "words": 29
    }
   ]
  },
@@ -416,40 +466,50 @@
   "id": "2.07",
   "act": 2,
   "kind": "SFX",
-  "desc": "*Tiếng lật hồ sơ chứng cứ pháp lý, tiếng gõ phím máy tính lưu trữ bằng chứng.*"
+  "desc": "*Tiếng cánh cửa mở lần nữa, tiếng bước chân nặng nề và tiếng nghẹn ngào của một thanh niên trẻ bước vào.*"
  },
  {
   "id": "2.08",
   "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "chuyển giọng đanh thép, vạch trần kế hoạch toan tính",
-  "text": "Đoạn video tự quay ấy đã phơi bày toàn bộ sự thật trước mắt công lý và dư luận. Đó không phải là hành vi của một người bị quỷ dữ sai khiến trong cơn hoảng loạn, mà là một kế hoạch giết người hàng loạt được chuẩn bị kỹ lưỡng vì động cơ khao khát sự nổi tiếng bệnh hoạn. Hắn muốn cả thế giới phải nhắc đến tên mình, muốn tạo ra một cú sốc truyền thông và tận hưởng cảm giác quyền lực ảo tưởng trên sinh mạng của người khác. Mọi chi tiết từ việc mua súng, tích trữ băng đạn, khảo sát địa hình cho đến việc chuẩn bị lời khai ma quỷ đều nằm trong sự toan tính lạnh lùng của một bộ não hoàn toàn tỉnh táo. Sự thật nghiệt ngã được chính hắn ghi lại bằng hình ảnh đã đập tan mọi vỏ bọc về một linh hồn yếu đuối bị ma quỷ điều khiển.",
+  "direction": "phân tích cuộc đối thoại gia đình đầy xúc động",
+  "text": "Đòn tâm lý tiếp theo của cơ quan điều tra diễn ra khi người em trai Zachary Cruz được đưa vào phòng để gặp mặt anh trai. Khác hẳn với vẻ ngoài vô cảm trước cái chết của mười bảy nạn nhân, Cruz lập tức bật khóc nức nở khi nhìn thấy người thân duy nhất còn lại. Hai anh em ôm chồm lấy nhau, và trong khoảnh khắc đó, sự phân chia ngăn cách nhận thức của hung thủ bộc lộ rõ rệt hơn bao giờ hết. Zachary đau đớn gặng hỏi: “Tại sao anh lại làm như vậy và hủy hoại cuộc đời của bao nhiêu con người cùng chính gia đình chúng ta?”. Đáp lại sự chất vấn tuyệt vọng của em trai, Cruz lại một lần nữa viện cớ: “Anh xin lỗi, con quỷ trong đầu đã ép anh làm điều đó”. Zachary kiên quyết lắc đầu bác bỏ: “Không, đừng đổ lỗi cho bất kỳ thứ gì khác, đó là do chính anh đã làm, anh phải đối mặt với sự thật”. Phản ứng cảm xúc có chọn lọc này chứng minh Cruz không hề mất kết nối với thực tại; hắn chỉ muốn đóng vai kẻ yếu thế trước gia đình để trốn tội.",
   "sentences": [
    {
     "id": "2.08#1",
-    "text": "Đoạn video tự quay ấy đã phơi bày toàn bộ sự thật trước mắt công lý và dư luận.",
-    "words": 19
+    "text": "Đòn tâm lý tiếp theo của cơ quan điều tra diễn ra khi người em trai Zachary Cruz được đưa vào phòng để gặp mặt anh trai.",
+    "words": 27
    },
    {
     "id": "2.08#2",
-    "text": "Đó không phải là hành vi của một người bị quỷ dữ sai khiến trong cơn hoảng loạn, mà là một kế hoạch giết người hàng loạt được chuẩn bị kỹ lưỡng vì động cơ khao khát sự nổi tiếng bệnh hoạn.",
-    "words": 42
+    "text": "Khác hẳn với vẻ ngoài vô cảm trước cái chết của mười bảy nạn nhân, Cruz lập tức bật khóc nức nở khi nhìn thấy người thân duy nhất còn lại.",
+    "words": 31
    },
    {
     "id": "2.08#3",
-    "text": "Hắn muốn cả thế giới phải nhắc đến tên mình, muốn tạo ra một cú sốc truyền thông và tận hưởng cảm giác quyền lực ảo tưởng trên sinh mạng của người khác.",
-    "words": 33
+    "text": "Hai anh em ôm chồm lấy nhau, và trong khoảnh khắc đó, sự phân chia ngăn cách nhận thức của hung thủ bộc lộ rõ rệt hơn bao giờ hết.",
+    "words": 30
    },
    {
     "id": "2.08#4",
-    "text": "Mọi chi tiết từ việc mua súng, tích trữ băng đạn, khảo sát địa hình cho đến việc chuẩn bị lời khai ma quỷ đều nằm trong sự toan tính lạnh lùng của một bộ não hoàn toàn tỉnh táo.",
-    "words": 40
+    "text": "Zachary đau đớn gặng hỏi: “Tại sao anh lại làm như vậy và hủy hoại cuộc đời của bao nhiêu con người cùng chính gia đình chúng ta?”.",
+    "words": 28
    },
    {
     "id": "2.08#5",
-    "text": "Sự thật nghiệt ngã được chính hắn ghi lại bằng hình ảnh đã đập tan mọi vỏ bọc về một linh hồn yếu đuối bị ma quỷ điều khiển.",
-    "words": 29
+    "text": "Đáp lại sự chất vấn tuyệt vọng của em trai, Cruz lại một lần nữa viện cớ: “Anh xin lỗi, con quỷ trong đầu đã ép anh làm điều đó”.",
+    "words": 30
+   },
+   {
+    "id": "2.08#6",
+    "text": "Zachary kiên quyết lắc đầu bác bỏ: “Không, đừng đổ lỗi cho bất kỳ thứ gì khác, đó là do chính anh đã làm, anh phải đối mặt với sự thật”.",
+    "words": 31
+   },
+   {
+    "id": "2.08#7",
+    "text": "Phản ứng cảm xúc có chọn lọc này chứng minh Cruz không hề mất kết nối với thực tại; hắn chỉ muốn đóng vai kẻ yếu thế trước gia đình để trốn tội.",
+    "words": 33
    }
   ]
  },
@@ -458,28 +518,43 @@
   "act": 2,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Nhận định về sự sụp đổ của màn kịch",
-  "text": "Khi chúng tôi công bố những đoạn video này, toàn bộ nỗ lực xin miễn trừ trách nhiệm hình sự vì lý do tâm thần của phía bào chữa đã bị bẻ gãy hoàn toàn. Hắn nhận thức được hành vi của mình là sai trái, biết rõ hậu quả chết người của vũ khí và chủ động tìm cách che giấu, tẩu thoát. Hắn hiểu rất rõ luật pháp và cố tình bắt chước những triệu chứng tâm thần phân liệt mà hắn từng đọc được trên mạng để tìm kiếm sự khoan hồng. Nhưng khoa học hình sự và những bằng chứng số không bao giờ có thể bị đánh lừa bởi những trò diễn xuất vụng về ấy.",
+  "direction": "tiếp tục phân tích bằng chứng kỹ thuật số",
+  "text": "Trong quá trình khám xét điện thoại cá nhân của đối tượng, lực lượng phá án đã thu giữ được bằng chứng mang tính hủy diệt đối với lời bào chữa của hắn. Đó là ba đoạn video ngắn do chính tay Nikolas Cruz tự quay bằng camera trước chỉ vài ngày trước khi vụ việc xảy ra. Trong những đoạn phim này, hắn hoàn toàn tỉnh táo, nét mặt lạnh lùng và không hề có bất kỳ dấu hiệu hoang tưởng hay run sợ nào. Hắn nhìn thẳng vào ống kính và tự tin tuyên bố: “Tôi tên là Nik, và tôi sẽ là kẻ xả súng học đường tiếp theo của năm hai nghìn không trăm mười tám”. Hắn còn vạch rõ mục tiêu: “Mục tiêu của tôi là ít nhất hai mươi người, và khi các bạn thấy tôi trên bản tin truyền hình thì các bạn sẽ biết tôi là ai”. Từng lời nói, từng kế hoạch di chuyển và phương thức gây án đều được hắn sắp xếp với sự tính toán tỉ mỉ đến rùng mình. Đoạn video này là đòn quyết định đập tan hoàn toàn giả thuyết về sự chi phối bất ngờ của ảo thanh hay trạng thái mất kiểm soát tâm thần.",
   "sentences": [
    {
     "id": "2.09#1",
-    "text": "Khi chúng tôi công bố những đoạn video này, toàn bộ nỗ lực xin miễn trừ trách nhiệm hình sự vì lý do tâm thần của phía bào chữa đã bị bẻ gãy hoàn toàn.",
-    "words": 35
+    "text": "Trong quá trình khám xét điện thoại cá nhân của đối tượng, lực lượng phá án đã thu giữ được bằng chứng mang tính hủy diệt đối với lời bào chữa của hắn.",
+    "words": 33
    },
    {
     "id": "2.09#2",
-    "text": "Hắn nhận thức được hành vi của mình là sai trái, biết rõ hậu quả chết người của vũ khí và chủ động tìm cách che giấu, tẩu thoát.",
-    "words": 29
+    "text": "Đó là ba đoạn video ngắn do chính tay Nikolas Cruz tự quay bằng camera trước chỉ vài ngày trước khi vụ việc xảy ra.",
+    "words": 25
    },
    {
     "id": "2.09#3",
-    "text": "Hắn hiểu rất rõ luật pháp và cố tình bắt chước những triệu chứng tâm thần phân liệt mà hắn từng đọc được trên mạng để tìm kiếm sự khoan hồng.",
-    "words": 31
+    "text": "Trong những đoạn phim này, hắn hoàn toàn tỉnh táo, nét mặt lạnh lùng và không hề có bất kỳ dấu hiệu hoang tưởng hay run sợ nào.",
+    "words": 28
    },
    {
     "id": "2.09#4",
-    "text": "Nhưng khoa học hình sự và những bằng chứng số không bao giờ có thể bị đánh lừa bởi những trò diễn xuất vụng về ấy.",
-    "words": 26
+    "text": "Hắn nhìn thẳng vào ống kính và tự tin tuyên bố: “Tôi tên là Nik, và tôi sẽ là kẻ xả súng học đường tiếp theo của năm hai nghìn không trăm mười tám”.",
+    "words": 34
+   },
+   {
+    "id": "2.09#5",
+    "text": "Hắn còn vạch rõ mục tiêu: “Mục tiêu của tôi là ít nhất hai mươi người, và khi các bạn thấy tôi trên bản tin truyền hình thì các bạn sẽ biết tôi là ai”.",
+    "words": 35
+   },
+   {
+    "id": "2.09#6",
+    "text": "Từng lời nói, từng kế hoạch di chuyển và phương thức gây án đều được hắn sắp xếp với sự tính toán tỉ mỉ đến rùng mình.",
+    "words": 27
+   },
+   {
+    "id": "2.09#7",
+    "text": "Đoạn video này là đòn quyết định đập tan hoàn toàn giả thuyết về sự chi phối bất ngờ của ảo thanh hay trạng thái mất kiểm soát tâm thần.",
+    "words": 30
    }
   ]
  },
@@ -488,38 +563,43 @@
   "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "khép lại Hồi 2",
-  "text": "Chiếc mặt nạ ma quỷ đã rơi xuống, để lộ ra chân dung của một kẻ thủ ác tỉnh táo và độc ác tột cùng. Từng cử chỉ, lời nói và hành vi của Cruz đều phản ánh sự toan tính thực dụng hơn là một trạng thái tâm thần mất kiểm soát. Tuy nhiên, cuộc chiến pháp lý để buộc kẻ thủ ác phải trả giá thích đáng trước pháp luật vẫn chưa dừng lại ở đó. Phía luật sư bào chữa vẫn tìm mọi kẽ hở y khoa để lập luận rằng bị cáo không đủ năng lực hành vi tại thời điểm gây án. Để đưa kẻ sát nhân ra trước bồi thẩm đoàn với đầy đủ năng lực chịu trách nhiệm hình sự, cơ quan công tố đã mời những chuyên gia hàng đầu về tâm thần học pháp y vào cuộc. Một cuộc giải phẫu não bộ chuyên sâu chính thức bắt đầu, vạch ra ranh giới rõ ràng giữa chứng Giả bệnh tâm thần và sự loạn thần thực sự.",
+  "direction": "tổng kết sự đối lập giữa MO và Signature",
+  "text": "Thủ đoạn gây án và dấu ấn tâm lý của Nikolas Cruz qua đó đã được phân tách một cách vô cùng rành mạch. Về mặt thủ đoạn, hắn chuẩn bị áo gi-lê chiến thuật, giấu súng trong bao đàn guitar, bắt xe dịch vụ đến trường và cố tình giật chuông báo cháy để gom các nạn nhân lại. Sau khi gây án, hắn bình thản tháo bỏ trang bị, đi bộ đến một cửa hàng thức ăn nhanh gần đó để mua nước uống trước khi bị bắt. Ngược lại, dấu ấn tâm lý bất biến của hắn là khao khát bệnh hoạn được cả thế giới chú ý và ghi nhớ tên tuổi một cách tiêu cực. Hắn thần tượng hóa các vụ bạo lực học đường trong quá khứ, coi những kẻ thủ ác tiền nhiệm như những hình mẫu để noi theo. Tội ác của hắn không phải là sản phẩm của một cơn điên loạn bộc phát, mà là đỉnh điểm của một quá trình nuôi dưỡng ảo tưởng đen tối suốt nhiều tháng ròng. Chiếc mặt nạ ma quỷ đã rơi xuống, để lộ chân dung một kẻ săn mồi tàn nhẫn với đầy đủ sự toan tính và ích kỷ tột cùng.",
   "sentences": [
    {
     "id": "2.10#1",
-    "text": "Chiếc mặt nạ ma quỷ đã rơi xuống, để lộ ra chân dung của một kẻ thủ ác tỉnh táo và độc ác tột cùng.",
-    "words": 25
+    "text": "Thủ đoạn gây án và dấu ấn tâm lý của Nikolas Cruz qua đó đã được phân tách một cách vô cùng rành mạch.",
+    "words": 24
    },
    {
     "id": "2.10#2",
-    "text": "Từng cử chỉ, lời nói và hành vi của Cruz đều phản ánh sự toan tính thực dụng hơn là một trạng thái tâm thần mất kiểm soát.",
-    "words": 28
+    "text": "Về mặt thủ đoạn, hắn chuẩn bị áo gi-lê chiến thuật, giấu súng trong bao đàn guitar, bắt xe dịch vụ đến trường và cố tình giật chuông báo cháy để gom các nạn nhân lại.",
+    "words": 36
    },
    {
     "id": "2.10#3",
-    "text": "Tuy nhiên, cuộc chiến pháp lý để buộc kẻ thủ ác phải trả giá thích đáng trước pháp luật vẫn chưa dừng lại ở đó.",
-    "words": 25
+    "text": "Sau khi gây án, hắn bình thản tháo bỏ trang bị, đi bộ đến một cửa hàng thức ăn nhanh gần đó để mua nước uống trước khi bị bắt.",
+    "words": 30
    },
    {
     "id": "2.10#4",
-    "text": "Phía luật sư bào chữa vẫn tìm mọi kẽ hở y khoa để lập luận rằng bị cáo không đủ năng lực hành vi tại thời điểm gây án.",
-    "words": 29
+    "text": "Ngược lại, dấu ấn tâm lý bất biến của hắn là khao khát bệnh hoạn được cả thế giới chú ý và ghi nhớ tên tuổi một cách tiêu cực.",
+    "words": 30
    },
    {
     "id": "2.10#5",
-    "text": "Để đưa kẻ sát nhân ra trước bồi thẩm đoàn với đầy đủ năng lực chịu trách nhiệm hình sự, cơ quan công tố đã mời những chuyên gia hàng đầu về tâm thần học pháp y vào cuộc.",
-    "words": 39
+    "text": "Hắn thần tượng hóa các vụ bạo lực học đường trong quá khứ, coi những kẻ thủ ác tiền nhiệm như những hình mẫu để noi theo.",
+    "words": 27
    },
    {
     "id": "2.10#6",
-    "text": "Một cuộc giải phẫu não bộ chuyên sâu chính thức bắt đầu, vạch ra ranh giới rõ ràng giữa chứng Giả bệnh tâm thần và sự loạn thần thực sự.",
-    "words": 30
+    "text": "Tội ác của hắn không phải là sản phẩm của một cơn điên loạn bộc phát, mà là đỉnh điểm của một quá trình nuôi dưỡng ảo tưởng đen tối suốt nhiều tháng ròng.",
+    "words": 34
+   },
+   {
+    "id": "2.10#7",
+    "text": "Chiếc mặt nạ ma quỷ đã rơi xuống, để lộ chân dung một kẻ săn mồi tàn nhẫn với đầy đủ sự toan tính và ích kỷ tột cùng.",
+    "words": 29
    }
   ]
  },
@@ -527,41 +607,46 @@
   "id": "2.11",
   "act": 2,
   "kind": "BGM",
-  "desc": "*Âm thanh điện tử chìm dần, mở ra không gian sâu lắng cho phần giải mã tâm lý học pháp y.*"
+  "desc": "*Tiếng piano tối giản, u tối nhưng dứt khoát, kết thúc màn bóc trần sự thật.*"
  },
  {
   "id": "3.01",
   "act": 3,
   "kind": "BGM",
-  "desc": "*Tiếng đàn Dương cầm tối giản (Minimalist Piano) hòa cùng âm thanh Drone trầm đục, tạo không khí học thuật và phân tích chuyên sâu.*"
+  "desc": "*Tiếng Minimalist Piano kết hợp Cello sâu lắng, mang sắc thái học thuật và phân tích chuyên sâu.*"
  },
  {
   "id": "3.02",
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "chậm rãi, mang tính dẫn nhập chuyên môn",
-  "text": "Trong lĩnh vực tâm thần học pháp y, ranh giới giữa một người mắc bệnh tâm thần thực sự và một kẻ cố tình giả vờ bệnh tật là một trong những thử thách phức tạp nhất. Để bảo vệ tính nghiêm minh của luật pháp, cơ quan công tố bang Florida đã chỉ định Tiến sĩ Charles Scott, một trong những chuyên gia tâm thần học pháp y hàng đầu nước Mỹ, trực tiếp giám định bị cáo. Sau hàng chục giờ phỏng vấn chuyên sâu, đối chiếu toàn bộ hồ sơ bệnh án từ thuở nhỏ và phân tích các bài kiểm tra tâm lý tiêu chuẩn, sự thật khoa học đã được sáng tỏ. Nikolas Cruz không hề mắc chứng loạn thần hay tâm thần phân liệt, mà hành vi của hắn là biểu hiện kinh điển của hội chứng Giả bệnh tâm thần, trong thuật ngữ y khoa gọi là Malingering.",
+  "direction": "dẫn nhập góc nhìn chuyên gia tâm thần pháp y",
+  "text": "Để chuẩn bị cho phiên tòa xét xử lịch sử, cơ quan công tố đã mời Tiến sĩ Charles Scott, một trong những chuyên gia hàng đầu về tâm thần học pháp y tại Mỹ. Nhiệm vụ của ông là giải mã một câu hỏi pháp lý cốt tử: Liệu Nikolas Cruz có thực sự mất nhận thức do loạn thần, hay đây là hành vi giả bệnh có chủ đích? Tiến sĩ Scott cùng các cộng sự đã dành hàng chục giờ phỏng vấn trực tiếp đối tượng, đồng thời phân tích hàng nghìn trang tài liệu bệnh án và video lưu trữ. Kết quả giám định chuyên sâu này đã đặt nền tảng khoa học vững chắc để vạch trần toàn bộ cơ chế ngụy trang tâm lý của bị cáo. Góc nhìn từ tâm lý học hành vi cho thấy sự khác biệt vô cùng sâu sắc giữa một tâm thần phân liệt thực thụ và hành vi cố tình đóng kịch.",
   "sentences": [
    {
     "id": "3.02#1",
-    "text": "Trong lĩnh vực tâm thần học pháp y, ranh giới giữa một người mắc bệnh tâm thần thực sự và một kẻ cố tình giả vờ bệnh tật là một trong những thử thách phức tạp nhất.",
-    "words": 37
+    "text": "Để chuẩn bị cho phiên tòa xét xử lịch sử, cơ quan công tố đã mời Tiến sĩ Charles Scott, một trong những chuyên gia hàng đầu về tâm thần học pháp y tại Mỹ.",
+    "words": 35
    },
    {
     "id": "3.02#2",
-    "text": "Để bảo vệ tính nghiêm minh của luật pháp, cơ quan công tố bang Florida đã chỉ định Tiến sĩ Charles Scott, một trong những chuyên gia tâm thần học pháp y hàng đầu nước Mỹ, trực tiếp giám định bị cáo.",
-    "words": 42
+    "text": "Nhiệm vụ của ông là giải mã một câu hỏi pháp lý cốt tử: Liệu Nikolas Cruz có thực sự mất nhận thức do loạn thần, hay đây là hành vi giả bệnh có chủ đích?",
+    "words": 36
    },
    {
     "id": "3.02#3",
-    "text": "Sau hàng chục giờ phỏng vấn chuyên sâu, đối chiếu toàn bộ hồ sơ bệnh án từ thuở nhỏ và phân tích các bài kiểm tra tâm lý tiêu chuẩn, sự thật khoa học đã được sáng tỏ.",
-    "words": 38
+    "text": "Tiến sĩ Scott cùng các cộng sự đã dành hàng chục giờ phỏng vấn trực tiếp đối tượng, đồng thời phân tích hàng nghìn trang tài liệu bệnh án và video lưu trữ.",
+    "words": 33
    },
    {
     "id": "3.02#4",
-    "text": "Nikolas Cruz không hề mắc chứng loạn thần hay tâm thần phân liệt, mà hành vi của hắn là biểu hiện kinh điển của hội chứng Giả bệnh tâm thần, trong thuật ngữ y khoa gọi là Malingering.",
-    "words": 38
+    "text": "Kết quả giám định chuyên sâu này đã đặt nền tảng khoa học vững chắc để vạch trần toàn bộ cơ chế ngụy trang tâm lý của bị cáo.",
+    "words": 29
+   },
+   {
+    "id": "3.02#5",
+    "text": "Góc nhìn từ tâm lý học hành vi cho thấy sự khác biệt vô cùng sâu sắc giữa một tâm thần phân liệt thực thụ và hành vi cố tình đóng kịch.",
+    "words": 32
    }
   ]
  },
@@ -570,43 +655,48 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: TS. Charles Scott / Tâm thần học pháp y, giọng điềm đạm, học thuật",
-  "text": "Hội chứng Giả bệnh tâm thần, hay Malingering, được định nghĩa là hành vi cố ý giả tạo hoặc phóng đại các triệu chứng thể chất hoặc tâm thần nhằm đạt được một lợi ích cụ thể. Trong bối cảnh tố tụng hình sự, động cơ lớn nhất của những kẻ giả bệnh là trốn tránh án phạt tù hoặc thoát khỏi bản án tử hình. Có những sự khác biệt bản chất không thể xóa nhòa giữa một người thực sự trải qua cơn loạn thần, hay Psychosis, với một kẻ đang diễn kịch. Người mắc chứng loạn thần thực sự thường trải qua các ảo thanh nội tại rất hỗn loạn, mơ hồ và họ thường cảm thấy kinh sợ, tìm cách chống lại hoặc giấu kín những tiếng nói đó vì xấu hổ. Ngược lại, Nikolas Cruz lại chủ động khoe khoang và sử dụng giọng nói quỷ dữ như một lời biện minh hoàn hảo ngay trong những phút đầu tiên bị cảnh sát bắt giữ. Ảo thanh của hắn xuất hiện một cách vô cùng tiện lợi, chỉ ra lệnh cho hắn thực hiện những hành vi bạo lực có mục đích và hoàn toàn biến mất khi hắn ăn uống hay nghỉ ngơi. Đây là dấu hiệu điển hình của sự mô phỏng triệu chứng vụng về dựa trên những định kiến sai lầm của công chúng về bệnh tâm thần.",
+  "direction": "giọng nữ điềm đạm, học thuật, bóc tách khái niệm Malingering",
+  "text": "Trong thực hành tâm thần học pháp y, thuật ngữ “Malingering” dùng để chỉ hành vi cố tình tạo ra hoặc thổi phồng các triệu chứng tâm thần nhằm đạt được lợi ích cụ thể. Đối với các bị cáo đối mặt với hình phạt nghiêm khắc nhất, động cơ giả bệnh phổ biến nhất là trốn tránh trách nhiệm hình sự hoặc né tránh án phạt cao nhất. Những bệnh nhân thực sự mắc hội chứng loạn thần kinh điển thường trải qua các ảo thanh nội tâm liên tục, phi lý và gắn liền với một hệ thống hoang tưởng cố định. Ngược lại, người giả bệnh như Cruz thường mô tả ảo thanh theo lối mòn phim ảnh kịch tính, ví dụ như tự xưng có con quỷ nói chuyện bằng ngôn ngữ mạch lạc. Điểm mấu chốt là các mệnh lệnh ảo của bệnh nhân thật thường xuất hiện bất thình lình và khiến họ vô cùng đau đớn, kiệt quệ về mặt cảm xúc. Trong khi đó, Cruz chỉ nhắc đến con quỷ khi cần giải thích cho các hành vi phạm pháp, nhưng lại hoàn toàn phớt lờ nó trong các sinh hoạt thường ngày. Sự thiếu nhất quán lâm sàng này là một trong những chỉ báo rõ ràng nhất giúp các chuyên gia phân biệt giữa bệnh lý thật và sự dối trá có toan tính. Chúng tôi kết luận rằng năng lực nhận thức hành vi và khả năng phân biệt đúng sai của đối tượng tại thời điểm gây án hoàn toàn không bị khiếm khuyết.",
   "sentences": [
    {
     "id": "3.03#1",
-    "text": "Hội chứng Giả bệnh tâm thần, hay Malingering, được định nghĩa là hành vi cố ý giả tạo hoặc phóng đại các triệu chứng thể chất hoặc tâm thần nhằm đạt được một lợi ích cụ thể.",
-    "words": 37
+    "text": "Trong thực hành tâm thần học pháp y, thuật ngữ “Malingering” dùng để chỉ hành vi cố tình tạo ra hoặc thổi phồng các triệu chứng tâm thần nhằm đạt được lợi ích cụ thể.",
+    "words": 35
    },
    {
     "id": "3.03#2",
-    "text": "Trong bối cảnh tố tụng hình sự, động cơ lớn nhất của những kẻ giả bệnh là trốn tránh án phạt tù hoặc thoát khỏi bản án tử hình.",
-    "words": 29
-   },
-   {
-    "id": "3.03#3",
-    "text": "Có những sự khác biệt bản chất không thể xóa nhòa giữa một người thực sự trải qua cơn loạn thần, hay Psychosis, với một kẻ đang diễn kịch.",
-    "words": 29
-   },
-   {
-    "id": "3.03#4",
-    "text": "Người mắc chứng loạn thần thực sự thường trải qua các ảo thanh nội tại rất hỗn loạn, mơ hồ và họ thường cảm thấy kinh sợ, tìm cách chống lại hoặc giấu kín những tiếng nói đó vì xấu hổ.",
-    "words": 41
-   },
-   {
-    "id": "3.03#5",
-    "text": "Ngược lại, Nikolas Cruz lại chủ động khoe khoang và sử dụng giọng nói quỷ dữ như một lời biện minh hoàn hảo ngay trong những phút đầu tiên bị cảnh sát bắt giữ.",
+    "text": "Đối với các bị cáo đối mặt với hình phạt nghiêm khắc nhất, động cơ giả bệnh phổ biến nhất là trốn tránh trách nhiệm hình sự hoặc né tránh án phạt cao nhất.",
     "words": 34
    },
    {
+    "id": "3.03#3",
+    "text": "Những bệnh nhân thực sự mắc hội chứng loạn thần kinh điển thường trải qua các ảo thanh nội tâm liên tục, phi lý và gắn liền với một hệ thống hoang tưởng cố định.",
+    "words": 35
+   },
+   {
+    "id": "3.03#4",
+    "text": "Ngược lại, người giả bệnh như Cruz thường mô tả ảo thanh theo lối mòn phim ảnh kịch tính, ví dụ như tự xưng có con quỷ nói chuyện bằng ngôn ngữ mạch lạc.",
+    "words": 34
+   },
+   {
+    "id": "3.03#5",
+    "text": "Điểm mấu chốt là các mệnh lệnh ảo của bệnh nhân thật thường xuất hiện bất thình lình và khiến họ vô cùng đau đớn, kiệt quệ về mặt cảm xúc.",
+    "words": 31
+   },
+   {
     "id": "3.03#6",
-    "text": "Ảo thanh của hắn xuất hiện một cách vô cùng tiện lợi, chỉ ra lệnh cho hắn thực hiện những hành vi bạo lực có mục đích và hoàn toàn biến mất khi hắn ăn uống hay nghỉ ngơi.",
-    "words": 39
+    "text": "Trong khi đó, Cruz chỉ nhắc đến con quỷ khi cần giải thích cho các hành vi phạm pháp, nhưng lại hoàn toàn phớt lờ nó trong các sinh hoạt thường ngày.",
+    "words": 32
    },
    {
     "id": "3.03#7",
-    "text": "Đây là dấu hiệu điển hình của sự mô phỏng triệu chứng vụng về dựa trên những định kiến sai lầm của công chúng về bệnh tâm thần.",
-    "words": 28
+    "text": "Sự thiếu nhất quán lâm sàng này là một trong những chỉ báo rõ ràng nhất giúp các chuyên gia phân biệt giữa bệnh lý thật và sự dối trá có toan tính.",
+    "words": 33
+   },
+   {
+    "id": "3.03#8",
+    "text": "Chúng tôi kết luận rằng năng lực nhận thức hành vi và khả năng phân biệt đúng sai của đối tượng tại thời điểm gây án hoàn toàn không bị khiếm khuyết.",
+    "words": 32
    }
   ]
  },
@@ -615,23 +705,33 @@
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "tiếp nối phân tích về cấu trúc nhân cách thực sự của hung thủ",
-  "text": "Tiến sĩ Charles Scott cũng đã bác bỏ lập luận của bên bào chữa cho rằng bị cáo bị tổn thương não bộ do hội chứng ngộ độc rượu bào thai. Mặc dù Cruz có tiền sử rối loạn hành vi và học lực kém từ nhỏ, nhưng khả năng tư duy thực tế và nhận thức xã hội của hắn hoàn toàn nguyên vẹn. Bản chất tâm lý thực sự chi phối hành vi của kẻ sát nhân nằm ở một cấu trúc nhân cách hoàn toàn khác biệt.",
+  "direction": "phân tích chiều sâu rối loạn nhân cách",
+  "text": "Bên cạnh việc giả vờ loạn thần, hồ sơ tâm lý của Cruz còn bộc lộ những nét đặc trưng rõ nét của Rối loạn nhân cách chống đối xã hội. Đây là một trạng thái tâm lý đặc trưng bởi sự coi thường sâu sắc các chuẩn mực đạo đức, quy định pháp luật và quyền lợi của người khác. Kẻ thủ ác luôn xem bản thân là trung tâm của vũ trụ, đòi hỏi sự chú ý nhưng lại khuyết thiếu hoàn toàn khả năng thấu cảm với nỗi đau đồng loại. Khi bước vào trường học với vũ khí trên tay, hắn không nhìn nhận các học sinh và thầy cô như những cá nhân sống động có cảm xúc và khát vọng. Hắn đã thực hiện cơ chế “vật hóa nạn nhân”, hạ thấp con người thành những con số vô tri nhằm phục vụ cho mục tiêu tìm kiếm sự khét tiếng.",
   "sentences": [
    {
     "id": "3.04#1",
-    "text": "Tiến sĩ Charles Scott cũng đã bác bỏ lập luận của bên bào chữa cho rằng bị cáo bị tổn thương não bộ do hội chứng ngộ độc rượu bào thai.",
+    "text": "Bên cạnh việc giả vờ loạn thần, hồ sơ tâm lý của Cruz còn bộc lộ những nét đặc trưng rõ nét của Rối loạn nhân cách chống đối xã hội.",
     "words": 31
    },
    {
     "id": "3.04#2",
-    "text": "Mặc dù Cruz có tiền sử rối loạn hành vi và học lực kém từ nhỏ, nhưng khả năng tư duy thực tế và nhận thức xã hội của hắn hoàn toàn nguyên vẹn.",
-    "words": 34
+    "text": "Đây là một trạng thái tâm lý đặc trưng bởi sự coi thường sâu sắc các chuẩn mực đạo đức, quy định pháp luật và quyền lợi của người khác.",
+    "words": 30
    },
    {
     "id": "3.04#3",
-    "text": "Bản chất tâm lý thực sự chi phối hành vi của kẻ sát nhân nằm ở một cấu trúc nhân cách hoàn toàn khác biệt.",
-    "words": 25
+    "text": "Kẻ thủ ác luôn xem bản thân là trung tâm của vũ trụ, đòi hỏi sự chú ý nhưng lại khuyết thiếu hoàn toàn khả năng thấu cảm với nỗi đau đồng loại.",
+    "words": 33
+   },
+   {
+    "id": "3.04#4",
+    "text": "Khi bước vào trường học với vũ khí trên tay, hắn không nhìn nhận các học sinh và thầy cô như những cá nhân sống động có cảm xúc và khát vọng.",
+    "words": 32
+   },
+   {
+    "id": "3.04#5",
+    "text": "Hắn đã thực hiện cơ chế “vật hóa nạn nhân”, hạ thấp con người thành những con số vô tri nhằm phục vụ cho mục tiêu tìm kiếm sự khét tiếng.",
+    "words": 31
    }
   ]
  },
@@ -640,43 +740,48 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: Phân tích về Rối loạn nhân cách chống đối xã hội ASPD",
-  "text": "Kết quả đánh giá lâm sàng toàn diện xác định Nikolas Cruz đáp ứng đầy đủ các tiêu chí chẩn đoán của Rối loạn nhân cách chống đối xã hội, hay ASPD, kết hợp với Rối loạn nhân cách ranh giới. Nét tính cách nổi bật của hắn là sự vô cảm hoàn toàn trước nỗi đau của người khác, thiếu hụt lòng trắc ẩn và xu hướng bạo lực leo thang từ thời thơ ấu. Hắn từng có hành vi ngược đãi động vật dã man, bắn chim chóc, đe dọa người thân và nuôi dưỡng một mối thù hằn sâu sắc đối với xã hội sau khi bị đuổi học. Sự cô lập xã hội kết hợp với việc tiếp xúc quá mức với các nội dung bạo lực trực tuyến đã biến lòng căm thù của hắn thành một nỗi ám ảnh trả thù bệnh hoạn. Hắn không hành động vì mất trí nhớ hay bị ma quỷ điều khiển, mà hành động vì muốn trừng phạt những người mà hắn cho rằng đã ruồng bỏ và coi thường mình. Việc lựa chọn ngày lễ tình nhân để ra tay càng khắc sâu động cơ ghen tị và căm ghét hạnh phúc của những người xung quanh. Hắn hoàn toàn nhận thức được tính chất sai trái và bất hợp pháp của hành vi giết người, nhưng hắn vẫn quyết định thực hiện đến cùng.",
+  "direction": "bóc tách kỹ thuật trung hòa đạo đức & tổn thương ái kỷ",
+  "text": "Khiếm khuyết thấu cảm sâu sắc kết hợp với tổn thương ái kỷ là mảnh đất màu mỡ dung dưỡng những hành vi tàn bạo nhất. Để có thể ra tay hủy diệt mà không bị cảm giác tội lỗi ngăn chặn, hung thủ thường sử dụng các kỹ thuật trung hòa đạo đức rất tinh vi. Kỹ thuật đầu tiên là “ngoại hóa trách nhiệm”, tự thuyết phục bản thân rằng mình chỉ là công cụ bị một thế lực siêu nhiên kiểm soát. Kỹ thuật thứ hai là “đổ lỗi cho nạn nhân và môi trường”, biến bản thân thành một kẻ bị cô lập, bị xã hội hắt hủi và bắt nạt để biện minh cho sự trả thù. Cruz luôn nuôi dưỡng mối thù hằn cay độc với ngôi trường đã đình chỉ học tập của mình, biến sự bất mãn cá nhân thành lòng căm thù tập thể. Cơn giận tích tụ lâu ngày không được giải tỏa lành mạnh đã biến thành một dạng ảo tưởng quyền lực bệnh hoạn. Hắn tin rằng việc gieo rắc sự hủy diệt sẽ giúp hắn bước ra khỏi cái bóng của một kẻ thất bại vô danh để trở thành tâm điểm của sự chú ý. Đây là bi kịch của một nhân cách méo mó, nơi sự ái kỷ tiêu cực đã đánh bại hoàn toàn tiếng nói của lương tri và trách nhiệm làm người.",
   "sentences": [
    {
     "id": "3.05#1",
-    "text": "Kết quả đánh giá lâm sàng toàn diện xác định Nikolas Cruz đáp ứng đầy đủ các tiêu chí chẩn đoán của Rối loạn nhân cách chống đối xã hội, hay ASPD, kết hợp với Rối loạn nhân cách ranh giới.",
-    "words": 41
+    "text": "Khiếm khuyết thấu cảm sâu sắc kết hợp với tổn thương ái kỷ là mảnh đất màu mỡ dung dưỡng những hành vi tàn bạo nhất.",
+    "words": 26
    },
    {
     "id": "3.05#2",
-    "text": "Nét tính cách nổi bật của hắn là sự vô cảm hoàn toàn trước nỗi đau của người khác, thiếu hụt lòng trắc ẩn và xu hướng bạo lực leo thang từ thời thơ ấu.",
-    "words": 35
+    "text": "Để có thể ra tay hủy diệt mà không bị cảm giác tội lỗi ngăn chặn, hung thủ thường sử dụng các kỹ thuật trung hòa đạo đức rất tinh vi.",
+    "words": 31
    },
    {
     "id": "3.05#3",
-    "text": "Hắn từng có hành vi ngược đãi động vật dã man, bắn chim chóc, đe dọa người thân và nuôi dưỡng một mối thù hằn sâu sắc đối với xã hội sau khi bị đuổi học.",
-    "words": 36
+    "text": "Kỹ thuật đầu tiên là “ngoại hóa trách nhiệm”, tự thuyết phục bản thân rằng mình chỉ là công cụ bị một thế lực siêu nhiên kiểm soát.",
+    "words": 28
    },
    {
     "id": "3.05#4",
-    "text": "Sự cô lập xã hội kết hợp với việc tiếp xúc quá mức với các nội dung bạo lực trực tuyến đã biến lòng căm thù của hắn thành một nỗi ám ảnh trả thù bệnh hoạn.",
+    "text": "Kỹ thuật thứ hai là “đổ lỗi cho nạn nhân và môi trường”, biến bản thân thành một kẻ bị cô lập, bị xã hội hắt hủi và bắt nạt để biện minh cho sự trả thù.",
     "words": 37
    },
    {
     "id": "3.05#5",
-    "text": "Hắn không hành động vì mất trí nhớ hay bị ma quỷ điều khiển, mà hành động vì muốn trừng phạt những người mà hắn cho rằng đã ruồng bỏ và coi thường mình.",
-    "words": 34
+    "text": "Cruz luôn nuôi dưỡng mối thù hằn cay độc với ngôi trường đã đình chỉ học tập của mình, biến sự bất mãn cá nhân thành lòng căm thù tập thể.",
+    "words": 31
    },
    {
     "id": "3.05#6",
-    "text": "Việc lựa chọn ngày lễ tình nhân để ra tay càng khắc sâu động cơ ghen tị và căm ghét hạnh phúc của những người xung quanh.",
-    "words": 27
+    "text": "Cơn giận tích tụ lâu ngày không được giải tỏa lành mạnh đã biến thành một dạng ảo tưởng quyền lực bệnh hoạn.",
+    "words": 23
    },
    {
     "id": "3.05#7",
-    "text": "Hắn hoàn toàn nhận thức được tính chất sai trái và bất hợp pháp của hành vi giết người, nhưng hắn vẫn quyết định thực hiện đến cùng.",
-    "words": 28
+    "text": "Hắn tin rằng việc gieo rắc sự hủy diệt sẽ giúp hắn bước ra khỏi cái bóng của một kẻ thất bại vô danh để trở thành tâm điểm của sự chú ý.",
+    "words": 33
+   },
+   {
+    "id": "3.05#8",
+    "text": "Đây là bi kịch của một nhân cách méo mó, nơi sự ái kỷ tiêu cực đã đánh bại hoàn toàn tiếng nói của lương tri và trách nhiệm làm người.",
+    "words": 31
    }
   ]
  },
@@ -685,18 +790,33 @@
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "mở rộng sang hiện tượng Notoriety Seeking",
-  "text": "Các chuyên gia tâm lý học tội phạm cũng chỉ ra một hiện tượng tâm lý rất nguy hiểm mang tên Khao khát danh tiếng tiêu cực, hay Notoriety Seeking. Đối với những kẻ có cái tôi yếu đuối và thất bại trong cuộc sống như Cruz, việc trở thành một kẻ sát nhân khét tiếng được xem là cách duy nhất để ghi dấu ấn của bản thân lên thế giới.",
+  "direction": "dẫn dắt quy luật leo thang hành vi",
+  "text": "Quá trình trượt dài của Nikolas Cruz không diễn ra sau một đêm, mà tuân theo một quy luật leo thang hành vi hết sức điển hình. Các nghiên cứu tội phạm học chỉ ra rằng những kẻ tấn công hàng loạt hầu như luôn để lại những dấu vết cảnh báo rải rác từ rất sớm. Ban đầu chỉ là những hành vi xâm phạm ranh giới nhỏ nhặt, nhưng khi không bị chặn đứng, ngưỡng kích thích sẽ liên tục bị đẩy lên cao hơn. Sự trơ lì cảm xúc khiến hung thủ ngày càng cần những hành động bạo lực dữ dội hơn để đạt được cảm giác thỏa mãn tương đương. Hãy cùng nhìn lại chu kỳ leo thang bốn giai đoạn đã dẫn dắt một thiếu niên bất ổn tiến thẳng đến bờ vực của tội ác không thể cứu vãn.",
   "sentences": [
    {
     "id": "3.06#1",
-    "text": "Các chuyên gia tâm lý học tội phạm cũng chỉ ra một hiện tượng tâm lý rất nguy hiểm mang tên Khao khát danh tiếng tiêu cực, hay Notoriety Seeking.",
-    "words": 30
+    "text": "Quá trình trượt dài của Nikolas Cruz không diễn ra sau một đêm, mà tuân theo một quy luật leo thang hành vi hết sức điển hình.",
+    "words": 27
    },
    {
     "id": "3.06#2",
-    "text": "Đối với những kẻ có cái tôi yếu đuối và thất bại trong cuộc sống như Cruz, việc trở thành một kẻ sát nhân khét tiếng được xem là cách duy nhất để ghi dấu ấn của bản thân lên thế giới.",
-    "words": 42
+    "text": "Các nghiên cứu tội phạm học chỉ ra rằng những kẻ tấn công hàng loạt hầu như luôn để lại những dấu vết cảnh báo rải rác từ rất sớm.",
+    "words": 30
+   },
+   {
+    "id": "3.06#3",
+    "text": "Ban đầu chỉ là những hành vi xâm phạm ranh giới nhỏ nhặt, nhưng khi không bị chặn đứng, ngưỡng kích thích sẽ liên tục bị đẩy lên cao hơn.",
+    "words": 30
+   },
+   {
+    "id": "3.06#4",
+    "text": "Sự trơ lì cảm xúc khiến hung thủ ngày càng cần những hành động bạo lực dữ dội hơn để đạt được cảm giác thỏa mãn tương đương.",
+    "words": 28
+   },
+   {
+    "id": "3.06#5",
+    "text": "Hãy cùng nhìn lại chu kỳ leo thang bốn giai đoạn đã dẫn dắt một thiếu niên bất ổn tiến thẳng đến bờ vực của tội ác không thể cứu vãn.",
+    "words": 31
    }
   ]
  },
@@ -705,38 +825,43 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: Tác động của truyền thông và sự ảo tưởng quyền lực",
-  "text": "Trong thời đại bùng nổ thông tin và mạng xã hội, nhiều kẻ thủ ác đã bị ám ảnh bởi sự nổi tiếng của các vụ xả súng hàng loạt trong quá khứ. Nikolas Cruz đã dành nhiều tháng trời để nghiên cứu tỉ mỉ về các vụ thảm sát trường học trước đó, từ cách thức chọn vũ khí cho đến trang phục tác chiến. Hắn muốn vượt qua những kẻ đi trước về số lượng nạn nhân để tên tuổi của mình được truyền thông nhắc đến liên tục trong nhiều năm. Cơn khát khao sự chú ý bệnh hoạn này kết hợp với sự suy đồi đạo đức đã tạo ra một vụ thảm sát được tính toán lạnh lùng. Và màn kịch con quỷ trong đầu chỉ là chương cuối cùng trong vở kịch truyền thông mà hắn tự biên tự diễn nhằm kéo dài sự chú ý của công chúng đối với bản thân. Nhưng sự thật khoa học đã tước bỏ hoàn toàn tấm lá chắn tâm thần giả tạo mà hắn cố công dựng lên.",
+  "direction": "mổ xẻ 4 giai đoạn leo thang & ngòi nổ tâm lý",
+  "text": "Giai đoạn thứ nhất bắt đầu từ thời niên thiếu với những hành vi ngược đãi động vật nhỏ như bắn chim, dọa dẫm vật nuôi của hàng xóm. Giai đoạn thứ hai đánh dấu sự chuyển dịch sang môi trường học đường, nơi đối tượng liên tục đe dọa bạn học, gây gổ và đăng tải hình ảnh vũ khí lên mạng. Giai đoạn thứ ba là sự tích lũy phương tiện thực tế: hắn dùng tiền làm thêm để mua sắm vũ khí hợp pháp, học cách sử dụng và tích trữ trang bị. Cũng trong giai đoạn này, ngòi nổ tâm lý quyết định đã xuất hiện khi mẹ nuôi của hắn, bà Lynda Cruz, đột ngột qua đời vào cuối năm hai nghìn không trăm mười bảy. Mất đi chiếc mỏ neo kiểm soát gia đình cuối cùng, cộng thêm việc bị đuổi học, toàn bộ hệ thống kiềm chế xã hội của đối tượng chính thức sụp đổ. Giai đoạn thứ tư là sự kích hoạt kế hoạch hành động: quay video tuyên ngôn, chuẩn bị trang bị chiến thuật và tiến hành tấn công vào đúng ngày lễ tình nhân. Quỹ đạo bốn bước này là lời nhắc nhở nghiêm khắc về tầm quan trọng của việc nhận diện và can thiệp sớm trước khi quá muộn.",
   "sentences": [
    {
     "id": "3.07#1",
-    "text": "Trong thời đại bùng nổ thông tin và mạng xã hội, nhiều kẻ thủ ác đã bị ám ảnh bởi sự nổi tiếng của các vụ xả súng hàng loạt trong quá khứ.",
-    "words": 33
-   },
-   {
-    "id": "3.07#2",
-    "text": "Nikolas Cruz đã dành nhiều tháng trời để nghiên cứu tỉ mỉ về các vụ thảm sát trường học trước đó, từ cách thức chọn vũ khí cho đến trang phục tác chiến.",
-    "words": 33
-   },
-   {
-    "id": "3.07#3",
-    "text": "Hắn muốn vượt qua những kẻ đi trước về số lượng nạn nhân để tên tuổi của mình được truyền thông nhắc đến liên tục trong nhiều năm.",
-    "words": 28
-   },
-   {
-    "id": "3.07#4",
-    "text": "Cơn khát khao sự chú ý bệnh hoạn này kết hợp với sự suy đồi đạo đức đã tạo ra một vụ thảm sát được tính toán lạnh lùng.",
+    "text": "Giai đoạn thứ nhất bắt đầu từ thời niên thiếu với những hành vi ngược đãi động vật nhỏ như bắn chim, dọa dẫm vật nuôi của hàng xóm.",
     "words": 29
    },
    {
+    "id": "3.07#2",
+    "text": "Giai đoạn thứ hai đánh dấu sự chuyển dịch sang môi trường học đường, nơi đối tượng liên tục đe dọa bạn học, gây gổ và đăng tải hình ảnh vũ khí lên mạng.",
+    "words": 34
+   },
+   {
+    "id": "3.07#3",
+    "text": "Giai đoạn thứ ba là sự tích lũy phương tiện thực tế: hắn dùng tiền làm thêm để mua sắm vũ khí hợp pháp, học cách sử dụng và tích trữ trang bị.",
+    "words": 33
+   },
+   {
+    "id": "3.07#4",
+    "text": "Cũng trong giai đoạn này, ngòi nổ tâm lý quyết định đã xuất hiện khi mẹ nuôi của hắn, bà Lynda Cruz, đột ngột qua đời vào cuối năm hai nghìn không trăm mười bảy.",
+    "words": 35
+   },
+   {
     "id": "3.07#5",
-    "text": "Và màn kịch con quỷ trong đầu chỉ là chương cuối cùng trong vở kịch truyền thông mà hắn tự biên tự diễn nhằm kéo dài sự chú ý của công chúng đối với bản thân.",
-    "words": 36
+    "text": "Mất đi chiếc mỏ neo kiểm soát gia đình cuối cùng, cộng thêm việc bị đuổi học, toàn bộ hệ thống kiềm chế xã hội của đối tượng chính thức sụp đổ.",
+    "words": 32
    },
    {
     "id": "3.07#6",
-    "text": "Nhưng sự thật khoa học đã tước bỏ hoàn toàn tấm lá chắn tâm thần giả tạo mà hắn cố công dựng lên.",
-    "words": 23
+    "text": "Giai đoạn thứ tư là sự kích hoạt kế hoạch hành động: quay video tuyên ngôn, chuẩn bị trang bị chiến thuật và tiến hành tấn công vào đúng ngày lễ tình nhân.",
+    "words": 33
+   },
+   {
+    "id": "3.07#7",
+    "text": "Quỹ đạo bốn bước này là lời nhắc nhở nghiêm khắc về tầm quan trọng của việc nhận diện và can thiệp sớm trước khi quá muộn.",
+    "words": 27
    }
   ]
  },
@@ -745,23 +870,28 @@
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "chốt lại Hồi 3, chuyển sang phân đoạn xét xử pháp lý",
-  "text": "Báo cáo giám định tâm thần pháp y đanh thép của Tiến sĩ Charles Scott đã mở toang cánh cửa đưa Nikolas Cruz ra đối mặt với sự phán xét tối cao của bồi thẩm đoàn. Không còn bất kỳ sự che chở nào của những thực thể vô hình hay sự điên loạn giả tạo. Giờ là lúc kẻ thủ ác phải đứng trước tòa án trần thế để nhận lấy bản án đích đáng cho tội ác mà chính bản thân hắn đã lựa chọn gây ra.",
+  "direction": "tổng kết kết luận lâm sàng trước tòa",
+  "text": "Những phân tích khoa học sắc bén của Tiến sĩ Charles Scott đã tháo dỡ hoàn toàn bức tường ngụy biện mà nhóm luật sư bào chữa cố công dựng lên. Sự thật đã được làm sáng tỏ: Nikolas Cruz là một kẻ hoàn toàn tỉnh táo, làm chủ hành vi và có mục đích rõ ràng khi gây án. Không có sự dung thứ nào dành cho một tội ác được lên kế hoạch chu đáo và tàn nhẫn đến mức triệt tiêu mọi cơ hội sống của nạn nhân. Toàn bộ hồ sơ tâm lý và bằng chứng thực nghiệm giờ đây được chuyển giao cho bồi thẩm đoàn để chuẩn bị cho giờ phút phán quyết của công lý.",
   "sentences": [
    {
     "id": "3.08#1",
-    "text": "Báo cáo giám định tâm thần pháp y đanh thép của Tiến sĩ Charles Scott đã mở toang cánh cửa đưa Nikolas Cruz ra đối mặt với sự phán xét tối cao của bồi thẩm đoàn.",
-    "words": 36
+    "text": "Những phân tích khoa học sắc bén của Tiến sĩ Charles Scott đã tháo dỡ hoàn toàn bức tường ngụy biện mà nhóm luật sư bào chữa cố công dựng lên.",
+    "words": 31
    },
    {
     "id": "3.08#2",
-    "text": "Không còn bất kỳ sự che chở nào của những thực thể vô hình hay sự điên loạn giả tạo.",
-    "words": 20
+    "text": "Sự thật đã được làm sáng tỏ: Nikolas Cruz là một kẻ hoàn toàn tỉnh táo, làm chủ hành vi và có mục đích rõ ràng khi gây án.",
+    "words": 29
    },
    {
     "id": "3.08#3",
-    "text": "Giờ là lúc kẻ thủ ác phải đứng trước tòa án trần thế để nhận lấy bản án đích đáng cho tội ác mà chính bản thân hắn đã lựa chọn gây ra.",
-    "words": 33
+    "text": "Không có sự dung thứ nào dành cho một tội ác được lên kế hoạch chu đáo và tàn nhẫn đến mức triệt tiêu mọi cơ hội sống của nạn nhân.",
+    "words": 31
+   },
+   {
+    "id": "3.08#4",
+    "text": "Toàn bộ hồ sơ tâm lý và bằng chứng thực nghiệm giờ đây được chuyển giao cho bồi thẩm đoàn để chuẩn bị cho giờ phút phán quyết của công lý.",
+    "words": 31
    }
   ]
  },
@@ -769,50 +899,50 @@
   "id": "3.09",
   "act": 3,
   "kind": "BGM",
-  "desc": "*Giai điệu piano chuyển dần sang âm sắc trầm hùng, chuẩn bị cho không khí trang nghiêm của phòng xét xử.*"
+  "desc": "*Nhạc chuyển cảnh sâu lắng, chuẩn bị bước vào không gian phòng xử án.*"
  },
  {
   "id": "4.01",
   "act": 4,
   "kind": "BGM",
-  "desc": "*Tiếng Violin căng thẳng, tiếng gõ búa tòa án khô khốc vang dội trong không gian trang nghiêm.*"
+  "desc": "*Tiếng Cello giằng xé kết hợp tiếng đàn vĩ cầm nghẹn ngào, tái hiện không khí trang nghiêm và đau đớn tột cùng nơi phòng xử án.*"
  },
  {
   "id": "4.02",
   "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "tái hiện phiên tòa xét xử lịch sử",
-  "text": "Trước những bằng chứng không thể chối cãi của cơ quan điều tra, ngày 20 tháng 10 năm 2021, Nikolas Cruz đã buộc phải cúi đầu nhận tội đối với toàn bộ mười bảy tội danh Giết người có suy tính trước và mười bảy tội danh Âm mưu giết người. Phiên tòa lượng hình diễn ra vào mùa hè năm 2022 tại Tòa án Hạt Broward dưới sự chủ tọa của Thẩm phán Elizabeth Scherer đã trở thành tâm điểm chú ý của toàn nước Mỹ. Mục tiêu duy nhất của phiên tòa này là quyết định mức án tối hậu dành cho bị cáo: Bản án tử hình hay Tù chung thân không có cơ hội ân xá. Suốt ba tháng ròng rã, bồi thẩm đoàn đã phải lắng nghe những lời khai đau xót thấu tận tâm can của các nhân chứng, giáo viên và thân nhân của mười bảy nạn nhân đã khuất. Mỗi câu chuyện là một mảnh đời tươi đẹp bị tước đoạt tàn bạo, để lại những khoảng trống vĩnh viễn không thể lấp đầy trong lòng những người ở lại. Trước những giọt nước mắt nghẹn ngào của các gia đình, Nikolas Cruz ngồi bất động, cúi gầm mặt xuống bàn để né tránh những ánh nhìn phẫn nộ từ khán phòng.",
+  "direction": "trang nghiêm, tái hiện phiên tòa lịch sử",
+  "text": "Mùa thu năm hai nghìn không trăm hai mươi hai, tại Tòa án Hạt Broward thuộc bang Florida, phiên tòa luận tội Nikolas Cruz chính thức bước vào giai đoạn quyết định. Trước đó, bị cáo đã buộc phải nhận tội đối với mười bảy tội danh gây ra sự ra đi của các nạn nhân và mười bảy tội danh cố ý gây hại đối với những người sống sót. Tâm điểm của toàn bộ tiến trình tố tụng lúc này tập trung vào mức án mà hắn phải đối mặt: Án phạt cao nhất hay Tù chung thân không ân xá. Suốt nhiều tháng ròng, phòng xử án ngập tràn trong nước mắt khi thân nhân của mười bảy nạn nhân lần lượt bước lên bục nhân chứng. Họ mang theo di ảnh của những người con, người thầy đã mãi mãi ra đi, kể lại những ước mơ dang dở bị dập tắt bởi một kẻ tàn bạo. Trước sự phẫn nộ và nỗi đau xé lòng của cộng đồng, Nikolas Cruz chỉ ngồi bất động, cúi gằm mặt để né tránh những ánh nhìn nghiêm khắc của công lý.",
   "sentences": [
    {
     "id": "4.02#1",
-    "text": "Trước những bằng chứng không thể chối cãi của cơ quan điều tra, ngày 20 tháng 10 năm 2021, Nikolas Cruz đã buộc phải cúi đầu nhận tội đối với toàn bộ mười bảy tội danh Giết người có suy tính trước và mười bảy tội danh Âm mưu giết người.",
-    "words": 51
+    "text": "Mùa thu năm hai nghìn không trăm hai mươi hai, tại Tòa án Hạt Broward thuộc bang Florida, phiên tòa luận tội Nikolas Cruz chính thức bước vào giai đoạn quyết định.",
+    "words": 32
    },
    {
     "id": "4.02#2",
-    "text": "Phiên tòa lượng hình diễn ra vào mùa hè năm 2022 tại Tòa án Hạt Broward dưới sự chủ tọa của Thẩm phán Elizabeth Scherer đã trở thành tâm điểm chú ý của toàn nước Mỹ.",
-    "words": 36
+    "text": "Trước đó, bị cáo đã buộc phải nhận tội đối với mười bảy tội danh gây ra sự ra đi của các nạn nhân và mười bảy tội danh cố ý gây hại đối với những người sống sót.",
+    "words": 39
    },
    {
     "id": "4.02#3",
-    "text": "Mục tiêu duy nhất của phiên tòa này là quyết định mức án tối hậu dành cho bị cáo: Bản án tử hình hay Tù chung thân không có cơ hội ân xá.",
-    "words": 33
+    "text": "Tâm điểm của toàn bộ tiến trình tố tụng lúc này tập trung vào mức án mà hắn phải đối mặt: Án phạt cao nhất hay Tù chung thân không ân xá.",
+    "words": 32
    },
    {
     "id": "4.02#4",
-    "text": "Suốt ba tháng ròng rã, bồi thẩm đoàn đã phải lắng nghe những lời khai đau xót thấu tận tâm can của các nhân chứng, giáo viên và thân nhân của mười bảy nạn nhân đã khuất.",
-    "words": 37
+    "text": "Suốt nhiều tháng ròng, phòng xử án ngập tràn trong nước mắt khi thân nhân của mười bảy nạn nhân lần lượt bước lên bục nhân chứng.",
+    "words": 27
    },
    {
     "id": "4.02#5",
-    "text": "Mỗi câu chuyện là một mảnh đời tươi đẹp bị tước đoạt tàn bạo, để lại những khoảng trống vĩnh viễn không thể lấp đầy trong lòng những người ở lại.",
+    "text": "Họ mang theo di ảnh của những người con, người thầy đã mãi mãi ra đi, kể lại những ước mơ dang dở bị dập tắt bởi một kẻ tàn bạo.",
     "words": 31
    },
    {
     "id": "4.02#6",
-    "text": "Trước những giọt nước mắt nghẹn ngào của các gia đình, Nikolas Cruz ngồi bất động, cúi gầm mặt xuống bàn để né tránh những ánh nhìn phẫn nộ từ khán phòng.",
+    "text": "Trước sự phẫn nộ và nỗi đau xé lòng của cộng đồng, Nikolas Cruz chỉ ngồi bất động, cúi gằm mặt để né tránh những ánh nhìn nghiêm khắc của công lý.",
     "words": 32
    }
   ]
@@ -821,35 +951,40 @@
   "id": "4.03",
   "act": 4,
   "kind": "SFX",
-  "desc": "*Tiếng búa tòa án gõ xuống bàn dứt khoát ba tiếng, tiếng xì xào căng thẳng của phòng xử án.*"
+  "desc": "*Tiếng gõ búa tòa đanh thép vang vọng giữa phòng xử án tĩnh lặng, tiếng xào xạc của văn bản phán quyết.*"
  },
  {
   "id": "4.04",
   "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "khoảnh khắc phán quyết gây tranh cãi của bồi thẩm đoàn",
-  "text": "Ngày 13 tháng 10 năm 2022, bồi thẩm đoàn gồm mười hai thành viên đã đưa ra phán quyết sau nhiều ngày nghị án căng thẳng. Theo luật pháp bang Florida thời điểm đó, án tử hình đòi hỏi sự đồng thuận tuyệt đối của toàn bộ mười hai bồi thẩm viên. Mặc dù phần lớn thành viên ủng hộ mức án tử hình đối với tội ác tàn khốc này, ba bồi thẩm viên đã bỏ phiếu chống do cân nhắc các yếu tố sức khỏe tâm thần thời thơ ấu, khiến bồi thẩm đoàn buộc phải đề nghị mức án Tù chung thân không có cơ hội ân xá. Phán quyết này đã gây ra một làn sóng thất vọng và đau đớn tột cùng đối với gia đình các nạn nhân, những người đã mòn mỏi chờ đợi một bản án nghiêm khắc nhất.",
+  "direction": "phân tích cơ chế bồi thẩm đoàn và kết quả bỏ phiếu",
+  "text": "Luật pháp bang Florida vào thời điểm đó quy định một nguyên tắc vô cùng khắt khe đối với án phạt cao nhất: Bồi thẩm đoàn phải đạt được sự đồng thuận tuyệt đối mười hai trên mười hai phiếu. Chỉ cần một lá phiếu phản đối duy nhất, mức án mặc định sẽ tự động chuyển thành tù chung thân mà không bao giờ có cơ hội được xem xét ân xá. Sau nhiều ngày nghị án căng thẳng, bồi thẩm đoàn đã đưa ra một kết quả gây chấn động dư luận: Có ba bồi thẩm viên bỏ phiếu chống lại án phạt tử hình. Lý do được đưa ra là những yếu tố giảm nhẹ liên quan đến tiền sử rối loạn phát triển thần kinh và chấn thương tâm lý từ thời thơ ấu của bị cáo. Phán quyết này đã ngay lập tức tạo nên một làn sóng thất vọng và đau xót tột độ đối với các gia đình nạn nhân đang mong mỏi sự trừng phạt cao nhất.",
   "sentences": [
    {
     "id": "4.04#1",
-    "text": "Ngày 13 tháng 10 năm 2022, bồi thẩm đoàn gồm mười hai thành viên đã đưa ra phán quyết sau nhiều ngày nghị án căng thẳng.",
-    "words": 26
+    "text": "Luật pháp bang Florida vào thời điểm đó quy định một nguyên tắc vô cùng khắt khe đối với án phạt cao nhất: Bồi thẩm đoàn phải đạt được sự đồng thuận tuyệt đối mười hai trên mười hai phiếu.",
+    "words": 40
    },
    {
     "id": "4.04#2",
-    "text": "Theo luật pháp bang Florida thời điểm đó, án tử hình đòi hỏi sự đồng thuận tuyệt đối của toàn bộ mười hai bồi thẩm viên.",
-    "words": 26
+    "text": "Chỉ cần một lá phiếu phản đối duy nhất, mức án mặc định sẽ tự động chuyển thành tù chung thân mà không bao giờ có cơ hội được xem xét ân xá.",
+    "words": 33
    },
    {
     "id": "4.04#3",
-    "text": "Mặc dù phần lớn thành viên ủng hộ mức án tử hình đối với tội ác tàn khốc này, ba bồi thẩm viên đã bỏ phiếu chống do cân nhắc các yếu tố sức khỏe tâm thần thời thơ ấu, khiến bồi thẩm đoàn buộc phải đề nghị mức án Tù chung thân không có cơ hội ân xá.",
-    "words": 59
+    "text": "Sau nhiều ngày nghị án căng thẳng, bồi thẩm đoàn đã đưa ra một kết quả gây chấn động dư luận: Có ba bồi thẩm viên bỏ phiếu chống lại án phạt tử hình.",
+    "words": 34
    },
    {
     "id": "4.04#4",
-    "text": "Phán quyết này đã gây ra một làn sóng thất vọng và đau đớn tột cùng đối với gia đình các nạn nhân, những người đã mòn mỏi chờ đợi một bản án nghiêm khắc nhất.",
-    "words": 36
+    "text": "Lý do được đưa ra là những yếu tố giảm nhẹ liên quan đến tiền sử rối loạn phát triển thần kinh và chấn thương tâm lý từ thời thơ ấu của bị cáo.",
+    "words": 34
+   },
+   {
+    "id": "4.04#5",
+    "text": "Phán quyết này đã ngay lập tức tạo nên một làn sóng thất vọng và đau xót tột độ đối với các gia đình nạn nhân đang mong mỏi sự trừng phạt cao nhất.",
+    "words": 34
    }
   ]
  },
@@ -857,45 +992,45 @@
   "id": "4.05",
   "act": 4,
   "kind": "SFX",
-  "desc": "*Tiếng thở dài nghẹn ngào, tiếng micro phát biểu rung nhẹ của các phụ huynh.*"
+  "desc": "*Tiếng thở dài nén đau thương trong phòng xử án, tiếng nghẹn ngào của thân nhân nạn nhân khi nghe tuyên án.*"
  },
  {
   "id": "4.06",
   "act": 4,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Diễn biến phiên tòa tuyên án chính thức",
-  "text": "Ngày 2 tháng 11 năm 2022, Thẩm phán Elizabeth Scherer đã chính thức tổ chức phiên tòa tuyên án theo đề nghị của bồi thẩm đoàn. Trước khi tuyên án, thẩm phán đã cho phép thân nhân của các nạn nhân được trực tiếp đối mặt và phát biểu trước mặt kẻ sát nhân. Hàng chục người cha, người mẹ đã bước lên bục nhân chứng, trút hết nỗi đau đớn, sự căm phẫn và vạch trần bản chất đê hèn của Nikolas Cruz. Họ gọi hắn là một con quỷ dữ thực sự bằng xương bằng thịt, một kẻ sát nhân hèn nhát đã giả vờ điên loạn để trốn tránh cái chết. Đó là những giờ phút trang nghiêm và xúc động nhất trong lịch sử tư pháp của bang Florida. Kẻ thủ ác đã phải ngồi nghe từng lời kết tội đanh thép mà không có bất kỳ quyền phản kháng nào.",
+  "direction": "giọng trầm buồn nhưng kiên định về sự nghiêm minh",
+  "text": "Khi chứng kiến phán quyết của bồi thẩm đoàn, toàn bộ đội ngũ điều tra và công tố viên chúng tôi đều cảm nhận được nỗi đau đớn vô bờ của các gia đình. Chúng tôi đã nỗ lực chứng minh từng tình tiết tăng nặng: Tính chất tàn bạo dã man, sự chuẩn bị tính toán từ trước và hành vi hoàn toàn có ý thức của bị cáo. Tuy nhiên, chúng tôi tôn trọng quy trình tư pháp và những nguyên tắc bảo vệ quyền con người được hiến pháp quy định chặt chẽ. Dù thoát khỏi mức án cao nhất, Nikolas Cruz sẽ phải trả một cái giá đắt không kém cho toàn bộ phần đời còn lại của mình. Hắn sẽ bị giam giữ vĩnh viễn trong một nhà tù an ninh tối đa, bị tước đoạt toàn bộ tự do và hoàn toàn bị cô lập khỏi thế giới bên ngoài. Không một ngày nào trong suốt cuộc đời hắn còn có thể nhìn thấy ánh sáng của tự do hay sự tha thứ từ xã hội.",
   "sentences": [
    {
     "id": "4.06#1",
-    "text": "Ngày 2 tháng 11 năm 2022, Thẩm phán Elizabeth Scherer đã chính thức tổ chức phiên tòa tuyên án theo đề nghị của bồi thẩm đoàn.",
-    "words": 26
+    "text": "Khi chứng kiến phán quyết của bồi thẩm đoàn, toàn bộ đội ngũ điều tra và công tố viên chúng tôi đều cảm nhận được nỗi đau đớn vô bờ của các gia đình.",
+    "words": 34
    },
    {
     "id": "4.06#2",
-    "text": "Trước khi tuyên án, thẩm phán đã cho phép thân nhân của các nạn nhân được trực tiếp đối mặt và phát biểu trước mặt kẻ sát nhân.",
-    "words": 28
+    "text": "Chúng tôi đã nỗ lực chứng minh từng tình tiết tăng nặng: Tính chất tàn bạo dã man, sự chuẩn bị tính toán từ trước và hành vi hoàn toàn có ý thức của bị cáo.",
+    "words": 36
    },
    {
     "id": "4.06#3",
-    "text": "Hàng chục người cha, người mẹ đã bước lên bục nhân chứng, trút hết nỗi đau đớn, sự căm phẫn và vạch trần bản chất đê hèn của Nikolas Cruz.",
-    "words": 30
+    "text": "Tuy nhiên, chúng tôi tôn trọng quy trình tư pháp và những nguyên tắc bảo vệ quyền con người được hiến pháp quy định chặt chẽ.",
+    "words": 26
    },
    {
     "id": "4.06#4",
-    "text": "Họ gọi hắn là một con quỷ dữ thực sự bằng xương bằng thịt, một kẻ sát nhân hèn nhát đã giả vờ điên loạn để trốn tránh cái chết.",
-    "words": 30
+    "text": "Dù thoát khỏi mức án cao nhất, Nikolas Cruz sẽ phải trả một cái giá đắt không kém cho toàn bộ phần đời còn lại của mình.",
+    "words": 27
    },
    {
     "id": "4.06#5",
-    "text": "Đó là những giờ phút trang nghiêm và xúc động nhất trong lịch sử tư pháp của bang Florida.",
-    "words": 19
+    "text": "Hắn sẽ bị giam giữ vĩnh viễn trong một nhà tù an ninh tối đa, bị tước đoạt toàn bộ tự do và hoàn toàn bị cô lập khỏi thế giới bên ngoài.",
+    "words": 33
    },
    {
     "id": "4.06#6",
-    "text": "Kẻ thủ ác đã phải ngồi nghe từng lời kết tội đanh thép mà không có bất kỳ quyền phản kháng nào.",
-    "words": 22
+    "text": "Không một ngày nào trong suốt cuộc đời hắn còn có thể nhìn thấy ánh sáng của tự do hay sự tha thứ từ xã hội.",
+    "words": 26
    }
   ]
  },
@@ -903,30 +1038,40 @@
   "id": "4.07",
   "act": 4,
   "kind": "SFX",
-  "desc": "*Tiếng gõ búa tòa án vang lên đanh thép, tiếng thở phào nhẹ nhõm lẫn nghẹn ngào từ hàng ghế khán phòng.*"
+  "desc": "*Tiếng micro tòa án bật mở rè nhẹ, tiếng đọc bản án trang nghiêm của Thẩm phán Elizabeth Scherer.*"
  },
  {
   "id": "4.08",
   "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "lời tuyên án đanh thép của Thẩm phán Elizabeth Scherer",
-  "text": "Lời phán quyết của Thẩm phán Elizabeth Scherer vang lên đanh thép giữa sự im lặng tuyệt đối của phòng xử án chật kín người. Bà đã chính thức tuyên phạt Nikolas Cruz ba mươi tư bản án tù chung thân liên tiếp mà không có cơ hội ân xá, bao gồm mười bảy bản án cho các sinh mệnh đã mất và mười bảy bản án cho các nạn nhân bị thương tích. Cánh cửa nhà tù an ninh nghiêm ngặt đã vĩnh viễn khép lại phía sau lưng kẻ sát nhân hai mươi tư tuổi.",
+  "direction": "tuyên đọc bản án chính thức",
+  "text": "Ngày 2 tháng 11 năm hai nghìn không trăm hai mươi hai, Thẩm phán Elizabeth Scherer chính thức tuyên đọc bản án cuối cùng dành cho kẻ thủ ác. Bà tuyên phạt Nikolas Cruz ba mươi tư bản án tù chung thân liên tiếp không có bất kỳ cơ hội nào được ân xá hoặc giảm án. Mười bảy bản án chung thân cho mười bảy sinh mạng vô tội đã ngã xuống, và mười bảy bản án chung thân cho mười bảy nạn nhân mang thương tật suốt đời. Đây là một trong những mức án tù dài nhất từng được tuyên phạt trong lịch sử tư pháp của bang Florida. Trong giây phút lắng nghe bản án được tuyên, chiếc mặt nạ ngụy trang cuối cùng của kẻ tội phạm hàng loạt chính thức vỡ tan thành từng mảnh.",
   "sentences": [
    {
     "id": "4.08#1",
-    "text": "Lời phán quyết của Thẩm phán Elizabeth Scherer vang lên đanh thép giữa sự im lặng tuyệt đối của phòng xử án chật kín người.",
-    "words": 25
+    "text": "Ngày 2 tháng 11 năm hai nghìn không trăm hai mươi hai, Thẩm phán Elizabeth Scherer chính thức tuyên đọc bản án cuối cùng dành cho kẻ thủ ác.",
+    "words": 29
    },
    {
     "id": "4.08#2",
-    "text": "Bà đã chính thức tuyên phạt Nikolas Cruz ba mươi tư bản án tù chung thân liên tiếp mà không có cơ hội ân xá, bao gồm mười bảy bản án cho các sinh mệnh đã mất và mười bảy bản án cho các nạn nhân bị thương tích.",
-    "words": 49
+    "text": "Bà tuyên phạt Nikolas Cruz ba mươi tư bản án tù chung thân liên tiếp không có bất kỳ cơ hội nào được ân xá hoặc giảm án.",
+    "words": 28
    },
    {
     "id": "4.08#3",
-    "text": "Cánh cửa nhà tù an ninh nghiêm ngặt đã vĩnh viễn khép lại phía sau lưng kẻ sát nhân hai mươi tư tuổi.",
-    "words": 23
+    "text": "Mười bảy bản án chung thân cho mười bảy sinh mạng vô tội đã ngã xuống, và mười bảy bản án chung thân cho mười bảy nạn nhân mang thương tật suốt đời.",
+    "words": 33
+   },
+   {
+    "id": "4.08#4",
+    "text": "Đây là một trong những mức án tù dài nhất từng được tuyên phạt trong lịch sử tư pháp của bang Florida.",
+    "words": 22
+   },
+   {
+    "id": "4.08#5",
+    "text": "Trong giây phút lắng nghe bản án được tuyên, chiếc mặt nạ ngụy trang cuối cùng của kẻ tội phạm hàng loạt chính thức vỡ tan thành từng mảnh.",
+    "words": 29
    }
   ]
  },
@@ -935,48 +1080,38 @@
   "act": 4,
   "kind": "LOI",
   "role": "N",
-  "direction": "N2: Thành viên Bồi thẩm đoàn Hạt Broward, giọng nữ trầm tĩnh, nghiêm nghị",
-  "text": "Ngồi trên hàng ghế bồi thẩm đoàn suốt nhiều tháng trời là thử thách tâm lý nặng nề nhất trong cuộc đời của mỗi chúng tôi. Chúng tôi phải xem đi xem lại những đoạn băng ghi hình hiện trường, những hình ảnh pháp y mà không một con người bình thường nào muốn nhìn thấy. Không có một ai trong chúng tôi tin vào câu chuyện con quỷ trong đầu mà bị cáo đã rêu rao trong phòng thẩm vấn. Bằng chứng của Tiến sĩ Charles Scott và những đoạn video tự quay đã chứng minh một sự toan tính lạnh lùng, tỉnh táo và tàn nhẫn đến ghê rợn. Mặc dù quyết định chung cuộc không thể đem lại mức án tử hình do sự bất đồng quan điểm của ba thành viên, chúng tôi biết rằng công lý đã tước bỏ hoàn toàn quyền tự do của hắn. Hắn sẽ phải sống từng ngày trong bốn bức tường bê tông lạnh lẽo, đối diện với sự cô độc và sự nguyền rủa của xã hội cho đến hơi thở cuối cùng. Đó là sự trừng phạt kéo dài suốt cả cuộc đời dành cho một kẻ đã nhẫn tâm hủy hoại tương lai của biết bao gia đình vô tội. Tôi hy vọng rằng bản án này sẽ giúp khép lại phần nào nỗi đau và giúp các gia đình bắt đầu hành trình hàn gắn vết thương.",
+  "direction": "N2: Người quan sát phiên tòa / Thành viên cộng đồng, giọng trầm tĩnh, nghiêm nghị",
+  "text": "Hãy lắng nghe nỗi niềm trăn trở của những người đã trực tiếp ngồi tại phòng xử án trong những ngày tháng cân não ấy. Chúng tôi đã phải đối diện trực tiếp với những bằng chứng đau thương nhất, lắng nghe từng lời khai nghẹn ngào mà không được phép để cảm xúc chi phối. Quyết định về số phận của một con người, dù là một kẻ đã gây ra tội ác tày trời, luôn là gánh nặng đạo đức khủng khiếp nhất. Dù một số bồi thẩm viên lựa chọn mức án chung thân dựa trên luật pháp, không ai trong chúng tôi có thể tha thứ cho những gì hắn đã gây ra. Nỗi đau của những người cha, người mẹ mất con tại phiên tòa sẽ mãi mãi là vết sẹo khắc sâu trong tâm trí của tất cả những người tham dự. Bản án ba mươi tư án chung thân là lời khẳng định dứt khoát rằng công lý sẽ không bao giờ lùi bước trước bất kỳ hành vi bạo lực nào.",
   "sentences": [
    {
     "id": "4.09#1",
-    "text": "Ngồi trên hàng ghế bồi thẩm đoàn suốt nhiều tháng trời là thử thách tâm lý nặng nề nhất trong cuộc đời của mỗi chúng tôi.",
-    "words": 26
-   },
-   {
-    "id": "4.09#2",
-    "text": "Chúng tôi phải xem đi xem lại những đoạn băng ghi hình hiện trường, những hình ảnh pháp y mà không một con người bình thường nào muốn nhìn thấy.",
-    "words": 30
-   },
-   {
-    "id": "4.09#3",
-    "text": "Không có một ai trong chúng tôi tin vào câu chuyện con quỷ trong đầu mà bị cáo đã rêu rao trong phòng thẩm vấn.",
+    "text": "Hãy lắng nghe nỗi niềm trăn trở của những người đã trực tiếp ngồi tại phòng xử án trong những ngày tháng cân não ấy.",
     "words": 25
    },
    {
-    "id": "4.09#4",
-    "text": "Bằng chứng của Tiến sĩ Charles Scott và những đoạn video tự quay đã chứng minh một sự toan tính lạnh lùng, tỉnh táo và tàn nhẫn đến ghê rợn.",
-    "words": 30
+    "id": "4.09#2",
+    "text": "Chúng tôi đã phải đối diện trực tiếp với những bằng chứng đau thương nhất, lắng nghe từng lời khai nghẹn ngào mà không được phép để cảm xúc chi phối.",
+    "words": 31
    },
    {
-    "id": "4.09#5",
-    "text": "Mặc dù quyết định chung cuộc không thể đem lại mức án tử hình do sự bất đồng quan điểm của ba thành viên, chúng tôi biết rằng công lý đã tước bỏ hoàn toàn quyền tự do của hắn.",
-    "words": 40
-   },
-   {
-    "id": "4.09#6",
-    "text": "Hắn sẽ phải sống từng ngày trong bốn bức tường bê tông lạnh lẽo, đối diện với sự cô độc và sự nguyền rủa của xã hội cho đến hơi thở cuối cùng.",
-    "words": 33
-   },
-   {
-    "id": "4.09#7",
-    "text": "Đó là sự trừng phạt kéo dài suốt cả cuộc đời dành cho một kẻ đã nhẫn tâm hủy hoại tương lai của biết bao gia đình vô tội.",
+    "id": "4.09#3",
+    "text": "Quyết định về số phận của một con người, dù là một kẻ đã gây ra tội ác tày trời, luôn là gánh nặng đạo đức khủng khiếp nhất.",
     "words": 29
    },
    {
-    "id": "4.09#8",
-    "text": "Tôi hy vọng rằng bản án này sẽ giúp khép lại phần nào nỗi đau và giúp các gia đình bắt đầu hành trình hàn gắn vết thương.",
-    "words": 28
+    "id": "4.09#4",
+    "text": "Dù một số bồi thẩm viên lựa chọn mức án chung thân dựa trên luật pháp, không ai trong chúng tôi có thể tha thứ cho những gì hắn đã gây ra.",
+    "words": 32
+   },
+   {
+    "id": "4.09#5",
+    "text": "Nỗi đau của những người cha, người mẹ mất con tại phiên tòa sẽ mãi mãi là vết sẹo khắc sâu trong tâm trí của tất cả những người tham dự.",
+    "words": 31
+   },
+   {
+    "id": "4.09#6",
+    "text": "Bản án ba mươi tư án chung thân là lời khẳng định dứt khoát rằng công lý sẽ không bao giờ lùi bước trước bất kỳ hành vi bạo lực nào.",
+    "words": 31
    }
   ]
  },
@@ -985,33 +1120,33 @@
   "act": 4,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Di sản điều tra và bài học thực thi pháp luật",
-  "text": "Vụ án Parkland đã trở thành một dấu mốc đau thương nhưng vô cùng quan trọng trong lịch sử ngành điều tra và tư pháp hình sự. Nó chứng minh rằng mọi nỗ lực giả bệnh tâm thần để trốn tội đều sẽ bị bóc trần trước sự kết hợp chặt chẽ giữa nghiệp vụ hỏi cung sắc bén và khoa học pháp y tâm thần học. Bản án ba mươi tư án chung thân liên tiếp đảm bảo rằng kẻ thủ ác sẽ không bao giờ còn cơ hội nhìn thấy ánh sáng mặt trời tự do thêm một lần nào nữa. Nikolas Cruz hiện đang thụ án tại Trại giam Bang Florida, nơi hắn bị cách ly hoàn toàn và giám sát nghiêm ngặt suốt ngày đêm. Công lý đã được thực thi để bảo vệ sự thật và trả lại sự tôn nghiêm cho mười bảy linh hồn vô tội.",
+  "direction": "nêu bật bước ngoặt cải cách luật pháp",
+  "text": "Một hệ quả pháp lý vô cùng quan trọng đã ra đời trực tiếp từ dư chấn của phiên tòa lịch sử này. Nhận thấy sự bất cập của quy định đồng thuận tuyệt đối mười hai phiếu, các nhà lập pháp bang Florida đã nhanh chóng vào cuộc. Vào mùa xuân năm hai nghìn không trăm hai mươi ba, bang Florida đã chính thức ký ban hành luật sửa đổi quy trình xét xử hình sự đặc biệt. Theo quy định mới, chỉ cần tám trên mười hai bồi thẩm viên bỏ phiếu tán thành là mức án cao nhất đã có thể được đề xuất áp dụng. Sự thay đổi pháp lý sâu sắc này cho thấy vụ án Parkland đã làm thay đổi vĩnh viễn diện mạo tư pháp hình sự của cả một tiểu bang.",
   "sentences": [
    {
     "id": "4.10#1",
-    "text": "Vụ án Parkland đã trở thành một dấu mốc đau thương nhưng vô cùng quan trọng trong lịch sử ngành điều tra và tư pháp hình sự.",
-    "words": 27
+    "text": "Một hệ quả pháp lý vô cùng quan trọng đã ra đời trực tiếp từ dư chấn của phiên tòa lịch sử này.",
+    "words": 23
    },
    {
     "id": "4.10#2",
-    "text": "Nó chứng minh rằng mọi nỗ lực giả bệnh tâm thần để trốn tội đều sẽ bị bóc trần trước sự kết hợp chặt chẽ giữa nghiệp vụ hỏi cung sắc bén và khoa học pháp y tâm thần học.",
-    "words": 40
-   },
-   {
-    "id": "4.10#3",
-    "text": "Bản án ba mươi tư án chung thân liên tiếp đảm bảo rằng kẻ thủ ác sẽ không bao giờ còn cơ hội nhìn thấy ánh sáng mặt trời tự do thêm một lần nào nữa.",
-    "words": 36
-   },
-   {
-    "id": "4.10#4",
-    "text": "Nikolas Cruz hiện đang thụ án tại Trại giam Bang Florida, nơi hắn bị cách ly hoàn toàn và giám sát nghiêm ngặt suốt ngày đêm.",
+    "text": "Nhận thấy sự bất cập của quy định đồng thuận tuyệt đối mười hai phiếu, các nhà lập pháp bang Florida đã nhanh chóng vào cuộc.",
     "words": 26
    },
    {
+    "id": "4.10#3",
+    "text": "Vào mùa xuân năm hai nghìn không trăm hai mươi ba, bang Florida đã chính thức ký ban hành luật sửa đổi quy trình xét xử hình sự đặc biệt.",
+    "words": 30
+   },
+   {
+    "id": "4.10#4",
+    "text": "Theo quy định mới, chỉ cần tám trên mười hai bồi thẩm viên bỏ phiếu tán thành là mức án cao nhất đã có thể được đề xuất áp dụng.",
+    "words": 30
+   },
+   {
     "id": "4.10#5",
-    "text": "Công lý đã được thực thi để bảo vệ sự thật và trả lại sự tôn nghiêm cho mười bảy linh hồn vô tội.",
-    "words": 24
+    "text": "Sự thay đổi pháp lý sâu sắc này cho thấy vụ án Parkland đã làm thay đổi vĩnh viễn diện mạo tư pháp hình sự của cả một tiểu bang.",
+    "words": 30
    }
   ]
  },
@@ -1020,22 +1155,32 @@
   "act": 4,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: Đúc kết về sự thất bại của cơ chế ngụy biện tâm thần",
-  "text": "Hồ sơ Nikolas Cruz là một bài học kinh điển cho các chuyên gia tâm thần học pháp y trên toàn thế giới về việc phát hiện hội chứng Giả bệnh tâm thần. Bệnh tâm thần là một nỗi đau thực sự trong xã hội, và sự phân định rạch ròi giữa bệnh lý thực sự với sự suy đồi nhân cách chống đối xã hội là nền tảng sống còn để bảo vệ sự công minh của hệ thống pháp luật, không để kẻ ác lợi dụng làm bình phong trốn tội. Kẻ thủ ác đã không thể đánh lừa được khoa học, và màn kịch ma quỷ của hắn đã sụp đổ hoàn toàn trước chân lý của sự thật.",
+  "direction": "giải phẫu sự sụp đổ của bản ngã ái kỷ",
+  "text": "Dưới lăng kính tâm lý học, bản án ba mươi tư án chung thân liên tiếp đại diện cho “sự sụp đổ hoàn toàn của bản ngã ái kỷ”. Những kẻ tấn công hàng loạt theo đuổi danh tiếng tiêu cực luôn nuôi dưỡng ảo tưởng rằng chúng sẽ trở thành một biểu tượng được bàn tán mãi mãi. Nhưng thực tế phũ phàng nơi trại giam an ninh tối đa sẽ biến hắn thành một kẻ hoàn toàn bị lãng quên giữa bốn bức tường bê tông lạnh lẽo. Không còn máy quay truyền thông, không còn ánh đèn sân khấu hay những lời phỏng vấn kịch tính mà hắn từng mong đợi. Hắn sẽ phải đối diện với sự trống rỗng cùng cực của bản thân trong sự ghẻ lạnh và cô độc tuyệt đối cho đến hơi thở cuối cùng.",
   "sentences": [
    {
     "id": "4.11#1",
-    "text": "Hồ sơ Nikolas Cruz là một bài học kinh điển cho các chuyên gia tâm thần học pháp y trên toàn thế giới về việc phát hiện hội chứng Giả bệnh tâm thần.",
-    "words": 33
+    "text": "Dưới lăng kính tâm lý học, bản án ba mươi tư án chung thân liên tiếp đại diện cho “sự sụp đổ hoàn toàn của bản ngã ái kỷ”.",
+    "words": 29
    },
    {
     "id": "4.11#2",
-    "text": "Bệnh tâm thần là một nỗi đau thực sự trong xã hội, và sự phân định rạch ròi giữa bệnh lý thực sự với sự suy đồi nhân cách chống đối xã hội là nền tảng sống còn để bảo vệ sự công minh của hệ thống pháp luật, không để kẻ ác lợi dụng làm bình phong trốn tội.",
-    "words": 60
+    "text": "Những kẻ tấn công hàng loạt theo đuổi danh tiếng tiêu cực luôn nuôi dưỡng ảo tưởng rằng chúng sẽ trở thành một biểu tượng được bàn tán mãi mãi.",
+    "words": 30
    },
    {
     "id": "4.11#3",
-    "text": "Kẻ thủ ác đã không thể đánh lừa được khoa học, và màn kịch ma quỷ của hắn đã sụp đổ hoàn toàn trước chân lý của sự thật.",
+    "text": "Nhưng thực tế phũ phàng nơi trại giam an ninh tối đa sẽ biến hắn thành một kẻ hoàn toàn bị lãng quên giữa bốn bức tường bê tông lạnh lẽo.",
+    "words": 31
+   },
+   {
+    "id": "4.11#4",
+    "text": "Không còn máy quay truyền thông, không còn ánh đèn sân khấu hay những lời phỏng vấn kịch tính mà hắn từng mong đợi.",
+    "words": 24
+   },
+   {
+    "id": "4.11#5",
+    "text": "Hắn sẽ phải đối diện với sự trống rỗng cùng cực của bản thân trong sự ghẻ lạnh và cô độc tuyệt đối cho đến hơi thở cuối cùng.",
     "words": 29
    }
   ]
@@ -1045,18 +1190,28 @@
   "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "khép lại Hồi 4",
-  "text": "Bản án ba mươi tư lần chung thân đã kết thúc hành trình tội ác của Nikolas Cruz trước pháp luật, nhưng những hồi chuông cảnh báo mà thảm kịch gióng lên vẫn tiếp tục vang vọng khắp toàn cầu. Việc nhận diện sớm những mầm mống bạo lực cực đoan và rút ra những bài học đắt giá về phòng ngừa bạo lực học đường chính là trách nhiệm quan trọng nhất của toàn xã hội.",
+  "direction": "chuyển hồi sang bài học cảnh tỉnh",
+  "text": "Cánh cửa xe tù bọc thép đóng sập lại, đưa Nikolas Cruz về Nhà tù Bang Florida để bắt đầu thụ án phạt chung thân vĩnh viễn. Cuộc đời của kẻ thủ ác xem như đã chấm dứt về mặt xã hội kể từ khoảnh khắc chiếc còng số tám khóa chặt sau lưng. Nhưng đối với xã hội, việc khép lại hồ sơ hung thủ chỉ là bước khởi đầu cho một nhiệm vụ cấp thiết hơn gấp bội phần. Đó là làm thế nào để bảo vệ con em chúng ta, ngăn chặn những bi kịch tương tự tái diễn thông qua các bài học cảnh báo sớm trong cộng đồng.",
   "sentences": [
    {
     "id": "4.12#1",
-    "text": "Bản án ba mươi tư lần chung thân đã kết thúc hành trình tội ác của Nikolas Cruz trước pháp luật, nhưng những hồi chuông cảnh báo mà thảm kịch gióng lên vẫn tiếp tục vang vọng khắp toàn cầu.",
-    "words": 40
+    "text": "Cánh cửa xe tù bọc thép đóng sập lại, đưa Nikolas Cruz về Nhà tù Bang Florida để bắt đầu thụ án phạt chung thân vĩnh viễn.",
+    "words": 27
    },
    {
     "id": "4.12#2",
-    "text": "Việc nhận diện sớm những mầm mống bạo lực cực đoan và rút ra những bài học đắt giá về phòng ngừa bạo lực học đường chính là trách nhiệm quan trọng nhất của toàn xã hội.",
-    "words": 37
+    "text": "Cuộc đời của kẻ thủ ác xem như đã chấm dứt về mặt xã hội kể từ khoảnh khắc chiếc còng số tám khóa chặt sau lưng.",
+    "words": 27
+   },
+   {
+    "id": "4.12#3",
+    "text": "Nhưng đối với xã hội, việc khép lại hồ sơ hung thủ chỉ là bước khởi đầu cho một nhiệm vụ cấp thiết hơn gấp bội phần.",
+    "words": 27
+   },
+   {
+    "id": "4.12#4",
+    "text": "Đó là làm thế nào để bảo vệ con em chúng ta, ngăn chặn những bi kịch tương tự tái diễn thông qua các bài học cảnh báo sớm trong cộng đồng.",
+    "words": 32
    }
   ]
  },
@@ -1064,41 +1219,51 @@
   "id": "4.13",
   "act": 4,
   "kind": "BGM",
-  "desc": "*Một nốt violin đanh thép ngân vang rồi lắng xuống, báo hiệu sự kết thúc của màn đối đầu công lý.*"
+  "desc": "*Giai điệu trầm buồn lắng đọng, chuyển sang hồi cuối của sự thức tỉnh.*"
  },
  {
   "id": "5.01",
   "act": 5,
   "kind": "BGM",
-  "desc": "*Nhạc nền chuyển sang giai điệu Piano ấm áp, trang trọng, phảng phất nỗi suy tư triết lý và sự cảnh báo nhân văn sâu sắc.*"
+  "desc": "*Tiếng Piano ấm áp, trang trọng và nhân văn, tôn vinh ký ức của các nạn nhân và mang thông điệp hy vọng cho tương lai.*"
  },
  {
   "id": "5.02",
   "act": 5,
   "kind": "LOI",
   "role": "H",
-  "direction": "giọng suy ngẫm, mang tính triết lý sâu lắng",
-  "text": "Nhiều năm đã trôi qua kể từ buổi chiều định mệnh ngày 14 tháng 2 năm 2018, nhưng vết thương tại thị trấn Parkland vẫn chưa bao giờ hoàn toàn khép miệng. Mười bảy cây cổ thụ tưởng niệm và một công viên xanh đã được dựng lên để vinh danh những người con, người thầy đã hy sinh vì sự an toàn của học trò. Nỗi đau thương tột cùng ấy đã biến thành động lực thúc đẩy bang Florida và nhiều bang khác thông qua Luật Cờ đỏ, cho phép cơ quan chức năng tạm thời tịch thu vũ khí của những cá nhân có dấu hiệu bất ổn tâm lý nghiêm trọng. Sự ra đi của các nạn nhân đã trở thành ngọn đuốc soi đường cho những cải cách sâu rộng nhằm bảo vệ thế hệ tương lai khỏi bạo lực súng đạn.",
+  "direction": "tri ân và tôn vinh phẩm giá các nạn nhân",
+  "text": "Hơn tất cả những tranh cãi pháp lý hay những màn kịch tâm lý trong phòng hỏi cung, điều đọng lại sâu sắc nhất chính là ký ức về mười bảy nạn nhân vô tội. Họ không phải là những con số vô hồn, mà là mười bảy cuộc đời với những hoài bão rực rỡ và tình yêu thương vô bờ bến của gia đình. Chúng ta mãi mãi ghi nhớ lòng dũng cảm phi thường của thầy giám thị kiêm huấn luyện viên bóng bầu dục Aaron Feis, người đã lấy chính thân mình che chắn để bảo vệ học sinh. Chúng ta tôn vinh thầy giáo địa lý Scott Beigel, người đã không ngần ngại mở cửa phòng học để kéo nhóm học sinh vào nơi trú ẩn an toàn trước khi hy sinh. Phẩm giá cao đẹp và sự hy sinh quên mình của những người thầy, người bạn ấy là ánh sáng rực rỡ nhất xua tan bóng tối bạo lực của kẻ thủ ác. Tôn vinh ký ức của họ đồng nghĩa với việc chúng ta phải nghiêm túc nhìn thẳng vào những điểm mù của hệ thống để rút ra bài học sinh tồn cho tương lai.",
   "sentences": [
    {
     "id": "5.02#1",
-    "text": "Nhiều năm đã trôi qua kể từ buổi chiều định mệnh ngày 14 tháng 2 năm 2018, nhưng vết thương tại thị trấn Parkland vẫn chưa bao giờ hoàn toàn khép miệng.",
-    "words": 32
+    "text": "Hơn tất cả những tranh cãi pháp lý hay những màn kịch tâm lý trong phòng hỏi cung, điều đọng lại sâu sắc nhất chính là ký ức về mười bảy nạn nhân vô tội.",
+    "words": 35
    },
    {
     "id": "5.02#2",
-    "text": "Mười bảy cây cổ thụ tưởng niệm và một công viên xanh đã được dựng lên để vinh danh những người con, người thầy đã hy sinh vì sự an toàn của học trò.",
-    "words": 34
+    "text": "Họ không phải là những con số vô hồn, mà là mười bảy cuộc đời với những hoài bão rực rỡ và tình yêu thương vô bờ bến của gia đình.",
+    "words": 31
    },
    {
     "id": "5.02#3",
-    "text": "Nỗi đau thương tột cùng ấy đã biến thành động lực thúc đẩy bang Florida và nhiều bang khác thông qua Luật Cờ đỏ, cho phép cơ quan chức năng tạm thời tịch thu vũ khí của những cá nhân có dấu hiệu bất ổn tâm lý nghiêm trọng.",
-    "words": 49
+    "text": "Chúng ta mãi mãi ghi nhớ lòng dũng cảm phi thường của thầy giám thị kiêm huấn luyện viên bóng bầu dục Aaron Feis, người đã lấy chính thân mình che chắn để bảo vệ học sinh.",
+    "words": 37
    },
    {
     "id": "5.02#4",
-    "text": "Sự ra đi của các nạn nhân đã trở thành ngọn đuốc soi đường cho những cải cách sâu rộng nhằm bảo vệ thế hệ tương lai khỏi bạo lực súng đạn.",
-    "words": 32
+    "text": "Chúng ta tôn vinh thầy giáo địa lý Scott Beigel, người đã không ngần ngại mở cửa phòng học để kéo nhóm học sinh vào nơi trú ẩn an toàn trước khi hy sinh.",
+    "words": 34
+   },
+   {
+    "id": "5.02#5",
+    "text": "Phẩm giá cao đẹp và sự hy sinh quên mình của những người thầy, người bạn ấy là ánh sáng rực rỡ nhất xua tan bóng tối bạo lực của kẻ thủ ác.",
+    "words": 33
+   },
+   {
+    "id": "5.02#6",
+    "text": "Tôn vinh ký ức của họ đồng nghĩa với việc chúng ta phải nghiêm túc nhìn thẳng vào những điểm mù của hệ thống để rút ra bài học sinh tồn cho tương lai.",
+    "words": 34
    }
   ]
  },
@@ -1107,23 +1272,33 @@
   "act": 5,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Trách nhiệm của cộng đồng trong phòng ngừa bạo lực",
-  "text": "Hồ sơ Nikolas Cruz là một minh chứng đau xót cho thấy hầu hết các vụ tấn công trường học đều không bao giờ xảy ra một cách bất ngờ hay không có dấu hiệu báo trước. Trước khi gây án, Cruz đã để lại hàng chục tín hiệu cảnh báo trên mạng xã hội và đời thực, nhưng sự thiếu kết nối thông tin giữa nhà trường, gia đình và lực lượng an ninh thời điểm đó đã tạo ra những lỗ hổng chết người. Bài học lớn nhất dành cho lực lượng an ninh là phải luôn xem xét nghiêm túc mọi lời đe dọa bạo lực, dù là nhỏ nhất, để kịp thời can thiệp trước khi quá muộn.",
+  "direction": "thẳng thắn chỉ ra điểm mù thể chế & sự tắc trách",
+  "text": "Nhìn lại toàn bộ tiến trình trước khi thảm kịch xảy ra, cơ quan chức năng buộc phải thừa nhận những thiếu sót vô cùng đau lòng trong khâu tiếp nhận thông tin. Trong suốt nhiều năm trước đó, Văn phòng Cảnh sát trưởng Hạt Broward đã từng nhận được hơn ba mươi cuộc gọi phản ánh về những hành vi đe dọa nguy hiểm của Nikolas Cruz. Thậm chí vào đầu năm hai nghìn không trăm mười tám, một người quen của gia đình đã gọi điện trực tiếp đến đường dây nóng của Cục Điều tra Liên bang FBI để cảnh báo về ý định tấn công trường học của hắn. Tuy nhiên, do sự tắc trách trong quy trình xử lý nội bộ, thông tin tình báo vô cùng quý giá này đã bị bỏ quên và không bao giờ được chuyển tiếp đến văn phòng thực địa Miami. Sự thiếu kết nối giữa nhà trường, cơ quan y tế tâm thần và lực lượng cảnh sát địa phương đã tạo ra những điểm mù chí mạng khiến cơ hội ngăn chặn tội ác bị bỏ lỡ.",
   "sentences": [
    {
     "id": "5.03#1",
-    "text": "Hồ sơ Nikolas Cruz là một minh chứng đau xót cho thấy hầu hết các vụ tấn công trường học đều không bao giờ xảy ra một cách bất ngờ hay không có dấu hiệu báo trước.",
-    "words": 37
+    "text": "Nhìn lại toàn bộ tiến trình trước khi thảm kịch xảy ra, cơ quan chức năng buộc phải thừa nhận những thiếu sót vô cùng đau lòng trong khâu tiếp nhận thông tin.",
+    "words": 33
    },
    {
     "id": "5.03#2",
-    "text": "Trước khi gây án, Cruz đã để lại hàng chục tín hiệu cảnh báo trên mạng xã hội và đời thực, nhưng sự thiếu kết nối thông tin giữa nhà trường, gia đình và lực lượng an ninh thời điểm đó đã tạo ra những lỗ hổng chết người.",
-    "words": 49
+    "text": "Trong suốt nhiều năm trước đó, Văn phòng Cảnh sát trưởng Hạt Broward đã từng nhận được hơn ba mươi cuộc gọi phản ánh về những hành vi đe dọa nguy hiểm của Nikolas Cruz.",
+    "words": 35
    },
    {
     "id": "5.03#3",
-    "text": "Bài học lớn nhất dành cho lực lượng an ninh là phải luôn xem xét nghiêm túc mọi lời đe dọa bạo lực, dù là nhỏ nhất, để kịp thời can thiệp trước khi quá muộn.",
-    "words": 36
+    "text": "Thậm chí vào đầu năm hai nghìn không trăm mười tám, một người quen của gia đình đã gọi điện trực tiếp đến đường dây nóng của Cục Điều tra Liên bang FBI để cảnh báo về ý định tấn công trường học của hắn.",
+    "words": 45
+   },
+   {
+    "id": "5.03#4",
+    "text": "Tuy nhiên, do sự tắc trách trong quy trình xử lý nội bộ, thông tin tình báo vô cùng quý giá này đã bị bỏ quên và không bao giờ được chuyển tiếp đến văn phòng thực địa Miami.",
+    "words": 39
+   },
+   {
+    "id": "5.03#5",
+    "text": "Sự thiếu kết nối giữa nhà trường, cơ quan y tế tâm thần và lực lượng cảnh sát địa phương đã tạo ra những điểm mù chí mạng khiến cơ hội ngăn chặn tội ác bị bỏ lỡ.",
+    "words": 38
    }
   ]
  },
@@ -1132,28 +1307,43 @@
   "act": 5,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: Đúc kết về nhận diện sớm và can thiệp tâm lý thanh thiếu niên",
-  "text": "Dưới góc độ tâm lý học tội phạm, những kẻ thực hiện hành vi bạo lực hàng loạt thường trải qua một quá trình leo thang hành vi kéo dài qua nhiều giai đoạn. Đó là sự kết hợp giữa cảm giác bất công, sự cô lập xã hội, lòng căm thù tích tụ và sự tôn sùng những hình mẫu bạo lực tiêu cực trên không gian mạng. Việc nhận diện sớm các rối loạn hành vi ở lứa tuổi thanh thiếu niên và cung cấp sự can thiệp tâm lý kịp thời là biện pháp phòng ngừa căn cơ nhất. Xã hội cần xây dựng những môi trường học đường an toàn, đồng thời sự quan tâm ấm áp của gia đình chính là chiếc phao cứu sinh ngăn chặn những tâm hồn trẻ tuổi trượt dài vào bóng tối của sự hủy diệt.",
+  "direction": "giới thiệu mô hình Đánh giá Nguy cơ Hành vi - BTAM",
+  "text": "Từ bài học đắt giá của vụ án Parkland, ngành tâm lý học tội phạm và an ninh học đường đã phát triển mạnh mẽ mô hình “Đánh giá Nguy cơ Đe dọa Hành vi”. Mô hình khoa học này khẳng định một nguyên lý cốt lõi: Các vụ bạo lực học đường hiếm khi xảy ra bất ngờ mà luôn có những tín hiệu cảnh báo rò rỉ từ trước. Kẻ tấn công hầu như luôn chia sẻ ý định, để lộ kế hoạch hoặc thể hiện sự ngưỡng mộ bất thường đối với bạo lực trước khi thực sự hành động. Việc phát hiện sớm không nhằm mục đích trừng phạt, mà là để can thiệp kịp thời nhằm tháo ngòi nổ tâm lý trước khi xung động vượt khỏi tầm kiểm soát. Mỗi giáo viên, phụ huynh và học sinh đều có thể trở thành một mắt xích bảo vệ quan trọng nếu được trang bị kiến thức nhận diện đúng đắn. Hãy học cách lắng nghe trực giác bất an và kiên quyết lên tiếng khi nhận thấy những dấu hiệu bất thường xung quanh mình. Sự im lặng và thói quen bình thường hóa các nguy cơ chính là mảnh đất dung dưỡng cho những bi kịch đau lòng nhất.",
   "sentences": [
    {
     "id": "5.04#1",
-    "text": "Dưới góc độ tâm lý học tội phạm, những kẻ thực hiện hành vi bạo lực hàng loạt thường trải qua một quá trình leo thang hành vi kéo dài qua nhiều giai đoạn.",
-    "words": 34
-   },
-   {
-    "id": "5.04#2",
-    "text": "Đó là sự kết hợp giữa cảm giác bất công, sự cô lập xã hội, lòng căm thù tích tụ và sự tôn sùng những hình mẫu bạo lực tiêu cực trên không gian mạng.",
+    "text": "Từ bài học đắt giá của vụ án Parkland, ngành tâm lý học tội phạm và an ninh học đường đã phát triển mạnh mẽ mô hình “Đánh giá Nguy cơ Đe dọa Hành vi”.",
     "words": 35
    },
    {
+    "id": "5.04#2",
+    "text": "Mô hình khoa học này khẳng định một nguyên lý cốt lõi: Các vụ bạo lực học đường hiếm khi xảy ra bất ngờ mà luôn có những tín hiệu cảnh báo rò rỉ từ trước.",
+    "words": 36
+   },
+   {
     "id": "5.04#3",
-    "text": "Việc nhận diện sớm các rối loạn hành vi ở lứa tuổi thanh thiếu niên và cung cấp sự can thiệp tâm lý kịp thời là biện pháp phòng ngừa căn cơ nhất.",
-    "words": 33
+    "text": "Kẻ tấn công hầu như luôn chia sẻ ý định, để lộ kế hoạch hoặc thể hiện sự ngưỡng mộ bất thường đối với bạo lực trước khi thực sự hành động.",
+    "words": 32
    },
    {
     "id": "5.04#4",
-    "text": "Xã hội cần xây dựng những môi trường học đường an toàn, đồng thời sự quan tâm ấm áp của gia đình chính là chiếc phao cứu sinh ngăn chặn những tâm hồn trẻ tuổi trượt dài vào bóng tối của sự hủy diệt.",
-    "words": 44
+    "text": "Việc phát hiện sớm không nhằm mục đích trừng phạt, mà là để can thiệp kịp thời nhằm tháo ngòi nổ tâm lý trước khi xung động vượt khỏi tầm kiểm soát.",
+    "words": 32
+   },
+   {
+    "id": "5.04#5",
+    "text": "Mỗi giáo viên, phụ huynh và học sinh đều có thể trở thành một mắt xích bảo vệ quan trọng nếu được trang bị kiến thức nhận diện đúng đắn.",
+    "words": 30
+   },
+   {
+    "id": "5.04#6",
+    "text": "Hãy học cách lắng nghe trực giác bất an và kiên quyết lên tiếng khi nhận thấy những dấu hiệu bất thường xung quanh mình.",
+    "words": 25
+   },
+   {
+    "id": "5.04#7",
+    "text": "Sự im lặng và thói quen bình thường hóa các nguy cơ chính là mảnh đất dung dưỡng cho những bi kịch đau lòng nhất.",
+    "words": 25
    }
   ]
  },
@@ -1162,93 +1352,128 @@
   "act": 5,
   "kind": "LOI",
   "role": "H",
-  "direction": "chuyển sang phần đúc kết và bài học nhận diện thực tế",
-  "text": "Để giúp các bậc phụ huynh, thầy cô giáo và cộng đồng kịp thời phát hiện và ngăn chặn những nguy cơ bạo lực thanh thiếu niên từ sớm, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ kinh điển được đúc kết từ hồ sơ Nikolas Cruz. Dấu hiệu thứ nhất: Những hành vi đe dọa bạo lực cụ thể và công khai trên không gian mạng xã hội. Khi một thanh thiếu niên liên tục đăng tải những bình luận muốn xả súng, đe dọa giết người, tôn sùng những kẻ sát nhân hàng loạt hoặc khoe khoang về vũ khí, đó là báo động đỏ cấp tính. Tuyệt đối không bao giờ được coi những lời đe dọa đó là trò đùa vô hại của tuổi mới lớn, mà cần phải báo cáo ngay lập tức cho nhà trường và cơ quan chức năng để kiểm tra an toàn. Dấu hiệu thứ hai: Lịch sử ngược đãi động vật dã man và xu hướng bạo lực leo thang đối với những đối tượng yếu thế. Hành vi tra tấn thú nuôi, giết hại chim chóc không rõ lý do là một trong những chỉ báo sớm nguy hiểm nhất của chứng Rối loạn nhân cách chống đối xã hội. Sự vô cảm trước nỗi đau của sinh mệnh nhỏ bé là mầm mống tâm lý có thể chuyển hóa thành hành vi xâm hại con người khi cá nhân đó đối diện với xung đột xã hội. Dấu hiệu thứ ba: Sự cô lập xã hội sâu sắc kết hợp với lòng căm thù và tâm lý nạn nhân cực đoan. Khi một người trẻ cắt đứt mọi kết nối bạn bè, luôn tin rằng cả thế giới đang chống lại mình và bày tỏ mong muốn trừng phạt xã hội để giải tỏa sự u uất, họ đang rơi vào vòng xoáy nguy hiểm. Tâm lý nạn nhân bị đẩy lên mức cực đoan sẽ triệt tiêu hoàn toàn khả năng đồng cảm và biện minh cho những hành vi trả thù tàn nhẫn. Dấu hiệu thứ tư: Hành vi tìm kiếm và nghiên cứu ám ảnh về các vụ thảm sát trong quá khứ cùng phương thức tiếp cận vũ khí. Việc bí mật tìm kiếm thông tin về cách mua súng đạn, nghiên cứu lộ trình các vụ tấn công khét tiếng và bày tỏ khao khát được nổi tiếng thông qua tội ác là những bước chuẩn bị hành vi cận kề. Sự can thiệp kịp thời của gia đình và việc quản lý chặt chẽ khả năng tiếp cận vũ khí là chìa khóa then chốt để dập tắt thảm kịch ngay từ trong trứng nước. Sinh mạng của mỗi con người là vô giá, và sự an toàn của những đứa trẻ tại trường học phải luôn là ưu tiên tối thượng của toàn xã hội. Cảm ơn quý vị đã dành thời gian đồng hành cùng Amber Eyes trong tập hồ sơ tâm lý học tội phạm đầy day dứt và bài học cảnh tỉnh sâu sắc ngày hôm nay. Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ thông điệp ý nghĩa này đến những người xung quanh bạn. Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
+  "direction": "đúc kết 4 Cảnh báo đỏ sinh tồn & thông điệp nhân văn",
+  "text": "Để bảo vệ bản thân và cộng đồng trường học, các chuyên gia an ninh đã đúc kết bốn cảnh báo đỏ sinh tồn tối quan trọng mà mỗi người cần đặc biệt ghi nhớ. 01 · CẢNH BÁO ĐỎ 1 — HIỆN TƯỢNG RÒ RỈ Ý ĐỊNH BẠO LỰC (LEAKAGE). Kẻ tấn công hầu như luôn vô tình hoặc cố ý tiết lộ kế hoạch gây hại cho người khác trước khi thực hiện. Những dấu hiệu này thường xuất hiện dưới dạng các phát ngôn đe dọa trên mạng xã hội, các bài viết ám chỉ cái chết hoặc những lời thách thức ngấm ngầm. Đừng bao giờ xem nhẹ bất kỳ lời đe dọa nào như một trò đùa bông đùa của lứa tuổi học trò. Hãy lập tức thông báo cho ban giám hiệu hoặc cơ quan chức năng khi phát hiện những thông điệp mang tính hủy diệt. 02 · CẢNH BÁO ĐỎ 2 — SỰ ÁM ẢNH BỆNH HOẠN VỚI VŨ KHÍ VÀ BẠO LỰC CỰC ĐOAN (FIXATION). Đối tượng dành phần lớn thời gian để tìm hiểu, sưu tầm và tôn sùng các vụ thảm kịch lịch sử trong quá khứ. Họ thường xuyên đăng tải hình ảnh vũ khí chiến đấu, nói về sức mạnh hủy diệt và thần tượng hóa những kẻ gây án khét tiếng. Sự say mê bất thường này không đơn thuần là sở thích thông thường mà là sự đồng nhất bản ngã với bạo lực. Khi một người bắt đầu coi vũ khí là công cụ duy nhất để khẳng định giá trị bản thân, nguy cơ hành động thực tế đã ở mức báo động đỏ. 03 · CẢNH BÁO ĐỎ 3 — MẤT ĐI MỎ NEO KIỂM SOÁT VÀ SỰ CÔ LẬP XÃ HỘI (ANCHOR LOSS). Điểm gãy tâm lý thường xuất hiện khi đối tượng trải qua một biến cố mất mát to lớn khiến các rào cản kiềm chế cuối cùng sụp đổ. Đó có thể là sự qua đời của người thân duy nhất chăm sóc, việc bị đuổi học hoặc sự tan vỡ hoàn toàn của các mối quan hệ hỗ trợ. Trạng thái không còn gì để mất khiến đối tượng dễ dàng rơi vào tâm lý liều lĩnh và muốn kéo theo người khác vào sự hủy diệt. Sự quan tâm và kết nối kịp thời từ các dịch vụ hỗ trợ xã hội trong giai đoạn này là yếu tố sống còn để ngăn chặn bi kịch. 04 · CẢNH BÁO ĐỎ 4 — HÀNH VI CHUẨN BỊ CHIẾN THUẬT VÀ TRINH SÁT HIỆN TRƯỜNG (TACTICAL PREPARATION). Đây là giai đoạn nguy hiểm cận kề nhất khi ý nghĩ đen tối bắt đầu được chuyển hóa thành các hành động cụ thể trong thực tế. Đối tượng bắt đầu tích trữ trang thiết bị, tìm hiểu lịch trình sinh hoạt của mục tiêu, đo đạc thời gian di chuyển hoặc quay video tuyên ngôn. Những hành vi chuẩn bị hậu cần này không bao giờ là ngẫu nhiên mà là bằng chứng của một kế hoạch đã định hình rõ nét. Nhận biết và báo cáo kịp thời các hành vi chuẩn bị này là cơ hội cuối cùng để ngăn chặn một thảm kịch xảy ra. Vụ án Nikolas Cruz khép lại với bản án nghiêm khắc của công lý, nhưng hồi chuông cảnh tỉnh về an toàn học đường vẫn mãi vang vọng. Lắng nghe trực giác, chủ động nhận diện nguy cơ và không thờ ơ trước những bất thường chính là lá chắn vững chắc nhất để bảo vệ những người thân yêu của chúng ta. Cảm ơn quý vị đã đồng hành cùng Amber Eyes trong hồ sơ giải mã tâm lý tội phạm ngày hôm nay.",
   "sentences": [
    {
     "id": "5.05#1",
-    "text": "Để giúp các bậc phụ huynh, thầy cô giáo và cộng đồng kịp thời phát hiện và ngăn chặn những nguy cơ bạo lực thanh thiếu niên từ sớm, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ kinh điển được đúc kết từ hồ sơ Nikolas Cruz.",
-    "words": 51
+    "text": "Để bảo vệ bản thân và cộng đồng trường học, các chuyên gia an ninh đã đúc kết bốn cảnh báo đỏ sinh tồn tối quan trọng mà mỗi người cần đặc biệt ghi nhớ.",
+    "words": 35
    },
    {
     "id": "5.05#2",
-    "text": "Dấu hiệu thứ nhất: Những hành vi đe dọa bạo lực cụ thể và công khai trên không gian mạng xã hội.",
-    "words": 22
+    "text": "01 · CẢNH BÁO ĐỎ 1 — HIỆN TƯỢNG RÒ RỈ Ý ĐỊNH BẠO LỰC (LEAKAGE).",
+    "words": 16
    },
    {
     "id": "5.05#3",
-    "text": "Khi một thanh thiếu niên liên tục đăng tải những bình luận muốn xả súng, đe dọa giết người, tôn sùng những kẻ sát nhân hàng loạt hoặc khoe khoang về vũ khí, đó là báo động đỏ cấp tính.",
-    "words": 40
+    "text": "Kẻ tấn công hầu như luôn vô tình hoặc cố ý tiết lộ kế hoạch gây hại cho người khác trước khi thực hiện.",
+    "words": 24
    },
    {
     "id": "5.05#4",
-    "text": "Tuyệt đối không bao giờ được coi những lời đe dọa đó là trò đùa vô hại của tuổi mới lớn, mà cần phải báo cáo ngay lập tức cho nhà trường và cơ quan chức năng để kiểm tra an toàn.",
-    "words": 42
+    "text": "Những dấu hiệu này thường xuất hiện dưới dạng các phát ngôn đe dọa trên mạng xã hội, các bài viết ám chỉ cái chết hoặc những lời thách thức ngấm ngầm.",
+    "words": 32
    },
    {
     "id": "5.05#5",
-    "text": "Dấu hiệu thứ hai: Lịch sử ngược đãi động vật dã man và xu hướng bạo lực leo thang đối với những đối tượng yếu thế.",
-    "words": 26
+    "text": "Đừng bao giờ xem nhẹ bất kỳ lời đe dọa nào như một trò đùa bông đùa của lứa tuổi học trò.",
+    "words": 22
    },
    {
     "id": "5.05#6",
-    "text": "Hành vi tra tấn thú nuôi, giết hại chim chóc không rõ lý do là một trong những chỉ báo sớm nguy hiểm nhất của chứng Rối loạn nhân cách chống đối xã hội.",
-    "words": 34
+    "text": "Hãy lập tức thông báo cho ban giám hiệu hoặc cơ quan chức năng khi phát hiện những thông điệp mang tính hủy diệt.",
+    "words": 24
    },
    {
     "id": "5.05#7",
-    "text": "Sự vô cảm trước nỗi đau của sinh mệnh nhỏ bé là mầm mống tâm lý có thể chuyển hóa thành hành vi xâm hại con người khi cá nhân đó đối diện với xung đột xã hội.",
-    "words": 38
+    "text": "02 · CẢNH BÁO ĐỎ 2 — SỰ ÁM ẢNH BỆNH HOẠN VỚI VŨ KHÍ VÀ BẠO LỰC CỰC ĐOAN (FIXATION).",
+    "words": 21
    },
    {
     "id": "5.05#8",
-    "text": "Dấu hiệu thứ ba: Sự cô lập xã hội sâu sắc kết hợp với lòng căm thù và tâm lý nạn nhân cực đoan.",
+    "text": "Đối tượng dành phần lớn thời gian để tìm hiểu, sưu tầm và tôn sùng các vụ thảm kịch lịch sử trong quá khứ.",
     "words": 24
    },
    {
     "id": "5.05#9",
-    "text": "Khi một người trẻ cắt đứt mọi kết nối bạn bè, luôn tin rằng cả thế giới đang chống lại mình và bày tỏ mong muốn trừng phạt xã hội để giải tỏa sự u uất, họ đang rơi vào vòng xoáy nguy hiểm.",
-    "words": 44
+    "text": "Họ thường xuyên đăng tải hình ảnh vũ khí chiến đấu, nói về sức mạnh hủy diệt và thần tượng hóa những kẻ gây án khét tiếng.",
+    "words": 27
    },
    {
     "id": "5.05#10",
-    "text": "Tâm lý nạn nhân bị đẩy lên mức cực đoan sẽ triệt tiêu hoàn toàn khả năng đồng cảm và biện minh cho những hành vi trả thù tàn nhẫn.",
-    "words": 30
+    "text": "Sự say mê bất thường này không đơn thuần là sở thích thông thường mà là sự đồng nhất bản ngã với bạo lực.",
+    "words": 24
    },
    {
     "id": "5.05#11",
-    "text": "Dấu hiệu thứ tư: Hành vi tìm kiếm và nghiên cứu ám ảnh về các vụ thảm sát trong quá khứ cùng phương thức tiếp cận vũ khí.",
-    "words": 28
+    "text": "Khi một người bắt đầu coi vũ khí là công cụ duy nhất để khẳng định giá trị bản thân, nguy cơ hành động thực tế đã ở mức báo động đỏ.",
+    "words": 32
    },
    {
     "id": "5.05#12",
-    "text": "Việc bí mật tìm kiếm thông tin về cách mua súng đạn, nghiên cứu lộ trình các vụ tấn công khét tiếng và bày tỏ khao khát được nổi tiếng thông qua tội ác là những bước chuẩn bị hành vi cận kề.",
-    "words": 43
+    "text": "03 · CẢNH BÁO ĐỎ 3 — MẤT ĐI MỎ NEO KIỂM SOÁT VÀ SỰ CÔ LẬP XÃ HỘI (ANCHOR LOSS).",
+    "words": 21
    },
    {
     "id": "5.05#13",
-    "text": "Sự can thiệp kịp thời của gia đình và việc quản lý chặt chẽ khả năng tiếp cận vũ khí là chìa khóa then chốt để dập tắt thảm kịch ngay từ trong trứng nước.",
-    "words": 35
+    "text": "Điểm gãy tâm lý thường xuất hiện khi đối tượng trải qua một biến cố mất mát to lớn khiến các rào cản kiềm chế cuối cùng sụp đổ.",
+    "words": 29
    },
    {
     "id": "5.05#14",
-    "text": "Sinh mạng của mỗi con người là vô giá, và sự an toàn của những đứa trẻ tại trường học phải luôn là ưu tiên tối thượng của toàn xã hội.",
+    "text": "Đó có thể là sự qua đời của người thân duy nhất chăm sóc, việc bị đuổi học hoặc sự tan vỡ hoàn toàn của các mối quan hệ hỗ trợ.",
     "words": 31
    },
    {
     "id": "5.05#15",
-    "text": "Cảm ơn quý vị đã dành thời gian đồng hành cùng Amber Eyes trong tập hồ sơ tâm lý học tội phạm đầy day dứt và bài học cảnh tỉnh sâu sắc ngày hôm nay.",
-    "words": 35
+    "text": "Trạng thái không còn gì để mất khiến đối tượng dễ dàng rơi vào tâm lý liều lĩnh và muốn kéo theo người khác vào sự hủy diệt.",
+    "words": 28
    },
    {
     "id": "5.05#16",
-    "text": "Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ thông điệp ý nghĩa này đến những người xung quanh bạn.",
-    "words": 24
+    "text": "Sự quan tâm và kết nối kịp thời từ các dịch vụ hỗ trợ xã hội trong giai đoạn này là yếu tố sống còn để ngăn chặn bi kịch.",
+    "words": 30
    },
    {
     "id": "5.05#17",
-    "text": "Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
-    "words": 17
+    "text": "04 · CẢNH BÁO ĐỎ 4 — HÀNH VI CHUẨN BỊ CHIẾN THUẬT VÀ TRINH SÁT HIỆN TRƯỜNG (TACTICAL PREPARATION).",
+    "words": 20
+   },
+   {
+    "id": "5.05#18",
+    "text": "Đây là giai đoạn nguy hiểm cận kề nhất khi ý nghĩ đen tối bắt đầu được chuyển hóa thành các hành động cụ thể trong thực tế.",
+    "words": 28
+   },
+   {
+    "id": "5.05#19",
+    "text": "Đối tượng bắt đầu tích trữ trang thiết bị, tìm hiểu lịch trình sinh hoạt của mục tiêu, đo đạc thời gian di chuyển hoặc quay video tuyên ngôn.",
+    "words": 29
+   },
+   {
+    "id": "5.05#20",
+    "text": "Những hành vi chuẩn bị hậu cần này không bao giờ là ngẫu nhiên mà là bằng chứng của một kế hoạch đã định hình rõ nét.",
+    "words": 27
+   },
+   {
+    "id": "5.05#21",
+    "text": "Nhận biết và báo cáo kịp thời các hành vi chuẩn bị này là cơ hội cuối cùng để ngăn chặn một thảm kịch xảy ra.",
+    "words": 26
+   },
+   {
+    "id": "5.05#22",
+    "text": "Vụ án Nikolas Cruz khép lại với bản án nghiêm khắc của công lý, nhưng hồi chuông cảnh tỉnh về an toàn học đường vẫn mãi vang vọng.",
+    "words": 28
+   },
+   {
+    "id": "5.05#23",
+    "text": "Lắng nghe trực giác, chủ động nhận diện nguy cơ và không thờ ơ trước những bất thường chính là lá chắn vững chắc nhất để bảo vệ những người thân yêu của chúng ta.",
+    "words": 35
+   },
+   {
+    "id": "5.05#24",
+    "text": "Cảm ơn quý vị đã đồng hành cùng Amber Eyes trong hồ sơ giải mã tâm lý tội phạm ngày hôm nay.",
+    "words": 22
    }
   ]
  },
@@ -1256,6 +1481,6 @@
   "id": "5.06",
   "act": 5,
   "kind": "BGM",
-  "desc": "*Nhạc nền ngân vang ấm áp, trang trọng rồi mờ dần (Fade out hoàn toàn ở giây thứ 5).*"
+  "desc": "*Nhạc nền kết thúc, trầm ấm và lan tỏa.*"
  }
 ]

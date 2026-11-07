@@ -1,10 +1,24 @@
-# NGUỒN THAM KHẢO & ĐỐI CHIẾU DỮ KIỆN — LỜI TIÊN TRI NGÀY TẬN THẾ & ẢO TƯỞNG MA QUỶ (HỒ SƠ LORI VALLOW & CHAD DAYBELL)
+📚 TỔNG HỢP NGUỒN THAM KHẢO HỒ SƠ TẬP 18 (LORI VALLOW & CHAD DAYBELL)
+Amber eyes tuân thủ nguyên tắc đối chiếu đa nguồn từ hồ sơ tư pháp công khai của Tòa án Hạt Ada và FBI:
 
-Toàn bộ các mốc thời gian, nhân vật, địa danh, quy trình điều tra và phán quyết tư pháp trong hồ sơ vụ án **Vallow** đã được đối chiếu chéo với các nguồn tài liệu chính thống của cơ quan điều tra, bản án tòa án và báo chí chính luận có uy tín.
+1. Hồ sơ tòa án & Phán quyết tư pháp chính thức:
+• Tòa án Hạt Ada (Boise, Idaho) — Bản án xét xử Lori Vallow Daybell (7/2023, Thẩm phán Steven Boyce; 3 án chung thân liên tiếp không ân xá): https://coi.isc.idaho.gov/
+• Tòa án Hạt Ada (Boise, Idaho) — Bản án tử hình Chad Guy Daybell (6/2024, Thẩm phán Steven Boyce): https://coi.isc.idaho.gov/
+• Hồ sơ truy tố đại bồi thẩm đoàn Hạt Fremont & Hạt Madison (Idaho, 2020-2021).
 
-| Dữ kiện trong kịch bản | Nội dung đối chiếu kiểm chứng | Nguồn tham chiếu chính thức | Trạng thái |
-|---|---|---|:---:|
-| **Mất tích của hai đứa trẻ** | Tylee Ryan (16 tuổi) và JJ Vallow (7 tuổi) biến mất từ tháng 9/2019 tại Rexburg, Idaho; mẹ đẻ từ chối khai báo tung tích. | Rexburg Police Missing Persons Report | **Chính xác 100%** |
-| **Học thuyết dị giáo 'Zombie'** | Chad Daybell và Lori Vallow tuyên truyền học thuyết con người bị phân hạng ánh sáng/bóng tối; gán nhãn người thân là 'Zombie'. | Tang vật tin nhắn & Podcast phiên tòa Idaho | **Chính xác 100%** |
-| **Hiện trường trang trại Daybell** | Ngày 09/06/2020, FBI phát hiện hài cốt hai đứa trẻ bị chôn giấu trong nghĩa địa thú cưng tại trang trại của Chad Daybell. | Hồ sơ khám xét hiện trường FBI Salt Lake City | **Chính xác 100%** |
-| **Phán quyết tư pháp** | Lori Vallow bị kết án tù chung thân không ân xá (2023); Chad Daybell bị tuyên án tử hình (2024). | Bản án Tòa Thượng thẩm Quận 7 Idaho | **Chính xác 100%** |
+2. Báo cáo điều tra thực địa & Giám định pháp y:
+• Sở Cảnh sát Rexburg — Báo cáo kiểm tra an sinh và khám xét căn hộ Rexburg (11/2019).
+• Cục Điều tra Liên bang (FBI) — Báo cáo hiện trường khai quật trang trại Salem và phân tích kỹ thuật số vệ tinh (6/2020).
+• Văn phòng Giám định Y khoa Hạt Ada — Báo cáo khám nghiệm pháp y tử thi Tylee Ryan, JJ Vallow và Tammy Daybell.
+
+3. Tư liệu điều tra báo chí & Chuyên khảo tội phạm học:
+• Nate Eaton (East Idaho News) — Chuỗi phóng sự điều tra hiện trường và phỏng vấn tại Kauai, Hawaii.
+• Leah Sottile — Tác phẩm tư liệu 'When the Moon Turns to Blood: Lori Vallow, Chad Daybell, and a Story of Murder, Faith, and End Times'.
+
+4. Tâm lý học hành vi:
+• Rối loạn hoang tưởng chia sẻ (Folie à Deux), Cơ chế Phi nhân tính hóa (Dehumanization) & The Gift of Fear (Gavin de Becker).
+
+5. Đường dây nóng hỗ trợ & bảo vệ:
+• Tổng đài Quốc gia Bảo vệ Trẻ em 111 (Việt Nam, miễn phí 24/7): http://tongdai111.vn/
+• Đường dây nóng Ngày Mai (Hỗ trợ khủng hoảng tâm lý): 096 306 1414
+• Đường dây nóng phòng chống bạo lực gia đình: 1900 969 680

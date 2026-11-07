@@ -48,7 +48,7 @@ Do tính chất cực kỳ bi thương và quy mô chấn động của thảm k
 
 | Quy tắc | Yêu cầu chuẩn | Tình trạng kịch bản Tập 12 | Kết luận |
 |:---:|---|---|:---:|
-| **V1** | Đơn vị đồng bộ là CÂU. Mỗi câu kết thúc rõ ràng bằng dấu ngắt câu hợp lệ (`. ? ! …`). | Toàn bộ 165 câu đều kết thúc bằng dấu ngắt câu chuẩn xác, phân tách câu hoàn hảo qua `parse_kichban.py`. | **ĐẠT CHUẨN** |
+| **V1** | Đơn vị đồng bộ là CÂU. Mỗi câu kết thúc rõ ràng bằng dấu ngắt câu hợp lệ (`. ? ! …`). | Toàn bộ 210 câu đều kết thúc bằng dấu ngắt câu chuẩn xác, phân tách câu hoàn hảo qua `parse_kichban.py`. | **ĐẠT CHUẨN** |
 | **V2** | Hình ảnh chỉ đổi ở đầu câu. | Trình dựng tương thích 100% với file JSON đã phân tách (mỗi shot ứng với một câu thoại trọn vẹn). | **ĐẠT CHUẨN** |
 | **V3** | Chữ trên hình lấy nguyên văn từ câu thoại. | Trích đoạn nguyên văn lời chứng nhân chứng N1 (Leslie Wagner-Wilson), N2 (Điều tra viên FBI/Ngoại giao) và lời thoại của Christine Miller. | **ĐẠT CHUẨN** |
 | **V4** | Nền âm thanh liên tục, không câm >0.3s. | Khai báo BGM liên tục 5 Hồi: Cello u buồn rừng nhiệt đới $\rightarrow$ Dark Ambient lạnh lẽo $\rightarrow$ Minimalist Piano triết học $\rightarrow$ Violin dồn dập giằng xé $\rightarrow$ Warm Piano trang trọng suy tư. | **ĐẠT CHUẨN** |
@@ -60,25 +60,41 @@ Do tính chất cực kỳ bi thương và quy mô chấn động của thảm k
 
 ---
 
-## IV. THỐNG KÊ CHI TIẾT KỊCH BẢN TẬP 12
+## IV. THỐNG KÊ CHI TIẾT KỊCH BẢN TẬP 12 (BẢN NÂNG CẤP 210 CÂU)
 
 - **Tổng số phần tử (Elements):** 53 phần tử (gồm 5 hồi, hiệu ứng âm thanh SFX, nhạc nền BGM, khoảng lặng và các lượt thoại).
 - **Tổng số lượt thoại (Speech turns):** 33 lượt thoại.
-  - `HOST (H)`: 19 lượt thoại
-  - `ĐIỀU TRA VIÊN (D)`: 5 lượt thoại
-  - `CHUYÊN GIA TÂM LÝ (C)`: 7 lượt thoại
-  - `NGƯỜI BÌNH THƯỜNG (N)`: 2 lượt thoại (N1: 1.07, N2: 4.10)
-- **Tổng số câu thoại (Sentences):** 165 câu (đồng bộ hoàn hảo với chuẩn series: Tập 06: 165 câu, Tập 08: 165 câu, Tập 09: 165 câu, Tập 10: 165 câu, Tập 11: 165 câu).
-  - `HOST`: 91 câu (55,2% số câu — chuẩn tỷ lệ dẫn chuyện tự sự)
-  - `ĐIỀU TRA VIÊN`: 27 câu (16,4% số câu — tái hiện góc nhìn điều tra & ngoại giao pháp lý)
-  - `CHUYÊN GIA TÂM LÝ`: 31 câu (18,8% số câu — giải phẫu Milgram paradigm, Groupthink & Bất hòa nhận thức)
-  - `NGƯỜI BÌNH THƯỜNG`: 16 câu (9,7% số câu — cựu thành viên N1: 8 câu & nhân viên tiếp cận hiện trường N2: 8 câu)
-- **Tổng số từ (Word count):** 4.630 từ.
-- **Thời lượng dự kiến:** 26 – 28 phút.
-- **File kịch bản:** [`01_KICH_BAN/Tap12/kichban_tap12_23102026.md`](file:///d:/TEST/Gax\Audi\01_KICH_BAN\Tap12\kichban_tap12_23102026.md)
-- **File dữ liệu biên dịch:** [`.work/script_tap12.json`](file:///d:/TEST/Gax\Audi\.work\script_tap12.json)
-- **Cấu hình pipeline:** Đã đăng ký mã tập `12` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax\Audi\.work\edition.py).
-- **Danh mục 28 hồ sơ:** Đã cập nhật trạng thái `[x]` cho Hồ sơ 12 tại [`01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md`](file:///d:/TEST/Gax\Audi\01_KICH_BAN\KHO_Y_TUONG_28_HO_SO.md#L60).
+  - `HOST (H)`: 21 lượt thoại (120 câu — 57,1% số câu, chuẩn tỷ lệ dẫn chuyện tự sự)
+  - `ĐIỀU TRA VIÊN (D)`: 5 lượt thoại (30 câu — 14,3% số câu, tái hiện góc nhìn điều tra & ngoại giao pháp lý)
+  - `CHUYÊN GIA TÂM LÝ (C)`: 5 lượt thoại (38 câu — 18,1% số câu, giải phẫu Milgram paradigm, Groupthink & Bất hòa nhận thức)
+  - `NGƯỜI BÌNH THƯỜNG (N)`: 2 lượt thoại (12 câu — 5,7% số câu, N1: Leslie Wagner-Wilson 6 câu & N2: Nhân viên hiện trường 6 câu)
+- **Tổng số câu thoại (Sentences):** 210 câu (kịch bản quy mô lớn > 200 câu theo tiêu chuẩn mới).
+- **Tổng số từ (Word count):** 6.375 từ.
+- **Thời lượng dự kiến:** 28 – 31 phút.
+- **File kịch bản:** [`01_KICH_BAN/Tap12/kichban_tap12_23102026.md`](kichban_tap12_23102026.md)
+- **File dữ liệu biên dịch:** [`.work/script_tap12.json`](../../.work/script_tap12.json)
+- **Cấu hình pipeline:** Đã đăng ký mã tập `12` vào `EPISODES` trong [`.work/edition.py`](../../.work/edition.py).
+
+---
+
+## V. NÂNG CẤP KỊCH BẢN QUY MÔ LỚN (> 200 CÂU) & ĐỒNG BỘ 4 NGÔN NGỮ — 07/11/2026
+
+- **Căn cứ tiêu chuẩn:** Tiêu chuẩn mới Hệ sinh thái 10 chỉ dấu tâm lý & hành vi (A2c) và Luật K10 (AGENTS.md).
+- **Quy mô:** Tái cấu trúc và mở rộng kịch bản từ 148 câu lên đúng **210 câu** (> 200 câu theo yêu cầu).
+- **Đồng bộ đa ngôn ngữ Parity 1:1:** Đồng bộ toàn diện trên cả 4 ngôn ngữ (VN — EN — JA — KO):
+  - Tiếng Việt (VN): `01_KICH_BAN/Tap12/kichban_tap12_23102026.md` (53 elements, 33 LOI, 210 sentences)
+  - Tiếng Anh (EN): `01_KICH_BAN/Tap12_EN/kichban_tap12_EN.md` (53 elements, 33 LOI, 210 sentences)
+  - Tiếng Nhật (JA): `01_KICH_BAN/Tap12_JA/kichban_tap12_JA.md` (53 elements, 33 LOI, 210 sentences)
+  - Tiếng Hàn (KO): `01_KICH_BAN/Tap12_KO/kichban_tap12_KO.md` (53 elements, 33 LOI, 210 sentences)
+- **Kiểm định QC Pipeline tự động:**
+  - `verify_en_script.py 12`: ✅ PASSED (53 elements, 210 sentences matched 1:1)
+  - `_qc_ja.py 12`: ✅ PASSED (VN=210 JA=210, 0 lỗi cấu trúc, 0 lỗi từ cấm)
+  - `_qc_ko_parity.py`: ✅ PASS (53 elements, 210 sentences, 29 quotes matched 1:1)
+  - `_qc_all_4scripts_tap12.py`: ✅ ALL GREEN - PASSED (0 lỗi V9, 0 lỗi G1, Parity 100%)
+- **Hồ sơ review chuyên sâu đi kèm:**
+  - `01_KICH_BAN/Tap12/REVIEW_kichban_tap12_10chiau.md`
+  - `01_KICH_BAN/Tap12/REVIEW_kichban_tap12_multilingual.md`
+
 
 
 ## Rà soát đồng loạt theo chuẩn T02–T04 — 01/11/2026

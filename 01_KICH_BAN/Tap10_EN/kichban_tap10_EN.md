@@ -266,7 +266,7 @@ Imagine the soul-crushing torment of a woman living in terror of her husband thr
 I had kept silent, I had assisted him, and I had become an accomplice to an unthinkable crime for seven years.
 Every time I looked at that young woman in the shadows, my conscience was shredded by overwhelming guilt.
 In that decisive moment, I knew I could no longer remain a coward for another second.
-I took Colleen by the hand and told her the truth: “Cameron does not belong to any Company, it was all an elaborate lie he invented to keep you captive.”
+I took Colleen by the hand and told her the truth: ‘Cameron does not belong to any Company, it was all an elaborate lie he invented to keep you captive.’
 
 **[SFX]:** Car engine revving urgently, gravel crunching under tires, bus doors hissing open.
 

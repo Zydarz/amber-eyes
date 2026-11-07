@@ -41,7 +41,7 @@ Kịch bản Tập 24 tuân thủ tuyệt đối Quy tắc V9 (YouTube Safe) đ�
 
 | Quy tắc | Yêu cầu chuẩn | Tình trạng kịch bản Tập 24 | Kết luận |
 |:---:|---|---|:---:|
-| **V1** | Đơn vị đồng bộ là CÂU. Mỗi câu kết thúc bằng dấu ngắt câu (`. ? ! …`). Không có dấu `:` cuối câu. | **165/165 câu** đều kết thúc bằng dấu câu chuẩn xác. Kiểm tra tự động bằng Python: **0 lỗi ngắt câu**. | **ĐẠT CHUẨN** |
+| **V1** | Đơn vị đồng bộ là CÂU. Mỗi câu kết thúc bằng dấu ngắt câu (`. ? ! …`). Không có dấu `:` cuối câu. | **210/210 câu** đều kết thúc bằng dấu câu chuẩn xác. Kiểm tra tự động bằng Python: **0 lỗi ngắt câu**. | **ĐẠT CHUẨN** |
 | **V2** | Hình ảnh chỉ đổi ở đầu câu. | Trình dựng tương thích 100% với file JSON đã phân tách (mỗi shot ứng với một câu thoại). | **ĐẠT CHUẨN** |
 | **V3** | Chữ trên hình lấy nguyên văn câu thoại. | Trích đoạn chuẩn xác lời nhân chứng N1 (Cư dân Hwaseong), N2 (Yoon Sung-yeo - Người được minh oan) qua dấu ngoặc kép `“...”`. | **ĐẠT CHUẨN** |
 | **V4** | Nền âm thanh liên tục, không câm > 0,3s. | Khai báo BGM liên tục 5 Hồi: Sad Cello $\rightarrow$ Deep Ambient lạnh lẽo $\rightarrow$ Minimalist Piano học thuật $\rightarrow$ Violin trầm hùng $\rightarrow$ Warm Piano triết lý sâu lắng. | **ĐẠT CHUẨN** |
@@ -53,7 +53,7 @@ Kịch bản Tập 24 tuân thủ tuyệt đối Quy tắc V9 (YouTube Safe) đ�
 
 ---
 
-## IV. THỐNG KÊ CHI TIẾT KỊCH BẢN TẬP 24
+## IV. THỐNG KÊ CHI TIẾT KỊCH BẢN TẬP 24 (BẢN NÂNG CẤP > 200 CÂU — 07/11/2026)
 
 - **Tổng số phần tử (Elements):** 51 phần tử (gồm 5 hồi, hiệu ứng âm thanh SFX, nhạc nền BGM, khoảng lặng và các lượt thoại).
 - **Tổng số lượt thoại (Speech turns):** 32 lượt thoại.
@@ -61,20 +61,20 @@ Kịch bản Tập 24 tuân thủ tuyệt đối Quy tắc V9 (YouTube Safe) đ�
   - `ĐIỀU TRA VIÊN (D)`: 6 lượt thoại
   - `CHUYÊN GIA TÂM LÝ (C)`: 5 lượt thoại
   - `NGƯỜI BÌNH THƯỜNG (N)`: 2 lượt thoại (N1: 1.07, N2: 4.09)
-- **Tổng số câu thoại (Sentences):** **165 câu** (chuẩn mực tuyệt đối của series: Tập 06, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 đều đạt chính xác 165 câu).
-  - `HOST`: 95 câu (57,6% số câu — mạch dẫn tự sự chủ đạo)
-  - `ĐIỀU TRA VIÊN`: 28 câu (17,0% số câu — Điều tra viên Cảnh sát tỉnh Gyeonggi)
-  - `CHUYÊN GIA TÂM LÝ`: 27 câu (16,4% số câu — Chuyên gia Tâm lý học Tội phạm & Profiler)
-  - `NGƯỜI BÌNH THƯỜNG`: 15 câu (9,1% số câu — N1 Cư dân Hwaseong: 7 câu & N2 Yoon Sung-yeo: 8 câu)
+- **Tổng số câu thoại (Sentences):** **210 câu** (đáp ứng tiêu chuẩn kịch bản lớn mới: $\ge 200$ câu, đạt 100% parity đa ngôn ngữ VN / EN / JA / KO).
+  - `HOST`: 122 câu (58,1% số câu — mạch dẫn tự sự chủ đạo)
+  - `ĐIỀU TRA VIÊN`: 36 câu (17,1% số câu — Điều tra viên Cảnh sát tỉnh Gyeonggi)
+  - `CHUYÊN GIA TÂM LÝ`: 35 câu (16,7% số câu — Chuyên gia Tâm lý học Tội phạm & Profiler)
+  - `NGƯỜI BÌNH THƯỜNG`: 17 câu (8,1% số câu — N1 Cư dân Hwaseong: 8 câu & N2 Bạn ông Yoon Sung-yeo: 9 câu)
 - **Cơ cấu câu theo Hồi (Act Breakdown):**
-  - **Hồi 1:** 39 câu (H: 27, N1: 7, D: 5)
-  - **Hồi 2:** 29 câu (H: 20, D: 9)
-  - **Hồi 3:** 32 câu (H: 12, C: 20)
-  - **Hồi 4:** 37 câu (H: 15, D: 11, N2: 8, C: 3)
-  - **Hồi 5:** 28 câu (H: 21, D: 3, C: 4)
-  - **Tổng cộng:** **165 câu**
-- **Tổng số từ (Word count):** 5.616 từ.
-- **Thời lượng dự kiến:** 24 – 26 phút.
+  - **Hồi 1:** 51 câu (H: 36, N1: 8, D: 7)
+  - **Hồi 2:** 40 câu (H: 28, D: 12)
+  - **Hồi 3:** 42 câu (H: 16, C: 26)
+  - **Hồi 4:** 45 câu (H: 19, D: 13, N2: 9, C: 4)
+  - **Hồi 5:** 32 câu (H: 23, D: 4, C: 5)
+  - **Tổng cộng:** **210 câu**
+- **Tổng số từ (Word count):** ~6.400 từ.
+- **Thời lượng dự kiến:** 26 – 28 phút.
 - **File kịch bản:** [`01_KICH_BAN/Tap24/kichban_tap24_23102026.md`](file:///d:/TEST/Gax/Audi/01_KICH_BAN/Tap24/kichban_tap24_23102026.md)
 - **File dữ liệu biên dịch:** [`.work/script_tap24.json`](file:///d:/TEST/Gax/Audi/.work/script_tap24.json)
 - **Cấu hình pipeline:** Đã đăng ký mã tập `24` vào `EPISODES` trong [`.work/edition.py`](file:///d:/TEST/Gax/Audi/.work/edition.py).

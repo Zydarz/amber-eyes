@@ -90,3 +90,16 @@ Sao lưu: `.work/_cu/kichban_tap20_23102026_truoc_soat_20261101.md`. Khung 51 ph
 - Nguồn: en.wikipedia.org/wiki/Murder_of_Lauren_Giddings · cbsnews.com/news/georgia-man-pleads-guilty-to-strangling-dismembering-woman · wgxa.tv/archive/mcdaniel-pleads-guilty-to-lauren-giddings-murder (thẩm phán Howard Simms, tháng 4/2014)
 - **Cần nguồn / chờ người dùng quyết:** mức độ "bất động như tượng đá" trong băng thẩm vấn (giữ ở mức "nhiều đoạn", cần xem băng gốc); câu "I need to sit down" (đã chuyển thành lời kể); tên thật của điều tra viên chính.
 - ⚠ `.work/script_tap20.json` (và bản EN/JA) là CŨ — phải parse lại từ bản này trước khi diễn xuất/TTS.
+
+---
+
+## Nâng cấp kịch bản quy mô lớn (>200 câu) theo tiêu chuẩn mới — 07/11/2026
+* Đối tượng: 4 ngôn ngữ (VN, EN, JA, KO) tại `01_KICH_BAN/Tap20/`, `Tap20_EN/`, `Tap20_JA/`, `Tap20_KO/`.
+* Thông số kỹ thuật:
+  - **51 phần tử (Elements)**, **32 lượt thoại (LOI)**, **212 câu đọc (Sentences)** đồng bộ 1:1 tuyệt đối cả 4 ngôn ngữ.
+  - Phân bổ vai: Host 122 câu (57,5%), Điều tra viên 37 câu (17,5%), Chuyên gia tâm lý 36 câu (17,0%), Người bình thường 17 câu (8,0% - N1: 8, N2: 9).
+  - Tích hợp trọn vẹn **Hệ sinh thái 10 chỉ dấu tâm lý & hành vi (A2c)** & Luật K10 (AGENTS.md).
+  - Đạt 100% các cổng kiểm thử tự động: `_qc_all_4scripts_tap20.py` PASS, `_qc_ko_parity.py` PASS.
+  - Chi tiết đối soát 10 chỉ dấu: xem [`REVIEW_kichban_tap20_10chiau.md`](REVIEW_kichban_tap20_10chiau.md).
+  - Chi tiết đối soát đa ngôn ngữ: xem [`REVIEW_kichban_tap20_multilingual.md`](REVIEW_kichban_tap20_multilingual.md).
+

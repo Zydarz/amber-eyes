@@ -1,0 +1,1496 @@
+[
+ {
+  "id": "1.01",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "*Somber Dark Ambient swells, accompanied by slow bass pulses and the suffocating tick of a metallic clock.*"
+ },
+ {
+  "id": "1.02",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "solemn, opening the investigation with psychological depth",
+  "text": "In the final days of June 2011, a heavy, suffocating atmosphere settled over the campus of Mercer University School of Law in Macon, Georgia. Lauren Giddings, twenty-seven years old, a standout graduate studying diligently for the state bar exam, suddenly vanished without a trace. The door to her apartment at the Barristers Hall residential complex showed no signs of forced entry whatsoever. Her family and classmates were unable to reach her for several days, and growing anxiety swiftly transformed into a wave of collective paranoia across the law school. Law students trained in procedural order were suddenly seized with profound dread, deadbolting their doors in the sultry summer heat and eyeing one another with quiet suspicion. The social shockwave widened as local television news crews converged upon the apartment building directly across from the law school to broadcast the mysterious disappearance. Right there on the pavement, a neighbor living directly across the hall from Lauren stepped forward before the cameras with eager urgency. The young man projected intense enthusiasm, portraying himself as a devoted, observant friend deeply invested in the missing woman’s welfare.",
+  "sentences": [
+   {
+    "id": "1.02#1",
+    "text": "In the final days of June 2011, a heavy, suffocating atmosphere settled over the campus of Mercer University School of Law in Macon, Georgia.",
+    "words": 24
+   },
+   {
+    "id": "1.02#2",
+    "text": "Lauren Giddings, twenty-seven years old, a standout graduate studying diligently for the state bar exam, suddenly vanished without a trace.",
+    "words": 20
+   },
+   {
+    "id": "1.02#3",
+    "text": "The door to her apartment at the Barristers Hall residential complex showed no signs of forced entry whatsoever.",
+    "words": 18
+   },
+   {
+    "id": "1.02#4",
+    "text": "Her family and classmates were unable to reach her for several days, and growing anxiety swiftly transformed into a wave of collective paranoia across the law school.",
+    "words": 27
+   },
+   {
+    "id": "1.02#5",
+    "text": "Law students trained in procedural order were suddenly seized with profound dread, deadbolting their doors in the sultry summer heat and eyeing one another with quiet suspicion.",
+    "words": 27
+   },
+   {
+    "id": "1.02#6",
+    "text": "The social shockwave widened as local television news crews converged upon the apartment building directly across from the law school to broadcast the mysterious disappearance.",
+    "words": 25
+   },
+   {
+    "id": "1.02#7",
+    "text": "Right there on the pavement, a neighbor living directly across the hall from Lauren stepped forward before the cameras with eager urgency.",
+    "words": 22
+   },
+   {
+    "id": "1.02#8",
+    "text": "The young man projected intense enthusiasm, portraying himself as a devoted, observant friend deeply invested in the missing woman’s welfare.",
+    "words": 20
+   }
+  ]
+ },
+ {
+  "id": "1.03",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "*Faint hum of television cameras, muffled murmurs from the assembled reporters.*"
+ },
+ {
+  "id": "1.04",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "underscoring the portrait of an eccentric neighbor",
+  "text": "That young man was Stephen McDaniel, twenty-five years old, a law school classmate of Lauren who lived directly opposite her apartment. With unkempt, shoulder-length hair, thick spectacles, and a halting, timid cadence, McDaniel readily assumed the role of an earnest, empathetic peer. Facing the cameras of local station WGXA, he spoke at length about their neighborly rapport and their recent interactions. He voiced desperate concern, professing fervent hopes that his neighbor would soon return safely to her home. McDaniel carefully presented himself as a zealous material witness, an intellectual peer eager to assist law enforcement in their ongoing search. Among his graduating peers, McDaniel had long been dismissed as an awkward, socially clumsy oddity who simply buried himself in academic texts. That very normalcy bias created an impenetrable social blindspot, shielding him completely from suspicion as everyone took his nervous demeanor for harmless eccentricity. Yet a catastrophic development wholly outside his meticulous script was about to strike in the middle of that live broadcast.",
+  "sentences": [
+   {
+    "id": "1.04#1",
+    "text": "That young man was Stephen McDaniel, twenty-five years old, a law school classmate of Lauren who lived directly opposite her apartment.",
+    "words": 21
+   },
+   {
+    "id": "1.04#2",
+    "text": "With unkempt, shoulder-length hair, thick spectacles, and a halting, timid cadence, McDaniel readily assumed the role of an earnest, empathetic peer.",
+    "words": 21
+   },
+   {
+    "id": "1.04#3",
+    "text": "Facing the cameras of local station WGXA, he spoke at length about their neighborly rapport and their recent interactions.",
+    "words": 19
+   },
+   {
+    "id": "1.04#4",
+    "text": "He voiced desperate concern, professing fervent hopes that his neighbor would soon return safely to her home.",
+    "words": 17
+   },
+   {
+    "id": "1.04#5",
+    "text": "McDaniel carefully presented himself as a zealous material witness, an intellectual peer eager to assist law enforcement in their ongoing search.",
+    "words": 21
+   },
+   {
+    "id": "1.04#6",
+    "text": "Among his graduating peers, McDaniel had long been dismissed as an awkward, socially clumsy oddity who simply buried himself in academic texts.",
+    "words": 22
+   },
+   {
+    "id": "1.04#7",
+    "text": "That very normalcy bias created an impenetrable social blindspot, shielding him completely from suspicion as everyone took his nervous demeanor for harmless eccentricity.",
+    "words": 23
+   },
+   {
+    "id": "1.04#8",
+    "text": "Yet a catastrophic development wholly outside his meticulous script was about to strike in the middle of that live broadcast.",
+    "words": 20
+   }
+  ]
+ },
+ {
+  "id": "1.05",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "*Distant police siren wails urgently, intermittent radio static crackles.*"
+ },
+ {
+  "id": "1.06",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "accelerating pace, gripping tension",
+  "text": "While the cameras continued to roll, the female reporter received a breaking update from detectives securing the parking area behind the apartment complex. She turned back toward the young man, informing him that search teams had just made a grim discovery inside a commercial trash container outside the building. That brief, clinical announcement tore through the sweltering afternoon air like a sudden clap of thunder. The entire facade of composed, well-mannered civic virtue that Stephen McDaniel had projected instantly shattered into pieces. The broadcast camera inadvertently captured an unmistakable physical metamorphosis, a visceral psychological implosion chilling to behold. The calculated concealment of an arrogant mind collapsed in a fraction of a second due to an unforeseen timing anomaly. Imagine the stunned horror of a fellow law student standing nearby during that exact moment.",
+  "sentences": [
+   {
+    "id": "1.06#1",
+    "text": "While the cameras continued to roll, the female reporter received a breaking update from detectives securing the parking area behind the apartment complex.",
+    "words": 23
+   },
+   {
+    "id": "1.06#2",
+    "text": "She turned back toward the young man, informing him that search teams had just made a grim discovery inside a commercial trash container outside the building.",
+    "words": 26
+   },
+   {
+    "id": "1.06#3",
+    "text": "That brief, clinical announcement tore through the sweltering afternoon air like a sudden clap of thunder.",
+    "words": 16
+   },
+   {
+    "id": "1.06#4",
+    "text": "The entire facade of composed, well-mannered civic virtue that Stephen McDaniel had projected instantly shattered into pieces.",
+    "words": 17
+   },
+   {
+    "id": "1.06#5",
+    "text": "The broadcast camera inadvertently captured an unmistakable physical metamorphosis, a visceral psychological implosion chilling to behold.",
+    "words": 16
+   },
+   {
+    "id": "1.06#6",
+    "text": "The calculated concealment of an arrogant mind collapsed in a fraction of a second due to an unforeseen timing anomaly.",
+    "words": 20
+   },
+   {
+    "id": "1.06#7",
+    "text": "Imagine the stunned horror of a fellow law student standing nearby during that exact moment.",
+    "words": 15
+   }
+  ]
+ },
+ {
+  "id": "1.07",
+  "act": 1,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "N1: Mercer Law School Classmate, female voice, shaken and emotional",
+  "text": "When Lauren failed to appear for our bar study sessions and stopped replying to our messages, every one of us knew immediately that something terrible had happened. Lauren was remarkably conscientious, brimming with infectious joy and boundless intelligence, and she was someone who never simply vanished without notifying friends. She was a beloved student leader, always ready to support her peers with an radiant smile, standing on the threshold of an inspiring legal career. We went door to door throughout Barristers Hall, printed hundreds of missing person flyers, and posted them along every avenue surrounding the law school. When I saw Stephen standing before the news cameras, I genuinely assumed he was just an eccentric classmate trying his best to help our community. Yet the second the reporter mentioned the discovery in the dumpster, the expression on Stephen’s face gave me absolute chills. He displayed neither the shock nor the frantic grief of an innocent friend, his face went utterly blank in the paralyzing dread of someone caught red-handed. He went completely mute and sank down onto the curb, as though a monstrous secret had just been ripped into the blinding light of day.",
+  "sentences": [
+   {
+    "id": "1.07#1",
+    "text": "When Lauren failed to appear for our bar study sessions and stopped replying to our messages, every one of us knew immediately that something terrible had happened.",
+    "words": 27
+   },
+   {
+    "id": "1.07#2",
+    "text": "Lauren was remarkably conscientious, brimming with infectious joy and boundless intelligence, and she was someone who never simply vanished without notifying friends.",
+    "words": 22
+   },
+   {
+    "id": "1.07#3",
+    "text": "She was a beloved student leader, always ready to support her peers with an radiant smile, standing on the threshold of an inspiring legal career.",
+    "words": 25
+   },
+   {
+    "id": "1.07#4",
+    "text": "We went door to door throughout Barristers Hall, printed hundreds of missing person flyers, and posted them along every avenue surrounding the law school.",
+    "words": 24
+   },
+   {
+    "id": "1.07#5",
+    "text": "When I saw Stephen standing before the news cameras, I genuinely assumed he was just an eccentric classmate trying his best to help our community.",
+    "words": 25
+   },
+   {
+    "id": "1.07#6",
+    "text": "Yet the second the reporter mentioned the discovery in the dumpster, the expression on Stephen’s face gave me absolute chills.",
+    "words": 20
+   },
+   {
+    "id": "1.07#7",
+    "text": "He displayed neither the shock nor the frantic grief of an innocent friend, his face went utterly blank in the paralyzing dread of someone caught red-handed.",
+    "words": 26
+   },
+   {
+    "id": "1.07#8",
+    "text": "He went completely mute and sank down onto the curb, as though a monstrous secret had just been ripped into the blinding light of day.",
+    "words": 25
+   }
+  ]
+ },
+ {
+  "id": "1.08",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "*Choked, labored breathing caught distinctly on the microphone.*"
+ },
+ {
+  "id": "1.09",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "chilling, forensic analysis of cognitive shock",
+  "text": "Stephen McDaniel’s physiological reaction to that grim news has become one of the most studied video recordings in criminal behavioral analysis. He repeated the reporter’s words with a constricted, raspy voice, his eyes darting erratically in unmitigated panic. Then he sank onto the concrete curb, burying his face in his hands, entirely incapable of maintaining his composure on live television. An innocent individual learning of a peer’s death displays grief, disbelief, or desperate demands for clarity, never the sheer terror of an architect whose alibi has collapsed. McDaniel had calculated that the municipal garbage truck would haul away all evidence before police could widen their search parameters. An unexpected delay in the municipal collection schedule became the tipping point that destroyed his intricate cover-up. The seasoned instincts of Macon Police Department detectives observing from the perimeter recognized the red flag behind that extreme reaction. Immediately following that broadcast moment, Stephen McDaniel was escorted to police headquarters for formal investigative interrogation.",
+  "sentences": [
+   {
+    "id": "1.09#1",
+    "text": "Stephen McDaniel’s physiological reaction to that grim news has become one of the most studied video recordings in criminal behavioral analysis.",
+    "words": 21
+   },
+   {
+    "id": "1.09#2",
+    "text": "He repeated the reporter’s words with a constricted, raspy voice, his eyes darting erratically in unmitigated panic.",
+    "words": 17
+   },
+   {
+    "id": "1.09#3",
+    "text": "Then he sank onto the concrete curb, burying his face in his hands, entirely incapable of maintaining his composure on live television.",
+    "words": 22
+   },
+   {
+    "id": "1.09#4",
+    "text": "An innocent individual learning of a peer’s death displays grief, disbelief, or desperate demands for clarity, never the sheer terror of an architect whose alibi has collapsed.",
+    "words": 27
+   },
+   {
+    "id": "1.09#5",
+    "text": "McDaniel had calculated that the municipal garbage truck would haul away all evidence before police could widen their search parameters.",
+    "words": 20
+   },
+   {
+    "id": "1.09#6",
+    "text": "An unexpected delay in the municipal collection schedule became the tipping point that destroyed his intricate cover-up.",
+    "words": 17
+   },
+   {
+    "id": "1.09#7",
+    "text": "The seasoned instincts of Macon Police Department detectives observing from the perimeter recognized the red flag behind that extreme reaction.",
+    "words": 20
+   },
+   {
+    "id": "1.09#8",
+    "text": "Immediately following that broadcast moment, Stephen McDaniel was escorted to police headquarters for formal investigative interrogation.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "1.10",
+  "act": 1,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: middle-aged male voice, razor-sharp, clinical precision",
+  "text": "Reviewing the news broadcast recording, my fellow detectives and I spotted glaring behavioral red flags right away. The abrupt transition from verbose, confident lecturing to total physical paralysis indicated a massive cognitive shockwave had hit his brain. The hollow stare and rapid, shallow respirations were not expressions of mourning, but the telltale signs of a predator realizing his trap had closed on himself. The perpetrator assumed all forensic traces were gone, and the unexpected discovery obliterated his fantasy of an undetectable crime. Imagine an investigator’s perspective examining every micro-expression and trembling breath captured on that high-definition tape. He never once asked whether there was any chance Lauren was alive, he immediately looked for a curb to collapse onto, seeking to hide his trembling limbs. We made the decision to place McDaniel into an interrogation suite that very evening to dismantle the false mask of this eccentric law graduate.",
+  "sentences": [
+   {
+    "id": "1.10#1",
+    "text": "Reviewing the news broadcast recording, my fellow detectives and I spotted glaring behavioral red flags right away.",
+    "words": 17
+   },
+   {
+    "id": "1.10#2",
+    "text": "The abrupt transition from verbose, confident lecturing to total physical paralysis indicated a massive cognitive shockwave had hit his brain.",
+    "words": 20
+   },
+   {
+    "id": "1.10#3",
+    "text": "The hollow stare and rapid, shallow respirations were not expressions of mourning, but the telltale signs of a predator realizing his trap had closed on himself.",
+    "words": 26
+   },
+   {
+    "id": "1.10#4",
+    "text": "The perpetrator assumed all forensic traces were gone, and the unexpected discovery obliterated his fantasy of an undetectable crime.",
+    "words": 19
+   },
+   {
+    "id": "1.10#5",
+    "text": "Imagine an investigator’s perspective examining every micro-expression and trembling breath captured on that high-definition tape.",
+    "words": 15
+   },
+   {
+    "id": "1.10#6",
+    "text": "He never once asked whether there was any chance Lauren was alive, he immediately looked for a curb to collapse onto, seeking to hide his trembling limbs.",
+    "words": 27
+   },
+   {
+    "id": "1.10#7",
+    "text": "We made the decision to place McDaniel into an interrogation suite that very evening to dismantle the false mask of this eccentric law graduate.",
+    "words": 24
+   }
+  ]
+ },
+ {
+  "id": "1.11",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "closing Act 1, transitioning into the interrogation suite",
+  "text": "The door of the Macon Police Department interrogation room closed shut, initiating a psychological battle of nerves spanning more than twelve grueling hours. Yet what investigators were about to confront inside that soundproof room was neither standard evasiveness nor aggressive denial. It was an unprecedented behavioral phenomenon, transforming the interrogation into a spine-chilling contest of human endurance. A battle between the tenacity of criminal forensics and the rigid psychological fortifications of a covert predator.",
+  "sentences": [
+   {
+    "id": "1.11#1",
+    "text": "The door of the Macon Police Department interrogation room closed shut, initiating a psychological battle of nerves spanning more than twelve grueling hours.",
+    "words": 23
+   },
+   {
+    "id": "1.11#2",
+    "text": "Yet what investigators were about to confront inside that soundproof room was neither standard evasiveness nor aggressive denial.",
+    "words": 18
+   },
+   {
+    "id": "1.11#3",
+    "text": "It was an unprecedented behavioral phenomenon, transforming the interrogation into a spine-chilling contest of human endurance.",
+    "words": 16
+   },
+   {
+    "id": "1.11#4",
+    "text": "A battle between the tenacity of criminal forensics and the rigid psychological fortifications of a covert predator.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "1.12",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "*A deep bass drone reverberates before abruptly cutting off, leaving a breathless silence before Act 2.*"
+ },
+ {
+  "id": "2.01",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "*Chilling Minimalist Ambient tones pulse steadily alongside the dry tick of an electronic clock.*"
+ },
+ {
+  "id": "2.02",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "measured, clinical cadence, detailing the eerie immobility",
+  "text": "The Macon Police Department interrogation footage was subsequently released to the public and became a landmark behavioral case study. Across recorded segments spanning several hours, Stephen McDaniel sat facing detectives virtually without a single physical movement. He maintained an absolute, unyielding posture, resembling a stone statue placed in the middle of a sparse room. He did not blink with natural biological regularity, never shifted his seated posture, and steadfastly refused even a paper cup of water. The ambient silence grew so suffocating that it unsettled anyone observing through the two-way mirror and surveillance feeds.",
+  "sentences": [
+   {
+    "id": "2.02#1",
+    "text": "The Macon Police Department interrogation footage was subsequently released to the public and became a landmark behavioral case study.",
+    "words": 19
+   },
+   {
+    "id": "2.02#2",
+    "text": "Across recorded segments spanning several hours, Stephen McDaniel sat facing detectives virtually without a single physical movement.",
+    "words": 17
+   },
+   {
+    "id": "2.02#3",
+    "text": "He maintained an absolute, unyielding posture, resembling a stone statue placed in the middle of a sparse room.",
+    "words": 18
+   },
+   {
+    "id": "2.02#4",
+    "text": "He did not blink with natural biological regularity, never shifted his seated posture, and steadfastly refused even a paper cup of water.",
+    "words": 22
+   },
+   {
+    "id": "2.02#5",
+    "text": "The ambient silence grew so suffocating that it unsettled anyone observing through the two-way mirror and surveillance feeds.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "2.03",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "*Monotonous whir of an overhead ventilation fan, heavy breathing in the closed room.*"
+ },
+ {
+  "id": "2.04",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "steely, analytical tone, probing the psychological armor",
+  "text": "He answered questions in a monotone, guttural cadence, reminiscent of a machine executing pre-programmed code. Even when detectives excused themselves and left him seated entirely alone, he sustained that absolute, unnatural stillness. There were no sighs, no glances toward the hidden cameras, nor any of the restless fidgeting common among suspects left in isolation. This bizarre physical posture can be understood as an extreme exertion of bodily suppression, a calculated defense strategy. As a recent law school graduate, McDaniel understood that micro-gestures, postural shifts, or rapid blinks could betray his thoughts. He deliberately chose to suppress his entire physical body language to conceal the violent psychological tempest raging beneath his icy facade. He naively believed that by offering zero physical reactions, investigators would find no behavioral cracks to exploit. Yet that radical, unnatural immobility paradoxically functioned as a blazing compass needle pointing directly to his deepest guilt.",
+  "sentences": [
+   {
+    "id": "2.04#1",
+    "text": "He answered questions in a monotone, guttural cadence, reminiscent of a machine executing pre-programmed code.",
+    "words": 15
+   },
+   {
+    "id": "2.04#2",
+    "text": "Even when detectives excused themselves and left him seated entirely alone, he sustained that absolute, unnatural stillness.",
+    "words": 17
+   },
+   {
+    "id": "2.04#3",
+    "text": "There were no sighs, no glances toward the hidden cameras, nor any of the restless fidgeting common among suspects left in isolation.",
+    "words": 22
+   },
+   {
+    "id": "2.04#4",
+    "text": "This bizarre physical posture can be understood as an extreme exertion of bodily suppression, a calculated defense strategy.",
+    "words": 18
+   },
+   {
+    "id": "2.04#5",
+    "text": "As a recent law school graduate, McDaniel understood that micro-gestures, postural shifts, or rapid blinks could betray his thoughts.",
+    "words": 19
+   },
+   {
+    "id": "2.04#6",
+    "text": "He deliberately chose to suppress his entire physical body language to conceal the violent psychological tempest raging beneath his icy facade.",
+    "words": 21
+   },
+   {
+    "id": "2.04#7",
+    "text": "He naively believed that by offering zero physical reactions, investigators would find no behavioral cracks to exploit.",
+    "words": 17
+   },
+   {
+    "id": "2.04#8",
+    "text": "Yet that radical, unnatural immobility paradoxically functioned as a blazing compass needle pointing directly to his deepest guilt.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "2.05",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "*Search warrant binder opens crisply, metallic cluster of keys clinks onto the table.*"
+ },
+ {
+  "id": "2.06",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: unmasking the interrogation duel and parallel physical search",
+  "text": "Imagine an investigator’s perspective sitting directly opposite a suspect exercising such terrifying, unnatural bodily restraint. He deliberately constructed an emotional fortress to deny us psychological entry, convinced that total silence was an impenetrable shield. Yet in professional forensic interrogation, extreme immobility is itself a tacit confession of profound internal panic. An innocent person displays indignation, restless frustration, or a drive to explain, never the total paralysis of natural biological reflexes. While he sat frozen in that interview chair, our parallel search team executed an emergency warrant on his apartment directly across the hall. Every drawer, every crawlspace beneath his bed, and his personal belongings were systematically scrutinized under forensic lighting. And the dark exhibits concealed inside McDaniel’s residence began emerging one by one into the light of truth.",
+  "sentences": [
+   {
+    "id": "2.06#1",
+    "text": "Imagine an investigator’s perspective sitting directly opposite a suspect exercising such terrifying, unnatural bodily restraint.",
+    "words": 15
+   },
+   {
+    "id": "2.06#2",
+    "text": "He deliberately constructed an emotional fortress to deny us psychological entry, convinced that total silence was an impenetrable shield.",
+    "words": 19
+   },
+   {
+    "id": "2.06#3",
+    "text": "Yet in professional forensic interrogation, extreme immobility is itself a tacit confession of profound internal panic.",
+    "words": 16
+   },
+   {
+    "id": "2.06#4",
+    "text": "An innocent person displays indignation, restless frustration, or a drive to explain, never the total paralysis of natural biological reflexes.",
+    "words": 20
+   },
+   {
+    "id": "2.06#5",
+    "text": "While he sat frozen in that interview chair, our parallel search team executed an emergency warrant on his apartment directly across the hall.",
+    "words": 23
+   },
+   {
+    "id": "2.06#6",
+    "text": "Every drawer, every crawlspace beneath his bed, and his personal belongings were systematically scrutinized under forensic lighting.",
+    "words": 17
+   },
+   {
+    "id": "2.06#7",
+    "text": "And the dark exhibits concealed inside McDaniel’s residence began emerging one by one into the light of truth.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "2.07",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "*Drawer slides open, rustle of plastic evidence bags.*"
+ },
+ {
+  "id": "2.08",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "resolute, revealing the devastating material exhibits",
+  "text": "Inside McDaniel’s apartment, forensic technicians uncovered physical evidence that would prove decisive to the entire investigation. Most striking was a building master key capable of unlocking every residential unit across the Barristers Hall complex. This manager’s passkey was the pivotal mechanical instrument enabling the perpetrator to enter without leaving any forced entry marks. Detectives also recovered packaging for a specialized metallic tool carefully concealed inside his bedroom. The corresponding metallic instrument was subsequently retrieved from the building’s maintenance room, bearing biological evidence matching Lauren Giddings. Forensic reconstruction proved the perpetrator utilized unauthorized key access to violate the inviolable sanctuary of the victim’s home. The persona of an innocent, harmless law classmate collapsed entirely before the weight of unassailable forensic exhibits.",
+  "sentences": [
+   {
+    "id": "2.08#1",
+    "text": "Inside McDaniel’s apartment, forensic technicians uncovered physical evidence that would prove decisive to the entire investigation.",
+    "words": 16
+   },
+   {
+    "id": "2.08#2",
+    "text": "Most striking was a building master key capable of unlocking every residential unit across the Barristers Hall complex.",
+    "words": 18
+   },
+   {
+    "id": "2.08#3",
+    "text": "This manager’s passkey was the pivotal mechanical instrument enabling the perpetrator to enter without leaving any forced entry marks.",
+    "words": 19
+   },
+   {
+    "id": "2.08#4",
+    "text": "Detectives also recovered packaging for a specialized metallic tool carefully concealed inside his bedroom.",
+    "words": 14
+   },
+   {
+    "id": "2.08#5",
+    "text": "The corresponding metallic instrument was subsequently retrieved from the building’s maintenance room, bearing biological evidence matching Lauren Giddings.",
+    "words": 18
+   },
+   {
+    "id": "2.08#6",
+    "text": "Forensic reconstruction proved the perpetrator utilized unauthorized key access to violate the inviolable sanctuary of the victim’s home.",
+    "words": 18
+   },
+   {
+    "id": "2.08#7",
+    "text": "The persona of an innocent, harmless law classmate collapsed entirely before the weight of unassailable forensic exhibits.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "2.09",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: reconstructing the modus operandi and forensic certainty",
+  "text": "Comparing the recovered master key with scene evidence, we reconstructed the exact methodology of the perpetrator’s predawn entry. He required no crowbar or jimmy, using the stolen passkey to quietly open Lauren’s door while she was asleep in her bed. He had calculated every move to neutralize any possibility of defense, intending to turn a homicide into an untraceable disappearance. Yet between the theoretical schemes of an arrogant law graduate and the unforgiving reality of forensic science lies a massive chasm. Microscopic tool marks on metal and biological traces are objective physical witnesses that never lie. Everything he staged before the television news crews and inside the interview room was merely the clumsy performance of an arrogant mind.",
+  "sentences": [
+   {
+    "id": "2.09#1",
+    "text": "Comparing the recovered master key with scene evidence, we reconstructed the exact methodology of the perpetrator’s predawn entry.",
+    "words": 18
+   },
+   {
+    "id": "2.09#2",
+    "text": "He required no crowbar or jimmy, using the stolen passkey to quietly open Lauren’s door while she was asleep in her bed.",
+    "words": 22
+   },
+   {
+    "id": "2.09#3",
+    "text": "He had calculated every move to neutralize any possibility of defense, intending to turn a homicide into an untraceable disappearance.",
+    "words": 20
+   },
+   {
+    "id": "2.09#4",
+    "text": "Yet between the theoretical schemes of an arrogant law graduate and the unforgiving reality of forensic science lies a massive chasm.",
+    "words": 21
+   },
+   {
+    "id": "2.09#5",
+    "text": "Microscopic tool marks on metal and biological traces are objective physical witnesses that never lie.",
+    "words": 15
+   },
+   {
+    "id": "2.09#6",
+    "text": "Everything he staged before the television news crews and inside the interview room was merely the clumsy performance of an arrogant mind.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "2.10",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "closing Act 2, setting the stage for psychiatric profiling",
+  "text": "Those physical exhibits shattered the stubborn silence of the stone statue inside the Macon Police Department. Yet what genuine motive drove an educated young man with an auspicious future to destroy a classmate who had shown him only kindness? The definitive answer lay deep within his personal laptop, where hundreds of thousands of disturbing files had accumulated over years. Recovered internet search records revealed a methodical escalation from lock-picking queries to voyeurism and pathological fixations. He had been silently tracking the victim’s daily routines long before he decided to mount his physical intrusion. His addiction to predatory control forced him to raise his behavioral dosage, progressing from distant surveillance to territorial violation. Criminal behavioral profilers initiated an in-depth psychiatric dissection to expose the architecture of a predatory stalker. A distorted internal universe dominated by obsessive entitlement gradually took shape through every digital breadcrumb.",
+  "sentences": [
+   {
+    "id": "2.10#1",
+    "text": "Those physical exhibits shattered the stubborn silence of the stone statue inside the Macon Police Department.",
+    "words": 16
+   },
+   {
+    "id": "2.10#2",
+    "text": "Yet what genuine motive drove an educated young man with an auspicious future to destroy a classmate who had shown him only kindness?",
+    "words": 23
+   },
+   {
+    "id": "2.10#3",
+    "text": "The definitive answer lay deep within his personal laptop, where hundreds of thousands of disturbing files had accumulated over years.",
+    "words": 20
+   },
+   {
+    "id": "2.10#4",
+    "text": "Recovered internet search records revealed a methodical escalation from lock-picking queries to voyeurism and pathological fixations.",
+    "words": 16
+   },
+   {
+    "id": "2.10#5",
+    "text": "He had been silently tracking the victim’s daily routines long before he decided to mount his physical intrusion.",
+    "words": 18
+   },
+   {
+    "id": "2.10#6",
+    "text": "His addiction to predatory control forced him to raise his behavioral dosage, progressing from distant surveillance to territorial violation.",
+    "words": 19
+   },
+   {
+    "id": "2.10#7",
+    "text": "Criminal behavioral profilers initiated an in-depth psychiatric dissection to expose the architecture of a predatory stalker.",
+    "words": 16
+   },
+   {
+    "id": "2.10#8",
+    "text": "A distorted internal universe dominated by obsessive entitlement gradually took shape through every digital breadcrumb.",
+    "words": 15
+   }
+  ]
+ },
+ {
+  "id": "2.11",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "*Electronic drone subsides, transitioning into a measured, analytical Minimalist Piano melody.*"
+ },
+ {
+  "id": "3.01",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "*Minimalist Piano chords merge with a low atmospheric drone, creating a focused psychiatric dissection space.*"
+ },
+ {
+  "id": "3.02",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "measured, introducing specialized forensic behavioral concepts",
+  "text": "The case of Stephen McDaniel stands as a textbook illustration in forensic behavioral science of predatory stalking. Unlike perpetrators who engage in overt public harassment, covert predatory stalkers frequently conceal themselves behind a persona of quiet awkwardness. Their paramount danger resides in their ability to disguise territorial surveillance beneath a facade of benign neighborly interest. They patiently observe their quarry from the shadows, accumulating intimate personal details while awaiting an opportune moment to strike. To illuminate the psychological engine driving this catastrophe, behavioral specialists conducted an exhaustive evaluation of his digital archive and personality matrix. The resulting psychological blueprint exposed a multi-year trajectory of escalating obsession advancing through increasingly lethal pathological stages.",
+  "sentences": [
+   {
+    "id": "3.02#1",
+    "text": "The case of Stephen McDaniel stands as a textbook illustration in forensic behavioral science of predatory stalking.",
+    "words": 17
+   },
+   {
+    "id": "3.02#2",
+    "text": "Unlike perpetrators who engage in overt public harassment, covert predatory stalkers frequently conceal themselves behind a persona of quiet awkwardness.",
+    "words": 20
+   },
+   {
+    "id": "3.02#3",
+    "text": "Their paramount danger resides in their ability to disguise territorial surveillance beneath a facade of benign neighborly interest.",
+    "words": 18
+   },
+   {
+    "id": "3.02#4",
+    "text": "They patiently observe their quarry from the shadows, accumulating intimate personal details while awaiting an opportune moment to strike.",
+    "words": 19
+   },
+   {
+    "id": "3.02#5",
+    "text": "To illuminate the psychological engine driving this catastrophe, behavioral specialists conducted an exhaustive evaluation of his digital archive and personality matrix.",
+    "words": 21
+   },
+   {
+    "id": "3.02#6",
+    "text": "The resulting psychological blueprint exposed a multi-year trajectory of escalating obsession advancing through increasingly lethal pathological stages.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "3.03",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: Forensic Psychiatrist, scholarly, measured cadence",
+  "text": "Digital forensics extracted from McDaniel’s laptop proved he had nurtured an extreme possessive obsession toward Lauren Giddings for months prior to the murder. The most chilling exhibits consisted of video files he recorded of Lauren from outside her apartment on the very night of the tragedy. She was entirely unaware that she was being systematically surveilled inside her most private domestic sanctuary. This conduct exemplifies predatory voyeurism, wherein a perpetrator derives intense power arousal through the covert violation of a victim’s personal boundaries. In McDaniel’s warped cognitive framework, Lauren was not perceived as an autonomous human being with feelings and aspirations, but objectified into an instrument for narcissistic supply. A profound deficit in affective empathy rendered him completely indifferent to the terror or the human dignity of another living soul. Peeping into her life and secretly chronicling her movements generated a pathological delusion of absolute psychological ownership. He regarded her as a fitting trophy for his perceived intellectual superiority, a prized possession over which he held exclusive entitlement. Consequently, any development threatening to sever that perceived dominion was experienced as an intolerable narcissistic injury.",
+  "sentences": [
+   {
+    "id": "3.03#1",
+    "text": "Digital forensics extracted from McDaniel’s laptop proved he had nurtured an extreme possessive obsession toward Lauren Giddings for months prior to the murder.",
+    "words": 23
+   },
+   {
+    "id": "3.03#2",
+    "text": "The most chilling exhibits consisted of video files he recorded of Lauren from outside her apartment on the very night of the tragedy.",
+    "words": 23
+   },
+   {
+    "id": "3.03#3",
+    "text": "She was entirely unaware that she was being systematically surveilled inside her most private domestic sanctuary.",
+    "words": 16
+   },
+   {
+    "id": "3.03#4",
+    "text": "This conduct exemplifies predatory voyeurism, wherein a perpetrator derives intense power arousal through the covert violation of a victim’s personal boundaries.",
+    "words": 21
+   },
+   {
+    "id": "3.03#5",
+    "text": "In McDaniel’s warped cognitive framework, Lauren was not perceived as an autonomous human being with feelings and aspirations, but objectified into an instrument for narcissistic supply.",
+    "words": 26
+   },
+   {
+    "id": "3.03#6",
+    "text": "A profound deficit in affective empathy rendered him completely indifferent to the terror or the human dignity of another living soul.",
+    "words": 21
+   },
+   {
+    "id": "3.03#7",
+    "text": "Peeping into her life and secretly chronicling her movements generated a pathological delusion of absolute psychological ownership.",
+    "words": 17
+   },
+   {
+    "id": "3.03#8",
+    "text": "He regarded her as a fitting trophy for his perceived intellectual superiority, a prized possession over which he held exclusive entitlement.",
+    "words": 21
+   },
+   {
+    "id": "3.03#9",
+    "text": "Consequently, any development threatening to sever that perceived dominion was experienced as an intolerable narcissistic injury.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "3.04",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "probing, detailing the critical tipping point",
+  "text": "The arrogant grandiosity of a man convinced of his intellectual supremacy inexorably drove him toward a fatal psychological fracture. Lauren Giddings had successfully graduated with honors and was finalizing arrangements to relocate to Atlanta to launch her legal career. The packing boxes stacked near her doorway were visible warnings that his months of covert voyeuristic control were coming to an abrupt end. That intolerable loss of proximity acted as the catalyst, activating the lethal behavioral eruption of a thwarted predator.",
+  "sentences": [
+   {
+    "id": "3.04#1",
+    "text": "The arrogant grandiosity of a man convinced of his intellectual supremacy inexorably drove him toward a fatal psychological fracture.",
+    "words": 19
+   },
+   {
+    "id": "3.04#2",
+    "text": "Lauren Giddings had successfully graduated with honors and was finalizing arrangements to relocate to Atlanta to launch her legal career.",
+    "words": 20
+   },
+   {
+    "id": "3.04#3",
+    "text": "The packing boxes stacked near her doorway were visible warnings that his months of covert voyeuristic control were coming to an abrupt end.",
+    "words": 23
+   },
+   {
+    "id": "3.04#4",
+    "text": "That intolerable loss of proximity acted as the catalyst, activating the lethal behavioral eruption of a thwarted predator.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "3.05",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: Dissecting the precipitating stressor and behavioral detonation",
+  "text": "In criminal psychology, a victim’s impending permanent departure frequently constitutes the precipitating stressor. McDaniel recognized that once Lauren relocated to Atlanta, physical distance would forever extinguish his covert surveillance and fantasy access. The terror of losing control inflicted a catastrophic blow upon his fragile ego, triggering a violent narcissistic rage. He could not tolerate the reality that the victim possessed an independent existence entirely outside his reach and jurisdiction. Extreme possessiveness inverted into a monstrous calculation: if he could not possess her, no one else in the world would ever be permitted to have her. This psychological breaking point collapsed the final behavioral inhibitions remaining within his cognitive apparatus. Months of silent voyeuristic obsession instantly transformed into a premeditated operational decision to breach her home and extinguish her life. He weaponized the stolen passkey as the instrument to consummate his fantasy of omnipotent dominance. This was never an impulsive crime of passion, but an execution prepared with clinical premeditation by a pathological mind.",
+  "sentences": [
+   {
+    "id": "3.05#1",
+    "text": "In criminal psychology, a victim’s impending permanent departure frequently constitutes the precipitating stressor.",
+    "words": 13
+   },
+   {
+    "id": "3.05#2",
+    "text": "McDaniel recognized that once Lauren relocated to Atlanta, physical distance would forever extinguish his covert surveillance and fantasy access.",
+    "words": 19
+   },
+   {
+    "id": "3.05#3",
+    "text": "The terror of losing control inflicted a catastrophic blow upon his fragile ego, triggering a violent narcissistic rage.",
+    "words": 18
+   },
+   {
+    "id": "3.05#4",
+    "text": "He could not tolerate the reality that the victim possessed an independent existence entirely outside his reach and jurisdiction.",
+    "words": 19
+   },
+   {
+    "id": "3.05#5",
+    "text": "Extreme possessiveness inverted into a monstrous calculation: if he could not possess her, no one else in the world would ever be permitted to have her.",
+    "words": 26
+   },
+   {
+    "id": "3.05#6",
+    "text": "This psychological breaking point collapsed the final behavioral inhibitions remaining within his cognitive apparatus.",
+    "words": 14
+   },
+   {
+    "id": "3.05#7",
+    "text": "Months of silent voyeuristic obsession instantly transformed into a premeditated operational decision to breach her home and extinguish her life.",
+    "words": 20
+   },
+   {
+    "id": "3.05#8",
+    "text": "He weaponized the stolen passkey as the instrument to consummate his fantasy of omnipotent dominance.",
+    "words": 15
+   },
+   {
+    "id": "3.05#9",
+    "text": "This was never an impulsive crime of passion, but an execution prepared with clinical premeditation by a pathological mind.",
+    "words": 19
+   }
+  ]
+ },
+ {
+  "id": "3.06",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "shifting focus to the physiological freeze response",
+  "text": "An overweening faith in his own intellect was the central pillar underpinning Stephen McDaniel’s criminal conduct. As an aspiring legal professional, he believed he could architect a perfect homicide that would confound seasoned homicide detectives. Yet that narcissistic delusion produced an extraordinary physiological phenomenon when his construct was abruptly shattered.",
+  "sentences": [
+   {
+    "id": "3.06#1",
+    "text": "An overweening faith in his own intellect was the central pillar underpinning Stephen McDaniel’s criminal conduct.",
+    "words": 16
+   },
+   {
+    "id": "3.06#2",
+    "text": "As an aspiring legal professional, he believed he could architect a perfect homicide that would confound seasoned homicide detectives.",
+    "words": 19
+   },
+   {
+    "id": "3.06#3",
+    "text": "Yet that narcissistic delusion produced an extraordinary physiological phenomenon when his construct was abruptly shattered.",
+    "words": 15
+   }
+  ]
+ },
+ {
+  "id": "3.07",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: Analyzing Cognitive Compartmentalization, Neutralization, and Tonic Immobility",
+  "text": "McDaniel’s mind operated through a rigid structure of cognitive compartmentalization. In one compartment, he functioned as a studious graduate preparing for the bar examination; in the dark compartment, he was a nocturnal predator. He employed moral neutralization techniques to quiet his conscience, framing himself as a misunderstood outsider and blaming female rejection. When confronted with the collapse of his alibi on live television, his central nervous system suffered massive cognitive overload. The primitive survival mechanism known as the freeze response seized control, locking his musculature into instantaneous paralysis. Inside the interrogation suite, his hours of statue-like immobility represented an artificial defense strategy simulating tonic immobility to suppress micro-expressions. He naively calculated that by suppressing all physical motion, interrogators would be unable to decode his internal deception. Yet in forensic psychiatry, that strained, unnatural petrification was the most transparent testament to the total collapse of his criminal ego.",
+  "sentences": [
+   {
+    "id": "3.07#1",
+    "text": "McDaniel’s mind operated through a rigid structure of cognitive compartmentalization.",
+    "words": 10
+   },
+   {
+    "id": "3.07#2",
+    "text": "In one compartment, he functioned as a studious graduate preparing for the bar examination; in the dark compartment, he was a nocturnal predator.",
+    "words": 23
+   },
+   {
+    "id": "3.07#3",
+    "text": "He employed moral neutralization techniques to quiet his conscience, framing himself as a misunderstood outsider and blaming female rejection.",
+    "words": 19
+   },
+   {
+    "id": "3.07#4",
+    "text": "When confronted with the collapse of his alibi on live television, his central nervous system suffered massive cognitive overload.",
+    "words": 19
+   },
+   {
+    "id": "3.07#5",
+    "text": "The primitive survival mechanism known as the freeze response seized control, locking his musculature into instantaneous paralysis.",
+    "words": 17
+   },
+   {
+    "id": "3.07#6",
+    "text": "Inside the interrogation suite, his hours of statue-like immobility represented an artificial defense strategy simulating tonic immobility to suppress micro-expressions.",
+    "words": 20
+   },
+   {
+    "id": "3.07#7",
+    "text": "He naively calculated that by suppressing all physical motion, interrogators would be unable to decode his internal deception.",
+    "words": 18
+   },
+   {
+    "id": "3.07#8",
+    "text": "Yet in forensic psychiatry, that strained, unnatural petrification was the most transparent testament to the total collapse of his criminal ego.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "3.08",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "closing Act 3, transitioning toward the judicial resolution",
+  "text": "The psychological fortress McDaniel constructed for himself ultimately became an inescapable trap validating his guilt. No degree of intellectual conceit could shield the perpetrator from the systematic advances of modern forensic science. Exhaustive behavioral profiling reinforced the comprehensive tapestry of evidence that prosecutors readied for the trial. Confronted with the stark reality of capital punishment, the predator’s arrogance finally bowed before the machinery of justice.",
+  "sentences": [
+   {
+    "id": "3.08#1",
+    "text": "The psychological fortress McDaniel constructed for himself ultimately became an inescapable trap validating his guilt.",
+    "words": 15
+   },
+   {
+    "id": "3.08#2",
+    "text": "No degree of intellectual conceit could shield the perpetrator from the systematic advances of modern forensic science.",
+    "words": 17
+   },
+   {
+    "id": "3.08#3",
+    "text": "Exhaustive behavioral profiling reinforced the comprehensive tapestry of evidence that prosecutors readied for the trial.",
+    "words": 15
+   },
+   {
+    "id": "3.08#4",
+    "text": "Confronted with the stark reality of capital punishment, the predator’s arrogance finally bowed before the machinery of justice.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "3.09",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "*Piano tones darken into a solemn, heavy motif, preparing for the gravity of the courtroom proceedings.*"
+ },
+ {
+  "id": "4.01",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "*Tense, brooding violin lines surge, echoed by the stark strike of a judicial gavel.*"
+ },
+ {
+  "id": "4.02",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "evoking the historical gravitas of the sentencing hearing",
+  "text": "Following nearly three years of pre-trial maneuvering, in April 2014, mere days before his trial was set to open, Stephen McDaniel appeared before the Bibb County Superior Court. Presided over by Judge Howard Simms, the courtroom was packed to capacity with Lauren’s family, friends, and national media correspondents. A heavy, somber atmosphere permeated the gallery, tempered by righteous indignation toward the calculated brutality of the defendant. Stephen McDaniel’s physical appearance had transformed radically from the eager, talkative neighbor broadcast across television screens three years prior. A ragged, overgrown beard and an utterly vacant stare had replaced the animated posture of an ambitious law graduate. He was no longer the eccentric peer holding court before journalistic microphones. Faced with an insurmountable mountain of digital footprints, microscopic tool-mark matches, and biological evidence, McDaniel recognized that capital punishment was imminent. To purchase his own survival, the killer was compelled to sign a formal negotiated plea agreement admitting to malice murder.",
+  "sentences": [
+   {
+    "id": "4.02#1",
+    "text": "Following nearly three years of pre-trial maneuvering, in April 2014, mere days before his trial was set to open, Stephen McDaniel appeared before the Bibb County Superior Court.",
+    "words": 28
+   },
+   {
+    "id": "4.02#2",
+    "text": "Presided over by Judge Howard Simms, the courtroom was packed to capacity with Lauren’s family, friends, and national media correspondents.",
+    "words": 20
+   },
+   {
+    "id": "4.02#3",
+    "text": "A heavy, somber atmosphere permeated the gallery, tempered by righteous indignation toward the calculated brutality of the defendant.",
+    "words": 18
+   },
+   {
+    "id": "4.02#4",
+    "text": "Stephen McDaniel’s physical appearance had transformed radically from the eager, talkative neighbor broadcast across television screens three years prior.",
+    "words": 19
+   },
+   {
+    "id": "4.02#5",
+    "text": "A ragged, overgrown beard and an utterly vacant stare had replaced the animated posture of an ambitious law graduate.",
+    "words": 19
+   },
+   {
+    "id": "4.02#6",
+    "text": "He was no longer the eccentric peer holding court before journalistic microphones.",
+    "words": 12
+   },
+   {
+    "id": "4.02#7",
+    "text": "Faced with an insurmountable mountain of digital footprints, microscopic tool-mark matches, and biological evidence, McDaniel recognized that capital punishment was imminent.",
+    "words": 21
+   },
+   {
+    "id": "4.02#8",
+    "text": "To purchase his own survival, the killer was compelled to sign a formal negotiated plea agreement admitting to malice murder.",
+    "words": 20
+   }
+  ]
+ },
+ {
+  "id": "4.03",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "*Pages of the negotiated plea agreement turn, crisp scratch of a pen signing the document.*"
+ },
+ {
+  "id": "4.04",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "detailing the cold, meticulous written admission",
+  "text": "The negotiated plea was anchored by an exhaustive factual proffer executed under McDaniel’s own signature. In that document, he admitted to using the master key to breach Lauren’s apartment at approximately four-thirty on the morning of June 26, 2011. He confessed that while his classmate lay asleep in her bed, he took her life through calculated physical violence. This confession sprang from no moral awakening, but from the cowardly pragmatism of trading an admission for the removal of the death penalty. The stark realities documented in the court record extinguished every lingering doubt, laying bare the malicious cruelty of a calculating mind.",
+  "sentences": [
+   {
+    "id": "4.04#1",
+    "text": "The negotiated plea was anchored by an exhaustive factual proffer executed under McDaniel’s own signature.",
+    "words": 15
+   },
+   {
+    "id": "4.04#2",
+    "text": "In that document, he admitted to using the master key to breach Lauren’s apartment at approximately four-thirty on the morning of June 26, 2011.",
+    "words": 24
+   },
+   {
+    "id": "4.04#3",
+    "text": "He confessed that while his classmate lay asleep in her bed, he took her life through calculated physical violence.",
+    "words": 19
+   },
+   {
+    "id": "4.04#4",
+    "text": "This confession sprang from no moral awakening, but from the cowardly pragmatism of trading an admission for the removal of the death penalty.",
+    "words": 23
+   },
+   {
+    "id": "4.04#5",
+    "text": "The stark realities documented in the court record extinguished every lingering doubt, laying bare the malicious cruelty of a calculating mind.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "4.05",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "*Subdued gasp ripples across the gallery, followed by the gavel striking for order.*"
+ },
+ {
+  "id": "4.06",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: the triumph of objective forensics over intellectual arrogance",
+  "text": "For our investigative team, that written admission represented the culmination of thousands of relentless hours logged by detectives and digital forensic examiners. He attempted to deploy his legal education to manufacture a labyrinth that would blind investigators to his tracks. Yet he failed to realize that every digital command on a hard drive and every tool mark on metal leaves an indelible signature. The recovered building passkey and the stalking videos retrieved from his hardware were the iron anchors sealing his fate. Confronted by an unbroken, scientifically validated evidentiary matrix, every legal obfuscation raised by the defense collapsed into irrelevance. The unyielding perseverance of law enforcement forced a self-styled scholar of procedural loopholes to bow before the undeniable truth. It was an enduring victory of justice and collective conscience over the cold cunning of a covert predator.",
+  "sentences": [
+   {
+    "id": "4.06#1",
+    "text": "For our investigative team, that written admission represented the culmination of thousands of relentless hours logged by detectives and digital forensic examiners.",
+    "words": 22
+   },
+   {
+    "id": "4.06#2",
+    "text": "He attempted to deploy his legal education to manufacture a labyrinth that would blind investigators to his tracks.",
+    "words": 18
+   },
+   {
+    "id": "4.06#3",
+    "text": "Yet he failed to realize that every digital command on a hard drive and every tool mark on metal leaves an indelible signature.",
+    "words": 23
+   },
+   {
+    "id": "4.06#4",
+    "text": "The recovered building passkey and the stalking videos retrieved from his hardware were the iron anchors sealing his fate.",
+    "words": 19
+   },
+   {
+    "id": "4.06#5",
+    "text": "Confronted by an unbroken, scientifically validated evidentiary matrix, every legal obfuscation raised by the defense collapsed into irrelevance.",
+    "words": 18
+   },
+   {
+    "id": "4.06#6",
+    "text": "The unyielding perseverance of law enforcement forced a self-styled scholar of procedural loopholes to bow before the undeniable truth.",
+    "words": 19
+   },
+   {
+    "id": "4.06#7",
+    "text": "It was an enduring victory of justice and collective conscience over the cold cunning of a covert predator.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "4.07",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "*Three measured gavel strikes echo, podium microphone adjusts with a low hum.*"
+ },
+ {
+  "id": "4.08",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "introducing the heart-rending impact statement from the victim's family",
+  "text": "A profound stillness fell over the packed gallery as Judge Howard Simms invited the victim’s family to deliver their victim impact statements. Imagine the unfathomable grief carried by the parents, siblings, and loved ones who stepped up to that microphone. The wound of losing an extraordinary daughter on the cusp of fulfilling her life’s dream is a trauma time can never heal. Yet standing before the man who stole Lauren’s future, they spoke with the unshakeable dignity of enduring love and moral resilience.",
+  "sentences": [
+   {
+    "id": "4.08#1",
+    "text": "A profound stillness fell over the packed gallery as Judge Howard Simms invited the victim’s family to deliver their victim impact statements.",
+    "words": 22
+   },
+   {
+    "id": "4.08#2",
+    "text": "Imagine the unfathomable grief carried by the parents, siblings, and loved ones who stepped up to that microphone.",
+    "words": 18
+   },
+   {
+    "id": "4.08#3",
+    "text": "The wound of losing an extraordinary daughter on the cusp of fulfilling her life’s dream is a trauma time can never heal.",
+    "words": 22
+   },
+   {
+    "id": "4.08#4",
+    "text": "Yet standing before the man who stole Lauren’s future, they spoke with the unshakeable dignity of enduring love and moral resilience.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "4.09",
+  "act": 4,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "N2: Lauren’s Family Representative, female voice, choked with tears yet fiercely resilient",
+  "text": "Lauren was the crown jewel and the brightest light of our entire family. She labored with joy for years, conquering difficult examinations to prepare for a life dedicated to defending others in a court of law. She greeted every human soul with authentic warmth, radiant laughter, and an absolute absence of malice or cynicism. He lived directly across the hall from Lauren, witnessed her warmth every single day, yet answered it with depraved and monstrous entitlement. He stole her radiant future and inflicted a perpetual ache in our hearts that will never heal on this earth. Whatever sentence is pronounced today, it will never return Lauren to the warm embrace of our family. Yet I want him to spend every sunrise and sunset within a prison cell remembering how beautiful a life his cruelty destroyed. Lauren will forever shine in our memories as an unquenchable beacon of goodness, courage, and unconditional love. The legacy of her spirit will always triumph over the pathetic darkness he sought to cast upon our lives.",
+  "sentences": [
+   {
+    "id": "4.09#1",
+    "text": "Lauren was the crown jewel and the brightest light of our entire family.",
+    "words": 13
+   },
+   {
+    "id": "4.09#2",
+    "text": "She labored with joy for years, conquering difficult examinations to prepare for a life dedicated to defending others in a court of law.",
+    "words": 23
+   },
+   {
+    "id": "4.09#3",
+    "text": "She greeted every human soul with authentic warmth, radiant laughter, and an absolute absence of malice or cynicism.",
+    "words": 18
+   },
+   {
+    "id": "4.09#4",
+    "text": "He lived directly across the hall from Lauren, witnessed her warmth every single day, yet answered it with depraved and monstrous entitlement.",
+    "words": 22
+   },
+   {
+    "id": "4.09#5",
+    "text": "He stole her radiant future and inflicted a perpetual ache in our hearts that will never heal on this earth.",
+    "words": 20
+   },
+   {
+    "id": "4.09#6",
+    "text": "Whatever sentence is pronounced today, it will never return Lauren to the warm embrace of our family.",
+    "words": 17
+   },
+   {
+    "id": "4.09#7",
+    "text": "Yet I want him to spend every sunrise and sunset within a prison cell remembering how beautiful a life his cruelty destroyed.",
+    "words": 22
+   },
+   {
+    "id": "4.09#8",
+    "text": "Lauren will forever shine in our memories as an unquenchable beacon of goodness, courage, and unconditional love.",
+    "words": 17
+   },
+   {
+    "id": "4.09#9",
+    "text": "The legacy of her spirit will always triumph over the pathetic darkness he sought to cast upon our lives.",
+    "words": 19
+   }
+  ]
+ },
+ {
+  "id": "4.10",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: the unyielding judicial pronouncement",
+  "text": "The proceedings culminated with the unsparing judgment delivered by Judge Howard Simms. Judge Simms stated from the bench that McDaniel’s actions represented absolute cold-blooded malice disguised beneath a mask of benign eccentricity. Under the terms of the negotiated plea, additional counts were dismissed to spare the family the prolonged trauma of capital appeals. He sentenced Stephen McDaniel to life in prison with the statutory requirement that he serve a mandatory minimum of thirty years before attaining parole eligibility. This mandate ensures the killer cannot even apply for consideration before the year 2041, when he reaches fifty-five years of age. McDaniel was remanded immediately into the Georgia Department of Corrections system to serve his decades in profound isolation.",
+  "sentences": [
+   {
+    "id": "4.10#1",
+    "text": "The proceedings culminated with the unsparing judgment delivered by Judge Howard Simms.",
+    "words": 12
+   },
+   {
+    "id": "4.10#2",
+    "text": "Judge Simms stated from the bench that McDaniel’s actions represented absolute cold-blooded malice disguised beneath a mask of benign eccentricity.",
+    "words": 20
+   },
+   {
+    "id": "4.10#3",
+    "text": "Under the terms of the negotiated plea, additional counts were dismissed to spare the family the prolonged trauma of capital appeals.",
+    "words": 21
+   },
+   {
+    "id": "4.10#4",
+    "text": "He sentenced Stephen McDaniel to life in prison with the statutory requirement that he serve a mandatory minimum of thirty years before attaining parole eligibility.",
+    "words": 25
+   },
+   {
+    "id": "4.10#5",
+    "text": "This mandate ensures the killer cannot even apply for consideration before the year 2041, when he reaches fifty-five years of age.",
+    "words": 21
+   },
+   {
+    "id": "4.10#6",
+    "text": "McDaniel was remanded immediately into the Georgia Department of Corrections system to serve his decades in profound isolation.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "4.11",
+  "act": 4,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: Dissecting Narcissistic Collapse and Pathological Self-Pity",
+  "text": "Throughout the pronouncement of judgment, McDaniel displayed not an ounce of genuine contrition or remorse for the life he extinguished. His vacant stare reflected pathological self-pity, the agony of realizing that his personal ambitions and grandiose delusions lay in ruins. This is the textbook manifestation of narcissistic collapse: when absolute control is stripped away, the narcissist experiences only pathetic self-grief. A sentence of life imprisonment affirms that no intellect, credential, or legal training can ever license the destruction of another human being. The predator who fancied himself a criminal genius received the unyielding verdict dictated by human decency and the rule of law.",
+  "sentences": [
+   {
+    "id": "4.11#1",
+    "text": "Throughout the pronouncement of judgment, McDaniel displayed not an ounce of genuine contrition or remorse for the life he extinguished.",
+    "words": 20
+   },
+   {
+    "id": "4.11#2",
+    "text": "His vacant stare reflected pathological self-pity, the agony of realizing that his personal ambitions and grandiose delusions lay in ruins.",
+    "words": 20
+   },
+   {
+    "id": "4.11#3",
+    "text": "This is the textbook manifestation of narcissistic collapse: when absolute control is stripped away, the narcissist experiences only pathetic self-grief.",
+    "words": 20
+   },
+   {
+    "id": "4.11#4",
+    "text": "A sentence of life imprisonment affirms that no intellect, credential, or legal training can ever license the destruction of another human being.",
+    "words": 22
+   },
+   {
+    "id": "4.11#5",
+    "text": "The predator who fancied himself a criminal genius received the unyielding verdict dictated by human decency and the rule of law.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "4.12",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "closing Act 4, paving the way for survival lessons",
+  "text": "The heavy steel doors of the penitentiary closed permanently behind Stephen McDaniel, concluding the judicial chapter of a case that shook the nation. Yet the sociological aftershocks and the urgent imperatives regarding personal security for young adults living independently remain intensely vital. Society carries an enduring duty to translate the pain of past tragedies into protective armor for the future.",
+  "sentences": [
+   {
+    "id": "4.12#1",
+    "text": "The heavy steel doors of the penitentiary closed permanently behind Stephen McDaniel, concluding the judicial chapter of a case that shook the nation.",
+    "words": 23
+   },
+   {
+    "id": "4.12#2",
+    "text": "Yet the sociological aftershocks and the urgent imperatives regarding personal security for young adults living independently remain intensely vital.",
+    "words": 19
+   },
+   {
+    "id": "4.12#3",
+    "text": "Society carries an enduring duty to translate the pain of past tragedies into protective armor for the future.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "4.13",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "*A resolute violin chord sustains before slowly dissolving, marking the conclusion of the trial.*"
+ },
+ {
+  "id": "5.01",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "*Music transitions into warm, reflective piano chords, imbued with philosophical weight and watchful human vigilance.*"
+ },
+ {
+  "id": "5.02",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "reflective, measured cadence, examining societal reform",
+  "text": "Many years have elapsed since that fateful summer of 2011 in Macon, yet the radiant smile of Lauren Giddings continues to be remembered at Mercer Law School. Her family, faculty, and peers cherish the enduring memory of her scholarly passion and her extraordinarily generous spirit. This heartbreaking tragedy served as a profound catalyst for sweeping security reforms across student housing communities nationwide. Protocols regulating building passkey custody, background vetting for maintenance personnel, and electronic surveillance networks were overhauled comprehensively. Lauren’s legacy transformed into an enduring shield safeguarding future generations of young scholars embarking upon independent living.",
+  "sentences": [
+   {
+    "id": "5.02#1",
+    "text": "Many years have elapsed since that fateful summer of 2011 in Macon, yet the radiant smile of Lauren Giddings continues to be remembered at Mercer Law School.",
+    "words": 27
+   },
+   {
+    "id": "5.02#2",
+    "text": "Her family, faculty, and peers cherish the enduring memory of her scholarly passion and her extraordinarily generous spirit.",
+    "words": 18
+   },
+   {
+    "id": "5.02#3",
+    "text": "This heartbreaking tragedy served as a profound catalyst for sweeping security reforms across student housing communities nationwide.",
+    "words": 17
+   },
+   {
+    "id": "5.02#4",
+    "text": "Protocols regulating building passkey custody, background vetting for maintenance personnel, and electronic surveillance networks were overhauled comprehensively.",
+    "words": 17
+   },
+   {
+    "id": "5.02#5",
+    "text": "Lauren’s legacy transformed into an enduring shield safeguarding future generations of young scholars embarking upon independent living.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "5.03",
+  "act": 5,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: Law enforcement guidance on vigilance",
+  "text": "From a criminal investigative vantage point, the McDaniel case serves as a chilling reminder that mortal threats sometimes reside directly across our doorstep. Assuming that a classmate, colleague, or educated neighbor is fundamentally safe can lull our vigilance precisely when warning signs appear. Violent crime carries no single face, and socially awkward eccentricity can sometimes serve as an armor concealing predatory entitlement. Law enforcement strongly urges citizens, particularly young adults living alone, to actively inspect their home security hardware and report suspicious tracking immediately.",
+  "sentences": [
+   {
+    "id": "5.03#1",
+    "text": "From a criminal investigative vantage point, the McDaniel case serves as a chilling reminder that mortal threats sometimes reside directly across our doorstep.",
+    "words": 23
+   },
+   {
+    "id": "5.03#2",
+    "text": "Assuming that a classmate, colleague, or educated neighbor is fundamentally safe can lull our vigilance precisely when warning signs appear.",
+    "words": 20
+   },
+   {
+    "id": "5.03#3",
+    "text": "Violent crime carries no single face, and socially awkward eccentricity can sometimes serve as an armor concealing predatory entitlement.",
+    "words": 19
+   },
+   {
+    "id": "5.03#4",
+    "text": "Law enforcement strongly urges citizens, particularly young adults living alone, to actively inspect their home security hardware and report suspicious tracking immediately.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "5.04",
+  "act": 5,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: Victimology, personal boundaries, and the Gift of Fear",
+  "text": "Forensic behavioral research demonstrates that the overwhelming majority of predatory stalkings initiate with incremental, micro-boundary intrusions in daily routine. When a target dismisses early warning signs out of social politeness or discomfort, the predator methodically escalates their level of surveillance and entitlement. As behavioral authority Gavin de Becker famously documented in The Gift of Fear, survival intuition is nature’s most sophisticated early warning radar. Heeding ambiguous internal discomfort and fearlessly establishing impermeable physical boundaries is an indispensable life skill in modern society. Vigilant awareness combined with timely communal support forms our most formidable bulwark against predatory actors operating in the shadows.",
+  "sentences": [
+   {
+    "id": "5.04#1",
+    "text": "Forensic behavioral research demonstrates that the overwhelming majority of predatory stalkings initiate with incremental, micro-boundary intrusions in daily routine.",
+    "words": 19
+   },
+   {
+    "id": "5.04#2",
+    "text": "When a target dismisses early warning signs out of social politeness or discomfort, the predator methodically escalates their level of surveillance and entitlement.",
+    "words": 23
+   },
+   {
+    "id": "5.04#3",
+    "text": "As behavioral authority Gavin de Becker famously documented in The Gift of Fear, survival intuition is nature’s most sophisticated early warning radar.",
+    "words": 22
+   },
+   {
+    "id": "5.04#4",
+    "text": "Heeding ambiguous internal discomfort and fearlessly establishing impermeable physical boundaries is an indispensable life skill in modern society.",
+    "words": 18
+   },
+   {
+    "id": "5.04#5",
+    "text": "Vigilant awareness combined with timely communal support forms our most formidable bulwark against predatory actors operating in the shadows.",
+    "words": 19
+   }
+  ]
+ },
+ {
+  "id": "5.05",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "presenting the four classic red flags and concluding the broadcast",
+  "text": "To empower our audience, particularly students and young adults living independently, to detect and neutralize predatory stalking at its inception, Amber Eyes shares four classic red flags distilled from the Stephen McDaniel dossier. First Red Flag: Manufactured coincidence and persistent boundary intrusions into your personal space. When an acquaintance or neighbor repeatedly displays uncanny knowledge of your daily schedule, frequently happens to intercept you outside your door, or manufactures awkward conversations, regard it as an active warning sign. Never conflate persistent surveillance with flattering attention; always trust your inner intuition when your private sanctuary feels compromised. Second Red Flag: Morbid, boundary-crossing curiosity regarding your personal relationships and dating life. Covert predators invariably attempt to interrogate whom you are seeing, monitor visiting guests, and betray subtle hostility or passive-aggressive resentment when you thrive socially. Curiosity that exceeds normative social etiquette reflects underlying possessive entitlement and an impulse to isolate the target from protective support systems. Third Red Flag: Physical anomalies around your living quarters and intuitive sensations of an uninvited presence. If you discover household items subtly displaced, hear unusual noises outside your window late at night, or notice scratch marks around the lock cylinder, never dismiss these indicators. Immediately demand a master key audit from property management, install secondary interior deadbolts that cannot be accessed from outside, and deploy personal security cameras. Fourth Red Flag: Unsettling emotional volatility and abrupt transitions between bashful awkwardness and hostile rhetoric. Behind the self-effacing demeanor of Stephen McDaniel festered a deeply disturbed internal universe that few casual observers recognized. When an acquaintance pairs deep-seated misogyny with extreme narcissistic fragility, they harbor an extraordinarily elevated risk profile for explosive violence. Your personal safety and the security of those you love are paramount imperatives that must never be traded away for polite accommodation. Thank you for joining Amber Eyes in dissecting this haunting forensic psychology dossier and its vital survival lessons today. Please subscribe to the channel, activate notifications, and share this video with friends and family to spread these essential safety insights. Farewell, and we look forward to exploring our next criminal psychology investigation with you.",
+  "sentences": [
+   {
+    "id": "5.05#1",
+    "text": "To empower our audience, particularly students and young adults living independently, to detect and neutralize predatory stalking at its inception, Amber Eyes shares four classic red flags distilled from the Stephen McDaniel dossier.",
+    "words": 33
+   },
+   {
+    "id": "5.05#2",
+    "text": "First Red Flag: Manufactured coincidence and persistent boundary intrusions into your personal space.",
+    "words": 13
+   },
+   {
+    "id": "5.05#3",
+    "text": "When an acquaintance or neighbor repeatedly displays uncanny knowledge of your daily schedule, frequently happens to intercept you outside your door, or manufactures awkward conversations, regard it as an active warning sign.",
+    "words": 32
+   },
+   {
+    "id": "5.05#4",
+    "text": "Never conflate persistent surveillance with flattering attention; always trust your inner intuition when your private sanctuary feels compromised.",
+    "words": 18
+   },
+   {
+    "id": "5.05#5",
+    "text": "Second Red Flag: Morbid, boundary-crossing curiosity regarding your personal relationships and dating life.",
+    "words": 13
+   },
+   {
+    "id": "5.05#6",
+    "text": "Covert predators invariably attempt to interrogate whom you are seeing, monitor visiting guests, and betray subtle hostility or passive-aggressive resentment when you thrive socially.",
+    "words": 24
+   },
+   {
+    "id": "5.05#7",
+    "text": "Curiosity that exceeds normative social etiquette reflects underlying possessive entitlement and an impulse to isolate the target from protective support systems.",
+    "words": 21
+   },
+   {
+    "id": "5.05#8",
+    "text": "Third Red Flag: Physical anomalies around your living quarters and intuitive sensations of an uninvited presence.",
+    "words": 16
+   },
+   {
+    "id": "5.05#9",
+    "text": "If you discover household items subtly displaced, hear unusual noises outside your window late at night, or notice scratch marks around the lock cylinder, never dismiss these indicators.",
+    "words": 28
+   },
+   {
+    "id": "5.05#10",
+    "text": "Immediately demand a master key audit from property management, install secondary interior deadbolts that cannot be accessed from outside, and deploy personal security cameras.",
+    "words": 24
+   },
+   {
+    "id": "5.05#11",
+    "text": "Fourth Red Flag: Unsettling emotional volatility and abrupt transitions between bashful awkwardness and hostile rhetoric.",
+    "words": 15
+   },
+   {
+    "id": "5.05#12",
+    "text": "Behind the self-effacing demeanor of Stephen McDaniel festered a deeply disturbed internal universe that few casual observers recognized.",
+    "words": 18
+   },
+   {
+    "id": "5.05#13",
+    "text": "When an acquaintance pairs deep-seated misogyny with extreme narcissistic fragility, they harbor an extraordinarily elevated risk profile for explosive violence.",
+    "words": 20
+   },
+   {
+    "id": "5.05#14",
+    "text": "Your personal safety and the security of those you love are paramount imperatives that must never be traded away for polite accommodation.",
+    "words": 22
+   },
+   {
+    "id": "5.05#15",
+    "text": "Thank you for joining Amber Eyes in dissecting this haunting forensic psychology dossier and its vital survival lessons today.",
+    "words": 19
+   },
+   {
+    "id": "5.05#16",
+    "text": "Please subscribe to the channel, activate notifications, and share this video with friends and family to spread these essential safety insights.",
+    "words": 21
+   },
+   {
+    "id": "5.05#17",
+    "text": "Farewell, and we look forward to exploring our next criminal psychology investigation with you.",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "5.06",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "*Warm, contemplative piano resonance fades gently into silence.*"
+ }
+]

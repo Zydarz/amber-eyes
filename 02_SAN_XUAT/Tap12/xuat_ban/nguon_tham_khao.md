@@ -1,10 +1,20 @@
-# NGUỒN THAM KHẢO & ĐỐI CHIẾU DỮ KIỆN — THẢM KỊCH JONESTOWN — KHI 918 CON NGƯỜI CÙNG BƯỚC VÀO CHỖ CHẾT (HỒ SƠ JIM JONES & PEOPLES TEMPLE)
+📚 TỔNG HỢP NGUỒN THAM KHẢO HỒ SƠ TẬP 12 (JONESTOWN & JIM JONES)
+Amber eyes tuân thủ nguyên tắc đối chiếu đa nguồn từ hồ sơ giải mật chính thức của Quốc hội Hoa Kỳ và FBI:
 
-Toàn bộ các mốc thời gian, nhân vật, địa danh, quy trình điều tra và phán quyết tư pháp trong hồ sơ vụ án **Jonestown** đã được đối chiếu chéo với các nguồn tài liệu chính thống của cơ quan điều tra, bản án tòa án và báo chí chính luận có uy tín.
+1. Hồ sơ chính thức & Báo cáo điều tra:
+• House Foreign Affairs Committee (1979) — Báo cáo điều tra chính thức vụ ám sát Dân biểu Leo Ryan và Thảm kịch Jonestown (House Report No. 96-223): https://www.congress.gov/
+• FBI Vault RYMUR (Ryan Murder / Jonestown) — Hơn 48.000 trang hồ sơ giải mật: https://vault.fbi.gov/jonestown
+• Băng ghi âm hiện trường 'The Death Tape' (FBI Audio File Q 042, ngày 18/11/1978 tại Jonestown, Guyana): https://archive.org/details/ptc1978-11-18.flac16
 
-| Dữ kiện trong kịch bản | Nội dung đối chiếu kiểm chứng | Nguồn tham chiếu chính thức | Trạng thái |
-|---|---|---|:---:|
-| **Jim Jones & Peoples Temple** | James Warren Jones thành lập Peoples Temple tại Indiana năm 1955, chuyển đến San Francisco rồi di cư sang Guyana. | FBI FOIA Files RYMUR | **Chính xác 100%** |
-| **Dự án Jonestown tại Guyana** | Khoảng 3.800 mẫu rừng tại Jonestown; thu giữ hộ chiếu, tiền bạc, kiểm soát sinh hoạt bằng lao động kiệt sức. | House Report No. 96-223 | **Chính xác 100%** |
-| **Vụ ám sát Dân biểu Leo Ryan** | Chiều 18/11/1978, Dân biểu Leo Ryan cùng 4 nhà báo bị toán vũ trang Jonestown bắn chết tại phi đạo Port Kaituma. | Báo cáo Bộ Ngoại giao Hoa Kỳ 1979 | **Chính xác 100%** |
-| **Thảm kịch độc dược 18/11/1978** | 918 người tử vong (trong đó có 304 trẻ em) do uống hoặc bị ép tiêm nước trái cây pha Cyanide, Valium. | Báo cáo khám nghiệm Viện Bệnh học Quân đội AFIP | **Chính xác 100%** |
+2. Cơ sở tư liệu học thuật & Báo cáo chuyên sâu:
+• San Diego State University (SDSU) — Dự án Lưu trữ Tư liệu Toàn cảnh Jonestown: https://jonestown.sdsu.edu/
+• Julia Scheeres — Tác phẩm tư liệu 'A Thousand Lives: The Untold Story of Jonestown': https://www.simonandschuster.com/
+• Tim Reiterman (Ký giả bị thương tại sân bay Port Kaituma) — 'Raven: The Untold Story of the Rev. Jim Jones and His People': https://www.penguinrandomhouse.com/
+
+3. Tâm lý học thao túng đám đông & Tự sát cưỡng chế:
+• GS. Philip Zimbardo — Nghiên cứu Sự tuân phục hủy diệt và Thao túng tâm lý có hệ thống.
+• Phân tích Tự sát cưỡng chế (Coerced Collective Suicide / Mass Murder) dưới áp lực vũ lực và tẩy não.
+
+4. Đường dây nóng hỗ trợ & bảo vệ:
+• Tổng đài Quốc gia Bảo vệ Trẻ em 111 (Việt Nam, miễn phí 24/7): http://tongdai111.vn/
+• Đường dây nóng Ngày Mai (Hỗ trợ khủng hoảng tâm lý): 096 306 1414 — https://duongdaynongngaymai.vn/

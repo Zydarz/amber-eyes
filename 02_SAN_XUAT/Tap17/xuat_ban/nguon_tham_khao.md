@@ -1,10 +1,28 @@
-# NGUỒN THAM KHẢO & ĐỐI CHIẾU DỮ KIỆN — 13 ĐỨA TRẺ TRONG NGỤC TÙ NGOẠI Ô — KIỂM SOÁT CƯỠNG CHẾ & CÚ NHẢY SINH TỒN (HỒ SƠ GIA ĐÌNH TURPIN)
+📚 TỔNG HỢP NGUỒN THAM KHẢO HỒ SƠ TẬP 17 (HỒ SƠ GIA ĐÌNH TURPIN)
+Amber eyes tuân thủ nguyên tắc đối chiếu đa nguồn từ hồ sơ tư pháp chính thức của California và báo chí điều tra Hoa Kỳ:
 
-Toàn bộ các mốc thời gian, nhân vật, địa danh, quy trình điều tra và phán quyết tư pháp trong hồ sơ vụ án **Turpin** đã được đối chiếu chéo với các nguồn tài liệu chính thống của cơ quan điều tra, bản án tòa án và báo chí chính luận có uy tín.
+1. Hồ sơ Tòa án & Phán quyết tư pháp Bang California:
+• Tòa Thượng thẩm Bang California Hạt Riverside (Riverside County Superior Court) — Hồ sơ xét xử People of the State of California v. David Allen Turpin & Louise Ann Turpin (Case No. RIF1800348, Thẩm phán Bernard Schwartz chủ tọa): https://www.riverside.courts.ca.gov/
+• Văn phòng Biện lý Hạt Riverside (Riverside County District Attorney's Office) — Bản cáo trạng 14 trọng tội và hồ sơ thỏa thuận nhận tội do Biện lý Michael Hestrin công bố: https://rivcoda.org/
+• Cục Cải huấn & Phục hồi Bang California (CDCR) — Quyết định thi hành bản án 25 năm đến chung thân tại các cơ sở an ninh tối đa (Mule Creek State Prison & Central California Women's Facility): https://www.cdcr.ca.gov/
 
-| Dữ kiện trong kịch bản | Nội dung đối chiếu kiểm chứng | Nguồn tham chiếu chính thức | Trạng thái |
-|---|---|---|:---:|
-| **Cú nhảy sinh tồn 14/01/2018** | Jordan Turpin (17 tuổi) trèo qua cửa sổ nhà ở Perris, CA, dùng điện thoại cũ gọi 911 cầu cứu cảnh sát giải cứu 12 anh chị em. | Băng ghi âm 911 Riverside County Sheriff | **Chính xác 100%** |
-| **Hiện trường ngục tù ngoại ô** | 13 nạn nhân từ 2 đến 29 tuổi bị xích vào giường, bỏ đói triền miên, chỉ được tắm 1 lần/năm, người 29 tuổi chỉ nặng 37kg. | Báo cáo điều tra của Biện lý Michael Hestrin | **Chính xác 100%** |
-| **Vỏ bọc trường tư thục tại gia** | Đăng ký ngôi nhà thành trường tư thục Sandcastle Day School để tránh sự thanh kiểm tra của ngành giáo dục và phúc lợi xã hội. | Hồ sơ Bộ Giáo dục Bang California | **Chính xác 100%** |
-| **Bản án 25 năm đến chung thân** | Tháng 4/2019, David và Louise Turpin nhận tội 14 tội danh bạo hành và bị tuyên phạt 25 năm tù đến chung thân. | Bản án Tòa Thượng thẩm Riverside | **Chính xác 100%** |
+2. Hồ sơ Cảnh sát & Tư liệu thực địa:
+• Văn phòng Cảnh sát trưởng Hạt Riverside (Riverside County Sheriff's Department) — Báo cáo hiện trường số 160 đường Muir Woods Road, Perris, California ngày 14/01/2018: https://www.riversidesheriff.org/
+• Bản ghi âm cuộc gọi 911 dài 20 phút của Jordan Turpin (17 tuổi) bằng điện thoại di động mất sóng: https://www.cbsnews.com/
+
+3. Báo chí Điều tra & Phỏng vấn độc quyền:
+• ABC News 20/20 (Chủ trì: Ký giả Diane Sawyer) — Phỏng vấn độc quyền 'Escape from a House of Horror: The Turpin Sisters Speak' (tháng 11/2021): https://abcnews.go.com/
+• Los Angeles Times — Lưu trữ điều tra về lỗ hổng quản lý trường tư thục tại gia (Sandcastle Day School) tại California: https://www.latimes.com/
+• The New York Times — Phân tích xã hội học về cơ chế cô lập gia đình khép kín và bi kịch của 13 anh chị em: https://www.nytimes.com/
+
+4. Tâm lý học Pháp y, Tâm thần học & Khoa học Hành vi:
+• Khái niệm Kiểm soát cưỡng chế (Coercive Control) theo Giáo sư Evan Stark.
+• Hội chứng Điên cuồng đôi (Folie à Deux / Shared Delusional Disorder) và cơ chế Chia ngăn nhận thức (Compartmentalization).
+• Gavin de Becker — Tác phẩm kinh điển về nhận diện nguy cơ sinh tồn và bản năng tự vệ 'The Gift of Fear' (Dell Publishing, 1997).
+• Khái niệm Tăng trưởng sau sang chấn (Post-Traumatic Growth - PTG) trong tâm lý học lâm sàng.
+
+5. Đường dây nóng hỗ trợ khẩn cấp:
+• Tổng đài Quốc gia Bảo vệ Trẻ em: 111 (Việt Nam, miễn phí 24/7) — http://tongdai111.vn/
+• Đường dây nóng Ngày Mai (Hỗ trợ khủng hoảng tâm lý & trầm cảm): 096 306 1414
+• Childhelp National Child Abuse Hotline (Hoa Kỳ): 1-800-422-4453 — https://www.childhelphotline.org/
+• National Domestic Violence Hotline (Hoa Kỳ): 1-800-799-SAFE (7233) — https://www.thehotline.org/

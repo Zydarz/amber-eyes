@@ -458,3 +458,14 @@ Chi tiết đầy đủ: `BaoCao_QC_Tap06_20261102.md` §10.
 - EN 2.07#4: mọi bản lệch cao độ — dùng bản ít lệch, cần nghe. EN D–H dưới 4 nc theo AC như Tập 02 EN (người dùng đã chấp nhận ở Tập 02) — cần nghe lại.
 - Danh sách nghe: `Tap06/CanNghe_Tap06_higgs.md`, `Tap06_EN/CanNghe_Tap06_EN_higgs.md`, `Tap06_JA/CanNghe_Tap06_JA_higgs.md`.
 - **Audio đổi ⇒ chưa dựng lại hình (H14)**: phải `parse_shots.py` + `build_video3.py` cho cả 3 ngôn ngữ.
+
+
+---
+
+## B-DUNG 07/11/2026 - Dựng hình VN / EN / JA từ master mới (06/11)
+
+- Master dùng: `Tap06_master.mp3` 1892,98 s · `Tap06_EN_master.mp3` 1759,64 s · `Tap06_JA_master.mp3` 2080,32 s. `timeline.total` = thời lượng mp3 (cổng T20 đạt). Chạy lại `parse_shots.py` (H14) -> 129 shot x 3 bản; ảnh tĩnh render lại 129 x 3. Bản cũ lưu ở `.work/_cu/t06_dung_20261107/`.
+- ASR từng câu trên master (Whisper small, cửa sổ theo timeline): VN 212/212 (tb 0,936) · EN 212/212 (tb 0,992) · JA 212/212 (tb 0,904, sai do đồng âm kanji). Câu cần nghe: `1.09#2` VN (N1, ~4:25).
+- Ghép dùng `alimiter=limit=0.63:attack=5:release=50:level=disabled:latency=1` (A11 #114). `EPISODES["06"]` chưa khai `mux_af` -> package.py mặc định thiếu latency=1.
+- `assets/brand/intro_kenh_JA_t06.mov` = bản sao `intro_kenh_JA_t05.mov` (JA t04 = t05 giống byte).
+- Thẻ kết hiện rõ đến total-5 s rồi mờ dần về đen (A11 #65).

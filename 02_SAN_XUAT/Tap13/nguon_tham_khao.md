@@ -1,10 +1,25 @@
-# NGUỒN THAM KHẢO & ĐỐI CHIẾU DỮ KIỆN — VỎ BỌC 'CON NHÀ NGƯỜI TA' & LỜI NÓI DỐI 10 NĂM (HỒ SƠ JENNIFER PAN)
+📚 TỔNG HỢP NGUỒN THAM KHẢO HỒ SƠ TẬP 13 (HỒ SƠ JENNIFER PAN)
+Amber eyes tuân thủ nguyên tắc đối chiếu đa nguồn từ hồ sơ tư pháp chính thức của Canada và báo chí điều tra:
 
-Toàn bộ các mốc thời gian, nhân vật, địa danh, quy trình điều tra và phán quyết tư pháp trong hồ sơ vụ án **Pan** đã được đối chiếu chéo với các nguồn tài liệu chính thống của cơ quan điều tra, bản án tòa án và báo chí chính luận có uy tín.
+1. Hồ sơ Tòa án & Phán quyết tư pháp Canada:
+• Tòa Thượng thẩm Ontario (Ontario Superior Court of Justice) — Bản án xét xử R. v. Pan et al. (2014 ONSC, Thẩm phán Cary Boswell): https://www.canlii.org/
+• Tòa Phúc thẩm Ontario (Court of Appeal for Ontario) — Phán quyết phúc thẩm năm 2023 (2023 ONCA 362): https://www.ontariocourts.ca/coa/
+• Tòa án Tối cao Canada (Supreme Court of Canada) — Hồ sơ kháng cáo liên quan: https://www.scc-csc.ca/
 
-| Dữ kiện trong kịch bản | Nội dung đối chiếu kiểm chứng | Nguồn tham chiếu chính thức | Trạng thái |
-|---|---|---|:---:|
-| **Hiện trường đêm 08/11/2010** | Tại nhà số 238 Helen Avenue, Markham, Ontario; 3 sát thủ đột nhập bắn chết bà Bich Ha Pan và bắn trọng thương ông Hann Pan. | Biên bản hiện trường York Regional Police | **Chính xác 100%** |
-| **Lời nói dối kéo dài 10 năm** | Jennifer trượt tốt nghiệp cấp 3, làm giả học bạ, giả vờ học Đại học Ryerson và Đại học Toronto suốt nhiều năm. | Lời khai của Jennifer Pan & Ông Hann Pan trước tòa | **Chính xác 100%** |
-| **Lời khai nhân chứng sống sót** | Ông Hann Pan tỉnh dậy sau hôn mê, khẳng định thấy con gái đi lại tự do thì thầm thân mật với các sát thủ. | Lời khai nhân chứng trước Tòa Thượng thẩm Ontario | **Chính xác 100%** |
-| **Bản án chung thân** | Jennifer Pan cùng 3 đồng phạm bị kết tội Giết người cấp độ 1 và Âm mưu giết người, phạt tù chung thân. | Bản án R. v. Pan 2014 | **Chính xác 100%** |
+2. Hồ sơ Điều tra & Cơ quan Cảnh sát:
+• Cảnh sát Khu vực York (York Regional Police - YRP) — Băng ghi âm cuộc gọi 911 và video thẩm vấn nghi phạm Jennifer Pan của Thám tử William "Bill" Goetz: https://www.yrp.ca/
+• Biên bản giám định kỹ thuật số viễn thông trích xuất dữ liệu điện thoại giữa Jennifer Pan và Daniel Wong.
+
+3. Báo chí Điều tra & Phóng sự chuyên sâu:
+• Karen K. Ho (Ký giả điều tra, bạn học cũ) — Phóng sự chuyên sâu 'Jennifer Pan's Revenge' trên tạp chí Toronto Life (2015): https://torontolife.com/city/crime/jennifer-pan-revenge/
+• The Globe and Mail — Dòng thời gian vụ án mạng tại Markham và bi kịch gia đình nhập cư: https://www.theglobeandmail.com/
+• CBC News — Diễn biến phiên tòa kéo dài 10 tháng và các phán quyết tư pháp: https://www.cbc.ca/news/
+
+4. Tâm lý học Gia đình & Khoa học Hành vi:
+• Amy Chua — Khái niệm Kỷ luật Cha mẹ Hổ (Tiger Parenting) và áp lực thành tích học đường cực đoan.
+• Phân tích Tâm lý học Hành vi — Hội chứng Nói dối bệnh lý (Mythomania / Pathological Lying), Cơ chế Chia ngăn nhận thức (Cognitive Compartmentalization) và Bẫy chi phí chìm (Sunk Cost Fallacy).
+
+5. Đường dây nóng hỗ trợ & bảo vệ:
+• Tổng đài Quốc gia Bảo vệ Trẻ em: 111 (Việt Nam, miễn phí 24/7) — http://tongdai111.vn/
+• Đường dây nóng Ngày Mai (Hỗ trợ khủng hoảng tâm lý): 096 306 1414
+• Đường dây nóng hỗ trợ phụ nữ bị bạo lực: 1900 969 680

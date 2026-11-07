@@ -82,7 +82,7 @@ def parse_lines(src):
         t=re.sub(r'^\*\s+','',s); t=re.sub(r'^\d+\.\s+','',t)
         t=t.replace('**','').replace('*','')
         t=t.strip().strip('"“”').strip()
-        t=re.sub(r"'([^']+)'",r'“\1”',t)                  # trích dẫn trên 1 dòng
+        t=re.sub(r"(?<![A-Za-z0-9])'([^']+)'(?![A-Za-z0-9])",r'“\1”',t)                  # trích dẫn trên 1 dòng
         t=re.sub(r"‘(.*?)’(?![A-Za-z])",r'“\1”',t)        # English/Korean edition: ‘…’ (’ inside a word = apostrophe)
         if not t: continue
         if els and els[-1]['kind']=='LOI' and els[-1]['role']==cur['role'] and els[-1].get('_open'):

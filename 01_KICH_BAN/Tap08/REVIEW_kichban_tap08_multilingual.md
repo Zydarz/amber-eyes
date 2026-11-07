@@ -93,7 +93,7 @@ Toàn bộ 10 chỉ dấu đã được đối soát chéo trên cả 4 ngôn ng
 ### 8. Chu kỳ ảo tưởng & Quỹ đạo leo thang (Escalation Trajectory)
 - **Vị trí:** `2.07`, `2.08`
 - **Nội dung:** 
-  - Quỹ đạo leo thang bạo lực qua 4 nấc thang: (1) Yoga & bay bổng $ightarrow$ (2) Cưỡng đoạt tài sản & thủ tiêu nội bộ $ightarrow$ (3) Thảm sát gia đình Luật sư Tsutsumi Sakamoto (1989) $ightarrow$ (4) Tấn công sarin Matsumoto (1994) $ightarrow$ Thảm họa ga ngầm Tokyo (1995).
+  - Quỹ đạo leo thang bạo lực qua 4 nấc thang: (1) Yoga & bay bổng $ightarrow$ (2) Cưỡng đoạt tài sản & thủ tiêu nội bộ $ightarrow$ (3) Thảm sát gia đình Luật sư Tsutsumi Sakamoto (1989) $ightarrow$ (4) Tấn công sarin Matsumoto (1994) $ightarrow$ Thảm họa ga ngầm Tokyo (1995).
 
 ### 9. Hiệu ứng Hào quang & Điểm mù xã hội (Halo Effect & Social Blindspots)
 - **Vị trí:** `1.12`, `3.03`, `3.06`

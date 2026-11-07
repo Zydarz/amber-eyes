@@ -88,4 +88,24 @@ Sao lưu: `.work/_cu/kichban_tap23_23102026_truoc_soat_20261101.md`. Khung 51 ph
 - **G1:** 0 "...".
 - Nguồn: en.wikipedia.org/wiki/Richard_Ramirez · latimes.com (cáo phó 7/6/2013) · en.wikipedia.org/wiki/Hybristophilia
 - **Cần nguồn / chờ người dùng quyết:** "75 lá thư" của Doreen Lioy và việc bà rời bỏ Ramirez sau 2009 (theo báo lá cải, chưa có nguồn chính thống) — đã viết "được cho là"; chi tiết người anh họ "kể chuyện bạo lực thời chiến" (bản cũ: khoe ảnh) — nên đối chiếu Wikipedia trước khi thu âm.
-- ⚠ `.work/script_tap23.json` (và JA) là CŨ.
+- `.work/script_tap23.json` và `.work/script_tap23_EN.json` đã được biên dịch đồng bộ từ kịch bản mới 220 câu.
+
+---
+
+## Nâng cấp kịch bản quy mô lớn (220 câu) theo Hệ sinh thái 10 chỉ dấu tâm lý & hành vi (A2c) — 07/11/2026
+* Căn cứ: `AGENTS.md` (Luật K1–K10, V9, L1–L10) và `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Mục A2c).
+* Tái cấu trúc toàn diện từ 166 câu lên **220 câu thoại** ($\ge$ 200 câu), đồng bộ 100% qua 4 ngôn ngữ (VN, EN, JA, KO) với cấu trúc 51 elements (32 lượt LOI, 19 cue BGM/SFX).
+* Tích hợp trọn vẹn Hệ sinh thái 10 chỉ dấu tâm lý & hành vi:
+  1. Dư chấn xã hội & Cơn hoang tưởng tập thể tại Los Angeles hè 1985; sức mạnh cộng đồng Đông Los Angeles bắt giữ kẻ thủ ác; bước ngoặt AFIS.
+  2. Vật hóa & phi nhân hóa nạn nhân thành đạo cụ cho cơn khát quyền lực; khuyết tật Thuyết tâm trí.
+  3. Cơ chế chia ngăn nhận thức; bi kịch của gia đình Ramirez và sự sụp đổ của Doreen Lioy.
+  4. Phản ứng trước bản án: hối hận giả tạo, câu nói "See you in Disneyland" và cái chết cô độc, bệnh tật tại buồng tử tù San Quentin.
+  5. Hệ thống tự bào chữa tà giáo; ngắt kết nối đạo đức để ru ngủ lương tri.
+  6. Ngòi nổ & điểm gãy: tai nạn chấn thương não thời thơ ấu, bạo hành gia đình, chứng kiến anh họ Miguel bắn chết vợ.
+  7. MO (giày Avia, cắt dây điện thoại, đột nhập đêm) vs Signature (ngôi sao năm cánh Pentagram, lục tủ lạnh, ép thề thốt).
+  8. Quỹ đạo leo thang ảo tưởng từ nhìn trộm, trộm vặt đến tấn công giết người hàng loạt.
+  9. Hiệu ứng hào quang ngược: đám đông groupies phòng xử án và sự lãng mạn hóa cái ác nguy hại của truyền thông.
+  10. Nạn nhân học & 4 cảnh báo đỏ sinh tồn nhận diện và phòng ngừa hội chứng say mê độc hại (Hybristophilia / Can-Fix-Him syndrome).
+* Báo cáo chuyên sâu: [`REVIEW_kichban_tap23_10chiau.md`](REVIEW_kichban_tap23_10chiau.md) và [`REVIEW_kichban_tap23_multilingual.md`](REVIEW_kichban_tap23_multilingual.md).
+* Kiểm định QC: Đạt 100% cả 4 cổng (`verify_en_script.py`, `_qc_ko_parity.py`, `_qc_ja.py`, `_verify_all_tap23_parity.py`).
+

@@ -3,45 +3,55 @@
   "id": "1.01",
   "act": 1,
   "kind": "BGM",
-  "desc": "*Tiếng Cello u buồn, tiếng nhịp tim trầm đục hòa cùng tiếng mưa rơi rả rích tạo không khí tang thương và nặng trĩu tâm tư.*"
+  "desc": "*Tiếng Cello u buồn, tiếng trống trầm đục hòa cùng tiếng mưa rơi rả rích tạo không khí tang thương và nặng trĩu tâm tư.*"
  },
  {
   "id": "1.02",
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "giọng trầm, mở đầu câu chuyện với nỗi xót xa nhân văn",
-  "text": "Buổi sáng ngày 20 tháng 6 năm 2001, tại khu phố ngoại ô yên bình Clear Lake thuộc thành phố Houston, bang Texas, một cuộc điện thoại khẩn cấp đã làm chấn động toàn bộ tổng đài 911. Đầu dây bên kia là một phụ nữ ba mươi sáu tuổi với giọng nói chậm rãi, vô cảm và nặng trĩu hơi thở bất thường. Người phụ nữ liên tục lặp lại yêu cầu cử một cảnh sát và một xe cứu thương đến gấp căn nhà số 942 trên đường Beachcomber Lane. Khi nhân viên tổng đài gặng hỏi chuyện gì đang xảy ra, người mẹ ấy chỉ bình thản trả lời rằng mình vừa làm tổn thương các con. Ngay sau khi gác máy, cô tiếp tục gọi điện đến Trung tâm Vũ trụ Johnson của NASA, nơi người chồng Russell Yates đang làm kỹ sư hàng không vũ trụ. Với chất giọng lạnh băng đến rợn người, cô chỉ nói vỏn vẹn một câu duy nhất: Đến lúc rồi, anh hãy về nhà ngay đi.",
+  "direction": "giọng trầm, mở đầu câu chuyện với sức nặng tâm lý",
+  "text": "Buổi sáng ngày 20 tháng 6 năm 2001, một cuộc điện thoại khẩn cấp đã làm chấn động toàn bộ tổng đài 911 tại thành phố Houston, bang Texas. Đầu dây bên kia là một phụ nữ ba mươi sáu tuổi với giọng nói chậm rãi, vô cảm đến mức khiến người tiếp nhận phải ớn lạnh. Người phụ nữ liên tục lặp lại yêu cầu xin được cử một cảnh sát đến căn nhà số 942 trên đường Beachcomber Lane thuộc khu phố ngoại ô Clear Lake. Khi nhân viên điều phối gặng hỏi lý do khẩn cấp đang xảy ra, người mẹ ấy chỉ đáp lại bằng những khoảng lặng và từ chối giải thích thêm. Ngay sau khi gác máy, cô tiếp tục bấm số gọi cho người chồng Russell Yates, một kỹ sư đang làm việc tại Trung tâm Vũ trụ Johnson thuộc cơ quan hàng không vũ trụ NASA. Với chất giọng phẳng lặng và lạnh băng đến rợn người, cô chỉ nói ngắn gọn rằng anh cần phải quay trở về nhà ngay lập tức. Người chồng hốt hoảng gặng hỏi nhưng chỉ nhận được câu trả lời đứt quãng rằng đã đến lúc anh phải có mặt ở nhà. Không một ai có thể ngờ rằng phía sau cánh cửa căn nhà gạch màu nâu ấy là một thảm kịch gia đình gây rúng động sâu sắc toàn bộ nước Mỹ.",
   "sentences": [
    {
     "id": "1.02#1",
-    "text": "Buổi sáng ngày 20 tháng 6 năm 2001, tại khu phố ngoại ô yên bình Clear Lake thuộc thành phố Houston, bang Texas, một cuộc điện thoại khẩn cấp đã làm chấn động toàn bộ tổng đài 911.",
-    "words": 38
+    "text": "Buổi sáng ngày 20 tháng 6 năm 2001, một cuộc điện thoại khẩn cấp đã làm chấn động toàn bộ tổng đài 911 tại thành phố Houston, bang Texas.",
+    "words": 29
    },
    {
     "id": "1.02#2",
-    "text": "Đầu dây bên kia là một phụ nữ ba mươi sáu tuổi với giọng nói chậm rãi, vô cảm và nặng trĩu hơi thở bất thường.",
-    "words": 26
+    "text": "Đầu dây bên kia là một phụ nữ ba mươi sáu tuổi với giọng nói chậm rãi, vô cảm đến mức khiến người tiếp nhận phải ớn lạnh.",
+    "words": 28
    },
    {
     "id": "1.02#3",
-    "text": "Người phụ nữ liên tục lặp lại yêu cầu cử một cảnh sát và một xe cứu thương đến gấp căn nhà số 942 trên đường Beachcomber Lane.",
-    "words": 28
-   },
-   {
-    "id": "1.02#4",
-    "text": "Khi nhân viên tổng đài gặng hỏi chuyện gì đang xảy ra, người mẹ ấy chỉ bình thản trả lời rằng mình vừa làm tổn thương các con.",
-    "words": 28
-   },
-   {
-    "id": "1.02#5",
-    "text": "Ngay sau khi gác máy, cô tiếp tục gọi điện đến Trung tâm Vũ trụ Johnson của NASA, nơi người chồng Russell Yates đang làm kỹ sư hàng không vũ trụ.",
+    "text": "Người phụ nữ liên tục lặp lại yêu cầu xin được cử một cảnh sát đến căn nhà số 942 trên đường Beachcomber Lane thuộc khu phố ngoại ô Clear Lake.",
     "words": 31
    },
    {
+    "id": "1.02#4",
+    "text": "Khi nhân viên điều phối gặng hỏi lý do khẩn cấp đang xảy ra, người mẹ ấy chỉ đáp lại bằng những khoảng lặng và từ chối giải thích thêm.",
+    "words": 30
+   },
+   {
+    "id": "1.02#5",
+    "text": "Ngay sau khi gác máy, cô tiếp tục bấm số gọi cho người chồng Russell Yates, một kỹ sư đang làm việc tại Trung tâm Vũ trụ Johnson thuộc cơ quan hàng không vũ trụ NASA.",
+    "words": 36
+   },
+   {
     "id": "1.02#6",
-    "text": "Với chất giọng lạnh băng đến rợn người, cô chỉ nói vỏn vẹn một câu duy nhất: Đến lúc rồi, anh hãy về nhà ngay đi.",
-    "words": 26
+    "text": "Với chất giọng phẳng lặng và lạnh băng đến rợn người, cô chỉ nói ngắn gọn rằng anh cần phải quay trở về nhà ngay lập tức.",
+    "words": 27
+   },
+   {
+    "id": "1.02#7",
+    "text": "Người chồng hốt hoảng gặng hỏi nhưng chỉ nhận được câu trả lời đứt quãng rằng đã đến lúc anh phải có mặt ở nhà.",
+    "words": 25
+   },
+   {
+    "id": "1.02#8",
+    "text": "Không một ai có thể ngờ rằng phía sau cánh cửa căn nhà gạch màu nâu ấy là một thảm kịch gia đình gây rúng động sâu sắc toàn bộ nước Mỹ.",
+    "words": 32
    }
   ]
  },
@@ -57,41 +67,46 @@
   "kind": "LOI",
   "role": "H",
   "direction": "tái hiện khoảnh khắc đầu tiên người thực thi pháp luật bước vào hiện trường",
-  "text": "Chỉ vài phút sau cuộc gọi, Sĩ quan David Knapp thuộc Sở Cảnh sát Houston là người đầu tiên có mặt tại hiện trường. Cánh cửa chính mở ra, trước mặt viên sĩ quan là Andrea Yates trong bộ quần áo ướt sũng nước, mái tóc sẫm màu dính bết vào trán và đôi mắt đờ đẫn mất hồn. Không một tiếng gào thét, không một giọt nước mắt hoảng loạn hay bất kỳ nỗ lực chống cự nào trước người thực thi pháp luật. Người phụ nữ nhìn thẳng vào viên cảnh sát và cất lên lời thú nhận gây bàng hoàng: Tôi vừa giết chết các con của mình. Khi bước chân vào bên trong căn nhà gạch màu nâu, viên cảnh sát phải đối diện với một cảnh tượng đau lòng vượt quá mọi giới hạn chịu đựng của con người. Năm đứa trẻ ngây thơ, từ cậu bé lớn Noah bảy tuổi đến cô bé út Mary mới tròn sáu tháng tuổi, đều đã vĩnh viễn ngừng thở. Một thảm kịch gia đình kinh hoàng nhất trong lịch sử nước Mỹ đã mở màn ngay trong không gian quen thuộc của một tổ ấm kiểu mẫu.",
+  "text": "Chỉ vài phút sau cuộc gọi khẩn cấp, Sĩ quan David Knapp thuộc Sở Cảnh sát Houston là người đầu tiên có mặt tại hiện trường. Cánh cửa chính từ từ hé mở, và trước mặt viên sĩ quan là Andrea Yates với đôi mắt đờ đẫn, hoàn toàn mất kết nối với thực tại. Không một tiếng gào thét hoảng loạn, không một giọt nước mắt hay bất kỳ nỗ lực chống cự nào trước người thực thi pháp luật. Quần áo và mái tóc của người phụ nữ vẫn còn ướt sũng, nhưng khuôn mặt cô chỉ hiện lên một vẻ vô cảm đến mức kỳ dị. Theo lời khai ban đầu của viên sĩ quan, người mẹ đã thừa nhận ngay rằng chính mình vừa gây ra cái chết của tất cả các con. Khi bước sâu vào bên trong căn nhà, người thực thi công lý phải đối diện với một cảnh tượng đau lòng vượt quá mọi giới hạn chịu đựng của con người. Năm đứa trẻ ngây thơ, từ cậu bé lớn Noah bảy tuổi đến cô bé út Mary mới tròn sáu tháng tuổi, đều đã vĩnh viễn ngừng thở. Một bi kịch gia đình kinh hoàng nhất trong lịch sử đương đại đã mở màn ngay trong không gian quen thuộc của một tổ ấm kiểu mẫu.",
   "sentences": [
    {
     "id": "1.04#1",
-    "text": "Chỉ vài phút sau cuộc gọi, Sĩ quan David Knapp thuộc Sở Cảnh sát Houston là người đầu tiên có mặt tại hiện trường.",
-    "words": 24
+    "text": "Chỉ vài phút sau cuộc gọi khẩn cấp, Sĩ quan David Knapp thuộc Sở Cảnh sát Houston là người đầu tiên có mặt tại hiện trường.",
+    "words": 26
    },
    {
     "id": "1.04#2",
-    "text": "Cánh cửa chính mở ra, trước mặt viên sĩ quan là Andrea Yates trong bộ quần áo ướt sũng nước, mái tóc sẫm màu dính bết vào trán và đôi mắt đờ đẫn mất hồn.",
-    "words": 35
+    "text": "Cánh cửa chính từ từ hé mở, và trước mặt viên sĩ quan là Andrea Yates với đôi mắt đờ đẫn, hoàn toàn mất kết nối với thực tại.",
+    "words": 29
    },
    {
     "id": "1.04#3",
-    "text": "Không một tiếng gào thét, không một giọt nước mắt hoảng loạn hay bất kỳ nỗ lực chống cự nào trước người thực thi pháp luật.",
+    "text": "Không một tiếng gào thét hoảng loạn, không một giọt nước mắt hay bất kỳ nỗ lực chống cự nào trước người thực thi pháp luật.",
     "words": 26
    },
    {
     "id": "1.04#4",
-    "text": "Người phụ nữ nhìn thẳng vào viên cảnh sát và cất lên lời thú nhận gây bàng hoàng: Tôi vừa giết chết các con của mình.",
-    "words": 26
+    "text": "Quần áo và mái tóc của người phụ nữ vẫn còn ướt sũng, nhưng khuôn mặt cô chỉ hiện lên một vẻ vô cảm đến mức kỳ dị.",
+    "words": 28
    },
    {
     "id": "1.04#5",
-    "text": "Khi bước chân vào bên trong căn nhà gạch màu nâu, viên cảnh sát phải đối diện với một cảnh tượng đau lòng vượt quá mọi giới hạn chịu đựng của con người.",
-    "words": 33
+    "text": "Theo lời khai ban đầu của viên sĩ quan, người mẹ đã thừa nhận ngay rằng chính mình vừa gây ra cái chết của tất cả các con.",
+    "words": 28
    },
    {
     "id": "1.04#6",
+    "text": "Khi bước sâu vào bên trong căn nhà, người thực thi công lý phải đối diện với một cảnh tượng đau lòng vượt quá mọi giới hạn chịu đựng của con người.",
+    "words": 32
+   },
+   {
+    "id": "1.04#7",
     "text": "Năm đứa trẻ ngây thơ, từ cậu bé lớn Noah bảy tuổi đến cô bé út Mary mới tròn sáu tháng tuổi, đều đã vĩnh viễn ngừng thở.",
     "words": 28
    },
    {
-    "id": "1.04#7",
-    "text": "Một thảm kịch gia đình kinh hoàng nhất trong lịch sử nước Mỹ đã mở màn ngay trong không gian quen thuộc của một tổ ấm kiểu mẫu.",
+    "id": "1.04#8",
+    "text": "Một bi kịch gia đình kinh hoàng nhất trong lịch sử đương đại đã mở màn ngay trong không gian quen thuộc của một tổ ấm kiểu mẫu.",
     "words": 28
    }
   ]
@@ -108,32 +123,42 @@
   "kind": "LOI",
   "role": "H",
   "direction": "nhấn mạnh làn sóng phẫn nộ ban đầu của dư luận",
-  "text": "Tin tức về vụ việc nhanh chóng lan truyền với tốc độ chóng mặt, làm rung chuyển toàn bộ thành phố Houston và nước Mỹ. Báo chí và các phương tiện truyền thông lập tức gắn nhãn Andrea Yates là một con quái vật vô nhân tính và một kẻ sát nhân máu lạnh. Dư luận xã hội sục sôi trong làn sóng phẫn nộ dữ dội, đòi hỏi một bản án tử hình nghiêm khắc nhất để trừng trị người mẹ độc ác. Nhưng phía sau ngôi nhà gạch tĩnh lặng ấy không phải là một kế hoạch giết người cướp của hay lòng thù hận thường tình của tội phạm. Nó là điểm kết thúc bi thảm của một cuộc vật lộn tâm thần kinh kéo dài nhiều năm trời trong sự cô độc tột cùng.",
+  "text": "Tin tức về vụ việc nhanh chóng bùng nổ trên các phương tiện truyền thông với tốc độ chóng mặt, làm rung chuyển cả nước Mỹ. Trước mắt dư luận xã hội, Andrea Yates ngay lập tức bị quy chụp thành một kẻ nhẫn tâm, một con quái vật không có nhân tính. Những làn sóng phẫn nộ dữ dội bùng lên trên các diễn đàn công cộng, đòi hỏi một bản án nghiêm khắc nhất để trừng trị hành vi của người mẹ. Bầu không khí xã hội tràn ngập sự căm phẫn khi hình ảnh năm đứa trẻ ngây thơ liên tục xuất hiện trên các trang nhất của báo chí. Nhưng phía sau ngôi nhà gạch tĩnh lặng ấy không phải là một kế hoạch phạm tội vị kỷ hay sự thù hận thường tình của một kẻ thủ ác. Đó là điểm dừng chân bi thảm của một cuộc vật lộn tâm thần kinh kéo dài nhiều năm trời trong sự cô độc tột cùng của một người phụ nữ. Sự thiếu hiểu biết của cộng đồng về bệnh lý tâm thần sau sinh đã tạo nên một làn sóng phán xét mù quáng, che lấp đi nguồn cơn sâu xa của bi kịch.",
   "sentences": [
    {
     "id": "1.06#1",
-    "text": "Tin tức về vụ việc nhanh chóng lan truyền với tốc độ chóng mặt, làm rung chuyển toàn bộ thành phố Houston và nước Mỹ.",
-    "words": 25
+    "text": "Tin tức về vụ việc nhanh chóng bùng nổ trên các phương tiện truyền thông với tốc độ chóng mặt, làm rung chuyển cả nước Mỹ.",
+    "words": 26
    },
    {
     "id": "1.06#2",
-    "text": "Báo chí và các phương tiện truyền thông lập tức gắn nhãn Andrea Yates là một con quái vật vô nhân tính và một kẻ sát nhân máu lạnh.",
-    "words": 29
+    "text": "Trước mắt dư luận xã hội, Andrea Yates ngay lập tức bị quy chụp thành một kẻ nhẫn tâm, một con quái vật không có nhân tính.",
+    "words": 27
    },
    {
     "id": "1.06#3",
-    "text": "Dư luận xã hội sục sôi trong làn sóng phẫn nộ dữ dội, đòi hỏi một bản án tử hình nghiêm khắc nhất để trừng trị người mẹ độc ác.",
-    "words": 30
+    "text": "Những làn sóng phẫn nộ dữ dội bùng lên trên các diễn đàn công cộng, đòi hỏi một bản án nghiêm khắc nhất để trừng trị hành vi của người mẹ.",
+    "words": 31
    },
    {
     "id": "1.06#4",
-    "text": "Nhưng phía sau ngôi nhà gạch tĩnh lặng ấy không phải là một kế hoạch giết người cướp của hay lòng thù hận thường tình của tội phạm.",
-    "words": 28
+    "text": "Bầu không khí xã hội tràn ngập sự căm phẫn khi hình ảnh năm đứa trẻ ngây thơ liên tục xuất hiện trên các trang nhất của báo chí.",
+    "words": 29
    },
    {
     "id": "1.06#5",
-    "text": "Nó là điểm kết thúc bi thảm của một cuộc vật lộn tâm thần kinh kéo dài nhiều năm trời trong sự cô độc tột cùng.",
-    "words": 26
+    "text": "Nhưng phía sau ngôi nhà gạch tĩnh lặng ấy không phải là một kế hoạch phạm tội vị kỷ hay sự thù hận thường tình của một kẻ thủ ác.",
+    "words": 30
+   },
+   {
+    "id": "1.06#6",
+    "text": "Đó là điểm dừng chân bi thảm của một cuộc vật lộn tâm thần kinh kéo dài nhiều năm trời trong sự cô độc tột cùng của một người phụ nữ.",
+    "words": 31
+   },
+   {
+    "id": "1.06#7",
+    "text": "Sự thiếu hiểu biết của cộng đồng về bệnh lý tâm thần sau sinh đã tạo nên một làn sóng phán xét mù quáng, che lấp đi nguồn cơn sâu xa của bi kịch.",
+    "words": 34
    }
   ]
  },
@@ -142,42 +167,47 @@
   "act": 1,
   "kind": "LOI",
   "role": "N",
-  "direction": "N1: Hàng xóm Clear Lake, giọng nữ nghẹn ngào, đau xót",
-  "text": "Gia đình Yates đã chuyển đến sống tại khu phố của chúng tôi suốt nhiều năm và họ luôn mang lại ấn tượng về một gia đình Kitô giáo vô cùng sùng đạo. Những đứa trẻ nhà Yates rất ngoan ngoãn, lễ phép, chúng thường chơi đùa trên bãi cỏ trước sân và chào hỏi hàng xóm rất lễ độ. Andrea từng là một y tá điều dưỡng giỏi trước khi nghỉ việc ở nhà để toàn tâm toàn ý chăm sóc các con. Nhưng trong những tháng gần đây, tôi nhận thấy Andrea ngày càng trở nên tiều tụy, gầy gò và hầu như không bao giờ bước chân ra khỏi cửa. Khi thấy hàng chục chiếc xe cảnh sát và xe cấp cứu hú còi vây kín căn nhà sáng hôm đó, tôi nghĩ rằng có một vụ cướp nguy hiểm vừa xảy ra. Giây phút người ta đưa năm chiếc cáng nhỏ phủ khăn trắng ra khỏi cửa, toàn bộ khu phố chúng tôi chết lặng trong sự bàng hoàng tột độ. Không ai trong chúng tôi có thể tưởng tượng được rằng một người mẹ hiền lành, tận tụy lại có thể rơi vào một vực thẳm tăm tối đến mức độ ấy.",
+  "direction": "N1: Người hàng xóm minh hoạ, giọng nữ thanh niên nghẹn ngào, đau xót",
+  "text": "Hãy hình dung cảm giác bàng hoàng của một người hàng xóm trong khu phố Clear Lake vào buổi sáng định mệnh hôm ấy. Gia đình nhà Yates từ lâu luôn mang lại cho chúng tôi ấn tượng về một tổ ấm Kitô giáo vô cùng sùng đạo và chuẩn mực. Những đứa trẻ nhà Yates rất ngoan ngoãn, lễ phép, chúng thường chơi đùa vui vẻ trên bãi cỏ trước sân và chào hỏi mọi người rất lễ độ. Andrea từng là một y tá điều dưỡng giỏi trước khi nghỉ việc ở nhà để toàn tâm toàn ý chăm sóc và dạy dỗ các con. Nhưng trong vài tháng gần đây, chúng tôi nhận thấy người phụ nữ ấy dường như ngày càng trở nên gầy gò, tiều tụy và ít khi xuất hiện bên ngoài. Khi thấy xe cảnh sát và xe cấp cứu vây kín căn nhà sáng hôm đó, ai trong khu phố cũng ngỡ ngàng tưởng rằng vừa xảy ra một vụ cướp nghiêm trọng. Giây phút sự thật đau lòng được người thực thi pháp luật loan báo, toàn bộ khu phố chết lặng trong nỗi xót xa và bàng hoàng tột độ. Không một ai có thể tin được rằng một người mẹ hiền lành, tận tụy lại có thể rơi vào một vực thẳm tăm tối và tuyệt vọng đến mức độ ấy.",
   "sentences": [
    {
     "id": "1.07#1",
-    "text": "Gia đình Yates đã chuyển đến sống tại khu phố của chúng tôi suốt nhiều năm và họ luôn mang lại ấn tượng về một gia đình Kitô giáo vô cùng sùng đạo.",
-    "words": 33
+    "text": "Hãy hình dung cảm giác bàng hoàng của một người hàng xóm trong khu phố Clear Lake vào buổi sáng định mệnh hôm ấy.",
+    "words": 24
    },
    {
     "id": "1.07#2",
-    "text": "Những đứa trẻ nhà Yates rất ngoan ngoãn, lễ phép, chúng thường chơi đùa trên bãi cỏ trước sân và chào hỏi hàng xóm rất lễ độ.",
+    "text": "Gia đình nhà Yates từ lâu luôn mang lại cho chúng tôi ấn tượng về một tổ ấm Kitô giáo vô cùng sùng đạo và chuẩn mực.",
     "words": 27
    },
    {
     "id": "1.07#3",
-    "text": "Andrea từng là một y tá điều dưỡng giỏi trước khi nghỉ việc ở nhà để toàn tâm toàn ý chăm sóc các con.",
-    "words": 24
+    "text": "Những đứa trẻ nhà Yates rất ngoan ngoãn, lễ phép, chúng thường chơi đùa vui vẻ trên bãi cỏ trước sân và chào hỏi mọi người rất lễ độ.",
+    "words": 29
    },
    {
     "id": "1.07#4",
-    "text": "Nhưng trong những tháng gần đây, tôi nhận thấy Andrea ngày càng trở nên tiều tụy, gầy gò và hầu như không bao giờ bước chân ra khỏi cửa.",
-    "words": 29
+    "text": "Andrea từng là một y tá điều dưỡng giỏi trước khi nghỉ việc ở nhà để toàn tâm toàn ý chăm sóc và dạy dỗ các con.",
+    "words": 27
    },
    {
     "id": "1.07#5",
-    "text": "Khi thấy hàng chục chiếc xe cảnh sát và xe cấp cứu hú còi vây kín căn nhà sáng hôm đó, tôi nghĩ rằng có một vụ cướp nguy hiểm vừa xảy ra.",
-    "words": 33
+    "text": "Nhưng trong vài tháng gần đây, chúng tôi nhận thấy người phụ nữ ấy dường như ngày càng trở nên gầy gò, tiều tụy và ít khi xuất hiện bên ngoài.",
+    "words": 31
    },
    {
     "id": "1.07#6",
-    "text": "Giây phút người ta đưa năm chiếc cáng nhỏ phủ khăn trắng ra khỏi cửa, toàn bộ khu phố chúng tôi chết lặng trong sự bàng hoàng tột độ.",
-    "words": 29
+    "text": "Khi thấy xe cảnh sát và xe cấp cứu vây kín căn nhà sáng hôm đó, ai trong khu phố cũng ngỡ ngàng tưởng rằng vừa xảy ra một vụ cướp nghiêm trọng.",
+    "words": 33
    },
    {
     "id": "1.07#7",
-    "text": "Không ai trong chúng tôi có thể tưởng tượng được rằng một người mẹ hiền lành, tận tụy lại có thể rơi vào một vực thẳm tăm tối đến mức độ ấy.",
+    "text": "Giây phút sự thật đau lòng được người thực thi pháp luật loan báo, toàn bộ khu phố chết lặng trong nỗi xót xa và bàng hoàng tột độ.",
+    "words": 29
+   },
+   {
+    "id": "1.07#8",
+    "text": "Không một ai có thể tin được rằng một người mẹ hiền lành, tận tụy lại có thể rơi vào một vực thẳm tăm tối và tuyệt vọng đến mức độ ấy.",
     "words": 32
    }
   ]
@@ -194,7 +224,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "chuyển sang buổi thẩm vấn ban đầu tại đồn cảnh sát",
-  "text": "Khi người chồng Russell Yates vội vã lao xe từ cơ quan về đến trước cửa nhà, hiện trường đã bị phong tỏa hoàn toàn bởi dải băng vàng của cảnh sát. Người cha ngã quỵ xuống bãi cỏ phía trước trong tiếng khóc xé lòng khi hay tin toàn bộ năm đứa con ruột thịt đã ra đi mãi mãi. Trong khi đó, tại trụ sở cảnh sát, Andrea Yates ngồi co ro trong chiếc áo tù màu xám, khuôn mặt bất động như một chiếc bóng vô hồn. Thám tử kỳ cựu Eric Mehl thuộc Đội Trọng án Sở Cảnh sát Houston được giao nhiệm vụ trực tiếp thẩm vấn người mẹ ba mươi sáu tuổi. Thay vì quanh co chối tội hay tỏ vẻ giận dữ, Andrea khai báo rành mạch từng chi tiết của buổi sáng định mệnh với một sự bình thản kỳ dị. Nhưng nguyên nhân thực sự thúc đẩy hành động hủy diệt ấy đã mở toang cánh cửa dẫn vào một mê cung tâm thần học đầy rùng mình.",
+  "text": "Khi người chồng Russell Yates vội vã lao xe từ cơ quan về đến trước cửa nhà, hiện trường đã bị phong tỏa hoàn toàn bởi dải băng vàng của cảnh sát. Người cha ngã gục ngay trên bãi cỏ khi hay tin toàn bộ năm đứa con ruột thịt đã ra đi mãi mãi. Trong khi đó, tại trụ sở cảnh sát, Andrea Yates ngồi bất động trên ghế thẩm vấn như một chiếc bóng vô hồn. Đôi mắt người phụ nữ nhìn chằm chằm vào khoảng không vô định, không bộc lộ bất kỳ phản ứng cảm xúc nào với những người xung quanh. Các điều tra viên dày dạn kinh nghiệm nhất của Sở Cảnh sát Houston tiến hành lấy lời khai của người mẹ ba mươi sáu tuổi. Thay vì quanh co chối tội hay tìm cách xóa sạch các dấu vết, Andrea khai báo về toàn bộ tiến trình vụ việc với một sự bình thản đến mức khó tin. Từng câu trả lời của cô đều rõ ràng, mạch lạc về mặt chi tiết bề ngoài, nhưng động cơ thúc đẩy bên trong lại khiến mọi người phải chết lặng. Một cánh cửa dẫn vào mê cung tâm thần học phức tạp bắt đầu mở toang, làm đảo lộn toàn bộ những định kiến ban đầu của các điều tra viên.",
   "sentences": [
    {
     "id": "1.09#1",
@@ -203,28 +233,38 @@
    },
    {
     "id": "1.09#2",
-    "text": "Người cha ngã quỵ xuống bãi cỏ phía trước trong tiếng khóc xé lòng khi hay tin toàn bộ năm đứa con ruột thịt đã ra đi mãi mãi.",
-    "words": 29
+    "text": "Người cha ngã gục ngay trên bãi cỏ khi hay tin toàn bộ năm đứa con ruột thịt đã ra đi mãi mãi.",
+    "words": 23
    },
    {
     "id": "1.09#3",
-    "text": "Trong khi đó, tại trụ sở cảnh sát, Andrea Yates ngồi co ro trong chiếc áo tù màu xám, khuôn mặt bất động như một chiếc bóng vô hồn.",
-    "words": 29
+    "text": "Trong khi đó, tại trụ sở cảnh sát, Andrea Yates ngồi bất động trên ghế thẩm vấn như một chiếc bóng vô hồn.",
+    "words": 23
    },
    {
     "id": "1.09#4",
-    "text": "Thám tử kỳ cựu Eric Mehl thuộc Đội Trọng án Sở Cảnh sát Houston được giao nhiệm vụ trực tiếp thẩm vấn người mẹ ba mươi sáu tuổi.",
+    "text": "Đôi mắt người phụ nữ nhìn chằm chằm vào khoảng không vô định, không bộc lộ bất kỳ phản ứng cảm xúc nào với những người xung quanh.",
     "words": 28
    },
    {
     "id": "1.09#5",
-    "text": "Thay vì quanh co chối tội hay tỏ vẻ giận dữ, Andrea khai báo rành mạch từng chi tiết của buổi sáng định mệnh với một sự bình thản kỳ dị.",
-    "words": 31
+    "text": "Các điều tra viên dày dạn kinh nghiệm nhất của Sở Cảnh sát Houston tiến hành lấy lời khai của người mẹ ba mươi sáu tuổi.",
+    "words": 26
    },
    {
     "id": "1.09#6",
-    "text": "Nhưng nguyên nhân thực sự thúc đẩy hành động hủy diệt ấy đã mở toang cánh cửa dẫn vào một mê cung tâm thần học đầy rùng mình.",
-    "words": 28
+    "text": "Thay vì quanh co chối tội hay tìm cách xóa sạch các dấu vết, Andrea khai báo về toàn bộ tiến trình vụ việc với một sự bình thản đến mức khó tin.",
+    "words": 33
+   },
+   {
+    "id": "1.09#7",
+    "text": "Từng câu trả lời của cô đều rõ ràng, mạch lạc về mặt chi tiết bề ngoài, nhưng động cơ thúc đẩy bên trong lại khiến mọi người phải chết lặng.",
+    "words": 31
+   },
+   {
+    "id": "1.09#8",
+    "text": "Một cánh cửa dẫn vào mê cung tâm thần học phức tạp bắt đầu mở toang, làm đảo lộn toàn bộ những định kiến ban đầu của các điều tra viên.",
+    "words": 31
    }
   ]
  },
@@ -233,33 +273,43 @@
   "act": 1,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Thám tử Eric Mehl, giọng nam trung niên, điềm tĩnh, trắc ẩn",
-  "text": "Trong suốt hàng chục năm làm công tác điều tra án mạng, tôi chưa từng gặp một buổi thẩm vấn nào gây ám ảnh tâm lý nặng nề như vậy. Andrea Yates ngồi trước mặt tôi không có bất kỳ biểu hiện nào của sự trốn tránh trách nhiệm hay cố tình bịa đặt lời khai để tìm kiếm sự khoan hồng. Cô ấy nói với tôi rằng mình đã lên kế hoạch dìm các con trong bồn tắm ngay sau khi chồng vừa rời khỏi nhà đi làm vào lúc tám giờ ba mươi phút sáng. Khi tôi hỏi cô ấy tại sao lại làm như vậy, Andrea nhìn thẳng vào mắt tôi và nói rằng cô ấy là một người mẹ tồi tệ, một kẻ bị quỷ dữ nguyền rủa. Cô ấy tin rằng việc tước đoạt sinh mạng của những đứa trẻ là cách duy nhất để cứu rỗi linh hồn chúng khỏi ngọn lửa vĩnh hằng của địa ngục.",
+  "direction": "D: giọng nam trung niên, điềm tĩnh, trắc ẩn",
+  "text": "Hãy hình dung một điều tra viên ngồi đối diện với một người mẹ trong buổi thẩm vấn gây ám ảnh tâm lý nặng nề bậc nhất sự nghiệp. Andrea Yates hoàn toàn không bộc lộ bất kỳ dấu hiệu nào của một kẻ toan tính trốn tội hay cố tình bịa đặt lời khai để tìm kiếm sự thương hại. Cô ấy bình tĩnh thừa nhận rằng mình đã chờ đợi khoảnh khắc người chồng vừa rời khỏi nhà để thực hiện hành vi. Khi chúng tôi hỏi về nguyên nhân thúc đẩy hành động đau lòng ấy, người mẹ nhìn thẳng vào khoảng không và nói rằng mình là một người mẹ tội lỗi. Trong tâm trí hoang tưởng, cô tin chắc rằng quỷ dữ Satan đang trú ngụ trong tâm hồn mình và sẽ làm hỏng linh hồn của những đứa trẻ ngây thơ. Cô khẳng định hành động tước đoạt sinh mạng là cách duy nhất để giải thoát và bảo vệ các con, giúp linh hồn chúng được Chúa đón nhận lên thiên đàng. Đó là một lời khai rợn người, phản ánh một niềm tin hoang tưởng tuyệt đối đã đè bẹp hoàn toàn mọi nhận thức thực tế của người mẹ.",
   "sentences": [
    {
     "id": "1.10#1",
-    "text": "Trong suốt hàng chục năm làm công tác điều tra án mạng, tôi chưa từng gặp một buổi thẩm vấn nào gây ám ảnh tâm lý nặng nề như vậy.",
-    "words": 30
+    "text": "Hãy hình dung một điều tra viên ngồi đối diện với một người mẹ trong buổi thẩm vấn gây ám ảnh tâm lý nặng nề bậc nhất sự nghiệp.",
+    "words": 29
    },
    {
     "id": "1.10#2",
-    "text": "Andrea Yates ngồi trước mặt tôi không có bất kỳ biểu hiện nào của sự trốn tránh trách nhiệm hay cố tình bịa đặt lời khai để tìm kiếm sự khoan hồng.",
+    "text": "Andrea Yates hoàn toàn không bộc lộ bất kỳ dấu hiệu nào của một kẻ toan tính trốn tội hay cố tình bịa đặt lời khai để tìm kiếm sự thương hại.",
     "words": 32
    },
    {
     "id": "1.10#3",
-    "text": "Cô ấy nói với tôi rằng mình đã lên kế hoạch dìm các con trong bồn tắm ngay sau khi chồng vừa rời khỏi nhà đi làm vào lúc tám giờ ba mươi phút sáng.",
-    "words": 35
+    "text": "Cô ấy bình tĩnh thừa nhận rằng mình đã chờ đợi khoảnh khắc người chồng vừa rời khỏi nhà để thực hiện hành vi.",
+    "words": 24
    },
    {
     "id": "1.10#4",
-    "text": "Khi tôi hỏi cô ấy tại sao lại làm như vậy, Andrea nhìn thẳng vào mắt tôi và nói rằng cô ấy là một người mẹ tồi tệ, một kẻ bị quỷ dữ nguyền rủa.",
-    "words": 35
+    "text": "Khi chúng tôi hỏi về nguyên nhân thúc đẩy hành động đau lòng ấy, người mẹ nhìn thẳng vào khoảng không và nói rằng mình là một người mẹ tội lỗi.",
+    "words": 31
    },
    {
     "id": "1.10#5",
-    "text": "Cô ấy tin rằng việc tước đoạt sinh mạng của những đứa trẻ là cách duy nhất để cứu rỗi linh hồn chúng khỏi ngọn lửa vĩnh hằng của địa ngục.",
+    "text": "Trong tâm trí hoang tưởng, cô tin chắc rằng quỷ dữ Satan đang trú ngụ trong tâm hồn mình và sẽ làm hỏng linh hồn của những đứa trẻ ngây thơ.",
     "words": 31
+   },
+   {
+    "id": "1.10#6",
+    "text": "Cô khẳng định hành động tước đoạt sinh mạng là cách duy nhất để giải thoát và bảo vệ các con, giúp linh hồn chúng được Chúa đón nhận lên thiên đàng.",
+    "words": 32
+   },
+   {
+    "id": "1.10#7",
+    "text": "Đó là một lời khai rợn người, phản ánh một niềm tin hoang tưởng tuyệt đối đã đè bẹp hoàn toàn mọi nhận thức thực tế của người mẹ.",
+    "words": 29
    }
   ]
  },
@@ -269,22 +319,27 @@
   "kind": "LOI",
   "role": "H",
   "direction": "khép lại Hồi 1, dẫn dắt sang phân tích bệnh lý",
-  "text": "Lời khai của Andrea Yates không mang lại cảm giác của một kẻ sát nhân ngoan cố muốn ngụy biện cho tội ác. Nó phản ánh chân dung của một tâm trí đã hoàn toàn đứt gãy kết nối với thế giới thực tại và bị giam cầm trong những ảo tưởng cứu chuộc méo mó. Một cuộc tranh luận pháp lý và y khoa mang tính lịch sử bắt đầu mở ra, vạch ranh giới giữa sự ác độc cố ý và bi kịch của chứng loạn thần sau sinh thực sự.",
+  "text": "Lời khai của Andrea Yates không mang bóng dáng của một kẻ sát nhân ngoan cố tìm cách ngụy biện cho hành vi sai trái của mình. Nó phản ánh chân dung chân thực của một tâm trí đã hoàn toàn đứt gãy kết nối với thế giới thực tại và bị giam cầm trong những ảo tưởng cứu chuộc méo mó. Một cuộc tranh luận pháp lý và y khoa mang tính lịch sử bắt đầu mở ra, vạch ranh giới giữa sự tàn nhẫn cố ý và bi kịch của chứng loạn thần sau sinh thực sự. Sự thật phía sau căn nhà gạch Clear Lake đòi hỏi khoa học tâm thần pháp y phải vào cuộc để tìm kiếm lời giải thích thấu đáo nhất.",
   "sentences": [
    {
     "id": "1.11#1",
-    "text": "Lời khai của Andrea Yates không mang lại cảm giác của một kẻ sát nhân ngoan cố muốn ngụy biện cho tội ác.",
-    "words": 23
+    "text": "Lời khai của Andrea Yates không mang bóng dáng của một kẻ sát nhân ngoan cố tìm cách ngụy biện cho hành vi sai trái của mình.",
+    "words": 27
    },
    {
     "id": "1.11#2",
-    "text": "Nó phản ánh chân dung của một tâm trí đã hoàn toàn đứt gãy kết nối với thế giới thực tại và bị giam cầm trong những ảo tưởng cứu chuộc méo mó.",
-    "words": 33
+    "text": "Nó phản ánh chân dung chân thực của một tâm trí đã hoàn toàn đứt gãy kết nối với thế giới thực tại và bị giam cầm trong những ảo tưởng cứu chuộc méo mó.",
+    "words": 35
    },
    {
     "id": "1.11#3",
-    "text": "Một cuộc tranh luận pháp lý và y khoa mang tính lịch sử bắt đầu mở ra, vạch ranh giới giữa sự ác độc cố ý và bi kịch của chứng loạn thần sau sinh thực sự.",
+    "text": "Một cuộc tranh luận pháp lý và y khoa mang tính lịch sử bắt đầu mở ra, vạch ranh giới giữa sự tàn nhẫn cố ý và bi kịch của chứng loạn thần sau sinh thực sự.",
     "words": 37
+   },
+   {
+    "id": "1.11#4",
+    "text": "Sự thật phía sau căn nhà gạch Clear Lake đòi hỏi khoa học tâm thần pháp y phải vào cuộc để tìm kiếm lời giải thích thấu đáo nhất.",
+    "words": 29
    }
   ]
  },
@@ -306,7 +361,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "tiết tấu chậm rãi, đào sâu hồ sơ quá khứ",
-  "text": "Để hiểu được nguồn cơn dẫn đến thảm kịch ngày 20 tháng 6 năm 2001, các nhà điều tra đã phải lật lại toàn bộ hồ sơ bệnh án suốt nhiều năm của Andrea Yates. Đó là một chuỗi dài những lần suy sụp tâm lý nghiêm trọng, những tiếng kêu cứu vô vọng và những cảnh báo y khoa bị bỏ ngoài tai. Phía sau hình ảnh một gia đình đông con hạnh phúc là một áp lực sinh nở và nuôi dạy con cái khủng khiếp đè nặng lên đôi vai người phụ nữ.",
+  "text": "Để hiểu được nguồn cơn dẫn đến thảm kịch ngày 20 tháng 6 năm 2001, các nhà điều tra đã phải lật lại toàn bộ hồ sơ bệnh án suốt nhiều năm của Andrea Yates. Đó là một chuỗi dài những lần suy sụp tâm lý nghiêm trọng, những tiếng kêu cứu vô vọng và những cảnh báo y khoa bị bỏ ngoài tai. Phía sau hình ảnh một gia đình đông con hạnh phúc là một áp lực sinh nở và nuôi dạy con cái khủng khiếp đè nặng lên đôi vai người phụ nữ. Sự sụp đổ tinh thần ấy không hề diễn ra trong một sớm một chiều mà là một quá trình xói mòn thần kinh âm ỉ kéo dài nhiều năm. Những dấu hiệu bất thường đã từng xuất hiện liên tục nhưng không nhận được sự can thiệp và bảo vệ đúng mức từ những người xung quanh.",
   "sentences": [
    {
     "id": "2.02#1",
@@ -322,6 +377,16 @@
     "id": "2.02#3",
     "text": "Phía sau hình ảnh một gia đình đông con hạnh phúc là một áp lực sinh nở và nuôi dạy con cái khủng khiếp đè nặng lên đôi vai người phụ nữ.",
     "words": 32
+   },
+   {
+    "id": "2.02#4",
+    "text": "Sự sụp đổ tinh thần ấy không hề diễn ra trong một sớm một chiều mà là một quá trình xói mòn thần kinh âm ỉ kéo dài nhiều năm.",
+    "words": 30
+   },
+   {
+    "id": "2.02#5",
+    "text": "Những dấu hiệu bất thường đã từng xuất hiện liên tục nhưng không nhận được sự can thiệp và bảo vệ đúng mức từ những người xung quanh.",
+    "words": 28
    }
   ]
  },
@@ -337,17 +402,17 @@
   "kind": "LOI",
   "role": "H",
   "direction": "phác họa chân dung người phụ nữ từng là y tá ưu tú",
-  "text": "Andrea Pia Kennedy từng là học sinh ưu tú, là thủ khoa tốt nghiệp trường trung học và tốt nghiệp loại xuất sắc trường đào tạo điều dưỡng thuộc Đại học Texas. Cô từng làm việc tận tụy suốt tám năm tại Trung tâm Ung bướu MD Anderson, nơi cô được đồng nghiệp yêu mến bởi sự dịu dàng và lòng trắc ẩn. Sau khi kết hôn với Russell Yates vào năm 1993, hai vợ chồng thống nhất sẽ sinh thật nhiều con theo những niềm tin tôn giáo khắt khe mà họ theo đuổi. Andrea liên tục mang thai và sinh nở bốn người con trai chỉ trong vòng năm năm, gánh vác toàn bộ việc chăm sóc gia đình và tự dạy học cho các con tại nhà. Năm 1999, sau khi sinh người con trai thứ tư mang tên Luke, Andrea bắt đầu rơi vào cơn trầm cảm sau sinh cấp tính với những ảo thanh đe dọa bên tai. Cô đã hai lần tìm cách tự sát bằng thuốc ngủ và dao nhọn, buộc người thân phải đưa vào bệnh viện tâm thần điều trị khẩn cấp.",
+  "text": "Andrea Pia Kennedy từng là thủ khoa trường trung học Milby và tốt nghiệp ngành điều dưỡng thuộc Đại học Texas với thành tích xuất sắc. Cô từng làm việc tận tụy suốt tám năm tại Trung tâm Ung bướu MD Anderson danh tiếng, nơi cô được đồng nghiệp yêu mến bởi sự dịu dàng và lòng trắc ẩn. Sau khi kết hôn với Russell Yates vào năm 1993, hai vợ chồng thống nhất sẽ sinh thật nhiều con theo những niềm tin tôn giáo khắt khe mà họ theo đuổi. Andrea liên tục mang thai và sinh nở bốn người con trai chỉ trong vòng năm năm, gánh vác toàn bộ việc chăm sóc gia đình và tự dạy học cho các con tại nhà. Họ từng sống trong một chiếc xe buýt cải tạo chật hẹp chỉ khoảng ba mươi lăm mét vuông, khiến người phụ nữ hoàn toàn bị cô lập khỏi thế giới bên ngoài. Năm 1999, sau khi sinh người con trai thứ tư mang tên Luke, Andrea bắt đầu rơi vào cơn trầm cảm sau sinh cấp tính với những ảo thanh đe dọa bên tai. Mùa hè năm đó, cô hai lần tìm cách tự hại do áp lực thần kinh quá mức, buộc người thân phải đưa vào bệnh viện tâm thần điều trị nội trú. Những tiếng chuông báo động đỏ về sức khỏe tâm thần đã vang lên dữ dội ngay từ thời điểm đó nhưng vẫn chưa đủ sức thức tỉnh gia đình.",
   "sentences": [
    {
     "id": "2.04#1",
-    "text": "Andrea Pia Kennedy từng là học sinh ưu tú, là thủ khoa tốt nghiệp trường trung học và tốt nghiệp loại xuất sắc trường đào tạo điều dưỡng thuộc Đại học Texas.",
-    "words": 32
+    "text": "Andrea Pia Kennedy từng là thủ khoa trường trung học Milby và tốt nghiệp ngành điều dưỡng thuộc Đại học Texas với thành tích xuất sắc.",
+    "words": 26
    },
    {
     "id": "2.04#2",
-    "text": "Cô từng làm việc tận tụy suốt tám năm tại Trung tâm Ung bướu MD Anderson, nơi cô được đồng nghiệp yêu mến bởi sự dịu dàng và lòng trắc ẩn.",
-    "words": 31
+    "text": "Cô từng làm việc tận tụy suốt tám năm tại Trung tâm Ung bướu MD Anderson danh tiếng, nơi cô được đồng nghiệp yêu mến bởi sự dịu dàng và lòng trắc ẩn.",
+    "words": 33
    },
    {
     "id": "2.04#3",
@@ -361,13 +426,23 @@
    },
    {
     "id": "2.04#5",
-    "text": "Năm 1999, sau khi sinh người con trai thứ tư mang tên Luke, Andrea bắt đầu rơi vào cơn trầm cảm sau sinh cấp tính với những ảo thanh đe dọa bên tai.",
+    "text": "Họ từng sống trong một chiếc xe buýt cải tạo chật hẹp chỉ khoảng ba mươi lăm mét vuông, khiến người phụ nữ hoàn toàn bị cô lập khỏi thế giới bên ngoài.",
     "words": 33
    },
    {
     "id": "2.04#6",
-    "text": "Cô đã hai lần tìm cách tự sát bằng thuốc ngủ và dao nhọn, buộc người thân phải đưa vào bệnh viện tâm thần điều trị khẩn cấp.",
-    "words": 28
+    "text": "Năm 1999, sau khi sinh người con trai thứ tư mang tên Luke, Andrea bắt đầu rơi vào cơn trầm cảm sau sinh cấp tính với những ảo thanh đe dọa bên tai.",
+    "words": 33
+   },
+   {
+    "id": "2.04#7",
+    "text": "Mùa hè năm đó, cô hai lần tìm cách tự hại do áp lực thần kinh quá mức, buộc người thân phải đưa vào bệnh viện tâm thần điều trị nội trú.",
+    "words": 32
+   },
+   {
+    "id": "2.04#8",
+    "text": "Những tiếng chuông báo động đỏ về sức khỏe tâm thần đã vang lên dữ dội ngay từ thời điểm đó nhưng vẫn chưa đủ sức thức tỉnh gia đình.",
+    "words": 30
    }
   ]
  },
@@ -382,33 +457,43 @@
   "act": 2,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Thám tử Eric Mehl, lời cảnh báo của bác sĩ",
-  "text": "Hồ sơ bệnh án từ Bệnh viện Memorial Spring Shadows cho thấy tình trạng tâm thần của Andrea đã được các bác sĩ chuyên khoa chẩn đoán là Loạn thần sau sinh cực kỳ nguy hiểm. Bác sĩ điều trị thời điểm đó là Tiến sĩ Eileen Starbranch đã từng cảnh báo thẳng thắn với hai vợ chồng rằng việc tiếp tục sinh con sẽ chắc chắn kích hoạt một cơn loạn thần hủy diệt mới. Tiến sĩ Starbranch nhấn mạnh rằng Andrea không bao giờ được phép sinh thêm bất kỳ đứa trẻ nào nữa nếu muốn giữ an toàn cho bản thân và gia đình. Tuy nhiên, bất chấp lời cảnh báo y khoa nghiêm khắc ấy, chỉ bảy tháng sau khi xuất viện, Andrea lại tiếp tục mang thai đứa con thứ năm. Sự ra đời của bé gái Mary vào tháng 11 năm 2000 kết hợp với cái chết đột ngột của người cha ruột vào đầu năm 2001 đã đẩy người mẹ trượt dài xuống đáy vực thẳm.",
+  "direction": "D: lời cảnh báo nghiêm khắc của bác sĩ điều trị",
+  "text": "Hồ sơ bệnh án năm 1999 cho thấy các bác sĩ đã ghi nhận tình trạng tâm thần cực kỳ nghiêm trọng của Andrea Yates sau khi sinh nở. Bác sĩ điều trị thời điểm đó là Tiến sĩ Eileen Starbranch đã chẩn đoán cô mắc chứng trầm cảm sau sinh có loạn thần nặng. Vị bác sĩ đã thẳng thắn cảnh báo hai vợ chồng rằng việc tiếp tục sinh thêm con chắc chắn sẽ khiến chứng loạn thần tái phát dữ dội hơn. Lời khuyên dứt khoát của bà là gia đình tuyệt đối không nên sinh thêm con để bảo toàn tính mạng và sự an toàn cho người mẹ. Tuy nhiên, bất chấp lời cảnh báo y khoa nghiêm khắc ấy, mong muốn có một gia đình đông con và áp lực niềm tin đã lấn át lý trí. Chỉ ít lâu sau khi xuất viện, Andrea lại tiếp tục mang thai đứa con thứ năm trong sự im lặng cam chịu. Đó là một sai lầm nhận thức chí mạng của gia đình, đặt một quả bom nổ chậm vào hệ thần kinh vốn đã suy kiệt của người phụ nữ.",
   "sentences": [
    {
     "id": "2.06#1",
-    "text": "Hồ sơ bệnh án từ Bệnh viện Memorial Spring Shadows cho thấy tình trạng tâm thần của Andrea đã được các bác sĩ chuyên khoa chẩn đoán là Loạn thần sau sinh cực kỳ nguy hiểm.",
-    "words": 36
-   },
-   {
-    "id": "2.06#2",
-    "text": "Bác sĩ điều trị thời điểm đó là Tiến sĩ Eileen Starbranch đã từng cảnh báo thẳng thắn với hai vợ chồng rằng việc tiếp tục sinh con sẽ chắc chắn kích hoạt một cơn loạn thần hủy diệt mới.",
-    "words": 40
-   },
-   {
-    "id": "2.06#3",
-    "text": "Tiến sĩ Starbranch nhấn mạnh rằng Andrea không bao giờ được phép sinh thêm bất kỳ đứa trẻ nào nữa nếu muốn giữ an toàn cho bản thân và gia đình.",
-    "words": 31
-   },
-   {
-    "id": "2.06#4",
-    "text": "Tuy nhiên, bất chấp lời cảnh báo y khoa nghiêm khắc ấy, chỉ bảy tháng sau khi xuất viện, Andrea lại tiếp tục mang thai đứa con thứ năm.",
+    "text": "Hồ sơ bệnh án năm 1999 cho thấy các bác sĩ đã ghi nhận tình trạng tâm thần cực kỳ nghiêm trọng của Andrea Yates sau khi sinh nở.",
     "words": 29
    },
    {
+    "id": "2.06#2",
+    "text": "Bác sĩ điều trị thời điểm đó là Tiến sĩ Eileen Starbranch đã chẩn đoán cô mắc chứng trầm cảm sau sinh có loạn thần nặng.",
+    "words": 26
+   },
+   {
+    "id": "2.06#3",
+    "text": "Vị bác sĩ đã thẳng thắn cảnh báo hai vợ chồng rằng việc tiếp tục sinh thêm con chắc chắn sẽ khiến chứng loạn thần tái phát dữ dội hơn.",
+    "words": 30
+   },
+   {
+    "id": "2.06#4",
+    "text": "Lời khuyên dứt khoát của bà là gia đình tuyệt đối không nên sinh thêm con để bảo toàn tính mạng và sự an toàn cho người mẹ.",
+    "words": 28
+   },
+   {
     "id": "2.06#5",
-    "text": "Sự ra đời của bé gái Mary vào tháng 11 năm 2000 kết hợp với cái chết đột ngột của người cha ruột vào đầu năm 2001 đã đẩy người mẹ trượt dài xuống đáy vực thẳm.",
-    "words": 37
+    "text": "Tuy nhiên, bất chấp lời cảnh báo y khoa nghiêm khắc ấy, mong muốn có một gia đình đông con và áp lực niềm tin đã lấn át lý trí.",
+    "words": 30
+   },
+   {
+    "id": "2.06#6",
+    "text": "Chỉ ít lâu sau khi xuất viện, Andrea lại tiếp tục mang thai đứa con thứ năm trong sự im lặng cam chịu.",
+    "words": 23
+   },
+   {
+    "id": "2.06#7",
+    "text": "Đó là một sai lầm nhận thức chí mạng của gia đình, đặt một quả bom nổ chậm vào hệ thần kinh vốn đã suy kiệt của người phụ nữ.",
+    "words": 30
    }
   ]
  },
@@ -424,32 +509,42 @@
   "kind": "LOI",
   "role": "H",
   "direction": "diễn biến những ngày đen tối cận kề thảm kịch",
-  "text": "Trong những tuần lễ cuối cùng trước khi thảm kịch xảy ra, tình trạng của Andrea Yates đã xuống dốc không phanh. Cô hầu như không nói chuyện, không ăn uống, liên tục cắn móng tay, đi lại thất thần trong nhà và nhìn chằm chằm vào khoảng không vô định. Bác sĩ tâm thần điều trị sau đó là Tiến sĩ Mohammed Saeed đã quyết định cắt giảm dần liều lượng thuốc chống loạn thần của cô chỉ vài ngày trước thảm kịch. Vị bác sĩ đã dặn dò gia đình phải giám sát Andrea hai mươi tư trên hai mươi tư giờ và tuyệt đối không bao giờ được để cô ở một mình với các con. Nhưng một sự lơ là định mệnh kéo dài chưa đầy một giờ đồng hồ vào buổi sáng ngày 20 tháng 6 đã biến mọi cảnh báo thành tro bụi.",
+  "text": "Sự ra đời của bé gái Mary vào tháng 11 năm 2000 kết hợp với việc chăm sóc năm đứa trẻ nhỏ đã đẩy người mẹ trượt dài xuống đáy vực thẳm. Đầu năm 2001, cái chết đột ngột của người cha ruột yêu quý đã đánh sập hoàn toàn điểm tựa tinh thần cuối cùng của Andrea. Trong những tuần lễ cận kề thảm kịch, cô hầu như rơi vào trạng thái câm lặng hoàn toàn, chỉ ngồi nhìn chằm chằm vào khoảng không vô định. Khoảng hai tuần trước ngày định mệnh, bác sĩ điều trị mới là Tiến sĩ Mohammed Saeed đã quyết định ngừng đơn thuốc chống loạn thần của cô. Gia đình nhận thấy sự bất thường nên đã thỏa thuận sẽ luôn có người thân ở bên cạnh hỗ trợ trông nom các cháu nhỏ. Nhưng một khoảng trống thời gian định mệnh kéo dài đúng một giờ đồng hồ vào buổi sáng ngày 20 tháng 6 đã biến mọi biện pháp thành vô nghĩa. Chính trong khoảng trống ấy, sự suy sụp sinh học thần kinh đã biến thành một cơn bão hủy diệt không thể ngăn chặn.",
   "sentences": [
    {
     "id": "2.08#1",
-    "text": "Trong những tuần lễ cuối cùng trước khi thảm kịch xảy ra, tình trạng của Andrea Yates đã xuống dốc không phanh.",
-    "words": 22
+    "text": "Sự ra đời của bé gái Mary vào tháng 11 năm 2000 kết hợp với việc chăm sóc năm đứa trẻ nhỏ đã đẩy người mẹ trượt dài xuống đáy vực thẳm.",
+    "words": 32
    },
    {
     "id": "2.08#2",
-    "text": "Cô hầu như không nói chuyện, không ăn uống, liên tục cắn móng tay, đi lại thất thần trong nhà và nhìn chằm chằm vào khoảng không vô định.",
-    "words": 29
+    "text": "Đầu năm 2001, cái chết đột ngột của người cha ruột yêu quý đã đánh sập hoàn toàn điểm tựa tinh thần cuối cùng của Andrea.",
+    "words": 26
    },
    {
     "id": "2.08#3",
-    "text": "Bác sĩ tâm thần điều trị sau đó là Tiến sĩ Mohammed Saeed đã quyết định cắt giảm dần liều lượng thuốc chống loạn thần của cô chỉ vài ngày trước thảm kịch.",
-    "words": 33
+    "text": "Trong những tuần lễ cận kề thảm kịch, cô hầu như rơi vào trạng thái câm lặng hoàn toàn, chỉ ngồi nhìn chằm chằm vào khoảng không vô định.",
+    "words": 29
    },
    {
     "id": "2.08#4",
-    "text": "Vị bác sĩ đã dặn dò gia đình phải giám sát Andrea hai mươi tư trên hai mươi tư giờ và tuyệt đối không bao giờ được để cô ở một mình với các con.",
-    "words": 35
+    "text": "Khoảng hai tuần trước ngày định mệnh, bác sĩ điều trị mới là Tiến sĩ Mohammed Saeed đã quyết định ngừng đơn thuốc chống loạn thần của cô.",
+    "words": 28
    },
    {
     "id": "2.08#5",
-    "text": "Nhưng một sự lơ là định mệnh kéo dài chưa đầy một giờ đồng hồ vào buổi sáng ngày 20 tháng 6 đã biến mọi cảnh báo thành tro bụi.",
+    "text": "Gia đình nhận thấy sự bất thường nên đã thỏa thuận sẽ luôn có người thân ở bên cạnh hỗ trợ trông nom các cháu nhỏ.",
+    "words": 26
+   },
+   {
+    "id": "2.08#6",
+    "text": "Nhưng một khoảng trống thời gian định mệnh kéo dài đúng một giờ đồng hồ vào buổi sáng ngày 20 tháng 6 đã biến mọi biện pháp thành vô nghĩa.",
     "words": 30
+   },
+   {
+    "id": "2.08#7",
+    "text": "Chính trong khoảng trống ấy, sự suy sụp sinh học thần kinh đã biến thành một cơn bão hủy diệt không thể ngăn chặn.",
+    "words": 24
    }
   ]
  },
@@ -458,28 +553,38 @@
   "act": 2,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Khoảng trống định mệnh 30 phút",
-  "text": "Russell Yates rời nhà đi làm lúc tám giờ ba mươi phút sáng, trong khi mẹ của anh dự kiến sẽ đến hỗ trợ trông cháu vào lúc chín giờ. Chính khoảng trống ba mươi phút không có người giám sát ấy là khoảnh khắc mà ảo giác ma quỷ hoàn toàn chiếm quyền kiểm soát não bộ của Andrea. Cô ấy tin rằng thời khắc phán xét đã điểm, và nếu cô ấy không hành động ngay lập tức thì linh hồn của các con sẽ bị quỷ dữ Satan cướp mất vĩnh viễn. Một chuỗi hành động có trật tự nhưng xuất phát từ một động cơ hoang tưởng bệnh hoạn đã diễn ra trong sự im lặng chết chóc.",
+  "direction": "D: Khoảng trống định mệnh một giờ",
+  "text": "Russell Yates rời nhà đi làm vào khoảng chín giờ sáng, trong khi mẹ của anh dự kiến sẽ đến hỗ trợ trông cháu vào khoảng mười giờ. Khoảng trống đúng sáu mươi phút không có bất kỳ ai giám sát ấy chính là thời khắc mà cơn hoang tưởng hoàn toàn chiếm quyền điều khiển não bộ. Những tiếng nói vô hình trong đầu liên tục gào thét, hối thúc Andrea rằng thời khắc phán xét cuối cùng đã điểm. Trong cơn cuồng loạn của tâm trí, cô tin rằng quỷ dữ Satan đang chực chờ cướp đoạt linh hồn các con nếu cô không hành động ngay lập tức. Động cơ của hành vi đau lòng ấy hoàn toàn không xuất phát từ thù hận cá nhân mà là một mệnh lệnh cứu rỗi trong thế giới hoang tưởng. Thảm kịch đã xảy ra trọn vẹn trong sự cô độc tột cùng của một giờ đồng hồ định mệnh không có người bảo vệ.",
   "sentences": [
    {
     "id": "2.09#1",
-    "text": "Russell Yates rời nhà đi làm lúc tám giờ ba mươi phút sáng, trong khi mẹ của anh dự kiến sẽ đến hỗ trợ trông cháu vào lúc chín giờ.",
-    "words": 30
+    "text": "Russell Yates rời nhà đi làm vào khoảng chín giờ sáng, trong khi mẹ của anh dự kiến sẽ đến hỗ trợ trông cháu vào khoảng mười giờ.",
+    "words": 28
    },
    {
     "id": "2.09#2",
-    "text": "Chính khoảng trống ba mươi phút không có người giám sát ấy là khoảnh khắc mà ảo giác ma quỷ hoàn toàn chiếm quyền kiểm soát não bộ của Andrea.",
+    "text": "Khoảng trống đúng sáu mươi phút không có bất kỳ ai giám sát ấy chính là thời khắc mà cơn hoang tưởng hoàn toàn chiếm quyền điều khiển não bộ.",
     "words": 30
    },
    {
     "id": "2.09#3",
-    "text": "Cô ấy tin rằng thời khắc phán xét đã điểm, và nếu cô ấy không hành động ngay lập tức thì linh hồn của các con sẽ bị quỷ dữ Satan cướp mất vĩnh viễn.",
-    "words": 35
+    "text": "Những tiếng nói vô hình trong đầu liên tục gào thét, hối thúc Andrea rằng thời khắc phán xét cuối cùng đã điểm.",
+    "words": 23
    },
    {
     "id": "2.09#4",
-    "text": "Một chuỗi hành động có trật tự nhưng xuất phát từ một động cơ hoang tưởng bệnh hoạn đã diễn ra trong sự im lặng chết chóc.",
-    "words": 27
+    "text": "Trong cơn cuồng loạn của tâm trí, cô tin rằng quỷ dữ Satan đang chực chờ cướp đoạt linh hồn các con nếu cô không hành động ngay lập tức.",
+    "words": 30
+   },
+   {
+    "id": "2.09#5",
+    "text": "Động cơ của hành vi đau lòng ấy hoàn toàn không xuất phát từ thù hận cá nhân mà là một mệnh lệnh cứu rỗi trong thế giới hoang tưởng.",
+    "words": 30
+   },
+   {
+    "id": "2.09#6",
+    "text": "Thảm kịch đã xảy ra trọn vẹn trong sự cô độc tột cùng của một giờ đồng hồ định mệnh không có người bảo vệ.",
+    "words": 25
    }
   ]
  },
@@ -489,7 +594,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "khép lại Hồi 2, dẫn dắt sang phân tích y khoa pháp y",
-  "text": "Thảm kịch tại ngôi nhà số 942 không phải là sản phẩm của một cơn thịnh nộ bộc phát hay sự nhẫn tâm của một kẻ ác. Nó là bằng chứng đau xót về sự sụp đổ toàn diện của một tâm trí bị căn bệnh Loạn thần sau sinh tước đoạt hoàn toàn khả năng tư duy thực tế. Sự thờ ơ của người thân, sự chủ quan của phác đồ điều trị y tế và áp lực gia đình đã tạo nên một chiếc bẫy vô hình nghiền nát người mẹ trẻ. Giờ đây, khi năm đứa trẻ đã yên nghỉ dưới lòng đất, toàn bộ trách nhiệm hình sự được chuyển giao cho các chuyên gia tâm thần học pháp y hàng đầu nước Mỹ. Một cuộc giải phẫu não bộ chuyên sâu chính thức bắt đầu, vạch ra ranh giới giữa bệnh lý tâm thần thực sự và sự ác độc theo luật pháp. Đó là nơi y khoa và tư pháp đối mặt trong cuộc chiến tìm kiếm sự công bằng và nhân văn tối thượng.",
+  "text": "Thảm kịch tại ngôi nhà số 942 không phải là sản phẩm của một cơn thịnh nộ bộc phát hay sự nhẫn tâm của một kẻ ác. Nó là bằng chứng đau xót về sự sụp đổ toàn diện của một tâm trí bị căn bệnh Loạn thần sau sinh tước đoạt hoàn toàn khả năng tư duy thực tế. Sự thờ ơ của người thân, sự chủ quan của phác đồ điều trị y tế và áp lực gia đình đã tạo nên một chiếc bẫy vô hình nghiền nát người mẹ trẻ. Giờ đây, câu hỏi về trách nhiệm hình sự được đặt ra trước các chuyên gia tâm thần học pháp y hàng đầu nước Mỹ. Một cuộc giải phẫu não bộ chuyên sâu chính thức bắt đầu, vạch ra ranh giới giữa bệnh lý tâm thần thực sự và sự ác độc theo luật pháp. Đó là nơi y khoa và tư pháp đối mặt trong cuộc chiến tìm kiếm sự công bằng và nhân văn tối thượng. Mọi sự chú ý giờ đây dồn vào các báo cáo giám định lâm sàng về trạng thái nhận thức của Andrea Yates tại thời điểm xảy ra sự việc. Những phát hiện khoa học hành vi sau đây sẽ làm sáng tỏ cơ chế tâm bệnh học vô cùng phức tạp đằng sau thảm kịch.",
   "sentences": [
    {
     "id": "2.10#1",
@@ -508,8 +613,8 @@
    },
    {
     "id": "2.10#4",
-    "text": "Giờ đây, khi năm đứa trẻ đã yên nghỉ dưới lòng đất, toàn bộ trách nhiệm hình sự được chuyển giao cho các chuyên gia tâm thần học pháp y hàng đầu nước Mỹ.",
-    "words": 34
+    "text": "Giờ đây, câu hỏi về trách nhiệm hình sự được đặt ra trước các chuyên gia tâm thần học pháp y hàng đầu nước Mỹ.",
+    "words": 25
    },
    {
     "id": "2.10#5",
@@ -520,6 +625,16 @@
     "id": "2.10#6",
     "text": "Đó là nơi y khoa và tư pháp đối mặt trong cuộc chiến tìm kiếm sự công bằng và nhân văn tối thượng.",
     "words": 23
+   },
+   {
+    "id": "2.10#7",
+    "text": "Mọi sự chú ý giờ đây dồn vào các báo cáo giám định lâm sàng về trạng thái nhận thức của Andrea Yates tại thời điểm xảy ra sự việc.",
+    "words": 30
+   },
+   {
+    "id": "2.10#8",
+    "text": "Những phát hiện khoa học hành vi sau đây sẽ làm sáng tỏ cơ chế tâm bệnh học vô cùng phức tạp đằng sau thảm kịch.",
+    "words": 26
    }
   ]
  },
@@ -527,7 +642,7 @@
   "id": "2.11",
   "act": 2,
   "kind": "BGM",
-  "desc": "*Âm thanh chuyển dần sang tiếng Piano tối giản, mở ra không gian phân tích học thuật sâu sắc.*"
+  "desc": "*Âm thanh chuyển dần sang tiếng Piano tối giản kết hợp tiếng Drone trầm đục, mở ra không gian phân tích học thuật sâu sắc.*"
  },
  {
   "id": "3.01",
@@ -541,7 +656,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "chậm rãi, mang tính dẫn nhập chuyên môn",
-  "text": "Vụ án Andrea Yates đã trở thành cột mốc mang tính bước ngoặt làm thay đổi vĩnh viễn nhận thức của y học và hệ thống tư pháp toàn cầu về sức khỏe tâm thần bà mẹ. Trong tâm thần học, có một ranh giới khổng lồ giữa nỗi buồn sau sinh thông thường, chứng trầm cảm sau sinh và cơn loạn thần sau sinh cấp tính. Để bảo vệ tính công minh trước tòa án, cơ quan tố tụng đã trưng cầu ý kiến của Tiến sĩ Phillip Resnick, chuyên gia tâm thần học pháp y hàng đầu thế giới về tội phạm sát hại con ruột. Những phân tích lâm sàng của ông đã làm sáng tỏ cơ chế tâm bệnh học vô cùng phức tạp đằng sau hành vi của Andrea Yates.",
+  "text": "Vụ án Andrea Yates đã trở thành cột mốc mang tính bước ngoặt làm thay đổi vĩnh viễn nhận thức của y học và hệ thống tư pháp toàn cầu về sức khỏe tâm thần bà mẹ. Trong tâm thần học, có một ranh giới khổng lồ giữa nỗi buồn sau sinh thông thường, chứng trầm cảm sau sinh và cơn loạn thần sau sinh cấp tính. Rất nhiều người thường nhầm lẫn các khái niệm này, dẫn đến việc xem nhẹ những biểu hiện cực kỳ nguy hiểm của người mẹ. Phía luật sư bào chữa đã mời Tiến sĩ Phillip Resnick, một chuyên gia tâm thần học pháp y hàng đầu thế giới về các vụ cha mẹ gây tổn hại con cái. Những phân tích lâm sàng tỉ mỉ của ông và các cộng sự đã giúp soi rọi vào cơ chế tâm bệnh học vô cùng phức tạp đằng sau hành vi của Andrea Yates. Một bức tranh khoa học hành vi chân thực dần hé lộ, bóc tách từng tầng hoang tưởng đã bóp méo nhận thức của người mẹ trẻ.",
   "sentences": [
    {
     "id": "3.02#1",
@@ -555,12 +670,22 @@
    },
    {
     "id": "3.02#3",
-    "text": "Để bảo vệ tính công minh trước tòa án, cơ quan tố tụng đã trưng cầu ý kiến của Tiến sĩ Phillip Resnick, chuyên gia tâm thần học pháp y hàng đầu thế giới về tội phạm sát hại con ruột.",
-    "words": 41
+    "text": "Rất nhiều người thường nhầm lẫn các khái niệm này, dẫn đến việc xem nhẹ những biểu hiện cực kỳ nguy hiểm của người mẹ.",
+    "words": 25
    },
    {
     "id": "3.02#4",
-    "text": "Những phân tích lâm sàng của ông đã làm sáng tỏ cơ chế tâm bệnh học vô cùng phức tạp đằng sau hành vi của Andrea Yates.",
+    "text": "Phía luật sư bào chữa đã mời Tiến sĩ Phillip Resnick, một chuyên gia tâm thần học pháp y hàng đầu thế giới về các vụ cha mẹ gây tổn hại con cái.",
+    "words": 33
+   },
+   {
+    "id": "3.02#5",
+    "text": "Những phân tích lâm sàng tỉ mỉ của ông và các cộng sự đã giúp soi rọi vào cơ chế tâm bệnh học vô cùng phức tạp đằng sau hành vi của Andrea Yates.",
+    "words": 34
+   },
+   {
+    "id": "3.02#6",
+    "text": "Một bức tranh khoa học hành vi chân thực dần hé lộ, bóc tách từng tầng hoang tưởng đã bóp méo nhận thức của người mẹ trẻ.",
     "words": 27
    }
   ]
@@ -570,43 +695,53 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: TS. Phillip Resnick, chuyên gia tâm thần học pháp y, giọng điềm đạm, học thuật",
-  "text": "Chứng Loạn thần sau sinh, hay Postpartum Psychosis, là một rối loạn tâm thần cực kỳ hiếm gặp và nguy hiểm, chỉ xảy ra ở khoảng một đến hai trên một nghìn phụ nữ sau sinh. Bệnh khởi phát đột ngột với các triệu chứng mất kết nối hoàn toàn với thực tại, hoang tưởng kỳ quái, ảo thanh sai khiến và sự biến đổi cảm xúc cực đoan. Đối với trường hợp của Andrea Yates, căn bệnh đã bị khuếch đại bởi niềm tin tôn giáo cuồng tín mà cô tiếp nhận từ một nhà truyền giáo lang thang tên là Michael Woroniecki. Người giảng đạo này liên tục rao giảng rằng những người phụ nữ không hoàn hảo sẽ là nguồn cơn dẫn dắt con cái của họ thẳng xuống ngọn lửa địa ngục. Dưới tác động của cơn loạn thần nặng, bộ não của Andrea đã biến những lời rao giảng cực đoan ấy thành một ảo giác hoang tưởng tuyệt đối. Cô nghe thấy những giọng nói vô hình trong đầu thì thầm rằng cô là một người mẹ tội lỗi, bị quỷ Satan chiếm hữu và đã làm hỏng tương lai của các con. Cô tin rằng nếu những đứa trẻ tiếp tục lớn lên dưới sự nuôi dưỡng của mình, chúng sẽ phạm tội và phải chịu sự trừng phạt vĩnh viễn nơi hỏa ngục.",
+  "direction": "C: chuyên gia tâm thần học pháp y, giọng điềm đạm, học thuật",
+  "text": "Chứng Loạn thần sau sinh, hay Postpartum Psychosis, là một rối loạn tâm thần cực kỳ hiếm gặp và nguy hiểm, chỉ xảy ra ở khoảng một đến hai trên một nghìn phụ nữ sau khi sinh con. Căn bệnh này khởi phát một cách đột ngột và dữ dội với các triệu chứng mất kết nối hoàn toàn với thực tại, hoang tưởng kỳ quái, ảo thanh sai khiến và cảm xúc biến đổi cực đoan. Đối với trường hợp của Andrea Yates, căn bệnh tiềm ẩn đã bị kích hoạt và khuếch đại bởi những tư tưởng tôn giáo cực đoan mà cô tiếp nhận từ một nhà truyền giáo lưu động tên là Michael Woroniecki. Người này liên tục gửi các tài liệu thuyết giảng cực đoan, khẳng định rằng những người phụ nữ không hoàn hảo sẽ là nguồn cơn dẫn dắt con cái rơi thẳng xuống ngọn lửa hỏa ngục. Khi rơi vào cơn loạn thần cấp tính do sụt giảm hormone đột ngột và kiệt quệ thần kinh, bộ não của Andrea đã biến những giáo lý ấy thành một ảo giác hoang tưởng tuyệt đối. Cô liên tục nghe thấy những giọng nói thì thầm bên tai, khẳng định rằng cô là một người mẹ tội lỗi, bị quỷ Satan chiếm đoạt thể xác và linh hồn. Người mẹ tin rằng bản thân mình đã làm hỏng tương lai đạo đức của các con và nếu tiếp tục để chúng lớn lên, chúng sẽ trở thành kẻ xấu và bị đày đọa vĩnh viễn. Hệ thống hoang tưởng khép kín này đã đảo lộn hoàn toàn mọi thang giá trị đạo đức và logic thông thường bên trong tâm trí người mẹ. Hành động của cô khi ấy không còn chịu sự kiểm soát của lý trí tỉnh táo mà hoàn toàn bị điều khiển bởi ảo giác cứu chuộc sai lệch.",
   "sentences": [
    {
     "id": "3.03#1",
-    "text": "Chứng Loạn thần sau sinh, hay Postpartum Psychosis, là một rối loạn tâm thần cực kỳ hiếm gặp và nguy hiểm, chỉ xảy ra ở khoảng một đến hai trên một nghìn phụ nữ sau sinh.",
-    "words": 36
+    "text": "Chứng Loạn thần sau sinh, hay Postpartum Psychosis, là một rối loạn tâm thần cực kỳ hiếm gặp và nguy hiểm, chỉ xảy ra ở khoảng một đến hai trên một nghìn phụ nữ sau khi sinh con.",
+    "words": 38
    },
    {
     "id": "3.03#2",
-    "text": "Bệnh khởi phát đột ngột với các triệu chứng mất kết nối hoàn toàn với thực tại, hoang tưởng kỳ quái, ảo thanh sai khiến và sự biến đổi cảm xúc cực đoan.",
-    "words": 33
+    "text": "Căn bệnh này khởi phát một cách đột ngột và dữ dội với các triệu chứng mất kết nối hoàn toàn với thực tại, hoang tưởng kỳ quái, ảo thanh sai khiến và cảm xúc biến đổi cực đoan.",
+    "words": 39
    },
    {
     "id": "3.03#3",
-    "text": "Đối với trường hợp của Andrea Yates, căn bệnh đã bị khuếch đại bởi niềm tin tôn giáo cuồng tín mà cô tiếp nhận từ một nhà truyền giáo lang thang tên là Michael Woroniecki.",
-    "words": 35
+    "text": "Đối với trường hợp của Andrea Yates, căn bệnh tiềm ẩn đã bị kích hoạt và khuếch đại bởi những tư tưởng tôn giáo cực đoan mà cô tiếp nhận từ một nhà truyền giáo lưu động tên là Michael Woroniecki.",
+    "words": 41
    },
    {
     "id": "3.03#4",
-    "text": "Người giảng đạo này liên tục rao giảng rằng những người phụ nữ không hoàn hảo sẽ là nguồn cơn dẫn dắt con cái của họ thẳng xuống ngọn lửa địa ngục.",
-    "words": 32
+    "text": "Người này liên tục gửi các tài liệu thuyết giảng cực đoan, khẳng định rằng những người phụ nữ không hoàn hảo sẽ là nguồn cơn dẫn dắt con cái rơi thẳng xuống ngọn lửa hỏa ngục.",
+    "words": 37
    },
    {
     "id": "3.03#5",
-    "text": "Dưới tác động của cơn loạn thần nặng, bộ não của Andrea đã biến những lời rao giảng cực đoan ấy thành một ảo giác hoang tưởng tuyệt đối.",
-    "words": 29
+    "text": "Khi rơi vào cơn loạn thần cấp tính do sụt giảm hormone đột ngột và kiệt quệ thần kinh, bộ não của Andrea đã biến những giáo lý ấy thành một ảo giác hoang tưởng tuyệt đối.",
+    "words": 37
    },
    {
     "id": "3.03#6",
-    "text": "Cô nghe thấy những giọng nói vô hình trong đầu thì thầm rằng cô là một người mẹ tội lỗi, bị quỷ Satan chiếm hữu và đã làm hỏng tương lai của các con.",
-    "words": 34
+    "text": "Cô liên tục nghe thấy những giọng nói thì thầm bên tai, khẳng định rằng cô là một người mẹ tội lỗi, bị quỷ Satan chiếm đoạt thể xác và linh hồn.",
+    "words": 32
    },
    {
     "id": "3.03#7",
-    "text": "Cô tin rằng nếu những đứa trẻ tiếp tục lớn lên dưới sự nuôi dưỡng của mình, chúng sẽ phạm tội và phải chịu sự trừng phạt vĩnh viễn nơi hỏa ngục.",
-    "words": 32
+    "text": "Người mẹ tin rằng bản thân mình đã làm hỏng tương lai đạo đức của các con và nếu tiếp tục để chúng lớn lên, chúng sẽ trở thành kẻ xấu và bị đày đọa vĩnh viễn.",
+    "words": 37
+   },
+   {
+    "id": "3.03#8",
+    "text": "Hệ thống hoang tưởng khép kín này đã đảo lộn hoàn toàn mọi thang giá trị đạo đức và logic thông thường bên trong tâm trí người mẹ.",
+    "words": 28
+   },
+   {
+    "id": "3.03#9",
+    "text": "Hành động của cô khi ấy không còn chịu sự kiểm soát của lý trí tỉnh táo mà hoàn toàn bị điều khiển bởi ảo giác cứu chuộc sai lệch.",
+    "words": 30
    }
   ]
  },
@@ -615,23 +750,28 @@
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "tiếp nối phân tích về nghịch lý sát hại con vì tình thương sai lệch",
-  "text": "Khái niệm tâm lý học tội phạm định danh hành vi của Andrea Yates bằng thuật ngữ Hành vi sát hại con vì lòng trắc ẩn sai lệch, hay Altruistic Filicide. Đây là một nghịch lý tâm lý học đau đớn nhất, nơi kẻ thủ ác ra tay không phải vì căm ghét nạn nhân mà xuất phát từ ảo tưởng muốn cứu rỗi họ khỏi nỗi thống khổ. Sự méo mó trong nhận thức đã biến hành động tàn bạo thành một nghĩa vụ hy sinh đau đớn trong tâm trí người mẹ loạn thần.",
+  "direction": "tiếp nối phân tích về nghịch lý vì tình thương sai lệch",
+  "text": "Khái niệm tâm lý học tội phạm định danh hành vi của Andrea Yates bằng thuật ngữ Altruistic Filicide, tức hành vi gây hại con vì lòng vị tha hoang tưởng. Đây là một nghịch lý tâm lý học đau đớn bậc nhất, nơi người mẹ ra tay không phải vì căm thù con cái mà xuất phát từ ảo tưởng muốn cứu rỗi chúng khỏi nỗi thống khổ đời đời. Sự méo mó hoàn toàn trong nhận thức thực tại đã biến một bi kịch thành một nghĩa vụ hy sinh đau đớn trong tâm trí người bệnh loạn thần. Người mẹ tin rằng mình đang nhận lấy sự nguyền rủa vĩnh viễn để đổi lấy sự trong trắng và bình yên nơi thiên đàng cho những đứa con thân yêu.",
   "sentences": [
    {
     "id": "3.04#1",
-    "text": "Khái niệm tâm lý học tội phạm định danh hành vi của Andrea Yates bằng thuật ngữ Hành vi sát hại con vì lòng trắc ẩn sai lệch, hay Altruistic Filicide.",
+    "text": "Khái niệm tâm lý học tội phạm định danh hành vi của Andrea Yates bằng thuật ngữ Altruistic Filicide, tức hành vi gây hại con vì lòng vị tha hoang tưởng.",
     "words": 31
    },
    {
     "id": "3.04#2",
-    "text": "Đây là một nghịch lý tâm lý học đau đớn nhất, nơi kẻ thủ ác ra tay không phải vì căm ghét nạn nhân mà xuất phát từ ảo tưởng muốn cứu rỗi họ khỏi nỗi thống khổ.",
-    "words": 38
+    "text": "Đây là một nghịch lý tâm lý học đau đớn bậc nhất, nơi người mẹ ra tay không phải vì căm thù con cái mà xuất phát từ ảo tưởng muốn cứu rỗi chúng khỏi nỗi thống khổ đời đời.",
+    "words": 40
    },
    {
     "id": "3.04#3",
-    "text": "Sự méo mó trong nhận thức đã biến hành động tàn bạo thành một nghĩa vụ hy sinh đau đớn trong tâm trí người mẹ loạn thần.",
-    "words": 27
+    "text": "Sự méo mó hoàn toàn trong nhận thức thực tại đã biến một bi kịch thành một nghĩa vụ hy sinh đau đớn trong tâm trí người bệnh loạn thần.",
+    "words": 30
+   },
+   {
+    "id": "3.04#4",
+    "text": "Người mẹ tin rằng mình đang nhận lấy sự nguyền rủa vĩnh viễn để đổi lấy sự trong trắng và bình yên nơi thiên đàng cho những đứa con thân yêu.",
+    "words": 31
    }
   ]
  },
@@ -641,42 +781,52 @@
   "kind": "LOI",
   "role": "C",
   "direction": "C: Phân tích Quy tắc M'Naghten và sự phân biệt đúng sai",
-  "text": "Trong tâm thần học pháp y, tiêu chuẩn cốt lõi để phân định năng lực trách nhiệm hình sự là Quy tắc M'Naghten, tức khả năng phân biệt đúng sai tại thời điểm gây án. Phía công tố lập luận rằng Andrea Yates biết hành vi của mình là sai trái trước pháp luật vì cô ấy đã đợi chồng đi làm mới ra tay và chủ động gọi cảnh sát đầu thú. Tuy nhiên, Tiến sĩ Phillip Resnick và các chuyên gia tâm lý đã chỉ ra một sự khác biệt bản chất giữa sự nhận thức pháp lý bề mặt với sự thấu hiểu đạo đức bên trong. Andrea biết hành động của mình vi phạm luật pháp trần thế, nhưng trong thế giới hoang tưởng của cô, đó là một mệnh lệnh thiêng liêng cao hơn cả luật pháp để cứu rỗi các con. Cô tin rằng việc giết các con khi chúng còn nhỏ và vô tội sẽ giúp linh hồn chúng được Chúa đón nhận ngay lập tức lên thiên đàng. Đồng thời, cô cũng tin rằng bản thân mình sẽ bị nhà nước xử tử, và cái chết đó sẽ tiêu diệt con quỷ Satan đang trú ngụ trong thể xác cô. Đây là bằng chứng không thể chối cãi của một trạng thái mất hoàn toàn năng lực định hướng hành vi do ảo giác chi phối tuyệt đối.",
+  "text": "Trong tâm thần học pháp y, tiêu chuẩn cốt lõi để phân định năng lực trách nhiệm hình sự tại bang Texas là Quy tắc M'Naghten, tức khả năng phân biệt đúng sai tại thời điểm gây án. Phía công tố viên lập luận rằng Andrea Yates vẫn phân biệt được đúng sai về mặt pháp lý vì cô ấy đã đợi chồng đi làm mới hành động và chủ động gọi cảnh sát đầu thú. Tuy nhiên, Tiến sĩ Phillip Resnick và các chuyên gia bào chữa đã chứng minh một sự khác biệt bản chất giữa sự nhận thức pháp lý bề ngoài với sự thấu hiểu đạo đức bên trong. Andrea biết hành động của mình vi phạm luật pháp trần thế của loài người, nhưng trong thế giới hoang tưởng của cô, đó là một mệnh lệnh thiêng liêng cao hơn cả luật pháp để cứu rỗi các con. Cô tin rằng nếu những đứa trẻ ra đi khi còn ngây thơ và chưa phạm tội, linh hồn của chúng sẽ được Thượng đế đón nhận ngay lập tức lên thiên đàng. Đồng thời, cô cũng tin rằng bản thân mình sẽ bị nhà nước xử tử trên ghế điện, và cái chết ấy sẽ tiêu diệt con quỷ Satan đang trú ngụ trong thể xác cô. Như vậy, trong hệ thống niềm tin hoang tưởng, cô tin rằng hành động của mình là hành động đạo đức duy nhất để giải cứu linh hồn các con khỏi hỏa ngục. Đó chính là bằng chứng y khoa kinh điển về một trạng thái mất hoàn toàn năng lực định hướng đạo đức do chứng loạn thần chi phối tuyệt đối. Quy tắc M'Naghten khi được soi chiếu qua lăng kính tâm thần học hiện đại đã chỉ ra rằng nhận thức đúng sai của cô đã bị căn bệnh hủy hoại hoàn toàn.",
   "sentences": [
    {
     "id": "3.05#1",
-    "text": "Trong tâm thần học pháp y, tiêu chuẩn cốt lõi để phân định năng lực trách nhiệm hình sự là Quy tắc M'Naghten, tức khả năng phân biệt đúng sai tại thời điểm gây án.",
-    "words": 35
+    "text": "Trong tâm thần học pháp y, tiêu chuẩn cốt lõi để phân định năng lực trách nhiệm hình sự tại bang Texas là Quy tắc M'Naghten, tức khả năng phân biệt đúng sai tại thời điểm gây án.",
+    "words": 38
    },
    {
     "id": "3.05#2",
-    "text": "Phía công tố lập luận rằng Andrea Yates biết hành vi của mình là sai trái trước pháp luật vì cô ấy đã đợi chồng đi làm mới ra tay và chủ động gọi cảnh sát đầu thú.",
+    "text": "Phía công tố viên lập luận rằng Andrea Yates vẫn phân biệt được đúng sai về mặt pháp lý vì cô ấy đã đợi chồng đi làm mới hành động và chủ động gọi cảnh sát đầu thú.",
     "words": 38
    },
    {
     "id": "3.05#3",
-    "text": "Tuy nhiên, Tiến sĩ Phillip Resnick và các chuyên gia tâm lý đã chỉ ra một sự khác biệt bản chất giữa sự nhận thức pháp lý bề mặt với sự thấu hiểu đạo đức bên trong.",
+    "text": "Tuy nhiên, Tiến sĩ Phillip Resnick và các chuyên gia bào chữa đã chứng minh một sự khác biệt bản chất giữa sự nhận thức pháp lý bề ngoài với sự thấu hiểu đạo đức bên trong.",
     "words": 37
    },
    {
     "id": "3.05#4",
-    "text": "Andrea biết hành động của mình vi phạm luật pháp trần thế, nhưng trong thế giới hoang tưởng của cô, đó là một mệnh lệnh thiêng liêng cao hơn cả luật pháp để cứu rỗi các con.",
-    "words": 37
+    "text": "Andrea biết hành động của mình vi phạm luật pháp trần thế của loài người, nhưng trong thế giới hoang tưởng của cô, đó là một mệnh lệnh thiêng liêng cao hơn cả luật pháp để cứu rỗi các con.",
+    "words": 40
    },
    {
     "id": "3.05#5",
-    "text": "Cô tin rằng việc giết các con khi chúng còn nhỏ và vô tội sẽ giúp linh hồn chúng được Chúa đón nhận ngay lập tức lên thiên đàng.",
-    "words": 29
+    "text": "Cô tin rằng nếu những đứa trẻ ra đi khi còn ngây thơ và chưa phạm tội, linh hồn của chúng sẽ được Thượng đế đón nhận ngay lập tức lên thiên đàng.",
+    "words": 33
    },
    {
     "id": "3.05#6",
-    "text": "Đồng thời, cô cũng tin rằng bản thân mình sẽ bị nhà nước xử tử, và cái chết đó sẽ tiêu diệt con quỷ Satan đang trú ngụ trong thể xác cô.",
-    "words": 32
+    "text": "Đồng thời, cô cũng tin rằng bản thân mình sẽ bị nhà nước xử tử trên ghế điện, và cái chết ấy sẽ tiêu diệt con quỷ Satan đang trú ngụ trong thể xác cô.",
+    "words": 35
    },
    {
     "id": "3.05#7",
-    "text": "Đây là bằng chứng không thể chối cãi của một trạng thái mất hoàn toàn năng lực định hướng hành vi do ảo giác chi phối tuyệt đối.",
-    "words": 28
+    "text": "Như vậy, trong hệ thống niềm tin hoang tưởng, cô tin rằng hành động của mình là hành động đạo đức duy nhất để giải cứu linh hồn các con khỏi hỏa ngục.",
+    "words": 33
+   },
+   {
+    "id": "3.05#8",
+    "text": "Đó chính là bằng chứng y khoa kinh điển về một trạng thái mất hoàn toàn năng lực định hướng đạo đức do chứng loạn thần chi phối tuyệt đối.",
+    "words": 30
+   },
+   {
+    "id": "3.05#9",
+    "text": "Quy tắc M'Naghten khi được soi chiếu qua lăng kính tâm thần học hiện đại đã chỉ ra rằng nhận thức đúng sai của cô đã bị căn bệnh hủy hoại hoàn toàn.",
+    "words": 33
    }
   ]
  },
@@ -686,17 +836,22 @@
   "kind": "LOI",
   "role": "H",
   "direction": "đối chiếu so sánh với hiện tượng Malingering",
-  "text": "Sự đối lập giữa trường hợp của Nikolas Cruz giả vờ nghe thấy giọng nói ma quỷ với bi kịch y khoa thực sự của Andrea Yates đã tạo nên một bài học kinh điển. Một bên là sự mô phỏng triệu chứng vụng về để trốn tội, còn một bên là sự sụp đổ sinh học thần kinh thực sự đã cướp đi quyền làm mẹ.",
+  "text": "Giới pháp y luôn phải đối mặt với thách thức phân biệt giữa kẻ giả bệnh tâm thần để trốn tội, hay thuật ngữ Malingering, với một bi kịch y khoa thực sự. Một bên là sự mô phỏng triệu chứng vụng về nhằm thoát khỏi sự trừng phạt của pháp luật, còn một bên là sự sụp đổ sinh học thần kinh thực sự đã tước đoạt thiên chức làm mẹ. Toàn bộ các bài kiểm tra tâm lý nghiêm ngặt và theo dõi hành vi lâm sàng đều khẳng định Andrea Yates không hề có bất kỳ dấu hiệu nào của sự giả vờ.",
   "sentences": [
    {
     "id": "3.06#1",
-    "text": "Sự đối lập giữa trường hợp của Nikolas Cruz giả vờ nghe thấy giọng nói ma quỷ với bi kịch y khoa thực sự của Andrea Yates đã tạo nên một bài học kinh điển.",
-    "words": 35
+    "text": "Giới pháp y luôn phải đối mặt với thách thức phân biệt giữa kẻ giả bệnh tâm thần để trốn tội, hay thuật ngữ Malingering, với một bi kịch y khoa thực sự.",
+    "words": 33
    },
    {
     "id": "3.06#2",
-    "text": "Một bên là sự mô phỏng triệu chứng vụng về để trốn tội, còn một bên là sự sụp đổ sinh học thần kinh thực sự đã cướp đi quyền làm mẹ.",
-    "words": 32
+    "text": "Một bên là sự mô phỏng triệu chứng vụng về nhằm thoát khỏi sự trừng phạt của pháp luật, còn một bên là sự sụp đổ sinh học thần kinh thực sự đã tước đoạt thiên chức làm mẹ.",
+    "words": 39
+   },
+   {
+    "id": "3.06#3",
+    "text": "Toàn bộ các bài kiểm tra tâm lý nghiêm ngặt và theo dõi hành vi lâm sàng đều khẳng định Andrea Yates không hề có bất kỳ dấu hiệu nào của sự giả vờ.",
+    "words": 34
    }
   ]
  },
@@ -706,37 +861,47 @@
   "kind": "LOI",
   "role": "C",
   "direction": "C: Đúc kết về bản án lương tâm và ranh giới tư pháp",
-  "text": "Các bằng chứng y khoa xác nhận Andrea không hề có bất kỳ động cơ tư lợi, thù hận hay ác ý cá nhân nào đối với các con. Khi cơn loạn thần dần thuyên giảm dưới tác dụng của thuốc điều trị liều cao trong bệnh viện, nỗi đau đớn và sự ân hận tột cùng đã ập xuống tâm trí cô. Cô nhận ra rằng những đứa con thân yêu đã vĩnh viễn không còn nữa, và chính đôi bàn tay từng chăm sóc chúng lại là thủ phạm gây ra thảm kịch. Nỗi dằn vặt lương tâm ấy là bản án khắc nghiệt nhất mà không một nhà tù hay hình phạt pháp lý nào có thể so sánh được. Sự phân định công minh giữa một bệnh nhân tâm thần thực sự với một tội phạm cố ý là thử thách lớn nhất đối với nền tư pháp văn minh. Và phòng xét xử tại Tòa án Texas đã trở thành nơi diễn ra một cuộc chiến pháp lý kéo dài suốt nhiều năm ròng rã.",
+  "text": "Các chuyên gia tâm thần học pháp y nhận định Andrea hoàn toàn không có bất kỳ động cơ tư lợi, thù hận hay ác ý cá nhân nào đối với các con. Bằng chứng rõ ràng nhất xuất hiện khi cô được đưa vào bệnh viện tâm thần điều trị nội trú bằng phác đồ thuốc chống loạn thần liều cao. Khi các hóa chất trong não bộ dần được cân bằng và lớp sương mù hoang tưởng tan biến, thực tại tàn khốc bắt đầu ập xuống tâm trí cô. Andrea bàng hoàng nhận ra rằng các con của mình đã vĩnh viễn không còn nữa, và chính đôi bàn tay mẹ từng nâng niu chúng lại là người gây ra thảm kịch. Sự thức tỉnh đau đớn ấy đã đẩy cô vào những cơn suy sụp và trầm cảm tột cùng vì nỗi ân hận và giằng xé lương tâm. Nỗi dằn vặt lương tâm không nguôi ấy chính là bản án khắc nghiệt nhất mà không một phòng giam hay hình phạt pháp lý nào có thể so sánh được. Sự phân định công minh giữa một bệnh nhân tâm thần hiểm nghèo với một tội phạm cố ý là thử thách lớn nhất đối với nền tư pháp văn minh. Và cuộc chiến pháp lý để bảo vệ chân lý khoa học ấy đã chính thức bùng nổ tại phòng xử án của Tòa án Hạt Harris.",
   "sentences": [
    {
     "id": "3.07#1",
-    "text": "Các bằng chứng y khoa xác nhận Andrea không hề có bất kỳ động cơ tư lợi, thù hận hay ác ý cá nhân nào đối với các con.",
-    "words": 29
+    "text": "Các chuyên gia tâm thần học pháp y nhận định Andrea hoàn toàn không có bất kỳ động cơ tư lợi, thù hận hay ác ý cá nhân nào đối với các con.",
+    "words": 33
    },
    {
     "id": "3.07#2",
-    "text": "Khi cơn loạn thần dần thuyên giảm dưới tác dụng của thuốc điều trị liều cao trong bệnh viện, nỗi đau đớn và sự ân hận tột cùng đã ập xuống tâm trí cô.",
-    "words": 34
+    "text": "Bằng chứng rõ ràng nhất xuất hiện khi cô được đưa vào bệnh viện tâm thần điều trị nội trú bằng phác đồ thuốc chống loạn thần liều cao.",
+    "words": 29
    },
    {
     "id": "3.07#3",
-    "text": "Cô nhận ra rằng những đứa con thân yêu đã vĩnh viễn không còn nữa, và chính đôi bàn tay từng chăm sóc chúng lại là thủ phạm gây ra thảm kịch.",
-    "words": 32
+    "text": "Khi các hóa chất trong não bộ dần được cân bằng và lớp sương mù hoang tưởng tan biến, thực tại tàn khốc bắt đầu ập xuống tâm trí cô.",
+    "words": 30
    },
    {
     "id": "3.07#4",
-    "text": "Nỗi dằn vặt lương tâm ấy là bản án khắc nghiệt nhất mà không một nhà tù hay hình phạt pháp lý nào có thể so sánh được.",
-    "words": 28
+    "text": "Andrea bàng hoàng nhận ra rằng các con của mình đã vĩnh viễn không còn nữa, và chính đôi bàn tay mẹ từng nâng niu chúng lại là người gây ra thảm kịch.",
+    "words": 33
    },
    {
     "id": "3.07#5",
-    "text": "Sự phân định công minh giữa một bệnh nhân tâm thần thực sự với một tội phạm cố ý là thử thách lớn nhất đối với nền tư pháp văn minh.",
-    "words": 31
+    "text": "Sự thức tỉnh đau đớn ấy đã đẩy cô vào những cơn suy sụp và trầm cảm tột cùng vì nỗi ân hận và giằng xé lương tâm.",
+    "words": 28
    },
    {
     "id": "3.07#6",
-    "text": "Và phòng xét xử tại Tòa án Texas đã trở thành nơi diễn ra một cuộc chiến pháp lý kéo dài suốt nhiều năm ròng rã.",
-    "words": 26
+    "text": "Nỗi dằn vặt lương tâm không nguôi ấy chính là bản án khắc nghiệt nhất mà không một phòng giam hay hình phạt pháp lý nào có thể so sánh được.",
+    "words": 31
+   },
+   {
+    "id": "3.07#7",
+    "text": "Sự phân định công minh giữa một bệnh nhân tâm thần hiểm nghèo với một tội phạm cố ý là thử thách lớn nhất đối với nền tư pháp văn minh.",
+    "words": 31
+   },
+   {
+    "id": "3.07#8",
+    "text": "Và cuộc chiến pháp lý để bảo vệ chân lý khoa học ấy đã chính thức bùng nổ tại phòng xử án của Tòa án Hạt Harris.",
+    "words": 27
    }
   ]
  },
@@ -746,22 +911,27 @@
   "kind": "LOI",
   "role": "H",
   "direction": "chốt lại Hồi 3, dẫn dắt sang phiên tòa xét xử lịch sử",
-  "text": "Báo cáo giám định tâm thần pháp y toàn diện của các chuyên gia đã đưa phiên tòa xét xử Andrea Yates vào lịch sử tố tụng nước Mỹ. Dư luận xã hội bắt đầu có sự chuyển biến từ sự phẫn nộ mù quáng sang sự đồng cảm sâu sắc trước một bi kịch y tế bị bỏ quên. Giờ là lúc bồi thẩm đoàn phải đưa ra phán quyết tối hậu giữa bản án tử hình nghiêm khắc và sự khoan hồng của y khoa pháp lý.",
+  "text": "Báo cáo giám định tâm thần pháp y toàn diện của Tiến sĩ Phillip Resnick đã đưa vụ án Andrea Yates trở thành một cột mốc kinh điển trong lịch sử tư pháp. Dư luận xã hội bắt đầu có sự chuyển biến mạnh mẽ từ sự phẫn nộ trừng phạt sang sự thấu hiểu và đồng cảm trước một bi kịch y tế bị bỏ quên. Những người mẹ trên khắp nước Mỹ bắt đầu lên tiếng, phá vỡ sự im lặng bấy lâu nay xung quanh các chứng rối loạn tâm thần sau sinh. Giờ là lúc bồi thẩm đoàn phải đưa ra phán quyết tối hậu giữa bản án nghiêm khắc và sự công nhận của y khoa pháp lý.",
   "sentences": [
    {
     "id": "3.08#1",
-    "text": "Báo cáo giám định tâm thần pháp y toàn diện của các chuyên gia đã đưa phiên tòa xét xử Andrea Yates vào lịch sử tố tụng nước Mỹ.",
-    "words": 29
+    "text": "Báo cáo giám định tâm thần pháp y toàn diện của Tiến sĩ Phillip Resnick đã đưa vụ án Andrea Yates trở thành một cột mốc kinh điển trong lịch sử tư pháp.",
+    "words": 33
    },
    {
     "id": "3.08#2",
-    "text": "Dư luận xã hội bắt đầu có sự chuyển biến từ sự phẫn nộ mù quáng sang sự đồng cảm sâu sắc trước một bi kịch y tế bị bỏ quên.",
-    "words": 31
+    "text": "Dư luận xã hội bắt đầu có sự chuyển biến mạnh mẽ từ sự phẫn nộ trừng phạt sang sự thấu hiểu và đồng cảm trước một bi kịch y tế bị bỏ quên.",
+    "words": 34
    },
    {
     "id": "3.08#3",
-    "text": "Giờ là lúc bồi thẩm đoàn phải đưa ra phán quyết tối hậu giữa bản án tử hình nghiêm khắc và sự khoan hồng của y khoa pháp lý.",
+    "text": "Những người mẹ trên khắp nước Mỹ bắt đầu lên tiếng, phá vỡ sự im lặng bấy lâu nay xung quanh các chứng rối loạn tâm thần sau sinh.",
     "words": 29
+   },
+   {
+    "id": "3.08#4",
+    "text": "Giờ là lúc bồi thẩm đoàn phải đưa ra phán quyết tối hậu giữa bản án nghiêm khắc và sự công nhận của y khoa pháp lý.",
+    "words": 27
    }
   ]
  },
@@ -783,37 +953,47 @@
   "kind": "LOI",
   "role": "H",
   "direction": "tái hiện phiên tòa sơ thẩm đầu tiên năm 2002",
-  "text": "Phiên tòa sơ thẩm đầu tiên diễn ra vào năm 2002 tại Tòa án Hạt Harris dưới sự theo dõi của hàng triệu người dân trên khắp nước Mỹ. Dưới sự bào chữa của Luật sư George Parnham, phía bị cáo lập luận rằng Andrea Yates hoàn toàn mất trí tại thời điểm gây án do chứng loạn thần sau sinh. Tuy nhiên, bên công tố đã mời Bác sĩ tâm thần Park Dietz ra làm chứng để thuyết phục bồi thẩm đoàn rằng Andrea hoàn toàn tỉnh táo và có suy tính trước. Trong phần lấy lời khai, Tiến sĩ Dietz đã đưa ra một lời khai sai lệch rằng một tập phim truyền hình về người mẹ dìm con vừa được phát sóng trước ngày xảy ra vụ án. Tin vào lời khai này, bồi thẩm đoàn năm 2002 đã bác bỏ lập luận mất trí và tuyên phạt Andrea Yates bản án Tù chung thân với thời hạn tối thiểu bốn mươi năm. Luật sư George Parnham và gia đình đã không bỏ cuộc, kiên trì theo đuổi đơn kháng cáo để đòi lại sự công bằng khoa học cho thân chủ.",
+  "text": "Phiên tòa sơ thẩm đầu tiên diễn ra vào năm 2002 tại Tòa án Hạt Harris dưới sự theo dõi sát sao của hàng triệu người dân trên khắp nước Mỹ. Dưới sự bào chữa của Luật sư George Parnham, phía bị cáo lập luận rằng Andrea Yates hoàn toàn mất trí tại thời điểm gây án do chứng loạn thần sau sinh cấp tính. Tuy nhiên, bên công tố đã mời Bác sĩ tâm thần Park Dietz ra trước bục nhân chứng để thuyết phục bồi thẩm đoàn rằng bị cáo hoàn toàn tỉnh táo và có suy tính trước. Trong phần lấy lời khai, Tiến sĩ Dietz đã đưa ra một lời khai sai lệch rằng một tập phim truyền hình có tình tiết tương tự vừa được phát sóng trước ngày xảy ra vụ việc. Lời khai thiếu chính xác này đã khiến bồi thẩm đoàn tin rằng Andrea có hành vi học đòi theo kịch bản truyền hình. Bồi thẩm đoàn năm 2002 đã bác bỏ lập luận mất trí và tuyên phạt Andrea Yates bản án Tù chung thân với thời hạn tối thiểu bốn mươi năm thụ án. Luật sư George Parnham và gia đình đã không bỏ cuộc, kiên trì theo đuổi các thủ tục kháng cáo nhằm đòi lại sự công bằng khoa học cho thân chủ. Một cuộc chiến pháp lý bền bỉ kéo dài nhiều năm chính thức bắt đầu vì niềm tin vào chân lý y khoa.",
   "sentences": [
    {
     "id": "4.02#1",
-    "text": "Phiên tòa sơ thẩm đầu tiên diễn ra vào năm 2002 tại Tòa án Hạt Harris dưới sự theo dõi của hàng triệu người dân trên khắp nước Mỹ.",
-    "words": 29
+    "text": "Phiên tòa sơ thẩm đầu tiên diễn ra vào năm 2002 tại Tòa án Hạt Harris dưới sự theo dõi sát sao của hàng triệu người dân trên khắp nước Mỹ.",
+    "words": 31
    },
    {
     "id": "4.02#2",
-    "text": "Dưới sự bào chữa của Luật sư George Parnham, phía bị cáo lập luận rằng Andrea Yates hoàn toàn mất trí tại thời điểm gây án do chứng loạn thần sau sinh.",
-    "words": 32
+    "text": "Dưới sự bào chữa của Luật sư George Parnham, phía bị cáo lập luận rằng Andrea Yates hoàn toàn mất trí tại thời điểm gây án do chứng loạn thần sau sinh cấp tính.",
+    "words": 34
    },
    {
     "id": "4.02#3",
-    "text": "Tuy nhiên, bên công tố đã mời Bác sĩ tâm thần Park Dietz ra làm chứng để thuyết phục bồi thẩm đoàn rằng Andrea hoàn toàn tỉnh táo và có suy tính trước.",
-    "words": 33
+    "text": "Tuy nhiên, bên công tố đã mời Bác sĩ tâm thần Park Dietz ra trước bục nhân chứng để thuyết phục bồi thẩm đoàn rằng bị cáo hoàn toàn tỉnh táo và có suy tính trước.",
+    "words": 36
    },
    {
     "id": "4.02#4",
-    "text": "Trong phần lấy lời khai, Tiến sĩ Dietz đã đưa ra một lời khai sai lệch rằng một tập phim truyền hình về người mẹ dìm con vừa được phát sóng trước ngày xảy ra vụ án.",
+    "text": "Trong phần lấy lời khai, Tiến sĩ Dietz đã đưa ra một lời khai sai lệch rằng một tập phim truyền hình có tình tiết tương tự vừa được phát sóng trước ngày xảy ra vụ việc.",
     "words": 37
    },
    {
     "id": "4.02#5",
-    "text": "Tin vào lời khai này, bồi thẩm đoàn năm 2002 đã bác bỏ lập luận mất trí và tuyên phạt Andrea Yates bản án Tù chung thân với thời hạn tối thiểu bốn mươi năm.",
-    "words": 35
+    "text": "Lời khai thiếu chính xác này đã khiến bồi thẩm đoàn tin rằng Andrea có hành vi học đòi theo kịch bản truyền hình.",
+    "words": 24
    },
    {
     "id": "4.02#6",
-    "text": "Luật sư George Parnham và gia đình đã không bỏ cuộc, kiên trì theo đuổi đơn kháng cáo để đòi lại sự công bằng khoa học cho thân chủ.",
-    "words": 29
+    "text": "Bồi thẩm đoàn năm 2002 đã bác bỏ lập luận mất trí và tuyên phạt Andrea Yates bản án Tù chung thân với thời hạn tối thiểu bốn mươi năm thụ án.",
+    "words": 32
+   },
+   {
+    "id": "4.02#7",
+    "text": "Luật sư George Parnham và gia đình đã không bỏ cuộc, kiên trì theo đuổi các thủ tục kháng cáo nhằm đòi lại sự công bằng khoa học cho thân chủ.",
+    "words": 31
+   },
+   {
+    "id": "4.02#8",
+    "text": "Một cuộc chiến pháp lý bền bỉ kéo dài nhiều năm chính thức bắt đầu vì niềm tin vào chân lý y khoa.",
+    "words": 23
    }
   ]
  },
@@ -829,12 +1009,12 @@
   "kind": "LOI",
   "role": "H",
   "direction": "bước ngoặt hủy án và phiên tái thẩm năm 2006",
-  "text": "Năm 2005, Tòa Phúc thẩm Bang Texas đã chính thức hủy bỏ bản án sơ thẩm sau khi phát hiện tập phim mà nhân chứng chuyên môn nhắc tới hoàn toàn không có thật. Phiên tòa tái thẩm lịch sử được mở lại vào mùa hè năm 2006 tại Tòa án Hạt Harris dưới sự chủ tọa của Thẩm phán Belinda Hill. Khác với phiên tòa bốn năm trước, phiên tái thẩm diễn ra trong một bối cảnh xã hội đã có nhận thức sâu sắc hơn rất nhiều về bệnh lý tâm thần sau sinh. Hàng loạt chuyên gia tâm thần học hàng đầu đã ra trước bục nhân chứng, cung cấp những chứng cứ khoa học không thể bác bỏ về tình trạng loạn thần cấp tính của bị cáo.",
+  "text": "Năm 2005, Tòa Phúc thẩm Bang Texas đã chính thức hủy bỏ bản án sơ thẩm vì lời khai sai sự thật về tập phim không hề tồn tại. Phiên tòa tái thẩm lịch sử được mở lại vào mùa hè năm 2006 tại Tòa án Hạt Harris dưới sự chủ tọa của Thẩm phán Belinda Hill. Khác với phiên tòa bốn năm trước, phiên tái thẩm diễn ra trong một bối cảnh xã hội đã có nhận thức sâu sắc hơn rất nhiều về bệnh lý tâm thần sau sinh. Hàng loạt chuyên gia tâm thần học hàng đầu đã ra trước bục nhân chứng, cung cấp những chứng cứ khoa học không thể bác bỏ về tình trạng loạn thần cấp tính của bị cáo. Bức màn định kiến dần được gỡ bỏ để nhường chỗ cho những luận cứ khoa học lâm sàng chuẩn xác.",
   "sentences": [
    {
     "id": "4.04#1",
-    "text": "Năm 2005, Tòa Phúc thẩm Bang Texas đã chính thức hủy bỏ bản án sơ thẩm sau khi phát hiện tập phim mà nhân chứng chuyên môn nhắc tới hoàn toàn không có thật.",
-    "words": 34
+    "text": "Năm 2005, Tòa Phúc thẩm Bang Texas đã chính thức hủy bỏ bản án sơ thẩm vì lời khai sai sự thật về tập phim không hề tồn tại.",
+    "words": 29
    },
    {
     "id": "4.04#2",
@@ -850,6 +1030,11 @@
     "id": "4.04#4",
     "text": "Hàng loạt chuyên gia tâm thần học hàng đầu đã ra trước bục nhân chứng, cung cấp những chứng cứ khoa học không thể bác bỏ về tình trạng loạn thần cấp tính của bị cáo.",
     "words": 36
+   },
+   {
+    "id": "4.04#5",
+    "text": "Bức màn định kiến dần được gỡ bỏ để nhường chỗ cho những luận cứ khoa học lâm sàng chuẩn xác.",
+    "words": 21
    }
   ]
  },
@@ -864,38 +1049,43 @@
   "act": 4,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Thám tử Eric Mehl, góc nhìn lại về sự thật",
-  "text": "Trong phiên tái thẩm năm 2006, chúng tôi đã xem xét lại toàn bộ các đoạn băng ghi âm và tài liệu điều tra với một góc nhìn toàn diện hơn. Từng lời nói, từng cử chỉ của Andrea trong buổi sáng định mệnh không hề thể hiện sự toan tính độc hại hay sự lạnh lùng của một sát thủ. Đó là hình ảnh của một người phụ nữ bị đè bẹp hoàn toàn dưới gánh nặng của chứng hoang tưởng cứu chuộc cực đoan. Lực lượng cảnh sát chúng tôi hiểu rằng nhiệm vụ của điều tra không chỉ là bắt giữ người phạm tội, mà còn là cung cấp sự thật khách quan nhất cho tòa án. Sự thật y khoa đã chứng minh rằng Andrea Yates chính là nạn nhân đầu tiên của một cơn bão tâm thần kinh không được kiểm soát. Và phán quyết của bồi thẩm đoàn trong phiên tái thẩm đã phản ánh đúng bản chất nhân văn sâu sắc của công lý.",
+  "direction": "D: góc nhìn lại về sự thật",
+  "text": "Hãy hình dung góc nhìn của những người thực thi pháp luật khi vụ án được đưa ra xét xử lại vào năm 2006. Từng lời khai ban đầu của Andrea tại đồn cảnh sát đều phản ánh sự sụp đổ thần kinh chứ không phải sự ngoan cố của một tội phạm nguy hiểm. Đó là hình ảnh của một người phụ nữ bị đè bẹp hoàn toàn dưới gánh nặng của chứng hoang tưởng cứu chuộc cực đoan mà không hề có toan tính tư lợi. Người làm điều tra hiểu rằng nhiệm vụ của công lý không chỉ là trừng phạt mà còn phải dựa trên sự thật khách quan và bản chất y khoa của hành vi. Bồi thẩm đoàn tái thẩm đã dành nhiều ngày lắng nghe các phân tích y khoa tỉ mỉ của các chuyên gia tâm thần học hàng đầu. Những luận điểm khoa học vững chắc ấy đã làm thay đổi hoàn toàn cục diện đánh giá trách nhiệm hình sự tại phòng xử án. Và phán quyết của bồi thẩm đoàn trong phiên tái thẩm đã phản ánh đúng bản chất nhân văn sâu sắc của nền tư pháp văn minh.",
   "sentences": [
    {
     "id": "4.06#1",
-    "text": "Trong phiên tái thẩm năm 2006, chúng tôi đã xem xét lại toàn bộ các đoạn băng ghi âm và tài liệu điều tra với một góc nhìn toàn diện hơn.",
-    "words": 31
+    "text": "Hãy hình dung góc nhìn của những người thực thi pháp luật khi vụ án được đưa ra xét xử lại vào năm 2006.",
+    "words": 24
    },
    {
     "id": "4.06#2",
-    "text": "Từng lời nói, từng cử chỉ của Andrea trong buổi sáng định mệnh không hề thể hiện sự toan tính độc hại hay sự lạnh lùng của một sát thủ.",
-    "words": 30
+    "text": "Từng lời khai ban đầu của Andrea tại đồn cảnh sát đều phản ánh sự sụp đổ thần kinh chứ không phải sự ngoan cố của một tội phạm nguy hiểm.",
+    "words": 31
    },
    {
     "id": "4.06#3",
-    "text": "Đó là hình ảnh của một người phụ nữ bị đè bẹp hoàn toàn dưới gánh nặng của chứng hoang tưởng cứu chuộc cực đoan.",
-    "words": 25
+    "text": "Đó là hình ảnh của một người phụ nữ bị đè bẹp hoàn toàn dưới gánh nặng của chứng hoang tưởng cứu chuộc cực đoan mà không hề có toan tính tư lợi.",
+    "words": 33
    },
    {
     "id": "4.06#4",
-    "text": "Lực lượng cảnh sát chúng tôi hiểu rằng nhiệm vụ của điều tra không chỉ là bắt giữ người phạm tội, mà còn là cung cấp sự thật khách quan nhất cho tòa án.",
-    "words": 34
+    "text": "Người làm điều tra hiểu rằng nhiệm vụ của công lý không chỉ là trừng phạt mà còn phải dựa trên sự thật khách quan và bản chất y khoa của hành vi.",
+    "words": 33
    },
    {
     "id": "4.06#5",
-    "text": "Sự thật y khoa đã chứng minh rằng Andrea Yates chính là nạn nhân đầu tiên của một cơn bão tâm thần kinh không được kiểm soát.",
+    "text": "Bồi thẩm đoàn tái thẩm đã dành nhiều ngày lắng nghe các phân tích y khoa tỉ mỉ của các chuyên gia tâm thần học hàng đầu.",
     "words": 27
    },
    {
     "id": "4.06#6",
-    "text": "Và phán quyết của bồi thẩm đoàn trong phiên tái thẩm đã phản ánh đúng bản chất nhân văn sâu sắc của công lý.",
-    "words": 24
+    "text": "Những luận điểm khoa học vững chắc ấy đã làm thay đổi hoàn toàn cục diện đánh giá trách nhiệm hình sự tại phòng xử án.",
+    "words": 26
+   },
+   {
+    "id": "4.06#7",
+    "text": "Và phán quyết của bồi thẩm đoàn trong phiên tái thẩm đã phản ánh đúng bản chất nhân văn sâu sắc của nền tư pháp văn minh.",
+    "words": 27
    }
   ]
  },
@@ -911,7 +1101,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "khoảnh khắc công bố phán quyết lịch sử năm 2006",
-  "text": "Chiều ngày 26 tháng 7 năm 2006, sau ba ngày nghị án căng thẳng, bồi thẩm đoàn gồm mười hai thành viên đã bước ra phòng xử án để công bố phán quyết tối hậu. Thẩm phán Belinda Hill đọc to phán quyết chính thức: Bị cáo Andrea Pia Yates được tuyên Không có tội vì lý do tâm thần. Một tiếng thở phào nhẹ nhõm lẫn những giọt nước mắt lăn dài trên má của các luật sư, người thân và những người tham dự phiên tòa lịch sử.",
+  "text": "Chiều ngày 26 tháng 7 năm 2006, sau ba ngày nghị án căng thẳng, bồi thẩm đoàn gồm mười hai thành viên đã bước ra phòng xử án để công bố phán quyết tối hậu. Phán quyết lịch sử được xướng lên: Andrea Yates không có tội vì lý do tâm thần. Một sự tĩnh lặng bao trùm khắp khán phòng trước khoảnh khắc công lý và y khoa tìm thấy tiếng nói chung. Hãy lắng nghe những trăn trở của một thành viên bồi thẩm đoàn sau khi đưa ra quyết định lịch sử ấy.",
   "sentences": [
    {
     "id": "4.08#1",
@@ -920,13 +1110,18 @@
    },
    {
     "id": "4.08#2",
-    "text": "Thẩm phán Belinda Hill đọc to phán quyết chính thức: Bị cáo Andrea Pia Yates được tuyên Không có tội vì lý do tâm thần.",
-    "words": 25
+    "text": "Phán quyết lịch sử được xướng lên: Andrea Yates không có tội vì lý do tâm thần.",
+    "words": 17
    },
    {
     "id": "4.08#3",
-    "text": "Một tiếng thở phào nhẹ nhõm lẫn những giọt nước mắt lăn dài trên má của các luật sư, người thân và những người tham dự phiên tòa lịch sử.",
-    "words": 30
+    "text": "Một sự tĩnh lặng bao trùm khắp khán phòng trước khoảnh khắc công lý và y khoa tìm thấy tiếng nói chung.",
+    "words": 22
+   },
+   {
+    "id": "4.08#4",
+    "text": "Hãy lắng nghe những trăn trở của một thành viên bồi thẩm đoàn sau khi đưa ra quyết định lịch sử ấy.",
+    "words": 22
    }
   ]
  },
@@ -935,8 +1130,8 @@
   "act": 4,
   "kind": "LOI",
   "role": "N",
-  "direction": "N2: Bồi thẩm viên Hạt Harris - Tái thẩm 2006, giọng nữ trầm tĩnh, nghiêm nghị",
-  "text": "Ngồi trên hàng ghế bồi thẩm đoàn trong một vụ án có năm đứa trẻ vô tội thiệt mạng là áp lực tâm lý nặng nề nhất mà tôi từng trải qua trong đời. Ban đầu, giống như hầu hết mọi người ngoài xã hội, tôi cũng cảm thấy vô cùng tức giận và tin rằng người mẹ này phải bị trừng phạt nghiêm khắc nhất. Nhưng khi chúng tôi lắng nghe hàng chục giờ lời khai của các bác sĩ tâm thần và xem lại toàn bộ hồ sơ bệnh án suốt nhiều năm, quan điểm của tôi đã thay đổi hoàn toàn. Chúng tôi nhận ra rằng người phụ nữ ngồi trước mặt chúng tôi không phải là một kẻ thủ ác độc ác, mà là một linh hồn đã bị căn bệnh loạn thần xé nát. Cô ấy yêu các con tha thiết, nhưng chính căn bệnh quái ác đã đánh cắp lý trí và biến tình yêu mẫu tử thành một hành động hủy diệt đau đớn. Phán quyết Không có tội vì lý do tâm thần không có nghĩa là cô ấy được tự do bước ra ngoài xã hội như chưa từng có chuyện gì xảy ra. Đó là sự thừa nhận dũng cảm của pháp luật rằng đây là một bi kịch y khoa cần được chữa trị trong bệnh viện tâm thần thay vì một bản án tù đày hay tử hình. Tôi tin rằng quyết định của chúng tôi ngày hôm đó đã bảo vệ được tính nghiêm minh, nhân văn và sự tiến bộ của nền tư pháp văn minh.",
+  "direction": "N2: Bồi thẩm viên minh hoạ, giọng nữ trầm tĩnh, nghiêm nghị",
+  "text": "Ngồi trên hàng ghế bồi thẩm đoàn trong một vụ án có năm đứa trẻ vô tội thiệt mạng là áp lực tâm lý nặng nề nhất mà tôi từng trải qua trong đời. Ban đầu, giống như hầu hết mọi người ngoài xã hội, tôi cũng cảm thấy vô cùng tức giận và tin rằng người mẹ này phải bị trừng phạt nghiêm khắc nhất. Nhưng khi chúng tôi lắng nghe hàng chục giờ lời khai của các bác sĩ tâm thần và xem lại toàn bộ hồ sơ bệnh án suốt nhiều năm, quan điểm của tôi đã thay đổi hoàn toàn. Chúng tôi nhận ra rằng người phụ nữ ngồi trước mặt chúng tôi không phải là một kẻ độc ác, mà là một linh hồn đã bị căn bệnh loạn thần xé nát. Cô ấy yêu các con tha thiết, nhưng chính căn bệnh quái ác đã đánh cắp lý trí và biến tình yêu mẫu tử thành một hành động hủy diệt đau đớn. Phán quyết Không có tội vì lý do tâm thần không có nghĩa là cô ấy được tự do bước ra ngoài xã hội như chưa từng có chuyện gì xảy ra. Đó là sự thừa nhận dũng cảm của pháp luật rằng đây là một bi kịch y khoa cần được chữa trị trong bệnh viện tâm thần thay vì một bản án tù đày. Bản án lương tâm trong tâm trí cô ấy đã là một hình phạt vĩnh viễn không bao giờ có thể xóa nhòa. Tôi tin rằng quyết định của chúng tôi ngày hôm đó đã bảo vệ được tính nghiêm minh, nhân văn và sự tiến bộ của nền tư pháp văn minh.",
   "sentences": [
    {
     "id": "4.09#1",
@@ -955,8 +1150,8 @@
    },
    {
     "id": "4.09#4",
-    "text": "Chúng tôi nhận ra rằng người phụ nữ ngồi trước mặt chúng tôi không phải là một kẻ thủ ác độc ác, mà là một linh hồn đã bị căn bệnh loạn thần xé nát.",
-    "words": 35
+    "text": "Chúng tôi nhận ra rằng người phụ nữ ngồi trước mặt chúng tôi không phải là một kẻ độc ác, mà là một linh hồn đã bị căn bệnh loạn thần xé nát.",
+    "words": 33
    },
    {
     "id": "4.09#5",
@@ -970,11 +1165,16 @@
    },
    {
     "id": "4.09#7",
-    "text": "Đó là sự thừa nhận dũng cảm của pháp luật rằng đây là một bi kịch y khoa cần được chữa trị trong bệnh viện tâm thần thay vì một bản án tù đày hay tử hình.",
-    "words": 37
+    "text": "Đó là sự thừa nhận dũng cảm của pháp luật rằng đây là một bi kịch y khoa cần được chữa trị trong bệnh viện tâm thần thay vì một bản án tù đày.",
+    "words": 34
    },
    {
     "id": "4.09#8",
+    "text": "Bản án lương tâm trong tâm trí cô ấy đã là một hình phạt vĩnh viễn không bao giờ có thể xóa nhòa.",
+    "words": 23
+   },
+   {
+    "id": "4.09#9",
     "text": "Tôi tin rằng quyết định của chúng tôi ngày hôm đó đã bảo vệ được tính nghiêm minh, nhân văn và sự tiến bộ của nền tư pháp văn minh.",
     "words": 30
    }
@@ -986,32 +1186,37 @@
   "kind": "LOI",
   "role": "D",
   "direction": "D: Chuyển giao điều trị tại Bệnh viện Tâm thần Bang",
-  "text": "Ngay sau khi phán quyết được tuyên, Thẩm phán Belinda Hill đã ký lệnh chuyển giao Andrea Yates đến Bệnh viện Tâm thần Bang Vernon để điều trị bắt buộc. Năm 2007, cô được chuyển về Bệnh viện Bang Kerrville, một cơ sở y tế an ninh tối đa dành cho bệnh nhân tâm thần tại Texas. Suốt gần hai mươi năm qua, Andrea Yates vẫn lặng lẽ sống trong khuôn viên bệnh viện, từ chối mọi buổi điều trần xin xét tha hàng năm. Cô ấy dành phần đời còn lại để đan lát, làm đồ thủ công và dành toàn bộ số tiền bán được để ủng hộ cho Quỹ tưởng niệm năm đứa con của mình. Đó là cách duy nhất mà người mẹ bất hạnh tìm kiếm sự chuộc lỗi và sự bình yên cho tâm hồn tan vỡ sau thảm kịch.",
+  "text": "Sau phán quyết năm 2006, Andrea Yates được đưa đến Bệnh viện Bang Bắc Texas tại Vernon để điều trị tâm thần bắt buộc. Tháng 1 năm 2007, cô được chuyển về Bệnh viện Bang Kerrville tại bang Texas để tiếp tục quá trình chăm sóc y tế lâu dài. Suốt hơn hai mươi năm qua, Andrea Yates vẫn lặng lẽ sống trong khuôn viên bệnh viện và đều đặn từ chối các buổi điều trần xem xét phóng thích hàng năm. Cô tự nguyện lựa chọn ở lại bệnh viện như một cách đối diện với nỗi đau và sự ăn năn khôn nguôi trong tâm hồn mình. Cùng lúc đó, Quỹ Tưởng niệm Trẻ em Yates do Luật sư George Parnham và gia đình thành lập vẫn tiếp tục hoạt động để nâng cao nhận thức cộng đồng. Đó là di sản thầm lặng nhưng đầy ý nghĩa sau một thảm kịch gia đình không thể nào đảo ngược.",
   "sentences": [
    {
     "id": "4.10#1",
-    "text": "Ngay sau khi phán quyết được tuyên, Thẩm phán Belinda Hill đã ký lệnh chuyển giao Andrea Yates đến Bệnh viện Tâm thần Bang Vernon để điều trị bắt buộc.",
-    "words": 30
+    "text": "Sau phán quyết năm 2006, Andrea Yates được đưa đến Bệnh viện Bang Bắc Texas tại Vernon để điều trị tâm thần bắt buộc.",
+    "words": 24
    },
    {
     "id": "4.10#2",
-    "text": "Năm 2007, cô được chuyển về Bệnh viện Bang Kerrville, một cơ sở y tế an ninh tối đa dành cho bệnh nhân tâm thần tại Texas.",
-    "words": 27
+    "text": "Tháng 1 năm 2007, cô được chuyển về Bệnh viện Bang Kerrville tại bang Texas để tiếp tục quá trình chăm sóc y tế lâu dài.",
+    "words": 26
    },
    {
     "id": "4.10#3",
-    "text": "Suốt gần hai mươi năm qua, Andrea Yates vẫn lặng lẽ sống trong khuôn viên bệnh viện, từ chối mọi buổi điều trần xin xét tha hàng năm.",
-    "words": 28
+    "text": "Suốt hơn hai mươi năm qua, Andrea Yates vẫn lặng lẽ sống trong khuôn viên bệnh viện và đều đặn từ chối các buổi điều trần xem xét phóng thích hàng năm.",
+    "words": 32
    },
    {
     "id": "4.10#4",
-    "text": "Cô ấy dành phần đời còn lại để đan lát, làm đồ thủ công và dành toàn bộ số tiền bán được để ủng hộ cho Quỹ tưởng niệm năm đứa con của mình.",
-    "words": 34
+    "text": "Cô tự nguyện lựa chọn ở lại bệnh viện như một cách đối diện với nỗi đau và sự ăn năn khôn nguôi trong tâm hồn mình.",
+    "words": 27
    },
    {
     "id": "4.10#5",
-    "text": "Đó là cách duy nhất mà người mẹ bất hạnh tìm kiếm sự chuộc lỗi và sự bình yên cho tâm hồn tan vỡ sau thảm kịch.",
-    "words": 27
+    "text": "Cùng lúc đó, Quỹ Tưởng niệm Trẻ em Yates do Luật sư George Parnham và gia đình thành lập vẫn tiếp tục hoạt động để nâng cao nhận thức cộng đồng.",
+    "words": 31
+   },
+   {
+    "id": "4.10#6",
+    "text": "Đó là di sản thầm lặng nhưng đầy ý nghĩa sau một thảm kịch gia đình không thể nào đảo ngược.",
+    "words": 21
    }
   ]
  },
@@ -1021,22 +1226,32 @@
   "kind": "LOI",
   "role": "C",
   "direction": "C: Giá trị tiền lệ tư pháp và y khoa",
-  "text": "Phán quyết trong vụ án Andrea Yates đã trở thành tiền lệ tư pháp quan trọng nhất của nước Mỹ về việc áp dụng quy tắc miễn trừ trách nhiệm hình sự do loạn thần sau sinh. Nó đã giúp xã hội phân biệt rạch ròi giữa những kẻ giả bệnh tâm thần để trốn tội với những nạn nhân thực sự của các rối loạn sinh học thần kinh cấp tính. Sự công nhận y khoa này là bước tiến văn minh bảo vệ quyền được điều trị y tế của những người mẹ mắc bệnh lý tâm thần sau sinh hiểm nghèo.",
+  "text": "Phán quyết trong vụ án Andrea Yates đã trở thành tiền lệ tư pháp kinh điển về phòng vệ mất trí trong các vụ án loạn thần sau sinh. Nó giúp hệ thống luật pháp phân biệt rạch ròi giữa những kẻ giả bệnh trốn tội với các nạn nhân thực sự của rối loạn sinh học thần kinh cấp tính. Sự công nhận y khoa này là bước tiến văn minh, mở đường cho việc bảo vệ quyền được điều trị y tế của các bà mẹ mắc bệnh tâm thần nặng. Nó cũng đặt nền móng cho những cải cách sâu rộng trong quy trình sàng lọc và can thiệp khủng hoảng tâm lý bà mẹ sau sinh trên toàn cầu. Công lý chỉ thực sự trọn vẹn và bền vững khi nó được soi sáng bởi tri thức khoa học và lòng nhân đạo đích thực.",
   "sentences": [
    {
     "id": "4.11#1",
-    "text": "Phán quyết trong vụ án Andrea Yates đã trở thành tiền lệ tư pháp quan trọng nhất của nước Mỹ về việc áp dụng quy tắc miễn trừ trách nhiệm hình sự do loạn thần sau sinh.",
-    "words": 37
+    "text": "Phán quyết trong vụ án Andrea Yates đã trở thành tiền lệ tư pháp kinh điển về phòng vệ mất trí trong các vụ án loạn thần sau sinh.",
+    "words": 29
    },
    {
     "id": "4.11#2",
-    "text": "Nó đã giúp xã hội phân biệt rạch ròi giữa những kẻ giả bệnh tâm thần để trốn tội với những nạn nhân thực sự của các rối loạn sinh học thần kinh cấp tính.",
-    "words": 35
+    "text": "Nó giúp hệ thống luật pháp phân biệt rạch ròi giữa những kẻ giả bệnh trốn tội với các nạn nhân thực sự của rối loạn sinh học thần kinh cấp tính.",
+    "words": 32
    },
    {
     "id": "4.11#3",
-    "text": "Sự công nhận y khoa này là bước tiến văn minh bảo vệ quyền được điều trị y tế của những người mẹ mắc bệnh lý tâm thần sau sinh hiểm nghèo.",
+    "text": "Sự công nhận y khoa này là bước tiến văn minh, mở đường cho việc bảo vệ quyền được điều trị y tế của các bà mẹ mắc bệnh tâm thần nặng.",
     "words": 32
+   },
+   {
+    "id": "4.11#4",
+    "text": "Nó cũng đặt nền móng cho những cải cách sâu rộng trong quy trình sàng lọc và can thiệp khủng hoảng tâm lý bà mẹ sau sinh trên toàn cầu.",
+    "words": 30
+   },
+   {
+    "id": "4.11#5",
+    "text": "Công lý chỉ thực sự trọn vẹn và bền vững khi nó được soi sáng bởi tri thức khoa học và lòng nhân đạo đích thực.",
+    "words": 26
    }
   ]
  },
@@ -1045,8 +1260,8 @@
   "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "khép lại Hồi 4",
-  "text": "Bản án pháp lý đã khép lại sau năm năm ròng rã, nhưng di sản đau thương của vụ án thì vẫn tiếp tục thức tỉnh hàng triệu gia đình trên khắp thế giới. Làm thế nào để xã hội có thể bảo vệ những người mẹ trước khi cơn bão loạn thần sau sinh cướp đi sinh mệnh của những đứa trẻ vô tội?",
+  "direction": "khép lại Hồi 4, chuyển sang Hồi 5",
+  "text": "Bản án pháp lý đã khép lại sau năm năm ròng rã, nhưng di sản đau thương của vụ án thì vẫn tiếp tục thức tỉnh hàng triệu gia đình trên khắp thế giới. Làm thế nào để xã hội có thể bảo vệ những người mẹ trước khi cơn bão loạn thần sau sinh cướp đi sinh mệnh của những đứa trẻ vô tội? Câu trả lời nằm ở những bài học cảnh tỉnh sâu sắc và bốn dấu hiệu cảnh báo đỏ sinh tử được đúc kết trong Hồi 5.",
   "sentences": [
    {
     "id": "4.12#1",
@@ -1057,6 +1272,11 @@
     "id": "4.12#2",
     "text": "Làm thế nào để xã hội có thể bảo vệ những người mẹ trước khi cơn bão loạn thần sau sinh cướp đi sinh mệnh của những đứa trẻ vô tội?",
     "words": 31
+   },
+   {
+    "id": "4.12#3",
+    "text": "Câu trả lời nằm ở những bài học cảnh tỉnh sâu sắc và bốn dấu hiệu cảnh báo đỏ sinh tử được đúc kết trong Hồi 5.",
+    "words": 27
    }
   ]
  },
@@ -1078,27 +1298,32 @@
   "kind": "LOI",
   "role": "H",
   "direction": "giọng suy ngẫm, mang tính triết lý sâu lắng",
-  "text": "Sau thảm kịch năm 2001, bang Texas đã chính thức thông qua Đạo luật Andrea Yates, bắt buộc các cơ sở y tế phải cung cấp thông tin và sàng lọc trầm cảm sau sinh cho phụ nữ mang thai. Luật sư George Parnham và các nhà hoạt động xã hội đã thành lập Quỹ Tưởng niệm Trẻ em Yates nhằm nâng cao nhận thức cộng đồng về sức khỏe tâm thần bà mẹ. Nỗi đau thương tột cùng của năm đứa trẻ đã biến thành ngọn hải đăng soi sáng, cứu sống hàng nghìn người mẹ và những đứa trẻ khác khỏi nguy cơ tương tự. Sự thấu hiểu và sẻ chia của gia đình chính là chiếc chìa khóa sống còn để ngăn chặn những thảm kịch tái diễn trong đời thực.",
+  "text": "Sau thảm kịch năm 2001, nhận thức về trầm cảm và loạn thần sau sinh tại Mỹ và trên toàn cầu đã có những bước chuyển biến sâu sắc. Luật sư George Parnham và người vợ Mary Parnham đã sáng lập Quỹ Tưởng niệm Trẻ em Yates nhằm nâng cao nhận thức cộng đồng về sức khỏe tâm thần bà mẹ. Nỗi đau thương tột cùng của năm đứa trẻ vô tội đã trở thành lời cảnh tỉnh mạnh mẽ, xóa bỏ sự kỳ thị xã hội và cứu sống vô số gia đình khác. Các bệnh viện phụ sản trên khắp thế giới bắt đầu đưa việc sàng lọc sức khỏe tâm thần sau sinh vào quy trình thăm khám tiêu chuẩn bắt buộc. Sự thấu hiểu và sẻ chia thiết thực của gia đình chính là chiếc chìa khóa sống còn để ngăn chặn những thảm kịch tương tự tái diễn trong đời thực.",
   "sentences": [
    {
     "id": "5.02#1",
-    "text": "Sau thảm kịch năm 2001, bang Texas đã chính thức thông qua Đạo luật Andrea Yates, bắt buộc các cơ sở y tế phải cung cấp thông tin và sàng lọc trầm cảm sau sinh cho phụ nữ mang thai.",
-    "words": 40
+    "text": "Sau thảm kịch năm 2001, nhận thức về trầm cảm và loạn thần sau sinh tại Mỹ và trên toàn cầu đã có những bước chuyển biến sâu sắc.",
+    "words": 29
    },
    {
     "id": "5.02#2",
-    "text": "Luật sư George Parnham và các nhà hoạt động xã hội đã thành lập Quỹ Tưởng niệm Trẻ em Yates nhằm nâng cao nhận thức cộng đồng về sức khỏe tâm thần bà mẹ.",
-    "words": 34
+    "text": "Luật sư George Parnham và người vợ Mary Parnham đã sáng lập Quỹ Tưởng niệm Trẻ em Yates nhằm nâng cao nhận thức cộng đồng về sức khỏe tâm thần bà mẹ.",
+    "words": 32
    },
    {
     "id": "5.02#3",
-    "text": "Nỗi đau thương tột cùng của năm đứa trẻ đã biến thành ngọn hải đăng soi sáng, cứu sống hàng nghìn người mẹ và những đứa trẻ khác khỏi nguy cơ tương tự.",
-    "words": 33
+    "text": "Nỗi đau thương tột cùng của năm đứa trẻ vô tội đã trở thành lời cảnh tỉnh mạnh mẽ, xóa bỏ sự kỳ thị xã hội và cứu sống vô số gia đình khác.",
+    "words": 34
    },
    {
     "id": "5.02#4",
-    "text": "Sự thấu hiểu và sẻ chia của gia đình chính là chiếc chìa khóa sống còn để ngăn chặn những thảm kịch tái diễn trong đời thực.",
-    "words": 27
+    "text": "Các bệnh viện phụ sản trên khắp thế giới bắt đầu đưa việc sàng lọc sức khỏe tâm thần sau sinh vào quy trình thăm khám tiêu chuẩn bắt buộc.",
+    "words": 30
+   },
+   {
+    "id": "5.02#5",
+    "text": "Sự thấu hiểu và sẻ chia thiết thực của gia đình chính là chiếc chìa khóa sống còn để ngăn chặn những thảm kịch tương tự tái diễn trong đời thực.",
+    "words": 31
    }
   ]
  },
@@ -1107,13 +1332,13 @@
   "act": 5,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Lời khuyên xương máu từ cơ quan điều tra",
-  "text": "Bài học xương máu lớn nhất mà lực lượng điều tra và cộng đồng rút ra từ hồ sơ Andrea Yates là tuyệt đối không bao giờ được xem nhẹ các cảnh báo y khoa. Khi các bác sĩ tâm thần đã đưa ra khuyến cáo không được để người mẹ ở một mình với trẻ nhỏ, đó là một mệnh lệnh an toàn mang tính sống còn. Sự lơ là hay chủ quan của người thân dù chỉ trong vài chục phút ngắn ngủi cũng có thể dẫn đến những hậu quả không thể nào đảo ngược được nữa.",
+  "direction": "D: Lời khuyên từ cơ quan điều tra",
+  "text": "Bài học đắt giá nhất mà lực lượng điều tra và cộng đồng rút ra từ hồ sơ Andrea Yates là tuyệt đối không bao giờ được xem nhẹ các cảnh báo y khoa. Khi các bác sĩ tâm thần đã đưa ra khuyến cáo không được để người mẹ ở một mình với trẻ nhỏ, đó là một mệnh lệnh an toàn mang tính sống còn. Sự lơ là hay chủ quan của người thân dù chỉ trong một khoảng thời gian ngắn ngủi cũng có thể dẫn đến những hậu quả không thể nào đảo ngược được nữa. Sự cẩn trọng tối đa và mạng lưới giám sát chặt chẽ từ gia đình chính là lá chắn bảo vệ sinh mệnh cho cả mẹ và con.",
   "sentences": [
    {
     "id": "5.03#1",
-    "text": "Bài học xương máu lớn nhất mà lực lượng điều tra và cộng đồng rút ra từ hồ sơ Andrea Yates là tuyệt đối không bao giờ được xem nhẹ các cảnh báo y khoa.",
-    "words": 35
+    "text": "Bài học đắt giá nhất mà lực lượng điều tra và cộng đồng rút ra từ hồ sơ Andrea Yates là tuyệt đối không bao giờ được xem nhẹ các cảnh báo y khoa.",
+    "words": 34
    },
    {
     "id": "5.03#2",
@@ -1122,8 +1347,13 @@
    },
    {
     "id": "5.03#3",
-    "text": "Sự lơ là hay chủ quan của người thân dù chỉ trong vài chục phút ngắn ngủi cũng có thể dẫn đến những hậu quả không thể nào đảo ngược được nữa.",
-    "words": 32
+    "text": "Sự lơ là hay chủ quan của người thân dù chỉ trong một khoảng thời gian ngắn ngủi cũng có thể dẫn đến những hậu quả không thể nào đảo ngược được nữa.",
+    "words": 33
+   },
+   {
+    "id": "5.03#4",
+    "text": "Sự cẩn trọng tối đa và mạng lưới giám sát chặt chẽ từ gia đình chính là lá chắn bảo vệ sinh mệnh cho cả mẹ và con.",
+    "words": 28
    }
   ]
  },
@@ -1133,7 +1363,7 @@
   "kind": "LOI",
   "role": "C",
   "direction": "C: Bản chất y khoa của rối loạn tâm thần sau sinh",
-  "text": "Trầm cảm và loạn thần sau sinh không phải là sự yếu đuối về mặt ý chí hay sự thất bại trong thiên chức làm mẹ, mà là một căn bệnh thực thể do biến đổi nội tiết tố và sinh hóa não bộ. Phụ nữ sau sinh trải qua sự sụt giảm đột ngột của hormone kết hợp với tình trạng thiếu ngủ kéo dài và áp lực tâm lý xã hội nặng nề. Việc phát hiện sớm các dấu hiệu bất thường và tiếp cận điều trị tâm thần kịp thời có thể chữa khỏi hoàn toàn và bảo vệ an toàn cho cả mẹ lẫn con. Sự hỗ trợ thiết thực, lắng nghe không phán xét từ người chồng và gia đình chính là bức tường thành vững chắc nhất che chở cho người phụ nữ trong giai đoạn nhạy cảm này.",
+  "text": "Trầm cảm và loạn thần sau sinh không phải là sự yếu đuối về mặt ý chí hay sự thất bại trong thiên chức làm mẹ, mà là một căn bệnh thực thể do biến đổi nội tiết tố và sinh hóa não bộ. Phụ nữ sau sinh trải qua sự sụt giảm đột ngột của hormone kết hợp với tình trạng thiếu ngủ kéo dài và áp lực tâm lý xã hội nặng nề. Khi các dẫn truyền thần kinh rơi vào trạng thái quá tải, màng lọc thực tại có thể bị phá hủy hoàn toàn và tạo ra những hoang tưởng cực đoan. Việc phát hiện sớm các dấu hiệu bất thường và tiếp cận điều trị tâm thần kịp thời có thể chữa khỏi hoàn toàn và bảo vệ an toàn cho cả mẹ lẫn con. Sự hỗ trợ thiết thực, lắng nghe không phán xét từ người chồng và gia đình chính là bức tường thành vững chắc nhất che chở cho người phụ nữ trong giai đoạn nhạy cảm này.",
   "sentences": [
    {
     "id": "5.04#1",
@@ -1147,11 +1377,16 @@
    },
    {
     "id": "5.04#3",
+    "text": "Khi các dẫn truyền thần kinh rơi vào trạng thái quá tải, màng lọc thực tại có thể bị phá hủy hoàn toàn và tạo ra những hoang tưởng cực đoan.",
+    "words": 31
+   },
+   {
+    "id": "5.04#4",
     "text": "Việc phát hiện sớm các dấu hiệu bất thường và tiếp cận điều trị tâm thần kịp thời có thể chữa khỏi hoàn toàn và bảo vệ an toàn cho cả mẹ lẫn con.",
     "words": 34
    },
    {
-    "id": "5.04#4",
+    "id": "5.04#5",
     "text": "Sự hỗ trợ thiết thực, lắng nghe không phán xét từ người chồng và gia đình chính là bức tường thành vững chắc nhất che chở cho người phụ nữ trong giai đoạn nhạy cảm này.",
     "words": 36
    }
@@ -1163,7 +1398,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "chuyển sang phần đúc kết và bài học nhận diện thực tế",
-  "text": "Để giúp các gia đình, đặc biệt là những người chồng và người thân có phụ nữ chuẩn bị hoặc vừa sinh con, kịp thời nhận diện và ngăn chặn những nguy cơ sức khỏe tâm thần từ sớm, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ kinh điển về Loạn thần sau sinh được đúc kết từ hồ sơ Andrea Yates. Dấu hiệu thứ nhất: Sự thay đổi đột ngột và cực đoan trong hành vi cùng ánh mắt thất thần, mất kết nối với thực tại. Khi một người mẹ sau sinh bỗng nhiên trở nên im lặng bất thường, ngồi nhìn chằm chằm vào khoảng không, không có phản ứng khi được gọi tên hoặc cử động chậm chạp như một chiếc bóng, đó là báo động đỏ. Đây không phải là sự mệt mỏi thông thường của việc chăm con, mà là dấu hiệu cho thấy não bộ đang bắt đầu mất kết nối với môi trường xung quanh. Dấu hiệu thứ hai: Sự xuất hiện của những ý nghĩ hoang tưởng kỳ quái và niềm tin tôn giáo hoặc tâm linh cực đoan. Nếu người mẹ bày tỏ nỗi sợ hãi rằng đứa trẻ bị quỷ ám, tin rằng mình là người mẹ tội lỗi bị nguyền rủa hoặc nói về những điều phi thực tế, gia đình cần phải can thiệp y tế ngay lập tức. Những niềm tin sai lệch này không thể giải thích bằng lý lẽ thông thường vì chúng bắt nguồn từ sự rối loạn hóa học thần kinh bên trong não bộ. Dấu hiệu thứ ba: Những biểu hiện nghe thấy ảo thanh hoặc nhìn thấy những hình ảnh không có thật. Khi người mẹ nói rằng mình nghe thấy tiếng thì thầm bên tai, tiếng ra lệnh hoặc có cảm giác ai đó đang theo dõi, đe dọa mẹ con mình, đó là triệu chứng cấp tính của loạn thần. Tuyệt đối không bao giờ được để người mẹ trong tình trạng này ở một mình với em bé dù chỉ là một phút ngắn ngủi. Dấu hiệu thứ tư: Tình trạng mất ngủ triền miên nhiều ngày liên tiếp kết hợp với cảm xúc đờ đẫn hoặc kích động quá mức. Việc hoàn toàn không thể ngủ được ngay cả khi em bé đã ngủ say là một chỉ báo sinh học cực kỳ nguy hiểm báo hiệu sự sụp đổ của hệ thần kinh trung ương. Hãy đưa người mẹ đến các bệnh viện chuyên khoa tâm thần hoặc cơ sở y tế gần nhất để được thăm khám và điều trị bằng thuốc kịp thời. Thiên chức làm mẹ là một hành trình thiêng liêng nhưng cũng đầy rẫy những thử thách tâm sinh lý cần sự đồng hành, thấu hiểu và bảo vệ từ toàn xã hội. Cảm ơn quý vị đã dành thời gian theo dõi tập hồ sơ tâm lý học tội phạm đầy xúc động và mang đậm giá trị nhân văn của Amber Eyes ngày hôm nay. Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ thông điệp ý nghĩa này đến những người thân xung quanh bạn để cùng nhau bảo vệ sức khỏe tâm thần cho các bà mẹ. Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
+  "text": "Để giúp các gia đình, đặc biệt là những người chồng và người thân có phụ nữ chuẩn bị hoặc vừa sinh con, kịp thời nhận diện và ngăn chặn những nguy cơ sức khỏe tâm thần từ sớm, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ kinh điển về Loạn thần sau sinh được đúc kết từ hồ sơ Andrea Yates. Dấu hiệu thứ nhất: Sự thay đổi đột ngột và cực đoan trong hành vi cùng ánh mắt thất thần, mất kết nối với thực tại. Khi một người mẹ sau sinh bỗng nhiên trở nên im lặng bất thường, ngồi nhìn chằm chằm vào khoảng không, không có phản ứng khi được gọi tên hoặc cử động chậm chạp như một chiếc bóng, đó là báo động đỏ sinh tử. Đây hoàn toàn không phải là sự mệt mỏi thông thường của việc chăm con, mà là chỉ báo cho thấy não bộ đang bắt đầu mất kết nối với môi trường xung quanh do cơn phân ly tâm thần. Dấu hiệu thứ hai: Sự xuất hiện của những ý nghĩ hoang tưởng kỳ quái và niềm tin tôn giáo hoặc tâm linh cực đoan. Nếu người mẹ bày tỏ nỗi sợ hãi rằng đứa trẻ bị quỷ ám, tin rằng mình là người mẹ tội lỗi bị nguyền rủa hoặc nói về những điều phi thực tế, gia đình cần phải can thiệp y tế ngay lập tức. Những niềm tin sai lệch này không thể giải thích bằng lý lẽ thông thường vì chúng bắt nguồn từ sự rối loạn hóa học thần kinh bên trong não bộ đang bóp méo hoàn toàn nhận thức. Dấu hiệu thứ ba: Những biểu hiện nghe thấy ảo thanh bên tai hoặc nhìn thấy những hình ảnh không có thật. Khi người mẹ nói rằng mình nghe thấy tiếng thì thầm vô hình ra lệnh, tiếng đe dọa hoặc có cảm giác ai đó đang theo dõi, muốn làm hại mẹ con mình, đó là triệu chứng cấp tính của loạn thần. Tuyệt đối không bao giờ được để người mẹ trong tình trạng này ở một mình với em bé dù chỉ là một phút ngắn ngủi vì những mệnh lệnh hoang tưởng có thể kích hoạt hành vi nguy hiểm. Dấu hiệu thứ tư: Tình trạng mất ngủ triền miên nhiều ngày liên tiếp kết hợp với cảm xúc đờ đẫn hoặc kích động quá mức. Việc hoàn toàn không thể ngủ được ngay cả khi em bé đã ngủ say là một chỉ báo sinh học cực kỳ nguy hiểm báo hiệu sự suy sụp toàn diện của hệ thần kinh trung ương. Hãy đưa người mẹ đến các bệnh viện chuyên khoa tâm thần hoặc cơ sở y tế gần nhất để được thăm khám và điều trị bằng thuốc kịp thời nhằm ngăn chặn biến cố đáng tiếc. Thiên chức làm mẹ là một hành trình thiêng liêng nhưng cũng đầy rẫy những thử thách tâm sinh lý cần sự đồng hành, thấu hiểu và bảo vệ từ toàn xã hội. Cảm ơn quý vị đã dành thời gian theo dõi tập hồ sơ tâm lý học tội phạm đầy xúc động và mang đậm giá trị nhân văn của Amber Eyes ngày hôm nay. Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ thông điệp ý nghĩa này đến những người thân xung quanh bạn để cùng nhau bảo vệ sức khỏe tâm thần cho các bà mẹ. Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
   "sentences": [
    {
     "id": "5.05#1",
@@ -1177,13 +1412,13 @@
    },
    {
     "id": "5.05#3",
-    "text": "Khi một người mẹ sau sinh bỗng nhiên trở nên im lặng bất thường, ngồi nhìn chằm chằm vào khoảng không, không có phản ứng khi được gọi tên hoặc cử động chậm chạp như một chiếc bóng, đó là báo động đỏ.",
-    "words": 43
+    "text": "Khi một người mẹ sau sinh bỗng nhiên trở nên im lặng bất thường, ngồi nhìn chằm chằm vào khoảng không, không có phản ứng khi được gọi tên hoặc cử động chậm chạp như một chiếc bóng, đó là báo động đỏ sinh tử.",
+    "words": 45
    },
    {
     "id": "5.05#4",
-    "text": "Đây không phải là sự mệt mỏi thông thường của việc chăm con, mà là dấu hiệu cho thấy não bộ đang bắt đầu mất kết nối với môi trường xung quanh.",
-    "words": 32
+    "text": "Đây hoàn toàn không phải là sự mệt mỏi thông thường của việc chăm con, mà là chỉ báo cho thấy não bộ đang bắt đầu mất kết nối với môi trường xung quanh do cơn phân ly tâm thần.",
+    "words": 40
    },
    {
     "id": "5.05#5",
@@ -1197,23 +1432,23 @@
    },
    {
     "id": "5.05#7",
-    "text": "Những niềm tin sai lệch này không thể giải thích bằng lý lẽ thông thường vì chúng bắt nguồn từ sự rối loạn hóa học thần kinh bên trong não bộ.",
-    "words": 31
+    "text": "Những niềm tin sai lệch này không thể giải thích bằng lý lẽ thông thường vì chúng bắt nguồn từ sự rối loạn hóa học thần kinh bên trong não bộ đang bóp méo hoàn toàn nhận thức.",
+    "words": 38
    },
    {
     "id": "5.05#8",
-    "text": "Dấu hiệu thứ ba: Những biểu hiện nghe thấy ảo thanh hoặc nhìn thấy những hình ảnh không có thật.",
-    "words": 20
+    "text": "Dấu hiệu thứ ba: Những biểu hiện nghe thấy ảo thanh bên tai hoặc nhìn thấy những hình ảnh không có thật.",
+    "words": 22
    },
    {
     "id": "5.05#9",
-    "text": "Khi người mẹ nói rằng mình nghe thấy tiếng thì thầm bên tai, tiếng ra lệnh hoặc có cảm giác ai đó đang theo dõi, đe dọa mẹ con mình, đó là triệu chứng cấp tính của loạn thần.",
-    "words": 39
+    "text": "Khi người mẹ nói rằng mình nghe thấy tiếng thì thầm vô hình ra lệnh, tiếng đe dọa hoặc có cảm giác ai đó đang theo dõi, muốn làm hại mẹ con mình, đó là triệu chứng cấp tính của loạn thần.",
+    "words": 42
    },
    {
     "id": "5.05#10",
-    "text": "Tuyệt đối không bao giờ được để người mẹ trong tình trạng này ở một mình với em bé dù chỉ là một phút ngắn ngủi.",
-    "words": 26
+    "text": "Tuyệt đối không bao giờ được để người mẹ trong tình trạng này ở một mình với em bé dù chỉ là một phút ngắn ngủi vì những mệnh lệnh hoang tưởng có thể kích hoạt hành vi nguy hiểm.",
+    "words": 40
    },
    {
     "id": "5.05#11",
@@ -1222,13 +1457,13 @@
    },
    {
     "id": "5.05#12",
-    "text": "Việc hoàn toàn không thể ngủ được ngay cả khi em bé đã ngủ say là một chỉ báo sinh học cực kỳ nguy hiểm báo hiệu sự sụp đổ của hệ thần kinh trung ương.",
-    "words": 36
+    "text": "Việc hoàn toàn không thể ngủ được ngay cả khi em bé đã ngủ say là một chỉ báo sinh học cực kỳ nguy hiểm báo hiệu sự suy sụp toàn diện của hệ thần kinh trung ương.",
+    "words": 38
    },
    {
     "id": "5.05#13",
-    "text": "Hãy đưa người mẹ đến các bệnh viện chuyên khoa tâm thần hoặc cơ sở y tế gần nhất để được thăm khám và điều trị bằng thuốc kịp thời.",
-    "words": 30
+    "text": "Hãy đưa người mẹ đến các bệnh viện chuyên khoa tâm thần hoặc cơ sở y tế gần nhất để được thăm khám và điều trị bằng thuốc kịp thời nhằm ngăn chặn biến cố đáng tiếc.",
+    "words": 37
    },
    {
     "id": "5.05#14",

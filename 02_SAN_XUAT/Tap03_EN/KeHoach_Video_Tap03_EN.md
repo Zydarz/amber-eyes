@@ -5,6 +5,8 @@
 **Fixed Text & Cards:** `02_SAN_XUAT/Tap03_EN/CHU_CO_DINH_EN.md`  
 **Update 05/11/2026 (round 2 — re-render stills, 3 languages):** shot table structure unchanged; fixed **`5-02`** — on-screen `8 CONCURRENT LIFE TERMS` → **`EIGHT CONCURRENT LIFE TERMS`** (channel rule: the spoken line says "eight concurrent life terms"); end card `5-21` already complied with H12 and was left as-is; 110 stills re-rendered · 11/11 QC gates pass. Report: `90_LUU_TRU/BaoCao_QC_Tap03_RenderAnhTinh_3NguonNgu_20261105.md`
 
+**Update 07/11/2026 (rebuild on new script + new master 1648,8 s):** re-parsed shots (H14); fixed 5 shots whose on-screen text no longer matched the sentences (`1-23` `2-07` `2-15` `4-07` `5-09`) and 3 overlapping T8 lists; mux limiter + hard clip (true peak −2,6 dBFS). Report: `90_LUU_TRU/BaoCao_QC_Tap03_EN_DungLai_20261107.md`
+
 ## B1. Episode Information
 
 | Item | Value |
@@ -47,7 +49,7 @@
 | 1-20 | `1.10#12`–`#14` | H | T1 | `t3_prison_corridor`, `push` | **HE CALLED BECAUSE HE WAS AFRAID HE WOULDN'T STOP** · *Hear the perspective of an FBI Special Agent* | — | →D |  |
 | 1-21 | `1.11`–`1.12` (nghỉ 2 s) | — | — | `t3_gate_slam` | — | Tiếng bước chân, cửa sắt "Rầm" | ⊘ |  |
 | 1-22 | `1.13#1`–`#2` | D | T1 | `t3_giant_doorway` | **A TRULY SINGULAR CASE** · *SIX FEET NINE INCHES · IQ 145 · Top 0.13% of the human population* | — | ✦ Sói |  |
-| 1-23 | `1.13#3`–`#4` | D | T1 | `t3_brain_mirror` | **EXTRAORDINARY CAPACITY FOR INTROSPECTIVE SELF-AWARENESS** · *Dissecting his own mind with the clinical precision of a neurosurgeon* | — |  |  |
+| 1-23 | `1.13#3`–`#4` | D | T1 | `t3_brain_mirror` | **EXTRAORDINARY CAPACITY FOR INTROSPECTIVE SELF-AWARENESS** · *Kemper did not blame circumstances, nor did he deny guilt* | — |  |  |
 | 1-24 | `1.13#5`–`#6` | D | T2 | `t3_fbi_corridor` | *BSU · FBI* · **CRIMINAL PERSONALITY RESEARCH PROJECT** · *First case study in serial homicide research* | Dấu mộc ở "Criminal Personality" |  |  |
 | 1-25 | `1.13#7`–`#9` | D | T8 | `t3_case_file` | *Foundation for VICAP network · Standardized science of behavioral profiling* | Mỗi mục ở cụm từ |  |  |
 | 1-26 | `1.15#1`–`#2` | H | T10 | `t3_brain_mirror` | **THE IQ 145 GIANT & THE PSYCHOLOGICAL AUTOPSY OF A SERIAL KILLER** | Tên tập ở cuối | 🅑 |  |
@@ -56,9 +58,9 @@
 | 2-02 | `2.02#2` | H | T1 | `t3_hitchhiker` | **HITCHHIKING** · *A thumb in the air · A widespread cultural norm* | Tiêu đề ở "Hitchhiking" |  |  |
 | 2-03 | `2.02#3` | H | T1 | `t3_ucsc_campus` | **UCSC** · *University of California, Santa Cruz · Vanishing into the shadows* | — |  |  |
 | 2-04 | `2.04#1`–`#2` | H | T2 | `t3_case_photos` | *DISAPPEARANCES BEGIN* · **CASE DOSSIER OF MISSING CO-EDS** | Lật ảnh (SFX `2.03`) ở đầu | 🅑 | ✂ |
-| 2-05 | `2.04#3`–`#4` | H | T8 | `t3_santacruz_street` | *May 7th, 1972: Mary Ann Pesce & Anita Luchessa (18 years old) · Locked in trunk* | Mỗi mục ở cụm từ |  |  |
-| 2-06 | `2.04#5`–`#6` | H | T8 | `t3_case_photos` | *September 14th, 1972: Aiko Koo (15 years old) · January 7th, 1973: Cindy Schall (18 years old)* | — | ⊘ |  |
-| 2-07 | `2.04#7`–`#8` | H | T1 | `t3_backyard_garden` | *Disposed of in the ocean* → `#8`: **BURIED THE VICTIM'S HEAD IN HIS MOTHER'S BACKYARD** | — | ⊘ |  |
+| 2-05 | `2.04#3`–`#4` | H | T8 | `t3_santacruz_street` | *May 7th, 1972: Pesce & Luchessa (18) · Locked in trunk* | Mỗi mục ở cụm từ |  |  |
+| 2-06 | `2.04#5`–`#6` | H | T8 | `t3_case_photos` | *September 14th, 1972: Aiko Koo, 15 · January 7th, 1973: Cindy Schall, 18* | — | ⊘ |  |
+| 2-07 | `2.04#7`–`#8` | H | T1 | `t3_car_door` | **SHE NEVER RETURNED HOME** → `#8`: *Destroying physical traces · Evading forensic examination* | — | ⊘ |  |
 | 2-08 | `2.04#9` | H | T1 | `t3_ucsc_campus` | **TWO UCSC STUDENTS** · *Rosalind Thorpe (23 years old) & Alice Liu (21 years old)* | — |  |  |
 | 2-09 | `2.05` (nghỉ 1.5 s) | — | — | giữ 2-08 | — | — | ⊘ |  |
 | 2-10 | `2.06#1` | H | T1 | `t3_ravine` | **SANTA CRUZ MOUNTAINS** · *Remains scattered across remote ravines* | — | ⊘ |  |
@@ -66,7 +68,7 @@
 | 2-12 | `2.06#3`–`#5` | H | T1 | `t3_case_photos` | **ERASED ALL FORENSIC TRACES** · *Zero fingerprints · Zero foreign fibers · Zero witnesses* | — | →D |  |
 | 2-13 | `2.07#1` | D | T1 | `t3_under_seat` | **A MOBILE DEATH TRAP** · *Meticulous Modus Operandi (M.O.)* | — | ✦ Sói |  |
 | 2-14 | `2.07#2`–`#5` | D | T1 | `t3_galaxie` | **1969 YELLOW FORD GALAXIE** · *Official UCSC parking sticker · Cultivating an illusion of total safety* | Tiêu đề ở "Ford Galaxie" |  |  |
-| 2-15 | `2.07#6`–`#7` | D | T8 | `t3_trunk` | *Trunk: plastic bags, hunting knife, blankets, handcuffs · Handcuffing one, locking the other in trunk* | — | ⊘ |  |
+| 2-15 | `2.07#6`–`#7` | D | T8 | `t3_trunk` | *Trunk prepared well in advance · Cold calculation, not spontaneous impulse* → `#7`: *First two victims: handcuffing one, locking the other in the trunk* | — | ⊘ |  |
 | 2-16 | `2.07#8`–`#9` | D | T1 | `t3_case_file` | *Three firearms and over 200 rounds of ammunition in rented car in Reno, Nevada* | — |  |  |
 | 2-17 | `2.07#10`–`#12` | D | T3 so sánh | `t3_bar_stool_shadow` | *Towering six-foot-nine frame* · **AN INTELLECTUAL FACADE & CALCULATED CHARM** · *Soft-spoken, glasses, impeccably dressed* | Cột phải ở `#12` |  |  |
 | 2-18 | `2.07#13`–`#14` | D | T5 | `t3_hitchhiker` | **150** · *Practice runs offering rides to hitchhikers before ever striking* | Số đếm 0 → 150 |  |  |
@@ -86,7 +88,7 @@
 | 3-09 | `3.06` (nghỉ 1.5 s) | — | — | giữ 3-08 | — | — | ⊘ |  |
 | 3-10 | `3.07#1` | H | T1 | `t3_mother_shadow` mờ | *HOW DID THIS SIMMERING RESENTMENT ESCALATE AS HE REACHED ADOLESCENCE?* | — | →C |  |
 | 3-11 | `3.08#1`–`#3` | C | T9 `2/3` | `t3_atascadero` | **LAYER 02: MECHANISM OF PROJECTION** · *Proxy Victims* | — | 🅑 |  |
-| 3-12 | `3.08#4`–`#6` | C | T8 | `t3_textbooks` | *Atascadero State Hospital: FIVE YEARS · Mastered the MMPI test, devised own scoring criteria · Released on 21st birthday* | Mỗi mục ở cụm từ |  |  |
+| 3-12 | `3.08#4`–`#6` | C | T8 | `t3_textbooks` | *Atascadero State Hospital: FIVE YEARS · Devised own MMPI scoring scales · Released on 21st birthday* | Mỗi mục ở cụm từ |  |  |
 | 3-13 | `3.08#7`–`#9` | C | T3 so sánh | `t3_mother_shadow` | *His mother: the towering monument of hatred & fear* · **THE PSYCHE SEEKING SUBSTITUTE TARGETS** | Cột phải ở `#8` |  |  |
 | 3-14 | `3.08#10`–`#13` | C | T1 | `t3_ucsc_campus` | **THE PROXY VICTIMS** · *Living embodiments of the social freedom he craved* | — | ⊘ |  |
 | 3-15 | `3.09` (nghỉ 2 s) | — | — | giữ 3-14 | — | — | ⊘ |  |
@@ -101,7 +103,7 @@
 | 4-04 | `4.03` (nghỉ 1.5 s) | — | — | giữ 4-03 | — | — | ⊘ |  |
 | 4-05 | `4.04#1` | H | T1 | `t3_fbi_corridor`, `push` | *LISTEN:* **AN FBI AGENT RECOUNTS THE HISTORIC INTERVIEW** | — | →D |  |
 | 4-06 | `4.05#1`–`#3` | D | T1 | `t3_giant_doorway` | **HE WAS COLOSSAL — FILLING THE ENTIRE DOORWAY** → `#3`: *Speaking with the measured tone of a university professor* | — | ✦ Sói |  |
-| 4-07 | `4.05#4`–`#7` | D | T1 | `t3_interview_room` | *IQ 145 · Fearing he might be smarter than us* → `#7`: *Crying only when speaking of his mother* | — |  |  |
+| 4-07 | `4.05#4`–`#7` | D | T1 | `t3_interview_room` | *IQ 145 · Worried he was outthinking us* → `#6`: *Calm, composed, articulate, emotionally detached* | — |  |  |
 | 4-08 | `4.05#8`–`#11` | D | T1 | `t3_cassette` | **INTERVIEWS SPANNING HOURS AT A TIME** · *Across multiple sessions over several years* | — | 🅑 |  |
 | 4-09 | `4.05#12`–`#15` | D | T4 lời kể | `t3_interview_room` | “After that, I hope I can find some way to help others…” | — |  |  |
 | 4-10 | `4.05#16`–`#19` | D | T2 | `t3_fbi_corridor` | *CRIMINAL PERSONALITY RESEARCH PROJECT* · **36 INCARCERATED SEXUAL MURDERERS** · *VICAP network 1985* | Lật sổ (SFX `4.06`) ở đầu |  |  |
@@ -121,7 +123,7 @@
 | 5-06 | `5.03` (nghỉ 2 s) | — | — | giữ 5-05 | — | — | ⊘ |  |
 | 5-07 | `5.04#1` | H | T1 | `t3_red_flags` | **FOUR BEHAVIORAL RED FLAGS** · *Recognizing early markers of catastrophic violence* | — | →C+D |  |
 | 5-08 | `5.05#1`–`#3` | C | T9 `1/4` | `t3_red_flags` | **RED FLAG 01: THE MACDONALD TRIAD** · *Animal cruelty · Fire-setting · Persistent enuresis* | — | ✦ Cáo |  |
-| 5-09 | `5.05#4`–`#6` | C | T1 | `t3_small_bed` | **REPEATED ANIMAL CRUELTY** · *Burying family cat alive at age TEN · Early manifestation of profound callousness* | — | ⊘ |  |
+| 5-09 | `5.05#4`–`#6` | C | T1 | `t3_small_bed` | **REPEATED ANIMAL CRUELTY** · *Mistreating a family cat at age TEN · Repeated three years later* → `#6`: *Early warning sign of profound empathy deficits* | — | ⊘ |  |
 | 5-10 | `5.05#7`–`#8` | C | T9 `2/4` | `t3_basement_stairs` | **RED FLAG 02: EXTREME PSYCHOLOGICAL ABUSE** · *Confined isolation, systematic emotional humiliation* | — |  |  |
 | 5-11 | `5.06#1`–`#2` | D | T9 `3/4` | `t3_fantasy_spiral` | **RED FLAG 03: ESCALATING VIOLENT FANTASIES** · *Immersion in fantasies of coercive domination* | — | ✦ Sói |  |
 | 5-12 | `5.06#3`–`#4` | D | T9 `4/4` | `t3_self_observation` | **RED FLAG 04: HIGH INTELLECT & SHALLOW AFFECT** · *The armor of psychopathic detachment* | — |  |  |

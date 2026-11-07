@@ -3,7 +3,7 @@
   "id": "1.01",
   "act": 1,
   "kind": "BGM",
-  "desc": "*Tiếng Dark Ambient âm u, tiếng nhịp tim đập chậm và tiếng tích tắc đồng hồ kim loại ngột ngạt.*"
+  "desc": "*Tiếng Dark Ambient âm u, tiếng nhịp trống trầm chậm và tiếng tích tắc đồng hồ kim loại ngột ngạt.*"
  },
  {
   "id": "1.02",
@@ -11,7 +11,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "giọng trầm, mở đầu câu chuyện với sức nặng tâm lý",
-  "text": "Vào những ngày cuối tháng 6 năm 2011, một bầu không khí u ám và căng thẳng bao trùm lên khuôn viên Trường Luật Mercer thuộc thành phố Macon, bang Georgia. Nữ sinh hai mươi lăm tuổi Lauren Giddings, một cử nhân luật ưu tú, vừa hoàn thành kỳ thi tốt nghiệp và chuẩn bị chuyển đến Atlanta, bỗng nhiên mất tích một cách bí ẩn. Cửa căn hộ của cô tại khu chung cư Barristers Hall không hề có dấu hiệu cạy phá, điện thoại, ví tiền và chìa khóa xe vẫn còn nguyên vẹn bên trong phòng khách. Suốt bốn ngày đêm, gia đình, bạn bè và lực lượng cảnh sát địa phương đã lùng sục khắp các góc phố nhưng không tìm thấy bất kỳ dấu vết nào của cô gái trẻ. Giữa lúc sự lo lắng lên đến đỉnh điểm, các cơ quan báo chí truyền hình đã đổ dồn về khu chung cư để đưa tin về vụ mất tích đầy bí ẩn. Tại đây, một người hàng xóm sống ngay cạnh phòng Lauren đã chủ động bước ra trước ống kính máy quay với vẻ ngoài vô cùng sốt sắng.",
+  "text": "Vào những ngày cuối tháng 6 năm 2011, một bầu không khí u ám và căng thẳng bao trùm lên khuôn viên Trường Luật Mercer thuộc thành phố Macon, bang Georgia. Lauren Giddings, hai mươi bảy tuổi, vừa tốt nghiệp xuất sắc trường luật và đang ôn thi luật sư, bỗng nhiên mất tích một cách bí ẩn. Cửa căn hộ của cô tại khu chung cư Barristers Hall không hề có bất kỳ dấu hiệu cạy phá nào. Gia đình và bạn bè không liên lạc được với cô suốt nhiều ngày, khiến sự lo lắng nhanh chóng biến thành nỗi hoang tưởng tập thể bao trùm khắp trường luật. Những cử nhân luật vốn am hiểu trật tự pháp lý bỗng hoang mang tột độ, bắt đầu khóa chặt các chốt cửa trong đêm hè oi ả và nhìn nhau bằng ánh mắt nghi ngại. Dư chấn xã hội lan rộng khi các cơ quan báo chí truyền hình đồng loạt đổ dồn về khu chung cư đối diện trường luật để đưa tin về vụ mất tích đầy bí ẩn. Tại đây, một người hàng xóm sống ngay căn hộ đối diện với phòng Lauren đã chủ động bước ra trước ống kính máy quay với vẻ ngoài vô cùng sốt sắng. Người thanh niên trẻ tuổi ấy tỏ ra hết sức nhiệt thành, tự nhận mình là người bạn thân thiết luôn dõi theo sự an nguy của cô gái mất tích.",
   "sentences": [
    {
     "id": "1.02#1",
@@ -20,28 +20,38 @@
    },
    {
     "id": "1.02#2",
-    "text": "Nữ sinh hai mươi lăm tuổi Lauren Giddings, một cử nhân luật ưu tú, vừa hoàn thành kỳ thi tốt nghiệp và chuẩn bị chuyển đến Atlanta, bỗng nhiên mất tích một cách bí ẩn.",
-    "words": 35
+    "text": "Lauren Giddings, hai mươi bảy tuổi, vừa tốt nghiệp xuất sắc trường luật và đang ôn thi luật sư, bỗng nhiên mất tích một cách bí ẩn.",
+    "words": 27
    },
    {
     "id": "1.02#3",
-    "text": "Cửa căn hộ của cô tại khu chung cư Barristers Hall không hề có dấu hiệu cạy phá, điện thoại, ví tiền và chìa khóa xe vẫn còn nguyên vẹn bên trong phòng khách.",
-    "words": 34
+    "text": "Cửa căn hộ của cô tại khu chung cư Barristers Hall không hề có bất kỳ dấu hiệu cạy phá nào.",
+    "words": 21
    },
    {
     "id": "1.02#4",
-    "text": "Suốt bốn ngày đêm, gia đình, bạn bè và lực lượng cảnh sát địa phương đã lùng sục khắp các góc phố nhưng không tìm thấy bất kỳ dấu vết nào của cô gái trẻ.",
-    "words": 35
+    "text": "Gia đình và bạn bè không liên lạc được với cô suốt nhiều ngày, khiến sự lo lắng nhanh chóng biến thành nỗi hoang tưởng tập thể bao trùm khắp trường luật.",
+    "words": 32
    },
    {
     "id": "1.02#5",
-    "text": "Giữa lúc sự lo lắng lên đến đỉnh điểm, các cơ quan báo chí truyền hình đã đổ dồn về khu chung cư để đưa tin về vụ mất tích đầy bí ẩn.",
-    "words": 33
+    "text": "Những cử nhân luật vốn am hiểu trật tự pháp lý bỗng hoang mang tột độ, bắt đầu khóa chặt các chốt cửa trong đêm hè oi ả và nhìn nhau bằng ánh mắt nghi ngại.",
+    "words": 36
    },
    {
     "id": "1.02#6",
-    "text": "Tại đây, một người hàng xóm sống ngay cạnh phòng Lauren đã chủ động bước ra trước ống kính máy quay với vẻ ngoài vô cùng sốt sắng.",
-    "words": 28
+    "text": "Dư chấn xã hội lan rộng khi các cơ quan báo chí truyền hình đồng loạt đổ dồn về khu chung cư đối diện trường luật để đưa tin về vụ mất tích đầy bí ẩn.",
+    "words": 36
+   },
+   {
+    "id": "1.02#7",
+    "text": "Tại đây, một người hàng xóm sống ngay căn hộ đối diện với phòng Lauren đã chủ động bước ra trước ống kính máy quay với vẻ ngoài vô cùng sốt sắng.",
+    "words": 32
+   },
+   {
+    "id": "1.02#8",
+    "text": "Người thanh niên trẻ tuổi ấy tỏ ra hết sức nhiệt thành, tự nhận mình là người bạn thân thiết luôn dõi theo sự an nguy của cô gái mất tích.",
+    "words": 31
    }
   ]
  },
@@ -57,7 +67,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "nhấn mạnh chân dung người hàng xóm lập dị",
-  "text": "Người thanh niên ấy là Stephen McDaniel, hai mươi lăm tuổi, cũng là bạn cùng lớp tốt nghiệp trường luật với Lauren và sống tại căn hộ đối diện. Với mái tóc dài rối bù, chiếc kính cận dày và giọng nói rụt rè, McDaniel nhiệt tình đóng vai một người bạn đầy trách nhiệm và đồng cảm. Trước ống kính của nữ phóng viên Michelle Casada thuộc đài truyền hình WGXA, hắn say sưa kể về mối quan hệ hàng xóm thân thiết suốt ba năm qua. Hắn bày tỏ sự lo lắng tột cùng và thậm chí còn đưa ra những suy đoán giúp định hướng dư luận, rằng Lauren có thể đã bị một kẻ lạ mặt bắt cóc khi đang chạy bộ buổi tối. McDaniel cố gắng khắc họa bản thân như một nhân chứng nhiệt thành, một trí thức trẻ đang hết lòng hỗ trợ việc tìm kiếm người bạn gái mất tích. Mọi ánh nhìn và sự chú ý của nhóm phóng viên ban đầu đều dành cho sự chia sẻ chân thành của người hàng xóm tận tụy. Nhưng rồi, một sự việc hoàn toàn nằm ngoài mọi kịch bản tính toán của hắn đã bất ngờ ập đến ngay trong lúc cuộc phỏng vấn đang diễn ra.",
+  "text": "Người thanh niên ấy là Stephen McDaniel, hai mươi lăm tuổi, cũng là bạn cùng lớp tốt nghiệp trường luật với Lauren và sống tại căn hộ đối diện. Với mái tóc dài rối bù, chiếc kính cận dày và giọng nói rụt rè, McDaniel nhiệt tình đóng vai một người bạn đầy trách nhiệm và đồng cảm. Trước ống kính của đài truyền hình địa phương WGXA, hắn say sưa kể về mối quan hệ hàng xóm và những lần gặp gỡ gần đây. Hắn bày tỏ sự lo lắng tột cùng và tha thiết mong mỏi cô bạn hàng xóm sớm trở về an toàn. McDaniel cố gắng khắc họa bản thân như một nhân chứng nhiệt thành, một trí thức trẻ đang hết lòng hỗ trợ lực lượng cảnh sát trong công tác tìm kiếm. Trong mắt bạn bè cùng khóa, McDaniel luôn được xem là một chàng sinh viên kỳ quặc nhưng vô hại, chỉ biết vùi đầu vào sách vở. Chính hiệu ứng bình thường hóa ấy đã tạo nên một tấm khiên che mắt xã hội hoàn hảo, khiến không một ai nghi ngờ sự nguy hiểm ẩn sau vẻ ngoài ngơ ngác của hắn. Nhưng rồi, một sự việc hoàn toàn nằm ngoài mọi kịch bản tính toán của hắn đã bất ngờ ập đến ngay trong lúc cuộc phỏng vấn đang diễn ra trực tiếp.",
   "sentences": [
    {
     "id": "1.04#1",
@@ -71,28 +81,33 @@
    },
    {
     "id": "1.04#3",
-    "text": "Trước ống kính của nữ phóng viên Michelle Casada thuộc đài truyền hình WGXA, hắn say sưa kể về mối quan hệ hàng xóm thân thiết suốt ba năm qua.",
-    "words": 30
+    "text": "Trước ống kính của đài truyền hình địa phương WGXA, hắn say sưa kể về mối quan hệ hàng xóm và những lần gặp gỡ gần đây.",
+    "words": 27
    },
    {
     "id": "1.04#4",
-    "text": "Hắn bày tỏ sự lo lắng tột cùng và thậm chí còn đưa ra những suy đoán giúp định hướng dư luận, rằng Lauren có thể đã bị một kẻ lạ mặt bắt cóc khi đang chạy bộ buổi tối.",
-    "words": 40
+    "text": "Hắn bày tỏ sự lo lắng tột cùng và tha thiết mong mỏi cô bạn hàng xóm sớm trở về an toàn.",
+    "words": 22
    },
    {
     "id": "1.04#5",
-    "text": "McDaniel cố gắng khắc họa bản thân như một nhân chứng nhiệt thành, một trí thức trẻ đang hết lòng hỗ trợ việc tìm kiếm người bạn gái mất tích.",
-    "words": 30
+    "text": "McDaniel cố gắng khắc họa bản thân như một nhân chứng nhiệt thành, một trí thức trẻ đang hết lòng hỗ trợ lực lượng cảnh sát trong công tác tìm kiếm.",
+    "words": 31
    },
    {
     "id": "1.04#6",
-    "text": "Mọi ánh nhìn và sự chú ý của nhóm phóng viên ban đầu đều dành cho sự chia sẻ chân thành của người hàng xóm tận tụy.",
+    "text": "Trong mắt bạn bè cùng khóa, McDaniel luôn được xem là một chàng sinh viên kỳ quặc nhưng vô hại, chỉ biết vùi đầu vào sách vở.",
     "words": 27
    },
    {
     "id": "1.04#7",
-    "text": "Nhưng rồi, một sự việc hoàn toàn nằm ngoài mọi kịch bản tính toán của hắn đã bất ngờ ập đến ngay trong lúc cuộc phỏng vấn đang diễn ra.",
-    "words": 30
+    "text": "Chính hiệu ứng bình thường hóa ấy đã tạo nên một tấm khiên che mắt xã hội hoàn hảo, khiến không một ai nghi ngờ sự nguy hiểm ẩn sau vẻ ngoài ngơ ngác của hắn.",
+    "words": 36
+   },
+   {
+    "id": "1.04#8",
+    "text": "Nhưng rồi, một sự việc hoàn toàn nằm ngoài mọi kịch bản tính toán của hắn đã bất ngờ ập đến ngay trong lúc cuộc phỏng vấn đang diễn ra trực tiếp.",
+    "words": 32
    }
   ]
  },
@@ -108,17 +123,17 @@
   "kind": "LOI",
   "role": "H",
   "direction": "tiết tấu nhanh, nghẹt thở",
-  "text": "Trong khi máy quay vẫn đang chạy, nữ phóng viên bất ngờ nhận được tin báo nóng từ phía các cảnh sát đang phong tỏa khu vực bãi đỗ xe phía sau tòa nhà. Cô quay lại phía người thanh niên và thông báo rằng lực lượng chức năng vừa phát hiện một phần thi thể người bị giấu bên trong thùng rác chung của khu chung cư. Lời thông báo ngắn gọn ấy tựa như một tiếng sét xé toạc bầu không khí yên tĩnh của buổi trưa hè oi ả. Toàn bộ lớp vỏ bọc bình tĩnh, hòa nhã và tự tin của Stephen McDaniel ngay lập tức bị giáng một đòn chí mạng. Ống kính máy quay truyền hình đã vô tình bắt trọn khoảnh khắc một khuôn mặt biến sắc và sự sụp đổ tâm lý chân thực đến rợn người.",
+  "text": "Trong khi máy quay vẫn đang chạy, nữ phóng viên bất ngờ nhận được tin báo nóng từ phía các điều tra viên đang phong tỏa khu vực bãi đỗ xe phía sau tòa nhà. Cô quay lại phía người thanh niên và cho biết cảnh sát vừa có phát hiện đau lòng trong một thùng rác ngay bên ngoài khu chung cư. Lời thông báo ngắn gọn ấy tựa như một tiếng sét xé toạc bầu không khí yên tĩnh của buổi trưa hè oi ả. Toàn bộ lớp vỏ bọc bình tĩnh, hòa nhã và tự tin của Stephen McDaniel ngay lập tức vỡ vụn thành từng mảnh. Ống kính máy quay truyền hình đã vô tình bắt trọn khoảnh khắc một khuôn mặt biến sắc hoàn toàn và sự sụp đổ tâm lý chân thực đến rợn người. Toan tính phi tang của một kẻ tự phụ đã bị phá sản hoàn toàn chỉ bởi một chi tiết bất ngờ nằm ngoài dự kiến. Hãy hình dung cảm giác bàng hoàng của một người bạn học cùng khóa khi chứng kiến khoảnh khắc ấy.",
   "sentences": [
    {
     "id": "1.06#1",
-    "text": "Trong khi máy quay vẫn đang chạy, nữ phóng viên bất ngờ nhận được tin báo nóng từ phía các cảnh sát đang phong tỏa khu vực bãi đỗ xe phía sau tòa nhà.",
-    "words": 34
+    "text": "Trong khi máy quay vẫn đang chạy, nữ phóng viên bất ngờ nhận được tin báo nóng từ phía các điều tra viên đang phong tỏa khu vực bãi đỗ xe phía sau tòa nhà.",
+    "words": 35
    },
    {
     "id": "1.06#2",
-    "text": "Cô quay lại phía người thanh niên và thông báo rằng lực lượng chức năng vừa phát hiện một phần thi thể người bị giấu bên trong thùng rác chung của khu chung cư.",
-    "words": 34
+    "text": "Cô quay lại phía người thanh niên và cho biết cảnh sát vừa có phát hiện đau lòng trong một thùng rác ngay bên ngoài khu chung cư.",
+    "words": 28
    },
    {
     "id": "1.06#3",
@@ -127,13 +142,23 @@
    },
    {
     "id": "1.06#4",
-    "text": "Toàn bộ lớp vỏ bọc bình tĩnh, hòa nhã và tự tin của Stephen McDaniel ngay lập tức bị giáng một đòn chí mạng.",
-    "words": 24
+    "text": "Toàn bộ lớp vỏ bọc bình tĩnh, hòa nhã và tự tin của Stephen McDaniel ngay lập tức vỡ vụn thành từng mảnh.",
+    "words": 23
    },
    {
     "id": "1.06#5",
-    "text": "Ống kính máy quay truyền hình đã vô tình bắt trọn khoảnh khắc một khuôn mặt biến sắc và sự sụp đổ tâm lý chân thực đến rợn người.",
-    "words": 29
+    "text": "Ống kính máy quay truyền hình đã vô tình bắt trọn khoảnh khắc một khuôn mặt biến sắc hoàn toàn và sự sụp đổ tâm lý chân thực đến rợn người.",
+    "words": 31
+   },
+   {
+    "id": "1.06#6",
+    "text": "Toan tính phi tang của một kẻ tự phụ đã bị phá sản hoàn toàn chỉ bởi một chi tiết bất ngờ nằm ngoài dự kiến.",
+    "words": 26
+   },
+   {
+    "id": "1.06#7",
+    "text": "Hãy hình dung cảm giác bàng hoàng của một người bạn học cùng khóa khi chứng kiến khoảnh khắc ấy.",
+    "words": 20
    }
   ]
  },
@@ -143,42 +168,47 @@
   "kind": "LOI",
   "role": "N",
   "direction": "N1: Bạn học Trường Luật Mercer, giọng nữ bàng hoàng, xúc động",
-  "text": "Khi Lauren không đến buổi ôn thi và không trả lời tin nhắn, tất cả chúng tôi đều biết chắc chắn đã có điều gì đó tồi tệ xảy ra với cô ấy. Lauren là một người vô cùng chu đáo, luôn tràn đầy năng lượng tích cực và chưa bao giờ biến mất mà không báo trước cho ai. Chúng tôi đã cùng nhau đi gõ cửa từng căn hộ, in tờ rơi tìm kiếm và dán khắp các ngả đường quanh trường luật. Khi thấy Stephen đứng trả lời phỏng vấn truyền hình, tôi từng nghĩ cậu ta chỉ là một người bạn cùng lớp đang muốn giúp đỡ. Nhưng giây phút phóng viên nhắc đến việc cảnh sát tìm thấy thi thể dưới thùng rác, biểu cảm của Stephen khiến tôi nổi da gà. Cậu ta không hề thể hiện sự bàng hoàng hay đau đớn như một người bạn thực sự, mà khuôn mặt hoàn toàn đờ đẫn trong nỗi sợ hãi tột cùng. Đôi mắt cậu ta trợn trừng, chân run rẩy không đứng vững và phải quỵ xuống lề đường như thể một bí mật kinh hoàng vừa bị phơi bày.",
+  "text": "Khi Lauren không đến buổi ôn thi và không trả lời bất kỳ tin nhắn nào, tất cả chúng tôi đều biết chắc chắn đã có điều gì đó tồi tệ xảy ra với cô ấy. Lauren là một con người vô cùng chu đáo, luôn tràn đầy năng lượng tích cực, thông minh và chưa bao giờ biến mất mà không báo trước cho ai. Cô ấy là thủ lĩnh sinh viên được mọi người yêu mến, luôn sẵn lòng giúp đỡ bạn bè với nụ cười rạng rỡ và một tương lai luật sư rộng mở phía trước. Chúng tôi đã cùng nhau đi gõ cửa từng căn hộ trong khu Barristers Hall, in hàng trăm tờ rơi tìm kiếm và dán khắp các ngả đường quanh trường luật. Khi thấy Stephen đứng trả lời phỏng vấn truyền hình, tôi từng nghĩ cậu ta chỉ là một người bạn cùng lớp kỳ quặc đang muốn giúp đỡ như bao người khác. Nhưng giây phút phóng viên nhắc đến phát hiện trong thùng rác, biểu cảm của Stephen khiến tất cả chúng tôi phải nổi da gà vì kinh hãi. Cậu ta không hề thể hiện sự bàng hoàng hay đau đớn như một người bạn thực sự, mà khuôn mặt hoàn toàn đờ đẫn trong nỗi sợ hãi tột cùng của kẻ bị bắt quả tang. Cậu ta lặng đi rồi khuỵu xuống lề đường, như thể một bí mật kinh hoàng vừa bị phơi bày trước ánh sáng công lý.",
   "sentences": [
    {
     "id": "1.07#1",
-    "text": "Khi Lauren không đến buổi ôn thi và không trả lời tin nhắn, tất cả chúng tôi đều biết chắc chắn đã có điều gì đó tồi tệ xảy ra với cô ấy.",
-    "words": 33
+    "text": "Khi Lauren không đến buổi ôn thi và không trả lời bất kỳ tin nhắn nào, tất cả chúng tôi đều biết chắc chắn đã có điều gì đó tồi tệ xảy ra với cô ấy.",
+    "words": 36
    },
    {
     "id": "1.07#2",
-    "text": "Lauren là một người vô cùng chu đáo, luôn tràn đầy năng lượng tích cực và chưa bao giờ biến mất mà không báo trước cho ai.",
-    "words": 27
+    "text": "Lauren là một con người vô cùng chu đáo, luôn tràn đầy năng lượng tích cực, thông minh và chưa bao giờ biến mất mà không báo trước cho ai.",
+    "words": 30
    },
    {
     "id": "1.07#3",
-    "text": "Chúng tôi đã cùng nhau đi gõ cửa từng căn hộ, in tờ rơi tìm kiếm và dán khắp các ngả đường quanh trường luật.",
-    "words": 25
+    "text": "Cô ấy là thủ lĩnh sinh viên được mọi người yêu mến, luôn sẵn lòng giúp đỡ bạn bè với nụ cười rạng rỡ và một tương lai luật sư rộng mở phía trước.",
+    "words": 34
    },
    {
     "id": "1.07#4",
-    "text": "Khi thấy Stephen đứng trả lời phỏng vấn truyền hình, tôi từng nghĩ cậu ta chỉ là một người bạn cùng lớp đang muốn giúp đỡ.",
-    "words": 26
-   },
-   {
-    "id": "1.07#5",
-    "text": "Nhưng giây phút phóng viên nhắc đến việc cảnh sát tìm thấy thi thể dưới thùng rác, biểu cảm của Stephen khiến tôi nổi da gà.",
-    "words": 26
-   },
-   {
-    "id": "1.07#6",
-    "text": "Cậu ta không hề thể hiện sự bàng hoàng hay đau đớn như một người bạn thực sự, mà khuôn mặt hoàn toàn đờ đẫn trong nỗi sợ hãi tột cùng.",
+    "text": "Chúng tôi đã cùng nhau đi gõ cửa từng căn hộ trong khu Barristers Hall, in hàng trăm tờ rơi tìm kiếm và dán khắp các ngả đường quanh trường luật.",
     "words": 31
    },
    {
+    "id": "1.07#5",
+    "text": "Khi thấy Stephen đứng trả lời phỏng vấn truyền hình, tôi từng nghĩ cậu ta chỉ là một người bạn cùng lớp kỳ quặc đang muốn giúp đỡ như bao người khác.",
+    "words": 32
+   },
+   {
+    "id": "1.07#6",
+    "text": "Nhưng giây phút phóng viên nhắc đến phát hiện trong thùng rác, biểu cảm của Stephen khiến tất cả chúng tôi phải nổi da gà vì kinh hãi.",
+    "words": 28
+   },
+   {
     "id": "1.07#7",
-    "text": "Đôi mắt cậu ta trợn trừng, chân run rẩy không đứng vững và phải quỵ xuống lề đường như thể một bí mật kinh hoàng vừa bị phơi bày.",
-    "words": 29
+    "text": "Cậu ta không hề thể hiện sự bàng hoàng hay đau đớn như một người bạn thực sự, mà khuôn mặt hoàn toàn đờ đẫn trong nỗi sợ hãi tột cùng của kẻ bị bắt quả tang.",
+    "words": 37
+   },
+   {
+    "id": "1.07#8",
+    "text": "Cậu ta lặng đi rồi khuỵu xuống lề đường, như thể một bí mật kinh hoàng vừa bị phơi bày trước ánh sáng công lý.",
+    "words": 25
    }
   ]
  },
@@ -194,37 +224,47 @@
   "kind": "LOI",
   "role": "H",
   "direction": "chuyển giọng sắc lạnh, phân tích cú sốc tâm lý",
-  "text": "Phản ứng sinh lý học của Stephen McDaniel trước tin dữ đã trở thành một trong những thước phim được giới phân tích tâm lý học tội phạm nghiên cứu nhiều nhất. Hắn lắp bắp nhắc lại từ ngữ thi thể với giọng nghẹn đặc, lồng ngực phập phồng và ánh mắt đảo liên hồi trong trạng thái hoảng loạn tột độ. Hắn run rẩy thốt lên câu nói nổi tiếng rằng mình cần phải ngồi xuống lề đường trước khi hai đầu gối hoàn toàn khuỵu xuống mặt đất. Trực giác nghề nghiệp của các điều tra viên Sở Cảnh sát Macon có mặt tại hiện trường lập tức nhận ra dấu hiệu bất thường phía sau phản ứng thái quá ấy. Một người vô tội khi nghe tin bạn mình qua đời sẽ bộc lộ nỗi tiếc thương, đau xót hoặc bàng hoàng, chứ không bao giờ thể hiện nỗi sợ hãi của kẻ bị bắt quả tang. Và chỉ ít giờ sau khoảnh khắc trên sóng truyền hình, Stephen McDaniel đã được mời về đồn cảnh sát để phục vụ công tác điều tra.",
+  "text": "Phản ứng sinh lý học của Stephen McDaniel trước tin dữ đã trở thành một trong những thước phim kinh điển được giới phân tích tâm lý học tội phạm nghiên cứu nhiều nhất. Hắn lặp lại lời phóng viên với giọng nghẹn đặc, ánh mắt đảo liên hồi trong trạng thái hoảng loạn tột độ. Rồi hắn ngồi thụp xuống bậc thềm lề đường, hai tay ôm đầu, hoàn toàn mất khả năng duy trì vẻ bình tĩnh trước máy quay. Một người vô tội khi nghe tin bạn mình gặp nạn sẽ bộc lộ nỗi tiếc thương, đau xót hoặc đòi hỏi thông tin, chứ không bao giờ thể hiện nỗi kinh hoàng của kẻ vừa bị phá sản kế hoạch. McDaniel đã tính toán rằng xe thu gom rác của thành phố sẽ cuốn trôi mọi dấu vết tội ác trước khi cảnh sát kịp mở rộng phạm vi tìm kiếm. Sự chậm trễ tình cờ của chiếc xe gom rác đã trở thành điểm gãy bất ngờ đánh sập hoàn toàn cấu trúc che đậy tinh vi của kẻ thủ ác. Trực giác nghề nghiệp của các điều tra viên Sở Cảnh sát Macon có mặt tại hiện trường lập tức nhận ra dấu hiệu bất thường phía sau phản ứng thái quá ấy. Ngay sau khoảnh khắc trên sóng truyền hình, Stephen McDaniel được yêu cầu về đồn cảnh sát để phục vụ công tác điều tra khẩn cấp.",
   "sentences": [
    {
     "id": "1.09#1",
-    "text": "Phản ứng sinh lý học của Stephen McDaniel trước tin dữ đã trở thành một trong những thước phim được giới phân tích tâm lý học tội phạm nghiên cứu nhiều nhất.",
-    "words": 32
+    "text": "Phản ứng sinh lý học của Stephen McDaniel trước tin dữ đã trở thành một trong những thước phim kinh điển được giới phân tích tâm lý học tội phạm nghiên cứu nhiều nhất.",
+    "words": 34
    },
    {
     "id": "1.09#2",
-    "text": "Hắn lắp bắp nhắc lại từ ngữ thi thể với giọng nghẹn đặc, lồng ngực phập phồng và ánh mắt đảo liên hồi trong trạng thái hoảng loạn tột độ.",
-    "words": 30
+    "text": "Hắn lặp lại lời phóng viên với giọng nghẹn đặc, ánh mắt đảo liên hồi trong trạng thái hoảng loạn tột độ.",
+    "words": 22
    },
    {
     "id": "1.09#3",
-    "text": "Hắn run rẩy thốt lên câu nói nổi tiếng rằng mình cần phải ngồi xuống lề đường trước khi hai đầu gối hoàn toàn khuỵu xuống mặt đất.",
-    "words": 28
+    "text": "Rồi hắn ngồi thụp xuống bậc thềm lề đường, hai tay ôm đầu, hoàn toàn mất khả năng duy trì vẻ bình tĩnh trước máy quay.",
+    "words": 26
    },
    {
     "id": "1.09#4",
+    "text": "Một người vô tội khi nghe tin bạn mình gặp nạn sẽ bộc lộ nỗi tiếc thương, đau xót hoặc đòi hỏi thông tin, chứ không bao giờ thể hiện nỗi kinh hoàng của kẻ vừa bị phá sản kế hoạch.",
+    "words": 41
+   },
+   {
+    "id": "1.09#5",
+    "text": "McDaniel đã tính toán rằng xe thu gom rác của thành phố sẽ cuốn trôi mọi dấu vết tội ác trước khi cảnh sát kịp mở rộng phạm vi tìm kiếm.",
+    "words": 31
+   },
+   {
+    "id": "1.09#6",
+    "text": "Sự chậm trễ tình cờ của chiếc xe gom rác đã trở thành điểm gãy bất ngờ đánh sập hoàn toàn cấu trúc che đậy tinh vi của kẻ thủ ác.",
+    "words": 31
+   },
+   {
+    "id": "1.09#7",
     "text": "Trực giác nghề nghiệp của các điều tra viên Sở Cảnh sát Macon có mặt tại hiện trường lập tức nhận ra dấu hiệu bất thường phía sau phản ứng thái quá ấy.",
     "words": 33
    },
    {
-    "id": "1.09#5",
-    "text": "Một người vô tội khi nghe tin bạn mình qua đời sẽ bộc lộ nỗi tiếc thương, đau xót hoặc bàng hoàng, chứ không bao giờ thể hiện nỗi sợ hãi của kẻ bị bắt quả tang.",
-    "words": 37
-   },
-   {
-    "id": "1.09#6",
-    "text": "Và chỉ ít giờ sau khoảnh khắc trên sóng truyền hình, Stephen McDaniel đã được mời về đồn cảnh sát để phục vụ công tác điều tra.",
-    "words": 27
+    "id": "1.09#8",
+    "text": "Ngay sau khoảnh khắc trên sóng truyền hình, Stephen McDaniel được yêu cầu về đồn cảnh sát để phục vụ công tác điều tra khẩn cấp.",
+    "words": 26
    }
   ]
  },
@@ -233,13 +273,13 @@
   "act": 1,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Thám tử David Patterson, giọng nam trung niên, sắc sảo, đanh thép",
-  "text": "Ngay khi xem lại đoạn băng phỏng vấn của đài truyền hình địa phương, tôi và đồng đội đã nhận ra những tín hiệu cảnh báo đỏ vô cùng rõ ràng. Sự thay đổi đột ngột từ trạng thái thao thao bất tuyệt sang tình trạng tê liệt toàn thân cho thấy một cú sốc nhận thức cực mạnh vừa giáng xuống tâm trí hắn. Chúng tôi biết rằng chiếc thùng rác lớn phía sau tòa nhà lẽ ra đã được xe gom rác của thành phố đến chở đi vào sáng sớm ngày hôm đó, nhưng lịch trình đã bị hoãn lại đột xuất. Kẻ thủ ác tin rằng bằng chứng tội ác đã vĩnh viễn biến mất tại bãi rác trung tâm, và việc thi thể bất ngờ bị phát hiện đã làm phá sản toàn bộ kế hoạch phi tang hoàn hảo của hắn. Chúng tôi quyết định đưa McDaniel vào phòng hỏi cung ngay trong đêm để bóc tách từng lớp mặt nạ của gã cử nhân luật lập dị này.",
+  "direction": "D: giọng nam trung niên, sắc sảo, đanh thép",
+  "text": "Ngay khi xem lại đoạn băng phỏng vấn của đài truyền hình địa phương, tôi và các đồng đội đã nhận ra những tín hiệu cảnh báo đỏ vô cùng rõ ràng. Sự thay đổi đột ngột từ trạng thái thao thao bất tuyệt sang tình trạng tê liệt toàn thân cho thấy một cú sốc nhận thức cực mạnh vừa giáng xuống tâm trí hắn. Ánh mắt lấm lét và nhịp thở dồn dập không phải là phản ứng của sự đau buồn, mà là biểu hiện của một kẻ vừa nhận ra chiếc bẫy do chính mình giăng ra đã sập xuống. Kẻ thủ ác đinh ninh rằng mọi dấu vết đã biến mất vĩnh viễn, và phát hiện bất ngờ ngoài hiện trường đã làm tan tành ảo tưởng về một tội ác hoàn hảo. Hãy hình dung góc nhìn của một điều tra viên khi quan sát từng biến đổi cơ mặt và nhịp thở run rẩy của nghi phạm trong khoảnh khắc ấy. Hắn không hề hỏi xem nạn nhân còn cơ hội sống sót hay không, mà chỉ lập tức tìm cách ngồi thụp xuống để che giấu sự run rẩy mất kiểm soát của đôi chân. Chúng tôi quyết định đưa McDaniel vào phòng hỏi cung ngay trong đêm để bóc tách từng lớp mặt nạ của gã cử nhân luật lập dị này.",
   "sentences": [
    {
     "id": "1.10#1",
-    "text": "Ngay khi xem lại đoạn băng phỏng vấn của đài truyền hình địa phương, tôi và đồng đội đã nhận ra những tín hiệu cảnh báo đỏ vô cùng rõ ràng.",
-    "words": 31
+    "text": "Ngay khi xem lại đoạn băng phỏng vấn của đài truyền hình địa phương, tôi và các đồng đội đã nhận ra những tín hiệu cảnh báo đỏ vô cùng rõ ràng.",
+    "words": 32
    },
    {
     "id": "1.10#2",
@@ -248,16 +288,26 @@
    },
    {
     "id": "1.10#3",
-    "text": "Chúng tôi biết rằng chiếc thùng rác lớn phía sau tòa nhà lẽ ra đã được xe gom rác của thành phố đến chở đi vào sáng sớm ngày hôm đó, nhưng lịch trình đã bị hoãn lại đột xuất.",
-    "words": 40
+    "text": "Ánh mắt lấm lét và nhịp thở dồn dập không phải là phản ứng của sự đau buồn, mà là biểu hiện của một kẻ vừa nhận ra chiếc bẫy do chính mình giăng ra đã sập xuống.",
+    "words": 38
    },
    {
     "id": "1.10#4",
-    "text": "Kẻ thủ ác tin rằng bằng chứng tội ác đã vĩnh viễn biến mất tại bãi rác trung tâm, và việc thi thể bất ngờ bị phát hiện đã làm phá sản toàn bộ kế hoạch phi tang hoàn hảo của hắn.",
-    "words": 42
+    "text": "Kẻ thủ ác đinh ninh rằng mọi dấu vết đã biến mất vĩnh viễn, và phát hiện bất ngờ ngoài hiện trường đã làm tan tành ảo tưởng về một tội ác hoàn hảo.",
+    "words": 34
    },
    {
     "id": "1.10#5",
+    "text": "Hãy hình dung góc nhìn của một điều tra viên khi quan sát từng biến đổi cơ mặt và nhịp thở run rẩy của nghi phạm trong khoảnh khắc ấy.",
+    "words": 30
+   },
+   {
+    "id": "1.10#6",
+    "text": "Hắn không hề hỏi xem nạn nhân còn cơ hội sống sót hay không, mà chỉ lập tức tìm cách ngồi thụp xuống để che giấu sự run rẩy mất kiểm soát của đôi chân.",
+    "words": 35
+   },
+   {
+    "id": "1.10#7",
     "text": "Chúng tôi quyết định đưa McDaniel vào phòng hỏi cung ngay trong đêm để bóc tách từng lớp mặt nạ của gã cử nhân luật lập dị này.",
     "words": 28
    }
@@ -269,22 +319,27 @@
   "kind": "LOI",
   "role": "H",
   "direction": "khép lại Hồi 1, dẫn dắt sang phòng thẩm vấn",
-  "text": "Cánh cửa phòng điều tra của Sở Cảnh sát Macon khép lại, mở ra một cuộc đối đầu cân não kéo dài hàng chục giờ đồng hồ giữa pháp luật và kẻ sát nhân. Nhưng điều mà các điều tra viên sắp sửa chứng kiến bên trong căn phòng kín không phải là những lời bao biện hay sự chống cự quyết liệt. Đó là một hiện tượng tâm lý kỳ dị chưa từng có tiền lệ, biến buổi thẩm vấn thành một màn thách thức thần kinh lạnh gáy.",
+  "text": "Cánh cửa phòng điều tra của Sở Cảnh sát Macon khép lại, mở ra một cuộc đối đầu cân não kéo dài hơn mười hai giờ đồng hồ. Nhưng điều mà các điều tra viên sắp sửa chứng kiến bên trong căn phòng kín không phải là những lời bao biện hay sự chống cự quyết liệt thông thường. Đó là một hiện tượng tâm lý kỳ dị chưa từng có tiền lệ, biến buổi thẩm vấn thành một màn thách thức thần kinh lạnh gáy. Một cuộc đấu trí không khoan nhượng giữa bản lĩnh của lực lượng điều tra và sự cố thủ của một nhân cách tội phạm ngầm tinh vi.",
   "sentences": [
    {
     "id": "1.11#1",
-    "text": "Cánh cửa phòng điều tra của Sở Cảnh sát Macon khép lại, mở ra một cuộc đối đầu cân não kéo dài hàng chục giờ đồng hồ giữa pháp luật và kẻ sát nhân.",
-    "words": 34
+    "text": "Cánh cửa phòng điều tra của Sở Cảnh sát Macon khép lại, mở ra một cuộc đối đầu cân não kéo dài hơn mười hai giờ đồng hồ.",
+    "words": 28
    },
    {
     "id": "1.11#2",
-    "text": "Nhưng điều mà các điều tra viên sắp sửa chứng kiến bên trong căn phòng kín không phải là những lời bao biện hay sự chống cự quyết liệt.",
-    "words": 29
+    "text": "Nhưng điều mà các điều tra viên sắp sửa chứng kiến bên trong căn phòng kín không phải là những lời bao biện hay sự chống cự quyết liệt thông thường.",
+    "words": 31
    },
    {
     "id": "1.11#3",
     "text": "Đó là một hiện tượng tâm lý kỳ dị chưa từng có tiền lệ, biến buổi thẩm vấn thành một màn thách thức thần kinh lạnh gáy.",
     "words": 27
+   },
+   {
+    "id": "1.11#4",
+    "text": "Một cuộc đấu trí không khoan nhượng giữa bản lĩnh của lực lượng điều tra và sự cố thủ của một nhân cách tội phạm ngầm tinh vi.",
+    "words": 28
    }
   ]
  },
@@ -306,22 +361,32 @@
   "kind": "LOI",
   "role": "H",
   "direction": "tiết tấu chậm rãi, miêu tả hiện tượng bất động kỳ dị",
-  "text": "Đoạn băng ghi hình phòng thẩm vấn của Sở Cảnh sát Macon nhanh chóng trở thành một tư liệu kinh điển trong ngành khoa học hành vi của Cục Điều tra Liên bang FBI. Suốt hơn hai giờ đồng hồ liên tục, Stephen McDaniel ngồi trên chiếc ghế sắt đối diện các điều tra viên mà hầu như không hề cử động dù chỉ là một milimét. Hắn giữ nguyên một tư thế cứng đờ như một pho tượng đá, mắt nhìn trừng trừng vào một điểm vô định trên bức tường phía trước.",
+  "text": "Đoạn băng ghi hình phòng thẩm vấn của Sở Cảnh sát Macon về sau được công bố và trở thành một tư liệu nghiên cứu hành vi kinh điển. Trong nhiều đoạn kéo dài hàng tiếng đồng hồ, Stephen McDaniel ngồi đối diện các điều tra viên mà hầu như không hề có bất kỳ cử động nào. Hắn giữ nguyên một tư thế cứng đờ như một pho tượng đá giữa căn phòng kín cô lập. Hắn không hề chớp mắt theo nhịp sinh học thông thường, không đổi tư thế ngồi và kiên quyết từ chối cả việc uống nước khi được điều tra viên mời. Bầu không khí tĩnh lặng đến mức nghẹt thở, tạo nên cảm giác rợn ngợp cho bất kỳ ai theo dõi qua màn hình giám sát an ninh.",
   "sentences": [
    {
     "id": "2.02#1",
-    "text": "Đoạn băng ghi hình phòng thẩm vấn của Sở Cảnh sát Macon nhanh chóng trở thành một tư liệu kinh điển trong ngành khoa học hành vi của Cục Điều tra Liên bang FBI.",
-    "words": 34
+    "text": "Đoạn băng ghi hình phòng thẩm vấn của Sở Cảnh sát Macon về sau được công bố và trở thành một tư liệu nghiên cứu hành vi kinh điển.",
+    "words": 29
    },
    {
     "id": "2.02#2",
-    "text": "Suốt hơn hai giờ đồng hồ liên tục, Stephen McDaniel ngồi trên chiếc ghế sắt đối diện các điều tra viên mà hầu như không hề cử động dù chỉ là một milimét.",
-    "words": 33
+    "text": "Trong nhiều đoạn kéo dài hàng tiếng đồng hồ, Stephen McDaniel ngồi đối diện các điều tra viên mà hầu như không hề có bất kỳ cử động nào.",
+    "words": 29
    },
    {
     "id": "2.02#3",
-    "text": "Hắn giữ nguyên một tư thế cứng đờ như một pho tượng đá, mắt nhìn trừng trừng vào một điểm vô định trên bức tường phía trước.",
-    "words": 27
+    "text": "Hắn giữ nguyên một tư thế cứng đờ như một pho tượng đá giữa căn phòng kín cô lập.",
+    "words": 19
+   },
+   {
+    "id": "2.02#4",
+    "text": "Hắn không hề chớp mắt theo nhịp sinh học thông thường, không đổi tư thế ngồi và kiên quyết từ chối cả việc uống nước khi được điều tra viên mời.",
+    "words": 31
+   },
+   {
+    "id": "2.02#5",
+    "text": "Bầu không khí tĩnh lặng đến mức nghẹt thở, tạo nên cảm giác rợn ngợp cho bất kỳ ai theo dõi qua màn hình giám sát an ninh.",
+    "words": 28
    }
   ]
  },
@@ -337,37 +402,47 @@
   "kind": "LOI",
   "role": "H",
   "direction": "giọng sắc lạnh, phân tích lớp mặt nạ phòng vệ",
-  "text": "Hắn không chớp mắt, không dịch chuyển tay chân, không uống nước và trả lời các câu hỏi bằng một chất giọng đều đều, trầm đục như một cỗ máy đã lập trình sẵn. Khi các thám tử rời khỏi phòng để hắn ở lại một mình, McDaniel vẫn tiếp tục duy trì trạng thái bất động tuyệt đối ấy suốt hàng chục phút đồng hồ. Không có bất kỳ hành động thở dài, nhìn ngó camera hay bộc lộ sự bồn chồn lo lắng như những nghi phạm thông thường khác khi ở trong phòng kín. Tư thế ngồi kỳ lạ này thoạt nhìn giống như một trạng thái tê liệt tâm thần phân liệt, nhưng thực chất lại là một nỗ lực kiểm soát cơ thể tột bậc. Là một người vừa tốt nghiệp trường luật với điểm số xuất sắc, McDaniel hiểu rõ rằng mọi cử chỉ nhỏ nhặt nhất hay một cái nháy mắt đều có thể bị máy quay bắt bài. Hắn đã chọn cách triệt tiêu toàn bộ ngôn ngữ cơ thể nhằm che giấu thế giới nội tâm đang cuộn sóng dữ dội bên dưới lớp băng lạnh giá.",
+  "text": "Hắn trả lời các câu hỏi bằng một chất giọng đều đều, trầm đục như một cỗ máy đã được lập trình sẵn từ trước. Ngay cả khi các điều tra viên rời khỏi phòng và để hắn ngồi lại một mình, hắn vẫn duy trì sự bất động tuyệt đối ấy. Không có bất kỳ hành động thở dài, nhìn ngó camera hay bộc lộ sự bồn chồn lo lắng như những nghi phạm thông thường khác khi ở một mình. Tư thế ngồi kỳ lạ này có thể được hiểu như một nỗ lực kiểm soát cơ thể tột bậc, một chiến thuật phòng vệ có ý thức. Là một người vừa tốt nghiệp trường luật, McDaniel hiểu rõ rằng mọi cử chỉ nhỏ nhặt nhất hay một cái nháy mắt đều có thể bị máy quay bắt bài. Dường như hắn đã chọn cách triệt tiêu toàn bộ ngôn ngữ cơ thể nhằm che giấu thế giới nội tâm đang cuộn sóng dữ dội bên dưới lớp băng lạnh giá. Hắn ngây thơ tin rằng nếu không bộc lộ bất kỳ phản xạ nào, cảnh sát sẽ không thể tìm ra kẽ hở tâm lý để khai thác. Nhưng sự cố thủ cực đoan phi tự nhiên ấy vô tình lại trở thành chiếc la bàn chỉ thẳng vào sự bất an sâu sắc nhất của hắn.",
   "sentences": [
    {
     "id": "2.04#1",
-    "text": "Hắn không chớp mắt, không dịch chuyển tay chân, không uống nước và trả lời các câu hỏi bằng một chất giọng đều đều, trầm đục như một cỗ máy đã lập trình sẵn.",
-    "words": 34
+    "text": "Hắn trả lời các câu hỏi bằng một chất giọng đều đều, trầm đục như một cỗ máy đã được lập trình sẵn từ trước.",
+    "words": 25
    },
    {
     "id": "2.04#2",
-    "text": "Khi các thám tử rời khỏi phòng để hắn ở lại một mình, McDaniel vẫn tiếp tục duy trì trạng thái bất động tuyệt đối ấy suốt hàng chục phút đồng hồ.",
-    "words": 32
+    "text": "Ngay cả khi các điều tra viên rời khỏi phòng và để hắn ngồi lại một mình, hắn vẫn duy trì sự bất động tuyệt đối ấy.",
+    "words": 27
    },
    {
     "id": "2.04#3",
-    "text": "Không có bất kỳ hành động thở dài, nhìn ngó camera hay bộc lộ sự bồn chồn lo lắng như những nghi phạm thông thường khác khi ở trong phòng kín.",
-    "words": 31
+    "text": "Không có bất kỳ hành động thở dài, nhìn ngó camera hay bộc lộ sự bồn chồn lo lắng như những nghi phạm thông thường khác khi ở một mình.",
+    "words": 30
    },
    {
     "id": "2.04#4",
-    "text": "Tư thế ngồi kỳ lạ này thoạt nhìn giống như một trạng thái tê liệt tâm thần phân liệt, nhưng thực chất lại là một nỗ lực kiểm soát cơ thể tột bậc.",
-    "words": 33
+    "text": "Tư thế ngồi kỳ lạ này có thể được hiểu như một nỗ lực kiểm soát cơ thể tột bậc, một chiến thuật phòng vệ có ý thức.",
+    "words": 28
    },
    {
     "id": "2.04#5",
-    "text": "Là một người vừa tốt nghiệp trường luật với điểm số xuất sắc, McDaniel hiểu rõ rằng mọi cử chỉ nhỏ nhặt nhất hay một cái nháy mắt đều có thể bị máy quay bắt bài.",
-    "words": 36
+    "text": "Là một người vừa tốt nghiệp trường luật, McDaniel hiểu rõ rằng mọi cử chỉ nhỏ nhặt nhất hay một cái nháy mắt đều có thể bị máy quay bắt bài.",
+    "words": 31
    },
    {
     "id": "2.04#6",
-    "text": "Hắn đã chọn cách triệt tiêu toàn bộ ngôn ngữ cơ thể nhằm che giấu thế giới nội tâm đang cuộn sóng dữ dội bên dưới lớp băng lạnh giá.",
-    "words": 30
+    "text": "Dường như hắn đã chọn cách triệt tiêu toàn bộ ngôn ngữ cơ thể nhằm che giấu thế giới nội tâm đang cuộn sóng dữ dội bên dưới lớp băng lạnh giá.",
+    "words": 32
+   },
+   {
+    "id": "2.04#7",
+    "text": "Hắn ngây thơ tin rằng nếu không bộc lộ bất kỳ phản xạ nào, cảnh sát sẽ không thể tìm ra kẽ hở tâm lý để khai thác.",
+    "words": 28
+   },
+   {
+    "id": "2.04#8",
+    "text": "Nhưng sự cố thủ cực đoan phi tự nhiên ấy vô tình lại trở thành chiếc la bàn chỉ thẳng vào sự bất an sâu sắc nhất của hắn.",
+    "words": 29
    }
   ]
  },
@@ -382,33 +457,43 @@
   "act": 2,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Thám tử David Patterson, vạch trần cuộc đối đầu",
-  "text": "Trong suốt sự nghiệp điều tra của mình, tôi chưa từng gặp một nghi phạm nào thể hiện mức độ kiểm soát cơ thể phi tự nhiên đến mức đáng sợ như vậy. Hắn cố tình tạo ra một bức tường vô cảm để ngăn cản chúng tôi thâm nhập vào tâm lý, tin rằng nếu không bộc lộ bất kỳ phản ứng nào thì cảnh sát sẽ không thể tìm thấy sơ hở. Nhưng sự bất động thái quá đó tự bản thân nó đã là một bằng chứng tố cáo mạnh mẽ nhất, bởi vì một cơ thể sống không bao giờ có thể tự nhiên đóng băng như vậy. Trong khi hắn đang cố gắng thi gan với chúng tôi trong phòng thẩm vấn, các mũi trinh sát bên ngoài đã đồng loạt thực hiện lệnh khám xét khẩn cấp căn hộ của hắn. Và chỉ sau vài giờ lục soát tỉ mỉ, kho tàng chứng cứ đen tối ẩn giấu sau cánh cửa phòng ngủ của McDaniel đã chính thức phát lộ.",
+  "direction": "D: vạch trần cuộc đối đầu và mũi trinh sát khám xét",
+  "text": "Hãy hình dung cảm giác của một điều tra viên khi ngồi đối diện một nghi phạm kiểm soát cơ thể phi tự nhiên đến mức đáng sợ như vậy. Hắn cố tình tạo ra một bức tường vô cảm để ngăn cản chúng tôi thâm nhập vào tâm lý, tin rằng sự im lặng tuyệt đối là lá chắn thép. Nhưng trong nghiệp vụ thẩm vấn hình sự, sự bất động thái quá tự bản thân nó đã là một lời thú nhận ngầm về sự hoảng loạn nội tâm. Một người vô tội sẽ bộc lộ sự phẫn nộ, sốt ruột hoặc phân trần, chứ không bao giờ đóng băng toàn bộ phản xạ tự nhiên của cơ thể. Trong khi hắn ngồi cố thủ trong phòng hỏi cung, một mũi trinh sát khác đã tiến hành khám xét khẩn cấp căn hộ của hắn ngay đối diện phòng nạn nhân. Từng ngăn tủ, từng góc gầm giường và các vật dụng cá nhân được các kỹ thuật viên rà soát tỉ mỉ dưới ánh đèn nghiệp vụ. Và những chứng cứ đen tối ẩn giấu trong căn hộ của McDaniel dần dần phát lộ trước sự thật.",
   "sentences": [
    {
     "id": "2.06#1",
-    "text": "Trong suốt sự nghiệp điều tra của mình, tôi chưa từng gặp một nghi phạm nào thể hiện mức độ kiểm soát cơ thể phi tự nhiên đến mức đáng sợ như vậy.",
-    "words": 33
+    "text": "Hãy hình dung cảm giác của một điều tra viên khi ngồi đối diện một nghi phạm kiểm soát cơ thể phi tự nhiên đến mức đáng sợ như vậy.",
+    "words": 30
    },
    {
     "id": "2.06#2",
-    "text": "Hắn cố tình tạo ra một bức tường vô cảm để ngăn cản chúng tôi thâm nhập vào tâm lý, tin rằng nếu không bộc lộ bất kỳ phản ứng nào thì cảnh sát sẽ không thể tìm thấy sơ hở.",
-    "words": 41
+    "text": "Hắn cố tình tạo ra một bức tường vô cảm để ngăn cản chúng tôi thâm nhập vào tâm lý, tin rằng sự im lặng tuyệt đối là lá chắn thép.",
+    "words": 31
    },
    {
     "id": "2.06#3",
-    "text": "Nhưng sự bất động thái quá đó tự bản thân nó đã là một bằng chứng tố cáo mạnh mẽ nhất, bởi vì một cơ thể sống không bao giờ có thể tự nhiên đóng băng như vậy.",
-    "words": 38
+    "text": "Nhưng trong nghiệp vụ thẩm vấn hình sự, sự bất động thái quá tự bản thân nó đã là một lời thú nhận ngầm về sự hoảng loạn nội tâm.",
+    "words": 30
    },
    {
     "id": "2.06#4",
-    "text": "Trong khi hắn đang cố gắng thi gan với chúng tôi trong phòng thẩm vấn, các mũi trinh sát bên ngoài đã đồng loạt thực hiện lệnh khám xét khẩn cấp căn hộ của hắn.",
-    "words": 35
+    "text": "Một người vô tội sẽ bộc lộ sự phẫn nộ, sốt ruột hoặc phân trần, chứ không bao giờ đóng băng toàn bộ phản xạ tự nhiên của cơ thể.",
+    "words": 30
    },
    {
     "id": "2.06#5",
-    "text": "Và chỉ sau vài giờ lục soát tỉ mỉ, kho tàng chứng cứ đen tối ẩn giấu sau cánh cửa phòng ngủ của McDaniel đã chính thức phát lộ.",
-    "words": 29
+    "text": "Trong khi hắn ngồi cố thủ trong phòng hỏi cung, một mũi trinh sát khác đã tiến hành khám xét khẩn cấp căn hộ của hắn ngay đối diện phòng nạn nhân.",
+    "words": 32
+   },
+   {
+    "id": "2.06#6",
+    "text": "Từng ngăn tủ, từng góc gầm giường và các vật dụng cá nhân được các kỹ thuật viên rà soát tỉ mỉ dưới ánh đèn nghiệp vụ.",
+    "words": 27
+   },
+   {
+    "id": "2.06#7",
+    "text": "Và những chứng cứ đen tối ẩn giấu trong căn hộ của McDaniel dần dần phát lộ trước sự thật.",
+    "words": 20
    }
   ]
  },
@@ -416,7 +501,7 @@
   "id": "2.07",
   "act": 2,
   "kind": "SFX",
-  "desc": "*Tiếng cạy mở ngăn kéo, tiếng mở bao bì cưa sắt sột soạt.*"
+  "desc": "*Tiếng cạy mở ngăn kéo, tiếng túi đựng vật chứng sột soạt.*"
  },
  {
   "id": "2.08",
@@ -424,30 +509,40 @@
   "kind": "LOI",
   "role": "H",
   "direction": "chuyển giọng đanh thép, công bố chuỗi bằng chứng vật chất",
-  "text": "Bên trong căn hộ số hai trăm mười một của McDaniel, các kỹ thuật viên pháp y đã tìm thấy những vật chứng mang tính chất quyết định của vụ án. Một chiếc chìa khóa vạn năng có khả năng mở tất cả các ổ khóa trong toàn bộ khu chung cư Barristers Hall được giấu kỹ trong ngăn kéo cá nhân. Phía dưới gầm giường, cảnh sát tìm thấy vỏ bao bì của một chiếc cưa sắt chuyên dụng vừa mới được mua từ một cửa hàng kim khí trong vùng. Lưỡi cưa sắt tương ứng sau đó được phát hiện trong phòng chứa đồ bảo trì của tòa nhà, với các mẫu dấu vết sinh học trùng khớp hoàn toàn với nạn nhân Lauren Giddings. Lớp vỏ bọc của một người bạn học vô tội và một trí thức hiền lành đã hoàn toàn vỡ vụn trước những bằng chứng vật chất đanh thép.",
+  "text": "Bên trong căn hộ của McDaniel, các kỹ thuật viên pháp y đã tìm thấy những vật chứng mang tính chất quyết định của toàn bộ vụ án. Đáng chú ý nhất là một chiếc chìa khóa vạn năng có khả năng mở mọi căn hộ trong toàn bộ khu chung cư Barristers Hall. Chiếc chìa khóa quản lý này chính là công cụ thủ đoạn then chốt giúp kẻ thủ ác đột nhập mà không để lại bất kỳ dấu hiệu cạy phá cửa nào. Cảnh sát còn tìm thấy vỏ bao bì của một dụng cụ kim loại chuyên dụng được cất giấu cẩn thận trong phòng ngủ của hắn. Dụng cụ kim loại tương ứng sau đó được tìm thấy trong phòng bảo trì của tòa nhà, chứa mẫu sinh học trùng khớp hoàn toàn với Lauren Giddings. Khám nghiệm hiện trường khẳng định kẻ gây án đã sử dụng quyền tiếp cận chìa khóa để xâm phạm ranh giới bất khả xâm phạm của nạn nhân. Lớp vỏ bọc của một người bạn học vô tội và một trí thức hiền lành đã hoàn toàn vỡ vụn trước những bằng chứng vật chất đanh thép.",
   "sentences": [
    {
     "id": "2.08#1",
-    "text": "Bên trong căn hộ số hai trăm mười một của McDaniel, các kỹ thuật viên pháp y đã tìm thấy những vật chứng mang tính chất quyết định của vụ án.",
-    "words": 31
+    "text": "Bên trong căn hộ của McDaniel, các kỹ thuật viên pháp y đã tìm thấy những vật chứng mang tính chất quyết định của toàn bộ vụ án.",
+    "words": 28
    },
    {
     "id": "2.08#2",
-    "text": "Một chiếc chìa khóa vạn năng có khả năng mở tất cả các ổ khóa trong toàn bộ khu chung cư Barristers Hall được giấu kỹ trong ngăn kéo cá nhân.",
-    "words": 31
+    "text": "Đáng chú ý nhất là một chiếc chìa khóa vạn năng có khả năng mở mọi căn hộ trong toàn bộ khu chung cư Barristers Hall.",
+    "words": 26
    },
    {
     "id": "2.08#3",
-    "text": "Phía dưới gầm giường, cảnh sát tìm thấy vỏ bao bì của một chiếc cưa sắt chuyên dụng vừa mới được mua từ một cửa hàng kim khí trong vùng.",
-    "words": 30
+    "text": "Chiếc chìa khóa quản lý này chính là công cụ thủ đoạn then chốt giúp kẻ thủ ác đột nhập mà không để lại bất kỳ dấu hiệu cạy phá cửa nào.",
+    "words": 32
    },
    {
     "id": "2.08#4",
-    "text": "Lưỡi cưa sắt tương ứng sau đó được phát hiện trong phòng chứa đồ bảo trì của tòa nhà, với các mẫu dấu vết sinh học trùng khớp hoàn toàn với nạn nhân Lauren Giddings.",
-    "words": 35
+    "text": "Cảnh sát còn tìm thấy vỏ bao bì của một dụng cụ kim loại chuyên dụng được cất giấu cẩn thận trong phòng ngủ của hắn.",
+    "words": 26
    },
    {
     "id": "2.08#5",
+    "text": "Dụng cụ kim loại tương ứng sau đó được tìm thấy trong phòng bảo trì của tòa nhà, chứa mẫu sinh học trùng khớp hoàn toàn với Lauren Giddings.",
+    "words": 29
+   },
+   {
+    "id": "2.08#6",
+    "text": "Khám nghiệm hiện trường khẳng định kẻ gây án đã sử dụng quyền tiếp cận chìa khóa để xâm phạm ranh giới bất khả xâm phạm của nạn nhân.",
+    "words": 29
+   },
+   {
+    "id": "2.08#7",
     "text": "Lớp vỏ bọc của một người bạn học vô tội và một trí thức hiền lành đã hoàn toàn vỡ vụn trước những bằng chứng vật chất đanh thép.",
     "words": 29
    }
@@ -458,26 +553,36 @@
   "act": 2,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Tái hiện phương thức gây án",
-  "text": "Khi đối chiếu chìa khóa vạn năng với dấu vết tại hiện trường, chúng tôi đã có thể tái hiện chính xác phương thức đột nhập của kẻ thủ ác vào rạng sáng hôm đó. Hắn không cần phải cạy phá cửa, mà dùng chiếc chìa khóa quản lý để nhẹ nhàng mở khóa và lẻn vào phòng ngủ của Lauren khi cô đang say giấc. Hắn đã tính toán thời gian, chuẩn bị dụng cụ gây án và lên kế hoạch phi tang tỉ mỉ nhằm biến vụ án thành một vụ mất tích không dấu vết. Tất cả những gì hắn thể hiện trước ống kính truyền hình và trong phòng hỏi cung chỉ là một màn kịch vụng về của một kẻ quá tự tin vào trí tuệ của mình.",
+  "direction": "D: Tái hiện phương thức gây án và phân tích MO",
+  "text": "Khi đối chiếu chiếc chìa khóa vạn năng với hiện trường, chúng tôi đã có thể tái hiện chính xác phương thức đột nhập của kẻ thủ ác vào rạng sáng hôm đó. Hắn không cần phải cạy phá cửa, mà dùng chiếc chìa khóa quản lý để bí mật mở cửa căn hộ của Lauren khi cô đang ngủ say. Hắn đã tính toán cẩn thận từng bước để vô hiệu hóa hoàn toàn khả năng phản kháng và biến vụ án mạng thành một vụ mất tích không dấu vết. Nhưng giữa toan tính lý thuyết của một cử nhân luật và thực tế khắc nghiệt của khoa học hình sự luôn tồn tại một khoảng cách khổng lồ. Từng dấu vết công cụ trên kim loại và các mẫu vật chất sinh học là những nhân chứng khách quan không bao giờ biết nói dối. Tất cả những gì hắn thể hiện trước ống kính truyền hình và trong phòng hỏi cung chỉ là một màn kịch vụng về của một kẻ quá tự tin vào trí tuệ của mình.",
   "sentences": [
    {
     "id": "2.09#1",
-    "text": "Khi đối chiếu chìa khóa vạn năng với dấu vết tại hiện trường, chúng tôi đã có thể tái hiện chính xác phương thức đột nhập của kẻ thủ ác vào rạng sáng hôm đó.",
-    "words": 35
+    "text": "Khi đối chiếu chiếc chìa khóa vạn năng với hiện trường, chúng tôi đã có thể tái hiện chính xác phương thức đột nhập của kẻ thủ ác vào rạng sáng hôm đó.",
+    "words": 33
    },
    {
     "id": "2.09#2",
-    "text": "Hắn không cần phải cạy phá cửa, mà dùng chiếc chìa khóa quản lý để nhẹ nhàng mở khóa và lẻn vào phòng ngủ của Lauren khi cô đang say giấc.",
-    "words": 31
+    "text": "Hắn không cần phải cạy phá cửa, mà dùng chiếc chìa khóa quản lý để bí mật mở cửa căn hộ của Lauren khi cô đang ngủ say.",
+    "words": 28
    },
    {
     "id": "2.09#3",
-    "text": "Hắn đã tính toán thời gian, chuẩn bị dụng cụ gây án và lên kế hoạch phi tang tỉ mỉ nhằm biến vụ án thành một vụ mất tích không dấu vết.",
-    "words": 32
+    "text": "Hắn đã tính toán cẩn thận từng bước để vô hiệu hóa hoàn toàn khả năng phản kháng và biến vụ án mạng thành một vụ mất tích không dấu vết.",
+    "words": 31
    },
    {
     "id": "2.09#4",
+    "text": "Nhưng giữa toan tính lý thuyết của một cử nhân luật và thực tế khắc nghiệt của khoa học hình sự luôn tồn tại một khoảng cách khổng lồ.",
+    "words": 29
+   },
+   {
+    "id": "2.09#5",
+    "text": "Từng dấu vết công cụ trên kim loại và các mẫu vật chất sinh học là những nhân chứng khách quan không bao giờ biết nói dối.",
+    "words": 27
+   },
+   {
+    "id": "2.09#6",
     "text": "Tất cả những gì hắn thể hiện trước ống kính truyền hình và trong phòng hỏi cung chỉ là một màn kịch vụng về của một kẻ quá tự tin vào trí tuệ của mình.",
     "words": 35
    }
@@ -489,12 +594,12 @@
   "kind": "LOI",
   "role": "H",
   "direction": "khép lại Hồi 2, mở ra giải phẫu tâm lý",
-  "text": "Những vật chứng tìm thấy tại hiện trường đã đập tan sự im lặng ngoan cố của bức tượng đá trong phòng điều tra. Nhưng động cơ thực sự nào đã thôi thúc một thanh niên có học thức, tương lai rộng mở lại ra tay tàn độc với người bạn học cùng lớp của mình? Câu trả lời nằm sâu trong chiếc máy tính xách tay cá nhân của hắn, nơi lưu trữ hàng trăm nghìn tệp dữ liệu bệnh hoạn suốt nhiều năm trời. Các chuyên gia tâm lý học hành vi đã bắt tay vào cuộc giải phẫu tâm lý chuyên sâu để vạch trần chân dung của một kẻ rình rập săn mồi nguy hiểm. Một thế giới nội tâm méo mó và đầy rẫy sự ám ảnh tình dục lệch lạc dần dần hiện hình qua từng dòng nhật ký số. Đó là sự trỗi dậy của một cấu trúc nhân cách ái kỷ ẩn tàng kết hợp với hội chứng ám ảnh rình rập cực đoan.",
+  "text": "Những vật chứng tìm thấy đã phá vỡ sự im lặng ngoan cố của bức tượng đá trong phòng điều tra. Nhưng động cơ thực sự nào đã thôi thúc một thanh niên có học thức, tương lai rộng mở lại ra tay tàn độc với người bạn học cùng lớp của mình? Câu trả lời nằm sâu trong chiếc máy tính xách tay cá nhân của hắn, nơi lưu trữ hàng trăm nghìn tệp dữ liệu bệnh hoạn suốt nhiều năm trời. Lịch sử duyệt web được khôi phục cho thấy sự leo thang rõ rệt từ việc tìm kiếm bẻ khóa, theo dõi đến các ám ảnh tình dục lệch lạc. Hắn đã âm thầm theo dõi cuộc sống thường nhật của nạn nhân từ rất lâu trước khi quyết định ra tay hành động. Cơn đói ảo tưởng quyền lực buộc hắn phải liên tục nâng ngưỡng liều kiểm soát, từ rình mò từ xa đến xâm nhập không gian sống thực tế. Các chuyên gia tâm lý học hành vi đã bắt tay vào cuộc giải phẫu tâm lý chuyên sâu để vạch trần chân dung của một kẻ rình rập săn mồi nguy hiểm. Một thế giới nội tâm méo mó và đầy rẫy sự ám ảnh chiếm đoạt dần dần hiện hình qua từng dấu vết kỹ thuật số.",
   "sentences": [
    {
     "id": "2.10#1",
-    "text": "Những vật chứng tìm thấy tại hiện trường đã đập tan sự im lặng ngoan cố của bức tượng đá trong phòng điều tra.",
-    "words": 24
+    "text": "Những vật chứng tìm thấy đã phá vỡ sự im lặng ngoan cố của bức tượng đá trong phòng điều tra.",
+    "words": 21
    },
    {
     "id": "2.10#2",
@@ -508,17 +613,27 @@
    },
    {
     "id": "2.10#4",
+    "text": "Lịch sử duyệt web được khôi phục cho thấy sự leo thang rõ rệt từ việc tìm kiếm bẻ khóa, theo dõi đến các ám ảnh tình dục lệch lạc.",
+    "words": 30
+   },
+   {
+    "id": "2.10#5",
+    "text": "Hắn đã âm thầm theo dõi cuộc sống thường nhật của nạn nhân từ rất lâu trước khi quyết định ra tay hành động.",
+    "words": 24
+   },
+   {
+    "id": "2.10#6",
+    "text": "Cơn đói ảo tưởng quyền lực buộc hắn phải liên tục nâng ngưỡng liều kiểm soát, từ rình mò từ xa đến xâm nhập không gian sống thực tế.",
+    "words": 29
+   },
+   {
+    "id": "2.10#7",
     "text": "Các chuyên gia tâm lý học hành vi đã bắt tay vào cuộc giải phẫu tâm lý chuyên sâu để vạch trần chân dung của một kẻ rình rập săn mồi nguy hiểm.",
     "words": 33
    },
    {
-    "id": "2.10#5",
-    "text": "Một thế giới nội tâm méo mó và đầy rẫy sự ám ảnh tình dục lệch lạc dần dần hiện hình qua từng dòng nhật ký số.",
-    "words": 27
-   },
-   {
-    "id": "2.10#6",
-    "text": "Đó là sự trỗi dậy của một cấu trúc nhân cách ái kỷ ẩn tàng kết hợp với hội chứng ám ảnh rình rập cực đoan.",
+    "id": "2.10#8",
+    "text": "Một thế giới nội tâm méo mó và đầy rẫy sự ám ảnh chiếm đoạt dần dần hiện hình qua từng dấu vết kỹ thuật số.",
     "words": 26
    }
   ]
@@ -533,7 +648,7 @@
   "id": "3.01",
   "act": 3,
   "kind": "BGM",
-  "desc": "*Tiếng đàn Dương cầm tối giản (Minimalist Piano) kết hợp cùng âm vang Drone sâu lắng, tạo không gian phân tích hành vi chuyên sâu.*"
+  "desc": "*Tiếng đàn Dương cầm tối giản kết hợp cùng âm vang Drone sâu lắng, tạo không gian phân tích hành vi chuyên sâu.*"
  },
  {
   "id": "3.02",
@@ -541,7 +656,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "chậm rãi, mang tính dẫn nhập chuyên môn",
-  "text": "Vụ án Stephen McDaniel là một ví dụ điển hình trong giáo trình tâm thần học pháp y về hành vi rình rập săn mồi, hay Predatory Stalking. Khác với những kẻ bộc lộ hành vi quấy rối công khai, những kẻ rình rập ngầm thường ẩn mình dưới vỏ bọc của những người bạn nhút nhát, ít nói và vô hại. Để làm sáng tỏ cơ chế tâm lý thúc đẩy tội ác, các chuyên gia hành vi của Cục Điều tra Liên bang FBI đã tiến hành phân tích toàn diện dữ liệu số và hồ sơ nhân cách của bị cáo. Kết quả giải mã đã phơi bày một quá trình leo thang ám ảnh kéo dài qua nhiều giai đoạn tâm lý bệnh lý cực kỳ nguy hiểm.",
+  "text": "Vụ án Stephen McDaniel là một ví dụ điển hình trong giáo trình tâm thần học pháp y về hành vi rình rập săn mồi, hay Predatory Stalking. Khác với những kẻ bộc lộ hành vi quấy rối công khai, những kẻ rình rập ngầm thường ẩn mình dưới vỏ bọc của những người bạn nhút nhát, ít nói và vô hại. Sự nguy hiểm tột cùng của chúng nằm ở khả năng ngụy trang hoàn hảo sự kiểm soát dưới lớp vỏ bọc quan tâm láng giềng. Chúng kiên nhẫn quan sát mục tiêu từ bóng tối, tích lũy từng chi tiết đời tư và chuẩn bị thời cơ ra tay một cách lạnh lùng. Để làm sáng tỏ cơ chế tâm lý thúc đẩy tội ác, các chuyên gia hành vi đã tiến hành phân tích toàn diện dữ liệu số và hồ sơ nhân cách của bị cáo. Kết quả giải mã đã phơi bày một quá trình leo thang ám ảnh kéo dài qua nhiều giai đoạn tâm lý bệnh lý cực kỳ nguy hiểm.",
   "sentences": [
    {
     "id": "3.02#1",
@@ -555,11 +670,21 @@
    },
    {
     "id": "3.02#3",
-    "text": "Để làm sáng tỏ cơ chế tâm lý thúc đẩy tội ác, các chuyên gia hành vi của Cục Điều tra Liên bang FBI đã tiến hành phân tích toàn diện dữ liệu số và hồ sơ nhân cách của bị cáo.",
-    "words": 42
+    "text": "Sự nguy hiểm tột cùng của chúng nằm ở khả năng ngụy trang hoàn hảo sự kiểm soát dưới lớp vỏ bọc quan tâm láng giềng.",
+    "words": 26
    },
    {
     "id": "3.02#4",
+    "text": "Chúng kiên nhẫn quan sát mục tiêu từ bóng tối, tích lũy từng chi tiết đời tư và chuẩn bị thời cơ ra tay một cách lạnh lùng.",
+    "words": 28
+   },
+   {
+    "id": "3.02#5",
+    "text": "Để làm sáng tỏ cơ chế tâm lý thúc đẩy tội ác, các chuyên gia hành vi đã tiến hành phân tích toàn diện dữ liệu số và hồ sơ nhân cách của bị cáo.",
+    "words": 35
+   },
+   {
+    "id": "3.02#6",
     "text": "Kết quả giải mã đã phơi bày một quá trình leo thang ám ảnh kéo dài qua nhiều giai đoạn tâm lý bệnh lý cực kỳ nguy hiểm.",
     "words": 28
    }
@@ -571,42 +696,52 @@
   "kind": "LOI",
   "role": "C",
   "direction": "C: Bác sĩ Tâm thần học Pháp y, giọng điềm đạm, học thuật",
-  "text": "Dữ liệu trích xuất từ máy tính xách tay của McDaniel cho thấy hắn đã phát triển một sự ám ảnh tình dục và chiếm hữu cực đoan đối với Lauren Giddings trong nhiều tháng trước khi gây án. Bằng chứng rùng mình nhất là một đoạn video được quay vào ban đêm từ bên ngoài cửa sổ phòng ngủ của Lauren chỉ vài tuần trước thảm kịch. McDaniel đã gắn chiếc máy ảnh kỹ thuật số của mình vào một thanh gỗ dài hơn hai mét, thò qua ban công để bí mật ghi lại hình ảnh cô gái đang ngủ trong phòng riêng. Đây là biểu hiện kinh điển của chứng Thị dâm săn mồi, hay Predatory Voyeurism, nơi kẻ phạm tội tìm kiếm sự kích thích quyền lực thông qua việc xâm phạm không gian riêng tư của nạn nhân. Trong tâm trí méo mó của McDaniel, việc ngắm nhìn và kiểm soát cuộc sống của Lauren đã tạo ra một ảo tưởng sở hữu bệnh hoạn. Hắn xem cô như một phần thưởng xứng đáng cho trí tuệ vượt trội của mình, và việc cô tốt nghiệp chuẩn bị chuyển đi nơi khác đã kích hoạt một cơn tổn thương ái kỷ dữ dội. Nỗi sợ bị tước đoạt quyền kiểm soát đã biến sự ám ảnh rình rập thành một quyết định hủy diệt mang tính toán lạnh lùng.",
+  "text": "Dữ liệu trích xuất từ máy tính xách tay của McDaniel cho thấy hắn đã phát triển một sự ám ảnh và chiếm hữu cực đoan đối với Lauren Giddings trong nhiều tháng trước khi gây án. Bằng chứng rùng mình nhất là những đoạn video hắn quay Lauren từ bên ngoài căn hộ của cô, ngay trong đêm xảy ra thảm kịch. Cô hoàn toàn không hề hay biết mình đang bị theo dõi sát sao trong chính không gian sinh hoạt riêng tư nhất của mình. Hành vi này mang đặc điểm thường được mô tả trong khái niệm Thị dâm săn mồi, hay Predatory Voyeurism, nơi kẻ phạm tội tìm kiếm sự kích thích quyền lực thông qua việc xâm phạm không gian riêng tư của nạn nhân. Trong tâm trí méo mó của McDaniel, Lauren không được nhìn nhận như một con người có tri giác và hoài bão, mà bị giáng cấp thành một đối tượng để thỏa mãn cái tôi ái kỷ. Sự thiếu hụt năng lực thấu cảm khiến hắn hoàn toàn trơ lì trước nỗi sợ hãi hay quyền được sống của người khác. Việc ngắm nhìn và bí mật kiểm soát cuộc sống của Lauren đã tạo ra trong hắn một ảo tưởng sở hữu bệnh hoạn. Hắn xem cô như một phần thưởng xứng đáng cho trí tuệ vượt trội của mình, một báu vật mà hắn có quyền độc chiếm. Và bất kỳ dấu hiệu nào đe dọa tước bỏ quyền kiểm soát ấy đều bị hắn coi là sự sỉ nhục cái tôi không thể tha thứ.",
   "sentences": [
    {
     "id": "3.03#1",
-    "text": "Dữ liệu trích xuất từ máy tính xách tay của McDaniel cho thấy hắn đã phát triển một sự ám ảnh tình dục và chiếm hữu cực đoan đối với Lauren Giddings trong nhiều tháng trước khi gây án.",
-    "words": 39
-   },
-   {
-    "id": "3.03#2",
-    "text": "Bằng chứng rùng mình nhất là một đoạn video được quay vào ban đêm từ bên ngoài cửa sổ phòng ngủ của Lauren chỉ vài tuần trước thảm kịch.",
-    "words": 29
-   },
-   {
-    "id": "3.03#3",
-    "text": "McDaniel đã gắn chiếc máy ảnh kỹ thuật số của mình vào một thanh gỗ dài hơn hai mét, thò qua ban công để bí mật ghi lại hình ảnh cô gái đang ngủ trong phòng riêng.",
+    "text": "Dữ liệu trích xuất từ máy tính xách tay của McDaniel cho thấy hắn đã phát triển một sự ám ảnh và chiếm hữu cực đoan đối với Lauren Giddings trong nhiều tháng trước khi gây án.",
     "words": 37
    },
    {
+    "id": "3.03#2",
+    "text": "Bằng chứng rùng mình nhất là những đoạn video hắn quay Lauren từ bên ngoài căn hộ của cô, ngay trong đêm xảy ra thảm kịch.",
+    "words": 26
+   },
+   {
+    "id": "3.03#3",
+    "text": "Cô hoàn toàn không hề hay biết mình đang bị theo dõi sát sao trong chính không gian sinh hoạt riêng tư nhất của mình.",
+    "words": 25
+   },
+   {
     "id": "3.03#4",
-    "text": "Đây là biểu hiện kinh điển của chứng Thị dâm săn mồi, hay Predatory Voyeurism, nơi kẻ phạm tội tìm kiếm sự kích thích quyền lực thông qua việc xâm phạm không gian riêng tư của nạn nhân.",
-    "words": 38
+    "text": "Hành vi này mang đặc điểm thường được mô tả trong khái niệm Thị dâm săn mồi, hay Predatory Voyeurism, nơi kẻ phạm tội tìm kiếm sự kích thích quyền lực thông qua việc xâm phạm không gian riêng tư của nạn nhân.",
+    "words": 43
    },
    {
     "id": "3.03#5",
-    "text": "Trong tâm trí méo mó của McDaniel, việc ngắm nhìn và kiểm soát cuộc sống của Lauren đã tạo ra một ảo tưởng sở hữu bệnh hoạn.",
-    "words": 27
+    "text": "Trong tâm trí méo mó của McDaniel, Lauren không được nhìn nhận như một con người có tri giác và hoài bão, mà bị giáng cấp thành một đối tượng để thỏa mãn cái tôi ái kỷ.",
+    "words": 37
    },
    {
     "id": "3.03#6",
-    "text": "Hắn xem cô như một phần thưởng xứng đáng cho trí tuệ vượt trội của mình, và việc cô tốt nghiệp chuẩn bị chuyển đi nơi khác đã kích hoạt một cơn tổn thương ái kỷ dữ dội.",
-    "words": 38
+    "text": "Sự thiếu hụt năng lực thấu cảm khiến hắn hoàn toàn trơ lì trước nỗi sợ hãi hay quyền được sống của người khác.",
+    "words": 24
    },
    {
     "id": "3.03#7",
-    "text": "Nỗi sợ bị tước đoạt quyền kiểm soát đã biến sự ám ảnh rình rập thành một quyết định hủy diệt mang tính toán lạnh lùng.",
-    "words": 26
+    "text": "Việc ngắm nhìn và bí mật kiểm soát cuộc sống của Lauren đã tạo ra trong hắn một ảo tưởng sở hữu bệnh hoạn.",
+    "words": 24
+   },
+   {
+    "id": "3.03#8",
+    "text": "Hắn xem cô như một phần thưởng xứng đáng cho trí tuệ vượt trội của mình, một báu vật mà hắn có quyền độc chiếm.",
+    "words": 25
+   },
+   {
+    "id": "3.03#9",
+    "text": "Và bất kỳ dấu hiệu nào đe dọa tước bỏ quyền kiểm soát ấy đều bị hắn coi là sự sỉ nhục cái tôi không thể tha thứ.",
+    "words": 28
    }
   ]
  },
@@ -615,23 +750,28 @@
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "tiếp nối phân tích về phản ứng đóng băng sinh lý",
-  "text": "Sự tự tin thái quá vào trí thông minh của bản thân cũng là một nét tính cách cốt lõi định hình hành vi phạm tội của Stephen McDaniel. Với tư cách là một sinh viên luật, hắn tin rằng mình có thể thiết kế một vụ án mạng hoàn hảo và đánh lừa toàn bộ lực lượng điều tra tinh nhuệ. Nhưng chính sự ảo tưởng ái kỷ đó đã dẫn dắt hắn đến một phản ứng sinh lý học vô cùng đặc biệt khi đối diện với sự thật.",
+  "direction": "tiếp nối, dẫn dắt vào ngòi nổ tâm lý",
+  "text": "Sự kiêu ngạo bệnh hoạn của một kẻ tin rằng mình sở hữu trí tuệ vượt trội đã dẫn dắt hắn đến một điểm gãy tâm lý chí tử. Lauren Giddings khi ấy vừa tốt nghiệp xuất sắc và chuẩn bị rời Mercer để chuyển về thành phố Atlanta bắt đầu sự nghiệp luật sư. Những thùng các-tông đóng gói đồ đạc xuất hiện trước cửa phòng cô là tín hiệu báo trước sự kết thúc của những ngày tháng rình rập trong bóng tối. Giọt nước tràn ly ấy đã kích hoạt toàn bộ cơ chế bùng nổ hành vi bạo lực của kẻ săn mồi.",
   "sentences": [
    {
     "id": "3.04#1",
-    "text": "Sự tự tin thái quá vào trí thông minh của bản thân cũng là một nét tính cách cốt lõi định hình hành vi phạm tội của Stephen McDaniel.",
+    "text": "Sự kiêu ngạo bệnh hoạn của một kẻ tin rằng mình sở hữu trí tuệ vượt trội đã dẫn dắt hắn đến một điểm gãy tâm lý chí tử.",
     "words": 29
    },
    {
     "id": "3.04#2",
-    "text": "Với tư cách là một sinh viên luật, hắn tin rằng mình có thể thiết kế một vụ án mạng hoàn hảo và đánh lừa toàn bộ lực lượng điều tra tinh nhuệ.",
-    "words": 33
+    "text": "Lauren Giddings khi ấy vừa tốt nghiệp xuất sắc và chuẩn bị rời Mercer để chuyển về thành phố Atlanta bắt đầu sự nghiệp luật sư.",
+    "words": 26
    },
    {
     "id": "3.04#3",
-    "text": "Nhưng chính sự ảo tưởng ái kỷ đó đã dẫn dắt hắn đến một phản ứng sinh lý học vô cùng đặc biệt khi đối diện với sự thật.",
-    "words": 29
+    "text": "Những thùng các-tông đóng gói đồ đạc xuất hiện trước cửa phòng cô là tín hiệu báo trước sự kết thúc của những ngày tháng rình rập trong bóng tối.",
+    "words": 30
+   },
+   {
+    "id": "3.04#4",
+    "text": "Giọt nước tràn ly ấy đã kích hoạt toàn bộ cơ chế bùng nổ hành vi bạo lực của kẻ săn mồi.",
+    "words": 22
    }
   ]
  },
@@ -640,43 +780,53 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: Phân tích cơ chế Freeze Response & Tonic Immobility",
-  "text": "Trong tâm lý học thần kinh, khi một cá nhân đối mặt với một mối đe dọa sinh tồn bất ngờ, não bộ thường kích hoạt phản ứng Đấu tranh hoặc Bỏ chạy, tức Fight or Flight. Tuy nhiên, khi một kẻ phạm tội nhận ra mọi lối thoát đã hoàn toàn bị bịt kín, cơ chế phòng vệ nguyên thủy thứ ba sẽ xuất hiện, đó là Phản ứng đóng băng, hay Freeze Response. Khoảnh khắc phóng viên thông báo việc tìm thấy thi thể trên sóng truyền hình chính là lúc toàn bộ hệ thống phòng thủ tâm lý của McDaniel bị đánh sập hoàn toàn. Sự tê liệt của các cơ quan vận động và việc quỵ gối xuống đất là kết quả của việc vỏ não bị quá tải trước nhận thức rằng kế hoạch hoàn hảo đã tan tành. Khi bước vào phòng thẩm vấn, McDaniel đã chủ động chuyển hóa phản ứng đóng băng sinh lý đó thành một chiến thuật phòng vệ nhân tạo mang tên Bất động tăng trương lực, hay Tonic Immobility. Hắn tin rằng việc giữ bất động cơ thể tuyệt đối như một pho tượng đá sẽ giúp ngăn chặn mọi sự rò rỉ của các vi biểu cảm trên khuôn mặt. Nhưng hắn không hiểu rằng trong mắt các chuyên gia tâm lý học hành vi, sự bất động phi tự nhiên ấy lại chính là chiếc la bàn chỉ thẳng vào tâm lý tội lỗi sâu sắc nhất.",
+  "direction": "C: Phân tích Điểm gãy tâm lý và Ngòi nổ bùng phát",
+  "text": "Trong tâm lý học tội phạm, việc nạn nhân chuẩn bị rời đi vĩnh viễn chính là biến cố kích hoạt, hay Precipitating Stressor. McDaniel nhận thức rõ ràng rằng khi Lauren chuyển đi Atlanta, khoảng cách địa lý sẽ tước đoạt hoàn toàn cơ hội quan sát và kiểm soát bí mật của hắn. Nỗi sợ mất quyền kiểm soát đã giáng một đòn chí tử vào cái tôi ái kỷ mong manh của kẻ săn mồi, tạo nên một cơn tổn thương ái kỷ dữ dội. Hắn không thể chấp nhận thực tế rằng nạn nhân có một cuộc đời độc lập hoàn toàn nằm ngoài tầm với của mình. Tâm lý sở hữu cực đoan chuyển hóa thành ý nghĩ bệnh hoạn: nếu hắn không thể có được cô, thì không ai trên đời này được phép có được cô. Điểm gãy tâm lý này đã phá vỡ rào cản ức chế đạo đức cuối cùng trong bộ não của hắn. Sự ám ảnh rình rập âm thầm suốt nhiều tháng lập tức biến thành một quyết định đột nhập và tước đoạt sinh mạng mang tính toán lạnh lùng. Hắn sử dụng chìa khóa vạn năng như một công cụ hiện thực hóa ảo tưởng quyền năng tối thượng của mình. Đó không phải là một hành vi bộc phát nhất thời, mà là một tội ác được chuẩn bị với sự toan tính cặn kẽ của một bộ óc bệnh lý.",
   "sentences": [
    {
     "id": "3.05#1",
-    "text": "Trong tâm lý học thần kinh, khi một cá nhân đối mặt với một mối đe dọa sinh tồn bất ngờ, não bộ thường kích hoạt phản ứng Đấu tranh hoặc Bỏ chạy, tức Fight or Flight.",
-    "words": 37
+    "text": "Trong tâm lý học tội phạm, việc nạn nhân chuẩn bị rời đi vĩnh viễn chính là biến cố kích hoạt, hay Precipitating Stressor.",
+    "words": 24
    },
    {
     "id": "3.05#2",
-    "text": "Tuy nhiên, khi một kẻ phạm tội nhận ra mọi lối thoát đã hoàn toàn bị bịt kín, cơ chế phòng vệ nguyên thủy thứ ba sẽ xuất hiện, đó là Phản ứng đóng băng, hay Freeze Response.",
-    "words": 38
+    "text": "McDaniel nhận thức rõ ràng rằng khi Lauren chuyển đi Atlanta, khoảng cách địa lý sẽ tước đoạt hoàn toàn cơ hội quan sát và kiểm soát bí mật của hắn.",
+    "words": 31
    },
    {
     "id": "3.05#3",
-    "text": "Khoảnh khắc phóng viên thông báo việc tìm thấy thi thể trên sóng truyền hình chính là lúc toàn bộ hệ thống phòng thủ tâm lý của McDaniel bị đánh sập hoàn toàn.",
+    "text": "Nỗi sợ mất quyền kiểm soát đã giáng một đòn chí tử vào cái tôi ái kỷ mong manh của kẻ săn mồi, tạo nên một cơn tổn thương ái kỷ dữ dội.",
     "words": 33
    },
    {
     "id": "3.05#4",
-    "text": "Sự tê liệt của các cơ quan vận động và việc quỵ gối xuống đất là kết quả của việc vỏ não bị quá tải trước nhận thức rằng kế hoạch hoàn hảo đã tan tành.",
-    "words": 36
+    "text": "Hắn không thể chấp nhận thực tế rằng nạn nhân có một cuộc đời độc lập hoàn toàn nằm ngoài tầm với của mình.",
+    "words": 24
    },
    {
     "id": "3.05#5",
-    "text": "Khi bước vào phòng thẩm vấn, McDaniel đã chủ động chuyển hóa phản ứng đóng băng sinh lý đó thành một chiến thuật phòng vệ nhân tạo mang tên Bất động tăng trương lực, hay Tonic Immobility.",
-    "words": 37
+    "text": "Tâm lý sở hữu cực đoan chuyển hóa thành ý nghĩ bệnh hoạn: nếu hắn không thể có được cô, thì không ai trên đời này được phép có được cô.",
+    "words": 31
    },
    {
     "id": "3.05#6",
-    "text": "Hắn tin rằng việc giữ bất động cơ thể tuyệt đối như một pho tượng đá sẽ giúp ngăn chặn mọi sự rò rỉ của các vi biểu cảm trên khuôn mặt.",
-    "words": 32
+    "text": "Điểm gãy tâm lý này đã phá vỡ rào cản ức chế đạo đức cuối cùng trong bộ não của hắn.",
+    "words": 21
    },
    {
     "id": "3.05#7",
-    "text": "Nhưng hắn không hiểu rằng trong mắt các chuyên gia tâm lý học hành vi, sự bất động phi tự nhiên ấy lại chính là chiếc la bàn chỉ thẳng vào tâm lý tội lỗi sâu sắc nhất.",
-    "words": 38
+    "text": "Sự ám ảnh rình rập âm thầm suốt nhiều tháng lập tức biến thành một quyết định đột nhập và tước đoạt sinh mạng mang tính toán lạnh lùng.",
+    "words": 29
+   },
+   {
+    "id": "3.05#8",
+    "text": "Hắn sử dụng chìa khóa vạn năng như một công cụ hiện thực hóa ảo tưởng quyền năng tối thượng của mình.",
+    "words": 22
+   },
+   {
+    "id": "3.05#9",
+    "text": "Đó không phải là một hành vi bộc phát nhất thời, mà là một tội ác được chuẩn bị với sự toan tính cặn kẽ của một bộ óc bệnh lý.",
+    "words": 31
    }
   ]
  },
@@ -685,18 +835,23 @@
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "tiếp nối phân tích nhân cách Covert Narcissism",
-  "text": "Chiếc bẫy tâm lý mà McDaniel tự giăng ra cho chính mình đã trở thành bằng chứng đanh thép bóc trần bản chất thật của vụ án. Không có bất kỳ sự hỗ trợ nào của may mắn hay sự thiên tài có thể cứu vãn kẻ sát nhân trước sức mạnh của khoa học pháp y hiện đại.",
+  "direction": "chuyển sang phân tích phản ứng đóng băng sinh lý",
+  "text": "Sự tự tin thái quá vào trí thông minh của bản thân cũng là một nét tính cách cốt lõi định hình hành vi phạm tội của Stephen McDaniel. Với tư cách là một sinh viên luật, hắn tin rằng mình có thể thiết kế một vụ án mạng hoàn hảo và đánh lừa toàn bộ lực lượng điều tra tinh nhuệ. Nhưng chính sự ảo tưởng ái kỷ đó đã dẫn dắt hắn đến một phản ứng sinh lý học vô cùng đặc biệt khi đối diện với sự thật.",
   "sentences": [
    {
     "id": "3.06#1",
-    "text": "Chiếc bẫy tâm lý mà McDaniel tự giăng ra cho chính mình đã trở thành bằng chứng đanh thép bóc trần bản chất thật của vụ án.",
-    "words": 27
+    "text": "Sự tự tin thái quá vào trí thông minh của bản thân cũng là một nét tính cách cốt lõi định hình hành vi phạm tội của Stephen McDaniel.",
+    "words": 29
    },
    {
     "id": "3.06#2",
-    "text": "Không có bất kỳ sự hỗ trợ nào của may mắn hay sự thiên tài có thể cứu vãn kẻ sát nhân trước sức mạnh của khoa học pháp y hiện đại.",
-    "words": 32
+    "text": "Với tư cách là một sinh viên luật, hắn tin rằng mình có thể thiết kế một vụ án mạng hoàn hảo và đánh lừa toàn bộ lực lượng điều tra tinh nhuệ.",
+    "words": 33
+   },
+   {
+    "id": "3.06#3",
+    "text": "Nhưng chính sự ảo tưởng ái kỷ đó đã dẫn dắt hắn đến một phản ứng sinh lý học vô cùng đặc biệt khi đối diện với sự thật.",
+    "words": 29
    }
   ]
  },
@@ -705,38 +860,48 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: Đúc kết về Rối loạn nhân cách ái kỷ ẩn tàng",
-  "text": "Hồ sơ bệnh lý tâm thần xác định Stephen McDaniel không hề mắc chứng loạn thần hay mất khả năng nhận thức tại thời điểm thực hiện hành vi phạm tội. Hắn đáp ứng các tiêu chuẩn chẩn đoán của Rối loạn nhân cách ái kỷ ẩn tàng, hay Covert Narcissism, kết hợp với các xu hướng lệch lạc tình dục nghiêm trọng. Những kẻ ái kỷ ẩn tàng thường biểu hiện bề ngoài là người hướng nội, nhút nhát và đạo mạo, nhưng bên trong lại nuôi dưỡng lòng căm thù xã hội và sự thèm khát quyền lực tột độ. Việc bị từ chối tình cảm hoặc nhận ra nạn nhân không thuộc về mình là ngòi nổ kích hoạt sự bùng phát của cơn thịnh nộ ái kỷ mang tính hủy diệt. Hắn hoàn toàn nhận thức được tính chất phi pháp và tàn nhẫn của hành vi, nhưng vẫn cố tình thực hiện đến cùng vì nhu cầu thỏa mãn cái tôi bệnh hoạn. Và trước sự phán xét của công lý trần thế, mọi sự ngụy biện về trí tuệ hay sự lập dị đều không thể che chở cho kẻ thủ ác.",
+  "direction": "C: Phân tích cơ chế Freeze Response & Tonic Immobility",
+  "text": "Bộ não của McDaniel vận hành theo cơ chế Chia ngăn nhận thức, hay Compartmentalization, cực kỳ chặt chẽ. Một mặt, hắn duy trì ngăn sinh viên luật cần mẫn ôn thi luật sư; mặt khác, hắn khóa kín ngăn bóng tối của kẻ rình rập săn mồi ban đêm. Hắn sử dụng các kỹ thuật trung hòa đạo đức để ru ngủ lương tri, tự thuyết phục mình là nạn nhân bị xã hội hắt hủi và đổ lỗi cho sự cự tuyệt ngầm của phụ nữ. Khi đối mặt với nguy cơ bị bại lộ trên sóng truyền hình, não bộ hắn rơi vào trạng thái quá tải nhận thức cực độ. Cơ chế phòng vệ nguyên thủy thứ ba xuất hiện: Phản ứng đóng băng, hay Freeze Response, khiến cơ thể hắn lập tức tê liệt. Tại phòng thẩm vấn, sự bất động như tượng đá suốt nhiều giờ là chiến thuật phòng vệ nhân tạo mô phỏng phản xạ này nhằm triệt tiêu vi biểu cảm. Hắn ngây thơ tin rằng nếu giữ cơ thể bất động hoàn toàn thì các điều tra viên sẽ không thể đọc được tâm lý tội lỗi bên trong. Nhưng trong tâm thần học pháp y, sự bất động gượng gạo phi tự nhiên ấy lại chính là lời xác nhận rõ ràng nhất về sự sụp đổ của một cái tôi tội phạm.",
   "sentences": [
    {
     "id": "3.07#1",
-    "text": "Hồ sơ bệnh lý tâm thần xác định Stephen McDaniel không hề mắc chứng loạn thần hay mất khả năng nhận thức tại thời điểm thực hiện hành vi phạm tội.",
-    "words": 31
+    "text": "Bộ não của McDaniel vận hành theo cơ chế Chia ngăn nhận thức, hay Compartmentalization, cực kỳ chặt chẽ.",
+    "words": 19
    },
    {
     "id": "3.07#2",
-    "text": "Hắn đáp ứng các tiêu chuẩn chẩn đoán của Rối loạn nhân cách ái kỷ ẩn tàng, hay Covert Narcissism, kết hợp với các xu hướng lệch lạc tình dục nghiêm trọng.",
-    "words": 32
+    "text": "Một mặt, hắn duy trì ngăn sinh viên luật cần mẫn ôn thi luật sư; mặt khác, hắn khóa kín ngăn bóng tối của kẻ rình rập săn mồi ban đêm.",
+    "words": 31
    },
    {
     "id": "3.07#3",
-    "text": "Những kẻ ái kỷ ẩn tàng thường biểu hiện bề ngoài là người hướng nội, nhút nhát và đạo mạo, nhưng bên trong lại nuôi dưỡng lòng căm thù xã hội và sự thèm khát quyền lực tột độ.",
-    "words": 39
+    "text": "Hắn sử dụng các kỹ thuật trung hòa đạo đức để ru ngủ lương tri, tự thuyết phục mình là nạn nhân bị xã hội hắt hủi và đổ lỗi cho sự cự tuyệt ngầm của phụ nữ.",
+    "words": 38
    },
    {
     "id": "3.07#4",
-    "text": "Việc bị từ chối tình cảm hoặc nhận ra nạn nhân không thuộc về mình là ngòi nổ kích hoạt sự bùng phát của cơn thịnh nộ ái kỷ mang tính hủy diệt.",
-    "words": 33
+    "text": "Khi đối mặt với nguy cơ bị bại lộ trên sóng truyền hình, não bộ hắn rơi vào trạng thái quá tải nhận thức cực độ.",
+    "words": 26
    },
    {
     "id": "3.07#5",
-    "text": "Hắn hoàn toàn nhận thức được tính chất phi pháp và tàn nhẫn của hành vi, nhưng vẫn cố tình thực hiện đến cùng vì nhu cầu thỏa mãn cái tôi bệnh hoạn.",
-    "words": 33
+    "text": "Cơ chế phòng vệ nguyên thủy thứ ba xuất hiện: Phản ứng đóng băng, hay Freeze Response, khiến cơ thể hắn lập tức tê liệt.",
+    "words": 25
    },
    {
     "id": "3.07#6",
-    "text": "Và trước sự phán xét của công lý trần thế, mọi sự ngụy biện về trí tuệ hay sự lập dị đều không thể che chở cho kẻ thủ ác.",
-    "words": 30
+    "text": "Tại phòng thẩm vấn, sự bất động như tượng đá suốt nhiều giờ là chiến thuật phòng vệ nhân tạo mô phỏng phản xạ này nhằm triệt tiêu vi biểu cảm.",
+    "words": 31
+   },
+   {
+    "id": "3.07#7",
+    "text": "Hắn ngây thơ tin rằng nếu giữ cơ thể bất động hoàn toàn thì các điều tra viên sẽ không thể đọc được tâm lý tội lỗi bên trong.",
+    "words": 29
+   },
+   {
+    "id": "3.07#8",
+    "text": "Nhưng trong tâm thần học pháp y, sự bất động gượng gạo phi tự nhiên ấy lại chính là lời xác nhận rõ ràng nhất về sự sụp đổ của một cái tôi tội phạm.",
+    "words": 35
    }
   ]
  },
@@ -746,22 +911,27 @@
   "kind": "LOI",
   "role": "H",
   "direction": "chốt lại Hồi 3, chuyển sang phiên tòa phán quyết",
-  "text": "Những phân tích tâm lý học pháp y sâu sắc đã củng cố thêm bức tranh chứng cứ hoàn chỉnh mà cơ quan công tố chuẩn bị cho phiên tòa xét xử. Trước nguy cơ phải đối mặt với mức án tử hình bằng hình thức tiêm thuốc độc của bang Georgia, sự kiêu ngạo của kẻ thủ ác cuối cùng cũng phải cúi đầu. Phiên tòa tại Tòa Thượng thẩm Hạt Bibb đã chứng kiến khoảnh khắc công lý được thực thi một cách nghiêm minh nhất.",
+  "text": "Chiếc bẫy tâm lý mà McDaniel tự giăng ra cho chính mình đã trở thành bằng chứng đanh thép bóc trần bản chất thật của vụ án. Không có bất kỳ sự hỗ trợ nào của may mắn hay sự thiên tài có thể cứu vãn kẻ thủ ác trước sức mạnh của khoa học pháp y hiện đại. Những phân tích tâm lý học pháp y sâu sắc đã củng cố thêm bức tranh chứng cứ hoàn chỉnh mà cơ quan công tố chuẩn bị cho phiên tòa xét xử. Trước nguy cơ phải đối mặt với mức án tử hình, sự kiêu ngạo của kẻ thủ ác cuối cùng cũng phải cúi đầu trước công lý.",
   "sentences": [
    {
     "id": "3.08#1",
+    "text": "Chiếc bẫy tâm lý mà McDaniel tự giăng ra cho chính mình đã trở thành bằng chứng đanh thép bóc trần bản chất thật của vụ án.",
+    "words": 27
+   },
+   {
+    "id": "3.08#2",
+    "text": "Không có bất kỳ sự hỗ trợ nào của may mắn hay sự thiên tài có thể cứu vãn kẻ thủ ác trước sức mạnh của khoa học pháp y hiện đại.",
+    "words": 32
+   },
+   {
+    "id": "3.08#3",
     "text": "Những phân tích tâm lý học pháp y sâu sắc đã củng cố thêm bức tranh chứng cứ hoàn chỉnh mà cơ quan công tố chuẩn bị cho phiên tòa xét xử.",
     "words": 32
    },
    {
-    "id": "3.08#2",
-    "text": "Trước nguy cơ phải đối mặt với mức án tử hình bằng hình thức tiêm thuốc độc của bang Georgia, sự kiêu ngạo của kẻ thủ ác cuối cùng cũng phải cúi đầu.",
-    "words": 33
-   },
-   {
-    "id": "3.08#3",
-    "text": "Phiên tòa tại Tòa Thượng thẩm Hạt Bibb đã chứng kiến khoảnh khắc công lý được thực thi một cách nghiêm minh nhất.",
-    "words": 23
+    "id": "3.08#4",
+    "text": "Trước nguy cơ phải đối mặt với mức án tử hình, sự kiêu ngạo của kẻ thủ ác cuối cùng cũng phải cúi đầu trước công lý.",
+    "words": 27
    }
   ]
  },
@@ -783,37 +953,47 @@
   "kind": "LOI",
   "role": "H",
   "direction": "tái hiện phiên tòa xét xử lịch sử",
-  "text": "Sau gần ba năm giam giữ và tiến hành các thủ tục tố tụng phức tạp, ngày 21 tháng 4 năm 2014, phiên tòa định mệnh đối với Stephen McDaniel chính thức diễn ra tại Tòa Thượng thẩm Hạt Bibb. Dưới sự chủ tọa của Thẩm phán Howard Simms, phòng xử án chật kín người thân của nạn nhân, các giáo sư và hàng trăm sinh viên trường luật Mercer. Đứng trước bàn công tố với bộ trang phục tù nhân màu cam, vẻ ngoài của Stephen McDaniel đã thay đổi hoàn toàn so với hình ảnh người hàng xóm sốt sắng ba năm trước. Hắn gầy sọp đi, cúi gầm mặt xuống sàn nhà và không dám một lần ngước nhìn lên hàng ghế thân nhân của Lauren Giddings. Đối mặt với khối lượng bằng chứng pháp y, dữ liệu máy tính và mẫu sinh học áp đảo không thể chối cãi, McDaniel hiểu rằng bản án tử hình đang cận kề trước mắt. Để tìm kiếm cơ hội sống sót cuối cùng, kẻ sát nhân đã buộc phải ký vào thỏa thuận nhận tội Giết người có suy tính trước.",
+  "text": "Sau gần ba năm tố tụng, tháng 4 năm 2014, chỉ ít ngày trước khi phiên xét xử chính thức bắt đầu, Stephen McDaniel ra trước Tòa Thượng thẩm Hạt Bibb. Dưới sự chủ tọa của Thẩm phán Howard Simms, phòng xử án chật kín người thân, bạn bè của Lauren và giới truyền thông theo dõi vụ án. Không khí trong khán phòng trang nghiêm và trĩu nặng sự căm phẫn trước tội ác của kẻ thủ ác. Vẻ ngoài của Stephen McDaniel đã thay đổi hoàn toàn so với hình ảnh người hàng xóm sốt sắng ba năm trước trên truyền hình. Bộ râu dài và ánh mắt đờ đẫn thay thế cho vẻ lanh lợi, tự tin của một cựu sinh viên luật. Hắn không còn là người bạn học lập dị nói năng lưu loát trước ống kính máy quay. Đối mặt với khối lượng bằng chứng pháp y, dữ liệu máy tính và mẫu sinh học áp đảo không thể chối cãi, McDaniel hiểu rằng bản án tử hình đang cận kề trước mắt. Để tìm kiếm cơ hội sống sót cuối cùng, kẻ sát nhân đã buộc phải chấp nhận ký vào thỏa thuận nhận tội Giết người có suy tính trước.",
   "sentences": [
    {
     "id": "4.02#1",
-    "text": "Sau gần ba năm giam giữ và tiến hành các thủ tục tố tụng phức tạp, ngày 21 tháng 4 năm 2014, phiên tòa định mệnh đối với Stephen McDaniel chính thức diễn ra tại Tòa Thượng thẩm Hạt Bibb.",
-    "words": 40
+    "text": "Sau gần ba năm tố tụng, tháng 4 năm 2014, chỉ ít ngày trước khi phiên xét xử chính thức bắt đầu, Stephen McDaniel ra trước Tòa Thượng thẩm Hạt Bibb.",
+    "words": 31
    },
    {
     "id": "4.02#2",
-    "text": "Dưới sự chủ tọa của Thẩm phán Howard Simms, phòng xử án chật kín người thân của nạn nhân, các giáo sư và hàng trăm sinh viên trường luật Mercer.",
-    "words": 30
+    "text": "Dưới sự chủ tọa của Thẩm phán Howard Simms, phòng xử án chật kín người thân, bạn bè của Lauren và giới truyền thông theo dõi vụ án.",
+    "words": 28
    },
    {
     "id": "4.02#3",
-    "text": "Đứng trước bàn công tố với bộ trang phục tù nhân màu cam, vẻ ngoài của Stephen McDaniel đã thay đổi hoàn toàn so với hình ảnh người hàng xóm sốt sắng ba năm trước.",
-    "words": 35
+    "text": "Không khí trong khán phòng trang nghiêm và trĩu nặng sự căm phẫn trước tội ác của kẻ thủ ác.",
+    "words": 20
    },
    {
     "id": "4.02#4",
-    "text": "Hắn gầy sọp đi, cúi gầm mặt xuống sàn nhà và không dám một lần ngước nhìn lên hàng ghế thân nhân của Lauren Giddings.",
+    "text": "Vẻ ngoài của Stephen McDaniel đã thay đổi hoàn toàn so với hình ảnh người hàng xóm sốt sắng ba năm trước trên truyền hình.",
     "words": 25
    },
    {
     "id": "4.02#5",
+    "text": "Bộ râu dài và ánh mắt đờ đẫn thay thế cho vẻ lanh lợi, tự tin của một cựu sinh viên luật.",
+    "words": 22
+   },
+   {
+    "id": "4.02#6",
+    "text": "Hắn không còn là người bạn học lập dị nói năng lưu loát trước ống kính máy quay.",
+    "words": 18
+   },
+   {
+    "id": "4.02#7",
     "text": "Đối mặt với khối lượng bằng chứng pháp y, dữ liệu máy tính và mẫu sinh học áp đảo không thể chối cãi, McDaniel hiểu rằng bản án tử hình đang cận kề trước mắt.",
     "words": 35
    },
    {
-    "id": "4.02#6",
-    "text": "Để tìm kiếm cơ hội sống sót cuối cùng, kẻ sát nhân đã buộc phải ký vào thỏa thuận nhận tội Giết người có suy tính trước.",
-    "words": 27
+    "id": "4.02#8",
+    "text": "Để tìm kiếm cơ hội sống sót cuối cùng, kẻ sát nhân đã buộc phải chấp nhận ký vào thỏa thuận nhận tội Giết người có suy tính trước.",
+    "words": 29
    }
   ]
  },
@@ -828,28 +1008,33 @@
   "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "bản thú tội hai mươi hai trang phơi bày sự thật",
-  "text": "Thỏa thuận nhận tội bao gồm một bản thú tội chi tiết dài hai mươi hai trang do chính tay McDaniel ký tên xác nhận từng tình tiết phạm tội. Trong bản tường trình, hắn lạnh lùng thừa nhận toàn bộ quá trình dùng chìa khóa vạn năng đột nhập vào phòng ngủ của Lauren vào khoảng bốn giờ ba mươi phút sáng ngày 26 tháng 6 năm 2011. Hắn khai nhận đã dùng một chiếc mặt nạ che kín mặt, dùng sức mạnh khống chế và tước đoạt sinh mạng của người bạn học cùng lớp ngay trên giường ngủ của cô. Sự thật trần trụi được phơi bày trong bản thú tội đã dập tắt mọi nghi vấn còn sót lại và chứng minh sự toan tính độc ác tột cùng của kẻ thủ ác.",
+  "direction": "bản thú tội chi tiết phơi bày sự thật",
+  "text": "Thỏa thuận nhận tội đi kèm một bản thừa nhận bằng văn bản chi tiết do chính McDaniel ký tên. Trong đó, hắn thừa nhận đã dùng chìa khóa vạn năng đột nhập vào căn hộ của Lauren vào khoảng bốn giờ ba mươi phút sáng ngày 26 tháng 6 năm 2011. Hắn thừa nhận đã tước đoạt mạng sống của người bạn học cùng khóa khi cô đang ngủ say. Lời thú nhận được đưa ra không phải từ sự thức tỉnh lương tâm, mà là sự tính toán hèn nhát để đổi lấy việc thoát khỏi án tử hình. Sự thật trần trụi được phơi bày trong văn bản đã dập tắt mọi nghi vấn còn sót lại và chứng minh sự toan tính độc ác tột cùng của kẻ thủ ác.",
   "sentences": [
    {
     "id": "4.04#1",
-    "text": "Thỏa thuận nhận tội bao gồm một bản thú tội chi tiết dài hai mươi hai trang do chính tay McDaniel ký tên xác nhận từng tình tiết phạm tội.",
-    "words": 30
+    "text": "Thỏa thuận nhận tội đi kèm một bản thừa nhận bằng văn bản chi tiết do chính McDaniel ký tên.",
+    "words": 20
    },
    {
     "id": "4.04#2",
-    "text": "Trong bản tường trình, hắn lạnh lùng thừa nhận toàn bộ quá trình dùng chìa khóa vạn năng đột nhập vào phòng ngủ của Lauren vào khoảng bốn giờ ba mươi phút sáng ngày 26 tháng 6 năm 2011.",
-    "words": 39
+    "text": "Trong đó, hắn thừa nhận đã dùng chìa khóa vạn năng đột nhập vào căn hộ của Lauren vào khoảng bốn giờ ba mươi phút sáng ngày 26 tháng 6 năm 2011.",
+    "words": 32
    },
    {
     "id": "4.04#3",
-    "text": "Hắn khai nhận đã dùng một chiếc mặt nạ che kín mặt, dùng sức mạnh khống chế và tước đoạt sinh mạng của người bạn học cùng lớp ngay trên giường ngủ của cô.",
-    "words": 34
+    "text": "Hắn thừa nhận đã tước đoạt mạng sống của người bạn học cùng khóa khi cô đang ngủ say.",
+    "words": 19
    },
    {
     "id": "4.04#4",
-    "text": "Sự thật trần trụi được phơi bày trong bản thú tội đã dập tắt mọi nghi vấn còn sót lại và chứng minh sự toan tính độc ác tột cùng của kẻ thủ ác.",
-    "words": 34
+    "text": "Lời thú nhận được đưa ra không phải từ sự thức tỉnh lương tâm, mà là sự tính toán hèn nhát để đổi lấy việc thoát khỏi án tử hình.",
+    "words": 30
+   },
+   {
+    "id": "4.04#5",
+    "text": "Sự thật trần trụi được phơi bày trong văn bản đã dập tắt mọi nghi vấn còn sót lại và chứng minh sự toan tính độc ác tột cùng của kẻ thủ ác.",
+    "words": 33
    }
   ]
  },
@@ -864,38 +1049,43 @@
   "act": 4,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Thám tử David Patterson, chiến thắng của sự thật",
-  "text": "Bản thú tội của Stephen McDaniel chính là kết quả của hàng nghìn giờ làm việc không mệt mỏi của lực lượng điều tra và các chuyên gia giám định kỹ thuật số. Hắn đã cố gắng ngụy tạo một câu chuyện về kẻ đột nhập bí ẩn, cố tình để lại hiện trường không có dấu vết cạy phá để đánh lừa cảnh sát. Nhưng hắn đã quên rằng mọi hành vi số trên máy tính và từng dấu vết công cụ trên kim loại đều để lại những chữ ký pháp y không thể tẩy xóa. Chiếc chìa khóa vạn năng và chiếc cưa sắt mà hắn mua chính là những bằng chứng thép đã khóa chặt cánh cửa tự do của kẻ sát nhân. Sự kiên trì của lực lượng thực thi pháp luật đã buộc một kẻ tự xưng là am hiểu luật pháp phải hoàn toàn đầu hàng trước sự thật. Đó là chiến thắng của công lý và lương tri trước sự gian xảo và tàn độc của tội ác.",
+  "direction": "D: chiến thắng của sự thật và bằng chứng thép",
+  "text": "Hãy hình dung, với lực lượng phá án, bản thỏa thuận nhận tội ấy là kết quả của hàng nghìn giờ làm việc không ngừng nghỉ của các trinh sát và chuyên gia kỹ thuật số. Hắn đã cố gắng đóng vai một người bạn vô can và sử dụng kiến thức luật học để dựng lên một mê cung che mắt cơ quan điều tra. Nhưng hắn đã quên rằng mọi hành vi số trên máy tính và từng dấu vết công cụ trên kim loại đều để lại những chữ ký pháp y vĩnh cửu. Chiếc chìa khóa vạn năng và những đoạn video quay lén khôi phục từ ổ cứng chính là những bằng chứng thép khóa chặt cánh cửa tự do của kẻ sát nhân. Trước một hồ sơ chứng cứ vững chắc và liền mạch đến từng chi tiết, mọi sự xảo biện của bị cáo đều trở nên hoàn toàn vô nghĩa. Sự kiên trì của lực lượng thực thi pháp luật đã buộc một kẻ tự xưng là am hiểu pháp luật phải cúi đầu nhận tội trước sự thật. Đó là chiến thắng vẻ vang của công lý và lương tri trước sự gian xảo và tàn độc của tội ác.",
   "sentences": [
    {
     "id": "4.06#1",
-    "text": "Bản thú tội của Stephen McDaniel chính là kết quả của hàng nghìn giờ làm việc không mệt mỏi của lực lượng điều tra và các chuyên gia giám định kỹ thuật số.",
-    "words": 33
+    "text": "Hãy hình dung, với lực lượng phá án, bản thỏa thuận nhận tội ấy là kết quả của hàng nghìn giờ làm việc không ngừng nghỉ của các trinh sát và chuyên gia kỹ thuật số.",
+    "words": 36
    },
    {
     "id": "4.06#2",
-    "text": "Hắn đã cố gắng ngụy tạo một câu chuyện về kẻ đột nhập bí ẩn, cố tình để lại hiện trường không có dấu vết cạy phá để đánh lừa cảnh sát.",
-    "words": 32
+    "text": "Hắn đã cố gắng đóng vai một người bạn vô can và sử dụng kiến thức luật học để dựng lên một mê cung che mắt cơ quan điều tra.",
+    "words": 30
    },
    {
     "id": "4.06#3",
-    "text": "Nhưng hắn đã quên rằng mọi hành vi số trên máy tính và từng dấu vết công cụ trên kim loại đều để lại những chữ ký pháp y không thể tẩy xóa.",
-    "words": 33
+    "text": "Nhưng hắn đã quên rằng mọi hành vi số trên máy tính và từng dấu vết công cụ trên kim loại đều để lại những chữ ký pháp y vĩnh cửu.",
+    "words": 31
    },
    {
     "id": "4.06#4",
-    "text": "Chiếc chìa khóa vạn năng và chiếc cưa sắt mà hắn mua chính là những bằng chứng thép đã khóa chặt cánh cửa tự do của kẻ sát nhân.",
-    "words": 29
+    "text": "Chiếc chìa khóa vạn năng và những đoạn video quay lén khôi phục từ ổ cứng chính là những bằng chứng thép khóa chặt cánh cửa tự do của kẻ sát nhân.",
+    "words": 32
    },
    {
     "id": "4.06#5",
-    "text": "Sự kiên trì của lực lượng thực thi pháp luật đã buộc một kẻ tự xưng là am hiểu luật pháp phải hoàn toàn đầu hàng trước sự thật.",
+    "text": "Trước một hồ sơ chứng cứ vững chắc và liền mạch đến từng chi tiết, mọi sự xảo biện của bị cáo đều trở nên hoàn toàn vô nghĩa.",
     "words": 29
    },
    {
     "id": "4.06#6",
-    "text": "Đó là chiến thắng của công lý và lương tri trước sự gian xảo và tàn độc của tội ác.",
-    "words": 20
+    "text": "Sự kiên trì của lực lượng thực thi pháp luật đã buộc một kẻ tự xưng là am hiểu pháp luật phải cúi đầu nhận tội trước sự thật.",
+    "words": 29
+   },
+   {
+    "id": "4.06#7",
+    "text": "Đó là chiến thắng vẻ vang của công lý và lương tri trước sự gian xảo và tàn độc của tội ác.",
+    "words": 22
    }
   ]
  },
@@ -911,7 +1101,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "lời phát biểu xúc động của gia đình nạn nhân",
-  "text": "Không khí trong phòng xử án như nghẹn lại khi Thẩm phán Howard Simms cho phép đại diện gia đình nạn nhân bước lên bục phát biểu trước khi tuyên án. Những lời nói nghẹn ngào trong nước mắt của người chị gái Kaitlyn Giddings đã khiến tất cả những người có mặt trong khán phòng không thể cầm được lòng. Đó là tiếng nói của nỗi đau đớn tột cùng nhưng cũng là lời khẳng định đanh thép về tình yêu thương vô bờ bến dành cho người em gái đã khuất.",
+  "text": "Không khí trong phòng xử án như nghẹn lại khi Thẩm phán Howard Simms cho phép đại diện gia đình nạn nhân bước lên bục phát biểu trước khi tuyên án. Hãy hình dung nỗi đau khôn cùng của những người cha, người mẹ và người thân trong gia đình Lauren khi ấy. Nỗi mất mát của một gia đình mất đi đứa con gái ưu tú nhất là vết thương vĩnh viễn không thể chữa lành. Nhưng đứng trước kẻ đã hủy hoại tương lai của Lauren, họ cất lên tiếng nói kiên cường của tình yêu thương và sự bất khuất.",
   "sentences": [
    {
     "id": "4.08#1",
@@ -920,13 +1110,18 @@
    },
    {
     "id": "4.08#2",
-    "text": "Những lời nói nghẹn ngào trong nước mắt của người chị gái Kaitlyn Giddings đã khiến tất cả những người có mặt trong khán phòng không thể cầm được lòng.",
-    "words": 30
+    "text": "Hãy hình dung nỗi đau khôn cùng của những người cha, người mẹ và người thân trong gia đình Lauren khi ấy.",
+    "words": 22
    },
    {
     "id": "4.08#3",
-    "text": "Đó là tiếng nói của nỗi đau đớn tột cùng nhưng cũng là lời khẳng định đanh thép về tình yêu thương vô bờ bến dành cho người em gái đã khuất.",
-    "words": 32
+    "text": "Nỗi mất mát của một gia đình mất đi đứa con gái ưu tú nhất là vết thương vĩnh viễn không thể chữa lành.",
+    "words": 24
+   },
+   {
+    "id": "4.08#4",
+    "text": "Nhưng đứng trước kẻ đã hủy hoại tương lai của Lauren, họ cất lên tiếng nói kiên cường của tình yêu thương và sự bất khuất.",
+    "words": 26
    }
   ]
  },
@@ -935,18 +1130,18 @@
   "act": 4,
   "kind": "LOI",
   "role": "N",
-  "direction": "N2: Kaitlyn Giddings Wheeler - Chị gái Lauren, giọng nữ nghẹn ngào, kiên cường",
-  "text": "Lauren không chỉ là em gái của tôi, cô ấy là người bạn thân nhất, là niềm tự hào lớn nhất của toàn thể gia đình chúng tôi. Em ấy đã làm việc chăm chỉ suốt nhiều năm trời, vượt qua bao kỳ thi khó khăn để chuẩn bị bước vào cuộc đời của một nữ luật sư bảo vệ công lý. Em ấy luôn đối xử với mọi người bằng sự tử tế, nụ cười rạng rỡ và sự chân thành không một chút toan tính. Stephen McDaniel đã sống ngay cạnh em tôi, đã nhìn thấy sự ấm áp của em tôi nhưng lại đáp lại bằng một sự ám ảnh bệnh hoạn và độc ác tột cùng. Hắn đã cướp đi tương lai tươi sáng của Lauren, cướp đi nụ cười của mẹ tôi và để lại một vết thương không bao giờ có thể lành trong trái tim chúng tôi. Dù bản án hôm nay có là gì đi nữa, nó cũng không thể nào mang Lauren quay trở lại với vòng tay yêu thương của gia đình. Nhưng tôi muốn hắn phải sống từng ngày trong bốn bức tường nhà tù để nhớ rằng tội ác của hắn đã hủy hoại một sinh mệnh đẹp đẽ đến nhường nào. Lauren sẽ luôn sống mãi trong ký ức của chúng tôi như một ngọn đèn của lòng tốt, lòng dũng cảm và tình yêu thương bất diệt.",
+  "direction": "N2: Người thân minh hoạ của gia đình Lauren, giọng nữ nghẹn ngào, kiên cường",
+  "text": "Lauren là niềm tự hào lớn nhất và là ánh sáng rực rỡ của toàn thể gia đình chúng tôi. Em ấy đã nỗ lực làm việc chăm chỉ suốt nhiều năm trời, vượt qua bao kỳ thi khó khăn để chuẩn bị bước vào cuộc đời của một nữ luật sư bảo vệ công lý. Em ấy luôn đối xử với mọi người bằng sự tử tế, nụ cười rạng rỡ và sự chân thành không một chút toan tính. Hắn đã sống ngay cạnh Lauren, đã nhìn thấy sự ấm áp của cô ấy nhưng lại đáp lại bằng một sự ám ảnh bệnh hoạn và độc ác tột cùng. Hắn đã cướp đi tương lai tươi sáng của Lauren, và để lại một vết thương không bao giờ có thể lành trong trái tim chúng tôi. Dù bản án hôm nay có là gì đi nữa, nó cũng không thể nào mang Lauren quay trở lại với vòng tay yêu thương của gia đình. Nhưng tôi muốn hắn phải sống từng ngày trong bốn bức tường nhà tù để nhớ rằng tội ác của hắn đã hủy hoại một sinh mệnh đẹp đẽ đến nhường nào. Lauren sẽ luôn sống mãi trong ký ức của chúng tôi như một ngọn đèn của lòng tốt, lòng dũng cảm và tình yêu thương bất diệt. Ký ức về em sẽ luôn chiến thắng bóng tối của sự độc ác mà hắn đã gieo rắc.",
   "sentences": [
    {
     "id": "4.09#1",
-    "text": "Lauren không chỉ là em gái của tôi, cô ấy là người bạn thân nhất, là niềm tự hào lớn nhất của toàn thể gia đình chúng tôi.",
-    "words": 28
+    "text": "Lauren là niềm tự hào lớn nhất và là ánh sáng rực rỡ của toàn thể gia đình chúng tôi.",
+    "words": 20
    },
    {
     "id": "4.09#2",
-    "text": "Em ấy đã làm việc chăm chỉ suốt nhiều năm trời, vượt qua bao kỳ thi khó khăn để chuẩn bị bước vào cuộc đời của một nữ luật sư bảo vệ công lý.",
-    "words": 34
+    "text": "Em ấy đã nỗ lực làm việc chăm chỉ suốt nhiều năm trời, vượt qua bao kỳ thi khó khăn để chuẩn bị bước vào cuộc đời của một nữ luật sư bảo vệ công lý.",
+    "words": 36
    },
    {
     "id": "4.09#3",
@@ -955,13 +1150,13 @@
    },
    {
     "id": "4.09#4",
-    "text": "Stephen McDaniel đã sống ngay cạnh em tôi, đã nhìn thấy sự ấm áp của em tôi nhưng lại đáp lại bằng một sự ám ảnh bệnh hoạn và độc ác tột cùng.",
-    "words": 33
+    "text": "Hắn đã sống ngay cạnh Lauren, đã nhìn thấy sự ấm áp của cô ấy nhưng lại đáp lại bằng một sự ám ảnh bệnh hoạn và độc ác tột cùng.",
+    "words": 31
    },
    {
     "id": "4.09#5",
-    "text": "Hắn đã cướp đi tương lai tươi sáng của Lauren, cướp đi nụ cười của mẹ tôi và để lại một vết thương không bao giờ có thể lành trong trái tim chúng tôi.",
-    "words": 34
+    "text": "Hắn đã cướp đi tương lai tươi sáng của Lauren, và để lại một vết thương không bao giờ có thể lành trong trái tim chúng tôi.",
+    "words": 27
    },
    {
     "id": "4.09#6",
@@ -977,6 +1172,11 @@
     "id": "4.09#8",
     "text": "Lauren sẽ luôn sống mãi trong ký ức của chúng tôi như một ngọn đèn của lòng tốt, lòng dũng cảm và tình yêu thương bất diệt.",
     "words": 27
+   },
+   {
+    "id": "4.09#9",
+    "text": "Ký ức về em sẽ luôn chiến thắng bóng tối của sự độc ác mà hắn đã gieo rắc.",
+    "words": 19
    }
   ]
  },
@@ -985,33 +1185,38 @@
   "act": 4,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Lời tuyên án của Thẩm phán Howard Simms",
-  "text": "Lời phát biểu của gia đình Lauren đã khắc sâu vào tâm khảm của từng điều tra viên có mặt trong phòng xử án ngày hôm đó. Thẩm phán Howard Simms sau đó đã đưa ra lời phán quyết nghiêm khắc nhất theo quy định của pháp luật bang Georgia. Ông tuyên phạt Stephen McDaniel bản án Tù chung thân với điều kiện phải chấp hành hình phạt tối thiểu ba mươi năm tù giam mới được quyền xem xét ân xá. Điều này đồng nghĩa với việc kẻ sát nhân sẽ không bao giờ có cơ hội nộp đơn xin ân xá trước năm 2041, khi hắn đã bước sang tuổi năm mươi sáu. McDaniel lập tức bị áp giải về Trại giam Bang Valdosta để bắt đầu chuỗi ngày thụ án trong sự giám sát chặt chẽ của pháp luật.",
+  "direction": "D: Phán quyết đanh thép của Tòa án",
+  "text": "Phiên tòa khép lại bằng phán quyết đanh thép của Thẩm phán Howard Simms. Thẩm phán Simms nhấn mạnh rằng hành vi của McDaniel là biểu hiện tột cùng của sự tàn nhẫn vô cảm, được ngụy trang dưới vẻ ngoài lập dị vô hại. Theo thỏa thuận nhận tội, các cáo buộc khác được bãi bỏ để tránh kéo dài nỗi đau cho gia đình nạn nhân qua một phiên xử tử hình. Ông tuyên phạt Stephen McDaniel bản án Tù chung thân với điều kiện phải chấp hành hình phạt tối thiểu ba mươi năm tù giam mới được quyền xem xét ân xá. Điều này đồng nghĩa với việc kẻ sát nhân sẽ không bao giờ có cơ hội nộp đơn xin ân xá trước năm 2041, khi hắn đã bước sang tuổi năm mươi lăm. McDaniel ngay sau đó bị áp giải vào hệ thống nhà tù bang Georgia để thụ án trong sự cô lập tuyệt đối.",
   "sentences": [
    {
     "id": "4.10#1",
-    "text": "Lời phát biểu của gia đình Lauren đã khắc sâu vào tâm khảm của từng điều tra viên có mặt trong phòng xử án ngày hôm đó.",
-    "words": 27
+    "text": "Phiên tòa khép lại bằng phán quyết đanh thép của Thẩm phán Howard Simms.",
+    "words": 14
    },
    {
     "id": "4.10#2",
-    "text": "Thẩm phán Howard Simms sau đó đã đưa ra lời phán quyết nghiêm khắc nhất theo quy định của pháp luật bang Georgia.",
-    "words": 23
+    "text": "Thẩm phán Simms nhấn mạnh rằng hành vi của McDaniel là biểu hiện tột cùng của sự tàn nhẫn vô cảm, được ngụy trang dưới vẻ ngoài lập dị vô hại.",
+    "words": 31
    },
    {
     "id": "4.10#3",
+    "text": "Theo thỏa thuận nhận tội, các cáo buộc khác được bãi bỏ để tránh kéo dài nỗi đau cho gia đình nạn nhân qua một phiên xử tử hình.",
+    "words": 29
+   },
+   {
+    "id": "4.10#4",
     "text": "Ông tuyên phạt Stephen McDaniel bản án Tù chung thân với điều kiện phải chấp hành hình phạt tối thiểu ba mươi năm tù giam mới được quyền xem xét ân xá.",
     "words": 32
    },
    {
-    "id": "4.10#4",
-    "text": "Điều này đồng nghĩa với việc kẻ sát nhân sẽ không bao giờ có cơ hội nộp đơn xin ân xá trước năm 2041, khi hắn đã bước sang tuổi năm mươi sáu.",
+    "id": "4.10#5",
+    "text": "Điều này đồng nghĩa với việc kẻ sát nhân sẽ không bao giờ có cơ hội nộp đơn xin ân xá trước năm 2041, khi hắn đã bước sang tuổi năm mươi lăm.",
     "words": 33
    },
    {
-    "id": "4.10#5",
-    "text": "McDaniel lập tức bị áp giải về Trại giam Bang Valdosta để bắt đầu chuỗi ngày thụ án trong sự giám sát chặt chẽ của pháp luật.",
-    "words": 27
+    "id": "4.10#6",
+    "text": "McDaniel ngay sau đó bị áp giải vào hệ thống nhà tù bang Georgia để thụ án trong sự cô lập tuyệt đối.",
+    "words": 23
    }
   ]
  },
@@ -1020,23 +1225,33 @@
   "act": 4,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: Đúc kết về sự phán xét của công lý",
-  "text": "Bản án chung thân dành cho Stephen McDaniel là một lời khẳng định đanh thép rằng không có bất kỳ trí tuệ hay sự am hiểu luật pháp nào có thể dung túng cho tội ác. Những kẻ mang nhân cách ái kỷ bệnh hoạn luôn tin rằng mình đứng trên luật pháp, nhưng thực tế chứng minh họ chỉ là những kẻ thất bại thảm hại trước sự thật. Sự phán xét của tòa án không chỉ đem lại công lý cho nạn nhân mà còn là lời cảnh tỉnh nghiêm khắc đối với toàn xã hội về sự nguy hiểm của hành vi rình rập săn mồi.",
+  "direction": "C: Đúc kết về Sụp đổ ái kỷ và Tự thương hại bệnh lý",
+  "text": "Khi nghe tuyên án, McDaniel không hề bộc lộ sự ăn năn chân chính hay hối hận vì sinh mạng đã tước đoạt. Ánh mắt hắn trống rỗng, thể hiện sự Tự thương hại bệnh lý, hay Pathological Self-Pity, khi nhận ra toàn bộ tương lai và danh vọng cá nhân đã tan tành. Đó là hiện tượng Sụp đổ cái tôi ái kỷ, hay Narcissistic Collapse: khi mọi quyền lực và sự kiểm soát bị tước bỏ, kẻ ái kỷ chỉ còn lại nỗi thương thân hèn mọn. Bản án chung thân là lời khẳng định rằng không có bất kỳ trí tuệ hay sự am hiểu luật pháp nào có thể dung túng cho tội ác. Kẻ săn mồi tự giam mình trong một ảo tưởng thiên tài cuối cùng đã phải nhận lấy bản án nghiêm khắc nhất của lương tri và công lý.",
   "sentences": [
    {
     "id": "4.11#1",
-    "text": "Bản án chung thân dành cho Stephen McDaniel là một lời khẳng định đanh thép rằng không có bất kỳ trí tuệ hay sự am hiểu luật pháp nào có thể dung túng cho tội ác.",
-    "words": 36
+    "text": "Khi nghe tuyên án, McDaniel không hề bộc lộ sự ăn năn chân chính hay hối hận vì sinh mạng đã tước đoạt.",
+    "words": 23
    },
    {
     "id": "4.11#2",
-    "text": "Những kẻ mang nhân cách ái kỷ bệnh hoạn luôn tin rằng mình đứng trên luật pháp, nhưng thực tế chứng minh họ chỉ là những kẻ thất bại thảm hại trước sự thật.",
-    "words": 34
+    "text": "Ánh mắt hắn trống rỗng, thể hiện sự Tự thương hại bệnh lý, hay Pathological Self-Pity, khi nhận ra toàn bộ tương lai và danh vọng cá nhân đã tan tành.",
+    "words": 31
    },
    {
     "id": "4.11#3",
-    "text": "Sự phán xét của tòa án không chỉ đem lại công lý cho nạn nhân mà còn là lời cảnh tỉnh nghiêm khắc đối với toàn xã hội về sự nguy hiểm của hành vi rình rập săn mồi.",
-    "words": 39
+    "text": "Đó là hiện tượng Sụp đổ cái tôi ái kỷ, hay Narcissistic Collapse: khi mọi quyền lực và sự kiểm soát bị tước bỏ, kẻ ái kỷ chỉ còn lại nỗi thương thân hèn mọn.",
+    "words": 35
+   },
+   {
+    "id": "4.11#4",
+    "text": "Bản án chung thân là lời khẳng định rằng không có bất kỳ trí tuệ hay sự am hiểu luật pháp nào có thể dung túng cho tội ác.",
+    "words": 29
+   },
+   {
+    "id": "4.11#5",
+    "text": "Kẻ săn mồi tự giam mình trong một ảo tưởng thiên tài cuối cùng đã phải nhận lấy bản án nghiêm khắc nhất của lương tri và công lý.",
+    "words": 29
    }
   ]
  },
@@ -1045,8 +1260,8 @@
   "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "khép lại Hồi 4",
-  "text": "Cánh cửa nhà tù an ninh cao đã vĩnh viễn khép lại phía sau lưng Stephen McDaniel, chấm dứt hành trình của một vụ án gây chấn động nước Mỹ. Nhưng những bài học đắt giá về việc bảo vệ an toàn cho phụ nữ và sinh viên sống độc lập thì vẫn còn nguyên giá trị thực tiễn sâu sắc.",
+  "direction": "khép lại Hồi 4, mở ra giá trị thức tỉnh",
+  "text": "Cánh cửa nhà tù an ninh cao đã vĩnh viễn khép lại phía sau lưng Stephen McDaniel, chấm dứt hành trình của một vụ án gây chấn động nước Mỹ. Nhưng những dư chấn tâm lý và bài học về việc bảo vệ an toàn cho phụ nữ và sinh viên sống độc lập thì vẫn còn nguyên giá trị thực tiễn sâu sắc. Đó là trách nhiệm của xã hội trong việc biến nỗi đau quá khứ thành tấm khiên bảo vệ cho tương lai.",
   "sentences": [
    {
     "id": "4.12#1",
@@ -1055,8 +1270,13 @@
    },
    {
     "id": "4.12#2",
-    "text": "Nhưng những bài học đắt giá về việc bảo vệ an toàn cho phụ nữ và sinh viên sống độc lập thì vẫn còn nguyên giá trị thực tiễn sâu sắc.",
-    "words": 31
+    "text": "Nhưng những dư chấn tâm lý và bài học về việc bảo vệ an toàn cho phụ nữ và sinh viên sống độc lập thì vẫn còn nguyên giá trị thực tiễn sâu sắc.",
+    "words": 34
+   },
+   {
+    "id": "4.12#3",
+    "text": "Đó là trách nhiệm của xã hội trong việc biến nỗi đau quá khứ thành tấm khiên bảo vệ cho tương lai.",
+    "words": 22
    }
   ]
  },
@@ -1078,7 +1298,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "giọng suy ngẫm, mang tính triết lý sâu lắng",
-  "text": "Nhiều năm đã trôi qua kể từ mùa hè định mệnh năm 2011 tại thành phố Macon, nhưng nụ cười rạng rỡ của Lauren Giddings vẫn luôn được tưởng nhớ tại Trường Luật Mercer. Một học bổng mang tên cô và một khu vườn tưởng niệm xanh mát đã được xây dựng để tôn vinh tinh thần học tập và trái tim nhân hậu của người con gái xấu số. Thảm kịch đau thương này đã thúc đẩy các trường đại học và khu chung cư sinh viên trên toàn nước Mỹ thắt chặt các quy định quản lý chìa khóa vạn năng và hệ thống camera giám sát. Tình yêu thương và di sản của Lauren đã biến thành động lực mạnh mẽ để bảo vệ sự an toàn cho các thế hệ sinh viên tiếp theo khi bước vào cuộc sống tự lập.",
+  "text": "Nhiều năm đã trôi qua kể từ mùa hè định mệnh năm 2011 tại thành phố Macon, nhưng nụ cười rạng rỡ của Lauren Giddings vẫn luôn được tưởng nhớ tại Trường Luật Mercer. Người thân và bạn bè vẫn gìn giữ ký ức về tinh thần học tập say mê và trái tim nhân hậu của cô gái trẻ. Thảm kịch đau thương này đã thúc đẩy một cuộc đại cải cách sâu rộng về quy chuẩn an toàn cư trú sinh viên trên toàn nước Mỹ. Quy trình quản lý chìa khóa vạn năng, kiểm soát lý lịch nhân sự bảo trì và hệ thống camera giám sát tại các khu nhà ở được thắt chặt ở mức tối đa. Di sản của Lauren đã biến thành động lực mạnh mẽ để bảo vệ sự an toàn cho các thế hệ sinh viên tiếp theo khi bước vào cuộc sống tự lập.",
   "sentences": [
    {
     "id": "5.02#1",
@@ -1087,18 +1307,23 @@
    },
    {
     "id": "5.02#2",
-    "text": "Một học bổng mang tên cô và một khu vườn tưởng niệm xanh mát đã được xây dựng để tôn vinh tinh thần học tập và trái tim nhân hậu của người con gái xấu số.",
-    "words": 36
+    "text": "Người thân và bạn bè vẫn gìn giữ ký ức về tinh thần học tập say mê và trái tim nhân hậu của cô gái trẻ.",
+    "words": 26
    },
    {
     "id": "5.02#3",
-    "text": "Thảm kịch đau thương này đã thúc đẩy các trường đại học và khu chung cư sinh viên trên toàn nước Mỹ thắt chặt các quy định quản lý chìa khóa vạn năng và hệ thống camera giám sát.",
-    "words": 39
+    "text": "Thảm kịch đau thương này đã thúc đẩy một cuộc đại cải cách sâu rộng về quy chuẩn an toàn cư trú sinh viên trên toàn nước Mỹ.",
+    "words": 28
    },
    {
     "id": "5.02#4",
-    "text": "Tình yêu thương và di sản của Lauren đã biến thành động lực mạnh mẽ để bảo vệ sự an toàn cho các thế hệ sinh viên tiếp theo khi bước vào cuộc sống tự lập.",
-    "words": 36
+    "text": "Quy trình quản lý chìa khóa vạn năng, kiểm soát lý lịch nhân sự bảo trì và hệ thống camera giám sát tại các khu nhà ở được thắt chặt ở mức tối đa.",
+    "words": 34
+   },
+   {
+    "id": "5.02#5",
+    "text": "Di sản của Lauren đã biến thành động lực mạnh mẽ để bảo vệ sự an toàn cho các thế hệ sinh viên tiếp theo khi bước vào cuộc sống tự lập.",
+    "words": 32
    }
   ]
  },
@@ -1108,7 +1333,7 @@
   "kind": "LOI",
   "role": "D",
   "direction": "D: Lời khuyên từ lực lượng điều tra hình sự",
-  "text": "Dưới góc độ điều tra hình sự, vụ án McDaniel là lời nhắc nhở sâu sắc rằng mối đe dọa nguy hiểm nhất đôi khi lại đến từ những người sống ngay cạnh cửa nhà chúng ta. Việc chủ quan cho rằng một người bạn cùng lớp hay người hàng xóm có học thức là hoàn toàn an toàn có thể khiến chúng ta mất cảnh giác trước những dấu hiệu bất thường. Lực lượng cảnh sát khuyến cáo người dân, đặc biệt là những người sống một mình, phải luôn chủ động kiểm tra hệ thống an ninh căn hộ và báo cáo ngay khi phát hiện dấu hiệu bị theo dõi.",
+  "text": "Dưới góc độ điều tra hình sự, vụ án McDaniel là lời nhắc nhở sâu sắc rằng mối đe dọa nguy hiểm nhất đôi khi lại đến từ những người sống ngay cạnh cửa nhà chúng ta. Việc chủ quan cho rằng một người bạn cùng lớp hay người hàng xóm có học thức là hoàn toàn an toàn có thể khiến chúng ta mất cảnh giác trước những dấu hiệu bất thường. Tội phạm không có khuôn mặt cố định, và sự lập dị nhút nhát đôi khi là lớp mặt nạ che đậy những hành vi xâm phạm nguy hiểm nhất. Lực lượng cảnh sát khuyến cáo người dân, đặc biệt là những người sống một mình, phải luôn chủ động kiểm tra hệ thống an ninh căn hộ và báo cáo ngay khi phát hiện dấu hiệu bị theo dõi.",
   "sentences": [
    {
     "id": "5.03#1",
@@ -1122,6 +1347,11 @@
    },
    {
     "id": "5.03#3",
+    "text": "Tội phạm không có khuôn mặt cố định, và sự lập dị nhút nhát đôi khi là lớp mặt nạ che đậy những hành vi xâm phạm nguy hiểm nhất.",
+    "words": 30
+   },
+   {
+    "id": "5.03#4",
     "text": "Lực lượng cảnh sát khuyến cáo người dân, đặc biệt là những người sống một mình, phải luôn chủ động kiểm tra hệ thống an ninh căn hộ và báo cáo ngay khi phát hiện dấu hiệu bị theo dõi.",
     "words": 40
    }
@@ -1133,7 +1363,7 @@
   "kind": "LOI",
   "role": "C",
   "direction": "C: Đúc kết về nhận diện sớm và thiết lập ranh giới an toàn",
-  "text": "Các nghiên cứu tâm lý học tội phạm chỉ ra rằng phần lớn các vụ bạo lực rình rập đều bắt đầu từ những hành vi xâm phạm ranh giới cá nhân rất nhỏ nhặt trong đời sống thường ngày. Khi nạn nhân không nhận biết hoặc bỏ qua những tín hiệu cảnh báo ban đầu vì phép lịch sự, kẻ rình rập sẽ dần dần leo thang mức độ kiểm soát và xâm nhập. Việc trang bị kiến thức nhận diện tâm lý kẻ săn mồi và biết cách thiết lập ranh giới an toàn dứt khoát là kỹ năng sinh tồn thiết yếu trong xã hội hiện đại. Sự cảnh giác tỉnh táo kết hợp với sự hỗ trợ kịp thời của cộng đồng chính là tấm khiên vững chắc nhất để bảo vệ bản thân trước những kẻ rình rập giấu mặt.",
+  "text": "Các nghiên cứu tâm lý học tội phạm chỉ ra rằng phần lớn các vụ bạo lực rình rập đều bắt đầu từ những hành vi xâm phạm ranh giới cá nhân rất nhỏ nhặt trong đời sống thường ngày. Khi nạn nhân không nhận biết hoặc bỏ qua những tín hiệu cảnh báo ban đầu vì phép lịch sự xã hội, kẻ rình rập sẽ dần dần leo thang mức độ kiểm soát và xâm nhập. Như chuyên gia hành vi Gavin de Becker từng khẳng định trong công trình The Gift of Fear, trực giác sinh tồn là radar chính xác nhất mà tự nhiên ban tặng cho con người. Lắng nghe sự bất an mơ hồ và dứt khoát thiết lập ranh giới phòng thủ là kỹ năng bảo vệ mạng sống thiết yếu trong xã hội hiện đại. Sự cảnh giác tỉnh táo kết hợp với sự hỗ trợ kịp thời của cộng đồng chính là tấm khiên vững chắc nhất để vô hiệu hóa những kẻ rình rập giấu mặt.",
   "sentences": [
    {
     "id": "5.04#1",
@@ -1142,18 +1372,23 @@
    },
    {
     "id": "5.04#2",
-    "text": "Khi nạn nhân không nhận biết hoặc bỏ qua những tín hiệu cảnh báo ban đầu vì phép lịch sự, kẻ rình rập sẽ dần dần leo thang mức độ kiểm soát và xâm nhập.",
-    "words": 35
+    "text": "Khi nạn nhân không nhận biết hoặc bỏ qua những tín hiệu cảnh báo ban đầu vì phép lịch sự xã hội, kẻ rình rập sẽ dần dần leo thang mức độ kiểm soát và xâm nhập.",
+    "words": 37
    },
    {
     "id": "5.04#3",
-    "text": "Việc trang bị kiến thức nhận diện tâm lý kẻ săn mồi và biết cách thiết lập ranh giới an toàn dứt khoát là kỹ năng sinh tồn thiết yếu trong xã hội hiện đại.",
+    "text": "Như chuyên gia hành vi Gavin de Becker từng khẳng định trong công trình The Gift of Fear, trực giác sinh tồn là radar chính xác nhất mà tự nhiên ban tặng cho con người.",
     "words": 35
    },
    {
     "id": "5.04#4",
-    "text": "Sự cảnh giác tỉnh táo kết hợp với sự hỗ trợ kịp thời của cộng đồng chính là tấm khiên vững chắc nhất để bảo vệ bản thân trước những kẻ rình rập giấu mặt.",
-    "words": 35
+    "text": "Lắng nghe sự bất an mơ hồ và dứt khoát thiết lập ranh giới phòng thủ là kỹ năng bảo vệ mạng sống thiết yếu trong xã hội hiện đại.",
+    "words": 30
+   },
+   {
+    "id": "5.04#5",
+    "text": "Sự cảnh giác tỉnh táo kết hợp với sự hỗ trợ kịp thời của cộng đồng chính là tấm khiên vững chắc nhất để vô hiệu hóa những kẻ rình rập giấu mặt.",
+    "words": 33
    }
   ]
  },
@@ -1162,8 +1397,8 @@
   "act": 5,
   "kind": "LOI",
   "role": "H",
-  "direction": "chuyển sang phần đúc kết và bài học nhận diện thực tế",
-  "text": "Để giúp quý vị khán giả, đặc biệt là các bạn trẻ và phụ nữ đang sống độc lập tại các khu chung cư, kịp thời nhận diện và ngăn chặn nguy cơ bị rình rập từ sớm, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ kinh điển được đúc kết từ hồ sơ Stephen McDaniel. Dấu hiệu thứ nhất: Sự xuất hiện trùng hợp quá mức và hành vi xâm phạm không gian riêng tư một cách bất thường. Khi một người hàng xóm hoặc đồng nghiệp luôn biết chính xác lịch trình di chuyển, thường xuyên tình cờ xuất hiện trước cửa nhà bạn hoặc cố tình kéo dài các cuộc trò chuyện gượng gạo, đó là tín hiệu cảnh báo ban đầu. Đừng bao giờ nhầm lẫn sự bám đuôi dai dẳng với sự quan tâm chân thành, hãy luôn tin vào trực giác mách bảo khi cảm thấy không gian riêng của mình đang bị xâm phạm. Dấu hiệu thứ hai: Sự tò mò bệnh hoạn về đời sống tình cảm và các mối quan hệ cá nhân của bạn. Những kẻ rình rập ngầm thường có xu hướng thăm dò xem bạn đang hẹn hò với ai, bạn bè nào thường xuyên ghé thăm và bộc lộ sự khó chịu hoặc ghen tuông ngầm khi thấy bạn hạnh phúc. Sự tò mò vượt quá ranh giới lịch sự xã hội là biểu hiện ban đầu của ảo tưởng sở hữu và mong muốn cô lập nạn nhân khỏi vòng tròn hỗ trợ xung quanh. Dấu hiệu thứ ba: Những dấu vết bất thường quanh căn hộ và linh cảm về sự hiện diện của người lạ. Nếu bạn phát hiện đồ đạc trong phòng bị dịch chuyển nhẹ, có âm thanh lạ bên ngoài cửa sổ vào ban đêm hoặc ổ khóa có dấu hiệu trầy xước, tuyệt đối không được chủ quan bỏ qua. Hãy lập tức yêu cầu ban quản lý kiểm tra hệ thống chìa khóa quản lý, lắp đặt thêm chốt khóa an toàn bên trong và trang bị camera an ninh cá nhân để lưu giữ bằng chứng. Dấu hiệu thứ tư: Những biểu hiện cảm xúc kỳ dị và sự thay đổi đột ngột giữa vẻ ngoài nhút nhát với những bình luận mang tính bạo lực. Stephen McDaniel từng nhiều lần đăng tải những bài viết u tối về cái chết, sự trả thù và phụ nữ trên các diễn đàn mạng trước khi thực hiện hành vi tội ác. Khi một người xung quanh bộc lộ sự thù hận phụ nữ cực đoan kết hợp với cái tôi nhạy cảm dễ bị tổn thương, đó là một nhân cách tiềm ẩn nguy cơ bùng phát bạo lực rất cao. Sự an toàn của bản thân và những người thân yêu luôn là ưu tiên tối thượng không thể đánh đổi bằng sự e dè hay cả nể. Cảm ơn quý vị đã dành thời gian đồng hành cùng Amber Eyes trong tập hồ sơ tâm lý học tội phạm đầy kịch tính và bài học cảnh tỉnh sâu sắc ngày hôm nay. Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ video này đến bạn bè và người thân để cùng nhau lan tỏa những kiến thức an toàn hữu ích. Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
+  "direction": "trình bày 4 dấu hiệu cảnh báo đỏ và lời kết kênh",
+  "text": "Để giúp quý vị khán giả, đặc biệt là các bạn trẻ và phụ nữ đang sống độc lập tại các khu chung cư, kịp thời nhận diện và ngăn chặn nguy cơ bị rình rập từ sớm, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ kinh điển được đúc kết từ hồ sơ Stephen McDaniel. Dấu hiệu thứ nhất: Sự xuất hiện trùng hợp quá mức và hành vi xâm phạm không gian riêng tư một cách bất thường. Khi một người hàng xóm hoặc đồng nghiệp luôn biết chính xác lịch trình di chuyển, thường xuyên tình cờ xuất hiện trước cửa nhà bạn hoặc cố tình kéo dài các cuộc trò chuyện gượng gạo, đó là tín hiệu cảnh báo ban đầu. Đừng bao giờ nhầm lẫn sự bám đuôi dai dẳng với sự quan tâm chân thành, hãy luôn tin vào trực giác mách bảo khi cảm thấy không gian riêng của mình đang bị xâm phạm. Dấu hiệu thứ hai: Sự tò mò bệnh hoạn về đời sống tình cảm và các mối quan hệ cá nhân của bạn. Những kẻ rình rập ngầm thường có xu hướng thăm dò xem bạn đang hẹn hò với ai, bạn bè nào thường xuyên ghé thăm và bộc lộ sự khó chịu hoặc ghen tuông ngầm khi thấy bạn hạnh phúc. Sự tò mò vượt quá ranh giới lịch sự xã hội là biểu hiện ban đầu của ảo tưởng sở hữu và mong muốn cô lập nạn nhân khỏi vòng tròn hỗ trợ xung quanh. Dấu hiệu thứ ba: Những dấu vết bất thường quanh căn hộ và linh cảm về sự hiện diện của người lạ. Nếu bạn phát hiện đồ đạc trong phòng bị dịch chuyển nhẹ, có âm thanh lạ bên ngoài cửa sổ vào ban đêm hoặc ổ khóa có dấu hiệu trầy xước, tuyệt đối không được chủ quan bỏ qua. Hãy lập tức yêu cầu ban quản lý kiểm tra hệ thống chìa khóa quản lý, lắp đặt thêm chốt khóa an toàn bên trong và trang bị camera an ninh cá nhân để lưu giữ bằng chứng. Dấu hiệu thứ tư: Những biểu hiện cảm xúc kỳ dị và sự thay đổi đột ngột giữa vẻ ngoài nhút nhát với những bình luận mang tính bạo lực. Đằng sau vẻ ngoài rụt rè của Stephen McDaniel là một thế giới nội tâm méo mó mà ít người xung quanh nhận ra. Khi một người xung quanh bộc lộ sự thù hận phụ nữ cực đoan kết hợp với cái tôi nhạy cảm dễ bị tổn thương, đó là một nhân cách tiềm ẩn nguy cơ bùng phát bạo lực rất cao. Sự an toàn của bản thân và những người thân yêu luôn là ưu tiên tối thượng không thể đánh đổi bằng sự e dè hay cả nể. Cảm ơn quý vị đã dành thời gian đồng hành cùng Amber Eyes trong tập hồ sơ tâm lý học tội phạm đầy kịch tính và bài học cảnh tỉnh sâu sắc ngày hôm nay. Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ video này đến bạn bè và người thân để cùng nhau lan tỏa những kiến thức an toàn hữu ích. Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
   "sentences": [
    {
     "id": "5.05#1",
@@ -1222,8 +1457,8 @@
    },
    {
     "id": "5.05#12",
-    "text": "Stephen McDaniel từng nhiều lần đăng tải những bài viết u tối về cái chết, sự trả thù và phụ nữ trên các diễn đàn mạng trước khi thực hiện hành vi tội ác.",
-    "words": 34
+    "text": "Đằng sau vẻ ngoài rụt rè của Stephen McDaniel là một thế giới nội tâm méo mó mà ít người xung quanh nhận ra.",
+    "words": 24
    },
    {
     "id": "5.05#13",
@@ -1256,6 +1491,6 @@
   "id": "5.06",
   "act": 5,
   "kind": "BGM",
-  "desc": "*Nhạc nền ngân vang ấm áp, trang trọng rồi mờ dần (Fade out hoàn toàn ở giây thứ 5).*"
+  "desc": "*Nhạc nền ngân vang ấm áp, trang trọng rồi mờ dần.*"
  }
 ]

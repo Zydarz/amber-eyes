@@ -1,11 +1,24 @@
-# NGUỒN THAM KHẢO & ĐỐI CHIẾU DỮ KIỆN — CẶP ĐÔI KEN & BARBIE — HỘI CHỨNG ĐIÊN CUỒNG ĐÔI & THỎA THUẬN VỚI QUỶ DỮ (HỒ SƠ PAUL BERNARDO & KARLA HOMOLKA)
+📚 TỔNG HỢP NGUỒN THAM KHẢO HỒ SƠ TẬP 11 (PAUL BERNARDO & KARLA HOMOLKA)
+Amber eyes tuân thủ nguyên tắc đối chiếu đa nguồn từ hồ sơ tư pháp công khai của Tòa án Ontario và Bộ Tư pháp Canada:
 
-Toàn bộ các mốc thời gian, nhân vật, địa danh, quy trình điều tra và phán quyết tư pháp trong hồ sơ vụ án **Bernardo** đã được đối chiếu chéo với các nguồn tài liệu chính thống của cơ quan điều tra, bản án tòa án và báo chí chính luận có uy tín.
+1. Hồ sơ tòa án & Phán quyết tư pháp chính thức:
+• Tòa Thượng thẩm Ontario (Ontario Superior Court of Justice) — Bản án xét xử Paul Kenneth Bernardo (1995, Thẩm phán Patrick LeSage, tuyên bố Can phạm Nguy hiểm - Dangerous Offender): https://www.canlii.org/
+• Viện Kiểm sát Tỉnh bang Ontario — Hồ sơ thỏa thuận nhận tội đặc biệt của Karla Homolka (1993, mức án 12 năm tù): https://www.ontario.ca/
+• Tòa Phúc thẩm Ontario (Court of Appeal for Ontario) — Bác đơn kháng cáo bản án chung thân của Paul Bernardo (1997 CanLII 1256): https://www.canlii.org/
 
-| Dữ kiện trong kịch bản | Nội dung đối chiếu kiểm chứng | Nguồn tham chiếu chính thức | Trạng thái |
-|---|---|---|:---:|
-| **Cặp đôi Bernardo - Homolka** | Paul Bernardo và Karla Homolka kết hôn năm 1991 tại Niagara-on-the-Lake dưới vỏ bọc cặp đôi thành đạt hoàn hảo. | Hồ sơ Tòa án Tối cao Ontario | **Chính xác 100%** |
-| **Vụ cưỡng hiếp Scarborough** | Từ 1987-1990, Bernardo thực hiện ít nhất 14 vụ cưỡng hiếp tại khu vực Scarborough trước khi leo thang. | Báo cáo Toronto Police Service | **Chính xác 100%** |
-| **Cái chết của Tammy Homolka** | Đêm Giáng sinh 1990, Karla đánh cắp thuốc gây mê Halothane chuốc mê em gái 15 tuổi tạo điều kiện cho Bernardo xâm hại dẫn đến tử vong. | Khám nghiệm tử thi & Lời khai nhân chứng | **Chính xác 100%** |
-| **Án mạng Mahaffy & French** | Bắt cóc và sát hại Leslie Mahaffy (14 tuổi, tháng 6/1991) và Kristen French (15 tuổi, tháng 4/1992). | Bản án Tòa Thượng thẩm Ontario 1995 | **Chính xác 100%** |
-| **Chứng cứ video giấu trần nhà** | 6 cuốn băng video ghi lại toàn bộ tội ác được luật sư Ken Murray tìm thấy giấu trên trần phòng tắm nhà số 57 Birmingham. | Hồ sơ vụ án Tòa án Ontario | **Chính xác 100%** |
+2. Báo cáo điều tra tư pháp độc lập & Cải cách hệ thống:
+• Cựu Thẩm phán Patrick Galligan (1996) — Báo cáo điều tra độc lập về quy trình ký kết thỏa thuận nhận tội của cơ quan công tố Ontario (Galligan Inquiry).
+• Thẩm phán Archie Campbell (1999) — Báo cáo điều tra Campbell (Campbell Inquiry) về sự tắc nghẽn thông tin cảnh sát và cuộc đại cải tổ hệ thống ViCLAS toàn quốc.
+
+3. Tư liệu điều tra báo chí & Chuyên khảo tội phạm học:
+• Stephen Williams (Ký giả điều tra) — Tác phẩm tư liệu 'Invisible Darkness: The Strange Case of Paul Bernardo and Karla Homolka': https://www.penguinrandomhouse.ca/
+• Nick Pron (Phóng viên Toronto Star) — 'Lethal Marriage: The Unspeakable Crimes of Paul Bernardo and Karla Homolka': https://www.torontostar.com/
+
+4. Tâm lý học hành vi & Khung phân tích chuyên sâu:
+• Thang đo Thái nhân cách Robert Hare (Hare Psychopathy Checklist-Revised - PCL-R) áp dụng cho Paul Bernardo: https://www.hare.org/
+• Phân tích Hội chứng Điên cuồng đôi (Shared Psychotic Disorder / Folie à Deux), Thao túng đóng vai nạn nhân (Manipulative Victimhood) và Kỹ thuật trung hòa đạo đức (Sykes & Matza).
+
+5. Đường dây nóng hỗ trợ & bảo vệ:
+• Tổng đài Quốc gia Bảo vệ Trẻ em 111 (Việt Nam, miễn phí 24/7): http://tongdai111.vn/
+• Đường dây nóng Ngày Mai (Hỗ trợ khủng hoảng tâm lý): 096 306 1414 — https://duongdaynongngaymai.vn/
+• Đường dây nóng hỗ trợ phụ nữ bị bạo lực gia đình: 1900 969 680

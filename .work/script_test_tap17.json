@@ -1,0 +1,1261 @@
+[
+ {
+  "id": "1.01",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "*Nhạc Dark Ambient ngột ngạt, tiếng gió rít rợn người giữa đêm lạnh, hòa cùng tiếng thở gấp gáp trong bóng tối.*"
+ },
+ {
+  "id": "1.02",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "chậm rãi, giọng trầm ấm gợi mở không khí điều tra bí ẩn",
+  "text": "Rạng sáng ngày 14 tháng 1 năm 2018, thành phố Perris thuộc hạt Riverside, bang California vẫn đang chìm trong màn sương lạnh giá. Tại một ngôi nhà trên đường Muir Woods Road, một cánh cửa sổ hé mở trong sự tĩnh lặng tuyệt đối. Một thiếu nữ gầy gò, nhỏ bé đến mức trông như một đứa trẻ, trèo qua bậu cửa và bước ra ngoài. Trong lồng ngực cô gái trẻ là nỗi sợ hãi tột cùng nếu bị cha mẹ phát hiện. Trong tay cô là một chiếc điện thoại di động cũ đã bị ngắt dịch vụ mạng. Cô không biết địa chỉ chính xác của ngôi nhà mình, vì gần như chưa bao giờ được tự do bước ra thế giới bên ngoài.",
+  "sentences": [
+   {
+    "id": "1.02#1",
+    "text": "Rạng sáng ngày 14 tháng 1 năm 2018, thành phố Perris thuộc hạt Riverside, bang California vẫn đang chìm trong màn sương lạnh giá.",
+    "words": 24
+   },
+   {
+    "id": "1.02#2",
+    "text": "Tại một ngôi nhà trên đường Muir Woods Road, một cánh cửa sổ hé mở trong sự tĩnh lặng tuyệt đối.",
+    "words": 21
+   },
+   {
+    "id": "1.02#3",
+    "text": "Một thiếu nữ gầy gò, nhỏ bé đến mức trông như một đứa trẻ, trèo qua bậu cửa và bước ra ngoài.",
+    "words": 22
+   },
+   {
+    "id": "1.02#4",
+    "text": "Trong lồng ngực cô gái trẻ là nỗi sợ hãi tột cùng nếu bị cha mẹ phát hiện.",
+    "words": 18
+   },
+   {
+    "id": "1.02#5",
+    "text": "Trong tay cô là một chiếc điện thoại di động cũ đã bị ngắt dịch vụ mạng.",
+    "words": 17
+   },
+   {
+    "id": "1.02#6",
+    "text": "Cô không biết địa chỉ chính xác của ngôi nhà mình, vì gần như chưa bao giờ được tự do bước ra thế giới bên ngoài.",
+    "words": 26
+   }
+  ]
+ },
+ {
+  "id": "1.03",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "*Tiếng bấm phím số điện thoại khẩn cấp tút tút, tiếng thở dốc nghẹn ngào.*"
+ },
+ {
+  "id": "1.04",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tiếp tục mạch tự sự cuốn hút, khắc họa lòng dũng cảm",
+  "text": "Thiếu nữ quả cảm ấy tên là Jordan Turpin, khi đó mười bảy tuổi. Theo cơ quan công tố, Jordan cùng một người em đã âm thầm lên kế hoạch trốn thoát suốt khoảng hai năm. Cô biết rằng nếu kế hoạch thất bại, cái giá phải trả có thể vô cùng đắt. May mắn thay, ở Mỹ, một chiếc điện thoại đã ngắt dịch vụ vẫn có thể gọi đến số khẩn cấp 911. Khi đầu dây bên kia cất tiếng trả lời, Jordan cất lên một giọng nói non nớt, đứt quãng nhưng chứa đựng sự thật kinh hoàng. Cô cho nhân viên trực ban biết mình có mười hai anh chị em và cha mẹ đang giam giữ họ trong nhà. Cuộc gọi ấy đã kích hoạt một chiến dịch giải cứu làm chấn động toàn bộ xã hội Mỹ.",
+  "sentences": [
+   {
+    "id": "1.04#1",
+    "text": "Thiếu nữ quả cảm ấy tên là Jordan Turpin, khi đó mười bảy tuổi.",
+    "words": 14
+   },
+   {
+    "id": "1.04#2",
+    "text": "Theo cơ quan công tố, Jordan cùng một người em đã âm thầm lên kế hoạch trốn thoát suốt khoảng hai năm.",
+    "words": 22
+   },
+   {
+    "id": "1.04#3",
+    "text": "Cô biết rằng nếu kế hoạch thất bại, cái giá phải trả có thể vô cùng đắt.",
+    "words": 17
+   },
+   {
+    "id": "1.04#4",
+    "text": "May mắn thay, ở Mỹ, một chiếc điện thoại đã ngắt dịch vụ vẫn có thể gọi đến số khẩn cấp 911.",
+    "words": 22
+   },
+   {
+    "id": "1.04#5",
+    "text": "Khi đầu dây bên kia cất tiếng trả lời, Jordan cất lên một giọng nói non nớt, đứt quãng nhưng chứa đựng sự thật kinh hoàng.",
+    "words": 26
+   },
+   {
+    "id": "1.04#6",
+    "text": "Cô cho nhân viên trực ban biết mình có mười hai anh chị em và cha mẹ đang giam giữ họ trong nhà.",
+    "words": 23
+   },
+   {
+    "id": "1.04#7",
+    "text": "Cuộc gọi ấy đã kích hoạt một chiến dịch giải cứu làm chấn động toàn bộ xã hội Mỹ.",
+    "words": 19
+   }
+  ]
+ },
+ {
+  "id": "1.05",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "*Tiếng ghi âm cuộc gọi 911 rào rào, tiếng gõ bàn phím định vị tọa độ khẩn cấp.*"
+ },
+ {
+  "id": "1.06",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "chuyển giọng u ám, hé lộ sự thiếu hụt nhận thức",
+  "text": "Trong suốt cuộc trò chuyện, nhân viên điều phối nhận ra những câu trả lời ngây thơ đến kỳ lạ của cô gái mười bảy tuổi. Jordan không biết rõ địa chỉ nơi mình sống và không quen với nhiều khái niệm thông thường như thuốc men. Cô kể rằng căn nhà rất bẩn và các anh chị em của mình đã lâu không được tắm rửa. Cô còn mang theo những bức ảnh chụp trong nhà, về sau trở thành bằng chứng quan trọng. Lực lượng của Văn phòng Cảnh sát trưởng Hạt Riverside ngay lập tức được điều động đến hiện trường.",
+  "sentences": [
+   {
+    "id": "1.06#1",
+    "text": "Trong suốt cuộc trò chuyện, nhân viên điều phối nhận ra những câu trả lời ngây thơ đến kỳ lạ của cô gái mười bảy tuổi.",
+    "words": 26
+   },
+   {
+    "id": "1.06#2",
+    "text": "Jordan không biết rõ địa chỉ nơi mình sống và không quen với nhiều khái niệm thông thường như thuốc men.",
+    "words": 21
+   },
+   {
+    "id": "1.06#3",
+    "text": "Cô kể rằng căn nhà rất bẩn và các anh chị em của mình đã lâu không được tắm rửa.",
+    "words": 20
+   },
+   {
+    "id": "1.06#4",
+    "text": "Cô còn mang theo những bức ảnh chụp trong nhà, về sau trở thành bằng chứng quan trọng.",
+    "words": 18
+   },
+   {
+    "id": "1.06#5",
+    "text": "Lực lượng của Văn phòng Cảnh sát trưởng Hạt Riverside ngay lập tức được điều động đến hiện trường.",
+    "words": 19
+   }
+  ]
+ },
+ {
+  "id": "1.07",
+  "act": 1,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "N1: Nhân vật minh hoạ — góc nhìn của một nhân viên tổng đài khẩn cấp, giọng nữ trẻ nghẹn ngào, bàng hoàng",
+  "text": "Hãy hình dung cảm giác của một nhân viên tổng đài khẩn cấp khi nhận cuộc gọi vào rạng sáng hôm đó. Giọng nói ở đầu dây nghe non nớt như của một đứa trẻ, dù người gọi đã mười bảy tuổi. Cô gái nói chuyện rất khó khăn, nhiều từ ngữ thông dụng hằng ngày dường như rất xa lạ với cô. Khi cô gái kể rằng các em mình đang bị xích vào giường, người nhân viên ấy hẳn đã lạnh toát sống lưng. Mỗi giây trôi qua trong cuộc gọi là một sự lo âu nghẹt thở cho sự an toàn của cô gái ngoài đường phố. Chỉ khi xe cảnh sát tiếp cận được vị trí của Jordan, người ở đầu dây mới có thể thở phào. Đó là kiểu cuộc gọi mà người làm nghề khẩn cấp không bao giờ quên.",
+  "sentences": [
+   {
+    "id": "1.07#1",
+    "text": "Hãy hình dung cảm giác của một nhân viên tổng đài khẩn cấp khi nhận cuộc gọi vào rạng sáng hôm đó.",
+    "words": 22
+   },
+   {
+    "id": "1.07#2",
+    "text": "Giọng nói ở đầu dây nghe non nớt như của một đứa trẻ, dù người gọi đã mười bảy tuổi.",
+    "words": 20
+   },
+   {
+    "id": "1.07#3",
+    "text": "Cô gái nói chuyện rất khó khăn, nhiều từ ngữ thông dụng hằng ngày dường như rất xa lạ với cô.",
+    "words": 21
+   },
+   {
+    "id": "1.07#4",
+    "text": "Khi cô gái kể rằng các em mình đang bị xích vào giường, người nhân viên ấy hẳn đã lạnh toát sống lưng.",
+    "words": 23
+   },
+   {
+    "id": "1.07#5",
+    "text": "Mỗi giây trôi qua trong cuộc gọi là một sự lo âu nghẹt thở cho sự an toàn của cô gái ngoài đường phố.",
+    "words": 24
+   },
+   {
+    "id": "1.07#6",
+    "text": "Chỉ khi xe cảnh sát tiếp cận được vị trí của Jordan, người ở đầu dây mới có thể thở phào.",
+    "words": 21
+   },
+   {
+    "id": "1.07#7",
+    "text": "Đó là kiểu cuộc gọi mà người làm nghề khẩn cấp không bao giờ quên.",
+    "words": 15
+   }
+  ]
+ },
+ {
+  "id": "1.08",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "*Tiếng gõ cửa dồn dập của cảnh sát, tiếng then cài cửa sắt lạch cạch mở ra.*"
+ },
+ {
+  "id": "1.09",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng căng thẳng, tái hiện khoảnh khắc đột kích",
+  "text": "Phó Cảnh sát trưởng Manuel Campos là một trong những người đầu tiên tiếp cận Jordan Turpin. Các sĩ quan sững sờ khi nhìn thấy một thiếu nữ mười bảy tuổi gầy gò, nhỏ bé như một đứa trẻ. Sau khi xem những bức ảnh Jordan mang theo, lực lượng tuần tra lập tức đến ngôi nhà. Người cha David Turpin và người mẹ Louise Turpin tỏ ra bối rối khi cảnh sát xuất hiện. Bên trong, các điều tra viên đối diện với một không gian tối tăm, bẩn thỉu và nồng nặc mùi hôi. Mười hai người con còn lại trong nhà đang chờ đợi sự giải thoát.",
+  "sentences": [
+   {
+    "id": "1.09#1",
+    "text": "Phó Cảnh sát trưởng Manuel Campos là một trong những người đầu tiên tiếp cận Jordan Turpin.",
+    "words": 17
+   },
+   {
+    "id": "1.09#2",
+    "text": "Các sĩ quan sững sờ khi nhìn thấy một thiếu nữ mười bảy tuổi gầy gò, nhỏ bé như một đứa trẻ.",
+    "words": 22
+   },
+   {
+    "id": "1.09#3",
+    "text": "Sau khi xem những bức ảnh Jordan mang theo, lực lượng tuần tra lập tức đến ngôi nhà.",
+    "words": 18
+   },
+   {
+    "id": "1.09#4",
+    "text": "Người cha David Turpin và người mẹ Louise Turpin tỏ ra bối rối khi cảnh sát xuất hiện.",
+    "words": 18
+   },
+   {
+    "id": "1.09#5",
+    "text": "Bên trong, các điều tra viên đối diện với một không gian tối tăm, bẩn thỉu và nồng nặc mùi hôi.",
+    "words": 21
+   },
+   {
+    "id": "1.09#6",
+    "text": "Mười hai người con còn lại trong nhà đang chờ đợi sự giải thoát.",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "1.10",
+  "act": 1,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: Điều tra viên minh hoạ, tái hiện góc nhìn của Văn phòng Cảnh sát trưởng Hạt Riverside, giọng nam chững chạc, sắc bén",
+  "text": "Theo thông báo của cơ quan chức năng, cảnh tượng bên trong ngôi nhà vượt quá sức tưởng tượng của các sĩ quan. Căn nhà tối tăm, ngập ngụa rác rưởi và mùi hôi, dù ngoài trời đã sáng rõ. Một số người con bị xích vào giường bằng xích và ổ khóa. Ban đầu, các sĩ quan nghĩ rằng tất cả đều là trẻ em vì thể trạng của họ vô cùng nhỏ bé và suy kiệt. Nhưng sau đó, họ bàng hoàng biết rằng bảy người trong số đó thực chất đã là người trưởng thành từ mười tám đến hai mươi chín tuổi.",
+  "sentences": [
+   {
+    "id": "1.10#1",
+    "text": "Theo thông báo của cơ quan chức năng, cảnh tượng bên trong ngôi nhà vượt quá sức tưởng tượng của các sĩ quan.",
+    "words": 23
+   },
+   {
+    "id": "1.10#2",
+    "text": "Căn nhà tối tăm, ngập ngụa rác rưởi và mùi hôi, dù ngoài trời đã sáng rõ.",
+    "words": 17
+   },
+   {
+    "id": "1.10#3",
+    "text": "Một số người con bị xích vào giường bằng xích và ổ khóa.",
+    "words": 13
+   },
+   {
+    "id": "1.10#4",
+    "text": "Ban đầu, các sĩ quan nghĩ rằng tất cả đều là trẻ em vì thể trạng của họ vô cùng nhỏ bé và suy kiệt.",
+    "words": 25
+   },
+   {
+    "id": "1.10#5",
+    "text": "Nhưng sau đó, họ bàng hoàng biết rằng bảy người trong số đó thực chất đã là người trưởng thành từ mười tám đến hai mươi chín tuổi.",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "1.11",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "khép lại Hồi 1",
+  "text": "Làm thế nào mà một ngục tù đày đọa như vậy có thể tồn tại suốt nhiều năm giữa một khu dân cư ngoại ô yên bình? Điều gì đã giúp cặp vợ chồng David và Louise Turpin che đậy tội ác trước hàng xóm và các cơ quan chức năng? Bức màn bí mật bắt đầu được vén lên, để lộ một vỏ bọc gia đình kiểu mẫu được dàn dựng tinh vi.",
+  "sentences": [
+   {
+    "id": "1.11#1",
+    "text": "Làm thế nào mà một ngục tù đày đọa như vậy có thể tồn tại suốt nhiều năm giữa một khu dân cư ngoại ô yên bình?",
+    "words": 27
+   },
+   {
+    "id": "1.11#2",
+    "text": "Điều gì đã giúp cặp vợ chồng David và Louise Turpin che đậy tội ác trước hàng xóm và các cơ quan chức năng?",
+    "words": 24
+   },
+   {
+    "id": "1.11#3",
+    "text": "Bức màn bí mật bắt đầu được vén lên, để lộ một vỏ bọc gia đình kiểu mẫu được dàn dựng tinh vi.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "1.12",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "*Một nốt cello trầm đục ngân dài rồi ngắt quãng, tạo khoảng lặng nghẹt thở trước khi bước sang Hồi 2.*"
+ },
+ {
+  "id": "2.01",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "*Âm thanh Dark Ambient nhịp điệu lạnh lẽo, tiếng máy bay đồ chơi, tiếng cười trẻ thơ méo mó vang vọng từ xa.*"
+ },
+ {
+  "id": "2.02",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tiết tấu nhanh, cuốn hút",
+  "text": "Người cha David Allen Turpin năm mươi sáu tuổi, là một kỹ sư từng làm việc cho các công ty công nghệ quốc phòng. Người mẹ Louise Anna Turpin bốn mươi chín tuổi, ở nhà nội trợ. Gia đình Turpin từng sinh sống tại bang Texas nhiều năm trước khi chuyển đến California và về Perris vào năm 2014.",
+  "sentences": [
+   {
+    "id": "2.02#1",
+    "text": "Người cha David Allen Turpin năm mươi sáu tuổi, là một kỹ sư từng làm việc cho các công ty công nghệ quốc phòng.",
+    "words": 24
+   },
+   {
+    "id": "2.02#2",
+    "text": "Người mẹ Louise Anna Turpin bốn mươi chín tuổi, ở nhà nội trợ.",
+    "words": 13
+   },
+   {
+    "id": "2.02#3",
+    "text": "Gia đình Turpin từng sinh sống tại bang Texas nhiều năm trước khi chuyển đến California và về Perris vào năm 2014.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "2.03",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "*Tiếng máy ảnh chụp flash lách cách, tiếng nhạc vui nhộn tại công viên giải trí.*"
+ },
+ {
+  "id": "2.04",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng rùng mình, vạch trần vỏ bọc gia đình hoàn hảo",
+  "text": "Để qua mặt cơ quan quản lý giáo dục, David Turpin đã đăng ký căn nhà của mình là một trường tư thục tại gia mang tên Sandcastle Day School. Với tư cách là hiệu trưởng, David hợp thức hóa việc giữ các con trong nhà thay vì cho chúng đến trường. Trên mạng xã hội, cặp vợ chồng này đăng tải những bức ảnh gia đình rạng rỡ trong những chuyến đi chơi. Họ từng đưa các con đến Disneyland và tổ chức các buổi lễ làm mới lời thề hôn nhân tại Las Vegas. Trong những bức ảnh đó, các con thường mặc trang phục giống hệt nhau, xếp hàng ngay ngắn trước ống kính. Người xem ảnh chỉ thấy một gia đình đông con nề nếp, mà không hề biết điều gì đang diễn ra phía sau ống kính.",
+  "sentences": [
+   {
+    "id": "2.04#1",
+    "text": "Để qua mặt cơ quan quản lý giáo dục, David Turpin đã đăng ký căn nhà của mình là một trường tư thục tại gia mang tên Sandcastle Day School.",
+    "words": 30
+   },
+   {
+    "id": "2.04#2",
+    "text": "Với tư cách là hiệu trưởng, David hợp thức hóa việc giữ các con trong nhà thay vì cho chúng đến trường.",
+    "words": 22
+   },
+   {
+    "id": "2.04#3",
+    "text": "Trên mạng xã hội, cặp vợ chồng này đăng tải những bức ảnh gia đình rạng rỡ trong những chuyến đi chơi.",
+    "words": 22
+   },
+   {
+    "id": "2.04#4",
+    "text": "Họ từng đưa các con đến Disneyland và tổ chức các buổi lễ làm mới lời thề hôn nhân tại Las Vegas.",
+    "words": 22
+   },
+   {
+    "id": "2.04#5",
+    "text": "Trong những bức ảnh đó, các con thường mặc trang phục giống hệt nhau, xếp hàng ngay ngắn trước ống kính.",
+    "words": 21
+   },
+   {
+    "id": "2.04#6",
+    "text": "Người xem ảnh chỉ thấy một gia đình đông con nề nếp, mà không hề biết điều gì đang diễn ra phía sau ống kính.",
+    "words": 25
+   }
+  ]
+ },
+ {
+  "id": "2.05",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "*Tiếng dây xích sắt lách cách cọ xát vào thành giường kim loại, tiếng bước chân lạnh lùng dậm mạnh.*"
+ },
+ {
+  "id": "2.06",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: Bóc tách sự đày đọa có hệ thống",
+  "text": "Theo cơ quan công tố, sự ngược đãi đã leo thang dần qua nhiều năm. Các hình phạt bắt đầu từ việc bị giam giữ trong phòng và về sau leo thang thành việc bị xích vào giường trong thời gian dài. Lý do của những hình phạt này vô cùng phi lý, như rửa tay quá cổ tay. Theo công tố viên, các con hầu như không được tắm, có khi chỉ một lần mỗi năm. Cả nhà sinh hoạt đảo lộn ngày đêm, ngủ vào ban ngày và thức vào ban đêm.",
+  "sentences": [
+   {
+    "id": "2.06#1",
+    "text": "Theo cơ quan công tố, sự ngược đãi đã leo thang dần qua nhiều năm.",
+    "words": 15
+   },
+   {
+    "id": "2.06#2",
+    "text": "Các hình phạt bắt đầu từ việc bị giam giữ trong phòng và về sau leo thang thành việc bị xích vào giường trong thời gian dài.",
+    "words": 27
+   },
+   {
+    "id": "2.06#3",
+    "text": "Lý do của những hình phạt này vô cùng phi lý, như rửa tay quá cổ tay.",
+    "words": 17
+   },
+   {
+    "id": "2.06#4",
+    "text": "Theo công tố viên, các con hầu như không được tắm, có khi chỉ một lần mỗi năm.",
+    "words": 18
+   },
+   {
+    "id": "2.06#5",
+    "text": "Cả nhà sinh hoạt đảo lộn ngày đêm, ngủ vào ban ngày và thức vào ban đêm.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "2.07",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "*Tiếng mở bao bì bánh ngọt sột soạt, tiếng khóa tủ lạnh lách cách đánh cạch.*"
+ },
+ {
+  "id": "2.08",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "chuyển giọng u ám, khắc họa thủ đoạn tra tấn tâm lý",
+  "text": "Một trong những thủ đoạn tàn nhẫn nhất được công tố viên nêu ra là việc cố tình hạn chế ăn uống của các con. Các con chỉ được ăn rất ít mỗi ngày. Theo lời khai của các nạn nhân, cha mẹ còn mua đồ ăn ngon để ngay trước mắt nhưng cấm các con chạm vào. Ai vi phạm sẽ phải chịu những hình phạt hà khắc. Tình trạng thiếu dinh dưỡng kéo dài đã ảnh hưởng nghiêm trọng đến thể chất và sự phát triển của các con.",
+  "sentences": [
+   {
+    "id": "2.08#1",
+    "text": "Một trong những thủ đoạn tàn nhẫn nhất được công tố viên nêu ra là việc cố tình hạn chế ăn uống của các con.",
+    "words": 25
+   },
+   {
+    "id": "2.08#2",
+    "text": "Các con chỉ được ăn rất ít mỗi ngày.",
+    "words": 9
+   },
+   {
+    "id": "2.08#3",
+    "text": "Theo lời khai của các nạn nhân, cha mẹ còn mua đồ ăn ngon để ngay trước mắt nhưng cấm các con chạm vào.",
+    "words": 24
+   },
+   {
+    "id": "2.08#4",
+    "text": "Ai vi phạm sẽ phải chịu những hình phạt hà khắc.",
+    "words": 11
+   },
+   {
+    "id": "2.08#5",
+    "text": "Tình trạng thiếu dinh dưỡng kéo dài đã ảnh hưởng nghiêm trọng đến thể chất và sự phát triển của các con.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "2.09",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: Thống kê thương tổn y tế chấn động",
+  "text": "Kết quả kiểm tra y tế tại bệnh viện đã khiến các bác sĩ và điều tra viên bàng hoàng. Người chị cả hai mươi chín tuổi chỉ nặng khoảng ba mươi bảy kilôgam. Theo công tố viên Michael Hestrin, một người con mười hai tuổi chỉ có cân nặng của một đứa trẻ bảy tuổi trung bình. Nhiều người trong số họ thiếu những hiểu biết cơ bản về thế giới bên ngoài, như cảnh sát là ai.",
+  "sentences": [
+   {
+    "id": "2.09#1",
+    "text": "Kết quả kiểm tra y tế tại bệnh viện đã khiến các bác sĩ và điều tra viên bàng hoàng.",
+    "words": 20
+   },
+   {
+    "id": "2.09#2",
+    "text": "Người chị cả hai mươi chín tuổi chỉ nặng khoảng ba mươi bảy kilôgam.",
+    "words": 14
+   },
+   {
+    "id": "2.09#3",
+    "text": "Theo công tố viên Michael Hestrin, một người con mười hai tuổi chỉ có cân nặng của một đứa trẻ bảy tuổi trung bình.",
+    "words": 24
+   },
+   {
+    "id": "2.09#4",
+    "text": "Nhiều người trong số họ thiếu những hiểu biết cơ bản về thế giới bên ngoài, như cảnh sát là ai.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "2.10",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "khép lại Hồi 2",
+  "text": "Vụ án gia đình Turpin đã làm rúng động toàn thế giới, và báo chí gọi nơi đây là Ngôi nhà của những nỗi kinh hoàng. David và Louise Turpin bị bắt giữ ngay trong ngày và đối mặt với hàng chục tội danh nghiêm trọng. Câu hỏi nhức nhối đặt ra cho toàn xã hội là tại sao điều này có thể kéo dài nhiều năm mà không bị phát giác? Động cơ tâm lý nào đã khiến hai bậc cha mẹ đối xử như vậy với chính những đứa con ruột thịt? Và làm thế nào mà một cô gái nhỏ bé như Jordan Turpin lại có thể giữ được ngọn lửa sinh tồn để phá vỡ xiềng xích? Các chuyên gia tâm lý học đã đi sâu giải mã cấu trúc của chiếc bẫy kiểm soát cưỡng chế mang tính hệ thống này.",
+  "sentences": [
+   {
+    "id": "2.10#1",
+    "text": "Vụ án gia đình Turpin đã làm rúng động toàn thế giới, và báo chí gọi nơi đây là Ngôi nhà của những nỗi kinh hoàng.",
+    "words": 26
+   },
+   {
+    "id": "2.10#2",
+    "text": "David và Louise Turpin bị bắt giữ ngay trong ngày và đối mặt với hàng chục tội danh nghiêm trọng.",
+    "words": 20
+   },
+   {
+    "id": "2.10#3",
+    "text": "Câu hỏi nhức nhối đặt ra cho toàn xã hội là tại sao điều này có thể kéo dài nhiều năm mà không bị phát giác?",
+    "words": 26
+   },
+   {
+    "id": "2.10#4",
+    "text": "Động cơ tâm lý nào đã khiến hai bậc cha mẹ đối xử như vậy với chính những đứa con ruột thịt?",
+    "words": 22
+   },
+   {
+    "id": "2.10#5",
+    "text": "Và làm thế nào mà một cô gái nhỏ bé như Jordan Turpin lại có thể giữ được ngọn lửa sinh tồn để phá vỡ xiềng xích?",
+    "words": 27
+   },
+   {
+    "id": "2.10#6",
+    "text": "Các chuyên gia tâm lý học đã đi sâu giải mã cấu trúc của chiếc bẫy kiểm soát cưỡng chế mang tính hệ thống này.",
+    "words": 25
+   }
+  ]
+ },
+ {
+  "id": "2.11",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "*Âm thanh điện tử chìm dần, mở ra không gian sâu lắng cho phần giải mã tâm lý học.*"
+ },
+ {
+  "id": "3.01",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "*Tiếng đàn Dương cầm tối giản (Minimalist Piano) hòa cùng âm thanh Drone ngột ngạt, tạo không khí học thuật và phân tích tâm lý sâu sắc.*"
+ },
+ {
+  "id": "3.02",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "chậm rãi, mang tính dẫn nhập chuyên môn",
+  "text": "Dưới góc độ tâm lý học, vụ án Nhà Turpin là một trường hợp điển hình về sự lạm dụng quyền lực gia đình ở mức cực đoan. Đó không đơn thuần là sự bộc phát cơn giận dữ hay sự thờ ơ vô trách nhiệm của cha mẹ đối với con cái. Đó là một hệ thống kiểm soát kéo dài nhằm tước đoạt căn tính và ý chí tự do của các nạn nhân. Để phân tích hiện tượng này, chúng ta có thể dùng ba khái niệm: Kiểm soát cưỡng chế, Hội chứng điên cuồng đôi và Sự ấu trĩ hóa có chủ đích.",
+  "sentences": [
+   {
+    "id": "3.02#1",
+    "text": "Dưới góc độ tâm lý học, vụ án Nhà Turpin là một trường hợp điển hình về sự lạm dụng quyền lực gia đình ở mức cực đoan.",
+    "words": 28
+   },
+   {
+    "id": "3.02#2",
+    "text": "Đó không đơn thuần là sự bộc phát cơn giận dữ hay sự thờ ơ vô trách nhiệm của cha mẹ đối với con cái.",
+    "words": 25
+   },
+   {
+    "id": "3.02#3",
+    "text": "Đó là một hệ thống kiểm soát kéo dài nhằm tước đoạt căn tính và ý chí tự do của các nạn nhân.",
+    "words": 23
+   },
+   {
+    "id": "3.02#4",
+    "text": "Để phân tích hiện tượng này, chúng ta có thể dùng ba khái niệm: Kiểm soát cưỡng chế, Hội chứng điên cuồng đôi và Sự ấu trĩ hóa có chủ đích.",
+    "words": 31
+   }
+  ]
+ },
+ {
+  "id": "3.03",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: Phân tích cơ chế Kiểm soát cưỡng chế và Hội chứng Điên cuồng đôi, giọng nữ điềm đạm, học thuật",
+  "text": "Khái niệm Kiểm soát cưỡng chế, hay Coercive Control, dùng để chỉ một mô hình hành vi thống trị liên tục thông qua sự đe dọa, cô lập và trừng phạt. David và Louise Turpin đã cắt đứt gần như mọi sợi dây liên kết của các con với thế giới bên ngoài. Khi nạn nhân bị tước đoạt quyền tiếp xúc xã hội, thế giới quan của họ bị thu hẹp vào những quy tắc lệch lạc do kẻ bạo hành đặt ra. Một khái niệm khác thường được nhắc đến khi phân tích cặp vợ chồng này là Hội chứng Điên cuồng đôi, hay Folie à Deux. Khung lý thuyết này mô tả tình trạng hai người gắn bó sâu sắc cùng chia sẻ và củng cố những niềm tin lệch lạc. Đây là cách diễn giải của giới phân tích, không phải chẩn đoán chính thức dành cho hai bị cáo. Theo khung lý thuyết đó, sự cộng hưởng giữa hai cái tôi lệch lạc có thể làm suy yếu cảm giác tội lỗi của cả hai.",
+  "sentences": [
+   {
+    "id": "3.03#1",
+    "text": "Khái niệm Kiểm soát cưỡng chế, hay Coercive Control, dùng để chỉ một mô hình hành vi thống trị liên tục thông qua sự đe dọa, cô lập và trừng phạt.",
+    "words": 31
+   },
+   {
+    "id": "3.03#2",
+    "text": "David và Louise Turpin đã cắt đứt gần như mọi sợi dây liên kết của các con với thế giới bên ngoài.",
+    "words": 22
+   },
+   {
+    "id": "3.03#3",
+    "text": "Khi nạn nhân bị tước đoạt quyền tiếp xúc xã hội, thế giới quan của họ bị thu hẹp vào những quy tắc lệch lạc do kẻ bạo hành đặt ra.",
+    "words": 31
+   },
+   {
+    "id": "3.03#4",
+    "text": "Một khái niệm khác thường được nhắc đến khi phân tích cặp vợ chồng này là Hội chứng Điên cuồng đôi, hay Folie à Deux.",
+    "words": 25
+   },
+   {
+    "id": "3.03#5",
+    "text": "Khung lý thuyết này mô tả tình trạng hai người gắn bó sâu sắc cùng chia sẻ và củng cố những niềm tin lệch lạc.",
+    "words": 25
+   },
+   {
+    "id": "3.03#6",
+    "text": "Đây là cách diễn giải của giới phân tích, không phải chẩn đoán chính thức dành cho hai bị cáo.",
+    "words": 20
+   },
+   {
+    "id": "3.03#7",
+    "text": "Theo khung lý thuyết đó, sự cộng hưởng giữa hai cái tôi lệch lạc có thể làm suy yếu cảm giác tội lỗi của cả hai.",
+    "words": 26
+   }
+  ]
+ },
+ {
+  "id": "3.04",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tiếp nối phân tích về chiến lược tước đoạt năng lực phản kháng",
+  "text": "Để duy trì sự phục tùng, cặp vợ chồng này đã giữ các con trong tình trạng phụ thuộc mà giới chuyên môn gọi là Sự ấu trĩ hóa nạn nhân. Họ đối xử với những người con đã trưởng thành như những đứa trẻ không có khả năng tự lập. Bằng cách kìm hãm sự phát triển thể chất và nhận thức, kẻ bạo hành đã tước bỏ khả năng phản kháng của các nạn nhân.",
+  "sentences": [
+   {
+    "id": "3.04#1",
+    "text": "Để duy trì sự phục tùng, cặp vợ chồng này đã giữ các con trong tình trạng phụ thuộc mà giới chuyên môn gọi là Sự ấu trĩ hóa nạn nhân.",
+    "words": 31
+   },
+   {
+    "id": "3.04#2",
+    "text": "Họ đối xử với những người con đã trưởng thành như những đứa trẻ không có khả năng tự lập.",
+    "words": 20
+   },
+   {
+    "id": "3.04#3",
+    "text": "Bằng cách kìm hãm sự phát triển thể chất và nhận thức, kẻ bạo hành đã tước bỏ khả năng phản kháng của các nạn nhân.",
+    "words": 26
+   }
+  ]
+ },
+ {
+  "id": "3.05",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: Phân tích cơ chế Ấu trĩ hóa và Hiện tượng Bất lực tập nhiễm",
+  "text": "Tình trạng thiếu dinh dưỡng kéo dài có thể làm chậm sự tăng trưởng của cơ thể. Nó cũng có thể ảnh hưởng đến sự phát triển nhận thức và khả năng hành động độc lập. Khi những người con đã trưởng thành vẫn có vóc dáng của một đứa trẻ, họ dễ tin rằng mình hoàn toàn bất lực và không thể sống sót nếu thiếu cha mẹ. Hiện tượng tâm lý này được gọi là Sự bất lực tập nhiễm, nơi nạn nhân thôi phản kháng sau nhiều năm mọi nỗ lực đều thất bại. Những bức ảnh đồng phục tại Disneyland hay Las Vegas có thể được xem như sự phô bày quyền kiểm soát của cha mẹ. Những bức ảnh đó giúp trưng ra một hình ảnh gia đình hoàn hảo trước xã hội. Tuy nhiên, sự kiểm soát tàn bạo nhất cũng không bao giờ có thể dập tắt hoàn toàn bản năng sinh tồn và khát vọng tự do của con người.",
+  "sentences": [
+   {
+    "id": "3.05#1",
+    "text": "Tình trạng thiếu dinh dưỡng kéo dài có thể làm chậm sự tăng trưởng của cơ thể.",
+    "words": 17
+   },
+   {
+    "id": "3.05#2",
+    "text": "Nó cũng có thể ảnh hưởng đến sự phát triển nhận thức và khả năng hành động độc lập.",
+    "words": 19
+   },
+   {
+    "id": "3.05#3",
+    "text": "Khi những người con đã trưởng thành vẫn có vóc dáng của một đứa trẻ, họ dễ tin rằng mình hoàn toàn bất lực và không thể sống sót nếu thiếu cha mẹ.",
+    "words": 33
+   },
+   {
+    "id": "3.05#4",
+    "text": "Hiện tượng tâm lý này được gọi là Sự bất lực tập nhiễm, nơi nạn nhân thôi phản kháng sau nhiều năm mọi nỗ lực đều thất bại.",
+    "words": 28
+   },
+   {
+    "id": "3.05#5",
+    "text": "Những bức ảnh đồng phục tại Disneyland hay Las Vegas có thể được xem như sự phô bày quyền kiểm soát của cha mẹ.",
+    "words": 24
+   },
+   {
+    "id": "3.05#6",
+    "text": "Những bức ảnh đó giúp trưng ra một hình ảnh gia đình hoàn hảo trước xã hội.",
+    "words": 17
+   },
+   {
+    "id": "3.05#7",
+    "text": "Tuy nhiên, sự kiểm soát tàn bạo nhất cũng không bao giờ có thể dập tắt hoàn toàn bản năng sinh tồn và khát vọng tự do của con người.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "3.06",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "chuyển giọng truyền cảm hứng, hướng về Jordan Turpin",
+  "text": "Và ngọn lửa khát vọng tự do ấy đã bùng cháy mãnh liệt bên trong tâm hồn của cô con gái Jordan Turpin. Điều gì đã giúp một cô gái bị cô lập từ nhỏ có đủ dũng khí để vượt qua nỗi sợ hãi?",
+  "sentences": [
+   {
+    "id": "3.06#1",
+    "text": "Và ngọn lửa khát vọng tự do ấy đã bùng cháy mãnh liệt bên trong tâm hồn của cô con gái Jordan Turpin.",
+    "words": 23
+   },
+   {
+    "id": "3.06#2",
+    "text": "Điều gì đã giúp một cô gái bị cô lập từ nhỏ có đủ dũng khí để vượt qua nỗi sợ hãi?",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "3.07",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: Bản năng sinh tồn phi thường của Jordan Turpin",
+  "text": "Trong cuộc phỏng vấn sau này, Jordan kể rằng chiếc điện thoại cũ đã mở ra cho cô một cánh cửa nhận thức mới. Nhờ kết nối mạng không dây, cô lén xem video âm nhạc và những đoạn phim về cuộc sống bên ngoài. Những hình ảnh về cuộc sống tự do của những người trẻ cùng trang lứa đã mở ra một góc nhìn hoàn toàn mới trong tâm trí cô. Cô nhận ra rằng thế giới bên ngoài không đáng sợ như những gì cô từng được dạy. Khi tình thương dành cho các em vượt lên trên nỗi sợ hãi, bản năng bảo vệ đã kích hoạt lòng dũng cảm phi thường của Jordan. Đó là minh chứng hùng hồn cho sức mạnh kiên cường của tinh thần con người.",
+  "sentences": [
+   {
+    "id": "3.07#1",
+    "text": "Trong cuộc phỏng vấn sau này, Jordan kể rằng chiếc điện thoại cũ đã mở ra cho cô một cánh cửa nhận thức mới.",
+    "words": 24
+   },
+   {
+    "id": "3.07#2",
+    "text": "Nhờ kết nối mạng không dây, cô lén xem video âm nhạc và những đoạn phim về cuộc sống bên ngoài.",
+    "words": 21
+   },
+   {
+    "id": "3.07#3",
+    "text": "Những hình ảnh về cuộc sống tự do của những người trẻ cùng trang lứa đã mở ra một góc nhìn hoàn toàn mới trong tâm trí cô.",
+    "words": 28
+   },
+   {
+    "id": "3.07#4",
+    "text": "Cô nhận ra rằng thế giới bên ngoài không đáng sợ như những gì cô từng được dạy.",
+    "words": 18
+   },
+   {
+    "id": "3.07#5",
+    "text": "Khi tình thương dành cho các em vượt lên trên nỗi sợ hãi, bản năng bảo vệ đã kích hoạt lòng dũng cảm phi thường của Jordan.",
+    "words": 27
+   },
+   {
+    "id": "3.07#6",
+    "text": "Đó là minh chứng hùng hồn cho sức mạnh kiên cường của tinh thần con người.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "3.08",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "khép lại Hồi 3",
+  "text": "Cú nhảy qua bậu cửa sổ của Jordan không chỉ giải thoát chính cô, mà còn cứu mười hai anh chị em của mình. Bức màn che đậy tội ác sụp đổ, nhường chỗ cho cuộc đối đầu pháp lý tại tòa án bang California. Giờ là lúc những kẻ bạo hành phải trả lời trước pháp luật.",
+  "sentences": [
+   {
+    "id": "3.08#1",
+    "text": "Cú nhảy qua bậu cửa sổ của Jordan không chỉ giải thoát chính cô, mà còn cứu mười hai anh chị em của mình.",
+    "words": 24
+   },
+   {
+    "id": "3.08#2",
+    "text": "Bức màn che đậy tội ác sụp đổ, nhường chỗ cho cuộc đối đầu pháp lý tại tòa án bang California.",
+    "words": 21
+   },
+   {
+    "id": "3.08#3",
+    "text": "Giờ là lúc những kẻ bạo hành phải trả lời trước pháp luật.",
+    "words": 13
+   }
+  ]
+ },
+ {
+  "id": "3.09",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "*Giai điệu dương cầm chìm xuống, nhường chỗ cho nhịp trống trầm ngột ngạt của phòng xét xử công lý.*"
+ },
+ {
+  "id": "4.01",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "*Tiếng Violin căng thẳng, tiếng gõ búa tòa án khô khốc vang dội trong không gian trang nghiêm.*"
+ },
+ {
+  "id": "4.02",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tái hiện quá trình truy tố pháp lý đanh thép",
+  "text": "Ngày 18 tháng 1 năm 2018, Văn phòng Biện lý Hạt Riverside chính thức công bố các cáo buộc đối với David và Louise Turpin. Cặp vợ chồng bị truy tố hàng chục tội danh, bao gồm tra tấn, ngược đãi trẻ em, giam giữ trái phép và ngược đãi người phụ thuộc. Biện lý Michael Hestrin mô tả trước báo giới mức độ nghiêm trọng hiếm thấy của vụ án. Trước những chứng cứ không thể chối cãi, hai bị cáo đã quyết định nhận tội. Ngày 22 tháng 2 năm 2019, cả David và Louise Turpin đều nhận tội đối với mười bốn tội danh. Thỏa thuận nhận tội này giúp các nạn nhân tránh phải ra làm chứng trong một phiên tòa kéo dài.",
+  "sentences": [
+   {
+    "id": "4.02#1",
+    "text": "Ngày 18 tháng 1 năm 2018, Văn phòng Biện lý Hạt Riverside chính thức công bố các cáo buộc đối với David và Louise Turpin.",
+    "words": 25
+   },
+   {
+    "id": "4.02#2",
+    "text": "Cặp vợ chồng bị truy tố hàng chục tội danh, bao gồm tra tấn, ngược đãi trẻ em, giam giữ trái phép và ngược đãi người phụ thuộc.",
+    "words": 28
+   },
+   {
+    "id": "4.02#3",
+    "text": "Biện lý Michael Hestrin mô tả trước báo giới mức độ nghiêm trọng hiếm thấy của vụ án.",
+    "words": 18
+   },
+   {
+    "id": "4.02#4",
+    "text": "Trước những chứng cứ không thể chối cãi, hai bị cáo đã quyết định nhận tội.",
+    "words": 16
+   },
+   {
+    "id": "4.02#5",
+    "text": "Ngày 22 tháng 2 năm 2019, cả David và Louise Turpin đều nhận tội đối với mười bốn tội danh.",
+    "words": 20
+   },
+   {
+    "id": "4.02#6",
+    "text": "Thỏa thuận nhận tội này giúp các nạn nhân tránh phải ra làm chứng trong một phiên tòa kéo dài.",
+    "words": 20
+   }
+  ]
+ },
+ {
+  "id": "4.03",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "*Tiếng xì xào của đám đông tại phòng xử án, tiếng micro phát biểu rung nhẹ.*"
+ },
+ {
+  "id": "4.04",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "khắc họa không khí phiên tòa tuyên án xúc động",
+  "text": "Ngày 19 tháng 4 năm 2019, phiên tòa tuyên án diễn ra tại Tòa Thượng thẩm Hạt Riverside dưới sự chủ tọa của Thẩm phán Bernard Schwartz. Phòng xử án chật kín phóng viên và những người theo dõi vụ án. Hai bị cáo đều rơi nước mắt trong phiên tòa. Nhưng khoảnh khắc xúc động nhất của phiên tòa thuộc về những lời phát biểu dũng cảm của chính những người con.",
+  "sentences": [
+   {
+    "id": "4.04#1",
+    "text": "Ngày 19 tháng 4 năm 2019, phiên tòa tuyên án diễn ra tại Tòa Thượng thẩm Hạt Riverside dưới sự chủ tọa của Thẩm phán Bernard Schwartz.",
+    "words": 27
+   },
+   {
+    "id": "4.04#2",
+    "text": "Phòng xử án chật kín phóng viên và những người theo dõi vụ án.",
+    "words": 14
+   },
+   {
+    "id": "4.04#3",
+    "text": "Hai bị cáo đều rơi nước mắt trong phiên tòa.",
+    "words": 10
+   },
+   {
+    "id": "4.04#4",
+    "text": "Nhưng khoảnh khắc xúc động nhất của phiên tòa thuộc về những lời phát biểu dũng cảm của chính những người con.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "4.05",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "*Tiếng thở dài xúc động, tiếng lật trang giấy phát biểu run rẩy của nạn nhân.*"
+ },
+ {
+  "id": "4.06",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: Tóm lược lời phát biểu của các nạn nhân tại phiên tòa, giọng nam đanh thép, xúc động",
+  "text": "Một số người con đã tự mình đứng lên phát biểu, số khác gửi thư để được đọc trước tòa. Một người con gái nói trước tòa rằng cha mẹ đã lấy đi cả cuộc đời của cô, nhưng giờ đây cô đang lấy lại cuộc đời mình. Một người con trai chia sẻ rằng anh vẫn yêu thương và tha thứ cho cha mẹ, dù không thể quên những gì đã xảy ra. Các nạn nhân không còn là những đứa trẻ co ro, sợ hãi trong bóng tối, mà đã trở thành những con người đang đòi lại phẩm giá cho bản thân. Lời phát biểu của các con đã khiến nhiều người có mặt trong khán phòng xúc động. Thẩm phán Bernard Schwartz nhận định cách đối xử của hai bị cáo với các con là ích kỷ, tàn nhẫn và vô nhân đạo.",
+  "sentences": [
+   {
+    "id": "4.06#1",
+    "text": "Một số người con đã tự mình đứng lên phát biểu, số khác gửi thư để được đọc trước tòa.",
+    "words": 20
+   },
+   {
+    "id": "4.06#2",
+    "text": "Một người con gái nói trước tòa rằng cha mẹ đã lấy đi cả cuộc đời của cô, nhưng giờ đây cô đang lấy lại cuộc đời mình.",
+    "words": 28
+   },
+   {
+    "id": "4.06#3",
+    "text": "Một người con trai chia sẻ rằng anh vẫn yêu thương và tha thứ cho cha mẹ, dù không thể quên những gì đã xảy ra.",
+    "words": 26
+   },
+   {
+    "id": "4.06#4",
+    "text": "Các nạn nhân không còn là những đứa trẻ co ro, sợ hãi trong bóng tối, mà đã trở thành những con người đang đòi lại phẩm giá cho bản thân.",
+    "words": 31
+   },
+   {
+    "id": "4.06#5",
+    "text": "Lời phát biểu của các con đã khiến nhiều người có mặt trong khán phòng xúc động.",
+    "words": 17
+   },
+   {
+    "id": "4.06#6",
+    "text": "Thẩm phán Bernard Schwartz nhận định cách đối xử của hai bị cáo với các con là ích kỷ, tàn nhẫn và vô nhân đạo.",
+    "words": 25
+   }
+  ]
+ },
+ {
+  "id": "4.07",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "*Tiếng búa tòa án gõ xuống bàn dứt khoát ba tiếng vang dội.*"
+ },
+ {
+  "id": "4.08",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tuyên đọc bản án nghiêm khắc",
+  "text": "Lời phán quyết của Thẩm phán Bernard Schwartz vang lên giữa sự im lặng tuyệt đối của phòng xử án. Cả David và Louise Turpin đều bị tuyên phạt mức án từ hai mươi lăm năm tù đến chung thân. Hai vợ chồng thụ án tại hai nhà tù khác nhau và chỉ có thể được xem xét ân xá sau nhiều năm thụ án.",
+  "sentences": [
+   {
+    "id": "4.08#1",
+    "text": "Lời phán quyết của Thẩm phán Bernard Schwartz vang lên giữa sự im lặng tuyệt đối của phòng xử án.",
+    "words": 20
+   },
+   {
+    "id": "4.08#2",
+    "text": "Cả David và Louise Turpin đều bị tuyên phạt mức án từ hai mươi lăm năm tù đến chung thân.",
+    "words": 20
+   },
+   {
+    "id": "4.08#3",
+    "text": "Hai vợ chồng thụ án tại hai nhà tù khác nhau và chỉ có thể được xem xét ân xá sau nhiều năm thụ án.",
+    "words": 25
+   }
+  ]
+ },
+ {
+  "id": "4.09",
+  "act": 4,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "N2: Nhân vật minh hoạ — góc nhìn của một nhân viên y tế, giọng nữ trung niên trầm ấm, nghẹn ngào",
+  "text": "Hãy hình dung cảm xúc của những nhân viên y tế trong ngày đầu tiên tiếp nhận các anh chị em nhà Turpin. Theo các bản tin thời điểm đó, nhiều nhân viên y tế đã không kìm được xúc động. Các nạn nhân có thể sợ hãi trước những điều mới lạ và giật mình trước tiếng động. Những điều giản dị như một bữa ăn đủ no hay một lần tắm nước ấm có thể trở thành điều kỳ diệu đối với họ. Việc phục hồi dinh dưỡng cho người suy kiệt lâu ngày phải được thực hiện rất cẩn trọng để tránh biến chứng nguy hiểm. Nhưng điều đáng trân trọng nhất là tình thương mà các anh chị em dành cho nhau. Sự hồi phục của họ là một bài học sâu sắc về sức sống của con người. Những người đồng hành cùng họ trong chặng đường đầu tiên ấy hẳn sẽ không bao giờ quên.",
+  "sentences": [
+   {
+    "id": "4.09#1",
+    "text": "Hãy hình dung cảm xúc của những nhân viên y tế trong ngày đầu tiên tiếp nhận các anh chị em nhà Turpin.",
+    "words": 23
+   },
+   {
+    "id": "4.09#2",
+    "text": "Theo các bản tin thời điểm đó, nhiều nhân viên y tế đã không kìm được xúc động.",
+    "words": 18
+   },
+   {
+    "id": "4.09#3",
+    "text": "Các nạn nhân có thể sợ hãi trước những điều mới lạ và giật mình trước tiếng động.",
+    "words": 18
+   },
+   {
+    "id": "4.09#4",
+    "text": "Những điều giản dị như một bữa ăn đủ no hay một lần tắm nước ấm có thể trở thành điều kỳ diệu đối với họ.",
+    "words": 26
+   },
+   {
+    "id": "4.09#5",
+    "text": "Việc phục hồi dinh dưỡng cho người suy kiệt lâu ngày phải được thực hiện rất cẩn trọng để tránh biến chứng nguy hiểm.",
+    "words": 24
+   },
+   {
+    "id": "4.09#6",
+    "text": "Nhưng điều đáng trân trọng nhất là tình thương mà các anh chị em dành cho nhau.",
+    "words": 17
+   },
+   {
+    "id": "4.09#7",
+    "text": "Sự hồi phục của họ là một bài học sâu sắc về sức sống của con người.",
+    "words": 17
+   },
+   {
+    "id": "4.09#8",
+    "text": "Những người đồng hành cùng họ trong chặng đường đầu tiên ấy hẳn sẽ không bao giờ quên.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "4.10",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: Di sản điều tra và bảo vệ trẻ em",
+  "text": "Bản án hai mươi lăm năm đến chung thân thể hiện sự nghiêm khắc của pháp luật đối với những kẻ chà đạp lên quyền sống của trẻ em. Hai bị cáo thụ án tại các nhà tù riêng biệt của bang California. Vụ án đã gióng lên hồi chuông cảnh tỉnh về sự lỏng lẻo trong giám sát giáo dục tại gia ở California. Nó thúc đẩy các nhà lập pháp thảo luận về việc giám sát chặt chẽ hơn các trường học tại nhà. Sự dũng cảm của Jordan Turpin đã giải cứu mười hai anh chị em và để lại một di sản về tinh thần đấu tranh cho tự do.",
+  "sentences": [
+   {
+    "id": "4.10#1",
+    "text": "Bản án hai mươi lăm năm đến chung thân thể hiện sự nghiêm khắc của pháp luật đối với những kẻ chà đạp lên quyền sống của trẻ em.",
+    "words": 29
+   },
+   {
+    "id": "4.10#2",
+    "text": "Hai bị cáo thụ án tại các nhà tù riêng biệt của bang California.",
+    "words": 14
+   },
+   {
+    "id": "4.10#3",
+    "text": "Vụ án đã gióng lên hồi chuông cảnh tỉnh về sự lỏng lẻo trong giám sát giáo dục tại gia ở California.",
+    "words": 22
+   },
+   {
+    "id": "4.10#4",
+    "text": "Nó thúc đẩy các nhà lập pháp thảo luận về việc giám sát chặt chẽ hơn các trường học tại nhà.",
+    "words": 21
+   },
+   {
+    "id": "4.10#5",
+    "text": "Sự dũng cảm của Jordan Turpin đã giải cứu mười hai anh chị em và để lại một di sản về tinh thần đấu tranh cho tự do.",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "4.11",
+  "act": 4,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: Phân tích về sức bật tâm lý sau sang chấn",
+  "text": "Quá trình hồi phục của các anh chị em nhà Turpin gợi nhắc đến khái niệm Tăng trưởng sau sang chấn, hay Post-Traumatic Growth. Dù phải mang theo những tổn thương thể chất và tinh thần lâu dài, tình thương và sự gắn kết giữa các anh chị em đã trở thành chiếc phao giúp họ hòa nhập xã hội. Khả năng phục hồi của họ khẳng định rằng bóng tối của sự bạo hành không bao giờ có thể dập tắt hoàn toàn phẩm giá và bản ngã của con người.",
+  "sentences": [
+   {
+    "id": "4.11#1",
+    "text": "Quá trình hồi phục của các anh chị em nhà Turpin gợi nhắc đến khái niệm Tăng trưởng sau sang chấn, hay Post-Traumatic Growth.",
+    "words": 24
+   },
+   {
+    "id": "4.11#2",
+    "text": "Dù phải mang theo những tổn thương thể chất và tinh thần lâu dài, tình thương và sự gắn kết giữa các anh chị em đã trở thành chiếc phao giúp họ hòa nhập xã hội.",
+    "words": 36
+   },
+   {
+    "id": "4.11#3",
+    "text": "Khả năng phục hồi của họ khẳng định rằng bóng tối của sự bạo hành không bao giờ có thể dập tắt hoàn toàn phẩm giá và bản ngã của con người.",
+    "words": 32
+   }
+  ]
+ },
+ {
+  "id": "4.12",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "khép lại Hồi 4",
+  "text": "Cánh cửa nhà tù đã khép lại với hai kẻ bạo hành, nhưng hành trình tái sinh của mười ba người con thì chỉ mới bắt đầu. Những bài học đắt giá từ bi kịch này cần được khắc sâu để không một đứa trẻ nào phải chịu đựng cảnh đày đọa tương tự trong tương lai.",
+  "sentences": [
+   {
+    "id": "4.12#1",
+    "text": "Cánh cửa nhà tù đã khép lại với hai kẻ bạo hành, nhưng hành trình tái sinh của mười ba người con thì chỉ mới bắt đầu.",
+    "words": 27
+   },
+   {
+    "id": "4.12#2",
+    "text": "Những bài học đắt giá từ bi kịch này cần được khắc sâu để không một đứa trẻ nào phải chịu đựng cảnh đày đọa tương tự trong tương lai.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "4.13",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "*Một nốt violin đanh thép vang lên rồi lắng xuống, báo hiệu sự kết thúc của màn đối đầu công lý.*"
+ },
+ {
+  "id": "5.01",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "*Nhạc nền chuyển sang giai điệu Piano ấm áp, tươi sáng và trang trọng, phảng phất nỗi xúc động và niềm hy vọng vươn lên.*"
+ },
+ {
+  "id": "5.02",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng suy ngẫm, mang tính triết lý sâu lắng",
+  "text": "Nhiều năm sau ngày được giải thoát, các anh chị em nhà Turpin đã từng bước xây dựng lại cuộc sống của mình. Một số người đã đi học, đi làm và bắt đầu khám phá thế giới mà họ từng bị tước đoạt. Cuối năm 2021, Jordan và Jennifer Turpin xuất hiện trong một cuộc phỏng vấn đặc biệt trên đài ABC với nhà báo Diane Sawyer. Câu chuyện của hai chị em đã truyền cảm hứng đến rất nhiều khán giả về nghị lực vượt lên nghịch cảnh.",
+  "sentences": [
+   {
+    "id": "5.02#1",
+    "text": "Nhiều năm sau ngày được giải thoát, các anh chị em nhà Turpin đã từng bước xây dựng lại cuộc sống của mình.",
+    "words": 23
+   },
+   {
+    "id": "5.02#2",
+    "text": "Một số người đã đi học, đi làm và bắt đầu khám phá thế giới mà họ từng bị tước đoạt.",
+    "words": 21
+   },
+   {
+    "id": "5.02#3",
+    "text": "Cuối năm 2021, Jordan và Jennifer Turpin xuất hiện trong một cuộc phỏng vấn đặc biệt trên đài ABC với nhà báo Diane Sawyer.",
+    "words": 24
+   },
+   {
+    "id": "5.02#4",
+    "text": "Câu chuyện của hai chị em đã truyền cảm hứng đến rất nhiều khán giả về nghị lực vượt lên nghịch cảnh.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "5.03",
+  "act": 5,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: Lời kết về trách nhiệm cộng đồng",
+  "text": "Hồ sơ gia đình Turpin là một lời nhắc nhở nghiêm khắc đối với toàn xã hội về sự cảnh giác và tinh thần trách nhiệm của mỗi người dân trong cộng đồng. Đừng bao giờ thờ ơ trước những dấu hiệu bất thường của những ngôi nhà hàng xóm kín cổng cao tường xung quanh chúng ta. Một sự quan sát tinh tế và một cuộc gọi kịp thời có thể cứu những sinh mạng khỏi sự đày đọa vô hình.",
+  "sentences": [
+   {
+    "id": "5.03#1",
+    "text": "Hồ sơ gia đình Turpin là một lời nhắc nhở nghiêm khắc đối với toàn xã hội về sự cảnh giác và tinh thần trách nhiệm của mỗi người dân trong cộng đồng.",
+    "words": 33
+   },
+   {
+    "id": "5.03#2",
+    "text": "Đừng bao giờ thờ ơ trước những dấu hiệu bất thường của những ngôi nhà hàng xóm kín cổng cao tường xung quanh chúng ta.",
+    "words": 25
+   },
+   {
+    "id": "5.03#3",
+    "text": "Một sự quan sát tinh tế và một cuộc gọi kịp thời có thể cứu những sinh mạng khỏi sự đày đọa vô hình.",
+    "words": 24
+   }
+  ]
+ },
+ {
+  "id": "5.04",
+  "act": 5,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: Đúc kết về bảo vệ trẻ em và quyền tự do",
+  "text": "Bài học sâu sắc nhất từ thảm kịch này là sự tôn trọng tuyệt đối quyền cơ bản của trẻ em được chăm sóc, học tập và phát triển trong môi trường an toàn. Con cái không phải là tài sản sở hữu của cha mẹ, và tình phụ tử mẫu tử đích thực phải được thể hiện bằng sự nâng đỡ chứ không phải bằng sự kiểm soát thống trị. Kiểm soát cưỡng chế là một dạng bạo lực tinh thần nguy hiểm cần được cộng đồng nhận diện rõ ràng. Hãy luôn lắng nghe và trao niềm tin cho những tiếng kêu cứu yếu ớt nhất, bởi lòng dũng cảm đôi khi bắt đầu từ những hành động nhỏ bé nhưng phi thường.",
+  "sentences": [
+   {
+    "id": "5.04#1",
+    "text": "Bài học sâu sắc nhất từ thảm kịch này là sự tôn trọng tuyệt đối quyền cơ bản của trẻ em được chăm sóc, học tập và phát triển trong môi trường an toàn.",
+    "words": 34
+   },
+   {
+    "id": "5.04#2",
+    "text": "Con cái không phải là tài sản sở hữu của cha mẹ, và tình phụ tử mẫu tử đích thực phải được thể hiện bằng sự nâng đỡ chứ không phải bằng sự kiểm soát thống trị.",
+    "words": 37
+   },
+   {
+    "id": "5.04#3",
+    "text": "Kiểm soát cưỡng chế là một dạng bạo lực tinh thần nguy hiểm cần được cộng đồng nhận diện rõ ràng.",
+    "words": 21
+   },
+   {
+    "id": "5.04#4",
+    "text": "Hãy luôn lắng nghe và trao niềm tin cho những tiếng kêu cứu yếu ớt nhất, bởi lòng dũng cảm đôi khi bắt đầu từ những hành động nhỏ bé nhưng phi thường.",
+    "words": 33
+   }
+  ]
+ },
+ {
+  "id": "5.05",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "chuyển sang phần đúc kết và bài học nhận diện thực tế",
+  "text": "Để giúp mỗi chúng ta nhận diện và kịp thời can thiệp trước những nguy cơ bạo hành gia đình khép kín, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ được đúc kết từ hồ sơ gia đình Turpin. Dấu hiệu thứ nhất: Sự cô lập tuyệt đối với thế giới bên ngoài và né tránh mọi tương tác xã hội bình thường. Khi một gia đình hoàn toàn không bao giờ mở cửa giao tiếp với hàng xóm, không cho con cái đi học trường lớp và cấm đoán mọi mối quan hệ bạn bè bên ngoài, đó là dấu hiệu bất thường. Sự khép kín cực đoan có thể là tấm màn che giấu những hành vi bạo hành và kiểm soát cưỡng chế phía sau cánh cửa đóng kín. Dấu hiệu thứ hai: Sự tương phản bất thường giữa hình ảnh hào nhoáng trên mạng xã hội với thực tế cuộc sống. Những gia đình độc hại có thể dàn dựng những bức ảnh hoàn hảo quá mức, ép các thành viên mặc đồ đồng bộ và cười gượng gạo trước ống kính. Hãy luôn nhìn vào ánh mắt và sự tự nhiên của những đứa trẻ, bởi sự sợ hãi và căng thẳng ngấm ngầm khó có thể che đậy hoàn toàn qua những bức ảnh tạo dáng. Dấu hiệu thứ ba: Những biểu hiện chậm phát triển thể chất và sự suy kiệt dinh dưỡng nghiêm trọng không rõ nguyên nhân. Việc những đứa trẻ hoặc thanh thiếu niên có vóc dáng còi cọc bất thường, da dẻ xanh xao, sợ hãi ánh sáng và hoảng loạn trước người lạ là những tín hiệu báo động đỏ cấp tính. Đừng ngần ngại liên hệ với các cơ quan bảo trợ trẻ em địa phương để yêu cầu kiểm tra phúc lợi gia đình khi phát hiện những dấu hiệu này. Dấu hiệu thứ tư: Lối sống đảo lộn ngày đêm kỳ lạ và những quy tắc sinh hoạt mang tính chất trừng phạt hà khắc. Những ngôi nhà luôn đóng kín ban ngày, chỉ sinh hoạt về đêm và có những dấu hiệu bất thường kéo dài là những điều cần được chú ý. Không một đứa trẻ nào đáng phải sống trong sự sợ hãi, bẩn thỉu và bị tước đoạt quyền được ăn no, được tắm rửa và được hưởng ánh nắng mặt trời. Sự can đảm lên tiếng của bạn hôm nay có thể trở thành chìa khóa mở ra cánh cửa tự do cho những sinh mạng đang tuyệt vọng chờ đợi sự cứu giúp. Cảm ơn quý vị đã dành thời gian đồng hành cùng Amber Eyes trong tập hồ sơ tâm lý học tội phạm đầy xúc động và bài học nhân văn sâu sắc ngày hôm nay. Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ thông điệp yêu thương này đến cộng đồng xung quanh. Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
+  "sentences": [
+   {
+    "id": "5.05#1",
+    "text": "Để giúp mỗi chúng ta nhận diện và kịp thời can thiệp trước những nguy cơ bạo hành gia đình khép kín, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ được đúc kết từ hồ sơ gia đình Turpin.",
+    "words": 43
+   },
+   {
+    "id": "5.05#2",
+    "text": "Dấu hiệu thứ nhất: Sự cô lập tuyệt đối với thế giới bên ngoài và né tránh mọi tương tác xã hội bình thường.",
+    "words": 24
+   },
+   {
+    "id": "5.05#3",
+    "text": "Khi một gia đình hoàn toàn không bao giờ mở cửa giao tiếp với hàng xóm, không cho con cái đi học trường lớp và cấm đoán mọi mối quan hệ bạn bè bên ngoài, đó là dấu hiệu bất thường.",
+    "words": 41
+   },
+   {
+    "id": "5.05#4",
+    "text": "Sự khép kín cực đoan có thể là tấm màn che giấu những hành vi bạo hành và kiểm soát cưỡng chế phía sau cánh cửa đóng kín.",
+    "words": 28
+   },
+   {
+    "id": "5.05#5",
+    "text": "Dấu hiệu thứ hai: Sự tương phản bất thường giữa hình ảnh hào nhoáng trên mạng xã hội với thực tế cuộc sống.",
+    "words": 23
+   },
+   {
+    "id": "5.05#6",
+    "text": "Những gia đình độc hại có thể dàn dựng những bức ảnh hoàn hảo quá mức, ép các thành viên mặc đồ đồng bộ và cười gượng gạo trước ống kính.",
+    "words": 31
+   },
+   {
+    "id": "5.05#7",
+    "text": "Hãy luôn nhìn vào ánh mắt và sự tự nhiên của những đứa trẻ, bởi sự sợ hãi và căng thẳng ngấm ngầm khó có thể che đậy hoàn toàn qua những bức ảnh tạo dáng.",
+    "words": 36
+   },
+   {
+    "id": "5.05#8",
+    "text": "Dấu hiệu thứ ba: Những biểu hiện chậm phát triển thể chất và sự suy kiệt dinh dưỡng nghiêm trọng không rõ nguyên nhân.",
+    "words": 24
+   },
+   {
+    "id": "5.05#9",
+    "text": "Việc những đứa trẻ hoặc thanh thiếu niên có vóc dáng còi cọc bất thường, da dẻ xanh xao, sợ hãi ánh sáng và hoảng loạn trước người lạ là những tín hiệu báo động đỏ cấp tính.",
+    "words": 38
+   },
+   {
+    "id": "5.05#10",
+    "text": "Đừng ngần ngại liên hệ với các cơ quan bảo trợ trẻ em địa phương để yêu cầu kiểm tra phúc lợi gia đình khi phát hiện những dấu hiệu này.",
+    "words": 31
+   },
+   {
+    "id": "5.05#11",
+    "text": "Dấu hiệu thứ tư: Lối sống đảo lộn ngày đêm kỳ lạ và những quy tắc sinh hoạt mang tính chất trừng phạt hà khắc.",
+    "words": 25
+   },
+   {
+    "id": "5.05#12",
+    "text": "Những ngôi nhà luôn đóng kín ban ngày, chỉ sinh hoạt về đêm và có những dấu hiệu bất thường kéo dài là những điều cần được chú ý.",
+    "words": 29
+   },
+   {
+    "id": "5.05#13",
+    "text": "Không một đứa trẻ nào đáng phải sống trong sự sợ hãi, bẩn thỉu và bị tước đoạt quyền được ăn no, được tắm rửa và được hưởng ánh nắng mặt trời.",
+    "words": 32
+   },
+   {
+    "id": "5.05#14",
+    "text": "Sự can đảm lên tiếng của bạn hôm nay có thể trở thành chìa khóa mở ra cánh cửa tự do cho những sinh mạng đang tuyệt vọng chờ đợi sự cứu giúp.",
+    "words": 33
+   },
+   {
+    "id": "5.05#15",
+    "text": "Cảm ơn quý vị đã dành thời gian đồng hành cùng Amber Eyes trong tập hồ sơ tâm lý học tội phạm đầy xúc động và bài học nhân văn sâu sắc ngày hôm nay.",
+    "words": 35
+   },
+   {
+    "id": "5.05#16",
+    "text": "Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ thông điệp yêu thương này đến cộng đồng xung quanh.",
+    "words": 23
+   },
+   {
+    "id": "5.05#17",
+    "text": "Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "5.06",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "*Nhạc nền ngân vang ấm áp, trang trọng rồi mờ dần (Fade out hoàn toàn ở giây thứ 5).*"
+ }
+]

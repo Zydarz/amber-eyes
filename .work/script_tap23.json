@@ -3,15 +3,15 @@
   "id": "1.01",
   "act": 1,
   "kind": "BGM",
-  "desc": "*Tiếng Dark Ambient dồn dập, tiếng kim đồng hồ tích tắc nặng nề hòa cùng tiếng còi xe cảnh sát rền rĩ trong đêm hè oi ả.*"
+  "desc": "Tiếng đàn cello u tối mở đầu chậm rãi, hòa cùng tiếng nhịp tim trầm đục tạo cảm giác ngột ngạt và căng thẳng."
  },
  {
   "id": "1.02",
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "giọng trầm, mở đầu câu chuyện với kịch tính cao độ",
-  "text": "Mùa hè năm 1985, một đợt nắng nóng kỷ lục thiêu đốt khắp các nẻo đường của bang California, nhưng bầu không khí tại thành phố Los Angeles lại bị bao phủ bởi một nỗi khiếp đảm lạnh thấu xương tủy. Bất chấp thời tiết oi bức đến nghẹt thở, hàng triệu người dân thành phố buộc phải đóng chặt toàn bộ cửa sổ, khóa nhiều tầng then cửa và thức trắng đêm trong nỗi sợ hãi tột cùng. Một bóng ma tội ác vô hình đang thoắt ẩn thoắt hiện trong màn đêm, đột nhập vào các gia đình vào lúc nửa đêm và ra tay tàn bạo mà không để lại bất kỳ quy luật báo trước nào. Nạn nhân của hắn trải dài từ những đứa trẻ ngây thơ, những đôi vợ chồng trẻ cho đến những cụ già ngoài tám mươi tuổi sống đơn độc. Báo chí và truyền thông Mỹ đặt cho bóng ma ấy một biệt danh rùng rợn gieo rắc kinh hoàng khắp toàn cầu: Kẻ rình rập ban đêm, hay Night Stalker. Đó là một trong những chiến dịch săn lùng tội phạm quy mô lớn nhất và nghẹt thở nhất trong lịch sử ngành điều tra Hoa Kỳ.",
+  "direction": "chậm rãi, giọng trầm ấm gợi mở bối cảnh",
+  "text": "Mùa hè năm 1985, một đợt nắng nóng kỷ lục thiêu đốt khắp các nẻo đường của bang California, nhưng bầu không khí tại thành phố Los Angeles lại bị bao phủ bởi một nỗi khiếp đảm lạnh thấu xương tủy. Bất chấp thời tiết oi bức, hàng triệu người dân đóng kín mọi cửa sổ, khóa then cài và mất ngủ triền miên trong nỗi sợ hãi tột cùng. Một bóng ma vô hình đang đột nhập vào các gia đình lúc nửa đêm mà không theo bất kỳ quy luật hay ranh giới nào. Nạn nhân của hắn thuộc đủ mọi lứa tuổi và tầng lớp, từ những đôi vợ chồng trẻ cho đến những cụ già sống đơn độc. Cơn hoang tưởng tập thể bùng phát khắp đô thị, biến những căn nhà vốn là chốn bình yên nhất trở thành những chiếc bẫy đầy âu lo. Báo chí đặt cho kẻ sát nhân bóng đêm biệt danh rùng rợn: Kẻ rình rập ban đêm, hay Night Stalker. Đó là một trong những chiến dịch săn lùng tội phạm quy mô lớn nhất và nghẹt thở nhất trong lịch sử ngành điều tra Hoa Kỳ.",
   "sentences": [
    {
     "id": "1.02#1",
@@ -20,26 +20,31 @@
    },
    {
     "id": "1.02#2",
-    "text": "Bất chấp thời tiết oi bức đến nghẹt thở, hàng triệu người dân thành phố buộc phải đóng chặt toàn bộ cửa sổ, khóa nhiều tầng then cửa và thức trắng đêm trong nỗi sợ hãi tột cùng.",
-    "words": 38
-   },
-   {
-    "id": "1.02#3",
-    "text": "Một bóng ma tội ác vô hình đang thoắt ẩn thoắt hiện trong màn đêm, đột nhập vào các gia đình vào lúc nửa đêm và ra tay tàn bạo mà không để lại bất kỳ quy luật báo trước nào.",
-    "words": 41
-   },
-   {
-    "id": "1.02#4",
-    "text": "Nạn nhân của hắn trải dài từ những đứa trẻ ngây thơ, những đôi vợ chồng trẻ cho đến những cụ già ngoài tám mươi tuổi sống đơn độc.",
+    "text": "Bất chấp thời tiết oi bức, hàng triệu người dân đóng kín mọi cửa sổ, khóa then cài và mất ngủ triền miên trong nỗi sợ hãi tột cùng.",
     "words": 29
    },
    {
+    "id": "1.02#3",
+    "text": "Một bóng ma vô hình đang đột nhập vào các gia đình lúc nửa đêm mà không theo bất kỳ quy luật hay ranh giới nào.",
+    "words": 26
+   },
+   {
+    "id": "1.02#4",
+    "text": "Nạn nhân của hắn thuộc đủ mọi lứa tuổi và tầng lớp, từ những đôi vợ chồng trẻ cho đến những cụ già sống đơn độc.",
+    "words": 26
+   },
+   {
     "id": "1.02#5",
-    "text": "Báo chí và truyền thông Mỹ đặt cho bóng ma ấy một biệt danh rùng rợn gieo rắc kinh hoàng khắp toàn cầu: Kẻ rình rập ban đêm, hay Night Stalker.",
-    "words": 31
+    "text": "Cơn hoang tưởng tập thể bùng phát khắp đô thị, biến những căn nhà vốn là chốn bình yên nhất trở thành những chiếc bẫy đầy âu lo.",
+    "words": 28
    },
    {
     "id": "1.02#6",
+    "text": "Báo chí đặt cho kẻ sát nhân bóng đêm biệt danh rùng rợn: Kẻ rình rập ban đêm, hay Night Stalker.",
+    "words": 21
+   },
+   {
+    "id": "1.02#7",
     "text": "Đó là một trong những chiến dịch săn lùng tội phạm quy mô lớn nhất và nghẹt thở nhất trong lịch sử ngành điều tra Hoa Kỳ.",
     "words": 27
    }
@@ -49,50 +54,55 @@
   "id": "1.03",
   "act": 1,
   "kind": "SFX",
-  "desc": "*Tiếng cọt kẹt của cửa sổ bị cạy mở trong đêm, tiếng bước chân lén lút trên sàn gỗ.*"
+  "desc": "Tiếng lách cách kiểm tra ổ khóa cửa, tiếng bước chân trinh sát vội vã trong đêm."
  },
  {
   "id": "1.04",
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "tái hiện nỗi kinh hoàng bao trùm California",
-  "text": "Khác với những kẻ sát nhân hàng loạt thông thường vốn chỉ nhắm vào một nhóm đối tượng cụ thể, Night Stalker hành động hoàn toàn hỗn loạn và khó đoán định. Hắn sử dụng nhiều loại vũ khí khác nhau, đột nhập ngẫu nhiên qua những ô cửa sổ không khóa và để lại những biểu tượng ngôi sao năm cánh ma quái trên tường nhà nạn nhân. Cả thành phố Los Angeles rơi vào trạng thái tê liệt vì không một ai biết được ai sẽ là mục tiêu tiếp theo của con quái vật bóng đêm. Các cửa hàng bán vũ khí tự vệ, hệ thống khóa an ninh và chó bảo vệ đều cháy hàng chỉ trong vòng vài tuần ngắn ngủi. Dưới sự chỉ huy của hai điều tra viên huyền thoại thuộc Sở Cảnh sát Hạt Los Angeles là Thám tử Gil Carrillo và Thám tử Frank Salerno, hàng nghìn manh mối đã được sàng lọc ngày đêm. Bước đột phá xuất hiện khi cảnh sát thu thập được một dấu vân tay duy nhất trên chiếc xe ô tô bị đánh cắp mà nghi phạm từng sử dụng để tẩu thoát. Công nghệ nhận dạng vân tay tự động vừa mới ra đời thời điểm đó đã lập tức trả về một cái tên rúng động: Richard Ramirez, một thanh niên hai mươi lăm tuổi gốc Texas.",
+  "direction": "chuyển giọng đanh thép, lạnh lùng",
+  "text": "Khác với những kẻ sát nhân hàng loạt thông thường vốn chỉ nhắm vào một nhóm nạn nhân cụ thể, Night Stalker hành động hoàn toàn hỗn loạn và khó đoán định. Hắn không nhìn nhận nạn nhân là những con người có sinh mệnh và gia đình, mà hạ họ xuống thành đạo cụ phục vụ cho cơn khát quyền lực và bạo lực bóng tối. Hắn đột nhập ngẫu nhiên qua những ô cửa sổ không khóa và có lúc để lại biểu tượng ngôi sao năm cánh kỳ dị tại hiện trường. Doanh số bán vũ khí, thiết bị an ninh và chốt khóa cửa tại California tăng vọt trong cơn sốt bảo vệ gia đình chưa từng có. Dưới sự chỉ huy của hai điều tra viên kỳ cựu thuộc Sở Cảnh sát Hạt Los Angeles là Thám tử Gil Carrillo và Thám tử Frank Salerno, hàng nghìn manh mối đã được sàng lọc ngày đêm. Bước đột phá quyết định xuất hiện khi lực lượng chức năng thu được một dấu vân tay duy nhất trên chiếc xe Toyota station wagon bị đánh cắp mà nghi phạm từng sử dụng. Hệ thống nhận dạng vân tay tự động AFIS của California, khi đó vừa được đưa vào vận hành, đã lập nên chiến công mang tính bước ngoặt công nghệ. Dữ liệu máy tính lập tức trả về một cái tên trùng khớp: Richard Ramirez, một thanh niên hai mươi lăm tuổi gốc Texas có tiền án trộm cắp.",
   "sentences": [
    {
     "id": "1.04#1",
-    "text": "Khác với những kẻ sát nhân hàng loạt thông thường vốn chỉ nhắm vào một nhóm đối tượng cụ thể, Night Stalker hành động hoàn toàn hỗn loạn và khó đoán định.",
+    "text": "Khác với những kẻ sát nhân hàng loạt thông thường vốn chỉ nhắm vào một nhóm nạn nhân cụ thể, Night Stalker hành động hoàn toàn hỗn loạn và khó đoán định.",
     "words": 32
    },
    {
     "id": "1.04#2",
-    "text": "Hắn sử dụng nhiều loại vũ khí khác nhau, đột nhập ngẫu nhiên qua những ô cửa sổ không khóa và để lại những biểu tượng ngôi sao năm cánh ma quái trên tường nhà nạn nhân.",
-    "words": 37
+    "text": "Hắn không nhìn nhận nạn nhân là những con người có sinh mệnh và gia đình, mà hạ họ xuống thành đạo cụ phục vụ cho cơn khát quyền lực và bạo lực bóng tối.",
+    "words": 35
    },
    {
     "id": "1.04#3",
-    "text": "Cả thành phố Los Angeles rơi vào trạng thái tê liệt vì không một ai biết được ai sẽ là mục tiêu tiếp theo của con quái vật bóng đêm.",
-    "words": 30
+    "text": "Hắn đột nhập ngẫu nhiên qua những ô cửa sổ không khóa và có lúc để lại biểu tượng ngôi sao năm cánh kỳ dị tại hiện trường.",
+    "words": 28
    },
    {
     "id": "1.04#4",
-    "text": "Các cửa hàng bán vũ khí tự vệ, hệ thống khóa an ninh và chó bảo vệ đều cháy hàng chỉ trong vòng vài tuần ngắn ngủi.",
+    "text": "Doanh số bán vũ khí, thiết bị an ninh và chốt khóa cửa tại California tăng vọt trong cơn sốt bảo vệ gia đình chưa từng có.",
     "words": 27
    },
    {
     "id": "1.04#5",
-    "text": "Dưới sự chỉ huy của hai điều tra viên huyền thoại thuộc Sở Cảnh sát Hạt Los Angeles là Thám tử Gil Carrillo và Thám tử Frank Salerno, hàng nghìn manh mối đã được sàng lọc ngày đêm.",
+    "text": "Dưới sự chỉ huy của hai điều tra viên kỳ cựu thuộc Sở Cảnh sát Hạt Los Angeles là Thám tử Gil Carrillo và Thám tử Frank Salerno, hàng nghìn manh mối đã được sàng lọc ngày đêm.",
     "words": 38
    },
    {
     "id": "1.04#6",
-    "text": "Bước đột phá xuất hiện khi cảnh sát thu thập được một dấu vân tay duy nhất trên chiếc xe ô tô bị đánh cắp mà nghi phạm từng sử dụng để tẩu thoát.",
-    "words": 34
+    "text": "Bước đột phá quyết định xuất hiện khi lực lượng chức năng thu được một dấu vân tay duy nhất trên chiếc xe Toyota station wagon bị đánh cắp mà nghi phạm từng sử dụng.",
+    "words": 35
    },
    {
     "id": "1.04#7",
-    "text": "Công nghệ nhận dạng vân tay tự động vừa mới ra đời thời điểm đó đã lập tức trả về một cái tên rúng động: Richard Ramirez, một thanh niên hai mươi lăm tuổi gốc Texas.",
-    "words": 36
+    "text": "Hệ thống nhận dạng vân tay tự động AFIS của California, khi đó vừa được đưa vào vận hành, đã lập nên chiến công mang tính bước ngoặt công nghệ.",
+    "words": 30
+   },
+   {
+    "id": "1.04#8",
+    "text": "Dữ liệu máy tính lập tức trả về một cái tên trùng khớp: Richard Ramirez, một thanh niên hai mươi lăm tuổi gốc Texas có tiền án trộm cắp.",
+    "words": 29
    }
   ]
  },
@@ -100,40 +110,50 @@
   "id": "1.05",
   "act": 1,
   "kind": "SFX",
-  "desc": "*Tiếng máy in báo chạy rầm rộ, tiếng còi xe cảnh sát hú dồn dập.*"
+  "desc": "Tiếng máy tính thời kỳ đầu quét dữ liệu, tiếng máy in kim kêu lẹt kẹt in ra hồ sơ nghi phạm."
  },
  {
   "id": "1.06",
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "khoảnh khắc bước ngoặt nhận diện trên đường phố",
-  "text": "Sáng ngày 31 tháng 8 năm 1985, khuôn mặt gầy guộc với mái tóc đen rối bù và ánh mắt sắc lạnh của Richard Ramirez được in tràn ngập trên trang nhất của tất cả các tờ báo lớn tại California. Cùng thời điểm đó, Ramirez vừa bước xuống chuyến xe buýt từ Arizona trở về Los Angeles mà hoàn toàn không biết rằng khuôn mặt của mình đã được phát tán khắp nơi. Khi bước vào một tiệm tạp hóa ở khu phố Đông Los Angeles, hắn bàng hoàng nhìn thấy chính bức ảnh chân dung của mình đang nhìn chằm chằm lại từ sạp báo. Hắn hoảng hốt tháo chạy ra đường phố, cố gắng cướp một chiếc xe ô tô của người dân để tẩu thoát trong cơn tuyệt vọng. Nhưng lần này, kẻ gieo rắc nỗi sợ hãi cho cả một tiểu bang đã phải đối mặt với cơn thịnh nộ dữ dội của cả một cộng đồng đoàn kết.",
+  "direction": "tiết tấu nhanh hơn, mô tả bước ngoặt bắt giữ",
+  "text": "Sáng ngày 31 tháng 8 năm 1985, khuôn mặt sắc lạnh của Richard Ramirez xuất hiện đồng loạt trên trang nhất tất cả các tờ báo lớn tại California. Cùng thời điểm đó, Ramirez vừa bước xuống chuyến xe buýt từ Arizona trở về Los Angeles mà hoàn toàn không biết rằng ảnh chân dung của mình đã được phát tán khắp nơi. Khi bước vào một tiệm tạp hóa ở khu phố Đông Los Angeles, hắn bàng hoàng nhìn thấy chính bức ảnh của mình đang nhìn chằm chằm lại từ sạp báo. Kẻ thủ ác hoảng hốt tháo chạy ra đường phố và tìm cách cướp xe hơi của người dân để tẩu thoát. Nhưng lần này, kẻ gieo rắc nỗi khiếp sợ cho cả một bang đã phải đối mặt với một sức mạnh mà hắn không bao giờ lường trước: Sự quả cảm của cộng đồng. Người dân khu phố Hubbard tại Đông Los Angeles đã đồng lòng hô hoán và cùng nhau truy đuổi kẻ ác. Hãy hình dung cảm giác của một cư dân khu phố trong khoảnh khắc lịch sử sáng hôm ấy.",
   "sentences": [
    {
     "id": "1.06#1",
-    "text": "Sáng ngày 31 tháng 8 năm 1985, khuôn mặt gầy guộc với mái tóc đen rối bù và ánh mắt sắc lạnh của Richard Ramirez được in tràn ngập trên trang nhất của tất cả các tờ báo lớn tại California.",
-    "words": 41
+    "text": "Sáng ngày 31 tháng 8 năm 1985, khuôn mặt sắc lạnh của Richard Ramirez xuất hiện đồng loạt trên trang nhất tất cả các tờ báo lớn tại California.",
+    "words": 29
    },
    {
     "id": "1.06#2",
-    "text": "Cùng thời điểm đó, Ramirez vừa bước xuống chuyến xe buýt từ Arizona trở về Los Angeles mà hoàn toàn không biết rằng khuôn mặt của mình đã được phát tán khắp nơi.",
-    "words": 33
+    "text": "Cùng thời điểm đó, Ramirez vừa bước xuống chuyến xe buýt từ Arizona trở về Los Angeles mà hoàn toàn không biết rằng ảnh chân dung của mình đã được phát tán khắp nơi.",
+    "words": 34
    },
    {
     "id": "1.06#3",
-    "text": "Khi bước vào một tiệm tạp hóa ở khu phố Đông Los Angeles, hắn bàng hoàng nhìn thấy chính bức ảnh chân dung của mình đang nhìn chằm chằm lại từ sạp báo.",
-    "words": 33
+    "text": "Khi bước vào một tiệm tạp hóa ở khu phố Đông Los Angeles, hắn bàng hoàng nhìn thấy chính bức ảnh của mình đang nhìn chằm chằm lại từ sạp báo.",
+    "words": 31
    },
    {
     "id": "1.06#4",
-    "text": "Hắn hoảng hốt tháo chạy ra đường phố, cố gắng cướp một chiếc xe ô tô của người dân để tẩu thoát trong cơn tuyệt vọng.",
-    "words": 26
+    "text": "Kẻ thủ ác hoảng hốt tháo chạy ra đường phố và tìm cách cướp xe hơi của người dân để tẩu thoát.",
+    "words": 22
    },
    {
     "id": "1.06#5",
-    "text": "Nhưng lần này, kẻ gieo rắc nỗi sợ hãi cho cả một tiểu bang đã phải đối mặt với cơn thịnh nộ dữ dội của cả một cộng đồng đoàn kết.",
-    "words": 31
+    "text": "Nhưng lần này, kẻ gieo rắc nỗi khiếp sợ cho cả một bang đã phải đối mặt với một sức mạnh mà hắn không bao giờ lường trước: Sự quả cảm của cộng đồng.",
+    "words": 34
+   },
+   {
+    "id": "1.06#6",
+    "text": "Người dân khu phố Hubbard tại Đông Los Angeles đã đồng lòng hô hoán và cùng nhau truy đuổi kẻ ác.",
+    "words": 21
+   },
+   {
+    "id": "1.06#7",
+    "text": "Hãy hình dung cảm giác của một cư dân khu phố trong khoảnh khắc lịch sử sáng hôm ấy.",
+    "words": 19
    }
   ]
  },
@@ -142,8 +162,8 @@
   "act": 1,
   "kind": "LOI",
   "role": "N",
-  "direction": "N1: Cư dân Đông Los Angeles, giọng nam sôi nổi, quả cảm",
-  "text": "Buổi sáng hôm đó là một ngày mà tôi sẽ không bao giờ có thể quên được trong suốt cuộc đời của mình. Tôi đang cùng các người hàng xóm sửa xe ngoài ngõ thì bỗng nhiên nghe thấy tiếng một người phụ nữ hét lớn kêu cứu bị cướp xe. Ngay sau đó, một gã đàn ông cao gầy, mặc áo đen bỏ chạy thục mạng qua các con phố nhỏ của khu phố chúng tôi. Một người hàng xóm nhận ra khuôn mặt của hắn ta giống hệt bức ảnh Night Stalker vừa in trên trang nhất tờ báo sáng nay và hô to lên để mọi người cùng nghe. Hàng chục thanh niên, đàn ông trong khu phố Đông Los Angeles đã đồng loạt cầm theo gậy gộc, xà beng lao ra đường truy đuổi kẻ sát nhân. Chúng tôi đã dồn hắn vào chân tường, quật ngã hắn xuống mặt đường nhựa và khống chế chặt chẽ cho đến khi còi xe cảnh sát vang lên. Nhìn thấy kẻ từng khiến hàng triệu người khiếp sợ bị đè bẹp dưới đất, chúng tôi hiểu rằng cơn ác mộng mùa hè của California cuối cùng đã bị chặn đứng.",
+  "direction": "N1: góc nhìn minh hoạ của một cư dân Đông Los Angeles, giọng chân thật, xúc động",
+  "text": "Buổi sáng hôm đó là một ngày mà tôi sẽ không bao giờ có thể quên được trong suốt cuộc đời của mình. Khi nghe thấy tiếng kêu cứu thất thanh của một phụ nữ bị cướp xe, mọi người lập tức đổ ra đường. Tôi nhìn thấy một gã đàn ông cao gầy, gương mặt hốc hác đang bỏ chạy thục mạng qua các con ngõ nhỏ. Một người hàng xóm nhận ra hắn ta giống hệt bức ảnh Night Stalker vừa in trên trang nhất tờ báo sáng nay và hô to danh tính của hắn. Ngay lập tức, hàng chục người đàn ông trong khu phố Đông Los Angeles đã dũng cảm lao ra đường chặn đường và truy đuổi. Chúng tôi không còn sợ hãi nữa, mà chỉ có một quyết tâm duy nhất là bảo vệ gia đình và khu phố của mình. Mọi người đã cùng nhau giữ chặt kẻ sát nhân trên vỉa hè cho đến khi các xe cảnh sát hú còi lao tới. Khi kẻ từng khiến cả bang California khiếp sợ bị khống chế, chúng tôi hiểu rằng cơn ác mộng mùa hè cuối cùng đã bị chặn đứng bởi chính sức mạnh của người dân.",
   "sentences": [
    {
     "id": "1.07#1",
@@ -152,33 +172,38 @@
    },
    {
     "id": "1.07#2",
-    "text": "Tôi đang cùng các người hàng xóm sửa xe ngoài ngõ thì bỗng nhiên nghe thấy tiếng một người phụ nữ hét lớn kêu cứu bị cướp xe.",
-    "words": 28
+    "text": "Khi nghe thấy tiếng kêu cứu thất thanh của một phụ nữ bị cướp xe, mọi người lập tức đổ ra đường.",
+    "words": 22
    },
    {
     "id": "1.07#3",
-    "text": "Ngay sau đó, một gã đàn ông cao gầy, mặc áo đen bỏ chạy thục mạng qua các con phố nhỏ của khu phố chúng tôi.",
-    "words": 26
+    "text": "Tôi nhìn thấy một gã đàn ông cao gầy, gương mặt hốc hác đang bỏ chạy thục mạng qua các con ngõ nhỏ.",
+    "words": 23
    },
    {
     "id": "1.07#4",
-    "text": "Một người hàng xóm nhận ra khuôn mặt của hắn ta giống hệt bức ảnh Night Stalker vừa in trên trang nhất tờ báo sáng nay và hô to lên để mọi người cùng nghe.",
-    "words": 35
+    "text": "Một người hàng xóm nhận ra hắn ta giống hệt bức ảnh Night Stalker vừa in trên trang nhất tờ báo sáng nay và hô to danh tính của hắn.",
+    "words": 30
    },
    {
     "id": "1.07#5",
-    "text": "Hàng chục thanh niên, đàn ông trong khu phố Đông Los Angeles đã đồng loạt cầm theo gậy gộc, xà beng lao ra đường truy đuổi kẻ sát nhân.",
-    "words": 29
+    "text": "Ngay lập tức, hàng chục người đàn ông trong khu phố Đông Los Angeles đã dũng cảm lao ra đường chặn đường và truy đuổi.",
+    "words": 25
    },
    {
     "id": "1.07#6",
-    "text": "Chúng tôi đã dồn hắn vào chân tường, quật ngã hắn xuống mặt đường nhựa và khống chế chặt chẽ cho đến khi còi xe cảnh sát vang lên.",
-    "words": 29
+    "text": "Chúng tôi không còn sợ hãi nữa, mà chỉ có một quyết tâm duy nhất là bảo vệ gia đình và khu phố của mình.",
+    "words": 25
    },
    {
     "id": "1.07#7",
-    "text": "Nhìn thấy kẻ từng khiến hàng triệu người khiếp sợ bị đè bẹp dưới đất, chúng tôi hiểu rằng cơn ác mộng mùa hè của California cuối cùng đã bị chặn đứng.",
-    "words": 32
+    "text": "Mọi người đã cùng nhau giữ chặt kẻ sát nhân trên vỉa hè cho đến khi các xe cảnh sát hú còi lao tới.",
+    "words": 24
+   },
+   {
+    "id": "1.07#8",
+    "text": "Khi kẻ từng khiến cả bang California khiếp sợ bị khống chế, chúng tôi hiểu rằng cơn ác mộng mùa hè cuối cùng đã bị chặn đứng bởi chính sức mạnh của người dân.",
+    "words": 34
    }
   ]
  },
@@ -186,45 +211,50 @@
   "id": "1.08",
   "act": 1,
   "kind": "SFX",
-  "desc": "*Tiếng còng số tám khóa chặt lách cách, tiếng hò reo của đám đông bên ngoài.*"
+  "desc": "Tiếng còi xe cảnh sát rền vang từ xa rồi tiến lại gần, tiếng người dân hô hoán vây bắt."
  },
  {
   "id": "1.09",
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "chuyển sang căn phòng hỏi cung của Sở Cảnh sát Los Angeles",
-  "text": "Vụ bắt giữ công khai trên đường phố Đông Los Angeles đã chấm dứt chuỗi ngày kinh hoàng kéo dài hơn một năm của Night Stalker. Khi các sĩ quan cảnh sát ập đến hiện trường, Richard Ramirez đã bị người dân vây bắt trong tình trạng hoảng loạn và tơi tả. Hắn run rẩy xin cảnh sát bảo vệ trước cơn thịnh nộ của đám đông đang đòi hành hình kẻ ác tại chỗ. Hắn lập tức được áp giải về trụ sở cảnh sát trong sự bảo vệ an ninh nghiêm ngặt nhất của lực lượng đặc nhiệm. Thám tử Gil Carrillo là một trong những người đầu tiên bước vào phòng hỏi cung để đối mặt trực diện với kẻ sát nhân bóng đêm. Nhưng điều khiến các điều tra viên kinh ngạc không chỉ là sự tàn bạo của các vụ án mạng, mà là cấu trúc nhân cách méo mó và sự sùng bái tà giáo kỳ dị của kẻ thủ ác.",
+  "direction": "trầm giọng, chuyển cảnh",
+  "text": "Vụ bắt giữ công khai trên đường phố Đông Los Angeles ngày 31 tháng 8 năm 1985 đã chính thức chấm dứt chuỗi ngày kinh hoàng kéo dài hơn một năm của Night Stalker. Khi các sĩ quan cảnh sát tới nơi, Richard Ramirez đã bị những người dân dũng cảm khống chế hoàn toàn trên vỉa hè. Lực lượng chức năng lập tức che chắn và áp giải hắn ra khỏi đám đông đang sục sôi phẫn nộ. Hắn được đưa về trụ sở cảnh sát dưới sự bảo vệ nghiêm ngặt nhất để chuẩn bị cho quá trình lấy lời khai. Một chiến dịch điều tra nghẹt thở khép lại, mở ra cuộc đối đầu pháp lý và tâm lý đầy cam go. Nhưng điều khiến các điều tra viên kinh ngạc không chỉ là sự ngông cuồng của kẻ thủ ác, mà còn là sự méo mó trong cấu trúc nhân cách của hắn. Một chân dung tâm lý phức tạp bắt đầu lộ diện sau lớp vỏ bọc bóng tối.",
   "sentences": [
    {
     "id": "1.09#1",
-    "text": "Vụ bắt giữ công khai trên đường phố Đông Los Angeles đã chấm dứt chuỗi ngày kinh hoàng kéo dài hơn một năm của Night Stalker.",
-    "words": 26
+    "text": "Vụ bắt giữ công khai trên đường phố Đông Los Angeles ngày 31 tháng 8 năm 1985 đã chính thức chấm dứt chuỗi ngày kinh hoàng kéo dài hơn một năm của Night Stalker.",
+    "words": 34
    },
    {
     "id": "1.09#2",
-    "text": "Khi các sĩ quan cảnh sát ập đến hiện trường, Richard Ramirez đã bị người dân vây bắt trong tình trạng hoảng loạn và tơi tả.",
-    "words": 26
+    "text": "Khi các sĩ quan cảnh sát tới nơi, Richard Ramirez đã bị những người dân dũng cảm khống chế hoàn toàn trên vỉa hè.",
+    "words": 24
    },
    {
     "id": "1.09#3",
-    "text": "Hắn run rẩy xin cảnh sát bảo vệ trước cơn thịnh nộ của đám đông đang đòi hành hình kẻ ác tại chỗ.",
-    "words": 23
+    "text": "Lực lượng chức năng lập tức che chắn và áp giải hắn ra khỏi đám đông đang sục sôi phẫn nộ.",
+    "words": 21
    },
    {
     "id": "1.09#4",
-    "text": "Hắn lập tức được áp giải về trụ sở cảnh sát trong sự bảo vệ an ninh nghiêm ngặt nhất của lực lượng đặc nhiệm.",
-    "words": 25
+    "text": "Hắn được đưa về trụ sở cảnh sát dưới sự bảo vệ nghiêm ngặt nhất để chuẩn bị cho quá trình lấy lời khai.",
+    "words": 24
    },
    {
     "id": "1.09#5",
-    "text": "Thám tử Gil Carrillo là một trong những người đầu tiên bước vào phòng hỏi cung để đối mặt trực diện với kẻ sát nhân bóng đêm.",
-    "words": 27
+    "text": "Một chiến dịch điều tra nghẹt thở khép lại, mở ra cuộc đối đầu pháp lý và tâm lý đầy cam go.",
+    "words": 22
    },
    {
     "id": "1.09#6",
-    "text": "Nhưng điều khiến các điều tra viên kinh ngạc không chỉ là sự tàn bạo của các vụ án mạng, mà là cấu trúc nhân cách méo mó và sự sùng bái tà giáo kỳ dị của kẻ thủ ác.",
-    "words": 40
+    "text": "Nhưng điều khiến các điều tra viên kinh ngạc không chỉ là sự ngông cuồng của kẻ thủ ác, mà còn là sự méo mó trong cấu trúc nhân cách của hắn.",
+    "words": 32
+   },
+   {
+    "id": "1.09#7",
+    "text": "Một chân dung tâm lý phức tạp bắt đầu lộ diện sau lớp vỏ bọc bóng tối.",
+    "words": 17
    }
   ]
  },
@@ -233,33 +263,43 @@
   "act": 1,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Thám tử Gil Carrillo, giọng nam trung niên, dày dạn kinh nghiệm, đanh thép",
-  "text": "Khi đối mặt với Richard Ramirez trong phòng điều tra, cảm giác đầu tiên đập vào mắt tôi là mùi hôi thối nồng nặc toát ra từ hàm răng sâu hoắm và bộ quần áo bẩn thỉu của hắn. Hắn ngồi đó với một nụ cười khẩy ngạo mạn, đôi mắt đen sâu hoắm nhìn xoáy vào chúng tôi như muốn thể hiện sự thách thức tối cao. Hắn liên tục giơ bàn tay có vẽ biểu tượng ngôi sao năm cánh ngược lên trước camera và lẩm bẩm những câu nói ca ngợi ma quỷ quái đản. Chúng tôi biết rằng mình đang đối diện với một dạng tội phạm cực kỳ phức tạp: Một kẻ vô tổ chức trong hành vi thực địa nhưng lại có sự xảo quyệt ma mãnh trong việc xóa dấu vết. Nhưng điều kỳ lạ và gây sốc nhất không nằm ở những gì hắn thể hiện với cảnh sát, mà nằm ở phản ứng quái đản của một bộ phận công chúng ngoài phòng xử án sau đó.",
+  "direction": "giọng nam sắc bén, phân tích nghiệp vụ",
+  "text": "Hãy hình dung một điều tra viên lần đầu ngồi đối diện Richard Ramirez trong phòng hỏi cung. Hắn mang dáng vẻ ngạo mạn, ánh mắt thách thức và hoàn toàn thiếu vắng bất kỳ biểu hiện hối lỗi nào. Về sau, tại các phiên tòa, hắn từng giơ bàn tay có vẽ ngôi sao năm cánh và buông những câu ca ngợi tà giáo nhằm gây hoang mang dư luận. Dưới góc độ khoa học hành vi, đây là một dạng tội phạm hỗn hợp cực kỳ nguy hiểm, vừa có sự bốc đồng vô tổ chức nhưng lại có sự xảo quyệt trong việc xóa dấu vết. Hắn sử dụng niềm tin tà giáo như một cơ chế ngắt kết nối đạo đức để tự ru ngủ lương tri và biện minh cho hành vi tàn bạo của mình. Tuy nhiên, điều gây sốc nhất cho lực lượng điều tra không nằm ở sự ngông cuồng của hắn trong phòng giam. Cú sốc thực sự lại đến từ phản ứng khó tin của một bộ phận công chúng ngoài phòng xử án sau đó.",
   "sentences": [
    {
     "id": "1.10#1",
-    "text": "Khi đối mặt với Richard Ramirez trong phòng điều tra, cảm giác đầu tiên đập vào mắt tôi là mùi hôi thối nồng nặc toát ra từ hàm răng sâu hoắm và bộ quần áo bẩn thỉu của hắn.",
-    "words": 39
+    "text": "Hãy hình dung một điều tra viên lần đầu ngồi đối diện Richard Ramirez trong phòng hỏi cung.",
+    "words": 18
    },
    {
     "id": "1.10#2",
-    "text": "Hắn ngồi đó với một nụ cười khẩy ngạo mạn, đôi mắt đen sâu hoắm nhìn xoáy vào chúng tôi như muốn thể hiện sự thách thức tối cao.",
-    "words": 29
+    "text": "Hắn mang dáng vẻ ngạo mạn, ánh mắt thách thức và hoàn toàn thiếu vắng bất kỳ biểu hiện hối lỗi nào.",
+    "words": 22
    },
    {
     "id": "1.10#3",
-    "text": "Hắn liên tục giơ bàn tay có vẽ biểu tượng ngôi sao năm cánh ngược lên trước camera và lẩm bẩm những câu nói ca ngợi ma quỷ quái đản.",
-    "words": 30
+    "text": "Về sau, tại các phiên tòa, hắn từng giơ bàn tay có vẽ ngôi sao năm cánh và buông những câu ca ngợi tà giáo nhằm gây hoang mang dư luận.",
+    "words": 31
    },
    {
     "id": "1.10#4",
-    "text": "Chúng tôi biết rằng mình đang đối diện với một dạng tội phạm cực kỳ phức tạp: Một kẻ vô tổ chức trong hành vi thực địa nhưng lại có sự xảo quyệt ma mãnh trong việc xóa dấu vết.",
-    "words": 40
+    "text": "Dưới góc độ khoa học hành vi, đây là một dạng tội phạm hỗn hợp cực kỳ nguy hiểm, vừa có sự bốc đồng vô tổ chức nhưng lại có sự xảo quyệt trong việc xóa dấu vết.",
+    "words": 38
    },
    {
     "id": "1.10#5",
-    "text": "Nhưng điều kỳ lạ và gây sốc nhất không nằm ở những gì hắn thể hiện với cảnh sát, mà nằm ở phản ứng quái đản của một bộ phận công chúng ngoài phòng xử án sau đó.",
-    "words": 38
+    "text": "Hắn sử dụng niềm tin tà giáo như một cơ chế ngắt kết nối đạo đức để tự ru ngủ lương tri và biện minh cho hành vi tàn bạo của mình.",
+    "words": 32
+   },
+   {
+    "id": "1.10#6",
+    "text": "Tuy nhiên, điều gây sốc nhất cho lực lượng điều tra không nằm ở sự ngông cuồng của hắn trong phòng giam.",
+    "words": 22
+   },
+   {
+    "id": "1.10#7",
+    "text": "Cú sốc thực sự lại đến từ phản ứng khó tin của một bộ phận công chúng ngoài phòng xử án sau đó.",
+    "words": 23
    }
   ]
  },
@@ -268,23 +308,28 @@
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "khép lại Hồi 1, hé lộ hiện tượng tâm lý xã hội kỳ dị",
-  "text": "Việc bắt giữ Richard Ramirez tưởng chừng như sẽ mang lại sự bình yên trọn vẹn và sự đồng thuận tuyệt đối trong việc trừng phạt cái ác. Thế nhưng, khi phiên tòa xét xử chính thức mở màn tại Tòa Thượng thẩm Los Angeles, một hiện tượng tâm lý xã hội kỳ dị chưa từng có đã bùng phát. Đó là sự trỗi dậy của một làn sóng hâm mộ bệnh hoạn mang tên Hội chứng say mê tội phạm, hay Hybristophilia.",
+  "direction": "giọng suy tư, gợi mở nghịch lý",
+  "text": "Việc bắt giữ Richard Ramirez tưởng chừng như sẽ mang lại sự bình yên trọn vẹn và sự đồng thuận tuyệt đối của xã hội trong việc trừng trị cái ác. Thế nhưng, khi phiên tòa xét xử chính thức mở màn tại Tòa Thượng thẩm Los Angeles, một hiện tượng xã hội kỳ dị chưa từng có đã bùng phát. Đó là sự trỗi dậy của một làn sóng say mê bệnh hoạn hướng về kẻ sát nhân mang tên Hội chứng say mê tội phạm, hay Hybristophilia. Một tấm gương phản chiếu những điểm mù nhận thức và sự lệch lạc cảm xúc trong xã hội hiện đại bắt đầu phơi bày.",
   "sentences": [
    {
     "id": "1.11#1",
-    "text": "Việc bắt giữ Richard Ramirez tưởng chừng như sẽ mang lại sự bình yên trọn vẹn và sự đồng thuận tuyệt đối trong việc trừng phạt cái ác.",
-    "words": 28
+    "text": "Việc bắt giữ Richard Ramirez tưởng chừng như sẽ mang lại sự bình yên trọn vẹn và sự đồng thuận tuyệt đối của xã hội trong việc trừng trị cái ác.",
+    "words": 31
    },
    {
     "id": "1.11#2",
-    "text": "Thế nhưng, khi phiên tòa xét xử chính thức mở màn tại Tòa Thượng thẩm Los Angeles, một hiện tượng tâm lý xã hội kỳ dị chưa từng có đã bùng phát.",
-    "words": 32
+    "text": "Thế nhưng, khi phiên tòa xét xử chính thức mở màn tại Tòa Thượng thẩm Los Angeles, một hiện tượng xã hội kỳ dị chưa từng có đã bùng phát.",
+    "words": 30
    },
    {
     "id": "1.11#3",
-    "text": "Đó là sự trỗi dậy của một làn sóng hâm mộ bệnh hoạn mang tên Hội chứng say mê tội phạm, hay Hybristophilia.",
-    "words": 23
+    "text": "Đó là sự trỗi dậy của một làn sóng say mê bệnh hoạn hướng về kẻ sát nhân mang tên Hội chứng say mê tội phạm, hay Hybristophilia.",
+    "words": 28
+   },
+   {
+    "id": "1.11#4",
+    "text": "Một tấm gương phản chiếu những điểm mù nhận thức và sự lệch lạc cảm xúc trong xã hội hiện đại bắt đầu phơi bày.",
+    "words": 25
    }
   ]
  },
@@ -292,36 +337,46 @@
   "id": "1.12",
   "act": 1,
   "kind": "BGM",
-  "desc": "*Một nốt trầm đục ngân dài rồi ngắt quãng, tạo khoảng lặng nghẹt thở trước khi bước sang Hồi 2.*"
+  "desc": "Nhạc nền Cello trầm lắng kết thúc Hồi 1, ngân vang suy tư rồi chuyển tiếp."
  },
  {
   "id": "2.01",
   "act": 2,
   "kind": "BGM",
-  "desc": "*Âm thanh Heavy Bass kết hợp nhịp điệu rock điện tử u ám, phản ánh sự hỗn loạn và cuồng nhiệt bệnh hoạn tại phòng xử án.*"
+  "desc": "Tiếng Dark Ambient dâng lên u ám, kết hợp tiếng nhịp đập điện tử nặng nề mô tả không khí căng thẳng tại phòng xử án."
  },
  {
   "id": "2.02",
   "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "tiết tấu nhanh, miêu tả khung cảnh kỳ dị của phòng xét xử",
-  "text": "Phiên tòa xét xử Richard Ramirez kéo dài từ năm 1988 đến năm 1989 đã trở thành một trong những phiên tòa kỳ quái và hỗn loạn nhất trong lịch sử tư pháp nước Mỹ. Bên cạnh những bằng chứng pháp y đẫm máu và lời khai đau xót của các nạn nhân sống sót, không gian phòng xử án luôn bị xáo trộn bởi một sự hiện diện bất thường. Đó là hàng trăm người phụ nữ trẻ tuổi, ăn mặc lộng lẫy, đeo trang sức hình ngôi sao năm cánh và chen chúc nhau từ sáng sớm chỉ để có một chỗ ngồi nhìn ngắm bị cáo.",
+  "direction": "chậm rãi, mô tả sự kiện pháp đình",
+  "text": "Phiên tòa xét xử Richard Ramirez, kéo dài từ giai đoạn chọn bồi thẩm đoàn năm 1988 đến phán quyết năm 1989, đã trở thành một trong những phiên tòa kỳ quái và hỗn loạn nhất trong lịch sử tư pháp nước Mỹ. Bên cạnh những chứng cứ pháp y đanh thép và lời khai nghẹn ngào của các nạn nhân sống sót, không gian phòng xử án luôn bị xáo trộn bởi một sự hiện diện bất thường. Đó là những người phụ nữ trẻ mặc đồ đen, trang điểm đậm, xếp hàng từ sáng sớm chỉ để chen chân vào dự khán và nhìn ngắm bị cáo. Họ thì thầm, trao đổi những ánh nhìn ngưỡng mộ và coi kẻ sát nhân bóng đêm như một biểu tượng của sự quyến rũ ngạo nghễ. Cơn cuồng loạn truyền thông đã tạo nên một bức tranh đối lập đầy cay đắng giữa sự tôn nghiêm của pháp luật và sự lệch chuẩn của một nhóm người.",
   "sentences": [
    {
     "id": "2.02#1",
-    "text": "Phiên tòa xét xử Richard Ramirez kéo dài từ năm 1988 đến năm 1989 đã trở thành một trong những phiên tòa kỳ quái và hỗn loạn nhất trong lịch sử tư pháp nước Mỹ.",
-    "words": 35
+    "text": "Phiên tòa xét xử Richard Ramirez, kéo dài từ giai đoạn chọn bồi thẩm đoàn năm 1988 đến phán quyết năm 1989, đã trở thành một trong những phiên tòa kỳ quái và hỗn loạn nhất trong lịch sử tư pháp nước Mỹ.",
+    "words": 43
    },
    {
     "id": "2.02#2",
-    "text": "Bên cạnh những bằng chứng pháp y đẫm máu và lời khai đau xót của các nạn nhân sống sót, không gian phòng xử án luôn bị xáo trộn bởi một sự hiện diện bất thường.",
+    "text": "Bên cạnh những chứng cứ pháp y đanh thép và lời khai nghẹn ngào của các nạn nhân sống sót, không gian phòng xử án luôn bị xáo trộn bởi một sự hiện diện bất thường.",
     "words": 36
    },
    {
     "id": "2.02#3",
-    "text": "Đó là hàng trăm người phụ nữ trẻ tuổi, ăn mặc lộng lẫy, đeo trang sức hình ngôi sao năm cánh và chen chúc nhau từ sáng sớm chỉ để có một chỗ ngồi nhìn ngắm bị cáo.",
-    "words": 38
+    "text": "Đó là những người phụ nữ trẻ mặc đồ đen, trang điểm đậm, xếp hàng từ sáng sớm chỉ để chen chân vào dự khán và nhìn ngắm bị cáo.",
+    "words": 30
+   },
+   {
+    "id": "2.02#4",
+    "text": "Họ thì thầm, trao đổi những ánh nhìn ngưỡng mộ và coi kẻ sát nhân bóng đêm như một biểu tượng của sự quyến rũ ngạo nghễ.",
+    "words": 27
+   },
+   {
+    "id": "2.02#5",
+    "text": "Cơn cuồng loạn truyền thông đã tạo nên một bức tranh đối lập đầy cay đắng giữa sự tôn nghiêm của pháp luật và sự lệch chuẩn của một nhóm người.",
+    "words": 31
    }
   ]
  },
@@ -329,45 +384,55 @@
   "id": "2.03",
   "act": 2,
   "kind": "SFX",
-  "desc": "*Tiếng máy ảnh bấm liên thanh tách tách, tiếng xì xào phấn khích của các cô gái.*"
+  "desc": "Tiếng micro phòng xử án kêu rè nhẹ, tiếng rì rầm xôn xao của đám đông người dự khán."
  },
  {
   "id": "2.04",
   "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "phác họa chân dung kẻ sát nhân được thần tượng hóa",
-  "text": "Bất chấp những cáo buộc man rợ về mười ba vụ án mạng và hàng chục vụ tấn công tàn độc, Ramirez bỗng chốc được tôn sùng như một ngôi sao nhạc rock bí ẩn. Hắn bước vào phòng xử án trong bộ vest đen lịch lãm, đeo kính râm màu tối, mái tóc uốn lượn và liên tục quay xuống hàng ghế khán giả để nháy mắt, mỉm cười. Mỗi cử chỉ nhỏ hay một nụ cười khẩy của kẻ sát nhân đều nhận được những tiếng thở dài mê đắm và ánh nhìn say đắm từ các cô gái trẻ. Hòm thư của trại giam nơi Ramirez bị tạm giam luôn trong tình trạng quá tải với hàng nghìn lá thư tình, những bức ảnh khỏa thân và những lời thề nguyền yêu đương chung thủy. Nhiều phụ nữ thậm chí còn công khai tuyên bố trên sóng truyền hình rằng Ramirez hoàn toàn vô tội và hắn chỉ là một tâm hồn cô đơn bị xã hội hiểu lầm. Cảnh tượng trớ trêu ấy đã giáng một đòn đau đớn vào tâm can của gia đình các nạn nhân, những người đang ngày đêm mong mỏi công lý được thực thi.",
+  "direction": "tiết tấu nhấn mạnh, bóc trần hiện tượng",
+  "text": "Bất chấp việc bị cáo buộc mười ba vụ án mạng cùng hàng chục tội danh tấn công và trộm cắp nghiêm trọng, Ramirez bỗng chốc được một bộ phận người hâm mộ đối xử như một ngôi sao nhạc rock bí ẩn. Hắn bước vào phòng xử án với cặp kính râm đen, mái tóc xoăn dài và nụ cười khẩy đầy vẻ thách thức thế giới. Mỗi cử chỉ nhỏ hay ánh mắt bất cần của hắn đều được các cô gái trẻ phía sau dõi theo một cách say đắm. Hàng ngày, Ramirez nhận được hàng trăm lá thư tình từ những người phụ nữ chưa từng quen biết gửi đến trại giam. Nhiều người trong số họ còn gửi kèm ảnh cá nhân và bày tỏ niềm tin ngây thơ rằng hắn là một tâm hồn cô độc bị xã hội hiểu lầm. Đây là biểu hiện kinh điển của hiệu ứng hào quang ngược, nơi vẻ ngoài góc cạnh được gán ghép mù quáng với phẩm chất nam tính và chiều sâu nội tâm. Cảnh tượng trớ trêu ấy đã khoét sâu thêm nỗi đau đớn tột cùng của thân nhân các nạn nhân đang ngồi dự tòa. Họ phải chứng kiến kẻ đã hủy hoại gia đình mình được tán dương ngay giữa chốn pháp đình thiêng liêng.",
   "sentences": [
    {
     "id": "2.04#1",
-    "text": "Bất chấp những cáo buộc man rợ về mười ba vụ án mạng và hàng chục vụ tấn công tàn độc, Ramirez bỗng chốc được tôn sùng như một ngôi sao nhạc rock bí ẩn.",
-    "words": 35
+    "text": "Bất chấp việc bị cáo buộc mười ba vụ án mạng cùng hàng chục tội danh tấn công và trộm cắp nghiêm trọng, Ramirez bỗng chốc được một bộ phận người hâm mộ đối xử như một ngôi sao nhạc rock bí ẩn.",
+    "words": 43
    },
    {
     "id": "2.04#2",
-    "text": "Hắn bước vào phòng xử án trong bộ vest đen lịch lãm, đeo kính râm màu tối, mái tóc uốn lượn và liên tục quay xuống hàng ghế khán giả để nháy mắt, mỉm cười.",
-    "words": 35
+    "text": "Hắn bước vào phòng xử án với cặp kính râm đen, mái tóc xoăn dài và nụ cười khẩy đầy vẻ thách thức thế giới.",
+    "words": 25
    },
    {
     "id": "2.04#3",
-    "text": "Mỗi cử chỉ nhỏ hay một nụ cười khẩy của kẻ sát nhân đều nhận được những tiếng thở dài mê đắm và ánh nhìn say đắm từ các cô gái trẻ.",
-    "words": 32
+    "text": "Mỗi cử chỉ nhỏ hay ánh mắt bất cần của hắn đều được các cô gái trẻ phía sau dõi theo một cách say đắm.",
+    "words": 25
    },
    {
     "id": "2.04#4",
-    "text": "Hòm thư của trại giam nơi Ramirez bị tạm giam luôn trong tình trạng quá tải với hàng nghìn lá thư tình, những bức ảnh khỏa thân và những lời thề nguyền yêu đương chung thủy.",
-    "words": 36
+    "text": "Hàng ngày, Ramirez nhận được hàng trăm lá thư tình từ những người phụ nữ chưa từng quen biết gửi đến trại giam.",
+    "words": 23
    },
    {
     "id": "2.04#5",
-    "text": "Nhiều phụ nữ thậm chí còn công khai tuyên bố trên sóng truyền hình rằng Ramirez hoàn toàn vô tội và hắn chỉ là một tâm hồn cô đơn bị xã hội hiểu lầm.",
-    "words": 34
+    "text": "Nhiều người trong số họ còn gửi kèm ảnh cá nhân và bày tỏ niềm tin ngây thơ rằng hắn là một tâm hồn cô độc bị xã hội hiểu lầm.",
+    "words": 31
    },
    {
     "id": "2.04#6",
-    "text": "Cảnh tượng trớ trêu ấy đã giáng một đòn đau đớn vào tâm can của gia đình các nạn nhân, những người đang ngày đêm mong mỏi công lý được thực thi.",
+    "text": "Đây là biểu hiện kinh điển của hiệu ứng hào quang ngược, nơi vẻ ngoài góc cạnh được gán ghép mù quáng với phẩm chất nam tính và chiều sâu nội tâm.",
     "words": 32
+   },
+   {
+    "id": "2.04#7",
+    "text": "Cảnh tượng trớ trêu ấy đã khoét sâu thêm nỗi đau đớn tột cùng của thân nhân các nạn nhân đang ngồi dự tòa.",
+    "words": 24
+   },
+   {
+    "id": "2.04#8",
+    "text": "Họ phải chứng kiến kẻ đã hủy hoại gia đình mình được tán dương ngay giữa chốn pháp đình thiêng liêng.",
+    "words": 21
    }
   ]
  },
@@ -375,40 +440,50 @@
   "id": "2.05",
   "act": 2,
   "kind": "SFX",
-  "desc": "*Tiếng gõ búa tòa án giữ trật tự, tiếng thở dài phẫn nộ của thân nhân nạn nhân.*"
+  "desc": "Tiếng máy ảnh chớp nhoáng liên tục, tiếng bấm tách dồn dập của các phóng viên tác nghiệp."
  },
  {
   "id": "2.06",
   "act": 2,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Thám tử Gil Carrillo, sự phẫn nộ trước làn sóng thần tượng hóa",
-  "text": "Trong suốt những năm tháng ngồi ở bàn nhân chứng tại phiên tòa, tôi đã nhiều lần phải chứng kiến cảnh tượng buồn nôn khi những người phụ nữ ấy vẫy tay chào Ramirez. Họ dường như hoàn toàn mất đi khả năng nhận thức về nỗi đau đớn tột cùng mà những người mẹ, người cha của các nạn nhân đang phải gánh chịu ngay bên cạnh họ. Họ tôn sùng một kẻ từng đột nhập vào nhà dân trong đêm tối, cướp đi sinh mạng của những người vô tội chỉ vì hắn có vẻ ngoài góc cạnh và sự ngạo mạn trước tòa. Tôi đã tự hỏi bản thân hàng trăm lần rằng điều gì trong tâm lý của một con người bình thường lại có thể thúc đẩy họ yêu thương và tôn thờ một con quái vật như vậy. Câu trả lời không nằm ở sự mê muội thông thường, mà nằm sâu trong những rối loạn tâm lý học tình dục và hành vi cực kỳ phức tạp.",
+  "direction": "thể hiện sự phẫn nộ và nghiêm nghị",
+  "text": "Hãy hình dung sự phẫn nộ của những người làm công tác điều tra khi chứng kiến làn sóng người hâm mộ hướng về Ramirez trong phòng xử án. Những người phụ nữ ấy dường như hoàn toàn mất đi khả năng nhận thức về bản chất tàn độc của tội ác và nỗi đau khôn nguôi của các gia đình nạn nhân. Họ tôn sùng một kẻ từng lén lút đột nhập vào nhà dân lúc nửa đêm, tấn công những con người vô tội trong giấc ngủ chỉ vì vẻ ngoài bất cần của hắn trước ống kính máy ảnh. Dưới góc độ nghiệp vụ, Ramirez hoàn toàn không phải là một hiệp sĩ bóng đêm hay một nhân vật phản diện lãng mạn như phim ảnh thêu dệt. Hắn là một kẻ săn mồi hèn nhát, kẻ chuyên lựa chọn những đối tượng yếu thế và sơ hở nhất để thực hiện hành vi bạo lực. Câu hỏi nhức nhối đặt ra là cơ chế tâm lý nào đã thúc đẩy những con người bình thường lại đi tôn thờ và trao gửi tình cảm cho một kẻ thủ ác như vậy. Lời giải đáp không nằm ở sự say mê thông thường, mà liên quan đến những rối loạn nhận thức và ảo tưởng cảm xúc phức tạp.",
   "sentences": [
    {
     "id": "2.06#1",
-    "text": "Trong suốt những năm tháng ngồi ở bàn nhân chứng tại phiên tòa, tôi đã nhiều lần phải chứng kiến cảnh tượng buồn nôn khi những người phụ nữ ấy vẫy tay chào Ramirez.",
-    "words": 34
+    "text": "Hãy hình dung sự phẫn nộ của những người làm công tác điều tra khi chứng kiến làn sóng người hâm mộ hướng về Ramirez trong phòng xử án.",
+    "words": 29
    },
    {
     "id": "2.06#2",
-    "text": "Họ dường như hoàn toàn mất đi khả năng nhận thức về nỗi đau đớn tột cùng mà những người mẹ, người cha của các nạn nhân đang phải gánh chịu ngay bên cạnh họ.",
-    "words": 35
+    "text": "Những người phụ nữ ấy dường như hoàn toàn mất đi khả năng nhận thức về bản chất tàn độc của tội ác và nỗi đau khôn nguôi của các gia đình nạn nhân.",
+    "words": 34
    },
    {
     "id": "2.06#3",
-    "text": "Họ tôn sùng một kẻ từng đột nhập vào nhà dân trong đêm tối, cướp đi sinh mạng của những người vô tội chỉ vì hắn có vẻ ngoài góc cạnh và sự ngạo mạn trước tòa.",
-    "words": 37
+    "text": "Họ tôn sùng một kẻ từng lén lút đột nhập vào nhà dân lúc nửa đêm, tấn công những con người vô tội trong giấc ngủ chỉ vì vẻ ngoài bất cần của hắn trước ống kính máy ảnh.",
+    "words": 39
    },
    {
     "id": "2.06#4",
-    "text": "Tôi đã tự hỏi bản thân hàng trăm lần rằng điều gì trong tâm lý của một con người bình thường lại có thể thúc đẩy họ yêu thương và tôn thờ một con quái vật như vậy.",
-    "words": 38
+    "text": "Dưới góc độ nghiệp vụ, Ramirez hoàn toàn không phải là một hiệp sĩ bóng đêm hay một nhân vật phản diện lãng mạn như phim ảnh thêu dệt.",
+    "words": 29
    },
    {
     "id": "2.06#5",
-    "text": "Câu trả lời không nằm ở sự mê muội thông thường, mà nằm sâu trong những rối loạn tâm lý học tình dục và hành vi cực kỳ phức tạp.",
-    "words": 30
+    "text": "Hắn là một kẻ săn mồi hèn nhát, kẻ chuyên lựa chọn những đối tượng yếu thế và sơ hở nhất để thực hiện hành vi bạo lực.",
+    "words": 28
+   },
+   {
+    "id": "2.06#6",
+    "text": "Câu hỏi nhức nhối đặt ra là cơ chế tâm lý nào đã thúc đẩy những con người bình thường lại đi tôn thờ và trao gửi tình cảm cho một kẻ thủ ác như vậy.",
+    "words": 36
+   },
+   {
+    "id": "2.06#7",
+    "text": "Lời giải đáp không nằm ở sự say mê thông thường, mà liên quan đến những rối loạn nhận thức và ảo tưởng cảm xúc phức tạp.",
+    "words": 27
    }
   ]
  },
@@ -416,40 +491,50 @@
   "id": "2.07",
   "act": 2,
   "kind": "SFX",
-  "desc": "*Tiếng xé phong bì thư sột soạt, tiếng bước chân giám thị trong trại giam.*"
+  "desc": "Tiếng lật các trang biên bản điều tra, tiếng bút ký sột soạt trên giấy."
  },
  {
   "id": "2.08",
   "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "câu chuyện cuộc hôn nhân kỳ dị với Doreen Lioy",
-  "text": "Trong số hàng nghìn người phụ nữ say mê Night Stalker, trường hợp nổi tiếng và gây chấn động nhất là Doreen Lioy, một phụ nữ có học thức và là biên tập viên tạp chí tự do. Lioy đã kiên trì viết tới bảy mươi lăm lá thư cho Ramirez khi hắn đang bị giam giữ tại khu tử tù của Nhà tù Bang San Quentin. Cô ta tin rằng Ramirez là một người đàn ông ấm áp, hài hước, dễ thương và khẳng định mình nhìn thấy sự thánh thiện ẩn giấu bên trong con người hắn. Năm 1996, bất chấp sự phản đối dữ dội và việc bị gia đình ruột thịt từ mặt, Doreen Lioy đã chính thức tổ chức lễ cưới với kẻ sát nhân hàng loạt ngay bên trong nhà tù. Cuộc hôn nhân kỳ dị này đã kéo dài suốt nhiều năm, trở thành một minh chứng sống động nhất cho sức mạnh tăm tối của hội chứng say mê cái ác.",
+  "direction": "chuyển giọng kể về trường hợp điển hình",
+  "text": "Trong số những người phụ nữ say mê Night Stalker, trường hợp nổi tiếng và gây chấn động dư luận nhất là Doreen Lioy, một phụ nữ có học thức và là biên tập viên tạp chí tự do. Bất chấp sự phản đối dữ dội từ gia đình và xã hội, Lioy đã kiên trì viết tới bảy mươi lăm lá thư cho Ramirez khi hắn đang bị biệt giam tại khu tử tù của nhà tù bang San Quentin. Cô ta tin rằng Ramirez là một người đàn ông ấm áp, dễ thương và khẳng định mình nhìn thấy sự thánh thiện ẩn giấu bên trong con người hắn. Vào ngày 3 tháng 10 năm 1996, Doreen Lioy đã chính thức tổ chức lễ cưới với kẻ sát nhân hàng loạt ngay bên trong nhà tù San Quentin. Lioy đeo chiếc nhẫn cưới bằng vàng và tự hào tuyên bố với báo chí rằng tình yêu của cô sẽ là bến đỗ cứu rỗi cuộc đời kẻ bị nguyền rủa. Cuộc hôn nhân kéo dài suốt nhiều năm này đã trở thành một nghiên cứu điển hình về sự lún sâu vào ảo tưởng người giải cứu. Đó là minh chứng rõ nét cho thấy sức mạnh thao túng của những niềm tin lệch lạc khi con người tự đánh mất ranh giới lý trí.",
   "sentences": [
    {
     "id": "2.08#1",
-    "text": "Trong số hàng nghìn người phụ nữ say mê Night Stalker, trường hợp nổi tiếng và gây chấn động nhất là Doreen Lioy, một phụ nữ có học thức và là biên tập viên tạp chí tự do.",
-    "words": 38
+    "text": "Trong số những người phụ nữ say mê Night Stalker, trường hợp nổi tiếng và gây chấn động dư luận nhất là Doreen Lioy, một phụ nữ có học thức và là biên tập viên tạp chí tự do.",
+    "words": 39
    },
    {
     "id": "2.08#2",
-    "text": "Lioy đã kiên trì viết tới bảy mươi lăm lá thư cho Ramirez khi hắn đang bị giam giữ tại khu tử tù của Nhà tù Bang San Quentin.",
-    "words": 29
+    "text": "Bất chấp sự phản đối dữ dội từ gia đình và xã hội, Lioy đã kiên trì viết tới bảy mươi lăm lá thư cho Ramirez khi hắn đang bị biệt giam tại khu tử tù của nhà tù bang San Quentin.",
+    "words": 42
    },
    {
     "id": "2.08#3",
-    "text": "Cô ta tin rằng Ramirez là một người đàn ông ấm áp, hài hước, dễ thương và khẳng định mình nhìn thấy sự thánh thiện ẩn giấu bên trong con người hắn.",
-    "words": 32
+    "text": "Cô ta tin rằng Ramirez là một người đàn ông ấm áp, dễ thương và khẳng định mình nhìn thấy sự thánh thiện ẩn giấu bên trong con người hắn.",
+    "words": 30
    },
    {
     "id": "2.08#4",
-    "text": "Năm 1996, bất chấp sự phản đối dữ dội và việc bị gia đình ruột thịt từ mặt, Doreen Lioy đã chính thức tổ chức lễ cưới với kẻ sát nhân hàng loạt ngay bên trong nhà tù.",
-    "words": 38
+    "text": "Vào ngày 3 tháng 10 năm 1996, Doreen Lioy đã chính thức tổ chức lễ cưới với kẻ sát nhân hàng loạt ngay bên trong nhà tù San Quentin.",
+    "words": 29
    },
    {
     "id": "2.08#5",
-    "text": "Cuộc hôn nhân kỳ dị này đã kéo dài suốt nhiều năm, trở thành một minh chứng sống động nhất cho sức mạnh tăm tối của hội chứng say mê cái ác.",
+    "text": "Lioy đeo chiếc nhẫn cưới bằng vàng và tự hào tuyên bố với báo chí rằng tình yêu của cô sẽ là bến đỗ cứu rỗi cuộc đời kẻ bị nguyền rủa.",
     "words": 32
+   },
+   {
+    "id": "2.08#6",
+    "text": "Cuộc hôn nhân kéo dài suốt nhiều năm này đã trở thành một nghiên cứu điển hình về sự lún sâu vào ảo tưởng người giải cứu.",
+    "words": 27
+   },
+   {
+    "id": "2.08#7",
+    "text": "Đó là minh chứng rõ nét cho thấy sức mạnh thao túng của những niềm tin lệch lạc khi con người tự đánh mất ranh giới lý trí.",
+    "words": 28
    }
   ]
  },
@@ -458,28 +543,38 @@
   "act": 2,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Thám tử Gil Carrillo, bản án đanh thép của bồi thẩm đoàn",
-  "text": "Dù đám đông cuồng loạn có cố gắng biến phiên tòa thành một buổi trình diễn truyền thông, công lý vẫn kiên định với sứ mệnh của mình. Đội ngũ điều tra và cơ quan công tố đã trình ra trước bồi thẩm đoàn hàng trăm vật chứng pháp y đanh thép: Dấu vân tay, dấu giày thể thao Avia độc nhất vô nhị và lời khai của các nhân chứng sống sót. Không có bất kỳ sự lãng mạn hóa hay sự ngạo mạn tà giáo nào có thể che giấu bản chất tàn độc của những hành vi giết người có chủ đích. Ngày 20 tháng 9 năm 1989, bồi thẩm đoàn đã đưa ra phán quyết lịch sử kết tội Richard Ramirez đối với toàn bộ bốn mươi ba tội danh truy tố.",
+  "direction": "giọng đanh thép, nêu bật chứng cứ",
+  "text": "Dù đám đông cuồng loạn có cố gắng biến phiên tòa thành một buổi trình diễn truyền thông, công lý vẫn kiên định với sứ mệnh bảo vệ sự thật. Cơ quan công tố đã trình ra trước bồi thẩm đoàn hệ thống chứng cứ vật chất toàn diện: dấu vân tay, dấu giày thể thao Avia cỡ mười một rưỡi và lời khai đanh thép của các nhân chứng sống sót. Dấu vết thủ đoạn gây án MO đã phơi bày sự toan tính xảo quyệt của Ramirez: cắt đứt liên lạc điện thoại, đột nhập đêm khuya và liên tục thay đổi phương tiện tẩu thoát. Đồng thời, chữ ký tâm lý Signature của hắn, từ biểu tượng ngôi sao năm cánh trên tường đến hành vi lục lọi tủ lạnh, đã chứng minh nhu cầu bệnh lý về việc thống trị và kiểm soát nạn nhân. Không có bất kỳ sự lãng mạn hóa hay triết lý tà giáo nào có thể che đậy được bản chất tàn bạo của những hành vi phạm tội có tính toán. Ngày 20 tháng 9 năm 1989, sau chuỗi ngày nghị án căng thẳng, bồi thẩm đoàn đã tuyên bố Richard Ramirez có tội đối với toàn bộ bốn mươi ba tội danh, trong đó có mười ba vụ án mạng.",
   "sentences": [
    {
     "id": "2.09#1",
-    "text": "Dù đám đông cuồng loạn có cố gắng biến phiên tòa thành một buổi trình diễn truyền thông, công lý vẫn kiên định với sứ mệnh của mình.",
-    "words": 28
+    "text": "Dù đám đông cuồng loạn có cố gắng biến phiên tòa thành một buổi trình diễn truyền thông, công lý vẫn kiên định với sứ mệnh bảo vệ sự thật.",
+    "words": 30
    },
    {
     "id": "2.09#2",
-    "text": "Đội ngũ điều tra và cơ quan công tố đã trình ra trước bồi thẩm đoàn hàng trăm vật chứng pháp y đanh thép: Dấu vân tay, dấu giày thể thao Avia độc nhất vô nhị và lời khai của các nhân chứng sống sót.",
-    "words": 45
+    "text": "Cơ quan công tố đã trình ra trước bồi thẩm đoàn hệ thống chứng cứ vật chất toàn diện: dấu vân tay, dấu giày thể thao Avia cỡ mười một rưỡi và lời khai đanh thép của các nhân chứng sống sót.",
+    "words": 42
    },
    {
     "id": "2.09#3",
-    "text": "Không có bất kỳ sự lãng mạn hóa hay sự ngạo mạn tà giáo nào có thể che giấu bản chất tàn độc của những hành vi giết người có chủ đích.",
-    "words": 32
+    "text": "Dấu vết thủ đoạn gây án MO đã phơi bày sự toan tính xảo quyệt của Ramirez: cắt đứt liên lạc điện thoại, đột nhập đêm khuya và liên tục thay đổi phương tiện tẩu thoát.",
+    "words": 36
    },
    {
     "id": "2.09#4",
-    "text": "Ngày 20 tháng 9 năm 1989, bồi thẩm đoàn đã đưa ra phán quyết lịch sử kết tội Richard Ramirez đối với toàn bộ bốn mươi ba tội danh truy tố.",
-    "words": 31
+    "text": "Đồng thời, chữ ký tâm lý Signature của hắn, từ biểu tượng ngôi sao năm cánh trên tường đến hành vi lục lọi tủ lạnh, đã chứng minh nhu cầu bệnh lý về việc thống trị và kiểm soát nạn nhân.",
+    "words": 41
+   },
+   {
+    "id": "2.09#5",
+    "text": "Không có bất kỳ sự lãng mạn hóa hay triết lý tà giáo nào có thể che đậy được bản chất tàn bạo của những hành vi phạm tội có tính toán.",
+    "words": 32
+   },
+   {
+    "id": "2.09#6",
+    "text": "Ngày 20 tháng 9 năm 1989, sau chuỗi ngày nghị án căng thẳng, bồi thẩm đoàn đã tuyên bố Richard Ramirez có tội đối với toàn bộ bốn mươi ba tội danh, trong đó có mười ba vụ án mạng.",
+    "words": 40
    }
   ]
  },
@@ -488,38 +583,48 @@
   "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "khép lại Hồi 2, mở ra giải phẫu tâm lý học chuyên sâu",
-  "text": "Bản án tử hình được Thẩm phán Michael Tynan tuyên đọc vào tháng 11 năm 1989 đã chính thức kết thúc hành trình tội ác của Night Stalker trước pháp luật. Đáp lại phán quyết, Ramirez chỉ cười khẩy và đưa ra một lời tuyên bố ngông cuồng rằng hắn sẽ gặp lại mọi người ở thế giới bên kia. Kẻ sát nhân bị áp giải đến buồng tử tù San Quentin, nơi hắn sống cách ly cho đến khi qua đời vì bệnh tật vào năm 2013. Nhưng hiện tượng tâm lý kỳ dị xung quanh phiên tòa thì vẫn tiếp tục để lại một dấu hỏi khổng lồ cho các nhà khoa học hành vi. Tại sao một kẻ tàn ác lại có thể trở thành thỏi nam châm thu hút tình cảm của phụ nữ? Các chuyên gia tâm lý học tội phạm đã bắt tay vào giải mã nguồn gốc thời thơ ấu của Ramirez và cơ chế vận hành của hội chứng Hybristophilia.",
+  "direction": "trầm giọng, tuyên đọc bản án và phản ứng",
+  "text": "Bản án tử hình được Thẩm phán Michael Tynan tuyên đọc vào tháng 11 năm 1989 đã chính thức khép lại hành trình tội ác của Night Stalker trước vành móng ngựa. Trong phán quyết của mình, Thẩm phán Tynan nhấn mạnh rằng những hành vi của Ramirez thể hiện sự tàn nhẫn và vô cảm vượt quá mọi sự hiểu biết thông thường của con người. Đứng trước bản án nghiêm khắc nhất của pháp luật, Ramirez vẫn giữ vẻ mặt trơ tráo và buông một câu nói ngông cuồng: Hẹn gặp lại ở Disneyland. Lời thách thức ngạo mạn ấy không phải là sự dũng cảm, mà là sự tự thương hại bệnh lý và phản ứng tự vệ của một kẻ ái kỷ không chấp nhận sự thất bại của chính mình. Kẻ sát nhân bị áp giải về buồng tử tù San Quentin, nơi hắn phải sống phần đời còn lại trong sự cô lập sau song sắt. Bản án pháp lý đã được định đoạt, nhưng hiện tượng tâm lý xã hội xung quanh vụ án vẫn để lại những câu hỏi chưa có lời đáp. Tại sao một kẻ tàn ác lại có thể trở thành thỏi nam châm thu hút sự say mê mù quáng của những phụ nữ có học thức? Các chuyên gia tâm lý học tội phạm đã bắt tay vào giải phẫu quá khứ thời thơ ấu của Ramirez và bản chất của hội chứng Hybristophilia.",
   "sentences": [
    {
     "id": "2.10#1",
-    "text": "Bản án tử hình được Thẩm phán Michael Tynan tuyên đọc vào tháng 11 năm 1989 đã chính thức kết thúc hành trình tội ác của Night Stalker trước pháp luật.",
-    "words": 31
+    "text": "Bản án tử hình được Thẩm phán Michael Tynan tuyên đọc vào tháng 11 năm 1989 đã chính thức khép lại hành trình tội ác của Night Stalker trước vành móng ngựa.",
+    "words": 32
    },
    {
     "id": "2.10#2",
-    "text": "Đáp lại phán quyết, Ramirez chỉ cười khẩy và đưa ra một lời tuyên bố ngông cuồng rằng hắn sẽ gặp lại mọi người ở thế giới bên kia.",
-    "words": 29
+    "text": "Trong phán quyết của mình, Thẩm phán Tynan nhấn mạnh rằng những hành vi của Ramirez thể hiện sự tàn nhẫn và vô cảm vượt quá mọi sự hiểu biết thông thường của con người.",
+    "words": 35
    },
    {
     "id": "2.10#3",
-    "text": "Kẻ sát nhân bị áp giải đến buồng tử tù San Quentin, nơi hắn sống cách ly cho đến khi qua đời vì bệnh tật vào năm 2013.",
-    "words": 28
-   },
-   {
-    "id": "2.10#4",
-    "text": "Nhưng hiện tượng tâm lý kỳ dị xung quanh phiên tòa thì vẫn tiếp tục để lại một dấu hỏi khổng lồ cho các nhà khoa học hành vi.",
+    "text": "Đứng trước bản án nghiêm khắc nhất của pháp luật, Ramirez vẫn giữ vẻ mặt trơ tráo và buông một câu nói ngông cuồng: Hẹn gặp lại ở Disneyland.",
     "words": 29
    },
    {
+    "id": "2.10#4",
+    "text": "Lời thách thức ngạo mạn ấy không phải là sự dũng cảm, mà là sự tự thương hại bệnh lý và phản ứng tự vệ của một kẻ ái kỷ không chấp nhận sự thất bại của chính mình.",
+    "words": 39
+   },
+   {
     "id": "2.10#5",
-    "text": "Tại sao một kẻ tàn ác lại có thể trở thành thỏi nam châm thu hút tình cảm của phụ nữ?",
-    "words": 21
+    "text": "Kẻ sát nhân bị áp giải về buồng tử tù San Quentin, nơi hắn phải sống phần đời còn lại trong sự cô lập sau song sắt.",
+    "words": 27
    },
    {
     "id": "2.10#6",
-    "text": "Các chuyên gia tâm lý học tội phạm đã bắt tay vào giải mã nguồn gốc thời thơ ấu của Ramirez và cơ chế vận hành của hội chứng Hybristophilia.",
-    "words": 30
+    "text": "Bản án pháp lý đã được định đoạt, nhưng hiện tượng tâm lý xã hội xung quanh vụ án vẫn để lại những câu hỏi chưa có lời đáp.",
+    "words": 29
+   },
+   {
+    "id": "2.10#7",
+    "text": "Tại sao một kẻ tàn ác lại có thể trở thành thỏi nam châm thu hút sự say mê mù quáng của những phụ nữ có học thức?",
+    "words": 28
+   },
+   {
+    "id": "2.10#8",
+    "text": "Các chuyên gia tâm lý học tội phạm đã bắt tay vào giải phẫu quá khứ thời thơ ấu của Ramirez và bản chất của hội chứng Hybristophilia.",
+    "words": 28
    }
   ]
  },
@@ -527,26 +632,26 @@
   "id": "2.11",
   "act": 2,
   "kind": "BGM",
-  "desc": "*Âm thanh điện tử chìm dần, mở ra không gian sâu lắng cho phần giải mã tâm thần học pháp y.*"
+  "desc": "Nhạc nền Dark Ambient kết thúc Hồi 2, chùng xuống rồi chuyển sang điệu Piano tối giản mang tính học thuật."
  },
  {
   "id": "3.01",
   "act": 3,
   "kind": "BGM",
-  "desc": "*Tiếng đàn Dương cầm tối giản (Minimalist Piano) hòa cùng âm thanh Drone trầm đục, tạo không khí học thuật và phân tích lâm sàng chuyên sâu.*"
+  "desc": "Tiếng đàn Piano tối giản chậm rãi, mang màu sắc phân tích tâm lý sâu sắc và trầm mặc."
  },
  {
   "id": "3.02",
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "chậm rãi, mang tính dẫn nhập chuyên môn",
-  "text": "Để bóc tách chân dung tâm lý của Richard Ramirez, các nhà nghiên cứu tội phạm học phải quay ngược thời gian về tuổi thơ đầy bạo lực và chấn thương của hắn tại El Paso, Texas. Một kẻ sát nhân hàng loạt không bao giờ tự nhiên sinh ra từ hư vô, mà luôn là sản phẩm của sự giao thoa độc hại giữa tổn thương sinh học và môi trường nuôi dưỡng méo mó. Hồ sơ y khoa và tâm thần học của Ramirez phơi bày những vết rạn nứt sâu sắc trong quá trình phát triển nhân cách từ thuở thiếu thời. Các chuyên gia đã chỉ ra ba yếu tố then chốt định hình nên con quái vật bóng đêm mùa hè năm 1985.",
+  "direction": "chậm rãi, mang tính dẫn dắt học thuật",
+  "text": "Để bóc tách chân dung tâm lý của Richard Ramirez, các nhà nghiên cứu tội phạm học phải quay ngược thời gian về tuổi thơ đầy bạo lực và chấn thương của hắn tại El Paso, bang Texas. Một kẻ sát nhân hàng loạt không bao giờ tự nhiên sinh ra từ hư vô, mà luôn là sản phẩm của sự giao thoa độc hại giữa tổn thương sinh học và môi trường nuôi dưỡng méo mó. Sinh ra trong một gia đình nghèo khó vào năm 1960, Ramirez đã phải trải qua những vết rạn nứt sâu sắc trong quá trình hình thành nhân cách ngay từ thuở thiếu thời. Các chuyên gia khoa học hành vi đã chỉ ra ba yếu tố then chốt định hình nên con quái vật bóng đêm mùa hè năm 1985. Đó là tổn thương thực thể ở não bộ, sự bạo hành gia đình nghiêm trọng và quá trình bình thường hóa bạo lực cực đoan. Chuyên gia tâm lý sẽ giúp chúng ta phân tích cơ chế vận hành của những yếu tố độc hại này.",
   "sentences": [
    {
     "id": "3.02#1",
-    "text": "Để bóc tách chân dung tâm lý của Richard Ramirez, các nhà nghiên cứu tội phạm học phải quay ngược thời gian về tuổi thơ đầy bạo lực và chấn thương của hắn tại El Paso, Texas.",
-    "words": 37
+    "text": "Để bóc tách chân dung tâm lý của Richard Ramirez, các nhà nghiên cứu tội phạm học phải quay ngược thời gian về tuổi thơ đầy bạo lực và chấn thương của hắn tại El Paso, bang Texas.",
+    "words": 38
    },
    {
     "id": "3.02#2",
@@ -555,13 +660,23 @@
    },
    {
     "id": "3.02#3",
-    "text": "Hồ sơ y khoa và tâm thần học của Ramirez phơi bày những vết rạn nứt sâu sắc trong quá trình phát triển nhân cách từ thuở thiếu thời.",
-    "words": 29
+    "text": "Sinh ra trong một gia đình nghèo khó vào năm 1960, Ramirez đã phải trải qua những vết rạn nứt sâu sắc trong quá trình hình thành nhân cách ngay từ thuở thiếu thời.",
+    "words": 34
    },
    {
     "id": "3.02#4",
-    "text": "Các chuyên gia đã chỉ ra ba yếu tố then chốt định hình nên con quái vật bóng đêm mùa hè năm 1985.",
-    "words": 23
+    "text": "Các chuyên gia khoa học hành vi đã chỉ ra ba yếu tố then chốt định hình nên con quái vật bóng đêm mùa hè năm 1985.",
+    "words": 27
+   },
+   {
+    "id": "3.02#5",
+    "text": "Đó là tổn thương thực thể ở não bộ, sự bạo hành gia đình nghiêm trọng và quá trình bình thường hóa bạo lực cực đoan.",
+    "words": 26
+   },
+   {
+    "id": "3.02#6",
+    "text": "Chuyên gia tâm lý sẽ giúp chúng ta phân tích cơ chế vận hành của những yếu tố độc hại này.",
+    "words": 21
    }
   ]
  },
@@ -570,43 +685,58 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: Chuyên gia Tâm lý học Tội phạm, giọng điềm đạm, học thuật",
-  "text": "Yếu tố đầu tiên là chấn thương sọ não nghiêm trọng mà Ramirez phải gánh chịu liên tiếp khi còn là một đứa trẻ nhỏ. Năm hai tuổi, một chiếc xích đu kim loại đập mạnh vào đầu hắn khiến hắn bất tỉnh, và năm năm tuổi, một chiếc tủ gỗ nặng đã đổ sập đè nát hộp sọ của hắn. Những chấn thương này đã gây tổn thương nghiêm trọng đến thùy thái dương và thùy trán, dẫn đến chứng động kinh thùy thái dương và làm tê liệt khả năng kiểm soát cảm xúc xung động. Yếu tố thứ hai là sự bạo hành gia đình dã man từ người cha nghiện rượu, người thường xuyên đánh đập dã man và xích Ramirez qua đêm ngoài nghĩa địa. Nhưng đòn chí mạng hủy hoại hoàn toàn nhân tính của hắn chính là sự ảnh hưởng từ người anh họ Miguel Ramirez, một cựu binh chiến tranh trở về với chứng rối loạn tâm thần nặng nề. Người anh họ này liên tục khoe khoang những bức ảnh chụp các hành vi tra tấn phụ nữ dã man và thậm chí đã bắn chết vợ mình ngay trước mắt cậu bé Ramirez mười ba tuổi. Sự tiếp xúc sớm với bạo lực cực đoan kết hợp với tổn thương não bộ đã bình thường hóa hành vi hủy diệt trong tâm trí non nớt của hắn.",
+  "direction": "giọng học thuật, rành rọt, sâu sắc",
+  "text": "Yếu tố sinh học đầu tiên xuất phát từ những chấn thương vùng đầu nghiêm trọng mà Ramirez gặp phải khi còn là một đứa trẻ nhỏ. Hắn từng gặp hai tai nạn liên tiếp trong thời thơ ấu: một lần bị chiếc tủ gỗ nặng đổ sập trúng người và một lần bị xích đu kim loại va đập mạnh đến mức bất tỉnh. Theo các tư liệu y khoa pháp y, những chấn thương này đã gây ra các cơn co giật động kinh kéo dài suốt nhiều năm niên thiếu. Nhiều nhà nghiên cứu thần kinh học nhận định rằng tổn thương vùng thùy trán và thùy thái dương có thể làm suy giảm nghiêm trọng khả năng kiểm soát xung động và ức chế hành vi hung tính. Yếu tố thứ hai là sự bạo hành gia đình tàn nhẫn từ người cha, một cựu công nhân đường sắt có tính khí cộc cằn và thường xuyên dùng vũ lực với con cái. Để trốn tránh những trận đòn roi, cậu bé Ramirez thường xuyên bỏ trốn khỏi nhà và ngủ qua đêm tại các nghĩa địa địa phương, hình thành thói quen rình rập và cô lập xã hội. Nhưng bước ngoặt tâm lý mang tính hủy diệt nhất xuất hiện khi người anh họ Miguel Ramirez, một cựu binh chiến tranh trở về từ nước ngoài, bước vào cuộc đời hắn. Người anh họ này liên tục kể cho cậu bé Ramirez nghe những câu chuyện bạo lực thời chiến và bình thường hóa hành vi tước đoạt sinh mạng như một biểu hiện của sức mạnh. Đỉnh điểm của cú sốc tâm lý là vào năm mười ba tuổi, Ramirez đã tận mắt chứng kiến người anh họ nổ súng sát hại chính người vợ của mình ngay trong một cuộc cãi vã gia đình. Sự phơi nhiễm trực tiếp với bạo lực cực đoan kết hợp với tổn thương thực thể đã đánh sập toàn bộ ranh giới đạo đức, biến bạo lực thành ngôn ngữ giải quyết xung năng trong tâm trí non nớt của hắn.",
   "sentences": [
    {
     "id": "3.03#1",
-    "text": "Yếu tố đầu tiên là chấn thương sọ não nghiêm trọng mà Ramirez phải gánh chịu liên tiếp khi còn là một đứa trẻ nhỏ.",
-    "words": 25
+    "text": "Yếu tố sinh học đầu tiên xuất phát từ những chấn thương vùng đầu nghiêm trọng mà Ramirez gặp phải khi còn là một đứa trẻ nhỏ.",
+    "words": 27
    },
    {
     "id": "3.03#2",
-    "text": "Năm hai tuổi, một chiếc xích đu kim loại đập mạnh vào đầu hắn khiến hắn bất tỉnh, và năm năm tuổi, một chiếc tủ gỗ nặng đã đổ sập đè nát hộp sọ của hắn.",
-    "words": 36
+    "text": "Hắn từng gặp hai tai nạn liên tiếp trong thời thơ ấu: một lần bị chiếc tủ gỗ nặng đổ sập trúng người và một lần bị xích đu kim loại va đập mạnh đến mức bất tỉnh.",
+    "words": 38
    },
    {
     "id": "3.03#3",
-    "text": "Những chấn thương này đã gây tổn thương nghiêm trọng đến thùy thái dương và thùy trán, dẫn đến chứng động kinh thùy thái dương và làm tê liệt khả năng kiểm soát cảm xúc xung động.",
-    "words": 37
+    "text": "Theo các tư liệu y khoa pháp y, những chấn thương này đã gây ra các cơn co giật động kinh kéo dài suốt nhiều năm niên thiếu.",
+    "words": 28
    },
    {
     "id": "3.03#4",
-    "text": "Yếu tố thứ hai là sự bạo hành gia đình dã man từ người cha nghiện rượu, người thường xuyên đánh đập dã man và xích Ramirez qua đêm ngoài nghĩa địa.",
-    "words": 32
+    "text": "Nhiều nhà nghiên cứu thần kinh học nhận định rằng tổn thương vùng thùy trán và thùy thái dương có thể làm suy giảm nghiêm trọng khả năng kiểm soát xung động và ức chế hành vi hung tính.",
+    "words": 39
    },
    {
     "id": "3.03#5",
-    "text": "Nhưng đòn chí mạng hủy hoại hoàn toàn nhân tính của hắn chính là sự ảnh hưởng từ người anh họ Miguel Ramirez, một cựu binh chiến tranh trở về với chứng rối loạn tâm thần nặng nề.",
-    "words": 38
+    "text": "Yếu tố thứ hai là sự bạo hành gia đình tàn nhẫn từ người cha, một cựu công nhân đường sắt có tính khí cộc cằn và thường xuyên dùng vũ lực với con cái.",
+    "words": 35
    },
    {
     "id": "3.03#6",
-    "text": "Người anh họ này liên tục khoe khoang những bức ảnh chụp các hành vi tra tấn phụ nữ dã man và thậm chí đã bắn chết vợ mình ngay trước mắt cậu bé Ramirez mười ba tuổi.",
-    "words": 38
+    "text": "Để trốn tránh những trận đòn roi, cậu bé Ramirez thường xuyên bỏ trốn khỏi nhà và ngủ qua đêm tại các nghĩa địa địa phương, hình thành thói quen rình rập và cô lập xã hội.",
+    "words": 37
    },
    {
     "id": "3.03#7",
-    "text": "Sự tiếp xúc sớm với bạo lực cực đoan kết hợp với tổn thương não bộ đã bình thường hóa hành vi hủy diệt trong tâm trí non nớt của hắn.",
-    "words": 31
+    "text": "Nhưng bước ngoặt tâm lý mang tính hủy diệt nhất xuất hiện khi người anh họ Miguel Ramirez, một cựu binh chiến tranh trở về từ nước ngoài, bước vào cuộc đời hắn.",
+    "words": 33
+   },
+   {
+    "id": "3.03#8",
+    "text": "Người anh họ này liên tục kể cho cậu bé Ramirez nghe những câu chuyện bạo lực thời chiến và bình thường hóa hành vi tước đoạt sinh mạng như một biểu hiện của sức mạnh.",
+    "words": 36
+   },
+   {
+    "id": "3.03#9",
+    "text": "Đỉnh điểm của cú sốc tâm lý là vào năm mười ba tuổi, Ramirez đã tận mắt chứng kiến người anh họ nổ súng sát hại chính người vợ của mình ngay trong một cuộc cãi vã gia đình.",
+    "words": 39
+   },
+   {
+    "id": "3.03#10",
+    "text": "Sự phơi nhiễm trực tiếp với bạo lực cực đoan kết hợp với tổn thương thực thể đã đánh sập toàn bộ ranh giới đạo đức, biến bạo lực thành ngôn ngữ giải quyết xung năng trong tâm trí non nớt của hắn.",
+    "words": 43
    }
   ]
  },
@@ -615,23 +745,33 @@
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "tiếp nối phân tích về hiện tượng Hybristophilia",
-  "text": "Sự tha hóa tâm lý đã biến Ramirez thành một kẻ phạm tội hỗn hợp cực kỳ nguy hiểm, vừa mang tính vô tổ chức bốc đồng vừa có sự toan tính ranh mãnh. Nhưng bí ẩn tâm lý học lớn nhất thu hút sự chú ý của giới học thuật lại nằm ở phía bên kia vành móng ngựa: Tâm lý của những người phụ nữ yêu say đắm kẻ thủ ác. Hiện tượng kỳ lạ này được khoa học định danh bằng thuật ngữ Hybristophilia, hay còn gọi là Hội chứng Bonnie và Clyde.",
+  "direction": "chuyển mạch sang phân tích động cơ và phân loại",
+  "text": "Khi bước vào tuổi trưởng thành, Ramirez sa vào con đường nghiện ngập ma túy đá, sống lang thang vô gia cư và bắt đầu chu kỳ leo thang ảo tưởng từ trộm cắp vặt sang các vụ tấn công nghiêm trọng. Hắn trở thành một kẻ phạm tội hỗn hợp điển hình: vừa mang sự hỗn loạn bốc đồng của kẻ vô tổ chức, vừa có sự ranh mãnh của kẻ biết cách lẩn tránh lưới pháp luật. Hắn tự huyễn hoặc mình là môn đồ của bóng tối, sử dụng các nghi thức tà giáo như một hệ thống tự bào chữa để ngắt kết nối hoàn toàn với lương tri nhân loại. Nhưng điều khiến giới học thuật bàng hoàng không chỉ dừng lại ở căn nguyên tội ác của Ramirez, mà nằm ở hiện tượng tâm lý phía bên kia vành móng ngựa. Hiện tượng những người phụ nữ đem lòng say mê kẻ thủ ác được khoa học định danh bằng thuật ngữ Hybristophilia, hay còn gọi là Hội chứng Bonnie và Clyde.",
   "sentences": [
    {
     "id": "3.04#1",
-    "text": "Sự tha hóa tâm lý đã biến Ramirez thành một kẻ phạm tội hỗn hợp cực kỳ nguy hiểm, vừa mang tính vô tổ chức bốc đồng vừa có sự toan tính ranh mãnh.",
-    "words": 34
+    "text": "Khi bước vào tuổi trưởng thành, Ramirez sa vào con đường nghiện ngập ma túy đá, sống lang thang vô gia cư và bắt đầu chu kỳ leo thang ảo tưởng từ trộm cắp vặt sang các vụ tấn công nghiêm trọng.",
+    "words": 42
    },
    {
     "id": "3.04#2",
-    "text": "Nhưng bí ẩn tâm lý học lớn nhất thu hút sự chú ý của giới học thuật lại nằm ở phía bên kia vành móng ngựa: Tâm lý của những người phụ nữ yêu say đắm kẻ thủ ác.",
-    "words": 39
+    "text": "Hắn trở thành một kẻ phạm tội hỗn hợp điển hình: vừa mang sự hỗn loạn bốc đồng của kẻ vô tổ chức, vừa có sự ranh mãnh của kẻ biết cách lẩn tránh lưới pháp luật.",
+    "words": 37
    },
    {
     "id": "3.04#3",
-    "text": "Hiện tượng kỳ lạ này được khoa học định danh bằng thuật ngữ Hybristophilia, hay còn gọi là Hội chứng Bonnie và Clyde.",
-    "words": 23
+    "text": "Hắn tự huyễn hoặc mình là môn đồ của bóng tối, sử dụng các nghi thức tà giáo như một hệ thống tự bào chữa để ngắt kết nối hoàn toàn với lương tri nhân loại.",
+    "words": 36
+   },
+   {
+    "id": "3.04#4",
+    "text": "Nhưng điều khiến giới học thuật bàng hoàng không chỉ dừng lại ở căn nguyên tội ác của Ramirez, mà nằm ở hiện tượng tâm lý phía bên kia vành móng ngựa.",
+    "words": 32
+   },
+   {
+    "id": "3.04#5",
+    "text": "Hiện tượng những người phụ nữ đem lòng say mê kẻ thủ ác được khoa học định danh bằng thuật ngữ Hybristophilia, hay còn gọi là Hội chứng Bonnie và Clyde.",
+    "words": 31
    }
   ]
  },
@@ -640,43 +780,58 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: Phân tích cơ chế Hybristophilia & Ảo tưởng Can-Fix-Him",
-  "text": "Thuật ngữ Hybristophilia có nguồn gốc từ tiếng Hy Lạp, kết hợp giữa từ hybrizein mang nghĩa phạm tội ngông cuồng và philia mang nghĩa tình yêu say mê. Đây là một dạng lệch lạc tình dục và cảm xúc, trong đó một cá nhân chỉ tìm thấy sự kích thích tình cảm hoặc hưng phấn tình dục khi gắn kết với một kẻ phạm tội tàn bạo. Trong tâm lý học, Hybristophilia được chia thành hai dạng chính: Thể hung hăng chủ động và Thể thụ động cứu chuộc. Thể hung hăng là những kẻ sẵn sàng trở thành đồng phạm, tiếp tay cho tội ác của người tình như trường hợp của Bonnie Parker. Trong khi đó, phần lớn những phụ nữ say mê Richard Ramirez, bao gồm cả Doreen Lioy, thuộc về Thể thụ động cứu chuộc. Họ bị chi phối bởi Ảo tưởng người giải cứu, hay Can-Fix-Him Syndrome, tin rằng tình yêu trong sáng của mình có thể cảm hóa và chữa lành vết thương cho con quỷ dữ. Họ tự thuyết phục bản thân rằng kẻ sát nhân chỉ tàn ác với thế giới bên ngoài, còn đối với riêng họ, hắn sẽ là một người đàn ông dịu dàng và chung thủy.",
+  "direction": "bóc tách cơ chế tâm lý Hybristophilia",
+  "text": "Thuật ngữ Hybristophilia có nguồn gốc từ tiếng Hy Lạp cổ, kết hợp giữa từ hybrizein mang nghĩa phạm tội ngông cuồng và philia biểu thị tình yêu say mê cuồng nhiệt. Trong tâm thần học và tâm lý học tình dục, đây là một dạng lệch lạc cảm xúc khi một cá nhân bị thu hút mạnh mẽ bởi những người đã thực hiện hành vi bạo lực hoặc tội ác ghê gớm. Các nhà nghiên cứu phân chia hội chứng này thành hai phân nhóm chính: Thể hung hăng chủ động và Thể thụ động cứu chuộc. Ở thể hung hăng chủ động, người phụ nữ sẵn sàng trở thành đồng phạm trực tiếp, hỗ trợ nơi ẩn náu hoặc tiếp tay cho tội ác của người tình như trường hợp lịch sử của Bonnie Parker. Ngược lại, đại đa số phụ nữ say mê Richard Ramirez hay các kẻ sát nhân hàng loạt khác lại thuộc về thể thụ động cứu chuộc. Nhóm người này bị chi phối bởi một cái bẫy nhận thức mang tên Ảo tưởng người giải cứu, hay Can-Fix-Him Syndrome. Họ nuôi dưỡng niềm tin ngây thơ nhưng cực kỳ mãnh liệt rằng tình yêu thuần khiết và sự hy sinh của mình có thể cảm hóa và chữa lành cho tâm hồn quỷ dữ. Họ tự thuyết phục bản thân rằng kẻ sát nhân chỉ tàn bạo với thế giới bất công bên ngoài, còn đối với riêng họ, hắn sẽ là một người đàn ông dịu dàng và biết ơn. Cơ chế phòng vệ tâm lý này giúp họ chối bỏ hoàn toàn thực tế ghê rợn về những hành vi tàn độc mà kẻ ác đã gây ra cho các nạn nhân vô tội. Đó là một sự chia ngăn nhận thức bệnh lý, nơi tình cảm tưởng tượng được tách rời hoàn toàn khỏi sự thật khách quan.",
   "sentences": [
    {
     "id": "3.05#1",
-    "text": "Thuật ngữ Hybristophilia có nguồn gốc từ tiếng Hy Lạp, kết hợp giữa từ hybrizein mang nghĩa phạm tội ngông cuồng và philia mang nghĩa tình yêu say mê.",
-    "words": 29
+    "text": "Thuật ngữ Hybristophilia có nguồn gốc từ tiếng Hy Lạp cổ, kết hợp giữa từ hybrizein mang nghĩa phạm tội ngông cuồng và philia biểu thị tình yêu say mê cuồng nhiệt.",
+    "words": 32
    },
    {
     "id": "3.05#2",
-    "text": "Đây là một dạng lệch lạc tình dục và cảm xúc, trong đó một cá nhân chỉ tìm thấy sự kích thích tình cảm hoặc hưng phấn tình dục khi gắn kết với một kẻ phạm tội tàn bạo.",
-    "words": 39
+    "text": "Trong tâm thần học và tâm lý học tình dục, đây là một dạng lệch lạc cảm xúc khi một cá nhân bị thu hút mạnh mẽ bởi những người đã thực hiện hành vi bạo lực hoặc tội ác ghê gớm.",
+    "words": 42
    },
    {
     "id": "3.05#3",
-    "text": "Trong tâm lý học, Hybristophilia được chia thành hai dạng chính: Thể hung hăng chủ động và Thể thụ động cứu chuộc.",
-    "words": 22
+    "text": "Các nhà nghiên cứu phân chia hội chứng này thành hai phân nhóm chính: Thể hung hăng chủ động và Thể thụ động cứu chuộc.",
+    "words": 25
    },
    {
     "id": "3.05#4",
-    "text": "Thể hung hăng là những kẻ sẵn sàng trở thành đồng phạm, tiếp tay cho tội ác của người tình như trường hợp của Bonnie Parker.",
-    "words": 26
+    "text": "Ở thể hung hăng chủ động, người phụ nữ sẵn sàng trở thành đồng phạm trực tiếp, hỗ trợ nơi ẩn náu hoặc tiếp tay cho tội ác của người tình như trường hợp lịch sử của Bonnie Parker.",
+    "words": 39
    },
    {
     "id": "3.05#5",
-    "text": "Trong khi đó, phần lớn những phụ nữ say mê Richard Ramirez, bao gồm cả Doreen Lioy, thuộc về Thể thụ động cứu chuộc.",
-    "words": 24
+    "text": "Ngược lại, đại đa số phụ nữ say mê Richard Ramirez hay các kẻ sát nhân hàng loạt khác lại thuộc về thể thụ động cứu chuộc.",
+    "words": 27
    },
    {
     "id": "3.05#6",
-    "text": "Họ bị chi phối bởi Ảo tưởng người giải cứu, hay Can-Fix-Him Syndrome, tin rằng tình yêu trong sáng của mình có thể cảm hóa và chữa lành vết thương cho con quỷ dữ.",
-    "words": 34
+    "text": "Nhóm người này bị chi phối bởi một cái bẫy nhận thức mang tên Ảo tưởng người giải cứu, hay Can-Fix-Him Syndrome.",
+    "words": 22
    },
    {
     "id": "3.05#7",
-    "text": "Họ tự thuyết phục bản thân rằng kẻ sát nhân chỉ tàn ác với thế giới bên ngoài, còn đối với riêng họ, hắn sẽ là một người đàn ông dịu dàng và chung thủy.",
+    "text": "Họ nuôi dưỡng niềm tin ngây thơ nhưng cực kỳ mãnh liệt rằng tình yêu thuần khiết và sự hy sinh của mình có thể cảm hóa và chữa lành cho tâm hồn quỷ dữ.",
     "words": 35
+   },
+   {
+    "id": "3.05#8",
+    "text": "Họ tự thuyết phục bản thân rằng kẻ sát nhân chỉ tàn bạo với thế giới bất công bên ngoài, còn đối với riêng họ, hắn sẽ là một người đàn ông dịu dàng và biết ơn.",
+    "words": 37
+   },
+   {
+    "id": "3.05#9",
+    "text": "Cơ chế phòng vệ tâm lý này giúp họ chối bỏ hoàn toàn thực tế ghê rợn về những hành vi tàn độc mà kẻ ác đã gây ra cho các nạn nhân vô tội.",
+    "words": 35
+   },
+   {
+    "id": "3.05#10",
+    "text": "Đó là một sự chia ngăn nhận thức bệnh lý, nơi tình cảm tưởng tượng được tách rời hoàn toàn khỏi sự thật khách quan.",
+    "words": 25
    }
   ]
  },
@@ -685,18 +840,28 @@
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "đúc kết về cảm giác quyền lực ảo giác",
-  "text": "Ảo tưởng về việc trở thành người duy nhất thấu hiểu một kẻ bị cả thế giới nguyền rủa đã mang lại cho những người phụ nữ này một cảm giác quyền lực ảo giác tột độ. Đó là sự trốn chạy thực tại đầy nguy hiểm của những tâm hồn thiếu hụt lòng tự trọng và khao khát sự chú ý của truyền thông.",
+  "direction": "phân tích tâm lý học xã hội",
+  "text": "Ảo tưởng về việc trở thành chiếc phao cứu sinh duy nhất của một kẻ bị cả xã hội nguyền rủa đã mang lại cho những người phụ nữ này một cảm giác quyền lực ảo giác vô cùng to lớn. Nó cung cấp một nguồn thỏa mãn ái kỷ khổng lồ cho những tâm hồn vốn đang thiếu hụt lòng tự trọng và cảm thấy mờ nhạt trong đời sống thường nhật. Bằng cách gắn kết với một kẻ thủ ác nổi tiếng trên trang nhất các mặt báo, họ cảm thấy danh tính của mình được nâng tầm và thu hút sự chú ý của truyền thông đại chúng. Đó là một sự trốn chạy thực tại nguy hiểm, đánh đổi các giá trị đạo đức cơ bản để lấy một vị thế đặc biệt trong một vở kịch hoang tưởng.",
   "sentences": [
    {
     "id": "3.06#1",
-    "text": "Ảo tưởng về việc trở thành người duy nhất thấu hiểu một kẻ bị cả thế giới nguyền rủa đã mang lại cho những người phụ nữ này một cảm giác quyền lực ảo giác tột độ.",
-    "words": 37
+    "text": "Ảo tưởng về việc trở thành chiếc phao cứu sinh duy nhất của một kẻ bị cả xã hội nguyền rủa đã mang lại cho những người phụ nữ này một cảm giác quyền lực ảo giác vô cùng to lớn.",
+    "words": 41
    },
    {
     "id": "3.06#2",
-    "text": "Đó là sự trốn chạy thực tại đầy nguy hiểm của những tâm hồn thiếu hụt lòng tự trọng và khao khát sự chú ý của truyền thông.",
-    "words": 28
+    "text": "Nó cung cấp một nguồn thỏa mãn ái kỷ khổng lồ cho những tâm hồn vốn đang thiếu hụt lòng tự trọng và cảm thấy mờ nhạt trong đời sống thường nhật.",
+    "words": 32
+   },
+   {
+    "id": "3.06#3",
+    "text": "Bằng cách gắn kết với một kẻ thủ ác nổi tiếng trên trang nhất các mặt báo, họ cảm thấy danh tính của mình được nâng tầm và thu hút sự chú ý của truyền thông đại chúng.",
+    "words": 38
+   },
+   {
+    "id": "3.06#4",
+    "text": "Đó là một sự trốn chạy thực tại nguy hiểm, đánh đổi các giá trị đạo đức cơ bản để lấy một vị thế đặc biệt trong một vở kịch hoang tưởng.",
+    "words": 32
    }
   ]
  },
@@ -705,38 +870,48 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: Nghịch lý an toàn & Bản năng sinh học lệch lạc",
-  "text": "Các nhà tâm lý học hành vi cũng chỉ ra rằng việc yêu một kẻ sát nhân đang ngồi trong buồng tử tù mang lại một cảm giác an toàn nghịch lý. Kẻ tội phạm bị giam cầm sau song sắt không bao giờ có thể phản bội, không thể bạo hành thể xác và mối quan hệ hoàn toàn nằm dưới sự kiểm soát của người phụ nữ qua những bức thư. Đồng thời, sức hút từ hình tượng người đàn ông Alpha hung hăng, bất cần luật pháp trong văn hóa đại chúng đã kích hoạt những bản năng sinh học nguyên thủy bị lệch lạc. Tuy nhiên, đằng sau sự lãng mạn hóa giả tạo ấy là một sự thiếu tôn trọng nghiêm trọng đối với sinh mạng của các nạn nhân đã khuất. Việc tôn sùng tội phạm là biểu hiện của sự suy thoái đạo đức xã hội và là mảnh đất màu mỡ dung dưỡng cho những hành vi lệch chuẩn tiếp tục nảy mầm. Và bài học cảnh tỉnh từ vụ án Ramirez vẫn còn nguyên giá trị răn đe cho các thế hệ tương lai.",
+  "direction": "bổ sung khía cạnh an toàn nghịch lý và cảnh báo",
+  "text": "Các nhà tâm lý học hành vi cũng chỉ ra một nghịch lý sâu xa: Việc yêu một kẻ sát nhân đang ngồi trong buồng tử tù mang lại cho người phụ nữ một cảm giác an toàn kỳ quái. Kẻ phạm tội bị giam cầm vĩnh viễn sau song sắt kiên cố sẽ không bao giờ có thể ngoại tình, không thể bỏ rơi họ và không thể gây tổn hại thể xác cho họ trong đời thực. Mối quan hệ này hoàn toàn nằm dưới sự kiểm soát một chiều của người phụ nữ thông qua những lá thư và những giờ thăm nuôi có giám sát. Họ có thể lãng mạn hóa đối phương theo bất kỳ hình mẫu lý tưởng nào họ mong muốn mà không phải đối mặt với những va chạm hay trách nhiệm đời thường. Đồng thời, văn hóa đại chúng với xu hướng giật gân hóa tội phạm đã vô tình tiếp tay lãng mạn hóa hình tượng kẻ bất hảo thành những kẻ nổi loạn đầy cuốn hút. Tuy nhiên, đằng sau sự lãng mạn hóa kệch cỡm ấy là một sự thiếu tôn trọng nghiêm trọng đối với sinh mạng và nhân phẩm của các nạn nhân đã khuất. Việc thần tượng hóa tội ác làm xói mòn nền tảng đạo đức xã hội và tạo ra những tấm gương lệch lạc cho giới trẻ. Giải phẫu hội chứng này chính là tiếng chuông cảnh tỉnh để xã hội nhận diện những mầm mống tâm lý độc hại trước khi chúng di căn thành hành vi nguy hiểm.",
   "sentences": [
    {
     "id": "3.07#1",
-    "text": "Các nhà tâm lý học hành vi cũng chỉ ra rằng việc yêu một kẻ sát nhân đang ngồi trong buồng tử tù mang lại một cảm giác an toàn nghịch lý.",
-    "words": 32
+    "text": "Các nhà tâm lý học hành vi cũng chỉ ra một nghịch lý sâu xa: Việc yêu một kẻ sát nhân đang ngồi trong buồng tử tù mang lại cho người phụ nữ một cảm giác an toàn kỳ quái.",
+    "words": 40
    },
    {
     "id": "3.07#2",
-    "text": "Kẻ tội phạm bị giam cầm sau song sắt không bao giờ có thể phản bội, không thể bạo hành thể xác và mối quan hệ hoàn toàn nằm dưới sự kiểm soát của người phụ nữ qua những bức thư.",
-    "words": 41
+    "text": "Kẻ phạm tội bị giam cầm vĩnh viễn sau song sắt kiên cố sẽ không bao giờ có thể ngoại tình, không thể bỏ rơi họ và không thể gây tổn hại thể xác cho họ trong đời thực.",
+    "words": 39
    },
    {
     "id": "3.07#3",
-    "text": "Đồng thời, sức hút từ hình tượng người đàn ông Alpha hung hăng, bất cần luật pháp trong văn hóa đại chúng đã kích hoạt những bản năng sinh học nguyên thủy bị lệch lạc.",
-    "words": 35
+    "text": "Mối quan hệ này hoàn toàn nằm dưới sự kiểm soát một chiều của người phụ nữ thông qua những lá thư và những giờ thăm nuôi có giám sát.",
+    "words": 30
    },
    {
     "id": "3.07#4",
-    "text": "Tuy nhiên, đằng sau sự lãng mạn hóa giả tạo ấy là một sự thiếu tôn trọng nghiêm trọng đối với sinh mạng của các nạn nhân đã khuất.",
-    "words": 29
+    "text": "Họ có thể lãng mạn hóa đối phương theo bất kỳ hình mẫu lý tưởng nào họ mong muốn mà không phải đối mặt với những va chạm hay trách nhiệm đời thường.",
+    "words": 33
    },
    {
     "id": "3.07#5",
-    "text": "Việc tôn sùng tội phạm là biểu hiện của sự suy thoái đạo đức xã hội và là mảnh đất màu mỡ dung dưỡng cho những hành vi lệch chuẩn tiếp tục nảy mầm.",
-    "words": 34
+    "text": "Đồng thời, văn hóa đại chúng với xu hướng giật gân hóa tội phạm đã vô tình tiếp tay lãng mạn hóa hình tượng kẻ bất hảo thành những kẻ nổi loạn đầy cuốn hút.",
+    "words": 35
    },
    {
     "id": "3.07#6",
-    "text": "Và bài học cảnh tỉnh từ vụ án Ramirez vẫn còn nguyên giá trị răn đe cho các thế hệ tương lai.",
-    "words": 22
+    "text": "Tuy nhiên, đằng sau sự lãng mạn hóa kệch cỡm ấy là một sự thiếu tôn trọng nghiêm trọng đối với sinh mạng và nhân phẩm của các nạn nhân đã khuất.",
+    "words": 32
+   },
+   {
+    "id": "3.07#7",
+    "text": "Việc thần tượng hóa tội ác làm xói mòn nền tảng đạo đức xã hội và tạo ra những tấm gương lệch lạc cho giới trẻ.",
+    "words": 26
+   },
+   {
+    "id": "3.07#8",
+    "text": "Giải phẫu hội chứng này chính là tiếng chuông cảnh tỉnh để xã hội nhận diện những mầm mống tâm lý độc hại trước khi chúng di căn thành hành vi nguy hiểm.",
+    "words": 33
    }
   ]
  },
@@ -745,23 +920,33 @@
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "chốt lại Hồi 3, dẫn dắt sang phần di sản và kết cục",
-  "text": "Những phân tích tâm lý học sâu sắc về Hybristophilia đã vén màn bí mật đằng sau sự hỗn loạn của phiên tòa thế kỷ tại Los Angeles. Nó nhắc nhở chúng ta rằng cuộc chiến chống lại tội phạm không chỉ diễn ra trên đường phố hay trong phòng thẩm vấn, mà còn diễn ra trong nhận thức văn hóa của toàn xã hội. Giờ là lúc nhìn lại di sản tư pháp đanh thép và những bài học xương máu mà thảm kịch Night Stalker để lại cho nhân loại.",
+  "direction": "đúc kết triết lý và chuyển sang Hồi 4",
+  "text": "Những góc nhìn học thuật sâu sắc về hội chứng Hybristophilia đã vén màn bí mật đằng sau những cảnh tượng hỗn loạn tại phiên tòa Los Angeles năm ấy. Nó cho thấy tội ác không chỉ là hành vi bạo lực thể xác, mà còn có khả năng lây lan như một thứ virus độc hại xâm nhập vào nhận thức xã hội. Cuộc chiến bảo vệ công lý không chỉ diễn ra tại hiện trường điều tra hay trước bục nhân chứng, mà còn là cuộc chiến giữ vững ranh giới đạo đức trong tâm thức cộng đồng. Thời gian trôi qua, lớp vỏ bọc huyền thoại giả tạo của Richard Ramirez đã dần dần bị bóc trần bởi quy luật nghiệt ngã của thực tế. Hãy cùng nhìn lại di sản tư pháp và chặng đường cuối đời đầy thảm hại của kẻ từng tự xưng là quỷ vương bóng đêm.",
   "sentences": [
    {
     "id": "3.08#1",
-    "text": "Những phân tích tâm lý học sâu sắc về Hybristophilia đã vén màn bí mật đằng sau sự hỗn loạn của phiên tòa thế kỷ tại Los Angeles.",
-    "words": 28
+    "text": "Những góc nhìn học thuật sâu sắc về hội chứng Hybristophilia đã vén màn bí mật đằng sau những cảnh tượng hỗn loạn tại phiên tòa Los Angeles năm ấy.",
+    "words": 30
    },
    {
     "id": "3.08#2",
-    "text": "Nó nhắc nhở chúng ta rằng cuộc chiến chống lại tội phạm không chỉ diễn ra trên đường phố hay trong phòng thẩm vấn, mà còn diễn ra trong nhận thức văn hóa của toàn xã hội.",
-    "words": 37
+    "text": "Nó cho thấy tội ác không chỉ là hành vi bạo lực thể xác, mà còn có khả năng lây lan như một thứ virus độc hại xâm nhập vào nhận thức xã hội.",
+    "words": 34
    },
    {
     "id": "3.08#3",
-    "text": "Giờ là lúc nhìn lại di sản tư pháp đanh thép và những bài học xương máu mà thảm kịch Night Stalker để lại cho nhân loại.",
-    "words": 27
+    "text": "Cuộc chiến bảo vệ công lý không chỉ diễn ra tại hiện trường điều tra hay trước bục nhân chứng, mà còn là cuộc chiến giữ vững ranh giới đạo đức trong tâm thức cộng đồng.",
+    "words": 36
+   },
+   {
+    "id": "3.08#4",
+    "text": "Thời gian trôi qua, lớp vỏ bọc huyền thoại giả tạo của Richard Ramirez đã dần dần bị bóc trần bởi quy luật nghiệt ngã của thực tế.",
+    "words": 28
+   },
+   {
+    "id": "3.08#5",
+    "text": "Hãy cùng nhìn lại di sản tư pháp và chặng đường cuối đời đầy thảm hại của kẻ từng tự xưng là quỷ vương bóng đêm.",
+    "words": 26
    }
   ]
  },
@@ -769,51 +954,56 @@
   "id": "3.09",
   "act": 3,
   "kind": "BGM",
-  "desc": "*Âm thanh piano chuyển sang giai điệu sâu lắng, chuẩn bị cho phân đoạn nhìn lại lịch sử.*"
+  "desc": "Tiếng đàn Piano tối giản kết thúc Hồi 3, chuyển sang giai điệu Violin trầm buồn đầy suy tư."
  },
  {
   "id": "4.01",
   "act": 4,
   "kind": "BGM",
-  "desc": "*Tiếng Violin trầm buồn, tiếng bước chân đơn độc trong hành lang trại giam lạnh lẽo.*"
+  "desc": "Nhạc nền Violin vang lên trầm buồn, hòa cùng tiếng gió rít lạnh lẽo gợi tả sự cô lập của buồng giam tử tù."
  },
  {
   "id": "4.02",
   "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "tái hiện cuộc sống trong buồng tử tù San Quentin",
-  "text": "Phán quyết tử hình đối với Richard Ramirez vào năm 1989 đã khép lại một trong những trang hồ sơ đen tối nhất của lịch sử bang California. Trong suốt gần hai mươi tư năm bị giam giữ tại buồng tử tù San Quentin, Ramirez vẫn tiếp tục nhận được hàng nghìn lá thư từ những người hâm mộ khắp năm châu. Hắn tận hưởng sự nổi tiếng bệnh hoạn ấy, tự coi mình là một huyền thoại sống và tiếp tục viết những bức thư ngông cuồng trả lời người hâm mộ. Tuy nhiên, thời gian và thực tế nghiệt ngã của chốn lao tù đã dần dần bóc trần sự thảm hại của kẻ từng tự xưng là quỷ dữ bóng đêm. Sức khỏe của Ramirez suy kiệt nhanh chóng do lối sống bê tha, các bệnh lý mãn tính và sự cô độc cùng cực sau những song sắt nhà tù. Hình ảnh một gã lãng tử ngạo mạn thuở nào dần biến thành một tù nhân già nua, tiều tụy và đau đớn trên giường bệnh.",
+  "direction": "chậm rãi, giọng buồn bã và suy ngẫm",
+  "text": "Phán quyết tử hình đối với Richard Ramirez vào năm 1989 đã khép lại một trong những trang hồ sơ đen tối và tốn nhiều giấy mực nhất của lịch sử tư pháp bang California. Trong suốt gần hai mươi tư năm bị giam giữ tại buồng tử tù San Quentin, Ramirez vẫn tiếp tục nhận được hàng nghìn lá thư từ những người hâm mộ khắp nơi trên thế giới. Hắn say sưa tận hưởng sự chú ý bệnh hoạn ấy, tự coi mình là một biểu tượng bất khả xâm phạm và tiếp tục viết những bức thư ngông cuồng trả lời các nhóm ái mộ. Sự tung hô của đám đông bên ngoài đã trở thành chiếc bình dưỡng khí nuôi dưỡng cái tôi ái kỷ bệnh lý của kẻ sát nhân trong nhiều năm ròng rã. Tuy nhiên, song sắt nhà tù và sự lạnh lùng của thời gian đã dần dần bóc trần sự thật nghiệt ngã về thân phận của hắn. Khi tuổi trẻ qua đi và bệnh tật bắt đầu tàn phá cơ thể, lớp vỏ bọc ngạo mạn thuở nào dần biến mất. Hình ảnh gã sát nhân tự xưng là ác quỷ bóng đêm chỉ còn là một kẻ suy kiệt, hoang tưởng và thảm hại trên chiếc giường buồng giam.",
   "sentences": [
    {
     "id": "4.02#1",
-    "text": "Phán quyết tử hình đối với Richard Ramirez vào năm 1989 đã khép lại một trong những trang hồ sơ đen tối nhất của lịch sử bang California.",
-    "words": 28
+    "text": "Phán quyết tử hình đối với Richard Ramirez vào năm 1989 đã khép lại một trong những trang hồ sơ đen tối và tốn nhiều giấy mực nhất của lịch sử tư pháp bang California.",
+    "words": 35
    },
    {
     "id": "4.02#2",
-    "text": "Trong suốt gần hai mươi tư năm bị giam giữ tại buồng tử tù San Quentin, Ramirez vẫn tiếp tục nhận được hàng nghìn lá thư từ những người hâm mộ khắp năm châu.",
-    "words": 34
+    "text": "Trong suốt gần hai mươi tư năm bị giam giữ tại buồng tử tù San Quentin, Ramirez vẫn tiếp tục nhận được hàng nghìn lá thư từ những người hâm mộ khắp nơi trên thế giới.",
+    "words": 36
    },
    {
     "id": "4.02#3",
-    "text": "Hắn tận hưởng sự nổi tiếng bệnh hoạn ấy, tự coi mình là một huyền thoại sống và tiếp tục viết những bức thư ngông cuồng trả lời người hâm mộ.",
-    "words": 31
+    "text": "Hắn say sưa tận hưởng sự chú ý bệnh hoạn ấy, tự coi mình là một biểu tượng bất khả xâm phạm và tiếp tục viết những bức thư ngông cuồng trả lời các nhóm ái mộ.",
+    "words": 37
    },
    {
     "id": "4.02#4",
-    "text": "Tuy nhiên, thời gian và thực tế nghiệt ngã của chốn lao tù đã dần dần bóc trần sự thảm hại của kẻ từng tự xưng là quỷ dữ bóng đêm.",
-    "words": 31
+    "text": "Sự tung hô của đám đông bên ngoài đã trở thành chiếc bình dưỡng khí nuôi dưỡng cái tôi ái kỷ bệnh lý của kẻ sát nhân trong nhiều năm ròng rã.",
+    "words": 32
    },
    {
     "id": "4.02#5",
-    "text": "Sức khỏe của Ramirez suy kiệt nhanh chóng do lối sống bê tha, các bệnh lý mãn tính và sự cô độc cùng cực sau những song sắt nhà tù.",
-    "words": 30
+    "text": "Tuy nhiên, song sắt nhà tù và sự lạnh lùng của thời gian đã dần dần bóc trần sự thật nghiệt ngã về thân phận của hắn.",
+    "words": 27
    },
    {
     "id": "4.02#6",
-    "text": "Hình ảnh một gã lãng tử ngạo mạn thuở nào dần biến thành một tù nhân già nua, tiều tụy và đau đớn trên giường bệnh.",
-    "words": 26
+    "text": "Khi tuổi trẻ qua đi và bệnh tật bắt đầu tàn phá cơ thể, lớp vỏ bọc ngạo mạn thuở nào dần biến mất.",
+    "words": 24
+   },
+   {
+    "id": "4.02#7",
+    "text": "Hình ảnh gã sát nhân tự xưng là ác quỷ bóng đêm chỉ còn là một kẻ suy kiệt, hoang tưởng và thảm hại trên chiếc giường buồng giam.",
+    "words": 29
    }
   ]
  },
@@ -821,35 +1011,45 @@
   "id": "4.03",
   "act": 4,
   "kind": "SFX",
-  "desc": "*Tiếng khóa cửa buồng giam lách cách, tiếng thở dốc mệt mỏi.*"
+  "desc": "Tiếng cánh cửa sắt nhà tù đóng sầm lại nặng nề, tiếng xích sắt va vào nhau khô khốc."
  },
  {
   "id": "4.04",
   "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "sự sụp đổ của ảo tưởng tình yêu cảm hóa",
-  "text": "Ngay cả cuộc hôn nhân được báo chí ca tụng giữa Ramirez và Doreen Lioy cuối cùng cũng đi đến một kết cục đổ vỡ âm thầm trong im lặng. Những bằng chứng ADN mới được công bố vào những năm 2000 liên kết Ramirez với các vụ án mạng tàn bạo đối với trẻ em đã làm lung lạc niềm tin mù quáng của người vợ. Lioy dần dần rút lui khỏi truyền thông, cắt đứt các chuyến thăm nuôi và biến mất hoàn toàn khỏi cuộc đời của kẻ sát nhân. Sự sụp đổ của mối quan hệ ấy là minh chứng rõ ràng nhất cho thấy ảo tưởng về tình yêu cảm hóa tội ác chỉ là một bong bóng xà phòng mong manh.",
+  "direction": "tiết tấu chậm, mô tả sự tan vỡ của ảo tưởng",
+  "text": "Ngay cả cuộc hôn nhân từng khiến báo chí tốn nhiều giấy mực giữa Ramirez và Doreen Lioy cuối cùng cũng tan vỡ trong sự im lặng và cay đắng. Vào năm 2009, những tiến bộ vượt bậc của công nghệ giám định ADN đã tạo nên một bước ngoặt pháp lý chấn động khác. Mẫu ADN lưu trữ đã liên kết Ramirez trực tiếp với một vụ án mạng cũ từ năm 1984 mà trước đó hắn chưa từng bị xét xử. Sự thật trần trụi và man rợ về bản chất không thể cứu vãn của kẻ sát nhân được cho là đã làm sụp đổ hoàn toàn ảo tưởng cuối cùng của Doreen Lioy. Người phụ nữ từng thề nguyện yêu thương kẻ ác đến trọn đời được cho là đã âm thầm rời bỏ hắn và cắt đứt mọi liên lạc. Sự tan vỡ của cuộc hôn nhân ấy chính là bằng chứng xác thực nhất cho thấy bong bóng ảo tưởng về việc cảm hóa cái ác sớm muộn cũng sẽ nổ tung trước sự thật tàn nhẫn.",
   "sentences": [
    {
     "id": "4.04#1",
-    "text": "Ngay cả cuộc hôn nhân được báo chí ca tụng giữa Ramirez và Doreen Lioy cuối cùng cũng đi đến một kết cục đổ vỡ âm thầm trong im lặng.",
+    "text": "Ngay cả cuộc hôn nhân từng khiến báo chí tốn nhiều giấy mực giữa Ramirez và Doreen Lioy cuối cùng cũng tan vỡ trong sự im lặng và cay đắng.",
     "words": 30
    },
    {
     "id": "4.04#2",
-    "text": "Những bằng chứng ADN mới được công bố vào những năm 2000 liên kết Ramirez với các vụ án mạng tàn bạo đối với trẻ em đã làm lung lạc niềm tin mù quáng của người vợ.",
-    "words": 37
+    "text": "Vào năm 2009, những tiến bộ vượt bậc của công nghệ giám định ADN đã tạo nên một bước ngoặt pháp lý chấn động khác.",
+    "words": 25
    },
    {
     "id": "4.04#3",
-    "text": "Lioy dần dần rút lui khỏi truyền thông, cắt đứt các chuyến thăm nuôi và biến mất hoàn toàn khỏi cuộc đời của kẻ sát nhân.",
-    "words": 26
+    "text": "Mẫu ADN lưu trữ đã liên kết Ramirez trực tiếp với một vụ án mạng cũ từ năm 1984 mà trước đó hắn chưa từng bị xét xử.",
+    "words": 28
    },
    {
     "id": "4.04#4",
-    "text": "Sự sụp đổ của mối quan hệ ấy là minh chứng rõ ràng nhất cho thấy ảo tưởng về tình yêu cảm hóa tội ác chỉ là một bong bóng xà phòng mong manh.",
+    "text": "Sự thật trần trụi và man rợ về bản chất không thể cứu vãn của kẻ sát nhân được cho là đã làm sụp đổ hoàn toàn ảo tưởng cuối cùng của Doreen Lioy.",
     "words": 34
+   },
+   {
+    "id": "4.04#5",
+    "text": "Người phụ nữ từng thề nguyện yêu thương kẻ ác đến trọn đời được cho là đã âm thầm rời bỏ hắn và cắt đứt mọi liên lạc.",
+    "words": 28
+   },
+   {
+    "id": "4.04#6",
+    "text": "Sự tan vỡ của cuộc hôn nhân ấy chính là bằng chứng xác thực nhất cho thấy bong bóng ảo tưởng về việc cảm hóa cái ác sớm muộn cũng sẽ nổ tung trước sự thật tàn nhẫn.",
+    "words": 38
    }
   ]
  },
@@ -857,45 +1057,55 @@
   "id": "4.05",
   "act": 4,
   "kind": "SFX",
-  "desc": "*Tiếng lật mở hồ sơ lưu trữ điều tra, tiếng bút ký xác nhận kết thúc vụ án.*"
+  "desc": "Tiếng micro thu âm của phóng viên báo chí, tiếng lật tài liệu lưu trữ pháp y."
  },
  {
   "id": "4.06",
   "act": 4,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Thám tử Gil Carrillo, bóc trần bản chất thật của kẻ ác",
-  "text": "Trong suốt hàng chục năm sau khi vụ án khép lại, tôi vẫn thường xuyên nhận được những câu hỏi về tính cách thực sự của Richard Ramirez. Tôi luôn nói với mọi người rằng đừng bao giờ để những thước phim lãng mạn hay những lời đồn thổi trên mạng xã hội đánh lừa. Hắn không phải là một nhân vật phản diện quyến rũ trong tiểu thuyết, hắn là một kẻ hèn hạ, một tên trộm vặt bẩn thỉu chuyên rình rập những người yếu thế trong lúc họ đang ngủ say. Hắn đã hủy hoại cuộc đời của hàng chục gia đình vô tội và cướp đi sự bình yên của cả một thế hệ người dân California. Việc một bộ phận công chúng tôn sùng hắn là một sự xúc phạm nặng nề đối với công lý và ký ức của các nạn nhân. Nhiệm vụ của chúng tôi là phải luôn nhắc nhở xã hội về bản chất thật sự của tội ác để không bao giờ có thêm những bi kịch tương tự xảy ra.",
+  "direction": "giọng đanh thép, lột trần bộ mặt thật của kẻ thủ ác",
+  "text": "Hãy hình dung một điều tra viên được hỏi về tính cách thực sự của Richard Ramirez sau nhiều thập kỷ theo dõi hồ sơ vụ án. Câu trả lời dứt khoát là: Đừng bao giờ để những thước phim giật gân hay những câu chuyện lãng mạn hóa trên mạng xã hội đánh lừa nhận thức của quý vị. Hắn hoàn toàn không phải là một nhân vật phản diện mang khí chất bí ẩn, hắn là một kẻ hèn hạ, chuyên rình rập và hãm hại những người không có khả năng tự vệ. Hắn đột nhập vào ban đêm, tấn công người già và phụ nữ trong giấc ngủ, cướp đoạt tài sản vụn vặt rồi nhanh chóng bỏ chạy trong bóng tối. Hắn đã phá nát hạnh phúc của hàng chục gia đình vô tội và reo rắc nỗi đau thương dai dẳng cho cả một thế hệ người dân California. Việc biến một kẻ sát nhân như vậy thành thần tượng là một sự sỉ nhục đối với công lý và là hành vi xúc phạm sâu sắc hương hồn các nạn nhân. Người điều tra có trách nhiệm phải lột bỏ chiếc mặt nạ dối trá ấy để xã hội nhìn thấy đúng bản chất xấu xa và đê tiện của tội ác. Chỉ khi đối diện với sự thật trần trụi, chúng ta mới có thể ngăn chặn những bi kịch tương tự tái diễn trong đời sống.",
   "sentences": [
    {
     "id": "4.06#1",
-    "text": "Trong suốt hàng chục năm sau khi vụ án khép lại, tôi vẫn thường xuyên nhận được những câu hỏi về tính cách thực sự của Richard Ramirez.",
-    "words": 28
+    "text": "Hãy hình dung một điều tra viên được hỏi về tính cách thực sự của Richard Ramirez sau nhiều thập kỷ theo dõi hồ sơ vụ án.",
+    "words": 27
    },
    {
     "id": "4.06#2",
-    "text": "Tôi luôn nói với mọi người rằng đừng bao giờ để những thước phim lãng mạn hay những lời đồn thổi trên mạng xã hội đánh lừa.",
-    "words": 27
+    "text": "Câu trả lời dứt khoát là: Đừng bao giờ để những thước phim giật gân hay những câu chuyện lãng mạn hóa trên mạng xã hội đánh lừa nhận thức của quý vị.",
+    "words": 33
    },
    {
     "id": "4.06#3",
-    "text": "Hắn không phải là một nhân vật phản diện quyến rũ trong tiểu thuyết, hắn là một kẻ hèn hạ, một tên trộm vặt bẩn thỉu chuyên rình rập những người yếu thế trong lúc họ đang ngủ say.",
-    "words": 39
+    "text": "Hắn hoàn toàn không phải là một nhân vật phản diện mang khí chất bí ẩn, hắn là một kẻ hèn hạ, chuyên rình rập và hãm hại những người không có khả năng tự vệ.",
+    "words": 36
    },
    {
     "id": "4.06#4",
-    "text": "Hắn đã hủy hoại cuộc đời của hàng chục gia đình vô tội và cướp đi sự bình yên của cả một thế hệ người dân California.",
-    "words": 27
+    "text": "Hắn đột nhập vào ban đêm, tấn công người già và phụ nữ trong giấc ngủ, cướp đoạt tài sản vụn vặt rồi nhanh chóng bỏ chạy trong bóng tối.",
+    "words": 30
    },
    {
     "id": "4.06#5",
-    "text": "Việc một bộ phận công chúng tôn sùng hắn là một sự xúc phạm nặng nề đối với công lý và ký ức của các nạn nhân.",
-    "words": 27
+    "text": "Hắn đã phá nát hạnh phúc của hàng chục gia đình vô tội và reo rắc nỗi đau thương dai dẳng cho cả một thế hệ người dân California.",
+    "words": 29
    },
    {
     "id": "4.06#6",
-    "text": "Nhiệm vụ của chúng tôi là phải luôn nhắc nhở xã hội về bản chất thật sự của tội ác để không bao giờ có thêm những bi kịch tương tự xảy ra.",
+    "text": "Việc biến một kẻ sát nhân như vậy thành thần tượng là một sự sỉ nhục đối với công lý và là hành vi xúc phạm sâu sắc hương hồn các nạn nhân.",
     "words": 33
+   },
+   {
+    "id": "4.06#7",
+    "text": "Người điều tra có trách nhiệm phải lột bỏ chiếc mặt nạ dối trá ấy để xã hội nhìn thấy đúng bản chất xấu xa và đê tiện của tội ác.",
+    "words": 31
+   },
+   {
+    "id": "4.06#8",
+    "text": "Chỉ khi đối diện với sự thật trần trụi, chúng ta mới có thể ngăn chặn những bi kịch tương tự tái diễn trong đời sống.",
+    "words": 26
    }
   ]
  },
@@ -903,30 +1113,40 @@
   "id": "4.07",
   "act": 4,
   "kind": "SFX",
-  "desc": "*Tiếng máy monitor tim đập chậm dần rồi tắt hẳn, tiếng còi xe cấp cứu chuyển thi thể.*"
+  "desc": "Tiếng máy đo nhịp tim bệnh viện kêu bíp bíp chậm dần rồi kéo dài một tiếng tút đơn điệu."
  },
  {
   "id": "4.08",
   "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "cái chết cô độc tại Bệnh viện Marin năm 2013",
-  "text": "Sáng ngày 7 tháng 6 năm 2013, tại Bệnh viện Đa khoa Marin, Richard Ramirez đã trút hơi thở cuối cùng ở tuổi năm mươi ba do biến chứng ung thư hạch và suy gan. Hắn ra đi trong sự cô độc tuyệt đối, không có một người thân hay một người hâm mộ nào túc trực bên cạnh giường bệnh. Không có án phạt tử hình nào được thi hành bằng thuốc độc, nhưng cái chết mòn mỏi sau song sắt chính là sự kết thúc đích đáng cho kẻ từng gieo rắc kinh hoàng.",
+  "direction": "trầm giọng, công bố sự kết thúc",
+  "text": "Sáng ngày 7 tháng 6 năm 2013, tại Bệnh viện Đa khoa Marin, Richard Ramirez đã trút hơi thở cuối cùng ở tuổi năm mươi ba do biến chứng của bệnh ung thư hạch. Hắn qua đời sau gần một phần tư thế kỷ chờ đợi thi hành án tử hình tại buồng giam San Quentin. Không có người thân nào bên cạnh, không có bất kỳ người hâm mộ nào xuất hiện trong những giây phút cuối đời của kẻ từng được tung hô. Bản án tử hình của tòa án chưa kịp thi hành, nhưng bản án của tự nhiên và sự lãng quên của xã hội đã định đoạt kết cục của hắn. Kẻ từng buông lời ngạo mạn hẹn gặp ở Disneyland đã kết thúc cuộc đời trong sự cô độc tuyệt đối và bệnh tật dày vò.",
   "sentences": [
    {
     "id": "4.08#1",
-    "text": "Sáng ngày 7 tháng 6 năm 2013, tại Bệnh viện Đa khoa Marin, Richard Ramirez đã trút hơi thở cuối cùng ở tuổi năm mươi ba do biến chứng ung thư hạch và suy gan.",
-    "words": 35
+    "text": "Sáng ngày 7 tháng 6 năm 2013, tại Bệnh viện Đa khoa Marin, Richard Ramirez đã trút hơi thở cuối cùng ở tuổi năm mươi ba do biến chứng của bệnh ung thư hạch.",
+    "words": 34
    },
    {
     "id": "4.08#2",
-    "text": "Hắn ra đi trong sự cô độc tuyệt đối, không có một người thân hay một người hâm mộ nào túc trực bên cạnh giường bệnh.",
-    "words": 26
+    "text": "Hắn qua đời sau gần một phần tư thế kỷ chờ đợi thi hành án tử hình tại buồng giam San Quentin.",
+    "words": 22
    },
    {
     "id": "4.08#3",
-    "text": "Không có án phạt tử hình nào được thi hành bằng thuốc độc, nhưng cái chết mòn mỏi sau song sắt chính là sự kết thúc đích đáng cho kẻ từng gieo rắc kinh hoàng.",
-    "words": 35
+    "text": "Không có người thân nào bên cạnh, không có bất kỳ người hâm mộ nào xuất hiện trong những giây phút cuối đời của kẻ từng được tung hô.",
+    "words": 29
+   },
+   {
+    "id": "4.08#4",
+    "text": "Bản án tử hình của tòa án chưa kịp thi hành, nhưng bản án của tự nhiên và sự lãng quên của xã hội đã định đoạt kết cục của hắn.",
+    "words": 31
+   },
+   {
+    "id": "4.08#5",
+    "text": "Kẻ từng buông lời ngạo mạn hẹn gặp ở Disneyland đã kết thúc cuộc đời trong sự cô độc tuyệt đối và bệnh tật dày vò.",
+    "words": 26
    }
   ]
  },
@@ -935,48 +1155,53 @@
   "act": 4,
   "kind": "LOI",
   "role": "N",
-  "direction": "N2: Nhà báo theo dõi phiên tòa Los Angeles, giọng nữ điềm tĩnh, trăn trở",
-  "text": "Có mặt tại phòng xử án của Thẩm phán Michael Tynan suốt nhiều tháng trời là một trải nghiệm tâm lý mà tôi không bao giờ có thể quên. Tôi đã chứng kiến hai thế giới hoàn toàn trái ngược cùng tồn tại trong một căn phòng: Một bên là nỗi đau đớn xé lòng của các gia đình nạn nhân, và một bên là sự cuồng loạn kệch cỡm của các cô gái trẻ hâm mộ Ramirez. Họ cười đùa, tranh nhau từng chiếc ghế ngồi và nhìn kẻ sát nhân với ánh mắt như thể hắn là một thần tượng điện ảnh Hollywood. Đó là một sự lệch lạc đạo đức và tâm lý đáng sợ nhất mà tôi từng thấy trong sự nghiệp làm báo của mình. Họ không nhìn thấy máu và nước mắt của những người vô tội, họ chỉ nhìn thấy một ảo ảnh lãng mạn đen tối do chính họ tự thêu dệt nên trong đầu. Khi Ramirez chết cô độc trên giường bệnh vào năm 2013, không có bất kỳ người hâm mộ nào đến nhận thi thể của hắn. Sự thật trần trụi đã chứng minh rằng những kẻ say mê tội phạm chỉ yêu thích một hình mẫu tưởng tượng chứ không bao giờ thực sự quan tâm đến con người thật của kẻ ác. Đó là một bài học đắt giá về sự nguy hiểm của việc tôn sùng những giá trị lệch lạc trong xã hội hiện đại.",
+  "direction": "N2: góc nhìn minh hoạ của một nhà báo theo dõi phiên tòa, giọng trầm tư, giàu trải nghiệm",
+  "text": "Hãy hình dung trải nghiệm của một nhà báo đã ngồi theo dõi suốt nhiều tháng ròng trong phòng xử án Tòa Thượng thẩm Los Angeles năm ấy. Tôi đã tận mắt chứng kiến hai thế giới hoàn toàn trái ngược cùng tồn tại song song trong một không gian chật hẹp. Một bên là những giọt nước mắt xé lòng và nỗi đau tột cùng của những người cha, người mẹ đã mất đi người thân yêu nhất. Và phía bên kia là tiếng cười đùa vô cảm, những ánh mắt ngưỡng mộ kệch cỡm của các cô gái trẻ hướng về kẻ sát nhân mang kính râm. Đó là một cảnh tượng lệch lạc đạo đức đến rùng mình mà tôi không bao giờ có thể quên trong suốt sự nghiệp làm báo của mình. Những người hâm mộ ấy không nhìn thấy những sinh mạng vô tội bị tước đoạt, họ chỉ mải mê đuổi theo một ảo ảnh đen tối do chính họ tự thêu dệt trong tâm trí. Khi Ramirez qua đời trong bệnh tật và cô độc vào năm 2013, hình tượng hào nhoáng thuở nào hoàn toàn tan biến thành tro bụi. Thực tế nghiệt ngã đã chứng minh rằng những kẻ cuồng mê tội phạm chỉ say đắm một hình mẫu hư cấu, chứ chưa bao giờ thực sự thấu hiểu sự tàn độc của kẻ thủ ác. Đó là bài học đắt giá cho toàn xã hội về sự nguy hiểm khôn lường của việc tôn sùng những giá trị suy đồi và lệch chuẩn.",
   "sentences": [
    {
     "id": "4.09#1",
-    "text": "Có mặt tại phòng xử án của Thẩm phán Michael Tynan suốt nhiều tháng trời là một trải nghiệm tâm lý mà tôi không bao giờ có thể quên.",
-    "words": 29
+    "text": "Hãy hình dung trải nghiệm của một nhà báo đã ngồi theo dõi suốt nhiều tháng ròng trong phòng xử án Tòa Thượng thẩm Los Angeles năm ấy.",
+    "words": 28
    },
    {
     "id": "4.09#2",
-    "text": "Tôi đã chứng kiến hai thế giới hoàn toàn trái ngược cùng tồn tại trong một căn phòng: Một bên là nỗi đau đớn xé lòng của các gia đình nạn nhân, và một bên là sự cuồng loạn kệch cỡm của các cô gái trẻ hâm mộ Ramirez.",
-    "words": 49
+    "text": "Tôi đã tận mắt chứng kiến hai thế giới hoàn toàn trái ngược cùng tồn tại song song trong một không gian chật hẹp.",
+    "words": 24
    },
    {
     "id": "4.09#3",
-    "text": "Họ cười đùa, tranh nhau từng chiếc ghế ngồi và nhìn kẻ sát nhân với ánh mắt như thể hắn là một thần tượng điện ảnh Hollywood.",
+    "text": "Một bên là những giọt nước mắt xé lòng và nỗi đau tột cùng của những người cha, người mẹ đã mất đi người thân yêu nhất.",
     "words": 27
    },
    {
     "id": "4.09#4",
-    "text": "Đó là một sự lệch lạc đạo đức và tâm lý đáng sợ nhất mà tôi từng thấy trong sự nghiệp làm báo của mình.",
-    "words": 25
+    "text": "Và phía bên kia là tiếng cười đùa vô cảm, những ánh mắt ngưỡng mộ kệch cỡm của các cô gái trẻ hướng về kẻ sát nhân mang kính râm.",
+    "words": 30
    },
    {
     "id": "4.09#5",
-    "text": "Họ không nhìn thấy máu và nước mắt của những người vô tội, họ chỉ nhìn thấy một ảo ảnh lãng mạn đen tối do chính họ tự thêu dệt nên trong đầu.",
-    "words": 33
+    "text": "Đó là một cảnh tượng lệch lạc đạo đức đến rùng mình mà tôi không bao giờ có thể quên trong suốt sự nghiệp làm báo của mình.",
+    "words": 28
    },
    {
     "id": "4.09#6",
-    "text": "Khi Ramirez chết cô độc trên giường bệnh vào năm 2013, không có bất kỳ người hâm mộ nào đến nhận thi thể của hắn.",
-    "words": 25
+    "text": "Những người hâm mộ ấy không nhìn thấy những sinh mạng vô tội bị tước đoạt, họ chỉ mải mê đuổi theo một ảo ảnh đen tối do chính họ tự thêu dệt trong tâm trí.",
+    "words": 36
    },
    {
     "id": "4.09#7",
-    "text": "Sự thật trần trụi đã chứng minh rằng những kẻ say mê tội phạm chỉ yêu thích một hình mẫu tưởng tượng chứ không bao giờ thực sự quan tâm đến con người thật của kẻ ác.",
-    "words": 37
+    "text": "Khi Ramirez qua đời trong bệnh tật và cô độc vào năm 2013, hình tượng hào nhoáng thuở nào hoàn toàn tan biến thành tro bụi.",
+    "words": 26
    },
    {
     "id": "4.09#8",
-    "text": "Đó là một bài học đắt giá về sự nguy hiểm của việc tôn sùng những giá trị lệch lạc trong xã hội hiện đại.",
-    "words": 25
+    "text": "Thực tế nghiệt ngã đã chứng minh rằng những kẻ cuồng mê tội phạm chỉ say đắm một hình mẫu hư cấu, chứ chưa bao giờ thực sự thấu hiểu sự tàn độc của kẻ thủ ác.",
+    "words": 37
+   },
+   {
+    "id": "4.09#9",
+    "text": "Đó là bài học đắt giá cho toàn xã hội về sự nguy hiểm khôn lường của việc tôn sùng những giá trị suy đồi và lệch chuẩn.",
+    "words": 28
    }
   ]
  },
@@ -985,33 +1210,38 @@
   "act": 4,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Thám tử Gil Carrillo, sức mạnh đoàn kết của nhân dân",
-  "text": "Cái chết của Richard Ramirez đã chính thức đóng lại một trong những hồ sơ điều tra lớn nhất trong lịch sử Sở Cảnh sát Hạt Los Angeles. Vụ án đã thúc đẩy những bước tiến vượt bậc trong công nghệ giám định vân tay tự động và sự phối hợp liên ngành giữa các lực lượng thực thi pháp luật. Nhưng quan trọng hơn cả, nó chứng minh rằng sức mạnh lớn nhất để đánh bại tội ác luôn bắt nguồn từ sự dũng cảm và tinh thần đoàn kết của cộng đồng nhân dân. Nếu những người dân Đông Los Angeles không dũng cảm lao ra đường chặn bắt kẻ sát nhân sáng hôm đó, thảm kịch có thể đã kéo dài thêm nhiều tháng nữa. Đó mới chính là những người hùng thực sự cần được vinh danh và ghi nhớ trong lịch sử.",
+  "direction": "tổng kết di sản điều tra và cộng đồng",
+  "text": "Cái chết của Richard Ramirez đã chính thức khép lại một trong những hồ sơ điều tra đồ sộ nhất trong biên niên sử của Sở Cảnh sát Hạt Los Angeles. Vụ án là một dấu mốc lịch sử khẳng định vai trò mang tính cách mạng của công nghệ giám định vân tay tự động AFIS và sự phối hợp tác chiến liên ngành. Nhưng bài học lớn nhất được đúc kết từ chiến dịch săn lùng Night Stalker không nằm ở kỹ thuật nghiệp vụ hay trang thiết bị hiện đại. Sức mạnh quyết định để đập tan cái ác và giành lại bình yên cho xã hội luôn bắt nguồn từ sự dũng cảm và tinh thần đoàn kết của cộng đồng nhân dân. Nếu những người dân khu phố Đông Los Angeles không quả cảm lao ra đường vây bắt kẻ sát nhân vào sáng ngày 31 tháng 8 năm 1985, chuỗi tội ác có thể đã còn kéo dài thêm nhiều tháng nữa. Những người dân bình dị ấy mới chính là những người hùng đích thực cần được lịch sử ghi nhận và tôn vinh.",
   "sentences": [
    {
     "id": "4.10#1",
-    "text": "Cái chết của Richard Ramirez đã chính thức đóng lại một trong những hồ sơ điều tra lớn nhất trong lịch sử Sở Cảnh sát Hạt Los Angeles.",
-    "words": 28
+    "text": "Cái chết của Richard Ramirez đã chính thức khép lại một trong những hồ sơ điều tra đồ sộ nhất trong biên niên sử của Sở Cảnh sát Hạt Los Angeles.",
+    "words": 31
    },
    {
     "id": "4.10#2",
-    "text": "Vụ án đã thúc đẩy những bước tiến vượt bậc trong công nghệ giám định vân tay tự động và sự phối hợp liên ngành giữa các lực lượng thực thi pháp luật.",
-    "words": 33
+    "text": "Vụ án là một dấu mốc lịch sử khẳng định vai trò mang tính cách mạng của công nghệ giám định vân tay tự động AFIS và sự phối hợp tác chiến liên ngành.",
+    "words": 34
    },
    {
     "id": "4.10#3",
-    "text": "Nhưng quan trọng hơn cả, nó chứng minh rằng sức mạnh lớn nhất để đánh bại tội ác luôn bắt nguồn từ sự dũng cảm và tinh thần đoàn kết của cộng đồng nhân dân.",
-    "words": 35
+    "text": "Nhưng bài học lớn nhất được đúc kết từ chiến dịch săn lùng Night Stalker không nằm ở kỹ thuật nghiệp vụ hay trang thiết bị hiện đại.",
+    "words": 28
    },
    {
     "id": "4.10#4",
-    "text": "Nếu những người dân Đông Los Angeles không dũng cảm lao ra đường chặn bắt kẻ sát nhân sáng hôm đó, thảm kịch có thể đã kéo dài thêm nhiều tháng nữa.",
-    "words": 32
+    "text": "Sức mạnh quyết định để đập tan cái ác và giành lại bình yên cho xã hội luôn bắt nguồn từ sự dũng cảm và tinh thần đoàn kết của cộng đồng nhân dân.",
+    "words": 34
    },
    {
     "id": "4.10#5",
-    "text": "Đó mới chính là những người hùng thực sự cần được vinh danh và ghi nhớ trong lịch sử.",
-    "words": 19
+    "text": "Nếu những người dân khu phố Đông Los Angeles không quả cảm lao ra đường vây bắt kẻ sát nhân vào sáng ngày 31 tháng 8 năm 1985, chuỗi tội ác có thể đã còn kéo dài thêm nhiều tháng nữa.",
+    "words": 41
+   },
+   {
+    "id": "4.10#6",
+    "text": "Những người dân bình dị ấy mới chính là những người hùng đích thực cần được lịch sử ghi nhận và tôn vinh.",
+    "words": 23
    }
   ]
  },
@@ -1020,23 +1250,33 @@
   "act": 4,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: Đúc kết về phòng ngừa và nhận thức xã hội",
-  "text": "Hồ sơ Richard Ramirez là một bài học kinh điển cho các nhà nghiên cứu tâm thần học pháp y về hậu quả tàn khốc của chấn thương thời thơ ấu đối với sự hình thành nhân cách tội phạm. Đồng thời, hiện tượng Hybristophilia xung quanh vụ án là lời cảnh báo nghiêm khắc về những cạm bẫy tâm lý có thể dẫn dắt con người vào sự mê muội độc hại. Việc giải mã khoa học những hiện tượng này là chìa khóa then chốt để xây dựng một xã hội lành mạnh, biết phân định rạch ròi giữa tình yêu chân chính và sự tôn sùng mù quáng.",
+  "direction": "đúc kết giá trị khoa học hành vi",
+  "text": "Hồ sơ Richard Ramirez thường xuyên được các nhà tội phạm học và tâm thần học pháp y phân tích như một ca điển hình về tác động phối hợp của chấn thương thời thơ ấu và môi trường độc hại. Việc giải mã các yếu tố này không nhằm mục đích giảm nhẹ trách nhiệm hình sự cho kẻ thủ ác, mà để tìm kiếm các biện pháp phòng ngừa và can thiệp sớm cho xã hội. Đồng thời, hiện tượng Hybristophilia xung quanh vụ án là lời cảnh tỉnh nghiêm khắc về những cạm bẫy tâm lý có thể dẫn dắt con người vào sự mê muội đầy nguy hiểm. Việc nhận diện và bóc trần những ảo tưởng tâm lý này là chìa khóa then chốt để xây dựng một văn hóa ứng xử lành mạnh và tỉnh táo. Chúng ta cần học cách phân định rạch ròi giữa lòng trắc ẩn chân chính và sự đồng lõa vô thức với cái ác.",
   "sentences": [
    {
     "id": "4.11#1",
-    "text": "Hồ sơ Richard Ramirez là một bài học kinh điển cho các nhà nghiên cứu tâm thần học pháp y về hậu quả tàn khốc của chấn thương thời thơ ấu đối với sự hình thành nhân cách tội phạm.",
-    "words": 40
+    "text": "Hồ sơ Richard Ramirez thường xuyên được các nhà tội phạm học và tâm thần học pháp y phân tích như một ca điển hình về tác động phối hợp của chấn thương thời thơ ấu và môi trường độc hại.",
+    "words": 41
    },
    {
     "id": "4.11#2",
-    "text": "Đồng thời, hiện tượng Hybristophilia xung quanh vụ án là lời cảnh báo nghiêm khắc về những cạm bẫy tâm lý có thể dẫn dắt con người vào sự mê muội độc hại.",
-    "words": 33
+    "text": "Việc giải mã các yếu tố này không nhằm mục đích giảm nhẹ trách nhiệm hình sự cho kẻ thủ ác, mà để tìm kiếm các biện pháp phòng ngừa và can thiệp sớm cho xã hội.",
+    "words": 37
    },
    {
     "id": "4.11#3",
-    "text": "Việc giải mã khoa học những hiện tượng này là chìa khóa then chốt để xây dựng một xã hội lành mạnh, biết phân định rạch ròi giữa tình yêu chân chính và sự tôn sùng mù quáng.",
-    "words": 38
+    "text": "Đồng thời, hiện tượng Hybristophilia xung quanh vụ án là lời cảnh tỉnh nghiêm khắc về những cạm bẫy tâm lý có thể dẫn dắt con người vào sự mê muội đầy nguy hiểm.",
+    "words": 34
+   },
+   {
+    "id": "4.11#4",
+    "text": "Việc nhận diện và bóc trần những ảo tưởng tâm lý này là chìa khóa then chốt để xây dựng một văn hóa ứng xử lành mạnh và tỉnh táo.",
+    "words": 30
+   },
+   {
+    "id": "4.11#5",
+    "text": "Chúng ta cần học cách phân định rạch ròi giữa lòng trắc ẩn chân chính và sự đồng lõa vô thức với cái ác.",
+    "words": 24
    }
   ]
  },
@@ -1045,18 +1285,23 @@
   "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "khép lại Hồi 4",
-  "text": "Mùa hè năm 1985 đã lùi xa vào quá khứ, nhưng những bài học cảnh tỉnh từ hồ sơ Night Stalker thì vẫn còn nguyên giá trị cho hiện tại và tương lai. Làm thế nào để chúng ta nhận diện và phòng tránh những ảo tưởng độc hại về việc say mê những mối quan hệ nguy hiểm trong đời sống?",
+  "direction": "chuyển tiếp sang Hồi 5",
+  "text": "Mùa hè năm 1985 đã lùi xa vào quá khứ, nhưng những bài học xương máu từ hồ sơ Night Stalker vẫn còn vẹn nguyên giá trị răn đe cho thế hệ hôm nay. Làm thế nào để chúng ta bảo vệ bản thân và những người thân yêu trước những cạm bẫy tâm lý say mê độc hại trong các mối quan hệ đời thực? Hãy cùng lắng nghe những đúc kết thực tiễn và những tín hiệu cảnh báo đỏ sinh tồn trong phần kết của chương trình.",
   "sentences": [
    {
     "id": "4.12#1",
-    "text": "Mùa hè năm 1985 đã lùi xa vào quá khứ, nhưng những bài học cảnh tỉnh từ hồ sơ Night Stalker thì vẫn còn nguyên giá trị cho hiện tại và tương lai.",
-    "words": 33
+    "text": "Mùa hè năm 1985 đã lùi xa vào quá khứ, nhưng những bài học xương máu từ hồ sơ Night Stalker vẫn còn vẹn nguyên giá trị răn đe cho thế hệ hôm nay.",
+    "words": 34
    },
    {
     "id": "4.12#2",
-    "text": "Làm thế nào để chúng ta nhận diện và phòng tránh những ảo tưởng độc hại về việc say mê những mối quan hệ nguy hiểm trong đời sống?",
-    "words": 29
+    "text": "Làm thế nào để chúng ta bảo vệ bản thân và những người thân yêu trước những cạm bẫy tâm lý say mê độc hại trong các mối quan hệ đời thực?",
+    "words": 32
+   },
+   {
+    "id": "4.12#3",
+    "text": "Hãy cùng lắng nghe những đúc kết thực tiễn và những tín hiệu cảnh báo đỏ sinh tồn trong phần kết của chương trình.",
+    "words": 24
    }
   ]
  },
@@ -1064,41 +1309,46 @@
   "id": "4.13",
   "act": 4,
   "kind": "BGM",
-  "desc": "*Một nốt violin đanh thép ngân vang rồi lắng xuống, báo hiệu sự kết thúc của một chương hồ sơ lịch sử.*"
+  "desc": "Tiếng Violin lắng xuống kết thúc Hồi 4, chuyển tiếp sang nền nhạc Piano ấm áp và trang nghiêm của Hồi 5."
  },
  {
   "id": "5.01",
   "act": 5,
   "kind": "BGM",
-  "desc": "*Nhạc nền chuyển sang giai điệu Piano ấm áp, trang trọng, phảng phất nỗi suy tư triết lý và sự cảnh báo nhân văn sâu sắc.*"
+  "desc": "Tiếng đàn Piano ấm áp, trang trọng nhưng đầy chiều sâu triết lý mở đầu Hồi 5."
  },
  {
   "id": "5.02",
   "act": 5,
   "kind": "LOI",
   "role": "H",
-  "direction": "giọng suy ngẫm, mang tính triết lý sâu lắng",
-  "text": "Vụ án Richard Ramirez không chỉ là một trang sử điều tra phá án mẫu mực, mà còn là một tấm gương phản chiếu những góc khuất tâm lý phức tạp của con người trong thời đại truyền thông bùng nổ. Nỗi kinh hoàng về Night Stalker đã giúp các gia đình nâng cao ý thức cảnh giác về an toàn nhà ở và sự gắn kết cộng đồng phòng chống tội phạm. Nhưng bài học sâu sắc nhất để lại cho thế hệ trẻ ngày hôm nay là sự tỉnh táo trước những xu hướng thần tượng hóa tội phạm đang ngày càng lan rộng trên không gian mạng xã hội. Tình yêu và sự thấu cảm chỉ thực sự có giá trị khi nó được đặt đúng chỗ và dựa trên nền tảng của lòng nhân ái, sự tôn trọng và tính thiện lương.",
+  "direction": "trầm ấm, đúc kết giá trị nhân văn",
+  "text": "Vụ án Richard Ramirez không chỉ là một thiên hồ sơ phá án mẫu mực của ngành tư pháp Hoa Kỳ, mà còn là một tấm gương phản chiếu những góc khuất tâm lý phức tạp của thời đại truyền thông bùng nổ. Nỗi khiếp sợ mùa hè năm 1985 đã thúc đẩy cộng đồng nâng cao ý thức tự bảo vệ, thắt chặt an ninh nhà ở và củng cố tình làng nghĩa xóm trong phòng chống tội phạm. Nhưng bài học sâu sắc và cấp thiết nhất để lại cho thế hệ trẻ ngày hôm nay chính là sự tỉnh táo trước xu hướng lãng mạn hóa tội phạm đang ngày càng lan tràn trên các nền tảng mạng xã hội. Cái ác không bao giờ mang vẻ đẹp quyến rũ, sự ngông cuồng vô đạo đức không bao giờ là biểu hiện của bản lĩnh hay cá tính tự do. Lòng trắc ẩn và tình yêu thương chỉ thực sự có giá trị nhân văn khi được đặt trên nền tảng của sự tử tế, tính thiện lương và sự tôn trọng phẩm giá con người.",
   "sentences": [
    {
     "id": "5.02#1",
-    "text": "Vụ án Richard Ramirez không chỉ là một trang sử điều tra phá án mẫu mực, mà còn là một tấm gương phản chiếu những góc khuất tâm lý phức tạp của con người trong thời đại truyền thông bùng nổ.",
-    "words": 41
+    "text": "Vụ án Richard Ramirez không chỉ là một thiên hồ sơ phá án mẫu mực của ngành tư pháp Hoa Kỳ, mà còn là một tấm gương phản chiếu những góc khuất tâm lý phức tạp của thời đại truyền thông bùng nổ.",
+    "words": 43
    },
    {
     "id": "5.02#2",
-    "text": "Nỗi kinh hoàng về Night Stalker đã giúp các gia đình nâng cao ý thức cảnh giác về an toàn nhà ở và sự gắn kết cộng đồng phòng chống tội phạm.",
-    "words": 32
+    "text": "Nỗi khiếp sợ mùa hè năm 1985 đã thúc đẩy cộng đồng nâng cao ý thức tự bảo vệ, thắt chặt an ninh nhà ở và củng cố tình làng nghĩa xóm trong phòng chống tội phạm.",
+    "words": 37
    },
    {
     "id": "5.02#3",
-    "text": "Nhưng bài học sâu sắc nhất để lại cho thế hệ trẻ ngày hôm nay là sự tỉnh táo trước những xu hướng thần tượng hóa tội phạm đang ngày càng lan rộng trên không gian mạng xã hội.",
-    "words": 39
+    "text": "Nhưng bài học sâu sắc và cấp thiết nhất để lại cho thế hệ trẻ ngày hôm nay chính là sự tỉnh táo trước xu hướng lãng mạn hóa tội phạm đang ngày càng lan tràn trên các nền tảng mạng xã hội.",
+    "words": 43
    },
    {
     "id": "5.02#4",
-    "text": "Tình yêu và sự thấu cảm chỉ thực sự có giá trị khi nó được đặt đúng chỗ và dựa trên nền tảng của lòng nhân ái, sự tôn trọng và tính thiện lương.",
-    "words": 34
+    "text": "Cái ác không bao giờ mang vẻ đẹp quyến rũ, sự ngông cuồng vô đạo đức không bao giờ là biểu hiện của bản lĩnh hay cá tính tự do.",
+    "words": 30
+   },
+   {
+    "id": "5.02#5",
+    "text": "Lòng trắc ẩn và tình yêu thương chỉ thực sự có giá trị nhân văn khi được đặt trên nền tảng của sự tử tế, tính thiện lương và sự tôn trọng phẩm giá con người.",
+    "words": 36
    }
   ]
  },
@@ -1107,23 +1357,28 @@
   "act": 5,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Thám tử Gil Carrillo, thông điệp an toàn công cộng",
-  "text": "Dưới góc độ điều tra và an toàn công cộng, thông điệp cốt lõi mà chúng tôi muốn gửi gắm là đừng bao giờ lãng mạn hóa cái ác dưới bất kỳ hình thức nào. Những kẻ phạm tội bạo lực không bao giờ thay đổi bản chất chỉ vì những lời hứa hẹn yêu đương hay sự hy sinh mù quáng của người khác. Sự cảnh giác tỉnh táo và việc tôn trọng sự nghiêm minh của pháp luật chính là nền tảng sống còn để bảo vệ an toàn cho bản thân và toàn xã hội.",
+  "direction": "lời khuyên an toàn từ góc nhìn điều tra",
+  "text": "Dưới góc độ điều tra và an toàn công cộng, thông điệp cốt lõi mà chúng tôi muốn gửi gắm là: Tuyệt đối không bao giờ lãng mạn hóa bạo lực dưới bất kỳ hình thức nào. Những cá nhân có xu hướng chống đối xã hội và thói quen chà đạp quyền lợi của người khác không bao giờ có thể thay đổi chỉ nhờ vào sự hy sinh mù quáng của bạn. Khi phát hiện những dấu hiệu bạo lực hoặc vi phạm pháp luật ở đối phương, sự lựa chọn thông minh và an toàn duy nhất là thiết lập ranh giới và rời đi kịp thời. Sự tỉnh táo của lý trí và việc tôn trọng sự nghiêm minh của pháp luật chính là tấm khiên vững chắc nhất để bảo vệ sinh mạng và tương lai của chính bạn.",
   "sentences": [
    {
     "id": "5.03#1",
-    "text": "Dưới góc độ điều tra và an toàn công cộng, thông điệp cốt lõi mà chúng tôi muốn gửi gắm là đừng bao giờ lãng mạn hóa cái ác dưới bất kỳ hình thức nào.",
-    "words": 35
+    "text": "Dưới góc độ điều tra và an toàn công cộng, thông điệp cốt lõi mà chúng tôi muốn gửi gắm là: Tuyệt đối không bao giờ lãng mạn hóa bạo lực dưới bất kỳ hình thức nào.",
+    "words": 37
    },
    {
     "id": "5.03#2",
-    "text": "Những kẻ phạm tội bạo lực không bao giờ thay đổi bản chất chỉ vì những lời hứa hẹn yêu đương hay sự hy sinh mù quáng của người khác.",
-    "words": 30
+    "text": "Những cá nhân có xu hướng chống đối xã hội và thói quen chà đạp quyền lợi của người khác không bao giờ có thể thay đổi chỉ nhờ vào sự hy sinh mù quáng của bạn.",
+    "words": 37
    },
    {
     "id": "5.03#3",
-    "text": "Sự cảnh giác tỉnh táo và việc tôn trọng sự nghiêm minh của pháp luật chính là nền tảng sống còn để bảo vệ an toàn cho bản thân và toàn xã hội.",
-    "words": 33
+    "text": "Khi phát hiện những dấu hiệu bạo lực hoặc vi phạm pháp luật ở đối phương, sự lựa chọn thông minh và an toàn duy nhất là thiết lập ranh giới và rời đi kịp thời.",
+    "words": 36
+   },
+   {
+    "id": "5.03#4",
+    "text": "Sự tỉnh táo của lý trí và việc tôn trọng sự nghiêm minh của pháp luật chính là tấm khiên vững chắc nhất để bảo vệ sinh mạng và tương lai của chính bạn.",
+    "words": 34
    }
   ]
  },
@@ -1132,28 +1387,33 @@
   "act": 5,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: Bản chất của các mối quan hệ lành mạnh",
-  "text": "Hội chứng say mê tội phạm, hay Hybristophilia, thường bắt nguồn từ những tổn thương tâm lý thời thơ ấu, sự thiếu hụt lòng tự trọng và cảm giác bất an trong các mối quan hệ tình cảm lành mạnh. Khi một người có xu hướng bị thu hút bởi những đối tượng bạo lực, bất hảo hoặc có tính cách thống trị tiêu cực, đó là dấu hiệu cho thấy họ đang tìm kiếm sự kiểm soát hoặc kích thích nguy hiểm. Việc nhận diện sớm những xu hướng tâm lý lệch lạc này và tìm kiếm sự can thiệp tâm lý kịp thời là biện pháp quan trọng để tránh rơi vào những bi kịch tình cảm độc hại. Hãy học cách yêu thương bản thân đúng cách và xây dựng những mối quan hệ dựa trên sự bình đẳng, an toàn và tôn trọng lẫn nhau.",
+  "direction": "định hướng tâm lý học trị liệu",
+  "text": "Hội chứng say mê tội phạm, hay Hybristophilia, thường bắt nguồn từ những tổn thương tâm lý chưa được chữa lành, sự thiếu thốn tình cảm và cảm giác tự ti trong các mối quan hệ lành mạnh. Khi một người có xu hướng bị lôi cuốn bởi sự nguy hiểm, tính cách hung hăng hoặc sự thống trị độc đoán của đối phương, đó là tín hiệu báo động đỏ cho thấy nhận thức cảm xúc đang bị méo mó. Việc tìm kiếm cảm giác hưng phấn trong những mối quan hệ độc hại thực chất là một cơ chế tự hủy hoại bản thân nhằm khỏa lấp sự trống rỗng nội tại. Để xây dựng một cuộc sống hạnh phúc và an toàn, mỗi cá nhân cần học cách trân trọng giá trị tự thân và thiết lập những ranh giới bảo vệ cảm xúc vững chắc. Một tình yêu đích thực phải luôn mang lại sự bình yên, sự bình đẳng và sự an toàn về cả thể xác lẫn tâm hồn.",
   "sentences": [
    {
     "id": "5.04#1",
-    "text": "Hội chứng say mê tội phạm, hay Hybristophilia, thường bắt nguồn từ những tổn thương tâm lý thời thơ ấu, sự thiếu hụt lòng tự trọng và cảm giác bất an trong các mối quan hệ tình cảm lành mạnh.",
-    "words": 40
+    "text": "Hội chứng say mê tội phạm, hay Hybristophilia, thường bắt nguồn từ những tổn thương tâm lý chưa được chữa lành, sự thiếu thốn tình cảm và cảm giác tự ti trong các mối quan hệ lành mạnh.",
+    "words": 38
    },
    {
     "id": "5.04#2",
-    "text": "Khi một người có xu hướng bị thu hút bởi những đối tượng bạo lực, bất hảo hoặc có tính cách thống trị tiêu cực, đó là dấu hiệu cho thấy họ đang tìm kiếm sự kiểm soát hoặc kích thích nguy hiểm.",
+    "text": "Khi một người có xu hướng bị lôi cuốn bởi sự nguy hiểm, tính cách hung hăng hoặc sự thống trị độc đoán của đối phương, đó là tín hiệu báo động đỏ cho thấy nhận thức cảm xúc đang bị méo mó.",
     "words": 43
    },
    {
     "id": "5.04#3",
-    "text": "Việc nhận diện sớm những xu hướng tâm lý lệch lạc này và tìm kiếm sự can thiệp tâm lý kịp thời là biện pháp quan trọng để tránh rơi vào những bi kịch tình cảm độc hại.",
-    "words": 38
+    "text": "Việc tìm kiếm cảm giác hưng phấn trong những mối quan hệ độc hại thực chất là một cơ chế tự hủy hoại bản thân nhằm khỏa lấp sự trống rỗng nội tại.",
+    "words": 33
    },
    {
     "id": "5.04#4",
-    "text": "Hãy học cách yêu thương bản thân đúng cách và xây dựng những mối quan hệ dựa trên sự bình đẳng, an toàn và tôn trọng lẫn nhau.",
-    "words": 28
+    "text": "Để xây dựng một cuộc sống hạnh phúc và an toàn, mỗi cá nhân cần học cách trân trọng giá trị tự thân và thiết lập những ranh giới bảo vệ cảm xúc vững chắc.",
+    "words": 35
+   },
+   {
+    "id": "5.04#5",
+    "text": "Một tình yêu đích thực phải luôn mang lại sự bình yên, sự bình đẳng và sự an toàn về cả thể xác lẫn tâm hồn.",
+    "words": 26
    }
   ]
  },
@@ -1162,91 +1422,106 @@
   "act": 5,
   "kind": "LOI",
   "role": "H",
-  "direction": "chuyển sang phần đúc kết và bài học nhận diện thực tế",
-  "text": "Để giúp quý vị khán giả, đặc biệt là các bạn trẻ, kịp thời nhận diện và phòng ngừa nguy cơ rơi vào những cạm bẫy tâm lý say mê độc hại trong tình cảm, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ kinh điển được đúc kết từ hồ sơ Richard Ramirez. Dấu hiệu thứ nhất: Xu hướng bị thu hút mạnh mẽ bởi những cá nhân có quá khứ bạo lực, bất hảo hoặc có hành vi chống đối xã hội. Khi bạn cảm thấy hưng phấn hoặc bị lôi cuốn bởi sự nguy hiểm, sự ngạo mạn bất cần đời của một đối tượng hơn là sự tử tế và chân thành, đó là tín hiệu cảnh báo tâm lý ban đầu. Đừng bao giờ nhầm lẫn sự hung hăng, thô bạo với sự nam tính hay bản lĩnh, bạo lực trong tính cách sẽ sớm muộn chuyển hóa thành sự xâm hại đối với chính bạn. Dấu hiệu thứ hai: Sự xuất hiện của ảo tưởng người giải cứu, tin rằng chỉ có mình mới có thể cảm hóa và thay đổi được người xấu. Niềm tin rằng tình yêu của bạn có thể biến một kẻ vũ phu, độc hại thành một người lương thiện là một cái bẫy tâm lý cực kỳ phổ biến và nguy hiểm. Hãy nhớ rằng không ai có thể thay đổi được một nhân cách suy đồi trừ khi chính bản thân họ có ý thức trị liệu và hối cải thực sự. Dấu hiệu thứ ba: Hành vi sẵn sàng biện minh, bao che cho những lỗi lầm nghiêm trọng hoặc hành vi phạm pháp của người yêu. Khi bạn bắt đầu tìm cách giải thích cho sự hung bạo của đối phương bằng những lý do như tuổi thơ bất hạnh hay áp lực cuộc sống, bạn đang dần đánh mất ranh giới đạo đức của chính mình. Sự bao che mù quáng không phải là tình yêu cao thượng, mà là sự đồng lõa dung dưỡng cho cái xấu tiếp tục phát triển và gây hại cho cộng đồng. Dấu hiệu thứ tư: Sự cô lập bản thân khỏi gia đình, bạn bè để bảo vệ mối quan hệ tình cảm lệch lạc. Khi bạn sẵn sàng cắt đứt liên lạc với những người thân yêu chỉ vì họ đưa ra những lời khuyên can đúng đắn về đối tượng bạn đang theo đuổi, bạn đang rơi vào vòng xoáy kiểm soát tâm lý cực kỳ nguy hiểm. Những mối quan hệ lành mạnh luôn mang lại sự kết nối và bình yên, chứ không bao giờ đòi hỏi bạn phải đánh đổi những giá trị đạo đức và tình thân. Sự an toàn và phẩm giá của bản thân luôn là giới hạn đỏ bất khả xâm phạm trong mọi mối quan hệ tình cảm. Cảm ơn quý vị đã dành thời gian đồng hành cùng Amber Eyes trong tập hồ sơ tâm lý học tội phạm đầy kịch tính và bài học nhân văn sâu sắc ngày hôm nay. Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ thông điệp ý nghĩa này đến những người xung quanh bạn để cùng nhau lan tỏa sự tỉnh táo và hiểu biết. Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
+  "direction": "chuyển sang phần 4 cảnh báo đỏ và kết thúc chương trình",
+  "text": "Để giúp quý vị khán giả, đặc biệt là các bạn trẻ, kịp thời nhận diện và phòng tránh nguy cơ rơi vào những cạm bẫy say mê độc hại trong tình cảm, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ sinh tồn được đúc kết từ hồ sơ Richard Ramirez. Cảnh báo đỏ thứ nhất: Xu hướng bị thu hút mãnh liệt bởi sự hung hăng, ngạo mạn hoặc quá khứ bất hảo của đối phương. Nếu bạn nhận thấy mình cảm thấy hưng phấn trước những hành vi ngông cuồng, coi thường luật pháp của một người hơn là sự chân thành và tử tế, hãy dừng lại ngay lập tức. Đừng bao giờ nhầm lẫn sự thô bạo với bản lĩnh đàn ông hay sự cuốn hút bí ẩn. Những kẻ sẵn sàng dùng bạo lực với thế giới bên ngoài sẽ sớm muộn trút chính sự hung tàn đó lên đầu bạn khi mâu thuẫn nảy sinh. Cảnh báo đỏ thứ hai: Sự xuất hiện của ảo tưởng người giải cứu, tin rằng tình yêu của mình có thể thay đổi được kẻ xấu. Đây là cái bẫy nhận thức phổ biến nhất dẫn dắt nhiều người bước vào những bi kịch tình cảm không lối thoát. Hãy nhớ rằng bạn là một người đồng hành tìm kiếm sự sẻ chia, chứ không phải là một vị cứu tinh có nhiệm vụ cảm hóa một nhân cách lệch chuẩn. Một người chỉ có thể thực sự thay đổi khi chính bản thân họ có ý thức hối cải sâu sắc và nỗ lực trị liệu tâm lý chuyên nghiệp. Cảnh báo đỏ thứ ba: Thói quen biện minh, bao che cho những hành vi sai trái và lấn chiếm ranh giới của đối phương. Khi bạn bắt đầu tìm lý do giải thích cho sự xúc phạm hay tính khí hung bạo của người yêu bằng hoàn cảnh khó khăn hay tuổi thơ bất hạnh, bạn đang tự vô hiệu hóa cơ chế tự vệ của chính mình. Lòng vị tha đặt nhầm chỗ chính là sự đồng lõa dung dưỡng cho cái xấu tiếp tục leo thang và gây hại cho những người xung quanh. Ranh giới đạo đức và sự tôn trọng lẫn nhau là những nguyên tắc cốt lõi tuyệt đối không bao giờ được phép thỏa hiệp. Cảnh báo đỏ thứ tư: Việc tự cô lập bản thân khỏi gia đình, bạn bè để bảo vệ một mối quan hệ tình cảm lệch lạc. Khi bạn sẵn sàng cắt đứt liên lạc với những người thân yêu chỉ vì họ đưa ra những lời khuyên can đúng đắn về đối tượng bạn đang theo đuổi, bạn đã rơi vào vòng cương tỏa kiểm soát tâm lý độc hại. Kẻ thao túng luôn tìm cách tước bỏ mạng lưới hỗ trợ xã hội của bạn để dễ dàng thống trị và thao túng cuộc đời bạn. Một mối quan hệ lành mạnh luôn mở rộng sự kết nối và mang lại sự an tâm cho những người yêu thương bạn, chứ không bao giờ bắt bạn phải trả giá bằng sự cô độc. Cảm ơn quý vị đã dành thời gian đồng hành cùng Amber Eyes trong tập hồ sơ giải phẫu tâm lý học tội phạm ngày hôm nay. Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ video này đến những người thân yêu để cùng nhau lan tỏa sự tỉnh táo và hiểu biết. Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
   "sentences": [
    {
     "id": "5.05#1",
-    "text": "Để giúp quý vị khán giả, đặc biệt là các bạn trẻ, kịp thời nhận diện và phòng ngừa nguy cơ rơi vào những cạm bẫy tâm lý say mê độc hại trong tình cảm, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ kinh điển được đúc kết từ hồ sơ Richard Ramirez.",
-    "words": 57
+    "text": "Để giúp quý vị khán giả, đặc biệt là các bạn trẻ, kịp thời nhận diện và phòng tránh nguy cơ rơi vào những cạm bẫy say mê độc hại trong tình cảm, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ sinh tồn được đúc kết từ hồ sơ Richard Ramirez.",
+    "words": 55
    },
    {
     "id": "5.05#2",
-    "text": "Dấu hiệu thứ nhất: Xu hướng bị thu hút mạnh mẽ bởi những cá nhân có quá khứ bạo lực, bất hảo hoặc có hành vi chống đối xã hội.",
-    "words": 30
+    "text": "Cảnh báo đỏ thứ nhất: Xu hướng bị thu hút mãnh liệt bởi sự hung hăng, ngạo mạn hoặc quá khứ bất hảo của đối phương.",
+    "words": 26
    },
    {
     "id": "5.05#3",
-    "text": "Khi bạn cảm thấy hưng phấn hoặc bị lôi cuốn bởi sự nguy hiểm, sự ngạo mạn bất cần đời của một đối tượng hơn là sự tử tế và chân thành, đó là tín hiệu cảnh báo tâm lý ban đầu.",
-    "words": 42
+    "text": "Nếu bạn nhận thấy mình cảm thấy hưng phấn trước những hành vi ngông cuồng, coi thường luật pháp của một người hơn là sự chân thành và tử tế, hãy dừng lại ngay lập tức.",
+    "words": 36
    },
    {
     "id": "5.05#4",
-    "text": "Đừng bao giờ nhầm lẫn sự hung hăng, thô bạo với sự nam tính hay bản lĩnh, bạo lực trong tính cách sẽ sớm muộn chuyển hóa thành sự xâm hại đối với chính bạn.",
-    "words": 35
+    "text": "Đừng bao giờ nhầm lẫn sự thô bạo với bản lĩnh đàn ông hay sự cuốn hút bí ẩn.",
+    "words": 19
    },
    {
     "id": "5.05#5",
-    "text": "Dấu hiệu thứ hai: Sự xuất hiện của ảo tưởng người giải cứu, tin rằng chỉ có mình mới có thể cảm hóa và thay đổi được người xấu.",
+    "text": "Những kẻ sẵn sàng dùng bạo lực với thế giới bên ngoài sẽ sớm muộn trút chính sự hung tàn đó lên đầu bạn khi mâu thuẫn nảy sinh.",
     "words": 29
    },
    {
     "id": "5.05#6",
-    "text": "Niềm tin rằng tình yêu của bạn có thể biến một kẻ vũ phu, độc hại thành một người lương thiện là một cái bẫy tâm lý cực kỳ phổ biến và nguy hiểm.",
-    "words": 34
+    "text": "Cảnh báo đỏ thứ hai: Sự xuất hiện của ảo tưởng người giải cứu, tin rằng tình yêu của mình có thể thay đổi được kẻ xấu.",
+    "words": 27
    },
    {
     "id": "5.05#7",
-    "text": "Hãy nhớ rằng không ai có thể thay đổi được một nhân cách suy đồi trừ khi chính bản thân họ có ý thức trị liệu và hối cải thực sự.",
-    "words": 31
+    "text": "Đây là cái bẫy nhận thức phổ biến nhất dẫn dắt nhiều người bước vào những bi kịch tình cảm không lối thoát.",
+    "words": 23
    },
    {
     "id": "5.05#8",
-    "text": "Dấu hiệu thứ ba: Hành vi sẵn sàng biện minh, bao che cho những lỗi lầm nghiêm trọng hoặc hành vi phạm pháp của người yêu.",
-    "words": 26
-   },
-   {
-    "id": "5.05#9",
-    "text": "Khi bạn bắt đầu tìm cách giải thích cho sự hung bạo của đối phương bằng những lý do như tuổi thơ bất hạnh hay áp lực cuộc sống, bạn đang dần đánh mất ranh giới đạo đức của chính mình.",
-    "words": 41
-   },
-   {
-    "id": "5.05#10",
-    "text": "Sự bao che mù quáng không phải là tình yêu cao thượng, mà là sự đồng lõa dung dưỡng cho cái xấu tiếp tục phát triển và gây hại cho cộng đồng.",
+    "text": "Hãy nhớ rằng bạn là một người đồng hành tìm kiếm sự sẻ chia, chứ không phải là một vị cứu tinh có nhiệm vụ cảm hóa một nhân cách lệch chuẩn.",
     "words": 32
    },
    {
-    "id": "5.05#11",
-    "text": "Dấu hiệu thứ tư: Sự cô lập bản thân khỏi gia đình, bạn bè để bảo vệ mối quan hệ tình cảm lệch lạc.",
-    "words": 24
+    "id": "5.05#9",
+    "text": "Một người chỉ có thể thực sự thay đổi khi chính bản thân họ có ý thức hối cải sâu sắc và nỗ lực trị liệu tâm lý chuyên nghiệp.",
+    "words": 30
    },
    {
-    "id": "5.05#12",
-    "text": "Khi bạn sẵn sàng cắt đứt liên lạc với những người thân yêu chỉ vì họ đưa ra những lời khuyên can đúng đắn về đối tượng bạn đang theo đuổi, bạn đang rơi vào vòng xoáy kiểm soát tâm lý cực kỳ nguy hiểm.",
-    "words": 45
-   },
-   {
-    "id": "5.05#13",
-    "text": "Những mối quan hệ lành mạnh luôn mang lại sự kết nối và bình yên, chứ không bao giờ đòi hỏi bạn phải đánh đổi những giá trị đạo đức và tình thân.",
-    "words": 33
-   },
-   {
-    "id": "5.05#14",
-    "text": "Sự an toàn và phẩm giá của bản thân luôn là giới hạn đỏ bất khả xâm phạm trong mọi mối quan hệ tình cảm.",
+    "id": "5.05#10",
+    "text": "Cảnh báo đỏ thứ ba: Thói quen biện minh, bao che cho những hành vi sai trái và lấn chiếm ranh giới của đối phương.",
     "words": 25
    },
    {
+    "id": "5.05#11",
+    "text": "Khi bạn bắt đầu tìm lý do giải thích cho sự xúc phạm hay tính khí hung bạo của người yêu bằng hoàn cảnh khó khăn hay tuổi thơ bất hạnh, bạn đang tự vô hiệu hóa cơ chế tự vệ của chính mình.",
+    "words": 44
+   },
+   {
+    "id": "5.05#12",
+    "text": "Lòng vị tha đặt nhầm chỗ chính là sự đồng lõa dung dưỡng cho cái xấu tiếp tục leo thang và gây hại cho những người xung quanh.",
+    "words": 28
+   },
+   {
+    "id": "5.05#13",
+    "text": "Ranh giới đạo đức và sự tôn trọng lẫn nhau là những nguyên tắc cốt lõi tuyệt đối không bao giờ được phép thỏa hiệp.",
+    "words": 25
+   },
+   {
+    "id": "5.05#14",
+    "text": "Cảnh báo đỏ thứ tư: Việc tự cô lập bản thân khỏi gia đình, bạn bè để bảo vệ một mối quan hệ tình cảm lệch lạc.",
+    "words": 27
+   },
+   {
     "id": "5.05#15",
-    "text": "Cảm ơn quý vị đã dành thời gian đồng hành cùng Amber Eyes trong tập hồ sơ tâm lý học tội phạm đầy kịch tính và bài học nhân văn sâu sắc ngày hôm nay.",
-    "words": 35
+    "text": "Khi bạn sẵn sàng cắt đứt liên lạc với những người thân yêu chỉ vì họ đưa ra những lời khuyên can đúng đắn về đối tượng bạn đang theo đuổi, bạn đã rơi vào vòng cương tỏa kiểm soát tâm lý độc hại.",
+    "words": 44
    },
    {
     "id": "5.05#16",
-    "text": "Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ thông điệp ý nghĩa này đến những người xung quanh bạn để cùng nhau lan tỏa sự tỉnh táo và hiểu biết.",
-    "words": 35
+    "text": "Kẻ thao túng luôn tìm cách tước bỏ mạng lưới hỗ trợ xã hội của bạn để dễ dàng thống trị và thao túng cuộc đời bạn.",
+    "words": 27
    },
    {
     "id": "5.05#17",
+    "text": "Một mối quan hệ lành mạnh luôn mở rộng sự kết nối và mang lại sự an tâm cho những người yêu thương bạn, chứ không bao giờ bắt bạn phải trả giá bằng sự cô độc.",
+    "words": 37
+   },
+   {
+    "id": "5.05#18",
+    "text": "Cảm ơn quý vị đã dành thời gian đồng hành cùng Amber Eyes trong tập hồ sơ giải phẫu tâm lý học tội phạm ngày hôm nay.",
+    "words": 27
+   },
+   {
+    "id": "5.05#19",
+    "text": "Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ video này đến những người thân yêu để cùng nhau lan tỏa sự tỉnh táo và hiểu biết.",
+    "words": 31
+   },
+   {
+    "id": "5.05#20",
     "text": "Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
     "words": 17
    }
@@ -1256,6 +1531,6 @@
   "id": "5.06",
   "act": 5,
   "kind": "BGM",
-  "desc": "*Nhạc nền ngân vang ấm áp, trang trọng rồi mờ dần (Fade out hoàn toàn ở giây thứ 5).*"
+  "desc": "Nhạc nền Piano ấm áp ngân vang trang trọng rồi mờ dần và kết thúc."
  }
 ]

@@ -1,10 +1,22 @@
-# NGUỒN THAM KHẢO & ĐỐI CHIẾU DỮ KIỆN — CƠN CUỒNG GHEN RỐI LOẠN NHÂN CÁCH RANH GIỚI — NỖI SỢ BỊ RUỒNG BỎ & THẢM KỊCH PHÒNG TẮM (HỒ SƠ JODI ARIAS)
+📚 TỔNG HỢP NGUỒN THAM KHẢO HỒ SƠ TẬP 15 (JODI ARIAS & TRAVIS ALEXANDER)
+Amber eyes tuân thủ nguyên tắc đối chiếu đa nguồn từ hồ sơ tư pháp công khai của Tòa án Bang Arizona và Sở Cảnh sát Mesa:
 
-Toàn bộ các mốc thời gian, nhân vật, địa danh, quy trình điều tra và phán quyết tư pháp trong hồ sơ vụ án **Arias** đã được đối chiếu chéo với các nguồn tài liệu chính thống của cơ quan điều tra, bản án tòa án và báo chí chính luận có uy tín.
+1. Hồ sơ tòa án & Phán quyết tư pháp chính thức:
+• Tòa Thượng thẩm Bang Arizona Hạt Maricopa — Toàn văn hồ sơ vụ án State of Arizona v. Jodi Ann Arias (Case No. CR2008-031021, Thẩm phán Sherry Stephens): https://www.clerkofcourt.maricopa.gov/
+• Văn phòng Công tố Hạt Maricopa — Báo cáo xét xử và luận tội của Công tố viên Juan Martinez: https://www.maricopacountyattorney.org/
+• Tòa Phúc thẩm Bang Arizona — Phán quyết bác đơn kháng cáo của Jodi Arias (2020): https://www.azcourts.gov/
 
-| Dữ kiện trong kịch bản | Nội dung đối chiếu kiểm chứng | Nguồn tham chiếu chính thức | Trạng thái |
-|---|---|---|:---:|
-| **Hiện trường ngày 04/06/2008** | Travis Alexander bị sát hại dã man trong phòng tắm nhà riêng tại Mesa, Arizona; thi thể được phát hiện 5 ngày sau. | Mesa Police Department Crime Report | **Chính xác 100%** |
-| **Bằng chứng máy ảnh trong máy giặt** | Cảnh sát tìm thấy máy ảnh Sony Cyber-shot bị xóa trong máy giặt; kỹ thuật viên pháp y số phục hồi toàn bộ ảnh chụp thời điểm vụ án. | Báo cáo Kỹ thuật Pháp y Số Mesa Police | **Chính xác 100%** |
-| **Lời khai mâu thuẫn của Arias** | Ban đầu phủ nhận có mặt tại hiện trường -> khai bị 2 kẻ đột nhập tấn công -> đổi thành tự vệ chính đáng do bị bạo hành. | Biên bản thẩm vấn của Thám tử Esteban Flores | **Chính xác 100%** |
-| **Phán quyết chung thân** | Năm 2015, Thẩm phán Sherry Stephens tuyên phạt tù chung thân không ân xá tại Nhà tù Nữ Perryville. | Bản án Tòa Thượng thẩm Maricopa | **Chính xác 100%** |
+2. Cơ quan điều tra thực địa & Báo chí chính thống:
+• Sở Cảnh sát Mesa (Mesa Police Department) — Báo cáo khám nghiệm hiện trường vụ án ngày 04/06/2008, lời khai nhân chứng và biên bản bắt giữ Jodi Arias ngày 15/07/2008: https://www.mesaaz.gov/residents/police
+• Juan Martinez (Chánh công tố) — Cuốn hồi ký tư liệu 'Conviction: The Untold Story of Putting Jodi Arias Behind Bars': https://www.harpercollins.com/
+• Arizona Republic & CNN/HLN — Kho tư liệu phát thanh truyền hình trực tiếp toàn bộ phiên tòa 2013–2015: https://www.azcentral.com/
+
+3. Giám định tâm thần học pháp y & Nghiên cứu hành vi:
+• Tiến sĩ Tâm lý học Lâm sàng Janeen DeMarte — Lời khai nhân chứng chuyên môn của công tố về Rối loạn nhân cách ranh giới (BPD) và Nét ái kỷ ác tính (Malignant Narcissism).
+• Hiệp hội Tâm thần học Hoa Kỳ (APA DSM-5-TR) — Tiêu chuẩn chẩn đoán Rối loạn nhân cách ranh giới, Cơn cuồng nộ ranh giới (Borderline Rage) và Nỗi sợ bị ruồng bỏ (Fear of Abandonment).
+• Gavin de Becker — Tác phẩm 'The Gift of Fear: Survival Signals That Protect Us from Violence': https://gavindebecker.com/
+
+4. Đường dây nóng hỗ trợ khủng hoảng & bảo vệ nạn nhân:
+• Tổng đài Quốc gia Bảo vệ Trẻ em 111 (Việt Nam, miễn phí 24/7): http://tongdai111.vn/
+• Đường dây nóng Ngày Mai (Hỗ trợ trầm cảm & khủng hoảng tâm lý): 096 306 1414 — https://duongdaynongngaymai.vn/
+• Đường dây nóng hỗ trợ phòng chống bạo lực gia đình: 1900 969 680

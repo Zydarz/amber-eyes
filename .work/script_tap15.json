@@ -3,262 +3,180 @@
   "id": "1.01",
   "act": 1,
   "kind": "BGM",
-  "desc": "*Nhạc Dark Ambient trầm buồn, ngột ngạt vang lên giữa không gian tĩnh mịch, hòa cùng tiếng nước nhỏ giọt đều đặn và tiếng gió rít qua khe cửa sổ.*"
+  "desc": "Nhạc Dark Ambient u tối, ngột ngạt vang lên giữa không gian tĩnh mịch, hòa cùng tiếng nước nhỏ giọt đều đặn và tiếng gió rít qua khe cửa sổ."
  },
  {
   "id": "1.02",
   "act": 1,
-  "kind": "LOI",
-  "role": "H",
-  "direction": "chậm rãi, giọng trầm ấm gợi mở không khí điều tra",
-  "text": "Ngày 9 tháng 6 năm 2008, một bầu không khí u ám bao trùm lên khu dân cư yên tĩnh tại thành phố Mesa, bang Arizona. Travis Alexander, một diễn giả truyền cảm hứng ba mươi tuổi đầy nhiệt huyết và thành đạt, đã bất ngờ biến mất không để lại dấu vết. Anh không xuất hiện tại sân bay để tham dự chuyến du lịch khen thưởng quan trọng ở Cancun cùng các đồng nghiệp, cũng không hề nghe điện thoại suốt năm ngày liên tiếp. Khi những người bạn thân tìm đến căn nhà hai tầng trên đường Queensborough và mở cửa bước vào phòng tắm chính, một cảnh tượng bàng hoàng đã hiện ra trước mắt họ. Travis đã bị tước đoạt mạng sống ngay trong buồng tắm với những dấu hiệu bạo lực vô cùng dữ dội và tàn khốc. Vụ án mạng kinh hoàng này đã mở màn cho một trong những phiên tòa hình sự giật gân, gây chấn động và tốn nhiều giấy mực nhất trong lịch sử tư pháp nước Mỹ.",
-  "sentences": [
-   {
-    "id": "1.02#1",
-    "text": "Ngày 9 tháng 6 năm 2008, một bầu không khí u ám bao trùm lên khu dân cư yên tĩnh tại thành phố Mesa, bang Arizona.",
-    "words": 26
-   },
-   {
-    "id": "1.02#2",
-    "text": "Travis Alexander, một diễn giả truyền cảm hứng ba mươi tuổi đầy nhiệt huyết và thành đạt, đã bất ngờ biến mất không để lại dấu vết.",
-    "words": 27
-   },
-   {
-    "id": "1.02#3",
-    "text": "Anh không xuất hiện tại sân bay để tham dự chuyến du lịch khen thưởng quan trọng ở Cancun cùng các đồng nghiệp, cũng không hề nghe điện thoại suốt năm ngày liên tiếp.",
-    "words": 34
-   },
-   {
-    "id": "1.02#4",
-    "text": "Khi những người bạn thân tìm đến căn nhà hai tầng trên đường Queensborough và mở cửa bước vào phòng tắm chính, một cảnh tượng bàng hoàng đã hiện ra trước mắt họ.",
-    "words": 33
-   },
-   {
-    "id": "1.02#5",
-    "text": "Travis đã bị tước đoạt mạng sống ngay trong buồng tắm với những dấu hiệu bạo lực vô cùng dữ dội và tàn khốc.",
-    "words": 24
-   },
-   {
-    "id": "1.02#6",
-    "text": "Vụ án mạng kinh hoàng này đã mở màn cho một trong những phiên tòa hình sự giật gân, gây chấn động và tốn nhiều giấy mực nhất trong lịch sử tư pháp nước Mỹ.",
-    "words": 35
-   }
-  ]
+  "kind": "SFX",
+  "desc": "Tiếng chuông điện thoại đổ dồn dập trong đêm buốt giá, tiếng gõ bàn phím máy tính gấp gáp."
  },
  {
   "id": "1.03",
   "act": 1,
-  "kind": "SFX",
-  "desc": "*Tiếng còi xe cảnh sát từ xa, tiếng bộ đàm của Sở Cảnh sát Mesa xì xèo trao đổi mã nghiệp vụ.*"
+  "kind": "LOI",
+  "role": "H",
+  "direction": "chậm rãi, giọng trầm ấm gợi mở không khí điều tra",
+  "text": "Ngày 9 tháng 6 năm 2008. Tại một khu dân cư yên bình thuộc thành phố Mesa, bang Arizona. Travis Alexander, một chuyên viên kinh doanh ba mươi tuổi kiêm diễn giả truyền cảm hứng nổi tiếng, đã nhiều ngày liền không thể liên lạc được. Anh không xuất hiện tại sân bay để tham dự chuyến du lịch cùng các đồng nghiệp tại Cancun, mở đầu cho một trong những vụ án gây chấn động nhất lịch sử tư pháp hiện đại nước Mỹ.",
+  "sentences": [
+   {
+    "id": "1.03#1",
+    "text": "Ngày 9 tháng 6 năm 2008.",
+    "words": 6
+   },
+   {
+    "id": "1.03#2",
+    "text": "Tại một khu dân cư yên bình thuộc thành phố Mesa, bang Arizona.",
+    "words": 13
+   },
+   {
+    "id": "1.03#3",
+    "text": "Travis Alexander, một chuyên viên kinh doanh ba mươi tuổi kiêm diễn giả truyền cảm hứng nổi tiếng, đã nhiều ngày liền không thể liên lạc được.",
+    "words": 27
+   },
+   {
+    "id": "1.03#4",
+    "text": "Anh không xuất hiện tại sân bay để tham dự chuyến du lịch cùng các đồng nghiệp tại Cancun, mở đầu cho một trong những vụ án gây chấn động nhất lịch sử tư pháp hiện đại nước Mỹ.",
+    "words": 39
+   }
+  ]
  },
  {
   "id": "1.04",
   "act": 1,
-  "kind": "LOI",
-  "role": "H",
-  "direction": "tiếp tục mạch tự sự cuốn hút, giới thiệu nạn nhân và kẻ thủ ác",
-  "text": "Travis Alexander là một nhân vật nổi bật trong cộng đồng tín đồ Mormon tại địa phương. Anh được biết đến là một người đàn ông cuốn hút, thành công rực rỡ trong công việc và luôn mang lại năng lượng tích cực cho những người xung quanh. Thế nhưng, cuộc đời của anh đã hoàn toàn đảo lộn kể từ tháng 9 năm 2006, tại một hội nghị kinh doanh ở Las Vegas. Đó là nơi Travis lần đầu tiên gặp gỡ Jodi Ann Arias, một nhiếp ảnh gia tự do hai mươi sáu tuổi đến từ bang California. Jodi sở hữu vẻ ngoài thông minh, quyến rũ và nhanh chóng chủ động bước vào thế giới của Travis với sự say mê cuồng nhiệt. Cô ta thậm chí cải sang đạo Mormon chỉ hai tháng sau đó và chuyển đến sống tại bang Arizona để được ở gần người đàn ông mình tôn sùng. Nhưng đằng sau ánh hào quang của mối tình lãng mạn ban đầu là một bóng ma tâm lý đầy rẫy sự kiểm soát và ám ảnh độc hại.",
-  "sentences": [
-   {
-    "id": "1.04#1",
-    "text": "Travis Alexander là một nhân vật nổi bật trong cộng đồng tín đồ Mormon tại địa phương.",
-    "words": 17
-   },
-   {
-    "id": "1.04#2",
-    "text": "Anh được biết đến là một người đàn ông cuốn hút, thành công rực rỡ trong công việc và luôn mang lại năng lượng tích cực cho những người xung quanh.",
-    "words": 31
-   },
-   {
-    "id": "1.04#3",
-    "text": "Thế nhưng, cuộc đời của anh đã hoàn toàn đảo lộn kể từ tháng 9 năm 2006, tại một hội nghị kinh doanh ở Las Vegas.",
-    "words": 26
-   },
-   {
-    "id": "1.04#4",
-    "text": "Đó là nơi Travis lần đầu tiên gặp gỡ Jodi Ann Arias, một nhiếp ảnh gia tự do hai mươi sáu tuổi đến từ bang California.",
-    "words": 26
-   },
-   {
-    "id": "1.04#5",
-    "text": "Jodi sở hữu vẻ ngoài thông minh, quyến rũ và nhanh chóng chủ động bước vào thế giới của Travis với sự say mê cuồng nhiệt.",
-    "words": 26
-   },
-   {
-    "id": "1.04#6",
-    "text": "Cô ta thậm chí cải sang đạo Mormon chỉ hai tháng sau đó và chuyển đến sống tại bang Arizona để được ở gần người đàn ông mình tôn sùng.",
-    "words": 30
-   },
-   {
-    "id": "1.04#7",
-    "text": "Nhưng đằng sau ánh hào quang của mối tình lãng mạn ban đầu là một bóng ma tâm lý đầy rẫy sự kiểm soát và ám ảnh độc hại.",
-    "words": 29
-   }
-  ]
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
  },
  {
   "id": "1.05",
   "act": 1,
-  "kind": "SFX",
-  "desc": "*Tiếng chuông điện thoại đổ dồn dập trong đêm, tiếng gõ bàn phím máy tính gấp gáp.*"
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tiếp tục mạch tự sự cuốn hút, khắc họa nạn nhân",
+  "text": "Người đàn ông ba mươi tuổi ấy từng là biểu tượng truyền cảm hứng mạnh mẽ, một tín đồ nổi bật của cộng đồng địa phương luôn lan tỏa năng lượng tích cực. Thế nhưng cuộc đời anh đã hoàn toàn đảo lộn kể từ tháng 9 năm 2006, tại một hội nghị kinh doanh ở Las Vegas. Đó là nơi Travis lần đầu gặp gỡ Jodi Ann Arias – một phụ nữ hai mươi sáu tuổi đến từ bang California với vẻ ngoài thanh lịch và cuốn hút. Jodi chủ động bước vào cuộc sống của anh bằng một sự say mê nồng nhiệt khác thường, cải sang đạo chỉ sau hai tháng rồi chuyển đến Mesa để sống cạnh anh. Chính vẻ ngoài đoan trang, trí thức ấy đã tạo nên một “Hiệu ứng Hào quang” hoàn hảo, che giấu chiếc bẫy thao túng tâm lý độc hại suốt thời gian dài.",
+  "sentences": [
+   {
+    "id": "1.05#1",
+    "text": "Người đàn ông ba mươi tuổi ấy từng là biểu tượng truyền cảm hứng mạnh mẽ, một tín đồ nổi bật của cộng đồng địa phương luôn lan tỏa năng lượng tích cực.",
+    "words": 33
+   },
+   {
+    "id": "1.05#2",
+    "text": "Thế nhưng cuộc đời anh đã hoàn toàn đảo lộn kể từ tháng 9 năm 2006, tại một hội nghị kinh doanh ở Las Vegas.",
+    "words": 25
+   },
+   {
+    "id": "1.05#3",
+    "text": "Đó là nơi Travis lần đầu gặp gỡ Jodi Ann Arias – một phụ nữ hai mươi sáu tuổi đến từ bang California với vẻ ngoài thanh lịch và cuốn hút.",
+    "words": 31
+   },
+   {
+    "id": "1.05#4",
+    "text": "Jodi chủ động bước vào cuộc sống của anh bằng một sự say mê nồng nhiệt khác thường, cải sang đạo chỉ sau hai tháng rồi chuyển đến Mesa để sống cạnh anh.",
+    "words": 33
+   },
+   {
+    "id": "1.05#5",
+    "text": "Chính vẻ ngoài đoan trang, trí thức ấy đã tạo nên một “Hiệu ứng Hào quang” hoàn hảo, che giấu chiếc bẫy thao túng tâm lý độc hại suốt thời gian dài.",
+    "words": 32
+   }
+  ]
  },
  {
   "id": "1.06",
   "act": 1,
-  "kind": "LOI",
-  "role": "H",
-  "direction": "chuyển giọng u ám, khắc họa sự rạn nứt",
-  "text": "Khi nhận thấy sự ghen tuông bệnh hoạn và tính khí thất thường của Jodi, Travis đã chủ động đề nghị chấm dứt mối quan hệ tình cảm chính thức. Tuy nhiên, sự chia tay ấy không bao giờ có thể diễn ra một cách trọn vẹn trong tâm trí của Jodi Arias. Cô ta không chấp nhận thực tại bị từ chối, liên tục theo dõi, gọi hàng chục cuộc điện thoại mỗi đêm và thậm chí đột nhập vào các tài khoản mạng xã hội của anh. Mối quan hệ giữa hai người biến thành một vòng xoáy dùng dằng độc hại giữa sự thỏa hiệp thể xác và những cơn cuồng nộ ngấm ngầm. Travis đã nhiều lần chia sẻ với bạn bè về cảm giác sợ hãi đối với hành vi rình rập ngày càng leo thang của bạn gái cũ.",
-  "sentences": [
-   {
-    "id": "1.06#1",
-    "text": "Khi nhận thấy sự ghen tuông bệnh hoạn và tính khí thất thường của Jodi, Travis đã chủ động đề nghị chấm dứt mối quan hệ tình cảm chính thức.",
-    "words": 30
-   },
-   {
-    "id": "1.06#2",
-    "text": "Tuy nhiên, sự chia tay ấy không bao giờ có thể diễn ra một cách trọn vẹn trong tâm trí của Jodi Arias.",
-    "words": 23
-   },
-   {
-    "id": "1.06#3",
-    "text": "Cô ta không chấp nhận thực tại bị từ chối, liên tục theo dõi, gọi hàng chục cuộc điện thoại mỗi đêm và thậm chí đột nhập vào các tài khoản mạng xã hội của anh.",
-    "words": 36
-   },
-   {
-    "id": "1.06#4",
-    "text": "Mối quan hệ giữa hai người biến thành một vòng xoáy dùng dằng độc hại giữa sự thỏa hiệp thể xác và những cơn cuồng nộ ngấm ngầm.",
-    "words": 28
-   },
-   {
-    "id": "1.06#5",
-    "text": "Travis đã nhiều lần chia sẻ với bạn bè về cảm giác sợ hãi đối với hành vi rình rập ngày càng leo thang của bạn gái cũ.",
-    "words": 28
-   }
-  ]
+  "kind": "SFX",
+  "desc": "Tiếng băng cassette bật nhẹ \"Tách\"."
  },
  {
   "id": "1.07",
   "act": 1,
   "kind": "LOI",
   "role": "N",
-  "direction": "N1: Bạn thân và đồng nghiệp của Travis tại Mesa, giọng nữ xót xa, bàng hoàng",
-  "text": "Travis từng nói với tôi rằng anh ấy cảm thấy ngột ngạt và bất an mỗi khi nhìn thấy Jodi xuất hiện bất ngờ trước cửa nhà. Cô ấy có thể tỏ ra vô cùng ngọt ngào, dịu dàng vào buổi sáng, nhưng có thể ngay lập tức biến thành một con người hung hãn nếu anh ấy nói chuyện với một phụ nữ khác. Có những lần lốp xe của Travis bị đâm thủng một cách bí ẩn, và email cá nhân của anh ấy liên tục bị thay đổi mật khẩu. Anh ấy cố gắng duy trì khoảng cách và hy vọng khi cô ấy dọn về lại California thì mọi chuyện sẽ dừng lại. Khi Travis không đến sân bay để đi Cancun, tất cả chúng tôi đều cảm thấy có linh cảm chẳng lành. Bước chân vào căn nhà tĩnh lặng ngày hôm đó, chúng tôi không thể nào tin được người bạn vui vẻ, tốt bụng của mình đã ra đi mãi mãi. Sự ra đi của Travis là một cú sốc không thể diễn tả bằng lời đối với toàn bộ cộng đồng chúng tôi.",
+  "direction": "N1: Bạn thân / Đồng nghiệp của Travis tại Mesa, giọng chân thật, bàng hoàng",
+  "text": "Trong mắt tất cả bạn bè chúng tôi, Travis là một người sống đầy nhiệt huyết và luôn đối xử tử tế với mọi người xung quanh. Khi Jodi mới xuất hiện, cô ta tỏ ra hòa nhập tuyệt đối với mọi thói quen, tín ngưỡng và bạn bè của anh ấy như một người bạn đời hoàn hảo. Nhưng chẳng bao lâu sau, cô ta bắt đầu kiểm soát vi tế, lén đọc thư điện tử, xuất hiện bất ngờ và nổi cơn thịnh nộ nếu Travis trò chuyện với người phụ nữ khác. Khi Travis quyết định dừng lại và không đến sân bay đi Cancun, chúng tôi đã linh cảm một điềm chẳng lành bao trùm lên anh.",
   "sentences": [
    {
     "id": "1.07#1",
-    "text": "Travis từng nói với tôi rằng anh ấy cảm thấy ngột ngạt và bất an mỗi khi nhìn thấy Jodi xuất hiện bất ngờ trước cửa nhà.",
+    "text": "Trong mắt tất cả bạn bè chúng tôi, Travis là một người sống đầy nhiệt huyết và luôn đối xử tử tế với mọi người xung quanh.",
     "words": 27
    },
    {
     "id": "1.07#2",
-    "text": "Cô ấy có thể tỏ ra vô cùng ngọt ngào, dịu dàng vào buổi sáng, nhưng có thể ngay lập tức biến thành một con người hung hãn nếu anh ấy nói chuyện với một phụ nữ khác.",
-    "words": 38
+    "text": "Khi Jodi mới xuất hiện, cô ta tỏ ra hòa nhập tuyệt đối với mọi thói quen, tín ngưỡng và bạn bè của anh ấy như một người bạn đời hoàn hảo.",
+    "words": 32
    },
    {
     "id": "1.07#3",
-    "text": "Có những lần lốp xe của Travis bị đâm thủng một cách bí ẩn, và email cá nhân của anh ấy liên tục bị thay đổi mật khẩu.",
-    "words": 28
+    "text": "Nhưng chẳng bao lâu sau, cô ta bắt đầu kiểm soát vi tế, lén đọc thư điện tử, xuất hiện bất ngờ và nổi cơn thịnh nộ nếu Travis trò chuyện với người phụ nữ khác.",
+    "words": 36
    },
    {
     "id": "1.07#4",
-    "text": "Anh ấy cố gắng duy trì khoảng cách và hy vọng khi cô ấy dọn về lại California thì mọi chuyện sẽ dừng lại.",
-    "words": 24
-   },
-   {
-    "id": "1.07#5",
-    "text": "Khi Travis không đến sân bay để đi Cancun, tất cả chúng tôi đều cảm thấy có linh cảm chẳng lành.",
-    "words": 21
-   },
-   {
-    "id": "1.07#6",
-    "text": "Bước chân vào căn nhà tĩnh lặng ngày hôm đó, chúng tôi không thể nào tin được người bạn vui vẻ, tốt bụng của mình đã ra đi mãi mãi.",
-    "words": 30
-   },
-   {
-    "id": "1.07#7",
-    "text": "Sự ra đi của Travis là một cú sốc không thể diễn tả bằng lời đối với toàn bộ cộng đồng chúng tôi.",
-    "words": 23
+    "text": "Khi Travis quyết định dừng lại và không đến sân bay đi Cancun, chúng tôi đã linh cảm một điềm chẳng lành bao trùm lên anh.",
+    "words": 26
    }
   ]
  },
  {
   "id": "1.08",
   "act": 1,
-  "kind": "SFX",
-  "desc": "*Tiếng kéo dải băng niêm phong hiện trường ro ro, tiếng bước chân mang bọc giày chuyên dụng lạo xạo trên sàn gỗ.*"
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng trầm lắng",
+  "text": "Mối quan hệ chính thức giữa hai người chỉ kéo dài vài tháng trước khi Travis chủ động chấm dứt. Thế nhưng, lời chia tay ấy chưa bao giờ được chấp nhận trong tâm trí méo mó của Jodi Arias. Cô ta âm thầm theo dõi anh, bị bạn bè tố cáo truy cập trái phép tài khoản cá nhân và liên tục phá hoại tài sản của anh. Travis đã nhiều lần tâm sự với những người thân thiết về cảm giác ngột ngạt trước những bước lấn ranh giới ngày càng hung hãn của bạn gái cũ.",
+  "sentences": [
+   {
+    "id": "1.08#1",
+    "text": "Mối quan hệ chính thức giữa hai người chỉ kéo dài vài tháng trước khi Travis chủ động chấm dứt.",
+    "words": 20
+   },
+   {
+    "id": "1.08#2",
+    "text": "Thế nhưng, lời chia tay ấy chưa bao giờ được chấp nhận trong tâm trí méo mó của Jodi Arias.",
+    "words": 20
+   },
+   {
+    "id": "1.08#3",
+    "text": "Cô ta âm thầm theo dõi anh, bị bạn bè tố cáo truy cập trái phép tài khoản cá nhân và liên tục phá hoại tài sản của anh.",
+    "words": 29
+   },
+   {
+    "id": "1.08#4",
+    "text": "Travis đã nhiều lần tâm sự với những người thân thiết về cảm giác ngột ngạt trước những bước lấn ranh giới ngày càng hung hãn của bạn gái cũ.",
+    "words": 30
+   }
+  ]
  },
  {
   "id": "1.09",
   "act": 1,
-  "kind": "LOI",
-  "role": "H",
-  "direction": "giọng căng thẳng, tái hiện hiện trường mạng án",
-  "text": "Khi các điều tra viên thuộc Sở Cảnh sát Mesa tiếp cận hiện trường vụ án, họ nhận thấy nhiều chi tiết vô cùng bất thường. Cửa ra vào không hề có bất kỳ dấu vết cạy phá nào, cho thấy nạn nhân đã tự nguyện mở cửa hoặc hung thủ có chìa khóa riêng. Hiện trường buồng tắm cho thấy một mức độ sát thương quá mức cần thiết, phản ánh một cơn thịnh nộ cá nhân tột độ chứ không phải một vụ cướp tài sản thông thường. Đồ đạc có giá trị trong nhà như máy tính đắt tiền và dàn âm thanh vẫn còn nguyên vẹn. Tuy nhiên, điều tra viên phát hiện một chi tiết kỳ lạ: máy giặt ở tầng trên đang chứa một mẻ đồ ướt cùng với ga trải giường dính máu. Và nằm sâu dưới đáy lồng giặt chính là chiếc máy ảnh kỹ thuật số của nạn nhân, một vật chứng tình cờ sẽ làm thay đổi toàn bộ cục diện vụ án.",
-  "sentences": [
-   {
-    "id": "1.09#1",
-    "text": "Khi các điều tra viên thuộc Sở Cảnh sát Mesa tiếp cận hiện trường vụ án, họ nhận thấy nhiều chi tiết vô cùng bất thường.",
-    "words": 26
-   },
-   {
-    "id": "1.09#2",
-    "text": "Cửa ra vào không hề có bất kỳ dấu vết cạy phá nào, cho thấy nạn nhân đã tự nguyện mở cửa hoặc hung thủ có chìa khóa riêng.",
-    "words": 29
-   },
-   {
-    "id": "1.09#3",
-    "text": "Hiện trường buồng tắm cho thấy một mức độ sát thương quá mức cần thiết, phản ánh một cơn thịnh nộ cá nhân tột độ chứ không phải một vụ cướp tài sản thông thường.",
-    "words": 35
-   },
-   {
-    "id": "1.09#4",
-    "text": "Đồ đạc có giá trị trong nhà như máy tính đắt tiền và dàn âm thanh vẫn còn nguyên vẹn.",
-    "words": 20
-   },
-   {
-    "id": "1.09#5",
-    "text": "Tuy nhiên, điều tra viên phát hiện một chi tiết kỳ lạ: máy giặt ở tầng trên đang chứa một mẻ đồ ướt cùng với ga trải giường dính máu.",
-    "words": 30
-   },
-   {
-    "id": "1.09#6",
-    "text": "Và nằm sâu dưới đáy lồng giặt chính là chiếc máy ảnh kỹ thuật số của nạn nhân, một vật chứng tình cờ sẽ làm thay đổi toàn bộ cục diện vụ án.",
-    "words": 33
-   }
-  ]
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": "Nhạc nền dừng đột ngột"
  },
  {
   "id": "1.10",
   "act": 1,
   "kind": "LOI",
-  "role": "D",
-  "direction": "D: Thanh tra Esteban Flores, Sở Cảnh sát Mesa, giọng nam sắc bén, chuyên nghiệp",
-  "text": "Ngay từ những giờ đầu tiên tiếp cận hiện trường, chúng tôi đã nhận định đây là một vụ án mạng mang động cơ thù hận cá nhân sâu sắc. Kẻ thủ ác đã ra tay với sự giận dữ tột cùng, tước đoạt sinh mạng của nạn nhân bằng cả vũ khí sắc nhọn và phát súng áp sát. Rõ ràng hung thủ đã dành nhiều thời gian để cố gắng dọn dẹp hiện trường và phi tang các vật chứng then chốt vào máy giặt. Việc vứt chiếc máy ảnh kỹ thuật số vào máy giặt cùng quần áo ướt là một nỗ lực tuyệt vọng nhằm hủy hoại dữ liệu điện tử bằng nước và xà phòng. Tuy nhiên, kẻ sát nhân đã đánh giá quá thấp năng lực kỹ thuật hình sự và phục hồi dữ liệu số của lực lượng điều tra chúng tôi.",
+  "role": "H",
+  "direction": "giọng căng thẳng, tái hiện hiện trường",
+  "text": "Khi những người bạn bước vào căn nhà tại Mesa vào tối ngày 9 tháng 6, linh cảm tồi tệ nhất của họ đã trở thành hiện thực. Travis Alexander đã bị tước đoạt mạng sống ngay trong buồng tắm của phòng ngủ chính sau nhiều ngày mất tích. Tin tức về sự việc lập tức làm rúng động toàn bộ cộng đồng địa phương, châm ngòi cho một làn sóng hoang mang và phẫn nộ tột cùng.",
   "sentences": [
    {
     "id": "1.10#1",
-    "text": "Ngay từ những giờ đầu tiên tiếp cận hiện trường, chúng tôi đã nhận định đây là một vụ án mạng mang động cơ thù hận cá nhân sâu sắc.",
-    "words": 30
+    "text": "Khi những người bạn bước vào căn nhà tại Mesa vào tối ngày 9 tháng 6, linh cảm tồi tệ nhất của họ đã trở thành hiện thực.",
+    "words": 28
    },
    {
     "id": "1.10#2",
-    "text": "Kẻ thủ ác đã ra tay với sự giận dữ tột cùng, tước đoạt sinh mạng của nạn nhân bằng cả vũ khí sắc nhọn và phát súng áp sát.",
-    "words": 30
+    "text": "Travis Alexander đã bị tước đoạt mạng sống ngay trong buồng tắm của phòng ngủ chính sau nhiều ngày mất tích.",
+    "words": 21
    },
    {
     "id": "1.10#3",
-    "text": "Rõ ràng hung thủ đã dành nhiều thời gian để cố gắng dọn dẹp hiện trường và phi tang các vật chứng then chốt vào máy giặt.",
-    "words": 27
-   },
-   {
-    "id": "1.10#4",
-    "text": "Việc vứt chiếc máy ảnh kỹ thuật số vào máy giặt cùng quần áo ướt là một nỗ lực tuyệt vọng nhằm hủy hoại dữ liệu điện tử bằng nước và xà phòng.",
-    "words": 33
-   },
-   {
-    "id": "1.10#5",
-    "text": "Tuy nhiên, kẻ sát nhân đã đánh giá quá thấp năng lực kỹ thuật hình sự và phục hồi dữ liệu số của lực lượng điều tra chúng tôi.",
+    "text": "Tin tức về sự việc lập tức làm rúng động toàn bộ cộng đồng địa phương, châm ngòi cho một làn sóng hoang mang và phẫn nộ tột cùng.",
     "words": 29
    }
   ]
@@ -266,62 +184,185 @@
  {
   "id": "1.11",
   "act": 1,
+  "kind": "SFX",
+  "desc": "Tiếng còi xe cảnh sát từ xa, tiếng bộ đàm của Sở Cảnh sát Mesa xì xèo trao đổi mã nghiệp vụ."
+ },
+ {
+  "id": "1.12",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng sắc gọn, nghiệp vụ hiện trường",
+  "text": "Các điều tra viên của Sở Cảnh sát Mesa lập tức phong tỏa toàn bộ khu vực để bảo tồn hiện trường. Mọi cửa ra vào và cửa sổ đều nguyên vẹn, hoàn toàn không có bất kỳ dấu hiệu cạy phá hay đột nhập nào từ bên ngoài. Đồ đạc có giá trị cùng các thiết bị điện tử trong nhà vẫn còn nguyên vị trí, loại trừ hoàn toàn động cơ trộm cướp tài sản thông thường.",
+  "sentences": [
+   {
+    "id": "1.12#1",
+    "text": "Các điều tra viên của Sở Cảnh sát Mesa lập tức phong tỏa toàn bộ khu vực để bảo tồn hiện trường.",
+    "words": 22
+   },
+   {
+    "id": "1.12#2",
+    "text": "Mọi cửa ra vào và cửa sổ đều nguyên vẹn, hoàn toàn không có bất kỳ dấu hiệu cạy phá hay đột nhập nào từ bên ngoài.",
+    "words": 27
+   },
+   {
+    "id": "1.12#3",
+    "text": "Đồ đạc có giá trị cùng các thiết bị điện tử trong nhà vẫn còn nguyên vị trí, loại trừ hoàn toàn động cơ trộm cướp tài sản thông thường.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "1.13",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "Tiếng mở nắp máy giặt kêu \"Két\", tiếng nước đọng róc rách trong lồng giặt."
+ },
+ {
+  "id": "1.14",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng rùng mình, hé lộ vật chứng then chốt",
+  "text": "Hiện trường phản ánh một hành vi thù hận cá nhân tột độ, vượt xa một cuộc xung đột nhất thời. Hung thủ đã dành thời gian dọn dẹp hiện trường nhằm xóa sạch dấu vết để lại. Nhưng điều bất thường nhất lại nằm ở phòng giặt là ở tầng dưới của ngôi nhà. Bên trong lồng máy giặt đang chứa một mẻ quần áo ướt cùng bộ ga trải giường của nạn nhân. Và chìm dưới đáy lồng giặt ngập nước chính là chiếc máy ảnh kỹ thuật số nhãn hiệu Sony của Travis. Kẻ ra tay đã cố tình cho máy ảnh chạy qua chu trình giặt với hy vọng nước sẽ tiêu hủy hoàn toàn dữ liệu điện tử bên trong. Chúng ta hãy lắng nghe Điều tra viên tái hiện lại góc nhìn nghiệp vụ tại hiện trường cân não ấy.",
+  "sentences": [
+   {
+    "id": "1.14#1",
+    "text": "Hiện trường phản ánh một hành vi thù hận cá nhân tột độ, vượt xa một cuộc xung đột nhất thời.",
+    "words": 21
+   },
+   {
+    "id": "1.14#2",
+    "text": "Hung thủ đã dành thời gian dọn dẹp hiện trường nhằm xóa sạch dấu vết để lại.",
+    "words": 17
+   },
+   {
+    "id": "1.14#3",
+    "text": "Nhưng điều bất thường nhất lại nằm ở phòng giặt là ở tầng dưới của ngôi nhà.",
+    "words": 17
+   },
+   {
+    "id": "1.14#4",
+    "text": "Bên trong lồng máy giặt đang chứa một mẻ quần áo ướt cùng bộ ga trải giường của nạn nhân.",
+    "words": 20
+   },
+   {
+    "id": "1.14#5",
+    "text": "Và chìm dưới đáy lồng giặt ngập nước chính là chiếc máy ảnh kỹ thuật số nhãn hiệu Sony của Travis.",
+    "words": 21
+   },
+   {
+    "id": "1.14#6",
+    "text": "Kẻ ra tay đã cố tình cho máy ảnh chạy qua chu trình giặt với hy vọng nước sẽ tiêu hủy hoàn toàn dữ liệu điện tử bên trong.",
+    "words": 29
+   },
+   {
+    "id": "1.14#7",
+    "text": "Chúng ta hãy lắng nghe Điều tra viên tái hiện lại góc nhìn nghiệp vụ tại hiện trường cân não ấy.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "1.15",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "Tiếng kéo dải băng niêm phong hiện trường ro ro, tiếng bước chân mang bọc giày chuyên dụng lạo xạo trên sàn gạch."
+ },
+ {
+  "id": "1.16",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "Đoạn Cello u uất dâng lên, kết hợp nhịp Sub-bass dồn dập, nghẹt thở."
+ },
+ {
+  "id": "1.17",
+  "act": 1,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "giọng sắc lạnh, dứt khoát và chuẩn xác",
+  "text": "Khám nghiệm ban đầu cho thấy mức độ tác động vượt quá mọi giới hạn cần thiết để vô hiệu hóa một con người. Hành vi gây hại dồn dập tại buồng tắm phản ánh một cơn cuồng nộ mang tính cá nhân vô cùng sâu sắc. Rõ ràng hung thủ quen biết nạn nhân và nắm rất rõ cấu trúc sinh hoạt trong căn nhà. Việc đưa chiếc máy ảnh vào máy giặt cùng quần áo ướt là một nỗ lực xóa dấu vết có tính toán. Tuy nhiên, kẻ thủ ác đã đánh giá quá thấp sự bền bỉ của công nghệ lưu trữ thể rắn hiện đại. Mỗi chip bán dẫn đều có thể phục hồi dữ liệu nếu phòng thí nghiệm can thiệp kịp thời.",
+  "sentences": [
+   {
+    "id": "1.17#1",
+    "text": "Khám nghiệm ban đầu cho thấy mức độ tác động vượt quá mọi giới hạn cần thiết để vô hiệu hóa một con người.",
+    "words": 24
+   },
+   {
+    "id": "1.17#2",
+    "text": "Hành vi gây hại dồn dập tại buồng tắm phản ánh một cơn cuồng nộ mang tính cá nhân vô cùng sâu sắc.",
+    "words": 23
+   },
+   {
+    "id": "1.17#3",
+    "text": "Rõ ràng hung thủ quen biết nạn nhân và nắm rất rõ cấu trúc sinh hoạt trong căn nhà.",
+    "words": 19
+   },
+   {
+    "id": "1.17#4",
+    "text": "Việc đưa chiếc máy ảnh vào máy giặt cùng quần áo ướt là một nỗ lực xóa dấu vết có tính toán.",
+    "words": 22
+   },
+   {
+    "id": "1.17#5",
+    "text": "Tuy nhiên, kẻ thủ ác đã đánh giá quá thấp sự bền bỉ của công nghệ lưu trữ thể rắn hiện đại.",
+    "words": 22
+   },
+   {
+    "id": "1.17#6",
+    "text": "Mỗi chip bán dẫn đều có thể phục hồi dữ liệu nếu phòng thí nghiệm can thiệp kịp thời.",
+    "words": 19
+   }
+  ]
+ },
+ {
+  "id": "1.18",
+  "act": 1,
   "kind": "LOI",
   "role": "H",
   "direction": "khép lại Hồi 1",
-  "text": "Chiếc máy ảnh kỹ thuật số nằm ngập trong nước tưởng chừng đã trở thành một đống phế liệu vô dụng. Thế nhưng, nó lại lưu giữ toàn bộ biên niên sử số về những giờ phút cuối cùng của Travis Alexander. Cuộc điều tra bước sang một bước ngoặt quyết định khi phòng thí nghiệm hình sự bắt đầu bóc tách từng mảnh ghép điện tử.",
+  "text": "Chiếc máy ảnh kỹ thuật số bị ngâm nước tưởng chừng đã trở thành một khối phế liệu vô dụng. Thế nhưng, nó lại lưu giữ toàn bộ chuỗi chứng cứ số về những giây phút sinh tử cuối cùng của Travis Alexander. Cuộc điều tra bước sang một ngã rẽ quyết định khi các chuyên gia công nghệ hình sự bắt đầu mở khóa từng vi mạch.",
   "sentences": [
    {
-    "id": "1.11#1",
-    "text": "Chiếc máy ảnh kỹ thuật số nằm ngập trong nước tưởng chừng đã trở thành một đống phế liệu vô dụng.",
-    "words": 21
+    "id": "1.18#1",
+    "text": "Chiếc máy ảnh kỹ thuật số bị ngâm nước tưởng chừng đã trở thành một khối phế liệu vô dụng.",
+    "words": 20
    },
    {
-    "id": "1.11#2",
-    "text": "Thế nhưng, nó lại lưu giữ toàn bộ biên niên sử số về những giờ phút cuối cùng của Travis Alexander.",
-    "words": 21
+    "id": "1.18#2",
+    "text": "Thế nhưng, nó lại lưu giữ toàn bộ chuỗi chứng cứ số về những giây phút sinh tử cuối cùng của Travis Alexander.",
+    "words": 23
    },
    {
-    "id": "1.11#3",
-    "text": "Cuộc điều tra bước sang một bước ngoặt quyết định khi phòng thí nghiệm hình sự bắt đầu bóc tách từng mảnh ghép điện tử.",
+    "id": "1.18#3",
+    "text": "Cuộc điều tra bước sang một ngã rẽ quyết định khi các chuyên gia công nghệ hình sự bắt đầu mở khóa từng vi mạch.",
     "words": 25
    }
   ]
  },
  {
-  "id": "1.12",
-  "act": 1,
-  "kind": "BGM",
-  "desc": "*Một nốt trầm ngân vang rồi ngắt quãng, tạo khoảng lặng đầy kịch tính trước khi bước sang Hồi 2.*"
- },
- {
   "id": "2.01",
   "act": 2,
   "kind": "BGM",
-  "desc": "*Âm thanh Dark Ambient nhịp đập điện tử dồn dập, tiếng máy móc phân tích dữ liệu hồi hộp và sắc lạnh.*"
+  "desc": "Nhạc Minimalist Drone sắc lạnh, nhịp gõ điện tử dồn dập như đồng hồ đếm ngược của ban chuyên án."
  },
  {
   "id": "2.02",
   "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "tiết tấu nhanh, cuốn hút",
-  "text": "Phòng thí nghiệm kỹ thuật hình sự thuộc Sở Cảnh sát Mesa đã tiếp nhận chiếc máy ảnh kỹ thuật số nhãn hiệu Sony Cyber-shot bị ngâm nước. Mặc dù bo mạch của chiếc máy ảnh đã bị chập cháy nghiêm trọng do nước, nhưng chiếc thẻ nhớ siêu nhỏ bên trong lại may mắn còn nguyên vẹn. Bằng các thuật toán trích xuất dữ liệu chuyên sâu, các chuyên viên pháp y số đã khôi phục thành công hàng chục bức ảnh vừa bị xóa thủ công.",
+  "direction": "tiết tấu nhanh, dồn dập",
+  "text": "Chiếc máy ảnh Sony Cyber-shot được chuyển khẩn cấp về phòng thí nghiệm pháp y kỹ thuật số của sở cảnh sát. Dù phần cứng bên ngoài đã chập mạch do nước ngấm, các kỹ thuật viên vẫn tiếp cận thành công khối bộ nhớ flash bên trong.",
   "sentences": [
    {
     "id": "2.02#1",
-    "text": "Phòng thí nghiệm kỹ thuật hình sự thuộc Sở Cảnh sát Mesa đã tiếp nhận chiếc máy ảnh kỹ thuật số nhãn hiệu Sony Cyber-shot bị ngâm nước.",
-    "words": 28
+    "text": "Chiếc máy ảnh Sony Cyber-shot được chuyển khẩn cấp về phòng thí nghiệm pháp y kỹ thuật số của sở cảnh sát.",
+    "words": 22
    },
    {
     "id": "2.02#2",
-    "text": "Mặc dù bo mạch của chiếc máy ảnh đã bị chập cháy nghiêm trọng do nước, nhưng chiếc thẻ nhớ siêu nhỏ bên trong lại may mắn còn nguyên vẹn.",
-    "words": 30
-   },
-   {
-    "id": "2.02#3",
-    "text": "Bằng các thuật toán trích xuất dữ liệu chuyên sâu, các chuyên viên pháp y số đã khôi phục thành công hàng chục bức ảnh vừa bị xóa thủ công.",
-    "words": 30
+    "text": "Dù phần cứng bên ngoài đã chập mạch do nước ngấm, các kỹ thuật viên vẫn tiếp cận thành công khối bộ nhớ flash bên trong.",
+    "words": 26
    }
   ]
  },
@@ -329,211 +370,240 @@
   "id": "2.03",
   "act": 2,
   "kind": "SFX",
-  "desc": "*Tiếng nhấp chuột máy tính liên thanh, tiếng bíp bíp phục hồi tập tin hình ảnh.*"
+  "desc": "Tiếng gõ phím cơ liên thanh, tiếng bíp bíp khôi phục tập tin hình ảnh."
  },
  {
   "id": "2.04",
   "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "giọng rùng mình, hé lộ bằng chứng kỹ thuật số chấn động",
-  "text": "Những hình ảnh phục hồi được đã khiến toàn bộ ban chuyên án phải rùng mình trước tính chân thực đến nghẹt thở của chúng. Loạt ảnh chụp vào chiều ngày 4 tháng 6 năm 2008 cho thấy Travis Alexander và Jodi Arias đang ở cùng nhau trong tư thế thân mật. Bức ảnh cuối cùng chụp Travis khi còn sống được ghi nhận vào lúc năm giờ hai mươi chín phút chiều, khi anh đang ngồi dưới vòi hoa sen. Chỉ vài phút sau đó, máy ảnh vô tình ghi lại những khung hình mờ nhòe, ghi lại cảnh tượng hỗn loạn và hình ảnh nạn nhân gục xuống sàn nhà. Thậm chí, một góc chụp vô tình còn ghi lại rõ ràng bàn chân và phần thân dưới của Jodi Arias ngay tại hiện trường. Chuỗi dấu vết kỹ thuật số không thể chối cãi này đã xác định chính xác thời điểm xảy ra vụ án và danh tính người có mặt duy nhất.",
+  "direction": "giọng căng thẳng, hé lộ bước ngoặt bằng chứng",
+  "text": "Hàng loạt bức ảnh bị xóa thủ công lần lượt được phục hồi và sắp xếp lại theo trình tự thời gian chính xác đến từng giây. Những bức ảnh chụp vào chiều ngày 4 tháng 6 năm 2008 cho thấy Travis Alexander và Jodi Arias ở cùng nhau trong căn nhà. Bức ảnh cuối cùng ghi lại hình ảnh Travis khi còn sống là lúc năm giờ hai mươi chín phút chiều trong buồng tắm. Và chỉ ít phút sau đó, máy ảnh vô tình chụp những khung hình hỗn loạn, để lộ hình ảnh của Jodi Arias ngay tại hiện trường.",
   "sentences": [
    {
     "id": "2.04#1",
-    "text": "Những hình ảnh phục hồi được đã khiến toàn bộ ban chuyên án phải rùng mình trước tính chân thực đến nghẹt thở của chúng.",
-    "words": 25
-   },
-   {
-    "id": "2.04#2",
-    "text": "Loạt ảnh chụp vào chiều ngày 4 tháng 6 năm 2008 cho thấy Travis Alexander và Jodi Arias đang ở cùng nhau trong tư thế thân mật.",
+    "text": "Hàng loạt bức ảnh bị xóa thủ công lần lượt được phục hồi và sắp xếp lại theo trình tự thời gian chính xác đến từng giây.",
     "words": 27
    },
    {
-    "id": "2.04#3",
-    "text": "Bức ảnh cuối cùng chụp Travis khi còn sống được ghi nhận vào lúc năm giờ hai mươi chín phút chiều, khi anh đang ngồi dưới vòi hoa sen.",
-    "words": 29
-   },
-   {
-    "id": "2.04#4",
-    "text": "Chỉ vài phút sau đó, máy ảnh vô tình ghi lại những khung hình mờ nhòe, ghi lại cảnh tượng hỗn loạn và hình ảnh nạn nhân gục xuống sàn nhà.",
-    "words": 31
-   },
-   {
-    "id": "2.04#5",
-    "text": "Thậm chí, một góc chụp vô tình còn ghi lại rõ ràng bàn chân và phần thân dưới của Jodi Arias ngay tại hiện trường.",
+    "id": "2.04#2",
+    "text": "Những bức ảnh chụp vào chiều ngày 4 tháng 6 năm 2008 cho thấy Travis Alexander và Jodi Arias ở cùng nhau trong căn nhà.",
     "words": 25
    },
    {
-    "id": "2.04#6",
-    "text": "Chuỗi dấu vết kỹ thuật số không thể chối cãi này đã xác định chính xác thời điểm xảy ra vụ án và danh tính người có mặt duy nhất.",
-    "words": 30
+    "id": "2.04#3",
+    "text": "Bức ảnh cuối cùng ghi lại hình ảnh Travis khi còn sống là lúc năm giờ hai mươi chín phút chiều trong buồng tắm.",
+    "words": 24
+   },
+   {
+    "id": "2.04#4",
+    "text": "Và chỉ ít phút sau đó, máy ảnh vô tình chụp những khung hình hỗn loạn, để lộ hình ảnh của Jodi Arias ngay tại hiện trường.",
+    "words": 27
    }
   ]
  },
  {
   "id": "2.05",
   "act": 2,
-  "kind": "SFX",
-  "desc": "*Tiếng gõ bàn phím cơ dồn dập, tiếng máy in hóa đơn chạy rè rè.*"
- },
- {
-  "id": "2.06",
-  "act": 2,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Bóc tách bằng chứng ngoại phạm và dấu vết ADN",
-  "text": "Cùng với dữ liệu máy ảnh, đội khám nghiệm còn phát hiện một dấu vân lòng bàn tay dính máu in trên bức tường hành lang dẫn vào phòng tắm. Kết quả giám định ADN sau đó khẳng định dấu vết này chứa sự pha trộn chính xác giữa máu của Travis Alexander và ADN của Jodi Arias. Chúng tôi lập tức lần theo lộ trình di chuyển của Jodi từ California sang Arizona vào đầu tháng 6 năm 2008. Hồ sơ thuê xe cho thấy cô ta đã thuê một chiếc Ford Focus màu trắng tại thành phố Redding vào ngày 2 tháng 6. Để tránh để lại dấu vết quẹt thẻ tín dụng tại các trạm xăng ở Arizona, Jodi đã mượn hai bình xăng loại năm gallon và mua thêm một bình dự trữ để mang theo xe.",
+  "direction": "giọng sắc bén, bóc tách thủ đoạn MO và dấu vết ngoại phạm",
+  "text": "Dữ liệu hình ảnh số đã loại bỏ hoàn toàn mọi khả năng có kẻ thứ ba hiện diện tại hiện trường vào thời điểm định mệnh đó. Cùng với máy ảnh, đội giám định phát hiện một dấu lòng bàn tay dính dấu vết sinh học trên bức tường hành lang gần phòng tắm. Kết quả đối chiếu ADN khẳng định đó là dấu vết hỗn hợp của cả Travis Alexander và nghi phạm Jodi Arias. Từ đây, các điều tra viên lần ngược hành trình di chuyển tinh vi của cô ta trong những ngày đầu tháng 6. Ngày 2 tháng 6 năm 2008, Jodi thuê một chiếc ô tô tại thành phố Redding, bang California. Cô ta mượn hai can đựng xăng từ bạn trai cũ và mua thêm một can xăng thứ ba tại một cửa hàng bán lẻ. Việc mang theo ba can xăng dự trữ giúp cô ta di chuyển hàng nghìn dặm qua sa mạc mà không cần quẹt thẻ tín dụng tại Arizona. Thủ đoạn gây án này chứng minh một sự toan tính ngoại phạm vô cùng lạnh lùng và bài bản từ trước khi xuất phát. Ngay trước chuyến đi, Jodi đã chủ động nhuộm tóc sang màu nâu sẫm để thay đổi nhận dạng bên ngoài. Trong suốt hành trình tiến vào Arizona, cô ta chủ động tắt nguồn điện thoại di động nhằm tránh bị định vị trạm thu phát sóng. Sau khi rời khỏi căn nhà ở Mesa vào chiều tối ngày 4 tháng 6, cô ta lập tức lái xe hướng về bang Utah. Tại thành phố Salt Lake, cô ta gặp gỡ một người đàn ông khác với nụ cười rạng rỡ như chưa từng có chuyện gì xảy ra. Cô ta còn để lại tin nhắn thoại ngọt ngào vào máy Travis nhằm tạo chứng cứ ngoại phạm giả mạo rằng mình đang tìm kiếm anh. Khi bạn bè phát hiện vụ việc, cô ta đóng vai một người bạn đau xót, liên tục gọi điện thăm dò tiến độ điều tra của cảnh sát. Toàn bộ chuỗi hành vi này thể hiện sự tách bạch lạnh lùng giữa kế hoạch hành động và cảm xúc biểu lộ bên ngoài. Đó không phải là một phản ứng hoảng loạn nhất thời, mà là một kịch bản ngụy tạo đã được suy tính kỹ lưỡng từng bước.",
   "sentences": [
    {
-    "id": "2.06#1",
-    "text": "Cùng với dữ liệu máy ảnh, đội khám nghiệm còn phát hiện một dấu vân lòng bàn tay dính máu in trên bức tường hành lang dẫn vào phòng tắm.",
-    "words": 30
-   },
-   {
-    "id": "2.06#2",
-    "text": "Kết quả giám định ADN sau đó khẳng định dấu vết này chứa sự pha trộn chính xác giữa máu của Travis Alexander và ADN của Jodi Arias.",
+    "id": "2.05#1",
+    "text": "Dữ liệu hình ảnh số đã loại bỏ hoàn toàn mọi khả năng có kẻ thứ ba hiện diện tại hiện trường vào thời điểm định mệnh đó.",
     "words": 28
    },
    {
-    "id": "2.06#3",
-    "text": "Chúng tôi lập tức lần theo lộ trình di chuyển của Jodi từ California sang Arizona vào đầu tháng 6 năm 2008.",
+    "id": "2.05#2",
+    "text": "Cùng với máy ảnh, đội giám định phát hiện một dấu lòng bàn tay dính dấu vết sinh học trên bức tường hành lang gần phòng tắm.",
+    "words": 27
+   },
+   {
+    "id": "2.05#3",
+    "text": "Kết quả đối chiếu ADN khẳng định đó là dấu vết hỗn hợp của cả Travis Alexander và nghi phạm Jodi Arias.",
     "words": 22
    },
    {
-    "id": "2.06#4",
-    "text": "Hồ sơ thuê xe cho thấy cô ta đã thuê một chiếc Ford Focus màu trắng tại thành phố Redding vào ngày 2 tháng 6.",
+    "id": "2.05#4",
+    "text": "Từ đây, các điều tra viên lần ngược hành trình di chuyển tinh vi của cô ta trong những ngày đầu tháng 6.",
+    "words": 23
+   },
+   {
+    "id": "2.05#5",
+    "text": "Ngày 2 tháng 6 năm 2008, Jodi thuê một chiếc ô tô tại thành phố Redding, bang California.",
+    "words": 18
+   },
+   {
+    "id": "2.05#6",
+    "text": "Cô ta mượn hai can đựng xăng từ bạn trai cũ và mua thêm một can xăng thứ ba tại một cửa hàng bán lẻ.",
     "words": 25
    },
    {
-    "id": "2.06#5",
-    "text": "Để tránh để lại dấu vết quẹt thẻ tín dụng tại các trạm xăng ở Arizona, Jodi đã mượn hai bình xăng loại năm gallon và mua thêm một bình dự trữ để mang theo xe.",
-    "words": 36
+    "id": "2.05#7",
+    "text": "Việc mang theo ba can xăng dự trữ giúp cô ta di chuyển hàng nghìn dặm qua sa mạc mà không cần quẹt thẻ tín dụng tại Arizona.",
+    "words": 28
+   },
+   {
+    "id": "2.05#8",
+    "text": "Thủ đoạn gây án này chứng minh một sự toan tính ngoại phạm vô cùng lạnh lùng và bài bản từ trước khi xuất phát.",
+    "words": 25
+   },
+   {
+    "id": "2.05#9",
+    "text": "Ngay trước chuyến đi, Jodi đã chủ động nhuộm tóc sang màu nâu sẫm để thay đổi nhận dạng bên ngoài.",
+    "words": 21
+   },
+   {
+    "id": "2.05#10",
+    "text": "Trong suốt hành trình tiến vào Arizona, cô ta chủ động tắt nguồn điện thoại di động nhằm tránh bị định vị trạm thu phát sóng.",
+    "words": 26
+   },
+   {
+    "id": "2.05#11",
+    "text": "Sau khi rời khỏi căn nhà ở Mesa vào chiều tối ngày 4 tháng 6, cô ta lập tức lái xe hướng về bang Utah.",
+    "words": 25
+   },
+   {
+    "id": "2.05#12",
+    "text": "Tại thành phố Salt Lake, cô ta gặp gỡ một người đàn ông khác với nụ cười rạng rỡ như chưa từng có chuyện gì xảy ra.",
+    "words": 27
+   },
+   {
+    "id": "2.05#13",
+    "text": "Cô ta còn để lại tin nhắn thoại ngọt ngào vào máy Travis nhằm tạo chứng cứ ngoại phạm giả mạo rằng mình đang tìm kiếm anh.",
+    "words": 27
+   },
+   {
+    "id": "2.05#14",
+    "text": "Khi bạn bè phát hiện vụ việc, cô ta đóng vai một người bạn đau xót, liên tục gọi điện thăm dò tiến độ điều tra của cảnh sát.",
+    "words": 29
+   },
+   {
+    "id": "2.05#15",
+    "text": "Toàn bộ chuỗi hành vi này thể hiện sự tách bạch lạnh lùng giữa kế hoạch hành động và cảm xúc biểu lộ bên ngoài.",
+    "words": 25
+   },
+   {
+    "id": "2.05#16",
+    "text": "Đó không phải là một phản ứng hoảng loạn nhất thời, mà là một kịch bản ngụy tạo đã được suy tính kỹ lưỡng từng bước.",
+    "words": 26
    }
   ]
  },
  {
+  "id": "2.06",
+  "act": 2,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
+ },
+ {
   "id": "2.07",
   "act": 2,
-  "kind": "SFX",
-  "desc": "*Tiếng lật mở hồ sơ giấy tờ dày cộp, tiếng cọt kẹt của cửa sắt phòng lưu trữ chứng cứ.*"
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng trầm lắng, phân tích chiều sâu hành vi",
+  "text": "Sự tương phản giữa toan tính ngoại phạm lạnh lùng và hành vi tại hiện trường đã phơi bày hai thái cực tâm lý đối lập. Một mặt, thủ đoạn di chuyển được ngụy trang tỉ mỉ nhằm đánh lừa các cơ quan thực thi pháp luật. Mặt khác, mức độ xâm phạm hiện trường lại mang tính chất bùng nổ, phá hủy vượt quá mọi nhu cầu tự vệ thông thường. Dấu ấn tâm lý cốt lõi ở đây chính là nhu cầu chụp lại những bức ảnh cuối cùng để thỏa mãn ảo tưởng kiểm soát tuyệt đối. Hung thủ đã nhìn nhận nạn nhân như một vật thể cảm xúc, một đối tượng bị sở hữu và định đoạt theo ý muốn cá nhân. Khi quyền kiểm soát độc tôn bị đe dọa tước bỏ, sự hủy diệt trở thành phương thức duy nhất để thiết lập lại cảm giác quyền lực. Chu kỳ ám ảnh ấy đã âm thầm tích tụ qua nhiều giai đoạn trước khi biến thành thảm kịch không thể cứu vãn.",
+  "sentences": [
+   {
+    "id": "2.07#1",
+    "text": "Sự tương phản giữa toan tính ngoại phạm lạnh lùng và hành vi tại hiện trường đã phơi bày hai thái cực tâm lý đối lập.",
+    "words": 26
+   },
+   {
+    "id": "2.07#2",
+    "text": "Một mặt, thủ đoạn di chuyển được ngụy trang tỉ mỉ nhằm đánh lừa các cơ quan thực thi pháp luật.",
+    "words": 21
+   },
+   {
+    "id": "2.07#3",
+    "text": "Mặt khác, mức độ xâm phạm hiện trường lại mang tính chất bùng nổ, phá hủy vượt quá mọi nhu cầu tự vệ thông thường.",
+    "words": 25
+   },
+   {
+    "id": "2.07#4",
+    "text": "Dấu ấn tâm lý cốt lõi ở đây chính là nhu cầu chụp lại những bức ảnh cuối cùng để thỏa mãn ảo tưởng kiểm soát tuyệt đối.",
+    "words": 28
+   },
+   {
+    "id": "2.07#5",
+    "text": "Hung thủ đã nhìn nhận nạn nhân như một vật thể cảm xúc, một đối tượng bị sở hữu và định đoạt theo ý muốn cá nhân.",
+    "words": 27
+   },
+   {
+    "id": "2.07#6",
+    "text": "Khi quyền kiểm soát độc tôn bị đe dọa tước bỏ, sự hủy diệt trở thành phương thức duy nhất để thiết lập lại cảm giác quyền lực.",
+    "words": 28
+   },
+   {
+    "id": "2.07#7",
+    "text": "Chu kỳ ám ảnh ấy đã âm thầm tích tụ qua nhiều giai đoạn trước khi biến thành thảm kịch không thể cứu vãn.",
+    "words": 24
+   }
+  ]
  },
  {
   "id": "2.08",
   "act": 2,
   "kind": "LOI",
-  "role": "H",
-  "direction": "chuyển giọng vạch trần thủ đoạn che giấu tội ác",
-  "text": "Việc chuẩn bị những bình xăng dự phòng cho thấy một sự tính toán đường đi nước bước cực kỳ tinh vi và lạnh lùng. Sau khi ra tay tại căn nhà ở Mesa, Jodi lái xe xuyên đêm vượt qua hàng trăm dặm lên bang Utah. Tại đó, cô ta thản nhiên gặp gỡ một người đàn ông khác như thể chưa từng có bất kỳ chuyện gì xảy ra. Trên đường tẩu thoát, cô ta liên tục gọi vào hộp thư thoại của Travis và để lại những lời nhắn hỏi thăm đầy ngọt ngào để tạo bằng chứng ngoại phạm giả tạo. Khi tin tức về cái chết của Travis được lan truyền, Jodi thậm chí còn gọi điện chia buồn với gia đình anh và gửi hoa viếng cho bà ngoại nạn nhân.",
+  "role": "D",
+  "direction": "giọng đanh thép, vạch trần lời nói dối",
+  "text": "Lời khai ban đầu của Jodi Arias trước điều tra viên là một lời phủ nhận hoàn toàn: cô ta khẳng định không hề đặt chân đến Arizona từ tháng 4 năm 2008. Nhưng khi đối diện với các bức ảnh được phục hồi từ thẻ nhớ máy giặt, lời nói dối ấy lập tức tan vỡ hoàn toàn. Cô ta vội vã thay đổi lời khai sang một kịch bản ly kỳ: rằng có hai kẻ lạ mặt đeo mặt nạ đột nhập khống chế hai người. Đội điều tra đã rà soát tỉ mỉ từng chi tiết hiện trường và xác định không hề có dấu vết của bất kỳ người thứ ba nào. Ngày 9 tháng 7 năm 2008, đại bồi thẩm đoàn Hạt Maricopa chính thức phê chuẩn bản cáo trạng truy tố Jodi Arias về tội Giết người cấp độ một. Ngày 15 tháng 7, cảnh sát thi hành lệnh bắt giữ cô ta tại nhà người thân ở bang California. Khi chiếc còng số tám tra vào tay, cô ta không hề biểu lộ sự hoảng loạn hay ân hận thường thấy ở một nghi phạm. Ánh mắt của cô ta dường như chỉ toát lên sự bất ngờ vì chiếc bẫy ngoại phạm hoàn hảo đã bị hóa giải. Một cuộc đấu trí cân não mới chính thức mở ra trong phòng hỏi cung của cơ quan điều tra.",
   "sentences": [
    {
     "id": "2.08#1",
-    "text": "Việc chuẩn bị những bình xăng dự phòng cho thấy một sự tính toán đường đi nước bước cực kỳ tinh vi và lạnh lùng.",
-    "words": 25
+    "text": "Lời khai ban đầu của Jodi Arias trước điều tra viên là một lời phủ nhận hoàn toàn: cô ta khẳng định không hề đặt chân đến Arizona từ tháng 4 năm 2008.",
+    "words": 33
    },
    {
     "id": "2.08#2",
-    "text": "Sau khi ra tay tại căn nhà ở Mesa, Jodi lái xe xuyên đêm vượt qua hàng trăm dặm lên bang Utah.",
-    "words": 22
-   },
-   {
-    "id": "2.08#3",
-    "text": "Tại đó, cô ta thản nhiên gặp gỡ một người đàn ông khác như thể chưa từng có bất kỳ chuyện gì xảy ra.",
-    "words": 24
-   },
-   {
-    "id": "2.08#4",
-    "text": "Trên đường tẩu thoát, cô ta liên tục gọi vào hộp thư thoại của Travis và để lại những lời nhắn hỏi thăm đầy ngọt ngào để tạo bằng chứng ngoại phạm giả tạo.",
-    "words": 34
-   },
-   {
-    "id": "2.08#5",
-    "text": "Khi tin tức về cái chết của Travis được lan truyền, Jodi thậm chí còn gọi điện chia buồn với gia đình anh và gửi hoa viếng cho bà ngoại nạn nhân.",
-    "words": 32
-   }
-  ]
- },
- {
-  "id": "2.09",
-  "act": 2,
-  "kind": "LOI",
-  "role": "D",
-  "direction": "D: Tái hiện cuộc thẩm vấn ban đầu",
-  "text": "Hành vi của Jodi Arias sau khi gây án thể hiện một mức độ kiểm soát cảm xúc và sự xảo quyệt hiếm thấy ở các nghi phạm thông thường. Cô ta nhuộm lại màu tóc từ vàng sang nâu sẫm chỉ vài ngày sau án mạng nhằm thay đổi nhận diện ngoại hình. Khi chúng tôi triệu tập lấy lời khai lần đầu, cô ta thề thốt rằng bản thân không hề đặt chân đến Arizona kể từ tháng 4 năm 2008. Nhưng khi chúng tôi đặt những bức ảnh phục hồi từ chiếc máy ảnh dưới đáy máy giặt lên bàn, ánh mắt của cô ta bắt đầu dao động dữ dội.",
-  "sentences": [
-   {
-    "id": "2.09#1",
-    "text": "Hành vi của Jodi Arias sau khi gây án thể hiện một mức độ kiểm soát cảm xúc và sự xảo quyệt hiếm thấy ở các nghi phạm thông thường.",
-    "words": 30
-   },
-   {
-    "id": "2.09#2",
-    "text": "Cô ta nhuộm lại màu tóc từ vàng sang nâu sẫm chỉ vài ngày sau án mạng nhằm thay đổi nhận diện ngoại hình.",
-    "words": 24
-   },
-   {
-    "id": "2.09#3",
-    "text": "Khi chúng tôi triệu tập lấy lời khai lần đầu, cô ta thề thốt rằng bản thân không hề đặt chân đến Arizona kể từ tháng 4 năm 2008.",
-    "words": 29
-   },
-   {
-    "id": "2.09#4",
-    "text": "Nhưng khi chúng tôi đặt những bức ảnh phục hồi từ chiếc máy ảnh dưới đáy máy giặt lên bàn, ánh mắt của cô ta bắt đầu dao động dữ dội.",
-    "words": 31
-   }
-  ]
- },
- {
-  "id": "2.10",
-  "act": 2,
-  "kind": "LOI",
-  "role": "H",
-  "direction": "khép lại Hồi 2",
-  "text": "Lời nói dối đầu tiên của Jodi Arias đã hoàn toàn sụp đổ trước những bằng chứng khoa học không thể chối cãi. Ngày 15 tháng 7 năm 2008, một bồi thẩm đoàn liên bang đã chính thức truy tố Jodi Arias về tội Giết người cấp độ một. Ngày hôm sau, cô ta bị bắt giữ tại nhà của ông bà ngoại ở bang California. Nhưng vụ án không hề khép lại ở đó mà chỉ mới bắt đầu bước vào một mê cung tâm lý phức tạp. Tại sao một phụ nữ trẻ có học thức, không hề có tiền án tiền sự, lại có thể thực hiện một hành vi cuồng bạo đến mức lạnh lùng như vậy? Câu trả lời nằm sâu trong những góc khuất bệnh lý của một cấu trúc nhân cách ranh giới đầy bất ổn.",
-  "sentences": [
-   {
-    "id": "2.10#1",
-    "text": "Lời nói dối đầu tiên của Jodi Arias đã hoàn toàn sụp đổ trước những bằng chứng khoa học không thể chối cãi.",
-    "words": 23
-   },
-   {
-    "id": "2.10#2",
-    "text": "Ngày 15 tháng 7 năm 2008, một bồi thẩm đoàn liên bang đã chính thức truy tố Jodi Arias về tội Giết người cấp độ một.",
+    "text": "Nhưng khi đối diện với các bức ảnh được phục hồi từ thẻ nhớ máy giặt, lời nói dối ấy lập tức tan vỡ hoàn toàn.",
     "words": 26
    },
    {
-    "id": "2.10#3",
-    "text": "Ngày hôm sau, cô ta bị bắt giữ tại nhà của ông bà ngoại ở bang California.",
-    "words": 17
+    "id": "2.08#3",
+    "text": "Cô ta vội vã thay đổi lời khai sang một kịch bản ly kỳ: rằng có hai kẻ lạ mặt đeo mặt nạ đột nhập khống chế hai người.",
+    "words": 29
    },
    {
-    "id": "2.10#4",
-    "text": "Nhưng vụ án không hề khép lại ở đó mà chỉ mới bắt đầu bước vào một mê cung tâm lý phức tạp.",
-    "words": 23
+    "id": "2.08#4",
+    "text": "Đội điều tra đã rà soát tỉ mỉ từng chi tiết hiện trường và xác định không hề có dấu vết của bất kỳ người thứ ba nào.",
+    "words": 28
    },
    {
-    "id": "2.10#5",
-    "text": "Tại sao một phụ nữ trẻ có học thức, không hề có tiền án tiền sự, lại có thể thực hiện một hành vi cuồng bạo đến mức lạnh lùng như vậy?",
-    "words": 32
+    "id": "2.08#5",
+    "text": "Ngày 9 tháng 7 năm 2008, đại bồi thẩm đoàn Hạt Maricopa chính thức phê chuẩn bản cáo trạng truy tố Jodi Arias về tội Giết người cấp độ một.",
+    "words": 30
    },
    {
-    "id": "2.10#6",
-    "text": "Câu trả lời nằm sâu trong những góc khuất bệnh lý của một cấu trúc nhân cách ranh giới đầy bất ổn.",
-    "words": 22
+    "id": "2.08#6",
+    "text": "Ngày 15 tháng 7, cảnh sát thi hành lệnh bắt giữ cô ta tại nhà người thân ở bang California.",
+    "words": 20
+   },
+   {
+    "id": "2.08#7",
+    "text": "Khi chiếc còng số tám tra vào tay, cô ta không hề biểu lộ sự hoảng loạn hay ân hận thường thấy ở một nghi phạm.",
+    "words": 26
+   },
+   {
+    "id": "2.08#8",
+    "text": "Ánh mắt của cô ta dường như chỉ toát lên sự bất ngờ vì chiếc bẫy ngoại phạm hoàn hảo đã bị hóa giải.",
+    "words": 24
+   },
+   {
+    "id": "2.08#9",
+    "text": "Một cuộc đấu trí cân não mới chính thức mở ra trong phòng hỏi cung của cơ quan điều tra.",
+    "words": 20
    }
   ]
- },
- {
-  "id": "2.11",
-  "act": 2,
-  "kind": "BGM",
-  "desc": "*Âm thanh điện tử chìm dần, mở ra không gian sâu lắng cho phần giải mã tâm lý.*"
  },
  {
   "id": "3.01",
   "act": 3,
   "kind": "BGM",
-  "desc": "*Tiếng đàn Dương cầm tối giản (Minimalist Piano) hòa cùng tiếng Ambient sâu thẳm, tạo không khí học thuật và phân tích chuyên sâu.*"
+  "desc": "Nhạc Dương cầm tối giản (Minimalist Piano) hòa quyện Sub-drone u tối, trầm mặc, giàu tính học thuật."
  },
  {
   "id": "3.02",
@@ -541,97 +611,49 @@
   "kind": "LOI",
   "role": "H",
   "direction": "chậm rãi, mang tính dẫn nhập chuyên môn",
-  "text": "Để hiểu được động cơ thực sự đằng sau thảm kịch Travis Alexander, các nhà điều tra và chuyên gia tâm lý học pháp y đã phải bóc tách toàn bộ lịch sử tâm thần của Jodi Arias. Tại phiên tòa, cơ quan công tố đã mời Tiến sĩ Janeen DeMarte, một chuyên gia tâm lý học lâm sàng hàng đầu, đến giám định trực tiếp tình trạng của bị cáo. Sau hàng chục giờ đánh giá chuyên sâu và xem xét toàn bộ hồ sơ, bức màn che đậy nhân cách của Jodi Arias đã được vén lên. Đó không phải là một phản ứng tự vệ trong hoảng loạn, mà là biểu hiện điển hình của Rối loạn nhân cách ranh giới, hay còn gọi là BPD.",
+  "text": "Để giải mã động cơ thực sự đằng sau hành vi của Jodi Arias, tòa án đã lắng nghe các đánh giá tâm lý học pháp y chuyên sâu. Tiến sĩ tâm lý học lâm sàng Janeen DeMarte, nhân chứng chuyên môn của công tố, đã phác thảo nên cấu trúc nhân cách phức tạp của bị cáo.",
   "sentences": [
    {
     "id": "3.02#1",
-    "text": "Để hiểu được động cơ thực sự đằng sau thảm kịch Travis Alexander, các nhà điều tra và chuyên gia tâm lý học pháp y đã phải bóc tách toàn bộ lịch sử tâm thần của Jodi Arias.",
-    "words": 38
+    "text": "Để giải mã động cơ thực sự đằng sau hành vi của Jodi Arias, tòa án đã lắng nghe các đánh giá tâm lý học pháp y chuyên sâu.",
+    "words": 29
    },
    {
     "id": "3.02#2",
-    "text": "Tại phiên tòa, cơ quan công tố đã mời Tiến sĩ Janeen DeMarte, một chuyên gia tâm lý học lâm sàng hàng đầu, đến giám định trực tiếp tình trạng của bị cáo.",
-    "words": 33
-   },
-   {
-    "id": "3.02#3",
-    "text": "Sau hàng chục giờ đánh giá chuyên sâu và xem xét toàn bộ hồ sơ, bức màn che đậy nhân cách của Jodi Arias đã được vén lên.",
-    "words": 28
-   },
-   {
-    "id": "3.02#4",
-    "text": "Đó không phải là một phản ứng tự vệ trong hoảng loạn, mà là biểu hiện điển hình của Rối loạn nhân cách ranh giới, hay còn gọi là BPD.",
-    "words": 30
+    "text": "Tiến sĩ tâm lý học lâm sàng Janeen DeMarte, nhân chứng chuyên môn của công tố, đã phác thảo nên cấu trúc nhân cách phức tạp của bị cáo.",
+    "words": 29
    }
   ]
  },
  {
   "id": "3.03",
   "act": 3,
-  "kind": "LOI",
-  "role": "C",
-  "direction": "C: TS. Janeen DeMarte / Tâm lý học pháp y, giọng nữ điềm đạm, mạch lạc",
-  "text": "Rối loạn nhân cách ranh giới là một dạng rối loạn tâm lý đặc trưng bởi sự bất ổn sâu sắc trong các mối quan hệ, hình ảnh bản thân và cảm xúc. Trục cốt lõi chi phối toàn bộ hành vi của người mắc BPD chính là một nỗi sợ hãi tột cùng trước nguy cơ bị ruồng bỏ, dù là có thật hay do chính họ tưởng tượng ra. Để trốn tránh cảm giác bị bỏ rơi, họ sẵn sàng thực hiện những nỗ lực điên cuồng và tuyệt vọng nhằm níu kéo hoặc kiểm soát đối phương. Một cơ chế tâm lý kinh điển khác ở Jodi Arias là hiện tượng Phân tách nhân cách, hay còn gọi là cơ chế Splitting. Trong mắt người mắc hội chứng này, thế giới chỉ tồn tại hai thái cực tuyệt đối: hoặc là hoàn hảo không tì vết, hoặc là hoàn toàn xấu xa và đáng bị tiêu diệt. Ban đầu, Jodi lý tưởng hóa Travis như một vị thần cứu rỗi cuộc đời mình, tôn sùng anh đến mức sẵn sàng cải đạo và thay đổi toàn bộ lối sống. Nhưng ngay khi Travis muốn vạch ra ranh giới và chuẩn bị bước vào một mối quan hệ mới, anh lập tức bị hạ bệ thành kẻ thù tồi tệ nhất.",
-  "sentences": [
-   {
-    "id": "3.03#1",
-    "text": "Rối loạn nhân cách ranh giới là một dạng rối loạn tâm lý đặc trưng bởi sự bất ổn sâu sắc trong các mối quan hệ, hình ảnh bản thân và cảm xúc.",
-    "words": 33
-   },
-   {
-    "id": "3.03#2",
-    "text": "Trục cốt lõi chi phối toàn bộ hành vi của người mắc BPD chính là một nỗi sợ hãi tột cùng trước nguy cơ bị ruồng bỏ, dù là có thật hay do chính họ tưởng tượng ra.",
-    "words": 38
-   },
-   {
-    "id": "3.03#3",
-    "text": "Để trốn tránh cảm giác bị bỏ rơi, họ sẵn sàng thực hiện những nỗ lực điên cuồng và tuyệt vọng nhằm níu kéo hoặc kiểm soát đối phương.",
-    "words": 29
-   },
-   {
-    "id": "3.03#4",
-    "text": "Một cơ chế tâm lý kinh điển khác ở Jodi Arias là hiện tượng Phân tách nhân cách, hay còn gọi là cơ chế Splitting.",
-    "words": 25
-   },
-   {
-    "id": "3.03#5",
-    "text": "Trong mắt người mắc hội chứng này, thế giới chỉ tồn tại hai thái cực tuyệt đối: hoặc là hoàn hảo không tì vết, hoặc là hoàn toàn xấu xa và đáng bị tiêu diệt.",
-    "words": 35
-   },
-   {
-    "id": "3.03#6",
-    "text": "Ban đầu, Jodi lý tưởng hóa Travis như một vị thần cứu rỗi cuộc đời mình, tôn sùng anh đến mức sẵn sàng cải đạo và thay đổi toàn bộ lối sống.",
-    "words": 32
-   },
-   {
-    "id": "3.03#7",
-    "text": "Nhưng ngay khi Travis muốn vạch ra ranh giới và chuẩn bị bước vào một mối quan hệ mới, anh lập tức bị hạ bệ thành kẻ thù tồi tệ nhất.",
-    "words": 31
-   }
-  ]
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": ""
  },
  {
   "id": "3.04",
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "tiếp nối phân tích về căn tính cá nhân",
-  "text": "Tiến sĩ DeMarte cũng chỉ ra một hiện tượng tâm lý rất phổ biến ở những người mắc BPD nặng: Hiệu ứng tắc kè hoa. Jodi Arias hoàn toàn không có một căn tính cá nhân độc lập và vững chắc. Cô ta luôn vay mượn sở thích, phong cách ăn mặc, tôn giáo và thậm chí cả quan điểm sống của người đàn ông mà cô ta đang theo đuổi.",
+  "direction": "tiếp nối mạch học thuật",
+  "text": "Kết luận giám định cho thấy Jodi Arias mang những đặc điểm điển hình của Rối loạn nhân cách ranh giới kết hợp nét Ái kỷ ác tính. Đây không phải là một bệnh lý làm mất khả năng nhận thức, mà là một cấu trúc nhân cách lệch lạc sâu sắc trong tư duy và cảm xúc. Hãy cùng lắng nghe Chuyên gia tâm lý mổ xẻ những cơ chế vô thức đã dẫn đường cho tội ác này.",
   "sentences": [
    {
     "id": "3.04#1",
-    "text": "Tiến sĩ DeMarte cũng chỉ ra một hiện tượng tâm lý rất phổ biến ở những người mắc BPD nặng: Hiệu ứng tắc kè hoa.",
-    "words": 25
+    "text": "Kết luận giám định cho thấy Jodi Arias mang những đặc điểm điển hình của Rối loạn nhân cách ranh giới kết hợp nét Ái kỷ ác tính.",
+    "words": 28
    },
    {
     "id": "3.04#2",
-    "text": "Jodi Arias hoàn toàn không có một căn tính cá nhân độc lập và vững chắc.",
-    "words": 16
+    "text": "Đây không phải là một bệnh lý làm mất khả năng nhận thức, mà là một cấu trúc nhân cách lệch lạc sâu sắc trong tư duy và cảm xúc.",
+    "words": 30
    },
    {
     "id": "3.04#3",
-    "text": "Cô ta luôn vay mượn sở thích, phong cách ăn mặc, tôn giáo và thậm chí cả quan điểm sống của người đàn ông mà cô ta đang theo đuổi.",
-    "words": 30
+    "text": "Hãy cùng lắng nghe Chuyên gia tâm lý mổ xẻ những cơ chế vô thức đã dẫn đường cho tội ác này.",
+    "words": 22
    }
   ]
  },
@@ -640,103 +662,80 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: Bóc tách sự bùng nổ của Cơn cuồng nộ ranh giới",
-  "text": "Khi một người không có bản sắc riêng, việc đánh mất đối phương đồng nghĩa với việc toàn bộ sự tồn tại của họ bị xóa sổ. Sự từ chối của Travis đối với Jodi không đơn thuần là một lời chia tay, mà là một tổn thương hủy diệt giáng thẳng vào bản ngã mỏng manh của cô ta. Khi phát hiện Travis chuẩn bị đưa một người phụ nữ khác đến khu nghỉ dưỡng Cancun, nỗi sợ bị ruồng bỏ đã kích hoạt một cơn thịnh nộ bộc phát cực đoan. Cơn thịnh nộ này trong tâm lý học được gọi là Cơn cuồng nộ ranh giới, nơi lý trí hoàn toàn bị nuốt chửng bởi cảm xúc thù hận. Đối với bộ não của Jodi lúc ấy, nếu cô ta không thể sở hữu Travis trọn vẹn, thì không một ai khác trên đời này có quyền có được anh. Hành vi ra tay nhiều lần và dồn dập tại hiện trường chính là sự phóng chiếu vật lý của cơn thịnh nộ bị dồn nén đến mức mất nhân tính. Đó là một hành động mang tính trừng phạt tột cùng đối với người dám từ chối sự kiểm soát của cô ta.",
+  "direction": "giọng nữ điềm đạm, học thuật, phân tích sắc bén",
+  "text": "Rối loạn nhân cách ranh giới đặc trưng bởi sự bất ổn cùng cực trong hình ảnh bản thân, cảm xúc và các mối quan hệ liên cá nhân. Trọng tâm chi phối toàn bộ hành vi của người mang nét tính cách này là nỗi sợ hãi tột cùng trước nguy cơ bị ruồng bỏ, dù là có thật hay do tưởng tượng. Đối với họ, việc bị đối phương từ chối không đơn thuần là sự kết thúc tình cảm, mà được cảm nhận như sự sụp đổ của chính bản ngã. Để đối phó với nỗi đau đớn ấy, họ kích hoạt cơ chế phòng vệ nguyên thủy mang tên Phân tách, hay Splitting. Thế giới trong mắt họ bị phân cực thành hai thái cực tuyệt đối: hoặc hoàn hảo không tì vết, hoặc hoàn toàn xấu xa và đáng bị trừng phạt. Trong giai đoạn đầu quen biết, Jodi lý tưởng hóa Travis như một vị cứu tinh, thúc đẩy Hiệu ứng Tắc kè hoa: cô ta cải đạo, đổi lối sống để hòa tan vào anh. Sự hòa tan nhân cách này nhằm bù đắp cho lỗ hổng căn tính trống rỗng bên trong cô ta. Tuy nhiên, khi Travis bắt đầu vạch ra ranh giới dứt khoát và chuẩn bị cho chuyến đi Cancun cùng người phụ nữ khác, cơ chế phân tách lập tức đảo chiều. Ngòi nổ tâm lý bị kích hoạt: Travis từ “vị thần hoàn hảo” đột ngột biến thành “kẻ phản bội xấu xa” trong nhận thức của cô ta. Sự sụp đổ của ảo tưởng sở hữu đã phóng thích một nguồn năng lượng hủy diệt cực đoan mang tên Cơn cuồng nộ ranh giới.",
   "sentences": [
    {
     "id": "3.05#1",
-    "text": "Khi một người không có bản sắc riêng, việc đánh mất đối phương đồng nghĩa với việc toàn bộ sự tồn tại của họ bị xóa sổ.",
-    "words": 27
-   },
-   {
-    "id": "3.05#2",
-    "text": "Sự từ chối của Travis đối với Jodi không đơn thuần là một lời chia tay, mà là một tổn thương hủy diệt giáng thẳng vào bản ngã mỏng manh của cô ta.",
-    "words": 33
-   },
-   {
-    "id": "3.05#3",
-    "text": "Khi phát hiện Travis chuẩn bị đưa một người phụ nữ khác đến khu nghỉ dưỡng Cancun, nỗi sợ bị ruồng bỏ đã kích hoạt một cơn thịnh nộ bộc phát cực đoan.",
-    "words": 33
-   },
-   {
-    "id": "3.05#4",
-    "text": "Cơn thịnh nộ này trong tâm lý học được gọi là Cơn cuồng nộ ranh giới, nơi lý trí hoàn toàn bị nuốt chửng bởi cảm xúc thù hận.",
+    "text": "Rối loạn nhân cách ranh giới đặc trưng bởi sự bất ổn cùng cực trong hình ảnh bản thân, cảm xúc và các mối quan hệ liên cá nhân.",
     "words": 29
    },
    {
+    "id": "3.05#2",
+    "text": "Trọng tâm chi phối toàn bộ hành vi của người mang nét tính cách này là nỗi sợ hãi tột cùng trước nguy cơ bị ruồng bỏ, dù là có thật hay do tưởng tượng.",
+    "words": 35
+   },
+   {
+    "id": "3.05#3",
+    "text": "Đối với họ, việc bị đối phương từ chối không đơn thuần là sự kết thúc tình cảm, mà được cảm nhận như sự sụp đổ của chính bản ngã.",
+    "words": 30
+   },
+   {
+    "id": "3.05#4",
+    "text": "Để đối phó với nỗi đau đớn ấy, họ kích hoạt cơ chế phòng vệ nguyên thủy mang tên Phân tách, hay Splitting.",
+    "words": 23
+   },
+   {
     "id": "3.05#5",
-    "text": "Đối với bộ não của Jodi lúc ấy, nếu cô ta không thể sở hữu Travis trọn vẹn, thì không một ai khác trên đời này có quyền có được anh.",
-    "words": 31
+    "text": "Thế giới trong mắt họ bị phân cực thành hai thái cực tuyệt đối: hoặc hoàn hảo không tì vết, hoặc hoàn toàn xấu xa và đáng bị trừng phạt.",
+    "words": 30
    },
    {
     "id": "3.05#6",
-    "text": "Hành vi ra tay nhiều lần và dồn dập tại hiện trường chính là sự phóng chiếu vật lý của cơn thịnh nộ bị dồn nén đến mức mất nhân tính.",
-    "words": 31
+    "text": "Trong giai đoạn đầu quen biết, Jodi lý tưởng hóa Travis như một vị cứu tinh, thúc đẩy Hiệu ứng Tắc kè hoa: cô ta cải đạo, đổi lối sống để hòa tan vào anh.",
+    "words": 35
    },
    {
     "id": "3.05#7",
-    "text": "Đó là một hành động mang tính trừng phạt tột cùng đối với người dám từ chối sự kiểm soát của cô ta.",
-    "words": 23
+    "text": "Sự hòa tan nhân cách này nhằm bù đắp cho lỗ hổng căn tính trống rỗng bên trong cô ta.",
+    "words": 20
+   },
+   {
+    "id": "3.05#8",
+    "text": "Tuy nhiên, khi Travis bắt đầu vạch ra ranh giới dứt khoát và chuẩn bị cho chuyến đi Cancun cùng người phụ nữ khác, cơ chế phân tách lập tức đảo chiều.",
+    "words": 32
+   },
+   {
+    "id": "3.05#9",
+    "text": "Ngòi nổ tâm lý bị kích hoạt: Travis từ “vị thần hoàn hảo” đột ngột biến thành “kẻ phản bội xấu xa” trong nhận thức của cô ta.",
+    "words": 28
+   },
+   {
+    "id": "3.05#10",
+    "text": "Sự sụp đổ của ảo tưởng sở hữu đã phóng thích một nguồn năng lượng hủy diệt cực đoan mang tên Cơn cuồng nộ ranh giới.",
+    "words": 26
    }
   ]
  },
  {
   "id": "3.06",
   "act": 3,
-  "kind": "LOI",
-  "role": "H",
-  "direction": "nhấn mạnh sự pha trộn giữa BPD và tính ái kỷ",
-  "text": "Không chỉ dừng lại ở cơn giận dữ bộc phát, Jodi Arias còn kết hợp với những nét nhân cách ái kỷ và khả năng nói dối bệnh lý. Điều này giải thích tại sao cô ta có thể nhanh chóng chuyển đổi trạng thái từ một kẻ cuồng bạo sang một diễn viên hoàn hảo chỉ trong tích tắc.",
-  "sentences": [
-   {
-    "id": "3.06#1",
-    "text": "Không chỉ dừng lại ở cơn giận dữ bộc phát, Jodi Arias còn kết hợp với những nét nhân cách ái kỷ và khả năng nói dối bệnh lý.",
-    "words": 29
-   },
-   {
-    "id": "3.06#2",
-    "text": "Điều này giải thích tại sao cô ta có thể nhanh chóng chuyển đổi trạng thái từ một kẻ cuồng bạo sang một diễn viên hoàn hảo chỉ trong tích tắc.",
-    "words": 31
-   }
-  ]
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
  },
  {
   "id": "3.07",
   "act": 3,
   "kind": "LOI",
-  "role": "C",
-  "direction": "C: Cơ chế ngụy tạo nạn nhân và thao túng dư luận",
-  "text": "Những người mắc BPD kết hợp với nét tính cách ái kỷ thường có khả năng thao túng tâm lý người khác một cách phi thường. Họ luôn tự nhận mình là nạn nhân tối hậu trong mọi hoàn cảnh, ngay cả khi chính họ là kẻ gây ra tội ác tày trời. Cơ chế phòng vệ tự nhiên của họ sẽ tự động bóp méo ký ức và viết lại lịch sử để bảo vệ sự trong sạch giả tạo của bản thân. Jodi Arias không hề cảm thấy tội lỗi thực sự đối với nỗi đau của nạn nhân hay gia đình anh ấy. Mối quan tâm duy nhất của cô ta luôn là hình ảnh của chính mình trong mắt công chúng và cách thức để thoát khỏi sự trừng phạt. Đây chính là lý do khiến thái độ của cô ta trong phòng hỏi cung và tại phiên tòa trở nên kỳ quặc và gây phẫn nộ đến như vậy.",
+  "role": "H",
+  "direction": "chuyển tiếp ngắn gọn",
+  "text": "Cơn cuồng nộ ấy không chỉ là cảm xúc bột phát, mà được tiếp sức bởi một hệ thống tự bào chữa tinh vi nhằm bảo vệ cái tôi ái kỷ.",
   "sentences": [
    {
     "id": "3.07#1",
-    "text": "Những người mắc BPD kết hợp với nét tính cách ái kỷ thường có khả năng thao túng tâm lý người khác một cách phi thường.",
-    "words": 26
-   },
-   {
-    "id": "3.07#2",
-    "text": "Họ luôn tự nhận mình là nạn nhân tối hậu trong mọi hoàn cảnh, ngay cả khi chính họ là kẻ gây ra tội ác tày trời.",
-    "words": 27
-   },
-   {
-    "id": "3.07#3",
-    "text": "Cơ chế phòng vệ tự nhiên của họ sẽ tự động bóp méo ký ức và viết lại lịch sử để bảo vệ sự trong sạch giả tạo của bản thân.",
+    "text": "Cơn cuồng nộ ấy không chỉ là cảm xúc bột phát, mà được tiếp sức bởi một hệ thống tự bào chữa tinh vi nhằm bảo vệ cái tôi ái kỷ.",
     "words": 31
-   },
-   {
-    "id": "3.07#4",
-    "text": "Jodi Arias không hề cảm thấy tội lỗi thực sự đối với nỗi đau của nạn nhân hay gia đình anh ấy.",
-    "words": 22
-   },
-   {
-    "id": "3.07#5",
-    "text": "Mối quan tâm duy nhất của cô ta luôn là hình ảnh của chính mình trong mắt công chúng và cách thức để thoát khỏi sự trừng phạt.",
-    "words": 28
-   },
-   {
-    "id": "3.07#6",
-    "text": "Đây chính là lý do khiến thái độ của cô ta trong phòng hỏi cung và tại phiên tòa trở nên kỳ quặc và gây phẫn nộ đến như vậy.",
-    "words": 30
    }
   ]
  },
@@ -744,274 +743,381 @@
   "id": "3.08",
   "act": 3,
   "kind": "LOI",
-  "role": "H",
-  "direction": "khép lại Hồi 3",
-  "text": "Khi cơ quan điều tra đưa Jodi Arias vào phòng thẩm vấn, bộ mặt thật của kẻ thao túng bắt đầu lộ diện rõ nét nhất. Những thước phim ghi lại trong phòng hỏi cung đã trở thành tư liệu kinh điển về tâm lý học hành vi tội phạm. Cuộc đấu trí giữa người thực thi pháp luật và nữ sát nhân ái kỷ chính thức bước vào giai đoạn kịch tính nhất.",
+  "role": "C",
+  "direction": "phân tích cơ chế trung hòa đạo đức và chia ngăn",
+  "text": "Lý thuyết Kỹ thuật Trung hòa Đạo đức giúp chúng ta giải thích cách Jodi Arias vô hiệu hóa lương tri để ra tay và sau đó ngủ yên. Ban đầu là kỹ thuật phủ nhận trách nhiệm: cô ta tự ru ngủ rằng mình chỉ là một người phụ nữ bị tổn thương và bị lừa dối tình cảm. Tiếp theo là kỹ thuật đổ lỗi cho nạn nhân: cô ta tự thuyết phục rằng chính Travis đã ép cô ta vào bước đường cùng vì dám từ chối cô ta. Khi bước ra trước tòa án, cô ta ngụy tạo nên một câu chuyện bạo hành hoang đường để chuyển hóa bản thân từ kẻ săn mồi thành người tự vệ. Cơ chế Chia ngăn tâm lý đã phân tách nhận thức của cô ta thành những ngăn kéo hoàn toàn độc lập. Ngăn kéo thứ nhất là người cháu gái hiền lành sống cùng ông bà tại California và người bạn gái ngọt ngào của Darryl Brewer. Ngăn kéo thứ hai là kẻ tính toán lạnh lùng chuẩn bị ba can xăng dự trữ và bám theo từng bước chân của nạn nhân. Hai ngăn kéo này vận hành song song mà không hề gây ra sự cắn rứt nội tâm, cho phép cô ta vui vẻ gặp gỡ người đàn ông khác tại Utah ngay sau vụ việc. Trong các bài đánh giá tâm lý học, Jodi thể hiện sự thiếu hụt hoàn toàn về Thuyết tâm trí và lòng trắc ẩn đối với nỗi đau của người khác. Đối với cô ta, những người xung quanh chỉ tồn tại như những quân cờ phục vụ cho nhu cầu cung ứng ái kỷ của bản thân. Khi một quân cờ dám tự ý rời khỏi bàn cờ định sẵn, sự trừng phạt tàn nhẫn được xem như một hành vi lập lại trật tự kiểm soát. Đây chính là sự kết hợp độc hại giữa xung động ranh giới bất ổn và sự toan tính lạnh lùng của ái kỷ ác tính. Một nhân cách không bao giờ chấp nhận thất bại và sẵn sàng thiêu rụi tất cả để bảo toàn sự thống trị cá nhân.",
   "sentences": [
    {
     "id": "3.08#1",
-    "text": "Khi cơ quan điều tra đưa Jodi Arias vào phòng thẩm vấn, bộ mặt thật của kẻ thao túng bắt đầu lộ diện rõ nét nhất.",
-    "words": 26
+    "text": "Lý thuyết Kỹ thuật Trung hòa Đạo đức giúp chúng ta giải thích cách Jodi Arias vô hiệu hóa lương tri để ra tay và sau đó ngủ yên.",
+    "words": 29
    },
    {
     "id": "3.08#2",
-    "text": "Những thước phim ghi lại trong phòng hỏi cung đã trở thành tư liệu kinh điển về tâm lý học hành vi tội phạm.",
-    "words": 24
+    "text": "Ban đầu là kỹ thuật phủ nhận trách nhiệm: cô ta tự ru ngủ rằng mình chỉ là một người phụ nữ bị tổn thương và bị lừa dối tình cảm.",
+    "words": 31
    },
    {
     "id": "3.08#3",
-    "text": "Cuộc đấu trí giữa người thực thi pháp luật và nữ sát nhân ái kỷ chính thức bước vào giai đoạn kịch tính nhất.",
-    "words": 24
+    "text": "Tiếp theo là kỹ thuật đổ lỗi cho nạn nhân: cô ta tự thuyết phục rằng chính Travis đã ép cô ta vào bước đường cùng vì dám từ chối cô ta.",
+    "words": 32
+   },
+   {
+    "id": "3.08#4",
+    "text": "Khi bước ra trước tòa án, cô ta ngụy tạo nên một câu chuyện bạo hành hoang đường để chuyển hóa bản thân từ kẻ săn mồi thành người tự vệ.",
+    "words": 31
+   },
+   {
+    "id": "3.08#5",
+    "text": "Cơ chế Chia ngăn tâm lý đã phân tách nhận thức của cô ta thành những ngăn kéo hoàn toàn độc lập.",
+    "words": 22
+   },
+   {
+    "id": "3.08#6",
+    "text": "Ngăn kéo thứ nhất là người cháu gái hiền lành sống cùng ông bà tại California và người bạn gái ngọt ngào của Darryl Brewer.",
+    "words": 25
+   },
+   {
+    "id": "3.08#7",
+    "text": "Ngăn kéo thứ hai là kẻ tính toán lạnh lùng chuẩn bị ba can xăng dự trữ và bám theo từng bước chân của nạn nhân.",
+    "words": 26
+   },
+   {
+    "id": "3.08#8",
+    "text": "Hai ngăn kéo này vận hành song song mà không hề gây ra sự cắn rứt nội tâm, cho phép cô ta vui vẻ gặp gỡ người đàn ông khác tại Utah ngay sau vụ việc.",
+    "words": 36
+   },
+   {
+    "id": "3.08#9",
+    "text": "Trong các bài đánh giá tâm lý học, Jodi thể hiện sự thiếu hụt hoàn toàn về Thuyết tâm trí và lòng trắc ẩn đối với nỗi đau của người khác.",
+    "words": 31
+   },
+   {
+    "id": "3.08#10",
+    "text": "Đối với cô ta, những người xung quanh chỉ tồn tại như những quân cờ phục vụ cho nhu cầu cung ứng ái kỷ của bản thân.",
+    "words": 27
+   },
+   {
+    "id": "3.08#11",
+    "text": "Khi một quân cờ dám tự ý rời khỏi bàn cờ định sẵn, sự trừng phạt tàn nhẫn được xem như một hành vi lập lại trật tự kiểm soát.",
+    "words": 30
+   },
+   {
+    "id": "3.08#12",
+    "text": "Đây chính là sự kết hợp độc hại giữa xung động ranh giới bất ổn và sự toan tính lạnh lùng của ái kỷ ác tính.",
+    "words": 26
+   },
+   {
+    "id": "3.08#13",
+    "text": "Một nhân cách không bao giờ chấp nhận thất bại và sẵn sàng thiêu rụi tất cả để bảo toàn sự thống trị cá nhân.",
+    "words": 25
    }
   ]
  },
  {
   "id": "3.09",
   "act": 3,
-  "kind": "BGM",
-  "desc": "*Giai điệu dương cầm chìm xuống, nhường chỗ cho nhịp tim đập ngột ngạt của phòng thẩm vấn.*"
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": ""
+ },
+ {
+  "id": "3.10",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "dẫn vào hành vi phòng thẩm vấn",
+  "text": "Khi chiếc mặt nạ ngụy tạo dần bị các phân tích khoa học bóc trần, phòng thẩm vấn cảnh sát trở thành sàn diễn tiếp theo của Jodi Arias. Nơi đây đã ghi lại những khoảnh khắc hành vi kỳ dị bậc nhất trong lịch sử điều tra tội phạm hiện đại.",
+  "sentences": [
+   {
+    "id": "3.10#1",
+    "text": "Khi chiếc mặt nạ ngụy tạo dần bị các phân tích khoa học bóc trần, phòng thẩm vấn cảnh sát trở thành sàn diễn tiếp theo của Jodi Arias.",
+    "words": 29
+   },
+   {
+    "id": "3.10#2",
+    "text": "Nơi đây đã ghi lại những khoảnh khắc hành vi kỳ dị bậc nhất trong lịch sử điều tra tội phạm hiện đại.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "3.11",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "mổ xẻ hành vi kỳ quặc và thao túng dư luận",
+  "text": "Sự kết hợp giữa nét tính cách ranh giới và ái kỷ khiến Jodi luôn khao khát trở thành tâm điểm của sự chú ý từ công chúng. Ngay cả khi bị giam giữ trong bốn bức tường ngột ngạt, cô ta vẫn xem phòng thẩm vấn như một sân khấu trình diễn cá nhân. Khả năng chuyển đổi biểu cảm trong chớp mắt phản ánh cơ chế thao túng tâm lý sâu rễ bền gốc trong nhân cách. Cô ta liên tục quan sát phản ứng của điều tra viên để điều chỉnh câu chuyện cho phù hợp với kỳ vọng của đối phương. Đó là nỗ lực thao túng nhận thức tột cùng của một kẻ từ chối chấp nhận thực tế rằng quyền kiểm soát đã hoàn toàn sụp đổ. Một tâm trí bất ổn bị giam cầm trong chính mê cung dối trá do mình tự tạo ra.",
+  "sentences": [
+   {
+    "id": "3.11#1",
+    "text": "Sự kết hợp giữa nét tính cách ranh giới và ái kỷ khiến Jodi luôn khao khát trở thành tâm điểm của sự chú ý từ công chúng.",
+    "words": 28
+   },
+   {
+    "id": "3.11#2",
+    "text": "Ngay cả khi bị giam giữ trong bốn bức tường ngột ngạt, cô ta vẫn xem phòng thẩm vấn như một sân khấu trình diễn cá nhân.",
+    "words": 27
+   },
+   {
+    "id": "3.11#3",
+    "text": "Khả năng chuyển đổi biểu cảm trong chớp mắt phản ánh cơ chế thao túng tâm lý sâu rễ bền gốc trong nhân cách.",
+    "words": 24
+   },
+   {
+    "id": "3.11#4",
+    "text": "Cô ta liên tục quan sát phản ứng của điều tra viên để điều chỉnh câu chuyện cho phù hợp với kỳ vọng của đối phương.",
+    "words": 26
+   },
+   {
+    "id": "3.11#5",
+    "text": "Đó là nỗ lực thao túng nhận thức tột cùng của một kẻ từ chối chấp nhận thực tế rằng quyền kiểm soát đã hoàn toàn sụp đổ.",
+    "words": 28
+   },
+   {
+    "id": "3.11#6",
+    "text": "Một tâm trí bất ổn bị giam cầm trong chính mê cung dối trá do mình tự tạo ra.",
+    "words": 19
+   }
+  ]
  },
  {
   "id": "4.01",
   "act": 4,
   "kind": "BGM",
-  "desc": "*Tiếng Violin căng thẳng, nhịp tim đập thình thịch ngắt quãng tạo cảm giác đấu trí ngột ngạt.*"
+  "desc": "Nhạc Violin căng thẳng dồn dập, tiếng gõ kim loại ngắt quãng ngột ngạt như nhịp tim nghẹn thở."
  },
  {
   "id": "4.02",
   "act": 4,
-  "kind": "LOI",
-  "role": "H",
-  "direction": "tái hiện những hành vi kỳ quặc của nghi phạm",
-  "text": "Phòng thẩm vấn của Sở Cảnh sát Mesa được trang bị hệ thống máy quay an ninh hoạt động liên tục hai mươi tư trên bảy. Khi Thanh tra Esteban Flores tạm thời rời khỏi phòng để Jodi Arias lại một mình, những hành vi kỳ quặc của cô ta đã khiến các điều tra viên phải sửng sốt. Thay vì biểu hiện sự lo lắng hay đau khổ như một nghi phạm bình thường, Jodi đứng dậy và bắt đầu thực hiện động tác trồng cây chuối tựa vào tường. Sau đó, cô ta tiến lại gần tấm gương hai chiều, tỉ mỉ chải chuốt lại mái tóc, ngắm nghía khuôn mặt mình và khẽ cất tiếng hát bài thánh ca quen thuộc. Sự thiếu hụt hoàn toàn cảm xúc ân hận và thái độ coi phòng thẩm vấn như một sân khấu cá nhân đã bộc lộ bản chất tự luyến cực đoan của cô ta. Mỗi khi điều tra viên bước vào, Jodi lại lập tức đổi vai thành một thiếu nữ yếu đuối, ngơ ngác và chịu nhiều uất ức.",
-  "sentences": [
-   {
-    "id": "4.02#1",
-    "text": "Phòng thẩm vấn của Sở Cảnh sát Mesa được trang bị hệ thống máy quay an ninh hoạt động liên tục hai mươi tư trên bảy.",
-    "words": 26
-   },
-   {
-    "id": "4.02#2",
-    "text": "Khi Thanh tra Esteban Flores tạm thời rời khỏi phòng để Jodi Arias lại một mình, những hành vi kỳ quặc của cô ta đã khiến các điều tra viên phải sửng sốt.",
-    "words": 33
-   },
-   {
-    "id": "4.02#3",
-    "text": "Thay vì biểu hiện sự lo lắng hay đau khổ như một nghi phạm bình thường, Jodi đứng dậy và bắt đầu thực hiện động tác trồng cây chuối tựa vào tường.",
-    "words": 32
-   },
-   {
-    "id": "4.02#4",
-    "text": "Sau đó, cô ta tiến lại gần tấm gương hai chiều, tỉ mỉ chải chuốt lại mái tóc, ngắm nghía khuôn mặt mình và khẽ cất tiếng hát bài thánh ca quen thuộc.",
-    "words": 33
-   },
-   {
-    "id": "4.02#5",
-    "text": "Sự thiếu hụt hoàn toàn cảm xúc ân hận và thái độ coi phòng thẩm vấn như một sân khấu cá nhân đã bộc lộ bản chất tự luyến cực đoan của cô ta.",
-    "words": 34
-   },
-   {
-    "id": "4.02#6",
-    "text": "Mỗi khi điều tra viên bước vào, Jodi lại lập tức đổi vai thành một thiếu nữ yếu đuối, ngơ ngác và chịu nhiều uất ức.",
-    "words": 26
-   }
-  ]
+  "kind": "SFX",
+  "desc": "Tiếng gõ bàn thẩm vấn cộc cộc, tiếng cửa sắt đóng sập vang rền \"Rầm\"."
  },
  {
   "id": "4.03",
   "act": 4,
-  "kind": "SFX",
-  "desc": "*Tiếng gõ bàn thẩm vấn cộc cộc, tiếng lật giấy biên bản hỏi cung rột roạt.*"
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tái hiện những hành vi kỳ quặc của nghi phạm",
+  "text": "Phòng hỏi cung của Sở Cảnh sát Mesa được trang bị camera an ninh ghi hình liên tục mọi diễn biến suốt hai mươi bốn giờ. Khi Thanh tra Esteban Flores tạm thời rời phòng, những hành vi kỳ quặc của Jodi Arias bắt đầu bộc lộ trước ống kính. Thay vì tỏ ra lo lắng hay suy sụp như một nghi phạm bình thường, cô ta đứng dậy và thực hiện động tác trồng cây chuối dựa vào tường. Sau đó, cô ta bước đến trước tấm gương hai chiều, tỉ mỉ chải chuốt lại mái tóc và cất tiếng hát khe khẽ một mình trong phòng giam. Nhưng ngay khi điều tra viên mở cửa bước vào, cô ta lập tức hóa thân thành người phụ nữ yếu đuối, hoang mang và rơi nước mắt. Sự tương phản này cho thấy chiếc mặt nạ kịch nghệ được điều khiển thuần thục đến mức đáng kinh ngạc.",
+  "sentences": [
+   {
+    "id": "4.03#1",
+    "text": "Phòng hỏi cung của Sở Cảnh sát Mesa được trang bị camera an ninh ghi hình liên tục mọi diễn biến suốt hai mươi bốn giờ.",
+    "words": 26
+   },
+   {
+    "id": "4.03#2",
+    "text": "Khi Thanh tra Esteban Flores tạm thời rời phòng, những hành vi kỳ quặc của Jodi Arias bắt đầu bộc lộ trước ống kính.",
+    "words": 24
+   },
+   {
+    "id": "4.03#3",
+    "text": "Thay vì tỏ ra lo lắng hay suy sụp như một nghi phạm bình thường, cô ta đứng dậy và thực hiện động tác trồng cây chuối dựa vào tường.",
+    "words": 30
+   },
+   {
+    "id": "4.03#4",
+    "text": "Sau đó, cô ta bước đến trước tấm gương hai chiều, tỉ mỉ chải chuốt lại mái tóc và cất tiếng hát khe khẽ một mình trong phòng giam.",
+    "words": 29
+   },
+   {
+    "id": "4.03#5",
+    "text": "Nhưng ngay khi điều tra viên mở cửa bước vào, cô ta lập tức hóa thân thành người phụ nữ yếu đuối, hoang mang và rơi nước mắt.",
+    "words": 28
+   },
+   {
+    "id": "4.03#6",
+    "text": "Sự tương phản này cho thấy chiếc mặt nạ kịch nghệ được điều khiển thuần thục đến mức đáng kinh ngạc.",
+    "words": 21
+   }
+  ]
  },
  {
   "id": "4.04",
   "act": 4,
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": ""
+ },
+ {
+  "id": "4.05",
+  "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "thuật lại kịch bản nói dối thứ hai",
-  "text": "Khi những lời nói dối ban đầu bị vô hiệu hóa bởi bằng chứng số, Jodi Arias bắt đầu thay đổi kịch bản lần thứ hai. Cô ta thêu dệt nên một câu chuyện giật gân rằng có hai kẻ lạ mặt bịt mặt đã đột nhập vào nhà và tấn công Travis. Cô ta khẳng định bản thân đã may mắn chạy thoát và vì quá sợ hãi lời đe dọa của chúng nên không dám gọi báo cảnh sát. Câu chuyện hoang đường ấy nhanh chóng bị bác bỏ vì không có bất kỳ dấu vết ADN hay dấu vân tay nào của người lạ tại hiện trường.",
+  "direction": "chuyển sang góc nhìn bồi thẩm đoàn",
+  "text": "Hãy cùng lắng nghe trải nghiệm của một thành viên bồi thẩm đoàn khi phải trực tiếp đối diện với màn kịch tâm lý kéo dài nhiều tháng ròng.",
   "sentences": [
    {
-    "id": "4.04#1",
-    "text": "Khi những lời nói dối ban đầu bị vô hiệu hóa bởi bằng chứng số, Jodi Arias bắt đầu thay đổi kịch bản lần thứ hai.",
-    "words": 26
-   },
-   {
-    "id": "4.04#2",
-    "text": "Cô ta thêu dệt nên một câu chuyện giật gân rằng có hai kẻ lạ mặt bịt mặt đã đột nhập vào nhà và tấn công Travis.",
-    "words": 27
-   },
-   {
-    "id": "4.04#3",
-    "text": "Cô ta khẳng định bản thân đã may mắn chạy thoát và vì quá sợ hãi lời đe dọa của chúng nên không dám gọi báo cảnh sát.",
-    "words": 28
-   },
-   {
-    "id": "4.04#4",
-    "text": "Câu chuyện hoang đường ấy nhanh chóng bị bác bỏ vì không có bất kỳ dấu vết ADN hay dấu vân tay nào của người lạ tại hiện trường.",
+    "id": "4.05#1",
+    "text": "Hãy cùng lắng nghe trải nghiệm của một thành viên bồi thẩm đoàn khi phải trực tiếp đối diện với màn kịch tâm lý kéo dài nhiều tháng ròng.",
     "words": 29
    }
   ]
  },
  {
-  "id": "4.05",
-  "act": 4,
-  "kind": "SFX",
-  "desc": "*Tiếng đèn flash máy ảnh chớp nháy lia lịa, tiếng máy quay truyền hình rè rè.*"
- },
- {
   "id": "4.06",
   "act": 4,
   "kind": "LOI",
-  "role": "D",
-  "direction": "D: Vạch trần màn kịch tự vệ",
-  "text": "Nhận thấy câu chuyện về hai kẻ đột nhập không thể đánh lừa được ai, Jodi Arias đã chuyển sang kịch bản thứ ba ngay trước ngày mở màn phiên tòa. Lần này, cô ta thừa nhận chính tay mình đã tước đoạt mạng sống của Travis, nhưng tuyên bố đó là hành vi phòng vệ chính đáng. Cô ta vẽ nên hình ảnh Travis như một kẻ bạo hành thể xác và tinh thần độc hại, người đã nổi cơn thịnh nộ chỉ vì cô làm rơi chiếc máy ảnh. Jodi thậm chí ngụy tạo những dòng nhật ký và khai man trước tòa rằng bản thân đã bị sang chấn tâm lý đến mức mất trí nhớ tạm thời. Tuy nhiên, sự chuẩn bị ba bình xăng từ trước và việc cố tình giấu máy ảnh vào máy giặt đã vạch trần hoàn toàn mưu toan tính toán từ trước. Không một hành vi phòng vệ chính đáng nào lại đi kèm với một kế hoạch chuẩn bị đường lui tỉ mỉ và lạnh lùng đến như thế.",
+  "role": "N",
+  "direction": "N2: Thành viên bồi thẩm đoàn Hạt Maricopa, giọng nữ trung niên điềm tĩnh, nghiêm nghị",
+  "text": "Hãy hình dung áp lực đè nặng lên vai các thành viên bồi thẩm đoàn tại phiên tòa Hạt Maricopa kéo dài ròng rã suốt nhiều tháng. Bị cáo ngồi trên bục nhân chứng suốt mười tám ngày, kiểm soát từng hơi thở, từng biểu cảm và liên tục sắm vai một nạn nhân bị bạo hành. Nhưng khi công tố viên đối chiếu lời khai với những can xăng dự trữ và các bức ảnh phục hồi từ máy giặt, bức màn dối trá bắt đầu rạn nứt. Chúng tôi hiểu rằng nhiệm vụ tối thượng của mình là giữ một cái đầu lạnh để nhìn thấu mọi kịch nghệ và trả lại sự thật cho người đã khuất.",
   "sentences": [
    {
     "id": "4.06#1",
-    "text": "Nhận thấy câu chuyện về hai kẻ đột nhập không thể đánh lừa được ai, Jodi Arias đã chuyển sang kịch bản thứ ba ngay trước ngày mở màn phiên tòa.",
-    "words": 31
-   },
-   {
-    "id": "4.06#2",
-    "text": "Lần này, cô ta thừa nhận chính tay mình đã tước đoạt mạng sống của Travis, nhưng tuyên bố đó là hành vi phòng vệ chính đáng.",
+    "text": "Hãy hình dung áp lực đè nặng lên vai các thành viên bồi thẩm đoàn tại phiên tòa Hạt Maricopa kéo dài ròng rã suốt nhiều tháng.",
     "words": 27
    },
    {
-    "id": "4.06#3",
-    "text": "Cô ta vẽ nên hình ảnh Travis như một kẻ bạo hành thể xác và tinh thần độc hại, người đã nổi cơn thịnh nộ chỉ vì cô làm rơi chiếc máy ảnh.",
-    "words": 33
-   },
-   {
-    "id": "4.06#4",
-    "text": "Jodi thậm chí ngụy tạo những dòng nhật ký và khai man trước tòa rằng bản thân đã bị sang chấn tâm lý đến mức mất trí nhớ tạm thời.",
+    "id": "4.06#2",
+    "text": "Bị cáo ngồi trên bục nhân chứng suốt mười tám ngày, kiểm soát từng hơi thở, từng biểu cảm và liên tục sắm vai một nạn nhân bị bạo hành.",
     "words": 30
    },
    {
-    "id": "4.06#5",
-    "text": "Tuy nhiên, sự chuẩn bị ba bình xăng từ trước và việc cố tình giấu máy ảnh vào máy giặt đã vạch trần hoàn toàn mưu toan tính toán từ trước.",
-    "words": 31
+    "id": "4.06#3",
+    "text": "Nhưng khi công tố viên đối chiếu lời khai với những can xăng dự trữ và các bức ảnh phục hồi từ máy giặt, bức màn dối trá bắt đầu rạn nứt.",
+    "words": 32
    },
    {
-    "id": "4.06#6",
-    "text": "Không một hành vi phòng vệ chính đáng nào lại đi kèm với một kế hoạch chuẩn bị đường lui tỉ mỉ và lạnh lùng đến như thế.",
-    "words": 28
+    "id": "4.06#4",
+    "text": "Chúng tôi hiểu rằng nhiệm vụ tối thượng của mình là giữ một cái đầu lạnh để nhìn thấu mọi kịch nghệ và trả lại sự thật cho người đã khuất.",
+    "words": 31
    }
   ]
  },
  {
   "id": "4.07",
   "act": 4,
-  "kind": "SFX",
-  "desc": "*Tiếng micro truyền hình phát ra tiếng ù nhẹ, tiếng xì xào tranh cãi của đám đông tại phòng xử án hạt Maricopa.*"
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng trầm, vạch trần ba lần đổi lời khai",
+  "text": "Trong suốt quá trình tố tụng, Jodi Arias đã thay đổi câu chuyện của mình tới ba lần riêng biệt trước cơ quan điều tra. Từ việc phủ nhận có mặt tại Arizona, chuyển sang câu chuyện bị hai kẻ đột nhập tấn công, và cuối cùng thừa nhận ra tay nhưng nại lý do tự vệ. Mỗi phiên bản đều được cô ta thêm thắt những chi tiết ly kỳ nhằm đánh lạc hướng và thử thách sự kiên nhẫn của cơ quan pháp luật.",
+  "sentences": [
+   {
+    "id": "4.07#1",
+    "text": "Trong suốt quá trình tố tụng, Jodi Arias đã thay đổi câu chuyện của mình tới ba lần riêng biệt trước cơ quan điều tra.",
+    "words": 25
+   },
+   {
+    "id": "4.07#2",
+    "text": "Từ việc phủ nhận có mặt tại Arizona, chuyển sang câu chuyện bị hai kẻ đột nhập tấn công, và cuối cùng thừa nhận ra tay nhưng nại lý do tự vệ.",
+    "words": 32
+   },
+   {
+    "id": "4.07#3",
+    "text": "Mỗi phiên bản đều được cô ta thêm thắt những chi tiết ly kỳ nhằm đánh lạc hướng và thử thách sự kiên nhẫn của cơ quan pháp luật.",
+    "words": 29
+   }
+  ]
  },
  {
   "id": "4.08",
   "act": 4,
   "kind": "LOI",
-  "role": "H",
-  "direction": "khắc họa cơn bão truyền hình và sự ngông cuồng",
-  "text": "Trong suốt thời gian tạm giam chờ xét xử, Jodi Arias tỏ ra đặc biệt thích thú với sự chú ý của giới truyền thông. Cô ta nhận lời phỏng vấn độc quyền trên truyền hình, trang điểm kỹ lưỡng và đưa ra một tuyên bố ngạo mạn đi vào lịch sử: “Sẽ không có một bồi thẩm đoàn nào kết tội tôi, bởi vì tôi vô tội.” Phiên tòa xét xử diễn ra tại Hạt Maricopa vào đầu năm 2013 dưới sự chủ tọa của Thẩm phán Sherry Stephens đã biến thành một rạp xiếc truyền hình trực tiếp thu hút hàng triệu khán giả toàn cầu.",
+  "role": "D",
+  "direction": "giọng sắc lạnh, phân tích các điểm mâu thuẫn cốt tử",
+  "text": "Thanh tra Esteban Flores đã kiên trì vạch trần từng điểm mâu thuẫn trong lời khai của bị cáo qua các buổi hỏi cung kéo dài. Nếu thực sự là tự vệ bột phát trong buồng tắm, tại sao hung thủ lại chuẩn bị sẵn ba can xăng từ trước khi khởi hành? Tại sao cô ta lại nhuộm tóc, tắt điện thoại di động và bỏ chiếc máy ảnh vào máy giặt để phi tang dữ liệu? Không có bất kỳ dấu vết phòng vệ nào trên cơ thể cô ta phù hợp với câu chuyện bị tấn công dữ dội như đã mô tả. Ngược lại, việc lái xe đến Utah gặp người đàn ông khác ngay sau đó chứng minh một trạng thái tâm lý hoàn toàn tỉnh táo. Mọi bằng chứng vật lý và dữ liệu viễn thông đều chỉ ra một kế hoạch hành động đơn phương có suy tính trước. Công tố viên Juan Martinez đã sử dụng những lập luận sắc bén ấy để dồn bị cáo vào chân tường trong các phiên đối chất nảy lửa. Toàn bộ câu chuyện tự vệ đã bị bóc trần như một nỗ lực tuyệt vọng nhằm trốn tránh án phạt tối cao của pháp luật.",
   "sentences": [
    {
     "id": "4.08#1",
-    "text": "Trong suốt thời gian tạm giam chờ xét xử, Jodi Arias tỏ ra đặc biệt thích thú với sự chú ý của giới truyền thông.",
-    "words": 25
+    "text": "Thanh tra Esteban Flores đã kiên trì vạch trần từng điểm mâu thuẫn trong lời khai của bị cáo qua các buổi hỏi cung kéo dài.",
+    "words": 26
    },
    {
     "id": "4.08#2",
-    "text": "Cô ta nhận lời phỏng vấn độc quyền trên truyền hình, trang điểm kỹ lưỡng và đưa ra một tuyên bố ngạo mạn đi vào lịch sử: “Sẽ không có một bồi thẩm đoàn nào kết tội tôi, bởi vì tôi vô tội.”",
-    "words": 43
+    "text": "Nếu thực sự là tự vệ bột phát trong buồng tắm, tại sao hung thủ lại chuẩn bị sẵn ba can xăng từ trước khi khởi hành?",
+    "words": 27
    },
    {
     "id": "4.08#3",
-    "text": "Phiên tòa xét xử diễn ra tại Hạt Maricopa vào đầu năm 2013 dưới sự chủ tọa của Thẩm phán Sherry Stephens đã biến thành một rạp xiếc truyền hình trực tiếp thu hút hàng triệu khán giả toàn cầu.",
-    "words": 40
+    "text": "Tại sao cô ta lại nhuộm tóc, tắt điện thoại di động và bỏ chiếc máy ảnh vào máy giặt để phi tang dữ liệu?",
+    "words": 25
+   },
+   {
+    "id": "4.08#4",
+    "text": "Không có bất kỳ dấu vết phòng vệ nào trên cơ thể cô ta phù hợp với câu chuyện bị tấn công dữ dội như đã mô tả.",
+    "words": 28
+   },
+   {
+    "id": "4.08#5",
+    "text": "Ngược lại, việc lái xe đến Utah gặp người đàn ông khác ngay sau đó chứng minh một trạng thái tâm lý hoàn toàn tỉnh táo.",
+    "words": 26
+   },
+   {
+    "id": "4.08#6",
+    "text": "Mọi bằng chứng vật lý và dữ liệu viễn thông đều chỉ ra một kế hoạch hành động đơn phương có suy tính trước.",
+    "words": 24
+   },
+   {
+    "id": "4.08#7",
+    "text": "Công tố viên Juan Martinez đã sử dụng những lập luận sắc bén ấy để dồn bị cáo vào chân tường trong các phiên đối chất nảy lửa.",
+    "words": 28
+   },
+   {
+    "id": "4.08#8",
+    "text": "Toàn bộ câu chuyện tự vệ đã bị bóc trần như một nỗ lực tuyệt vọng nhằm trốn tránh án phạt tối cao của pháp luật.",
+    "words": 26
    }
   ]
  },
  {
   "id": "4.09",
   "act": 4,
-  "kind": "LOI",
-  "role": "N",
-  "direction": "N2: Thành viên Bồi thẩm đoàn Hạt Maricopa, giọng nữ điềm tĩnh, nghiêm nghị",
-  "text": "Ngồi trong phòng xử án suốt nhiều tháng ròng rã, chúng tôi phải đối diện với một áp lực tâm lý vô cùng nặng nề. Bị cáo Jodi Arias đã ngồi trên bục nhân chứng suốt mười tám ngày liên tiếp để trả lời thẩm vấn của các luật sư. Tôi chưa từng thấy một bị cáo nào có khả năng kiểm soát nét mặt và thao túng từ ngữ tinh vi đến như vậy. Cô ấy luôn cố gắng tỏ ra là một nạn nhân đáng thương, nhưng mỗi khi bị công tố viên Juan Martinez dồn vào chân tường, ánh mắt cô ấy lại ánh lên sự lạnh lùng và căm phẫn. Những bằng chứng khoa học, đặc biệt là chiếc máy ảnh được phục hồi và những bình xăng mang theo, có sức nặng vượt trội so với mọi lời ngụy biện. Chúng tôi nhận thấy rõ sự tương phản tuyệt đối giữa lời khai tự vệ với tính chất tàn khốc của các vết thương trên người nạn nhân. Trách nhiệm của chúng tôi là nhìn xuyên qua màn sương kịch nghệ ấy để tìm về sự thật cho người đã khuất. Đó là một quyết định công lý không hề dễ dàng nhưng hoàn toàn chuẩn xác dựa trên chứng cứ pháp lý vững chắc.",
-  "sentences": [
-   {
-    "id": "4.09#1",
-    "text": "Ngồi trong phòng xử án suốt nhiều tháng ròng rã, chúng tôi phải đối diện với một áp lực tâm lý vô cùng nặng nề.",
-    "words": 25
-   },
-   {
-    "id": "4.09#2",
-    "text": "Bị cáo Jodi Arias đã ngồi trên bục nhân chứng suốt mười tám ngày liên tiếp để trả lời thẩm vấn của các luật sư.",
-    "words": 25
-   },
-   {
-    "id": "4.09#3",
-    "text": "Tôi chưa từng thấy một bị cáo nào có khả năng kiểm soát nét mặt và thao túng từ ngữ tinh vi đến như vậy.",
-    "words": 25
-   },
-   {
-    "id": "4.09#4",
-    "text": "Cô ấy luôn cố gắng tỏ ra là một nạn nhân đáng thương, nhưng mỗi khi bị công tố viên Juan Martinez dồn vào chân tường, ánh mắt cô ấy lại ánh lên sự lạnh lùng và căm phẫn.",
-    "words": 39
-   },
-   {
-    "id": "4.09#5",
-    "text": "Những bằng chứng khoa học, đặc biệt là chiếc máy ảnh được phục hồi và những bình xăng mang theo, có sức nặng vượt trội so với mọi lời ngụy biện.",
-    "words": 31
-   },
-   {
-    "id": "4.09#6",
-    "text": "Chúng tôi nhận thấy rõ sự tương phản tuyệt đối giữa lời khai tự vệ với tính chất tàn khốc của các vết thương trên người nạn nhân.",
-    "words": 28
-   },
-   {
-    "id": "4.09#7",
-    "text": "Trách nhiệm của chúng tôi là nhìn xuyên qua màn sương kịch nghệ ấy để tìm về sự thật cho người đã khuất.",
-    "words": 23
-   },
-   {
-    "id": "4.09#8",
-    "text": "Đó là một quyết định công lý không hề dễ dàng nhưng hoàn toàn chuẩn xác dựa trên chứng cứ pháp lý vững chắc.",
-    "words": 24
-   }
-  ]
+  "kind": "SFX",
+  "desc": "Tiếng búa gỗ của thẩm phán gõ đanh thép \"Cốp... cốp... cốp\", tiếng xì xào của phòng xử án."
  },
  {
   "id": "4.10",
   "act": 4,
   "kind": "LOI",
   "role": "D",
-  "direction": "D: Kết quả tranh tụng và phán quyết có tội",
-  "text": "Công tố viên Juan Martinez đã có một màn tranh tụng xuất sắc, bóc trần từng lớp mặt nạ giả dối của bị cáo trước mắt bồi thẩm đoàn. Ông đã chứng minh rõ ràng hành vi mua xăng dự phòng, tắt định vị điện thoại và chuẩn bị vũ khí từ trước là dấu hiệu của tội ác có suy tính từ trước. Ngày 8 tháng 5 năm 2013, bồi thẩm đoàn đã nhất trí tuyên bố Jodi Arias phạm tội Giết người cấp độ một. Khi nghe phán quyết tội danh, gương mặt của Jodi hoàn toàn biến sắc, đánh dấu sự sụp đổ của toàn bộ niềm tin tự mãn ngông cuồng. Công lý cuối cùng đã được thực thi để trả lại danh dự và sự thật cho Travis Alexander cùng gia đình anh.",
+  "direction": "tiếp tục tường thuật diễn biến phán quyết",
+  "text": "Phiên tòa xét xử Jodi Arias năm 2013 nhanh chóng trở thành tâm điểm của truyền thông toàn cầu với hàng triệu lượt theo dõi trực tuyến. Sự ngông cuồng của bị cáo đạt đến đỉnh điểm trong cuộc phỏng vấn truyền hình năm 2008 khi cô ta tuyên bố: “Sẽ không có bồi thẩm đoàn nào kết tội tôi, bởi vì tôi vô tội.” Bị cáo thậm chí còn bán đấu giá các bức tranh vẽ trong tù và tìm cách duy trì sự nổi tiếng trên mạng xã hội suốt phiên xử. Tuy nhiên, sự thật tư pháp không thể bị bóp méo bởi sự ồn ào của truyền thông hay những màn kịch nghệ trước công chúng. Ngày 8 tháng 5 năm 2013, sau nhiều ngày thảo luận căng thẳng, bồi thẩm đoàn đã đưa ra phán quyết lịch sử được cả nước Mỹ ngóng chờ. Jodi Arias bị tuyên bố có tội đối với tội danh Giết người cấp độ một với sự đồng thuận tuyệt đối của toàn bộ bồi thẩm đoàn. Khoảnh khắc bản án vang lên, sự tự mãn trên gương mặt bị cáo hoàn toàn biến mất, thay thế bằng sự bàng hoàng câm lặng. Bồi thẩm đoàn hai lần rơi vào bế tắc về mức án tử hình, buộc thẩm phán phải đưa ra phán quyết cuối cùng theo luật định. Bản án đã khép lại một trong những cuộc đấu tranh tư pháp căng thẳng và kéo dài nhất trong lịch sử bang Arizona.",
   "sentences": [
    {
     "id": "4.10#1",
-    "text": "Công tố viên Juan Martinez đã có một màn tranh tụng xuất sắc, bóc trần từng lớp mặt nạ giả dối của bị cáo trước mắt bồi thẩm đoàn.",
-    "words": 29
+    "text": "Phiên tòa xét xử Jodi Arias năm 2013 nhanh chóng trở thành tâm điểm của truyền thông toàn cầu với hàng triệu lượt theo dõi trực tuyến.",
+    "words": 27
    },
    {
     "id": "4.10#2",
-    "text": "Ông đã chứng minh rõ ràng hành vi mua xăng dự phòng, tắt định vị điện thoại và chuẩn bị vũ khí từ trước là dấu hiệu của tội ác có suy tính từ trước.",
-    "words": 35
+    "text": "Sự ngông cuồng của bị cáo đạt đến đỉnh điểm trong cuộc phỏng vấn truyền hình năm 2008 khi cô ta tuyên bố: “Sẽ không có bồi thẩm đoàn nào kết tội tôi, bởi vì tôi vô tội.”",
+    "words": 38
    },
    {
     "id": "4.10#3",
-    "text": "Ngày 8 tháng 5 năm 2013, bồi thẩm đoàn đã nhất trí tuyên bố Jodi Arias phạm tội Giết người cấp độ một.",
-    "words": 23
+    "text": "Bị cáo thậm chí còn bán đấu giá các bức tranh vẽ trong tù và tìm cách duy trì sự nổi tiếng trên mạng xã hội suốt phiên xử.",
+    "words": 29
    },
    {
     "id": "4.10#4",
-    "text": "Khi nghe phán quyết tội danh, gương mặt của Jodi hoàn toàn biến sắc, đánh dấu sự sụp đổ của toàn bộ niềm tin tự mãn ngông cuồng.",
-    "words": 28
+    "text": "Tuy nhiên, sự thật tư pháp không thể bị bóp méo bởi sự ồn ào của truyền thông hay những màn kịch nghệ trước công chúng.",
+    "words": 26
    },
    {
     "id": "4.10#5",
-    "text": "Công lý cuối cùng đã được thực thi để trả lại danh dự và sự thật cho Travis Alexander cùng gia đình anh.",
-    "words": 23
+    "text": "Ngày 8 tháng 5 năm 2013, sau nhiều ngày thảo luận căng thẳng, bồi thẩm đoàn đã đưa ra phán quyết lịch sử được cả nước Mỹ ngóng chờ.",
+    "words": 29
+   },
+   {
+    "id": "4.10#6",
+    "text": "Jodi Arias bị tuyên bố có tội đối với tội danh Giết người cấp độ một với sự đồng thuận tuyệt đối của toàn bộ bồi thẩm đoàn.",
+    "words": 28
+   },
+   {
+    "id": "4.10#7",
+    "text": "Khoảnh khắc bản án vang lên, sự tự mãn trên gương mặt bị cáo hoàn toàn biến mất, thay thế bằng sự bàng hoàng câm lặng.",
+    "words": 26
+   },
+   {
+    "id": "4.10#8",
+    "text": "Bồi thẩm đoàn hai lần rơi vào bế tắc về mức án tử hình, buộc thẩm phán phải đưa ra phán quyết cuối cùng theo luật định.",
+    "words": 27
+   },
+   {
+    "id": "4.10#9",
+    "text": "Bản án đã khép lại một trong những cuộc đấu tranh tư pháp căng thẳng và kéo dài nhất trong lịch sử bang Arizona.",
+    "words": 24
    }
   ]
  },
@@ -1020,23 +1126,53 @@
   "act": 4,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: Tổng kết hiện tượng tâm lý tại phòng xử án",
-  "text": "Phiên tòa xét xử Jodi Arias là bài học kinh điển về cách một kẻ mang nhân cách ranh giới và ái kỷ sử dụng hệ thống tư pháp như một sân khấu thao túng công chúng. Việc bị cáo liên tục đổ lỗi cho nạn nhân đã khuất là minh chứng rõ nét nhất cho cơ chế tự bảo vệ và sự vô cảm đạo đức hoàn toàn. Sự thật pháp lý và bằng chứng khoa học là công cụ duy nhất có thể phá vỡ bức tường dối trá bệnh lý của những nhân cách này.",
+  "direction": "phân tích sự sụp đổ cái tôi ái kỷ",
+  "text": "Phán quyết có tội đã kích hoạt một hiện tượng tâm lý học điển hình: Sự sụp đổ cái tôi ái kỷ. Khi chiếc mặt nạ nạn nhân hoàn hảo bị xé toạc trước công chúng, bị cáo rơi vào khủng hoảng bản ngã trầm trọng. Từ sự ngông cuồng thách thức bồi thẩm đoàn, cô ta chuyển sang trạng thái tự thương hại bệnh lý để tìm kiếm sự chú ý. Trong các bài phát biểu sau đó, cô ta công khai xin nhận án tử hình vì không chịu nổi viễn cảnh bị tước đoạt toàn bộ danh tiếng và đặc quyền. Nhưng khi đối diện với án chung thân, cô ta lại lập tức nộp đơn kháng cáo và tìm cách xin giảm nhẹ hình phạt giam giữ. Những phản ứng này hoàn toàn không xuất phát từ sự ăn năn chân thành đối với nạn nhân hay gia đình anh. Đó chỉ là phản ứng quằn quại của một cái tôi vỡ vụn khi không còn khả năng kiểm soát cái nhìn của thế giới xung quanh. Vụ án là minh chứng sâu sắc về sự nguy hiểm khôn lường của một nhân cách thao túng khi chạm đến giới hạn thất bại. Nơi mà sự thật khoa học là tấm gương duy nhất phản chiếu chính xác bản chất trơ trọi bên trong con người cô ta.",
   "sentences": [
    {
     "id": "4.11#1",
-    "text": "Phiên tòa xét xử Jodi Arias là bài học kinh điển về cách một kẻ mang nhân cách ranh giới và ái kỷ sử dụng hệ thống tư pháp như một sân khấu thao túng công chúng.",
-    "words": 37
+    "text": "Phán quyết có tội đã kích hoạt một hiện tượng tâm lý học điển hình: Sự sụp đổ cái tôi ái kỷ.",
+    "words": 22
    },
    {
     "id": "4.11#2",
-    "text": "Việc bị cáo liên tục đổ lỗi cho nạn nhân đã khuất là minh chứng rõ nét nhất cho cơ chế tự bảo vệ và sự vô cảm đạo đức hoàn toàn.",
-    "words": 32
+    "text": "Khi chiếc mặt nạ nạn nhân hoàn hảo bị xé toạc trước công chúng, bị cáo rơi vào khủng hoảng bản ngã trầm trọng.",
+    "words": 24
    },
    {
     "id": "4.11#3",
-    "text": "Sự thật pháp lý và bằng chứng khoa học là công cụ duy nhất có thể phá vỡ bức tường dối trá bệnh lý của những nhân cách này.",
-    "words": 29
+    "text": "Từ sự ngông cuồng thách thức bồi thẩm đoàn, cô ta chuyển sang trạng thái tự thương hại bệnh lý để tìm kiếm sự chú ý.",
+    "words": 26
+   },
+   {
+    "id": "4.11#4",
+    "text": "Trong các bài phát biểu sau đó, cô ta công khai xin nhận án tử hình vì không chịu nổi viễn cảnh bị tước đoạt toàn bộ danh tiếng và đặc quyền.",
+    "words": 32
+   },
+   {
+    "id": "4.11#5",
+    "text": "Nhưng khi đối diện với án chung thân, cô ta lại lập tức nộp đơn kháng cáo và tìm cách xin giảm nhẹ hình phạt giam giữ.",
+    "words": 27
+   },
+   {
+    "id": "4.11#6",
+    "text": "Những phản ứng này hoàn toàn không xuất phát từ sự ăn năn chân thành đối với nạn nhân hay gia đình anh.",
+    "words": 23
+   },
+   {
+    "id": "4.11#7",
+    "text": "Đó chỉ là phản ứng quằn quại của một cái tôi vỡ vụn khi không còn khả năng kiểm soát cái nhìn của thế giới xung quanh.",
+    "words": 27
+   },
+   {
+    "id": "4.11#8",
+    "text": "Vụ án là minh chứng sâu sắc về sự nguy hiểm khôn lường của một nhân cách thao túng khi chạm đến giới hạn thất bại.",
+    "words": 26
+   },
+   {
+    "id": "4.11#9",
+    "text": "Nơi mà sự thật khoa học là tấm gương duy nhất phản chiếu chính xác bản chất trơ trọi bên trong con người cô ta.",
+    "words": 25
    }
   ]
  },
@@ -1046,31 +1182,45 @@
   "kind": "LOI",
   "role": "H",
   "direction": "khép lại Hồi 4",
-  "text": "Mặc dù bồi thẩm đoàn đã bế tắc trong việc đưa ra mức án tử hình sau hai lần nghị án căng thẳng, sự trừng phạt của luật pháp vẫn giáng xuống một cách nghiêm khắc nhất. Cánh cửa nhà tù đã vĩnh viễn khép lại phía sau lưng người phụ nữ từng tự tin thách thức công lý.",
+  "text": "Màn kịch kéo dài nhiều năm tại phòng xử án cuối cùng đã đi đến hồi kết định mệnh trước sức mạnh của sự thật. Dù ánh đèn truyền hình có rực rỡ đến đâu, nó cũng không thể cứu vãn một tâm hồn đã lạc lối trong hận thù và dối trá. Cánh cửa trại giam chuẩn bị khép lại vĩnh viễn cuộc đời của người phụ nữ từng coi tình yêu là một trò chơi thống trị. Nhưng những bài học đau đớn mà thảm kịch này để lại cho xã hội vẫn còn vang vọng đến tận ngày hôm nay. Hãy cùng bước sang hồi kết để nhìn nhận phán quyết cuối cùng và đúc kết những quy tắc sinh tồn quý giá cho mỗi người. Để mỗi chúng ta biết cách nhận diện và tự bảo vệ mình trước những vực thẳm tâm lý độc hại trong cuộc sống.",
   "sentences": [
    {
     "id": "4.12#1",
-    "text": "Mặc dù bồi thẩm đoàn đã bế tắc trong việc đưa ra mức án tử hình sau hai lần nghị án căng thẳng, sự trừng phạt của luật pháp vẫn giáng xuống một cách nghiêm khắc nhất.",
-    "words": 37
+    "text": "Màn kịch kéo dài nhiều năm tại phòng xử án cuối cùng đã đi đến hồi kết định mệnh trước sức mạnh của sự thật.",
+    "words": 25
    },
    {
     "id": "4.12#2",
-    "text": "Cánh cửa nhà tù đã vĩnh viễn khép lại phía sau lưng người phụ nữ từng tự tin thách thức công lý.",
-    "words": 22
+    "text": "Dù ánh đèn truyền hình có rực rỡ đến đâu, nó cũng không thể cứu vãn một tâm hồn đã lạc lối trong hận thù và dối trá.",
+    "words": 28
+   },
+   {
+    "id": "4.12#3",
+    "text": "Cánh cửa trại giam chuẩn bị khép lại vĩnh viễn cuộc đời của người phụ nữ từng coi tình yêu là một trò chơi thống trị.",
+    "words": 26
+   },
+   {
+    "id": "4.12#4",
+    "text": "Nhưng những bài học đau đớn mà thảm kịch này để lại cho xã hội vẫn còn vang vọng đến tận ngày hôm nay.",
+    "words": 24
+   },
+   {
+    "id": "4.12#5",
+    "text": "Hãy cùng bước sang hồi kết để nhìn nhận phán quyết cuối cùng và đúc kết những quy tắc sinh tồn quý giá cho mỗi người.",
+    "words": 26
+   },
+   {
+    "id": "4.12#6",
+    "text": "Để mỗi chúng ta biết cách nhận diện và tự bảo vệ mình trước những vực thẳm tâm lý độc hại trong cuộc sống.",
+    "words": 24
    }
   ]
- },
- {
-  "id": "4.13",
-  "act": 4,
-  "kind": "BGM",
-  "desc": "*Một nốt violin đanh thép ngân lên rồi tắt hẳn, báo hiệu sự kết thúc của màn kịch tư pháp.*"
  },
  {
   "id": "5.01",
   "act": 5,
   "kind": "BGM",
-  "desc": "*Nhạc nền chuyển sang giai điệu Piano ấm áp, trang trọng, phảng phất nỗi suy tư và sự cảnh báo sâu sắc.*"
+  "desc": "Nhạc Piano ấm áp, trang trọng, phảng phất nỗi suy tư sâu lắng và tinh thần nhân văn cao cả."
  },
  {
   "id": "5.02",
@@ -1078,184 +1228,323 @@
   "kind": "LOI",
   "role": "H",
   "direction": "giọng suy ngẫm, mang tính triết lý sâu lắng",
-  "text": "Ngày 13 tháng 4 năm 2015, Thẩm phán Sherry Stephens đã chính thức tuyên phạt Jodi Arias mức án Tù chung thân mà không bao giờ có cơ hội được ân xá. Nữ phạm nhân số 281128 được chuyển đến thụ án tại Trại giam Phụ nữ Perryville ở thành phố Goodyear, bang Arizona. Tại nơi đây, cô ta sẽ phải trải qua phần đời còn lại phía sau song sắt, cách ly hoàn toàn khỏi thế giới tự do mà cô ta từng cố gắng thao túng. Vụ án khép lại sau bảy năm tranh tụng dai dẳng, nhưng bài học đau đớn về những mối quan hệ tình cảm độc hại thì vẫn còn nguyên giá trị cảnh báo.",
+  "text": "Ngày 13 tháng 4 năm 2015, tại Tòa Thượng thẩm Hạt Maricopa, Thẩm phán Sherry Stephens chính thức tuyên án. Jodi Arias bị tuyên phạt mức án tù chung thân tự nhiên, vĩnh viễn không bao giờ có cơ hội được xem xét ân xá. Cô ta được áp giải đến Trại giam Phụ nữ Perryville tại thành phố Goodyear, bang Arizona để chấp hành bản án. Phía sau những bức tường thép và hàng rào kẽm gai kiên cố, cô ta sẽ trải qua phần đời còn lại trong sự cô lập tuyệt đối. Gần bảy năm tố tụng căng thẳng và tốn kém cuối cùng đã chính thức khép lại trên phương diện luật pháp. Nhưng nỗi đau đọng lại nơi gia đình Travis Alexander và những vết thương xã hội thì vẫn chưa thể nguôi ngoai theo thời gian.",
   "sentences": [
    {
     "id": "5.02#1",
-    "text": "Ngày 13 tháng 4 năm 2015, Thẩm phán Sherry Stephens đã chính thức tuyên phạt Jodi Arias mức án Tù chung thân mà không bao giờ có cơ hội được ân xá.",
-    "words": 32
+    "text": "Ngày 13 tháng 4 năm 2015, tại Tòa Thượng thẩm Hạt Maricopa, Thẩm phán Sherry Stephens chính thức tuyên án.",
+    "words": 20
    },
    {
     "id": "5.02#2",
-    "text": "Nữ phạm nhân số 281128 được chuyển đến thụ án tại Trại giam Phụ nữ Perryville ở thành phố Goodyear, bang Arizona.",
-    "words": 22
+    "text": "Jodi Arias bị tuyên phạt mức án tù chung thân tự nhiên, vĩnh viễn không bao giờ có cơ hội được xem xét ân xá.",
+    "words": 25
    },
    {
     "id": "5.02#3",
-    "text": "Tại nơi đây, cô ta sẽ phải trải qua phần đời còn lại phía sau song sắt, cách ly hoàn toàn khỏi thế giới tự do mà cô ta từng cố gắng thao túng.",
-    "words": 34
+    "text": "Cô ta được áp giải đến Trại giam Phụ nữ Perryville tại thành phố Goodyear, bang Arizona để chấp hành bản án.",
+    "words": 22
    },
    {
     "id": "5.02#4",
-    "text": "Vụ án khép lại sau bảy năm tranh tụng dai dẳng, nhưng bài học đau đớn về những mối quan hệ tình cảm độc hại thì vẫn còn nguyên giá trị cảnh báo.",
-    "words": 33
+    "text": "Phía sau những bức tường thép và hàng rào kẽm gai kiên cố, cô ta sẽ trải qua phần đời còn lại trong sự cô lập tuyệt đối.",
+    "words": 28
+   },
+   {
+    "id": "5.02#5",
+    "text": "Gần bảy năm tố tụng căng thẳng và tốn kém cuối cùng đã chính thức khép lại trên phương diện luật pháp.",
+    "words": 22
+   },
+   {
+    "id": "5.02#6",
+    "text": "Nhưng nỗi đau đọng lại nơi gia đình Travis Alexander và những vết thương xã hội thì vẫn chưa thể nguôi ngoai theo thời gian.",
+    "words": 25
    }
   ]
  },
  {
   "id": "5.03",
   "act": 5,
-  "kind": "LOI",
-  "role": "D",
-  "direction": "D: Nhận định về bước tiến nghiệp vụ kỹ thuật hình sự",
-  "text": "Hồ sơ Jodi Arias đã trở thành một dấu mốc quan trọng trong lịch sử ngành điều tra kỹ thuật số và pháp y hình sự hiện đại. Nó chứng minh rằng ngay cả khi kẻ thủ ác nỗ lực tiêu hủy chứng cứ bằng nước và xà phòng, dấu vết công nghệ vẫn có thể được khai quật để nói lên sự thật. Vụ án cũng là lời nhắc nhở đối với lực lượng thực thi pháp luật về sự kiên định trước những thủ đoạn thao túng tâm lý tinh vi của nghi phạm.",
-  "sentences": [
-   {
-    "id": "5.03#1",
-    "text": "Hồ sơ Jodi Arias đã trở thành một dấu mốc quan trọng trong lịch sử ngành điều tra kỹ thuật số và pháp y hình sự hiện đại.",
-    "words": 28
-   },
-   {
-    "id": "5.03#2",
-    "text": "Nó chứng minh rằng ngay cả khi kẻ thủ ác nỗ lực tiêu hủy chứng cứ bằng nước và xà phòng, dấu vết công nghệ vẫn có thể được khai quật để nói lên sự thật.",
-    "words": 36
-   },
-   {
-    "id": "5.03#3",
-    "text": "Vụ án cũng là lời nhắc nhở đối với lực lượng thực thi pháp luật về sự kiên định trước những thủ đoạn thao túng tâm lý tinh vi của nghi phạm.",
-    "words": 32
-   }
-  ]
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": ""
  },
  {
   "id": "5.04",
   "act": 5,
   "kind": "LOI",
-  "role": "C",
-  "direction": "C: Đúc kết về ranh giới cá nhân và tình yêu lành mạnh",
-  "text": "Bi kịch của Travis Alexander là một hồi chuông cảnh tỉnh sâu sắc về sự nguy hiểm tiềm ẩn khi chúng ta đánh giá thấp những bất ổn tâm lý của người bạn đời. Rối loạn nhân cách ranh giới và tính khí ái kỷ khi không được nhận diện và điều trị kịp thời có thể chuyển hóa thành sự thù hận hủy diệt. Tình yêu đích thực phải được xây dựng trên sự tôn trọng tự do và ranh giới cá nhân, chứ không bao giờ là sự sở hữu tuyệt đối và nỗi ám ảnh kiểm soát. Biết nhận diện những tín hiệu cảnh báo đỏ từ sớm và dũng cảm cắt đứt mối quan hệ một cách dứt khoát chính là cách duy nhất để tự bảo vệ sinh mạng của mình.",
+  "role": "H",
+  "direction": "phân tích dư chấn xã hội và bài học tư pháp",
+  "text": "Vụ án Jodi Arias đã để lại những dư chấn sâu sắc đối với toàn bộ nền truyền thông và hệ thống tư pháp Hoa Kỳ. Hiện tượng rạp xiếc truyền thông đã làm dấy lên những cuộc tranh luận gay gắt về ranh giới phát sóng trực tiếp tại tòa án. Sự bùng nổ của mạng xã hội khiến bồi thẩm đoàn phải chịu áp lực dư luận chưa từng có tiền lệ trong lịch sử xét xử. Nhiều bang sau đó đã tăng cường các quy định nghiêm ngặt về sự hiện diện của máy quay truyền hình trong các vụ án hình sự nghiêm trọng. Vụ án cũng thúc đẩy các nghiên cứu pháp y chuyên sâu về cách nhận diện và xử lý lời khai của các đối tượng rối loạn nhân cách ranh giới. Nó chứng minh rằng công lý hình sự đòi hỏi sự kiên định tuyệt đối trước các màn kịch thao túng cảm xúc tinh vi. Gia đình Travis đã thành lập các quỹ tưởng niệm nhằm hỗ trợ các nạn nhân của hành vi rình rập và bạo hành tâm lý trong xã hội. Di sản của anh tiếp tục sống mãi qua tình yêu thương của bạn bè và những bài học cảnh tỉnh sâu sắc gửi lại cuộc đời. Trả lại danh dự và sự tôn nghiêm trọn vẹn cho người đã khuất chính là chiến thắng lớn nhất của sự thật trước sự ngụy tạo.",
   "sentences": [
    {
     "id": "5.04#1",
-    "text": "Bi kịch của Travis Alexander là một hồi chuông cảnh tỉnh sâu sắc về sự nguy hiểm tiềm ẩn khi chúng ta đánh giá thấp những bất ổn tâm lý của người bạn đời.",
-    "words": 34
+    "text": "Vụ án Jodi Arias đã để lại những dư chấn sâu sắc đối với toàn bộ nền truyền thông và hệ thống tư pháp Hoa Kỳ.",
+    "words": 26
    },
    {
     "id": "5.04#2",
-    "text": "Rối loạn nhân cách ranh giới và tính khí ái kỷ khi không được nhận diện và điều trị kịp thời có thể chuyển hóa thành sự thù hận hủy diệt.",
-    "words": 31
+    "text": "Hiện tượng rạp xiếc truyền thông đã làm dấy lên những cuộc tranh luận gay gắt về ranh giới phát sóng trực tiếp tại tòa án.",
+    "words": 26
    },
    {
     "id": "5.04#3",
-    "text": "Tình yêu đích thực phải được xây dựng trên sự tôn trọng tự do và ranh giới cá nhân, chứ không bao giờ là sự sở hữu tuyệt đối và nỗi ám ảnh kiểm soát.",
-    "words": 35
+    "text": "Sự bùng nổ của mạng xã hội khiến bồi thẩm đoàn phải chịu áp lực dư luận chưa từng có tiền lệ trong lịch sử xét xử.",
+    "words": 27
    },
    {
     "id": "5.04#4",
-    "text": "Biết nhận diện những tín hiệu cảnh báo đỏ từ sớm và dũng cảm cắt đứt mối quan hệ một cách dứt khoát chính là cách duy nhất để tự bảo vệ sinh mạng của mình.",
-    "words": 36
+    "text": "Nhiều bang sau đó đã tăng cường các quy định nghiêm ngặt về sự hiện diện của máy quay truyền hình trong các vụ án hình sự nghiêm trọng.",
+    "words": 29
+   },
+   {
+    "id": "5.04#5",
+    "text": "Vụ án cũng thúc đẩy các nghiên cứu pháp y chuyên sâu về cách nhận diện và xử lý lời khai của các đối tượng rối loạn nhân cách ranh giới.",
+    "words": 31
+   },
+   {
+    "id": "5.04#6",
+    "text": "Nó chứng minh rằng công lý hình sự đòi hỏi sự kiên định tuyệt đối trước các màn kịch thao túng cảm xúc tinh vi.",
+    "words": 25
+   },
+   {
+    "id": "5.04#7",
+    "text": "Gia đình Travis đã thành lập các quỹ tưởng niệm nhằm hỗ trợ các nạn nhân của hành vi rình rập và bạo hành tâm lý trong xã hội.",
+    "words": 29
+   },
+   {
+    "id": "5.04#8",
+    "text": "Di sản của anh tiếp tục sống mãi qua tình yêu thương của bạn bè và những bài học cảnh tỉnh sâu sắc gửi lại cuộc đời.",
+    "words": 27
+   },
+   {
+    "id": "5.04#9",
+    "text": "Trả lại danh dự và sự tôn nghiêm trọn vẹn cho người đã khuất chính là chiến thắng lớn nhất của sự thật trước sự ngụy tạo.",
+    "words": 27
    }
   ]
  },
  {
   "id": "5.05",
   "act": 5,
-  "kind": "LOI",
-  "role": "H",
-  "direction": "chuyển sang phần đúc kết và bài học nhận diện thực tế",
-  "text": "Để giúp mỗi chúng ta tự bảo vệ bản thân và người thân trước những mối quan hệ độc hại, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ kinh điển được đúc kết từ hồ sơ Jodi Arias. Dấu hiệu thứ nhất: Hiện tượng lý tưởng hóa quá mức ban đầu kết hợp với hiệu ứng tắc kè hoa. Khi một người mới quen ngay lập tức tôn sùng bạn như một vị thần hoàn hảo, sao chép mọi thói quen, sở thích và từ bỏ cả niềm tin cá nhân để hòa tan vào bạn, hãy cẩn trọng. Sự gắn kết quá nhanh và mãnh liệt này thường là dấu hiệu của sự thiếu hụt căn tính cá nhân và sẽ nhanh chóng biến thành sự thất vọng cuồng nộ khi rạn nứt xảy ra. Dấu hiệu thứ hai: Không chấp nhận bất kỳ ranh giới cá nhân nào và có hành vi rình rập ám ảnh. Một đối tác độc hại sẽ liên tục kiểm tra điện thoại, xuất hiện bất ngờ tại nơi làm việc, theo dõi lịch trình và coi việc bạn có không gian riêng là một sự phản bội. Sự kiểm soát vô lý này không phải là biểu hiện của tình yêu sâu đậm, mà là sự sở hữu bệnh hoạn bắt nguồn từ nỗi sợ hãi tột cùng trước sự cô độc. Dấu hiệu thứ ba: Cơ chế tâm lý phân tách nhị nguyên, yêu cuồng sống vội và biến thiên cảm xúc cực đoan. Bạn có thể được họ nâng niu lên đỉnh mây xanh vào buổi sáng, nhưng chỉ cần một lời từ chối nhỏ vào buổi chiều, bạn sẽ ngay lập tức bị coi là kẻ thù tồi tệ nhất. Sự thất thường cảm xúc này sẽ biến mối quan hệ thành một bãi mìn tâm lý, khiến bạn luôn phải sống trong trạng thái lo âu và kiệt quệ tinh thần. Dấu hiệu thứ tư: Những phản ứng bạo lực leo thang và lời đe dọa mang tính hủy diệt khi đối diện với nguy cơ chia tay. Những hành vi như đâm thủng lốp xe, đột nhập nơi ở, đe dọa tự làm hại bản thân hoặc đe dọa phá hủy cuộc sống của bạn là những báo động đỏ cấp tính. Tuyệt đối không bao giờ thỏa hiệp, nhượng bộ tình dục hay gặp gỡ riêng tư ở những nơi vắng vẻ khi mối quan hệ đã bước vào giai đoạn thù địch nguy hiểm này. Sự an toàn về thể xác và tinh thần của bạn luôn là ưu tiên tối thượng vượt lên trên mọi sự tiếc nuối hay cảm giác tội lỗi giả tạo. Cảm ơn quý vị đã dành thời gian đồng hành cùng Amber Eyes trong tập hồ sơ tâm lý học tội phạm đầy ám ảnh và bài học đắt giá ngày hôm nay. Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ những suy nghĩ của bạn ở phần bình luận phía dưới. Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
-  "sentences": [
-   {
-    "id": "5.05#1",
-    "text": "Để giúp mỗi chúng ta tự bảo vệ bản thân và người thân trước những mối quan hệ độc hại, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ kinh điển được đúc kết từ hồ sơ Jodi Arias.",
-    "words": 42
-   },
-   {
-    "id": "5.05#2",
-    "text": "Dấu hiệu thứ nhất: Hiện tượng lý tưởng hóa quá mức ban đầu kết hợp với hiệu ứng tắc kè hoa.",
-    "words": 21
-   },
-   {
-    "id": "5.05#3",
-    "text": "Khi một người mới quen ngay lập tức tôn sùng bạn như một vị thần hoàn hảo, sao chép mọi thói quen, sở thích và từ bỏ cả niềm tin cá nhân để hòa tan vào bạn, hãy cẩn trọng.",
-    "words": 40
-   },
-   {
-    "id": "5.05#4",
-    "text": "Sự gắn kết quá nhanh và mãnh liệt này thường là dấu hiệu của sự thiếu hụt căn tính cá nhân và sẽ nhanh chóng biến thành sự thất vọng cuồng nộ khi rạn nứt xảy ra.",
-    "words": 37
-   },
-   {
-    "id": "5.05#5",
-    "text": "Dấu hiệu thứ hai: Không chấp nhận bất kỳ ranh giới cá nhân nào và có hành vi rình rập ám ảnh.",
-    "words": 22
-   },
-   {
-    "id": "5.05#6",
-    "text": "Một đối tác độc hại sẽ liên tục kiểm tra điện thoại, xuất hiện bất ngờ tại nơi làm việc, theo dõi lịch trình và coi việc bạn có không gian riêng là một sự phản bội.",
-    "words": 37
-   },
-   {
-    "id": "5.05#7",
-    "text": "Sự kiểm soát vô lý này không phải là biểu hiện của tình yêu sâu đậm, mà là sự sở hữu bệnh hoạn bắt nguồn từ nỗi sợ hãi tột cùng trước sự cô độc.",
-    "words": 35
-   },
-   {
-    "id": "5.05#8",
-    "text": "Dấu hiệu thứ ba: Cơ chế tâm lý phân tách nhị nguyên, yêu cuồng sống vội và biến thiên cảm xúc cực đoan.",
-    "words": 23
-   },
-   {
-    "id": "5.05#9",
-    "text": "Bạn có thể được họ nâng niu lên đỉnh mây xanh vào buổi sáng, nhưng chỉ cần một lời từ chối nhỏ vào buổi chiều, bạn sẽ ngay lập tức bị coi là kẻ thù tồi tệ nhất.",
-    "words": 38
-   },
-   {
-    "id": "5.05#10",
-    "text": "Sự thất thường cảm xúc này sẽ biến mối quan hệ thành một bãi mìn tâm lý, khiến bạn luôn phải sống trong trạng thái lo âu và kiệt quệ tinh thần.",
-    "words": 32
-   },
-   {
-    "id": "5.05#11",
-    "text": "Dấu hiệu thứ tư: Những phản ứng bạo lực leo thang và lời đe dọa mang tính hủy diệt khi đối diện với nguy cơ chia tay.",
-    "words": 27
-   },
-   {
-    "id": "5.05#12",
-    "text": "Những hành vi như đâm thủng lốp xe, đột nhập nơi ở, đe dọa tự làm hại bản thân hoặc đe dọa phá hủy cuộc sống của bạn là những báo động đỏ cấp tính.",
-    "words": 35
-   },
-   {
-    "id": "5.05#13",
-    "text": "Tuyệt đối không bao giờ thỏa hiệp, nhượng bộ tình dục hay gặp gỡ riêng tư ở những nơi vắng vẻ khi mối quan hệ đã bước vào giai đoạn thù địch nguy hiểm này.",
-    "words": 35
-   },
-   {
-    "id": "5.05#14",
-    "text": "Sự an toàn về thể xác và tinh thần của bạn luôn là ưu tiên tối thượng vượt lên trên mọi sự tiếc nuối hay cảm giác tội lỗi giả tạo.",
-    "words": 31
-   },
-   {
-    "id": "5.05#15",
-    "text": "Cảm ơn quý vị đã dành thời gian đồng hành cùng Amber Eyes trong tập hồ sơ tâm lý học tội phạm đầy ám ảnh và bài học đắt giá ngày hôm nay.",
-    "words": 33
-   },
-   {
-    "id": "5.05#16",
-    "text": "Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ những suy nghĩ của bạn ở phần bình luận phía dưới.",
-    "words": 24
-   },
-   {
-    "id": "5.05#17",
-    "text": "Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
-    "words": 17
-   }
-  ]
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": ""
  },
  {
   "id": "5.06",
   "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "dẫn nhập vào các nguyên tắc cảnh báo sinh tồn",
+  "text": "Để những bi kịch tương tự không còn cơ hội lặp lại, khoa học hành vi đã đúc kết những bài học quý giá từ vụ án này. Tiến sĩ Gavin de Becker trong tác phẩm kinh điển “Món quà của nỗi sợ hãi” đã nhấn mạnh tầm quan trọng của việc lắng nghe trực giác sinh tồn. Những mối quan hệ nguy hiểm không bao giờ bộc phát trong một đêm, mà luôn gửi đi những tín hiệu cảnh báo vi tế từ rất sớm. Dưới đây là bốn dấu hiệu cảnh báo đỏ cốt lõi mà mỗi người cần ghi nhớ để nhận diện và bảo vệ chính bản thân mình.",
+  "sentences": [
+   {
+    "id": "5.06#1",
+    "text": "Để những bi kịch tương tự không còn cơ hội lặp lại, khoa học hành vi đã đúc kết những bài học quý giá từ vụ án này.",
+    "words": 28
+   },
+   {
+    "id": "5.06#2",
+    "text": "Tiến sĩ Gavin de Becker trong tác phẩm kinh điển “Món quà của nỗi sợ hãi” đã nhấn mạnh tầm quan trọng của việc lắng nghe trực giác sinh tồn.",
+    "words": 30
+   },
+   {
+    "id": "5.06#3",
+    "text": "Những mối quan hệ nguy hiểm không bao giờ bộc phát trong một đêm, mà luôn gửi đi những tín hiệu cảnh báo vi tế từ rất sớm.",
+    "words": 28
+   },
+   {
+    "id": "5.06#4",
+    "text": "Dưới đây là bốn dấu hiệu cảnh báo đỏ cốt lõi mà mỗi người cần ghi nhớ để nhận diện và bảo vệ chính bản thân mình.",
+    "words": 27
+   }
+  ]
+ },
+ {
+  "id": "5.07",
+  "act": 5,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "phân tích chuyên sâu Cảnh báo đỏ 1 và 2",
+  "text": "Cảnh báo đỏ thứ nhất: Sự lý tưởng hóa dồn dập kết hợp với Hiệu ứng Tắc kè hoa. Khi một người mới quen ngay lập tức tôn sùng bạn như hình mẫu hoàn hảo duy nhất, vội vã thay đổi niềm tin và sao chép sở thích của bạn, hãy hết sức thận trọng. Sự gắn kết quá nhanh phản ánh một cái tôi trống rỗng và dễ dàng chuyển hóa thành cơn thịnh nộ cực đoan khi ảo tưởng tan vỡ. Cảnh báo đỏ thứ hai: Sự xâm phạm ranh giới cá nhân và hành vi kiểm soát vi tế. Kẻ săn mồi tâm lý sẽ âm thầm kiểm tra điện thoại, lén xuất hiện tại nơi làm việc và theo dõi các mối quan hệ xã hội của bạn. Họ ngụy trang sự chiếm hữu bệnh hoạn dưới vỏ bọc của tình yêu sâu đậm và sự quan tâm lo lắng chân thành. Khi bạn nhượng bộ những bước lấn ranh giới nhỏ, họ sẽ dần dần thiết lập quyền kiểm soát toàn diện lên cuộc sống của bạn.",
+  "sentences": [
+   {
+    "id": "5.07#1",
+    "text": "Cảnh báo đỏ thứ nhất: Sự lý tưởng hóa dồn dập kết hợp với Hiệu ứng Tắc kè hoa.",
+    "words": 19
+   },
+   {
+    "id": "5.07#2",
+    "text": "Khi một người mới quen ngay lập tức tôn sùng bạn như hình mẫu hoàn hảo duy nhất, vội vã thay đổi niềm tin và sao chép sở thích của bạn, hãy hết sức thận trọng.",
+    "words": 36
+   },
+   {
+    "id": "5.07#3",
+    "text": "Sự gắn kết quá nhanh phản ánh một cái tôi trống rỗng và dễ dàng chuyển hóa thành cơn thịnh nộ cực đoan khi ảo tưởng tan vỡ.",
+    "words": 28
+   },
+   {
+    "id": "5.07#4",
+    "text": "Cảnh báo đỏ thứ hai: Sự xâm phạm ranh giới cá nhân và hành vi kiểm soát vi tế.",
+    "words": 19
+   },
+   {
+    "id": "5.07#5",
+    "text": "Kẻ săn mồi tâm lý sẽ âm thầm kiểm tra điện thoại, lén xuất hiện tại nơi làm việc và theo dõi các mối quan hệ xã hội của bạn.",
+    "words": 30
+   },
+   {
+    "id": "5.07#6",
+    "text": "Họ ngụy trang sự chiếm hữu bệnh hoạn dưới vỏ bọc của tình yêu sâu đậm và sự quan tâm lo lắng chân thành.",
+    "words": 24
+   },
+   {
+    "id": "5.07#7",
+    "text": "Khi bạn nhượng bộ những bước lấn ranh giới nhỏ, họ sẽ dần dần thiết lập quyền kiểm soát toàn diện lên cuộc sống của bạn.",
+    "words": 26
+   }
+  ]
+ },
+ {
+  "id": "5.08",
+  "act": 5,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "phân tích nghiệp vụ Cảnh báo đỏ 3 và 4",
+  "text": "Cảnh báo đỏ thứ ba: Tư duy phân tách trắng đen và cảm xúc biến thiên cực đoan. Đối phương có thể nâng bạn lên mây xanh vào buổi sáng, nhưng lập tức coi bạn là kẻ thù không đội trời chung chỉ sau một lời từ chối nhỏ vào buổi chiều. Cảnh báo đỏ thứ tư: Những hành vi leo thang đe dọa và phá hoại tài sản khi đối diện với nguy cơ chia tay. Rạch lốp xe, gửi tin nhắn đe dọa, xâm nhập nơi ở hoặc tự đe dọa hủy hoại bản thân là những tín hiệu báo động cấp tính về nguy cơ bạo lực thực thể. Trong tình huống này, tuyệt đối không được gặp gỡ riêng ở nơi vắng vẻ, hãy báo cho người thân và tìm kiếm sự can thiệp từ cơ quan chức năng hoặc các đường dây hỗ trợ bảo vệ.",
+  "sentences": [
+   {
+    "id": "5.08#1",
+    "text": "Cảnh báo đỏ thứ ba: Tư duy phân tách trắng đen và cảm xúc biến thiên cực đoan.",
+    "words": 18
+   },
+   {
+    "id": "5.08#2",
+    "text": "Đối phương có thể nâng bạn lên mây xanh vào buổi sáng, nhưng lập tức coi bạn là kẻ thù không đội trời chung chỉ sau một lời từ chối nhỏ vào buổi chiều.",
+    "words": 34
+   },
+   {
+    "id": "5.08#3",
+    "text": "Cảnh báo đỏ thứ tư: Những hành vi leo thang đe dọa và phá hoại tài sản khi đối diện với nguy cơ chia tay.",
+    "words": 25
+   },
+   {
+    "id": "5.08#4",
+    "text": "Rạch lốp xe, gửi tin nhắn đe dọa, xâm nhập nơi ở hoặc tự đe dọa hủy hoại bản thân là những tín hiệu báo động cấp tính về nguy cơ bạo lực thực thể.",
+    "words": 35
+   },
+   {
+    "id": "5.08#5",
+    "text": "Trong tình huống này, tuyệt đối không được gặp gỡ riêng ở nơi vắng vẻ, hãy báo cho người thân và tìm kiếm sự can thiệp từ cơ quan chức năng hoặc các đường dây hỗ trợ bảo vệ.",
+    "words": 39
+   }
+  ]
+ },
+ {
+  "id": "5.09",
+  "act": 5,
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": "Nhạc nền Piano dâng lên nhẹ nhàng, ấm áp"
+ },
+ {
+  "id": "5.10",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "đúc kết triết lý nhân văn và tình yêu lành mạnh",
+  "text": "Tình yêu đích thực phải là nơi nuôi dưỡng sự tự do, tôn trọng phẩm giá và nâng đỡ ranh giới của nhau. Nó không bao giờ là sự chiếm hữu độc đoán, sự kiểm soát ngột ngạt hay chiếc bẫy thao túng cảm xúc tinh vi. Đừng bao giờ bỏ qua trực giác bất an bên trong bạn, bởi đó chính là cơ chế tự vệ sinh học tự nhiên quý giá nhất mà tạo hóa ban tặng. Nhận diện những bước lấn ranh giới từ sớm và dũng cảm bước ra khỏi mối quan hệ độc hại là cách tốt nhất để bảo vệ mạng sống của chính mình. Hồ sơ Jodi Arias khép lại như một lời nhắc nhở nghiêm khắc về bóng tối của một tâm hồn không có ranh giới đạo đức. Ánh sáng của sự thật và công lý đã soi rọi đến tận cùng mọi góc khuất dối trá để trả lại sự công bằng. Xin chân thành cảm ơn quý vị đã dành thời gian đồng hành cùng hồ sơ phân tích tâm lý học tội phạm của Amber Eyes ngày hôm nay. Hãy nhấn đăng ký kênh, chia sẻ suy nghĩ của bạn trong phần bình luận và cùng lan tỏa những bài học nhân văn bổ ích này đến cộng đồng.",
+  "sentences": [
+   {
+    "id": "5.10#1",
+    "text": "Tình yêu đích thực phải là nơi nuôi dưỡng sự tự do, tôn trọng phẩm giá và nâng đỡ ranh giới của nhau.",
+    "words": 23
+   },
+   {
+    "id": "5.10#2",
+    "text": "Nó không bao giờ là sự chiếm hữu độc đoán, sự kiểm soát ngột ngạt hay chiếc bẫy thao túng cảm xúc tinh vi.",
+    "words": 24
+   },
+   {
+    "id": "5.10#3",
+    "text": "Đừng bao giờ bỏ qua trực giác bất an bên trong bạn, bởi đó chính là cơ chế tự vệ sinh học tự nhiên quý giá nhất mà tạo hóa ban tặng.",
+    "words": 32
+   },
+   {
+    "id": "5.10#4",
+    "text": "Nhận diện những bước lấn ranh giới từ sớm và dũng cảm bước ra khỏi mối quan hệ độc hại là cách tốt nhất để bảo vệ mạng sống của chính mình.",
+    "words": 32
+   },
+   {
+    "id": "5.10#5",
+    "text": "Hồ sơ Jodi Arias khép lại như một lời nhắc nhở nghiêm khắc về bóng tối của một tâm hồn không có ranh giới đạo đức.",
+    "words": 26
+   },
+   {
+    "id": "5.10#6",
+    "text": "Ánh sáng của sự thật và công lý đã soi rọi đến tận cùng mọi góc khuất dối trá để trả lại sự công bằng.",
+    "words": 25
+   },
+   {
+    "id": "5.10#7",
+    "text": "Xin chân thành cảm ơn quý vị đã dành thời gian đồng hành cùng hồ sơ phân tích tâm lý học tội phạm của Amber Eyes ngày hôm nay.",
+    "words": 29
+   },
+   {
+    "id": "5.10#8",
+    "text": "Hãy nhấn đăng ký kênh, chia sẻ suy nghĩ của bạn trong phần bình luận và cùng lan tỏa những bài học nhân văn bổ ích này đến cộng đồng.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "5.11",
+  "act": 5,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": ""
+ },
+ {
+  "id": "5.12",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "lời chào tạm biệt trang trọng",
+  "text": "Hãy luôn trân trọng sự bình an của bản thân và giữ vững sự sáng suốt trước những chiếc bẫy tâm lý vô hình. Kính chúc quý vị và gia đình luôn an toàn, hạnh phúc trong cuộc sống. Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo. Hồ sơ Tập 15: Đã chính thức khép lại.",
+  "sentences": [
+   {
+    "id": "5.12#1",
+    "text": "Hãy luôn trân trọng sự bình an của bản thân và giữ vững sự sáng suốt trước những chiếc bẫy tâm lý vô hình.",
+    "words": 24
+   },
+   {
+    "id": "5.12#2",
+    "text": "Kính chúc quý vị và gia đình luôn an toàn, hạnh phúc trong cuộc sống.",
+    "words": 15
+   },
+   {
+    "id": "5.12#3",
+    "text": "Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
+    "words": 17
+   },
+   {
+    "id": "5.12#4",
+    "text": "Hồ sơ Tập 15: Đã chính thức khép lại.",
+    "words": 9
+   }
+  ]
+ },
+ {
+  "id": "5.13",
+  "act": 5,
+  "kind": "SFX",
+  "desc": "Tiếng đóng bìa hồ sơ dày cộp \"Bộp\", tiếng đóng dấu mộc \"Cộp\" vang lên dứt khoát."
+ },
+ {
+  "id": "5.14",
+  "act": 5,
   "kind": "BGM",
-  "desc": "*Nhạc nền ngân vang ấm áp, trang trọng rồi mờ dần (Fade out hoàn toàn ở giây thứ 5).*"
+  "desc": "Nhạc Piano ấm áp ngân vang nốt cuối cùng rồi mờ dần (Fade out hoàn toàn ở giây thứ 5)."
  }
 ]

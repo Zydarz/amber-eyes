@@ -101,7 +101,8 @@ for lang in ['EN', 'JA', 'KO']:
             print(f"  - {m}")
         parity_pass = False
     else:
-        print(f"PASS Parity VN vs {lang}: 100% 52 elements, 36 LOI turns, 192 sentences match 1:1")
+        total_s = sum(len(x.get('sentences', [])) for x in [e for e in lp if e['kind'] == 'LOI'])
+        print(f"PASS Parity VN vs {lang}: 100% 52 elements, 36 LOI turns, {total_s} sentences match 1:1")
 
 all_pass = all_green and parity_pass
 print(f"\n>>> FINAL QUALITY GATE: {'ALL GREEN - PASSED' if all_pass else 'FAILED'} <<<")

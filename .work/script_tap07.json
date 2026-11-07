@@ -3,15 +3,15 @@
   "id": "1.01",
   "act": 1,
   "kind": "BGM",
-  "desc": "*Tiếng piano tối giản, chậm rãi, hòa quyện cùng âm thanh Synth điện tử lạnh buốt như ánh sáng màn hình điện thoại trong đêm tối.*"
+  "desc": "Tiếng dương cầm mở đầu chậm rãi, lạnh lẽo, hòa cùng tiếng nhịp Synth điện tử mô phỏng ánh sáng màn hình điện thoại trong đêm tối."
  },
  {
   "id": "1.02",
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "chậm rãi, giọng trầm ấm dẫn dắt",
-  "text": "Chào mừng quý vị đã quay trở lại với Amber Eyes. Hôm nay, chúng ta cùng giải phẫu một hồ sơ tâm lý học tội phạm đặc biệt: Thao túng tâm trí và tội phạm không chạm tay. Hãy thử hình dung một thảm kịch không có hung khí, không có dấu vết vật lý tại hiện trường, hai nhân vật chính cách nhau hơn năm mươi cây số đường bộ. Thế nhưng, một thiếu nữ khi ấy mới mười bảy tuổi về sau vẫn phải nhận bản án ngộ sát lịch sử. Tất cả khởi nguồn từ những dòng tin nhắn phát sáng trong đêm và một chiếc bẫy tâm lý vô hình. Vụ án đã tạo nên một cơn sốt truyền thông và nỗi hoang tưởng tập thể, làm rúng động toàn bộ dư luận nước Mỹ.",
+  "direction": "chậm rãi, giọng trầm ấm gợi mở bối cảnh",
+  "text": "Chào mừng quý vị đã quay trở lại với Amber Eyes. Hôm nay, chúng ta cùng giải phẫu một hồ sơ tội phạm đặc biệt chưa từng có tiền lệ: Tội phạm không chạm tay và sự thao túng tâm lý trong không gian số. Hãy hình dung một thảm kịch không có hung khí vật lý, không có dấu vết xô xát tại hiện trường, và hai nhân vật chính ở cách xa nhau hơn năm mươi sáu cây số. Thế nhưng, một thiếu nữ khi ấy mới mười bảy tuổi về sau vẫn phải nhận bản án ngộ sát lịch sử trước tòa án Hoa Kỳ. Toàn bộ bi kịch khởi nguồn từ những dòng tin nhắn phát sáng âm thầm trong đêm khuya và một chiếc bẫy tâm lý vô hình. Vụ án đã tạo nên một cơn sốt truyền thông toàn cầu cùng nỗi hoang tưởng tập thể, làm rúng động toàn bộ dư luận xã hội. Một lời cảnh tỉnh nghiêm khắc về mặt tối của thế giới kết nối ảo, nơi ngôn từ có thể biến thành vũ khí đoạt mạng con người.",
   "sentences": [
    {
     "id": "1.02#1",
@@ -20,28 +20,33 @@
    },
    {
     "id": "1.02#2",
-    "text": "Hôm nay, chúng ta cùng giải phẫu một hồ sơ tâm lý học tội phạm đặc biệt: Thao túng tâm trí và tội phạm không chạm tay.",
-    "words": 27
+    "text": "Hôm nay, chúng ta cùng giải phẫu một hồ sơ tội phạm đặc biệt chưa từng có tiền lệ: Tội phạm không chạm tay và sự thao túng tâm lý trong không gian số.",
+    "words": 34
    },
    {
     "id": "1.02#3",
-    "text": "Hãy thử hình dung một thảm kịch không có hung khí, không có dấu vết vật lý tại hiện trường, hai nhân vật chính cách nhau hơn năm mươi cây số đường bộ.",
-    "words": 33
+    "text": "Hãy hình dung một thảm kịch không có hung khí vật lý, không có dấu vết xô xát tại hiện trường, và hai nhân vật chính ở cách xa nhau hơn năm mươi sáu cây số.",
+    "words": 36
    },
    {
     "id": "1.02#4",
-    "text": "Thế nhưng, một thiếu nữ khi ấy mới mười bảy tuổi về sau vẫn phải nhận bản án ngộ sát lịch sử.",
-    "words": 22
+    "text": "Thế nhưng, một thiếu nữ khi ấy mới mười bảy tuổi về sau vẫn phải nhận bản án ngộ sát lịch sử trước tòa án Hoa Kỳ.",
+    "words": 27
    },
    {
     "id": "1.02#5",
-    "text": "Tất cả khởi nguồn từ những dòng tin nhắn phát sáng trong đêm và một chiếc bẫy tâm lý vô hình.",
-    "words": 21
+    "text": "Toàn bộ bi kịch khởi nguồn từ những dòng tin nhắn phát sáng âm thầm trong đêm khuya và một chiếc bẫy tâm lý vô hình.",
+    "words": 26
    },
    {
     "id": "1.02#6",
-    "text": "Vụ án đã tạo nên một cơn sốt truyền thông và nỗi hoang tưởng tập thể, làm rúng động toàn bộ dư luận nước Mỹ.",
-    "words": 25
+    "text": "Vụ án đã tạo nên một cơn sốt truyền thông toàn cầu cùng nỗi hoang tưởng tập thể, làm rúng động toàn bộ dư luận xã hội.",
+    "words": 27
+   },
+   {
+    "id": "1.02#7",
+    "text": "Một lời cảnh tỉnh nghiêm khắc về mặt tối của thế giới kết nối ảo, nơi ngôn từ có thể biến thành vũ khí đoạt mạng con người.",
+    "words": 28
    }
   ]
  },
@@ -49,15 +54,15 @@
   "id": "1.03",
   "act": 1,
   "kind": "SFX",
-  "desc": "*Tiếng gõ phím cảm ứng lách tách dồn dập, tiếng chuông thông báo tin nhắn vang lên khô khốc rồi chìm vào không gian tĩnh lặng.*"
+  "desc": "Tiếng gõ bàn phím cảm ứng lách tách dồn dập, tiếng chuông thông báo tin nhắn vang lên khô khốc rồi chìm vào tĩnh lặng."
  },
  {
   "id": "1.04",
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "tiếp tục mạch tự sự",
-  "text": "Sáng ngày 13 tháng 7 năm 2014, tại bãi đỗ xe của siêu thị Kmart thuộc thị trấn ven biển Fairhaven, bang Massachusetts. Chiếc xe bán tải hiệu Ford F-250 màu đen đỗ im lìm suốt nhiều giờ liền ở một góc khuất vắng vẻ. Khi cảnh sát tìm đến, người bên trong cabin đã không còn dấu hiệu sinh tồn.",
+  "direction": "chuyển giọng trầm buồn, mô tả hiện trường",
+  "text": "Sáng ngày 13 tháng 7 năm 2014, tại bãi đỗ xe của siêu thị Kmart thuộc thị trấn ven biển Fairhaven, bang Massachusetts. Một chiếc xe bán tải hiệu Ford F-250 màu đen đỗ im lìm suốt nhiều giờ liền ở một góc khuất vắng vẻ phía sau siêu thị. Khi lực lượng cảnh sát địa phương tiếp cận và mở cửa phương tiện, người bên trong cabin đã không còn dấu hiệu sinh tồn. Một bầu không khí ngột ngạt bao trùm toàn bộ không gian chiếc xe kín mít dưới cái nắng hè oi ả. Mặt trời buổi sáng rọi chiếu xuống bãi đỗ xe nhựa đường bốc hơi nóng nhưng bên trong cabin lại lạnh lẽo sự tuyệt vọng. Không hề có dấu vết của sự giằng co, đồ đạc của nạn nhân vẫn còn nguyên vẹn trên ghế phụ.",
   "sentences": [
    {
     "id": "1.04#1",
@@ -66,13 +71,28 @@
    },
    {
     "id": "1.04#2",
-    "text": "Chiếc xe bán tải hiệu Ford F-250 màu đen đỗ im lìm suốt nhiều giờ liền ở một góc khuất vắng vẻ.",
-    "words": 22
+    "text": "Một chiếc xe bán tải hiệu Ford F-250 màu đen đỗ im lìm suốt nhiều giờ liền ở một góc khuất vắng vẻ phía sau siêu thị.",
+    "words": 27
    },
    {
     "id": "1.04#3",
-    "text": "Khi cảnh sát tìm đến, người bên trong cabin đã không còn dấu hiệu sinh tồn.",
-    "words": 16
+    "text": "Khi lực lượng cảnh sát địa phương tiếp cận và mở cửa phương tiện, người bên trong cabin đã không còn dấu hiệu sinh tồn.",
+    "words": 25
+   },
+   {
+    "id": "1.04#4",
+    "text": "Một bầu không khí ngột ngạt bao trùm toàn bộ không gian chiếc xe kín mít dưới cái nắng hè oi ả.",
+    "words": 22
+   },
+   {
+    "id": "1.04#5",
+    "text": "Mặt trời buổi sáng rọi chiếu xuống bãi đỗ xe nhựa đường bốc hơi nóng nhưng bên trong cabin lại lạnh lẽo sự tuyệt vọng.",
+    "words": 25
+   },
+   {
+    "id": "1.04#6",
+    "text": "Không hề có dấu vết của sự giằng co, đồ đạc của nạn nhân vẫn còn nguyên vẹn trên ghế phụ.",
+    "words": 21
    }
   ]
  },
@@ -80,7 +100,7 @@
   "id": "1.05",
   "act": 1,
   "kind": "SFX",
-  "desc": "*Tiếng bước chân sột soạt trên nền nhựa đường, tiếng gõ cửa kính xe.*"
+  "desc": "Tiếng bước chân sột soạt trên nền nhựa đường, tiếng mở cửa xe kim loại nặng nề."
  },
  {
   "id": "1.06",
@@ -88,47 +108,47 @@
   "kind": "LOI",
   "role": "H",
   "direction": "trầm giọng xúc động khi giới thiệu về nạn nhân",
-  "text": "Bên trong cabin xe, chàng trai trẻ mười tám tuổi Conrad Henri Roy Đệ Tam nằm bất động. Cậu đã tự tước đoạt mạng sống của mình trong nỗi tuyệt vọng cô độc. Conrad Roy không phải là một thanh niên ngỗ ngược hay bất hảo. Cậu là một chàng trai khôi ngô, giàu lòng nhân hậu và có một tương lai rộng mở phía trước. Cậu vừa xuất sắc tốt nghiệp trung học và nhận được tấm bằng thuyền trưởng điều khiển tàu kéo để tiếp nối nghề truyền thống của gia đình. Thế nhưng, phía sau nụ cười hiền lành ấy là một tâm hồn mong manh, thường xuyên phải vật lộn với những cơn trầm cảm nặng và nỗi âu lo triền miên. Cậu đã từng nhiều lần tìm kiếm sự giúp đỡ y tế để thoát khỏi bóng tối tâm lý. Hãy hình dung nỗi đau xé lòng của mẹ cậu, bà Lynn Roy, trong buổi sáng định mệnh hôm ấy.",
+  "text": "Bên trong cabin xe, chàng trai trẻ mười tám tuổi Conrad Henri Roy Đệ Tam nằm bất động trong nỗi tuyệt vọng cô độc. Cậu đã tự tước đoạt mạng sống của chính mình sau những giằng xé nội tâm đau đớn. Conrad Roy không phải là một thanh niên ngỗ ngược hay hư hỏng như nhiều định kiến xã hội thường lầm tưởng. Cậu là một chàng trai khôi ngô, giàu lòng nhân ái, chăm chỉ và có một tương lai nghề nghiệp xán lạn phía trước. Conrad vừa xuất sắc tốt nghiệp trung học và vinh dự nhận được tấm bằng thuyền trưởng điều khiển tàu kéo để tiếp nối truyền thống của gia đình. Thế nhưng, phía sau nụ cười hiền lành ấy là một tâm hồn mong manh, thường xuyên phải vật lộn với những cơn trầm cảm nặng và nỗi âu lo xã hội triền miên. Cậu đã từng nhiều lần chủ động tìm kiếm sự giúp đỡ y tế và gặp gỡ các chuyên gia trị liệu để cố gắng vượt qua bóng tối tâm lý. Hãy lắng nghe nỗi đau xé lòng của mẹ cậu, bà Lynn Roy, trong buổi sáng định mệnh kinh hoàng hôm ấy.",
   "sentences": [
    {
     "id": "1.06#1",
-    "text": "Bên trong cabin xe, chàng trai trẻ mười tám tuổi Conrad Henri Roy Đệ Tam nằm bất động.",
-    "words": 18
+    "text": "Bên trong cabin xe, chàng trai trẻ mười tám tuổi Conrad Henri Roy Đệ Tam nằm bất động trong nỗi tuyệt vọng cô độc.",
+    "words": 24
    },
    {
     "id": "1.06#2",
-    "text": "Cậu đã tự tước đoạt mạng sống của mình trong nỗi tuyệt vọng cô độc.",
-    "words": 15
+    "text": "Cậu đã tự tước đoạt mạng sống của chính mình sau những giằng xé nội tâm đau đớn.",
+    "words": 18
    },
    {
     "id": "1.06#3",
-    "text": "Conrad Roy không phải là một thanh niên ngỗ ngược hay bất hảo.",
-    "words": 13
+    "text": "Conrad Roy không phải là một thanh niên ngỗ ngược hay hư hỏng như nhiều định kiến xã hội thường lầm tưởng.",
+    "words": 22
    },
    {
     "id": "1.06#4",
-    "text": "Cậu là một chàng trai khôi ngô, giàu lòng nhân hậu và có một tương lai rộng mở phía trước.",
-    "words": 20
+    "text": "Cậu là một chàng trai khôi ngô, giàu lòng nhân ái, chăm chỉ và có một tương lai nghề nghiệp xán lạn phía trước.",
+    "words": 24
    },
    {
     "id": "1.06#5",
-    "text": "Cậu vừa xuất sắc tốt nghiệp trung học và nhận được tấm bằng thuyền trưởng điều khiển tàu kéo để tiếp nối nghề truyền thống của gia đình.",
-    "words": 28
+    "text": "Conrad vừa xuất sắc tốt nghiệp trung học và vinh dự nhận được tấm bằng thuyền trưởng điều khiển tàu kéo để tiếp nối truyền thống của gia đình.",
+    "words": 29
    },
    {
     "id": "1.06#6",
-    "text": "Thế nhưng, phía sau nụ cười hiền lành ấy là một tâm hồn mong manh, thường xuyên phải vật lộn với những cơn trầm cảm nặng và nỗi âu lo triền miên.",
-    "words": 32
+    "text": "Thế nhưng, phía sau nụ cười hiền lành ấy là một tâm hồn mong manh, thường xuyên phải vật lộn với những cơn trầm cảm nặng và nỗi âu lo xã hội triền miên.",
+    "words": 34
    },
    {
     "id": "1.06#7",
-    "text": "Cậu đã từng nhiều lần tìm kiếm sự giúp đỡ y tế để thoát khỏi bóng tối tâm lý.",
-    "words": 19
+    "text": "Cậu đã từng nhiều lần chủ động tìm kiếm sự giúp đỡ y tế và gặp gỡ các chuyên gia trị liệu để cố gắng vượt qua bóng tối tâm lý.",
+    "words": 31
    },
    {
     "id": "1.06#8",
-    "text": "Hãy hình dung nỗi đau xé lòng của mẹ cậu, bà Lynn Roy, trong buổi sáng định mệnh hôm ấy.",
-    "words": 20
+    "text": "Hãy lắng nghe nỗi đau xé lòng của mẹ cậu, bà Lynn Roy, trong buổi sáng định mệnh kinh hoàng hôm ấy.",
+    "words": 22
    }
   ]
  },
@@ -137,33 +157,38 @@
   "act": 1,
   "kind": "LOI",
   "role": "N",
-  "direction": "N1: góc nhìn minh hoạ về nỗi đau của người mẹ, giọng nữ trung niên nghẹn ngào, đau xót",
-  "text": "Cả buổi sáng hôm đó, người mẹ linh cảm có điều gì đó chẳng lành khi không thể liên lạc được với con trai. Bà gọi điện liên tục, nhưng đáp lại chỉ là những tiếng chuông reo vô vọng trong khoảng không. Khoảnh khắc nhận tin báo từ cảnh sát, cả thế giới của gia đình như sụp đổ hoàn toàn. Ban đầu, người mẹ chỉ đau xót nghĩ rằng con mình đã quá mỏi mệt trước cuộc chiến với căn bệnh trầm cảm. Bà không thể ngờ rằng, có một kẻ săn mồi vô hình đã giật dây và tước đoạt đứa con trai yêu quý của bà từ khoảng cách xa xôi.",
+  "direction": "N1: góc nhìn minh hoạ của bà Lynn Roy, giọng nữ trung niên nghẹn ngào, đau xót",
+  "text": "Cả buổi sáng hôm đó, linh cảm người mẹ mách bảo tôi rằng có một điều gì đó vô cùng bất an đang xảy ra với con trai mình. Tôi liên tục bấm số gọi cho Conrad, nhưng đáp lại chỉ là những hồi chuông dài vô vọng rơi vào khoảng không tĩnh lặng. Khoảnh khắc nhận cuộc gọi thông báo từ cảnh sát địa phương, toàn bộ thế giới xung quanh tôi hoàn toàn sụp đổ tan tành. Ban đầu, tôi chỉ nghĩ trong đau đớn cùng cực rằng con mình đã đầu hàng trước căn bệnh trầm cảm dai dẳng mà cậu bé phải gánh chịu. Gia đình chúng tôi không thể nào ngờ được rằng, có một kẻ săn mồi giấu mặt đã liên tục giật dây tâm lý và đẩy con tôi vào chỗ chết từ một nơi rất xa. Nỗi đau mất đi đứa con trai yêu quý sẽ mãi mãi là vết thương hằn sâu không bao giờ lành trong tâm can người mẹ.",
   "sentences": [
    {
     "id": "1.07#1",
-    "text": "Cả buổi sáng hôm đó, người mẹ linh cảm có điều gì đó chẳng lành khi không thể liên lạc được với con trai.",
-    "words": 24
+    "text": "Cả buổi sáng hôm đó, linh cảm người mẹ mách bảo tôi rằng có một điều gì đó vô cùng bất an đang xảy ra với con trai mình.",
+    "words": 29
    },
    {
     "id": "1.07#2",
-    "text": "Bà gọi điện liên tục, nhưng đáp lại chỉ là những tiếng chuông reo vô vọng trong khoảng không.",
-    "words": 19
+    "text": "Tôi liên tục bấm số gọi cho Conrad, nhưng đáp lại chỉ là những hồi chuông dài vô vọng rơi vào khoảng không tĩnh lặng.",
+    "words": 25
    },
    {
     "id": "1.07#3",
-    "text": "Khoảnh khắc nhận tin báo từ cảnh sát, cả thế giới của gia đình như sụp đổ hoàn toàn.",
-    "words": 19
+    "text": "Khoảnh khắc nhận cuộc gọi thông báo từ cảnh sát địa phương, toàn bộ thế giới xung quanh tôi hoàn toàn sụp đổ tan tành.",
+    "words": 25
    },
    {
     "id": "1.07#4",
-    "text": "Ban đầu, người mẹ chỉ đau xót nghĩ rằng con mình đã quá mỏi mệt trước cuộc chiến với căn bệnh trầm cảm.",
-    "words": 23
+    "text": "Ban đầu, tôi chỉ nghĩ trong đau đớn cùng cực rằng con mình đã đầu hàng trước căn bệnh trầm cảm dai dẳng mà cậu bé phải gánh chịu.",
+    "words": 29
    },
    {
     "id": "1.07#5",
-    "text": "Bà không thể ngờ rằng, có một kẻ săn mồi vô hình đã giật dây và tước đoạt đứa con trai yêu quý của bà từ khoảng cách xa xôi.",
-    "words": 30
+    "text": "Gia đình chúng tôi không thể nào ngờ được rằng, có một kẻ săn mồi giấu mặt đã liên tục giật dây tâm lý và đẩy con tôi vào chỗ chết từ một nơi rất xa.",
+    "words": 36
+   },
+   {
+    "id": "1.07#6",
+    "text": "Nỗi đau mất đi đứa con trai yêu quý sẽ mãi mãi là vết thương hằn sâu không bao giờ lành trong tâm can người mẹ.",
+    "words": 26
    }
   ]
  },
@@ -171,29 +196,34 @@
   "id": "1.08",
   "act": 1,
   "kind": "SFX",
-  "desc": "*Tiếng còi xe cảnh sát xa xăm, tiếng máy kéo khóa túi đựng vật chứng.*"
+  "desc": "Tiếng còi xe cảnh sát từ xa vọng lại, tiếng kéo khóa túi đựng vật chứng bằng nhựa khô khốc."
  },
  {
   "id": "1.09",
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "chuyển nhịp sang khâu nghiệp vụ",
-  "text": "Bi kịch tưởng chừng đã khép lại như một ca tự vẫn đơn thuần của thanh thiếu niên trong hồ sơ lưu trữ. Nhưng quy trình điều tra chuẩn mực buộc cảnh sát phải thu giữ và giám định toàn bộ đồ đạc cá nhân của Conrad Roy. Trong đó có chiếc điện thoại di động thông minh, nơi lưu giữ toàn bộ dữ liệu giao tiếp những ngày cuối đời của cậu.",
+  "direction": "chuyển mạch sang khâu khám nghiệm",
+  "text": "Bi kịch tưởng chừng đã khép lại như một sự việc đau lòng của thanh thiếu niên trong sổ lưu trữ của cảnh sát thị trấn. Thế nhưng, quy trình điều tra chuẩn mực bắt buộc các sĩ quan phải thu giữ và giám định toàn bộ tư trang cá nhân của nạn nhân. Chiếc điện thoại di động thông minh của Conrad Roy lập tức được chuyển giao cho bộ phận giám định pháp y kỹ thuật số. Họ cần tìm kiếm bất kỳ manh mối nào có thể giải thích cho quyết định đột ngột của một thanh niên vừa tốt nghiệp.",
   "sentences": [
    {
     "id": "1.09#1",
-    "text": "Bi kịch tưởng chừng đã khép lại như một ca tự vẫn đơn thuần của thanh thiếu niên trong hồ sơ lưu trữ.",
-    "words": 23
+    "text": "Bi kịch tưởng chừng đã khép lại như một sự việc đau lòng của thanh thiếu niên trong sổ lưu trữ của cảnh sát thị trấn.",
+    "words": 26
    },
    {
     "id": "1.09#2",
-    "text": "Nhưng quy trình điều tra chuẩn mực buộc cảnh sát phải thu giữ và giám định toàn bộ đồ đạc cá nhân của Conrad Roy.",
-    "words": 25
+    "text": "Thế nhưng, quy trình điều tra chuẩn mực bắt buộc các sĩ quan phải thu giữ và giám định toàn bộ tư trang cá nhân của nạn nhân.",
+    "words": 28
    },
    {
     "id": "1.09#3",
-    "text": "Trong đó có chiếc điện thoại di động thông minh, nơi lưu giữ toàn bộ dữ liệu giao tiếp những ngày cuối đời của cậu.",
+    "text": "Chiếc điện thoại di động thông minh của Conrad Roy lập tức được chuyển giao cho bộ phận giám định pháp y kỹ thuật số.",
+    "words": 25
+   },
+   {
+    "id": "1.09#4",
+    "text": "Họ cần tìm kiếm bất kỳ manh mối nào có thể giải thích cho quyết định đột ngột của một thanh niên vừa tốt nghiệp.",
     "words": 25
    }
   ]
@@ -203,28 +233,43 @@
   "act": 1,
   "kind": "LOI",
   "role": "D",
-  "direction": "giọng nam sắc bén, chững chạc",
-  "text": "Vụ việc do Thám tử Scott Gordon thuộc Sở Cảnh sát Fairhaven trực tiếp thụ lý và trích xuất dữ liệu kỹ thuật số. Khi trích xuất pháp y chiếc điện thoại, các điều tra viên đã phát hiện một kho lưu trữ khổng lồ gồm hàng nghìn dòng tin nhắn văn bản. Người trao đổi dày đặc nhất với Conrad trong những ngày cuối đời chính là một nữ sinh mười bảy tuổi sống tại Plainville tên là Michelle Carter. Và những gì hiển hiện trên màn hình điện thoại đã khiến các sĩ quan dày dạn kinh nghiệm nhất cũng phải rùng mình kinh ngạc.",
+  "direction": "giọng nam đanh thép, lạnh lùng, dứt khoát",
+  "text": "Hồ sơ vụ án do Thám tử Scott Gordon thuộc Sở Cảnh sát Fairhaven trực tiếp thụ lý và tiến hành trích xuất dữ liệu. Khi các kỹ thuật viên pháp y số trích xuất toàn bộ bộ nhớ điện thoại, họ đã khai quật một kho lưu trữ khổng lồ gồm hơn hai mươi nghìn dòng tin nhắn văn bản. Người trao đổi dày đặc nhất với Conrad trong những tuần cuối đời chính là một nữ sinh mười bảy tuổi sống tại thị trấn Plainville tên là Michelle Carter. Và những gì hiển hiện trên từng dòng tin nhắn đã khiến những sĩ quan điều tra dày dạn kinh nghiệm nhất cũng phải rùng mình kinh hãi. Đó hoàn toàn không phải là những lời an ủi hay động viên vụng về của lứa tuổi học trò mới lớn. Đó là một chiến dịch thúc ép tinh vi, có hệ thống và đầy tính toán nhằm đảm bảo rằng nạn nhân không thể quay đầu rút lui. Từng câu chữ như những mũi gai tâm lý siết chặt lấy sự yếu đuối của một tâm hồn đang khủng hoảng.",
   "sentences": [
    {
     "id": "1.10#1",
-    "text": "Vụ việc do Thám tử Scott Gordon thuộc Sở Cảnh sát Fairhaven trực tiếp thụ lý và trích xuất dữ liệu kỹ thuật số.",
-    "words": 24
+    "text": "Hồ sơ vụ án do Thám tử Scott Gordon thuộc Sở Cảnh sát Fairhaven trực tiếp thụ lý và tiến hành trích xuất dữ liệu.",
+    "words": 25
    },
    {
     "id": "1.10#2",
-    "text": "Khi trích xuất pháp y chiếc điện thoại, các điều tra viên đã phát hiện một kho lưu trữ khổng lồ gồm hàng nghìn dòng tin nhắn văn bản.",
-    "words": 29
+    "text": "Khi các kỹ thuật viên pháp y số trích xuất toàn bộ bộ nhớ điện thoại, họ đã khai quật một kho lưu trữ khổng lồ gồm hơn hai mươi nghìn dòng tin nhắn văn bản.",
+    "words": 36
    },
    {
     "id": "1.10#3",
-    "text": "Người trao đổi dày đặc nhất với Conrad trong những ngày cuối đời chính là một nữ sinh mười bảy tuổi sống tại Plainville tên là Michelle Carter.",
-    "words": 28
+    "text": "Người trao đổi dày đặc nhất với Conrad trong những tuần cuối đời chính là một nữ sinh mười bảy tuổi sống tại thị trấn Plainville tên là Michelle Carter.",
+    "words": 30
    },
    {
     "id": "1.10#4",
-    "text": "Và những gì hiển hiện trên màn hình điện thoại đã khiến các sĩ quan dày dạn kinh nghiệm nhất cũng phải rùng mình kinh ngạc.",
-    "words": 26
+    "text": "Và những gì hiển hiện trên từng dòng tin nhắn đã khiến những sĩ quan điều tra dày dạn kinh nghiệm nhất cũng phải rùng mình kinh hãi.",
+    "words": 28
+   },
+   {
+    "id": "1.10#5",
+    "text": "Đó hoàn toàn không phải là những lời an ủi hay động viên vụng về của lứa tuổi học trò mới lớn.",
+    "words": 22
+   },
+   {
+    "id": "1.10#6",
+    "text": "Đó là một chiến dịch thúc ép tinh vi, có hệ thống và đầy tính toán nhằm đảm bảo rằng nạn nhân không thể quay đầu rút lui.",
+    "words": 28
+   },
+   {
+    "id": "1.10#7",
+    "text": "Từng câu chữ như những mũi gai tâm lý siết chặt lấy sự yếu đuối của một tâm hồn đang khủng hoảng.",
+    "words": 22
    }
   ]
  },
@@ -233,18 +278,28 @@
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "nhấn mạnh sự rùng mình",
-  "text": "Đó không phải là những lời an ủi hay động viên chia sẻ giữa hai người bạn đang cùng vượt qua tổn thương tâm lý. Đó là một chiến dịch thúc ép có hệ thống, một chiếc bẫy tinh vi giăng ra để triệt tiêu mọi lối thoát của nạn nhân.",
+  "direction": "nhấn mạnh sức nặng của bằng chứng số",
+  "text": "Một phát hiện làm đảo lộn toàn bộ nhận định ban đầu của cơ quan thực thi pháp luật hạt Bristol. Chiếc điện thoại di động không chỉ là phương tiện liên lạc đơn thuần, mà đã trở thành hiện trường của một vụ án mạng vô hình. Nạn nhân bị dẫn dắt từng bước vào một chiếc bẫy tâm lý được giăng sẵn mà chính bản thân không hề hay biết. Màn hình cảm ứng phát sáng trở thành chiếc lồng giam vô hình bóp nghẹt mọi nỗ lực cầu cứu.",
   "sentences": [
    {
     "id": "1.11#1",
-    "text": "Đó không phải là những lời an ủi hay động viên chia sẻ giữa hai người bạn đang cùng vượt qua tổn thương tâm lý.",
-    "words": 25
+    "text": "Một phát hiện làm đảo lộn toàn bộ nhận định ban đầu của cơ quan thực thi pháp luật hạt Bristol.",
+    "words": 21
    },
    {
     "id": "1.11#2",
-    "text": "Đó là một chiến dịch thúc ép có hệ thống, một chiếc bẫy tinh vi giăng ra để triệt tiêu mọi lối thoát của nạn nhân.",
-    "words": 26
+    "text": "Chiếc điện thoại di động không chỉ là phương tiện liên lạc đơn thuần, mà đã trở thành hiện trường của một vụ án mạng vô hình.",
+    "words": 27
+   },
+   {
+    "id": "1.11#3",
+    "text": "Nạn nhân bị dẫn dắt từng bước vào một chiếc bẫy tâm lý được giăng sẵn mà chính bản thân không hề hay biết.",
+    "words": 24
+   },
+   {
+    "id": "1.11#4",
+    "text": "Màn hình cảm ứng phát sáng trở thành chiếc lồng giam vô hình bóp nghẹt mọi nỗ lực cầu cứu.",
+    "words": 20
    }
   ]
  },
@@ -253,80 +308,106 @@
   "act": 1,
   "kind": "LOI",
   "role": "C",
-  "direction": "giọng nữ điềm đạm, học thuật",
-  "text": "Trong tâm lý học hành vi, một người đang rơi vào trạng thái trầm cảm nặng thường có cấu trúc nhận thức cực kỳ phân mảnh và dễ bị tổn thương. Họ luôn giằng xé dữ dội giữa bản năng sinh tồn và mong muốn thoát khỏi nỗi đau tâm trí đang giày vò. Nếu vào đúng thời điểm nhạy cảm đó, một kẻ thao túng liên tục tiêm nhiễm ý nghĩ từ bỏ sự sống, cơ chế phòng vệ tâm lý cuối cùng của nạn nhân sẽ bị đánh sập hoàn toàn.",
+  "direction": "giọng điềm đạm, học thuật, phân tích nhận thức",
+  "text": "Trong tâm lý học hành vi, một cá nhân đang trải qua cơn trầm cảm nặng thường rơi vào trạng thái suy giảm nghiêm trọng chức năng nhận thức và ý chí phản kháng. Họ mất đi khả năng tự bảo vệ tâm lý, tầm nhìn thu hẹp lại và trở nên cực kỳ phụ thuộc vào nguồn kích thích cảm xúc duy nhất từ bên ngoài. Khi một kẻ thao túng ác tính bước vào không gian khép kín đó, những lời phán xét sẽ nhanh chóng biến thành mệnh lệnh mang tính cưỡng chế tuyệt đối đối với tâm trí nạn nhân. Thuyết tâm trí bị bẻ gãy khiến người yếu thế không còn nhận thức được rằng người đối diện đang lợi dụng sự đau khổ của mình. Sự cô lập cảm xúc trong không gian số tạo nên một môi trường lý tưởng để kẻ thao túng thiết lập quyền kiểm soát tuyệt đối.",
   "sentences": [
    {
     "id": "1.12#1",
-    "text": "Trong tâm lý học hành vi, một người đang rơi vào trạng thái trầm cảm nặng thường có cấu trúc nhận thức cực kỳ phân mảnh và dễ bị tổn thương.",
-    "words": 31
+    "text": "Trong tâm lý học hành vi, một cá nhân đang trải qua cơn trầm cảm nặng thường rơi vào trạng thái suy giảm nghiêm trọng chức năng nhận thức và ý chí phản kháng.",
+    "words": 34
    },
    {
     "id": "1.12#2",
-    "text": "Họ luôn giằng xé dữ dội giữa bản năng sinh tồn và mong muốn thoát khỏi nỗi đau tâm trí đang giày vò.",
-    "words": 23
+    "text": "Họ mất đi khả năng tự bảo vệ tâm lý, tầm nhìn thu hẹp lại và trở nên cực kỳ phụ thuộc vào nguồn kích thích cảm xúc duy nhất từ bên ngoài.",
+    "words": 33
    },
    {
     "id": "1.12#3",
-    "text": "Nếu vào đúng thời điểm nhạy cảm đó, một kẻ thao túng liên tục tiêm nhiễm ý nghĩ từ bỏ sự sống, cơ chế phòng vệ tâm lý cuối cùng của nạn nhân sẽ bị đánh sập hoàn toàn.",
-    "words": 39
+    "text": "Khi một kẻ thao túng ác tính bước vào không gian khép kín đó, những lời phán xét sẽ nhanh chóng biến thành mệnh lệnh mang tính cưỡng chế tuyệt đối đối với tâm trí nạn nhân.",
+    "words": 37
+   },
+   {
+    "id": "1.12#4",
+    "text": "Thuyết tâm trí bị bẻ gãy khiến người yếu thế không còn nhận thức được rằng người đối diện đang lợi dụng sự đau khổ của mình.",
+    "words": 27
+   },
+   {
+    "id": "1.12#5",
+    "text": "Sự cô lập cảm xúc trong không gian số tạo nên một môi trường lý tưởng để kẻ thao túng thiết lập quyền kiểm soát tuyệt đối.",
+    "words": 27
    }
   ]
  },
  {
   "id": "1.13",
   "act": 1,
-  "kind": "LOI",
-  "role": "H",
-  "direction": "khép lại Hồi 1",
-  "text": "Sự phát hiện của chiếc điện thoại di động tại bãi đỗ xe Kmart đã mở màn cho một cuộc điều tra kỹ thuật số chưa từng có tiền lệ trong lịch sử tư pháp Hoa Kỳ. Nơi những dòng chữ phát sáng trên màn hình không còn là công cụ giao tiếp vô hại, mà đã trở thành vũ khí đoạt mạng người tàn nhẫn.",
-  "sentences": [
-   {
-    "id": "1.13#1",
-    "text": "Sự phát hiện của chiếc điện thoại di động tại bãi đỗ xe Kmart đã mở màn cho một cuộc điều tra kỹ thuật số chưa từng có tiền lệ trong lịch sử tư pháp Hoa Kỳ.",
-    "words": 37
-   },
-   {
-    "id": "1.13#2",
-    "text": "Nơi những dòng chữ phát sáng trên màn hình không còn là công cụ giao tiếp vô hại, mà đã trở thành vũ khí đoạt mạng người tàn nhẫn.",
-    "words": 29
-   }
-  ]
- },
- {
-  "id": "1.14",
-  "act": 1,
-  "kind": "BGM",
-  "desc": "*Âm nhạc dâng cao kịch tính rồi ngắt nhịp bằng một tiếng gõ bàn phím kim loại sắc lạnh.*"
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": "Nhạc nền dừng đột ngột"
  },
  {
   "id": "2.01",
   "act": 2,
   "kind": "BGM",
-  "desc": "*Giai điệu Dark Ambient căng thẳng, nhịp bass dồn dập mô phỏng dòng thông tin số tuôn chảy không ngừng.*"
+  "desc": "Giai điệu Synth điện tử u tối, nhịp gõ trầm đục mô phỏng chuỗi tin nhắn dồn dập không hồi kết."
  },
  {
   "id": "2.02",
   "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "giọng hồi hộp",
-  "text": "Để giải mã nguồn cơn của thảm kịch, cơ quan điều tra đã lật lại toàn bộ lịch sử mối quan hệ kỳ lạ giữa Conrad Roy và Michelle Carter. Hai người tình cờ gặp nhau lần đầu tiên vào năm 2012 tại bang Florida, khi cả hai gia đình cùng đến đây nghỉ dưỡng. Lúc ấy, Conrad mười sáu tuổi, còn Michelle Carter vừa tròn mười lăm tuổi.",
+  "direction": "giọng điềm tĩnh, kể lại nguồn gốc mối quan hệ",
+  "text": "Để hiểu được bản chất của chiếc bẫy tâm lý ấy, chúng ta phải quay ngược thời gian về mùa hè năm 2012 tại bang Florida. Khi ấy, Conrad Roy mười sáu tuổi và Michelle Carter mười lăm tuổi tình cờ gặp nhau trong một kỳ nghỉ hè cùng gia đình thăm người thân. Giữa hai thiếu niên nhanh chóng nảy sinh sự đồng cảm bởi cả hai đều có những tổn thương tâm lý và nỗi cô đơn khó giãi bày cùng bạn bè đồng trang lứa. Họ trao đổi số điện thoại và giữ liên lạc sau khi cùng trở về bang Massachusetts. Một tình bạn kỳ lạ bắt đầu hình thành và phát triển qua từng dòng tin nhắn văn bản. Thị trấn Plainville nơi Michelle sinh sống chỉ cách thị trấn Mattapoisett của Conrad khoảng ba mươi lăm dặm đường bộ, tức chưa đầy một giờ lái xe. Thế nhưng, một điều nghịch lý là trong suốt hơn hai năm duy trì mối quan hệ tình cảm, họ chỉ gặp mặt trực tiếp đúng vài lần ngắn ngủi. Mối quan hệ của họ gần như tồn tại một trăm phần trăm trong không gian ảo của những chiếc màn hình điện thoại phát sáng. Họ chia sẻ với nhau những bí mật sâu kín nhất, những bất an thầm lặng và cả những suy nghĩ tăm tối nhất mà không hề phải đối mặt ngoài đời thực. Không gian mạng đã tạo ra một ảo tưởng về sự thân mật tuyệt đối nhưng lại hoàn toàn thiếu vắng sự kiểm chứng hành vi thực tế.",
   "sentences": [
    {
     "id": "2.02#1",
-    "text": "Để giải mã nguồn cơn của thảm kịch, cơ quan điều tra đã lật lại toàn bộ lịch sử mối quan hệ kỳ lạ giữa Conrad Roy và Michelle Carter.",
-    "words": 30
+    "text": "Để hiểu được bản chất của chiếc bẫy tâm lý ấy, chúng ta phải quay ngược thời gian về mùa hè năm 2012 tại bang Florida.",
+    "words": 26
    },
    {
     "id": "2.02#2",
-    "text": "Hai người tình cờ gặp nhau lần đầu tiên vào năm 2012 tại bang Florida, khi cả hai gia đình cùng đến đây nghỉ dưỡng.",
-    "words": 25
+    "text": "Khi ấy, Conrad Roy mười sáu tuổi và Michelle Carter mười lăm tuổi tình cờ gặp nhau trong một kỳ nghỉ hè cùng gia đình thăm người thân.",
+    "words": 28
    },
    {
     "id": "2.02#3",
-    "text": "Lúc ấy, Conrad mười sáu tuổi, còn Michelle Carter vừa tròn mười lăm tuổi.",
-    "words": 14
+    "text": "Giữa hai thiếu niên nhanh chóng nảy sinh sự đồng cảm bởi cả hai đều có những tổn thương tâm lý và nỗi cô đơn khó giãi bày cùng bạn bè đồng trang lứa.",
+    "words": 34
+   },
+   {
+    "id": "2.02#4",
+    "text": "Họ trao đổi số điện thoại và giữ liên lạc sau khi cùng trở về bang Massachusetts.",
+    "words": 17
+   },
+   {
+    "id": "2.02#5",
+    "text": "Một tình bạn kỳ lạ bắt đầu hình thành và phát triển qua từng dòng tin nhắn văn bản.",
+    "words": 19
+   },
+   {
+    "id": "2.02#6",
+    "text": "Thị trấn Plainville nơi Michelle sinh sống chỉ cách thị trấn Mattapoisett của Conrad khoảng ba mươi lăm dặm đường bộ, tức chưa đầy một giờ lái xe.",
+    "words": 28
+   },
+   {
+    "id": "2.02#7",
+    "text": "Thế nhưng, một điều nghịch lý là trong suốt hơn hai năm duy trì mối quan hệ tình cảm, họ chỉ gặp mặt trực tiếp đúng vài lần ngắn ngủi.",
+    "words": 30
+   },
+   {
+    "id": "2.02#8",
+    "text": "Mối quan hệ của họ gần như tồn tại một trăm phần trăm trong không gian ảo của những chiếc màn hình điện thoại phát sáng.",
+    "words": 26
+   },
+   {
+    "id": "2.02#9",
+    "text": "Họ chia sẻ với nhau những bí mật sâu kín nhất, những bất an thầm lặng và cả những suy nghĩ tăm tối nhất mà không hề phải đối mặt ngoài đời thực.",
+    "words": 33
+   },
+   {
+    "id": "2.02#10",
+    "text": "Không gian mạng đã tạo ra một ảo tưởng về sự thân mật tuyệt đối nhưng lại hoàn toàn thiếu vắng sự kiểm chứng hành vi thực tế.",
+    "words": 28
    }
   ]
  },
@@ -334,145 +415,191 @@
   "id": "2.03",
   "act": 2,
   "kind": "LOI",
-  "role": "D",
-  "direction": "phân tích dữ liệu giao tiếp",
-  "text": "Điểm kỳ lạ nhất trong hồ sơ này là khoảng cách địa lý và phương thức tương tác giữa hai người. Michelle Carter sống tại thị trấn Plainville, chỉ cách nơi Conrad ở tại Fairhaven khoảng ba mươi lăm dặm, tức chưa đầy một giờ lái xe. Thế nhưng trong suốt hơn hai năm duy trì mối quan hệ, họ chỉ gặp mặt trực tiếp đúng vài lần ngắn ngủi. Toàn bộ thế giới tình cảm của họ tồn tại gần như tuyệt đối trên không gian số, qua hàng nghìn dòng tin nhắn, thư điện tử và các cuộc gọi đêm khuya.",
+  "role": "C",
+  "direction": "phân tích bước ngoặt tâm lý",
+  "text": "Trong giai đoạn đầu, các dòng tin nhắn cho thấy Michelle Carter từng đóng vai một người bạn chu đáo, khuyên Conrad nên tìm đến bác sĩ tâm thần và uống thuốc đều đặn. Thế nhưng, bước ngoặt quái gở bắt đầu xuất hiện vào đầu tháng 7 năm 2014, khoảng mười ngày trước khi thảm kịch xảy ra. Thái độ của Michelle đột ngột quay ngoắt một trăm tám mươi độ một cách đầy bất thường. Thay vì tiếp tục động viên bạn trai kiên trì điều trị, cô ta bắt đầu chủ động gợi ý, khuyến khích và thúc giục Conrad biến những ý nghĩ tiêu cực thành hành động dứt khoát. Đây chính là giai đoạn kích hoạt cơ chế Dung nạp ảo tưởng và Bẫy leo thang cam kết đầy nguy hiểm. Kẻ thao túng bắt đầu thèm khát một cái kết kịch tính để hoàn tất bức tranh tưởng tượng trong tâm trí mình.",
   "sentences": [
    {
     "id": "2.03#1",
-    "text": "Điểm kỳ lạ nhất trong hồ sơ này là khoảng cách địa lý và phương thức tương tác giữa hai người.",
-    "words": 21
+    "text": "Trong giai đoạn đầu, các dòng tin nhắn cho thấy Michelle Carter từng đóng vai một người bạn chu đáo, khuyên Conrad nên tìm đến bác sĩ tâm thần và uống thuốc đều đặn.",
+    "words": 34
    },
    {
     "id": "2.03#2",
-    "text": "Michelle Carter sống tại thị trấn Plainville, chỉ cách nơi Conrad ở tại Fairhaven khoảng ba mươi lăm dặm, tức chưa đầy một giờ lái xe.",
-    "words": 26
+    "text": "Thế nhưng, bước ngoặt quái gở bắt đầu xuất hiện vào đầu tháng 7 năm 2014, khoảng mười ngày trước khi thảm kịch xảy ra.",
+    "words": 25
    },
    {
     "id": "2.03#3",
-    "text": "Thế nhưng trong suốt hơn hai năm duy trì mối quan hệ, họ chỉ gặp mặt trực tiếp đúng vài lần ngắn ngủi.",
-    "words": 23
+    "text": "Thái độ của Michelle đột ngột quay ngoắt một trăm tám mươi độ một cách đầy bất thường.",
+    "words": 18
    },
    {
     "id": "2.03#4",
-    "text": "Toàn bộ thế giới tình cảm của họ tồn tại gần như tuyệt đối trên không gian số, qua hàng nghìn dòng tin nhắn, thư điện tử và các cuộc gọi đêm khuya.",
-    "words": 33
+    "text": "Thay vì tiếp tục động viên bạn trai kiên trì điều trị, cô ta bắt đầu chủ động gợi ý, khuyến khích và thúc giục Conrad biến những ý nghĩ tiêu cực thành hành động dứt khoát.",
+    "words": 37
+   },
+   {
+    "id": "2.03#5",
+    "text": "Đây chính là giai đoạn kích hoạt cơ chế Dung nạp ảo tưởng và Bẫy leo thang cam kết đầy nguy hiểm.",
+    "words": 22
+   },
+   {
+    "id": "2.03#6",
+    "text": "Kẻ thao túng bắt đầu thèm khát một cái kết kịch tính để hoàn tất bức tranh tưởng tượng trong tâm trí mình.",
+    "words": 23
    }
   ]
  },
  {
   "id": "2.04",
   "act": 2,
+  "kind": "SFX",
+  "desc": "Tiếng chuông báo tin nhắn dồn dập vang lên liên hồi, tiếng gõ phím cảm ứng rào rào."
+ },
+ {
+  "id": "2.05",
+  "act": 2,
   "kind": "LOI",
-  "role": "H",
-  "direction": "tiếp tục mạch kể",
-  "text": "Trong giai đoạn đầu, Michelle Carter tỏ ra là một người bạn gái biết lắng nghe và sẻ chia. Cả hai đều có những tổn thương tâm lý riêng, thường xuyên tâm sự về nỗi cô đơn và áp lực học đường. Michelle thậm chí từng nhiều lần khuyên Conrad nên tìm đến các chuyên gia tâm lý và bác sĩ điều trị. Thế nhưng, bước sang đầu tháng 7 năm 2014, một bước ngoặt tâm lý lạnh lùng và dị thường đã diễn ra trong tâm trí cô gái mười bảy tuổi. Thay vì tiếp tục động viên bạn trai tìm kiếm sự sống, Michelle Carter đã quay ngoắt một trăm tám mươi độ để trở thành người thúc đẩy thảm kịch. Cô ta bắt đầu thực hiện một kế hoạch có chủ đích, liên tục gửi những dòng tin nhắn hối thúc Conrad phải hành động dứt khoát.",
+  "role": "D",
+  "direction": "trích dẫn chứng cứ từ dữ liệu tin nhắn",
+  "text": "Hồ sơ kỹ thuật số lưu trữ những đoạn hội thoại khiến bất kỳ ai đọc lại cũng phải lạnh gáy trước sự tàn nhẫn của Michelle. Khi Conrad bày tỏ sự do dự và sợ hãi, Michelle liên tục dùng những từ ngữ cay nghiệt để công kích lòng tự trọng của cậu. Cô ta nhắn tin: “Anh cứ nói là anh muốn làm điều đó, nhưng anh chẳng bao giờ thực hiện, anh chỉ toàn trì hoãn.” Khi Conrad lo lắng rằng cha mẹ và hai em gái sẽ đau đớn tột cùng nếu cậu ra đi, Michelle lạnh lùng gạt bỏ rào cản đạo đức cuối cùng của nạn nhân. Cô ta viết: “Gia đình anh sẽ buồn một thời gian thôi, rồi họ sẽ vượt qua được, họ sẽ hiểu rằng anh không còn phải chịu đựng đau khổ nữa.” Michelle thậm chí còn đi xa đến mức hướng dẫn tỉ mỉ cho Conrad cách chuẩn bị các công cụ máy móc và chọn một địa điểm kín đáo để không ai phát hiện. Sự thúc ép diễn ra không ngừng nghỉ với tần suất hàng chục tin nhắn mỗi giờ, bủa vây mọi suy nghĩ của chàng trai trẻ. Cô ta tra hỏi cậu từng chi tiết nhỏ: đã mua máy bơm chưa, đã sạc điện thoại chưa, và khi nào thì bắt đầu thực hiện.",
   "sentences": [
    {
-    "id": "2.04#1",
-    "text": "Trong giai đoạn đầu, Michelle Carter tỏ ra là một người bạn gái biết lắng nghe và sẻ chia.",
-    "words": 19
+    "id": "2.05#1",
+    "text": "Hồ sơ kỹ thuật số lưu trữ những đoạn hội thoại khiến bất kỳ ai đọc lại cũng phải lạnh gáy trước sự tàn nhẫn của Michelle.",
+    "words": 27
    },
    {
-    "id": "2.04#2",
-    "text": "Cả hai đều có những tổn thương tâm lý riêng, thường xuyên tâm sự về nỗi cô đơn và áp lực học đường.",
-    "words": 23
+    "id": "2.05#2",
+    "text": "Khi Conrad bày tỏ sự do dự và sợ hãi, Michelle liên tục dùng những từ ngữ cay nghiệt để công kích lòng tự trọng của cậu.",
+    "words": 27
    },
    {
-    "id": "2.04#3",
-    "text": "Michelle thậm chí từng nhiều lần khuyên Conrad nên tìm đến các chuyên gia tâm lý và bác sĩ điều trị.",
-    "words": 21
+    "id": "2.05#3",
+    "text": "Cô ta nhắn tin: “Anh cứ nói là anh muốn làm điều đó, nhưng anh chẳng bao giờ thực hiện, anh chỉ toàn trì hoãn.”",
+    "words": 25
    },
    {
-    "id": "2.04#4",
-    "text": "Thế nhưng, bước sang đầu tháng 7 năm 2014, một bước ngoặt tâm lý lạnh lùng và dị thường đã diễn ra trong tâm trí cô gái mười bảy tuổi.",
-    "words": 30
+    "id": "2.05#4",
+    "text": "Khi Conrad lo lắng rằng cha mẹ và hai em gái sẽ đau đớn tột cùng nếu cậu ra đi, Michelle lạnh lùng gạt bỏ rào cản đạo đức cuối cùng của nạn nhân.",
+    "words": 34
    },
    {
-    "id": "2.04#5",
-    "text": "Thay vì tiếp tục động viên bạn trai tìm kiếm sự sống, Michelle Carter đã quay ngoắt một trăm tám mươi độ để trở thành người thúc đẩy thảm kịch.",
-    "words": 30
+    "id": "2.05#5",
+    "text": "Cô ta viết: “Gia đình anh sẽ buồn một thời gian thôi, rồi họ sẽ vượt qua được, họ sẽ hiểu rằng anh không còn phải chịu đựng đau khổ nữa.”",
+    "words": 31
    },
    {
-    "id": "2.04#6",
-    "text": "Cô ta bắt đầu thực hiện một kế hoạch có chủ đích, liên tục gửi những dòng tin nhắn hối thúc Conrad phải hành động dứt khoát.",
+    "id": "2.05#6",
+    "text": "Michelle thậm chí còn đi xa đến mức hướng dẫn tỉ mỉ cho Conrad cách chuẩn bị các công cụ máy móc và chọn một địa điểm kín đáo để không ai phát hiện.",
+    "words": 34
+   },
+   {
+    "id": "2.05#7",
+    "text": "Sự thúc ép diễn ra không ngừng nghỉ với tần suất hàng chục tin nhắn mỗi giờ, bủa vây mọi suy nghĩ của chàng trai trẻ.",
+    "words": 26
+   },
+   {
+    "id": "2.05#8",
+    "text": "Cô ta tra hỏi cậu từng chi tiết nhỏ: đã mua máy bơm chưa, đã sạc điện thoại chưa, và khi nào thì bắt đầu thực hiện.",
     "words": 27
    }
   ]
  },
  {
-  "id": "2.05",
-  "act": 2,
-  "kind": "SFX",
-  "desc": "*Tiếng chuông báo tin nhắn gửi đi liên hồi, tiếng rung điện thoại khô khốc.*"
- },
- {
   "id": "2.06",
   "act": 2,
   "kind": "LOI",
-  "role": "D",
-  "direction": "tóm lược nội dung tin nhắn trong hồ sơ",
-  "text": "Trích xuất hồ sơ điện thoại từ đầu tháng 7 cho thấy mức độ dày đặc và lạnh lùng đến rợn người của các tin nhắn thúc ép. Theo biên bản chứng cứ, Michelle liên tục trách móc rằng Conrad chỉ giỏi nói mà không làm, và thúc giục cậu không được tiếp tục trì hoãn nữa.",
+  "role": "H",
+  "direction": "phân tích cơ chế thao túng tâm lý",
+  "text": "Dưới góc độ tâm lý học điều tra, đây là một kỹ thuật Thao túng tâm lý cưỡng chế cực kỳ nguy hiểm. Kẻ săn mồi không sử dụng đòn roi hay bạo lực thể xác, mà tấn công trực diện vào mặc cảm tội lỗi và sự yếu đuối sâu kín nhất của nạn nhân. Bằng cách tước đoạt toàn bộ mạng lưới nâng đỡ tinh thần từ gia đình, Michelle đã đẩy Conrad vào một đường hầm nhận thức bế tắc hoàn toàn. Cậu tin rằng cách duy nhất để chứng minh giá trị bản thân và không làm người bạn gái thất vọng là phải thực hiện đến cùng cam kết đau lòng ấy. Chiếc bẫy vô hình đã khép chặt miệng nắp khi nạn nhân bị cô lập hoàn toàn giữa thế giới thực và không gian số. Mọi lối thoát tinh thần của chàng trai mười tám tuổi đều bị chặn đứng bởi những dòng tin nhắn ngọt ngào nhưng tàn nhẫn.",
   "sentences": [
    {
     "id": "2.06#1",
-    "text": "Trích xuất hồ sơ điện thoại từ đầu tháng 7 cho thấy mức độ dày đặc và lạnh lùng đến rợn người của các tin nhắn thúc ép.",
-    "words": 28
+    "text": "Dưới góc độ tâm lý học điều tra, đây là một kỹ thuật Thao túng tâm lý cưỡng chế cực kỳ nguy hiểm.",
+    "words": 23
    },
    {
     "id": "2.06#2",
-    "text": "Theo biên bản chứng cứ, Michelle liên tục trách móc rằng Conrad chỉ giỏi nói mà không làm, và thúc giục cậu không được tiếp tục trì hoãn nữa.",
+    "text": "Kẻ săn mồi không sử dụng đòn roi hay bạo lực thể xác, mà tấn công trực diện vào mặc cảm tội lỗi và sự yếu đuối sâu kín nhất của nạn nhân.",
+    "words": 33
+   },
+   {
+    "id": "2.06#3",
+    "text": "Bằng cách tước đoạt toàn bộ mạng lưới nâng đỡ tinh thần từ gia đình, Michelle đã đẩy Conrad vào một đường hầm nhận thức bế tắc hoàn toàn.",
     "words": 29
+   },
+   {
+    "id": "2.06#4",
+    "text": "Cậu tin rằng cách duy nhất để chứng minh giá trị bản thân và không làm người bạn gái thất vọng là phải thực hiện đến cùng cam kết đau lòng ấy.",
+    "words": 32
+   },
+   {
+    "id": "2.06#5",
+    "text": "Chiếc bẫy vô hình đã khép chặt miệng nắp khi nạn nhân bị cô lập hoàn toàn giữa thế giới thực và không gian số.",
+    "words": 25
+   },
+   {
+    "id": "2.06#6",
+    "text": "Mọi lối thoát tinh thần của chàng trai mười tám tuổi đều bị chặn đứng bởi những dòng tin nhắn ngọt ngào nhưng tàn nhẫn.",
+    "words": 25
    }
   ]
  },
  {
   "id": "2.07",
   "act": 2,
-  "kind": "LOI",
-  "role": "H",
-  "direction": "phân tích sự bế tắc của nạn nhân",
-  "text": "Khi chàng trai mười tám tuổi bày tỏ sự sợ hãi về việc cha mẹ và hai người em gái của mình sẽ đau lòng, Michelle đã lạnh lùng tước bỏ rào cản đạo đức đó. Cô ta nhắn rằng gia đình rồi sẽ hiểu cho cậu, họ sẽ đau buồn một thời gian rồi chấp nhận thực tế và tiếp tục sống tiếp.",
-  "sentences": [
-   {
-    "id": "2.07#1",
-    "text": "Khi chàng trai mười tám tuổi bày tỏ sự sợ hãi về việc cha mẹ và hai người em gái của mình sẽ đau lòng, Michelle đã lạnh lùng tước bỏ rào cản đạo đức đó.",
-    "words": 36
-   },
-   {
-    "id": "2.07#2",
-    "text": "Cô ta nhắn rằng gia đình rồi sẽ hiểu cho cậu, họ sẽ đau buồn một thời gian rồi chấp nhận thực tế và tiếp tục sống tiếp.",
-    "words": 28
-   }
-  ]
+  "kind": "SFX",
+  "desc": "Tiếng động cơ xe bán tải nổ máy gầm gừ trong đêm khuya, tiếng gió rít qua khe cửa kính."
  },
  {
   "id": "2.08",
   "act": 2,
   "kind": "LOI",
-  "role": "C",
-  "direction": "bóc tách cơ chế thao túng tâm lý",
-  "text": "Ở đây, chúng ta thấy một cơ chế tâm lý cực kỳ độc hại: Chu kỳ ảo tưởng và Quỹ đạo leo thang dung nạp kích thích. Ban đầu, việc nhắn tin an ủi đem lại cho Michelle cảm giác quan trọng, nhưng khi cảm giác đó bị lờn liều, cô ta rơi vào trạng thái đói ảo tưởng. Để thỏa mãn nhu cầu quyền lực, cô ta chuyển sang kỹ thuật thao túng đánh thẳng vào lòng tự trọng và sự xấu hổ của nạn nhân. Bằng cách gieo rắc ý nghĩ rằng không dám hành động là sự hèn nhát, kẻ thao túng đã dồn ép một chàng trai đang khủng hoảng vào thế chân tường.",
+  "role": "H",
+  "direction": "tái hiện thời khắc định mệnh đêm 12 tháng 7",
+  "text": "Đêm ngày 12 tháng 7 năm 2014, chiếc bẫy tâm lý tàn độc ấy đã sập xuống hoàn toàn. Conrad Roy lái chiếc xe bán tải Ford F-250 đến bãi đỗ xe Kmart ở Fairhaven và bắt đầu khởi động cỗ máy bơm xả khói trong cabin đóng kín. Thế nhưng, khi luồng khí nguy hại bắt đầu lan tỏa và bản năng sinh tồn trỗi dậy mãnh liệt, chàng trai mười tám tuổi đã vô cùng hoảng sợ. Cậu mở cửa xe, bước ra ngoài hít thở không khí trong lành và tìm cách tự cứu lấy mạng sống của mình. Chuỗi nhân quả của ý định dại dột khi ấy đã chính thức bị bẻ gãy bởi nỗ lực sinh tồn của chính nạn nhân. Lúc đó, Conrad vẫn đang kết nối điện thoại trực tiếp với Michelle Carter ở Plainville. Và chính tại khoảnh khắc ranh giới mong manh giữa sự sống và cái chết ấy, một quyết định tàn nhẫn đã được đưa ra. Một lời nói thốt ra trong bóng tối đã tước đoạt toàn bộ cơ hội được sống của chàng trai trẻ.",
   "sentences": [
    {
     "id": "2.08#1",
-    "text": "Ở đây, chúng ta thấy một cơ chế tâm lý cực kỳ độc hại: Chu kỳ ảo tưởng và Quỹ đạo leo thang dung nạp kích thích.",
-    "words": 27
+    "text": "Đêm ngày 12 tháng 7 năm 2014, chiếc bẫy tâm lý tàn độc ấy đã sập xuống hoàn toàn.",
+    "words": 19
    },
    {
     "id": "2.08#2",
-    "text": "Ban đầu, việc nhắn tin an ủi đem lại cho Michelle cảm giác quan trọng, nhưng khi cảm giác đó bị lờn liều, cô ta rơi vào trạng thái đói ảo tưởng.",
-    "words": 32
+    "text": "Conrad Roy lái chiếc xe bán tải Ford F-250 đến bãi đỗ xe Kmart ở Fairhaven và bắt đầu khởi động cỗ máy bơm xả khói trong cabin đóng kín.",
+    "words": 30
    },
    {
     "id": "2.08#3",
-    "text": "Để thỏa mãn nhu cầu quyền lực, cô ta chuyển sang kỹ thuật thao túng đánh thẳng vào lòng tự trọng và sự xấu hổ của nạn nhân.",
-    "words": 28
+    "text": "Thế nhưng, khi luồng khí nguy hại bắt đầu lan tỏa và bản năng sinh tồn trỗi dậy mãnh liệt, chàng trai mười tám tuổi đã vô cùng hoảng sợ.",
+    "words": 30
    },
    {
     "id": "2.08#4",
-    "text": "Bằng cách gieo rắc ý nghĩ rằng không dám hành động là sự hèn nhát, kẻ thao túng đã dồn ép một chàng trai đang khủng hoảng vào thế chân tường.",
-    "words": 31
+    "text": "Cậu mở cửa xe, bước ra ngoài hít thở không khí trong lành và tìm cách tự cứu lấy mạng sống của mình.",
+    "words": 23
+   },
+   {
+    "id": "2.08#5",
+    "text": "Chuỗi nhân quả của ý định dại dột khi ấy đã chính thức bị bẻ gãy bởi nỗ lực sinh tồn của chính nạn nhân.",
+    "words": 25
+   },
+   {
+    "id": "2.08#6",
+    "text": "Lúc đó, Conrad vẫn đang kết nối điện thoại trực tiếp với Michelle Carter ở Plainville.",
+    "words": 16
+   },
+   {
+    "id": "2.08#7",
+    "text": "Và chính tại khoảnh khắc ranh giới mong manh giữa sự sống và cái chết ấy, một quyết định tàn nhẫn đã được đưa ra.",
+    "words": 25
+   },
+   {
+    "id": "2.08#8",
+    "text": "Một lời nói thốt ra trong bóng tối đã tước đoạt toàn bộ cơ hội được sống của chàng trai trẻ.",
+    "words": 21
    }
   ]
  },
@@ -480,96 +607,96 @@
   "id": "2.09",
   "act": 2,
   "kind": "LOI",
-  "role": "H",
-  "direction": "tái hiện đêm định mệnh 12 tháng 7",
-  "text": "Đêm ngày 12 tháng 7 năm 2014, chiếc bẫy tâm lý vô hình ấy đã sập xuống hoàn toàn. Conrad lái chiếc xe bán tải đến bãi đỗ xe siêu thị Kmart như đã định trước. Nhưng chính tại lằn ranh mong manh giữa sự sống và cái chết, bản năng sinh tồn mãnh liệt của một con người đã trỗi dậy. Conrad hoảng sợ, mở cửa cabin bước ra ngoài bãi đỗ xe để tìm kiếm không khí và sự an toàn. Lúc đó, cậu đang giữ máy điện thoại kết nối liên tục với Michelle Carter ở đầu dây bên kia. Thế nhưng, điều mà chàng trai trẻ nhận được không phải là một lời can ngăn hay một chiếc phao cứu sinh kéo cậu về phía cuộc sống.",
+  "role": "D",
+  "direction": "giọng nghiêm nghị, công bố tình tiết cốt lõi",
+  "text": "Đây chính là tình tiết mang tính bước ngoặt định đoạt toàn bộ bản chất pháp lý của vụ án. Qua cuộc điện thoại kéo dài nhiều phút, khi nghe Conrad khóc lóc nói rằng mình sợ hãi và đã bước ra khỏi xe, Michelle Carter không hề khuyên bạn dừng lại. Cô ta không hề gọi điện báo cảnh sát, không hề liên lạc với mẹ của Conrad dù biết rõ địa chỉ nhà và số điện thoại của bà. Thay vào đó, Michelle đã lạnh lùng phát ra một mệnh lệnh bằng lời nói đanh thép qua ống nghe: “Hãy quay trở lại xe ngay lập tức.” Chính mệnh lệnh trực tiếp ấy đã dập tắt tia hy vọng sống sót cuối cùng của nạn nhân, ép cậu phải bước ngược trở lại vào cabin đầy khói xả nguy hiểm. Một hành vi vô nhân đạo thể hiện sự coi thường tuyệt đối đối với sinh mạng của đồng loại.",
   "sentences": [
    {
     "id": "2.09#1",
-    "text": "Đêm ngày 12 tháng 7 năm 2014, chiếc bẫy tâm lý vô hình ấy đã sập xuống hoàn toàn.",
-    "words": 19
-   },
-   {
-    "id": "2.09#2",
-    "text": "Conrad lái chiếc xe bán tải đến bãi đỗ xe siêu thị Kmart như đã định trước.",
-    "words": 17
-   },
-   {
-    "id": "2.09#3",
-    "text": "Nhưng chính tại lằn ranh mong manh giữa sự sống và cái chết, bản năng sinh tồn mãnh liệt của một con người đã trỗi dậy.",
-    "words": 26
-   },
-   {
-    "id": "2.09#4",
-    "text": "Conrad hoảng sợ, mở cửa cabin bước ra ngoài bãi đỗ xe để tìm kiếm không khí và sự an toàn.",
-    "words": 21
-   },
-   {
-    "id": "2.09#5",
-    "text": "Lúc đó, cậu đang giữ máy điện thoại kết nối liên tục với Michelle Carter ở đầu dây bên kia.",
+    "text": "Đây chính là tình tiết mang tính bước ngoặt định đoạt toàn bộ bản chất pháp lý của vụ án.",
     "words": 20
    },
    {
-    "id": "2.09#6",
-    "text": "Thế nhưng, điều mà chàng trai trẻ nhận được không phải là một lời can ngăn hay một chiếc phao cứu sinh kéo cậu về phía cuộc sống.",
+    "id": "2.09#2",
+    "text": "Qua cuộc điện thoại kéo dài nhiều phút, khi nghe Conrad khóc lóc nói rằng mình sợ hãi và đã bước ra khỏi xe, Michelle Carter không hề khuyên bạn dừng lại.",
+    "words": 32
+   },
+   {
+    "id": "2.09#3",
+    "text": "Cô ta không hề gọi điện báo cảnh sát, không hề liên lạc với mẹ của Conrad dù biết rõ địa chỉ nhà và số điện thoại của bà.",
+    "words": 29
+   },
+   {
+    "id": "2.09#4",
+    "text": "Thay vào đó, Michelle đã lạnh lùng phát ra một mệnh lệnh bằng lời nói đanh thép qua ống nghe: “Hãy quay trở lại xe ngay lập tức.”",
     "words": 28
+   },
+   {
+    "id": "2.09#5",
+    "text": "Chính mệnh lệnh trực tiếp ấy đã dập tắt tia hy vọng sống sót cuối cùng của nạn nhân, ép cậu phải bước ngược trở lại vào cabin đầy khói xả nguy hiểm.",
+    "words": 33
+   },
+   {
+    "id": "2.09#6",
+    "text": "Một hành vi vô nhân đạo thể hiện sự coi thường tuyệt đối đối với sinh mạng của đồng loại.",
+    "words": 20
    }
   ]
  },
  {
   "id": "2.10",
   "act": 2,
-  "kind": "LOI",
-  "role": "D",
-  "direction": "nhấn mạnh chi tiết quyết định của vụ án",
-  "text": "Cuộc gọi đêm hôm ấy kéo dài hơn bốn mươi phút và không được hệ thống viễn thông ghi âm trực tiếp. Nhưng theo chính lời Michelle nhắn tin thừa nhận với bạn thân về sau, khi Conrad sợ hãi bước ra khỏi xe, cô ta đã quát bảo cậu phải quay trở lại vào trong. Cô ta không gọi cấp cứu 911, không hề báo cho gia đình nạn nhân, mà lạnh lùng giữ máy cho đến khi mọi âm thanh bên kia đầu dây hoàn toàn im bặt.",
-  "sentences": [
-   {
-    "id": "2.10#1",
-    "text": "Cuộc gọi đêm hôm ấy kéo dài hơn bốn mươi phút và không được hệ thống viễn thông ghi âm trực tiếp.",
-    "words": 22
-   },
-   {
-    "id": "2.10#2",
-    "text": "Nhưng theo chính lời Michelle nhắn tin thừa nhận với bạn thân về sau, khi Conrad sợ hãi bước ra khỏi xe, cô ta đã quát bảo cậu phải quay trở lại vào trong.",
-    "words": 34
-   },
-   {
-    "id": "2.10#3",
-    "text": "Cô ta không gọi cấp cứu 911, không hề báo cho gia đình nạn nhân, mà lạnh lùng giữ máy cho đến khi mọi âm thanh bên kia đầu dây hoàn toàn im bặt.",
-    "words": 34
-   }
-  ]
- },
- {
-  "id": "2.11",
-  "act": 2,
   "kind": "NGHI",
   "sec": 1.5,
-  "desc": "tiếng thở dài buốt giá giữa đêm"
+  "desc": "Tiếng nhịp tim đập chậm dần rồi tắt"
  },
  {
   "id": "3.01",
   "act": 3,
   "kind": "BGM",
-  "desc": "*Âm thanh Cello u uất vang lên, kết hợp tiếng gõ nhịp chậm rãi, bí ẩn như một vở kịch sân khấu bi thương.*"
+  "desc": "Tiếng cello độc tấu u buồn, trầm mặc, hòa quyện cùng âm thanh nền gai góc thể hiện sự méo mó nhân cách."
  },
  {
   "id": "3.02",
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "giọng suy ngẫm, mở ra câu hỏi lớn",
-  "text": "Câu hỏi lớn nhất khiến toàn bộ công chúng bàng hoàng khi vụ án vỡ lở là: Động cơ thực sự phía sau hành vi tàn nhẫn này là gì? Điều gì đã biến một nữ sinh trung học mười bảy tuổi thành kẻ lạnh lùng chỉ đạo cái chết của bạn trai mình qua màn hình điện thoại?",
+  "direction": "đặt câu hỏi cốt lõi mở đầu Hồi 3",
+  "text": "Một câu hỏi lớn khiến toàn bộ dư luận xã hội và các chuyên gia pháp đình bàng hoàng: Động cơ thực sự nào có thể thôi thúc một nữ sinh trung học mười bảy tuổi, sống trong một gia đình khá giả và êm ấm, lại hành động tàn nhẫn đến như vậy? Cô ta không hề có thù oán cá nhân, không có tranh chấp tiền bạc, và cũng chẳng thể trục lợi bảo hiểm từ cái chết của Conrad Roy. Để tìm lời giải đáp, chúng ta buộc phải giải phẫu sâu vào cấu trúc nhân cách bệnh lý của Michelle Carter. Một tâm lý méo mó được nuôi dưỡng bởi cơn khát khao sự chú ý tột cùng và nỗi ám ảnh đóng vai nạn nhân bi kịch. Ẩn sâu sau gương mặt nữ sinh trong sáng là một khoảng trống rỗng hiện sinh không đáy. Một tâm hồn lạc lối sẵn sàng đánh đổi cả sinh mạng của bạn trai để mua lấy vài khoảnh khắc trở thành tâm điểm của sự ngưỡng mộ.",
   "sentences": [
    {
     "id": "3.02#1",
-    "text": "Câu hỏi lớn nhất khiến toàn bộ công chúng bàng hoàng khi vụ án vỡ lở là: Động cơ thực sự phía sau hành vi tàn nhẫn này là gì?",
-    "words": 30
+    "text": "Một câu hỏi lớn khiến toàn bộ dư luận xã hội và các chuyên gia pháp đình bàng hoàng:",
+    "words": 19
    },
    {
     "id": "3.02#2",
-    "text": "Điều gì đã biến một nữ sinh trung học mười bảy tuổi thành kẻ lạnh lùng chỉ đạo cái chết của bạn trai mình qua màn hình điện thoại?",
+    "text": "Động cơ thực sự nào có thể thôi thúc một nữ sinh trung học mười bảy tuổi, sống trong một gia đình khá giả và êm ấm, lại hành động tàn nhẫn đến như vậy?",
+    "words": 35
+   },
+   {
+    "id": "3.02#3",
+    "text": "Cô ta không hề có thù oán cá nhân, không có tranh chấp tiền bạc, và cũng chẳng thể trục lợi bảo hiểm từ cái chết của Conrad Roy.",
+    "words": 29
+   },
+   {
+    "id": "3.02#4",
+    "text": "Để tìm lời giải đáp, chúng ta buộc phải giải phẫu sâu vào cấu trúc nhân cách bệnh lý của Michelle Carter.",
+    "words": 22
+   },
+   {
+    "id": "3.02#5",
+    "text": "Một tâm lý méo mó được nuôi dưỡng bởi cơn khát khao sự chú ý tột cùng và nỗi ám ảnh đóng vai nạn nhân bi kịch.",
+    "words": 27
+   },
+   {
+    "id": "3.02#6",
+    "text": "Ẩn sâu sau gương mặt nữ sinh trong sáng là một khoảng trống rỗng hiện sinh không đáy.",
+    "words": 18
+   },
+   {
+    "id": "3.02#7",
+    "text": "Một tâm hồn lạc lối sẵn sàng đánh đổi cả sinh mạng của bạn trai để mua lấy vài khoảnh khắc trở thành tâm điểm của sự ngưỡng mộ.",
     "words": 29
    }
   ]
@@ -579,23 +706,43 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "giải phẫu tâm lý học chuyên sâu",
-  "text": "Một khung lý thuyết khoa học hành vi giúp giải thích: Carter mang những đặc điểm điển hình của Rối loạn nhân cách kịch tính kết hợp Hội chứng Münchausen kỹ thuật số. Kẻ mang cấu trúc tâm lý này có nhu cầu bệnh lý là phải trở thành tâm điểm của sự chú ý và nhận được lòng thương cảm tuyệt đối từ xã hội. Đối với Michelle Carter, Conrad Roy không được nhìn nhận như một con người có sinh mệnh và quyền được sống, mà đã bị “Vật hóa” thành một món đạo cụ để phục vụ vở kịch ái kỷ của riêng cô ta.",
+  "direction": "phân tích Rối loạn nhân cách kịch tính & Ái kỷ",
+  "text": "Dưới góc độ tâm thần học pháp y, hành vi của Michelle Carter bộc lộ những đặc điểm kinh điển của Rối loạn nhân cách kịch tính kết hợp nét ái kỷ bệnh lý. Tại trường Trung học King Philip Regional, Michelle là một nữ sinh mờ nhạt, vụng về trong giao tiếp xã hội và hầu như không có bạn bè thân thiết. Cô ta luôn cảm thấy mình vô hình, bị cô lập và khao khát đến tuyệt vọng việc trở thành tâm điểm của sự chú ý và thương cảm từ người khác. Để bù đắp cho sự trống rỗng bên trong, bộ não ái kỷ của cô ta đã tự sáng tác nên một kịch bản phim truyền hình lãng mạn đầy nước mắt do chính mình thủ vai chính. Và chàng trai Conrad Roy đáng thương đã vô tình bị cô ta lựa chọn để trở thành “đạo cụ sống” hoàn hảo cho màn kịch đời mình. Sự vật hóa người khác biến bạn trai thành một công cụ cung cấp nguồn thỏa mãn cảm xúc ái kỷ không hơn không kém. Khi đối tượng không còn phục vụ cho ảo tưởng đó, kẻ thao túng sẵn sàng đẩy họ vào sự hủy diệt.",
   "sentences": [
    {
     "id": "3.03#1",
-    "text": "Một khung lý thuyết khoa học hành vi giúp giải thích: Carter mang những đặc điểm điển hình của Rối loạn nhân cách kịch tính kết hợp Hội chứng Münchausen kỹ thuật số.",
-    "words": 33
+    "text": "Dưới góc độ tâm thần học pháp y, hành vi của Michelle Carter bộc lộ những đặc điểm kinh điển của Rối loạn nhân cách kịch tính kết hợp nét ái kỷ bệnh lý.",
+    "words": 34
    },
    {
     "id": "3.03#2",
-    "text": "Kẻ mang cấu trúc tâm lý này có nhu cầu bệnh lý là phải trở thành tâm điểm của sự chú ý và nhận được lòng thương cảm tuyệt đối từ xã hội.",
-    "words": 33
+    "text": "Tại trường Trung học King Philip Regional, Michelle là một nữ sinh mờ nhạt, vụng về trong giao tiếp xã hội và hầu như không có bạn bè thân thiết.",
+    "words": 30
    },
    {
     "id": "3.03#3",
-    "text": "Đối với Michelle Carter, Conrad Roy không được nhìn nhận như một con người có sinh mệnh và quyền được sống, mà đã bị “Vật hóa” thành một món đạo cụ để phục vụ vở kịch ái kỷ của riêng cô ta.",
-    "words": 42
+    "text": "Cô ta luôn cảm thấy mình vô hình, bị cô lập và khao khát đến tuyệt vọng việc trở thành tâm điểm của sự chú ý và thương cảm từ người khác.",
+    "words": 32
+   },
+   {
+    "id": "3.03#4",
+    "text": "Để bù đắp cho sự trống rỗng bên trong, bộ não ái kỷ của cô ta đã tự sáng tác nên một kịch bản phim truyền hình lãng mạn đầy nước mắt do chính mình thủ vai chính.",
+    "words": 38
+   },
+   {
+    "id": "3.03#5",
+    "text": "Và chàng trai Conrad Roy đáng thương đã vô tình bị cô ta lựa chọn để trở thành “đạo cụ sống” hoàn hảo cho màn kịch đời mình.",
+    "words": 28
+   },
+   {
+    "id": "3.03#6",
+    "text": "Sự vật hóa người khác biến bạn trai thành một công cụ cung cấp nguồn thỏa mãn cảm xúc ái kỷ không hơn không kém.",
+    "words": 25
+   },
+   {
+    "id": "3.03#7",
+    "text": "Khi đối tượng không còn phục vụ cho ảo tưởng đó, kẻ thao túng sẵn sàng đẩy họ vào sự hủy diệt.",
+    "words": 22
    }
   ]
  },
@@ -604,83 +751,94 @@
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "kết nối tư liệu đời thực",
-  "text": "Tại trường trung học King Philip, Michelle Carter là một nữ sinh mờ nhạt, vụng về trong giao tiếp và luôn cảm thấy mình bị bạn bè cô lập. Cảm giác bất an và nỗi khao khát được công nhận đã thúc đẩy cô ta tìm kiếm sự chú ý trong một thế giới ảo tưởng được nuôi dưỡng bởi phim ảnh. Vỏ bọc một thiếu nữ da trắng xinh xắn, ngoan hiền và gia đình nề nếp đã tạo ra một “Hiệu ứng Hào quang” hoàn hảo, làm mù mắt những người xung quanh suốt thời gian dài.",
+  "direction": "làm rõ nỗi ám ảnh văn hóa đại chúng và phim ảnh",
+  "text": "Tại phiên tòa xét xử, bên công tố đã chứng minh Michelle Carter có một nỗi ám ảnh kỳ lạ đối với loạt phim truyền hình âm nhạc nổi tiếng Glee. Đặc biệt, cô ta thần tượng cuồng nhiệt nữ diễn viên Lea Michele ngoài đời thực. Vào năm 2013, nam diễn viên Cory Monteith, bạn diễn và cũng là người yêu của Lea Michele, đã đột ngột qua đời vì dùng thuốc quá liều. Hình ảnh Lea Michele xuất hiện trước công chúng trong trang phục đen kiêu sa, nhận được muôn vàn sự thương xót, ngưỡng mộ và vỗ về từ hàng triệu người hâm mộ đã găm sâu vào tâm trí Michelle Carter. Cô ta khao khát có được vị thế của một “người bạn gái góa phụ bi thương” được cả cộng đồng vây quanh an ủi. Một ảo tưởng bệnh hoạn bắt đầu nảy nở và biến thành nỗi ám ảnh cưỡng chế không thể kiểm soát. Cô ta thậm chí còn sao chép từng câu thoại trong phim vào những dòng tin nhắn gửi cho bạn bè để làm dày thêm kịch bản bi thương của mình.",
   "sentences": [
    {
     "id": "3.04#1",
-    "text": "Tại trường trung học King Philip, Michelle Carter là một nữ sinh mờ nhạt, vụng về trong giao tiếp và luôn cảm thấy mình bị bạn bè cô lập.",
-    "words": 29
+    "text": "Tại phiên tòa xét xử, bên công tố đã chứng minh Michelle Carter có một nỗi ám ảnh kỳ lạ đối với loạt phim truyền hình âm nhạc nổi tiếng Glee.",
+    "words": 31
    },
    {
     "id": "3.04#2",
-    "text": "Cảm giác bất an và nỗi khao khát được công nhận đã thúc đẩy cô ta tìm kiếm sự chú ý trong một thế giới ảo tưởng được nuôi dưỡng bởi phim ảnh.",
-    "words": 33
+    "text": "Đặc biệt, cô ta thần tượng cuồng nhiệt nữ diễn viên Lea Michele ngoài đời thực.",
+    "words": 16
    },
    {
     "id": "3.04#3",
-    "text": "Vỏ bọc một thiếu nữ da trắng xinh xắn, ngoan hiền và gia đình nề nếp đã tạo ra một “Hiệu ứng Hào quang” hoàn hảo, làm mù mắt những người xung quanh suốt thời gian dài.",
-    "words": 37
+    "text": "Vào năm 2013, nam diễn viên Cory Monteith, bạn diễn và cũng là người yêu của Lea Michele, đã đột ngột qua đời vì dùng thuốc quá liều.",
+    "words": 28
+   },
+   {
+    "id": "3.04#4",
+    "text": "Hình ảnh Lea Michele xuất hiện trước công chúng trong trang phục đen kiêu sa, nhận được muôn vàn sự thương xót, ngưỡng mộ và vỗ về từ hàng triệu người hâm mộ đã găm sâu vào tâm trí Michelle Carter.",
+    "words": 41
+   },
+   {
+    "id": "3.04#5",
+    "text": "Cô ta khao khát có được vị thế của một “người bạn gái góa phụ bi thương” được cả cộng đồng vây quanh an ủi.",
+    "words": 25
+   },
+   {
+    "id": "3.04#6",
+    "text": "Một ảo tưởng bệnh hoạn bắt đầu nảy nở và biến thành nỗi ám ảnh cưỡng chế không thể kiểm soát.",
+    "words": 21
+   },
+   {
+    "id": "3.04#7",
+    "text": "Cô ta thậm chí còn sao chép từng câu thoại trong phim vào những dòng tin nhắn gửi cho bạn bè để làm dày thêm kịch bản bi thương của mình.",
+    "words": 31
    }
   ]
  },
  {
   "id": "3.05",
   "act": 3,
-  "kind": "LOI",
-  "role": "D",
-  "direction": "công bố các phát hiện tư liệu số",
-  "text": "Tại tòa án, cơ quan công tố đã vạch trần một phát hiện rùng mình: Michelle Carter bị ám ảnh sâu sắc bởi loạt phim truyền hình ca nhạc nổi tiếng Glee. Đặc biệt là câu chuyện ngoài đời của nữ diễn viên chính Lea Michele, người nhận được sự thương tiếc và ôm ấp của hàng triệu khán giả sau khi bạn trai đột ngột qua đời. Các chuyên viên pháp y số phát hiện Michelle đã chép lại nguyên văn nhiều câu thoại đẫm nước mắt trong bộ phim đó để gửi cho bạn bè và Conrad. Đây chính là “Chữ ký tâm lý” bất biến của kẻ thủ ác: dàn dựng một thảm kịch có kịch bản để độc chiếm vai diễn người bạn gái thiên thần đau khổ.",
-  "sentences": [
-   {
-    "id": "3.05#1",
-    "text": "Tại tòa án, cơ quan công tố đã vạch trần một phát hiện rùng mình: Michelle Carter bị ám ảnh sâu sắc bởi loạt phim truyền hình ca nhạc nổi tiếng Glee.",
-    "words": 32
-   },
-   {
-    "id": "3.05#2",
-    "text": "Đặc biệt là câu chuyện ngoài đời của nữ diễn viên chính Lea Michele, người nhận được sự thương tiếc và ôm ấp của hàng triệu khán giả sau khi bạn trai đột ngột qua đời.",
-    "words": 36
-   },
-   {
-    "id": "3.05#3",
-    "text": "Các chuyên viên pháp y số phát hiện Michelle đã chép lại nguyên văn nhiều câu thoại đẫm nước mắt trong bộ phim đó để gửi cho bạn bè và Conrad.",
-    "words": 31
-   },
-   {
-    "id": "3.05#4",
-    "text": "Đây chính là “Chữ ký tâm lý” bất biến của kẻ thủ ác: dàn dựng một thảm kịch có kịch bản để độc chiếm vai diễn người bạn gái thiên thần đau khổ.",
-    "words": 33
-   }
-  ]
+  "kind": "SFX",
+  "desc": "Tiếng máy ảnh chớp nháy liên hồi, tiếng rè rè của micro phỏng vấn."
  },
  {
   "id": "3.06",
   "act": 3,
   "kind": "LOI",
-  "role": "H",
-  "direction": "giọng đanh thép bóc trần sự thật",
-  "text": "Michelle Carter muốn có một bi kịch của riêng mình để bước lên sân khấu và trở thành tâm điểm của sự ngưỡng mộ và an ủi. Để vở kịch hoàn hảo ấy được công diễn trước mắt mọi người, điều kiện tiên quyết là người bạn trai Conrad Roy buộc phải biến mất khỏi cõi đời. Sự toan tính của Michelle tinh vi đến mức: ngay trong đêm xảy ra vụ việc, khi chưa một ai hay biết tin tức gì, cô ta đã nhắn tin cho các bạn học rằng Conrad bị mất tích. Cô ta đóng vai một người bạn gái đang hoảng loạn tột độ, dù chính cô ta là người đang nắm giữ toàn bộ diễn biến qua chiếc điện thoại.",
+  "role": "D",
+  "direction": "vạch trần hành vi diễn tập trước án mạng",
+  "text": "Dữ liệu tin nhắn do Thám tử Gordon phục hồi đã phơi bày một sự thật ớn lạnh về hành vi chuẩn bị tâm lý của Michelle. Vào ngày 10 và 11 tháng 7 năm 2014, tức là hai ngày trước khi Conrad qua đời, Michelle đã bắt đầu gửi hàng loạt tin nhắn cho các bạn cùng trường. Cô ta khóc lóc bịa đặt rằng Conrad đã biến mất, rằng cậu ấy có thể đã tự tước đoạt mạng sống và cô ta đang vô cùng suy sụp vì không thể cứu được bạn trai. Trong khi thực tế vào thời điểm đó, Conrad Roy vẫn đang sống hoàn toàn bình thường cùng gia đình và chưa hề có hành động tự hại nào. Michelle đã viết sẵn kịch bản bi kịch, phân vai cho tất cả mọi người, và điều duy nhất còn thiếu để hoàn tất vở kịch chính là sự ra đi thực sự của chàng trai. Cô ta đã lỡ thông báo cho bạn bè, và một khi vở kịch đã được công bố, cô ta không cho phép kịch bản bị đổ bể. Sự chuẩn bị tinh vi này chứng minh đây là một chuỗi hành vi có toan tính lạnh lùng từ trước chứ không hề bộc phát.",
   "sentences": [
    {
     "id": "3.06#1",
-    "text": "Michelle Carter muốn có một bi kịch của riêng mình để bước lên sân khấu và trở thành tâm điểm của sự ngưỡng mộ và an ủi.",
+    "text": "Dữ liệu tin nhắn do Thám tử Gordon phục hồi đã phơi bày một sự thật ớn lạnh về hành vi chuẩn bị tâm lý của Michelle.",
     "words": 27
    },
    {
     "id": "3.06#2",
-    "text": "Để vở kịch hoàn hảo ấy được công diễn trước mắt mọi người, điều kiện tiên quyết là người bạn trai Conrad Roy buộc phải biến mất khỏi cõi đời.",
-    "words": 30
+    "text": "Vào ngày 10 và 11 tháng 7 năm 2014, tức là hai ngày trước khi Conrad qua đời, Michelle đã bắt đầu gửi hàng loạt tin nhắn cho các bạn cùng trường.",
+    "words": 32
    },
    {
     "id": "3.06#3",
-    "text": "Sự toan tính của Michelle tinh vi đến mức: ngay trong đêm xảy ra vụ việc, khi chưa một ai hay biết tin tức gì, cô ta đã nhắn tin cho các bạn học rằng Conrad bị mất tích.",
-    "words": 39
+    "text": "Cô ta khóc lóc bịa đặt rằng Conrad đã biến mất, rằng cậu ấy có thể đã tự tước đoạt mạng sống và cô ta đang vô cùng suy sụp vì không thể cứu được bạn trai.",
+    "words": 37
    },
    {
     "id": "3.06#4",
-    "text": "Cô ta đóng vai một người bạn gái đang hoảng loạn tột độ, dù chính cô ta là người đang nắm giữ toàn bộ diễn biến qua chiếc điện thoại.",
-    "words": 30
+    "text": "Trong khi thực tế vào thời điểm đó, Conrad Roy vẫn đang sống hoàn toàn bình thường cùng gia đình và chưa hề có hành động tự hại nào.",
+    "words": 29
+   },
+   {
+    "id": "3.06#5",
+    "text": "Michelle đã viết sẵn kịch bản bi kịch, phân vai cho tất cả mọi người, và điều duy nhất còn thiếu để hoàn tất vở kịch chính là sự ra đi thực sự của chàng trai.",
+    "words": 36
+   },
+   {
+    "id": "3.06#6",
+    "text": "Cô ta đã lỡ thông báo cho bạn bè, và một khi vở kịch đã được công bố, cô ta không cho phép kịch bản bị đổ bể.",
+    "words": 28
+   },
+   {
+    "id": "3.06#7",
+    "text": "Sự chuẩn bị tinh vi này chứng minh đây là một chuỗi hành vi có toan tính lạnh lùng từ trước chứ không hề bộc phát.",
+    "words": 26
    }
   ]
  },
@@ -688,24 +846,44 @@
   "id": "3.07",
   "act": 3,
   "kind": "LOI",
-  "role": "C",
-  "direction": "đánh giá tính chất dự mưu và cơ chế chia ngăn",
-  "text": "Đây chính là cơ chế “Chia ngăn nhận thức” kết hợp Kỹ thuật Trung hòa đạo đức để vô hiệu hóa hoàn toàn cảm giác tội lỗi. Một ngăn não bộ của Carter đóng vai nữ sinh ngây thơ lương thiện, trong khi ngăn còn lại tự ru ngủ rằng mình đang làm việc tốt để giúp bạn trai giải thoát khỏi đau đớn. Bằng việc tự khoác lên mình chiếc áo thiên thần cứu rỗi giả tạo, hung thủ đã bình thường hóa hành vi tàn độc mà không hề bị lương tâm cắn rứt mỗi đêm.",
+  "role": "H",
+  "direction": "phân tích ngòi nổ và điểm gãy tâm lý",
+  "text": "Đây chính là Ngòi nổ và Điểm gãy tâm lý mang tính quyết định của toàn bộ vụ án. Khi đã trót loan tin với bạn bè rằng Conrad mất tích và gặp chuyện chẳng lành, Michelle rơi vào một nỗi sợ hãi bệnh lý: sợ bị lật tẩy là kẻ dối trá. Nếu Conrad đổi ý và tiếp tục sống, chiếc mặt nạ bi kịch mà cô ta dày công dựng lên sẽ lập tức tan thành mây khói, biến cô ta thành trò cười trước bạn bè. Cái tôi ái kỷ không cho phép điều đó xảy ra dưới bất kỳ giá nào. Chính vì vậy, vào đêm 12 tháng 7, sự thúc ép của Michelle đã chuyển từ khuyến khích thông thường sang một cơn cuồng loạn cưỡng bách. Sự ra đi của Conrad trở thành điều kiện sống còn để bảo vệ sự toàn vẹn cho lời nói dối bệnh hoạn của cô ta. Một sinh mạng con người bị đem ra làm vật thế chấp chỉ để cứu vãn thể diện mong manh của kẻ nói dối.",
   "sentences": [
    {
     "id": "3.07#1",
-    "text": "Đây chính là cơ chế “Chia ngăn nhận thức” kết hợp Kỹ thuật Trung hòa đạo đức để vô hiệu hóa hoàn toàn cảm giác tội lỗi.",
-    "words": 27
+    "text": "Đây chính là Ngòi nổ và Điểm gãy tâm lý mang tính quyết định của toàn bộ vụ án.",
+    "words": 19
    },
    {
     "id": "3.07#2",
-    "text": "Một ngăn não bộ của Carter đóng vai nữ sinh ngây thơ lương thiện, trong khi ngăn còn lại tự ru ngủ rằng mình đang làm việc tốt để giúp bạn trai giải thoát khỏi đau đớn.",
-    "words": 37
+    "text": "Khi đã trót loan tin với bạn bè rằng Conrad mất tích và gặp chuyện chẳng lành, Michelle rơi vào một nỗi sợ hãi bệnh lý: sợ bị lật tẩy là kẻ dối trá.",
+    "words": 34
    },
    {
     "id": "3.07#3",
-    "text": "Bằng việc tự khoác lên mình chiếc áo thiên thần cứu rỗi giả tạo, hung thủ đã bình thường hóa hành vi tàn độc mà không hề bị lương tâm cắn rứt mỗi đêm.",
-    "words": 34
+    "text": "Nếu Conrad đổi ý và tiếp tục sống, chiếc mặt nạ bi kịch mà cô ta dày công dựng lên sẽ lập tức tan thành mây khói, biến cô ta thành trò cười trước bạn bè.",
+    "words": 36
+   },
+   {
+    "id": "3.07#4",
+    "text": "Cái tôi ái kỷ không cho phép điều đó xảy ra dưới bất kỳ giá nào.",
+    "words": 16
+   },
+   {
+    "id": "3.07#5",
+    "text": "Chính vì vậy, vào đêm 12 tháng 7, sự thúc ép của Michelle đã chuyển từ khuyến khích thông thường sang một cơn cuồng loạn cưỡng bách.",
+    "words": 27
+   },
+   {
+    "id": "3.07#6",
+    "text": "Sự ra đi của Conrad trở thành điều kiện sống còn để bảo vệ sự toàn vẹn cho lời nói dối bệnh hoạn của cô ta.",
+    "words": 26
+   },
+   {
+    "id": "3.07#7",
+    "text": "Một sinh mạng con người bị đem ra làm vật thế chấp chỉ để cứu vãn thể diện mong manh của kẻ nói dối.",
+    "words": 24
    }
   ]
  },
@@ -713,81 +891,137 @@
   "id": "3.08",
   "act": 3,
   "kind": "LOI",
-  "role": "H",
-  "direction": "kể lại diễn biến sau thảm kịch",
-  "text": "Ngay sau khi Conrad qua đời, Michelle Carter lập tức bước lên vũ đài danh vọng ảo mà cô ta hằng mong mỏi. Cô ta liên tục đăng tải những dòng trạng thái thương tiếc đẫm lệ trên mạng xã hội Facebook và Twitter, thu hút hàng trăm lời bình luận an ủi. Cô ta tự tay đứng ra tổ chức một giải bóng mềm từ thiện mang tên “Homers for Conrad” để gây quỹ nâng cao nhận thức sức khỏe tinh thần. Trong sự kiện ấy, Michelle Carter xuất hiện rạng rỡ ở vị trí trung tâm, đón nhận những cái ôm và sự thán phục từ cộng đồng địa phương. Chiếc mặt nạ thiên thần đau khổ tưởng chừng đã giúp cô ta hoàn tất vai diễn hoàn hảo nhất của cuộc đời mình. Cho đến một ngày, thói quen chia sẻ bệnh lý và sự ngạo mạn đã tự tay giật phăng lớp vỏ bọc tinh vi đó.",
+  "role": "C",
+  "direction": "bóc trần cơ chế Chia ngăn nhận thức & Vật hóa nạn nhân",
+  "text": "Ở đây, chúng ta chứng kiến sự vận hành tinh vi của Cơ chế Chia ngăn nhận thức và Kỹ thuật Trung hòa đạo đức. Trước mặt cha mẹ và thầy cô tại thị trấn Plainville, Michelle vẫn giữ trọn vẹn vỏ bọc một cô con gái ngoan ngoãn, học hành chăm chỉ và tham gia các hoạt động thiện nguyện. Nhưng trong ngăn kéo kỹ thuật số bí mật, cô ta lạnh lùng giáng cấp một sinh mạng con người xuống thành một con tốt thí trên bàn cờ cảm xúc của mình. Michelle tự ru ngủ lương tâm bằng ngụy biện rằng mình đang “giúp đỡ” Conrad giải thoát khỏi nỗi đau đớn trần gian để lên một thế giới tốt đẹp hơn. Sự thiếu hụt hoàn toàn thấu cảm cảm xúc đã biến cô ta thành một kẻ săn mồi lạnh lùng vô cảm mà bề ngoài vẫn khoác chiếc áo thiên thần thánh thiện. Kỹ thuật ngắt kết nối đạo đức cho phép cô ta ngủ ngon mỗi đêm sau khi đã gửi đi những thông điệp đoạt mạng. Bộ não tội phạm tự bào chữa rằng mọi lỗi lầm thuộc về số phận và mong muốn của chính nạn nhân.",
   "sentences": [
    {
     "id": "3.08#1",
-    "text": "Ngay sau khi Conrad qua đời, Michelle Carter lập tức bước lên vũ đài danh vọng ảo mà cô ta hằng mong mỏi.",
-    "words": 23
+    "text": "Ở đây, chúng ta chứng kiến sự vận hành tinh vi của Cơ chế Chia ngăn nhận thức và Kỹ thuật Trung hòa đạo đức.",
+    "words": 25
    },
    {
     "id": "3.08#2",
-    "text": "Cô ta liên tục đăng tải những dòng trạng thái thương tiếc đẫm lệ trên mạng xã hội Facebook và Twitter, thu hút hàng trăm lời bình luận an ủi.",
-    "words": 30
+    "text": "Trước mặt cha mẹ và thầy cô tại thị trấn Plainville, Michelle vẫn giữ trọn vẹn vỏ bọc một cô con gái ngoan ngoãn, học hành chăm chỉ và tham gia các hoạt động thiện nguyện.",
+    "words": 36
    },
    {
     "id": "3.08#3",
-    "text": "Cô ta tự tay đứng ra tổ chức một giải bóng mềm từ thiện mang tên “Homers for Conrad” để gây quỹ nâng cao nhận thức sức khỏe tinh thần.",
-    "words": 30
+    "text": "Nhưng trong ngăn kéo kỹ thuật số bí mật, cô ta lạnh lùng giáng cấp một sinh mạng con người xuống thành một con tốt thí trên bàn cờ cảm xúc của mình.",
+    "words": 33
    },
    {
     "id": "3.08#4",
-    "text": "Trong sự kiện ấy, Michelle Carter xuất hiện rạng rỡ ở vị trí trung tâm, đón nhận những cái ôm và sự thán phục từ cộng đồng địa phương.",
-    "words": 29
+    "text": "Michelle tự ru ngủ lương tâm bằng ngụy biện rằng mình đang “giúp đỡ” Conrad giải thoát khỏi nỗi đau đớn trần gian để lên một thế giới tốt đẹp hơn.",
+    "words": 31
    },
    {
     "id": "3.08#5",
-    "text": "Chiếc mặt nạ thiên thần đau khổ tưởng chừng đã giúp cô ta hoàn tất vai diễn hoàn hảo nhất của cuộc đời mình.",
-    "words": 24
+    "text": "Sự thiếu hụt hoàn toàn thấu cảm cảm xúc đã biến cô ta thành một kẻ săn mồi lạnh lùng vô cảm mà bề ngoài vẫn khoác chiếc áo thiên thần thánh thiện.",
+    "words": 33
    },
    {
     "id": "3.08#6",
-    "text": "Cho đến một ngày, thói quen chia sẻ bệnh lý và sự ngạo mạn đã tự tay giật phăng lớp vỏ bọc tinh vi đó.",
+    "text": "Kỹ thuật ngắt kết nối đạo đức cho phép cô ta ngủ ngon mỗi đêm sau khi đã gửi đi những thông điệp đoạt mạng.",
     "words": 25
+   },
+   {
+    "id": "3.08#7",
+    "text": "Bộ não tội phạm tự bào chữa rằng mọi lỗi lầm thuộc về số phận và mong muốn của chính nạn nhân.",
+    "words": 22
    }
   ]
  },
  {
   "id": "3.09",
   "act": 3,
-  "kind": "BGM",
-  "desc": "*Nhạc nền đổi sang giai điệu u ám, tiếng đàn gõ nhịp căng thẳng.*"
+  "kind": "LOI",
+  "role": "H",
+  "direction": "mô tả hành vi sau thảm kịch và sự thỏa mãn ái kỷ",
+  "text": "Ngay sau khi Conrad qua đời, Michelle Carter lập tức bước lên vũ đài trung tâm mà cô ta hằng ao ước suốt bao năm tháng. Cô ta đăng tải hàng loạt bài viết bi thương trên mạng xã hội, chia sẻ những kỷ niệm xúc động và nhận về hàng trăm lượt chia sẻ, an ủi từ bạn bè. Chưa dừng lại ở đó, Michelle còn đứng ra tổ chức một giải đấu bóng mềm từ thiện mang tên Homers for Conrad để gây quỹ ủng hộ sức khỏe tinh thần. Cô ta xuất hiện rạng rỡ, phát biểu trước đám đông và nhận hoa như một biểu tượng của lòng vị tha và sự kiên cường vượt qua mất mát. Chữ ký tâm lý của kẻ thủ ác đã hiện rõ mồn một: Cô ta tận hưởng từng giây phút được đắm chìm trong sự chú ý của công chúng, xây dựng danh tiếng trên nỗi đau của người bạn trai vừa nằm xuống. Một sự thỏa mãn ái kỷ tột cùng được ngụy trang hoàn hảo dưới vỏ bọc của lòng nhân ái.",
+  "sentences": [
+   {
+    "id": "3.09#1",
+    "text": "Ngay sau khi Conrad qua đời, Michelle Carter lập tức bước lên vũ đài trung tâm mà cô ta hằng ao ước suốt bao năm tháng.",
+    "words": 26
+   },
+   {
+    "id": "3.09#2",
+    "text": "Cô ta đăng tải hàng loạt bài viết bi thương trên mạng xã hội, chia sẻ những kỷ niệm xúc động và nhận về hàng trăm lượt chia sẻ, an ủi từ bạn bè.",
+    "words": 34
+   },
+   {
+    "id": "3.09#3",
+    "text": "Chưa dừng lại ở đó, Michelle còn đứng ra tổ chức một giải đấu bóng mềm từ thiện mang tên Homers for Conrad để gây quỹ ủng hộ sức khỏe tinh thần.",
+    "words": 32
+   },
+   {
+    "id": "3.09#4",
+    "text": "Cô ta xuất hiện rạng rỡ, phát biểu trước đám đông và nhận hoa như một biểu tượng của lòng vị tha và sự kiên cường vượt qua mất mát.",
+    "words": 30
+   },
+   {
+    "id": "3.09#5",
+    "text": "Chữ ký tâm lý của kẻ thủ ác đã hiện rõ mồn một: Cô ta tận hưởng từng giây phút được đắm chìm trong sự chú ý của công chúng, xây dựng danh tiếng trên nỗi đau của người bạn trai vừa nằm xuống.",
+    "words": 44
+   },
+   {
+    "id": "3.09#6",
+    "text": "Một sự thỏa mãn ái kỷ tột cùng được ngụy trang hoàn hảo dưới vỏ bọc của lòng nhân ái.",
+    "words": 20
+   }
+  ]
+ },
+ {
+  "id": "3.10",
+  "act": 3,
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": "Tiếng đàn cello ngân dài u uất"
  },
  {
   "id": "4.01",
   "act": 4,
   "kind": "BGM",
-  "desc": "*Âm thanh vĩ cầm căng thẳng, giằng xé, tái hiện không khí ngột ngạt của phiên tòa lịch sử.*"
+  "desc": "Nhịp Synth căng thẳng, dồn dập, kết hợp tiếng vĩ cầm rít nhẹ tạo không khí nghẹt thở của phòng xử án."
  },
  {
   "id": "4.02",
   "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "mở đầu Hồi 4",
-  "text": "Sự thật rợn người về vụ án có lẽ đã vĩnh viễn bị chìm vào bóng tối nếu Michelle Carter không tiếp tục tìm kiếm sự thương cảm qua màn hình điện thoại. Ngày 15 tháng 9 năm 2014, hai tháng sau cái chết của Conrad, Michelle đã gửi một dòng tin nhắn định mệnh cho người bạn thân Samantha Boardman. Đó là khoảnh khắc sự thật trần trụi bùng nổ, làm vỡ tan toàn bộ màn kịch giả dối mà cô ta đã dựng lên. Hãy hình dung cảm giác bàng hoàng và run rẩy của người bạn khi đọc được những dòng thú nhận không thể tin nổi ấy.",
+  "direction": "mở đầu Hồi 4 bằng sự hé lộ của sự thật",
+  "text": "Thế nhưng, chiếc mặt nạ hoàn hảo của người bạn gái thánh thiện không thể tồn tại mãi mãi trước ánh sáng của sự thật. Trong tâm lý học tội phạm, những kẻ ái kỷ kịch tính luôn có một điểm yếu chí mạng: nhu cầu khoe khoang và khẳng định vai trò quyền lực của mình. Michelle Carter không thể kìm nén được thôi thúc muốn kể cho ai đó nghe về “chiến tích” giật dây vô hình của bản thân. Chính sự tự mãn mù quáng ấy đã dẫn đến sự xuất hiện của một mẩu bằng chứng bằng vàng, chôn vùi toàn bộ tương lai của kẻ thủ ác. Hai tháng sau ngày Conrad vĩnh viễn ra đi, một dòng tin nhắn định mệnh đã được gửi đi trong đêm. Một lời tự thú bất cẩn bóc trần toàn bộ tội ác được che giấu sau những giọt nước mắt cá sấu.",
   "sentences": [
    {
     "id": "4.02#1",
-    "text": "Sự thật rợn người về vụ án có lẽ đã vĩnh viễn bị chìm vào bóng tối nếu Michelle Carter không tiếp tục tìm kiếm sự thương cảm qua màn hình điện thoại.",
-    "words": 33
+    "text": "Thế nhưng, chiếc mặt nạ hoàn hảo của người bạn gái thánh thiện không thể tồn tại mãi mãi trước ánh sáng của sự thật.",
+    "words": 25
    },
    {
     "id": "4.02#2",
-    "text": "Ngày 15 tháng 9 năm 2014, hai tháng sau cái chết của Conrad, Michelle đã gửi một dòng tin nhắn định mệnh cho người bạn thân Samantha Boardman.",
-    "words": 28
+    "text": "Trong tâm lý học tội phạm, những kẻ ái kỷ kịch tính luôn có một điểm yếu chí mạng: nhu cầu khoe khoang và khẳng định vai trò quyền lực của mình.",
+    "words": 32
    },
    {
     "id": "4.02#3",
-    "text": "Đó là khoảnh khắc sự thật trần trụi bùng nổ, làm vỡ tan toàn bộ màn kịch giả dối mà cô ta đã dựng lên.",
+    "text": "Michelle Carter không thể kìm nén được thôi thúc muốn kể cho ai đó nghe về “chiến tích” giật dây vô hình của bản thân.",
     "words": 25
    },
    {
     "id": "4.02#4",
-    "text": "Hãy hình dung cảm giác bàng hoàng và run rẩy của người bạn khi đọc được những dòng thú nhận không thể tin nổi ấy.",
-    "words": 25
+    "text": "Chính sự tự mãn mù quáng ấy đã dẫn đến sự xuất hiện của một mẩu bằng chứng bằng vàng, chôn vùi toàn bộ tương lai của kẻ thủ ác.",
+    "words": 30
+   },
+   {
+    "id": "4.02#5",
+    "text": "Hai tháng sau ngày Conrad vĩnh viễn ra đi, một dòng tin nhắn định mệnh đã được gửi đi trong đêm.",
+    "words": 21
+   },
+   {
+    "id": "4.02#6",
+    "text": "Một lời tự thú bất cẩn bóc trần toàn bộ tội ác được che giấu sau những giọt nước mắt cá sấu.",
+    "words": 22
    }
   ]
  },
@@ -796,23 +1030,38 @@
   "act": 4,
   "kind": "LOI",
   "role": "N",
-  "direction": "N2: góc nhìn minh hoạ của một người bạn, giọng nữ trẻ run rẩy, bàng hoàng",
-  "text": "Theo bản ghi tin nhắn được công bố trước tòa, Michelle viết rằng cái chết của Conrad là do lỗi của chính cô ta, và cô ta đã hoàn toàn có thể ngăn cậu lại. Michelle thừa nhận đang nói chuyện điện thoại khi Conrad sợ hãi bước ra ngoài xe, và chính cô ta đã ra lệnh cho cậu phải trèo trở lại vào trong cabin. Người bạn gái ngày nào cũng khóc lóc tỏ vẻ đau thương trước mặt mọi người, hóa ra lại chính là kẻ đã lạnh lùng đẩy Conrad vào chỗ chết.",
+  "direction": "N2: góc nhìn minh hoạ của Samantha Boardman, giọng nữ trẻ bàng hoàng, run rẩy",
+  "text": "Vào tối ngày 15 tháng 9 năm 2014, tôi bất ngờ nhận được một dòng tin nhắn dài từ Michelle Carter gửi qua điện thoại. Khi mở màn hình ra đọc, toàn thân tôi run lên bần bật vì không thể tin nổi vào những con chữ đang hiện ra trước mắt. Michelle viết: “Cái chết của anh ấy là lỗi của tớ, thực sự là tớ đã có thể ngăn anh ấy lại.” Cô ấy viết tiếp: “Tớ đã nói chuyện điện thoại với anh ấy, anh ấy bước ra khỏi xe vì sợ hãi, nhưng tớ đã bảo anh ấy hãy quay trở lại xe.” Tôi chết lặng trong nỗi kinh hoàng tột độ khi nhận ra cô bạn gái mà cả trường đang thương xót bấy lâu nay thực chất là ai. Dòng tin nhắn ấy đã ám ảnh tâm trí tôi suốt nhiều tháng ngày sau đó.",
   "sentences": [
    {
     "id": "4.03#1",
-    "text": "Theo bản ghi tin nhắn được công bố trước tòa, Michelle viết rằng cái chết của Conrad là do lỗi của chính cô ta, và cô ta đã hoàn toàn có thể ngăn cậu lại.",
-    "words": 35
+    "text": "Vào tối ngày 15 tháng 9 năm 2014, tôi bất ngờ nhận được một dòng tin nhắn dài từ Michelle Carter gửi qua điện thoại.",
+    "words": 25
    },
    {
     "id": "4.03#2",
-    "text": "Michelle thừa nhận đang nói chuyện điện thoại khi Conrad sợ hãi bước ra ngoài xe, và chính cô ta đã ra lệnh cho cậu phải trèo trở lại vào trong cabin.",
-    "words": 32
+    "text": "Khi mở màn hình ra đọc, toàn thân tôi run lên bần bật vì không thể tin nổi vào những con chữ đang hiện ra trước mắt.",
+    "words": 27
    },
    {
     "id": "4.03#3",
-    "text": "Người bạn gái ngày nào cũng khóc lóc tỏ vẻ đau thương trước mặt mọi người, hóa ra lại chính là kẻ đã lạnh lùng đẩy Conrad vào chỗ chết.",
-    "words": 30
+    "text": "Michelle viết: “Cái chết của anh ấy là lỗi của tớ, thực sự là tớ đã có thể ngăn anh ấy lại.”",
+    "words": 22
+   },
+   {
+    "id": "4.03#4",
+    "text": "Cô ấy viết tiếp: “Tớ đã nói chuyện điện thoại với anh ấy, anh ấy bước ra khỏi xe vì sợ hãi, nhưng tớ đã bảo anh ấy hãy quay trở lại xe.”",
+    "words": 33
+   },
+   {
+    "id": "4.03#5",
+    "text": "Tôi chết lặng trong nỗi kinh hoàng tột độ khi nhận ra cô bạn gái mà cả trường đang thương xót bấy lâu nay thực chất là ai.",
+    "words": 28
+   },
+   {
+    "id": "4.03#6",
+    "text": "Dòng tin nhắn ấy đã ám ảnh tâm trí tôi suốt nhiều tháng ngày sau đó.",
+    "words": 16
    }
   ]
  },
@@ -820,45 +1069,55 @@
   "id": "4.04",
   "act": 4,
   "kind": "SFX",
-  "desc": "*Tiếng in tài liệu điện tử, tiếng đóng dấu hồ sơ khởi tố vang lên dứt khoát.*"
+  "desc": "Tiếng búa gỗ của thẩm phán gõ vang dội ba tiếng cộc cộc cộc trên bàn xử án."
  },
  {
   "id": "4.05",
   "act": 4,
   "kind": "LOI",
-  "role": "H",
-  "direction": "chuyển nhịp sang diễn biến pháp lý",
-  "text": "Dòng tin nhắn tự thú ấy cùng kho dữ liệu trích xuất đã trở thành bằng chứng thép để Cơ quan Công tố hạt Bristol quyết định khởi tố Michelle Carter về tội ngộ sát. Một cuộc chiến pháp lý chấn động chưa từng có tiền lệ trong lịch sử nước Mỹ chính thức bùng nổ. Tháng 6 năm 2017, tại Tòa án vị thành niên hạt Bristol ở Taunton, bang Massachusetts, phiên tòa mở màn dưới sự theo dõi gắt gao của truyền thông toàn cầu. Michelle Carter bước vào phòng xử án với một quyết định mang tính chiến lược bất ngờ. Cô ta từ bỏ quyền được xét xử bởi bồi thẩm đoàn gồm các công dân bình thường, để đặt toàn bộ số phận pháp lý vào tay một người duy nhất: Thẩm phán Lawrence Moniz. Đây là một canh bạc nhằm tránh sự phẫn nộ cảm xúc từ công chúng để dựa vào các lập luận kỹ thuật pháp lý khô khan.",
+  "role": "D",
+  "direction": "tóm tắt tiến trình tố tụng và khởi tố",
+  "text": "Dòng tin nhắn tự thú gửi cho Samantha Boardman lập tức trở thành chứng cứ đanh thép nhất trong hồ sơ khởi tố của Cơ quan Công tố hạt Bristol. Đầu năm 2015, Michelle Carter chính thức bị đại bồi thẩm đoàn truy tố về tội Ngộ sát không tự ý trước sự ngỡ ngàng của toàn thể dư luận nước Mỹ. Vụ án được đưa ra xét xử vào tháng 6 năm 2017 tại Tòa án Vị thành niên hạt Bristol thuộc thị trấn Taunton, bang Massachusetts. Đáng chú ý, bị cáo đã chủ động từ bỏ quyền được xét xử bởi bồi thẩm đoàn gồm các công dân bình thường. Michelle và đội ngũ pháp lý lựa chọn hình thức xét xử trực tiếp bởi một thẩm phán duy nhất: Thẩm phán Lawrence Moniz. Một canh bạc pháp lý đầy rủi ro nhằm né tránh làn sóng phẫn nộ dữ dội của công chúng địa phương. Họ hy vọng một thẩm phán chuyên nghiệp sẽ phán quyết thuần túy theo câu chữ của điều luật thay vì cảm xúc. Thế nhưng, chính sự thật trần trụi của các chứng cứ số đã định đoạt số phận của cô ta.",
   "sentences": [
    {
     "id": "4.05#1",
-    "text": "Dòng tin nhắn tự thú ấy cùng kho dữ liệu trích xuất đã trở thành bằng chứng thép để Cơ quan Công tố hạt Bristol quyết định khởi tố Michelle Carter về tội ngộ sát.",
-    "words": 35
+    "text": "Dòng tin nhắn tự thú gửi cho Samantha Boardman lập tức trở thành chứng cứ đanh thép nhất trong hồ sơ khởi tố của Cơ quan Công tố hạt Bristol.",
+    "words": 30
    },
    {
     "id": "4.05#2",
-    "text": "Một cuộc chiến pháp lý chấn động chưa từng có tiền lệ trong lịch sử nước Mỹ chính thức bùng nổ.",
-    "words": 21
+    "text": "Đầu năm 2015, Michelle Carter chính thức bị đại bồi thẩm đoàn truy tố về tội Ngộ sát không tự ý trước sự ngỡ ngàng của toàn thể dư luận nước Mỹ.",
+    "words": 32
    },
    {
     "id": "4.05#3",
-    "text": "Tháng 6 năm 2017, tại Tòa án vị thành niên hạt Bristol ở Taunton, bang Massachusetts, phiên tòa mở màn dưới sự theo dõi gắt gao của truyền thông toàn cầu.",
-    "words": 31
+    "text": "Vụ án được đưa ra xét xử vào tháng 6 năm 2017 tại Tòa án Vị thành niên hạt Bristol thuộc thị trấn Taunton, bang Massachusetts.",
+    "words": 26
    },
    {
     "id": "4.05#4",
-    "text": "Michelle Carter bước vào phòng xử án với một quyết định mang tính chiến lược bất ngờ.",
-    "words": 17
+    "text": "Đáng chú ý, bị cáo đã chủ động từ bỏ quyền được xét xử bởi bồi thẩm đoàn gồm các công dân bình thường.",
+    "words": 24
    },
    {
     "id": "4.05#5",
-    "text": "Cô ta từ bỏ quyền được xét xử bởi bồi thẩm đoàn gồm các công dân bình thường, để đặt toàn bộ số phận pháp lý vào tay một người duy nhất: Thẩm phán Lawrence Moniz.",
-    "words": 36
+    "text": "Michelle và đội ngũ pháp lý lựa chọn hình thức xét xử trực tiếp bởi một thẩm phán duy nhất: Thẩm phán Lawrence Moniz.",
+    "words": 24
    },
    {
     "id": "4.05#6",
-    "text": "Đây là một canh bạc nhằm tránh sự phẫn nộ cảm xúc từ công chúng để dựa vào các lập luận kỹ thuật pháp lý khô khan.",
-    "words": 27
+    "text": "Một canh bạc pháp lý đầy rủi ro nhằm né tránh làn sóng phẫn nộ dữ dội của công chúng địa phương.",
+    "words": 22
+   },
+   {
+    "id": "4.05#7",
+    "text": "Họ hy vọng một thẩm phán chuyên nghiệp sẽ phán quyết thuần túy theo câu chữ của điều luật thay vì cảm xúc.",
+    "words": 23
+   },
+   {
+    "id": "4.05#8",
+    "text": "Thế nhưng, chính sự thật trần trụi của các chứng cứ số đã định đoạt số phận của cô ta.",
+    "words": 20
    }
   ]
  },
@@ -866,29 +1125,39 @@
   "id": "4.06",
   "act": 4,
   "kind": "LOI",
-  "role": "D",
-  "direction": "thuật lại cuộc tranh tụng gay gắt",
-  "text": "Tại phiên tòa, luật sư bào chữa Joseph Cataldo đã kịch liệt lập luận rằng thân chủ của ông không hề có mặt tại hiện trường và không dùng bất kỳ lực vật lý nào. Phía bào chữa viện dẫn Tu chính án thứ nhất của Hiến pháp Hoa Kỳ về quyền tự do ngôn luận, cho rằng lời nói đơn thuần không thể cấu thành tội giết người. Ngược lại, Phó Công tố viên Katie Rayburn đã trình chiếu hàng loạt chuỗi tin nhắn với mốc thời gian chi tiết và đanh thép. Bà chứng minh rằng hành vi của Carter là một chuỗi thúc ép có tính toán tỉ mỉ, có hệ thống và trực tiếp tước đoạt cơ hội sống của nạn nhân.",
+  "role": "H",
+  "direction": "mô tả cuộc đối đầu nảy lửa tại phiên tòa",
+  "text": "Phiên tòa trở thành tâm điểm chú ý của toàn cầu với cuộc đối đầu gay gắt giữa hai luồng quan điểm pháp lý và tâm lý học. Luật sư bào chữa Joseph Cataldo lập luận rằng Michelle không hề có mặt tại bãi đỗ xe và không sử dụng bất kỳ hung khí bạo lực nào. Phía bào chữa khẳng định những dòng tin nhắn chỉ là ngôn từ tự do được bảo vệ bởi Tu chính án thứ nhất của Hiến pháp Hoa Kỳ. Ngược lại, Phó Công tố viên Katie Rayburn đã trình chiếu hàng nghìn trang tin nhắn chứng minh một chiến dịch tàn độc có chủ đích. Công tố viên nhấn mạnh rằng Michelle đã dùng lời nói như một mũi tên độc bắn thẳng vào tâm trí suy kiệt của nạn nhân. Từng luận điểm sắc bén đã bóc trần sự tàn nhẫn không thể biện minh của bị cáo.",
   "sentences": [
    {
     "id": "4.06#1",
-    "text": "Tại phiên tòa, luật sư bào chữa Joseph Cataldo đã kịch liệt lập luận rằng thân chủ của ông không hề có mặt tại hiện trường và không dùng bất kỳ lực vật lý nào.",
-    "words": 35
+    "text": "Phiên tòa trở thành tâm điểm chú ý của toàn cầu với cuộc đối đầu gay gắt giữa hai luồng quan điểm pháp lý và tâm lý học.",
+    "words": 28
    },
    {
     "id": "4.06#2",
-    "text": "Phía bào chữa viện dẫn Tu chính án thứ nhất của Hiến pháp Hoa Kỳ về quyền tự do ngôn luận, cho rằng lời nói đơn thuần không thể cấu thành tội giết người.",
-    "words": 34
+    "text": "Luật sư bào chữa Joseph Cataldo lập luận rằng Michelle không hề có mặt tại bãi đỗ xe và không sử dụng bất kỳ hung khí bạo lực nào.",
+    "words": 29
    },
    {
     "id": "4.06#3",
-    "text": "Ngược lại, Phó Công tố viên Katie Rayburn đã trình chiếu hàng loạt chuỗi tin nhắn với mốc thời gian chi tiết và đanh thép.",
-    "words": 25
+    "text": "Phía bào chữa khẳng định những dòng tin nhắn chỉ là ngôn từ tự do được bảo vệ bởi Tu chính án thứ nhất của Hiến pháp Hoa Kỳ.",
+    "words": 29
    },
    {
     "id": "4.06#4",
-    "text": "Bà chứng minh rằng hành vi của Carter là một chuỗi thúc ép có tính toán tỉ mỉ, có hệ thống và trực tiếp tước đoạt cơ hội sống của nạn nhân.",
-    "words": 32
+    "text": "Ngược lại, Phó Công tố viên Katie Rayburn đã trình chiếu hàng nghìn trang tin nhắn chứng minh một chiến dịch tàn độc có chủ đích.",
+    "words": 26
+   },
+   {
+    "id": "4.06#5",
+    "text": "Công tố viên nhấn mạnh rằng Michelle đã dùng lời nói như một mũi tên độc bắn thẳng vào tâm trí suy kiệt của nạn nhân.",
+    "words": 26
+   },
+   {
+    "id": "4.06#6",
+    "text": "Từng luận điểm sắc bén đã bóc trần sự tàn nhẫn không thể biện minh của bị cáo.",
+    "words": 18
    }
   ]
  },
@@ -897,28 +1166,33 @@
   "act": 4,
   "kind": "LOI",
   "role": "C",
-  "direction": "phân tích chiến thuật bào chữa tâm thần",
-  "text": "Chiến thuật tự bào chữa của phía bị cáo còn đi xa hơn khi thuê một chuyên gia tâm thần lập luận rằng Carter bị “say thuốc không tự nguyện” do tác dụng phụ của thuốc Celexa. Họ cố gắng đổ lỗi cho dược phẩm để chứng minh cô ta mất khả năng nhận thức và kiểm soát hành vi của mình. Tuy nhiên, tòa án đã thẳng thừng bác bỏ lập luận ngụy biện này. Bằng chứng cho thấy Carter hoàn toàn tỉnh táo, nhận thức rõ nạn nhân đang sợ hãi, và hiểu thấu hậu quả chết người khi ép cậu quay trở lại xe.",
+  "direction": "bác bỏ luận điểm say thuốc không tự nguyện",
+  "text": "Để bào chữa cho thân chủ, phía luật sư bị cáo đã thuê một chuyên gia tâm thần học là Tiến sĩ Peter Breggin. Họ lập luận rằng Michelle rơi vào trạng thái “say thuốc không tự nguyện” do tác dụng phụ của thuốc chống trầm cảm Celexa, làm mất khả năng đồng cảm. Tuy nhiên, lập luận ngụy biện này đã bị cơ quan công tố và các chuyên gia tâm lý học hành vi bẻ gãy hoàn toàn. Hành vi của Michelle mang tính toán tuần tự, che giấu dấu vết, dặn bạn bè xóa tin nhắn và tổ chức sự kiện gây quỹ một cách cực kỳ tỉnh táo. Đó không phải là sự mất kiểm soát hành vi do dược chất, mà là sự toan tính lạnh lùng của một nhân cách ái kỷ đang vận hành kỹ thuật trung hòa đạo đức.",
   "sentences": [
    {
     "id": "4.07#1",
-    "text": "Chiến thuật tự bào chữa của phía bị cáo còn đi xa hơn khi thuê một chuyên gia tâm thần lập luận rằng Carter bị “say thuốc không tự nguyện” do tác dụng phụ của thuốc Celexa.",
-    "words": 37
+    "text": "Để bào chữa cho thân chủ, phía luật sư bị cáo đã thuê một chuyên gia tâm thần học là Tiến sĩ Peter Breggin.",
+    "words": 24
    },
    {
     "id": "4.07#2",
-    "text": "Họ cố gắng đổ lỗi cho dược phẩm để chứng minh cô ta mất khả năng nhận thức và kiểm soát hành vi của mình.",
-    "words": 25
+    "text": "Họ lập luận rằng Michelle rơi vào trạng thái “say thuốc không tự nguyện” do tác dụng phụ của thuốc chống trầm cảm Celexa, làm mất khả năng đồng cảm.",
+    "words": 30
    },
    {
     "id": "4.07#3",
-    "text": "Tuy nhiên, tòa án đã thẳng thừng bác bỏ lập luận ngụy biện này.",
-    "words": 14
+    "text": "Tuy nhiên, lập luận ngụy biện này đã bị cơ quan công tố và các chuyên gia tâm lý học hành vi bẻ gãy hoàn toàn.",
+    "words": 26
    },
    {
     "id": "4.07#4",
-    "text": "Bằng chứng cho thấy Carter hoàn toàn tỉnh táo, nhận thức rõ nạn nhân đang sợ hãi, và hiểu thấu hậu quả chết người khi ép cậu quay trở lại xe.",
-    "words": 31
+    "text": "Hành vi của Michelle mang tính toán tuần tự, che giấu dấu vết, dặn bạn bè xóa tin nhắn và tổ chức sự kiện gây quỹ một cách cực kỳ tỉnh táo.",
+    "words": 32
+   },
+   {
+    "id": "4.07#5",
+    "text": "Đó không phải là sự mất kiểm soát hành vi do dược chất, mà là sự toan tính lạnh lùng của một nhân cách ái kỷ đang vận hành kỹ thuật trung hòa đạo đức.",
+    "words": 35
    }
   ]
  },
@@ -926,112 +1200,162 @@
   "id": "4.08",
   "act": 4,
   "kind": "LOI",
-  "role": "H",
-  "direction": "khoảnh khắc phán quyết lịch sử",
-  "text": "Ngày 16 tháng 6 năm 2017, không khí phòng xử án hoàn toàn nghẹt thở khi Thẩm phán Lawrence Moniz bắt đầu đọc bản phán quyết bằng giọng đanh thép. Thẩm phán Moniz nhận định: Khoảnh khắc Conrad bước ra khỏi cabin chính là sự lựa chọn sự sống của nạn nhân. Việc Michelle Carter ra lệnh cho cậu quay trở lại xe, kết hợp với việc không hề gọi cứu nạn hay báo cho gia đình, cấu thành hành vi liều lĩnh và vô lương tâm nghiêm trọng. Hành vi cưỡng ép tinh thần đó đã trực tiếp gây ra cái chết của Conrad Roy. Thẩm phán tuyên bố đanh thép: Michelle Carter phạm tội ngộ sát.",
+  "role": "D",
+  "direction": "tuyên đọc nội dung phán quyết lịch sử",
+  "text": "Ngày 16 tháng 6 năm 2017, toàn bộ phòng xử án nín thở khi Thẩm phán Lawrence Moniz bắt đầu công bố bản phán quyết. Thẩm phán phân tích sâu sắc rằng: Khi Conrad bước ra khỏi xe, cậu đã tự phá vỡ chuỗi nhân quả tự hại và giành lại cơ hội sống. Thế nhưng, hành động ra lệnh “hãy quay trở lại xe” của Michelle cùng sự im lặng hoàn toàn không cứu giúp cấu thành hành vi liều lĩnh và cố ý vô cớ. Thẩm phán nhận định bị cáo đã tạo ra một tình thế hiểm nghèo đối với nạn nhân và hoàn toàn thất bại trong việc thực hiện nghĩa vụ cứu giúp tối thiểu. Không một cuộc gọi nào được thực hiện đến số 911 dù bị cáo biết chính xác vị trí chiếc xe đang đỗ. Thẩm phán Moniz dõng dạc tuyên bố: Michelle Carter phạm tội Ngộ sát không tự ý. Một phán quyết mang tính lịch sử, phá vỡ định kiến cho rằng ngôn từ từ xa không thể cấu thành tội giết người.",
   "sentences": [
    {
     "id": "4.08#1",
-    "text": "Ngày 16 tháng 6 năm 2017, không khí phòng xử án hoàn toàn nghẹt thở khi Thẩm phán Lawrence Moniz bắt đầu đọc bản phán quyết bằng giọng đanh thép.",
-    "words": 30
+    "text": "Ngày 16 tháng 6 năm 2017, toàn bộ phòng xử án nín thở khi Thẩm phán Lawrence Moniz bắt đầu công bố bản phán quyết.",
+    "words": 25
    },
    {
     "id": "4.08#2",
-    "text": "Thẩm phán Moniz nhận định: Khoảnh khắc Conrad bước ra khỏi cabin chính là sự lựa chọn sự sống của nạn nhân.",
-    "words": 22
+    "text": "Thẩm phán phân tích sâu sắc rằng: Khi Conrad bước ra khỏi xe, cậu đã tự phá vỡ chuỗi nhân quả tự hại và giành lại cơ hội sống.",
+    "words": 29
    },
    {
     "id": "4.08#3",
-    "text": "Việc Michelle Carter ra lệnh cho cậu quay trở lại xe, kết hợp với việc không hề gọi cứu nạn hay báo cho gia đình, cấu thành hành vi liều lĩnh và vô lương tâm nghiêm trọng.",
-    "words": 37
+    "text": "Thế nhưng, hành động ra lệnh “hãy quay trở lại xe” của Michelle cùng sự im lặng hoàn toàn không cứu giúp cấu thành hành vi liều lĩnh và cố ý vô cớ.",
+    "words": 33
    },
    {
     "id": "4.08#4",
-    "text": "Hành vi cưỡng ép tinh thần đó đã trực tiếp gây ra cái chết của Conrad Roy.",
-    "words": 17
+    "text": "Thẩm phán nhận định bị cáo đã tạo ra một tình thế hiểm nghèo đối với nạn nhân và hoàn toàn thất bại trong việc thực hiện nghĩa vụ cứu giúp tối thiểu.",
+    "words": 33
    },
    {
     "id": "4.08#5",
-    "text": "Thẩm phán tuyên bố đanh thép: Michelle Carter phạm tội ngộ sát.",
-    "words": 12
+    "text": "Không một cuộc gọi nào được thực hiện đến số 911 dù bị cáo biết chính xác vị trí chiếc xe đang đỗ.",
+    "words": 23
+   },
+   {
+    "id": "4.08#6",
+    "text": "Thẩm phán Moniz dõng dạc tuyên bố: Michelle Carter phạm tội Ngộ sát không tự ý.",
+    "words": 16
+   },
+   {
+    "id": "4.08#7",
+    "text": "Một phán quyết mang tính lịch sử, phá vỡ định kiến cho rằng ngôn từ từ xa không thể cấu thành tội giết người.",
+    "words": 24
    }
   ]
  },
  {
   "id": "4.09",
   "act": 4,
-  "kind": "SFX",
-  "desc": "*Tiếng búa gõ phán quyết của Thẩm phán vang lên đanh thép.*"
- },
- {
-  "id": "4.10",
-  "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "tuyên bố kết quả và bóc tách thái độ hung thủ",
-  "text": "Tháng 8 năm 2017, Michelle Carter bị kết án hai năm rưỡi tù giam, với mười lăm tháng phải chấp hành thực tế sau song sắt. Khi búa tòa giáng xuống, gương mặt của Carter không hề biểu lộ sự ăn năn hay nước mắt xót thương dành cho nạn nhân và gia đình Roy. Đó là biểu hiện của “Sự sụp đổ cái tôi ái kỷ” và nỗi tự thương hại bản thân bệnh lý khi chiếc mặt nạ danh dự vỡ vụn trước toàn thế giới.",
+  "direction": "khép lại phiên tòa bằng hình ảnh sự sụp đổ cái tôi ái kỷ",
+  "text": "Vào tháng 8 năm 2017, Michelle Carter bị tuyên phạt hai năm rưỡi tù giam, với mười lăm tháng phải chấp hành thực tế sau song sắt. Tại khoảnh khắc nghe bản án, thiếu nữ từng kiêu hãnh và lạnh lùng đã hoàn toàn gục ngã, run rẩy bật khóc nức nở ngay tại bàn bị cáo. Nhưng các chuyên gia tâm lý nhận định: Những giọt nước mắt ấy hoàn toàn không phải là sự ăn năn chân chính dành cho Conrad Roy. Đó là biểu hiện kinh điển của Sự sụp đổ cái tôi ái kỷ khi toàn bộ hào quang ảo tưởng, danh dự và tự do của bản thân bị tước đoạt trước mắt thiên hạ. Kẻ thao túng đã phải đối diện với chiếc gương công lý tàn nhẫn nhất bóc trần bản chất thật của mình.",
   "sentences": [
    {
-    "id": "4.10#1",
-    "text": "Tháng 8 năm 2017, Michelle Carter bị kết án hai năm rưỡi tù giam, với mười lăm tháng phải chấp hành thực tế sau song sắt.",
-    "words": 26
+    "id": "4.09#1",
+    "text": "Vào tháng 8 năm 2017, Michelle Carter bị tuyên phạt hai năm rưỡi tù giam, với mười lăm tháng phải chấp hành thực tế sau song sắt.",
+    "words": 27
    },
    {
-    "id": "4.10#2",
-    "text": "Khi búa tòa giáng xuống, gương mặt của Carter không hề biểu lộ sự ăn năn hay nước mắt xót thương dành cho nạn nhân và gia đình Roy.",
-    "words": 29
+    "id": "4.09#2",
+    "text": "Tại khoảnh khắc nghe bản án, thiếu nữ từng kiêu hãnh và lạnh lùng đã hoàn toàn gục ngã, run rẩy bật khóc nức nở ngay tại bàn bị cáo.",
+    "words": 30
    },
    {
-    "id": "4.10#3",
-    "text": "Đó là biểu hiện của “Sự sụp đổ cái tôi ái kỷ” và nỗi tự thương hại bản thân bệnh lý khi chiếc mặt nạ danh dự vỡ vụn trước toàn thế giới.",
-    "words": 33
+    "id": "4.09#3",
+    "text": "Nhưng các chuyên gia tâm lý nhận định: Những giọt nước mắt ấy hoàn toàn không phải là sự ăn năn chân chính dành cho Conrad Roy.",
+    "words": 27
+   },
+   {
+    "id": "4.09#4",
+    "text": "Đó là biểu hiện kinh điển của Sự sụp đổ cái tôi ái kỷ khi toàn bộ hào quang ảo tưởng, danh dự và tự do của bản thân bị tước đoạt trước mắt thiên hạ.",
+    "words": 36
+   },
+   {
+    "id": "4.09#5",
+    "text": "Kẻ thao túng đã phải đối diện với chiếc gương công lý tàn nhẫn nhất bóc trần bản chất thật của mình.",
+    "words": 22
    }
   ]
  },
  {
-  "id": "4.11",
+  "id": "4.10",
   "act": 4,
-  "kind": "BGM",
-  "desc": "*Một nốt trầm kéo dài rồi rơi vào im lặng buốt giá.*"
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": "Tiếng chuông tòa án ngân nga rồi lắng xuống"
  },
  {
   "id": "5.01",
   "act": 5,
   "kind": "BGM",
-  "desc": "*Nhạc nền chuyển sang giai điệu Piano sâu lắng, ấm áp nhưng đượm buồn và suy tư.*"
+  "desc": "Giai điệu piano ấm áp, sâu lắng, mang âm hưởng chữa lành và suy ngẫm nhân văn sâu sắc."
  },
  {
   "id": "5.02",
   "act": 5,
   "kind": "LOI",
   "role": "H",
-  "direction": "giọng suy ngẫm, triết lý",
-  "text": "Phán quyết dành cho Michelle Carter không chỉ khép lại một bi kịch gia đình đẫm nước mắt. Nó đã thiết lập một tiền lệ tư pháp lịch sử chấn động trong nền tảng luật pháp của thế giới hiện đại. Lần đầu tiên, hệ thống pháp luật công nhận rằng: Khoảng cách địa lý và màn hình điện thoại không bao giờ là tấm khiên che chắn cho trách nhiệm hình sự. Ngôn từ trong không gian số có thể mang sức mạnh cưỡng bức tinh thần và trở thành vũ khí giết người không chạm tay. Vụ án đã đánh dấu sự kết thúc của thời kỳ hoang dã trên internet, nơi hành vi bắt nạt và thao túng tâm lý qua mạng từng bị xem nhẹ.",
+  "direction": "đúc kết ý nghĩa tiền lệ tư pháp",
+  "text": "Bản án dành cho Michelle Carter không chỉ khép lại một vụ án hình sự chấn động tại bang Massachusetts. Nó mở ra một cuộc cách mạng sâu sắc trong nhận thức pháp lý và đạo đức của nhân loại trong kỷ nguyên số hóa toàn cầu. Lần đầu tiên trong lịch sử tư pháp hiện đại, tòa án công nhận rằng: Khoảng cách địa lý và màn hình điện thoại không bao giờ là tấm khiên che chở cho tội ác. Ngôn từ không chỉ mang tính biểu đạt cảm xúc, mà khi được sử dụng với ác ý thao túng cưỡng bách, nó hoàn toàn có thể trở thành một vũ khí đoạt mạng. Phán quyết đã tạo nên một tiền lệ tư pháp vững chắc để bảo vệ những tâm hồn yếu thế trước bạo lực tinh thần trên không gian mạng. Một ranh giới đạo đức rõ ràng đã được thiết lập giữa quyền tự do ngôn luận và hành vi bức hại đồng loại qua thế giới ảo. Một bài học pháp lý đắt giá dành cho tất cả những ai đang sử dụng các nền tảng công nghệ kết nối hàng ngày. Từ nỗi đau tột cùng của sự mất mát, bà Lynn Roy, mẹ của Conrad, cùng các nhà lập pháp bang Massachusetts đã không ngừng nghỉ đấu tranh suốt nhiều năm qua. Họ kiên trì vận động cho một dự luật mang tính bước ngoặt mang tên “Đạo luật Conrad”. Mục tiêu cốt lõi của đạo luật là chính thức hình sự hóa hành vi ép buộc, thao túng hoặc xúi giục người khác tự tước đoạt sinh mạng, với mức án lên tới năm năm tù giam. Đạo luật nhằm bịt kín lỗ hổng pháp lý nguy hiểm mà các vụ bạo lực tinh thần kỹ thuật số tinh vi có thể lẩn tránh. Biến nỗi đau khôn nguôi thành hành động cụ thể để bảo vệ những đứa trẻ khác không bao giờ phải rơi vào hoàn cảnh bi thương của Conrad.",
   "sentences": [
    {
     "id": "5.02#1",
-    "text": "Phán quyết dành cho Michelle Carter không chỉ khép lại một bi kịch gia đình đẫm nước mắt.",
-    "words": 18
+    "text": "Bản án dành cho Michelle Carter không chỉ khép lại một vụ án hình sự chấn động tại bang Massachusetts.",
+    "words": 20
    },
    {
     "id": "5.02#2",
-    "text": "Nó đã thiết lập một tiền lệ tư pháp lịch sử chấn động trong nền tảng luật pháp của thế giới hiện đại.",
-    "words": 23
+    "text": "Nó mở ra một cuộc cách mạng sâu sắc trong nhận thức pháp lý và đạo đức của nhân loại trong kỷ nguyên số hóa toàn cầu.",
+    "words": 27
    },
    {
     "id": "5.02#3",
-    "text": "Lần đầu tiên, hệ thống pháp luật công nhận rằng: Khoảng cách địa lý và màn hình điện thoại không bao giờ là tấm khiên che chắn cho trách nhiệm hình sự.",
-    "words": 32
+    "text": "Lần đầu tiên trong lịch sử tư pháp hiện đại, tòa án công nhận rằng: Khoảng cách địa lý và màn hình điện thoại không bao giờ là tấm khiên che chở cho tội ác.",
+    "words": 35
    },
    {
     "id": "5.02#4",
-    "text": "Ngôn từ trong không gian số có thể mang sức mạnh cưỡng bức tinh thần và trở thành vũ khí giết người không chạm tay.",
-    "words": 25
+    "text": "Ngôn từ không chỉ mang tính biểu đạt cảm xúc, mà khi được sử dụng với ác ý thao túng cưỡng bách, nó hoàn toàn có thể trở thành một vũ khí đoạt mạng.",
+    "words": 34
    },
    {
     "id": "5.02#5",
-    "text": "Vụ án đã đánh dấu sự kết thúc của thời kỳ hoang dã trên internet, nơi hành vi bắt nạt và thao túng tâm lý qua mạng từng bị xem nhẹ.",
-    "words": 31
+    "text": "Phán quyết đã tạo nên một tiền lệ tư pháp vững chắc để bảo vệ những tâm hồn yếu thế trước bạo lực tinh thần trên không gian mạng.",
+    "words": 29
+   },
+   {
+    "id": "5.02#6",
+    "text": "Một ranh giới đạo đức rõ ràng đã được thiết lập giữa quyền tự do ngôn luận và hành vi bức hại đồng loại qua thế giới ảo.",
+    "words": 28
+   },
+   {
+    "id": "5.02#7",
+    "text": "Một bài học pháp lý đắt giá dành cho tất cả những ai đang sử dụng các nền tảng công nghệ kết nối hàng ngày.",
+    "words": 25
+   },
+   {
+    "id": "5.02#8",
+    "text": "Từ nỗi đau tột cùng của sự mất mát, bà Lynn Roy, mẹ của Conrad, cùng các nhà lập pháp bang Massachusetts đã không ngừng nghỉ đấu tranh suốt nhiều năm qua.",
+    "words": 32
+   },
+   {
+    "id": "5.02#9",
+    "text": "Họ kiên trì vận động cho một dự luật mang tính bước ngoặt mang tên “Đạo luật Conrad”.",
+    "words": 18
+   },
+   {
+    "id": "5.02#10",
+    "text": "Mục tiêu cốt lõi của đạo luật là chính thức hình sự hóa hành vi ép buộc, thao túng hoặc xúi giục người khác tự tước đoạt sinh mạng, với mức án lên tới năm năm tù giam.",
+    "words": 38
+   },
+   {
+    "id": "5.02#11",
+    "text": "Đạo luật nhằm bịt kín lỗ hổng pháp lý nguy hiểm mà các vụ bạo lực tinh thần kỹ thuật số tinh vi có thể lẩn tránh.",
+    "words": 27
+   },
+   {
+    "id": "5.02#12",
+    "text": "Biến nỗi đau khôn nguôi thành hành động cụ thể để bảo vệ những đứa trẻ khác không bao giờ phải rơi vào hoàn cảnh bi thương của Conrad.",
+    "words": 29
    }
   ]
  },
@@ -1040,23 +1364,43 @@
   "act": 5,
   "kind": "LOI",
   "role": "C",
-  "direction": "đưa ra góc nhìn giáo dục và phòng ngừa",
-  "text": "Sự phát triển vượt bậc của công nghệ số đang tạo ra những không gian giao tiếp cực kỳ cô lập và nguy hiểm đối với thanh thiếu niên. Những chiếc màn hình phát sáng thâu đêm có thể biến thành những chiếc lồng giam tâm lý vô hình, nơi sự thao túng và phụ thuộc cảm xúc diễn ra mà gia đình hoàn toàn không hay biết. Đây là bài học cảnh tỉnh sâu sắc về trách nhiệm đạo đức số và sự cần thiết phải giám sát ranh giới an toàn tinh thần cho thế hệ trẻ.",
+  "direction": "tôn vinh nhân phẩm nạn nhân & giải phẫu dư chấn xã hội",
+  "text": "Vụ án để lại một di chứng tâm lý xã hội sâu sắc đối với các bậc phụ huynh trong thời đại bùng nổ của điện thoại thông minh. Nhiều cha mẹ bàng hoàng nhận ra rằng: Ngay cả khi con cái họ đang ngồi an toàn trong phòng ngủ gia đình, chúng vẫn có thể đang bị thao túng bởi những kẻ săn mồi giấu mặt từ khoảng cách hàng nghìn dặm. Màn hình điện thoại có thể trở thành một cánh cổng nguy hiểm nếu thiếu đi sự quan tâm và kết nối cảm xúc thực tế. Để khép lại hồ sơ, chúng ta cần trả lại nhân phẩm và sự tôn trọng trọn vẹn nhất cho chàng trai trẻ Conrad Henri Roy Đệ Tam. Cậu không phải là một con số thống kê lạnh lùng, mà là một thanh niên tài năng, một thuyền trưởng tàu kéo đầy nhiệt huyết và giàu lòng trắc ẩn. Sự ra đi của Conrad là một mất mát to lớn, nhưng câu chuyện của cậu đã gióng lên một hồi chuông cảnh tỉnh thức tỉnh cả nhân loại. Một lời nhắc nhở rằng lòng trắc ẩn và sự lắng nghe chân thành là chiếc khiên vững chắc nhất bảo vệ con người trước bóng tối.",
   "sentences": [
    {
     "id": "5.03#1",
-    "text": "Sự phát triển vượt bậc của công nghệ số đang tạo ra những không gian giao tiếp cực kỳ cô lập và nguy hiểm đối với thanh thiếu niên.",
+    "text": "Vụ án để lại một di chứng tâm lý xã hội sâu sắc đối với các bậc phụ huynh trong thời đại bùng nổ của điện thoại thông minh.",
     "words": 29
    },
    {
     "id": "5.03#2",
-    "text": "Những chiếc màn hình phát sáng thâu đêm có thể biến thành những chiếc lồng giam tâm lý vô hình, nơi sự thao túng và phụ thuộc cảm xúc diễn ra mà gia đình hoàn toàn không hay biết.",
-    "words": 39
+    "text": "Nhiều cha mẹ bàng hoàng nhận ra rằng: Ngay cả khi con cái họ đang ngồi an toàn trong phòng ngủ gia đình, chúng vẫn có thể đang bị thao túng bởi những kẻ săn mồi giấu mặt từ khoảng cách hàng nghìn dặm.",
+    "words": 44
    },
    {
     "id": "5.03#3",
-    "text": "Đây là bài học cảnh tỉnh sâu sắc về trách nhiệm đạo đức số và sự cần thiết phải giám sát ranh giới an toàn tinh thần cho thế hệ trẻ.",
+    "text": "Màn hình điện thoại có thể trở thành một cánh cổng nguy hiểm nếu thiếu đi sự quan tâm và kết nối cảm xúc thực tế.",
+    "words": 26
+   },
+   {
+    "id": "5.03#4",
+    "text": "Để khép lại hồ sơ, chúng ta cần trả lại nhân phẩm và sự tôn trọng trọn vẹn nhất cho chàng trai trẻ Conrad Henri Roy Đệ Tam.",
+    "words": 28
+   },
+   {
+    "id": "5.03#5",
+    "text": "Cậu không phải là một con số thống kê lạnh lùng, mà là một thanh niên tài năng, một thuyền trưởng tàu kéo đầy nhiệt huyết và giàu lòng trắc ẩn.",
     "words": 31
+   },
+   {
+    "id": "5.03#6",
+    "text": "Sự ra đi của Conrad là một mất mát to lớn, nhưng câu chuyện của cậu đã gióng lên một hồi chuông cảnh tỉnh thức tỉnh cả nhân loại.",
+    "words": 29
+   },
+   {
+    "id": "5.03#7",
+    "text": "Một lời nhắc nhở rằng lòng trắc ẩn và sự lắng nghe chân thành là chiếc khiên vững chắc nhất bảo vệ con người trước bóng tối.",
+    "words": 27
    }
   ]
  },
@@ -1065,110 +1409,106 @@
   "act": 5,
   "kind": "LOI",
   "role": "H",
-  "direction": "đúc kết di sản vụ án và 4 cảnh báo đỏ sinh tồn",
-  "text": "Từ nỗi đau tột cùng của sự mất mát, bà Lynn Roy và gia đình đã kiên trì vận động các nhà lập pháp thông qua một dự luật mang tên “Đạo luật Conrad”. Dự luật này nhằm mục đích hình sự hóa hành vi ép buộc hoặc thao túng người khác tự hủy hoại bản thân, bịt kín lỗ hổng pháp lý mà những kẻ săn mồi số có thể lợi dụng. Để bảo vệ chính bản thân và những người thân yêu trước các mối quan hệ ảo độc hại trên không gian mạng, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ sinh tồn từ hồ sơ này: Cảnh báo đỏ thứ nhất: Cảnh giác trước các mối quan hệ ảo siêu tốc và cô lập. Một mối quan hệ mà hai bên hầu như không tương tác ngoài đời thực nhưng lại trao đổi hàng nghìn tin nhắn với sự gắn kết cảm xúc dồn dập luôn tiềm ẩn rủi ro thao túng cực cao. Kẻ thao túng luôn muốn cô lập bạn trong một không gian số khép kín để dễ bề kiểm soát suy nghĩ và thế giới quan của bạn. Cảnh báo đỏ thứ hai: Nhận diện chiêu bài khiêu khích tự trọng và thách thức tiêu cực. Một người thực sự quan tâm đến bạn sẽ luôn kéo bạn về phía cuộc sống, khuyến khích bạn tìm kiếm sự trợ giúp từ bác sĩ, chuyên gia và gia đình. Nếu ai đó sử dụng sự mỉa mai, chất vấn lòng can đảm hoặc thách thức bạn thực hiện các hành vi nguy hiểm, đó chính là dấu hiệu của một kẻ săn mồi tâm lý độc hại. Cảnh báo đỏ thứ ba: Cảnh giác với những kẻ thích kịch tính hóa bi kịch và khao khát sự chú ý trên mạng xã hội. Hãy hết sức cẩn trọng với những cá nhân luôn tìm cách biến nỗi đau hoặc sự khủng hoảng của người khác thành sân khấu để bản thân tỏa sáng. Những kẻ thích đóng vai nạn nhân đáng thương để tích lũy sự thương cảm và nổi tiếng ảo từ cộng đồng luôn tiềm ẩn sự tha hóa đạo đức nguy hiểm. Cảnh báo đỏ thứ tư: Lắng nghe bản năng sinh tồn và dứt khoát cắt đứt liên lạc. Khoảnh khắc bạn cảm thấy bất an, sợ hãi hoặc nhận ra sự độc hại trong lời nói của đối phương, đó chính là tiếng gọi cứu rỗi của bản năng sống. Hãy dứt khoát buông chiếc điện thoại xuống, bước ra ngoài thế giới thực và chia sẻ ngay lập tức với cha mẹ, thầy cô hoặc những người mà bạn thực sự tin tưởng. Ngôn từ trên màn hình không có trọng lượng vật lý, nhưng chúng mang sức mạnh có thể cứu rỗi hoặc hủy hoại một sinh mệnh con người. Nếu bạn hoặc người thân đang trải qua khủng hoảng tâm lý hoặc có suy nghĩ tiêu cực, xin hãy nhớ rằng bạn không hề đơn độc: hãy liên hệ ngay với các đường dây nóng hỗ trợ tâm lý như Đường dây nóng Ngày Mai qua số 096 306 1414 hoặc Tổng đài Quốc gia 111 để nhận được sự đồng hành kịp thời. Cảm ơn quý vị đã đồng hành cùng Amber Eyes trong tập hồ sơ phân tích tâm lý tội phạm ngày hôm nay. Hãy bấm đăng ký kênh và chia sẻ góc nhìn của bạn ở phần bình luận bên dưới, xin chào và hẹn gặp lại quý vị trong những tập tiếp theo.",
+  "direction": "giới thiệu 4 Cảnh báo đỏ sinh tồn",
+  "text": "Từ góc nhìn của khoa học tâm lý học tội phạm và nguyên lý Món quà của nỗi sợ, chúng ta rút ra những bài học sinh tồn sống còn để nhận diện những kẻ thao túng độc hại. Trong không gian mạng đầy rẫy những mối quan hệ ảo, có bốn tín hiệu cảnh báo đỏ nguy hiểm mà mỗi người cần đặc biệt khắc cốt ghi tâm. Những dấu hiệu nhận biết sớm giúp bảo vệ bản thân và người thân khỏi những chiếc bẫy thao túng tâm lý cưỡng bức. Cảnh báo đỏ 1: Sự cô lập có hệ thống. Kẻ thao túng luôn tìm cách gieo rắc sự ngờ vực, chia rẽ bạn với gia đình, người thân và bạn bè ngoài đời thực để biến chúng thành điểm tựa cảm xúc duy nhất. Cảnh báo đỏ 2: Kiểm soát cưỡng chế đội lốt quan tâm. Mọi hành động, tin nhắn và lịch trình của bạn đều bị giám sát dày đặc dưới chiêu bài của “tình yêu chân thành” hoặc sự thấu cảm giả tạo. Cảnh báo đỏ 3: Tấn công lòng tự trọng và đảo ngược vị thế đạo đức. Kẻ độc hại liên tục khiến bạn cảm thấy có lỗi, biến sự yếu đuối của bạn thành công cụ để sỉ nhục và bắt bạn phải chứng minh tình cảm bằng những hành vi cực đoan. Cảnh báo đỏ 4: Nuôi dưỡng bóng tối thay vì tìm kiếm giải pháp y tế. Khi bạn bế tắc, thay vì khuyến khích bạn gặp bác sĩ hay tìm người giúp đỡ, chúng lại cổ vũ những suy nghĩ tiêu cực và biến bi kịch thành một thứ lãng mạn hóa nguy hiểm. Nếu bạn hoặc những người xung quanh đang phải trải qua những cơn khủng hoảng tâm lý nặng nề hoặc có những suy nghĩ bế tắc, xin hãy nhớ rằng: Bạn không bao giờ phải đơn độc trong bóng tối. Luôn có những bàn tay ấm áp và sự hỗ trợ chuyên môn sẵn sàng đồng hành cùng bạn để vượt qua giông bão. Tại Việt Nam, xin vui lòng gọi ngay đến Tổng đài Quốc gia Bảo vệ Trẻ em 111, hoặc Đường dây nóng Ngày Mai hỗ trợ người trầm cảm qua số điện thoại 096 306 1414. Tại Hoa Kỳ và quốc tế, hãy liên hệ ngay Đường dây nóng Khủng hoảng và Ngăn ngừa Tự hại 988 để được hỗ trợ kịp thời. Hãy dũng cảm chia sẻ và tìm kiếm sự trợ giúp từ những người thực sự yêu thương bạn ngoài đời thực. Hồ sơ Tập 07 xin được chính thức khép lại tại đây. Cảm ơn quý vị đã luôn đồng hành và lắng nghe những phân tích chuyên sâu của Amber Eyes.",
   "sentences": [
    {
     "id": "5.04#1",
-    "text": "Từ nỗi đau tột cùng của sự mất mát, bà Lynn Roy và gia đình đã kiên trì vận động các nhà lập pháp thông qua một dự luật mang tên “Đạo luật Conrad”.",
-    "words": 34
-   },
-   {
-    "id": "5.04#2",
-    "text": "Dự luật này nhằm mục đích hình sự hóa hành vi ép buộc hoặc thao túng người khác tự hủy hoại bản thân, bịt kín lỗ hổng pháp lý mà những kẻ săn mồi số có thể lợi dụng.",
+    "text": "Từ góc nhìn của khoa học tâm lý học tội phạm và nguyên lý Món quà của nỗi sợ, chúng ta rút ra những bài học sinh tồn sống còn để nhận diện những kẻ thao túng độc hại.",
     "words": 39
    },
    {
-    "id": "5.04#3",
-    "text": "Để bảo vệ chính bản thân và những người thân yêu trước các mối quan hệ ảo độc hại trên không gian mạng, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ sinh tồn từ hồ sơ này:",
-    "words": 41
-   },
-   {
-    "id": "5.04#4",
-    "text": "Cảnh báo đỏ thứ nhất: Cảnh giác trước các mối quan hệ ảo siêu tốc và cô lập.",
-    "words": 18
-   },
-   {
-    "id": "5.04#5",
-    "text": "Một mối quan hệ mà hai bên hầu như không tương tác ngoài đời thực nhưng lại trao đổi hàng nghìn tin nhắn với sự gắn kết cảm xúc dồn dập luôn tiềm ẩn rủi ro thao túng cực cao.",
-    "words": 40
-   },
-   {
-    "id": "5.04#6",
-    "text": "Kẻ thao túng luôn muốn cô lập bạn trong một không gian số khép kín để dễ bề kiểm soát suy nghĩ và thế giới quan của bạn.",
-    "words": 28
-   },
-   {
-    "id": "5.04#7",
-    "text": "Cảnh báo đỏ thứ hai: Nhận diện chiêu bài khiêu khích tự trọng và thách thức tiêu cực.",
-    "words": 18
-   },
-   {
-    "id": "5.04#8",
-    "text": "Một người thực sự quan tâm đến bạn sẽ luôn kéo bạn về phía cuộc sống, khuyến khích bạn tìm kiếm sự trợ giúp từ bác sĩ, chuyên gia và gia đình.",
-    "words": 32
-   },
-   {
-    "id": "5.04#9",
-    "text": "Nếu ai đó sử dụng sự mỉa mai, chất vấn lòng can đảm hoặc thách thức bạn thực hiện các hành vi nguy hiểm, đó chính là dấu hiệu của một kẻ săn mồi tâm lý độc hại.",
-    "words": 38
-   },
-   {
-    "id": "5.04#10",
-    "text": "Cảnh báo đỏ thứ ba: Cảnh giác với những kẻ thích kịch tính hóa bi kịch và khao khát sự chú ý trên mạng xã hội.",
-    "words": 26
-   },
-   {
-    "id": "5.04#11",
-    "text": "Hãy hết sức cẩn trọng với những cá nhân luôn tìm cách biến nỗi đau hoặc sự khủng hoảng của người khác thành sân khấu để bản thân tỏa sáng.",
+    "id": "5.04#2",
+    "text": "Trong không gian mạng đầy rẫy những mối quan hệ ảo, có bốn tín hiệu cảnh báo đỏ nguy hiểm mà mỗi người cần đặc biệt khắc cốt ghi tâm.",
     "words": 30
    },
    {
+    "id": "5.04#3",
+    "text": "Những dấu hiệu nhận biết sớm giúp bảo vệ bản thân và người thân khỏi những chiếc bẫy thao túng tâm lý cưỡng bức.",
+    "words": 24
+   },
+   {
+    "id": "5.04#4",
+    "text": "Cảnh báo đỏ 1: Sự cô lập có hệ thống.",
+    "words": 10
+   },
+   {
+    "id": "5.04#5",
+    "text": "Kẻ thao túng luôn tìm cách gieo rắc sự ngờ vực, chia rẽ bạn với gia đình, người thân và bạn bè ngoài đời thực để biến chúng thành điểm tựa cảm xúc duy nhất.",
+    "words": 35
+   },
+   {
+    "id": "5.04#6",
+    "text": "Cảnh báo đỏ 2: Kiểm soát cưỡng chế đội lốt quan tâm.",
+    "words": 12
+   },
+   {
+    "id": "5.04#7",
+    "text": "Mọi hành động, tin nhắn và lịch trình của bạn đều bị giám sát dày đặc dưới chiêu bài của “tình yêu chân thành” hoặc sự thấu cảm giả tạo.",
+    "words": 30
+   },
+   {
+    "id": "5.04#8",
+    "text": "Cảnh báo đỏ 3: Tấn công lòng tự trọng và đảo ngược vị thế đạo đức.",
+    "words": 16
+   },
+   {
+    "id": "5.04#9",
+    "text": "Kẻ độc hại liên tục khiến bạn cảm thấy có lỗi, biến sự yếu đuối của bạn thành công cụ để sỉ nhục và bắt bạn phải chứng minh tình cảm bằng những hành vi cực đoan.",
+    "words": 37
+   },
+   {
+    "id": "5.04#10",
+    "text": "Cảnh báo đỏ 4: Nuôi dưỡng bóng tối thay vì tìm kiếm giải pháp y tế.",
+    "words": 16
+   },
+   {
+    "id": "5.04#11",
+    "text": "Khi bạn bế tắc, thay vì khuyến khích bạn gặp bác sĩ hay tìm người giúp đỡ, chúng lại cổ vũ những suy nghĩ tiêu cực và biến bi kịch thành một thứ lãng mạn hóa nguy hiểm.",
+    "words": 38
+   },
+   {
     "id": "5.04#12",
-    "text": "Những kẻ thích đóng vai nạn nhân đáng thương để tích lũy sự thương cảm và nổi tiếng ảo từ cộng đồng luôn tiềm ẩn sự tha hóa đạo đức nguy hiểm.",
-    "words": 32
+    "text": "Nếu bạn hoặc những người xung quanh đang phải trải qua những cơn khủng hoảng tâm lý nặng nề hoặc có những suy nghĩ bế tắc, xin hãy nhớ rằng: Bạn không bao giờ phải đơn độc trong bóng tối.",
+    "words": 40
    },
    {
     "id": "5.04#13",
-    "text": "Cảnh báo đỏ thứ tư: Lắng nghe bản năng sinh tồn và dứt khoát cắt đứt liên lạc.",
-    "words": 18
+    "text": "Luôn có những bàn tay ấm áp và sự hỗ trợ chuyên môn sẵn sàng đồng hành cùng bạn để vượt qua giông bão.",
+    "words": 24
    },
    {
     "id": "5.04#14",
-    "text": "Khoảnh khắc bạn cảm thấy bất an, sợ hãi hoặc nhận ra sự độc hại trong lời nói của đối phương, đó chính là tiếng gọi cứu rỗi của bản năng sống.",
-    "words": 32
+    "text": "Tại Việt Nam, xin vui lòng gọi ngay đến Tổng đài Quốc gia Bảo vệ Trẻ em 111, hoặc Đường dây nóng Ngày Mai hỗ trợ người trầm cảm qua số điện thoại 096 306 1414.",
+    "words": 36
    },
    {
     "id": "5.04#15",
-    "text": "Hãy dứt khoát buông chiếc điện thoại xuống, bước ra ngoài thế giới thực và chia sẻ ngay lập tức với cha mẹ, thầy cô hoặc những người mà bạn thực sự tin tưởng.",
-    "words": 34
+    "text": "Tại Hoa Kỳ và quốc tế, hãy liên hệ ngay Đường dây nóng Khủng hoảng và Ngăn ngừa Tự hại 988 để được hỗ trợ kịp thời.",
+    "words": 27
    },
    {
     "id": "5.04#16",
-    "text": "Ngôn từ trên màn hình không có trọng lượng vật lý, nhưng chúng mang sức mạnh có thể cứu rỗi hoặc hủy hoại một sinh mệnh con người.",
-    "words": 28
+    "text": "Hãy dũng cảm chia sẻ và tìm kiếm sự trợ giúp từ những người thực sự yêu thương bạn ngoài đời thực.",
+    "words": 22
    },
    {
     "id": "5.04#17",
-    "text": "Nếu bạn hoặc người thân đang trải qua khủng hoảng tâm lý hoặc có suy nghĩ tiêu cực, xin hãy nhớ rằng bạn không hề đơn độc: hãy liên hệ ngay với các đường dây nóng hỗ trợ tâm lý như Đường dây nóng Ngày Mai qua số 096 306 1414 hoặc Tổng đài Quốc gia 111 để nhận được sự đồng hành kịp thời.",
-    "words": 65
+    "text": "Hồ sơ Tập 07 xin được chính thức khép lại tại đây.",
+    "words": 12
    },
    {
     "id": "5.04#18",
-    "text": "Cảm ơn quý vị đã đồng hành cùng Amber Eyes trong tập hồ sơ phân tích tâm lý tội phạm ngày hôm nay.",
-    "words": 23
-   },
-   {
-    "id": "5.04#19",
-    "text": "Hãy bấm đăng ký kênh và chia sẻ góc nhìn của bạn ở phần bình luận bên dưới, xin chào và hẹn gặp lại quý vị trong những tập tiếp theo.",
-    "words": 31
+    "text": "Cảm ơn quý vị đã luôn đồng hành và lắng nghe những phân tích chuyên sâu của Amber Eyes.",
+    "words": 19
    }
   ]
  },
  {
   "id": "5.05",
   "act": 5,
-  "kind": "BGM",
-  "desc": "*Nhạc nền ngân vang ấm áp rồi mờ dần.*"
+  "kind": "NGHI",
+  "sec": 2.5,
+  "desc": "Tiếng piano ấm áp ngân vang rồi kết thúc"
  }
 ]
