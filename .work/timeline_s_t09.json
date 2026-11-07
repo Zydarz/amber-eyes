@@ -1,5 +1,5 @@
 {
- "total": 1228.48,
+ "total": 1523.19,
  "intro": 22.41,
  "items": [
   {
@@ -8,16 +8,16 @@
    "act": 1,
    "role": "H",
    "start": 23.0,
-   "end": 29.64,
-   "text": "Nước Mỹ vào cuối thập niên 1960 đang chìm đắm trong cao trào của phong trào Hippie."
+   "end": 29.8,
+   "text": "Nước Mỹ vào cuối thập niên 1960 đang chìm đắm trong cao trào rực rỡ của phong trào Hippie."
   },
   {
    "id": "1.02#2",
    "element": "1.02",
    "act": 1,
    "role": "H",
-   "start": 30.29,
-   "end": 36.53,
+   "start": 30.45,
+   "end": 36.69,
    "text": "Hàng trăm nghìn thanh thiếu niên từ khắp nơi đổ về bang California để tham gia vào Mùa hè Tình yêu."
   },
   {
@@ -25,35 +25,35 @@
    "element": "1.02",
    "act": 1,
    "role": "H",
-   "start": 37.18,
-   "end": 44.34,
-   "text": "Họ cài những bông hoa lên tóc, hát những bản tình ca phản chiến và mơ về một thế giới tự do không có định kiến."
+   "start": 37.34,
+   "end": 43.02,
+   "text": "Họ cài những bông hoa lên tóc và cùng nhau mơ về một thế giới tự do không có định kiến."
   },
   {
    "id": "1.02#4",
    "element": "1.02",
    "act": 1,
    "role": "H",
-   "start": 44.99,
-   "end": 53.83,
-   "text": "Trong mắt thế hệ trẻ lúc bấy giờ, ánh nắng vàng rực rỡ của thành phố Los Angeles chính là biểu tượng cho sự thức tỉnh và khai phóng tâm hồn."
+   "start": 43.67,
+   "end": 51.87,
+   "text": "Trong mắt thế hệ trẻ lúc bấy giờ, ánh nắng vàng rực rỡ của Los Angeles chính là biểu tượng cho sự thức tỉnh và khai phóng tâm hồn."
   },
   {
    "id": "1.02#5",
    "element": "1.02",
    "act": 1,
    "role": "H",
-   "start": 54.48,
-   "end": 61.04,
-   "text": "Nhưng họ không thể ngờ rằng, kỷ nguyên của sự ngây thơ ấy sắp sửa khép lại trong một cơn ác mộng kinh hoàng."
+   "start": 52.52,
+   "end": 59.96,
+   "text": "Nhưng họ không thể ngờ rằng, kỷ nguyên của sự ngây thơ ấy sắp sửa khép lại vĩnh viễn trong một cơn ác mộng kinh hoàng."
   },
   {
    "id": "1.04#1",
    "element": "1.04",
    "act": 1,
    "role": "H",
-   "start": 62.19,
-   "end": 67.79,
+   "start": 61.11,
+   "end": 66.71,
    "text": "Bức tranh lãng mạn ngây thơ ấy đã vỡ vụn thành trăm mảnh vào một đêm mùa hè định mệnh."
   },
   {
@@ -61,188 +61,215 @@
    "element": "1.04",
    "act": 1,
    "role": "H",
-   "start": 68.44,
-   "end": 84.12,
-   "text": "Đêm ngày 8 rạng sáng ngày 9 tháng 8 năm 1969, một bóng tối kinh hoàng đã ập xuống ngôi biệt thự tại số 10050 Đại lộ Cielo Drive, nằm ẩn mình trên một ngọn đồi biệt lập gần khu Beverly Hills."
+   "start": 67.36,
+   "end": 79.6,
+   "text": "Đêm ngày 8 rạng sáng ngày 9 tháng 8 năm 1969, một bóng tối kinh hoàng đã ập xuống ngôi biệt thự sang trọng tại số 10050 Đại lộ Cielo Drive."
+  },
+  {
+   "id": "1.04#3",
+   "element": "1.04",
+   "act": 1,
+   "role": "H",
+   "start": 80.65,
+   "end": 85.37,
+   "text": "Ngôi nhà nằm ẩn mình trên một ngọn đồi biệt lập gần khu Beverly Hills lộng lẫy."
+  },
+  {
+   "id": "1.04#4",
+   "element": "1.04",
+   "act": 1,
+   "role": "H",
+   "start": 86.02,
+   "end": 95.14,
+   "text": "Ngôi biệt thự do đạo diễn lừng danh Roman Polanski thuê đã trở thành hiện trường của một vụ tấn công bạo lực tập thể đầy tàn độc."
+  },
+  {
+   "id": "1.04#5",
+   "element": "1.04",
+   "act": 1,
+   "role": "H",
+   "start": 95.79,
+   "end": 100.27,
+   "text": "Năm người vô tội đã bị tước đoạt mạng sống chỉ trong chớp mắt."
+  },
+  {
+   "id": "1.04#6",
+   "element": "1.04",
+   "act": 1,
+   "role": "H",
+   "start": 100.92,
+   "end": 107.76,
+   "text": "Trong số các nạn nhân có nữ diễn viên xinh đẹp Sharon Tate, người vợ đang mang thai gần chín tháng của vị đạo diễn."
+  },
+  {
+   "id": "1.04#7",
+   "element": "1.04",
+   "act": 1,
+   "role": "H",
+   "start": 108.41,
+   "end": 111.45,
+   "text": "Cùng thiệt mạng còn có bốn người bạn thân thiết của gia đình."
   },
   {
    "id": "1.06#1",
    "element": "1.06",
    "act": 1,
    "role": "H",
-   "start": 85.17,
-   "end": 90.29,
-   "text": "Ngôi biệt thự sang trọng ấy được thuê bởi đạo diễn lừng danh Roman Polanski."
+   "start": 113.25,
+   "end": 124.21,
+   "text": "Chưa đầy hai mươi bốn giờ sau đó, một thảm kịch tương tự lại tiếp diễn tại ngôi nhà số 3301 Đại lộ Waverly Drive ở khu Los Feliz."
   },
   {
    "id": "1.06#2",
    "element": "1.06",
    "act": 1,
    "role": "H",
-   "start": 90.94,
-   "end": 97.02,
-   "text": "Tại đây, năm người đã bị tước đoạt mạng sống trong một vụ tấn công bạo lực tập thể đầy tàn độc."
+   "start": 124.86,
+   "end": 132.14,
+   "text": "Hai vợ chồng doanh nhân Leno và Rosemary LaBianca bị sát hại dã man ngay tại phòng khách nhà mình."
   },
   {
    "id": "1.06#3",
    "element": "1.06",
    "act": 1,
    "role": "H",
-   "start": 97.67,
-   "end": 104.23,
-   "text": "Trong số các nạn nhân có nữ diễn viên xinh đẹp Sharon Tate, người vợ đang mang thai gần chín tháng của vị đạo diễn."
+   "start": 132.79,
+   "end": 142.15,
+   "text": "Sự liên tiếp của hai vụ án tàn khốc nhắm vào những gia đình vô tội đã đánh sập hoàn toàn cảm giác an toàn của toàn bộ cư dân miền nam California."
   },
   {
    "id": "1.06#4",
    "element": "1.06",
    "act": 1,
    "role": "H",
-   "start": 104.88,
-   "end": 118.76,
-   "text": "Cùng thiệt mạng còn có nhà tạo mẫu tóc danh tiếng Jay Sebring, nữ thừa kế tập đoàn cà phê Abigail Folger, nhà văn Wojciech Frykowski và cậu thiếu niên Steven Parent."
+   "start": 142.8,
+   "end": 148.12,
+   "text": "Đó là sự khởi đầu của một cơn hoang tưởng tập thể chưa từng có trong lịch sử đô thị nước Mỹ."
   },
   {
    "id": "1.06#5",
    "element": "1.06",
    "act": 1,
    "role": "H",
-   "start": 119.41,
-   "end": 130.69,
-   "text": "Chỉ chưa đầy hai mươi bốn giờ sau đó, một thảm kịch tương tự lại tiếp diễn tại ngôi nhà số 3301 Đại lộ Waverly Drive ở khu Los Feliz."
-  },
-  {
-   "id": "1.06#6",
-   "element": "1.06",
-   "act": 1,
-   "role": "H",
-   "start": 131.34,
-   "end": 136.42,
-   "text": "Nạn nhân là hai vợ chồng doanh nhân Leno và Rosemary LaBianca."
-  },
-  {
-   "id": "1.06#7",
-   "element": "1.06",
-   "act": 1,
-   "role": "H",
-   "start": 137.07,
-   "end": 140.79,
-   "text": "Hãy hình dung tâm trạng của một người dân Los Angeles khi ấy."
+   "start": 148.77,
+   "end": 154.53,
+   "text": "Hãy lắng nghe tiếng lòng của một người dân Los Angeles từng trải qua những ngày tháng đen tối ấy."
   },
   {
    "id": "1.07#1",
    "element": "1.07",
    "act": 1,
    "role": "N1",
-   "start": 142.29,
-   "end": 152.69,
-   "text": "Vào buổi sáng ngày hôm đó, khi đài phát thanh liên tục đưa tin về thảm kịch tại nhà của Sharon Tate, toàn bộ thành phố Los Angeles như rơi vào trạng thái tê liệt vì sợ hãi."
+   "start": 155.53,
+   "end": 165.53,
+   "text": "Vào buổi sáng hôm đó, khi đài phát thanh liên tục đưa tin về thảm kịch tại nhà Sharon Tate, toàn bộ thành phố Los Angeles như rơi vào trạng thái tê liệt vì sợ hãi."
   },
   {
    "id": "1.07#2",
    "element": "1.07",
    "act": 1,
    "role": "N1",
-   "start": 153.34,
-   "end": 156.26,
-   "text": "Không ai dám bước chân ra khỏi nhà khi trời tối."
+   "start": 166.18,
+   "end": 169.9,
+   "text": "Không một ai dám bước chân ra khỏi nhà khi trời vừa chập tối."
   },
   {
    "id": "1.07#3",
    "element": "1.07",
    "act": 1,
    "role": "N1",
-   "start": 156.91,
-   "end": 160.75,
-   "text": "Người ta đổ xô đi mua súng, khóa cửa và chó canh nhà."
+   "start": 170.55,
+   "end": 178.75,
+   "text": "Người ta đổ xô đi mua súng, gia cố then cài cửa sổ và tìm mua chó canh nhà đến mức các cửa hàng cháy sạch hàng rào bảo vệ."
   },
   {
    "id": "1.07#4",
    "element": "1.07",
    "act": 1,
    "role": "N1",
-   "start": 161.4,
-   "end": 166.4,
-   "text": "Cảm giác bình yên từng hiện hữu trên những bãi biển ngập nắng bỗng chốc tan biến hoàn toàn."
+   "start": 179.4,
+   "end": 186.72,
+   "text": "Nỗi kinh hoàng nhất là chúng tôi nhận ra những kẻ đột nhập không hề hành động vì tiền tài hay trang sức quý giá."
   },
   {
    "id": "1.07#5",
    "element": "1.07",
    "act": 1,
    "role": "N1",
-   "start": 167.05,
-   "end": 170.45,
-   "text": "Người ta nhận ra rằng những kẻ gây án không phải vì tiền bạc."
+   "start": 187.37,
+   "end": 190.49,
+   "text": "Đồ đạc có giá trị trong căn biệt thự vẫn còn nguyên vẹn."
   },
   {
    "id": "1.07#6",
    "element": "1.07",
    "act": 1,
    "role": "N1",
-   "start": 171.1,
-   "end": 173.7,
-   "text": "Đồ đạc quý giá trong biệt thự vẫn còn nguyên vẹn."
+   "start": 191.14,
+   "end": 194.58,
+   "text": "Đó là một sự tàn nhẫn hoàn toàn vô nghĩa và lạnh lùng."
   },
   {
    "id": "1.07#7",
    "element": "1.07",
    "act": 1,
    "role": "N1",
-   "start": 174.35,
-   "end": 176.91,
-   "text": "Đó là một sự tàn nhẫn hoàn toàn vô nghĩa."
-  },
-  {
-   "id": "1.07#8",
-   "element": "1.07",
-   "act": 1,
-   "role": "N1",
-   "start": 177.56,
-   "end": 180.84,
-   "text": "Mùa hè tình yêu của chúng tôi đã chết ngay trong đêm hôm đó."
+   "start": 195.23,
+   "end": 199.83,
+   "text": "Mùa hè Tình yêu của chúng tôi đã chết ngay trong đêm hôm đó."
   },
   {
    "id": "1.09#1",
    "element": "1.09",
    "act": 1,
    "role": "H",
-   "start": 182.54,
-   "end": 186.66,
-   "text": "Hiện trường của cả hai ngôi nhà để lại những dấu vết vô cùng kỳ dị."
+   "start": 200.83,
+   "end": 206.23,
+   "text": "Hiện trường ở cả hai ngôi nhà để lại những dấu ấn vô cùng kỳ dị và quái đản."
   },
   {
    "id": "1.09#2",
    "element": "1.09",
    "act": 1,
    "role": "H",
-   "start": 187.31,
-   "end": 190.51,
-   "text": "Không có dấu vết của một vụ cướp tài sản thông thường."
+   "start": 206.88,
+   "end": 209.4,
+   "text": "Không có dấu vết của một vụ cướp của thông thường."
   },
   {
    "id": "1.09#3",
    "element": "1.09",
    "act": 1,
    "role": "H",
-   "start": 191.16,
-   "end": 202.64,
-   "text": "Những kẻ thủ ác đã để lại trên tường và cánh cửa những dòng chữ kỳ dị như PIG, RISE, và một cụm từ viết sai chính tả: HEALTER SKELTER."
+   "start": 210.05,
+   "end": 221.05,
+   "text": "Nhưng trên tường và các cánh cửa, hung thủ đã để lại những dòng chữ nguệch ngoạc: “PIG”, “RISE”, và một cụm từ viết sai chính tả: “HEALTER SKELTER”."
+  },
+  {
+   "id": "1.09#4",
+   "element": "1.09",
+   "act": 1,
+   "role": "H",
+   "start": 222.2,
+   "end": 229.16,
+   "text": "Nước Mỹ bàng hoàng tự hỏi: Động cơ nào có thể dẫn đến những hành vi tàn khốc đến mức phi nhân tính như vậy?"
   },
   {
    "id": "1.10#1",
    "element": "1.10",
    "act": 1,
    "role": "D",
-   "start": 204.14,
-   "end": 211.66,
-   "text": "Trong những tuần đầu tiên, các điều tra viên của Sở Cảnh sát Los Angeles hoàn toàn rơi vào bế tắc trước một bài toán không có lời giải."
+   "start": 230.16,
+   "end": 236.64,
+   "text": "Trong những tuần đầu tiên, Sở Cảnh sát Los Angeles hoàn toàn rơi vào bế tắc trước một bài toán không có lời giải."
   },
   {
    "id": "1.10#2",
    "element": "1.10",
    "act": 1,
    "role": "D",
-   "start": 212.31,
-   "end": 219.23,
+   "start": 237.29,
+   "end": 244.21,
    "text": "Không hề có bất kỳ mối quan hệ quen biết nào giữa gia đình nữ diễn viên Sharon Tate và vợ chồng doanh nhân LaBianca."
   },
   {
@@ -250,782 +277,1070 @@
    "element": "1.10",
    "act": 1,
    "role": "D",
-   "start": 219.88,
-   "end": 224.56,
-   "text": "Cả hai hiện trường cách xa nhau nhiều cây số nhưng lại có những điểm chung kỳ quái."
+   "start": 244.86,
+   "end": 249.5,
+   "text": "Hai hiện trường cách nhau hàng chục cây số, nạn nhân thuộc các tầng lớp xã hội khác nhau."
   },
   {
    "id": "1.10#4",
    "element": "1.10",
    "act": 1,
    "role": "D",
-   "start": 225.21,
-   "end": 227.81,
-   "text": "Những kẻ thực hiện hành vi này không hành động vì lòng tham."
+   "start": 250.15,
+   "end": 253.99,
+   "text": "Thế nhưng phương thức sắp đặt hiện trường lại mang cùng một chữ ký kỳ quái."
   },
   {
    "id": "1.10#5",
    "element": "1.10",
    "act": 1,
    "role": "D",
-   "start": 228.46,
-   "end": 233.34,
-   "text": "Về sau, sự thật cho thấy chúng đang tuân theo mệnh lệnh cuồng tín của một kẻ đứng sau."
+   "start": 254.64,
+   "end": 259.12,
+   "text": "Về mặt nghiệp vụ, chúng tôi nhận thấy những kẻ ra tay không hành động vì tư thù cá nhân."
   },
   {
-   "id": "1.11#1",
-   "element": "1.11",
+   "id": "1.10#6",
+   "element": "1.10",
    "act": 1,
-   "role": "H",
-   "start": 234.84,
-   "end": 237.64,
-   "text": "Một nỗi kinh hoàng bao trùm khắp toàn nước Mỹ."
+   "role": "D",
+   "start": 260.27,
+   "end": 264.11,
+   "text": "Chúng dường như đang tuân theo một kịch bản ma quái được điều khiển từ xa."
   },
   {
-   "id": "1.11#2",
-   "element": "1.11",
+   "id": "1.10#7",
+   "element": "1.10",
    "act": 1,
-   "role": "H",
-   "start": 238.29,
-   "end": 240.97,
-   "text": "Ai là kẻ đứng sau những dòng chữ bí ẩn?"
+   "role": "D",
+   "start": 264.76,
+   "end": 268.52,
+   "text": "Đó không phải là hành vi bộc phát của những tên trộm cắp thông thường."
   },
   {
-   "id": "1.11#3",
-   "element": "1.11",
+   "id": "1.10#8",
+   "element": "1.10",
+   "act": 1,
+   "role": "D",
+   "start": 269.17,
+   "end": 272.05,
+   "text": "Đó là sự thực thi lạnh lùng của một mệnh lệnh cuồng tín."
+  },
+  {
+   "id": "1.12#1",
+   "element": "1.12",
    "act": 1,
    "role": "H",
-   "start": 241.87,
-   "end": 249.23,
-   "text": "Và làm thế nào một chuỗi tội ác kinh hoàng như vậy lại được khởi nguồn từ một người đàn ông không hề trực tiếp ra tay?"
+   "start": 273.05,
+   "end": 275.41,
+   "text": "Chào mừng quý vị đến với kênh Amber Eyes."
+  },
+  {
+   "id": "1.12#2",
+   "element": "1.12",
+   "act": 1,
+   "role": "H",
+   "start": 276.06,
+   "end": 288.02,
+   "text": "Hôm nay, chúng ta sẽ mở khóa một trong những hồ sơ tâm lý học tội phạm chấn động và bí ẩn nhất thế kỷ hai mươi: Hồ sơ Charles Manson và thảm kịch Gia đình Manson."
+  },
+  {
+   "id": "1.12#3",
+   "element": "1.12",
+   "act": 1,
+   "role": "H",
+   "start": 288.67,
+   "end": 299.67,
+   "text": "Chúng ta sẽ cùng giải mã: Làm thế nào một kẻ lang thang với nửa đời trong tù ngục lại có thể biến những thanh niên ưu tú thành những cỗ máy hủy diệt không còn lương tri?"
+  },
+  {
+   "id": "1.12#4",
+   "element": "1.12",
+   "act": 1,
+   "role": "H",
+   "start": 300.57,
+   "end": 308.57,
+   "text": "Và nghệ thuật xóa bỏ bản ngã của một kẻ ái kỷ ác tính đã vận hành tinh vi đến mức nào để thao túng cả một bầy đàn?"
   },
   {
    "id": "2.02#1",
    "element": "2.02",
    "act": 2,
    "role": "H",
-   "start": 252.43,
-   "end": 263.11,
-   "text": "Để tìm ra câu trả lời cho bức màn bí ẩn, hướng điều tra cuối cùng đã dẫn các thám tử đến một địa điểm hoang tàn nằm sâu trong thung lũng Santa Susana."
+   "start": 310.87,
+   "end": 319.99,
+   "text": "Để lần theo bóng ma đứng sau chuỗi tội ác kinh hoàng, hướng điều tra cuối cùng đã dẫn các thám tử rời khỏi những biệt thự lộng lẫy của Hollywood."
   },
   {
    "id": "2.02#2",
    "element": "2.02",
    "act": 2,
    "role": "H",
-   "start": 263.76,
-   "end": 267.32,
-   "text": "Đó là trang trại Spahn Ranch ở vùng ngoại ô Chatsworth."
+   "start": 320.64,
+   "end": 324.16,
+   "text": "Họ tiến sâu vào thung lũng Santa Susana cằn cỗi."
   },
   {
    "id": "2.02#3",
    "element": "2.02",
    "act": 2,
    "role": "H",
-   "start": 267.97,
-   "end": 275.37,
-   "text": "Nơi đây từng là một phim trường cũ nát chuyên dùng để quay các bộ phim cao bồi miền viễn tây của Hollywood."
+   "start": 324.81,
+   "end": 328.85,
+   "text": "Điểm đến là trang trại Spahn Ranch ở vùng ngoại ô Chatsworth."
+  },
+  {
+   "id": "2.02#4",
+   "element": "2.02",
+   "act": 2,
+   "role": "H",
+   "start": 329.9,
+   "end": 336.26,
+   "text": "Nơi đây từng là một phim trường hoang tàn chuyên dùng để quay các bộ phim cao bồi miền viễn tây của thế kỷ trước."
+  },
+  {
+   "id": "2.02#5",
+   "element": "2.02",
+   "act": 2,
+   "role": "H",
+   "start": 336.91,
+   "end": 346.71,
+   "text": "Giữa những căn nhà gỗ mục nát và bãi đất hoang cằn cỗi, một cộng đồng kỳ lạ gồm hàng chục thanh thiếu niên đang sinh sống biệt lập với xã hội loài người."
   },
   {
    "id": "2.04#1",
    "element": "2.04",
    "act": 2,
    "role": "D",
-   "start": 276.77,
-   "end": 283.65,
-   "text": "Tại trang trại hoang vắng này, một cộng đồng kỳ lạ gồm hàng chục thanh thiếu niên đang cùng nhau sinh sống biệt lập với xã hội."
+   "start": 347.71,
+   "end": 350.83,
+   "text": "Họ tự gọi mình bằng một danh xưng ấm áp: “Gia đình” (The Manson Family)."
   },
   {
    "id": "2.04#2",
    "element": "2.04",
    "act": 2,
    "role": "D",
-   "start": 284.3,
-   "end": 291.78,
-   "text": "Họ tự gọi mình là Gia đình, dưới sự dẫn dắt tuyệt đối của một người đàn ông ba mươi tư tuổi tên là Charles Milles Manson."
+   "start": 351.48,
+   "end": 356.2,
+   "text": "Người đứng đầu và nắm giữ quyền lực tuyệt đối tại trang trại là Charles Milles Manson."
+  },
+  {
+   "id": "2.04#3",
+   "element": "2.04",
+   "act": 2,
+   "role": "D",
+   "start": 357.35,
+   "end": 362.83,
+   "text": "Hắn là một người đàn ông ba mươi tư tuổi với vóc dáng nhỏ thó nhưng ánh mắt sắc lạnh như thôi miên."
+  },
+  {
+   "id": "2.04#4",
+   "element": "2.04",
+   "act": 2,
+   "role": "D",
+   "start": 363.48,
+   "end": 368.36,
+   "text": "Về mặt nhân thân, Manson không phải là một giáo sĩ uyên bác hay một triết gia khai phóng."
+  },
+  {
+   "id": "2.04#5",
+   "element": "2.04",
+   "act": 2,
+   "role": "D",
+   "start": 369.01,
+   "end": 375.77,
+   "text": "Hắn là một kẻ du thủ du thực, từng trải qua hơn một nửa cuộc đời mình sau song sắt của các trường giáo dưỡng và nhà tù liên bang."
+  },
+  {
+   "id": "2.04#6",
+   "element": "2.04",
+   "act": 2,
+   "role": "D",
+   "start": 376.42,
+   "end": 381.62,
+   "text": "Hắn có tiền án dày đặc về tội trộm cắp, lừa đảo chi phiếu và môi giới mại dâm."
   },
   {
    "id": "2.05#1",
    "element": "2.05",
    "act": 2,
    "role": "H",
-   "start": 293.28,
-   "end": 297.68,
-   "text": "Charles Manson không phải là một triết gia hay một giáo sĩ thông thái."
+   "start": 382.62,
+   "end": 393.5,
+   "text": "Khi được trả tự do vào tháng 3 năm 1967, Manson bước thẳng vào trung tâm của phong trào Hippie tại khu Haight-Ashbury, thành phố San Francisco."
   },
   {
    "id": "2.05#2",
    "element": "2.05",
    "act": 2,
    "role": "H",
-   "start": 298.33,
-   "end": 302.89,
-   "text": "Hắn là một kẻ du mục lang thang, một tên ma cô chuyên lừa đảo và trộm cắp."
+   "start": 394.15,
+   "end": 407.71,
+   "text": "Nhận thấy trào lưu văn hóa phản kháng tôn sùng tình yêu tự do và sự ngây thơ của giới trẻ, Manson đã lợi dụng triệt để “Hiệu ứng Hào quang” của một đạo sư du mục để che đậy bản chất săn mồi."
   },
   {
    "id": "2.05#3",
    "element": "2.05",
    "act": 2,
    "role": "H",
-   "start": 303.54,
-   "end": 309.66,
-   "text": "Hắn đã trải qua hơn một nửa cuộc đời mình sau song sắt của các trại cải tạo và nhà tù liên bang."
+   "start": 408.36,
+   "end": 418.16,
+   "text": "Hắn cầm cây đàn guitar, cất lên những bài ca tự do và nhanh chóng thu hút quanh mình những thanh thiếu niên đang nổi loạn hoặc khủng hoảng bản sắc cá nhân."
   },
   {
    "id": "2.05#4",
    "element": "2.05",
    "act": 2,
    "role": "H",
-   "start": 310.31,
-   "end": 323.47,
-   "text": "Nhưng khi được trả tự do vào năm 1967, Manson nhận thấy phong trào Hippie tại San Francisco chính là một mảnh đất màu mỡ để hắn thỏa mãn cơn khát quyền lực."
+   "start": 418.81,
+   "end": 422.97,
+   "text": "Hắn đưa họ về trang trại Spahn Ranch, thiết lập một thế giới khép kín."
   },
   {
    "id": "2.05#5",
    "element": "2.05",
    "act": 2,
    "role": "H",
-   "start": 324.12,
-   "end": 330.4,
-   "text": "Hắn tập hợp quanh mình những thanh thiếu niên nổi loạn, những người đang khao khát tìm kiếm một lý tưởng sống mới."
+   "start": 423.62,
+   "end": 431.5,
+   "text": "Tại đây, hắn bắt đầu gieo rắc vào tâm trí họ một học thuyết tận thế điên cuồng mang tên “Helter Skelter”."
   },
   {
    "id": "2.06#1",
    "element": "2.06",
    "act": 2,
-   "role": "C",
-   "start": 331.9,
-   "end": 341.14,
-   "text": "Hành vi của Charles Manson mang nhiều đặc điểm thường được mô tả trong mô hình Bộ ba Đen tối: sự kết hợp giữa nét chống đối xã hội, ái kỷ và thao túng kiểu Machiavelli."
+   "role": "D",
+   "start": 433.0,
+   "end": 443.08,
+   "text": "Qua quá trình trinh sát và đối chiếu chứng cứ, chúng tôi nhận thấy tội ác của Manson không bùng phát ngẫu nhiên, mà vận hành qua một quỹ đạo leo thang hành vi gồm năm giai đoạn rõ rệt:"
   },
   {
    "id": "2.06#2",
    "element": "2.06",
    "act": 2,
-   "role": "C",
-   "start": 341.79,
-   "end": 345.43,
-   "text": "Hắn có một khả năng kỳ lạ trong việc đọc vị những vết thương lòng của người khác."
+   "role": "D",
+   "start": 443.73,
+   "end": 447.13,
+   "text": "Giai đoạn một: Tội phạm vị thành niên và lừa đảo."
   },
   {
    "id": "2.06#3",
    "element": "2.06",
    "act": 2,
-   "role": "C",
-   "start": 346.08,
-   "end": 352.44,
-   "text": "Hắn đặc biệt nhắm vào những cô gái trẻ bỏ nhà đi hoang, những người đang rơi vào khủng hoảng căn tính và khao khát tình yêu thương."
+   "role": "D",
+   "start": 447.78,
+   "end": 453.62,
+   "text": "Manson rèn luyện kỹ năng thao túng tâm lý và dối trá bệnh lý qua hàng chục năm trong tù giam."
   },
   {
    "id": "2.06#4",
    "element": "2.06",
    "act": 2,
-   "role": "C",
-   "start": 353.09,
-   "end": 362.13,
-   "text": "Khác với những kẻ thủ ác đơn độc, người mang nét ái kỷ ác tính khao khát được tôn sùng như một đấng tối cao, và khoái cảm tột cùng của hắn là điều khiển số phận kẻ khác."
+   "role": "D",
+   "start": 454.27,
+   "end": 457.67,
+   "text": "Giai đoạn hai: Xây dựng giáo phái và kiểm soát tinh thần."
   },
   {
-   "id": "2.07#1",
-   "element": "2.07",
+   "id": "2.06#5",
+   "element": "2.06",
    "act": 2,
-   "role": "H",
-   "start": 363.63,
-   "end": 370.35,
-   "text": "Tại Spahn Ranch, Manson đã thiết lập một vương quốc thu nhỏ hoàn toàn tách biệt với thế giới bên ngoài."
+   "role": "D",
+   "start": 458.82,
+   "end": 466.18,
+   "text": "Dùng ma túy ảo giác LSD và tình dục bầy đàn để phá vỡ cấu trúc nhân cách của các tín đồ trẻ tại Spahn Ranch."
   },
   {
-   "id": "2.07#2",
-   "element": "2.07",
+   "id": "2.06#6",
+   "element": "2.06",
    "act": 2,
-   "role": "H",
-   "start": 371.0,
-   "end": 375.64,
-   "text": "Hắn tìm cách xóa bỏ mọi mối liên hệ của các tín đồ với thế giới bên ngoài."
+   "role": "D",
+   "start": 466.83,
+   "end": 470.47,
+   "text": "Giai đoạn ba: Trò chơi đột nhập đêm “Creepy Crawling”."
   },
   {
-   "id": "2.07#3",
-   "element": "2.07",
+   "id": "2.06#7",
+   "element": "2.06",
    "act": 2,
-   "role": "H",
-   "start": 376.29,
-   "end": 382.33,
-   "text": "Manson tự biến mình thành hiện thân của Chúa Jesus và đồng thời là hóa thân của thần hủy diệt."
+   "role": "D",
+   "start": 471.12,
+   "end": 480.8,
+   "text": "Manson dẫn các đệ tử đột nhập vào các ngôi nhà dân cư lúc nửa đêm, không lấy tài sản mà chỉ di chuyển đồ đạc để tập dượt cảm giác toàn năng và kiểm soát vô hình."
   },
   {
-   "id": "2.07#4",
-   "element": "2.07",
+   "id": "2.06#8",
+   "element": "2.06",
    "act": 2,
-   "role": "H",
-   "start": 382.98,
-   "end": 389.14,
-   "text": "Hắn truyền bá vào đầu óc các tín đồ trẻ một học thuyết tận thế điên rồ mang tên Helter Skelter."
+   "role": "D",
+   "start": 481.45,
+   "end": 484.53,
+   "text": "Giai đoạn bốn: Bạo lực bộc phát có vũ trang."
+  },
+  {
+   "id": "2.06#9",
+   "element": "2.06",
+   "act": 2,
+   "role": "D",
+   "start": 485.18,
+   "end": 496.06,
+   "text": "Cuối tháng 7 năm 1969, Manson bắn trọng thương tay buôn ma túy Bernard Crowe và chỉ đạo đệ tử sát hại nhạc sĩ Gary Hinman sau một vụ tranh chấp tiền bạc."
+  },
+  {
+   "id": "2.06#10",
+   "element": "2.06",
+   "act": 2,
+   "role": "D",
+   "start": 496.71,
+   "end": 499.71,
+   "text": "Giai đoạn năm: Đỉnh điểm hủy diệt hàng loạt."
+  },
+  {
+   "id": "2.06#11",
+   "element": "2.06",
+   "act": 2,
+   "role": "D",
+   "start": 500.36,
+   "end": 508.36,
+   "text": "Khi ngưỡng dung nạp bạo lực bị lờn, Manson ra lệnh tấn công biệt thự Cielo Drive và nhà LaBianca để tạo ra thảm sát biểu tượng."
+  },
+  {
+   "id": "2.06#12",
+   "element": "2.06",
+   "act": 2,
+   "role": "D",
+   "start": 509.01,
+   "end": 511.97,
+   "text": "Sự leo thang này phản ánh quy luật tâm lý rõ rệt."
+  },
+  {
+   "id": "2.06#13",
+   "element": "2.06",
+   "act": 2,
+   "role": "D",
+   "start": 512.62,
+   "end": 519.3,
+   "text": "Khi hành vi sai trái ban đầu không bị ngăn chặn, cảm giác đói ảo tưởng sẽ thôi thúc kẻ thủ ác mở rộng phạm vi tàn phá."
   },
   {
    "id": "2.08#1",
    "element": "2.08",
    "act": 2,
-   "role": "D",
-   "start": 390.64,
-   "end": 398.92,
-   "text": "Manson đã chiếm đoạt bài hát cùng tên trong Album Trắng của ban nhạc huyền thoại The Beatles, phát hành vào cuối năm 1968."
+   "role": "H",
+   "start": 521.1,
+   "end": 527.66,
+   "text": "Nhưng ngòi nổ tâm lý trực tiếp nào đã kích hoạt vụ tấn công nhắm vào ngôi biệt thự tại Cielo Drive?"
   },
   {
    "id": "2.08#2",
    "element": "2.08",
    "act": 2,
-   "role": "D",
-   "start": 399.57,
-   "end": 406.01,
-   "text": "Hắn bóp méo lời bài hát thành một lời tiên tri về một cuộc chiến tranh sắc tộc tàn khốc sắp nổ ra trên toàn nước Mỹ."
+   "role": "H",
+   "start": 528.56,
+   "end": 539.34,
+   "text": "Đằng sau vỏ bọc đấng cứu thế, Manson luôn nuôi dưỡng một khao khát ái kỷ bệnh hoạn: trở thành một ngôi sao nhạc rock vĩ đại hơn cả ban nhạc The Beatles."
   },
   {
    "id": "2.08#3",
    "element": "2.08",
    "act": 2,
-   "role": "D",
-   "start": 406.66,
-   "end": 413.38,
-   "text": "Không chỉ dừng lại ở đó, hắn còn diễn giải các ca khúc như Piggies hay Blackbird thành những mật mã chỉ dẫn riêng cho mình."
+   "role": "H",
+   "start": 539.99,
+   "end": 549.83,
+   "text": "Hắn đã tìm mọi cách tiếp cận nhà sản xuất âm nhạc nổi tiếng Terry Melcher của hãng đĩa Columbia Records với hy vọng được ký hợp đồng thu âm."
   },
   {
    "id": "2.08#4",
    "element": "2.08",
    "act": 2,
-   "role": "D",
-   "start": 414.03,
-   "end": 420.19,
-   "text": "Theo ảo tưởng của Manson, người da đen sẽ đứng lên lật đổ trật tự xã hội nhưng không thể tự quản lý đất nước."
+   "role": "H",
+   "start": 550.48,
+   "end": 560.28,
+   "text": "Nhưng khi Melcher từ chối ký hợp đồng và không hỗ trợ phát hành album, cái tôi ái kỷ mong manh của Manson đã phải hứng chịu một sự sỉ nhục tột cùng."
   },
   {
    "id": "2.08#5",
    "element": "2.08",
    "act": 2,
-   "role": "D",
-   "start": 420.84,
-   "end": 426.56,
-   "text": "Lúc đó, Gia đình Manson đang ẩn náu dưới sa mạc sẽ bước lên nắm giữ quyền lực thống trị thế giới."
+   "role": "H",
+   "start": 560.93,
+   "end": 564.57,
+   "text": "Cảm giác bị chối bỏ đã biến thành một cơn thịnh nộ hủy diệt."
   },
   {
    "id": "2.09#1",
    "element": "2.09",
    "act": 2,
-   "role": "H",
-   "start": 428.06,
-   "end": 433.86,
-   "text": "Thế nhưng, sau nhiều tháng chờ đợi, cuộc chiến trong tưởng tượng của Manson vẫn không hề diễn ra."
+   "role": "D",
+   "start": 566.07,
+   "end": 576.31,
+   "text": "Ngôi biệt thự tại số 10050 Cielo Drive chính là căn nhà mà Terry Melcher từng thuê ở trước khi đạo diễn Roman Polanski chuyển đến."
   },
   {
    "id": "2.09#2",
    "element": "2.09",
    "act": 2,
-   "role": "H",
-   "start": 434.51,
-   "end": 445.31,
-   "text": "Cùng thời điểm đó, sự thất bại trong việc ký hợp đồng âm nhạc với nhà sản xuất Terry Melcher tại Hollywood đã làm tổn thương sâu sắc cái tôi ái kỷ bệnh hoạn của hắn."
+   "role": "D",
+   "start": 576.96,
+   "end": 585.32,
+   "text": "Dù biết Melcher đã dọn đi, Manson vẫn chọn địa điểm này để trút bỏ cơn giận dữ và thỏa mãn ảo tưởng trả thù giới tinh hoa Hollywood."
   },
   {
    "id": "2.09#3",
    "element": "2.09",
    "act": 2,
-   "role": "H",
-   "start": 445.96,
-   "end": 454.2,
-   "text": "Điều trớ trêu là ngôi biệt thự tại Cielo Drive chính là nơi Terry Melcher từng sinh sống trước khi đạo diễn Polanski chuyển đến."
+   "role": "D",
+   "start": 585.97,
+   "end": 593.97,
+   "text": "Hắn chỉ đạo Charles Tex Watson cùng ba nữ đệ tử đến ngôi nhà với mệnh lệnh rõ ràng: hủy diệt toàn bộ những ai có mặt bên trong."
   },
   {
    "id": "2.09#4",
    "element": "2.09",
    "act": 2,
-   "role": "H",
-   "start": 454.85,
-   "end": 462.33,
-   "text": "Không thể tiếp tục chờ đợi trong vô vọng, Manson quyết định chính Gia đình Manson phải ra tay châm ngòi cho cuộc chiến ấy."
+   "role": "D",
+   "start": 594.62,
+   "end": 598.42,
+   "text": "Chúng tôi phân định rất rõ giữa thủ đoạn và chữ ký tâm lý tại hiện trường."
+  },
+  {
+   "id": "2.09#5",
+   "element": "2.09",
+   "act": 2,
+   "role": "D",
+   "start": 599.57,
+   "end": 604.17,
+   "text": "Thủ đoạn (MO) là cắt dây điện thoại, dùng vũ khí lạnh và xóa dấu vết tẩu thoát."
+  },
+  {
+   "id": "2.09#6",
+   "element": "2.09",
+   "act": 2,
+   "role": "D",
+   "start": 604.82,
+   "end": 613.74,
+   "text": "Còn Chữ ký (Signature) bất biến là những dòng chữ “PIG” và sợi dây thừng dài buộc nối các nạn nhân để tạo thành một vở kịch trình diễn ghê rợn."
   },
   {
    "id": "2.10#1",
    "element": "2.10",
    "act": 2,
-   "role": "D",
-   "start": 463.83,
-   "end": 469.79,
-   "text": "Theo lập luận của bên công tố, Manson cử các đệ tử thân cận gây ra những vụ án nhắm vào giới thượng lưu."
+   "role": "H",
+   "start": 614.74,
+   "end": 622.86,
+   "text": "Về mặt nạn nhân học, những con người tại Cielo Drive và Waverly Drive không hề có bất kỳ ân oán nào với Manson."
   },
   {
    "id": "2.10#2",
    "element": "2.10",
    "act": 2,
-   "role": "D",
-   "start": 470.44,
-   "end": 475.6,
-   "text": "Chúng cố tình để lại những khẩu hiệu kỳ dị tại hiện trường nhằm đổ tội cho các nhà hoạt động người da đen."
+   "role": "H",
+   "start": 623.51,
+   "end": 641.23,
+   "text": "Nữ diễn viên tài hoa Sharon Tate, nhà tạo mẫu tóc Jay Sebring, Abigail Folger, Wojciech Frykowski, thiếu niên Steven Parent, cùng vợ chồng doanh nhân Leno và Rosemary LaBianca đều là những sinh mệnh tràn đầy ước mơ và nhân phẩm."
   },
   {
    "id": "2.10#3",
    "element": "2.10",
    "act": 2,
-   "role": "D",
-   "start": 476.25,
-   "end": 483.81,
-   "text": "Bằng cách đó, Manson tin rằng hắn sẽ kích động sự phẫn nộ của xã hội và thúc đẩy cuộc chiến Helter Skelter bùng nổ ngay lập tức."
+   "role": "H",
+   "start": 641.88,
+   "end": 649.84,
+   "text": "Họ đã bị tước đoạt mạng sống chỉ vì trở thành vật tế thần cho sự thất bại cay đắng của một kẻ cuồng vọng ái kỷ."
   },
   {
-   "id": "2.11#1",
-   "element": "2.11",
+   "id": "2.10#4",
+   "element": "2.10",
    "act": 2,
    "role": "H",
-   "start": 485.31,
-   "end": 492.27,
-   "text": "Những đứa trẻ từng rời bỏ gia đình để tìm kiếm tình yêu thương đã bị biến thành những công cụ hủy diệt."
-  },
-  {
-   "id": "2.11#2",
-   "element": "2.11",
-   "act": 2,
-   "role": "H",
-   "start": 492.92,
-   "end": 499.56,
-   "text": "Cơ chế tẩy não tàn bạo nào đã khiến những cô gái từng hiền lành trở thành những kẻ thủ ác lạnh lùng?"
+   "start": 650.99,
+   "end": 658.35,
+   "text": "Họ xứng đáng được nhớ đến với tư cách những con người trọn vẹn, chứ không phải những cái tên gắn liền với một thảm kịch."
   },
   {
    "id": "3.02#1",
    "element": "3.02",
    "act": 3,
    "role": "H",
-   "start": 503.76,
-   "end": 513.68,
-   "text": "Khi danh tính của những kẻ trực tiếp ra tay tại Cielo Drive và Waverly Drive được công bố, cả nước Mỹ thêm một lần nữa rơi vào bàng hoàng tột độ."
+   "start": 660.65,
+   "end": 668.37,
+   "text": "Khi danh tính của nhóm thủ phạm trực tiếp được công bố, toàn bộ nước Mỹ đã rơi vào một cơn chấn động tinh thần chưa từng có."
   },
   {
    "id": "3.02#2",
    "element": "3.02",
    "act": 3,
    "role": "H",
-   "start": 514.33,
-   "end": 522.53,
-   "text": "Kẻ chỉ huy trực tiếp là Charles Tex Watson, một cựu học sinh ưu tú, ngôi sao thể thao trung học đến từ bang Texas."
+   "start": 669.02,
+   "end": 678.22,
+   "text": "Kẻ chỉ huy trực tiếp hiện trường là Charles “Tex” Watson, một cựu học sinh ưu tú, ngôi sao thể thao trung học đến từ bang Texas."
   },
   {
    "id": "3.02#3",
    "element": "3.02",
    "act": 3,
    "role": "H",
-   "start": 523.18,
-   "end": 532.7,
-   "text": "Đi cùng hắn là những cô gái trẻ: Susan Atkins, Patricia Krenwinkel, và ở đêm thứ hai có thêm Leslie Van Houten."
+   "start": 678.87,
+   "end": 683.99,
+   "text": "Đi cùng hắn là những cô gái trẻ xuất thân từ các gia đình trung lưu gia giáo."
   },
   {
    "id": "3.02#4",
    "element": "3.02",
    "act": 3,
    "role": "H",
-   "start": 533.35,
-   "end": 537.23,
-   "text": "Nhiều người trong số họ xuất thân từ các gia đình trung lưu bình thường."
+   "start": 684.64,
+   "end": 695.32,
+   "text": "Susan Atkins từng hát trong ca đoàn nhà thờ, Patricia Krenwinkel hiền lành, và Leslie Van Houten từng là cựu hoa khôi trung học gương mẫu."
   },
   {
    "id": "3.02#5",
    "element": "3.02",
    "act": 3,
    "role": "H",
-   "start": 537.88,
-   "end": 548.36,
-   "text": "Theo lời khai tại tòa, khi bước vào ngôi nhà ở Cielo Drive, Tex Watson đã tự xưng: Ta là quỷ dữ, và ta đến đây để làm công việc của quỷ."
-  },
-  {
-   "id": "3.02#6",
-   "element": "3.02",
-   "act": 3,
-   "role": "H",
-   "start": 549.01,
-   "end": 555.33,
-   "text": "Làm thế nào một con người có thể từ bỏ hoàn toàn lương tri của mình để phục tùng ý chí của kẻ khác?"
+   "start": 695.97,
+   "end": 705.21,
+   "text": "Làm thế nào một nhóm thanh niên trí thức bình thường lại có thể tự nguyện từ bỏ hoàn toàn lương tri để biến mình thành những công cụ hủy diệt vô cảm?"
   },
   {
    "id": "3.03#1",
    "element": "3.03",
    "act": 3,
    "role": "C",
-   "start": 556.93,
-   "end": 563.01,
-   "text": "Để hiểu được sự biến đổi đáng sợ này, chúng ta cần nhìn vào cơ chế tâm lý bầy đàn và hiện tượng phi cá nhân hóa."
+   "start": 706.21,
+   "end": 715.89,
+   "text": "Để giải mã hiện tượng này, chúng ta cần vận dụng mô hình thay đổi nhận thức ba giai đoạn của nhà tâm lý học Kurt Lewin, được giáo sư Edgar Schein phát triển trong nghiên cứu về cơ chế tẩy não:"
   },
   {
    "id": "3.03#2",
    "element": "3.03",
    "act": 3,
    "role": "C",
-   "start": 563.66,
-   "end": 577.3,
-   "text": "Hành vi của Charles Manson có thể soi chiếu qua mô hình thay đổi ba giai đoạn của nhà tâm lý học Kurt Lewin, vốn được Edgar Schein vận dụng để phân tích tẩy não: Làm tan rã bản ngã, Lập trình lại nhận thức, và Tái cố định hành vi."
+   "start": 716.54,
+   "end": 721.38,
+   "text": "Đó là: Làm tan rã bản ngã (Unfreezing), Lập trình lại nhận thức (Changing), và Tái cố định hành vi (Refreezing)."
   },
   {
-   "id": "3.04#1",
-   "element": "3.04",
+   "id": "3.03#3",
+   "element": "3.03",
    "act": 3,
-   "role": "H",
-   "start": 578.8,
-   "end": 584.4,
-   "text": "Giai đoạn thứ nhất: Làm tan rã bản ngã cũ, hay còn gọi là Unfreezing."
+   "role": "C",
+   "start": 722.53,
+   "end": 725.29,
+   "text": "Charles Manson không sở hữu siêu năng lực kỳ bí nào."
   },
   {
-   "id": "3.04#2",
-   "element": "3.04",
+   "id": "3.03#4",
+   "element": "3.03",
    "act": 3,
-   "role": "H",
-   "start": 585.05,
-   "end": 591.37,
-   "text": "Khi một thành viên mới bước chân vào Spahn Ranch, Manson lập tức triển khai chiến thuật Dội bom tình cảm."
+   "role": "C",
+   "start": 725.94,
+   "end": 730.46,
+   "text": "Hắn chỉ là một bậc thầy ứng dụng trực giác các kỹ thuật thao túng tâm lý bầy đàn tàn bạo nhất."
   },
   {
-   "id": "3.04#3",
-   "element": "3.04",
+   "id": "3.03#5",
+   "element": "3.03",
    "act": 3,
-   "role": "H",
-   "start": 592.02,
-   "end": 599.54,
-   "text": "Hắn ôm lấy họ, khen ngợi họ và tuyên bố rằng họ là những sinh linh hoàn hảo được vũ trụ gửi đến."
-  },
-  {
-   "id": "3.04#4",
-   "element": "3.04",
-   "act": 3,
-   "role": "H",
-   "start": 600.19,
-   "end": 604.87,
-   "text": "Hắn lấp đầy khoảng trống tình cảm của những đứa trẻ đang bị gia đình ruồng bỏ."
+   "role": "C",
+   "start": 731.11,
+   "end": 734.55,
+   "text": "Quá trình tước đoạt nhân cách này được thực hiện bài bản qua từng bước một."
   },
   {
    "id": "3.05#1",
    "element": "3.05",
    "act": 3,
-   "role": "C",
-   "start": 606.37,
-   "end": 609.29,
-   "text": "Nhưng ngay sau đó, quá trình tước đoạt danh tính bắt đầu."
+   "role": "H",
+   "start": 736.35,
+   "end": 741.87,
+   "text": "Bước thứ nhất: Làm tan rã bản ngã cũ, hay còn gọi là Unfreezing."
   },
   {
    "id": "3.05#2",
    "element": "3.05",
    "act": 3,
-   "role": "C",
-   "start": 609.94,
-   "end": 615.94,
-   "text": "Manson yêu cầu các tín đồ phải vứt bỏ toàn bộ tiền bạc, giấy tờ tùy thân và cắt đứt liên lạc với cha mẹ."
+   "role": "H",
+   "start": 742.52,
+   "end": 748.72,
+   "text": "Khi một thanh niên mới bước chân vào Spahn Ranch, Manson lập tức triển khai chiến thuật “Dội bom tình cảm” (Love Bombing)."
   },
   {
    "id": "3.05#3",
    "element": "3.05",
    "act": 3,
-   "role": "C",
-   "start": 616.59,
-   "end": 623.67,
-   "text": "Hắn bắt họ phải từ bỏ tên thật do gia đình đặt và gán cho họ những bí danh mới như Sadie, Katie hay Lulu."
+   "role": "H",
+   "start": 749.37,
+   "end": 754.69,
+   "text": "Hắn ôm lấy họ, nhìn thẳng vào mắt và nói rằng họ là những sinh linh hoàn hảo."
   },
   {
    "id": "3.05#4",
    "element": "3.05",
    "act": 3,
-   "role": "C",
-   "start": 624.32,
-   "end": 629.24,
-   "text": "Hắn sử dụng ma túy gây ảo giác LSD với liều lượng cao trong các buổi lễ ban đêm."
-  },
-  {
-   "id": "3.05#5",
-   "element": "3.05",
-   "act": 3,
-   "role": "C",
-   "start": 629.89,
-   "end": 635.81,
-   "text": "Khi tác dụng của hóa chất làm tan biến ranh giới giữa thực và ảo, cái tôi cá nhân của các tín đồ hoàn toàn sụp đổ."
+   "role": "H",
+   "start": 755.34,
+   "end": 760.14,
+   "text": "Hắn khéo léo lấp đầy mọi khoảng trống tổn thương mà gia đình ruột thịt để lại."
   },
   {
    "id": "3.06#1",
    "element": "3.06",
    "act": 3,
-   "role": "H",
-   "start": 637.31,
-   "end": 640.99,
-   "text": "Giai đoạn thứ hai: Lập trình lại nhận thức, hay Changing."
+   "role": "C",
+   "start": 761.14,
+   "end": 764.54,
+   "text": "Nhưng ngay sau cái ôm nồng ấm là chiếc bẫy cô lập xã hội tàn nhẫn."
   },
   {
    "id": "3.06#2",
    "element": "3.06",
    "act": 3,
-   "role": "H",
-   "start": 641.64,
-   "end": 649.6,
-   "text": "Khi tâm trí của các môn đồ đã trở thành một tờ giấy trắng, Manson bắt đầu nhồi nhét hệ tư tưởng tận thế của mình vào đó."
+   "role": "C",
+   "start": 765.19,
+   "end": 771.79,
+   "text": "Manson yêu cầu các thành viên phải vứt bỏ toàn bộ tiền bạc, giấy tờ tùy thân và cắt đứt hoàn toàn liên lạc với cha mẹ."
   },
   {
    "id": "3.06#3",
    "element": "3.06",
    "act": 3,
-   "role": "H",
-   "start": 650.25,
-   "end": 654.29,
-   "text": "Hắn thuyết giảng hàng giờ liền dưới ánh lửa bập bùng giữa sa mạc."
+   "role": "C",
+   "start": 772.44,
+   "end": 779.6,
+   "text": "Hắn tước bỏ tên thật của họ và gán cho những bí danh mới như Sadie, Katie hay Lulu để xóa sạch danh tính quá khứ."
   },
   {
    "id": "3.06#4",
    "element": "3.06",
    "act": 3,
-   "role": "H",
-   "start": 654.94,
-   "end": 658.82,
-   "text": "Hắn đóng vai người cha, người thầy và đấng cứu thế duy nhất."
+   "role": "C",
+   "start": 780.25,
+   "end": 785.05,
+   "text": "Trong các buổi lễ ban đêm, hắn cho các tín đồ sử dụng ma túy ảo giác LSD liều cao."
+  },
+  {
+   "id": "3.06#5",
+   "element": "3.06",
+   "act": 3,
+   "role": "C",
+   "start": 786.2,
+   "end": 790.2,
+   "text": "Bản thân Manson chỉ dùng một lượng rất nhỏ để duy trì sự tỉnh táo kiểm soát."
+  },
+  {
+   "id": "3.06#6",
+   "element": "3.06",
+   "act": 3,
+   "role": "C",
+   "start": 790.85,
+   "end": 796.33,
+   "text": "Dưới tác động của ảo giác và sự kiệt quệ thể xác, bức tường bản ngã của những người trẻ hoàn toàn sụp đổ."
+  },
+  {
+   "id": "3.06#7",
+   "element": "3.06",
+   "act": 3,
+   "role": "C",
+   "start": 796.98,
+   "end": 799.82,
+   "text": "Tâm trí họ nhanh chóng trở thành một tờ giấy trắng tuyệt đối."
   },
   {
    "id": "3.07#1",
    "element": "3.07",
    "act": 3,
-   "role": "C",
-   "start": 660.32,
-   "end": 665.64,
-   "text": "Manson dạy cho các đệ tử rằng cái chết không phải là sự kết thúc, mà chỉ là sự giải thoát linh hồn."
+   "role": "H",
+   "start": 800.82,
+   "end": 807.1,
+   "text": "Bước thứ hai: Lập trình lại nhận thức, hay giai đoạn Changing."
   },
   {
    "id": "3.07#2",
    "element": "3.07",
    "act": 3,
-   "role": "C",
-   "start": 666.29,
-   "end": 669.53,
-   "text": "Hắn xóa bỏ khái niệm đúng sai thông thường của xã hội loài người."
-  },
-  {
-   "id": "3.07#3",
-   "element": "3.07",
-   "act": 3,
-   "role": "C",
-   "start": 670.18,
-   "end": 674.14,
-   "text": "Hắn lập luận rằng trong thế giới của tình yêu tuyệt đối, không có tội lỗi."
-  },
-  {
-   "id": "3.07#4",
-   "element": "3.07",
-   "act": 3,
-   "role": "C",
-   "start": 674.79,
-   "end": 683.43,
-   "text": "Bằng cách biến bản thân thành nguồn chuẩn mực đạo đức duy nhất, Manson khiến các môn đồ tin rằng mọi hành vi hắn sai khiến đều là hành động phụng sự cho một mục đích thiêng liêng."
-  },
-  {
-   "id": "3.07#5",
-   "element": "3.07",
-   "act": 3,
-   "role": "C",
-   "start": 684.08,
-   "end": 688.32,
-   "text": "Khả năng tư duy phản biện của họ bị triệt tiêu hoàn toàn trước bức tường đức tin mù quáng."
+   "role": "H",
+   "start": 807.75,
+   "end": 815.87,
+   "text": "Khi các đệ tử đã đánh mất khả năng tư duy độc lập, Manson bắt đầu nhồi nhét học thuyết ngày tận thế vào đầu óc họ."
   },
   {
    "id": "3.08#1",
    "element": "3.08",
    "act": 3,
-   "role": "H",
-   "start": 689.82,
-   "end": 695.74,
-   "text": "Giai đoạn thứ ba: Tái cố định hành vi và gắn kết tội lỗi, hay Refreezing."
+   "role": "C",
+   "start": 816.87,
+   "end": 824.31,
+   "text": "Hắn bóp méo lời bài hát “Helter Skelter” trong Album Trắng của The Beatles thành một lời tiên tri về cuộc chiến tranh sắc tộc sắp sửa bùng nổ."
   },
   {
    "id": "3.08#2",
    "element": "3.08",
    "act": 3,
-   "role": "H",
-   "start": 696.39,
-   "end": 703.91,
-   "text": "Để đảm bảo không một ai có thể quay đầu trở lại thế giới bình thường, Manson đã ràng buộc họ bằng một bí mật tội ác chung."
+   "role": "C",
+   "start": 824.96,
+   "end": 829.64,
+   "text": "Hắn tự biến mình thành hiện thân của Chúa Jesus và đồng thời là chuẩn mực chân lý duy nhất."
   },
   {
-   "id": "3.09#1",
-   "element": "3.09",
+   "id": "3.08#3",
+   "element": "3.08",
    "act": 3,
    "role": "C",
-   "start": 705.51,
-   "end": 709.27,
-   "text": "Hiện tượng này trong tâm lý học được gọi là Sự gắn kết chấn thương cực đoan."
+   "start": 830.89,
+   "end": 836.93,
+   "text": "Để ru ngủ lương tri của đệ tử, Manson dạy họ các kỹ thuật Trung hòa đạo đức (Techniques of Neutralization) theo lý thuyết của Sykes và Matza:"
   },
   {
-   "id": "3.09#2",
-   "element": "3.09",
+   "id": "3.08#4",
+   "element": "3.08",
    "act": 3,
    "role": "C",
-   "start": 709.92,
-   "end": 717.2,
-   "text": "Bằng cách ép buộc các thành viên cùng tham gia vào hành vi bạo lực tập thể, Manson đã hòa tan cảm giác tội lỗi cá nhân vào tâm lý bầy đàn."
+   "start": 837.58,
+   "end": 846.9,
+   "text": "Kháng cáo lòng trung thành cao hơn: Manson thuyết giảng rằng giết người trong Helter Skelter không phải tội ác, mà là một hành động giải thoát tâm linh để phục vụ tình yêu thương nhân loại."
   },
   {
-   "id": "3.09#3",
-   "element": "3.09",
+   "id": "3.08#5",
+   "element": "3.08",
    "act": 3,
    "role": "C",
-   "start": 717.85,
-   "end": 720.81,
-   "text": "Khi tất cả cùng nhúng chàm, họ không còn con đường lui."
+   "start": 847.55,
+   "end": 855.59,
+   "text": "Vật hóa và phi nhân hóa nạn nhân: Nạn nhân không phải là con người, mà chỉ là những “Pigs” – biểu tượng đạo đức giả của tầng lớp tư bản cần bị thanh tẩy."
   },
   {
-   "id": "3.09#4",
-   "element": "3.09",
+   "id": "3.08#6",
+   "element": "3.08",
    "act": 3,
    "role": "C",
-   "start": 721.46,
-   "end": 725.38,
-   "text": "Số phận và sự an toàn của họ bị cột chặt vĩnh viễn vào người thủ lĩnh."
+   "start": 856.24,
+   "end": 863.32,
+   "text": "Ngoại hóa trách nhiệm cá nhân: Ý chí hành động thuộc về sứ mệnh vũ trụ, các môn đồ chỉ là công cụ vô can thi hành mệnh lệnh thiêng liêng."
+  },
+  {
+   "id": "3.08#7",
+   "element": "3.08",
+   "act": 3,
+   "role": "C",
+   "start": 863.97,
+   "end": 868.69,
+   "text": "Đối với Manson, hắn hoàn toàn khuyết tật Thuyết tâm trí (Theory of Mind) và vô cảm trước nỗi đau của đồng loại."
+  },
+  {
+   "id": "3.08#8",
+   "element": "3.08",
+   "act": 3,
+   "role": "C",
+   "start": 869.34,
+   "end": 871.98,
+   "text": "Tiếng van xin của nạn nhân không đánh thức sự trắc ẩn."
+  },
+  {
+   "id": "3.08#9",
+   "element": "3.08",
+   "act": 3,
+   "role": "C",
+   "start": 872.63,
+   "end": 877.27,
+   "text": "Nó kích hoạt cơn hưng phấn quyền lực tột độ (power arousal) của một kẻ mang cấu trúc nhân cách ái kỷ ác tính."
+  },
+  {
+   "id": "3.08#10",
+   "element": "3.08",
+   "act": 3,
+   "role": "C",
+   "start": 877.92,
+   "end": 884.6,
+   "text": "Hắn không coi đệ tử là người thân yêu, mà xem họ như những công cụ kéo dài của bản ngã để thỏa mãn ảo tưởng thống trị."
   },
   {
    "id": "3.10#1",
    "element": "3.10",
    "act": 3,
    "role": "H",
-   "start": 726.88,
-   "end": 729.6,
-   "text": "Chiếc bẫy tâm lý hoàn hảo đã được kích hoạt."
+   "start": 886.4,
+   "end": 893.16,
+   "text": "Và bước cuối cùng để hoàn tất cỗ máy điều khiển: Tái cố định hành vi, hay Refreezing."
   },
   {
    "id": "3.10#2",
    "element": "3.10",
    "act": 3,
    "role": "H",
-   "start": 730.25,
-   "end": 741.09,
-   "text": "Và khi thời khắc đen tối điểm vào mùa hè năm 1969, những cỗ máy tuân lệnh đã bước ra khỏi trang trại Spahn Ranch để thực thi mệnh lệnh hủy diệt."
+   "start": 893.81,
+   "end": 901.53,
+   "text": "Làm thế nào Manson đảm bảo rằng những cô gái trẻ sẽ không bao giờ tỉnh mộng hay quay đầu lại với xã hội?"
+  },
+  {
+   "id": "3.11#1",
+   "element": "3.11",
+   "act": 3,
+   "role": "C",
+   "start": 903.43,
+   "end": 908.19,
+   "text": "Câu trả lời chính là: Sự gắn kết chấn thương cực đoan (Trauma Bonding) thông qua hành vi đồng lõa phạm tội."
+  },
+  {
+   "id": "3.11#2",
+   "element": "3.11",
+   "act": 3,
+   "role": "C",
+   "start": 908.84,
+   "end": 916.52,
+   "text": "Bằng cách ép buộc các thành viên cùng nhúng chàm vào những hành động bạo lực tập thể, Manson đã ràng buộc họ vào một bí mật tội ác chung không thể chia cắt."
+  },
+  {
+   "id": "3.11#3",
+   "element": "3.11",
+   "act": 3,
+   "role": "C",
+   "start": 917.17,
+   "end": 920.65,
+   "text": "Cảm giác tội lỗi cá nhân bị hòa tan hoàn toàn vào tâm lý bầy đàn."
+  },
+  {
+   "id": "3.11#4",
+   "element": "3.11",
+   "act": 3,
+   "role": "C",
+   "start": 921.3,
+   "end": 927.98,
+   "text": "Khi tất cả cùng vi phạm điều cấm kỵ tối thượng của nhân loại, con đường quay trở lại cuộc sống bình thường đã bị xóa bỏ vĩnh viễn."
+  },
+  {
+   "id": "3.11#5",
+   "element": "3.11",
+   "act": 3,
+   "role": "C",
+   "start": 928.63,
+   "end": 932.63,
+   "text": "Số phận của họ từ đó bị gắn kết hoàn toàn vào quyền lực của kẻ thủ lĩnh."
   },
   {
    "id": "4.02#1",
    "element": "4.02",
    "act": 4,
    "role": "H",
-   "start": 744.29,
-   "end": 750.97,
-   "text": "Cuộc điều tra bế tắc của cảnh sát chỉ thực sự tìm thấy ánh sáng vào tháng 10 năm 1969."
+   "start": 934.93,
+   "end": 944.05,
+   "text": "Sau chuỗi tội ác chấn động vào tháng 8 năm 1969, nhóm sát thủ rút về ẩn náu tại vùng sa mạc hoang vu Death Valley."
   },
   {
    "id": "4.02#2",
    "element": "4.02",
    "act": 4,
    "role": "H",
-   "start": 751.62,
-   "end": 764.94,
-   "text": "Trong một đợt truy quét trộm cắp xe địa hình tại khu vực Death Valley, cảnh sát đã bắt giữ Charles Manson cùng hàng chục tín đồ mà không hề hay biết họ chính là những kẻ đứng sau thảm kịch Tate-LaBianca."
+   "start": 944.7,
+   "end": 950.94,
+   "text": "Cuộc điều tra bế tắc của cảnh sát chỉ tìm thấy ánh sáng vào tháng 10 năm 1969."
+  },
+  {
+   "id": "4.02#3",
+   "element": "4.02",
+   "act": 4,
+   "role": "H",
+   "start": 952.09,
+   "end": 959.01,
+   "text": "Khi đó, một lực lượng liên ngành truy quét các vụ trộm cắp xe địa hình và bắt giữ Manson cùng hàng chục tín đồ."
+  },
+  {
+   "id": "4.02#4",
+   "element": "4.02",
+   "act": 4,
+   "role": "H",
+   "start": 959.66,
+   "end": 967.3,
+   "text": "Ban đầu, các điều tra viên không hề hay biết rằng mình đang giữ trong tay những kẻ đứng sau thảm kịch Tate-LaBianca."
   },
   {
    "id": "4.03#1",
    "element": "4.03",
    "act": 4,
    "role": "D",
-   "start": 766.44,
-   "end": 778.16,
-   "text": "Bước ngoặt xuất hiện khi Susan Atkins, một nữ tín đồ bị giam giữ tại Trại giam Sybil Brand, bắt đầu tự mãn khoe khoang với bạn cùng phòng giam về việc mình đã tham gia vào vụ án trên đồi Beverly Hills."
+   "start": 968.3,
+   "end": 971.78,
+   "text": "Bước ngoặt xuất hiện từ chính sự kiêu hãnh ái kỷ của hung thủ."
   },
   {
    "id": "4.03#2",
    "element": "4.03",
    "act": 4,
    "role": "D",
-   "start": 778.81,
-   "end": 781.89,
-   "text": "Lời khai chấn động này lập tức được báo cáo lên ban chuyên án."
+   "start": 972.43,
+   "end": 978.03,
+   "text": "Trong Trại giam Sybil Brand, nữ tín đồ Susan Atkins không kiềm chế được nhu cầu khoe khoang."
   },
   {
    "id": "4.03#3",
    "element": "4.03",
    "act": 4,
    "role": "D",
-   "start": 782.54,
-   "end": 787.74,
-   "text": "Các điều tra viên nhanh chóng kết nối các mảnh ghép vật chứng và xác định danh tính toàn bộ nhóm thủ phạm."
+   "start": 978.68,
+   "end": 983.56,
+   "text": "Ả đã kể lại chi tiết vụ án tại biệt thự Cielo Drive cho hai người bạn cùng phòng giam."
+  },
+  {
+   "id": "4.03#4",
+   "element": "4.03",
+   "act": 4,
+   "role": "D",
+   "start": 984.71,
+   "end": 989.55,
+   "text": "Lời thú nhận chấn động đó lập tức được chuyển đến ban chuyên án của Sở Cảnh sát Los Angeles."
+  },
+  {
+   "id": "4.03#5",
+   "element": "4.03",
+   "act": 4,
+   "role": "D",
+   "start": 990.2,
+   "end": 995.76,
+   "text": "Từ lời khai này, cơ quan điều tra nhanh chóng xâu chuỗi các bằng chứng vật chất và dấu vân tay hiện trường."
+  },
+  {
+   "id": "4.03#6",
+   "element": "4.03",
+   "act": 4,
+   "role": "D",
+   "start": 996.41,
+   "end": 1000.21,
+   "text": "Danh tính của toàn bộ mạng lưới thủ phạm nhanh chóng lộ diện hoàn toàn."
   },
   {
    "id": "4.04#1",
    "element": "4.04",
    "act": 4,
    "role": "H",
-   "start": 789.24,
-   "end": 796.48,
-   "text": "Nhưng để đưa được kẻ chủ mưu ra trước ánh sáng công lý, cơ quan công tố cần một nhân chứng trực tiếp từ bên trong giáo phái."
+   "start": 1001.21,
+   "end": 1009.61,
+   "text": "Nhưng để đưa được kẻ chủ mưu ra trước vành móng ngựa, cơ quan công tố cần một nhân chứng sống bước ra từ chính vòng tay của giáo phái."
   },
   {
    "id": "4.04#2",
    "element": "4.04",
    "act": 4,
    "role": "H",
-   "start": 797.13,
-   "end": 806.85,
-   "text": "Người đó chính là Linda Kasabian, một người mẹ trẻ hai mươi tuổi, người đã có mặt cùng nhóm trong cả hai đêm nhưng không tham gia vào hành vi bạo lực."
+   "start": 1010.26,
+   "end": 1014.58,
+   "text": "Người đó là Linda Kasabian, một người mẹ trẻ hai mươi tuổi."
   },
   {
    "id": "4.04#3",
    "element": "4.04",
    "act": 4,
    "role": "H",
-   "start": 807.5,
-   "end": 811.06,
-   "text": "Hãy hình dung khoảnh khắc cô phải đối diện với Manson trước tòa."
+   "start": 1015.23,
+   "end": 1022.55,
+   "text": "Cô từng có mặt tại hiện trường ở vị trí cảnh giới ngoài cổng nhưng từ chối tham gia bạo lực và sau đó đã trốn chạy."
+  },
+  {
+   "id": "4.04#4",
+   "element": "4.04",
+   "act": 4,
+   "role": "H",
+   "start": 1023.7,
+   "end": 1028.62,
+   "text": "Hãy lắng nghe lời chứng đầy ám ảnh của cô khi đối diện với Manson trước tòa án."
   },
   {
    "id": "4.05#1",
    "element": "4.05",
    "act": 4,
    "role": "N2",
-   "start": 812.56,
-   "end": 818.64,
-   "text": "Kasabian đã đứng trên bục nhân chứng suốt nhiều ngày, đối diện với chính người từng được cô tôn thờ."
+   "start": 1029.62,
+   "end": 1037.5,
+   "text": "Khi đứng trước bục nhân chứng và nhìn thẳng vào mắt Charles Manson, tôi cảm thấy một nỗi ớn lạnh buốt giá chạy dọc sống lưng."
   },
   {
    "id": "4.05#2",
    "element": "4.05",
    "act": 4,
    "role": "N2",
-   "start": 819.29,
-   "end": 829.45,
-   "text": "Qua lời khai của cô, những người bạn từng cùng cô sống ở trang trại hiện lên như những con búp bê bị giật dây, không còn biết sợ hãi hay thương xót."
+   "start": 1038.15,
+   "end": 1046.59,
+   "text": "Những người bạn từng cùng tôi sống ở trang trại Spahn Ranch giờ đây ngồi đó với ánh mắt trống rỗng như những con búp bê bị giật dây."
   },
   {
    "id": "4.05#3",
    "element": "4.05",
    "act": 4,
    "role": "N2",
-   "start": 830.1,
-   "end": 836.3,
-   "text": "Họ không còn là những người bạn cô từng yêu quý, mà là những cái bóng đã hoàn toàn đánh mất chính mình."
+   "start": 1047.24,
+   "end": 1051.24,
+   "text": "Họ không còn nhận thức được nỗi đau hay sự sợ hãi của đồng loại."
+  },
+  {
+   "id": "4.05#4",
+   "element": "4.05",
+   "act": 4,
+   "role": "N2",
+   "start": 1052.59,
+   "end": 1058.27,
+   "text": "Tôi đã chứng kiến họ đánh mất chính mình từng chút một dưới những lời thao túng của Manson."
+  },
+  {
+   "id": "4.05#5",
+   "element": "4.05",
+   "act": 4,
+   "role": "N2",
+   "start": 1058.92,
+   "end": 1062.6,
+   "text": "Đứng ra làm chứng là quyết định khó khăn nhất cuộc đời tôi."
+  },
+  {
+   "id": "4.05#6",
+   "element": "4.05",
+   "act": 4,
+   "role": "N2",
+   "start": 1063.25,
+   "end": 1067.97,
+   "text": "Nhưng tôi hiểu rằng mình phải nói lên sự thật để trả lại công lý cho các nạn nhân."
+  },
+  {
+   "id": "4.05#7",
+   "element": "4.05",
+   "act": 4,
+   "role": "N2",
+   "start": 1068.62,
+   "end": 1073.54,
+   "text": "Đó là cách duy nhất để tôi thoát khỏi bóng ma của kẻ từng thao túng linh hồn mình."
   },
   {
    "id": "4.07#1",
    "element": "4.07",
    "act": 4,
    "role": "H",
-   "start": 838.0,
-   "end": 848.96,
-   "text": "Phiên tòa xét xử Charles Manson mở màn vào tháng 6 năm 1970 tại Tòa án Los Angeles, dưới sự chủ tọa của Thẩm phán Charles Older."
+   "start": 1074.54,
+   "end": 1085.14,
+   "text": "Phiên tòa xét xử Charles Manson và các đồng phạm chính thức mở màn vào tháng 6 năm 1970 dưới sự chủ tọa của Thẩm phán Charles Older."
   },
   {
    "id": "4.07#2",
    "element": "4.07",
    "act": 4,
    "role": "H",
-   "start": 849.61,
-   "end": 854.81,
-   "text": "Đây là một trong những phiên tòa dài nhất và tốn kém nhất trong lịch sử tư pháp nước Mỹ."
+   "start": 1085.79,
+   "end": 1092.75,
+   "text": "Đây là một trong những phiên tòa dài nhất, tốn kém nhất và kỳ dị nhất trong toàn bộ lịch sử tư pháp nước Mỹ."
   },
   {
    "id": "4.07#3",
    "element": "4.07",
    "act": 4,
    "role": "H",
-   "start": 855.46,
-   "end": 862.38,
-   "text": "Bên ngoài tòa án, các tín đồ còn lại liên tục tụ tập, quỳ gối trên vỉa hè và đe dọa các nhân chứng."
+   "start": 1093.4,
+   "end": 1102.12,
+   "text": "Bên ngoài tòa án, các tín đồ còn lại liên tục quỳ gối trên vỉa hè, cạo trọc đầu và đe dọa các nhân chứng tham gia xét xử."
   },
   {
    "id": "4.07#4",
    "element": "4.07",
    "act": 4,
    "role": "H",
-   "start": 863.03,
-   "end": 868.29,
+   "start": 1102.77,
+   "end": 1108.03,
    "text": "Trọng trách lịch sử đè nặng lên vai Phó Công tố viên Vincent Bugliosi."
   },
   {
@@ -1033,405 +1348,450 @@
    "element": "4.08",
    "act": 4,
    "role": "D",
-   "start": 869.79,
-   "end": 874.59,
-   "text": "Khó khăn lớn nhất của bên công tố là chứng minh tội danh của Charles Manson."
+   "start": 1109.53,
+   "end": 1114.25,
+   "text": "Thách thức pháp lý lớn nhất của bên công tố là chứng minh tội danh của Charles Manson."
   },
   {
    "id": "4.08#2",
    "element": "4.08",
    "act": 4,
    "role": "D",
-   "start": 875.24,
-   "end": 879.2,
-   "text": "Hắn không hề có mặt tại ngôi nhà của Sharon Tate vào đêm mùng 8 tháng 8."
+   "start": 1114.9,
+   "end": 1119.06,
+   "text": "Hắn không hề có mặt tại căn nhà của Sharon Tate vào đêm mùng 8 tháng 8."
   },
   {
    "id": "4.08#3",
    "element": "4.08",
    "act": 4,
    "role": "D",
-   "start": 879.85,
-   "end": 886.21,
-   "text": "Tại nhà của vợ chồng LaBianca vào đêm tiếp theo, hắn có vào nhà nhưng rời đi trước khi các đệ tử ra tay."
+   "start": 1119.71,
+   "end": 1124.27,
+   "text": "Tại nhà LaBianca vào đêm hôm sau, hắn rời đi trước khi các đệ tử ra tay."
   },
   {
    "id": "4.08#4",
    "element": "4.08",
    "act": 4,
    "role": "D",
-   "start": 886.86,
-   "end": 892.22,
-   "text": "Luật sư bào chữa lập luận rằng Manson không thể bị kết tội vì hắn không hề trực tiếp ra tay."
+   "start": 1124.92,
+   "end": 1131.6,
+   "text": "Luật sư bào chữa lập luận rằng Manson không thể bị kết tội giết người vì bàn tay hắn chưa từng chạm vào hung khí."
+  },
+  {
+   "id": "4.08#5",
+   "element": "4.08",
+   "act": 4,
+   "role": "D",
+   "start": 1132.75,
+   "end": 1140.55,
+   "text": "Bằng lập luận đanh thép và chứng cứ logic phi thường, Công tố viên Bugliosi đã xây dựng thành công một học thuyết pháp lý kinh điển."
+  },
+  {
+   "id": "4.08#6",
+   "element": "4.08",
+   "act": 4,
+   "role": "D",
+   "start": 1141.2,
+   "end": 1145.16,
+   "text": "Đó là học thuyết về Trách nhiệm của kẻ chủ mưu trong âm mưu giết người (Conspiracy and Vicarious Liability)."
+  },
+  {
+   "id": "4.08#7",
+   "element": "4.08",
+   "act": 4,
+   "role": "D",
+   "start": 1145.81,
+   "end": 1154.77,
+   "text": "Ông chứng minh trước bồi thẩm đoàn rằng: các đệ tử chỉ là những cánh tay nối dài, còn bộ não điều khiển và ý chí tội ác duy nhất thuộc về Charles Manson."
+  },
+  {
+   "id": "4.08#8",
+   "element": "4.08",
+   "act": 4,
+   "role": "D",
+   "start": 1155.42,
+   "end": 1160.86,
+   "text": "Dù không trực tiếp ra tay, mọi hành động tàn bạo đều bắt nguồn từ chính mệnh lệnh tuyệt đối của hắn."
   },
   {
    "id": "4.09#1",
    "element": "4.09",
    "act": 4,
-   "role": "H",
-   "start": 893.72,
-   "end": 905.32,
-   "text": "Bằng sự sắc bén và kiên trì phi thường, Công tố viên Vincent Bugliosi đã xây dựng thành công học thuyết pháp lý về Trách nhiệm của kẻ chủ mưu trong âm mưu giết người."
+   "role": "C",
+   "start": 1161.86,
+   "end": 1167.9,
+   "text": "Thái độ của các bị cáo tại tòa án là một biểu hiện kinh điển của cơ chế ám thị bầy đàn và sự phủ nhận cực đoan."
   },
   {
    "id": "4.09#2",
    "element": "4.09",
    "act": 4,
-   "role": "H",
-   "start": 905.97,
-   "end": 913.81,
-   "text": "Ông đã chứng minh trước bồi thẩm đoàn rằng: Mệnh lệnh của Manson chính là nguồn gốc duy nhất điều khiển hành vi của các đệ tử."
+   "role": "C",
+   "start": 1168.55,
+   "end": 1173.55,
+   "text": "Manson tự khắc một chữ X lên trán và tuyên bố đã tự gạch tên mình ra khỏi xã hội loài người."
   },
   {
    "id": "4.09#3",
    "element": "4.09",
    "act": 4,
-   "role": "H",
-   "start": 914.46,
-   "end": 919.14,
-   "text": "Dù không trực tiếp ra tay, ý chí của hắn đã hiện diện trong từng tội ác."
+   "role": "C",
+   "start": 1174.2,
+   "end": 1180.32,
+   "text": "Ngay hôm sau, các nữ bị cáo cũng khắc chữ X tương tự và nắm tay nhau cười đùa khi bước vào phòng xử án."
+  },
+  {
+   "id": "4.09#4",
+   "element": "4.09",
+   "act": 4,
+   "role": "C",
+   "start": 1181.47,
+   "end": 1187.71,
+   "text": "Manson thậm chí còn manh động nhảy qua bàn luật sư mưu toan tấn công thẩm phán khi nhận thấy mình mất quyền kiểm soát phiên tòa."
+  },
+  {
+   "id": "4.09#5",
+   "element": "4.09",
+   "act": 4,
+   "role": "C",
+   "start": 1188.36,
+   "end": 1192.24,
+   "text": "Đó là màn kịch ái kỷ kịch nghệ (Theatrical Narcissism) nhằm biến công đường thành một sân khấu cá nhân."
+  },
+  {
+   "id": "4.09#6",
+   "element": "4.09",
+   "act": 4,
+   "role": "C",
+   "start": 1192.89,
+   "end": 1198.89,
+   "text": "Chúng không hề cảm thấy tội lỗi hay hối hận chân chính, bởi bức tường ảo tưởng vẫn đang bao bọc lấy nhận thức của họ."
+  },
+  {
+   "id": "4.09#7",
+   "element": "4.09",
+   "act": 4,
+   "role": "C",
+   "start": 1199.54,
+   "end": 1204.7,
+   "text": "Sự sụp đổ của cái tôi ái kỷ chỉ thực sự bắt đầu khi bản án nghiêm khắc nhất của pháp luật giáng xuống."
   },
   {
    "id": "4.10#1",
    "element": "4.10",
    "act": 4,
-   "role": "C",
-   "start": 920.64,
-   "end": 924.72,
-   "text": "Sự tẩy não sâu sắc của Manson đã phơi bày trần trụi ngay giữa phòng xử án."
+   "role": "H",
+   "start": 1205.7,
+   "end": 1212.14,
+   "text": "Mọi trò hề và sự thao túng ma quái cuối cùng cũng không thể che mờ được ánh sáng của công lý."
   },
   {
    "id": "4.10#2",
    "element": "4.10",
    "act": 4,
-   "role": "C",
-   "start": 925.37,
-   "end": 931.45,
-   "text": "Manson xuất hiện với một chữ X trên trán và tuyên bố rằng hắn đã tự gạch bỏ chính mình ra khỏi thế giới của các người."
+   "role": "H",
+   "start": 1212.79,
+   "end": 1224.15,
+   "text": "Ngày 25 tháng 1 năm 1971, sau nhiều tháng xét xử căng thẳng, bồi thẩm đoàn đã đưa ra phán quyết lịch sử kết tội Manson và ba nữ đồng phạm."
   },
   {
    "id": "4.10#3",
    "element": "4.10",
    "act": 4,
-   "role": "C",
-   "start": 932.1,
-   "end": 938.18,
-   "text": "Ít lâu sau, ba nữ bị cáo Atkins, Krenwinkel và Van Houten cũng mang chữ X tương tự."
-  },
-  {
-   "id": "4.10#4",
-   "element": "4.10",
-   "act": 4,
-   "role": "C",
-   "start": 938.83,
-   "end": 942.39,
-   "text": "Họ nắm tay nhau cười đùa và hát vang trên đường vào phòng xử án."
-  },
-  {
-   "id": "4.10#5",
-   "element": "4.10",
-   "act": 4,
-   "role": "C",
-   "start": 943.04,
-   "end": 946.96,
-   "text": "Hành vi này phản ánh cơ chế phủ nhận cực đoan kết hợp với ám thị tập thể."
-  },
-  {
-   "id": "4.10#6",
-   "element": "4.10",
-   "act": 4,
-   "role": "C",
-   "start": 947.61,
-   "end": 953.01,
-   "text": "Họ hoàn toàn không có cảm giác tội lỗi, bởi họ vẫn tin rằng mình đang thực hiện một sứ mệnh thiêng liêng."
-  },
-  {
-   "id": "4.11#1",
-   "element": "4.11",
-   "act": 4,
    "role": "H",
-   "start": 954.51,
-   "end": 959.31,
-   "text": "Màn kịch điên rồ ấy cuối cùng cũng không thể che mờ được ánh sáng của công lý."
-  },
-  {
-   "id": "4.11#2",
-   "element": "4.11",
-   "act": 4,
-   "role": "H",
-   "start": 959.96,
-   "end": 966.48,
-   "text": "Ngày 25 tháng 1 năm 1971, bồi thẩm đoàn đã đưa ra phán quyết lịch sử."
+   "start": 1224.8,
+   "end": 1232.68,
+   "text": "Bức màn đen tối che phủ Mùa hè Tình yêu chính thức bị pháp luật bóc trần."
   },
   {
    "id": "5.02#1",
    "element": "5.02",
    "act": 5,
    "role": "H",
-   "start": 969.68,
-   "end": 981.2,
-   "text": "Sau nhiều tháng xét xử căng thẳng, bồi thẩm đoàn Tòa án Los Angeles đã kết luận Charles Manson cùng các đồng phạm phạm tội Giết người cấp độ một và Âm mưu giết người."
+   "start": 1234.98,
+   "end": 1246.3,
+   "text": "Tháng 3 năm 1971, Charles Manson, Susan Atkins, Patricia Krenwinkel và Leslie Van Houten bị tuyên án tử hình."
   },
   {
    "id": "5.02#2",
    "element": "5.02",
    "act": 5,
    "role": "H",
-   "start": 981.85,
-   "end": 986.17,
-   "text": "Tháng 3 năm 1971, họ bị tuyên án tử hình."
+   "start": 1246.95,
+   "end": 1258.51,
+   "text": "Tuy nhiên, vào năm 1972, Tòa án Tối cao bang California tạm thời bãi bỏ án tử hình trong phán quyết lịch sử vụ People kiện Anderson."
   },
   {
    "id": "5.02#3",
    "element": "5.02",
    "act": 5,
    "role": "H",
-   "start": 986.82,
-   "end": 996.58,
-   "text": "Tuy nhiên, vào năm 1972, Tòa án Tối cao bang California tạm thời bãi bỏ án tử hình trong vụ án People kiện Anderson."
+   "start": 1259.16,
+   "end": 1266.16,
+   "text": "Toàn bộ các bản án tử hình của Manson và đồng phạm tự động được chuyển thành tù chung thân có cơ hội ân xá."
   },
   {
    "id": "5.02#4",
    "element": "5.02",
    "act": 5,
    "role": "H",
-   "start": 997.23,
-   "end": 1003.55,
-   "text": "Toàn bộ các bản án tử hình của Manson và các đệ tử được tự động chuyển thành tù chung thân."
+   "start": 1266.81,
+   "end": 1275.93,
+   "text": "Nhưng trong suốt gần nửa thế kỷ sau đó, qua hàng chục phiên điều trần, mọi lá đơn xin ân xá của Charles Manson đều bị bác bỏ thẳng thừng."
   },
   {
    "id": "5.02#5",
    "element": "5.02",
    "act": 5,
    "role": "H",
-   "start": 1004.2,
-   "end": 1018.24,
-   "text": "Charles Manson đã sống suốt gần nửa thế kỷ còn lại trong các nhà tù nghiêm ngặt nhất của bang California, trước khi qua đời vì bệnh tật vào ngày 19 tháng 11 năm 2017 ở tuổi tám mươi ba."
-  },
-  {
-   "id": "5.02#6",
-   "element": "5.02",
-   "act": 5,
-   "role": "H",
-   "start": 1018.89,
-   "end": 1033.89,
-   "text": "Nhiều thập kỷ sau, khi bóng ma tẩy não tan biến, những cựu môn đồ như Leslie Van Houten hay Patricia Krenwinkel đều bày tỏ sự ân hận tột cùng vì đã lãng phí cả cuộc đời cho một kẻ ảo tưởng ái kỷ."
-  },
-  {
-   "id": "5.03#1",
-   "element": "5.03",
-   "act": 5,
-   "role": "D",
-   "start": 1035.39,
-   "end": 1040.31,
-   "text": "Bản án dành cho Charles Manson đã trở thành một tiền lệ tư pháp được nhắc đến rất nhiều."
-  },
-  {
-   "id": "5.03#2",
-   "element": "5.03",
-   "act": 5,
-   "role": "D",
-   "start": 1040.96,
-   "end": 1049.04,
-   "text": "Nó khẳng định rằng: Kẻ thao túng tâm trí, kẻ dùng quyền lực tinh thần để sai khiến người khác thực hiện tội ác phải chịu trách nhiệm hình sự cao nhất."
-  },
-  {
-   "id": "5.03#3",
-   "element": "5.03",
-   "act": 5,
-   "role": "D",
-   "start": 1049.69,
-   "end": 1055.49,
-   "text": "Không một kẻ chủ mưu nào có thể trốn tránh sự trừng phạt bằng cách ẩn mình sau bàn tay của kẻ khác."
+   "start": 1276.58,
+   "end": 1282.98,
+   "text": "Hội đồng ân xá luôn giữ vững lập trường trước nỗi đau chưa từng nguôi ngoai của gia đình các nạn nhân."
   },
   {
    "id": "5.04#1",
    "element": "5.04",
    "act": 5,
-   "role": "C",
-   "start": 1056.99,
-   "end": 1070.51,
-   "text": "Thảm kịch Gia đình Manson phơi bày một sự thật tàn nhẫn về bản chất con người: Bất kỳ ai trong chúng ta, khi rơi vào trạng thái cô đơn, thiếu thốn tình cảm và khủng hoảng ý nghĩa sống, đều có thể trở thành nạn nhân của những kẻ thao túng tâm lý."
+   "role": "D",
+   "start": 1284.78,
+   "end": 1294.74,
+   "text": "Vụ án Manson đã xác lập một tiền lệ tư pháp bất hủ trong nền pháp lý hiện đại: Kẻ chủ mưu thao túng tâm trí phải chịu trách nhiệm hình sự ngang bằng với kẻ trực tiếp ra tay."
   },
   {
    "id": "5.04#2",
    "element": "5.04",
    "act": 5,
-   "role": "C",
-   "start": 1071.16,
-   "end": 1073.6,
-   "text": "Kẻ thao túng không xuất hiện với bộ mặt của quái vật."
+   "role": "D",
+   "start": 1295.39,
+   "end": 1300.39,
+   "text": "Pháp luật đã khẳng định rằng quyền lực tinh thần không thể trở thành tấm khiên che chắn cho tội ác."
   },
   {
    "id": "5.04#3",
    "element": "5.04",
    "act": 5,
-   "role": "C",
-   "start": 1074.25,
-   "end": 1078.81,
-   "text": "Chúng xuất hiện như những người bạn thấu hiểu nhất, những người cha người thầy đầy lòng nhân ái giả tạo."
+   "role": "D",
+   "start": 1301.04,
+   "end": 1306.2,
+   "text": "Charles Manson đã trải qua phần đời còn lại trong các nhà tù nghiêm ngặt nhất của bang California."
+  },
+  {
+   "id": "5.04#4",
+   "element": "5.04",
+   "act": 5,
+   "role": "D",
+   "start": 1307.35,
+   "end": 1314.19,
+   "text": "Hắn qua đời vì bệnh tật vào ngày 19 tháng 11 năm 2017 ở tuổi tám mươi ba."
+  },
+  {
+   "id": "5.04#5",
+   "element": "5.04",
+   "act": 5,
+   "role": "D",
+   "start": 1314.84,
+   "end": 1322.12,
+   "text": "Hắn kết thúc cuộc đời trong sự cô độc tuyệt đối sau song sắt, để lại sau lưng một vết nhơ không thể gột rửa trong lịch sử nước Mỹ."
   },
   {
    "id": "5.05#1",
    "element": "5.05",
    "act": 5,
-   "role": "H",
-   "start": 1080.31,
-   "end": 1091.27,
-   "text": "Để bảo vệ bản thân và thế hệ trẻ trước những chiếc bẫy thao túng tâm lý độc hại, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ từ hồ sơ lịch sử này:"
+   "role": "C",
+   "start": 1323.12,
+   "end": 1330.68,
+   "text": "Về mặt tâm lý học, bản án khắc nghiệt nhất đối với Charles Manson không chỉ là bốn bức tường giam cầm thể xác, mà là sự lãng quên của xã hội."
   },
   {
    "id": "5.05#2",
    "element": "5.05",
    "act": 5,
-   "role": "H",
-   "start": 1091.92,
-   "end": 1097.76,
-   "text": "Dấu hiệu thứ nhất: Cảnh giác trước chiến thuật Dội bom tình cảm quá mức."
+   "role": "C",
+   "start": 1331.33,
+   "end": 1337.73,
+   "text": "Cho đến những ngày tháng cuối đời, Manson vẫn điên cuồng tìm cách trả lời phỏng vấn báo chí để thỏa mãn cơn khát sự chú ý."
   },
   {
    "id": "5.05#3",
    "element": "5.05",
    "act": 5,
-   "role": "H",
-   "start": 1098.41,
-   "end": 1107.05,
-   "text": "Những cá nhân hoặc hội nhóm mới quen nhưng liên tục tán dương, ôm ấp và coi bạn là người đặc biệt nhất thường có chủ đích thao túng."
+   "role": "C",
+   "start": 1338.38,
+   "end": 1343.86,
+   "text": "Đó là biểu hiện trơ trọi của Sự tự thương hại bệnh lý (Pathological Self-Pity) khi nhận ra bản ngã ái kỷ đã hoàn toàn sụp đổ."
   },
   {
    "id": "5.05#4",
    "element": "5.05",
    "act": 5,
-   "role": "H",
-   "start": 1107.7,
-   "end": 1113.9,
-   "text": "Mục tiêu của chúng là tạo ra sự lệ thuộc cảm xúc nhanh chóng nhằm vô hiệu hóa sự hoài nghi của bạn."
+   "role": "C",
+   "start": 1344.51,
+   "end": 1354.63,
+   "text": "Trong khi đó, các cựu tín đồ như Leslie Van Houten và Patricia Krenwinkel, khi bóng ma tẩy não tan biến sau nhiều thập kỷ, đã phải sống trong sự dằn vặt lương tâm tột cùng."
   },
   {
    "id": "5.05#5",
    "element": "5.05",
    "act": 5,
-   "role": "H",
-   "start": 1114.85,
-   "end": 1120.17,
-   "text": "Dấu hiệu thứ hai: Hành vi tước đoạt danh tính và cô lập quan hệ gia đình."
+   "role": "C",
+   "start": 1355.58,
+   "end": 1359.58,
+   "text": "Họ hiểu rằng mình đã trao trọn tuổi trẻ và nhân cách cho một kẻ ảo tưởng."
   },
   {
    "id": "5.05#6",
    "element": "5.05",
    "act": 5,
-   "role": "H",
-   "start": 1120.82,
-   "end": 1132.94,
-   "text": "Bất kỳ ai yêu cầu bạn phải thay đổi tên gọi, cắt đứt liên lạc với cha mẹ, từ bỏ bạn bè cũ hoặc nộp toàn bộ tài sản để chứng minh lòng trung thành đều là những kẻ độc hại nguy hiểm."
+   "role": "C",
+   "start": 1360.23,
+   "end": 1369.23,
+   "text": "Thảm kịch này nhắc nhở chúng ta: Khi con người rơi vào trạng thái cô đơn và khủng hoảng ý nghĩa sống, chúng ta rất dễ trở thành con mồi cho những kẻ thao túng nhân danh tình yêu thương."
   },
   {
    "id": "5.05#7",
    "element": "5.05",
    "act": 5,
-   "role": "H",
-   "start": 1133.59,
-   "end": 1139.51,
-   "text": "Một môi trường lành mạnh luôn khuyến khích bạn gắn kết với gia đình và giữ gìn bản sắc cá nhân."
+   "role": "C",
+   "start": 1369.88,
+   "end": 1373.28,
+   "text": "Kẻ săn mồi tâm lý không bao giờ xuất hiện với cặp sừng của ác quỷ."
   },
   {
    "id": "5.05#8",
    "element": "5.05",
    "act": 5,
-   "role": "H",
-   "start": 1140.46,
-   "end": 1146.58,
-   "text": "Dấu hiệu thứ ba: Tư duy phân cực nhị nguyên Chúng ta đối đầu với Thế giới bên ngoài."
+   "role": "C",
+   "start": 1374.23,
+   "end": 1377.59,
+   "text": "Chúng luôn khoác lên mình chiếc áo của người thấu hiểu và sẻ chia."
   },
   {
-   "id": "5.05#9",
-   "element": "5.05",
+   "id": "5.07#1",
+   "element": "5.07",
    "act": 5,
    "role": "H",
-   "start": 1147.23,
-   "end": 1155.11,
-   "text": "Những tổ chức độc hại luôn gieo rắc nỗi sợ hãi về một thế giới bên ngoài đầy thù địch và suy đồi."
+   "start": 1379.89,
+   "end": 1394.01,
+   "text": "Để bảo vệ bản thân và những người thân yêu trước những chiếc bẫy thao túng tâm lý độc hại thời hiện đại, kênh Amber Eyes xin đúc kết bốn tín hiệu cảnh báo đỏ sinh tồn (Survival Red Flags) từ nguyên lý “The Gift of Fear”:"
   },
   {
-   "id": "5.05#10",
-   "element": "5.05",
+   "id": "5.07#2",
+   "element": "5.07",
    "act": 5,
    "role": "H",
-   "start": 1155.76,
-   "end": 1164.76,
-   "text": "Chúng tự nhận mình là nơi trú ẩn an toàn duy nhất, biến các thành viên thành một bầy đàn phụ thuộc hoàn toàn vào mệnh lệnh của kẻ đứng đầu."
+   "start": 1394.66,
+   "end": 1400.42,
+   "text": "Cảnh báo đỏ thứ nhất: Cảnh giác trước chiến thuật Dội bom tình cảm dồn dập."
   },
   {
-   "id": "5.05#11",
-   "element": "5.05",
+   "id": "5.07#3",
+   "element": "5.07",
    "act": 5,
    "role": "H",
-   "start": 1165.71,
-   "end": 1170.15,
-   "text": "Dấu hiệu thứ tư: Không bao giờ trao quyền phán xét lương tri cho kẻ khác."
+   "start": 1401.07,
+   "end": 1412.35,
+   "text": "Bất kỳ cá nhân hay hội nhóm nào tán dương bạn quá mức ngay lần đầu gặp gỡ và thúc ép bạn gắn kết thần tốc đều đang tìm cách vô hiệu hóa trực giác phòng vệ của bạn."
   },
   {
-   "id": "5.05#12",
-   "element": "5.05",
+   "id": "5.07#4",
+   "element": "5.07",
    "act": 5,
    "role": "H",
-   "start": 1170.8,
-   "end": 1181.32,
-   "text": "Khi một thủ lĩnh yêu cầu bạn làm những điều vi phạm pháp luật hoặc trái với lương tâm đạo đức dưới danh nghĩa một mục đích cao cả, đó chắc chắn là con đường dẫn đến vực thẳm."
+   "start": 1413.0,
+   "end": 1418.36,
+   "text": "Cảnh báo đỏ thứ hai: Hành vi cô lập xã hội và tước đoạt ranh giới riêng tư."
   },
   {
-   "id": "5.05#13",
-   "element": "5.05",
+   "id": "5.07#5",
+   "element": "5.07",
    "act": 5,
    "role": "H",
-   "start": 1181.97,
-   "end": 1186.69,
-   "text": "Lương tri của bạn là ranh giới cuối cùng mà không một ai có quyền xâm phạm."
+   "start": 1419.01,
+   "end": 1430.65,
+   "text": "Hãy lập tức thoái lui nếu ai đó yêu cầu bạn cắt đứt quan hệ với gia đình, từ bỏ bạn bè thân thiết, thay đổi danh tính cá nhân hoặc bàn giao tài chính để chứng minh sự tận tụy."
   },
   {
-   "id": "5.05#14",
-   "element": "5.05",
+   "id": "5.07#6",
+   "element": "5.07",
    "act": 5,
    "role": "H",
-   "start": 1187.64,
-   "end": 1194.64,
+   "start": 1431.3,
+   "end": 1435.46,
+   "text": "Cảnh báo đỏ thứ ba: Tư duy phân cực nhị nguyên thù địch."
+  },
+  {
+   "id": "5.07#7",
+   "element": "5.07",
+   "act": 5,
+   "role": "H",
+   "start": 1436.11,
+   "end": 1448.07,
+   "text": "Những tổ chức độc hại luôn gieo rắc nỗi sợ về một thế giới bên ngoài đầy nguy hiểm, tự tôn mình là nơi trú ẩn duy nhất để giam lỏng nhận thức của bạn trong chiếc lồng bầy đàn."
+  },
+  {
+   "id": "5.07#8",
+   "element": "5.07",
+   "act": 5,
+   "role": "H",
+   "start": 1448.72,
+   "end": 1453.92,
+   "text": "Cảnh báo đỏ thứ tư: Tuyệt đối không bao giờ trao quyền phán xét lương tri cho kẻ khác."
+  },
+  {
+   "id": "5.07#9",
+   "element": "5.07",
+   "act": 5,
+   "role": "H",
+   "start": 1454.57,
+   "end": 1465.97,
+   "text": "Khi một thủ lĩnh tự xưng yêu cầu bạn làm những điều trái với pháp luật hoặc đạo đức lương tâm nhân danh một mục đích cao cả, đó chính là bước chân đầu tiên dẫn xuống vực thẳm tha hóa."
+  },
+  {
+   "id": "5.07#10",
+   "element": "5.07",
+   "act": 5,
+   "role": "H",
+   "start": 1466.62,
+   "end": 1476.18,
+   "text": "Luôn tin vào trực giác mách bảo của bạn – bởi cảm giác bất an mơ hồ chính là món quà tiến hóa vô giá giúp bảo vệ sự an toàn của sinh mệnh."
+  },
+  {
+   "id": "5.09#1",
+   "element": "5.09",
+   "act": 5,
+   "role": "H",
+   "start": 1477.98,
+   "end": 1484.5,
    "text": "Tự do đích thực không nằm ở việc trốn chạy thực tại hay trao số phận mình cho một vị cứu tinh giả tạo."
   },
   {
-   "id": "5.05#15",
-   "element": "5.05",
+   "id": "5.09#2",
+   "element": "5.09",
    "act": 5,
    "role": "H",
-   "start": 1195.29,
-   "end": 1202.29,
-   "text": "Tự do nằm ở khả năng làm chủ suy nghĩ, giữ vững bản ngã và chịu trách nhiệm cho từng hành vi của chính mình."
+   "start": 1485.15,
+   "end": 1493.15,
+   "text": "Tự do nằm ở năng lực làm chủ tư duy, gìn giữ bản sắc cá nhân và lòng dũng cảm chịu trách nhiệm cho từng hành vi của chính mình."
   },
   {
-   "id": "5.05#16",
-   "element": "5.05",
+   "id": "5.09#3",
+   "element": "5.09",
    "act": 5,
    "role": "H",
-   "start": 1202.94,
-   "end": 1207.7,
-   "text": "Cảm ơn quý vị đã đồng hành cùng Amber Eyes trong tập hồ sơ ngày hôm nay."
+   "start": 1493.8,
+   "end": 1502.36,
+   "text": "Cảm ơn các chuyên gia đã đồng hành bóc tách hồ sơ lịch sử đầy ám ảnh ngày hôm nay, và cảm ơn quý vị khán giả đã lắng nghe đến những phút cuối cùng."
   },
   {
-   "id": "5.05#17",
-   "element": "5.05",
+   "id": "5.09#4",
+   "element": "5.09",
    "act": 5,
    "role": "H",
-   "start": 1208.35,
-   "end": 1213.35,
-   "text": "Hãy bấm đăng ký kênh và chia sẻ suy nghĩ của bạn ở phần bình luận bên dưới."
-  },
-  {
-   "id": "5.05#18",
-   "element": "5.05",
-   "act": 5,
-   "role": "H",
-   "start": 1214.7,
-   "end": 1217.98,
-   "text": "Xin chào và hẹn gặp lại quý vị trong những tập tiếp theo."
+   "start": 1503.01,
+   "end": 1513.89,
+   "text": "Hãy luôn giữ cho mình một tâm trí tỉnh táo, biết lắng nghe trực giác và trân trọng sự bình yên của cuộc sống; xin chào và hẹn gặp lại quý vị trong những hồ sơ tiếp theo."
   }
  ],
  "markers": [
@@ -1444,138 +1804,168 @@
    "type": "BGM",
    "id": "1.01",
    "at": 23.0,
-   "desc": "*Tiếng guitar acoustic mộc mạc mang âm hưởng thập niên 60 chậm rãi trôi qua, rồi dần biến dạng méo mó thành một giai điệu u tối, lạnh lẽo.*"
+   "desc": "Tiếng guitar acoustic mộc mạc mang âm hưởng thập niên sáu mươi chậm rãi trôi qua, rồi dần biến dạng méo mó thành một giai điệu u tối, lạnh lẽo."
   },
   {
    "type": "SFX",
    "id": "1.03",
-   "at": 61.84,
-   "desc": "*Tiếng đàn hát du ca xa xăm, tiếng sóng biển rì rào rồi bị cắt ngang bởi tiếng còi xe cảnh sát rít xé màn đêm.*"
+   "at": 60.76,
+   "desc": "Tiếng đàn hát du ca xa xăm, tiếng sóng biển rì rào rồi bị cắt ngang bởi tiếng còi xe cảnh sát rít xé màn đêm."
   },
   {
-   "type": "SFX",
+   "type": "NGHI",
    "id": "1.05",
-   "at": 84.82,
-   "desc": "*Tiếng gió rít qua rặng thông trên đồi cao, tiếng bước chân lén lút trên sỏi đá.*"
+   "start": 111.75,
+   "end": 113.25,
+   "desc": "tiếng kim đồng hồ tích tắc khô khốc"
   },
   {
    "type": "SFX",
    "id": "1.08",
-   "at": 181.84,
-   "desc": "*Tiếng lên đạn lách cách, tiếng khóa cửa sắt dồn dập trong đêm.*"
+   "at": 200.13,
+   "desc": "Tiếng lên đạn lách cách, tiếng chèn then cửa gỗ dồn dập trong đêm."
   },
   {
    "type": "BGM",
-   "id": "1.12",
-   "at": 250.43,
-   "desc": "*Âm nhạc dâng cao kịch tính rồi ngắt nhịp bằng một tiếng gõ kim loại sắc lạnh.*"
+   "id": "1.11",
+   "at": 272.35,
+   "desc": "Tiếng Cello trầm buồn trỗi dậy kết hợp tiếng gõ kim loại sắc lạnh."
   },
   {
    "type": "ACT",
    "act": 2,
-   "start": 250.43,
-   "end": 252.43
+   "start": 308.87,
+   "end": 310.87
   },
   {
    "type": "BGM",
    "id": "2.01",
-   "at": 252.43,
-   "desc": "*Giai điệu Dark Ambient căng thẳng, nhịp bass dồn dập kết hợp tiếng gió sa mạc khô khốc.*"
+   "at": 310.87,
+   "desc": "Nhạc Dark Ambient u ám, tiếng gió sa mạc khô khốc quét qua những bờ đá cằn cỗi."
   },
   {
    "type": "SFX",
    "id": "2.03",
-   "at": 276.07,
-   "desc": "*Tiếng cửa gỗ cọt kẹt đu đưa trong gió, tiếng vó ngựa xa xăm trên nền đất khô cằn.*"
+   "at": 347.01,
+   "desc": "Tiếng cửa gỗ cọt kẹt đung đưa trong gió sa mạc, tiếng bước chân lạo xạo trên cát sỏi."
   },
   {
    "type": "NGHI",
-   "id": "2.12",
-   "start": 500.76,
-   "end": 501.76,
-   "desc": "tiếng guitar bass rền rĩ u uất"
+   "id": "2.07",
+   "start": 519.6,
+   "end": 521.1,
+   "desc": "tiếng thở dài căng thẳng"
   },
   {
    "type": "ACT",
    "act": 3,
-   "start": 501.76,
-   "end": 503.76
+   "start": 658.65,
+   "end": 660.65
   },
   {
    "type": "BGM",
    "id": "3.01",
-   "at": 503.76,
-   "desc": "*Âm nhạc chuyển sang giai điệu Piano tối giản, u tối và đầy tính phân tích tâm lý học.*"
+   "at": 660.65,
+   "desc": "Nhạc Minimalist Piano rải những nốt trầm u tối, không gian âm thanh mang tính chất một ca phẫu thuật tâm lý học xã hội."
   },
   {
-   "type": "BGM",
-   "id": "3.11",
-   "at": 742.29,
-   "desc": "*Một nốt trầm kéo dài rồi rơi vào im lặng buốt giá.*"
+   "type": "NGHI",
+   "id": "3.04",
+   "start": 734.85,
+   "end": 736.35,
+   "desc": "tiếng Piano trầm đục ngân dài"
+  },
+  {
+   "type": "NGHI",
+   "id": "3.09",
+   "start": 884.9,
+   "end": 886.4,
+   "desc": "nốt trầm lắng đọng"
   },
   {
    "type": "ACT",
    "act": 4,
-   "start": 742.29,
-   "end": 744.29
+   "start": 932.93,
+   "end": 934.93
   },
   {
    "type": "BGM",
    "id": "4.01",
-   "at": 744.29,
-   "desc": "*Âm thanh vĩ cầm căng thẳng, giằng xé, tái hiện cuộc đấu trí pháp lý lịch sử tại phòng xử án Los Angeles.*"
+   "at": 934.93,
+   "desc": "Tiếng đàn vĩ cầm căng thẳng, dồn dập và nghẹt thở, tái hiện bầu không khí đối đầu pháp lý lịch sử tại phòng xử án Los Angeles."
   },
   {
    "type": "SFX",
    "id": "4.06",
-   "at": 837.3,
-   "desc": "*Tiếng máy ảnh chớp nháy lách tách dồn dập, tiếng xôn xao bàn tán của đám đông.*"
-  },
-  {
-   "type": "BGM",
-   "id": "4.12",
-   "at": 967.68,
-   "desc": "*Một nốt trầm kéo dài rồi rơi vào im lặng buốt giá.*"
+   "at": 1073.84,
+   "desc": "Tiếng máy ảnh chớp nháy dồn dập, tiếng gõ búa tòa án \"Cộp... Cộp... Cộp\" chấn động."
   },
   {
    "type": "ACT",
    "act": 5,
-   "start": 967.68,
-   "end": 969.68
+   "start": 1232.98,
+   "end": 1234.98
   },
   {
    "type": "BGM",
    "id": "5.01",
-   "at": 969.68,
-   "desc": "*Nhạc nền chuyển sang giai điệu Piano trầm lắng, ấm áp nhưng trang nghiêm và suy tư.*"
+   "at": 1234.98,
+   "desc": "Tiếng đàn Piano trầm ấm, sâu lắng và trang nghiêm, mở ra không gian suy tưởng triết học và đúc kết bài học sinh tồn."
+  },
+  {
+   "type": "NGHI",
+   "id": "5.03",
+   "start": 1283.28,
+   "end": 1284.78,
+   "desc": "tiếng Piano trầm lắng"
+  },
+  {
+   "type": "NGHI",
+   "id": "5.06",
+   "start": 1377.89,
+   "end": 1379.89,
+   "desc": "nốt nhạc Piano dâng lên nhẹ nhàng"
+  },
+  {
+   "type": "NGHI",
+   "id": "5.08",
+   "start": 1476.48,
+   "end": 1477.98,
+   "desc": ""
+  },
+  {
+   "type": "SFX",
+   "id": "5.10",
+   "at": 1514.19,
+   "desc": "Tiếng đóng tập hồ sơ vụ án vang lên tiếng \"Cạch\" dứt khoát, theo sau là tiếng tắt máy ghi âm."
   },
   {
    "type": "BGM",
-   "id": "5.06",
-   "at": 1219.48,
-   "desc": "*Nhạc nền ngân vang ấm áp, trang trọng rồi mờ dần (Fade out hoàn toàn ở giây thứ 5).*"
+   "id": "5.11",
+   "at": 1514.19,
+   "desc": "Nhạc nền Piano ngân vang ấm áp, trang trọng năm giây rồi từ từ nhỏ dần và tắt hẳn (Fade out)."
   }
  ],
  "acts": {
   "1": [
    23.0,
-   250.43
+   308.87
   ],
   "2": [
-   252.43,
-   501.76
+   310.87,
+   658.65
   ],
   "3": [
-   503.76,
-   742.29
+   660.65,
+   932.93
   ],
   "4": [
-   744.29,
-   967.68
+   934.93,
+   1232.98
   ],
   "5": [
-   969.68,
-   1219.48
+   1234.98,
+   1514.19
   ]
  }
 }

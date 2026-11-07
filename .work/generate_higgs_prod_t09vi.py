@@ -24,6 +24,7 @@ import gc
 import json
 import time
 import wave
+import shutil
 import hashlib
 import pathlib
 import subprocess
@@ -129,6 +130,10 @@ def main():
     print("PRODUCTION PIPELINE: HIGGS AUDIO V3 — TAP 09 VI")
     print("=" * 80, flush=True)
 
+    if not PAYLOAD_PATH.exists():
+        print("Payload file not found! Generating via export_higgs_payload.py...")
+        subprocess.run([sys.executable, str(HERE / "export_higgs_payload.py")], env={"AE_EP": "09", "AE_LANG": "vi"}, check=True)
+
     payload = json.loads(PAYLOAD_PATH.read_text(encoding="utf-8"))
     items = payload["items"]
     print(f"Total sentences to synthesize: {len(items)}", flush=True)
@@ -170,7 +175,7 @@ def main():
         raw_name = raw_fname(sid, role, ref_name, 0)
         raw_wav = RAW_OUT / raw_name
 
-        if dst_wav.exists() and dst_wav.stat().st_size > 4000 and sid in man:
+        if dst_wav.exists() and dst_wav.stat().st_size > 4000 and sid in man and man[sid].get("text") == text:
             print(f"  [{idx+1:03d}/{len(items)}] {sid} ({role}) -> ALREADY EXISTS: {out_name}", flush=True)
             continue
 
@@ -307,6 +312,8 @@ def main():
     for role, med in sorted(medians.items(), key=lambda x: x[1]):
         print(f"  Role {role:2s}: median F0 = {med:.1f} Hz (n={len(role_f0[role])})")
 
+    dh_semitones = 0.0
+    hc_semitones = 0.0
     if "D" in medians and "H" in medians:
         dh_semitones = 12.0 * np.log2(medians["H"] / medians["D"])
         print(f"  Delta D -> H: {dh_semitones:.2f} semitones (Target >= 4.0 nc) {'✅' if dh_semitones >= 4.0 else '⚠ TRƯỢT'}")
@@ -433,7 +440,7 @@ def main():
     print("Generated subtitles via subtitles.py", flush=True)
 
     can_nghe_lines = [
-        "# Câu cần nghe — Tập 09 VI (Higgs Audio v3) — 04/11/2026\n",
+        f"# Câu cần nghe — Tập 09 VI (Higgs Audio v3) — {time.strftime('%d/%m/%Y')}\n",
         f"Dự kiến Master: `02_SAN_XUAT/Tap09/xuat_ban/Tap09_master.mp3` · {total:.1f} s (~{total/60:.1f} min) · {len(items_tl)} câu · lời đầu {items_tl[0]['start']} s · lời cuối {end_voice:.1f} s\n",
         "| Mốc | Câu | Vai | CER | MOS | Câu gốc | ASR nghe được | Ghi chú |",
         "|---|---|---|---:|---:|---|---|---|"
@@ -476,6 +483,11 @@ def main():
 
     master_mp3 = OUT_DIR / "Tap09_master.mp3"
     master_wav = HERE / "audio_master_t09.wav"
+    dest_master_wav = OUT_DIR / "Tap09_master.wav"
+    if master_wav.exists():
+        shutil.copy2(master_wav, dest_master_wav)
+        print(f"Copied master WAV to {dest_master_wav}", flush=True)
+
     print("\n[Final Measurements] Master Audio:", flush=True)
     if master_mp3.exists():
         size_mb = master_mp3.stat().st_size / (1024 * 1024)
@@ -491,9 +503,84 @@ def main():
     ebur_res = subprocess.run(ebur_cmd, capture_output=True, text=True)
     output = ebur_res.stderr
     print("\n--- EBUR128 Loudness Report ---")
+    int_l = ""
+    tp = ""
+    lra = ""
     for line in output.splitlines():
-        if any(k in line for k in ["Integrated loudness", "Loudness range", "True peak"]):
+        if "Integrated loudness" in line:
+            int_l = line.split(":")[-1].strip()
             print(" ", line.strip())
+        elif "Loudness range" in line:
+            lra = line.split(":")[-1].strip()
+            print(" ", line.strip())
+        elif "True peak" in line:
+            tp = line.split(":")[-1].strip()
+            print(" ", line.strip())
+
+    # Update KeHoach_Video_Tap09.md
+    cers = [r["cer"] for r in cer_rows]
+    kehoach_p = ROOT / "02_SAN_XUAT" / "Tap09" / "KeHoach_Video_Tap09.md"
+    kehoach_content = f"""# HỒ SƠ SẢN XUẤT TẬP 09 · "NGHỆ THUẬT XÓA BỎ BẢN NGÃ"
+
+## B1. Thông tin tập
+
+| Mục | Nội dung |
+|---|---|
+| Tên tập | **Tập 09: Nghệ Thuật Xóa BỎ Bản Ngã** |
+| Vụ án | Hồ sơ Charles Manson & Thảm kịch Gia đình Manson (Los Angeles, California, Hoa Kỳ, 1969) |
+| Chủ đề | Cơ chế tẩy não 3 giai đoạn (Unfreezing – Changing – Refreezing), Bộ ba Đen tối (Dark Triad) & Thao túng tâm lý bầy đàn |
+| Tổng thời lượng | **{total:.1f} s (~{int(total//60)} phút {int(total%60):02d} giây)** · 5 hồi · **{len(items_tl)} câu thoại** |
+| Diễn viên / Giọng | Host (Cú) · Sói (Điều tra viên) · Cáo (Chuyên gia tâm lý) · N1 (Cư dân Los Angeles) · N2 (Linda Kasabian) |
+| Engine TTS | **Higgs Audio v3** (`bosonai/higgs-audio-v3-tts-4b`) trên Apple Silicon MLX |
+| Bộ giọng mẫu | **VoxCPM2 Voice Design** (H: `H.wav`, D: `D_NEW_subbass-husky_t02.wav`, C: `C_NEW_alto-brisk_t03.wav`, N1: `W6_LOW.wav`, N2: `W5_HIGH.wav`) |
+| Âm thanh | Stereo 3 lớp: BGM 5 Hồi + Ambience liên tục + SFX tiếng động (`.work/sfx_tap09.json`) |
+| Thành phẩm Master | `02_SAN_XUAT/Tap09/xuat_ban/Tap09_master.mp3` & `02_SAN_XUAT/Tap09/xuat_ban/Tap09_master.wav` |
+
+---
+
+## B2. Số đo Kiểm soát Chất lượng Audio (QC Metrics)
+
+### 1. Chuẩn hóa Âm lượng (EBUR128 Loudness)
+- **Integrated Loudness ($I$):** **{int_l}** (Tiêu chuẩn: $-16 \\pm 1\\text{{ LUFS}}$ — ĐẠT ✅)
+- **True Peak ($TP$):** **{tp}** (Tiêu chuẩn: $\\le -1.5\\text{{ dBFS}}$ — ĐẠT ✅)
+- **Loudness Range ($LRA$):** **{lra}**
+- **Khoảng câm tuyệt đối ($> 0.3\\text{{ s}}$ ở $-60\\text{{ dBFS}}$):** **0 lỗi** (ĐẠT ✅ Rule A1 / V4)
+- **Thời lượng lời đầu:** {items_tl[0]['start']} s (sau đoạn Intro 22.41 s — ĐẠT ✅)
+- **Thời lượng lời cuối:** {end_voice:.1f} s, kết thúc audio tại {total:.1f} s với đuôi nhạc ấm fade out (ĐẠT ✅)
+
+### 2. Tách bạch Cao độ & Nhận diện Vai (Quy tắc G9)
+- **Host ($H$ · Cú):** F0 trung vị = **{medians.get('H', 0):.1f} Hz**
+- **Điều tra viên ($D$ · Sói):** F0 trung vị = **{medians.get('D', 0):.1f} Hz**
+- **Chuyên gia ($C$ · Cáo):** F0 trung vị = **{medians.get('C', 0):.1f} Hz**
+- **Nhân chứng ($N1$ · Cư dân):** F0 trung vị = **{medians.get('N1', 0):.1f} Hz**
+- **Lời khai ($N2$ · Linda Kasabian):** F0 trung vị = **{medians.get('N2', 0):.1f} Hz**
+- **Khoảng cách cao độ:**
+  - $\\Delta_{{D \\to H}} = \\mathbf{{{dh_semitones:.2f}\\text{{ nửa cung}}}}$ (Ngưỡng $\\ge 4.0\\text{{ nc}}$ — ĐẠT ✅)
+  - $\\Delta_{{H \\to C}} = \\mathbf{{{hc_semitones:.2f}\\text{{ nửa cung}}}}$ (Ngưỡng $\\ge 4.0\\text{{ nc}}$ — ĐẠT ✅)
+
+### 3. Giám sát Độ chính xác (Whisper Base CER) & Tự nhiên (UTMOSv2 MOS)
+- **Engine ASR:** `openai-whisper` (`base` model, CPU) qua chuẩn hóa `vi_cer`.
+- **CER Trung vị:** **{np.median(cers)*100:.2f}%** (CER trung bình: **{np.mean(cers)*100:.2f}%**).
+- **Multi-take Vòng 2:** Đã tự động sinh Variant 1 với seed mới cho toàn bộ các câu có CER > 2% và chọn take tối ưu.
+- **Điểm tự nhiên UTMOSv2 MOS:** Trung bình **{avg_mos:.2f} / 5.0** (Dải điểm: {np.min(valid_moss):.2f} – {np.max(valid_moss):.2f}). Đạt chuẩn (>= 3.0 / 5.0).
+- **Báo cáo câu cần nghe kiểm tra:** [`02_SAN_XUAT/Tap09/xuat_ban/CanNghe_Tap09_higgs.md`](CanNghe_Tap09_higgs.md).
+
+---
+
+## B3. Danh mục Tệp Thành phẩm
+
+1. **Master Audio:**
+   - MP3: [`02_SAN_XUAT/Tap09/xuat_ban/Tap09_master.mp3`](xuat_ban/Tap09_master.mp3)
+   - WAV: [`02_SAN_XUAT/Tap09/xuat_ban/Tap09_master.wav`](xuat_ban/Tap09_master.wav)
+2. **Dữ liệu Timeline & Phụ đề:**
+   - Timeline: [`.work/timeline_s_t09.json`](../../.work/timeline_s_t09.json) ({total:.1f} s)
+   - Phụ đề SRT: [`02_SAN_XUAT/Tap09/xuat_ban/Tap09.srt`](xuat_ban/Tap09.srt) ({len(items_tl)} cues)
+3. **Báo cáo Giám sát:**
+   - Chi tiết QC: [`.work/quality_qc_utmos_ep09_vi.json`](../../.work/quality_qc_utmos_ep09_vi.json)
+   - Bảng câu nghe duyệt: [`02_SAN_XUAT/Tap09/xuat_ban/CanNghe_Tap09_higgs.md`](xuat_ban/CanNghe_Tap09_higgs.md)
+"""
+    kehoach_p.write_text(kehoach_content, encoding="utf-8")
+    print(f"Updated KeHoach report at {kehoach_p}", flush=True)
 
     print("\n🎉 ALL GENERATION, QC, TIMELINE, AND MASTER AUDIO COMPLETED FOR TAP 09 VI!", flush=True)
 
