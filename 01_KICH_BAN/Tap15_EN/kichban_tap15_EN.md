@@ -252,11 +252,11 @@ All physical evidence and telecommunication records pointed inexorably toward a 
 Prosecutor Juan Martinez wielded these forensic facts relentlessly, cornering the defendant during blistering cross-examinations.
 The entire self-defense claim was unmasked as an eleventh-hour attempt to evade the ultimate penalty under the law.
 
-**[SFX]:** The judge’s wooden gavel strikes authoritatively three times "Bang... bang... bang", murmurs ripple through the gallery.
+**[SFX]:** The judge’s wooden gavel strikes three times with authoritative finality, murmurs ripple through the gallery.
 
 **INVESTIGATOR** *(recounting the judicial climax)*:
 The 2013 trial of Jodi Arias transformed into a global media phenomenon, drawing millions of viewers across worldwide digital broadcasts.
-Her hubris reached its zenith during a 2008 television broadcast where she boldly proclaimed: ‘No jury will convict me... because I am innocent.’
+Her hubris reached its zenith during a 2008 television broadcast where she boldly proclaimed: ‘No jury will convict me, because I am innocent.’
 The defendant went so far as to auction artwork from her jail cell, seeking to sustain public notoriety throughout the proceedings.
 Nevertheless, judicial truth could not be subverted by media sensationalism or curated courtroom dramatics.
 On May 8, 2013, following days of intense deliberation, the jury rendered a momentous verdict awaited by the entire nation.

@@ -183,7 +183,7 @@ Hắn từng gặp hai tai nạn liên tiếp trong thời thơ ấu: một lầ
 Theo các tư liệu y khoa pháp y, những chấn thương này đã gây ra các cơn co giật động kinh kéo dài suốt nhiều năm niên thiếu.
 Nhiều nhà nghiên cứu thần kinh học nhận định rằng tổn thương vùng thùy trán và thùy thái dương có thể làm suy giảm nghiêm trọng khả năng kiểm soát xung động và ức chế hành vi hung tính.
 Yếu tố thứ hai là sự bạo hành gia đình tàn nhẫn từ người cha, một cựu công nhân đường sắt có tính khí cộc cằn và thường xuyên dùng vũ lực với con cái.
-Để trốn tránh những trận đòn roi, cậu bé Ramirez thường xuyên bỏ trốn khỏi nhà và ngủ qua đêm tại các nghĩa địa địa phương, hình thành thói quen rình rập và cô lập xã hội.
+Để trốn tránh những trận đòn roi, cậu bé Ramirez thường xuyên bỏ trốn khỏi nhà và ngủ qua đêm tại các nghĩa trang trong vùng, hình thành thói quen rình rập và cô lập xã hội.
 Nhưng bước ngoặt tâm lý mang tính hủy diệt nhất xuất hiện khi người anh họ Miguel Ramirez, một cựu binh chiến tranh trở về từ nước ngoài, bước vào cuộc đời hắn.
 Người anh họ này liên tục kể cho cậu bé Ramirez nghe những câu chuyện bạo lực thời chiến và bình thường hóa hành vi tước đoạt sinh mạng như một biểu hiện của sức mạnh.
 Đỉnh điểm của cú sốc tâm lý là vào năm mười ba tuổi, Ramirez đã tận mắt chứng kiến người anh họ nổ súng sát hại chính người vợ của mình ngay trong một cuộc cãi vã gia đình.

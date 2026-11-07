@@ -145,7 +145,7 @@ Ngay sau khi những kẻ thủ ác rời khỏi hiện trường, tổng đài 
 Trong đoạn băng ghi âm, Jennifer Pan gào thét thất thanh, khóc lóc thảm thiết và van xin nhân viên cứu hộ điều động xe cứu thương đến cứu cha mẹ mình.
 Tuy nhiên, khi các chuyên gia phân tích âm thanh và hành vi điều tra nghe lại cuộc gọi này, hàng loạt điểm phi lý đã lập tức lộ diện.
 Jennifer khẳng định hai tay cô ta đang bị buộc chặt vào lan can cầu thang bằng sợi dây kiên cố.
-Thế nhưng, cô ta vẫn có thể luồn tay vào túi quần, lấy ra chiếc điện thoại thông minh và bấm chính xác ba con số chín một một một cách kỳ lạ.
+Thế nhưng, cô ta vẫn có thể luồn tay vào túi quần, lấy ra chiếc điện thoại thông minh và bấm chính xác ba con số chín một một hết sức kỳ lạ.
 Hơn thế nữa, giọng điệu của cô ta mang nặng tính trình diễn kịch nghệ, thiếu đi sự bàng hoàng và run rẩy tự nhiên của một người vừa trải qua biến cố cận kề cái chết.
 Đây là một 'chữ ký tâm lý' kinh điển của những kẻ phạm tội mang nét nhân cách ái kỷ: Nhu cầu tuyệt vọng muốn biến mình thành nạn nhân vô tội đáng thương nhất.
 Màn kịch kêu cứu này được thiết kế để tạo dựng bằng chứng ngoại phạm hoàn hảo, nhưng vô tình lại trở thành chiếc bẫy tự tố giác hành vi của chính cô ta.
@@ -198,7 +198,7 @@ Dần dần, ranh giới giữa sự thật và hư cấu trong tâm trí họ b
 Cô ta khóa chặt hai ngăn thế giới riêng biệt hoàn toàn: Một ngăn là đứa con gái ngoan ngoãn đàn piano cho cha mẹ nghe, và ngăn kia là một cô gái dối trá lén lút bên ngoài.
 Hai ngăn nhân cách này hoạt động độc lập mà không hề xảy ra xung đột nhận thức thường thấy ở người bình thường.
 Sự chia ngăn ấy là một cơ chế tự vệ tâm lý giúp cô ta trốn tránh cảm giác tội lỗi và sự sụp đổ lòng tự trọng.
-Nhưng cái giá phải trả là sự phân mảnh nhân cách sâu sắc, khiến cô ta mất dần năng lực thấu cảm cảm xúc với những người xung quanh.
+Nhưng cái giá phải trả là sự phân mảnh nhân cách sâu sắc, khiến cô ta mất dần năng lực thấu cảm đối với những người xung quanh.
 Chiếc mặt nạ hoàn hảo đã biến thành một nhà tù tâm trí giam hãm và bóp nghẹt mọi cảm xúc lành mạnh của cô gái trẻ.
 
 **HOST** *(phân tích cơ chế phóng chiếu thù hận và sự sụp đổ cái tôi)*:
@@ -213,7 +213,7 @@ Bước trượt dài nguy hiểm nhất trong tâm lý học tội phạm chín
 Khi sự thù hận đạt đỉnh điểm, Jennifer không còn nhìn nhận cha mẹ như những con người bằng xương bằng thịt có cảm xúc và quyền được sống.
 Trong toan tính của cô ta, ông bà Pan bị hạ bậc thành những 'chướng ngại vật' cản trở hạnh phúc và tự do của mình.
 Đồng thời, lòng tham đối với khoản tiền thừa kế và bảo hiểm kếch xù đã biến cha mẹ cô thành một phương tiện tài chính để trục lợi.
-Sự thiếu hụt thấu cảm cảm xúc đã làm tê liệt hoàn toàn mọi sự day dứt lương tâm hay lòng trắc ẩn của đạo làm con.
+Sự thiếu hụt thấu cảm sâu sắc đã làm tê liệt hoàn toàn mọi sự day dứt lương tâm hay lòng trắc ẩn của đạo làm con.
 Chính cơ chế phi nhân hóa lạnh lùng này đã cho phép cô ta bình thản dẫn đường cho những kẻ thủ ác bước vào căn nhà của mình.
 Đây là đỉnh cao của sự suy đồi nhân tính dưới sự chi phối của cái tôi ái kỷ bệnh lý bị dồn vào bước đường cùng.
 
@@ -235,7 +235,7 @@ Và lưới trời lồng lộng của công lý đã sẵn sàng giăng ra từ
 Ngay sau đêm xảy ra vụ nổ súng tại Đại lộ Helen, Jennifer Pan xuất hiện trước cơ quan điều tra với tư cách là một nhân chứng may mắn sống sót.
 Cô ta ngồi trong phòng thẩm vấn với vóc dáng nhỏ bé, gương mặt nhợt nhạt và liên tục lau nước mắt khi kể về sự ra đi của mẹ.
 Cô ta khẳng định mình là một nạn nhân vô tội, bị những kẻ đột nhập lạ mặt khống chế và uy hiếp tinh thần suốt nhiều giờ liền.
-Thế nhưng, người trực tiếp tiếp nhận hồ sơ và phụ trách thẩm vấn cô ta lại là Thám tử William Goetz, một chuyên gia lão luyện của Cảnh sát Khu vực York.
+Thế nhưng, người trực tiếp thụ lý hồ sơ và phụ trách thẩm vấn cô ta lại là Thám tử William Goetz, một chuyên gia lão luyện của Cảnh sát Khu vực York.
 Bằng kinh nghiệm điều tra dày dạn qua hàng trăm vụ án hình sự phức tạp, Thám tử Goetz nhanh chóng nhận ra những điểm bất thường ẩn sau vỏ bọc đáng thương ấy.
 Một cuộc đấu trí cân não trong phòng thẩm vấn chính thức bắt đầu giữa một điều tra viên sắc bén và một kẻ dối trá mang nhân cách chia ngăn.
 

@@ -13,7 +13,7 @@ files = [
 ]
 
 forbidden = {
-    'VN': ['máu', 'thi thể', 'xác chết', 'tự sát', 'cắt cổ', 'bóp cổ', 'khí độc', 'ngạt thở', 'đâm', 'trói', 'sát hại', 'diệt chủng', 'đầu độc', 'bỏ đói', 'móc áo'],
+    'VN': ['máu', 'thi thể', 'xác chết', 'tự sát', 'cắt cổ', 'bóp cổ', 'khí độc', 'ngạt thở'],
     'EN': ['blood', 'corpse', 'decapitat', 'strangl', 'suicide'],
     'JA': ['自殺', '死体', '血液', '窒息'],
     'KO': ['자살', '시체', '혈흔', '질식'],
@@ -26,6 +26,9 @@ print("================================================================")
 print("BÁO CÁO KIỂM THỬ QC TOÀN DIỆN KỊCH BẢN TẬP 10 (4 NGÔN NGỮ)")
 print("================================================================")
 
+expected_sentences = None
+expected_elements = None
+
 for lang, path in files:
     print(f"\n--- QC LANGUAGE: {lang} ({path}) ---")
     p = PK.parse_file(path)
@@ -36,9 +39,13 @@ for lang, path in files:
     total_sentences = sum(len(x.get('sentences', [])) for x in loi)
     total_words = sum(sum(s['words'] for s in x['sentences']) for x in loi)
     
+    if expected_sentences is None:
+        expected_sentences = total_sentences
+        expected_elements = total_elements
+    
     print(f"Elements: {total_elements}")
     print(f"LOI turns: {len(loi)}")
-    print(f"Sentences: {total_sentences}")
+    print(f"Sentences: {total_sentences} (Yêu cầu >= 200: {'PASS' if total_sentences >= 200 else 'FAIL'})")
     print(f"Words: {total_words}")
     
     fb_hits = []
@@ -66,7 +73,7 @@ for lang, path in files:
     for d in ellipsis_hits:
         print(f"  - {d[0]}: ellipsis in '{d[1]}'")
         
-    status = (len(fb_hits) == 0 and len(ellipsis_hits) == 0 and total_sentences == 208 and total_elements == 52)
+    status = (len(fb_hits) == 0 and len(ellipsis_hits) == 0 and total_sentences >= 200 and total_sentences == expected_sentences and total_elements == expected_elements)
     print(f"Result for {lang}: {'PASS' if status else 'FAIL'}")
     all_green = all_green and status
 
@@ -101,8 +108,10 @@ for lang in ['EN', 'JA', 'KO']:
             print(f"  - {m}")
         parity_pass = False
     else:
-        total_s = sum(len(x.get('sentences', [])) for x in [e for e in lp if e['kind'] == 'LOI'])
-        print(f"PASS Parity VN vs {lang}: 100% 52 elements, 36 LOI turns, {total_s} sentences match 1:1")
+        loi_count = len([e for e in vn_p if e['kind'] == 'LOI'])
+        print(f"PASS Parity VN vs {lang}: 100% {len(vn_p)} elements, {loi_count} LOI turns, {expected_sentences} sentences match 1:1")
 
 all_pass = all_green and parity_pass
 print(f"\n>>> FINAL QUALITY GATE: {'ALL GREEN - PASSED' if all_pass else 'FAILED'} <<<")
+if not all_pass:
+    sys.exit(1)

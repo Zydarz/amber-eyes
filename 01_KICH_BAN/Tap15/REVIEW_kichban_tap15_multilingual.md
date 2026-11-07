@@ -91,8 +91,22 @@ Toàn bộ 10 chỉ dấu đã được rà soát đối chiếu chéo trong c�
 
 ---
 
-## 3. Kết luận thẩm định
+## 3. Kết quả rà soát chính tả & quy chuẩn kỹ thuật âm thanh
+
+Đã thực hiện kiểm định tự động toàn diện qua các công cụ `.work/_spellcheck_tap15.py` và `.work/_qc_all_4scripts_tap15.py`:
+
+| Ngôn ngữ | Kiểm tra chính tả & Spacing | Lỗi dấu câu / Kết câu | Quy tắc G1 (Chấm lửng `...`) | Quy tắc V9 (Từ cấm bạo lực) | Trạng thái |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| **VN** | 0 lỗi telex, 0 lỗi dấu thanh, 0 lặp từ | 100% kết thúc bằng `.?!` | 0 vi phạm (0 chấm lửng) | 0 từ cấm | ✅ **100% PASS** |
+| **EN** | 0 typo (Pyspellchecker + Whitelist) | 100% kết thúc bằng `.?!` | Đã chuẩn hóa câu `4.10#2` (dùng dấu phẩy `,` và trích dẫn `‘...’`) | 0 từ cấm | ✅ **100% PASS** |
+| **JA** | 0 typo Kanji/Kana, 0 double space | 100% kết thúc bằng `。！？「」` | 0 vi phạm (0 chấm lửng) | 0 từ cấm | ✅ **100% PASS** |
+| **KO** | 0 typo Hangul, 0 lỗi 띄어쓰기 | 100% kết thúc bằng `.?!` | 0 vi phạm (0 chấm lửng) | 0 từ cấm | ✅ **100% PASS** |
+
+---
+
+## 4. Kết luận thẩm định
 
 1. **Parity 1:1:** Khớp 100% giữa 4 ngôn ngữ VN, EN, JA, KO về số Hồi (5), số Element (63), số câu (203), số lượt thoại (36), và mốc thời gian nghỉ.
 2. **Quy tắc an toàn V9 & A9.2:** Hoàn toàn sạch từ cấm, không chứa nội dung bạo lực kích động (0 lỗi trên cả 4 ngôn ngữ).
-3. **Sẵn sàng sản xuất:** Hồ sơ kịch bản đã sẵn sàng cho các công đoạn tiếp theo (Diễn xuất & Tổng hợp âm thanh TTS).
+3. **Quy tắc âm thanh G1:** 0 dấu chấm lửng giữa câu trên cả 4 ngôn ngữ.
+4. **Sẵn sàng sản xuất:** Hồ sơ kịch bản đã sẵn sàng cho các công đoạn tiếp theo (Diễn xuất & Tổng hợp âm thanh TTS).

@@ -13,7 +13,7 @@
 | **Sentence Count** | 220 sentences (1:1 parity with Vietnamese master script) |
 | **Estimated Runtime** | 26 – 28 minutes (5 acts + dramatic musical interludes) |
 | **Soundtrack (BGM)** | Dark Ambient religious atmosphere, Grim church organ, Minimalist piano paired with suspenseful electronic drone. |
-| **Voice Allocation** | - **Host (~48%):** Warm, deep baritone.<br>- **Investigator (~25%):** Sharp, authoritative tenor.<br>- **Psychologist (~20%):** Calm, analytical female voice.<br>- **Ordinary Person (~7%):** N1 (Jean Phillips, Act 1); N2 (Wanda Flanery, Act 4). |
+| **Voice Allocation** | - **Host (~48%):** Warm, deep baritone.<br>- **Investigator (~25%):** Sharp, authoritative tenor.<br>- **Psychologist (~20%):** Calm, analytical female voice.<br>- **Ordinary Person (~7%):** N1 (Jean Phillips, Act 1); N2 (Wanda Flannery, Act 4). |
 
 ---
 
@@ -80,7 +80,7 @@ Forensic examinations confirmed that all victims had been systematically killed 
 The perpetrator meticulously executed the killings sequentially throughout that single day to prevent any coordinated resistance.
 In an upstairs third-floor attic apartment, investigators located the deceased eighty-four-year-old mother, Alma List.
 The geometric alignment of the bodies inside the grand ballroom unmistakably reflected the rigid order and ritualistic mindset of the killer.
-On his study desk, detectives recovered an extraordinary five-page handwritten letter addressed to his pastor, the Reverend Edward Reiss.
+On his study desk, detectives recovered an extraordinary five-page handwritten letter addressed to his pastor, the Reverend Eugene Rehwinkel.
 In that document, John List coldly argued that he ended their lives to 'send their souls to heaven' before poverty and moral decay corrupted them.
 The confession concluded with a chilling theological rationale: he had to remain alive to seek eventual divine absolution before his own death.
 
@@ -253,9 +253,9 @@ On May 21, 1989, the special investigative segment on John List aired nationwide
 Frank Bender's bust, donning those signature heavy horn-rimmed glasses, filled television screens alongside an urgent appeal for civilian leads.
 Within hours of the broadcast concluding, the America's Most Wanted call centers were completely flooded with hundreds of tips from coast to coast.
 Among that deluge of calls, one extraordinary communication from Denver, Colorado immediately seized the undivided attention of federal investigators.
-A woman named Wanda Flanery called the hotline, her voice trembling in utter, breathless astonishment.
+A woman named Wanda Flannery called the hotline, her voice trembling in utter, breathless astonishment.
 She asserted that the bust broadcast on television was the spitting image of her former next-door neighbor in Colorado, an accountant named Robert Clark.
-According to Wanda Flanery, this man was an exceptionally pious churchgoer who had recently relocated with his wife to the state of Virginia.
+According to Wanda Flannery, this man was an exceptionally pious churchgoer who had recently relocated with his wife to the state of Virginia.
 
 **[SFX]:** *Sudden screech of FBI sedan brakes, followed by the firm click and swing of a corporate accounting office glass door.*
 
@@ -266,7 +266,7 @@ On June 1, 1989, precisely eleven days following the television broadcast, FBI s
 Facing law enforcement was an elderly gentleman wearing the identical vintage horn-rimmed eyeglasses, bearing an uncanny resemblance to Bender's clay bust.
 Even in that moment, the man maintained an eerie, polite composure, steadfastly denying the name John List and insisting he was Robert Clark.
 
-**ORDINARY PERSON** *(N2: Wanda Flanery — former Colorado neighbor, female voice conveying profound shock and conviction)*:
+**ORDINARY PERSON** *(N2: Wanda Flannery — former Colorado neighbor, female voice conveying profound shock and conviction)*:
 Imagine the paralyzing psychological shock that hit me as I sat before the television screen that fateful Sunday night.
 When Frank Bender's bust materialized on the screen, my hair stood on end because it matched our former neighbor Bob Clark down to the minutest detail.
 Throughout the years we lived beside each other in Denver, Bob appeared to everyone as an exceptionally polite, quiet gentleman who tended his lawn diligently and never missed church.

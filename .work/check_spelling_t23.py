@@ -47,11 +47,15 @@ for lang, path in scripts.items():
     # 3. Từ lặp từ liền kề
     if lang in ["VN", "EN"]:
         repeated = re.findall(r'\b([a-zA-ZàáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđĐ]{3,})\s+\1\b', text, re.IGNORECASE)
-        if repeated:
-            print(f"  ⚠️ Từ lặp liền kề: {repeated}")
-            issues_found += len(repeated)
+        # Bỏ qua các từ láy hoặc từ tượng thanh tự nhiên trong tiếng Việt
+        VN_LEGIT_REPEATED = {"chằm", "dần", "bíp", "song", "ngày", "đêm", "ròng"}
+        filtered = [w for w in repeated if w.lower() not in VN_LEGIT_REPEATED]
+        if filtered:
+            print(f"  ⚠️ Từ lặp bất thường: {filtered}")
+            issues_found += len(filtered)
         else:
-            print(f"  ✅ Từ lặp: Không có từ lặp bất thường")
+            print(f"  ✅ Từ lặp: Chuẩn (0 lỗi lặp bất thường, các từ láy '{', '.join(set(repeated))}' là tự nhiên)")
+
 
     # 4. Khoảng trắng trước dấu câu trong lời thoại (LOI)
     lines = text.splitlines()

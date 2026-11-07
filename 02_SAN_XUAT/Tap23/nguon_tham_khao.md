@@ -1,10 +1,25 @@
-# NGUỒN THAM KHẢO & ĐỐI CHIẾU DỮ KIỆN — ÁM ẢNH 'NIGHT STALKER' & BÍ ẨN HỘI CHỨNG SAY MÊ TỘI PHẠM (HỒ SƠ RICHARD RAMIREZ)
+📚 TỔNG HỢP NGUỒN THAM KHẢO HỒ SƠ TẬP 23 (RICHARD RAMIREZ — NIGHT STALKER)
+Amber eyes tuân thủ nguyên tắc đối chiếu đa nguồn từ hồ sơ tư pháp công khai của Tòa Thượng thẩm California và các cơ quan điều tra:
 
-Toàn bộ các mốc thời gian, nhân vật, địa danh, quy trình điều tra và phán quyết tư pháp trong hồ sơ vụ án **Ramirez** đã được đối chiếu chéo với các nguồn tài liệu chính thống của cơ quan điều tra, bản án tòa án và báo chí chính luận có uy tín.
+1. Hồ sơ tòa án & Phán quyết tư pháp chính thức:
+• Tòa Thượng thẩm Bang California (Hạt Los Angeles) — Hồ sơ vụ án People of the State of California v. Richard Ramirez (Case No. A704401).
+• Biên bản tuyên án tử hình (Thẩm phán Michael Tynan, 11/1989) kết tội 43 tội danh (13 tội giết người, 5 tội âm mưu giết người, 11 tội tấn công bạo lực, 14 tội trộm cắp).
+• Cục Quản lý Cải huấn và Phạm nhân Bang California (CDCR) — Hồ sơ tử tù Richard Ramirez (#E35200) tại Nhà tù Bang San Quentin và Giấy chứng tử Bệnh viện Đa khoa Marin (7/6/2013).
 
-| Dữ kiện trong kịch bản | Nội dung đối chiếu kiểm chứng | Nguồn tham chiếu chính thức | Trạng thái |
-|---|---|---|:---:|
-| **Chuỗi đột nhập đẫm máu 1984–1985** | Ramirez thực hiện hàng loạt vụ đột nhập, sát hại ít nhất 13 người và tấn công hàng chục người tại Los Angeles và San Francisco. | LAPD Night Stalker Task Force Files | **Chính xác 100%** |
-| **Dấu vân tay trên xe Station Wagon** | Ngày 28/08/1985, cảnh sát phục hồi một dấu vân tay trên gương chiếu hậu chiếc Toyota bị bỏ lại, khớp với hồ sơ lưu của Ramirez. | Báo cáo Pháp y Dấu vân tay LASD | **Chính xác 100%** |
-| **Bị người dân bao vây bắt giữ** | Sáng 31/08/1985, khi Ramirez xuất hiện tại khu phố Đông Los Angeles, người dân nhận ra mặt trên báo và cùng nhau vây bắt. | Biên bản bắt giữ LAPD | **Chính xác 100%** |
-| **Hiện tượng Hybristophilia trong tù** | Ramirez nhận hàng ngàn thư tình từ phụ nữ khắp thế giới và kết hôn với một người hâm mộ (Doreen Lioy) trong tù năm 1996. | Hồ sơ Nhà tù Bang San Quentin | **Chính xác 100%** |
+2. Báo cáo điều tra thực địa & Bằng chứng kỹ thuật số:
+• Sở Cảnh sát Hạt Los Angeles (LASD - Homicide Bureau) & Sở Cảnh sát Los Angeles (LAPD) — Báo cáo chuyên án điều tra Night Stalker Task Force (Thám tử Gil Carrillo & Thám tử Frank Salerno).
+• Báo cáo vận hành công nghệ nhận dạng vân tay tự động (AFIS) của Bang California khớp dấu vân tay trên xe Toyota station wagon (8/1985).
+• Báo cáo bắt giữ chính thức tại Phố Hubbard, Đông Los Angeles (31/8/1985) và hồ sơ lời khai nhân chứng cộng đồng.
+
+3. Tư liệu điều tra báo chí & Tác phẩm chuyên khảo:
+• Philip Carlo — Tác phẩm tư liệu điều tra kinh điển 'The Night Stalker: The Life and Crimes of Richard Ramirez' (Kensington/Citadel Press).
+• Los Angeles Times & San Francisco Chronicle — Kho tư liệu báo chí điều tra hiện trường và phóng sự phòng xử án giai đoạn 1984–1989.
+
+4. Tâm lý học hành vi & Pháp y:
+• Hội chứng Say mê Tội phạm (Hybristophilia / Bonnie & Clyde Syndrome) — Nghiên cứu tâm thần học pháp y của John Money & Sheila Isenberg ('Women Who Love Men Who Kill').
+• Khái niệm Tội phạm hỗn hợp (Mixed Offender), Tổn thương não bộ thời thơ ấu (Frontal & Temporal Lobe Damage), Cơ chế Chia ngăn nhận thức (Compartmentalization) & 'The Gift of Fear' (Gavin de Becker).
+
+5. Đường dây nóng hỗ trợ & bảo vệ:
+• Tổng đài Quốc gia Bảo vệ Trẻ em 111 (Việt Nam, miễn phí 24/7): http://tongdai111.vn/
+• Đường dây nóng Ngày Mai (Hỗ trợ khủng hoảng tâm lý): 096 306 1414
+• Đường dây nóng phòng chống bạo lực gia đình: 1900 969 680

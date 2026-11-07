@@ -324,7 +324,7 @@ The atrocities of extremist groups do not commence with violence, but with the m
 Compassion divorced from vigilant critical discernment can easily be manipulated into serving devastating cruelty.
 
 **HOST** *(warm, profound, sharing 4 survival red flags and sign-off)*:
-To empower you and your loved ones to recognize and dismantle coercive manipulation in modern life, Amber Eyes highlights four vital survival red flags drawn from the Jonestown dossier.
+To empower you and your loved ones to recognize and dismantle coercive manipulation in modern life, Amber eyes highlights four vital survival red flags drawn from the Jonestown dossier.
 First Red Flag: Enforced isolation from established social support networks.
 Any organization, relationship, or community requiring you to sever ties with family, lifelong friends, or external news represents an immediate danger.
 They deliberately sever your anchor to objective reality to make themselves your sole source of validation and identity.
@@ -343,9 +343,9 @@ When a subtle inner alarm sounds regarding a situation that seems too flawless, 
 No genuine moral ideal ever requires you to compromise your dignity, your freedom, or your life.
 The most sacred freedom of human existence remains your capacity for independent thought and the courage to defend your personal boundaries.
 Episode 12 on the Jonestown tragedy concludes here with our deepest reverence for the nine hundred and eighteen innocent souls.
-Thank you for joining Amber Eyes on this profound exploration of forensic criminal psychology.
+Thank you for joining Amber eyes on this profound exploration of forensic criminal psychology.
 If you found this analysis valuable, please like the video, subscribe to the channel, and share your thoughts in the comments below.
 May you always navigate life with vigilant awareness, clarity, and peace.
-Farewell, and we look forward to welcoming you in our next psychological dossier on Amber Eyes.
+Farewell, and we look forward to welcoming you in our next psychological dossier on Amber eyes.
 
 **[BGM]:** *Music swells with warmth and solemn dignity, fading out completely at the fifth second.*

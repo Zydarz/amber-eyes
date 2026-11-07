@@ -332,7 +332,7 @@ It warned society that treacherous cages require no iron bars, being built inste
 Cameron Hooker“s subsequent parole petitions over the decades have been repeatedly rejected, confirming justice”s unwavering resolve against human subjugation.
 
 **HOST** *(transitioning to key survival takeaways)*:
-To safeguard ourselves and those we cherish against predatory manipulation, Amber Eyes distills four survival red flags from this history, grounded in Gavin de Becker's “The Gift of Fear”.
+To safeguard ourselves and those we cherish against predatory manipulation, Amber eyes distills four survival red flags from this history, grounded in Gavin de Becker's “The Gift of Fear”.
 First red flag: Beware the “Halo Effect” and seemingly harmless veneers.
 The most dangerous manipulators rarely project overt hostility, masking themselves behind warm families, innocent children, or excessive courtesy to disarm vigilance.
 Second red flag: Recognize tactics of spatial isolation and information starvation.
@@ -344,7 +344,7 @@ Never dismiss the subtle physiological warning signals that your subconscious co
 The most formidable prison is never a wooden box under a bed, but the surrendered belief that one is powerless before adversity.
 Always honor that quiet intuition of unease within you, for intuition is nature's primal survival gift shielding us from danger.
 True freedom is not merely stepping out of a dark room, but having the courage to break the invisible shackles that manipulate the human soul.
-Thank you for joining Amber Eyes in this profound forensic and psychological journey today.
+Thank you for joining Amber eyes in this profound forensic and psychological journey today.
 Please subscribe to the channel, enable notifications, and share your perspectives in the comments below.
 Until our next case, stay vigilant and farewell.
 

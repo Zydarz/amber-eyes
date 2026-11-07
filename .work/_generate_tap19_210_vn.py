@@ -133,7 +133,7 @@ Hắn nhận thức rõ đúng sai, biết rõ hậu quả pháp lý, nhưng đ�
 **HOST** *(phân tích cuộc đối thoại gia đình đầy xúc động)*:
 Đòn tâm lý tiếp theo của cơ quan điều tra diễn ra khi người em trai Zachary Cruz được đưa vào phòng để gặp mặt anh trai.
 Khác hẳn với vẻ ngoài vô cảm trước cái chết của mười bảy nạn nhân, Cruz lập tức bật khóc nức nở khi nhìn thấy người thân duy nhất còn lại.
-Hai anh em ôm chồm lấy nhau, và trong khoảnh khắc đó, sự phân chia ngăn cách nhận thức của hung thủ bộc lộ rõ rệt hơn bao giờ hết.
+Hai anh em ôm chầm lấy nhau, và trong khoảnh khắc đó, sự phân chia ngăn cách nhận thức của hung thủ bộc lộ rõ rệt hơn bao giờ hết.
 Zachary đau đớn gặng hỏi: 'Tại sao anh lại làm như vậy và hủy hoại cuộc đời của bao nhiêu con người cùng chính gia đình chúng ta?'.
 Đáp lại sự chất vấn tuyệt vọng của em trai, Cruz lại một lần nữa viện cớ: 'Anh xin lỗi, con quỷ trong đầu đã ép anh làm điều đó'.
 Zachary kiên quyết lắc đầu bác bỏ: 'Không, đừng đổ lỗi cho bất kỳ thứ gì khác, đó là do chính anh đã làm, anh phải đối mặt với sự thật'.
@@ -150,7 +150,7 @@ Từng lời nói, từng kế hoạch di chuyển và phương thức gây án 
 
 **HOST** *(tổng kết sự đối lập giữa MO và Signature)*:
 Thủ đoạn gây án và dấu ấn tâm lý của Nikolas Cruz qua đó đã được phân tách một cách vô cùng rành mạch.
-Về mặt thủ đoạn, hắn chuẩn bị áo gi-lê chiến thuật, giấu súng trong bao đàn guitar, bắt xe dịch vụ đến trường và cố tình giật chuông báo cháy để gom các nạn nhân lại.
+Về mặt thủ đoạn, hắn chuẩn bị áo vest chiến thuật, giấu súng trong bao đàn guitar, bắt xe dịch vụ đến trường và cố tình kéo chuông báo cháy để gom các nạn nhân lại.
 Sau khi gây án, hắn bình thản tháo bỏ trang bị, đi bộ đến một cửa hàng thức ăn nhanh gần đó để mua nước uống trước khi bị bắt.
 Ngược lại, dấu ấn tâm lý bất biến của hắn là khao khát bệnh hoạn được cả thế giới chú ý và ghi nhớ tên tuổi một cách tiêu cực.
 Hắn thần tượng hóa các vụ bạo lực học đường trong quá khứ, coi những kẻ thủ ác tiền nhiệm như những hình mẫu để noi theo.
@@ -330,7 +330,7 @@ Sự im lặng và thói quen bình thường hóa các nguy cơ chính là mả
 *01* · **CẢNH BÁO ĐỎ 1 — HIỆN TƯỢNG RÒ RỈ Ý ĐỊNH BẠO LỰC (LEAKAGE).**
 Kẻ tấn công hầu như luôn vô tình hoặc cố ý tiết lộ kế hoạch gây hại cho người khác trước khi thực hiện.
 Những dấu hiệu này thường xuất hiện dưới dạng các phát ngôn đe dọa trên mạng xã hội, các bài viết ám chỉ cái chết hoặc những lời thách thức ngấm ngầm.
-Đừng bao giờ xem nhẹ bất kỳ lời đe dọa nào như một trò đùa bông đùa của lứa tuổi học trò.
+Đừng bao giờ xem nhẹ bất kỳ lời đe dọa nào như một trò bông đùa của lứa tuổi học trò.
 Hãy lập tức thông báo cho ban giám hiệu hoặc cơ quan chức năng khi phát hiện những thông điệp mang tính hủy diệt.
 *02* · **CẢNH BÁO ĐỎ 2 — SỰ ÁM ẢNH BỆNH HOẠN VỚI VŨ KHÍ VÀ BẠO LỰC CỰC ĐOAN (FIXATION).**
 Đối tượng dành phần lớn thời gian để tìm hiểu, sưu tầm và tôn sùng các vụ thảm kịch lịch sử trong quá khứ.
