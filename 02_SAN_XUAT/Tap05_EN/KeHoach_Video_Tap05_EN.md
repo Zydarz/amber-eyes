@@ -37,7 +37,7 @@
 | Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
 |---|---|---|---|---|---|---|---|---|
 | 1-00 | `1.01`–`1.02` (20.5 s → lời đầu) | — | T1 | `t5_wichita_skyline_dusk` hiện dần từ đen | *ACT 01 · THE RESURFACED LETTER AFTER 13 YEARS OF SILENCE* | Typewriter clicks & winter wind | ⊘ |  |
-| 1-01 | `1.03#1`–`#2` | H | T5 ngày | `t5_wichita_skyline_dusk` | **19 · 03 · 2004** · *Wichita, Kansas · United States* | Typewriter sound | ✦ Cú |  |
+| 1-01 | `1.03#1`–`#2` | H | T5 ngày | `t5_wichita_skyline_dusk` | **MARCH 19 · 2004** · *Wichita, Kansas · United States* | Typewriter sound | ✦ Cú |  |
 | 1-02 | `1.03#3` | H | T1 | `t5_eagle_newsroom_night` | **PHOTOCOPY OF VICKI WEGERLE'S DRIVER'S LICENSE** · *A woman murdered in 1986 in an unsolved cold case* | — | 🅑 |  |
 | 1-03 | `1.03#4` | H | T1 | `t5_manila_envelope_polaroids` | **THE THREE-INITIAL SIGNATURE** · “B-T-K” · *Three initials that haunted the American Midwest for decades* | — | 🅑 |  |
 | 1-04 | `1.03#5` | H | T2 | `t5_btk_signature_letter` | *A CHILLING PROCLAMATION* · **THE SERIAL PREDATOR WAS OFFICIALLY BACK** | Stamp on "B-T-K" | ⊘ |  |
@@ -100,7 +100,7 @@
 | 3-20 | `3.10#3` | H | T1 | `t5_winter_home_depot` | **ONE OF THE MOST FAMOUS TECHNICAL BLUNDERS IN FORENSIC HISTORY** · *That blind hubris propelled Rader straight into the snare* | — | ⊘ |  |
 | 3-21 | `3.10#4` | H | T1 | `t5_detective_war_room` | *LET US RETURN TO THE INVESTIGATOR* · **THE FATEFUL DUEL OVER THE PURPLE FLOPPY DISK** | — | →D |  |
 | 3-22 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *ACT 04* · **THE INTERROGATION & THE DIGITAL FORENSIC TRAP** | — | ⊘ | ◼ |
-| 4-01 | `4.02#1`–`#3` | H | T5 ngày | `t5_winter_home_depot` | **EARLY 2005** · *Following several provocative packages sent to local newsrooms, Rader conceived a new scheme* → `#2`: *He wished to modernize his communications: transmitting digital computer files* → `#3`: *At age fifty-nine, Rader remained profoundly illiterate about digital technology* | Tiếng gió đông & quạt server | ✦ Cú |  |
+| 4-01 | `4.02#1`–`#3` | H | T5 ngày | `t5_winter_home_depot` | **EARLY 2005** · *Following several provocative packages sent to local newsrooms, Rader conceived a new scheme* → `#2`: *He wished to modernize his communications* → `#3`: *At age fifty-nine, Rader remained profoundly illiterate about digital technology* | Tiếng gió đông & quạt server | ✦ Cú |  |
 | 4-02 | `4.02#4` | H | T5 ngày | `t5_winter_home_depot` | **LATE JANUARY 2005** · *Rader slipped a cereal box into the bed of a parked pickup at a Home Depot lot in Wichita* | Tiếng gió đông & quạt server | ✦ Cú |  |
 | 4-03 | `4.02#5` | H | T1 | `t5_cereal_box_pickup` | **INSIDE THE CEREAL BOX** · *A handwritten note addressed directly to detectives* | — | 🅑 |  |
 | 4-04 | `4.02#6`–`#8` | H | T1 | `t5_handwritten_note_floppy` | **AN ASTOUNDINGLY NAIVE QUESTION** · “Can I communicate with a floppy disk and not have it traced to a computer? Be honest.” → `#8`: *He instructed police to reply via a coded classified advertisement in The Wichita Eagle* | — | ⊘ | →D |
@@ -126,7 +126,7 @@
 | 4-24 | `4.15#1`–`#3` | N2 | T4 lời kể | `t5_kerri_rawson_tears`, `still` | “The whole world sees him as a monster, but to me, he was the devoted father who raised me.” → `#3`: “When FBI agents knocked on my apartment door and revealed that my father was BTK, the earth vanished beneath my feet.” | Tiếng bật cassette `4.15#1` | ✦ Kerri |  |
 | 4-25 | `4.15#4`–`#6` | N2 | T4 lời kể | `t5_kerri_rawson_tears`, `still` | “The deepest agony was not merely shock, but the ultimate betrayal of trust.” → `#5`: “How could I ever reconcile that the man who kissed me goodnight was the demon terrorizing countless families?” | Tiếng bật cassette `4.15#1` | ✦ Kerri |  |
 | 4-26 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *ACT 05* · **THE VERDICT, RED FLAGS & CLOSING THOUGHTS** | — | ⊘ | ◼ |
-| 5-01 | `5.02#1`–`#3` | H | T5 ngày | `t5_sedgwick_courtroom` | **18 · 08 · 2005** · *Sedgwick County District Court · Judge Gregory Waller* | Tiếng búa tòa án gõ 3 tiếng `5.01` | ✦ Cú |  |
+| 5-01 | `5.02#1`–`#3` | H | T5 ngày | `t5_sedgwick_courtroom` | **AUGUST 18 · 2005** · *Sedgwick County District Court · Judge Gregory Waller* | Tiếng búa tòa án gõ 3 tiếng `5.01` | ✦ Cú |  |
 | 5-02 | `5.02#4` | H | T1 | `t5_judge_gavel_verdict`, `push` | **PATHOLOGICAL SELF-PITY** · *Devoid of genuine remorse for the bereaved families* | Sub-drop ở "175 năm" | ⊘ |  |
 | 5-03 | `5.02#5`–`#7` | H | T1 | `t5_el_dorado_prison` | **EL DORADO CORRECTIONAL FACILITY** · *Completely isolated from society until his final breath* | — | ⊘ |  |
 | 5-04 | `5.03` (nghỉ 1.5 s) | — | — | giữ 5-03 | — | — | ⊘ |  |

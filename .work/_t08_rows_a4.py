@@ -1,0 +1,142 @@
+# -*- coding: utf-8 -*-
+"""Bảng shot Tập 08 — HỒI 4."""
+
+ACT4 = [
+    ("4-01", "`4.02#1`–`#2`", "H", "T1", "`t8_concrete_cell_isolation`, `pull`",
+     "*Bên trong các khu trại khép kín của giáo phái Aum, các tín đồ bị cô lập hoàn toàn với thế giới bên ngoài. Họ bị tịch thu toàn bộ giấy tờ tùy thân, cắt đứt liên lạc với cha mẹ và không được tiếp cận bất kỳ nguồn tin tức độc lập nào.*",
+     "*Inside Aum's closed monastic camps, disciples remained completely isolated from the outside world. Passports and identification cards were confiscated, communications with parents were severed, and access to independent news was forbidden.*",
+     "*オウム真理教の閉鎖的な修行施設において、信徒たちは外界から完全に遮断されていました。身分証明書はすべて没収され、親族との連絡は断たれ、独自の客観的ニュースに触れることは一切禁じられていました。*",
+     "—", "—", ""),
+
+    ("4-02", "`4.02#3`–`#4`", "H", "T1", "`t8_malnutrition_solitary_bowl`, `still`",
+     "*Nhưng thủ đoạn tàn độc nhất nhằm triệt tiêu ý chí tự do chính là kỹ thuật làm suy kiệt thể xác có hệ thống. Các thành viên chỉ được phép ngủ hai đến ba tiếng mỗi ngày và phải duy trì chế độ ăn uống vô cùng kham khổ thiếu chất dinh dưỡng.*",
+     "*Yet the most sinister weapon utilized to crush independent will was systematic physical exhaustion. Followers were restricted to merely two or three hours of sleep nightly while enduring severe caloric restriction and malnutrition.*",
+     "*しかし、個人の自由意志を根底から奪い去る最も残虐な手法は、組織的な肉体的消耗のテクニックでした。信徒たちは1日にわずか2時間から3時間の睡眠しか許されず、栄養失調状態に陥る粗食を強要されました。*",
+     "—", "—", ""),
+
+    ("4-03", "`4.02#5`", "H", "T1", "`t8_frontal_lobe_brain_scan`, `pan`",
+     "*Khi cơ thể rơi vào trạng thái kiệt quệ kéo dài, vùng vỏ não trước trán phụ trách tư duy phản biện và phán đoán logic sẽ suy giảm nghiêm trọng, khiến con người trở nên phục tùng tuyệt đối.*",
+     "*When the human brain experiences chronic exhaustion, the prefrontal cortex governing critical judgment and moral reasoning shuts down, inducing unquestioning obedience.*",
+     "*人体が慢性的な極度の疲労状態に置かれると、批判的思考と倫理的判断を司る前頭前野の機能が低下し、無条件の服従状態が生み出されるのです。*",
+     "—", "—", ""),
+
+    ("4-04", "`4.03#1`–`#2`", "D", "T1", "`t8_psi_headgear_electrodes`, `still`",
+     "*Hồ sơ điều tra đã làm sáng tỏ những thiết bị kỳ dị mà giáo phái sử dụng để thao túng não bộ của các đệ tử. Chúng phát minh ra một chiếc mũ gắn đầy điện cực mang tên PSI và bắt các tín đồ phải đội liên tục nhiều giờ liền.*",
+     "*Police records exposed bizarre technological devices deployed by cult leadership to manipulate follower neurochemistry. They constructed an electrode-lined headpiece named PSI, mandating that disciples wear it for hours on end.*",
+     "*捜査記録は、教団中枢が信徒の脳内環境を操作するために用いた奇怪な装置の実態を暴き出しました。彼らは無数の電極を取り付けたヘッドギア「PSI」を開発し、信徒たちに毎日何時間も装着することを義務付けました。*",
+     "—", "✦ Sói", ""),
+
+    ("4-05", "`4.03#3`–`#4`", "D", "T1", "`t8_hallucinogen_ritual_hall`, `pull`",
+     "*Giáo phái rêu rao rằng thiết bị này sẽ đồng bộ hóa sóng não của người đội với tần số sóng não của giáo chủ, và thu phí hàng nghìn đô la mỗi tháng cho mỗi chiếc mũ. Ngoài ra, cảnh sát còn phát hiện giáo phái bí mật sử dụng các loại chất gây ảo giác cực mạnh như LSD và thuốc hướng thần trong các nghi lễ kín trong bóng tối.*",
+     "*The cult claimed this contraption synchronized the wearer's brainwaves with the guru's transcendent frequencies, charging thousands of dollars monthly per device. Furthermore, forensic teams discovered that the cult secretly administered potent hallucinogens like LSD and psychotropics during nocturnal rituals.*",
+     "*教団はこの器具によって脳波が教祖の周波数と同調すると宣伝し、機器の使用料として毎月数千ドルもの大金を巻き上げていたのです。さらに警察の捜査により、教団が暗闇で行われる秘密儀式においてLSDや向精神薬を極秘に投与していた事実が判明しました。*",
+     "—", "—", ""),
+
+    ("4-06", "`4.03#5`", "D", "T1", "`t8_bio_incubator_pathogens`, `still`",
+     "*Dưới tác động của hóa chất và sự suy kiệt thần kinh, các trí thức trẻ thực sự tin rằng họ đã nhìn thấy hào quang của đấng cứu thế và hoàn toàn mất đi khả năng hoài nghi.*",
+     "*Under chemical intoxication and sensory deprivation, young intellectuals genuinely hallucinated divine auras around Asahara, losing any remaining skepticism.*",
+     "*薬物の作用と神経の極度の消耗下で、若き知識人たちは教祖の周囲に光り輝く後光を幻視し、あらゆる疑念を完全に喪失していきました。*",
+     "—", "—", ""),
+
+    ("4-07", "`4.04#1`", "H", "T9 thuật ngữ", "`t8_poa_twisted_doctrine`, `still`",
+     "**Poa** *(Tibetan Phowa — Chuyển di tâm thức)*",
+     "**Poa** *(Tibetan Phowa — Consciousness Transference)*",
+     "**ポア** *(チベット密教・意識転移)*",
+     "—", "—", ""),
+
+    ("4-08", "`4.04#2`", "H", "T1", "`t8_buddhist_mandala_distortion`, `pull`",
+     "*Trong truyền thống Phật giáo Tây Tạng, Poa là một pháp môn thiền định thanh tịnh giúp chuyển di tâm thức khi cận tử.*",
+     "*In traditional Tibetan Buddhism, Phowa is a sacred meditation practice concerning conscious spiritual transference at the threshold of natural death.*",
+     "*チベット仏教の伝統において、「ポア（意識の転移）」とは死に際して意識を清浄な境地へ導くための神聖な瞑想法です。*",
+     "—", "—", ""),
+
+    ("4-09", "`4.04#3`–`#4`", "H", "T4 trích dẫn", "`t8_broken_hippocratic_oath`, `still`",
+     "*Thế nhưng Asahara đã đánh tráo khái niệm thiêng liêng ấy thành một học thuyết biện minh cho hành vi tước đoạt mạng sống con người. Hắn biến một tội ác tàn bạo thành một hành động được ngụy trang dưới vỏ bọc đạo đức cao cả.*",
+     "*Asahara weaponized this ancient spiritual concept into a murderous theological license to extinguish human life. He disguised cold-blooded homicide beneath the sacred veneer of supreme spiritual mercy.*",
+     "*しかし麻原はこの神聖な概念を意図的に歪曲し、人命を奪う殺人を正当化するための神学理論へと仕立て上げたのです。彼は冷酷な大量殺人を、崇高な慈悲の仮面の下に巧みに偽装しました。*",
+     "—", "—", ""),
+
+    ("4-10", "`4.05#1`–`#2`", "C", "T1", "`t8_apocalypse_prophecy_scroll`, `pull`",
+     "*Asahara rao giảng rằng thế giới thực tại đã bị ô uế và sắp sửa bước vào cuộc chiến tranh hạt nhân hủy diệt toàn nhân loại. Hắn tuyên bố rằng những người bình thường nếu tiếp tục sống sẽ chỉ tích tụ thêm ác nghiệp và chắc chắn phải đọa vào cõi địa ngục.*",
+     "*Asahara preached that secular society was irreparably corrupted and hurtling toward an inevitable nuclear Armageddon. He asserted that ordinary civilians, by continuing to live in ignorance, were accumulating disastrous spiritual karma that would plunge them into hell.*",
+     "*麻原は、現実社会は完全に穢れており、人類を破滅させる核戦争へと直進していると説き続けました。彼は、一般市民はこのまま生き続ければ悪業を積み重ね、死後は確実に地獄へ落ちることになると主張したのです。*",
+     "—", "✦ Cáo", ""),
+
+    ("4-11", "`4.05#3`–`#4`", "C", "T1", "`t8_devotion_altar_kneeling`, `still`",
+     "*Do đó, việc chấm dứt sinh mạng của họ trước khi họ kịp phạm thêm tội lỗi không phải là một tội ác, mà là một hành vi đại từ bi để giải thoát linh hồn họ. Đây chính là đỉnh cao của Kỹ thuật Trung hòa đạo đức và Ngắt kết nối lương tâm.*",
+     "*Consequently, terminating their physical lives before they accumulated further karmic debt was framed not as murder, but as an act of absolute compassion. This represents the absolute zenith of Moral Disengagement and cognitive neutralization techniques.*",
+     "*したがって、彼らがさらなる罪を重ねる前に現世での命を絶ってやることは殺人ではなく、魂を救う「究極的な慈悲」であると論理をすり替えました。これこそが、「道徳的中和の技術」と良心の切断の極致です。*",
+     "—", "—", ""),
+
+    ("4-12", "`4.05#5`–`#6`", "C", "T1", "`t8_moral_rationalization_books`, `pan`",
+     "*Bằng cách đảo ngược hoàn toàn chuẩn mực thiện ác, hung thủ tin rằng đôi tay mình đã làm việc thiện cứu rỗi nạn nhân. Đồng thời, cơ chế ngoại hóa trách nhiệm khiến họ tin rằng mọi hành động của mình chỉ là công cụ thực thi ý chí của Đấng tối cao.*",
+     "*By completely inverting universal ethics, perpetrators genuinely believed their hands were executing holy deeds to rescue their victims. Simultaneously, displacement of responsibility convinced them that they were mere instruments carrying out the absolute will of the Supreme Master.*",
+     "*普遍的な倫理基準を完全に反転させることで、実行犯たちは自らの手が「相手を救済する善行」を行っていると思い込まされました。同時に、「責任の外在化」によって、自らの行為はすべて絶対的な教祖の神聖な意志を執行する道具に過ぎないと信じ込ませたのです。*",
+     "—", "—", ""),
+
+    ("4-13", "`4.06#1`–`#2`", "H", "T1", "`t8_dr_hayashi_umbrella_subway`, `still`",
+     "*Chính sự ngụy biện ma quỷ ấy đã làm tê liệt hoàn toàn lương tâm của Bác sĩ Ikuo Hayashi, người từng đứng đầu một khoa tim mạch uy tín. Vào buổi sáng ngày 20 tháng 3, chính đôi bàn tay từng cứu sống hàng nghìn bệnh nhân đã dùng đầu ô chọc thủng hai túi sarin trên tuyến tàu Chiyoda.*",
+     "*That demonic theological inversion paralyzed the moral compass of Doctor Ikuo Hayashi, formerly chief of a prestigious cardiology ward. On the morning of March 20, the very hands trained to heal punctured two sarin bags on the Chiyoda subway line.*",
+     "*この邪悪な神学的詭弁によって良心を麻痺させられたのが、高名な心臓病専門医であった林郁夫医師でした。3月20日の朝、かつて数え切れない命を救ったまさにその両手で、彼は千代田線の車内で2つのサリン袋を傘で突き刺しました。*",
+     "—", "—", ""),
+
+    ("4-14", "`4.06#3`", "H", "T4 trích dẫn", "`t8_tokyo_court_witness_stand`, `pull`",
+     "*Hãy lắng nghe khoảnh khắc người đàn ông ấy đối diện với chính mình trước vành móng ngựa.*",
+     "*Listen to how that broken man confronted his shattered soul before the Tokyo District Court.*",
+     "*その男が東京地方裁判所の法廷で自らの魂と向き合った、痛切な瞬間をお聞きください。*",
+     "—", "→N2", ""),
+
+    ("4-15", "`4.08#1`–`#2`", "N2", "T4 lời kể", "`t8_grand_courtroom_proceedings`, `still`",
+     "*Trước tòa án, tôi không tìm kiếm bất kỳ sự tha thứ nào cho bản thân mình. Tôi từng là một bác sĩ với lời thề bảo vệ sự sống con người bằng mọi giá.*",
+     "*Standing before this court, I do not seek any forgiveness for myself. I was a medical doctor who swore a solemn oath to protect human life at all costs.*",
+     "*この法廷に立つにあたり、私は自分自身へのいかなる許しも求めません。私はかつて、いかなる代償を払っても人の命を守ることを誓った医師でした。*",
+     "—", "✦ Mèo", ""),
+
+    ("4-16", "`4.08#3`–`#5`", "N2", "T1", "`t8_tokyo_court_witness_stand`, `pull`",
+     "*Vậy mà tôi đã để cho giáo lý mù quáng làm tê liệt lý trí, để rồi gây ra nỗi đau đớn không thể cứu vãn cho những đồng bào vô tội. Khi nhìn vào mắt của thân nhân các nạn nhân, tôi hiểu rằng không có sự cứu rỗi nào dành cho tội lỗi của mình ngoài việc thành khẩn khai báo toàn bộ sự thật. Tôi quỳ xuống xin nhận mọi sự trừng phạt nghiêm khắc nhất của pháp luật.*",
+     "*Yet I allowed a twisted ideology to blind my conscience, inflicting irreversible agony upon innocent fellow human beings. Looking into the grief-stricken eyes of the victims' families, I know there is no salvation for my guilt other than confessing the absolute truth. I kneel before the court and submit to the most severe punishment under the law.*",
+     "*それにもかかわらず、私は狂気の教義に理性を奪われ、無実の同胞に回復不能な苦痛を与えてしまいました。被害者遺族の皆様の悲痛な瞳を見つめるとき、真実のすべてを包み隠さず告白すること以外に、私の罪の償いはないと痛感しています。私は法廷に膝を屈し、法による最も重い裁きを受ける覚悟です。*",
+     "—", "—", ""),
+
+    ("4-17", "`4.09#1`–`#2`", "H", "T1", "`t8_tokyo_court_gavel_strike`, `still`",
+     "*Lời khai thành khẩn và chi tiết của Bác sĩ Hayashi đã trở thành chìa khóa quyết định giúp cơ quan điều tra bóc trần toàn bộ cơ cấu vận hành ngầm của giáo phái. Thế nhưng, một biến cố bạo lực khác đã xảy ra ngay trước mắt công chúng.*",
+     "*Doctor Hayashi's courageous, detailed confession provided investigators with the indispensable breakthrough needed to unravel Aum's criminal syndicate. Yet another violent shockwave struck directly before the public eye.*",
+     "*林医師の真摯で詳細な供述は、捜査機関が教団の闇の組織構造の全容を解明するための決定的な突破口となりました。しかし、国民の目の前でさらなる凶悪事件が勃発しました。*",
+     "—", "—", ""),
+
+    ("4-18", "`4.09#3`", "H", "T1", "`t8_murai_assassination_cameras`, `pan`",
+     "*Ngày 23 tháng 4 năm 1995, nhà vật lý Hideo Murai, nhân vật số hai của Aum, đã bị ám sát ngay trước ống kính truyền hình bên ngoài trụ sở Tokyo nhằm bịt đầu mối bí mật vũ khí.*",
+     "*On April 23, 1995, cult science minister Hideo Murai was stabbed to death before live television cameras outside Aum's Tokyo headquarters to silence weapon secrets.*",
+     "*1995年4月23日、教団幹部であった村井秀夫が、兵器開発の秘密を封印するかのように東京の拠点前で生中継のテレビカメラの前で刺殺されたのです。*",
+     "—", "—", ""),
+
+    ("4-19", "`4.09#4`", "H", "T1", "`t8_police_convoy_kamikuishiki`, `still`",
+     "*Mặc dù vậy, vòng vây pháp lý vẫn siết chặt không ngừng quanh kẻ chủ mưu tối cao.*",
+     "*Despite violent obstruction, the legal dragnet steadily closed around the supreme architect.*",
+     "*暴力的な妨害工作にもかかわらず、司法の包囲網は首謀者へと着実に狭まっていきました。*",
+     "—", "—", ""),
+
+    ("4-20", "`4.09#5`", "H", "T5 ngày", "`t8_hidden_ceiling_hideout`, `still`",
+     "*NGÀY PHÁT HIỆN* · **16 · 05 · 1995**",
+     "*DATE OF DISCOVERY* · **MAY 16 · 1995**",
+     "*発見日* · **1995年5月16日**",
+     "—", "—", ""),
+
+    ("4-21", "`4.09#6`–`#7`", "H", "T1", "`t8_asahara_shadow_profile`, `pan`",
+     "*Kẻ từng tự phong mình là Đấng cứu thế của nhân loại ngồi co ro trong bóng tối, run rẩy bên cạnh một bọc tiền mặt trị giá gần mười triệu yên và các thỏi vàng. Chiếc mặt nạ thần thánh rơi xuống, phơi bày sự trơ trọi và nỗi sợ hãi hèn hạ của một kẻ lừa đảo khi bản ngã ái kỷ sụp đổ hoàn toàn.*",
+     "*The self-proclaimed savior of humanity crouched shivering in absolute darkness, clutching ten million yen in cash and gold bars. The prophetic mask shattered, exposing the pathetic terror of a charlatan undergoing complete Narcissistic Collapse.*",
+     "*かつて人類の救済者を自称した男は暗闇の中で震え、約1000万円の現金と金塊の束の傍らで丸まっていました。預言者の仮面は剥ぎ取られ、自己愛の完全な崩壊とともに、一人の詐欺師の惨めな恐怖と孤独が白日の下に晒されたのです。*",
+     "—", "—", ""),
+
+    ("4-22", "`4.11#1`–`#3`", "D", "T1", "`t8_tokyo_court_gavel_strike`, `still`",
+     "*Sự sụp đổ của Shoko Asahara trong hốc trần nhà đã vạch trần bản chất thật sự của kẻ cầm đầu giáo phái độc hại. Không hề có phép màu bay bổng, không có hào quang tâm linh nào cứu giúp hắn trước sự truy lùng của công lý. Hắn chỉ là một kẻ thao túng tàn nhẫn, sẵn sàng hy sinh toàn bộ tín đồ để bảo toàn sự an toàn và lòng tham của bản thân.*",
+     "*The humiliating capture of Shoko Asahara stripped away the entire illusion surrounding the toxic cult leader. There was no supernatural levitation, no divine protection rescuing him from the reach of justice. He stood exposed as a ruthless manipulator, willing to sacrifice hundreds of followers solely to safeguard his personal survival.*",
+     "*天井裏での麻原彰晃の無様な逮捕劇は、有害カルトの首謀者の真の正体を決定的に暴き出しました。彼を司法の追及から救う空中浮揚の奇跡も、神秘的な後光もそこには一切存在しませんでした。彼は自らの保身と欲望のために、何百人もの信徒を躊躇なく犠牲にした冷酷な操縦者に過ぎなかったのです。*",
+     "—", "—", ""),
+
+    ("4-23", "nghỉ chuyển hồi (2 s)", "—", "T10", "`void`",
+     "*HỒI 05* · **PHÁN QUYẾT LỊCH SỬ & BÀI HỌC**",
+     "*ACT 05* · **THE HISTORIC VERDICT & THE LESSON**",
+     "*第5幕* · **歴史的判決と教訓**",
+     "—", "⊘", "◼"),
+]

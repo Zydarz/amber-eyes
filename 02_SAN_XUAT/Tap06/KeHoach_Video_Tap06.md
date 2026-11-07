@@ -439,3 +439,22 @@ Thời gian thực: nửa A ~24 phút · nửa B 2.754,5 s (45,9 phút) · ghép
 Chi tiết đầy đủ: `BaoCao_QC_Tap06_20261102.md` §10.
 
 
+
+## PHỤ LỤC F (Tập 06) — ĐỌC LẠI AUDIO HIGGS 3 NGÔN NGỮ (VI · EN · JA) · 06/11/2026
+
+**Lý do:** kịch bản 4 ngôn ngữ sửa 05/11 (10 chỉ dấu, 154 → 212 câu) ⇒ audio cũ lệch. Engine Higgs v3 trên Kaggle, giọng mẫu VoxCPM2 (bộ đã chốt mỗi ngôn ngữ).
+
+**P0 — sửa lỗi K4 (A11 #120):** `acting_tap06.json` (10 `alt` gắn nhầm câu), `sfx_tap06.json` (mốc nền/tiếng động/tắt nhạc), `tts_manifest_t06/_EN_t06.json` (154/165 câu) đều theo mã cũ ⇒ chuyển theo nội dung / sinh lại. Bản cũ: `.work/_cu/t06_higgs_redo_20261106/`. ⚠ Bảng `sfx` mới chờ người dùng duyệt.
+
+| | Lượt 1 | Vòng 2 | G9 (min AC/YIN) | G8 loại | Master | LUFS / đỉnh / câm / lời đầu | Cần nghe |
+|---|---|---|---|---|---|---|---|
+| VI | 445 file | 59 câu / 118 file | D–H 5,17 · C–H 8,64 · H–N1 6,03 ✅ | 5 | `Tap06/xuat_ban/Tap06_master.mp3` 1893,0 s | −16,2 / −2,1 / 0 / 23,0 s ✅ | 21 câu |
+| EN | 446 file | — | **D–H 2,47 (YIN 6,8)** ⚠ · còn lại ✅ | 3 + 1 đuôi câm | `Tap06_EN/xuat_ban/Tap06_EN_master.mp3` 1759,6 s | −16,2 / −1,9 / 0 / 23,0 s ✅ | 9 câu |
+| JA | 424 file | — | D–H 6,06 · C–H 10,27 ✅ | 1 + 2 đuôi câm | `Tap06_JA/xuat_ban/Tap06_JA_master.mp3` 2080,3 s | −16,2 / −1,8 / 0 / 23,0 s ✅ | 30 câu |
+
+- **Người dùng chốt 06/11/2026:** dừng đo `listen_audio` (MCode tắt) và ghép master với số đo hiện có. Chọn bản: VI = CER `listen_audio` lượt 1 (273 file) + Whisper (290 file); EN/JA = CER Whisper large-v3 (Kaggle); EN/JA **không có vòng 2**.
+- UTMOS tb (H/D/C): VI 2,39/3,14/2,82 · EN 4,36/3,88/4,40 · JA 2,91/3,73/4,14 (chỉ so tương đối).
+- JA: 5 file đuôi lặng 0,9–5,7 s đã cắt (giữ 0,3 s + fade 30 ms; gốc `.work/_cu/t06_higgs_redo_20261106/ja_duoi_cam/`).
+- EN 2.07#4: mọi bản lệch cao độ — dùng bản ít lệch, cần nghe. EN D–H dưới 4 nc theo AC như Tập 02 EN (người dùng đã chấp nhận ở Tập 02) — cần nghe lại.
+- Danh sách nghe: `Tap06/CanNghe_Tap06_higgs.md`, `Tap06_EN/CanNghe_Tap06_EN_higgs.md`, `Tap06_JA/CanNghe_Tap06_JA_higgs.md`.
+- **Audio đổi ⇒ chưa dựng lại hình (H14)**: phải `parse_shots.py` + `build_video3.py` cho cả 3 ngôn ngữ.

@@ -341,7 +341,10 @@ EPISODES = {
         "thumb": ("ANGEL OF", "DEATH") if EN else ("死の天使", "16年の沈黙") if JA else ("THIÊN THẦN", "TỬ THẦN"),
         "thumb_bg": "t4_somerset_exterior",
         # H9: nen sang o dai chu -> them lop toi mem (chi T04; T01/T02 giu nguyen duong cu)
-        "text_scrim": ["1-06", "1-10", "1-11", "1-16", "1-18", "2-10", "2-11", "4-04", "4-05", "4-10", "4-11", "4-20"],
+        "text_scrim": ["1-06", "1-09", "1-10", "1-11", "1-15", "1-16", "1-18", "2-01", "2-04", "2-05", "2-10", "2-11", "2-12", "2-13",
+                    "3-02", "3-11", "3-14", "3-15", "4-04", "4-05", "4-10", "4-11", "4-20", "5-02", "5-05", "5-18", "5-19"] + (["1-13", "1-14", "1-17", "2-06", "2-08", "2-09", "2-15", "2-17", "3-01", "3-04", "3-16", "4-02", "4-06", "4-15",
+                       "4-17", "4-19", "4-21", "5-01", "5-03", "5-04", "5-07", "5-14"] if (EN or JA) else [])
+                    + (["2-12", "2-13", "2-21", "3-07", "3-10", "4-03", "4-10", "5-09"] if JA else []),   # EN: chữ dài hơn bản VN (06/11/2026)
         "voice_credit": "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio",
         "mux_af": ("alimiter=limit=0.63:attack=5:release=50:level=disabled:latency=1" if (EN or JA) else
                    "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1"),
@@ -384,16 +387,16 @@ EPISODES = {
         "n1": (("SOMERSET NURSE", "Night Shift Perspective", "NURSE") if EN else
                ("ソマーセットの看護師", "夜勤の同僚", "看護師") if JA else
                ("NỮ Y TÁ SOMERSET", "Đồng nghiệp ca đêm", "Y TÁ")),
-        "n2": (("AMY LOUGHREN", "ICU Colleague & Whistleblower", "AMY") if EN else
-               ("エイミー・ローレン", "集中治療室の同僚・告発者", "看護師") if JA else
+        "n2": (("NIGHT-SHIFT NURSE", "Imagined Perspective", "NURSE") if EN else
+               ("夜勤の看護師", "想像上の視点", "看護師") if JA else
                ("Y TÁ CA ĐÊM", "Nhân vật hình dung", "Y TÁ CA ĐÊM")),
         # ---- bản tiếng Anh: nhãn vai (CHU_CO_DINH_EN.md §3)
         "roles_en": {"H": ("HOST", "Your Narrator"), "D": ("INVESTIGATOR", "Forensic Case Analysis"),
                      "C": ("PSYCHOLOGIST", "Behavioral Dynamics"),
                      "N1": ("SOMERSET NURSE", "Night Shift Perspective"),
-                     "N2": ("AMY LOUGHREN", "ICU Colleague & Whistleblower")},
+                     "N2": ("NIGHT-SHIFT NURSE", "Imagined Perspective")},
         "sub_tags_en": {"H": "HOST", "D": "INVESTIGATOR", "C": "PSYCHOLOGIST",
-                        "N1": "SOMERSET NURSE", "N2": "AMY LOUGHREN"},
+                        "N1": "SOMERSET NURSE", "N2": "NIGHT-SHIFT NURSE"},
         # ---- bản tiếng Nhật: nhãn vai riêng cho Tập 04.
         # Thiếu khoá này thì ROLE_NAME rơi về nhãn chung của Tập 01
         # ("証人"/"視聴者") -> sai với vụ án Cullen (N1 = y tá ca đêm ở Somerset,
@@ -401,7 +404,7 @@ EPISODES = {
         "roles_ja": {"H": ("ホスト", "ナレーター"), "D": ("捜査官", "事件記録 Cullen"),
                      "C": ("心理学者", "犯罪心理学"),
                      "N1": ("ソマーセットの看護師", "夜勤の同僚"),
-                     "N2": ("エイミー・ローレン", "集中治療室の同僚・告発者")},
+                     "N2": ("夜勤の看護師", "想像上の視点")},
         "sub_tags_ja": {"H": "ホスト", "D": "捜査官", "C": "心理学者",
                         "N1": "看護師", "N2": "看護師"},
         "cast": None,
@@ -673,6 +676,23 @@ EPISODES = {
         "srt": "Tap07_EN.srt" if EN else "Tap07.srt",
         "intro": "intro_kenh_EN_t07.mov" if EN else "intro_kenh.mov",
         "n_element": {"1.07": "N1", "4.03": "N2"},
+        # 06/11/2026: badge vai cho bản EN/JA. Mặc định của edition.py là của
+        # Tập 01 ("Blanchard case file" / "SPRINGFIELD RESIDENT") — sai với vụ
+        # án Carter, nên phải khai riêng (giống Tập 02 / 04 / 05 / 06).
+        "roles_en": {"H": ("HOST", "Your Narrator"),
+                     "D": ("INVESTIGATOR", "Carter Case File"),
+                     "C": ("PSYCHOLOGIST", "Behavioral Dynamics"),
+                     "N1": ("LYNN ROY", "Victim's Mother"),
+                     "N2": ("SAMANTHA BOARDMAN", "Witness Testimony")},
+        "sub_tags_en": {"H": "HOST", "D": "INVESTIGATOR", "C": "PSYCHOLOGIST",
+                        "N1": "LYNN ROY", "N2": "BOARDMAN"},
+        "roles_ja": {"H": ("ホスト", "ナレーター"),
+                     "D": ("捜査官", "事件記録 Carter"),
+                     "C": ("心理学者", "犯罪心理学"),
+                     "N1": ("リン・ロイ", "被害者の母"),
+                     "N2": ("サマンサ・ボードマン", "証言")},
+        "sub_tags_ja": {"H": "ホスト", "D": "捜査官", "C": "心理学者",
+                        "N1": "ロイ", "N2": "ボードマン"},
         "acting": WORK / ("acting_tap07_EN.json" if EN else "acting_tap07.json"),
         "sfx_sheet": WORK / ("sfx_tap07_EN.json" if (EN and (WORK / "sfx_tap07_EN.json").exists()) else "sfx_tap07.json"),
         "act1_cue": "1.12", "silence_cue": "1.04", "click_cues": ("1.02", "4.08"),
@@ -681,7 +701,16 @@ EPISODES = {
         "sfx_cues": [],
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
-        "route_pins": {},
+        # H9: lớp tối mềm sau chữ — các shot có nền sáng làm chữ "chìm".
+        # Đo bằng `_t07/_t07_scan_contrast.py` (ngưỡng >8% nét chữ bị chìm),
+        # gộp cả 3 ngôn ngữ. 4-04 (T2 thẻ hồ sơ) bị báo nhầm: element là
+        # tấm thẻ sáng, chữ đỏ trên nền kem vẫn đọc rõ; renderer cũng không
+        # có nhánh scrim cho T2.
+        "text_scrim": ["1-11", "1-14", "2-03", "2-07", "2-09", "3-01", "3-02",
+                       "3-05", "3-11", "4-02", "4-10", "4-13"],
+        # T7 tuyến đường (shot 2-02): ghim tên 2 địa điểm trên cung đường
+        # Plainville <-> Fairhaven (35 dặm, chưa đầy 1 giờ lái xe).
+        "route_pins": {"2-02": ("Plainville", "Fairhaven")},
         "thumb": ("BẢN ÁN GIẾT NGƯỜI", "BẰNG TIN NHẮN"),
         # H11: thumbnail phải mang nền CỦA TẬP NÀY (Tập 02 từng dùng nhà của Tập 01)
         "thumb_bg": "t7_confession_text_timestamp",
@@ -715,7 +744,7 @@ EPISODES = {
         "n_element": {"1.07": "N1", "4.08": "N2"},
         "acting": WORK / ("acting_tap08_EN.json" if EN else "acting_tap08.json"),
         "sfx_sheet": WORK / ("sfx_tap08_EN.json" if (EN and (WORK / "sfx_tap08_EN.json").exists()) else "sfx_tap08.json"),
-        "act1_cue": "1.12", "silence_cue": "1.04", "click_cues": ("1.02", "4.09"),
+        "act1_cue": "1.01", "silence_cue": "1.05", "click_cues": ("1.02", "4.09"),
         "bed": {1: "bgm_piano_minimal.mp3", 2: "bgm_ambient_deep.mp3",
                 3: "bgm_sub_drone.mp3", 4: "bgm_violin_heart.mp3", 5: "bgm_piano_warm.mp3"},
         "sfx_cues": [],
@@ -724,9 +753,15 @@ EPISODES = {
         "route_pins": {},
         "thumb": ("KHI THIÊN TÀI", "BỊ TẨY NÃO"),
         "title": "Khi Các Thiên Tài Bị Tẩy Não — Thao túng tâm lý tinh hoa và thảm họa Sarin (vụ Aum Shinrikyo & Shoko Asahara)",
-        "act_titles": {1: "Hồi 1 · Buổi sáng định mệnh dưới lòng đất Tokyo", 2: "Hồi 2 · Khu căn cứ dưới chân núi Phú Sĩ và phòng thí nghiệm tử thần",
-                       3: "Hồi 3 · Nghịch lý của các thiên tài khoa học", 4: "Hồi 4 · Ma thuật tẩy não & khái niệm Poa đẫm máu",
-                       5: "Hồi 5 · Phán quyết lịch sử & bài học về sự tự do tư tưởng"},
+        "act_titles": ({1: "Act 1 · A Fateful Morning Beneath the Streets of Tokyo", 2: "Act 2 · The Base at the Foot of Mount Fuji and the Death Laboratory",
+                       3: "Act 3 · The Paradox of Scientific Genius", 4: "Act 4 · Brainwashing and the Poa Doctrine",
+                       5: "Act 5 · The Historic Verdict & the Lesson on Free Thought"} if EN else
+                       {1: "第1幕 · 東京の地下に訪れた運命の朝", 2: "第2幕 · 富士山の麓の巨大拠点と「死の実験室」",
+                       3: "第3幕 · エリートの科学者たちの矛盾", 4: "第4幕 · 洗脳の技術と「ポア」",
+                       5: "第5幕 · 歴史的判決と自由思想の教訓"} if JA else
+                       {1: "Hồi 1 · Buổi sáng định mệnh dưới lòng đất Tokyo", 2: "Hồi 2 · Khu căn cứ dưới chân núi Phú Sĩ và phòng thí nghiệm tử thần",
+                       3: "Hồi 3 · Nghịch lý của các thiên tài khoa học", 4: "Hồi 4 · Ma thuật tẩy não & khái niệm Poa",
+                       5: "Hồi 5 · Phán quyết lịch sử & bài học về sự tự do tư tưởng"}),
         "summary": ("1.02#1", "3.04#1"),
         "need": [],
         "case": "Aum", "n1": ("HÀNH KHÁCH TOKYO", "Nhân chứng sống sót", "HÀNH KHÁCH"),

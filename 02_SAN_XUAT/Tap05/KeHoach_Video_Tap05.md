@@ -36,7 +36,7 @@
 | Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
 |---|---|---|---|---|---|---|---|---|
 | 1-00 | `1.01`–`1.02` (20.5 s → lời đầu) | — | T1 | `t5_wichita_skyline_dusk` hiện dần từ đen | *HỒI 01 · BỨC THƯ TÁI XUẤT SAU 13 NĂM LẶNG CĂM* | Tiếng máy đánh chữ & gió đông | ⊘ |  |
-| 1-01 | `1.03#1`–`#2` | H | T5 ngày | `t5_wichita_skyline_dusk` | **19 · 03 · 2004** · *Wichita, Kansas · Nước Mỹ* | Gõ từng ký tự | ✦ Cú |  |
+| 1-01 | `1.03#1`–`#2` | H | T5 ngày | `t5_wichita_skyline_dusk` | **19 · 3 · 2004** · *Wichita, Kansas · Nước Mỹ* | Gõ từng ký tự | ✦ Cú |  |
 | 1-02 | `1.03#3` | H | T1 | `t5_eagle_newsroom_night` | **BẢN SAO BẰNG LÁI XE CỦA VICKI WEGERLE** · *Nạn nhân bị tước đoạt mạng sống năm 1986 trong một vụ án chưa có lời giải* | — | 🅑 |  |
 | 1-03 | `1.03#4` | H | T1 | `t5_manila_envelope_polaroids` | **KÝ TÊN BA CHỮ CÁI** · “B-T-K” · *Nỗi kinh hoàng ám ảnh cả miền Trung Tây nước Mỹ suốt nhiều thập kỷ* | — | 🅑 |  |
 | 1-04 | `1.03#5` | H | T2 | `t5_btk_signature_letter` | *LỜI KHẲNG ĐỊNH LẠNH LÙNG* · **KẺ SÁT NHÂN HÀNG LOẠT ĐÃ CHÍNH THỨC QUAY TRỞ LẠI** | Dấu mộc ở "B-T-K" | ⊘ |  |
@@ -99,7 +99,7 @@
 | 3-20 | `3.10#3` | H | T1 | `t5_winter_home_depot` | **MỘT TRONG NHỮNG SAI LẦM CÔNG NGHỆ KINH ĐIỂN NHẤT LỊCH SỬ TƯ PHÁP** · *Sự tự phụ mù quáng đã dẫn dắt Rader đi thẳng vào bẫy của chính cơ quan điều tra* |  | ⊘ |  |
 | 3-21 | `3.10#4` | H | T1 | `t5_detective_war_room` | *XIN MỜI ĐIỀU TRA VIÊN TÁI HIỆN LẠI* · **MÀN ĐẤU TRÍ ĐỊNH MỆNH VỚI CHIẾC ĐĨA MỀM MÀU TÍM** |  | →D |  |
 | 3-22 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 04* · **ĐẤU TRÍ THẨM VẤN & BẪY CÔNG NGHỆ ĐĨA MỀM** | — | ⊘ | ◼ |
-| 4-01 | `4.02#1`–`#3` | H | T5 ngày | `t5_winter_home_depot` | **ĐẦU NĂM 2005** · *Sau hàng loạt bưu phẩm trêu ngươi gửi tới truyền thông, Rader nảy ra một ý định mới* → `#2`: *Hắn muốn nâng cấp cách thức liên lạc: gửi các tập tin vi tính* → `#3`: *Ở tuổi 59, Rader hoàn toàn mù mờ về công nghệ số* | Tiếng gió đông & quạt server | ✦ Cú |  |
+| 4-01 | `4.02#1`–`#3` | H | T5 ngày | `t5_winter_home_depot` | **ĐẦU NĂM 2005** · *Sau hàng loạt bưu phẩm trêu ngươi gửi tới truyền thông, Rader nảy ra một ý định mới* → `#2`: *Hắn muốn nâng cấp cách thức liên lạc* → `#3`: *Ở tuổi 59, Rader hoàn toàn mù mờ về công nghệ số* | Tiếng gió đông & quạt server | ✦ Cú |  |
 | 4-02 | `4.02#4` | H | T5 ngày | `t5_winter_home_depot` | **CUỐI THÁNG 1 NĂM 2005** · *Rader lén đặt một hộp ngũ cốc trên thùng chiếc xe bán tải tại bãi đỗ xe Home Depot* | Tiếng gió đông & quạt server | ✦ Cú |  |
 | 4-03 | `4.02#5` | H | T1 | `t5_cereal_box_pickup` | **BÊN TRONG HỘP NGŨ CỐC** · *Một mẩu giấy gửi trực tiếp cho cảnh sát* | — | 🅑 |  |
 | 4-04 | `4.02#6`–`#8` | H | T1 | `t5_handwritten_note_floppy` | **CÂU HỎI NGÂY THƠ ĐẾN MỨC KHÓ TIN** · “Tôi có thể liên lạc bằng Đĩa mềm vi tính mà không bị truy vết đến máy tính hay không? Hãy trả lời thành thật nhé.” → `#8`: *Yêu cầu cảnh sát trả lời bằng tin nhắn ám hiệu trên mục rao vặt The Wichita Eagle* | — | ⊘ | →D |
@@ -125,7 +125,7 @@
 | 4-24 | `4.15#1`–`#3` | N2 | T4 lời kể | `t5_kerri_rawson_tears`, `still` | “Cả thế giới nhìn thấy ông ấy như một con quái vật đáng ghê tởm, nhưng với tôi, ông từng là người cha mẫu mực nhất.” → `#3`: “Khi đặc vụ FBI gõ cửa căn hộ và thông báo cha tôi chính là sát nhân BTK, toàn bộ mặt đất dưới chân tôi như sụp đổ hoàn toàn.” | Tiếng bật cassette `4.15#1` | ✦ Kerri |  |
 | 4-25 | `4.15#4`–`#6` | N2 | T4 lời kể | `t5_kerri_rawson_tears`, `still` | “Nỗi đau đớn lớn nhất không chỉ là sự sợ hãi, mà là sự phản bội niềm tin tột cùng.” → `#5`: “Làm sao tôi có thể chấp nhận người đàn ông từng chúc tôi ngủ ngon mỗi đêm lại chính là bóng ma reo rắc kinh hoàng cho hàng chục gia đình khác?” | Tiếng bật cassette `4.15#1` | ✦ Kerri |  |
 | 4-26 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 05* · **PHÁN QUYẾT, BÀI HỌC CẢNH BÁO ĐỎ & LỜI KẾT** | — | ⊘ | ◼ |
-| 5-01 | `5.02#1`–`#3` | H | T5 ngày | `t5_sedgwick_courtroom` | **18 · 08 · 2005** · *Tòa án Quận Sedgwick · Thẩm phán Gregory Waller* | Tiếng búa tòa án gõ 3 tiếng `5.01` | ✦ Cú |  |
+| 5-01 | `5.02#1`–`#3` | H | T5 ngày | `t5_sedgwick_courtroom` | **18 · 8 · 2005** · *Tòa án Quận Sedgwick · Thẩm phán Gregory Waller* | Tiếng búa tòa án gõ 3 tiếng `5.01` | ✦ Cú |  |
 | 5-02 | `5.02#4` | H | T1 | `t5_judge_gavel_verdict`, `push` | **THÁI ĐỘ TỰ THƯƠNG HẠI BẢN THÂN BỆNH HOẠN** · *Không hề có sự ăn năn chân chính đối với gia đình các nạn nhân* | Sub-drop ở "175 năm" | ⊘ |  |
 | 5-03 | `5.02#5`–`#7` | H | T1 | `t5_el_dorado_prison` | **NHÀ TÙ EL DORADO CORRECTIONAL FACILITY** · *Nơi cách ly hoàn toàn với xã hội loài người* | — | ⊘ |  |
 | 5-04 | `5.03` (nghỉ 1.5 s) | — | — | giữ 5-03 | — | — | ⊘ |  |

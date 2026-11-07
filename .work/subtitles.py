@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = ED.OUT_DIR
 TL = json.loads(ED.w("timeline_s.json").read_text(encoding="utf-8"))
 TAG = ED.SUB_TAG
-MAXC, MAXT = 84, 6.0
+MAXC, MAXT = (40 if ED.JA else 84), 6.0   # JA: 2 dòng x ~20 ký tự; 84 làm cue dài > 6 s bị cắt (Tập 04 JA, 06/11/2026)
 
 
 def split_text(t, maxc=MAXC):
@@ -33,7 +33,7 @@ def split_text(t, maxc=MAXC):
         return [t]
     mid = len(t) / 2
     pattern = r"[,;:–—―…、。』」）\)]\s*" if ED.JA else r"[,;:–—]\s*"
-    cuts = [m.end() for m in re.finditer(pattern, t) if 0 < m.end() < len(t)]
+    cuts = [m.end() for m in re.finditer(pattern, t) if 0 < m.end() < len(t) and (not ED.JA or 3 <= m.end() <= len(t) - 3)]   # JA: không cắt ra mẩu "。"
     if not cuts:
         cuts = [m.start() for m in re.finditer(r"\s", t) if 0 < m.start() < len(t)]
     if not cuts:
@@ -55,6 +55,7 @@ def two_lines(t):
     if ED.JA:
         mid = len(t) // 2
         cuts = [m.end() for m in re.finditer(r"[、。――…」）)\]]", t)]
+        cuts = [c for c in cuts if len(t) - c >= 3]   # không để lại dòng chỉ có "。"
         k = min(cuts, key=lambda i: abs(i - mid)) if cuts else mid
         a, b = t[:k].strip(), t[k:].strip()
         # k có thể rơi vào cuối câu (dấu câu cuối cùng) -> phần 2 rỗng.

@@ -30,38 +30,27 @@ ACT_MOOD = {
     ("5", "H"): ("neutral", 0), ("5", "C"): ("neutral", 0),
 }
 
-# Câu then chốt cần pause_after thêm
-KEY_PAUSE = {
-    "1.02#3": 0.5,
-    "1.02#6": 0.8,
-    "1.04#3": 0.7,
-    "1.06#2": 0.9,
-    "1.07#6": 1.0,
-    "1.09#4": 0.8,
-    "1.11#4": 1.2,
-    "2.02#4": 0.7,
-    "2.04#4": 0.8,
-    "2.06#3": 0.8,
-    "2.07#3": 0.8,
-    "2.09#2": 1.2,
-    "3.02#3": 0.8,
-    "3.04#4": 0.8,
-    "3.06#4": 0.7,
-    "3.08#2": 1.2,
-    "4.02#4": 0.8,
-    "4.04#3": 0.8,
-    "4.06#4": 0.8,
-    "4.08#4": 1.0,
-    "4.10#7": 1.2,
-    "5.02#4": 0.8,
-    "5.04#19": 1.5,
-}
+# Kịch bản viết lại 05/11/2026 (53 phần tử · 171 câu): mã câu cũ KHÔNG còn đúng (K4).
+# Nghỉ kịch tính tính theo CẤU TRÚC, không theo mã câu cứng: câu cuối mỗi lượt thoại 0,8 s ·
+# câu cuối lượt N1/N2 1,0 s · câu cuối lượt đứng ngay trước thẻ [NGHỈ]/[SFX] 1,2 s ·
+# câu đầu lời mở "Đúng tám giờ sáng" 0,5 s. Còn lại 0,3 s.
+KEY_PAUSE = {"1.02#3": 0.5}
+
+
+def pause_for(elems, idx, s_idx, n_sent, role):
+    if s_idx != n_sent - 1:
+        return None
+    nxt = elems[idx + 1]["kind"] if idx + 1 < len(elems) else "END"
+    if nxt in ("NGHI", "SFX", "END"):
+        return 1.2
+    return 1.0 if role in ("N1", "N2") else 0.8
+
 
 def main():
     acting = {}
     pause_after = {}
 
-    for elem in SCRIPT:
+    for idx, elem in enumerate(SCRIPT):
         if elem.get("kind") != "LOI":
             continue
         act = str(elem.get("act", 1))
@@ -69,10 +58,11 @@ def main():
         mood, pitch = ACT_MOOD.get((act, role), ("neutral", 0))
         delta_spd = BASE_DELTA.get(role, 0.0)
 
-        for s in elem.get("sentences", []):
+        sents = elem.get("sentences", [])
+        for k, s in enumerate(sents):
             sid = s["id"]
             orig_text = s["text"]
-            pause = KEY_PAUSE.get(sid, 0.3)
+            pause = KEY_PAUSE.get(sid) or pause_for(SCRIPT, idx, k, len(sents), role) or 0.3
             pause_after[sid] = pause
             acting[sid] = [mood, delta_spd, 0, None]
 
@@ -80,6 +70,8 @@ def main():
     out_p = W / "acting_tap08.json"
     out_p.write_text(json.dumps(acting, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Wrote {len(acting)-1} acting items to {out_p}")
+    ja = {k: ([v[0], v[1], 0, None] if not k.startswith("_") else v) for k, v in acting.items()}
+    (W / "acting_tap08_JA.json").write_text(json.dumps(ja, ensure_ascii=False, indent=2), encoding="utf-8")
 
 if __name__ == "__main__":
     main()

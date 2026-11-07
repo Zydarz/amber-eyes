@@ -48,6 +48,8 @@ def higgs_text(t):
                        lambda m: "%s the %s" % (m.group(1), {"II": "Second", "III": "Third", "IV": "Fourth"}[m.group(2)]), t)
         # G11 ban JA: chu so -> so kanji (2009年 -> 二千九年), cung bo doi so voi ja_cer (Q3a)
         if P.JA:
+            # G7: chu thich tieng Anh trong ngoac "(Existential Vacuum)" -> bo khoi loi doc (T08, 06/11/2026)
+            t = re.sub(r"\s*[（(][A-Za-z][^()（）]*[)）]", "", t)
             import ja_cer
             t = ja_cer.ja_numbers(t)
         return re.sub(r"  +", " ", t).strip()

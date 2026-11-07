@@ -158,7 +158,7 @@ def main():
         for c, a, b in vb[:10]:
             bad(f"0) Vai '{c}': timeline='{b}' khac script='{a}'")
     else:
-        ok("0) Vai cua 164/164 cau khop vai kich ban (da ap mapping N -> N1/N2)")
+        ok(f"0) Vai cua {len(ORDER)}/{len(ORDER)} cau khop vai kich ban (da ap mapping N -> N1/N2)")
 
     # --- 1. phu cau
     seen = []
@@ -194,7 +194,7 @@ def main():
         for t in terr[:10]:
             bad(f"2) Moc thoi gian sai: {t}")
     else:
-        ok("2) Moc thoi gian 83/83 shot lay dung tu timeline (start = cau dau - 0,20 s; lien tuc)")
+        ok(f"2) Moc thoi gian {len(shots)}/{len(shots)} shot lay dung tu timeline (start = cau dau - 0,20 s; lien tuc)")
     if abs(sh["total"] - TOT) > 0.002:
         bad(f"2) shots.total {sh['total']} != timeline.total {TOT}")
     else:
@@ -224,7 +224,7 @@ def main():
         for i, w, g in vbad[:10]:
             bad(f"4) {i}: vai shot '{w}' khac vai kich ban {g}")
     else:
-        ok("4) H13: vai noi khop vai kich ban (83/83 shot)")
+        ok(f"4) H13: vai noi khop vai kich ban ({len(shots)}/{len(shots)} shot)")
 
     # --- 5. H6/V3 chu tren hinh lay tu cau dang doc
     # Tieu de (bold/ital) cua kenh la DANG RUT GON (VN Tap05 da xuat ban co 111/154 doan
@@ -394,7 +394,7 @@ def main():
     last = shots[-1]
     txts = [t for seg in last["segments"] for _s, t in seg["elems"]]
     joined = " ".join(txts).upper()
-    if last["id"] != "5-15" or "DOSSIER EPISODE 05" not in joined or "AMBER EYES" not in joined:
+    if last["id"] != "5-20" or "DOSSIER EPISODE 05" not in joined or "AMBER EYES" not in joined:
         bad(f"11) H12: the ket thieu chu — {txts}")
     else:
         ok(f"11) H12: the ket co chu '{' '.join(txts)[:66]}'")

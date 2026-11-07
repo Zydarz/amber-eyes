@@ -227,6 +227,9 @@ Thực hiện yêu cầu kiểm tra và bổ sung phần mô tả video cho Tậ
    - Hồi 5 (21:30): Phán quyết, Bài học cảnh báo đỏ & Lời kết / The Verdict, Survival Red Flags & Epilogue / 判決、生存への警告と結び / 판결, 생존을 위한 경고와 맺음말
 3. **Bộ nguồn tham khảo 23 tư liệu công khai** được chuyển hóa và chuẩn hóa sang từng ngôn ngữ (`nguon_mo_ta.txt`, `nguon_mo_ta_EN.txt`, `nguon_mo_ta_JA.txt`, `nguon_mo_ta_KO.txt`, cùng bảng markdown `nguon_tham_khao*.md`).
 4. **Cấu hình hệ thống `edition.py`** cập nhật trọn vẹn `title`, `act_titles` và mở khóa `cast_ko: True`.
-5. **Kết quả kiểm tra tự động**:
-   - `.work/verify_all_descriptions.py` $\rightarrow$ `Tap 04: ✅ ĐẠT CHUẨN (8.661 ký tự, 49 dòng nguồn)`.
-   - `.work/verify_all_multilingual.py` $\rightarrow$ `116/116 ĐẠT CHUẨN (100% trên cả 4 ngôn ngữ VI, EN, JA, KO)`.
+5. **Tối ưu hóa dung lượng mô tả dưới trần 5.000 ký tự YouTube:**
+   - Bản tiếng Anh (EN) đã được tinh chỉnh cô đọng, súc tích chuẩn YouTube: **4.532 ký tự** (CRLF: 4.580 ký tự), tuyệt đối không vượt ngưỡng 5.000 ký tự nhưng vẫn bảo tồn nguyên vẹn 100% Hệ sinh thái 10 chỉ dấu, mốc chương, lưu ý pháp lý, các nguồn tư pháp cốt lõi và hotline hỗ trợ.
+   - Các bản ngôn ngữ khác cũng được kiểm soát dung lượng nghiêm ngặt: VI (**4.708 ký tự**), JA (**2.678 ký tự**), KO (**2.944 ký tự**).
+6. **Kết quả kiểm tra tự động**:
+   - `.work/verify_all_descriptions.py` $\rightarrow$ `Tap 04: ✅ ĐẠT CHUẨN (4.708 ký tự, 9 dòng nguồn)`.
+   - `.work/verify_all_multilingual.py` $\rightarrow$ `Tap 04: ✅ ĐẠT CHUẨN 100% trên cả 4 ngôn ngữ (VI, EN, JA, KO)`.

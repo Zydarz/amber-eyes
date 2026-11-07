@@ -3,45 +3,45 @@
   "id": "1.01",
   "act": 1,
   "kind": "BGM",
-  "desc": "A slow, chilling piano melody opens, blending with a muted heartbeat to create a suffocating subterranean atmosphere."
+  "desc": "A somber, minimalist piano melody begins slowly, blending with a muffled low heartbeat creating an underground sense of dread."
  },
  {
   "id": "1.02",
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "slowly, warm low tone setting the scene",
-  "text": "On Monday morning, March 20th, 1995, Japan’s capital city of Tokyo awoke to its usual bustling rhythm. Millions of commuters poured into the underground subway network to begin the new work week. It was exactly eight in the morning, the peak rush hour of the entire day. Five subway trains across three vital lines—Chiyoda, Marunouchi, and Hibiya—were hurtling simultaneously toward Kasumigaseki Station. This was the country’s central corridor of administrative power. It housed the headquarters of key government ministries and the National Police Agency.",
+  "direction": "slowly, deep and warm tone setting the context",
+  "text": "On the morning of Monday, March 20, 1995, Tokyo awakened to its usual brisk rhythm of life. Millions of commuters crowded into the subterranean labyrinth of the subway network to begin their work week. It was precisely eight o’clock in the morning, the peak rush hour of the entire day. Five subway trains across three vital artery lines—Chiyoda, Marunouchi, and Hibiya—were hurtling toward Kasumigaseki Station. This station serves the nation’s key ministries and National Police Agency, standing as Japan’s political and administrative heart. At that time, Japan took immense pride in its “myth of public safety”, boasting one of the lowest violent crime rates in the world.",
   "sentences": [
    {
     "id": "1.02#1",
-    "text": "On Monday morning, March 20th, 1995, Japan’s capital city of Tokyo awoke to its usual bustling rhythm.",
+    "text": "On the morning of Monday, March 20, 1995, Tokyo awakened to its usual brisk rhythm of life.",
     "words": 17
    },
    {
     "id": "1.02#2",
-    "text": "Millions of commuters poured into the underground subway network to begin the new work week.",
-    "words": 15
+    "text": "Millions of commuters crowded into the subterranean labyrinth of the subway network to begin their work week.",
+    "words": 17
    },
    {
     "id": "1.02#3",
-    "text": "It was exactly eight in the morning, the peak rush hour of the entire day.",
-    "words": 15
+    "text": "It was precisely eight o’clock in the morning, the peak rush hour of the entire day.",
+    "words": 16
    },
    {
     "id": "1.02#4",
-    "text": "Five subway trains across three vital lines—Chiyoda, Marunouchi, and Hibiya—were hurtling simultaneously toward Kasumigaseki Station.",
+    "text": "Five subway trains across three vital artery lines—Chiyoda, Marunouchi, and Hibiya—were hurtling toward Kasumigaseki Station.",
     "words": 15
    },
    {
     "id": "1.02#5",
-    "text": "This was the country’s central corridor of administrative power.",
-    "words": 9
+    "text": "This station serves the nation’s key ministries and National Police Agency, standing as Japan’s political and administrative heart.",
+    "words": 18
    },
    {
     "id": "1.02#6",
-    "text": "It housed the headquarters of key government ministries and the National Police Agency.",
-    "words": 13
+    "text": "At that time, Japan took immense pride in its “myth of public safety”, boasting one of the lowest violent crime rates in the world.",
+    "words": 24
    }
   ]
  },
@@ -49,71 +49,62 @@
   "id": "1.03",
   "act": 1,
   "kind": "SFX",
-  "desc": "Echoing subway horns, rapid train arrival announcements in Japanese, hurried footsteps."
+  "desc": "Subway horn echo, urgent Japanese station announcements, rushing commuter footsteps."
  },
  {
   "id": "1.04",
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "shifting to a firm, chilling tone",
-  "text": "Yet on each of those trains, there were men carrying plastic pouches discreetly wrapped in sheets of newspaper. Inside lay a colorless, odorless liquid. It was Sarin, a synthetic chemical nerve agent of catastrophic lethality. As the trains neared Kasumigaseki Station, these men quietly dropped the liquid-filled pouches onto the carriage floors. Using the sharpened metal tips of their umbrellas, they punctured the plastic pouches. Then they swiftly slipped out of the carriages as soon as the doors slid open.",
+  "direction": "shifting to a firm, colder tone",
+  "text": "Yet, on each of those five trains, men boarded carrying a neurotoxic chemical capable of catastrophic devastation. Using umbrellas ground to razor-sharp tips, they punctured plastic bags filled with lethal liquid directly onto train floors. As train doors opened at bustling stations, these perpetrators slipped quietly into the morning crowds, leaving toxic vapors to rise silently into the passenger cars. It was a calculated, coordinated chemical strike aimed directly at innocent citizens.",
   "sentences": [
    {
     "id": "1.04#1",
-    "text": "Yet on each of those trains, there were men carrying plastic pouches discreetly wrapped in sheets of newspaper.",
-    "words": 18
-   },
-   {
-    "id": "1.04#2",
-    "text": "Inside lay a colorless, odorless liquid.",
-    "words": 6
-   },
-   {
-    "id": "1.04#3",
-    "text": "It was Sarin, a synthetic chemical nerve agent of catastrophic lethality.",
-    "words": 11
-   },
-   {
-    "id": "1.04#4",
-    "text": "As the trains neared Kasumigaseki Station, these men quietly dropped the liquid-filled pouches onto the carriage floors.",
+    "text": "Yet, on each of those five trains, men boarded carrying a neurotoxic chemical capable of catastrophic devastation.",
     "words": 17
    },
    {
-    "id": "1.04#5",
-    "text": "Using the sharpened metal tips of their umbrellas, they punctured the plastic pouches.",
-    "words": 13
+    "id": "1.04#2",
+    "text": "Using umbrellas ground to razor-sharp tips, they punctured plastic bags filled with lethal liquid directly onto train floors.",
+    "words": 18
    },
    {
-    "id": "1.04#6",
-    "text": "Then they swiftly slipped out of the carriages as soon as the doors slid open.",
-    "words": 15
+    "id": "1.04#3",
+    "text": "As train doors opened at bustling stations, these perpetrators slipped quietly into the morning crowds, leaving toxic vapors to rise silently into the passenger cars.",
+    "words": 25
+   },
+   {
+    "id": "1.04#4",
+    "text": "It was a calculated, coordinated chemical strike aimed directly at innocent citizens.",
+    "words": 12
    }
   ]
  },
  {
   "id": "1.05",
   "act": 1,
-  "kind": "SFX",
-  "desc": "The sharp puncture of umbrella tips through plastic, liquid seeping across the floor, train doors slamming shut."
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": "Music drops abruptly"
  },
  {
   "id": "1.06",
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "faster tempo, recounting the catastrophe",
-  "text": "The liquid rapidly began to vaporize within the confined, crowded spaces of the subway cars. Within minutes, an unprecedented nightmare in human history erupted beneath the streets of Tokyo.",
+  "direction": "faster tempo, portraying the emerging tragedy",
+  "text": "Within mere minutes, a nightmare unprecedented in Japan’s postwar history erupted beneath the streets of Tokyo. Imagine what an ordinary passenger on board experienced that fateful morning.",
   "sentences": [
    {
     "id": "1.06#1",
-    "text": "The liquid rapidly began to vaporize within the confined, crowded spaces of the subway cars.",
-    "words": 15
+    "text": "Within mere minutes, a nightmare unprecedented in Japan’s postwar history erupted beneath the streets of Tokyo.",
+    "words": 16
    },
    {
     "id": "1.06#2",
-    "text": "Within minutes, an unprecedented nightmare in human history erupted beneath the streets of Tokyo.",
-    "words": 14
+    "text": "Imagine what an ordinary passenger on board experienced that fateful morning.",
+    "words": 11
    }
   ]
  },
@@ -122,48 +113,33 @@
   "act": 1,
   "kind": "LOI",
   "role": "N",
-  "direction": "N1: Passenger on the Chiyoda Line, female voice, shaken and tearful",
-  "text": "I was standing on the train reading a book when I caught a strange, faint pungent chemical smell, almost like paint thinner. Suddenly, my eyes began burning violently and everything around me went pitch-black as if someone had switched off every lightbulb. My throat tightened and burned, leaving me completely unable to draw a breath. People all around me started coughing uncontrollably and collapsing onto the train floor. Terrified screams echoed everywhere as passengers trampled over each other trying to find any way out. When the train finally stopped at the next platform, we had to crawl on our hands and knees in complete blindness. Nobody understood what was happening. In that terrifying moment, it felt as though the end of the world had arrived.",
+  "direction": "N1: dramatized perspective of a surviving commuter at Tsukiji Station, young female voice trembling with shock",
+  "text": "I was standing reading a book on the train when I caught a strange, faint odor, almost like paint thinner. Suddenly, my eyes began burning violently, and everything around me went pitch black as if someone had cut all the power. My chest tightened into suffocation, and people around me began coughing uncontrollably before rushing blindly toward the exits. No one understood what was happening, and raw terror instantly consumed the entire platform. In that terrifying moment, it truly felt as though the end of the world had descended upon us in broad daylight.",
   "sentences": [
    {
     "id": "1.07#1",
-    "text": "I was standing on the train reading a book when I caught a strange, faint pungent chemical smell, almost like paint thinner.",
-    "words": 22
-   },
-   {
-    "id": "1.07#2",
-    "text": "Suddenly, my eyes began burning violently and everything around me went pitch-black as if someone had switched off every lightbulb.",
+    "text": "I was standing reading a book on the train when I caught a strange, faint odor, almost like paint thinner.",
     "words": 20
    },
    {
-    "id": "1.07#3",
-    "text": "My throat tightened and burned, leaving me completely unable to draw a breath.",
-    "words": 13
-   },
-   {
-    "id": "1.07#4",
-    "text": "People all around me started coughing uncontrollably and collapsing onto the train floor.",
-    "words": 13
-   },
-   {
-    "id": "1.07#5",
-    "text": "Terrified screams echoed everywhere as passengers trampled over each other trying to find any way out.",
-    "words": 16
-   },
-   {
-    "id": "1.07#6",
-    "text": "When the train finally stopped at the next platform, we had to crawl on our hands and knees in complete blindness.",
+    "id": "1.07#2",
+    "text": "Suddenly, my eyes began burning violently, and everything around me went pitch black as if someone had cut all the power.",
     "words": 21
    },
    {
-    "id": "1.07#7",
-    "text": "Nobody understood what was happening.",
-    "words": 5
+    "id": "1.07#3",
+    "text": "My chest tightened into suffocation, and people around me began coughing uncontrollably before rushing blindly toward the exits.",
+    "words": 18
    },
    {
-    "id": "1.07#8",
-    "text": "In that terrifying moment, it felt as though the end of the world had arrived.",
-    "words": 15
+    "id": "1.07#4",
+    "text": "No one understood what was happening, and raw terror instantly consumed the entire platform.",
+    "words": 14
+   },
+   {
+    "id": "1.07#5",
+    "text": "In that terrifying moment, it truly felt as though the end of the world had descended upon us in broad daylight.",
+    "words": 21
    }
   ]
  },
@@ -171,142 +147,164 @@
   "id": "1.08",
   "act": 1,
   "kind": "SFX",
-  "desc": "Piercing ambulance sirens, chaotic police cruisers rushing through city streets."
+  "desc": "Wailing ambulance sirens, blaring police cruisers echoing across crowded streets."
  },
  {
   "id": "1.09",
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "lowered voice",
-  "text": "The chemical strike claimed the lives of fourteen innocent civilians. More than five thousand eight hundred others suffered severe nervous system damage and acute vision loss. Thousands of survivors would carry deep psychological trauma for the rest of their lives. The entire metropolis of Tokyo was thrown into a state of paralyzed emergency.",
+  "direction": "somber tone",
+  "text": "The chemical strike claimed the lives of fourteen innocent people and severely injured over five thousand eight hundred commuters. Two courageous subway station workers, Kazumasa Takahashi and Tsuneo Hishinuma, heroically removed the toxic bags with their bare hands to protect passengers and made the ultimate sacrifice. Thousands of survivors were left grappling with severe long-term psychological trauma and lingering physical aftereffects for decades. Collective paranoia gripped the metropolis: Tokyo commuters held their breath descending subway stairs, inspected undercarriages of seats, and viewed strangers with profound suspicion. The entire transportation and emergency medical infrastructure of the world’s largest metropolis fell into an unprecedented state of paralysis.",
   "sentences": [
    {
     "id": "1.09#1",
-    "text": "The chemical strike claimed the lives of fourteen innocent civilians.",
-    "words": 10
+    "text": "The chemical strike claimed the lives of fourteen innocent people and severely injured over five thousand eight hundred commuters.",
+    "words": 19
    },
    {
     "id": "1.09#2",
-    "text": "More than five thousand eight hundred others suffered severe nervous system damage and acute vision loss.",
-    "words": 16
+    "text": "Two courageous subway station workers, Kazumasa Takahashi and Tsuneo Hishinuma, heroically removed the toxic bags with their bare hands to protect passengers and made the ultimate sacrifice.",
+    "words": 27
    },
    {
     "id": "1.09#3",
-    "text": "Thousands of survivors would carry deep psychological trauma for the rest of their lives.",
-    "words": 14
+    "text": "Thousands of survivors were left grappling with severe long-term psychological trauma and lingering physical aftereffects for decades.",
+    "words": 17
    },
    {
     "id": "1.09#4",
-    "text": "The entire metropolis of Tokyo was thrown into a state of paralyzed emergency.",
-    "words": 13
+    "text": "Collective paranoia gripped the metropolis: Tokyo commuters held their breath descending subway stairs, inspected undercarriages of seats, and viewed strangers with profound suspicion.",
+    "words": 23
+   },
+   {
+    "id": "1.09#5",
+    "text": "The entire transportation and emergency medical infrastructure of the world’s largest metropolis fell into an unprecedented state of paralysis.",
+    "words": 19
    }
   ]
  },
  {
   "id": "1.10",
   "act": 1,
-  "kind": "LOI",
-  "role": "D",
-  "direction": "crisp, decisive male voice",
-  "text": "Immediately upon receiving word of the chemical gas release at Kasumigaseki Station, Japan’s National Police Agency determined this was a massive coordinated terrorist attack. Their targets were aimed directly at subway lines running through the core nerve center of government operations. This action was designed to cripple the entire administrative apparatus of the nation. Every investigative trace at the scene rapidly converged upon one shadowy religious organization: the Aum Shinrikyo cult.",
-  "sentences": [
-   {
-    "id": "1.10#1",
-    "text": "Immediately upon receiving word of the chemical gas release at Kasumigaseki Station, Japan’s National Police Agency determined this was a massive coordinated terrorist attack.",
-    "words": 24
-   },
-   {
-    "id": "1.10#2",
-    "text": "Their targets were aimed directly at subway lines running through the core nerve center of government operations.",
-    "words": 17
-   },
-   {
-    "id": "1.10#3",
-    "text": "This action was designed to cripple the entire administrative apparatus of the nation.",
-    "words": 13
-   },
-   {
-    "id": "1.10#4",
-    "text": "Every investigative trace at the scene rapidly converged upon one shadowy religious organization: the Aum Shinrikyo cult.",
-    "words": 17
-   }
-  ]
+  "kind": "SFX",
+  "desc": "Sharp click of a case file folder shutting firmly."
  },
  {
   "id": "1.11",
   "act": 1,
   "kind": "LOI",
-  "role": "H",
-  "direction": "closing Act 1",
-  "text": "But what truly stunned the world was not merely the sheer cruelty of the strike. As the real identities of those who manufactured and dispersed the lethal agent began to emerge, a shocking paradox unfolded before the public eye. The masterminds were not foreign military operatives or hardened criminals. They were a cabal of leading scientists, medical doctors, and elite intellectuals from the very heart of Japan.",
+  "role": "D",
+  "direction": "sharp, decisive male tone",
+  "text": "Immediately following reports of toxic gas releases at Kasumigaseki Station, the National Police Agency recognized this as a coordinated, large-scale terrorist attack. The perpetrators intentionally targeted transit lines converging on central government ministries to paralyze the nation’s governing apparatus. The operational scheme was meticulously calculated, deploying five synchronized attackers at the exact peak of morning commuter congestion. Forensic testing quickly identified the substance as sarin, an artificial nerve agent that is extraordinarily hazardous and chemically intricate to synthesize. Every operational footprint at the scene pointed swiftly toward an enigmatic religious organization known as Aum Shinrikyo.",
   "sentences": [
    {
     "id": "1.11#1",
-    "text": "But what truly stunned the world was not merely the sheer cruelty of the strike.",
-    "words": 15
+    "text": "Immediately following reports of toxic gas releases at Kasumigaseki Station, the National Police Agency recognized this as a coordinated, large-scale terrorist attack.",
+    "words": 22
    },
    {
     "id": "1.11#2",
-    "text": "As the real identities of those who manufactured and dispersed the lethal agent began to emerge, a shocking paradox unfolded before the public eye.",
-    "words": 24
+    "text": "The perpetrators intentionally targeted transit lines converging on central government ministries to paralyze the nation’s governing apparatus.",
+    "words": 17
    },
    {
     "id": "1.11#3",
-    "text": "The masterminds were not foreign military operatives or hardened criminals.",
-    "words": 10
+    "text": "The operational scheme was meticulously calculated, deploying five synchronized attackers at the exact peak of morning commuter congestion.",
+    "words": 18
    },
    {
     "id": "1.11#4",
-    "text": "They were a cabal of leading scientists, medical doctors, and elite intellectuals from the very heart of Japan.",
-    "words": 18
+    "text": "Forensic testing quickly identified the substance as sarin, an artificial nerve agent that is extraordinarily hazardous and chemically intricate to synthesize.",
+    "words": 21
+   },
+   {
+    "id": "1.11#5",
+    "text": "Every operational footprint at the scene pointed swiftly toward an enigmatic religious organization known as Aum Shinrikyo.",
+    "words": 17
    }
   ]
  },
  {
   "id": "1.12",
   "act": 1,
-  "kind": "BGM",
-  "desc": "Dramatic orchestral music swells, then abruptly cuts out with a chilling metallic chime."
+  "kind": "LOI",
+  "role": "H",
+  "direction": "closing Act 1",
+  "text": "Yet what stunned Japan and the global community went far beyond the sheer cruelty of the strike itself. As the true identities of those who synthesized and deployed the chemical weapon emerged, an astonishing paradox stood exposed before the public eye. The perpetrators were neither a foreign military unit nor hardened street criminals operating on society’s margins. Behind this devastating assault were top-tier scientists, medical doctors, and intellectual elites educated at Japan’s most prestigious universities. Their immaculate academic credentials had created a lethal “Halo Effect”, blinding society and law enforcement for years.",
+  "sentences": [
+   {
+    "id": "1.12#1",
+    "text": "Yet what stunned Japan and the global community went far beyond the sheer cruelty of the strike itself.",
+    "words": 18
+   },
+   {
+    "id": "1.12#2",
+    "text": "As the true identities of those who synthesized and deployed the chemical weapon emerged, an astonishing paradox stood exposed before the public eye.",
+    "words": 23
+   },
+   {
+    "id": "1.12#3",
+    "text": "The perpetrators were neither a foreign military unit nor hardened street criminals operating on society’s margins.",
+    "words": 16
+   },
+   {
+    "id": "1.12#4",
+    "text": "Behind this devastating assault were top-tier scientists, medical doctors, and intellectual elites educated at Japan’s most prestigious universities.",
+    "words": 18
+   },
+   {
+    "id": "1.12#5",
+    "text": "Their immaculate academic credentials had created a lethal “Halo Effect”, blinding society and law enforcement for years.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "1.13",
+  "act": 1,
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": "Heavy somber metal bell chime"
  },
  {
   "id": "2.01",
   "act": 2,
   "kind": "BGM",
-  "desc": "Tense Dark Ambient music with driving sub-bass pulses, evoking a historic tactical raid."
+  "desc": "Tense Dark Ambient progression with pulsing bass rhythms depicting the historic raid."
  },
  {
   "id": "2.02",
   "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "gripping, suspenseful tone",
-  "text": "Early in the morning of March 22nd, 1995, exactly two days after the horrific underground attack in Tokyo. Over one thousand police officers and specialized chemical defense troops launched a coordinated assault. They were equipped with protective hazardous materials suits, gas masks, and self-contained breathing apparatus. The tactical convoy rolled straight into the sprawling compound of the Aum cult in the rural village of Kamikuishiki. This stronghold stood completely isolated at the foot of Mount Fuji.",
+  "direction": "suspenseful delivery",
+  "text": "At dawn on March 22, 1995, exactly two days after the subway horror beneath Tokyo. Over one thousand police officers and chemical warfare specialists mobilized simultaneously in a massive tactical operation. Equipped with heavy gas masks and specialized oxygen tanks. The convoy advanced on Aum Shinrikyo’s sprawling compound in Kamikuishiki village, completely isolated at the foot of Mount Fuji. It became the most extensive search and seizure operation in the history of Japanese law enforcement.",
   "sentences": [
    {
     "id": "2.02#1",
-    "text": "Early in the morning of March 22nd, 1995, exactly two days after the horrific underground attack in Tokyo.",
-    "words": 18
+    "text": "At dawn on March 22, 1995, exactly two days after the subway horror beneath Tokyo.",
+    "words": 15
    },
    {
     "id": "2.02#2",
-    "text": "Over one thousand police officers and specialized chemical defense troops launched a coordinated assault.",
-    "words": 14
+    "text": "Over one thousand police officers and chemical warfare specialists mobilized simultaneously in a massive tactical operation.",
+    "words": 16
    },
    {
     "id": "2.02#3",
-    "text": "They were equipped with protective hazardous materials suits, gas masks, and self-contained breathing apparatus.",
-    "words": 14
+    "text": "Equipped with heavy gas masks and specialized oxygen tanks.",
+    "words": 9
    },
    {
     "id": "2.02#4",
-    "text": "The tactical convoy rolled straight into the sprawling compound of the Aum cult in the rural village of Kamikuishiki.",
+    "text": "The convoy advanced on Aum Shinrikyo’s sprawling compound in Kamikuishiki village, completely isolated at the foot of Mount Fuji.",
     "words": 19
    },
    {
     "id": "2.02#5",
-    "text": "This stronghold stood completely isolated at the foot of Mount Fuji.",
-    "words": 11
+    "text": "It became the most extensive search and seizure operation in the history of Japanese law enforcement.",
+    "words": 16
    }
   ]
  },
@@ -314,35 +312,45 @@
   "id": "2.03",
   "act": 2,
   "kind": "SFX",
-  "desc": "Heavy synchronized footsteps of tactical units, megaphone announcements demanding surrender."
+  "desc": "Heavy marching boots of tactical officers, loud megaphone orders demanding surrender."
  },
  {
   "id": "2.04",
   "act": 2,
   "kind": "LOI",
   "role": "D",
-  "direction": "recounting the search of the crime scene",
-  "text": "The cult’s headquarters, designated the Satyam complex, consisted of dozens of drab, windowless concrete buildings. The perimeter was heavily guarded and monitored by an extensive surveillance camera network. On the surface, the compound purported to be a peaceful meditation commune and agricultural processing facility. But when our breaching teams forced entry into the building marked Satyam Number 7, every forensic specialist froze in sheer disbelief at what lay before our eyes.",
+  "direction": "reconstructing the forensic scene search",
+  "text": "The cult’s complex, known as Satyam, comprised dozens of monolithic concrete structures fortified with round-the-clock surveillance camera networks. Outwardly, the site posed as a peaceful meditation monastery and an organic agricultural enterprise. However, when investigators entered the building designated as Satyam Number 7, forensic specialists were chilled by what they uncovered. Inside lay no sacred statues or tranquil meditation halls, but a fully operational, industrial-grade chemical weapons factory. Police seized dozens of tons of precursor chemicals alongside advanced organic synthesis machinery valued at millions of dollars. Furthermore, the cult had secretly imported a Russian Mi-17 military helicopter and was actively cultivating deadly anthrax spores.",
   "sentences": [
    {
     "id": "2.04#1",
-    "text": "The cult’s headquarters, designated the Satyam complex, consisted of dozens of drab, windowless concrete buildings.",
-    "words": 15
+    "text": "The cult’s complex, known as Satyam, comprised dozens of monolithic concrete structures fortified with round-the-clock surveillance camera networks.",
+    "words": 18
    },
    {
     "id": "2.04#2",
-    "text": "The perimeter was heavily guarded and monitored by an extensive surveillance camera network.",
-    "words": 13
+    "text": "Outwardly, the site posed as a peaceful meditation monastery and an organic agricultural enterprise.",
+    "words": 14
    },
    {
     "id": "2.04#3",
-    "text": "On the surface, the compound purported to be a peaceful meditation commune and agricultural processing facility.",
-    "words": 16
+    "text": "However, when investigators entered the building designated as Satyam Number 7, forensic specialists were chilled by what they uncovered.",
+    "words": 19
    },
    {
     "id": "2.04#4",
-    "text": "But when our breaching teams forced entry into the building marked Satyam Number 7, every forensic specialist froze in sheer disbelief at what lay before our eyes.",
-    "words": 27
+    "text": "Inside lay no sacred statues or tranquil meditation halls, but a fully operational, industrial-grade chemical weapons factory.",
+    "words": 17
+   },
+   {
+    "id": "2.04#5",
+    "text": "Police seized dozens of tons of precursor chemicals alongside advanced organic synthesis machinery valued at millions of dollars.",
+    "words": 18
+   },
+   {
+    "id": "2.04#6",
+    "text": "Furthermore, the cult had secretly imported a Russian Mi-17 military helicopter and was actively cultivating deadly anthrax spores.",
+    "words": 18
    }
   ]
  },
@@ -351,83 +359,94 @@
   "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "continuing narration",
-  "text": "Inside Satyam Number 7, there were no Buddhist altars or serene prayer halls to be found. It was a fully realized, industrial-scale chemical weapons manufacturing plant. Investigators seized dozens of tons of precursor chemical agents. Alongside them stood cutting-edge organic synthesis equipment worth millions of dollars.",
+  "direction": "analyzing MO and behavioral trigger",
+  "text": "From an investigative standpoint, the March 20 attack demonstrated a stark divide between the cult’s Modus Operandi and its psychological Signature. Their Modus Operandi was clinically executed: double-layered plastic bags wrapped in newspaper, punctured with sharpened umbrella tips, and getaway drivers staged outside stations. Yet the psychological trigger that launched the strike on that precise date arose from sheer panic within cult leadership. Cult leader Shoko Asahara received an internal leak that police were scheduling a full-scale raid on Kamikuishiki for March 22 regarding a notary kidnapping in Tokyo. Faced with imminent exposure, Asahara ordered the sarin offensive within a desperate 48-hour window to disrupt police headquarters and divert investigative scrutiny. Meanwhile, his indelible psychological Signature remained the obsessive compulsion to manifest his apocalyptic prophecies into physical reality. He desperately needed to validate his apocalyptic timeline of World War Three before the eyes of his devout followers.",
   "sentences": [
    {
     "id": "2.05#1",
-    "text": "Inside Satyam Number 7, there were no Buddhist altars or serene prayer halls to be found.",
-    "words": 16
+    "text": "From an investigative standpoint, the March 20 attack demonstrated a stark divide between the cult’s Modus Operandi and its psychological Signature.",
+    "words": 21
    },
    {
     "id": "2.05#2",
-    "text": "It was a fully realized, industrial-scale chemical weapons manufacturing plant.",
-    "words": 10
+    "text": "Their Modus Operandi was clinically executed: double-layered plastic bags wrapped in newspaper, punctured with sharpened umbrella tips, and getaway drivers staged outside stations.",
+    "words": 23
    },
    {
     "id": "2.05#3",
-    "text": "Investigators seized dozens of tons of precursor chemical agents.",
-    "words": 9
+    "text": "Yet the psychological trigger that launched the strike on that precise date arose from sheer panic within cult leadership.",
+    "words": 19
    },
    {
     "id": "2.05#4",
-    "text": "Alongside them stood cutting-edge organic synthesis equipment worth millions of dollars.",
-    "words": 11
+    "text": "Cult leader Shoko Asahara received an internal leak that police were scheduling a full-scale raid on Kamikuishiki for March 22 regarding a notary kidnapping in Tokyo.",
+    "words": 26
+   },
+   {
+    "id": "2.05#5",
+    "text": "Faced with imminent exposure, Asahara ordered the sarin offensive within a desperate 48-hour window to disrupt police headquarters and divert investigative scrutiny.",
+    "words": 22
+   },
+   {
+    "id": "2.05#6",
+    "text": "Meanwhile, his indelible psychological Signature remained the obsessive compulsion to manifest his apocalyptic prophecies into physical reality.",
+    "words": 17
+   },
+   {
+    "id": "2.05#7",
+    "text": "He desperately needed to validate his apocalyptic timeline of World War Three before the eyes of his devout followers.",
+    "words": 19
    }
   ]
  },
  {
   "id": "2.06",
   "act": 2,
-  "kind": "LOI",
-  "role": "D",
-  "direction": "listing the chilling discoveries",
-  "text": "Within the facility, we uncovered conclusive evidence that the cult had successfully synthesized hundreds of liters of Sarin gas and deadly VX nerve agent. Even more terrifyingly, inside subterranean biological laboratories, cult scientists were actively culturing Anthrax bacilli and lethal Botulinum toxins. Their ultimate objective was to prepare for even larger-scale cataclysms in the near future. They had even secretly procured a military-grade Mi-17 helicopter from abroad with the intention of dispersing chemical agents from the sky.",
-  "sentences": [
-   {
-    "id": "2.06#1",
-    "text": "Within the facility, we uncovered conclusive evidence that the cult had successfully synthesized hundreds of liters of Sarin gas and deadly VX nerve agent.",
-    "words": 24
-   },
-   {
-    "id": "2.06#2",
-    "text": "Even more terrifyingly, inside subterranean biological laboratories, cult scientists were actively culturing Anthrax bacilli and lethal Botulinum toxins.",
-    "words": 18
-   },
-   {
-    "id": "2.06#3",
-    "text": "Their ultimate objective was to prepare for even larger-scale cataclysms in the near future.",
-    "words": 14
-   },
-   {
-    "id": "2.06#4",
-    "text": "They had even secretly procured a military-grade Mi-17 helicopter from abroad with the intention of dispersing chemical agents from the sky.",
-    "words": 21
-   }
-  ]
+  "kind": "SFX",
+  "desc": "Distant air-raid warning horn sounding somberly across the valley."
  },
  {
   "id": "2.07",
   "act": 2,
   "kind": "LOI",
-  "role": "H",
-  "direction": "linking past cold cases",
-  "text": "The raid on Satyam Number 7 also cracked open a series of baffling murders that had shaken Japanese society for years. In the summer of 1994, a mysterious toxic gas release in the city of Matsumoto had killed eight people. As it turned out, that incident had been the cult’s preliminary field trial intended to assassinate judges presiding over land disputes involving Aum.",
+  "role": "D",
+  "direction": "detailing the escalation ladder",
+  "text": "Subsequent criminal investigations exposed a years-long escalation trajectory of violence that had steadily radicalized the group: The First Step: Originating as a modest yoga studio utilizing staged levitation photographs to recruit susceptible seekers. The Second Step: Forcibly confiscating personal assets, confining defectors in sensory deprivation cells, and liquidating internal dissenters. The Third Step: The brutal 1989 murder of Attorney Tsutsumi Sakamoto and his entire family when he stood up to defend victimized relatives. The Fourth Step: The June 1994 Matsumoto sarin gas attack killing eight innocent civilians to eliminate judges presiding over a real estate lawsuit against Aum. This behavioral pattern proved that violence escalated relentlessly as the cult sank deeper into unchecked megalomania. The Tokyo subway horror marked the ultimate crescendo of that murderous escalation cycle.",
   "sentences": [
    {
     "id": "2.07#1",
-    "text": "The raid on Satyam Number 7 also cracked open a series of baffling murders that had shaken Japanese society for years.",
-    "words": 21
+    "text": "Subsequent criminal investigations exposed a years-long escalation trajectory of violence that had steadily radicalized the group:",
+    "words": 16
    },
    {
     "id": "2.07#2",
-    "text": "In the summer of 1994, a mysterious toxic gas release in the city of Matsumoto had killed eight people.",
-    "words": 19
+    "text": "The First Step: Originating as a modest yoga studio utilizing staged levitation photographs to recruit susceptible seekers.",
+    "words": 17
    },
    {
     "id": "2.07#3",
-    "text": "As it turned out, that incident had been the cult’s preliminary field trial intended to assassinate judges presiding over land disputes involving Aum.",
+    "text": "The Second Step: Forcibly confiscating personal assets, confining defectors in sensory deprivation cells, and liquidating internal dissenters.",
+    "words": 17
+   },
+   {
+    "id": "2.07#4",
+    "text": "The Third Step: The brutal 1989 murder of Attorney Tsutsumi Sakamoto and his entire family when he stood up to defend victimized relatives.",
     "words": 23
+   },
+   {
+    "id": "2.07#5",
+    "text": "The Fourth Step: The June 1994 Matsumoto sarin gas attack killing eight innocent civilians to eliminate judges presiding over a real estate lawsuit against Aum.",
+    "words": 25
+   },
+   {
+    "id": "2.07#6",
+    "text": "This behavioral pattern proved that violence escalated relentlessly as the cult sank deeper into unchecked megalomania.",
+    "words": 16
+   },
+   {
+    "id": "2.07#7",
+    "text": "The Tokyo subway horror marked the ultimate crescendo of that murderous escalation cycle.",
+    "words": 13
    }
   ]
  },
@@ -435,107 +454,87 @@
   "id": "2.08",
   "act": 2,
   "kind": "LOI",
-  "role": "D",
-  "direction": "grave, somber tone",
-  "text": "We also located the buried remains of attorney Tsutsumi Sakamoto, along with his wife and their one-year-old infant son. This brave lawyer had been systematically silenced back in 1989. His only transgression had been providing legal counsel to distressed families attempting to rescue their children from the cult’s grip.",
+  "role": "H",
+  "direction": "closing Act 2",
+  "text": "A religious sect claiming to offer spiritual liberation possessed an arsenal capable of mass extermination. Stimulus tolerance drove their satisfaction threshold ever further, transforming small deceptive parlor tricks into catastrophic terrorism. How did a partially blind ex-patent-medicine salesman successfully assemble and control brilliant intellectuals to construct such a death machine? The answer resides deep within the darkest corridors of behavioral psychology.",
   "sentences": [
    {
     "id": "2.08#1",
-    "text": "We also located the buried remains of attorney Tsutsumi Sakamoto, along with his wife and their one-year-old infant son.",
-    "words": 19
+    "text": "A religious sect claiming to offer spiritual liberation possessed an arsenal capable of mass extermination.",
+    "words": 15
    },
    {
     "id": "2.08#2",
-    "text": "This brave lawyer had been systematically silenced back in 1989.",
-    "words": 10
+    "text": "Stimulus tolerance drove their satisfaction threshold ever further, transforming small deceptive parlor tricks into catastrophic terrorism.",
+    "words": 16
    },
    {
     "id": "2.08#3",
-    "text": "His only transgression had been providing legal counsel to distressed families attempting to rescue their children from the cult’s grip.",
-    "words": 20
+    "text": "How did a partially blind ex-patent-medicine salesman successfully assemble and control brilliant intellectuals to construct such a death machine?",
+    "words": 19
+   },
+   {
+    "id": "2.08#4",
+    "text": "The answer resides deep within the darkest corridors of behavioral psychology.",
+    "words": 11
    }
   ]
  },
  {
   "id": "2.09",
   "act": 2,
-  "kind": "LOI",
-  "role": "H",
-  "direction": "raising the central question of Act 2",
-  "text": "A religious movement claiming to offer spiritual enlightenment had amassed an arsenal of mass destruction capable of wiping out millions of lives. How could a doomsday cult construct and operate such sophisticated, lethal technology right within one of the most rigorously policed nations on earth?",
-  "sentences": [
-   {
-    "id": "2.09#1",
-    "text": "A religious movement claiming to offer spiritual enlightenment had amassed an arsenal of mass destruction capable of wiping out millions of lives.",
-    "words": 22
-   },
-   {
-    "id": "2.09#2",
-    "text": "How could a doomsday cult construct and operate such sophisticated, lethal technology right within one of the most rigorously policed nations on earth?",
-    "words": 23
-   }
-  ]
- },
- {
-  "id": "2.10",
-  "act": 2,
   "kind": "NGHI",
-  "sec": 1.0,
-  "desc": "distant police sirens fading into silence"
+  "sec": 1.5,
+  "desc": "Muffled heartbeat pulse"
  },
  {
   "id": "3.01",
   "act": 3,
   "kind": "BGM",
-  "desc": "The music turns somber and mournful, slow melancholic chords setting a philosophical and tragic tone."
+  "desc": "Dark, reflective soundtrack with slow-tempo piano chords evoking philosophical tragedy."
  },
  {
   "id": "3.02",
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "opening Act 3 with stark psychological contrast",
-  "text": "At the head of Aum Shinrikyo was a man named Shoko Asahara, born Chizuo Matsumoto. He came from an impoverished, large family in Kumamoto Prefecture. Blind in one eye and severely visually impaired in the other from a congenital illness. In his youth, Matsumoto repeatedly failed the entrance examinations for the prestigious University of Tokyo. He once operated an acupuncture clinic and received criminal penalties for peddling counterfeit herbal remedies. A man of fragmented education, disheveled appearance, and deep emotional volatility. Yet kneeling at the feet of that partially blind man were some of the most gifted intellectuals in modern Japan. They willingly surrendered their wealth, their analytical intellect, and their moral consciences to a convicted quack practitioner.",
+  "direction": "opening Act 3 with extreme behavioral contrast",
+  "text": "At the helm of Aum Shinrikyo stood Shoko Asahara, whose birth name was Chizuo Matsumoto. Born into an impoverished multi-child family in Kumamoto, he suffered congenital blindness in one eye and severely restricted vision in the other. In his youth, Matsumoto repeatedly failed competitive entrance examinations for the prestigious University of Tokyo. He later opened an acupuncture clinic and received criminal fines for peddling fraudulent Chinese medicines. He was a man of fragmented education, unkempt appearance, and profound malignant narcissism. Yet prostrating at the feet of this partially blind charlatan were some of Japan’s finest scientific minds. They eagerly surrendered their fortunes, rational intellects, and moral compasses to a man once dismissed by mainstream society.",
   "sentences": [
    {
     "id": "3.02#1",
-    "text": "At the head of Aum Shinrikyo was a man named Shoko Asahara, born Chizuo Matsumoto.",
+    "text": "At the helm of Aum Shinrikyo stood Shoko Asahara, whose birth name was Chizuo Matsumoto.",
     "words": 15
    },
    {
     "id": "3.02#2",
-    "text": "He came from an impoverished, large family in Kumamoto Prefecture.",
-    "words": 10
+    "text": "Born into an impoverished multi-child family in Kumamoto, he suffered congenital blindness in one eye and severely restricted vision in the other.",
+    "words": 22
    },
    {
     "id": "3.02#3",
-    "text": "Blind in one eye and severely visually impaired in the other from a congenital illness.",
+    "text": "In his youth, Matsumoto repeatedly failed competitive entrance examinations for the prestigious University of Tokyo.",
     "words": 15
    },
    {
     "id": "3.02#4",
-    "text": "In his youth, Matsumoto repeatedly failed the entrance examinations for the prestigious University of Tokyo.",
+    "text": "He later opened an acupuncture clinic and received criminal fines for peddling fraudulent Chinese medicines.",
     "words": 15
    },
    {
     "id": "3.02#5",
-    "text": "He once operated an acupuncture clinic and received criminal penalties for peddling counterfeit herbal remedies.",
-    "words": 15
+    "text": "He was a man of fragmented education, unkempt appearance, and profound malignant narcissism.",
+    "words": 13
    },
    {
     "id": "3.02#6",
-    "text": "A man of fragmented education, disheveled appearance, and deep emotional volatility.",
-    "words": 11
+    "text": "Yet prostrating at the feet of this partially blind charlatan were some of Japan’s finest scientific minds.",
+    "words": 17
    },
    {
     "id": "3.02#7",
-    "text": "Yet kneeling at the feet of that partially blind man were some of the most gifted intellectuals in modern Japan.",
-    "words": 20
-   },
-   {
-    "id": "3.02#8",
-    "text": "They willingly surrendered their wealth, their analytical intellect, and their moral consciences to a convicted quack practitioner.",
-    "words": 17
+    "text": "They eagerly surrendered their fortunes, rational intellects, and moral compasses to a man once dismissed by mainstream society.",
+    "words": 18
    }
   ]
  },
@@ -544,43 +543,38 @@
   "act": 3,
   "kind": "LOI",
   "role": "D",
-  "direction": "revealing the identities of the elite inner circle",
-  "text": "The official dossiers of the Aum leadership core left investigators utterly astonished. Serving as the cult’s Minister of Chemistry was Masami Tsuchiya, top graduate holding a master’s degree in organic chemistry from the prestigious University of Tsukuba. The Minister of Science and Technology was Hideo Murai, a brilliant physicist from Osaka University who had conducted advanced research on cosmic radiation. Heading the medical and biological warfare division was Seiichi Endo, a master of virology from Kyoto University Medical School. Synthesizing lethal poisons was Doctor Tomomasa Nakagawa. And most remarkably of all, overseeing the cult’s hospital system was Doctor Ikuo Hayashi. He was an esteemed medical specialist graduated from Keio University, who had previously served as Chief of Cardiovascular Surgery at Tokorozawa National Hospital.",
+  "direction": "revealing elite leadership roster",
+  "text": "Forensic profiles of Aum’s inner sanctum astonished seasoned detectives with the extraordinary intellectual caliber assembled. Heading the cult’s Ministry of Chemistry was Masami Tsuchiya, a brilliant organic chemistry master’s graduate from prestigious Tsukuba University. Directing the Ministry of Science and Technology was Hideo Murai, a talented Osaka University astrophysicist with published research in cosmic radiation. Overseeing the medical division and biological weapons was Seiichi Endo, who completed advanced molecular virology studies at Kyoto University. Another key operative was Doctor Tomomasa Nakagawa, an accredited medical physician. Most striking of all, running the cult’s medical clinic was Doctor Ikuo Hayashi, a Keio University-educated cardiologist who had served as department chief at a national hospital.",
   "sentences": [
    {
     "id": "3.03#1",
-    "text": "The official dossiers of the Aum leadership core left investigators utterly astonished.",
-    "words": 12
+    "text": "Forensic profiles of Aum’s inner sanctum astonished seasoned detectives with the extraordinary intellectual caliber assembled.",
+    "words": 15
    },
    {
     "id": "3.03#2",
-    "text": "Serving as the cult’s Minister of Chemistry was Masami Tsuchiya, top graduate holding a master’s degree in organic chemistry from the prestigious University of Tsukuba.",
-    "words": 25
+    "text": "Heading the cult’s Ministry of Chemistry was Masami Tsuchiya, a brilliant organic chemistry master’s graduate from prestigious Tsukuba University.",
+    "words": 19
    },
    {
     "id": "3.03#3",
-    "text": "The Minister of Science and Technology was Hideo Murai, a brilliant physicist from Osaka University who had conducted advanced research on cosmic radiation.",
-    "words": 23
+    "text": "Directing the Ministry of Science and Technology was Hideo Murai, a talented Osaka University astrophysicist with published research in cosmic radiation.",
+    "words": 21
    },
    {
     "id": "3.03#4",
-    "text": "Heading the medical and biological warfare division was Seiichi Endo, a master of virology from Kyoto University Medical School.",
+    "text": "Overseeing the medical division and biological weapons was Seiichi Endo, who completed advanced molecular virology studies at Kyoto University.",
     "words": 19
    },
    {
     "id": "3.03#5",
-    "text": "Synthesizing lethal poisons was Doctor Tomomasa Nakagawa.",
-    "words": 7
+    "text": "Another key operative was Doctor Tomomasa Nakagawa, an accredited medical physician.",
+    "words": 11
    },
    {
     "id": "3.03#6",
-    "text": "And most remarkably of all, overseeing the cult’s hospital system was Doctor Ikuo Hayashi.",
-    "words": 14
-   },
-   {
-    "id": "3.03#7",
-    "text": "He was an esteemed medical specialist graduated from Keio University, who had previously served as Chief of Cardiovascular Surgery at Tokorozawa National Hospital.",
-    "words": 23
+    "text": "Most striking of all, running the cult’s medical clinic was Doctor Ikuo Hayashi, a Keio University-educated cardiologist who had served as department chief at a national hospital.",
+    "words": 27
    }
   ]
  },
@@ -589,18 +583,23 @@
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "posing the core paradox",
-  "text": "A cardiac surgeon who had devoted his entire life to saving hundreds of human lives, and a chemist with a luminous scientific future ahead of him. Why would they discard their stellar careers, choosing to crawl inside squalid underground bunkers to synthesize lethal chemicals designed to slaughter their own countrymen?",
+  "direction": "posing the central dilemma",
+  "text": "A respected cardiologist who had sworn the Hippocratic Oath to preserve human life, brilliant scholars with dazzling academic horizons. Why did these accomplished professionals abandon their careers to manufacture chemical weapons against their fellow citizens? What systematically demolished the rational cognitive defenses of the nation’s brightest minds?",
   "sentences": [
    {
     "id": "3.04#1",
-    "text": "A cardiac surgeon who had devoted his entire life to saving hundreds of human lives, and a chemist with a luminous scientific future ahead of him.",
-    "words": 26
+    "text": "A respected cardiologist who had sworn the Hippocratic Oath to preserve human life, brilliant scholars with dazzling academic horizons.",
+    "words": 19
    },
    {
     "id": "3.04#2",
-    "text": "Why would they discard their stellar careers, choosing to crawl inside squalid underground bunkers to synthesize lethal chemicals designed to slaughter their own countrymen?",
-    "words": 24
+    "text": "Why did these accomplished professionals abandon their careers to manufacture chemical weapons against their fellow citizens?",
+    "words": 16
+   },
+   {
+    "id": "3.04#3",
+    "text": "What systematically demolished the rational cognitive defenses of the nation’s brightest minds?",
+    "words": 12
    }
   ]
  },
@@ -609,33 +608,43 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "unraveling the socio-psychological roots",
-  "text": "The answer lies within a profound psychological phenomenon known as the Existential Vacuum. In the late 1980s and early 1990s, Japan experienced the sudden collapse of its soaring economic bubble. Japanese society at the time operated like an immense, grinding machine of social conformity. Individuals were pressured into rigid molds, expected to become faceless cogs within sprawling corporate conglomerates. Many young intellectuals achieved flawless academic perfection while harboring a profound void regarding the true purpose of their existence.",
+  "direction": "deconstructing socio-psychological root causes",
+  "text": "The answer stems from a profound socio-psychological condition known as the Existential Vacuum. During the early 1990s, Japan endured the devastating collapse of its postwar bubble economy. Japanese society operated as an immense pressure vessel, reducing individual identities to anonymous cogs inside corporate conglomerates. Many elite youths achieved flawless academic scores, yet experienced profound alienation and an agonizing spiritual void regarding life’s purpose. Precisely when these brilliant minds felt most isolated, Shoko Asahara presented an expertly disguised verbal snare. He skillfully intertwined Eastern esoteric mysticism with cutting-edge scientific terminology like quantum mechanics, energy fields, and apocalyptic physics. This pseudo-scientific synthesis struck a resonant chord in young intellectuals searching for transcendental meaning.",
   "sentences": [
    {
     "id": "3.05#1",
-    "text": "The answer lies within a profound psychological phenomenon known as the Existential Vacuum.",
+    "text": "The answer stems from a profound socio-psychological condition known as the Existential Vacuum.",
     "words": 13
    },
    {
     "id": "3.05#2",
-    "text": "In the late 1980s and early 1990s, Japan experienced the sudden collapse of its soaring economic bubble.",
-    "words": 17
-   },
-   {
-    "id": "3.05#3",
-    "text": "Japanese society at the time operated like an immense, grinding machine of social conformity.",
+    "text": "During the early 1990s, Japan endured the devastating collapse of its postwar bubble economy.",
     "words": 14
    },
    {
+    "id": "3.05#3",
+    "text": "Japanese society operated as an immense pressure vessel, reducing individual identities to anonymous cogs inside corporate conglomerates.",
+    "words": 17
+   },
+   {
     "id": "3.05#4",
-    "text": "Individuals were pressured into rigid molds, expected to become faceless cogs within sprawling corporate conglomerates.",
-    "words": 15
+    "text": "Many elite youths achieved flawless academic scores, yet experienced profound alienation and an agonizing spiritual void regarding life’s purpose.",
+    "words": 19
    },
    {
     "id": "3.05#5",
-    "text": "Many young intellectuals achieved flawless academic perfection while harboring a profound void regarding the true purpose of their existence.",
-    "words": 19
+    "text": "Precisely when these brilliant minds felt most isolated, Shoko Asahara presented an expertly disguised verbal snare.",
+    "words": 16
+   },
+   {
+    "id": "3.05#6",
+    "text": "He skillfully intertwined Eastern esoteric mysticism with cutting-edge scientific terminology like quantum mechanics, energy fields, and apocalyptic physics.",
+    "words": 18
+   },
+   {
+    "id": "3.05#7",
+    "text": "This pseudo-scientific synthesis struck a resonant chord in young intellectuals searching for transcendental meaning.",
+    "words": 14
    }
   ]
  },
@@ -644,28 +653,28 @@
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "continuing psychological dissection",
-  "text": "Just when these brilliant minds felt most isolated and disoriented, Shoko Asahara arrived with a masterfully disguised linguistic trap. He initially established a yoga and meditation society named Aum Shinsen no Kai. He skillfully intertwined Eastern mystical philosophies with modern scientific terminology like quantum physics and energy field resonance. This intellectual veneer resonated directly with the curiosities of elite university graduates.",
+  "direction": "elaborating on the intellectual blind spot",
+  "text": "Highly educated individuals harbor a dangerous psychological vulnerability: immense intellectual arrogance. They firmly convince themselves that they are far too clever and analytical to ever fall prey to crude manipulation. When Asahara bestowed upon them the identity of chosen guardians charged with cosmic salvation, their intellectual hubris sealed the trap. Their formidable intellect failed to protect them; instead, it became an engine of sophisticated rationalization for unthinkable atrocities.",
   "sentences": [
    {
     "id": "3.06#1",
-    "text": "Just when these brilliant minds felt most isolated and disoriented, Shoko Asahara arrived with a masterfully disguised linguistic trap.",
-    "words": 19
+    "text": "Highly educated individuals harbor a dangerous psychological vulnerability: immense intellectual arrogance.",
+    "words": 11
    },
    {
     "id": "3.06#2",
-    "text": "He initially established a yoga and meditation society named Aum Shinsen no Kai.",
-    "words": 13
+    "text": "They firmly convince themselves that they are far too clever and analytical to ever fall prey to crude manipulation.",
+    "words": 19
    },
    {
     "id": "3.06#3",
-    "text": "He skillfully intertwined Eastern mystical philosophies with modern scientific terminology like quantum physics and energy field resonance.",
-    "words": 17
+    "text": "When Asahara bestowed upon them the identity of chosen guardians charged with cosmic salvation, their intellectual hubris sealed the trap.",
+    "words": 20
    },
    {
     "id": "3.06#4",
-    "text": "This intellectual veneer resonated directly with the curiosities of elite university graduates.",
-    "words": 12
+    "text": "Their formidable intellect failed to protect them; instead, it became an engine of sophisticated rationalization for unthinkable atrocities.",
+    "words": 18
    }
   ]
  },
@@ -674,38 +683,48 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "analyzing the mechanics of intellectual manipulation",
-  "text": "Highly educated individuals often possess one fatal psychological blind spot: an oversized intellectual ego. They firmly believe they are far too clever to ever fall victim to deceit. Once Asahara bestowed upon them the sensation of being transcendent chosen ones, the psychological trap snapped shut. He persuaded them that they stood far above conventional morality, destined to architect a reborn world following inevitable apocalypse. Their towering intelligence failed to protect them. On the contrary, it became their most efficient instrument for rationalizing monstrous atrocities.",
+  "direction": "analyzing compartmentalization and dehumanization",
+  "text": "To sustain their dual lives, these intellectual disciples engaged in rigorous cognitive Compartmentalization. They locked their civilian identities—as gentle fathers, loving sons, and ethical professionals—inside one mental drawer, entirely sealed off from the darkness of Satyam. Concurrently, the guru indoctrinated them with psychological Objectification and dehumanization of victims. In the distorted worldview of Aum scientists, ordinary citizens were no longer human beings with families, but spiritually defiled souls obstructing cosmic purification. Agonized pleas and human lives were reduced to cold data points within chemical synthesis logs. An equally devastating tragedy engulfed the families of these brilliant young intellectuals. Devoted parents, who had celebrated their children’s triumphs at premier universities, saw their family identities pulverized when their sons were revealed as terrorists. Countless parents resigned from lifelong careers, living out their remaining days prostrating in public apologies.",
   "sentences": [
    {
     "id": "3.07#1",
-    "text": "Highly educated individuals often possess one fatal psychological blind spot: an oversized intellectual ego.",
-    "words": 14
+    "text": "To sustain their dual lives, these intellectual disciples engaged in rigorous cognitive Compartmentalization.",
+    "words": 13
    },
    {
     "id": "3.07#2",
-    "text": "They firmly believe they are far too clever to ever fall victim to deceit.",
-    "words": 14
+    "text": "They locked their civilian identities—as gentle fathers, loving sons, and ethical professionals—inside one mental drawer, entirely sealed off from the darkness of Satyam.",
+    "words": 23
    },
    {
     "id": "3.07#3",
-    "text": "Once Asahara bestowed upon them the sensation of being transcendent chosen ones, the psychological trap snapped shut.",
-    "words": 17
+    "text": "Concurrently, the guru indoctrinated them with psychological Objectification and dehumanization of victims.",
+    "words": 12
    },
    {
     "id": "3.07#4",
-    "text": "He persuaded them that they stood far above conventional morality, destined to architect a reborn world following inevitable apocalypse.",
-    "words": 19
+    "text": "In the distorted worldview of Aum scientists, ordinary citizens were no longer human beings with families, but spiritually defiled souls obstructing cosmic purification.",
+    "words": 23
    },
    {
     "id": "3.07#5",
-    "text": "Their towering intelligence failed to protect them.",
-    "words": 7
+    "text": "Agonized pleas and human lives were reduced to cold data points within chemical synthesis logs.",
+    "words": 15
    },
    {
     "id": "3.07#6",
-    "text": "On the contrary, it became their most efficient instrument for rationalizing monstrous atrocities.",
-    "words": 13
+    "text": "An equally devastating tragedy engulfed the families of these brilliant young intellectuals.",
+    "words": 12
+   },
+   {
+    "id": "3.07#7",
+    "text": "Devoted parents, who had celebrated their children’s triumphs at premier universities, saw their family identities pulverized when their sons were revealed as terrorists.",
+    "words": 23
+   },
+   {
+    "id": "3.07#8",
+    "text": "Countless parents resigned from lifelong careers, living out their remaining days prostrating in public apologies.",
+    "words": 15
    }
   ]
  },
@@ -715,31 +734,37 @@
   "kind": "LOI",
   "role": "H",
   "direction": "closing Act 3",
-  "text": "Yet blind indoctrination was merely the preliminary step. To convert scientific prodigies into emotionless instruments of mass murder, Shoko Asahara deployed the most insidious techniques of psychological subjugation.",
+  "text": "Intellect severed from affective empathy becomes the deadliest instrument on earth. Cognitive fragmentation allowed individuals once celebrated as societal role models to orchestrate mass slaughter without feeling internal guilt. Yet to translate warped conviction into physical extermination, the cult deployed mind control techniques far more insidious than ideological manipulation alone.",
   "sentences": [
    {
     "id": "3.08#1",
-    "text": "Yet blind indoctrination was merely the preliminary step.",
-    "words": 8
+    "text": "Intellect severed from affective empathy becomes the deadliest instrument on earth.",
+    "words": 11
    },
    {
     "id": "3.08#2",
-    "text": "To convert scientific prodigies into emotionless instruments of mass murder, Shoko Asahara deployed the most insidious techniques of psychological subjugation.",
-    "words": 20
+    "text": "Cognitive fragmentation allowed individuals once celebrated as societal role models to orchestrate mass slaughter without feeling internal guilt.",
+    "words": 18
+   },
+   {
+    "id": "3.08#3",
+    "text": "Yet to translate warped conviction into physical extermination, the cult deployed mind control techniques far more insidious than ideological manipulation alone.",
+    "words": 21
    }
   ]
  },
  {
   "id": "3.09",
   "act": 3,
-  "kind": "BGM",
-  "desc": "A low drone sustains, trailing off into a freezing silence."
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": "Music descends into frozen silence"
  },
  {
   "id": "4.01",
   "act": 4,
   "kind": "BGM",
-  "desc": "Melancholic, weeping violin notes underscore inner turmoil and the gradual disintegration of personal identity."
+  "desc": "Somber, agonizing violin melodies reflecting internal struggle and psychological disintegration."
  },
  {
   "id": "4.02",
@@ -747,22 +772,32 @@
   "kind": "LOI",
   "role": "H",
   "direction": "opening Act 4",
-  "text": "Inside the closed, prison-like communes of Aum, followers were completely cut off from the external world. They were forbidden from reading newspapers, barred from television, and forced to sever all contact with their parents and lifelong friends. But the most devastating assault on the human brain was the systematic technique of physiological depletion.",
+  "text": "Inside Aum’s closed monastic camps, disciples remained completely isolated from the outside world. Passports and identification cards were confiscated, communications with parents were severed, and access to independent news was forbidden. Yet the most sinister weapon utilized to crush independent will was systematic physical exhaustion. Followers were restricted to merely two or three hours of sleep nightly while enduring severe caloric restriction and malnutrition. When the human brain experiences chronic exhaustion, the prefrontal cortex governing critical judgment and moral reasoning shuts down, inducing unquestioning obedience.",
   "sentences": [
    {
     "id": "4.02#1",
-    "text": "Inside the closed, prison-like communes of Aum, followers were completely cut off from the external world.",
-    "words": 16
+    "text": "Inside Aum’s closed monastic camps, disciples remained completely isolated from the outside world.",
+    "words": 13
    },
    {
     "id": "4.02#2",
-    "text": "They were forbidden from reading newspapers, barred from television, and forced to sever all contact with their parents and lifelong friends.",
-    "words": 21
+    "text": "Passports and identification cards were confiscated, communications with parents were severed, and access to independent news was forbidden.",
+    "words": 18
    },
    {
     "id": "4.02#3",
-    "text": "But the most devastating assault on the human brain was the systematic technique of physiological depletion.",
-    "words": 16
+    "text": "Yet the most sinister weapon utilized to crush independent will was systematic physical exhaustion.",
+    "words": 14
+   },
+   {
+    "id": "4.02#4",
+    "text": "Followers were restricted to merely two or three hours of sleep nightly while enduring severe caloric restriction and malnutrition.",
+    "words": 19
+   },
+   {
+    "id": "4.02#5",
+    "text": "When the human brain experiences chronic exhaustion, the prefrontal cortex governing critical judgment and moral reasoning shuts down, inducing unquestioning obedience.",
+    "words": 21
    }
   ]
  },
@@ -770,39 +805,34 @@
   "id": "4.03",
   "act": 4,
   "kind": "LOI",
-  "role": "C",
-  "direction": "explaining cognitive deprivation techniques",
-  "text": "Disciples were restricted to only two or three hours of sleep each night on cold concrete floors. Daily nutrition was stripped down to a bare minimum, consisting of a single small bowl of rice and a few boiled vegetables. When the physical body is starved and the brain suffers chronic severe sleep deprivation, the prefrontal cortex becomes functionally impaired. This is the exact brain region responsible for critical reasoning, logical judgment, and executive autonomy. A human being enters a trance-like, highly suggestible state akin to deep hypnosis. They lose all capacity for doubt and become primed to execute any command with unquestioning obedience.",
+  "role": "D",
+  "direction": "revealing technology and chemical coercion",
+  "text": "Police records exposed bizarre technological devices deployed by cult leadership to manipulate follower neurochemistry. They constructed an electrode-lined headpiece named PSI, mandating that disciples wear it for hours on end. The cult claimed this contraption synchronized the wearer’s brainwaves with the guru’s transcendent frequencies, charging thousands of dollars monthly per device. Furthermore, forensic teams discovered that the cult secretly administered potent hallucinogens like LSD and psychotropics during nocturnal rituals. Under chemical intoxication and sensory deprivation, young intellectuals genuinely hallucinated divine auras around Asahara, losing any remaining skepticism.",
   "sentences": [
    {
     "id": "4.03#1",
-    "text": "Disciples were restricted to only two or three hours of sleep each night on cold concrete floors.",
-    "words": 17
+    "text": "Police records exposed bizarre technological devices deployed by cult leadership to manipulate follower neurochemistry.",
+    "words": 14
    },
    {
     "id": "4.03#2",
-    "text": "Daily nutrition was stripped down to a bare minimum, consisting of a single small bowl of rice and a few boiled vegetables.",
-    "words": 22
+    "text": "They constructed an electrode-lined headpiece named PSI, mandating that disciples wear it for hours on end.",
+    "words": 16
    },
    {
     "id": "4.03#3",
-    "text": "When the physical body is starved and the brain suffers chronic severe sleep deprivation, the prefrontal cortex becomes functionally impaired.",
-    "words": 20
+    "text": "The cult claimed this contraption synchronized the wearer’s brainwaves with the guru’s transcendent frequencies, charging thousands of dollars monthly per device.",
+    "words": 21
    },
    {
     "id": "4.03#4",
-    "text": "This is the exact brain region responsible for critical reasoning, logical judgment, and executive autonomy.",
-    "words": 15
+    "text": "Furthermore, forensic teams discovered that the cult secretly administered potent hallucinogens like LSD and psychotropics during nocturnal rituals.",
+    "words": 18
    },
    {
     "id": "4.03#5",
-    "text": "A human being enters a trance-like, highly suggestible state akin to deep hypnosis.",
-    "words": 13
-   },
-   {
-    "id": "4.03#6",
-    "text": "They lose all capacity for doubt and become primed to execute any command with unquestioning obedience.",
-    "words": 16
+    "text": "Under chemical intoxication and sensory deprivation, young intellectuals genuinely hallucinated divine auras around Asahara, losing any remaining skepticism.",
+    "words": 18
    }
   ]
  },
@@ -810,34 +840,29 @@
   "id": "4.04",
   "act": 4,
   "kind": "LOI",
-  "role": "D",
-  "direction": "detailing high-tech and chemical brainwashing methods",
-  "text": "Far beyond that, the cult even engineered an electrode-studded headgear known as the Perfect Salvation Initiation, or PSI helmet. They forced followers to wear these headsets for hours on end under the promise of synchronizing their brainwaves with those of the guru. The cult went so far as to charge followers thousands of dollars each month for the privilege of using this apparatus. Furthermore, our investigation discovered that the cult secretly administered potent hallucinogens like LSD and powerful psychotropic substances during clandestine ceremonies. Under the chemical haze in pitch-black rooms, young intellectuals genuinely came to believe they were beholding the divine aura of a messiah.",
+  "role": "H",
+  "direction": "highlighting moral inversion",
+  "text": "Yet the ultimate psychological weapon Asahara deployed to nullify the sacred oaths of physicians and scientists was the distortion of “Poa”. In traditional Tibetan Buddhism, Phowa is a sacred meditation practice concerning conscious spiritual transference at the threshold of natural death. Asahara weaponized this ancient spiritual concept into a murderous theological license to extinguish human life. He disguised cold-blooded homicide beneath the sacred veneer of supreme spiritual mercy.",
   "sentences": [
    {
     "id": "4.04#1",
-    "text": "Far beyond that, the cult even engineered an electrode-studded headgear known as the Perfect Salvation Initiation, or PSI helmet.",
-    "words": 19
-   },
-   {
-    "id": "4.04#2",
-    "text": "They forced followers to wear these headsets for hours on end under the promise of synchronizing their brainwaves with those of the guru.",
-    "words": 23
-   },
-   {
-    "id": "4.04#3",
-    "text": "The cult went so far as to charge followers thousands of dollars each month for the privilege of using this apparatus.",
+    "text": "Yet the ultimate psychological weapon Asahara deployed to nullify the sacred oaths of physicians and scientists was the distortion of “Poa”.",
     "words": 21
    },
    {
-    "id": "4.04#4",
-    "text": "Furthermore, our investigation discovered that the cult secretly administered potent hallucinogens like LSD and powerful psychotropic substances during clandestine ceremonies.",
+    "id": "4.04#2",
+    "text": "In traditional Tibetan Buddhism, Phowa is a sacred meditation practice concerning conscious spiritual transference at the threshold of natural death.",
     "words": 20
    },
    {
-    "id": "4.04#5",
-    "text": "Under the chemical haze in pitch-black rooms, young intellectuals genuinely came to believe they were beholding the divine aura of a messiah.",
-    "words": 22
+    "id": "4.04#3",
+    "text": "Asahara weaponized this ancient spiritual concept into a murderous theological license to extinguish human life.",
+    "words": 15
+   },
+   {
+    "id": "4.04#4",
+    "text": "He disguised cold-blooded homicide beneath the sacred veneer of supreme spiritual mercy.",
+    "words": 12
    }
   ]
  },
@@ -845,24 +870,39 @@
   "id": "4.05",
   "act": 4,
   "kind": "LOI",
-  "role": "H",
-  "direction": "highlighting moral disengagement",
-  "text": "And the ultimate psychological weapon Asahara wielded to erase the professional oaths of physicians and scientists was the distortion of an ancient spiritual doctrine known as Poa. In traditional Tibetan Buddhism, Phowa is a sacred meditation practice aimed at conscious transference of consciousness at the moment of death. Yet Asahara twisted this spiritual concept into an ideological license for mass murder.",
+  "role": "C",
+  "direction": "explaining Poa doctrine and moral disengagement",
+  "text": "Asahara preached that secular society was irreparably corrupted and hurtling toward an inevitable nuclear Armageddon. He asserted that ordinary civilians, by continuing to live in ignorance, were accumulating disastrous spiritual karma that would plunge them into hell. Consequently, terminating their physical lives before they accumulated further karmic debt was framed not as murder, but as an act of absolute compassion. This represents the absolute zenith of Moral Disengagement and cognitive neutralization techniques. By completely inverting universal ethics, perpetrators genuinely believed their bloodstained hands were executing holy deeds to rescue their victims. Simultaneously, displacement of responsibility convinced them that they were mere instruments carrying out the absolute will of the Supreme Master.",
   "sentences": [
    {
     "id": "4.05#1",
-    "text": "And the ultimate psychological weapon Asahara wielded to erase the professional oaths of physicians and scientists was the distortion of an ancient spiritual doctrine known as Poa.",
-    "words": 27
+    "text": "Asahara preached that secular society was irreparably corrupted and hurtling toward an inevitable nuclear Armageddon.",
+    "words": 15
    },
    {
     "id": "4.05#2",
-    "text": "In traditional Tibetan Buddhism, Phowa is a sacred meditation practice aimed at conscious transference of consciousness at the moment of death.",
-    "words": 21
+    "text": "He asserted that ordinary civilians, by continuing to live in ignorance, were accumulating disastrous spiritual karma that would plunge them into hell.",
+    "words": 22
    },
    {
     "id": "4.05#3",
-    "text": "Yet Asahara twisted this spiritual concept into an ideological license for mass murder.",
-    "words": 13
+    "text": "Consequently, terminating their physical lives before they accumulated further karmic debt was framed not as murder, but as an act of absolute compassion.",
+    "words": 23
+   },
+   {
+    "id": "4.05#4",
+    "text": "This represents the absolute zenith of Moral Disengagement and cognitive neutralization techniques.",
+    "words": 12
+   },
+   {
+    "id": "4.05#5",
+    "text": "By completely inverting universal ethics, perpetrators genuinely believed their bloodstained hands were executing holy deeds to rescue their victims.",
+    "words": 19
+   },
+   {
+    "id": "4.05#6",
+    "text": "Simultaneously, displacement of responsibility convinced them that they were mere instruments carrying out the absolute will of the Supreme Master.",
+    "words": 20
    }
   ]
  },
@@ -870,232 +910,189 @@
   "id": "4.06",
   "act": 4,
   "kind": "LOI",
-  "role": "C",
-  "direction": "explaining the weaponized Poa doctrine",
-  "text": "Asahara preached that the material world had grown irreparably corrupt and was hurtling toward imminent nuclear Armageddon. Ordinary people who continued living would only accumulate destructive negative karma and inevitably descend into lower hells. Consequently, terminating their earthly lives was framed not as murder, but as the supreme manifestation of divine compassion. By severing the lives of the unsaved before they could accrue further sin, their souls were supposedly liberated to reincarnate into higher spiritual realms. This represents the zenith of moral disengagement. It transformed perpetrators into true believers who convinced themselves they were committing selfless acts of global salvation.",
+  "role": "H",
+  "direction": "transitioning to historic courtroom testimony",
+  "text": "That demonic theological inversion paralyzed the moral compass of Doctor Ikuo Hayashi, formerly chief of a prestigious cardiology ward. On the morning of March 20, the very hands trained to heal punctured two sarin bags on the Chiyoda subway line. Listen to how that broken man confronted his shattered soul before the Tokyo District Court.",
   "sentences": [
    {
     "id": "4.06#1",
-    "text": "Asahara preached that the material world had grown irreparably corrupt and was hurtling toward imminent nuclear Armageddon.",
-    "words": 17
+    "text": "That demonic theological inversion paralyzed the moral compass of Doctor Ikuo Hayashi, formerly chief of a prestigious cardiology ward.",
+    "words": 19
    },
    {
     "id": "4.06#2",
-    "text": "Ordinary people who continued living would only accumulate destructive negative karma and inevitably descend into lower hells.",
-    "words": 17
+    "text": "On the morning of March 20, the very hands trained to heal punctured two sarin bags on the Chiyoda subway line.",
+    "words": 21
    },
    {
     "id": "4.06#3",
-    "text": "Consequently, terminating their earthly lives was framed not as murder, but as the supreme manifestation of divine compassion.",
-    "words": 18
-   },
-   {
-    "id": "4.06#4",
-    "text": "By severing the lives of the unsaved before they could accrue further sin, their souls were supposedly liberated to reincarnate into higher spiritual realms.",
-    "words": 24
-   },
-   {
-    "id": "4.06#5",
-    "text": "This represents the zenith of moral disengagement.",
-    "words": 7
-   },
-   {
-    "id": "4.06#6",
-    "text": "It transformed perpetrators into true believers who convinced themselves they were committing selfless acts of global salvation.",
-    "words": 17
+    "text": "Listen to how that broken man confronted his shattered soul before the Tokyo District Court.",
+    "words": 15
    }
   ]
  },
  {
   "id": "4.07",
   "act": 4,
-  "kind": "LOI",
-  "role": "H",
-  "direction": "transitioning to historical courtroom testimony",
-  "text": "It was this demonic rationalization that completely dismantled the conscience of Doctor Ikuo Hayashi. The very man who had once stood over operating tables preserving fragile lives calmly took his umbrella and punctured the toxic pouches on the Chiyoda Line that fateful morning of March 20th.",
-  "sentences": [
-   {
-    "id": "4.07#1",
-    "text": "It was this demonic rationalization that completely dismantled the conscience of Doctor Ikuo Hayashi.",
-    "words": 14
-   },
-   {
-    "id": "4.07#2",
-    "text": "The very man who had once stood over operating tables preserving fragile lives calmly took his umbrella and punctured the toxic pouches on the Chiyoda Line that fateful morning of March 20th.",
-    "words": 32
-   }
-  ]
+  "kind": "SFX",
+  "desc": "Sharp, authoritative strike of the judicial gavel resounding through the courtroom."
  },
  {
   "id": "4.08",
   "act": 4,
   "kind": "LOI",
   "role": "N",
-  "direction": "N2: Doctor Ikuo Hayashi, trembling middle-aged male voice, breaking into sobs before the court",
-  "text": "In the courtroom, looking at the photographs of the victims and the weeping eyes of their grieving families, I was shattered to realize what a monster I had become. I was a cardiovascular surgeon. I had once sworn a sacred oath to protect human life at all costs. Yet I allowed myself to believe that I was delivering them salvation through lethal chemical gas. When I pierced that plastic pouch on the carriage floor, I never even thought about the agonizing suffering of those passengers. I acted like a pre-programmed machine. For the rest of my days, whatever sentence the court hands down, nothing can ever wash away this crushing remorse and monstrous guilt.",
+  "direction": "N2: dramatized perspective of Doctor Ikuo Hayashi’s courtroom remorse, trembling low male voice",
+  "text": "Standing before this court, I do not seek any forgiveness for myself. I was a medical doctor who swore a solemn oath to protect human life at all costs. Yet I allowed a twisted ideology to blind my conscience, inflicting irreversible agony upon innocent fellow human beings. Looking into the grief-stricken eyes of the victims’ families, I know there is no salvation for my guilt other than confessing the absolute truth. I kneel before the court and submit to the most severe punishment under the law.",
   "sentences": [
    {
     "id": "4.08#1",
-    "text": "In the courtroom, looking at the photographs of the victims and the weeping eyes of their grieving families, I was shattered to realize what a monster I had become.",
-    "words": 29
+    "text": "Standing before this court, I do not seek any forgiveness for myself.",
+    "words": 12
    },
    {
     "id": "4.08#2",
-    "text": "I was a cardiovascular surgeon.",
-    "words": 5
+    "text": "I was a medical doctor who swore a solemn oath to protect human life at all costs.",
+    "words": 17
    },
    {
     "id": "4.08#3",
-    "text": "I had once sworn a sacred oath to protect human life at all costs.",
-    "words": 14
+    "text": "Yet I allowed a twisted ideology to blind my conscience, inflicting irreversible agony upon innocent fellow human beings.",
+    "words": 18
    },
    {
     "id": "4.08#4",
-    "text": "Yet I allowed myself to believe that I was delivering them salvation through lethal chemical gas.",
-    "words": 16
+    "text": "Looking into the grief-stricken eyes of the victims’ families, I know there is no salvation for my guilt other than confessing the absolute truth.",
+    "words": 24
    },
    {
     "id": "4.08#5",
-    "text": "When I pierced that plastic pouch on the carriage floor, I never even thought about the agonizing suffering of those passengers.",
-    "words": 21
-   },
-   {
-    "id": "4.08#6",
-    "text": "I acted like a pre-programmed machine.",
-    "words": 6
-   },
-   {
-    "id": "4.08#7",
-    "text": "For the rest of my days, whatever sentence the court hands down, nothing can ever wash away this crushing remorse and monstrous guilt.",
-    "words": 23
+    "text": "I kneel before the court and submit to the most severe punishment under the law.",
+    "words": 15
    }
   ]
  },
  {
   "id": "4.09",
   "act": 4,
-  "kind": "SFX",
-  "desc": "The sharp, definitive strike of the Tokyo District Court judge’s gavel."
- },
- {
-  "id": "4.10",
-  "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "recounting the assassination of Hideo Murai and the capture of Asahara",
-  "text": "Before the trials could formally get underway, another bloody drama unfolded before the public. On April 23rd, 1995, physicist Hideo Murai, the third-ranking figure in the cult hierarchy, was assassinated by a lone attacker right before live broadcast cameras outside Aum headquarters in Tokyo. That targeted murder permanently buried many of the cult’s darkest scientific secrets. Nevertheless, the legal net drew relentlessly tighter. On May 16th, 1995, police discovered Shoko Asahara hiding inside a cramped crawlspace concealed within the ceiling of Satyam Number 6. The self-proclaimed supreme savior of mankind sat huddled in the dark, surrounded by bundles of cash and bars of solid gold. The macabre theatrical farce of the doomsday prophet had reached its definitive end.",
+  "direction": "recounting Murai’s assassination and Asahara’s capture",
+  "text": "Doctor Hayashi’s courageous, detailed confession provided investigators with the indispensable breakthrough needed to unravel Aum’s criminal syndicate. Yet another violent shockwave struck directly before the public eye. On April 23, 1995, cult science minister Hideo Murai was stabbed to death before live television cameras outside Aum’s Tokyo headquarters to silence weapon secrets. Despite violent obstruction, the legal dragnet steadily closed around the supreme architect. On May 16, 1995, police discovered Shoko Asahara concealed inside a suffocating, hidden ceiling crawlspace within Satyam Number 6. The self-proclaimed savior of humanity crouched shivering in absolute darkness, clutching ten million yen in cash and gold bars. The prophetic mask shattered, exposing the pathetic terror of a charlatan undergoing complete Narcissistic Collapse.",
   "sentences": [
    {
-    "id": "4.10#1",
-    "text": "Before the trials could formally get underway, another bloody drama unfolded before the public.",
-    "words": 14
+    "id": "4.09#1",
+    "text": "Doctor Hayashi’s courageous, detailed confession provided investigators with the indispensable breakthrough needed to unravel Aum’s criminal syndicate.",
+    "words": 17
    },
    {
-    "id": "4.10#2",
-    "text": "On April 23rd, 1995, physicist Hideo Murai, the third-ranking figure in the cult hierarchy, was assassinated by a lone attacker right before live broadcast cameras outside Aum headquarters in Tokyo.",
-    "words": 30
+    "id": "4.09#2",
+    "text": "Yet another violent shockwave struck directly before the public eye.",
+    "words": 10
    },
    {
-    "id": "4.10#3",
-    "text": "That targeted murder permanently buried many of the cult’s darkest scientific secrets.",
+    "id": "4.09#3",
+    "text": "On April 23, 1995, cult science minister Hideo Murai was stabbed to death before live television cameras outside Aum’s Tokyo headquarters to silence weapon secrets.",
+    "words": 25
+   },
+   {
+    "id": "4.09#4",
+    "text": "Despite violent obstruction, the legal dragnet steadily closed around the supreme architect.",
     "words": 12
    },
    {
-    "id": "4.10#4",
-    "text": "Nevertheless, the legal net drew relentlessly tighter.",
-    "words": 7
+    "id": "4.09#5",
+    "text": "On May 16, 1995, police discovered Shoko Asahara concealed inside a suffocating, hidden ceiling crawlspace within Satyam Number 6.",
+    "words": 19
    },
    {
-    "id": "4.10#5",
-    "text": "On May 16th, 1995, police discovered Shoko Asahara hiding inside a cramped crawlspace concealed within the ceiling of Satyam Number 6.",
-    "words": 21
+    "id": "4.09#6",
+    "text": "The self-proclaimed savior of humanity crouched shivering in absolute darkness, clutching ten million yen in cash and gold bars.",
+    "words": 19
    },
    {
-    "id": "4.10#6",
-    "text": "The self-proclaimed supreme savior of mankind sat huddled in the dark, surrounded by bundles of cash and bars of solid gold.",
-    "words": 21
-   },
-   {
-    "id": "4.10#7",
-    "text": "The macabre theatrical farce of the doomsday prophet had reached its definitive end.",
-    "words": 13
+    "id": "4.09#7",
+    "text": "The prophetic mask shattered, exposing the pathetic terror of a charlatan undergoing complete Narcissistic Collapse.",
+    "words": 15
    }
   ]
  },
  {
+  "id": "4.10",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "Cold, metallic ratcheting sound of handcuffs clicking shut."
+ },
+ {
   "id": "4.11",
   "act": 4,
-  "kind": "BGM",
-  "desc": "The musical cadence shifts, giving way to a deeply resonant, mournful piano melody."
+  "kind": "LOI",
+  "role": "D",
+  "direction": "summarizing the capture",
+  "text": "The humiliating capture of Shoko Asahara stripped away the entire illusion surrounding the toxic cult leader. There was no supernatural levitation, no divine protection rescuing him from the reach of justice. He stood exposed as a ruthless manipulator, willing to sacrifice hundreds of followers solely to safeguard his personal survival.",
+  "sentences": [
+   {
+    "id": "4.11#1",
+    "text": "The humiliating capture of Shoko Asahara stripped away the entire illusion surrounding the toxic cult leader.",
+    "words": 16
+   },
+   {
+    "id": "4.11#2",
+    "text": "There was no supernatural levitation, no divine protection rescuing him from the reach of justice.",
+    "words": 15
+   },
+   {
+    "id": "4.11#3",
+    "text": "He stood exposed as a ruthless manipulator, willing to sacrifice hundreds of followers solely to safeguard his personal survival.",
+    "words": 19
+   }
+  ]
+ },
+ {
+  "id": "4.12",
+  "act": 4,
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": "Melancholic piano melody rises softly"
  },
  {
   "id": "5.01",
   "act": 5,
   "kind": "BGM",
-  "desc": "Music transitions into a solemn, reflective piano melody, warm yet dignified and contemplative."
+  "desc": "Solemn, reflective piano progression evoking deep psychological closure and dignity."
  },
  {
   "id": "5.02",
   "act": 5,
   "kind": "LOI",
   "role": "H",
-  "direction": "philosophical, reflective tone",
-  "text": "The criminal trials of Aum Shinrikyo dragged on across decades. They formed one of the most voluminous and complex judicial proceedings in Japanese legal history. In court, Shoko Asahara repeatedly feigned madness, muttering incoherent gibberish and refusing to engage with the presiding judges. Following exhaustive trials, the court handed down the ultimate legal penalty: death sentences for Shoko Asahara and twelve core disciples of the cult. Among those condemned to capital punishment were chemist Masami Tsuchiya, virologist Seiichi Endo, and Doctor Tomomasa Nakagawa. Doctor Ikuo Hayashi, owing to his profound awakening, sincere remorse, and exhaustive testimony that unmasked the cult’s entire criminal apparatus, was sentenced to life imprisonment. In July 2018, the capital sentences by hanging were officially carried out against Shoko Asahara and all twelve senior conspirators. The execution of the perpetrators brought closure to a dark chapter spanning over two decades in the consciousness of Japanese society. In his celebrated investigative work titled Underground, novelist Haruki Murakami spent nearly a year interviewing dozens of survivors and former Aum members. He observed that the boundary separating an ordinary person from a fanatical zealot is far more fragile than we care to admit. When society grows too cold and unforgiving, anyone can reach out for a toxic lifeline to cling to.",
+  "direction": "reflective, philosophical tone",
+  "text": "The legal trials of Aum Shinrikyo spanned over two decades, comprising one of the most voluminous judicial dockets in Japanese history. Throughout his lengthy trial, Shoko Asahara feigned madness, muttering incoherent gibberish and refusing meaningful engagement with judges or defense counsel. This behavior exemplifies classic Narcissistic Collapse and Pathological Self-Pity. Accustomed to uninhibited dominion, he could not bear the indignity of reality once stripped of his manufactured aura of omnipotence. He preferred retreating into mute withdrawal rather than acknowledging the ruinous bankruptcy of his apocalyptic delusion.",
   "sentences": [
    {
     "id": "5.02#1",
-    "text": "The criminal trials of Aum Shinrikyo dragged on across decades.",
-    "words": 10
-   },
-   {
-    "id": "5.02#2",
-    "text": "They formed one of the most voluminous and complex judicial proceedings in Japanese legal history.",
-    "words": 15
-   },
-   {
-    "id": "5.02#3",
-    "text": "In court, Shoko Asahara repeatedly feigned madness, muttering incoherent gibberish and refusing to engage with the presiding judges.",
-    "words": 18
-   },
-   {
-    "id": "5.02#4",
-    "text": "Following exhaustive trials, the court handed down the ultimate legal penalty: death sentences for Shoko Asahara and twelve core disciples of the cult.",
-    "words": 23
-   },
-   {
-    "id": "5.02#5",
-    "text": "Among those condemned to capital punishment were chemist Masami Tsuchiya, virologist Seiichi Endo, and Doctor Tomomasa Nakagawa.",
-    "words": 17
-   },
-   {
-    "id": "5.02#6",
-    "text": "Doctor Ikuo Hayashi, owing to his profound awakening, sincere remorse, and exhaustive testimony that unmasked the cult’s entire criminal apparatus, was sentenced to life imprisonment.",
-    "words": 25
-   },
-   {
-    "id": "5.02#7",
-    "text": "In July 2018, the capital sentences by hanging were officially carried out against Shoko Asahara and all twelve senior conspirators.",
-    "words": 20
-   },
-   {
-    "id": "5.02#8",
-    "text": "The execution of the perpetrators brought closure to a dark chapter spanning over two decades in the consciousness of Japanese society.",
+    "text": "The legal trials of Aum Shinrikyo spanned over two decades, comprising one of the most voluminous judicial dockets in Japanese history.",
     "words": 21
    },
    {
-    "id": "5.02#9",
-    "text": "In his celebrated investigative work titled Underground, novelist Haruki Murakami spent nearly a year interviewing dozens of survivors and former Aum members.",
-    "words": 22
+    "id": "5.02#2",
+    "text": "Throughout his lengthy trial, Shoko Asahara feigned madness, muttering incoherent gibberish and refusing meaningful engagement with judges or defense counsel.",
+    "words": 20
    },
    {
-    "id": "5.02#10",
-    "text": "He observed that the boundary separating an ordinary person from a fanatical zealot is far more fragile than we care to admit.",
-    "words": 22
+    "id": "5.02#3",
+    "text": "This behavior exemplifies classic Narcissistic Collapse and Pathological Self-Pity.",
+    "words": 9
    },
    {
-    "id": "5.02#11",
-    "text": "When society grows too cold and unforgiving, anyone can reach out for a toxic lifeline to cling to.",
-    "words": 18
+    "id": "5.02#4",
+    "text": "Accustomed to uninhibited dominion, he could not bear the indignity of reality once stripped of his manufactured aura of omnipotence.",
+    "words": 20
+   },
+   {
+    "id": "5.02#5",
+    "text": "He preferred retreating into mute withdrawal rather than acknowledging the ruinous bankruptcy of his apocalyptic delusion.",
+    "words": 16
    }
   ]
  },
@@ -1103,24 +1100,34 @@
   "id": "5.03",
   "act": 5,
   "kind": "LOI",
-  "role": "C",
-  "direction": "delivering a profound psychological insight",
-  "text": "The tragedy of Aum Shinrikyo stands as a stark warning to all of humanity. High logical intellect and advanced academic degrees never serve as an impenetrable shield against psychological manipulation. On the contrary, when the most brilliant minds lose their moral compass, they can become the most devastating instruments of evil.",
+  "role": "D",
+  "direction": "delivering the final verdicts",
+  "text": "Following exhaustive legal proceedings, the Supreme Court of Japan affirmed the ultimate penalty: capital punishment for Shoko Asahara and twelve core disciples. Among those condemned were lead chemist Masami Tsuchiya, virologist Seiichi Endo, arms procurement minister Kiyohide Hayakawa, and Doctor Tomomasa Nakagawa. In contrast, Doctor Ikuo Hayashi received life imprisonment, spared the gallows due to his genuine remorse, public repentance, and pivotal cooperation with investigators. In July 2018, the sentences of execution by hanging were formally carried out for Shoko Asahara and all twelve convicted co-conspirators. The decisive hand of justice brought closure to a dark chapter that haunted Japanese society for twenty-three years.",
   "sentences": [
    {
     "id": "5.03#1",
-    "text": "The tragedy of Aum Shinrikyo stands as a stark warning to all of humanity.",
-    "words": 14
+    "text": "Following exhaustive legal proceedings, the Supreme Court of Japan affirmed the ultimate penalty: capital punishment for Shoko Asahara and twelve core disciples.",
+    "words": 22
    },
    {
     "id": "5.03#2",
-    "text": "High logical intellect and advanced academic degrees never serve as an impenetrable shield against psychological manipulation.",
-    "words": 16
+    "text": "Among those condemned were lead chemist Masami Tsuchiya, virologist Seiichi Endo, arms procurement minister Kiyohide Hayakawa, and Doctor Tomomasa Nakagawa.",
+    "words": 20
    },
    {
     "id": "5.03#3",
-    "text": "On the contrary, when the most brilliant minds lose their moral compass, they can become the most devastating instruments of evil.",
+    "text": "In contrast, Doctor Ikuo Hayashi received life imprisonment, spared the gallows due to his genuine remorse, public repentance, and pivotal cooperation with investigators.",
+    "words": 23
+   },
+   {
+    "id": "5.03#4",
+    "text": "In July 2018, the sentences of execution by hanging were formally carried out for Shoko Asahara and all twelve convicted co-conspirators.",
     "words": 21
+   },
+   {
+    "id": "5.03#5",
+    "text": "The decisive hand of justice brought closure to a dark chapter that haunted Japanese society for twenty-three years.",
+    "words": 18
    }
   ]
  },
@@ -1129,110 +1136,178 @@
   "act": 5,
   "kind": "LOI",
   "role": "H",
-  "direction": "transitioning to takeaways and warning signs",
-  "text": "To protect yourself and your loved ones from mind-manipulation groups and toxic cults, Amber Eyes highlights four critical red flags from this historical file: First warning sign: Social isolation and the deliberate dismantling of support networks. Every destructive organization strives to sever you from your family, friends, and regular profession. They manufacture an enclosed environment where information flows unidirectionally from the leader alone. This strips victims of any objective ability to verify reality against the outside world. Second warning sign: Systematic physical exhaustion designed to erode critical thinking. Be wary of any group that forces chronic sleep deprivation, extreme dietary restrictions, or punishing labor under the guise of spiritual purification. When the body is exhausted, the brain automatically surrenders its capacity for skepticism and defaults to submission. Third warning sign: Absolute personal veneration and the prohibition of questioning. A genuine teacher always encourages students to think independently and scrutinize truth. If a leader claims infallibility, places their word above the rule of law, and brands any doubt as sinful, you are dealing with a dangerous manipulator. Fourth warning sign: Moral inversion and the incitement of societal grievance. Immediately walk away from any community that claims harming others serves a noble cosmic cause. Promises of spiritual salvation through the destruction of the social order are invariably the herald of catastrophe. True truth is never built upon fear, paranoia, and the blood of innocent fellow human beings. The light of intellect only carries genuine value when it is guided by empathy and the steadfast clarity of conscience. Thank you for joining Amber Eyes in exploring today’s criminal psychology case file. Please subscribe to our channel and share your thoughts in the comment section below. Farewell, and we look forward to seeing you in our upcoming case files.",
+  "direction": "societal impact and literary insight",
+  "text": "The tragedy shattered societal innocence and catalyzed sweeping legislative and institutional reforms across Japan. Parliament substantially revised the Religious Corporations Act and enacted specialized security statutes to monitor organizations capable of indiscriminate violence. In his acclaimed documentary book “Underground”, novelist Haruki Murakami spent months interviewing dozens of survivors and former Aum members. He concluded that the boundary separating ordinary citizens from fanatical extremists is far more fragile than modern society dares to admit. When modern life becomes excessively atomized and unfeeling, vulnerable individuals inevitably seek toxic life rafts to anchor their loneliness. True evil does not merely arrive from external monsters; it germinates where human empathy and authentic connection have withered away.",
   "sentences": [
    {
     "id": "5.04#1",
-    "text": "To protect yourself and your loved ones from mind-manipulation groups and toxic cults, Amber Eyes highlights four critical red flags from this historical file:",
-    "words": 24
+    "text": "The tragedy shattered societal innocence and catalyzed sweeping legislative and institutional reforms across Japan.",
+    "words": 14
    },
    {
     "id": "5.04#2",
-    "text": "First warning sign: Social isolation and the deliberate dismantling of support networks.",
-    "words": 12
+    "text": "Parliament substantially revised the Religious Corporations Act and enacted specialized security statutes to monitor organizations capable of indiscriminate violence.",
+    "words": 19
    },
    {
     "id": "5.04#3",
-    "text": "Every destructive organization strives to sever you from your family, friends, and regular profession.",
-    "words": 14
+    "text": "In his acclaimed documentary book “Underground”, novelist Haruki Murakami spent months interviewing dozens of survivors and former Aum members.",
+    "words": 19
    },
    {
     "id": "5.04#4",
-    "text": "They manufacture an enclosed environment where information flows unidirectionally from the leader alone.",
-    "words": 13
+    "text": "He concluded that the boundary separating ordinary citizens from fanatical extremists is far more fragile than modern society dares to admit.",
+    "words": 21
    },
    {
     "id": "5.04#5",
-    "text": "This strips victims of any objective ability to verify reality against the outside world.",
-    "words": 14
+    "text": "When modern life becomes excessively atomized and unfeeling, vulnerable individuals inevitably seek toxic life rafts to anchor their loneliness.",
+    "words": 19
    },
    {
     "id": "5.04#6",
-    "text": "Second warning sign: Systematic physical exhaustion designed to erode critical thinking.",
-    "words": 11
-   },
-   {
-    "id": "5.04#7",
-    "text": "Be wary of any group that forces chronic sleep deprivation, extreme dietary restrictions, or punishing labor under the guise of spiritual purification.",
-    "words": 22
-   },
-   {
-    "id": "5.04#8",
-    "text": "When the body is exhausted, the brain automatically surrenders its capacity for skepticism and defaults to submission.",
-    "words": 17
-   },
-   {
-    "id": "5.04#9",
-    "text": "Third warning sign: Absolute personal veneration and the prohibition of questioning.",
-    "words": 11
-   },
-   {
-    "id": "5.04#10",
-    "text": "A genuine teacher always encourages students to think independently and scrutinize truth.",
-    "words": 12
-   },
-   {
-    "id": "5.04#11",
-    "text": "If a leader claims infallibility, places their word above the rule of law, and brands any doubt as sinful, you are dealing with a dangerous manipulator.",
-    "words": 26
-   },
-   {
-    "id": "5.04#12",
-    "text": "Fourth warning sign: Moral inversion and the incitement of societal grievance.",
-    "words": 11
-   },
-   {
-    "id": "5.04#13",
-    "text": "Immediately walk away from any community that claims harming others serves a noble cosmic cause.",
-    "words": 15
-   },
-   {
-    "id": "5.04#14",
-    "text": "Promises of spiritual salvation through the destruction of the social order are invariably the herald of catastrophe.",
-    "words": 17
-   },
-   {
-    "id": "5.04#15",
-    "text": "True truth is never built upon fear, paranoia, and the blood of innocent fellow human beings.",
-    "words": 16
-   },
-   {
-    "id": "5.04#16",
-    "text": "The light of intellect only carries genuine value when it is guided by empathy and the steadfast clarity of conscience.",
+    "text": "True evil does not merely arrive from external monsters; it germinates where human empathy and authentic connection have withered away.",
     "words": 20
-   },
-   {
-    "id": "5.04#17",
-    "text": "Thank you for joining Amber Eyes in exploring today’s criminal psychology case file.",
-    "words": 13
-   },
-   {
-    "id": "5.04#18",
-    "text": "Please subscribe to our channel and share your thoughts in the comment section below.",
-    "words": 14
-   },
-   {
-    "id": "5.04#19",
-    "text": "Farewell, and we look forward to seeing you in our upcoming case files.",
-    "words": 13
    }
   ]
  },
  {
   "id": "5.05",
   "act": 5,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "delivering behavioral insights",
+  "text": "The Aum Shinrikyo tragedy offers a chilling warning regarding the vulnerabilities of human cognition. Prestigious academic credentials and formidable logical intellect offer zero immunity against insidious psychological manipulation. On the contrary, when exceptional minds lose their grounding in foundational human values, they can become the most devastating weapons of cruelty. Fanaticism invariably begins with intoxicating promises of absolute truth standing above universal ethical norms.",
+  "sentences": [
+   {
+    "id": "5.05#1",
+    "text": "The Aum Shinrikyo tragedy offers a chilling warning regarding the vulnerabilities of human cognition.",
+    "words": 14
+   },
+   {
+    "id": "5.05#2",
+    "text": "Prestigious academic credentials and formidable logical intellect offer zero immunity against insidious psychological manipulation.",
+    "words": 14
+   },
+   {
+    "id": "5.05#3",
+    "text": "On the contrary, when exceptional minds lose their grounding in foundational human values, they can become the most devastating weapons of cruelty.",
+    "words": 22
+   },
+   {
+    "id": "5.05#4",
+    "text": "Fanaticism invariably begins with intoxicating promises of absolute truth standing above universal ethical norms.",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "5.06",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "transitioning to survival takeaways",
+  "text": "To safeguard ourselves and those we love from manipulative, high-control groups, Amber Eyes highlights four vital survival red flags from this historical file: First Red Flag: Strategic Social Isolation and Severing Support Networks. Any healthy community respects your family ties and independent social circles; if a group demands cutting contact with loved ones or filtering outside information, walk away immediately. Second Red Flag: Systematic Physical Deprivation to Paralyze Critical Thinking. Exercise utmost vigilance toward organizations enforcing chronic sleep deprivation, severe fasting, or exhausting labor under the guise of spiritual purification. Third Red Flag: Absolute Authoritarianism and Forbidding Honest Inquiry. Genuine mentors encourage critical thinking and verify empirical reality; only predatory manipulators place themselves above the law and classify honest doubt as sin. Fourth Red Flag: Moral Inversion and Weaponized Hatred. Decisively reject any doctrine that rationalizes inflicting harm upon fellow human beings in the name of a higher spiritual cause. Authentic truth is never forged upon deception, manufactured fear, or the suffering of our fellow human beings.",
+  "sentences": [
+   {
+    "id": "5.06#1",
+    "text": "To safeguard ourselves and those we love from manipulative, high-control groups, Amber Eyes highlights four vital survival red flags from this historical file:",
+    "words": 23
+   },
+   {
+    "id": "5.06#2",
+    "text": "First Red Flag: Strategic Social Isolation and Severing Support Networks.",
+    "words": 10
+   },
+   {
+    "id": "5.06#3",
+    "text": "Any healthy community respects your family ties and independent social circles; if a group demands cutting contact with loved ones or filtering outside information, walk away immediately.",
+    "words": 27
+   },
+   {
+    "id": "5.06#4",
+    "text": "Second Red Flag: Systematic Physical Deprivation to Paralyze Critical Thinking.",
+    "words": 10
+   },
+   {
+    "id": "5.06#5",
+    "text": "Exercise utmost vigilance toward organizations enforcing chronic sleep deprivation, severe fasting, or exhausting labor under the guise of spiritual purification.",
+    "words": 20
+   },
+   {
+    "id": "5.06#6",
+    "text": "Third Red Flag: Absolute Authoritarianism and Forbidding Honest Inquiry.",
+    "words": 9
+   },
+   {
+    "id": "5.06#7",
+    "text": "Genuine mentors encourage critical thinking and verify empirical reality; only predatory manipulators place themselves above the law and classify honest doubt as sin.",
+    "words": 23
+   },
+   {
+    "id": "5.06#8",
+    "text": "Fourth Red Flag: Moral Inversion and Weaponized Hatred.",
+    "words": 8
+   },
+   {
+    "id": "5.06#9",
+    "text": "Decisively reject any doctrine that rationalizes inflicting harm upon fellow human beings in the name of a higher spiritual cause.",
+    "words": 20
+   },
+   {
+    "id": "5.06#10",
+    "text": "Authentic truth is never forged upon deception, manufactured fear, or the suffering of our fellow human beings.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "5.07",
+  "act": 5,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": "Gentle, warm piano swells"
+ },
+ {
+  "id": "5.08",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "warm, reflective closing",
+  "text": "The light of intellect holds true value only when guided by genuine compassion and an awake moral conscience. Thank you for joining Amber Eyes in dissecting today’s criminal psychology case file. Please subscribe to the channel, share this documentary, and share your perspective in the comments below. Until our next case file, stay vigilant and take care.",
+  "sentences": [
+   {
+    "id": "5.08#1",
+    "text": "The light of intellect holds true value only when guided by genuine compassion and an awake moral conscience.",
+    "words": 18
+   },
+   {
+    "id": "5.08#2",
+    "text": "Thank you for joining Amber Eyes in dissecting today’s criminal psychology case file.",
+    "words": 13
+   },
+   {
+    "id": "5.08#3",
+    "text": "Please subscribe to the channel, share this documentary, and share your perspective in the comments below.",
+    "words": 16
+   },
+   {
+    "id": "5.08#4",
+    "text": "Until our next case file, stay vigilant and take care.",
+    "words": 10
+   }
+  ]
+ },
+ {
+  "id": "5.09",
+  "act": 5,
+  "kind": "SFX",
+  "desc": "Sharp metallic snap of closing the case file binder, followed by the tape recorder click turning off."
+ },
+ {
+  "id": "5.10",
+  "act": 5,
   "kind": "BGM",
-  "desc": "Warm, solemn orchestral music resonates and slowly fades out completely at the fifth second."
+  "desc": "Music swells warmly, with solemn dignity, before fading out completely."
  }
 ]

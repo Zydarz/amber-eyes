@@ -87,7 +87,7 @@
 | 3-07 | `3.06#1`–`#3` | H | T1 | `t4_cullen_silhouette`, `push` | **MỘT NGƯỜI MANG ĐẦY NHỮNG TỔN THƯƠNG TÂM LÝ** · *Hắn kết hôn, có hai người con gái, hiến thận cứu người* → `#3`: *Cơ chế phân mảnh tâm trí* · *Che giấu con quái vật bên trong mình* | — | ✦ Cú | →C |
 | 3-08 | `3.07#1`–`#3` | C | T1 | `t4_childhood_window` | **CƠ CHẾ PHÒNG VỆ CỰC ĐOAN** · *“Chia ngăn tâm lý”* → `#2`: *Hai ngăn kéo hoàn toàn độc lập* → `#3`: *Một người cha dịu dàng, một người bạn tận tụy* | — | ✦ Cáo |  |
 | 3-09 | `3.07#4`–`#6` | C | T1 | `t4_hypodermic_control`, `push` | **“LÁ CHẮN BÌNH THƯỜNG HÓA”** · *Hành vi thiện nguyện và sự tận tụy ban ngày* → `#5`: **MỞ KHÓA BẢN NĂNG HỦY DIỆT** → `#6`: *Không thể che giấu được những người ở cự ly gần nhất* | Sub-drop ở "mở khóa bản năng hủy diệt" | ⊘ | →H |
-| 3-10 | `3.07#7`–`#8` | C | T1 | `t4_hypodermic_control`, `push` | **ADRIENNE BAUM** · *Vợ cũ của hắn* · *Nhận ra những dấu hiệu tâm thần bất ổn* → `#8`: *Xin lệnh cách ly và ly hôn vào năm 1993* | Sub-drop ở "lén đổ chất lỏng lạ" | ⊘ | →H |
+| 3-10 | `3.07#7`–`#8` | C | T1 | `t4_cullen_law_doc`, `push` | **ADRIENNE BAUM** · *Vợ cũ của hắn* · *Nhận ra những dấu hiệu tâm thần bất ổn* → `#8`: *Xin lệnh cách ly và ly hôn vào năm 1993* | Sub-drop ở "lén đổ chất lỏng lạ" | ⊘ | →H |
 | 3-11 | `3.08#1`–`#3` | H | T1 | `t4_two_faces_mask` | **SỰ RẠN NỨT SÂU SẮC TRONG NHÂN CÁCH** · *Một kẻ sát nhân có học thức* → `#2`: *Vô hiệu hóa cảm giác tội lỗi và ngủ ngon sau mỗi ca trực* → `#3`: *Kỹ thuật trung hòa đạo đức trong hành vi phạm tội* | — | ✦ Cú | →C |
 | 3-12 | `3.09#1`–`#3` | C | T2 | `t4_two_faces_mask` | *LÝ THUYẾT CỦA SYKES VÀ MATZA* · **KỸ THUẬT TRUNG HÒA ĐẠO ĐỨC** → `#2`: **“PHỦ NHẬN TỔN HẠI”** → `#3`: *“Ngoại hóa trách nhiệm”* | Dấu mộc ở "Kỹ thuật trung hòa" | ✦ Cáo |  |
 | 3-13 | `3.09#4`–`#5` | C | T2 | `t4_two_faces_mask` | *ĐỔ LỖI CHO BAN GIÁM ĐỐC BỆNH VIỆN* → `#5`: **“KẾT ÁN NHỮNG KẺ KẾT ÁN”** · *Chỉ trích hệ thống y tế là đạo đức giả* | Dấu mộc ở "Kết án những kẻ kết án" | ✦ Cáo |  |
@@ -306,3 +306,14 @@ Cổng A–G chạy lần đầu báo **3 lỗi**; 2 lỗi là dương tính gi�
 
 
 
+
+---
+
+## B-LOG 06/11/2026 — dựng lại theo master mới (29:48)
+
+- Master mới `Tap04_master.mp3` dài **1788,05 s**, đủ **212 câu** kịch bản v4 (bản cũ 1245,58 s chỉ có 154 câu). Bản cũ của script/timeline/bảng shot lưu ở `.work/_cu/` (hậu tố `20261106`).
+- Timeline dựng lại **từ chính mp3** (T20): Whisper small (không VAD) → căn từ-theo-từ (`.work/_align_words_t04.py`) → tinh chỉnh biên theo năng lượng (`.work/_build_timeline_t04_final.py`). 4 câu ASR bỏ sót ghi đè tay theo đo năng lượng: `2.08#5`, `4.02#1`, `4.12#12`, `5.02#1`. `timeline.total` = 1788,05 s = master (± 0,00 s).
+- `script_tap04.json` sinh lại từ kịch bản (212 câu). `audio_master_t04.wav` dựng từ mp3: −16,2 LUFS · true peak −1,9 dBFS.
+- Bảng shot: 103 shot, phủ 212/212 câu đúng thứ tự, 0 hở/chồng, 0 shot mà câu đang đọc giữa shot không thuộc shot. 8/8 cổng `qc_shots_t04.py` đạt.
+- Sửa cấu hình tập: `text_scrim` thêm 15 shot chữ phụ bị chìm trên nền sáng; shot `3-10` đổi nền `t4_hypodermic_control` → `t4_cullen_law_doc` (lời nói về lệnh cách ly/ly hôn, không phải ống tiêm).
+- H10: 67/103 shot > 15 s (dài nhất 32,6 s, `1-17`) — cùng tình trạng các tập đã xuất bản (T03 56/110, T05 57/110); beat giữ bằng thẻ chữ đổi theo câu.

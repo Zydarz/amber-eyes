@@ -1,3 +1,5 @@
+> **CẬP NHẬT 07/11/2026:** số liệu bên dưới thuộc bản dựng cũ (164 câu · 83 shot · 24:09). Bản hiện hành dựng lại theo kịch bản EN mới: **209 câu · 110 shot · 25:27** (1.527,03 s · 552,2 MB · −16,4 LUFS · đỉnh −1,6 dBFS · lệch hình/tiếng 0,015 s · 435 cue SRT). Bản cũ lưu ở `.work/_cu/t05_en_20261107/`.
+
 # HỒ SƠ SẢN XUẤT TẬP 05 (BẢN TIẾNG ANH) — "THE PURPLE FLOPPY DISK"
 
 - **Tác phẩm:** Tập 05 English Edition — *The Purple Floppy Disk: Narcissistic Addiction & Compartmentalization (The BTK Dennis Rader Case)*

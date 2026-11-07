@@ -1,30 +1,17 @@
-# Câu cần nghe — Tập 06 EN (Higgs) — 04/11/2026
+# Tập 06 EN — câu cần nghe (Higgs, 06/11/2026)
 
-Master Target: `02_SAN_XUAT/Tap06_EN/xuat_ban/Tap06_EN_master.mp3` · 1283.5 s (~21.4 min) · 165 câu · lời đầu 23.0 s · lời cuối 1273.94 s
+Người dùng chốt 06/11/2026: bỏ đo `listen_audio` còn lại, ghép master với số đo hiện có. CER = bản tốt nhất (nguồn ghi cột Nguồn). Đa số > 2% là ASR nghe nhầm tên riêng — nghe để xác nhận.
 
-**Chất lượng tổng quan:** Whisper CER trung bình = 0.82% (trung vị 0.00%) · UTMOSv2 MOS = 3.46/5.0 · Cặp vai D-H = 4.67 nửa cung.
+| Câu | Vai | Mốc master | CER | Nguồn | Ghi chú |
+|---|---|---|---:|---|---|
+| 1.06#7 | H | 2:50.2 | 11.6% | whisper |  |
+| 1.09#3 | N1 | 3:55.7 | 8.6% | whisper |  |
+| 1.15#2 | C | 6:20.9 | 2.5% | whisper |  |
+| 2.04#4 | C | 8:50.1 | 2.3% | whisper |  |
+| 2.04#5 | C | 9:01.4 | 5.0% | whisper |  |
+| 2.04#6 | C | 9:09.6 | 2.8% | whisper |  |
+| 2.07#4 | D | 10:16.8 | 0.0% | whisper | bản lệch cao độ (mọi bản bị loại) |
+| 2.08#1 | H | 10:36.5 | 2.6% | whisper |  |
+| 4.05#3 | N2 | 21:29.8 | 3.5% | whisper |  |
 
-| Mốc | Câu | Vai | CER | MOS | Câu gốc | ASR nghe được | Ghi chú |
-|---|---|---|---:|---:|---|---|---|
-| 0:35.45 | 1.02#2 | H | 2.3% | 3.58 | Pinned to the lapel of his tailored suit was an exclusive S-pin clearance badge issued directly by the United States Secret Service. | Pin to the lapel of his tailored suit was an exclusive S. Pin clearance badge issued directly by the United States Secret Service. | Nghe xác nhận |
-| 1:29.97 | 1.06#1 | H | 3.6% | 3.59 | The appalling truth began unspooling on a freezing winter night, December 11th, 1978, in the town of Des Plaines, Illinois. | The appalling truth began unspooling on a freezing winter night, December 11, 1978, in the town of Day Plains, Illinois. | Nghe xác nhận |
-| 1:38.54 | 1.06#2 | H | 4.8% | 3.38 | That evening marked the forty-sixth birthday of Elizabeth Piest. | That evening marked the 46th birthday of Elizabeth P.S. | Nghe xác nhận |
-| 2:14.66 | 1.06#8 | H | 5.4% | 3.74 | The man doing maintenance work on the shelves inside the pharmacy just told me he wants to discuss a summer job with me, paying five dollars an hour. | The man doing maintenance work on the shelves inside the pharmacy just told me he wants to discuss a summer job with me, paying $5 an hour. | Nghe xác nhận |
-| 2:22.87 | 1.08#1 | H | 6.6% | 3.65 | A wage of five dollars an hour in 1978 was more than double the minimum wage for a teenager at that time. | A wage of $5 an hour in 1978 was more than double the minimum wage for a teenager at that time. | Nghe xác nhận |
-| 2:56.18 | 1.09#2 | N1 | 3.9% | 3.49 | The building contractor named John Gacy was standing around conversing very congenially with the staff. | building contractor named John Gacy was standing around conversing very congenially with the staff. | Nghe xác nhận |
-| 3:43.41 | 1.11#2 | H | 5.6% | 3.47 | The Piest family immediately contacted the Des Plaines Police Department. | The Piused family immediately contacted the Des Plains Police Department. | Nghe xác nhận |
-| 4:58.05 | 1.15#2 | C | 4.6% | 3.82 | Their mask is not forged in recluse isolation, but woven from the conspicuous clamor of fabricated benevolence. | A mask is not forged in recluse isolation, but woven from the conspicuous clamor of fabricated benevolence. | Nghe xác nhận |
-| 5:11.75 | 1.15#4 | C | 7.4% | 3.24 | They hypnotize themselves into believing they are benevolent saviors. | hypnotize themselves into believing they are benevolent saviors. | Nghe xác nhận |
-| 6:27.40 | 2.04#1 | H | 3.5% | 3.41 | Realizing they were confronting a lethal predatory offender with an extensive record, Lieutenant Kozenczak recognized that Robert Piests life hung by a thread every second. | Realizing they were confronting a lethal predatory offender with an extensive record, Lieutenant Kozenchak recognized that Robert P. S. live hung by a thread every second. | Nghe xác nhận |
-| 6:37.35 | 2.04#2 | H | 3.2% | 3.77 | On December 13th, 1978, Des Plaines police swiftly secured their first search warrant for Gacys residence at 8213 West Summerdale Avenue. | On December 13th, 1978, Des Plains Police swiftly secured their first search warrant for Gacy's residents at 8213 West Somardale Avenue. | Nghe xác nhận |
-| 7:32.19 | 2.07#3 | H | 2.8% | 3.69 | A rapid database search established that the ring belonged to John Alan Szyc, a nineteen-year-old youth who had mysteriously vanished from Chicago in January 1977. | A rapid database search established that the ring belonged to John Allen Sick, a 19-year-old youth who had mysteriously vanished from Chicago in January 1977. | Nghe xác nhận |
-| 7:51.41 | 2.07#5 | H | 4.6% | 3.16 | Police still lacked sufficient direct physical evidence to formally arrest Gacy, as they had yet to locate Robert Piest or John Szyc. | Police still lacked sufficient direct physical evidence to formally arrest Gacy, as they had yet to locate Robert P. S. or John Sick. | Nghe xác nhận |
-| 9:02.10 | 2.10#3 | C | 4.7% | 3.80 | They view detectives as a captive audience obligated to watch their grand performance. | A-view detectives as a captive audience obligated to watch their grand performance. | Nghe xác nhận |
-| 9:07.01 | 2.10#4 | C | 2.3% | 3.89 | By actively taunting and controlling the emotions of their pursuers, the predator finds an intoxicating illusion of supreme omnipotence. | are actively taunting and controlling the emotions of their pursuers, the predator finds an intoxicating illusion of supreme omnipotence. | Nghe xác nhận |
-| 9:41.16 | 2.11#4 | H | 3.6% | 3.22 | Yet behind that brazen facade, the legal noose was tightening with every passing hour. | Yet behind that brazen facade, the legal news was tightening with every passing hour. | Nghe xác nhận |
-| 12:01.00 | 3.10#1 | C | 2.0% | 3.47 | The house at 8213 Summerdale Avenue was no ordinary family dwelling. | The house at 8213 Somerdale Avenue was no ordinary family dwelling. | Nghe xác nhận |
-| 13:07.16 | 3.12#3 | D | 2.6% | 3.28 | The remaining four victims, including young Robert Piest, had been cast into the Des Plaines River because the crawlspace under his home had run out of room. | The remaining four victims, including young Robert Piest, had been cast into the day's plane's river, because the crawl space under his home had run out of room. | Nghe xác nhận |
-| 13:55.49 | 4.02#3 | H | 2.1% | 3.47 | He immediately deployed a sophisticated defense tactic: <\|prosody:pause\|> Orchestrating an elaborate insanity performance to evade the ultimate sentence of the law. | He immediately deployed a sophisticated defense tactic, orchestrating and elaborate insanity performance to evade the ultimate sentence of the law. | Nghe xác nhận |
-| 15:38.11 | 4.06#2 | C | 3.1% | 3.90 | To survive that profound helplessness, Gacy erected a gargantuan narcissistic ego to overcompensate. | Survive that profound helplessness, Gacy erected a gargantuan narcissistic ego to overcompensate. | Nghe xác nhận |
-| 18:17.55 | 5.03#2 | C | 4.4% | 3.90 | They possess a complete deficit in neurological regions governing empathy and human compassion. | It possess a complete deficit in neurological regions governing empathy and human compassion. | Nghe xác nhận |
-| 21:03.58 | 5.06#17 | H | 8.1% | 4.15 | Thank you for joining Amber Eyes in exploring todays case file. | Thank you for joining Ambrize in exploring today's case file. | Nghe xác nhận |
+Tổng: 9/212 câu. Thời gian khớp `timeline_s_EN_t06.json` (n mốc tìm thấy: 216).

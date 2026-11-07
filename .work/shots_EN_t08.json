@@ -1,0 +1,4488 @@
+{
+ "total": 1309.445,
+ "shots": [
+  {
+   "id": "1-00",
+   "act": 1,
+   "start": 20.5,
+   "end": 22.8,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_dawn_fog",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ACT 01 · A FATEFUL MORNING BENEATH THE STREETS OF TOKYO"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-01",
+   "act": 1,
+   "start": 22.8,
+   "end": 34.717,
+   "role": "H",
+   "sentences": [
+    "1.02#1",
+    "1.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_dawn_fog",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "On the morning of Monday, March 20, 1995, Tokyo awakened to its usual brisk rhythm of life. Millions of commuters crowded into the subterranean labyrinth of the subway network."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-02",
+   "act": 1,
+   "start": 34.717,
+   "end": 39.779,
+   "role": "H",
+   "sentences": [
+    "1.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_commuter_crowd_station",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "It was precisely eight o'clock in the morning, the peak rush hour of the entire day."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-03",
+   "act": 1,
+   "start": 39.779,
+   "end": 47.14,
+   "role": "H",
+   "sentences": [
+    "1.02#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_subway_tracks_perspective",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Five subway trains across three vital artery lines — Chiyoda, Marunouchi and Hibiya — hurtled toward Kasumigaseki Station."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-04",
+   "act": 1,
+   "start": 47.14,
+   "end": 62.534,
+   "role": "H",
+   "sentences": [
+    "1.02#5",
+    "1.02#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_kasumigaseki_facade",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Home to the nation's key ministries and the National Police Agency. Japan still took immense pride in its “myth of public safety” — one of the lowest violent crime rates in the world."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-05",
+   "act": 1,
+   "start": 62.534,
+   "end": 68.862,
+   "role": "H",
+   "sentences": [
+    "1.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_chemical_structure_sarin",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Yet on each of those trains, men boarded carrying a neurotoxic chemical capable of catastrophic devastation."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-06",
+   "act": 1,
+   "start": 68.862,
+   "end": 75.767,
+   "role": "H",
+   "sentences": [
+    "1.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_umbrella_puncture_action",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Using umbrellas ground to razor-sharp tips, they punctured plastic bags filled with lethal liquid directly onto train floors."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-07",
+   "act": 1,
+   "start": 75.767,
+   "end": 84.823,
+   "role": "H",
+   "sentences": [
+    "1.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_train_doors_closing",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "As train doors opened at bustling stations, these perpetrators slipped quietly into the morning crowds, leaving toxic vapors to rise silently among the passengers."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-08",
+   "act": 1,
+   "start": 84.823,
+   "end": 91.13,
+   "role": "H",
+   "sentences": [
+    "1.04#4"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t8_newspaper_wrapped_package",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "A calculated, coordinated chemical strike aimed directly at innocent citizens."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-09",
+   "act": 1,
+   "start": 91.13,
+   "end": 102.286,
+   "role": "H",
+   "sentences": [
+    "1.06#1",
+    "1.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_subway_car_mist_vapor",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Within mere minutes, a nightmare unprecedented in Japan's postwar history erupted beneath the streets of Tokyo. Imagine what an ordinary passenger on board experienced that fateful morning."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N1"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-10",
+   "act": 1,
+   "start": 102.286,
+   "end": 114.791,
+   "role": "N1",
+   "sentences": [
+    "1.07#1",
+    "1.07#2"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t8_subway_platform_tunnel_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "I was standing reading a book on the train when I caught a strange, faint odor, almost like paint thinner. Suddenly my eyes began burning and everything around me went pitch black."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-11",
+   "act": 1,
+   "start": 114.791,
+   "end": 121.798,
+   "role": "N1",
+   "sentences": [
+    "1.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_dropped_novel_glasses",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "My chest tightened into suffocation, and people around me began coughing uncontrollably before rushing blindly toward the exits."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-12",
+   "act": 1,
+   "start": 121.798,
+   "end": 133.457,
+   "role": "N1",
+   "sentences": [
+    "1.07#4",
+    "1.07#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_subway_stairs_escape",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "No one understood what was happening, and raw terror instantly consumed the entire platform. It truly felt as though the end of the world had descended upon us in broad daylight."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-13",
+   "act": 1,
+   "start": 133.457,
+   "end": 140.501,
+   "role": "H",
+   "sentences": [
+    "1.09#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_ambulances_tokyo_street",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The chemical strike claimed the lives of fourteen innocent people and severely injured over five thousand eight hundred commuters."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-14",
+   "act": 1,
+   "start": 140.501,
+   "end": 150.636,
+   "role": "H",
+   "sentences": [
+    "1.09#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_hospital_triage_corridor",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Two courageous subway station workers, Kazumasa Takahashi and Tsuneo Hishinuma, heroically removed the toxic bags with their bare hands to protect passengers and made the ultimate sacrifice."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-15",
+   "act": 1,
+   "start": 150.636,
+   "end": 167.711,
+   "role": "H",
+   "sentences": [
+    "1.09#3",
+    "1.09#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_subway_platform_tunnel_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Thousands of survivors were left grappling with severe long-term psychological trauma. Collective paranoia gripped the metropolis: commuters held their breath descending subway stairs and inspected under every seat."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-16",
+   "act": 1,
+   "start": 167.711,
+   "end": 175.775,
+   "role": "H",
+   "sentences": [
+    "1.09#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_subway_exit_sunlight",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The entire transportation and emergency medical infrastructure of the world's largest metropolis fell into an unprecedented state of paralysis."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-17",
+   "act": 1,
+   "start": 175.775,
+   "end": 184.827,
+   "role": "D",
+   "sentences": [
+    "1.11#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_police_hq",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Immediately following reports of toxic gas releases at Kasumigaseki Station, the National Police Agency recognized this as a coordinated, large-scale terrorist attack."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-18",
+   "act": 1,
+   "start": 184.827,
+   "end": 192.628,
+   "role": "D",
+   "sentences": [
+    "1.11#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_incident_board_map",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The perpetrators intentionally targeted transit lines converging on central government ministries to paralyze the nation's governing apparatus."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-19",
+   "act": 1,
+   "start": 192.628,
+   "end": 208.856,
+   "role": "D",
+   "sentences": [
+    "1.11#3",
+    "1.11#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_chemical_structure_sarin",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The operational scheme was meticulously calculated, deploying five synchronized attackers at the exact peak of commuter congestion. The substance was sarin, an artificial nerve agent extraordinarily hazardous and complex to synthesize."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-20",
+   "act": 1,
+   "start": 208.856,
+   "end": 215.965,
+   "role": "D",
+   "sentences": [
+    "1.11#5"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t8_aum_shinrikyo_emblem_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Every operational footprint at the scene pointed swiftly toward an enigmatic religious organization known as Aum Shinrikyo."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-21",
+   "act": 1,
+   "start": 215.965,
+   "end": 237.539,
+   "role": "H",
+   "sentences": [
+    "1.12#1",
+    "1.12#2",
+    "1.12#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_dossier_elite_scientists",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Yet what stunned Japan and the world went far beyond the sheer cruelty of the strike itself. The perpetrators were neither a foreign military unit nor hardened street criminals operating on society's margins."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-22",
+   "act": 1,
+   "start": 237.539,
+   "end": 255.538,
+   "role": "H",
+   "sentences": [
+    "1.12#4",
+    "1.12#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_kasumigaseki_facade",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Behind this devastating assault stood top-tier scientists, medical doctors, and intellectual elites educated at Japan's most prestigious universities. Their immaculate academic credentials had created a lethal “Halo Effect”, blinding society and law enforcement for years."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-23",
+   "act": 1,
+   "start": 255.538,
+   "end": 257.338,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ACT 02"
+      ],
+      [
+       "bold",
+       "THE BASE AT THE FOOT OF MOUNT FUJI"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "2-01",
+   "act": 2,
+   "start": 257.338,
+   "end": 269.457,
+   "role": "H",
+   "sentences": [
+    "2.02#1",
+    "2.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_mount_fuji_dawn_somber",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "At dawn on March 22, 1995 — exactly two days after the subway horror beneath Tokyo — over one thousand police officers and chemical warfare specialists mobilized simultaneously."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-02",
+   "act": 2,
+   "start": 269.457,
+   "end": 273.078,
+   "role": "H",
+   "sentences": [
+    "2.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_hazmat_officers_formation",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Equipped with heavy gas masks and specialized oxygen tanks."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-03",
+   "act": 2,
+   "start": 273.078,
+   "end": 286.877,
+   "role": "H",
+   "sentences": [
+    "2.02#4",
+    "2.02#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_police_convoy_kamikuishiki",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The convoy advanced on Aum Shinrikyo's sprawling compound in Kamikuishiki village, completely isolated at the foot of Mount Fuji — the most extensive search and seizure operation in the history of Japanese law enforcement."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-04",
+   "act": 2,
+   "start": 286.877,
+   "end": 302.251,
+   "role": "D",
+   "sentences": [
+    "2.04#1",
+    "2.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_satyam_compound_aerial",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The cult's complex, known as Satyam, comprised dozens of monolithic concrete structures fortified with round-the-clock surveillance camera networks. Outwardly, the site posed as a peaceful meditation monastery and an organic agricultural enterprise."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-05",
+   "act": 2,
+   "start": 302.251,
+   "end": 318.513,
+   "role": "D",
+   "sentences": [
+    "2.04#3",
+    "2.04#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_satyam_7_exterior",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "When investigators entered the building designated as Satyam Number 7, forensic specialists were chilled by what they uncovered. Inside lay no sacred statues or tranquil meditation halls, but a fully operational, industrial-grade chemical weapons factory."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-06",
+   "act": 2,
+   "start": 318.513,
+   "end": 326.496,
+   "role": "D",
+   "sentences": [
+    "2.04#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_chemical_precursor_drums",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Police seized dozens of tons of precursor chemicals alongside advanced organic synthesis machinery valued at millions of dollars."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-07",
+   "act": 2,
+   "start": 326.496,
+   "end": 334.947,
+   "role": "D",
+   "sentences": [
+    "2.04#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_mi17_helicopter_hangar",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Furthermore, the cult had secretly imported a Russian Mi-17 military helicopter and was actively cultivating deadly anthrax spores."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-08",
+   "act": 2,
+   "start": 334.947,
+   "end": 354.121,
+   "role": "H",
+   "sentences": [
+    "2.05#1",
+    "2.05#2"
+   ],
+   "template": "T3",
+   "variant": "compare",
+   "bg": "t8_newspaper_wrapped_package",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "MODUS OPERANDI"
+      ],
+      [
+       "bold",
+       "Bagged umbrellas, staged getaway cars"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "PSYCHOLOGICAL SIGNATURE"
+      ],
+      [
+       "bold",
+       "Manifesting the apocalypse"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-09",
+   "act": 2,
+   "start": 354.121,
+   "end": 380.686,
+   "role": "H",
+   "sentences": [
+    "2.05#3",
+    "2.05#4",
+    "2.05#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_aum_shinrikyo_emblem_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Yet the psychological trigger that launched the strike on that precise date arose from sheer panic within cult leadership. An internal leak revealed a full-scale raid on Kamikuishiki scheduled for March 22 — so the sarin offensive was ordered within a desperate 48-hour window."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-10",
+   "act": 2,
+   "start": 380.686,
+   "end": 396.493,
+   "role": "H",
+   "sentences": [
+    "2.05#6",
+    "2.05#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_weapons_of_mass_destruction",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "His indelible psychological Signature remained the obsessive compulsion to manifest his apocalyptic prophecies into physical reality. He desperately needed to validate his World War Three prophecy before the eyes of his followers."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-11",
+   "act": 2,
+   "start": 396.493,
+   "end": 404.061,
+   "role": "D",
+   "sentences": [
+    "2.07#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_matsumoto_night_1994",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Subsequent criminal investigations exposed a years-long escalation trajectory of violence that had steadily radicalized the group."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-12",
+   "act": 2,
+   "start": 404.061,
+   "end": 436.778,
+   "role": "D",
+   "sentences": [
+    "2.07#2",
+    "2.07#3",
+    "2.07#4",
+    "2.07#5"
+   ],
+   "template": "T6",
+   "variant": "",
+   "bg": "t8_sarin_synthesis_laboratory",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "First step · Yoga and levitation"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Second step · Seizure and confinement"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Third step · Murder in 1989"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Fourth step · Matsumoto in 1994"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-13",
+   "act": 2,
+   "start": 436.778,
+   "end": 449.377,
+   "role": "D",
+   "sentences": [
+    "2.07#6",
+    "2.07#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_sakamoto_lawyer_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "This behavioral pattern proved that violence escalated relentlessly as the cult sank deeper into unchecked megalomania. The Tokyo subway horror marked the ultimate crescendo of that murderous escalation cycle."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-14",
+   "act": 2,
+   "start": 449.377,
+   "end": 464.56,
+   "role": "H",
+   "sentences": [
+    "2.08#1",
+    "2.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_mountain_grave_memorial",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "A religious sect claiming to offer spiritual liberation possessed an arsenal capable of mass extermination. Stimulus tolerance drove their satisfaction threshold ever further, transforming small deceptive parlor tricks into catastrophic terrorism."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-15",
+   "act": 2,
+   "start": 464.56,
+   "end": 480.398,
+   "role": "H",
+   "sentences": [
+    "2.08#3",
+    "2.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_asahara_shadow_profile",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "How did a partially blind ex-patent-medicine salesman successfully assemble and control brilliant intellectuals to construct such a death machine? The answer resides deep within the darkest corridors of behavioral psychology."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-16",
+   "act": 2,
+   "start": 480.398,
+   "end": 482.198,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ACT 03"
+      ],
+      [
+       "bold",
+       "THE PARADOX OF SCIENTIFIC GENIUS"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "3-01",
+   "act": 3,
+   "start": 482.198,
+   "end": 495.502,
+   "role": "H",
+   "sentences": [
+    "3.02#1",
+    "3.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_asahara_shadow_profile",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "At the helm of Aum Shinrikyo stood Shoko Asahara, whose birth name was Chizuo Matsumoto. Born into an impoverished multi-child family in Kumamoto, he suffered congenital blindness in one eye and severely restricted vision in the other."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-02",
+   "act": 3,
+   "start": 495.502,
+   "end": 502.1,
+   "role": "H",
+   "sentences": [
+    "3.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_todai_red_gate_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "In his youth, Matsumoto repeatedly failed competitive entrance examinations for the prestigious University of Tokyo."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-03",
+   "act": 3,
+   "start": 502.1,
+   "end": 508.267,
+   "role": "H",
+   "sentences": [
+    "3.02#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_chinese_herbal_apothecary",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "He later opened an acupuncture clinic and received criminal fines for peddling fraudulent Chinese medicines."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-04",
+   "act": 3,
+   "start": 508.267,
+   "end": 513.572,
+   "role": "H",
+   "sentences": [
+    "3.02#5"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t8_asahara_shadow_profile",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "A man of fragmented education, unkempt appearance, and profound malignant narcissism."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-05",
+   "act": 3,
+   "start": 513.572,
+   "end": 527.28,
+   "role": "H",
+   "sentences": [
+    "3.02#6",
+    "3.02#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_devotion_altar_kneeling",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Yet prostrating at the feet of this partially blind charlatan were some of Japan's finest scientific minds. They eagerly surrendered their fortunes, rational intellects, and moral compasses to a man once dismissed by mainstream society."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-06",
+   "act": 3,
+   "start": 527.28,
+   "end": 545.088,
+   "role": "D",
+   "sentences": [
+    "3.03#1",
+    "3.03#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t8_dossier_elite_scientists",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Forensic profiles of Aum's inner sanctum astonished seasoned detectives with the extraordinary intellectual caliber assembled. Heading the cult's Ministry of Chemistry was Masami Tsuchiya, a brilliant organic chemistry master's graduate from prestigious Tsukuba University."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-07",
+   "act": 3,
+   "start": 545.088,
+   "end": 555.061,
+   "role": "D",
+   "sentences": [
+    "3.03#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_cosmic_physics_observatory",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Directing the Ministry of Science and Technology was Hideo Murai, a talented Osaka University astrophysicist with published research in cosmic radiation."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-08",
+   "act": 3,
+   "start": 555.061,
+   "end": 564.406,
+   "role": "D",
+   "sentences": [
+    "3.03#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_virology_electron_microscope",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Overseeing the medical division and biological weapons was Seiichi Endo, who completed advanced molecular virology studies at Kyoto University."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-09",
+   "act": 3,
+   "start": 564.406,
+   "end": 581.998,
+   "role": "D",
+   "sentences": [
+    "3.03#5",
+    "3.03#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_cardiac_surgery_theatre",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Another key operative was Doctor Tomomasa Nakagawa, an accredited medical physician. Most striking of all, running the cult's medical clinic was Doctor Ikuo Hayashi, a Keio University-educated cardiologist who had served as department chief at a national hospital."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-10",
+   "act": 3,
+   "start": 581.998,
+   "end": 589.204,
+   "role": "H",
+   "sentences": [
+    "3.04#1"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t8_stethoscope_abandoned_drain",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "A respected cardiologist who had sworn the Hippocratic Oath to preserve human life, brilliant scholars with dazzling academic horizons."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-11",
+   "act": 3,
+   "start": 589.204,
+   "end": 601.676,
+   "role": "H",
+   "sentences": [
+    "3.04#2",
+    "3.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_intellectual_hubris_chess",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Why did these accomplished professionals abandon their careers to manufacture chemical weapons against their fellow citizens? What systematically demolished the rational cognitive defenses of the nation's brightest minds?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-12",
+   "act": 3,
+   "start": 601.676,
+   "end": 607.407,
+   "role": "C",
+   "sentences": [
+    "3.05#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t8_tokyo_stock_crash_1990",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "Existential Vacuum"
+      ],
+      [
+       "ital",
+       "(A socio-psychological condition)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-13",
+   "act": 3,
+   "start": 607.407,
+   "end": 621.135,
+   "role": "C",
+   "sentences": [
+    "3.05#2",
+    "3.05#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_corporate_salaryman_cogs",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "During the early 1990s, Japan endured the devastating collapse of its postwar bubble economy. Japanese society operated as an immense pressure vessel, reducing individual identities to anonymous cogs inside corporate conglomerates."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-14",
+   "act": 3,
+   "start": 621.135,
+   "end": 629.755,
+   "role": "C",
+   "sentences": [
+    "3.05#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_yoga_meditation_incense",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Many elite youths achieved flawless academic scores, yet experienced profound alienation and an agonizing spiritual void regarding life's purpose."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-15",
+   "act": 3,
+   "start": 629.755,
+   "end": 645.918,
+   "role": "C",
+   "sentences": [
+    "3.05#5",
+    "3.05#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_asahara_shadow_profile",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Precisely when these brilliant minds felt most isolated, Shoko Asahara presented an expertly disguised verbal snare. He skillfully intertwined Eastern esoteric mysticism with cutting-edge scientific terminology like quantum mechanics, energy fields, and apocalyptic physics."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-16",
+   "act": 3,
+   "start": 645.918,
+   "end": 653.245,
+   "role": "C",
+   "sentences": [
+    "3.05#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_moral_rationalization_books",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "This pseudo-scientific synthesis struck a resonant chord in young intellectuals searching for transcendental meaning."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-17",
+   "act": 3,
+   "start": 653.245,
+   "end": 666.62,
+   "role": "H",
+   "sentences": [
+    "3.06#1",
+    "3.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_intellectual_hubris_chess",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Highly educated individuals harbor a dangerous psychological vulnerability: immense intellectual arrogance. They firmly convince themselves that they are far too clever and analytical to ever fall prey to crude manipulation."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-18",
+   "act": 3,
+   "start": 666.62,
+   "end": 683.471,
+   "role": "H",
+   "sentences": [
+    "3.06#3",
+    "3.06#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_moral_rationalization_books",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "When Asahara bestowed upon them the identity of chosen guardians charged with cosmic salvation, their intellectual hubris sealed the trap. Their formidable intellect failed to protect them; instead, it became an engine of sophisticated rationalization for unthinkable atrocities."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-19",
+   "act": 3,
+   "start": 683.471,
+   "end": 699.669,
+   "role": "C",
+   "sentences": [
+    "3.07#1",
+    "3.07#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_yoga_meditation_incense",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "To sustain their dual lives, these intellectual disciples engaged in rigorous cognitive Compartmentalization. They locked their civilian identities — gentle fathers, loving sons, ethical professionals — inside one mental drawer, entirely sealed off from the darkness of Satyam."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-20",
+   "act": 3,
+   "start": 699.669,
+   "end": 721.327,
+   "role": "C",
+   "sentences": [
+    "3.07#3",
+    "3.07#4",
+    "3.07#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_devotion_altar_kneeling",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Concurrently, the guru indoctrinated them with psychological Objectification and dehumanization of victims. In the distorted worldview of Aum scientists, ordinary citizens were no longer human beings with families, but spiritually defiled souls obstructing cosmic purification. Agonized pleas and human lives were reduced to cold data points within chemical synthesis logs."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-21",
+   "act": 3,
+   "start": 721.327,
+   "end": 743.613,
+   "role": "C",
+   "sentences": [
+    "3.07#6",
+    "3.07#7",
+    "3.07#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_bio_incubator_pathogens",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "An equally devastating tragedy engulfed the families of these brilliant young intellectuals. Devoted parents, who had celebrated their children's triumphs at premier universities, saw their family identities pulverized when their sons were revealed as terrorists. Countless parents resigned from lifelong careers, living out their remaining days prostrating in public apologies."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-22",
+   "act": 3,
+   "start": 743.613,
+   "end": 768.618,
+   "role": "H",
+   "sentences": [
+    "3.08#1",
+    "3.08#2",
+    "3.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_broken_hippocratic_oath",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Intellect severed from affective empathy becomes the deadliest instrument on earth. Cognitive fragmentation allowed individuals once celebrated as societal role models to orchestrate mass slaughter without feeling internal guilt. Yet to translate warped conviction into physical extermination, the cult deployed mind control techniques far more insidious than ideological manipulation alone."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-23",
+   "act": 3,
+   "start": 768.618,
+   "end": 770.418,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ACT 04"
+      ],
+      [
+       "bold",
+       "BRAINWASHING AND THE POA DOCTRINE"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "4-01",
+   "act": 4,
+   "start": 770.418,
+   "end": 783.91,
+   "role": "H",
+   "sentences": [
+    "4.02#1",
+    "4.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_concrete_cell_isolation",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Inside Aum's closed monastic camps, disciples remained completely isolated from the outside world. Passports and identification cards were confiscated, communications with parents were severed, and access to independent news was forbidden."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-02",
+   "act": 4,
+   "start": 783.91,
+   "end": 796.971,
+   "role": "H",
+   "sentences": [
+    "4.02#3",
+    "4.02#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_malnutrition_solitary_bowl",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Yet the most sinister weapon utilized to crush independent will was systematic physical exhaustion. Followers were restricted to merely two or three hours of sleep nightly while enduring severe caloric restriction and malnutrition."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-03",
+   "act": 4,
+   "start": 796.971,
+   "end": 806.701,
+   "role": "H",
+   "sentences": [
+    "4.02#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_frontal_lobe_brain_scan",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "When the human brain experiences chronic exhaustion, the prefrontal cortex governing critical judgment and moral reasoning shuts down, inducing unquestioning obedience."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-04",
+   "act": 4,
+   "start": 806.701,
+   "end": 820.01,
+   "role": "D",
+   "sentences": [
+    "4.03#1",
+    "4.03#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_psi_headgear_electrodes",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Police records exposed bizarre technological devices deployed by cult leadership to manipulate follower neurochemistry. They constructed an electrode-lined headpiece named PSI, mandating that disciples wear it for hours on end."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-05",
+   "act": 4,
+   "start": 820.01,
+   "end": 838.006,
+   "role": "D",
+   "sentences": [
+    "4.03#3",
+    "4.03#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_hallucinogen_ritual_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The cult claimed this contraption synchronized the wearer's brainwaves with the guru's transcendent frequencies, charging thousands of dollars monthly per device. Furthermore, forensic teams discovered that the cult secretly administered potent hallucinogens like LSD and psychotropics during nocturnal rituals."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-06",
+   "act": 4,
+   "start": 838.006,
+   "end": 847.465,
+   "role": "D",
+   "sentences": [
+    "4.03#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_bio_incubator_pathogens",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Under chemical intoxication and sensory deprivation, young intellectuals genuinely hallucinated divine auras around Asahara, losing any remaining skepticism."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-07",
+   "act": 4,
+   "start": 847.465,
+   "end": 856.111,
+   "role": "H",
+   "sentences": [
+    "4.04#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "t8_poa_twisted_doctrine",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "Poa"
+      ],
+      [
+       "ital",
+       "(Tibetan Phowa — Consciousness Transference)"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-08",
+   "act": 4,
+   "start": 856.111,
+   "end": 865.29,
+   "role": "H",
+   "sentences": [
+    "4.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_buddhist_mandala_distortion",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "In traditional Tibetan Buddhism, Phowa is a sacred meditation practice concerning conscious spiritual transference at the threshold of natural death."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-09",
+   "act": 4,
+   "start": 865.29,
+   "end": 878.192,
+   "role": "H",
+   "sentences": [
+    "4.04#3",
+    "4.04#4"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t8_broken_hippocratic_oath",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Asahara weaponized this ancient spiritual concept into a murderous theological license to extinguish human life. He disguised cold-blooded homicide beneath the sacred veneer of supreme spiritual mercy."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-10",
+   "act": 4,
+   "start": 878.192,
+   "end": 893.299,
+   "role": "C",
+   "sentences": [
+    "4.05#1",
+    "4.05#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_apocalypse_prophecy_scroll",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Asahara preached that secular society was irreparably corrupted and hurtling toward an inevitable nuclear Armageddon. He asserted that ordinary civilians, by continuing to live in ignorance, were accumulating disastrous spiritual karma that would plunge them into hell."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-11",
+   "act": 4,
+   "start": 893.299,
+   "end": 907.599,
+   "role": "C",
+   "sentences": [
+    "4.05#3",
+    "4.05#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_devotion_altar_kneeling",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Consequently, terminating their physical lives before they accumulated further karmic debt was framed not as murder, but as an act of absolute compassion. This represents the absolute zenith of Moral Disengagement and cognitive neutralization techniques."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-12",
+   "act": 4,
+   "start": 907.599,
+   "end": 924.561,
+   "role": "C",
+   "sentences": [
+    "4.05#5",
+    "4.05#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_moral_rationalization_books",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "By completely inverting universal ethics, perpetrators genuinely believed their hands were executing holy deeds to rescue their victims. Simultaneously, displacement of responsibility convinced them that they were mere instruments carrying out the absolute will of the Supreme Master."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-13",
+   "act": 4,
+   "start": 924.561,
+   "end": 938.801,
+   "role": "H",
+   "sentences": [
+    "4.06#1",
+    "4.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_dr_hayashi_umbrella_subway",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "That demonic theological inversion paralyzed the moral compass of Doctor Ikuo Hayashi, formerly chief of a prestigious cardiology ward. On the morning of March 20, the very hands trained to heal punctured two sarin bags on the Chiyoda subway line."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-14",
+   "act": 4,
+   "start": 938.801,
+   "end": 944.565,
+   "role": "H",
+   "sentences": [
+    "4.06#3"
+   ],
+   "template": "T4",
+   "variant": "",
+   "bg": "t8_tokyo_court_witness_stand",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Listen to how that broken man confronted his shattered soul before the Tokyo District Court."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N2"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-15",
+   "act": 4,
+   "start": 944.565,
+   "end": 953.6,
+   "role": "N2",
+   "sentences": [
+    "4.08#1",
+    "4.08#2"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t8_grand_courtroom_proceedings",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Standing before this court, I do not seek any forgiveness for myself. I was a medical doctor who swore a solemn oath to protect human life at all costs."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-16",
+   "act": 4,
+   "start": 953.6,
+   "end": 974.153,
+   "role": "N2",
+   "sentences": [
+    "4.08#3",
+    "4.08#4",
+    "4.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_court_witness_stand",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Yet I allowed a twisted ideology to blind my conscience, inflicting irreversible agony upon innocent fellow human beings. Looking into the grief-stricken eyes of the victims' families, I know there is no salvation for my guilt other than confessing the absolute truth. I kneel before the court and submit to the most severe punishment under the law."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-17",
+   "act": 4,
+   "start": 974.153,
+   "end": 987.1,
+   "role": "H",
+   "sentences": [
+    "4.09#1",
+    "4.09#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_court_gavel_strike",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Doctor Hayashi's courageous, detailed confession provided investigators with the indispensable breakthrough needed to unravel Aum's criminal syndicate. Yet another violent shockwave struck directly before the public eye."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-18",
+   "act": 4,
+   "start": 987.1,
+   "end": 996.621,
+   "role": "H",
+   "sentences": [
+    "4.09#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_murai_assassination_cameras",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "On April 23, 1995, cult science minister Hideo Murai was stabbed to death before live television cameras outside Aum's Tokyo headquarters to silence weapon secrets."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-19",
+   "act": 4,
+   "start": 996.621,
+   "end": 1002.116,
+   "role": "H",
+   "sentences": [
+    "4.09#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_police_convoy_kamikuishiki",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Despite violent obstruction, the legal dragnet steadily closed around the supreme architect."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-20",
+   "act": 4,
+   "start": 1002.116,
+   "end": 1009.736,
+   "role": "H",
+   "sentences": [
+    "4.09#5"
+   ],
+   "template": "T5",
+   "variant": "date",
+   "bg": "t8_hidden_ceiling_hideout",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "DATE OF DISCOVERY"
+      ],
+      [
+       "bold",
+       "MAY 16 · 1995"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-21",
+   "act": 4,
+   "start": 1009.736,
+   "end": 1024.431,
+   "role": "H",
+   "sentences": [
+    "4.09#6",
+    "4.09#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_asahara_shadow_profile",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The self-proclaimed savior of humanity crouched shivering in absolute darkness, clutching ten million yen in cash and gold bars. The prophetic mask shattered, exposing the pathetic terror of a charlatan undergoing complete Narcissistic Collapse."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-22",
+   "act": 4,
+   "start": 1024.431,
+   "end": 1046.821,
+   "role": "D",
+   "sentences": [
+    "4.11#1",
+    "4.11#2",
+    "4.11#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_court_gavel_strike",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The humiliating capture of Shoko Asahara stripped away the entire illusion surrounding the toxic cult leader. There was no supernatural levitation, no divine protection rescuing him from the reach of justice. He stood exposed as a ruthless manipulator, willing to sacrifice hundreds of followers solely to safeguard his personal survival."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-23",
+   "act": 4,
+   "start": 1046.821,
+   "end": 1048.621,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ACT 05"
+      ],
+      [
+       "bold",
+       "THE HISTORIC VERDICT & THE LESSON"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "5-01",
+   "act": 5,
+   "start": 1048.621,
+   "end": 1065.871,
+   "role": "H",
+   "sentences": [
+    "5.02#1",
+    "5.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_grand_courtroom_proceedings",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The legal trials of Aum Shinrikyo spanned over two decades, comprising one of the most voluminous judicial dockets in Japanese history. Throughout his lengthy trial, Shoko Asahara feigned madness, muttering incoherent gibberish and refusing meaningful engagement with judges or defense counsel."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-02",
+   "act": 5,
+   "start": 1065.871,
+   "end": 1086.362,
+   "role": "H",
+   "sentences": [
+    "5.02#3",
+    "5.02#4",
+    "5.02#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_court_gavel_strike",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "This behavior exemplifies classic Narcissistic Collapse and Pathological Self-Pity. Accustomed to uninhibited dominion, he could not bear the indignity of reality once stripped of his manufactured aura of omnipotence. He preferred retreating into mute withdrawal rather than acknowledging the ruinous bankruptcy of his apocalyptic delusion."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-03",
+   "act": 5,
+   "start": 1086.362,
+   "end": 1095.513,
+   "role": "D",
+   "sentences": [
+    "5.03#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_thirteen_death_verdicts",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Following exhaustive legal proceedings, the Supreme Court of Japan affirmed the ultimate penalty: capital punishment for Shoko Asahara and twelve core disciples."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-04",
+   "act": 5,
+   "start": 1095.513,
+   "end": 1104.391,
+   "role": "D",
+   "sentences": [
+    "5.03#2"
+   ],
+   "template": "T2",
+   "variant": "",
+   "bg": "t8_dossier_elite_scientists",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Among those condemned were lead chemist Masami Tsuchiya, virologist Seiichi Endo, arms procurement minister Kiyohide Hayakawa, and Doctor Tomomasa Nakagawa."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-05",
+   "act": 5,
+   "start": 1104.391,
+   "end": 1128.915,
+   "role": "D",
+   "sentences": [
+    "5.03#3",
+    "5.03#4",
+    "5.03#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_court_gavel_strike",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "In contrast, Doctor Ikuo Hayashi received life imprisonment, spared the gallows due to his genuine remorse, public repentance, and pivotal cooperation with investigators. In July 2018, the sentences of execution by hanging were formally carried out for Shoko Asahara and all twelve convicted co-conspirators. The decisive hand of justice brought closure to a dark chapter that haunted Japanese society for twenty-three years."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-06",
+   "act": 5,
+   "start": 1128.915,
+   "end": 1144.929,
+   "role": "H",
+   "sentences": [
+    "5.04#1",
+    "5.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_detention_house_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The tragedy shattered societal innocence and catalyzed sweeping legislative and institutional reforms across Japan. Parliament substantially revised the Religious Corporations Act and enacted specialized security statutes to monitor organizations capable of indiscriminate violence."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-07",
+   "act": 5,
+   "start": 1144.929,
+   "end": 1153.073,
+   "role": "H",
+   "sentences": [
+    "5.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_murakami_underground_book",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "In his acclaimed documentary book “Underground”, novelist Haruki Murakami spent months interviewing dozens of survivors and former Aum members."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-08",
+   "act": 5,
+   "start": 1153.073,
+   "end": 1177.362,
+   "role": "H",
+   "sentences": [
+    "5.04#4",
+    "5.04#5",
+    "5.04#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_fragile_boundary_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "He concluded that the boundary separating ordinary citizens from fanatical extremists is far more fragile than modern society dares to admit. When modern life becomes excessively atomized and unfeeling, vulnerable individuals inevitably seek toxic life rafts to anchor their loneliness. True evil does not merely arrive from external monsters; it germinates where human empathy and authentic connection have withered away."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-09",
+   "act": 5,
+   "start": 1177.362,
+   "end": 1191.036,
+   "role": "C",
+   "sentences": [
+    "5.05#1",
+    "5.05#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_dawn_restored_peace",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The Aum Shinrikyo tragedy offers a chilling warning regarding the vulnerabilities of human cognition. Prestigious academic credentials and formidable logical intellect offer zero immunity against insidious psychological manipulation."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-10",
+   "act": 5,
+   "start": 1191.036,
+   "end": 1206.626,
+   "role": "C",
+   "sentences": [
+    "5.05#3",
+    "5.05#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_dawn_fog",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "On the contrary, when exceptional minds lose their grounding in foundational human values, they can become the most devastating weapons of cruelty. Fanaticism invariably begins with intoxicating promises of absolute truth standing above universal ethical norms."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-11",
+   "act": 5,
+   "start": 1206.626,
+   "end": 1215.868,
+   "role": "H",
+   "sentences": [
+    "5.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_mountain_grave_memorial",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "To safeguard ourselves and those we love from manipulative, high-control groups, Amber Eyes highlights four vital survival red flags from this historical file."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-12",
+   "act": 5,
+   "start": 1215.868,
+   "end": 1220.3,
+   "role": "H",
+   "sentences": [
+    "5.06#2"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "t8_redflag1_social_isolation",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "01"
+      ],
+      [
+       "bold",
+       "RED FLAG 1 — SOCIAL ISOLATION & SEVERING SUPPORT NETWORKS"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-13",
+   "act": 5,
+   "start": 1220.3,
+   "end": 1231.108,
+   "role": "H",
+   "sentences": [
+    "5.06#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_corporate_salaryman_cogs",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Any healthy community respects your family ties and independent social circles; if a group demands cutting contact with loved ones or filtering outside information, walk away immediately."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-14",
+   "act": 5,
+   "start": 1231.108,
+   "end": 1235.875,
+   "role": "H",
+   "sentences": [
+    "5.06#4"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "t8_redflag2_physical_exhaustion",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "02"
+      ],
+      [
+       "bold",
+       "RED FLAG 2 — PHYSICAL DEPRIVATION TO PARALYZE CRITICAL THINKING"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-15",
+   "act": 5,
+   "start": 1235.875,
+   "end": 1245.285,
+   "role": "H",
+   "sentences": [
+    "5.06#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_malnutrition_solitary_bowl",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Exercise utmost vigilance toward organizations enforcing chronic sleep deprivation, severe fasting, or exhausting labor under the guise of spiritual purification."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-16",
+   "act": 5,
+   "start": 1245.285,
+   "end": 1249.661,
+   "role": "H",
+   "sentences": [
+    "5.06#6"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "t8_redflag3_cult_of_personality",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "03"
+      ],
+      [
+       "bold",
+       "RED FLAG 3 — ABSOLUTE AUTHORITARIANISM & FORBIDDING INQUIRY"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-17",
+   "act": 5,
+   "start": 1249.661,
+   "end": 1259.295,
+   "role": "H",
+   "sentences": [
+    "5.06#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_devotion_altar_kneeling",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Genuine mentors encourage critical thinking and verify empirical reality; only predatory manipulators place themselves above the law and classify honest doubt as sin."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-18",
+   "act": 5,
+   "start": 1259.295,
+   "end": 1262.72,
+   "role": "H",
+   "sentences": [
+    "5.06#8"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "t8_redflag4_moral_inversion",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "04"
+      ],
+      [
+       "bold",
+       "RED FLAG 4 — MORAL INVERSION & WEAPONIZED HATRED"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-19",
+   "act": 5,
+   "start": 1262.72,
+   "end": 1278.398,
+   "role": "H",
+   "sentences": [
+    "5.06#9",
+    "5.06#10"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_fragile_boundary_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Decisively reject any doctrine that rationalizes inflicting harm upon fellow human beings in the name of a higher spiritual cause. Authentic truth is never forged upon deception, manufactured fear, or the suffering of our fellow human beings."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-20",
+   "act": 5,
+   "start": 1278.398,
+   "end": 1284.844,
+   "role": "H",
+   "sentences": [
+    "5.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_dawn_restored_peace",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The light of intellect holds true value only when guided by genuine compassion and an awake moral conscience."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-21",
+   "act": 5,
+   "start": 1284.844,
+   "end": 1299.445,
+   "role": "H",
+   "sentences": [
+    "5.08#2",
+    "5.08#3",
+    "5.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_dawn_fog",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Thank you for joining Amber Eyes in dissecting today's criminal psychology case file. Please subscribe to the channel, share this documentary, and share your perspective in the comments below. Until our next case file, stay vigilant and take care."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-22",
+   "act": 5,
+   "start": 1299.445,
+   "end": 1309.445,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_dawn_restored_peace",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "DOSSIER EPISODE 08 · CLOSED"
+      ],
+      [
+       "bold",
+       "AMBER EYES"
+      ],
+      [
+       "ital",
+       "Criminal psychology through real case files"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+# -*- coding: utf-8 -*-
+"""Bảng shot Tập 08 — HỒI 3."""
+
+ACT3 = [
+    ("3-01", "`3.02#1`–`#2`", "H", "T1", "`t8_asahara_shadow_profile`, `pull`",
+     "*Đứng đầu giáo phái Aum Shinrikyo là một người đàn ông mang tên Shoko Asahara, tên thật là Chizuo Matsumoto. Hắn sinh ra trong một gia đình nghèo đông con tại tỉnh Kumamoto, bị mù một mắt và mắt còn lại suy giảm thị lực nghiêm trọng do bệnh bẩm sinh.*",
+     "*At the helm of Aum Shinrikyo stood Shoko Asahara, whose birth name was Chizuo Matsumoto. Born into an impoverished multi-child family in Kumamoto, he suffered congenital blindness in one eye and severely restricted vision in the other.*",
+     "*オウム真理教の頂点に君臨していたのは、麻原彰晃、本名・松本智津夫という男でした。彼は熊本県の貧しい大家族に生まれ、先天性の疾患により片目を失明し、もう片方の視力も著しく制限されていました。*",
+     "—", "—", ""),
+
+    ("3-02", "`3.02#3`", "H", "T1", "`t8_todai_red_gate_shadow`, `still`",
+     "*Thời trẻ, Matsumoto từng nhiều lần thi trượt kỳ thi tuyển sinh vào Đại học Tokyo danh giá.*",
+     "*In his youth, Matsumoto repeatedly failed competitive entrance examinations for the prestigious University of Tokyo.*",
+     "*若き日の松本は、憧れの東京大学への受験に何度も失敗を繰り返しました。*",
+     "—", "—", ""),
+
+    ("3-03", "`3.02#4`", "H", "T1", "`t8_chinese_herbal_apothecary`, `pull`",
+     "*Hắn từng mở phòng khám châm cứu và phải nhận án phạt vì buôn bán thuốc đông y giả.*",
+     "*He later opened an acupuncture clinic and received criminal fines for peddling fraudulent Chinese medicines.*",
+     "*鍼灸院を開業したものの、無許可の偽薬を販売したことで罰金刑を受けています。*",
+     "—", "—", ""),
+
+    ("3-04", "`3.02#5`", "H", "T4 trích dẫn", "`t8_asahara_shadow_profile`, `still`",
+     "*Một kẻ có trình độ học vấn chắp vá, ngoại hình luộm thuộm và nhân cách mang đậm nét ái kỷ bệnh lý.*",
+     "*A man of fragmented education, unkempt appearance, and profound malignant narcissism.*",
+     "*学歴は断片的で、身なりは粗野であり、その精神には重度の病的自己愛が深く刻まれていました。*",
+     "—", "—", ""),
+
+    ("3-05", "`3.02#6`–`#7`", "H", "T1", "`t8_devotion_altar_kneeling`, `pan`",
+     "*Thế nhưng, quỳ gối dưới chân người đàn ông mù lòa ấy lại là những trí thức ưu tú nhất của đất nước Nhật Bản. Họ sẵn sàng dâng hiến toàn bộ tài sản, lý trí và lương tâm của mình cho một kẻ từng bị xã hội khinh thường.*",
+     "*Yet prostrating at the feet of this partially blind charlatan were some of Japan's finest scientific minds. They eagerly surrendered their fortunes, rational intellects, and moral compasses to a man once dismissed by mainstream society.*",
+     "*しかし、その男の足元に跪いていたのは、日本屈指の頭脳を持つ若きエリートたちだったのです。かつて社会から軽んじられた男のために、彼らは全財産、理性、そして良心を惜しみなく捧げました。*",
+     "—", "—", ""),
+
+    ("3-06", "`3.03#1`–`#2`", "D", "T2 thẻ hồ sơ", "`t8_dossier_elite_scientists`, `still`",
+     "*Hồ sơ của ban lãnh đạo giáo phái Aum khiến bất kỳ ai cũng phải ngỡ ngàng trước hàm lượng chất xám mà tổ chức này sở hữu. Người phụ trách Bộ Hóa học của giáo phái là Masami Tsuchiya, thạc sĩ hóa học hữu cơ xuất sắc của Đại học Tsukuba danh tiếng.*",
+     "*Forensic profiles of Aum's inner sanctum astonished seasoned detectives with the extraordinary intellectual caliber assembled. Heading the cult's Ministry of Chemistry was Masami Tsuchiya, a brilliant organic chemistry master's graduate from prestigious Tsukuba University.*",
+     "*教団中枢の幹部名簿は、そこに結集した驚異的な知的水準によってベテラン捜査官たちをも驚愕させました。教団の「化学生」トップを務めたのは、名門・筑波大学大学院で有機化学の修士号を修めた秀才、土谷正実でした。*",
+     "—", "—", ""),
+
+    ("3-07", "`3.03#3`", "D", "T1", "`t8_cosmic_physics_observatory`, `pull`",
+     "*Người đứng đầu Bộ Khoa học và Công nghệ là Hideo Murai, một nhà vật lý tài ba của Đại học Osaka từng nghiên cứu về bức xạ vũ trụ.*",
+     "*Directing the Ministry of Science and Technology was Hideo Murai, a talented Osaka University astrophysicist with published research in cosmic radiation.*",
+     "*「科学技術庁」を率いたのは、宇宙放射線の研究実績を持つ大阪大学物理学科出身の天才、村井秀夫でした。*",
+     "—", "—", ""),
+
+    ("3-08", "`3.03#4`", "D", "T1", "`t8_virology_electron_microscope`, `still`",
+     "*Người phụ trách mảng y tế và vũ khí sinh học là Seiichi Endo, người từng theo học ngành virus học tại Đại học Kyoto.*",
+     "*Overseeing the medical division and biological weapons was Seiichi Endo, who completed advanced molecular virology studies at Kyoto University.*",
+     "*医療および生物兵器開発を担ったのは、京都大学大学院で分子ウイルス学を学んでいた遠藤誠一でした。*",
+     "—", "—", ""),
+
+    ("3-09", "`3.03#5`–`#6`", "D", "T1", "`t8_cardiac_surgery_theatre`, `pan`",
+     "*Một thành viên cốt cán khác là Bác sĩ Tomomasa Nakagawa, tốt nghiệp đại học y khoa. Và đặc biệt hơn cả, phụ trách hệ thống bệnh viện của giáo phái là Bác sĩ Ikuo Hayashi, chuyên gia tim mạch tốt nghiệp Đại học Keio danh giá và từng là bác sĩ trưởng khoa tại bệnh viện quốc gia.*",
+     "*Another key operative was Doctor Tomomasa Nakagawa, an accredited medical physician. Most striking of all, running the cult's medical clinic was Doctor Ikuo Hayashi, a Keio University-educated cardiologist who had served as department chief at a national hospital.*",
+     "*もう一人の重要幹部は、医学部を卒業した正規の医師、中川智正でした。そして何より衝撃的だったのは教団附属医院の院長を務めた林郁夫医師であり、慶應義塾大学医学部を卒業し国立病院の循環器科部長を務めた高名な心臓医でした。*",
+     "—", "—", ""),
+
+    ("3-10", "`3.04#1`", "H", "T4 trích dẫn", "`t8_stethoscope_abandoned_drain`, `still`",
+     "*Một bác sĩ tim mạch từng dành cả cuộc đời để giành giật sự sống cho người bệnh, những nhà khoa học với tương lai học thuật rực rỡ.*",
+     "*A respected cardiologist who had sworn the Hippocratic Oath to preserve human life, brilliant scholars with dazzling academic horizons.*",
+     "*生涯をかけて患者の命を救う誓いを立てた心臓外科医や、輝かしい未来を約束されていた若き科学者たち。*",
+     "—", "—", ""),
+
+    ("3-11", "`3.04#2`–`#3`", "H", "T1", "`t8_intellectual_hubris_chess`, `pull`",
+     "*Tại sao họ lại từ bỏ đỉnh cao danh vọng để rồi chế tạo vũ khí hủy diệt chính đồng bào của mình? Điều gì đã đánh sập toàn bộ hệ thống phòng thủ lý trí của những bộ óc thông minh nhất đất nước?*",
+     "*Why did these accomplished professionals abandon their careers to manufacture chemical weapons against their fellow citizens? What systematically demolished the rational cognitive defenses of the nation's brightest minds?*",
+     "*なぜ彼らは自らの栄光あるキャリアを捨て去り、同胞を大量殺戮するための兵器開発に手を染めたのでしょうか。日本最高峰の頭脳の理性的な防御壁を完全に破壊し尽くしたものは、一体何だったのでしょうか。*",
+     "—", "—", ""),
+
+    ("3-12", "`3.05#1`", "C", "T9 thuật ngữ", "`t8_tokyo_stock_crash_1990`, `still`",
+     "**Sự trống rỗng hiện sinh** *(Existential Vacuum)*",
+     "**Existential Vacuum** *(A socio-psychological condition)*",
+     "**実存的真空** *(Existential Vacuum)*",
+     "—", "✦ Cáo", ""),
+
+    ("3-13", "`3.05#2`–`#3`", "C", "T1", "`t8_corporate_salaryman_cogs`, `pull`",
+     "*Vào đầu thập niên 90, nước Nhật trải qua sự sụp đổ kinh hoàng của nền kinh tế bong bóng. Xã hội Nhật Bản lúc bấy giờ vận hành như một cỗ máy áp lực khổng lồ, nơi mỗi cá nhân bị ép phải trở thành những bánh răng vô danh trong các tập đoàn lớn.*",
+     "*During the early 1990s, Japan endured the devastating collapse of its postwar bubble economy. Japanese society operated as an immense pressure vessel, reducing individual identities to anonymous cogs inside corporate conglomerates.*",
+     "*1990年代初頭、日本は戦後の繁栄を支えたバブル経済の破滅的な崩壊を経験しました。当時の日本社会は巨大な圧力容器のように機能し、個人を大企業の中の無名な歯車へと規格化していました。*",
+     "—", "—", ""),
+
+    ("3-14", "`3.05#4`", "C", "T1", "`t8_yoga_meditation_incense`, `still`",
+     "*Nhiều thanh niên trí thức đạt điểm số tuyệt đối trong học tập nhưng tâm hồn lại hoàn toàn trống rỗng về ý nghĩa cuộc đời và mất phương hướng giá trị.*",
+     "*Many elite youths achieved flawless academic scores, yet experienced profound alienation and an agonizing spiritual void regarding life's purpose.*",
+     "*多くのエリート青年たちは学業で完璧な成績を収めながらも、自らの人生の意味を見失い、深い虚無感と孤独に苛まれていたのです。*",
+     "—", "—", ""),
+
+    ("3-15", "`3.05#5`–`#6`", "C", "T1", "`t8_asahara_shadow_profile`, `pan`",
+     "*Chính vào lúc những bộ óc xuất sắc ấy cảm thấy cô đơn và lạc lõng nhất, Shoko Asahara đã xuất hiện với một chiếc bẫy ngôn từ được ngụy trang hoàn hảo. Hắn khéo léo lồng ghép các khái niệm tâm linh phương Đông với các thuật ngữ khoa học như cơ học lượng tử, trường năng lượng và tận thế luận.*",
+     "*Precisely when these brilliant minds felt most isolated, Shoko Asahara presented an expertly disguised verbal snare. He skillfully intertwined Eastern esoteric mysticism with cutting-edge scientific terminology like quantum mechanics, energy fields, and apocalyptic physics.*",
+     "*こうした優れた若者たちが最も精神的な孤立を感じていたその瞬間、麻原彰晃は巧妙に偽装された言語の罠を持って現れました。彼は東洋の神秘主義の概念に、量子力学、エネルギー場、終末物理学といった最先端の科学用語を巧みに編み合わせました。*",
+     "—", "—", ""),
+
+    ("3-16", "`3.05#7`", "C", "T1", "`t8_moral_rationalization_books`, `still`",
+     "*Cách tiếp cận ngụy khoa học này đã đánh trúng cơn khát tìm kiếm ý nghĩa siêu nghiệm của giới sinh viên tinh hoa.*",
+     "*This pseudo-scientific synthesis struck a resonant chord in young intellectuals searching for transcendental meaning.*",
+     "*この疑似科学的なアプローチは、超越的な生きる意味を渇望していた若きインテリ層の好奇心に正確に突き刺さったのです。*",
+     "—", "—", ""),
+
+    ("3-17", "`3.06#1`–`#2`", "H", "T1", "`t8_intellectual_hubris_chess`, `pull`",
+     "*Những người có học thức cao thường có một điểm yếu tâm lý chí mạng: Cái tôi trí tuệ quá lớn. Họ luôn tin rằng bản thân quá thông minh và duy lý để có thể bị một kẻ khác thao túng hoặc lừa gạt.*",
+     "*Highly educated individuals harbor a dangerous psychological vulnerability: immense intellectual arrogance. They firmly convince themselves that they are far too clever and analytical to ever fall prey to crude manipulation.*",
+     "*高度な教育を受けた者たちには、過剰な知性のプライドという特有の致命的な心理的脆弱性があります。彼らは自分があまりにも知的で合理的であるがゆえに、粗雑なペテンに騙されるはずがないと過信していました。*",
+     "—", "—", ""),
+
+    ("3-18", "`3.06#3`–`#4`", "H", "T1", "`t8_moral_rationalization_books`, `still`",
+     "*Khi Asahara trao cho họ cảm giác được trở thành những người được chọn nắm giữ chân lý cứu rỗi vũ trụ, chiếc bẫy kiêu ngạo đã sập xuống. Trí thông minh phi thường của họ không hề bảo vệ được họ, mà ngược lại trở thành công cụ đắc lực để họ tự hợp lý hóa cho những hành vi tàn bạo nhất.*",
+     "*When Asahara bestowed upon them the identity of chosen guardians charged with cosmic salvation, their intellectual hubris sealed the trap. Their formidable intellect failed to protect them; instead, it became an engine of sophisticated rationalization for unthinkable atrocities.*",
+     "*麻原が彼らに宇宙の救済を託された「選ばれし者」というアイデンティティを授けたとき、傲慢という名の罠は完全に作動しました。彼らの類まれな知性は身を守る盾となるどころか、自らの非人道的な蛮行を正当化するための強力な武器となってしまったのです。*",
+     "—", "—", ""),
+
+    ("3-19", "`3.07#1`–`#2`", "C", "T1", "`t8_yoga_meditation_incense`, `pull`",
+     "*Để duy trì cuộc sống hai mặt, các đệ tử trí thức đã vận dụng triệt để cơ chế tâm lý mang tên Chia ngăn nhận thức. Họ khóa chặt thế giới đời thường gồm gia đình, bạn bè và đạo đức xã hội vào một ngăn riêng biệt, và cách ly hoàn toàn với thế giới bí mật trong căn cứ Satyam.*",
+     "*To sustain their dual lives, these intellectual disciples engaged in rigorous cognitive Compartmentalization. They locked their civilian identities — gentle fathers, loving sons, ethical professionals — inside one mental drawer, entirely sealed off from the darkness of Satyam.*",
+     "*二重生活を維持するため、エリート信徒たちは「精神の分断（コンパートメンタライゼーション）」を徹底的に駆使しました。彼らは家族や社会倫理が存在する「日常の世界」を心の一つの引き出しに閉じ込め、サティアン内の「秘密の暗黒世界」から完全に隔離しました。*",
+     "—", "—", ""),
+
+    ("3-20", "`3.07#3`–`#5`", "C", "T1", "`t8_devotion_altar_kneeling`, `pan`",
+     "*Đồng thời, giáo chủ nhồi sọ họ bằng kỹ thuật Vật hóa và phi nhân hóa nạn nhân. Trong mắt các nhà khoa học Aum, những người bình thường ngoài xã hội không còn là những sinh linh có cha mẹ và con cái, mà bị coi là những cá nhân mang nghiệp chướng nặng nề cản trở kỷ nguyên mới. Tiếng khóc van xin hay sinh mạng của người vô tội bị giáng cấp thành những dữ liệu thí nghiệm vô cảm trong phòng lab.*",
+     "*Concurrently, the guru indoctrinated them with psychological Objectification and dehumanization of victims. In the distorted worldview of Aum scientists, ordinary citizens were no longer human beings with families, but spiritually defiled souls obstructing cosmic purification. Agonized pleas and human lives were reduced to cold data points within chemical synthesis logs.*",
+     "*同時に教祖は、被害者を人間として見なさない「客体化（Objectification）」と非人間化の技術を刷り込みました。オウムの科学者たちの歪んだ認知において、一般市民はもはや親や子のいる人間ではなく、新世界への移行を妨げる悪業に満ちた存在に過ぎませんでした。罪なき人々の悲鳴や命は、研究室の合成記録における無機質な実験データへと格下げされたのです。*",
+     "—", "—", ""),
+
+    ("3-21", "`3.07#6`–`#8`", "C", "T1", "`t8_bio_incubator_pathogens`, `still`",
+     "*Và bi kịch tàn khốc không kém đã đổ ập xuống gia đình của chính những trí thức tinh hoa ấy. Cha mẹ của họ, những người từng tự hào về những đứa con đỗ thủ khoa, đã hoàn toàn sụp đổ danh tính khi biết con mình trở thành kẻ khủng bố. Nhiều bậc phụ huynh phải từ bỏ công việc, quỳ gối xin lỗi trước công chúng trong nỗi cay đắng tột cùng suốt phần đời còn lại.*",
+     "*An equally devastating tragedy engulfed the families of these brilliant young intellectuals. Devoted parents, who had celebrated their children's triumphs at premier universities, saw their family identities pulverized when their sons were revealed as terrorists. Countless parents resigned from lifelong careers, living out their remaining days prostrating in public apologies.*",
+     "*そして同様に過酷な悲劇が、これら優秀な知識人たちの家族にも容赦なく降り注ぎました。名門大学に合格した我が子を誇りに思っていた両親は、子どもがテロリストであったという事実に直面し、アイデンティティの完全な崩壊を味わいました。多くの親たちが長年の職を辞し、残された人生を公衆の前で頭を下げ、絶望の中で生きることを余儀なくされたのです。*",
+     "—", "—", ""),
+
+    ("3-22", "`3.08#1`–`#3`", "H", "T1", "`t8_broken_hippocratic_oath`, `pan`",
+     "*Trí tuệ khi bị ngắt kết nối khỏi lòng trắc ẩn sẽ trở thành thứ vũ khí nguy hiểm nhất trên đời. Sự phân mảnh tâm trí đã cho phép những con người từng được xã hội tôn kính trở thành những kẻ gieo rắc tử thần mà không hề cảm thấy cắn rứt lương tâm. Thế nhưng, để biến sự mê muội ấy thành hành động tàn sát thực tế, giáo phái còn sử dụng những công nghệ kiểm soát tâm trí tinh vi và tàn bạo hơn thế rất nhiều.*",
+     "*Intellect severed from affective empathy becomes the deadliest instrument on earth. Cognitive fragmentation allowed individuals once celebrated as societal role models to orchestrate mass slaughter without feeling internal guilt. Yet to translate warped conviction into physical extermination, the cult deployed mind control techniques far more insidious than ideological manipulation alone.*",
+     "*共感能力から切り離された知性は、地球上で最も凶悪な凶器へと変貌します。精神の分断によって、かつて社会の模範とされた者たちが一片の良心の呵責もなく死の種を撒き散らすことが可能となりました。しかし、その狂信を実際の大量虐殺行為へと具現化させるため、教団はさらに巧妙かつ残虐なマインドコントロール技術を用いていたのです。*",
+     "—", "—", ""),
+
+    ("3-23", "nghỉ chuyển hồi (2 s)", "—", "T10", "`void`",
+     "*HỒI 04* · **MA THUẬT TẨY NÃO & KHÁI NIỆM POA**",
+     "*ACT 04* · **BRAINWASHING AND THE POA DOCTRINE**",
+     "*第4幕* · **洗脳の技術と「ポア」**",
+     "—", "⊘", "◼"),
+]

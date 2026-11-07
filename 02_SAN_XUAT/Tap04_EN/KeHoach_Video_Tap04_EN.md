@@ -42,7 +42,7 @@
 | 1-14 | `1.11` (nghỉ 2 s) | — | — | giữ 1-12 | — | — | ⊘ |  |
 | 1-15 | `1.12#1`–`#2` | H | T1 | `t4_case_file_open` | *STAGGERING MAGNITUDE* · **LET US EXAMINE THE INVESTIGATIVE FINDINGS** → `#2`: *The numbers buried deep within administrative records* | — | →D |  |
 | 1-16 | `1.14#1`–`#2` | D | T1 | `t4_case_file_open` | **THE EMPLOYMENT HISTORY OF CHARLES CULLEN** · *A horrifying reality emerged before our eyes* → `#2`: *By no means his initial crime scene* | — | ✦ Sói |  |
-| 1-17 | `1.14#3`–`#5` | D | T8 | `t4_ten_hospitals_map` | *16 YEARS* · *9 DIFFERENT HOSPITALS AND 1 NURSING HOME* → `#4`: *Nighttime cardiac arrest fatalities consistently spiked* | Mỗi mục ở cụm từ |  |  |
+| 1-17 | `1.14#3`–`#5` | D | T8 | `t4_ten_hospitals_map` | *16 YEARS* · *9 HOSPITALS AND 1 NURSING HOME* → `#4`: *Nighttime cardiac arrest fatalities consistently spiked* | Mỗi mục ở cụm từ |  |  |
 | 1-18 | `1.14#6`–`#8` | D | T1 | `t4_ten_hospitals_map`, `pull` | **CULLEN ULTIMATELY ADMITTED** · *Murdering approximately 40 patients* · *Prosecutors confirming 29 documented victims* → `#7`: **THE TRUE TOLL COULD REACH 400 LIVES** → `#8`: *The most prolific serial poisoner in American healthcare history* | — | ⊘ | →H |
 | 1-19 | `1.16#1`–`#3` | H | T10 | `t4_somerset_exterior` | **THE ANGEL OF DEATH** · *“God Complex”* · *Moral neutralization techniques* | Tên tập ở cuối | 🅑 |  |
 | 1-20 | `1.16#4`–`#5` | H | T10 | `t4_somerset_exterior` | **THE SYSTEMIC COMPLICITY AND PROLONGED SILENCE** · *Of nine medical centers driven by fear of legal liability* → `#5`: *An enduring lesson on institutional blindspots* | Tên tập ở cuối | 🅑 |  |
@@ -78,7 +78,7 @@
 | 3-07 | `3.06#1`–`#3` | H | T1 | `t4_cullen_silhouette`, `push` | **SEVERE PSYCHOLOGICAL INSTABILITY** · *He married, raised two daughters, donated a kidney to save an acquaintance* → `#3`: *The cognitive compartmentalization* · *Conceal the predator lurking within* | — | ✦ Cú | →C |
 | 3-08 | `3.07#1`–`#3` | C | T1 | `t4_childhood_window` | **AN EXTREME DEFENSE MECHANISM** · *“Compartmentalization”* → `#2`: *Two mutually exclusive mental drawers* → `#3`: *A gentle father, a dependable peer* | — | ✦ Cáo |  |
 | 3-09 | `3.07#4`–`#6` | C | T1 | `t4_hypodermic_control`, `push` | **“SHIELD OF NORMALIZATION”** · *Overt pro-social gestures* → `#5`: **UNLOCKED PREDATORY IMPULSES** → `#6`: *Could not fully deceive those in closest proximity* | Sub-drop ở "unlocked predatory impulses" | ⊘ | →H |
-| 3-10 | `3.07#7`–`#8` | C | T1 | `t4_hypodermic_control`, `push` | **ADRIENNE BAUM** · *His former spouse* · *Recognized alarming warning signs* → `#8`: *Filed for divorce and restraining orders in 1993* | Sub-drop ở "contaminating household beverages" | ⊘ | →H |
+| 3-10 | `3.07#7`–`#8` | C | T1 | `t4_cullen_law_doc`, `push` | **ADRIENNE BAUM** · *His former spouse* · *Recognized alarming warning signs* → `#8`: *Filed for divorce and restraining orders in 1993* | Sub-drop ở "contaminating household beverages" | ⊘ | →H |
 | 3-11 | `3.08#1`–`#3` | H | T1 | `t4_two_faces_mask` | **PROFOUND CHARACTER PATHOLOGY** · *In an educated perpetrator* → `#2`: *Neutralize guilt and sleep soundly after lethal shifts* → `#3`: *Neutralization techniques in Cullen's criminal conduct* | — | ✦ Cú | →C |
 | 3-12 | `3.09#1`–`#3` | C | T2 | `t4_two_faces_mask` | *SYKES AND MATZA* · **“TECHNIQUES OF NEUTRALIZATION”** → `#2`: **“DENIAL OF INJURY”** → `#3`: *“Displacement of Responsibility”* | Dấu mộc ở "Techniques of Neutralization" | ✦ Cáo |  |
 | 3-13 | `3.09#4`–`#5` | C | T2 | `t4_two_faces_mask` | *BLAMED HOSPITAL ADMINISTRATIONS* → `#5`: **“CONDEMNATION OF THE CONDEMNERS”** · *Labeling the healthcare industry hypocritical* | Dấu mộc ở "Condemnation of the Condemners" | ✦ Cáo |  |
@@ -96,13 +96,13 @@
 | 4-08 | `4.06#4` | N2 | T4 lời kể | `t4_amy_scrubs` | *Computer printouts showing the lethal drugs he pulled* · *My world shattered* | — | ✦ Y tá |  |
 | 4-09 | `4.06#5`–`#6` | N2 | T4 lời kể | `t4_amy_scrubs`, `push` | “I realized that the gentle man I shared midnight meals with was silently ending lives in the dark.” → `#6`: “I knew staying silent would make me complicit in his murders.” | — | ⊘ | →H |
 | 4-10 | `4.08#1`–`#3` | H | T5 ngày | `t4_somerville_diner` | **DECEMBER 6, 2003** · *A historic meeting* · *At a local diner in Somerville* → `#3`: *A covert transmitter* · *Carefully concealed beneath her winter sweater* | Iron door closing & chair scrape | ✦ Cú |  |
-| 4-11 | `4.08#4` | H | T5 ngày | `t4_somerville_diner` | **IN THE SURROUNDING PARKING LOT** · *Monitored every syllable via long-range audio receivers* | Iron door closing & chair scrape | ✦ Cú |  |
+| 4-11 | `4.08#4` | H | T5 ngày | `t4_somerville_diner` | **THE PARKING LOT** · *Monitored every syllable via long-range audio receivers* | Iron door closing & chair scrape | ✦ Cú |  |
 | 4-12 | `4.08#5`–`#7` | H | T1 | `t4_diner_table` | **CHARLES CULLEN, PROJECTING HIS FAMILIAR FRAIL POSTURE** · *And innocent gaze* → `#6`: *Amy gently broached the hospital anomalies* → `#7`: **CULLEN'S IMPASSIVE VENEER** · *Began to fracture* | — | ⊘ |  |
 | 4-13 | `4.08#8`–`#9` | H | T1 | `t4_diner_table` | “I want to stop, I want it all to be over.” → `#9`: **THAT PIVOTAL ADMISSION** · *An immediate arrest warrant* | — | ⊘ |  |
 | 4-14 | `4.09` (nghỉ 1.5 s) | — | — | giữ 4-08 | — | — | ⊘ |  |
 | 4-15 | `4.11#1`–`#3` | H | T1 | `t4_parking_arrest`, `push` | **DECEMBER 12, 2003** · *Charles Cullen was arrested in the hospital parking lot* → `#2`: *A grueling seven-hour interrogation* → `#3`: **THE PSYCHOLOGICAL DEFENSES OF THE “ANGEL OF DEATH”** · *Crumbled entirely* | — | →D |  |
 | 4-16 | `4.11#4` | H | T1 | `t4_parking_arrest`, `push` | **THE DECISIVE TURNING POINTS** · *Within that fateful interrogation chamber* | — | →D |  |
-| 4-17 | `4.12#1`–`#3` | D | T1 | `t4_interrogation_room` | **AVOIDED CONFRONTATIONAL CONDEMNATION** → `#2`: *Cornering a pathological narcissist* · *Defensive withdrawal into absolute silence* → `#3`: **THE BENEVOLENT CAREGIVER PERSONA HE HAD MANUFACTURED** | — | ✦ Sói |  |
+| 4-17 | `4.12#1`–`#3` | D | T1 | `t4_interrogation_room` | **AVOIDED CONFRONTATIONAL CONDEMNATION** → `#2`: *Defensive withdrawal into absolute silence* → `#3`: **THE BENEVOLENT CAREGIVER PERSONA HE HAD MANUFACTURED** | — | ✦ Sói |  |
 | 4-18 | `4.12#4` | D | T1 | `t4_interrogation_room` | **BROKE DOWN INTO HEAVY, CONVULSIVE SOBS** | — | ✦ Sói |  |
 | 4-19 | `4.12#5`–`#7` | D | T1 | `t4_detectives_shadow` | **DIGOXIN AND INSULIN** → `#6`: **HIS TEARS** · *Were not shed for the victims whose lives he stole* · *What provoked our deepest indignation* → `#7`: *The unadulterated “Pathological Self-Pity” of a collapsed narcissist* | — |  |  |
 | 4-20 | `4.12#8`–`#10` | D | T1 | `t4_confession_tape` | **HE WEPT BECAUSE HE FACED PRISON** · *Without a trace of genuine compassion for the deceased* → `#9`: *Described fatal injections in detached, clinical terminology* → `#10`: **A 16-YEAR PREDATORY CAMPAIGN** | — |  |  |
@@ -149,3 +149,12 @@ Phụ đề: `xuat_ban/Tap04_EN.srt` (408 cues).
 | Phụ đề | Đã xuất `xuat_ban/Tap04_EN.srt` (399 cues, khớp timeline 100%). |
 | Master Audio (03/11/2026) | **ĐÃ HOÀN THÀNH**: `xuat_ban/Tap04_EN_master.mp3` (32 MB) · Loudness: **-16.3 LUFS** (chuẩn -16 ± 1 LUFS) · True Peak: **-1.5 dBFS** (chuẩn $\le -1.5\text{ dBFS}$) · Khoảng câm @ -60dB: **0 lỗi** (chuẩn A1/V4) · Đủ 7 đoạn ambience + 21 SFX. |
 | Tái sản xuất Master (06/11/2026) | **ĐÃ HOÀN THÀNH TOÀN DIỆN**: `02_SAN_XUAT/Tap04_EN/xuat_ban/Tap04_EN_master.mp3` (32 MB) & `Tap04_EN_master.wav` (255 MB) · Chạy tự động qua `.work/generate_higgs_prod_t04en.py` · Loudness: **-16.3 LUFS**, LRA 3.7 LU, True Peak: **-1.8 dBFS** (chuẩn $\le -1.5\text{ dBFS}$) · UTMOS MOS: **3.43/5.0** · Whisper CER: **Mean 0.77%, Median 0.00%** · Phụ đề: `Tap04_EN.srt` (322 cues). |
+
+## B-LOG 06/11/2026 — dựng lại Tập 04 EN từ master mới
+
+- Master `Tap04_EN_master.mp3` thay lúc 14:42 (1658,31 s). Kịch bản `kichban_tap04_EN.md` tách lại = **212 câu** (JSON cũ chỉ 161 câu, timeline cũ 1391,53 s ⇒ lỗi thời). Bản lưu: `.work/_cu/*_EN_t04_before_20261106.*`.
+- Timeline dựng lại từ chính mp3: Whisper small (en) từng từ → căn DP → tinh chỉnh biên theo năng lượng. `_align_words_t04_en.py`, `_build_timeline_t04_en.py`. Cổng T20: total 1658,31 = master (≤ 0,05 s); câu cuối kết thúc 1648,92 s. Ghi đè tay 3 câu ASR bỏ sót (3.02#1, 4.02#7, 5.04#5) + chỉnh 1 đầu 5 câu (2.02#3, 3.07#6, 3.07#7, 2.07#4, 5.08#7) theo năng lượng 16 kHz.
+- `qc_shots_t04.py` nạp cứng `script_tap04.json` (bản VN) ⇒ so trích dẫn tiếng Anh với câu tiếng Việt báo sai. Bản EN: `qc_shots_t04_en.py` (nạp `script_tap04_EN.json`). Còn 1 báo giả: 1-08 (trích mở đầu bằng "…").
+- K3: N2 bản EN đổi từ "AMY LOUGHREN / ICU Colleague & Whistleblower" sang "NIGHT-SHIFT NURSE / Imagined Perspective" (giống bản VN) vì 4.06 là lời ngôi thứ nhất bịa. Chỉ sửa cấu hình tập 04 trong `edition.py`.
+- Hàng 3-10 nền `t4_hypodermic_control` → `t4_cullen_law_doc` (câu nói về vợ cũ, ly hôn). Rút gọn tiêu đề 1-17, 4-11, 4-17 (chữ đè / sát mép).
+- `text_scrim` EN thêm 22 shot (chữ tiếng Anh dài hơn) — chỉ nhánh `if EN`, bản VN giữ 27 shot.

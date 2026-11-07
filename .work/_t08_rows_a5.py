@@ -1,0 +1,136 @@
+# -*- coding: utf-8 -*-
+"""Bảng shot Tập 08 — HỒI 5 + thẻ kết."""
+
+ACT5 = [
+    ("5-01", "`5.02#1`–`#2`", "H", "T1", "`t8_grand_courtroom_proceedings`, `pull`",
+     "*Các phiên tòa xét xử giáo phái Aum Shinrikyo kéo dài suốt hơn hai thập kỷ, trở thành một trong những trang hồ sơ tư pháp đồ sộ và phức tạp nhất trong lịch sử Nhật Bản. Trước tòa án, Shoko Asahara liên tục giả điên, lẩm bẩm những câu vô nghĩa và từ chối giao tiếp với cả luật sư lẫn các thẩm phán.*",
+     "*The legal trials of Aum Shinrikyo spanned over two decades, comprising one of the most voluminous judicial dockets in Japanese history. Throughout his lengthy trial, Shoko Asahara feigned madness, muttering incoherent gibberish and refusing meaningful engagement with judges or defense counsel.*",
+     "*オウム真理教を巡る一連の裁判は20年以上の長きにわたり、日本司法史上最も膨大かつ複雑な法廷闘争となりました。長期に及んだ公判中、麻原彰晃は意味不明な言葉を呟き続け、弁護人や裁判官との対話を拒否して狂気を装いました。*",
+     "—", "—", ""),
+
+    ("5-02", "`5.02#3`–`#5`", "H", "T1", "`t8_tokyo_court_gavel_strike`, `still`",
+     "*Đó chính là phản ứng điển hình của Sự sụp đổ cái tôi ái kỷ và Sự tự thương hại bệnh lý. Kẻ từng quen đứng trên đỉnh cao quyền lực tuyệt đối đã không thể đối diện với sự trần trụi của chính mình khi bị tước bỏ mọi đặc quyền. Hắn thà chọn cách thu mình vào vỏ bọc câm lặng hơn là thừa nhận sự thất bại thảm hại của ảo tưởng vĩ cuồng.*",
+     "*This behavior exemplifies classic Narcissistic Collapse and Pathological Self-Pity. Accustomed to uninhibited dominion, he could not bear the indignity of reality once stripped of his manufactured aura of omnipotence. He preferred retreating into mute withdrawal rather than acknowledging the ruinous bankruptcy of his apocalyptic delusion.*",
+     "*これは自己愛の完全崩壊と「病的な自己憐憫」の典型的な防衛反応でした。かつて絶対的な権力の頂点に君臨していた男は、特権をすべて剥奪されたとき、自らの真の無力さと対峙することに耐えられなかったのです。彼は自らの誇大妄想の完全な破産を認めるよりも、沈黙という殻の中に逃げ込むことを選びました。*",
+     "—", "—", ""),
+
+    ("5-03", "`5.03#1`", "D", "T1", "`t8_thirteen_death_verdicts`, `pan`",
+     "*Sau quá trình xét xử nghiêm minh và thận trọng, Tòa án Tối cao Nhật Bản đã tuyên phạt mức án cao nhất: án tử hình đối với Shoko Asahara và mười hai đệ tử then chốt của giáo phái.*",
+     "*Following exhaustive legal proceedings, the Supreme Court of Japan affirmed the ultimate penalty: capital punishment for Shoko Asahara and twelve core disciples.*",
+     "*慎重かつ厳格な審理の末、日本の最高裁判所は麻原彰晃および中核幹部12名に対する最高刑である死刑判決を確定させました。*",
+     "—", "✦ Sói", ""),
+
+    ("5-04", "`5.03#2`", "D", "T2 thẻ hồ sơ", "`t8_dossier_elite_scientists`, `still`",
+     "*Trong số những kẻ phải đền tội có nhà hóa học Masami Tsuchiya, chuyên gia virus học Seiichi Endo, nhà mua sắm vũ khí Kiyohide Hayakawa và bác sĩ Tomomasa Nakagawa.*",
+     "*Among those condemned were lead chemist Masami Tsuchiya, virologist Seiichi Endo, arms procurement minister Kiyohide Hayakawa, and Doctor Tomomasa Nakagawa.*",
+     "*処罰された者の中には、化学者の土谷正実、ウイルス学者の遠藤誠一、兵器調達担当の早川紀代秀、そして中川智正医師が含まれていました。*",
+     "—", "—", ""),
+
+    ("5-05", "`5.03#3`–`#5`", "D", "T1", "`t8_tokyo_court_gavel_strike`, `pull`",
+     "*Riêng Bác sĩ Ikuo Hayashi, nhờ sự thức tỉnh, thái độ ăn năn chân thành và lời khai hợp tác toàn diện giúp phá án, đã nhận mức án tù chung thân. Vào tháng 7 năm 2018, bản án tử hình bằng hình thức treo cổ đã chính thức được thi hành đối với Shoko Asahara và toàn bộ mười hai đồng phạm then chốt. Sự trừng phạt nghiêm khắc của pháp luật đã khép lại một chương đen tối kéo dài hơn hai mươi ba năm trong tâm thức xã hội Nhật Bản.*",
+     "*In contrast, Doctor Ikuo Hayashi received life imprisonment, spared the gallows due to his genuine remorse, public repentance, and pivotal cooperation with investigators. In July 2018, the sentences of execution by hanging were formally carried out for Shoko Asahara and all twelve convicted co-conspirators. The decisive hand of justice brought closure to a dark chapter that haunted Japanese society for twenty-three years.*",
+     "*対照的に、林郁夫元医師は早い段階での覚醒、真摯な謝罪、そして全面的な捜査協力が認められ、無期懲役刑となりました。2018年7月、麻原彰晃および共犯者12名に対する絞首刑による死刑執行が正式に行われました。厳格な法の執行は、日本社会の記憶に23年以上にわたり重く影を落とし続けた暗黒の章に終止符を打ったのです。*",
+     "—", "—", ""),
+
+    ("5-06", "`5.04#1`–`#2`", "H", "T1", "`t8_tokyo_detention_house_dawn`, `still`",
+     "*Vụ án đã giáng một cú sốc chí mạng vào niềm tin xã hội và thúc đẩy cuộc đại cải tổ thể chế pháp luật chưa từng có. Nhật Bản đã sửa đổi toàn diện Đạo luật Tổ chức Tôn giáo và ban hành các đạo luật đặc biệt nhằm kiểm soát chặt chẽ các tổ chức có nguy cơ khủng bố tập thể.*",
+     "*The tragedy shattered societal innocence and catalyzed sweeping legislative and institutional reforms across Japan. Parliament substantially revised the Religious Corporations Act and enacted specialized security statutes to monitor organizations capable of indiscriminate violence.*",
+     "*この事件は社会の安全への信頼を根本から揺るがし、未曾有の法制度の改革を促しました。日本は宗教法人法を大幅に改正し、無差別大量殺人行為を行った団体を厳重に監視するための特別措置法を制定しました。*",
+     "—", "—", ""),
+
+    ("5-07", "`5.04#3`", "H", "T1", "`t8_murakami_underground_book`, `pull`",
+     "*Trong cuốn sách tư liệu nổi tiếng mang tên “Ngầm”, nhà văn Haruki Murakami đã dành nhiều tháng phỏng vấn hàng chục nạn nhân và cả những cựu thành viên của giáo phái Aum.*",
+     "*In his acclaimed documentary book “Underground”, novelist Haruki Murakami spent months interviewing dozens of survivors and former Aum members.*",
+     "*作家の村上春樹氏は、ノンフィクションの傑作『アンダーグラウンド』において、多数の被害者や元教団信徒への徹底的な聞き取りを行いました。*",
+     "—", "—", ""),
+
+    ("5-08", "`5.04#4`–`#6`", "H", "T1", "`t8_fragile_boundary_mirror`, `pan`",
+     "*Ông nhận ra rằng: ranh giới giữa một con người bình thường và một kẻ cuồng tín mỏng manh hơn chúng ta tưởng rất nhiều. Khi xã hội quá áp lực và vô cảm, bất kỳ tâm hồn cô đơn nào cũng có thể tìm đến một chiếc phao cứu sinh độc hại để bấu víu. Và cái ác thực sự không phải là những con quái vật từ bên ngoài, mà nảy sinh ngay từ sự thiếu thốn kết nối nhân văn trong lòng cuộc sống hiện đại.*",
+     "*He concluded that the boundary separating ordinary citizens from fanatical extremists is far more fragile than modern society dares to admit. When modern life becomes excessively atomized and unfeeling, vulnerable individuals inevitably seek toxic life rafts to anchor their loneliness. True evil does not merely arrive from external monsters; it germinates where human empathy and authentic connection have withered away.*",
+     "*彼は、正常な市民と狂信者とを隔てる境界線は私たちが信じているよりも遥かに脆く薄いものであると看破しました。社会が過度に冷淡になり重圧に満ちるとき、孤立した心は自らを繋ぎ止めるための毒を含んだ救命ボートにすがってしまうのです。真の悪とは外部から突然現れる怪物ではなく、日々の生活の中で人間的な温もりと繋がりが失われた場所に芽生えるものなのです。*",
+     "—", "—", ""),
+
+    ("5-09", "`5.05#1`–`#2`", "C", "T1", "`t8_tokyo_dawn_restored_peace`, `still`",
+     "*Hồ sơ Aum Shinrikyo để lại một bài học cảnh tỉnh sâu sắc cho toàn nhân loại về giới hạn của trí tuệ con người. Bằng cấp học thuật cao và chỉ số thông minh logic không bao giờ là tấm khiên bảo vệ chúng ta trước những thủ đoạn thao túng tâm lý tinh vi.*",
+     "*The Aum Shinrikyo tragedy offers a chilling warning regarding the vulnerabilities of human cognition. Prestigious academic credentials and formidable logical intellect offer zero immunity against insidious psychological manipulation.*",
+     "*オウム真理教の悲劇は、人間の理性の限界について全人類へ向けた深刻な警鐘を残しています。高い学歴や優れた論理的知能指数は、狡猾な心理操作に対する防御の盾には決してなり得ません。*",
+     "—", "✦ Cáo", ""),
+
+    ("5-10", "`5.05#3`–`#4`", "C", "T1", "`t8_tokyo_dawn_fog`, `pull`",
+     "*Ngược lại, khi những bộ óc xuất chúng nhất bị mất phương hướng về mặt giá trị sống, họ có thể trở thành công cụ hủy diệt nguy hiểm nhất của cái ác. Sự cuồng tín luôn bắt đầu từ những lời hứa hẹn ngọt ngào về một chân lý tuyệt đối đứng trên mọi quy chuẩn đạo đức thông thường.*",
+     "*On the contrary, when exceptional minds lose their grounding in foundational human values, they can become the most devastating weapons of cruelty. Fanaticism invariably begins with intoxicating promises of absolute truth standing above universal ethical norms.*",
+     "*むしろ、極めて優秀な頭脳が人生の基本的価値観を見失ったとき、彼らは悪にとって最も危険な破壊装置となり得るのです。狂信とは常に、普遍的な道徳規準を超越した「絶対的な真理」を約束する甘美な誘惑から始まるのです。*",
+     "—", "—", ""),
+
+    ("5-11", "`5.06#1`", "H", "T1", "`t8_mountain_grave_memorial`, `still`",
+     "*Để bảo vệ bản thân và những người thân yêu trước các tổ chức thao túng tâm trí độc hại, kênh Amber Eyes xin đúc kết bốn tín hiệu cảnh báo đỏ sinh tồn từ hồ sơ lịch sử này.*",
+     "*To safeguard ourselves and those we love from manipulative, high-control groups, Amber Eyes highlights four vital survival red flags from this historical file.*",
+     "*有害で支配的なカルト組織から自分自身と大切な人を守るため、Amber Eyesはこの歴史的教訓から導き出された4つの生存レッドフラッグを提言します。*",
+     "—", "—", ""),
+
+    ("5-12", "`5.06#2`", "H", "T8 cờ", "`t8_redflag1_social_isolation`, `still`",
+     "*01* · **CẢNH BÁO ĐỎ 1 — CÔ LẬP XÃ HỘI & CẮT ĐỨT MỐI QUAN HỆ HỖ TRỢ**",
+     "*01* · **RED FLAG 1 — SOCIAL ISOLATION & SEVERING SUPPORT NETWORKS**",
+     "*01* · **第1の警告信号：社会的孤立化と支援ネットワークの切断**",
+     "—", "—", ""),
+
+    ("5-13", "`5.06#3`", "H", "T1", "`t8_corporate_salaryman_cogs`, `pull`",
+     "*Bất kỳ tổ chức lành mạnh nào cũng tôn trọng gia đình và các mối liên kết xã hội của bạn; nếu một nhóm tìm cách tách bạn khỏi người thân và kiểm soát nguồn thông tin, hãy lập tức rời đi.*",
+     "*Any healthy community respects your family ties and independent social circles; if a group demands cutting contact with loved ones or filtering outside information, walk away immediately.*",
+     "*健全な組織は常にあなたの家族や人間関係を尊重するため、もし集団が親族との連絡を禁じ外部情報を遮断しようとするなら即座にその場を離れてください。*",
+     "—", "—", ""),
+
+    ("5-14", "`5.06#4`", "H", "T8 cờ", "`t8_redflag2_physical_exhaustion`, `still`",
+     "*02* · **CẢNH BÁO ĐỎ 2 — KỸ THUẬT LÀM SUY KIỆT THỂ CHẤT & TRIỆT TIÊU TƯ DUY PHẢN BIỆN**",
+     "*02* · **RED FLAG 2 — PHYSICAL DEPRIVATION TO PARALYZE CRITICAL THINKING**",
+     "*02* · **第2の警告信号：批判的思考力を奪う肉体的消耗の強制**",
+     "—", "—", ""),
+
+    ("5-15", "`5.06#5`", "H", "T1", "`t8_malnutrition_solitary_bowl`, `pull`",
+     "*Hãy cảnh giác cao độ với những nơi ép buộc bạn phải thức khuya liên tục, nhịn ăn khắc nghiệt hoặc lao động quá sức dưới danh nghĩa thanh lọc tâm hồn.*",
+     "*Exercise utmost vigilance toward organizations enforcing chronic sleep deprivation, severe fasting, or exhausting labor under the guise of spiritual purification.*",
+     "*精神の浄化という名目のもとで、慢性的な睡眠不足、過激な断食、または過重な労働を強いる組織には最大限の警戒を払う必要があります。*",
+     "—", "—", ""),
+
+    ("5-16", "`5.06#6`", "H", "T8 cờ", "`t8_redflag3_cult_of_personality`, `still`",
+     "*03* · **CẢNH BÁO ĐỎ 3 — SÙNG BÁI CÁ NHÂN TUYỆT ĐỐI & CẤM ĐOÁN**",
+     "*03* · **RED FLAG 3 — ABSOLUTE AUTHORITARIANISM & FORBIDDING INQUIRY**",
+     "*03* · **第3の警告信号：絶対的な個人崇拝と疑問を呈することの禁止**",
+     "—", "—", ""),
+
+    ("5-17", "`5.06#7`", "H", "T1", "`t8_devotion_altar_kneeling`, `pull`",
+     "*Một người thầy chân chính luôn khuyến khích học trò tự do suy nghĩ và kiểm chứng sự thật; chỉ có những kẻ thao túng mới coi lời nói của mình đứng trên luật pháp và quy kết sự nghi ngờ là tội lỗi.*",
+     "*Genuine mentors encourage critical thinking and verify empirical reality; only predatory manipulators place themselves above the law and classify honest doubt as sin.*",
+     "*本物の師は常に弟子が自立して思考することを促すため、自らを法の上に置き疑念を持つことを罪と決めつける組織は危険なマインドコントロールの典型です。*",
+     "—", "—", ""),
+
+    ("5-18", "`5.06#8`", "H", "T8 cờ", "`t8_redflag4_moral_inversion`, `still`",
+     "*04* · **CẢNH BÁO ĐỎ 4 — NGỤY BIỆN ĐẢO NGƯỢC ĐẠO ĐỨC & KÍCH ĐỘNG THÙ HẬN**",
+     "*04* · **RED FLAG 4 — MORAL INVERSION & WEAPONIZED HATRED**",
+     "*04* · **第4の警告信号：道徳的反転と他者への敵意の煽動**",
+     "—", "—", ""),
+
+    ("5-19", "`5.06#9`–`#10`", "H", "T1", "`t8_fragile_boundary_mirror`, `pan`",
+     "*Hãy kiên quyết từ chối bất kỳ giáo lý nào rao giảng rằng việc gây tổn hại cho người khác là một hành vi từ bi vì mục đích cao cả. Chân lý đích thực không bao giờ được xây dựng trên sự lừa dối, sợ hãi và nỗi đau của đồng loại.*",
+     "*Decisively reject any doctrine that rationalizes inflicting harm upon fellow human beings in the name of a higher spiritual cause. Authentic truth is never forged upon deception, manufactured fear, or the suffering of our fellow human beings.*",
+     "*崇高な大義のためと称して他者を傷つける行為を正当化するいかなる教理も、断固として拒絶しなければなりません。真の真理とは、欺瞞や作為的な恐怖、あるいは同胞の苦痛の上に築かれることは決してないのです。*",
+     "—", "—", ""),
+
+    ("5-20", "`5.08#1`", "H", "T1", "`t8_tokyo_dawn_restored_peace`, `still`",
+     "*Ánh sáng của tri thức chỉ thực sự có giá trị khi nó được soi đường bởi lòng trắc ẩn và sự tỉnh táo của lương tri.*",
+     "*The light of intellect holds true value only when guided by genuine compassion and an awake moral conscience.*",
+     "*知性の光は、それが真の思いやりと覚醒した良心によって照らされたときにのみ真の価値を持ちます。*",
+     "—", "—", ""),
+
+    ("5-21", "`5.08#2`–`#4`", "H", "T1", "`t8_tokyo_dawn_fog`, `pan`",
+     "*Cảm ơn quý vị đã đồng hành cùng Amber Eyes trong tập hồ sơ giải phẫu tâm lý ngày hôm nay. Hãy bấm đăng ký kênh, chia sẻ video và để lại góc nhìn của bạn ở phần bình luận bên dưới. Xin chào và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.*",
+     "*Thank you for joining Amber Eyes in dissecting today's criminal psychology case file. Please subscribe to the channel, share this documentary, and share your perspective in the comments below. Until our next case file, stay vigilant and take care.*",
+     "*本日もAmber Eyesの犯罪心理学分析にお付き合いいただき、心より感謝申し上げます。チャンネル登録と動画の共有をお願いするとともに、コメント欄にて皆様のご意見をお聞かせください。それでは、次回の犯罪ファイルでお会いしましょう。*",
+     "—", "—", ""),
+
+    ("5-22", "—", "—", "T1", "`t8_tokyo_dawn_restored_peace`",
+     "*HỒ SƠ TẬP 08 · ĐÃ ĐÓNG* · **AMBER EYES** · *Phân tích tâm lý tội phạm* · *qua những hồ sơ có thật*",
+     "*DOSSIER EPISODE 08 · CLOSED* · **AMBER EYES** · *Criminal psychology through real case files*",
+     "*事件ファイル 第08話 · 終結* · **AMBER EYES** · *実際の事件記録から読み解く犯罪心理学*",
+     "—", "⊘", ""),
+]

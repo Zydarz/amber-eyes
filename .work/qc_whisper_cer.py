@@ -18,7 +18,14 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import higgs_paths as P  # noqa: E402
-import vi_cer  # noqa: E402
+# Chuan hoa theo ngon ngu (cung cach measure_cer_prod.py). Truoc 06/11/2026 luon dung vi_cer
+# => ban EN/JA ra CER gia (Tap06 JA: 161/212 cau "> 2%").
+if P.EN:
+    import en_cer as vi_cer  # noqa: E402
+elif P.JA:
+    import ja_cer as vi_cer  # noqa: E402
+else:
+    import vi_cer  # noqa: E402
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--qc", action="append", required=True)

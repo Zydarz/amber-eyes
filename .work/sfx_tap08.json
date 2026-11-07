@@ -1,46 +1,46 @@
 {
-  "_doc": "Bảng âm thanh stereo Tập 08 (Hồ Sơ Giáo Phái Aum Shinrikyo & Vụ Tấn Công Tàu Điện Ngầm). Đọc bởi build_audio3.py::place_sheet().",
+  "_doc": "Bảng âm thanh stereo Tập 08 — dựng lại 06/11/2026 theo kịch bản viết lại 05/11/2026 (mã câu mới). Đọc bởi build_audio3.py::place_sheet().",
   "ambience": [
     [
       "1.02#1",
-      "1.07#6",
+      "1.07#5",
       "t08/amb_subway_station_jp.wav",
       -30
     ],
     [
       "1.09#1",
-      "1.11#4",
+      "1.12#5",
       "t2/amb_road_night.wav",
       -32
     ],
     [
       "2.02#1",
-      "2.09#2",
+      "2.08#4",
       "t08/amb_megaphone_loudspeaker.wav",
       -32
     ],
     [
       "3.02#1",
-      "3.08#2",
+      "3.08#3",
       "t24/amb_lab_equipment.wav",
       -33
     ],
     [
       "4.02#1",
-      "4.10#7",
+      "4.11#3",
       "t2/amb_courtroom.wav",
       -30
     ],
     [
       "5.02#1",
-      "5.04#19",
+      "5.08#4",
       "t2/amb_office_night.wav",
       -32
     ]
   ],
   "cues": [
     [
-      "1.05",
+      "1.03",
       "start",
       0.0,
       "t08/fx_train_door_slam.wav",
@@ -54,6 +54,13 @@
       -12
     ],
     [
+      "1.10",
+      "start",
+      0.0,
+      "t2/fx_paper_folder.wav",
+      -10
+    ],
+    [
       "2.03",
       "start",
       0.0,
@@ -61,10 +68,31 @@
       -12
     ],
     [
-      "4.09",
+      "2.06",
+      "start",
+      0.0,
+      "fx_ambulance_siren_distant.wav",
+      -14
+    ],
+    [
+      "4.07",
       "start",
       0.0,
       "t2/fx_gavel_triple.wav",
+      -10
+    ],
+    [
+      "4.10",
+      "start",
+      0.0,
+      "t2/fx_door_metal_slam.wav",
+      -14
+    ],
+    [
+      "5.09",
+      "start",
+      0.0,
+      "t2/fx_paper_folder.wav",
       -10
     ]
   ]
