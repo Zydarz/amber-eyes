@@ -469,3 +469,8 @@ Chi tiết đầy đủ: `BaoCao_QC_Tap06_20261102.md` §10.
 - Ghép dùng `alimiter=limit=0.63:attack=5:release=50:level=disabled:latency=1` (A11 #114). `EPISODES["06"]` chưa khai `mux_af` -> package.py mặc định thiếu latency=1.
 - `assets/brand/intro_kenh_JA_t06.mov` = bản sao `intro_kenh_JA_t05.mov` (JA t04 = t05 giống byte).
 - Thẻ kết hiện rõ đến total-5 s rồi mờ dần về đen (A11 #65).
+
+### Lỗi nhịp nghỉ (07/11/2026, người dùng nghe: "đọc nhanh, không chậm rãi") — AGENTS A13, A11 #135
+- Tốc độ đọc trong câu bình thường (3,61 tiếng/s, = Tập 05). Lỗi là **khoảng nghỉ giữa câu**: trung vị 0,35 s (Tập 05: 0,74 s); câu dính liền VN 138/207, JA 171/207 (JA **không có** `acting_tap06_JA.json`), EN 89/207.
+- Đã sửa file diễn xuất bằng `.work/_fix_pause_t06.py`: VN 37→135 mục, JA 0→135, EN 113→162. Dự đoán: trung vị VN 0,75 · JA 0,65 · EN 0,75 s; < 0,4 s còn 20% mỗi bản. Master dài thêm ≈ 39 / 45 / 20 s.
+- **Master + mp4 giao ngày 07/11 là bản LỖI NHỊP** — phải trộn lại `build_audio3.py` (không cần đọc lại giọng), đo cổng A13, rồi `parse_shots.py` + dựng lại hình (H14). Bản acting cũ: `.work/_cu/t06_dung_20261107/`.
