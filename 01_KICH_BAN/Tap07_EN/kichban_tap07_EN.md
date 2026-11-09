@@ -23,7 +23,7 @@
 **HOST** *(slowly, with a warm and solemn narrative voice)*:
 Welcome back to Amber Eyes.
 Today, we dissect an unprecedented criminal profile: hands-off crime and lethal psychological manipulation within digital space.
-Imagine a tragedy with no physical weapon, no signs of physical struggle at the scene, and two central figures separated by more than 56 kilometers.
+Imagine a tragedy with no physical weapon, no physical trace of a fight at the scene, and two central figures separated by more than 56 kilometers.
 Yet, a young woman who was merely 17 years old at the time was subsequently convicted of historic manslaughter in an American court.
 The entire catastrophe originated from text messages glowing silently in the dead of night and an invisible psychological trap.
 The case ignited a global media frenzy alongside intense collective paranoia, sending shockwaves throughout society.
@@ -43,7 +43,7 @@ There were no signs of physical altercation, and the victim's personal belonging
 
 **HOST** *(lowering pitch with deep emotion when introducing the victim)*:
 Inside the truck cabin, 18-year-old Conrad Henri Roy III lay completely motionless in solitary despair.
-He had taken his own life following a protracted, agonizing internal struggle.
+He had taken his own life following a protracted, agonizing internal conflict.
 Conrad Roy was neither a rebellious youth nor a delinquent as popular social misconceptions frequently assume.
 He was a handsome young man, profoundly kind-hearted, hardworking, and blessed with a bright vocational future ahead.
 Conrad had just graduated from high school with honors and proudly earned his marine captain's license to continue his family's maritime towing tradition.
@@ -212,7 +212,7 @@ Consequently, on the night of July 12, Michelle's urging transformed from toxic 
 Conrad's death became an existential necessity solely to preserve the integrity of her fabricated reality.
 A human life was treated as disposable collateral merely to safeguard the brittle pride of a pathological liar.
 
-**CHUYÊN GIA TÂM LÝ** *(bóc trần cơ chế Chia ngăn nhận thức & Vật hóa nạn nhân)*:
+**PSYCHOLOGIST** *(exposing the mechanism of Cognitive Compartmentalization & Dehumanization of the Victim)*:
 Here we witness the sophisticated execution of Cognitive Compartmentalization alongside Moral Disengagement Techniques.
 In front of parents and educators in Plainville, Michelle maintained the pristine persona of a polite daughter, diligent student, and volunteer.
 Yet within her secret digital silo, she ruthlessly demoted a human soul into a expendable pawn upon her emotional chessboard.

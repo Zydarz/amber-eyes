@@ -3,7 +3,7 @@
   "id": "1.01",
   "act": 1,
   "kind": "BGM",
-  "desc": "Tiếng hộp nhạc (Music box) lên dây cót phát ra giai điệu ru ngủ chậm rãi, sau đó dần bị bóp nghẹt bởi một âm trầm (Sub-bass drone) lạnh lẽo."
+  "desc": "Tiếng hộp nhạc lên dây cót phát ra giai điệu ru ngủ chậm rãi, sau đó dần bị bóp nghẹt bởi một âm trầm Sub-bass drone lạnh lẽo."
  },
  {
   "id": "1.02",
@@ -17,7 +17,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "Giọng đọc chậm, trầm, giữ khoảng cách khách quan",
-  "text": "Ngày 14 tháng 6 năm 2015. Tại thị trấn yên bình Springfield, bang Missouri, nước Mỹ. Trên trang Facebook chung của hai mẹ con nổi tiếng nhất vùng – bà Dee Dee Blanchard và cô con gái tật nguyền Gypsy Rose – bỗng xuất hiện một dòng trạng thái ngắn ngủi, đầy hằn học, thông báo rằng bà Dee Dee đã qua đời – khiến cả khu phố chết lặng.",
+  "text": "Ngày 14 tháng 6 năm 2015. Tại thị trấn yên bình Springfield thuộc bang Missouri, nước Mỹ. Đó là một buổi tối mùa hè ngột ngạt khi màn đêm bắt đầu bao trùm lên những con phố ngoại ô tĩnh lặng. Trên trang Facebook chung của hai mẹ con nổi tiếng nhất vùng – bà Dee Dee Blanchard và cô con gái tật nguyền Gypsy Rose – bỗng xuất hiện một dòng trạng thái ngắn ngủi đầy hằn học. Dòng tin nhắn thông báo rằng người mẹ đã qua đời trong căn nhà nhỏ, khiến cả khu phố rơi vào hoảng loạn tột cùng.",
   "sentences": [
    {
     "id": "1.03#1",
@@ -26,13 +26,23 @@
    },
    {
     "id": "1.03#2",
-    "text": "Tại thị trấn yên bình Springfield, bang Missouri, nước Mỹ.",
-    "words": 10
+    "text": "Tại thị trấn yên bình Springfield thuộc bang Missouri, nước Mỹ.",
+    "words": 11
    },
    {
     "id": "1.03#3",
-    "text": "Trên trang Facebook chung của hai mẹ con nổi tiếng nhất vùng – bà Dee Dee Blanchard và cô con gái tật nguyền Gypsy Rose – bỗng xuất hiện một dòng trạng thái ngắn ngủi, đầy hằn học, thông báo rằng bà Dee Dee đã qua đời – khiến cả khu phố chết lặng.",
-    "words": 54
+    "text": "Đó là một buổi tối mùa hè ngột ngạt khi màn đêm bắt đầu bao trùm lên những con phố ngoại ô tĩnh lặng.",
+    "words": 24
+   },
+   {
+    "id": "1.03#4",
+    "text": "Trên trang Facebook chung của hai mẹ con nổi tiếng nhất vùng – bà Dee Dee Blanchard và cô con gái tật nguyền Gypsy Rose – bỗng xuất hiện một dòng trạng thái ngắn ngủi đầy hằn học.",
+    "words": 38
+   },
+   {
+    "id": "1.03#5",
+    "text": "Dòng tin nhắn thông báo rằng người mẹ đã qua đời trong căn nhà nhỏ, khiến cả khu phố rơi vào hoảng loạn tột cùng.",
+    "words": 25
    }
   ]
  },
@@ -40,7 +50,7 @@
   "id": "1.04",
   "act": 1,
   "kind": "NGHI",
-  "sec": 2.0,
+  "sec": 1.5,
   "desc": ""
  },
  {
@@ -49,7 +59,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "Giọng đọc chậm, trầm, giữ khoảng cách khách quan",
-  "text": "Hàng xóm lập tức vây quanh ngôi nhà nhỏ sơn màu hồng phấn ở số 2103 đường Bắc Volunteer. Để hiểu vì sao chỉ một dòng trạng thái lại gây chấn động đến vậy, chúng ta hãy lắng nghe chia sẻ từ một người dân sống cùng khu phố – những người đã chứng kiến cuộc sống của hai mẹ con họ suốt nhiều năm ròng.",
+  "text": "Hàng xóm lập tức vây quanh ngôi nhà nhỏ sơn màu hồng phấn ở số 2103 đường Bắc Volunteer. Ngôi nhà ấy vốn được xây dựng và trao tặng bởi tổ chức từ thiện danh tiếng Habitat for Humanity. Nơi đây còn được tổ chức Make-A-Wish tài trợ các chuyến du lịch trọn gói và sự hỗ trợ tài chính liên tục từ các nhà hảo tâm khắp nơi. Hàng trăm tình nguyện viên và cư dân địa phương từng rơi nước mắt khi chung tay lắp đặt đoạn đường dốc dành riêng cho xe lăn trước hiên nhà. Suốt nhiều năm ròng rã, nơi đây từng được xem là biểu tượng cao đẹp nhất của tình mẫu tử thiêng liêng. Để hiểu sự bàng hoàng và cú sốc tinh thần của cộng đồng lớn đến mức nào, chúng ta hãy lắng nghe chia sẻ từ một người dân sống cùng khu phố.",
   "sentences": [
    {
     "id": "1.05#1",
@@ -58,8 +68,28 @@
    },
    {
     "id": "1.05#2",
-    "text": "Để hiểu vì sao chỉ một dòng trạng thái lại gây chấn động đến vậy, chúng ta hãy lắng nghe chia sẻ từ một người dân sống cùng khu phố – những người đã chứng kiến cuộc sống của hai mẹ con họ suốt nhiều năm ròng.",
-    "words": 47
+    "text": "Ngôi nhà ấy vốn được xây dựng và trao tặng bởi tổ chức từ thiện danh tiếng Habitat for Humanity.",
+    "words": 20
+   },
+   {
+    "id": "1.05#3",
+    "text": "Nơi đây còn được tổ chức Make-A-Wish tài trợ các chuyến du lịch trọn gói và sự hỗ trợ tài chính liên tục từ các nhà hảo tâm khắp nơi.",
+    "words": 30
+   },
+   {
+    "id": "1.05#4",
+    "text": "Hàng trăm tình nguyện viên và cư dân địa phương từng rơi nước mắt khi chung tay lắp đặt đoạn đường dốc dành riêng cho xe lăn trước hiên nhà.",
+    "words": 30
+   },
+   {
+    "id": "1.05#5",
+    "text": "Suốt nhiều năm ròng rã, nơi đây từng được xem là biểu tượng cao đẹp nhất của tình mẫu tử thiêng liêng.",
+    "words": 22
+   },
+   {
+    "id": "1.05#6",
+    "text": "Để hiểu sự bàng hoàng và cú sốc tinh thần của cộng đồng lớn đến mức nào, chúng ta hãy lắng nghe chia sẻ từ một người dân sống cùng khu phố.",
+    "words": 32
    }
   ]
  },
@@ -75,22 +105,37 @@
   "kind": "LOI",
   "role": "N",
   "direction": "Giọng xúc động, chân thật như đang trả lời phỏng vấn",
-  "text": "Trong mắt tất cả chúng tôi, ngôi nhà màu hồng ấy là biểu tượng của tình mẫu tử thiêng liêng. Bà Dee Dee là một người mẹ đơn thân vĩ đại, người đã dành trọn cuộc đời mình để chăm sóc cô con gái Gypsy Rose – một thiếu nữ bất hạnh mắc hàng loạt căn bệnh hiểm nghèo: bại liệt từ thắt lưng trở xuống, ung thư máu, loạn dưỡng cơ, động kinh nặng và có trí tuệ chỉ ngang một đứa trẻ lên bảy. Nhìn cách bà ấy hy sinh vì con, ai trong thị trấn này cũng rơi nước mắt cảm phục.",
+  "text": "Trong mắt tất cả chúng tôi ở thị trấn này, ngôi nhà màu hồng ấy là nơi chở che một phép màu của lòng nhân ái. Bà Dee Dee là một người mẹ đơn thân vĩ đại, người đã từ bỏ mọi hạnh phúc riêng tư để chăm sóc cô con gái Gypsy Rose nhỏ bé bất hạnh. Cô bé mắc một danh sách bệnh tật dài đặc kín: bại liệt hoàn toàn từ thắt lưng trở xuống, ung thư máu giai đoạn nặng, loạn dưỡng cơ, động kinh triền miên và trí tuệ chỉ dừng lại ở mức đứa trẻ lên bảy. Hình ảnh người mẹ gầy gò nhẫn nại đẩy chiếc xe lăn qua từng góc phố đã in sâu vào ký ức của mọi gia đình nơi đây. Bất kỳ ai nhìn thấy hai mẹ con cũng đều nghẹn ngào rơi nước mắt cảm phục trước nghị lực phi thường của họ. Chúng tôi đã hoàn toàn tin tưởng rằng bà ấy là một vị thánh sống giữa đời thực.",
   "sentences": [
    {
     "id": "1.07#1",
-    "text": "Trong mắt tất cả chúng tôi, ngôi nhà màu hồng ấy là biểu tượng của tình mẫu tử thiêng liêng.",
-    "words": 20
+    "text": "Trong mắt tất cả chúng tôi ở thị trấn này, ngôi nhà màu hồng ấy là nơi chở che một phép màu của lòng nhân ái.",
+    "words": 26
    },
    {
     "id": "1.07#2",
-    "text": "Bà Dee Dee là một người mẹ đơn thân vĩ đại, người đã dành trọn cuộc đời mình để chăm sóc cô con gái Gypsy Rose – một thiếu nữ bất hạnh mắc hàng loạt căn bệnh hiểm nghèo: bại liệt từ thắt lưng trở xuống, ung thư máu, loạn dưỡng cơ, động kinh nặng và có trí tuệ chỉ ngang một đứa trẻ lên bảy.",
-    "words": 66
+    "text": "Bà Dee Dee là một người mẹ đơn thân vĩ đại, người đã từ bỏ mọi hạnh phúc riêng tư để chăm sóc cô con gái Gypsy Rose nhỏ bé bất hạnh.",
+    "words": 32
    },
    {
     "id": "1.07#3",
-    "text": "Nhìn cách bà ấy hy sinh vì con, ai trong thị trấn này cũng rơi nước mắt cảm phục.",
-    "words": 19
+    "text": "Cô bé mắc một danh sách bệnh tật dài đặc kín: bại liệt hoàn toàn từ thắt lưng trở xuống, ung thư máu giai đoạn nặng, loạn dưỡng cơ, động kinh triền miên và trí tuệ chỉ dừng lại ở mức đứa trẻ lên bảy.",
+    "words": 45
+   },
+   {
+    "id": "1.07#4",
+    "text": "Hình ảnh người mẹ gầy gò nhẫn nại đẩy chiếc xe lăn qua từng góc phố đã in sâu vào ký ức của mọi gia đình nơi đây.",
+    "words": 28
+   },
+   {
+    "id": "1.07#5",
+    "text": "Bất kỳ ai nhìn thấy hai mẹ con cũng đều nghẹn ngào rơi nước mắt cảm phục trước nghị lực phi thường của họ.",
+    "words": 24
+   },
+   {
+    "id": "1.07#6",
+    "text": "Chúng tôi đã hoàn toàn tin tưởng rằng bà ấy là một vị thánh sống giữa đời thực.",
+    "words": 18
    }
   ]
  },
@@ -99,38 +144,63 @@
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "Đẩy nhanh nhịp độ hơn một chút",
-  "text": "Thế nhưng, khi cảnh sát phá cửa bước vào ngôi nhà lạnh ngắt đêm hôm đó, họ phát hiện người mẹ – bà Dee Dee Blanchard – đã qua đời trong phòng ngủ. Còn Gypsy Rose đã biến mất. Chiếc xe lăn của cô bé vẫn nằm nguyên trong nhà. Những bình oxy và hàng chục lọ thuốc duy trì sự sống cũng còn nguyên trên kệ. Cả nước Mỹ bàng hoàng đặt ra một câu hỏi tuyệt vọng: Ai đã gây ra cái chết của người mẹ tận tụy ấy, rồi đưa đi một cô gái tàn tật không thể tự bước đi dù chỉ một bước, và có thể tử vong bất cứ lúc nào nếu thiếu thuốc? Để có cái nhìn chính xác nhất về bước ngoặt của vụ án, chúng ta sẽ lắng nghe thông tin từ Điều tra viên trực tiếp thụ lý hồ sơ này.",
+  "direction": "Đẩy nhanh nhịp độ, giọng trầm lắng",
+  "text": "Thế nhưng, khi cảnh sát quyết định phá then cửa bước vào bên trong ngôi nhà lạnh ngắt đêm hôm đó, một bức tranh hoàn toàn trái ngược đã phơi bày. Người mẹ – bà Dee Dee Blanchard – được phát hiện đã bất động vĩnh viễn trên giường ngủ. Không gian bên trong căn phòng nồng nặc mùi ẩm mốc và sự u ám đến nghẹt thở. Còn cô con gái tật nguyền Gypsy Rose thì hoàn toàn biến mất không một dấu vết. Chiếc xe lăn chuyên dụng mà cô bé dùng để di chuyển mỗi ngày vẫn nằm im lìm trong góc phòng khách. Hàng chục bình oxy, máy hút đờm và hàng trăm lọ thuốc đặc trị duy trì sự sống vẫn còn nguyên vẹn trên kệ tủ. Một sự tĩnh lặng đến rợn người bao trùm lên toàn bộ hiện trường vụ án. Cả nước Mỹ bàng hoàng rơi vào một cơn ác mộng tập thể khi hay tin dữ. Người dân lo sợ rằng một kẻ sát nhân tàn độc đã sát hại người mẹ thánh thiện, rồi bắt cóc một thiếu nữ không thể tự bước đi dù chỉ nửa bước. Một cuộc săn lùng quy mô liên bang được kích hoạt với giả định nạn nhân có thể tử vong bất cứ lúc nào nếu thiếu thuốc men điều trị. Chúng ta hãy lắng nghe Điều tra viên tái hiện lại thời khắc bước ngoặt lịch sử khi lực lượng chức năng tiếp cận được nghi phạm.",
   "sentences": [
    {
     "id": "1.08#1",
-    "text": "Thế nhưng, khi cảnh sát phá cửa bước vào ngôi nhà lạnh ngắt đêm hôm đó, họ phát hiện người mẹ – bà Dee Dee Blanchard – đã qua đời trong phòng ngủ.",
-    "words": 33
+    "text": "Thế nhưng, khi cảnh sát quyết định phá then cửa bước vào bên trong ngôi nhà lạnh ngắt đêm hôm đó, một bức tranh hoàn toàn trái ngược đã phơi bày.",
+    "words": 31
    },
    {
     "id": "1.08#2",
-    "text": "Còn Gypsy Rose đã biến mất.",
-    "words": 6
+    "text": "Người mẹ – bà Dee Dee Blanchard – được phát hiện đã bất động vĩnh viễn trên giường ngủ.",
+    "words": 19
    },
    {
     "id": "1.08#3",
-    "text": "Chiếc xe lăn của cô bé vẫn nằm nguyên trong nhà.",
-    "words": 11
+    "text": "Không gian bên trong căn phòng nồng nặc mùi ẩm mốc và sự u ám đến nghẹt thở.",
+    "words": 18
    },
    {
     "id": "1.08#4",
-    "text": "Những bình oxy và hàng chục lọ thuốc duy trì sự sống cũng còn nguyên trên kệ.",
+    "text": "Còn cô con gái tật nguyền Gypsy Rose thì hoàn toàn biến mất không một dấu vết.",
     "words": 17
    },
    {
     "id": "1.08#5",
-    "text": "Cả nước Mỹ bàng hoàng đặt ra một câu hỏi tuyệt vọng: Ai đã gây ra cái chết của người mẹ tận tụy ấy, rồi đưa đi một cô gái tàn tật không thể tự bước đi dù chỉ một bước, và có thể tử vong bất cứ lúc nào nếu thiếu thuốc?",
-    "words": 53
+    "text": "Chiếc xe lăn chuyên dụng mà cô bé dùng để di chuyển mỗi ngày vẫn nằm im lìm trong góc phòng khách.",
+    "words": 22
    },
    {
     "id": "1.08#6",
-    "text": "Để có cái nhìn chính xác nhất về bước ngoặt của vụ án, chúng ta sẽ lắng nghe thông tin từ Điều tra viên trực tiếp thụ lý hồ sơ này.",
-    "words": 31
+    "text": "Hàng chục bình oxy, máy hút đờm và hàng trăm lọ thuốc đặc trị duy trì sự sống vẫn còn nguyên vẹn trên kệ tủ.",
+    "words": 25
+   },
+   {
+    "id": "1.08#7",
+    "text": "Một sự tĩnh lặng đến rợn người bao trùm lên toàn bộ hiện trường vụ án.",
+    "words": 16
+   },
+   {
+    "id": "1.08#8",
+    "text": "Cả nước Mỹ bàng hoàng rơi vào một cơn ác mộng tập thể khi hay tin dữ.",
+    "words": 17
+   },
+   {
+    "id": "1.08#9",
+    "text": "Người dân lo sợ rằng một kẻ sát nhân tàn độc đã sát hại người mẹ thánh thiện, rồi bắt cóc một thiếu nữ không thể tự bước đi dù chỉ nửa bước.",
+    "words": 33
+   },
+   {
+    "id": "1.08#10",
+    "text": "Một cuộc săn lùng quy mô liên bang được kích hoạt với giả định nạn nhân có thể tử vong bất cứ lúc nào nếu thiếu thuốc men điều trị.",
+    "words": 30
+   },
+   {
+    "id": "1.08#11",
+    "text": "Chúng ta hãy lắng nghe Điều tra viên tái hiện lại thời khắc bước ngoặt lịch sử khi lực lượng chức năng tiếp cận được nghi phạm.",
+    "words": 27
    }
   ]
  },
@@ -139,7 +209,7 @@
   "act": 1,
   "kind": "NGHI",
   "sec": 2.0,
-  "desc": "Nhạc nền dừng đột ngột, tạo khoảng không im lặng tuyệt đối"
+  "desc": "Nhạc nền dừng đột ngột"
  },
  {
   "id": "1.10",
@@ -153,47 +223,62 @@
   "kind": "LOI",
   "role": "D",
   "direction": "Giọng hạ trầm, sắc lạnh và dứt khoát",
-  "text": "Ban đầu, chúng tôi phát lệnh truy tìm trên toàn quốc với giả định Gypsy Rose là nạn nhân bị bắt cóc đang nguy kịch tính mạng. Thế nhưng, chỉ 48 giờ sau, khi lực lượng chức năng lần ra dấu vết và tìm thấy Gypsy Rose tại bang Wisconsin, cách hiện trường hàng trăm dặm... một sự thật làm rúng động lịch sử y khoa và tội phạm học đã bị phơi bày. Bước vào phòng thẩm vấn của chúng tôi ngày hôm đó, Gypsy Rose không hề ngồi xe lăn. Cô ta tự bước đi bằng chính đôi chân của mình. Không ung thư máu. Không loạn dưỡng cơ. Không tổn thương não. Và người đứng sau kế hoạch dẫn đến cái chết của bà mẹ “thánh thiện” kia... không ai khác chính là cô con gái bé bỏng của bà.",
+  "text": "Suốt 48 giờ đầu tiên, toàn bộ lực lượng điều tra làm việc không ngừng nghỉ với tâm thế chạy đua cứu mạng một đứa trẻ tật nguyền nguy kịch. Dấu vết kỹ thuật số từ địa chỉ IP đăng tải dòng trạng thái trên mạng xã hội đã dẫn chúng tôi tới một căn nhà tại thị trấn Big Bend, thuộc bang Wisconsin, cách hiện trường hơn 800 cây số. Tại đây, lực lượng hành pháp đã bắt giữ một thanh niên tên là Nicholas Godejohn cùng một cô gái trẻ. Nhưng khoảnh khắc cánh cửa phòng thẩm vấn mở ra, một sự thật chấn động đã đánh sập toàn bộ nhận thức của chúng tôi. Bước vào phòng thẩm vấn ngày hôm đó, Gypsy Rose Blanchard không hề ngồi trên xe lăn. Cô ta tự bước đi vững chãi bằng chính đôi chân của mình với một phong thái hoàn toàn bình thường. Đôi mắt cô sáng rõ và linh hoạt, hoàn toàn không có vẻ gì của một bệnh nhân đang cận kề cái chết. Không hề có dấu vết của bệnh ung thư máu. Không hề có tổn thương tủy sống hay chứng loạn dưỡng cơ. Trí não của cô hoàn toàn minh mẫn, sắc sảo của một phụ nữ 23 tuổi chứ không phải tâm trí của một đứa trẻ lên bảy. Và người chủ mưu lên kế hoạch chấm dứt mạng sống của người mẹ thánh mẫu kia... không ai khác chính là cô con gái mà cả nước Mỹ từng thương xót.",
   "sentences": [
    {
     "id": "1.11#1",
-    "text": "Ban đầu, chúng tôi phát lệnh truy tìm trên toàn quốc với giả định Gypsy Rose là nạn nhân bị bắt cóc đang nguy kịch tính mạng.",
-    "words": 27
+    "text": "Suốt 48 giờ đầu tiên, toàn bộ lực lượng điều tra làm việc không ngừng nghỉ với tâm thế chạy đua cứu mạng một đứa trẻ tật nguyền nguy kịch.",
+    "words": 30
    },
    {
     "id": "1.11#2",
-    "text": "Thế nhưng, chỉ 48 giờ sau, khi lực lượng chức năng lần ra dấu vết và tìm thấy Gypsy Rose tại bang Wisconsin, cách hiện trường hàng trăm dặm... một sự thật làm rúng động lịch sử y khoa và tội phạm học đã bị phơi bày.",
-    "words": 47
+    "text": "Dấu vết kỹ thuật số từ địa chỉ IP đăng tải dòng trạng thái trên mạng xã hội đã dẫn chúng tôi tới một căn nhà tại thị trấn Big Bend, thuộc bang Wisconsin, cách hiện trường hơn 800 cây số.",
+    "words": 41
    },
    {
     "id": "1.11#3",
-    "text": "Bước vào phòng thẩm vấn của chúng tôi ngày hôm đó, Gypsy Rose không hề ngồi xe lăn.",
-    "words": 18
+    "text": "Tại đây, lực lượng hành pháp đã bắt giữ một thanh niên tên là Nicholas Godejohn cùng một cô gái trẻ.",
+    "words": 21
    },
    {
     "id": "1.11#4",
-    "text": "Cô ta tự bước đi bằng chính đôi chân của mình.",
-    "words": 11
+    "text": "Nhưng khoảnh khắc cánh cửa phòng thẩm vấn mở ra, một sự thật chấn động đã đánh sập toàn bộ nhận thức của chúng tôi.",
+    "words": 25
    },
    {
     "id": "1.11#5",
-    "text": "Không ung thư máu.",
-    "words": 4
+    "text": "Bước vào phòng thẩm vấn ngày hôm đó, Gypsy Rose Blanchard không hề ngồi trên xe lăn.",
+    "words": 17
    },
    {
     "id": "1.11#6",
-    "text": "Không loạn dưỡng cơ.",
-    "words": 4
+    "text": "Cô ta tự bước đi vững chãi bằng chính đôi chân của mình với một phong thái hoàn toàn bình thường.",
+    "words": 21
    },
    {
     "id": "1.11#7",
-    "text": "Không tổn thương não.",
-    "words": 4
+    "text": "Đôi mắt cô sáng rõ và linh hoạt, hoàn toàn không có vẻ gì của một bệnh nhân đang cận kề cái chết.",
+    "words": 23
    },
    {
     "id": "1.11#8",
-    "text": "Và người đứng sau kế hoạch dẫn đến cái chết của bà mẹ “thánh thiện” kia... không ai khác chính là cô con gái bé bỏng của bà.",
-    "words": 28
+    "text": "Không hề có dấu vết của bệnh ung thư máu.",
+    "words": 10
+   },
+   {
+    "id": "1.11#9",
+    "text": "Không hề có tổn thương tủy sống hay chứng loạn dưỡng cơ.",
+    "words": 12
+   },
+   {
+    "id": "1.11#10",
+    "text": "Trí não của cô hoàn toàn minh mẫn, sắc sảo của một phụ nữ 23 tuổi chứ không phải tâm trí của một đứa trẻ lên bảy.",
+    "words": 27
+   },
+   {
+    "id": "1.11#11",
+    "text": "Và người chủ mưu lên kế hoạch chấm dứt mạng sống của người mẹ thánh mẫu kia... không ai khác chính là cô con gái mà cả nước Mỹ từng thương xót.",
+    "words": 32
    }
   ]
  },
@@ -201,7 +286,7 @@
   "id": "1.12",
   "act": 1,
   "kind": "SFX",
-  "desc": "Tiếng bật máy ghi âm “Tách”, nhạc nền Cello trầm buồn bắt đầu vang lên."
+  "desc": "Tiếng bật máy ghi âm \"Tách\", nhạc nền Cello trầm buồn bắt đầu vang lên."
  },
  {
   "id": "1.13",
@@ -209,17 +294,22 @@
   "kind": "LOI",
   "role": "H",
   "direction": "",
-  "text": "Chào mừng bạn đến với hồ sơ phân tích tâm lý học tội phạm. Hôm nay, chúng ta sẽ bước vào bên trong ngôi nhà màu hồng ở Missouri để giải mã một trong những hội chứng tâm thần kỳ dị và tàn nhẫn nhất ẩn dưới lớp vỏ bọc của tình yêu thương: Hội chứng Münchausen qua trung gian.",
+  "text": "Chào mừng bạn đến với hồ sơ phân tích tâm lý học tội phạm của Amber eyes. Hôm nay, chúng ta sẽ bước qua ngưỡng cửa của ngôi nhà màu hồng ở Springfield để giải mã một trong những bi kịch kỳ dị và tàn khốc nhất từng được ghi nhận trong lịch sử y khoa và tư pháp hiện đại: Hồ sơ Gypsy Rose Blanchard. Chúng ta sẽ cùng bóc tách hai cơ chế đen tối: Hội chứng Münchausen qua trung gian và Sự bất lực tập nhiễm – để trả lời câu hỏi nhức nhối: Làm thế nào một chiếc lồng giam y tế có thể tồn tại suốt 23 năm giữa thanh thiên bạch nhật, dưới ánh hào quang của lòng từ thiện?",
   "sentences": [
    {
     "id": "1.13#1",
-    "text": "Chào mừng bạn đến với hồ sơ phân tích tâm lý học tội phạm.",
-    "words": 14
+    "text": "Chào mừng bạn đến với hồ sơ phân tích tâm lý học tội phạm của Amber eyes.",
+    "words": 17
    },
    {
     "id": "1.13#2",
-    "text": "Hôm nay, chúng ta sẽ bước vào bên trong ngôi nhà màu hồng ở Missouri để giải mã một trong những hội chứng tâm thần kỳ dị và tàn nhẫn nhất ẩn dưới lớp vỏ bọc của tình yêu thương: Hội chứng Münchausen qua trung gian.",
-    "words": 46
+    "text": "Hôm nay, chúng ta sẽ bước qua ngưỡng cửa của ngôi nhà màu hồng ở Springfield để giải mã một trong những bi kịch kỳ dị và tàn khốc nhất từng được ghi nhận trong lịch sử y khoa và tư pháp hiện đại: Hồ sơ Gypsy Rose Blanchard.",
+    "words": 49
+   },
+   {
+    "id": "1.13#3",
+    "text": "Chúng ta sẽ cùng bóc tách hai cơ chế đen tối: Hội chứng Münchausen qua trung gian và Sự bất lực tập nhiễm – để trả lời câu hỏi nhức nhối: Làm thế nào một chiếc lồng giam y tế có thể tồn tại suốt 23 năm giữa thanh thiên bạch nhật, dưới ánh hào quang của lòng từ thiện?",
+    "words": 60
    }
   ]
  },
@@ -227,7 +317,7 @@
   "id": "2.01",
   "act": 2,
   "kind": "BGM",
-  "desc": "Tiếng máy đo nhịp tim bệnh viện kêu “Bíp... Bíp...” mờ ảo phía sau nền nhạc Piano tối giản."
+  "desc": "Tiếng máy đo nhịp tim bệnh viện kêu \"Bíp... Bíp...\" mờ ảo phía sau nền nhạc Piano tối giản lạnh lẽo."
  },
  {
   "id": "2.02",
@@ -235,21 +325,36 @@
   "kind": "LOI",
   "role": "H",
   "direction": "Giọng đọc đều đặn, dẫn dắt mạch truyện",
-  "text": "Để hiểu tại sao một cô gái lại đi đến một lựa chọn cực đoan với chính mẹ ruột để tìm đường sống, trước hết chúng ta cần nhìn vào hiện trường thực sự của vụ án này. Hiện trường đó không phải là căn phòng ngủ vào tháng 6 năm 2015. Hiện trường thực sự chính là cơ thể của Gypsy Rose suốt 23 năm trước đó.",
+  "text": "Để hiểu tại sao một cô gái trẻ lại đi đến quyết định đoạt mạng chính mẹ ruột của mình để tìm kiếm lối thoát, chúng ta phải bắt đầu từ hiện trường thực sự của vụ án. Hiện trường thực sự của thảm kịch này không phải là căn phòng ngủ tại Missouri vào đêm tháng 6 năm 2015. Hiện trường thực sự chính là thân xác của Gypsy Rose, bị giam hãm và xâm lấn suốt 23 năm ròng rã. Một cô gái với dáng người nhỏ thó, đôi mắt trũng sâu và toàn bộ hàm răng bị nhổ bỏ hoàn toàn. Một hành trình tha hóa bệnh lý không xuất hiện trong một sớm một chiều, mà được xây dựng qua 4 nấc thang leo thang hành vi y tế kéo dài hơn hai thập kỷ. Xin mời Điều tra viên công bố chi tiết hồ sơ bệnh án thu giữ được.",
   "sentences": [
    {
     "id": "2.02#1",
-    "text": "Để hiểu tại sao một cô gái lại đi đến một lựa chọn cực đoan với chính mẹ ruột để tìm đường sống, trước hết chúng ta cần nhìn vào hiện trường thực sự của vụ án này.",
+    "text": "Để hiểu tại sao một cô gái trẻ lại đi đến quyết định đoạt mạng chính mẹ ruột của mình để tìm kiếm lối thoát, chúng ta phải bắt đầu từ hiện trường thực sự của vụ án.",
     "words": 38
    },
    {
     "id": "2.02#2",
-    "text": "Hiện trường đó không phải là căn phòng ngủ vào tháng 6 năm 2015.",
-    "words": 14
+    "text": "Hiện trường thực sự của thảm kịch này không phải là căn phòng ngủ tại Missouri vào đêm tháng 6 năm 2015.",
+    "words": 22
    },
    {
     "id": "2.02#3",
-    "text": "Hiện trường thực sự chính là cơ thể của Gypsy Rose suốt 23 năm trước đó.",
+    "text": "Hiện trường thực sự chính là thân xác của Gypsy Rose, bị giam hãm và xâm lấn suốt 23 năm ròng rã.",
+    "words": 22
+   },
+   {
+    "id": "2.02#4",
+    "text": "Một cô gái với dáng người nhỏ thó, đôi mắt trũng sâu và toàn bộ hàm răng bị nhổ bỏ hoàn toàn.",
+    "words": 22
+   },
+   {
+    "id": "2.02#5",
+    "text": "Một hành trình tha hóa bệnh lý không xuất hiện trong một sớm một chiều, mà được xây dựng qua 4 nấc thang leo thang hành vi y tế kéo dài hơn hai thập kỷ.",
+    "words": 35
+   },
+   {
+    "id": "2.02#6",
+    "text": "Xin mời Điều tra viên công bố chi tiết hồ sơ bệnh án thu giữ được.",
     "words": 16
    }
   ]
@@ -258,40 +363,105 @@
   "id": "2.03",
   "act": 2,
   "kind": "SFX",
-  "desc": "Tiếng lật giấy hồ sơ sột soạt."
+  "desc": "Tiếng lật mở tập hồ sơ giấy dày cộp sột soạt."
  },
  {
   "id": "2.04",
   "act": 2,
   "kind": "LOI",
-  "role": "H",
-  "direction": "Giọng đọc đều đặn, dẫn dắt mạch truyện",
-  "text": "Gypsy Rose sinh năm 1991, là một đứa trẻ hoàn toàn khỏe mạnh. Nhưng ngay từ khi cô mới được 3 tháng tuổi, bà Dee Dee bắt đầu đưa con đến bệnh viện với lời khẳng định rằng con gái mình mắc chứng ngưng thở khi ngủ. Từ cột mốc đó, một danh sách bệnh án khổng lồ bắt đầu được thêu dệt. Khi Gypsy lên 7, sau một vụ trầy xước đầu gối nhẹ khi đi xe đạp với ông ngoại, bà Dee Dee tuyên bố con gái mình bị tổn thương tủy sống và buộc cô bé phải ngồi xe lăn vĩnh viễn. Bà cạo trọc đầu Gypsy, rồi nói với đứa trẻ và cả thế giới rằng tóc cô rụng hết là do hóa trị ung thư máu.",
+  "role": "D",
+  "direction": "Giọng đanh thép, chuẩn xác, nhấn mạnh vào từng chi tiết chứng cứ",
+  "text": "Lật lại hàng ngàn trang hồ sơ lưu trữ từ nhiều bệnh viện, chúng tôi đã phục dựng lại toàn bộ quỹ đạo lạm dụng y khoa mà bà Dee Dee áp đặt lên Gypsy Rose qua 4 giai đoạn leo thang rõ rệt: Nấc thang thứ nhất: Gieo mầm triệu chứng giả. Gypsy Rose sinh năm 1991 hoàn toàn khỏe mạnh bình thường. Nhưng khi đứa trẻ mới tròn 3 tháng tuổi, bà Dee Dee bắt đầu bế con đến các phòng cấp cứu và khẳng định đứa trẻ mắc chứng ngưng thở khi ngủ không rõ nguyên nhân. Đến năm Gypsy lên 7 tuổi, sau một tai nạn trầy xước nhẹ ở đầu gối khi đi xe ba bánh, bà Dee Dee tuyên bố con gái bị chấn thương tủy sống nghiêm trọng và ép cô bé phải ngồi xe lăn vĩnh viễn kể từ đó. Nấc thang thứ hai: Xâm lấn thể xác và lạm dụng dược chất. Khi những lời khai man không còn đủ thỏa mãn, bà Dee Dee bắt đầu can thiệp trực tiếp vào sinh học của con gái. Bà bắt Gypsy uống thuốc chống động kinh liều cao Tegretol suốt nhiều năm dù các kết quả điện não đồ đều hoàn toàn bình thường. Tác dụng phụ của thuốc kết hợp cùng sự thiếu hụt dinh dưỡng kéo dài đã khiến men răng của cô bé bị phá hủy hoàn toàn, dẫn đến việc toàn bộ hàm răng bị mục nát và bác sĩ buộc phải nhổ bỏ sạch sẽ. Bà yêu cầu bác sĩ phẫu thuật đặt ống truyền thức ăn trực tiếp vào dạ dày của con, biến một người có khả năng ăn uống bình thường thành người phụ thuộc hoàn toàn vào dịch truyền. Thậm chí, bà còn thuyết phục bệnh viện nhi Children’s Mercy thực hiện ca mổ cắt bỏ tuyến nước bọt của Gypsy sau khi bí mật tiêm thuốc gây khô miệng. Nấc thang thứ ba: Thao túng hệ thống và vô hiệu hóa cơ chế kiểm tra. Dee Dee từng có thời gian làm hộ lý, nên bà ta sử dụng thành thạo các thuật ngữ chuyên môn để mô tả triệu chứng đánh lừa bác sĩ. Trước mỗi lần khám bệnh, bà bí mật tiêm thuốc tê hoặc bôi hóa chất gây kích ứng để tạo triệu chứng giả trên cơ thể con gái. Năm 2005, khi cơn bão Katrina quét qua bang Louisiana, bà đã lợi dụng thảm họa để tuyên bố toàn bộ hồ sơ bệnh án gốc bị lũ cuốn trôi, từ đó xóa sạch dấu vết đối chiếu. Nấc thang thứ tư: Xóa bỏ hoàn toàn nhân dạng và quyền tự chủ. Dee Dee cạo trọc đầu con gái định kỳ, tuyên bố tóc rụng do hóa trị ung thư máu. Bà ép Gypsy mặc những bộ váy công chúa của trẻ nhỏ, đeo kính mắt dày cộp và cấm cô tiếp xúc với bất kỳ ai nếu không có sự giám sát trực tiếp của mẹ.",
   "sentences": [
    {
     "id": "2.04#1",
-    "text": "Gypsy Rose sinh năm 1991, là một đứa trẻ hoàn toàn khỏe mạnh.",
-    "words": 13
+    "text": "Lật lại hàng ngàn trang hồ sơ lưu trữ từ nhiều bệnh viện, chúng tôi đã phục dựng lại toàn bộ quỹ đạo lạm dụng y khoa mà bà Dee Dee áp đặt lên Gypsy Rose qua 4 giai đoạn leo thang rõ rệt:",
+    "words": 44
    },
    {
     "id": "2.04#2",
-    "text": "Nhưng ngay từ khi cô mới được 3 tháng tuổi, bà Dee Dee bắt đầu đưa con đến bệnh viện với lời khẳng định rằng con gái mình mắc chứng ngưng thở khi ngủ.",
-    "words": 34
+    "text": "Nấc thang thứ nhất: Gieo mầm triệu chứng giả.",
+    "words": 9
    },
    {
     "id": "2.04#3",
-    "text": "Từ cột mốc đó, một danh sách bệnh án khổng lồ bắt đầu được thêu dệt.",
-    "words": 16
+    "text": "Gypsy Rose sinh năm 1991 hoàn toàn khỏe mạnh bình thường.",
+    "words": 11
    },
    {
     "id": "2.04#4",
-    "text": "Khi Gypsy lên 7, sau một vụ trầy xước đầu gối nhẹ khi đi xe đạp với ông ngoại, bà Dee Dee tuyên bố con gái mình bị tổn thương tủy sống và buộc cô bé phải ngồi xe lăn vĩnh viễn.",
-    "words": 42
+    "text": "Nhưng khi đứa trẻ mới tròn 3 tháng tuổi, bà Dee Dee bắt đầu bế con đến các phòng cấp cứu và khẳng định đứa trẻ mắc chứng ngưng thở khi ngủ không rõ nguyên nhân.",
+    "words": 36
    },
    {
     "id": "2.04#5",
-    "text": "Bà cạo trọc đầu Gypsy, rồi nói với đứa trẻ và cả thế giới rằng tóc cô rụng hết là do hóa trị ung thư máu.",
+    "text": "Đến năm Gypsy lên 7 tuổi, sau một tai nạn trầy xước nhẹ ở đầu gối khi đi xe ba bánh, bà Dee Dee tuyên bố con gái bị chấn thương tủy sống nghiêm trọng và ép cô bé phải ngồi xe lăn vĩnh viễn kể từ đó.",
+    "words": 48
+   },
+   {
+    "id": "2.04#6",
+    "text": "Nấc thang thứ hai: Xâm lấn thể xác và lạm dụng dược chất.",
+    "words": 13
+   },
+   {
+    "id": "2.04#7",
+    "text": "Khi những lời khai man không còn đủ thỏa mãn, bà Dee Dee bắt đầu can thiệp trực tiếp vào sinh học của con gái.",
+    "words": 25
+   },
+   {
+    "id": "2.04#8",
+    "text": "Bà bắt Gypsy uống thuốc chống động kinh liều cao Tegretol suốt nhiều năm dù các kết quả điện não đồ đều hoàn toàn bình thường.",
     "words": 26
+   },
+   {
+    "id": "2.04#9",
+    "text": "Tác dụng phụ của thuốc kết hợp cùng sự thiếu hụt dinh dưỡng kéo dài đã khiến men răng của cô bé bị phá hủy hoàn toàn, dẫn đến việc toàn bộ hàm răng bị mục nát và bác sĩ buộc phải nhổ bỏ sạch sẽ.",
+    "words": 46
+   },
+   {
+    "id": "2.04#10",
+    "text": "Bà yêu cầu bác sĩ phẫu thuật đặt ống truyền thức ăn trực tiếp vào dạ dày của con, biến một người có khả năng ăn uống bình thường thành người phụ thuộc hoàn toàn vào dịch truyền.",
+    "words": 38
+   },
+   {
+    "id": "2.04#11",
+    "text": "Thậm chí, bà còn thuyết phục bệnh viện nhi Children’s Mercy thực hiện ca mổ cắt bỏ tuyến nước bọt của Gypsy sau khi bí mật tiêm thuốc gây khô miệng.",
+    "words": 31
+   },
+   {
+    "id": "2.04#12",
+    "text": "Nấc thang thứ ba: Thao túng hệ thống và vô hiệu hóa cơ chế kiểm tra.",
+    "words": 16
+   },
+   {
+    "id": "2.04#13",
+    "text": "Dee Dee từng có thời gian làm hộ lý, nên bà ta sử dụng thành thạo các thuật ngữ chuyên môn để mô tả triệu chứng đánh lừa bác sĩ.",
+    "words": 30
+   },
+   {
+    "id": "2.04#14",
+    "text": "Trước mỗi lần khám bệnh, bà bí mật tiêm thuốc tê hoặc bôi hóa chất gây kích ứng để tạo triệu chứng giả trên cơ thể con gái.",
+    "words": 28
+   },
+   {
+    "id": "2.04#15",
+    "text": "Năm 2005, khi cơn bão Katrina quét qua bang Louisiana, bà đã lợi dụng thảm họa để tuyên bố toàn bộ hồ sơ bệnh án gốc bị lũ cuốn trôi, từ đó xóa sạch dấu vết đối chiếu.",
+    "words": 38
+   },
+   {
+    "id": "2.04#16",
+    "text": "Nấc thang thứ tư: Xóa bỏ hoàn toàn nhân dạng và quyền tự chủ.",
+    "words": 14
+   },
+   {
+    "id": "2.04#17",
+    "text": "Dee Dee cạo trọc đầu con gái định kỳ, tuyên bố tóc rụng do hóa trị ung thư máu.",
+    "words": 19
+   },
+   {
+    "id": "2.04#18",
+    "text": "Bà ép Gypsy mặc những bộ váy công chúa của trẻ nhỏ, đeo kính mắt dày cộp và cấm cô tiếp xúc với bất kỳ ai nếu không có sự giám sát trực tiếp của mẹ.",
+    "words": 36
    }
   ]
  },
@@ -307,23 +477,18 @@
   "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "Giọng đọc đều đặn, dẫn dắt mạch truyện",
-  "text": "Nhưng bà Dee Dee không chỉ dừng lại ở lời nói dối. Khi lật lại hàng ngàn trang bệnh án thu giữ được, phía cảnh sát đã phát hiện những hành vi can thiệp y khoa trực tiếp lên cơ thể Gypsy. Chúng ta hãy nghe Điều tra viên công bố chi tiết phần hồ sơ này.",
+  "direction": "Giọng trầm lắng",
+  "text": "Dưới góc nhìn của khoa học hành vi, sự kiểm soát này phản ánh một Phương thức hành động và Dấu ấn tâm lý cực kỳ đặc thù. Xin mời Chuyên gia tâm lý phân tích sự khác biệt giữa thủ đoạn và chữ ký tâm lý của hung thủ.",
   "sentences": [
    {
     "id": "2.06#1",
-    "text": "Nhưng bà Dee Dee không chỉ dừng lại ở lời nói dối.",
-    "words": 12
+    "text": "Dưới góc nhìn của khoa học hành vi, sự kiểm soát này phản ánh một Phương thức hành động và Dấu ấn tâm lý cực kỳ đặc thù.",
+    "words": 28
    },
    {
     "id": "2.06#2",
-    "text": "Khi lật lại hàng ngàn trang bệnh án thu giữ được, phía cảnh sát đã phát hiện những hành vi can thiệp y khoa trực tiếp lên cơ thể Gypsy.",
-    "words": 30
-   },
-   {
-    "id": "2.06#3",
-    "text": "Chúng ta hãy nghe Điều tra viên công bố chi tiết phần hồ sơ này.",
-    "words": 15
+    "text": "Xin mời Chuyên gia tâm lý phân tích sự khác biệt giữa thủ đoạn và chữ ký tâm lý của hung thủ.",
+    "words": 22
    }
   ]
  },
@@ -331,95 +496,99 @@
   "id": "2.07",
   "act": 2,
   "kind": "LOI",
-  "role": "D",
-  "direction": "Giọng đanh thép, nhấn mạnh vào từng chi tiết chứng cứ và phương thức",
-  "text": "Để biến kịch bản trong đầu mình thành triệu chứng thực tế trước mắt các bác sĩ, bà Dee Dee đã trực tiếp tác động lên sức khỏe con gái qua ba dấu vết rõ rệt nhất trong hồ sơ y tế: Thứ nhất, bà cho Gypsy uống thuốc chống động kinh liều cao dù cô không hề bị động kinh, khiến sức khỏe răng miệng của cô bé bị tổn hại nghiêm trọng. Thứ hai, bà thuyết phục bác sĩ đặt ống nuôi ăn qua dạ dày cho Gypsy. Và thứ ba, trước mỗi lần đi khám, bà tạo ra những triệu chứng giả trước mắt bác sĩ, từ đó thuyết phục bệnh viện thực hiện một ca phẫu thuật tuyến nước bọt không cần thiết cho cô bé. Câu hỏi lớn đặt ra cho cơ quan điều tra chúng tôi lúc bấy giờ là: Tại sao cả một hệ thống y tế hiện đại với hàng trăm bác sĩ lại không phát hiện ra? Qua quá trình dựng lại hồ sơ, chúng tôi nhận thấy bà Dee Dee sở hữu một Phương thức hành động (Modus Operandi) cực kỳ tinh vi: Bà ta từng làm hộ lý, nên nắm rất rõ các thuật ngữ y khoa và biết cách mô tả triệu chứng sao cho khớp với sách giáo khoa nhất. Năm 2005, khi cơn bão Katrina quét qua bang Louisiana, bà Dee Dee đã lợi dụng thảm họa này để tuyên bố rằng toàn bộ hồ sơ bệnh án gốc và giấy khai sinh của Gypsy đã bị lũ cuốn trôi. Từ giây phút đó, mọi lịch sử y tế của Gypsy đều do một mình miệng bà Dee Dee đọc cho các bác sĩ mới ghi chép lại. Bất cứ khi nào có một bác sĩ bắt đầu nghi ngờ – như tiến sĩ Bernardo Flasterstein, người từng ghi vào hồ sơ năm 2007 rằng ông nghi ngờ người mẹ mắc hội chứng tâm lý giả bệnh – bà Dee Dee lập tức cắt đứt liên lạc, đổi bệnh viện và chuyển chỗ ở.",
+  "role": "C",
+  "direction": "Giọng phân tích chuyên môn, rành mạch và sâu sắc",
+  "text": "Trong tâm lý học tội phạm, chúng ta luôn phân biệt rạch ròi giữa Thủ đoạn (Modus Operandi) và Chữ ký tâm lý (Signature): Thủ đoạn là những gì hung thủ làm để thực hiện hành vi và né tránh sự trừng phạt. Ở Dee Dee, thủ đoạn của bà ta liên tục biến đổi: bà ta áp dụng kỹ thuật “Doctor shopping” – tức là liên tục thay đổi bệnh viện và chuyển chỗ ở ngay khi có một bác sĩ bắt đầu nghi ngờ. Vào năm 2007, bác sĩ nhi khoa thần kinh Bernardo Flasterstein tại Missouri đã ghi rõ trong bệnh án rằng ông không phát hiện bất kỳ dấu hiệu bại liệt hay loạn dưỡng cơ nào, và nghi ngờ người mẹ mắc chứng giả bệnh. Vị bác sĩ đã thẳng thắn đối chất với Dee Dee về kết quả kiểm tra thể chất bình thường của cô bé. Nhận thấy nguy cơ bị lật tẩy, Dee Dee lập tức cắt đứt liên lạc với vị bác sĩ này, giận dữ cáo buộc ông thiếu y đức và đưa con sang một hệ thống y tế khác. Ngược lại, Chữ ký tâm lý (Signature) là thứ bất biến, sinh ra để thỏa mãn nhu cầu cảm xúc bệnh lý cốt lõi. Chữ ký của Dee Dee thể hiện rõ qua hành vi Tước đoạt tuổi trưởng thành (Infantilization). Bà ta khai man ngày sinh, biến Gypsy từ một thiếu nữ 20 tuổi thành một đứa trẻ 16 tuổi trên giấy tờ. Bà ta bắt con gái đội tóc giả sặc sỡ, ôm thú bông và nói bằng giọng the thé của trẻ thơ. Dee Dee không chỉ muốn con mình bệnh tật; bà ta khao khát biến con gái thành một con búp bê vĩnh viễn không bao giờ lớn, hoàn toàn phụ thuộc vào sự tồn tại của bà.",
   "sentences": [
    {
     "id": "2.07#1",
-    "text": "Để biến kịch bản trong đầu mình thành triệu chứng thực tế trước mắt các bác sĩ, bà Dee Dee đã trực tiếp tác động lên sức khỏe con gái qua ba dấu vết rõ rệt nhất trong hồ sơ y tế:",
-    "words": 42
+    "text": "Trong tâm lý học tội phạm, chúng ta luôn phân biệt rạch ròi giữa Thủ đoạn (Modus Operandi) và Chữ ký tâm lý (Signature):",
+    "words": 24
    },
    {
     "id": "2.07#2",
-    "text": "Thứ nhất, bà cho Gypsy uống thuốc chống động kinh liều cao dù cô không hề bị động kinh, khiến sức khỏe răng miệng của cô bé bị tổn hại nghiêm trọng.",
-    "words": 32
+    "text": "Thủ đoạn là những gì hung thủ làm để thực hiện hành vi và né tránh sự trừng phạt.",
+    "words": 19
    },
    {
     "id": "2.07#3",
-    "text": "Thứ hai, bà thuyết phục bác sĩ đặt ống nuôi ăn qua dạ dày cho Gypsy.",
-    "words": 16
+    "text": "Ở Dee Dee, thủ đoạn của bà ta liên tục biến đổi: bà ta áp dụng kỹ thuật “Doctor shopping” – tức là liên tục thay đổi bệnh viện và chuyển chỗ ở ngay khi có một bác sĩ bắt đầu nghi ngờ.",
+    "words": 43
    },
    {
     "id": "2.07#4",
-    "text": "Và thứ ba, trước mỗi lần đi khám, bà tạo ra những triệu chứng giả trước mắt bác sĩ, từ đó thuyết phục bệnh viện thực hiện một ca phẫu thuật tuyến nước bọt không cần thiết cho cô bé.",
-    "words": 40
+    "text": "Vào năm 2007, bác sĩ nhi khoa thần kinh Bernardo Flasterstein tại Missouri đã ghi rõ trong bệnh án rằng ông không phát hiện bất kỳ dấu hiệu bại liệt hay loạn dưỡng cơ nào, và nghi ngờ người mẹ mắc chứng giả bệnh.",
+    "words": 44
    },
    {
     "id": "2.07#5",
-    "text": "Câu hỏi lớn đặt ra cho cơ quan điều tra chúng tôi lúc bấy giờ là: Tại sao cả một hệ thống y tế hiện đại với hàng trăm bác sĩ lại không phát hiện ra?",
-    "words": 36
+    "text": "Vị bác sĩ đã thẳng thắn đối chất với Dee Dee về kết quả kiểm tra thể chất bình thường của cô bé.",
+    "words": 23
    },
    {
     "id": "2.07#6",
-    "text": "Qua quá trình dựng lại hồ sơ, chúng tôi nhận thấy bà Dee Dee sở hữu một Phương thức hành động (Modus Operandi) cực kỳ tinh vi:",
-    "words": 27
+    "text": "Nhận thấy nguy cơ bị lật tẩy, Dee Dee lập tức cắt đứt liên lạc với vị bác sĩ này, giận dữ cáo buộc ông thiếu y đức và đưa con sang một hệ thống y tế khác.",
+    "words": 38
    },
    {
     "id": "2.07#7",
-    "text": "Bà ta từng làm hộ lý, nên nắm rất rõ các thuật ngữ y khoa và biết cách mô tả triệu chứng sao cho khớp với sách giáo khoa nhất.",
-    "words": 30
+    "text": "Ngược lại, Chữ ký tâm lý (Signature) là thứ bất biến, sinh ra để thỏa mãn nhu cầu cảm xúc bệnh lý cốt lõi.",
+    "words": 24
    },
    {
     "id": "2.07#8",
-    "text": "Năm 2005, khi cơn bão Katrina quét qua bang Louisiana, bà Dee Dee đã lợi dụng thảm họa này để tuyên bố rằng toàn bộ hồ sơ bệnh án gốc và giấy khai sinh của Gypsy đã bị lũ cuốn trôi.",
-    "words": 41
+    "text": "Chữ ký của Dee Dee thể hiện rõ qua hành vi Tước đoạt tuổi trưởng thành (Infantilization).",
+    "words": 17
    },
    {
     "id": "2.07#9",
-    "text": "Từ giây phút đó, mọi lịch sử y tế của Gypsy đều do một mình miệng bà Dee Dee đọc cho các bác sĩ mới ghi chép lại.",
-    "words": 28
+    "text": "Bà ta khai man ngày sinh, biến Gypsy từ một thiếu nữ 20 tuổi thành một đứa trẻ 16 tuổi trên giấy tờ.",
+    "words": 23
    },
    {
     "id": "2.07#10",
-    "text": "Bất cứ khi nào có một bác sĩ bắt đầu nghi ngờ – như tiến sĩ Bernardo Flasterstein, người từng ghi vào hồ sơ năm 2007 rằng ông nghi ngờ người mẹ mắc hội chứng tâm lý giả bệnh – bà Dee Dee lập tức cắt đứt liên lạc, đổi bệnh viện và chuyển chỗ ở.",
-    "words": 56
+    "text": "Bà ta bắt con gái đội tóc giả sặc sỡ, ôm thú bông và nói bằng giọng the thé của trẻ thơ.",
+    "words": 22
+   },
+   {
+    "id": "2.07#11",
+    "text": "Dee Dee không chỉ muốn con mình bệnh tật; bà ta khao khát biến con gái thành một con búp bê vĩnh viễn không bao giờ lớn, hoàn toàn phụ thuộc vào sự tồn tại của bà.",
+    "words": 37
    }
   ]
  },
  {
   "id": "2.08",
   "act": 2,
-  "kind": "SFX",
-  "desc": "Tiếng khóa cửa sắt vang lên “Cạch”."
- },
- {
-  "id": "2.09",
-  "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "Giọng trầm lắng",
-  "text": "Trong ngôi nhà màu hồng do các quỹ từ thiện xây tặng, những cánh cửa sổ luôn bị đóng kín. Gypsy không được đi học vì mẹ nói cô bị thiểu năng trí tuệ. Cô bị khai gian tuổi nhỏ hơn thực tế 4 năm để mãi mãi là một đứa trẻ vị thành niên dưới quyền giám hộ tuyệt đối của mẹ. Một nhà tù không có chấn song sắt, nhưng được xây bằng những đơn thuốc, những chiếc ống truyền dịch và ánh hào quang của lòng từ thiện.",
+  "direction": "Giọng đanh lại",
+  "text": "Bên cạnh chữ ký tâm lý đó, cách Dee Dee nhìn nhận con gái mình cũng phơi bày bản chất tàn nhẫn của căn bệnh. Dee Dee không hề xem Gypsy là một con người có tri giác, có cảm xúc và có quyền được sống khỏe mạnh. Trong tâm trí của bà ta, Gypsy đã bị giáng cấp thành một “đạo cụ sống” – một công cụ sinh học để sản xuất ra sự thương cảm và sự tôn sùng từ xã hội. Mỗi mũi tiêm, mỗi ca phẫu thuật không cần thiết không hề gợi lên trong Dee Dee sự xót xa của một người mẹ. Chúng chỉ là những chiếc đinh được đóng thêm vào chiếc lồng kính giam cầm số phận của một con người.",
   "sentences": [
    {
-    "id": "2.09#1",
-    "text": "Trong ngôi nhà màu hồng do các quỹ từ thiện xây tặng, những cánh cửa sổ luôn bị đóng kín.",
-    "words": 20
+    "id": "2.08#1",
+    "text": "Bên cạnh chữ ký tâm lý đó, cách Dee Dee nhìn nhận con gái mình cũng phơi bày bản chất tàn nhẫn của căn bệnh.",
+    "words": 25
    },
    {
-    "id": "2.09#2",
-    "text": "Gypsy không được đi học vì mẹ nói cô bị thiểu năng trí tuệ.",
-    "words": 14
+    "id": "2.08#2",
+    "text": "Dee Dee không hề xem Gypsy là một con người có tri giác, có cảm xúc và có quyền được sống khỏe mạnh.",
+    "words": 23
    },
    {
-    "id": "2.09#3",
-    "text": "Cô bị khai gian tuổi nhỏ hơn thực tế 4 năm để mãi mãi là một đứa trẻ vị thành niên dưới quyền giám hộ tuyệt đối của mẹ.",
-    "words": 29
+    "id": "2.08#3",
+    "text": "Trong tâm trí của bà ta, Gypsy đã bị giáng cấp thành một “đạo cụ sống” – một công cụ sinh học để sản xuất ra sự thương cảm và sự tôn sùng từ xã hội.",
+    "words": 36
    },
    {
-    "id": "2.09#4",
-    "text": "Một nhà tù không có chấn song sắt, nhưng được xây bằng những đơn thuốc, những chiếc ống truyền dịch và ánh hào quang của lòng từ thiện.",
-    "words": 28
+    "id": "2.08#4",
+    "text": "Mỗi mũi tiêm, mỗi ca phẫu thuật không cần thiết không hề gợi lên trong Dee Dee sự xót xa của một người mẹ.",
+    "words": 24
+   },
+   {
+    "id": "2.08#5",
+    "text": "Chúng chỉ là những chiếc đinh được đóng thêm vào chiếc lồng kính giam cầm số phận của một con người.",
+    "words": 21
    }
   ]
  },
@@ -427,7 +596,7 @@
   "id": "3.01",
   "act": 3,
   "kind": "BGM",
-  "desc": "Nhạc Ambient chuyển sang giai điệu sâu, mang tính học thuật và suy tư."
+  "desc": "Nhạc Ambient chuyển sang giai điệu sâu, mang tính học thuật và suy tư lạnh lẽo."
  },
  {
   "id": "3.02",
@@ -435,32 +604,42 @@
   "kind": "LOI",
   "role": "H",
   "direction": "",
-  "text": "Đến đây, câu hỏi lớn nhất mà bất kỳ ai cũng phải đặt ra là: Tại sao? Một người mẹ có thể nhận được gì khi khiến đứa con khỏe mạnh của mình phải sống như một người bệnh suốt hơn hai thập kỷ? Nhiều người vội vàng kết luận rằng bà Dee Dee làm vậy để trục lợi tiền từ thiện, những chuyến đi chơi miễn phí tại Disneyland hay ngôi nhà của tổ chức Habitat for Humanity. Nhưng dưới góc nhìn của tâm lý học tội phạm và tâm thần học pháp y, tiền bạc chỉ là phần thưởng phụ. Động cơ cốt lõi điều khiển toàn bộ hành vi của Dee Dee Blanchard nằm ở một căn bệnh tâm lý mang tên: Hội chứng Münchausen qua trung gian (Münchausen Syndrome by Proxy) – hay trong cẩm nang chẩn đoán tâm thần DSM-5-TR hiện đại gọi là Rối loạn giả bệnh áp đặt lên người khác (FDIA).",
+  "text": "Đến đây, bất kỳ ai trong chúng ta cũng đều đối diện với một câu hỏi nhức nhối: Điều gì có thể thúc đẩy một người mẹ làm ra những điều tàn độc như vậy với chính giọt máu của mình suốt 23 năm? Nhiều người vội vàng nhận định rằng Dee Dee làm tất cả chỉ vì tiền trợ cấp và những chuyến du lịch miễn phí đến Disneyland. Nhưng nếu chỉ vì lòng tham tài chính thông thường, kẻ phạm tội sẽ chọn những phương thức lừa đảo ít phiền phức và tốn kém hơn nhiều. Dưới góc độ tâm thần học pháp y, vật chất chỉ là sản phẩm phụ bên ngoài. Động cơ cốt lõi chi phối toàn bộ hành vi của Dee Dee Blanchard xuất phát từ một hội chứng tâm thần phức tạp: Hội chứng Münchausen qua trung gian (Factitious Disorder Imposed on Another – FDIA). Xin mời Chuyên gia tâm lý giải mã các tầng nhận thức bên trong tâm trí của một kẻ mắc hội chứng này.",
   "sentences": [
    {
     "id": "3.02#1",
-    "text": "Đến đây, câu hỏi lớn nhất mà bất kỳ ai cũng phải đặt ra là: Tại sao?",
-    "words": 17
+    "text": "Đến đây, bất kỳ ai trong chúng ta cũng đều đối diện với một câu hỏi nhức nhối:",
+    "words": 18
    },
    {
     "id": "3.02#2",
-    "text": "Một người mẹ có thể nhận được gì khi khiến đứa con khỏe mạnh của mình phải sống như một người bệnh suốt hơn hai thập kỷ?",
-    "words": 27
+    "text": "Điều gì có thể thúc đẩy một người mẹ làm ra những điều tàn độc như vậy với chính giọt máu của mình suốt 23 năm?",
+    "words": 26
    },
    {
     "id": "3.02#3",
-    "text": "Nhiều người vội vàng kết luận rằng bà Dee Dee làm vậy để trục lợi tiền từ thiện, những chuyến đi chơi miễn phí tại Disneyland hay ngôi nhà của tổ chức Habitat for Humanity.",
-    "words": 35
+    "text": "Nhiều người vội vàng nhận định rằng Dee Dee làm tất cả chỉ vì tiền trợ cấp và những chuyến du lịch miễn phí đến Disneyland.",
+    "words": 26
    },
    {
     "id": "3.02#4",
-    "text": "Nhưng dưới góc nhìn của tâm lý học tội phạm và tâm thần học pháp y, tiền bạc chỉ là phần thưởng phụ.",
-    "words": 23
+    "text": "Nhưng nếu chỉ vì lòng tham tài chính thông thường, kẻ phạm tội sẽ chọn những phương thức lừa đảo ít phiền phức và tốn kém hơn nhiều.",
+    "words": 28
    },
    {
     "id": "3.02#5",
-    "text": "Động cơ cốt lõi điều khiển toàn bộ hành vi của Dee Dee Blanchard nằm ở một căn bệnh tâm lý mang tên: Hội chứng Münchausen qua trung gian (Münchausen Syndrome by Proxy) – hay trong cẩm nang chẩn đoán tâm thần DSM-5-TR hiện đại gọi là Rối loạn giả bệnh áp đặt lên người khác (FDIA).",
-    "words": 57
+    "text": "Dưới góc độ tâm thần học pháp y, vật chất chỉ là sản phẩm phụ bên ngoài.",
+    "words": 17
+   },
+   {
+    "id": "3.02#6",
+    "text": "Động cơ cốt lõi chi phối toàn bộ hành vi của Dee Dee Blanchard xuất phát từ một hội chứng tâm thần phức tạp: Hội chứng Münchausen qua trung gian (Factitious Disorder Imposed on Another – FDIA).",
+    "words": 37
+   },
+   {
+    "id": "3.02#7",
+    "text": "Xin mời Chuyên gia tâm lý giải mã các tầng nhận thức bên trong tâm trí của một kẻ mắc hội chứng này.",
+    "words": 23
    }
   ]
  },
@@ -468,108 +647,153 @@
   "id": "3.03",
   "act": 3,
   "kind": "NGHI",
-  "sec": 2.0,
+  "sec": 1.5,
   "desc": ""
  },
  {
   "id": "3.04",
   "act": 3,
   "kind": "LOI",
-  "role": "H",
-  "direction": "",
-  "text": "Để hiểu sâu hơn về căn bệnh này, tôi đã nhờ đến sự phân tích của Chuyên gia tâm lý học tội phạm. Hãy cùng lắng nghe chuyên gia bóc tách 3 tầng tâm lý bên trong bộ não của Dee Dee Blanchard.",
+  "role": "C",
+  "direction": "Giọng điềm đạm, nhấn mạnh từng luận điểm khoa học",
+  "text": "Theo cẩm nang chẩn đoán tâm thần DSM-5-TR, hội chứng FDIA hoàn toàn khác biệt với hành vi Giả bệnh trục lợi thông thường (Malingering). Kẻ giả bệnh trục lợi sẽ dựng chuyện để kiếm tiền rồi bí mật hưởng thụ trong bóng tối. Nhưng người mắc hội chứng FDIA thì đói khát một thứ chất gây nghiện tinh vi hơn nhiều: đó là Sự cung cấp ái kỷ (Narcissistic Supply). Khi giải phẫu tâm lý của Dee Dee Blanchard, chúng ta nhìn thấy 3 tầng động cơ bệnh lý đan xen: Tầng thứ nhất: Cơn nghiện ánh hào quang của Vị thánh tử đạo. Trước khi sinh con, cuộc đời Dee Dee là một chuỗi dài những thất bại ê chề: bà từng có tiền sử trộm cắp vặt, bị gia đình ghẻ lạnh, và cuộc hôn nhân với người chồng Rod Blanchard tan vỡ nhanh chóng khi bà mới 24 tuổi. Bà ta là một cá nhân mờ nhạt, thiếu vắng sự công nhận xã hội. Nhưng khoảnh khắc bà khoác lên mình chiếc áo “người mẹ đơn thân kiên cường nuôi con tàn tật”, toàn bộ thế giới bỗng đảo chiều. Đi đến đâu, Dee Dee cũng nhận được những ánh nhìn kính nể từ các bác sĩ, những giọt nước mắt cảm phục từ hàng xóm và những bài báo ca ngợi trên truyền thông. Sự chú ý của đám đông đã khỏa lấp hoàn toàn cảm giác tự ti và trống rỗng bệnh lý bên trong con người bà ta. Mỗi lời khen ngợi “Bà là người mẹ vĩ đại nhất” đóng vai trò như một liều Dopamine cực mạnh tiêm thẳng vào não bộ, khiến bà ta lún sâu vào cơn nghiện không thể đảo ngược.",
   "sentences": [
    {
     "id": "3.04#1",
-    "text": "Để hiểu sâu hơn về căn bệnh này, tôi đã nhờ đến sự phân tích của Chuyên gia tâm lý học tội phạm.",
-    "words": 23
+    "text": "Theo cẩm nang chẩn đoán tâm thần DSM-5-TR, hội chứng FDIA hoàn toàn khác biệt với hành vi Giả bệnh trục lợi thông thường (Malingering).",
+    "words": 25
    },
    {
     "id": "3.04#2",
-    "text": "Hãy cùng lắng nghe chuyên gia bóc tách 3 tầng tâm lý bên trong bộ não của Dee Dee Blanchard.",
-    "words": 20
+    "text": "Kẻ giả bệnh trục lợi sẽ dựng chuyện để kiếm tiền rồi bí mật hưởng thụ trong bóng tối.",
+    "words": 19
+   },
+   {
+    "id": "3.04#3",
+    "text": "Nhưng người mắc hội chứng FDIA thì đói khát một thứ chất gây nghiện tinh vi hơn nhiều: đó là Sự cung cấp ái kỷ (Narcissistic Supply).",
+    "words": 27
+   },
+   {
+    "id": "3.04#4",
+    "text": "Khi giải phẫu tâm lý của Dee Dee Blanchard, chúng ta nhìn thấy 3 tầng động cơ bệnh lý đan xen:",
+    "words": 21
+   },
+   {
+    "id": "3.04#5",
+    "text": "Tầng thứ nhất: Cơn nghiện ánh hào quang của Vị thánh tử đạo.",
+    "words": 13
+   },
+   {
+    "id": "3.04#6",
+    "text": "Trước khi sinh con, cuộc đời Dee Dee là một chuỗi dài những thất bại ê chề: bà từng có tiền sử trộm cắp vặt, bị gia đình ghẻ lạnh, và cuộc hôn nhân với người chồng Rod Blanchard tan vỡ nhanh chóng khi bà mới 24 tuổi.",
+    "words": 48
+   },
+   {
+    "id": "3.04#7",
+    "text": "Bà ta là một cá nhân mờ nhạt, thiếu vắng sự công nhận xã hội.",
+    "words": 15
+   },
+   {
+    "id": "3.04#8",
+    "text": "Nhưng khoảnh khắc bà khoác lên mình chiếc áo “người mẹ đơn thân kiên cường nuôi con tàn tật”, toàn bộ thế giới bỗng đảo chiều.",
+    "words": 26
+   },
+   {
+    "id": "3.04#9",
+    "text": "Đi đến đâu, Dee Dee cũng nhận được những ánh nhìn kính nể từ các bác sĩ, những giọt nước mắt cảm phục từ hàng xóm và những bài báo ca ngợi trên truyền thông.",
+    "words": 35
+   },
+   {
+    "id": "3.04#10",
+    "text": "Sự chú ý của đám đông đã khỏa lấp hoàn toàn cảm giác tự ti và trống rỗng bệnh lý bên trong con người bà ta.",
+    "words": 26
+   },
+   {
+    "id": "3.04#11",
+    "text": "Mỗi lời khen ngợi “Bà là người mẹ vĩ đại nhất” đóng vai trò như một liều Dopamine cực mạnh tiêm thẳng vào não bộ, khiến bà ta lún sâu vào cơn nghiện không thể đảo ngược.",
+    "words": 37
    }
   ]
  },
  {
   "id": "3.05",
   "act": 3,
-  "kind": "LOI",
-  "role": "C",
-  "direction": "Giọng phân tích chuyên môn, rõ ràng, rành mạch",
-  "text": "Khi giải phẫu tâm lý của một kẻ mắc hội chứng FDIA như Dee Dee Blanchard, chúng ta phải đi qua 3 tầng động cơ vô thức và ý thức. Tầng thứ nhất là: Cơn nghiện ánh hào quang của “Vị thánh tử đạo”. Trong tâm lý học, người phạm tội lừa đảo thông thường sẽ giả bệnh để lấy tiền bảo hiểm rồi trốn đi hưởng thụ – đó gọi là Malingering (Giả bệnh trục lợi). Nhưng người mắc hội chứng Münchausen thì khác: thứ họ đói khát không phải là tiền, mà là sự chú ý, sự thương cảm và sự tôn sùng về mặt cảm xúc. Trước khi có Gypsy, cuộc đời của Dee Dee là một chuỗi những thất bại: bị gia đình xa lánh vì thói tắt mắt, hôn nhân tan vỡ ở tuổi 24. Bà là một cái bóng mờ nhạt trong xã hội. Nhưng ngay khi đóng vai “người mẹ đơn thân kiên cường của một đứa trẻ sắp chết”, Dee Dee bỗng nhiên trở thành trung tâm của vũ trụ. Đi đến đâu bà cũng được các bác sĩ nể trọng, được hàng xóm rơi nước mắt cảm phục, được báo chí địa phương ca ngợi như một vị thánh sống. Mỗi lần Gypsy phải nhập viện cấp cứu là một lần não bộ của Dee Dee được tiêm một liều Dopamine cực mạnh từ sự quan tâm của đám đông.",
-  "sentences": [
-   {
-    "id": "3.05#1",
-    "text": "Khi giải phẫu tâm lý của một kẻ mắc hội chứng FDIA như Dee Dee Blanchard, chúng ta phải đi qua 3 tầng động cơ vô thức và ý thức.",
-    "words": 30
-   },
-   {
-    "id": "3.05#2",
-    "text": "Tầng thứ nhất là: Cơn nghiện ánh hào quang của “Vị thánh tử đạo”.",
-    "words": 14
-   },
-   {
-    "id": "3.05#3",
-    "text": "Trong tâm lý học, người phạm tội lừa đảo thông thường sẽ giả bệnh để lấy tiền bảo hiểm rồi trốn đi hưởng thụ – đó gọi là Malingering (Giả bệnh trục lợi).",
-    "words": 33
-   },
-   {
-    "id": "3.05#4",
-    "text": "Nhưng người mắc hội chứng Münchausen thì khác: thứ họ đói khát không phải là tiền, mà là sự chú ý, sự thương cảm và sự tôn sùng về mặt cảm xúc.",
-    "words": 32
-   },
-   {
-    "id": "3.05#5",
-    "text": "Trước khi có Gypsy, cuộc đời của Dee Dee là một chuỗi những thất bại: bị gia đình xa lánh vì thói tắt mắt, hôn nhân tan vỡ ở tuổi 24.",
-    "words": 31
-   },
-   {
-    "id": "3.05#6",
-    "text": "Bà là một cái bóng mờ nhạt trong xã hội.",
-    "words": 10
-   },
-   {
-    "id": "3.05#7",
-    "text": "Nhưng ngay khi đóng vai “người mẹ đơn thân kiên cường của một đứa trẻ sắp chết”, Dee Dee bỗng nhiên trở thành trung tâm của vũ trụ.",
-    "words": 28
-   },
-   {
-    "id": "3.05#8",
-    "text": "Đi đến đâu bà cũng được các bác sĩ nể trọng, được hàng xóm rơi nước mắt cảm phục, được báo chí địa phương ca ngợi như một vị thánh sống.",
-    "words": 31
-   },
-   {
-    "id": "3.05#9",
-    "text": "Mỗi lần Gypsy phải nhập viện cấp cứu là một lần não bộ của Dee Dee được tiêm một liều Dopamine cực mạnh từ sự quan tâm của đám đông.",
-    "words": 30
-   }
-  ]
- },
- {
-  "id": "3.06",
-  "act": 3,
   "kind": "NGHI",
   "sec": 1.5,
   "desc": ""
  },
  {
-  "id": "3.07",
+  "id": "3.06",
   "act": 3,
   "kind": "LOI",
   "role": "H",
   "direction": "",
-  "text": "Nhưng cơn nghiện sự chú ý mới chỉ là bề nổi. Khi kết hợp với lời khai từ chính gia đình bên ngoại của Dee Dee rằng bà từng bị nghi có những hành vi gây hại cho chính người thân trong gia đình, Chuyên gia tâm lý tiếp tục chỉ ra tầng tâm lý thứ hai và thứ ba – nơi sự tàn nhẫn đạt đến đỉnh điểm.",
+  "text": "Nhưng ánh hào quang xã hội mới chỉ là lớp vỏ ngoài. Điều gì đã diễn ra trong mối quan hệ giữa Dee Dee và những người thân xung quanh bà ta? Chúng ta hãy nghe Điều tra viên chia sẻ về hồ sơ gia đình của người phụ nữ này.",
+  "sentences": [
+   {
+    "id": "3.06#1",
+    "text": "Nhưng ánh hào quang xã hội mới chỉ là lớp vỏ ngoài.",
+    "words": 12
+   },
+   {
+    "id": "3.06#2",
+    "text": "Điều gì đã diễn ra trong mối quan hệ giữa Dee Dee và những người thân xung quanh bà ta?",
+    "words": 20
+   },
+   {
+    "id": "3.06#3",
+    "text": "Chúng ta hãy nghe Điều tra viên chia sẻ về hồ sơ gia đình của người phụ nữ này.",
+    "words": 19
+   }
+  ]
+ },
+ {
+  "id": "3.07",
+  "act": 3,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Giọng sắc gọn, cung cấp tư liệu",
+  "text": "Khi chúng tôi lật lại lời khai từ gia đình bên ngoại của Dee Dee tại bang Louisiana, những người thân trong gia đình đều bày tỏ sự sợ hãi đối với tính cách của bà ta. Họ tiết lộ rằng ngay từ thời trẻ, Dee Dee đã thể hiện thói quen thao túng tâm lý và kiểm soát cực đoan. Người nhà thậm chí nghi ngờ bà ta từng có những hành vi gây hại sức khỏe cho chính mẹ đẻ trước khi bà qua đời. Một người dì ruột của Dee Dee còn khai nhận rằng gia đình từng bắt quả tang bà ta cố tình bỏ thuốc độc vào thức ăn. Sau khi sinh Gypsy, Dee Dee hoàn toàn cắt đứt liên lạc với gia đình ruột thịt và cô lập đứa trẻ khỏi người cha là ông Rod Blanchard. Mỗi tháng, người cha vẫn đều đặn gửi tiền chu cấp nuôi con, nhưng Dee Dee liên tục nói dối rằng con gái bị tổn thương não nặng nề và không thể nghe điện thoại hay gặp mặt cha. Ông Rod Blanchard thậm chí từng bị cấm xuất hiện tại các buổi lễ trao nhà thiện nguyện của con gái. Gia đình bị biến thành một mối đe dọa cần phải loại bỏ, bởi họ là những người duy nhất có khả năng nhìn thấu bản chất của bà ta.",
   "sentences": [
    {
     "id": "3.07#1",
-    "text": "Nhưng cơn nghiện sự chú ý mới chỉ là bề nổi.",
-    "words": 11
+    "text": "Khi chúng tôi lật lại lời khai từ gia đình bên ngoại của Dee Dee tại bang Louisiana, những người thân trong gia đình đều bày tỏ sự sợ hãi đối với tính cách của bà ta.",
+    "words": 37
    },
    {
     "id": "3.07#2",
-    "text": "Khi kết hợp với lời khai từ chính gia đình bên ngoại của Dee Dee rằng bà từng bị nghi có những hành vi gây hại cho chính người thân trong gia đình, Chuyên gia tâm lý tiếp tục chỉ ra tầng tâm lý thứ hai và thứ ba – nơi sự tàn nhẫn đạt đến đỉnh điểm.",
-    "words": 58
+    "text": "Họ tiết lộ rằng ngay từ thời trẻ, Dee Dee đã thể hiện thói quen thao túng tâm lý và kiểm soát cực đoan.",
+    "words": 24
+   },
+   {
+    "id": "3.07#3",
+    "text": "Người nhà thậm chí nghi ngờ bà ta từng có những hành vi gây hại sức khỏe cho chính mẹ đẻ trước khi bà qua đời.",
+    "words": 26
+   },
+   {
+    "id": "3.07#4",
+    "text": "Một người dì ruột của Dee Dee còn khai nhận rằng gia đình từng bắt quả tang bà ta cố tình bỏ thuốc độc vào thức ăn.",
+    "words": 27
+   },
+   {
+    "id": "3.07#5",
+    "text": "Sau khi sinh Gypsy, Dee Dee hoàn toàn cắt đứt liên lạc với gia đình ruột thịt và cô lập đứa trẻ khỏi người cha là ông Rod Blanchard.",
+    "words": 29
+   },
+   {
+    "id": "3.07#6",
+    "text": "Mỗi tháng, người cha vẫn đều đặn gửi tiền chu cấp nuôi con, nhưng Dee Dee liên tục nói dối rằng con gái bị tổn thương não nặng nề và không thể nghe điện thoại hay gặp mặt cha.",
+    "words": 39
+   },
+   {
+    "id": "3.07#7",
+    "text": "Ông Rod Blanchard thậm chí từng bị cấm xuất hiện tại các buổi lễ trao nhà thiện nguyện của con gái.",
+    "words": 21
+   },
+   {
+    "id": "3.07#8",
+    "text": "Gia đình bị biến thành một mối đe dọa cần phải loại bỏ, bởi họ là những người duy nhất có khả năng nhìn thấu bản chất của bà ta.",
+    "words": 30
    }
   ]
  },
@@ -578,85 +802,63 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "Hạ giọng trầm, chậm rãi hơn",
-  "text": "Tầng thứ hai chính là: Nỗi sợ bị bỏ rơi bệnh lý và Nhu cầu kiểm soát tuyệt đối. Khi sinh ra Gypsy, Dee Dee nhìn thấy ở đứa trẻ này một vật sở hữu duy nhất không bao giờ được phép rời bỏ bà. Nhưng một đứa trẻ khỏe mạnh rồi sẽ lớn lên, sẽ đi học, sẽ có bạn bè, sẽ yêu đương và rời xa mẹ. Làm thế nào để giữ một con người ở bên cạnh mình mãi mãi? Câu trả lời tăm tối mà tâm trí lệch lạc của Dee Dee tìm ra chính là: Hãy khiến con bé tin rằng mình bệnh tật và phụ thuộc hoàn toàn vào mẹ. Khi Gypsy tin rằng mình không thể tự bước đi, không thể tự chăm sóc bản thân, Dee Dee trở thành người duy nhất nắm giữ cuộc sống của con gái.",
+  "direction": "Tiếp lời phân tích",
+  "text": "Chính từ sự cô lập này, chúng ta nhận diện được Tầng tâm lý thứ hai: Cơ chế chia ngăn nhận thức (Compartmentalization). Não bộ của Dee Dee đã khóa chặt hai thế giới riêng biệt không bao giờ giao thoa: Một ngăn là hình ảnh người mẹ chu đáo, thức trắng đêm xoa bóp cho con, hát ru và tự tay nấu từng bữa ăn lỏng. Ngăn còn lại là một kẻ thủ ác lạnh lùng, sẵn sàng trói tay con gái vào thành giường để ép cô bé uống thuốc độc hại. Dee Dee sử dụng tình mẫu tử như một “Lá chắn bình thường hóa” để tự ru ngủ lương tri rằng bà đang làm tất cả để bảo vệ con. Và Tầng tâm lý thứ ba chính là: Kỹ thuật trung hòa đạo đức và Sự thiếu hụt thấu cảm cảm xúc. Dee Dee mắc một khuyết tật nghiêm trọng về Thuyết tâm trí (Theory of Mind). Bà ta hoàn toàn vô cảm trước những nỗi đau đớn thể xác mà Gypsy phải gánh chịu sau mỗi mũi kim tiêm hay ca phẫu thuật. Bà ta tự thuyết phục mình bằng những lý lẽ lệch lạc: “Con bé quá yếu ớt, thế giới ngoài kia sẽ hủy hoại nó, chỉ có sự kiểm soát của mình mới giữ được sinh mạng cho nó”. Bà ta đổ lỗi cho hoàn cảnh, cho sự bất công của số phận và tự phong cho mình quyền năng quyết định sinh tử của con gái. Sự ngụy biện này vô hiệu hóa mọi cảm giác tội lỗi, cho phép Dee Dee ngủ ngon mỗi đêm ngay bên cạnh đứa con đang quằn quại trong bệnh tật nhân tạo.",
   "sentences": [
    {
     "id": "3.08#1",
-    "text": "Tầng thứ hai chính là: Nỗi sợ bị bỏ rơi bệnh lý và Nhu cầu kiểm soát tuyệt đối.",
-    "words": 19
+    "text": "Chính từ sự cô lập này, chúng ta nhận diện được Tầng tâm lý thứ hai: Cơ chế chia ngăn nhận thức (Compartmentalization).",
+    "words": 23
    },
    {
     "id": "3.08#2",
-    "text": "Khi sinh ra Gypsy, Dee Dee nhìn thấy ở đứa trẻ này một vật sở hữu duy nhất không bao giờ được phép rời bỏ bà.",
-    "words": 26
+    "text": "Não bộ của Dee Dee đã khóa chặt hai thế giới riêng biệt không bao giờ giao thoa:",
+    "words": 18
    },
    {
     "id": "3.08#3",
-    "text": "Nhưng một đứa trẻ khỏe mạnh rồi sẽ lớn lên, sẽ đi học, sẽ có bạn bè, sẽ yêu đương và rời xa mẹ.",
-    "words": 24
+    "text": "Một ngăn là hình ảnh người mẹ chu đáo, thức trắng đêm xoa bóp cho con, hát ru và tự tay nấu từng bữa ăn lỏng.",
+    "words": 26
    },
    {
     "id": "3.08#4",
-    "text": "Làm thế nào để giữ một con người ở bên cạnh mình mãi mãi?",
-    "words": 14
+    "text": "Ngăn còn lại là một kẻ thủ ác lạnh lùng, sẵn sàng trói tay con gái vào thành giường để ép cô bé uống thuốc độc hại.",
+    "words": 27
    },
    {
     "id": "3.08#5",
-    "text": "Câu trả lời tăm tối mà tâm trí lệch lạc của Dee Dee tìm ra chính là: Hãy khiến con bé tin rằng mình bệnh tật và phụ thuộc hoàn toàn vào mẹ.",
-    "words": 33
+    "text": "Dee Dee sử dụng tình mẫu tử như một “Lá chắn bình thường hóa” để tự ru ngủ lương tri rằng bà đang làm tất cả để bảo vệ con.",
+    "words": 30
    },
    {
     "id": "3.08#6",
-    "text": "Khi Gypsy tin rằng mình không thể tự bước đi, không thể tự chăm sóc bản thân, Dee Dee trở thành người duy nhất nắm giữ cuộc sống của con gái.",
-    "words": 31
-   }
-  ]
- },
- {
-  "id": "3.09",
-  "act": 3,
-  "kind": "NGHI",
-  "sec": 2.0,
-  "desc": ""
- },
- {
-  "id": "3.10",
-  "act": 3,
-  "kind": "LOI",
-  "role": "C",
-  "direction": "Hạ giọng trầm, chậm rãi hơn",
-  "text": "Và cuối cùng, Tầng thứ ba: Dấu ấn tâm lý (Signature) của sự xóa bỏ nhân dạng. Chúng tôi đặc biệt chú ý đến chi tiết bà Dee Dee thường xuyên cạo trọc đầu Gypsy và bắt cô mặc những bộ váy công chúa sặc sỡ của trẻ con ngay cả khi cô đã hơn 20 tuổi. Đó không chỉ là việc giả bệnh ung thư. Đó là hành vi Tước đoạt sự trưởng thành (Infantilization). Bà không cho phép cơ thể Gypsy phát triển thành một người phụ nữ. Trong kịch bản tưởng tượng của Dee Dee, Gypsy phải mãi mãi là một con búp bê sứ 7 tuổi, yếu ớt và hoàn toàn nằm gọn trong lòng bàn tay bà.",
-  "sentences": [
-   {
-    "id": "3.10#1",
-    "text": "Và cuối cùng, Tầng thứ ba: Dấu ấn tâm lý (Signature) của sự xóa bỏ nhân dạng.",
-    "words": 17
+    "text": "Và Tầng tâm lý thứ ba chính là: Kỹ thuật trung hòa đạo đức và Sự thiếu hụt thấu cảm cảm xúc.",
+    "words": 22
    },
    {
-    "id": "3.10#2",
-    "text": "Chúng tôi đặc biệt chú ý đến chi tiết bà Dee Dee thường xuyên cạo trọc đầu Gypsy và bắt cô mặc những bộ váy công chúa sặc sỡ của trẻ con ngay cả khi cô đã hơn 20 tuổi.",
-    "words": 40
+    "id": "3.08#7",
+    "text": "Dee Dee mắc một khuyết tật nghiêm trọng về Thuyết tâm trí (Theory of Mind).",
+    "words": 15
    },
    {
-    "id": "3.10#3",
-    "text": "Đó không chỉ là việc giả bệnh ung thư.",
-    "words": 9
+    "id": "3.08#8",
+    "text": "Bà ta hoàn toàn vô cảm trước những nỗi đau đớn thể xác mà Gypsy phải gánh chịu sau mỗi mũi kim tiêm hay ca phẫu thuật.",
+    "words": 27
    },
    {
-    "id": "3.10#4",
-    "text": "Đó là hành vi Tước đoạt sự trưởng thành (Infantilization).",
-    "words": 10
+    "id": "3.08#9",
+    "text": "Bà ta tự thuyết phục mình bằng những lý lẽ lệch lạc: “Con bé quá yếu ớt, thế giới ngoài kia sẽ hủy hoại nó, chỉ có sự kiểm soát của mình mới giữ được sinh mạng cho nó”.",
+    "words": 39
    },
    {
-    "id": "3.10#5",
-    "text": "Bà không cho phép cơ thể Gypsy phát triển thành một người phụ nữ.",
-    "words": 14
+    "id": "3.08#10",
+    "text": "Bà ta đổ lỗi cho hoàn cảnh, cho sự bất công của số phận và tự phong cho mình quyền năng quyết định sinh tử của con gái.",
+    "words": 28
    },
    {
-    "id": "3.10#6",
-    "text": "Trong kịch bản tưởng tượng của Dee Dee, Gypsy phải mãi mãi là một con búp bê sứ 7 tuổi, yếu ớt và hoàn toàn nằm gọn trong lòng bàn tay bà.",
-    "words": 32
+    "id": "3.08#11",
+    "text": "Sự ngụy biện này vô hiệu hóa mọi cảm giác tội lỗi, cho phép Dee Dee ngủ ngon mỗi đêm ngay bên cạnh đứa con đang quằn quại trong bệnh tật nhân tạo.",
+    "words": 33
    }
   ]
  },
@@ -664,25 +866,35 @@
   "id": "4.01",
   "act": 4,
   "kind": "BGM",
-  "desc": "Tiếng nhịp tim đập chậm, kết hợp tiếng dây đàn Violin kéo dài đầy khắc khoải."
+  "desc": "Tiếng nhịp tim đập chậm rãi, kết hợp cùng tiếng đàn Violin kéo dài đầy khắc khoải và u uất."
  },
  {
   "id": "4.02",
   "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "Giọng mang sắc thái trăn trở",
-  "text": "Khi vụ án được đưa ra ánh sáng, bên cạnh sự phẫn nộ dành cho người mẹ, có một luồng dư luận không nhỏ đã quay sang đặt câu hỏi đầy hoài nghi dành cho chính Gypsy Rose. Hãy lắng nghe một thắc mắc rất điển hình từ phía khán giả theo dõi vụ án.",
+  "direction": "Giọng trăn trở, suy tư",
+  "text": "Khi sự thật về vụ án chấn động được công bố, một làn sóng hoài nghi dữ dội từ dư luận đã lập tức bùng nổ. Rất nhiều người không thể chấp nhận hành vi của Gypsy Rose và đặt ra những câu hỏi đầy định kiến. Họ cho rằng một người trưởng thành hoàn toàn có đủ khả năng cầu cứu hoặc tìm đường trốn thoát khỏi sự kìm kẹp. Chúng ta hãy lắng nghe một thắc mắc rất phổ biến từ phía công chúng theo dõi vụ án.",
   "sentences": [
    {
     "id": "4.02#1",
-    "text": "Khi vụ án được đưa ra ánh sáng, bên cạnh sự phẫn nộ dành cho người mẹ, có một luồng dư luận không nhỏ đã quay sang đặt câu hỏi đầy hoài nghi dành cho chính Gypsy Rose.",
-    "words": 38
+    "text": "Khi sự thật về vụ án chấn động được công bố, một làn sóng hoài nghi dữ dội từ dư luận đã lập tức bùng nổ.",
+    "words": 26
    },
    {
     "id": "4.02#2",
-    "text": "Hãy lắng nghe một thắc mắc rất điển hình từ phía khán giả theo dõi vụ án.",
-    "words": 17
+    "text": "Rất nhiều người không thể chấp nhận hành vi của Gypsy Rose và đặt ra những câu hỏi đầy định kiến.",
+    "words": 21
+   },
+   {
+    "id": "4.02#3",
+    "text": "Họ cho rằng một người trưởng thành hoàn toàn có đủ khả năng cầu cứu hoặc tìm đường trốn thoát khỏi sự kìm kẹp.",
+    "words": 24
+   },
+   {
+    "id": "4.02#4",
+    "text": "Chúng ta hãy lắng nghe một thắc mắc rất phổ biến từ phía công chúng theo dõi vụ án.",
+    "words": 19
    }
   ]
  },
@@ -691,23 +903,28 @@
   "act": 4,
   "kind": "LOI",
   "role": "N",
-  "direction": "Giọng băn khoăn, hoài nghi",
-  "text": "Thực sự có một điểm tôi không tài nào hiểu nổi: Cô ấy biết rõ đôi chân mình không hề bị liệt. Mỗi tối khi ở trong phòng kín, cô ấy vẫn tự đứng dậy đi lại bình thường. Vậy tại sao trong suốt từng ấy năm, trước mặt hàng trăm bác sĩ, cảnh sát và đám đông, Gypsy không một lần đứng phắt dậy khỏi chiếc xe lăn để tố cáo mẹ mình?",
+  "direction": "Giọng băn khoăn, nghi vấn",
+  "text": "Thực sự có một điều khiến tôi vô cùng khó hiểu: Cô ấy biết rất rõ rằng đôi chân của mình hoàn toàn khỏe mạnh. Mỗi đêm khi cửa phòng đóng kín, cô ấy vẫn tự mình đứng dậy đi lại và lục tìm đồ ăn trong tủ lạnh. Cô ấy từng tham dự các hội nghị người hâm mộ khoa học viễn tưởng và có nhiều cơ hội tiếp xúc với người lạ. Tại sao suốt hàng chục năm trời, trước mặt hàng trăm bác sĩ, y tá, cảnh sát và các tình nguyện viên từ thiện, Gypsy chưa từng một lần đứng bật dậy khỏi chiếc xe lăn để kêu cứu và vạch trần người mẹ của mình?",
   "sentences": [
    {
     "id": "4.03#1",
-    "text": "Thực sự có một điểm tôi không tài nào hiểu nổi: Cô ấy biết rõ đôi chân mình không hề bị liệt.",
-    "words": 22
+    "text": "Thực sự có một điều khiến tôi vô cùng khó hiểu: Cô ấy biết rất rõ rằng đôi chân của mình hoàn toàn khỏe mạnh.",
+    "words": 25
    },
    {
     "id": "4.03#2",
-    "text": "Mỗi tối khi ở trong phòng kín, cô ấy vẫn tự đứng dậy đi lại bình thường.",
-    "words": 17
+    "text": "Mỗi đêm khi cửa phòng đóng kín, cô ấy vẫn tự mình đứng dậy đi lại và lục tìm đồ ăn trong tủ lạnh.",
+    "words": 24
    },
    {
     "id": "4.03#3",
-    "text": "Vậy tại sao trong suốt từng ấy năm, trước mặt hàng trăm bác sĩ, cảnh sát và đám đông, Gypsy không một lần đứng phắt dậy khỏi chiếc xe lăn để tố cáo mẹ mình?",
-    "words": 35
+    "text": "Cô ấy từng tham dự các hội nghị người hâm mộ khoa học viễn tưởng và có nhiều cơ hội tiếp xúc với người lạ.",
+    "words": 25
+   },
+   {
+    "id": "4.03#4",
+    "text": "Tại sao suốt hàng chục năm trời, trước mặt hàng trăm bác sĩ, y tá, cảnh sát và các tình nguyện viên từ thiện, Gypsy chưa từng một lần đứng bật dậy khỏi chiếc xe lăn để kêu cứu và vạch trần người mẹ của mình?",
+    "words": 46
    }
   ]
  },
@@ -724,17 +941,22 @@
   "kind": "LOI",
   "role": "H",
   "direction": "",
-  "text": "Để trả lời câu hỏi này, chúng ta không thể dùng tư duy của một người trưởng thành tự do để áp đặt lên một đứa trẻ lớn lên trong lồng kính. Hãy quay trở lại với Chuyên gia tâm lý để giải mã sự im lặng của Gypsy qua hai cơ chế cực kỳ sâu sắc: Sự bất lực tập nhiễm (Learned Helplessness) và Sự gắn kết chấn thương (Trauma Bonding).",
+  "text": "Đó là một câu hỏi tự nhiên của những người đứng ngoài nhìn vào bằng lăng kính của một cá nhân tự do. Thế nhưng, để giải mã sự bất động của Gypsy, chúng ta không thể dùng lý trí thông thường mà phải nhìn vào hai gông cùm tâm lý vô hình: Sự bất lực tập nhiễm và Sự gắn kết chấn thương. Xin mời Chuyên gia tâm lý phân tích cơ chế giam hãm nhận thức này.",
   "sentences": [
    {
     "id": "4.05#1",
-    "text": "Để trả lời câu hỏi này, chúng ta không thể dùng tư duy của một người trưởng thành tự do để áp đặt lên một đứa trẻ lớn lên trong lồng kính.",
-    "words": 32
+    "text": "Đó là một câu hỏi tự nhiên của những người đứng ngoài nhìn vào bằng lăng kính của một cá nhân tự do.",
+    "words": 23
    },
    {
     "id": "4.05#2",
-    "text": "Hãy quay trở lại với Chuyên gia tâm lý để giải mã sự im lặng của Gypsy qua hai cơ chế cực kỳ sâu sắc: Sự bất lực tập nhiễm (Learned Helplessness) và Sự gắn kết chấn thương (Trauma Bonding).",
-    "words": 40
+    "text": "Thế nhưng, để giải mã sự bất động của Gypsy, chúng ta không thể dùng lý trí thông thường mà phải nhìn vào hai gông cùm tâm lý vô hình: Sự bất lực tập nhiễm và Sự gắn kết chấn thương.",
+    "words": 41
+   },
+   {
+    "id": "4.05#3",
+    "text": "Xin mời Chuyên gia tâm lý phân tích cơ chế giam hãm nhận thức này.",
+    "words": 15
    }
   ]
  },
@@ -742,55 +964,60 @@
   "id": "4.06",
   "act": 4,
   "kind": "SFX",
-  "desc": "Tiếng xiềng xích hoặc tiếng kim loại va chạm nhẹ."
+  "desc": "Tiếng kim loại va chạm nghe như tiếng xích sắt nặng nề."
  },
  {
   "id": "4.07",
   "act": 4,
   "kind": "LOI",
   "role": "C",
-  "direction": "",
-  "text": "Khái niệm Sự bất lực tập nhiễm được nhà tâm lý học Martin Seligman phát hiện từ năm 1967. Khi một sinh vật bị đặt vào môi trường chịu đựng những áp lực tiêu cực lặp đi lặp lại mà mọi nỗ lực phản kháng đều vô ích, bộ não sẽ đi đến một kết luận cố định: “Mọi sự vùng vẫy đều vô nghĩa”. Kể từ giây phút đó, ngay cả khi cánh cửa lồng đã mở toang, con vật cũng sẽ nằm im chịu trận chứ không bao giờ bước ra nữa. Hãy nhìn vào thế giới quan của Gypsy từ lúc mới biết nhận thức: Mỗi khi ngồi trước mặt bác sĩ, bà Dee Dee luôn nắm chặt lấy tay Gypsy. Với người ngoài, đó là cử chỉ âu yếm của một người mẹ. Nhưng với Gypsy, đó là một mật lệnh đe dọa: Nếu cô bé nói sai dù chỉ một lời, hoặc tỏ ra mình khỏe mạnh, cái nắm tay ấy sẽ siết chặt lại như một lời cảnh cáo không thành tiếng. Và khi cánh cửa ngôi nhà màu hồng khép lại sau buổi khám bệnh, những hình phạt nghiêm khắc và sự kiểm soát ngột ngạt sẽ chờ đợi cô.",
+  "direction": "Giọng sâu lắng, giải thích cặn kẽ",
+  "text": "Năm 1967, nhà tâm lý học lỗi lạc Martin Seligman đã công bố học thuyết kinh điển về Sự bất lực tập nhiễm (Learned Helplessness). Trong các thí nghiệm nổi tiếng, khi một sinh vật bị nhốt trong phòng kín và phải chịu những cú sốc điện ngẫu nhiên mà không có cách nào né tránh, sau nhiều lần thử phản kháng thất bại, sinh vật đó sẽ hoàn toàn từ bỏ ý chí chiến đấu. Kể cả khi người ta mở toang cửa lồng và không còn dòng điện nào cản trở, con vật vẫn nằm im cam chịu và rên rỉ thay vì bước chân ra ngoài. Bộ não khi bị tổn thương tâm lý sâu sắc sẽ đi đến một kết luận cố định: “Mọi sự kháng cự đều là vô nghĩa”. Hãy nhìn vào tuổi thơ của Gypsy: Từ lúc mới bi bô tập nói, mỗi khi ngồi trước mặt bác sĩ, Dee Dee luôn nắm chặt lấy bàn tay con gái. Người ngoài nhìn vào tưởng đó là cái nắm tay chan chứa yêu thương. Nhưng với Gypsy, đó là một tín hiệu đe dọa chết người: Nếu cô bé nói sai một lời hoặc nhúc nhích đôi chân, bàn tay mẹ sẽ siết chặt đến bầm tím. Bà Dee Dee đã lập trình vào đầu con gái rằng cô mắc bệnh tâm thần và chỉ có mẹ mới biết điều gì là an toàn cho cô. Và đằng sau cánh cửa đóng kín của ngôi nhà màu hồng là những trận đòn roi, những ngày bị bỏ đói và lời đe dọa tước đoạt sinh mạng.",
   "sentences": [
    {
     "id": "4.07#1",
-    "text": "Khái niệm Sự bất lực tập nhiễm được nhà tâm lý học Martin Seligman phát hiện từ năm 1967.",
-    "words": 19
+    "text": "Năm 1967, nhà tâm lý học lỗi lạc Martin Seligman đã công bố học thuyết kinh điển về Sự bất lực tập nhiễm (Learned Helplessness).",
+    "words": 25
    },
    {
     "id": "4.07#2",
-    "text": "Khi một sinh vật bị đặt vào môi trường chịu đựng những áp lực tiêu cực lặp đi lặp lại mà mọi nỗ lực phản kháng đều vô ích, bộ não sẽ đi đến một kết luận cố định: “Mọi sự vùng vẫy đều vô nghĩa”.",
-    "words": 46
+    "text": "Trong các thí nghiệm nổi tiếng, khi một sinh vật bị nhốt trong phòng kín và phải chịu những cú sốc điện ngẫu nhiên mà không có cách nào né tránh, sau nhiều lần thử phản kháng thất bại, sinh vật đó sẽ hoàn toàn từ bỏ ý chí chiến đấu.",
+    "words": 51
    },
    {
     "id": "4.07#3",
-    "text": "Kể từ giây phút đó, ngay cả khi cánh cửa lồng đã mở toang, con vật cũng sẽ nằm im chịu trận chứ không bao giờ bước ra nữa.",
-    "words": 29
+    "text": "Kể cả khi người ta mở toang cửa lồng và không còn dòng điện nào cản trở, con vật vẫn nằm im cam chịu và rên rỉ thay vì bước chân ra ngoài.",
+    "words": 33
    },
    {
     "id": "4.07#4",
-    "text": "Hãy nhìn vào thế giới quan của Gypsy từ lúc mới biết nhận thức:",
-    "words": 14
+    "text": "Bộ não khi bị tổn thương tâm lý sâu sắc sẽ đi đến một kết luận cố định: “Mọi sự kháng cự đều là vô nghĩa”.",
+    "words": 26
    },
    {
     "id": "4.07#5",
-    "text": "Mỗi khi ngồi trước mặt bác sĩ, bà Dee Dee luôn nắm chặt lấy tay Gypsy.",
-    "words": 16
+    "text": "Hãy nhìn vào tuổi thơ của Gypsy: Từ lúc mới bi bô tập nói, mỗi khi ngồi trước mặt bác sĩ, Dee Dee luôn nắm chặt lấy bàn tay con gái.",
+    "words": 31
    },
    {
     "id": "4.07#6",
-    "text": "Với người ngoài, đó là cử chỉ âu yếm của một người mẹ.",
-    "words": 13
+    "text": "Người ngoài nhìn vào tưởng đó là cái nắm tay chan chứa yêu thương.",
+    "words": 14
    },
    {
     "id": "4.07#7",
-    "text": "Nhưng với Gypsy, đó là một mật lệnh đe dọa: Nếu cô bé nói sai dù chỉ một lời, hoặc tỏ ra mình khỏe mạnh, cái nắm tay ấy sẽ siết chặt lại như một lời cảnh cáo không thành tiếng.",
-    "words": 41
+    "text": "Nhưng với Gypsy, đó là một tín hiệu đe dọa chết người: Nếu cô bé nói sai một lời hoặc nhúc nhích đôi chân, bàn tay mẹ sẽ siết chặt đến bầm tím.",
+    "words": 33
    },
    {
     "id": "4.07#8",
-    "text": "Và khi cánh cửa ngôi nhà màu hồng khép lại sau buổi khám bệnh, những hình phạt nghiêm khắc và sự kiểm soát ngột ngạt sẽ chờ đợi cô.",
+    "text": "Bà Dee Dee đã lập trình vào đầu con gái rằng cô mắc bệnh tâm thần và chỉ có mẹ mới biết điều gì là an toàn cho cô.",
     "words": 29
+   },
+   {
+    "id": "4.07#9",
+    "text": "Và đằng sau cánh cửa đóng kín của ngôi nhà màu hồng là những trận đòn roi, những ngày bị bỏ đói và lời đe dọa tước đoạt sinh mạng.",
+    "words": 30
    }
   ]
  },
@@ -807,22 +1034,17 @@
   "kind": "LOI",
   "role": "H",
   "direction": "",
-  "text": "Thực tế, Gypsy không phải chưa từng cố gắng tự cứu mình. Trong biên bản thẩm vấn, Điều tra viên đã ghi nhận một biến cố vào năm 2011 – biến cố đã dập tắt hoàn toàn tia hy vọng cuối cùng của cô gái này. Mời các bạn lắng nghe lại hồ sơ sự việc từ phía Điều tra viên.",
+  "text": "Gypsy không phải chưa từng cố gắng bỏ trốn. Trong hồ sơ lưu trữ, Điều tra viên đã ghi lại một biến cố then chốt xảy ra vào năm 2011 – biến cố đã đánh gãy tia hy vọng cuối cùng của cô gái này.",
   "sentences": [
    {
     "id": "4.09#1",
-    "text": "Thực tế, Gypsy không phải chưa từng cố gắng tự cứu mình.",
-    "words": 12
+    "text": "Gypsy không phải chưa từng cố gắng bỏ trốn.",
+    "words": 9
    },
    {
     "id": "4.09#2",
-    "text": "Trong biên bản thẩm vấn, Điều tra viên đã ghi nhận một biến cố vào năm 2011 – biến cố đã dập tắt hoàn toàn tia hy vọng cuối cùng của cô gái này.",
-    "words": 34
-   },
-   {
-    "id": "4.09#3",
-    "text": "Mời các bạn lắng nghe lại hồ sơ sự việc từ phía Điều tra viên.",
-    "words": 15
+    "text": "Trong hồ sơ lưu trữ, Điều tra viên đã ghi lại một biến cố then chốt xảy ra vào năm 2011 – biến cố đã đánh gãy tia hy vọng cuối cùng của cô gái này.",
+    "words": 36
    }
   ]
  },
@@ -831,126 +1053,139 @@
   "act": 4,
   "kind": "LOI",
   "role": "D",
-  "direction": "Giọng trầm, thuật lại hồ sơ",
-  "text": "Theo lời khai của Gypsy và các nhân chứng liên quan, vào năm 2011, ở tuổi 19, cô đã từng lén trốn khỏi nhà vào ban đêm để tìm đến một người quen cầu cứu. Nhưng chỉ vài giờ sau, bà Dee Dee đã lần ra dấu vết. Trước mặt những người định giúp đỡ Gypsy, bà Dee Dee rút ra tập giấy tờ giả mạo chứng minh Gypsy là trẻ vị thành niên bị thiểu năng trí tuệ và mất năng lực hành vi dân sự. Mọi người tin lời người mẹ “thánh thiện” và trao trả Gypsy về lại ngôi nhà màu hồng. Đêm hôm đó, bà Dee Dee đã phá hỏng chiếc máy tính của con gái và cảnh cáo cô không bao giờ được bước ra khỏi cửa một lần nữa.",
+  "direction": "Giọng trầm, thuật lại tình tiết",
+  "text": "Năm 2011, khi Gypsy 19 tuổi, cô đã thu hết can đảm để thực hiện một cuộc trốn chạy trong đêm. Cô lén trườn ra khỏi nhà và tìm đến căn hộ của một người quen trong vùng để cầu xin sự giúp đỡ. Cô gái run rẩy van xin những người xung quanh hãy giấu cô đi và đừng để mẹ cô tìm thấy. Thế nhưng chỉ vài giờ sau, Dee Dee đã xuất hiện cùng một tập hồ sơ y tế giả mạo dày cộp. Trước mặt những người xung quanh, bà ta khóc lóc và khẳng định con gái mình bị thiểu năng trí tuệ bẩm sinh, đang trong cơn hoang tưởng và không có năng lực hành vi dân sự. Mọi người lập tức tin lời người mẹ thánh mẫu và trao trả Gypsy về lại ngôi nhà màu hồng. Sau đêm đó, Dee Dee dùng búa đập nát chiếc máy tính của con gái ngay trước mắt cô. Bà ta dùng xích sắt trói cô vào khung giường suốt hai tuần liên tiếp và cảnh cáo rằng cảnh sát sẽ không bao giờ tin lời một kẻ điên như cô.",
   "sentences": [
    {
     "id": "4.10#1",
-    "text": "Theo lời khai của Gypsy và các nhân chứng liên quan, vào năm 2011, ở tuổi 19, cô đã từng lén trốn khỏi nhà vào ban đêm để tìm đến một người quen cầu cứu.",
-    "words": 35
+    "text": "Năm 2011, khi Gypsy 19 tuổi, cô đã thu hết can đảm để thực hiện một cuộc trốn chạy trong đêm.",
+    "words": 21
    },
    {
     "id": "4.10#2",
-    "text": "Nhưng chỉ vài giờ sau, bà Dee Dee đã lần ra dấu vết.",
-    "words": 13
+    "text": "Cô lén trườn ra khỏi nhà và tìm đến căn hộ của một người quen trong vùng để cầu xin sự giúp đỡ.",
+    "words": 23
    },
    {
     "id": "4.10#3",
-    "text": "Trước mặt những người định giúp đỡ Gypsy, bà Dee Dee rút ra tập giấy tờ giả mạo chứng minh Gypsy là trẻ vị thành niên bị thiểu năng trí tuệ và mất năng lực hành vi dân sự.",
-    "words": 39
+    "text": "Cô gái run rẩy van xin những người xung quanh hãy giấu cô đi và đừng để mẹ cô tìm thấy.",
+    "words": 21
    },
    {
     "id": "4.10#4",
-    "text": "Mọi người tin lời người mẹ “thánh thiện” và trao trả Gypsy về lại ngôi nhà màu hồng.",
-    "words": 18
+    "text": "Thế nhưng chỉ vài giờ sau, Dee Dee đã xuất hiện cùng một tập hồ sơ y tế giả mạo dày cộp.",
+    "words": 22
    },
    {
     "id": "4.10#5",
-    "text": "Đêm hôm đó, bà Dee Dee đã phá hỏng chiếc máy tính của con gái và cảnh cáo cô không bao giờ được bước ra khỏi cửa một lần nữa.",
-    "words": 30
+    "text": "Trước mặt những người xung quanh, bà ta khóc lóc và khẳng định con gái mình bị thiểu năng trí tuệ bẩm sinh, đang trong cơn hoang tưởng và không có năng lực hành vi dân sự.",
+    "words": 37
+   },
+   {
+    "id": "4.10#6",
+    "text": "Mọi người lập tức tin lời người mẹ thánh mẫu và trao trả Gypsy về lại ngôi nhà màu hồng.",
+    "words": 20
+   },
+   {
+    "id": "4.10#7",
+    "text": "Sau đêm đó, Dee Dee dùng búa đập nát chiếc máy tính của con gái ngay trước mắt cô.",
+    "words": 19
+   },
+   {
+    "id": "4.10#8",
+    "text": "Bà ta dùng xích sắt trói cô vào khung giường suốt hai tuần liên tiếp và cảnh cáo rằng cảnh sát sẽ không bao giờ tin lời một kẻ điên như cô.",
+    "words": 32
    }
   ]
  },
  {
   "id": "4.11",
   "act": 4,
-  "kind": "NGHI",
-  "sec": 2.0,
-  "desc": "Giọng đọc của Host lắng xuống"
+  "kind": "LOI",
+  "role": "H",
+  "direction": "Giọng lắng xuống",
+  "text": "Cú sốc năm 2011 ấy đã đóng chặt chiếc đinh cuối cùng vào tâm trí Gypsy: Xã hội ngoài kia chỉ tin vào chiếc áo choàng thánh thiện của mẹ cô, còn tiếng nói của cô hoàn toàn vô hình. Và bên cạnh nỗi khiếp sợ, Chuyên gia tâm lý còn chỉ ra một sợi dây trói buộc thứ hai.",
+  "sentences": [
+   {
+    "id": "4.11#1",
+    "text": "Cú sốc năm 2011 ấy đã đóng chặt chiếc đinh cuối cùng vào tâm trí Gypsy: Xã hội ngoài kia chỉ tin vào chiếc áo choàng thánh thiện của mẹ cô, còn tiếng nói của cô hoàn toàn vô hình.",
+    "words": 40
+   },
+   {
+    "id": "4.11#2",
+    "text": "Và bên cạnh nỗi khiếp sợ, Chuyên gia tâm lý còn chỉ ra một sợi dây trói buộc thứ hai.",
+    "words": 20
+   }
+  ]
  },
  {
   "id": "4.12",
   "act": 4,
   "kind": "LOI",
-  "role": "H",
+  "role": "C",
   "direction": "",
-  "text": "Cú sốc năm 2011 ấy đã đóng chiếc đinh cuối cùng vào nhận thức của Gypsy: Xã hội ngoài kia sẽ không bao giờ tin lời một đứa trẻ bị coi là thiểu năng, họ chỉ tin người mẹ vĩ đại của cô. Và bên cạnh nỗi sợ hãi, Chuyên gia tâm lý còn chỉ ra một sợi dây vô hình khác trói buộc cô bé.",
+  "text": "Đó chính là Gắn kết chấn thương (Trauma Bonding). Dee Dee là kẻ đầu độc thể xác Gypsy, nhưng cũng chính bà là người duy nhất ôm ấp cô mỗi đêm, chải tóc và thủ thỉ rằng Gypsy là thiên thần duy nhất của cuộc đời bà. Sự xen kẽ tàn nhẫn giữa bạo lực khủng khiếp và sự vỗ về ngọt ngào đã làm tê liệt hoàn toàn hệ thống phòng vệ tâm lý của nạn nhân, khiến Gypsy vừa căm hận vừa phụ thuộc sâu sắc vào mẹ mình. Trong thế giới quan bị cô lập hoàn toàn, tình yêu và sự bạo hành đã hòa lẫn làm một, khiến nạn nhân không thể nào tự vạch ra ranh giới sinh tồn.",
   "sentences": [
    {
     "id": "4.12#1",
-    "text": "Cú sốc năm 2011 ấy đã đóng chiếc đinh cuối cùng vào nhận thức của Gypsy: Xã hội ngoài kia sẽ không bao giờ tin lời một đứa trẻ bị coi là thiểu năng, họ chỉ tin người mẹ vĩ đại của cô.",
-    "words": 43
+    "text": "Đó chính là Gắn kết chấn thương (Trauma Bonding).",
+    "words": 9
    },
    {
     "id": "4.12#2",
-    "text": "Và bên cạnh nỗi sợ hãi, Chuyên gia tâm lý còn chỉ ra một sợi dây vô hình khác trói buộc cô bé.",
-    "words": 23
+    "text": "Dee Dee là kẻ đầu độc thể xác Gypsy, nhưng cũng chính bà là người duy nhất ôm ấp cô mỗi đêm, chải tóc và thủ thỉ rằng Gypsy là thiên thần duy nhất của cuộc đời bà.",
+    "words": 38
+   },
+   {
+    "id": "4.12#3",
+    "text": "Sự xen kẽ tàn nhẫn giữa bạo lực khủng khiếp và sự vỗ về ngọt ngào đã làm tê liệt hoàn toàn hệ thống phòng vệ tâm lý của nạn nhân, khiến Gypsy vừa căm hận vừa phụ thuộc sâu sắc vào mẹ mình.",
+    "words": 44
+   },
+   {
+    "id": "4.12#4",
+    "text": "Trong thế giới quan bị cô lập hoàn toàn, tình yêu và sự bạo hành đã hòa lẫn làm một, khiến nạn nhân không thể nào tự vạch ra ranh giới sinh tồn.",
+    "words": 33
    }
   ]
  },
  {
   "id": "4.13",
   "act": 4,
-  "kind": "LOI",
-  "role": "C",
-  "direction": "",
-  "text": "Đó chính là Gắn kết chấn thương (Trauma Bonding). Dee Dee là người gây ra bệnh tật cho Gypsy, nhưng cũng chính Dee Dee là người duy nhất ôm ấp cô mỗi đêm, chải chuốt và gọi cô là “thiên thần nhỏ của mẹ”. Sự đan xen giữa kiểm soát hà khắc và sự nuông chiều ngột ngạt đã làm tê liệt khả năng phân định ranh giới của Gypsy.",
-  "sentences": [
-   {
-    "id": "4.13#1",
-    "text": "Đó chính là Gắn kết chấn thương (Trauma Bonding).",
-    "words": 9
-   },
-   {
-    "id": "4.13#2",
-    "text": "Dee Dee là người gây ra bệnh tật cho Gypsy, nhưng cũng chính Dee Dee là người duy nhất ôm ấp cô mỗi đêm, chải chuốt và gọi cô là “thiên thần nhỏ của mẹ”.",
-    "words": 35
-   },
-   {
-    "id": "4.13#3",
-    "text": "Sự đan xen giữa kiểm soát hà khắc và sự nuông chiều ngột ngạt đã làm tê liệt khả năng phân định ranh giới của Gypsy.",
-    "words": 26
-   }
-  ]
+  "kind": "SFX",
+  "desc": "Tiếng bàn phím máy tính gõ lách cách liên hồi trong đêm vắng."
  },
  {
   "id": "4.14",
   "act": 4,
-  "kind": "SFX",
-  "desc": "Tiếng bàn phím gõ lạch cạch trong đêm."
- },
- {
-  "id": "4.15",
-  "act": 4,
   "kind": "LOI",
   "role": "H",
   "direction": "",
-  "text": "Khi mọi lối thoát hợp pháp đều bị bịt kín trong tâm tưởng, bộ não bị dồn nén suốt 23 năm ấy đã chọn một lối thoát cực đoan nhất. Qua mạng Internet, Gypsy quen biết Nicholas Godejohn – một thanh niên có tiền sử rối loạn phổ tự kỷ và nhân cách bất ổn. Hai tâm hồn khép kín trượt vào hiệu ứng tâm lý Folie à Deux – Điên cuồng đôi. Gypsy tin rằng chỉ khi mẹ cô biến mất, cô mới được phép sống cuộc đời của một con người. Và đêm tháng 6 năm 2015, bi kịch đã nổ ra khi Gypsy mở cửa cho Godejohn bước vào ngôi nhà màu hồng...",
+  "text": "Khi mọi cánh cửa pháp lý và xã hội đều bị đóng sập trong tâm tưởng, bản năng sinh tồn bị dồn nén đến đường cùng đã tìm kiếm một lối thoát cực đoan nhất. Năm 2012, qua mạng Internet bí mật, Gypsy làm quen với Nicholas Godejohn – một thanh niên 24 tuổi có tiền sử rối loạn nhân cách và tự kỷ. Hai tâm hồn cô lập và bất ổn đã va vào nhau, trượt dài vào hiện tượng tâm lý nguy hiểm: Folie à Deux – Hội chứng Điên cuồng đôi. Ảo tưởng về một cuộc tình giải cứu đã thôi thúc cả hai đi đến một kế hoạch đoạt mạng tàn khốc. Và đêm 14 tháng 6 năm 2015, cánh cửa ngôi nhà màu hồng đã được mở ra trong bóng tối...",
   "sentences": [
    {
-    "id": "4.15#1",
-    "text": "Khi mọi lối thoát hợp pháp đều bị bịt kín trong tâm tưởng, bộ não bị dồn nén suốt 23 năm ấy đã chọn một lối thoát cực đoan nhất.",
+    "id": "4.14#1",
+    "text": "Khi mọi cánh cửa pháp lý và xã hội đều bị đóng sập trong tâm tưởng, bản năng sinh tồn bị dồn nén đến đường cùng đã tìm kiếm một lối thoát cực đoan nhất.",
+    "words": 35
+   },
+   {
+    "id": "4.14#2",
+    "text": "Năm 2012, qua mạng Internet bí mật, Gypsy làm quen với Nicholas Godejohn – một thanh niên 24 tuổi có tiền sử rối loạn nhân cách và tự kỷ.",
+    "words": 29
+   },
+   {
+    "id": "4.14#3",
+    "text": "Hai tâm hồn cô lập và bất ổn đã va vào nhau, trượt dài vào hiện tượng tâm lý nguy hiểm: Folie à Deux – Hội chứng Điên cuồng đôi.",
     "words": 30
    },
    {
-    "id": "4.15#2",
-    "text": "Qua mạng Internet, Gypsy quen biết Nicholas Godejohn – một thanh niên có tiền sử rối loạn phổ tự kỷ và nhân cách bất ổn.",
-    "words": 25
+    "id": "4.14#4",
+    "text": "Ảo tưởng về một cuộc tình giải cứu đã thôi thúc cả hai đi đến một kế hoạch đoạt mạng tàn khốc.",
+    "words": 22
    },
    {
-    "id": "4.15#3",
-    "text": "Hai tâm hồn khép kín trượt vào hiệu ứng tâm lý Folie à Deux – Điên cuồng đôi.",
-    "words": 18
-   },
-   {
-    "id": "4.15#4",
-    "text": "Gypsy tin rằng chỉ khi mẹ cô biến mất, cô mới được phép sống cuộc đời của một con người.",
+    "id": "4.14#5",
+    "text": "Và đêm 14 tháng 6 năm 2015, cánh cửa ngôi nhà màu hồng đã được mở ra trong bóng tối...",
     "words": 20
-   },
-   {
-    "id": "4.15#5",
-    "text": "Và đêm tháng 6 năm 2015, bi kịch đã nổ ra khi Gypsy mở cửa cho Godejohn bước vào ngôi nhà màu hồng...",
-    "words": 23
    }
   ]
  },
@@ -958,7 +1193,7 @@
   "id": "5.01",
   "act": 5,
   "kind": "BGM",
-  "desc": "Tiếng búa tòa án gõ “Cốp” vang vọng, sau đó chuyển sang tiếng nhạc Piano ấm áp, nhẹ nhàng hơn để xoa dịu cảm xúc người nghe."
+  "desc": "Tiếng búa tòa án gõ \"Cốp\" vang vọng đanh thép, sau đó chuyển sang tiếng đàn Piano ấm áp, nhẹ nhàng nâng đỡ cảm xúc."
  },
  {
   "id": "5.02",
@@ -966,22 +1201,32 @@
   "kind": "LOI",
   "role": "H",
   "direction": "Giọng đọc điềm đạm, tổng kết đầy sức nặng",
-  "text": "Trước tòa án bang Missouri, vụ án của Gypsy Rose Blanchard đã tạo ra một cuộc tranh luận pháp lý và đạo đức chưa từng có tiền lệ. Về mặt luật pháp, hành vi lên kế hoạch dẫn đến cái chết của mẹ ruột là một trọng tội không thể chối cãi. Nhưng dưới góc độ tâm thần học pháp y, chánh biện lý hạt Greene – ông Dan Patterson – đã thừa nhận rằng đây là một trong những vụ án đặc biệt nhất sự nghiệp của ông: Một vụ án mà kẻ chủ mưu đồng thời cũng là nạn nhân của một quá trình lạm dụng y khoa kéo dài hơn hai thập kỷ.",
+  "text": "Phiên tòa xét xử vụ án Gypsy Rose Blanchard tại bang Missouri đã trở thành một trong những vụ án gây chia rẽ và thách thức đạo lý sâu sắc nhất trong lịch sử tư pháp Hoa Kỳ. Về mặt pháp luật hình sự, hành vi tham gia lên kế hoạch đoạt mạng mẹ ruột là một tội ác không thể dung thứ. Thế nhưng, trước những chứng cứ y khoa kinh hoàng về 23 năm bị tra tấn và lạm dụng thân xác, chánh công tố viên hạt Greene – ông Dan Patterson – đã phải đối diện với một nghịch lý chưa từng có tiền lệ. Công tố viên thừa nhận rằng đây là vụ án đặc biệt nhất trong sự nghiệp của mình: một kẻ chủ mưu giết người nhưng đồng thời cũng là nạn nhân sống sót sau một chuỗi tội ác kéo dài suốt hai thập kỷ. Đây là trường hợp hy hữu mà cán cân công lý buộc phải cân đo giữa sự trừng phạt hình sự và sự đồng cảm sâu sắc đối với nạn nhân của sự lạm dụng tột cùng.",
   "sentences": [
    {
     "id": "5.02#1",
-    "text": "Trước tòa án bang Missouri, vụ án của Gypsy Rose Blanchard đã tạo ra một cuộc tranh luận pháp lý và đạo đức chưa từng có tiền lệ.",
-    "words": 28
+    "text": "Phiên tòa xét xử vụ án Gypsy Rose Blanchard tại bang Missouri đã trở thành một trong những vụ án gây chia rẽ và thách thức đạo lý sâu sắc nhất trong lịch sử tư pháp Hoa Kỳ.",
+    "words": 38
    },
    {
     "id": "5.02#2",
-    "text": "Về mặt luật pháp, hành vi lên kế hoạch dẫn đến cái chết của mẹ ruột là một trọng tội không thể chối cãi.",
-    "words": 24
+    "text": "Về mặt pháp luật hình sự, hành vi tham gia lên kế hoạch đoạt mạng mẹ ruột là một tội ác không thể dung thứ.",
+    "words": 25
    },
    {
     "id": "5.02#3",
-    "text": "Nhưng dưới góc độ tâm thần học pháp y, chánh biện lý hạt Greene – ông Dan Patterson – đã thừa nhận rằng đây là một trong những vụ án đặc biệt nhất sự nghiệp của ông: Một vụ án mà kẻ chủ mưu đồng thời cũng là nạn nhân của một quá trình lạm dụng y khoa kéo dài hơn hai thập kỷ.",
-    "words": 64
+    "text": "Thế nhưng, trước những chứng cứ y khoa kinh hoàng về 23 năm bị tra tấn và lạm dụng thân xác, chánh công tố viên hạt Greene – ông Dan Patterson – đã phải đối diện với một nghịch lý chưa từng có tiền lệ.",
+    "words": 45
+   },
+   {
+    "id": "5.02#4",
+    "text": "Công tố viên thừa nhận rằng đây là vụ án đặc biệt nhất trong sự nghiệp của mình: một kẻ chủ mưu giết người nhưng đồng thời cũng là nạn nhân sống sót sau một chuỗi tội ác kéo dài suốt hai thập kỷ.",
+    "words": 44
+   },
+   {
+    "id": "5.02#5",
+    "text": "Đây là trường hợp hy hữu mà cán cân công lý buộc phải cân đo giữa sự trừng phạt hình sự và sự đồng cảm sâu sắc đối với nạn nhân của sự lạm dụng tột cùng.",
+    "words": 37
    }
   ]
  },
@@ -998,44 +1243,102 @@
   "kind": "LOI",
   "role": "H",
   "direction": "Giọng đọc điềm đạm, tổng kết đầy sức nặng",
-  "text": "Năm 2016, Gypsy Rose nhận mức án 10 năm tù giam cho tội giết người cấp độ hai – mức án thấp nhất có thể nhờ các tình tiết giảm nhẹ đặc biệt về tâm lý. Điều chua xót nhất mà các nhà tâm lý học ghi nhận được là câu nói của Gypsy khi ở trong trại giam: “Ở trong nhà tù của pháp luật, lần đầu tiên trong đời tôi cảm thấy mình được tự do hơn cả khi sống trong ngôi nhà của mẹ.” Cuối tháng 12 năm 2023, sau khi chấp hành 85% bản án, cô đã chính thức được trả tự do.",
+  "text": "Năm 2016, thông qua thỏa thuận nhận tội, Gypsy Rose Blanchard bị tuyên phạt 10 năm tù giam về tội giết người cấp độ hai – mức án khoan hồng nhất có thể áp dụng cho một vụ án mạng. Trong khi đó, Nicholas Godejohn phải nhận bản án tù chung thân không ân xá cho hành vi trực tiếp gây án. Bản án 10 năm tù cho Gypsy được xem là giải pháp dung hòa giữa tính nghiêm minh của pháp luật và tính nhân văn của tư pháp học. Chúng ta hãy lắng nghe Điều tra viên chia sẻ về nghịch lý tâm lý đằng sau cánh cửa nhà tù của người con gái này.",
   "sentences": [
    {
     "id": "5.04#1",
-    "text": "Năm 2016, Gypsy Rose nhận mức án 10 năm tù giam cho tội giết người cấp độ hai – mức án thấp nhất có thể nhờ các tình tiết giảm nhẹ đặc biệt về tâm lý.",
-    "words": 36
+    "text": "Năm 2016, thông qua thỏa thuận nhận tội, Gypsy Rose Blanchard bị tuyên phạt 10 năm tù giam về tội giết người cấp độ hai – mức án khoan hồng nhất có thể áp dụng cho một vụ án mạng.",
+    "words": 40
    },
    {
     "id": "5.04#2",
-    "text": "Điều chua xót nhất mà các nhà tâm lý học ghi nhận được là câu nói của Gypsy khi ở trong trại giam: “Ở trong nhà tù của pháp luật, lần đầu tiên trong đời tôi cảm thấy mình được tự do hơn cả khi sống trong ngôi nhà của mẹ.”",
-    "words": 51
+    "text": "Trong khi đó, Nicholas Godejohn phải nhận bản án tù chung thân không ân xá cho hành vi trực tiếp gây án.",
+    "words": 22
    },
    {
     "id": "5.04#3",
-    "text": "Cuối tháng 12 năm 2023, sau khi chấp hành 85% bản án, cô đã chính thức được trả tự do.",
-    "words": 20
+    "text": "Bản án 10 năm tù cho Gypsy được xem là giải pháp dung hòa giữa tính nghiêm minh của pháp luật và tính nhân văn của tư pháp học.",
+    "words": 29
+   },
+   {
+    "id": "5.04#4",
+    "text": "Chúng ta hãy lắng nghe Điều tra viên chia sẻ về nghịch lý tâm lý đằng sau cánh cửa nhà tù của người con gái này.",
+    "words": 26
    }
   ]
  },
  {
   "id": "5.05",
   "act": 5,
-  "kind": "NGHI",
-  "sec": 2.0,
-  "desc": ""
+  "kind": "LOI",
+  "role": "D",
+  "direction": "Giọng trầm tĩnh, suy ngẫm",
+  "text": "Khi bước vào Trại cải tạo phụ nữ Chillicothe, Gypsy Rose đã đưa ra một lời thú nhận khiến tất cả các chuyên gia tâm lý học pháp y phải nghẹn ngào. Cô nói rằng: “Sống trong nhà tù của pháp luật, lần đầu tiên trong cuộc đời tôi cảm thấy mình thực sự được tự do hơn cả khi sống trong ngôi nhà của mẹ.” Tại nhà tù, thân xác cô bị giam giữ sau song sắt, nhưng linh hồn cô được giải thoát. Cô được phép nuôi lại mái tóc dài tự nhiên, được tự do ăn những món ăn yêu thích bằng miệng, được vứt bỏ chiếc xe lăn và đi lại trên chính đôi chân của mình mà không còn sợ hãi những mũi kim tiêm hành hạ. Các bác sĩ tại trại giam đã tiến hành lắp đặt một hàm răng giả hoàn chỉnh cho cô, giúp cô tìm lại nụ cười của một con người. Cô cũng hoàn thành chương trình giáo dục phổ thông và lần đầu tiên được học tập một cách bình thường. Vào ngày 28 tháng 12 năm 2023, sau khi chấp hành đủ 85% thời hạn bản án, Gypsy Rose Blanchard đã chính thức bước qua cổng trại giam để bắt đầu lại cuộc đời.",
+  "sentences": [
+   {
+    "id": "5.05#1",
+    "text": "Khi bước vào Trại cải tạo phụ nữ Chillicothe, Gypsy Rose đã đưa ra một lời thú nhận khiến tất cả các chuyên gia tâm lý học pháp y phải nghẹn ngào.",
+    "words": 32
+   },
+   {
+    "id": "5.05#2",
+    "text": "Cô nói rằng: “Sống trong nhà tù của pháp luật, lần đầu tiên trong cuộc đời tôi cảm thấy mình thực sự được tự do hơn cả khi sống trong ngôi nhà của mẹ.”",
+    "words": 34
+   },
+   {
+    "id": "5.05#3",
+    "text": "Tại nhà tù, thân xác cô bị giam giữ sau song sắt, nhưng linh hồn cô được giải thoát.",
+    "words": 19
+   },
+   {
+    "id": "5.05#4",
+    "text": "Cô được phép nuôi lại mái tóc dài tự nhiên, được tự do ăn những món ăn yêu thích bằng miệng, được vứt bỏ chiếc xe lăn và đi lại trên chính đôi chân của mình mà không còn sợ hãi những mũi kim tiêm hành hạ.",
+    "words": 47
+   },
+   {
+    "id": "5.05#5",
+    "text": "Các bác sĩ tại trại giam đã tiến hành lắp đặt một hàm răng giả hoàn chỉnh cho cô, giúp cô tìm lại nụ cười của một con người.",
+    "words": 29
+   },
+   {
+    "id": "5.05#6",
+    "text": "Cô cũng hoàn thành chương trình giáo dục phổ thông và lần đầu tiên được học tập một cách bình thường.",
+    "words": 21
+   },
+   {
+    "id": "5.05#7",
+    "text": "Vào ngày 28 tháng 12 năm 2023, sau khi chấp hành đủ 85% thời hạn bản án, Gypsy Rose Blanchard đã chính thức bước qua cổng trại giam để bắt đầu lại cuộc đời.",
+    "words": 34
+   }
+  ]
  },
  {
   "id": "5.06",
   "act": 5,
   "kind": "LOI",
   "role": "H",
-  "direction": "Giọng đọc điềm đạm, tổng kết đầy sức nặng",
-  "text": "Nhìn lại toàn bộ hồ sơ vụ án này, để những bi kịch tương tự không thể tiếp tục ẩn mình trong bóng tối, chúng ta sẽ cùng lắng nghe Chuyên gia tâm lý và Điều tra viên đúc kết 4 dấu hiệu cảnh báo đỏ (Red Flags) giúp cộng đồng nhận diện sớm Hội chứng Münchausen qua trung gian.",
+  "direction": "",
+  "text": "Dư chấn xã hội từ vụ án Blanchard đã gióng lên một hồi chuông cảnh tỉnh sâu sắc cho toàn bộ hệ thống bảo vệ trẻ em và ngành y tế công cộng trên toàn thế giới. Nó phơi bày lỗ hổng chết người của việc thiếu kết nối dữ liệu y khoa tập trung, cho phép những kẻ mắc hội chứng Münchausen qua trung gian dễ dàng qua mặt hàng loạt bệnh viện. Nhiều bang tại Mỹ sau đó đã siết chặt quy trình phối hợp liên ngành giữa bệnh viện, trường học và cơ quan an sinh xã hội để bảo vệ trẻ em khỏi nạn bạo hành y tế. Để bảo vệ những đứa trẻ vô tội và ngăn chặn những thảm kịch tương tự tái diễn, chúng ta sẽ cùng Chuyên gia tâm lý và Điều tra viên đúc kết Bộ 4 Tín hiệu Cảnh báo Đỏ sinh tồn (Survival Red Flags).",
   "sentences": [
    {
     "id": "5.06#1",
-    "text": "Nhìn lại toàn bộ hồ sơ vụ án này, để những bi kịch tương tự không thể tiếp tục ẩn mình trong bóng tối, chúng ta sẽ cùng lắng nghe Chuyên gia tâm lý và Điều tra viên đúc kết 4 dấu hiệu cảnh báo đỏ (Red Flags) giúp cộng đồng nhận diện sớm Hội chứng Münchausen qua trung gian.",
-    "words": 60
+    "text": "Dư chấn xã hội từ vụ án Blanchard đã gióng lên một hồi chuông cảnh tỉnh sâu sắc cho toàn bộ hệ thống bảo vệ trẻ em và ngành y tế công cộng trên toàn thế giới.",
+    "words": 37
+   },
+   {
+    "id": "5.06#2",
+    "text": "Nó phơi bày lỗ hổng chết người của việc thiếu kết nối dữ liệu y khoa tập trung, cho phép những kẻ mắc hội chứng Münchausen qua trung gian dễ dàng qua mặt hàng loạt bệnh viện.",
+    "words": 37
+   },
+   {
+    "id": "5.06#3",
+    "text": "Nhiều bang tại Mỹ sau đó đã siết chặt quy trình phối hợp liên ngành giữa bệnh viện, trường học và cơ quan an sinh xã hội để bảo vệ trẻ em khỏi nạn bạo hành y tế.",
+    "words": 38
+   },
+   {
+    "id": "5.06#4",
+    "text": "Để bảo vệ những đứa trẻ vô tội và ngăn chặn những thảm kịch tương tự tái diễn, chúng ta sẽ cùng Chuyên gia tâm lý và Điều tra viên đúc kết Bộ 4 Tín hiệu Cảnh báo Đỏ sinh tồn (Survival Red Flags).",
+    "words": 44
    }
   ]
  },
@@ -1044,18 +1347,38 @@
   "act": 5,
   "kind": "LOI",
   "role": "C",
-  "direction": "Nhấn mạnh từng ý dưới góc độ lâm sàng",
-  "text": "Dấu hiệu thứ nhất: Một đứa trẻ hoặc người phụ thuộc có bệnh sử dày đặc, kỳ lạ, kéo dài triền miên nhưng các kết quả xét nghiệm khách quan luôn mâu thuẫn với lời mô tả của người chăm sóc. Dấu hiệu thứ hai: Các triệu chứng bệnh chỉ xuất hiện khi có mặt người chăm sóc trực tiếp, và thuyên giảm rõ rệt ngay khi bệnh nhân được cách ly hoặc có camera giám sát.",
+  "direction": "Nhấn mạnh từng luận điểm dưới góc độ lâm sàng",
+  "text": "Dưới góc độ tâm lý và lâm sàng y khoa, cộng đồng cần đặc biệt lưu tâm đến 2 chỉ dấu cảnh báo đầu tiên: Cảnh báo đỏ thứ nhất: Bệnh sử phức tạp bất thường và mâu thuẫn xét nghiệm. Nạn nhân có một danh sách bệnh tật hiểm nghèo kéo dài triền miên, nhưng các kết quả kiểm tra cận lâm sàng khách quan luôn bình thường hoặc mâu thuẫn hoàn toàn với những lời kể nghiêm trọng của người chăm sóc. Cảnh báo đỏ thứ hai: Triệu chứng xuất hiện có điều kiện. Các biểu hiện bệnh lý lạ lùng chỉ khởi phát khi có mặt người chăm sóc, và lập tức thuyên giảm rõ rệt khi bệnh nhân được cách ly hoặc nằm trong khu vực có camera giám sát độc lập. Khi tách rời khỏi người chăm sóc, sức khỏe của người bệnh thường hồi phục một cách kỳ diệu mà không cần can thiệp y tế chuyên sâu.",
   "sentences": [
    {
     "id": "5.07#1",
-    "text": "Dấu hiệu thứ nhất: Một đứa trẻ hoặc người phụ thuộc có bệnh sử dày đặc, kỳ lạ, kéo dài triền miên nhưng các kết quả xét nghiệm khách quan luôn mâu thuẫn với lời mô tả của người chăm sóc.",
-    "words": 41
+    "text": "Dưới góc độ tâm lý và lâm sàng y khoa, cộng đồng cần đặc biệt lưu tâm đến 2 chỉ dấu cảnh báo đầu tiên:",
+    "words": 25
    },
    {
     "id": "5.07#2",
-    "text": "Dấu hiệu thứ hai: Các triệu chứng bệnh chỉ xuất hiện khi có mặt người chăm sóc trực tiếp, và thuyên giảm rõ rệt ngay khi bệnh nhân được cách ly hoặc có camera giám sát.",
-    "words": 36
+    "text": "Cảnh báo đỏ thứ nhất: Bệnh sử phức tạp bất thường và mâu thuẫn xét nghiệm.",
+    "words": 16
+   },
+   {
+    "id": "5.07#3",
+    "text": "Nạn nhân có một danh sách bệnh tật hiểm nghèo kéo dài triền miên, nhưng các kết quả kiểm tra cận lâm sàng khách quan luôn bình thường hoặc mâu thuẫn hoàn toàn với những lời kể nghiêm trọng của người chăm sóc.",
+    "words": 43
+   },
+   {
+    "id": "5.07#4",
+    "text": "Cảnh báo đỏ thứ hai: Triệu chứng xuất hiện có điều kiện.",
+    "words": 12
+   },
+   {
+    "id": "5.07#5",
+    "text": "Các biểu hiện bệnh lý lạ lùng chỉ khởi phát khi có mặt người chăm sóc, và lập tức thuyên giảm rõ rệt khi bệnh nhân được cách ly hoặc nằm trong khu vực có camera giám sát độc lập.",
+    "words": 40
+   },
+   {
+    "id": "5.07#6",
+    "text": "Khi tách rời khỏi người chăm sóc, sức khỏe của người bệnh thường hồi phục một cách kỳ diệu mà không cần can thiệp y tế chuyên sâu.",
+    "words": 28
    }
   ]
  },
@@ -1065,17 +1388,37 @@
   "kind": "LOI",
   "role": "D",
   "direction": "Tiếp lời dưới góc độ quan sát hành vi xã hội",
-  "text": "Dấu hiệu thứ ba: Người chăm sóc tỏ ra quá hào hứng với các thủ thuật y khoa xâm lấn, thích phô trương bệnh tật của con lên mạng xã hội để tìm kiếm sự tung hô, và lập tức đổi bác sĩ mỗi khi có ai đó đặt câu hỏi nghi vấn. Và dấu hiệu thứ tư: Nạn nhân bị cô lập khỏi trường học, bạn bè và người thân khác trong gia đình dưới lý do “bảo vệ sức khỏe”.",
+  "text": "Dưới góc độ điều tra hành vi xã hội, chúng tôi khuyến cáo 2 dấu hiệu tiếp theo: Cảnh báo đỏ thứ ba: Thói quen đổi bác sĩ và nghiện sự chú ý. Người chăm sóc có xu hướng “Doctor shopping” – liên tục thay đổi phòng khám ngay khi bị bác sĩ chất vấn, đồng thời luôn hào hứng đón nhận các thủ thuật y khoa xâm lấn và cuồng nhiệt phô trương bệnh tật của con lên mạng xã hội để tìm kiếm sự thương hại. Và cảnh báo đỏ thứ tư: Sự cô lập tuyệt đối khỏi cộng đồng. Nạn nhân bị cắt đứt hoàn toàn khỏi trường học, bạn bè đồng trang lứa và những người thân khác trong gia đình dưới chiêu bài “bảo vệ sức khỏe yếu ớt”. Họ luôn muốn mình là người duy nhất nắm quyền kiểm soát dòng thông tin và sự sống của nạn nhân.",
   "sentences": [
    {
     "id": "5.08#1",
-    "text": "Dấu hiệu thứ ba: Người chăm sóc tỏ ra quá hào hứng với các thủ thuật y khoa xâm lấn, thích phô trương bệnh tật của con lên mạng xã hội để tìm kiếm sự tung hô, và lập tức đổi bác sĩ mỗi khi có ai đó đặt câu hỏi nghi vấn.",
-    "words": 53
+    "text": "Dưới góc độ điều tra hành vi xã hội, chúng tôi khuyến cáo 2 dấu hiệu tiếp theo:",
+    "words": 18
    },
    {
     "id": "5.08#2",
-    "text": "Và dấu hiệu thứ tư: Nạn nhân bị cô lập khỏi trường học, bạn bè và người thân khác trong gia đình dưới lý do “bảo vệ sức khỏe”.",
-    "words": 29
+    "text": "Cảnh báo đỏ thứ ba: Thói quen đổi bác sĩ và nghiện sự chú ý.",
+    "words": 15
+   },
+   {
+    "id": "5.08#3",
+    "text": "Người chăm sóc có xu hướng “Doctor shopping” – liên tục thay đổi phòng khám ngay khi bị bác sĩ chất vấn, đồng thời luôn hào hứng đón nhận các thủ thuật y khoa xâm lấn và cuồng nhiệt phô trương bệnh tật của con lên mạng xã hội để tìm kiếm sự thương hại.",
+    "words": 55
+   },
+   {
+    "id": "5.08#4",
+    "text": "Và cảnh báo đỏ thứ tư: Sự cô lập tuyệt đối khỏi cộng đồng.",
+    "words": 14
+   },
+   {
+    "id": "5.08#5",
+    "text": "Nạn nhân bị cắt đứt hoàn toàn khỏi trường học, bạn bè đồng trang lứa và những người thân khác trong gia đình dưới chiêu bài “bảo vệ sức khỏe yếu ớt”.",
+    "words": 32
+   },
+   {
+    "id": "5.08#6",
+    "text": "Họ luôn muốn mình là người duy nhất nắm quyền kiểm soát dòng thông tin và sự sống của nạn nhân.",
+    "words": 21
    }
   ]
  },
@@ -1091,23 +1434,33 @@
   "act": 5,
   "kind": "LOI",
   "role": "H",
-  "direction": "Giọng đọc trầm ấm, truyền cảm, khép lại tập Podcast",
-  "text": "Hồ sơ về ngôi nhà màu hồng tại Missouri khép lại, nhưng dư âm của nó vẫn là một lời nhắc nhở gai góc về bản chất đa diện của tâm lý con người. Tình yêu thương chân chính luôn hướng tới việc giúp một đứa trẻ lớn lên khỏe mạnh, độc lập và tự bước đi trên đôi chân của mình. Khi tình thương bị biến tướng thành chiếc lồng giam cầm, khi sự chăm sóc trở thành công cụ để thỏa mãn cái tôi ích kỷ của người lớn... thì thứ khoác áo thiên thần ấy đôi khi lại mang sức tàn phá khủng khiếp không kém bất kỳ tội ác nào.",
+  "direction": "Giọng đọc trầm ấm, truyền cảm, lắng đọng",
+  "text": "Hồ sơ về ngôi nhà màu hồng tại thành phố Springfield khép lại, nhưng những câu hỏi về bản chất của lòng nhân ái và đạo đức con người vẫn còn vang vọng mãi. Tình yêu thương chân chính của cha mẹ là đôi cánh giúp một đứa trẻ lớn lên khỏe mạnh, vững vàng bước đi trên đôi chân của chính mình và tự do khám phá thế giới. Khi tình mẫu tử bị bóp méo thành một công cụ sở hữu ích kỷ, khi sự chăm sóc trở thành chiếc lồng giam tàn độc để nuôi dưỡng cái tôi bệnh hoạn của người lớn... thì thứ nhân danh tình yêu ấy đôi khi lại mang sức tàn phá khủng khiếp hơn bất kỳ lưỡi dao nào. Lòng tốt và sự trắc ẩn nếu thiếu đi sự tỉnh táo sẽ vô tình trở thành mảnh đất màu mỡ cho tội ác sinh sôi. Bài học đắt giá nhất mà hồ sơ này để lại chính là lời nhắc nhở chúng ta: Đừng bao giờ để chiếc áo choàng thánh thiện của bất kỳ ai ru ngủ trực giác tỉnh táo và lương tri cảnh giác của chính mình.",
   "sentences": [
    {
     "id": "5.10#1",
-    "text": "Hồ sơ về ngôi nhà màu hồng tại Missouri khép lại, nhưng dư âm của nó vẫn là một lời nhắc nhở gai góc về bản chất đa diện của tâm lý con người.",
+    "text": "Hồ sơ về ngôi nhà màu hồng tại thành phố Springfield khép lại, nhưng những câu hỏi về bản chất của lòng nhân ái và đạo đức con người vẫn còn vang vọng mãi.",
     "words": 34
    },
    {
     "id": "5.10#2",
-    "text": "Tình yêu thương chân chính luôn hướng tới việc giúp một đứa trẻ lớn lên khỏe mạnh, độc lập và tự bước đi trên đôi chân của mình.",
-    "words": 28
+    "text": "Tình yêu thương chân chính của cha mẹ là đôi cánh giúp một đứa trẻ lớn lên khỏe mạnh, vững vàng bước đi trên đôi chân của chính mình và tự do khám phá thế giới.",
+    "words": 36
    },
    {
     "id": "5.10#3",
-    "text": "Khi tình thương bị biến tướng thành chiếc lồng giam cầm, khi sự chăm sóc trở thành công cụ để thỏa mãn cái tôi ích kỷ của người lớn... thì thứ khoác áo thiên thần ấy đôi khi lại mang sức tàn phá khủng khiếp không kém bất kỳ tội ác nào.",
-    "words": 52
+    "text": "Khi tình mẫu tử bị bóp méo thành một công cụ sở hữu ích kỷ, khi sự chăm sóc trở thành chiếc lồng giam tàn độc để nuôi dưỡng cái tôi bệnh hoạn của người lớn... thì thứ nhân danh tình yêu ấy đôi khi lại mang sức tàn phá khủng khiếp hơn bất kỳ lưỡi dao nào.",
+    "words": 58
+   },
+   {
+    "id": "5.10#4",
+    "text": "Lòng tốt và sự trắc ẩn nếu thiếu đi sự tỉnh táo sẽ vô tình trở thành mảnh đất màu mỡ cho tội ác sinh sôi.",
+    "words": 26
+   },
+   {
+    "id": "5.10#5",
+    "text": "Bài học đắt giá nhất mà hồ sơ này để lại chính là lời nhắc nhở chúng ta: Đừng bao giờ để chiếc áo choàng thánh thiện của bất kỳ ai ru ngủ trực giác tỉnh táo và lương tri cảnh giác của chính mình.",
+    "words": 45
    }
   ]
  },
@@ -1123,18 +1476,23 @@
   "act": 5,
   "kind": "LOI",
   "role": "H",
-  "direction": "Giọng đọc trầm ấm, truyền cảm, khép lại tập Podcast",
-  "text": "Cảm ơn các khách mời đã tham gia phân tích hồ sơ, và cảm ơn bạn đã dành thời gian lắng nghe đến tận cùng câu chuyện ngày hôm nay. Hãy để lại góc nhìn của bạn ở phần bình luận, giữ cho mình một tâm trí tỉnh táo, và hẹn gặp lại bạn trong tập giải phẫu tâm lý tội phạm tiếp theo.",
+  "direction": "Giọng đọc trầm ấm, truyền cảm, lắng đọng",
+  "text": "Cảm ơn các khách mời đã tham gia phân tích hồ sơ, và cảm ơn bạn đã đồng hành lắng nghe đến những phút cuối cùng của câu chuyện hôm nay. Sự đồng cảm và suy ngẫm của bạn là động lực để chúng tôi tiếp tục soi rọi những góc khuất tăm tối nhất của tâm lý con người. Hãy chia sẻ suy ngẫm của bạn ở phần bình luận bên dưới, giữ cho mình một tâm trí sáng suốt, và hẹn gặp lại bạn trong hồ sơ giải phẫu tâm lý tội phạm tiếp theo.",
   "sentences": [
    {
     "id": "5.12#1",
-    "text": "Cảm ơn các khách mời đã tham gia phân tích hồ sơ, và cảm ơn bạn đã dành thời gian lắng nghe đến tận cùng câu chuyện ngày hôm nay.",
-    "words": 30
+    "text": "Cảm ơn các khách mời đã tham gia phân tích hồ sơ, và cảm ơn bạn đã đồng hành lắng nghe đến những phút cuối cùng của câu chuyện hôm nay.",
+    "words": 31
    },
    {
     "id": "5.12#2",
-    "text": "Hãy để lại góc nhìn của bạn ở phần bình luận, giữ cho mình một tâm trí tỉnh táo, và hẹn gặp lại bạn trong tập giải phẫu tâm lý tội phạm tiếp theo.",
-    "words": 34
+    "text": "Sự đồng cảm và suy ngẫm của bạn là động lực để chúng tôi tiếp tục soi rọi những góc khuất tăm tối nhất của tâm lý con người.",
+    "words": 29
+   },
+   {
+    "id": "5.12#3",
+    "text": "Hãy chia sẻ suy ngẫm của bạn ở phần bình luận bên dưới, giữ cho mình một tâm trí sáng suốt, và hẹn gặp lại bạn trong hồ sơ giải phẫu tâm lý tội phạm tiếp theo.",
+    "words": 37
    }
   ]
  },
@@ -1142,12 +1500,12 @@
   "id": "5.13",
   "act": 5,
   "kind": "SFX",
-  "desc": "Tiếng gấp tập hồ sơ giấy “Bụp”, theo sau là tiếng tắt máy ghi âm “Tách”."
+  "desc": "Tiếng gấp tập hồ sơ giấy \"Bụp\", theo sau là tiếng tắt máy ghi âm \"Tách\"."
  },
  {
   "id": "5.14",
   "act": 5,
   "kind": "BGM",
-  "desc": "Nhạc Piano ngân dài 5 giây rồi nhỏ dần đến khi tắt hẳn (Fade out)."
+  "desc": "Nhạc Piano ngân dài 5 giây rồi nhỏ dần đến khi tắt hẳn Fade out."
  }
 ]
