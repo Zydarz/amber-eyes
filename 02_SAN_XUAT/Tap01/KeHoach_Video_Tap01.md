@@ -8,193 +8,276 @@
 
 | Mục | Giá trị |
 |---|---|
-| Kịch bản | `01_KICH_BAN/Tap01/kichban_tap01_22102026_v2.md` (bản giảm bạo lực của `kichban_tap01_22102026.md`, 23 chỗ sửa — Phụ lục B) |
-| Lượt nói / câu / từ | 33 / **128** / 3.545 — Host 50% · Chuyên gia 24% · Điều tra viên 20% · Người dân 5% |
-| N1 / N2 | `1.07` Hàng xóm (Cừu) / `4.03` Khán giả (Mèo) |
-| Thời lượng đo | **1.133,5 s (18:53)** — intro 0–22,41 s |
-| Mốc hồi | Hồi 1 · 00:20 · Hồi 2 · 03:28 · Hồi 3 · 06:51 · Hồi 4 · 10:54 · Hồi 5 · 15:43 |
-| Bảng shot | 122 dòng = 104 shot có lời + 18 dòng không lời |
-| Nền dùng | 45 ảnh `assets/bg/` (5 nền người dùng tạo + 2 cảnh bóng người dùng tạo + 41 nền connector + `void` tự vẽ) |
+| Kịch bản | `01_KICH_BAN/Tap01/kichban_tap01_22102026_v2.md` — **viết lại 09/11/2026** (205 câu, 10 chỉ dấu tâm lý) |
+| Lượt nói / câu / từ | 33 / **205** / 5679 — Host 41% · Điều tra viên 28% · Chuyên gia tâm lý 25% · Người dân (Cừu) 3% · Khán giả (Mèo) 2% |
+| N1 / N2 | `1.07` Người dân (Cừu) / `4.03` Khán giả (Mèo) |
+| Thời lượng đo | **1753,36 s (29:13)** — intro 0–22,41 s (`.work/timeline_s.json`, mốc đo bằng ASR master) |
+| Mốc hồi | Hồi 2 · 06:08 · Hồi 3 · 11:53 · Hồi 4 · 16:46 · Hồi 5 · 22:30 |
+| Bảng shot | **203 dòng** = 198 shot có lời + 5 dòng không lời (4 thẻ chuyển hồi T10 + 1 thẻ kết) |
+| Nền dùng | **44 ảnh** `assets/bg/` (dùng chung cho cả 3 ngôn ngữ — H17) |
+| Ảnh tĩnh | **203 ảnh** 1920×1080 (`.work/video3/stills/`) — cổng QC trước khi dựng video (H9) |
+| Ngoại lệ H10 vế 1 | 7 shot > 15 s · 2 shot < 3 s — câu khiếu ngôn ngữ nói dài hơn 15 s, **không cắt được** vì chữ phải nguyên văn (H6/V3) |
 
 ## B2. Kết quả và việc còn lại
 
 | Hạng mục | Kết quả |
 |---|---|
-| TTS | 128/128, 5 giọng CER 0% |
-| Âm thanh | 0 đoạn câm tuyệt đối; −16,2 LUFS; true peak −4,3 dBFS; lời đầu 23,0 s; 14 hiệu ứng (3 tiếng "Tách" + 11 file SFX) |
-| Chữ | 128/128 câu phủ đúng; 0 số/trích sai; 0 từ bạo lực |
-| File | `xuat_ban/Tap01_master.mp4` 419 MB; hình 1133,47 s = tiếng 1133,46 s; giải mã 0 lỗi |
-| **Còn lại trước khi đăng** | ① Điền nguồn trong `nguon_tham_khao.md` · ② Kiểm tra điều khoản thương mại (57 dòng `provenance.json`), cho biết công cụ đã tạo 5 linh thú và 5 nền chủ đạo · ③ Người dùng nghe toàn tập |
-| **Làm đơn giản hơn thiết kế** (có thể bổ sung) | Chưa có tư thế P2; chưa vẽ đường nhịp Dopamine, lưới biểu tượng bác sĩ, vòng hào quang, song sắt ghép từ lọ thuốc, bong bóng bình luận; 5 vòng màu cuối intro là hình tạm |
+| Kịch bản | Viết lại 09/11/2026: 205 câu / 5 hồi · mã câu giữ nguyên cấu trúc, đồng bộ 1-1 cho VN·EN·JA |
+| Timeline | Đo thật từ master mp3 mới bằng ASR (faster-whisper `small`, căn chỉnh theo độ phủ ký tự + mốc từ thật): **VN 205/205 · EN 205/205 · JA 201/205** câu khớp ≥ 0,45 (cổng G1 ≥ 97% — đạt) |
+| Bảng shot | 203 dòng · phủ 205/205 câu · chữ trên hình = **nguyên văn câu kịch bản** (H6/V3, QC 0 lỗi) |
+| Ảnh tĩnh | 203 ảnh/ngôn ngữ · QC H9 (độ tương phản chữ — 57 shot bật `text_scrim`), H10 (thời lượng + nền lặp), H12 (thẻ kết), H13 (khớp 3 chiều) — xem `BaoCao_QC_Tap01_20261109.md` |
+| Video hoàn thiện | Đã dựng & xuất bản video cả 3 ngôn ngữ (12/11/2026): VN (1.753 s, 665 MB), EN (1.669 s, 632 MB), JA (1.959 s, 740 MB). 100% đạt chuẩn QC (H14, A7, A1, H17) — xem `BaoCao_DungVideo_Tap01_20261112.md` |
+| Phụ đề & Đóng gói | Đã sinh phụ đề SRT (VN 466, EN 475, JA 414 cues), thumbnail 3 thứ tiếng, mô tả đầy đủ mốc chương |
+| **Còn lại trước khi đăng** | ① Điền nguồn cho 9 mã câu trong `need` · ② Người dùng nghe duyệt toàn tập |
 
 ## B3. Ánh xạ riêng của Tập 01 (trong `parse_shots.py`)
 
 | Biến | Giá trị |
 |---|---|
-| `COMBO` (cảnh ghép sẵn) | 1-04 `crowd_house` · 1-07 `deedee_room` · 1-17 `interrogation_gypsy` · 1-19 `bedroom_door_gypsy` · 2-02, 3-20 `wheelchair_gypsy` · 2-13…2-15 `pinboard` · 3-02, 3-10 `fog_deedee` · 3-11, 3-12 `spotlight_deedee` · 4-04 `wheelchair_spot` · 4-06 `glass_box_gypsy` · 4-10 `cage` · 4-19 `night_street_gypsy` · 4-21 `house_return` · 4-22 `night_screen` · 4-24 `crowd_away` · 4-30 `godejohn_screen` · 4-31 `two_shadows` · 5-16 `house_free` · 5-17 `cage_open` |
-| `BG2` (đổi nền trong shot) | 4-10 `cage` → `cage_open` · 4-22 `night_screen` → `screen_off` |
-| `INSET` | 2-14 ảnh `storm` ghim trên bảng |
-| Prompt nền | `.work/bg_jobs.json`, `bg_jobs2.json`, `bg_jobs3.json` |
+| `COMBO` / `INSET` / `BG2` | **rỗng** — bảng shot mới ghi nền trực tiếp trong cột *Nền* (mã shot cũ không còn tồn tại) |
+| `route_pins` | `1-29` → ("SPRINGFIELD, MISSOURI", "WISCONSIN") (mẫu T7 tuyến đường) |
+| `text_scrim` | 57 shot cần lớp tối mềm (đo H9, hợp 3 ngôn ngữ) |
+| Nhân vật | `n_element`: `1.07` → N1 (Cừu) · `4.03` → N2 (Mèo) |
 
 ## 6. DANH SÁCH SHOT — TẬP 01 (bảng mẫu, viết theo A7)
 
 **Đọc bảng:** *Vai* = người đang nói (H Cú · D Sói · C Cáo · N1 Cừu · N2 Mèo). Bảng chỉ mô tả **nền + đồ hoạ**; badge và bán thân tự đặt theo A5.4.
-Cột *Nhân vật*: `🅑` = thêm bán thân ngoài câu đầu lượt · `→X` = Host đang mời X (hiện badge chờ) · `✦` = lần đầu xuất hiện (thẻ giới thiệu) · `⊘` = tắt bán thân.
-Cột cuối: trống = hoà tan · ✂ cắt · ◼ tối đen.
+Cột *Nhân vật*: `✦` = lần đầu xuất hiện (thẻ giới thiệu) · `→X` = đổi vai · `⊘` = tắt bán thân.
+Cột cuối: trống = hoà tan · `◼` tối đen.
 
 ### INTRO KÊNH · 0,00–22,41 s · `bgm_music_box.mp3`
 
 Đặt `assets/brand/intro_kenh.mov` (chỉ hình, shot I-01 → I-04, chi tiết ở A5.7) ở 0,00 s. Không câu thoại nào thuộc intro.
 
-### HỒI 1 — KHOẢNH KHẮC ĐỨT GÃY NIỀM TIN · nền chủ đạo `house_night`
+### HỒI 1 — KHOẢNH KHẮC ĐỨT GÃY NIỀM TIN & ĐIỂM MÙ XÃ HỘI · nền chủ đạo `house_night`
 
 | Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
 |---|---|---|---|---|---|---|---|---|
-| 1-00 | `1.01`–`1.02` (20,5 s → lời đầu ≈ 23,0 s, chồng lên phần đen cuối intro) | — | T1 | `house_police` hiện dần từ đen, `push` | *HỒI 01 · KHOẢNH KHẮC ĐỨT GÃY NIỀM TIN* | Đèn cảnh sát quét; drone dâng | ⊘ | |
-| 1-01 | `1.03#1`–`#2` | H | T5 ngày | `house_night` mờ | **14 · 06 · 2015** · *Springfield, Missouri* | Gõ từng ký tự | ✦ Cú | |
-| 1-02 | `1.03#3` | H | T11 | `phone_dark` | *TRANG MẠNG XÃ HỘI CHUNG CỦA HAI MẸ CON* → **MỘT DÒNG TRẠNG THÁI KHIẾN CẢ KHU PHỐ CHẾT LẶNG** | Bài đăng hiện dạng các dòng mờ, không đọc được chữ, ở "đầy hằn học" | | |
-| 1-03 | `1.04` (nghỉ 2 s) | — | — | giữ 1-02, ánh đỏ nhấp nháy | — | — | | |
-| 1-04 | `1.05#1` | H | T1 | `house_police` + `crowd` | **NGÔI NHÀ NHỎ SƠN MÀU HỒNG PHẤN** · *Springfield, Missouri* (không hiện số nhà — nhà riêng, có thể đang có người ở) | — | | |
-| 1-05 | `1.05#2` | H | T1 | `house_night`, `pull` | *LẮNG NGHE:* **MỘT NGƯỜI DÂN CÙNG KHU PHỐ** | — | →N1 | |
-| 1-06 | `1.07#1` | N1 | T4 lời kể | `house_night` ấm, mờ | “Biểu tượng của tình mẫu tử thiêng liêng” | — | ✦ Cừu | |
-| 1-07 | `1.07#2` | N1 | T8 | `wheelchair_room` + `deedee_wheelchair` | *NHỮNG GÌ CẢ KHU PHỐ TIN* · *Bại liệt từ thắt lưng trở xuống · Ung thư máu · Loạn dưỡng cơ · Động kinh nặng · Trí tuệ ngang trẻ lên bảy* | Mỗi mục tại cụm từ | | |
-| 1-08 | `1.07#3` | N1 | T4 lời kể | `house_night` ấm | “Ai trong thị trấn này cũng rơi nước mắt cảm phục” | — | 🅑 | |
-| 1-09 | `1.08#1` | H | T1 | `bedroom_door` | **NGƯỜI MẸ ĐÃ QUA ĐỜI** | — | | |
-| 1-10 | `1.08#2` | H | T1 | `empty_room`, `still` | **GYPSY ROSE ĐÃ BIẾN MẤT** | — | ⊘ | ✂ |
-| 1-11 | `1.08#3`–`#4` | H | T1 | `wheelchair_room` | **XE LĂN · BÌNH OXY · HÀNG CHỤC LỌ THUỐC** | `#3` sáng xe lăn, `#4` sáng kệ | | |
-| 1-12 | `1.08#5` | H | T3 | `wheelchair_room` tối + dấu `?` lớn | *CẢ NƯỚC MỸ HỎI* · **AI ĐÃ GÂY RA CÁI CHẾT CỦA NGƯỜI MẸ?** | — | | |
-| 1-13 | `1.08#6` | H | T1 | `interrogation`, `push` | *LẮNG NGHE:* **ĐIỀU TRA VIÊN THỤ LÝ HỒ SƠ** | — | →D | |
-| 1-14 | `1.09`–`1.10` (nghỉ 2 s) | — | — | giữ 1-13, nhiễu bộ đàm `cold` | — | — | ⊘ | |
-| 1-15 | `1.11#1` | D | T2 | `pinboard` | **LỆNH TRUY TÌM TOÀN QUỐC** | Dấu mộc ở "phát lệnh truy tìm" | ✦ Sói | |
-| 1-16 | `1.11#2` | D | T7 | `route_night` | **48 GIỜ SAU** · *Bang Wisconsin — cách hàng trăm dặm* | Đường tự vẽ, số đếm | | |
-| 1-17 | `1.11#3`–`#4` | D | T1 | `interrogation` + `gypsy_stand` | **CÔ TA TỰ BƯỚC ĐI** | Đèn treo sáng ở `#4` | | |
-| 1-18 | `1.11#5`–`#7` | D | T8 gạch bỏ | giấy hồ sơ trên `records` | *Ung thư máu · Loạn dưỡng cơ · Tổn thương não* | Mỗi câu gạch một mục | | ✂ |
-| 1-19 | `1.11#8` | D | T1 `hero` | `bedroom_door` + `gypsy_stand`, tối dần | **CÔ CON GÁI BÉ BỎNG CỦA BÀ** | Tiêu đề ở "không ai khác" | 🅑 P2 | |
-| 1-20 | `1.13#1` | H | T1 | `podcast_desk`, cassette quay | **HỒ SƠ PHÂN TÍCH TÂM LÝ HỌC TỘI PHẠM** | "Tách" ở đầu | 🅑 | |
-| 1-21 | `1.13#2` | H | T9 → T10 | `house_night` | **HỘI CHỨNG MÜNCHAUSEN QUA TRUNG GIAN** → *TẬP 01 · ĐỘC DƯỢC NHÂN DANH TÌNH MẸ* | Thuật ngữ ở "Hội chứng"; tên tập cuối câu | | |
-| 1-22 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 02* · **23 NĂM TRONG NHÀ TÙ Y KHOA** | — | ⊘ | ◼ |
+| 1-01 | `1.03#1`–`#2` (8,8 s) | H | T1 | `house_night`, `pull` | **Ngày 14 tháng 6 năm 2015.** → *Tại thị trấn yên bình Springfield thuộc bang Missouri, nước Mỹ.* | — | ✦ Cú |  |
+| 1-02 | `1.03#3` (6,7 s) | H | T1 | `night_street`, `still` | *Đó là một buổi tối mùa hè ngột ngạt khi màn đêm bắt đầu bao trùm lên những con phố ngoại ô tĩnh lặng.* | — | — |  |
+| 1-03 | `1.03#4` (11,2 s) | H | T1 | `phone_dark`, `push` | *Trên trang Facebook chung của hai mẹ con nổi tiếng nhất vùng – bà Dee Dee Blanchard và cô con gái tật nguyền Gypsy Rose – bỗng xuất hiện một dòng trạng thái ngắn ngủi đầy hằn học.* | — | — |  |
+| 1-04 | `1.03#5` (7,3 s) | H | T1 | `phone_dark`, `pan` | *Dòng tin nhắn thông báo rằng người mẹ đã qua đời trong căn nhà nhỏ, khiến cả khu phố rơi vào hoảng loạn tột cùng.* | — | — |  |
+| 1-05 | `1.05#1` (2,0 s) | H | T1 | `crowd_house`, `pull` | *Hàng xóm lập tức vây quanh ngôi nhà nhỏ sơn màu hồng phấn ở số 2103 đường Bắc Volunteer.* | — | — |  |
+| 1-06 | `1.05#2` (13,4 s) | H | T1 | `charity`, `still` | *Ngôi nhà ấy vốn được xây dựng và trao tặng bởi tổ chức từ thiện danh tiếng Habitat for Humanity.* | — | — |  |
+| 1-07 | `1.05#3` (8,7 s) | H | T1 | `charity`, `push` | *Nơi đây còn được tổ chức Make-A-Wish tài trợ các chuyến du lịch trọn gói và sự hỗ trợ tài chính liên tục từ các nhà hảo tâm khắp nơi.* | — | — |  |
+| 1-08 | `1.05#4` (9,2 s) | H | T1 | `crowd_house`, `pan` | *Hàng trăm tình nguyện viên và cư dân địa phương từng rơi nước mắt khi chung tay lắp đặt đoạn đường dốc dành riêng cho xe lăn trước hiên nhà.* | — | — |  |
+| 1-09 | `1.05#5` (6,4 s) | H | T1 | `house_night`, `pull` | *Suốt nhiều năm ròng rã, nơi đây từng được xem là biểu tượng cao đẹp nhất của tình mẫu tử thiêng liêng.* | — | — |  |
+| 1-10 | `1.05#6` (9,3 s) | H | T1 | `house_night`, `still` | *Để hiểu sự bàng hoàng và cú sốc tinh thần của cộng đồng lớn đến mức nào, chúng ta hãy lắng nghe chia sẻ từ một người dân sống cùng khu phố.* | — | →N1 |  |
+| 1-11 | `1.07#1` (6,8 s) | N1 | T1 | `house_night`, `push` | *Trong mắt tất cả chúng tôi ở thị trấn này, ngôi nhà màu hồng ấy là nơi chở che một phép màu của lòng nhân ái.* | — | ✦ Cừu |  |
+| 1-12 | `1.07#2` (9,3 s) | N1 | T1 | `house_night`, `pan` | *Bà Dee Dee là một người mẹ đơn thân vĩ đại, người đã từ bỏ mọi hạnh phúc riêng tư để chăm sóc cô con gái Gypsy Rose nhỏ bé bất hạnh.* | — | — |  |
+| 1-13 | `1.07#3` (13,2 s) | N1 | T1 | `wheelchair_room`, `pull` | *Cô bé mắc một danh sách bệnh tật dài đặc kín: bại liệt hoàn toàn từ thắt lưng trở xuống, ung thư máu giai đoạn nặng, loạn dưỡng cơ, động kinh triền miên và trí tuệ chỉ dừng lại ở mức đứa trẻ lên bảy.* | — | — |  |
+| 1-14 | `1.07#4` (7,1 s) | N1 | T1 | `wheelchair_gypsy`, `still` | *Hình ảnh người mẹ gầy gò nhẫn nại đẩy chiếc xe lăn qua từng góc phố đã in sâu vào ký ức của mọi gia đình nơi đây.* | — | — |  |
+| 1-15 | `1.07#5` (5,8 s) | N1 | T1 | `crowd_house`, `push` | *Bất kỳ ai nhìn thấy hai mẹ con cũng đều nghẹn ngào rơi nước mắt cảm phục trước nghị lực phi thường của họ.* | — | — |  |
+| 1-16 | `1.07#6` (5,8 s) | N1 | T1 | `house_night`, `pan` | *Chúng tôi đã hoàn toàn tin tưởng rằng bà ấy là một vị thánh sống giữa đời thực.* | — | →H |  |
+| 1-17 | `1.08#1` (8,8 s) | H | T1 | `house_police`, `pull` | *Thế nhưng, khi cảnh sát quyết định phá then cửa bước vào bên trong ngôi nhà lạnh ngắt đêm hôm đó, một bức tranh hoàn toàn trái ngược đã phơi bày.* | — | — |  |
+| 1-18 | `1.08#2` (5,7 s) | H | T1 | `bedroom_door`, `still` | *Người mẹ – bà Dee Dee Blanchard – được phát hiện đã bất động vĩnh viễn trên giường ngủ.* | — | ⊘ |  |
+| 1-19 | `1.08#3` (5,2 s) | H | T1 | `bedroom_door`, `push` | *Không gian bên trong căn phòng nồng nặc mùi ẩm mốc và sự u ám đến nghẹt thở.* | — | — |  |
+| 1-20 | `1.08#4` (4,8 s) | H | T1 | `empty_room`, `pan` | *Còn cô con gái tật nguyền Gypsy Rose thì hoàn toàn biến mất không một dấu vết.* | — | — |  |
+| 1-21 | `1.08#5` (6,0 s) | H | T1 | `wheelchair_room`, `pull` | *Chiếc xe lăn chuyên dụng mà cô bé dùng để di chuyển mỗi ngày vẫn nằm im lìm trong góc phòng khách.* | — | — |  |
+| 1-22 | `1.08#6` (8,6 s) | H | T1 | `clinical`, `still` | *Hàng chục bình oxy, máy hút đờm và hàng trăm lọ thuốc đặc trị duy trì sự sống vẫn còn nguyên vẹn trên kệ tủ.* | — | ⊘ |  |
+| 1-23 | `1.08#7` (4,1 s) | H | T1 | `spotlight`, `push` | *Một sự tĩnh lặng đến rợn người bao trùm lên toàn bộ hiện trường vụ án.* | — | — |  |
+| 1-24 | `1.08#8` (6,2 s) | H | T1 | `night_screen`, `pan` | *Cả nước Mỹ bàng hoàng rơi vào một cơn ác mộng tập thể khi hay tin dữ.* | — | — |  |
+| 1-25 | `1.08#9` (10,1 s) | H | T1 | `night_street`, `pull` | *Người dân lo sợ rằng một kẻ sát nhân tàn độc đã sát hại người mẹ thánh thiện, rồi bắt cóc một thiếu nữ không thể tự bước đi dù chỉ nửa bước.* | — | — |  |
+| 1-26 | `1.08#10` (7,7 s) | H | T1 | `pinboard`, `still` | *Một cuộc săn lùng quy mô liên bang được kích hoạt với giả định nạn nhân có thể tử vong bất cứ lúc nào nếu thiếu thuốc men điều trị.* | — | — |  |
+| 1-27 | `1.08#11` (7,4 s) | H | T1 | `interrogation`, `push` | *Chúng ta hãy lắng nghe Điều tra viên tái hiện lại thời khắc bước ngoặt lịch sử khi lực lượng chức năng tiếp cận được nghi phạm.* | — | →D |  |
+| 1-28 | `1.11#1` (7,9 s) | D | T1 | `pinboard`, `pan` | *Suốt 48 giờ đầu tiên, toàn bộ lực lượng điều tra làm việc không ngừng nghỉ với tâm thế chạy đua cứu mạng một đứa trẻ tật nguyền nguy kịch.* | — | ✦ Sói |  |
+| 1-29 | `1.11#2` (11,8 s) | D | T7 tuyến đường | `route_night`, `pull` | *Dấu vết kỹ thuật số từ địa chỉ IP đăng tải dòng trạng thái trên mạng xã hội đã dẫn chúng tôi tới một căn nhà tại thị trấn Big Bend, thuộc bang Wisconsin, cách hiện trường hơn 800 cây số.* | — | — |  |
+| 1-30 | `1.11#3` (6,8 s) | D | T1 | `interrogation_gypsy`, `still` | *Tại đây, lực lượng hành pháp đã bắt giữ một thanh niên tên là Nicholas Godejohn cùng một cô gái trẻ.* | — | — |  |
+| 1-31 | `1.11#4` (6,2 s) | D | T1 | `interrogation_gypsy`, `push` | *Nhưng khoảnh khắc cánh cửa phòng thẩm vấn mở ra, một sự thật chấn động đã đánh sập toàn bộ nhận thức của chúng tôi.* | — | — |  |
+| 1-32 | `1.11#5` (5,4 s) | D | T1 | `interrogation_gypsy`, `pan` | *Bước vào phòng thẩm vấn ngày hôm đó, Gypsy Rose Blanchard không hề ngồi trên xe lăn.* | — | — |  |
+| 1-33 | `1.11#6` (3,1 s) | D | T1 | `interrogation_gypsy`, `pull` | *Cô ta tự bước đi vững chãi bằng chính đôi chân của mình với một phong thái hoàn toàn bình thường.* | — | — |  |
+| 1-34 | `1.11#7` (8,7 s) | D | T1 | `spotlight`, `still` | *Đôi mắt cô sáng rõ và linh hoạt, hoàn toàn không có vẻ gì của một bệnh nhân đang cận kề cái chết.* | — | — |  |
+| 1-35 | `1.11#8`–`#9` (6,0 s) | D | T1 | `clinical`, `push` | *Không hề có dấu vết của bệnh ung thư máu.* → *Không hề có tổn thương tủy sống hay chứng loạn dưỡng cơ.* | — | — |  |
+| 1-36 | `1.11#10` (7,1 s) | D | T1 | `brain_desk`, `pan` | *Trí não của cô hoàn toàn minh mẫn, sắc sảo của một phụ nữ 23 tuổi chứ không phải tâm trí của một đứa trẻ lên bảy.* | — | — |  |
+| 1-37 | `1.11#11` (7,8 s) | D | T1 | `two_shadows`, `pull` | *Và người chủ mưu lên kế hoạch chấm dứt mạng sống của người mẹ thánh mẫu kia...* → *không ai khác chính là cô con gái mà cả nước Mỹ từng thương xót.* | — | →H |  |
+| 1-38 | `1.13#1` (4,9 s) | H | T1 | `podcast_desk`, `still` | *Chào mừng bạn đến với hồ sơ phân tích tâm lý học tội phạm của Amber eyes.* | — | — |  |
+| 1-39 | `1.13#2` (16,7 s) | H | T1 | `house_night`, `push` | *Hôm nay, chúng ta sẽ bước qua ngưỡng cửa của ngôi nhà màu hồng ở Springfield để giải mã một trong những bi kịch kỳ dị và tàn khốc nhất từng được ghi nhận trong lịch sử y khoa và tư pháp hiện đại: Hồ sơ Gypsy Rose Blanchard.* | — | — |  |
+| 1-40 | `1.13#3` (21,4 s) | H | T1 | `brain_desk`, `pan` | *Chúng ta sẽ cùng bóc tách hai cơ chế đen tối: Hội chứng Münchausen qua trung gian và Sự bất lực tập nhiễm – để trả lời câu hỏi nhức nhối:* → *Làm thế nào một chiếc lồng giam y tế có thể tồn tại suốt 23 năm giữa thanh thiên bạch nhật, dưới ánh hào quang của lòng từ thiện?* | — | — |  |
+| 1-41 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 02* · **HIỆN TRƯỜNG & QUỸ ĐẠO LEO THANG CỦA VỰC THẲM** | — | ⊘ | ◼ |
 
-### HỒI 2 — HIỆN TRƯỜNG & HỒ SƠ BỆNH ÁN · nền chủ đạo `wheelchair_room`
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 2-01 | `2.02#1`–`#2` | H | T1 | `bedroom_door` | **KHÔNG PHẢI CĂN PHÒNG NGỦ** · *Tháng 6 năm 2015* | Tiêu đề ở `#2` | | |
-| 2-02 | `2.02#3` | H | T5 | `wheelchair_room` + `gypsy_wheelchair` | *HIỆN TRƯỜNG THỰC SỰ* · **23 NĂM** | Số đếm | | |
-| 2-03 | `2.04#1`–`#5` | H | T6 | `records`, `pan` | *1991 · Sinh ra khỏe mạnh* → *3 tháng tuổi · Ngưng thở khi ngủ* → *Danh sách bệnh án bắt đầu* → *7 tuổi · Tổn thương tủy sống · Xe lăn* → *Cạo trọc đầu · Hoá trị ung thư máu* | Mỗi câu một mốc | ⊘ | |
-| 2-04 | `2.06#1` | H | T1 | `clinical` | **KHÔNG CHỈ LÀ LỜI NÓI DỐI** | — | 🅑 | |
-| 2-05 | `2.06#2` | H | T2 | `records` | **HÀNG NGÀN TRANG BỆNH ÁN** · *Can thiệp y khoa trực tiếp lên cơ thể Gypsy* | — | | |
-| 2-06 | `2.06#3` | H | T1 | `pinboard` mờ, `push` | *LẮNG NGHE:* **ĐIỀU TRA VIÊN CÔNG BỐ HỒ SƠ** | — | →D | |
-| 2-07 | `2.07#1` | D | T2 | `pinboard` | **BA DẤU VẾT TRONG HỒ SƠ Y TẾ** | Bộ đếm `0/3` | | |
-| 2-08 | `2.07#2` | D | T3 `1/3` | `wheelchair_room` cận kệ thuốc | **THUỐC CHỐNG ĐỘNG KINH LIỀU CAO** · *Dù cô không hề bị động kinh* | Phụ ở "dù cô không hề" | | |
-| 2-09 | `2.07#3` | D | T3 `2/3` | `clinical` | **ỐNG NUÔI ĂN QUA DẠ DÀY** | — | | |
-| 2-10 | `2.07#4` | D | T3 `3/3` | `clinical` tối | **PHẪU THUẬT KHÔNG CẦN THIẾT** · *Từ những triệu chứng giả trước mắt bác sĩ* | — | | |
-| 2-11 | `2.07#5` | D | T5 | `clinical` + lưới ~100 biểu tượng bác sĩ (Pillow) | **HÀNG TRĂM BÁC SĨ** · *Không ai phát hiện ra?* | Biểu tượng hiện dần | | |
-| 2-12 | `2.07#6` | D | T9 | `pinboard`, `pull` | **PHƯƠNG THỨC HÀNH ĐỘNG** *(Modus Operandi)* | 3 thẻ trống ghim lên | 🅑 | |
-| 2-13 | `2.07#7` | D | T2 trên bảng ghim | camera dời tới thẻ 1 | *01* · **TỪNG LÀM HỘ LÝ** · *Nắm rõ thuật ngữ y khoa* | — | | |
-| 2-14 | `2.07#8`–`#9` | D | T2 trên bảng ghim | thẻ 2 có ảnh `storm` thu nhỏ | *02 · 2005* · **BÃO KATRINA** → `#9`: *Mọi lịch sử y tế chỉ qua lời bà Dee Dee* | Dây đỏ nối ở `#9` | | |
-| 2-15 | `2.07#10` | D | T2 trên bảng ghim | thẻ 3 + ghi chú Consolas | *03* · **AI NGHI NGỜ → ĐỔI BỆNH VIỆN, CHUYỂN NHÀ** · *BS. Bernardo Flasterstein · 2007* (chỉ chữ, V5) | Kéo ra thấy cả bảng | | |
-| 2-16 | `2.09#1`–`#2` | H | T1 | `house_closed` | **CỬA SỔ LUÔN ĐÓNG KÍN** · *Không được đi học* | Tiếng khoá cửa ở đầu | | |
-| 2-17 | `2.09#3` | H | T5 | `house_closed` mờ | **−4 TUỔI** · *Khai gian để mãi là trẻ vị thành niên* | — | | |
-| 2-18 | `2.09#4` | H | T1 | `house_night` + bóng song sắt ghép từ lọ thuốc, ống truyền (Pillow) | **MỘT NHÀ TÙ KHÔNG CHẤN SONG** | Song sắt ở "được xây bằng" | | |
-| 2-19 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 03* · **BÊN TRONG BỘ NÃO CỦA KẺ MẮC FDIA** | — | ⊘ | ◼ |
-
-### HỒI 3 — GIẢI PHẪU TÂM LÝ · nền chủ đạo `brain_desk`
+### HỒI 2 — HIỆN TRƯỜNG & HỒ SƠ Y TẾ — QUỸ ĐẠO LEO THANG CỦA VỰC THẲM · nền chủ đạo `wheelchair_room`
 
 | Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
 |---|---|---|---|---|---|---|---|---|
-| 3-01 | `3.02#1` | H | T5 | `void`, `still` | *CÂU HỎI LỚN NHẤT* · **TẠI SAO?** | Đúng ở "Tại sao" | ⊘ | ✂ |
-| 3-02 | `3.02#2` | H | T1 | `fog` + `deedee_wheelchair` | **HƠN HAI THẬP KỶ** | — | | |
-| 3-03 | `3.02#3`–`#4` | H | T3 | `charity` | **TRỤC LỢI TỪ THIỆN?** → `#4`: **TIỀN CHỈ LÀ PHẦN THƯỞNG PHỤ** | Đồng xu mờ ở `#4` | | |
-| 3-04 | `3.02#5` | H | T9 | `brain_desk` | **HỘI CHỨNG MÜNCHAUSEN QUA TRUNG GIAN** *(Münchausen Syndrome by Proxy)* · *DSM-5-TR: Rối loạn giả bệnh áp đặt lên người khác — FDIA* | Dòng DSM ở "DSM-5-TR" | | |
-| 3-05 | `3.03` (nghỉ) | — | — | giữ 3-04 | — | — | | |
-| 3-06 | `3.04#1`–`#2` | H | T1 | `brain_desk`, `push` | *LẮNG NGHE:* **CHUYÊN GIA TÂM LÝ HỌC TỘI PHẠM** → *3 tầng tâm lý* | — | →C | |
-| 3-07 | `3.05#1` | C | T9 | `brain_desk` + sơ đồ `brain3` | **3 TẦNG ĐỘNG CƠ** · *Vô thức và ý thức* | 3 vòng sáng lần lượt | ✦ Cáo | |
-| 3-08 | `3.05#2` | C | T4 | `brain_desk` tối, tầng 1 sáng + `halo` | *TẦNG 01 · CƠN NGHIỆN HÀO QUANG* · “Vị thánh tử đạo” | — | | |
-| 3-09 | `3.05#3`–`#4` | C | T3 so sánh | `brain_desk` mờ | **MALINGERING** *(Giả bệnh trục lợi) → tiền* · `#4`: **MÜNCHAUSEN** *→ sự chú ý, thương cảm, tôn sùng* | Cột phải ở `#4` | | |
-| 3-10 | `3.05#5`–`#6` | C | T1 | `fog` + `deedee_wheelchair` mờ | *Gia đình xa lánh · Hôn nhân tan vỡ ở tuổi 24* → **MỘT CÁI BÓNG MỜ NHẠT** | Tiêu đề ở `#6` | | |
-| 3-11 | `3.05#7` | C | T1 | `spotlight` + `deedee_wheelchair` | **TRUNG TÂM CỦA VŨ TRỤ** | Đèn bật ở "bỗng nhiên" | | ✂ |
-| 3-12 | `3.05#8` | C | T1 | `spotlight` + biểu tượng bác sĩ, hàng xóm, tờ báo | **VỊ THÁNH SỐNG** | Mỗi biểu tượng ở cụm từ | | |
-| 3-13 | `3.05#9` | C | T5 | `void` + đường nhịp tăng vọt | **DOPAMINE** · *Mỗi lần Gypsy nhập viện cấp cứu* | Nhịp nhấp nháy | 🅑 P2 | |
-| 3-14 | `3.06` (nghỉ) | — | — | tối dần | — | — | | |
-| 3-15 | `3.07#1` | H | T1 | `brain_desk` | **MỚI CHỈ LÀ BỀ NỔI** | — | | |
-| 3-16 | `3.07#2` | H | T2 | `records` | *LỜI KHAI GIA ĐÌNH BÊN NGOẠI* · **BỊ NGHI GÂY HẠI CHO NGƯỜI THÂN** | — | →C | |
-| 3-17 | `3.08#1` | C | T9 | `brain_desk`, tầng 2 sáng | *TẦNG 02* · **NỖI SỢ BỊ BỎ RƠI · NHU CẦU KIỂM SOÁT** | — | | |
-| 3-18 | `3.08#2`–`#4` | C | T3 | `hands` | **MỘT VẬT SỞ HỮU DUY NHẤT** → `#3`: *Đi học → bạn bè → yêu đương → rời xa mẹ* → `#4`: **GIỮ MỘT CON NGƯỜI MÃI MÃI?** | 3 beat | | |
-| 3-19 | `3.08#5` | C | T1 `hero` | `void`, tối dần | **HÃY KHIẾN CON BÉ TIN RẰNG MÌNH BỆNH TẬT** | Tiêu đề ở "Hãy khiến" | ⊘ | |
-| 3-20 | `3.08#6` | C | T3 | `wheelchair_room` + `gypsy_wheelchair` | **NGƯỜI DUY NHẤT NẮM GIỮ CUỘC SỐNG CỦA CON GÁI** | — | | |
-| 3-21 | `3.09` (nghỉ) | — | — | giữ 3-20 | — | — | | |
-| 3-22 | `3.10#1` | C | T9 | `brain_desk`, tầng 3 sáng | *TẦNG 03* · **DẤU ẤN XOÁ BỎ NHÂN DẠNG** *(Signature)* | — | | |
-| 3-23 | `3.10#2` | C | T3 | `dress_hanger` | **CẠO TRỌC ĐẦU · VÁY CÔNG CHÚA** · *Ngay cả khi cô đã hơn 20 tuổi* | — | | |
-| 3-24 | `3.10#3`–`#4` | C | T9 | `dress_hanger` mờ | *Không chỉ là giả bệnh ung thư* → **TƯỚC ĐOẠT SỰ TRƯỞNG THÀNH** *(Infantilization)* | Thuật ngữ ở `#4` | 🅑 | |
-| 3-25 | `3.10#5`–`#6` | C | T1 | `doll` | **CON BÚP BÊ SỨ 7 TUỔI** | Tiêu đề ở "búp bê sứ" | | |
-| 3-26 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 04* · **TẠI SAO GYPSY KHÔNG ĐỨNG DẬY?** | — | ⊘ | ◼ |
+| 2-01 | `2.02#1` (8,5 s) | H | T1 | `brain_desk`, `pull` | *Để hiểu tại sao một cô gái trẻ lại đi đến quyết định đoạt mạng chính mẹ ruột của mình để tìm kiếm lối thoát, chúng ta phải bắt đầu từ hiện trường thực sự của vụ án.* | — | — |  |
+| 2-02 | `2.02#2` (10,5 s) | H | T1 | `bedroom_door`, `still` | *Hiện trường thực sự của thảm kịch này không phải là căn phòng ngủ tại Missouri vào đêm tháng 6 năm 2015.* | — | — |  |
+| 2-03 | `2.02#3` (7,8 s) | H | T1 | `wheelchair_room`, `push` | *Hiện trường thực sự chính là thân xác của Gypsy Rose, bị giam hãm và xâm lấn suốt 23 năm ròng rã.* | — | — |  |
+| 2-04 | `2.02#4` (6,5 s) | H | T1 | `clinical`, `pan` | *Một cô gái với dáng người nhỏ thó, đôi mắt trũng sâu và toàn bộ hàm răng bị nhổ bỏ hoàn toàn.* | — | — |  |
+| 2-05 | `2.02#5` (9,4 s) | H | T1 | `pinboard`, `pull` | *Một hành trình tha hóa bệnh lý không xuất hiện trong một sớm một chiều, mà được xây dựng qua 4 nấc thang leo thang hành vi y tế kéo dài hơn hai thập kỷ.* | — | — |  |
+| 2-06 | `2.02#6` (4,8 s) | H | T1 | `records`, `still` | *Xin mời Điều tra viên công bố chi tiết hồ sơ bệnh án thu giữ được.* | — | →D |  |
+| 2-07 | `2.04#1` (10,3 s) | D | T1 | `records`, `push` | *Lật lại hàng ngàn trang hồ sơ lưu trữ từ nhiều bệnh viện, chúng tôi đã phục dựng lại toàn bộ quỹ đạo lạm dụng y khoa mà bà Dee Dee áp đặt lên Gypsy Rose qua 4 giai đoạn leo thang rõ rệt:* | — | — |  |
+| 2-08 | `2.04#2` (4,4 s) | D | T1 | `pinboard`, `pan` | *Nấc thang thứ nhất: Gieo mầm triệu chứng giả.* | — | — |  |
+| 2-09 | `2.04#3` (5,2 s) | D | T1 | `house_dawn`, `pull` | *Gypsy Rose sinh năm 1991 hoàn toàn khỏe mạnh bình thường.* | — | — |  |
+| 2-10 | `2.04#4` (9,5 s) | D | T1 | `clinical`, `still` | *Nhưng khi đứa trẻ mới tròn 3 tháng tuổi, bà Dee Dee bắt đầu bế con đến các phòng cấp cứu và khẳng định đứa trẻ mắc chứng ngưng thở khi ngủ không rõ nguyên nhân.* | — | — |  |
+| 2-11 | `2.04#5` (12,6 s) | D | T1 | `wheelchair_room`, `push` | *Đến năm Gypsy lên 7 tuổi, sau một tai nạn trầy xước nhẹ ở đầu gối khi đi xe ba bánh,* → *bà Dee Dee tuyên bố con gái bị chấn thương tủy sống nghiêm trọng và ép cô bé phải ngồi xe lăn vĩnh viễn kể từ đó.* | — | — |  |
+| 2-12 | `2.04#6`–`#7` (10,2 s) | D | T1 | `pinboard`, `pan` | *Nấc thang thứ hai: Xâm lấn thể xác và lạm dụng dược chất.* → *Khi những lời khai man không còn đủ thỏa mãn, bà Dee Dee bắt đầu can thiệp trực tiếp vào sinh học của con gái.* | — | — |  |
+| 2-13 | `2.04#8` (7,4 s) | D | T1 | `clinical`, `pull` | *Bà bắt Gypsy uống thuốc chống động kinh liều cao Tegretol suốt nhiều năm dù các kết quả điện não đồ đều hoàn toàn bình thường.* | — | — |  |
+| 2-14 | `2.04#9` (11,7 s) | D | T1 | `clinical`, `still` | *Tác dụng phụ của thuốc kết hợp cùng sự thiếu hụt dinh dưỡng kéo dài đã khiến men răng của cô bé bị phá hủy hoàn toàn, dẫn đến việc toàn bộ hàm răng bị mục nát và bác sĩ buộc phải nhổ bỏ sạch sẽ.* | — | ⊘ |  |
+| 2-15 | `2.04#10` (9,1 s) | D | T1 | `clinical`, `push` | *Bà yêu cầu bác sĩ phẫu thuật đặt ống truyền thức ăn trực tiếp vào dạ dày của con, biến một người có khả năng ăn uống bình thường thành người phụ thuộc hoàn toàn vào dịch truyền.* | — | ⊘ |  |
+| 2-16 | `2.04#11` (9,4 s) | D | T1 | `clinical`, `pan` | *Thậm chí, bà còn thuyết phục bệnh viện nhi Children’s Mercy thực hiện ca mổ cắt bỏ tuyến nước bọt của Gypsy sau khi bí mật tiêm thuốc gây khô miệng.* | — | ⊘ |  |
+| 2-17 | `2.04#12` (4,5 s) | D | T1 | `pinboard`, `pull` | *Nấc thang thứ ba: Thao túng hệ thống và vô hiệu hóa cơ chế kiểm tra.* | — | — |  |
+| 2-18 | `2.04#13` (8,0 s) | D | T1 | `records`, `still` | *Dee Dee từng có thời gian làm hộ lý, nên bà ta sử dụng thành thạo các thuật ngữ chuyên môn để mô tả triệu chứng đánh lừa bác sĩ.* | — | — |  |
+| 2-19 | `2.04#14` (8,9 s) | D | T1 | `clinical`, `push` | *Trước mỗi lần khám bệnh, bà bí mật tiêm thuốc tê hoặc bôi hóa chất gây kích ứng để tạo triệu chứng giả trên cơ thể con gái.* | — | — |  |
+| 2-20 | `2.04#15` (11,3 s) | D | T1 | `storm`, `pan` | *Năm 2005, khi cơn bão Katrina quét qua bang Louisiana,* → *bà đã lợi dụng thảm họa để tuyên bố toàn bộ hồ sơ bệnh án gốc bị lũ cuốn trôi, từ đó xóa sạch dấu vết đối chiếu.* | — | — |  |
+| 2-21 | `2.04#16` (4,2 s) | D | T1 | `pinboard`, `pull` | *Nấc thang thứ tư: Xóa bỏ hoàn toàn nhân dạng và quyền tự chủ.* | — | — |  |
+| 2-22 | `2.04#17` (5,3 s) | D | T1 | `deedee_room`, `still` | *Dee Dee cạo trọc đầu con gái định kỳ, tuyên bố tóc rụng do hóa trị ung thư máu.* | — | — |  |
+| 2-23 | `2.04#18` (9,7 s) | D | T1 | `dress_hanger`, `push` | *Bà ép Gypsy mặc những bộ váy công chúa của trẻ nhỏ, đeo kính mắt dày cộp và cấm cô tiếp xúc với bất kỳ ai nếu không có sự giám sát trực tiếp của mẹ.* | — | →H |  |
+| 2-24 | `2.06#1` (8,6 s) | H | T1 | `brain_desk`, `pan` | *Dưới góc nhìn của khoa học hành vi, sự kiểm soát này phản ánh một Phương thức hành động và Dấu ấn tâm lý cực kỳ đặc thù.* | — | — |  |
+| 2-25 | `2.06#2` (6,6 s) | H | T1 | `pinboard`, `pull` | *Xin mời Chuyên gia tâm lý phân tích sự khác biệt giữa thủ đoạn và chữ ký tâm lý của hung thủ.* | — | →C |  |
+| 2-26 | `2.07#1` (5,3 s) | C | T9 thuật ngữ | `brain_desk`, `still` | **Thủ đoạn (Modus Operandi) và Chữ ký tâm lý (Signature)** · *Trong tâm lý học tội phạm, chúng ta luôn phân biệt rạch ròi giữa Thủ đoạn (Modus Operandi) và Chữ ký tâm lý (Signature):* | — | ✦ Cáo |  |
+| 2-27 | `2.07#2` (4,6 s) | C | T1 | `records`, `push` | *Thủ đoạn là những gì hung thủ làm để thực hiện hành vi và né tránh sự trừng phạt.* | — | — |  |
+| 2-28 | `2.07#3` (10,5 s) | C | T1 | `pinboard`, `pan` | *Ở Dee Dee, thủ đoạn của bà ta liên tục biến đổi: bà ta áp dụng kỹ thuật*“Doctor shopping” | — | — |  |
+| 2-29 | `2.07#4` (13,5 s) | C | T1 | `records`, `pull` | *Vào năm 2007, bác sĩ nhi khoa thần kinh Bernardo Flasterstein tại Missouri đã ghi rõ trong bệnh án rằng ông không phát hiện bất kỳ dấu hiệu bại liệt hay loạn dưỡng cơ nào, và nghi ngờ người mẹ mắc chứng giả bệnh.* | — | — |  |
+| 2-30 | `2.07#5` (5,2 s) | C | T1 | `interrogation`, `still` | *Vị bác sĩ đã thẳng thắn đối chất với Dee Dee về kết quả kiểm tra thể chất bình thường của cô bé.* | — | — |  |
+| 2-31 | `2.07#6` (8,8 s) | C | T1 | `house_return`, `push` | *Nhận thấy nguy cơ bị lật tẩy, Dee Dee lập tức cắt đứt liên lạc với vị bác sĩ này, giận dữ cáo buộc ông thiếu y đức và đưa con sang một hệ thống y tế khác.* | — | — |  |
+| 2-32 | `2.07#7` (5,4 s) | C | T1 | `brain_desk`, `pan` | *Ngược lại, Chữ ký tâm lý (Signature) là thứ bất biến,* → *sinh ra để thỏa mãn nhu cầu cảm xúc bệnh lý cốt lõi.* | — | — |  |
+| 2-33 | `2.07#8`–`#9` (12,8 s) | C | T1 | `doll`, `pull` | *Chữ ký của Dee Dee thể hiện rõ qua hành vi Tước đoạt tuổi trưởng thành (Infantilization).* → *Bà ta khai man ngày sinh, biến Gypsy từ một thiếu nữ 20 tuổi thành một đứa trẻ 16 tuổi trên giấy tờ.* | — | — |  |
+| 2-34 | `2.07#10` (5,2 s) | C | T1 | `doll`, `still` | *Bà ta bắt con gái đội tóc giả sặc sỡ, ôm thú bông và nói bằng giọng the thé của trẻ thơ.* | — | — |  |
+| 2-35 | `2.07#11` (9,6 s) | C | T1 | `spotlight_deedee`, `push` | *Dee Dee không chỉ muốn con mình bệnh tật; bà ta khao khát biến con gái thành một con búp bê vĩnh viễn không bao giờ lớn, hoàn toàn phụ thuộc vào sự tồn tại của bà.* | — | →H |  |
+| 2-36 | `2.08#1` (7,1 s) | H | T1 | `brain_desk`, `pan` | *Bên cạnh chữ ký tâm lý đó, cách Dee Dee nhìn nhận con gái mình cũng phơi bày bản chất tàn nhẫn của căn bệnh.* | — | — |  |
+| 2-37 | `2.08#2` (7,0 s) | H | T1 | `spotlight_deedee`, `pull` | *Dee Dee không hề xem Gypsy là một con người có tri giác, có cảm xúc và có quyền được sống khỏe mạnh.* | — | — |  |
+| 2-38 | `2.08#3` (10,9 s) | H | T1 | `glass_box`, `still` | *Trong tâm trí của bà ta, Gypsy đã bị giáng cấp thành một “đạo cụ sống” – một công cụ sinh học để sản xuất ra sự thương cảm và sự tôn sùng từ xã hội.* | — | — |  |
+| 2-39 | `2.08#4` (6,9 s) | H | T1 | `clinical`, `push` | *Mỗi mũi tiêm, mỗi ca phẫu thuật không cần thiết không hề gợi lên trong Dee Dee sự xót xa của một người mẹ.* | — | — |  |
+| 2-40 | `2.08#5` (5,2 s) | H | T1 | `cage`, `pan` | *Chúng chỉ là những chiếc đinh được đóng thêm vào chiếc lồng kính giam cầm số phận của một con người.* | — | — |  |
+| 2-41 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 03* · **GIẢI PHẪU TÂM LÝ — BÊN TRONG BỘ NÃO KẺ MẮC FDIA** | — | ⊘ | ◼ |
 
-### HỒI 4 — GÓC NHÌN NẠN NHÂN · nền chủ đạo `locked_door`
-
-| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
-|---|---|---|---|---|---|---|---|---|
-| 4-01 | `4.02#1` | H | T1 | `night_screen` + bong bóng bình luận mờ (Pillow, không tên) | **CÂU HỎI ĐẦY HOÀI NGHI** · *Dành cho chính Gypsy Rose* | — | | |
-| 4-02 | `4.02#2` | H | T1 | `night_screen`, `push` | *LẮNG NGHE:* **MỘT KHÁN GIẢ THEO DÕI VỤ ÁN** | — | →N2 | |
-| 4-03 | `4.03#1` | N2 | T4 lời kể | `night_screen` | “Cô ấy biết rõ đôi chân mình không hề bị liệt.” | — | ✦ Mèo | |
-| 4-04 | `4.03#2`–`#3` | N2 | T4 lời kể | `wheelchair_room` tối, xe lăn trống dưới đèn rọi | “Mỗi tối… cô ấy vẫn tự đứng dậy đi lại bình thường.” → “Vậy tại sao… Gypsy không một lần đứng phắt dậy khỏi chiếc xe lăn để tố cáo mẹ mình?” | Mỗi câu một dòng | 🅑 ở `#3` | |
-| 4-05 | `4.04` (nghỉ) | — | — | tối dần | — | — | | |
-| 4-06 | `4.05#1` | H | T1 | `glass_box` + `gypsy_wheelchair` nhỏ | **LỚN LÊN TRONG LỒNG KÍNH** | — | | |
-| 4-07 | `4.05#2` | H | T3 | `locked_door` · 2 thẻ thuật ngữ | **BẤT LỰC TẬP NHIỄM** *(Learned Helplessness)* · **GẮN KẾT CHẤN THƯƠNG** *(Trauma Bonding)* | Mỗi thẻ ở cụm từ | →C | |
-| 4-08 | `4.07#1` | C | T9 | `cage` đóng | **SỰ BẤT LỰC TẬP NHIỄM** · *Martin Seligman · 1967* | Tiếng xích ở đầu | | |
-| 4-09 | `4.07#2` | C | T4 `hero` | `cage` đóng, tối dần | “Mọi sự vùng vẫy đều vô nghĩa” | Câu trích ở cụm từ | | |
-| 4-10 | `4.07#3` | C | T1 | `cage` đóng → mở (hoà tan 2 nền cùng seed) | **CỬA LỒNG ĐÃ MỞ TOANG** · *…nhưng không bao giờ bước ra nữa* | Cửa mở ở "cánh cửa lồng" | | |
-| 4-11 | `4.07#4` | C | T1 | `locked_door` | **THẾ GIỚI QUAN CỦA GYPSY** | — | 🅑 P2 | |
-| 4-12 | `4.07#5`–`#6` | C | T3 | `hands` | **BÀ LUÔN NẮM CHẶT TAY GYPSY** · `#6`: *Với người ngoài: cử chỉ âu yếm* | — | | |
-| 4-13 | `4.07#7` | C | T3 | `hands`, ánh `cold` | *Với Gypsy: một mật lệnh đe dọa* · **MỘT LỜI CẢNH CÁO KHÔNG THÀNH TIẾNG** | Hai bàn tay khép chặt hơn ở "siết chặt" | | |
-| 4-14 | `4.07#8` | C | T2 | `locked_door` | *SAU BUỔI KHÁM BỆNH* · **HÌNH PHẠT NGHIÊM KHẮC · KIỂM SOÁT NGỘT NGẠT** | Khe sáng tắt ở "khép lại" | | |
-| 4-15 | `4.08` (nghỉ) | — | — | tối dần | — | — | | |
-| 4-16 | `4.09#1` | H | T1 | `locked_door`, khe sáng dưới cửa | **GYPSY TỪNG CỐ GẮNG TỰ CỨU MÌNH** | — | | ✂ |
-| 4-17 | `4.09#2` | H | T2 | `records` | *BIÊN BẢN THẨM VẤN* · **BIẾN CỐ NĂM 2011** | — | | |
-| 4-18 | `4.09#3` | H | T1 | `pinboard` mờ | *LẮNG NGHE:* **HỒ SƠ SỰ VIỆC TỪ ĐIỀU TRA VIÊN** | — | →D | |
-| 4-19 | `4.10#1` | D | T6 | `night_street` + `gypsy_stand` | *2011 · 19 tuổi* · **TRỐN KHỎI NHÀ ĐỂ CẦU CỨU** | — | | |
-| 4-20 | `4.10#2`–`#3` | D | T2 | `pinboard`, tập giấy tờ, dấu `GIẢ MẠO` | **VÀI GIỜ SAU, BÀ LẦN RA DẤU VẾT** → `#3`: *Giấy tờ giả mạo: vị thành niên · thiểu năng trí tuệ · mất năng lực hành vi dân sự* | Dấu mộc ở "giả mạo" | | |
-| 4-21 | `4.10#4` | D | T1 | `house_night` + `gypsy_walk` đi về nhà | **TRAO TRẢ VỀ NGÔI NHÀ MÀU HỒNG** | — | | |
-| 4-22 | `4.10#5` | D | T1 | `screen_off` | **ĐÊM HÔM ĐÓ** · *Không bao giờ được bước ra khỏi cửa* | Màn hình tắt dần ở "phá hỏng" | 🅑 P2 | |
-| 4-23 | `4.11` (nghỉ) | — | — | tối dần | — | — | | |
-| 4-24 | `4.12#1` | H | T1 | `night_street` + `crowd` quay lưng | **XÃ HỘI CHỈ TIN NGƯỜI MẸ** · *Cú sốc năm 2011* | — | | |
-| 4-25 | `4.12#2` | H | T1 | `locked_door` + một sợi chỉ mảnh (Pillow) | *LẮNG NGHE:* **SỢI DÂY VÔ HÌNH** | — | →C | |
-| 4-26 | `4.13#1` | C | T9 | `hands` mờ | **GẮN KẾT CHẤN THƯƠNG** *(Trauma Bonding)* | — | | |
-| 4-27 | `4.13#2` | C | T4 | `dress_hanger` tối | *Người gây ra bệnh tật — cũng là người duy nhất ôm ấp cô* → “thiên thần nhỏ của mẹ” | Câu trích ở cụm từ | | |
-| 4-28 | `4.13#3` | C | T3 | `void` + đường ranh giới tan dần (Pillow) | **TÊ LIỆT KHẢ NĂNG PHÂN ĐỊNH RANH GIỚI** | Đường tan trong câu | | |
-| 4-29 | `4.15#1` | H | T1 | `corridor` | **MỌI LỐI THOÁT HỢP PHÁP BỊ BỊT KÍN** | Tiếng bàn phím ở đầu | | |
-| 4-30 | `4.15#2` | H | T1 | `night_screen` + `godejohn_screen` | **NICHOLAS GODEJOHN** · *Quen qua mạng Internet* | — | | |
-| 4-31 | `4.15#3` | H | T9 | `void` + 2 bóng người, bóng đổ hoà làm một | **FOLIE À DEUX** *(Điên cuồng đôi)* | Bóng nhập ở "trượt vào" | | |
-| 4-32 | `4.15#4`–`#5` | H | T1 `hero` | `house_night`, cửa mở, ánh sáng tràn | *Chỉ khi mẹ cô biến mất…* → **THÁNG 6 · 2015** | Cửa sáng ở "mở cửa" | ⊘ | |
-| 4-33 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 05* · **PHÁN QUYẾT PHÁP Y & LỜI KẾT** | — | ⊘ | ◼ |
-
-### HỒI 5 — PHÁN QUYẾT, DẤU HIỆU NHẬN DIỆN & LỜI KẾT · nền chủ đạo `court_dawn`
+### HỒI 3 — GIẢI PHẪU TÂM LÝ — BÊN TRONG BỘ NÃO CỦA KẺ MẮC FDIA · nền chủ đạo `brain_desk`
 
 | Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
 |---|---|---|---|---|---|---|---|---|
-| 5-01 | `5.02#1` | H | T1 | `court_dawn` | **TÒA ÁN BANG MISSOURI** | Búa gõ ở đầu câu | | |
-| 5-02 | `5.02#2` | H | T2 | `court_dawn` mờ | *VỀ MẶT LUẬT PHÁP* · **MỘT TRỌNG TỘI KHÔNG THỂ CHỐI CÃI** | — | | |
-| 5-03 | `5.02#3` | H | T2 | `court_dawn` mờ + bảng tên trên bàn (Pillow) | *Dan Patterson · Chánh biện lý hạt Greene* (chỉ chữ, V5) · **KẺ CHỦ MƯU — ĐỒNG THỜI LÀ NẠN NHÂN** | Tiêu đề ở "kẻ chủ mưu" | | |
-| 5-04 | `5.03` (nghỉ) | — | — | giữ 5-03 | — | — | | |
-| 5-05 | `5.04#1` | H | T5 | `court_dawn` | *2016 · Giết người cấp độ hai* · **10 NĂM** · *Mức án thấp nhất có thể* | Số đếm 0 → 10 | | |
-| 5-06 | `5.04#2` | H | T4 `hero` | `prison_window` | *LỜI GYPSY TRONG TRẠI GIAM* → “Ở trong nhà tù của pháp luật, lần đầu tiên trong đời tôi cảm thấy mình được tự do hơn cả khi sống trong ngôi nhà của mẹ.” | Câu trích từng dòng từ dấu `:` | ⊘ | |
-| 5-07 | `5.04#3` | H | T5 | `prison_window`, nắng sáng dần | *12 · 2023* · **85%** · *Chính thức được trả tự do* | Thanh tiến trình | | |
-| 5-08 | `5.05` (nghỉ) | — | — | sáng dần | — | — | | |
-| 5-09 | `5.06#1` | H | T1 | `court_dawn`, `pull` | **4 DẤU HIỆU CẢNH BÁO ĐỎ** *(Red Flags)* · *Chuyên gia tâm lý & Điều tra viên* | — | →C+D | |
-| 5-10 | `5.07#1` | C | T8 cờ | `void` đỏ sẫm, 4 ô cờ | *01* · **BỆNH SỬ DÀY ĐẶC — XÉT NGHIỆM LUÔN MÂU THUẪN** | Cờ 1 tô đầy | hai badge | |
-| 5-11 | `5.07#2` | C | T8 cờ | cờ 2 | *02* · **TRIỆU CHỨNG CHỈ CÓ KHI NGƯỜI CHĂM SÓC CÓ MẶT** | — | hai badge | |
-| 5-12 | `5.08#1` | D | T8 cờ | cờ 3 | *03* · **HÀO HỨNG VỚI THỦ THUẬT · PHÔ TRƯƠNG BỆNH · ĐỔI BÁC SĨ** | 3 cụm theo cụm từ | hai badge · Sói sáng | |
-| 5-13 | `5.08#2` | D | T8 cờ | cờ 4 | *04* · **CÔ LẬP KHỎI TRƯỜNG HỌC, BẠN BÈ, NGƯỜI THÂN** + dấu mộc “bảo vệ sức khỏe” | Dấu mộc ở cụm từ | hai badge | |
-| 5-14 | `5.09` (nghỉ 2,5 s) | — | T8 | đủ 4 cờ, `still` | 4 dòng tóm tắt | — | ⊘ | |
-| 5-15 | `5.10#1` | H | T1 | `podcast_desk`, đèn ấm dần | **HỒ SƠ KHÉP LẠI** | — | | |
-| 5-16 | `5.10#2` | H | T1 `hero` | `house_dawn` + `gypsy_walk`, xe lăn bỏ lại | **TỰ BƯỚC ĐI TRÊN ĐÔI CHÂN CỦA MÌNH** | Trời sáng dần | ⊘ | |
-| 5-17 | `5.10#3` | H | T1 | `cage` mở, nắng | **THỨ KHOÁC ÁO THIÊN THẦN** | Tiêu đề ở "khoác áo thiên thần" | | |
-| 5-18 | `5.11` (nghỉ) | — | — | giữ 5-17 | — | — | | |
-| 5-19 | `5.12#1` | H | T1 | `podcast_desk` | **CẢM ƠN CÁC KHÁCH MỜI** · *Nhân vật minh hoạ · giọng đọc AI* | Dàn khách mời: 5 ảnh P0 sáng lần lượt | dàn khách mời | |
-| 5-20 | `5.12#2` | H | T10 | `podcast_desk` mờ | **HẸN GẶP LẠI Ở TẬP TIẾP THEO** · *Để lại góc nhìn của bạn ở phần bình luận* | — | 🅑 | |
-| 5-21 | `5.13`–`5.14` | — | T2 | `podcast_desk`, bìa hồ sơ gập (Pillow), cassette dừng | — | Bìa gập ở "Bụp"; mờ ra đen | ⊘ | ◼ |
+| 3-01 | `3.02#1` (4,9 s) | H | T1 | `void`, `pull` | *Đến đây, bất kỳ ai trong chúng ta cũng đều đối diện với một câu hỏi nhức nhối:* | — | — |  |
+| 3-02 | `3.02#2` (7,0 s) | H | T1 | `fog_deedee`, `still` | *Điều gì có thể thúc đẩy một người mẹ làm ra những điều tàn độc như vậy với chính giọt máu của mình suốt 23 năm?* | — | — |  |
+| 3-03 | `3.02#3` (8,3 s) | H | T1 | `charity`, `push` | *Nhiều người vội vàng nhận định rằng Dee Dee làm tất cả chỉ vì tiền trợ cấp và những chuyến du lịch miễn phí đến Disneyland.* | — | — |  |
+| 3-04 | `3.02#4` (7,9 s) | H | T1 | `records`, `pan` | *Nhưng nếu chỉ vì lòng tham tài chính thông thường, kẻ phạm tội sẽ chọn những phương thức lừa đảo ít phiền phức và tốn kém hơn nhiều.* | — | — |  |
+| 3-05 | `3.02#5` (4,8 s) | H | T1 | `brain_desk`, `pull` | *Dưới góc độ tâm thần học pháp y, vật chất chỉ là sản phẩm phụ bên ngoài.* | — | — |  |
+| 3-06 | `3.02#6` (10,4 s) | H | T1 | `brain_desk`, `still` | *Động cơ cốt lõi chi phối toàn bộ hành vi của Dee Dee Blanchard xuất phát từ một hội chứng tâm thần phức tạp: Hội chứng Münchausen qua trung gian (Factitious Disorder Imposed on Another – FDIA).* | — | — |  |
+| 3-07 | `3.02#7` (6,6 s) | H | T1 | `brain_desk`, `push` | *Xin mời Chuyên gia tâm lý giải mã các tầng nhận thức bên trong tâm trí của một kẻ mắc hội chứng này.* | — | →C |  |
+| 3-08 | `3.04#1` (7,7 s) | C | T9 thuật ngữ | `clinical`, `pan` | **DSM-5-TR** · *Theo cẩm nang chẩn đoán tâm thần DSM-5-TR, hội chứng FDIA hoàn toàn khác biệt với hành vi Giả bệnh trục lợi thông thường (Malingering).* | — | — |  |
+| 3-09 | `3.04#2` (4,5 s) | C | T1 | `records`, `pull` | *Kẻ giả bệnh trục lợi sẽ dựng chuyện để kiếm tiền rồi bí mật hưởng thụ trong bóng tối.* | — | — |  |
+| 3-10 | `3.04#3` (6,7 s) | C | T9 thuật ngữ | `spotlight_deedee`, `still` | **Sự cung cấp ái kỷ (Narcissistic Supply)** · *Nhưng người mắc hội chứng FDIA thì đói khát một thứ chất gây nghiện tinh vi hơn nhiều: đó là Sự cung cấp ái kỷ (Narcissistic Supply).* | — | — |  |
+| 3-11 | `3.04#4`–`#5` (8,3 s) | C | T1 | `brain_desk`, `push` | *Khi giải phẫu tâm lý của Dee Dee Blanchard, chúng ta nhìn thấy 3 tầng động cơ bệnh lý đan xen:* → *Tầng thứ nhất: Cơn nghiện ánh hào quang của Vị thánh tử đạo.* | — | — |  |
+| 3-12 | `3.04#6` (13,4 s) | C | T1 | `fog`, `pan` | *Trước khi sinh con, cuộc đời Dee Dee là một chuỗi dài những thất bại ê chề: bà từng có tiền sử trộm cắp vặt, bị gia đình ghẻ lạnh, và cuộc hôn nhân với người chồng Rod Blanchard tan vỡ nhanh chóng khi bà mới 24 tuổi.* | — | — |  |
+| 3-13 | `3.04#7` (3,8 s) | C | T1 | `fog`, `pull` | *Bà ta là một cá nhân mờ nhạt, thiếu vắng sự công nhận xã hội.* | — | — |  |
+| 3-14 | `3.04#8` (6,2 s) | C | T1 | `house_night`, `still` | *Nhưng khoảnh khắc bà khoác lên mình chiếc áo*“người mẹ đơn thân kiên cường nuôi con tàn tật” | — | — |  |
+| 3-15 | `3.04#9` (8,5 s) | C | T1 | `crowd_house`, `push` | *Đi đến đâu, Dee Dee cũng nhận được những ánh nhìn kính nể từ các bác sĩ, những giọt nước mắt cảm phục từ hàng xóm và những bài báo ca ngợi trên truyền thông.* | — | — |  |
+| 3-16 | `3.04#10` (5,8 s) | C | T1 | `void`, `pan` | *Sự chú ý của đám đông đã khỏa lấp hoàn toàn cảm giác tự ti và trống rỗng bệnh lý bên trong con người bà ta.* | — | — |  |
+| 3-17 | `3.04#11` (9,4 s) | C | T1 | `clinical`, `pull` | *Mỗi lời khen ngợi*“Bà là người mẹ vĩ đại nhất” | — | →H |  |
+| 3-18 | `3.06#1` (3,8 s) | H | T1 | `house_night`, `still` | *Nhưng ánh hào quang xã hội mới chỉ là lớp vỏ ngoài.* | — | — |  |
+| 3-19 | `3.06#2` (5,0 s) | H | T1 | `house_closed`, `push` | *Điều gì đã diễn ra trong mối quan hệ giữa Dee Dee và những người thân xung quanh bà ta?* | — | — |  |
+| 3-20 | `3.06#3` (5,2 s) | H | T1 | `records`, `pan` | *Chúng ta hãy nghe Điều tra viên chia sẻ về hồ sơ gia đình của người phụ nữ này.* | — | →D |  |
+| 3-21 | `3.07#1` (9,7 s) | D | T1 | `records`, `pull` | *Khi chúng tôi lật lại lời khai từ gia đình bên ngoại của Dee Dee tại bang Louisiana, những người thân trong gia đình đều bày tỏ sự sợ hãi đối với tính cách của bà ta.* | — | — |  |
+| 3-22 | `3.07#2` (6,7 s) | D | T1 | `locked_door`, `still` | *Họ tiết lộ rằng ngay từ thời trẻ, Dee Dee đã thể hiện thói quen thao túng tâm lý và kiểm soát cực đoan.* | — | — |  |
+| 3-23 | `3.07#3` (6,3 s) | D | T1 | `locked_door`, `push` | *Người nhà thậm chí nghi ngờ bà ta từng có những hành vi gây hại sức khỏe cho chính mẹ đẻ trước khi bà qua đời.* | — | — |  |
+| 3-24 | `3.07#4` (6,2 s) | D | T1 | `corridor`, `pan` | *Một người dì ruột của Dee Dee còn khai nhận rằng gia đình từng bắt quả tang bà ta cố tình bỏ thuốc độc vào thức ăn.* | — | — |  |
+| 3-25 | `3.07#5` (8,2 s) | D | T1 | `house_closed`, `pull` | *Sau khi sinh Gypsy, Dee Dee hoàn toàn cắt đứt liên lạc với gia đình ruột thịt và cô lập đứa trẻ khỏi người cha là ông Rod Blanchard.* | — | — |  |
+| 3-26 | `3.07#6` (10,9 s) | D | T1 | `records`, `still` | *Mỗi tháng, người cha vẫn đều đặn gửi tiền chu cấp nuôi con, nhưng Dee Dee liên tục nói dối rằng con gái bị tổn thương não nặng nề và không thể nghe điện thoại hay gặp mặt cha.* | — | — |  |
+| 3-27 | `3.07#7` (5,2 s) | D | T1 | `locked_door`, `push` | *Ông Rod Blanchard thậm chí từng bị cấm xuất hiện tại các buổi lễ trao nhà thiện nguyện của con gái.* | — | — |  |
+| 3-28 | `3.07#8` (8,2 s) | D | T1 | `crowd_away`, `pan` | *Gia đình bị biến thành một mối đe dọa cần phải loại bỏ, bởi họ là những người duy nhất có khả năng nhìn thấu bản chất của bà ta.* | — | →C |  |
+| 3-29 | `3.08#1` (5,7 s) | C | T9 thuật ngữ | `brain_desk`, `pull` | **Cơ chế chia ngăn nhận thức (Compartmentalization)** · *Chính từ sự cô lập này, chúng ta nhận diện được Tầng tâm lý thứ hai: Cơ chế chia ngăn nhận thức (Compartmentalization).* | — | — |  |
+| 3-30 | `3.08#2` (4,2 s) | C | T1 | `hands`, `still` | *Não bộ của Dee Dee đã khóa chặt hai thế giới riêng biệt không bao giờ giao thoa:* | — | — |  |
+| 3-31 | `3.08#3` (6,4 s) | C | T1 | `hands`, `push` | *Một ngăn là hình ảnh người mẹ chu đáo, thức trắng đêm xoa bóp cho con, hát ru và tự tay nấu từng bữa ăn lỏng.* | — | — |  |
+| 3-32 | `3.08#4` (6,6 s) | C | T1 | `deedee_room`, `pan` | *Ngăn còn lại là một kẻ thủ ác lạnh lùng, sẵn sàng trói tay con gái vào thành giường để ép cô bé uống thuốc độc hại.* | — | — |  |
+| 3-33 | `3.08#5` (7,0 s) | C | T1 | `glass_box`, `pull` | *Dee Dee sử dụng tình mẫu tử như một*“Lá chắn bình thường hóa” | — | — |  |
+| 3-34 | `3.08#6` (4,9 s) | C | T9 thuật ngữ | `brain_desk`, `still` | **Kỹ thuật trung hòa đạo đức** · *Và Tầng tâm lý thứ ba chính là: Kỹ thuật trung hòa đạo đức và Sự thiếu hụt thấu cảm cảm xúc.* | — | — |  |
+| 3-35 | `3.08#7`–`#8` (10,2 s) | C | T1 | `records`, `push` | *Dee Dee mắc một khuyết tật nghiêm trọng về Thuyết tâm trí (Theory of Mind).* → *Bà ta hoàn toàn vô cảm trước những nỗi đau đớn thể xác mà Gypsy phải gánh chịu sau mỗi mũi kim tiêm hay ca phẫu thuật.* | — | — |  |
+| 3-36 | `3.08#9` (9,3 s) | C | T1 | `hands`, `pan` | *Bà ta tự thuyết phục mình bằng những lý lẽ lệch lạc:*“Con bé quá yếu ớt, thế giới ngoài kia sẽ hủy hoại nó, chỉ có sự kiểm soát của mình mới giữ được sinh mạng cho nó” | — | — |  |
+| 3-37 | `3.08#10` (6,6 s) | C | T1 | `void`, `pull` | *Bà ta đổ lỗi cho hoàn cảnh, cho sự bất công của số phận và tự phong cho mình quyền năng quyết định sinh tử của con gái.* | — | — |  |
+| 3-38 | `3.08#11` (7,5 s) | C | T1 | `house_night`, `still` | *Sự ngụy biện này vô hiệu hóa mọi cảm giác tội lỗi, cho phép Dee Dee ngủ ngon mỗi đêm ngay bên cạnh đứa con đang quằn quại trong bệnh tật nhân tạo.* | — | — |  |
+| 3-39 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 04* · **GÓC NHÌN NẠN NHÂN — TẠI SAO GYPSY KHÔNG ĐỨNG DẬY?** | — | ⊘ | ◼ |
 
-**Tổng: 122 dòng = 104 shot có lời + 18 dòng không lời.** Phủ 128/128 câu, đúng thứ tự, cột Vai khớp người nói (kiểm tra bằng script ngày 22/10; `validate_shots.py` phải lặp lại).
+### HỒI 4 — GÓC NHÌN NẠN NHÂN — TẠI SAO GYPSY KHÔNG ĐỨNG DẬY? · nền chủ đạo `locked_door`
 
+| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
+|---|---|---|---|---|---|---|---|---|
+| 4-01 | `4.02#1` (7,3 s) | H | T1 | `night_screen`, `push` | *Khi sự thật về vụ án chấn động được công bố, một làn sóng hoài nghi dữ dội từ dư luận đã lập tức bùng nổ.* | — | — |  |
+| 4-02 | `4.02#2` (6,0 s) | H | T1 | `night_screen`, `pan` | *Rất nhiều người không thể chấp nhận hành vi của Gypsy Rose và đặt ra những câu hỏi đầy định kiến.* | — | — |  |
+| 4-03 | `4.02#3` (7,2 s) | H | T1 | `spotlight`, `pull` | *Họ cho rằng một người trưởng thành hoàn toàn có đủ khả năng cầu cứu hoặc tìm đường trốn thoát khỏi sự kìm kẹp.* | — | — |  |
+| 4-04 | `4.02#4` (5,2 s) | H | T1 | `podcast_desk`, `still` | *Chúng ta hãy lắng nghe một thắc mắc rất phổ biến từ phía công chúng theo dõi vụ án.* | — | →N2 |  |
+| 4-05 | `4.03#1` (8,0 s) | N2 | T1 | `house_night`, `push` | *Thực sự có một điều khiến tôi vô cùng khó hiểu: Cô ấy biết rất rõ rằng đôi chân của mình hoàn toàn khỏe mạnh.* | — | ✦ Mèo |  |
+| 4-06 | `4.03#2` (6,6 s) | N2 | T1 | `house_night`, `pan` | *Mỗi đêm khi cửa phòng đóng kín, cô ấy vẫn tự mình đứng dậy đi lại và lục tìm đồ ăn trong tủ lạnh.* | — | — |  |
+| 4-07 | `4.03#3` (6,8 s) | N2 | T1 | `crowd_house`, `pull` | *Cô ấy từng tham dự các hội nghị người hâm mộ khoa học viễn tưởng và có nhiều cơ hội tiếp xúc với người lạ.* | — | — |  |
+| 4-08 | `4.03#4` (14,6 s) | N2 | T1 | `wheelchair_room`, `still` | *Tại sao suốt hàng chục năm trời, trước mặt hàng trăm bác sĩ, y tá, cảnh sát và các tình nguyện viên từ thiện, Gypsy chưa từng một lần đứng bật dậy khỏi chiếc xe lăn để kêu cứu và vạch trần người mẹ của mình?* | — | →H |  |
+| 4-09 | `4.05#1` (6,5 s) | H | T1 | `spotlight`, `push` | *Đó là một câu hỏi tự nhiên của những người đứng ngoài nhìn vào bằng lăng kính của một cá nhân tự do.* | — | — |  |
+| 4-10 | `4.05#2` (12,8 s) | H | T1 | `brain_desk`, `pan` | *Thế nhưng, để giải mã sự bất động của Gypsy, chúng ta không thể dùng lý trí thông thường mà phải nhìn vào hai gông cùm tâm lý vô hình: Sự bất lực tập nhiễm và Sự gắn kết chấn thương.* | — | — |  |
+| 4-11 | `4.05#3` (4,2 s) | H | T1 | `clinical`, `pull` | *Xin mời Chuyên gia tâm lý phân tích cơ chế giam hãm nhận thức này.* | — | →C |  |
+| 4-12 | `4.07#1` (7,3 s) | C | T9 thuật ngữ | `clinical`, `still` | **Sự bất lực tập nhiễm (Learned Helplessness)** · *Năm 1967, nhà tâm lý học lỗi lạc Martin Seligman đã công bố học thuyết kinh điển về Sự bất lực tập nhiễm (Learned Helplessness).* | — | — |  |
+| 4-13 | `4.07#2` (12,6 s) | C | T1 | `cage`, `push` | *Trong các thí nghiệm nổi tiếng, khi một sinh vật bị nhốt trong phòng kín và phải chịu những cú sốc điện ngẫu nhiên mà không có cách nào né tránh, sau nhiều lần thử phản kháng thất bại, sinh vật đó sẽ hoàn toàn từ bỏ ý chí chiến đấu.* | — | — |  |
+| 4-14 | `4.07#3` (8,3 s) | C | T1 | `cage_open`, `pan` | *Kể cả khi người ta mở toang cửa lồng và không còn dòng điện nào cản trở, con vật vẫn nằm im cam chịu và rên rỉ thay vì bước chân ra ngoài.* | — | — |  |
+| 4-15 | `4.07#4` (7,2 s) | C | T1 | `brain_desk`, `pull` | *Bộ não khi bị tổn thương tâm lý sâu sắc sẽ đi đến một kết luận cố định:*“Mọi sự kháng cự đều là vô nghĩa” | — | — |  |
+| 4-16 | `4.07#5` (8,0 s) | C | T1 | `hands`, `still` | *Hãy nhìn vào tuổi thơ của Gypsy: Từ lúc mới bi bô tập nói, mỗi khi ngồi trước mặt bác sĩ, Dee Dee luôn nắm chặt lấy bàn tay con gái.* | — | — |  |
+| 4-17 | `4.07#6` (3,3 s) | C | T1 | `hands`, `push` | *Người ngoài nhìn vào tưởng đó là cái nắm tay chan chứa yêu thương.* | — | — |  |
+| 4-18 | `4.07#7` (8,5 s) | C | T1 | `hands`, `pan` | *Nhưng với Gypsy, đó là một tín hiệu đe dọa chết người: Nếu cô bé nói sai một lời hoặc nhúc nhích đôi chân, bàn tay mẹ sẽ siết chặt đến bầm tím.* | — | ⊘ |  |
+| 4-19 | `4.07#8` (6,3 s) | C | T1 | `brain_desk`, `pull` | *Bà Dee Dee đã lập trình vào đầu con gái rằng cô mắc bệnh tâm thần và chỉ có mẹ mới biết điều gì là an toàn cho cô.* | — | — |  |
+| 4-20 | `4.07#9` (6,9 s) | C | T1 | `house_closed`, `still` | *Và đằng sau cánh cửa đóng kín của ngôi nhà màu hồng là những trận đòn roi, những ngày bị bỏ đói và lời đe dọa tước đoạt sinh mạng.* | — | →H · ⊘ |  |
+| 4-21 | `4.09#1`–`#2` (14,4 s) | H | T1 | `house_closed`, `push` | *Gypsy không phải chưa từng cố gắng bỏ trốn.* → *Trong hồ sơ lưu trữ, Điều tra viên đã ghi lại một biến cố then chốt xảy ra vào năm 2011 – biến cố đã đánh gãy tia hy vọng cuối cùng của cô gái này.* | — | →D |  |
+| 4-22 | `4.10#1` (7,3 s) | D | T1 | `night_street`, `pan` | *Năm 2011, khi Gypsy 19 tuổi, cô đã thu hết can đảm để thực hiện một cuộc trốn chạy trong đêm.* | — | — |  |
+| 4-23 | `4.10#2` (6,5 s) | D | T1 | `night_street_gypsy`, `pull` | *Cô lén trườn ra khỏi nhà và tìm đến căn hộ của một người quen trong vùng để cầu xin sự giúp đỡ.* | — | — |  |
+| 4-24 | `4.10#3` (4,7 s) | D | T1 | `house_night`, `still` | *Cô gái run rẩy van xin những người xung quanh hãy giấu cô đi và đừng để mẹ cô tìm thấy.* | — | — |  |
+| 4-25 | `4.10#4` (5,8 s) | D | T1 | `records`, `push` | *Thế nhưng chỉ vài giờ sau, Dee Dee đã xuất hiện cùng một tập hồ sơ y tế giả mạo dày cộp.* | — | — |  |
+| 4-26 | `4.10#5` (10,8 s) | D | T1 | `crowd_house`, `pan` | *Trước mặt những người xung quanh, bà ta khóc lóc và khẳng định con gái mình bị thiểu năng trí tuệ bẩm sinh, đang trong cơn hoang tưởng và không có năng lực hành vi dân sự.* | — | — |  |
+| 4-27 | `4.10#6` (5,5 s) | D | T1 | `crowd_house`, `pull` | *Mọi người lập tức tin lời người mẹ thánh mẫu và trao trả Gypsy về lại ngôi nhà màu hồng.* | — | — |  |
+| 4-28 | `4.10#7` (4,9 s) | D | T1 | `house_closed`, `still` | *Sau đêm đó, Dee Dee dùng búa đập nát chiếc máy tính của con gái ngay trước mắt cô.* | — | — |  |
+| 4-29 | `4.10#8` (8,1 s) | D | T1 | `cage`, `push` | *Bà ta dùng xích sắt trói cô vào khung giường suốt hai tuần liên tiếp và cảnh cáo rằng cảnh sát sẽ không bao giờ tin lời một kẻ điên như cô.* | — | →H · ⊘ |  |
+| 4-30 | `4.11#1` (13,6 s) | H | T1 | `void`, `pan` | *Cú sốc năm 2011 ấy đã đóng chặt chiếc đinh cuối cùng vào tâm trí Gypsy: Xã hội ngoài kia chỉ tin vào chiếc áo choàng thánh thiện của mẹ cô, còn tiếng nói của cô hoàn toàn vô hình.* | — | — |  |
+| 4-31 | `4.11#2` (6,0 s) | H | T1 | `clinical`, `pull` | *Và bên cạnh nỗi khiếp sợ, Chuyên gia tâm lý còn chỉ ra một sợi dây trói buộc thứ hai.* | — | →C |  |
+| 4-32 | `4.12#1` (2,0 s) | C | T9 thuật ngữ | `hands`, `still` | **Gắn kết chấn thương (Trauma Bonding)** · *Đó chính là Gắn kết chấn thương (Trauma Bonding).* | — | — |  |
+| 4-33 | `4.12#2` (9,2 s) | C | T1 | `hands`, `push` | *Dee Dee là kẻ đầu độc thể xác Gypsy, nhưng cũng chính bà là người duy nhất ôm ấp cô mỗi đêm, chải tóc và thủ thỉ rằng Gypsy là thiên thần duy nhất của cuộc đời bà.* | — | — |  |
+| 4-34 | `4.12#3` (10,4 s) | C | T1 | `glass_box`, `pan` | *Sự xen kẽ tàn nhẫn giữa bạo lực khủng khiếp và sự vỗ về ngọt ngào đã làm tê liệt hoàn toàn hệ thống phòng vệ tâm lý của nạn nhân, khiến Gypsy vừa căm hận vừa phụ thuộc sâu sắc vào mẹ mình.* | — | — |  |
+| 4-35 | `4.12#4` (8,4 s) | C | T1 | `void`, `pull` | *Trong thế giới quan bị cô lập hoàn toàn, tình yêu và sự bạo hành đã hòa lẫn làm một, khiến nạn nhân không thể nào tự vạch ra ranh giới sinh tồn.* | — | →H |  |
+| 4-36 | `4.14#1` (10,2 s) | H | T1 | `cage`, `still` | *Khi mọi cánh cửa pháp lý và xã hội đều bị đóng sập trong tâm tưởng, bản năng sinh tồn bị dồn nén đến đường cùng đã tìm kiếm một lối thoát cực đoan nhất.* | — | — |  |
+| 4-37 | `4.14#2` (12,7 s) | H | T1 | `godejohn_screen`, `push` | *Năm 2012, qua mạng Internet bí mật, Gypsy làm quen với Nicholas Godejohn – một thanh niên 24 tuổi có tiền sử rối loạn nhân cách và tự kỷ.* | — | — |  |
+| 4-38 | `4.14#3` (9,6 s) | H | T9 thuật ngữ | `two_shadows`, `pan` | **Folie à Deux** · *Hai tâm hồn cô lập và bất ổn đã va vào nhau, trượt dài vào hiện tượng tâm lý nguy hiểm: Folie à Deux – Hội chứng Điên cuồng đôi.* | — | — |  |
+| 4-39 | `4.14#4` (5,8 s) | H | T1 | `two_shadows`, `pull` | *Ảo tưởng về một cuộc tình giải cứu đã thôi thúc cả hai đi đến một kế hoạch đoạt mạng tàn khốc.* | — | — |  |
+| 4-40 | `4.14#5` (8,3 s) | H | T1 | `house_night`, `still` | *Và đêm 14 tháng 6 năm 2015, cánh cửa ngôi nhà màu hồng đã được mở ra trong bóng tối...* | — | — |  |
+| 4-41 | nghỉ chuyển hồi (2 s) | — | T10 | `void` | *HỒI 05* · **PHÁN QUYẾT PHÁP Y, BẢN ÁN TÂM LÝ & CẢNH BÁO ĐỎ** | — | ⊘ | ◼ |
+
+### HỒI 5 — PHÁN QUYẾT PHÁP Y, BẢN ÁN TÂM LÝ & CẢNH BÁO ĐỎ SINH TỒN · nền chủ đạo `court_dawn`
+
+| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân vật | |
+|---|---|---|---|---|---|---|---|---|
+| 5-01 | `5.02#1` (11,4 s) | H | T1 | `court_dawn`, `push` | *Phiên tòa xét xử vụ án Gypsy Rose Blanchard tại bang Missouri đã trở thành một trong những vụ án gây chia rẽ và thách thức đạo lý sâu sắc nhất trong lịch sử tư pháp Hoa Kỳ.* | — | — |  |
+| 5-02 | `5.02#2` (7,8 s) | H | T1 | `court_dawn`, `pan` | *Về mặt pháp luật hình sự, hành vi tham gia lên kế hoạch đoạt mạng mẹ ruột là một tội ác không thể dung thứ.* | — | — |  |
+| 5-03 | `5.02#3` (8,7 s) | H | T1 | `records`, `pull` | *Thế nhưng, trước những chứng cứ y khoa kinh hoàng về 23 năm bị tra tấn và lạm dụng thân xác, chánh công tố viên hạt Greene – ông Dan Patterson – đã phải đối diện với một nghịch lý chưa từng có tiền lệ.* | — | — |  |
+| 5-04 | `5.02#4` (19,8 s) | H | T1 | `court_dawn`, `still` | *Công tố viên thừa nhận rằng đây là vụ án đặc biệt nhất trong sự nghiệp của mình:* → *một kẻ chủ mưu giết người nhưng đồng thời cũng là nạn nhân sống sót sau một chuỗi tội ác kéo dài suốt hai thập kỷ.* | — | — |  |
+| 5-05 | `5.02#5` (10,1 s) | H | T1 | `spotlight`, `push` | *Đây là trường hợp hy hữu mà cán cân công lý buộc phải cân đo giữa sự trừng phạt hình sự và sự đồng cảm sâu sắc đối với nạn nhân của sự lạm dụng tột cùng.* | — | — |  |
+| 5-06 | `5.04#1` (13,3 s) | H | T1 | `prison_window`, `pan` | *Năm 2016, thông qua thỏa thuận nhận tội, Gypsy Rose Blanchard bị tuyên phạt 10 năm tù giam về tội giết người cấp độ hai – mức án khoan hồng nhất có thể áp dụng cho một vụ án mạng.* | — | — |  |
+| 5-07 | `5.04#2` (8,2 s) | H | T1 | `prison_window`, `pull` | *Trong khi đó, Nicholas Godejohn phải nhận bản án tù chung thân không ân xá cho hành vi trực tiếp gây án.* | — | — |  |
+| 5-08 | `5.04#3` (9,4 s) | H | T1 | `court_dawn`, `still` | *Bản án 10 năm tù cho Gypsy được xem là giải pháp dung hòa giữa tính nghiêm minh của pháp luật và tính nhân văn của tư pháp học.* | — | — |  |
+| 5-09 | `5.04#4` (7,3 s) | H | T1 | `prison_window`, `push` | *Chúng ta hãy lắng nghe Điều tra viên chia sẻ về nghịch lý tâm lý đằng sau cánh cửa nhà tù của người con gái này.* | — | →D |  |
+| 5-10 | `5.05#1` (9,6 s) | D | T1 | `prison_window`, `pan` | *Khi bước vào Trại cải tạo phụ nữ Chillicothe, Gypsy Rose đã đưa ra một lời thú nhận khiến tất cả các chuyên gia tâm lý học pháp y phải nghẹn ngào.* | — | — |  |
+| 5-11 | `5.05#2` (9,3 s) | D | T1 | `prison_window`, `pull` | *Cô nói rằng:*“Sống trong nhà tù của pháp luật, lần đầu tiên trong cuộc đời tôi cảm thấy mình thực sự được tự do hơn cả khi sống trong ngôi nhà của mẹ.” | — | — |  |
+| 5-12 | `5.05#3` (5,1 s) | D | T1 | `prison_window`, `still` | *Tại nhà tù, thân xác cô bị giam giữ sau song sắt, nhưng linh hồn cô được giải thoát.* | — | ⊘ |  |
+| 5-13 | `5.05#4` (11,8 s) | D | T1 | `house_dawn`, `push` | *Cô được phép nuôi lại mái tóc dài tự nhiên, được tự do ăn những món ăn yêu thích bằng miệng, được vứt bỏ chiếc xe lăn và đi lại trên chính đôi chân của mình mà không còn sợ hãi những mũi kim tiêm hành hạ.* | — | — |  |
+| 5-14 | `5.05#5` (7,0 s) | D | T1 | `clinical`, `pan` | *Các bác sĩ tại trại giam đã tiến hành lắp đặt một hàm răng giả hoàn chỉnh cho cô, giúp cô tìm lại nụ cười của một con người.* | — | — |  |
+| 5-15 | `5.05#6` (4,6 s) | D | T1 | `house_dawn`, `pull` | *Cô cũng hoàn thành chương trình giáo dục phổ thông và lần đầu tiên được học tập một cách bình thường.* | — | — |  |
+| 5-16 | `5.05#7` (12,7 s) | D | T1 | `house_free`, `still` | *Vào ngày 28 tháng 12 năm 2023, sau khi chấp hành đủ 85% thời hạn bản án, Gypsy Rose Blanchard đã chính thức bước qua cổng trại giam để bắt đầu lại cuộc đời.* | — | →H |  |
+| 5-17 | `5.06#1` (11,0 s) | H | T1 | `spotlight`, `push` | *Dư chấn xã hội từ vụ án Blanchard đã gióng lên một hồi chuông cảnh tỉnh sâu sắc cho toàn bộ hệ thống bảo vệ trẻ em và ngành y tế công cộng trên toàn thế giới.* | — | — |  |
+| 5-18 | `5.06#2` (10,6 s) | H | T1 | `records`, `pan` | *Nó phơi bày lỗ hổng chết người của việc thiếu kết nối dữ liệu y khoa tập trung, cho phép những kẻ mắc hội chứng Münchausen qua trung gian dễ dàng qua mặt hàng loạt bệnh viện.* | — | — |  |
+| 5-19 | `5.06#3` (11,1 s) | H | T1 | `records`, `pull` | *Nhiều bang tại Mỹ sau đó đã siết chặt quy trình phối hợp liên ngành giữa bệnh viện, trường học và cơ quan an sinh xã hội để bảo vệ trẻ em khỏi nạn bạo hành y tế.* | — | — |  |
+| 5-20 | `5.06#4` (12,0 s) | H | T1 | `brain_desk`, `still` | *Để bảo vệ những đứa trẻ vô tội và ngăn chặn những thảm kịch tương tự tái diễn, chúng ta sẽ cùng Chuyên gia tâm lý và Điều tra viên đúc kết Bộ 4 Tín hiệu Cảnh báo Đỏ sinh tồn (Survival Red Flags).* | — | →C |  |
+| 5-21 | `5.07#1` (6,1 s) | C | T1 | `clinical`, `push` | *Dưới góc độ tâm lý và lâm sàng y khoa, cộng đồng cần đặc biệt lưu tâm đến 2 chỉ dấu cảnh báo đầu tiên:* | — | — |  |
+| 5-22 | `5.07#2` (4,5 s) | C | T8 cờ | `clinical`, `pan` | *01* · **Cảnh báo đỏ thứ nhất: Bệnh sử phức tạp bất thường và mâu thuẫn xét nghiệm.** | — | — |  |
+| 5-23 | `5.07#3` (10,0 s) | C | T1 | `records`, `pull` | *Nạn nhân có một danh sách bệnh tật hiểm nghèo kéo dài triền miên, nhưng các kết quả kiểm tra cận lâm sàng khách quan luôn bình thường hoặc mâu thuẫn hoàn toàn với những lời kể nghiêm trọng của người chăm sóc.* | — | — |  |
+| 5-24 | `5.07#4` (3,3 s) | C | T8 cờ | `clinical`, `still` | *02* · **Cảnh báo đỏ thứ hai: Triệu chứng xuất hiện có điều kiện.** | — | — |  |
+| 5-25 | `5.07#5` (9,2 s) | C | T1 | `records`, `push` | *Các biểu hiện bệnh lý lạ lùng chỉ khởi phát khi có mặt người chăm sóc, và lập tức thuyên giảm rõ rệt khi bệnh nhân được cách ly hoặc nằm trong khu vực có camera giám sát độc lập.* | — | — |  |
+| 5-26 | `5.07#6` (6,5 s) | C | T1 | `clinical`, `pan` | *Khi tách rời khỏi người chăm sóc, sức khỏe của người bệnh thường hồi phục một cách kỳ diệu mà không cần can thiệp y tế chuyên sâu.* | — | →D |  |
+| 5-27 | `5.08#1` (4,3 s) | D | T1 | `pinboard`, `pull` | *Dưới góc độ điều tra hành vi xã hội, chúng tôi khuyến cáo 2 dấu hiệu tiếp theo:* | — | — |  |
+| 5-28 | `5.08#2` (4,6 s) | D | T8 cờ | `pinboard`, `still` | *03* · **Cảnh báo đỏ thứ ba: Thói quen đổi bác sĩ và nghiện sự chú ý.** | — | — |  |
+| 5-29 | `5.08#3` (13,8 s) | D | T1 | `records`, `push` | *Người chăm sóc có xu hướng*“Doctor shopping” | — | — |  |
+| 5-30 | `5.08#4` (3,7 s) | D | T8 cờ | `house_closed`, `pan` | *04* · **Và cảnh báo đỏ thứ tư: Sự cô lập tuyệt đối khỏi cộng đồng.** | — | — |  |
+| 5-31 | `5.08#5` (8,6 s) | D | T1 | `crowd_away`, `pull` | *Nạn nhân bị cắt đứt hoàn toàn khỏi trường học, bạn bè đồng trang lứa và những người thân khác trong gia đình dưới chiêu bài*“bảo vệ sức khỏe yếu ớt” | — | — |  |
+| 5-32 | `5.08#6` (5,5 s) | D | T1 | `spotlight`, `still` | *Họ luôn muốn mình là người duy nhất nắm quyền kiểm soát dòng thông tin và sự sống của nạn nhân.* | — | →H |  |
+| 5-33 | `5.10#1` (10,7 s) | H | T1 | `house_dawn`, `push` | *Hồ sơ về ngôi nhà màu hồng tại thành phố Springfield khép lại, nhưng những câu hỏi về bản chất của lòng nhân ái và đạo đức con người vẫn còn vang vọng mãi.* | — | — |  |
+| 5-34 | `5.10#2` (10,5 s) | H | T1 | `house_dawn`, `pan` | *Tình yêu thương chân chính của cha mẹ là đôi cánh giúp một đứa trẻ lớn lên khỏe mạnh, vững vàng bước đi trên đôi chân của chính mình và tự do khám phá thế giới.* | — | — |  |
+| 5-35 | `5.10#3` (16,9 s) | H | T1 | `cage_open`, `pull` | *Khi tình mẫu tử bị bóp méo thành một công cụ sở hữu ích kỷ, khi sự chăm sóc trở thành chiếc lồng giam tàn độc để nuôi dưỡng cái tôi bệnh hoạn của người lớn...* → *thì thứ nhân danh tình yêu ấy đôi khi lại mang sức tàn phá khủng khiếp hơn bất kỳ lưỡi dao nào.* | — | — |  |
+| 5-36 | `5.10#4` (8,2 s) | H | T1 | `charity`, `still` | *Lòng tốt và sự trắc ẩn nếu thiếu đi sự tỉnh táo sẽ vô tình trở thành mảnh đất màu mỡ cho tội ác sinh sôi.* | — | — |  |
+| 5-37 | `5.10#5` (12,9 s) | H | T1 | `house_dawn`, `push` | *Bài học đắt giá nhất mà hồ sơ này để lại chính là lời nhắc nhở chúng ta: Đừng bao giờ để chiếc áo choàng thánh thiện của bất kỳ ai ru ngủ trực giác tỉnh táo và lương tri cảnh giác của chính mình.* | — | — |  |
+| 5-38 | `5.12#1` (8,1 s) | H | T1 | `podcast_desk`, `pan` | *Cảm ơn các khách mời đã tham gia phân tích hồ sơ, và cảm ơn bạn đã đồng hành lắng nghe đến những phút cuối cùng của câu chuyện hôm nay.* | — | — |  |
+| 5-39 | `5.12#2` (8,5 s) | H | T1 | `house_night`, `pull` | *Sự đồng cảm và suy ngẫm của bạn là động lực để chúng tôi tiếp tục soi rọi những góc khuất tăm tối nhất của tâm lý con người.* | — | — |  |
+| 5-40 | `5.12#3` (13,0 s) | H | T1 | `podcast_desk`, `still` | *Hãy chia sẻ suy ngẫm của bạn ở phần bình luận bên dưới, giữ cho mình một tâm trí sáng suốt, và hẹn gặp lại bạn trong hồ sơ giải phẫu tâm lý tội phạm tiếp theo.* | — | — |  |
+| 5-41 | hết tập (7.0 s) | — | T1 | `void` | **HỒ SƠ TẬP 01 · ĐÃ ĐÓNG** · *AMBER EYES · Phân tích tâm lý tội phạm qua những hồ sơ có thật* | — | ⊘ | ◼ |
+
+**Tổng:** 203 dòng (198 shot có lời + 4 thẻ chuyển hồi + 1 thẻ kết) · 205 câu · 33 element lời (5 hồi) · nền dùng 44 loại. Bảng dựng lại 09/11/2026 theo kịch bản viết lại 09/11/2026 (205 câu); thời lượng shot đo từ master mp3 mới (ASR).
 **Xuất hiện của linh thú (ước tính):**
 
 | Nhân vật | Lượt nói | Bán thân (câu đầu lượt + `🅑`) | Lần được mời (`→`) |

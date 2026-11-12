@@ -1,67 +1,28 @@
 {
- "total": 1420.36,
+ "total": 1957.51,
  "shots": [
-  {
-   "id": "1-00",
-   "act": 1,
-   "start": 20.5,
-   "end": 22.8,
-   "role": null,
-   "sentences": [],
-   "template": "T1",
-   "variant": "",
-   "bg": "t8_tokyo_dawn_fog",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "HỒI 01 · BUỔI SÁNG ĐỊNH MỆNH DƯỚI LÒNG ĐẤT TOKYO"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": true,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
   {
    "id": "1-01",
    "act": 1,
-   "start": 22.8,
-   "end": 38.386,
+   "start": 22.76,
+   "end": 32.25,
    "role": "H",
    "sentences": [
-    "1.02#1",
-    "1.02#2"
+    "1.02#1"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t8_tokyo_dawn_fog",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Sáng thứ Hai, ngày 20 tháng 3 năm 1995, thủ đô Tokyo thức dậy trong nhịp sống hối hả thường nhật. Hàng triệu người dân đổ dồn về hệ thống tàu điện ngầm dưới lòng đất."
+       "Vào sáng thứ Hai, ngày 20 tháng 3 năm 1995, thủ đô Tokyo của Nhật Bản thức dậy trong nhịp sống hối hả thường nhật."
       ]
      ]
     }
@@ -83,25 +44,25 @@
   {
    "id": "1-02",
    "act": 1,
-   "start": 38.386,
-   "end": 42.757,
+   "start": 32.25,
+   "end": 39.16,
    "role": "H",
    "sentences": [
-    "1.02#3"
+    "1.02#2"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t8_commuter_crowd_station",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Đúng tám giờ sáng — giờ cao điểm đông đúc nhất trong ngày."
+       "Hàng triệu người dân đổ dồn về hệ thống tàu điện ngầm dưới lòng đất để bắt đầu tuần làm việc mới."
       ]
      ]
     }
@@ -123,8 +84,48 @@
   {
    "id": "1-03",
    "act": 1,
-   "start": 42.757,
-   "end": 52.278,
+   "start": 39.16,
+   "end": 50.78,
+   "role": "H",
+   "sentences": [
+    "1.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_stock_crash_1990",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nước Nhật khi ấy đang chao đảo sau cú sốc sụp đổ của nền kinh tế bong bóng năm 1991, mở ra cái gọi là Thập niên mất mát đầy âu lo."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-04",
+   "act": 1,
+   "start": 50.78,
+   "end": 55.23,
    "role": "H",
    "sentences": [
     "1.02#4"
@@ -134,7 +135,47 @@
    "bg": "t8_subway_tracks_perspective",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đúng tám giờ sáng, giờ cao điểm đông đúc nhất trong ngày."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-05",
+   "act": 1,
+   "start": 55.23,
+   "end": 65.89,
+   "role": "H",
+   "sentences": [
+    "1.02#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_subway_tracks_perspective",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -161,28 +202,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-04",
+   "id": "1-06",
    "act": 1,
-   "start": 52.278,
-   "end": 70.051,
+   "start": 65.89,
+   "end": 74.79,
    "role": "H",
    "sentences": [
-    "1.02#5",
     "1.02#6"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_kasumigaseki_facade",
+   "bg": "t8_tokyo_stock_crash_1990",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Nơi đây đặt trụ sở của các Bộ ngành trọng yếu và Cơ quan Cảnh sát Quốc gia. Nhật Bản khi ấy vẫn tự hào với “huyền thoại an toàn” — một xã hội có tỷ lệ tội phạm thấp bậc nhất thế giới."
+       "Nơi đây đặt trụ sở của các Bộ ngành trọng yếu và Cơ quan Cảnh sát Quốc gia, được coi là trái tim hành chính quyền lực nhất của đất nước."
       ]
      ]
     }
@@ -202,10 +242,90 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-05",
+   "id": "1-07",
    "act": 1,
-   "start": 70.051,
-   "end": 77.948,
+   "start": 74.79,
+   "end": 81.97,
+   "role": "H",
+   "sentences": [
+    "1.02#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_kasumigaseki_facade",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nhật Bản khi ấy vẫn tự hào với “huyền thoại an toàn”, một xã hội có tỷ lệ tội phạm thấp bậc nhất thế giới."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-08",
+   "act": 1,
+   "start": 81.97,
+   "end": 91.9,
+   "role": "H",
+   "sentences": [
+    "1.02#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_corporate_salaryman_cogs",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Dưới vẻ ngoài hào nhoáng và kỷ luật thép của trật tự công cộng, những vết rạn nứt tâm lý âm ỉ đang chờ dịp bùng nổ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-09",
+   "act": 1,
+   "start": 91.9,
+   "end": 99.51,
    "role": "H",
    "sentences": [
     "1.04#1"
@@ -215,7 +335,7 @@
    "bg": "t8_chemical_structure_sarin",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -242,10 +362,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-06",
+   "id": "1-10",
    "act": 1,
-   "start": 77.948,
-   "end": 84.422,
+   "start": 99.51,
+   "end": 106.29,
    "role": "H",
    "sentences": [
     "1.04#2"
@@ -282,20 +402,60 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-07",
+   "id": "1-11",
    "act": 1,
-   "start": 84.422,
-   "end": 93.123,
+   "start": 106.29,
+   "end": 116.74,
    "role": "H",
    "sentences": [
     "1.04#3"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_train_doors_closing",
+   "bg": "t8_newspaper_wrapped_package",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Năm kẻ khủng bố được trang bị tổng cộng mười một túi chất lỏng chứa sarin, bọc kín bên ngoài bằng các trang báo hàng ngày để ngụy trang hoàn hảo."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-12",
+   "act": 1,
+   "start": 116.74,
+   "end": 126.14,
+   "role": "H",
+   "sentences": [
+    "1.04#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_newspaper_wrapped_package",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -322,20 +482,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-08",
+   "id": "1-13",
    "act": 1,
-   "start": 93.123,
-   "end": 99.304,
+   "start": 126.14,
+   "end": 133.44,
    "role": "H",
    "sentences": [
-    "1.04#4"
+    "1.04#5"
    ],
-   "template": "T4",
+   "template": "T1",
    "variant": "",
-   "bg": "t8_newspaper_wrapped_package",
+   "bg": "t8_train_doors_closing",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -362,14 +522,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-09",
+   "id": "1-14",
    "act": 1,
-   "start": 99.304,
-   "end": 113.034,
+   "start": 133.44,
+   "end": 142.13,
    "role": "H",
    "sentences": [
-    "1.06#1",
-    "1.06#2"
+    "1.06#1"
    ],
    "template": "T1",
    "variant": "",
@@ -383,7 +542,87 @@
      "elems": [
       [
        "ital",
-       "Chỉ trong vài phút ngắn ngủi, một cơn ác mộng chưa từng có trong lịch sử Nhật Bản thời hậu chiến đã bùng nổ dưới lòng đất Tokyo. Hãy hình dung điều một hành khách khi ấy phải trải qua."
+       "Chỉ trong vài phút ngắn ngủi, một cơn ác mộng chưa từng có trong lịch sử Nhật Bản thời hậu chiến đã bùng nổ dưới lòng đất Tokyo."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-15",
+   "act": 1,
+   "start": 142.13,
+   "end": 150.15,
+   "role": "H",
+   "sentences": [
+    "1.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_hospital_triage_corridor",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chất lỏng bay hơi nhanh chóng trong các toa tàu đóng kín cửa, biến không gian di chuyển thường nhật thành một chiếc bẫy nghẹt thở."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-16",
+   "act": 1,
+   "start": 150.15,
+   "end": 155.0,
+   "role": "H",
+   "sentences": [
+    "1.06#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_ambulances_tokyo_street",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hãy hình dung những gì một hành khách trên tàu khi ấy phải trải qua."
       ]
      ]
     }
@@ -405,28 +644,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-10",
+   "id": "1-17",
    "act": 1,
-   "start": 113.034,
-   "end": 126.413,
+   "start": 155.0,
+   "end": 162.45,
    "role": "N1",
    "sentences": [
-    "1.07#1",
-    "1.07#2"
+    "1.07#1"
    ],
    "template": "T4",
    "variant": "testimony",
-   "bg": "t8_subway_platform_tunnel_dark",
+   "bg": "t8_dropped_novel_glasses",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Tôi đang đứng đọc sách trên tàu thì ngửi thấy một mùi hắc nhẹ rất lạ, giống như mùi dung môi pha sơn. Đột nhiên, mắt tôi cay xè và mọi thứ xung quanh tối sầm lại."
+       "Tôi đang đứng đọc sách trên tàu thì ngửi thấy một mùi hắc nhẹ rất lạ, giống như mùi dung môi pha sơn."
       ]
      ]
     }
@@ -446,20 +684,60 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-11",
+   "id": "1-18",
    "act": 1,
-   "start": 126.413,
-   "end": 132.95,
+   "start": 162.45,
+   "end": 170.98,
+   "role": "N1",
+   "sentences": [
+    "1.07#2"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t8_subway_platform_tunnel_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đột nhiên, mắt tôi bắt đầu cay xè và mọi thứ xung quanh tối sầm lại như có ai đó vừa tắt toàn bộ bóng đèn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-19",
+   "act": 1,
+   "start": 170.98,
+   "end": 177.59,
    "role": "N1",
    "sentences": [
     "1.07#3"
    ],
-   "template": "T1",
-   "variant": "",
+   "template": "T4",
+   "variant": "testimony",
    "bg": "t8_dropped_novel_glasses",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -486,28 +764,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-12",
+   "id": "1-20",
    "act": 1,
-   "start": 132.95,
-   "end": 143.311,
+   "start": 177.59,
+   "end": 185.67,
    "role": "N1",
    "sentences": [
-    "1.07#4",
-    "1.07#5"
+    "1.07#4"
    ],
-   "template": "T1",
-   "variant": "",
+   "template": "T4",
+   "variant": "testimony",
    "bg": "t8_subway_stairs_escape",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Không ai hiểu chuyện gì đang xảy ra, và sự kinh hoàng bao trùm khắp sân ga. Cảm giác ấy cứ như ngày tận thế vừa ập xuống đầu chúng tôi giữa ban ngày."
+       "Tôi thấy những nhân viên nhà ga lao vào giúp đỡ hành khách rồi chính họ cũng lảo đảo ngã quỵ vì không hề biết thứ vô hình đang bủa vây."
       ]
      ]
     }
@@ -527,10 +804,92 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-13",
+   "id": "1-21",
    "act": 1,
-   "start": 143.311,
-   "end": 151.701,
+   "start": 185.67,
+   "end": 191.44,
+   "role": "N1",
+   "sentences": [
+    "1.07#5"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t8_commuter_crowd_station",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Không ai hiểu chuyện gì đang xảy ra, và sự kinh hoàng bao trùm khắp sân ga."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-22",
+   "act": 1,
+   "start": 191.44,
+   "end": 197.56,
+   "role": "N1",
+   "sentences": [
+    "1.07#6"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t8_subway_tracks_perspective",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cảm giác lúc đó cứ như ngày tận thế vừa ập xuống đầu chúng tôi giữa ban ngày."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-23",
+   "act": 1,
+   "start": 197.56,
+   "end": 205.98,
    "role": "H",
    "sentences": [
     "1.09#1"
@@ -558,9 +917,7 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [
-     "H"
-    ],
+    "handoff": [],
     "dual": false,
     "guests": false,
     "p2": false
@@ -569,10 +926,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-14",
+   "id": "1-24",
    "act": 1,
-   "start": 151.701,
-   "end": 163.511,
+   "start": 205.98,
+   "end": 222.68,
    "role": "H",
    "sentences": [
     "1.09#2"
@@ -582,7 +939,7 @@
    "bg": "t8_hospital_triage_corridor",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -609,28 +966,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-15",
+   "id": "1-25",
    "act": 1,
-   "start": 163.511,
-   "end": 178.791,
+   "start": 222.68,
+   "end": 237.26,
    "role": "H",
    "sentences": [
-    "1.09#3",
-    "1.09#4"
+    "1.09#3"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_subway_platform_tunnel_dark",
+   "bg": "t8_hospital_triage_corridor",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Hàng nghìn người phải chịu đựng những di chứng tâm lý nặng nề và nỗi sợ hãi kéo dài suốt phần đời còn lại. Cơn hoang tưởng tập thể bùng phát khắp thủ đô: người dân Tokyo nín thở khi bước xuống ga ngầm."
+       "Tại Bệnh viện Quốc tế Saint Luke, Bác sĩ Shigeaki Hinohara đã lập tức ra lệnh chuyển đổi toàn bộ sảnh lớn thành trạm cấp cứu dã chiến để tiếp nhận hàng trăm nạn nhân trong tình trạng nguy kịch."
       ]
      ]
     }
@@ -650,20 +1006,100 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-16",
+   "id": "1-26",
    "act": 1,
-   "start": 178.791,
-   "end": 184.771,
+   "start": 237.26,
+   "end": 244.79,
+   "role": "H",
+   "sentences": [
+    "1.09#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_police_hq",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hàng nghìn người phải chịu đựng những di chứng tâm lý nặng nề và nỗi sợ hãi kéo dài suốt phần đời còn lại."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-27",
+   "act": 1,
+   "start": 244.79,
+   "end": 254.69,
    "role": "H",
    "sentences": [
     "1.09#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_subway_exit_sunlight",
+   "bg": "t8_incident_board_map",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cơn hoang tưởng tập thể bùng phát khắp thủ đô: người dân Tokyo nín thở khi bước xuống ga ngầm, kiểm tra từng gầm ghế và nghi kỵ lẫn nhau."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-28",
+   "act": 1,
+   "start": 254.69,
+   "end": 262.44,
+   "role": "H",
+   "sentences": [
+    "1.09#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_ambulances_tokyo_street",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -681,7 +1117,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -690,10 +1128,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-17",
+   "id": "1-29",
    "act": 1,
-   "start": 184.771,
-   "end": 195.921,
+   "start": 262.44,
+   "end": 274.13,
    "role": "D",
    "sentences": [
     "1.11#1"
@@ -730,10 +1168,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-18",
+   "id": "1-30",
    "act": 1,
-   "start": 195.921,
-   "end": 204.948,
+   "start": 274.13,
+   "end": 281.63,
    "role": "D",
    "sentences": [
     "1.11#2"
@@ -743,7 +1181,7 @@
    "bg": "t8_incident_board_map",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -770,28 +1208,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-19",
+   "id": "1-31",
    "act": 1,
-   "start": 204.948,
-   "end": 219.319,
+   "start": 281.63,
+   "end": 288.63,
    "role": "D",
    "sentences": [
-    "1.11#3",
-    "1.11#4"
+    "1.11#3"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t8_chemical_structure_sarin",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Phương thức gây án được tính toán tinh vi với năm kẻ tấn công đồng loạt ra tay vào đúng khung giờ cao điểm. Hóa chất được sử dụng là sarin, một loại khí độc thần kinh nhân tạo cực kỳ nguy hiểm và phức tạp trong tổng hợp."
+       "Phương thức gây án được tính toán tinh vi với năm kẻ tấn công đồng loạt ra tay vào đúng khung giờ cao điểm."
       ]
      ]
     }
@@ -811,17 +1248,137 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-20",
+   "id": "1-32",
    "act": 1,
-   "start": 219.319,
-   "end": 226.948,
+   "start": 288.63,
+   "end": 296.01,
+   "role": "D",
+   "sentences": [
+    "1.11#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_aum_shinrikyo_emblem_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hóa chất được sử dụng là sarin, một loại khí độc thần kinh nhân tạo cực kỳ nguy hiểm và phức tạp trong tổng hợp."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-33",
+   "act": 1,
+   "start": 296.01,
+   "end": 305.43,
    "role": "D",
    "sentences": [
     "1.11#5"
    ],
-   "template": "T2",
+   "template": "T1",
    "variant": "",
-   "bg": "t8_aum_shinrikyo_emblem_shadow",
+   "bg": "t8_dossier_elite_scientists",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Sarin là một hợp chất cực độc được các nhà khoa học quân sự Đức tổng hợp từ năm 1938, với độc tính cao gấp hàng trăm lần xyanua."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-34",
+   "act": 1,
+   "start": 305.43,
+   "end": 314.01,
+   "role": "D",
+   "sentences": [
+    "1.11#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_chemical_plant_reactor",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Để điều chế được hàng chục lít sarin với độ tinh khiết cao như vậy, kẻ đứng sau bắt buộc phải có một cơ sở công nghiệp và nguồn lực tài chính khổng lồ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-35",
+   "act": 1,
+   "start": 314.01,
+   "end": 322.03,
+   "role": "D",
+   "sentences": [
+    "1.11#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_police_hq",
    "bg2": null,
    "inset": null,
    "camera": "still",
@@ -842,7 +1399,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -851,29 +1410,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-21",
+   "id": "1-36",
    "act": 1,
-   "start": 226.948,
-   "end": 248.624,
+   "start": 322.03,
+   "end": 328.56,
    "role": "H",
    "sentences": [
-    "1.12#1",
-    "1.12#2",
-    "1.12#3"
+    "1.12#1"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t8_dossier_elite_scientists",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Điều khiến toàn bộ thế giới bàng hoàng không chỉ dừng lại ở sự tàn độc của vụ tấn công. Kẻ thực hiện không phải là một tổ chức quân sự ngoại quốc hay những tên tội phạm đường phố liều lĩnh."
+       "Nhưng điều khiến toàn bộ thế giới bàng hoàng không chỉ dừng lại ở sự tàn độc của vụ tấn công."
       ]
      ]
     }
@@ -884,9 +1441,7 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [
-     "C"
-    ],
+    "handoff": [],
     "dual": false,
     "guests": false,
     "p2": false
@@ -895,14 +1450,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-22",
+   "id": "1-37",
    "act": 1,
-   "start": 248.624,
-   "end": 267.105,
+   "start": 328.56,
+   "end": 337.95,
    "role": "H",
    "sentences": [
-    "1.12#4",
-    "1.12#5"
+    "1.12#2"
    ],
    "template": "T1",
    "variant": "",
@@ -916,7 +1470,7 @@
      "elems": [
       [
        "ital",
-       "Đứng sau thảm kịch ấy là những nhà khoa học, bác sĩ và trí thức tinh hoa của chính đất nước Nhật Bản. Chính vị thế học thức đỉnh cao ấy đã tạo nên một “Hiệu ứng Hào quang” chết người, che mắt toàn bộ xã hội và cơ quan an ninh suốt nhiều năm dài."
+       "Khi danh tính thực sự của những kẻ chế tạo và rải chất độc dần lộ diện, một nghịch lý rúng động đã phơi bày trước mắt công chúng."
       ]
      ]
     }
@@ -936,10 +1490,170 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-23",
+   "id": "1-38",
    "act": 1,
-   "start": 267.105,
-   "end": 268.905,
+   "start": 337.95,
+   "end": 344.53,
+   "role": "H",
+   "sentences": [
+    "1.12#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_broken_hippocratic_oath",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Kẻ thực hiện không phải là một tổ chức quân sự ngoại quốc hay những tên tội phạm đường phố liều lĩnh."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-39",
+   "act": 1,
+   "start": 344.53,
+   "end": 351.75,
+   "role": "H",
+   "sentences": [
+    "1.12#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_intellectual_hubris_chess",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đứng sau thảm kịch ấy là những nhà khoa học, bác sĩ và trí thức tinh hoa của chính đất nước Nhật Bản."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-40",
+   "act": 1,
+   "start": 351.75,
+   "end": 361.89,
+   "role": "H",
+   "sentences": [
+    "1.12#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_cosmic_physics_observatory",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chính vị thế học thức đỉnh cao ấy đã tạo nên một “Hiệu ứng Hào quang” chết người, che mắt toàn bộ xã hội và cơ quan an ninh suốt nhiều năm dài."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-41",
+   "act": 1,
+   "start": 361.89,
+   "end": 374.189,
+   "role": "H",
+   "sentences": [
+    "1.12#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_dossier_elite_scientists",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Một điểm mù xã hội chết người đã hình thành khi niềm tin ngây thơ vào giới tinh hoa che lấp đi những dấu hiệu cảnh báo rõ ràng nhất."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-42",
+   "act": 1,
+   "start": 374.189,
+   "end": 376.27,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -980,12 +1694,11 @@
   {
    "id": "2-01",
    "act": 2,
-   "start": 268.905,
-   "end": 282.511,
+   "start": 376.27,
+   "end": 384.52,
    "role": "H",
    "sentences": [
-    "2.02#1",
-    "2.02#2"
+    "2.02#1"
    ],
    "template": "T1",
    "variant": "",
@@ -999,7 +1712,7 @@
      "elems": [
       [
        "ital",
-       "Sáng sớm ngày 22 tháng 3 năm 1995, đúng hai ngày sau vụ tấn công kinh hoàng dưới lòng đất Tokyo. Hơn một nghìn sĩ quan cảnh sát và đặc nhiệm phòng hóa Nhật Bản đã đồng loạt xuất kích."
+       "Sáng sớm ngày 22 tháng 3 năm 1995, đúng hai ngày sau vụ tấn công kinh hoàng dưới lòng đất Tokyo."
       ]
      ]
     }
@@ -1021,11 +1734,11 @@
   {
    "id": "2-02",
    "act": 2,
-   "start": 282.511,
-   "end": 287.045,
+   "start": 384.52,
+   "end": 390.34,
    "role": "H",
    "sentences": [
-    "2.02#3"
+    "2.02#2"
    ],
    "template": "T1",
    "variant": "",
@@ -1033,6 +1746,46 @@
    "bg2": null,
    "inset": null,
    "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hơn một nghìn sĩ quan cảnh sát và đặc nhiệm phòng hóa Nhật Bản đã đồng loạt xuất kích."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-03",
+   "act": 2,
+   "start": 390.34,
+   "end": 394.43,
+   "role": "H",
+   "sentences": [
+    "2.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_police_convoy_kamikuishiki",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -1059,14 +1812,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-03",
+   "id": "2-04",
    "act": 2,
-   "start": 287.045,
-   "end": 303.342,
+   "start": 394.43,
+   "end": 403.65,
    "role": "H",
    "sentences": [
-    "2.02#4",
-    "2.02#5"
+    "2.02#4"
    ],
    "template": "T1",
    "variant": "",
@@ -1080,7 +1832,7 @@
      "elems": [
       [
        "ital",
-       "Đoàn xe tiến thẳng vào khu căn cứ khổng lồ của giáo phái Aum tại làng Kamikuishiki, nằm biệt lập dưới chân núi Phú Sĩ. Một cuộc khám xét quy mô chưa từng có trong lịch sử thực thi pháp luật của đất nước mặt trời mọc."
+       "Đoàn xe tiến thẳng vào khu căn cứ khổng lồ của giáo phái Aum tại làng Kamikuishiki, nằm biệt lập dưới chân núi Phú Sĩ."
       ]
      ]
     }
@@ -1091,49 +1843,6 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [
-     "D"
-    ],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "2-04",
-   "act": 2,
-   "start": 303.342,
-   "end": 317.803,
-   "role": "D",
-   "sentences": [
-    "2.04#1",
-    "2.04#2"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t8_satyam_compound_aerial",
-   "bg2": null,
-   "inset": null,
-   "camera": "still",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Khu liên hợp của giáo phái mang tên Satyam là một quần thể gồm hàng chục tòa nhà bê tông xám xịt được canh phòng cẩn mật bằng hệ thống camera giám sát. Bề ngoài, nó mang danh nghĩa là tu viện thiền định và xưởng sản xuất nông sản thanh tịnh."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": true,
     "handoff": [],
     "dual": false,
     "guests": false,
@@ -1145,16 +1854,15 @@
   {
    "id": "2-05",
    "act": 2,
-   "start": 317.803,
-   "end": 333.21,
-   "role": "D",
+   "start": 403.65,
+   "end": 413.05,
+   "role": "H",
    "sentences": [
-    "2.04#3",
-    "2.04#4"
+    "2.02#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_satyam_7_exterior",
+   "bg": "t8_asahara_empty_dock",
    "bg2": null,
    "inset": null,
    "camera": "pull",
@@ -1164,7 +1872,7 @@
      "elems": [
       [
        "ital",
-       "Khi cảnh sát tiến vào tòa nhà mang mã số Satyam số 7, tất cả các chuyên gia đều phải lạnh người trước những gì tận mắt chứng kiến. Bên trong không hề có tượng Phật hay không gian thờ tự, mà là một nhà máy sản xuất vũ khí hóa học quy mô công nghiệp hoàn chỉnh."
+       "Sự u ám, hoang tàn của những dãy nhà xưởng biệt lập này tạo nên một sự tương phản rùng mình với vẻ đẹp thanh bình của ngọn núi thiêng."
       ]
      ]
     }
@@ -1186,11 +1894,173 @@
   {
    "id": "2-06",
    "act": 2,
-   "start": 333.21,
-   "end": 340.19,
+   "start": 413.05,
+   "end": 420.76,
+   "role": "H",
+   "sentences": [
+    "2.02#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_satyam_compound_aerial",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Một cuộc khám xét quy mô chưa từng có trong lịch sử thực thi pháp luật của đất nước mặt trời mọc."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-07",
+   "act": 2,
+   "start": 420.76,
+   "end": 430.43,
    "role": "D",
    "sentences": [
-    "2.04#5"
+    "2.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_satyam_compound_aerial",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Khu liên hợp của giáo phái mang tên Satyam là một quần thể gồm hàng chục tòa nhà bê tông xám xịt được canh phòng cẩn mật bằng hệ thống camera giám sát."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-08",
+   "act": 2,
+   "start": 430.43,
+   "end": 436.16,
+   "role": "D",
+   "sentences": [
+    "2.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_satyam_7_exterior",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bề ngoài khu căn cứ mang danh nghĩa là tu viện thiền định và xưởng sản xuất nông sản thanh tịnh."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-09",
+   "act": 2,
+   "start": 436.16,
+   "end": 444.01,
+   "role": "D",
+   "sentences": [
+    "2.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_satyam_7_exterior",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nhưng khi cảnh sát tiến vào tòa nhà mang mã số Satyam số 7, tất cả các chuyên gia đều phải lạnh người trước những gì tận mắt chứng kiến."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-10",
+   "act": 2,
+   "start": 444.01,
+   "end": 451.98,
+   "role": "D",
+   "sentences": [
+    "2.04#4"
    ],
    "template": "T1",
    "variant": "",
@@ -1198,6 +2068,86 @@
    "bg2": null,
    "inset": null,
    "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bên trong không hề có tượng Phật hay không gian thờ tự, mà là một nhà máy sản xuất vũ khí hóa học quy mô công nghiệp hoàn chỉnh."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-11",
+   "act": 2,
+   "start": 451.98,
+   "end": 461.49,
+   "role": "D",
+   "sentences": [
+    "2.04#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_mi17_helicopter_hangar",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Khu phức hợp hóa học này có giá trị ước tính lên tới hơn ba mươi triệu đô la Mỹ, được vận hành với hệ thống lọc khí áp suất âm hệt như một nhà máy vũ khí quân sự."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-12",
+   "act": 2,
+   "start": 461.49,
+   "end": 468.83,
+   "role": "D",
+   "sentences": [
+    "2.04#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_chemical_plant_reactor",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -1224,20 +2174,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-07",
+   "id": "2-13",
    "act": 2,
-   "start": 340.19,
-   "end": 347.798,
+   "start": 468.83,
+   "end": 476.95,
    "role": "D",
    "sentences": [
-    "2.04#6"
+    "2.04#7"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t8_mi17_helicopter_hangar",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -1264,310 +2214,17 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-08",
-   "act": 2,
-   "start": 347.798,
-   "end": 365.893,
-   "role": "H",
-   "sentences": [
-    "2.05#1",
-    "2.05#2"
-   ],
-   "template": "T3",
-   "variant": "compare",
-   "bg": "t8_newspaper_wrapped_package",
-   "bg2": null,
-   "inset": null,
-   "camera": "still",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "THỦ ĐOẠN"
-      ],
-      [
-       "bold",
-       "Túi ni-lông, đầu ô, xe chờ sẵn"
-      ]
-     ]
-    },
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "CHỮ KÝ TÂM LÝ"
-      ],
-      [
-       "bold",
-       "Hiện thực hóa ngày tận thế"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "2-09",
-   "act": 2,
-   "start": 365.893,
-   "end": 395.302,
-   "role": "H",
-   "sentences": [
-    "2.05#3",
-    "2.05#4",
-    "2.05#5"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t8_aum_shinrikyo_emblem_shadow",
-   "bg2": null,
-   "inset": null,
-   "camera": "pull",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Thế nhưng, ngòi nổ tâm lý kích hoạt cuộc tấn công vào đúng thời điểm đó lại xuất phát từ một cơn hoảng loạn tột độ của kẻ cầm đầu. Giáo chủ Aum nhận được tin mật báo cảnh sát sẽ đại lục soát khu căn cứ Kamikuishiki vào ngày 22 tháng 3 — và ra lệnh phát động cuộc tấn công sarin chỉ trong vòng 48 giờ."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "2-10",
-   "act": 2,
-   "start": 395.302,
-   "end": 410.562,
-   "role": "H",
-   "sentences": [
-    "2.05#6",
-    "2.05#7"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t8_weapons_of_mass_destruction",
-   "bg2": null,
-   "inset": null,
-   "camera": "still",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Còn Chữ ký tâm lý bất biến của hắn chính là nhu cầu cưỡng chế hiện thực hóa kịch bản ngày tận thế mà hắn đã tiên tri. Hắn khao khát chứng minh cho các đệ tử thấy rằng dự ngôn chiến tranh thế giới thứ ba của mình đang thực sự diễn ra."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "2-11",
-   "act": 2,
-   "start": 410.562,
-   "end": 418.155,
-   "role": "D",
-   "sentences": [
-    "2.07#1"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t8_matsumoto_night_1994",
-   "bg2": null,
-   "inset": null,
-   "camera": "pan",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Quá trình điều tra sau đó đã vạch trần quỹ đạo leo thang tội ác kéo dài suốt nhiều năm của tổ chức này."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "2-12",
-   "act": 2,
-   "start": 418.155,
-   "end": 460.2,
-   "role": "D",
-   "sentences": [
-    "2.07#2",
-    "2.07#3",
-    "2.07#4",
-    "2.07#5"
-   ],
-   "template": "T6",
-   "variant": "",
-   "bg": "t8_sarin_synthesis_laboratory",
-   "bg2": null,
-   "inset": null,
-   "camera": "still",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Nấc thứ nhất · Yoga và bay bổng"
-      ]
-     ]
-    },
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Nấc thứ hai · Cưỡng đoạt và giam giữ"
-      ]
-     ]
-    },
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Nấc thứ ba · Ám sát năm 1989"
-      ]
-     ]
-    },
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Nấc thứ tư · Matsumoto năm 1994"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "2-13",
-   "act": 2,
-   "start": 460.2,
-   "end": 476.018,
-   "role": "D",
-   "sentences": [
-    "2.07#6",
-    "2.07#7"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t8_sakamoto_lawyer_desk",
-   "bg2": null,
-   "inset": null,
-   "camera": "pull",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Chuỗi hành vi cho thấy mức độ bạo lực liên tục tăng tiến khi giáo phái ngày càng lún sâu vào ảo tưởng quyền lực. Và thảm kịch tàu điện ngầm Tokyo chính là điểm bùng nổ cuối cùng của quỹ đạo leo thang tàn bạo đó."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
    "id": "2-14",
    "act": 2,
-   "start": 476.018,
-   "end": 493.994,
-   "role": "H",
+   "start": 476.95,
+   "end": 487.15,
+   "role": "D",
    "sentences": [
-    "2.08#1",
-    "2.08#2"
+    "2.04#8"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_mountain_grave_memorial",
+   "bg": "t8_tsukuba_chemistry_lab",
    "bg2": null,
    "inset": null,
    "camera": "still",
@@ -1577,7 +2234,7 @@
      "elems": [
       [
        "ital",
-       "Một tổ chức tôn giáo tự xưng là mang lại sự giác ngộ tâm linh lại sở hữu cả một kho vũ khí hủy diệt hàng loạt. Cơ chế dung nạp kích thích đã khiến ngưỡng thỏa mãn của giáo phái liên tục bị đẩy xa hơn, từ những trò lừa bịp nhỏ cho đến hành vi khủng bố tàn khốc."
+       "Tài liệu thu giữ còn tiết lộ kế hoạch điên rồ mua trang trại rộng hàng trăm nghìn héc-ta tại Úc để thử nghiệm vũ khí và tìm kiếm quặng uranium."
       ]
      ]
     }
@@ -1588,7 +2245,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -1599,26 +2258,25 @@
   {
    "id": "2-15",
    "act": 2,
-   "start": 493.994,
-   "end": 511.253,
+   "start": 487.15,
+   "end": 496.68,
    "role": "H",
    "sentences": [
-    "2.08#3",
-    "2.08#4"
+    "2.05#1"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_asahara_shadow_profile",
+   "bg": "t8_newspaper_wrapped_package",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Làm thế nào một kẻ mù lòa từng bán thuốc giả lại có thể tập hợp và thao túng cả một đội ngũ trí thức xuất chúng để chế tạo cỗ máy tử thần ấy? Câu trả lời nằm sâu trong những góc khuất tăm tối nhất của tâm lý học hành vi."
+       "Về mặt nghiệp vụ, vụ tấn công ngày 20 tháng 3 đã phơi bày sự tách bạch rõ rệt giữa Thủ đoạn gây án và Chữ ký tâm lý của giáo phái."
       ]
      ]
     }
@@ -1640,8 +2298,972 @@
   {
    "id": "2-16",
    "act": 2,
-   "start": 511.253,
-   "end": 513.053,
+   "start": 496.68,
+   "end": 507.16,
+   "role": "H",
+   "sentences": [
+    "2.05#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_aum_shinrikyo_emblem_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Thủ đoạn thực hiện được chuẩn bị kỹ lưỡng: dùng túi ni-lông hai lớp bọc giấy báo, dùi thủng bằng đầu ô và bố trí tài xế đợi sẵn trước cửa ga để tẩu thoát."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-17",
+   "act": 2,
+   "start": 507.16,
+   "end": 516.98,
+   "role": "H",
+   "sentences": [
+    "2.05#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_apocalypse_prophecy_scroll",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Thế nhưng, ngòi nổ tâm lý kích hoạt cuộc tấn công vào đúng thời điểm đó lại xuất phát từ một cơn hoảng loạn tột độ của kẻ cầm đầu."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-18",
+   "act": 2,
+   "start": 516.98,
+   "end": 530.03,
+   "role": "H",
+   "sentences": [
+    "2.05#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_iron_gate_closing",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Giáo chủ Aum nhận được tin mật báo rằng cảnh sát sẽ tiến hành đại lục soát khu căn cứ Kamikuishiki vào ngày 22 tháng 3 vì vụ bắt cóc một công chứng viên tại Tokyo."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-19",
+   "act": 2,
+   "start": 530.03,
+   "end": 541.8,
+   "role": "H",
+   "sentences": [
+    "2.05#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_moral_rationalization_books",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nạn nhân bị giáo phái thủ tiêu trước đó là ông Kiyoshi Kariya, một công chứng viên dũng cảm đã kiên quyết bảo vệ em gái mình khỏi sự cưỡng đoạt tài sản của tổ chức."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-20",
+   "act": 2,
+   "start": 541.8,
+   "end": 554.22,
+   "role": "H",
+   "sentences": [
+    "2.05#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_police_convoy_kamikuishiki",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Để đối phó với nguy cơ bị vạch trần, giáo chủ đã ra lệnh phát động cuộc tấn công sarin chỉ trong vòng 48 giờ nhằm đánh lạc hướng điều tra và làm tê liệt đầu não cảnh sát."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-21",
+   "act": 2,
+   "start": 554.22,
+   "end": 564.78,
+   "role": "H",
+   "sentences": [
+    "2.05#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_newspaper_wrapped_package",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Còn Chữ ký tâm lý bất biến của hắn chính là nhu cầu cưỡng chế hiện thực hóa kịch bản ngày tận thế mà hắn đã tiên tri."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-22",
+   "act": 2,
+   "start": 564.78,
+   "end": 574.91,
+   "role": "H",
+   "sentences": [
+    "2.05#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_aum_shinrikyo_emblem_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ảo tưởng cứu thế và nỗi sợ hãi thực tại bị phơi bày đã hòa làm một, biến cuộc thảm sát thành công cụ tự vệ tuyệt vọng của kẻ cuồng tín."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-23",
+   "act": 2,
+   "start": 574.91,
+   "end": 583.38,
+   "role": "H",
+   "sentences": [
+    "2.05#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_apocalypse_prophecy_scroll",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn khao khát chứng minh cho các đệ tử thấy rằng dự ngôn chiến tranh thế giới thứ ba của mình đang thực sự diễn ra."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-24",
+   "act": 2,
+   "start": 583.38,
+   "end": 589.12,
+   "role": "D",
+   "sentences": [
+    "2.07#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_matsumoto_night_1994",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Quá trình điều tra sau đó đã vạch trần quỹ đạo leo thang tội ác kéo dài suốt nhiều năm của tổ chức này:"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-25",
+   "act": 2,
+   "start": 589.12,
+   "end": 597.23,
+   "role": "D",
+   "sentences": [
+    "2.07#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_yoga_meditation_incense",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nấc thang thứ nhất: Khởi đầu từ một phòng tập yoga nhỏ và những màn biểu diễn bay bổng trên không để thu hút tín đồ nhẹ dạ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-26",
+   "act": 2,
+   "start": 597.23,
+   "end": 606.04,
+   "role": "D",
+   "sentences": [
+    "2.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_sakamoto_lawyer_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nấc thang thứ hai: Cưỡng đoạt toàn bộ tài sản, giam giữ các thành viên có ý định bỏ trốn và thủ tiêu những người bất đồng chính kiến trong nội bộ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-27",
+   "act": 2,
+   "start": 606.04,
+   "end": 617.63,
+   "role": "D",
+   "sentences": [
+    "2.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_mountain_grave_memorial",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nấc thang thứ ba: Tàn sát cả gia đình Luật sư Tsutsumi Sakamoto vào năm 1989 khi ông đứng ra bảo vệ các gia đình nạn nhân bị lừa gạt."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-28",
+   "act": 2,
+   "start": 617.63,
+   "end": 630.31,
+   "role": "D",
+   "sentences": [
+    "2.07#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_mountain_grave_memorial",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Gia đình nạn nhân gồm người vợ Satoko và đứa con trai nhỏ Tatsuhiko mới mười bốn tháng tuổi đã bị … dã man ngay tại nhà riêng chỉ vì dám lên tiếng vạch trần bộ mặt thật của tổ chức."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-29",
+   "act": 2,
+   "start": 630.31,
+   "end": 642.28,
+   "role": "D",
+   "sentences": [
+    "2.07#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_police_convoy_kamikuishiki",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nấc thang thứ tư: Vụ phát tán khí độc tại thành phố Matsumoto vào mùa hè năm 1994 khiến tám người thiệt mạng nhằm … các thẩm phán đang thụ lý vụ kiện chống lại giáo phái."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-30",
+   "act": 2,
+   "start": 642.28,
+   "end": 653.16,
+   "role": "D",
+   "sentences": [
+    "2.07#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_matsumoto_court_dossier",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Tại Matsumoto, giáo phái đã sử dụng một xe tải cải tiến gắn quạt gió để phát tán khí độc vào ban đêm, tạo thành một vụ tập dượt quy mô lớn trước khi tấn công thủ đô."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-31",
+   "act": 2,
+   "start": 653.16,
+   "end": 659.7,
+   "role": "D",
+   "sentences": [
+    "2.07#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_matsumoto_night_1994",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chuỗi hành vi cho thấy mức độ bạo lực liên tục tăng tiến khi giáo phái ngày càng lún sâu vào ảo tưởng quyền lực."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-32",
+   "act": 2,
+   "start": 659.7,
+   "end": 665.9,
+   "role": "D",
+   "sentences": [
+    "2.07#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_sarin_synthesis_laboratory",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Và thảm kịch tàu điện ngầm Tokyo chính là điểm bùng nổ cuối cùng của quỹ đạo leo thang tàn bạo đó."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-33",
+   "act": 2,
+   "start": 665.9,
+   "end": 674.54,
+   "role": "D",
+   "sentences": [
+    "2.07#10"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_sakamoto_lawyer_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Mỗi nấc thang tội ác bị bỏ lọt đã tiếp thêm sự ngạo mạn cho giáo phái, biến chúng thành một thực thể thách thức cả quốc gia."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-34",
+   "act": 2,
+   "start": 674.54,
+   "end": 683.07,
+   "role": "H",
+   "sentences": [
+    "2.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_aum_shinrikyo_emblem_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Một tổ chức tôn giáo tự xưng là mang lại sự giác ngộ tâm linh lại sở hữu cả một kho vũ khí hủy diệt hàng loạt."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-35",
+   "act": 2,
+   "start": 683.07,
+   "end": 692.82,
+   "role": "H",
+   "sentences": [
+    "2.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_moral_rationalization_books",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cơ chế dung nạp kích thích đã khiến ngưỡng thỏa mãn của giáo phái liên tục bị đẩy xa hơn, từ những trò lừa bịp nhỏ cho đến hành vi khủng bố tàn khốc."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-36",
+   "act": 2,
+   "start": 692.82,
+   "end": 705.91,
+   "role": "H",
+   "sentences": [
+    "2.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_weapons_of_mass_destruction",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Sự chậm trễ và lúng túng của chính quyền bắt nguồn từ việc luật pháp thời kỳ đó trao quyền tự do tôn giáo gần như tuyệt đối, tạo nên một tấm khiên bất khả xâm phạm cho các hoạt động ngầm."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-37",
+   "act": 2,
+   "start": 705.91,
+   "end": 716.5,
+   "role": "H",
+   "sentences": [
+    "2.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_devotion_altar_kneeling",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Làm thế nào một kẻ mù lòa từng bán thuốc giả lại có thể tập hợp và thao túng cả một đội ngũ trí thức xuất chúng để chế tạo cỗ máy tử thần ấy?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-38",
+   "act": 2,
+   "start": 716.5,
+   "end": 724.22,
+   "role": "H",
+   "sentences": [
+    "2.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_buddhist_mandala_distortion",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đằng sau bức màn thần thánh ấy là một mê cung thao túng tâm lý được tính toán đến từng chi tiết nhỏ nhất."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-39",
+   "act": 2,
+   "start": 724.22,
+   "end": 731.38,
+   "role": "H",
+   "sentences": [
+    "2.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_aum_shinrikyo_emblem_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Câu trả lời nằm sâu trong những góc khuất tăm tối nhất của tâm lý học hành vi."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-40",
+   "act": 2,
+   "start": 731.38,
+   "end": 733.44,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -1682,26 +3304,25 @@
   {
    "id": "3-01",
    "act": 3,
-   "start": 513.053,
-   "end": 531.634,
+   "start": 733.44,
+   "end": 742.25,
    "role": "H",
    "sentences": [
-    "3.02#1",
-    "3.02#2"
+    "3.02#1"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t8_asahara_shadow_profile",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Đứng đầu giáo phái Aum Shinrikyo là một người đàn ông mang tên Shoko Asahara, tên thật là Chizuo Matsumoto. Hắn sinh ra trong một gia đình nghèo đông con tại tỉnh Kumamoto, bị mù một mắt và mắt còn lại suy giảm thị lực nghiêm trọng do bệnh bẩm sinh."
+       "Đứng đầu giáo phái Aum Shinrikyo là một người đàn ông mang tên Shoko Asahara, tên thật là Chizuo Matsumoto."
       ]
      ]
     }
@@ -1723,18 +3344,98 @@
   {
    "id": "3-02",
    "act": 3,
-   "start": 531.634,
-   "end": 538.474,
+   "start": 742.25,
+   "end": 752.58,
    "role": "H",
    "sentences": [
-    "3.02#3"
+    "3.02#2"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t8_todai_red_gate_shadow",
    "bg2": null,
    "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn sinh ra trong một gia đình nghèo đông con tại tỉnh Kumamoto, bị mù một mắt và mắt còn lại suy giảm thị lực nghiêm trọng do bệnh bẩm sinh."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-03",
+   "act": 3,
+   "start": 752.58,
+   "end": 763.67,
+   "role": "H",
+   "sentences": [
+    "3.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_chinese_herbal_apothecary",
+   "bg2": null,
+   "inset": null,
    "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bị gia đình gửi vào trường nội trú dành cho người mù từ khi còn nhỏ, Matsumoto lớn lên trong sự thiếu thốn tình thương và nỗi uất ức bị cô lập sâu sắc."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-04",
+   "act": 3,
+   "start": 763.67,
+   "end": 770.96,
+   "role": "H",
+   "sentences": [
+    "3.02#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_todai_red_gate_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -1761,20 +3462,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-03",
+   "id": "3-05",
    "act": 3,
-   "start": 538.474,
-   "end": 544.736,
+   "start": 770.96,
+   "end": 777.07,
    "role": "H",
    "sentences": [
-    "3.02#4"
+    "3.02#5"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t8_chinese_herbal_apothecary",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -1801,17 +3502,57 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-04",
+   "id": "3-06",
    "act": 3,
-   "start": 544.736,
-   "end": 552.152,
+   "start": 777.07,
+   "end": 789.62,
    "role": "H",
    "sentences": [
-    "3.02#5"
+    "3.02#6"
    ],
-   "template": "T4",
+   "template": "T1",
    "variant": "",
-   "bg": "t8_asahara_shadow_profile",
+   "bg": "t8_devotion_altar_kneeling",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Mặc cảm tự ti về thể xác và thất bại học vấn đã kích hoạt cơ chế bù trừ tâm lý cực đoan, nung nấu trong hắn một khao khát điên cuồng về sự thống trị tuyệt đối."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-07",
+   "act": 3,
+   "start": 789.62,
+   "end": 797.0,
+   "role": "H",
+   "sentences": [
+    "3.02#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_matsumoto_court_dossier",
    "bg2": null,
    "inset": null,
    "camera": "still",
@@ -1841,18 +3582,57 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-05",
+   "id": "3-08",
    "act": 3,
-   "start": 552.152,
-   "end": 568.704,
+   "start": 797.0,
+   "end": 804.22,
    "role": "H",
    "sentences": [
-    "3.02#6",
-    "3.02#7"
+    "3.02#8"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_devotion_altar_kneeling",
+   "bg": "t8_yoga_meditation_incense",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Thế nhưng, quỳ gối dưới chân người đàn ông mù lòa ấy lại là những trí thức ưu tú nhất của đất nước Nhật Bản."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-09",
+   "act": 3,
+   "start": 804.22,
+   "end": 811.65,
+   "role": "H",
+   "sentences": [
+    "3.02#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_asahara_shadow_profile",
    "bg2": null,
    "inset": null,
    "camera": "pan",
@@ -1862,7 +3642,49 @@
      "elems": [
       [
        "ital",
-       "Thế nhưng, quỳ gối dưới chân người đàn ông mù lòa ấy lại là những trí thức ưu tú nhất của đất nước Nhật Bản. Họ sẵn sàng dâng hiến toàn bộ tài sản, lý trí và lương tâm của mình cho một kẻ từng bị xã hội khinh thường."
+       "Họ sẵn sàng dâng hiến toàn bộ tài sản, lý trí và lương tâm của mình cho một kẻ từng bị xã hội khinh thường."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-10",
+   "act": 3,
+   "start": 811.65,
+   "end": 820.34,
+   "role": "D",
+   "sentences": [
+    "3.03#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_dossier_elite_scientists",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hồ sơ của ban lãnh đạo giáo phái Aum khiến bất kỳ ai cũng phải ngỡ ngàng trước hàm lượng chất xám mà tổ chức này sở hữu."
       ]
      ]
     }
@@ -1882,18 +3704,17 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-06",
+   "id": "3-11",
    "act": 3,
-   "start": 568.704,
-   "end": 584.788,
+   "start": 820.34,
+   "end": 828.12,
    "role": "D",
    "sentences": [
-    "3.03#1",
     "3.03#2"
    ],
-   "template": "T2",
+   "template": "T1",
    "variant": "",
-   "bg": "t8_dossier_elite_scientists",
+   "bg": "t8_cosmic_physics_observatory",
    "bg2": null,
    "inset": null,
    "camera": "still",
@@ -1903,7 +3724,7 @@
      "elems": [
       [
        "ital",
-       "Hồ sơ của ban lãnh đạo giáo phái Aum khiến bất kỳ ai cũng phải ngỡ ngàng trước hàm lượng chất xám mà tổ chức này sở hữu. Người phụ trách Bộ Hóa học của giáo phái là Masami Tsuchiya, thạc sĩ hóa học hữu cơ xuất sắc của Đại học Tsukuba danh tiếng."
+       "Người phụ trách Bộ Hóa học của giáo phái là Masami Tsuchiya, thạc sĩ hóa học hữu cơ xuất sắc của Đại học Tsukuba danh tiếng."
       ]
      ]
     }
@@ -1923,10 +3744,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-07",
+   "id": "3-12",
    "act": 3,
-   "start": 584.788,
-   "end": 593.272,
+   "start": 828.12,
+   "end": 837.3,
    "role": "D",
    "sentences": [
     "3.03#3"
@@ -1936,7 +3757,7 @@
    "bg": "t8_cosmic_physics_observatory",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -1963,10 +3784,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-08",
+   "id": "3-13",
    "act": 3,
-   "start": 593.272,
-   "end": 600.935,
+   "start": 837.3,
+   "end": 845.82,
    "role": "D",
    "sentences": [
     "3.03#4"
@@ -1976,7 +3797,7 @@
    "bg": "t8_virology_electron_microscope",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -2003,28 +3824,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-09",
+   "id": "3-14",
    "act": 3,
-   "start": 600.935,
-   "end": 619.387,
+   "start": 845.82,
+   "end": 851.95,
    "role": "D",
    "sentences": [
-    "3.03#5",
-    "3.03#6"
+    "3.03#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_cardiac_surgery_theatre",
+   "bg": "t8_virology_electron_microscope",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Một thành viên cốt cán khác là Bác sĩ Tomomasa Nakagawa, tốt nghiệp đại học y khoa. Và đặc biệt hơn cả, phụ trách hệ thống bệnh viện của giáo phái là Bác sĩ Ikuo Hayashi, chuyên gia tim mạch tốt nghiệp Đại học Keio danh giá và từng là bác sĩ trưởng khoa tại bệnh viện quốc gia."
+       "Một thành viên cốt cán khác là Bác sĩ Tomomasa Nakagawa, tốt nghiệp đại học y khoa."
       ]
      ]
     }
@@ -2044,20 +3864,142 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-10",
+   "id": "3-15",
    "act": 3,
-   "start": 619.387,
-   "end": 628.345,
+   "start": 851.95,
+   "end": 864.2,
+   "role": "D",
+   "sentences": [
+    "3.03#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_cardiac_surgery_theatre",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Và đặc biệt hơn cả, phụ trách hệ thống bệnh viện của giáo phái là Bác sĩ Ikuo Hayashi, chuyên gia tim mạch tốt nghiệp Đại học Keio danh giá và từng là bác sĩ trưởng khoa tại bệnh viện quốc gia."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-16",
+   "act": 3,
+   "start": 864.2,
+   "end": 873.48,
+   "role": "D",
+   "sentences": [
+    "3.03#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tsukuba_chemistry_lab",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Những cá nhân này đều từng là thủ khoa hoặc nghiên cứu sinh xuất sắc, được nhà nước đầu tư nguồn học bổng lớn và nắm giữ tương lai xán lạn trong giới học thuật."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-17",
+   "act": 3,
+   "start": 873.48,
+   "end": 883.19,
+   "role": "D",
+   "sentences": [
+    "3.03#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_dossier_elite_scientists",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Sự quy tụ của một đội ngũ trí thức tầm cỡ quốc gia dưới trướng một kẻ mù chữ về khoa học là một hiện tượng điều tra chưa từng có tiền lệ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-18",
+   "act": 3,
+   "start": 883.19,
+   "end": 891.84,
    "role": "H",
    "sentences": [
     "3.04#1"
    ],
-   "template": "T4",
+   "template": "T1",
    "variant": "",
    "bg": "t8_stethoscope_abandoned_drain",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -2084,28 +4026,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-11",
+   "id": "3-19",
    "act": 3,
-   "start": 628.345,
-   "end": 642.225,
+   "start": 891.84,
+   "end": 899.34,
    "role": "H",
    "sentences": [
-    "3.04#2",
-    "3.04#3"
+    "3.04#2"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t8_intellectual_hubris_chess",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Tại sao họ lại từ bỏ đỉnh cao danh vọng để rồi chế tạo vũ khí hủy diệt chính đồng bào của mình? Điều gì đã đánh sập toàn bộ hệ thống phòng thủ lý trí của những bộ óc thông minh nhất đất nước?"
+       "Tại sao họ lại từ bỏ đỉnh cao danh vọng để rồi chế tạo vũ khí hủy diệt chính đồng bào của mình?"
       ]
      ]
     }
@@ -2125,31 +4066,109 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-12",
+   "id": "3-20",
    "act": 3,
-   "start": 642.225,
-   "end": 647.763,
-   "role": "C",
+   "start": 899.34,
+   "end": 905.15,
+   "role": "H",
    "sentences": [
-    "3.05#1"
+    "3.04#3"
    ],
-   "template": "T9",
+   "template": "T1",
    "variant": "",
-   "bg": "t8_tokyo_stock_crash_1990",
+   "bg": "t8_broken_hippocratic_oath",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "Sự trống rỗng hiện sinh"
-      ],
+       "ital",
+       "Điều gì đã đánh sập toàn bộ hệ thống phòng thủ lý trí của những bộ óc thông minh nhất đất nước?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-21",
+   "act": 3,
+   "start": 905.15,
+   "end": 915.18,
+   "role": "H",
+   "sentences": [
+    "3.04#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_frontal_lobe_brain_scan",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
       [
        "ital",
-       "(Existential Vacuum)"
+       "Làm thế nào mà tư duy duy lý khoa học lại có thể đầu hàng hoàn toàn trước những điều hoang đường và vô căn cứ nhất?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-22",
+   "act": 3,
+   "start": 915.18,
+   "end": 921.43,
+   "role": "C",
+   "sentences": [
+    "3.05#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_stock_crash_1990",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Câu trả lời bắt nguồn từ một hiện tượng tâm lý học xã hội sâu sắc mang tên Sự trống rỗng hiện sinh."
       ]
      ]
     }
@@ -2169,28 +4188,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-13",
+   "id": "3-23",
    "act": 3,
-   "start": 647.763,
-   "end": 661.091,
+   "start": 921.43,
+   "end": 926.56,
    "role": "C",
    "sentences": [
-    "3.05#2",
-    "3.05#3"
+    "3.05#2"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t8_corporate_salaryman_cogs",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Vào đầu thập niên 90, nước Nhật trải qua sự sụp đổ kinh hoàng của nền kinh tế bong bóng. Xã hội Nhật Bản lúc bấy giờ vận hành như một cỗ máy áp lực khổng lồ, nơi mỗi cá nhân bị ép phải trở thành những bánh răng vô danh trong các tập đoàn lớn."
+       "Vào đầu thập niên 90, nước Nhật trải qua sự sụp đổ kinh hoàng của nền kinh tế bong bóng."
       ]
      ]
     }
@@ -2210,20 +4228,60 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-14",
+   "id": "3-24",
    "act": 3,
-   "start": 661.091,
-   "end": 669.249,
+   "start": 926.56,
+   "end": 935.27,
    "role": "C",
    "sentences": [
-    "3.05#4"
+    "3.05#3"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t8_yoga_meditation_incense",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Xã hội Nhật Bản lúc bấy giờ vận hành như một cỗ máy áp lực khổng lồ, nơi mỗi cá nhân bị ép phải trở thành những bánh răng vô danh trong các tập đoàn lớn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-25",
+   "act": 3,
+   "start": 935.27,
+   "end": 943.1,
+   "role": "C",
+   "sentences": [
+    "3.05#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_moral_rationalization_books",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -2250,28 +4308,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-15",
+   "id": "3-26",
    "act": 3,
-   "start": 669.249,
-   "end": 685.145,
+   "start": 943.1,
+   "end": 952.0,
    "role": "C",
    "sentences": [
-    "3.05#5",
-    "3.05#6"
+    "3.05#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_asahara_shadow_profile",
+   "bg": "t8_fragile_boundary_mirror",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Chính vào lúc những bộ óc xuất sắc ấy cảm thấy cô đơn và lạc lõng nhất, Shoko Asahara đã xuất hiện với một chiếc bẫy ngôn từ được ngụy trang hoàn hảo. Hắn khéo léo lồng ghép các khái niệm tâm linh phương Đông với các thuật ngữ khoa học như cơ học lượng tử, trường năng lượng và tận thế luận."
+       "Họ có câu trả lời hoàn hảo cho câu hỏi “Làm thế nào” bằng khoa học thực nghiệm, nhưng lại hoàn toàn bế tắc trước câu hỏi hiện sinh “Ta sống để làm gì”."
       ]
      ]
     }
@@ -2291,20 +4348,100 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-16",
+   "id": "3-27",
    "act": 3,
-   "start": 685.145,
-   "end": 691.713,
+   "start": 952.0,
+   "end": 960.84,
+   "role": "C",
+   "sentences": [
+    "3.05#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_apocalypse_prophecy_scroll",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chính vào lúc những bộ óc xuất sắc ấy cảm thấy cô đơn và lạc lõng nhất, Shoko Asahara đã xuất hiện với một chiếc bẫy ngôn từ được ngụy trang hoàn hảo."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-28",
+   "act": 3,
+   "start": 960.84,
+   "end": 968.62,
    "role": "C",
    "sentences": [
     "3.05#7"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_moral_rationalization_books",
+   "bg": "t8_tokyo_stock_crash_1990",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn khéo léo lồng ghép các khái niệm tâm linh phương Đông với các thuật ngữ khoa học như cơ học lượng tử, trường năng lượng và tận thế luận."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-29",
+   "act": 3,
+   "start": 968.62,
+   "end": 974.46,
+   "role": "C",
+   "sentences": [
+    "3.05#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_corporate_salaryman_cogs",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -2331,96 +4468,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-17",
+   "id": "3-30",
    "act": 3,
-   "start": 691.713,
-   "end": 704.953,
-   "role": "H",
-   "sentences": [
-    "3.06#1",
-    "3.06#2"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t8_intellectual_hubris_chess",
-   "bg2": null,
-   "inset": null,
-   "camera": "pull",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Những người có học thức cao thường có một điểm yếu tâm lý chí mạng: Cái tôi trí tuệ quá lớn. Họ luôn tin rằng bản thân quá thông minh và duy lý để có thể bị một kẻ khác thao túng hoặc lừa gạt."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-18",
-   "act": 3,
-   "start": 704.953,
-   "end": 724.584,
-   "role": "H",
-   "sentences": [
-    "3.06#3",
-    "3.06#4"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t8_moral_rationalization_books",
-   "bg2": null,
-   "inset": null,
-   "camera": "still",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Khi Asahara trao cho họ cảm giác được trở thành những người được chọn nắm giữ chân lý cứu rỗi vũ trụ, chiếc bẫy kiêu ngạo đã sập xuống. Trí thông minh phi thường của họ không hề bảo vệ được họ, mà ngược lại trở thành công cụ đắc lực để họ tự hợp lý hóa cho những hành vi tàn bạo nhất."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-19",
-   "act": 3,
-   "start": 724.584,
-   "end": 739.182,
+   "start": 974.46,
+   "end": 983.8,
    "role": "C",
    "sentences": [
-    "3.07#1",
-    "3.07#2"
+    "3.05#9"
    ],
    "template": "T1",
    "variant": "",
@@ -2434,7 +4488,49 @@
      "elems": [
       [
        "ital",
-       "Để duy trì cuộc sống hai mặt, các đệ tử trí thức đã vận dụng triệt để cơ chế tâm lý mang tên Chia ngăn nhận thức. Họ khóa chặt thế giới đời thường gồm gia đình, bạn bè và đạo đức xã hội vào một ngăn riêng biệt, và cách ly hoàn toàn với thế giới bí mật trong căn cứ Satyam."
+       "Asahara không trao cho họ tri thức mới, mà hắn trao cho họ một cảm giác thuộc về và một sứ mệnh vĩ đại giả tạo để khỏa lấp nỗi cô đơn cùng cực."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-31",
+   "act": 3,
+   "start": 983.8,
+   "end": 990.8,
+   "role": "H",
+   "sentences": [
+    "3.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_intellectual_hubris_chess",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Những người có học thức cao thường có một điểm yếu tâm lý chí mạng: Cái tôi trí tuệ quá lớn."
       ]
      ]
     }
@@ -2454,19 +4550,57 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-20",
+   "id": "3-32",
    "act": 3,
-   "start": 739.182,
-   "end": 760.284,
-   "role": "C",
+   "start": 990.8,
+   "end": 998.63,
+   "role": "H",
    "sentences": [
-    "3.07#3",
-    "3.07#4",
-    "3.07#5"
+    "3.06#2"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_devotion_altar_kneeling",
+   "bg": "t8_moral_rationalization_books",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Họ luôn tin rằng bản thân quá thông minh và duy lý để có thể bị một kẻ khác thao túng hoặc lừa gạt."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-33",
+   "act": 3,
+   "start": 998.63,
+   "end": 1010.22,
+   "role": "H",
+   "sentences": [
+    "3.06#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_frontal_lobe_brain_scan",
    "bg2": null,
    "inset": null,
    "camera": "pan",
@@ -2476,7 +4610,7 @@
      "elems": [
       [
        "ital",
-       "Đồng thời, giáo chủ nhồi sọ họ bằng kỹ thuật Vật hóa và phi nhân hóa nạn nhân. Trong mắt các nhà khoa học Aum, những người bình thường ngoài xã hội không còn là những sinh linh có cha mẹ và con cái, mà bị coi là những cá nhân mang nghiệp chướng nặng nề cản trở kỷ nguyên mới. Tiếng khóc van xin hay sinh mạng của người vô tội bị giáng cấp thành những dữ liệu thí nghiệm vô cảm trong phòng lab."
+       "Hiện tượng kiêu ngạo trí thức khiến họ tin rằng việc gia nhập một giáo phái bí mật không phải là sự mê muội, mà là một trải nghiệm khai sáng vượt lên trên sự tầm thường của đám đông."
       ]
      ]
     }
@@ -2496,14 +4630,374 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-21",
+   "id": "3-34",
    "act": 3,
-   "start": 760.284,
-   "end": 779.89,
+   "start": 1010.22,
+   "end": 1019.6,
+   "role": "H",
+   "sentences": [
+    "3.06#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_buddhist_mandala_distortion",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Khi Asahara trao cho họ cảm giác được trở thành những người được chọn nắm giữ chân lý cứu rỗi vũ trụ, chiếc bẫy kiêu ngạo đã sập xuống."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-35",
+   "act": 3,
+   "start": 1019.6,
+   "end": 1030.3,
+   "role": "H",
+   "sentences": [
+    "3.06#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_intellectual_hubris_chess",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Trí thông minh phi thường của họ không hề bảo vệ được họ, mà ngược lại trở thành công cụ đắc lực để họ tự hợp lý hóa cho những hành vi tàn bạo nhất."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-36",
+   "act": 3,
+   "start": 1030.3,
+   "end": 1037.27,
    "role": "C",
    "sentences": [
-    "3.07#6",
-    "3.07#7",
+    "3.07#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_devotion_altar_kneeling",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Để duy trì cuộc sống hai mặt, các đệ tử trí thức đã vận dụng triệt để cơ chế tâm lý mang tên Chia ngăn nhận thức."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-37",
+   "act": 3,
+   "start": 1037.27,
+   "end": 1046.29,
+   "role": "C",
+   "sentences": [
+    "3.07#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_bio_incubator_pathogens",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Họ khóa chặt thế giới đời thường gồm gia đình, bạn bè và đạo đức xã hội vào một ngăn riêng biệt, và cách ly hoàn toàn với thế giới bí mật trong căn cứ Satyam."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-38",
+   "act": 3,
+   "start": 1046.29,
+   "end": 1056.21,
+   "role": "C",
+   "sentences": [
+    "3.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_psi_headgear_electrodes",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Trong phòng thí nghiệm, họ vẫn là những nhà khoa học làm việc tỉ mỉ với phương pháp luận chuẩn xác, nhưng mục đích tối hậu của công việc đó lại bị phong tỏa hoàn toàn khỏi phán xét đạo đức."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-39",
+   "act": 3,
+   "start": 1056.21,
+   "end": 1066.5,
+   "role": "C",
+   "sentences": [
+    "3.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_mountain_grave_memorial",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đồng thời, giáo chủ nhồi sọ họ bằng kỹ thuật Vật hóa và phi nhân hóa nạn nhân."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-40",
+   "act": 3,
+   "start": 1066.5,
+   "end": 1076.88,
+   "role": "C",
+   "sentences": [
+    "3.07#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_moral_rationalization_books",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Trong mắt các nhà khoa học Aum, những người bình thường ngoài xã hội không còn là những sinh linh có cha mẹ và con cái, mà bị coi là những cá nhân mang nghiệp chướng nặng nề cản trở kỷ nguyên mới."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-41",
+   "act": 3,
+   "start": 1076.88,
+   "end": 1082.73,
+   "role": "C",
+   "sentences": [
+    "3.07#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_concrete_cell_isolation",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Tiếng khóc van xin hay sinh mạng của người vô tội bị giáng cấp thành những dữ liệu thí nghiệm vô cảm trong phòng lab."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-42",
+   "act": 3,
+   "start": 1082.73,
+   "end": 1090.85,
+   "role": "C",
+   "sentences": [
+    "3.07#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_devotion_altar_kneeling",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Sự tha hóa này minh chứng cho việc một khi nhân tính bị tước bỏ khỏi nhận thức, năng lực trí tuệ càng cao thì mức độ hủy diệt sẽ càng tàn bạo."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-43",
+   "act": 3,
+   "start": 1090.85,
+   "end": 1095.9,
+   "role": "C",
+   "sentences": [
     "3.07#8"
    ],
    "template": "T1",
@@ -2518,7 +5012,7 @@
      "elems": [
       [
        "ital",
-       "Và bi kịch tàn khốc không kém đã đổ ập xuống gia đình của chính những trí thức tinh hoa ấy. Cha mẹ của họ, những người từng tự hào về những đứa con đỗ thủ khoa, đã hoàn toàn sụp đổ danh tính khi biết con mình trở thành kẻ khủng bố. Nhiều bậc phụ huynh phải từ bỏ công việc, quỳ gối xin lỗi trước công chúng trong nỗi cay đắng tột cùng suốt phần đời còn lại."
+       "Và bi kịch tàn khốc không kém đã đổ ập xuống gia đình của chính những trí thức tinh hoa ấy."
       ]
      ]
     }
@@ -2538,19 +5032,57 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-22",
+   "id": "3-44",
    "act": 3,
-   "start": 779.89,
-   "end": 807.985,
-   "role": "H",
+   "start": 1095.9,
+   "end": 1103.99,
+   "role": "C",
    "sentences": [
-    "3.08#1",
-    "3.08#2",
-    "3.08#3"
+    "3.07#9"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_broken_hippocratic_oath",
+   "bg": "t8_psi_headgear_electrodes",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cha mẹ của họ, những người từng tự hào về những đứa con đỗ thủ khoa, đã hoàn toàn sụp đổ danh tính khi biết con mình trở thành kẻ khủng bố."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-45",
+   "act": 3,
+   "start": 1103.99,
+   "end": 1111.46,
+   "role": "C",
+   "sentences": [
+    "3.07#10"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_mountain_grave_memorial",
    "bg2": null,
    "inset": null,
    "camera": "pan",
@@ -2560,7 +5092,49 @@
      "elems": [
       [
        "ital",
-       "Trí tuệ khi bị ngắt kết nối khỏi lòng trắc ẩn sẽ trở thành thứ vũ khí nguy hiểm nhất trên đời. Sự phân mảnh tâm trí đã cho phép những con người từng được xã hội tôn kính trở thành những kẻ gieo rắc tử thần mà không hề cảm thấy cắn rứt lương tâm. Thế nhưng, để biến sự mê muội ấy thành hành động tàn sát thực tế, giáo phái còn sử dụng những công nghệ kiểm soát tâm trí tinh vi và tàn bạo hơn thế rất nhiều."
+       "Nhiều bậc phụ huynh phải từ bỏ công việc, quỳ gối xin lỗi trước công chúng trong nỗi cay đắng tột cùng suốt phần đời còn lại."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-46",
+   "act": 3,
+   "start": 1111.46,
+   "end": 1118.55,
+   "role": "H",
+   "sentences": [
+    "3.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_broken_hippocratic_oath",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Trí tuệ khi bị ngắt kết nối khỏi lòng trắc ẩn sẽ trở thành thứ vũ khí nguy hiểm nhất trên đời."
       ]
      ]
     }
@@ -2580,10 +5154,130 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-23",
+   "id": "3-47",
    "act": 3,
-   "start": 807.985,
-   "end": 809.785,
+   "start": 1118.55,
+   "end": 1128.83,
+   "role": "H",
+   "sentences": [
+    "3.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_psi_headgear_electrodes",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Sự phân mảnh tâm trí đã cho phép những con người từng được xã hội tôn kính trở thành những kẻ gieo rắc tử thần mà không hề cảm thấy cắn rứt lương tâm."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-48",
+   "act": 3,
+   "start": 1128.83,
+   "end": 1136.6,
+   "role": "H",
+   "sentences": [
+    "3.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_frontal_lobe_brain_scan",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đó là sự kết hợp chết người giữa một bộ óc lạnh lùng không có trái tim và một tâm hồn cuồng tín mù quáng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-49",
+   "act": 3,
+   "start": 1136.6,
+   "end": 1150.186,
+   "role": "H",
+   "sentences": [
+    "3.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_fragile_boundary_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Thế nhưng, để biến sự mê muội ấy thành hành động tàn sát thực tế, giáo phái còn sử dụng những công nghệ kiểm soát tâm trí tinh vi và tàn bạo hơn thế rất nhiều."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-50",
+   "act": 3,
+   "start": 1150.186,
+   "end": 1152.24,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -2624,12 +5318,11 @@
   {
    "id": "4-01",
    "act": 4,
-   "start": 809.785,
-   "end": 825.362,
+   "start": 1152.24,
+   "end": 1158.81,
    "role": "H",
    "sentences": [
-    "4.02#1",
-    "4.02#2"
+    "4.02#1"
    ],
    "template": "T1",
    "variant": "",
@@ -2643,7 +5336,7 @@
      "elems": [
       [
        "ital",
-       "Bên trong các khu trại khép kín của giáo phái Aum, các tín đồ bị cô lập hoàn toàn với thế giới bên ngoài. Họ bị tịch thu toàn bộ giấy tờ tùy thân, cắt đứt liên lạc với cha mẹ và không được tiếp cận bất kỳ nguồn tin tức độc lập nào."
+       "Bên trong các khu trại khép kín của giáo phái Aum, các tín đồ bị cô lập hoàn toàn với thế giới bên ngoài."
       ]
      ]
     }
@@ -2665,12 +5358,11 @@
   {
    "id": "4-02",
    "act": 4,
-   "start": 825.362,
-   "end": 841.326,
+   "start": 1158.81,
+   "end": 1167.86,
    "role": "H",
    "sentences": [
-    "4.02#3",
-    "4.02#4"
+    "4.02#2"
    ],
    "template": "T1",
    "variant": "",
@@ -2684,7 +5376,7 @@
      "elems": [
       [
        "ital",
-       "Nhưng thủ đoạn tàn độc nhất nhằm triệt tiêu ý chí tự do chính là kỹ thuật làm suy kiệt thể xác có hệ thống. Các thành viên chỉ được phép ngủ hai đến ba tiếng mỗi ngày và phải duy trì chế độ ăn uống vô cùng kham khổ thiếu chất dinh dưỡng."
+       "Họ bị tịch thu toàn bộ giấy tờ tùy thân, cắt đứt liên lạc với cha mẹ và không được tiếp cận bất kỳ nguồn tin tức độc lập nào."
       ]
      ]
     }
@@ -2706,25 +5398,25 @@
   {
    "id": "4-03",
    "act": 4,
-   "start": 841.326,
-   "end": 854.122,
+   "start": 1167.86,
+   "end": 1175.55,
    "role": "H",
    "sentences": [
-    "4.02#5"
+    "4.02#3"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t8_frontal_lobe_brain_scan",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Khi cơ thể rơi vào trạng thái kiệt quệ kéo dài, vùng vỏ não trước trán phụ trách tư duy phản biện và phán đoán logic sẽ suy giảm nghiêm trọng, khiến con người trở nên phục tùng tuyệt đối."
+       "Nhưng thủ đoạn tàn độc nhất nhằm triệt tiêu ý chí tự do chính là kỹ thuật làm suy kiệt thể xác có hệ thống."
       ]
      ]
     }
@@ -2746,26 +5438,25 @@
   {
    "id": "4-04",
    "act": 4,
-   "start": 854.122,
-   "end": 866.611,
-   "role": "D",
+   "start": 1175.55,
+   "end": 1184.16,
+   "role": "H",
    "sentences": [
-    "4.03#1",
-    "4.03#2"
+    "4.02#4"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_psi_headgear_electrodes",
+   "bg": "t8_hidden_ceiling_hideout",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Hồ sơ điều tra đã làm sáng tỏ những thiết bị kỳ dị mà giáo phái sử dụng để thao túng não bộ của các đệ tử. Chúng phát minh ra một chiếc mũ gắn đầy điện cực mang tên PSI và bắt các tín đồ phải đội liên tục nhiều giờ liền."
+       "Các thành viên chỉ được phép ngủ hai đến ba tiếng mỗi ngày và phải duy trì chế độ ăn uống vô cùng kham khổ thiếu chất dinh dưỡng."
       ]
      ]
     }
@@ -2775,7 +5466,7 @@
    "flags": {
     "bust": false,
     "nobust": false,
-    "intro": true,
+    "intro": false,
     "handoff": [],
     "dual": false,
     "guests": false,
@@ -2787,16 +5478,15 @@
   {
    "id": "4-05",
    "act": 4,
-   "start": 866.611,
-   "end": 884.591,
-   "role": "D",
+   "start": 1184.16,
+   "end": 1194.21,
+   "role": "H",
    "sentences": [
-    "4.03#3",
-    "4.03#4"
+    "4.02#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_hallucinogen_ritual_hall",
+   "bg": "t8_yoga_meditation_incense",
    "bg2": null,
    "inset": null,
    "camera": "pull",
@@ -2806,7 +5496,7 @@
      "elems": [
       [
        "ital",
-       "Giáo phái rêu rao rằng thiết bị này sẽ đồng bộ hóa sóng não của người đội với tần số sóng não của giáo chủ, và thu phí hàng nghìn đô la mỗi tháng cho mỗi chiếc mũ. Ngoài ra, cảnh sát còn phát hiện giáo phái bí mật sử dụng các loại chất gây ảo giác cực mạnh như LSD và thuốc hướng thần trong các nghi lễ kín trong bóng tối."
+       "Tín đồ bị buộc phải ngồi thiền liên tục suốt hai mươi tiếng trong những căn phòng tối chật hẹp và bị trừng phạt tàn bạo nếu có bất kỳ biểu hiện ngủ gật nào."
       ]
      ]
     }
@@ -2828,15 +5518,15 @@
   {
    "id": "4-06",
    "act": 4,
-   "start": 884.591,
-   "end": 894.389,
-   "role": "D",
+   "start": 1194.21,
+   "end": 1208.55,
+   "role": "H",
    "sentences": [
-    "4.03#5"
+    "4.02#6"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_bio_incubator_pathogens",
+   "bg": "t8_concrete_cell_isolation",
    "bg2": null,
    "inset": null,
    "camera": "still",
@@ -2846,7 +5536,7 @@
      "elems": [
       [
        "ital",
-       "Dưới tác động của hóa chất và sự suy kiệt thần kinh, các trí thức trẻ thực sự tin rằng họ đã nhìn thấy hào quang của đấng cứu thế và hoàn toàn mất đi khả năng hoài nghi."
+       "Khi cơ thể rơi vào trạng thái kiệt quệ kéo dài, vùng vỏ não trước trán phụ trách tư duy phản biện và phán đoán logic sẽ suy giảm nghiêm trọng, khiến con người trở nên phục tùng tuyệt đối."
       ]
      ]
     }
@@ -2857,7 +5547,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "D"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -2868,29 +5560,25 @@
   {
    "id": "4-07",
    "act": 4,
-   "start": 894.389,
-   "end": 904.417,
-   "role": "H",
+   "start": 1208.55,
+   "end": 1215.55,
+   "role": "D",
    "sentences": [
-    "4.04#1"
+    "4.03#1"
    ],
-   "template": "T9",
+   "template": "T1",
    "variant": "",
-   "bg": "t8_poa_twisted_doctrine",
+   "bg": "t8_psi_headgear_electrodes",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "Poa"
-      ],
-      [
        "ital",
-       "(Tibetan Phowa — Chuyển di tâm thức)"
+       "Hồ sơ điều tra đã làm sáng tỏ những thiết bị kỳ dị mà giáo phái sử dụng để thao túng não bộ của các đệ tử."
       ]
      ]
     }
@@ -2912,8 +5600,290 @@
   {
    "id": "4-08",
    "act": 4,
-   "start": 904.417,
-   "end": 911.489,
+   "start": 1215.55,
+   "end": 1222.84,
+   "role": "D",
+   "sentences": [
+    "4.03#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_psi_headgear_electrodes",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chúng phát minh ra một chiếc mũ gắn đầy điện cực mang tên PSI và bắt các tín đồ phải đội liên tục nhiều giờ liền."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-09",
+   "act": 4,
+   "start": 1222.84,
+   "end": 1232.54,
+   "role": "D",
+   "sentences": [
+    "4.03#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_hallucinogen_ritual_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Giáo phái rêu rao rằng thiết bị này sẽ đồng bộ hóa sóng não của người đội với tần số sóng não của giáo chủ, và thu phí hàng nghìn đô la mỗi tháng cho mỗi chiếc mũ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-10",
+   "act": 4,
+   "start": 1232.54,
+   "end": 1241.71,
+   "role": "D",
+   "sentences": [
+    "4.03#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_bio_incubator_pathogens",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hàng trăm tín đồ đã chi trả những khoản tiền khổng lồ để đội chiếc mũ này mỗi ngày, tin rằng họ đang tiếp nhận trực tiếp trí tuệ siêu phàm của giáo chủ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-11",
+   "act": 4,
+   "start": 1241.71,
+   "end": 1252.05,
+   "role": "D",
+   "sentences": [
+    "4.03#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_hallucinogen_ritual_hall",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ngoài ra, cảnh sát còn phát hiện giáo phái bí mật sử dụng các loại chất gây ảo giác cực mạnh như LSD và thuốc hướng thần trong các nghi lễ kín trong bóng tối."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-12",
+   "act": 4,
+   "start": 1252.05,
+   "end": 1260.88,
+   "role": "D",
+   "sentences": [
+    "4.03#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_chemical_precursor_drums",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cảnh sát còn tìm thấy nhiều kho hóa chất gây mê thiopental sodium được sử dụng để tra khảo lòng trung thành và xóa sạch ký ức của các thành viên nghi ngờ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-13",
+   "act": 4,
+   "start": 1260.88,
+   "end": 1272.79,
+   "role": "D",
+   "sentences": [
+    "4.03#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_virology_electron_microscope",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Dưới tác động của hóa chất và sự suy kiệt thần kinh, các trí thức trẻ thực sự tin rằng họ đã nhìn thấy hào quang của đấng cứu thế và hoàn toàn mất đi khả năng hoài nghi."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-14",
+   "act": 4,
+   "start": 1272.79,
+   "end": 1285.16,
+   "role": "H",
+   "sentences": [
+    "4.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_poa_twisted_doctrine",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Thế nhưng, vũ khí tâm lý mang tính hủy diệt nhất mà Asahara sử dụng để xóa sạch lời thề nghề nghiệp của các bác sĩ và nhà khoa học chính là việc bóp méo khái niệm Poa."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-15",
+   "act": 4,
+   "start": 1285.16,
+   "end": 1292.77,
    "role": "H",
    "sentences": [
     "4.04#2"
@@ -2923,7 +5893,7 @@
    "bg": "t8_buddhist_mandala_distortion",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -2950,28 +5920,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-09",
+   "id": "4-16",
    "act": 4,
-   "start": 911.489,
-   "end": 925.926,
+   "start": 1292.77,
+   "end": 1300.87,
    "role": "H",
    "sentences": [
-    "4.04#3",
-    "4.04#4"
+    "4.04#3"
    ],
-   "template": "T4",
+   "template": "T1",
    "variant": "",
    "bg": "t8_broken_hippocratic_oath",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Thế nhưng Asahara đã đánh tráo khái niệm thiêng liêng ấy thành một học thuyết biện minh cho hành vi tước đoạt mạng sống con người. Hắn biến một tội ác tàn bạo thành một hành động được ngụy trang dưới vỏ bọc đạo đức cao cả."
+       "Thế nhưng Asahara đã đánh tráo khái niệm thiêng liêng ấy thành một học thuyết biện minh cho hành vi tước đoạt mạng sống con người."
       ]
      ]
     }
@@ -2991,18 +5960,17 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-10",
+   "id": "4-17",
    "act": 4,
-   "start": 925.926,
-   "end": 943.946,
-   "role": "C",
+   "start": 1300.87,
+   "end": 1309.39,
+   "role": "H",
    "sentences": [
-    "4.05#1",
-    "4.05#2"
+    "4.04#4"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_apocalypse_prophecy_scroll",
+   "bg": "t8_yoga_meditation_incense",
    "bg2": null,
    "inset": null,
    "camera": "pull",
@@ -3012,7 +5980,7 @@
      "elems": [
       [
        "ital",
-       "Asahara rao giảng rằng thế giới thực tại đã bị ô uế và sắp sửa bước vào cuộc chiến tranh hạt nhân hủy diệt toàn nhân loại. Hắn tuyên bố rằng những người bình thường nếu tiếp tục sống sẽ chỉ tích tụ thêm ác nghiệp và chắc chắn phải đọa vào cõi địa ngục."
+       "Bằng cách bẻ cong một triết lý cổ xưa, hắn tự ban cho mình quyền năng tối thượng được quyết định sinh tử của muôn loài."
       ]
      ]
     }
@@ -3022,7 +5990,7 @@
    "flags": {
     "bust": false,
     "nobust": false,
-    "intro": true,
+    "intro": false,
     "handoff": [],
     "dual": false,
     "guests": false,
@@ -3032,14 +6000,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-11",
+   "id": "4-18",
    "act": 4,
-   "start": 943.946,
-   "end": 960.585,
-   "role": "C",
+   "start": 1309.39,
+   "end": 1315.2,
+   "role": "H",
    "sentences": [
-    "4.05#3",
-    "4.05#4"
+    "4.04#5"
    ],
    "template": "T1",
    "variant": "",
@@ -3053,7 +6020,49 @@
      "elems": [
       [
        "ital",
-       "Do đó, việc chấm dứt sinh mạng của họ trước khi họ kịp phạm thêm tội lỗi không phải là một tội ác, mà là một hành vi đại từ bi để giải thoát linh hồn họ. Đây chính là đỉnh cao của Kỹ thuật Trung hòa đạo đức và Ngắt kết nối lương tâm."
+       "Hắn biến một tội ác giết người man rợ thành một hành động được ngụy trang dưới vỏ bọc đạo đức cao cả."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-19",
+   "act": 4,
+   "start": 1315.2,
+   "end": 1323.94,
+   "role": "C",
+   "sentences": [
+    "4.05#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_apocalypse_prophecy_scroll",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Asahara rao giảng rằng thế giới thực tại đã bị ô uế và sắp sửa bước vào cuộc chiến tranh hạt nhân hủy diệt toàn nhân loại."
       ]
      ]
     }
@@ -3073,18 +6082,17 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-12",
+   "id": "4-20",
    "act": 4,
-   "start": 960.585,
-   "end": 979.231,
+   "start": 1323.94,
+   "end": 1331.15,
    "role": "C",
    "sentences": [
-    "4.05#5",
-    "4.05#6"
+    "4.05#2"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_moral_rationalization_books",
+   "bg": "t8_devotion_altar_kneeling",
    "bg2": null,
    "inset": null,
    "camera": "pan",
@@ -3094,7 +6102,7 @@
      "elems": [
       [
        "ital",
-       "Bằng cách đảo ngược hoàn toàn chuẩn mực thiện ác, hung thủ tin rằng đôi tay mình đã làm việc thiện cứu rỗi nạn nhân. Đồng thời, cơ chế ngoại hóa trách nhiệm khiến họ tin rằng mọi hành động của mình chỉ là công cụ thực thi ý chí của Đấng tối cao."
+       "Hắn tuyên bố rằng những người bình thường nếu tiếp tục sống sẽ chỉ tích tụ thêm ác nghiệp và chắc chắn phải đọa vào cõi địa ngục."
       ]
      ]
     }
@@ -3114,18 +6122,57 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-13",
+   "id": "4-21",
    "act": 4,
-   "start": 979.231,
-   "end": 994.674,
-   "role": "H",
+   "start": 1331.15,
+   "end": 1339.96,
+   "role": "C",
    "sentences": [
-    "4.06#1",
-    "4.06#2"
+    "4.05#3"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_dr_hayashi_umbrella_subway",
+   "bg": "t8_moral_rationalization_books",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Do đó, việc chấm dứt sinh mạng của họ trước khi họ kịp phạm thêm tội lỗi không phải là giết chóc, mà là một hành vi đại từ bi để giải thoát linh hồn họ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-22",
+   "act": 4,
+   "start": 1339.96,
+   "end": 1347.61,
+   "role": "C",
+   "sentences": [
+    "4.05#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_weapons_of_mass_destruction",
    "bg2": null,
    "inset": null,
    "camera": "still",
@@ -3135,7 +6182,7 @@
      "elems": [
       [
        "ital",
-       "Chính sự ngụy biện ma quỷ ấy đã làm tê liệt hoàn toàn lương tâm của Bác sĩ Ikuo Hayashi, người từng đứng đầu một khoa tim mạch uy tín. Vào buổi sáng ngày 20 tháng 3, chính đôi bàn tay từng cứu sống hàng nghìn bệnh nhân đã dùng đầu ô chọc thủng hai túi sarin trên tuyến tàu Chiyoda."
+       "Học thuyết ngụy tạo này biến kẻ sát nhân thành một đấng cứu độ từ bi và biến hành vi giết chóc thành một nghĩa cử giải thoát cao thượng."
       ]
      ]
     }
@@ -3155,20 +6202,302 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-14",
+   "id": "4-23",
    "act": 4,
-   "start": 994.674,
-   "end": 1000.008,
+   "start": 1347.61,
+   "end": 1351.66,
+   "role": "C",
+   "sentences": [
+    "4.05#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_buddhist_mandala_distortion",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đây chính là đỉnh cao của Kỹ thuật Trung hòa đạo đức và Ngắt kết nối lương tâm."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-24",
+   "act": 4,
+   "start": 1351.66,
+   "end": 1359.27,
+   "role": "C",
+   "sentences": [
+    "4.05#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_apocalypse_prophecy_scroll",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bằng cách đảo ngược hoàn toàn chuẩn mực thiện ác, hung thủ tin rằng bàn tay mình vấy … là để làm việc thiện cứu rỗi nạn nhân."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-25",
+   "act": 4,
+   "start": 1359.27,
+   "end": 1366.31,
+   "role": "C",
+   "sentences": [
+    "4.05#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_devotion_altar_kneeling",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đồng thời, cơ chế ngoại hóa trách nhiệm khiến họ tin rằng mọi hành động của mình chỉ là công cụ thực thi ý chí của Đấng tối cao."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-26",
+   "act": 4,
+   "start": 1366.31,
+   "end": 1374.43,
+   "role": "C",
+   "sentences": [
+    "4.05#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_moral_rationalization_books",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Sự chuyển dịch nhận thức ma quỷ này đã tháo gỡ hoàn toàn mọi rào cản đạo đức tự nhiên trong tâm trí của những trí thức ưu tú nhất."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-27",
+   "act": 4,
+   "start": 1374.43,
+   "end": 1384.15,
+   "role": "H",
+   "sentences": [
+    "4.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_dr_hayashi_umbrella_subway",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chính sự ngụy biện ma quỷ ấy đã làm tê liệt hoàn toàn lương tâm của Bác sĩ Ikuo Hayashi, người từng đứng đầu một khoa tim mạch uy tín."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-28",
+   "act": 4,
+   "start": 1384.15,
+   "end": 1392.55,
+   "role": "H",
+   "sentences": [
+    "4.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_cardiac_surgery_theatre",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đôi bàn tay từng thực hiện hàng trăm ca phẫu thuật tim cứu người giờ đây lại trở thành công cụ thực thi một tội ác kinh hoàng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-29",
+   "act": 4,
+   "start": 1392.55,
+   "end": 1402.92,
    "role": "H",
    "sentences": [
     "4.06#3"
    ],
-   "template": "T4",
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_dr_hayashi_umbrella_subway",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Vào buổi sáng ngày 20 tháng 3, chính đôi bàn tay từng cứu sống hàng nghìn bệnh nhân đã dùng đầu ô chọc thủng hai túi sarin trên tuyến tàu Chiyoda."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-30",
+   "act": 4,
+   "start": 1402.92,
+   "end": 1409.57,
+   "role": "H",
+   "sentences": [
+    "4.06#4"
+   ],
+   "template": "T1",
    "variant": "",
    "bg": "t8_tokyo_court_witness_stand",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3197,28 +6526,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-15",
+   "id": "4-31",
    "act": 4,
-   "start": 1000.008,
-   "end": 1010.304,
+   "start": 1409.57,
+   "end": 1415.16,
    "role": "N2",
    "sentences": [
-    "4.08#1",
-    "4.08#2"
+    "4.08#1"
    ],
    "template": "T4",
    "variant": "testimony",
    "bg": "t8_grand_courtroom_proceedings",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Trước tòa án, tôi không tìm kiếm bất kỳ sự tha thứ nào cho bản thân mình. Tôi từng là một bác sĩ với lời thề bảo vệ sự sống con người bằng mọi giá."
+       "Trước tòa án, tôi không tìm kiếm bất kỳ sự tha thứ nào cho bản thân mình."
       ]
      ]
     }
@@ -3238,19 +6566,57 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-16",
+   "id": "4-32",
    "act": 4,
-   "start": 1010.304,
-   "end": 1035.101,
+   "start": 1415.16,
+   "end": 1420.42,
    "role": "N2",
    "sentences": [
-    "4.08#3",
-    "4.08#4",
-    "4.08#5"
+    "4.08#2"
    ],
-   "template": "T1",
-   "variant": "",
+   "template": "T4",
+   "variant": "testimony",
    "bg": "t8_tokyo_court_witness_stand",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Tôi từng là một bác sĩ với lời thề bảo vệ sự sống con người bằng mọi giá."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-33",
+   "act": 4,
+   "start": 1420.42,
+   "end": 1428.39,
+   "role": "N2",
+   "sentences": [
+    "4.08#3"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t8_broken_hippocratic_oath",
    "bg2": null,
    "inset": null,
    "camera": "pull",
@@ -3260,7 +6626,7 @@
      "elems": [
       [
        "ital",
-       "Vậy mà tôi đã để cho giáo lý mù quáng làm tê liệt lý trí, để rồi gây ra nỗi đau đớn không thể cứu vãn cho những đồng bào vô tội. Khi nhìn vào mắt của thân nhân các nạn nhân, tôi hiểu rằng không có sự cứu rỗi nào dành cho tội lỗi của mình ngoài việc thành khẩn khai báo toàn bộ sự thật. Tôi quỳ xuống xin nhận mọi sự trừng phạt nghiêm khắc nhất của pháp luật."
+       "Tôi đã phản bội lời thề Hippocrates thiêng liêng mà tôi từng khắc ghi trong tim suốt những năm tháng tuổi trẻ."
       ]
      ]
     }
@@ -3280,18 +6646,17 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-17",
+   "id": "4-34",
    "act": 4,
-   "start": 1035.101,
-   "end": 1050.552,
-   "role": "H",
+   "start": 1428.39,
+   "end": 1438.07,
+   "role": "N2",
    "sentences": [
-    "4.09#1",
-    "4.09#2"
+    "4.08#4"
    ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t8_tokyo_court_gavel_strike",
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t8_stethoscope_abandoned_drain",
    "bg2": null,
    "inset": null,
    "camera": "still",
@@ -3301,7 +6666,7 @@
      "elems": [
       [
        "ital",
-       "Lời khai thành khẩn và chi tiết của Bác sĩ Hayashi đã trở thành chìa khóa quyết định giúp cơ quan điều tra bóc trần toàn bộ cơ cấu vận hành ngầm của giáo phái. Thế nhưng, một biến cố bạo lực khác đã xảy ra ngay trước mắt công chúng."
+       "Vậy mà tôi đã để cho giáo lý mù quáng làm tê liệt lý trí, để rồi gây ra nỗi đau đớn không thể cứu vãn cho những đồng bào vô tội."
       ]
      ]
     }
@@ -3321,10 +6686,172 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-18",
+   "id": "4-35",
    "act": 4,
-   "start": 1050.552,
-   "end": 1062.013,
+   "start": 1438.07,
+   "end": 1448.24,
+   "role": "N2",
+   "sentences": [
+    "4.08#5"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t8_grand_courtroom_proceedings",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Khi nhìn vào mắt của thân nhân các nạn nhân, tôi hiểu rằng không có sự cứu rỗi nào dành cho tội lỗi của mình ngoài việc thành khẩn khai báo toàn bộ sự thật."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-36",
+   "act": 4,
+   "start": 1448.24,
+   "end": 1454.19,
+   "role": "N2",
+   "sentences": [
+    "4.08#6"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t8_tokyo_court_witness_stand",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Tôi quỳ xuống xin nhận mọi sự trừng phạt nghiêm khắc nhất của pháp luật."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-37",
+   "act": 4,
+   "start": 1454.19,
+   "end": 1465.47,
+   "role": "H",
+   "sentences": [
+    "4.09#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_murai_assassination_cameras",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Lời khai thành khẩn và chi tiết của Bác sĩ Hayashi đã trở thành chìa khóa quyết định giúp cơ quan điều tra bóc trần toàn bộ cơ cấu vận hành ngầm của giáo phái."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-38",
+   "act": 4,
+   "start": 1465.47,
+   "end": 1470.37,
+   "role": "H",
+   "sentences": [
+    "4.09#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_police_convoy_kamikuishiki",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Thế nhưng, một biến cố đẫm … khác đã xảy ra ngay trước mắt công chúng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-39",
+   "act": 4,
+   "start": 1470.37,
+   "end": 1485.45,
    "role": "H",
    "sentences": [
     "4.09#3"
@@ -3334,7 +6861,7 @@
    "bg": "t8_murai_assassination_cameras",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3361,20 +6888,60 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-19",
+   "id": "4-40",
    "act": 4,
-   "start": 1062.013,
-   "end": 1067.471,
+   "start": 1485.45,
+   "end": 1495.54,
    "role": "H",
    "sentences": [
     "4.09#4"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_police_convoy_kamikuishiki",
+   "bg": "t8_hidden_ceiling_hideout",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Vụ thanh trừng Murai ngay giữa ban ngày phơi bày sự tàn khốc của một tổ chức sẵn sàng tiêu diệt cả những bộ óc trung thành nhất để xóa sạch dấu vết."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-41",
+   "act": 4,
+   "start": 1495.54,
+   "end": 1501.75,
+   "role": "H",
+   "sentences": [
+    "4.09#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_asahara_shadow_profile",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3401,16 +6968,16 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-20",
+   "id": "4-42",
    "act": 4,
-   "start": 1067.471,
-   "end": 1076.123,
+   "start": 1501.75,
+   "end": 1514.65,
    "role": "H",
    "sentences": [
-    "4.09#5"
+    "4.09#6"
    ],
-   "template": "T5",
-   "variant": "date",
+   "template": "T1",
+   "variant": "",
    "bg": "t8_hidden_ceiling_hideout",
    "bg2": null,
    "inset": null,
@@ -3421,11 +6988,7 @@
      "elems": [
       [
        "ital",
-       "NGÀY PHÁT HIỆN"
-      ],
-      [
-       "bold",
-       "16 · 05 · 1995"
+       "Ngày 16 tháng 5 năm 1995, cảnh sát đã phát hiện Shoko Asahara đang ẩn nấp trong một hốc trần nhà chật hẹp tại tòa nhà Satyam số 6."
       ]
      ]
     }
@@ -3445,18 +7008,57 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-21",
+   "id": "4-43",
    "act": 4,
-   "start": 1076.123,
-   "end": 1095.563,
+   "start": 1514.65,
+   "end": 1525.56,
    "role": "H",
    "sentences": [
-    "4.09#6",
     "4.09#7"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_asahara_shadow_profile",
+   "bg": "t8_hidden_ceiling_hideout",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Kẻ từng tự phong mình là Đấng cứu thế của nhân loại ngồi co ro trong bóng tối, run rẩy bên cạnh một bọc tiền mặt trị giá gần mười triệu yên và các thỏi vàng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-44",
+   "act": 4,
+   "start": 1525.56,
+   "end": 1535.09,
+   "role": "H",
+   "sentences": [
+    "4.09#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_iron_gate_closing",
    "bg2": null,
    "inset": null,
    "camera": "pan",
@@ -3466,7 +7068,7 @@
      "elems": [
       [
        "ital",
-       "Kẻ từng tự phong mình là Đấng cứu thế của nhân loại ngồi co ro trong bóng tối, run rẩy bên cạnh một bọc tiền mặt trị giá gần mười triệu yên và các thỏi vàng. Chiếc mặt nạ thần thánh rơi xuống, phơi bày sự trơ trọi và nỗi sợ hãi hèn hạ của một kẻ lừa đảo khi bản ngã ái kỷ sụp đổ hoàn toàn."
+       "Không một lời kinh kệ nào vang lên trong khoảnh khắc đó, chỉ còn lại sự run rẩy bẽ bàng của một kẻ lừa đảo bị lột trần trước pháp luật."
       ]
      ]
     }
@@ -3486,15 +7088,55 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-22",
+   "id": "4-45",
    "act": 4,
-   "start": 1095.563,
-   "end": 1120.619,
+   "start": 1535.09,
+   "end": 1546.3,
+   "role": "H",
+   "sentences": [
+    "4.09#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_concrete_cell_isolation",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chiếc mặt nạ thần thánh rơi xuống, phơi bày sự trơ trọi và nỗi sợ hãi hèn hạ của một kẻ lừa đảo khi bản ngã ái kỷ sụp đổ hoàn toàn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-46",
+   "act": 4,
+   "start": 1546.3,
+   "end": 1553.74,
    "role": "D",
    "sentences": [
-    "4.11#1",
-    "4.11#2",
-    "4.11#3"
+    "4.11#1"
    ],
    "template": "T1",
    "variant": "",
@@ -3508,7 +7150,7 @@
      "elems": [
       [
        "ital",
-       "Sự sụp đổ của Shoko Asahara trong hốc trần nhà đã vạch trần bản chất thật sự của kẻ cầm đầu giáo phái độc hại. Không hề có phép màu bay bổng, không có hào quang tâm linh nào cứu giúp hắn trước sự truy lùng của công lý. Hắn chỉ là một kẻ thao túng tàn nhẫn, sẵn sàng hy sinh toàn bộ tín đồ để bảo toàn sự an toàn và lòng tham của bản thân."
+       "Sự sụp đổ của Shoko Asahara trong hốc trần nhà đã vạch trần bản chất thật sự của kẻ cầm đầu giáo phái độc hại."
       ]
      ]
     }
@@ -3528,10 +7170,130 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-23",
+   "id": "4-47",
    "act": 4,
-   "start": 1120.619,
-   "end": 1122.419,
+   "start": 1553.74,
+   "end": 1560.59,
+   "role": "D",
+   "sentences": [
+    "4.11#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_asahara_shadow_profile",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Không hề có phép màu bay bổng, không có hào quang tâm linh nào cứu giúp hắn trước sự truy lùng của công lý."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-48",
+   "act": 4,
+   "start": 1560.59,
+   "end": 1570.8,
+   "role": "D",
+   "sentences": [
+    "4.11#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_concrete_cell_isolation",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Những cuộc thẩm vấn sau đó cho thấy hắn hoàn toàn mất đi sự kiểm soát cảm xúc, liên tục chối bỏ mọi trách nhiệm và đùn đẩy tội lỗi cho chính các đệ tử của mình."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-49",
+   "act": 4,
+   "start": 1570.8,
+   "end": 1581.288,
+   "role": "D",
+   "sentences": [
+    "4.11#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_matsumoto_court_dossier",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn chỉ là một kẻ thao túng tàn nhẫn, sẵn sàng hy sinh toàn bộ tín đồ để bảo toàn sự an toàn và lòng tham của bản thân."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-50",
+   "act": 4,
+   "start": 1581.288,
+   "end": 1583.4,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -3550,7 +7312,7 @@
       ],
       [
        "bold",
-       "PHÁN QUYẾT LỊCH SỬ & BÀI HỌC"
+       "PHÁN QUYẾT LỊCH SỬ & BÀI HỌC TỰ DO TƯ TƯỞNG"
       ]
      ]
     }
@@ -3572,26 +7334,25 @@
   {
    "id": "5-01",
    "act": 5,
-   "start": 1122.419,
-   "end": 1144.015,
+   "start": 1583.4,
+   "end": 1594.99,
    "role": "H",
    "sentences": [
-    "5.02#1",
-    "5.02#2"
+    "5.02#1"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t8_grand_courtroom_proceedings",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Các phiên tòa xét xử giáo phái Aum Shinrikyo kéo dài suốt hơn hai thập kỷ, trở thành một trong những trang hồ sơ tư pháp đồ sộ và phức tạp nhất trong lịch sử Nhật Bản. Trước tòa án, Shoko Asahara liên tục giả điên, lẩm bẩm những câu vô nghĩa và từ chối giao tiếp với cả luật sư lẫn các thẩm phán."
+       "Các phiên tòa xét xử giáo phái Aum Shinrikyo kéo dài suốt hơn hai thập kỷ, trở thành một trong những trang hồ sơ tư pháp đồ sộ và phức tạp nhất trong lịch sử Nhật Bản."
       ]
      ]
     }
@@ -3613,27 +7374,25 @@
   {
    "id": "5-02",
    "act": 5,
-   "start": 1144.015,
-   "end": 1168.72,
+   "start": 1594.99,
+   "end": 1604.44,
    "role": "H",
    "sentences": [
-    "5.02#3",
-    "5.02#4",
-    "5.02#5"
+    "5.02#2"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t8_tokyo_court_gavel_strike",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Đó chính là phản ứng điển hình của Sự sụp đổ cái tôi ái kỷ và Sự tự thương hại bệnh lý. Kẻ từng quen đứng trên đỉnh cao quyền lực tuyệt đối đã không thể đối diện với sự trần trụi của chính mình khi bị tước bỏ mọi đặc quyền. Hắn thà chọn cách thu mình vào vỏ bọc câm lặng hơn là thừa nhận sự thất bại thảm hại của ảo tưởng vĩ cuồng."
+       "Trước tòa án, Shoko Asahara liên tục giả điên, lẩm bẩm những câu vô nghĩa và từ chối giao tiếp với cả luật sư lẫn các thẩm phán."
       ]
      ]
     }
@@ -3655,8 +7414,170 @@
   {
    "id": "5-03",
    "act": 5,
-   "start": 1168.72,
-   "end": 1178.227,
+   "start": 1604.44,
+   "end": 1611.9,
+   "role": "H",
+   "sentences": [
+    "5.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_fragile_boundary_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đó chính là phản ứng điển hình của Sự sụp đổ cái tôi ái kỷ và Sự tự thương hại bệnh lý."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-04",
+   "act": 5,
+   "start": 1611.9,
+   "end": 1619.79,
+   "role": "H",
+   "sentences": [
+    "5.02#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_concrete_cell_isolation",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bản chất của kẻ ái kỷ suy đồi là không bao giờ chấp nhận vị thế của một kẻ bại trận trước những người mà hắn từng coi thường."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-05",
+   "act": 5,
+   "start": 1619.79,
+   "end": 1630.05,
+   "role": "H",
+   "sentences": [
+    "5.02#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_grand_courtroom_proceedings",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Kẻ từng quen đứng trên đỉnh cao quyền lực tuyệt đối đã không thể đối diện với sự trần trụi của chính mình khi bị tước bỏ mọi đặc quyền."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-06",
+   "act": 5,
+   "start": 1630.05,
+   "end": 1637.77,
+   "role": "H",
+   "sentences": [
+    "5.02#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_court_gavel_strike",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn thà chọn cách thu mình vào vỏ bọc câm lặng hơn là thừa nhận sự thất bại thảm hại của ảo tưởng vĩ cuồng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-07",
+   "act": 5,
+   "start": 1637.77,
+   "end": 1650.09,
    "role": "D",
    "sentences": [
     "5.03#1"
@@ -3673,7 +7594,7 @@
      "elems": [
       [
        "ital",
-       "Sau quá trình xét xử nghiêm minh và thận trọng, Tòa án Tối cao Nhật Bản đã tuyên phạt mức án cao nhất: án tử hình đối với Shoko Asahara và mười hai đệ tử then chốt của giáo phái."
+       "Sau quá trình xét xử nghiêm minh và thận trọng, Tòa án Tối cao Nhật Bản đã tuyên phạt mức án cao nhất: Án tử hình đối với Shoko Asahara và mười hai đệ tử then chốt của giáo phái."
       ]
      ]
     }
@@ -3683,7 +7604,7 @@
    "flags": {
     "bust": false,
     "nobust": false,
-    "intro": true,
+    "intro": false,
     "handoff": [],
     "dual": false,
     "guests": false,
@@ -3693,20 +7614,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-04",
+   "id": "5-08",
    "act": 5,
-   "start": 1178.227,
-   "end": 1186.963,
+   "start": 1650.09,
+   "end": 1663.76,
    "role": "D",
    "sentences": [
     "5.03#2"
    ],
-   "template": "T2",
+   "template": "T1",
    "variant": "",
-   "bg": "t8_dossier_elite_scientists",
+   "bg": "t8_thirteen_death_verdicts",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3733,29 +7654,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-05",
+   "id": "5-09",
    "act": 5,
-   "start": 1186.963,
-   "end": 1210.125,
+   "start": 1663.76,
+   "end": 1672.49,
    "role": "D",
    "sentences": [
-    "5.03#3",
-    "5.03#4",
-    "5.03#5"
+    "5.03#3"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_tokyo_court_gavel_strike",
+   "bg": "t8_dossier_elite_scientists",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Riêng Bác sĩ Ikuo Hayashi, nhờ sự thức tỉnh, thái độ ăn năn chân thành và lời khai hợp tác toàn diện giúp phá án, đã nhận mức án tù chung thân. Vào tháng 7 năm 2018, bản án tử hình bằng hình thức treo cổ đã chính thức được thi hành đối với Shoko Asahara và toàn bộ mười hai đồng phạm then chốt. Sự trừng phạt nghiêm khắc của pháp luật đã khép lại một chương đen tối kéo dài hơn hai mươi ba năm trong tâm thức xã hội Nhật Bản."
+       "Riêng Bác sĩ Ikuo Hayashi, nhờ sự thức tỉnh, thái độ ăn năn chân thành và lời khai hợp tác toàn diện giúp phá án, đã nhận mức án tù chung thân."
       ]
      ]
     }
@@ -3775,14 +7694,135 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-06",
+   "id": "5-10",
    "act": 5,
-   "start": 1210.125,
-   "end": 1228.243,
+   "start": 1672.49,
+   "end": 1683.63,
+   "role": "D",
+   "sentences": [
+    "5.03#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_court_gavel_strike",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hệ thống tư pháp Nhật Bản đã thể hiện sự kiên định và tôn trọng chuẩn mực tố tụng tuyệt đối khi dành hơn hai thập kỷ để làm sáng tỏ từng chi tiết nhỏ nhất của vụ án."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-11",
+   "act": 5,
+   "start": 1683.63,
+   "end": 1695.77,
+   "role": "D",
+   "sentences": [
+    "5.03#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_iron_gate_closing",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Vào tháng 7 năm 2018, bản án tử hình bằng hình thức treo cổ đã chính thức được thi hành đối với Shoko Asahara và toàn bộ mười hai đồng phạm then chốt."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-12",
+   "act": 5,
+   "start": 1695.77,
+   "end": 1703.16,
+   "role": "D",
+   "sentences": [
+    "5.03#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_matsumoto_court_dossier",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Sự trừng phạt nghiêm khắc của pháp luật đã khép lại một chương đen tối kéo dài hơn hai mươi ba năm trong tâm thức xã hội Nhật Bản."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-13",
+   "act": 5,
+   "start": 1703.16,
+   "end": 1712.01,
    "role": "H",
    "sentences": [
-    "5.04#1",
-    "5.04#2"
+    "5.04#1"
    ],
    "template": "T1",
    "variant": "",
@@ -3796,7 +7836,7 @@
      "elems": [
       [
        "ital",
-       "Vụ án đã giáng một cú sốc chí mạng vào niềm tin xã hội và thúc đẩy cuộc đại cải tổ thể chế pháp luật chưa từng có. Nhật Bản đã sửa đổi toàn diện Đạo luật Tổ chức Tôn giáo và ban hành các đạo luật đặc biệt nhằm kiểm soát chặt chẽ các tổ chức có nguy cơ khủng bố tập thể."
+       "Vụ án đã giáng một … chí mạng vào niềm tin xã hội và thúc đẩy cuộc đại cải tổ thể chế pháp luật chưa từng có."
       ]
      ]
     }
@@ -3816,10 +7856,50 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-07",
+   "id": "5-14",
    "act": 5,
-   "start": 1228.243,
-   "end": 1239.702,
+   "start": 1712.01,
+   "end": 1723.46,
+   "role": "H",
+   "sentences": [
+    "5.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_murakami_underground_book",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nhật Bản đã sửa đổi toàn diện Đạo luật Tổ chức Tôn giáo và ban hành các đạo luật đặc biệt nhằm kiểm soát chặt chẽ các tổ chức có nguy cơ khủng bố tập thể."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-15",
+   "act": 5,
+   "start": 1723.46,
+   "end": 1735.4,
    "role": "H",
    "sentences": [
     "5.04#3"
@@ -3829,7 +7909,7 @@
    "bg": "t8_murakami_underground_book",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -3856,15 +7936,295 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-08",
+   "id": "5-16",
    "act": 5,
-   "start": 1239.702,
-   "end": 1266.473,
+   "start": 1735.4,
+   "end": 1743.05,
    "role": "H",
    "sentences": [
-    "5.04#4",
-    "5.04#5",
+    "5.04#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_dawn_restored_peace",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ông nhận ra rằng: Ranh giới giữa một con người bình thường và một kẻ cuồng tín mỏng manh hơn chúng ta tưởng rất nhiều."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-17",
+   "act": 5,
+   "start": 1743.05,
+   "end": 1752.5,
+   "role": "H",
+   "sentences": [
+    "5.04#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_fragile_boundary_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Khi xã hội quá áp lực và vô cảm, bất kỳ tâm hồn cô đơn nào cũng có thể tìm đến một chiếc phao cứu sinh độc hại để bấu víu."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-18",
+   "act": 5,
+   "start": 1752.5,
+   "end": 1762.63,
+   "role": "H",
+   "sentences": [
     "5.04#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_buddhist_mandala_distortion",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Một xã hội hiện đại thịnh vượng về vật chất nhưng nghèo nàn về sự kết nối cảm xúc chính là mảnh đất màu mỡ nhất cho những mầm mống tà giáo sinh sôi."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-19",
+   "act": 5,
+   "start": 1762.63,
+   "end": 1772.24,
+   "role": "H",
+   "sentences": [
+    "5.04#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_detention_house_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Và cái ác thực sự không phải là những con quái vật từ bên ngoài, mà nảy sinh ngay từ sự thiếu thốn kết nối nhân văn trong lòng cuộc sống hiện đại."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-20",
+   "act": 5,
+   "start": 1772.24,
+   "end": 1779.78,
+   "role": "C",
+   "sentences": [
+    "5.05#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_dawn_restored_peace",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hồ sơ Aum Shinrikyo để lại một bài học cảnh tỉnh sâu sắc cho toàn nhân loại về giới hạn của trí tuệ con người."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-21",
+   "act": 5,
+   "start": 1779.78,
+   "end": 1786.72,
+   "role": "C",
+   "sentences": [
+    "5.05#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_corporate_salaryman_cogs",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bằng cấp học thuật cao và chỉ số thông minh logic không bao giờ là tấm khiên bảo vệ chúng ta trước những … thao túng tâm lý tinh vi."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-22",
+   "act": 5,
+   "start": 1786.72,
+   "end": 1795.16,
+   "role": "C",
+   "sentences": [
+    "5.05#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_moral_rationalization_books",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ngược lại, khi những bộ óc xuất chúng nhất bị mất phương hướng về mặt giá trị sống, họ có thể trở thành công cụ hủy diệt nguy hiểm nhất của cái ác."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-23",
+   "act": 5,
+   "start": 1795.16,
+   "end": 1803.06,
+   "role": "C",
+   "sentences": [
+    "5.05#4"
    ],
    "template": "T1",
    "variant": "",
@@ -3878,7 +8238,7 @@
      "elems": [
       [
        "ital",
-       "Ông nhận ra rằng: ranh giới giữa một con người bình thường và một kẻ cuồng tín mỏng manh hơn chúng ta tưởng rất nhiều. Khi xã hội quá áp lực và vô cảm, bất kỳ tâm hồn cô đơn nào cũng có thể tìm đến một chiếc phao cứu sinh độc hại để bấu víu. Và cái ác thực sự không phải là những con quái vật từ bên ngoài, mà nảy sinh ngay từ sự thiếu thốn kết nối nhân văn trong lòng cuộc sống hiện đại."
+       "Khi tư duy phản biện bị đánh đổi để lấy cảm giác an toàn giả tạo, con người sẽ tự nguyện trao quyền kiểm soát cuộc đời mình cho những kẻ thao túng."
       ]
      ]
     }
@@ -3898,59 +8258,17 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-09",
+   "id": "5-24",
    "act": 5,
-   "start": 1266.473,
-   "end": 1282.754,
+   "start": 1803.06,
+   "end": 1811.15,
    "role": "C",
    "sentences": [
-    "5.05#1",
-    "5.05#2"
+    "5.05#5"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t8_tokyo_dawn_restored_peace",
-   "bg2": null,
-   "inset": null,
-   "camera": "still",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Hồ sơ Aum Shinrikyo để lại một bài học cảnh tỉnh sâu sắc cho toàn nhân loại về giới hạn của trí tuệ con người. Bằng cấp học thuật cao và chỉ số thông minh logic không bao giờ là tấm khiên bảo vệ chúng ta trước những thủ đoạn thao túng tâm lý tinh vi."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": true,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "5-10",
-   "act": 5,
-   "start": 1282.754,
-   "end": 1301.301,
-   "role": "C",
-   "sentences": [
-    "5.05#3",
-    "5.05#4"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t8_tokyo_dawn_fog",
    "bg2": null,
    "inset": null,
    "camera": "pull",
@@ -3960,7 +8278,7 @@
      "elems": [
       [
        "ital",
-       "Ngược lại, khi những bộ óc xuất chúng nhất bị mất phương hướng về mặt giá trị sống, họ có thể trở thành công cụ hủy diệt nguy hiểm nhất của cái ác. Sự cuồng tín luôn bắt đầu từ những lời hứa hẹn ngọt ngào về một chân lý tuyệt đối đứng trên mọi quy chuẩn đạo đức thông thường."
+       "Sự cuồng tín luôn bắt đầu từ những lời hứa hẹn ngọt ngào về một chân lý tuyệt đối đứng trên mọi quy chuẩn đạo đức thông thường."
       ]
      ]
     }
@@ -3971,7 +8289,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -3980,56 +8300,16 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-11",
+   "id": "5-25",
    "act": 5,
-   "start": 1301.301,
-   "end": 1312.57,
+   "start": 1811.15,
+   "end": 1823.49,
    "role": "H",
    "sentences": [
     "5.06#1"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_mountain_grave_memorial",
-   "bg2": null,
-   "inset": null,
-   "camera": "still",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Để bảo vệ bản thân và những người thân yêu trước các tổ chức thao túng tâm trí độc hại, kênh Amber Eyes xin đúc kết bốn tín hiệu cảnh báo đỏ sinh tồn từ hồ sơ lịch sử này."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "5-12",
-   "act": 5,
-   "start": 1312.57,
-   "end": 1318.157,
-   "role": "H",
-   "sentences": [
-    "5.06#2"
-   ],
-   "template": "T8",
-   "variant": "flags",
    "bg": "t8_redflag1_social_isolation",
    "bg2": null,
    "inset": null,
@@ -4040,11 +8320,7 @@
      "elems": [
       [
        "ital",
-       "01"
-      ],
-      [
-       "bold",
-       "CẢNH BÁO ĐỎ 1 — CÔ LẬP XÃ HỘI & CẮT ĐỨT MỐI QUAN HỆ HỖ TRỢ"
+       "Để bảo vệ bản thân và những người thân yêu trước các tổ chức thao túng tâm trí độc hại, kênh Amber Eyes xin đúc kết bốn tín hiệu cảnh báo đỏ sinh tồn từ hồ sơ lịch sử này:"
       ]
      ]
     }
@@ -4064,27 +8340,31 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-13",
+   "id": "5-26",
    "act": 5,
-   "start": 1318.157,
-   "end": 1330.32,
+   "start": 1823.49,
+   "end": 1830.18,
    "role": "H",
    "sentences": [
-    "5.06#3"
+    "5.06#2"
    ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t8_corporate_salaryman_cogs",
+   "template": "T8",
+   "variant": "flags",
+   "bg": "t8_redflag1_social_isolation",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Bất kỳ tổ chức lành mạnh nào cũng tôn trọng gia đình và các mối liên kết xã hội của bạn; nếu một nhóm tìm cách tách bạn khỏi người thân và kiểm soát nguồn thông tin, hãy lập tức rời đi."
+       "01"
+      ],
+      [
+       "bold",
+       "CẢNH BÁO ĐỎ THỨ NHẤT: CHIẾN THUẬT CÔ LẬP XÃ HỘI VÀ CẮT ĐỨT CÁC MỐI QUAN HỆ HỖ TRỢ."
       ]
      ]
     }
@@ -4104,10 +8384,50 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-14",
+   "id": "5-27",
    "act": 5,
-   "start": 1330.32,
-   "end": 1336.098,
+   "start": 1830.18,
+   "end": 1843.23,
+   "role": "H",
+   "sentences": [
+    "5.06#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_redflag2_physical_exhaustion",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bất kỳ tổ chức lành mạnh nào cũng tôn trọng gia đình và các mối liên kết xã hội của bạn, nếu một nhóm tìm cách tách bạn khỏi người thân và kiểm soát nguồn thông tin, hãy lập tức rời đi."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-28",
+   "act": 5,
+   "start": 1843.23,
+   "end": 1849.62,
    "role": "H",
    "sentences": [
     "5.06#4"
@@ -4117,7 +8437,7 @@
    "bg": "t8_redflag2_physical_exhaustion",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -4128,7 +8448,7 @@
       ],
       [
        "bold",
-       "CẢNH BÁO ĐỎ 2 — KỸ THUẬT LÀM SUY KIỆT THỂ CHẤT & TRIỆT TIÊU TƯ DUY PHẢN BIỆN"
+       "CẢNH BÁO ĐỎ THỨ HAI: KỸ THUẬT LÀM SUY KIỆT THỂ CHẤT NHẰM TRIỆT TIÊU TƯ DUY PHẢN BIỆN."
       ]
      ]
     }
@@ -4148,20 +8468,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-15",
+   "id": "5-29",
    "act": 5,
-   "start": 1336.098,
-   "end": 1345.963,
+   "start": 1849.62,
+   "end": 1859.44,
    "role": "H",
    "sentences": [
     "5.06#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_malnutrition_solitary_bowl",
+   "bg": "t8_redflag3_cult_of_personality",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -4188,20 +8508,60 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-16",
+   "id": "5-30",
    "act": 5,
-   "start": 1345.963,
-   "end": 1351.996,
+   "start": 1859.44,
+   "end": 1869.09,
    "role": "H",
    "sentences": [
     "5.06#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_redflag4_moral_inversion",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Một tinh thần minh mẫn không bao giờ có thể tồn tại trong một cơ thể bị bóc lột và kiệt quệ đến mức mất đi quyền tự chủ cơ bản."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-31",
+   "act": 5,
+   "start": 1869.09,
+   "end": 1876.0,
+   "role": "H",
+   "sentences": [
+    "5.06#7"
    ],
    "template": "T8",
    "variant": "flags",
    "bg": "t8_redflag3_cult_of_personality",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -4212,7 +8572,7 @@
       ],
       [
        "bold",
-       "CẢNH BÁO ĐỎ 3 — SÙNG BÁI CÁ NHÂN TUYỆT ĐỐI & CẤM ĐOÁN"
+       "CẢNH BÁO ĐỎ THỨ BA: SỰ SÙNG BÁI CÁ NHÂN TUYỆT ĐỐI VÀ CẤM ĐOÁN VIỆC ĐẶT CÂU HỎI HOÀI NGHI."
       ]
      ]
     }
@@ -4232,17 +8592,17 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-17",
+   "id": "5-32",
    "act": 5,
-   "start": 1351.996,
-   "end": 1364.798,
+   "start": 1876.0,
+   "end": 1889.96,
    "role": "H",
    "sentences": [
-    "5.06#7"
+    "5.06#8"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_devotion_altar_kneeling",
+   "bg": "t8_malnutrition_solitary_bowl",
    "bg2": null,
    "inset": null,
    "camera": "pull",
@@ -4252,7 +8612,7 @@
      "elems": [
       [
        "ital",
-       "Một người thầy chân chính luôn khuyến khích học trò tự do suy nghĩ và kiểm chứng sự thật; chỉ có những kẻ thao túng mới coi lời nói của mình đứng trên luật pháp và quy kết sự nghi ngờ là tội lỗi."
+       "Một người thầy chân chính luôn khuyến khích học trò tự do suy nghĩ và kiểm chứng sự thật, chỉ có những kẻ thao túng mới coi lời nói của mình đứng trên luật pháp và quy kết sự nghi ngờ là tội lỗi."
       ]
      ]
     }
@@ -4272,13 +8632,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-18",
+   "id": "5-33",
    "act": 5,
-   "start": 1364.798,
-   "end": 1370.001,
+   "start": 1889.96,
+   "end": 1896.31,
    "role": "H",
    "sentences": [
-    "5.06#8"
+    "5.06#9"
    ],
    "template": "T8",
    "variant": "flags",
@@ -4296,7 +8656,7 @@
       ],
       [
        "bold",
-       "CẢNH BÁO ĐỎ 4 — NGỤY BIỆN ĐẢO NGƯỢC ĐẠO ĐỨC & KÍCH ĐỘNG THÙ HẬN"
+       "CẢNH BÁO ĐỎ THỨ TƯ: NGỤY BIỆN ĐẢO NGƯỢC ĐẠO ĐỨC VÀ KÍCH ĐỘNG THÙ HẬN XÃ HỘI."
       ]
      ]
     }
@@ -4316,18 +8676,57 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-19",
+   "id": "5-34",
    "act": 5,
-   "start": 1370.001,
-   "end": 1386.505,
+   "start": 1896.31,
+   "end": 1906.17,
    "role": "H",
    "sentences": [
-    "5.06#9",
     "5.06#10"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t8_fragile_boundary_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hãy kiên quyết từ chối bất kỳ giáo lý nào rao giảng rằng việc gây tổn hại cho người khác là một hành vi từ bi vì mục đích cao cả."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-35",
+   "act": 5,
+   "start": 1906.17,
+   "end": 1913.29,
+   "role": "H",
+   "sentences": [
+    "5.06#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_concrete_cell_isolation",
    "bg2": null,
    "inset": null,
    "camera": "pan",
@@ -4337,7 +8736,7 @@
      "elems": [
       [
        "ital",
-       "Hãy kiên quyết từ chối bất kỳ giáo lý nào rao giảng rằng việc gây tổn hại cho người khác là một hành vi từ bi vì mục đích cao cả. Chân lý đích thực không bao giờ được xây dựng trên sự lừa dối, sợ hãi và nỗi đau của đồng loại."
+       "Hãy luôn nhớ rằng không một mục đích cao cả nào có thể biện minh cho những phương tiện tàn nhẫn và phi nhân tính."
       ]
      ]
     }
@@ -4357,10 +8756,50 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-20",
+   "id": "5-36",
    "act": 5,
-   "start": 1386.505,
-   "end": 1394.071,
+   "start": 1913.29,
+   "end": 1922.28,
+   "role": "H",
+   "sentences": [
+    "5.06#12"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_redflag1_social_isolation",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chân lý đích thực không bao giờ được xây dựng trên sự lừa dối, sợ hãi và nỗi đau của đồng loại."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-37",
+   "act": 5,
+   "start": 1922.28,
+   "end": 1930.69,
    "role": "H",
    "sentences": [
     "5.08#1"
@@ -4397,29 +8836,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-21",
+   "id": "5-38",
    "act": 5,
-   "start": 1394.071,
-   "end": 1410.36,
+   "start": 1930.69,
+   "end": 1936.59,
    "role": "H",
    "sentences": [
-    "5.08#2",
-    "5.08#3",
-    "5.08#4"
+    "5.08#2"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t8_tokyo_dawn_fog",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Cảm ơn quý vị đã đồng hành cùng Amber Eyes trong tập hồ sơ giải phẫu tâm lý ngày hôm nay. Hãy bấm đăng ký kênh, chia sẻ video và để lại góc nhìn của bạn ở phần bình luận bên dưới. Xin chào và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo."
+       "Cảm ơn quý vị đã đồng hành cùng Amber Eyes trong tập hồ sơ giải phẫu tâm lý ngày hôm nay."
       ]
      ]
     }
@@ -4439,37 +8876,109 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-22",
+   "id": "5-39",
    "act": 5,
-   "start": 1410.36,
-   "end": 1420.36,
-   "role": null,
-   "sentences": [],
+   "start": 1936.59,
+   "end": 1942.99,
+   "role": "H",
+   "sentences": [
+    "5.08#3"
+   ],
    "template": "T1",
    "variant": "",
-   "bg": "t8_tokyo_dawn_restored_peace",
+   "bg": "t8_corporate_salaryman_cogs",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
+       "Hãy bấm đăng ký kênh, chia sẻ video và để lại góc nhìn của bạn ở phần bình luận bên dưới."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-40",
+   "act": 5,
+   "start": 1942.99,
+   "end": 1947.75,
+   "role": "H",
+   "sentences": [
+    "5.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t8_tokyo_dawn_restored_peace",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Xin chào và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-41",
+   "act": 5,
+   "start": 1947.75,
+   "end": 1957.51,
+   "role": null,
+   "sentences": [],
+   "template": "T2",
+   "variant": "",
+   "bg": "t8_tokyo_dawn_restored_peace",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
        "HỒ SƠ TẬP 08 · ĐÃ ĐÓNG"
       ],
       [
-       "bold",
-       "AMBER EYES"
-      ],
-      [
        "ital",
-       "Phân tích tâm lý tội phạm"
-      ],
-      [
-       "ital",
-       "qua những hồ sơ có thật"
+       "AMBER EYES · Phân tích tâm lý tội phạm qua những hồ sơ có thật"
       ]
      ]
     }
@@ -4486,7 +8995,7 @@
     "p2": false
    },
    "hold": false,
-   "transition": "dissolve"
+   "transition": "dip"
   }
  ]
 }

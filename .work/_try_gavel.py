@@ -77,7 +77,7 @@ def to_169(im, size=(2112, 1188)):
 
 def call(prompt, res, tag):
     req = {"prompt": STYLE + prompt + NEG, "aspect_ratio": "16:9",
-           "resolution": res, "output_file": "t3_gavel"}
+           "area": res, "output_file": "t3_gavel"}
     af = LOG / f"gavel_try_{tag}_{res}.json"
     af.write_text(json.dumps({"requests": [req]}, ensure_ascii=False), encoding="utf-8")
     try:

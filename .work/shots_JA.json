@@ -1,77 +1,44 @@
 {
- "total": 1368.67,
+ "total": 1959.46,
  "shots": [
-  {
-   "id": "1-00",
-   "act": 1,
-   "start": 20.5,
-   "end": 22.8,
-   "role": null,
-   "sentences": [],
-   "template": "T1",
-   "variant": "",
-   "bg": "house_police",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "第1幕 · 信頼が崩れる瞬間"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Đèn cảnh sát quét; drone dâng",
-   "flags": {
-    "bust": false,
-    "nobust": true,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
   {
    "id": "1-01",
    "act": 1,
-   "start": 22.8,
-   "end": 29.688,
+   "start": 22.72,
+   "end": 31.18,
    "role": "H",
    "sentences": [
     "1.03#1",
     "1.03#2"
    ],
-   "template": "T5",
-   "variant": "date",
+   "template": "T1",
+   "variant": "",
    "bg": "house_night",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "bold",
-       "2015年6月14日"
-      ],
+       "2015年6月14日。"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
       [
-       "ital",
-       "ミズーリ州スプリングフィールド"
+       "bold",
+       "アメリカ・ミズーリ州の穏やかな郊外の町スプリングフィールド。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Gõ từng ký tự",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -87,83 +54,25 @@
   {
    "id": "1-02",
    "act": 1,
-   "start": 29.688,
-   "end": 49.795,
+   "start": 31.18,
+   "end": 37.66,
    "role": "H",
    "sentences": [
     "1.03#3"
    ],
-   "template": "T11",
+   "template": "T1",
    "variant": "",
-   "bg": "phone_dark",
+   "bg": "night_street",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "母娘の共同SNSアカウント"
-      ]
-     ]
-    },
-    {
-     "at_sentence": null,
-     "elems": [
-      [
        "bold",
-       "街全体を息を呑ませた1行のステータス"
-      ]
-     ]
-    }
-   ],
-   "beats": [
-    "短く不吉な"
-   ],
-   "beat_text": "Bài đăng hiện dạng các dòng mờ, không đọc được chữ, ở \"短く不吉な\"",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "1-03",
-   "act": 1,
-   "start": 49.795,
-   "end": 51.595,
-   "role": null,
-   "sentences": [],
-   "template": "T11",
-   "variant": "",
-   "bg": "phone_dark",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "母娘の共同SNSアカウント"
-      ]
-     ]
-    },
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "街全体を息を呑ませた1行のステータス"
+       "静まり返った夜の帳が郊外の通りを包み込む、蒸し暑い夏の日のことでした。"
       ]
      ]
     }
@@ -179,22 +88,21 @@
     "guests": false,
     "p2": false
    },
-   "hold": true,
-   "transition": "dissolve",
-   "inherit": "1-02"
+   "hold": false,
+   "transition": "dissolve"
   },
   {
-   "id": "1-04",
+   "id": "1-03",
    "act": 1,
-   "start": 51.595,
-   "end": 60.606,
+   "start": 37.66,
+   "end": 50.98,
    "role": "H",
    "sentences": [
-    "1.05#1"
+    "1.03#4"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "crowd_house",
+   "bg": "phone_dark",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -203,12 +111,48 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "パステルピンクの小さな家"
-      ],
+       "ital",
+       "その町で最も知られ、愛されていた母娘――Dee Dee Blanchardと重度の障害を抱える娘Gypsy Roseの共同Facebookに、突如として短く敵意に満ちた投稿が表示されました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-04",
+   "act": 1,
+   "start": 50.98,
+   "end": 64.82,
+   "role": "H",
+   "sentences": [
+    "1.03#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "phone_dark",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
       [
        "ital",
-       "ミズーリ州スプリングフィールド"
+       "そのメッセージは、献身的な母親が自宅の中で息絶えていることを告げており、地域社会全体を一瞬にして深い混乱と恐怖に陥れたのです。"
       ]
      ]
     }
@@ -230,15 +174,15 @@
   {
    "id": "1-05",
    "act": 1,
-   "start": 60.606,
-   "end": 74.924,
+   "start": 64.82,
+   "end": 73.62,
    "role": "H",
    "sentences": [
-    "1.05#2"
+    "1.05#1"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "house_night",
+   "bg": "crowd_house",
    "bg2": null,
    "inset": null,
    "camera": "pull",
@@ -248,11 +192,7 @@
      "elems": [
       [
        "ital",
-       "次は:"
-      ],
-      [
-       "bold",
-       "同じ通りに住む住民"
+       "取り乱した隣人たちは、ボランティア・ウェイ北2103番地にある小さなピンクの平屋の周りに瞬く間に集まりました。"
       ]
      ]
     }
@@ -263,9 +203,7 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [
-     "N1"
-    ],
+    "handoff": [],
     "dual": false,
     "guests": false,
     "p2": false
@@ -276,25 +214,29 @@
   {
    "id": "1-06",
    "act": 1,
-   "start": 74.924,
-   "end": 82.775,
-   "role": "N1",
+   "start": 73.62,
+   "end": 82.74,
+   "role": "H",
    "sentences": [
-    "1.07#1"
+    "1.05#2"
    ],
-   "template": "T4",
-   "variant": "testimony",
-   "bg": "house_night",
+   "template": "T1",
+   "variant": "",
+   "bg": "charity",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
+       "ital",
+       "その家は、著名な慈善団体"
+      ],
+      [
        "quote",
-       "聖なる母の愛の象徴"
+       "Habitat for Humanity"
       ]
      ]
     }
@@ -304,7 +246,7 @@
    "flags": {
     "bust": false,
     "nobust": false,
-    "intro": true,
+    "intro": false,
     "handoff": [],
     "dual": false,
     "guests": false,
@@ -316,15 +258,15 @@
   {
    "id": "1-07",
    "act": 1,
-   "start": 82.775,
-   "end": 107.327,
-   "role": "N1",
+   "start": 82.74,
+   "end": 91.66,
+   "role": "H",
    "sentences": [
-    "1.07#2"
+    "1.05#3"
    ],
-   "template": "T8",
+   "template": "T1",
    "variant": "",
-   "bg": "deedee_room",
+   "bg": "charity",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -334,17 +276,13 @@
      "elems": [
       [
        "ital",
-       "街全体が信じていたこと"
-      ],
-      [
-       "ital",
-       "腰から下の麻痺 · 白血病 · 筋ジストロフィー · 重度のてんかん · 知能は7歳程度"
+       "一家は「Make-A-Wish」からの全額支援による旅行や、全国の慈善家からの絶え間ない寄付や温かい支援も受けていました。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Mỗi mục tại cụm từ",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -360,25 +298,25 @@
   {
    "id": "1-08",
    "act": 1,
-   "start": 107.327,
-   "end": 119.648,
-   "role": "N1",
+   "start": 91.66,
+   "end": 101.5,
+   "role": "H",
    "sentences": [
-    "1.07#3"
+    "1.05#4"
    ],
-   "template": "T4",
-   "variant": "testimony",
-   "bg": "house_night",
+   "template": "T1",
+   "variant": "",
+   "bg": "crowd_house",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "quote",
-       "この町の誰もが感動と称賛の涙を流した"
+       "ital",
+       "かつてポーチへと続く専用の車椅子スロープが設置された際には、数百人のボランティアや住民たちが感動の涙を流したものです。"
       ]
      ]
     }
@@ -386,7 +324,7 @@
    "beats": [],
    "beat_text": "—",
    "flags": {
-    "bust": true,
+    "bust": false,
     "nobust": false,
     "intro": false,
     "handoff": [],
@@ -400,25 +338,25 @@
   {
    "id": "1-09",
    "act": 1,
-   "start": 119.648,
-   "end": 131.69,
+   "start": 101.5,
+   "end": 109.14,
    "role": "H",
    "sentences": [
-    "1.08#1"
+    "1.05#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "bedroom_door",
+   "bg": "house_night",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "母親は死亡していた"
+       "ital",
+       "何年もの間、その家は無条件の母性愛の最も崇高な象徴として町の人々に讃えられていました。"
       ]
      ]
     }
@@ -440,15 +378,15 @@
   {
    "id": "1-10",
    "act": 1,
-   "start": 131.69,
-   "end": 135.685,
+   "start": 109.14,
+   "end": 120.32,
    "role": "H",
    "sentences": [
-    "1.08#2"
+    "1.05#6"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "empty_room",
+   "bg": "house_night",
    "bg2": null,
    "inset": null,
    "camera": "still",
@@ -457,8 +395,8 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "GYPSY ROSEは姿を消した"
+       "ital",
+       "地域社会を襲った衝撃と動揺がどれほど深いものであったかを理解するために、長年その母娘を見守ってきた近隣住民の声に耳を傾けてみましょう。"
       ]
      ]
     }
@@ -467,29 +405,30 @@
    "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": true,
+    "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "N1"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
    },
    "hold": false,
-   "transition": "cut"
+   "transition": "dissolve"
   },
   {
    "id": "1-11",
    "act": 1,
-   "start": 135.685,
-   "end": 147.415,
-   "role": "H",
+   "start": 120.32,
+   "end": 130.26,
+   "role": "N1",
    "sentences": [
-    "1.08#3",
-    "1.08#4"
+    "1.07#1"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "wheelchair_room",
+   "bg": "house_night",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -498,18 +437,18 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "車椅子 · 酸素ボンベ · 数十本の薬瓶"
+       "ital",
+       "この町に住む私たち全員にとって、あのピンクの家は純粋な人間の優しさと奇跡の象徴でした。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "`#3` sáng xe lăn, `#4` sáng kệ",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
-    "intro": false,
+    "intro": true,
     "handoff": [],
     "dual": false,
     "guests": false,
@@ -521,29 +460,25 @@
   {
    "id": "1-12",
    "act": 1,
-   "start": 147.415,
-   "end": 164.077,
-   "role": "H",
+   "start": 130.26,
+   "end": 139.38,
+   "role": "N1",
    "sentences": [
-    "1.08#5"
+    "1.07#2"
    ],
-   "template": "T3",
+   "template": "T1",
    "variant": "",
-   "bg": "wheelchair_room",
+   "bg": "house_night",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "全米が問う"
-      ],
-      [
-       "bold",
-       "母親の死を招いたのは一体誰なのか？"
+       "ディーディーは自身の個人的な幸福をすべて捧げて、不運なGypsy Roseを支え続けた偉大なシングルマザーだったのです。"
       ]
      ]
     }
@@ -565,11 +500,573 @@
   {
    "id": "1-13",
    "act": 1,
-   "start": 164.077,
-   "end": 172.543,
+   "start": 139.38,
+   "end": 152.92,
+   "role": "N1",
+   "sentences": [
+    "1.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "wheelchair_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "その少女は果てしない病歴を抱えていました――腰から下の完全な麻痺、急性白血病、筋ジストロフィー、頻発するてんかん、そして7歳児程度にとどまる知能です。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-14",
+   "act": 1,
+   "start": 152.92,
+   "end": 161.48,
+   "role": "N1",
+   "sentences": [
+    "1.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "wheelchair_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "あの小柄な母親が町中で車椅子を根気強く押し続ける姿は、住民全員の心に深く焼き付いていました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-15",
+   "act": 1,
+   "start": 161.48,
+   "end": 170.2,
+   "role": "N1",
+   "sentences": [
+    "1.07#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "crowd_house",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "二人を見かけた人は誰もが、母親の底知れぬ忍耐と献身に胸を打たれ涙を流したものです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-16",
+   "act": 1,
+   "start": 170.2,
+   "end": 178.94,
+   "role": "N1",
+   "sentences": [
+    "1.07#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "私たちは彼女のことを、この世に舞い降りた本物の聖人のような存在だと心から信じ切っていました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-17",
+   "act": 1,
+   "start": 178.94,
+   "end": 187.9,
+   "role": "H",
+   "sentences": [
+    "1.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_police",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "しかし、その冷え切った夜、警察が鍵を破って家の中に足を踏み入れたとき、待っていたのは正反対の光景でした。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-18",
+   "act": 1,
+   "start": 187.9,
+   "end": 195.38,
+   "role": "H",
+   "sentences": [
+    "1.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "母親のディーディー・ブランチャードは寝室のベッドの上で、数日前に息絶えた状態で横たわっていたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-19",
+   "act": 1,
+   "start": 195.38,
+   "end": 202.04,
+   "role": "H",
+   "sentences": [
+    "1.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "bedroom_door",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "暗い部屋の中には、立ち込める異臭と放置された重苦しい空気が漂っていました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-20",
+   "act": 1,
+   "start": 202.04,
+   "end": 210.26,
+   "role": "H",
+   "sentences": [
+    "1.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "empty_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "そして、常に母親の看病を必要としていたはずの娘Gypsy Roseは、どこにも見当たらず姿を消していました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-21",
+   "act": 1,
+   "start": 210.26,
+   "end": 216.52,
+   "role": "H",
+   "sentences": [
+    "1.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "wheelchair_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "少女の移動に不可欠であるはずの特注の車椅子は、リビングの片隅に静かに置かれたままでした。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-22",
+   "act": 1,
+   "start": 216.52,
+   "end": 226.24,
    "role": "H",
    "sentences": [
     "1.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "酸素ボンベや痰吸引器、そして生命維持のための数百本に及ぶ処方薬も、棚の上に手つかずで残されていました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-23",
+   "act": 1,
+   "start": 226.24,
+   "end": 231.5,
+   "role": "H",
+   "sentences": [
+    "1.08#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "spotlight",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "現場全体を包み込んだのは、背筋が凍るような不気味な静寂でした。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-24",
+   "act": 1,
+   "start": 231.5,
+   "end": 237.44,
+   "role": "H",
+   "sentences": [
+    "1.08#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "速報が流れると、アメリカ全土が底知れぬ悪夢のような動揺に包まれました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-25",
+   "act": 1,
+   "start": 237.44,
+   "end": 245.9,
+   "role": "H",
+   "sentences": [
+    "1.08#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_street",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "残忍な犯人が聖母のような母親を奪い、自力では一歩も歩けない無力な少女を連れ去ったのではないかと人々は恐れたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-26",
+   "act": 1,
+   "start": 245.9,
+   "end": 257.56,
+   "role": "H",
+   "sentences": [
+    "1.08#10"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "薬がなければ数時間で命を落とす危険があるという切迫した前提のもと、全米規模の大捜索が直ちに開始されました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-27",
+   "act": 1,
+   "start": 257.56,
+   "end": 267.64,
+   "role": "H",
+   "sentences": [
+    "1.08#11"
    ],
    "template": "T1",
    "variant": "",
@@ -583,11 +1080,7 @@
      "elems": [
       [
        "ital",
-       "次は:"
-      ],
-      [
-       "bold",
-       "事件担当の捜査官"
+       "捜査当局が容疑者に接触した歴史的な転換点の瞬間を、担当捜査官の証言から振り返ってみましょう。"
       ]
      ]
     }
@@ -609,78 +1102,33 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-14",
+   "id": "1-28",
    "act": 1,
-   "start": 172.543,
-   "end": 174.343,
-   "role": null,
-   "sentences": [],
+   "start": 267.64,
+   "end": 279.46,
+   "role": "D",
+   "sentences": [
+    "1.11#1"
+   ],
    "template": "T1",
    "variant": "",
-   "bg": "interrogation",
+   "bg": "pinboard",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "次は:"
-      ],
-      [
-       "bold",
-       "事件担当の捜査官"
+       "捜査開始からの48時間、私たちの特別捜査班は瀕死の重病少女を救い出すべく、時間との戦いの中で不眠不休で動いていました。"
       ]
      ]
     }
    ],
    "beats": [],
    "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": true,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": true,
-   "transition": "dissolve",
-   "inherit": "1-13"
-  },
-  {
-   "id": "1-15",
-   "act": 1,
-   "start": 174.343,
-   "end": 183.263,
-   "role": "D",
-   "sentences": [
-    "1.11#1"
-   ],
-   "template": "T2",
-   "variant": "",
-   "bg": "pinboard",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "全国指名手配・捜索令"
-      ]
-     ]
-    }
-   ],
-   "beats": [
-    "全国に捜索令"
-   ],
-   "beat_text": "Dấu mộc ở \"全国に捜索令\"",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -694,10 +1142,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-16",
+   "id": "1-29",
    "act": 1,
-   "start": 183.263,
-   "end": 199.472,
+   "start": 279.46,
+   "end": 290.84,
    "role": "D",
    "sentences": [
     "1.11#2"
@@ -707,24 +1155,20 @@
    "bg": "route_night",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "その翌日"
-      ],
-      [
        "ital",
-       "ウィスコンシン州 — 数百マイル彼方"
+       "SNSへの異常な投稿の発信元となったIPアドレスのデジタル痕跡は、現場から800キロ以上離れたウィスコンシン州ビッグベンドの一軒家へと私たちを導きました。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Đường tự vẽ, số đếm",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -738,13 +1182,52 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-17",
+   "id": "1-30",
    "act": 1,
-   "start": 199.472,
-   "end": 211.968,
+   "start": 290.84,
+   "end": 300.36,
    "role": "D",
    "sentences": [
-    "1.11#3",
+    "1.11#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "interrogation_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "そこで捜査陣は、Nicholas Godejohnという名の青年とともにいた一人の若い女性を拘束したのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-31",
+   "act": 1,
+   "start": 300.36,
+   "end": 308.7,
+   "role": "D",
+   "sentences": [
     "1.11#4"
    ],
    "template": "T1",
@@ -758,14 +1241,14 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "彼女は自力で歩いていた"
+       "ital",
+       "しかし、取調室の重い扉が開いたその瞬間、私たちが信じていたすべての前提が根底から崩れ去りました。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Đèn treo sáng ở `#4`",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -779,19 +1262,138 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-18",
+   "id": "1-32",
    "act": 1,
-   "start": 211.968,
-   "end": 219.891,
+   "start": 308.7,
+   "end": 316.5,
    "role": "D",
    "sentences": [
-    "1.11#5",
-    "1.11#6",
+    "1.11#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "interrogation_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "その日、取調室に入ってきたGypsy Rose Blanchardは、車椅子に乗っていませんでした。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-33",
+   "act": 1,
+   "start": 316.5,
+   "end": 323.04,
+   "role": "D",
+   "sentences": [
+    "1.11#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "interrogation_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "彼女は自分の両足でしっかりと立ち、驚くほど自然な足取りで自力で歩いてきたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-34",
+   "act": 1,
+   "start": 323.04,
+   "end": 332.38,
+   "role": "D",
+   "sentences": [
     "1.11#7"
    ],
-   "template": "T8",
-   "variant": "strike",
-   "bg": "records",
+   "template": "T1",
+   "variant": "",
+   "bg": "spotlight",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "その瞳は鋭く澄んでおり、死の淵にある末期患者のような倦怠感は微塵も感じられませんでした。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-35",
+   "act": 1,
+   "start": 332.38,
+   "end": 340.84,
+   "role": "D",
+   "sentences": [
+    "1.11#8",
+    "1.11#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "clinical",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -800,14 +1402,23 @@
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "白血病 · 筋ジストロフィー · 脳損傷"
+       "bold",
+       "白血病の痕跡などどこにもありませんでした。"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "脊髄の損傷も、筋ジストロフィーの兆候も存在しなかったのです。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Mỗi câu gạch một mục",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -818,55 +1429,95 @@
     "p2": false
    },
    "hold": false,
-   "transition": "cut"
+   "transition": "dissolve"
   },
   {
-   "id": "1-19",
+   "id": "1-36",
    "act": 1,
-   "start": 219.891,
-   "end": 229.078,
+   "start": 340.84,
+   "end": 350.28,
    "role": "D",
    "sentences": [
-    "1.11#8"
+    "1.11#10"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "bedroom_door_gypsy",
+   "bg": "brain_desk",
    "bg2": null,
    "inset": null,
-   "camera": "hero",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "彼女の小さな愛娘"
+       "ital",
+       "彼女の思考力は完全に明晰であり、7歳の幼児などではなく、23歳の成人の知性を備えていました。"
       ]
      ]
     }
    ],
-   "beats": [
-    "小さな愛娘"
-   ],
-   "beat_text": "Tiêu đề ở \"小さな愛娘\"",
+   "beats": [],
+   "beat_text": "—",
    "flags": {
-    "bust": true,
+    "bust": false,
     "nobust": false,
     "intro": false,
     "handoff": [],
     "dual": false,
     "guests": false,
-    "p2": true
+    "p2": false
    },
    "hold": false,
    "transition": "dissolve"
   },
   {
-   "id": "1-20",
+   "id": "1-37",
    "act": 1,
-   "start": 229.078,
-   "end": 232.76,
+   "start": 350.28,
+   "end": 368.24,
+   "role": "D",
+   "sentences": [
+    "1.11#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "two_shadows",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "そして、あの聖母と崇められた母親の命を奪う計画を主導した首謀者こそ、国中が同情し涙を流したその愛娘だったのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-38",
+   "act": 1,
+   "start": 368.24,
+   "end": 368.64,
    "role": "H",
    "sentences": [
     "1.13#1"
@@ -876,22 +1527,22 @@
    "bg": "podcast_desk",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "bold",
-       "犯罪心理プロファイリング・ケースファイル"
+       "犯罪心理学チャンネルAmber eyesへようこそ。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "\"Tách\" ở đầu",
+   "beat_text": "—",
    "flags": {
-    "bust": true,
+    "bust": false,
     "nobust": false,
     "intro": false,
     "handoff": [],
@@ -903,15 +1554,15 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-21",
+   "id": "1-39",
    "act": 1,
-   "start": 232.76,
-   "end": 248.355,
+   "start": 368.64,
+   "end": 378.38,
    "role": "H",
    "sentences": [
     "1.13#2"
    ],
-   "template": "T9",
+   "template": "T1",
    "variant": "",
    "bg": "house_night",
    "bg2": null,
@@ -922,25 +1573,14 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "代理型ミュンハウゼン症候群"
-      ]
-     ]
-    },
-    {
-     "at_sentence": null,
-     "elems": [
-      [
        "ital",
-       "第01話 · 母の愛という名の毒薬"
+       "本日私たちは、スプリングフィールドのピンクの家の扉を開き、近代医学と司法の歴史において最も奇怪で過酷な事件の一つであるGypsy Rose事件を解剖します。"
       ]
      ]
     }
    ],
-   "beats": [
-    "代理型ミュンハウゼン症候群"
-   ],
-   "beat_text": "Thuật ngữ ở \"代理型ミュンハウゼン症候群\"; tên tập cuối câu",
+   "beats": [],
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -954,10 +1594,50 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-22",
+   "id": "1-40",
    "act": 1,
-   "start": 248.355,
-   "end": 250.155,
+   "start": 378.38,
+   "end": 398.0,
+   "role": "H",
+   "sentences": [
+    "1.13#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "私たちは代理型ミュンハウゼン症候群と学習性無力感という二つの闇のメカニズムを紐解き、痛切な問いに向き合います――なぜ医療の牢獄は、慈善という名の眩しい後光に守られながら、白昼堂々23年もの間存続し得たのでしょうか。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-41",
+   "act": 1,
+   "start": 398.0,
+   "end": 400.82,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -976,7 +1656,7 @@
       ],
       [
        "bold",
-       "精神刑務所での23年間"
+       "犯罪現場＆医療の深淵へのエスカレーション"
       ]
      ]
     }
@@ -998,36 +1678,31 @@
   {
    "id": "2-01",
    "act": 2,
-   "start": 250.155,
-   "end": 269.175,
+   "start": 400.82,
+   "end": 411.66,
    "role": "H",
    "sentences": [
-    "2.02#1",
-    "2.02#2"
+    "2.02#1"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "bedroom_door",
+   "bg": "brain_desk",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "寝室ではない"
-      ],
-      [
        "ital",
-       "2015年6月"
+       "ある若い女性がなぜ実の母親の命を奪うという極端な決断を下すに至ったのかを理解するためには、事件の真の現場に目を向けなければなりません。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Tiêu đề ở `#2`",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -1043,35 +1718,31 @@
   {
    "id": "2-02",
    "act": 2,
-   "start": 269.175,
-   "end": 275.632,
+   "start": 411.66,
+   "end": 418.08,
    "role": "H",
    "sentences": [
-    "2.02#3"
+    "2.02#2"
    ],
-   "template": "T5",
+   "template": "T1",
    "variant": "",
-   "bg": "wheelchair_gypsy",
+   "bg": "bedroom_door",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "本当の事件現場"
-      ],
-      [
        "bold",
-       "23年間"
+       "この悲劇の真の現場とは、2015年6月のミズーリ州の寝室ではありませんでした。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Số đếm",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -1087,74 +1758,34 @@
   {
    "id": "2-03",
    "act": 2,
-   "start": 275.632,
-   "end": 329.744,
+   "start": 418.08,
+   "end": 427.0,
    "role": "H",
    "sentences": [
-    "2.04#1",
-    "2.04#2",
-    "2.04#3",
-    "2.04#4",
-    "2.04#5"
+    "2.02#3"
    ],
-   "template": "T6",
+   "template": "T1",
    "variant": "",
-   "bg": "records",
+   "bg": "wheelchair_room",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "1991年 · 完全に健康な誕生"
-      ]
-     ]
-    },
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "生後3ヶ月 · 睡眠時無呼吸症"
-      ]
-     ]
-    },
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "捏造された病歴の始まり"
-      ]
-     ]
-    },
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "7歳 · 脊髄損傷 · 車椅子"
-      ]
-     ]
-    },
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "丸刈り頭 · 白血病の化学療法"
+       "真の現場とは、23年間にわたって不当に拘束され、侵襲を受け続けたGypsy Rose自身の肉体そのものだったのです。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Mỗi câu một mốc",
+   "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": true,
+    "nobust": false,
     "intro": false,
     "handoff": [],
     "dual": false,
@@ -1167,25 +1798,25 @@
   {
    "id": "2-04",
    "act": 2,
-   "start": 329.744,
-   "end": 334.808,
+   "start": 427.0,
+   "end": 433.9,
    "role": "H",
    "sentences": [
-    "2.06#1"
+    "2.02#4"
    ],
    "template": "T1",
    "variant": "",
    "bg": "clinical",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "単なる嘘にとどまらない"
+       "ital",
+       "小柄な体躯に落ちくぼんだ目、そしてすべての永久歯を抜き去られた痛ましい一人の女性の姿。"
       ]
      ]
     }
@@ -1193,7 +1824,7 @@
    "beats": [],
    "beat_text": "—",
    "flags": {
-    "bust": true,
+    "bust": false,
     "nobust": false,
     "intro": false,
     "handoff": [],
@@ -1207,29 +1838,25 @@
   {
    "id": "2-05",
    "act": 2,
-   "start": 334.808,
-   "end": 345.433,
+   "start": 433.9,
+   "end": 445.46,
    "role": "H",
    "sentences": [
-    "2.06#2"
+    "2.02#5"
    ],
-   "template": "T2",
+   "template": "T1",
    "variant": "",
-   "bg": "records",
+   "bg": "pinboard",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "数千ページの診療記録"
-      ],
-      [
        "ital",
-       "Gypsyの身体への直接的な医療介入"
+       "この病理的な暴走は一夜にして生じたものではなく、20年以上にわたる4段階の医療虐待のエスカレーションを通じて構築されたものでした。"
       ]
      ]
     }
@@ -1251,29 +1878,25 @@
   {
    "id": "2-06",
    "act": 2,
-   "start": 345.433,
-   "end": 351.02,
+   "start": 445.46,
+   "end": 451.7,
    "role": "H",
    "sentences": [
-    "2.06#3"
+    "2.02#6"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "pinboard",
+   "bg": "records",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "次は:"
-      ],
-      [
        "bold",
-       "捜査官による記録の開示"
+       "押収された膨大な医療記録の詳細について、捜査官から報告してもらいましょう。"
       ]
      ]
     }
@@ -1297,15 +1920,15 @@
   {
    "id": "2-07",
    "act": 2,
-   "start": 351.02,
-   "end": 365.883,
+   "start": 451.7,
+   "end": 463.78,
    "role": "D",
    "sentences": [
-    "2.07#1"
+    "2.04#1"
    ],
-   "template": "T2",
+   "template": "T1",
    "variant": "",
-   "bg": "pinboard",
+   "bg": "records",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -1314,14 +1937,14 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "医療記録に残された3つの痕跡"
+       "ital",
+       "複数の医療機関から回収された数千ページに及ぶカルテを照合し、ディーディーが娘に課した虐待の軌跡を4つの明確な段階に再構成しました。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Bộ đếm `0/3`",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -1337,37 +1960,31 @@
   {
    "id": "2-08",
    "act": 2,
-   "start": 365.883,
-   "end": 377.333,
+   "start": 463.78,
+   "end": 468.02,
    "role": "D",
    "sentences": [
-    "2.07#2"
+    "2.04#2"
    ],
-   "template": "T3",
+   "template": "T1",
    "variant": "",
-   "bg": "wheelchair_room",
+   "bg": "pinboard",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "bold",
-       "高用量の抗てんかん薬"
-      ],
-      [
-       "ital",
-       "てんかんではないにもかかわらず"
+       "第1段階：偽りの症状の捏造。"
       ]
      ]
     }
    ],
-   "beats": [
-    "てんかんではない"
-   ],
-   "beat_text": "Phụ ở \"てんかんではない\"",
+   "beats": [],
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -1383,25 +2000,25 @@
   {
    "id": "2-09",
    "act": 2,
-   "start": 377.333,
-   "end": 384.783,
+   "start": 468.02,
+   "end": 474.16,
    "role": "D",
    "sentences": [
-    "2.07#3"
+    "2.04#3"
    ],
-   "template": "T3",
+   "template": "T1",
    "variant": "",
-   "bg": "clinical",
+   "bg": "house_dawn",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "bold",
-       "胃への栄養チューブ"
+       "Gypsy Roseは1991年に完全に健康な乳児として誕生しました。"
       ]
      ]
     }
@@ -1423,29 +2040,25 @@
   {
    "id": "2-10",
    "act": 2,
-   "start": 384.783,
-   "end": 397.323,
+   "start": 474.16,
+   "end": 485.12,
    "role": "D",
    "sentences": [
-    "2.07#4"
+    "2.04#4"
    ],
-   "template": "T3",
+   "template": "T1",
    "variant": "",
    "bg": "clinical",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "不要な手術"
-      ],
-      [
        "ital",
-       "医師の前で作られた偽りの症状に基づく"
+       "しかし生後わずか3カ月の頃、母親は原因不明の睡眠時無呼吸症候群を訴えて救急外来へと通い始めたのです。"
       ]
      ]
     }
@@ -1467,15 +2080,15 @@
   {
    "id": "2-11",
    "act": 2,
-   "start": 397.323,
-   "end": 408.099,
+   "start": 485.12,
+   "end": 511.8,
    "role": "D",
    "sentences": [
-    "2.07#5"
+    "2.04#5"
    ],
-   "template": "T5",
+   "template": "T1",
    "variant": "",
-   "bg": "clinical",
+   "bg": "wheelchair_room",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -1484,18 +2097,14 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "数百人の医師"
-      ],
-      [
        "ital",
-       "誰も気づかなかったのか？"
+       "Gypsyが7歳の時、三輪車での軽微な膝の擦り傷をきっかけに、母親は脊髄に重篤な損傷を負ったと主張し、以降彼女に車椅子生活を強制しました。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Biểu tượng hiện dần",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -1511,37 +2120,43 @@
   {
    "id": "2-12",
    "act": 2,
-   "start": 408.099,
-   "end": 417.447,
+   "start": 511.8,
+   "end": 512.6,
    "role": "D",
    "sentences": [
-    "2.07#6"
+    "2.04#6",
+    "2.04#7"
    ],
-   "template": "T9",
+   "template": "T1",
    "variant": "",
    "bg": "pinboard",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "bold",
-       "行動原理"
-      ],
+       "第2段階：身体への侵襲と薬物の乱用。"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
       [
        "ital",
-       "(Modus Operandi)"
+       "口頭での虚偽申告だけでは飽き足らなくなると、ディーディーは娘の肉体への直接的な干渉を開始しました。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "3 thẻ trống ghim lên",
+   "beat_text": "—",
    "flags": {
-    "bust": true,
+    "bust": false,
     "nobust": false,
     "intro": false,
     "handoff": [],
@@ -1555,33 +2170,25 @@
   {
    "id": "2-13",
    "act": 2,
-   "start": 417.447,
-   "end": 427.828,
+   "start": 512.6,
+   "end": 521.32,
    "role": "D",
    "sentences": [
-    "2.07#7"
+    "2.04#8"
    ],
-   "template": "T2",
+   "template": "T1",
    "variant": "",
-   "bg": "pinboard",
+   "bg": "clinical",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "01"
-      ],
-      [
-       "bold",
-       "かつて看護助手"
-      ],
-      [
-       "ital",
-       "医療用語を熟知していた"
+       "彼女は脳波検査が完全に正常であったにもかかわらず、抗てんかん薬テグレトールを高用量で何年も投与し続けたのです。"
       ]
      ]
     }
@@ -1603,48 +2210,34 @@
   {
    "id": "2-14",
    "act": 2,
-   "start": 427.828,
-   "end": 450.382,
+   "start": 521.32,
+   "end": 533.56,
    "role": "D",
    "sentences": [
-    "2.07#8",
-    "2.07#9"
+    "2.04#9"
    ],
-   "template": "T2",
+   "template": "T1",
    "variant": "",
-   "bg": "pinboard",
+   "bg": "clinical",
    "bg2": null,
-   "inset": "storm",
-   "camera": "push",
+   "inset": null,
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "02 · 2005年"
-      ],
-      [
-       "bold",
-       "ハリケーン・カトリーナ"
-      ]
-     ]
-    },
-    {
-     "at_sentence": 9,
-     "elems": [
-      [
-       "ital",
-       "病歴はすべてDee Dee本人の口述によるもの"
+       "薬の重篤な副作用と慢性的な栄養不良によって少女のエナメル質は破壊され、ボロボロになった歯は医師によって全て抜歯されるに至りました。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Dây đỏ nối ở `#9`",
+   "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": false,
+    "nobust": true,
     "intro": false,
     "handoff": [],
     "dual": false,
@@ -1657,15 +2250,15 @@
   {
    "id": "2-15",
    "act": 2,
-   "start": 450.382,
-   "end": 467.579,
+   "start": 533.56,
+   "end": 545.18,
    "role": "D",
    "sentences": [
-    "2.07#10"
+    "2.04#10"
    ],
-   "template": "T2",
+   "template": "T1",
    "variant": "",
-   "bg": "pinboard",
+   "bg": "clinical",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -1675,24 +2268,16 @@
      "elems": [
       [
        "ital",
-       "03"
-      ],
-      [
-       "bold",
-       "疑いを持たれたら → 病院を変え、引っ越す"
-      ],
-      [
-       "ital",
-       "Dr. Bernardo Flasterstein · 2007年"
+       "さらに胃に直接栄養チューブを取り付ける胃瘻手術を医師に要求し、普通に食事ができるはずの少女を経管栄養に依存させました。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Kéo ra thấy cả bảng",
+   "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": false,
+    "nobust": true,
     "intro": false,
     "handoff": [],
     "dual": false,
@@ -1705,39 +2290,34 @@
   {
    "id": "2-16",
    "act": 2,
-   "start": 467.579,
-   "end": 483.454,
-   "role": "H",
+   "start": 545.18,
+   "end": 555.5,
+   "role": "D",
    "sentences": [
-    "2.09#1",
-    "2.09#2"
+    "2.04#11"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "house_closed",
+   "bg": "clinical",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "窓は常に固く閉ざされていた"
-      ],
-      [
        "ital",
-       "学校に通わせてもらえなかった"
+       "それどころか、唾液を分泌させない薬物を密かに投与した上で、小児病院の医師を説得して唾液腺の切除手術まで受けさせたのです。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Tiếng khoá cửa ở đầu",
+   "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": false,
+    "nobust": true,
     "intro": false,
     "handoff": [],
     "dual": false,
@@ -1750,29 +2330,25 @@
   {
    "id": "2-17",
    "act": 2,
-   "start": 483.454,
-   "end": 494.531,
-   "role": "H",
+   "start": 555.5,
+   "end": 559.0,
+   "role": "D",
    "sentences": [
-    "2.09#3"
+    "2.04#12"
    ],
-   "template": "T5",
+   "template": "T1",
    "variant": "",
-   "bg": "house_closed",
+   "bg": "pinboard",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "bold",
-       "−4歳"
-      ],
-      [
-       "ital",
-       "永遠に未成年でいさせるための年齢詐称"
+       "第3段階：システムの欺瞞と発覚の回避。"
       ]
      ]
     }
@@ -1794,33 +2370,31 @@
   {
    "id": "2-18",
    "act": 2,
-   "start": 494.531,
-   "end": 502.475,
-   "role": "H",
+   "start": 559.0,
+   "end": 569.72,
+   "role": "D",
    "sentences": [
-    "2.09#4"
+    "2.04#13"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "house_night",
+   "bg": "records",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "鉄格子のない刑務所"
+       "ital",
+       "ディーディーにはかつて看護助手をしていた経験があり、医師を欺くための専門用語や典型的な臨床症状を熟知していました。"
       ]
      ]
     }
    ],
-   "beats": [
-    "処方箋"
-   ],
-   "beat_text": "Song sắt ở \"処方箋\"",
+   "beats": [],
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -1836,8 +2410,912 @@
   {
    "id": "2-19",
    "act": 2,
-   "start": 502.475,
-   "end": 504.275,
+   "start": 569.72,
+   "end": 578.3,
+   "role": "D",
+   "sentences": [
+    "2.04#14"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "診察の前には局所麻酔薬や刺激物を娘の体に塗り込み、人工的な症状を作り出していました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-20",
+   "act": 2,
+   "start": 578.3,
+   "end": 594.26,
+   "role": "D",
+   "sentences": [
+    "2.04#15"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "storm",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "2005年に巨大ハリケーン・カトリーナがルイジアナ州を襲った際、彼女はその大災害を利用してカルテ原本が全て流失したと主張し、過去の客観的な診断履歴を完全に隠蔽したのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-21",
+   "act": 2,
+   "start": 594.26,
+   "end": 599.52,
+   "role": "D",
+   "sentences": [
+    "2.04#16"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "第4段階：自己同一性と自律性の完全な剥奪。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-22",
+   "act": 2,
+   "start": 599.52,
+   "end": 607.5,
+   "role": "D",
+   "sentences": [
+    "2.04#17"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "deedee_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ディーディーは白血病の抗がん剤治療による脱毛だと称して、娘の頭を定期的に丸刈りにし続けました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-23",
+   "act": 2,
+   "start": 607.5,
+   "end": 619.54,
+   "role": "D",
+   "sentences": [
+    "2.04#18"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "dress_hanger",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "少女に子供用のドレスを着せ、度の強い眼鏡をかけさせ、母親の同席なしに外部と会話することを固く禁じたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-24",
+   "act": 2,
+   "start": 619.54,
+   "end": 627.36,
+   "role": "H",
+   "sentences": [
+    "2.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "行動科学の視点から見ると、この執拗な統制は極めて特殊な手口と心理的特徴を反映しています。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-25",
+   "act": 2,
+   "start": 627.36,
+   "end": 635.34,
+   "role": "H",
+   "sentences": [
+    "2.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "犯罪手口と心理的サインの本質的な相違について、心理学者に解説を求めましょう。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-26",
+   "act": 2,
+   "start": 635.34,
+   "end": 641.88,
+   "role": "C",
+   "sentences": [
+    "2.07#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "犯行手口（Modus Operandi）と心理的サイン（Signature）"
+      ],
+      [
+       "ital",
+       "犯罪心理学において、私たちは犯行手口（Modus Operandi）と心理的サイン（Signature）を厳格に区別します。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-27",
+   "act": 2,
+   "start": 641.88,
+   "end": 650.74,
+   "role": "C",
+   "sentences": [
+    "2.07#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "犯行手口とは、犯行を遂行し発覚や逮捕を免れるために用いる可変的な手段のことです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-28",
+   "act": 2,
+   "start": 650.74,
+   "end": 662.66,
+   "role": "C",
+   "sentences": [
+    "2.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ディーディーの場合、その手口は巧みに適応していきました――医師が疑念を抱くや否や病院を転々とする「ドクターショッピング」の技術です。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-29",
+   "act": 2,
+   "start": 662.66,
+   "end": 678.34,
+   "role": "C",
+   "sentences": [
+    "2.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "2007年、ミズーリ州の小児神経科医Bernardo Flasterstein医師は、麻痺や筋ジストロフィーの医学的証拠が一切見当たらないことから、母親の代理型ミュンハウゼン症候群をカルテに記録しました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-30",
+   "act": 2,
+   "start": 678.34,
+   "end": 685.34,
+   "role": "C",
+   "sentences": [
+    "2.07#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "interrogation",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "その医師は、身体検査の結果が正常であることを母親に直接問い質しました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-31",
+   "act": 2,
+   "start": 685.34,
+   "end": 696.24,
+   "role": "C",
+   "sentences": [
+    "2.07#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_return",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "欺瞞が露見する危険を察知したディーディーは、直ちにその医師との関係を絶ち、侮辱されたと激怒しながら別の医療機関へと逃亡したのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-32",
+   "act": 2,
+   "start": 696.24,
+   "end": 715.14,
+   "role": "C",
+   "sentences": [
+    "2.07#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "これに対して、心理的サイン（Signature）とは、犯人の根源的な病理的欲求を満たすための不変の行動様式を指します。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-33",
+   "act": 2,
+   "start": 715.14,
+   "end": 720.16,
+   "role": "C",
+   "sentences": [
+    "2.07#8",
+    "2.07#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "doll",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ディーディーのサインは、娘に対する徹底的な"
+      ],
+      [
+       "quote",
+       "幼児化の強要（Infantilization）"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "彼女は生年月日を偽り、戸籍上20歳になっていた娘を16歳の子供として扱いました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-34",
+   "act": 2,
+   "start": 720.16,
+   "end": 727.58,
+   "role": "C",
+   "sentences": [
+    "2.07#10"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "doll",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "派手なウィッグを被せ、ぬいぐるみを抱かせ、甲高い幼児のような声で話すことを強要したのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-35",
+   "act": 2,
+   "start": 727.58,
+   "end": 741.96,
+   "role": "C",
+   "sentences": [
+    "2.07#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "spotlight_deedee",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ディーディーは単に病弱な娘を求めたのではありません――自らの存在に永遠に依存し続ける、決して成長しない陶器の人形を熱望していたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-36",
+   "act": 2,
+   "start": 741.96,
+   "end": 750.14,
+   "role": "H",
+   "sentences": [
+    "2.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "その心理的サインと並んで、娘に対するディーディーの認知は、この障害の冷酷な本質を浮き彫りにしています。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-37",
+   "act": 2,
+   "start": 750.14,
+   "end": 757.24,
+   "role": "H",
+   "sentences": [
+    "2.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "spotlight_deedee",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ディーディーはGypsyを一人の感情を持ち、健康に生きる権利を持つ人間としては決して見ていませんでした。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-38",
+   "act": 2,
+   "start": 757.24,
+   "end": 766.0,
+   "role": "H",
+   "sentences": [
+    "2.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "glass_box",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "彼女の歪んだ精神の中で、Gypsyは社会からの同情と崇拝を引き出すための「生きた小道具」へと格下げされていたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-39",
+   "act": 2,
+   "start": 766.0,
+   "end": 774.06,
+   "role": "H",
+   "sentences": [
+    "2.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "不必要な注射や侵襲的な手術の一つ一つも、母親としての痛みを彼女に呼び起こすことはありませんでした。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-40",
+   "act": 2,
+   "start": 774.06,
+   "end": 780.44,
+   "role": "H",
+   "sentences": [
+    "2.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "cage",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "それらは、囚われの魂を閉じ込めたガラスの檻をさらに強固にする留め具に過ぎなかったのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-41",
+   "act": 2,
+   "start": 780.44,
+   "end": 783.74,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -1856,7 +3334,7 @@
       ],
       [
        "bold",
-       "FDIA犯罪者の脳の内部"
+       "心理剖検――FDIA犯罪者の脳の内部"
       ]
      ]
     }
@@ -1878,40 +3356,34 @@
   {
    "id": "3-01",
    "act": 3,
-   "start": 504.275,
-   "end": 508.979,
+   "start": 783.74,
+   "end": 788.96,
    "role": "H",
    "sentences": [
     "3.02#1"
    ],
-   "template": "T5",
+   "template": "T1",
    "variant": "",
    "bg": "void",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "すべての根底にある問い"
-      ],
-      [
        "bold",
-       "なぜ？"
+       "ここで私たちは、誰もが抱く痛切な疑問に直面せざるを得ません。"
       ]
      ]
     }
    ],
-   "beats": [
-    "なぜ？"
-   ],
-   "beat_text": "Đúng ở \"なぜ？\"",
+   "beats": [],
+   "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": true,
+    "nobust": false,
     "intro": false,
     "handoff": [],
     "dual": false,
@@ -1919,13 +3391,13 @@
     "p2": false
    },
    "hold": false,
-   "transition": "cut"
+   "transition": "dissolve"
   },
   {
    "id": "3-02",
    "act": 3,
-   "start": 508.979,
-   "end": 517.317,
+   "start": 788.96,
+   "end": 796.48,
    "role": "H",
    "sentences": [
     "3.02#2"
@@ -1935,14 +3407,14 @@
    "bg": "fog_deedee",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "寄付基金 · チャリティーハウス · 無料の旅行"
+       "ital",
+       "実の我が子に対して、なぜ23年もの長きにわたりこれほど残酷な仕打ちを続けることができたのでしょうか。"
       ]
      ]
     }
@@ -1964,14 +3436,13 @@
   {
    "id": "3-03",
    "act": 3,
-   "start": 517.317,
-   "end": 538.218,
+   "start": 796.48,
+   "end": 807.24,
    "role": "H",
    "sentences": [
-    "3.02#3",
-    "3.02#4"
+    "3.02#3"
    ],
-   "template": "T3",
+   "template": "T1",
    "variant": "",
    "bg": "charity",
    "bg2": null,
@@ -1982,96 +3453,8 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "金銭は単なる副次的な利益に過ぎない"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Đồng xu mờ ở `#4`",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-04",
-   "act": 3,
-   "start": 538.218,
-   "end": 563.206,
-   "role": "H",
-   "sentences": [
-    "3.02#5"
-   ],
-   "template": "T9",
-   "variant": "",
-   "bg": "brain_desk",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "代理型ミュンハウゼン症候群"
-      ],
-      [
        "ital",
-       "DSM-5-TR: 他者に課す虚偽性障害 (FDIA)"
-      ]
-     ]
-    }
-   ],
-   "beats": [
-    "DSM-5-TR"
-   ],
-   "beat_text": "Dòng DSM ở \"DSM-5-TR\"",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-05",
-   "act": 3,
-   "start": 563.206,
-   "end": 565.006,
-   "role": null,
-   "sentences": [],
-   "template": "T9",
-   "variant": "",
-   "bg": "brain_desk",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "代理型ミュンハウゼン症候群"
-      ],
-      [
-       "ital",
-       "DSM-5-TR: 他者に課す虚偽性障害 (FDIA)"
+       "多くの人々は、政府からの障害者手当やディズニーランドへの無料旅行といった金銭的利益が目的だったと性急に結論付けがちです。"
       ]
      ]
     }
@@ -2087,19 +3470,137 @@
     "guests": false,
     "p2": false
    },
-   "hold": true,
-   "transition": "dissolve",
-   "inherit": "3-04"
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-04",
+   "act": 3,
+   "start": 807.24,
+   "end": 815.88,
+   "role": "H",
+   "sentences": [
+    "3.02#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "しかし単なる金銭欲が動機であるならば、これほどリスクが高く労力のかかる手段をわざわざ選ぶはずがありません。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-05",
+   "act": 3,
+   "start": 815.88,
+   "end": 822.24,
+   "role": "H",
+   "sentences": [
+    "3.02#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "法精神医学の観点から見れば、物質的報酬は副次的な産物に過ぎないのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
   },
   {
    "id": "3-06",
    "act": 3,
-   "start": 565.006,
-   "end": 580.104,
+   "start": 822.24,
+   "end": 833.44,
    "role": "H",
    "sentences": [
-    "3.04#1",
-    "3.04#2"
+    "3.02#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ディーディー・ブランチャードの全行動を支配していた根源的な動因は、極めて複雑な精神疾患にありました――すなわち代理型ミュンハウゼン症候群（FDIA）です。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-07",
+   "act": 3,
+   "start": 833.44,
+   "end": 842.92,
+   "role": "H",
+   "sentences": [
+    "3.02#7"
    ],
    "template": "T1",
    "variant": "",
@@ -2112,25 +3613,8 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "病気詐称 (Malingering)"
-      ],
-      [
        "ital",
-       "利益や責任逃れが目的"
-      ]
-     ]
-    },
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "虚偽性障害 (Factitious Disorder)"
-      ],
-      [
-       "ital",
-       "病気そのものの役割を求める心理的動機"
+       "この加害者の精神の内側に潜む多層的な認知構造について、心理学者に解説していただきましょう。"
       ]
      ]
     }
@@ -2152,71 +3636,31 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-07",
+   "id": "3-08",
    "act": 3,
-   "start": 580.104,
-   "end": 591.274,
+   "start": 842.92,
+   "end": 853.06,
    "role": "C",
    "sentences": [
-    "3.05#1"
+    "3.04#1"
    ],
    "template": "T9",
    "variant": "",
-   "bg": "brain_desk",
+   "bg": "clinical",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "bold",
-       "注意 · 同情 · 感情的な崇敬"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "3 vòng sáng lần lượt",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": true,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-08",
-   "act": 3,
-   "start": 591.274,
-   "end": 595.932,
-   "role": "C",
-   "sentences": [
-    "3.05#2"
-   ],
-   "template": "T4",
-   "variant": "",
-   "bg": "brain_desk",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "内的な利益"
+       "DSM-5-TR"
       ],
       [
        "ital",
-       "(Internal Incentive)"
+       "精神疾患の診断基準DSM-5-TRにおいて、FDIAは金銭目的の詐病（Malingering）とは明確に区別されます。"
       ]
      ]
     }
@@ -2238,251 +3682,25 @@
   {
    "id": "3-09",
    "act": 3,
-   "start": 595.932,
-   "end": 619.84,
+   "start": 853.06,
+   "end": 860.96,
    "role": "C",
    "sentences": [
-    "3.05#3",
-    "3.05#4"
-   ],
-   "template": "T3",
-   "variant": "compare",
-   "bg": "brain_desk",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "3層の心理の深淵"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Cột phải ở `#4`",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-10",
-   "act": 3,
-   "start": 619.84,
-   "end": 636.515,
-   "role": "C",
-   "sentences": [
-    "3.05#5",
-    "3.05#6"
+    "3.04#2"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "fog_deedee",
+   "bg": "records",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "第1層"
-      ],
-      [
-       "bold",
-       "悪性自己愛 (Malignant Narcissism)"
-      ],
-      [
-       "ital",
-       "「完璧な犠牲的母親」という仮面"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Tiêu đề ở `#6`",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-11",
-   "act": 3,
-   "start": 636.515,
-   "end": 647.454,
-   "role": "C",
-   "sentences": [
-    "3.05#7"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "spotlight_deedee",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "突然、宇宙の中心になった"
-      ]
-     ]
-    }
-   ],
-   "beats": [
-    "突然"
-   ],
-   "beat_text": "Đèn bật ở \"突然\"",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "cut"
-  },
-  {
-   "id": "3-12",
-   "act": 3,
-   "start": 647.454,
-   "end": 656.651,
-   "role": "C",
-   "sentences": [
-    "3.05#8"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "spotlight_deedee",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "依存的な賞賛への渇望"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Mỗi biểu tượng ở cụm từ",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-13",
-   "act": 3,
-   "start": 656.651,
-   "end": 665.198,
-   "role": "C",
-   "sentences": [
-    "3.05#9"
-   ],
-   "template": "T5",
-   "variant": "",
-   "bg": "void",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "第2層"
-      ],
-      [
-       "bold",
-       "見捨てられることへの病的な恐怖"
-      ],
-      [
-       "ital",
-       "絶対的な支配への固執"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Nhịp nhấp nháy",
-   "flags": {
-    "bust": true,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": true
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-14",
-   "act": 3,
-   "start": 665.198,
-   "end": 666.498,
-   "role": null,
-   "sentences": [],
-   "template": "T5",
-   "variant": "",
-   "bg": "void",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "第2層"
-      ],
-      [
-       "bold",
-       "見捨てられることへの病的な恐怖"
-      ],
-      [
-       "ital",
-       "絶対的な支配への固執"
+       "通常の詐病者は金銭や義務免除のために病気を偽り、公の場に身を晒すことを避けます。"
       ]
      ]
     }
@@ -2498,18 +3716,62 @@
     "guests": false,
     "p2": false
    },
-   "hold": true,
-   "transition": "dissolve",
-   "inherit": "3-13"
+   "hold": false,
+   "transition": "dissolve"
   },
   {
-   "id": "3-15",
+   "id": "3-10",
    "act": 3,
-   "start": 666.498,
-   "end": 671.016,
-   "role": "H",
+   "start": 860.96,
+   "end": 871.6,
+   "role": "C",
    "sentences": [
-    "3.07#1"
+    "3.04#3"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "spotlight_deedee",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "自己愛を満たす供給源（Narcissistic Supply）"
+      ],
+      [
+       "ital",
+       "しかしFDIAの加害者が飢え求めているのは、はるかに中毒性の高い精神的報酬――自己愛を満たす供給源（Narcissistic Supply）なのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-11",
+   "act": 3,
+   "start": 871.6,
+   "end": 883.18,
+   "role": "C",
+   "sentences": [
+    "3.04#4",
+    "3.04#5"
    ],
    "template": "T1",
    "variant": "",
@@ -2523,7 +3785,176 @@
      "elems": [
       [
        "bold",
-       "永久に手元に縛り付ける方法とは？"
+       "ディーディーの心理構造を解剖すると、重なり合う3つの病理的階層が見えてきます。"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "第1の層：聖母としての栄光への病的中毒。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-12",
+   "act": 3,
+   "start": 883.18,
+   "end": 895.96,
+   "role": "C",
+   "sentences": [
+    "3.04#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "fog",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "出産前のディーディーの人生は、万引きの前科、肉親からの孤立、24歳での夫Rod Blanchardとの離婚など、挫折と疎外の連続でした。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-13",
+   "act": 3,
+   "start": 895.96,
+   "end": 901.38,
+   "role": "C",
+   "sentences": [
+    "3.04#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "fog",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "彼女は社会的な承認に飢えた、無力で影の薄い存在だったのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-14",
+   "act": 3,
+   "start": 901.38,
+   "end": 912.4,
+   "role": "C",
+   "sentences": [
+    "3.04#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "しかし難病の娘を抱える勇敢なシングルマザーを演じ始めた瞬間、彼女を取り巻く世界は劇的に反転しました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-15",
+   "act": 3,
+   "start": 912.4,
+   "end": 920.54,
+   "role": "C",
+   "sentences": [
+    "3.04#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "crowd_house",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "行く先々で医師たちから敬意を払われ、隣人たちから涙ながらに讃えられ、地元メディアで英雄視されたのです。"
       ]
      ]
     }
@@ -2545,67 +3976,25 @@
   {
    "id": "3-16",
    "act": 3,
-   "start": 671.016,
-   "end": 688.597,
-   "role": "H",
-   "sentences": [
-    "3.07#2"
-   ],
-   "template": "T2",
-   "variant": "",
-   "bg": "records",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "「病気で、母に完全に依存している」と信じ込ませる"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [
-     "C"
-    ],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-17",
-   "act": 3,
-   "start": 688.597,
-   "end": 696.772,
+   "start": 920.54,
+   "end": 928.68,
    "role": "C",
    "sentences": [
-    "3.08#1"
+    "3.04#10"
    ],
-   "template": "T9",
+   "template": "T1",
    "variant": "",
-   "bg": "brain_desk",
+   "bg": "void",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "娘の人生を完全に掌握する唯一の人物"
+       "ital",
+       "周囲からの注目は、彼女の心に巣食っていた劣等感と病的な空虚感を完全に覆い隠しました。"
       ]
      ]
     }
@@ -2625,25 +4014,75 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-18",
+   "id": "3-17",
    "act": 3,
-   "start": 696.772,
-   "end": 722.714,
+   "start": 928.68,
+   "end": 943.9,
    "role": "C",
    "sentences": [
-    "3.08#2",
-    "3.08#3",
-    "3.08#4"
+    "3.04#11"
    ],
-   "template": "T3",
+   "template": "T1",
    "variant": "",
-   "bg": "hands",
+   "bg": "clinical",
    "bg2": null,
    "inset": null,
-   "camera": "push",
-   "segments": [],
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "世界で最も素晴らしい母親"
+      ]
+     ]
+    }
+   ],
    "beats": [],
-   "beat_text": "3 beat",
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-18",
+   "act": 3,
+   "start": 943.9,
+   "end": 949.62,
+   "role": "H",
+   "sentences": [
+    "3.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "しかし社会的な聖母という看板は、表面的な装飾に過ぎませんでした。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -2659,44 +4098,34 @@
   {
    "id": "3-19",
    "act": 3,
-   "start": 722.714,
-   "end": 733.745,
-   "role": "C",
+   "start": 949.62,
+   "end": 957.04,
+   "role": "H",
    "sentences": [
-    "3.08#5"
+    "3.06#2"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "void",
+   "bg": "house_closed",
    "bg2": null,
    "inset": null,
-   "camera": "hero",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "第3段階"
-      ],
-      [
-       "bold",
-       "人格の消去のシグネチャ"
-      ],
-      [
-       "ital",
-       "(Signature)"
+       "閉ざされた扉の奥で、ディーディーと周囲の身内との関係にはどのような現実があったのでしょうか。"
       ]
      ]
     }
    ],
-   "beats": [
-    "思い信じさせる"
-   ],
-   "beat_text": "Tiêu đề ở \"思い信じさせる\"",
+   "beats": [],
+   "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": true,
+    "nobust": false,
     "intro": false,
     "handoff": [],
     "dual": false,
@@ -2709,1036 +4138,25 @@
   {
    "id": "3-20",
    "act": 3,
-   "start": 733.745,
-   "end": 745.567,
-   "role": "C",
-   "sentences": [
-    "3.08#6"
-   ],
-   "template": "T3",
-   "variant": "",
-   "bg": "wheelchair_gypsy",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "丸刈りの頭 · 子ども用のドレス"
-      ],
-      [
-       "ital",
-       "20歳を過ぎても"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-21",
-   "act": 3,
-   "start": 745.567,
-   "end": 747.367,
-   "role": null,
-   "sentences": [],
-   "template": "T3",
-   "variant": "",
-   "bg": "wheelchair_gypsy",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "丸刈りの頭 · 子ども用のドレス"
-      ],
-      [
-       "ital",
-       "20歳を過ぎても"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": true,
-   "transition": "dissolve",
-   "inherit": "3-20"
-  },
-  {
-   "id": "3-22",
-   "act": 3,
-   "start": 747.367,
-   "end": 754.462,
-   "role": "C",
-   "sentences": [
-    "3.10#1"
-   ],
-   "template": "T9",
-   "variant": "",
-   "bg": "brain_desk",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "女性としての発達を一切拒絶した"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-23",
-   "act": 3,
-   "start": 754.462,
-   "end": 768.918,
-   "role": "C",
-   "sentences": [
-    "3.10#2"
-   ],
-   "template": "T3",
-   "variant": "",
-   "bg": "dress_hanger",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "永遠に7歳の磁器人形"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-24",
-   "act": 3,
-   "start": 768.918,
-   "end": 779.127,
-   "role": "C",
-   "sentences": [
-    "3.10#3",
-    "3.10#4"
-   ],
-   "template": "T9",
-   "variant": "",
-   "bg": "dress_hanger",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "極度の知能 · 精緻な手腕 · 卓越した説得力"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Thuật ngữ ở `#4`",
-   "flags": {
-    "bust": true,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-25",
-   "act": 3,
-   "start": 779.127,
-   "end": 796.5,
-   "role": "C",
-   "sentences": [
-    "3.10#5",
-    "3.10#6"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "doll",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "完璧な愛の仮面"
-      ]
-     ]
-    }
-   ],
-   "beats": [
-    "磁器人形"
-   ],
-   "beat_text": "Tiêu đề ở \"磁器人形\"",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-26",
-   "act": 3,
-   "start": 796.5,
-   "end": 798.3,
-   "role": null,
-   "sentences": [],
-   "template": "T10",
-   "variant": "",
-   "bg": "void",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "第4幕"
-      ],
-      [
-       "bold",
-       "尋問＆転換点――なぜGYPSYは逃げなかったのか？"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": true,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dip"
-  },
-  {
-   "id": "4-01",
-   "act": 4,
-   "start": 798.3,
-   "end": 812.176,
+   "start": 957.04,
+   "end": 963.02,
    "role": "H",
    "sentences": [
-    "4.02#1"
+    "3.06#3"
    ],
    "template": "T1",
-   "variant": "",
-   "bg": "night_screen",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "社会の最大の疑問"
-      ],
-      [
-       "bold",
-       "なぜ立ち上がって走り出さなかったのか？"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-02",
-   "act": 4,
-   "start": 812.176,
-   "end": 820.12,
-   "role": "H",
-   "sentences": [
-    "4.02#2"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "night_screen",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "完全に歩くことができた"
-      ],
-      [
-       "ital",
-       "鉄格子のない家"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [
-     "N2"
-    ],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-03",
-   "act": 4,
-   "start": 820.12,
-   "end": 830.571,
-   "role": "N2",
-   "sentences": [
-    "4.03#1"
-   ],
-   "template": "T4",
-   "variant": "testimony",
-   "bg": "night_screen",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "次は:"
-      ],
-      [
-       "bold",
-       "事件を見守る視聴者の視点"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": true,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-04",
-   "act": 4,
-   "start": 830.571,
-   "end": 851.682,
-   "role": "N2",
-   "sentences": [
-    "4.03#2",
-    "4.03#3"
-   ],
-   "template": "T4",
-   "variant": "testimony",
-   "bg": "wheelchair_spot",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "quote",
-       "なぜ車椅子から立ち上がって助けを求めなかったのか？"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Mỗi câu một dòng",
-   "flags": {
-    "bust": true,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-05",
-   "act": 4,
-   "start": 851.682,
-   "end": 853.482,
-   "role": null,
-   "sentences": [],
-   "template": "T4",
-   "variant": "testimony",
-   "bg": "wheelchair_spot",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "quote",
-       "なぜ車椅子から立ち上がって助けを求めなかったのか？"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": true,
-   "transition": "dissolve",
-   "inherit": "4-04"
-  },
-  {
-   "id": "4-06",
-   "act": 4,
-   "start": 853.482,
-   "end": 863.318,
-   "role": "H",
-   "sentences": [
-    "4.05#1"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "glass_box_gypsy",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "20世紀の心理学における最も残酷な概念の1つ"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-07",
-   "act": 4,
-   "start": 863.318,
-   "end": 882.269,
-   "role": "H",
-   "sentences": [
-    "4.05#2"
-   ],
-   "template": "T3",
-   "variant": "",
-   "bg": "locked_door",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "学習性無力感"
-      ],
-      [
-       "ital",
-       "(Learned Helplessness)"
-      ],
-      [
-       "ital",
-       "Martin Seligman · 1967年"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Mỗi thẻ ở cụm từ",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [
-     "C"
-    ],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-08",
-   "act": 4,
-   "start": 882.269,
-   "end": 891.733,
-   "role": "C",
-   "sentences": [
-    "4.07#1"
-   ],
-   "template": "T9",
-   "variant": "",
-   "bg": "cage",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "逃げられない環境に長期間置かれた生き物"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Tiếng xích ở đầu",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-09",
-   "act": 4,
-   "start": 891.733,
-   "end": 904.517,
-   "role": "C",
-   "sentences": [
-    "4.07#2"
-   ],
-   "template": "T4",
-   "variant": "",
-   "bg": "cage",
-   "bg2": null,
-   "inset": null,
-   "camera": "hero",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "電気ショック · 反復される苦痛"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Câu trích ở cụm từ",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-10",
-   "act": 4,
-   "start": 904.517,
-   "end": 914.782,
-   "role": "C",
-   "sentences": [
-    "4.07#3"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "cage",
-   "bg2": "cage_open",
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "檻の扉が開いていても、逃げようとしない"
-      ]
-     ]
-    }
-   ],
-   "beats": [
-    "檻の扉"
-   ],
-   "beat_text": "Cửa mở ở \"檻の扉\"",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-11",
-   "act": 4,
-   "start": 914.782,
-   "end": 919.846,
-   "role": "C",
-   "sentences": [
-    "4.07#4"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "locked_door",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "「自分は何をしても無力だ」と脳が学習した"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": true,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": true
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-12",
-   "act": 4,
-   "start": 919.846,
-   "end": 932.381,
-   "role": "C",
-   "sentences": [
-    "4.07#5",
-    "4.07#6"
-   ],
-   "template": "T3",
-   "variant": "",
-   "bg": "hands",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "母の手が娘の手を強く握りしめる"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-13",
-   "act": 4,
-   "start": 932.381,
-   "end": 946.605,
-   "role": "C",
-   "sentences": [
-    "4.07#7"
-   ],
-   "template": "T3",
-   "variant": "",
-   "bg": "hands",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "沈黙を強要する警告"
-      ]
-     ]
-    }
-   ],
-   "beats": [
-    "さらに強くなる"
-   ],
-   "beat_text": "Hai bàn tay khép chặt hơn ở \"さらに強くなる\"",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-14",
-   "act": 4,
-   "start": 946.605,
-   "end": 956.859,
-   "role": "C",
-   "sentences": [
-    "4.07#8"
-   ],
-   "template": "T2",
-   "variant": "",
-   "bg": "locked_door",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "ドアが閉ざされると、厳しい懲罰が待っていた"
-      ]
-     ]
-    }
-   ],
-   "beats": [
-    "閉ざされ"
-   ],
-   "beat_text": "Khe sáng tắt ở \"閉ざされ\"",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-15",
-   "act": 4,
-   "start": 956.859,
-   "end": 958.159,
-   "role": null,
-   "sentences": [],
-   "template": "T2",
-   "variant": "",
-   "bg": "locked_door",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "ドアが閉ざされると、厳しい懲罰が待っていた"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": true,
-   "transition": "dissolve",
-   "inherit": "4-14"
-  },
-  {
-   "id": "4-16",
-   "act": 4,
-   "start": 958.159,
-   "end": 965.8,
-   "role": "H",
-   "sentences": [
-    "4.09#1"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "locked_door",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "2011年"
-      ],
-      [
-       "ital",
-       "SF大会 · 男性の知人"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "cut"
-  },
-  {
-   "id": "4-17",
-   "act": 4,
-   "start": 965.8,
-   "end": 981.289,
-   "role": "H",
-   "sentences": [
-    "4.09#2"
-   ],
-   "template": "T2",
    "variant": "",
    "bg": "records",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "bold",
-       "逃走の試み"
-      ],
-      [
-       "ital",
-       "モーテル"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-18",
-   "act": 4,
-   "start": 981.289,
-   "end": 989.234,
-   "role": "H",
-   "sentences": [
-    "4.09#3"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "pinboard",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "わずか数時間後"
+       "捜査陣が突き止めた家族の記録について、捜査官からお話しいただきます。"
       ]
      ]
     }
@@ -3760,27 +4178,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-19",
-   "act": 4,
-   "start": 989.234,
-   "end": 1001.542,
+   "id": "3-21",
+   "act": 3,
+   "start": 963.02,
+   "end": 974.24,
    "role": "D",
    "sentences": [
-    "4.10#1"
+    "3.07#1"
    ],
-   "template": "T6",
+   "template": "T1",
    "variant": "",
-   "bg": "night_street_gypsy",
+   "bg": "records",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "Dee Deeが追跡し、連れ戻した"
+       "ital",
+       "ルイジアナ州に住むディーディーの母方の親族に聞き込みを行った際、身内全員が彼女の異常な性格に対して恐怖を口にしました。"
       ]
      ]
     }
@@ -3800,70 +4218,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-20",
-   "act": 4,
-   "start": 1001.542,
-   "end": 1020.795,
+   "id": "3-22",
+   "act": 3,
+   "start": 974.24,
+   "end": 982.58,
    "role": "D",
    "sentences": [
-    "4.10#2",
-    "4.10#3"
-   ],
-   "template": "T2",
-   "variant": "",
-   "bg": "pinboard",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "「知的障害の未成年者」とする偽造書類"
-      ]
-     ]
-    }
-   ],
-   "beats": [
-    "偽造書類"
-   ],
-   "beat_text": "Dấu mộc ở \"偽造書類\"",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-21",
-   "act": 4,
-   "start": 1020.795,
-   "end": 1027.345,
-   "role": "D",
-   "sentences": [
-    "4.10#4"
+    "3.07#2"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "house_return",
+   "bg": "locked_door",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "ベッドに縛り付けられ、飢餓状態に置かれた"
+       "ital",
+       "彼らの証言によれば、彼女は若い頃から極度の心理的支配と病的な虚言癖を示していたといいます。"
       ]
      ]
     }
@@ -3883,98 +4258,17 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-22",
-   "act": 4,
-   "start": 1027.345,
-   "end": 1035.417,
+   "id": "3-23",
+   "act": 3,
+   "start": 982.58,
+   "end": 992.48,
    "role": "D",
    "sentences": [
-    "4.10#5"
+    "3.07#3"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "night_screen",
-   "bg2": "screen_off",
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "コンピューターの破壊 · 外部との完全な断絶"
-      ]
-     ]
-    }
-   ],
-   "beats": [
-    "壊し"
-   ],
-   "beat_text": "Màn hình tắt dần ở \"壊し\"",
-   "flags": {
-    "bust": true,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": true
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-23",
-   "act": 4,
-   "start": 1035.417,
-   "end": 1037.217,
-   "role": null,
-   "sentences": [],
-   "template": "T1",
-   "variant": "",
-   "bg": "night_screen",
-   "bg2": "screen_off",
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "コンピューターの破壊 · 外部との完全な断絶"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": true,
-   "transition": "dissolve",
-   "inherit": "4-22"
-  },
-  {
-   "id": "4-24",
-   "act": 4,
-   "start": 1037.217,
-   "end": 1055.226,
-   "role": "H",
-   "sentences": [
-    "4.12#1"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "crowd_away",
+   "bg": "locked_door",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -3983,8 +4277,8 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "逃げ道のない心理的トラップ"
+       "ital",
+       "親族の間では、実の母親が亡くなる前にその健康を計画的に害したのではないかという深刻な疑念さえ持たれていました。"
       ]
      ]
     }
@@ -4004,13 +4298,133 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-25",
-   "act": 4,
-   "start": 1055.226,
-   "end": 1066.375,
-   "role": "H",
+   "id": "3-24",
+   "act": 3,
+   "start": 992.48,
+   "end": 1002.56,
+   "role": "D",
    "sentences": [
-    "4.12#2"
+    "3.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "corridor",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ある母方の叔母は、かつて彼女が家族の食事に毒物を混入させようとしたところを取り押さえたことすらあったと告白しました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-25",
+   "act": 3,
+   "start": 1002.56,
+   "end": 1012.52,
+   "role": "D",
+   "sentences": [
+    "3.07#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_closed",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Gypsyを出産した後、ディーディーは実家との関係を完全に断ち切り、実父であるRod Blanchardからも娘を隔離しました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-26",
+   "act": 3,
+   "start": 1012.52,
+   "end": 1024.52,
+   "role": "D",
+   "sentences": [
+    "3.07#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "父親は毎月欠かさず養育費を送金し続けましたが、彼女は娘が重度の脳障害で電話も面会もできないと嘘をつき続けたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-27",
+   "act": 3,
+   "start": 1024.52,
+   "end": 1031.2,
+   "role": "D",
+   "sentences": [
+    "3.07#7"
    ],
    "template": "T1",
    "variant": "",
@@ -4024,7 +4438,47 @@
      "elems": [
       [
        "bold",
-       "唯一の窓：秘密のインターネット"
+       "父親は慈善団体による自宅の引き渡し式典への出席すら拒絶されました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-28",
+   "act": 3,
+   "start": 1031.2,
+   "end": 1039.08,
+   "role": "D",
+   "sentences": [
+    "3.07#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "crowd_away",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "自らの仮面を見抜く力を持つ身内は、彼女にとって排除すべき危険な脅威でしかなかったのです。"
       ]
      ]
     }
@@ -4046,15 +4500,1129 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-26",
-   "act": 4,
-   "start": 1066.375,
-   "end": 1070.985,
+   "id": "3-29",
+   "act": 3,
+   "start": 1039.08,
+   "end": 1045.98,
    "role": "C",
    "sentences": [
-    "4.13#1"
+    "3.08#1"
    ],
    "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "精神の分断（Compartmentalization）"
+      ],
+      [
+       "ital",
+       "この徹底した孤立から浮かび上がるのが、第2の層：精神の分断（Compartmentalization）のメカニズムです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-30",
+   "act": 3,
+   "start": 1045.98,
+   "end": 1053.16,
+   "role": "C",
+   "sentences": [
+    "3.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ディーディーの脳内では、決して交わることのない2つの世界が完全に遮断されていました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-31",
+   "act": 3,
+   "start": 1053.16,
+   "end": 1063.2,
+   "role": "C",
+   "sentences": [
+    "3.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "一方の部屋には、夜通し娘の足をマッサージし、子守唄を歌い、流動食を作る献身的な母親が住んでいました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-32",
+   "act": 3,
+   "start": 1063.2,
+   "end": 1072.64,
+   "role": "C",
+   "sentences": [
+    "3.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "deedee_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "もう一方の部屋には、娘をベッドに縛り付け、有毒な薬剤を流し込む冷酷な虐待者が潜んでいたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-33",
+   "act": 3,
+   "start": 1072.64,
+   "end": 1084.54,
+   "role": "C",
+   "sentences": [
+    "3.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "glass_box",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "彼女は母性愛を「正常化の盾」として悪用し、子供を守るためにすべてを行っているのだと自らの良心を麻痺させていました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-34",
+   "act": 3,
+   "start": 1084.54,
+   "end": 1100.86,
+   "role": "C",
+   "sentences": [
+    "3.08#6"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "自己正当化の技術と情緒的共感性の完全な欠落"
+      ],
+      [
+       "ital",
+       "そして第3の層こそが、自己正当化の技術と情緒的共感性の完全な欠落です。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-35",
+   "act": 3,
+   "start": 1100.86,
+   "end": 1105.48,
+   "role": "C",
+   "sentences": [
+    "3.08#7",
+    "3.08#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ディーディーは心の理論（Theory of Mind）に深刻な障害を抱えていました。"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "注射や過酷な手術によってGypsyが味わう真の肉体的苦痛に対して、彼女は完全に麻痺していたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-36",
+   "act": 3,
+   "start": 1105.48,
+   "end": 1118.76,
+   "role": "C",
+   "sentences": [
+    "3.08#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "quote",
+       "この子はあまりに無力だ、過酷な外の世界に出せば破滅してしまう、私の管理だけがこの子の命を救っている"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-37",
+   "act": 3,
+   "start": 1118.76,
+   "end": 1128.18,
+   "role": "C",
+   "sentences": [
+    "3.08#10"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "彼女は環境を呪い、運命を恨み、自らを娘の生殺与奪を握る唯一の存在として位置付けていたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-38",
+   "act": 3,
+   "start": 1128.18,
+   "end": 1139.5,
+   "role": "C",
+   "sentences": [
+    "3.08#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "この道徳的遮断によって罪悪感は完全に中和され、人工的に作り出された病に苦しむ娘の隣で、毎晩安らかに眠ることができたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-39",
+   "act": 3,
+   "start": 1139.5,
+   "end": 1142.28,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "第4幕"
+      ],
+      [
+       "bold",
+       "被害者の視点――ジプシーはなぜ立ち上がれなかったのか？"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "4-01",
+   "act": 4,
+   "start": 1142.28,
+   "end": 1149.34,
+   "role": "H",
+   "sentences": [
+    "4.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "事件の衝撃的な全貌が明らかになったとき、世論からは激しい疑念と困惑の声が巻き起こりました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-02",
+   "act": 4,
+   "start": 1149.34,
+   "end": 1156.96,
+   "role": "H",
+   "sentences": [
+    "4.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Gypsy Roseの行動を受け入れられず、厳しい視線を向ける人々も少なくありませんでした。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-03",
+   "act": 4,
+   "start": 1156.96,
+   "end": 1164.56,
+   "role": "H",
+   "sentences": [
+    "4.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "spotlight",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "成人した人間であれば、助けを求めたり逃亡したりする機会はいくらでもあったはずだと主張されたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-04",
+   "act": 4,
+   "start": 1164.56,
+   "end": 1169.98,
+   "role": "H",
+   "sentences": [
+    "4.02#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "事件を見守っていた市民から寄せられた代表的な疑問の声を聞いてみましょう。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N2"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-05",
+   "act": 4,
+   "start": 1169.98,
+   "end": 1178.22,
+   "role": "N2",
+   "sentences": [
+    "4.03#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "私にはどうしても腑に落ちない点があるのです――彼女は自分の両足が完全に動くことを知っていました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-06",
+   "act": 4,
+   "start": 1178.22,
+   "end": 1184.94,
+   "role": "N2",
+   "sentences": [
+    "4.03#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "毎晩部屋のドアが閉まると、彼女は自力で立ち上がり、冷蔵庫へ歩いて食べ物を探していたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-07",
+   "act": 4,
+   "start": 1184.94,
+   "end": 1191.94,
+   "role": "N2",
+   "sentences": [
+    "4.03#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "crowd_house",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "SFのファンイベントにも参加しており、大勢の見知らぬ人々と接する機会もありました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-08",
+   "act": 4,
+   "start": 1191.94,
+   "end": 1207.1,
+   "role": "N2",
+   "sentences": [
+    "4.03#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "wheelchair_room",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "それほどの長い年月の間、無数の医師や看護師、警察官やボランティアたちの前で、なぜ彼女は一度たりとも車椅子から立ち上がって母親の嘘を告発しなかったのでしょうか。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-09",
+   "act": 4,
+   "start": 1207.1,
+   "end": 1213.36,
+   "role": "H",
+   "sentences": [
+    "4.05#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "spotlight",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "自由な環境で生きる独立した個人の視点から見れば、それは極めて自然な疑問かもしれません。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-10",
+   "act": 4,
+   "start": 1213.36,
+   "end": 1227.52,
+   "role": "H",
+   "sentences": [
+    "4.05#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "しかしGypsyの沈黙の謎を解くには、通常の合理性ではなく、目に見えない2つの心理的足枷――すなわち学習性無力感とトラウマ的絆に目を向ける必要があります。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-11",
+   "act": 4,
+   "start": 1227.52,
+   "end": 1234.96,
+   "role": "H",
+   "sentences": [
+    "4.05#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "この過酷な心理的幽閉のメカニズムについて、心理学者に解説していただきましょう。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-12",
+   "act": 4,
+   "start": 1234.96,
+   "end": 1243.94,
+   "role": "C",
+   "sentences": [
+    "4.07#1"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "学習性無力感（Learned Helplessness）"
+      ],
+      [
+       "ital",
+       "1967年、高名な心理学者マーティン・セリグマンは「学習性無力感（Learned Helplessness）」の古典的理論を発表しました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-13",
+   "act": 4,
+   "start": 1243.94,
+   "end": 1255.7,
+   "role": "C",
+   "sentences": [
+    "4.07#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "cage",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "実験において、回避不可能な電気ショックに繰り返し晒された動物は、抵抗の試みが何度も失敗に終わると、やがて一切の抵抗を諦めてしまいます。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-14",
+   "act": 4,
+   "start": 1255.7,
+   "end": 1267.14,
+   "role": "C",
+   "sentences": [
+    "4.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "cage_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ケージの扉が開け放たれ、ショックが取り除かれた後であっても、その動物は外へ逃げ出そうとせず、ただ横たわって鳴き声をあげるだけになるのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-15",
+   "act": 4,
+   "start": 1267.14,
+   "end": 1276.5,
+   "role": "C",
+   "sentences": [
+    "4.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "深刻なトラウマを負った脳は、"
+      ],
+      [
+       "quote",
+       "いかなる抵抗も完全に無駄である"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-16",
+   "act": 4,
+   "start": 1276.5,
+   "end": 1289.4,
+   "role": "C",
+   "sentences": [
+    "4.07#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Gypsyの成長過程を振り返ってみてください――言葉を覚え始めた幼少期から、医師の前に座るたび、母親は彼女の手を異常な強さで握りしめていました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-17",
+   "act": 4,
+   "start": 1289.4,
+   "end": 1294.24,
+   "role": "C",
+   "sentences": [
+    "4.07#6"
+   ],
+   "template": "T1",
    "variant": "",
    "bg": "hands",
    "bg2": null,
@@ -4066,11 +5634,385 @@
      "elems": [
       [
        "bold",
-       "オンライン交際サイト"
-      ],
+       "周囲からは愛情深い母親のスキンシップに見えたはずです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-18",
+   "act": 4,
+   "start": 1294.24,
+   "end": 1308.66,
+   "role": "C",
+   "sentences": [
+    "4.07#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
       [
        "ital",
-       "2012年"
+       "しかし彼女にとっては死の警告でした――もし一言でも余計な言葉を発したり足を動かしたりすれば、母親の爪が皮膚に食い込み内出血するほど締め上げられたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-19",
+   "act": 4,
+   "start": 1308.66,
+   "end": 1319.76,
+   "role": "C",
+   "sentences": [
+    "4.07#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "brain_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "母親は娘の頭に"
+      ],
+      [
+       "quote",
+       "お前は精神の病であり、何が安全かを判断できるのは母だけだ"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-20",
+   "act": 4,
+   "start": 1319.76,
+   "end": 1329.98,
+   "role": "C",
+   "sentences": [
+    "4.07#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_closed",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "そしてピンクの家の閉ざされた扉の奥には、暴力と飢えと見捨てられる恐怖による脅迫が待っていたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-21",
+   "act": 4,
+   "start": 1329.98,
+   "end": 1345.52,
+   "role": "H",
+   "sentences": [
+    "4.09#1",
+    "4.09#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_closed",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "Gypsyは決して抵抗を試みなかったわけではありません。"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "警察の捜査ファイルには、2011年に起きた決定的な出来事が記録されています――それは彼女の社会への最後の希望を打ち砕いた事件でした。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-22",
+   "act": 4,
+   "start": 1345.52,
+   "end": 1353.7,
+   "role": "D",
+   "sentences": [
+    "4.10#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_street",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "2011年、19歳になっていたGypsyは、すべての勇気を振り絞って深夜の脱走を決行しました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-23",
+   "act": 4,
+   "start": 1353.7,
+   "end": 1360.62,
+   "role": "D",
+   "sentences": [
+    "4.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "night_street_gypsy",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "彼女は家から密かに抜け出し、近隣の知人のアパートへと逃げ込み助けを乞うたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-24",
+   "act": 4,
+   "start": 1360.62,
+   "end": 1370.46,
+   "role": "D",
+   "sentences": [
+    "4.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "震える少女は周囲の人々に、自分を匿ってほしい、母に見つからないようにしてほしいと必死に懇願しました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-25",
+   "act": 4,
+   "start": 1370.46,
+   "end": 1378.72,
+   "role": "D",
+   "sentences": [
+    "4.10#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "しかしわずか数時間後、母親は偽造された分厚い医療書類の束を携えて現れました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-26",
+   "act": 4,
+   "start": 1378.72,
+   "end": 1392.48,
+   "role": "D",
+   "sentences": [
+    "4.10#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "crowd_house",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "呆然とする周囲の人々の前で、彼女は泣き崩れながら、娘は生まれつき重度の知的障害があり、重い妄想状態にあるため法的な判断能力がないと訴えたのです。"
       ]
      ]
     }
@@ -4092,35 +6034,31 @@
   {
    "id": "4-27",
    "act": 4,
-   "start": 1070.985,
-   "end": 1083.004,
-   "role": "C",
+   "start": 1392.48,
+   "end": 1401.66,
+   "role": "D",
    "sentences": [
-    "4.13#2"
+    "4.10#6"
    ],
-   "template": "T4",
+   "template": "T1",
    "variant": "",
-   "bg": "dress_hanger",
+   "bg": "crowd_house",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "Nicholas Godejohn"
-      ],
-      [
        "ital",
-       "孤立した男性"
+       "周囲の人々は聖母のような母親の涙を疑うことなく信じ込み、彼女をピンクの家へと引き渡してしまいました。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Câu trích ở cụm từ",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -4136,31 +6074,31 @@
   {
    "id": "4-28",
    "act": 4,
-   "start": 1083.004,
-   "end": 1092.771,
-   "role": "C",
+   "start": 1401.66,
+   "end": 1408.3,
+   "role": "D",
    "sentences": [
-    "4.13#3"
+    "4.10#7"
    ],
-   "template": "T3",
+   "template": "T1",
    "variant": "",
-   "bg": "void",
+   "bg": "house_closed",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "bold",
-       "何千通もの深夜のメッセージ"
+       "その夜の後、母親は娘の目の前でパソコンを金槌で叩き壊しました。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Đường tan trong câu",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -4176,15 +6114,15 @@
   {
    "id": "4-29",
    "act": 4,
-   "start": 1092.771,
-   "end": 1105.683,
-   "role": "H",
+   "start": 1408.3,
+   "end": 1421.98,
+   "role": "D",
    "sentences": [
-    "4.15#1"
+    "4.10#8"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "corridor",
+   "bg": "cage",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -4193,19 +6131,21 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "暗い妄想の共有"
+       "ital",
+       "彼女は娘の体を鉄のベッドに2週間にわたって鎖で縛り付け、警察はお前のような狂人の言うことなど絶対に信じないと脅しつけたのです。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Tiếng bàn phím ở đầu",
+   "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": false,
+    "nobust": true,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -4216,25 +6156,25 @@
   {
    "id": "4-30",
    "act": 4,
-   "start": 1105.683,
-   "end": 1118.688,
+   "start": 1421.98,
+   "end": 1434.96,
    "role": "H",
    "sentences": [
-    "4.15#2"
+    "4.11#1"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "godejohn_screen",
+   "bg": "void",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "「母が消えなければ、自分は救われない」という確信"
+       "ital",
+       "2011年のその衝撃は、Gypsyの心に決定的な絶望を刻み込みました――外の世界は母親の聖母の仮面しか信じず、自らの声は完全にかき消されるのだと。"
       ]
      ]
     }
@@ -4256,37 +6196,77 @@
   {
    "id": "4-31",
    "act": 4,
-   "start": 1118.688,
-   "end": 1128.07,
+   "start": 1434.96,
+   "end": 1441.62,
    "role": "H",
    "sentences": [
-    "4.15#3"
+    "4.11#2"
    ],
-   "template": "T9",
+   "template": "T1",
    "variant": "",
-   "bg": "two_shadows",
+   "bg": "clinical",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "bold",
-       "感応精神病 (FOLIE À DEUX)"
-      ],
-      [
-       "ital",
-       "(2人の狂気)"
+       "そして恐怖に加えて、心理学者はもう一つの強固な呪縛を指摘しています。"
       ]
      ]
     }
    ],
-   "beats": [
-    "狂気"
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-32",
+   "act": 4,
+   "start": 1441.62,
+   "end": 1447.04,
+   "role": "C",
+   "sentences": [
+    "4.12#1"
    ],
-   "beat_text": "Bóng nhập ở \"狂気\"",
+   "template": "T9",
+   "variant": "",
+   "bg": "hands",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "トラウマ的絆（Trauma Bonding）"
+      ],
+      [
+       "ital",
+       "それこそが「トラウマ的絆（Trauma Bonding）」と呼ばれる目に見えない足枷です。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -4300,48 +6280,36 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-32",
+   "id": "4-33",
    "act": 4,
-   "start": 1128.07,
-   "end": 1150.482,
-   "role": "H",
+   "start": 1447.04,
+   "end": 1459.32,
+   "role": "C",
    "sentences": [
-    "4.15#4",
-    "4.15#5"
+    "4.12#2"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "house_night",
+   "bg": "hands",
    "bg2": null,
    "inset": null,
-   "camera": "hero",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "母が消えて初めて…"
-      ]
-     ]
-    },
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "2015年6月"
+       "ディーディーは娘の肉体を苛む加害者であると同時に、毎晩彼女を抱きしめ、髪を梳かし、かけがえのない天使だとささやいてくれる唯一の存在でした。"
       ]
      ]
     }
    ],
-   "beats": [
-    "ドアを開けて"
-   ],
-   "beat_text": "Cửa sáng ở \"ドアを開けて\"",
+   "beats": [],
+   "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": true,
+    "nobust": false,
     "intro": false,
     "handoff": [],
     "dual": false,
@@ -4352,10 +6320,296 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-33",
+   "id": "4-34",
    "act": 4,
-   "start": 1150.482,
-   "end": 1152.282,
+   "start": 1459.32,
+   "end": 1473.62,
+   "role": "C",
+   "sentences": [
+    "4.12#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "glass_box",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "恐怖に満ちた暴力と甘美な愛情の断続的な往復は、被害者の心理的防御機構を完全に麻痺させ、激しい憎悪と絶対的な依存を不可分に結合させてしまうのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-35",
+   "act": 4,
+   "start": 1473.62,
+   "end": 1486.04,
+   "role": "C",
+   "sentences": [
+    "4.12#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "外部から完全に遮断された世界において、愛と虐待は一つに混ざり合い、被害者が生存のための健全な境界線を認識することを不可能にさせました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-36",
+   "act": 4,
+   "start": 1486.04,
+   "end": 1496.62,
+   "role": "H",
+   "sentences": [
+    "4.14#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "cage",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "法的な手段も社会的な逃げ道も完全に閉ざされたと思い詰めたとき、追いつめられた生存本能は最も極端な解決策を模索し始めました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-37",
+   "act": 4,
+   "start": 1496.62,
+   "end": 1509.9,
+   "role": "H",
+   "sentences": [
+    "4.14#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "godejohn_screen",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "2012年、秘密裏に手に入れたインターネットを通じて、彼女はNicholas Godejohnという青年と知り合いました――自閉症と人格障害の病歴を抱える24歳の青年でした。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-38",
+   "act": 4,
+   "start": 1509.9,
+   "end": 1521.08,
+   "role": "H",
+   "sentences": [
+    "4.14#3"
+   ],
+   "template": "T9",
+   "variant": "",
+   "bg": "two_shadows",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "共有妄想（フォリー・ドゥ）"
+      ],
+      [
+       "ital",
+       "孤立し心に傷を負った二つの魂が共鳴し、やがて危険な精神病理へと滑落していきました――共有妄想（フォリー・ドゥ）です。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-39",
+   "act": 4,
+   "start": 1521.08,
+   "end": 1528.6,
+   "role": "H",
+   "sentences": [
+    "4.14#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "two_shadows",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "歪んだ救済のファンタジーは、二人を後戻りのできない破滅的な計画へと駆り立てていきました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-40",
+   "act": 4,
+   "start": 1528.6,
+   "end": 1535.58,
+   "role": "H",
+   "sentences": [
+    "4.14#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "そして2015年6月14日の夜、ピンクの家の扉は内側から静かに開かれたのです……"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-41",
+   "act": 4,
+   "start": 1535.58,
+   "end": 1538.26,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -4374,7 +6628,7 @@
       ],
       [
        "bold",
-       "司法の裁き、レッドフラッグ＆教訓"
+       "法医学的判定・心理的審判＆生存のための赤い警告"
       ]
      ]
     }
@@ -4396,8 +6650,8 @@
   {
    "id": "5-01",
    "act": 5,
-   "start": 1152.282,
-   "end": 1161.293,
+   "start": 1538.26,
+   "end": 1548.02,
    "role": "H",
    "sentences": [
     "5.02#1"
@@ -4413,14 +6667,14 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "ミズーリ州裁判所"
+       "ital",
+       "ミズーリ州で行われたGypsy Rose Blanchardの裁判は、アメリカ司法史において最も倫理的判断を揺さぶる試練の一つとなりました。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Búa gõ ở đầu câu",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -4436,29 +6690,25 @@
   {
    "id": "5-02",
    "act": 5,
-   "start": 1161.293,
-   "end": 1168.551,
+   "start": 1548.02,
+   "end": 1554.94,
    "role": "H",
    "sentences": [
     "5.02#2"
    ],
-   "template": "T2",
+   "template": "T1",
    "variant": "",
    "bg": "court_dawn",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "ital",
-       "法的には"
-      ],
-      [
        "bold",
-       "明白な重罪"
+       "実定刑法において、実の親の殺害を共謀する行為は弁解の余地のない重罪です。"
       ]
      ]
     }
@@ -4480,37 +6730,31 @@
   {
    "id": "5-03",
    "act": 5,
-   "start": 1168.551,
-   "end": 1188.96,
+   "start": 1554.94,
+   "end": 1568.94,
    "role": "H",
    "sentences": [
     "5.02#3"
    ],
-   "template": "T2",
+   "template": "T1",
    "variant": "",
-   "bg": "court_dawn",
+   "bg": "records",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Dan Patterson · Greene郡検察官"
-      ],
-      [
-       "bold",
-       "主謀者であると同時に、虐待の犠牲者"
+       "しかし、23年間にわたる拷問と医療虐待を証明する戦慄すべき臨床証拠を前に、グリーン郡の主席検察官Dan Pattersonは前例のない倫理的ジレンマに直面しました。"
       ]
      ]
     }
    ],
-   "beats": [
-    "主謀者"
-   ],
-   "beat_text": "Tiêu đề ở \"主謀者\"",
+   "beats": [],
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -4526,27 +6770,25 @@
   {
    "id": "5-04",
    "act": 5,
-   "start": 1188.96,
-   "end": 1190.26,
-   "role": null,
-   "sentences": [],
-   "template": "T2",
+   "start": 1568.94,
+   "end": 1583.62,
+   "role": "H",
+   "sentences": [
+    "5.02#4"
+   ],
+   "template": "T1",
    "variant": "",
    "bg": "court_dawn",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Dan Patterson · Greene郡検察官"
-      ],
-      [
-       "bold",
-       "主謀者であると同時に、虐待の犠牲者"
+       "検察官は、これが自らのキャリアにおいて最も異例な事件であったと認めました――明白な殺人事件の首謀者でありながら、同時に20年以上に及ぶ過酷な虐待の生存被害者であったからです。"
       ]
      ]
     }
@@ -4562,22 +6804,21 @@
     "guests": false,
     "p2": false
    },
-   "hold": true,
-   "transition": "dissolve",
-   "inherit": "5-03"
+   "hold": false,
+   "transition": "dissolve"
   },
   {
    "id": "5-05",
    "act": 5,
-   "start": 1190.26,
-   "end": 1204.751,
+   "start": 1583.62,
+   "end": 1597.5,
    "role": "H",
    "sentences": [
-    "5.04#1"
+    "5.02#5"
    ],
-   "template": "T5",
+   "template": "T1",
    "variant": "",
-   "bg": "court_dawn",
+   "bg": "spotlight",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -4587,21 +6828,13 @@
      "elems": [
       [
        "ital",
-       "2016年 · 司法取引 · 第2級殺人"
-      ],
-      [
-       "bold",
-       "懲役10年"
-      ],
-      [
-       "ital",
-       "同罪における法定最低刑"
+       "それは、法の厳格な報復的正義と、長期にわたり魂を損なわれた被害者への深い人道的配慮との間で、天秤が極限まで揺れ動いた類稀な瞬間でした。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Số đếm 0 → 10",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -4617,43 +6850,34 @@
   {
    "id": "5-06",
    "act": 5,
-   "start": 1204.751,
-   "end": 1220.182,
+   "start": 1597.5,
+   "end": 1612.94,
    "role": "H",
    "sentences": [
-    "5.04#2"
+    "5.04#1"
    ],
-   "template": "T4",
+   "template": "T1",
    "variant": "",
    "bg": "prison_window",
    "bg2": null,
    "inset": null,
-   "camera": "hero",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "仮釈放後のGYPSYの言葉"
-      ]
-     ]
-    },
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "quote",
-       "刑務所に入って、人生で初めて、母の家で暮らしていた時よりも自由を感じました。"
+       "2016年、司法取引を通じて、Gypsy Rose Blanchardは第2級殺人の罪を認め、懲役10年の判決を言い渡されました――これは殺人罪において法的に認められ得る最も寛大な減刑でした。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Câu trích từng dòng từ dấu `:`",
+   "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": true,
+    "nobust": false,
     "intro": false,
     "handoff": [],
     "dual": false,
@@ -4666,39 +6890,31 @@
   {
    "id": "5-07",
    "act": 5,
-   "start": 1220.182,
-   "end": 1228.683,
+   "start": 1612.94,
+   "end": 1620.24,
    "role": "H",
    "sentences": [
-    "5.04#3"
+    "5.04#2"
    ],
-   "template": "T5",
+   "template": "T1",
    "variant": "",
    "bg": "prison_window",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "2023年12月"
-      ],
-      [
-       "bold",
-       "85%服役"
-      ],
-      [
-       "ital",
-       "仮釈放により釈放"
+       "一方、直接手を下したNicholas Godejohnには、仮釈放の可能性のない終身刑が言い渡されました。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Thanh tiến trình",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -4714,11 +6930,53 @@
   {
    "id": "5-08",
    "act": 5,
-   "start": 1228.683,
-   "end": 1230.483,
-   "role": null,
-   "sentences": [],
-   "template": "T5",
+   "start": 1620.24,
+   "end": 1629.06,
+   "role": "H",
+   "sentences": [
+    "5.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "court_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "彼女への10年の刑期は、法の厳正さと司法精神医学的な人道主義との歴史的な調和点と見なされたのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-09",
+   "act": 5,
+   "start": 1629.06,
+   "end": 1636.72,
+   "role": "H",
+   "sentences": [
+    "5.04#4"
+   ],
+   "template": "T1",
    "variant": "",
    "bg": "prison_window",
    "bg2": null,
@@ -4730,64 +6988,7 @@
      "elems": [
       [
        "ital",
-       "2023年12月"
-      ],
-      [
-       "bold",
-       "85%服役"
-      ],
-      [
-       "ital",
-       "仮釈放により釈放"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": true,
-   "transition": "dissolve",
-   "inherit": "5-07"
-  },
-  {
-   "id": "5-09",
-   "act": 5,
-   "start": 1230.483,
-   "end": 1249.599,
-   "role": "H",
-   "sentences": [
-    "5.06#1"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "court_dawn",
-   "bg2": null,
-   "inset": null,
-   "camera": "pull",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "bold",
-       "4つの警戒すべきレッドフラッグ"
-      ],
-      [
-       "ital",
-       "(Red Flags)"
-      ],
-      [
-       "ital",
-       "心理学者＆捜査官"
+       "刑務所の鉄格子の向こうで発見された心理的パラドックスについて、捜査官から語っていただきましょう。"
       ]
      ]
     }
@@ -4799,7 +7000,7 @@
     "nobust": false,
     "intro": false,
     "handoff": [
-     "C+D"
+     "D"
     ],
     "dual": false,
     "guests": false,
@@ -4811,73 +7012,25 @@
   {
    "id": "5-10",
    "act": 5,
-   "start": 1249.599,
-   "end": 1263.196,
-   "role": "C",
+   "start": 1636.72,
+   "end": 1646.9,
+   "role": "D",
    "sentences": [
-    "5.07#1"
+    "5.05#1"
    ],
-   "template": "T8",
-   "variant": "flags",
-   "bg": "void",
+   "template": "T1",
+   "variant": "",
+   "bg": "prison_window",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "01"
-      ],
-      [
-       "bold",
-       "濃厚な病歴 — 検査結果との絶え間ない矛盾"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Cờ 1 tô đầy",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": true,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "5-11",
-   "act": 5,
-   "start": 1263.196,
-   "end": 1275.842,
-   "role": "C",
-   "sentences": [
-    "5.07#2"
-   ],
-   "template": "T8",
-   "variant": "flags",
-   "bg": "void",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "02"
-      ],
-      [
-       "bold",
-       "症状が保護者の面前でのみ現れる"
+       "チリコシー女子矯正センターに収監された際、Gypsy Roseは司法精神医学の専門家たちを深く考えさせる言葉を口にしました。"
       ]
      ]
     }
@@ -4889,122 +7042,83 @@
     "nobust": false,
     "intro": false,
     "handoff": [],
-    "dual": true,
+    "dual": false,
     "guests": false,
     "p2": false
    },
    "hold": false,
-   "transition": "dissolve",
-   "bg_inherited": true
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-11",
+   "act": 5,
+   "start": 1646.9,
+   "end": 1658.5,
+   "role": "D",
+   "sentences": [
+    "5.05#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "prison_window",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "彼女はこう語ったのです――"
+      ],
+      [
+       "quote",
+       "州の刑務所に入って、私の人生で初めて、母の家にいた時よりも本当に自由だと感じることができました"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
   },
   {
    "id": "5-12",
    "act": 5,
-   "start": 1275.842,
-   "end": 1290.043,
+   "start": 1658.5,
+   "end": 1666.78,
    "role": "D",
    "sentences": [
-    "5.08#1"
+    "5.05#3"
    ],
-   "template": "T8",
-   "variant": "flags",
-   "bg": "void",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "03"
-      ],
-      [
-       "bold",
-       "医療行為への積極性 · 病気の見せびらかし · 頻繁な転院"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "3 cụm theo cụm từ",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": true,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve",
-   "bg_inherited": true
-  },
-  {
-   "id": "5-13",
-   "act": 5,
-   "start": 1290.043,
-   "end": 1299.74,
-   "role": "D",
-   "sentences": [
-    "5.08#2"
-   ],
-   "template": "T8",
-   "variant": "flags",
-   "bg": "void",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "04"
-      ],
-      [
-       "bold",
-       "学校、友人、親族からの完全な孤立"
-      ],
-      [
-       "quote",
-       "保護という口実"
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "Dấu mộc ở cụm từ",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": true,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve",
-   "bg_inherited": true
-  },
-  {
-   "id": "5-14",
-   "act": 5,
-   "start": 1299.74,
-   "end": 1302.04,
-   "role": null,
-   "sentences": [],
-   "template": "T8",
+   "template": "T1",
    "variant": "",
-   "bg": "void",
+   "bg": "prison_window",
    "bg2": null,
    "inset": null,
    "camera": "still",
-   "segments": [],
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "刑務所の中で、彼女の肉体は鉄格子に阻まれていましたが、その精神はついに解放されたのです。"
+      ]
+     ]
+    }
+   ],
    "beats": [],
    "beat_text": "—",
    "flags": {
@@ -5017,21 +7131,20 @@
     "p2": false
    },
    "hold": false,
-   "transition": "dissolve",
-   "bg_inherited": true
+   "transition": "dissolve"
   },
   {
-   "id": "5-15",
+   "id": "5-13",
    "act": 5,
-   "start": 1302.04,
-   "end": 1314.174,
-   "role": "H",
+   "start": 1666.78,
+   "end": 1678.94,
+   "role": "D",
    "sentences": [
-    "5.10#1"
+    "5.05#4"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "podcast_desk",
+   "bg": "house_dawn",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -5040,8 +7153,88 @@
      "at_sentence": null,
      "elems": [
       [
+       "ital",
+       "彼女は自分の髪を自然に伸ばすことを許され、口から普通の食事を味わい、車椅子を捨てて自らの足で歩き、医療的な暴力の恐怖から解放されました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-14",
+   "act": 5,
+   "start": 1678.94,
+   "end": 1686.58,
+   "role": "D",
+   "sentences": [
+    "5.05#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "刑務所の医療陣は彼女のために完全な義歯を制作し、人間らしい笑顔を取り戻させました。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-15",
+   "act": 5,
+   "start": 1686.58,
+   "end": 1693.84,
+   "role": "D",
+   "sentences": [
+    "5.05#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
        "bold",
-       "事件記録は閉じられた"
+       "彼女は高卒認定を取得し、生まれて初めて正規の教育を受ける機会を得たのです。"
       ]
      ]
     }
@@ -5063,36 +7256,38 @@
   {
    "id": "5-16",
    "act": 5,
-   "start": 1314.174,
-   "end": 1322.547,
-   "role": "H",
+   "start": 1693.84,
+   "end": 1709.22,
+   "role": "D",
    "sentences": [
-    "5.10#2"
+    "5.05#7"
    ],
    "template": "T1",
    "variant": "",
    "bg": "house_free",
    "bg2": null,
    "inset": null,
-   "camera": "hero",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "自分の脚で歩き始める"
+       "ital",
+       "そして2023年12月28日、刑期の85パーセントを満期務め上げたGypsy Rose Blanchardは、自らの人生を取り戻すべく刑務所の門をくぐり出ました。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Trời sáng dần",
+   "beat_text": "—",
    "flags": {
     "bust": false,
-    "nobust": true,
+    "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -5103,15 +7298,15 @@
   {
    "id": "5-17",
    "act": 5,
-   "start": 1322.547,
-   "end": 1338.107,
+   "start": 1709.22,
+   "end": 1718.9,
    "role": "H",
    "sentences": [
-    "5.10#3"
+    "5.06#1"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "cage_open",
+   "bg": "spotlight",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -5120,16 +7315,14 @@
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "天使の衣を纏ったもの"
+       "ital",
+       "ブランチャード事件がもたらした社会的余波は、世界中の児童保護機関や公衆衛生の現場に極めて重い警鐘を鳴らしました。"
       ]
      ]
     }
    ],
-   "beats": [
-    "天使の衣"
-   ],
-   "beat_text": "Tiêu đề ở \"天使の衣\"",
+   "beats": [],
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -5145,23 +7338,25 @@
   {
    "id": "5-18",
    "act": 5,
-   "start": 1338.107,
-   "end": 1339.407,
-   "role": null,
-   "sentences": [],
+   "start": 1718.9,
+   "end": 1732.56,
+   "role": "H",
+   "sentences": [
+    "5.06#2"
+   ],
    "template": "T1",
    "variant": "",
-   "bg": "cage_open",
+   "bg": "records",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "天使の衣を纏ったもの"
+       "ital",
+       "それは、医療施設間の情報共有が欠落していたという致命的な欠陥を暴き、代理ミュンヒハウゼン症候群の加害者が易々と病院を欺くことを許していた現実を白日の下に晒したのです。"
       ]
      ]
     }
@@ -5177,49 +7372,44 @@
     "guests": false,
     "p2": false
    },
-   "hold": true,
-   "transition": "dissolve",
-   "inherit": "5-17"
+   "hold": false,
+   "transition": "dissolve"
   },
   {
    "id": "5-19",
    "act": 5,
-   "start": 1339.407,
-   "end": 1349.892,
+   "start": 1732.56,
+   "end": 1743.12,
    "role": "H",
    "sentences": [
-    "5.12#1"
+    "5.06#3"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "podcast_desk",
+   "bg": "records",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "ゲストの皆様、ありがとうございました"
-      ],
-      [
        "ital",
-       "架空のキャラクター · AI音声"
+       "多くの地域で、医療虐待から無力な子供たちを守るために、病院と学校、福祉機関の連携マニュアルが抜本的に見直されました。"
       ]
      ]
     }
    ],
    "beats": [],
-   "beat_text": "Dàn khách mời: 5 ảnh P0 sáng lần lượt",
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
     "intro": false,
     "handoff": [],
     "dual": false,
-    "guests": true,
+    "guests": false,
     "p2": false
    },
    "hold": false,
@@ -5228,29 +7418,29 @@
   {
    "id": "5-20",
    "act": 5,
-   "start": 1349.892,
-   "end": 1359.67,
+   "start": 1743.12,
+   "end": 1753.3,
    "role": "H",
    "sentences": [
-    "5.12#2"
+    "5.06#4"
    ],
-   "template": "T10",
+   "template": "T1",
    "variant": "",
-   "bg": "podcast_desk",
+   "bg": "brain_desk",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
-       "bold",
-       "また次の事件でお会いしましょう"
+       "ital",
+       "罪のない弱者を守り、二度と同様の悲劇を繰り返さないために、心理学者と捜査官がまとめた"
       ],
       [
-       "ital",
-       "コメント欄にあなたのご意見をお寄せください"
+       "quote",
+       "4つの赤い警告（Survival Red Flags）"
       ]
      ]
     }
@@ -5258,10 +7448,12 @@
    "beats": [],
    "beat_text": "—",
    "flags": {
-    "bust": true,
+    "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "C"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -5272,13 +7464,15 @@
   {
    "id": "5-21",
    "act": 5,
-   "start": 1359.67,
-   "end": 1368.67,
-   "role": null,
-   "sentences": [],
-   "template": "T2",
+   "start": 1753.3,
+   "end": 1762.44,
+   "role": "C",
+   "sentences": [
+    "5.07#1"
+   ],
+   "template": "T1",
    "variant": "",
-   "bg": "podcast_desk",
+   "bg": "clinical",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -5288,23 +7482,835 @@
      "elems": [
       [
        "ital",
-       "事件記録 第01話 · 完結"
-      ],
-      [
-       "bold",
-       "AMBER EYES"
-      ],
-      [
-       "ital",
-       "実際の事件記録から読み解く犯罪心理学"
+       "心理医学および臨床的な視点から、周囲の人々が警戒すべき最初の2つの兆候を挙げます。"
       ]
      ]
     }
    ],
-   "beats": [
-    "Bụp"
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-22",
+   "act": 5,
+   "start": 1762.44,
+   "end": 1767.52,
+   "role": "C",
+   "sentences": [
+    "5.07#2"
    ],
-   "beat_text": "Bìa gập ở \"Bụp\"; mờ ra đen",
+   "template": "T8",
+   "variant": "flags",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "01"
+      ],
+      [
+       "bold",
+       "第1の赤い警告：異常に複雑な病歴と検査結果の矛盾。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-23",
+   "act": 5,
+   "start": 1767.52,
+   "end": 1782.86,
+   "role": "C",
+   "sentences": [
+    "5.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "被介護者が極めて多数の難病を抱えていると主張されるにもかかわらず、客観的な血液検査や画像診断が常に正常であるか、養育者の説明と完全に矛盾している場合です。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-24",
+   "act": 5,
+   "start": 1782.86,
+   "end": 1787.12,
+   "role": "C",
+   "sentences": [
+    "5.07#4"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "02"
+      ],
+      [
+       "bold",
+       "第2の赤い警告：状況によってのみ現れる病状。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-25",
+   "act": 5,
+   "start": 1787.12,
+   "end": 1800.2,
+   "role": "C",
+   "sentences": [
+    "5.07#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "不可解な症状が養育者の立ち会う環境でのみ悪化し、患者が隔離されたり客観的な監視下に置かれたりすると直ちに劇的な改善を見せる場合です。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-26",
+   "act": 5,
+   "start": 1800.2,
+   "end": 1810.36,
+   "role": "C",
+   "sentences": [
+    "5.07#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "clinical",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "養育者から引き離された途端、集中的な医療処置なしに患者の健康が奇跡的に回復することが典型的な特徴です。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-27",
+   "act": 5,
+   "start": 1810.36,
+   "end": 1816.7,
+   "role": "D",
+   "sentences": [
+    "5.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "行動捜査および社会的な観察の観点から、残る2つの兆候を提示します。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-28",
+   "act": 5,
+   "start": 1816.7,
+   "end": 1822.54,
+   "role": "D",
+   "sentences": [
+    "5.08#2"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "pinboard",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "03"
+      ],
+      [
+       "bold",
+       "第3の赤い警告：ドクターショッピングと過度な注目欲求。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-29",
+   "act": 5,
+   "start": 1822.54,
+   "end": 1837.88,
+   "role": "D",
+   "sentences": [
+    "5.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "records",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "養育者が医師に疑念を持たれると即座に通院先を変える傾向があり、侵襲的な処置を進んで歓迎し、SNS上で子供の病状を過剰に誇示して同情を集めようとする場合です。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-30",
+   "act": 5,
+   "start": 1837.88,
+   "end": 1843.38,
+   "role": "D",
+   "sentences": [
+    "5.08#4"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "house_closed",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "04"
+      ],
+      [
+       "bold",
+       "そして第4の赤い警告：地域社会からの完全な隔離。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-31",
+   "act": 5,
+   "start": 1843.38,
+   "end": 1853.4,
+   "role": "D",
+   "sentences": [
+    "5.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "crowd_away",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "「病弱な体を守るため」という善意の名目のもと、被害者が学校や同世代の友人、親族との接触を完全に断たれている場合です。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-32",
+   "act": 5,
+   "start": 1853.4,
+   "end": 1864.4,
+   "role": "D",
+   "sentences": [
+    "5.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "spotlight",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "加害者は常に、被害者の情報と生命線を独占する唯一の管理者であろうと執着するのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-33",
+   "act": 5,
+   "start": 1864.4,
+   "end": 1874.48,
+   "role": "H",
+   "sentences": [
+    "5.10#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "スプリングフィールドのピンクの家に関する捜査ファイルは閉じられますが、人間の善意と倫理の本質をめぐる問いは今なお私たちの胸に響き続けています。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-34",
+   "act": 5,
+   "start": 1874.48,
+   "end": 1884.14,
+   "role": "H",
+   "sentences": [
+    "5.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "親の真の愛とは、子供が健やかに育ち、自らの足で力強く立ち上がり、自由に世界へと羽ばたくための翼を与えるものです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-35",
+   "act": 5,
+   "start": 1884.14,
+   "end": 1899.9,
+   "role": "H",
+   "sentences": [
+    "5.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "cage_open",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "親の愛が利己的な支配の道具へと歪められ、献身的な介護が大人の病的な自尊心を満たす過酷な檻へと変貌するとき――愛の名を騙るものは、いかなる刃物よりも深い破壊をもたらしかねません。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-36",
+   "act": 5,
+   "start": 1899.9,
+   "end": 1907.58,
+   "role": "H",
+   "sentences": [
+    "5.10#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "charity",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "洞察力を欠いた善意と同情は、残酷な犯罪が静かに増殖するための肥沃な温床となり得るのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-37",
+   "act": 5,
+   "start": 1907.58,
+   "end": 1922.4,
+   "role": "H",
+   "sentences": [
+    "5.10#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "この悲劇的な記録が残した最大の教訓とは、どのような人間の聖なる仮面であっても、決して自らの直感と良心の警戒を眠らせてはならないという強い戒めなのです。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-38",
+   "act": 5,
+   "start": 1922.4,
+   "end": 1931.84,
+   "role": "H",
+   "sentences": [
+    "5.12#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "専門的な分析を提供してくださったゲストの皆様、そして最後まで耳を傾けてくださったリスナーの皆様に深く感謝いたします。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-39",
+   "act": 5,
+   "start": 1931.84,
+   "end": 1939.72,
+   "role": "H",
+   "sentences": [
+    "5.12#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "house_night",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "皆様の共感と思索こそが、人間の深層心理の最も暗い領域を照らし続ける原動力となります。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-40",
+   "act": 5,
+   "start": 1939.72,
+   "end": 1952.46,
+   "role": "H",
+   "sentences": [
+    "5.12#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "podcast_desk",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "ぜひコメント欄で皆様のご意見をお聞かせいただき、常に澄んだ知性を保ちながら、次回の犯罪心理学ファイルでお会いしましょう。"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-41",
+   "act": 5,
+   "start": 1952.46,
+   "end": 1959.46,
+   "role": null,
+   "sentences": [],
+   "template": "T1",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "事件ファイル 第01話 · 終結"
+      ],
+      [
+       "ital",
+       "AMBER EYES · 実録の事件記録から読み解く犯罪心理学"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": true,

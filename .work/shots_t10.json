@@ -1,0 +1,8558 @@
+{
+ "total": 1733.37,
+ "shots": [
+  {
+   "id": "1-01",
+   "act": 1,
+   "start": 22.34,
+   "end": 36.0,
+   "role": "H",
+   "sentences": [
+    "1.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_hitchhiking_highway_1977",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Vào thập niên 1970, nước Mỹ trải qua thời kỳ hoàng kim của văn hóa xê dịch tự do với những chuyến đi nhờ xe dọc theo những dải xa lộ ngập tràn ánh nắng bờ Tây."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-02",
+   "act": 1,
+   "start": 36.0,
+   "end": 45.8,
+   "role": "H",
+   "sentences": [
+    "1.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_hitchhiking_highway_1977",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hình ảnh những thanh niên trẻ mang ba lô đứng bên lề đường vẫy tay xin quá giang là một nét văn hóa phóng khoáng mang tính biểu tượng của cả một thế hệ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-03",
+   "act": 1,
+   "start": 45.8,
+   "end": 53.1,
+   "role": "H",
+   "sentences": [
+    "1.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_hitchhiking_highway_1977",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Người ta trao gửi niềm tin trọn vẹn cho những người xa lạ một cách tự nhiên và ngây thơ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-04",
+   "act": 1,
+   "start": 53.1,
+   "end": 60.6,
+   "role": "H",
+   "sentences": [
+    "1.02#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_traveler_backpack_worn_map",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Họ tin rằng phía sau mỗi tay lái là một người bạn đường tử tế sẵn sàng sẻ chia một chặng hành trình."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-05",
+   "act": 1,
+   "start": 60.6,
+   "end": 68.86,
+   "role": "H",
+   "sentences": [
+    "1.02#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_traveler_backpack_worn_map",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Các phương tiện truyền thông thời bấy giờ liên tục ca ngợi tinh thần tự do phóng khoáng, biến những chuyến đi nhờ xe thành biểu tượng lãng mạn của tuổi trẻ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-06",
+   "act": 1,
+   "start": 68.86,
+   "end": 77.28,
+   "role": "H",
+   "sentences": [
+    "1.02#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_golden_innocence_road_illusion",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Thế nhưng, chính sự ngây thơ tập thể ấy đã tạo nên một “Điểm mù xã hội” vô cùng nguy hiểm."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-07",
+   "act": 1,
+   "start": 77.28,
+   "end": 85.54,
+   "role": "H",
+   "sentences": [
+    "1.02#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_golden_innocence_road_illusion",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Những dải xa lộ thênh thang rực rỡ nắng vàng đã vô tình trở thành ngư trường lý tưởng giăng sẵn cho những kẻ săn mồi tàn độc."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-08",
+   "act": 1,
+   "start": 85.54,
+   "end": 94.5,
+   "role": "H",
+   "sentences": [
+    "1.02#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_hitchhiking_highway_1977",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Một trong những vụ bắt cóc kỳ lạ và chấn động nhất lịch sử tư pháp nước Mỹ đã bắt đầu từ chính một chuyến xe định mệnh như thế."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-09",
+   "act": 1,
+   "start": 94.5,
+   "end": 105.46,
+   "role": "H",
+   "sentences": [
+    "1.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_route99_eugene_roadside",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ngày 19 tháng 5 năm 1977, cô gái trẻ hai mươi tuổi Colleen Stan rời khỏi thị trấn Eugene, bang Oregon."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-10",
+   "act": 1,
+   "start": 105.46,
+   "end": 112.0,
+   "role": "H",
+   "sentences": [
+    "1.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_route99_eugene_roadside",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cô xin đi nhờ xe về phía Bắc California, tới thị trấn Westwood để dự bữa tiệc sinh nhật của một người bạn thân."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-11",
+   "act": 1,
+   "start": 112.0,
+   "end": 119.74,
+   "role": "H",
+   "sentences": [
+    "1.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_birthday_invitation_youth",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Trong tâm trí của cô gái đôi mươi lúc ấy chỉ ngập tràn niềm vui hội ngộ và những hoài bão thanh xuân rực rỡ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-12",
+   "act": 1,
+   "start": 119.74,
+   "end": 126.64,
+   "role": "H",
+   "sentences": [
+    "1.04#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_birthday_invitation_youth",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Colleen vốn là một cô gái thận trọng và có hiểu biết thực tế về cuộc sống."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-13",
+   "act": 1,
+   "start": 126.64,
+   "end": 135.66,
+   "role": "H",
+   "sentences": [
+    "1.04#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_route99_eugene_roadside",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cô đã lắng nghe trực giác bất an và kiên quyết từ chối hai chiếc xe đầu tiên dừng lại vì nhận thấy người lái có biểu hiện kỳ lạ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-14",
+   "act": 1,
+   "start": 135.66,
+   "end": 145.28,
+   "role": "H",
+   "sentences": [
+    "1.04#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_birthday_invitation_youth",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cô hiểu rất rõ những rủi ro tiềm ẩn trên những cung đường vắng và luôn duy trì sự cảnh giác cao độ trước những gã đàn ông xa lạ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-15",
+   "act": 1,
+   "start": 145.28,
+   "end": 155.44,
+   "role": "H",
+   "sentences": [
+    "1.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_blue_dodge_van_approaching",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Thế nhưng, tại thị trấn Red Bluff, bang California, bên xa lộ liên bang số năm, một chiếc xe van màu xanh lam bất ngờ dừng lại."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-16",
+   "act": 1,
+   "start": 155.44,
+   "end": 162.66,
+   "role": "H",
+   "sentences": [
+    "1.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_blue_dodge_van_approaching",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ngồi trên xe không phải một gã đàn ông khả nghi đơn độc, mà là một cặp vợ chồng trẻ trạc tuổi cô."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-17",
+   "act": 1,
+   "start": 162.66,
+   "end": 167.54,
+   "role": "H",
+   "sentences": [
+    "1.06#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_blue_dodge_van_approaching",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Người vợ trẻ mỉm cười thân thiện, trên tay bế ẵm một đứa con nhỏ thơ ngây."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-18",
+   "act": 1,
+   "start": 167.54,
+   "end": 178.1,
+   "role": "H",
+   "sentences": [
+    "1.06#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_innocent_family_facade",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bức tranh gia đình ấm áp và mẫu mực ấy đã tạo nên một “Hiệu ứng Hào quang” hoàn hảo, đánh sập toàn bộ bức tường phòng bị của cô gái trẻ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-19",
+   "act": 1,
+   "start": 178.1,
+   "end": 185.82,
+   "role": "H",
+   "sentences": [
+    "1.06#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_innocent_family_facade",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ai có thể nghi ngờ một người cha, người mẹ đang ôm con nhỏ lại là hiện thân của cạm bẫy đen tối?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-20",
+   "act": 1,
+   "start": 185.82,
+   "end": 195.72,
+   "role": "H",
+   "sentences": [
+    "1.06#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_stepping_into_abyss_trap",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Colleen mỉm cười bước lên xe mà không hề hay biết rằng, bước chân ấy đã đưa cô thẳng vào cánh cửa của một cơn ác mộng kéo dài hơn bảy năm."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N1"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-21",
+   "act": 1,
+   "start": 195.72,
+   "end": 201.78,
+   "role": "N1",
+   "sentences": [
+    "1.07#1"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_empty_birthday_table",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hãy hình dung tâm trạng của chúng tôi khi ngồi chờ Colleen ở bữa tiệc sinh nhật đêm hôm ấy."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-22",
+   "act": 1,
+   "start": 201.78,
+   "end": 209.4,
+   "role": "N1",
+   "sentences": [
+    "1.07#2"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_empty_birthday_table",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bánh sinh nhật đã thắp nến, bạn bè đã tề tựu đông đủ nhưng bóng dáng của cô ấy vẫn bặt vô âm tín."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-23",
+   "act": 1,
+   "start": 209.4,
+   "end": 216.9,
+   "role": "N1",
+   "sentences": [
+    "1.07#3"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_empty_birthday_table",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ban đầu, ai cũng tự an ủi rằng có thể Colleen chỉ bị lỡ một chuyến xe dọc đường hoặc đổi ý quay về nhà."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-24",
+   "act": 1,
+   "start": 216.9,
+   "end": 221.88,
+   "role": "N1",
+   "sentences": [
+    "1.07#4"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_missing_flyer_gas_station",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nhưng một ngày, rồi một tuần, rồi một tháng trôi qua trong nỗi tuyệt vọng câm lặng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-25",
+   "act": 1,
+   "start": 221.88,
+   "end": 232.1,
+   "role": "N1",
+   "sentences": [
+    "1.07#5"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_missing_flyer_gas_station",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Một con người bằng xương bằng thịt bỗng chốc như tan biến hoàn toàn khỏi mặt đất, để lại nỗi hoang mang tột cùng cho gia đình và bè bạn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-26",
+   "act": 1,
+   "start": 232.1,
+   "end": 240.1,
+   "role": "H",
+   "sentences": [
+    "1.09#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_red_bluff_pine_forest_road",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Không lâu sau khi xe lăn bánh, người tài xế đột ngột rẽ vào một con đường mòn hoang vắng trong cánh rừng hẻo lánh."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-27",
+   "act": 1,
+   "start": 240.1,
+   "end": 247.84,
+   "role": "H",
+   "sentences": [
+    "1.09#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_red_bluff_pine_forest_road",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Vỏ bọc ấm áp của người cha gia đình mẫu mực lập tức rơi rụng, để lộ ra gương mặt của một kẻ săn mồi lạnh lùng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-28",
+   "act": 1,
+   "start": 247.84,
+   "end": 255.96,
+   "role": "H",
+   "sentences": [
+    "1.09#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_stepping_into_abyss_trap",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn dùng hung khí khống chế Colleen, tước đoạt toàn bộ khả năng phản kháng và cô lập cô với thế giới bên ngoài."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-29",
+   "act": 1,
+   "start": 255.96,
+   "end": 265.56,
+   "role": "H",
+   "sentences": [
+    "1.09#4",
+    "1.09#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_knife_shadow_ambush",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bức màn đen tối chính thức buông xuống cuộc đời của cô gái trẻ."
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "Một cuộc giam cầm kỳ quặc bậc nhất bắt đầu được thiết lập từng bước một."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-30",
+   "act": 1,
+   "start": 265.56,
+   "end": 271.84,
+   "role": "D",
+   "sentences": [
+    "1.10#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_sawmill_lumber_yard_dusk",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Kẻ cầm lái là Cameron Hooker, hai mươi ba tuổi, làm việc tại một xưởng cưa địa phương ở Red Bluff."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-31",
+   "act": 1,
+   "start": 271.84,
+   "end": 279.52,
+   "role": "D",
+   "sentences": [
+    "1.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_knife_shadow_ambush",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ngay sau khi khống chế nạn nhân, Hooker đã bộc lộ một hành vi mang tính “Chữ ký tâm lý” vô cùng bệnh hoạn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-32",
+   "act": 1,
+   "start": 279.52,
+   "end": 286.2,
+   "role": "D",
+   "sentences": [
+    "1.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_soundproof_headbox_forensic",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn trùm lên đầu Colleen một chiếc hộp gỗ cách âm có lót mút xốp dày được chế tạo công phu từ trước."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-33",
+   "act": 1,
+   "start": 286.2,
+   "end": 292.54,
+   "role": "D",
+   "sentences": [
+    "1.10#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_soundproof_headbox_forensic",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chiếc hộp trùm đầu này nặng gần chín ký, cắt đứt hoàn toàn mọi ánh sáng và âm thanh của thế giới bên ngoài."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-34",
+   "act": 1,
+   "start": 292.54,
+   "end": 300.36,
+   "role": "D",
+   "sentences": [
+    "1.10#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_soundproof_headbox_forensic",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn thậm chí đã tính toán cẩn thận các khe thông khí nhỏ hẹp để nạn nhân không bị thiếu dưỡng khí nhưng hoàn toàn mất khả năng định hướng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-35",
+   "act": 1,
+   "start": 300.36,
+   "end": 305.94,
+   "role": "D",
+   "sentences": [
+    "1.10#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_soundproof_headbox_forensic",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Việc chế tạo chiếc hộp từ nhiều tháng trước chứng minh đây không phải một hành vi bộc phát nhất thời."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-36",
+   "act": 1,
+   "start": 305.94,
+   "end": 317.4,
+   "role": "D",
+   "sentences": [
+    "1.10#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_isolated_red_bluff_cabin",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đó là một kế hoạch săn mồi được toan tính tỉ mỉ, đánh dấu “Ngòi nổ và điểm gãy tâm lý” khi ảo tưởng thống trị chuyển hóa thành hành động thực tế."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-37",
+   "act": 1,
+   "start": 317.4,
+   "end": 322.52,
+   "role": "H",
+   "sentences": [
+    "1.11#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_isolated_red_bluff_cabin",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Colleen Stan bị đưa về một căn nhà gỗ biệt lập của hai vợ chồng Hooker tại Red Bluff."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-38",
+   "act": 1,
+   "start": 322.52,
+   "end": 331.4,
+   "role": "H",
+   "sentences": [
+    "1.11#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_wooden_box_under_bed_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Tại đây, cô bị nhốt vào một chiếc hộp gỗ hẹp đóng kín, đặt lọt thỏm dưới gầm giường ngủ của hai vợ chồng kẻ bắt cóc."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-39",
+   "act": 1,
+   "start": 331.4,
+   "end": 337.48,
+   "role": "H",
+   "sentences": [
+    "1.11#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_wooden_box_under_bed_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bảy năm đằng đẵng bị giam cầm trong bóng tối bắt đầu từ giây phút định mệnh ấy."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-40",
+   "act": 1,
+   "start": 337.48,
+   "end": 343.02,
+   "role": "H",
+   "sentences": [
+    "1.11#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_wooden_box_under_bed_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Một hành trình chịu đựng phi thường trước sự tước đoạt nhân phẩm chính thức mở ra."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-41",
+   "act": 1,
+   "start": 343.02,
+   "end": 348.64,
+   "role": "H",
+   "sentences": [
+    "1.11#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_tehama_superior_court_columns",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Dư chấn của vụ án này về sau đã làm rúng động toàn bộ nền tư pháp và xã hội hiện đại."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-42",
+   "act": 1,
+   "start": 348.64,
+   "end": 350.64,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 02"
+      ],
+      [
+       "bold",
+       "BẢY NĂM TRONG BÓNG TỐI"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "2-01",
+   "act": 2,
+   "start": 351.26,
+   "end": 355.42,
+   "role": "H",
+   "sentences": [
+    "2.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_coffin_box_claustrophobia",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hãy thử nhắm mắt lại và hình dung bạn bị nhốt chặt trong một chiếc hộp gỗ có kích thước tương đương một cỗ quan tài."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-02",
+   "act": 2,
+   "start": 355.42,
+   "end": 368.32,
+   "role": "H",
+   "sentences": [
+    "2.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_coffin_box_claustrophobia",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chiếc hộp dài chưa đầy hai mét và chiều cao chỉ vừa đủ để một cơ thể người nằm thẳng lưng mà không thể ngồi dậy."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-03",
+   "act": 2,
+   "start": 368.32,
+   "end": 375.38,
+   "role": "H",
+   "sentences": [
+    "2.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_stiff_hands_wooden_slats",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hoàn toàn không có ánh sáng mặt trời, không có dưỡng khí lưu thông tự nhiên, chỉ có mùi gỗ ván ép và bóng tối đặc quánh."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-04",
+   "act": 2,
+   "start": 375.38,
+   "end": 384.24,
+   "role": "H",
+   "sentences": [
+    "2.02#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_stiff_hands_wooden_slats",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Không gian chật chội đến mức ngay cả việc xoay mình hay co duỗi các khớp xương cũng trở thành một cực hình đau đớn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-05",
+   "act": 2,
+   "start": 384.24,
+   "end": 392.8,
+   "role": "H",
+   "sentences": [
+    "2.02#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_coffin_box_claustrophobia",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Mỗi hơi thở đều nặng trĩu bụi gỗ và cảm giác ngột ngạt như bị chôn sống từ từ trong một nấm mồ không tên."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-06",
+   "act": 2,
+   "start": 392.8,
+   "end": 403.38,
+   "role": "H",
+   "sentences": [
+    "2.02#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_coffin_box_claustrophobia",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đó chính là thực tại nghiệt ngã mà Colleen Stan phải gánh chịu suốt hai mươi ba giờ mỗi ngày, ròng rã hơn hai nghìn sáu trăm ngày liên tiếp."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-07",
+   "act": 2,
+   "start": 403.38,
+   "end": 410.92,
+   "role": "D",
+   "sentences": [
+    "2.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_heavy_iron_latches_padlock",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chiếc hộp gỗ giam giữ nạn nhân do chính Cameron Hooker tự tay thiết kế và cưa lắp bằng những tấm ván ép chịu lực dày dặn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-08",
+   "act": 2,
+   "start": 410.92,
+   "end": 417.12,
+   "role": "D",
+   "sentences": [
+    "2.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_waterbed_crushing_weight",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn giấu chiếc hộp này ngay bên dưới chiếc giường đệm nước cồng kềnh trong phòng ngủ của mình."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-09",
+   "act": 2,
+   "start": 417.12,
+   "end": 424.1,
+   "role": "D",
+   "sentences": [
+    "2.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_heavy_iron_latches_padlock",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Trọng lượng khổng lồ của đệm nước phía trên khiến việc nạn nhân tự đẩy nắp hộp từ bên trong là điều hoàn toàn bất khả thi."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-10",
+   "act": 2,
+   "start": 424.1,
+   "end": 433.46,
+   "role": "D",
+   "sentences": [
+    "2.04#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_heavy_iron_latches_padlock",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn thiết lập một cơ chế kiểm soát thể xác tuyệt đối: Colleen chỉ được phép rời khỏi hộp trong khoảng thời gian ngắn mỗi ngày để làm việc nhà dưới sự giám sát nghiêm ngặt."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-11",
+   "act": 2,
+   "start": 433.46,
+   "end": 440.44,
+   "role": "D",
+   "sentences": [
+    "2.04#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_one_hour_chores_silhouette",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Phân tích hành vi hiện trường cho thấy đây là biểu hiện điển hình của “Thủ đoạn gây án” kết hợp “Chữ ký tâm lý”."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-12",
+   "act": 2,
+   "start": 440.44,
+   "end": 446.24,
+   "role": "D",
+   "sentences": [
+    "2.04#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_heavy_iron_latches_padlock",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn biến không gian riêng tư của gia đình thành một nhà tù ngầm kiên cố không thể xuyên thủng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-13",
+   "act": 2,
+   "start": 446.24,
+   "end": 452.8,
+   "role": "H",
+   "sentences": [
+    "2.05#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_hooker_community_mask",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ở ngoài xã hội, Cameron Hooker không hề có biểu hiện của một kẻ điên loạn mất tự chủ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-14",
+   "act": 2,
+   "start": 452.8,
+   "end": 461.66,
+   "role": "H",
+   "sentences": [
+    "2.05#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_hooker_community_mask",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Trong mắt những người đồng nghiệp tại xưởng cưa và láng giềng xung quanh, hắn là một công nhân trầm lặng, cần mẫn và yêu thương gia đình."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-15",
+   "act": 2,
+   "start": 461.66,
+   "end": 466.92,
+   "role": "H",
+   "sentences": [
+    "2.05#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_hooker_community_mask",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn chưa từng có tiền án bạo lực nghiêm trọng nào trước khi vụ án bị phanh phui."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-16",
+   "act": 2,
+   "start": 466.92,
+   "end": 473.38,
+   "role": "H",
+   "sentences": [
+    "2.05#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_dark_dominance_psychopathy",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Thế nhưng, bên dưới vỏ bọc bình lặng ấy là một “Quỹ đạo leo thang của ảo tưởng” vô cùng nguy hiểm."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-17",
+   "act": 2,
+   "start": 473.38,
+   "end": 482.94,
+   "role": "H",
+   "sentences": [
+    "2.05#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_dark_dominance_psychopathy",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cơn đói quyền lực và ám ảnh bệnh hoạn về việc sở hữu trọn vẹn một sinh mạng khác đã âm ỉ thiêu đốt tâm trí hắn suốt nhiều năm."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-18",
+   "act": 2,
+   "start": 482.94,
+   "end": 491.5,
+   "role": "C",
+   "sentences": [
+    "2.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_sensory_deprivation_clock_melt",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Dưới góc độ tâm lý học hành vi, việc giam giữ một con người trong bóng tối và không gian hẹp suốt thời gian dài dẫn tới hiện tượng “Tước đoạt cảm giác cực hạn”."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-19",
+   "act": 2,
+   "start": 491.5,
+   "end": 499.06,
+   "role": "C",
+   "sentences": [
+    "2.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_sensory_deprivation_clock_melt",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Khi não bộ bị cô lập hoàn toàn khỏi các kích thích giác quan thông thường, khái niệm về thời gian và không gian sẽ hoàn toàn tan rã."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-20",
+   "act": 2,
+   "start": 499.06,
+   "end": 506.66,
+   "role": "C",
+   "sentences": [
+    "2.06#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_sensory_deprivation_clock_melt",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nạn nhân nhanh chóng mất phương hướng, không thể phân định đâu là ngày, đâu là đêm, đâu là thực tại và đâu là ảo giác."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-21",
+   "act": 2,
+   "start": 506.66,
+   "end": 510.32,
+   "role": "C",
+   "sentences": [
+    "2.06#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_sensory_deprivation_clock_melt",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Tình trạng kiệt quệ cảm giác này đánh sập hệ thống phòng vệ tâm lý tự nhiên của con người."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-22",
+   "act": 2,
+   "start": 510.32,
+   "end": 518.44,
+   "role": "C",
+   "sentences": [
+    "2.06#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_childhood_poems_faint_echo",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Trong trạng thái cô lập cực hạn ấy, những kích thích nhỏ nhất cũng có thể bị khuếch đại thành những cơn hoảng loạn dữ dội tột cùng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-23",
+   "act": 2,
+   "start": 518.44,
+   "end": 523.62,
+   "role": "C",
+   "sentences": [
+    "2.06#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_childhood_poems_faint_echo",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đồng thời, nó phản ánh cơ chế “Vật hóa và Phi nhân hóa” nạn nhân ở mức độ tàn bạo nhất."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-24",
+   "act": 2,
+   "start": 523.62,
+   "end": 530.1,
+   "role": "C",
+   "sentences": [
+    "2.06#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_sensory_deprivation_clock_melt",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hung thủ mang khuyết tật nghiêm trọng về “Thuyết tâm trí” và thiếu hụt hoàn toàn khả năng thấu cảm."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-25",
+   "act": 2,
+   "start": 530.1,
+   "end": 539.24,
+   "role": "C",
+   "sentences": [
+    "2.06#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_childhood_poems_faint_echo",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn không nhìn nhận Colleen như một con người có tri giác và nỗi đau, mà giáng cấp cô thành một món đồ chơi độc quyền phục vụ cơn khoái cảm quyền lực của mình."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-26",
+   "act": 2,
+   "start": 539.24,
+   "end": 547.54,
+   "role": "H",
+   "sentences": [
+    "2.07#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_the_company_shadow_syndicate",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Sự giam cầm về thể xác dù tàn khốc đến đâu cũng mới chỉ là một nửa chiếc bẫy mà Cameron Hooker tạo ra."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-27",
+   "act": 2,
+   "start": 547.54,
+   "end": 557.72,
+   "role": "H",
+   "sentences": [
+    "2.07#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_invisible_timber_prison_mind",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Để biến Colleen thành một tù nhân ngoan ngoãn vĩnh viễn mà không bao giờ dám khởi phát ý định trốn chạy, hắn đã dệt nên một chiếc lồng giam tâm lý vô hình."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-28",
+   "act": 2,
+   "start": 557.72,
+   "end": 561.84,
+   "role": "H",
+   "sentences": [
+    "2.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_the_company_shadow_syndicate",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Một bóng ma thao túng tinh vi mang tên “The Company”."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-29",
+   "act": 2,
+   "start": 561.84,
+   "end": 571.1,
+   "role": "H",
+   "sentences": [
+    "2.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_window_sniper_paranoia_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đó là một đòn thao túng tâm lý bậc thầy nhằm biến nỗi sợ hãi mơ hồ thành xiềng xích vĩnh cửu."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-30",
+   "act": 2,
+   "start": 571.1,
+   "end": 577.32,
+   "role": "D",
+   "sentences": [
+    "2.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_the_company_shadow_syndicate",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hooker thêu dệt nên một câu chuyện giả tưởng có quy mô toàn quốc về một tổ chức tội phạm ngầm bí ẩn mang tên “The Company”."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-31",
+   "act": 2,
+   "start": 577.32,
+   "end": 590.32,
+   "role": "D",
+   "sentences": [
+    "2.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_the_company_shadow_syndicate",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn tuyên bố với Colleen rằng tổ chức này có hàng nghìn đặc vụ ngầm cài cắm ở khắp mọi nơi, từ lực lượng cảnh sát cho đến các cơ quan chính quyền bang California."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-32",
+   "act": 2,
+   "start": 590.32,
+   "end": 596.38,
+   "role": "D",
+   "sentences": [
+    "2.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_the_company_shadow_syndicate",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn đe dọa rằng mọi nhất cử nhất động của cô đều nằm dưới tầm ngắm của các đặc vụ vô hình."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-33",
+   "act": 2,
+   "start": 596.38,
+   "end": 611.02,
+   "role": "D",
+   "sentences": [
+    "2.08#4",
+    "2.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_family_home_under_surveillance",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nếu cô tìm cách trốn chạy hoặc hé lộ sự thật với bất kỳ ai, tổ chức sẽ lập tức săn lùng và trừng phạt cả gia đình cha mẹ cô."
+      ]
+     ]
+    },
+    {
+     "at_sentence": 5,
+     "elems": [
+      [
+       "ital",
+       "Đỉnh điểm của sự kiểm soát tâm lý diễn ra vào tháng 1 năm 1978."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-34",
+   "act": 2,
+   "start": 611.02,
+   "end": 618.94,
+   "role": "D",
+   "sentences": [
+    "2.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_written_slave_contract_quill",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bản hợp đồng được soạn thảo với những điều khoản pháp lý giả mạo tinh vi, đánh tráo khái niệm tội ác thành sự cam kết phục tùng tự nguyện."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-35",
+   "act": 2,
+   "start": 618.94,
+   "end": 627.82,
+   "role": "D",
+   "sentences": [
+    "2.08#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_written_slave_contract_quill",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hooker đã ép Colleen ký vào một “Bản hợp đồng nô lệ” bằng văn bản, buộc cô từ bỏ mọi quyền công dân để cam kết phục tùng hắn tuyệt đối."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-36",
+   "act": 2,
+   "start": 627.82,
+   "end": 637.96,
+   "role": "H",
+   "sentences": [
+    "2.09#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_written_slave_contract_quill",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đối với một cô gái trẻ bị cắt đứt hoàn toàn với thực tại bên ngoài, bản hợp đồng quái đản ấy không chỉ là một tờ giấy vô nghĩa."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-37",
+   "act": 2,
+   "start": 637.96,
+   "end": 644.16,
+   "role": "H",
+   "sentences": [
+    "2.09#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_written_slave_contract_quill",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nó trở thành một bản án tâm lý khóa chặt tâm trí cô vào một lời thề nguyền bắt buộc."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-38",
+   "act": 2,
+   "start": 644.16,
+   "end": 652.26,
+   "role": "H",
+   "sentences": [
+    "2.09#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_window_sniper_paranoia_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nỗi sợ hãi đối với tổ chức “The Company” đã trở thành một thực tại thép kiên cố hơn bất kỳ chấn song nhà tù nào."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-39",
+   "act": 2,
+   "start": 652.26,
+   "end": 659.52,
+   "role": "H",
+   "sentences": [
+    "2.09#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_second_victim_shadow_threat",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cô tin tuyệt đối rằng mọi sự phản kháng đều sẽ dẫn tới sự hủy diệt của những người thân yêu nhất."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-40",
+   "act": 2,
+   "start": 659.52,
+   "end": 664.44,
+   "role": "C",
+   "sentences": [
+    "2.10#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_darkness_as_false_shelter",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đây là một ví dụ điển hình về “Sự kiến tạo thực tại méo mó” thông qua cô lập thông tin."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-41",
+   "act": 2,
+   "start": 664.44,
+   "end": 671.82,
+   "role": "C",
+   "sentences": [
+    "2.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_darkness_as_false_shelter",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bằng cách gieo rắc một kẻ thù tưởng tượng mang sức mạnh toàn năng, kẻ thao túng đã tước đoạt triệt để hy vọng cầu cứu của nạn nhân."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-42",
+   "act": 2,
+   "start": 671.82,
+   "end": 676.3,
+   "role": "C",
+   "sentences": [
+    "2.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_darkness_as_false_shelter",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nạn nhân không còn dám tin tưởng vào bất kỳ ai, kể cả lực lượng thực thi pháp luật."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-43",
+   "act": 2,
+   "start": 676.3,
+   "end": 683.98,
+   "role": "C",
+   "sentences": [
+    "2.10#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_childhood_poems_faint_echo",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nỗi sợ hãi mơ hồ về một thế lực vô hình luôn có sức tàn phá tâm lý lớn hơn gấp bội so với những chấn song sắt hữu hình."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-44",
+   "act": 2,
+   "start": 683.98,
+   "end": 692.58,
+   "role": "C",
+   "sentences": [
+    "2.10#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_sensory_deprivation_clock_melt",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Trong nhận thức bị thao túng của cô, chiếc hộp gỗ dù ngột ngạt và tăm tối lại biến thành nơi an toàn duy nhất để giữ cho gia đình mình được bình yên."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-45",
+   "act": 2,
+   "start": 692.58,
+   "end": 699.74,
+   "role": "C",
+   "sentences": [
+    "2.10#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_darkness_as_false_shelter",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bản thân kẻ thủ ác lại được nhìn nhận như người trung gian duy nhất có thể bảo vệ cô khỏi sự trừng phạt của tổ chức ngầm."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-46",
+   "act": 2,
+   "start": 699.74,
+   "end": 704.28,
+   "role": "H",
+   "sentences": [
+    "2.11#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_clock_hands_seven_years",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Năm tháng cứ thế lặng lẽ trôi qua trong căn phòng ngủ u tối ở Red Bluff."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-47",
+   "act": 2,
+   "start": 704.28,
+   "end": 709.74,
+   "role": "H",
+   "sentences": [
+    "2.11#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_clock_hands_seven_years",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chiếc hộp gỗ dưới gầm giường trở thành trung tâm của một thế giới bị lãng quên."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-48",
+   "act": 2,
+   "start": 709.74,
+   "end": 718.32,
+   "role": "H",
+   "sentences": [
+    "2.11#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_wooden_box_under_bed_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cho đến một ngày nọ, một biến cố không tưởng xảy ra, làm đảo lộn toàn bộ nhận thức thông thường về tâm lý nạn nhân bắt cóc."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-49",
+   "act": 2,
+   "start": 718.32,
+   "end": 720.32,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 03"
+      ],
+      [
+       "bold",
+       "NGHỊCH LÝ NGÀY VỀ & BẤT LỰC TẬP NHIỄM"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "3-01",
+   "act": 3,
+   "start": 722.38,
+   "end": 732.46,
+   "role": "H",
+   "sentences": [
+    "3.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_riverside_california_bungalow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Vào năm 1981, gần bốn năm sau ngày biến mất không dấu vết, một sự kiện khó tin bậc nhất đã diễn ra trong hồ sơ vụ án."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-02",
+   "act": 3,
+   "start": 732.46,
+   "end": 743.02,
+   "role": "H",
+   "sentences": [
+    "3.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_riverside_california_bungalow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cameron Hooker tự tin vào quyền lực thao túng tâm lý của mình đến mức, hắn quyết định đưa Colleen Stan về thăm gia đình ruột thịt tại Riverside, California."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-03",
+   "act": 3,
+   "start": 743.02,
+   "end": 750.7,
+   "role": "H",
+   "sentences": [
+    "3.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_front_door_unbelievable_return",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cánh cửa tự do thực sự đã mở toang ngay trước mắt người phụ nữ sau nhiều năm trời bị giam cầm trong bóng tối."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-04",
+   "act": 3,
+   "start": 750.7,
+   "end": 759.72,
+   "role": "H",
+   "sentences": [
+    "3.02#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_riverside_california_bungalow",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nhưng diễn biến của cuộc hội ngộ ấy lại trở thành một câu hỏi hóc búa làm bàng hoàng toàn bộ giới tâm lý học pháp y."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-05",
+   "act": 3,
+   "start": 759.72,
+   "end": 763.74,
+   "role": "H",
+   "sentences": [
+    "3.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_front_door_unbelievable_return",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hãy tưởng tượng khoảnh khắc cánh cửa ngôi nhà cũ tại Riverside mở ra."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-06",
+   "act": 3,
+   "start": 763.74,
+   "end": 775.88,
+   "role": "H",
+   "sentences": [
+    "3.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_front_door_unbelievable_return",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Người cha, người mẹ từng khóc cạn nước mắt và tưởng như đã mất đi đứa con gái mãi mãi bỗng nhìn thấy Colleen bằng xương bằng thịt đứng ngay trước bậc thềm."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-07",
+   "act": 3,
+   "start": 775.88,
+   "end": 782.02,
+   "role": "H",
+   "sentences": [
+    "3.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_tense_family_dinner_shadows",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nhưng cô gái ngày nào giờ đây mang theo một ánh nhìn xa xăm, dè dặt và đầy e sợ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-08",
+   "act": 3,
+   "start": 782.02,
+   "end": 790.9,
+   "role": "H",
+   "sentences": [
+    "3.04#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_polite_boyfriend_facade",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ngày hôm sau, Cameron Hooker cũng xuất hiện tại ngôi nhà, đóng vai một người bạn trai lịch thiệp và ân cần của cô."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-09",
+   "act": 3,
+   "start": 790.9,
+   "end": 795.66,
+   "role": "D",
+   "sentences": [
+    "3.05#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_bathroom_mirror_downcast_eyes",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hồ sơ thẩm tra xác nhận chuyến thăm nhà kéo dài trong sự hòa nhã kỳ lạ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-10",
+   "act": 3,
+   "start": 795.66,
+   "end": 804.16,
+   "role": "D",
+   "sentences": [
+    "3.05#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_bathroom_mirror_downcast_eyes",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Trong suốt khoảng thời gian ở nhà cha mẹ, Colleen đã có nhiều thời điểm ở một mình với người thân mà hoàn toàn không có sự hiện diện của Hooker."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-11",
+   "act": 3,
+   "start": 804.16,
+   "end": 810.02,
+   "role": "D",
+   "sentences": [
+    "3.05#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_bathroom_mirror_downcast_eyes",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Điện thoại nằm ngay trong tầm tay, gia đình ở ngay bên cạnh, và cảnh sát luôn sẵn sàng can thiệp."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-12",
+   "act": 3,
+   "start": 810.02,
+   "end": 816.0,
+   "role": "D",
+   "sentences": [
+    "3.05#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_father_concerned_inquiry",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Thế nhưng, cô tuyệt đối không hề hé răng nói nửa lời về chiếc hộp gỗ hay hoàn cảnh giam cầm của mình."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-13",
+   "act": 3,
+   "start": 816.0,
+   "end": 824.42,
+   "role": "D",
+   "sentences": [
+    "3.05#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_father_concerned_inquiry",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Người cha nhận thấy sự thay đổi bất thường ở con gái nhưng vì quá vui mừng trước ngày đoàn tụ nên đã không gặng hỏi sâu hơn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-14",
+   "act": 3,
+   "start": 824.42,
+   "end": 833.16,
+   "role": "D",
+   "sentences": [
+    "3.05#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_packed_suitcase_return_car",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Khi chuyến thăm kết thúc, cô lặng lẽ thu dọn hành lý, ngoan ngoãn bước lên xe cùng kẻ bắt cóc để quay trở lại căn nhà gỗ tại Red Bluff."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-15",
+   "act": 3,
+   "start": 833.16,
+   "end": 839.62,
+   "role": "D",
+   "sentences": [
+    "3.05#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_bathroom_mirror_downcast_eyes",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nghịch lý khó hiểu này đã từng khiến các điều tra viên ban đầu vô cùng bối rối trước hành vi của nạn nhân."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-16",
+   "act": 3,
+   "start": 839.62,
+   "end": 844.92,
+   "role": "H",
+   "sentences": [
+    "3.06#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_open_door_paradox_dilemma",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Tại sao một con người lại không bỏ chạy khi cánh cửa lồng giam đã hoàn toàn mở toang?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-17",
+   "act": 3,
+   "start": 844.92,
+   "end": 854.18,
+   "role": "H",
+   "sentences": [
+    "3.06#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_open_door_paradox_dilemma",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Tại sao một nạn nhân lại tự nguyện quay trở lại với chính chiếc hộp gỗ đã tước đoạt tuổi thanh xuân của mình?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-18",
+   "act": 3,
+   "start": 854.18,
+   "end": 859.66,
+   "role": "H",
+   "sentences": [
+    "3.06#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_open_door_paradox_dilemma",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Phải chăng tâm trí con người có thể bị nô dịch đến mức tự khóa chặt bản thân vào bóng tối?"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-19",
+   "act": 3,
+   "start": 859.66,
+   "end": 869.4,
+   "role": "H",
+   "sentences": [
+    "3.06#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_open_door_paradox_dilemma",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Lời giải đáp cho nghịch lý này không nằm ở sự đồng thuận, mà ẩn chứa trong những quy luật sâu sắc của khoa học tâm lý hành vi."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-20",
+   "act": 3,
+   "start": 869.4,
+   "end": 878.22,
+   "role": "C",
+   "sentences": [
+    "3.07#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_martin_seligman_learned_helplessness",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chìa khóa giải mã hiện tượng này chính là học thuyết kinh điển “Sự Bất Lực Tập Nhiễm”, hay “Learned Helplessness”, do Giáo sư Martin Seligman phát hiện."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-21",
+   "act": 3,
+   "start": 878.22,
+   "end": 888.9,
+   "role": "C",
+   "sentences": [
+    "3.07#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_martin_seligman_learned_helplessness",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Trong các nghiên cứu của mình, Seligman chỉ ra rằng: khi một sinh thể phải chịu đựng đau đớn kéo dài mà mọi nỗ lực phản kháng ban đầu đều vô hiệu, hệ thần kinh sẽ tự động học cách từ bỏ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-22",
+   "act": 3,
+   "start": 888.9,
+   "end": 895.88,
+   "role": "C",
+   "sentences": [
+    "3.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_open_cage_motionless_silhouette",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Não bộ thiết lập một niềm tin tuyệt đối rằng số phận là bất khả kháng và không có hành động nào có thể thay đổi được thực tại."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-23",
+   "act": 3,
+   "start": 895.88,
+   "end": 903.86,
+   "role": "C",
+   "sentences": [
+    "3.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_open_cage_motionless_silhouette",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đến khi lối thoát thực sự mở ra ngay trước mắt, sinh thể ấy vẫn tê liệt ý chí và không còn khả năng chủ động bước qua ranh giới tự do."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-24",
+   "act": 3,
+   "start": 903.86,
+   "end": 910.9,
+   "role": "C",
+   "sentences": [
+    "3.07#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_martin_seligman_learned_helplessness",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Khi ý niệm về sự bất lực đã ăn sâu vào tiềm thức, nạn nhân sẽ tự động từ chối mọi cơ hội tự cứu lấy chính mình."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-25",
+   "act": 3,
+   "start": 910.9,
+   "end": 918.92,
+   "role": "C",
+   "sentences": [
+    "3.07#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_the_company_shadow_syndicate",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đối với Colleen, chuyến về thăm nhà thực chất bị cô nhìn nhận như một “Bài kiểm tra lòng trung thành” đầy cạm bẫy của tổ chức “The Company”."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-26",
+   "act": 3,
+   "start": 918.92,
+   "end": 925.96,
+   "role": "C",
+   "sentences": [
+    "3.07#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_window_sniper_paranoia_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cô tin rằng chỉ một lời kêu cứu sơ sẩy, các đặc vụ ngầm sẽ trừng phạt và hủy hoại cả gia đình cha mẹ cô ngay tức khắc."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-27",
+   "act": 3,
+   "start": 925.96,
+   "end": 933.02,
+   "role": "C",
+   "sentences": [
+    "3.07#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_wooden_box_under_bed_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Việc im lặng và quay trở lại chiếc hộp gỗ chính là hành động hy sinh cao nhất để bảo vệ tính mạng cho những người thân yêu."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-28",
+   "act": 3,
+   "start": 933.02,
+   "end": 945.58,
+   "role": "H",
+   "sentences": [
+    "3.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_window_sniper_paranoia_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cùng với sự bất lực tập nhiễm, một cơ chế tâm lý thứ hai đã giam giữ Colleen suốt những năm tháng ấy chính là “Gắn kết Chấn thương cực đoan”, hay “Trauma Bonding”."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-29",
+   "act": 3,
+   "start": 945.58,
+   "end": 953.22,
+   "role": "H",
+   "sentences": [
+    "3.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_window_sniper_paranoia_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Khái niệm được Tiến sĩ Patrick Carnes đúc kết nhằm lý giải sự gắn kết nghịch lý giữa nạn nhân và kẻ thao túng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-30",
+   "act": 3,
+   "start": 953.22,
+   "end": 963.66,
+   "role": "H",
+   "sentences": [
+    "3.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_window_sniper_paranoia_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cameron Hooker đã vận dụng một chu kỳ thao túng tinh vi: đan cài giữa sự trừng phạt khắc nghiệt và những ân huệ nhỏ giọt bất ngờ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-31",
+   "act": 3,
+   "start": 963.66,
+   "end": 971.58,
+   "role": "H",
+   "sentences": [
+    "3.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_window_sniper_paranoia_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn thỉnh thoảng cho cô ra ngoài hít thở không khí, tặng cô một món quà nhỏ hoặc ban phát những lời khen ngợi khi cô phục tùng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-32",
+   "act": 3,
+   "start": 971.58,
+   "end": 983.82,
+   "role": "H",
+   "sentences": [
+    "3.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_trauma_bonding_bread_and_whip",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Trong đáy sâu cùng cực của sự tước đoạt, những ân huệ nhỏ nhoi ấy biến kẻ giam cầm trở thành “Vị cứu tinh” duy nhất mà nạn nhân bám víu để tồn tại."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-33",
+   "act": 3,
+   "start": 983.82,
+   "end": 991.36,
+   "role": "C",
+   "sentences": [
+    "3.09#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_trauma_bonding_bread_and_whip",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Về phía kẻ thủ ác Cameron Hooker, hắn vận dụng hoàn hảo cơ chế “Chia ngăn nhận thức”, hay “Compartmentalization”."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-34",
+   "act": 3,
+   "start": 991.36,
+   "end": 997.06,
+   "role": "C",
+   "sentences": [
+    "3.09#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_hooker_community_mask",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bộ não tội phạm của hắn phân chia thành hai ngăn kéo hoàn toàn độc lập và không bao giờ giao thoa."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-35",
+   "act": 3,
+   "start": 997.06,
+   "end": 1003.9,
+   "role": "C",
+   "sentences": [
+    "3.09#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_hooker_community_mask",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ngăn kéo thứ nhất là cuộc sống thường nhật của một người chồng, người cha gương mẫu, một người thợ mộc mẫn cán trong cộng đồng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-36",
+   "act": 3,
+   "start": 1003.9,
+   "end": 1010.16,
+   "role": "C",
+   "sentences": [
+    "3.09#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_trauma_bonding_bread_and_whip",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ngăn kéo thứ hai là thế giới bóng tối dưới gầm giường, nơi hắn thỏa mãn cơn nghiện quyền lực bệnh hoạn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-37",
+   "act": 3,
+   "start": 1010.16,
+   "end": 1017.36,
+   "role": "C",
+   "sentences": [
+    "3.09#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_captor_as_sole_savior_complex",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Sự chia ngăn hoàn hảo ấy cho phép hắn thản nhiên tham dự các buổi sinh hoạt cộng đồng mà không hề cảm thấy chút cắn rứt tội lỗi nào."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-38",
+   "act": 3,
+   "start": 1017.36,
+   "end": 1024.46,
+   "role": "C",
+   "sentences": [
+    "3.09#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_captor_as_sole_savior_complex",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn dùng chính người vợ Janice và đứa con nhỏ như một “Lá chắn bình thường hóa” để tự ru ngủ lương tâm của bản thân."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-39",
+   "act": 3,
+   "start": 1024.46,
+   "end": 1032.14,
+   "role": "C",
+   "sentences": [
+    "3.09#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_dark_dominance_psychopathy",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đồng thời, hắn áp dụng lý thuyết “Kỹ thuật Trung hòa Đạo đức” của Sykes và Matza để tự bào chữa."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-40",
+   "act": 3,
+   "start": 1032.14,
+   "end": 1039.66,
+   "role": "C",
+   "sentences": [
+    "3.09#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_written_slave_contract_quill",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn tự huyễn hoặc rằng bản hợp đồng năm xưa là sự tự nguyện của Colleen, và cô ở lại vì muốn thuộc về thế giới của hắn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-41",
+   "act": 3,
+   "start": 1039.66,
+   "end": 1050.14,
+   "role": "H",
+   "sentences": [
+    "3.10#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_invisible_timber_prison_mind",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chiếc lồng giam xây bằng sự bất lực tập nhiễm và nỗi sợ hãi tâm lý quả thực còn kiên cố hơn ngàn lần những tấm ván ép dưới gầm giường."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-42",
+   "act": 3,
+   "start": 1050.14,
+   "end": 1058.04,
+   "role": "H",
+   "sentences": [
+    "3.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_invisible_timber_prison_mind",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Colleen Stan đã sống trong chiếc lồng giam vô hình ấy suốt bảy năm dài đằng đẵng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-43",
+   "act": 3,
+   "start": 1058.04,
+   "end": 1064.02,
+   "role": "H",
+   "sentences": [
+    "3.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_invisible_timber_prison_mind",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nhưng bóng tối dẫu có dày đặc đến đâu cũng không thể ngăn được những vết nứt của sự thật bắt đầu xuất hiện ngay từ bên trong căn nhà."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-44",
+   "act": 3,
+   "start": 1064.02,
+   "end": 1066.02,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 04"
+      ],
+      [
+       "bold",
+       "RẠN NỨT LỒNG GIAM & GIẢI CỨU NGẦM"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "4-01",
+   "act": 4,
+   "start": 1066.6,
+   "end": 1074.84,
+   "role": "H",
+   "sentences": [
+    "4.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_seventh_year_toddler_toys_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bước sang năm 1984, Colleen Stan đã trải qua năm thứ bảy trong thân phận của một tù nhân vô hình."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-02",
+   "act": 4,
+   "start": 1074.84,
+   "end": 1081.56,
+   "role": "H",
+   "sentences": [
+    "4.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_seventh_year_toddler_toys_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Lúc này, cô được phép rời khỏi chiếc hộp gỗ nhiều hơn và phụ trách việc chăm sóc con cái trong gia đình Hooker."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-03",
+   "act": 4,
+   "start": 1081.56,
+   "end": 1091.32,
+   "role": "H",
+   "sentences": [
+    "4.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_seventh_year_toddler_toys_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Dù không còn bị khóa chặt trong hộp mỗi ngày, xiềng xích tâm lý về tổ chức “The Company” vẫn kiểm soát hoàn toàn ý chí của cô."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-04",
+   "act": 4,
+   "start": 1091.32,
+   "end": 1098.78,
+   "role": "H",
+   "sentences": [
+    "4.02#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_dark_dominance_psychopathy",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cameron Hooker ngày càng tự mãn và tin rằng quyền lực thống trị của mình đã đạt tới mức tuyệt đối không thể lay chuyển."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-05",
+   "act": 4,
+   "start": 1098.78,
+   "end": 1110.4,
+   "role": "H",
+   "sentences": [
+    "4.02#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_second_victim_shadow_threat",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Thế nhưng, sự kiêu ngạo quá mức ấy đã đẩy hắn tới một điểm gãy tâm lý mới, làm bùng phát vết rạn nứt ngay trong chính mái ấm gia đình của mình."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-06",
+   "act": 4,
+   "start": 1110.4,
+   "end": 1118.52,
+   "role": "D",
+   "sentences": [
+    "4.03#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_janice_hooker_moral_turmoil",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Người làm lung lay bức tường kiên cố ấy không ai khác chính là Janice Hooker, người vợ kiêm đồng phạm của Cameron."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-07",
+   "act": 4,
+   "start": 1118.52,
+   "end": 1127.5,
+   "role": "D",
+   "sentences": [
+    "4.03#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_janice_hooker_moral_turmoil",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Janice quen biết Cameron từ năm mười lăm tuổi và bản thân cô cũng từng là nạn nhân bị hắn thao túng và kiểm soát tâm lý suốt nhiều năm."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-08",
+   "act": 4,
+   "start": 1127.5,
+   "end": 1137.22,
+   "role": "D",
+   "sentences": [
+    "4.03#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_janice_hooker_moral_turmoil",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Tuy nhiên, khi Cameron bắt đầu bộc lộ tham vọng muốn bắt cóc thêm một cô gái thứ hai để mở rộng thế giới nô lệ bệnh hoạn, Janice rơi vào hoảng loạn cực độ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-09",
+   "act": 4,
+   "start": 1137.22,
+   "end": 1144.74,
+   "role": "D",
+   "sentences": [
+    "4.03#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_janice_hooker_moral_turmoil",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bản năng bảo vệ con cái của một người mẹ đã trở thành động lực mạnh mẽ nhất thôi thúc cô tìm kiếm sự thức tỉnh lương tâm."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-10",
+   "act": 4,
+   "start": 1144.74,
+   "end": 1152.52,
+   "role": "D",
+   "sentences": [
+    "4.03#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_second_victim_shadow_threat",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nỗi sợ hãi tội ác leo thang và gánh nặng tội lỗi đè nặng suốt bảy năm đã đánh sập cơ chế phòng vệ tâm lý của cô."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-11",
+   "act": 4,
+   "start": 1152.52,
+   "end": 1159.48,
+   "role": "D",
+   "sentences": [
+    "4.03#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_church_pastor_confession_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Janice đã tìm đến một vị mục sư địa phương để trút bỏ gánh nặng lương tâm và tìm kiếm sự cứu rỗi."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-12",
+   "act": 4,
+   "start": 1159.48,
+   "end": 1167.76,
+   "role": "H",
+   "sentences": [
+    "4.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_second_victim_shadow_threat",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Vị mục sư đã khuyên Janice phải đối diện với sự thật và chấm dứt ngay lập tức hành vi đồng lõa trước khi quá muộn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-13",
+   "act": 4,
+   "start": 1167.76,
+   "end": 1175.62,
+   "role": "H",
+   "sentences": [
+    "4.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_second_victim_shadow_threat",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Giọt nước tràn ly vào đầu tháng 8 năm 1984, khi Cameron vắng nhà."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-14",
+   "act": 4,
+   "start": 1175.62,
+   "end": 1186.46,
+   "role": "H",
+   "sentences": [
+    "4.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_second_victim_shadow_threat",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Janice nhận ra rằng nếu tiếp tục im lặng, không chỉ Colleen mà chính tương lai của những đứa con thơ của cô cũng sẽ bị chôn vùi trong vực thẳm tội ác."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-15",
+   "act": 4,
+   "start": 1186.46,
+   "end": 1192.84,
+   "role": "H",
+   "sentences": [
+    "4.04#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_church_pastor_confession_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cô quyết định thực hiện một hành động dũng cảm làm thay đổi hoàn toàn cục diện vụ án."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N2"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-16",
+   "act": 4,
+   "start": 1192.84,
+   "end": 1201.82,
+   "role": "N2",
+   "sentences": [
+    "4.05#1"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_church_pastor_confession_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hãy hình dung sự giằng xé nát tâm can của một người phụ nữ đã sống trong nỗi sợ hãi người chồng suốt cả thời tuổi trẻ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-17",
+   "act": 4,
+   "start": 1201.82,
+   "end": 1209.4,
+   "role": "N2",
+   "sentences": [
+    "4.05#2"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_church_pastor_confession_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Tôi đã im lặng, đã tiếp tay và đã trở thành một phần của tội ác khủng khiếp ấy suốt bảy năm trời."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-18",
+   "act": 4,
+   "start": 1209.4,
+   "end": 1215.84,
+   "role": "N2",
+   "sentences": [
+    "4.05#3"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_wooden_box_under_bed_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Mỗi ngày nhìn thấy cô gái ấy trong bóng tối, lương tâm tôi như bị hàng ngàn mũi dao cào xé."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-19",
+   "act": 4,
+   "start": 1215.84,
+   "end": 1221.48,
+   "role": "N2",
+   "sentences": [
+    "4.05#4"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_church_pastor_confession_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đến giây phút ấy, tôi hiểu rằng mình không thể hèn nhát thêm một giây phút nào nữa."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-20",
+   "act": 4,
+   "start": 1221.48,
+   "end": 1234.02,
+   "role": "N2",
+   "sentences": [
+    "4.05#5"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_church_pastor_confession_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Tôi nắm lấy tay Colleen và nói sự thật: “Cameron không hề thuộc về tổ chức The Company nào cả, tất cả chỉ là lời dối trá của anh ta để giam cầm cô.”"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-21",
+   "act": 4,
+   "start": 1234.02,
+   "end": 1244.32,
+   "role": "H",
+   "sentences": [
+    "4.07#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_red_bluff_bus_depot_departure",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Câu nói giản đơn ấy như một tiếng sét đánh tan hoàn toàn chiếc lồng giam vô hình đã khóa chặt Colleen Stan suốt hai nghìn sáu trăm ba mươi chín ngày."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-22",
+   "act": 4,
+   "start": 1244.32,
+   "end": 1251.94,
+   "role": "H",
+   "sentences": [
+    "4.07#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_red_bluff_bus_depot_departure",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bức tường sợ hãi về tổ chức “The Company” sụp đổ trong tích tắc, trả lại cho cô ý chí sinh tồn nguyên bản."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-23",
+   "act": 4,
+   "start": 1251.94,
+   "end": 1260.36,
+   "role": "H",
+   "sentences": [
+    "4.07#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_red_bluff_bus_depot_departure",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ngày 9 tháng 8 năm 1984, Colleen nhanh chóng thu dọn đồ đạc và chạy thẳng ra bến xe buýt thị trấn Red Bluff."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-24",
+   "act": 4,
+   "start": 1260.36,
+   "end": 1269.44,
+   "role": "H",
+   "sentences": [
+    "4.07#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_august_escape_car_morning_dust",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đó là những bước chạy gấp gáp của một con người đang dồn hết chút tàn lực cuối cùng để giành lại quyền được sống như một con người."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-25",
+   "act": 4,
+   "start": 1269.44,
+   "end": 1277.64,
+   "role": "H",
+   "sentences": [
+    "4.07#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_truth_revealed_shattered_phantom",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cô gọi điện báo cho Hooker rằng cô sẽ vĩnh viễn không quay trở lại, rồi bước lên chuyến xe buýt trở về vòng tay gia đình."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-26",
+   "act": 4,
+   "start": 1277.64,
+   "end": 1284.14,
+   "role": "H",
+   "sentences": [
+    "4.07#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_red_bluff_bus_depot_departure",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chiếc hộp gỗ dưới gầm giường chính thức vỡ vụn, khép lại bảy năm địa ngục tăm tối."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-27",
+   "act": 4,
+   "start": 1284.14,
+   "end": 1295.12,
+   "role": "D",
+   "sentences": [
+    "4.08#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_tehama_county_sheriff_station",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Sau khi Colleen an toàn trở về nhà, gần ba tháng sau, vào tháng 11 năm 1984, Janice Hooker đã chính thức bước vào đồn cảnh sát đầu thú."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-28",
+   "act": 4,
+   "start": 1295.12,
+   "end": 1305.76,
+   "role": "D",
+   "sentences": [
+    "4.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_immunity_agreement_document",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Để đổi lấy sự thật toàn diện về bảy năm giam giữ và lời khai chống lại chồng, cơ quan công tố bang California đã ký thỏa thuận miễn trừ truy tố đối với Janice."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-29",
+   "act": 4,
+   "start": 1305.76,
+   "end": 1315.96,
+   "role": "D",
+   "sentences": [
+    "4.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_forensic_search_evidence_seizure",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cảnh sát Hạt Tehama lập tức đột kích căn nhà gỗ tại Red Bluff, thu giữ chiếc hộp giam giữ dưới gầm giường và chiếc hộp trùm đầu làm vật chứng lịch sử."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-30",
+   "act": 4,
+   "start": 1315.96,
+   "end": 1322.34,
+   "role": "D",
+   "sentences": [
+    "4.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_forensic_search_evidence_seizure",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cameron Hooker bị bắt giữ ngay tại chỗ trong sự ngỡ ngàng của toàn bộ cộng đồng địa phương."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-31",
+   "act": 4,
+   "start": 1322.34,
+   "end": 1332.1,
+   "role": "C",
+   "sentences": [
+    "4.09#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_tehama_superior_court_columns",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Tại phiên tòa xét xử lịch sử diễn ra vào năm 1985 tại Tòa án Thượng thẩm Hạt Tehama, Cameron Hooker vẫn bộc lộ bản chất ái kỷ trơ trẽn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-32",
+   "act": 4,
+   "start": 1332.1,
+   "end": 1340.12,
+   "role": "C",
+   "sentences": [
+    "4.09#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_tehama_superior_court_columns",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn kiên quyết không nhận tội, ngang nhiên lập luận rằng Colleen tự nguyện ở lại căn nhà và bản hợp đồng năm xưa là sự đồng thuận giữa hai bên."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-33",
+   "act": 4,
+   "start": 1340.12,
+   "end": 1346.44,
+   "role": "C",
+   "sentences": [
+    "4.09#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_frank_ochberg_psychiatric_testimony",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Trước những lý lẽ ngụy biện ấy, Tiến sĩ tâm lý học pháp y Chris Hatcher đã ra làm chứng trước bồi thẩm đoàn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-34",
+   "act": 4,
+   "start": 1346.44,
+   "end": 1354.84,
+   "role": "C",
+   "sentences": [
+    "4.09#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_unmasking_predator_broken_facade",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Tiến sĩ Hatcher đã chỉ ra rằng trạng thái phục tùng của nạn nhân thực chất là một chiến lược thích nghi sinh tồn thụ động được tôi luyện trong sợ hãi cực hạn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-35",
+   "act": 4,
+   "start": 1354.84,
+   "end": 1364.14,
+   "role": "C",
+   "sentences": [
+    "4.09#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_tehama_superior_court_columns",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Lời khai chuyên môn của ông đã giải phẫu cơ chế “Tẩy não và Kiểm soát cưỡng ép”, giúp bồi thẩm đoàn hiểu rõ tại sao một nạn nhân lại bị tê liệt ý chí phản kháng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-36",
+   "act": 4,
+   "start": 1364.14,
+   "end": 1369.54,
+   "role": "C",
+   "sentences": [
+    "4.09#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_unmasking_predator_broken_facade",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bức màn ngụy biện về sự tự nguyện hoàn toàn bị bóc trần trước ánh sáng công lý."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-37",
+   "act": 4,
+   "start": 1369.54,
+   "end": 1378.22,
+   "role": "H",
+   "sentences": [
+    "4.10#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_104_years_sentence_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Trước những bằng chứng đanh thép và lời khai rành mạch của hai người phụ nữ, Thẩm phán Clarence Knight đã tuyên mức án nghiêm khắc nhất."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-38",
+   "act": 4,
+   "start": 1378.22,
+   "end": 1386.98,
+   "role": "H",
+   "sentences": [
+    "4.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_104_years_sentence_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cameron Hooker bị kết án tổng cộng một trăm lẻ bốn năm tù giam cho hàng loạt tội danh bắt cóc và hủy hoại nhân phẩm."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-39",
+   "act": 4,
+   "start": 1386.98,
+   "end": 1397.04,
+   "role": "H",
+   "sentences": [
+    "4.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_104_years_sentence_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Khi tiếng búa tòa vang lên, kẻ săn mồi hoàn toàn rơi vào trạng thái “Sự sụp đổ cái tôi ái kỷ” và “Tự thương hại bệnh lý”."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-40",
+   "act": 4,
+   "start": 1397.04,
+   "end": 1406.18,
+   "role": "H",
+   "sentences": [
+    "4.10#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_california_state_prison_bars_closing",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hắn không hề khóc thương cho bảy năm thanh xuân bị đánh cắp của nạn nhân, mà chỉ tiếc nuối cho quyền lực và tự do đã vĩnh viễn tiêu tan của chính mình."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-41",
+   "act": 4,
+   "start": 1406.18,
+   "end": 1412.88,
+   "role": "H",
+   "sentences": [
+    "4.10#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_104_years_sentence_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bản án thế kỷ đã giáng xuống đầu kẻ thủ ác như một sự phán quyết thích đáng của luật pháp."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-42",
+   "act": 4,
+   "start": 1412.88,
+   "end": 1414.88,
+   "role": null,
+   "sentences": [],
+   "template": "T10",
+   "variant": "",
+   "bg": "void",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "HỒI 05"
+      ],
+      [
+       "bold",
+       "ÁNH SÁNG SAU BẢY NĂM ĐỊA NGỤC"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  },
+  {
+   "id": "5-01",
+   "act": 5,
+   "start": 1415.36,
+   "end": 1424.4,
+   "role": "H",
+   "sentences": [
+    "5.02#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_healing_journey_morning_light",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bản án một trăm lẻ bốn năm tù dành cho Cameron Hooker đã khép lại một chương tăm tối trong biên niên sử tư pháp nước Mỹ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-02",
+   "act": 5,
+   "start": 1424.4,
+   "end": 1433.98,
+   "role": "H",
+   "sentences": [
+    "5.02#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_healing_journey_morning_light",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Thế nhưng, đối với Colleen Stan, cuộc chiến cam go nhất để giành lại chính mình khỏi bóng ma của chiếc hộp gỗ dưới gầm giường mới thực sự bắt đầu."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-03",
+   "act": 5,
+   "start": 1433.98,
+   "end": 1443.76,
+   "role": "H",
+   "sentences": [
+    "5.02#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_healing_journey_morning_light",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nhiều nạn nhân sau những chấn thương tâm lý cực hạn thường rơi vào trầm cảm kinh niên hoặc đánh mất vĩnh viễn niềm tin vào đồng loại."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-04",
+   "act": 5,
+   "start": 1443.76,
+   "end": 1450.0,
+   "role": "H",
+   "sentences": [
+    "5.02#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_darkness_as_false_shelter",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Họ có thể tự giam mình trong chiếc hộp gỗ vô hình của sự ám ảnh suốt phần đời còn lại."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-05",
+   "act": 5,
+   "start": 1450.0,
+   "end": 1458.84,
+   "role": "H",
+   "sentences": [
+    "5.02#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_simple_gifts_of_life_memoir",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Thế nhưng, Colleen Stan đã viết nên một trong những thiên sử thi chữa lành kỳ diệu nhất làm rung động hàng triệu trái tim trên khắp thế giới."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-06",
+   "act": 5,
+   "start": 1458.84,
+   "end": 1465.76,
+   "role": "H",
+   "sentences": [
+    "5.02#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_post_traumatic_growth_sprout_stone",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bằng một nghị lực phi thường, cô từng bước nhặt nhạnh lại những mảnh vỡ tâm hồn sau bảy năm tăm tối."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-07",
+   "act": 5,
+   "start": 1465.76,
+   "end": 1473.18,
+   "role": "H",
+   "sentences": [
+    "5.02#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_warm_family_breakfast_table",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cô kiên trì từng ngày để học lại cách tin tưởng thế giới bên ngoài và đón nhận tình yêu thương của những người xung quanh."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-08",
+   "act": 5,
+   "start": 1473.18,
+   "end": 1484.82,
+   "role": "H",
+   "sentences": [
+    "5.02#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_accounting_degree_diploma",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cô nỗ lực theo học đại học ngành kế toán, lập gia đình, sinh con và tích cực tham gia các hoạt động thiện nguyện hỗ trợ những người phụ nữ từng là nạn nhân bạo lực."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "C"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-09",
+   "act": 5,
+   "start": 1484.82,
+   "end": 1497.1,
+   "role": "C",
+   "sentences": [
+    "5.03#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_post_traumatic_growth_sprout_stone",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hành trình hồi sinh của Colleen Stan là minh chứng sống động nhất cho khái niệm “Tăng trưởng Sau Sang chấn”, hay “Post-Traumatic Growth”, được phát triển bởi các nhà tâm lý học Richard Tedeschi và Lawrence Calhoun."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-10",
+   "act": 5,
+   "start": 1497.1,
+   "end": 1508.82,
+   "role": "C",
+   "sentences": [
+    "5.03#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_post_traumatic_growth_sprout_stone",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Khái niệm này khẳng định rằng: con người khi trải qua những thảm kịch khắc nghiệt nhất, nếu tìm thấy điểm tựa ý nghĩa sống và tình yêu thương, họ không chỉ phục hồi mà còn phát triển một tầng sâu sức mạnh nội tâm phi thường."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-11",
+   "act": 5,
+   "start": 1508.82,
+   "end": 1517.38,
+   "role": "C",
+   "sentences": [
+    "5.03#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_post_traumatic_growth_sprout_stone",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Colleen đã duy trì được nhân tính của mình ngay trong chiếc hộp gỗ nhờ vào trí tưởng tượng phong phú, hồi tưởng về gia đình và niềm tin tâm linh vững chắc."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-12",
+   "act": 5,
+   "start": 1517.38,
+   "end": 1523.88,
+   "role": "C",
+   "sentences": [
+    "5.03#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_healing_journey_morning_light",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Sự kiên cường phi thường ấy đã biến một nạn nhân bị giam cầm thành một biểu tượng bất diệt của sức mạnh phục hồi tinh thần con người."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-13",
+   "act": 5,
+   "start": 1523.88,
+   "end": 1533.9,
+   "role": "C",
+   "sentences": [
+    "5.03#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_post_traumatic_growth_sprout_stone",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cô từng tâm sự rằng quá trình chữa lành không phải là cố gắng xóa bỏ quá khứ đau thương, mà là học cách sống hòa bình với những vết sẹo và biến chúng thành sức mạnh để bước tiếp."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-14",
+   "act": 5,
+   "start": 1533.9,
+   "end": 1542.78,
+   "role": "C",
+   "sentences": [
+    "5.03#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_simple_gifts_of_life_memoir",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Câu chuyện của cô được ghi lại trọn vẹn trong cuốn sách “The Simple Gifts of Life”, trở thành ngọn hải đăng hy vọng cho biết bao tâm hồn đang chìm trong bế tắc."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "D"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-15",
+   "act": 5,
+   "start": 1542.78,
+   "end": 1552.2,
+   "role": "D",
+   "sentences": [
+    "5.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_fbi_academy_profiling_archive",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Về mặt tư pháp và xã hội, hồ sơ vụ án Colleen Stan đã tạo nên một bước ngoặt lịch sử trong nhận thức của các cơ quan thực thi pháp luật quốc tế."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-16",
+   "act": 5,
+   "start": 1552.2,
+   "end": 1559.34,
+   "role": "D",
+   "sentences": [
+    "5.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_fbi_academy_profiling_archive",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Vụ án đặt nền móng quan trọng cho các đạo luật hiện đại về “Kiểm soát cưỡng ép” và “Bạo lực tâm lý phi thể xác”."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-17",
+   "act": 5,
+   "start": 1559.34,
+   "end": 1569.92,
+   "role": "D",
+   "sentences": [
+    "5.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_invisible_timber_prison_mind",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nó cảnh tỉnh toàn xã hội rằng: có những chiếc lồng giam không hề dùng tới chấn song sắt, mà được xây bằng sự thao túng, nỗi sợ hãi và sự cô lập thông tin tinh vi."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-18",
+   "act": 5,
+   "start": 1569.92,
+   "end": 1581.1,
+   "role": "D",
+   "sentences": [
+    "5.04#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_tehama_superior_court_columns",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Các phiên điều trần xét ân xá của Cameron Hooker trong nhiều năm sau đó đều liên tục bị bác bỏ, khẳng định sự nghiêm minh không khoan nhượng của công lý đối với tội ác kiểm soát con người."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-19",
+   "act": 5,
+   "start": 1581.1,
+   "end": 1597.72,
+   "role": "H",
+   "sentences": [
+    "5.05#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_redflag1_trojan_innocence_trap",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Để bảo vệ chính mình và những người thân yêu trước những kẻ săn mồi tâm lý độc hại"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "kênh Amber eyes xin đúc kết bốn bài học cảnh báo đỏ sinh tồn từ tấn bi kịch lịch sử này theo nguyên lý “The Gift of Fear” của Gavin de Becker."
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "kênh Amber eyes xin đúc"
+   ],
+   "beat_text": "ở \"kênh Amber eyes xin đúc\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-20",
+   "act": 5,
+   "start": 1597.72,
+   "end": 1605.12,
+   "role": "H",
+   "sentences": [
+    "5.05#2"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "t10_redflag1_trojan_innocence_trap",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "01"
+      ],
+      [
+       "bold",
+       "DẤU HIỆU THỨ NHẤT: CẢNH GIÁC TRƯỚC “HIỆU ỨNG HÀO QUANG” VÀ NHỮNG VỎ BỌC VÔ HẠI HOÀN HẢO."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-21",
+   "act": 5,
+   "start": 1605.12,
+   "end": 1620.3,
+   "role": "H",
+   "sentences": [
+    "5.05#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_redflag1_trojan_innocence_trap",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Kẻ săn mồi tâm lý nguy hiểm nhất thường không xuất hiện với vẻ ngoài hung tợn, mà ẩn mình sau hình ảnh một gia đình ấm áp, một đứa trẻ thơ ngây hoặc một cử chỉ tử tế dồn dập nhằm đánh sập bức tường phòng ngự tự nhiên của bạn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-22",
+   "act": 5,
+   "start": 1620.3,
+   "end": 1626.42,
+   "role": "H",
+   "sentences": [
+    "5.05#4"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "t10_redflag2_spatial_isolation_grid",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "02"
+      ],
+      [
+       "bold",
+       "DẤU HIỆU THỨ HAI: NHẬN DIỆN THỦ THUẬT CÔ LẬP KHÔNG GIAN VÀ TƯỚC ĐOẠT THÔNG TIN."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-23",
+   "act": 5,
+   "start": 1626.42,
+   "end": 1638.94,
+   "role": "H",
+   "sentences": [
+    "5.05#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_redflag2_spatial_isolation_grid",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Mọi mối quan hệ độc hại thao túng đều bắt đầu bằng việc tìm cách cắt đứt mối liên kết giữa bạn với người thân, bạn bè và thế giới bên ngoài, nhằm biến kẻ thao túng thành nguồn chân lý duy nhất."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-24",
+   "act": 5,
+   "start": 1638.94,
+   "end": 1646.56,
+   "role": "H",
+   "sentences": [
+    "5.05#6"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "t10_redflag3_phantom_enemy_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "03"
+      ],
+      [
+       "bold",
+       "DẤU HIỆU THỨ BA: TỈNH TÁO TRƯỚC NHỮNG “KẺ THÙ TƯỞNG TƯỢNG” VÀ MỐI ĐE DỌA VÔ HÌNH."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-25",
+   "act": 5,
+   "start": 1646.56,
+   "end": 1658.3,
+   "role": "H",
+   "sentences": [
+    "5.05#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_redflag3_phantom_enemy_mirror",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Kẻ thao túng luôn tìm cách thêu dệt nên những bóng ma bên ngoài để gieo rắc nỗi sợ hãi tê liệt, biến bản thân chúng thành chiếc khiên bảo vệ duy nhất mà bạn buộc phải phục tùng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-26",
+   "act": 5,
+   "start": 1658.3,
+   "end": 1664.44,
+   "role": "H",
+   "sentences": [
+    "5.05#8"
+   ],
+   "template": "T8",
+   "variant": "flags",
+   "bg": "t10_redflag4_breaking_helplessness_sparks",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "04"
+      ],
+      [
+       "bold",
+       "DẤU HIỆU THỨ TƯ: PHÁ VỠ “SỰ BẤT LỰC TẬP NHIỄM” TRONG SUY NGHĨ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-27",
+   "act": 5,
+   "start": 1664.44,
+   "end": 1673.56,
+   "role": "H",
+   "sentences": [
+    "5.05#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_redflag4_breaking_helplessness_sparks",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đừng bao giờ đánh giá thấp những tín hiệu cảnh báo thầm kín mà cơ thể và tiềm thức gửi đến bạn trong những khoảnh khắc bất an."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-28",
+   "act": 5,
+   "start": 1673.56,
+   "end": 1683.84,
+   "role": "H",
+   "sentences": [
+    "5.05#10"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_redflag4_breaking_helplessness_sparks",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Lồng giam kiên cố nhất không phải là chiếc hộp bằng gỗ dưới gầm giường, mà là ý nghĩ buông xuôi rằng bản thân hoàn toàn bất lực trước nghịch cảnh."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-29",
+   "act": 5,
+   "start": 1683.84,
+   "end": 1693.72,
+   "role": "H",
+   "sentences": [
+    "5.05#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_redflag4_breaking_helplessness_sparks",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hãy luôn lắng nghe tiếng nói trực giác bất an bên trong bạn, bởi trực giác chính là món quà sinh tồn nguyên thủy bảo vệ con người trước hiểm nguy."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-30",
+   "act": 5,
+   "start": 1693.72,
+   "end": 1704.52,
+   "role": "H",
+   "sentences": [
+    "5.05#12"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_breaking_invisible_chains_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Tự do đích thực không chỉ là bước đôi chân ra khỏi một căn phòng tối, mà là sự dũng cảm phá tan những xiềng xích thao túng đang giam hãm tâm trí của chính mình."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-31",
+   "act": 5,
+   "start": 1704.52,
+   "end": 1710.18,
+   "role": "H",
+   "sentences": [
+    "5.05#13"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_warm_family_breakfast_table",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cảm ơn quý vị đã đồng hành cùng Amber eyes trong tập hồ sơ giải phẫu tâm lý đặc biệt ngày hôm nay."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-32",
+   "act": 5,
+   "start": 1710.18,
+   "end": 1718.54,
+   "role": "H",
+   "sentences": [
+    "5.05#14"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_breaking_invisible_chains_dawn",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hãy nhấn đăng ký kênh, bật chuông thông báo và chia sẻ góc nhìn sâu sắc của quý vị ở phần bình luận bên dưới."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-33",
+   "act": 5,
+   "start": 1718.54,
+   "end": 1726.37,
+   "role": "H",
+   "sentences": [
+    "5.05#15"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_amber_eyes_closing_dossier_colleen",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-34",
+   "act": 5,
+   "start": 1726.37,
+   "end": 1733.37,
+   "role": null,
+   "sentences": [],
+   "template": "T2",
+   "variant": "",
+   "bg": "t10_amber_eyes_closing_dossier_colleen",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "bold",
+       "HỒ SƠ TẬP 10 · ĐÃ ĐÓNG"
+      ],
+      [
+       "ital",
+       "AMBER EYES · Phân tích tâm lý tội phạm qua những hồ sơ có thật"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": true,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dip"
+  }
+ ]
+}

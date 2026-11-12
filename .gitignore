@@ -68,7 +68,9 @@ __pycache__/
 # KHONG commit: file van con tren dia, chi bo theo doi git.
 # Tap sinh lai: .work/_make_stills_sheets_by_act_tXX.py, .work/_make_qc_tXX.py
 02_SAN_XUAT/**/contact_sheet*.png
+02_SAN_XUAT/**/contact_sheet*.jpg
 02_SAN_XUAT/**/qc_*.png
+02_SAN_XUAT/**/qc_*.jpg
 # Thu muc QC trich frame thu cong (soi mo ta vs video): .work/_qc_frames/ + xuat_ban/_qc_frames/
 02_SAN_XUAT/**/_qc_frames/
 # Contact sheet ghep anh tinh theo hoi (Tap04 VN/EN/JA): 36 file PNG ~85,5 MB

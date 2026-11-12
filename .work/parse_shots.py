@@ -129,7 +129,13 @@ def main():
     # contiguous: each shot lasts until the next starts; holds inherit bg/template
     for i, s in enumerate(shots):
         if i + 1 < len(shots):
-            s["end"] = shots[i + 1]["start"]
+            nxt = shots[i + 1]
+            if s.get("template") == "T10" and nxt.get("template") != "T10":
+                # Thẻ hồi GIỮ thời lượng riêng (2 s) ⇒ shot sau lùi lại nếu cần, liền mạch không tạo khoảng trống
+                nxt["start"] = max(nxt["start"], s["end"])
+                s["end"] = nxt["start"]
+            else:
+                s["end"] = nxt["start"]
         if s["hold"] and i > 0:
             p = shots[i - 1]
             s.update({k: p[k] for k in ("bg", "bg2", "template", "variant", "segments", "camera")})
@@ -139,6 +145,10 @@ def main():
             s["bg_inherited"] = True
         if s["bg"] is None:
             raise SystemExit(f"thiếu nền cho {s['id']}")
+    # an toàn: không shot nào có thời lượng <= 0
+    for s in shots:
+        if s["end"] <= s["start"]:
+            s["end"] = round(s["start"] + 0.3, 3)
     ED.w("shots.json").write_text(json.dumps({"total": TL["total"], "shots": shots},
                                                 ensure_ascii=False, indent=1), encoding="utf-8")
     print(len(shots), "shot · dài nhất",

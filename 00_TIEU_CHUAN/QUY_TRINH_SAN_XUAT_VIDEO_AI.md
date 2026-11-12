@@ -121,6 +121,7 @@ flowchart TD
     ```
 *   Negative Prompt bắt buộc: `no text, no letters, no numbers, no signs, no logos, no watermark, no border`. Nhân vật người thật chỉ là `silhouette, face completely hidden in deep shadow`.
 *   Hậu kỳ xén viền đen và inpaint xóa chữ bằng `fix_backgrounds.py`.
+*   **Nền dùng chung cho mọi ngôn ngữ** — sinh 1 lần mỗi tập, tên file không có hậu tố ngôn ngữ, chữ do Pillow vẽ lúc dựng. Sau khi lập bảng shot mọi ngôn ngữ: `py -3 .work/qc_bg_shared.py --ep XX` phải ĐẠT (AGENTS H17, tiêu chuẩn A8.1).
 
 #### Bước 8: Lập bảng shot kế hoạch hình ảnh
 *   Viết bảng shot vào Mục 6 của hồ sơ tập `02_SAN_XUAT/TapXX/KeHoach_Video_TapXX.md`.

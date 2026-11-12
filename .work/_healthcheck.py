@@ -19,7 +19,7 @@ NEG = (" Strictly no text, no letters, no words, no numbers, no signs, no labels
 
 PROMPT = STYLE + "A plain empty wooden crate sitting on a bare metal shelf in a dim storeroom, one cold shaft of light, deep shadow, nobody present." + NEG
 
-req = {"prompt": PROMPT, "aspect_ratio": "16:9", "resolution": "2K", "output_file": "healthcheck_tmp"}
+req = {"prompt": PROMPT, "aspect_ratio": "16:9", "area": "2K", "output_file": "healthcheck_tmp"}
 af = LOG / "probe_health.json"
 af.write_text(json.dumps({"requests": [req]}, ensure_ascii=False), encoding="utf-8")
 try:

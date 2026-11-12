@@ -21,12 +21,15 @@
 | YouTube US Classification | Education · Not for kids · "Altered or synthetic content" · Self-certification: Forensic & criminological psychology analysis |
 
 > **⚠ REBUILD 09/11/2026 — kịch bản đã viết lại (07/11/2026, 219 câu / 50 element).**
-> Bảng shot (mục 6) và timeline (`.work/timeline_s_EN_t07.json`, 219 câu · **27:23**) đã dựng lại
+> Bảng shot (mục 6) và timeline (`.work/timeline_s_EN_t07.json`, 219 câu · **27:19**) đã dựng lại
 > theo kịch bản mới; lớp chữ trên hình = **nguyên văn câu kịch bản** của shot (219/219 câu).
 > Các số liệu audio trong bảng B1 (master 1086.8 s · CER · MOS) là của bản kịch bản CŨ (164 câu)
 > và đã được upload/dọn — **cần dựng lại master khi làm video**. Timeline hiện là **ước lượng**
 > (theo RATE ký tự/s của timeline cũ) ⇒ thời lượng shot trong bảng là số tạm.
 > Ảnh tĩnh 3 ngôn ngữ (223 ảnh/ngôn ngữ): `.work/video3_t07/stills` · `.work/video3_EN_t07/stills` · `.work/video3_JA_t07/stills`.
+> **H9**: `text_scrim` 65 shot (đo thật, hợp 3 ngôn ngữ) — sau khi áp: **0 shot** vượt ngưỡng (max 6,6% EN).
+> **H12**: `OUTRO` 10 s → **6 s** ⇒ end card (`5-37`) sáng rõ (max 250 · 25,0% pixel sáng).
+> Thẻ giới thiệu nhân vật đặt cao + có nền tối ⇒ hết chữ đè chữ; hồi quy Tập 01: hash không đổi.
 
 ---
 
@@ -297,6 +300,6 @@ Place `assets/brand/intro_kenh.mov` at 0.00 s (A5.7). No spoken line belongs to 
 | 5-34 | `5.04#15` (5.6 s) | H | T1 | `t7_open_truck_door_fresh_air`, `pan` | *In the United States and internationally, call or text the 988 Crisis Lifeline for immediate support.* | — | — |  |
 | 5-35 | `5.04#16` (5.7 s) | H | T1 | `t7_open_truck_door_fresh_air`, `pull` | *Have the courage to reach out and seek support from those who truly cherish you in the physical world.* | — | — |  |
 | 5-36 | `5.04#17`–`#18` (7.5 s) | H | T1 | `t7_redflag2_manipulative_text_provocation`, `still` | *Episode 07 is hereby officially concluded.* → *Thank you for listening to and supporting the deep behavioral insights of Amber Eyes.* | — | — |  |
-| 5-37 | hết tập (10 s) | — | T1 | `t7_closing_dossier_white_rose`, `pull` | **CASE FILE 07 · CLOSED** · *AMBER EYES · Criminal psychology through real case files* | — | ⊘ | ◼ |
+| 5-37 | hết tập (7,5 s) | — | T1 | `t7_closing_dossier_white_rose`, `pull` | **CASE FILE 07 · CLOSED** · *AMBER EYES · Criminal psychology through real case files* | — | ⊘ | ◼ |
 
 **Tổng:** 223 shot · 219 câu · 31 element lời (5 hồi) · nền dùng 62 loại. Rebuilt 09/11/2026 for the rewritten script of 07/11/2026 (219 câu). Shot durations are **estimated** (no new audio master yet).

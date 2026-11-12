@@ -2027,12 +2027,17 @@ def draw_characters(fr, t, fi, shot):
             fr.alpha_composite(with_alpha(img, k), (48 - (sz[0] - 420) // 2, H - sz[1]))
 
             # first-appearance card
+            # 09/11/2026 (Tập 07): vị trí mặc định (490, H-250) TRÙNG khối chữ
+            # T1 ở đáy khung ⇒ chữ "HOST" đè lên câu đầu. Cho phép đặt vị trí riêng
+            # theo tập qua `EPISODES[..]["intro_card_pos"]`; tập không khai ⇒ giữ
+            # nguyên vị trí cũ (hồi quy Tập 01: hash ảnh tĩnh không đổi).
+            if turn_start is not None and abs(turn_start - FIRST_TURN.get(role, -99)) < 0.01 and t <= turn_start + (4.0 if ED.EP.get("intro_card_hold") is None else ED.EP["intro_card_hold"] + 0.4):
 
-            if turn_start is not None and abs(turn_start - FIRST_TURN.get(role, -99)) < 0.01 and t <= turn_start + 4.0:
+                kk = min(ease((t - turn_start) / 0.35), 1 - ease((t - turn_start - (3.6 if ED.EP.get("intro_card_hold") is None else ED.EP["intro_card_hold"])) / 0.4))
 
-                kk = min(ease((t - turn_start) / 0.35), 1 - ease((t - turn_start - 3.6) / 0.4))
+                cx, cy = ED.EP.get("intro_card_pos") or (490, H - 250)
 
-                fr.alpha_composite(with_alpha(intro_card(role), kk), (490, H - 250))
+                fr.alpha_composite(with_alpha(intro_card(role), kk), (cx, cy))
 
             break
 
@@ -2085,7 +2090,15 @@ def intro_card(role):
     ImageDraw.Draw(bar).rectangle([0, 0, 5, img.height], fill=ROLE_COLOR[role] + (255,))
 
     bar.alpha_composite(img, (22, 0))
-
+    if ED.EP.get("intro_card_panel"):
+        # 09/11/2026 (Tập 07): thẻ giới thiệu đặt cao ⇒ nền có thể sáng
+        # ⇒ thêm nền tối + viền màu vai để chữ luôn đọc được (H9).
+        pan = Image.new("RGBA", (bar.width + 26, bar.height + 18), (0, 0, 0, 0))
+        ImageDraw.Draw(pan).rounded_rectangle(
+            [0, 0, pan.width - 1, pan.height - 1], radius=16,
+            fill=C["slate"] + (248,), outline=ROLE_COLOR[role] + (170,), width=2)
+        pan.alpha_composite(bar, (13, 9))
+        return pan
     return bar
 
 
@@ -2115,6 +2128,12 @@ def shot_at(t):
     for i, s in enumerate(SH):
 
         if s["start"] <= t < s["end"]:
+
+            return i
+
+    for i in range(len(SH) - 1):
+
+        if SH[i]["end"] <= t < SH[i + 1]["start"]:
 
             return i
 
@@ -2339,6 +2358,20 @@ def main():
                 s = by_id[token]
 
                 t_sec = (s["start"] + s["end"]) / 2
+
+                # Shot nhiều đoạn: chụp giữa shot có thể rơi đúng vào lúc đoạn sau
+
+                # đang "mờ dần" (fade-in 0,35 s) ⇒ chữ đoạn sau bị mờ trong ảnh tĩnh.
+
+                # Chụp SAU khi đoạn cuối đã hiện xong để ảnh có ĐỦ chữ.
+
+                _ts = seg_times(s)
+
+                if len(_ts) > 1:
+
+                    t_all = max(_ts) + 0.6
+
+                    t_sec = min(max(t_sec, t_all), s["end"] - 0.15)
 
                 name = f"shot_{token}.png"
 

@@ -7,7 +7,7 @@
 | Tên tập | **Tập 07: Bản Án Giết Người Bằng Tin Nhắn** |
 | Vụ án | Michelle Carter và Conrad Roy (Fairhaven / Plainville, Massachusetts, 2014–2017) |
 | Chủ đề | Thao túng tâm lý kỹ thuật số, Hội chứng Münchausen qua mạng, Trách nhiệm hình sự từ xa |
-| Tổng thời lượng | **30:47** (ước lượng — timeline tạm, chưa có audio master bản mới) · 5 hồi · **219 câu thoại** |
+| Tổng thời lượng | **30:43** (ước lượng — timeline tạm, chưa có audio master bản mới) · 5 hồi · **219 câu thoại** |
 | Diễn viên / Giọng | Host (Cú) · Sói (Điều tra viên Scott Gordon) · Cáo (Chuyên gia tâm lý) · N1 (Bà Lynn Roy) · N2 (Samantha Boardman) |
 | Bộ ảnh nền | 61 ảnh 16:9 2K (`assets/bg/t7_*.png`), phong cách Dark graphic novel noir |
 | Âm thanh | Stereo 3 lớp: BGM theo hồi + Ambience môi trường liên tục + SFX tiếng động (`.work/sfx_tap07.json`) |
@@ -21,11 +21,14 @@
 - [x] Cấu hình `edition.py` đã hiệu chỉnh `act1_cue: 1.03`, `silence_cue: 2.11`, BGM H3 `bgm_cello_sad.mp3`.
 
 > **⚠ DỰNG LẠI 09/11/2026 — kịch bản đã viết lại (07/11/2026, 219 câu / 50 element).**
-> Bảng shot (mục 6) và timeline (`.work/timeline_s_t07.json` · 219 câu · **30:47**) đã dựng lại theo
+> Bảng shot (mục 6) và timeline (`.work/timeline_s_t07.json` · 219 câu · **30:43**) đã dựng lại theo
 > kịch bản mới; lớp chữ trên hình = **nguyên văn câu kịch bản** của shot (219/219 câu).
 > Timeline là **tạm** (ước lượng theo RATE ký tự/s của timeline cũ — chưa có audio master bản mới);
 > thời lượng shot trong bảng là số ước lượng, cần đo lại khi dựng video.
 > Ảnh tĩnh 3 ngôn ngữ (223 ảnh/ngôn ngữ): `.work/video3_t07/stills` · `.work/video3_EN_t07/stills` · `.work/video3_JA_t07/stills`.
+> **H9**: `text_scrim` 65 shot (đo thật bằng `_t07_scan_contrast.py`, ngưỡng >8% nét chữ bị chìm; hợp 3 ngôn ngữ) — sau khi áp: **0 shot** vượt ngưỡng ở cả 3 bản (max 6,7% / 6,6% / 7,8%).
+> **H12**: `OUTRO` 10 s → **6 s** ⇒ thẻ kết (shot `5-37`) dài 7,5 s ⇒ ảnh tĩnh chụp ở giữa shot **không còn bị fade đen** (max 249 · 25,2% pixel sáng).
+> Thẻ giới thiệu nhân vật (first-appearance card) đặt lên cao + có nền tối (`edition.py`: `intro_card_pos` / `intro_card_panel` / `intro_card_hold`) ⇒ hết chữ đè chữ ở `1-01` / `1-22` / `1-32`; hồi quy Tập 01: hash ảnh tĩnh **không đổi**.
 
 ## 6. DANH SÁCH SHOT — TẬP 07 (viết theo A7)
 
@@ -283,7 +286,7 @@ Cột cuối: trống = hoà tan · `✂` cắt · `◼` tối đen.
 | 5-34 | `5.04#15` (8,1 s) | H | T1 | `t7_open_truck_door_fresh_air`, `pan` | *Tại Hoa Kỳ và quốc tế, hãy liên hệ ngay Đường dây nóng Khủng hoảng và Ngăn ngừa Tự hại 988 để được hỗ trợ kịp thời.* | — | — |  |
 | 5-35 | `5.04#16` (6,9 s) | H | T1 | `t7_open_truck_door_fresh_air`, `pull` | *Hãy dũng cảm chia sẻ và tìm kiếm sự trợ giúp từ những người thực sự yêu thương bạn ngoài đời thực.* | — | — |  |
 | 5-36 | `5.04#17`–`#18` (10,0 s) | H | T1 | `t7_redflag2_manipulative_text_provocation`, `still` | *Hồ sơ Tập 07 xin được chính thức khép lại tại đây.* → *Cảm ơn quý vị đã luôn đồng hành và lắng nghe những phân tích chuyên sâu của Amber Eyes.* | — | — |  |
-| 5-37 | hết tập (10 s) | — | T1 | `t7_closing_dossier_white_rose`, `pull` | **HỒ SƠ TẬP 07 · ĐÃ ĐÓNG** · *AMBER EYES · Phân tích tâm lý tội phạm qua những hồ sơ có thật* | — | ⊘ | ◼ |
+| 5-37 | hết tập (7,5 s) | — | T1 | `t7_closing_dossier_white_rose`, `pull` | **HỒ SƠ TẬP 07 · ĐÃ ĐÓNG** · *AMBER EYES · Phân tích tâm lý tội phạm qua những hồ sơ có thật* | — | ⊘ | ◼ |
 
 **Tổng:** 223 shot · 219 câu · 31 element lời (5 hồi) · nền dùng 62 loại. Bảng dựng lại 09/11/2026 theo kịch bản viết lại 07/11/2026 (219 câu). Thời lượng shot là **ước lượng** (chưa có audio master bản mới).
 ---

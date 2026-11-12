@@ -3,7 +3,8 @@
 """Generate 16:9 backgrounds with connector__matrix__generate_image.
 
 usage: py -3 .work/gen_images.py <jobs.json> [--only name1,name2]
-jobs.json: [{"name": "house_night", "prompt": "...", "ref": "assets/bg/x.png"?}]
+jobs.json: [{"name": "house_night", "prompt": "...", "ref": "assets/bg/x.png"?,
+             "caption_space": true?}]  (caption_space: thu nghiem, mac dinh tat — A8.1 muc 3)
 
 For each job: call the connector (batches of 4), resolve node_id -> URL with
 `mcode-tools get_asset_url`, download, save assets/bg/<name>.png at 2112x1188
@@ -35,6 +36,13 @@ STYLE = ("Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold b
          "palette, ominous quiet tension, highly detailed. ")
 NEG = (" Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, "
        "no watermark, no frame, no letterbox bars, full-bleed image.")
+# THU NGHIEM (tieu chuan A8.1 muc 3) — chi bat khi job khai "caption_space": true; mac dinh TAT.
+CAPTION_SPACE = ("Keep the lower third relatively uncluttered (avoid dense detail there) while "
+                 "the scene stays clearly readable. ")
+
+
+def full_prompt(j):
+    return STYLE + (CAPTION_SPACE if j.get("caption_space") else "") + j["prompt"] + NEG
 
 
 def mcode(args, timeout=600, tries=4):
@@ -105,10 +113,10 @@ def main():
         batch = jobs[b:b + 4]
         reqs = []
         for j in batch:
-            rq = {"prompt": STYLE + j["prompt"] + NEG, "aspect_ratio": "16:9",
-                  "resolution": "2K", "output_file": j["name"]}
+            rq = {"prompt": full_prompt(j), "aspect_ratio": "16:9",
+                  "area": "2K", "output_file": j["name"]}
             if j.get("ref"):
-                rq["input_urls"] = [upload(ROOT / j["ref"])]
+                rq["reference_images"] = [{"url": upload(ROOT / j["ref"])}]
             reqs.append(rq)
         args_file = LOG / f"req_{batch[0]['name']}.json"
         args_file.write_text(json.dumps({"requests": reqs}, ensure_ascii=False), encoding="utf-8")
@@ -139,7 +147,7 @@ def main():
             prov = [p for p in prov if p["file"] != f"assets/bg/{name}.png"]
             prov.append({"file": f"assets/bg/{name}.png", "loai": "nền 16:9",
                          "cong_cu": f"{TOOL} (MiniMax qua mcode-tools)", "ngay": str(date.today()),
-                         "prompt": STYLE + job["prompt"] + NEG, "seed": None,
+                         "prompt": full_prompt(job), "seed": None,
                          "nguon_anh_tham_chieu": job.get("ref"), "kich_thuoc_goc": list(im.size),
                          "dieu_khoan": "<điều khoản thương mại của MiniMax — cần kiểm tra trước khi đăng>",
                          "kiem_tra_thuong_mai": "chưa"})

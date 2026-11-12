@@ -79,7 +79,7 @@ def main():
 
     for attempt in range(1, tries + 1):
         req = {"prompt": STYLE + job["prompt"] + NEG, "aspect_ratio": "16:9",
-               "resolution": res, "output_file": name}
+               "area": res, "output_file": name}
         af = LOG / f"one_{name}_{res}.json"
         af.write_text(json.dumps({"requests": [req]}, ensure_ascii=False), encoding="utf-8")
         code, out, err = mcode(["connector", "call", TOOL, "--args-file", str(af)], 900)

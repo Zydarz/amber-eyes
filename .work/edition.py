@@ -35,7 +35,9 @@ def w(name):
 # Mọi chỗ trước đây viết cứng cho Tập 01 trong các script (A12) nằm ở đây.
 EPISODES = {
     "01": {
-        "script": WORK / ("script_EN.json" if EN else "script_v2.json"),
+        "script": WORK / ("script_tap01_new_en.json" if EN else "script_tap01_new_vn.json"),
+        "script_ja": WORK / "script_tap01_new_ja.json",
+        "script_ko": WORK / "script_tap01_new_ko.json",
         "dir": "Tap01_EN" if EN else "Tap01",
         "plan": "KeHoach_Video_Tap01_EN.md" if EN else "KeHoach_Video_Tap01.md",
         "master": "Tap01_EN_master" if EN else "Tap01_master",
@@ -56,42 +58,94 @@ EPISODES = {
             ("heartbeat_slow.wav", "4.01", -4.97, -18), ("chains.wav", "4.06", -2.50, -5),
             ("keyboard_night.wav", "4.14", -2.20, -12), ("gavel.wav", "5.01", -1.10, 1),
             ("folder_close.wav", "5.13", -0.47, -8)],
+        "mux_af": "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1",
         # parse_shots: cảnh ghép sẵn, đổi nền trong shot, ảnh ghim
-        "combo": {"1-04": "crowd_house", "1-07": "deedee_room", "1-17": "interrogation_gypsy",
-                  "1-19": "bedroom_door_gypsy", "2-02": "wheelchair_gypsy", "3-02": "fog_deedee",
-                  "3-10": "fog_deedee", "3-11": "spotlight_deedee", "3-12": "spotlight_deedee",
-                  "3-20": "wheelchair_gypsy", "4-04": "wheelchair_spot", "4-06": "glass_box_gypsy",
-                  "4-19": "night_street_gypsy", "4-21": "house_return", "4-24": "crowd_away",
-                  "4-30": "godejohn_screen", "4-31": "two_shadows", "5-16": "house_free",
-                  "4-10": "cage", "5-17": "cage_open", "4-22": "night_screen",
-                  "2-13": "pinboard", "2-14": "pinboard", "2-15": "pinboard"},
-        "inset": {"2-14": "storm"},
-        "bg2": {"4-10": "cage_open", "4-22": "screen_off"},
-        "flag_hold_shots": ("5-14",),                          # dòng giữ hình vẽ đủ 4 cờ
-        "route_pins": {"1-16": ("SPRINGFIELD, MISSOURI", "WISCONSIN")},   # T7: nhãn 2 ghim
+        "combo": {}, "inset": {}, "bg2": {},
+        "flag_hold_shots": (),
+        "text_scrim": [
+      "1-02",
+      "1-18",
+      "1-19",
+      "1-25",
+      "1-27",
+      "1-36",
+      "1-40",
+      "2-01",
+      "2-02",
+      "2-06",
+      "2-07",
+      "2-12",
+      "2-18",
+      "2-24",
+      "2-25",
+      "2-27",
+      "2-28",
+      "2-29",
+      "2-30",
+      "2-32",
+      "2-36",
+      "2-38",
+      "3-04",
+      "3-05",
+      "3-06",
+      "3-07",
+      "3-09",
+      "3-11",
+      "3-20",
+      "3-21",
+      "3-26",
+      "3-33",
+      "3-35",
+      "4-08",
+      "4-10",
+      "4-11",
+      "4-13",
+      "4-14",
+      "4-15",
+      "4-19",
+      "4-22",
+      "4-23",
+      "4-25",
+      "4-29",
+      "4-34",
+      "4-37",
+      "5-01",
+      "5-03",
+      "5-04",
+      "5-08",
+      "5-18",
+      "5-19",
+      "5-20",
+      "5-23",
+      "5-25",
+      "5-29",
+      "5-31",
+        ],
+        "route_pins": {"1-29": ("SPRINGFIELD, MISSOURI", "WISCONSIN")},   # T7: nhãn 2 ghim
         # package
         "thumb": ("POISON IN THE NAME", "OF A MOTHER’S LOVE") if EN else ("母の愛という名の", "毒薬") if JA else ("엄마의 사랑이라는", "이름의 독약") if KO else ("ĐỘC DƯỢC", "NHÂN DANH TÌNH MẸ"),
-        "title": ("Ep. 01: Poison Disguised as Mother’s Love | The Psychology of Gypsy Rose Blanchard (FDIA)" if EN else
-                  "第01話 · 母の愛という名の毒薬 | Gypsy Rose Blanchardの心理学 (FDIA)" if JA else
-                  "01화 · 엄마의 사랑이라는 이름의 독약 | Gypsy Rose Blanchard의 심리학 (FDIA)" if KO else
-                  "Tập 01: Độc Dược Nhân Danh Tình Mẹ | Tâm lý học tội phạm: Gypsy Rose Blanchard (FDIA)"),
-        "act_titles": ({1: "Act 1 · The Moment Trust Broke", 2: "Act 2 · 23 Years in a Medical Prison",
-                        3: "Act 3 · Inside the Mind of an FDIA Perpetrator", 4: "Act 4 · Why Didn't Gypsy Walk Away?",
-                        5: "Act 5 · Forensic Verdict & Epilogue"} if EN else
-                       {1: "第1幕 · 信頼が崩れる瞬間", 2: "第2幕 · 精神刑務所での23年間",
-                        3: "第3幕 · FDIA犯罪者の脳の内部", 4: "第4幕 · なぜGypsyは逃げなかったのか？",
-                        5: "第5幕 · 司法の裁き、レッドフラッグ＆教訓"} if JA else
-                       {1: "제1막 · 신뢰가 무너지는 순간", 2: "제2막 · 의료 감옥에서의 23년",
-                        3: "제3막 · FDIA 가해자의 뇌 속", 4: "제4막 · 왜 Gypsy는 도망치지 못했는가?",
-                        5: "제5막 · 사법적 단죄와 레드플래그, 그리고 교훈"} if KO else
-                       {1: "Hồi 1 · Khoảnh khắc đứt gãy niềm tin", 2: "Hồi 2 · 23 năm trong nhà tù y khoa",
-                        3: "Hồi 3 · Bên trong bộ não của kẻ mắc FDIA", 4: "Hồi 4 · Tại sao Gypsy không đứng dậy?",
-                        5: "Hồi 5 · Phán quyết pháp y & lời kết"}),
+        "title": ("Ep. 01: Poison in the Name of Mother’s Love | Criminal Psychology: Gypsy Rose & Dee Dee Blanchard (FDIA & 10 Behavioral Markers)" if EN else
+                  "第01話 · 母の愛という名の毒薬 | 犯罪心理学：ジプシー・ローズ＆ディー・ディー・ブランチャード（代理型ミュンハウゼン症候群＆10の心理指標）" if JA else
+                  "01화 · 모성이라는 이름의 독약 | 범죄심리학: 집시 로즈 & 디디 블랜차드 (대리인에 의한 뮌하우젠 증후군 & 10가지 심리 지표)" if KO else
+                  "Tập 01: Độc Dược Nhân Danh Tình Mẹ | Tâm lý học tội phạm: Gypsy Rose Blanchard (FDIA & 10 Chỉ Dấu Tâm Lý)"),
+        "act_titles": ({1: "Act 1 · The Moment Trust Broke & Social Blind Spots", 2: "Act 2 · Crime Scene & The Escalating Medical Abyss",
+                        3: "Act 3 · Psychological Autopsy — Inside the Mind of FDIA", 4: "Act 4 · The Victim's Perspective — Why Couldn't Gypsy Just Stand Up?",
+                        5: "Act 5 · Forensic Verdict, Psychological Judgment & Survival Red Flags"} if EN else
+                       {1: "第1幕 · 信頼が崩れる瞬間＆社会の盲点", 2: "第2幕 · 犯罪現場＆医療の深淵へのエスカレーション",
+                        3: "第3幕 · 心理剖検――FDIA犯罪者の脳の内部", 4: "第4幕 · 被害者の視点――ジプシーはなぜ立ち上がれなかったのか？",
+                        5: "第5幕 · 法医学的判定、心理の審判＆生存のための赤い警告"} if JA else
+                       {1: "제1막 · 무너진 신뢰의 순간 & 사회적 맹점", 2: "제2막 · 범죄 현장 & 의료 심연으로의 에스컬레이션",
+                        3: "제3막 · 심리 부검――FDIA 범죄자의 뇌 속으로", 4: "제4막 · 피해자의 시선――집시는 왜 일어서지 못했는가?",
+                        5: "제5막 · 법의학적 판결, 심리적 심판 & 생존을 위한 위험 신호"} if KO else
+                       {1: "Hồi 1 · Khoảnh khắc đứt gãy niềm tin & Điểm mù xã hội", 2: "Hồi 2 · Hiện trường & Quỹ đạo leo thang của vực thẳm y tế",
+                        3: "Hồi 3 · Giải phẫu tâm lý — Bên trong bộ não kẻ mắc FDIA", 4: "Hồi 4 · Góc nhìn nạn nhân — Tại sao Gypsy không đứng dậy?",
+                        5: "Hồi 5 · Phán quyết pháp y, bản án tâm lý & Cảnh báo đỏ sinh tồn"}),
         # Hashtag dòng cuối mô tả YouTube (bản tiếng Việt). Bản EN có sẵn trong
         # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
         "hashtags": "#TrueCrime #CriminalPsychology #MunchausenSyndrome #GypsyRoseBlanchard #FDIA #ForensicPsychology #Documentary #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
-        "summary": ("1.13#2", "3.02#5"),
-        "need": ["4.15#2", "5.02#3", "5.04#2", "2.07#10", "3.05#5", "3.07#2", "4.07#8", "4.10#5"],
+        "summary": ("1.13#3", "3.02#6"),
+        "need": ["1.03#1", "2.04#3", "2.04#15", "2.07#4", "3.04#11", "4.07#1",
+                 "4.10#1", "5.04#1", "5.05#7"],
         "case": "Blanchard", "n1": (("SPRINGFIELD RESIDENT", "Longtime neighbor", "SPRINGFIELD RESIDENT") if EN else
                                     ("スプリングフィールド住民", "長年の隣人", "証人") if JA else
                                     ("스프링필드 주민", "오랜 이웃", "증인") if KO else
@@ -703,9 +757,85 @@ EPISODES = {
         "flag_hold_shots": (),
         # H9: lớp tối mềm sau chữ — các shot có nền sáng làm chữ "chìm".
         # Đo bằng `_t07/_t07_scan_contrast.py` (ngưỡng >8% nét chữ bị chìm),
-        # gộp cả 3 ngôn ngữ. 09/11/2026: bảng shot dựng lại (218 shot) nên
-        # danh sách id cũ (66 shot) không còn đúng — đo lại sau khi render.
-        "text_scrim": [],
+        # gộp cả 3 ngôn ngữ (HỢP: shot chìm ở bất kỳ ngôn ngữ nào).
+        # 09/11/2026: đo lại sau khi bảng shot dựng mới (203 dòng / 198 shot nội dung)
+        # ⇒ HỢP 3 ngôn ngữ = 57 shot cần lớp tối mềm; đo lại sau khi bật ⇒ 0 shot chữ chìm.
+        "text_scrim": [
+      "1-01",
+      "1-06",
+      "1-29",
+      "1-33",
+      "1-34",
+      "1-35",
+      "1-37",
+      "1-38",
+      "1-40",
+      "1-43",
+      "1-44",
+      "1-45",
+      "1-47",
+      "2-12",
+      "2-13",
+      "2-16",
+      "2-17",
+      "2-18",
+      "2-20",
+      "2-22",
+      "2-24",
+      "2-25",
+      "2-26",
+      "2-30",
+      "2-39",
+      "2-40",
+      "2-41",
+      "2-43",
+      "2-44",
+      "3-01",
+      "3-02",
+      "3-05",
+      "3-06",
+      "3-09",
+      "3-10",
+      "3-13",
+      "3-14",
+      "3-22",
+      "3-24",
+      "3-25",
+      "3-26",
+      "3-28",
+      "3-29",
+      "3-33",
+      "3-37",
+      "3-38",
+      "3-39",
+      "3-41",
+      "3-42",
+      "4-04",
+      "4-07",
+      "4-08",
+      "4-11",
+      "4-13",
+      "4-16",
+      "4-17",
+      "4-20",
+      "4-28",
+      "4-30",
+      "4-32",
+      "4-35",
+      "4-36",
+      "4-40",
+      "5-22",
+      "5-36",
+        ],
+        # 09/11/2026: thẻ giới thiệu nhân vật (first-appearance card) mặc định nằm
+        # ở (490, H-250) ⇒ TRÙNG khối chữ T1 ở đáy khung (chữ "HOST" đè câu đầu).
+        # Tập 07 đặt thẻ lên cao (trên vai bán thân) ⇒ không còn chữ đè chữ.
+        # Tập khác không khai ⇒ giữ nguyên vị trí cũ (hồi quy Tập 01: hash không đổi).
+        "intro_card_pos": (490, 250),
+        # thẻ giới thiệu có nền tối (đọc được trên nền sáng)
+        "intro_card_panel": True,
+        # giữ thẻ giới thiệu đặc (mờ) tới hết 4,2 s rồi mới mờ trong 0,4 s
+        "intro_card_hold": 5.8,
         # T7 tuyến đường (shot 2-06 = câu 2.02#6): ghim tên 2 địa điểm trên
         # cung đường Plainville <-> Mattapoisett (35 dặm, chưa đầy 1 giờ lái xe).
         # 09/11/2026: id đổi theo bảng shot mới (2-02 -> 2-06).
@@ -836,8 +966,62 @@ EPISODES = {
         "sfx_cues": [],
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
+        # H9: lớp tối mềm sau chữ — các shot có nền sáng làm chữ "chìm".
+        # Đo bằng `_t08/_t08_scan_contrast.py` (ngưỡng >8% nét chữ bị chìm),
+        # gộp cả 3 ngôn ngữ (HỢP: shot chìm ở bất kỳ ngôn ngữ nào).
+        # 09/11/2026: đo sau khi bảng shot dựng lại (223 dòng / 218 shot nội dung)
+        # ⇒ 43 shot cần lớp tối mềm (VI 0 · EN 0 · JA 1).
+        "text_scrim": [
+      "1-02",
+      "1-09",
+      "1-31",
+      "1-33",
+      "1-36",
+      "1-39",
+      "1-41",
+      "2-17",
+      "2-23",
+      "2-36",
+      "3-07",
+      "3-10",
+      "3-17",
+      "3-19",
+      "3-25",
+      "3-27",
+      "3-31",
+      "3-35",
+      "3-36",
+      "3-38",
+      "3-40",
+      "3-42",
+      "3-44",
+      "4-04",
+      "4-07",
+      "4-08",
+      "4-18",
+      "4-19",
+      "4-20",
+      "4-21",
+      "4-22",
+      "4-24",
+      "4-25",
+      "4-26",
+      "4-37",
+      "4-39",
+      "4-42",
+      "4-43",
+      "5-09",
+      "5-20",
+      "5-22",
+      "5-37",
+      "5-41",
+        ],
+        "intro_card_pos": [490, 250],
+        "intro_card_panel": True,
+        "intro_card_hold": 5.8,
         "route_pins": {},
-        "thumb": ("KHI THIÊN TÀI", "BỊ TẨY NÃO"),
+        "thumb": ("WHEN GENIUSES", "ARE BRAINWASHED") if EN else ("洗脳された", "天才たち") if JA else ("KHI THIÊN TÀI", "BỊ TẨY NÃO"),
+        "thumb_bg": "t8_frontal_lobe_brain_scan",              # H11: nền CỦA TẬP 08
         "title": "Khi Các Thiên Tài Bị Tẩy Não — Thao túng tâm lý tinh hoa và thảm họa Sarin (vụ Aum Shinrikyo & Shoko Asahara)",
         "act_titles": ({1: "Act 1 · A Fateful Morning Beneath the Streets of Tokyo", 2: "Act 2 · The Base at the Foot of Mount Fuji and the Death Laboratory",
                        3: "Act 3 · The Paradox of Scientific Genius", 4: "Act 4 · Brainwashing and the Poa Doctrine",
@@ -879,8 +1063,77 @@ EPISODES = {
         "sfx_cues": [],
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
+        # H9: lớp tối mềm sau chữ — các shot có nền sáng làm chữ "chìm".
+        # Đo bằng `_t09/_t09_scan_contrast.py` (ngưỡng >8% nét chữ bị chìm),
+        # gộp cả 3 ngôn ngữ (HỢP: shot chìm ở bất kỳ ngôn ngữ nào).
+        # 09/11/2026: nền MiniMax sáng hơn nền procedural ⇒ nhiều shot cần lớp tối mềm.
+        # ⇒ 52 shot cần lớp tối mềm (VI 41 · EN 41 · JA 42).
+        "text_scrim": [
+      "1-06",
+      "1-12",
+      "1-13",
+      "1-14",
+      "1-16",
+      "1-24",
+      "1-27",
+      "1-29",
+      "1-33",
+      "1-35",
+      "1-36",
+      "2-04",
+      "2-10",
+      "2-20",
+      "2-24",
+      "2-27",
+      "2-28",
+      "2-29",
+      "2-33",
+      "2-36",
+      "2-38",
+      "3-03",
+      "3-05",
+      "3-13",
+      "3-17",
+      "3-18",
+      "3-23",
+      "3-24",
+      "3-26",
+      "3-28",
+      "3-32",
+      "4-04",
+      "4-07",
+      "4-08",
+      "4-09",
+      "4-25",
+      "4-26",
+      "4-29",
+      "4-30",
+      "4-32",
+      "4-36",
+      "4-38",
+      "4-39",
+      "4-40",
+      "4-41",
+      "5-01",
+      "5-05",
+      "5-06",
+      "5-09",
+      "5-11",
+      "5-12",
+      "5-14",
+        ],
+        # 09/11/2026 (Tập 09): thẻ giới thiệu vai đặt ở GÓC TRÊN PHẢI (960,90) +
+        # nền tối ⇒ không đè lên khối chữ T1 ở đáy khung (bài học Tập 07) và không
+        # đè lên khối lời kể T4 (vốn nằm ở x=470, y≥330 — vị trí cũ của Tập 08
+        # làm chữ bị che, xem ảnh tĩnh Tập 08 shot_1-17).
+        "intro_card_pos": [960, 90],
+        "intro_card_panel": True,
+        "intro_card_hold": 5.8,
         "route_pins": {},
-        "thumb": ("NGHỆ THUẬT", "XÓA BỎ BẢN NGÃ"),
+        "intro": "intro_kenh_EN.mov" if EN else "intro_kenh.mov",
+        "thumb_bg": "t9_cielo_drive_estate_night",
+        "thumb": ("THE ART OF", "DEINDIVIDUATION") if EN else ("自我の消去", "マンソン・ファミリー") if JA else ("NGHỆ THUẬT", "XÓA BỎ BẢN NGÃ"),
+        "mux_af": "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1",
         "title": 'Tập 09: Nghệ Thuật Xóa Bỏ Bản Ngã | Tâm lý học tội phạm: Charles Manson & Thảm kịch Gia đình Manson (10 Chỉ Dấu Tâm Lý & 5 Nấc Thang Vực Thẳm)',
         "act_titles": {
             1: "Hồi 1 · The Hook & Dấu chấm hết của Mùa hè Tình yêu",
@@ -912,13 +1165,16 @@ EPISODES = {
         "cast": None,
     },
     "10": {
-        "script": WORK / "script_tap10.json",
-        "dir": "Tap10",
-        "plan": "KeHoach_Video_Tap10.md",
-        "master": "Tap10_master",
-        "srt": "Tap10.srt",
+        # ---- bản tiếng Anh: 11/11/2026 thêm nhánh EN (Tập 10 có đủ 3 ngôn ngữ).
+        # Nền `t10_*` là tài sản DÙNG CHUNG mọi ngôn ngữ (H17/A8.1) ⇒ không nhân bản
+        # nền theo hậu tố ngôn ngữ, chỉ đổi tên thư mục sản xuất + file kế hoạch.
+        "script": WORK / ("script_tap10_EN.json" if EN else "script_tap10.json"),
+        "dir": "Tap10_EN" if EN else "Tap10",
+        "plan": "KeHoach_Video_Tap10_EN.md" if EN else "KeHoach_Video_Tap10.md",
+        "master": "Tap10_EN_master" if EN else "Tap10_master",
+        "srt": "Tap10_EN.srt" if EN else "Tap10.srt",
         "n_element": {"1.07": "N1", "4.05": "N2"},
-        "acting": WORK / "acting_tap10.json",
+        "acting": WORK / ("acting_tap10_EN.json" if EN else "acting_tap10.json"),
         "sfx_sheet": WORK / "sfx_tap10.json",
         "act1_cue": "1.12", "silence_cue": "1.05", "click_cues": ("1.03", "4.06"),
         "bed": {1: "bgm_cello_sad.mp3", 2: "bgm_ambient_deep.mp3",
@@ -926,6 +1182,65 @@ EPISODES = {
         "sfx_cues": [],
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
+        # H9: lớp tối mềm sau chữ — các shot có nền sáng làm chữ "chìm".
+        # Đo bằng `_t10/_t10_scan_contrast.py` (ngưỡng >8% nét chữ bị chìm),
+        # gộp cả 3 ngôn ngữ (HỢP: shot chìm ở bất kỳ ngôn ngữ nào).
+        # 11/11/2026: nền MiniMax sáng hơn nền procedural ⇒ phải đo lại toàn bộ.
+        # ⇒ 9 shot cần lớp tối mềm (VI 8 · EN 8 · JA 8).
+                # H9: lớp tối mềm sau chữ — các shot có nền sáng làm chữ "chìm".
+        # Đo bằng `_t10/_t10_scan_contrast.py` (ngưỡng >8% nét chữ bị chìm),
+        # gộp cả 3 ngôn ngữ (HỢP: shot chìm ở bất kỳ ngôn ngữ nào).
+        # 11/11/2026: nền MiniMax sáng hơn nền procedural ⇒ phải đo lại toàn bộ.
+        # ⇒ 33 shot cần lớp tối mềm (VI 18 · EN 19 · JA 20).
+                # H9: lớp tối mềm sau chữ — các shot có nền sáng làm chữ "chìm".
+        # Đo bằng `_t10/_t10_scan_contrast.py` (ngưỡng >8% nét chữ bị chìm),
+        # gộp cả 3 ngôn ngữ (HỢP: shot chìm ở bất kỳ ngôn ngữ nào).
+        # 11/11/2026: nền MiniMax sáng hơn nền procedural ⇒ phải đo lại toàn bộ.
+        # ⇒ 41 shot cần lớp tối mềm (VI 7 · EN 8 · JA 7).
+        "text_scrim": [
+      "1-04",
+      "1-05",
+      "1-16",
+      "1-17",
+      "1-32",
+      "1-33",
+      "1-34",
+      "1-35",
+      "1-41",
+      "2-08",
+      "2-22",
+      "2-23",
+      "2-25",
+      "2-34",
+      "2-35",
+      "2-36",
+      "2-37",
+      "2-43",
+      "3-05",
+      "3-06",
+      "3-08",
+      "3-14",
+      "3-40",
+      "4-11",
+      "4-27",
+      "4-28",
+      "4-31",
+      "4-32",
+      "4-33",
+      "4-34",
+      "4-35",
+      "4-36",
+      "5-02",
+      "5-03",
+      "5-05",
+      "5-08",
+      "5-12",
+      "5-18",
+      "5-27",
+      "5-28",
+      "5-29",
+        ]
+,
         "route_pins": {},
         "thumb": ("CHIẾC HỘP GỖ", "7 NĂM VÔ HÌNH"),
         "thumb_bg": "t10_wooden_box_under_bed_shadow",
@@ -937,6 +1252,23 @@ EPISODES = {
         "need": [],
         "case": "Colleen", "n1": ("BẠN CỦA COLLEEN", "Nhân chứng thời đại", "BẠN BÈ"),
         "n2": ("JANICE HOOKER", "Đồng phạm kiêm người giải cứu", "JANICE"),
+        # ---- bản tiếng Anh: nhãn vai (mặc định của edition.py là của Tập 01
+        # "Blanchard case file" / "SPRINGFIELD RESIDENT" -> sai vụ án Stan).
+        "roles_en": {"H": ("HOST", "Your Narrator"),
+                     "D": ("INVESTIGATOR", "Colleen Stan Case File"),
+                     "C": ("PSYCHOLOGIST", "Behavioral Dynamics"),
+                     "N1": ("COLLEEN'S FRIEND", "Contemporary Witness"),
+                     "N2": ("JANICE HOOKER", "Accomplice and Rescuer")},
+        "sub_tags_en": {"H": "HOST", "D": "INVESTIGATOR", "C": "PSYCHOLOGIST",
+                        "N1": "FRIEND", "N2": "JANICE"},
+        # ---- bản tiếng Nhật: nhãn vai riêng cho Tập 10.
+        "roles_ja": {"H": ("ホスト", "ナレーター"),
+                     "D": ("捜査官", "事件記録 Colleen"),
+                     "C": ("心理学者", "犯罪心理学"),
+                     "N1": ("コロleenの友人", "同時代の目撃者"),
+                     "N2": ("ジャニス・フッカー", "共犯であり救出者")},
+        "sub_tags_ja": {"H": "ホスト", "D": "捜査官", "C": "心理学者",
+                        "N1": "友人", "N2": "ジャニス"},
         "cast": None,
     },
     "11": {
@@ -1467,7 +1799,7 @@ KO_SRC = ROOT / "01_KICH_BAN" / f"Tap{EPN}_KO" / f"kichban_tap{EPN}_KO.md"
 JA_SRC = ROOT / "01_KICH_BAN" / f"Tap{EPN}_JA" / f"kichban_tap{EPN}_JA.md"
 if KO:
     EP = dict(EP)
-    EP["script"] = WORK / f"script_tap{EPN}_KO.json"
+    EP["script"] = WORK / EP.get("script_ko", WORK / f"script_tap{EPN}_KO.json")
     EP["dir"] = f"Tap{EPN}_KO"
     EP["plan"] = f"KeHoach_Video_Tap{EPN}_KO.md"
     EP["master"] = f"Tap{EPN}_KO_master"
@@ -1478,7 +1810,7 @@ if KO:
         raise SystemExit(f"Chưa có kịch bản tiếng Hàn: {KO_SRC}")
 if JA:
     EP = dict(EP)
-    EP["script"] = WORK / f"script_tap{EPN}_JA.json"
+    EP["script"] = WORK / EP.get("script_ja", WORK / f"script_tap{EPN}_JA.json")
     EP["dir"] = f"Tap{EPN}_JA"
     EP["plan"] = f"KeHoach_Video_Tap{EPN}_JA.md"
     EP["master"] = f"Tap{EPN}_JA_master"
