@@ -32963,23 +32963,25 @@
   },
   {
     "file": "02_SAN_XUAT/Tap07_EN/xuat_ban/thumbnail.png",
-    "loai": "ảnh đại diện 1920×1080",
-    "cong_cu": ".work/package.py thumbnail() — nền t7_confession_text_timestamp + chữ Pillow",
-    "ngay": "2026-11-09",
+    "loai": "ảnh đại diện 1280×720 (RGB)",
+    "cong_cu": ".work/package.py thumbnail() — nền t7_confession_text_timestamp + chữ Pillow (segoeuib.ttf)",
+    "ngay": "2026-11-12",
     "prompt": null,
     "seed": null,
-    "dieu_khoan": "Nền kho dự án; không dùng tài sản ngoài trái phép",
-    "kiem_tra_thuong_mai": "đạt"
+    "dieu_khoan": "Nền tự vẽ bằng code; không dùng tài sản tải ngoài",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Dòng chữ: MURDER BY · TEXT MESSAGE (EPISODES[\"07\"][\"thumb\"] nhánh EN). Sinh trực tiếp bằng package.thumbnail() (A11 #72). Sửa lỗi bản EN trước đó bị in chữ tiếng Việt do thiếu rẽ nhánh ngôn ngữ trong edition.py."
   },
   {
     "file": "02_SAN_XUAT/Tap07_JA/xuat_ban/thumbnail.png",
-    "loai": "ảnh đại diện 1920×1080",
-    "cong_cu": ".work/package.py thumbnail() — nền t7_confession_text_timestamp + chữ Pillow",
-    "ngay": "2026-11-09",
+    "loai": "ảnh đại diện 1280×720 (RGB)",
+    "cong_cu": ".work/package.py thumbnail() — nền t7_confession_text_timestamp + chữ Pillow (YuGothB.ttc)",
+    "ngay": "2026-11-12",
     "prompt": null,
     "seed": null,
-    "dieu_khoan": "Nền kho dự án; không dùng tài sản ngoài trái phép",
-    "kiem_tra_thuong_mai": "đạt"
+    "dieu_khoan": "Nền tự vẽ bằng code; không dùng tài sản tải ngoài",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Dòng chữ: メッセージによる · 殺人判決 (EPISODES[\"07\"][\"thumb\"] nhánh JA). Sinh trực tiếp bằng package.thumbnail() (A11 #72). Sửa lỗi bản JA trước đó bị in chữ tiếng Việt do thiếu rẽ nhánh ngôn ngữ trong edition.py."
   },
   {
     "file": "02_SAN_XUAT/Tap08/xuat_ban/thumbnail.png",
@@ -33040,5 +33042,1179 @@
     "seed": null,
     "dieu_khoan": "Nền kho dự án; không dùng tài sản ngoài trái phép",
     "kiem_tra_thuong_mai": "đạt"
+  },
+  {
+    "file": "assets/bg/t11_pink_house_57_bayview.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Cinematic 16:9 wide shot of a charming suburban pink two-story house with manicured green lawn at 57 Bayview Drive in Port Dalhousie Ontario, early 1990s morning sunlight, peaceful Lake Ontario breeze in trees, dark graphic novel noir style, fine film grain, subtle ominous shadows creeping along the foundation. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_suburban_admiration_facade.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Atmospheric establishing shot of an affluent quiet lakeside neighborhood in Ontario, silhouetted neighbors walking dogs past white picket fences, idyllic middle-class suburban perfection, high-contrast chiaroscuro linework, muted amber and slate gray tones. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_paul_bernardo_dashing_car.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Sleek dark noir composition showing the sharp silhouette of a well-dressed young man in a tailored suit leaning against a gleaming sports coupe under a warm streetlamp, shiny metallic reflections, face concealed in shadow, aura of arrogant vanity. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_narcissistic_mirror_vanity.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Intimate noir still life of an opulent dressing room table, ornate gold-rimmed mirror, vintage cologne bottles, gold comb, and the back silhouette of a man styling his hair, harsh dramatic raking light, graphic novel ink contours. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_karla_veterinary_clinic.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Subtle interior shot of a clean 1990s veterinary clinic, warm afternoon sunbeams streaming through blinds, silhouetted blonde young woman in a medical smock gently tending an animal kennel, facade of pure angelic innocence, heavy ink crosshatching. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_ken_barbie_golden_illusion.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Symbolic conceptual still life of pristine vintage blonde male and female fashion dolls standing atop a polished mahogany plinth, golden stage spotlight casting elongated twisted claw-like shadows against the velvet wall, poignant noir irony. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_fairytale_wedding_carriage.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Panoramic nostalgic shot of an ornate white horse-drawn wedding carriage adorned with pale roses moving down an oak-lined avenue, summer 1991 fairytale wedding aesthetic, dreamy desaturated amber glow, dark ink outlines, underlying chilling tension. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_society_gala_inseparable_couple.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Suburban social hall gala scene, golden chandelier overhead casting radiant light on the intertwined silhouettes of a glamorous young couple dancing closely, envious onlookers in shadow, dark graphic novel noir aesthetic. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_blind_adoration_shadow.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Psychological noir silhouette art: A young woman bowing in complete reverence toward a looming dark silhouette seated in a high-backed armchair, domestic parlor shrouded in deep chiaroscuro, themes of toxic subservience and warped adoration. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_closed_pink_door_abyss.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Foreboding composition of a pastel pink painted front door with brass lion door-knocker, cracked open just a sliver into pitch-black interior void, stark contrast between cheerful exterior facade and yawning darkness within. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_lakeside_evening_dog_walk.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Mellow dusk scene on the stony shore of Lake Ontario, cool slate water gently lapping the breakwater, silhouettes of a young couple holding hands walking two golden retrievers along the promenade, tranquil deceptive harmony. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_backyard_barbecue_lawn.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Backyard garden scene of an idyllic suburban evening gathering, soft smoke curling from a vintage barbecue grill, wooden picnic table laden with drinks and fruit, string lanterns glowing warmly in twilight, noir graphic novel linework. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_lace_curtain_window_illusion.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Close-up exterior view of a quaint sash window framed by delicate floral lace curtains tied with satin bows, warm golden incandescent light glowing from within, subtle ominous diagonal blinds shadow, fragile domestic illusion. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_scarborough_nocturnal_shadow.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Dark nocturnal cityscape of Scarborough suburbs late 1980s, misty rain slicking the pavement, cold indigo and obsidian palette, menacing shadowy figure slipping between quiet residential homes, palpable suspense, graphic novel chiaroscuro. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_scarborough_taskforce_archive.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Investigation room still life: Giant wall map of Scarborough and Toronto suburbs peppered with red pushpins and red yarn, forensic case binders stacked on steel desk, desk lamp casting harsh directional light, solemn police procedural noir. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_lake_gibson_fog_depths.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Eerie early dawn view of Lake Gibson shrouded in thick morning fog, cold dark waters, silhouetted weeping willows and reeds lining the bank, quiet forensic gravity, muted steel-blue and charcoal palette, fine film grain. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_church_parking_lot_ambush.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Somatic April rain scene in an empty church parking lot in St. Catharines, gothic church steeple looming in misty gray background, solitary school backpack lying abandoned on wet asphalt puddles reflecting sullen overcast sky. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_map_proximity_dark_crossroads.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Overhead cartographic noir composition: Vintage Niagara Regional road map, red marker circling Port Dalhousie and Bayview Drive mere kilometers from crime scene coordinates, creeping black ink stain slowly engulfing the paper. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_flashlight_shattered_hallway.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Tense interior crime scene still life: Heavy industrial metal Maglite flashlight resting on polished oak floor among scattered glass shards and overturned hallway chair, beam of dying yellow light slicing across shadows, January 1993 domestic fracture. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_st_catharines_hospital_night.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Exterior nocturnal shot of St. Catharines General Hospital emergency entrance in pouring rain, emergency red beacon reflecting off wet asphalt, ambulance bay canopy, somber medical sanctuary, graphic noir chiaroscuro. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_escape_to_parents_porch.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Cold winter night scene at a modest suburban bungalow porch, dusting of snow on wooden steps, packed leather suitcase left hastily by the glowing front door, refuge from terror, dark ink lines. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_february_arrest_dna_match.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. High-contrast forensic laboratory table: Optical microscope illuminating an autoradiograph DNA autoradiogram membrane film, matching bands highlighted under ultraviolet glow, arrest warrant dossier dated February 17, 1993. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_interrogation_bruised_facade.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Interior interrogation room noir: Silhouette of a young woman with head bowed weeping into a white handkerchief at a long conference table, two sharp-suited defense attorneys flanking her, dramatic raking side-light carving deep shadows. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_pleading_victim_tears.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Still life macro shot: Crumpled linen handkerchief damp with tears beside a cold cup of tea and yellow legal notepad covered in hasty handwriting, calculated presentation of absolute innocence, heavy black ink rendering. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_battered_woman_syndrome_file.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Forensic psychiatric evaluation folder marked with psychological assessment stamps, clinical notes on Battered Woman Syndrome and trauma coercion, brass spectacles resting on the cover, clinical sterile lighting. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_hostage_puppet_facade.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Metaphorical noir graphic art: Slender female silhouette enveloped in delicate porcelain doll ribbons simulating puppet strings, shielding her from an ominous storm, deceptive construction of the helpless captive persona. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_fragile_beauty_manipulation.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Symbolic artwork of a pristine classical plaster angel mask with serene beautiful features, fine hairline fracture splitting down the cheek, resting on dark ebony velvet, dark chiaroscuro exploring weaponized sympathy. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_weaponized_victim_playing.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Conceptual noir visual: Antique brass scales of justice tipping dramatically under the weight of crystal tears and fragile silk ribbons, heavy steel gavel resting in deep shadow, masterclass in legal manipulation. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_missing_evidence_dilemma.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Moody overhead shot of a homicide detective desk covered in open evidence envelopes, black-and-white field photos, magnifying glass over empty fingerprint cards, desperate search for missing links in double homicide. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_prosecution_clock_pressure.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Tense visual metaphor: Vintage brass hourglass with sands running out rapidly against a wall of urgent newspaper headlines demanding immediate justice, ticking pressure driving flawed prosecutorial compromise. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_deal_with_the_devil_contract.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Formal legal document still life: The infamous May 1993 Ontario Ministry of the Attorney General plea agreement titled Manslaughter Plea Accord, fountain pen resting across signature line, dark ominous crimson and charcoal noir palette, Deal with the Devil. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_half_truth_dossier_shadow.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Intriguing chiaroscuro shot of a half-opened case file illuminated by an amber banker lamp, half the page bathed in golden light and the other half swallowed in impenetrable pitch-black shadow, duality of truth. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_folie_a_deux_resonance.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Abstract psychological noir illustration of Folie à Deux: Two human head profiles facing each other in silhouette, dark spiraling energy vortices and concentric sound waves resonating between them, mutually reinforcing madness. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_destructive_flame_alliance.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Surreal conceptual artwork: Two braided candle wicks intertwining to produce an intense towering black-and-crimson flame, incinerating moral boundaries, dark graphic novel linework, ominous power. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_malignant_narcissist_throne.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Metaphorical noir piece: High-backed gothic armchair resembling an obsidian throne, towering shadow behind it stretching forward with grasping fingers, obsession with absolute control and grandiosity. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_obedient_accomplice_strings.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Symbolic composition of two marionette crossbars linked by tangled red cords, one puppet guiding the other in a grim dance, fatal codependency of malignant narcissist and devoted enabler. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_covert_sociopath_profile.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Forensic psychiatric profile chart: Stylized brain anatomical diagram with cold blue zones indicating zero empathy and absence of remorse, stark graphic noir ink, clinical detachment. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_morbid_thrill_abyss.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Interior window looking out into a raging dark thunderstorm over lake waters, silhouette of a woman standing at the glass transfixed by lightning flashes, morbid fascination with danger and terror of abandonment. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_toxic_devotion_cruelty.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Poignant still life: An unpolished barbed-wire band mimicking a wedding ring coiled around withered black roses on an antique lace cloth, cruelty masquerading as unconditional devotion. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_christmas_1990_halothane_bottle.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Chilling forensic still life of Christmas Eve 1990: A vintage amber medical bottle labeled Halothane veterinary anesthetic standing beside an ornate crystal wine goblet on a festive mahogany sideboard, heavy chiaroscuro ink. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_silent_christmas_tragedy.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Haunting quiet interior: Modest 1990 Christmas tree with faint glowing bulbs in a darkened suburban living room, gifts unopened under branches, profound somber stillness, cold midnight air. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_chilling_polaroid_camera.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Forensic macabre still life: Vintage 1980s Polaroid instant camera resting next to white latex gloves and folded paper towels on a kitchen counter, clinical cold lighting, unconscionable moral betrayal. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_grieving_parents_wedding_mask.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Framed photo still life on a family mantelpiece: An ornate silver frame holding a lavish wedding portrait resting beside a small brass memorial urn and black ribbon, horrifying juxtaposition of celebration and complicity. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_unholy_sacrament_altar.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Atmospheric symbolic visual: Dark domestic shrine surrounded by flickering black tapers, shadows converging into a grotesque temple of shared psychosis, destruction of human conscience. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_frozen_justice_gavel.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Poignant symbolic noir: Judicial wooden gavel coated in a thick layer of frosted winter ice resting on stone court steps, snowflakes drifting through blue moonlight, impending judicial unraveling. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_six_8mm_tapes_bag.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Forensic evidence handover still life: Brown canvas duffel bag unzipped on police evidence locker counter revealing six 8mm magnetic video cassette tapes in plastic cases, autumn 1994 turning point, stark graphic noir. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_bathroom_ceiling_vent_hiding.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Low-angle dramatic shot looking up at a bathroom ceiling exhaust fan grille hanging open by a single screw, dark hidden hollow cavity behind sheetrock insulation, beam of inspection flashlight cutting through dust. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_ken_murray_obstruction_charge.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Legal study interior: Heavy oak desk with a locked steel drawer partially ajar, legal indictment document citing Obstruction of Justice against attorney Ken Murray, heavy solemn shadows. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_dark_screening_room_projector.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Cinematic wide shot of a pitch-black police viewing room, bright white projector beam cutting horizontally through floating cigarette smoke, dark silhouettes of detectives and Crown attorneys frozen in horrified disbelief. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_investigator_nausea_monitor.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Over-the-shoulder noir shot of an investigator clutching the desk edge in revulsion, staring at a vintage CRT monitor glowing cold blue in dark room, screen reflected in trembling glasses, shattering of illusions. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_holding_video_camera_director.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Striking noir silhouette: Hands firmly operating a compact 1990s 8mm handheld camcorder with red recording LED glowing bright, positioned with authoritative poise, active director of terror. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_triumphant_smile_deal_with_devil.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Metaphorical psychological visual: A torn parchment of the plea bargain agreement crumbling into ash, backlit by the eerie static glow of an interrogation monitor, bitter sting of being utterly duped by a monster. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_equal_partner_in_cruelty.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Stark symbolic set: Two identical steel interrogation chairs placed side by side under a single hanging bare bulb, equal partnership in malevolence, dismantling the battered woman myth with chilling finality. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_mockery_of_justice_tears.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Courtroom witness stand empty under dramatic top light, shattered theatrical mask lying on the wood ledge beside microphone, legal process reduced to a calculated sociopathic stage play. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_outraged_citizens_protest.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Panoramic street protest outside Ontario Queen's Park Legislature, sea of silhouetted citizens holding placards demanding justice for young victims, autumn mist, emotional anguish and public fury, graphic novel noir. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_constitutional_legal_deadlock.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Legal still life: Heavy leatherbound Canadian Criminal Code volume with heavy padlock clamped across its binding, scales of justice trapped in an unbreakable legal gridlock, solemn institutional tragedy. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_dangerous_offender_life_sentence.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Judicial verdict document dated September 1, 1995: Bold red rubber stamp reading DANGEROUS OFFENDER - INDEFINITE DETENTION, iron prison key resting on parchment, heavy prison bars in background. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_calendar_counting_to_freedom.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Prison cell wall still life: Wall calendar with dates crossed off with red pen leading toward year 2005, shaft of barred sunlight illuminating the countdown to early freedom, profound moral contrast. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_joliette_prison_gate_release.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Exterior morning shot of the imposing steel gates of Joliette Institution for Women swinging open on July 4, 2005, silhouette of a woman walking out into a barrage of press telephoto lenses and flashing strobes. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_haunted_new_identity_shadow.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Still life of a new Canadian passport opened to an identity page bearing the name Leanne Teale, surrounded by permanent looming shadows of past crimes, eternal moral exile and social ostracism. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_galligan_inquiry_report_reforms.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Dignified study still life: Bound judicial inquiry volume titled The Galligan Inquiry Report 1996, brass judicial scales and Supreme Court seal, beacon of legal reform rising from profound tragedy. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_victim_playing_camouflage_mirror.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Surreal dual psychological portrait: Antique two-way mirror splitting the frame; left side shows delicate tearful reflection, right side reveals cold predator silhouette, unmasking Victim Playing. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_disguised_predator_scales.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Conceptual noir artwork: Beam of truth illuminating a sharp distinction between a wounded dove and a coiled viper concealed beneath white fleece, severe psychological warning. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_amber_eyes_redflag_intro.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Minimalist graphic noir title card: Iconic golden Amber Eyes owl gaze piercing through atmospheric charcoal mist, brass compass and warning beacons lighting up the dark. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_redflag1_evading_accountability.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Conceptual graphic noir art for Red Flag 1: A cracked porcelain shield inscribed with tears deflecting arrows of legitimate inquiry, evading accountability behind manufactured suffering. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_redflag2_words_vs_actions_split.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Striking graphic art for Red Flag 2: Split composition showing sweet honey dripping from silver lips in public light, while dark iron gears calculate ruthlessly in subterranean shadow. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_redflag3_guilt_tripping_trap.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Dramatic symbolic noir for Red Flag 3: Delicate spiderweb woven of guilt threads ensnaring a questioning compass, turning righteous inquiry into self-blame, psychological manipulation trap. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_redflag4_toxic_symbiosis_abyss.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Emotional graphic noir art for Red Flag 4: Two figures holding hands standing on the precipice of a jagged rocky chasm, blind loyalty leading step by step into the abyss of moral destruction. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_light_of_justice_prevails.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Triumphant chiaroscuro composition: Sturdy brass hurricane lantern blazing with warm amber light, dispelling thick black mist and crocodile tear mirages, moral clarity and truth prevailing. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "assets/bg/t11_amber_eyes_closing_dossier_bernardo.png",
+    "loai": "nền 16:9 dùng chung 3 ngôn ngữ",
+    "cong_cu": "Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)",
+    "ngay": "2026-11-12",
+    "prompt": "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. Close-up still life of the dark leather Amber Eyes investigative dossier closing solemnly on an antique oak desk, embossed golden owl eye logo gleaming in warm amber lamplight, dignified closing frame, graphic novel noir perfection. Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no frame, no letterbox bars, full-bleed image.",
+    "seed": null,
+    "nguon_anh_tham_chieu": null,
+    "kich_thuoc_goc": [
+      2112,
+      1188
+    ],
+    "dieu_khoan": "Cloudflare Workers AI Terms of Service",
+    "kiem_tra_thuong_mai": "đạt",
+    "ghi_chu": "Sinh nền bằng Cloudflare FLUX.1 schnell, crop 16:9 và resize 2112x1188"
+  },
+  {
+    "file": "02_SAN_XUAT/Tap10/xuat_ban/Tap10_master.mp4",
+    "tool": "build_video3.py + package.py (ffmpeg)",
+    "prompt": "Video Master Tap 10 Tieng Viet: 211 shots, 1733.37s, EBUR128 loudnorm I=-16.28 LUFS, TP=-1.74 dBFS",
+    "date": "2026-11-12",
+    "terms": "Amber Eyes original production",
+    "commercial_verified": true
+  },
+  {
+    "file": "02_SAN_XUAT/Tap10/xuat_ban/thumbnail.png",
+    "loai": "ảnh đại diện 1920×1080",
+    "cong_cu": ".work/package.py thumbnail() — nền t10_wooden_box_under_bed_shadow + chữ Pillow",
+    "ngay": "2026-11-12",
+    "prompt": null,
+    "seed": null,
+    "dieu_khoan": "Nền kho dự án; không dùng tài sản ngoài trái phép",
+    "kiem_tra_thuong_mai": "đạt"
+  },
+  {
+    "file": "02_SAN_XUAT/Tap10_EN/xuat_ban/thumbnail.png",
+    "loai": "ảnh đại diện 1920×1080",
+    "cong_cu": ".work/package.py thumbnail() — nền t10_wooden_box_under_bed_shadow + chữ Pillow",
+    "ngay": "2026-11-12",
+    "prompt": null,
+    "seed": null,
+    "dieu_khoan": "Nền kho dự án; không dùng tài sản ngoài trái phép",
+    "kiem_tra_thuong_mai": "đạt"
+  },
+  {
+    "file": "02_SAN_XUAT/Tap10_JA/xuat_ban/thumbnail.png",
+    "loai": "ảnh đại diện 1920×1080",
+    "cong_cu": ".work/package.py thumbnail() — nền t10_wooden_box_under_bed_shadow + chữ Pillow",
+    "ngay": "2026-11-12",
+    "prompt": null,
+    "seed": null,
+    "dieu_khoan": "Nền kho dự án; không dùng tài sản ngoài trái phép",
+    "kiem_tra_thuong_mai": "đạt"
+  },
+  {
+    "file": "02_SAN_XUAT/Tap10_EN/xuat_ban/Tap10_EN_master.mp4",
+    "tool": "build_video3.py + package.py (ffmpeg)",
+    "prompt": "Video Master Tap 10 Tieng Anh: 211 shots, 1561.73s, EBUR128 loudnorm I=-16.28 LUFS, TP=-1.79 dBFS",
+    "date": "2026-11-12",
+    "terms": "Amber Eyes original production",
+    "commercial_verified": true
+  },
+  {
+    "file": "02_SAN_XUAT/Tap10_JA/xuat_ban/Tap10_JA_master.mp4",
+    "tool": "build_video3.py + package.py (ffmpeg)",
+    "prompt": "Video Master Tap 10 Tieng Nhat: 211 shots, 1939.89s, EBUR128 loudnorm I=-16.28 LUFS, TP=-2.57 dBFS",
+    "date": "2026-11-12",
+    "terms": "Amber Eyes original production",
+    "commercial_verified": true
   }
 ]

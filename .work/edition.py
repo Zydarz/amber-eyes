@@ -840,17 +840,44 @@ EPISODES = {
         # cung đường Plainville <-> Mattapoisett (35 dặm, chưa đầy 1 giờ lái xe).
         # 09/11/2026: id đổi theo bảng shot mới (2-02 -> 2-06).
         "route_pins": {"2-06": ("Plainville", "Mattapoisett")},
-        "thumb": ("BẢN ÁN GIẾT NGƯỜI", "BẰNG TIN NHẮN"),
+        "thumb": (("MURDER BY", "TEXT MESSAGE") if EN else
+                  ("メッセージによる", "殺人判決") if JA else
+                  ("문자로 내린", "살인 판결") if KO else
+                  ("BẢN ÁN GIẾT NGƯỜI", "BẰNG TIN NHẮN")),
         # H11: thumbnail phải mang nền CỦA TẬP NÀY (Tập 02 từng dùng nhà của Tập 01)
         "thumb_bg": "t7_confession_text_timestamp",
         # A11 #64: latency=1 bù trễ của alimiter khi ghép (không có = lệch 4,98 ms)
         "mux_af": "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1",
         # QUY_TAC_AUDIO_HIGGS §2: bắt buộc ghi công Higgs trong mô tả YouTube
         "voice_credit": "This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higgs-audio",
-        "title": "Tập 07: Bản Án Giết Người Bằng Tin Nhắn | Tâm lý học tội phạm: Michelle Carter (Nhân cách kịch tính)",
-        "act_titles": {1: "Hồi 1 · Buổi sáng định mệnh tại bãi đỗ xe Kmart", 2: "Hồi 2 · Mê cung hai mươi nghìn dòng tin nhắn",
-                       3: "Hồi 3 · Vở kịch cô bạn gái đau khổ & bộ não ái kỷ kịch tính", 4: "Hồi 4 · Dòng tin nhắn đầy tội lỗi và bản án lịch sử",
-                       5: "Hồi 5 · Đạo đức không gian số & Đạo luật Conrad"},
+        "title": ("Ep. 07: The Landmark Texting Manslaughter Case | Criminal Psychology: Michelle Carter & Conrad Roy (10 Psychological Markers & Digital Coercion)"
+                  if EN else
+                  "第07話 · メッセージによる殺人――デジタル空間の心理操作 | 犯罪心理学：ミシェル・カーターとコンラッド・ロイ事件 (10の心理指標と自己愛の演劇)"
+                  if JA else
+                  "07화 · 문자로 내린 살인 판결――디지털 조작의 덫 | 범죄심리학: 미셸 카터 & 콘래드 로이 사건 (10대 심리 지표와 가상공간의 비극)"
+                  if KO else
+                  "Tập 07: Bản Án Giết Người Bằng Tin Nhắn | Tâm lý học tội phạm: Michelle Carter (Nhân cách kịch tính)"),
+        "act_titles": ({1: "Act 1 · The Fateful Morning in the Kmart Parking Lot",
+                        2: "Act 2 · The Labyrinth of Twenty Thousand Text Messages",
+                        3: "Act 3 · Grieving Girlfriend Drama & Histrionic Mind",
+                        4: "Act 4 · The Confession Text & Historic Verdict",
+                        5: "Act 5 · Cyberspace Ethics & Conrad’s Law"}
+                       if EN else
+                       {1: "第1幕 · Kマート駐車場での運命の朝",
+                        2: "第2幕 · 2万通のテキストメッセージの迷宮",
+                        3: "第3幕 · 悲劇のヒロイン劇と自己愛性パーソナリティ",
+                        4: "第4幕 · 自白テキストと歴史的有罪判決",
+                        5: "第5幕 · デジタル空間の倫理とコンラッド法"}
+                       if JA else
+                       {1: "제1막 · K마트 주차장의 운명적인 아침",
+                        2: "제2막 · 2만 건의 문자 메시지 미로",
+                        3: "제3막 · 비극의 여주인공 연극과 연극성 인격",
+                        4: "제4막 · 자백 문자와 역사적 유죄 판결",
+                        5: "제5막 · 디지털 윤리와 콘래드 법"}
+                       if KO else
+                       {1: "Hồi 1 · Buổi sáng định mệnh tại bãi đỗ xe Kmart", 2: "Hồi 2 · Mê cung hai mươi nghìn dòng tin nhắn",
+                        3: "Hồi 3 · Vở kịch cô bạn gái đau khổ & bộ não ái kỷ kịch tính", 4: "Hồi 4 · Dòng tin nhắn đầy tội lỗi và bản án lịch sử",
+                        5: "Hồi 5 · Đạo đức không gian số & Đạo luật Conrad"}),
         # Hashtag dòng cuối mô tả YouTube (bản tiếng Việt). Bản EN có sẵn trong
         # CHU_CO_DINH_EN.md; bản JA/KO chưa có dòng hashtag.
         "hashtags": "#TrueCrime #CriminalPsychology #MichelleCarter #ConradRoy #DigitalForensics #Documentary #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
@@ -1242,12 +1269,29 @@ EPISODES = {
         ]
 ,
         "route_pins": {},
-        "thumb": ("CHIẾC HỘP GỖ", "7 NĂM VÔ HÌNH"),
+        "thumb": (("THE WOODEN BOX", "7 YEARS IN THE DARK") if EN else
+                  ("ベッド下の木箱", "消えた7年間") if JA else
+                  ("CHIẾC HỘP GỖ", "7 NĂM VÔ HÌNH")),
         "thumb_bg": "t10_wooden_box_under_bed_shadow",
-        "title": "Chiếc Hộp Gỗ Dưới Gầm Giường — Sự Bất Lực Tập Nhiễm & Bóng Ma 'The Company' (Hồ Sơ Colleen Stan)",
-        "act_titles": {1: "Hồi 1 · Chuyến xe định mệnh và chiếc hộp đen dưới gầm giường", 2: "Hồi 2 · Bảy năm trong bóng tối và sự biến mất của thời gian",
-                       3: "Hồi 3 · Nghịch lý ngày về và sự bất lực tập nhiễm", 4: "Hồi 4 · Sự rạn nứt của lồng giam và cuộc giải cứu ngầm",
-                       5: "Hồi 5 · Ánh sáng sau bảy năm địa ngục & Sự hồi sinh kỳ diệu"},
+        "mux_af": "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1",
+        "title": ("Ep. 10: The Wooden Box Under the Bed — Learned Helplessness & The Shadow of 'The Company' (The Colleen Stan Case)" if EN else
+                  "第10話 · ベッド下の木箱 — 学習性無力感と幻影組織「ザ・カンパニー」の呪縛（コリーン・スタン事件）" if JA else
+                  "Chiếc Hộp Gỗ Dưới Gầm Giường — Sự Bất Lực Tập Nhiễm & Bóng Ma 'The Company' (Hồ Sơ Colleen Stan)"),
+        "act_titles": ({1: "Act 1 · The Fateful Ride and the Black Box Under the Bed",
+                        2: "Act 2 · Seven Years in Darkness and the Erasure of Time",
+                        3: "Act 3 · Paradox of the Return & Learned Helplessness",
+                        4: "Act 4 · Fractures in the Cage & Secret Rescue",
+                        5: "Act 5 · Light After Seven Years of Hell & Miraculous Resilience"} if EN else
+                       {1: "第1幕 · 運命のヒッチハイクとベッド下の黒い木箱",
+                        2: "第2幕 · 暗闇の7年間と消え去った時間",
+                        3: "第3幕 · 帰還の逆説と学習性無力感",
+                        4: "第4幕 · 檻の亀裂と密かな救出劇",
+                        5: "第5幕 · 7年の地獄を越えた光と奇跡の再生"} if JA else
+                       {1: "Hồi 1 · Chuyến xe định mệnh và chiếc hộp đen dưới gầm giường",
+                        2: "Hồi 2 · Bảy năm trong bóng tối và sự biến mất của thời gian",
+                        3: "Hồi 3 · Nghịch lý ngày về và sự bất lực tập nhiễm",
+                        4: "Hồi 4 · Sự rạn nứt của lồng giam và cuộc giải cứu ngầm",
+                        5: "Hồi 5 · Ánh sáng sau bảy năm địa ngục & Sự hồi sinh kỳ diệu"}),
         "summary": ("1.02#1", "3.02#1"),
         "need": [],
         "case": "Colleen", "n1": ("BẠN CỦA COLLEEN", "Nhân chứng thời đại", "BẠN BÈ"),
@@ -1265,8 +1309,11 @@ EPISODES = {
         "roles_ja": {"H": ("ホスト", "ナレーター"),
                      "D": ("捜査官", "事件記録 Colleen"),
                      "C": ("心理学者", "犯罪心理学"),
-                     "N1": ("コロleenの友人", "同時代の目撃者"),
+                     "N1": ("コリーンの友人", "同時代の目撃者"),
                      "N2": ("ジャニス・フッカー", "共犯であり救出者")},
+        "sub_tags_ja": {"H": "ホスト", "D": "捜査官", "C": "心理学者",
+                        "N1": "友人", "N2": "ジャニス"},
+        "hashtags": "#TrueCrime #CriminalPsychology #ColleenStan #CameronHooker #LearnedHelplessness #TraumaBonding #AmberEyes #TamLyToiPham #TaiLieu",
         "sub_tags_ja": {"H": "ホスト", "D": "捜査官", "C": "心理学者",
                         "N1": "友人", "N2": "ジャニス"},
         "cast": None,
