@@ -16,23 +16,23 @@
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "slow, deep, evoking a nostalgic yet uneasy atmosphere",
-  "text": "In the early 1990s, in the picturesque lakeside community of Port Dalhousie in Ontario, an eye-catching pink house stood at 57 Bayview Drive. It was the cherished home of a glamorous young couple that drew admiring glances from everyone passing by. The husband was Paul Bernardo, a handsome young professional in financial accounting who always wore designer suits and drove a sleek convertible sports car. The wife was Karla Homolka, six years his junior, a striking blonde with an angelic smile who worked at a local veterinary clinic. To their suburban neighbors, they appeared to be the living embodiment of “Ken and Barbie” dolls come to life. In June 1991, they celebrated a fairytale wedding in a romantic horse-drawn carriage in historic Niagara-on-the-Lake.",
+  "direction": "measured, warm baritone setting historical context",
+  "text": "In the early 1990s, in the scenic lakeside community of Port Dalhousie in Ontario, an eye-catching pink house stood at 57 Bayview Drive. It was the residence of a young married couple that commanded admiring glances from anyone passing by. The husband was Paul Bernardo, a handsome financial accounting professional who always wore designer suits and drove a sleek convertible sports car. The wife was Karla Homolka, six years his junior, a striking blonde with an angelic smile who worked at a local veterinary clinic. To the surrounding suburban neighborhood, they were the living embodiment of the golden couple, Ken and Barbie. In June 1991, they celebrated a storybook fairytale wedding with a horse-drawn carriage in the historic town of Niagara-on-the-Lake.",
   "sentences": [
    {
     "id": "1.03#1",
-    "text": "In the early 1990s, in the picturesque lakeside community of Port Dalhousie in Ontario, an eye-catching pink house stood at 57 Bayview Drive.",
+    "text": "In the early 1990s, in the scenic lakeside community of Port Dalhousie in Ontario, an eye-catching pink house stood at 57 Bayview Drive.",
     "words": 23
    },
    {
     "id": "1.03#2",
-    "text": "It was the cherished home of a glamorous young couple that drew admiring glances from everyone passing by.",
-    "words": 18
+    "text": "It was the residence of a young married couple that commanded admiring glances from anyone passing by.",
+    "words": 17
    },
    {
     "id": "1.03#3",
-    "text": "The husband was Paul Bernardo, a handsome young professional in financial accounting who always wore designer suits and drove a sleek convertible sports car.",
-    "words": 24
+    "text": "The husband was Paul Bernardo, a handsome financial accounting professional who always wore designer suits and drove a sleek convertible sports car.",
+    "words": 22
    },
    {
     "id": "1.03#4",
@@ -41,13 +41,13 @@
    },
    {
     "id": "1.03#5",
-    "text": "To their suburban neighbors, they appeared to be the living embodiment of “Ken and Barbie” dolls come to life.",
-    "words": 19
+    "text": "To the surrounding suburban neighborhood, they were the living embodiment of the golden couple, Ken and Barbie.",
+    "words": 17
    },
    {
     "id": "1.03#6",
-    "text": "In June 1991, they celebrated a fairytale wedding in a romantic horse-drawn carriage in historic Niagara-on-the-Lake.",
-    "words": 16
+    "text": "In June 1991, they celebrated a storybook fairytale wedding with a horse-drawn carriage in the historic town of Niagara-on-the-Lake.",
+    "words": 19
    }
   ]
  },
@@ -56,7 +56,7 @@
   "act": 1,
   "kind": "NGHI",
   "sec": 1.5,
-  "desc": ""
+  "desc": "khoảng lặng kịch tính"
  },
  {
   "id": "1.05",
@@ -64,32 +64,32 @@
   "kind": "LOI",
   "role": "H",
   "direction": "shifting to a darker tone, foreshadowing tragedy",
-  "text": "The young couple presented themselves as idols of middle-class success, inseparable at every community gathering. Karla was so utterly captivated by Paul that she worshipped him as a flawless prince, willingly yielding to his bizarre demands to sustain their fairytale illusion. That very status and immaculate facade created a fatal “Halo Effect” — an invisible psychological shield that completely lulled the community's instincts for years. Neighbors saw only a radiant pair who loved animals and cared for their home, never suspecting the sinister abyss lurking behind closed doors. To understand just how impenetrable that mask truly was, imagine the perspective of those living right next to that pink house.",
+  "text": "The young newlyweds appeared as pillars of middle-class achievement, practically inseparable at every social gathering. Karla adored Paul to the point of idolizing him as an infallible prince, willing to accommodate his most bizarre demands to sustain their romantic fantasy. That elevated social standing and idyllic exterior created a fatal Halo Effect—an invisible shield that completely lulled the community's vigilance for years. People saw only a charming young couple who loved animals and maintained a pristine home, never suspecting the abyss within. To comprehend just how impenetrable that mask was, one must listen to the perspective of those who lived alongside the pink house.",
   "sentences": [
    {
     "id": "1.05#1",
-    "text": "The young couple presented themselves as idols of middle-class success, inseparable at every community gathering.",
+    "text": "The young newlyweds appeared as pillars of middle-class achievement, practically inseparable at every social gathering.",
     "words": 15
    },
    {
     "id": "1.05#2",
-    "text": "Karla was so utterly captivated by Paul that she worshipped him as a flawless prince, willingly yielding to his bizarre demands to sustain their fairytale illusion.",
-    "words": 26
+    "text": "Karla adored Paul to the point of idolizing him as an infallible prince, willing to accommodate his most bizarre demands to sustain their romantic fantasy.",
+    "words": 25
    },
    {
     "id": "1.05#3",
-    "text": "That very status and immaculate facade created a fatal “Halo Effect” — an invisible psychological shield that completely lulled the community's instincts for years.",
-    "words": 24
+    "text": "That elevated social standing and idyllic exterior created a fatal Halo Effect—an invisible shield that completely lulled the community's vigilance for years.",
+    "words": 22
    },
    {
     "id": "1.05#4",
-    "text": "Neighbors saw only a radiant pair who loved animals and cared for their home, never suspecting the sinister abyss lurking behind closed doors.",
-    "words": 23
+    "text": "People saw only a charming young couple who loved animals and maintained a pristine home, never suspecting the abyss within.",
+    "words": 20
    },
    {
     "id": "1.05#5",
-    "text": "To understand just how impenetrable that mask truly was, imagine the perspective of those living right next to that pink house.",
-    "words": 21
+    "text": "To comprehend just how impenetrable that mask was, one must listen to the perspective of those who lived alongside the pink house.",
+    "words": 22
    }
   ]
  },
@@ -98,27 +98,27 @@
   "act": 1,
   "kind": "LOI",
   "role": "N",
-  "direction": "N1: Port Dalhousie neighbor, young female, shocked and emotional",
-  "text": "To all of us in that quiet lakeside neighborhood, Paul and Karla seemed like the textbook definition of a golden couple. They were always smiling, greeting everyone warmly, tending their garden, and walking their dog every evening. If anyone had told us back then that behind those pink window frames lay one of the darkest horrors in North American history, no one would have believed it. Their angelic mask completely blinded our entire neighborhood.",
+  "direction": "N1: Port Dalhousie Neighbor, young woman's voice, trembling in disbelief",
+  "text": "To all of us in that lakeside neighborhood, Paul and Karla were an exemplary golden couple. They always smiled and waved, tended their manicured garden, and walked their dog every evening at dusk. If anyone had told us back then that behind those pink-trimmed windows lay one of the most horrific chambers in North America, not a soul would have believed it. Their holy facade blinded the entire neighborhood completely.",
   "sentences": [
    {
     "id": "1.06#1",
-    "text": "To all of us in that quiet lakeside neighborhood, Paul and Karla seemed like the textbook definition of a golden couple.",
-    "words": 21
-   },
-   {
-    "id": "1.06#2",
-    "text": "They were always smiling, greeting everyone warmly, tending their garden, and walking their dog every evening.",
+    "text": "To all of us in that lakeside neighborhood, Paul and Karla were an exemplary golden couple.",
     "words": 16
    },
    {
+    "id": "1.06#2",
+    "text": "They always smiled and waved, tended their manicured garden, and walked their dog every evening at dusk.",
+    "words": 17
+   },
+   {
     "id": "1.06#3",
-    "text": "If anyone had told us back then that behind those pink window frames lay one of the darkest horrors in North American history, no one would have believed it.",
+    "text": "If anyone had told us back then that behind those pink-trimmed windows lay one of the most horrific chambers in North America, not a soul would have believed it.",
     "words": 29
    },
    {
     "id": "1.06#4",
-    "text": "Their angelic mask completely blinded our entire neighborhood.",
+    "text": "Their holy facade blinded the entire neighborhood completely.",
     "words": 8
    }
   ]
@@ -126,174 +126,234 @@
  {
   "id": "1.07",
   "act": 1,
-  "kind": "SFX",
-  "desc": "*Distant police sirens piercing the dark night, rapid rustling of case files being flipped.*"
+  "kind": "LOI",
+  "role": "C",
+  "direction": "measured, deep academic authority",
+  "text": "Under the lens of social psychology, the facade of the pink house at 57 Bayview Drive represents a textbook study in the Halo Effect and Suburban Blindness. The human brain harbors an inherent cognitive bias: we habitually assume that young, attractive individuals with respectable careers and polished manners must possess virtuous souls. By cultivating the pristine image of a real-life Ken and Barbie, Paul and Karla constructed an invisible shield that entirely disarmed the community's natural defense instincts. We readily guard ourselves against a disheveled, suspicious figure lurking in a dark alley, yet remain thoroughly defenseless before a middle-class couple strolling their dog with radiant smiles beside a rose trellis.",
+  "sentences": [
+   {
+    "id": "1.07#1",
+    "text": "Under the lens of social psychology, the facade of the pink house at 57 Bayview Drive represents a textbook study in the Halo Effect and Suburban Blindness.",
+    "words": 27
+   },
+   {
+    "id": "1.07#2",
+    "text": "The human brain harbors an inherent cognitive bias: we habitually assume that young, attractive individuals with respectable careers and polished manners must possess virtuous souls.",
+    "words": 25
+   },
+   {
+    "id": "1.07#3",
+    "text": "By cultivating the pristine image of a real-life Ken and Barbie, Paul and Karla constructed an invisible shield that entirely disarmed the community's natural defense instincts.",
+    "words": 26
+   },
+   {
+    "id": "1.07#4",
+    "text": "We readily guard ourselves against a disheveled, suspicious figure lurking in a dark alley, yet remain thoroughly defenseless before a middle-class couple strolling their dog with radiant smiles beside a rose trellis.",
+    "words": 32
+   }
+  ]
  },
  {
   "id": "1.08",
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "deep tone, highlighting the chilling contrast",
-  "text": "Yet, behind the locked doors of 57 Bayview Drive lay a sinister reality far beyond ordinary human comprehension. During the exact years when Ken and Barbie were reveling in their idyllic life, a horrifying shadow was terrorizing Southern Ontario. Between 1987 and 1990, the Toronto suburb of Scarborough was shaken to its core by a serial predator known as the “Scarborough Rapist”. He stalked young women walking alone in the dark, striking swiftly before vanishing without a trace. Widespread public paranoia and collective trauma gripped bus stops and suburban neighborhoods whenever night fell.",
+  "direction": "somber, philosophical reflection",
+  "text": "And the bitter price for that blind trust was a wave of collective paranoia that gripped Southern Ontario for half a decade. The once serene lakeside avenues suddenly transformed into stalking grounds for an unseen terror. Parents no longer dared to let their daughters walk through school gates alone; uneasy, suspicious glances were exchanged at bus stops and public parks. The comforting familiarity of daily life completely shattered as people confronted a chilling truth: evil wore no grotesque visage, but smiled at them from a fairy-tale horse-drawn carriage in broad daylight.",
   "sentences": [
    {
     "id": "1.08#1",
-    "text": "Yet, behind the locked doors of 57 Bayview Drive lay a sinister reality far beyond ordinary human comprehension.",
-    "words": 18
+    "text": "And the bitter price for that blind trust was a wave of collective paranoia that gripped Southern Ontario for half a decade.",
+    "words": 22
    },
    {
     "id": "1.08#2",
-    "text": "During the exact years when Ken and Barbie were reveling in their idyllic life, a horrifying shadow was terrorizing Southern Ontario.",
-    "words": 21
+    "text": "The once serene lakeside avenues suddenly transformed into stalking grounds for an unseen terror.",
+    "words": 14
    },
    {
     "id": "1.08#3",
-    "text": "Between 1987 and 1990, the Toronto suburb of Scarborough was shaken to its core by a serial predator known as the “Scarborough Rapist”.",
-    "words": 23
+    "text": "Parents no longer dared to let their daughters walk through school gates alone; uneasy, suspicious glances were exchanged at bus stops and public parks.",
+    "words": 24
    },
    {
     "id": "1.08#4",
-    "text": "He stalked young women walking alone in the dark, striking swiftly before vanishing without a trace.",
-    "words": 16
-   },
-   {
-    "id": "1.08#5",
-    "text": "Widespread public paranoia and collective trauma gripped bus stops and suburban neighborhoods whenever night fell.",
-    "words": 15
+    "text": "The comforting familiarity of daily life completely shattered as people confronted a chilling truth: evil wore no grotesque visage, but smiled at them from a fairy-tale horse-drawn carriage in broad daylight.",
+    "words": 31
    }
   ]
  },
  {
   "id": "1.09",
   "act": 1,
-  "kind": "NGHI",
-  "sec": 1.5,
-  "desc": ""
+  "kind": "SFX",
+  "desc": "*Police siren screaming into the night, sound of investigative dossiers being hurriedly turned.*"
  },
  {
   "id": "1.10",
   "act": 1,
   "kind": "LOI",
-  "role": "D",
-  "direction": "sharp, clinical tone, reconstructing investigative records",
-  "text": "Toronto Police formed an unprecedented task force to track the Scarborough predator, compiling hundreds of leads while he remained elusive. The terror reached a boiling point when the criminal trajectory escalated from ambushes into taking human lives. In June 1991, 14-year-old Leslie Mahaffy vanished in Burlington after accidentally being locked out of her home late at night. Two weeks later, the confirmation that she was no longer alive sent shockwaves across Canada. Less than a year later, in April 1992, 15-year-old Kristen French was abducted in broad daylight from a church parking lot in Saint Catharines while walking home from school. Both high-profile tragedies unfolded right within the Niagara Region, just a few short miles from Paul and Karla's pink home.",
+  "role": "H",
+  "direction": "deep tone, emphasizing chilling contrast",
+  "text": "Yet, behind the locked doors of 57 Bayview Drive lay a sinister reality far beyond ordinary human comprehension. Even as the Ken and Barbie couple enjoyed their luxurious lifestyle, a terrifying specter was haunting Southern Ontario. Between 1987 and 1990, the suburban district of Scarborough in Toronto was terrorized by a serial predator known as the Scarborough Rapist. He stalked young women walking alone at night, struck with lightning speed, and vanished without a trace. A pervasive collective trauma and paranoia seized commuters at bus stops and quiet residential blocks as night fell.",
   "sentences": [
    {
     "id": "1.10#1",
-    "text": "Toronto Police formed an unprecedented task force to track the Scarborough predator, compiling hundreds of leads while he remained elusive.",
-    "words": 20
+    "text": "Yet, behind the locked doors of 57 Bayview Drive lay a sinister reality far beyond ordinary human comprehension.",
+    "words": 18
    },
    {
     "id": "1.10#2",
-    "text": "The terror reached a boiling point when the criminal trajectory escalated from ambushes into taking human lives.",
-    "words": 17
+    "text": "Even as the Ken and Barbie couple enjoyed their luxurious lifestyle, a terrifying specter was haunting Southern Ontario.",
+    "words": 18
    },
    {
     "id": "1.10#3",
-    "text": "In June 1991, 14-year-old Leslie Mahaffy vanished in Burlington after accidentally being locked out of her home late at night.",
-    "words": 20
+    "text": "Between 1987 and 1990, the suburban district of Scarborough in Toronto was terrorized by a serial predator known as the Scarborough Rapist.",
+    "words": 22
    },
    {
     "id": "1.10#4",
-    "text": "Two weeks later, the confirmation that she was no longer alive sent shockwaves across Canada.",
-    "words": 15
+    "text": "He stalked young women walking alone at night, struck with lightning speed, and vanished without a trace.",
+    "words": 17
    },
    {
     "id": "1.10#5",
-    "text": "Less than a year later, in April 1992, 15-year-old Kristen French was abducted in broad daylight from a church parking lot in Saint Catharines while walking home from school.",
-    "words": 29
-   },
-   {
-    "id": "1.10#6",
-    "text": "Both high-profile tragedies unfolded right within the Niagara Region, just a few short miles from Paul and Karla's pink home.",
-    "words": 20
+    "text": "A pervasive collective trauma and paranoia seized commuters at bus stops and quiet residential blocks as night fell.",
+    "words": 18
    }
   ]
  },
  {
   "id": "1.11",
   "act": 1,
-  "kind": "LOI",
-  "role": "H",
-  "direction": "reflective, underscoring public outrage and dread",
-  "text": "The entire nation of Canada plunged into profound panic and indignation at the cruelty of this faceless predator. Women feared walking alone outside, while anxious parents guarded their children's every step to and from school. Who was the monster casting this suffocating reign of terror over innocent young girls? And how could a picture-perfect young couple possibly be at the center of the most bizarre criminal partnership in modern judicial history? The reality behind that Ken and Barbie facade stands as a stark lesson in collective blindspots caused by superficial appearances. Let us now examine the specialized behavioral analysis of how this sinister trajectory quietly took root.",
-  "sentences": [
-   {
-    "id": "1.11#1",
-    "text": "The entire nation of Canada plunged into profound panic and indignation at the cruelty of this faceless predator.",
-    "words": 18
-   },
-   {
-    "id": "1.11#2",
-    "text": "Women feared walking alone outside, while anxious parents guarded their children's every step to and from school.",
-    "words": 17
-   },
-   {
-    "id": "1.11#3",
-    "text": "Who was the monster casting this suffocating reign of terror over innocent young girls?",
-    "words": 14
-   },
-   {
-    "id": "1.11#4",
-    "text": "And how could a picture-perfect young couple possibly be at the center of the most bizarre criminal partnership in modern judicial history?",
-    "words": 22
-   },
-   {
-    "id": "1.11#5",
-    "text": "The reality behind that Ken and Barbie facade stands as a stark lesson in collective blindspots caused by superficial appearances.",
-    "words": 20
-   },
-   {
-    "id": "1.11#6",
-    "text": "Let us now examine the specialized behavioral analysis of how this sinister trajectory quietly took root.",
-    "words": 16
-   }
-  ]
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": "khoảng lặng kịch tính"
  },
  {
   "id": "1.12",
   "act": 1,
-  "kind": "SFX",
-  "desc": "*Heavy iron door slamming shut with finality.*"
+  "kind": "LOI",
+  "role": "D",
+  "direction": "sharp, analytical tone, presenting operational case files",
+  "text": "Toronto Police assembled an unprecedented task force to track the Scarborough predator, collecting hundreds of evidentiary samples, yet he evaded capture. The dread reached absolute panic when his criminal trajectory crossed the threshold from assaults into the lethal elimination of human life. In June 1991, fourteen-year-old student Leslie Mahaffy vanished in the city of Burlington after accidentally being locked out of her family home late at night. Two weeks later, the confirmation of her tragic demise sent shockwaves throughout Canada. Less than a year later, in April 1992, fifteen-year-old high school student Kristen French was abducted in broad daylight from a church parking lot in Saint Catharines on her way home from school. Both devastating crimes unfolded in the Niagara region, merely a few miles from Paul and Karla's pink house.",
+  "sentences": [
+   {
+    "id": "1.12#1",
+    "text": "Toronto Police assembled an unprecedented task force to track the Scarborough predator, collecting hundreds of evidentiary samples, yet he evaded capture.",
+    "words": 21
+   },
+   {
+    "id": "1.12#2",
+    "text": "The dread reached absolute panic when his criminal trajectory crossed the threshold from assaults into the lethal elimination of human life.",
+    "words": 21
+   },
+   {
+    "id": "1.12#3",
+    "text": "In June 1991, fourteen-year-old student Leslie Mahaffy vanished in the city of Burlington after accidentally being locked out of her family home late at night.",
+    "words": 25
+   },
+   {
+    "id": "1.12#4",
+    "text": "Two weeks later, the confirmation of her tragic demise sent shockwaves throughout Canada.",
+    "words": 13
+   },
+   {
+    "id": "1.12#5",
+    "text": "Less than a year later, in April 1992, fifteen-year-old high school student Kristen French was abducted in broad daylight from a church parking lot in Saint Catharines on her way home from school.",
+    "words": 33
+   },
+   {
+    "id": "1.12#6",
+    "text": "Both devastating crimes unfolded in the Niagara region, merely a few miles from Paul and Karla's pink house.",
+    "words": 18
+   }
+  ]
  },
  {
   "id": "1.13",
   "act": 1,
   "kind": "LOI",
   "role": "H",
-  "direction": "authoritative, introducing the documentary brief and thesis",
-  "text": "Welcome to Amber Eyes and today's criminal psychology profile. Together, we will unlock one of the most shocking and contentious cases in legal history: the file of Paul Bernardo and Karla Homolka. This episode dissects the phenomenon of “Folie à Deux”, the manipulative art of playing the victim, and the bitter legal compromise remembered as the “Deal with the Devil”. Furthermore, we will delve deeply into the 10 Psychological Markers framework to help recognize toxic relationship dynamics in everyday life. This is not merely a chronicle of past horrors, but an urgent wake-up call for our personal safety and vigilance today. Join us as we step into Act Two to unravel the dark trajectory of behavioral escalation.",
+  "direction": "troubled tone, capturing national shock",
+  "text": "The entire nation of Canada fell into an acute state of panic and fury at the sheer brutality of this masked predator. Women dared not step outside unaccompanied, and terrified parents escorted their children every single step of the way. Who was this monster terrorizing innocent young girls? And how could an impeccably dressed young couple become the epicenter of the most bizarre criminal alliance in judicial history? The truth behind the Ken and Barbie facade stands as a stark lesson on societal blind spots when people are seduced by superficial glamor. Let us examine the forensic behavioral insights into how this criminal dynamic secretly evolved.",
   "sentences": [
    {
     "id": "1.13#1",
-    "text": "Welcome to Amber Eyes and today's criminal psychology profile.",
-    "words": 9
+    "text": "The entire nation of Canada fell into an acute state of panic and fury at the sheer brutality of this masked predator.",
+    "words": 22
    },
    {
     "id": "1.13#2",
-    "text": "Together, we will unlock one of the most shocking and contentious cases in legal history: the file of Paul Bernardo and Karla Homolka.",
-    "words": 23
+    "text": "Women dared not step outside unaccompanied, and terrified parents escorted their children every single step of the way.",
+    "words": 18
    },
    {
     "id": "1.13#3",
-    "text": "This episode dissects the phenomenon of “Folie à Deux”, the manipulative art of playing the victim, and the bitter legal compromise remembered as the “Deal with the Devil”.",
-    "words": 28
+    "text": "Who was this monster terrorizing innocent young girls?",
+    "words": 8
    },
    {
     "id": "1.13#4",
-    "text": "Furthermore, we will delve deeply into the 10 Psychological Markers framework to help recognize toxic relationship dynamics in everyday life.",
+    "text": "And how could an impeccably dressed young couple become the epicenter of the most bizarre criminal alliance in judicial history?",
     "words": 20
    },
    {
     "id": "1.13#5",
-    "text": "This is not merely a chronicle of past horrors, but an urgent wake-up call for our personal safety and vigilance today.",
-    "words": 21
+    "text": "The truth behind the Ken and Barbie facade stands as a stark lesson on societal blind spots when people are seduced by superficial glamor.",
+    "words": 24
    },
    {
     "id": "1.13#6",
-    "text": "Join us as we step into Act Two to unravel the dark trajectory of behavioral escalation.",
-    "words": 16
+    "text": "Let us examine the forensic behavioral insights into how this criminal dynamic secretly evolved.",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "1.14",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "*Heavy iron door slamming shut with a definitive clang.*"
+ },
+ {
+  "id": "1.15",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "composed, introducing deep investigative dossier",
+  "text": "Welcome to the Amber eyes channel and our criminal psychology dossier today. Together, we will unlock one of the most shocking and contentious cases in legal history: the file of Paul Bernardo and Karla Homolka. This episode will dissect the phenomenon of Folie à Deux, the manipulative victimhood strategy that weaponized compassion, and the bitter legal compromise known as the Deal with the Devil. Furthermore, we will analyze the 10 Psychological Markers to help recognize toxic co-dependent dynamics in everyday life. This is not merely a tale of a past crime, but an urgent survival lesson for our present safety. Please join us as we step into Act Two to unravel the escalating trajectory of this predatory alliance.",
+  "sentences": [
+   {
+    "id": "1.15#1",
+    "text": "Welcome to the Amber eyes channel and our criminal psychology dossier today.",
+    "words": 12
+   },
+   {
+    "id": "1.15#2",
+    "text": "Together, we will unlock one of the most shocking and contentious cases in legal history: the file of Paul Bernardo and Karla Homolka.",
+    "words": 23
+   },
+   {
+    "id": "1.15#3",
+    "text": "This episode will dissect the phenomenon of Folie à Deux, the manipulative victimhood strategy that weaponized compassion, and the bitter legal compromise known as the Deal with the Devil.",
+    "words": 29
+   },
+   {
+    "id": "1.15#4",
+    "text": "Furthermore, we will analyze the 10 Psychological Markers to help recognize toxic co-dependent dynamics in everyday life.",
+    "words": 17
+   },
+   {
+    "id": "1.15#5",
+    "text": "This is not merely a tale of a past crime, but an urgent survival lesson for our present safety.",
+    "words": 19
+   },
+   {
+    "id": "1.15#6",
+    "text": "Please join us as we step into Act Two to unravel the escalating trajectory of this predatory alliance.",
+    "words": 18
    }
   ]
  },
@@ -301,45 +361,45 @@
   "id": "2.01",
   "act": 2,
   "kind": "BGM",
-  "desc": "*Chilly minimalist piano notes echoing in the quiet night, interspersed with deliberate keystrokes.*"
+  "desc": "*Chilly minimalist piano chords chime quietly, accompanied by the rhythmic mechanical clicking of a keyboard in the dead of night.*"
  },
  {
   "id": "2.02",
   "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "measured, somber, transitioning into behavioral crime scene analysis",
-  "text": "When two innocent young girls vanished in the Niagara region, investigators realized they were not dealing with isolated disappearances. The perpetrator had not materialized out of thin air; he was a methodical predator honing his predatory craft over years in the shadows. The crimes of Paul Bernardo and Karla Homolka were the grotesque culmination of a fantasy addiction and escalating psychological tolerance. Much like a chemical addiction, once earlier deviant acts failed to deliver the intoxicating rush of power, the threshold of gratification escalated drastically. Their destructive trajectory progressed systematically across 4 distinct behavioral escalation stages spanning 5 years. We invite the Investigator to reconstruct these critical phases from the official case records.",
+  "direction": "slow, deliberate cadence, opening behavioral crime scene analysis",
+  "text": "When two innocent teenagers vanished in succession across the Niagara region, investigators recognized they were not confronting isolated abductions. Predators do not emerge from a vacuum; they refine their predatory tradecraft through years of stalking in the shadows. The crimes of Paul Bernardo and Karla Homolka were the product of a toxic cycle of fantasy and sensation tolerance. Much like an addiction, when initial acts no longer produce the requisite high of omnipotent control, the threshold of gratification must be pushed higher. The couple's behavioral trajectory operated across four distinct escalating rungs of violence over five years. Let us hear from the Investigator as he reconstructs the operational development of this criminal progression.",
   "sentences": [
    {
     "id": "2.02#1",
-    "text": "When two innocent young girls vanished in the Niagara region, investigators realized they were not dealing with isolated disappearances.",
+    "text": "When two innocent teenagers vanished in succession across the Niagara region, investigators recognized they were not confronting isolated abductions.",
     "words": 19
    },
    {
     "id": "2.02#2",
-    "text": "The perpetrator had not materialized out of thin air; he was a methodical predator honing his predatory craft over years in the shadows.",
-    "words": 23
+    "text": "Predators do not emerge from a vacuum; they refine their predatory tradecraft through years of stalking in the shadows.",
+    "words": 19
    },
    {
     "id": "2.02#3",
-    "text": "The crimes of Paul Bernardo and Karla Homolka were the grotesque culmination of a fantasy addiction and escalating psychological tolerance.",
+    "text": "The crimes of Paul Bernardo and Karla Homolka were the product of a toxic cycle of fantasy and sensation tolerance.",
     "words": 20
    },
    {
     "id": "2.02#4",
-    "text": "Much like a chemical addiction, once earlier deviant acts failed to deliver the intoxicating rush of power, the threshold of gratification escalated drastically.",
-    "words": 23
+    "text": "Much like an addiction, when initial acts no longer produce the requisite high of omnipotent control, the threshold of gratification must be pushed higher.",
+    "words": 24
    },
    {
     "id": "2.02#5",
-    "text": "Their destructive trajectory progressed systematically across 4 distinct behavioral escalation stages spanning 5 years.",
-    "words": 14
+    "text": "The couple's behavioral trajectory operated across four distinct escalating rungs of violence over five years.",
+    "words": 15
    },
    {
     "id": "2.02#6",
-    "text": "We invite the Investigator to reconstruct these critical phases from the official case records.",
-    "words": 14
+    "text": "Let us hear from the Investigator as he reconstructs the operational development of this criminal progression.",
+    "words": 16
    }
   ]
  },
@@ -347,75 +407,75 @@
   "id": "2.03",
   "act": 2,
   "kind": "SFX",
-  "desc": "*Paper folders opening, crisp clicking of a computer mouse searching a database.*"
+  "desc": "*Pages of case files rustling and mechanical mouse clicks.*"
  },
  {
   "id": "2.04",
   "act": 2,
   "kind": "LOI",
   "role": "D",
-  "direction": "firm, detached, emphasizing each forensic milestone",
-  "text": "Based on inter-agency intelligence, we mapped Paul Bernardo's descent through 4 distinct escalation stages: Stage One: Lone suburban ambushes. Beginning in May 1987, Bernardo stalked and carried out at least 14 predatory assaults against young women in Scarborough, operating entirely alone under cover of darkness. Stage Two: Forming the partnership and violating family. In October 1987, he met Karla Homolka; their deviant bond culminated on Christmas Eve 1990 in drugging Karla's 15-year-old sister Tammy Homolka with stolen veterinary sedatives, leading to her tragic death. Stage Three: Residential confinement. In June 1991, right around their marriage, they abducted Leslie Mahaffy, confining and tormenting her at 57 Bayview Drive before ending her young life. And Stage Four: Brazen daytime abductions. In April 1992, they snatched Kristen French in broad daylight from a public church parking lot in Saint Catharines, proving their delusional sense of omnipotence had entirely eclipsed any fear of detection. What proved most chilling was the calculated division of labor between both perpetrators in managing confinement and covering their tracks. They utilized concrete and industrial tools to conceal evidence in Lake Gibson, deliberately misleading forensic search efforts. This marked a terrifying evolution from a solitary prowler into an organized, lethal predatory pair.",
+  "direction": "firm, dispassionate tone, detailing case milestones",
+  "text": "Based on inter-agency investigative data, we reconstructed Paul Bernardo's trajectory of moral degeneration across four distinct stages of escalation. Rung One: Solitary predatory ambushes in suburban enclaves. Starting in May 1987, Paul Bernardo stalked and assaulted at least fourteen young women in Scarborough, operating alone and escaping into the night. Rung Two: Establishing the predatory alliance and violating family. In October 1987, he met Karla Homolka; their deviant bond led them to target Karla's own fifteen-year-old sister, Tammy Homolka, on Christmas Eve 1990 using stolen veterinary anesthetics, resulting in the girl's tragic death. Rung Three: Prolonged residential captivity at their private home. In June 1991, following their wedding, they abducted Leslie Mahaffy, holding her captive and abusing her inside 57 Bayview Drive before ending her life. And Rung Four: Brazen daytime public abduction. In April 1992, they ambushed Kristen French in a busy Saint Catharines church parking lot in broad daylight, proving that omnipotent hubris had completely eclipsed the fear of detection. Most alarming was the calculated synchronization between the two perpetrators in holding victims captive and destroying forensic evidence after each crime. They utilized concrete encasement and mechanical tools to conceal evidence in the waters of Lake Gibson to misdirect authorities. It marked the terrifying transformation from a solitary prowler into an organized, lethal serial predation team.",
   "sentences": [
    {
     "id": "2.04#1",
-    "text": "Based on inter-agency intelligence, we mapped Paul Bernardo's descent through 4 distinct escalation stages:",
-    "words": 14
+    "text": "Based on inter-agency investigative data, we reconstructed Paul Bernardo's trajectory of moral degeneration across four distinct stages of escalation.",
+    "words": 19
    },
    {
     "id": "2.04#2",
-    "text": "Stage One: Lone suburban ambushes.",
-    "words": 5
-   },
-   {
-    "id": "2.04#3",
-    "text": "Beginning in May 1987, Bernardo stalked and carried out at least 14 predatory assaults against young women in Scarborough, operating entirely alone under cover of darkness.",
-    "words": 26
-   },
-   {
-    "id": "2.04#4",
-    "text": "Stage Two: Forming the partnership and violating family.",
+    "text": "Rung One: Solitary predatory ambushes in suburban enclaves.",
     "words": 8
    },
    {
+    "id": "2.04#3",
+    "text": "Starting in May 1987, Paul Bernardo stalked and assaulted at least fourteen young women in Scarborough, operating alone and escaping into the night.",
+    "words": 23
+   },
+   {
+    "id": "2.04#4",
+    "text": "Rung Two: Establishing the predatory alliance and violating family.",
+    "words": 9
+   },
+   {
     "id": "2.04#5",
-    "text": "In October 1987, he met Karla Homolka; their deviant bond culminated on Christmas Eve 1990 in drugging Karla's 15-year-old sister Tammy Homolka with stolen veterinary sedatives, leading to her tragic death.",
-    "words": 31
+    "text": "In October 1987, he met Karla Homolka; their deviant bond led them to target Karla's own fifteen-year-old sister, Tammy Homolka, on Christmas Eve 1990 using stolen veterinary anesthetics, resulting in the girl's tragic death.",
+    "words": 34
    },
    {
     "id": "2.04#6",
-    "text": "Stage Three: Residential confinement.",
-    "words": 4
+    "text": "Rung Three: Prolonged residential captivity at their private home.",
+    "words": 9
    },
    {
     "id": "2.04#7",
-    "text": "In June 1991, right around their marriage, they abducted Leslie Mahaffy, confining and tormenting her at 57 Bayview Drive before ending her young life.",
+    "text": "In June 1991, following their wedding, they abducted Leslie Mahaffy, holding her captive and abusing her inside 57 Bayview Drive before ending her life.",
     "words": 24
    },
    {
     "id": "2.04#8",
-    "text": "And Stage Four: Brazen daytime abductions.",
-    "words": 6
+    "text": "And Rung Four: Brazen daytime public abduction.",
+    "words": 7
    },
    {
     "id": "2.04#9",
-    "text": "In April 1992, they snatched Kristen French in broad daylight from a public church parking lot in Saint Catharines, proving their delusional sense of omnipotence had entirely eclipsed any fear of detection.",
-    "words": 32
+    "text": "In April 1992, they ambushed Kristen French in a busy Saint Catharines church parking lot in broad daylight, proving that omnipotent hubris had completely eclipsed the fear of detection.",
+    "words": 29
    },
    {
     "id": "2.04#10",
-    "text": "What proved most chilling was the calculated division of labor between both perpetrators in managing confinement and covering their tracks.",
-    "words": 20
+    "text": "Most alarming was the calculated synchronization between the two perpetrators in holding victims captive and destroying forensic evidence after each crime.",
+    "words": 21
    },
    {
     "id": "2.04#11",
-    "text": "They utilized concrete and industrial tools to conceal evidence in Lake Gibson, deliberately misleading forensic search efforts.",
-    "words": 17
+    "text": "They utilized concrete encasement and mechanical tools to conceal evidence in the waters of Lake Gibson to misdirect authorities.",
+    "words": 19
    },
    {
     "id": "2.04#12",
-    "text": "This marked a terrifying evolution from a solitary prowler into an organized, lethal predatory pair.",
-    "words": 15
+    "text": "It marked the terrifying transformation from a solitary prowler into an organized, lethal serial predation team.",
+    "words": 16
    }
   ]
  },
@@ -424,40 +484,65 @@
   "act": 2,
   "kind": "NGHI",
   "sec": 1.5,
-  "desc": ""
+  "desc": "khoảng lặng kịch tính"
  },
  {
   "id": "2.06",
   "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "somber, honoring the victim's dignity and courage",
-  "text": "Looking at the victims' profiles, the cold cruelty of predator power asymmetry becomes sickeningly evident. Tammy Homolka was an innocent 15-year-old girl who placed absolute trust in her older biological sister. Leslie Mahaffy and Kristen French were bright high school students whose futures were violently stolen simply for crossing a predator's radar. Yet historical truth demands that we honor the extraordinary dignity and resilience of Kristen French. Throughout her grueling days in captivity, that courageous 15-year-old steadfastly refused to surrender her spirit and fought bravely to the very end.",
+  "direction": "contemplative, honoring victims' dignity and bravery",
+  "text": "Looking at the identities of the victims, we confront the raw cruelty of asymmetrical predatory power. Tammy Homolka was an innocent fifteen-year-old girl who placed absolute trust in her biological older sister. Leslie Mahaffy and Kristen French were promising high school students whose vibrant futures were extinguished simply because they crossed paths with apex predators. Yet historical truth must forever honor the indomitable courage and human dignity of Kristen French. Throughout her harrowing days of captivity, that fifteen-year-old girl resolutely refused to be broken and fought with heroic defiance to her last breath. In the suffocating darkness of such brutality, Canadian judicial history forever enshrines the name of Kristen French as a beacon of courage. That fifteen-year-old girl never surrendered, nor did she ever plead in despair. Through extraordinary resilience and an indomitable will to survive, Kristen fought back fiercely until her very last breath to protect her dignity. The frantic scratch marks she inflicted across the perpetrator's body became an invaluable forensic key, locking Paul Bernardo's DNA into evidence to drag him before justice. Kristen's courage reminds us that even when the body is imprisoned, human dignity and fortitude remain something no brute force can ever tear away.",
   "sentences": [
    {
     "id": "2.06#1",
-    "text": "Looking at the victims' profiles, the cold cruelty of predator power asymmetry becomes sickeningly evident.",
-    "words": 15
+    "text": "Looking at the identities of the victims, we confront the raw cruelty of asymmetrical predatory power.",
+    "words": 16
    },
    {
     "id": "2.06#2",
-    "text": "Tammy Homolka was an innocent 15-year-old girl who placed absolute trust in her older biological sister.",
+    "text": "Tammy Homolka was an innocent fifteen-year-old girl who placed absolute trust in her biological older sister.",
     "words": 16
    },
    {
     "id": "2.06#3",
-    "text": "Leslie Mahaffy and Kristen French were bright high school students whose futures were violently stolen simply for crossing a predator's radar.",
-    "words": 21
+    "text": "Leslie Mahaffy and Kristen French were promising high school students whose vibrant futures were extinguished simply because they crossed paths with apex predators.",
+    "words": 23
    },
    {
     "id": "2.06#4",
-    "text": "Yet historical truth demands that we honor the extraordinary dignity and resilience of Kristen French.",
+    "text": "Yet historical truth must forever honor the indomitable courage and human dignity of Kristen French.",
     "words": 15
    },
    {
     "id": "2.06#5",
-    "text": "Throughout her grueling days in captivity, that courageous 15-year-old steadfastly refused to surrender her spirit and fought bravely to the very end.",
+    "text": "Throughout her harrowing days of captivity, that fifteen-year-old girl resolutely refused to be broken and fought with heroic defiance to her last breath.",
+    "words": 23
+   },
+   {
+    "id": "2.06#6",
+    "text": "In the suffocating darkness of such brutality, Canadian judicial history forever enshrines the name of Kristen French as a beacon of courage.",
     "words": 22
+   },
+   {
+    "id": "2.06#7",
+    "text": "That fifteen-year-old girl never surrendered, nor did she ever plead in despair.",
+    "words": 12
+   },
+   {
+    "id": "2.06#8",
+    "text": "Through extraordinary resilience and an indomitable will to survive, Kristen fought back fiercely until her very last breath to protect her dignity.",
+    "words": 22
+   },
+   {
+    "id": "2.06#9",
+    "text": "The frantic scratch marks she inflicted across the perpetrator's body became an invaluable forensic key, locking Paul Bernardo's DNA into evidence to drag him before justice.",
+    "words": 26
+   },
+   {
+    "id": "2.06#10",
+    "text": "Kristen's courage reminds us that even when the body is imprisoned, human dignity and fortitude remain something no brute force can ever tear away.",
+    "words": 24
    }
   ]
  },
@@ -466,38 +551,38 @@
   "act": 2,
   "kind": "LOI",
   "role": "D",
-  "direction": "firm, demarcating Modus Operandi from behavioral Signature",
-  "text": "Kristen French left fierce scratch marks across Paul Bernardo's body as she fought desperately in self-defense. It was her brave resistance that directly preserved critical forensic DNA evidence from her attacker. In forensic methodology, we draw an absolute distinction between “Modus Operandi” and behavioral Signature. Their Modus Operandi involved intimidation tools, isolating victims, administering stolen tranquilizers, and concealing materials to evade capture. This functional method continually evolved and sharpened with each crime to counter law enforcement tactics. Yet their “behavioral Signature” — the immutable psychological fingerprint — was their compulsive need to videotape the crimes.",
+  "direction": "firm, demarcating modus operandi from psychological signature",
+  "text": "Kristen French left fierce scratch marks across Paul Bernardo's body during her desperate self-defense struggle. That courageous resistance preserved crucial biological samples that secured the perpetrator's DNA profile. From a profiling perspective, we draw a rigorous line between Modus Operandi and Psychological Signature. Their Modus Operandi involved intimidation weapons, communication cut-offs, animal tranquilizers, and forensic countermeasures to evade capture. This tradecraft constantly evolved and adapted after every crime to counter police tactics. However, their Psychological Signature—the element that never varied—was the pathological compulsion to videotape their crimes.",
   "sentences": [
    {
     "id": "2.07#1",
-    "text": "Kristen French left fierce scratch marks across Paul Bernardo's body as she fought desperately in self-defense.",
-    "words": 16
+    "text": "Kristen French left fierce scratch marks across Paul Bernardo's body during her desperate self-defense struggle.",
+    "words": 15
    },
    {
     "id": "2.07#2",
-    "text": "It was her brave resistance that directly preserved critical forensic DNA evidence from her attacker.",
-    "words": 15
+    "text": "That courageous resistance preserved crucial biological samples that secured the perpetrator's DNA profile.",
+    "words": 13
    },
    {
     "id": "2.07#3",
-    "text": "In forensic methodology, we draw an absolute distinction between “Modus Operandi” and behavioral Signature.",
-    "words": 14
-   },
-   {
-    "id": "2.07#4",
-    "text": "Their Modus Operandi involved intimidation tools, isolating victims, administering stolen tranquilizers, and concealing materials to evade capture.",
-    "words": 17
-   },
-   {
-    "id": "2.07#5",
-    "text": "This functional method continually evolved and sharpened with each crime to counter law enforcement tactics.",
+    "text": "From a profiling perspective, we draw a rigorous line between Modus Operandi and Psychological Signature.",
     "words": 15
    },
    {
+    "id": "2.07#4",
+    "text": "Their Modus Operandi involved intimidation weapons, communication cut-offs, animal tranquilizers, and forensic countermeasures to evade capture.",
+    "words": 16
+   },
+   {
+    "id": "2.07#5",
+    "text": "This tradecraft constantly evolved and adapted after every crime to counter police tactics.",
+    "words": 13
+   },
+   {
     "id": "2.07#6",
-    "text": "Yet their “behavioral Signature” — the immutable psychological fingerprint — was their compulsive need to videotape the crimes.",
-    "words": 18
+    "text": "However, their Psychological Signature—the element that never varied—was the pathological compulsion to videotape their crimes.",
+    "words": 15
    }
   ]
  },
@@ -505,45 +590,65 @@
   "id": "2.08",
   "act": 2,
   "kind": "SFX",
-  "desc": "*Mechanical camcorder tape whirring, tactile click of a recording switch.*"
+  "desc": "*Whirring of a video cassette mechanism and mechanical camera clicks.*"
  },
  {
   "id": "2.09",
   "act": 2,
   "kind": "LOI",
   "role": "C",
-  "direction": "academic, dissecting psychological mechanics behind the videotapes",
-  "text": "Indeed, utilizing a camcorder to document the confinement served zero functional utility in evading capture. It was an unmistakable “Signature” behavior — satisfying an insatiable craving for absolute domination and psychological possession. They forced victims to address them by subservient titles, transforming human suffering into grotesque trophies on magnetic tape. For Paul Bernardo, these recordings served as a toxic catalyst to rekindle grandiose fantasies whenever he reviewed them in solitude. For Karla Homolka, operating the camera signaled her absolute allegiance and intimate partnership with her disturbed spouse. Those hidden recordings would ultimately prove to be the single forensic key exposing the true reality of their criminal union.",
+  "direction": "academic tone, dissecting video evidence psychology",
+  "text": "Indeed, utilizing a handheld camcorder to record every moment of captivity served zero utilitarian escape purpose. That behavior belongs strictly to the Signature—a psychological marker satisfying the pathological drive for absolute dominion and possession. They compelled their victims to address them with submissive honorifics, converting human agony into trophy recordings. For Paul Bernardo, these tapes served as an intoxicating stimulant, reigniting his megalomaniacal delusions whenever he rewatched them in isolation. And for Karla Homolka, operating the camera was how she reaffirmed her intimate alignment with her deviant partner. Those video recordings were the definitive key that stripped away every deceptive layer of this lethal alliance. From a behavioral science perspective, the compulsive urge to use a camcorder to document the entire commission of crimes constitutes a Psychological Signature reflecting profound character distortion. For Paul Bernardo, the camcorder was never merely a storage device; it served as a Neurological Trophy. Individuals with sadistic narcissistic structures live in subconscious dread of their own inadequacy; replaying these recordings was his vehicle to reignite the fantasy of omnipotent control whenever mundane reality encroached. And for Karla Homolka, actively directing camera angles and barking commands at victims stands as damning proof of moral decay: she extracted intoxicating empowerment from standing as an equal co-predator deciding the fate of fellow human beings.",
   "sentences": [
    {
     "id": "2.09#1",
-    "text": "Indeed, utilizing a camcorder to document the confinement served zero functional utility in evading capture.",
-    "words": 15
+    "text": "Indeed, utilizing a handheld camcorder to record every moment of captivity served zero utilitarian escape purpose.",
+    "words": 16
    },
    {
     "id": "2.09#2",
-    "text": "It was an unmistakable “Signature” behavior — satisfying an insatiable craving for absolute domination and psychological possession.",
-    "words": 17
-   },
-   {
-    "id": "2.09#3",
-    "text": "They forced victims to address them by subservient titles, transforming human suffering into grotesque trophies on magnetic tape.",
+    "text": "That behavior belongs strictly to the Signature—a psychological marker satisfying the pathological drive for absolute dominion and possession.",
     "words": 18
    },
    {
+    "id": "2.09#3",
+    "text": "They compelled their victims to address them with submissive honorifics, converting human agony into trophy recordings.",
+    "words": 16
+   },
+   {
     "id": "2.09#4",
-    "text": "For Paul Bernardo, these recordings served as a toxic catalyst to rekindle grandiose fantasies whenever he reviewed them in solitude.",
+    "text": "For Paul Bernardo, these tapes served as an intoxicating stimulant, reigniting his megalomaniacal delusions whenever he rewatched them in isolation.",
     "words": 20
    },
    {
     "id": "2.09#5",
-    "text": "For Karla Homolka, operating the camera signaled her absolute allegiance and intimate partnership with her disturbed spouse.",
-    "words": 17
+    "text": "And for Karla Homolka, operating the camera was how she reaffirmed her intimate alignment with her deviant partner.",
+    "words": 18
    },
    {
     "id": "2.09#6",
-    "text": "Those hidden recordings would ultimately prove to be the single forensic key exposing the true reality of their criminal union.",
-    "words": 20
+    "text": "Those video recordings were the definitive key that stripped away every deceptive layer of this lethal alliance.",
+    "words": 17
+   },
+   {
+    "id": "2.09#7",
+    "text": "From a behavioral science perspective, the compulsive urge to use a camcorder to document the entire commission of crimes constitutes a Psychological Signature reflecting profound character distortion.",
+    "words": 27
+   },
+   {
+    "id": "2.09#8",
+    "text": "For Paul Bernardo, the camcorder was never merely a storage device; it served as a Neurological Trophy.",
+    "words": 17
+   },
+   {
+    "id": "2.09#9",
+    "text": "Individuals with sadistic narcissistic structures live in subconscious dread of their own inadequacy; replaying these recordings was his vehicle to reignite the fantasy of omnipotent control whenever mundane reality encroached.",
+    "words": 30
+   },
+   {
+    "id": "2.09#10",
+    "text": "And for Karla Homolka, actively directing camera angles and barking commands at victims stands as damning proof of moral decay: she extracted intoxicating empowerment from standing as an equal co-predator deciding the fate of fellow human beings.",
+    "words": 37
    }
   ]
  },
@@ -552,32 +657,32 @@
   "act": 2,
   "kind": "LOI",
   "role": "H",
-  "direction": "somber, transitioning to the clinical analysis of Folie a Deux",
-  "text": "Modus Operandi kept them hidden for years, but their obsessive behavioral Signature forged the undeniable evidence of their guilt. Yet what could drive an attractive young woman with a steady career to willingly orchestrate such cruel depravity? How could a romantic bond devolve into a malignant resonance chamber obliterating every trace of human conscience? Step with us into Act Three as we dissect the enigmatic behavioral phenomenon known as “Folie à Deux”. We invite the Psychologist to illuminate the cognitive machinery inside the minds of Ken and Barbie.",
+  "direction": "somber, segueing into psychological syndrome analysis",
+  "text": "Their tradecraft concealed their atrocities for years, yet it was their pathological psychological signature that forged the ironclad evidence sealing their fate. Yet what drove an attractive, educated young woman with a steady career to actively participate in such unconscionable cruelty? How could a romantic bond transform into an incendiary chamber of malignant pathology that incinerated every moral boundary? Join us as we step into Act Three to dissect the extraordinary psychological phenomenon known as Folie à Deux. Let us invite the Psychologist to illuminate the inner workings of the Ken and Barbie dynamic.",
   "sentences": [
    {
     "id": "2.10#1",
-    "text": "Modus Operandi kept them hidden for years, but their obsessive behavioral Signature forged the undeniable evidence of their guilt.",
-    "words": 19
+    "text": "Their tradecraft concealed their atrocities for years, yet it was their pathological psychological signature that forged the ironclad evidence sealing their fate.",
+    "words": 22
    },
    {
     "id": "2.10#2",
-    "text": "Yet what could drive an attractive young woman with a steady career to willingly orchestrate such cruel depravity?",
-    "words": 18
+    "text": "Yet what drove an attractive, educated young woman with a steady career to actively participate in such unconscionable cruelty?",
+    "words": 19
    },
    {
     "id": "2.10#3",
-    "text": "How could a romantic bond devolve into a malignant resonance chamber obliterating every trace of human conscience?",
-    "words": 17
-   },
-   {
-    "id": "2.10#4",
-    "text": "Step with us into Act Three as we dissect the enigmatic behavioral phenomenon known as “Folie à Deux”.",
+    "text": "How could a romantic bond transform into an incendiary chamber of malignant pathology that incinerated every moral boundary?",
     "words": 18
    },
    {
+    "id": "2.10#4",
+    "text": "Join us as we step into Act Three to dissect the extraordinary psychological phenomenon known as Folie à Deux.",
+    "words": 19
+   },
+   {
     "id": "2.10#5",
-    "text": "We invite the Psychologist to illuminate the cognitive machinery inside the minds of Ken and Barbie.",
+    "text": "Let us invite the Psychologist to illuminate the inner workings of the Ken and Barbie dynamic.",
     "words": 16
    }
   ]
@@ -586,45 +691,45 @@
   "id": "2.11",
   "act": 2,
   "kind": "BGM",
-  "desc": "*Dark cello note sustaining deeply, mutating into an oppressive sub-bass drone.*"
+  "desc": "*Dark cello sustains a haunting low note, melting into an oppressive electronic sub-bass drone.*"
  },
  {
   "id": "2.12",
   "act": 2,
   "kind": "LOI",
   "role": "D",
-  "direction": "detached, closing the crime scene brief and bridging to psychology",
-  "text": "Before examining internal psychology, the physical search data at 57 Bayview Drive must be objectively assessed. While the exterior pink home appeared utterly welcoming, the interior bedrooms and basement were configured for strict isolation. Hundreds of personal belongings tied to victims were cataloged and rigorously cross-matched through DNA testing. Each taken memento carried zero monetary worth, serving solely as psychological trophies asserting dominance. Investigators observed unequivocally that the perpetrators never operated in spontaneous panic. Every calculated move reflected the cold deliberation of minds retaining complete cognitive lucidity.",
+  "direction": "cold, closing the physical crime scene to introduce behavioral files",
+  "text": "Before analyzing internal psychological dynamics, the physical search data at 57 Bayview Drive must be objectively evaluated. The house was painted cheerful pink on the outside, but the master bedroom and basement were organized like clinical holding cells. Hundreds of personal belongings belonging to the victims were recovered and systematically cross-referenced for DNA. Every stolen keepsake carried zero commercial value; each served exclusively as a psychological trophy asserting conquest. Investigators noted that the perpetrators never operated in a state of disorganized panic. Every tactical maneuver exhibited the chilling calculation of intellects in total command of their faculties.",
   "sentences": [
    {
     "id": "2.12#1",
-    "text": "Before examining internal psychology, the physical search data at 57 Bayview Drive must be objectively assessed.",
-    "words": 16
+    "text": "Before analyzing internal psychological dynamics, the physical search data at 57 Bayview Drive must be objectively evaluated.",
+    "words": 17
    },
    {
     "id": "2.12#2",
-    "text": "While the exterior pink home appeared utterly welcoming, the interior bedrooms and basement were configured for strict isolation.",
-    "words": 18
+    "text": "The house was painted cheerful pink on the outside, but the master bedroom and basement were organized like clinical holding cells.",
+    "words": 21
    },
    {
     "id": "2.12#3",
-    "text": "Hundreds of personal belongings tied to victims were cataloged and rigorously cross-matched through DNA testing.",
+    "text": "Hundreds of personal belongings belonging to the victims were recovered and systematically cross-referenced for DNA.",
     "words": 15
    },
    {
     "id": "2.12#4",
-    "text": "Each taken memento carried zero monetary worth, serving solely as psychological trophies asserting dominance.",
-    "words": 14
+    "text": "Every stolen keepsake carried zero commercial value; each served exclusively as a psychological trophy asserting conquest.",
+    "words": 16
    },
    {
     "id": "2.12#5",
-    "text": "Investigators observed unequivocally that the perpetrators never operated in spontaneous panic.",
-    "words": 11
+    "text": "Investigators noted that the perpetrators never operated in a state of disorganized panic.",
+    "words": 13
    },
    {
     "id": "2.12#6",
-    "text": "Every calculated move reflected the cold deliberation of minds retaining complete cognitive lucidity.",
-    "words": 13
+    "text": "Every tactical maneuver exhibited the chilling calculation of intellects in total command of their faculties.",
+    "words": 15
    }
   ]
  },
@@ -632,45 +737,45 @@
   "id": "3.01",
   "act": 3,
   "kind": "BGM",
-  "desc": "*Mournful cello notes mingling with deep sub-bass resonance, establishing an austere forensic surgical atmosphere.*"
+  "desc": "*Cello weaves mournful low registers with pulsing sub-bass, establishing an ominous atmosphere fitting a psychological post-mortem.*"
  },
  {
   "id": "3.02",
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "profound, framing the psychological autopsy with philosophical weight",
-  "text": "Confronting the files of Paul Bernardo and Karla Homolka, every observer is faced with a haunting inquiry: What psychological catalyst transformed an educated, youthful couple into Canada's most notorious predatory union? Was Karla Homolka merely a battered, coerced victim as she so passionately argued before legal authorities? Or did she constitute an indispensable pillar within a lethal symbiotic criminal structure? It must be clarified that the following analysis draws upon behavioral science frameworks and verified public court records rather than arbitrary conjecture. We invite the Psychologist to decipher the architecture of this extraordinary dynamic.",
+  "direction": "posing profound inquiries, opening behavioral post-mortem",
+  "text": "Confronting the dossier of Paul Bernardo and Karla Homolka, every observer is faced with a tormenting question. What psychological force could transform an educated, youthful couple into the most ruthless predators in modern Canadian history? Was Karla Homolka merely an abused, coerced victim as she subsequently portrayed herself before the courts? Or was she an indispensable half of a lethal symbiotic architecture? We must emphasize that the following behavioral assessments are grounded in peer-reviewed clinical frameworks and public trial records, not sensational speculation. Let us invite the Psychologist to unpack this extraordinary psychological dynamic.",
   "sentences": [
    {
     "id": "3.02#1",
-    "text": "Confronting the files of Paul Bernardo and Karla Homolka, every observer is faced with a haunting inquiry:",
+    "text": "Confronting the dossier of Paul Bernardo and Karla Homolka, every observer is faced with a tormenting question.",
     "words": 17
    },
    {
     "id": "3.02#2",
-    "text": "What psychological catalyst transformed an educated, youthful couple into Canada's most notorious predatory union?",
-    "words": 14
+    "text": "What psychological force could transform an educated, youthful couple into the most ruthless predators in modern Canadian history?",
+    "words": 18
    },
    {
     "id": "3.02#3",
-    "text": "Was Karla Homolka merely a battered, coerced victim as she so passionately argued before legal authorities?",
+    "text": "Was Karla Homolka merely an abused, coerced victim as she subsequently portrayed herself before the courts?",
     "words": 16
    },
    {
     "id": "3.02#4",
-    "text": "Or did she constitute an indispensable pillar within a lethal symbiotic criminal structure?",
-    "words": 13
+    "text": "Or was she an indispensable half of a lethal symbiotic architecture?",
+    "words": 11
    },
    {
     "id": "3.02#5",
-    "text": "It must be clarified that the following analysis draws upon behavioral science frameworks and verified public court records rather than arbitrary conjecture.",
-    "words": 22
+    "text": "We must emphasize that the following behavioral assessments are grounded in peer-reviewed clinical frameworks and public trial records, not sensational speculation.",
+    "words": 21
    },
    {
     "id": "3.02#6",
-    "text": "We invite the Psychologist to decipher the architecture of this extraordinary dynamic.",
-    "words": 12
+    "text": "Let us invite the Psychologist to unpack this extraordinary psychological dynamic.",
+    "words": 11
    }
   ]
  },
@@ -679,55 +784,55 @@
   "act": 3,
   "kind": "NGHI",
   "sec": 1.5,
-  "desc": ""
+  "desc": "khoảng lặng kịch tính"
  },
  {
   "id": "3.04",
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "clinical, incisive, dissecting the Folie a Deux pathology",
-  "text": "The classic behavioral framework that best illuminates this dynamic is “Folie à Deux”, or Shared Psychotic Disorder. This rare psychological condition manifests when two disturbed individuals converge, creating an amplifying echo chamber of deviance. Within this toxic bond, Paul Bernardo functioned as the dominant instigator characterized by malignant narcissism and psychopathy. He harbored an insatiable hunger for total dominion, viewing women strictly as utilitarian instruments to feed his megalomaniacal ego. Conversely, Karla Homolka was never a conventional bystander passively swept along by circumstance. Behavioral profilers highlight that Karla exhibited profound affective empathy deficits combined with a pathological terror of romantic abandonment. Rather than fleeing Bernardo's early sadistic tendencies, she experienced a perverse thrill of shared power coupled with obsessive dependency. Once their deviant psychological systems locked together, conventional moral boundaries were entirely incinerated.",
+  "direction": "analytical, articulate, dissecting Folie à Deux",
+  "text": "The foundational clinical framework that elucidates this dynamic is Shared Psychotic Disorder, historically known as Folie à Deux. This is a rare clinical manifestation where two individuals with complementary character pathologies intersect, creating a mutual resonance chamber of crime. Within this partnership, Paul Bernardo served as the primary inducer, characterized by malignant narcissism and antisocial psychopathy. He craved absolute omnipotent subjugation, viewing women merely as disposable props to feed his megalomaniacal self-image. Conversely, Karla Homolka was by no means an ordinary, passive bystander swept along against her will. Behavioral profilers highlight that Karla possessed profound empathy deficits coupled with a pathological terror of romantic abandonment. Rather than recoiling when Paul's predatory compulsions surfaced, Karla discovered in him vicarious power arousal and blind emotional subservience. When these two personality structures fused, every conventional ethical barrier was obliterated.",
   "sentences": [
    {
     "id": "3.04#1",
-    "text": "The classic behavioral framework that best illuminates this dynamic is “Folie à Deux”, or Shared Psychotic Disorder.",
-    "words": 17
+    "text": "The foundational clinical framework that elucidates this dynamic is Shared Psychotic Disorder, historically known as Folie à Deux.",
+    "words": 18
    },
    {
     "id": "3.04#2",
-    "text": "This rare psychological condition manifests when two disturbed individuals converge, creating an amplifying echo chamber of deviance.",
-    "words": 17
+    "text": "This is a rare clinical manifestation where two individuals with complementary character pathologies intersect, creating a mutual resonance chamber of crime.",
+    "words": 21
    },
    {
     "id": "3.04#3",
-    "text": "Within this toxic bond, Paul Bernardo functioned as the dominant instigator characterized by malignant narcissism and psychopathy.",
+    "text": "Within this partnership, Paul Bernardo served as the primary inducer, characterized by malignant narcissism and antisocial psychopathy.",
     "words": 17
    },
    {
     "id": "3.04#4",
-    "text": "He harbored an insatiable hunger for total dominion, viewing women strictly as utilitarian instruments to feed his megalomaniacal ego.",
-    "words": 19
+    "text": "He craved absolute omnipotent subjugation, viewing women merely as disposable props to feed his megalomaniacal self-image.",
+    "words": 16
    },
    {
     "id": "3.04#5",
-    "text": "Conversely, Karla Homolka was never a conventional bystander passively swept along by circumstance.",
-    "words": 13
+    "text": "Conversely, Karla Homolka was by no means an ordinary, passive bystander swept along against her will.",
+    "words": 16
    },
    {
     "id": "3.04#6",
-    "text": "Behavioral profilers highlight that Karla exhibited profound affective empathy deficits combined with a pathological terror of romantic abandonment.",
-    "words": 18
+    "text": "Behavioral profilers highlight that Karla possessed profound empathy deficits coupled with a pathological terror of romantic abandonment.",
+    "words": 17
    },
    {
     "id": "3.04#7",
-    "text": "Rather than fleeing Bernardo's early sadistic tendencies, she experienced a perverse thrill of shared power coupled with obsessive dependency.",
+    "text": "Rather than recoiling when Paul's predatory compulsions surfaced, Karla discovered in him vicarious power arousal and blind emotional subservience.",
     "words": 19
    },
    {
     "id": "3.04#8",
-    "text": "Once their deviant psychological systems locked together, conventional moral boundaries were entirely incinerated.",
-    "words": 13
+    "text": "When these two personality structures fused, every conventional ethical barrier was obliterated.",
+    "words": 12
    }
   ]
  },
@@ -736,33 +841,33 @@
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "reflective, probing deeper into victim objectification",
-  "text": "This toxic symbiosis yielded an utterly ruthless behavioral phenomenon: the total objectification of their victims. Through the warped lenses of Paul and Karla, how were these innocent young girls actually perceived? How could Karla cold-bloodedly deliver her own biological sister into such a devastating trap? That question has haunted and enraged millions of Canadians across multiple decades. We invite the Psychologist to dissect this dark cognitive architecture.",
+  "direction": "thoughtful, exploring victim objectification",
+  "text": "This toxic symbiosis precipitated an excruciatingly callous cognitive phenomenon: the complete objectification of their victims. In the eyes of both Paul and Karla, how were these innocent schoolgirls perceived, Doctor? How could Karla cold-bloodedly deliver her own flesh-and-blood younger sister into this fatal trap? That is the agonizing question that has haunted millions of Canadians for decades. Please unpack this dark cognitive architecture.",
   "sentences": [
    {
     "id": "3.05#1",
-    "text": "This toxic symbiosis yielded an utterly ruthless behavioral phenomenon: the total objectification of their victims.",
+    "text": "This toxic symbiosis precipitated an excruciatingly callous cognitive phenomenon: the complete objectification of their victims.",
     "words": 15
    },
    {
     "id": "3.05#2",
-    "text": "Through the warped lenses of Paul and Karla, how were these innocent young girls actually perceived?",
-    "words": 16
+    "text": "In the eyes of both Paul and Karla, how were these innocent schoolgirls perceived, Doctor?",
+    "words": 15
    },
    {
     "id": "3.05#3",
-    "text": "How could Karla cold-bloodedly deliver her own biological sister into such a devastating trap?",
+    "text": "How could Karla cold-bloodedly deliver her own flesh-and-blood younger sister into this fatal trap?",
     "words": 14
    },
    {
     "id": "3.05#4",
-    "text": "That question has haunted and enraged millions of Canadians across multiple decades.",
-    "words": 12
+    "text": "That is the agonizing question that has haunted millions of Canadians for decades.",
+    "words": 13
    },
    {
     "id": "3.05#5",
-    "text": "We invite the Psychologist to dissect this dark cognitive architecture.",
-    "words": 10
+    "text": "Please unpack this dark cognitive architecture.",
+    "words": 6
    }
   ]
  },
@@ -771,48 +876,78 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "sharp, exposing objectification, compartmentalization, and neutralization",
-  "text": "The pivotal concept here is absolute psychological “Objectification” and Dehumanization. Paul Bernardo treated victims as disposable instruments manufactured solely to satiate his addiction to dominance and sexual conquest. For Karla Homolka, the horror lay in degrading her own sister into a “sacrificial offering” designed to secure her romantic bond with Paul. Karla possessed a crippled “Theory of Mind” regarding others' suffering; pleas for mercy triggered no empathy, perceived merely as obstacles to be suppressed. To sustain everyday functioning, Karla relied heavily upon psychological “Compartmentalization”. She walled off the persona of an animal-loving homemaker in one mental drawer, while keeping her predatory complicity locked in another. Their idyllic home and fairytale nuptials served as a “Shield of Normalcy” allowing her to manufacture an unblemished self-image. She deployed “Techniques of Neutralization” to silence guilt: whispering to herself that she acted purely to please her partner and safeguard her marriage.",
+  "direction": "sharp, unmasking objectification, compartmentalization, and neutralization",
+  "text": "The core psychological mechanisms here are objectification and dehumanization. Paul Bernardo viewed victims as disposable playthings designed solely to feed his addiction to dominance and sexual sadism. For Karla Homolka, the horror lies in her demoting her own sister into a sacrificial offering to cement her bond with Paul. Karla exhibited an absolute deficit in Theory of Mind regarding the pain of others; weeping pleas did not trigger empathy, but were treated as annoying logistical obstacles to eliminate. To sustain her daily life, Karla relied upon extreme cognitive compartmentalization. She sealed off the world of the gentle, animal-loving veterinary assistant in one mental vault, and the nocturnal predator in another completely isolated chamber. The pink house and the storybook wedding served as a Normalization Shield, allowing her to preserve a delusion of personal respectability. She employed classic Techniques of Neutralization to numb her conscience, telling herself she acted merely to please her husband and preserve her home. Many find it inconceivable: how could an older sister cold-heartedly lure her own flesh-and-blood sister into a lethal trap, and subsequently attend her funeral weeping like a grieving sibling? The answer resides in the mechanism of Extreme Compartmentalization paired with Techniques of Neutralization. Within Karla Homolka's psyche, the world of the loving, family-oriented young woman was separated from the nocturnal predator by an impenetrable psychological bulkhead. She anesthetized her conscience through twisted rationalization: sacrificing her younger sister Tammy was deemed a “necessary tribute” to appease Paul's dark cravings and preserve her fairy-tale marriage. When an individual subordinates biological kinship and baseline human morality to narcissistic codependency, they plunge into absolute Moral Coma. They no longer perceive an innocent life pleading for mercy; they see merely an obstacle or an instrument to ensure the selfish survival of their own toxic ego.",
   "sentences": [
    {
     "id": "3.06#1",
-    "text": "The pivotal concept here is absolute psychological “Objectification” and Dehumanization.",
-    "words": 10
+    "text": "The core psychological mechanisms here are objectification and dehumanization.",
+    "words": 9
    },
    {
     "id": "3.06#2",
-    "text": "Paul Bernardo treated victims as disposable instruments manufactured solely to satiate his addiction to dominance and sexual conquest.",
+    "text": "Paul Bernardo viewed victims as disposable playthings designed solely to feed his addiction to dominance and sexual sadism.",
     "words": 18
    },
    {
     "id": "3.06#3",
-    "text": "For Karla Homolka, the horror lay in degrading her own sister into a “sacrificial offering” designed to secure her romantic bond with Paul.",
-    "words": 23
+    "text": "For Karla Homolka, the horror lies in her demoting her own sister into a sacrificial offering to cement her bond with Paul.",
+    "words": 22
    },
    {
     "id": "3.06#4",
-    "text": "Karla possessed a crippled “Theory of Mind” regarding others' suffering; pleas for mercy triggered no empathy, perceived merely as obstacles to be suppressed.",
-    "words": 23
+    "text": "Karla exhibited an absolute deficit in Theory of Mind regarding the pain of others; weeping pleas did not trigger empathy, but were treated as annoying logistical obstacles to eliminate.",
+    "words": 29
    },
    {
     "id": "3.06#5",
-    "text": "To sustain everyday functioning, Karla relied heavily upon psychological “Compartmentalization”.",
-    "words": 10
+    "text": "To sustain her daily life, Karla relied upon extreme cognitive compartmentalization.",
+    "words": 11
    },
    {
     "id": "3.06#6",
-    "text": "She walled off the persona of an animal-loving homemaker in one mental drawer, while keeping her predatory complicity locked in another.",
-    "words": 21
+    "text": "She sealed off the world of the gentle, animal-loving veterinary assistant in one mental vault, and the nocturnal predator in another completely isolated chamber.",
+    "words": 24
    },
    {
     "id": "3.06#7",
-    "text": "Their idyllic home and fairytale nuptials served as a “Shield of Normalcy” allowing her to manufacture an unblemished self-image.",
-    "words": 19
+    "text": "The pink house and the storybook wedding served as a Normalization Shield, allowing her to preserve a delusion of personal respectability.",
+    "words": 21
    },
    {
     "id": "3.06#8",
-    "text": "She deployed “Techniques of Neutralization” to silence guilt: whispering to herself that she acted purely to please her partner and safeguard her marriage.",
+    "text": "She employed classic Techniques of Neutralization to numb her conscience, telling herself she acted merely to please her husband and preserve her home.",
     "words": 23
+   },
+   {
+    "id": "3.06#9",
+    "text": "Many find it inconceivable: how could an older sister cold-heartedly lure her own flesh-and-blood sister into a lethal trap, and subsequently attend her funeral weeping like a grieving sibling?",
+    "words": 29
+   },
+   {
+    "id": "3.06#10",
+    "text": "The answer resides in the mechanism of Extreme Compartmentalization paired with Techniques of Neutralization.",
+    "words": 14
+   },
+   {
+    "id": "3.06#11",
+    "text": "Within Karla Homolka's psyche, the world of the loving, family-oriented young woman was separated from the nocturnal predator by an impenetrable psychological bulkhead.",
+    "words": 23
+   },
+   {
+    "id": "3.06#12",
+    "text": "She anesthetized her conscience through twisted rationalization: sacrificing her younger sister Tammy was deemed a “necessary tribute” to appease Paul's dark cravings and preserve her fairy-tale marriage.",
+    "words": 27
+   },
+   {
+    "id": "3.06#13",
+    "text": "When an individual subordinates biological kinship and baseline human morality to narcissistic codependency, they plunge into absolute Moral Coma.",
+    "words": 19
+   },
+   {
+    "id": "3.06#14",
+    "text": "They no longer perceive an innocent life pleading for mercy; they see merely an obstacle or an instrument to ensure the selfish survival of their own toxic ego.",
+    "words": 28
    }
   ]
  },
@@ -820,55 +955,55 @@
   "id": "3.07",
   "act": 3,
   "kind": "SFX",
-  "desc": "*Glass shattering violently, dry metallic impact reverberating in the quiet.*"
+  "desc": "*Shattering glass followed by a dull, jarring metallic strike.*"
  },
  {
   "id": "3.08",
   "act": 3,
   "kind": "LOI",
   "role": "D",
-  "direction": "clinical, reconstructing the precipitating tipping point and investigative breakthrough",
-  "text": "Yet even the most insidious alliances inevitably encounter an internal breaking point. The psychological breaking point for Ken and Barbie ruptured in January 1993 following weeks of escalating domestic volatility. Paul Bernardo turned his sadistic aggression directly against Karla, severely battering her with a heavy flashlight and sending her to the emergency room. That brutal assault shattered the fairytale illusion, activating raw survival panic inside Karla. Recognizing that her partner now posed an immediate existential threat to her own survival, Karla fled 57 Bayview Drive. Barely a month later, on February 17, 1993, police moved in and arrested Paul Bernardo. Backlogged DNA testing from years earlier finally confirmed Bernardo as the long-sought Scarborough serial predator. Sensing that their criminal ship was sinking irreparably, Karla Homolka initiated the most sophisticated survival scheme of her life.",
+  "direction": "cold, recounting psychological breaking point and investigative turning point",
+  "text": "However, every criminal alliance eventually encounters its internal breaking point. The rupture point for the Ken and Barbie killers arrived in January 1993, following escalating domestic volatility. Paul Bernardo turned his physical aggression directly against Karla, severely assaulting her with a heavy flashlight, requiring hospital emergency treatment. That brutal beating shattered the romantic fairytale facade, triggering Karla's primal instinct for personal survival. Recognizing that her partner had transformed into an immediate threat to her own life, Karla made the decision to flee 57 Bayview Drive. Just one month later, on February 17, 1993, police closed in to arrest Paul Bernardo. Long-delayed DNA analysis from Toronto Police cold files finally confirmed Paul Bernardo as the Scarborough Rapist. Realizing the criminal vessel was sinking, Karla Homolka promptly activated the most sophisticated survival strategy of her life.",
   "sentences": [
    {
     "id": "3.08#1",
-    "text": "Yet even the most insidious alliances inevitably encounter an internal breaking point.",
-    "words": 12
+    "text": "However, every criminal alliance eventually encounters its internal breaking point.",
+    "words": 10
    },
    {
     "id": "3.08#2",
-    "text": "The psychological breaking point for Ken and Barbie ruptured in January 1993 following weeks of escalating domestic volatility.",
-    "words": 18
+    "text": "The rupture point for the Ken and Barbie killers arrived in January 1993, following escalating domestic volatility.",
+    "words": 17
    },
    {
     "id": "3.08#3",
-    "text": "Paul Bernardo turned his sadistic aggression directly against Karla, severely battering her with a heavy flashlight and sending her to the emergency room.",
-    "words": 23
+    "text": "Paul Bernardo turned his physical aggression directly against Karla, severely assaulting her with a heavy flashlight, requiring hospital emergency treatment.",
+    "words": 20
    },
    {
     "id": "3.08#4",
-    "text": "That brutal assault shattered the fairytale illusion, activating raw survival panic inside Karla.",
-    "words": 13
+    "text": "That brutal beating shattered the romantic fairytale facade, triggering Karla's primal instinct for personal survival.",
+    "words": 15
    },
    {
     "id": "3.08#5",
-    "text": "Recognizing that her partner now posed an immediate existential threat to her own survival, Karla fled 57 Bayview Drive.",
-    "words": 19
+    "text": "Recognizing that her partner had transformed into an immediate threat to her own life, Karla made the decision to flee 57 Bayview Drive.",
+    "words": 23
    },
    {
     "id": "3.08#6",
-    "text": "Barely a month later, on February 17, 1993, police moved in and arrested Paul Bernardo.",
+    "text": "Just one month later, on February 17, 1993, police closed in to arrest Paul Bernardo.",
     "words": 15
    },
    {
     "id": "3.08#7",
-    "text": "Backlogged DNA testing from years earlier finally confirmed Bernardo as the long-sought Scarborough serial predator.",
-    "words": 15
+    "text": "Long-delayed DNA analysis from Toronto Police cold files finally confirmed Paul Bernardo as the Scarborough Rapist.",
+    "words": 16
    },
    {
     "id": "3.08#8",
-    "text": "Sensing that their criminal ship was sinking irreparably, Karla Homolka initiated the most sophisticated survival scheme of her life.",
-    "words": 19
+    "text": "Realizing the criminal vessel was sinking, Karla Homolka promptly activated the most sophisticated survival strategy of her life.",
+    "words": 18
    }
   ]
  },
@@ -877,33 +1012,33 @@
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "suspenseful, setting the stage for the interrogation and legal deal",
-  "text": "With her husband placed in handcuffs, the woman from the pink house chose anything but genuine confession. She elected instead to stage the role of a frail, traumatized victim subjugated by relentless domestic terror. A masterclass in empathy manipulation unfolded before the seasoned eyes of detectives and senior prosecutors. That calculated performance yielded one of the most controversial legal compromises of the twentieth century. Join us as we enter Act Four to witness the catastrophic collapse of a judicial illusion.",
+  "direction": "tense anticipation, setting up interrogation room maneuver",
+  "text": "With her husband placed in handcuffs, the mistress of the pink house chose not genuine confession, but tactical maneuvering. She elected to perform the role of a frail, battered victim coerced and terrorized under years of violent captivity. A masterclass in manipulative impression management began unfolding before premier investigators and Crown prosecutors. And that performance would lead to one of the most controversial judicial compromises of the twentieth century. Let us enter Act Four to witness the unraveling of a catastrophic judicial illusion.",
   "sentences": [
    {
     "id": "3.09#1",
-    "text": "With her husband placed in handcuffs, the woman from the pink house chose anything but genuine confession.",
-    "words": 17
+    "text": "With her husband placed in handcuffs, the mistress of the pink house chose not genuine confession, but tactical maneuvering.",
+    "words": 19
    },
    {
     "id": "3.09#2",
-    "text": "She elected instead to stage the role of a frail, traumatized victim subjugated by relentless domestic terror.",
-    "words": 17
+    "text": "She elected to perform the role of a frail, battered victim coerced and terrorized under years of violent captivity.",
+    "words": 19
    },
    {
     "id": "3.09#3",
-    "text": "A masterclass in empathy manipulation unfolded before the seasoned eyes of detectives and senior prosecutors.",
-    "words": 15
+    "text": "A masterclass in manipulative impression management began unfolding before premier investigators and Crown prosecutors.",
+    "words": 14
    },
    {
     "id": "3.09#4",
-    "text": "That calculated performance yielded one of the most controversial legal compromises of the twentieth century.",
-    "words": 15
+    "text": "And that performance would lead to one of the most controversial judicial compromises of the twentieth century.",
+    "words": 17
    },
    {
     "id": "3.09#5",
-    "text": "Join us as we enter Act Four to witness the catastrophic collapse of a judicial illusion.",
-    "words": 16
+    "text": "Let us enter Act Four to witness the unraveling of a catastrophic judicial illusion.",
+    "words": 14
    }
   ]
  },
@@ -911,34 +1046,34 @@
   "id": "3.10",
   "act": 3,
   "kind": "BGM",
-  "desc": "*A solitary sad piano note lingering before decaying into the silence.*"
+  "desc": "*A somber piano note tolls and dissipates into total silence.*"
  },
  {
   "id": "3.11",
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "succinct, summarizing the cold calculation in criminal betrayal",
-  "text": "Behaviorally, this betrayal sprang not from a moral awakening, but strictly from ruthless self-preservation. Once the Folie à Deux echo chamber fractures under mortal self-interest, the secondary partner unhesitatingly sacrifices the instigator. Karla Homolka understood instinctively that whoever traded information first would control their own legal destiny. This stands as the ultimate lesson regarding the true nature of psychopathic loyalties when consequences loom.",
+  "direction": "succinct summary, exposing calculating psychology of betrayal",
+  "text": "From a behavioral standpoint, this betrayal did not stem from moral awakening, but was purely an act of calculated self-preservation. When the Folie à Deux chamber is shattered by existential conflict, the accomplice never hesitates to sacrifice the primary inducer. Karla Homolka understood that whoever spoke first to Crown authorities would dictate the narrative and control their own fate. It stands as a bitter lesson regarding the true nature of psychopathic accomplices facing inevitable retribution.",
   "sentences": [
    {
     "id": "3.11#1",
-    "text": "Behaviorally, this betrayal sprang not from a moral awakening, but strictly from ruthless self-preservation.",
-    "words": 14
+    "text": "From a behavioral standpoint, this betrayal did not stem from moral awakening, but was purely an act of calculated self-preservation.",
+    "words": 20
    },
    {
     "id": "3.11#2",
-    "text": "Once the Folie à Deux echo chamber fractures under mortal self-interest, the secondary partner unhesitatingly sacrifices the instigator.",
-    "words": 18
+    "text": "When the Folie à Deux chamber is shattered by existential conflict, the accomplice never hesitates to sacrifice the primary inducer.",
+    "words": 20
    },
    {
     "id": "3.11#3",
-    "text": "Karla Homolka understood instinctively that whoever traded information first would control their own legal destiny.",
-    "words": 15
+    "text": "Karla Homolka understood that whoever spoke first to Crown authorities would dictate the narrative and control their own fate.",
+    "words": 19
    },
    {
     "id": "3.11#4",
-    "text": "This stands as the ultimate lesson regarding the true nature of psychopathic loyalties when consequences loom.",
+    "text": "It stands as a bitter lesson regarding the true nature of psychopathic accomplices facing inevitable retribution.",
     "words": 16
    }
   ]
@@ -947,44 +1082,44 @@
   "id": "4.01",
   "act": 4,
   "kind": "BGM",
-  "desc": "*Tense, agitated violin phrases echoing the shockwaves of a historic judicial crisis.*"
+  "desc": "*Frantic, tearing violin strokes escalate, capturing rising public hysteria and the historic judicial crisis.*"
  },
  {
   "id": "4.02",
   "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "suspenseful, evoking the suffocating prosecutorial pressure",
-  "text": "In the spring of 1993, the justice system of Ontario faced immense pressure from the public and international media. Paul Bernardo had been detained for the Scarborough assaults, but investigators lacked direct forensic evidence linking him to the murders of Leslie Mahaffy and Kristen French. Bernardo maintained absolute silence, refusing all cooperation and openly defying interrogation teams. Amid this suffocating deadlock, Karla Homolka emerged as the sole viable key to cracking the unsolved murders. Flanked by skilled defense counsel, Karla masterfully capitalized on the “Battered Woman Syndrome” defense. She showcased her injuries from Bernardo's January assault, weeping copiously and asserting she was merely an unwilling witness coerced under deadly threat.",
+  "direction": "gripping, pacing the suffocating pressure on prosecution",
+  "text": "In the spring of 1993, the justice system of Ontario faced staggering pressure from international media and a terrified public. Paul Bernardo was under arrest for the Scarborough assaults, but authorities had zero direct physical evidence linking him to the murders of Leslie Mahaffy and Kristen French. Bernardo maintained absolute silence, defying interrogators and refusing all cooperation. In this suffocating impasse, Karla Homolka emerged as the sole lifeline capable of solving two horrific cold homicides. Surrounded by shrewd defense counsel, Karla flawlessly weaponized the Battered Woman Syndrome. She presented medical records of injuries inflicted by Paul, weeping profusely and insisting she was merely an unwilling hostage compelled under duress.",
   "sentences": [
    {
     "id": "4.02#1",
-    "text": "In the spring of 1993, the justice system of Ontario faced immense pressure from the public and international media.",
-    "words": 19
+    "text": "In the spring of 1993, the justice system of Ontario faced staggering pressure from international media and a terrified public.",
+    "words": 20
    },
    {
     "id": "4.02#2",
-    "text": "Paul Bernardo had been detained for the Scarborough assaults, but investigators lacked direct forensic evidence linking him to the murders of Leslie Mahaffy and Kristen French.",
-    "words": 26
+    "text": "Paul Bernardo was under arrest for the Scarborough assaults, but authorities had zero direct physical evidence linking him to the murders of Leslie Mahaffy and Kristen French.",
+    "words": 27
    },
    {
     "id": "4.02#3",
-    "text": "Bernardo maintained absolute silence, refusing all cooperation and openly defying interrogation teams.",
-    "words": 12
+    "text": "Bernardo maintained absolute silence, defying interrogators and refusing all cooperation.",
+    "words": 10
    },
    {
     "id": "4.02#4",
-    "text": "Amid this suffocating deadlock, Karla Homolka emerged as the sole viable key to cracking the unsolved murders.",
-    "words": 17
+    "text": "In this suffocating impasse, Karla Homolka emerged as the sole lifeline capable of solving two horrific cold homicides.",
+    "words": 18
    },
    {
     "id": "4.02#5",
-    "text": "Flanked by skilled defense counsel, Karla masterfully capitalized on the “Battered Woman Syndrome” defense.",
-    "words": 14
+    "text": "Surrounded by shrewd defense counsel, Karla flawlessly weaponized the Battered Woman Syndrome.",
+    "words": 12
    },
    {
     "id": "4.02#6",
-    "text": "She showcased her injuries from Bernardo's January assault, weeping copiously and asserting she was merely an unwilling witness coerced under deadly threat.",
+    "text": "She presented medical records of injuries inflicted by Paul, weeping profusely and insisting she was merely an unwilling hostage compelled under duress.",
     "words": 22
    }
   ]
@@ -993,55 +1128,55 @@
   "id": "4.03",
   "act": 4,
   "kind": "SFX",
-  "desc": "*Fountain pen scribbling across legal parchment, followed by the heavy thud of a judicial seal stamp.*"
+  "desc": "*Sound of a pen scratching across paper followed by a heavy judicial stamp thud.*"
  },
  {
   "id": "4.04",
   "act": 4,
   "kind": "LOI",
   "role": "D",
-  "direction": "firm, detailing the systemic miscalculation and controversial plea deal",
-  "text": "Senior Ontario prosecutors fell victim to a textbook cognitive trap: overvaluing witness testimony while blinded by perceived feminine helplessness. They believed that without Karla's inside testimony, Paul Bernardo might escape first-degree murder convictions and face only limited sentences for Scarborough. The desperate urge to deliver closure to grieving families compromised essential professional skepticism. In May 1993, the Ontario Attorney General's office formally executed an extraordinary plea agreement with Karla Homolka. Under the deal, Karla pleaded guilty to two counts of manslaughter receiving a 12-year prison sentence in exchange for testifying against her husband. In return, she was granted blanket immunity from murder charges regarding the deaths of her sister Tammy and both abducted girls. As leaks reached the public, Canadian media bitterly christened the transaction with an indignant label: the “Deal with the Devil”. Karla Homolka walked into custody with a subtle sense of triumph, confident she had outwitted the entire legal apparatus.",
+  "direction": "firm cadence, chronicling investigative misjudgment and controversial pact",
+  "text": "Leading Ontario Crown prosecutors fell into a classic cognitive trap: over-valuing eyewitness testimony while being blinded by apparent vulnerability. They feared that without Karla's testimony, Paul Bernardo might escape first-degree murder convictions and receive only a light sentence for the Scarborough rapes. The frantic urgency to deliver closure to grieving families compromised necessary prosecutorial skepticism. In May 1993, the Ontario Attorney General's Office formally finalized an extraordinary plea agreement with Karla Homolka. Under the pact, Karla pleaded guilty to two counts of manslaughter, receiving a total term of twelve years in exchange for testifying against her husband. In return, she was granted immunity from prosecution regarding the death of her sister Tammy and the two abducted schoolgirls. When details leaked, the Canadian public and media bitterly christened the arrangement the \"Deal with the Devil\". Karla Homolka walked calmly into prison with a discreet smile, convinced she had outmaneuvered the entire legal system.",
   "sentences": [
    {
     "id": "4.04#1",
-    "text": "Senior Ontario prosecutors fell victim to a textbook cognitive trap: overvaluing witness testimony while blinded by perceived feminine helplessness.",
+    "text": "Leading Ontario Crown prosecutors fell into a classic cognitive trap: over-valuing eyewitness testimony while being blinded by apparent vulnerability.",
     "words": 19
    },
    {
     "id": "4.04#2",
-    "text": "They believed that without Karla's inside testimony, Paul Bernardo might escape first-degree murder convictions and face only limited sentences for Scarborough.",
-    "words": 21
+    "text": "They feared that without Karla's testimony, Paul Bernardo might escape first-degree murder convictions and receive only a light sentence for the Scarborough rapes.",
+    "words": 23
    },
    {
     "id": "4.04#3",
-    "text": "The desperate urge to deliver closure to grieving families compromised essential professional skepticism.",
+    "text": "The frantic urgency to deliver closure to grieving families compromised necessary prosecutorial skepticism.",
     "words": 13
    },
    {
     "id": "4.04#4",
-    "text": "In May 1993, the Ontario Attorney General's office formally executed an extraordinary plea agreement with Karla Homolka.",
+    "text": "In May 1993, the Ontario Attorney General's Office formally finalized an extraordinary plea agreement with Karla Homolka.",
     "words": 17
    },
    {
     "id": "4.04#5",
-    "text": "Under the deal, Karla pleaded guilty to two counts of manslaughter receiving a 12-year prison sentence in exchange for testifying against her husband.",
-    "words": 23
+    "text": "Under the pact, Karla pleaded guilty to two counts of manslaughter, receiving a total term of twelve years in exchange for testifying against her husband.",
+    "words": 25
    },
    {
     "id": "4.04#6",
-    "text": "In return, she was granted blanket immunity from murder charges regarding the deaths of her sister Tammy and both abducted girls.",
-    "words": 21
-   },
-   {
-    "id": "4.04#7",
-    "text": "As leaks reached the public, Canadian media bitterly christened the transaction with an indignant label: the “Deal with the Devil”.",
+    "text": "In return, she was granted immunity from prosecution regarding the death of her sister Tammy and the two abducted schoolgirls.",
     "words": 20
    },
    {
+    "id": "4.04#7",
+    "text": "When details leaked, the Canadian public and media bitterly christened the arrangement the \"Deal with the Devil\".",
+    "words": 17
+   },
+   {
     "id": "4.04#8",
-    "text": "Karla Homolka walked into custody with a subtle sense of triumph, confident she had outwitted the entire legal apparatus.",
-    "words": 19
+    "text": "Karla Homolka walked calmly into prison with a discreet smile, convinced she had outmaneuvered the entire legal system.",
+    "words": 18
    }
   ]
  },
@@ -1050,40 +1185,40 @@
   "act": 4,
   "kind": "NGHI",
   "sec": 1.5,
-  "desc": ""
+  "desc": "khoảng lặng kịch tính"
  },
  {
   "id": "4.06",
   "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "mysterious, uncovering the turning point of the hidden videotapes",
-  "text": "The plea agreement had received judicial sanction, locking the 12-year sentence into absolute legal finality. Karla was positioned as the prosecution's star witness for the upcoming trial of her former husband. Yet an astonishing twist of fate was already preparing to drag the unfiltered truth into the light. In the autumn of 1994, while Paul Bernardo awaited trial in solitary confinement, his newly appointed attorney John Rosen delivered a seismic package of evidence to police. Contained inside were 6 covert videotapes recovered directly from 57 Bayview Drive.",
+  "direction": "grave, posing fundamental question on psychological transformation",
+  "text": "Why did Karla Homolka weep so inconsolably before detectives and feign heartbreaking contrition when executing the plea bargain in 1993? What truly transpired inside the mind of this woman? Why display remorse? Was it the authentic awakening of conscience in an abused victim, or was it the coldest calculating psychological masquerade in legal history? What was the true psychological mechanism at play, Doctor?",
   "sentences": [
    {
     "id": "4.06#1",
-    "text": "The plea agreement had received judicial sanction, locking the 12-year sentence into absolute legal finality.",
-    "words": 15
+    "text": "Why did Karla Homolka weep so inconsolably before detectives and feign heartbreaking contrition when executing the plea bargain in 1993?",
+    "words": 20
    },
    {
     "id": "4.06#2",
-    "text": "Karla was positioned as the prosecution's star witness for the upcoming trial of her former husband.",
-    "words": 16
+    "text": "What truly transpired inside the mind of this woman?",
+    "words": 9
    },
    {
     "id": "4.06#3",
-    "text": "Yet an astonishing twist of fate was already preparing to drag the unfiltered truth into the light.",
-    "words": 17
+    "text": "Why display remorse?",
+    "words": 3
    },
    {
     "id": "4.06#4",
-    "text": "In the autumn of 1994, while Paul Bernardo awaited trial in solitary confinement, his newly appointed attorney John Rosen delivered a seismic package of evidence to police.",
-    "words": 27
+    "text": "Was it the authentic awakening of conscience in an abused victim, or was it the coldest calculating psychological masquerade in legal history?",
+    "words": 22
    },
    {
     "id": "4.06#5",
-    "text": "Contained inside were 6 covert videotapes recovered directly from 57 Bayview Drive.",
-    "words": 12
+    "text": "What was the true psychological mechanism at play, Doctor?",
+    "words": 9
    }
   ]
  },
@@ -1091,39 +1226,54 @@
   "id": "4.07",
   "act": 4,
   "kind": "LOI",
-  "role": "D",
-  "direction": "clinical, describing the hidden cache and the dark screening room",
-  "text": "These fateful recordings had been secreted away by Paul Bernardo behind a lighting fixture in the ceiling of the master bathroom. Bernardo's original defense lawyer Ken Murray had discovered them in May 1993 but withheld them for 17 months out of professional conflict. Only after Paul Bernardo replaced counsel were the tapes finally transferred into the custody of law enforcement. As the tapes were played inside a locked conference room, the entire prosecution team was plunged into horrifying silence. What unspooled across the screen utterly obliterated the manipulative fabrications Karla Homolka had so meticulously sold. Listen to the bitter anguish of those who had once believed her fabricated innocence.",
+  "role": "C",
+  "direction": "analytical, contrasting authentic remorse with manipulative victimhood",
+  "text": "This presents the most formidable enigma in forensic psychology. We must draw an absolute boundary between two distinct concepts: Authentic Remorse and Manipulative Victimhood. In other cases, when an accomplice is liberated from a dominant manipulator, they typically endure Moral Injury—they collapse in self-revulsion over their deeds and accept legal retribution. Yet with Karla Homolka, behavioral specialists recognize a classic clinical manifestation of Female Psychopathy fused with Malignant Narcissism. The tears she shed across the negotiation table in 1993 were never wept for Tammy, Leslie, or Kristen. That was Pathological Self-Pity—she wept out of terror for her own skin, staring at the prospect of life imprisonment once Paul's flashlight beating shattered the romantic illusion. She astutely exploited a critical vulnerability in the justice system: society invariably extends tender compassion toward an attractive young woman bearing physical contusions. Cloaking herself in Battered Woman Syndrome, she re-engineered her active, willing complicity into irresistible duress. Karla's display of remorse was merely a calculated transaction to purchase her ticket to freedom at the modest price of twelve years.",
   "sentences": [
    {
     "id": "4.07#1",
-    "text": "These fateful recordings had been secreted away by Paul Bernardo behind a lighting fixture in the ceiling of the master bathroom.",
-    "words": 21
+    "text": "This presents the most formidable enigma in forensic psychology.",
+    "words": 9
    },
    {
     "id": "4.07#2",
-    "text": "Bernardo's original defense lawyer Ken Murray had discovered them in May 1993 but withheld them for 17 months out of professional conflict.",
-    "words": 22
+    "text": "We must draw an absolute boundary between two distinct concepts: Authentic Remorse and Manipulative Victimhood.",
+    "words": 15
    },
    {
     "id": "4.07#3",
-    "text": "Only after Paul Bernardo replaced counsel were the tapes finally transferred into the custody of law enforcement.",
-    "words": 17
+    "text": "In other cases, when an accomplice is liberated from a dominant manipulator, they typically endure Moral Injury—they collapse in self-revulsion over their deeds and accept legal retribution.",
+    "words": 27
    },
    {
     "id": "4.07#4",
-    "text": "As the tapes were played inside a locked conference room, the entire prosecution team was plunged into horrifying silence.",
-    "words": 19
+    "text": "Yet with Karla Homolka, behavioral specialists recognize a classic clinical manifestation of Female Psychopathy fused with Malignant Narcissism.",
+    "words": 18
    },
    {
     "id": "4.07#5",
-    "text": "What unspooled across the screen utterly obliterated the manipulative fabrications Karla Homolka had so meticulously sold.",
-    "words": 16
+    "text": "The tears she shed across the negotiation table in 1993 were never wept for Tammy, Leslie, or Kristen.",
+    "words": 18
    },
    {
     "id": "4.07#6",
-    "text": "Listen to the bitter anguish of those who had once believed her fabricated innocence.",
-    "words": 14
+    "text": "That was Pathological Self-Pity—she wept out of terror for her own skin, staring at the prospect of life imprisonment once Paul's flashlight beating shattered the romantic illusion.",
+    "words": 27
+   },
+   {
+    "id": "4.07#7",
+    "text": "She astutely exploited a critical vulnerability in the justice system: society invariably extends tender compassion toward an attractive young woman bearing physical contusions.",
+    "words": 23
+   },
+   {
+    "id": "4.07#8",
+    "text": "Cloaking herself in Battered Woman Syndrome, she re-engineered her active, willing complicity into irresistible duress.",
+    "words": 15
+   },
+   {
+    "id": "4.07#9",
+    "text": "Karla's display of remorse was merely a calculated transaction to purchase her ticket to freedom at the modest price of twelve years.",
+    "words": 22
    }
   ]
  },
@@ -1131,90 +1281,109 @@
   "id": "4.08",
   "act": 4,
   "kind": "LOI",
-  "role": "N",
-  "direction": "N2: Investigator/Prosecutor, middle-aged male, deeply bitter and remorseful",
-  "text": "Imagine the suffocating bitterness of sitting in that darkened room as seasoned officers of the court. We had put our faith in the trembling tears of a young woman claiming she had been completely coerced. Yet the tapes showed Karla actively participating, smiling, and coolly offering sadistic directions to Paul. She was under no duress whatsoever; she was an active, willing partner reveling in absolute control. In that sickening second, we realized we had truly signed a pact with the devil.",
+  "role": "D",
+  "direction": "exploring ethical crisis of evidence custodian",
+  "text": "And that judicial catastrophe became all the more bitter due to the moral agony of those holding the decisive evidence. When defense attorney Ken Murray retrieved the six videotapes from the ceiling in May 1993, he walked into a harrowing professional ethical trap. On one side stood strict solicitor-client privilege, while on the other weighed basic human conscience as a cold-blooded co-conspirator manipulated Crown prosecutors. Locking those tapes inside his office safe for seventeen months inadvertently allowed the Deal with the Devil to be ratified with judicial seals. It serves as a devastating reminder: when technical procedural rules sever connection from fundamental conscience and objective truth, justice itself falls victim to predators.",
   "sentences": [
    {
     "id": "4.08#1",
-    "text": "Imagine the suffocating bitterness of sitting in that darkened room as seasoned officers of the court.",
-    "words": 16
+    "text": "And that judicial catastrophe became all the more bitter due to the moral agony of those holding the decisive evidence.",
+    "words": 20
    },
    {
     "id": "4.08#2",
-    "text": "We had put our faith in the trembling tears of a young woman claiming she had been completely coerced.",
-    "words": 19
+    "text": "When defense attorney Ken Murray retrieved the six videotapes from the ceiling in May 1993, he walked into a harrowing professional ethical trap.",
+    "words": 23
    },
    {
     "id": "4.08#3",
-    "text": "Yet the tapes showed Karla actively participating, smiling, and coolly offering sadistic directions to Paul.",
-    "words": 15
+    "text": "On one side stood strict solicitor-client privilege, while on the other weighed basic human conscience as a cold-blooded co-conspirator manipulated Crown prosecutors.",
+    "words": 22
    },
    {
     "id": "4.08#4",
-    "text": "She was under no duress whatsoever; she was an active, willing partner reveling in absolute control.",
-    "words": 16
+    "text": "Locking those tapes inside his office safe for seventeen months inadvertently allowed the Deal with the Devil to be ratified with judicial seals.",
+    "words": 23
    },
    {
     "id": "4.08#5",
-    "text": "In that sickening second, we realized we had truly signed a pact with the devil.",
-    "words": 15
+    "text": "It serves as a devastating reminder: when technical procedural rules sever connection from fundamental conscience and objective truth, justice itself falls victim to predators.",
+    "words": 24
    }
   ]
  },
  {
   "id": "4.09",
   "act": 4,
-  "kind": "SFX",
-  "desc": "*High-pitched whine of a tape rewinding fast, followed by an angry fist slamming hard on the table.*"
+  "kind": "LOI",
+  "role": "H",
+  "direction": "mysterious cadence, opening the turning point of the videotapes",
+  "text": "The plea agreement was ratified by the court, and the twelve-year sentence became legally binding. Karla was crowned the star Crown witness for the impending trial of her ex-husband. Yet fate held a devastating twist that would drag the complete, horrifying truth into the light of day. In the autumn of 1994, while Bernardo awaited trial in maximum-security segregation, his new counsel, John Rosen, delivered a shocking parcel of evidence to investigators. It contained six videotapes secretly recorded inside 57 Bayview Drive.",
+  "sentences": [
+   {
+    "id": "4.09#1",
+    "text": "The plea agreement was ratified by the court, and the twelve-year sentence became legally binding.",
+    "words": 15
+   },
+   {
+    "id": "4.09#2",
+    "text": "Karla was crowned the star Crown witness for the impending trial of her ex-husband.",
+    "words": 14
+   },
+   {
+    "id": "4.09#3",
+    "text": "Yet fate held a devastating twist that would drag the complete, horrifying truth into the light of day.",
+    "words": 18
+   },
+   {
+    "id": "4.09#4",
+    "text": "In the autumn of 1994, while Bernardo awaited trial in maximum-security segregation, his new counsel, John Rosen, delivered a shocking parcel of evidence to investigators.",
+    "words": 25
+   },
+   {
+    "id": "4.09#5",
+    "text": "It contained six videotapes secretly recorded inside 57 Bayview Drive.",
+    "words": 10
+   }
+  ]
  },
  {
   "id": "4.10",
   "act": 4,
   "kind": "LOI",
-  "role": "C",
-  "direction": "clinical, dissecting manipulative victimhood and narcissistic sociopathy",
-  "text": "Those 6 ceiling tapes marked the catastrophic demolition of the fabricated victim facade. In behavioral psychology, Karla Homolka executed an elite demonstration of “Manipulative Victimhood”. She astutely exploited society's profoundest blindspot: the reflexive assumption that an attractive woman must be a victim rather than a ruthless predator. By leveraging the genuine domestic battery of January 1993, she reframed her entire predatory history as involuntary compliance. Yet raw video proved definitively that she never suffered from the cognitive paralysis of “Battered Woman Syndrome”. Karla remained lucid, calculating, and visibly stimulated by wielding absolute dominance over helpless victims. This was never about paralysis under terror; it was cold sociopathic manipulation hiding behind tears. Her tears were tactical currency spent to purchase public sympathy and escape whole-life incarceration.",
+  "role": "D",
+  "direction": "cold, recounting origin of evidence and darkened conference room",
+  "text": "These six fateful tapes had been concealed by Paul Bernardo behind a light fixture in the ceiling of the bathroom. Bernardo's original attorney, Ken Murray, had retrieved them in May 1993 but kept them secured inside his personal safe for seventeen months fearing they would destroy his client. Only when Bernardo retained new legal counsel were the tapes formally surrendered to the Crown. When the projector was switched on inside the locked Crown conference room, the entire room was engulfed in horrified silence. The footage on that screen utterly decimated the fragile victim narrative Karla Homolka had so meticulously fabricated. Hear the profound anguish of those who had believed in her innocence.",
   "sentences": [
    {
     "id": "4.10#1",
-    "text": "Those 6 ceiling tapes marked the catastrophic demolition of the fabricated victim facade.",
-    "words": 13
+    "text": "These six fateful tapes had been concealed by Paul Bernardo behind a light fixture in the ceiling of the bathroom.",
+    "words": 20
    },
    {
     "id": "4.10#2",
-    "text": "In behavioral psychology, Karla Homolka executed an elite demonstration of “Manipulative Victimhood”.",
-    "words": 12
+    "text": "Bernardo's original attorney, Ken Murray, had retrieved them in May 1993 but kept them secured inside his personal safe for seventeen months fearing they would destroy his client.",
+    "words": 28
    },
    {
     "id": "4.10#3",
-    "text": "She astutely exploited society's profoundest blindspot: the reflexive assumption that an attractive woman must be a victim rather than a ruthless predator.",
-    "words": 22
+    "text": "Only when Bernardo retained new legal counsel were the tapes formally surrendered to the Crown.",
+    "words": 15
    },
    {
     "id": "4.10#4",
-    "text": "By leveraging the genuine domestic battery of January 1993, she reframed her entire predatory history as involuntary compliance.",
-    "words": 18
+    "text": "When the projector was switched on inside the locked Crown conference room, the entire room was engulfed in horrified silence.",
+    "words": 20
    },
    {
     "id": "4.10#5",
-    "text": "Yet raw video proved definitively that she never suffered from the cognitive paralysis of “Battered Woman Syndrome”.",
+    "text": "The footage on that screen utterly decimated the fragile victim narrative Karla Homolka had so meticulously fabricated.",
     "words": 17
    },
    {
     "id": "4.10#6",
-    "text": "Karla remained lucid, calculating, and visibly stimulated by wielding absolute dominance over helpless victims.",
-    "words": 14
-   },
-   {
-    "id": "4.10#7",
-    "text": "This was never about paralysis under terror; it was cold sociopathic manipulation hiding behind tears.",
-    "words": 15
-   },
-   {
-    "id": "4.10#8",
-    "text": "Her tears were tactical currency spent to purchase public sympathy and escape whole-life incarceration.",
-    "words": 14
+    "text": "Hear the profound anguish of those who had believed in her innocence.",
+    "words": 12
    }
   ]
  },
@@ -1222,95 +1391,186 @@
   "id": "4.11",
   "act": 4,
   "kind": "LOI",
-  "role": "H",
-  "direction": "forceful, chronicling the public firestorm and the legal stalemate",
-  "text": "An unprecedented wave of collective outrage swept across Canada as leaks about the videotapes became public knowledge. Hundreds of thousands of citizens signed furious petitions demanding the cancellation of the plea deal and the prosecution of Karla Homolka for first-degree murder. Yet Canadian jurisprudence found itself entrapped within an inescapable legal deadlock of its own making. Under foundational principles of due process and sealed binding immunity clauses, the Crown could not unilaterally revoke the contract so long as Karla honored her testimony. The 12-year sentence secured by the woman from the pink house remained unassailable under law. Meanwhile, on September 1, 1995, Paul Bernardo stood before the bench to receive the ultimate judgment of justice.",
+  "role": "N",
+  "direction": "N2: Crown Prosecutor / Police Investigator, middle-aged male, choked with fury and remorse",
+  "text": "Picture the agonizing humiliation of Crown prosecutors sitting in that darkened room that afternoon. We had believed the tearful testimony of a trembling woman who claimed she was terrorized under duress. Yet the videotapes showed Karla participating with eager initiative, laughing, and issuing cold commands to Paul throughout the ordeal. She was not terrified; she was an enthusiastic, callous co-conspirator reveling in cruelty. In that shattering moment, we realized we had signed a binding contract with the devil herself.",
   "sentences": [
    {
     "id": "4.11#1",
-    "text": "An unprecedented wave of collective outrage swept across Canada as leaks about the videotapes became public knowledge.",
-    "words": 17
+    "text": "Picture the agonizing humiliation of Crown prosecutors sitting in that darkened room that afternoon.",
+    "words": 14
    },
    {
     "id": "4.11#2",
-    "text": "Hundreds of thousands of citizens signed furious petitions demanding the cancellation of the plea deal and the prosecution of Karla Homolka for first-degree murder.",
-    "words": 24
+    "text": "We had believed the tearful testimony of a trembling woman who claimed she was terrorized under duress.",
+    "words": 17
    },
    {
     "id": "4.11#3",
-    "text": "Yet Canadian jurisprudence found itself entrapped within an inescapable legal deadlock of its own making.",
-    "words": 15
+    "text": "Yet the videotapes showed Karla participating with eager initiative, laughing, and issuing cold commands to Paul throughout the ordeal.",
+    "words": 19
    },
    {
     "id": "4.11#4",
-    "text": "Under foundational principles of due process and sealed binding immunity clauses, the Crown could not unilaterally revoke the contract so long as Karla honored her testimony.",
-    "words": 26
+    "text": "She was not terrified; she was an enthusiastic, callous co-conspirator reveling in cruelty.",
+    "words": 13
    },
    {
     "id": "4.11#5",
-    "text": "The 12-year sentence secured by the woman from the pink house remained unassailable under law.",
-    "words": 15
-   },
-   {
-    "id": "4.11#6",
-    "text": "Meanwhile, on September 1, 1995, Paul Bernardo stood before the bench to receive the ultimate judgment of justice.",
-    "words": 18
+    "text": "In that shattering moment, we realized we had signed a binding contract with the devil herself.",
+    "words": 16
    }
   ]
  },
  {
   "id": "4.12",
   "act": 4,
+  "kind": "SFX",
+  "desc": "*Whirring tape fast-forward whine followed by a violent fist slamming onto a conference table.*"
+ },
+ {
+  "id": "4.13",
+  "act": 4,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "academic analysis, dismantling manipulative victimhood",
+  "text": "Those six ceiling tapes marked the catastrophic implosion of the victim facade. In behavioral terms, Karla Homolka executed Manipulative Victimhood at an expert level. She grasped the ultimate blind spot of human empathy: society instinctively presumes an attractive, young woman must be a victim rather than an apex predator. By weaponizing the domestic dispute of January 1993, she reframed her entire criminal history as involuntary subjugation. Yet the objective video recordings proved indisputably: she never suffered from cognitive paralysis or Battered Woman Syndrome. Karla was fully lucid, possessed intact executive functioning, and displayed sadistic gratification in subjugating other human beings. That was not fear, but the cold calculation of an impeccably disguised psychopathic personality. Her tears were never sorrow, but calculated tools to purchase judicial sympathy and evade life imprisonment.",
+  "sentences": [
+   {
+    "id": "4.13#1",
+    "text": "Those six ceiling tapes marked the catastrophic implosion of the victim facade.",
+    "words": 12
+   },
+   {
+    "id": "4.13#2",
+    "text": "In behavioral terms, Karla Homolka executed Manipulative Victimhood at an expert level.",
+    "words": 12
+   },
+   {
+    "id": "4.13#3",
+    "text": "She grasped the ultimate blind spot of human empathy: society instinctively presumes an attractive, young woman must be a victim rather than an apex predator.",
+    "words": 25
+   },
+   {
+    "id": "4.13#4",
+    "text": "By weaponizing the domestic dispute of January 1993, she reframed her entire criminal history as involuntary subjugation.",
+    "words": 17
+   },
+   {
+    "id": "4.13#5",
+    "text": "Yet the objective video recordings proved indisputably: she never suffered from cognitive paralysis or Battered Woman Syndrome.",
+    "words": 17
+   },
+   {
+    "id": "4.13#6",
+    "text": "Karla was fully lucid, possessed intact executive functioning, and displayed sadistic gratification in subjugating other human beings.",
+    "words": 17
+   },
+   {
+    "id": "4.13#7",
+    "text": "That was not fear, but the cold calculation of an impeccably disguised psychopathic personality.",
+    "words": 14
+   },
+   {
+    "id": "4.13#8",
+    "text": "Her tears were never sorrow, but calculated tools to purchase judicial sympathy and evade life imprisonment.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "4.14",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "stern, recounting nationwide fury and legal paralysis",
+  "text": "An unprecedented wildfire of public outrage exploded across Canada as news of the videotapes leaked. Hundreds of thousands of citizens signed petitions demanding the revocation of the plea deal and the indictment of Karla Homolka for first-degree murder. Yet Canadian jurisprudence found itself trapped within an inescapable procedural quagmire of its own making. Under the constitutional doctrine of abuse of process and judicial finality, the Crown could not unilaterally tear up a binding plea agreement so long as Karla honored her courtroom testimony. The twelve-year sentence of the mistress of the pink house remained completely shielded by law. Meanwhile, on September 1, 1995, Paul Bernardo received his ultimate legal reckoning.",
+  "sentences": [
+   {
+    "id": "4.14#1",
+    "text": "An unprecedented wildfire of public outrage exploded across Canada as news of the videotapes leaked.",
+    "words": 15
+   },
+   {
+    "id": "4.14#2",
+    "text": "Hundreds of thousands of citizens signed petitions demanding the revocation of the plea deal and the indictment of Karla Homolka for first-degree murder.",
+    "words": 23
+   },
+   {
+    "id": "4.14#3",
+    "text": "Yet Canadian jurisprudence found itself trapped within an inescapable procedural quagmire of its own making.",
+    "words": 15
+   },
+   {
+    "id": "4.14#4",
+    "text": "Under the constitutional doctrine of abuse of process and judicial finality, the Crown could not unilaterally tear up a binding plea agreement so long as Karla honored her courtroom testimony.",
+    "words": 30
+   },
+   {
+    "id": "4.14#5",
+    "text": "The twelve-year sentence of the mistress of the pink house remained completely shielded by law.",
+    "words": 15
+   },
+   {
+    "id": "4.14#6",
+    "text": "Meanwhile, on September 1, 1995, Paul Bernardo received his ultimate legal reckoning.",
+    "words": 12
+   }
+  ]
+ },
+ {
+  "id": "4.15",
+  "act": 4,
   "kind": "BGM",
-  "desc": "*Tense violin resonance fading slowly into the cold chiming of a clock tower.*"
+  "desc": "*Haunting violin chords sustain and dissolve into the solemn, heavy tolling of a courthouse clock.*"
  },
  {
   "id": "5.01",
   "act": 5,
   "kind": "BGM",
-  "desc": "*Solemn courtroom gavel echoing through the hall, followed by deep, resonant reflective piano chords.*"
+  "desc": "*A judicial gavel echoes through a solemn courtroom, followed by deep, contemplative piano chords prompting profound reflection.*"
  },
  {
   "id": "5.02",
   "act": 5,
   "kind": "LOI",
   "role": "H",
-  "direction": "authoritative, solemn, delivering the judicial verdicts",
-  "text": "On September 1, 1995, inside the Ontario Court of Justice, an exhausting trial that transfixed international observers reached its climax. The jury officially found Paul Bernardo guilty of first-degree murder in the deaths of Leslie Mahaffy and Kristen French, alongside kidnapping and aggravated assault convictions. The presiding judge sentenced Bernardo to life imprisonment with no eligibility for parole for a minimum of 25 years. Crucially, the court designated him a Dangerous Offender — the most stringent judicial classification in Canadian criminal law. This statutory classification mandated indefinite detention inside maximum-security institutions like Kingston and Millhaven for the remainder of his life. He was stripped of all future prospects of societal reintegration, doomed to exist permanently behind impenetrable prison walls. Yet for the woman who actively facilitated the extinguishing of innocent lives, the gates of freedom swung open after merely a single decade.",
+  "direction": "commanding, announcing official judicial verdict",
+  "text": "On September 1, 1995, inside the Ontario Court of Justice, the landmark trial that transfixed the international community reached its conclusion. The jury found Paul Bernardo guilty of two counts of First-Degree Murder in the deaths of Leslie Mahaffy and Kristen French, alongside numerous counts of kidnapping and aggravated assault. The judge sentenced Bernardo to life imprisonment without eligibility for parole for at least twenty-five years. Crucially, the court designated him a Dangerous Offender—the most severe classification in Canadian criminal law. This designation ensures indefinite incarceration in maximum-security facilities such as Kingston and Millhaven until his death. He is stripped of any realistic prospect of community release, condemned to spend his existence behind fortress walls. Yet for the woman who actively co-engineered the demise of innocent children, the gates of freedom swung open after precisely a single decade.",
   "sentences": [
    {
     "id": "5.02#1",
-    "text": "On September 1, 1995, inside the Ontario Court of Justice, an exhausting trial that transfixed international observers reached its climax.",
-    "words": 20
+    "text": "On September 1, 1995, inside the Ontario Court of Justice, the landmark trial that transfixed the international community reached its conclusion.",
+    "words": 21
    },
    {
     "id": "5.02#2",
-    "text": "The jury officially found Paul Bernardo guilty of first-degree murder in the deaths of Leslie Mahaffy and Kristen French, alongside kidnapping and aggravated assault convictions.",
-    "words": 25
+    "text": "The jury found Paul Bernardo guilty of two counts of First-Degree Murder in the deaths of Leslie Mahaffy and Kristen French, alongside numerous counts of kidnapping and aggravated assault.",
+    "words": 29
    },
    {
     "id": "5.02#3",
-    "text": "The presiding judge sentenced Bernardo to life imprisonment with no eligibility for parole for a minimum of 25 years.",
-    "words": 19
+    "text": "The judge sentenced Bernardo to life imprisonment without eligibility for parole for at least twenty-five years.",
+    "words": 16
    },
    {
     "id": "5.02#4",
-    "text": "Crucially, the court designated him a Dangerous Offender — the most stringent judicial classification in Canadian criminal law.",
-    "words": 18
+    "text": "Crucially, the court designated him a Dangerous Offender—the most severe classification in Canadian criminal law.",
+    "words": 15
    },
    {
     "id": "5.02#5",
-    "text": "This statutory classification mandated indefinite detention inside maximum-security institutions like Kingston and Millhaven for the remainder of his life.",
-    "words": 19
+    "text": "This designation ensures indefinite incarceration in maximum-security facilities such as Kingston and Millhaven until his death.",
+    "words": 16
    },
    {
     "id": "5.02#6",
-    "text": "He was stripped of all future prospects of societal reintegration, doomed to exist permanently behind impenetrable prison walls.",
+    "text": "He is stripped of any realistic prospect of community release, condemned to spend his existence behind fortress walls.",
     "words": 18
    },
    {
     "id": "5.02#7",
-    "text": "Yet for the woman who actively facilitated the extinguishing of innocent lives, the gates of freedom swung open after merely a single decade.",
+    "text": "Yet for the woman who actively co-engineered the demise of innocent children, the gates of freedom swung open after precisely a single decade.",
     "words": 23
    }
   ]
@@ -1320,59 +1580,44 @@
   "act": 5,
   "kind": "NGHI",
   "sec": 1.5,
-  "desc": ""
+  "desc": "khoảng lặng kịch tính"
  },
  {
   "id": "5.04",
   "act": 5,
   "kind": "LOI",
-  "role": "D",
-  "direction": "clinical, recounting Karla's release and the sweeping institutional reforms",
-  "text": "On July 4, 2005, having served her complete 12-year sentence, Karla Homolka walked out of federal prison at the age of 35. Her release ignited a ferocious firestorm of civic protests and public disgust across Canadian streets. Grieving families and citizens marched holding portraits of Leslie Mahaffy and Kristen French, carrying banners protesting the injustice of the plea bargain. To survive, Homolka legally adopted the alias Leanne Bordelais, fleeing temporarily to the Caribbean before retreating to a small town in Quebec. Yet wherever her presence was uncovered, fierce communal boycotts and collective indignation erupted instantly. Legally, the catastrophic handling of this case prompted the Ontario government to commission two historic independent judicial reviews. The exhaustive review by former Justice Patrick Galligan analyzed prosecutorial decisions, identifying critical vulnerabilities in executing plea bargains. Simultaneously, the landmark Campbell Inquiry exposed systemic communication breakdowns among policing agencies, catalyzing a total overhaul of the nationwide ViCLAS violent crime linkage system. These sweeping institutional reforms were dearly bought through the unbearable agony of devastated families.",
+  "role": "H",
+  "direction": "solemn, emotional, honoring victims' families",
+  "text": "Yet even when that bitter judicial pact stood irrevocable, the sacred power of parental love forged an indelible chapter of resilience. Doug and Donna French—the parents of young Kristen French—refused to succumb to devastating despair. They stood tall, transforming unimaginable heartbreak into an unrelenting legal crusade to safeguard the dignity of their daughter and fellow victims. They fought relentlessly to permanently seal and destroy those horrific videotapes, refusing to permit their children's agony to become grotesque public spectacle. Furthermore, the founding of the Kristen French Child Advocacy Centre in the Niagara region has stood as a sanctuary of healing for thousands of vulnerable children across decades. That endures as the ultimate triumph of enduring love over the shadows of destruction.",
   "sentences": [
    {
     "id": "5.04#1",
-    "text": "On July 4, 2005, having served her complete 12-year sentence, Karla Homolka walked out of federal prison at the age of 35.",
-    "words": 22
+    "text": "Yet even when that bitter judicial pact stood irrevocable, the sacred power of parental love forged an indelible chapter of resilience.",
+    "words": 21
    },
    {
     "id": "5.04#2",
-    "text": "Her release ignited a ferocious firestorm of civic protests and public disgust across Canadian streets.",
-    "words": 15
+    "text": "Doug and Donna French—the parents of young Kristen French—refused to succumb to devastating despair.",
+    "words": 14
    },
    {
     "id": "5.04#3",
-    "text": "Grieving families and citizens marched holding portraits of Leslie Mahaffy and Kristen French, carrying banners protesting the injustice of the plea bargain.",
-    "words": 22
+    "text": "They stood tall, transforming unimaginable heartbreak into an unrelenting legal crusade to safeguard the dignity of their daughter and fellow victims.",
+    "words": 21
    },
    {
     "id": "5.04#4",
-    "text": "To survive, Homolka legally adopted the alias Leanne Bordelais, fleeing temporarily to the Caribbean before retreating to a small town in Quebec.",
+    "text": "They fought relentlessly to permanently seal and destroy those horrific videotapes, refusing to permit their children's agony to become grotesque public spectacle.",
     "words": 22
    },
    {
     "id": "5.04#5",
-    "text": "Yet wherever her presence was uncovered, fierce communal boycotts and collective indignation erupted instantly.",
-    "words": 14
+    "text": "Furthermore, the founding of the Kristen French Child Advocacy Centre in the Niagara region has stood as a sanctuary of healing for thousands of vulnerable children across decades.",
+    "words": 28
    },
    {
     "id": "5.04#6",
-    "text": "Legally, the catastrophic handling of this case prompted the Ontario government to commission two historic independent judicial reviews.",
-    "words": 18
-   },
-   {
-    "id": "5.04#7",
-    "text": "The exhaustive review by former Justice Patrick Galligan analyzed prosecutorial decisions, identifying critical vulnerabilities in executing plea bargains.",
-    "words": 18
-   },
-   {
-    "id": "5.04#8",
-    "text": "Simultaneously, the landmark Campbell Inquiry exposed systemic communication breakdowns among policing agencies, catalyzing a total overhaul of the nationwide ViCLAS violent crime linkage system.",
-    "words": 24
-   },
-   {
-    "id": "5.04#9",
-    "text": "These sweeping institutional reforms were dearly bought through the unbearable agony of devastated families.",
+    "text": "That endures as the ultimate triumph of enduring love over the shadows of destruction.",
     "words": 14
    }
   ]
@@ -1380,206 +1625,291 @@
  {
   "id": "5.05",
   "act": 5,
-  "kind": "SFX",
-  "desc": "*Rustle of turning thick official report pages, followed by a heavy, thoughtful sigh.*"
+  "kind": "LOI",
+  "role": "D",
+  "direction": "dispassionate, reviewing Karla's release and monumental systemic reforms",
+  "text": "On July 4, 2005, having served her full twelve-year sentence, Karla Homolka walked out of prison gates at age thirty-five. Her release sparked furious protests and nationwide demonstrations across Canadian streets. Grieving families and citizens carried portraits of Leslie Mahaffy and Kristen French, holding banners decrying the failure of the plea bargain. To survive, Homolka changed her legal name to Leanne Bordelais, relocated to the Caribbean, and eventually returned to a quiet Quebec suburb. Yet wherever her presence was uncovered, community boycotts and intense moral condemnation ignited instantly. Judicially, this case prompted the Ontario government to commission two monumental independent inquiries. The Galligan Inquiry rigorously examined prosecutorial conduct and the catastrophic oversights surrounding the plea bargain. Simultaneously, the landmark Campbell Inquiry exposed severe communication failures between police agencies, spurring the nationwide adoption of the ViCLAS violent crime linkage analysis system. These were painful, indispensable legal evolutions forged in the crucible of absolute parental heartbreak.",
+  "sentences": [
+   {
+    "id": "5.05#1",
+    "text": "On July 4, 2005, having served her full twelve-year sentence, Karla Homolka walked out of prison gates at age thirty-five.",
+    "words": 20
+   },
+   {
+    "id": "5.05#2",
+    "text": "Her release sparked furious protests and nationwide demonstrations across Canadian streets.",
+    "words": 11
+   },
+   {
+    "id": "5.05#3",
+    "text": "Grieving families and citizens carried portraits of Leslie Mahaffy and Kristen French, holding banners decrying the failure of the plea bargain.",
+    "words": 21
+   },
+   {
+    "id": "5.05#4",
+    "text": "To survive, Homolka changed her legal name to Leanne Bordelais, relocated to the Caribbean, and eventually returned to a quiet Quebec suburb.",
+    "words": 22
+   },
+   {
+    "id": "5.05#5",
+    "text": "Yet wherever her presence was uncovered, community boycotts and intense moral condemnation ignited instantly.",
+    "words": 14
+   },
+   {
+    "id": "5.05#6",
+    "text": "Judicially, this case prompted the Ontario government to commission two monumental independent inquiries.",
+    "words": 13
+   },
+   {
+    "id": "5.05#7",
+    "text": "The Galligan Inquiry rigorously examined prosecutorial conduct and the catastrophic oversights surrounding the plea bargain.",
+    "words": 15
+   },
+   {
+    "id": "5.05#8",
+    "text": "Simultaneously, the landmark Campbell Inquiry exposed severe communication failures between police agencies, spurring the nationwide adoption of the ViCLAS violent crime linkage analysis system.",
+    "words": 24
+   },
+   {
+    "id": "5.05#9",
+    "text": "These were painful, indispensable legal evolutions forged in the crucible of absolute parental heartbreak.",
+    "words": 14
+   }
+  ]
  },
  {
   "id": "5.06",
   "act": 5,
-  "kind": "LOI",
-  "role": "C",
-  "direction": "profoundly academic, contrasting narcissistic collapse with deceptive victimhood",
-  "text": "From a behavioral perspective, while Homolka's 12-year physical sentence reached its conclusion, her societal psychological verdict is permanent. Karla never demonstrated authentic moral contrition; her demeanor remained steeped in pathological self-pity and relentless self-interest. Meanwhile, inside Millhaven Institution, Bernardo files futile parole applications, externalizing blame in a state of protracted narcissistic collapse. This dark case bequeaths a timeless masterclass in recognizing counterfeit innocence. We must learn to rigorously differentiate between genuine trauma victims and calculating predators donning the cloak of victimhood to evade justice. Bernardo's overt aggression was easily identifiable, yet Karla's camouflaged malice behind fragile blonde femininity deceived even supreme judicial minds. Human empathy is a noble virtue, yet empathy unmoored from discernment becomes fertile soil for psychopathic manipulation. Predators instinctively weaponize community compassion as an impenetrable shield for their atrocities. To safeguard ourselves and our loved ones, internalizing pragmatic survival red flags is an urgent necessity.",
-  "sentences": [
-   {
-    "id": "5.06#1",
-    "text": "From a behavioral perspective, while Homolka's 12-year physical sentence reached its conclusion, her societal psychological verdict is permanent.",
-    "words": 18
-   },
-   {
-    "id": "5.06#2",
-    "text": "Karla never demonstrated authentic moral contrition; her demeanor remained steeped in pathological self-pity and relentless self-interest.",
-    "words": 16
-   },
-   {
-    "id": "5.06#3",
-    "text": "Meanwhile, inside Millhaven Institution, Bernardo files futile parole applications, externalizing blame in a state of protracted narcissistic collapse.",
-    "words": 18
-   },
-   {
-    "id": "5.06#4",
-    "text": "This dark case bequeaths a timeless masterclass in recognizing counterfeit innocence.",
-    "words": 11
-   },
-   {
-    "id": "5.06#5",
-    "text": "We must learn to rigorously differentiate between genuine trauma victims and calculating predators donning the cloak of victimhood to evade justice.",
-    "words": 21
-   },
-   {
-    "id": "5.06#6",
-    "text": "Bernardo's overt aggression was easily identifiable, yet Karla's camouflaged malice behind fragile blonde femininity deceived even supreme judicial minds.",
-    "words": 19
-   },
-   {
-    "id": "5.06#7",
-    "text": "Human empathy is a noble virtue, yet empathy unmoored from discernment becomes fertile soil for psychopathic manipulation.",
-    "words": 17
-   },
-   {
-    "id": "5.06#8",
-    "text": "Predators instinctively weaponize community compassion as an impenetrable shield for their atrocities.",
-    "words": 12
-   },
-   {
-    "id": "5.06#9",
-    "text": "To safeguard ourselves and our loved ones, internalizing pragmatic survival red flags is an urgent necessity.",
-    "words": 16
-   }
-  ]
+  "kind": "SFX",
+  "desc": "*Sound of heavy inquiry report pages turning and a deep, burdened sigh.*"
  },
  {
   "id": "5.07",
   "act": 5,
   "kind": "LOI",
-  "role": "H",
-  "direction": "authoritative, delivering the 4 pragmatic survival red flags",
-  "text": "To equip our audience with pragmatic protective insights, Amber Eyes distills 4 critical survival red flags from this historical file. Red Flag One: Beware those who weaponize personal trauma. Manipulators incessantly cite past grievances to justify present misconduct; genuine conscience embraces accountability and grieves for victims rather than fixating on performing victimhood. Red Flag Two: The stark dissonance between moral rhetoric and private behavior. Consistently evaluate individuals based on their objective patterns of conduct rather than charming aesthetics or eloquent public pronouncements. Red Flag Three: Exercise caution when approached by seemingly harmless figures. Karla Homolka utilized an innocent, friendly smile to ask for directions and lure unsuspecting victims; vigilance must never falter before disarming personas in public spaces. And Red Flag Four: Recognize toxic codependent alliances. True love never demands the violation of moral boundaries or inflicting harm upon others as proof of devotion. When someone urges you to compromise conscience in the name of loyalty, that is not love — it is a psychological noose dragging you into the abyss. Always honor your intuitive discomfort, for intuition remains our most acute early-warning survival system. Never rationalize or dismiss seemingly minor early boundary transgressions.",
+  "role": "C",
+  "direction": "concluding societal verdict and collapse of facade",
+  "text": "On July 4, 2005, when Karla Homolka completed her twelve-year sentence and stepped into the sunlight, she may have won on procedural technicalities, but she permanently lost before the Court of Human Conscience. Thousands of Canadian citizens took to the streets in profound outrage. Her physical incarceration concluded, yet the sentence of societal ostracization will pursue her until her final breath. Though she changed her name to Leanne Bordelais and fled to distant Caribbean shores, the shadow of her deeds and falsehoods unfailingly caught up with her. The community delivered an unequivocal proclamation: people may momentarily be duped by theatrical tears, but time and objective truth will always reclaim dignity for innocent souls. The collective conscience of humanity never forgives those who extinguish the lives of their fellows in the name of selfish gratification. From a clinical perspective, Karla Homolka's physical sentence ended, but her psychological sentence across society is permanent. Karla never exhibited authentic moral remorse; her conduct has consistently mirrored pathological self-pity and relentless personal entitlement. Meanwhile, Paul Bernardo languishes inside Millhaven Penitentiary, repeatedly filing hopeless parole applications while blaming others in protracted narcissistic collapse. This case offers humanity an essential lesson in discerning deceptive masks of false innocence. We must learn to rigorously differentiate between a genuine trauma victim and an apex predator weaponizing the victim label to evade accountability. The overt brutality of Bernardo is easily detected, but the insidious danger concealed beneath Karla Homolka's fragile mask deceived even premier legal minds. Compassion is a sacred human virtue, but untethered compassion becomes fertile soil for predatory manipulation. Predators masterfully convert the goodwill of community into a protective fortress for their crimes. To protect ourselves and our loved ones, recognizing survival red flags is imperative.",
   "sentences": [
    {
     "id": "5.07#1",
-    "text": "To equip our audience with pragmatic protective insights, Amber Eyes distills 4 critical survival red flags from this historical file.",
-    "words": 20
+    "text": "On July 4, 2005, when Karla Homolka completed her twelve-year sentence and stepped into the sunlight, she may have won on procedural technicalities, but she permanently lost before the Court of Human Conscience.",
+    "words": 33
    },
    {
     "id": "5.07#2",
-    "text": "Red Flag One: Beware those who weaponize personal trauma.",
-    "words": 9
-   },
-   {
-    "id": "5.07#3",
-    "text": "Manipulators incessantly cite past grievances to justify present misconduct; genuine conscience embraces accountability and grieves for victims rather than fixating on performing victimhood.",
-    "words": 23
-   },
-   {
-    "id": "5.07#4",
-    "text": "Red Flag Two: The stark dissonance between moral rhetoric and private behavior.",
-    "words": 12
-   },
-   {
-    "id": "5.07#5",
-    "text": "Consistently evaluate individuals based on their objective patterns of conduct rather than charming aesthetics or eloquent public pronouncements.",
-    "words": 18
-   },
-   {
-    "id": "5.07#6",
-    "text": "Red Flag Three: Exercise caution when approached by seemingly harmless figures.",
+    "text": "Thousands of Canadian citizens took to the streets in profound outrage.",
     "words": 11
    },
    {
+    "id": "5.07#3",
+    "text": "Her physical incarceration concluded, yet the sentence of societal ostracization will pursue her until her final breath.",
+    "words": 17
+   },
+   {
+    "id": "5.07#4",
+    "text": "Though she changed her name to Leanne Bordelais and fled to distant Caribbean shores, the shadow of her deeds and falsehoods unfailingly caught up with her.",
+    "words": 26
+   },
+   {
+    "id": "5.07#5",
+    "text": "The community delivered an unequivocal proclamation: people may momentarily be duped by theatrical tears, but time and objective truth will always reclaim dignity for innocent souls.",
+    "words": 26
+   },
+   {
+    "id": "5.07#6",
+    "text": "The collective conscience of humanity never forgives those who extinguish the lives of their fellows in the name of selfish gratification.",
+    "words": 21
+   },
+   {
     "id": "5.07#7",
-    "text": "Karla Homolka utilized an innocent, friendly smile to ask for directions and lure unsuspecting victims; vigilance must never falter before disarming personas in public spaces.",
-    "words": 25
+    "text": "From a clinical perspective, Karla Homolka's physical sentence ended, but her psychological sentence across society is permanent.",
+    "words": 17
    },
    {
     "id": "5.07#8",
-    "text": "And Red Flag Four: Recognize toxic codependent alliances.",
-    "words": 8
+    "text": "Karla never exhibited authentic moral remorse; her conduct has consistently mirrored pathological self-pity and relentless personal entitlement.",
+    "words": 17
    },
    {
     "id": "5.07#9",
-    "text": "True love never demands the violation of moral boundaries or inflicting harm upon others as proof of devotion.",
-    "words": 18
+    "text": "Meanwhile, Paul Bernardo languishes inside Millhaven Penitentiary, repeatedly filing hopeless parole applications while blaming others in protracted narcissistic collapse.",
+    "words": 19
    },
    {
     "id": "5.07#10",
-    "text": "When someone urges you to compromise conscience in the name of loyalty, that is not love — it is a psychological noose dragging you into the abyss.",
-    "words": 27
-   },
-   {
-    "id": "5.07#11",
-    "text": "Always honor your intuitive discomfort, for intuition remains our most acute early-warning survival system.",
+    "text": "This case offers humanity an essential lesson in discerning deceptive masks of false innocence.",
     "words": 14
    },
    {
+    "id": "5.07#11",
+    "text": "We must learn to rigorously differentiate between a genuine trauma victim and an apex predator weaponizing the victim label to evade accountability.",
+    "words": 22
+   },
+   {
     "id": "5.07#12",
-    "text": "Never rationalize or dismiss seemingly minor early boundary transgressions.",
-    "words": 9
+    "text": "The overt brutality of Bernardo is easily detected, but the insidious danger concealed beneath Karla Homolka's fragile mask deceived even premier legal minds.",
+    "words": 23
+   },
+   {
+    "id": "5.07#13",
+    "text": "Compassion is a sacred human virtue, but untethered compassion becomes fertile soil for predatory manipulation.",
+    "words": 15
+   },
+   {
+    "id": "5.07#14",
+    "text": "Predators masterfully convert the goodwill of community into a protective fortress for their crimes.",
+    "words": 14
+   },
+   {
+    "id": "5.07#15",
+    "text": "To protect ourselves and our loved ones, recognizing survival red flags is imperative.",
+    "words": 13
    }
   ]
  },
  {
   "id": "5.08",
   "act": 5,
-  "kind": "NGHI",
-  "sec": 1.5,
-  "desc": ""
- },
- {
-  "id": "5.09",
-  "act": 5,
   "kind": "LOI",
   "role": "H",
-  "direction": "warm, resonant, closing the podcast with philosophical closure",
-  "text": "The file of Paul Bernardo and Karla Homolka closes as an unsparing reminder of the unfathomable abysses within human psychology. The dazzling Ken and Barbie doll facade has shattered irrevocably, leaving a harrowing lesson on the perils of delusion and misplaced empathy. Though flawed legal bargains reflected the limitations of an era, the clarity of historical conscience restored dignity to innocent victims and exposed predatory truth. Please always remember: our survival begins with honoring our instincts and bravely defending our vital ethical boundaries. We extend our gratitude to our esteemed expert guests for navigating this intense behavioral exploration alongside Amber Eyes today. Thank you to our viewers for listening closely and reflecting upon this essential message. Please subscribe to the channel and share your perspectives in the comments section below. Until our next investigation, we bid you farewell. May you always remain safe, vigilant, and at peace.",
+  "direction": "composed, detailing 4 survival red flags from The Gift of Fear",
+  "text": "To equip our listeners with actionable protection, Amber eyes extracts four survival red flags from this harrowing history based on Gavin de Becker's “The Gift of Fear”: Red Flag One: Beware of individuals who exploit personal trauma to rationalize wrongdoing. Manipulators constantly cite past victimhood to excuse present transgressions; a truly remorseful soul takes unconditional ownership, rather than obsessing over playing the perpetual victim. Red Flag Two: Incongruence between public virtue and private conduct. Always judge a person by consistent behavioral patterns, never by physical beauty or eloquent public performativity. Red Flag Three: Vigilance toward individuals presenting an innocuous, disarming exterior. Karla Homolka directly utilized her friendly smile to ask for directions and lure unsuspecting victims; vigilance must never falter before charming strangers in public spaces. And Red Flag Four: Identifying toxic symbiotic relationships. Genuine love never requires you to violate ethical boundaries or harm another human being to prove devotion. When someone demands that you compromise your conscience in the name of loyalty, that is not love, but a lethal noose leading into the abyss. Always honor the intuitive alarm bells within you, for intuition is humanity's most acute early warning system. Never rationalize or dismiss the initial micro-transgressions of personal boundaries.",
   "sentences": [
    {
-    "id": "5.09#1",
-    "text": "The file of Paul Bernardo and Karla Homolka closes as an unsparing reminder of the unfathomable abysses within human psychology.",
-    "words": 20
+    "id": "5.08#1",
+    "text": "To equip our listeners with actionable protection, Amber eyes extracts four survival red flags from this harrowing history based on Gavin de Becker's “The Gift of Fear”:",
+    "words": 27
    },
    {
-    "id": "5.09#2",
-    "text": "The dazzling Ken and Barbie doll facade has shattered irrevocably, leaving a harrowing lesson on the perils of delusion and misplaced empathy.",
-    "words": 22
+    "id": "5.08#2",
+    "text": "Red Flag One: Beware of individuals who exploit personal trauma to rationalize wrongdoing.",
+    "words": 13
    },
    {
-    "id": "5.09#3",
-    "text": "Though flawed legal bargains reflected the limitations of an era, the clarity of historical conscience restored dignity to innocent victims and exposed predatory truth.",
+    "id": "5.08#3",
+    "text": "Manipulators constantly cite past victimhood to excuse present transgressions; a truly remorseful soul takes unconditional ownership, rather than obsessing over playing the perpetual victim.",
     "words": 24
    },
    {
-    "id": "5.09#4",
-    "text": "Please always remember: our survival begins with honoring our instincts and bravely defending our vital ethical boundaries.",
-    "words": 17
+    "id": "5.08#4",
+    "text": "Red Flag Two: Incongruence between public virtue and private conduct.",
+    "words": 10
    },
    {
-    "id": "5.09#5",
-    "text": "We extend our gratitude to our esteemed expert guests for navigating this intense behavioral exploration alongside Amber Eyes today.",
-    "words": 19
+    "id": "5.08#5",
+    "text": "Always judge a person by consistent behavioral patterns, never by physical beauty or eloquent public performativity.",
+    "words": 16
    },
    {
-    "id": "5.09#6",
-    "text": "Thank you to our viewers for listening closely and reflecting upon this essential message.",
-    "words": 14
+    "id": "5.08#6",
+    "text": "Red Flag Three: Vigilance toward individuals presenting an innocuous, disarming exterior.",
+    "words": 11
    },
    {
-    "id": "5.09#7",
-    "text": "Please subscribe to the channel and share your perspectives in the comments section below.",
-    "words": 14
+    "id": "5.08#7",
+    "text": "Karla Homolka directly utilized her friendly smile to ask for directions and lure unsuspecting victims; vigilance must never falter before charming strangers in public spaces.",
+    "words": 25
    },
    {
-    "id": "5.09#8",
-    "text": "Until our next investigation, we bid you farewell.",
+    "id": "5.08#8",
+    "text": "And Red Flag Four: Identifying toxic symbiotic relationships.",
     "words": 8
    },
    {
-    "id": "5.09#9",
-    "text": "May you always remain safe, vigilant, and at peace.",
-    "words": 9
+    "id": "5.08#9",
+    "text": "Genuine love never requires you to violate ethical boundaries or harm another human being to prove devotion.",
+    "words": 17
+   },
+   {
+    "id": "5.08#10",
+    "text": "When someone demands that you compromise your conscience in the name of loyalty, that is not love, but a lethal noose leading into the abyss.",
+    "words": 25
+   },
+   {
+    "id": "5.08#11",
+    "text": "Always honor the intuitive alarm bells within you, for intuition is humanity's most acute early warning system.",
+    "words": 17
+   },
+   {
+    "id": "5.08#12",
+    "text": "Never rationalize or dismiss the initial micro-transgressions of personal boundaries.",
+    "words": 10
    }
   ]
  },
  {
+  "id": "5.09",
+  "act": 5,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": "khoảng lặng kịch tính"
+ },
+ {
   "id": "5.10",
   "act": 5,
-  "kind": "SFX",
-  "desc": "*Decisive latch of a heavy case binder clicking shut, followed by the soft click of an audio recorder powering off.*"
+  "kind": "LOI",
+  "role": "H",
+  "direction": "warm, moving cadence, concluding podcast with humanistic message",
+  "text": "The file of Paul Bernardo and Karla Homolka concludes as a chilling testament to the unfathomable depths of the human mind. The glamorous Ken and Barbie facade shattered completely, leaving behind an agonizing lesson on the cost of naive assumptions and misplaced compassion. While the judicial bargain carried historical imperfections, the enduring light of human conscience has restored dignity to innocent souls and unmasked absolute evil. Always remember: our safety begins with honoring our intuition and courageously defending non-negotiable moral boundaries. We thank our distinguished guest experts for joining Amber eyes in this clinical behavioral dissection today. Our deepest gratitude to our audience for listening and carrying forward this vital awareness. Please subscribe to the channel and share your perspectives in the comments below. Until our next dossier, stay vigilant, stay safe, and see you soon. May you always maintain peace of mind and discerning clarity in life.",
+  "sentences": [
+   {
+    "id": "5.10#1",
+    "text": "The file of Paul Bernardo and Karla Homolka concludes as a chilling testament to the unfathomable depths of the human mind.",
+    "words": 21
+   },
+   {
+    "id": "5.10#2",
+    "text": "The glamorous Ken and Barbie facade shattered completely, leaving behind an agonizing lesson on the cost of naive assumptions and misplaced compassion.",
+    "words": 22
+   },
+   {
+    "id": "5.10#3",
+    "text": "While the judicial bargain carried historical imperfections, the enduring light of human conscience has restored dignity to innocent souls and unmasked absolute evil.",
+    "words": 23
+   },
+   {
+    "id": "5.10#4",
+    "text": "Always remember: our safety begins with honoring our intuition and courageously defending non-negotiable moral boundaries.",
+    "words": 15
+   },
+   {
+    "id": "5.10#5",
+    "text": "We thank our distinguished guest experts for joining Amber eyes in this clinical behavioral dissection today.",
+    "words": 16
+   },
+   {
+    "id": "5.10#6",
+    "text": "Our deepest gratitude to our audience for listening and carrying forward this vital awareness.",
+    "words": 14
+   },
+   {
+    "id": "5.10#7",
+    "text": "Please subscribe to the channel and share your perspectives in the comments below.",
+    "words": 13
+   },
+   {
+    "id": "5.10#8",
+    "text": "Until our next dossier, stay vigilant, stay safe, and see you soon.",
+    "words": 12
+   },
+   {
+    "id": "5.10#9",
+    "text": "May you always maintain peace of mind and discerning clarity in life.",
+    "words": 12
+   }
+  ]
  },
  {
   "id": "5.11",
   "act": 5,
+  "kind": "SFX",
+  "desc": "*Case file snaps shut with a crisp click, followed by the definitive click of a tape recorder powering off.*"
+ },
+ {
+  "id": "5.12",
+  "act": 5,
   "kind": "BGM",
-  "desc": "*Melancholic piano chords resonating for 5 seconds before gently fading out completely.*"
+  "desc": "*Somber piano melody resonates warmly for five seconds, then gently fades out to silence.*"
  }
 ]

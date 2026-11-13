@@ -1,11 +1,11 @@
 {
- "total": 1561.73,
+ "total": 1882.51,
  "shots": [
   {
    "id": "1-01",
    "act": 1,
-   "start": 23.0,
-   "end": 30.68,
+   "start": 22.8,
+   "end": 32.57,
    "role": "H",
    "sentences": [
     "1.02#1"
@@ -44,8 +44,8 @@
   {
    "id": "1-02",
    "act": 1,
-   "start": 30.68,
-   "end": 39.18,
+   "start": 32.57,
+   "end": 41.36,
    "role": "H",
    "sentences": [
     "1.02#2"
@@ -84,8 +84,8 @@
   {
    "id": "1-03",
    "act": 1,
-   "start": 39.18,
-   "end": 45.0,
+   "start": 41.36,
+   "end": 48.06,
    "role": "H",
    "sentences": [
     "1.02#3"
@@ -124,8 +124,8 @@
   {
    "id": "1-04",
    "act": 1,
-   "start": 45.0,
-   "end": 51.36,
+   "start": 48.06,
+   "end": 55.42,
    "role": "H",
    "sentences": [
     "1.02#4"
@@ -164,8 +164,8 @@
   {
    "id": "1-05",
    "act": 1,
-   "start": 51.36,
-   "end": 59.6,
+   "start": 55.42,
+   "end": 64.54,
    "role": "H",
    "sentences": [
     "1.02#5"
@@ -204,8 +204,8 @@
   {
    "id": "1-06",
    "act": 1,
-   "start": 59.6,
-   "end": 65.36,
+   "start": 64.54,
+   "end": 70.59,
    "role": "H",
    "sentences": [
     "1.02#6"
@@ -244,15 +244,175 @@
   {
    "id": "1-07",
    "act": 1,
-   "start": 65.36,
-   "end": 71.6,
+   "start": 70.59,
+   "end": 80.08,
    "role": "H",
    "sentences": [
     "1.02#7"
    ],
    "template": "T1",
    "variant": "",
+   "bg": "t10_red_bluff_pine_forest_road",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "In peaceful Western towns like Red Bluff, people lived with an ingrained assumption that danger belonged only to distant, crime-ridden metropolitan areas."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-08",
+   "act": 1,
+   "start": 80.08,
+   "end": 91.0,
+   "role": "H",
+   "sentences": [
+    "1.02#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_red_bluff_pine_forest_road",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The tranquil expanse of endless pine forests and the rustic rhythm of community life wove a comforting veil of security that unwittingly dulled people's natural survival instincts."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-09",
+   "act": 1,
+   "start": 91.0,
+   "end": 99.62,
+   "role": "H",
+   "sentences": [
+    "1.02#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_hooker_community_mask",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Everyone believed they truly knew their neighbor across the fence, confident that behind every lit window lay an honest, wholesome family."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-10",
+   "act": 1,
+   "start": 99.62,
+   "end": 107.97,
+   "role": "H",
+   "sentences": [
+    "1.02#10"
+   ],
+   "template": "T1",
+   "variant": "",
    "bg": "t10_golden_innocence_road_illusion",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "That very collective lapse in vigilance transformed the tranquil region into an ideal sanctuary where evil could hide in plain sight."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-11",
+   "act": 1,
+   "start": 107.97,
+   "end": 114.62,
+   "role": "H",
+   "sentences": [
+    "1.02#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_hitchhiking_highway_1977",
    "bg2": null,
    "inset": null,
    "camera": "still",
@@ -282,17 +442,17 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-08",
+   "id": "1-12",
    "act": 1,
-   "start": 71.6,
-   "end": 77.6,
+   "start": 114.62,
+   "end": 121.07,
    "role": "H",
    "sentences": [
-    "1.02#8"
+    "1.02#12"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_hitchhiking_highway_1977",
+   "bg": "t10_golden_innocence_road_illusion",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -322,10 +482,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-09",
+   "id": "1-13",
    "act": 1,
-   "start": 77.6,
-   "end": 86.34,
+   "start": 121.07,
+   "end": 126.85,
    "role": "H",
    "sentences": [
     "1.04#1"
@@ -362,10 +522,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-10",
+   "id": "1-14",
    "act": 1,
-   "start": 86.34,
-   "end": 92.42,
+   "start": 126.85,
+   "end": 134.26,
    "role": "H",
    "sentences": [
     "1.04#2"
@@ -402,10 +562,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-11",
+   "id": "1-15",
    "act": 1,
-   "start": 92.42,
-   "end": 97.9,
+   "start": 134.26,
+   "end": 140.47,
    "role": "H",
    "sentences": [
     "1.04#3"
@@ -442,10 +602,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-12",
+   "id": "1-16",
    "act": 1,
-   "start": 97.9,
-   "end": 103.22,
+   "start": 140.47,
+   "end": 147.07,
    "role": "H",
    "sentences": [
     "1.04#4"
@@ -482,10 +642,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-13",
+   "id": "1-17",
    "act": 1,
-   "start": 103.22,
-   "end": 110.2,
+   "start": 147.07,
+   "end": 154.54,
    "role": "H",
    "sentences": [
     "1.04#5"
@@ -522,10 +682,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-14",
+   "id": "1-18",
    "act": 1,
-   "start": 110.2,
-   "end": 118.04,
+   "start": 154.54,
+   "end": 161.0,
    "role": "H",
    "sentences": [
     "1.04#6"
@@ -562,10 +722,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-15",
+   "id": "1-19",
    "act": 1,
-   "start": 118.04,
-   "end": 124.78,
+   "start": 161.0,
+   "end": 167.92,
    "role": "H",
    "sentences": [
     "1.06#1"
@@ -602,10 +762,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-16",
+   "id": "1-20",
    "act": 1,
-   "start": 124.78,
-   "end": 130.28,
+   "start": 167.92,
+   "end": 174.68,
    "role": "H",
    "sentences": [
     "1.06#2"
@@ -642,10 +802,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-17",
+   "id": "1-21",
    "act": 1,
-   "start": 130.28,
-   "end": 136.42,
+   "start": 174.68,
+   "end": 180.08,
    "role": "H",
    "sentences": [
     "1.06#3"
@@ -682,10 +842,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-18",
+   "id": "1-22",
    "act": 1,
-   "start": 136.42,
-   "end": 144.14,
+   "start": 180.08,
+   "end": 188.64,
    "role": "H",
    "sentences": [
     "1.06#4"
@@ -722,10 +882,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-19",
+   "id": "1-23",
    "act": 1,
-   "start": 144.14,
-   "end": 150.28,
+   "start": 188.64,
+   "end": 195.13,
    "role": "H",
    "sentences": [
     "1.06#5"
@@ -762,10 +922,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-20",
+   "id": "1-24",
    "act": 1,
-   "start": 150.28,
-   "end": 158.62,
+   "start": 195.13,
+   "end": 202.9,
    "role": "H",
    "sentences": [
     "1.06#6"
@@ -804,10 +964,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-21",
+   "id": "1-25",
    "act": 1,
-   "start": 158.62,
-   "end": 161.74,
+   "start": 202.9,
+   "end": 209.5,
    "role": "N1",
    "sentences": [
     "1.07#1"
@@ -844,10 +1004,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-22",
+   "id": "1-26",
    "act": 1,
-   "start": 161.74,
-   "end": 170.2,
+   "start": 209.5,
+   "end": 216.21,
    "role": "N1",
    "sentences": [
     "1.07#2"
@@ -884,10 +1044,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-23",
+   "id": "1-27",
    "act": 1,
-   "start": 170.2,
-   "end": 177.28,
+   "start": 216.21,
+   "end": 223.95,
    "role": "N1",
    "sentences": [
     "1.07#3"
@@ -924,10 +1084,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-24",
+   "id": "1-28",
    "act": 1,
-   "start": 177.28,
-   "end": 183.6,
+   "start": 223.95,
+   "end": 229.89,
    "role": "N1",
    "sentences": [
     "1.07#4"
@@ -964,10 +1124,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-25",
+   "id": "1-29",
    "act": 1,
-   "start": 183.6,
-   "end": 193.18,
+   "start": 229.89,
+   "end": 237.93,
    "role": "N1",
    "sentences": [
     "1.07#5"
@@ -1006,10 +1166,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-26",
+   "id": "1-30",
    "act": 1,
-   "start": 193.18,
-   "end": 200.78,
+   "start": 237.93,
+   "end": 246.77,
    "role": "H",
    "sentences": [
     "1.09#1"
@@ -1046,10 +1206,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-27",
+   "id": "1-31",
    "act": 1,
-   "start": 200.78,
-   "end": 207.78,
+   "start": 246.77,
+   "end": 253.86,
    "role": "H",
    "sentences": [
     "1.09#2"
@@ -1086,10 +1246,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-28",
+   "id": "1-32",
    "act": 1,
-   "start": 207.78,
-   "end": 214.2,
+   "start": 253.86,
+   "end": 261.44,
    "role": "H",
    "sentences": [
     "1.09#3"
@@ -1126,14 +1286,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-29",
+   "id": "1-33",
    "act": 1,
-   "start": 214.2,
-   "end": 224.26,
+   "start": 261.44,
+   "end": 265.58,
    "role": "H",
    "sentences": [
-    "1.09#4",
-    "1.09#5"
+    "1.09#4"
    ],
    "template": "T1",
    "variant": "",
@@ -1150,9 +1309,40 @@
        "A suffocating darkness fell over the young woman's life."
       ]
      ]
-    },
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-34",
+   "act": 1,
+   "start": 265.58,
+   "end": 271.27,
+   "role": "H",
+   "sentences": [
+    "1.09#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_red_bluff_pine_forest_road",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
     {
-     "at_sentence": 5,
+     "at_sentence": null,
      "elems": [
       [
        "ital",
@@ -1178,10 +1368,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-30",
+   "id": "1-35",
    "act": 1,
-   "start": 224.26,
-   "end": 230.58,
+   "start": 271.27,
+   "end": 278.42,
    "role": "D",
    "sentences": [
     "1.10#1"
@@ -1191,7 +1381,7 @@
    "bg": "t10_sawmill_lumber_yard_dusk",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -1218,10 +1408,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-31",
+   "id": "1-36",
    "act": 1,
-   "start": 230.58,
-   "end": 238.6,
+   "start": 278.42,
+   "end": 286.44,
    "role": "D",
    "sentences": [
     "1.10#2"
@@ -1231,7 +1421,7 @@
    "bg": "t10_knife_shadow_ambush",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -1258,10 +1448,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-32",
+   "id": "1-37",
    "act": 1,
-   "start": 238.6,
-   "end": 244.76,
+   "start": 286.44,
+   "end": 292.48,
    "role": "D",
    "sentences": [
     "1.10#3"
@@ -1271,7 +1461,7 @@
    "bg": "t10_soundproof_headbox_forensic",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -1298,10 +1488,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-33",
+   "id": "1-38",
    "act": 1,
-   "start": 244.76,
-   "end": 252.88,
+   "start": 292.48,
+   "end": 300.28,
    "role": "D",
    "sentences": [
     "1.10#4"
@@ -1311,7 +1501,7 @@
    "bg": "t10_soundproof_headbox_forensic",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -1338,10 +1528,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-34",
+   "id": "1-39",
    "act": 1,
-   "start": 252.88,
-   "end": 260.96,
+   "start": 300.28,
+   "end": 308.08,
    "role": "D",
    "sentences": [
     "1.10#5"
@@ -1351,7 +1541,7 @@
    "bg": "t10_soundproof_headbox_forensic",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -1378,10 +1568,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-35",
+   "id": "1-40",
    "act": 1,
-   "start": 260.96,
-   "end": 267.28,
+   "start": 308.08,
+   "end": 314.9,
    "role": "D",
    "sentences": [
     "1.10#6"
@@ -1391,7 +1581,7 @@
    "bg": "t10_soundproof_headbox_forensic",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -1418,10 +1608,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-36",
+   "id": "1-41",
    "act": 1,
-   "start": 267.28,
-   "end": 277.16,
+   "start": 314.9,
+   "end": 322.94,
    "role": "D",
    "sentences": [
     "1.10#7"
@@ -1431,7 +1621,7 @@
    "bg": "t10_isolated_red_bluff_cabin",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -1460,10 +1650,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-37",
+   "id": "1-42",
    "act": 1,
-   "start": 277.16,
-   "end": 282.18,
+   "start": 322.94,
+   "end": 329.54,
    "role": "H",
    "sentences": [
     "1.11#1"
@@ -1473,7 +1663,7 @@
    "bg": "t10_isolated_red_bluff_cabin",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -1500,10 +1690,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-38",
+   "id": "1-43",
    "act": 1,
-   "start": 282.18,
-   "end": 288.68,
+   "start": 329.54,
+   "end": 336.74,
    "role": "H",
    "sentences": [
     "1.11#2"
@@ -1513,7 +1703,7 @@
    "bg": "t10_wooden_box_under_bed_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -1540,10 +1730,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-39",
+   "id": "1-44",
    "act": 1,
-   "start": 288.68,
-   "end": 294.46,
+   "start": 336.74,
+   "end": 342.68,
    "role": "H",
    "sentences": [
     "1.11#3"
@@ -1553,7 +1743,7 @@
    "bg": "t10_wooden_box_under_bed_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -1580,10 +1770,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-40",
+   "id": "1-45",
    "act": 1,
-   "start": 294.46,
-   "end": 300.44,
+   "start": 342.68,
+   "end": 349.11,
    "role": "H",
    "sentences": [
     "1.11#4"
@@ -1593,7 +1783,7 @@
    "bg": "t10_wooden_box_under_bed_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -1620,10 +1810,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-41",
+   "id": "1-46",
    "act": 1,
-   "start": 300.44,
-   "end": 306.02,
+   "start": 349.11,
+   "end": 355.16,
    "role": "H",
    "sentences": [
     "1.11#5"
@@ -1633,7 +1823,7 @@
    "bg": "t10_tehama_superior_court_columns",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -1660,10 +1850,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-42",
+   "id": "1-47",
    "act": 1,
-   "start": 306.02,
-   "end": 308.9,
+   "start": 355.16,
+   "end": 357.16,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -1704,8 +1894,8 @@
   {
    "id": "2-01",
    "act": 2,
-   "start": 308.9,
-   "end": 315.16,
+   "start": 357.16,
+   "end": 363.94,
    "role": "H",
    "sentences": [
     "2.02#1"
@@ -1715,7 +1905,7 @@
    "bg": "t10_coffin_box_claustrophobia",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -1744,8 +1934,8 @@
   {
    "id": "2-02",
    "act": 2,
-   "start": 315.16,
-   "end": 322.9,
+   "start": 363.94,
+   "end": 372.29,
    "role": "H",
    "sentences": [
     "2.02#2"
@@ -1755,7 +1945,7 @@
    "bg": "t10_coffin_box_claustrophobia",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -1784,8 +1974,8 @@
   {
    "id": "2-03",
    "act": 2,
-   "start": 322.9,
-   "end": 329.5,
+   "start": 372.29,
+   "end": 379.05,
    "role": "H",
    "sentences": [
     "2.02#3"
@@ -1795,7 +1985,7 @@
    "bg": "t10_stiff_hands_wooden_slats",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -1824,8 +2014,8 @@
   {
    "id": "2-04",
    "act": 2,
-   "start": 329.5,
-   "end": 336.58,
+   "start": 379.05,
+   "end": 386.79,
    "role": "H",
    "sentences": [
     "2.02#4"
@@ -1835,7 +2025,7 @@
    "bg": "t10_stiff_hands_wooden_slats",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -1864,8 +2054,8 @@
   {
    "id": "2-05",
    "act": 2,
-   "start": 336.58,
-   "end": 343.32,
+   "start": 386.79,
+   "end": 394.1,
    "role": "H",
    "sentences": [
     "2.02#5"
@@ -1875,7 +2065,7 @@
    "bg": "t10_coffin_box_claustrophobia",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -1904,8 +2094,8 @@
   {
    "id": "2-06",
    "act": 2,
-   "start": 343.32,
-   "end": 351.8,
+   "start": 394.1,
+   "end": 401.76,
    "role": "H",
    "sentences": [
     "2.02#6"
@@ -1915,7 +2105,7 @@
    "bg": "t10_coffin_box_claustrophobia",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -1946,8 +2136,8 @@
   {
    "id": "2-07",
    "act": 2,
-   "start": 351.8,
-   "end": 359.52,
+   "start": 401.76,
+   "end": 410.27,
    "role": "D",
    "sentences": [
     "2.04#1"
@@ -1957,14 +2147,14 @@
    "bg": "t10_heavy_iron_latches_padlock",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "The wooden prison box was designed and assembled by Cameron Hooker himself using heavy-duty structural plywood."
+       "The wooden detention box was designed and assembled by Cameron Hooker himself using thick, heavy-duty structural plywood."
       ]
      ]
     }
@@ -1986,8 +2176,8 @@
   {
    "id": "2-08",
    "act": 2,
-   "start": 359.52,
-   "end": 366.12,
+   "start": 410.27,
+   "end": 415.61,
    "role": "D",
    "sentences": [
     "2.04#2"
@@ -1997,14 +2187,14 @@
    "bg": "t10_waterbed_crushing_weight",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "He concealed this box directly beneath the massive waterbed located inside his master bedroom."
+       "He hid this box directly beneath the massive waterbed in their master bedroom."
       ]
      ]
     }
@@ -2026,25 +2216,25 @@
   {
    "id": "2-09",
    "act": 2,
-   "start": 366.12,
-   "end": 373.16,
+   "start": 415.61,
+   "end": 422.43,
    "role": "D",
    "sentences": [
     "2.04#3"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_heavy_iron_latches_padlock",
+   "bg": "t10_waterbed_crushing_weight",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "The immense weight of the waterbed above made pushing the lid open from the inside an absolute physical impossibility."
+       "The immense weight of the waterbed above rendered pushing open the lid from inside completely impossible."
       ]
      ]
     }
@@ -2066,8 +2256,8 @@
   {
    "id": "2-10",
    "act": 2,
-   "start": 373.16,
-   "end": 382.4,
+   "start": 422.43,
+   "end": 432.47,
    "role": "D",
    "sentences": [
     "2.04#4"
@@ -2077,14 +2267,14 @@
    "bg": "t10_heavy_iron_latches_padlock",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "He instituted a regimen of absolute physical control: Colleen was permitted out for only brief daily chores under strict surveillance."
+       "He enforced absolute physical dominance: Colleen was permitted out of the box only for brief intervals each day to perform domestic chores under rigid surveillance."
       ]
      ]
     }
@@ -2106,25 +2296,25 @@
   {
    "id": "2-11",
    "act": 2,
-   "start": 382.4,
-   "end": 390.5,
+   "start": 432.47,
+   "end": 437.97,
    "role": "D",
    "sentences": [
     "2.04#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_one_hour_chores_silhouette",
+   "bg": "t10_janice_hooker_moral_turmoil",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Crime scene behavioral analysis demonstrates a quintessential convergence of “Modus Operandi” and psychological “Signature”."
+       "Yet in a tragic paradox, Colleen Stan was not the only captive inside that house."
       ]
      ]
     }
@@ -2146,15 +2336,135 @@
   {
    "id": "2-12",
    "act": 2,
-   "start": 390.5,
-   "end": 396.5,
+   "start": 437.97,
+   "end": 446.81,
    "role": "D",
    "sentences": [
     "2.04#6"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_heavy_iron_latches_padlock",
+   "bg": "t10_janice_hooker_moral_turmoil",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Just above the wooden box, in that very bedroom, Janice Hooker was trapped in her own invisible psychological cage constructed by her husband."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-13",
+   "act": 2,
+   "start": 446.81,
+   "end": 457.78,
+   "role": "D",
+   "sentences": [
+    "2.04#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_janice_hooker_moral_turmoil",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Having been abused from her youth, the young wife severed her own moral compass, turning complicity into a cowardly shield to divert the brunt of violence onto another woman's body."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-14",
+   "act": 2,
+   "start": 457.78,
+   "end": 466.84,
+   "role": "D",
+   "sentences": [
+    "2.04#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_waterbed_crushing_weight",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Each night on that waterbed, the faint rustling from beneath the floorboards drove an invisible knife into what little remained of her conscience."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-15",
+   "act": 2,
+   "start": 466.84,
+   "end": 475.9,
+   "role": "D",
+   "sentences": [
+    "2.04#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_one_hour_chores_silhouette",
    "bg2": null,
    "inset": null,
    "camera": "pull",
@@ -2164,7 +2474,47 @@
      "elems": [
       [
        "ital",
-       "He converted his private domestic residence into an impenetrable clandestine dungeon."
+       "Behavioral crime scene analysis demonstrates that this was a classic manifestation of “Modus Operandi” intertwined with “Psychological Signature”."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-16",
+   "act": 2,
+   "start": 475.9,
+   "end": 480.38,
+   "role": "D",
+   "sentences": [
+    "2.04#10"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_heavy_iron_latches_padlock",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "He transformed an ordinary domestic space into an impenetrable underground prison."
       ]
      ]
     }
@@ -2186,10 +2536,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-13",
+   "id": "2-17",
    "act": 2,
-   "start": 396.5,
-   "end": 401.78,
+   "start": 480.38,
+   "end": 487.14,
    "role": "H",
    "sentences": [
     "2.05#1"
@@ -2199,7 +2549,7 @@
    "bg": "t10_hooker_community_mask",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -2226,10 +2576,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-14",
+   "id": "2-18",
    "act": 2,
-   "start": 401.78,
-   "end": 409.98,
+   "start": 487.14,
+   "end": 495.05,
    "role": "H",
    "sentences": [
     "2.05#2"
@@ -2239,7 +2589,7 @@
    "bg": "t10_hooker_community_mask",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -2266,10 +2616,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-15",
+   "id": "2-19",
    "act": 2,
-   "start": 409.98,
-   "end": 415.16,
+   "start": 495.05,
+   "end": 501.05,
    "role": "H",
    "sentences": [
     "2.05#3"
@@ -2279,7 +2629,7 @@
    "bg": "t10_hooker_community_mask",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -2306,10 +2656,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-16",
+   "id": "2-20",
    "act": 2,
-   "start": 415.16,
-   "end": 420.98,
+   "start": 501.05,
+   "end": 506.66,
    "role": "H",
    "sentences": [
     "2.05#4"
@@ -2319,7 +2669,7 @@
    "bg": "t10_dark_dominance_psychopathy",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -2346,10 +2696,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-17",
+   "id": "2-21",
    "act": 2,
-   "start": 420.98,
-   "end": 428.78,
+   "start": 506.66,
+   "end": 514.15,
    "role": "H",
    "sentences": [
     "2.05#5"
@@ -2359,7 +2709,7 @@
    "bg": "t10_dark_dominance_psychopathy",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -2388,10 +2738,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-18",
+   "id": "2-22",
    "act": 2,
-   "start": 428.78,
-   "end": 437.98,
+   "start": 514.15,
+   "end": 524.47,
    "role": "C",
    "sentences": [
     "2.06#1"
@@ -2401,14 +2751,14 @@
    "bg": "t10_sensory_deprivation_clock_melt",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "From the perspective of behavioral psychology, confining a human being to darkness and tight confinement produces “Extreme Sensory Deprivation”."
+       "From the standpoint of behavioral psychology, confining a human being to darkness and cramped isolation over years triggers “Extreme Sensory Deprivation”."
       ]
      ]
     }
@@ -2428,53 +2778,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-19",
+   "id": "2-23",
    "act": 2,
-   "start": 437.98,
-   "end": 446.96,
+   "start": 524.47,
+   "end": 532.54,
    "role": "C",
    "sentences": [
     "2.06#2"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t10_sensory_deprivation_clock_melt",
-   "bg2": null,
-   "inset": null,
-   "camera": "pan",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "When the brain is severed from routine sensory stimulation, the fundamental concepts of time and spatial orientation utterly disintegrate."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "2-20",
-   "act": 2,
-   "start": 446.96,
-   "end": 454.84,
-   "role": "C",
-   "sentences": [
-    "2.06#3"
    ],
    "template": "T1",
    "variant": "",
@@ -2488,127 +2798,7 @@
      "elems": [
       [
        "ital",
-       "The victim rapidly loses bearings, unable to differentiate day from night, objective reality from vivid hallucinations."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "2-21",
-   "act": 2,
-   "start": 454.84,
-   "end": 460.9,
-   "role": "C",
-   "sentences": [
-    "2.06#4"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t10_sensory_deprivation_clock_melt",
-   "bg2": null,
-   "inset": null,
-   "camera": "still",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "This state of sensory depletion effectively dismantles natural psychological defense mechanisms."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "2-22",
-   "act": 2,
-   "start": 460.9,
-   "end": 469.02,
-   "role": "C",
-   "sentences": [
-    "2.06#5"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t10_childhood_poems_faint_echo",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "In that extreme sensory vacuum, the slightest ambiguous cue was magnified into overwhelming panic and existential dread."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "2-23",
-   "act": 2,
-   "start": 469.02,
-   "end": 475.6,
-   "role": "C",
-   "sentences": [
-    "2.06#6"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t10_childhood_poems_faint_echo",
-   "bg2": null,
-   "inset": null,
-   "camera": "pan",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Simultaneously, it demonstrates the most extreme manifestation of “Objectification and Dehumanization”."
+       "When the human brain is cut off from typical sensory inputs, the fundamental concepts of time and space completely disintegrate."
       ]
      ]
     }
@@ -2630,25 +2820,25 @@
   {
    "id": "2-24",
    "act": 2,
-   "start": 475.6,
-   "end": 481.98,
+   "start": 532.54,
+   "end": 539.63,
    "role": "C",
    "sentences": [
-    "2.06#7"
+    "2.06#3"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_sensory_deprivation_clock_melt",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "The perpetrator suffered from severe deficits in “Theory of Mind” and a total lack of affective empathy."
+       "The captive rapidly loses orientation, unable to distinguish between day and night, reality and hallucination."
       ]
      ]
     }
@@ -2670,11 +2860,131 @@
   {
    "id": "2-25",
    "act": 2,
-   "start": 481.98,
-   "end": 490.38,
+   "start": 539.63,
+   "end": 545.24,
    "role": "C",
    "sentences": [
-    "2.06#8"
+    "2.06#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_sensory_deprivation_clock_melt",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "This state of sensory exhaustion shatters natural psychological defense mechanisms."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-26",
+   "act": 2,
+   "start": 545.24,
+   "end": 553.97,
+   "role": "C",
+   "sentences": [
+    "2.06#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_childhood_poems_faint_echo",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Confronted with an unimaginably brutal captivity, the human mind is forced to activate an ultimate survival defense known as “Dissociation”."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-27",
+   "act": 2,
+   "start": 553.97,
+   "end": 561.17,
+   "role": "C",
+   "sentences": [
+    "2.06#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_childhood_poems_faint_echo",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Colleen Stan learned to sever her conscious soul from the physical shell enduring agony in suffocating darkness."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-28",
+   "act": 2,
+   "start": 561.17,
+   "end": 571.92,
+   "role": "C",
+   "sentences": [
+    "2.06#7"
    ],
    "template": "T1",
    "variant": "",
@@ -2688,7 +2998,207 @@
      "elems": [
       [
        "ital",
-       "He did not perceive Colleen as a conscious human being with feelings, but degraded her into a personal prop to service his arousal for power."
+       "Through an extraordinary power of visualization, she roamed the meadows of her childhood, recited remembered prayers, and built an impregnable spiritual fortress within herself."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-29",
+   "act": 2,
+   "start": 571.92,
+   "end": 579.78,
+   "role": "C",
+   "sentences": [
+    "2.06#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_childhood_poems_faint_echo",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Preserving that internal sphere of spiritual freedom prevented her core humanity from being obliterated by sadistic control."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-30",
+   "act": 2,
+   "start": 579.78,
+   "end": 586.98,
+   "role": "C",
+   "sentences": [
+    "2.06#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_sensory_deprivation_clock_melt",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Under such extreme sensory deprivation, the faintest auditory stimulus can trigger overwhelming waves of terror."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-31",
+   "act": 2,
+   "start": 586.98,
+   "end": 594.23,
+   "role": "C",
+   "sentences": [
+    "2.06#10"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_childhood_poems_faint_echo",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "At the same time, this brutality reflects the most extreme manifestation of “Objectification and Dehumanization”."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-32",
+   "act": 2,
+   "start": 594.23,
+   "end": 601.32,
+   "role": "C",
+   "sentences": [
+    "2.06#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_sensory_deprivation_clock_melt",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The perpetrator suffered from severe deficits in “Theory of Mind” and a complete absence of affective empathy."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-33",
+   "act": 2,
+   "start": 601.32,
+   "end": 610.67,
+   "role": "C",
+   "sentences": [
+    "2.06#12"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_childhood_poems_faint_echo",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "He never viewed Colleen as a sentient human being experiencing pain, but demoted her to an exclusive proprietary object serving his sadomasochistic cravings for dominance."
       ]
      ]
     }
@@ -2710,10 +3220,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-26",
+   "id": "2-34",
    "act": 2,
-   "start": 490.38,
-   "end": 497.96,
+   "start": 610.67,
+   "end": 618.86,
    "role": "H",
    "sentences": [
     "2.07#1"
@@ -2723,7 +3233,7 @@
    "bg": "t10_the_company_shadow_syndicate",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -2750,10 +3260,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-27",
+   "id": "2-35",
    "act": 2,
-   "start": 497.96,
-   "end": 504.82,
+   "start": 618.86,
+   "end": 627.37,
    "role": "H",
    "sentences": [
     "2.07#2"
@@ -2763,7 +3273,7 @@
    "bg": "t10_invisible_timber_prison_mind",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -2790,10 +3300,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-28",
+   "id": "2-36",
    "act": 2,
-   "start": 504.82,
-   "end": 510.22,
+   "start": 627.37,
+   "end": 631.99,
    "role": "H",
    "sentences": [
     "2.07#3"
@@ -2803,7 +3313,7 @@
    "bg": "t10_the_company_shadow_syndicate",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -2830,10 +3340,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-29",
+   "id": "2-37",
    "act": 2,
-   "start": 510.22,
-   "end": 517.94,
+   "start": 631.99,
+   "end": 638.12,
    "role": "H",
    "sentences": [
     "2.07#4"
@@ -2843,7 +3353,7 @@
    "bg": "t10_window_sniper_paranoia_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -2872,10 +3382,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-30",
+   "id": "2-38",
    "act": 2,
-   "start": 517.94,
-   "end": 551.16,
+   "start": 638.12,
+   "end": 646.96,
    "role": "D",
    "sentences": [
     "2.08#1"
@@ -2885,7 +3395,7 @@
    "bg": "t10_the_company_shadow_syndicate",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -2912,10 +3422,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-31",
+   "id": "2-39",
    "act": 2,
-   "start": 551.16,
-   "end": 562.08,
+   "start": 646.96,
+   "end": 656.73,
    "role": "D",
    "sentences": [
     "2.08#2"
@@ -2925,7 +3435,7 @@
    "bg": "t10_the_company_shadow_syndicate",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -2952,10 +3462,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-32",
+   "id": "2-40",
    "act": 2,
-   "start": 562.08,
-   "end": 567.06,
+   "start": 656.73,
+   "end": 662.34,
    "role": "D",
    "sentences": [
     "2.08#3"
@@ -2965,7 +3475,7 @@
    "bg": "t10_the_company_shadow_syndicate",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -2992,21 +3502,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-33",
+   "id": "2-41",
    "act": 2,
-   "start": 567.06,
-   "end": 582.22,
+   "start": 662.34,
+   "end": 671.35,
    "role": "D",
    "sentences": [
-    "2.08#4",
-    "2.08#5"
+    "2.08#4"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_family_home_under_surveillance",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3016,9 +3525,40 @@
        "Should she attempt flight or disclose her predicament to anyone, the organization would hunt down and retaliate against her parents and siblings."
       ]
      ]
-    },
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-42",
+   "act": 2,
+   "start": 671.35,
+   "end": 677.12,
+   "role": "D",
+   "sentences": [
+    "2.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_dark_dominance_psychopathy",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
     {
-     "at_sentence": 5,
+     "at_sentence": null,
      "elems": [
       [
        "ital",
@@ -3042,10 +3582,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-34",
+   "id": "2-43",
    "act": 2,
-   "start": 582.22,
-   "end": 591.82,
+   "start": 677.12,
+   "end": 685.74,
    "role": "D",
    "sentences": [
     "2.08#6"
@@ -3055,7 +3595,7 @@
    "bg": "t10_written_slave_contract_quill",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3082,10 +3622,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-35",
+   "id": "2-44",
    "act": 2,
-   "start": 591.82,
-   "end": 601.46,
+   "start": 685.74,
+   "end": 693.84,
    "role": "D",
    "sentences": [
     "2.08#7"
@@ -3095,7 +3635,7 @@
    "bg": "t10_written_slave_contract_quill",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3124,10 +3664,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-36",
+   "id": "2-45",
    "act": 2,
-   "start": 601.46,
-   "end": 608.52,
+   "start": 693.84,
+   "end": 701.7,
    "role": "H",
    "sentences": [
     "2.09#1"
@@ -3137,7 +3677,7 @@
    "bg": "t10_written_slave_contract_quill",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3164,10 +3704,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-37",
+   "id": "2-46",
    "act": 2,
-   "start": 608.52,
-   "end": 614.5,
+   "start": 701.7,
+   "end": 708.13,
    "role": "H",
    "sentences": [
     "2.09#2"
@@ -3177,7 +3717,7 @@
    "bg": "t10_written_slave_contract_quill",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -3204,10 +3744,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-38",
+   "id": "2-47",
    "act": 2,
-   "start": 614.5,
-   "end": 620.54,
+   "start": 708.13,
+   "end": 714.67,
    "role": "H",
    "sentences": [
     "2.09#3"
@@ -3217,7 +3757,7 @@
    "bg": "t10_window_sniper_paranoia_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3244,10 +3784,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-39",
+   "id": "2-48",
    "act": 2,
-   "start": 620.54,
-   "end": 627.44,
+   "start": 714.67,
+   "end": 720.91,
    "role": "H",
    "sentences": [
     "2.09#4"
@@ -3257,7 +3797,7 @@
    "bg": "t10_second_victim_shadow_threat",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3286,10 +3826,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-40",
+   "id": "2-49",
    "act": 2,
-   "start": 627.44,
-   "end": 633.82,
+   "start": 720.91,
+   "end": 729.15,
    "role": "C",
    "sentences": [
     "2.10#1"
@@ -3299,7 +3839,7 @@
    "bg": "t10_darkness_as_false_shelter",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3326,10 +3866,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-41",
+   "id": "2-50",
    "act": 2,
-   "start": 633.82,
-   "end": 642.1,
+   "start": 729.15,
+   "end": 736.57,
    "role": "C",
    "sentences": [
     "2.10#2"
@@ -3339,7 +3879,7 @@
    "bg": "t10_darkness_as_false_shelter",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -3366,10 +3906,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-42",
+   "id": "2-51",
    "act": 2,
-   "start": 642.1,
-   "end": 647.22,
+   "start": 736.57,
+   "end": 742.07,
    "role": "C",
    "sentences": [
     "2.10#3"
@@ -3379,7 +3919,7 @@
    "bg": "t10_darkness_as_false_shelter",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3406,10 +3946,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-43",
+   "id": "2-52",
    "act": 2,
-   "start": 647.22,
-   "end": 654.48,
+   "start": 742.07,
+   "end": 749.43,
    "role": "C",
    "sentences": [
     "2.10#4"
@@ -3419,7 +3959,7 @@
    "bg": "t10_childhood_poems_faint_echo",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3446,10 +3986,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-44",
+   "id": "2-53",
    "act": 2,
-   "start": 654.48,
-   "end": 662.16,
+   "start": 749.43,
+   "end": 757.01,
    "role": "C",
    "sentences": [
     "2.10#5"
@@ -3459,7 +3999,7 @@
    "bg": "t10_sensory_deprivation_clock_melt",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3486,10 +4026,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-45",
+   "id": "2-54",
    "act": 2,
-   "start": 662.16,
-   "end": 670.46,
+   "start": 757.01,
+   "end": 764.34,
    "role": "C",
    "sentences": [
     "2.10#6"
@@ -3499,7 +4039,7 @@
    "bg": "t10_darkness_as_false_shelter",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -3528,10 +4068,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-46",
+   "id": "2-55",
    "act": 2,
-   "start": 670.46,
-   "end": 675.38,
+   "start": 764.34,
+   "end": 770.17,
    "role": "H",
    "sentences": [
     "2.11#1"
@@ -3541,7 +4081,7 @@
    "bg": "t10_clock_hands_seven_years",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3568,10 +4108,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-47",
+   "id": "2-56",
    "act": 2,
-   "start": 675.38,
-   "end": 679.38,
+   "start": 770.17,
+   "end": 775.18,
    "role": "H",
    "sentences": [
     "2.11#2"
@@ -3581,7 +4121,7 @@
    "bg": "t10_clock_hands_seven_years",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3608,10 +4148,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-48",
+   "id": "2-57",
    "act": 2,
-   "start": 679.38,
-   "end": 686.76,
+   "start": 775.18,
+   "end": 783.89,
    "role": "H",
    "sentences": [
     "2.11#3"
@@ -3621,7 +4161,7 @@
    "bg": "t10_wooden_box_under_bed_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3648,10 +4188,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-49",
+   "id": "2-58",
    "act": 2,
-   "start": 686.76,
-   "end": 691.04,
+   "start": 783.89,
+   "end": 785.89,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -3692,8 +4232,8 @@
   {
    "id": "3-01",
    "act": 3,
-   "start": 691.04,
-   "end": 699.16,
+   "start": 785.89,
+   "end": 794.36,
    "role": "H",
    "sentences": [
     "3.02#1"
@@ -3703,7 +4243,7 @@
    "bg": "t10_riverside_california_bungalow",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3732,8 +4272,8 @@
   {
    "id": "3-02",
    "act": 3,
-   "start": 699.16,
-   "end": 707.16,
+   "start": 794.36,
+   "end": 803.09,
    "role": "H",
    "sentences": [
     "3.02#2"
@@ -3743,7 +4283,7 @@
    "bg": "t10_riverside_california_bungalow",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3772,8 +4312,8 @@
   {
    "id": "3-03",
    "act": 3,
-   "start": 707.16,
-   "end": 712.82,
+   "start": 803.09,
+   "end": 809.64,
    "role": "H",
    "sentences": [
     "3.02#3"
@@ -3783,7 +4323,7 @@
    "bg": "t10_front_door_unbelievable_return",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3812,8 +4352,8 @@
   {
    "id": "3-04",
    "act": 3,
-   "start": 712.82,
-   "end": 720.72,
+   "start": 809.64,
+   "end": 815.98,
    "role": "H",
    "sentences": [
     "3.02#4"
@@ -3823,7 +4363,7 @@
    "bg": "t10_riverside_california_bungalow",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -3852,8 +4392,8 @@
   {
    "id": "3-05",
    "act": 3,
-   "start": 720.72,
-   "end": 725.16,
+   "start": 815.98,
+   "end": 821.21,
    "role": "H",
    "sentences": [
     "3.04#1"
@@ -3863,7 +4403,7 @@
    "bg": "t10_front_door_unbelievable_return",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3892,8 +4432,8 @@
   {
    "id": "3-06",
    "act": 3,
-   "start": 725.16,
-   "end": 732.06,
+   "start": 821.21,
+   "end": 829.72,
    "role": "H",
    "sentences": [
     "3.04#2"
@@ -3903,7 +4443,7 @@
    "bg": "t10_front_door_unbelievable_return",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3932,8 +4472,8 @@
   {
    "id": "3-07",
    "act": 3,
-   "start": 732.06,
-   "end": 739.5,
+   "start": 829.72,
+   "end": 836.48,
    "role": "H",
    "sentences": [
     "3.04#3"
@@ -3943,7 +4483,7 @@
    "bg": "t10_tense_family_dinner_shadows",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3972,8 +4512,8 @@
   {
    "id": "3-08",
    "act": 3,
-   "start": 739.5,
-   "end": 747.46,
+   "start": 836.48,
+   "end": 843.04,
    "role": "H",
    "sentences": [
     "3.04#4"
@@ -3983,7 +4523,7 @@
    "bg": "t10_polite_boyfriend_facade",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -4014,8 +4554,8 @@
   {
    "id": "3-09",
    "act": 3,
-   "start": 747.46,
-   "end": 753.5,
+   "start": 843.04,
+   "end": 850.13,
    "role": "D",
    "sentences": [
     "3.05#1"
@@ -4025,7 +4565,7 @@
    "bg": "t10_bathroom_mirror_downcast_eyes",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -4054,8 +4594,8 @@
   {
    "id": "3-10",
    "act": 3,
-   "start": 753.5,
-   "end": 761.6,
+   "start": 850.13,
+   "end": 858.64,
    "role": "D",
    "sentences": [
     "3.05#2"
@@ -4065,7 +4605,7 @@
    "bg": "t10_bathroom_mirror_downcast_eyes",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -4094,8 +4634,8 @@
   {
    "id": "3-11",
    "act": 3,
-   "start": 761.6,
-   "end": 768.5,
+   "start": 858.64,
+   "end": 865.51,
    "role": "D",
    "sentences": [
     "3.05#3"
@@ -4105,7 +4645,7 @@
    "bg": "t10_bathroom_mirror_downcast_eyes",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -4134,8 +4674,8 @@
   {
    "id": "3-12",
    "act": 3,
-   "start": 768.5,
-   "end": 775.16,
+   "start": 865.51,
+   "end": 872.38,
    "role": "D",
    "sentences": [
     "3.05#4"
@@ -4145,7 +4685,7 @@
    "bg": "t10_father_concerned_inquiry",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -4174,8 +4714,8 @@
   {
    "id": "3-13",
    "act": 3,
-   "start": 775.16,
-   "end": 783.14,
+   "start": 872.38,
+   "end": 880.35,
    "role": "D",
    "sentences": [
     "3.05#5"
@@ -4185,7 +4725,7 @@
    "bg": "t10_father_concerned_inquiry",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -4214,8 +4754,8 @@
   {
    "id": "3-14",
    "act": 3,
-   "start": 783.14,
-   "end": 792.06,
+   "start": 880.35,
+   "end": 888.58,
    "role": "D",
    "sentences": [
     "3.05#6"
@@ -4225,7 +4765,7 @@
    "bg": "t10_packed_suitcase_return_car",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -4254,8 +4794,8 @@
   {
    "id": "3-15",
    "act": 3,
-   "start": 792.06,
-   "end": 799.56,
+   "start": 888.58,
+   "end": 894.0,
    "role": "D",
    "sentences": [
     "3.05#7"
@@ -4265,7 +4805,7 @@
    "bg": "t10_bathroom_mirror_downcast_eyes",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -4296,8 +4836,8 @@
   {
    "id": "3-16",
    "act": 3,
-   "start": 799.56,
-   "end": 805.24,
+   "start": 894.0,
+   "end": 900.6,
    "role": "H",
    "sentences": [
     "3.06#1"
@@ -4307,7 +4847,7 @@
    "bg": "t10_open_door_paradox_dilemma",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -4336,8 +4876,8 @@
   {
    "id": "3-17",
    "act": 3,
-   "start": 805.24,
-   "end": 810.22,
+   "start": 900.6,
+   "end": 906.32,
    "role": "H",
    "sentences": [
     "3.06#2"
@@ -4347,7 +4887,7 @@
    "bg": "t10_open_door_paradox_dilemma",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -4376,8 +4916,8 @@
   {
    "id": "3-18",
    "act": 3,
-   "start": 810.22,
-   "end": 815.34,
+   "start": 906.32,
+   "end": 911.99,
    "role": "H",
    "sentences": [
     "3.06#3"
@@ -4387,7 +4927,7 @@
    "bg": "t10_open_door_paradox_dilemma",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -4416,8 +4956,8 @@
   {
    "id": "3-19",
    "act": 3,
-   "start": 815.34,
-   "end": 822.62,
+   "start": 911.99,
+   "end": 917.73,
    "role": "H",
    "sentences": [
     "3.06#4"
@@ -4427,7 +4967,7 @@
    "bg": "t10_open_door_paradox_dilemma",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -4458,8 +4998,8 @@
   {
    "id": "3-20",
    "act": 3,
-   "start": 822.62,
-   "end": 830.6,
+   "start": 917.73,
+   "end": 927.56,
    "role": "C",
    "sentences": [
     "3.07#1"
@@ -4469,14 +5009,14 @@
    "bg": "t10_martin_seligman_learned_helplessness",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "The key to unlocking this phenomenon is the landmark psychological doctrine of “Learned Helplessness”, discovered by Professor Martin Seligman."
+       "The key to unlocking this paradox lies in the landmark psychological doctrine of “Learned Helplessness”, discovered by Professor Martin Seligman."
       ]
      ]
     }
@@ -4498,8 +5038,8 @@
   {
    "id": "3-21",
    "act": 3,
-   "start": 830.6,
-   "end": 839.54,
+   "start": 927.56,
+   "end": 938.42,
    "role": "C",
    "sentences": [
     "3.07#2"
@@ -4509,14 +5049,14 @@
    "bg": "t10_martin_seligman_learned_helplessness",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "In his research, Seligman demonstrated that when an organism endures prolonged distress where initial attempts to resist prove futile, the nervous system learns to give up."
+       "In his research, Seligman demonstrated that when an organism experiences prolonged suffering where early resistance proves entirely futile, the nervous system learns to surrender."
       ]
      ]
     }
@@ -4538,8 +5078,8 @@
   {
    "id": "3-22",
    "act": 3,
-   "start": 839.54,
-   "end": 847.58,
+   "start": 938.42,
+   "end": 946.11,
    "role": "C",
    "sentences": [
     "3.07#3"
@@ -4549,14 +5089,14 @@
    "bg": "t10_open_cage_motionless_silhouette",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "The brain establishes an absolute conviction that suffering is inevitable and no personal action can alter reality."
+       "The brain establishes an absolute conviction that suffering is inevitable and that no conscious action can alter reality."
       ]
      ]
     }
@@ -4578,8 +5118,8 @@
   {
    "id": "3-23",
    "act": 3,
-   "start": 847.58,
-   "end": 855.78,
+   "start": 946.11,
+   "end": 955.06,
    "role": "C",
    "sentences": [
     "3.07#4"
@@ -4589,14 +5129,14 @@
    "bg": "t10_open_cage_motionless_silhouette",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Even when genuine escape routes emerge, the organism remains paralyzed in will, unable to cross the threshold toward freedom."
+       "When an authentic avenue of escape finally swings open, the subject remains paralyzed and incapable of stepping across the threshold to freedom."
       ]
      ]
     }
@@ -4618,8 +5158,8 @@
   {
    "id": "3-24",
    "act": 3,
-   "start": 855.78,
-   "end": 864.48,
+   "start": 955.06,
+   "end": 963.19,
    "role": "C",
    "sentences": [
     "3.07#5"
@@ -4629,14 +5169,14 @@
    "bg": "t10_martin_seligman_learned_helplessness",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Once learned helplessness becomes deeply ingrained, victims subconsciously surrender all initiatives for self-rescue even when liberty beckons."
+       "Once learned helplessness embeds itself into the subconscious, the victim reflexively rejects opportunities to rescue themselves."
       ]
      ]
     }
@@ -4658,25 +5198,25 @@
   {
    "id": "3-25",
    "act": 3,
-   "start": 864.48,
-   "end": 871.12,
+   "start": 963.19,
+   "end": 973.34,
    "role": "C",
    "sentences": [
     "3.07#6"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_the_company_shadow_syndicate",
+   "bg": "t10_father_concerned_inquiry",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "For Colleen, the visit home was perceived as a treacherous loyalty test orchestrated by “The Company”."
+       "From the standpoint of cognitive psychology, the family's silence during the nineteen eighty-one visit also stemmed from a phenomenon known as the “Relief Blindspot”."
       ]
      ]
     }
@@ -4698,25 +5238,25 @@
   {
    "id": "3-26",
    "act": 3,
-   "start": 871.12,
-   "end": 877.76,
+   "start": 973.34,
+   "end": 986.5,
    "role": "C",
    "sentences": [
     "3.07#7"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_window_sniper_paranoia_shadow",
+   "bg": "t10_tense_family_dinner_shadows",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "She firmly believed that a single plea for help would prompt unseen agents to retaliate and destroy her parents."
+       "After four grueling years of despair, Colleen's sudden reappearance unleashed such an overwhelming surge of positive emotion that her father unconsciously activated a “Normalcy Bias”, brushing aside her strained demeanor."
       ]
      ]
     }
@@ -4738,25 +5278,25 @@
   {
    "id": "3-27",
    "act": 3,
-   "start": 877.76,
-   "end": 884.2,
+   "start": 986.5,
+   "end": 999.5,
    "role": "C",
    "sentences": [
     "3.07#8"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_wooden_box_under_bed_shadow",
+   "bg": "t10_father_concerned_inquiry",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Her silence and willing return were the ultimate acts of self-sacrifice to shield her family's lives."
+       "The cultural backdrop of the late nineteen seventies, with thousands of youths joining communal lifestyle groups and alternative religious movements, served as a perfect smokescreen that lulled the family's suspicions."
       ]
      ]
     }
@@ -4767,9 +5307,7 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [
-     "H"
-    ],
+    "handoff": [],
     "dual": false,
     "guests": false,
     "p2": false
@@ -4780,25 +5318,25 @@
   {
    "id": "3-28",
    "act": 3,
-   "start": 884.2,
-   "end": 891.6,
-   "role": "H",
+   "start": 999.5,
+   "end": 1006.26,
+   "role": "C",
    "sentences": [
-    "3.08#1"
+    "3.07#9"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_window_sniper_paranoia_shadow",
+   "bg": "t10_the_company_shadow_syndicate",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Alongside learned helplessness, a secondary psychological engine holding Colleen captive was intense “Trauma Bonding”."
+       "For Colleen, the family visit was perceived as a treacherous “Loyalty Test” engineered by “The Company”."
       ]
      ]
     }
@@ -4820,25 +5358,25 @@
   {
    "id": "3-29",
    "act": 3,
-   "start": 891.6,
-   "end": 898.76,
-   "role": "H",
+   "start": 1006.26,
+   "end": 1013.95,
+   "role": "C",
    "sentences": [
-    "3.08#2"
+    "3.07#10"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_window_sniper_paranoia_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Formulated by Doctor Patrick Carnes, this concept illuminates the paradoxical attachment between a victim and an abuser."
+       "She was convinced that a single errant plea for help would prompt underground agents to execute her parents and siblings."
       ]
      ]
     }
@@ -4860,25 +5398,25 @@
   {
    "id": "3-30",
    "act": 3,
-   "start": 898.76,
-   "end": 905.94,
-   "role": "H",
+   "start": 1013.95,
+   "end": 1020.35,
+   "role": "C",
    "sentences": [
-    "3.08#3"
+    "3.07#11"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_window_sniper_paranoia_shadow",
+   "bg": "t10_wooden_box_under_bed_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Cameron Hooker engineered a manipulative cycle, alternating between harsh confinement and sporadic, unexpected favors."
+       "Silence and obediently returning to the wooden box was seen as the ultimate sacrifice to preserve her family's lives."
       ]
      ]
     }
@@ -4889,7 +5427,9 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [],
+    "handoff": [
+     "H"
+    ],
     "dual": false,
     "guests": false,
     "p2": false
@@ -4900,25 +5440,25 @@
   {
    "id": "3-31",
    "act": 3,
-   "start": 905.94,
-   "end": 913.64,
+   "start": 1020.35,
+   "end": 1029.52,
    "role": "H",
    "sentences": [
-    "3.08#4"
+    "3.08#1"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_window_sniper_paranoia_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "He occasionally allowed her outside to glimpse the sky, gave small gifts, or offered praise when she demonstrated total obedience."
+       "Alongside learned helplessness, a second psychological mechanism binding Colleen throughout those years was extreme “Trauma Bonding”."
       ]
      ]
     }
@@ -4940,11 +5480,251 @@
   {
    "id": "3-32",
    "act": 3,
-   "start": 913.64,
-   "end": 922.74,
+   "start": 1029.52,
+   "end": 1037.38,
+   "role": "H",
+   "sentences": [
+    "3.08#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_window_sniper_paranoia_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The concept, formulated by Doctor Patrick Carnes, illuminates the paradoxical attachment between captives and their abusers."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-33",
+   "act": 3,
+   "start": 1037.38,
+   "end": 1046.49,
+   "role": "H",
+   "sentences": [
+    "3.08#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_window_sniper_paranoia_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cameron Hooker deployed a calculated cycle of manipulation: alternating between severe punishment and unexpected, intermittent drops of indulgence."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-34",
+   "act": 3,
+   "start": 1046.49,
+   "end": 1054.4,
+   "role": "H",
+   "sentences": [
+    "3.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_window_sniper_paranoia_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "He occasionally allowed her outside for fresh air, gave her small gifts, or offered praise when she exhibited submissiveness."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-35",
+   "act": 3,
+   "start": 1054.4,
+   "end": 1063.78,
    "role": "H",
    "sentences": [
     "3.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_darkness_as_false_shelter",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "And perhaps, the most harrowing paradox of all: In the victim's exhausted psyche, the wooden box beneath the bed sometimes became a “Twisted Sanctuary”."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-36",
+   "act": 3,
+   "start": 1063.78,
+   "end": 1071.64,
+   "role": "H",
+   "sentences": [
+    "3.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_darkness_as_false_shelter",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Because outside the box, she faced constant terror from unpredictable punishments and the scrutiny of an overwhelming world."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-37",
+   "act": 3,
+   "start": 1071.64,
+   "end": 1081.08,
+   "role": "H",
+   "sentences": [
+    "3.08#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_darkness_as_false_shelter",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Only inside that confined darkness was she temporarily sheltered in an internal sanctuary, believing her endurance protected the lives of her loved ones."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-38",
+   "act": 3,
+   "start": 1081.08,
+   "end": 1089.07,
+   "role": "H",
+   "sentences": [
+    "3.08#8"
    ],
    "template": "T1",
    "variant": "",
@@ -4958,7 +5738,7 @@
      "elems": [
       [
        "ital",
-       "In the absolute depths of deprivation, these tiny crumbs of kindness transformed the captor into the sole savior upon whom survival depended."
+       "In the absolute abyss of deprivation, those fleeting crumbs of kindness transformed the captor into the sole “Savior” upon whom survival depended."
       ]
      ]
     }
@@ -4980,10 +5760,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-33",
+   "id": "3-39",
    "act": 3,
-   "start": 922.74,
-   "end": 930.28,
+   "start": 1089.07,
+   "end": 1097.31,
    "role": "C",
    "sentences": [
     "3.09#1"
@@ -5020,10 +5800,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-34",
+   "id": "3-40",
    "act": 3,
-   "start": 930.28,
-   "end": 934.98,
+   "start": 1097.31,
+   "end": 1103.69,
    "role": "C",
    "sentences": [
     "3.09#2"
@@ -5060,10 +5840,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-35",
+   "id": "3-41",
    "act": 3,
-   "start": 934.98,
-   "end": 942.7,
+   "start": 1103.69,
+   "end": 1110.23,
    "role": "C",
    "sentences": [
     "3.09#3"
@@ -5100,10 +5880,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-36",
+   "id": "3-42",
    "act": 3,
-   "start": 942.7,
-   "end": 949.26,
+   "start": 1110.23,
+   "end": 1117.43,
    "role": "C",
    "sentences": [
     "3.09#4"
@@ -5140,10 +5920,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-37",
+   "id": "3-43",
    "act": 3,
-   "start": 949.26,
-   "end": 957.08,
+   "start": 1117.43,
+   "end": 1125.55,
    "role": "C",
    "sentences": [
     "3.09#5"
@@ -5180,10 +5960,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-38",
+   "id": "3-44",
    "act": 3,
-   "start": 957.08,
-   "end": 963.44,
+   "start": 1125.55,
+   "end": 1132.48,
    "role": "C",
    "sentences": [
     "3.09#6"
@@ -5220,10 +6000,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-39",
+   "id": "3-45",
    "act": 3,
-   "start": 963.44,
-   "end": 969.72,
+   "start": 1132.48,
+   "end": 1139.02,
    "role": "C",
    "sentences": [
     "3.09#7"
@@ -5260,10 +6040,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-40",
+   "id": "3-46",
    "act": 3,
-   "start": 969.72,
-   "end": 977.1,
+   "start": 1139.02,
+   "end": 1145.09,
    "role": "C",
    "sentences": [
     "3.09#8"
@@ -5302,10 +6082,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-41",
+   "id": "3-47",
    "act": 3,
-   "start": 977.1,
-   "end": 984.86,
+   "start": 1145.09,
+   "end": 1154.32,
    "role": "H",
    "sentences": [
     "3.10#1"
@@ -5342,10 +6122,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-42",
+   "id": "3-48",
    "act": 3,
-   "start": 984.86,
-   "end": 990.08,
+   "start": 1154.32,
+   "end": 1159.87,
    "role": "H",
    "sentences": [
     "3.10#2"
@@ -5382,10 +6162,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-43",
+   "id": "3-49",
    "act": 3,
-   "start": 990.08,
-   "end": 997.12,
+   "start": 1159.87,
+   "end": 1167.35,
    "role": "H",
    "sentences": [
     "3.10#3"
@@ -5422,10 +6202,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-44",
+   "id": "3-50",
    "act": 3,
-   "start": 997.12,
-   "end": 999.86,
+   "start": 1167.35,
+   "end": 1169.35,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -5466,8 +6246,8 @@
   {
    "id": "4-01",
    "act": 4,
-   "start": 999.86,
-   "end": 1005.78,
+   "start": 1169.35,
+   "end": 1175.31,
    "role": "H",
    "sentences": [
     "4.02#1"
@@ -5506,8 +6286,8 @@
   {
    "id": "4-02",
    "act": 4,
-   "start": 1005.78,
-   "end": 1011.76,
+   "start": 1175.31,
+   "end": 1182.56,
    "role": "H",
    "sentences": [
     "4.02#2"
@@ -5546,8 +6326,8 @@
   {
    "id": "4-03",
    "act": 4,
-   "start": 1011.76,
-   "end": 1019.58,
+   "start": 1182.56,
+   "end": 1191.02,
    "role": "H",
    "sentences": [
     "4.02#3"
@@ -5586,8 +6366,8 @@
   {
    "id": "4-04",
    "act": 4,
-   "start": 1019.58,
-   "end": 1026.94,
+   "start": 1191.02,
+   "end": 1198.32,
    "role": "H",
    "sentences": [
     "4.02#4"
@@ -5626,8 +6406,8 @@
   {
    "id": "4-05",
    "act": 4,
-   "start": 1026.94,
-   "end": 1034.84,
+   "start": 1198.32,
+   "end": 1205.05,
    "role": "H",
    "sentences": [
     "4.02#5"
@@ -5668,8 +6448,8 @@
   {
    "id": "4-06",
    "act": 4,
-   "start": 1034.84,
-   "end": 1043.08,
+   "start": 1205.05,
+   "end": 1213.89,
    "role": "D",
    "sentences": [
     "4.03#1"
@@ -5686,7 +6466,7 @@
      "elems": [
       [
        "ital",
-       "The individual who undermined that fortified psychological wall was none other than Janice Hooker, Cameron's wife and accomplice."
+       "The person who fractured that seemingly impenetrable fortress was none other than Janice Hooker, Cameron's wife and accomplice."
       ]
      ]
     }
@@ -5708,8 +6488,8 @@
   {
    "id": "4-07",
    "act": 4,
-   "start": 1043.08,
-   "end": 1050.86,
+   "start": 1213.89,
+   "end": 1222.4,
    "role": "D",
    "sentences": [
     "4.03#2"
@@ -5726,7 +6506,7 @@
      "elems": [
       [
        "ital",
-       "Janice had known Cameron since age fifteen and had herself been subjected to his psychological control for years."
+       "Janice had known Cameron since she was fifteen and had herself been manipulated and coerced under his psychological dominance for years."
       ]
      ]
     }
@@ -5748,8 +6528,8 @@
   {
    "id": "4-08",
    "act": 4,
-   "start": 1050.86,
-   "end": 1060.08,
+   "start": 1222.4,
+   "end": 1231.57,
    "role": "D",
    "sentences": [
     "4.03#3"
@@ -5766,7 +6546,7 @@
      "elems": [
       [
        "ital",
-       "However, when Cameron voiced intentions to abduct a second young woman to expand his twisted domestic dominion, Janice panicked."
+       "However, when Cameron began voicing ambitions to kidnap a second young woman to expand his twisted fantasy, Janice was seized by overwhelming panic."
       ]
      ]
     }
@@ -5788,15 +6568,15 @@
   {
    "id": "4-09",
    "act": 4,
-   "start": 1060.08,
-   "end": 1067.18,
+   "start": 1231.57,
+   "end": 1242.32,
    "role": "D",
    "sentences": [
     "4.03#4"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_janice_hooker_moral_turmoil",
+   "bg": "t10_second_victim_shadow_threat",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -5806,7 +6586,7 @@
      "elems": [
       [
        "ital",
-       "A mother’s primal protective instinct over her daughters became the decisive catalyst prompting her moral awakening."
+       "Interrogation records later revealed that Cameron's demand to abduct a second young woman dealt a fatal blow to the “Cognitive Dissonance” Janice had maintained for seven years."
       ]
      ]
     }
@@ -5828,15 +6608,15 @@
   {
    "id": "4-10",
    "act": 4,
-   "start": 1067.18,
-   "end": 1074.9,
+   "start": 1242.32,
+   "end": 1251.71,
    "role": "D",
    "sentences": [
     "4.03#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_second_victim_shadow_threat",
+   "bg": "t10_seventh_year_toddler_toys_shadow",
    "bg2": null,
    "inset": null,
    "camera": "pan",
@@ -5846,7 +6626,7 @@
      "elems": [
       [
        "ital",
-       "The dread of escalating criminality combined with seven years of crushing moral guilt shattered her psychological defenses."
+       "She realized his predatory escalation would never cease, and a second captive would permanently transform her home into an inescapable house of horrors."
       ]
      ]
     }
@@ -5868,15 +6648,15 @@
   {
    "id": "4-11",
    "act": 4,
-   "start": 1074.9,
-   "end": 1081.66,
+   "start": 1251.71,
+   "end": 1262.08,
    "role": "D",
    "sentences": [
     "4.03#6"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_church_pastor_confession_shadow",
+   "bg": "t10_seventh_year_toddler_toys_shadow",
    "bg2": null,
    "inset": null,
    "camera": "pull",
@@ -5886,7 +6666,7 @@
      "elems": [
       [
        "ital",
-       "Janice sought counsel from a local minister to unburden her conscience and seek spiritual guidance."
+       "Her two young daughters were growing up, and the terrifying prospect of them being corrupted or becoming his next victims pushed the young mother past her breaking point."
       ]
      ]
     }
@@ -5897,9 +6677,7 @@
     "bust": false,
     "nobust": false,
     "intro": false,
-    "handoff": [
-     "H"
-    ],
+    "handoff": [],
     "dual": false,
     "guests": false,
     "p2": false
@@ -5910,15 +6688,15 @@
   {
    "id": "4-12",
    "act": 4,
-   "start": 1081.66,
-   "end": 1089.18,
-   "role": "H",
+   "start": 1262.08,
+   "end": 1269.33,
+   "role": "D",
    "sentences": [
-    "4.04#1"
+    "4.03#7"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_second_victim_shadow_threat",
+   "bg": "t10_janice_hooker_moral_turmoil",
    "bg2": null,
    "inset": null,
    "camera": "still",
@@ -5928,7 +6706,7 @@
      "elems": [
       [
        "ital",
-       "The minister urged Janice that she must confront reality and terminate her complicity before catastrophe became irreversible."
+       "A mother's protective instinct toward her children became the ultimate catalyst awakening her dormant conscience."
       ]
      ]
     }
@@ -5950,11 +6728,11 @@
   {
    "id": "4-13",
    "act": 4,
-   "start": 1089.18,
-   "end": 1095.04,
-   "role": "H",
+   "start": 1269.33,
+   "end": 1276.31,
+   "role": "D",
    "sentences": [
-    "4.04#2"
+    "4.03#8"
    ],
    "template": "T1",
    "variant": "",
@@ -5968,7 +6746,7 @@
      "elems": [
       [
        "ital",
-       "The final breaking point arrived in early August nineteen eighty-four while Cameron was away from the house."
+       "The terror of escalating atrocities and seven years of accumulated guilt crushed her psychological defenses."
       ]
      ]
     }
@@ -5990,15 +6768,15 @@
   {
    "id": "4-14",
    "act": 4,
-   "start": 1095.04,
-   "end": 1102.22,
-   "role": "H",
+   "start": 1276.31,
+   "end": 1281.51,
+   "role": "D",
    "sentences": [
-    "4.04#3"
+    "4.03#9"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_second_victim_shadow_threat",
+   "bg": "t10_church_pastor_confession_shadow",
    "bg2": null,
    "inset": null,
    "camera": "pan",
@@ -6008,249 +6786,7 @@
      "elems": [
       [
        "ital",
-       "Janice recognized that continued silence would destroy not only Colleen, but also the future of her own young daughters."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-15",
-   "act": 4,
-   "start": 1102.22,
-   "end": 1107.9,
-   "role": "H",
-   "sentences": [
-    "4.04#4"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t10_church_pastor_confession_shadow",
-   "bg2": null,
-   "inset": null,
-   "camera": "pull",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "She resolved to execute a courageous act that permanently altered the trajectory of the case."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [
-     "N2"
-    ],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-16",
-   "act": 4,
-   "start": 1107.9,
-   "end": 1113.78,
-   "role": "N2",
-   "sentences": [
-    "4.05#1"
-   ],
-   "template": "T4",
-   "variant": "testimony",
-   "bg": "t10_church_pastor_confession_shadow",
-   "bg2": null,
-   "inset": null,
-   "camera": "still",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Imagine the soul-crushing torment of a woman living in terror of her husband throughout her entire youth."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": true,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-17",
-   "act": 4,
-   "start": 1113.78,
-   "end": 1121.62,
-   "role": "N2",
-   "sentences": [
-    "4.05#2"
-   ],
-   "template": "T4",
-   "variant": "testimony",
-   "bg": "t10_church_pastor_confession_shadow",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "I had kept silent, I had assisted him, and I had become an accomplice to an unthinkable crime for seven years."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-18",
-   "act": 4,
-   "start": 1121.62,
-   "end": 1127.46,
-   "role": "N2",
-   "sentences": [
-    "4.05#3"
-   ],
-   "template": "T4",
-   "variant": "testimony",
-   "bg": "t10_wooden_box_under_bed_shadow",
-   "bg2": null,
-   "inset": null,
-   "camera": "pan",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Every time I looked at that young woman in the shadows, my conscience was shredded by overwhelming guilt."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-19",
-   "act": 4,
-   "start": 1127.46,
-   "end": 1133.1,
-   "role": "N2",
-   "sentences": [
-    "4.05#4"
-   ],
-   "template": "T4",
-   "variant": "testimony",
-   "bg": "t10_church_pastor_confession_shadow",
-   "bg2": null,
-   "inset": null,
-   "camera": "pull",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "In that decisive moment, I knew I could no longer remain a coward for another second."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-20",
-   "act": 4,
-   "start": 1133.1,
-   "end": 1143.76,
-   "role": "N2",
-   "sentences": [
-    "4.05#5"
-   ],
-   "template": "T4",
-   "variant": "testimony",
-   "bg": "t10_church_pastor_confession_shadow",
-   "bg2": null,
-   "inset": null,
-   "camera": "still",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "I took Colleen by the hand and told her the truth: “Cameron does not belong to any Company, it was all an elaborate lie he invented to keep you captive.”"
+       "Janice sought out a local church pastor to unburden her conscience and seek spiritual guidance."
       ]
      ]
     }
@@ -6272,10 +6808,534 @@
    "transition": "dissolve"
   },
   {
+   "id": "4-15",
+   "act": 4,
+   "start": 1281.51,
+   "end": 1289.42,
+   "role": "H",
+   "sentences": [
+    "4.04#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_second_victim_shadow_threat",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The pastor urged Janice to confront the truth and immediately terminate her complicity before it was too late."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-16",
+   "act": 4,
+   "start": 1289.42,
+   "end": 1299.36,
+   "role": "H",
+   "sentences": [
+    "4.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_church_pastor_confession_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The pastor's counsel served as an “External Moral Anchor”, tearing away the grotesque normalization that Cameron had drilled into her mind for more than a decade."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-17",
+   "act": 4,
+   "start": 1299.36,
+   "end": 1306.12,
+   "role": "H",
+   "sentences": [
+    "4.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_second_victim_shadow_threat",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The breaking point arrived in early August nineteen eighty-four, during Cameron's absence from the home."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-18",
+   "act": 4,
+   "start": 1306.12,
+   "end": 1314.74,
+   "role": "H",
+   "sentences": [
+    "4.04#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_church_pastor_confession_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Janice realized that continuing silence would bury not only Colleen, but the future of her own young daughters in an abyss of criminality."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-19",
+   "act": 4,
+   "start": 1314.74,
+   "end": 1319.5,
+   "role": "H",
+   "sentences": [
+    "4.04#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_church_pastor_confession_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "She resolved to take a courageous step that irrevocably altered the course of the case."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "N2"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-20",
+   "act": 4,
+   "start": 1319.5,
+   "end": 1329.11,
+   "role": "N2",
+   "sentences": [
+    "4.05#1"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_church_pastor_confession_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Imagine the agonizing torment of a woman realizing the domestic life she fought to preserve was built on the living burial of her conscience."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": true,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
    "id": "4-21",
    "act": 4,
-   "start": 1143.76,
-   "end": 1152.7,
+   "start": 1329.11,
+   "end": 1337.35,
+   "role": "N2",
+   "sentences": [
+    "4.05#2"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_church_pastor_confession_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "I was so terrified of Cameron that I became deaf and blind, comforting myself that as long as I obeyed, our children would be safe."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-22",
+   "act": 4,
+   "start": 1337.35,
+   "end": 1344.05,
+   "role": "N2",
+   "sentences": [
+    "4.05#3"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_wooden_box_under_bed_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "I was silent, I was complicit, and I became an active part of that horrific crime for seven long years."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-23",
+   "act": 4,
+   "start": 1344.05,
+   "end": 1354.59,
+   "role": "N2",
+   "sentences": [
+    "4.05#4"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_church_pastor_confession_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "But seeing that ravenous predatory hunger in his eyes, watching my two toddler daughters playing innocently on the rug, a cold truth seized me: This monster will never stop."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-24",
+   "act": 4,
+   "start": 1354.59,
+   "end": 1360.85,
+   "role": "N2",
+   "sentences": [
+    "4.05#5"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_church_pastor_confession_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Each day seeing Colleen in that darkness, my conscience felt torn by thousands of sharp blades."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-25",
+   "act": 4,
+   "start": 1360.85,
+   "end": 1368.22,
+   "role": "N2",
+   "sentences": [
+    "4.05#6"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_janice_hooker_moral_turmoil",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "If I did not find the courage to end this nightmare, my soul would burn forever in the fires of unforgivable guilt."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-26",
+   "act": 4,
+   "start": 1368.22,
+   "end": 1374.26,
+   "role": "N2",
+   "sentences": [
+    "4.05#7"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_seventh_year_toddler_toys_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "In that defining moment, I realized I could not remain a coward for a single second longer."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-27",
+   "act": 4,
+   "start": 1374.26,
+   "end": 1381.54,
+   "role": "N2",
+   "sentences": [
+    "4.05#8"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_church_pastor_confession_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "I held Colleen's hand and spoke the truth: “Cameron does not belong to any Company, it was all his twisted lie to keep you enslaved.”"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-28",
+   "act": 4,
+   "start": 1381.54,
+   "end": 1391.86,
    "role": "H",
    "sentences": [
     "4.07#1"
@@ -6285,7 +7345,7 @@
    "bg": "t10_red_bluff_bus_depot_departure",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -6312,10 +7372,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-22",
+   "id": "4-29",
    "act": 4,
-   "start": 1152.7,
-   "end": 1159.24,
+   "start": 1391.86,
+   "end": 1398.51,
    "role": "H",
    "sentences": [
     "4.07#2"
@@ -6325,7 +7385,7 @@
    "bg": "t10_red_bluff_bus_depot_departure",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -6352,10 +7412,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-23",
+   "id": "4-30",
    "act": 4,
-   "start": 1159.24,
-   "end": 1161.72,
+   "start": 1398.51,
+   "end": 1405.0,
    "role": "H",
    "sentences": [
     "4.07#3"
@@ -6365,7 +7425,7 @@
    "bg": "t10_red_bluff_bus_depot_departure",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -6392,10 +7452,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-24",
+   "id": "4-31",
    "act": 4,
-   "start": 1161.72,
-   "end": 1172.76,
+   "start": 1405.0,
+   "end": 1412.69,
    "role": "H",
    "sentences": [
     "4.07#4"
@@ -6405,7 +7465,7 @@
    "bg": "t10_august_escape_car_morning_dust",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -6432,10 +7492,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-25",
+   "id": "4-32",
    "act": 4,
-   "start": 1172.76,
-   "end": 1179.3,
+   "start": 1412.69,
+   "end": 1420.16,
    "role": "H",
    "sentences": [
     "4.07#5"
@@ -6445,7 +7505,7 @@
    "bg": "t10_truth_revealed_shattered_phantom",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -6472,10 +7532,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-26",
+   "id": "4-33",
    "act": 4,
-   "start": 1179.3,
-   "end": 1185.4,
+   "start": 1420.16,
+   "end": 1425.47,
    "role": "H",
    "sentences": [
     "4.07#6"
@@ -6485,7 +7545,7 @@
    "bg": "t10_red_bluff_bus_depot_departure",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -6514,10 +7574,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-27",
+   "id": "4-34",
    "act": 4,
-   "start": 1185.4,
-   "end": 1195.12,
+   "start": 1425.47,
+   "end": 1435.35,
    "role": "D",
    "sentences": [
     "4.08#1"
@@ -6527,7 +7587,7 @@
    "bg": "t10_tehama_county_sheriff_station",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -6554,10 +7614,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-28",
+   "id": "4-35",
    "act": 4,
-   "start": 1195.12,
-   "end": 1205.12,
+   "start": 1435.35,
+   "end": 1444.41,
    "role": "D",
    "sentences": [
     "4.08#2"
@@ -6567,7 +7627,7 @@
    "bg": "t10_immunity_agreement_document",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -6594,10 +7654,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-29",
+   "id": "4-36",
    "act": 4,
-   "start": 1205.12,
-   "end": 1215.12,
+   "start": 1444.41,
+   "end": 1453.47,
    "role": "D",
    "sentences": [
     "4.08#3"
@@ -6607,7 +7667,7 @@
    "bg": "t10_forensic_search_evidence_seizure",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -6634,10 +7694,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-30",
+   "id": "4-37",
    "act": 4,
-   "start": 1215.12,
-   "end": 1220.58,
+   "start": 1453.47,
+   "end": 1457.95,
    "role": "D",
    "sentences": [
     "4.08#4"
@@ -6647,7 +7707,7 @@
    "bg": "t10_forensic_search_evidence_seizure",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -6676,10 +7736,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-31",
+   "id": "4-38",
    "act": 4,
-   "start": 1220.58,
-   "end": 1229.32,
+   "start": 1457.95,
+   "end": 1467.67,
    "role": "C",
    "sentences": [
     "4.09#1"
@@ -6689,126 +7749,6 @@
    "bg": "t10_tehama_superior_court_columns",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "During the historic nineteen eighty-five trial in Tehama County Superior Court, Cameron Hooker exhibited brazen narcissistic defiance."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-32",
-   "act": 4,
-   "start": 1229.32,
-   "end": 1237.94,
-   "role": "C",
-   "sentences": [
-    "4.09#2"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t10_tehama_superior_court_columns",
-   "bg2": null,
-   "inset": null,
-   "camera": "still",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "He pleaded not guilty, shamelessly contending that Colleen remained voluntarily and that the slave contract represented mutual agreement."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-33",
-   "act": 4,
-   "start": 1237.94,
-   "end": 1244.0,
-   "role": "C",
-   "sentences": [
-    "4.09#3"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t10_frank_ochberg_psychiatric_testimony",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Countering those fabrications, forensic psychologist Doctor Chris Hatcher testified before the jury."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-34",
-   "act": 4,
-   "start": 1244.0,
-   "end": 1253.64,
-   "role": "C",
-   "sentences": [
-    "4.09#4"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t10_unmasking_predator_broken_facade",
-   "bg2": null,
-   "inset": null,
    "camera": "pan",
    "segments": [
     {
@@ -6816,169 +7756,7 @@
      "elems": [
       [
        "ital",
-       "Doctor Hatcher demonstrated that her outward compliance was in fact a passive psychological adaptation strategy forged under extreme existential terror."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-35",
-   "act": 4,
-   "start": 1253.64,
-   "end": 1262.72,
-   "role": "C",
-   "sentences": [
-    "4.09#5"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t10_tehama_superior_court_columns",
-   "bg2": null,
-   "inset": null,
-   "camera": "pull",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "His expert analysis dissected “Brainwashing and Coercive Control”, enabling jurors to comprehend why a captive's resistance becomes paralyzed."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-36",
-   "act": 4,
-   "start": 1262.72,
-   "end": 1269.06,
-   "role": "C",
-   "sentences": [
-    "4.09#6"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t10_unmasking_predator_broken_facade",
-   "bg2": null,
-   "inset": null,
-   "camera": "still",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "The deceitful defense of voluntary consent was decisively dismantled beneath the light of justice."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [
-     "H"
-    ],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-37",
-   "act": 4,
-   "start": 1269.06,
-   "end": 1277.2,
-   "role": "H",
-   "sentences": [
-    "4.10#1"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t10_104_years_sentence_gavel",
-   "bg2": null,
-   "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Confronted by overwhelming physical evidence and unequivocal testimony from both women, Judge Clarence Knight delivered a stern sentence."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-38",
-   "act": 4,
-   "start": 1277.2,
-   "end": 1284.04,
-   "role": "H",
-   "sentences": [
-    "4.10#2"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t10_104_years_sentence_gavel",
-   "bg2": null,
-   "inset": null,
-   "camera": "pan",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Cameron Hooker was sentenced to one hundred and four years in state prison for multiple counts of kidnapping and criminal violation."
+       "During the historic nineteen eighty-five trial in Tehama County Superior Court, Cameron Hooker maintained his shameless narcissistic arrogance."
       ]
      ]
     }
@@ -7000,15 +7778,15 @@
   {
    "id": "4-39",
    "act": 4,
-   "start": 1284.04,
-   "end": 1290.44,
-   "role": "H",
+   "start": 1467.67,
+   "end": 1476.29,
+   "role": "C",
    "sentences": [
-    "4.10#3"
+    "4.09#2"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_104_years_sentence_gavel",
+   "bg": "t10_tehama_superior_court_columns",
    "bg2": null,
    "inset": null,
    "camera": "pull",
@@ -7018,7 +7796,7 @@
      "elems": [
       [
        "ital",
-       "As the gavel struck, the predator suffered a total “Narcissistic Collapse” into “Pathological Self-Pity”."
+       "He stubbornly pleaded not guilty, brazenly asserting that Colleen had stayed willingly and that the slave contract was a mutual agreement."
       ]
      ]
     }
@@ -7040,15 +7818,15 @@
   {
    "id": "4-40",
    "act": 4,
-   "start": 1290.44,
-   "end": 1297.78,
-   "role": "H",
+   "start": 1476.29,
+   "end": 1484.09,
+   "role": "C",
    "sentences": [
-    "4.10#4"
+    "4.09#3"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_california_state_prison_bars_closing",
+   "bg": "t10_immunity_agreement_document",
    "bg2": null,
    "inset": null,
    "camera": "still",
@@ -7058,7 +7836,7 @@
      "elems": [
       [
        "ital",
-       "He shed no tears for the stolen youth of his victim, mourning solely the permanent loss of his own freedom and entitlement."
+       "Through the lens of forensic psychology, Janice Hooker's repentance reflects the deeply conflicted duality of human nature."
       ]
      ]
     }
@@ -7080,15 +7858,15 @@
   {
    "id": "4-41",
    "act": 4,
-   "start": 1297.78,
-   "end": 1301.78,
-   "role": "H",
+   "start": 1484.09,
+   "end": 1495.61,
+   "role": "C",
    "sentences": [
-    "4.10#5"
+    "4.09#4"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_104_years_sentence_gavel",
+   "bg": "t10_immunity_agreement_document",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -7098,7 +7876,7 @@
      "elems": [
       [
        "ital",
-       "A century-long sentence fell upon the perpetrator as a fitting decree of the law."
+       "She experienced authentic moral awakening when freeing Colleen in August nineteen eighty-four, yet waited nearly three months to surrender once her attorney secured a full immunity agreement."
       ]
      ]
     }
@@ -7120,8 +7898,450 @@
   {
    "id": "4-42",
    "act": 4,
-   "start": 1301.78,
-   "end": 1304.52,
+   "start": 1495.61,
+   "end": 1504.5,
+   "role": "C",
+   "sentences": [
+    "4.09#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_tehama_superior_court_columns",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "It was a complex intersection between genuine remorse and the pragmatic survival drive of a mother desperate to remain with her young children."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-43",
+   "act": 4,
+   "start": 1504.5,
+   "end": 1513.18,
+   "role": "C",
+   "sentences": [
+    "4.09#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_frank_ochberg_psychiatric_testimony",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Confronting these self-serving fabrications, forensic psychologist Doctor Chris Hatcher delivered pivotal expert testimony before the jury."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-44",
+   "act": 4,
+   "start": 1513.18,
+   "end": 1521.19,
+   "role": "C",
+   "sentences": [
+    "4.09#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_unmasking_predator_broken_facade",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Doctor Hatcher demonstrated that the victim's compliant behavior was a passive survival adaptation forged under chronic terror."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-45",
+   "act": 4,
+   "start": 1521.19,
+   "end": 1531.73,
+   "role": "C",
+   "sentences": [
+    "4.09#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_tehama_superior_court_columns",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "His expert testimony deconstructed the mechanisms of “Coercive Control and Thought Reform”, enabling the jury to understand why a captive's will to resist becomes paralyzed."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-46",
+   "act": 4,
+   "start": 1531.73,
+   "end": 1536.98,
+   "role": "C",
+   "sentences": [
+    "4.09#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_unmasking_predator_broken_facade",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The deceitful veneer of voluntary consent was completely obliterated under the light of justice."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [
+     "H"
+    ],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-47",
+   "act": 4,
+   "start": 1536.98,
+   "end": 1547.96,
+   "role": "H",
+   "sentences": [
+    "4.10#1"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_104_years_sentence_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Faced with incontrovertible physical evidence and compelling testimony from both women, Judge Clarence Knight pronounced the most severe sentence available under law."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-48",
+   "act": 4,
+   "start": 1547.96,
+   "end": 1557.34,
+   "role": "H",
+   "sentences": [
+    "4.10#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_104_years_sentence_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cameron Hooker was sentenced to one hundred and four years in state prison for multiple counts of kidnapping, sexual assault, and unlawful imprisonment."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-49",
+   "act": 4,
+   "start": 1557.34,
+   "end": 1564.81,
+   "role": "H",
+   "sentences": [
+    "4.10#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_104_years_sentence_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "As the judicial gavel came down, the predator experienced total “Narcissistic Collapse” and “Pathological Self-Pity”."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-50",
+   "act": 4,
+   "start": 1564.81,
+   "end": 1573.76,
+   "role": "H",
+   "sentences": [
+    "4.10#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_california_state_prison_bars_closing",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "He shed no tears for the seven stolen years of his victim's youth, weeping only for his own lost freedom and shattered fantasies of omnipotence."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-51",
+   "act": 4,
+   "start": 1573.76,
+   "end": 1582.38,
+   "role": "H",
+   "sentences": [
+    "4.10#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_california_state_prison_bars_closing",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The predator who locked another human being in darkness was now permanently imprisoned within the cage of his own pathological narcissism."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-52",
+   "act": 4,
+   "start": 1582.38,
+   "end": 1588.05,
+   "role": "H",
+   "sentences": [
+    "4.10#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_104_years_sentence_gavel",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "The sentence of the century fell upon the perpetrator as a just and decisive retribution of the law."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-53",
+   "act": 4,
+   "start": 1588.05,
+   "end": 1590.05,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -7162,8 +8382,8 @@
   {
    "id": "5-01",
    "act": 5,
-   "start": 1304.52,
-   "end": 1311.6,
+   "start": 1590.05,
+   "end": 1597.21,
    "role": "H",
    "sentences": [
     "5.02#1"
@@ -7173,7 +8393,7 @@
    "bg": "t10_healing_journey_morning_light",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -7202,8 +8422,8 @@
   {
    "id": "5-02",
    "act": 5,
-   "start": 1311.6,
-   "end": 1318.86,
+   "start": 1597.21,
+   "end": 1605.12,
    "role": "H",
    "sentences": [
     "5.02#2"
@@ -7213,7 +8433,7 @@
    "bg": "t10_healing_journey_morning_light",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -7242,8 +8462,8 @@
   {
    "id": "5-03",
    "act": 5,
-   "start": 1318.86,
-   "end": 1325.2,
+   "start": 1605.12,
+   "end": 1611.83,
    "role": "H",
    "sentences": [
     "5.02#3"
@@ -7253,7 +8473,7 @@
    "bg": "t10_healing_journey_morning_light",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -7282,8 +8502,8 @@
   {
    "id": "5-04",
    "act": 5,
-   "start": 1325.2,
-   "end": 1330.76,
+   "start": 1611.83,
+   "end": 1618.7,
    "role": "H",
    "sentences": [
     "5.02#4"
@@ -7293,7 +8513,7 @@
    "bg": "t10_darkness_as_false_shelter",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -7322,8 +8542,8 @@
   {
    "id": "5-05",
    "act": 5,
-   "start": 1330.76,
-   "end": 1337.4,
+   "start": 1618.7,
+   "end": 1626.39,
    "role": "H",
    "sentences": [
     "5.02#5"
@@ -7333,7 +8553,7 @@
    "bg": "t10_simple_gifts_of_life_memoir",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -7362,8 +8582,8 @@
   {
    "id": "5-06",
    "act": 5,
-   "start": 1337.4,
-   "end": 1343.28,
+   "start": 1626.39,
+   "end": 1632.93,
    "role": "H",
    "sentences": [
     "5.02#6"
@@ -7373,7 +8593,7 @@
    "bg": "t10_post_traumatic_growth_sprout_stone",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -7402,8 +8622,8 @@
   {
    "id": "5-07",
    "act": 5,
-   "start": 1343.28,
-   "end": 1350.64,
+   "start": 1632.93,
+   "end": 1640.62,
    "role": "H",
    "sentences": [
     "5.02#7"
@@ -7413,7 +8633,7 @@
    "bg": "t10_warm_family_breakfast_table",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -7442,8 +8662,8 @@
   {
    "id": "5-08",
    "act": 5,
-   "start": 1350.64,
-   "end": 1358.52,
+   "start": 1640.62,
+   "end": 1647.45,
    "role": "H",
    "sentences": [
     "5.02#8"
@@ -7453,7 +8673,7 @@
    "bg": "t10_accounting_degree_diploma",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -7484,8 +8704,8 @@
   {
    "id": "5-09",
    "act": 5,
-   "start": 1358.52,
-   "end": 1367.56,
+   "start": 1647.45,
+   "end": 1658.48,
    "role": "C",
    "sentences": [
     "5.03#1"
@@ -7495,14 +8715,14 @@
    "bg": "t10_post_traumatic_growth_sprout_stone",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Colleen Stan's recovery stands as a supreme embodiment of “Post-Traumatic Growth”, developed by psychologists Richard Tedeschi and Lawrence Calhoun."
+       "Colleen Stan's miraculous recovery stands as living proof of the doctrine of “Post-Traumatic Growth”, pioneered by psychologists Richard Tedeschi and Lawrence Calhoun."
       ]
      ]
     }
@@ -7524,8 +8744,8 @@
   {
    "id": "5-10",
    "act": 5,
-   "start": 1367.56,
-   "end": 1377.08,
+   "start": 1658.48,
+   "end": 1669.78,
    "role": "C",
    "sentences": [
     "5.03#2"
@@ -7535,14 +8755,14 @@
    "bg": "t10_post_traumatic_growth_sprout_stone",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "This framework demonstrates that when individuals confront catastrophic adversity, finding meaning and compassion allows them to forge profound inner strength."
+       "This framework asserts that individuals who survive profound catastrophe can, through meaningful purpose and supportive connection, not only heal but forge extraordinary inner resilience."
       ]
      ]
     }
@@ -7564,8 +8784,8 @@
   {
    "id": "5-11",
    "act": 5,
-   "start": 1377.08,
-   "end": 1385.54,
+   "start": 1669.78,
+   "end": 1678.07,
    "role": "C",
    "sentences": [
     "5.03#3"
@@ -7575,14 +8795,14 @@
    "bg": "t10_post_traumatic_growth_sprout_stone",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Colleen sustained her humanity inside that box through vivid imagination, cherished memories of family, and steadfast spiritual faith."
+       "Colleen preserved her humanity inside that wooden box through rich imagination, memories of family, and unshakeable spiritual faith."
       ]
      ]
     }
@@ -7604,8 +8824,8 @@
   {
    "id": "5-12",
    "act": 5,
-   "start": 1385.54,
-   "end": 1393.32,
+   "start": 1678.07,
+   "end": 1690.09,
    "role": "C",
    "sentences": [
     "5.03#4"
@@ -7615,14 +8835,14 @@
    "bg": "t10_healing_journey_morning_light",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "That extraordinary resilience transformed a former captive into an enduring testament to the restorative potential of the human spirit."
+       "By learning to make peace with her scars and forgiving her past powerlessness, Colleen transformed the wooden box from a symbol of bondage into an enduring monument to the resilience of human dignity."
       ]
      ]
     }
@@ -7644,8 +8864,8 @@
   {
    "id": "5-13",
    "act": 5,
-   "start": 1393.32,
-   "end": 1401.98,
+   "start": 1690.09,
+   "end": 1696.85,
    "role": "C",
    "sentences": [
     "5.03#5"
@@ -7655,14 +8875,14 @@
    "bg": "t10_post_traumatic_growth_sprout_stone",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "She observed that true healing is not attempting to erase traumatic history, but making peace with scars and transforming them into resilience."
+       "That indomitable spirit turned a traumatized captive into a timeless symbol of psychological resilience."
       ]
      ]
     }
@@ -7684,11 +8904,51 @@
   {
    "id": "5-14",
    "act": 5,
-   "start": 1401.98,
-   "end": 1409.34,
+   "start": 1696.85,
+   "end": 1706.62,
    "role": "C",
    "sentences": [
     "5.03#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_healing_journey_morning_light",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "She reflected that true healing does not mean erasing painful memories, but learning to live alongside one's scars and turning them into strength for tomorrow."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-15",
+   "act": 5,
+   "start": 1706.62,
+   "end": 1714.22,
+   "role": "C",
+   "sentences": [
+    "5.03#7"
    ],
    "template": "T1",
    "variant": "",
@@ -7702,7 +8962,7 @@
      "elems": [
       [
        "ital",
-       "Her journey is chronicled in the volume “The Simple Gifts of Life”, shining as a beacon of hope for souls trapped in despair."
+       "Her journey is chronicled in her memoir, The Simple Gifts of Life, serving as a beacon of hope for countless souls navigating deep despair."
       ]
      ]
     }
@@ -7724,10 +8984,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-15",
+   "id": "5-16",
    "act": 5,
-   "start": 1409.34,
-   "end": 1418.62,
+   "start": 1714.22,
+   "end": 1723.06,
    "role": "D",
    "sentences": [
     "5.04#1"
@@ -7744,47 +9004,7 @@
      "elems": [
       [
        "ital",
-       "In judicial and social arenas, the Colleen Stan case catalyzed a historic transformation within international law enforcement consciousness."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "5-16",
-   "act": 5,
-   "start": 1418.62,
-   "end": 1427.26,
-   "role": "D",
-   "sentences": [
-    "5.04#2"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t10_fbi_academy_profiling_archive",
-   "bg2": null,
-   "inset": null,
-   "camera": "pan",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "The case established vital legal precedents for modern statutes criminalizing “Coercive Control” and non-physical psychological violence."
+       "In legal and societal terms, the Colleen Stan case marked a watershed moment in the awareness of international law enforcement."
       ]
      ]
     }
@@ -7806,25 +9026,25 @@
   {
    "id": "5-17",
    "act": 5,
-   "start": 1427.26,
-   "end": 1436.56,
+   "start": 1723.06,
+   "end": 1730.97,
    "role": "D",
    "sentences": [
-    "5.04#3"
+    "5.04#2"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_invisible_timber_prison_mind",
+   "bg": "t10_fbi_academy_profiling_archive",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "It warned society that treacherous cages require no iron bars, being built instead of manipulation, terror, and information starvation."
+       "The case laid foundational groundwork for modern statutes addressing “Coercive Control” and non-physical psychological abuse."
       ]
      ]
     }
@@ -7846,8 +9066,48 @@
   {
    "id": "5-18",
    "act": 5,
-   "start": 1436.56,
-   "end": 1447.55,
+   "start": 1730.97,
+   "end": 1739.65,
+   "role": "D",
+   "sentences": [
+    "5.04#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_invisible_timber_prison_mind",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "It warned society that impenetrable prisons need not have iron bars, but can be forged from manipulation, fear, and manufactured isolation."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-19",
+   "act": 5,
+   "start": 1739.65,
+   "end": 1746.9,
    "role": "D",
    "sentences": [
     "5.04#4"
@@ -7864,7 +9124,87 @@
      "elems": [
       [
        "ital",
-       "Cameron Hooker“s subsequent parole petitions over the decades have been repeatedly rejected, confirming justice”s unwavering resolve against human subjugation."
+       "The case compels society to confront the devastating cost of apathy hiding behind the shield of domestic privacy."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-20",
+   "act": 5,
+   "start": 1746.9,
+   "end": 1754.32,
+   "role": "D",
+   "sentences": [
+    "5.04#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_invisible_timber_prison_mind",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Coercive control cannot thrive for seven years without the quiet complicity of averted eyes and community avoidance."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-21",
+   "act": 5,
+   "start": 1754.32,
+   "end": 1763.51,
+   "role": "D",
+   "sentences": [
+    "5.04#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_tehama_superior_court_columns",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Cameron Hooker's subsequent parole petitions over the decades were repeatedly denied, affirming justice's unyielding stance against crimes of psychological subjugation."
       ]
      ]
     }
@@ -7886,10 +9226,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-19",
+   "id": "5-22",
    "act": 5,
-   "start": 1447.55,
-   "end": 1458.28,
+   "start": 1763.51,
+   "end": 1775.69,
    "role": "H",
    "sentences": [
     "5.05#1"
@@ -7899,7 +9239,7 @@
    "bg": "t10_redflag1_trojan_innocence_trap",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -7926,10 +9266,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-20",
+   "id": "5-23",
    "act": 5,
-   "start": 1458.28,
-   "end": 1462.78,
+   "start": 1775.69,
+   "end": 1780.7,
    "role": "H",
    "sentences": [
     "5.05#2"
@@ -7939,7 +9279,7 @@
    "bg": "t10_redflag1_trojan_innocence_trap",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -7970,10 +9310,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-21",
+   "id": "5-24",
    "act": 5,
-   "start": 1462.78,
-   "end": 1473.32,
+   "start": 1780.7,
+   "end": 1790.85,
    "role": "H",
    "sentences": [
     "5.05#3"
@@ -7983,7 +9323,7 @@
    "bg": "t10_redflag1_trojan_innocence_trap",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -8010,10 +9350,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-22",
+   "id": "5-25",
    "act": 5,
-   "start": 1473.32,
-   "end": 1479.52,
+   "start": 1790.85,
+   "end": 1796.46,
    "role": "H",
    "sentences": [
     "5.05#4"
@@ -8023,7 +9363,7 @@
    "bg": "t10_redflag2_spatial_isolation_grid",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -8054,10 +9394,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-23",
+   "id": "5-26",
    "act": 5,
-   "start": 1479.52,
-   "end": 1488.72,
+   "start": 1796.46,
+   "end": 1806.45,
    "role": "H",
    "sentences": [
     "5.05#5"
@@ -8067,7 +9407,7 @@
    "bg": "t10_redflag2_spatial_isolation_grid",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -8094,10 +9434,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-24",
+   "id": "5-27",
    "act": 5,
-   "start": 1488.72,
-   "end": 1495.36,
+   "start": 1806.45,
+   "end": 1812.34,
    "role": "H",
    "sentences": [
     "5.05#6"
@@ -8107,7 +9447,7 @@
    "bg": "t10_redflag3_phantom_enemy_mirror",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -8138,10 +9478,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-25",
+   "id": "5-28",
    "act": 5,
-   "start": 1495.36,
-   "end": 1502.66,
+   "start": 1812.34,
+   "end": 1820.08,
    "role": "H",
    "sentences": [
     "5.05#7"
@@ -8151,7 +9491,7 @@
    "bg": "t10_redflag3_phantom_enemy_mirror",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -8178,10 +9518,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-26",
+   "id": "5-29",
    "act": 5,
-   "start": 1502.66,
-   "end": 1508.02,
+   "start": 1820.08,
+   "end": 1825.42,
    "role": "H",
    "sentences": [
     "5.05#8"
@@ -8191,7 +9531,7 @@
    "bg": "t10_redflag4_breaking_helplessness_sparks",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -8222,10 +9562,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-27",
+   "id": "5-30",
    "act": 5,
-   "start": 1508.02,
-   "end": 1513.94,
+   "start": 1825.42,
+   "end": 1832.83,
    "role": "H",
    "sentences": [
     "5.05#9"
@@ -8235,7 +9575,7 @@
    "bg": "t10_redflag4_breaking_helplessness_sparks",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -8262,10 +9602,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-28",
+   "id": "5-31",
    "act": 5,
-   "start": 1513.94,
-   "end": 1521.98,
+   "start": 1832.83,
+   "end": 1840.91,
    "role": "H",
    "sentences": [
     "5.05#10"
@@ -8275,7 +9615,7 @@
    "bg": "t10_redflag4_breaking_helplessness_sparks",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -8302,10 +9642,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-29",
+   "id": "5-32",
    "act": 5,
-   "start": 1521.98,
-   "end": 1529.7,
+   "start": 1840.91,
+   "end": 1848.98,
    "role": "H",
    "sentences": [
     "5.05#11"
@@ -8315,7 +9655,7 @@
    "bg": "t10_redflag4_breaking_helplessness_sparks",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -8342,10 +9682,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-30",
+   "id": "5-33",
    "act": 5,
-   "start": 1529.7,
-   "end": 1537.06,
+   "start": 1848.98,
+   "end": 1857.82,
    "role": "H",
    "sentences": [
     "5.05#12"
@@ -8355,7 +9695,7 @@
    "bg": "t10_breaking_invisible_chains_dawn",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -8382,10 +9722,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-31",
+   "id": "5-34",
    "act": 5,
-   "start": 1537.06,
-   "end": 1542.36,
+   "start": 1857.82,
+   "end": 1863.87,
    "role": "H",
    "sentences": [
     "5.05#13"
@@ -8395,7 +9735,7 @@
    "bg": "t10_warm_family_breakfast_table",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -8422,20 +9762,21 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-32",
+   "id": "5-35",
    "act": 5,
-   "start": 1542.36,
-   "end": 1548.48,
+   "start": 1863.87,
+   "end": 1873.51,
    "role": "H",
    "sentences": [
-    "5.05#14"
+    "5.05#14",
+    "5.05#15"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_breaking_invisible_chains_dawn",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -8445,40 +9786,9 @@
        "Please subscribe to the channel, enable notifications, and share your perspectives in the comments below."
       ]
      ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "5-33",
-   "act": 5,
-   "start": 1548.48,
-   "end": 1554.73,
-   "role": "H",
-   "sentences": [
-    "5.05#15"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t10_amber_eyes_closing_dossier_colleen",
-   "bg2": null,
-   "inset": null,
-   "camera": "pull",
-   "segments": [
+    },
     {
-     "at_sentence": null,
+     "at_sentence": 15,
      "elems": [
       [
        "ital",
@@ -8502,10 +9812,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-34",
+   "id": "5-36",
    "act": 5,
-   "start": 1554.73,
-   "end": 1561.73,
+   "start": 1873.51,
+   "end": 1882.51,
    "role": null,
    "sentences": [],
    "template": "T2",

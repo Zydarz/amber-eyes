@@ -1,11 +1,11 @@
 {
- "total": 1733.37,
+ "total": 2096.22,
  "shots": [
   {
    "id": "1-01",
    "act": 1,
-   "start": 22.34,
-   "end": 36.0,
+   "start": 22.8,
+   "end": 34.46,
    "role": "H",
    "sentences": [
     "1.02#1"
@@ -44,8 +44,8 @@
   {
    "id": "1-02",
    "act": 1,
-   "start": 36.0,
-   "end": 45.8,
+   "start": 34.46,
+   "end": 44.8,
    "role": "H",
    "sentences": [
     "1.02#2"
@@ -84,8 +84,8 @@
   {
    "id": "1-03",
    "act": 1,
-   "start": 45.8,
-   "end": 53.1,
+   "start": 44.8,
+   "end": 51.11,
    "role": "H",
    "sentences": [
     "1.02#3"
@@ -124,8 +124,8 @@
   {
    "id": "1-04",
    "act": 1,
-   "start": 53.1,
-   "end": 60.6,
+   "start": 51.11,
+   "end": 58.18,
    "role": "H",
    "sentences": [
     "1.02#4"
@@ -164,8 +164,8 @@
   {
    "id": "1-05",
    "act": 1,
-   "start": 60.6,
-   "end": 68.86,
+   "start": 58.18,
+   "end": 68.77,
    "role": "H",
    "sentences": [
     "1.02#5"
@@ -204,8 +204,8 @@
   {
    "id": "1-06",
    "act": 1,
-   "start": 68.86,
-   "end": 77.28,
+   "start": 68.77,
+   "end": 75.21,
    "role": "H",
    "sentences": [
     "1.02#6"
@@ -244,15 +244,175 @@
   {
    "id": "1-07",
    "act": 1,
-   "start": 77.28,
-   "end": 85.54,
+   "start": 75.21,
+   "end": 85.61,
    "role": "H",
    "sentences": [
     "1.02#7"
    ],
    "template": "T1",
    "variant": "",
+   "bg": "t10_red_bluff_pine_forest_road",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ở những thị trấn miền Tây yên bình như Red Bluff, người ta thường sống bằng niềm tin mặc định rằng hiểm họa chỉ thuộc về những đô thị xa xôi đầy cạm bẫy."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-08",
+   "act": 1,
+   "start": 85.61,
+   "end": 97.53,
+   "role": "H",
+   "sentences": [
+    "1.02#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_red_bluff_pine_forest_road",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Sự yên ả của những rừng thông ngút ngàn và nếp sống mộc mạc của cộng đồng đã dệt nên một tấm màn nhung êm đềm nhưng vô tình làm tê liệt phản xạ cảnh giác tự nhiên của con người."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-09",
+   "act": 1,
+   "start": 97.53,
+   "end": 106.99,
+   "role": "H",
+   "sentences": [
+    "1.02#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_hooker_community_mask",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Ai cũng tin rằng mình biết rõ người hàng xóm bên kia hàng rào, tin rằng phía sau những khung cửa sổ sáng đèn luôn là những mái ấm bình dị."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-10",
+   "act": 1,
+   "start": 106.99,
+   "end": 114.5,
+   "role": "H",
+   "sentences": [
+    "1.02#10"
+   ],
+   "template": "T1",
+   "variant": "",
    "bg": "t10_golden_innocence_road_illusion",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chính sự mất cảnh giác tập thể ấy đã biến vùng đất này thành một nơi ẩn náu hoàn hảo cho cái ác ngụy trang."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-11",
+   "act": 1,
+   "start": 114.5,
+   "end": 123.14,
+   "role": "H",
+   "sentences": [
+    "1.02#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_hitchhiking_highway_1977",
    "bg2": null,
    "inset": null,
    "camera": "still",
@@ -282,17 +442,17 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-08",
+   "id": "1-12",
    "act": 1,
-   "start": 85.54,
-   "end": 94.5,
+   "start": 123.14,
+   "end": 131.15,
    "role": "H",
    "sentences": [
-    "1.02#8"
+    "1.02#12"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_hitchhiking_highway_1977",
+   "bg": "t10_golden_innocence_road_illusion",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -322,10 +482,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-09",
+   "id": "1-13",
    "act": 1,
-   "start": 94.5,
-   "end": 105.46,
+   "start": 131.15,
+   "end": 138.34,
    "role": "H",
    "sentences": [
     "1.04#1"
@@ -362,10 +522,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-10",
+   "id": "1-14",
    "act": 1,
-   "start": 105.46,
-   "end": 112.0,
+   "start": 138.34,
+   "end": 146.1,
    "role": "H",
    "sentences": [
     "1.04#2"
@@ -402,10 +562,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-11",
+   "id": "1-15",
    "act": 1,
-   "start": 112.0,
-   "end": 119.74,
+   "start": 146.1,
+   "end": 153.67,
    "role": "H",
    "sentences": [
     "1.04#3"
@@ -442,10 +602,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-12",
+   "id": "1-16",
    "act": 1,
-   "start": 119.74,
-   "end": 126.64,
+   "start": 153.67,
+   "end": 159.09,
    "role": "H",
    "sentences": [
     "1.04#4"
@@ -482,10 +642,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-13",
+   "id": "1-17",
    "act": 1,
-   "start": 126.64,
-   "end": 135.66,
+   "start": 159.09,
+   "end": 167.92,
    "role": "H",
    "sentences": [
     "1.04#5"
@@ -522,10 +682,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-14",
+   "id": "1-18",
    "act": 1,
-   "start": 135.66,
-   "end": 145.28,
+   "start": 167.92,
+   "end": 175.99,
    "role": "H",
    "sentences": [
     "1.04#6"
@@ -562,10 +722,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-15",
+   "id": "1-19",
    "act": 1,
-   "start": 145.28,
-   "end": 155.44,
+   "start": 175.99,
+   "end": 184.76,
    "role": "H",
    "sentences": [
     "1.06#1"
@@ -602,10 +762,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-16",
+   "id": "1-20",
    "act": 1,
-   "start": 155.44,
-   "end": 162.66,
+   "start": 184.76,
+   "end": 191.63,
    "role": "H",
    "sentences": [
     "1.06#2"
@@ -642,10 +802,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-17",
+   "id": "1-21",
    "act": 1,
-   "start": 162.66,
-   "end": 167.54,
+   "start": 191.63,
+   "end": 197.06,
    "role": "H",
    "sentences": [
     "1.06#3"
@@ -682,10 +842,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-18",
+   "id": "1-22",
    "act": 1,
-   "start": 167.54,
-   "end": 178.1,
+   "start": 197.06,
+   "end": 206.39,
    "role": "H",
    "sentences": [
     "1.06#4"
@@ -722,10 +882,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-19",
+   "id": "1-23",
    "act": 1,
-   "start": 178.1,
-   "end": 185.82,
+   "start": 206.39,
+   "end": 213.21,
    "role": "H",
    "sentences": [
     "1.06#5"
@@ -762,10 +922,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-20",
+   "id": "1-24",
    "act": 1,
-   "start": 185.82,
-   "end": 195.72,
+   "start": 213.21,
+   "end": 221.91,
    "role": "H",
    "sentences": [
     "1.06#6"
@@ -804,10 +964,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-21",
+   "id": "1-25",
    "act": 1,
-   "start": 195.72,
-   "end": 201.78,
+   "start": 221.91,
+   "end": 229.28,
    "role": "N1",
    "sentences": [
     "1.07#1"
@@ -844,10 +1004,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-22",
+   "id": "1-26",
    "act": 1,
-   "start": 201.78,
-   "end": 209.4,
+   "start": 229.28,
+   "end": 236.16,
    "role": "N1",
    "sentences": [
     "1.07#2"
@@ -884,10 +1044,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-23",
+   "id": "1-27",
    "act": 1,
-   "start": 209.4,
-   "end": 216.9,
+   "start": 236.16,
+   "end": 243.41,
    "role": "N1",
    "sentences": [
     "1.07#3"
@@ -924,10 +1084,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-24",
+   "id": "1-28",
    "act": 1,
-   "start": 216.9,
-   "end": 221.88,
+   "start": 243.41,
+   "end": 249.4,
    "role": "N1",
    "sentences": [
     "1.07#4"
@@ -964,10 +1124,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-25",
+   "id": "1-29",
    "act": 1,
-   "start": 221.88,
-   "end": 232.1,
+   "start": 249.4,
+   "end": 257.98,
    "role": "N1",
    "sentences": [
     "1.07#5"
@@ -1006,10 +1166,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-26",
+   "id": "1-30",
    "act": 1,
-   "start": 232.1,
-   "end": 240.1,
+   "start": 257.98,
+   "end": 266.8,
    "role": "H",
    "sentences": [
     "1.09#1"
@@ -1046,10 +1206,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-27",
+   "id": "1-31",
    "act": 1,
-   "start": 240.1,
-   "end": 247.84,
+   "start": 266.8,
+   "end": 274.5,
    "role": "H",
    "sentences": [
     "1.09#2"
@@ -1086,10 +1246,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-28",
+   "id": "1-32",
    "act": 1,
-   "start": 247.84,
-   "end": 255.96,
+   "start": 274.5,
+   "end": 282.26,
    "role": "H",
    "sentences": [
     "1.09#3"
@@ -1126,14 +1286,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-29",
+   "id": "1-33",
    "act": 1,
-   "start": 255.96,
-   "end": 265.56,
+   "start": 282.26,
+   "end": 286.99,
    "role": "H",
    "sentences": [
-    "1.09#4",
-    "1.09#5"
+    "1.09#4"
    ],
    "template": "T1",
    "variant": "",
@@ -1150,9 +1309,40 @@
        "Bức màn đen tối chính thức buông xuống cuộc đời của cô gái trẻ."
       ]
      ]
-    },
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-34",
+   "act": 1,
+   "start": 286.99,
+   "end": 291.53,
+   "role": "H",
+   "sentences": [
+    "1.09#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_red_bluff_pine_forest_road",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
     {
-     "at_sentence": 5,
+     "at_sentence": null,
      "elems": [
       [
        "ital",
@@ -1178,10 +1368,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-30",
+   "id": "1-35",
    "act": 1,
-   "start": 265.56,
-   "end": 271.84,
+   "start": 291.53,
+   "end": 299.34,
    "role": "D",
    "sentences": [
     "1.10#1"
@@ -1191,7 +1381,7 @@
    "bg": "t10_sawmill_lumber_yard_dusk",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -1218,10 +1408,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-31",
+   "id": "1-36",
    "act": 1,
-   "start": 271.84,
-   "end": 279.52,
+   "start": 299.34,
+   "end": 306.79,
    "role": "D",
    "sentences": [
     "1.10#2"
@@ -1231,7 +1421,7 @@
    "bg": "t10_knife_shadow_ambush",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -1258,10 +1448,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-32",
+   "id": "1-37",
    "act": 1,
-   "start": 279.52,
-   "end": 286.2,
+   "start": 306.79,
+   "end": 313.85,
    "role": "D",
    "sentences": [
     "1.10#3"
@@ -1271,7 +1461,7 @@
    "bg": "t10_soundproof_headbox_forensic",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -1298,10 +1488,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-33",
+   "id": "1-38",
    "act": 1,
-   "start": 286.2,
-   "end": 292.54,
+   "start": 313.85,
+   "end": 321.36,
    "role": "D",
    "sentences": [
     "1.10#4"
@@ -1311,7 +1501,7 @@
    "bg": "t10_soundproof_headbox_forensic",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -1338,10 +1528,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-34",
+   "id": "1-39",
    "act": 1,
-   "start": 292.54,
-   "end": 300.36,
+   "start": 321.36,
+   "end": 330.82,
    "role": "D",
    "sentences": [
     "1.10#5"
@@ -1351,7 +1541,7 @@
    "bg": "t10_soundproof_headbox_forensic",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -1378,10 +1568,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-35",
+   "id": "1-40",
    "act": 1,
-   "start": 300.36,
-   "end": 305.94,
+   "start": 330.82,
+   "end": 337.95,
    "role": "D",
    "sentences": [
     "1.10#6"
@@ -1391,7 +1581,7 @@
    "bg": "t10_soundproof_headbox_forensic",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -1418,10 +1608,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-36",
+   "id": "1-41",
    "act": 1,
-   "start": 305.94,
-   "end": 317.4,
+   "start": 337.95,
+   "end": 347.09,
    "role": "D",
    "sentences": [
     "1.10#7"
@@ -1431,7 +1621,7 @@
    "bg": "t10_isolated_red_bluff_cabin",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -1460,10 +1650,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-37",
+   "id": "1-42",
    "act": 1,
-   "start": 317.4,
-   "end": 322.52,
+   "start": 347.09,
+   "end": 354.08,
    "role": "H",
    "sentences": [
     "1.11#1"
@@ -1473,7 +1663,7 @@
    "bg": "t10_isolated_red_bluff_cabin",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -1500,10 +1690,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-38",
+   "id": "1-43",
    "act": 1,
-   "start": 322.52,
-   "end": 331.4,
+   "start": 354.08,
+   "end": 362.16,
    "role": "H",
    "sentences": [
     "1.11#2"
@@ -1513,7 +1703,7 @@
    "bg": "t10_wooden_box_under_bed_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -1540,10 +1730,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-39",
+   "id": "1-44",
    "act": 1,
-   "start": 331.4,
-   "end": 337.48,
+   "start": 362.16,
+   "end": 367.9,
    "role": "H",
    "sentences": [
     "1.11#3"
@@ -1553,7 +1743,7 @@
    "bg": "t10_wooden_box_under_bed_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -1580,10 +1770,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-40",
+   "id": "1-45",
    "act": 1,
-   "start": 337.48,
-   "end": 343.02,
+   "start": 367.9,
+   "end": 373.83,
    "role": "H",
    "sentences": [
     "1.11#4"
@@ -1593,7 +1783,7 @@
    "bg": "t10_wooden_box_under_bed_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -1620,10 +1810,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-41",
+   "id": "1-46",
    "act": 1,
-   "start": 343.02,
-   "end": 348.64,
+   "start": 373.83,
+   "end": 379.39,
    "role": "H",
    "sentences": [
     "1.11#5"
@@ -1633,7 +1823,7 @@
    "bg": "t10_tehama_superior_court_columns",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -1660,10 +1850,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-42",
+   "id": "1-47",
    "act": 1,
-   "start": 348.64,
-   "end": 351.26,
+   "start": 379.39,
+   "end": 381.39,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -1704,8 +1894,8 @@
   {
    "id": "2-01",
    "act": 2,
-   "start": 351.26,
-   "end": 355.42,
+   "start": 381.39,
+   "end": 389.26,
    "role": "H",
    "sentences": [
     "2.02#1"
@@ -1715,7 +1905,7 @@
    "bg": "t10_coffin_box_claustrophobia",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -1744,8 +1934,8 @@
   {
    "id": "2-02",
    "act": 2,
-   "start": 355.42,
-   "end": 368.32,
+   "start": 389.26,
+   "end": 397.08,
    "role": "H",
    "sentences": [
     "2.02#2"
@@ -1755,7 +1945,7 @@
    "bg": "t10_coffin_box_claustrophobia",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -1784,8 +1974,8 @@
   {
    "id": "2-03",
    "act": 2,
-   "start": 368.32,
-   "end": 375.38,
+   "start": 397.08,
+   "end": 405.41,
    "role": "H",
    "sentences": [
     "2.02#3"
@@ -1795,7 +1985,7 @@
    "bg": "t10_stiff_hands_wooden_slats",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -1824,8 +2014,8 @@
   {
    "id": "2-04",
    "act": 2,
-   "start": 375.38,
-   "end": 384.24,
+   "start": 405.41,
+   "end": 413.42,
    "role": "H",
    "sentences": [
     "2.02#4"
@@ -1835,7 +2025,7 @@
    "bg": "t10_stiff_hands_wooden_slats",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -1864,8 +2054,8 @@
   {
    "id": "2-05",
    "act": 2,
-   "start": 384.24,
-   "end": 392.8,
+   "start": 413.42,
+   "end": 420.8,
    "role": "H",
    "sentences": [
     "2.02#5"
@@ -1875,7 +2065,7 @@
    "bg": "t10_coffin_box_claustrophobia",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -1904,8 +2094,8 @@
   {
    "id": "2-06",
    "act": 2,
-   "start": 392.8,
-   "end": 403.38,
+   "start": 420.8,
+   "end": 429.63,
    "role": "H",
    "sentences": [
     "2.02#6"
@@ -1915,7 +2105,7 @@
    "bg": "t10_coffin_box_claustrophobia",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -1946,8 +2136,8 @@
   {
    "id": "2-07",
    "act": 2,
-   "start": 403.38,
-   "end": 410.92,
+   "start": 429.63,
+   "end": 438.89,
    "role": "D",
    "sentences": [
     "2.04#1"
@@ -1957,7 +2147,7 @@
    "bg": "t10_heavy_iron_latches_padlock",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -1986,8 +2176,8 @@
   {
    "id": "2-08",
    "act": 2,
-   "start": 410.92,
-   "end": 417.12,
+   "start": 438.89,
+   "end": 445.58,
    "role": "D",
    "sentences": [
     "2.04#2"
@@ -1997,7 +2187,7 @@
    "bg": "t10_waterbed_crushing_weight",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -2026,18 +2216,18 @@
   {
    "id": "2-09",
    "act": 2,
-   "start": 417.12,
-   "end": 424.1,
+   "start": 445.58,
+   "end": 454.03,
    "role": "D",
    "sentences": [
     "2.04#3"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_heavy_iron_latches_padlock",
+   "bg": "t10_waterbed_crushing_weight",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -2066,8 +2256,8 @@
   {
    "id": "2-10",
    "act": 2,
-   "start": 424.1,
-   "end": 433.46,
+   "start": 454.03,
+   "end": 465.57,
    "role": "D",
    "sentences": [
     "2.04#4"
@@ -2077,7 +2267,7 @@
    "bg": "t10_heavy_iron_latches_padlock",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -2106,18 +2296,178 @@
   {
    "id": "2-11",
    "act": 2,
-   "start": 433.46,
-   "end": 440.44,
+   "start": 465.57,
+   "end": 470.87,
    "role": "D",
    "sentences": [
     "2.04#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_one_hour_chores_silhouette",
+   "bg": "t10_janice_hooker_moral_turmoil",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nhưng nghịch lý thay, kẻ bị giam cầm không chỉ có một mình Colleen Stan."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-12",
+   "act": 2,
+   "start": 470.87,
+   "end": 481.15,
+   "role": "D",
+   "sentences": [
+    "2.04#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_janice_hooker_moral_turmoil",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Phía trên nắp hộp gỗ, ngay trong căn phòng ngủ ấy, Janice Hooker cũng đang sống trong một chiếc lồng giam tâm lý vô hình do chính người chồng giăng ra."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-13",
+   "act": 2,
+   "start": 481.15,
+   "end": 495.47,
+   "role": "D",
+   "sentences": [
+    "2.04#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_janice_hooker_moral_turmoil",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Từng là nạn nhân bị bạo hành từ thuở thiếu thời, người vợ trẻ chọn cách ngắt kết nối lương tri, biến việc tiếp tay cho tội ác thành một lá chắn hèn nhát để trút bớt áp lực bạo lực lên thân thể một người phụ nữ khác."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-14",
+   "act": 2,
+   "start": 495.47,
+   "end": 505.75,
+   "role": "D",
+   "sentences": [
+    "2.04#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_waterbed_crushing_weight",
    "bg2": null,
    "inset": null,
    "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Mỗi đêm nằm trên chiếc đệm nước, tiếng cựa mình khe khẽ từ dưới sàn nhà là một nhát dao vô hình cứa vào phần lương tâm còn sót lại của người phụ nữ ấy."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-15",
+   "act": 2,
+   "start": 505.75,
+   "end": 513.57,
+   "role": "D",
+   "sentences": [
+    "2.04#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_one_hour_chores_silhouette",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -2144,20 +2494,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-12",
+   "id": "2-16",
    "act": 2,
-   "start": 440.44,
-   "end": 446.24,
+   "start": 513.57,
+   "end": 519.5,
    "role": "D",
    "sentences": [
-    "2.04#6"
+    "2.04#10"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_heavy_iron_latches_padlock",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -2186,10 +2536,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-13",
+   "id": "2-17",
    "act": 2,
-   "start": 446.24,
-   "end": 452.8,
+   "start": 519.5,
+   "end": 526.49,
    "role": "H",
    "sentences": [
     "2.05#1"
@@ -2199,7 +2549,7 @@
    "bg": "t10_hooker_community_mask",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -2226,10 +2576,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-14",
+   "id": "2-18",
    "act": 2,
-   "start": 452.8,
-   "end": 461.66,
+   "start": 526.49,
+   "end": 535.89,
    "role": "H",
    "sentences": [
     "2.05#2"
@@ -2239,7 +2589,7 @@
    "bg": "t10_hooker_community_mask",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -2266,10 +2616,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-15",
+   "id": "2-19",
    "act": 2,
-   "start": 461.66,
-   "end": 466.92,
+   "start": 535.89,
+   "end": 541.7,
    "role": "H",
    "sentences": [
     "2.05#3"
@@ -2279,7 +2629,7 @@
    "bg": "t10_hooker_community_mask",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -2306,10 +2656,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-16",
+   "id": "2-20",
    "act": 2,
-   "start": 466.92,
-   "end": 473.38,
+   "start": 541.7,
+   "end": 548.63,
    "role": "H",
    "sentences": [
     "2.05#4"
@@ -2319,7 +2669,7 @@
    "bg": "t10_dark_dominance_psychopathy",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -2346,10 +2696,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-17",
+   "id": "2-21",
    "act": 2,
-   "start": 473.38,
-   "end": 482.94,
+   "start": 548.63,
+   "end": 556.58,
    "role": "H",
    "sentences": [
     "2.05#5"
@@ -2359,7 +2709,7 @@
    "bg": "t10_dark_dominance_psychopathy",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -2388,10 +2738,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-18",
+   "id": "2-22",
    "act": 2,
-   "start": 482.94,
-   "end": 491.5,
+   "start": 556.58,
+   "end": 568.3,
    "role": "C",
    "sentences": [
     "2.06#1"
@@ -2401,7 +2751,7 @@
    "bg": "t10_sensory_deprivation_clock_melt",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -2428,10 +2778,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-19",
+   "id": "2-23",
    "act": 2,
-   "start": 491.5,
-   "end": 499.06,
+   "start": 568.3,
+   "end": 577.38,
    "role": "C",
    "sentences": [
     "2.06#2"
@@ -2441,7 +2791,7 @@
    "bg": "t10_sensory_deprivation_clock_melt",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -2468,10 +2818,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-20",
+   "id": "2-24",
    "act": 2,
-   "start": 499.06,
-   "end": 506.66,
+   "start": 577.38,
+   "end": 585.58,
    "role": "C",
    "sentences": [
     "2.06#3"
@@ -2481,7 +2831,7 @@
    "bg": "t10_sensory_deprivation_clock_melt",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -2508,10 +2858,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-21",
+   "id": "2-25",
    "act": 2,
-   "start": 506.66,
-   "end": 510.32,
+   "start": 585.58,
+   "end": 592.02,
    "role": "C",
    "sentences": [
     "2.06#4"
@@ -2521,7 +2871,7 @@
    "bg": "t10_sensory_deprivation_clock_melt",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -2548,10 +2898,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-22",
+   "id": "2-26",
    "act": 2,
-   "start": 510.32,
-   "end": 518.44,
+   "start": 592.02,
+   "end": 603.5,
    "role": "C",
    "sentences": [
     "2.06#5"
@@ -2561,7 +2911,167 @@
    "bg": "t10_childhood_poems_faint_echo",
    "bg2": null,
    "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Trước một thực tại giam cầm quá đỗi khắc nghiệt, bộ não con người buộc phải kích hoạt một cơ chế tự vệ sinh tồn tối hậu mang tên “Sự Phân ly Tâm trí”, hay “Dissociation”."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-27",
+   "act": 2,
+   "start": 603.5,
+   "end": 610.81,
+   "role": "C",
+   "sentences": [
+    "2.06#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_childhood_poems_faint_echo",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Colleen Stan đã học cách tách rời linh hồn mình khỏi thể xác đang chịu đày đọa trong bóng tối ngột ngạt."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-28",
+   "act": 2,
+   "start": 610.81,
+   "end": 622.92,
+   "role": "C",
+   "sentences": [
+    "2.06#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_childhood_poems_faint_echo",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bằng một năng lực tưởng tượng phong phú, cô dạo chơi trên những đồng cỏ tuổi thơ, đọc thuộc lòng từng lời nguyện cầu và tự xây dựng cho mình một pháo đài tâm linh bất khả xâm phạm."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-29",
+   "act": 2,
+   "start": 622.92,
+   "end": 631.25,
+   "role": "C",
+   "sentences": [
+    "2.06#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_childhood_poems_faint_echo",
+   "bg2": null,
+   "inset": null,
    "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chính việc bảo tồn được sự tự do trong ý thức đã ngăn không cho nhân tính của cô bị hủy diệt trước sự kiểm soát bạo tàn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-30",
+   "act": 2,
+   "start": 631.25,
+   "end": 640.27,
+   "role": "C",
+   "sentences": [
+    "2.06#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_sensory_deprivation_clock_melt",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -2588,20 +3098,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-23",
+   "id": "2-31",
    "act": 2,
-   "start": 518.44,
-   "end": 523.62,
+   "start": 640.27,
+   "end": 646.51,
    "role": "C",
    "sentences": [
-    "2.06#6"
+    "2.06#10"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_childhood_poems_faint_echo",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -2628,20 +3138,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-24",
+   "id": "2-32",
    "act": 2,
-   "start": 523.62,
-   "end": 530.1,
+   "start": 646.51,
+   "end": 653.51,
    "role": "C",
    "sentences": [
-    "2.06#7"
+    "2.06#11"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_sensory_deprivation_clock_melt",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -2668,20 +3178,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-25",
+   "id": "2-33",
    "act": 2,
-   "start": 530.1,
-   "end": 539.24,
+   "start": 653.51,
+   "end": 663.54,
    "role": "C",
    "sentences": [
-    "2.06#8"
+    "2.06#12"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_childhood_poems_faint_echo",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -2710,10 +3220,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-26",
+   "id": "2-34",
    "act": 2,
-   "start": 539.24,
-   "end": 547.54,
+   "start": 663.54,
+   "end": 671.61,
    "role": "H",
    "sentences": [
     "2.07#1"
@@ -2723,7 +3233,7 @@
    "bg": "t10_the_company_shadow_syndicate",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -2750,10 +3260,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-27",
+   "id": "2-35",
    "act": 2,
-   "start": 547.54,
-   "end": 557.72,
+   "start": 671.61,
+   "end": 682.14,
    "role": "H",
    "sentences": [
     "2.07#2"
@@ -2763,7 +3273,7 @@
    "bg": "t10_invisible_timber_prison_mind",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -2790,10 +3300,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-28",
+   "id": "2-36",
    "act": 2,
-   "start": 557.72,
-   "end": 561.84,
+   "start": 682.14,
+   "end": 686.24,
    "role": "H",
    "sentences": [
     "2.07#3"
@@ -2803,7 +3313,7 @@
    "bg": "t10_the_company_shadow_syndicate",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -2830,10 +3340,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-29",
+   "id": "2-37",
    "act": 2,
-   "start": 561.84,
-   "end": 571.1,
+   "start": 686.24,
+   "end": 692.1,
    "role": "H",
    "sentences": [
     "2.07#4"
@@ -2843,7 +3353,7 @@
    "bg": "t10_window_sniper_paranoia_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -2872,10 +3382,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-30",
+   "id": "2-38",
    "act": 2,
-   "start": 571.1,
-   "end": 577.32,
+   "start": 692.1,
+   "end": 701.49,
    "role": "D",
    "sentences": [
     "2.08#1"
@@ -2885,7 +3395,7 @@
    "bg": "t10_the_company_shadow_syndicate",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -2912,10 +3422,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-31",
+   "id": "2-39",
    "act": 2,
-   "start": 577.32,
-   "end": 590.32,
+   "start": 701.49,
+   "end": 712.46,
    "role": "D",
    "sentences": [
     "2.08#2"
@@ -2925,7 +3435,7 @@
    "bg": "t10_the_company_shadow_syndicate",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -2952,10 +3462,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-32",
+   "id": "2-40",
    "act": 2,
-   "start": 590.32,
-   "end": 596.38,
+   "start": 712.46,
+   "end": 718.9,
    "role": "D",
    "sentences": [
     "2.08#3"
@@ -2965,7 +3475,7 @@
    "bg": "t10_the_company_shadow_syndicate",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -2992,21 +3502,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-33",
+   "id": "2-41",
    "act": 2,
-   "start": 596.38,
-   "end": 611.02,
+   "start": 718.9,
+   "end": 727.48,
    "role": "D",
    "sentences": [
-    "2.08#4",
-    "2.08#5"
+    "2.08#4"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_family_home_under_surveillance",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3016,9 +3525,40 @@
        "Nếu cô tìm cách trốn chạy hoặc hé lộ sự thật với bất kỳ ai, tổ chức sẽ lập tức săn lùng và trừng phạt cả gia đình cha mẹ cô."
       ]
      ]
-    },
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-42",
+   "act": 2,
+   "start": 727.48,
+   "end": 732.21,
+   "role": "D",
+   "sentences": [
+    "2.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_dark_dominance_psychopathy",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
     {
-     "at_sentence": 5,
+     "at_sentence": null,
      "elems": [
       [
        "ital",
@@ -3042,10 +3582,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-34",
+   "id": "2-43",
    "act": 2,
-   "start": 611.02,
-   "end": 618.94,
+   "start": 732.21,
+   "end": 741.67,
    "role": "D",
    "sentences": [
     "2.08#6"
@@ -3055,7 +3595,7 @@
    "bg": "t10_written_slave_contract_quill",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3082,10 +3622,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-35",
+   "id": "2-44",
    "act": 2,
-   "start": 618.94,
-   "end": 627.82,
+   "start": 741.67,
+   "end": 750.18,
    "role": "D",
    "sentences": [
     "2.08#7"
@@ -3095,7 +3635,7 @@
    "bg": "t10_written_slave_contract_quill",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3124,10 +3664,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-36",
+   "id": "2-45",
    "act": 2,
-   "start": 627.82,
-   "end": 637.96,
+   "start": 750.18,
+   "end": 759.82,
    "role": "H",
    "sentences": [
     "2.09#1"
@@ -3137,7 +3677,7 @@
    "bg": "t10_written_slave_contract_quill",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3164,10 +3704,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-37",
+   "id": "2-46",
    "act": 2,
-   "start": 637.96,
-   "end": 644.16,
+   "start": 759.82,
+   "end": 765.88,
    "role": "H",
    "sentences": [
     "2.09#2"
@@ -3177,7 +3717,7 @@
    "bg": "t10_written_slave_contract_quill",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -3204,10 +3744,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-38",
+   "id": "2-47",
    "act": 2,
-   "start": 644.16,
-   "end": 652.26,
+   "start": 765.88,
+   "end": 773.7,
    "role": "H",
    "sentences": [
     "2.09#3"
@@ -3217,7 +3757,7 @@
    "bg": "t10_window_sniper_paranoia_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3244,10 +3784,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-39",
+   "id": "2-48",
    "act": 2,
-   "start": 652.26,
-   "end": 659.52,
+   "start": 773.7,
+   "end": 779.81,
    "role": "H",
    "sentences": [
     "2.09#4"
@@ -3257,7 +3797,7 @@
    "bg": "t10_second_victim_shadow_threat",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3286,10 +3826,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-40",
+   "id": "2-49",
    "act": 2,
-   "start": 659.52,
-   "end": 664.44,
+   "start": 779.81,
+   "end": 786.93,
    "role": "C",
    "sentences": [
     "2.10#1"
@@ -3299,7 +3839,7 @@
    "bg": "t10_darkness_as_false_shelter",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3326,10 +3866,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-41",
+   "id": "2-50",
    "act": 2,
-   "start": 664.44,
-   "end": 671.82,
+   "start": 786.93,
+   "end": 795.95,
    "role": "C",
    "sentences": [
     "2.10#2"
@@ -3339,7 +3879,7 @@
    "bg": "t10_darkness_as_false_shelter",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -3366,10 +3906,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-42",
+   "id": "2-51",
    "act": 2,
-   "start": 671.82,
-   "end": 676.3,
+   "start": 795.95,
+   "end": 801.94,
    "role": "C",
    "sentences": [
     "2.10#3"
@@ -3379,7 +3919,7 @@
    "bg": "t10_darkness_as_false_shelter",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3406,10 +3946,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-43",
+   "id": "2-52",
    "act": 2,
-   "start": 676.3,
-   "end": 683.98,
+   "start": 801.94,
+   "end": 810.2,
    "role": "C",
    "sentences": [
     "2.10#4"
@@ -3419,7 +3959,7 @@
    "bg": "t10_childhood_poems_faint_echo",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3446,10 +3986,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-44",
+   "id": "2-53",
    "act": 2,
-   "start": 683.98,
-   "end": 692.58,
+   "start": 810.2,
+   "end": 820.36,
    "role": "C",
    "sentences": [
     "2.10#5"
@@ -3459,7 +3999,7 @@
    "bg": "t10_sensory_deprivation_clock_melt",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3486,10 +4026,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-45",
+   "id": "2-54",
    "act": 2,
-   "start": 692.58,
-   "end": 699.74,
+   "start": 820.36,
+   "end": 827.99,
    "role": "C",
    "sentences": [
     "2.10#6"
@@ -3499,7 +4039,7 @@
    "bg": "t10_darkness_as_false_shelter",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -3528,10 +4068,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-46",
+   "id": "2-55",
    "act": 2,
-   "start": 699.74,
-   "end": 704.28,
+   "start": 827.99,
+   "end": 834.16,
    "role": "H",
    "sentences": [
     "2.11#1"
@@ -3541,7 +4081,7 @@
    "bg": "t10_clock_hands_seven_years",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3568,10 +4108,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-47",
+   "id": "2-56",
    "act": 2,
-   "start": 704.28,
-   "end": 709.74,
+   "start": 834.16,
+   "end": 839.91,
    "role": "H",
    "sentences": [
     "2.11#2"
@@ -3581,7 +4121,7 @@
    "bg": "t10_clock_hands_seven_years",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3608,10 +4148,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-48",
+   "id": "2-57",
    "act": 2,
-   "start": 709.74,
-   "end": 718.32,
+   "start": 839.91,
+   "end": 849.36,
    "role": "H",
    "sentences": [
     "2.11#3"
@@ -3621,7 +4161,7 @@
    "bg": "t10_wooden_box_under_bed_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3648,10 +4188,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-49",
+   "id": "2-58",
    "act": 2,
-   "start": 718.32,
-   "end": 722.38,
+   "start": 849.36,
+   "end": 851.36,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -3692,8 +4232,8 @@
   {
    "id": "3-01",
    "act": 3,
-   "start": 722.38,
-   "end": 732.46,
+   "start": 851.36,
+   "end": 859.3,
    "role": "H",
    "sentences": [
     "3.02#1"
@@ -3703,7 +4243,7 @@
    "bg": "t10_riverside_california_bungalow",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3732,8 +4272,8 @@
   {
    "id": "3-02",
    "act": 3,
-   "start": 732.46,
-   "end": 743.02,
+   "start": 859.3,
+   "end": 869.89,
    "role": "H",
    "sentences": [
     "3.02#2"
@@ -3743,7 +4283,7 @@
    "bg": "t10_riverside_california_bungalow",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3772,8 +4312,8 @@
   {
    "id": "3-03",
    "act": 3,
-   "start": 743.02,
-   "end": 750.7,
+   "start": 869.89,
+   "end": 877.52,
    "role": "H",
    "sentences": [
     "3.02#3"
@@ -3783,7 +4323,7 @@
    "bg": "t10_front_door_unbelievable_return",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3812,8 +4352,8 @@
   {
    "id": "3-04",
    "act": 3,
-   "start": 750.7,
-   "end": 759.72,
+   "start": 877.52,
+   "end": 884.84,
    "role": "H",
    "sentences": [
     "3.02#4"
@@ -3823,7 +4363,7 @@
    "bg": "t10_riverside_california_bungalow",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -3852,8 +4392,8 @@
   {
    "id": "3-05",
    "act": 3,
-   "start": 759.72,
-   "end": 763.74,
+   "start": 884.84,
+   "end": 889.95,
    "role": "H",
    "sentences": [
     "3.04#1"
@@ -3863,7 +4403,7 @@
    "bg": "t10_front_door_unbelievable_return",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3892,8 +4432,8 @@
   {
    "id": "3-06",
    "act": 3,
-   "start": 763.74,
-   "end": 775.88,
+   "start": 889.95,
+   "end": 900.48,
    "role": "H",
    "sentences": [
     "3.04#2"
@@ -3903,7 +4443,7 @@
    "bg": "t10_front_door_unbelievable_return",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3932,8 +4472,8 @@
   {
    "id": "3-07",
    "act": 3,
-   "start": 775.88,
-   "end": 782.02,
+   "start": 900.48,
+   "end": 906.29,
    "role": "H",
    "sentences": [
     "3.04#3"
@@ -3943,7 +4483,7 @@
    "bg": "t10_tense_family_dinner_shadows",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3972,8 +4512,8 @@
   {
    "id": "3-08",
    "act": 3,
-   "start": 782.02,
-   "end": 790.9,
+   "start": 906.29,
+   "end": 913.47,
    "role": "H",
    "sentences": [
     "3.04#4"
@@ -3983,7 +4523,7 @@
    "bg": "t10_polite_boyfriend_facade",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -4014,8 +4554,8 @@
   {
    "id": "3-09",
    "act": 3,
-   "start": 790.9,
-   "end": 795.66,
+   "start": 913.47,
+   "end": 919.58,
    "role": "D",
    "sentences": [
     "3.05#1"
@@ -4025,7 +4565,7 @@
    "bg": "t10_bathroom_mirror_downcast_eyes",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -4054,8 +4594,8 @@
   {
    "id": "3-10",
    "act": 3,
-   "start": 795.66,
-   "end": 804.16,
+   "start": 919.58,
+   "end": 929.42,
    "role": "D",
    "sentences": [
     "3.05#2"
@@ -4065,7 +4605,7 @@
    "bg": "t10_bathroom_mirror_downcast_eyes",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -4094,8 +4634,8 @@
   {
    "id": "3-11",
    "act": 3,
-   "start": 804.16,
-   "end": 810.02,
+   "start": 929.42,
+   "end": 936.3,
    "role": "D",
    "sentences": [
     "3.05#3"
@@ -4105,7 +4645,7 @@
    "bg": "t10_bathroom_mirror_downcast_eyes",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -4134,8 +4674,8 @@
   {
    "id": "3-12",
    "act": 3,
-   "start": 810.02,
-   "end": 816.0,
+   "start": 936.3,
+   "end": 943.42,
    "role": "D",
    "sentences": [
     "3.05#4"
@@ -4145,7 +4685,7 @@
    "bg": "t10_father_concerned_inquiry",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -4174,8 +4714,8 @@
   {
    "id": "3-13",
    "act": 3,
-   "start": 816.0,
-   "end": 824.42,
+   "start": 943.42,
+   "end": 952.0,
    "role": "D",
    "sentences": [
     "3.05#5"
@@ -4185,7 +4725,7 @@
    "bg": "t10_father_concerned_inquiry",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -4214,8 +4754,8 @@
   {
    "id": "3-14",
    "act": 3,
-   "start": 824.42,
-   "end": 833.16,
+   "start": 952.0,
+   "end": 961.27,
    "role": "D",
    "sentences": [
     "3.05#6"
@@ -4225,7 +4765,7 @@
    "bg": "t10_packed_suitcase_return_car",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -4254,8 +4794,8 @@
   {
    "id": "3-15",
    "act": 3,
-   "start": 833.16,
-   "end": 839.62,
+   "start": 961.27,
+   "end": 967.96,
    "role": "D",
    "sentences": [
     "3.05#7"
@@ -4265,7 +4805,7 @@
    "bg": "t10_bathroom_mirror_downcast_eyes",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -4296,8 +4836,8 @@
   {
    "id": "3-16",
    "act": 3,
-   "start": 839.62,
-   "end": 844.92,
+   "start": 967.96,
+   "end": 974.95,
    "role": "H",
    "sentences": [
     "3.06#1"
@@ -4307,7 +4847,7 @@
    "bg": "t10_open_door_paradox_dilemma",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -4336,8 +4876,8 @@
   {
    "id": "3-17",
    "act": 3,
-   "start": 844.92,
-   "end": 854.18,
+   "start": 974.95,
+   "end": 982.59,
    "role": "H",
    "sentences": [
     "3.06#2"
@@ -4347,7 +4887,7 @@
    "bg": "t10_open_door_paradox_dilemma",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -4376,8 +4916,8 @@
   {
    "id": "3-18",
    "act": 3,
-   "start": 854.18,
-   "end": 859.66,
+   "start": 982.59,
+   "end": 989.02,
    "role": "H",
    "sentences": [
     "3.06#3"
@@ -4387,7 +4927,7 @@
    "bg": "t10_open_door_paradox_dilemma",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -4416,8 +4956,8 @@
   {
    "id": "3-19",
    "act": 3,
-   "start": 859.66,
-   "end": 869.4,
+   "start": 989.02,
+   "end": 996.96,
    "role": "H",
    "sentences": [
     "3.06#4"
@@ -4427,7 +4967,7 @@
    "bg": "t10_open_door_paradox_dilemma",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -4458,8 +4998,8 @@
   {
    "id": "3-20",
    "act": 3,
-   "start": 869.4,
-   "end": 878.22,
+   "start": 996.96,
+   "end": 1008.18,
    "role": "C",
    "sentences": [
     "3.07#1"
@@ -4469,7 +5009,7 @@
    "bg": "t10_martin_seligman_learned_helplessness",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -4498,8 +5038,8 @@
   {
    "id": "3-21",
    "act": 3,
-   "start": 878.22,
-   "end": 888.9,
+   "start": 1008.18,
+   "end": 1020.67,
    "role": "C",
    "sentences": [
     "3.07#2"
@@ -4509,7 +5049,7 @@
    "bg": "t10_martin_seligman_learned_helplessness",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -4538,8 +5078,8 @@
   {
    "id": "3-22",
    "act": 3,
-   "start": 888.9,
-   "end": 895.88,
+   "start": 1020.67,
+   "end": 1029.37,
    "role": "C",
    "sentences": [
     "3.07#3"
@@ -4549,7 +5089,7 @@
    "bg": "t10_open_cage_motionless_silhouette",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -4578,8 +5118,8 @@
   {
    "id": "3-23",
    "act": 3,
-   "start": 895.88,
-   "end": 903.86,
+   "start": 1029.37,
+   "end": 1038.58,
    "role": "C",
    "sentences": [
     "3.07#4"
@@ -4589,7 +5129,7 @@
    "bg": "t10_open_cage_motionless_silhouette",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -4618,8 +5158,8 @@
   {
    "id": "3-24",
    "act": 3,
-   "start": 903.86,
-   "end": 910.9,
+   "start": 1038.58,
+   "end": 1046.34,
    "role": "C",
    "sentences": [
     "3.07#5"
@@ -4629,7 +5169,7 @@
    "bg": "t10_martin_seligman_learned_helplessness",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -4658,18 +5198,138 @@
   {
    "id": "3-25",
    "act": 3,
-   "start": 910.9,
-   "end": 918.92,
+   "start": 1046.34,
+   "end": 1057.18,
    "role": "C",
    "sentences": [
     "3.07#6"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_the_company_shadow_syndicate",
+   "bg": "t10_father_concerned_inquiry",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Dưới góc độ tâm lý học nhận thức, sự im lặng của gia đình Colleen còn xuất phát từ một hiện tượng tâm lý mang tên “Điểm Mù Vì Nhẹ Nhõm”, hay “Relief Blindspot”."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-26",
+   "act": 3,
+   "start": 1057.18,
+   "end": 1072.44,
+   "role": "C",
+   "sentences": [
+    "3.07#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_tense_family_dinner_shadows",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Sau bốn năm dài đằng đẵng chìm trong nỗi tuyệt vọng, sự trở về của con gái đã tạo nên một cơn địa chấn cảm xúc tích cực quá lớn, khiến người cha vô thức kích hoạt “Thành kiến bình thường hóa” để bỏ qua những nét gượng gạo của con."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-27",
+   "act": 3,
+   "start": 1072.44,
+   "end": 1084.05,
+   "role": "C",
+   "sentences": [
+    "3.07#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_father_concerned_inquiry",
    "bg2": null,
    "inset": null,
    "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bối cảnh văn hóa thập niên 1970 với làn sóng thanh niên rời nhà tham gia các cộng đồng tôn giáo khép kín đã trở thành bức bình phong hoàn hảo ru ngủ trực giác của gia đình."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-28",
+   "act": 3,
+   "start": 1084.05,
+   "end": 1093.64,
+   "role": "C",
+   "sentences": [
+    "3.07#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_the_company_shadow_syndicate",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -4696,20 +5356,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-26",
+   "id": "3-29",
    "act": 3,
-   "start": 918.92,
-   "end": 925.96,
+   "start": 1093.64,
+   "end": 1101.83,
    "role": "C",
    "sentences": [
-    "3.07#7"
+    "3.07#10"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_window_sniper_paranoia_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -4736,20 +5396,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-27",
+   "id": "3-30",
    "act": 3,
-   "start": 925.96,
-   "end": 933.02,
+   "start": 1101.83,
+   "end": 1109.59,
    "role": "C",
    "sentences": [
-    "3.07#8"
+    "3.07#11"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_wooden_box_under_bed_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -4778,10 +5438,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-28",
+   "id": "3-31",
    "act": 3,
-   "start": 933.02,
-   "end": 945.58,
+   "start": 1109.59,
+   "end": 1121.5,
    "role": "H",
    "sentences": [
     "3.08#1"
@@ -4791,7 +5451,7 @@
    "bg": "t10_window_sniper_paranoia_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -4818,10 +5478,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-29",
+   "id": "3-32",
    "act": 3,
-   "start": 945.58,
-   "end": 953.22,
+   "start": 1121.5,
+   "end": 1129.2,
    "role": "H",
    "sentences": [
     "3.08#2"
@@ -4831,7 +5491,7 @@
    "bg": "t10_window_sniper_paranoia_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -4858,10 +5518,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-30",
+   "id": "3-33",
    "act": 3,
-   "start": 953.22,
-   "end": 963.66,
+   "start": 1129.2,
+   "end": 1138.09,
    "role": "H",
    "sentences": [
     "3.08#3"
@@ -4871,7 +5531,7 @@
    "bg": "t10_window_sniper_paranoia_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -4898,10 +5558,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-31",
+   "id": "3-34",
    "act": 3,
-   "start": 963.66,
-   "end": 971.58,
+   "start": 1138.09,
+   "end": 1146.86,
    "role": "H",
    "sentences": [
     "3.08#4"
@@ -4911,7 +5571,7 @@
    "bg": "t10_window_sniper_paranoia_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -4938,13 +5598,133 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-32",
+   "id": "3-35",
    "act": 3,
-   "start": 971.58,
-   "end": 983.82,
+   "start": 1146.86,
+   "end": 1159.91,
    "role": "H",
    "sentences": [
     "3.08#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_darkness_as_false_shelter",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Và có lẽ, một nghịch lý đau đớn bậc nhất mà ít ai dám thừa nhận: Trong tâm thức kiệt quệ của nạn nhân lúc bấy giờ, chiếc hộp gỗ dưới gầm giường đôi khi lại biến thành một “Vỏ ốc an toàn kỳ quặc”."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-36",
+   "act": 3,
+   "start": 1159.91,
+   "end": 1168.62,
+   "role": "H",
+   "sentences": [
+    "3.08#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_darkness_as_false_shelter",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bởi vì khi ở bên ngoài, cô phải đối mặt với nỗi kinh hoàng thường trực về sự trừng phạt bất ngờ và sự phán xét của xung quanh."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-37",
+   "act": 3,
+   "start": 1168.62,
+   "end": 1179.15,
+   "role": "H",
+   "sentences": [
+    "3.08#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_darkness_as_false_shelter",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chỉ khi nằm trong khoảng tối chật hẹp ấy, cô mới tạm thời được thu mình lại trong ốc đảo nội tâm để che chở cho sự bình yên của những người thân ruột thịt."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-38",
+   "act": 3,
+   "start": 1179.15,
+   "end": 1188.42,
+   "role": "H",
+   "sentences": [
+    "3.08#8"
    ],
    "template": "T1",
    "variant": "",
@@ -4980,10 +5760,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-33",
+   "id": "3-39",
    "act": 3,
-   "start": 983.82,
-   "end": 991.36,
+   "start": 1188.42,
+   "end": 1197.18,
    "role": "C",
    "sentences": [
     "3.09#1"
@@ -5020,10 +5800,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-34",
+   "id": "3-40",
    "act": 3,
-   "start": 991.36,
-   "end": 997.06,
+   "start": 1197.18,
+   "end": 1204.12,
    "role": "C",
    "sentences": [
     "3.09#2"
@@ -5060,10 +5840,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-35",
+   "id": "3-41",
    "act": 3,
-   "start": 997.06,
-   "end": 1003.9,
+   "start": 1204.12,
+   "end": 1212.89,
    "role": "C",
    "sentences": [
     "3.09#3"
@@ -5100,10 +5880,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-36",
+   "id": "3-42",
    "act": 3,
-   "start": 1003.9,
-   "end": 1010.16,
+   "start": 1212.89,
+   "end": 1220.14,
    "role": "C",
    "sentences": [
     "3.09#4"
@@ -5140,10 +5920,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-37",
+   "id": "3-43",
    "act": 3,
-   "start": 1010.16,
-   "end": 1017.36,
+   "start": 1220.14,
+   "end": 1229.22,
    "role": "C",
    "sentences": [
     "3.09#5"
@@ -5180,10 +5960,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-38",
+   "id": "3-44",
    "act": 3,
-   "start": 1017.36,
-   "end": 1024.46,
+   "start": 1229.22,
+   "end": 1237.29,
    "role": "C",
    "sentences": [
     "3.09#6"
@@ -5220,10 +6000,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-39",
+   "id": "3-45",
    "act": 3,
-   "start": 1024.46,
-   "end": 1032.14,
+   "start": 1237.29,
+   "end": 1244.11,
    "role": "C",
    "sentences": [
     "3.09#7"
@@ -5260,10 +6040,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-40",
+   "id": "3-46",
    "act": 3,
-   "start": 1032.14,
-   "end": 1039.66,
+   "start": 1244.11,
+   "end": 1251.61,
    "role": "C",
    "sentences": [
     "3.09#8"
@@ -5302,10 +6082,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-41",
+   "id": "3-47",
    "act": 3,
-   "start": 1039.66,
-   "end": 1050.14,
+   "start": 1251.61,
+   "end": 1261.69,
    "role": "H",
    "sentences": [
     "3.10#1"
@@ -5342,10 +6122,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-42",
+   "id": "3-48",
    "act": 3,
-   "start": 1050.14,
-   "end": 1058.04,
+   "start": 1261.69,
+   "end": 1267.56,
    "role": "H",
    "sentences": [
     "3.10#2"
@@ -5382,10 +6162,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-43",
+   "id": "3-49",
    "act": 3,
-   "start": 1058.04,
-   "end": 1064.02,
+   "start": 1267.56,
+   "end": 1276.15,
    "role": "H",
    "sentences": [
     "3.10#3"
@@ -5422,10 +6202,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-44",
+   "id": "3-50",
    "act": 3,
-   "start": 1064.02,
-   "end": 1066.6,
+   "start": 1276.15,
+   "end": 1278.15,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -5466,8 +6246,8 @@
   {
    "id": "4-01",
    "act": 4,
-   "start": 1066.6,
-   "end": 1074.84,
+   "start": 1278.15,
+   "end": 1284.83,
    "role": "H",
    "sentences": [
     "4.02#1"
@@ -5506,8 +6286,8 @@
   {
    "id": "4-02",
    "act": 4,
-   "start": 1074.84,
-   "end": 1081.56,
+   "start": 1284.83,
+   "end": 1292.58,
    "role": "H",
    "sentences": [
     "4.02#2"
@@ -5546,8 +6326,8 @@
   {
    "id": "4-03",
    "act": 4,
-   "start": 1081.56,
-   "end": 1091.32,
+   "start": 1292.58,
+   "end": 1301.29,
    "role": "H",
    "sentences": [
     "4.02#3"
@@ -5586,8 +6366,8 @@
   {
    "id": "4-04",
    "act": 4,
-   "start": 1091.32,
-   "end": 1098.78,
+   "start": 1301.29,
+   "end": 1309.55,
    "role": "H",
    "sentences": [
     "4.02#4"
@@ -5626,8 +6406,8 @@
   {
    "id": "4-05",
    "act": 4,
-   "start": 1098.78,
-   "end": 1110.4,
+   "start": 1309.55,
+   "end": 1318.57,
    "role": "H",
    "sentences": [
     "4.02#5"
@@ -5668,8 +6448,8 @@
   {
    "id": "4-06",
    "act": 4,
-   "start": 1110.4,
-   "end": 1118.52,
+   "start": 1318.57,
+   "end": 1327.39,
    "role": "D",
    "sentences": [
     "4.03#1"
@@ -5708,8 +6488,8 @@
   {
    "id": "4-07",
    "act": 4,
-   "start": 1118.52,
-   "end": 1127.5,
+   "start": 1327.39,
+   "end": 1336.66,
    "role": "D",
    "sentences": [
     "4.03#2"
@@ -5748,8 +6528,8 @@
   {
    "id": "4-08",
    "act": 4,
-   "start": 1127.5,
-   "end": 1137.22,
+   "start": 1336.66,
+   "end": 1347.2,
    "role": "D",
    "sentences": [
     "4.03#3"
@@ -5788,18 +6568,138 @@
   {
    "id": "4-09",
    "act": 4,
-   "start": 1137.22,
-   "end": 1144.74,
+   "start": 1347.2,
+   "end": 1359.12,
    "role": "D",
    "sentences": [
     "4.03#4"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_janice_hooker_moral_turmoil",
+   "bg": "t10_second_victim_shadow_threat",
    "bg2": null,
    "inset": null,
    "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hồ sơ thẩm vấn sau này tiết lộ rằng việc Cameron đòi bắt thêm một cô gái thứ hai đã giáng một đòn chí mạng vào cơ chế “Bất hòa Nhận thức” mà Janice cố công duy trì suốt bảy năm."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-10",
+   "act": 4,
+   "start": 1359.12,
+   "end": 1369.27,
+   "role": "D",
+   "sentences": [
+    "4.03#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_seventh_year_toddler_toys_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bà hiểu rằng ảo tưởng bạo lực của chồng sẽ không bao giờ có điểm dừng, và chiếc hộp thứ hai sẽ biến tổ ấm của mình thành một hang ổ tội ác vĩnh viễn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-11",
+   "act": 4,
+   "start": 1369.27,
+   "end": 1380.05,
+   "role": "D",
+   "sentences": [
+    "4.03#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_seventh_year_toddler_toys_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Hai đứa con gái nhỏ của bà đang lớn lên từng ngày, và nguy cơ chúng bị vấy bẩn hoặc trở thành nạn nhân tiếp theo đã vượt quá ngưỡng chịu đựng của một người mẹ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-12",
+   "act": 4,
+   "start": 1380.05,
+   "end": 1388.44,
+   "role": "D",
+   "sentences": [
+    "4.03#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_janice_hooker_moral_turmoil",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -5826,20 +6726,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-10",
+   "id": "4-13",
    "act": 4,
-   "start": 1144.74,
-   "end": 1152.52,
+   "start": 1388.44,
+   "end": 1396.26,
    "role": "D",
    "sentences": [
-    "4.03#5"
+    "4.03#8"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_second_victim_shadow_threat",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -5866,20 +6766,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-11",
+   "id": "4-14",
    "act": 4,
-   "start": 1152.52,
-   "end": 1159.48,
+   "start": 1396.26,
+   "end": 1402.38,
    "role": "D",
    "sentences": [
-    "4.03#6"
+    "4.03#9"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_church_pastor_confession_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -5908,10 +6808,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-12",
+   "id": "4-15",
    "act": 4,
-   "start": 1159.48,
-   "end": 1167.76,
+   "start": 1402.38,
+   "end": 1411.2,
    "role": "H",
    "sentences": [
     "4.04#1"
@@ -5921,7 +6821,7 @@
    "bg": "t10_second_victim_shadow_threat",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -5948,13 +6848,53 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-13",
+   "id": "4-16",
    "act": 4,
-   "start": 1167.76,
-   "end": 1175.62,
+   "start": 1411.2,
+   "end": 1421.61,
    "role": "H",
    "sentences": [
     "4.04#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_church_pastor_confession_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Lời khuyên của vị mục sư đóng vai trò một “Mỏ neo Đạo đức Ngoại vi”, giật tung bức màn bình thường hóa méo mó mà Cameron đã nhồi sọ bà suốt hơn mười năm."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-17",
+   "act": 4,
+   "start": 1421.61,
+   "end": 1426.47,
+   "role": "H",
+   "sentences": [
+    "4.04#3"
    ],
    "template": "T1",
    "variant": "",
@@ -5988,17 +6928,17 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-14",
+   "id": "4-18",
    "act": 4,
-   "start": 1175.62,
-   "end": 1186.46,
+   "start": 1426.47,
+   "end": 1436.68,
    "role": "H",
    "sentences": [
-    "4.04#3"
+    "4.04#4"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_second_victim_shadow_threat",
+   "bg": "t10_church_pastor_confession_shadow",
    "bg2": null,
    "inset": null,
    "camera": "pan",
@@ -6028,13 +6968,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-15",
+   "id": "4-19",
    "act": 4,
-   "start": 1186.46,
-   "end": 1192.84,
+   "start": 1436.68,
+   "end": 1442.04,
    "role": "H",
    "sentences": [
-    "4.04#4"
+    "4.04#5"
    ],
    "template": "T1",
    "variant": "",
@@ -6070,10 +7010,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-16",
+   "id": "4-20",
    "act": 4,
-   "start": 1192.84,
-   "end": 1201.82,
+   "start": 1442.04,
+   "end": 1452.63,
    "role": "N2",
    "sentences": [
     "4.05#1"
@@ -6090,7 +7030,7 @@
      "elems": [
       [
        "ital",
-       "Hãy hình dung sự giằng xé nát tâm can của một người phụ nữ đã sống trong nỗi sợ hãi người chồng suốt cả thời tuổi trẻ."
+       "Hãy hình dung sự giằng xé nát tâm can của một người phụ nữ nhận ra mái ấm mà mình cố công gìn giữ thực chất là một nấm mồ chôn sống lương tri."
       ]
      ]
     }
@@ -6110,10 +7050,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-17",
+   "id": "4-21",
    "act": 4,
-   "start": 1201.82,
-   "end": 1209.4,
+   "start": 1452.63,
+   "end": 1462.09,
    "role": "N2",
    "sentences": [
     "4.05#2"
@@ -6124,6 +7064,46 @@
    "bg2": null,
    "inset": null,
    "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Tôi đã từng run sợ Cameron đến mức chấp nhận làm một kẻ câm điếc, từng tự an ủi rằng chỉ cần mình ngoan ngoãn thì các con sẽ được bình an."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-22",
+   "act": 4,
+   "start": 1462.09,
+   "end": 1468.96,
+   "role": "N2",
+   "sentences": [
+    "4.05#3"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_wooden_box_under_bed_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -6150,27 +7130,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-18",
+   "id": "4-23",
    "act": 4,
-   "start": 1209.4,
-   "end": 1215.84,
+   "start": 1468.96,
+   "end": 1481.39,
    "role": "N2",
    "sentences": [
-    "4.05#3"
+    "4.05#4"
    ],
    "template": "T4",
    "variant": "testimony",
-   "bg": "t10_wooden_box_under_bed_shadow",
+   "bg": "t10_church_pastor_confession_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Mỗi ngày nhìn thấy cô gái ấy trong bóng tối, lương tâm tôi như bị hàng ngàn mũi dao cào xé."
+       "Nhưng khi nhìn thấy ánh mắt hắn rực lên cơn đói săn mồi mới, nhìn hai đứa con gái nhỏ đang ngây thơ chơi đùa trên sàn nhà, tôi rùng mình thấu suốt: Con quỷ ấy sẽ không bao giờ dừng lại."
       ]
      ]
     }
@@ -6190,20 +7170,100 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-19",
+   "id": "4-24",
    "act": 4,
-   "start": 1215.84,
-   "end": 1221.48,
+   "start": 1481.39,
+   "end": 1487.76,
    "role": "N2",
    "sentences": [
-    "4.05#4"
+    "4.05#5"
    ],
    "template": "T4",
    "variant": "testimony",
    "bg": "t10_church_pastor_confession_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Mỗi ngày nhìn thấy Colleen trong bóng tối, lương tâm tôi như bị hàng ngàn mũi dao cào xé."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-25",
+   "act": 4,
+   "start": 1487.76,
+   "end": 1495.39,
+   "role": "N2",
+   "sentences": [
+    "4.05#6"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_janice_hooker_moral_turmoil",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Nếu tôi không dũng cảm chấm dứt cơn ác mộng này, linh hồn tôi sẽ đời đời bị thiêu đốt trong ngọn lửa tội lỗi."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-26",
+   "act": 4,
+   "start": 1495.39,
+   "end": 1501.38,
+   "role": "N2",
+   "sentences": [
+    "4.05#7"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t10_seventh_year_toddler_toys_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -6230,20 +7290,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-20",
+   "id": "4-27",
    "act": 4,
-   "start": 1221.48,
-   "end": 1234.02,
+   "start": 1501.38,
+   "end": 1510.72,
    "role": "N2",
    "sentences": [
-    "4.05#5"
+    "4.05#8"
    ],
    "template": "T4",
    "variant": "testimony",
    "bg": "t10_church_pastor_confession_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -6272,10 +7332,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-21",
+   "id": "4-28",
    "act": 4,
-   "start": 1234.02,
-   "end": 1244.32,
+   "start": 1510.72,
+   "end": 1521.75,
    "role": "H",
    "sentences": [
     "4.07#1"
@@ -6285,7 +7345,7 @@
    "bg": "t10_red_bluff_bus_depot_departure",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -6312,10 +7372,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-22",
+   "id": "4-29",
    "act": 4,
-   "start": 1244.32,
-   "end": 1251.94,
+   "start": 1521.75,
+   "end": 1529.19,
    "role": "H",
    "sentences": [
     "4.07#2"
@@ -6325,7 +7385,7 @@
    "bg": "t10_red_bluff_bus_depot_departure",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -6352,10 +7412,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-23",
+   "id": "4-30",
    "act": 4,
-   "start": 1251.94,
-   "end": 1260.36,
+   "start": 1529.19,
+   "end": 1536.76,
    "role": "H",
    "sentences": [
     "4.07#3"
@@ -6365,7 +7425,7 @@
    "bg": "t10_red_bluff_bus_depot_departure",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -6392,10 +7452,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-24",
+   "id": "4-31",
    "act": 4,
-   "start": 1260.36,
-   "end": 1269.44,
+   "start": 1536.76,
+   "end": 1545.78,
    "role": "H",
    "sentences": [
     "4.07#4"
@@ -6405,7 +7465,7 @@
    "bg": "t10_august_escape_car_morning_dust",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -6432,10 +7492,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-25",
+   "id": "4-32",
    "act": 4,
-   "start": 1269.44,
-   "end": 1277.64,
+   "start": 1545.78,
+   "end": 1554.17,
    "role": "H",
    "sentences": [
     "4.07#5"
@@ -6445,7 +7505,7 @@
    "bg": "t10_truth_revealed_shattered_phantom",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -6472,10 +7532,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-26",
+   "id": "4-33",
    "act": 4,
-   "start": 1277.64,
-   "end": 1284.14,
+   "start": 1554.17,
+   "end": 1559.34,
    "role": "H",
    "sentences": [
     "4.07#6"
@@ -6485,7 +7545,7 @@
    "bg": "t10_red_bluff_bus_depot_departure",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -6514,10 +7574,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-27",
+   "id": "4-34",
    "act": 4,
-   "start": 1284.14,
-   "end": 1295.12,
+   "start": 1559.34,
+   "end": 1569.49,
    "role": "D",
    "sentences": [
     "4.08#1"
@@ -6527,7 +7587,7 @@
    "bg": "t10_tehama_county_sheriff_station",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -6554,10 +7614,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-28",
+   "id": "4-35",
    "act": 4,
-   "start": 1295.12,
-   "end": 1305.76,
+   "start": 1569.49,
+   "end": 1580.27,
    "role": "D",
    "sentences": [
     "4.08#2"
@@ -6567,7 +7627,7 @@
    "bg": "t10_immunity_agreement_document",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -6594,10 +7654,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-29",
+   "id": "4-36",
    "act": 4,
-   "start": 1305.76,
-   "end": 1315.96,
+   "start": 1580.27,
+   "end": 1590.49,
    "role": "D",
    "sentences": [
     "4.08#3"
@@ -6607,7 +7667,7 @@
    "bg": "t10_forensic_search_evidence_seizure",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -6634,10 +7694,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-30",
+   "id": "4-37",
    "act": 4,
-   "start": 1315.96,
-   "end": 1322.34,
+   "start": 1590.49,
+   "end": 1596.23,
    "role": "D",
    "sentences": [
     "4.08#4"
@@ -6647,7 +7707,7 @@
    "bg": "t10_forensic_search_evidence_seizure",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -6676,10 +7736,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-31",
+   "id": "4-38",
    "act": 4,
-   "start": 1322.34,
-   "end": 1332.1,
+   "start": 1596.23,
+   "end": 1606.38,
    "role": "C",
    "sentences": [
     "4.09#1"
@@ -6689,7 +7749,7 @@
    "bg": "t10_tehama_superior_court_columns",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -6716,10 +7776,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-32",
+   "id": "4-39",
    "act": 4,
-   "start": 1332.1,
-   "end": 1340.12,
+   "start": 1606.38,
+   "end": 1616.15,
    "role": "C",
    "sentences": [
     "4.09#2"
@@ -6729,7 +7789,7 @@
    "bg": "t10_tehama_superior_court_columns",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -6756,20 +7816,140 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-33",
+   "id": "4-40",
    "act": 4,
-   "start": 1340.12,
-   "end": 1346.44,
+   "start": 1616.15,
+   "end": 1625.11,
    "role": "C",
    "sentences": [
     "4.09#3"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_frank_ochberg_psychiatric_testimony",
+   "bg": "t10_immunity_agreement_document",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Dưới lăng kính tâm lý học tư pháp, sự hối hận của Janice Hooker phản ánh tính chất lưỡng phân đầy giằng xé của bản tính con người."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-41",
+   "act": 4,
+   "start": 1625.11,
+   "end": 1638.98,
+   "role": "C",
+   "sentences": [
+    "4.09#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_immunity_agreement_document",
    "bg2": null,
    "inset": null,
    "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bà đã có sự thức tỉnh lương tâm chân thực khi giải cứu Colleen vào tháng 8 năm 1984, nhưng phải mất thêm gần ba tháng sau mới chính thức đầu thú khi luật sư đã đàm phán thành công thỏa thuận miễn trừ truy tố."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-42",
+   "act": 4,
+   "start": 1638.98,
+   "end": 1648.57,
+   "role": "C",
+   "sentences": [
+    "4.09#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_tehama_superior_court_columns",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đó là sự giao thoa phức tạp giữa lòng trắc ẩn muốn chuộc lỗi và toan tính sinh tồn thực tế của một người mẹ muốn ở lại bên cạnh bầy con thơ."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-43",
+   "act": 4,
+   "start": 1648.57,
+   "end": 1656.14,
+   "role": "C",
+   "sentences": [
+    "4.09#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_frank_ochberg_psychiatric_testimony",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -6796,20 +7976,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-34",
+   "id": "4-44",
    "act": 4,
-   "start": 1346.44,
-   "end": 1354.84,
+   "start": 1656.14,
+   "end": 1666.86,
    "role": "C",
    "sentences": [
-    "4.09#4"
+    "4.09#7"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_unmasking_predator_broken_facade",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -6836,20 +8016,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-35",
+   "id": "4-45",
    "act": 4,
-   "start": 1354.84,
-   "end": 1364.14,
+   "start": 1666.86,
+   "end": 1677.77,
    "role": "C",
    "sentences": [
-    "4.09#5"
+    "4.09#8"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_tehama_superior_court_columns",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -6876,20 +8056,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-36",
+   "id": "4-46",
    "act": 4,
-   "start": 1364.14,
-   "end": 1369.54,
+   "start": 1677.77,
+   "end": 1682.75,
    "role": "C",
    "sentences": [
-    "4.09#6"
+    "4.09#9"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_unmasking_predator_broken_facade",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -6918,10 +8098,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-37",
+   "id": "4-47",
    "act": 4,
-   "start": 1369.54,
-   "end": 1378.22,
+   "start": 1682.75,
+   "end": 1692.96,
    "role": "H",
    "sentences": [
     "4.10#1"
@@ -6931,7 +8111,7 @@
    "bg": "t10_104_years_sentence_gavel",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -6958,10 +8138,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-38",
+   "id": "4-48",
    "act": 4,
-   "start": 1378.22,
-   "end": 1386.98,
+   "start": 1692.96,
+   "end": 1701.03,
    "role": "H",
    "sentences": [
     "4.10#2"
@@ -6971,7 +8151,7 @@
    "bg": "t10_104_years_sentence_gavel",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -6998,10 +8178,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-39",
+   "id": "4-49",
    "act": 4,
-   "start": 1386.98,
-   "end": 1397.04,
+   "start": 1701.03,
+   "end": 1709.42,
    "role": "H",
    "sentences": [
     "4.10#3"
@@ -7011,7 +8191,7 @@
    "bg": "t10_104_years_sentence_gavel",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -7038,10 +8218,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-40",
+   "id": "4-50",
    "act": 4,
-   "start": 1397.04,
-   "end": 1406.18,
+   "start": 1709.42,
+   "end": 1719.7,
    "role": "H",
    "sentences": [
     "4.10#4"
@@ -7051,7 +8231,7 @@
    "bg": "t10_california_state_prison_bars_closing",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -7078,20 +8258,60 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-41",
+   "id": "4-51",
    "act": 4,
-   "start": 1406.18,
-   "end": 1412.88,
+   "start": 1719.7,
+   "end": 1727.46,
    "role": "H",
    "sentences": [
     "4.10#5"
    ],
    "template": "T1",
    "variant": "",
+   "bg": "t10_california_state_prison_bars_closing",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Kẻ nhốt người khác vào bóng tối đã vĩnh viễn bị giam cầm trong chính nhà ngục của sự ích kỷ và vô cảm tột cùng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-52",
+   "act": 4,
+   "start": 1727.46,
+   "end": 1733.33,
+   "role": "H",
+   "sentences": [
+    "4.10#6"
+   ],
+   "template": "T1",
+   "variant": "",
    "bg": "t10_104_years_sentence_gavel",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -7118,10 +8338,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-42",
+   "id": "4-53",
    "act": 4,
-   "start": 1412.88,
-   "end": 1415.36,
+   "start": 1733.33,
+   "end": 1735.33,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -7162,8 +8382,8 @@
   {
    "id": "5-01",
    "act": 5,
-   "start": 1415.36,
-   "end": 1424.4,
+   "start": 1735.33,
+   "end": 1743.46,
    "role": "H",
    "sentences": [
     "5.02#1"
@@ -7173,7 +8393,7 @@
    "bg": "t10_healing_journey_morning_light",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -7202,8 +8422,8 @@
   {
    "id": "5-02",
    "act": 5,
-   "start": 1424.4,
-   "end": 1433.98,
+   "start": 1743.46,
+   "end": 1753.42,
    "role": "H",
    "sentences": [
     "5.02#2"
@@ -7213,7 +8433,7 @@
    "bg": "t10_healing_journey_morning_light",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -7242,8 +8462,8 @@
   {
    "id": "5-03",
    "act": 5,
-   "start": 1433.98,
-   "end": 1443.76,
+   "start": 1753.42,
+   "end": 1762.57,
    "role": "H",
    "sentences": [
     "5.02#3"
@@ -7253,7 +8473,7 @@
    "bg": "t10_healing_journey_morning_light",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -7282,8 +8502,8 @@
   {
    "id": "5-04",
    "act": 5,
-   "start": 1443.76,
-   "end": 1450.0,
+   "start": 1762.57,
+   "end": 1768.75,
    "role": "H",
    "sentences": [
     "5.02#4"
@@ -7293,7 +8513,7 @@
    "bg": "t10_darkness_as_false_shelter",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -7322,8 +8542,8 @@
   {
    "id": "5-05",
    "act": 5,
-   "start": 1450.0,
-   "end": 1458.84,
+   "start": 1768.75,
+   "end": 1778.4,
    "role": "H",
    "sentences": [
     "5.02#5"
@@ -7333,7 +8553,7 @@
    "bg": "t10_simple_gifts_of_life_memoir",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -7362,8 +8582,8 @@
   {
    "id": "5-06",
    "act": 5,
-   "start": 1458.84,
-   "end": 1465.76,
+   "start": 1778.4,
+   "end": 1785.46,
    "role": "H",
    "sentences": [
     "5.02#6"
@@ -7373,7 +8593,7 @@
    "bg": "t10_post_traumatic_growth_sprout_stone",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -7402,8 +8622,8 @@
   {
    "id": "5-07",
    "act": 5,
-   "start": 1465.76,
-   "end": 1473.18,
+   "start": 1785.46,
+   "end": 1793.91,
    "role": "H",
    "sentences": [
     "5.02#7"
@@ -7413,7 +8633,7 @@
    "bg": "t10_warm_family_breakfast_table",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -7442,8 +8662,8 @@
   {
    "id": "5-08",
    "act": 5,
-   "start": 1473.18,
-   "end": 1484.82,
+   "start": 1793.91,
+   "end": 1804.25,
    "role": "H",
    "sentences": [
     "5.02#8"
@@ -7453,7 +8673,7 @@
    "bg": "t10_accounting_degree_diploma",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -7484,8 +8704,8 @@
   {
    "id": "5-09",
    "act": 5,
-   "start": 1484.82,
-   "end": 1497.1,
+   "start": 1804.25,
+   "end": 1819.38,
    "role": "C",
    "sentences": [
     "5.03#1"
@@ -7495,7 +8715,7 @@
    "bg": "t10_post_traumatic_growth_sprout_stone",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -7524,8 +8744,8 @@
   {
    "id": "5-10",
    "act": 5,
-   "start": 1497.1,
-   "end": 1508.82,
+   "start": 1819.38,
+   "end": 1834.26,
    "role": "C",
    "sentences": [
     "5.03#2"
@@ -7535,7 +8755,7 @@
    "bg": "t10_post_traumatic_growth_sprout_stone",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -7564,8 +8784,8 @@
   {
    "id": "5-11",
    "act": 5,
-   "start": 1508.82,
-   "end": 1517.38,
+   "start": 1834.26,
+   "end": 1844.79,
    "role": "C",
    "sentences": [
     "5.03#3"
@@ -7575,7 +8795,7 @@
    "bg": "t10_post_traumatic_growth_sprout_stone",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -7604,8 +8824,8 @@
   {
    "id": "5-12",
    "act": 5,
-   "start": 1517.38,
-   "end": 1523.88,
+   "start": 1844.79,
+   "end": 1859.42,
    "role": "C",
    "sentences": [
     "5.03#4"
@@ -7613,6 +8833,46 @@
    "template": "T1",
    "variant": "",
    "bg": "t10_healing_journey_morning_light",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Bằng việc học cách sống hòa bình với những vết sẹo và tha thứ cho chính sự bất lực trong quá khứ của mình, Colleen đã biến chiếc hộp gỗ từ một công cụ giam cầm thành một biểu tượng cho sự bất diệt của phẩm giá con người."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-13",
+   "act": 5,
+   "start": 1859.42,
+   "end": 1868.57,
+   "role": "C",
+   "sentences": [
+    "5.03#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_post_traumatic_growth_sprout_stone",
    "bg2": null,
    "inset": null,
    "camera": "pan",
@@ -7642,17 +8902,17 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-13",
+   "id": "5-14",
    "act": 5,
-   "start": 1523.88,
-   "end": 1533.9,
+   "start": 1868.57,
+   "end": 1880.55,
    "role": "C",
    "sentences": [
-    "5.03#5"
+    "5.03#6"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t10_post_traumatic_growth_sprout_stone",
+   "bg": "t10_healing_journey_morning_light",
    "bg2": null,
    "inset": null,
    "camera": "pull",
@@ -7682,13 +8942,13 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-14",
+   "id": "5-15",
    "act": 5,
-   "start": 1533.9,
-   "end": 1542.78,
+   "start": 1880.55,
+   "end": 1890.64,
    "role": "C",
    "sentences": [
-    "5.03#6"
+    "5.03#7"
    ],
    "template": "T1",
    "variant": "",
@@ -7724,10 +8984,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-15",
+   "id": "5-16",
    "act": 5,
-   "start": 1542.78,
-   "end": 1552.2,
+   "start": 1890.64,
+   "end": 1901.35,
    "role": "D",
    "sentences": [
     "5.04#1"
@@ -7764,10 +9024,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-16",
+   "id": "5-17",
    "act": 5,
-   "start": 1552.2,
-   "end": 1559.34,
+   "start": 1901.35,
+   "end": 1909.18,
    "role": "D",
    "sentences": [
     "5.04#2"
@@ -7804,10 +9064,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-17",
+   "id": "5-18",
    "act": 5,
-   "start": 1559.34,
-   "end": 1569.92,
+   "start": 1909.18,
+   "end": 1920.15,
    "role": "D",
    "sentences": [
     "5.04#3"
@@ -7844,10 +9104,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-18",
+   "id": "5-19",
    "act": 5,
-   "start": 1569.92,
-   "end": 1581.1,
+   "start": 1920.15,
+   "end": 1927.53,
    "role": "D",
    "sentences": [
     "5.04#4"
@@ -7858,6 +9118,86 @@
    "bg2": null,
    "inset": null,
    "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Vụ án buộc mỗi người chúng ta phải tự vấn về cái giá của sự thờ ơ đằng sau tấm bình phong quyền riêng tư."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-20",
+   "act": 5,
+   "start": 1927.53,
+   "end": 1938.31,
+   "role": "D",
+   "sentences": [
+    "5.04#5"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_invisible_timber_prison_mind",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Tội ác kiểm soát cưỡng ép không thể tồn tại suốt bảy năm nếu không có sự tiếp tay của những ánh nhìn bàng quan và thói quen lẩn tránh của cộng đồng xung quanh."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-21",
+   "act": 5,
+   "start": 1938.31,
+   "end": 1950.17,
+   "role": "D",
+   "sentences": [
+    "5.04#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t10_tehama_superior_court_columns",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -7886,10 +9226,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-19",
+   "id": "5-22",
    "act": 5,
-   "start": 1581.1,
-   "end": 1597.72,
+   "start": 1950.17,
+   "end": 1966.05,
    "role": "H",
    "sentences": [
     "5.05#1"
@@ -7899,31 +9239,20 @@
    "bg": "t10_redflag1_trojan_innocence_trap",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Để bảo vệ chính mình và những người thân yêu trước những kẻ săn mồi tâm lý độc hại"
-      ]
-     ]
-    },
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "kênh Amber eyes xin đúc kết bốn bài học cảnh báo đỏ sinh tồn từ tấn bi kịch lịch sử này theo nguyên lý “The Gift of Fear” của Gavin de Becker."
+       "Để bảo vệ chính mình và những người thân yêu trước những kẻ săn mồi tâm lý độc hại, kênh Amber eyes xin đúc kết bốn bài học cảnh báo đỏ sinh tồn từ tấn bi kịch lịch sử này theo nguyên lý “The Gift of Fear” của Gavin de Becker."
       ]
      ]
     }
    ],
-   "beats": [
-    "kênh Amber eyes xin đúc"
-   ],
-   "beat_text": "ở \"kênh Amber eyes xin đúc\"",
+   "beats": [],
+   "beat_text": "—",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -7937,10 +9266,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-20",
+   "id": "5-23",
    "act": 5,
-   "start": 1597.72,
-   "end": 1605.12,
+   "start": 1966.05,
+   "end": 1972.36,
    "role": "H",
    "sentences": [
     "5.05#2"
@@ -7950,7 +9279,7 @@
    "bg": "t10_redflag1_trojan_innocence_trap",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -7981,10 +9310,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-21",
+   "id": "5-24",
    "act": 5,
-   "start": 1605.12,
-   "end": 1620.3,
+   "start": 1972.36,
+   "end": 1987.31,
    "role": "H",
    "sentences": [
     "5.05#3"
@@ -7994,7 +9323,7 @@
    "bg": "t10_redflag1_trojan_innocence_trap",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -8021,10 +9350,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-22",
+   "id": "5-25",
    "act": 5,
-   "start": 1620.3,
-   "end": 1626.42,
+   "start": 1987.31,
+   "end": 1993.05,
    "role": "H",
    "sentences": [
     "5.05#4"
@@ -8034,7 +9363,7 @@
    "bg": "t10_redflag2_spatial_isolation_grid",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -8065,10 +9394,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-23",
+   "id": "5-26",
    "act": 5,
-   "start": 1626.42,
-   "end": 1638.94,
+   "start": 1993.05,
+   "end": 2005.98,
    "role": "H",
    "sentences": [
     "5.05#5"
@@ -8078,7 +9407,7 @@
    "bg": "t10_redflag2_spatial_isolation_grid",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -8105,10 +9434,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-24",
+   "id": "5-27",
    "act": 5,
-   "start": 1638.94,
-   "end": 1646.56,
+   "start": 2005.98,
+   "end": 2011.84,
    "role": "H",
    "sentences": [
     "5.05#6"
@@ -8118,7 +9447,7 @@
    "bg": "t10_redflag3_phantom_enemy_mirror",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -8149,10 +9478,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-25",
+   "id": "5-28",
    "act": 5,
-   "start": 1646.56,
-   "end": 1658.3,
+   "start": 2011.84,
+   "end": 2023.76,
    "role": "H",
    "sentences": [
     "5.05#7"
@@ -8162,7 +9491,7 @@
    "bg": "t10_redflag3_phantom_enemy_mirror",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -8189,10 +9518,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-26",
+   "id": "5-29",
    "act": 5,
-   "start": 1658.3,
-   "end": 1664.44,
+   "start": 2023.76,
+   "end": 2028.43,
    "role": "H",
    "sentences": [
     "5.05#8"
@@ -8202,7 +9531,7 @@
    "bg": "t10_redflag4_breaking_helplessness_sparks",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -8233,10 +9562,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-27",
+   "id": "5-30",
    "act": 5,
-   "start": 1664.44,
-   "end": 1673.56,
+   "start": 2028.43,
+   "end": 2037.14,
    "role": "H",
    "sentences": [
     "5.05#9"
@@ -8246,7 +9575,7 @@
    "bg": "t10_redflag4_breaking_helplessness_sparks",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -8273,10 +9602,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-28",
+   "id": "5-31",
    "act": 5,
-   "start": 1673.56,
-   "end": 1683.84,
+   "start": 2037.14,
+   "end": 2047.1,
    "role": "H",
    "sentences": [
     "5.05#10"
@@ -8286,7 +9615,7 @@
    "bg": "t10_redflag4_breaking_helplessness_sparks",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -8313,10 +9642,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-29",
+   "id": "5-32",
    "act": 5,
-   "start": 1683.84,
-   "end": 1693.72,
+   "start": 2047.1,
+   "end": 2057.07,
    "role": "H",
    "sentences": [
     "5.05#11"
@@ -8326,7 +9655,7 @@
    "bg": "t10_redflag4_breaking_helplessness_sparks",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -8353,10 +9682,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-30",
+   "id": "5-33",
    "act": 5,
-   "start": 1693.72,
-   "end": 1704.52,
+   "start": 2057.07,
+   "end": 2067.91,
    "role": "H",
    "sentences": [
     "5.05#12"
@@ -8366,7 +9695,7 @@
    "bg": "t10_breaking_invisible_chains_dawn",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -8393,10 +9722,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-31",
+   "id": "5-34",
    "act": 5,
-   "start": 1704.52,
-   "end": 1710.18,
+   "start": 2067.91,
+   "end": 2074.85,
    "role": "H",
    "sentences": [
     "5.05#13"
@@ -8406,7 +9735,7 @@
    "bg": "t10_warm_family_breakfast_table",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -8433,20 +9762,21 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-32",
+   "id": "5-35",
    "act": 5,
-   "start": 1710.18,
-   "end": 1718.54,
+   "start": 2074.85,
+   "end": 2087.22,
    "role": "H",
    "sentences": [
-    "5.05#14"
+    "5.05#14",
+    "5.05#15"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t10_breaking_invisible_chains_dawn",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -8456,40 +9786,9 @@
        "Hãy nhấn đăng ký kênh, bật chuông thông báo và chia sẻ góc nhìn sâu sắc của quý vị ở phần bình luận bên dưới."
       ]
      ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "5-33",
-   "act": 5,
-   "start": 1718.54,
-   "end": 1726.37,
-   "role": "H",
-   "sentences": [
-    "5.05#15"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t10_amber_eyes_closing_dossier_colleen",
-   "bg2": null,
-   "inset": null,
-   "camera": "pull",
-   "segments": [
+    },
     {
-     "at_sentence": null,
+     "at_sentence": 15,
      "elems": [
       [
        "ital",
@@ -8513,10 +9812,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-34",
+   "id": "5-36",
    "act": 5,
-   "start": 1726.37,
-   "end": 1733.37,
+   "start": 2087.22,
+   "end": 2096.22,
    "role": null,
    "sentences": [],
    "template": "T2",

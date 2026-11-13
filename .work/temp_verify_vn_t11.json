@@ -3,13 +3,13 @@
   "id": "1.01",
   "act": 1,
   "kind": "BGM",
-  "desc": "*Tiếng đàn Cello u buồn cất lên chậm rãi giữa không gian tĩnh lặng, hòa cùng tiếng gió rít hiu hắt bên bờ hồ Ontario.*"
+  "desc": "Tiếng đàn Cello u buồn cất lên chậm rãi giữa không gian tĩnh lặng, hòa cùng tiếng gió rít hiu hắt bên bờ hồ Ontario."
  },
  {
   "id": "1.02",
   "act": 1,
   "kind": "SFX",
-  "desc": "*Tiếng ly rượu chạm nhau lách cách, tiếng nhạc khiêu vũ rộn rã trong một đám cưới ngoài trời.*"
+  "desc": "Tiếng ly rượu chạm nhau lách cách, tiếng nhạc khiêu vũ rộn rã trong một đám cưới ngoài trời."
  },
  {
   "id": "1.03",
@@ -126,11 +126,71 @@
  {
   "id": "1.07",
   "act": 1,
-  "kind": "SFX",
-  "desc": "*Tiếng còi xe cảnh sát rít xé màn đêm, tiếng lật giở hồ sơ điều tra dồn dập.*"
+  "kind": "LOI",
+  "role": "C",
+  "direction": "điềm đạm, giọng học thuật sâu sắc",
+  "text": "Dưới lăng kính tâm lý học xã hội, chiếc mặt nạ của ngôi nhà màu hồng số 57 Bayview Drive là một ca nghiên cứu kinh điển về Hiệu ứng Hào quang và Điểm mù Ngoại ô. Bộ não con người có một xu hướng phán đoán sai lệch bẩm sinh: chúng ta thường mặc định những người trẻ trung, xinh đẹp, có việc làm danh giá và cử chỉ lịch thiệp là những tâm hồn thánh thiện. Khi Paul và Karla khoác lên mình hình tượng cặp búp bê Ken và Barbie hoàn hảo, họ đã dựng nên một tấm khiên vô hình ru ngủ hoàn toàn bản năng phòng vệ của cộng đồng. Chúng ta dễ dàng đề phòng một kẻ lôi thôi, khả nghi lẩn khuất trong ngõ tối, nhưng lại hoàn toàn mất cảnh giác trước một cặp vợ chồng trung lưu dắt chó đi dạo và nở nụ cười rạng rỡ bên hàng rào hoa hồng.",
+  "sentences": [
+   {
+    "id": "1.07#1",
+    "text": "Dưới lăng kính tâm lý học xã hội, chiếc mặt nạ của ngôi nhà màu hồng số 57 Bayview Drive là một ca nghiên cứu kinh điển về Hiệu ứng Hào quang và Điểm mù Ngoại ô.",
+    "words": 37
+   },
+   {
+    "id": "1.07#2",
+    "text": "Bộ não con người có một xu hướng phán đoán sai lệch bẩm sinh: chúng ta thường mặc định những người trẻ trung, xinh đẹp, có việc làm danh giá và cử chỉ lịch thiệp là những tâm hồn thánh thiện.",
+    "words": 41
+   },
+   {
+    "id": "1.07#3",
+    "text": "Khi Paul và Karla khoác lên mình hình tượng cặp búp bê Ken và Barbie hoàn hảo, họ đã dựng nên một tấm khiên vô hình ru ngủ hoàn toàn bản năng phòng vệ của cộng đồng.",
+    "words": 37
+   },
+   {
+    "id": "1.07#4",
+    "text": "Chúng ta dễ dàng đề phòng một kẻ lôi thôi, khả nghi lẩn khuất trong ngõ tối, nhưng lại hoàn toàn mất cảnh giác trước một cặp vợ chồng trung lưu dắt chó đi dạo và nở nụ cười rạng rỡ bên hàng rào hoa hồng.",
+    "words": 46
+   }
+  ]
  },
  {
   "id": "1.08",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "trầm giọng, chiêm nghiệm",
+  "text": "Và cái giá phải trả cho sự mù quáng ấy là một cơn hoang tưởng tập thể bao trùm khắp miền Nam tỉnh Ontario suốt nửa thập kỷ. Những con phố ven hồ vốn yên bình bỗng chốc trở thành nơi rình rập của nỗi kinh hoàng vô hình. Các bậc cha mẹ không còn dám để con gái tự bước qua cổng trường; những ánh mắt nhìn nhau đầy ngờ vực xuất hiện ngay tại các bến xe buýt và công viên. Sự an toàn quen thuộc của cuộc sống thường nhật sụp đổ hoàn toàn khi người ta bàng hoàng nhận ra: Ác quỷ không mang hình thù dị hợm, mà đang mỉm cười chào họ từ chính cỗ xe ngựa cổ tích giữa ban ngày.",
+  "sentences": [
+   {
+    "id": "1.08#1",
+    "text": "Và cái giá phải trả cho sự mù quáng ấy là một cơn hoang tưởng tập thể bao trùm khắp miền Nam tỉnh Ontario suốt nửa thập kỷ.",
+    "words": 28
+   },
+   {
+    "id": "1.08#2",
+    "text": "Những con phố ven hồ vốn yên bình bỗng chốc trở thành nơi rình rập của nỗi kinh hoàng vô hình.",
+    "words": 21
+   },
+   {
+    "id": "1.08#3",
+    "text": "Các bậc cha mẹ không còn dám để con gái tự bước qua cổng trường; những ánh mắt nhìn nhau đầy ngờ vực xuất hiện ngay tại các bến xe buýt và công viên.",
+    "words": 34
+   },
+   {
+    "id": "1.08#4",
+    "text": "Sự an toàn quen thuộc của cuộc sống thường nhật sụp đổ hoàn toàn khi người ta bàng hoàng nhận ra: Ác quỷ không mang hình thù dị hợm, mà đang mỉm cười chào họ từ chính cỗ xe ngựa cổ tích giữa ban ngày.",
+    "words": 45
+   }
+  ]
+ },
+ {
+  "id": "1.09",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "Tiếng còi xe cảnh sát rít xé màn đêm, tiếng lật giở hồ sơ điều tra dồn dập."
+ },
+ {
+  "id": "1.10",
   "act": 1,
   "kind": "LOI",
   "role": "H",
@@ -138,41 +198,41 @@
   "text": "Thế nhưng, đằng sau cánh cửa đóng kín của căn nhà số 57 Bayview Drive là một thực tại tăm tối vượt xa mọi giới hạn tưởng tượng của con người. Cùng thời điểm cặp đôi Ken và Barbie đang tận hưởng cuộc sống nhung lụa, một bóng ma kinh hoàng đang bao trùm khắp miền Nam tỉnh Ontario. Từ năm 1987 đến năm 1990, khu vực ngoại ô Scarborough của thành phố Toronto bị rung chuyển bởi một kẻ gây án hàng loạt mang biệt danh “Scarborough Rapist”. Hắn rình rập phụ nữ trẻ đi một mình trong đêm tối, tấn công chớp nhoáng rồi biến mất không để lại dấu vết. Cơn hoang tưởng xã hội và chấn thương tập thể bao trùm khắp các trạm xe buýt và khu dân cư khi màn đêm buông xuống.",
   "sentences": [
    {
-    "id": "1.08#1",
+    "id": "1.10#1",
     "text": "Thế nhưng, đằng sau cánh cửa đóng kín của căn nhà số 57 Bayview Drive là một thực tại tăm tối vượt xa mọi giới hạn tưởng tượng của con người.",
     "words": 31
    },
    {
-    "id": "1.08#2",
+    "id": "1.10#2",
     "text": "Cùng thời điểm cặp đôi Ken và Barbie đang tận hưởng cuộc sống nhung lụa, một bóng ma kinh hoàng đang bao trùm khắp miền Nam tỉnh Ontario.",
     "words": 28
    },
    {
-    "id": "1.08#3",
+    "id": "1.10#3",
     "text": "Từ năm 1987 đến năm 1990, khu vực ngoại ô Scarborough của thành phố Toronto bị rung chuyển bởi một kẻ gây án hàng loạt mang biệt danh “Scarborough Rapist”.",
     "words": 30
    },
    {
-    "id": "1.08#4",
+    "id": "1.10#4",
     "text": "Hắn rình rập phụ nữ trẻ đi một mình trong đêm tối, tấn công chớp nhoáng rồi biến mất không để lại dấu vết.",
     "words": 24
    },
    {
-    "id": "1.08#5",
+    "id": "1.10#5",
     "text": "Cơn hoang tưởng xã hội và chấn thương tập thể bao trùm khắp các trạm xe buýt và khu dân cư khi màn đêm buông xuống.",
     "words": 26
    }
   ]
  },
  {
-  "id": "1.09",
+  "id": "1.11",
   "act": 1,
   "kind": "NGHI",
   "sec": 1.5,
   "desc": "khoảng lặng kịch tính"
  },
  {
-  "id": "1.10",
+  "id": "1.12",
   "act": 1,
   "kind": "LOI",
   "role": "D",
@@ -180,39 +240,39 @@
   "text": "Cảnh sát Toronto đã lập một nhóm đặc nhiệm quy mô lớn chưa từng có để truy tìm kẻ thủ ác vùng Scarborough, thu thập hàng trăm mẫu dấu vết nhưng hắn vẫn lẩn khuất ngoài vòng pháp luật. Nỗi khiếp đảm thực sự bùng nổ khi hành vi phạm tội vượt qua lằn ranh tấn công đơn thuần để bước sang quỹ đạo tước đoạt sinh mạng. Tháng 6 năm 1991, nữ sinh 14 tuổi Leslie Mahaffy đột ngột biến mất tại thành phố Burlington sau khi vô tình bị khóa ngoài cửa nhà trong đêm. Hai tuần sau, tin tức xác nhận cô bé đã không còn sống làm chấn động toàn bộ dư luận Canada. Chưa đầy một năm sau, vào tháng 4 năm 1992, nữ sinh 15 tuổi Kristen French tiếp tục bị bắt cóc giữa ban ngày ngay tại bãi đỗ xe của một nhà thờ ở thành phố Saint Catharines khi đang trên đường đi học về. Hai vụ án chấn động xảy ra ngay trong vùng Niagara, cách ngôi nhà màu hồng của Paul và Karla chỉ vài dặm đường.",
   "sentences": [
    {
-    "id": "1.10#1",
+    "id": "1.12#1",
     "text": "Cảnh sát Toronto đã lập một nhóm đặc nhiệm quy mô lớn chưa từng có để truy tìm kẻ thủ ác vùng Scarborough, thu thập hàng trăm mẫu dấu vết nhưng hắn vẫn lẩn khuất ngoài vòng pháp luật.",
     "words": 39
    },
    {
-    "id": "1.10#2",
+    "id": "1.12#2",
     "text": "Nỗi khiếp đảm thực sự bùng nổ khi hành vi phạm tội vượt qua lằn ranh tấn công đơn thuần để bước sang quỹ đạo tước đoạt sinh mạng.",
     "words": 29
    },
    {
-    "id": "1.10#3",
+    "id": "1.12#3",
     "text": "Tháng 6 năm 1991, nữ sinh 14 tuổi Leslie Mahaffy đột ngột biến mất tại thành phố Burlington sau khi vô tình bị khóa ngoài cửa nhà trong đêm.",
     "words": 29
    },
    {
-    "id": "1.10#4",
+    "id": "1.12#4",
     "text": "Hai tuần sau, tin tức xác nhận cô bé đã không còn sống làm chấn động toàn bộ dư luận Canada.",
     "words": 21
    },
    {
-    "id": "1.10#5",
+    "id": "1.12#5",
     "text": "Chưa đầy một năm sau, vào tháng 4 năm 1992, nữ sinh 15 tuổi Kristen French tiếp tục bị bắt cóc giữa ban ngày ngay tại bãi đỗ xe của một nhà thờ ở thành phố Saint Catharines khi đang trên đường đi học về.",
     "words": 45
    },
    {
-    "id": "1.10#6",
+    "id": "1.12#6",
     "text": "Hai vụ án chấn động xảy ra ngay trong vùng Niagara, cách ngôi nhà màu hồng của Paul và Karla chỉ vài dặm đường.",
     "words": 24
    }
   ]
  },
  {
-  "id": "1.11",
+  "id": "1.13",
   "act": 1,
   "kind": "LOI",
   "role": "H",
@@ -220,45 +280,45 @@
   "text": "Cả đất nước Canada rơi vào trạng thái hoảng loạn và phẫn nộ tột cùng trước sự tàn độc của kẻ săn mồi giấu mặt. Phụ nữ không dám bước ra đường một mình, các bậc phụ huynh nơm nớp lo sợ và đưa đón con cái từng bước chân. Ai là kẻ thủ ác đang gieo rắc nỗi kinh hoàng cho những thiếu nữ ngây thơ? Và làm thế nào một cặp đôi trẻ có vẻ ngoài đẹp như tranh vẽ lại trở thành tâm điểm của một liên minh tội ác kỳ dị nhất lịch sử tư pháp? Sự thật phía sau chiếc mặt nạ “Ken và Barbie” là một bài học đắt giá về điểm mù xã hội khi con người bị mê hoặc bởi vẻ bề ngoài. Chúng ta hãy cùng lắng nghe phân tích chuyên môn về cách thức tội ác đã âm thầm hình thành.",
   "sentences": [
    {
-    "id": "1.11#1",
+    "id": "1.13#1",
     "text": "Cả đất nước Canada rơi vào trạng thái hoảng loạn và phẫn nộ tột cùng trước sự tàn độc của kẻ săn mồi giấu mặt.",
     "words": 25
    },
    {
-    "id": "1.11#2",
+    "id": "1.13#2",
     "text": "Phụ nữ không dám bước ra đường một mình, các bậc phụ huynh nơm nớp lo sợ và đưa đón con cái từng bước chân.",
     "words": 25
    },
    {
-    "id": "1.11#3",
+    "id": "1.13#3",
     "text": "Ai là kẻ thủ ác đang gieo rắc nỗi kinh hoàng cho những thiếu nữ ngây thơ?",
     "words": 17
    },
    {
-    "id": "1.11#4",
+    "id": "1.13#4",
     "text": "Và làm thế nào một cặp đôi trẻ có vẻ ngoài đẹp như tranh vẽ lại trở thành tâm điểm của một liên minh tội ác kỳ dị nhất lịch sử tư pháp?",
     "words": 33
    },
    {
-    "id": "1.11#5",
+    "id": "1.13#5",
     "text": "Sự thật phía sau chiếc mặt nạ “Ken và Barbie” là một bài học đắt giá về điểm mù xã hội khi con người bị mê hoặc bởi vẻ bề ngoài.",
     "words": 31
    },
    {
-    "id": "1.11#6",
+    "id": "1.13#6",
     "text": "Chúng ta hãy cùng lắng nghe phân tích chuyên môn về cách thức tội ác đã âm thầm hình thành.",
     "words": 20
    }
   ]
  },
  {
-  "id": "1.12",
+  "id": "1.14",
   "act": 1,
   "kind": "SFX",
-  "desc": "*Tiếng đóng cửa sắt nặng nề vang lên dứt khoát.*"
+  "desc": "Tiếng đóng cửa sắt nặng nề vang lên dứt khoát."
  },
  {
-  "id": "1.13",
+  "id": "1.15",
   "act": 1,
   "kind": "LOI",
   "role": "H",
@@ -266,32 +326,32 @@
   "text": "Chào mừng quý vị đến với kênh Amber eyes và hồ sơ phân tích tâm lý học tội phạm hôm nay. Chúng ta sẽ cùng mở khóa một trong những vụ án gây chấn động và tranh cãi sâu sắc nhất: Hồ sơ Paul Bernardo và Karla Homolka. Tập phim này sẽ giải mã hiện tượng “Điên cuồng đôi”, cơ chế đóng vai nạn nhân thao túng lòng trắc ẩn, và bản hợp đồng tư pháp cay đắng mang tên “Thỏa thuận với Quỷ dữ”. Đồng thời, chúng tôi sẽ phân tích sâu sắc Hệ sinh thái 10 chỉ dấu tâm lý và hành vi để giúp nhận diện những mối quan hệ độc hại trong cuộc sống. Đây không chỉ là câu chuyện về một vụ án trong quá khứ, mà là lời cảnh tỉnh sâu sắc cho sự an toàn của mỗi chúng ta hôm nay. Xin mời quý vị cùng chúng tôi bước vào Hồi thứ hai để giải mã quỹ đạo leo thang của tội ác.",
   "sentences": [
    {
-    "id": "1.13#1",
+    "id": "1.15#1",
     "text": "Chào mừng quý vị đến với kênh Amber eyes và hồ sơ phân tích tâm lý học tội phạm hôm nay.",
     "words": 21
    },
    {
-    "id": "1.13#2",
+    "id": "1.15#2",
     "text": "Chúng ta sẽ cùng mở khóa một trong những vụ án gây chấn động và tranh cãi sâu sắc nhất: Hồ sơ Paul Bernardo và Karla Homolka.",
     "words": 27
    },
    {
-    "id": "1.13#3",
+    "id": "1.15#3",
     "text": "Tập phim này sẽ giải mã hiện tượng “Điên cuồng đôi”, cơ chế đóng vai nạn nhân thao túng lòng trắc ẩn, và bản hợp đồng tư pháp cay đắng mang tên “Thỏa thuận với Quỷ dữ”.",
     "words": 37
    },
    {
-    "id": "1.13#4",
+    "id": "1.15#4",
     "text": "Đồng thời, chúng tôi sẽ phân tích sâu sắc Hệ sinh thái 10 chỉ dấu tâm lý và hành vi để giúp nhận diện những mối quan hệ độc hại trong cuộc sống.",
     "words": 33
    },
    {
-    "id": "1.13#5",
+    "id": "1.15#5",
     "text": "Đây không chỉ là câu chuyện về một vụ án trong quá khứ, mà là lời cảnh tỉnh sâu sắc cho sự an toàn của mỗi chúng ta hôm nay.",
     "words": 30
    },
    {
-    "id": "1.13#6",
+    "id": "1.15#6",
     "text": "Xin mời quý vị cùng chúng tôi bước vào Hồi thứ hai để giải mã quỹ đạo leo thang của tội ác.",
     "words": 22
    }
@@ -301,7 +361,7 @@
   "id": "2.01",
   "act": 2,
   "kind": "BGM",
-  "desc": "*Nhạc Minimalist Piano rải những nốt lạnh lẽo, xen lẫn âm thanh gõ bàn phím máy tính chậm rãi trong đêm vắng.*"
+  "desc": "Nhạc Minimalist Piano rải những nốt lạnh lẽo, xen lẫn âm thanh gõ bàn phím máy tính chậm rãi trong đêm vắng."
  },
  {
   "id": "2.02",
@@ -347,7 +407,7 @@
   "id": "2.03",
   "act": 2,
   "kind": "SFX",
-  "desc": "*Tiếng lật mở hồ sơ giấy và tiếng click chuột lách cách.*"
+  "desc": "Tiếng lật mở hồ sơ giấy và tiếng click chuột lách cách."
  },
  {
   "id": "2.04",
@@ -432,7 +492,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "trầm tư, tôn vinh phẩm giá và lòng dũng cảm của nạn nhân",
-  "text": "Nhìn vào danh tính của các nạn nhân, chúng ta thấy rõ sự tàn nhẫn của động lực bất đối xứng quyền lực. Tammy Homolka là một cô bé 15 tuổi ngây thơ, đặt trọn niềm tin vào người chị gái ruột thịt của mình. Leslie Mahaffy và Kristen French là những nữ sinh trung học tràn đầy ước mơ, bị tước đoạt tương lai chỉ vì lọt vào tầm ngắm của những kẻ săn mồi. Tuy nhiên, sự thật lịch sử phải tôn vinh sự kiên cường và phẩm giá bất khuất của Kristen French. Trong suốt những ngày bị giam giữ, cô bé 15 tuổi ấy đã kiên quyết không chịu khuất phục và chiến đấu dũng cảm đến hơi thở cuối cùng.",
+  "text": "Nhìn vào danh tính của các nạn nhân, chúng ta thấy rõ sự tàn nhẫn của động lực bất đối xứng quyền lực. Tammy Homolka là một cô bé 15 tuổi ngây thơ, đặt trọn niềm tin vào người chị gái ruột thịt của mình. Leslie Mahaffy và Kristen French là những nữ sinh trung học tràn đầy ước mơ, bị tước đoạt tương lai chỉ vì lọt vào tầm ngắm của những kẻ săn mồi. Tuy nhiên, sự thật lịch sử phải tôn vinh sự kiên cường và phẩm giá bất khuất của Kristen French. Trong suốt những ngày bị giam giữ, cô bé 15 tuổi ấy đã kiên quyết không chịu khuất phục và chiến đấu dũng cảm đến hơi thở cuối cùng. Trong bóng tối ngột ngạt của sự bạo tàn, lịch sử tư pháp Canada mãi mãi khắc ghi tên tuổi của Kristen French như một ngọn hải đăng của lòng dũng cảm. Cô bé mười lăm tuổi ấy đã không hề buông xuôi hay van xin trong tuyệt vọng. Bằng một ý chí sinh tồn kiên cường phi thường, Kristen đã chiến đấu quyết liệt đến hơi thở cuối cùng để bảo vệ phẩm giá của chính mình. Chính những dấu vết cào cấu mà em để lại trên cơ thể kẻ thủ ác đã trở thành chiếc chìa khóa pháp y vô giá, giữ chặt mẫu ADN của Paul Bernardo để đưa hắn ra trước ánh sáng công lý. Sự kiên cường của Kristen nhắc nhở chúng ta rằng: Ngay cả khi thể xác bị giam cầm, phẩm giá và khí phách con người vẫn là thứ mà không một kẻ bạo tàn nào có thể tước đoạt.",
   "sentences": [
    {
     "id": "2.06#1",
@@ -458,6 +518,31 @@
     "id": "2.06#5",
     "text": "Trong suốt những ngày bị giam giữ, cô bé 15 tuổi ấy đã kiên quyết không chịu khuất phục và chiến đấu dũng cảm đến hơi thở cuối cùng.",
     "words": 29
+   },
+   {
+    "id": "2.06#6",
+    "text": "Trong bóng tối ngột ngạt của sự bạo tàn, lịch sử tư pháp Canada mãi mãi khắc ghi tên tuổi của Kristen French như một ngọn hải đăng của lòng dũng cảm.",
+    "words": 32
+   },
+   {
+    "id": "2.06#7",
+    "text": "Cô bé mười lăm tuổi ấy đã không hề buông xuôi hay van xin trong tuyệt vọng.",
+    "words": 17
+   },
+   {
+    "id": "2.06#8",
+    "text": "Bằng một ý chí sinh tồn kiên cường phi thường, Kristen đã chiến đấu quyết liệt đến hơi thở cuối cùng để bảo vệ phẩm giá của chính mình.",
+    "words": 29
+   },
+   {
+    "id": "2.06#9",
+    "text": "Chính những dấu vết cào cấu mà em để lại trên cơ thể kẻ thủ ác đã trở thành chiếc chìa khóa pháp y vô giá, giữ chặt mẫu ADN của Paul Bernardo để đưa hắn ra trước ánh sáng công lý.",
+    "words": 42
+   },
+   {
+    "id": "2.06#10",
+    "text": "Sự kiên cường của Kristen nhắc nhở chúng ta rằng: Ngay cả khi thể xác bị giam cầm, phẩm giá và khí phách con người vẫn là thứ mà không một kẻ bạo tàn nào có thể tước đoạt.",
+    "words": 39
    }
   ]
  },
@@ -505,7 +590,7 @@
   "id": "2.08",
   "act": 2,
   "kind": "SFX",
-  "desc": "*Tiếng cuộn băng cassette quay rè rè và tiếng nút bấm máy quay cơ khí.*"
+  "desc": "Tiếng cuộn băng cassette quay rè rè và tiếng nút bấm máy quay cơ khí."
  },
  {
   "id": "2.09",
@@ -513,7 +598,7 @@
   "kind": "LOI",
   "role": "C",
   "direction": "giọng học thuật, mổ xẻ chứng cứ tâm lý video",
-  "text": "Đúng như vậy, việc dùng máy quay cầm tay để ghi lại từng thước phim giam cầm không hề phục vụ cho mục đích tẩu thoát của chúng. Đó là hành vi thuộc về “Signature” — dấu ấn tâm lý thỏa mãn cảm giác thống trị và chiếm hữu tuyệt đối. Chúng ép buộc các nạn nhân phải gọi chúng bằng những danh xưng phục tùng, biến nỗi đau của người khác thành những thước phim chiến lợi phẩm. Đối với Paul Bernardo, các cuộn băng là liều kích thích kích hoạt lại ảo tưởng vĩ cuồng mỗi khi hắn ngồi xem lại một mình. Còn đối với Karla Homolka, việc cầm máy quay là cách cô ta thể hiện sự gắn kết chặt chẽ với người bạn đời lệch lạc. Những cuộn băng ấy chính là chiếc chìa khóa duy nhất bóc trần bản chất thật của liên minh tội ác này.",
+  "text": "Đúng như vậy, việc dùng máy quay cầm tay để ghi lại từng thước phim giam cầm không hề phục vụ cho mục đích tẩu thoát của chúng. Đó là hành vi thuộc về “Signature” — dấu ấn tâm lý thỏa mãn cảm giác thống trị và chiếm hữu tuyệt đối. Chúng ép buộc các nạn nhân phải gọi chúng bằng những danh xưng phục tùng, biến nỗi đau của người khác thành những thước phim chiến lợi phẩm. Đối với Paul Bernardo, các cuộn băng là liều kích thích kích hoạt lại ảo tưởng vĩ cuồng mỗi khi hắn ngồi xem lại một mình. Còn đối với Karla Homolka, việc cầm máy quay là cách cô ta thể hiện sự gắn kết chặt chẽ với người bạn đời lệch lạc. Những cuộn băng ấy chính là chiếc chìa khóa duy nhất bóc trần bản chất thật của liên minh tội ác này. Về mặt khoa học hành vi, hành vi bắt buộc phải dùng máy quay cầm tay ghi lại toàn bộ quá trình phạm tội chính là một Chữ ký Tâm lý phản ánh sự lệch lạc nhân cách cùng cực. Đối với Paul Bernardo, chiếc máy quay không đơn thuần là công cụ lưu trữ; nó là một Chiến lợi phẩm Thần kinh. Kẻ mang cấu trúc ái kỷ bạo dâm luôn sống trong nỗi sợ hãi vô thức về sự bất lực của bản thân; việc xem lại những thước phim là cách hắn tái kích hoạt ảo tưởng quyền lực toàn năng mỗi khi đối diện với thực tại tầm thường. Còn đối với Karla Homolka, việc chủ động điều khiển góc quay và ra lệnh cho nạn nhân chính là bằng chứng đanh thép bóc trần sự tha hóa: Cô ta tìm thấy khoái cảm quyền lực khi được đứng ngang hàng với kẻ săn mồi để định đoạt số phận đồng loại.",
   "sentences": [
    {
     "id": "2.09#1",
@@ -544,6 +629,26 @@
     "id": "2.09#6",
     "text": "Những cuộn băng ấy chính là chiếc chìa khóa duy nhất bóc trần bản chất thật của liên minh tội ác này.",
     "words": 22
+   },
+   {
+    "id": "2.09#7",
+    "text": "Về mặt khoa học hành vi, hành vi bắt buộc phải dùng máy quay cầm tay ghi lại toàn bộ quá trình phạm tội chính là một Chữ ký Tâm lý phản ánh sự lệch lạc nhân cách cùng cực.",
+    "words": 40
+   },
+   {
+    "id": "2.09#8",
+    "text": "Đối với Paul Bernardo, chiếc máy quay không đơn thuần là công cụ lưu trữ; nó là một Chiến lợi phẩm Thần kinh.",
+    "words": 23
+   },
+   {
+    "id": "2.09#9",
+    "text": "Kẻ mang cấu trúc ái kỷ bạo dâm luôn sống trong nỗi sợ hãi vô thức về sự bất lực của bản thân; việc xem lại những thước phim là cách hắn tái kích hoạt ảo tưởng quyền lực toàn năng mỗi khi đối diện với thực tại tầm thường.",
+    "words": 50
+   },
+   {
+    "id": "2.09#10",
+    "text": "Còn đối với Karla Homolka, việc chủ động điều khiển góc quay và ra lệnh cho nạn nhân chính là bằng chứng đanh thép bóc trần sự tha hóa: Cô ta tìm thấy khoái cảm quyền lực khi được đứng ngang hàng với kẻ săn mồi để định đoạt số phận đồng loại.",
+    "words": 53
    }
   ]
  },
@@ -586,7 +691,7 @@
   "id": "2.11",
   "act": 2,
   "kind": "BGM",
-  "desc": "*Đoạn nhạc Cello u tối ngân lên một nốt trầm sâu lắng rồi chuyển dần sang tiếng Sub-bass ngột ngạt.*"
+  "desc": "Đoạn nhạc Cello u tối ngân lên một nốt trầm sâu lắng rồi chuyển dần sang tiếng Sub-bass ngột ngạt."
  },
  {
   "id": "2.12",
@@ -632,7 +737,7 @@
   "id": "3.01",
   "act": 3,
   "kind": "BGM",
-  "desc": "*Tiếng đàn Cello rải những nốt trầm ai oán, hòa cùng tiếng Sub-bass rền rĩ, tạo không gian u tối mang tính chất một ca phẫu thuật tâm lý học.*"
+  "desc": "Tiếng đàn Cello rải những nốt trầm ai oán, hòa cùng tiếng Sub-bass rền rĩ, tạo không gian u tối mang tính chất một ca phẫu thuật tâm lý học."
  },
  {
   "id": "3.02",
@@ -737,12 +842,12 @@
   "kind": "LOI",
   "role": "H",
   "direction": "trầm tư, đào sâu vào cơ chế vật hóa nạn nhân",
-  "text": "Sự cộng sinh độc hại này đã dẫn tới một hiện tượng tâm lý cực kỳ tàn nhẫn: Sự “vật hóa” nạn nhân. Trong mắt của cả Paul và Karla, những thiếu nữ ngây thơ kia bị nhìn nhận như thế nào, thưa chuyên gia? Tại sao Karla có thể nhẫn tâm đưa chính người em gái ruột thịt của mình vào chiếc bẫy oan nghiệt? Đó là câu hỏi khiến hàng triệu người dân Canada đau đớn và phẫn nộ suốt nhiều thập kỷ qua. Xin mời chuyên gia phân tích cơ chế nhận thức đen tối này.",
+  "text": "Sự cộng sinh độc hại này đã dẫn tới một hiện tượng tâm lý cực kỳ tàn nhẫn: “vật hóa” hoàn toàn nạn nhân. Trong mắt của cả Paul và Karla, những thiếu nữ ngây thơ kia bị nhìn nhận như thế nào, thưa chuyên gia? Tại sao Karla có thể nhẫn tâm đưa chính người em gái ruột thịt của mình vào chiếc bẫy oan nghiệt? Đó là câu hỏi khiến hàng triệu người dân Canada đau đớn và phẫn nộ suốt nhiều thập kỷ qua. Xin mời chuyên gia phân tích cơ chế nhận thức đen tối này.",
   "sentences": [
    {
     "id": "3.05#1",
-    "text": "Sự cộng sinh độc hại này đã dẫn tới một hiện tượng tâm lý cực kỳ tàn nhẫn: Sự “vật hóa” nạn nhân.",
-    "words": 23
+    "text": "Sự cộng sinh độc hại này đã dẫn tới một hiện tượng tâm lý cực kỳ tàn nhẫn: “vật hóa” hoàn toàn nạn nhân.",
+    "words": 24
    },
    {
     "id": "3.05#2",
@@ -772,7 +877,7 @@
   "kind": "LOI",
   "role": "C",
   "direction": "sắc bén, bóc trần sự vật hóa, chia ngăn và tự bào chữa",
-  "text": "Khái niệm cốt lõi ở đây chính là “vật hóa” và “phi nhân hóa” nạn nhân. Paul Bernardo xem các nạn nhân như những món đồ chơi dùng một lần để thỏa mãn cơn nghiện quyền lực và ảo tưởng tình dục. Còn đối với Karla Homolka, bi kịch nằm ở chỗ cô ta giáng cấp chính em gái mình thành một “vật hiến tế” để củng cố mối liên kết tình cảm với Paul. Karla hoàn toàn thiếu hụt “Thuyết tâm trí” đối với nỗi đau của người khác; tiếng khóc van xin không kích hoạt lòng trắc ẩn mà bị xem như trở ngại cần loại bỏ. Để duy trì cuộc sống thường nhật, Karla áp dụng triệt để cơ chế “Chia ngăn nhận thức”. Cô ta khóa chặt thế giới người vợ hiền yêu thương động vật ở một ngăn, và thế giới đồng lõa săn mồi ở một ngăn hoàn toàn biệt lập. Cuộc hôn nhân màu hồng và đám cưới cổ tích chính là “Lá chắn bình thường hóa” giúp cô ta tự huyễn hoặc về phẩm giá của bản thân. Cô ta sử dụng các kỹ thuật “Trung hòa đạo đức” để ru ngủ lương tri: tự nhủ rằng mình chỉ làm để làm vui lòng chồng và giữ gìn gia đình.",
+  "text": "Khái niệm cốt lõi ở đây chính là “vật hóa” và “phi nhân hóa” nạn nhân. Paul Bernardo xem các nạn nhân như những món đồ chơi dùng một lần để thỏa mãn cơn nghiện quyền lực và ảo tưởng tình dục. Còn đối với Karla Homolka, bi kịch nằm ở chỗ cô ta giáng cấp chính em gái mình thành một “vật hiến tế” để củng cố mối liên kết tình cảm với Paul. Karla hoàn toàn thiếu hụt “Thuyết tâm trí” đối với nỗi đau của người khác; tiếng khóc van xin không kích hoạt lòng trắc ẩn mà bị xem như trở ngại cần loại bỏ. Để duy trì cuộc sống thường nhật, Karla áp dụng triệt để cơ chế “Chia ngăn nhận thức”. Cô ta khóa chặt thế giới người vợ hiền yêu thương động vật ở một ngăn, và thế giới đồng lõa săn mồi ở một ngăn hoàn toàn biệt lập. Cuộc hôn nhân màu hồng và đám cưới cổ tích chính là “Lá chắn bình thường hóa” giúp cô ta tự huyễn hoặc về phẩm giá của bản thân. Cô ta sử dụng các kỹ thuật “Trung hòa đạo đức” để ru ngủ lương tri: tự nhủ rằng mình chỉ làm để làm vui lòng chồng và giữ gìn gia đình. Nhiều người không thể hiểu nổi: Làm sao một người chị gái có thể nhẫn tâm đưa chính em ruột của mình vào bẫy, rồi sau đó vẫn có thể thản nhiên dự đám tang và khóc lóc như một người chị chịu tang thương? Câu trả lời nằm ở cơ chế Chia ngăn Nhận thức Cực đoan kết hợp với Kỹ thuật Trung hòa Đạo đức. Trong não bộ của Karla Homolka, thế giới người vợ hiền yêu gia đình và thế giới đồng lõa săn mồi được ngăn cách bằng một bức tường thép bệnh lý. Cô ta tự ru ngủ lương tri bằng lập luận méo mó rằng: Hiến tế em gái Tammy là một hành động hy sinh cần thiết để xoa dịu cơn khát quyền lực của Paul và bảo vệ cuộc hôn nhân màu hồng của mình. Khi con người đặt sự lệ thuộc ái kỷ lên trên tình máu mủ và các chuẩn mực nhân tính tối thiểu, họ rơi vào một trạng thái Hôn mê Đạo đức hoàn toàn. Họ không còn nhìn thấy một sinh mệnh vô tội đang kêu cứu; họ chỉ nhìn thấy một vật cản hoặc một công cụ để phục vụ cho sự sinh tồn ích kỷ của bản ngã độc hại.",
   "sentences": [
    {
     "id": "3.06#1",
@@ -813,6 +918,36 @@
     "id": "3.06#8",
     "text": "Cô ta sử dụng các kỹ thuật “Trung hòa đạo đức” để ru ngủ lương tri: tự nhủ rằng mình chỉ làm để làm vui lòng chồng và giữ gìn gia đình.",
     "words": 32
+   },
+   {
+    "id": "3.06#9",
+    "text": "Nhiều người không thể hiểu nổi: Làm sao một người chị gái có thể nhẫn tâm đưa chính em ruột của mình vào bẫy, rồi sau đó vẫn có thể thản nhiên dự đám tang và khóc lóc như một người chị chịu tang thương?",
+    "words": 45
+   },
+   {
+    "id": "3.06#10",
+    "text": "Câu trả lời nằm ở cơ chế Chia ngăn Nhận thức Cực đoan kết hợp với Kỹ thuật Trung hòa Đạo đức.",
+    "words": 22
+   },
+   {
+    "id": "3.06#11",
+    "text": "Trong não bộ của Karla Homolka, thế giới người vợ hiền yêu gia đình và thế giới đồng lõa săn mồi được ngăn cách bằng một bức tường thép bệnh lý.",
+    "words": 31
+   },
+   {
+    "id": "3.06#12",
+    "text": "Cô ta tự ru ngủ lương tri bằng lập luận méo mó rằng: Hiến tế em gái Tammy là một hành động hy sinh cần thiết để xoa dịu cơn khát quyền lực của Paul và bảo vệ cuộc hôn nhân màu hồng của mình.",
+    "words": 45
+   },
+   {
+    "id": "3.06#13",
+    "text": "Khi con người đặt sự lệ thuộc ái kỷ lên trên tình máu mủ và các chuẩn mực nhân tính tối thiểu, họ rơi vào một trạng thái Hôn mê Đạo đức hoàn toàn.",
+    "words": 34
+   },
+   {
+    "id": "3.06#14",
+    "text": "Họ không còn nhìn thấy một sinh mệnh vô tội đang kêu cứu; họ chỉ nhìn thấy một vật cản hoặc một công cụ để phục vụ cho sự sinh tồn ích kỷ của bản ngã độc hại.",
+    "words": 38
    }
   ]
  },
@@ -820,7 +955,7 @@
   "id": "3.07",
   "act": 3,
   "kind": "SFX",
-  "desc": "*Tiếng gương kính vỡ vụn và tiếng kim loại va chạm khô khốc.*"
+  "desc": "Tiếng gương kính vỡ vụn và tiếng kim loại va chạm khô khốc."
  },
  {
   "id": "3.08",
@@ -911,7 +1046,7 @@
   "id": "3.10",
   "act": 3,
   "kind": "BGM",
-  "desc": "*Một nốt piano trầm buồn ngân vang rồi tắt lịm giữa không gian im ắng.*"
+  "desc": "Một nốt piano trầm buồn ngân vang rồi tắt lịm giữa không gian im ắng."
  },
  {
   "id": "3.11",
@@ -947,7 +1082,7 @@
   "id": "4.01",
   "act": 4,
   "kind": "BGM",
-  "desc": "*Âm thanh vĩ cầm dồn dập, giằng xé, tái hiện sự bàng hoàng và cuộc khủng hoảng tư pháp lịch sử.*"
+  "desc": "Âm thanh vĩ cầm dồn dập, giằng xé, tái hiện sự bàng hoàng và cuộc khủng hoảng tư pháp lịch sử."
  },
  {
   "id": "4.02",
@@ -993,7 +1128,7 @@
   "id": "4.03",
   "act": 4,
   "kind": "SFX",
-  "desc": "*Tiếng bút ký trên giấy tờ và tiếng đóng dấu tư pháp vang lên một tiếng cộp.*"
+  "desc": "Tiếng bút ký trên giấy tờ và tiếng đóng dấu tư pháp vang lên một tiếng cộp."
  },
  {
   "id": "4.04",
@@ -1057,33 +1192,33 @@
   "act": 4,
   "kind": "LOI",
   "role": "H",
-  "direction": "chuyển giọng bí ẩn, mở ra bước ngoặt 6 cuộn băng",
-  "text": "Thỏa thuận đã được tòa án phê chuẩn và bản án 12 năm đã chính thức có hiệu lực pháp lý. Karla trở thành nhân chứng vàng của cơ quan công tố trong phiên tòa xét xử người chồng cũ. Thế nhưng, số phận đã sắp đặt một bước ngoặt nghiệt ngã phơi bày toàn bộ sự thật đen tối ra trước ánh sáng. Mùa thu năm 1994, trong khi Paul Bernardo đang bị biệt giam chờ ngày xét xử, luật sư mới của hắn là ông John Rosen đã bàn giao cho cảnh sát một bọc tang vật chấn động. Đó là 6 cuốn băng video ghi hình bí mật được tìm thấy ngay trong ngôi nhà số 57 Bayview Drive.",
+  "direction": "giọng trang nghiêm, đặt câu hỏi bản chất về sự biến chuyển tâm lý",
+  "text": "Tại sao Karla Homolka lại khóc lóc nức nở trước các điều tra viên và tỏ ra ăn năn đến xé lòng khi ký bản thỏa thuận nhận tội năm 1993? Điều gì thực sự đã diễn ra bên trong tâm trí người đàn bà này? Tại sao lại hối hận? Đó là sự thức tỉnh lương tri của một nạn nhân bị bạo hành, hay là một màn kịch thao túng tâm lý lạnh lùng nhất lịch sử tư pháp? Bản chất của cơ chế tâm lý ở đây là gì, thưa chuyên gia?",
   "sentences": [
    {
     "id": "4.06#1",
-    "text": "Thỏa thuận đã được tòa án phê chuẩn và bản án 12 năm đã chính thức có hiệu lực pháp lý.",
-    "words": 21
+    "text": "Tại sao Karla Homolka lại khóc lóc nức nở trước các điều tra viên và tỏ ra ăn năn đến xé lòng khi ký bản thỏa thuận nhận tội năm 1993?",
+    "words": 31
    },
    {
     "id": "4.06#2",
-    "text": "Karla trở thành nhân chứng vàng của cơ quan công tố trong phiên tòa xét xử người chồng cũ.",
-    "words": 19
+    "text": "Điều gì thực sự đã diễn ra bên trong tâm trí người đàn bà này?",
+    "words": 15
    },
    {
     "id": "4.06#3",
-    "text": "Thế nhưng, số phận đã sắp đặt một bước ngoặt nghiệt ngã phơi bày toàn bộ sự thật đen tối ra trước ánh sáng.",
-    "words": 24
+    "text": "Tại sao lại hối hận?",
+    "words": 5
    },
    {
     "id": "4.06#4",
-    "text": "Mùa thu năm 1994, trong khi Paul Bernardo đang bị biệt giam chờ ngày xét xử, luật sư mới của hắn là ông John Rosen đã bàn giao cho cảnh sát một bọc tang vật chấn động.",
-    "words": 37
+    "text": "Đó là sự thức tỉnh lương tri của một nạn nhân bị bạo hành, hay là một màn kịch thao túng tâm lý lạnh lùng nhất lịch sử tư pháp?",
+    "words": 30
    },
    {
     "id": "4.06#5",
-    "text": "Đó là 6 cuốn băng video ghi hình bí mật được tìm thấy ngay trong ngôi nhà số 57 Bayview Drive.",
-    "words": 21
+    "text": "Bản chất của cơ chế tâm lý ở đây là gì, thưa chuyên gia?",
+    "words": 14
    }
   ]
  },
@@ -1091,39 +1226,54 @@
   "id": "4.07",
   "act": 4,
   "kind": "LOI",
-  "role": "D",
-  "direction": "lạnh lùng, tái hiện nguồn gốc tang vật và căn phòng tối công tố",
-  "text": "Sáu cuốn băng định mệnh này trước đó đã được Paul Bernardo giấu kín phía sau chiếc hộp đèn gắn trên trần phòng tắm của ngôi nhà. Luật sư ban đầu của Paul là Ken Murray đã tìm thấy chúng từ tháng 5 năm 1993 nhưng đã bí mật cất giấu suốt 17 tháng vì lo ngại chúng sẽ hủy hoại thân chủ mình. Chỉ khi Paul Bernardo quyết định thay đổi luật sư bào chữa, những cuốn băng này mới được giao nộp cho cơ quan điều tra. Khi chiếc máy chiếu được bật lên trong căn phòng họp kín của cơ quan công tố, toàn bộ không gian rơi vào một sự câm lặng kinh hoàng. Những gì hiện lên trên màn hình đã đánh sập hoàn toàn vở kịch dối trá mà Karla Homolka dày công dàn dựng. Hãy lắng nghe nỗi uất nghẹn của những người từng tin vào sự vô tội của cô ta.",
+  "role": "C",
+  "direction": "bóc tách rạch ròi bản chất hối hận toan tính vs. hối hận chân thực",
+  "text": "Đây chính là bài toán hóc búa nhất của tâm lý học pháp y. Chúng ta phải phân định rạch ròi giữa hai khái niệm: Hối hận Chân thực và Thao túng Đóng vai Nạn nhân. Ở những vụ án khác, người đồng phạm khi thoát khỏi kẻ thao túng thường trải qua Chấn thương Đạo đức – họ suy sụp vì ghê tởm hành vi của chính mình và chấp nhận sự trừng phạt của pháp luật. Nhưng ở Karla Homolka, các chuyên gia hành vi nhận diện đây là một ca lâm sàng điển hình của Thái nhân cách Nữ giới kết hợp Ái kỷ Ác tính. Những giọt nước mắt của cô ta tại bàn đàm phán năm 1993 hoàn toàn không phải khóc cho sinh mệnh của Tammy, Leslie hay Kristen. Đó là Sự Tự thương hại Bệnh lý – cô ta khóc vì nỗi sợ hãi bản thân phải đối diện với án tù chung thân sau khi trận đòn bằng đèn pin của Paul làm sụp đổ ảo tưởng tình yêu. Cô ta nắm bắt rất nhanh điểm yếu của hệ thống tư pháp: Xã hội luôn sẵn lòng bao dung cho một người phụ nữ trẻ đẹp mang vết thương thể xác. Bằng cách khoác lên mình chiếc áo Hội chứng Người phụ nữ bị Bạo hành, cô ta đã biến toàn bộ hành vi đồng lõa chủ động thành sự cưỡng bức không thể chống cự. Sự hối hận của Karla chỉ là một nước cờ toan tính để mua lấy chiếc vé tự do với cái giá mười hai năm tù.",
   "sentences": [
    {
     "id": "4.07#1",
-    "text": "Sáu cuốn băng định mệnh này trước đó đã được Paul Bernardo giấu kín phía sau chiếc hộp đèn gắn trên trần phòng tắm của ngôi nhà.",
-    "words": 27
+    "text": "Đây chính là bài toán hóc búa nhất của tâm lý học pháp y.",
+    "words": 14
    },
    {
     "id": "4.07#2",
-    "text": "Luật sư ban đầu của Paul là Ken Murray đã tìm thấy chúng từ tháng 5 năm 1993 nhưng đã bí mật cất giấu suốt 17 tháng vì lo ngại chúng sẽ hủy hoại thân chủ mình.",
-    "words": 37
+    "text": "Chúng ta phải phân định rạch ròi giữa hai khái niệm: Hối hận Chân thực và Thao túng Đóng vai Nạn nhân.",
+    "words": 22
    },
    {
     "id": "4.07#3",
-    "text": "Chỉ khi Paul Bernardo quyết định thay đổi luật sư bào chữa, những cuốn băng này mới được giao nộp cho cơ quan điều tra.",
-    "words": 25
+    "text": "Ở những vụ án khác, người đồng phạm khi thoát khỏi kẻ thao túng thường trải qua Chấn thương Đạo đức – họ suy sụp vì ghê tởm hành vi của chính mình và chấp nhận sự trừng phạt của pháp luật.",
+    "words": 42
    },
    {
     "id": "4.07#4",
-    "text": "Khi chiếc máy chiếu được bật lên trong căn phòng họp kín của cơ quan công tố, toàn bộ không gian rơi vào một sự câm lặng kinh hoàng.",
-    "words": 29
+    "text": "Nhưng ở Karla Homolka, các chuyên gia hành vi nhận diện đây là một ca lâm sàng điển hình của Thái nhân cách Nữ giới kết hợp Ái kỷ Ác tính.",
+    "words": 31
    },
    {
     "id": "4.07#5",
-    "text": "Những gì hiện lên trên màn hình đã đánh sập hoàn toàn vở kịch dối trá mà Karla Homolka dày công dàn dựng.",
-    "words": 23
+    "text": "Những giọt nước mắt của cô ta tại bàn đàm phán năm 1993 hoàn toàn không phải khóc cho sinh mệnh của Tammy, Leslie hay Kristen.",
+    "words": 26
    },
    {
     "id": "4.07#6",
-    "text": "Hãy lắng nghe nỗi uất nghẹn của những người từng tin vào sự vô tội của cô ta.",
-    "words": 18
+    "text": "Đó là Sự Tự thương hại Bệnh lý – cô ta khóc vì nỗi sợ hãi bản thân phải đối diện với án tù chung thân sau khi trận đòn bằng đèn pin của Paul làm sụp đổ ảo tưởng tình yêu.",
+    "words": 42
+   },
+   {
+    "id": "4.07#7",
+    "text": "Cô ta nắm bắt rất nhanh điểm yếu của hệ thống tư pháp: Xã hội luôn sẵn lòng bao dung cho một người phụ nữ trẻ đẹp mang vết thương thể xác.",
+    "words": 32
+   },
+   {
+    "id": "4.07#8",
+    "text": "Bằng cách khoác lên mình chiếc áo Hội chứng Người phụ nữ bị Bạo hành, cô ta đã biến toàn bộ hành vi đồng lõa chủ động thành sự cưỡng bức không thể chống cự.",
+    "words": 35
+   },
+   {
+    "id": "4.07#9",
+    "text": "Sự hối hận của Karla chỉ là một nước cờ toan tính để mua lấy chiếc vé tự do với cái giá mười hai năm tù.",
+    "words": 26
    }
   ]
  },
@@ -1131,90 +1281,109 @@
   "id": "4.08",
   "act": 4,
   "kind": "LOI",
-  "role": "N",
-  "direction": "N2: Nhân viên điều tra / Công tố viên, giọng nam trung niên uất nghẹn, cay đắng",
-  "text": "Hãy hình dung cảm giác cay đắng tột cùng của những người làm công tố khi ngồi trong căn phòng tối ngày hôm đó. Chúng tôi từng tin vào những giọt nước mắt của một người phụ nữ run rẩy nói rằng mình bị ép buộc. Nhưng những cuốn băng cho thấy Karla tham gia một cách chủ động, thậm chí cười đùa và đưa ra những chỉ dẫn lạnh lùng cho Paul. Cô ta không hề bị đe dọa, cô ta là một kẻ đồng lõa tàn nhẫn và say mê với tội ác. Giây phút ấy, chúng tôi hiểu rằng mình đã ký một bản hợp đồng nhượng bộ với chính quỷ dữ.",
+  "role": "D",
+  "direction": "tiếp nối góc nhìn về sự giằng xé đạo đức của người nắm giữ chứng cứ",
+  "text": "Và bi kịch tư pháp ấy càng trở nên nghiệt ngã hơn bởi sự giằng xé lương tâm của những người nắm giữ sự thật. Khi luật sư Ken Murray tìm thấy sáu cuốn băng trên trần nhà vào tháng 5 năm 1993, ông đã rơi vào một chiếc bẫy đạo đức nghề nghiệp khủng khiếp. Một bên là đặc quyền bảo mật giữa luật sư và thân chủ, một bên là lương tri con người khi chứng kiến một kẻ đồng phạm máu lạnh đang dắt mũi toàn bộ cơ quan công tố. Việc ông cất giấu sáu cuốn băng suốt mười bảy tháng trong két sắt đã vô tình tạo điều kiện cho bản Thỏa thuận với Quỷ dữ được đóng dấu phê chuẩn. Đó là bài học cay đắng cho thấy: Khi các quy tắc kỹ thuật của luật pháp bị ngắt kết nối khỏi lương tri và sự thật khách quan, công lý sẽ trở thành nạn nhân của chính những kẻ thủ ác.",
   "sentences": [
    {
     "id": "4.08#1",
-    "text": "Hãy hình dung cảm giác cay đắng tột cùng của những người làm công tố khi ngồi trong căn phòng tối ngày hôm đó.",
-    "words": 24
+    "text": "Và bi kịch tư pháp ấy càng trở nên nghiệt ngã hơn bởi sự giằng xé lương tâm của những người nắm giữ sự thật.",
+    "words": 25
    },
    {
     "id": "4.08#2",
-    "text": "Chúng tôi từng tin vào những giọt nước mắt của một người phụ nữ run rẩy nói rằng mình bị ép buộc.",
-    "words": 22
+    "text": "Khi luật sư Ken Murray tìm thấy sáu cuốn băng trên trần nhà vào tháng 5 năm 1993, ông đã rơi vào một chiếc bẫy đạo đức nghề nghiệp khủng khiếp.",
+    "words": 31
    },
    {
     "id": "4.08#3",
-    "text": "Nhưng những cuốn băng cho thấy Karla tham gia một cách chủ động, thậm chí cười đùa và đưa ra những chỉ dẫn lạnh lùng cho Paul.",
-    "words": 27
+    "text": "Một bên là đặc quyền bảo mật giữa luật sư và thân chủ, một bên là lương tri con người khi chứng kiến một kẻ đồng phạm máu lạnh đang dắt mũi toàn bộ cơ quan công tố.",
+    "words": 38
    },
    {
     "id": "4.08#4",
-    "text": "Cô ta không hề bị đe dọa, cô ta là một kẻ đồng lõa tàn nhẫn và say mê với tội ác.",
-    "words": 22
+    "text": "Việc ông cất giấu sáu cuốn băng suốt mười bảy tháng trong két sắt đã vô tình tạo điều kiện cho bản Thỏa thuận với Quỷ dữ được đóng dấu phê chuẩn.",
+    "words": 32
    },
    {
     "id": "4.08#5",
-    "text": "Giây phút ấy, chúng tôi hiểu rằng mình đã ký một bản hợp đồng nhượng bộ với chính quỷ dữ.",
-    "words": 20
+    "text": "Đó là bài học cay đắng cho thấy: Khi các quy tắc kỹ thuật của luật pháp bị ngắt kết nối khỏi lương tri và sự thật khách quan, công lý sẽ trở thành nạn nhân của chính những kẻ thủ ác.",
+    "words": 42
    }
   ]
  },
  {
   "id": "4.09",
   "act": 4,
-  "kind": "SFX",
-  "desc": "*Tiếng cuộn băng tua nhanh kêu rít lên và tiếng đập bàn phẫn nộ vang lên rầm.*"
+  "kind": "LOI",
+  "role": "H",
+  "direction": "chuyển giọng bí ẩn, mở ra bước ngoặt 6 cuộn băng",
+  "text": "Thỏa thuận đã được tòa án phê chuẩn và bản án 12 năm đã chính thức có hiệu lực pháp lý. Karla trở thành nhân chứng vàng của cơ quan công tố trong phiên tòa xét xử người chồng cũ. Thế nhưng, số phận đã sắp đặt một bước ngoặt nghiệt ngã phơi bày toàn bộ sự thật đen tối ra trước ánh sáng. Mùa thu năm 1994, trong khi Paul Bernardo đang bị biệt giam chờ ngày xét xử, luật sư mới của hắn là ông John Rosen đã bàn giao cho cảnh sát một bọc tang vật chấn động. Đó là 6 cuốn băng video ghi hình bí mật được tìm thấy ngay trong ngôi nhà số 57 Bayview Drive.",
+  "sentences": [
+   {
+    "id": "4.09#1",
+    "text": "Thỏa thuận đã được tòa án phê chuẩn và bản án 12 năm đã chính thức có hiệu lực pháp lý.",
+    "words": 21
+   },
+   {
+    "id": "4.09#2",
+    "text": "Karla trở thành nhân chứng vàng của cơ quan công tố trong phiên tòa xét xử người chồng cũ.",
+    "words": 19
+   },
+   {
+    "id": "4.09#3",
+    "text": "Thế nhưng, số phận đã sắp đặt một bước ngoặt nghiệt ngã phơi bày toàn bộ sự thật đen tối ra trước ánh sáng.",
+    "words": 24
+   },
+   {
+    "id": "4.09#4",
+    "text": "Mùa thu năm 1994, trong khi Paul Bernardo đang bị biệt giam chờ ngày xét xử, luật sư mới của hắn là ông John Rosen đã bàn giao cho cảnh sát một bọc tang vật chấn động.",
+    "words": 37
+   },
+   {
+    "id": "4.09#5",
+    "text": "Đó là 6 cuốn băng video ghi hình bí mật được tìm thấy ngay trong ngôi nhà số 57 Bayview Drive.",
+    "words": 21
+   }
+  ]
  },
  {
   "id": "4.10",
   "act": 4,
   "kind": "LOI",
-  "role": "C",
-  "direction": "học thuật, mổ xẻ hiện tượng Thao túng đóng vai nạn nhân",
-  "text": "Sáu cuốn băng trên trần nhà chính là sự sụp đổ hoàn toàn của chiếc mặt nạ nạn nhân. Về mặt tâm lý học hành vi, Karla Homolka đã thực hiện một chiến lược “Thao túng đóng vai nạn nhân” ở cấp độ thượng thừa. Cô ta hiểu rất rõ điểm mù lớn nhất của lòng trắc ẩn con người: xã hội thường mặc định phụ nữ trẻ đẹp luôn là nạn nhân chứ không thể là kẻ chủ mưu tàn ác. Bằng cách lợi dụng vụ việc do Paul gây ra vào tháng 1 năm 1993, cô ta đã khéo léo biến toàn bộ quá khứ của mình thành hệ quả của sự cưỡng ép. Nhưng những thước phim chân thực đã bóc trần sự thật: cô ta không hề chịu sự tê liệt nhận thức của “Hội chứng Người phụ nữ bị Bạo hành”. Karla hoàn toàn tỉnh táo, có năng lực phán đoán và thể hiện sự thỏa mãn quyền lực tàn bạo khi chà đạp lên đồng loại. Đó không phải là nỗi sợ hãi, mà là sự tính toán lạnh lùng của một nhân cách thái nhân cách ngụy trang hoàn hảo. Nước mắt của cô ta chỉ là công cụ để mua chuộc lòng thương hại và trốn tránh bản án chung thân.",
+  "role": "D",
+  "direction": "lạnh lùng, tái hiện nguồn gốc tang vật và căn phòng tối công tố",
+  "text": "Sáu cuốn băng định mệnh này trước đó đã được Paul Bernardo giấu kín phía sau chiếc hộp đèn gắn trên trần phòng tắm của ngôi nhà. Luật sư ban đầu của Paul là Ken Murray đã tìm thấy chúng từ tháng 5 năm 1993 nhưng đã bí mật cất giấu suốt 17 tháng vì lo ngại chúng sẽ hủy hoại thân chủ mình. Chỉ khi Paul Bernardo quyết định thay đổi luật sư bào chữa, những cuốn băng này mới được giao nộp cho cơ quan điều tra. Khi chiếc máy chiếu được bật lên trong căn phòng họp kín của cơ quan công tố, toàn bộ không gian rơi vào một sự câm lặng kinh hoàng. Những gì hiện lên trên màn hình đã đánh sập hoàn toàn vở kịch dối trá mà Karla Homolka dày công dàn dựng. Hãy lắng nghe nỗi uất nghẹn của những người từng tin vào sự vô tội của cô ta.",
   "sentences": [
    {
     "id": "4.10#1",
-    "text": "Sáu cuốn băng trên trần nhà chính là sự sụp đổ hoàn toàn của chiếc mặt nạ nạn nhân.",
-    "words": 19
+    "text": "Sáu cuốn băng định mệnh này trước đó đã được Paul Bernardo giấu kín phía sau chiếc hộp đèn gắn trên trần phòng tắm của ngôi nhà.",
+    "words": 27
    },
    {
     "id": "4.10#2",
-    "text": "Về mặt tâm lý học hành vi, Karla Homolka đã thực hiện một chiến lược “Thao túng đóng vai nạn nhân” ở cấp độ thượng thừa.",
-    "words": 26
-   },
-   {
-    "id": "4.10#3",
-    "text": "Cô ta hiểu rất rõ điểm mù lớn nhất của lòng trắc ẩn con người: xã hội thường mặc định phụ nữ trẻ đẹp luôn là nạn nhân chứ không thể là kẻ chủ mưu tàn ác.",
+    "text": "Luật sư ban đầu của Paul là Ken Murray đã tìm thấy chúng từ tháng 5 năm 1993 nhưng đã bí mật cất giấu suốt 17 tháng vì lo ngại chúng sẽ hủy hoại thân chủ mình.",
     "words": 37
    },
    {
-    "id": "4.10#4",
-    "text": "Bằng cách lợi dụng vụ việc do Paul gây ra vào tháng 1 năm 1993, cô ta đã khéo léo biến toàn bộ quá khứ của mình thành hệ quả của sự cưỡng ép.",
-    "words": 34
-   },
-   {
-    "id": "4.10#5",
-    "text": "Nhưng những thước phim chân thực đã bóc trần sự thật: cô ta không hề chịu sự tê liệt nhận thức của “Hội chứng Người phụ nữ bị Bạo hành”.",
-    "words": 30
-   },
-   {
-    "id": "4.10#6",
-    "text": "Karla hoàn toàn tỉnh táo, có năng lực phán đoán và thể hiện sự thỏa mãn quyền lực tàn bạo khi chà đạp lên đồng loại.",
-    "words": 26
-   },
-   {
-    "id": "4.10#7",
-    "text": "Đó không phải là nỗi sợ hãi, mà là sự tính toán lạnh lùng của một nhân cách thái nhân cách ngụy trang hoàn hảo.",
+    "id": "4.10#3",
+    "text": "Chỉ khi Paul Bernardo quyết định thay đổi luật sư bào chữa, những cuốn băng này mới được giao nộp cho cơ quan điều tra.",
     "words": 25
    },
    {
-    "id": "4.10#8",
-    "text": "Nước mắt của cô ta chỉ là công cụ để mua chuộc lòng thương hại và trốn tránh bản án chung thân.",
-    "words": 22
+    "id": "4.10#4",
+    "text": "Khi chiếc máy chiếu được bật lên trong căn phòng họp kín của cơ quan công tố, toàn bộ không gian rơi vào một sự câm lặng kinh hoàng.",
+    "words": 29
+   },
+   {
+    "id": "4.10#5",
+    "text": "Những gì hiện lên trên màn hình đã đánh sập hoàn toàn vở kịch dối trá mà Karla Homolka dày công dàn dựng.",
+    "words": 23
+   },
+   {
+    "id": "4.10#6",
+    "text": "Hãy lắng nghe nỗi uất nghẹn của những người từng tin vào sự vô tội của cô ta.",
+    "words": 18
    }
   ]
  },
@@ -1222,53 +1391,144 @@
   "id": "4.11",
   "act": 4,
   "kind": "LOI",
-  "role": "H",
-  "direction": "đanh thép, tái hiện cơn bão dư luận và bế tắc tư pháp",
-  "text": "Một làn sóng thịnh nộ dữ dội chưa từng có bùng nổ khắp đất nước Canada khi thông tin về những cuốn băng bị rò rỉ. Hàng trăm ngàn người dân đã ký tên vào các bản kiến nghị đòi hủy bỏ thỏa thuận nhận tội và truy tố Karla Homolka tội giết người cấp độ một. Thế nhưng, nền tư pháp Canada lúc bấy giờ đã rơi vào một cái bẫy pháp lý bế tắc do chính mình tạo ra. Theo nguyên tắc bảo vệ quyền tố tụng và các điều khoản miễn trừ đã được tòa án đóng dấu, cơ quan công tố không thể đơn phương xé bỏ bản thỏa thuận khi Karla không vi phạm lời khai. Bản án 12 năm tù của người đàn bà trong ngôi nhà màu hồng vẫn được pháp luật bảo vệ nguyên vẹn. Trong khi đó, ngày 1 tháng 9 năm 1995, Paul Bernardo chính thức nhận phán quyết cuối cùng của công lý.",
+  "role": "N",
+  "direction": "N2: Nhân viên điều tra / Công tố viên, giọng nam trung niên uất nghẹn, cay đắng",
+  "text": "Hãy hình dung cảm giác cay đắng tột cùng của những người làm công tố khi ngồi trong căn phòng tối ngày hôm đó. Chúng tôi từng tin vào những giọt nước mắt của một người phụ nữ run rẩy nói rằng mình bị ép buộc. Nhưng những cuốn băng cho thấy Karla tham gia một cách chủ động, thậm chí cười đùa và đưa ra những chỉ dẫn lạnh lùng cho Paul. Cô ta không hề bị đe dọa, cô ta là một kẻ đồng lõa tàn nhẫn và say mê với tội ác. Giây phút ấy, chúng tôi hiểu rằng mình đã ký một bản hợp đồng nhượng bộ với chính quỷ dữ.",
   "sentences": [
    {
     "id": "4.11#1",
-    "text": "Một làn sóng thịnh nộ dữ dội chưa từng có bùng nổ khắp đất nước Canada khi thông tin về những cuốn băng bị rò rỉ.",
-    "words": 26
-   },
-   {
-    "id": "4.11#2",
-    "text": "Hàng trăm ngàn người dân đã ký tên vào các bản kiến nghị đòi hủy bỏ thỏa thuận nhận tội và truy tố Karla Homolka tội giết người cấp độ một.",
-    "words": 31
-   },
-   {
-    "id": "4.11#3",
-    "text": "Thế nhưng, nền tư pháp Canada lúc bấy giờ đã rơi vào một cái bẫy pháp lý bế tắc do chính mình tạo ra.",
+    "text": "Hãy hình dung cảm giác cay đắng tột cùng của những người làm công tố khi ngồi trong căn phòng tối ngày hôm đó.",
     "words": 24
    },
    {
-    "id": "4.11#4",
-    "text": "Theo nguyên tắc bảo vệ quyền tố tụng và các điều khoản miễn trừ đã được tòa án đóng dấu, cơ quan công tố không thể đơn phương xé bỏ bản thỏa thuận khi Karla không vi phạm lời khai.",
-    "words": 40
-   },
-   {
-    "id": "4.11#5",
-    "text": "Bản án 12 năm tù của người đàn bà trong ngôi nhà màu hồng vẫn được pháp luật bảo vệ nguyên vẹn.",
+    "id": "4.11#2",
+    "text": "Chúng tôi từng tin vào những giọt nước mắt của một người phụ nữ run rẩy nói rằng mình bị ép buộc.",
     "words": 22
    },
    {
-    "id": "4.11#6",
-    "text": "Trong khi đó, ngày 1 tháng 9 năm 1995, Paul Bernardo chính thức nhận phán quyết cuối cùng của công lý.",
-    "words": 21
+    "id": "4.11#3",
+    "text": "Nhưng những cuốn băng cho thấy Karla tham gia một cách chủ động, thậm chí cười đùa và đưa ra những chỉ dẫn lạnh lùng cho Paul.",
+    "words": 27
+   },
+   {
+    "id": "4.11#4",
+    "text": "Cô ta không hề bị đe dọa, cô ta là một kẻ đồng lõa tàn nhẫn và say mê với tội ác.",
+    "words": 22
+   },
+   {
+    "id": "4.11#5",
+    "text": "Giây phút ấy, chúng tôi hiểu rằng mình đã ký một bản hợp đồng nhượng bộ với chính quỷ dữ.",
+    "words": 20
    }
   ]
  },
  {
   "id": "4.12",
   "act": 4,
+  "kind": "SFX",
+  "desc": "Tiếng cuộn băng tua nhanh kêu rít lên và tiếng đập bàn phẫn nộ vang lên rầm."
+ },
+ {
+  "id": "4.13",
+  "act": 4,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "học thuật, mổ xẻ hiện tượng Thao túng đóng vai nạn nhân",
+  "text": "Sáu cuốn băng trên trần nhà chính là sự sụp đổ hoàn toàn của chiếc mặt nạ nạn nhân. Về mặt tâm lý học hành vi, Karla Homolka đã thực hiện một chiến lược “Thao túng đóng vai nạn nhân” ở cấp độ thượng thừa. Cô ta hiểu rất rõ điểm mù lớn nhất của lòng trắc ẩn con người: xã hội thường mặc định phụ nữ trẻ đẹp luôn là nạn nhân chứ không thể là kẻ chủ mưu tàn ác. Bằng cách lợi dụng vụ việc do Paul gây ra vào tháng 1 năm 1993, cô ta đã khéo léo biến toàn bộ quá khứ của mình thành hệ quả của sự cưỡng ép. Nhưng những thước phim chân thực đã bóc trần sự thật: cô ta không hề chịu sự tê liệt nhận thức của “Hội chứng Người phụ nữ bị Bạo hành”. Karla hoàn toàn tỉnh táo, có năng lực phán đoán và thể hiện sự thỏa mãn quyền lực tàn bạo khi chà đạp lên đồng loại. Đó không phải là nỗi sợ hãi, mà là sự tính toán lạnh lùng của một nhân cách thái nhân cách ngụy trang hoàn hảo. Nước mắt của cô ta chỉ là công cụ để mua chuộc lòng thương hại và trốn tránh bản án chung thân.",
+  "sentences": [
+   {
+    "id": "4.13#1",
+    "text": "Sáu cuốn băng trên trần nhà chính là sự sụp đổ hoàn toàn của chiếc mặt nạ nạn nhân.",
+    "words": 19
+   },
+   {
+    "id": "4.13#2",
+    "text": "Về mặt tâm lý học hành vi, Karla Homolka đã thực hiện một chiến lược “Thao túng đóng vai nạn nhân” ở cấp độ thượng thừa.",
+    "words": 26
+   },
+   {
+    "id": "4.13#3",
+    "text": "Cô ta hiểu rất rõ điểm mù lớn nhất của lòng trắc ẩn con người: xã hội thường mặc định phụ nữ trẻ đẹp luôn là nạn nhân chứ không thể là kẻ chủ mưu tàn ác.",
+    "words": 37
+   },
+   {
+    "id": "4.13#4",
+    "text": "Bằng cách lợi dụng vụ việc do Paul gây ra vào tháng 1 năm 1993, cô ta đã khéo léo biến toàn bộ quá khứ của mình thành hệ quả của sự cưỡng ép.",
+    "words": 34
+   },
+   {
+    "id": "4.13#5",
+    "text": "Nhưng những thước phim chân thực đã bóc trần sự thật: cô ta không hề chịu sự tê liệt nhận thức của “Hội chứng Người phụ nữ bị Bạo hành”.",
+    "words": 30
+   },
+   {
+    "id": "4.13#6",
+    "text": "Karla hoàn toàn tỉnh táo, có năng lực phán đoán và thể hiện sự thỏa mãn quyền lực tàn bạo khi chà đạp lên đồng loại.",
+    "words": 26
+   },
+   {
+    "id": "4.13#7",
+    "text": "Đó không phải là nỗi sợ hãi, mà là sự tính toán lạnh lùng của một nhân cách thái nhân cách ngụy trang hoàn hảo.",
+    "words": 25
+   },
+   {
+    "id": "4.13#8",
+    "text": "Nước mắt của cô ta chỉ là công cụ để mua chuộc lòng thương hại và trốn tránh bản án chung thân.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "4.14",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "đanh thép, tái hiện cơn bão dư luận và bế tắc tư pháp",
+  "text": "Một làn sóng thịnh nộ dữ dội chưa từng có bùng nổ khắp đất nước Canada khi thông tin về những cuốn băng bị rò rỉ. Hàng trăm ngàn người dân đã ký tên vào các bản kiến nghị đòi hủy bỏ thỏa thuận nhận tội và truy tố Karla Homolka tội giết người cấp độ một. Thế nhưng, nền tư pháp Canada lúc bấy giờ đã rơi vào một cái bẫy pháp lý bế tắc do chính mình tạo ra. Theo nguyên tắc bảo vệ quyền tố tụng và các điều khoản miễn trừ đã được tòa án đóng dấu, cơ quan công tố không thể đơn phương xé bỏ bản thỏa thuận khi Karla không vi phạm lời khai. Bản án 12 năm tù của người đàn bà trong ngôi nhà màu hồng vẫn được pháp luật bảo vệ nguyên vẹn. Trong khi đó, ngày 1 tháng 9 năm 1995, Paul Bernardo chính thức nhận phán quyết cuối cùng của công lý.",
+  "sentences": [
+   {
+    "id": "4.14#1",
+    "text": "Một làn sóng thịnh nộ dữ dội chưa từng có bùng nổ khắp đất nước Canada khi thông tin về những cuốn băng bị rò rỉ.",
+    "words": 26
+   },
+   {
+    "id": "4.14#2",
+    "text": "Hàng trăm ngàn người dân đã ký tên vào các bản kiến nghị đòi hủy bỏ thỏa thuận nhận tội và truy tố Karla Homolka tội giết người cấp độ một.",
+    "words": 31
+   },
+   {
+    "id": "4.14#3",
+    "text": "Thế nhưng, nền tư pháp Canada lúc bấy giờ đã rơi vào một cái bẫy pháp lý bế tắc do chính mình tạo ra.",
+    "words": 24
+   },
+   {
+    "id": "4.14#4",
+    "text": "Theo nguyên tắc bảo vệ quyền tố tụng và các điều khoản miễn trừ đã được tòa án đóng dấu, cơ quan công tố không thể đơn phương xé bỏ bản thỏa thuận khi Karla không vi phạm lời khai.",
+    "words": 40
+   },
+   {
+    "id": "4.14#5",
+    "text": "Bản án 12 năm tù của người đàn bà trong ngôi nhà màu hồng vẫn được pháp luật bảo vệ nguyên vẹn.",
+    "words": 22
+   },
+   {
+    "id": "4.14#6",
+    "text": "Trong khi đó, ngày 1 tháng 9 năm 1995, Paul Bernardo chính thức nhận phán quyết cuối cùng của công lý.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "4.15",
+  "act": 4,
   "kind": "BGM",
-  "desc": "*Một đoạn violin giằng xé ngân vang rồi chìm dần vào tiếng chuông điểm nhịp lạnh lẽo.*"
+  "desc": "Một đoạn violin giằng xé ngân vang rồi chìm dần vào tiếng chuông điểm nhịp lạnh lẽo."
  },
  {
   "id": "5.01",
   "act": 5,
   "kind": "BGM",
-  "desc": "*Tiếng búa tòa án gõ vang vọng trong không gian phòng xử án trang nghiêm, tiếp sau là tiếng đàn Piano trầm lắng, sâu sắc và đầy tính thức tỉnh.*"
+  "desc": "Tiếng búa tòa án gõ vang vọng trong không gian phòng xử án trang nghiêm, tiếp sau là tiếng đàn Piano trầm lắng, sâu sắc và đầy tính thức tỉnh."
  },
  {
   "id": "5.02",
@@ -1326,120 +1586,190 @@
   "id": "5.04",
   "act": 5,
   "kind": "LOI",
-  "role": "D",
-  "direction": "lạnh lùng, điểm lại di chứng tự do của Karla và cải cách tư pháp lịch sử",
-  "text": "Ngày 4 tháng 7 năm 2005, sau khi chấp hành trọn vẹn 12 năm tù giam, Karla Homolka chính thức bước qua cánh cổng nhà tù ở tuổi 35. Sự kiện này đã thổi bùng một cơn bão biểu tình và sự phẫn nộ dữ dội trên khắp các đường phố Canada. Các bậc phụ huynh và gia đình nạn nhân mang theo di ảnh của Leslie Mahaffy và Kristen French, giăng biểu ngữ phản đối sự bất công của thỏa thuận tư pháp. Để có thể tồn tại, Karla Homolka phải đổi tên thành Leanne Bordelais, trốn chạy sang vùng biển Caribbean rồi quay về một thị trấn nhỏ ở tỉnh Quebec. Nhưng bất cứ nơi nào dấu vết của cô ta bị phát hiện, làn sóng tẩy chay và phẫn nộ của cộng đồng lại bùng phát mạnh mẽ. Về mặt pháp lý, vụ án này đã thúc đẩy chính quyền tỉnh Ontario tiến hành hai cuộc điều tra độc lập mang tính lịch sử. Báo cáo của cựu Thẩm phán Patrick Galligan đã mổ xẻ toàn diện quy trình công tố và những thiếu sót chí mạng trong việc ký kết thỏa thuận nhận tội. Trong khi đó, Báo cáo mang tính bước ngoặt của Thẩm phán Archie Campbell đã chỉ ra sự tắc nghẽn thông tin giữa các sở cảnh sát, dẫn tới cuộc đại cải tổ hệ thống phân tích liên kết tội phạm bạo lực ViCLAS trên toàn quốc. Đó là những cải cách tư pháp đắt giá được đánh đổi bằng nỗi đau tột cùng của các gia đình nạn nhân.",
+  "role": "H",
+  "direction": "giọng trang nghiêm, xúc động, tôn vinh gia đình nạn nhân",
+  "text": "Nhưng ngay cả khi bản hợp đồng tư pháp cay đắng ấy không thể đảo ngược, sức mạnh của tình phụ tử và mẫu tử thiêng liêng đã viết nên một trang sử quật cường. Ông bà Doug và Donna French – cha mẹ của nữ sinh Kristen French – đã không gục ngã trước nỗi đau xé lòng. Họ đã kiên cường đứng lên, biến nỗi mất mát tột cùng thành một cuộc chiến pháp lý bền bỉ để bảo vệ phẩm giá cho con gái mình và tất cả các nạn nhân. Họ đã đấu tranh đến cùng để niêm phong và tiêu hủy vĩnh viễn những cuốn băng tang vật, kiên quyết không để nỗi đau của các em bị biến thành thứ giải trí tò mò của dư luận. Đồng thời, sự ra đời của Trung tâm Bảo trợ Trẻ em mang tên Kristen French tại vùng Niagara đã trở thành mái ấm chữa lành cho hàng ngàn đứa trẻ tổn thương suốt nhiều thập kỷ qua. Đó là sự chiến thắng vĩ đại của tình yêu thương trước bóng tối của sự hủy diệt.",
   "sentences": [
    {
     "id": "5.04#1",
-    "text": "Ngày 4 tháng 7 năm 2005, sau khi chấp hành trọn vẹn 12 năm tù giam, Karla Homolka chính thức bước qua cánh cổng nhà tù ở tuổi 35.",
-    "words": 29
+    "text": "Nhưng ngay cả khi bản hợp đồng tư pháp cay đắng ấy không thể đảo ngược, sức mạnh của tình phụ tử và mẫu tử thiêng liêng đã viết nên một trang sử quật cường.",
+    "words": 35
    },
    {
     "id": "5.04#2",
-    "text": "Sự kiện này đã thổi bùng một cơn bão biểu tình và sự phẫn nộ dữ dội trên khắp các đường phố Canada.",
-    "words": 23
+    "text": "Ông bà Doug và Donna French – cha mẹ của nữ sinh Kristen French – đã không gục ngã trước nỗi đau xé lòng.",
+    "words": 24
    },
    {
     "id": "5.04#3",
-    "text": "Các bậc phụ huynh và gia đình nạn nhân mang theo di ảnh của Leslie Mahaffy và Kristen French, giăng biểu ngữ phản đối sự bất công của thỏa thuận tư pháp.",
-    "words": 32
+    "text": "Họ đã kiên cường đứng lên, biến nỗi mất mát tột cùng thành một cuộc chiến pháp lý bền bỉ để bảo vệ phẩm giá cho con gái mình và tất cả các nạn nhân.",
+    "words": 35
    },
    {
     "id": "5.04#4",
-    "text": "Để có thể tồn tại, Karla Homolka phải đổi tên thành Leanne Bordelais, trốn chạy sang vùng biển Caribbean rồi quay về một thị trấn nhỏ ở tỉnh Quebec.",
-    "words": 29
+    "text": "Họ đã đấu tranh đến cùng để niêm phong và tiêu hủy vĩnh viễn những cuốn băng tang vật, kiên quyết không để nỗi đau của các em bị biến thành thứ giải trí tò mò của dư luận.",
+    "words": 39
    },
    {
     "id": "5.04#5",
-    "text": "Nhưng bất cứ nơi nào dấu vết của cô ta bị phát hiện, làn sóng tẩy chay và phẫn nộ của cộng đồng lại bùng phát mạnh mẽ.",
-    "words": 28
+    "text": "Đồng thời, sự ra đời của Trung tâm Bảo trợ Trẻ em mang tên Kristen French tại vùng Niagara đã trở thành mái ấm chữa lành cho hàng ngàn đứa trẻ tổn thương suốt nhiều thập kỷ qua.",
+    "words": 38
    },
    {
     "id": "5.04#6",
-    "text": "Về mặt pháp lý, vụ án này đã thúc đẩy chính quyền tỉnh Ontario tiến hành hai cuộc điều tra độc lập mang tính lịch sử.",
-    "words": 26
-   },
-   {
-    "id": "5.04#7",
-    "text": "Báo cáo của cựu Thẩm phán Patrick Galligan đã mổ xẻ toàn diện quy trình công tố và những thiếu sót chí mạng trong việc ký kết thỏa thuận nhận tội.",
-    "words": 31
-   },
-   {
-    "id": "5.04#8",
-    "text": "Trong khi đó, Báo cáo mang tính bước ngoặt của Thẩm phán Archie Campbell đã chỉ ra sự tắc nghẽn thông tin giữa các sở cảnh sát, dẫn tới cuộc đại cải tổ hệ thống phân tích liên kết tội phạm bạo lực ViCLAS trên toàn quốc.",
-    "words": 47
-   },
-   {
-    "id": "5.04#9",
-    "text": "Đó là những cải cách tư pháp đắt giá được đánh đổi bằng nỗi đau tột cùng của các gia đình nạn nhân.",
-    "words": 23
+    "text": "Đó là sự chiến thắng vĩ đại của tình yêu thương trước bóng tối của sự hủy diệt.",
+    "words": 18
    }
   ]
  },
  {
   "id": "5.05",
   "act": 5,
-  "kind": "SFX",
-  "desc": "*Tiếng lật trang sách báo cáo và tiếng thở dài nặng nề.*"
+  "kind": "LOI",
+  "role": "D",
+  "direction": "lạnh lùng, điểm lại di chứng tự do của Karla và cải cách tư pháp lịch sử",
+  "text": "Ngày 4 tháng 7 năm 2005, sau khi chấp hành trọn vẹn 12 năm tù giam, Karla Homolka chính thức bước qua cánh cổng nhà tù ở tuổi 35. Sự kiện này đã thổi bùng một cơn bão biểu tình và sự phẫn nộ dữ dội trên khắp các đường phố Canada. Các bậc phụ huynh và gia đình nạn nhân mang theo di ảnh của Leslie Mahaffy và Kristen French, giăng biểu ngữ phản đối sự bất công của thỏa thuận tư pháp. Để có thể tồn tại, Karla Homolka phải đổi tên thành Leanne Bordelais, trốn chạy sang vùng biển Caribbean rồi quay về một thị trấn nhỏ ở tỉnh Quebec. Nhưng bất cứ nơi nào dấu vết của cô ta bị phát hiện, làn sóng tẩy chay và phẫn nộ của cộng đồng lại bùng phát mạnh mẽ. Về mặt pháp lý, vụ án này đã thúc đẩy chính quyền tỉnh Ontario tiến hành hai cuộc điều tra độc lập mang tính lịch sử. Báo cáo của cựu Thẩm phán Patrick Galligan đã mổ xẻ toàn diện quy trình công tố và những thiếu sót chí mạng trong việc ký kết thỏa thuận nhận tội. Trong khi đó, Báo cáo mang tính bước ngoặt của Thẩm phán Archie Campbell đã chỉ ra sự tắc nghẽn thông tin giữa các sở cảnh sát, dẫn tới cuộc đại cải tổ hệ thống phân tích liên kết tội phạm bạo lực ViCLAS trên toàn quốc. Đó là những cải cách tư pháp đắt giá được đánh đổi bằng nỗi đau tột cùng của các gia đình nạn nhân.",
+  "sentences": [
+   {
+    "id": "5.05#1",
+    "text": "Ngày 4 tháng 7 năm 2005, sau khi chấp hành trọn vẹn 12 năm tù giam, Karla Homolka chính thức bước qua cánh cổng nhà tù ở tuổi 35.",
+    "words": 29
+   },
+   {
+    "id": "5.05#2",
+    "text": "Sự kiện này đã thổi bùng một cơn bão biểu tình và sự phẫn nộ dữ dội trên khắp các đường phố Canada.",
+    "words": 23
+   },
+   {
+    "id": "5.05#3",
+    "text": "Các bậc phụ huynh và gia đình nạn nhân mang theo di ảnh của Leslie Mahaffy và Kristen French, giăng biểu ngữ phản đối sự bất công của thỏa thuận tư pháp.",
+    "words": 32
+   },
+   {
+    "id": "5.05#4",
+    "text": "Để có thể tồn tại, Karla Homolka phải đổi tên thành Leanne Bordelais, trốn chạy sang vùng biển Caribbean rồi quay về một thị trấn nhỏ ở tỉnh Quebec.",
+    "words": 29
+   },
+   {
+    "id": "5.05#5",
+    "text": "Nhưng bất cứ nơi nào dấu vết của cô ta bị phát hiện, làn sóng tẩy chay và phẫn nộ của cộng đồng lại bùng phát mạnh mẽ.",
+    "words": 28
+   },
+   {
+    "id": "5.05#6",
+    "text": "Về mặt pháp lý, vụ án này đã thúc đẩy chính quyền tỉnh Ontario tiến hành hai cuộc điều tra độc lập mang tính lịch sử.",
+    "words": 26
+   },
+   {
+    "id": "5.05#7",
+    "text": "Báo cáo của cựu Thẩm phán Patrick Galligan đã mổ xẻ toàn diện quy trình công tố và những thiếu sót chí mạng trong việc ký kết thỏa thuận nhận tội.",
+    "words": 31
+   },
+   {
+    "id": "5.05#8",
+    "text": "Trong khi đó, Báo cáo mang tính bước ngoặt của Thẩm phán Archie Campbell đã chỉ ra sự tắc nghẽn thông tin giữa các sở cảnh sát, dẫn tới cuộc đại cải tổ hệ thống phân tích liên kết tội phạm bạo lực ViCLAS trên toàn quốc.",
+    "words": 47
+   },
+   {
+    "id": "5.05#9",
+    "text": "Đó là những cải cách tư pháp đắt giá được đánh đổi bằng nỗi đau tột cùng của các gia đình nạn nhân.",
+    "words": 23
+   }
+  ]
  },
  {
   "id": "5.06",
   "act": 5,
+  "kind": "SFX",
+  "desc": "Tiếng lật trang sách báo cáo và tiếng thở dài nặng nề."
+ },
+ {
+  "id": "5.07",
+  "act": 5,
   "kind": "LOI",
   "role": "C",
-  "direction": "giọng học thuật sâu sắc, đối chiếu sự sụp đổ cái tôi và mặt nạ nạn nhân",
-  "text": "Xét trên bình diện tâm lý học, bản án thể xác 12 năm của Karla Homolka có thể đã kết thúc, nhưng bản án tâm lý xã hội thì vĩnh viễn không bao giờ xóa bỏ. Karla không hề biểu lộ sự ăn năn hối cải chân chính; thái độ của cô ta chỉ là sự tự thương hại bệnh lý và nỗ lực bảo vệ quyền lợi cá nhân đến cùng. Trong khi đó, Paul Bernardo trong trại giam Millhaven liên tục nộp đơn xin ân xá trong vô vọng, đổ lỗi cho người khác trong một trạng thái sụp đổ cái tôi ái kỷ kéo dài. Vụ án này để lại một bài học kinh điển cho nhân loại về việc cảnh giác trước những chiếc mặt nạ đạo đức giả. Chúng ta phải học cách phân định rạch ròi giữa một nạn nhân thực sự chịu tổn thương và một kẻ săn mồi khoác áo nạn nhân để trốn tránh trách nhiệm. Sự tàn bạo lộ liễu của Paul Bernardo rất dễ nhận diện, nhưng sự nguy hiểm ngụy trang dưới vỏ bọc mong manh của Karla Homolka mới là thứ đánh lừa được cả hệ thống tư pháp tinh vi nhất. Lòng trắc ẩn là phẩm giá cao quý của con người, nhưng lòng trắc ẩn thiếu sự tỉnh táo sẽ trở thành mảnh đất màu mỡ cho tội ác thao túng. Kẻ thủ ác luôn biết cách biến chính lòng tốt của cộng đồng thành tấm khiên che chở cho tội lỗi của chúng. Để bảo vệ bản thân và những người thân yêu, việc nhận diện các tín hiệu cảnh báo đỏ sinh tồn là vô cùng cấp thiết.",
+  "direction": "đúc kết bản án lương tâm xã hội và sự sụp đổ của mặt nạ",
+  "text": "Ngày 4 tháng 7 năm 2005, khi Karla Homolka mãn hạn mười hai năm tù và bước ra ngoài ánh sáng, cô ta có thể đã chiến thắng về mặt kỹ thuật pháp lý, nhưng đã vĩnh viễn thua cuộc trước Tòa án Lương tâm của Nhân loại. Hàng ngàn người dân Canada đã xuống đường biểu tình trong sự căm phẫn tột độ. Bản án thể xác kết thúc, nhưng bản án cô lập xã hội sẽ theo đuổi cô ta đến tận hơi thở cuối cùng. Dù có đổi tên thành Leanne Bordelais, dù có trốn chạy sang những hòn đảo xa xôi ở Caribbean, cái bóng của tội ác và sự giả trá vẫn luôn đuổi kịp cô ta. Cộng đồng xã hội đã gửi đi một thông điệp đanh thép: Con người có thể bị đánh lừa bởi những giọt nước mắt đóng kịch, nhưng thời gian và sự thật sẽ luôn đòi lại phẩm giá cho những linh hồn vô tội. Lương tri của xã hội không bao giờ tha thứ cho một kẻ đã tước đoạt sinh mệnh của đồng loại nhân danh sự ích kỷ cá nhân. Xét trên bình diện tâm lý học, bản án thể xác 12 năm của Karla Homolka có thể đã kết thúc, nhưng bản án tâm lý xã hội thì vĩnh viễn không bao giờ xóa bỏ. Karla không hề biểu lộ sự ăn năn hối cải chân chính; thái độ của cô ta chỉ là sự tự thương hại bệnh lý và nỗ lực bảo vệ quyền lợi cá nhân đến cùng. Trong khi đó, Paul Bernardo trong trại giam Millhaven liên tục nộp đơn xin ân xá trong vô vọng, đổ lỗi cho người khác trong một trạng thái sụp đổ cái tôi ái kỷ kéo dài. Vụ án này để lại một bài học kinh điển cho nhân loại về việc cảnh giác trước những chiếc mặt nạ đạo đức giả. Chúng ta phải học cách phân định rạch ròi giữa một nạn nhân thực sự chịu tổn thương và một kẻ săn mồi khoác áo nạn nhân để trốn tránh trách nhiệm. Sự tàn bạo lộ liễu của Paul Bernardo rất dễ nhận diện, nhưng sự nguy hiểm ngụy trang dưới vỏ bọc mong manh của Karla Homolka mới là thứ đánh lừa được cả hệ thống tư pháp tinh vi nhất. Lòng trắc ẩn là phẩm giá cao quý của con người, nhưng lòng trắc ẩn thiếu sự tỉnh táo sẽ trở thành mảnh đất màu mỡ cho tội ác thao túng. Kẻ thủ ác luôn biết cách biến chính lòng tốt của cộng đồng thành tấm khiên che chở cho tội lỗi của chúng. Để bảo vệ bản thân và những người thân yêu, việc nhận diện các tín hiệu cảnh báo đỏ sinh tồn là vô cùng cấp thiết.",
   "sentences": [
    {
-    "id": "5.06#1",
+    "id": "5.07#1",
+    "text": "Ngày 4 tháng 7 năm 2005, khi Karla Homolka mãn hạn mười hai năm tù và bước ra ngoài ánh sáng, cô ta có thể đã chiến thắng về mặt kỹ thuật pháp lý, nhưng đã vĩnh viễn thua cuộc trước Tòa án Lương tâm của Nhân loại.",
+    "words": 48
+   },
+   {
+    "id": "5.07#2",
+    "text": "Hàng ngàn người dân Canada đã xuống đường biểu tình trong sự căm phẫn tột độ.",
+    "words": 16
+   },
+   {
+    "id": "5.07#3",
+    "text": "Bản án thể xác kết thúc, nhưng bản án cô lập xã hội sẽ theo đuổi cô ta đến tận hơi thở cuối cùng.",
+    "words": 24
+   },
+   {
+    "id": "5.07#4",
+    "text": "Dù có đổi tên thành Leanne Bordelais, dù có trốn chạy sang những hòn đảo xa xôi ở Caribbean, cái bóng của tội ác và sự giả trá vẫn luôn đuổi kịp cô ta.",
+    "words": 34
+   },
+   {
+    "id": "5.07#5",
+    "text": "Cộng đồng xã hội đã gửi đi một thông điệp đanh thép: Con người có thể bị đánh lừa bởi những giọt nước mắt đóng kịch, nhưng thời gian và sự thật sẽ luôn đòi lại phẩm giá cho những linh hồn vô tội.",
+    "words": 44
+   },
+   {
+    "id": "5.07#6",
+    "text": "Lương tri của xã hội không bao giờ tha thứ cho một kẻ đã tước đoạt sinh mệnh của đồng loại nhân danh sự ích kỷ cá nhân.",
+    "words": 28
+   },
+   {
+    "id": "5.07#7",
     "text": "Xét trên bình diện tâm lý học, bản án thể xác 12 năm của Karla Homolka có thể đã kết thúc, nhưng bản án tâm lý xã hội thì vĩnh viễn không bao giờ xóa bỏ.",
     "words": 36
    },
    {
-    "id": "5.06#2",
+    "id": "5.07#8",
     "text": "Karla không hề biểu lộ sự ăn năn hối cải chân chính; thái độ của cô ta chỉ là sự tự thương hại bệnh lý và nỗ lực bảo vệ quyền lợi cá nhân đến cùng.",
     "words": 36
    },
    {
-    "id": "5.06#3",
+    "id": "5.07#9",
     "text": "Trong khi đó, Paul Bernardo trong trại giam Millhaven liên tục nộp đơn xin ân xá trong vô vọng, đổ lỗi cho người khác trong một trạng thái sụp đổ cái tôi ái kỷ kéo dài.",
     "words": 36
    },
    {
-    "id": "5.06#4",
+    "id": "5.07#10",
     "text": "Vụ án này để lại một bài học kinh điển cho nhân loại về việc cảnh giác trước những chiếc mặt nạ đạo đức giả.",
     "words": 25
    },
    {
-    "id": "5.06#5",
+    "id": "5.07#11",
     "text": "Chúng ta phải học cách phân định rạch ròi giữa một nạn nhân thực sự chịu tổn thương và một kẻ săn mồi khoác áo nạn nhân để trốn tránh trách nhiệm.",
     "words": 32
    },
    {
-    "id": "5.06#6",
+    "id": "5.07#12",
     "text": "Sự tàn bạo lộ liễu của Paul Bernardo rất dễ nhận diện, nhưng sự nguy hiểm ngụy trang dưới vỏ bọc mong manh của Karla Homolka mới là thứ đánh lừa được cả hệ thống tư pháp tinh vi nhất.",
     "words": 40
    },
    {
-    "id": "5.06#7",
+    "id": "5.07#13",
     "text": "Lòng trắc ẩn là phẩm giá cao quý của con người, nhưng lòng trắc ẩn thiếu sự tỉnh táo sẽ trở thành mảnh đất màu mỡ cho tội ác thao túng.",
     "words": 31
    },
    {
-    "id": "5.06#8",
+    "id": "5.07#14",
     "text": "Kẻ thủ ác luôn biết cách biến chính lòng tốt của cộng đồng thành tấm khiên che chở cho tội lỗi của chúng.",
     "words": 23
    },
    {
-    "id": "5.06#9",
+    "id": "5.07#15",
     "text": "Để bảo vệ bản thân và những người thân yêu, việc nhận diện các tín hiệu cảnh báo đỏ sinh tồn là vô cùng cấp thiết.",
     "words": 26
    }
   ]
  },
  {
-  "id": "5.07",
+  "id": "5.08",
   "act": 5,
   "kind": "LOI",
   "role": "H",
@@ -1447,76 +1777,76 @@
   "text": "Để giúp quý vị khán giả có thêm những công cụ bảo vệ thực tế, kênh Amber eyes xin đúc kết 4 tín hiệu cảnh báo đỏ sinh tồn từ hồ sơ lịch sử này. Cảnh báo đỏ thứ nhất: Cảnh giác trước kẻ lạm dụng sự tổn thương cá nhân. Những kẻ thao túng luôn nhắc về những vết thương hay bất hạnh trong quá khứ để biện minh cho hành vi sai trái ở hiện tại; người thực sự có lương tri sẽ nhận trách nhiệm và xót thương nạn nhân, thay vì chỉ chăm chăm đóng vai người bị hại. Cảnh báo đỏ thứ hai: Sự bất nhất giữa lời nói đạo đức và hành vi sau lưng. Hãy luôn đánh giá một con người dựa trên chuỗi hành động thực tế, không dựa vào vẻ bề ngoài xinh đẹp hay những lời nói hoa mỹ trước đám đông. Cảnh báo đỏ thứ ba: Cảnh giác trước sự tiếp cận của những người có vẻ ngoài vô hại. Karla Homolka đã trực tiếp dùng nụ cười thân thiện để hỏi đường và dụ dỗ nạn nhân vào bẫy; sự cảnh giác không được phép lơ là trước bất kỳ ai ở nơi công cộng. Và cảnh báo đỏ thứ tư: Nhận diện những mối quan hệ cộng sinh độc hại. Một tình cảm chân chính không bao giờ đòi hỏi bạn phải xâm phạm ranh giới đạo đức hay làm hại người khác để chứng minh sự gắn kết. Khi ai đó yêu cầu bạn bước qua lằn ranh lương tâm nhân danh lòng trung thành, đó không phải là tình yêu mà là chiếc thòng lọng dẫn xuống vực thẳm. Hãy luôn lắng nghe trực giác bất an bên trong bạn, bởi trực giác chính là chiếc chuông báo động sớm nhạy bén nhất. Đừng bao giờ hợp lý hóa hay bỏ qua những bước lấn ranh giới nhỏ nhặt ban đầu.",
   "sentences": [
    {
-    "id": "5.07#1",
+    "id": "5.08#1",
     "text": "Để giúp quý vị khán giả có thêm những công cụ bảo vệ thực tế, kênh Amber eyes xin đúc kết 4 tín hiệu cảnh báo đỏ sinh tồn từ hồ sơ lịch sử này.",
     "words": 35
    },
    {
-    "id": "5.07#2",
+    "id": "5.08#2",
     "text": "Cảnh báo đỏ thứ nhất: Cảnh giác trước kẻ lạm dụng sự tổn thương cá nhân.",
     "words": 16
    },
    {
-    "id": "5.07#3",
+    "id": "5.08#3",
     "text": "Những kẻ thao túng luôn nhắc về những vết thương hay bất hạnh trong quá khứ để biện minh cho hành vi sai trái ở hiện tại; người thực sự có lương tri sẽ nhận trách nhiệm và xót thương nạn nhân, thay vì chỉ chăm chăm đóng vai người bị hại.",
     "words": 52
    },
    {
-    "id": "5.07#4",
+    "id": "5.08#4",
     "text": "Cảnh báo đỏ thứ hai: Sự bất nhất giữa lời nói đạo đức và hành vi sau lưng.",
     "words": 18
    },
    {
-    "id": "5.07#5",
+    "id": "5.08#5",
     "text": "Hãy luôn đánh giá một con người dựa trên chuỗi hành động thực tế, không dựa vào vẻ bề ngoài xinh đẹp hay những lời nói hoa mỹ trước đám đông.",
     "words": 31
    },
    {
-    "id": "5.07#6",
+    "id": "5.08#6",
     "text": "Cảnh báo đỏ thứ ba: Cảnh giác trước sự tiếp cận của những người có vẻ ngoài vô hại.",
     "words": 19
    },
    {
-    "id": "5.07#7",
+    "id": "5.08#7",
     "text": "Karla Homolka đã trực tiếp dùng nụ cười thân thiện để hỏi đường và dụ dỗ nạn nhân vào bẫy; sự cảnh giác không được phép lơ là trước bất kỳ ai ở nơi công cộng.",
     "words": 36
    },
    {
-    "id": "5.07#8",
+    "id": "5.08#8",
     "text": "Và cảnh báo đỏ thứ tư: Nhận diện những mối quan hệ cộng sinh độc hại.",
     "words": 16
    },
    {
-    "id": "5.07#9",
+    "id": "5.08#9",
     "text": "Một tình cảm chân chính không bao giờ đòi hỏi bạn phải xâm phạm ranh giới đạo đức hay làm hại người khác để chứng minh sự gắn kết.",
     "words": 29
    },
    {
-    "id": "5.07#10",
+    "id": "5.08#10",
     "text": "Khi ai đó yêu cầu bạn bước qua lằn ranh lương tâm nhân danh lòng trung thành, đó không phải là tình yêu mà là chiếc thòng lọng dẫn xuống vực thẳm.",
     "words": 32
    },
    {
-    "id": "5.07#11",
+    "id": "5.08#11",
     "text": "Hãy luôn lắng nghe trực giác bất an bên trong bạn, bởi trực giác chính là chiếc chuông báo động sớm nhạy bén nhất.",
     "words": 24
    },
    {
-    "id": "5.07#12",
+    "id": "5.08#12",
     "text": "Đừng bao giờ hợp lý hóa hay bỏ qua những bước lấn ranh giới nhỏ nhặt ban đầu.",
     "words": 18
    }
   ]
  },
  {
-  "id": "5.08",
+  "id": "5.09",
   "act": 5,
   "kind": "NGHI",
   "sec": 1.5,
   "desc": "khoảng lặng kịch tính"
  },
  {
-  "id": "5.09",
+  "id": "5.10",
   "act": 5,
   "kind": "LOI",
   "role": "H",
@@ -1524,62 +1854,62 @@
   "text": "Hồ sơ Paul Bernardo và Karla Homolka khép lại như một hồi chuông cảnh tỉnh lạnh lùng về những góc khuất khôn lường của tâm trí con người. Chiếc mặt nạ búp bê “Ken và Barbie” lộng lẫy đã vỡ vụn, để lại bài học đau xót về cái giá của sự ngộ nhận và lòng trắc ẩn bị đặt sai chỗ. Dù thỏa thuận tư pháp có những giới hạn của thời đại, nhưng ánh sáng của lương tri lịch sử đã trả lại phẩm giá cho các nạn nhân vô tội và vạch trần chân tướng của tội ác. Xin hãy luôn nhớ rằng: sự an toàn của chúng ta bắt đầu từ việc biết tôn trọng trực giác và dũng cảm bảo vệ những ranh giới đạo đức sống còn. Cảm ơn các khách mời chuyên gia đã đồng hành cùng Amber eyes trong ca phẫu thuật tâm lý học đầy kịch tính hôm nay. Cảm ơn quý vị khán giả đã lắng nghe và chia sẻ thông điệp thức tỉnh này. Hãy bấm đăng ký kênh và để lại góc nhìn của bạn ở phần bình luận bên dưới. Xin chào và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo. Chúc quý vị luôn giữ được sự an yên và sáng suốt trong cuộc sống.",
   "sentences": [
    {
-    "id": "5.09#1",
+    "id": "5.10#1",
     "text": "Hồ sơ Paul Bernardo và Karla Homolka khép lại như một hồi chuông cảnh tỉnh lạnh lùng về những góc khuất khôn lường của tâm trí con người.",
     "words": 28
    },
    {
-    "id": "5.09#2",
+    "id": "5.10#2",
     "text": "Chiếc mặt nạ búp bê “Ken và Barbie” lộng lẫy đã vỡ vụn, để lại bài học đau xót về cái giá của sự ngộ nhận và lòng trắc ẩn bị đặt sai chỗ.",
     "words": 34
    },
    {
-    "id": "5.09#3",
+    "id": "5.10#3",
     "text": "Dù thỏa thuận tư pháp có những giới hạn của thời đại, nhưng ánh sáng của lương tri lịch sử đã trả lại phẩm giá cho các nạn nhân vô tội và vạch trần chân tướng của tội ác.",
     "words": 39
    },
    {
-    "id": "5.09#4",
+    "id": "5.10#4",
     "text": "Xin hãy luôn nhớ rằng: sự an toàn của chúng ta bắt đầu từ việc biết tôn trọng trực giác và dũng cảm bảo vệ những ranh giới đạo đức sống còn.",
     "words": 32
    },
    {
-    "id": "5.09#5",
+    "id": "5.10#5",
     "text": "Cảm ơn các khách mời chuyên gia đã đồng hành cùng Amber eyes trong ca phẫu thuật tâm lý học đầy kịch tính hôm nay.",
     "words": 25
    },
    {
-    "id": "5.09#6",
+    "id": "5.10#6",
     "text": "Cảm ơn quý vị khán giả đã lắng nghe và chia sẻ thông điệp thức tỉnh này.",
     "words": 17
    },
    {
-    "id": "5.09#7",
+    "id": "5.10#7",
     "text": "Hãy bấm đăng ký kênh và để lại góc nhìn của bạn ở phần bình luận bên dưới.",
     "words": 18
    },
    {
-    "id": "5.09#8",
+    "id": "5.10#8",
     "text": "Xin chào và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
     "words": 15
    },
    {
-    "id": "5.09#9",
+    "id": "5.10#9",
     "text": "Chúc quý vị luôn giữ được sự an yên và sáng suốt trong cuộc sống.",
     "words": 15
    }
   ]
  },
  {
-  "id": "5.10",
-  "act": 5,
-  "kind": "SFX",
-  "desc": "*Tiếng đóng tập hồ sơ vụ án vang lên tiếng cạch dứt khoát, theo sau là tiếng tắt máy ghi âm.*"
- },
- {
   "id": "5.11",
   "act": 5,
+  "kind": "SFX",
+  "desc": "Tiếng đóng tập hồ sơ vụ án vang lên tiếng cạch dứt khoát, theo sau là tiếng tắt máy ghi âm."
+ },
+ {
+  "id": "5.12",
+  "act": 5,
   "kind": "BGM",
-  "desc": "*Nhạc Piano trầm buồn ngân vang 5 giây rồi từ từ nhỏ dần và tắt hẳn.*"
+  "desc": "Nhạc Piano trầm buồn ngân vang 5 giây rồi từ từ nhỏ dần và tắt hẳn."
  }
 ]

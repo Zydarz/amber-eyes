@@ -1,0 +1,1357 @@
+{
+  "_meta": {
+    "episode": "10_JA",
+    "description": "Acting & Pause parameters for Tap 10 JA (240 sentences)",
+    "total_sentences": 240,
+    "pause_count": 147
+  },
+  "_pause_after": {
+    "1.02#2": 0.5,
+    "1.02#4": 0.5,
+    "1.02#6": 0.5,
+    "1.02#8": 0.5,
+    "1.02#10": 0.5,
+    "1.02#12": 0.8,
+    "1.04#2": 0.5,
+    "1.04#4": 0.5,
+    "1.04#6": 0.8,
+    "1.06#2": 0.5,
+    "1.06#4": 0.5,
+    "1.06#5": 0.6,
+    "1.06#6": 0.8,
+    "1.07#1": 0.6,
+    "1.07#2": 0.5,
+    "1.07#4": 0.5,
+    "1.07#5": 0.8,
+    "1.09#2": 0.5,
+    "1.09#3": 0.6,
+    "1.09#4": 0.5,
+    "1.09#5": 0.8,
+    "1.10#2": 0.5,
+    "1.10#3": 0.6,
+    "1.10#4": 0.5,
+    "1.10#6": 0.5,
+    "1.10#7": 0.8,
+    "1.11#2": 0.5,
+    "1.11#3": 0.6,
+    "1.11#4": 0.5,
+    "1.11#5": 0.8,
+    "2.02#1": 0.6,
+    "2.02#2": 0.5,
+    "2.02#4": 0.5,
+    "2.02#5": 0.6,
+    "2.02#6": 0.8,
+    "2.04#2": 0.5,
+    "2.04#4": 0.5,
+    "2.04#6": 0.5,
+    "2.04#7": 0.6,
+    "2.04#8": 0.5,
+    "2.04#10": 0.8,
+    "2.05#2": 0.5,
+    "2.05#4": 0.5,
+    "2.05#5": 0.8,
+    "2.06#2": 0.5,
+    "2.06#4": 0.5,
+    "2.06#6": 0.5,
+    "2.06#8": 0.5,
+    "2.06#10": 0.5,
+    "2.06#12": 0.8,
+    "2.07#2": 0.5,
+    "2.07#4": 0.8,
+    "2.08#2": 0.5,
+    "2.08#4": 0.5,
+    "2.08#6": 0.5,
+    "2.08#7": 0.8,
+    "2.09#2": 0.5,
+    "2.09#4": 0.8,
+    "2.10#2": 0.5,
+    "2.10#4": 0.5,
+    "2.10#5": 0.6,
+    "2.10#6": 0.8,
+    "2.11#2": 0.5,
+    "2.11#3": 0.8,
+    "3.02#2": 0.5,
+    "3.02#4": 0.8,
+    "3.04#2": 0.5,
+    "3.04#3": 0.6,
+    "3.04#4": 0.8,
+    "3.05#2": 0.5,
+    "3.05#4": 0.5,
+    "3.05#6": 0.5,
+    "3.05#7": 0.8,
+    "3.06#1": 0.6,
+    "3.06#2": 0.5,
+    "3.06#3": 0.6,
+    "3.06#4": 0.8,
+    "3.07#2": 0.5,
+    "3.07#4": 0.5,
+    "3.07#6": 0.5,
+    "3.07#8": 0.5,
+    "3.07#10": 0.5,
+    "3.07#11": 0.8,
+    "3.08#2": 0.5,
+    "3.08#4": 0.5,
+    "3.08#5": 0.6,
+    "3.08#6": 0.5,
+    "3.08#7": 0.6,
+    "3.08#8": 0.8,
+    "3.09#2": 0.5,
+    "3.09#4": 0.5,
+    "3.09#6": 0.5,
+    "3.09#8": 0.8,
+    "3.10#2": 0.5,
+    "3.10#3": 0.8,
+    "4.02#2": 0.5,
+    "4.02#4": 0.5,
+    "4.02#5": 0.8,
+    "4.03#2": 0.5,
+    "4.03#4": 0.5,
+    "4.03#6": 0.5,
+    "4.03#8": 0.5,
+    "4.03#9": 0.8,
+    "4.04#2": 0.5,
+    "4.04#4": 0.5,
+    "4.04#5": 0.8,
+    "4.05#1": 0.6,
+    "4.05#2": 0.5,
+    "4.05#4": 0.5,
+    "4.05#5": 0.6,
+    "4.05#6": 0.5,
+    "4.05#8": 0.8,
+    "4.07#1": 0.6,
+    "4.07#2": 0.5,
+    "4.07#4": 0.5,
+    "4.07#6": 0.8,
+    "4.08#2": 0.5,
+    "4.08#4": 0.8,
+    "4.09#2": 0.5,
+    "4.09#4": 0.5,
+    "4.09#6": 0.5,
+    "4.09#8": 0.5,
+    "4.09#9": 0.8,
+    "4.10#2": 0.5,
+    "4.10#3": 0.6,
+    "4.10#4": 0.5,
+    "4.10#5": 0.6,
+    "4.10#6": 0.8,
+    "5.02#2": 0.5,
+    "5.02#4": 0.5,
+    "5.02#6": 0.5,
+    "5.02#8": 0.8,
+    "5.03#2": 0.5,
+    "5.03#4": 0.5,
+    "5.03#6": 0.5,
+    "5.03#7": 0.8,
+    "5.04#2": 0.5,
+    "5.04#4": 0.5,
+    "5.04#6": 0.8,
+    "5.05#2": 0.5,
+    "5.05#4": 0.5,
+    "5.05#6": 0.5,
+    "5.05#8": 0.5,
+    "5.05#10": 0.5,
+    "5.05#12": 0.5,
+    "5.05#14": 0.5,
+    "5.05#15": 1.0
+  },
+  "1.02#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.02#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.02#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.02#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.02#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.02#6": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "1.02#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.02#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.02#9": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.02#10": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.02#11": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.02#12": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "1.04#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.04#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.04#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.04#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.04#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.04#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.06#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.06#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.06#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.06#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.06#5": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "1.06#6": {
+    "emotion": "fearful",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "1.07#1": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "1.07#2": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "1.07#3": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "1.07#4": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "1.07#5": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "1.09#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.09#2": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "1.09#3": {
+    "emotion": "fearful",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "1.09#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.09#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.10#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.10#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.10#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.10#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.10#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.10#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.10#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.11#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.11#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.11#3": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "1.11#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "1.11#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.02#1": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "2.02#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.02#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.02#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.02#5": {
+    "emotion": "fearful",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "2.02#6": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "2.04#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.04#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.04#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.04#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.04#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.04#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.04#7": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "2.04#8": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "2.04#9": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.04#10": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.05#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.05#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.05#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.05#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.05#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.06#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.06#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.06#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.06#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.06#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.06#6": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "2.06#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.06#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.06#9": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.06#10": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.06#11": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.06#12": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.07#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.07#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.07#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.07#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.08#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.08#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.08#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.08#4": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "2.08#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.08#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.08#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.09#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.09#2": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "2.09#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.09#4": {
+    "emotion": "fearful",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "2.10#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.10#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.10#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.10#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.10#5": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "2.10#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.11#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.11#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "2.11#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.02#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.02#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.02#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.02#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.04#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.04#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.04#3": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "3.04#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.05#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.05#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.05#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.05#4": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "3.05#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.05#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.05#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.06#1": {
+    "emotion": "neutral",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "3.06#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.06#3": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "3.06#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.07#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.07#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.07#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.07#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.07#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.07#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.07#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.07#8": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "3.07#9": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.07#10": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.07#11": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "3.08#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.08#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.08#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.08#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.08#5": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "3.08#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.08#7": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "3.08#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.09#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.09#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.09#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.09#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.09#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.09#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.09#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.09#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.10#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.10#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "3.10#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.02#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.02#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.02#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.02#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.02#5": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "4.03#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.03#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.03#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.03#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.03#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.03#6": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "4.03#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.03#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.03#9": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.04#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.04#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.04#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.04#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.04#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.05#1": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "4.05#2": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "4.05#3": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "4.05#4": {
+    "emotion": "fearful",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "4.05#5": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "4.05#6": {
+    "emotion": "fearful",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "4.05#7": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0
+  },
+  "4.05#8": {
+    "emotion": "neutral",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "4.07#1": {
+    "emotion": "surprised",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.07#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.07#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.07#4": {
+    "emotion": "surprised",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.07#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.07#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.08#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.08#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.08#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.08#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.09#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.09#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.09#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.09#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.09#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.09#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.09#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.09#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.09#9": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.10#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.10#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.10#3": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "4.10#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "4.10#5": {
+    "emotion": "neutral",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "4.10#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.02#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.02#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.02#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.02#4": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0
+  },
+  "5.02#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.02#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.02#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.02#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.03#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.03#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.03#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.03#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.03#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.03#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.03#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.04#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.04#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.04#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.04#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.04#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.04#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.05#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.05#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.05#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.05#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.05#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.05#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.05#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.05#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.05#9": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.05#10": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.05#11": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.05#12": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.05#13": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.05#14": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  },
+  "5.05#15": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0
+  }
+}
