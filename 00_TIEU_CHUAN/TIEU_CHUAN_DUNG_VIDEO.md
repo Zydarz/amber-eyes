@@ -553,14 +553,15 @@ Nền chỉ là gradient/ánh sáng thì **vi phạm H3** dù cổng QC vẫn xa
 
 Chỉ số tự động **không phân biệt được** (đo 09/11/2026): entropy luminance MiniMax 5,18 vs procedural 4,39 — hai nhóm chồng nhau; Tập 08 có vân tia nên tỉ lệ "nội dung" cao (87%) dù về mặt thị giác là gradient. ⇒ **bắt buộc soi mắt, không được tin chỉ số**.
 
-### A8.3 Bảng công cụ đã dùng (đo trên `provenance.json`, 09/11/2026)
+### A8.3 Bảng công cụ đã dùng (đo trên `provenance.json`)
 
-| Nhóm tập | Công cụ | Số ảnh |
-|---|---|---|
-| Tập 01 (nền gốc) | Ảnh người dùng tạo + inpaint xoá chữ | 8 |
-| **Tập 02–07** | **MiniMax** — `connector__matrix__generate_image` qua `mcode-tools` (`.work/gen_images.py`) | 402 |
-| **Tập 08–29** | **`Amber Eyes Noir Graphic Renderer`** — procedural Pillow & Numpy (`.work/engine_ep15_29.py`, `produce_tap14.py`) | **1361** |
-| Tập 06 | 1 ảnh thử `image-generator` (Google Imagen / Antigravity Native) | 1 |
+| Nhóm tập | Công cụ | Số ảnh | Ghi chú |
+|---|---|---|---|
+| Tập 01 (nền gốc) | Ảnh người dùng tạo + inpaint xoá chữ | 8 | Bộ ảnh ban đầu |
+| **Tập 02–07** | **MiniMax** — `connector__matrix__generate_image` qua `mcode-tools` (`.work/gen_images.py`) | 402 | Style Graphic Novel chuẩn |
+| **Tập 08–29** | **`Amber Eyes Noir Graphic Renderer`** — procedural Pillow & Numpy | 1361 | Bộ nền trừu tượng cũ (đang thay thế dần) |
+| **Tập 11+** | **Kaggle GPU · FLUX.2-klein-4B** (kèm hậu kỳ Deep Noir) | 70+ | Chuẩn tạo ảnh mới 0 đồng chi phí (xem `00_TIEU_CHUAN/QUY_TAC_TAO_ANH_KAGGLE_FLUX.md`) |
+| Tập 06 | 1 ảnh thử `image-generator` (Google Imagen / Antigravity Native) | 1 | Thử nghiệm |
 
 `gen_gemini_api.py` (Imagen 3) chỉ là script thử cho Tập 07 và **hiện không chạy được** — không có `.gemini_key`, không có env `GEMINI_API_KEY`.
 
@@ -814,6 +815,7 @@ Ghi ra `.work/qc_montage/epXX_<kind>[_<lang>].jpg`.
 | 156 | **Kịch bản sửa lại SAU khi đã xuất bản video ⇒ mã câu dịch chuyển ⇒ bảng ánh xạ nền (`BG_FIX`) và bảng shot cũ trỏ SAI câu.** Tập 09 (13/11/2026): người dùng viết lại kịch bản VN 199 → 207 câu (1.02 +3 · 2.06 +1 · 3.08 +1 · 4.05 +1 · 4.09 +2 · 5.04 +1 · 5.05 −1) và commit lúc 08:07. `BG_FIX` gắn nền theo **mã câu** ⇒ chỉ cần chèn 3 câu ở đầu 1.02 là mọi mã sau đó lệch hết, nền cũ rơi sang câu khác | Dựng bảng OLD → NEW bằng `git show HEAD~1:...` so với HEAD, khớp theo **văn bản nguyên văn** (KHÔNG dùng “câu nào không có trong old” vì câu viết lại cùng nghĩa sẽ bị tính nhầm là câu mới) → dựng lại khối `BG_FIX` theo thứ tự element. Sau khi sửa: 207/207 mã có nền, **mọi nền trên đĩa đều được gán ≥ 1 lần**, và đo H10 vế 2 (đoạn lặp nền) bằng xấp xỉ “1 câu = 1 shot” (trần trên, gom câu chỉ làm ngắn đoạn lặp) |
 | 157 | **Kịch bản còn đang sửa dở (chưa đủ 3 ngôn ngữ) ⇒ CHỈ sinh ảnh gốc, KHÔNG render chữ.** Tập 09 (13/11/2026): bảng shot tra chữ theo **cùng một mã câu** cho cả 3 ngôn ngữ (`S[lang][sid]`) và timeline cũng tra theo mã câu ⇒ EN/JA còn 199 câu trong khi VN đã 207 ⇒ `KeyError` khi render, timeline thiếu 9 mã câu mới | Khi kịch bản đang sửa: **sinh trước ảnh nền + cập nhật `BG_FIX`**, chờ cả 3 script khớp mã câu và timeline đã đủ mã rồi mới sinh bảng shot / render chữ. Quyết định của người dùng 13/11/2026: “chỉ tạo ảnh gốc, phần render chữ thì chờ tôi sửa kịch bản đủ 3 ngôn ngữ” |
 | 158 | **MiniMax hết credit khi sinh nền MỚI cho một tập đã có checkpoint.** Tập 09 (13/11/2026): `gen_bg_minimax_t09.jsonl` đã ghi 65 tên ⇒ 3 nền mới không tự được sinh; MiniMax trả lỗi `image generation needs at least 100 credits` vì số dư < 100 credit | Thêm job mới vào `bg_jobs_t09.json` rồi chạy `--only <tên>` (checkpoint cũ không chặn), và chạy supervisor `_t09_gen_supervisor.py` (nghỉ 180 s/vòng, tối đa 8 h) ⇒ người dùng chỉ cần **nạp credit là ảnh tự sinh**, không phải canh |
+| 159 | **Chạy song song 2 GPU Kaggle (2x Tesla T4) bị văng tiến trình do tràn System RAM (Linux OOM-Killer mã lỗi -9).** Tập 12 (13/11/2026): Kaggle cấp 2 GPU T4 (16GB VRAM mỗi GPU) nhưng System Host RAM chỉ ~30GB. Khởi chạy 2 process Python độc lập đồng thời (`subprocess.Popen` cho `worker_0` và `worker_1`) khiến cả 2 nạp weights 4B vào RAM hệ thống cùng lúc ($2 \times 10\text{ GB} = 20\text{ GB} + \text{runtime} > 30\text{ GB}$) ⇒ kernel Linux gửi tín hiệu SIGKILL (-9) tiêu diệt GPU 0 | **CẤM khởi động đồng thời 2 process Python độc lập.** Chạy song song 2 GPU chuẩn bằng 1 trong 2 cách: (1) **Staggered Subprocess Startup:** Worker 0 khởi động trước, nạp xong model vào VRAM giải phóng Host RAM (~90 s) rồi `time.sleep(120)` mới khởi chạy Worker 1 (`CUDA_VISIBLE_DEVICES=1`); (2) **Thread-based Parallelism:** dùng 1 process Python với `ThreadPoolExecutor(max_workers=2)`, nạp trực tiếp model vào `cuda:0` và `cuda:1` chia sẻ chung runtime. Giảm 50% thời gian render (từ ~55 phút xuống ~25–28 phút) |
 
 ## A12. Cấu hình tập mới — một mục trong `.work/edition.py`
 

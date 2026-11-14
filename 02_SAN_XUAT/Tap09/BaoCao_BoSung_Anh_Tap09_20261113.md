@@ -68,13 +68,23 @@ Sao lưu trước khi sửa: `.work/_cu/t09_bgfix_20261113/_t09_gen_table.py`.
 
 MiniMax trả lỗi: `image generation needs at least 100 credits ... available before it starts` ⇒ số dư credit hiện tại < 100 credit.
 
-Đã bật **supervisor nền**: `.work/_t09/_t09_gen_supervisor.py` (nghỉ 180 s/vòng, tối đa 8 giờ). Người dùng chỉ cần **nạp credit là 3 ảnh tự sinh**, không phải canh.
+Đã bật **supervisor nền**: `.work/_t09/_t09_gen_supervisor.py` (nghỉ 180 s/vòng). Người dùng chỉ cần **nạp credit là 3 ảnh tự sinh**, không phải canh.
 
-| Vòng | Thời điểm | Kết quả |
-|---|---|---|
-| 0 | 08:14 | lỗi thiếu credit |
-| 1 | 08:17 | lỗi thiếu credit |
-| 2 | 08:20 | lỗi thiếu credit (đang retry) |
+| Phiên supervisor | Số vòng | Thời gian chạy | Kết quả |
+|---|---|---|---|
+| Supervisor #1 (08:14 → 09:14) | 20 vòng | 57,5 phút | 0/3 — bị hệ thống giật khi chạm trần 1 giờ của task nền |
+| Supervisor #2 (09:18 → 10:13) | 19 vòng | 54,5 phút | 0/3 — hết giờ (`--max-minutes 55`) |
+| **Tổng** | **39 vòng** | **~2 giờ** | **0/3 ảnh, cùng một lỗi `needs at least 100 credits`** |
+| Supervisor #3 | 0 | — | **DỪNG theo quyết định của người dùng** (13/11/2026, ~10:23) |
+
+**Quyết định của người dùng (13/11/2026):** *dừng hẳn, tự quyết khi nào nạp credit*. ⇒ **Không còn tiến trình nào tự gọi MiniMax.** Script `bg_jobs_t09.json` vẫn giữ 3 job, nên khi bạn nạp credit chạy lệnh dưới đây là ảnh ra ngay (không cần sửa gì thêm).
+
+**Đã kiểm tra toàn bộ catalog connector (17 tool):** chỉ có **một** công cụ sinh ảnh là `connector__matrix__generate_image` (MiniMax). Không có nhà cung cấp thay thế ⇒ **chỉ còn cách nạp credit MiniMax** để giữ đúng phong cách "dark graphic novel noir" đồng nhất với 65 nền cũ.
+
+**Các lựa chọn thay thế đã cân nhắc và loại:**
+- `connector__matrix__search_images` (tìm ảnh web) — lệch hoàn toàn phong cách, rủi ro bản quyền ⇒ không dùng.
+- Vẽ procedural bằng Pillow — vi phạm H19 (nền phải là cảnh cụ thể) ⇒ không dùng.
+- Tái dùng 65 nền cũ cho 5.04#2–#4 — 0 credit nhưng đánh đổi độ riêng bối cảnh; cần sửa `BG_FIX` về nền cũ.
 
 > **Còn 1 bước bắt buộc sau khi có ảnh: soi bằng mắt (H2/H5/H19).** Cổng grep prompt báo XANH không đủ — MiniMax vẫn có thể vẽ chữ lên giấy/dấu. Có 1 tờ montage 900 px là đủ soi 3 ảnh này.
 
