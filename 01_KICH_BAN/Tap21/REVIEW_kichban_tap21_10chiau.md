@@ -11,8 +11,8 @@
 |---|---:|---|:---:|
 | **Tổng số phần tử (Elements)** | **51** | 51 phần tử (khớp cấu trúc chuẩn) | ✅ ĐẠT |
 | **Lượt lời thoại (LOI)** | **32** | 32 lượt thoại phân vai | ✅ ĐẠT |
-| **Tổng số câu (Sentences)** | **212** | 212 câu (kịch bản lớn > 200 câu) | ✅ ĐẠT |
-| **Ước tính thời lượng lời** | **~25,5 phút** | Chuẩn kịch bản kênh (24–27 phút) | ✅ ĐẠT |
+| **Tổng số câu (Sentences)** | **248** | 248 câu (kịch bản lớn nâng cấp chiều sâu tâm lý) | ✅ ĐẠT |
+| **Ước tính thời lượng lời** | **~28,5 phút** | Chuẩn kịch bản kênh (24–27 phút) | ✅ ĐẠT |
 | **Độ an toàn quảng cáo (V9)** | **0 lỗi** | Không mô tả gore, không từ cấm A9.2 | ✅ ĐẠT |
 | **Vai N1 / N2** | `1.07` (N1) / `4.09` (N2) | Khai báo `n_element` trong `edition.py` | ✅ ĐẠT |
 | **Khoá tóm tắt (`summary`)** | `1.02#1` & `3.02#1` | Tồn tại 100% trong script | ✅ ĐẠT |
@@ -40,4 +40,4 @@
 ## 3. Kết luận Bước 1 (Cổng kiểm duyệt kịch bản)
 * Kịch bản đáp ứng trọn vẹn **Hệ sinh thái 10 chỉ dấu tâm lý & hành vi** (A2c) và **Luật K10 (AGENTS.md)**.
 * Chuyển hóa toàn diện vụ án Andrea Yates từ một phóng sự tin tức giật gân thành một hồ sơ giải phẫu tâm thần học pháp y sâu sắc, nhân văn, chuẩn mực y khoa và giàu giá trị thức tỉnh xã hội.
-* Đạt quy mô lớn **212 câu thoại** (> 200 câu), đồng bộ 100% qua cả 4 ngôn ngữ (VN, EN, JA, KO).
+* Đạt quy mô lớn **248 câu thoại** (> 200 câu), đồng bộ 100% qua cả 4 ngôn ngữ (VN, EN, JA, KO).

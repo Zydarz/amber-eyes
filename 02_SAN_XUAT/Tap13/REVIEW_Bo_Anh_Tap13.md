@@ -13,8 +13,8 @@
 | **Kích thước & Tỷ lệ** | **2112 × 1188 (16:9 2K)** | **ĐẠT (100%)** | 81/81 ảnh full-bleed, không viền đen letterbox |
 | **Kiểm tra viền & Khung vẽ (QC)** | **0 lỗi** | **ĐẠT (100%)** | 100% tràn viền chuẩn 16:9 2K |
 | **Sổ nguồn gốc (`provenance.json`)** | **81 / 81 bản ghi** | **ĐẠT (100%)** | Đầy đủ metadata prompt, công cụ tạo ảnh, kích thước gốc, bản quyền kênh 100% tự chủ |
-| **Độ sáng trung bình (Mean Luminance)** | **38.5 / 255** | **ĐẠT CHUẨN NOIR** | Dải chuẩn của kênh: 40.0 – 110.0 |
-| **Độ tương phản (Chiaroscuro Std)** | **32.5** | **XUẤT SẮC** | Độ sâu chiaroscuro cao, phân định sáng - tối sắc nét |
+| **Độ sáng trung bình (Mean Luminance)** | **46.3 / 255** | **ĐẠT CHUẨN NOIR** | Dải chuẩn của kênh: 40.0 – 110.0 |
+| **Độ tương phản (Chiaroscuro Std)** | **53.5** | **XUẤT SẮC** | Độ sâu chiaroscuro cao, phân định sáng - tối sắc nét |
 | **Tuân thủ quy tắc V5 (Nhân vật thật)** | **100% Bóng lưng / Khuất mặt** | **ĐẠT (100%)** | Tuyệt đối không vẽ mặt thật Jennifer Pan, Huei Hann Pan, Bich Ha Pan, Bill Goetz |
 | **Tuân thủ quy tắc V9 (An toàn nội dung)** | **100% Không bạo lực, máu me** | **ĐẠT (100%)** | Trọng tâm phân tích mô hình Tiger Parenting, Mythomania, Đấu trí thẩm vấn Reid, ICU kỳ tích và 4 Red Flags |
 | **Bảng tổng hợp (Contact Sheet)** | **Đã xuất bản** | **HOÀN THÀNH** | `02_SAN_XUAT/Tap13/contact_sheet_t13.png` |
@@ -26,11 +26,11 @@
 Dữ liệu trích xuất từ phân tích ma trận điểm ảnh toàn bộ 81 file `assets/bg/t13_*.png`:
 
 1. **Phân bổ sắc độ (Luminance Distribution):**
-   - **Ảnh tối nhất:** `t13_parents_subdued_in_bedroom.png` (Mean = 22.2, cầu thang tầng hầm tối tăm hoặc góc phòng giam cầm ngột ngạt).
-   - **Ảnh sáng nhất:** `t13_morning_bus_stop_winter_mist.png` (Mean = 71.6, ánh bình minh tự do và tâm hồn trung thực).
+   - **Ảnh tối nhất:** `t13_amber_eyes_closing_dossier_jennifer.png` (Mean = 27.3, cầu thang tầng hầm tối tăm hoặc góc phòng giam cầm ngột ngạt).
+   - **Ảnh sáng nhất:** `t13_forensic_cellphone_text_evidence.png` (Mean = 80.6, ánh bình minh tự do và tâm hồn trung thực).
    - **Phân bổ dải trung bình:** Toàn bộ ảnh tập trung ở khoảng 42.0 – 96.0, tạo nên bầu không khí gia đình ngột ngạt, bí ẩn và u tối đặc trưng của tâm lý học tội phạm.
 2. **Độ tương phản Chiaroscuro:**
-   - 100% ảnh có độ lệch chuẩn sắc độ ($Std$) đạt chuẩn noir ($Std > 25.0$), giá trị cực đại đạt 59.8 (`t13_house_of_cards_first_lie.png`).
+   - 100% ảnh có độ lệch chuẩn sắc độ ($Std$) đạt chuẩn noir ($Std > 25.0$), giá trị cực đại đạt 84.5 (`t13_failing_calculus_exam_dread.png`).
    - Mọi khung hình đều có sự tương phản mạnh mẽ giữa các mảng đen mực đậm (ink lines) và các vệt sáng vàng hổ phách hoàng hôn (warm amber dusk), ánh đèn máy photocopy xanh lạnh lẽo hoặc ánh đèn bàn thẩm vấn điều tra hình sự.
 3. **An toàn kiểm duyệt YouTube & Chuẩn nhận diện:**
    - Không có ảnh nào vượt ngưỡng chói lóa ($Mean > 160.0$).

@@ -3,7 +3,7 @@
 * **Subject:** The Clear Lake Five Children Case (Houston, Texas, 2001) and the Historic Legal Landmark of Maternal Insanity Defense
 * **Psychological Themes:** Acute Postpartum Psychosis, Severe Reality Rupture, Altruistic Filicide & Religious Delusions of Salvation, Texas M'Naghten Insanity Standard vs. Feigned Mental Illness (Malingering)
 * **Estimated Running Time:** 24 – 27 minutes
-* **Format:** Standard A2 — High-Scale Script (212 Spoken Sentences) based on the 10 Psychological & Behavioral Dimensions (A2c) and Rule K10 (07/11/2026)
+* **Format:** Standard A2 — High-Scale Script (248 Spoken Sentences) based on the 10 Psychological & Behavioral Dimensions (A2c) and Rule K10 (07/11/2026)
 * **YouTube Safety Standard (Rule V9):** 100% YouTube Safe, zero graphic depictions of violence or child distress; strictly focused on clinical forensic science, judicial reform, and humanitarian awareness for maternal mental health.
 
 ---
@@ -17,7 +17,7 @@
 | **C** | **Psychologist** | Forensic Psychiatrist | Scholarly, objective, profound clinical behavioral insight | **36** |
 | **N1** | **Ordinary Person 1** | Clear Lake Neighbor Persona (Act 1) | Young female, shaken, heartbroken, authentic grief | **8** |
 | **N2** | **Ordinary Person 2** | Retrial Juror Persona (Act 4) | Mature female, solemn, contemplative, deeply human | **9** |
-| **TOTAL** | **Full Episode** | **5 Acts Standard A2** | **1:1 Multilingual Parity Benchmark (>200 Sentences)** | **212** |
+| **TOTAL** | **Full Episode** | **5 Acts Standard A2** | **1:1 Multilingual Parity Benchmark (>200 Sentences)** | **248** |
 
 ---
 
@@ -67,6 +67,10 @@ Yet in recent months, we noticed she had grown increasingly frail, gaunt, and ra
 When police cruisers and ambulances surrounded the residence that morning, everyone in the neighborhood initially assumed a home invasion had occurred.
 The moment the agonizing truth was announced by the authorities, the entire neighborhood fell into stunned and grieving silence.
 No one could comprehend how such a gentle, devoted mother could have descended into such an unfathomable and dark abyss.
+Later, when the full truth came to light, the most agonizing grief that haunted our neighborhood was the heartbreaking arrival of the paternal grandmother.
+Dora Yates had promised to arrive that morning to help look after the young children, but an ordinary, unintended delay brought her to the doorstep when everything was already irrevocably lost.
+The elderly grandmother's weeping collapse before the police cordon became an indelible, haunting memory for every resident on our street.
+That devastating torment of the latecomer, missing the threshold of life and death by barely thirty fateful minutes, remains an incurable wound upon the soul.
 
 **[SFX]:** *Police cruiser door latch clicking shut, pages of an investigative notepad rustling.*
 
@@ -88,6 +92,10 @@ When we asked what could possibly drive such a devastating act, the mother stare
 In her delusional mind, she genuinely believed that Satan inhabited her soul and was destined to corrupt the innocent souls of her children.
 She insisted that ending their mortal lives was the only way to rescue them, ensuring their souls were received into heaven by God.
 It was a chilling statement, reflecting an absolute psychotic conviction that had utterly crushed her grasp of reality.
+Amid the harrowing silence of that suburban home that morning, investigative records documented the most heart-wrenching manifestation of primal survival instinct.
+It was the frantic flight of the eldest child, seven-year-old Noah, whose sudden realization prompted him to flee desperately down the hallway.
+In the innocent mind of a seven-year-old boy, the familiar sanctuary of his home had abruptly transformed into an inescapable nightmare.
+Yet for the mother locked within an acute psychotic fugue, that pursuit was driven not by malice, but by the twisted salvation delusion that she had to rescue his soul before darkness claimed it forever.
 
 **HOST** *(closing Act 1, leading into clinical psychiatric analysis)*:
 Andrea Yates's confession did not reflect the stubborn defiance of a killer attempting to rationalize wrongdoing.
@@ -131,6 +139,10 @@ Her explicit medical counsel was that the family should permanently refrain from
 Yet, despite that urgent clinical admonition, the desire for a large family and rigid theological pressures prevailed over medical caution.
 Shortly after her discharge, Andrea became pregnant with their fifth child in silent, obedient resignation.
 It was a catastrophic blind spot that placed a biological time bomb inside an already depleted central nervous system.
+Investigative records into the domestic dynamics revealed an invisible yet crushing gauntlet of expectations bearing down upon Andrea.
+Her husband, Russell Yates, adhered rigidly to an authoritarian patriarchal model, heavily influenced by the radical, guilt-laden correspondence of traveling preacher Michael Woroniecki.
+Despite explicit, grave medical warnings that any further pregnancy would inevitably trigger a catastrophic resurgence of psychosis, Russell adamantly pursued his vision of an expanding family.
+That relentless denial of psychological reality and blind reliance on his wife's endurance unwittingly steered an exhausted, unraveling mother into an absolute dead end.
 
 **[SFX]:** *Clock ticking with urgent cadence, automobile engine starting and departing from garage.*
 
@@ -160,6 +172,9 @@ An intensive psychological dissection commenced, delineating genuine psychiatric
 Here, medical science and criminal justice confronted each other in pursuit of supreme fairness and clinical truth.
 All eyes shifted toward forensic clinical evaluations regarding Andrea Yates's mental state at the exact moment of the act.
 The following behavioral science findings illuminate the intricate psychopathological mechanisms driving this tragedy.
+The catastrophe was compounded by a fatal blindspot within the psychiatric care system when her treating physician abruptly terminated all antipsychotic medication merely two weeks prior to the tragedy.
+Clinical complacency and a dismissive attitude toward the family's desperate warnings dismantled the sole pharmacological shield keeping neurological collapse at bay.
+When medical intervention retreated and domestic isolation consolidated, the mother's overburdened brain surrendered entirely to the overwhelming onslaught of psychotic delusions.
 
 **[BGM]:** *The music transitions into minimalist piano over low drone vibrations, creating an academic space for deep clinical analysis.*
 
@@ -186,6 +201,10 @@ Command hallucinations constantly whispered that she was an irredeemably wicked 
 She believed her perceived moral inadequacies had permanently doomed her children, making their future damnation an absolute certainty.
 This closed delusional loop entirely inverted all conventional moral logic and cognitive reasoning within the mother's psyche.
 Her actions were no longer governed by conscious deliberation, but dictated entirely by a profoundly distorted imperative of salvation.
+In forensic psychiatry, the Andrea Yates case stands as the quintessential manifestation of what clinical literature defines as ‘Altruistic Filicide’.
+Utterly distinct from predators motivated by malice, vengeance, or cruelty, a mother gripped by postpartum psychosis harbors no hostility toward her offspring.
+Within a worldview radically distorted by psychotic illness, she sincerely believed she was inherently damned, and that temporal death represented the solitary portal to ensure her children's eternal salvation.
+This embodies the most agonizing paradox of severe psychiatric disease: profound maternal devotion hijacked by a biochemical storm and inverted into an act of tragic destruction under the delusion of salvation.
 
 **HOST** *(analyzing the painful paradox of misguided devotion)*:
 Criminological psychology classifies Andrea Yates's conduct under the tragic clinical category of altruistic filicide.
@@ -218,6 +237,9 @@ This traumatic awakening plunged her into boundless despair, weighed down by inc
 That relentless internal torment serves as an enduring sentence far harsher than any physical penal facility could impose.
 Differentiating a critically ill medical patient from a calculating felon remains the supreme benchmark of civilized justice.
 The legal struggle to uphold scientific truth erupted decisively inside the courtroom of Harris County, Texas.
+A catastrophic rupture from reality erected an impenetrable cognitive barrier severing the mother from the outside world.
+When the human brain loses the capacity to distinguish between malignant pathological hallucinations and external objective reality, conventional moral compasses are entirely rendered void.
+Discerning the fundamental divide between calculated wickedness and the helpless tragedy of a shattered mind remains the truest measure of compassion and progress in modern civilization.
 
 **HOST** *(closing Act 3, leading into the historic trial)*:
 Doctor Phillip Resnick's comprehensive forensic evaluation established the Andrea Yates case as an enduring touchstone in legal history.
@@ -261,6 +283,10 @@ Investigators understand that true justice encompasses not merely punitive retri
 The retrial jury spent days listening attentively to granular psychiatric analyses delivered by the nation's leading medical experts.
 Those robust scientific foundations fundamentally transformed the assessment of criminal sanity inside that courtroom.
 The jury's eventual verdict in that retrial genuinely reflected the profound humanitarian essence of a civilized legal order.
+Weeks following her arrest, as intensive psychiatric stabilization inside the prison medical facility gradually restored biochemical balance in her brain, the true, agonizing horror erupted.
+It was the devastating threshold forensic clinicians identify as ‘Post-Psychotic Awakening’.
+As the dense fog of religious delusions receded entirely, the mother was confronted with the unfathomable truth: there was no demonic intervention, and her own hands had extinguished the lives of her beloved children.
+That catastrophic collapse of ego and overwhelming moral injury plunged the woman into silent, convulsive despair that words can scarcely capture.
 
 **[SFX]:** *Three decisive gavel strikes, a collective audible sigh of relief across the gallery.*
 
@@ -295,6 +321,10 @@ It demonstrated that the justice system must rigorously distinguish feigned illn
 This scientific validation marked a humanitarian milestone, guaranteeing appropriate psychiatric treatment for critically ill postpartum mothers.
 It also laid the groundwork for sweeping institutional reforms in postpartum screening and crisis intervention across the globe.
 Justice achieves its highest form only when illuminated by rigorous scientific inquiry and authentic humanitarian wisdom.
+Psychological science elucidates Andrea Yates's remorse as an authentic, enduring manifestation of moral atonement, standing in stark contrast to the pathological self-pity of narcissistic offenders.
+She never attempted self-justification, never lamented her lost personal liberty, nor weaponized victimhood to petition for earthly freedom.
+The most compelling testament to this mindset is that throughout nearly two decades of confinement at Kerrville State Hospital, Andrea has consistently declined to submit petitions for release.
+She consciously chooses to remain behind hospital walls, crafting knitted items daily to benefit the memorial fund honoring her children, voluntarily submitting to a lifelong prison of conscience until her final breath.
 
 **HOST** *(closing Act 4, leading into Act 5)*:
 While legal proceedings concluded after five arduous years, the haunting lessons of this case continue to resonate worldwide.
@@ -320,6 +350,9 @@ The most critical takeaway law enforcement and communities derived from the Andr
 When psychiatrists issue an explicit advisory never to leave a struggling mother alone with infants, that is a life-or-death safety directive.
 Even a momentary lapse in vigilance or domestic oversight can result in irreversible and catastrophic consequences.
 Rigorous vigilance and an active family support network constitute the ultimate shield protecting the lives of both mother and child.
+This landmark case permanently dismantled the dismissive skepticism surrounding maternal mental health within the modern criminal justice system.
+The unfathomable loss of five innocent young lives was transformed into the enduring catalyst for the Yates Children Memorial Fund, pioneering education and psychiatric support for countless families nationwide.
+True justice transcends mere retributive condemnation of tragic actions; it demands the moral courage to recognize clinical reality and safeguard vulnerable souls overwhelmed by mental collapse.
 
 **PSYCHOLOGIST** *(C: The medical neurobiology of postpartum psychiatric illness)*:
 Postpartum depression and psychosis represent neither moral weakness nor parental failure, but acute organic illnesses driven by neurochemical disruption.
@@ -327,6 +360,9 @@ New mothers undergo the most violent hormonal crash known to human physiology, c
 When neurotransmitter systems suffer catastrophic overload, reality testing can completely disintegrate, generating bizarre and dangerous delusions.
 Early clinical identification and immediate psychiatric pharmacotherapy can completely restore neurobiological stability and preserve family safety.
 Unconditional support and non-judgmental listening from partners and family represent the strongest fortress shielding women during this vulnerable passage.
+The most profound human lesson echoing from this tragedy is that the sanctity of a home cannot be sustained through isolated endurance and silence.
+When a postpartum mother plunges into profound depression and neurological exhaustion, it represents not a moral failure of willpower, but an urgent biological alarm demanding immediate empathy and intervention from partners and society alike.
+We must cultivate vigilance, dismantle stigma, and extend protective support before invisible psychological fractures unravel into irreversible heartbreak.
 
 **HOST** *(transitioning to practical synthesis and behavioral warning indicators)*:
 To assist families, particularly spouses and loved ones of perinatal women, in recognizing early mental health emergencies, Amber Eyes presents four classic red flags of postpartum psychosis derived from the Andrea Yates case.

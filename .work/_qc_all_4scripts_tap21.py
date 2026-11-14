@@ -55,7 +55,7 @@ for lang, path in files:
     
     print(f"Elements: {total_elements} (Expected: 51)")
     print(f"LOI turns: {len(loi)} (Expected: 32)")
-    print(f"Sentences: {total_sentences} (Expected: 212)")
+    print(f"Sentences: {total_sentences} (Expected: 248)")
     print(f"Words: {total_words}")
     
     fb_hits = []
@@ -86,7 +86,7 @@ for lang, path in files:
     status = (
         len(fb_hits) == 0
         and len(ellipsis_hits) == 0
-        and total_sentences == 212
+        and total_sentences == 248
         and total_elements == 51
         and double_cr == 0
     )
@@ -124,7 +124,7 @@ for lang in ["EN", "JA", "KO"]:
             print("  - " + m)
         parity_pass = False
     else:
-        print(f"PASS Parity: VN vs {lang} (100% matched across 51 elements, 32 turns, 212 sentences)")
+        print(f"PASS Parity: VN vs {lang} (100% matched across 51 elements, 32 turns, 248 sentences)")
 
 # Check edition.py hooks
 print("\n" + "=" * 70)

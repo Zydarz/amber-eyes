@@ -1,1496 +1,1676 @@
 [
-  {
-    "id": "1.01",
-    "act": 1,
-    "kind": "BGM",
-    "desc": "*Tiếng Dark Ambient dồn dập, nhịp điện tử căng thẳng hòa cùng tiếng còi xe cảnh sát từ xa tạo không khí ngột ngạt của một hiện trường án mạng.*"
-  },
-  {
-    "id": "1.02",
-    "act": 1,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "giọng trầm, mở đầu câu chuyện với kịch tính cao độ",
-    "text": "Buổi sáng ngày 5 tháng 8 năm 2009, tại thị trấn biển Boynton Beach thuộc bang Florida, một khu phố ngoại ô bỗng chốc bị vây kín bởi hàng chục xe cảnh sát và dải băng phong tỏa màu vàng. Bên ngoài căn nhà liền kề khang trang của gia đình Dippolito, các sĩ quan cảnh sát trang bị vũ khí đi lại dày đặc, tạo nên một hiện trường án mạng giả lập vô cùng căng thẳng. Mọi ánh nhìn của người dân địa phương và ống kính máy quay của chương trình truyền hình thực tế Cops đều đổ dồn về chiếc xe ô tô vừa lao tới hiện trường. Người phụ nữ bước xuống xe là Dalia Dippolito, hai mươi sáu tuổi, một người vợ trẻ vừa kết hôn được khoảng sáu tháng. Khi tiến lại gần dải băng phong tỏa, cô được một sĩ quan cảnh sát báo tin rằng chồng cô, Michael Dippolito, đã qua đời. Ngay giây phút lời thông báo vang lên, một màn diễn xuất bi kịch xứng tầm giải thưởng điện ảnh đã bùng nổ trước sự chứng kiến của toàn bộ đám đông. Dư chấn xã hội bùng nổ tức thì khi tin tức về một vụ tấn công nghiêm trọng ngay tại khu dân cư yên bình bắt đầu lan truyền trên các mặt báo địa phương. Cảm giác an toàn của cộng đồng cư dân ngoại ô bị xé toạc, đẩy sự hoang mang tập thể lên đến đỉnh điểm trong sự bàng hoàng khôn xiết.",
-    "sentences": [
-      {
-        "id": "1.02#1",
-        "text": "Buổi sáng ngày 5 tháng 8 năm 2009, tại thị trấn biển Boynton Beach thuộc bang Florida, một khu phố ngoại ô bỗng chốc bị vây kín bởi hàng chục xe cảnh sát và dải băng phong tỏa màu vàng.",
-        "words": 40
-      },
-      {
-        "id": "1.02#2",
-        "text": "Bên ngoài căn nhà liền kề khang trang của gia đình Dippolito, các sĩ quan cảnh sát trang bị vũ khí đi lại dày đặc, tạo nên một hiện trường án mạng giả lập vô cùng căng thẳng.",
-        "words": 38
-      },
-      {
-        "id": "1.02#3",
-        "text": "Mọi ánh nhìn của người dân địa phương và ống kính máy quay của chương trình truyền hình thực tế Cops đều đổ dồn về chiếc xe ô tô vừa lao tới hiện trường.",
-        "words": 34
-      },
-      {
-        "id": "1.02#4",
-        "text": "Người phụ nữ bước xuống xe là Dalia Dippolito, hai mươi sáu tuổi, một người vợ trẻ vừa kết hôn được khoảng sáu tháng.",
-        "words": 24
-      },
-      {
-        "id": "1.02#5",
-        "text": "Khi tiến lại gần dải băng phong tỏa, cô được một sĩ quan cảnh sát báo tin rằng chồng cô, Michael Dippolito, đã qua đời.",
-        "words": 25
-      },
-      {
-        "id": "1.02#6",
-        "text": "Ngay giây phút lời thông báo vang lên, một màn diễn xuất bi kịch xứng tầm giải thưởng điện ảnh đã bùng nổ trước sự chứng kiến của toàn bộ đám đông.",
-        "words": 32
-      },
-      {
-        "id": "1.02#7",
-        "text": "Dư chấn xã hội bùng nổ tức thì khi tin tức về một vụ tấn công nghiêm trọng ngay tại khu dân cư yên bình bắt đầu lan truyền trên các mặt báo địa phương.",
-        "words": 35
-      },
-      {
-        "id": "1.02#8",
-        "text": "Cảm giác an toàn của cộng đồng cư dân ngoại ô bị xé toạc, đẩy sự hoang mang tập thể lên đến đỉnh điểm trong sự bàng hoàng khôn xiết.",
-        "words": 30
-      }
-    ]
-  },
-  {
-    "id": "1.03",
-    "act": 1,
-    "kind": "SFX",
-    "desc": "*Tiếng phanh xe gấp, tiếng dải băng phong tỏa bay phần phật trong gió.*"
-  },
-  {
-    "id": "1.04",
-    "act": 1,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "tái hiện màn khóc lóc kịch tính của người vợ trẻ",
-    "text": "Dalia ôm mặt, khóc nức nở và gục đầu vào vai một sĩ quan cảnh sát đang đứng gác. Cô liên tục khóc nấc, run rẩy và hỏi đi hỏi lại chuyện gì đã xảy ra với người bạn đời của mình. Bất kỳ ai nhìn vào cảnh tượng ấy cũng sẽ tin rằng đây là một người vợ trẻ đáng thương đang bị xé nát tâm can trước sự mất mát đột ngột. Những giọt nước mắt tuôn rơi lã chã, giọng nói lạc đi vì đau đớn và cử chỉ bàng hoàng của cô ta đã hoàn toàn đánh lừa những người dân hiếu kỳ xung quanh. Nhưng điều mà người phụ nữ này hoàn toàn không thể ngờ tới là toàn bộ hiện trường kia chỉ là một cái bẫy nghiệp vụ do cảnh sát dàn dựng. Người chồng Michael Dippolito thực chất vẫn còn sống và đang an toàn tuyệt đối dưới sự bảo vệ của lực lượng điều tra. Và kẻ chủ mưu thuê sát thủ để lấy mạng người đàn ông ấy không phải là một băng đảng xa lạ nào khác, mà chính là người vợ đang khóc lóc thảm thiết ngoài kia. Sự đối lập ghê rợn giữa màn kịch đau đớn trước máy quay và toan tính tàn độc bên trong đã tạo nên một cú sốc không thể tưởng tượng nổi.",
-    "sentences": [
-      {
-        "id": "1.04#1",
-        "text": "Dalia ôm mặt, khóc nức nở và gục đầu vào vai một sĩ quan cảnh sát đang đứng gác.",
-        "words": 19
-      },
-      {
-        "id": "1.04#2",
-        "text": "Cô liên tục khóc nấc, run rẩy và hỏi đi hỏi lại chuyện gì đã xảy ra với người bạn đời của mình.",
-        "words": 23
-      },
-      {
-        "id": "1.04#3",
-        "text": "Bất kỳ ai nhìn vào cảnh tượng ấy cũng sẽ tin rằng đây là một người vợ trẻ đáng thương đang bị xé nát tâm can trước sự mất mát đột ngột.",
-        "words": 32
-      },
-      {
-        "id": "1.04#4",
-        "text": "Những giọt nước mắt tuôn rơi lã chã, giọng nói lạc đi vì đau đớn và cử chỉ bàng hoàng của cô ta đã hoàn toàn đánh lừa những người dân hiếu kỳ xung quanh.",
-        "words": 35
-      },
-      {
-        "id": "1.04#5",
-        "text": "Nhưng điều mà người phụ nữ này hoàn toàn không thể ngờ tới là toàn bộ hiện trường kia chỉ là một cái bẫy nghiệp vụ do cảnh sát dàn dựng.",
-        "words": 31
-      },
-      {
-        "id": "1.04#6",
-        "text": "Người chồng Michael Dippolito thực chất vẫn còn sống và đang an toàn tuyệt đối dưới sự bảo vệ của lực lượng điều tra.",
-        "words": 24
-      },
-      {
-        "id": "1.04#7",
-        "text": "Và kẻ chủ mưu thuê sát thủ để lấy mạng người đàn ông ấy không phải là một băng đảng xa lạ nào khác, mà chính là người vợ đang khóc lóc thảm thiết ngoài kia.",
-        "words": 36
-      },
-      {
-        "id": "1.04#8",
-        "text": "Sự đối lập ghê rợn giữa màn kịch đau đớn trước máy quay và toan tính tàn độc bên trong đã tạo nên một cú sốc không thể tưởng tượng nổi.",
-        "words": 31
-      }
-    ]
-  },
-  {
-    "id": "1.05",
-    "act": 1,
-    "kind": "SFX",
-    "desc": "*Tiếng máy quay phim truyền hình rè nhẹ, tiếng xì xào bàn tán của đám đông.*"
-  },
-  {
-    "id": "1.06",
-    "act": 1,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "nhấn mạnh sự trơ trẽn của vụ án gây chấn động nước Mỹ",
-    "text": "Vụ án Dalia Dippolito nhanh chóng trở thành một hiện tượng truyền thông toàn cầu bởi sự trơ trẽn và mức độ xảo quyệt chưa từng có trong lịch sử tố tụng nước Mỹ. Theo hồ sơ của bên công tố, ẩn sau đám cưới ngọt ngào là một cuộc hôn nhân vụ lợi nhằm chiếm đoạt tiền bạc và quyền sở hữu căn nhà của người chồng. Để độc chiếm toàn bộ tài sản mà không cần ly hôn, người đàn bà ấy đã tìm thuê người tước đoạt mạng sống của người phối ngẫu. Sự đối lập ghê rợn giữa màn khóc thương giả tạo ngoài hiện trường với sự lạnh lùng tàn nhẫn khi thuê sát thủ đã làm rúng động toàn bộ dư luận. Những nhân chứng có mặt tại hiện trường ngày hôm đó không bao giờ có thể quên được sự lừa dối trơ trẽn đến kinh ngạc ấy. Vỏ bọc người vợ trẻ trung, duyên dáng và yếu đuối đã tạo nên một hiệu ứng hào quang hoàn hảo, ru ngủ sự cảnh giác của xã hội suốt nhiều tháng. Người ngoài từ chối tin rằng một phụ nữ có vẻ ngoài thánh thiện lại có thể dung dưỡng một dã tâm hủy diệt khủng khiếp đến như vậy.",
-    "sentences": [
-      {
-        "id": "1.06#1",
-        "text": "Vụ án Dalia Dippolito nhanh chóng trở thành một hiện tượng truyền thông toàn cầu bởi sự trơ trẽn và mức độ xảo quyệt chưa từng có trong lịch sử tố tụng nước Mỹ.",
-        "words": 34
-      },
-      {
-        "id": "1.06#2",
-        "text": "Theo hồ sơ của bên công tố, ẩn sau đám cưới ngọt ngào là một cuộc hôn nhân vụ lợi nhằm chiếm đoạt tiền bạc và quyền sở hữu căn nhà của người chồng.",
-        "words": 34
-      },
-      {
-        "id": "1.06#3",
-        "text": "Để độc chiếm toàn bộ tài sản mà không cần ly hôn, người đàn bà ấy đã tìm thuê người tước đoạt mạng sống của người phối ngẫu.",
-        "words": 28
-      },
-      {
-        "id": "1.06#4",
-        "text": "Sự đối lập ghê rợn giữa màn khóc thương giả tạo ngoài hiện trường với sự lạnh lùng tàn nhẫn khi thuê sát thủ đã làm rúng động toàn bộ dư luận.",
-        "words": 32
-      },
-      {
-        "id": "1.06#5",
-        "text": "Những nhân chứng có mặt tại hiện trường ngày hôm đó không bao giờ có thể quên được sự lừa dối trơ trẽn đến kinh ngạc ấy.",
-        "words": 27
-      },
-      {
-        "id": "1.06#6",
-        "text": "Vỏ bọc người vợ trẻ trung, duyên dáng và yếu đuối đã tạo nên một hiệu ứng hào quang hoàn hảo, ru ngủ sự cảnh giác của xã hội suốt nhiều tháng.",
-        "words": 32
-      },
-      {
-        "id": "1.06#7",
-        "text": "Người ngoài từ chối tin rằng một phụ nữ có vẻ ngoài thánh thiện lại có thể dung dưỡng một dã tâm hủy diệt khủng khiếp đến như vậy.",
-        "words": 29
-      }
-    ]
-  },
-  {
-    "id": "1.07",
-    "act": 1,
-    "kind": "LOI",
-    "role": "N",
-    "direction": "N1: Người hàng xóm minh hoạ, giọng nữ thanh niên bàng hoàng, rùng mình",
-    "text": "Hãy hình dung cảm giác của một người hàng xóm sáng hôm đó, khi nghe tiếng còi hú dồn dập và chạy ra xem chuyện gì đang xảy ra. Cảnh sát giăng dây phong tỏa khắp nơi, các thám tử đi lại lấy dấu vết và không khí u ám như một bộ phim hành động thực sự. Khi thấy xe của Dalia chạy về và cô ấy lao xuống khóc lóc, tất cả chúng tôi đều cảm thấy vô cùng xót xa cho người vợ trẻ. Cô ấy ôm lấy sĩ quan cảnh sát, khóc nấc lên từng hồi và gần như ngất đi vì không thể chịu đựng nổi nỗi đau đớn. Tôi đã thầm cầu nguyện cho cô ấy và nghĩ rằng kẻ nào đã làm điều tàn ác này với gia đình họ thật là vô nhân tính. Thế nhưng khi xem bản tin truyền hình và biết toàn bộ sự thật, tôi đã rùng mình đến lạnh toát sống lưng. Cảm giác kinh hoàng khi nhận ra một âm mưu tước đoạt sinh mạng đã diễn ra ngay sát vách căn nhà của mình suốt nhiều tuần lễ. Tất cả những giọt nước mắt, tiếng gào khóc thảm thương sáng hôm đó hoàn toàn là một vở kịch trơ trẽn không thể tha thứ.",
-    "sentences": [
-      {
-        "id": "1.07#1",
-        "text": "Hãy hình dung cảm giác của một người hàng xóm sáng hôm đó, khi nghe tiếng còi hú dồn dập và chạy ra xem chuyện gì đang xảy ra.",
-        "words": 29
-      },
-      {
-        "id": "1.07#2",
-        "text": "Cảnh sát giăng dây phong tỏa khắp nơi, các thám tử đi lại lấy dấu vết và không khí u ám như một bộ phim hành động thực sự.",
-        "words": 29
-      },
-      {
-        "id": "1.07#3",
-        "text": "Khi thấy xe của Dalia chạy về và cô ấy lao xuống khóc lóc, tất cả chúng tôi đều cảm thấy vô cùng xót xa cho người vợ trẻ.",
-        "words": 29
-      },
-      {
-        "id": "1.07#4",
-        "text": "Cô ấy ôm lấy sĩ quan cảnh sát, khóc nấc lên từng hồi và gần như ngất đi vì không thể chịu đựng nổi nỗi đau đớn.",
-        "words": 27
-      },
-      {
-        "id": "1.07#5",
-        "text": "Tôi đã thầm cầu nguyện cho cô ấy và nghĩ rằng kẻ nào đã làm điều tàn ác này với gia đình họ thật là vô nhân tính.",
-        "words": 28
-      },
-      {
-        "id": "1.07#6",
-        "text": "Thế nhưng khi xem bản tin truyền hình và biết toàn bộ sự thật, tôi đã rùng mình đến lạnh toát sống lưng.",
-        "words": 23
-      },
-      {
-        "id": "1.07#7",
-        "text": "Cảm giác kinh hoàng khi nhận ra một âm mưu tước đoạt sinh mạng đã diễn ra ngay sát vách căn nhà của mình suốt nhiều tuần lễ.",
-        "words": 28
-      },
-      {
-        "id": "1.07#8",
-        "text": "Tất cả những giọt nước mắt, tiếng gào khóc thảm thương sáng hôm đó hoàn toàn là một vở kịch trơ trẽn không thể tha thứ.",
-        "words": 26
-      }
-    ]
-  },
-  {
-    "id": "1.08",
-    "act": 1,
-    "kind": "SFX",
-    "desc": "*Tiếng còi xe tuần tra xa dần, tiếng bộ đàm cảnh sát ngắt quãng.*"
-  },
-  {
-    "id": "1.09",
-    "act": 1,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "tái hiện không khí phòng thẩm vấn",
-    "text": "Sau màn kịch bi thương tại hiện trường, Dalia Dippolito được lực lượng chức năng đưa về trụ sở cảnh sát Boynton Beach. Ngồi trong phòng thẩm vấn kín, cô ta vẫn tiếp tục sắm vai một góa phụ trẻ đau buồn, liên tục lau những giọt nước mắt vô hình. Thế nhưng người đàn bà ấy hoàn toàn không hề hay biết rằng các điều tra viên đã nắm trong tay những bằng chứng thép mang tính hủy diệt. Các ống kính máy quay nghiệp vụ giấu kín trong căn phòng đang ghi lại trọn vẹn từng cử chỉ, ánh mắt và nhịp thở của ả. Toàn bộ cuộc gặp gỡ bí mật giữa ả và người sát thủ hợp đồng thực chất đã được thu hình và lưu trữ cẩn thận từ trước đó vài ngày. Sự tự tin bệnh lý của một kẻ ái kỷ khiến ả tin chắc rằng màn diễn xuất xuất thần tại hiện trường đã qua mặt được toàn bộ lực lượng cảnh sát. Ả đinh ninh rằng kế hoạch tinh vi của mình hoàn hảo đến mức không để lại bất kỳ kẽ hở nào cho pháp luật can thiệp. Nhưng chiếc bẫy nghiệp vụ của các thám tử điều tra chỉ vừa mới bắt đầu bước vào giai đoạn quyết định nhất.",
-    "sentences": [
-      {
-        "id": "1.09#1",
-        "text": "Sau màn kịch bi thương tại hiện trường, Dalia Dippolito được lực lượng chức năng đưa về trụ sở cảnh sát Boynton Beach.",
-        "words": 23
-      },
-      {
-        "id": "1.09#2",
-        "text": "Ngồi trong phòng thẩm vấn kín, cô ta vẫn tiếp tục sắm vai một góa phụ trẻ đau buồn, liên tục lau những giọt nước mắt vô hình.",
-        "words": 28
-      },
-      {
-        "id": "1.09#3",
-        "text": "Thế nhưng người đàn bà ấy hoàn toàn không hề hay biết rằng các điều tra viên đã nắm trong tay những bằng chứng thép mang tính hủy diệt.",
-        "words": 29
-      },
-      {
-        "id": "1.09#4",
-        "text": "Các ống kính máy quay nghiệp vụ giấu kín trong căn phòng đang ghi lại trọn vẹn từng cử chỉ, ánh mắt và nhịp thở của ả.",
-        "words": 27
-      },
-      {
-        "id": "1.09#5",
-        "text": "Toàn bộ cuộc gặp gỡ bí mật giữa ả và người sát thủ hợp đồng thực chất đã được thu hình và lưu trữ cẩn thận từ trước đó vài ngày.",
-        "words": 31
-      },
-      {
-        "id": "1.09#6",
-        "text": "Sự tự tin bệnh lý của một kẻ ái kỷ khiến ả tin chắc rằng màn diễn xuất xuất thần tại hiện trường đã qua mặt được toàn bộ lực lượng cảnh sát.",
-        "words": 33
-      },
-      {
-        "id": "1.09#7",
-        "text": "Ả đinh ninh rằng kế hoạch tinh vi của mình hoàn hảo đến mức không để lại bất kỳ kẽ hở nào cho pháp luật can thiệp.",
-        "words": 27
-      },
-      {
-        "id": "1.09#8",
-        "text": "Nhưng chiếc bẫy nghiệp vụ của các thám tử điều tra chỉ vừa mới bắt đầu bước vào giai đoạn quyết định nhất.",
-        "words": 23
-      }
-    ]
-  },
-  {
-    "id": "1.10",
-    "act": 1,
-    "kind": "LOI",
-    "role": "D",
-    "direction": "D: Điều tra viên minh hoạ, giọng nam trung niên đanh thép, chuẩn xác",
-    "text": "Chiến dịch nghiệp vụ giăng bẫy được chúng tôi kích hoạt ngay sau khi nhận được lời tố giác từ một người trung gian từng có quan hệ thân cận với Dalia. Sau khi đánh giá các đoạn tin nhắn và thu âm sơ bộ, cơ quan điều tra nhận định mối đe dọa đối với sinh mạng của Michael Dippolito là vô cùng cấp bách. Chúng tôi quyết định cài một sĩ quan cảnh sát chìm dày dạn kinh nghiệm đóng vai sát thủ hợp đồng chuyên nghiệp để trực tiếp tiếp cận đối tượng. Hiện trường phong tỏa sáng ngày 5 tháng 8 là một bước đi nghiệp vụ bắt buộc nhằm cô lập đối tượng và kiểm chứng phản ứng tâm lý thực tế. Mọi hành vi, từ việc di chuyển đến hiện trường cho đến những giọt nước mắt gục vào vai sĩ quan gác cổng, đều khớp chính xác với dự đoán của hồ sơ tâm lý tội phạm. Mục tiêu tối thượng của chúng tôi là bảo đảm tuyệt đối tính mạng cho nạn nhân, đồng thời thu thập chuỗi bằng chứng khách quan không thể bị bác bỏ. Đây là một chiến dịch giăng bẫy mẫu mực, nơi khoa học điều tra và công nghệ ghi hình đã chặn đứng một thảm kịch gia đình cận kề.",
-    "sentences": [
-      {
-        "id": "1.10#1",
-        "text": "Chiến dịch nghiệp vụ giăng bẫy được chúng tôi kích hoạt ngay sau khi nhận được lời tố giác từ một người trung gian từng có quan hệ thân cận với Dalia.",
-        "words": 32
-      },
-      {
-        "id": "1.10#2",
-        "text": "Sau khi đánh giá các đoạn tin nhắn và thu âm sơ bộ, cơ quan điều tra nhận định mối đe dọa đối với sinh mạng của Michael Dippolito là vô cùng cấp bách.",
-        "words": 34
-      },
-      {
-        "id": "1.10#3",
-        "text": "Chúng tôi quyết định cài một sĩ quan cảnh sát chìm dày dạn kinh nghiệm đóng vai sát thủ hợp đồng chuyên nghiệp để trực tiếp tiếp cận đối tượng.",
-        "words": 30
-      },
-      {
-        "id": "1.10#4",
-        "text": "Hiện trường phong tỏa sáng ngày 5 tháng 8 là một bước đi nghiệp vụ bắt buộc nhằm cô lập đối tượng và kiểm chứng phản ứng tâm lý thực tế.",
-        "words": 31
-      },
-      {
-        "id": "1.10#5",
-        "text": "Mọi hành vi, từ việc di chuyển đến hiện trường cho đến những giọt nước mắt gục vào vai sĩ quan gác cổng, đều khớp chính xác với dự đoán của hồ sơ tâm lý tội phạm.",
-        "words": 37
-      },
-      {
-        "id": "1.10#6",
-        "text": "Mục tiêu tối thượng của chúng tôi là bảo đảm tuyệt đối tính mạng cho nạn nhân, đồng thời thu thập chuỗi bằng chứng khách quan không thể bị bác bỏ.",
-        "words": 31
-      },
-      {
-        "id": "1.10#7",
-        "text": "Đây là một chiến dịch giăng bẫy mẫu mực, nơi khoa học điều tra và công nghệ ghi hình đã chặn đứng một thảm kịch gia đình cận kề.",
-        "words": 29
-      }
-    ]
-  },
-  {
-    "id": "1.11",
-    "act": 1,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "kết thúc hồi 1, mở ra cuộc đối đầu gay cấn",
-    "text": "Chiếc bẫy nghiệp vụ tinh vi đã khép lại một cách trọn vẹn mà đối tượng không hề hay biết. Sân khấu kịch nghệ ngoài đời thực giờ đây chuyển đổi không gian sang bốn bức tường lạnh lẽo của phòng hỏi cung. Một cuộc đấu trí tâm lý nghẹt thở sắp sửa diễn ra giữa các điều tra viên sắc bén và người vợ mới cưới trơ trẽn. Và những sự thật kinh hoàng nhất về dã tâm con người sẽ được phơi bày trọn vẹn ngay sau đây.",
-    "sentences": [
-      {
-        "id": "1.11#1",
-        "text": "Chiếc bẫy nghiệp vụ tinh vi đã khép lại một cách trọn vẹn mà đối tượng không hề hay biết.",
-        "words": 20
-      },
-      {
-        "id": "1.11#2",
-        "text": "Sân khấu kịch nghệ ngoài đời thực giờ đây chuyển đổi không gian sang bốn bức tường lạnh lẽo của phòng hỏi cung.",
-        "words": 23
-      },
-      {
-        "id": "1.11#3",
-        "text": "Một cuộc đấu trí tâm lý nghẹt thở sắp sửa diễn ra giữa các điều tra viên sắc bén và người vợ mới cưới trơ trẽn.",
-        "words": 26
-      },
-      {
-        "id": "1.11#4",
-        "text": "Và những sự thật kinh hoàng nhất về dã tâm con người sẽ được phơi bày trọn vẹn ngay sau đây.",
-        "words": 21
-      }
-    ]
-  },
-  {
-    "id": "1.12",
-    "act": 1,
-    "kind": "BGM",
-    "desc": "*Tiếng Dark Ambient chìm dần, tiếng nhịp tim và tiếng tích tắc đồng hồ lạnh lẽo khép lại Hồi 1.*"
-  },
-  {
-    "id": "2.01",
-    "act": 2,
-    "kind": "BGM",
-    "desc": "*Âm thanh Electronic Pulse dồn dập, tiếng tích tắc đồng hồ lạnh lẽo và sắc lạnh tạo cảm giác căng thẳng của một phòng hỏi cung.*"
-  },
-  {
-    "id": "2.02",
-    "act": 2,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "tiết tấu nhanh, miêu tả phản ứng thao túng tâm lý",
-    "text": "Khi ngồi đối diện với các điều tra viên, thay vì cúi đầu nhận tội hay bộc lộ sự bối rối, Dalia Dippolito lập tức chuyển đổi chiến thuật sang trạng thái phòng vệ cực đoan. Ả một mực phủ nhận việc mình có bất kỳ toan tính nào nhằm làm tổn hại đến người phối ngẫu. Phản ứng này phản ánh rõ nét kỹ thuật Gaslighting, tức thao túng thực tại, nơi kẻ dối trá trơ trẽn cố gắng khiến người đối diện nghi ngờ chính nhận thức và bằng chứng rõ ràng trước mắt. Ả đóng vai một nạn nhân ngây thơ bị vu khống, lớn tiếng khẳng định tình yêu vô điều kiện mà mình dành cho Michael. Ả hy vọng sự tự tin giả tạo và những giọt nước mắt vội vã có thể làm lung lay sự quyết đoán của các sĩ quan thẩm vấn.",
-    "sentences": [
-      {
-        "id": "2.02#1",
-        "text": "Khi ngồi đối diện với các điều tra viên, thay vì cúi đầu nhận tội hay bộc lộ sự bối rối, Dalia Dippolito lập tức chuyển đổi chiến thuật sang trạng thái phòng vệ cực đoan.",
-        "words": 36
-      },
-      {
-        "id": "2.02#2",
-        "text": "Ả một mực phủ nhận việc mình có bất kỳ toan tính nào nhằm làm tổn hại đến người phối ngẫu.",
-        "words": 21
-      },
-      {
-        "id": "2.02#3",
-        "text": "Phản ứng này phản ánh rõ nét kỹ thuật Gaslighting, tức thao túng thực tại, nơi kẻ dối trá trơ trẽn cố gắng khiến người đối diện nghi ngờ chính nhận thức và bằng chứng rõ ràng trước mắt.",
-        "words": 39
-      },
-      {
-        "id": "2.02#4",
-        "text": "Ả đóng vai một nạn nhân ngây thơ bị vu khống, lớn tiếng khẳng định tình yêu vô điều kiện mà mình dành cho Michael.",
-        "words": 25
-      },
-      {
-        "id": "2.02#5",
-        "text": "Ả hy vọng sự tự tin giả tạo và những giọt nước mắt vội vã có thể làm lung lay sự quyết đoán của các sĩ quan thẩm vấn.",
-        "words": 29
-      }
-    ]
-  },
-  {
-    "id": "2.03",
-    "act": 2,
-    "kind": "SFX",
-    "desc": "*Tiếng ghế kim loại bị kéo mạnh lách cách, tiếng bước chân lùi lại dứt khoát.*"
-  },
-  {
-    "id": "2.04",
-    "act": 2,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "vạch trần sự trơ trẽn đối mặt với video bằng chứng",
-    "text": "Thế nhưng các điều tra viên không bước vào cuộc nói chuyện này bằng hai bàn tay trắng. Họ bật màn hình máy tính và cho Dalia xem đoạn video ghi lại cuộc gặp gỡ bí mật bên trong chiếc xe hơi màu đỏ ngày 1 tháng 8 năm 2009. Từng khung hình sắc nét phơi bày trọn vẹn khuôn mặt, cử chỉ hào hứng và giọng nói không thể nhầm lẫn của Dalia khi trao đổi với sát thủ chìm. Ả bàn bạc chi tiết về thời điểm ra tay, cách thức tạo hiện trường vụ cướp giả lập và dặn dò sát thủ không được để lại dấu vết. Khi viên cảnh sát chìm hỏi liệu cô có chắc chắn một trăm phần trăm về quyết định này không, Dalia đã thốt ra câu nói chấn động: Tôi chắc chắn năm nghìn phần trăm. Ả còn căn dặn sát thủ phải hành động vào buổi sáng khi mình đang ở phòng tập thể dục để tạo bằng chứng ngoại phạm hoàn hảo. Đối diện với hình ảnh của chính mình trên màn hình, Dalia vẫn trơ tráo biện minh rằng đoạn video đã bị cắt ghép hoặc hiểu sai ngữ cảnh. Sự ngoan cố đến phi lý của người đàn bà này làm kinh ngạc ngay cả những điều tra viên dày dạn kinh nghiệm nhất.",
-    "sentences": [
-      {
-        "id": "2.04#1",
-        "text": "Thế nhưng các điều tra viên không bước vào cuộc nói chuyện này bằng hai bàn tay trắng.",
-        "words": 18
-      },
-      {
-        "id": "2.04#2",
-        "text": "Họ bật màn hình máy tính và cho Dalia xem đoạn video ghi lại cuộc gặp gỡ bí mật bên trong chiếc xe hơi màu đỏ ngày 1 tháng 8 năm 2009.",
-        "words": 32
-      },
-      {
-        "id": "2.04#3",
-        "text": "Từng khung hình sắc nét phơi bày trọn vẹn khuôn mặt, cử chỉ hào hứng và giọng nói không thể nhầm lẫn của Dalia khi trao đổi với sát thủ chìm.",
-        "words": 31
-      },
-      {
-        "id": "2.04#4",
-        "text": "Ả bàn bạc chi tiết về thời điểm ra tay, cách thức tạo hiện trường vụ cướp giả lập và dặn dò sát thủ không được để lại dấu vết.",
-        "words": 30
-      },
-      {
-        "id": "2.04#5",
-        "text": "Khi viên cảnh sát chìm hỏi liệu cô có chắc chắn một trăm phần trăm về quyết định này không, Dalia đã thốt ra câu nói chấn động: Tôi chắc chắn năm nghìn phần trăm.",
-        "words": 35
-      },
-      {
-        "id": "2.04#6",
-        "text": "Ả còn căn dặn sát thủ phải hành động vào buổi sáng khi mình đang ở phòng tập thể dục để tạo bằng chứng ngoại phạm hoàn hảo.",
-        "words": 28
-      },
-      {
-        "id": "2.04#7",
-        "text": "Đối diện với hình ảnh của chính mình trên màn hình, Dalia vẫn trơ tráo biện minh rằng đoạn video đã bị cắt ghép hoặc hiểu sai ngữ cảnh.",
-        "words": 29
-      },
-      {
-        "id": "2.04#8",
-        "text": "Sự ngoan cố đến phi lý của người đàn bà này làm kinh ngạc ngay cả những điều tra viên dày dạn kinh nghiệm nhất.",
-        "words": 25
-      }
-    ]
-  },
-  {
-    "id": "2.05",
-    "act": 2,
-    "kind": "SFX",
-    "desc": "*Tiếng lách cách bấm mở máy cassette ghi âm nghiệp vụ, tiếng rè băng từ.*"
-  },
-  {
-    "id": "2.06",
-    "act": 2,
-    "kind": "LOI",
-    "role": "D",
-    "direction": "D: phân tích giữa thủ đoạn gây án và dấu ấn tâm lý",
-    "text": "Dưới góc độ nghiệp vụ điều tra, chúng tôi phân tích rất rõ sự khác biệt giữa thủ đoạn gây án Modus Operandi và dấu ấn tâm lý Signature của đối tượng. Về thủ đoạn gây án, Dalia đã tính toán kỹ lưỡng việc tạo ngoại phạm tại phòng tập gym, sử dụng sim điện thoại rác và thuê người ngoài để tránh bị truy vết trực tiếp. Thế nhưng dấu ấn tâm lý bệnh lý của ả lại bộc lộ ở nhu cầu kiểm soát tuyệt đối và sự hưng phấn quyền lực. Câu nói tôi chắc chắn năm nghìn phần trăm không chỉ là một lời xác nhận, mà là một chữ ký tâm lý thể hiện sự quyết đoán tàn nhẫn không hề có chút do dự. Ả không hề có một khoảnh khắc ngập ngừng hay trắc ẩn nào khi định đoạt mạng sống của người đàn ông từng chung chăn gối. Đây không phải là hành vi bộc phát của một người bị dồn vào chân tường, mà là một hành vi săn mồi có tính toán và hoàn toàn chủ động. Chuỗi chứng cứ hình ảnh và âm thanh này là đòn kết liễu đập tan mọi nỗ lực chối tội của đối tượng.",
-    "sentences": [
-      {
-        "id": "2.06#1",
-        "text": "Dưới góc độ nghiệp vụ điều tra, chúng tôi phân tích rất rõ sự khác biệt giữa thủ đoạn gây án Modus Operandi và dấu ấn tâm lý Signature của đối tượng.",
-        "words": 32
-      },
-      {
-        "id": "2.06#2",
-        "text": "Về thủ đoạn gây án, Dalia đã tính toán kỹ lưỡng việc tạo ngoại phạm tại phòng tập gym, sử dụng sim điện thoại rác và thuê người ngoài để tránh bị truy vết trực tiếp.",
-        "words": 36
-      },
-      {
-        "id": "2.06#3",
-        "text": "Thế nhưng dấu ấn tâm lý bệnh lý của ả lại bộc lộ ở nhu cầu kiểm soát tuyệt đối và sự hưng phấn quyền lực.",
-        "words": 26
-      },
-      {
-        "id": "2.06#4",
-        "text": "Câu nói tôi chắc chắn năm nghìn phần trăm không chỉ là một lời xác nhận, mà là một chữ ký tâm lý thể hiện sự quyết đoán tàn nhẫn không hề có chút do dự.",
-        "words": 36
-      },
-      {
-        "id": "2.06#5",
-        "text": "Ả không hề có một khoảnh khắc ngập ngừng hay trắc ẩn nào khi định đoạt mạng sống của người đàn ông từng chung chăn gối.",
-        "words": 26
-      },
-      {
-        "id": "2.06#6",
-        "text": "Đây không phải là hành vi bộc phát của một người bị dồn vào chân tường, mà là một hành vi săn mồi có tính toán và hoàn toàn chủ động.",
-        "words": 31
-      },
-      {
-        "id": "2.06#7",
-        "text": "Chuỗi chứng cứ hình ảnh và âm thanh này là đòn kết liễu đập tan mọi nỗ lực chối tội của đối tượng.",
-        "words": 23
-      }
-    ]
-  },
-  {
-    "id": "2.07",
-    "act": 2,
-    "kind": "SFX",
-    "desc": "*Tiếng lật hồ sơ bằng chứng, tiếng gõ bút bi xuống mặt bàn kim loại.*"
-  },
-  {
-    "id": "2.08",
-    "act": 2,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "phân tích chuỗi hành vi leo thang độc hại trước đó",
-    "text": "Vụ thuê sát thủ ngày 1 tháng 8 thực chất không phải là nỗ lực đầu tiên của Dalia nhằm loại bỏ người chồng. Theo lời khai sau đó của Michael, anh từng nhiều lần rơi vào những tình huống nguy hiểm bí ẩn trong suốt sáu tháng hôn nhân ngắn ngủi. Có lần anh phát hiện ly trà do vợ pha có mùi vị lạ cùng một lớp bột màu trắng khả nghi lắng dưới đáy cốc. Chưa dừng lại ở đó, một gói chất cấm bất ngờ được giấu kín dưới gầm xe ô tô của Michael, kéo theo một cuộc gọi nặc danh báo cảnh sát nhằm tống anh vào tù vì vi phạm lệnh quản chế. Michael đã suýt mất đi quyền tự do nếu cơ quan chức năng không kịp thời xác minh sự việc và nhận ra dấu hiệu bị gài bẫy. Giờ đây khi xâu chuỗi toàn bộ sự việc, người chồng bàng hoàng nhận ra những hiểm họa liên tiếp đó đều xuất phát từ người vợ đầu ấp tay gối. Ảo tưởng trục lợi của Dalia đã leo thang theo một quỹ đạo nguy hiểm, từ gài bẫy pháp lý cho đến quyết định thuê sát thủ lấy đi sinh mạng.",
-    "sentences": [
-      {
-        "id": "2.08#1",
-        "text": "Vụ thuê sát thủ ngày 1 tháng 8 thực chất không phải là nỗ lực đầu tiên của Dalia nhằm loại bỏ người chồng.",
-        "words": 24
-      },
-      {
-        "id": "2.08#2",
-        "text": "Theo lời khai sau đó của Michael, anh từng nhiều lần rơi vào những tình huống nguy hiểm bí ẩn trong suốt sáu tháng hôn nhân ngắn ngủi.",
-        "words": 28
-      },
-      {
-        "id": "2.08#3",
-        "text": "Có lần anh phát hiện ly trà do vợ pha có mùi vị lạ cùng một lớp bột màu trắng khả nghi lắng dưới đáy cốc.",
-        "words": 26
-      },
-      {
-        "id": "2.08#4",
-        "text": "Chưa dừng lại ở đó, một gói chất cấm bất ngờ được giấu kín dưới gầm xe ô tô của Michael, kéo theo một cuộc gọi nặc danh báo cảnh sát nhằm tống anh vào tù vì vi phạm lệnh quản chế.",
-        "words": 42
-      },
-      {
-        "id": "2.08#5",
-        "text": "Michael đã suýt mất đi quyền tự do nếu cơ quan chức năng không kịp thời xác minh sự việc và nhận ra dấu hiệu bị gài bẫy.",
-        "words": 28
-      },
-      {
-        "id": "2.08#6",
-        "text": "Giờ đây khi xâu chuỗi toàn bộ sự việc, người chồng bàng hoàng nhận ra những hiểm họa liên tiếp đó đều xuất phát từ người vợ đầu ấp tay gối.",
-        "words": 31
-      },
-      {
-        "id": "2.08#7",
-        "text": "Ảo tưởng trục lợi của Dalia đã leo thang theo một quỹ đạo nguy hiểm, từ gài bẫy pháp lý cho đến quyết định thuê sát thủ lấy đi sinh mạng.",
-        "words": 31
-      }
-    ]
-  },
-  {
-    "id": "2.09",
-    "act": 2,
-    "kind": "LOI",
-    "role": "D",
-    "direction": "D: phân tích ngòi nổ và điểm gãy tâm lý kích hoạt tội ác",
-    "text": "Ngòi nổ kích hoạt chuỗi hành vi phạm tội của Dalia gắn liền chặt chẽ với vấn đề quyền sở hữu bất động sản. Chỉ một thời gian ngắn sau ngày cưới, Dalia đã liên tục gây áp lực và thúc ép Michael ký văn bản sang tên toàn bộ quyền sở hữu căn nhà cho ả. Khi Michael bắt đầu nghi ngờ các vụ việc gài bẫy trước đó và thời hạn quản chế của anh sắp kết thúc, Dalia nhận ra thời gian không còn đứng về phía mình. Nếu Michael phát hiện ra sự thật và đệ đơn ly hôn, hợp đồng chuyển nhượng căn nhà có thể bị tòa án hủy bỏ và ả sẽ mất trắng toàn bộ tài sản. Điểm gãy tâm lý xuất hiện khi chiếc mặt nạ dối trá đứng trước nguy cơ bị lột trần, thôi thúc ả phải hành động cấp bách. Ả quyết định thuê người đoạt mạng người bạn đời để vừa giữ trọn căn nhà trị giá hàng trăm nghìn đô la, vừa chiếm đoạt toàn bộ tiền tiết kiệm trong tài khoản.",
-    "sentences": [
-      {
-        "id": "2.09#1",
-        "text": "Ngòi nổ kích hoạt chuỗi hành vi phạm tội của Dalia gắn liền chặt chẽ với vấn đề quyền sở hữu bất động sản.",
-        "words": 24
-      },
-      {
-        "id": "2.09#2",
-        "text": "Chỉ một thời gian ngắn sau ngày cưới, Dalia đã liên tục gây áp lực và thúc ép Michael ký văn bản sang tên toàn bộ quyền sở hữu căn nhà cho ả.",
-        "words": 33
-      },
-      {
-        "id": "2.09#3",
-        "text": "Khi Michael bắt đầu nghi ngờ các vụ việc gài bẫy trước đó và thời hạn quản chế của anh sắp kết thúc, Dalia nhận ra thời gian không còn đứng về phía mình.",
-        "words": 34
-      },
-      {
-        "id": "2.09#4",
-        "text": "Nếu Michael phát hiện ra sự thật và đệ đơn ly hôn, hợp đồng chuyển nhượng căn nhà có thể bị tòa án hủy bỏ và ả sẽ mất trắng toàn bộ tài sản.",
-        "words": 34
-      },
-      {
-        "id": "2.09#5",
-        "text": "Điểm gãy tâm lý xuất hiện khi chiếc mặt nạ dối trá đứng trước nguy cơ bị lột trần, thôi thúc ả phải hành động cấp bách.",
-        "words": 27
-      },
-      {
-        "id": "2.09#6",
-        "text": "Ả quyết định thuê người đoạt mạng người bạn đời để vừa giữ trọn căn nhà trị giá hàng trăm nghìn đô la, vừa chiếm đoạt toàn bộ tiền tiết kiệm trong tài khoản.",
-        "words": 34
-      }
-    ]
-  },
-  {
-    "id": "2.10",
-    "act": 2,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "mô tả cuộc đối chất trực tiếp gây chấn động",
-    "text": "Đỉnh điểm của màn kịch trơ trẽn diễn ra khi cánh cửa phòng thẩm vấn mở ra và Michael Dippolito bước vào. Nhìn thấy người chồng bằng xương bằng thịt vẫn còn sống nguyên vẹn, Dalia không hề bộc lộ sự nhẹ nhõm hay ăn năn. Thay vào đó, ả lập tức lao về phía anh, khóc lóc van nài: Hãy đến đây ôm em đi, em không làm gì cả, xin anh hãy tin em. Michael bàng hoàng lùi lại phía sau, nhìn người phụ nữ với ánh mắt xa lạ, ghê sợ và dứt khoát từ chối chạm vào ả. Đó là một khoảnh khắc kinh điển của sự trơ trẽn, khi một kẻ vừa thuê người thủ tiêu bạn đời lại đòi hỏi một cái ôm tình cảm trước sự chứng kiến của cảnh sát. Toàn bộ chiến thuật thao túng tâm lý và nước mắt cá sấu hoàn toàn sụp đổ trước bức tường sự thật không thể lay chuyển. Michael quay lưng bước ra khỏi phòng, để lại người vợ đối diện với chiếc còng số tám và những câu hỏi đanh thép của công lý. Cánh cửa sắt khép lại, chính thức đặt dấu chấm hết cho cuộc hôn nhân giả tạo và mở đầu cho một cuộc chiến pháp lý kéo dài.",
-    "sentences": [
-      {
-        "id": "2.10#1",
-        "text": "Đỉnh điểm của màn kịch trơ trẽn diễn ra khi cánh cửa phòng thẩm vấn mở ra và Michael Dippolito bước vào.",
-        "words": 22
-      },
-      {
-        "id": "2.10#2",
-        "text": "Nhìn thấy người chồng bằng xương bằng thịt vẫn còn sống nguyên vẹn, Dalia không hề bộc lộ sự nhẹ nhõm hay ăn năn.",
-        "words": 24
-      },
-      {
-        "id": "2.10#3",
-        "text": "Thay vào đó, ả lập tức lao về phía anh, khóc lóc van nài: Hãy đến đây ôm em đi, em không làm gì cả, xin anh hãy tin em.",
-        "words": 30
-      },
-      {
-        "id": "2.10#4",
-        "text": "Michael bàng hoàng lùi lại phía sau, nhìn người phụ nữ với ánh mắt xa lạ, ghê sợ và dứt khoát từ chối chạm vào ả.",
-        "words": 26
-      },
-      {
-        "id": "2.10#5",
-        "text": "Đó là một khoảnh khắc kinh điển của sự trơ trẽn, khi một kẻ vừa thuê người thủ tiêu bạn đời lại đòi hỏi một cái ôm tình cảm trước sự chứng kiến của cảnh sát.",
-        "words": 36
-      },
-      {
-        "id": "2.10#6",
-        "text": "Toàn bộ chiến thuật thao túng tâm lý và nước mắt cá sấu hoàn toàn sụp đổ trước bức tường sự thật không thể lay chuyển.",
-        "words": 26
-      },
-      {
-        "id": "2.10#7",
-        "text": "Michael quay lưng bước ra khỏi phòng, để lại người vợ đối diện với chiếc còng số tám và những câu hỏi đanh thép của công lý.",
-        "words": 27
-      },
-      {
-        "id": "2.10#8",
-        "text": "Cánh cửa sắt khép lại, chính thức đặt dấu chấm hết cho cuộc hôn nhân giả tạo và mở đầu cho một cuộc chiến pháp lý kéo dài.",
-        "words": 28
-      }
-    ]
-  },
-  {
-    "id": "2.11",
-    "act": 2,
-    "kind": "BGM",
-    "desc": "*Tiếng Electronic Pulse dồn dập hạ dần âm lượng, nhường chỗ cho khoảng lặng căng thẳng khép lại Hồi 2.*"
-  },
-  {
-    "id": "3.01",
-    "act": 3,
-    "kind": "BGM",
-    "desc": "*Tiếng đàn Dương cầm tối giản (Minimalist Piano) hòa cùng âm vang Drone trầm đục, tạo không khí học thuật và phân tích lâm sàng chuyên sâu.*"
-  },
-  {
-    "id": "3.02",
-    "act": 3,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "chậm rãi, mang tính dẫn nhập chuyên môn",
-    "text": "Vụ án Dalia Dippolito nhanh chóng trở thành một hồ sơ nghiên cứu kinh điển tại các học viện cảnh sát và khoa tâm lý học tội phạm trên toàn thế giới. Nó cung cấp một cái nhìn sâu sắc và trực diện về cách thức một kẻ săn mồi tâm lý vận hành cơ chế lừa dối trong các mối quan hệ tình cảm. Khác với những vụ án mạng bộc phát vì ghen tuông hay xung đột gia đình, hành vi của Dalia mang đậm tính toán thực dụng và sự vô cảm đạo đức hoàn toàn. Các chuyên gia hành vi đã tiến hành bóc tách từng lớp tính cách để làm rõ động cơ tâm lý thúc đẩy tội ác ghê tởm này. Một bộ não phạm tội không hề có khái niệm về lòng trắc ẩn hay sự thấu cảm nỗi đau của đồng loại. Hãy cùng chuyên gia tâm lý học pháp y đi sâu vào thế giới nội tâm đen tối của kẻ chủ mưu.",
-    "sentences": [
-      {
-        "id": "3.02#1",
-        "text": "Vụ án Dalia Dippolito nhanh chóng trở thành một hồ sơ nghiên cứu kinh điển tại các học viện cảnh sát và khoa tâm lý học tội phạm trên toàn thế giới.",
-        "words": 32
-      },
-      {
-        "id": "3.02#2",
-        "text": "Nó cung cấp một cái nhìn sâu sắc và trực diện về cách thức một kẻ săn mồi tâm lý vận hành cơ chế lừa dối trong các mối quan hệ tình cảm.",
-        "words": 33
-      },
-      {
-        "id": "3.02#3",
-        "text": "Khác với những vụ án mạng bộc phát vì ghen tuông hay xung đột gia đình, hành vi của Dalia mang đậm tính toán thực dụng và sự vô cảm đạo đức hoàn toàn.",
-        "words": 34
-      },
-      {
-        "id": "3.02#4",
-        "text": "Các chuyên gia hành vi đã tiến hành bóc tách từng lớp tính cách để làm rõ động cơ tâm lý thúc đẩy tội ác ghê tởm này.",
-        "words": 28
-      },
-      {
-        "id": "3.02#5",
-        "text": "Một bộ não phạm tội không hề có khái niệm về lòng trắc ẩn hay sự thấu cảm nỗi đau của đồng loại.",
-        "words": 23
-      },
-      {
-        "id": "3.02#6",
-        "text": "Hãy cùng chuyên gia tâm lý học pháp y đi sâu vào thế giới nội tâm đen tối của kẻ chủ mưu.",
-        "words": 22
-      }
-    ]
-  },
-  {
-    "id": "3.03",
-    "act": 3,
-    "kind": "LOI",
-    "role": "C",
-    "direction": "C: Chuyên gia Tâm lý học Pháp y, giọng điềm đạm, học thuật",
-    "text": "Dưới góc độ tâm thần học pháp y, hành vi của Dalia Dippolito mang đặc điểm điển hình của chứng Ái kỷ ác tính kết hợp Rối loạn nhân cách chống đối xã hội. Nét tính cách thống trị của ả là sự thiếu hụt hoàn toàn lòng trắc ẩn cảm xúc, đi kèm với ảo tưởng đặc quyền săn mồi không giới hạn. Ả nhìn nhận những người xung quanh, kể cả người bạn đời đã thề nguyện, chỉ như những công cụ và đạo cụ để đạt được mục đích cá nhân. Trong mối quan hệ với Michael Dippolito, Dalia đã áp dụng một chiến lược săn mồi tài chính có tính toán ngay từ ngày đầu tiên tiếp cận. Ả nhắm vào điểm yếu của Michael, một người đàn ông từng có quá khứ lầm lỡ đang mang án quản chế và khát khao xây dựng một mái ấm gia đình tử tế. Quá trình vật hóa và phi nhân hóa nạn nhân diễn ra một cách triệt để trong nhận thức của người đàn bà này. Đối với ả, sinh mạng của Michael không mang bất kỳ giá trị con người nào, mà chỉ là một rào cản pháp lý cản trở việc độc chiếm căn nhà hai trăm năm mươi nghìn đô la. Những lời van xin hay tình cảm chân thành từ nạn nhân không hề kích hoạt lòng trắc ẩn, mà ngược lại chỉ tạo ra sự hưng phấn quyền lực ở kẻ săn mồi. Đó là bản chất lạnh lùng của một tâm lý ái kỷ biến dạng, nơi lợi ích vị kỷ của bản thân được đặt lên trên sinh mạng của người khác.",
-    "sentences": [
-      {
-        "id": "3.03#1",
-        "text": "Dưới góc độ tâm thần học pháp y, hành vi của Dalia Dippolito mang đặc điểm điển hình của chứng Ái kỷ ác tính kết hợp Rối loạn nhân cách chống đối xã hội.",
-        "words": 34
-      },
-      {
-        "id": "3.03#2",
-        "text": "Nét tính cách thống trị của ả là sự thiếu hụt hoàn toàn lòng trắc ẩn cảm xúc, đi kèm với ảo tưởng đặc quyền săn mồi không giới hạn.",
-        "words": 30
-      },
-      {
-        "id": "3.03#3",
-        "text": "Ả nhìn nhận những người xung quanh, kể cả người bạn đời đã thề nguyện, chỉ như những công cụ và đạo cụ để đạt được mục đích cá nhân.",
-        "words": 30
-      },
-      {
-        "id": "3.03#4",
-        "text": "Trong mối quan hệ với Michael Dippolito, Dalia đã áp dụng một chiến lược săn mồi tài chính có tính toán ngay từ ngày đầu tiên tiếp cận.",
-        "words": 28
-      },
-      {
-        "id": "3.03#5",
-        "text": "Ả nhắm vào điểm yếu của Michael, một người đàn ông từng có quá khứ lầm lỡ đang mang án quản chế và khát khao xây dựng một mái ấm gia đình tử tế.",
-        "words": 34
-      },
-      {
-        "id": "3.03#6",
-        "text": "Quá trình vật hóa và phi nhân hóa nạn nhân diễn ra một cách triệt để trong nhận thức của người đàn bà này.",
-        "words": 24
-      },
-      {
-        "id": "3.03#7",
-        "text": "Đối với ả, sinh mạng của Michael không mang bất kỳ giá trị con người nào, mà chỉ là một rào cản pháp lý cản trở việc độc chiếm căn nhà hai trăm năm mươi nghìn đô la.",
-        "words": 38
-      },
-      {
-        "id": "3.03#8",
-        "text": "Những lời van xin hay tình cảm chân thành từ nạn nhân không hề kích hoạt lòng trắc ẩn, mà ngược lại chỉ tạo ra sự hưng phấn quyền lực ở kẻ săn mồi.",
-        "words": 34
-      },
-      {
-        "id": "3.03#9",
-        "text": "Đó là bản chất lạnh lùng của một tâm lý ái kỷ biến dạng, nơi lợi ích vị kỷ của bản thân được đặt lên trên sinh mạng của người khác.",
-        "words": 31
-      }
-    ]
-  },
-  {
-    "id": "3.04",
-    "act": 3,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "dẫn dắt sang cơ chế chia ngăn nhận thức",
-    "text": "Thế nhưng làm thế nào một người phụ nữ trẻ có thể duy trì cuộc sống bình thường bên cạnh người mà mình đang toan tính loại bỏ? Làm thế nào ả có thể tươi cười trong bữa cơm gia đình rồi ngay sau đó bước ra xe để thương lượng tiền bạc với sát thủ? Khoa học thần kinh và tâm lý học hành vi đã chỉ ra một cơ chế phòng vệ đặc biệt mang tên nghịch lý chia ngăn nhận thức. Một bức tường vô hình đã được dựng lên bên trong não bộ để ngăn cách giữa đạo đức xã hội và dã tâm tàn độc.",
-    "sentences": [
-      {
-        "id": "3.04#1",
-        "text": "Thế nhưng làm thế nào một người phụ nữ trẻ có thể duy trì cuộc sống bình thường bên cạnh người mà mình đang toan tính loại bỏ?",
-        "words": 28
-      },
-      {
-        "id": "3.04#2",
-        "text": "Làm thế nào ả có thể tươi cười trong bữa cơm gia đình rồi ngay sau đó bước ra xe để thương lượng tiền bạc với sát thủ?",
-        "words": 28
-      },
-      {
-        "id": "3.04#3",
-        "text": "Khoa học thần kinh và tâm lý học hành vi đã chỉ ra một cơ chế phòng vệ đặc biệt mang tên nghịch lý chia ngăn nhận thức.",
-        "words": 28
-      },
-      {
-        "id": "3.04#4",
-        "text": "Một bức tường vô hình đã được dựng lên bên trong não bộ để ngăn cách giữa đạo đức xã hội và dã tâm tàn độc.",
-        "words": 26
-      }
-    ]
-  },
-  {
-    "id": "3.05",
-    "act": 3,
-    "kind": "LOI",
-    "role": "C",
-    "direction": "C: bóc tách cơ chế chia ngăn nhận thức và bi kịch người thân",
-    "text": "Cơ chế chia ngăn nhận thức, hay Compartmentalization, là vũ khí tâm lý tối thượng giúp kẻ thủ ác duy trì hai cuộc đời hoàn toàn tách biệt. Bộ não của Dalia đã khóa chặt ngăn gia đình bình thường và ngăn bóng tối săn mồi thành hai không gian độc lập không hề giao thoa. Khi ở bên mẹ và bạn bè, ả thực sự tin vào vai diễn một người con gái hiếu thảo, một người vợ trẻ đang nỗ lực vun vén hạnh phúc gia đình. Gia đình trở thành tấm khiên bình thường hóa để ả tự thuyết phục bản thân rằng mình vẫn là một người tốt trong mắt xã hội. Thế nhưng khi bước sang ngăn tối săn mồi, ả lạnh lùng tính toán phương thức sát hại chồng mà không hề gặp phải bất kỳ sự xung đột lương tâm nào. Sự chia ngăn này cho phép ả ngủ ngon mỗi đêm và sinh hoạt bình thường như không có bất kỳ âm mưu nào đang diễn ra. Bi kịch lớn nhất của cơ chế này là sự sụp đổ danh tính tàn khốc của những người thân khi sự thật bị phơi bày trước công chúng. Mẹ và gia đình của Dalia đã hoàn toàn suy sụp khi nhận ra người con gái ngoan ngoãn mà họ hằng yêu thương thực chất lại dung dưỡng một dã tâm ghê rợn. Đối với kẻ ái kỷ, nỗi sợ bị bẽ bàng và mất mặt trước người thân thậm chí còn lớn hơn cả nỗi sợ hãi các hình phạt của pháp luật.",
-    "sentences": [
-      {
-        "id": "3.05#1",
-        "text": "Cơ chế chia ngăn nhận thức, hay Compartmentalization, là vũ khí tâm lý tối thượng giúp kẻ thủ ác duy trì hai cuộc đời hoàn toàn tách biệt.",
-        "words": 28
-      },
-      {
-        "id": "3.05#2",
-        "text": "Bộ não của Dalia đã khóa chặt ngăn gia đình bình thường và ngăn bóng tối săn mồi thành hai không gian độc lập không hề giao thoa.",
-        "words": 28
-      },
-      {
-        "id": "3.05#3",
-        "text": "Khi ở bên mẹ và bạn bè, ả thực sự tin vào vai diễn một người con gái hiếu thảo, một người vợ trẻ đang nỗ lực vun vén hạnh phúc gia đình.",
-        "words": 33
-      },
-      {
-        "id": "3.05#4",
-        "text": "Gia đình trở thành tấm khiên bình thường hóa để ả tự thuyết phục bản thân rằng mình vẫn là một người tốt trong mắt xã hội.",
-        "words": 27
-      },
-      {
-        "id": "3.05#5",
-        "text": "Thế nhưng khi bước sang ngăn tối săn mồi, ả lạnh lùng tính toán phương thức sát hại chồng mà không hề gặp phải bất kỳ sự xung đột lương tâm nào.",
-        "words": 32
-      },
-      {
-        "id": "3.05#6",
-        "text": "Sự chia ngăn này cho phép ả ngủ ngon mỗi đêm và sinh hoạt bình thường như không có bất kỳ âm mưu nào đang diễn ra.",
-        "words": 27
-      },
-      {
-        "id": "3.05#7",
-        "text": "Bi kịch lớn nhất của cơ chế này là sự sụp đổ danh tính tàn khốc của những người thân khi sự thật bị phơi bày trước công chúng.",
-        "words": 29
-      },
-      {
-        "id": "3.05#8",
-        "text": "Mẹ và gia đình của Dalia đã hoàn toàn suy sụp khi nhận ra người con gái ngoan ngoãn mà họ hằng yêu thương thực chất lại dung dưỡng một dã tâm ghê rợn.",
-        "words": 34
-      },
-      {
-        "id": "3.05#9",
-        "text": "Đối với kẻ ái kỷ, nỗi sợ bị bẽ bàng và mất mặt trước người thân thậm chí còn lớn hơn cả nỗi sợ hãi các hình phạt của pháp luật.",
-        "words": 31
-      }
-    ]
-  },
-  {
-    "id": "3.06",
-    "act": 3,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "dẫn dắt sang hệ thống tự bào chữa",
-    "text": "Để có thể tiếp tục tồn tại mà không bị cảm giác tội lỗi dày vò, những kẻ săn mồi buộc phải tự xây dựng cho mình một hệ thống tự bào chữa tinh vi. Chúng không bao giờ chấp nhận mình là kẻ phản diện trong câu chuyện mà bản thân là nhân vật chính. Và Dalia Dippolito đã sử dụng triệt để các kỹ thuật trung hòa đạo đức để ru ngủ phần lương tri còn sót lại.",
-    "sentences": [
-      {
-        "id": "3.06#1",
-        "text": "Để có thể tiếp tục tồn tại mà không bị cảm giác tội lỗi dày vò, những kẻ săn mồi buộc phải tự xây dựng cho mình một hệ thống tự bào chữa tinh vi.",
-        "words": 35
-      },
-      {
-        "id": "3.06#2",
-        "text": "Chúng không bao giờ chấp nhận mình là kẻ phản diện trong câu chuyện mà bản thân là nhân vật chính.",
-        "words": 21
-      },
-      {
-        "id": "3.06#3",
-        "text": "Và Dalia Dippolito đã sử dụng triệt để các kỹ thuật trung hòa đạo đức để ru ngủ phần lương tri còn sót lại.",
-        "words": 24
-      }
-    ]
-  },
-  {
-    "id": "3.07",
-    "act": 3,
-    "kind": "LOI",
-    "role": "C",
-    "direction": "C: giải phẫu các kỹ thuật trung hòa đạo đức",
-    "text": "Các kỹ thuật trung hòa đạo đức, hay Techniques of Neutralization, là phương thức hung thủ sử dụng để vô hiệu hóa các rào cản đạo đức của xã hội. Dalia áp dụng triệt để kỹ thuật đổ lỗi cho nạn nhân và ngoại hóa trách nhiệm cá nhân. Ả tự ru ngủ mình rằng Michael từng có tiền án lừa đảo viễn thông, nên anh ta không xứng đáng được hưởng cuộc sống hạnh phúc và tài sản đó. Ả tự khoác lên mình quyền năng phán xét, biến hành vi cướp đoạt tài sản và sát hại người phối ngẫu thành một hành động trừng phạt chính đáng. Khi kế hoạch bị bại lộ, ả lập tức chuyển sang kỹ thuật đóng vai nạn nhân của hoàn cảnh, tuyên bố mình bị người tình cũ ép buộc và bị cảnh sát giăng bẫy. Kẻ ái kỷ luôn tìm cách giảm thiểu mức độ nghiêm trọng của hành vi và tuyệt đối không bao giờ nhận lỗi về bản thân. Hệ thống tự bào chữa bệnh lý này bảo vệ cái tôi mong manh của chúng khỏi sự sụp đổ hoàn toàn trước thực tế trần trụi. Chính vì vậy, chúng ta không bao giờ nhìn thấy sự ăn năn chân chính ở những tội phạm này, mà chỉ thấy sự cay cú và tự thương hại bản thân.",
-    "sentences": [
-      {
-        "id": "3.07#1",
-        "text": "Các kỹ thuật trung hòa đạo đức, hay Techniques of Neutralization, là phương thức hung thủ sử dụng để vô hiệu hóa các rào cản đạo đức của xã hội.",
-        "words": 30
-      },
-      {
-        "id": "3.07#2",
-        "text": "Dalia áp dụng triệt để kỹ thuật đổ lỗi cho nạn nhân và ngoại hóa trách nhiệm cá nhân.",
-        "words": 19
-      },
-      {
-        "id": "3.07#3",
-        "text": "Ả tự ru ngủ mình rằng Michael từng có tiền án lừa đảo viễn thông, nên anh ta không xứng đáng được hưởng cuộc sống hạnh phúc và tài sản đó.",
-        "words": 31
-      },
-      {
-        "id": "3.07#4",
-        "text": "Ả tự khoác lên mình quyền năng phán xét, biến hành vi cướp đoạt tài sản và sát hại người phối ngẫu thành một hành động trừng phạt chính đáng.",
-        "words": 30
-      },
-      {
-        "id": "3.07#5",
-        "text": "Khi kế hoạch bị bại lộ, ả lập tức chuyển sang kỹ thuật đóng vai nạn nhân của hoàn cảnh, tuyên bố mình bị người tình cũ ép buộc và bị cảnh sát giăng bẫy.",
-        "words": 35
-      },
-      {
-        "id": "3.07#6",
-        "text": "Kẻ ái kỷ luôn tìm cách giảm thiểu mức độ nghiêm trọng của hành vi và tuyệt đối không bao giờ nhận lỗi về bản thân.",
-        "words": 26
-      },
-      {
-        "id": "3.07#7",
-        "text": "Hệ thống tự bào chữa bệnh lý này bảo vệ cái tôi mong manh của chúng khỏi sự sụp đổ hoàn toàn trước thực tế trần trụi.",
-        "words": 27
-      },
-      {
-        "id": "3.07#8",
-        "text": "Chính vì vậy, chúng ta không bao giờ nhìn thấy sự ăn năn chân chính ở những tội phạm này, mà chỉ thấy sự cay cú và tự thương hại bản thân.",
-        "words": 32
-      }
-    ]
-  },
-  {
-    "id": "3.08",
-    "act": 3,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "đúc kết chiều sâu lâm sàng trước khi chuyển hồi",
-    "text": "Bức tranh tâm lý phức tạp ấy phơi bày một nhân cách ái kỷ méo mó, lạnh lùng và đầy nguy hiểm ẩn sau vẻ ngoài quyến rũ. Một kẻ sẵn sàng đánh đổi sinh mạng của người bạn đời để thỏa mãn lòng tham vật chất và sự kiểm soát ích kỷ. Thế nhưng khi tấm màn dối trá bị giật phăng, toàn bộ hệ thống tự bào chữa kia sẽ phải đối diện với sự phán xét nghiêm minh của công lý. Và một cuộc chiến pháp lý kéo dài gần một thập kỷ sắp sửa diễn ra trên sàn đấu tòa án hạt Palm Beach.",
-    "sentences": [
-      {
-        "id": "3.08#1",
-        "text": "Bức tranh tâm lý phức tạp ấy phơi bày một nhân cách ái kỷ méo mó, lạnh lùng và đầy nguy hiểm ẩn sau vẻ ngoài quyến rũ.",
-        "words": 28
-      },
-      {
-        "id": "3.08#2",
-        "text": "Một kẻ sẵn sàng đánh đổi sinh mạng của người bạn đời để thỏa mãn lòng tham vật chất và sự kiểm soát ích kỷ.",
-        "words": 25
-      },
-      {
-        "id": "3.08#3",
-        "text": "Thế nhưng khi tấm màn dối trá bị giật phăng, toàn bộ hệ thống tự bào chữa kia sẽ phải đối diện với sự phán xét nghiêm minh của công lý.",
-        "words": 31
-      },
-      {
-        "id": "3.08#4",
-        "text": "Và một cuộc chiến pháp lý kéo dài gần một thập kỷ sắp sửa diễn ra trên sàn đấu tòa án hạt Palm Beach.",
-        "words": 24
-      }
-    ]
-  },
-  {
-    "id": "3.09",
-    "act": 3,
-    "kind": "BGM",
-    "desc": "*Tiếng đàn Dương cầm và Drone trầm đục tan dần vào không gian, kết thúc Hồi 3 trong suy tư sâu sắc.*"
-  },
-  {
-    "id": "4.01",
-    "act": 4,
-    "kind": "BGM",
-    "desc": "*Tiếng Violin căng thẳng, tiếng gõ búa tòa án khô khốc vang dội trong không gian phòng xử án trang nghiêm.*"
-  },
-  {
-    "id": "4.02",
-    "act": 4,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "tái hiện cuộc chiến pháp lý kéo dài gần một thập kỷ",
-    "text": "Vụ án Dalia Dippolito đã trải qua một hành trình tố tụng vô cùng gian nan và phức tạp kéo dài suốt gần một thập kỷ với ba phiên tòa xét xử riêng biệt. Tại phiên tòa đầu tiên vào năm 2011, ả bị kết tội Xúi giục giết người cấp độ một và bị tuyên phạt mức án hai mươi năm tù giam. Tuy nhiên, bản án này đã bị tòa phúc thẩm bang Florida hủy bỏ vào năm 2014 do sai sót kỹ thuật trong quá trình lựa chọn các thành viên bồi thẩm đoàn. Phiên tòa tái thẩm thứ hai diễn ra vào năm 2016 lại kết thúc trong bế tắc khi bồi thẩm đoàn chia rẽ với tỷ lệ ba ba, không thể đạt được sự đồng thuận. Nhóm luật sư bào chữa của Dalia liên tục tung ra các chiến thuật tấn công vào việc sở cảnh sát Boynton Beach phối hợp với đoàn làm phim Cops. Họ cố gắng biến thân chủ của mình từ một kẻ chủ mưu tàn độc thành nạn nhân của một chiến dịch tìm kiếm danh tiếng truyền thông của cảnh sát. Dư luận cả nước nín thở theo dõi từng diễn biến pháp lý nghẹt thở, lo ngại rằng những kẽ hở thủ tục có thể giúp một kẻ thủ ác thoát tội. Thế nhưng công lý không bao giờ lùi bước trước những chiêu trò tranh tụng kéo dài của kẻ phạm tội.",
-    "sentences": [
-      {
-        "id": "4.02#1",
-        "text": "Vụ án Dalia Dippolito đã trải qua một hành trình tố tụng vô cùng gian nan và phức tạp kéo dài suốt gần một thập kỷ với ba phiên tòa xét xử riêng biệt.",
-        "words": 34
-      },
-      {
-        "id": "4.02#2",
-        "text": "Tại phiên tòa đầu tiên vào năm 2011, ả bị kết tội Xúi giục giết người cấp độ một và bị tuyên phạt mức án hai mươi năm tù giam.",
-        "words": 30
-      },
-      {
-        "id": "4.02#3",
-        "text": "Tuy nhiên, bản án này đã bị tòa phúc thẩm bang Florida hủy bỏ vào năm 2014 do sai sót kỹ thuật trong quá trình lựa chọn các thành viên bồi thẩm đoàn.",
-        "words": 33
-      },
-      {
-        "id": "4.02#4",
-        "text": "Phiên tòa tái thẩm thứ hai diễn ra vào năm 2016 lại kết thúc trong bế tắc khi bồi thẩm đoàn chia rẽ với tỷ lệ ba ba, không thể đạt được sự đồng thuận.",
-        "words": 35
-      },
-      {
-        "id": "4.02#5",
-        "text": "Nhóm luật sư bào chữa của Dalia liên tục tung ra các chiến thuật tấn công vào việc sở cảnh sát Boynton Beach phối hợp với đoàn làm phim Cops.",
-        "words": 30
-      },
-      {
-        "id": "4.02#6",
-        "text": "Họ cố gắng biến thân chủ của mình từ một kẻ chủ mưu tàn độc thành nạn nhân của một chiến dịch tìm kiếm danh tiếng truyền thông của cảnh sát.",
-        "words": 31
-      },
-      {
-        "id": "4.02#7",
-        "text": "Dư luận cả nước nín thở theo dõi từng diễn biến pháp lý nghẹt thở, lo ngại rằng những kẽ hở thủ tục có thể giúp một kẻ thủ ác thoát tội.",
-        "words": 32
-      },
-      {
-        "id": "4.02#8",
-        "text": "Thế nhưng công lý không bao giờ lùi bước trước những chiêu trò tranh tụng kéo dài của kẻ phạm tội.",
-        "words": 21
-      }
-    ]
-  },
-  {
-    "id": "4.03",
-    "act": 4,
-    "kind": "SFX",
-    "desc": "*Tiếng búa tòa án gõ mạnh, tiếng lật mở hồ sơ cáo trạng của công tố viên.*"
-  },
-  {
-    "id": "4.04",
-    "act": 4,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "phiên tòa thứ ba năm 2017 và bước ngoặt kết tội",
-    "text": "Bước sang phiên tòa xét xử thứ ba vào năm 2017, các công tố viên bang Florida đã chuẩn bị một chiến lược tấn công đanh thép và toàn diện. Họ kiên quyết không để bên bào chữa đánh lạc hướng sự chú ý của bồi thẩm đoàn sang những tranh cãi kỹ thuật về truyền thông. Toàn bộ đoạn video ghi hình cuộc gặp bí mật trong chiếc xe hơi màu đỏ lại một lần nữa được trình chiếu trực tiếp giữa khán phòng im phăng phắc. Từng câu từ lạnh lùng, dứt khoát và khẳng định chắc chắn năm nghìn phần trăm của Dalia vang lên rõ mồn một như một nhát búa đóng đinh sự thật. Bức tường ngụy biện của nhóm luật sư bào chữa bắt đầu rạn nứt trước sức nặng khủng khiếp của chuỗi bằng chứng điện tử khách quan.",
-    "sentences": [
-      {
-        "id": "4.04#1",
-        "text": "Bước sang phiên tòa xét xử thứ ba vào năm 2017, các công tố viên bang Florida đã chuẩn bị một chiến lược tấn công đanh thép và toàn diện.",
-        "words": 30
-      },
-      {
-        "id": "4.04#2",
-        "text": "Họ kiên quyết không để bên bào chữa đánh lạc hướng sự chú ý của bồi thẩm đoàn sang những tranh cãi kỹ thuật về truyền thông.",
-        "words": 27
-      },
-      {
-        "id": "4.04#3",
-        "text": "Toàn bộ đoạn video ghi hình cuộc gặp bí mật trong chiếc xe hơi màu đỏ lại một lần nữa được trình chiếu trực tiếp giữa khán phòng im phăng phắc.",
-        "words": 31
-      },
-      {
-        "id": "4.04#4",
-        "text": "Từng câu từ lạnh lùng, dứt khoát và khẳng định chắc chắn năm nghìn phần trăm của Dalia vang lên rõ mồn một như một nhát búa đóng đinh sự thật.",
-        "words": 31
-      },
-      {
-        "id": "4.04#5",
-        "text": "Bức tường ngụy biện của nhóm luật sư bào chữa bắt đầu rạn nứt trước sức nặng khủng khiếp của chuỗi bằng chứng điện tử khách quan.",
-        "words": 27
-      }
-    ]
-  },
-  {
-    "id": "4.05",
-    "act": 4,
-    "kind": "SFX",
-    "desc": "*Tiếng gõ bàn phím tốc ký của thư ký tòa án, tiếng xì xào căng thẳng trong phòng xử.*"
-  },
-  {
-    "id": "4.06",
-    "act": 4,
-    "kind": "LOI",
-    "role": "D",
-    "direction": "D: bóc trần sự ngụy biện của chiến lược bào chữa",
-    "text": "Luận điểm của bên bào chữa cho rằng vụ việc này chỉ là một kịch bản dàn dựng để kiếm sự nổi tiếng trên các nền tảng mạng xã hội là hoàn toàn hoang đường. Không một người bình thường nào lại đem sinh mạng của chính người bạn đời ra để thương lượng đùa cợt với một người lạ trong xe hơi kín. Từng cuộc gọi điện thoại, từng dòng tin nhắn hối thúc và số tiền đặt cọc trao tay là những hành vi phạm tội cụ thể và có chủ đích rõ ràng. Đoạn video cho thấy Dalia hoàn toàn tỉnh táo, làm chủ tình thế và liên tục dặn dò sát thủ cách thức loại bỏ mục tiêu mà không để lại dấu vết. Lực lượng điều tra chúng tôi đã bảo vệ tính toàn vẹn của chuỗi chứng cứ kỹ thuật số trong suốt tám năm ròng rã mà không để xảy ra bất kỳ sai sót nào. Sự thật khách quan được xây dựng trên nền tảng khoa học pháp y chứ không thể bị bóp méo bởi những giả thuyết suy đoán vô căn cứ. Công lý có thể phải trải qua những thử thách cam go về mặt thời gian, nhưng đích đến cuối cùng luôn là sự trừng phạt nghiêm minh dành cho kẻ phạm tội.",
-    "sentences": [
-      {
-        "id": "4.06#1",
-        "text": "Luận điểm của bên bào chữa cho rằng vụ việc này chỉ là một kịch bản dàn dựng để kiếm sự nổi tiếng trên các nền tảng mạng xã hội là hoàn toàn hoang đường.",
-        "words": 35
-      },
-      {
-        "id": "4.06#2",
-        "text": "Không một người bình thường nào lại đem sinh mạng của chính người bạn đời ra để thương lượng đùa cợt với một người lạ trong xe hơi kín.",
-        "words": 29
-      },
-      {
-        "id": "4.06#3",
-        "text": "Từng cuộc gọi điện thoại, từng dòng tin nhắn hối thúc và số tiền đặt cọc trao tay là những hành vi phạm tội cụ thể và có chủ đích rõ ràng.",
-        "words": 32
-      },
-      {
-        "id": "4.06#4",
-        "text": "Đoạn video cho thấy Dalia hoàn toàn tỉnh táo, làm chủ tình thế và liên tục dặn dò sát thủ cách thức loại bỏ mục tiêu mà không để lại dấu vết.",
-        "words": 32
-      },
-      {
-        "id": "4.06#5",
-        "text": "Lực lượng điều tra chúng tôi đã bảo vệ tính toàn vẹn của chuỗi chứng cứ kỹ thuật số trong suốt tám năm ròng rã mà không để xảy ra bất kỳ sai sót nào.",
-        "words": 35
-      },
-      {
-        "id": "4.06#6",
-        "text": "Sự thật khách quan được xây dựng trên nền tảng khoa học pháp y chứ không thể bị bóp méo bởi những giả thuyết suy đoán vô căn cứ.",
-        "words": 29
-      },
-      {
-        "id": "4.06#7",
-        "text": "Công lý có thể phải trải qua những thử thách cam go về mặt thời gian, nhưng đích đến cuối cùng luôn là sự trừng phạt nghiêm minh dành cho kẻ phạm tội.",
-        "words": 33
-      }
-    ]
-  },
-  {
-    "id": "4.07",
-    "act": 4,
-    "kind": "SFX",
-    "desc": "*Tiếng cửa phòng bồi thẩm đoàn mở ra, tiếng bước chân trang nghiêm bước vào phòng xử án.*"
-  },
-  {
-    "id": "4.08",
-    "act": 4,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "khoảnh khắc bồi thẩm đoàn bước vào phòng nghị án",
-    "text": "Sau nhiều ngày tranh tụng nảy lửa, hội đồng bồi thẩm đoàn chính thức bước vào phòng kín để tiến hành nghị án. Không khí bên trong phòng xử án của Tòa án hạt Palm Beach trở nên căng thẳng đến nghẹt thở. Mọi ánh nhìn của truyền thông và công chúng đều đổ dồn về cánh cửa gỗ nặng nề, nơi số phận của Dalia Dippolito sắp được định đoạt. Và một trong những thành viên bồi thẩm đoàn đã chia sẻ về khoảnh khắc cân não khi đưa ra phán quyết lịch sử.",
-    "sentences": [
-      {
-        "id": "4.08#1",
-        "text": "Sau nhiều ngày tranh tụng nảy lửa, hội đồng bồi thẩm đoàn chính thức bước vào phòng kín để tiến hành nghị án.",
-        "words": 23
-      },
-      {
-        "id": "4.08#2",
-        "text": "Không khí bên trong phòng xử án của Tòa án hạt Palm Beach trở nên căng thẳng đến nghẹt thở.",
-        "words": 20
-      },
-      {
-        "id": "4.08#3",
-        "text": "Mọi ánh nhìn của truyền thông và công chúng đều đổ dồn về cánh cửa gỗ nặng nề, nơi số phận của Dalia Dippolito sắp được định đoạt.",
-        "words": 28
-      },
-      {
-        "id": "4.08#4",
-        "text": "Và một trong những thành viên bồi thẩm đoàn đã chia sẻ về khoảnh khắc cân não khi đưa ra phán quyết lịch sử.",
-        "words": 24
-      }
-    ]
-  },
-  {
-    "id": "4.09",
-    "act": 4,
-    "kind": "LOI",
-    "role": "N",
-    "direction": "N2: Bồi thẩm viên minh hoạ, giọng nữ trung niên đanh thép, công minh",
-    "text": "Trách nhiệm của một bồi thẩm viên trong vụ án này vô cùng nặng nề trước sự quan tâm theo dõi sát sao của toàn xã hội. Chúng tôi đã xem đi xem lại đoạn băng ghi hình trong chiếc xe hơi màu đỏ hàng chục lần bên trong phòng nghị án kín. Điều khiến tất cả chúng tôi cảm thấy rùng mình không chỉ là kế hoạch tàn nhẫn, mà là thái độ hoàn toàn bình thản và nụ cười lạnh lùng của người phụ nữ ấy. Cô ta không hề bị ép buộc, cô ta biết chính xác mình đang làm gì và mong muốn kết quả đó xảy ra bằng mọi giá. Mọi lời ngụy biện về việc đóng kịch hay quay video giải trí hoàn toàn sụp đổ trước những bằng chứng thép không thể chối cãi. Chúng tôi đã tranh luận nghiêm túc, thận trọng cân nhắc từng tình tiết pháp lý để bảo đảm phán quyết hoàn toàn khách quan và chuẩn xác. Khi đặt bút bỏ phiếu kết tội, tất cả chúng tôi đều cảm thấy thanh thản vì biết rằng công lý đã được thực thi một cách trọn vẹn. Một kẻ toan tính tước đoạt sinh mạng của người khác chỉ vì lòng tham vật chất bắt buộc phải chịu sự trừng phạt thích đáng trước pháp luật. Đó là nghĩa vụ thiêng liêng mà bồi thẩm đoàn chúng tôi nỗ lực thực hiện để bảo vệ sự an toàn và kỷ cương của toàn xã hội.",
-    "sentences": [
-      {
-        "id": "4.09#1",
-        "text": "Trách nhiệm của một bồi thẩm viên trong vụ án này vô cùng nặng nề trước sự quan tâm theo dõi sát sao của toàn xã hội.",
-        "words": 27
-      },
-      {
-        "id": "4.09#2",
-        "text": "Chúng tôi đã xem đi xem lại đoạn băng ghi hình trong chiếc xe hơi màu đỏ hàng chục lần bên trong phòng nghị án kín.",
-        "words": 26
-      },
-      {
-        "id": "4.09#3",
-        "text": "Điều khiến tất cả chúng tôi cảm thấy rùng mình không chỉ là kế hoạch tàn nhẫn, mà là thái độ hoàn toàn bình thản và nụ cười lạnh lùng của người phụ nữ ấy.",
-        "words": 35
-      },
-      {
-        "id": "4.09#4",
-        "text": "Cô ta không hề bị ép buộc, cô ta biết chính xác mình đang làm gì và mong muốn kết quả đó xảy ra bằng mọi giá.",
-        "words": 27
-      },
-      {
-        "id": "4.09#5",
-        "text": "Mọi lời ngụy biện về việc đóng kịch hay quay video giải trí hoàn toàn sụp đổ trước những bằng chứng thép không thể chối cãi.",
-        "words": 26
-      },
-      {
-        "id": "4.09#6",
-        "text": "Chúng tôi đã tranh luận nghiêm túc, thận trọng cân nhắc từng tình tiết pháp lý để bảo đảm phán quyết hoàn toàn khách quan và chuẩn xác.",
-        "words": 28
-      },
-      {
-        "id": "4.09#7",
-        "text": "Khi đặt bút bỏ phiếu kết tội, tất cả chúng tôi đều cảm thấy thanh thản vì biết rằng công lý đã được thực thi một cách trọn vẹn.",
-        "words": 29
-      },
-      {
-        "id": "4.09#8",
-        "text": "Một kẻ toan tính tước đoạt sinh mạng của người khác chỉ vì lòng tham vật chất bắt buộc phải chịu sự trừng phạt thích đáng trước pháp luật.",
-        "words": 29
-      },
-      {
-        "id": "4.09#9",
-        "text": "Đó là nghĩa vụ thiêng liêng mà bồi thẩm đoàn chúng tôi nỗ lực thực hiện để bảo vệ sự an toàn và kỷ cương của toàn xã hội.",
-        "words": 29
-      }
-    ]
-  },
-  {
-    "id": "4.10",
-    "act": 4,
-    "kind": "LOI",
-    "role": "D",
-    "direction": "D: miêu tả phản ứng sụp đổ trước bản án",
-    "text": "Khi Thẩm phán Glenn Kelley cất giọng tuyên đọc phán quyết có tội từ bồi thẩm đoàn, chiếc mặt nạ kiêu ngạo của Dalia Dippolito lập tức vỡ vụn. Ả bật khóc nức nở, nhưng đó hoàn toàn không phải là nước mắt hối hận vì những hành vi tàn độc đã gây ra cho Michael. Đó là sự tự thương hại bệnh lý của một kẻ ái kỷ khi nhận ra mình đã hoàn toàn mất đi quyền kiểm soát và phải đối mặt với thực tế ngục tù. Tòa án tuyên phạt mức án mười sáu năm tù giam tại Trại giam Phụ nữ Lowell thuộc thành phố Ocala, bang Florida. Mọi nỗ lực kháng cáo sau đó lên Tòa án Tối cao bang Florida và Tòa án Tối cao Hoa Kỳ đều bị các thẩm phán bác bỏ một cách dứt khoát. Bản án mười sáu năm tù giam là cái giá đích đáng cho một âm mưu tàn độc, khẳng định rằng pháp luật không bao giờ nhân nhượng trước tội ác.",
-    "sentences": [
-      {
-        "id": "4.10#1",
-        "text": "Khi Thẩm phán Glenn Kelley cất giọng tuyên đọc phán quyết có tội từ bồi thẩm đoàn, chiếc mặt nạ kiêu ngạo của Dalia Dippolito lập tức vỡ vụn.",
-        "words": 29
-      },
-      {
-        "id": "4.10#2",
-        "text": "Ả bật khóc nức nở, nhưng đó hoàn toàn không phải là nước mắt hối hận vì những hành vi tàn độc đã gây ra cho Michael.",
-        "words": 27
-      },
-      {
-        "id": "4.10#3",
-        "text": "Đó là sự tự thương hại bệnh lý của một kẻ ái kỷ khi nhận ra mình đã hoàn toàn mất đi quyền kiểm soát và phải đối mặt với thực tế ngục tù.",
-        "words": 34
-      },
-      {
-        "id": "4.10#4",
-        "text": "Tòa án tuyên phạt mức án mười sáu năm tù giam tại Trại giam Phụ nữ Lowell thuộc thành phố Ocala, bang Florida.",
-        "words": 23
-      },
-      {
-        "id": "4.10#5",
-        "text": "Mọi nỗ lực kháng cáo sau đó lên Tòa án Tối cao bang Florida và Tòa án Tối cao Hoa Kỳ đều bị các thẩm phán bác bỏ một cách dứt khoát.",
-        "words": 32
-      },
-      {
-        "id": "4.10#6",
-        "text": "Bản án mười sáu năm tù giam là cái giá đích đáng cho một âm mưu tàn độc, khẳng định rằng pháp luật không bao giờ nhân nhượng trước tội ác.",
-        "words": 31
-      }
-    ]
-  },
-  {
-    "id": "4.11",
-    "act": 4,
-    "kind": "LOI",
-    "role": "C",
-    "direction": "C: bình luận về hiện tượng suy sụp ái kỷ trước bản án",
-    "text": "Phản ứng sụp đổ của Dalia tại phiên tòa là biểu hiện kinh điển của hiện tượng suy sụp ái kỷ, hay Narcissistic Collapse. Khi chiếc gương thần ảo tưởng bị vỡ nát và các kỹ thuật thao túng không còn tác dụng, kẻ ái kỷ rơi vào trạng thái hoảng loạn tột độ và tự biến mình thành nạn nhân. Những giọt nước mắt tại tòa của ả chỉ nhằm khóc thương cho bản thân, tiếc nuối cho tuổi xuân và quyền tự do đã bị tước đoạt. Trong suốt gần mười năm tố tụng, ả chưa từng một lần đưa ra lời xin lỗi chân thành nào hướng về phía người phối ngẫu suýt mất mạng. Bản án của tòa án giam giữ thể xác, nhưng bản án tâm lý phơi bày một nhân cách trống rỗng, cô độc và thất bại hoàn toàn trước sự thật.",
-    "sentences": [
-      {
-        "id": "4.11#1",
-        "text": "Phản ứng sụp đổ của Dalia tại phiên tòa là biểu hiện kinh điển của hiện tượng suy sụp ái kỷ, hay Narcissistic Collapse.",
-        "words": 24
-      },
-      {
-        "id": "4.11#2",
-        "text": "Khi chiếc gương thần ảo tưởng bị vỡ nát và các kỹ thuật thao túng không còn tác dụng, kẻ ái kỷ rơi vào trạng thái hoảng loạn tột độ và tự biến mình thành nạn nhân.",
-        "words": 37
-      },
-      {
-        "id": "4.11#3",
-        "text": "Những giọt nước mắt tại tòa của ả chỉ nhằm khóc thương cho bản thân, tiếc nuối cho tuổi xuân và quyền tự do đã bị tước đoạt.",
-        "words": 28
-      },
-      {
-        "id": "4.11#4",
-        "text": "Trong suốt gần mười năm tố tụng, ả chưa từng một lần đưa ra lời xin lỗi chân thành nào hướng về phía người phối ngẫu suýt mất mạng.",
-        "words": 29
-      },
-      {
-        "id": "4.11#5",
-        "text": "Bản án của tòa án giam giữ thể xác, nhưng bản án tâm lý phơi bày một nhân cách trống rỗng, cô độc và thất bại hoàn toàn trước sự thật.",
-        "words": 31
-      }
-    ]
-  },
-  {
-    "id": "4.12",
-    "act": 4,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "kết thúc hồi 4, chuyển tiếp sang hồi kết",
-    "text": "Cuộc chiến pháp lý kéo dài tám năm cuối cùng đã khép lại với thắng lợi tuyệt đối của sự thật và lẽ phải. Người đàn bà với màn kịch nước mắt cá sấu phải trải qua những năm tháng thanh xuân dài đằng đẵng sau song sắt nhà tù. Và hồ sơ vụ án để lại những bài học sâu sắc mang tính cảnh tỉnh cho toàn thể xã hội.",
-    "sentences": [
-      {
-        "id": "4.12#1",
-        "text": "Cuộc chiến pháp lý kéo dài tám năm cuối cùng đã khép lại với thắng lợi tuyệt đối của sự thật và lẽ phải.",
-        "words": 24
-      },
-      {
-        "id": "4.12#2",
-        "text": "Người đàn bà với màn kịch nước mắt cá sấu phải trải qua những năm tháng thanh xuân dài đằng đẵng sau song sắt nhà tù.",
-        "words": 26
-      },
-      {
-        "id": "4.12#3",
-        "text": "Và hồ sơ vụ án để lại những bài học sâu sắc mang tính cảnh tỉnh cho toàn thể xã hội.",
-        "words": 21
-      }
-    ]
-  },
-  {
-    "id": "4.13",
-    "act": 4,
-    "kind": "BGM",
-    "desc": "*Tiếng Violin dứt khoát kết thúc cùng nhát búa tòa án vang vọng, khép lại Hồi 4 trang nghiêm.*"
-  },
-  {
-    "id": "5.01",
-    "act": 5,
-    "kind": "BGM",
-    "desc": "*Nhạc nền chuyển sang giai điệu Piano ấm áp, trang trọng, phảng phất nỗi suy tư triết lý và sự cảnh báo nhân văn sâu sắc.*"
-  },
-  {
-    "id": "5.02",
-    "act": 5,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "giọng suy ngẫm, mang tính triết lý sâu lắng",
-    "text": "Nhiều năm đã trôi qua kể từ buổi sáng định mệnh tại thị trấn Boynton Beach, vụ án Dalia Dippolito vẫn luôn được nhắc đến như một lời cảnh báo đắt giá về mặt trái của những cuộc hôn nhân chớp nhoáng. Michael Dippolito đã may mắn giữ được mạng sống và có cơ hội kiên cường xây dựng lại cuộc đời mới sau biến cố kinh hoàng. Vụ án đã thúc đẩy những cuộc tranh luận pháp lý sâu sắc và tạo ra tiền lệ quan trọng về việc bảo đảm tính toàn vẹn của hoạt động trinh sát ghi hình nghiệp vụ. Thảm kịch suýt xảy ra là một lời thức tỉnh mạnh mẽ về các dấu hiệu của bạo lực gia đình phi thể xác và hành vi lạm dụng tài chính có tổ chức. Sự tỉnh táo trong tình cảm và việc bảo vệ ranh giới cá nhân chính là chiếc chìa khóa then chốt để bảo vệ bản thân trước những kẻ săn mồi đội lốt người yêu thương.",
-    "sentences": [
-      {
-        "id": "5.02#1",
-        "text": "Nhiều năm đã trôi qua kể từ buổi sáng định mệnh tại thị trấn Boynton Beach, vụ án Dalia Dippolito vẫn luôn được nhắc đến như một lời cảnh báo đắt giá về mặt trái của những cuộc hôn nhân chớp nhoáng.",
-        "words": 42
-      },
-      {
-        "id": "5.02#2",
-        "text": "Michael Dippolito đã may mắn giữ được mạng sống và có cơ hội kiên cường xây dựng lại cuộc đời mới sau biến cố kinh hoàng.",
-        "words": 26
-      },
-      {
-        "id": "5.02#3",
-        "text": "Vụ án đã thúc đẩy những cuộc tranh luận pháp lý sâu sắc và tạo ra tiền lệ quan trọng về việc bảo đảm tính toàn vẹn của hoạt động trinh sát ghi hình nghiệp vụ.",
-        "words": 36
-      },
-      {
-        "id": "5.02#4",
-        "text": "Thảm kịch suýt xảy ra là một lời thức tỉnh mạnh mẽ về các dấu hiệu của bạo lực gia đình phi thể xác và hành vi lạm dụng tài chính có tổ chức.",
-        "words": 34
-      },
-      {
-        "id": "5.02#5",
-        "text": "Sự tỉnh táo trong tình cảm và việc bảo vệ ranh giới cá nhân chính là chiếc chìa khóa then chốt để bảo vệ bản thân trước những kẻ săn mồi đội lốt người yêu thương.",
-        "words": 36
-      }
-    ]
-  },
-  {
-    "id": "5.03",
-    "act": 5,
-    "kind": "LOI",
-    "role": "D",
-    "direction": "D: bài học từ công tác điều tra hình sự",
-    "text": "Dưới góc độ nghiệp vụ điều tra hình sự, bài học lớn nhất từ vụ án này là sự kết hợp chặt chẽ giữa thông tin tố giác của quần chúng và các biện pháp trinh sát kỹ thuật số hiện đại. Nếu không có sự dũng cảm của người cung cấp tin và sự mưu trí của các sĩ quan cảnh sát chìm, một vụ án mạng kinh hoàng chắc chắn đã xảy ra trong thực tế. Việc thu thập chứng cứ bằng hình ảnh và âm thanh trực tiếp là vũ khí tối thượng đập tan mọi chiến lược chối tội và ngụy biện trước tòa. Lực lượng cảnh sát khuyến cáo người dân khi phát hiện bất kỳ dấu hiệu đe dọa đến tính mạng hoặc các hành vi mờ ám liên quan đến thuê mướn bạo lực cần phải báo cáo ngay lập tức cho cơ quan chức năng để được bảo vệ kịp thời.",
-    "sentences": [
-      {
-        "id": "5.03#1",
-        "text": "Dưới góc độ nghiệp vụ điều tra hình sự, bài học lớn nhất từ vụ án này là sự kết hợp chặt chẽ giữa thông tin tố giác của quần chúng và các biện pháp trinh sát kỹ thuật số hiện đại.",
-        "words": 42
-      },
-      {
-        "id": "5.03#2",
-        "text": "Nếu không có sự dũng cảm của người cung cấp tin và sự mưu trí của các sĩ quan cảnh sát chìm, một vụ án mạng kinh hoàng chắc chắn đã xảy ra trong thực tế.",
-        "words": 36
-      },
-      {
-        "id": "5.03#3",
-        "text": "Việc thu thập chứng cứ bằng hình ảnh và âm thanh trực tiếp là vũ khí tối thượng đập tan mọi chiến lược chối tội và ngụy biện trước tòa.",
-        "words": 30
-      },
-      {
-        "id": "5.03#4",
-        "text": "Lực lượng cảnh sát khuyến cáo người dân khi phát hiện bất kỳ dấu hiệu đe dọa đến tính mạng hoặc các hành vi mờ ám liên quan đến thuê mướn bạo lực cần phải báo cáo ngay lập tức cho cơ quan chức năng để được bảo vệ kịp thời.",
-        "words": 51
-      }
-    ]
-  },
-  {
-    "id": "5.04",
-    "act": 5,
-    "kind": "LOI",
-    "role": "C",
-    "direction": "C: lời khuyên tâm lý học hành vi phòng ngừa bạo lực tâm lý",
-    "text": "Các mối quan hệ tình cảm độc hại trục lợi thường không bắt đầu bằng bạo lực thể xác, mà bắt đầu bằng sự thao túng cảm xúc tinh vi và sự vội vã bất thường trong cam kết hôn nhân. Những kẻ săn mồi nhân cách thường tạo ra một vỏ bọc hoàn hảo, dồn dập tấn công bằng tình cảm để khiến nạn nhân mất đi khả năng đánh giá tỉnh táo. Việc duy trì sự độc lập về tài chính, lắng nghe ý kiến phản biện của bạn bè người thân và không vội vàng nhượng quyền tài sản là những nguyên tắc an toàn cốt tử. Hãy luôn học cách tin vào trực giác mách bảo khi bạn cảm thấy có điều gì đó không chân thật hoặc những sự trùng hợp nguy hiểm liên tiếp xảy ra. Sự cảnh giác trước những biểu hiện cảm xúc thái quá và sự dũng cảm cắt đứt mối quan hệ độc hại chính là tấm lá chắn vững chắc nhất để bảo vệ tương lai của chính mình.",
-    "sentences": [
-      {
-        "id": "5.04#1",
-        "text": "Các mối quan hệ tình cảm độc hại trục lợi thường không bắt đầu bằng bạo lực thể xác, mà bắt đầu bằng sự thao túng cảm xúc tinh vi và sự vội vã bất thường trong cam kết hôn nhân.",
-        "words": 41
-      },
-      {
-        "id": "5.04#2",
-        "text": "Những kẻ săn mồi nhân cách thường tạo ra một vỏ bọc hoàn hảo, dồn dập tấn công bằng tình cảm để khiến nạn nhân mất đi khả năng đánh giá tỉnh táo.",
-        "words": 33
-      },
-      {
-        "id": "5.04#3",
-        "text": "Việc duy trì sự độc lập về tài chính, lắng nghe ý kiến phản biện của bạn bè người thân và không vội vàng nhượng quyền tài sản là những nguyên tắc an toàn cốt tử.",
-        "words": 36
-      },
-      {
-        "id": "5.04#4",
-        "text": "Hãy luôn học cách tin vào trực giác mách bảo khi bạn cảm thấy có điều gì đó không chân thật hoặc những sự trùng hợp nguy hiểm liên tiếp xảy ra.",
-        "words": 32
-      },
-      {
-        "id": "5.04#5",
-        "text": "Sự cảnh giác trước những biểu hiện cảm xúc thái quá và sự dũng cảm cắt đứt mối quan hệ độc hại chính là tấm lá chắn vững chắc nhất để bảo vệ tương lai của chính mình.",
-        "words": 38
-      }
-    ]
-  },
-  {
-    "id": "5.05",
-    "act": 5,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "4 cảnh báo đỏ sinh tồn và lời chào kết kênh",
-    "text": "Để giúp quý vị khán giả kịp thời nhận diện và phòng ngừa nguy cơ trở thành nạn nhân của những kẻ săn mồi tình cảm và thao túng tài chính trong đời thực, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ kinh điển được đúc kết từ hồ sơ Dalia Dippolito. Dấu hiệu thứ nhất: Sự vội vã bất thường trong việc thúc đẩy hôn nhân kết hợp với việc nhắm đến quyền sở hữu tài sản. Khi một người vừa mới quen biết đã dồn dập đòi kết hôn trong thời gian ngắn và liên tục tìm cách can thiệp vào tài khoản ngân hàng, bất động sản hoặc quyền thừa kế của bạn, đó là báo động đỏ cấp tính. Đừng bao giờ để sự lãng mạn mù quáng làm mờ đi lý trí, hãy luôn thận trọng trước những yêu cầu sang tên tài sản hoặc ký kết các văn bản pháp lý vội vã. Dấu hiệu thứ hai: Hành vi thao túng thực tại trơ trẽn, tức Gaslighting, khi bị chất vấn về những điểm bất thường. Kẻ thao túng thường có thói quen chối bỏ hoàn toàn những sai phạm của mình, đổ lỗi ngược lại cho sự đa nghi của bạn và biến bản thân thành nạn nhân vô tội trong mọi cuộc tranh cãi. Sự tự tin thái quá trong việc nói dối không chớp mắt và cố tình làm bạn nghi ngờ chính trí nhớ của mình là một dấu hiệu cảnh báo quan trọng. Dấu hiệu thứ ba: Biểu hiện cảm xúc thái quá mang tính trình diễn và sự thiếu hụt lòng trắc ẩn thực sự. Những kẻ có nhân cách chống đối xã hội thường rất giỏi đóng kịch, dễ dàng rơi nước mắt hoặc tỏ ra đau đớn khi có người khác nhìn vào, nhưng lại lập tức trở nên lạnh lùng vô cảm khi ở một mình. Hãy quan sát hành động thực tế trong đời sống hàng ngày thay vì chỉ tin vào những lời nói hoa mỹ hay những giọt nước mắt kịch tính bên ngoài. Dấu hiệu thứ tư: Những sự cố nguy hiểm bất thường và những rắc rối pháp lý bí ẩn liên tục xảy ra xung quanh bạn. Trong vụ án này, Michael Dippolito từng liên tục gặp rắc rối từ ly trà có vị lạ cho đến gói chất cấm bị gài trong xe trước khi vụ thuê sát thủ bị phanh phui. Khi bạn nhận thấy những tai nạn bất thường xảy ra lặp đi lặp lại trong không gian sống của mình, tuyệt đối không được coi đó là sự trùng hợp ngẫu nhiên mà cần phải kiểm tra an ninh toàn diện ngay lập tức. Tình yêu chân chính phải được xây dựng trên sự tôn trọng, lòng trung thực và sự an toàn của cả hai người, chứ không bao giờ có chỗ cho sự toan tính hay phản bội. Cảm ơn quý vị đã dành thời gian đồng hành cùng Amber Eyes trong tập hồ sơ tâm lý học tội phạm đầy kịch tính và bài học cảnh tỉnh sâu sắc ngày hôm nay. Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ video ý nghĩa này đến những người xung quanh bạn để cùng nhau nâng cao cảnh giác trong cuộc sống. Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
-    "sentences": [
-      {
-        "id": "5.05#1",
-        "text": "Để giúp quý vị khán giả kịp thời nhận diện và phòng ngừa nguy cơ trở thành nạn nhân của những kẻ săn mồi tình cảm và thao túng tài chính trong đời thực, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ kinh điển được đúc kết từ hồ sơ Dalia Dippolito.",
-        "words": 56
-      },
-      {
-        "id": "5.05#2",
-        "text": "Dấu hiệu thứ nhất: Sự vội vã bất thường trong việc thúc đẩy hôn nhân kết hợp với việc nhắm đến quyền sở hữu tài sản.",
-        "words": 26
-      },
-      {
-        "id": "5.05#3",
-        "text": "Khi một người vừa mới quen biết đã dồn dập đòi kết hôn trong thời gian ngắn và liên tục tìm cách can thiệp vào tài khoản ngân hàng, bất động sản hoặc quyền thừa kế của bạn, đó là báo động đỏ cấp tính.",
-        "words": 45
-      },
-      {
-        "id": "5.05#4",
-        "text": "Đừng bao giờ để sự lãng mạn mù quáng làm mờ đi lý trí, hãy luôn thận trọng trước những yêu cầu sang tên tài sản hoặc ký kết các văn bản pháp lý vội vã.",
-        "words": 36
-      },
-      {
-        "id": "5.05#5",
-        "text": "Dấu hiệu thứ hai: Hành vi thao túng thực tại trơ trẽn, tức Gaslighting, khi bị chất vấn về những điểm bất thường.",
-        "words": 23
-      },
-      {
-        "id": "5.05#6",
-        "text": "Kẻ thao túng thường có thói quen chối bỏ hoàn toàn những sai phạm của mình, đổ lỗi ngược lại cho sự đa nghi của bạn và biến bản thân thành nạn nhân vô tội trong mọi cuộc tranh cãi.",
-        "words": 40
-      },
-      {
-        "id": "5.05#7",
-        "text": "Sự tự tin thái quá trong việc nói dối không chớp mắt và cố tình làm bạn nghi ngờ chính trí nhớ của mình là một dấu hiệu cảnh báo quan trọng.",
-        "words": 32
-      },
-      {
-        "id": "5.05#8",
-        "text": "Dấu hiệu thứ ba: Biểu hiện cảm xúc thái quá mang tính trình diễn và sự thiếu hụt lòng trắc ẩn thực sự.",
-        "words": 23
-      },
-      {
-        "id": "5.05#9",
-        "text": "Những kẻ có nhân cách chống đối xã hội thường rất giỏi đóng kịch, dễ dàng rơi nước mắt hoặc tỏ ra đau đớn khi có người khác nhìn vào, nhưng lại lập tức trở nên lạnh lùng vô cảm khi ở một mình.",
-        "words": 44
-      },
-      {
-        "id": "5.05#10",
-        "text": "Hãy quan sát hành động thực tế trong đời sống hàng ngày thay vì chỉ tin vào những lời nói hoa mỹ hay những giọt nước mắt kịch tính bên ngoài.",
-        "words": 31
-      },
-      {
-        "id": "5.05#11",
-        "text": "Dấu hiệu thứ tư: Những sự cố nguy hiểm bất thường và những rắc rối pháp lý bí ẩn liên tục xảy ra xung quanh bạn.",
-        "words": 26
-      },
-      {
-        "id": "5.05#12",
-        "text": "Trong vụ án này, Michael Dippolito từng liên tục gặp rắc rối từ ly trà có vị lạ cho đến gói chất cấm bị gài trong xe trước khi vụ thuê sát thủ bị phanh phui.",
-        "words": 36
-      },
-      {
-        "id": "5.05#13",
-        "text": "Khi bạn nhận thấy những tai nạn bất thường xảy ra lặp đi lặp lại trong không gian sống của mình, tuyệt đối không được coi đó là sự trùng hợp ngẫu nhiên mà cần phải kiểm tra an ninh toàn diện ngay lập tức.",
-        "words": 45
-      },
-      {
-        "id": "5.05#14",
-        "text": "Tình yêu chân chính phải được xây dựng trên sự tôn trọng, lòng trung thực và sự an toàn của cả hai người, chứ không bao giờ có chỗ cho sự toan tính hay phản bội.",
-        "words": 36
-      },
-      {
-        "id": "5.05#15",
-        "text": "Cảm ơn quý vị đã dành thời gian đồng hành cùng Amber Eyes trong tập hồ sơ tâm lý học tội phạm đầy kịch tính và bài học cảnh tỉnh sâu sắc ngày hôm nay.",
-        "words": 35
-      },
-      {
-        "id": "5.05#16",
-        "text": "Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ video ý nghĩa này đến những người xung quanh bạn để cùng nhau nâng cao cảnh giác trong cuộc sống.",
-        "words": 33
-      },
-      {
-        "id": "5.05#17",
-        "text": "Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
-        "words": 17
-      }
-    ]
-  },
-  {
-    "id": "5.06",
-    "act": 5,
-    "kind": "BGM",
-    "desc": "*Giai điệu Piano ấm áp ngân vang những nốt nhạc thanh thản cuối cùng, khép lại trọn vẹn tập hồ sơ.*"
-  }
+ {
+  "id": "1.01",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "*Tiếng Dark Ambient dồn dập, nhịp điện tử căng thẳng hòa cùng tiếng còi xe cảnh sát từ xa tạo không khí ngột ngạt của một hiện trường án mạng.*"
+ },
+ {
+  "id": "1.02",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng trầm, mở đầu câu chuyện với kịch tính cao độ",
+  "text": "Buổi sáng ngày 5 tháng 8 năm 2009, tại thị trấn biển Boynton Beach thuộc bang Florida, một khu phố ngoại ô bỗng chốc bị vây kín bởi hàng chục xe cảnh sát và dải băng phong tỏa màu vàng. Bên ngoài căn nhà liền kề khang trang của gia đình Dippolito, các sĩ quan cảnh sát trang bị vũ khí đi lại dày đặc, tạo nên một hiện trường án mạng giả lập vô cùng căng thẳng. Mọi ánh nhìn của người dân địa phương và ống kính máy quay của chương trình truyền hình thực tế Cops đều đổ dồn về chiếc xe ô tô vừa lao tới hiện trường. Người phụ nữ bước xuống xe là Dalia Dippolito, hai mươi sáu tuổi, một người vợ trẻ vừa kết hôn được khoảng sáu tháng. Khi tiến lại gần dải băng phong tỏa, cô được một sĩ quan cảnh sát báo tin rằng chồng cô, Michael Dippolito, đã qua đời. Ngay giây phút lời thông báo vang lên, một màn diễn xuất bi kịch xứng tầm giải thưởng điện ảnh đã bùng nổ trước sự chứng kiến của toàn bộ đám đông. Dư chấn xã hội bùng nổ tức thì khi tin tức về một vụ tấn công nghiêm trọng ngay tại khu dân cư yên bình bắt đầu lan truyền trên các mặt báo địa phương. Cảm giác an toàn của cộng đồng cư dân ngoại ô bị xé toạc, đẩy sự hoang mang tập thể lên đến đỉnh điểm trong sự bàng hoàng khôn xiết.",
+  "sentences": [
+   {
+    "id": "1.02#1",
+    "text": "Buổi sáng ngày 5 tháng 8 năm 2009, tại thị trấn biển Boynton Beach thuộc bang Florida, một khu phố ngoại ô bỗng chốc bị vây kín bởi hàng chục xe cảnh sát và dải băng phong tỏa màu vàng.",
+    "words": 40
+   },
+   {
+    "id": "1.02#2",
+    "text": "Bên ngoài căn nhà liền kề khang trang của gia đình Dippolito, các sĩ quan cảnh sát trang bị vũ khí đi lại dày đặc, tạo nên một hiện trường án mạng giả lập vô cùng căng thẳng.",
+    "words": 38
+   },
+   {
+    "id": "1.02#3",
+    "text": "Mọi ánh nhìn của người dân địa phương và ống kính máy quay của chương trình truyền hình thực tế Cops đều đổ dồn về chiếc xe ô tô vừa lao tới hiện trường.",
+    "words": 34
+   },
+   {
+    "id": "1.02#4",
+    "text": "Người phụ nữ bước xuống xe là Dalia Dippolito, hai mươi sáu tuổi, một người vợ trẻ vừa kết hôn được khoảng sáu tháng.",
+    "words": 24
+   },
+   {
+    "id": "1.02#5",
+    "text": "Khi tiến lại gần dải băng phong tỏa, cô được một sĩ quan cảnh sát báo tin rằng chồng cô, Michael Dippolito, đã qua đời.",
+    "words": 25
+   },
+   {
+    "id": "1.02#6",
+    "text": "Ngay giây phút lời thông báo vang lên, một màn diễn xuất bi kịch xứng tầm giải thưởng điện ảnh đã bùng nổ trước sự chứng kiến của toàn bộ đám đông.",
+    "words": 32
+   },
+   {
+    "id": "1.02#7",
+    "text": "Dư chấn xã hội bùng nổ tức thì khi tin tức về một vụ tấn công nghiêm trọng ngay tại khu dân cư yên bình bắt đầu lan truyền trên các mặt báo địa phương.",
+    "words": 35
+   },
+   {
+    "id": "1.02#8",
+    "text": "Cảm giác an toàn của cộng đồng cư dân ngoại ô bị xé toạc, đẩy sự hoang mang tập thể lên đến đỉnh điểm trong sự bàng hoàng khôn xiết.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "1.03",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "*Tiếng phanh xe gấp, tiếng dải băng phong tỏa bay phần phật trong gió.*"
+ },
+ {
+  "id": "1.04",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tái hiện màn khóc lóc kịch tính của người vợ trẻ",
+  "text": "Dalia ôm mặt, khóc nức nở và gục đầu vào vai một sĩ quan cảnh sát đang đứng gác. Cô liên tục khóc nấc, run rẩy và hỏi đi hỏi lại chuyện gì đã xảy ra với người bạn đời của mình. Bất kỳ ai nhìn vào cảnh tượng ấy cũng sẽ tin rằng đây là một người vợ trẻ đáng thương đang bị xé nát tâm can trước sự mất mát đột ngột. Những giọt nước mắt tuôn rơi lã chã, giọng nói lạc đi vì đau đớn và cử chỉ bàng hoàng của cô ta đã hoàn toàn đánh lừa những người dân hiếu kỳ xung quanh. Nhưng điều mà người phụ nữ này hoàn toàn không thể ngờ tới là toàn bộ hiện trường kia chỉ là một cái bẫy nghiệp vụ do cảnh sát dàn dựng. Người chồng Michael Dippolito thực chất vẫn còn sống và đang an toàn tuyệt đối dưới sự bảo vệ của lực lượng điều tra. Và kẻ chủ mưu thuê sát thủ để lấy mạng người đàn ông ấy không phải là một băng đảng xa lạ nào khác, mà chính là người vợ đang khóc lóc thảm thiết ngoài kia. Sự đối lập ghê rợn giữa màn kịch đau đớn trước máy quay và toan tính tàn độc bên trong đã tạo nên một cú sốc không thể tưởng tượng nổi.",
+  "sentences": [
+   {
+    "id": "1.04#1",
+    "text": "Dalia ôm mặt, khóc nức nở và gục đầu vào vai một sĩ quan cảnh sát đang đứng gác.",
+    "words": 19
+   },
+   {
+    "id": "1.04#2",
+    "text": "Cô liên tục khóc nấc, run rẩy và hỏi đi hỏi lại chuyện gì đã xảy ra với người bạn đời của mình.",
+    "words": 23
+   },
+   {
+    "id": "1.04#3",
+    "text": "Bất kỳ ai nhìn vào cảnh tượng ấy cũng sẽ tin rằng đây là một người vợ trẻ đáng thương đang bị xé nát tâm can trước sự mất mát đột ngột.",
+    "words": 32
+   },
+   {
+    "id": "1.04#4",
+    "text": "Những giọt nước mắt tuôn rơi lã chã, giọng nói lạc đi vì đau đớn và cử chỉ bàng hoàng của cô ta đã hoàn toàn đánh lừa những người dân hiếu kỳ xung quanh.",
+    "words": 35
+   },
+   {
+    "id": "1.04#5",
+    "text": "Nhưng điều mà người phụ nữ này hoàn toàn không thể ngờ tới là toàn bộ hiện trường kia chỉ là một cái bẫy nghiệp vụ do cảnh sát dàn dựng.",
+    "words": 31
+   },
+   {
+    "id": "1.04#6",
+    "text": "Người chồng Michael Dippolito thực chất vẫn còn sống và đang an toàn tuyệt đối dưới sự bảo vệ của lực lượng điều tra.",
+    "words": 24
+   },
+   {
+    "id": "1.04#7",
+    "text": "Và kẻ chủ mưu thuê sát thủ để lấy mạng người đàn ông ấy không phải là một băng đảng xa lạ nào khác, mà chính là người vợ đang khóc lóc thảm thiết ngoài kia.",
+    "words": 36
+   },
+   {
+    "id": "1.04#8",
+    "text": "Sự đối lập ghê rợn giữa màn kịch đau đớn trước máy quay và toan tính tàn độc bên trong đã tạo nên một cú sốc không thể tưởng tượng nổi.",
+    "words": 31
+   }
+  ]
+ },
+ {
+  "id": "1.05",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "*Tiếng máy quay phim truyền hình rè nhẹ, tiếng xì xào bàn tán của đám đông.*"
+ },
+ {
+  "id": "1.06",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "nhấn mạnh sự trơ trẽn của vụ án gây chấn động nước Mỹ",
+  "text": "Vụ án Dalia Dippolito nhanh chóng trở thành một hiện tượng truyền thông toàn cầu bởi sự trơ trẽn và mức độ xảo quyệt chưa từng có trong lịch sử tố tụng nước Mỹ. Theo hồ sơ của bên công tố, ẩn sau đám cưới ngọt ngào là một cuộc hôn nhân vụ lợi nhằm chiếm đoạt tiền bạc và quyền sở hữu căn nhà của người chồng. Để độc chiếm toàn bộ tài sản mà không cần ly hôn, người đàn bà ấy đã tìm thuê người tước đoạt mạng sống của người phối ngẫu. Sự đối lập ghê rợn giữa màn khóc thương giả tạo ngoài hiện trường với sự lạnh lùng tàn nhẫn khi thuê sát thủ đã làm rúng động toàn bộ dư luận. Những nhân chứng có mặt tại hiện trường ngày hôm đó không bao giờ có thể quên được sự lừa dối trơ trẽn đến kinh ngạc ấy. Vỏ bọc người vợ trẻ trung, duyên dáng và yếu đuối đã tạo nên một hiệu ứng hào quang hoàn hảo, ru ngủ sự cảnh giác của xã hội suốt nhiều tháng. Người ngoài từ chối tin rằng một phụ nữ có vẻ ngoài thánh thiện lại có thể dung dưỡng một dã tâm hủy diệt khủng khiếp đến như vậy.",
+  "sentences": [
+   {
+    "id": "1.06#1",
+    "text": "Vụ án Dalia Dippolito nhanh chóng trở thành một hiện tượng truyền thông toàn cầu bởi sự trơ trẽn và mức độ xảo quyệt chưa từng có trong lịch sử tố tụng nước Mỹ.",
+    "words": 34
+   },
+   {
+    "id": "1.06#2",
+    "text": "Theo hồ sơ của bên công tố, ẩn sau đám cưới ngọt ngào là một cuộc hôn nhân vụ lợi nhằm chiếm đoạt tiền bạc và quyền sở hữu căn nhà của người chồng.",
+    "words": 34
+   },
+   {
+    "id": "1.06#3",
+    "text": "Để độc chiếm toàn bộ tài sản mà không cần ly hôn, người đàn bà ấy đã tìm thuê người tước đoạt mạng sống của người phối ngẫu.",
+    "words": 28
+   },
+   {
+    "id": "1.06#4",
+    "text": "Sự đối lập ghê rợn giữa màn khóc thương giả tạo ngoài hiện trường với sự lạnh lùng tàn nhẫn khi thuê sát thủ đã làm rúng động toàn bộ dư luận.",
+    "words": 32
+   },
+   {
+    "id": "1.06#5",
+    "text": "Những nhân chứng có mặt tại hiện trường ngày hôm đó không bao giờ có thể quên được sự lừa dối trơ trẽn đến kinh ngạc ấy.",
+    "words": 27
+   },
+   {
+    "id": "1.06#6",
+    "text": "Vỏ bọc người vợ trẻ trung, duyên dáng và yếu đuối đã tạo nên một hiệu ứng hào quang hoàn hảo, ru ngủ sự cảnh giác của xã hội suốt nhiều tháng.",
+    "words": 32
+   },
+   {
+    "id": "1.06#7",
+    "text": "Người ngoài từ chối tin rằng một phụ nữ có vẻ ngoài thánh thiện lại có thể dung dưỡng một dã tâm hủy diệt khủng khiếp đến như vậy.",
+    "words": 29
+   }
+  ]
+ },
+ {
+  "id": "1.07",
+  "act": 1,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "N1: Người hàng xóm minh hoạ, giọng nữ thanh niên bàng hoàng, rùng mình",
+  "text": "Hãy hình dung cảm giác của một người hàng xóm sáng hôm đó, khi nghe tiếng còi hú dồn dập và chạy ra xem chuyện gì đang xảy ra. Cảnh sát giăng dây phong tỏa khắp nơi, các thám tử đi lại lấy dấu vết và không khí u ám như một bộ phim hành động thực sự. Khi thấy xe của Dalia chạy về và cô ấy lao xuống khóc lóc, tất cả chúng tôi đều cảm thấy vô cùng xót xa cho người vợ trẻ. Cô ấy ôm lấy sĩ quan cảnh sát, khóc nấc lên từng hồi và gần như ngất đi vì không thể chịu đựng nổi nỗi đau đớn. Tôi đã thầm cầu nguyện cho cô ấy và nghĩ rằng kẻ nào đã làm điều tàn ác này với gia đình họ thật là vô nhân tính. Thế nhưng khi xem bản tin truyền hình và biết toàn bộ sự thật, tôi đã rùng mình đến lạnh toát sống lưng. Cảm giác kinh hoàng khi nhận ra một âm mưu tước đoạt sinh mạng đã diễn ra ngay sát vách căn nhà của mình suốt nhiều tuần lễ. Tất cả những giọt nước mắt, tiếng gào khóc thảm thương sáng hôm đó hoàn toàn là một vở kịch trơ trẽn không thể tha thứ. Sau buổi sáng định mệnh ấy, một nỗi hoang mang vô hình bao trùm khắp các dãy nhà liền kề yên tĩnh của khu phố chúng tôi. Người ta bắt đầu nhìn nhau với ánh mắt dè chừng, tự hỏi liệu phía sau những nụ cười chào hỏi lịch thiệp mỗi sớm mai là những bí mật đen tối nào đang được che giấu. Ảo tưởng về một vùng ngoại ô an toàn tuyệt đối đã hoàn toàn vỡ vụn khi chúng tôi nhận ra ranh giới giữa một tổ ấm hạnh phúc và một hiện trường án mạng đôi khi chỉ mong manh như một sợi tóc. Nỗi đau đớn lớn nhất của cộng đồng không chỉ là sự xuất hiện của tội ác, mà là sự sụp đổ cay đắng của niềm tin vào sự lương thiện của những người sống ngay cạnh mình.",
+  "sentences": [
+   {
+    "id": "1.07#1",
+    "text": "Hãy hình dung cảm giác của một người hàng xóm sáng hôm đó, khi nghe tiếng còi hú dồn dập và chạy ra xem chuyện gì đang xảy ra.",
+    "words": 29
+   },
+   {
+    "id": "1.07#2",
+    "text": "Cảnh sát giăng dây phong tỏa khắp nơi, các thám tử đi lại lấy dấu vết và không khí u ám như một bộ phim hành động thực sự.",
+    "words": 29
+   },
+   {
+    "id": "1.07#3",
+    "text": "Khi thấy xe của Dalia chạy về và cô ấy lao xuống khóc lóc, tất cả chúng tôi đều cảm thấy vô cùng xót xa cho người vợ trẻ.",
+    "words": 29
+   },
+   {
+    "id": "1.07#4",
+    "text": "Cô ấy ôm lấy sĩ quan cảnh sát, khóc nấc lên từng hồi và gần như ngất đi vì không thể chịu đựng nổi nỗi đau đớn.",
+    "words": 27
+   },
+   {
+    "id": "1.07#5",
+    "text": "Tôi đã thầm cầu nguyện cho cô ấy và nghĩ rằng kẻ nào đã làm điều tàn ác này với gia đình họ thật là vô nhân tính.",
+    "words": 28
+   },
+   {
+    "id": "1.07#6",
+    "text": "Thế nhưng khi xem bản tin truyền hình và biết toàn bộ sự thật, tôi đã rùng mình đến lạnh toát sống lưng.",
+    "words": 23
+   },
+   {
+    "id": "1.07#7",
+    "text": "Cảm giác kinh hoàng khi nhận ra một âm mưu tước đoạt sinh mạng đã diễn ra ngay sát vách căn nhà của mình suốt nhiều tuần lễ.",
+    "words": 28
+   },
+   {
+    "id": "1.07#8",
+    "text": "Tất cả những giọt nước mắt, tiếng gào khóc thảm thương sáng hôm đó hoàn toàn là một vở kịch trơ trẽn không thể tha thứ.",
+    "words": 26
+   },
+   {
+    "id": "1.07#9",
+    "text": "Sau buổi sáng định mệnh ấy, một nỗi hoang mang vô hình bao trùm khắp các dãy nhà liền kề yên tĩnh của khu phố chúng tôi.",
+    "words": 27
+   },
+   {
+    "id": "1.07#10",
+    "text": "Người ta bắt đầu nhìn nhau với ánh mắt dè chừng, tự hỏi liệu phía sau những nụ cười chào hỏi lịch thiệp mỗi sớm mai là những bí mật đen tối nào đang được che giấu.",
+    "words": 37
+   },
+   {
+    "id": "1.07#11",
+    "text": "Ảo tưởng về một vùng ngoại ô an toàn tuyệt đối đã hoàn toàn vỡ vụn khi chúng tôi nhận ra ranh giới giữa một tổ ấm hạnh phúc và một hiện trường án mạng đôi khi chỉ mong manh như một sợi tóc.",
+    "words": 44
+   },
+   {
+    "id": "1.07#12",
+    "text": "Nỗi đau đớn lớn nhất của cộng đồng không chỉ là sự xuất hiện của tội ác, mà là sự sụp đổ cay đắng của niềm tin vào sự lương thiện của những người sống ngay cạnh mình.",
+    "words": 38
+   }
+  ]
+ },
+ {
+  "id": "1.08",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "*Tiếng còi xe tuần tra xa dần, tiếng bộ đàm cảnh sát ngắt quãng.*"
+ },
+ {
+  "id": "1.09",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tái hiện không khí phòng thẩm vấn",
+  "text": "Sau màn kịch bi thương tại hiện trường, Dalia Dippolito được lực lượng chức năng đưa về trụ sở cảnh sát Boynton Beach. Ngồi trong phòng thẩm vấn kín, cô ta vẫn tiếp tục sắm vai một góa phụ trẻ đau buồn, liên tục lau những giọt nước mắt vô hình. Thế nhưng người đàn bà ấy hoàn toàn không hề hay biết rằng các điều tra viên đã nắm trong tay những bằng chứng thép mang tính hủy diệt. Các ống kính máy quay nghiệp vụ giấu kín trong căn phòng đang ghi lại trọn vẹn từng cử chỉ, ánh mắt và nhịp thở của ả. Toàn bộ cuộc gặp gỡ bí mật giữa ả và người sát thủ hợp đồng thực chất đã được thu hình và lưu trữ cẩn thận từ trước đó vài ngày. Sự tự tin bệnh lý của một kẻ ái kỷ khiến ả tin chắc rằng màn diễn xuất xuất thần tại hiện trường đã qua mặt được toàn bộ lực lượng cảnh sát. Ả đinh ninh rằng kế hoạch tinh vi của mình hoàn hảo đến mức không để lại bất kỳ kẽ hở nào cho pháp luật can thiệp. Nhưng chiếc bẫy nghiệp vụ của các thám tử điều tra chỉ vừa mới bắt đầu bước vào giai đoạn quyết định nhất.",
+  "sentences": [
+   {
+    "id": "1.09#1",
+    "text": "Sau màn kịch bi thương tại hiện trường, Dalia Dippolito được lực lượng chức năng đưa về trụ sở cảnh sát Boynton Beach.",
+    "words": 23
+   },
+   {
+    "id": "1.09#2",
+    "text": "Ngồi trong phòng thẩm vấn kín, cô ta vẫn tiếp tục sắm vai một góa phụ trẻ đau buồn, liên tục lau những giọt nước mắt vô hình.",
+    "words": 28
+   },
+   {
+    "id": "1.09#3",
+    "text": "Thế nhưng người đàn bà ấy hoàn toàn không hề hay biết rằng các điều tra viên đã nắm trong tay những bằng chứng thép mang tính hủy diệt.",
+    "words": 29
+   },
+   {
+    "id": "1.09#4",
+    "text": "Các ống kính máy quay nghiệp vụ giấu kín trong căn phòng đang ghi lại trọn vẹn từng cử chỉ, ánh mắt và nhịp thở của ả.",
+    "words": 27
+   },
+   {
+    "id": "1.09#5",
+    "text": "Toàn bộ cuộc gặp gỡ bí mật giữa ả và người sát thủ hợp đồng thực chất đã được thu hình và lưu trữ cẩn thận từ trước đó vài ngày.",
+    "words": 31
+   },
+   {
+    "id": "1.09#6",
+    "text": "Sự tự tin bệnh lý của một kẻ ái kỷ khiến ả tin chắc rằng màn diễn xuất xuất thần tại hiện trường đã qua mặt được toàn bộ lực lượng cảnh sát.",
+    "words": 33
+   },
+   {
+    "id": "1.09#7",
+    "text": "Ả đinh ninh rằng kế hoạch tinh vi của mình hoàn hảo đến mức không để lại bất kỳ kẽ hở nào cho pháp luật can thiệp.",
+    "words": 27
+   },
+   {
+    "id": "1.09#8",
+    "text": "Nhưng chiếc bẫy nghiệp vụ của các thám tử điều tra chỉ vừa mới bắt đầu bước vào giai đoạn quyết định nhất.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "1.10",
+  "act": 1,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: Điều tra viên minh hoạ, giọng nam trung niên đanh thép, chuẩn xác",
+  "text": "Chiến dịch nghiệp vụ giăng bẫy được chúng tôi kích hoạt ngay sau khi nhận được lời tố giác từ một người trung gian từng có quan hệ thân cận với Dalia. Sau khi đánh giá các đoạn tin nhắn và thu âm sơ bộ, cơ quan điều tra nhận định mối đe dọa đối với sinh mạng của Michael Dippolito là vô cùng cấp bách. Chúng tôi quyết định cài một sĩ quan cảnh sát chìm dày dạn kinh nghiệm đóng vai sát thủ hợp đồng chuyên nghiệp để trực tiếp tiếp cận đối tượng. Hiện trường phong tỏa sáng ngày 5 tháng 8 là một bước đi nghiệp vụ bắt buộc nhằm cô lập đối tượng và kiểm chứng phản ứng tâm lý thực tế. Mọi hành vi, từ việc di chuyển đến hiện trường cho đến những giọt nước mắt gục vào vai sĩ quan gác cổng, đều khớp chính xác với dự đoán của hồ sơ tâm lý tội phạm. Mục tiêu tối thượng của chúng tôi là bảo đảm tuyệt đối tính mạng cho nạn nhân, đồng thời thu thập chuỗi bằng chứng khách quan không thể bị bác bỏ. Đây là một chiến dịch giăng bẫy mẫu mực, nơi khoa học điều tra và công nghệ ghi hình đã chặn đứng một thảm kịch gia đình cận kề. Dưới góc độ tâm lý học điều tra, màn kịch gục khóc của đối tượng tại hiện trường là một ví dụ kinh điển về nỗi đau mang tính trình diễn nhằm thao túng sự chú ý của công chúng. Ả tin rằng việc phóng đại cảm xúc và bám víu vào sự hiện diện của lực lượng chức năng sẽ tạo nên một bức tường phòng thủ tâm lý vững chắc che đậy dã tâm bên trong. Thế nhưng những cử chỉ lau mắt ráo hoảnh và sự thiếu hụt các biến đổi sinh lý thực sự như nhịp thở ngắt quãng hay sự tái nhợt của làn da đã không thể qua mặt được các điều tra viên dày dạn kinh nghiệm. Cái bẫy nghiệp vụ được giăng ra không chỉ để thu thập chứng cứ vật chất, mà còn để đối tượng tự bộc lộ trọn vẹn bản chất giả tạo của mình trước pháp luật.",
+  "sentences": [
+   {
+    "id": "1.10#1",
+    "text": "Chiến dịch nghiệp vụ giăng bẫy được chúng tôi kích hoạt ngay sau khi nhận được lời tố giác từ một người trung gian từng có quan hệ thân cận với Dalia.",
+    "words": 32
+   },
+   {
+    "id": "1.10#2",
+    "text": "Sau khi đánh giá các đoạn tin nhắn và thu âm sơ bộ, cơ quan điều tra nhận định mối đe dọa đối với sinh mạng của Michael Dippolito là vô cùng cấp bách.",
+    "words": 34
+   },
+   {
+    "id": "1.10#3",
+    "text": "Chúng tôi quyết định cài một sĩ quan cảnh sát chìm dày dạn kinh nghiệm đóng vai sát thủ hợp đồng chuyên nghiệp để trực tiếp tiếp cận đối tượng.",
+    "words": 30
+   },
+   {
+    "id": "1.10#4",
+    "text": "Hiện trường phong tỏa sáng ngày 5 tháng 8 là một bước đi nghiệp vụ bắt buộc nhằm cô lập đối tượng và kiểm chứng phản ứng tâm lý thực tế.",
+    "words": 31
+   },
+   {
+    "id": "1.10#5",
+    "text": "Mọi hành vi, từ việc di chuyển đến hiện trường cho đến những giọt nước mắt gục vào vai sĩ quan gác cổng, đều khớp chính xác với dự đoán của hồ sơ tâm lý tội phạm.",
+    "words": 37
+   },
+   {
+    "id": "1.10#6",
+    "text": "Mục tiêu tối thượng của chúng tôi là bảo đảm tuyệt đối tính mạng cho nạn nhân, đồng thời thu thập chuỗi bằng chứng khách quan không thể bị bác bỏ.",
+    "words": 31
+   },
+   {
+    "id": "1.10#7",
+    "text": "Đây là một chiến dịch giăng bẫy mẫu mực, nơi khoa học điều tra và công nghệ ghi hình đã chặn đứng một thảm kịch gia đình cận kề.",
+    "words": 29
+   },
+   {
+    "id": "1.10#8",
+    "text": "Dưới góc độ tâm lý học điều tra, màn kịch gục khóc của đối tượng tại hiện trường là một ví dụ kinh điển về nỗi đau mang tính trình diễn nhằm thao túng sự chú ý của công chúng.",
+    "words": 40
+   },
+   {
+    "id": "1.10#9",
+    "text": "Ả tin rằng việc phóng đại cảm xúc và bám víu vào sự hiện diện của lực lượng chức năng sẽ tạo nên một bức tường phòng thủ tâm lý vững chắc che đậy dã tâm bên trong.",
+    "words": 38
+   },
+   {
+    "id": "1.10#10",
+    "text": "Thế nhưng những cử chỉ lau mắt ráo hoảnh và sự thiếu hụt các biến đổi sinh lý thực sự như nhịp thở ngắt quãng hay sự tái nhợt của làn da đã không thể qua mặt được các điều tra viên dày dạn kinh nghiệm.",
+    "words": 46
+   },
+   {
+    "id": "1.10#11",
+    "text": "Cái bẫy nghiệp vụ được giăng ra không chỉ để thu thập chứng cứ vật chất, mà còn để đối tượng tự bộc lộ trọn vẹn bản chất giả tạo của mình trước pháp luật.",
+    "words": 35
+   }
+  ]
+ },
+ {
+  "id": "1.11",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "kết thúc hồi 1, mở ra cuộc đối đầu gay cấn",
+  "text": "Chiếc bẫy nghiệp vụ tinh vi đã khép lại một cách trọn vẹn mà đối tượng không hề hay biết. Sân khấu kịch nghệ ngoài đời thực giờ đây chuyển đổi không gian sang bốn bức tường lạnh lẽo của phòng hỏi cung. Một cuộc đấu trí tâm lý nghẹt thở sắp sửa diễn ra giữa các điều tra viên sắc bén và người vợ mới cưới trơ trẽn. Và những sự thật kinh hoàng nhất về dã tâm con người sẽ được phơi bày trọn vẹn ngay sau đây.",
+  "sentences": [
+   {
+    "id": "1.11#1",
+    "text": "Chiếc bẫy nghiệp vụ tinh vi đã khép lại một cách trọn vẹn mà đối tượng không hề hay biết.",
+    "words": 20
+   },
+   {
+    "id": "1.11#2",
+    "text": "Sân khấu kịch nghệ ngoài đời thực giờ đây chuyển đổi không gian sang bốn bức tường lạnh lẽo của phòng hỏi cung.",
+    "words": 23
+   },
+   {
+    "id": "1.11#3",
+    "text": "Một cuộc đấu trí tâm lý nghẹt thở sắp sửa diễn ra giữa các điều tra viên sắc bén và người vợ mới cưới trơ trẽn.",
+    "words": 26
+   },
+   {
+    "id": "1.11#4",
+    "text": "Và những sự thật kinh hoàng nhất về dã tâm con người sẽ được phơi bày trọn vẹn ngay sau đây.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "1.12",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "*Tiếng Dark Ambient chìm dần, tiếng nhịp tim và tiếng tích tắc đồng hồ lạnh lẽo khép lại Hồi 1.*"
+ },
+ {
+  "id": "2.01",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "*Âm thanh Electronic Pulse dồn dập, tiếng tích tắc đồng hồ lạnh lẽo và sắc lạnh tạo cảm giác căng thẳng của một phòng hỏi cung.*"
+ },
+ {
+  "id": "2.02",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tiết tấu nhanh, miêu tả phản ứng thao túng tâm lý",
+  "text": "Khi ngồi đối diện với các điều tra viên, thay vì cúi đầu nhận tội hay bộc lộ sự bối rối, Dalia Dippolito lập tức chuyển đổi chiến thuật sang trạng thái phòng vệ cực đoan. Ả một mực phủ nhận việc mình có bất kỳ toan tính nào nhằm làm tổn hại đến người phối ngẫu. Phản ứng này phản ánh rõ nét kỹ thuật Gaslighting, tức thao túng thực tại, nơi kẻ dối trá trơ trẽn cố gắng khiến người đối diện nghi ngờ chính nhận thức và bằng chứng rõ ràng trước mắt. Ả đóng vai một nạn nhân ngây thơ bị vu khống, lớn tiếng khẳng định tình yêu vô điều kiện mà mình dành cho Michael. Ả hy vọng sự tự tin giả tạo và những giọt nước mắt vội vã có thể làm lung lay sự quyết đoán của các sĩ quan thẩm vấn.",
+  "sentences": [
+   {
+    "id": "2.02#1",
+    "text": "Khi ngồi đối diện với các điều tra viên, thay vì cúi đầu nhận tội hay bộc lộ sự bối rối, Dalia Dippolito lập tức chuyển đổi chiến thuật sang trạng thái phòng vệ cực đoan.",
+    "words": 36
+   },
+   {
+    "id": "2.02#2",
+    "text": "Ả một mực phủ nhận việc mình có bất kỳ toan tính nào nhằm làm tổn hại đến người phối ngẫu.",
+    "words": 21
+   },
+   {
+    "id": "2.02#3",
+    "text": "Phản ứng này phản ánh rõ nét kỹ thuật Gaslighting, tức thao túng thực tại, nơi kẻ dối trá trơ trẽn cố gắng khiến người đối diện nghi ngờ chính nhận thức và bằng chứng rõ ràng trước mắt.",
+    "words": 39
+   },
+   {
+    "id": "2.02#4",
+    "text": "Ả đóng vai một nạn nhân ngây thơ bị vu khống, lớn tiếng khẳng định tình yêu vô điều kiện mà mình dành cho Michael.",
+    "words": 25
+   },
+   {
+    "id": "2.02#5",
+    "text": "Ả hy vọng sự tự tin giả tạo và những giọt nước mắt vội vã có thể làm lung lay sự quyết đoán của các sĩ quan thẩm vấn.",
+    "words": 29
+   }
+  ]
+ },
+ {
+  "id": "2.03",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "*Tiếng ghế kim loại bị kéo mạnh lách cách, tiếng bước chân lùi lại dứt khoát.*"
+ },
+ {
+  "id": "2.04",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "vạch trần sự trơ trẽn đối mặt với video bằng chứng",
+  "text": "Thế nhưng các điều tra viên không bước vào cuộc nói chuyện này bằng hai bàn tay trắng. Họ bật màn hình máy tính và cho Dalia xem đoạn video ghi lại cuộc gặp gỡ bí mật bên trong chiếc xe hơi màu đỏ ngày 1 tháng 8 năm 2009. Từng khung hình sắc nét phơi bày trọn vẹn khuôn mặt, cử chỉ hào hứng và giọng nói không thể nhầm lẫn của Dalia khi trao đổi với sát thủ chìm. Ả bàn bạc chi tiết về thời điểm ra tay, cách thức tạo hiện trường vụ cướp giả lập và dặn dò sát thủ không được để lại dấu vết. Khi viên cảnh sát chìm hỏi liệu cô có chắc chắn một trăm phần trăm về quyết định này không, Dalia đã thốt ra câu nói chấn động: Tôi chắc chắn năm nghìn phần trăm. Ả còn căn dặn sát thủ phải hành động vào buổi sáng khi mình đang ở phòng tập thể dục để tạo bằng chứng ngoại phạm hoàn hảo. Đối diện với hình ảnh của chính mình trên màn hình, Dalia vẫn trơ tráo biện minh rằng đoạn video đã bị cắt ghép hoặc hiểu sai ngữ cảnh. Sự ngoan cố đến phi lý của người đàn bà này làm kinh ngạc ngay cả những điều tra viên dày dạn kinh nghiệm nhất.",
+  "sentences": [
+   {
+    "id": "2.04#1",
+    "text": "Thế nhưng các điều tra viên không bước vào cuộc nói chuyện này bằng hai bàn tay trắng.",
+    "words": 18
+   },
+   {
+    "id": "2.04#2",
+    "text": "Họ bật màn hình máy tính và cho Dalia xem đoạn video ghi lại cuộc gặp gỡ bí mật bên trong chiếc xe hơi màu đỏ ngày 1 tháng 8 năm 2009.",
+    "words": 32
+   },
+   {
+    "id": "2.04#3",
+    "text": "Từng khung hình sắc nét phơi bày trọn vẹn khuôn mặt, cử chỉ hào hứng và giọng nói không thể nhầm lẫn của Dalia khi trao đổi với sát thủ chìm.",
+    "words": 31
+   },
+   {
+    "id": "2.04#4",
+    "text": "Ả bàn bạc chi tiết về thời điểm ra tay, cách thức tạo hiện trường vụ cướp giả lập và dặn dò sát thủ không được để lại dấu vết.",
+    "words": 30
+   },
+   {
+    "id": "2.04#5",
+    "text": "Khi viên cảnh sát chìm hỏi liệu cô có chắc chắn một trăm phần trăm về quyết định này không, Dalia đã thốt ra câu nói chấn động: Tôi chắc chắn năm nghìn phần trăm.",
+    "words": 35
+   },
+   {
+    "id": "2.04#6",
+    "text": "Ả còn căn dặn sát thủ phải hành động vào buổi sáng khi mình đang ở phòng tập thể dục để tạo bằng chứng ngoại phạm hoàn hảo.",
+    "words": 28
+   },
+   {
+    "id": "2.04#7",
+    "text": "Đối diện với hình ảnh của chính mình trên màn hình, Dalia vẫn trơ tráo biện minh rằng đoạn video đã bị cắt ghép hoặc hiểu sai ngữ cảnh.",
+    "words": 29
+   },
+   {
+    "id": "2.04#8",
+    "text": "Sự ngoan cố đến phi lý của người đàn bà này làm kinh ngạc ngay cả những điều tra viên dày dạn kinh nghiệm nhất.",
+    "words": 25
+   }
+  ]
+ },
+ {
+  "id": "2.05",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "*Tiếng lách cách bấm mở máy cassette ghi âm nghiệp vụ, tiếng rè băng từ.*"
+ },
+ {
+  "id": "2.06",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: phân tích giữa thủ đoạn gây án và dấu ấn tâm lý",
+  "text": "Dưới góc độ nghiệp vụ điều tra, chúng tôi phân tích rất rõ sự khác biệt giữa thủ đoạn gây án Modus Operandi và dấu ấn tâm lý Signature của đối tượng. Về thủ đoạn gây án, Dalia đã tính toán kỹ lưỡng việc tạo ngoại phạm tại phòng tập gym, sử dụng sim điện thoại rác và thuê người ngoài để tránh bị truy vết trực tiếp. Thế nhưng dấu ấn tâm lý bệnh lý của ả lại bộc lộ ở nhu cầu kiểm soát tuyệt đối và sự hưng phấn quyền lực. Câu nói tôi chắc chắn năm nghìn phần trăm không chỉ là một lời xác nhận, mà là một chữ ký tâm lý thể hiện sự quyết đoán tàn nhẫn không hề có chút do dự. Ả không hề có một khoảnh khắc ngập ngừng hay trắc ẩn nào khi định đoạt mạng sống của người đàn ông từng chung chăn gối. Đây không phải là hành vi bộc phát của một người bị dồn vào chân tường, mà là một hành vi săn mồi có tính toán và hoàn toàn chủ động. Chuỗi chứng cứ hình ảnh và âm thanh này là đòn kết liễu đập tan mọi nỗ lực chối tội của đối tượng. Khoảnh khắc ả bình thản ngồi trong xe hơi để mặc cả giá tiền tước đoạt sinh mạng của chồng đã phơi bày một sự tha hóa hoàn toàn về mặt nhân tính. Ả không chỉ đòi hỏi kết quả cuối cùng, mà còn muốn kiểm soát từng chi tiết nhỏ nhất từ góc bắn cho đến việc tạo hiện trường giả để bảo đảm bản thân không phải chịu bất kỳ rủi ro nào. Sự háo hức lộ rõ trong ánh mắt khi nói về cái chết của người đàn ông từng chung chăn gối là biểu hiện rõ nét nhất của sự thỏa mãn quyền lực ở một nhân cách chống đối xã hội. Đó là bằng chứng thép khẳng định rằng hành vi này hoàn toàn không có chỗ cho sự trắc ẩn hay bất kỳ xung đột lương tâm nào.",
+  "sentences": [
+   {
+    "id": "2.06#1",
+    "text": "Dưới góc độ nghiệp vụ điều tra, chúng tôi phân tích rất rõ sự khác biệt giữa thủ đoạn gây án Modus Operandi và dấu ấn tâm lý Signature của đối tượng.",
+    "words": 32
+   },
+   {
+    "id": "2.06#2",
+    "text": "Về thủ đoạn gây án, Dalia đã tính toán kỹ lưỡng việc tạo ngoại phạm tại phòng tập gym, sử dụng sim điện thoại rác và thuê người ngoài để tránh bị truy vết trực tiếp.",
+    "words": 36
+   },
+   {
+    "id": "2.06#3",
+    "text": "Thế nhưng dấu ấn tâm lý bệnh lý của ả lại bộc lộ ở nhu cầu kiểm soát tuyệt đối và sự hưng phấn quyền lực.",
+    "words": 26
+   },
+   {
+    "id": "2.06#4",
+    "text": "Câu nói tôi chắc chắn năm nghìn phần trăm không chỉ là một lời xác nhận, mà là một chữ ký tâm lý thể hiện sự quyết đoán tàn nhẫn không hề có chút do dự.",
+    "words": 36
+   },
+   {
+    "id": "2.06#5",
+    "text": "Ả không hề có một khoảnh khắc ngập ngừng hay trắc ẩn nào khi định đoạt mạng sống của người đàn ông từng chung chăn gối.",
+    "words": 26
+   },
+   {
+    "id": "2.06#6",
+    "text": "Đây không phải là hành vi bộc phát của một người bị dồn vào chân tường, mà là một hành vi săn mồi có tính toán và hoàn toàn chủ động.",
+    "words": 31
+   },
+   {
+    "id": "2.06#7",
+    "text": "Chuỗi chứng cứ hình ảnh và âm thanh này là đòn kết liễu đập tan mọi nỗ lực chối tội của đối tượng.",
+    "words": 23
+   },
+   {
+    "id": "2.06#8",
+    "text": "Khoảnh khắc ả bình thản ngồi trong xe hơi để mặc cả giá tiền tước đoạt sinh mạng của chồng đã phơi bày một sự tha hóa hoàn toàn về mặt nhân tính.",
+    "words": 33
+   },
+   {
+    "id": "2.06#9",
+    "text": "Ả không chỉ đòi hỏi kết quả cuối cùng, mà còn muốn kiểm soát từng chi tiết nhỏ nhất từ góc bắn cho đến việc tạo hiện trường giả để bảo đảm bản thân không phải chịu bất kỳ rủi ro nào.",
+    "words": 42
+   },
+   {
+    "id": "2.06#10",
+    "text": "Sự háo hức lộ rõ trong ánh mắt khi nói về cái chết của người đàn ông từng chung chăn gối là biểu hiện rõ nét nhất của sự thỏa mãn quyền lực ở một nhân cách chống đối xã hội.",
+    "words": 41
+   },
+   {
+    "id": "2.06#11",
+    "text": "Đó là bằng chứng thép khẳng định rằng hành vi này hoàn toàn không có chỗ cho sự trắc ẩn hay bất kỳ xung đột lương tâm nào.",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "2.07",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "*Tiếng lật hồ sơ bằng chứng, tiếng gõ bút bi xuống mặt bàn kim loại.*"
+ },
+ {
+  "id": "2.08",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "phân tích chuỗi hành vi leo thang độc hại trước đó",
+  "text": "Vụ thuê sát thủ ngày 1 tháng 8 thực chất không phải là nỗ lực đầu tiên của Dalia nhằm loại bỏ người chồng. Theo lời khai sau đó của Michael, anh từng nhiều lần rơi vào những tình huống nguy hiểm bí ẩn trong suốt sáu tháng hôn nhân ngắn ngủi. Có lần anh phát hiện ly trà do vợ pha có mùi vị lạ cùng một lớp bột màu trắng khả nghi lắng dưới đáy cốc. Chưa dừng lại ở đó, một gói chất cấm bất ngờ được giấu kín dưới gầm xe ô tô của Michael, kéo theo một cuộc gọi nặc danh báo cảnh sát nhằm tống anh vào tù vì vi phạm lệnh quản chế. Michael đã suýt mất đi quyền tự do nếu cơ quan chức năng không kịp thời xác minh sự việc và nhận ra dấu hiệu bị gài bẫy. Giờ đây khi xâu chuỗi toàn bộ sự việc, người chồng bàng hoàng nhận ra những hiểm họa liên tiếp đó đều xuất phát từ người vợ đầu ấp tay gối. Ảo tưởng trục lợi của Dalia đã leo thang theo một quỹ đạo nguy hiểm, từ gài bẫy pháp lý cho đến quyết định thuê sát thủ lấy đi sinh mạng.",
+  "sentences": [
+   {
+    "id": "2.08#1",
+    "text": "Vụ thuê sát thủ ngày 1 tháng 8 thực chất không phải là nỗ lực đầu tiên của Dalia nhằm loại bỏ người chồng.",
+    "words": 24
+   },
+   {
+    "id": "2.08#2",
+    "text": "Theo lời khai sau đó của Michael, anh từng nhiều lần rơi vào những tình huống nguy hiểm bí ẩn trong suốt sáu tháng hôn nhân ngắn ngủi.",
+    "words": 28
+   },
+   {
+    "id": "2.08#3",
+    "text": "Có lần anh phát hiện ly trà do vợ pha có mùi vị lạ cùng một lớp bột màu trắng khả nghi lắng dưới đáy cốc.",
+    "words": 26
+   },
+   {
+    "id": "2.08#4",
+    "text": "Chưa dừng lại ở đó, một gói chất cấm bất ngờ được giấu kín dưới gầm xe ô tô của Michael, kéo theo một cuộc gọi nặc danh báo cảnh sát nhằm tống anh vào tù vì vi phạm lệnh quản chế.",
+    "words": 42
+   },
+   {
+    "id": "2.08#5",
+    "text": "Michael đã suýt mất đi quyền tự do nếu cơ quan chức năng không kịp thời xác minh sự việc và nhận ra dấu hiệu bị gài bẫy.",
+    "words": 28
+   },
+   {
+    "id": "2.08#6",
+    "text": "Giờ đây khi xâu chuỗi toàn bộ sự việc, người chồng bàng hoàng nhận ra những hiểm họa liên tiếp đó đều xuất phát từ người vợ đầu ấp tay gối.",
+    "words": 31
+   },
+   {
+    "id": "2.08#7",
+    "text": "Ảo tưởng trục lợi của Dalia đã leo thang theo một quỹ đạo nguy hiểm, từ gài bẫy pháp lý cho đến quyết định thuê sát thủ lấy đi sinh mạng.",
+    "words": 31
+   }
+  ]
+ },
+ {
+  "id": "2.09",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: phân tích ngòi nổ và điểm gãy tâm lý kích hoạt tội ác",
+  "text": "Ngòi nổ kích hoạt chuỗi hành vi phạm tội của Dalia gắn liền chặt chẽ với vấn đề quyền sở hữu bất động sản. Chỉ một thời gian ngắn sau ngày cưới, Dalia đã liên tục gây áp lực và thúc ép Michael ký văn bản sang tên toàn bộ quyền sở hữu căn nhà cho ả. Khi Michael bắt đầu nghi ngờ các vụ việc gài bẫy trước đó và thời hạn quản chế của anh sắp kết thúc, Dalia nhận ra thời gian không còn đứng về phía mình. Nếu Michael phát hiện ra sự thật và đệ đơn ly hôn, hợp đồng chuyển nhượng căn nhà có thể bị tòa án hủy bỏ và ả sẽ mất trắng toàn bộ tài sản. Điểm gãy tâm lý xuất hiện khi chiếc mặt nạ dối trá đứng trước nguy cơ bị lột trần, thôi thúc ả phải hành động cấp bách. Ả quyết định thuê người đoạt mạng người bạn đời để vừa giữ trọn căn nhà trị giá hàng trăm nghìn đô la, vừa chiếm đoạt toàn bộ tiền tiết kiệm trong tài khoản.",
+  "sentences": [
+   {
+    "id": "2.09#1",
+    "text": "Ngòi nổ kích hoạt chuỗi hành vi phạm tội của Dalia gắn liền chặt chẽ với vấn đề quyền sở hữu bất động sản.",
+    "words": 24
+   },
+   {
+    "id": "2.09#2",
+    "text": "Chỉ một thời gian ngắn sau ngày cưới, Dalia đã liên tục gây áp lực và thúc ép Michael ký văn bản sang tên toàn bộ quyền sở hữu căn nhà cho ả.",
+    "words": 33
+   },
+   {
+    "id": "2.09#3",
+    "text": "Khi Michael bắt đầu nghi ngờ các vụ việc gài bẫy trước đó và thời hạn quản chế của anh sắp kết thúc, Dalia nhận ra thời gian không còn đứng về phía mình.",
+    "words": 34
+   },
+   {
+    "id": "2.09#4",
+    "text": "Nếu Michael phát hiện ra sự thật và đệ đơn ly hôn, hợp đồng chuyển nhượng căn nhà có thể bị tòa án hủy bỏ và ả sẽ mất trắng toàn bộ tài sản.",
+    "words": 34
+   },
+   {
+    "id": "2.09#5",
+    "text": "Điểm gãy tâm lý xuất hiện khi chiếc mặt nạ dối trá đứng trước nguy cơ bị lột trần, thôi thúc ả phải hành động cấp bách.",
+    "words": 27
+   },
+   {
+    "id": "2.09#6",
+    "text": "Ả quyết định thuê người đoạt mạng người bạn đời để vừa giữ trọn căn nhà trị giá hàng trăm nghìn đô la, vừa chiếm đoạt toàn bộ tiền tiết kiệm trong tài khoản.",
+    "words": 34
+   }
+  ]
+ },
+ {
+  "id": "2.10",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "mô tả cuộc đối chất trực tiếp gây chấn động",
+  "text": "Đỉnh điểm của màn kịch trơ trẽn diễn ra khi cánh cửa phòng thẩm vấn mở ra và Michael Dippolito bước vào. Nhìn thấy người chồng bằng xương bằng thịt vẫn còn sống nguyên vẹn, Dalia không hề bộc lộ sự nhẹ nhõm hay ăn năn. Thay vào đó, ả lập tức lao về phía anh, khóc lóc van nài: Hãy đến đây ôm em đi, em không làm gì cả, xin anh hãy tin em. Michael bàng hoàng lùi lại phía sau, nhìn người phụ nữ với ánh mắt xa lạ, ghê sợ và dứt khoát từ chối chạm vào ả. Đó là một khoảnh khắc kinh điển của sự trơ trẽn, khi một kẻ vừa thuê người thủ tiêu bạn đời lại đòi hỏi một cái ôm tình cảm trước sự chứng kiến của cảnh sát. Toàn bộ chiến thuật thao túng tâm lý và nước mắt cá sấu hoàn toàn sụp đổ trước bức tường sự thật không thể lay chuyển. Michael quay lưng bước ra khỏi phòng, để lại người vợ đối diện với chiếc còng số tám và những câu hỏi đanh thép của công lý. Cánh cửa sắt khép lại, chính thức đặt dấu chấm hết cho cuộc hôn nhân giả tạo và mở đầu cho một cuộc chiến pháp lý kéo dài. Khoảnh khắc Michael Dippolito lùi bước và dứt khoát từ chối cái ôm giả tạo ấy là một trong những giây phút bi kịch và chân thực nhất của bản năng con người. Trong tích tắc định mệnh đó, toàn bộ tình yêu thương, sự trân trọng và niềm tin mà anh từng gửi gắm vào cuộc hôn nhân sáu tháng đã vỡ vụn thành trăm mảnh. Nỗi đau đớn bị phản bội bởi chính người mà mình từng muốn dùng cả phần đời còn lại để che chở là một vết thương tâm lý sâu sắc không lời nào có thể diễn tả. Cái lùi bước dứt khoát ấy không chỉ là sự tự vệ thể xác, mà là lời tuyên bố đoạn tuyệt vĩnh viễn với chiếc bẫy tình cảm độc hại đã suýt chôn vùi sinh mạng của anh.",
+  "sentences": [
+   {
+    "id": "2.10#1",
+    "text": "Đỉnh điểm của màn kịch trơ trẽn diễn ra khi cánh cửa phòng thẩm vấn mở ra và Michael Dippolito bước vào.",
+    "words": 22
+   },
+   {
+    "id": "2.10#2",
+    "text": "Nhìn thấy người chồng bằng xương bằng thịt vẫn còn sống nguyên vẹn, Dalia không hề bộc lộ sự nhẹ nhõm hay ăn năn.",
+    "words": 24
+   },
+   {
+    "id": "2.10#3",
+    "text": "Thay vào đó, ả lập tức lao về phía anh, khóc lóc van nài: Hãy đến đây ôm em đi, em không làm gì cả, xin anh hãy tin em.",
+    "words": 30
+   },
+   {
+    "id": "2.10#4",
+    "text": "Michael bàng hoàng lùi lại phía sau, nhìn người phụ nữ với ánh mắt xa lạ, ghê sợ và dứt khoát từ chối chạm vào ả.",
+    "words": 26
+   },
+   {
+    "id": "2.10#5",
+    "text": "Đó là một khoảnh khắc kinh điển của sự trơ trẽn, khi một kẻ vừa thuê người thủ tiêu bạn đời lại đòi hỏi một cái ôm tình cảm trước sự chứng kiến của cảnh sát.",
+    "words": 36
+   },
+   {
+    "id": "2.10#6",
+    "text": "Toàn bộ chiến thuật thao túng tâm lý và nước mắt cá sấu hoàn toàn sụp đổ trước bức tường sự thật không thể lay chuyển.",
+    "words": 26
+   },
+   {
+    "id": "2.10#7",
+    "text": "Michael quay lưng bước ra khỏi phòng, để lại người vợ đối diện với chiếc còng số tám và những câu hỏi đanh thép của công lý.",
+    "words": 27
+   },
+   {
+    "id": "2.10#8",
+    "text": "Cánh cửa sắt khép lại, chính thức đặt dấu chấm hết cho cuộc hôn nhân giả tạo và mở đầu cho một cuộc chiến pháp lý kéo dài.",
+    "words": 28
+   },
+   {
+    "id": "2.10#9",
+    "text": "Khoảnh khắc Michael Dippolito lùi bước và dứt khoát từ chối cái ôm giả tạo ấy là một trong những giây phút bi kịch và chân thực nhất của bản năng con người.",
+    "words": 33
+   },
+   {
+    "id": "2.10#10",
+    "text": "Trong tích tắc định mệnh đó, toàn bộ tình yêu thương, sự trân trọng và niềm tin mà anh từng gửi gắm vào cuộc hôn nhân sáu tháng đã vỡ vụn thành trăm mảnh.",
+    "words": 34
+   },
+   {
+    "id": "2.10#11",
+    "text": "Nỗi đau đớn bị phản bội bởi chính người mà mình từng muốn dùng cả phần đời còn lại để che chở là một vết thương tâm lý sâu sắc không lời nào có thể diễn tả.",
+    "words": 37
+   },
+   {
+    "id": "2.10#12",
+    "text": "Cái lùi bước dứt khoát ấy không chỉ là sự tự vệ thể xác, mà là lời tuyên bố đoạn tuyệt vĩnh viễn với chiếc bẫy tình cảm độc hại đã suýt chôn vùi sinh mạng của anh.",
+    "words": 38
+   }
+  ]
+ },
+ {
+  "id": "2.11",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "*Tiếng Electronic Pulse dồn dập hạ dần âm lượng, nhường chỗ cho khoảng lặng căng thẳng khép lại Hồi 2.*"
+ },
+ {
+  "id": "3.01",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "*Tiếng đàn Dương cầm tối giản (Minimalist Piano) hòa cùng âm vang Drone trầm đục, tạo không khí học thuật và phân tích lâm sàng chuyên sâu.*"
+ },
+ {
+  "id": "3.02",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "chậm rãi, mang tính dẫn nhập chuyên môn",
+  "text": "Vụ án Dalia Dippolito nhanh chóng trở thành một hồ sơ nghiên cứu kinh điển tại các học viện cảnh sát và khoa tâm lý học tội phạm trên toàn thế giới. Nó cung cấp một cái nhìn sâu sắc và trực diện về cách thức một kẻ săn mồi tâm lý vận hành cơ chế lừa dối trong các mối quan hệ tình cảm. Khác với những vụ án mạng bộc phát vì ghen tuông hay xung đột gia đình, hành vi của Dalia mang đậm tính toán thực dụng và sự vô cảm đạo đức hoàn toàn. Các chuyên gia hành vi đã tiến hành bóc tách từng lớp tính cách để làm rõ động cơ tâm lý thúc đẩy tội ác ghê tởm này. Một bộ não phạm tội không hề có khái niệm về lòng trắc ẩn hay sự thấu cảm nỗi đau của đồng loại. Hãy cùng chuyên gia tâm lý học pháp y đi sâu vào thế giới nội tâm đen tối của kẻ chủ mưu.",
+  "sentences": [
+   {
+    "id": "3.02#1",
+    "text": "Vụ án Dalia Dippolito nhanh chóng trở thành một hồ sơ nghiên cứu kinh điển tại các học viện cảnh sát và khoa tâm lý học tội phạm trên toàn thế giới.",
+    "words": 32
+   },
+   {
+    "id": "3.02#2",
+    "text": "Nó cung cấp một cái nhìn sâu sắc và trực diện về cách thức một kẻ săn mồi tâm lý vận hành cơ chế lừa dối trong các mối quan hệ tình cảm.",
+    "words": 33
+   },
+   {
+    "id": "3.02#3",
+    "text": "Khác với những vụ án mạng bộc phát vì ghen tuông hay xung đột gia đình, hành vi của Dalia mang đậm tính toán thực dụng và sự vô cảm đạo đức hoàn toàn.",
+    "words": 34
+   },
+   {
+    "id": "3.02#4",
+    "text": "Các chuyên gia hành vi đã tiến hành bóc tách từng lớp tính cách để làm rõ động cơ tâm lý thúc đẩy tội ác ghê tởm này.",
+    "words": 28
+   },
+   {
+    "id": "3.02#5",
+    "text": "Một bộ não phạm tội không hề có khái niệm về lòng trắc ẩn hay sự thấu cảm nỗi đau của đồng loại.",
+    "words": 23
+   },
+   {
+    "id": "3.02#6",
+    "text": "Hãy cùng chuyên gia tâm lý học pháp y đi sâu vào thế giới nội tâm đen tối của kẻ chủ mưu.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "3.03",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: Chuyên gia Tâm lý học Pháp y, giọng điềm đạm, học thuật",
+  "text": "Dưới góc độ tâm thần học pháp y, hành vi của Dalia Dippolito mang đặc điểm điển hình của chứng Ái kỷ ác tính kết hợp Rối loạn nhân cách chống đối xã hội. Nét tính cách thống trị của ả là sự thiếu hụt hoàn toàn lòng trắc ẩn cảm xúc, đi kèm với ảo tưởng đặc quyền săn mồi không giới hạn. Ả nhìn nhận những người xung quanh, kể cả người bạn đời đã thề nguyện, chỉ như những công cụ và đạo cụ để đạt được mục đích cá nhân. Trong mối quan hệ với Michael Dippolito, Dalia đã áp dụng một chiến lược săn mồi tài chính có tính toán ngay từ ngày đầu tiên tiếp cận. Ả nhắm vào điểm yếu của Michael, một người đàn ông từng có quá khứ lầm lỡ đang mang án quản chế và khát khao xây dựng một mái ấm gia đình tử tế. Quá trình vật hóa và phi nhân hóa nạn nhân diễn ra một cách triệt để trong nhận thức của người đàn bà này. Đối với ả, sinh mạng của Michael không mang bất kỳ giá trị con người nào, mà chỉ là một rào cản pháp lý cản trở việc độc chiếm căn nhà hai trăm năm mươi nghìn đô la. Những lời van xin hay tình cảm chân thành từ nạn nhân không hề kích hoạt lòng trắc ẩn, mà ngược lại chỉ tạo ra sự hưng phấn quyền lực ở kẻ săn mồi. Đó là bản chất lạnh lùng của một tâm lý ái kỷ biến dạng, nơi lợi ích vị kỷ của bản thân được đặt lên trên sinh mạng của người khác. Dưới lăng kính tâm lý học tiến hóa, hành vi của Dalia phản ánh một chiến lược ký sinh xã hội mang tính hủy diệt cao độ. Ả khéo léo biến những mặc cảm về quá khứ lầm lỡ của Michael thành một đòn bẩy tâm lý để cô lập anh khỏi các mối quan hệ hỗ trợ xung quanh. Bằng cách liên tục gieo rắc sự bất an và đòi hỏi những cam kết vật chất vội vã, ả từng bước tước đoạt quyền tự chủ tài chính của người bạn đời một cách êm ái. Khi toàn bộ quyền lợi đã được chuyển giao vào tay mình, nạn nhân lập tức mất đi giá trị sử dụng và bị đưa vào danh sách cần phải thanh lý không thương tiếc.",
+  "sentences": [
+   {
+    "id": "3.03#1",
+    "text": "Dưới góc độ tâm thần học pháp y, hành vi của Dalia Dippolito mang đặc điểm điển hình của chứng Ái kỷ ác tính kết hợp Rối loạn nhân cách chống đối xã hội.",
+    "words": 34
+   },
+   {
+    "id": "3.03#2",
+    "text": "Nét tính cách thống trị của ả là sự thiếu hụt hoàn toàn lòng trắc ẩn cảm xúc, đi kèm với ảo tưởng đặc quyền săn mồi không giới hạn.",
+    "words": 30
+   },
+   {
+    "id": "3.03#3",
+    "text": "Ả nhìn nhận những người xung quanh, kể cả người bạn đời đã thề nguyện, chỉ như những công cụ và đạo cụ để đạt được mục đích cá nhân.",
+    "words": 30
+   },
+   {
+    "id": "3.03#4",
+    "text": "Trong mối quan hệ với Michael Dippolito, Dalia đã áp dụng một chiến lược săn mồi tài chính có tính toán ngay từ ngày đầu tiên tiếp cận.",
+    "words": 28
+   },
+   {
+    "id": "3.03#5",
+    "text": "Ả nhắm vào điểm yếu của Michael, một người đàn ông từng có quá khứ lầm lỡ đang mang án quản chế và khát khao xây dựng một mái ấm gia đình tử tế.",
+    "words": 34
+   },
+   {
+    "id": "3.03#6",
+    "text": "Quá trình vật hóa và phi nhân hóa nạn nhân diễn ra một cách triệt để trong nhận thức của người đàn bà này.",
+    "words": 24
+   },
+   {
+    "id": "3.03#7",
+    "text": "Đối với ả, sinh mạng của Michael không mang bất kỳ giá trị con người nào, mà chỉ là một rào cản pháp lý cản trở việc độc chiếm căn nhà hai trăm năm mươi nghìn đô la.",
+    "words": 38
+   },
+   {
+    "id": "3.03#8",
+    "text": "Những lời van xin hay tình cảm chân thành từ nạn nhân không hề kích hoạt lòng trắc ẩn, mà ngược lại chỉ tạo ra sự hưng phấn quyền lực ở kẻ săn mồi.",
+    "words": 34
+   },
+   {
+    "id": "3.03#9",
+    "text": "Đó là bản chất lạnh lùng của một tâm lý ái kỷ biến dạng, nơi lợi ích vị kỷ của bản thân được đặt lên trên sinh mạng của người khác.",
+    "words": 31
+   },
+   {
+    "id": "3.03#10",
+    "text": "Dưới lăng kính tâm lý học tiến hóa, hành vi của Dalia phản ánh một chiến lược ký sinh xã hội mang tính hủy diệt cao độ.",
+    "words": 27
+   },
+   {
+    "id": "3.03#11",
+    "text": "Ả khéo léo biến những mặc cảm về quá khứ lầm lỡ của Michael thành một đòn bẩy tâm lý để cô lập anh khỏi các mối quan hệ hỗ trợ xung quanh.",
+    "words": 33
+   },
+   {
+    "id": "3.03#12",
+    "text": "Bằng cách liên tục gieo rắc sự bất an và đòi hỏi những cam kết vật chất vội vã, ả từng bước tước đoạt quyền tự chủ tài chính của người bạn đời một cách êm ái.",
+    "words": 37
+   },
+   {
+    "id": "3.03#13",
+    "text": "Khi toàn bộ quyền lợi đã được chuyển giao vào tay mình, nạn nhân lập tức mất đi giá trị sử dụng và bị đưa vào danh sách cần phải thanh lý không thương tiếc.",
+    "words": 35
+   }
+  ]
+ },
+ {
+  "id": "3.04",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "dẫn dắt sang cơ chế chia ngăn nhận thức",
+  "text": "Thế nhưng làm thế nào một người phụ nữ trẻ có thể duy trì cuộc sống bình thường bên cạnh người mà mình đang toan tính loại bỏ? Làm thế nào ả có thể tươi cười trong bữa cơm gia đình rồi ngay sau đó bước ra xe để thương lượng tiền bạc với sát thủ? Khoa học thần kinh và tâm lý học hành vi đã chỉ ra một cơ chế phòng vệ đặc biệt mang tên nghịch lý chia ngăn nhận thức. Một bức tường vô hình đã được dựng lên bên trong não bộ để ngăn cách giữa đạo đức xã hội và dã tâm tàn độc.",
+  "sentences": [
+   {
+    "id": "3.04#1",
+    "text": "Thế nhưng làm thế nào một người phụ nữ trẻ có thể duy trì cuộc sống bình thường bên cạnh người mà mình đang toan tính loại bỏ?",
+    "words": 28
+   },
+   {
+    "id": "3.04#2",
+    "text": "Làm thế nào ả có thể tươi cười trong bữa cơm gia đình rồi ngay sau đó bước ra xe để thương lượng tiền bạc với sát thủ?",
+    "words": 28
+   },
+   {
+    "id": "3.04#3",
+    "text": "Khoa học thần kinh và tâm lý học hành vi đã chỉ ra một cơ chế phòng vệ đặc biệt mang tên nghịch lý chia ngăn nhận thức.",
+    "words": 28
+   },
+   {
+    "id": "3.04#4",
+    "text": "Một bức tường vô hình đã được dựng lên bên trong não bộ để ngăn cách giữa đạo đức xã hội và dã tâm tàn độc.",
+    "words": 26
+   }
+  ]
+ },
+ {
+  "id": "3.05",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: bóc tách cơ chế chia ngăn nhận thức và bi kịch người thân",
+  "text": "Cơ chế chia ngăn nhận thức, hay Compartmentalization, là vũ khí tâm lý tối thượng giúp kẻ thủ ác duy trì hai cuộc đời hoàn toàn tách biệt. Bộ não của Dalia đã khóa chặt ngăn gia đình bình thường và ngăn bóng tối săn mồi thành hai không gian độc lập không hề giao thoa. Khi ở bên mẹ và bạn bè, ả thực sự tin vào vai diễn một người con gái hiếu thảo, một người vợ trẻ đang nỗ lực vun vén hạnh phúc gia đình. Gia đình trở thành tấm khiên bình thường hóa để ả tự thuyết phục bản thân rằng mình vẫn là một người tốt trong mắt xã hội. Thế nhưng khi bước sang ngăn tối săn mồi, ả lạnh lùng tính toán phương thức sát hại chồng mà không hề gặp phải bất kỳ sự xung đột lương tâm nào. Sự chia ngăn này cho phép ả ngủ ngon mỗi đêm và sinh hoạt bình thường như không có bất kỳ âm mưu nào đang diễn ra. Bi kịch lớn nhất của cơ chế này là sự sụp đổ danh tính tàn khốc của những người thân khi sự thật bị phơi bày trước công chúng. Mẹ và gia đình của Dalia đã hoàn toàn suy sụp khi nhận ra người con gái ngoan ngoãn mà họ hằng yêu thương thực chất lại dung dưỡng một dã tâm ghê rợn. Đối với kẻ ái kỷ, nỗi sợ bị bẽ bàng và mất mặt trước người thân thậm chí còn lớn hơn cả nỗi sợ hãi các hình phạt của pháp luật.",
+  "sentences": [
+   {
+    "id": "3.05#1",
+    "text": "Cơ chế chia ngăn nhận thức, hay Compartmentalization, là vũ khí tâm lý tối thượng giúp kẻ thủ ác duy trì hai cuộc đời hoàn toàn tách biệt.",
+    "words": 28
+   },
+   {
+    "id": "3.05#2",
+    "text": "Bộ não của Dalia đã khóa chặt ngăn gia đình bình thường và ngăn bóng tối săn mồi thành hai không gian độc lập không hề giao thoa.",
+    "words": 28
+   },
+   {
+    "id": "3.05#3",
+    "text": "Khi ở bên mẹ và bạn bè, ả thực sự tin vào vai diễn một người con gái hiếu thảo, một người vợ trẻ đang nỗ lực vun vén hạnh phúc gia đình.",
+    "words": 33
+   },
+   {
+    "id": "3.05#4",
+    "text": "Gia đình trở thành tấm khiên bình thường hóa để ả tự thuyết phục bản thân rằng mình vẫn là một người tốt trong mắt xã hội.",
+    "words": 27
+   },
+   {
+    "id": "3.05#5",
+    "text": "Thế nhưng khi bước sang ngăn tối săn mồi, ả lạnh lùng tính toán phương thức sát hại chồng mà không hề gặp phải bất kỳ sự xung đột lương tâm nào.",
+    "words": 32
+   },
+   {
+    "id": "3.05#6",
+    "text": "Sự chia ngăn này cho phép ả ngủ ngon mỗi đêm và sinh hoạt bình thường như không có bất kỳ âm mưu nào đang diễn ra.",
+    "words": 27
+   },
+   {
+    "id": "3.05#7",
+    "text": "Bi kịch lớn nhất của cơ chế này là sự sụp đổ danh tính tàn khốc của những người thân khi sự thật bị phơi bày trước công chúng.",
+    "words": 29
+   },
+   {
+    "id": "3.05#8",
+    "text": "Mẹ và gia đình của Dalia đã hoàn toàn suy sụp khi nhận ra người con gái ngoan ngoãn mà họ hằng yêu thương thực chất lại dung dưỡng một dã tâm ghê rợn.",
+    "words": 34
+   },
+   {
+    "id": "3.05#9",
+    "text": "Đối với kẻ ái kỷ, nỗi sợ bị bẽ bàng và mất mặt trước người thân thậm chí còn lớn hơn cả nỗi sợ hãi các hình phạt của pháp luật.",
+    "words": 31
+   }
+  ]
+ },
+ {
+  "id": "3.06",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "dẫn dắt sang hệ thống tự bào chữa",
+  "text": "Để có thể tiếp tục tồn tại mà không bị cảm giác tội lỗi dày vò, những kẻ săn mồi buộc phải tự xây dựng cho mình một hệ thống tự bào chữa tinh vi. Chúng không bao giờ chấp nhận mình là kẻ phản diện trong câu chuyện mà bản thân là nhân vật chính. Và Dalia Dippolito đã sử dụng triệt để các kỹ thuật trung hòa đạo đức để ru ngủ phần lương tri còn sót lại.",
+  "sentences": [
+   {
+    "id": "3.06#1",
+    "text": "Để có thể tiếp tục tồn tại mà không bị cảm giác tội lỗi dày vò, những kẻ săn mồi buộc phải tự xây dựng cho mình một hệ thống tự bào chữa tinh vi.",
+    "words": 35
+   },
+   {
+    "id": "3.06#2",
+    "text": "Chúng không bao giờ chấp nhận mình là kẻ phản diện trong câu chuyện mà bản thân là nhân vật chính.",
+    "words": 21
+   },
+   {
+    "id": "3.06#3",
+    "text": "Và Dalia Dippolito đã sử dụng triệt để các kỹ thuật trung hòa đạo đức để ru ngủ phần lương tri còn sót lại.",
+    "words": 24
+   }
+  ]
+ },
+ {
+  "id": "3.07",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: giải phẫu các kỹ thuật trung hòa đạo đức",
+  "text": "Các kỹ thuật trung hòa đạo đức, hay Techniques of Neutralization, là phương thức hung thủ sử dụng để vô hiệu hóa các rào cản đạo đức của xã hội. Dalia áp dụng triệt để kỹ thuật đổ lỗi cho nạn nhân và ngoại hóa trách nhiệm cá nhân. Ả tự ru ngủ mình rằng Michael từng có tiền án lừa đảo viễn thông, nên anh ta không xứng đáng được hưởng cuộc sống hạnh phúc và tài sản đó. Ả tự khoác lên mình quyền năng phán xét, biến hành vi cướp đoạt tài sản và sát hại người phối ngẫu thành một hành động trừng phạt chính đáng. Khi kế hoạch bị bại lộ, ả lập tức chuyển sang kỹ thuật đóng vai nạn nhân của hoàn cảnh, tuyên bố mình bị người tình cũ ép buộc và bị cảnh sát giăng bẫy. Kẻ ái kỷ luôn tìm cách giảm thiểu mức độ nghiêm trọng của hành vi và tuyệt đối không bao giờ nhận lỗi về bản thân. Hệ thống tự bào chữa bệnh lý này bảo vệ cái tôi mong manh của chúng khỏi sự sụp đổ hoàn toàn trước thực tế trần trụi. Chính vì vậy, chúng ta không bao giờ nhìn thấy sự ăn năn chân chính ở những tội phạm này, mà chỉ thấy sự cay cú và tự thương hại bản thân. Một lát cắt tâm lý đầy trăn trở trong hồ sơ này là sự chối bỏ nhận thức mang tính phòng vệ cực đoan từ chính người mẹ của kẻ thủ ác. Đối diện với sự thật kinh hoàng về đứa con gái mình hết mực yêu thương, người mẹ đã chọn cách phong tỏa nhận thức để bảo vệ cái tôi khỏi sự sụp đổ danh dự. Bà bám víu vào những giả thuyết hoang đường về việc con mình chỉ là nạn nhân của một cái bẫy truyền thông do cảnh sát và đoàn làm phim dàn dựng. Sự chối bỏ mù quáng của tình mẫu tử tuy là một phản xạ tâm lý dễ hiểu, nhưng vô tình lại trở thành một mảnh ghép dung dưỡng cho sự trơ trẽn của kẻ phạm tội.",
+  "sentences": [
+   {
+    "id": "3.07#1",
+    "text": "Các kỹ thuật trung hòa đạo đức, hay Techniques of Neutralization, là phương thức hung thủ sử dụng để vô hiệu hóa các rào cản đạo đức của xã hội.",
+    "words": 30
+   },
+   {
+    "id": "3.07#2",
+    "text": "Dalia áp dụng triệt để kỹ thuật đổ lỗi cho nạn nhân và ngoại hóa trách nhiệm cá nhân.",
+    "words": 19
+   },
+   {
+    "id": "3.07#3",
+    "text": "Ả tự ru ngủ mình rằng Michael từng có tiền án lừa đảo viễn thông, nên anh ta không xứng đáng được hưởng cuộc sống hạnh phúc và tài sản đó.",
+    "words": 31
+   },
+   {
+    "id": "3.07#4",
+    "text": "Ả tự khoác lên mình quyền năng phán xét, biến hành vi cướp đoạt tài sản và sát hại người phối ngẫu thành một hành động trừng phạt chính đáng.",
+    "words": 30
+   },
+   {
+    "id": "3.07#5",
+    "text": "Khi kế hoạch bị bại lộ, ả lập tức chuyển sang kỹ thuật đóng vai nạn nhân của hoàn cảnh, tuyên bố mình bị người tình cũ ép buộc và bị cảnh sát giăng bẫy.",
+    "words": 35
+   },
+   {
+    "id": "3.07#6",
+    "text": "Kẻ ái kỷ luôn tìm cách giảm thiểu mức độ nghiêm trọng của hành vi và tuyệt đối không bao giờ nhận lỗi về bản thân.",
+    "words": 26
+   },
+   {
+    "id": "3.07#7",
+    "text": "Hệ thống tự bào chữa bệnh lý này bảo vệ cái tôi mong manh của chúng khỏi sự sụp đổ hoàn toàn trước thực tế trần trụi.",
+    "words": 27
+   },
+   {
+    "id": "3.07#8",
+    "text": "Chính vì vậy, chúng ta không bao giờ nhìn thấy sự ăn năn chân chính ở những tội phạm này, mà chỉ thấy sự cay cú và tự thương hại bản thân.",
+    "words": 32
+   },
+   {
+    "id": "3.07#9",
+    "text": "Một lát cắt tâm lý đầy trăn trở trong hồ sơ này là sự chối bỏ nhận thức mang tính phòng vệ cực đoan từ chính người mẹ của kẻ thủ ác.",
+    "words": 32
+   },
+   {
+    "id": "3.07#10",
+    "text": "Đối diện với sự thật kinh hoàng về đứa con gái mình hết mực yêu thương, người mẹ đã chọn cách phong tỏa nhận thức để bảo vệ cái tôi khỏi sự sụp đổ danh dự.",
+    "words": 36
+   },
+   {
+    "id": "3.07#11",
+    "text": "Bà bám víu vào những giả thuyết hoang đường về việc con mình chỉ là nạn nhân của một cái bẫy truyền thông do cảnh sát và đoàn làm phim dàn dựng.",
+    "words": 32
+   },
+   {
+    "id": "3.07#12",
+    "text": "Sự chối bỏ mù quáng của tình mẫu tử tuy là một phản xạ tâm lý dễ hiểu, nhưng vô tình lại trở thành một mảnh ghép dung dưỡng cho sự trơ trẽn của kẻ phạm tội.",
+    "words": 37
+   }
+  ]
+ },
+ {
+  "id": "3.08",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "đúc kết chiều sâu lâm sàng trước khi chuyển hồi",
+  "text": "Bức tranh tâm lý phức tạp ấy phơi bày một nhân cách ái kỷ méo mó, lạnh lùng và đầy nguy hiểm ẩn sau vẻ ngoài quyến rũ. Một kẻ sẵn sàng đánh đổi sinh mạng của người bạn đời để thỏa mãn lòng tham vật chất và sự kiểm soát ích kỷ. Thế nhưng khi tấm màn dối trá bị giật phăng, toàn bộ hệ thống tự bào chữa kia sẽ phải đối diện với sự phán xét nghiêm minh của công lý. Và một cuộc chiến pháp lý kéo dài gần một thập kỷ sắp sửa diễn ra trên sàn đấu tòa án hạt Palm Beach.",
+  "sentences": [
+   {
+    "id": "3.08#1",
+    "text": "Bức tranh tâm lý phức tạp ấy phơi bày một nhân cách ái kỷ méo mó, lạnh lùng và đầy nguy hiểm ẩn sau vẻ ngoài quyến rũ.",
+    "words": 28
+   },
+   {
+    "id": "3.08#2",
+    "text": "Một kẻ sẵn sàng đánh đổi sinh mạng của người bạn đời để thỏa mãn lòng tham vật chất và sự kiểm soát ích kỷ.",
+    "words": 25
+   },
+   {
+    "id": "3.08#3",
+    "text": "Thế nhưng khi tấm màn dối trá bị giật phăng, toàn bộ hệ thống tự bào chữa kia sẽ phải đối diện với sự phán xét nghiêm minh của công lý.",
+    "words": 31
+   },
+   {
+    "id": "3.08#4",
+    "text": "Và một cuộc chiến pháp lý kéo dài gần một thập kỷ sắp sửa diễn ra trên sàn đấu tòa án hạt Palm Beach.",
+    "words": 24
+   }
+  ]
+ },
+ {
+  "id": "3.09",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "*Tiếng đàn Dương cầm và Drone trầm đục tan dần vào không gian, kết thúc Hồi 3 trong suy tư sâu sắc.*"
+ },
+ {
+  "id": "4.01",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "*Tiếng Violin căng thẳng, tiếng gõ búa tòa án khô khốc vang dội trong không gian phòng xử án trang nghiêm.*"
+ },
+ {
+  "id": "4.02",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tái hiện cuộc chiến pháp lý kéo dài gần một thập kỷ",
+  "text": "Vụ án Dalia Dippolito đã trải qua một hành trình tố tụng vô cùng gian nan và phức tạp kéo dài suốt gần một thập kỷ với ba phiên tòa xét xử riêng biệt. Tại phiên tòa đầu tiên vào năm 2011, ả bị kết tội Xúi giục giết người cấp độ một và bị tuyên phạt mức án hai mươi năm tù giam. Tuy nhiên, bản án này đã bị tòa phúc thẩm bang Florida hủy bỏ vào năm 2014 do sai sót kỹ thuật trong quá trình lựa chọn các thành viên bồi thẩm đoàn. Phiên tòa tái thẩm thứ hai diễn ra vào năm 2016 lại kết thúc trong bế tắc khi bồi thẩm đoàn chia rẽ với tỷ lệ ba ba, không thể đạt được sự đồng thuận. Nhóm luật sư bào chữa của Dalia liên tục tung ra các chiến thuật tấn công vào việc sở cảnh sát Boynton Beach phối hợp với đoàn làm phim Cops. Họ cố gắng biến thân chủ của mình từ một kẻ chủ mưu tàn độc thành nạn nhân của một chiến dịch tìm kiếm danh tiếng truyền thông của cảnh sát. Dư luận cả nước nín thở theo dõi từng diễn biến pháp lý nghẹt thở, lo ngại rằng những kẽ hở thủ tục có thể giúp một kẻ thủ ác thoát tội. Thế nhưng công lý không bao giờ lùi bước trước những chiêu trò tranh tụng kéo dài của kẻ phạm tội.",
+  "sentences": [
+   {
+    "id": "4.02#1",
+    "text": "Vụ án Dalia Dippolito đã trải qua một hành trình tố tụng vô cùng gian nan và phức tạp kéo dài suốt gần một thập kỷ với ba phiên tòa xét xử riêng biệt.",
+    "words": 34
+   },
+   {
+    "id": "4.02#2",
+    "text": "Tại phiên tòa đầu tiên vào năm 2011, ả bị kết tội Xúi giục giết người cấp độ một và bị tuyên phạt mức án hai mươi năm tù giam.",
+    "words": 30
+   },
+   {
+    "id": "4.02#3",
+    "text": "Tuy nhiên, bản án này đã bị tòa phúc thẩm bang Florida hủy bỏ vào năm 2014 do sai sót kỹ thuật trong quá trình lựa chọn các thành viên bồi thẩm đoàn.",
+    "words": 33
+   },
+   {
+    "id": "4.02#4",
+    "text": "Phiên tòa tái thẩm thứ hai diễn ra vào năm 2016 lại kết thúc trong bế tắc khi bồi thẩm đoàn chia rẽ với tỷ lệ ba ba, không thể đạt được sự đồng thuận.",
+    "words": 35
+   },
+   {
+    "id": "4.02#5",
+    "text": "Nhóm luật sư bào chữa của Dalia liên tục tung ra các chiến thuật tấn công vào việc sở cảnh sát Boynton Beach phối hợp với đoàn làm phim Cops.",
+    "words": 30
+   },
+   {
+    "id": "4.02#6",
+    "text": "Họ cố gắng biến thân chủ của mình từ một kẻ chủ mưu tàn độc thành nạn nhân của một chiến dịch tìm kiếm danh tiếng truyền thông của cảnh sát.",
+    "words": 31
+   },
+   {
+    "id": "4.02#7",
+    "text": "Dư luận cả nước nín thở theo dõi từng diễn biến pháp lý nghẹt thở, lo ngại rằng những kẽ hở thủ tục có thể giúp một kẻ thủ ác thoát tội.",
+    "words": 32
+   },
+   {
+    "id": "4.02#8",
+    "text": "Thế nhưng công lý không bao giờ lùi bước trước những chiêu trò tranh tụng kéo dài của kẻ phạm tội.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "4.03",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "*Tiếng búa tòa án gõ mạnh, tiếng lật mở hồ sơ cáo trạng của công tố viên.*"
+ },
+ {
+  "id": "4.04",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "phiên tòa thứ ba năm 2017 và bước ngoặt kết tội",
+  "text": "Bước sang phiên tòa xét xử thứ ba vào năm 2017, các công tố viên bang Florida đã chuẩn bị một chiến lược tấn công đanh thép và toàn diện. Họ kiên quyết không để bên bào chữa đánh lạc hướng sự chú ý của bồi thẩm đoàn sang những tranh cãi kỹ thuật về truyền thông. Toàn bộ đoạn video ghi hình cuộc gặp bí mật trong chiếc xe hơi màu đỏ lại một lần nữa được trình chiếu trực tiếp giữa khán phòng im phăng phắc. Từng câu từ lạnh lùng, dứt khoát và khẳng định chắc chắn năm nghìn phần trăm của Dalia vang lên rõ mồn một như một nhát búa đóng đinh sự thật. Bức tường ngụy biện của nhóm luật sư bào chữa bắt đầu rạn nứt trước sức nặng khủng khiếp của chuỗi bằng chứng điện tử khách quan.",
+  "sentences": [
+   {
+    "id": "4.04#1",
+    "text": "Bước sang phiên tòa xét xử thứ ba vào năm 2017, các công tố viên bang Florida đã chuẩn bị một chiến lược tấn công đanh thép và toàn diện.",
+    "words": 30
+   },
+   {
+    "id": "4.04#2",
+    "text": "Họ kiên quyết không để bên bào chữa đánh lạc hướng sự chú ý của bồi thẩm đoàn sang những tranh cãi kỹ thuật về truyền thông.",
+    "words": 27
+   },
+   {
+    "id": "4.04#3",
+    "text": "Toàn bộ đoạn video ghi hình cuộc gặp bí mật trong chiếc xe hơi màu đỏ lại một lần nữa được trình chiếu trực tiếp giữa khán phòng im phăng phắc.",
+    "words": 31
+   },
+   {
+    "id": "4.04#4",
+    "text": "Từng câu từ lạnh lùng, dứt khoát và khẳng định chắc chắn năm nghìn phần trăm của Dalia vang lên rõ mồn một như một nhát búa đóng đinh sự thật.",
+    "words": 31
+   },
+   {
+    "id": "4.04#5",
+    "text": "Bức tường ngụy biện của nhóm luật sư bào chữa bắt đầu rạn nứt trước sức nặng khủng khiếp của chuỗi bằng chứng điện tử khách quan.",
+    "words": 27
+   }
+  ]
+ },
+ {
+  "id": "4.05",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "*Tiếng gõ bàn phím tốc ký của thư ký tòa án, tiếng xì xào căng thẳng trong phòng xử.*"
+ },
+ {
+  "id": "4.06",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: bóc trần sự ngụy biện của chiến lược bào chữa",
+  "text": "Luận điểm của bên bào chữa cho rằng vụ việc này chỉ là một kịch bản dàn dựng để kiếm sự nổi tiếng trên các nền tảng mạng xã hội là hoàn toàn hoang đường. Không một người bình thường nào lại đem sinh mạng của chính người bạn đời ra để thương lượng đùa cợt với một người lạ trong xe hơi kín. Từng cuộc gọi điện thoại, từng dòng tin nhắn hối thúc và số tiền đặt cọc trao tay là những hành vi phạm tội cụ thể và có chủ đích rõ ràng. Đoạn video cho thấy Dalia hoàn toàn tỉnh táo, làm chủ tình thế và liên tục dặn dò sát thủ cách thức loại bỏ mục tiêu mà không để lại dấu vết. Lực lượng điều tra chúng tôi đã bảo vệ tính toàn vẹn của chuỗi chứng cứ kỹ thuật số trong suốt tám năm ròng rã mà không để xảy ra bất kỳ sai sót nào. Sự thật khách quan được xây dựng trên nền tảng khoa học pháp y chứ không thể bị bóp méo bởi những giả thuyết suy đoán vô căn cứ. Công lý có thể phải trải qua những thử thách cam go về mặt thời gian, nhưng đích đến cuối cùng luôn là sự trừng phạt nghiêm minh dành cho kẻ phạm tội. Bước ngoặt quyết định cứu sống Michael Dippolito bắt nguồn từ sự thức tỉnh lương tâm và cơ chế hối hận của chính người trung gian Mohamed Shihadeh. Từng có mối quan hệ tình cảm mờ ám và lắng nghe những lời than vãn của Dalia, nhưng khi đối diện với kế hoạch tước đoạt sinh mạng cụ thể, anh ta đã trải qua một cơn địa chấn đạo đức dữ dội. Sự kinh hoàng trước một dã tâm máu lạnh kết hợp với nỗi sợ hãi hiện sinh về việc trở thành đồng phạm giết người đã kích hoạt bản năng tự vệ và kéo phần lương tri còn sót lại của anh ta quay về với lề lối công lý. Quyết định dũng cảm bước vào sở cảnh sát tố giác và chấp nhận mang thiết bị ghi âm giăng bẫy chính là sự chuyển hóa từ một sai lầm trong quá khứ thành hành động cứu người chuộc lỗi mẫu mực.",
+  "sentences": [
+   {
+    "id": "4.06#1",
+    "text": "Luận điểm của bên bào chữa cho rằng vụ việc này chỉ là một kịch bản dàn dựng để kiếm sự nổi tiếng trên các nền tảng mạng xã hội là hoàn toàn hoang đường.",
+    "words": 35
+   },
+   {
+    "id": "4.06#2",
+    "text": "Không một người bình thường nào lại đem sinh mạng của chính người bạn đời ra để thương lượng đùa cợt với một người lạ trong xe hơi kín.",
+    "words": 29
+   },
+   {
+    "id": "4.06#3",
+    "text": "Từng cuộc gọi điện thoại, từng dòng tin nhắn hối thúc và số tiền đặt cọc trao tay là những hành vi phạm tội cụ thể và có chủ đích rõ ràng.",
+    "words": 32
+   },
+   {
+    "id": "4.06#4",
+    "text": "Đoạn video cho thấy Dalia hoàn toàn tỉnh táo, làm chủ tình thế và liên tục dặn dò sát thủ cách thức loại bỏ mục tiêu mà không để lại dấu vết.",
+    "words": 32
+   },
+   {
+    "id": "4.06#5",
+    "text": "Lực lượng điều tra chúng tôi đã bảo vệ tính toàn vẹn của chuỗi chứng cứ kỹ thuật số trong suốt tám năm ròng rã mà không để xảy ra bất kỳ sai sót nào.",
+    "words": 35
+   },
+   {
+    "id": "4.06#6",
+    "text": "Sự thật khách quan được xây dựng trên nền tảng khoa học pháp y chứ không thể bị bóp méo bởi những giả thuyết suy đoán vô căn cứ.",
+    "words": 29
+   },
+   {
+    "id": "4.06#7",
+    "text": "Công lý có thể phải trải qua những thử thách cam go về mặt thời gian, nhưng đích đến cuối cùng luôn là sự trừng phạt nghiêm minh dành cho kẻ phạm tội.",
+    "words": 33
+   },
+   {
+    "id": "4.06#8",
+    "text": "Bước ngoặt quyết định cứu sống Michael Dippolito bắt nguồn từ sự thức tỉnh lương tâm và cơ chế hối hận của chính người trung gian Mohamed Shihadeh.",
+    "words": 28
+   },
+   {
+    "id": "4.06#9",
+    "text": "Từng có mối quan hệ tình cảm mờ ám và lắng nghe những lời than vãn của Dalia, nhưng khi đối diện với kế hoạch tước đoạt sinh mạng cụ thể, anh ta đã trải qua một cơn địa chấn đạo đức dữ dội.",
+    "words": 44
+   },
+   {
+    "id": "4.06#10",
+    "text": "Sự kinh hoàng trước một dã tâm máu lạnh kết hợp với nỗi sợ hãi hiện sinh về việc trở thành đồng phạm giết người đã kích hoạt bản năng tự vệ và kéo phần lương tri còn sót lại của anh ta quay về với lề lối công lý.",
+    "words": 50
+   },
+   {
+    "id": "4.06#11",
+    "text": "Quyết định dũng cảm bước vào sở cảnh sát tố giác và chấp nhận mang thiết bị ghi âm giăng bẫy chính là sự chuyển hóa từ một sai lầm trong quá khứ thành hành động cứu người chuộc lỗi mẫu mực.",
+    "words": 42
+   }
+  ]
+ },
+ {
+  "id": "4.07",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "*Tiếng cửa phòng bồi thẩm đoàn mở ra, tiếng bước chân trang nghiêm bước vào phòng xử án.*"
+ },
+ {
+  "id": "4.08",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "khoảnh khắc bồi thẩm đoàn bước vào phòng nghị án",
+  "text": "Sau nhiều ngày tranh tụng nảy lửa, hội đồng bồi thẩm đoàn chính thức bước vào phòng kín để tiến hành nghị án. Không khí bên trong phòng xử án của Tòa án hạt Palm Beach trở nên căng thẳng đến nghẹt thở. Mọi ánh nhìn của truyền thông và công chúng đều đổ dồn về cánh cửa gỗ nặng nề, nơi số phận của Dalia Dippolito sắp được định đoạt. Và một trong những thành viên bồi thẩm đoàn đã chia sẻ về khoảnh khắc cân não khi đưa ra phán quyết lịch sử.",
+  "sentences": [
+   {
+    "id": "4.08#1",
+    "text": "Sau nhiều ngày tranh tụng nảy lửa, hội đồng bồi thẩm đoàn chính thức bước vào phòng kín để tiến hành nghị án.",
+    "words": 23
+   },
+   {
+    "id": "4.08#2",
+    "text": "Không khí bên trong phòng xử án của Tòa án hạt Palm Beach trở nên căng thẳng đến nghẹt thở.",
+    "words": 20
+   },
+   {
+    "id": "4.08#3",
+    "text": "Mọi ánh nhìn của truyền thông và công chúng đều đổ dồn về cánh cửa gỗ nặng nề, nơi số phận của Dalia Dippolito sắp được định đoạt.",
+    "words": 28
+   },
+   {
+    "id": "4.08#4",
+    "text": "Và một trong những thành viên bồi thẩm đoàn đã chia sẻ về khoảnh khắc cân não khi đưa ra phán quyết lịch sử.",
+    "words": 24
+   }
+  ]
+ },
+ {
+  "id": "4.09",
+  "act": 4,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "N2: Bồi thẩm viên minh hoạ, giọng nữ trung niên đanh thép, công minh",
+  "text": "Trách nhiệm của một bồi thẩm viên trong vụ án này vô cùng nặng nề trước sự quan tâm theo dõi sát sao của toàn xã hội. Chúng tôi đã xem đi xem lại đoạn băng ghi hình trong chiếc xe hơi màu đỏ hàng chục lần bên trong phòng nghị án kín. Điều khiến tất cả chúng tôi cảm thấy rùng mình không chỉ là kế hoạch tàn nhẫn, mà là thái độ hoàn toàn bình thản và nụ cười lạnh lùng của người phụ nữ ấy. Cô ta không hề bị ép buộc, cô ta biết chính xác mình đang làm gì và mong muốn kết quả đó xảy ra bằng mọi giá. Mọi lời ngụy biện về việc đóng kịch hay quay video giải trí hoàn toàn sụp đổ trước những bằng chứng thép không thể chối cãi. Chúng tôi đã tranh luận nghiêm túc, thận trọng cân nhắc từng tình tiết pháp lý để bảo đảm phán quyết hoàn toàn khách quan và chuẩn xác. Khi đặt bút bỏ phiếu kết tội, tất cả chúng tôi đều cảm thấy thanh thản vì biết rằng công lý đã được thực thi một cách trọn vẹn. Một kẻ toan tính tước đoạt sinh mạng của người khác chỉ vì lòng tham vật chất bắt buộc phải chịu sự trừng phạt thích đáng trước pháp luật. Đó là nghĩa vụ thiêng liêng mà bồi thẩm đoàn chúng tôi nỗ lực thực hiện để bảo vệ sự an toàn và kỷ cương của toàn xã hội.",
+  "sentences": [
+   {
+    "id": "4.09#1",
+    "text": "Trách nhiệm của một bồi thẩm viên trong vụ án này vô cùng nặng nề trước sự quan tâm theo dõi sát sao của toàn xã hội.",
+    "words": 27
+   },
+   {
+    "id": "4.09#2",
+    "text": "Chúng tôi đã xem đi xem lại đoạn băng ghi hình trong chiếc xe hơi màu đỏ hàng chục lần bên trong phòng nghị án kín.",
+    "words": 26
+   },
+   {
+    "id": "4.09#3",
+    "text": "Điều khiến tất cả chúng tôi cảm thấy rùng mình không chỉ là kế hoạch tàn nhẫn, mà là thái độ hoàn toàn bình thản và nụ cười lạnh lùng của người phụ nữ ấy.",
+    "words": 35
+   },
+   {
+    "id": "4.09#4",
+    "text": "Cô ta không hề bị ép buộc, cô ta biết chính xác mình đang làm gì và mong muốn kết quả đó xảy ra bằng mọi giá.",
+    "words": 27
+   },
+   {
+    "id": "4.09#5",
+    "text": "Mọi lời ngụy biện về việc đóng kịch hay quay video giải trí hoàn toàn sụp đổ trước những bằng chứng thép không thể chối cãi.",
+    "words": 26
+   },
+   {
+    "id": "4.09#6",
+    "text": "Chúng tôi đã tranh luận nghiêm túc, thận trọng cân nhắc từng tình tiết pháp lý để bảo đảm phán quyết hoàn toàn khách quan và chuẩn xác.",
+    "words": 28
+   },
+   {
+    "id": "4.09#7",
+    "text": "Khi đặt bút bỏ phiếu kết tội, tất cả chúng tôi đều cảm thấy thanh thản vì biết rằng công lý đã được thực thi một cách trọn vẹn.",
+    "words": 29
+   },
+   {
+    "id": "4.09#8",
+    "text": "Một kẻ toan tính tước đoạt sinh mạng của người khác chỉ vì lòng tham vật chất bắt buộc phải chịu sự trừng phạt thích đáng trước pháp luật.",
+    "words": 29
+   },
+   {
+    "id": "4.09#9",
+    "text": "Đó là nghĩa vụ thiêng liêng mà bồi thẩm đoàn chúng tôi nỗ lực thực hiện để bảo vệ sự an toàn và kỷ cương của toàn xã hội.",
+    "words": 29
+   }
+  ]
+ },
+ {
+  "id": "4.10",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: miêu tả phản ứng sụp đổ trước bản án",
+  "text": "Khi Thẩm phán Glenn Kelley cất giọng tuyên đọc phán quyết có tội từ bồi thẩm đoàn, chiếc mặt nạ kiêu ngạo của Dalia Dippolito lập tức vỡ vụn. Ả bật khóc nức nở, nhưng đó hoàn toàn không phải là nước mắt hối hận vì những hành vi tàn độc đã gây ra cho Michael. Đó là sự tự thương hại bệnh lý của một kẻ ái kỷ khi nhận ra mình đã hoàn toàn mất đi quyền kiểm soát và phải đối mặt với thực tế ngục tù. Tòa án tuyên phạt mức án mười sáu năm tù giam tại Trại giam Phụ nữ Lowell thuộc thành phố Ocala, bang Florida. Mọi nỗ lực kháng cáo sau đó lên Tòa án Tối cao bang Florida và Tòa án Tối cao Hoa Kỳ đều bị các thẩm phán bác bỏ một cách dứt khoát. Bản án mười sáu năm tù giam là cái giá đích đáng cho một âm mưu tàn độc, khẳng định rằng pháp luật không bao giờ nhân nhượng trước tội ác.",
+  "sentences": [
+   {
+    "id": "4.10#1",
+    "text": "Khi Thẩm phán Glenn Kelley cất giọng tuyên đọc phán quyết có tội từ bồi thẩm đoàn, chiếc mặt nạ kiêu ngạo của Dalia Dippolito lập tức vỡ vụn.",
+    "words": 29
+   },
+   {
+    "id": "4.10#2",
+    "text": "Ả bật khóc nức nở, nhưng đó hoàn toàn không phải là nước mắt hối hận vì những hành vi tàn độc đã gây ra cho Michael.",
+    "words": 27
+   },
+   {
+    "id": "4.10#3",
+    "text": "Đó là sự tự thương hại bệnh lý của một kẻ ái kỷ khi nhận ra mình đã hoàn toàn mất đi quyền kiểm soát và phải đối mặt với thực tế ngục tù.",
+    "words": 34
+   },
+   {
+    "id": "4.10#4",
+    "text": "Tòa án tuyên phạt mức án mười sáu năm tù giam tại Trại giam Phụ nữ Lowell thuộc thành phố Ocala, bang Florida.",
+    "words": 23
+   },
+   {
+    "id": "4.10#5",
+    "text": "Mọi nỗ lực kháng cáo sau đó lên Tòa án Tối cao bang Florida và Tòa án Tối cao Hoa Kỳ đều bị các thẩm phán bác bỏ một cách dứt khoát.",
+    "words": 32
+   },
+   {
+    "id": "4.10#6",
+    "text": "Bản án mười sáu năm tù giam là cái giá đích đáng cho một âm mưu tàn độc, khẳng định rằng pháp luật không bao giờ nhân nhượng trước tội ác.",
+    "words": 31
+   }
+  ]
+ },
+ {
+  "id": "4.11",
+  "act": 4,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: bình luận về hiện tượng suy sụp ái kỷ trước bản án",
+  "text": "Phản ứng sụp đổ của Dalia tại phiên tòa là biểu hiện kinh điển của hiện tượng suy sụp ái kỷ, hay Narcissistic Collapse. Khi chiếc gương thần ảo tưởng bị vỡ nát và các kỹ thuật thao túng không còn tác dụng, kẻ ái kỷ rơi vào trạng thái hoảng loạn tột độ và tự biến mình thành nạn nhân. Những giọt nước mắt tại tòa của ả chỉ nhằm khóc thương cho bản thân, tiếc nuối cho tuổi xuân và quyền tự do đã bị tước đoạt. Trong suốt gần mười năm tố tụng, ả chưa từng một lần đưa ra lời xin lỗi chân thành nào hướng về phía người phối ngẫu suýt mất mạng. Bản án của tòa án giam giữ thể xác, nhưng bản án tâm lý phơi bày một nhân cách trống rỗng, cô độc và thất bại hoàn toàn trước sự thật. Sự đối lập giữa sự thức tỉnh của Shihadeh và sự trơ trẽn của Dalia đã làm nổi bật ranh giới căn bản giữa sự ăn năn chân chính và sự tự thương hại ái kỷ. Trong khi người trung gian biết sợ hãi trước tội ác để quay đầu cứu người, thì kẻ chủ mưu lại giam cầm tâm trí mình trong sự thù hận và đóng vai nạn nhân suốt gần một thập kỷ. Những giọt nước mắt lăn dài tại tòa án hoàn toàn là sự khóc thương cho tuổi xuân bị tước đoạt và nỗi cay đắng khi chiếc gương thần ái kỷ bị đập vỡ trước ánh sáng công lý. Đó là bản án tâm lý nghiệt ngã nhất: Người biết hối hận đã tìm lại được phẩm giá làm người, còn kẻ vô cảm sẽ vĩnh viễn sống trong ngục tù tăm tối của sự ích kỷ và dối trá.",
+  "sentences": [
+   {
+    "id": "4.11#1",
+    "text": "Phản ứng sụp đổ của Dalia tại phiên tòa là biểu hiện kinh điển của hiện tượng suy sụp ái kỷ, hay Narcissistic Collapse.",
+    "words": 24
+   },
+   {
+    "id": "4.11#2",
+    "text": "Khi chiếc gương thần ảo tưởng bị vỡ nát và các kỹ thuật thao túng không còn tác dụng, kẻ ái kỷ rơi vào trạng thái hoảng loạn tột độ và tự biến mình thành nạn nhân.",
+    "words": 37
+   },
+   {
+    "id": "4.11#3",
+    "text": "Những giọt nước mắt tại tòa của ả chỉ nhằm khóc thương cho bản thân, tiếc nuối cho tuổi xuân và quyền tự do đã bị tước đoạt.",
+    "words": 28
+   },
+   {
+    "id": "4.11#4",
+    "text": "Trong suốt gần mười năm tố tụng, ả chưa từng một lần đưa ra lời xin lỗi chân thành nào hướng về phía người phối ngẫu suýt mất mạng.",
+    "words": 29
+   },
+   {
+    "id": "4.11#5",
+    "text": "Bản án của tòa án giam giữ thể xác, nhưng bản án tâm lý phơi bày một nhân cách trống rỗng, cô độc và thất bại hoàn toàn trước sự thật.",
+    "words": 31
+   },
+   {
+    "id": "4.11#6",
+    "text": "Sự đối lập giữa sự thức tỉnh của Shihadeh và sự trơ trẽn của Dalia đã làm nổi bật ranh giới căn bản giữa sự ăn năn chân chính và sự tự thương hại ái kỷ.",
+    "words": 36
+   },
+   {
+    "id": "4.11#7",
+    "text": "Trong khi người trung gian biết sợ hãi trước tội ác để quay đầu cứu người, thì kẻ chủ mưu lại giam cầm tâm trí mình trong sự thù hận và đóng vai nạn nhân suốt gần một thập kỷ.",
+    "words": 40
+   },
+   {
+    "id": "4.11#8",
+    "text": "Những giọt nước mắt lăn dài tại tòa án hoàn toàn là sự khóc thương cho tuổi xuân bị tước đoạt và nỗi cay đắng khi chiếc gương thần ái kỷ bị đập vỡ trước ánh sáng công lý.",
+    "words": 39
+   },
+   {
+    "id": "4.11#9",
+    "text": "Đó là bản án tâm lý nghiệt ngã nhất: Người biết hối hận đã tìm lại được phẩm giá làm người, còn kẻ vô cảm sẽ vĩnh viễn sống trong ngục tù tăm tối của sự ích kỷ và dối trá.",
+    "words": 41
+   }
+  ]
+ },
+ {
+  "id": "4.12",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "kết thúc hồi 4, chuyển tiếp sang hồi kết",
+  "text": "Cuộc chiến pháp lý kéo dài tám năm cuối cùng đã khép lại với thắng lợi tuyệt đối của sự thật và lẽ phải. Người đàn bà với màn kịch nước mắt cá sấu phải trải qua những năm tháng thanh xuân dài đằng đẵng sau song sắt nhà tù. Và hồ sơ vụ án để lại những bài học sâu sắc mang tính cảnh tỉnh cho toàn thể xã hội.",
+  "sentences": [
+   {
+    "id": "4.12#1",
+    "text": "Cuộc chiến pháp lý kéo dài tám năm cuối cùng đã khép lại với thắng lợi tuyệt đối của sự thật và lẽ phải.",
+    "words": 24
+   },
+   {
+    "id": "4.12#2",
+    "text": "Người đàn bà với màn kịch nước mắt cá sấu phải trải qua những năm tháng thanh xuân dài đằng đẵng sau song sắt nhà tù.",
+    "words": 26
+   },
+   {
+    "id": "4.12#3",
+    "text": "Và hồ sơ vụ án để lại những bài học sâu sắc mang tính cảnh tỉnh cho toàn thể xã hội.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "4.13",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "*Tiếng Violin dứt khoát kết thúc cùng nhát búa tòa án vang vọng, khép lại Hồi 4 trang nghiêm.*"
+ },
+ {
+  "id": "5.01",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "*Nhạc nền chuyển sang giai điệu Piano ấm áp, trang trọng, phảng phất nỗi suy tư triết lý và sự cảnh báo nhân văn sâu sắc.*"
+ },
+ {
+  "id": "5.02",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng suy ngẫm, mang tính triết lý sâu lắng",
+  "text": "Nhiều năm đã trôi qua kể từ buổi sáng định mệnh tại thị trấn Boynton Beach, vụ án Dalia Dippolito vẫn luôn được nhắc đến như một lời cảnh báo đắt giá về mặt trái của những cuộc hôn nhân chớp nhoáng. Michael Dippolito đã may mắn giữ được mạng sống và có cơ hội kiên cường xây dựng lại cuộc đời mới sau biến cố kinh hoàng. Vụ án đã thúc đẩy những cuộc tranh luận pháp lý sâu sắc và tạo ra tiền lệ quan trọng về việc bảo đảm tính toàn vẹn của hoạt động trinh sát ghi hình nghiệp vụ. Thảm kịch suýt xảy ra là một lời thức tỉnh mạnh mẽ về các dấu hiệu của bạo lực gia đình phi thể xác và hành vi lạm dụng tài chính có tổ chức. Sự tỉnh táo trong tình cảm và việc bảo vệ ranh giới cá nhân chính là chiếc chìa khóa then chốt để bảo vệ bản thân trước những kẻ săn mồi đội lốt người yêu thương.",
+  "sentences": [
+   {
+    "id": "5.02#1",
+    "text": "Nhiều năm đã trôi qua kể từ buổi sáng định mệnh tại thị trấn Boynton Beach, vụ án Dalia Dippolito vẫn luôn được nhắc đến như một lời cảnh báo đắt giá về mặt trái của những cuộc hôn nhân chớp nhoáng.",
+    "words": 42
+   },
+   {
+    "id": "5.02#2",
+    "text": "Michael Dippolito đã may mắn giữ được mạng sống và có cơ hội kiên cường xây dựng lại cuộc đời mới sau biến cố kinh hoàng.",
+    "words": 26
+   },
+   {
+    "id": "5.02#3",
+    "text": "Vụ án đã thúc đẩy những cuộc tranh luận pháp lý sâu sắc và tạo ra tiền lệ quan trọng về việc bảo đảm tính toàn vẹn của hoạt động trinh sát ghi hình nghiệp vụ.",
+    "words": 36
+   },
+   {
+    "id": "5.02#4",
+    "text": "Thảm kịch suýt xảy ra là một lời thức tỉnh mạnh mẽ về các dấu hiệu của bạo lực gia đình phi thể xác và hành vi lạm dụng tài chính có tổ chức.",
+    "words": 34
+   },
+   {
+    "id": "5.02#5",
+    "text": "Sự tỉnh táo trong tình cảm và việc bảo vệ ranh giới cá nhân chính là chiếc chìa khóa then chốt để bảo vệ bản thân trước những kẻ săn mồi đội lốt người yêu thương.",
+    "words": 36
+   }
+  ]
+ },
+ {
+  "id": "5.03",
+  "act": 5,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "D: bài học từ công tác điều tra hình sự",
+  "text": "Dưới góc độ nghiệp vụ điều tra hình sự, bài học lớn nhất từ vụ án này là sự kết hợp chặt chẽ giữa thông tin tố giác của quần chúng và các biện pháp trinh sát kỹ thuật số hiện đại. Nếu không có sự dũng cảm của người cung cấp tin và sự mưu trí của các sĩ quan cảnh sát chìm, một vụ án mạng kinh hoàng chắc chắn đã xảy ra trong thực tế. Việc thu thập chứng cứ bằng hình ảnh và âm thanh trực tiếp là vũ khí tối thượng đập tan mọi chiến lược chối tội và ngụy biện trước tòa. Lực lượng cảnh sát khuyến cáo người dân khi phát hiện bất kỳ dấu hiệu đe dọa đến tính mạng hoặc các hành vi mờ ám liên quan đến thuê mướn bạo lực cần phải báo cáo ngay lập tức cho cơ quan chức năng để được bảo vệ kịp thời. Vụ án là minh chứng đanh thép cho thấy sự dũng cảm tố giác của một cá nhân có thể thay đổi hoàn toàn cục diện giữa sự sống và cái chết của đồng loại. Kỷ cương xã hội và sự bình yên của mỗi gia đình chỉ có thể được bảo vệ vững chắc khi mỗi công dân biết từ chối thỏa hiệp với cái ác và sẵn sàng đứng về phía lẽ phải.",
+  "sentences": [
+   {
+    "id": "5.03#1",
+    "text": "Dưới góc độ nghiệp vụ điều tra hình sự, bài học lớn nhất từ vụ án này là sự kết hợp chặt chẽ giữa thông tin tố giác của quần chúng và các biện pháp trinh sát kỹ thuật số hiện đại.",
+    "words": 42
+   },
+   {
+    "id": "5.03#2",
+    "text": "Nếu không có sự dũng cảm của người cung cấp tin và sự mưu trí của các sĩ quan cảnh sát chìm, một vụ án mạng kinh hoàng chắc chắn đã xảy ra trong thực tế.",
+    "words": 36
+   },
+   {
+    "id": "5.03#3",
+    "text": "Việc thu thập chứng cứ bằng hình ảnh và âm thanh trực tiếp là vũ khí tối thượng đập tan mọi chiến lược chối tội và ngụy biện trước tòa.",
+    "words": 30
+   },
+   {
+    "id": "5.03#4",
+    "text": "Lực lượng cảnh sát khuyến cáo người dân khi phát hiện bất kỳ dấu hiệu đe dọa đến tính mạng hoặc các hành vi mờ ám liên quan đến thuê mướn bạo lực cần phải báo cáo ngay lập tức cho cơ quan chức năng để được bảo vệ kịp thời.",
+    "words": 51
+   },
+   {
+    "id": "5.03#5",
+    "text": "Vụ án là minh chứng đanh thép cho thấy sự dũng cảm tố giác của một cá nhân có thể thay đổi hoàn toàn cục diện giữa sự sống và cái chết của đồng loại.",
+    "words": 35
+   },
+   {
+    "id": "5.03#6",
+    "text": "Kỷ cương xã hội và sự bình yên của mỗi gia đình chỉ có thể được bảo vệ vững chắc khi mỗi công dân biết từ chối thỏa hiệp với cái ác và sẵn sàng đứng về phía lẽ phải.",
+    "words": 40
+   }
+  ]
+ },
+ {
+  "id": "5.04",
+  "act": 5,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: lời khuyên tâm lý học hành vi phòng ngừa bạo lực tâm lý",
+  "text": "Các mối quan hệ tình cảm độc hại trục lợi thường không bắt đầu bằng bạo lực thể xác, mà bắt đầu bằng sự thao túng cảm xúc tinh vi và sự vội vã bất thường trong cam kết hôn nhân. Những kẻ săn mồi nhân cách thường tạo ra một vỏ bọc hoàn hảo, dồn dập tấn công bằng tình cảm để khiến nạn nhân mất đi khả năng đánh giá tỉnh táo. Việc duy trì sự độc lập về tài chính, lắng nghe ý kiến phản biện của bạn bè người thân và không vội vàng nhượng quyền tài sản là những nguyên tắc an toàn cốt tử. Hãy luôn học cách tin vào trực giác mách bảo khi bạn cảm thấy có điều gì đó không chân thật hoặc những sự trùng hợp nguy hiểm liên tiếp xảy ra. Sự cảnh giác trước những biểu hiện cảm xúc thái quá và sự dũng cảm cắt đứt mối quan hệ độc hại chính là tấm lá chắn vững chắc nhất để bảo vệ tương lai của chính mình. Hành trình kiên cường đòi lại công lý của Michael Dippolito minh chứng cho khả năng Tăng trưởng sau sang chấn, khi nạn nhân dũng cảm đối diện với sự phản bội để tái thiết niềm tin cuộc sống. Sự thức tỉnh trước những cạm bẫy thao túng không khiến chúng ta trở nên hoài nghi khép kín, mà trang bị cho tâm hồn một bản lĩnh vững vàng để trân trọng những giá trị chân thực của tình yêu thương.",
+  "sentences": [
+   {
+    "id": "5.04#1",
+    "text": "Các mối quan hệ tình cảm độc hại trục lợi thường không bắt đầu bằng bạo lực thể xác, mà bắt đầu bằng sự thao túng cảm xúc tinh vi và sự vội vã bất thường trong cam kết hôn nhân.",
+    "words": 41
+   },
+   {
+    "id": "5.04#2",
+    "text": "Những kẻ săn mồi nhân cách thường tạo ra một vỏ bọc hoàn hảo, dồn dập tấn công bằng tình cảm để khiến nạn nhân mất đi khả năng đánh giá tỉnh táo.",
+    "words": 33
+   },
+   {
+    "id": "5.04#3",
+    "text": "Việc duy trì sự độc lập về tài chính, lắng nghe ý kiến phản biện của bạn bè người thân và không vội vàng nhượng quyền tài sản là những nguyên tắc an toàn cốt tử.",
+    "words": 36
+   },
+   {
+    "id": "5.04#4",
+    "text": "Hãy luôn học cách tin vào trực giác mách bảo khi bạn cảm thấy có điều gì đó không chân thật hoặc những sự trùng hợp nguy hiểm liên tiếp xảy ra.",
+    "words": 32
+   },
+   {
+    "id": "5.04#5",
+    "text": "Sự cảnh giác trước những biểu hiện cảm xúc thái quá và sự dũng cảm cắt đứt mối quan hệ độc hại chính là tấm lá chắn vững chắc nhất để bảo vệ tương lai của chính mình.",
+    "words": 38
+   },
+   {
+    "id": "5.04#6",
+    "text": "Hành trình kiên cường đòi lại công lý của Michael Dippolito minh chứng cho khả năng Tăng trưởng sau sang chấn, khi nạn nhân dũng cảm đối diện với sự phản bội để tái thiết niềm tin cuộc sống.",
+    "words": 39
+   },
+   {
+    "id": "5.04#7",
+    "text": "Sự thức tỉnh trước những cạm bẫy thao túng không khiến chúng ta trở nên hoài nghi khép kín, mà trang bị cho tâm hồn một bản lĩnh vững vàng để trân trọng những giá trị chân thực của tình yêu thương.",
+    "words": 42
+   }
+  ]
+ },
+ {
+  "id": "5.05",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "4 cảnh báo đỏ sinh tồn và lời chào kết kênh",
+  "text": "Để giúp quý vị khán giả kịp thời nhận diện và phòng ngừa nguy cơ trở thành nạn nhân của những kẻ săn mồi tình cảm và thao túng tài chính trong đời thực, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ kinh điển được đúc kết từ hồ sơ Dalia Dippolito. Dấu hiệu thứ nhất: Sự vội vã bất thường trong việc thúc đẩy hôn nhân kết hợp với việc nhắm đến quyền sở hữu tài sản. Khi một người vừa mới quen biết đã dồn dập đòi kết hôn trong thời gian ngắn và liên tục tìm cách can thiệp vào tài khoản ngân hàng, bất động sản hoặc quyền thừa kế của bạn, đó là báo động đỏ cấp tính. Đừng bao giờ để sự lãng mạn mù quáng làm mờ đi lý trí, hãy luôn thận trọng trước những yêu cầu sang tên tài sản hoặc ký kết các văn bản pháp lý vội vã. Dấu hiệu thứ hai: Hành vi thao túng thực tại trơ trẽn, tức Gaslighting, khi bị chất vấn về những điểm bất thường. Kẻ thao túng thường có thói quen chối bỏ hoàn toàn những sai phạm của mình, đổ lỗi ngược lại cho sự đa nghi của bạn và biến bản thân thành nạn nhân vô tội trong mọi cuộc tranh cãi. Sự tự tin thái quá trong việc nói dối không chớp mắt và cố tình làm bạn nghi ngờ chính trí nhớ của mình là một dấu hiệu cảnh báo quan trọng. Dấu hiệu thứ ba: Biểu hiện cảm xúc thái quá mang tính trình diễn và sự thiếu hụt lòng trắc ẩn thực sự. Những kẻ có nhân cách chống đối xã hội thường rất giỏi đóng kịch, dễ dàng rơi nước mắt hoặc tỏ ra đau đớn khi có người khác nhìn vào, nhưng lại lập tức trở nên lạnh lùng vô cảm khi ở một mình. Hãy quan sát hành động thực tế trong đời sống hàng ngày thay vì chỉ tin vào những lời nói hoa mỹ hay những giọt nước mắt kịch tính bên ngoài. Dấu hiệu thứ tư: Những sự cố nguy hiểm bất thường và những rắc rối pháp lý bí ẩn liên tục xảy ra xung quanh bạn. Trong vụ án này, Michael Dippolito từng liên tục gặp rắc rối từ ly trà có vị lạ cho đến gói chất cấm bị gài trong xe trước khi vụ thuê sát thủ bị phanh phui. Khi bạn nhận thấy những tai nạn bất thường xảy ra lặp đi lặp lại trong không gian sống của mình, tuyệt đối không được coi đó là sự trùng hợp ngẫu nhiên mà cần phải kiểm tra an ninh toàn diện ngay lập tức. Tình yêu chân chính phải được xây dựng trên sự tôn trọng, lòng trung thực và sự an toàn của cả hai người, chứ không bao giờ có chỗ cho sự toan tính hay phản bội. Cảm ơn quý vị đã dành thời gian đồng hành cùng Amber Eyes trong tập hồ sơ tâm lý học tội phạm đầy kịch tính và bài học cảnh tỉnh sâu sắc ngày hôm nay. Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ video ý nghĩa này đến những người xung quanh bạn để cùng nhau nâng cao cảnh giác trong cuộc sống. Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
+  "sentences": [
+   {
+    "id": "5.05#1",
+    "text": "Để giúp quý vị khán giả kịp thời nhận diện và phòng ngừa nguy cơ trở thành nạn nhân của những kẻ săn mồi tình cảm và thao túng tài chính trong đời thực, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ kinh điển được đúc kết từ hồ sơ Dalia Dippolito.",
+    "words": 56
+   },
+   {
+    "id": "5.05#2",
+    "text": "Dấu hiệu thứ nhất: Sự vội vã bất thường trong việc thúc đẩy hôn nhân kết hợp với việc nhắm đến quyền sở hữu tài sản.",
+    "words": 26
+   },
+   {
+    "id": "5.05#3",
+    "text": "Khi một người vừa mới quen biết đã dồn dập đòi kết hôn trong thời gian ngắn và liên tục tìm cách can thiệp vào tài khoản ngân hàng, bất động sản hoặc quyền thừa kế của bạn, đó là báo động đỏ cấp tính.",
+    "words": 45
+   },
+   {
+    "id": "5.05#4",
+    "text": "Đừng bao giờ để sự lãng mạn mù quáng làm mờ đi lý trí, hãy luôn thận trọng trước những yêu cầu sang tên tài sản hoặc ký kết các văn bản pháp lý vội vã.",
+    "words": 36
+   },
+   {
+    "id": "5.05#5",
+    "text": "Dấu hiệu thứ hai: Hành vi thao túng thực tại trơ trẽn, tức Gaslighting, khi bị chất vấn về những điểm bất thường.",
+    "words": 23
+   },
+   {
+    "id": "5.05#6",
+    "text": "Kẻ thao túng thường có thói quen chối bỏ hoàn toàn những sai phạm của mình, đổ lỗi ngược lại cho sự đa nghi của bạn và biến bản thân thành nạn nhân vô tội trong mọi cuộc tranh cãi.",
+    "words": 40
+   },
+   {
+    "id": "5.05#7",
+    "text": "Sự tự tin thái quá trong việc nói dối không chớp mắt và cố tình làm bạn nghi ngờ chính trí nhớ của mình là một dấu hiệu cảnh báo quan trọng.",
+    "words": 32
+   },
+   {
+    "id": "5.05#8",
+    "text": "Dấu hiệu thứ ba: Biểu hiện cảm xúc thái quá mang tính trình diễn và sự thiếu hụt lòng trắc ẩn thực sự.",
+    "words": 23
+   },
+   {
+    "id": "5.05#9",
+    "text": "Những kẻ có nhân cách chống đối xã hội thường rất giỏi đóng kịch, dễ dàng rơi nước mắt hoặc tỏ ra đau đớn khi có người khác nhìn vào, nhưng lại lập tức trở nên lạnh lùng vô cảm khi ở một mình.",
+    "words": 44
+   },
+   {
+    "id": "5.05#10",
+    "text": "Hãy quan sát hành động thực tế trong đời sống hàng ngày thay vì chỉ tin vào những lời nói hoa mỹ hay những giọt nước mắt kịch tính bên ngoài.",
+    "words": 31
+   },
+   {
+    "id": "5.05#11",
+    "text": "Dấu hiệu thứ tư: Những sự cố nguy hiểm bất thường và những rắc rối pháp lý bí ẩn liên tục xảy ra xung quanh bạn.",
+    "words": 26
+   },
+   {
+    "id": "5.05#12",
+    "text": "Trong vụ án này, Michael Dippolito từng liên tục gặp rắc rối từ ly trà có vị lạ cho đến gói chất cấm bị gài trong xe trước khi vụ thuê sát thủ bị phanh phui.",
+    "words": 36
+   },
+   {
+    "id": "5.05#13",
+    "text": "Khi bạn nhận thấy những tai nạn bất thường xảy ra lặp đi lặp lại trong không gian sống của mình, tuyệt đối không được coi đó là sự trùng hợp ngẫu nhiên mà cần phải kiểm tra an ninh toàn diện ngay lập tức.",
+    "words": 45
+   },
+   {
+    "id": "5.05#14",
+    "text": "Tình yêu chân chính phải được xây dựng trên sự tôn trọng, lòng trung thực và sự an toàn của cả hai người, chứ không bao giờ có chỗ cho sự toan tính hay phản bội.",
+    "words": 36
+   },
+   {
+    "id": "5.05#15",
+    "text": "Cảm ơn quý vị đã dành thời gian đồng hành cùng Amber Eyes trong tập hồ sơ tâm lý học tội phạm đầy kịch tính và bài học cảnh tỉnh sâu sắc ngày hôm nay.",
+    "words": 35
+   },
+   {
+    "id": "5.05#16",
+    "text": "Hãy nhấn nút đăng ký kênh, bật chuông thông báo và chia sẻ video ý nghĩa này đến những người xung quanh bạn để cùng nhau nâng cao cảnh giác trong cuộc sống.",
+    "words": 33
+   },
+   {
+    "id": "5.05#17",
+    "text": "Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ sơ tiếp theo.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "5.06",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "*Giai điệu Piano ấm áp ngân vang những nốt nhạc thanh thản cuối cùng, khép lại trọn vẹn tập hồ sơ.*"
+ }
 ]

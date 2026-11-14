@@ -22,31 +22,31 @@
 | **Số lượt thoại (LOI turns)** | **32** | **32** | **32** | **32** | **Khớp 100%** |
 | **Số thẻ hiệu ứng (SFX)** | 13 | 13 | 13 | 13 | **Khớp 100%** |
 | **Số thẻ nhạc nền (BGM)** | 6 | 6 | 6 | 6 | **Khớp 100%** |
-| **Tổng số câu đọc (Sentences)** | **220** | **220** | **220** | **220** | **Khớp 100% (>= 200 câu)** |
-| **Tổng số từ (Word Count)** | 6.843 từ | 4.474 từ | 238 từ (cụm) | 3.653 từ | Phù hợp đặc thù ngôn ngữ |
-| **Thời lượng ước tính** | 26 – 28 phút | 25 – 27 phút | 26 – 28 phút | 26 – 28 phút | Đạt chuẩn video chuyên sâu |
+| **Tổng số câu đọc (Sentences)** | **257** | **257** | **257** | **257** | **Khớp 100% (>= 200 câu)** |
+| **Tổng số từ (Word Count)** | 8.305 từ | 5.478 từ | 275 từ (cụm) | 4.439 từ | Phù hợp đặc thù ngôn ngữ |
+| **Thời lượng ước tính** | 28 – 32 phút | 27 – 30 phút | 28 – 32 phút | 28 – 32 phút | Đạt chuẩn video chuyên sâu |
 
 ---
 
 ### II. BẢNG CHI TIẾT ĐỒNG BỘ CÂU THEO TỪNG HỒI & TỪNG LƯỢT THOẠI (1:1 PARITY)
 
-#### HỒI 1: BIỆT THỰ U ÁM BREEZE KNOLL VÀ KHÁM PHÁ KINH HOÀNG SAU MỘT THÁNG (12 phần tử, 7 lượt thoại, 50 câu)
+#### HỒI 1: BIỆT THỰ U ÁM BREEZE KNOLL VÀ KHÁM PHÁ KINH HOÀNG SAU MỘT THÁNG (12 phần tử, 7 lượt thoại, 58 câu)
 | ID Phần tử | Loại (Kind) | Vai (Role) | Hướng diễn xuất chính | Số câu VN | Số câu EN | Số câu JA | Số câu KO |
 |:---:|:---:|:---:|---|:---:|:---:|:---:|:---:|
 | **1.01** | BGM | — | Dark Ambient tôn giáo u uất, Organ lạnh lẽo | — | — | — | — |
 | **1.02** | LOI | **H** (Host) | Trầm ấm, mở đầu hồ sơ bí ẩn thế kỷ | 6 | 6 | 6 | 6 |
 | **1.03** | SFX | — | Tiếng gió rít, tiếng gõ cửa gỗ biệt thự bỏ hoang | — | — | — | — |
-| **1.04** | LOI | **D** (Điều tra viên) | Khách quan, sắc lạnh, hiện trường ban đầu | 8 | 8 | 8 | 8 |
+| **1.04** | LOI | **H** (Host) | Vỏ bọc gia đình danh giá & Điểm mù thượng lưu | 12 | 12 | 12 | 12 |
 | **1.05** | SFX | — | Tiếng tra chìa khóa, tiếng cửa nặng nề mở kẽo kẹt | — | — | — | — |
 | **1.06** | LOI | **H** (Host) | Kịch tính, vỡ lở khủng hoảng tài chính | 7 | 7 | 7 | 7 |
-| **1.07** | LOI | **N** (N1 - Jean Phillips) | Bàng hoàng, linh cảm bất an của học sinh | 6 | 6 | 6 | 6 |
+| **1.07** | LOI | **N** (N1 - Jean Phillips) | Bàng hoàng, linh cảm bất an & Chấn thương đạo đức | 12 | 12 | 12 | 12 |
 | **1.08** | LOI | **D** (Điều tra viên) | Nghiệp vụ, bóc tách dấu vết hiện trường | 7 | 7 | 7 | 7 |
 | **1.09** | SFX | — | Tiếng bước chân thám tử trên sàn gỗ, tiếng nhạc đài | — | — | — | — |
 | **1.10** | LOI | **H** (Host) | Lặng đi, khoảnh khắc phát hiện thảm kịch | 8 | 8 | 8 | 8 |
 | **1.11** | SFX | — | Tiếng radio rè rè phát thánh ca, tiếng gió lùa | — | — | — | — |
 | **1.12** | LOI | **C** (Chuyên gia) | Điềm đạm, đặt câu hỏi bản chất tội phạm | 8 | 8 | 8 | 8 |
 
-#### HỒI 2: VỤ MẤT TÍCH THẾ KỶ VÀ CHIẾC KÉO CẮT MẶT TRONG ALBUM ẢNH (11 phần tử, 6 lượt thoại, 41 câu)
+#### HỒI 2: VỤ MẤT TÍCH THẾ KỶ VÀ CHIẾC KÉO CẮT MẶT TRONG ALBUM ẢNH (11 phần tử, 6 lượt thoại, 45 câu)
 | ID Phần tử | Loại (Kind) | Vai (Role) | Hướng diễn xuất chính | Số câu VN | Số câu EN | Số câu JA | Số câu KO |
 |:---:|:---:|:---:|---|:---:|:---:|:---:|:---:|
 | **2.01** | BGM | — | Tiếng đàn Organ nhà thờ u tối, nhịp điệu rình rập | — | — | — | — |
@@ -58,23 +58,23 @@
 | **2.07** | SFX | — | Tiếng lật trang tài liệu điều tra, tiếng gõ bàn phím cơ | — | — | — | — |
 | **2.08** | LOI | **H** (Host) | Thời gian trôi qua, vụ án đóng băng 18 năm | 7 | 7 | 7 | 7 |
 | **2.09** | SFX | — | Tiếng đồng hồ quả lắc tích tắc cô tịch, tiếng củi nổ | — | — | — | — |
-| **2.10** | LOI | **C** (Chuyên gia) | Phân tích cơ chế biến mất của hung thủ OCPD | 7 | 7 | 7 | 7 |
+| **2.10** | LOI | **C** (Chuyên gia) | Cơ chế Chia ngăn nhận thức 18 năm & Vỏ bọc Robert Clark | 11 | 11 | 11 | 11 |
 | **2.11** | LOI | **H** (Host) | Đúc kết ngõ cụt 18 năm của lực lượng điều tra | 7 | 7 | 7 | 7 |
 
-#### HỒI 3: GIẢI MÃ TÂM LÝ: RỐI LOẠN NHÂN CÁCH ÁM ẢNH CƯỠNG CHẾ (OCPD) & BẪY NGỤY BIỆN ĐẠO ĐỨC (9 phần tử, 7 lượt thoại, 45 câu)
+#### HỒI 3: GIẢI MÃ TÂM LÝ: RỐI LOẠN NHÂN CÁCH ÁM ẢNH CƯỠNG CHẾ (OCPD) & BẪY NGỤY BIỆN ĐẠO ĐỨC (9 phần tử, 7 lượt thoại, 53 câu)
 | ID Phần tử | Loại (Kind) | Vai (Role) | Hướng diễn xuất chính | Số câu VN | Số câu EN | Số câu JA | Số câu KO |
 |:---:|:---:|:---:|---|:---:|:---:|:---:|:---:|
 | **3.01** | BGM | — | Minimalist Piano sâu lắng, Drone điện tử căng thẳng | — | — | — | — |
 | **3.02** | LOI | **C** (Chuyên gia) | Học thuật, định danh OCPD và vị tha méo mó | 6 | 6 | 6 | 6 |
 | **3.03** | LOI | **H** (Host) | Tuổi thơ ngột ngạt và sự sụp đổ của trật tự giả tạo | 6 | 6 | 6 | 6 |
-| **3.04** | LOI | **C** (Chuyên gia) | Bóc tách kỹ thuật "Mục đích cao cả" | 6 | 6 | 6 | 6 |
-| **3.05** | LOI | **H** (Host) | Bức thư 5 trang gửi mục sư và sự ngụy biện đức tin | 7 | 7 | 7 | 7 |
+| **3.04** | LOI | **C** (Chuyên gia) | Kỹ thuật "Mục đích cao cả" & Tại sao không thể hối hận | 10 | 10 | 10 | 10 |
+| **3.05** | LOI | **H** (Host) | Bức thư 5 trang, Ăn năn giả tạo & Tự thương hại bệnh lý | 11 | 11 | 11 | 11 |
 | **3.06** | SFX | — | Tiếng ngòi bút máy sột soạt trên giấy, tiếng thở dài | — | — | — | — |
 | **3.07** | LOI | **C** (Chuyên gia) | Sự chia ngăn nhận thức (Compartmentalization) | 7 | 7 | 7 | 7 |
 | **3.08** | LOI | **D** (Điều tra viên) | Thực tế nghiệt ngã đối lập với ngụy biện tâm lý | 7 | 7 | 7 | 7 |
 | **3.09** | LOI | **H** (Host) | Đúc kết sự nguy hiểm của ảo tưởng đạo đức | 6 | 6 | 6 | 6 |
 
-#### HỒI 4: BỨC TƯỢNG SÁP CỦA FRANK BENDER VÀ CÚ ĐIỆN THOẠI TỪ AMERICA’S MOST WANTED (13 phần tử, 8 lượt thoại, 49 câu)
+#### HỒI 4: BỨC TƯỢNG SÁP CỦA FRANK BENDER VÀ CÚ ĐIỆN THOẠI TỪ AMERICA’S MOST WANTED (13 phần tử, 8 lượt thoại, 58 câu)
 | ID Phần tử | Loại (Kind) | Vai (Role) | Hướng diễn xuất chính | Số câu VN | Số câu EN | Số câu JA | Số câu KO |
 |:---:|:---:|:---:|---|:---:|:---:|:---:|:---:|
 | **4.01** | BGM | — | Tiếng đàn Violin dồn dập, tiết tấu phá án khẩn trương | — | — | — | — |
@@ -85,23 +85,23 @@
 | **4.06** | LOI | **D** (Điều tra viên) | Buổi phát sóng định mệnh và cuộc gọi Colorado | 7 | 7 | 7 | 7 |
 | **4.07** | SFX | — | Tiếng phanh xe FBI, tiếng cửa kính văn phòng đẩy mạnh | — | — | — | — |
 | **4.08** | LOI | **H** (Host) | Cuộc vây bắt chớp nhoáng tại Virginia | 6 | 6 | 6 | 6 |
-| **4.09** | LOI | **N** (N2 - Wanda Flanery) | Chân thực, sự bàng hoàng về người hàng xóm | 6 | 6 | 6 | 6 |
+| **4.09** | LOI | **N** (N2 - Wanda Flanery) | Động lực chuyển hóa tâm lý & Phá vỡ hiệu ứng bàng quan | 11 | 11 | 11 | 11 |
 | **4.10** | LOI | **D** (Điều tra viên) | Lăn dấu vân tay và khoảnh khắc cúi đầu | 6 | 6 | 6 | 6 |
 | **4.11** | SFX | — | Tiếng còng số tám tra vào cổ tay, tiếng sập cửa sắt | — | — | — | — |
-| **4.12** | LOI | **C** (Chuyên gia) | Sự sụp đổ của chiếc mặt nạ bình thường hóa | 6 | 6 | 6 | 6 |
+| **4.12** | LOI | **C** (Chuyên gia) | Cú sốc sụp đổ bản ngã của người vợ thứ hai Delores Miller | 10 | 10 | 10 | 10 |
 | **4.13** | LOI | **H** (Host) | Kết thúc 18 năm trốn chạy dưới hai thân phận | 5 | 5 | 5 | 5 |
 
-#### HỒI 5: BÀI HỌC ĐẮT GIÁ VỀ SỰ CUỒNG KIỂM SOÁT & 4 CẢNH BÁO ĐỎ (6 phần tử, 4 lượt thoại, 35 câu)
+#### HỒI 5: BÀI HỌC ĐẮT GIÁ VỀ SỰ CUỒNG KIỂM SOÁT & 4 CẢNH BÁO ĐỎ (6 phần tử, 4 lượt thoại, 43 câu)
 | ID Phần tử | Loại (Kind) | Vai (Role) | Hướng diễn xuất chính | Số câu VN | Số câu EN | Số câu JA | Số câu KO |
 |:---:|:---:|:---:|---|:---:|:---:|:---:|:---:|
 | **5.01** | BGM | — | Tiếng Piano ấm áp, trang trọng, triết lý nhân văn | — | — | — | — |
 | **5.02** | LOI | **H** (Host) | Tuyên đọc phán quyết 5 án tù chung thân | 6 | 6 | 6 | 6 |
-| **5.03** | LOI | **D** (Điều tra viên) | Di sản khoa học hình sự và sự khép lại vụ án | 5 | 5 | 5 | 5 |
-| **5.04** | LOI | **C** (Chuyên gia) | Bóc tách bản ngã ái kỷ độc hại và tình yêu gia đình | 6 | 6 | 6 | 6 |
+| **5.03** | LOI | **D** (Điều tra viên) | Di sản khoa học hình sự & Bài học cảnh giác cộng đồng | 9 | 9 | 9 | 9 |
+| **5.04** | LOI | **C** (Chuyên gia) | Chấn thương đạo đức nhân chứng & Trách nhiệm xã hội | 10 | 10 | 10 | 10 |
 | **5.05** | LOI | **H** (Host) | Đúc kết 4 cảnh báo đỏ thực tế và thông điệp kết | 18 | 18 | 18 | 18 |
 | **5.06** | BGM | — | Piano ngân vang trang trọng rồi fade out | — | — | — | — |
 
-**Tổng cộng toàn tập:** **51 phần tử · 32 lượt thoại · 220 câu thoại (khớp tuyệt đối 1:1 trên toàn bộ 4 ngôn ngữ).**
+**Tổng cộng toàn tập:** **51 phần tử · 32 lượt thoại · 257 câu thoại (khớp tuyệt đối 1:1 trên toàn bộ 4 ngôn ngữ).**
 
 ---
 
@@ -119,10 +119,10 @@
 ==========================================
 PARITY AUDIT ACROSS 4 EDITIONS
 ==========================================
-VN: 51 elements, 32 LOI turns, 220 sentences -> MATCH
-EN: 51 elements, 32 LOI turns, 220 sentences -> MATCH
-JA: 51 elements, 32 LOI turns, 220 sentences -> MATCH
-KO: 51 elements, 32 LOI turns, 220 sentences -> MATCH
+VN: 51 elements, 32 LOI turns, 257 sentences -> MATCH
+EN: 51 elements, 32 LOI turns, 257 sentences -> MATCH
+JA: 51 elements, 32 LOI turns, 257 sentences -> MATCH
+KO: 51 elements, 32 LOI turns, 257 sentences -> MATCH
 
 >>> FINAL STATUS TAP 16: ALL PASS <<< (Exit Code: 0)
 ```
@@ -131,18 +131,18 @@ KO: 51 elements, 32 LOI turns, 220 sentences -> MATCH
 ```
 ok    acts: 5 (1,2,3,4,5)
 ok    51 elements aligned (kind/role/sentence-count/pause)
-ok    total sentences: 220
+ok    total sentences: 257
 ok    hangul share of narration: 87.9% (yêu cầu >= 60%)
 ok    no vietnamese-only diacritics in KO narration
 ok    no hanja/chinese characters in KO narration
 ok    list items: 0 (same order, same kind)
 ok    quotes: 10 (type-1 = keep English inside, type-2 = translate inside)
-PASS  kichban_tap16_KO.md — 51 elements, 220 sentences, parity with kichban_tap16_23102026.md (Exit Code: 0)
+PASS  kichban_tap16_KO.md — 51 elements, 257 sentences, parity with kichban_tap16_23102026.md (Exit Code: 0)
 ```
 
 #### 4. Cổng kiểm định Tiếng Nhật (`.work/_qc_ja.py 16`)
 ```
-OK   Tap16: câu VN=220 JA=220 | lượt VN=32 JA=32 | lượt lệch câu=0 | lỗi: không
+OK   Tap16: câu VN=257 JA=257 | lượt VN=32 JA=32 | lượt lệch câu=0 | lỗi: không
 ==> 1/1 tập đạt · -> D:\TEST\Gax\amber-eyes\.work\_ja_qc.txt (Exit Code: 0)
 ```
 - Đã đồng bộ cấu trúc bảng thông số kỹ thuật (8 hàng chuẩn hóa).
@@ -158,7 +158,7 @@ OK   Tap16: câu VN=220 JA=220 | lượt VN=32 JA=32 | lượt lệch câu=0 | l
 ### IV. TÍNH TƯƠNG THÍCH PIPELINE SẢN XUẤT VIDEO & ÂM THANH
 
 1. **Biên dịch JSON kịch bản:**
-   - Đã chạy thành công `parse_kichban.py` tạo `.work/script_tap16.json` với chính xác 51 phần tử và 220 câu đọc.
+   - Đã chạy thành công `parse_kichban.py` tạo `.work/script_tap16.json` với chính xác 51 phần tử và 257 câu đọc.
 2. **Cấu hình Tập 16 trong `.work/edition.py`:**
    - `summary`: `("1.02#1", "3.02#1")` $\rightarrow$ Cả hai câu mở đầu tóm tắt đều tồn tại nguyên vẹn.
    - `n_element`: `{"1.07": "N1", "4.09": "N2"}` $\rightarrow$ Cả 2 lượt thoại nhân chứng khớp chính xác vị trí và vai N1 (Jean Phillips) / N2 (Wanda Flanery).

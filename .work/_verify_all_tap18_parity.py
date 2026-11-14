@@ -50,6 +50,6 @@ for lang in ['EN', 'JA', 'KO']:
                 all_ok = False
 
 if all_ok:
-    print("\n>>> ALL 4 LANGUAGES (VN, EN, JA, KO): 100% PERFECT 1:1 PARITY ACROSS ALL 49 ELEMENTS AND 208 SENTENCES! <<<")
+    print(f"\n>>> ALL 4 LANGUAGES (VN, EN, JA, KO): 100% PERFECT 1:1 PARITY ACROSS ALL {len(vn_els)} ELEMENTS AND {sum(len(e['sentences']) for e in vn_els if e['kind'] == 'LOI')} SENTENCES! <<<")
 else:
     print("\n>>> PARITY ISSUES FOUND! <<<")

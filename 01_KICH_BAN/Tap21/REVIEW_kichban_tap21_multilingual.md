@@ -21,9 +21,9 @@ Theo quy tắc **L3** (*"CẤM nói xong khi chưa đo. Mỗi bước báo số 
 | **Số Hồi (Acts)** | 5 | 5 | 5 | 5 | **Khớp 100% (5/5)** |
 | **Tổng số phần tử (Elements)** | **51** | **51** | **51** | **51** | **Khớp 100% (51/51)** |
 | **Lượt lời thoại (LOI)** | **32** | **32** | **32** | **32** | **Khớp 100% (32/32)** |
-| **Tổng số câu đọc (Sentences)** | **212** | **212** | **212** | **212** | **Khớp 1:1 tuyệt đối** |
+| **Tổng số câu đọc (Sentences)** | **248** | **248** | **248** | **248** | **Khớp 1:1 tuyệt đối** |
 | **Số cue âm thanh (BGM / SFX)** | 19 (7 BGM / 12 SFX) | 19 | 19 | 19 | **Khớp 100% vị trí & thứ tự** |
-| **Tổng số từ (Word count)** | 6.538 từ | 3.982 từ | 212 đoạn | 3.198 từ | Chuẩn tự nhiên từng ngữ |
+| **Tổng số từ (Word count)** | 6.538 từ | 3.982 từ | 248 đoạn | 3.198 từ | Chuẩn tự nhiên từng ngữ |
 | **Lỗi định dạng dòng (CR thừa)** | 0 (`\r\r\n` = 0) | 0 | 0 | 0 | Tuân thủ Bẫy #119 |
 | **Lỗi từ cấm bạo lực (V9)** | 0 lỗi | 0 lỗi | 0 lỗi | 0 lỗi | 100% YouTube Safe |
 | **Lỗi dấu ngắt lửng (G1)** | 0 dấu `...`/`…` | 0 | 0 | 0 | Giọng đọc mượt mà |

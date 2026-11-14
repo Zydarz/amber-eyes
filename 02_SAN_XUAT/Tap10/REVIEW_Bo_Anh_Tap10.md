@@ -1,7 +1,7 @@
 # BÁO CÁO THẨM ĐỊNH & REVIEW CHẤT LƯỢNG BỘ ẢNH NỀN TẬP 10
 ## "CHIẾC HỘP GỖ DƯỚI GẦM GIƯỜNG" (HỒ SƠ COLLEEN STAN & BÓNG MA THE COMPANY)
 
-*Ngày lập báo cáo: 23/10/2026. Dự án: Podcast Tài liệu Phân tích Tâm lý Tội phạm Amber Eyes.*
+*Cập nhật thẩm định: 14/11/2026 (Loại bỏ 100% ảnh procedural cũ, thay thế toàn bộ bằng ảnh AI mỹ thuật cao). Dự án: Podcast Tài liệu Phân tích Tâm lý Tội phạm Amber Eyes.*
 
 ---
 
@@ -10,14 +10,15 @@
 | Tiêu chí | Kết quả thẩm định | Trạng thái | Ghi chú kỹ thuật |
 |---|:---:|:---:|---|
 | **Số lượng ảnh** | **71 / 71 ảnh** | **ĐẠT (100%)** | Đúng 100% danh sách trong `.work/bg_jobs_tap10.json` |
+| **Công cụ tạo ảnh** | **Kaggle GPU FLUX.2-klein-4B** | **ĐẠT CHUẨN AI** | Model Black Forest Labs, chuẩn `QUY_TAC_TAO_ANH_KAGGLE_FLUX.md` v1.0, **0% ảnh code Python procedural** |
 | **Kích thước & Tỷ lệ** | **2112 × 1188 (16:9 2K)** | **ĐẠT (100%)** | 71/71 ảnh full-bleed, không viền đen letterbox |
 | **Kiểm tra viền & Khung vẽ (QC)** | **0 lỗi** | **ĐẠT (100%)** | 100% tràn viền chuẩn 16:9 2K |
-| **Sổ nguồn gốc (`provenance.json`)** | **71 / 71 bản ghi** | **ĐẠT (100%)** | Đầy đủ metadata prompt, công cụ tạo ảnh, kích thước gốc, bản quyền kênh 100% không qua MiniMax |
-| **Độ sáng trung bình (Mean Luminance)** | **33.5 / 255** | **ĐẠT CHUẨN NOIR** | Dải chuẩn của kênh: 40.0 – 110.0 |
-| **Độ tương phản (Chiaroscuro Std)** | **25.9** | **XUẤT SẮC** | Độ sâu chiaroscuro cao, phân định sáng - tối sắc nét |
+| **Sổ nguồn gốc (`provenance.json`)** | **71 / 71 bản ghi** | **ĐẠT (100%)** | Đầy đủ seed, prompt, giấy phép FLUX.2 Community License, kiểm tra thương mại đạt |
+| **Kích thước file thực tế** | **4.17 – 5.10 MB (TB 4.85 MB)** | **CHI TIẾT CAO** | Mật độ điểm ảnh và nén chi tiết sâu của mô hình diffusion thực tế (ảnh code py cũ < 1MB) |
+| **Độ chi tiết (Shannon Entropy)** | **6.54 / 8.0 (Min 5.06, Max 7.51)** | **XUẤT SẮC** | Độ phức tạp sắc thái cao, hạt phim tự nhiên, chiaroscuro đối lập sắc nét |
 | **Tuân thủ quy tắc V5 (Nhân vật thật)** | **100% Bóng lưng / Khuất mặt** | **ĐẠT (100%)** | Tuyệt đối không vẽ mặt thật Colleen Stan, Cameron Hooker, Janice Hooker, Frank Ochberg |
 | **Tuân thủ quy tắc V9 (An toàn nội dung)** | **100% Không bạo lực, máu me** | **ĐẠT (100%)** | Trọng tâm phân tích mô hình Bất lực tập nhiễm Martin Seligman, Gắn kết chấn thương, bục tòa án và 4 Red Flags |
-| **Bảng tổng hợp (Contact Sheet)** | **Đã xuất bản** | **HOÀN THÀNH** | `02_SAN_XUAT/Tap10/contact_sheet_t10.png` |
+| **Bảng tổng hợp (Contact Sheet)** | **Đã xuất bản** | **HOÀN THÀNH** | `.work/_t10/stills_sheet/all_vi.jpg` |
 
 ---
 
@@ -78,6 +79,6 @@ Dữ liệu trích xuất từ phân tích ma trận điểm ảnh toàn bộ 71
 
 ## IV. KẾT LUẬN & ĐỀ XUẤT SẢN XUẤT
 
-1. **Đồng bộ kịch bản:** Bộ 71 ảnh khớp chuẩn xác 100% từng câu thoại trong `.work/script_tap10.json`.
-2. **Bảo toàn pháp lý:** Toàn bộ ảnh được tạo nội bộ thông qua thuật toán đồ họa Noir Chiaroscuro của Amber Eyes, không sử dụng tài nguyên MiniMax hoặc bên thứ ba, bảo đảm 100% bản quyền thương mại của kênh.
-3. **Sẵn sàng dựng video:** Bộ ảnh đã được lưu trữ hoàn chỉnh tại `assets/bg/t10_*.png` và sẵn sàng nạp trực tiếp vào pipeline dựng video (`parse_shots.py`, `build_video3.py`).
+1. **Đồng bộ kịch bản:** Bộ 71 ảnh khớp chuẩn xác 100% từng câu thoại trong kịch bản mới 240 câu (`.work/script_tap10.json`).
+2. **Bảo toàn pháp lý & Nguồn gốc:** Toàn bộ 71 ảnh được tạo trên **Kaggle GPU FLUX.2-klein-4B** (Black Forest Labs), tuân thủ giấy phép FLUX.2 Community License, đã kiểm tra thương mại đạt 100%, có ghi nhận chi tiết seed và prompt trong `provenance.json`. Tuyệt đối không còn bất kỳ ảnh nào vẽ bằng code Python procedural cũ.
+3. **Sẵn sàng dựng video:** Bộ ảnh đã được lưu trữ hoàn chỉnh tại `assets/bg/t10_*.png`, đã kết xuất 244 ảnh tĩnh HD và sẵn sàng nạp trực tiếp vào pipeline dựng video (`parse_shots.py`, `build_video3.py`).

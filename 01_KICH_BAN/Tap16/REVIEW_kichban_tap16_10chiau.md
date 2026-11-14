@@ -4,12 +4,13 @@
 > **Căn cứ thực hiện:**
 > - Quy tắc chung cho AI (`AGENTS.md` — Điều K10: Hệ sinh thái 10 chỉ dấu tâm lý bắt buộc).
 > - Sổ tay tiêu chuẩn dựng video (`00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` — Mục A2c).
-> - Kịch bản đã nâng cấp: `01_KICH_BAN/Tap16/kichban_tap16_23102026.md` (220 câu thoại, 51 phần tử, 5 hồi).
+> - Kịch bản đã nâng cấp: `01_KICH_BAN/Tap16/kichban_tap16_23102026.md` (257 câu thoại, 51 phần tử, 5 hồi).
+> - Bản nghiên cứu chuyên sâu: `01_KICH_BAN/Tap16/NghienCuu_TamLy_BoSung_KichBan_Tap16.md` (giải mã biến chuyển tâm lý 5 chủ thể & cơ chế hối hận).
 
 ---
 
 ### TỔNG QUAN TÁI CẤU TRÚC KỊCH BẢN TẬP 16
-Vụ án John List (thảm kịch tại biệt thự Breeze Knoll, Westfield, New Jersey năm 1971 và cuộc trốn chạy 18 năm dưới thân phận Robert Clark cho đến khi bị bắt năm 1989 nhờ chương trình *America’s Most Wanted*) đã được tái cấu trúc toàn diện từ 164 câu lên **220 câu thoại**. Kịch bản bảo đảm chuyển hóa sâu sắc từ một phóng sự điều tra tư pháp thuần túy sang **chuyên đề giải phẫu tâm lý học tội phạm chuyên sâu**, phản ánh đầy đủ, mạch lạc 10 chỉ dấu tâm lý cốt lõi.
+Vụ án John List (thảm kịch tại biệt thự Breeze Knoll, Westfield, New Jersey năm 1971 và cuộc trốn chạy 18 năm dưới thân phận Robert Clark cho đến khi bị bắt năm 1989 nhờ chương trình *America’s Most Wanted*) đã được tái cấu trúc và mở rộng toàn diện từ 220 câu lên **257 câu thoại** trên cả 4 ngôn ngữ (VN, EN, JA, KO). Kịch bản đào sâu chuyên đề giải phẫu tâm lý học tội phạm, làm sáng tỏ biến chuyển nhận thức của 5 chủ thể (Kẻ thủ ác, Đồng phạm/Người che chở vô thức, Nạn nhân, Nhân chứng, Người dân xã hội), đặc biệt làm rõ cơ chế tại sao kẻ thủ ác không bao giờ hối hận thật sự (Sham Remorse vs Genuine Remorse) và sự thức tỉnh của các nhân chứng.
 
 ---
 

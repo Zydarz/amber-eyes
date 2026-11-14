@@ -3,7 +3,7 @@
 * **Subject:** The Lauren Giddings Case at Mercer University Walter F. George School of Law (Macon, Georgia, 2011)
 * **Psychological Themes:** Predatory Stalking, Predatory Voyeurism, Covert Narcissism, Physiological Freeze Response (Tonic Immobility) & Micro-Expressions of Guilty Shock on Live Television
 * **Estimated Running Time:** 24 – 27 minutes
-* **Format:** Standard A2 — High-Scale Script (212 Spoken Sentences) based on the 10 Psychological & Behavioral Dimensions (A2c) and Rule K10 (07/11/2026)
+* **Format:** Standard A2 — High-Scale Script (241 Spoken Sentences) based on the 10 Psychological & Behavioral Dimensions (A2c) and Rule K10 (07/11/2026)
 * **YouTube Safety Standard (Rule V9):** 100% YouTube Safe, zero graphic depictions of gore or bodily harm; 100% focused on forensic behavioral science, micro-expression analysis, investigative tactics, and survival red flags.
 
 ---
@@ -14,10 +14,10 @@
 | :--- | :--- | :--- | :--- | :---: |
 | **H** | **Host** | Amber Eyes Voice | Warm, resonant, compelling, penetrating narrative arc | **122** |
 | **D** | **Investigator** | Homicide Detective (Representative Persona) | Seasoned, steely, objective, forensic precision | **37** |
-| **C** | **Psychologist** | Forensic Behavioral Scientist | Scholarly, clinical, insightful behavioral analysis | **36** |
+| **C** | **Psychologist** | Forensic Behavioral Expert | Calm, academic, rigorous behavioral insights | **42** |
 | **N1** | **Ordinary Person 1** | Mercer Law School Classmate (Act 1) | Young female, shaken, authentic, visceral grief | **8** |
 | **N2** | **Ordinary Person 2** | Lauren's Family Representative (Act 4) | Dignified female, emotionally choked yet fiercely resilient | **9** |
-| **TOTAL** | **Full Episode** | **5 Acts Standard A2** | **1:1 Multilingual Parity Benchmark (>200 Sentences)** | **212** |
+| **TOTAL** | **Full Episode** | **5 Acts Standard A2** | **1:1 Multilingual Parity Benchmark (>200 Sentences)** | **241** |
 
 ---
 
@@ -34,6 +34,8 @@ Law students trained in procedural order were suddenly seized with profound drea
 The social shockwave widened as local television news crews converged upon the apartment building directly across from the law school to broadcast the mysterious disappearance.
 Right there on the pavement, a neighbor living directly across the hall from Lauren stepped forward before the cameras with eager urgency.
 The young man projected intense enthusiasm, portraying himself as a devoted, observant friend deeply invested in the missing woman’s welfare.
+Within prestigious academic halls like Mercer University, the student community often lived under a default assumption of absolute safety.
+That very illusion of academic security inadvertently paralyzed the natural vigilance of young intellectuals stepping into independent life.
 
 **[SFX]:** *Faint hum of television cameras, muffled murmurs from the assembled reporters.*
 
@@ -67,6 +69,8 @@ When I saw Stephen standing before the news cameras, I genuinely assumed he was 
 Yet the second the reporter mentioned the discovery in the dumpster, the expression on Stephen’s face gave me absolute chills.
 He displayed neither the shock nor the frantic grief of an innocent friend, his face went utterly blank in the paralyzing dread of someone caught red-handed.
 He went completely mute and sank down onto the curb, as though a monstrous secret had just been ripped into the blinding light of day.
+Just days before she vanished, Lauren had shared with us an ambiguous feeling of dread inside her own apartment.
+We tormented ourselves with guilt, wondering why we failed to trust our friend's intuition, leaving Lauren to face that invisible threat entirely alone.
 
 **[SFX]:** *Choked, labored breathing caught distinctly on the microphone.*
 
@@ -88,6 +92,7 @@ The perpetrator assumed all forensic traces were gone, and the unexpected discov
 Imagine an investigator’s perspective examining every micro-expression and trembling breath captured on that high-definition tape.
 He never once asked whether there was any chance Lauren was alive, he immediately looked for a curb to collapse onto, seeking to hide his trembling limbs.
 We made the decision to place McDaniel into an interrogation suite that very evening to dismantle the false mask of this eccentric law graduate.
+The moment the suspect collapsed onto the curb was the first visible breakdown of a narcissistic delusion when his supposedly perfect plan was shattered by reality.
 
 **HOST** *(closing Act 1, transitioning into the interrogation suite)*:
 The door of the Macon Police Department interrogation room closed shut, initiating a psychological battle of nerves spanning more than twelve grueling hours.
@@ -108,6 +113,8 @@ Across recorded segments spanning several hours, Stephen McDaniel sat facing det
 He maintained an absolute, unyielding posture, resembling a stone statue placed in the middle of a sparse room.
 He did not blink with natural biological regularity, never shifted his seated posture, and steadfastly refused even a paper cup of water.
 The ambient silence grew so suffocating that it unsettled anyone observing through the two-way mirror and surveillance feeds.
+McDaniel’s absolute immobility inside the interrogation room was not mere stubbornness, but the manifestation of a nervous system strained to its extreme limit to maintain control.
+He chose to freeze his entire body in a desperate bid to prevent any micro-expression from betraying his guilty mind.
 
 **[SFX]:** *Monotonous whir of an overhead ventilation fan, heavy breathing in the closed room.*
 
@@ -131,6 +138,8 @@ An innocent person displays indignation, restless frustration, or a drive to exp
 While he sat frozen in that interview chair, our parallel search team executed an emergency warrant on his apartment directly across the hall.
 Every drawer, every crawlspace beneath his bed, and his personal belongings were systematically scrutinized under forensic lighting.
 And the dark exhibits concealed inside McDaniel’s residence began emerging one by one into the light of truth.
+The master key found inside McDaniel’s room exposed severe negligence by property management in carelessly storing maintenance keys.
+That systemic security loophole inadvertently handed the stalker a deadly privilege: unhindered access to the victim’s private sanctuary without forced entry.
 
 **[SFX]:** *Drawer slides open, rustle of plastic evidence bags.*
 
@@ -160,6 +169,8 @@ He had been silently tracking the victim’s daily routines long before he decid
 His addiction to predatory control forced him to raise his behavioral dosage, progressing from distant surveillance to territorial violation.
 Criminal behavioral profilers initiated an in-depth psychiatric dissection to expose the architecture of a predatory stalker.
 A distorted internal universe dominated by obsessive entitlement gradually took shape through every digital breadcrumb.
+Hundreds of files recovered from McDaniel’s computer revealed a months-long process of progressive self-hypnosis and escalating obsession.
+The predator continuously escalated his stimulation threshold, turning the violation of another's privacy into a pathological addiction to control.
 
 **[BGM]:** *Electronic drone subsides, transitioning into a measured, analytical Minimalist Piano melody.*
 
@@ -186,6 +197,8 @@ A profound deficit in affective empathy rendered him completely indifferent to t
 Peeping into her life and secretly chronicling her movements generated a pathological delusion of absolute psychological ownership.
 He regarded her as a fitting trophy for his perceived intellectual superiority, a prized possession over which he held exclusive entitlement.
 Consequently, any development threatening to sever that perceived dominion was experienced as an intolerable narcissistic injury.
+From a forensic psychiatric perspective, Stephen McDaniel exhibited a profound deficit in Theory of Mind.
+He possessed no capacity for emotional empathy to see others as sovereign individuals, viewing surrounding people merely as instruments to gratify his narcissistic ego.
 
 **HOST** *(probing, detailing the critical tipping point)*:
 The arrogant grandiosity of a man convinced of his intellectual supremacy inexorably drove him toward a fatal psychological fracture.
@@ -203,6 +216,8 @@ This psychological breaking point collapsed the final behavioral inhibitions rem
 Months of silent voyeuristic obsession instantly transformed into a premeditated operational decision to breach her home and extinguish her life.
 He weaponized the stolen passkey as the instrument to consummate his fantasy of omnipotent dominance.
 This was never an impulsive crime of passion, but an execution prepared with clinical premeditation by a pathological mind.
+Seeing Lauren's packed moving boxes confronted McDaniel's narcissistic brain with an agonizing trauma known as Acute Narcissistic Injury.
+The terror of losing his delusional omnipotence drove him to a pathological conclusion: better to destroy the target than allow her to escape his control.
 
 **HOST** *(shifting focus to the physiological freeze response)*:
 An overweening faith in his own intellect was the central pillar underpinning Stephen McDaniel’s criminal conduct.
@@ -218,6 +233,8 @@ The primitive survival mechanism known as the freeze response seized control, lo
 Inside the interrogation suite, his hours of statue-like immobility represented an artificial defense strategy simulating tonic immobility to suppress micro-expressions.
 He naively calculated that by suppressing all physical motion, interrogators would be unable to decode his internal deception.
 Yet in forensic psychiatry, that strained, unnatural petrification was the most transparent testament to the total collapse of his criminal ego.
+McDaniel’s stone-like immobility in the interrogation room was a conscious simulation of the biological reflex known as Tonic Immobility.
+In nature, when an organism realizes fight or flight is impossible, it feigns death as an ultimate biological effort to neutralize the opponent's focus.
 
 **HOST** *(closing Act 3, transitioning toward the judicial resolution)*:
 The psychological fortress McDaniel constructed for himself ultimately became an inescapable trap validating his guilt.
@@ -241,6 +258,8 @@ A ragged, overgrown beard and an utterly vacant stare had replaced the animated 
 He was no longer the eccentric peer holding court before journalistic microphones.
 Faced with an insurmountable mountain of digital footprints, microscopic tool-mark matches, and biological evidence, McDaniel recognized that capital punishment was imminent.
 To purchase his own survival, the killer was compelled to sign a formal negotiated plea agreement admitting to malice murder.
+Three years of confinement within concrete walls stripped away every shred of the former law student's arrogant pretense.
+The delusion of an intellectual mastermind capable of outsmarting justice collapsed completely before the unassailable mountain of forensic evidence.
 
 **[SFX]:** *Pages of the negotiated plea agreement turn, crisp scratch of a pen signing the document.*
 
@@ -261,6 +280,8 @@ The recovered building passkey and the stalking videos retrieved from his hardwa
 Confronted by an unbroken, scientifically validated evidentiary matrix, every legal obfuscation raised by the defense collapsed into irrelevance.
 The unyielding perseverance of law enforcement forced a self-styled scholar of procedural loopholes to bow before the undeniable truth.
 It was an enduring victory of justice and collective conscience over the cold cunning of a covert predator.
+The plea agreement McDaniel signed at the final hour was never an awakening of conscience or genuine repentance.
+It was purely cowardly survival calculus from someone who understood a public jury trial would lead directly to death row.
 
 **[SFX]:** *Three measured gavel strikes echo, podium microphone adjusts with a low hum.*
 
@@ -288,6 +309,7 @@ Under the terms of the negotiated plea, additional counts were dismissed to spar
 He sentenced Stephen McDaniel to life in prison with the statutory requirement that he serve a mandatory minimum of thirty years before attaining parole eligibility.
 This mandate ensures the killer cannot even apply for consideration before the year 2041, when he reaches fifty-five years of age.
 McDaniel was remanded immediately into the Georgia Department of Corrections system to serve his decades in profound isolation.
+Following the case, those who had been careless with building security suffered enduring moral injury upon realizing their negligence paved the path for evil.
 
 **PSYCHOLOGIST** *(C: Dissecting Narcissistic Collapse and Pathological Self-Pity)*:
 Throughout the pronouncement of judgment, McDaniel displayed not an ounce of genuine contrition or remorse for the life he extinguished.
@@ -295,6 +317,8 @@ His vacant stare reflected pathological self-pity, the agony of realizing that h
 This is the textbook manifestation of narcissistic collapse: when absolute control is stripped away, the narcissist experiences only pathetic self-grief.
 A sentence of life imprisonment affirms that no intellect, credential, or legal training can ever license the destruction of another human being.
 The predator who fancied himself a criminal genius received the unyielding verdict dictated by human decency and the rule of law.
+Criminal psychology draws a sharp boundary between Authentic Remorse and Pathological Self-Pity.
+McDaniel’s rare tears were shed solely for his shattered narcissistic ego, completely devoid of affective empathy for another human life.
 
 **HOST** *(closing Act 4, paving the way for survival lessons)*:
 The heavy steel doors of the penitentiary closed permanently behind Stephen McDaniel, concluding the judicial chapter of a case that shook the nation.
@@ -314,12 +338,15 @@ Her family, faculty, and peers cherish the enduring memory of her scholarly pass
 This heartbreaking tragedy served as a profound catalyst for sweeping security reforms across student housing communities nationwide.
 Protocols regulating building passkey custody, background vetting for maintenance personnel, and electronic surveillance networks were overhauled comprehensively.
 Lauren’s legacy transformed into an enduring shield safeguarding future generations of young scholars embarking upon independent living.
+The shock felt by the Mercer student community swiftly transformed into a powerful institutional reform movement across the United States.
+Student safety was no longer entrusted to loose assumptions, but safeguarded by transparent, rigorous governance standards.
 
 **INVESTIGATOR** *(D: Law enforcement guidance on vigilance)*:
 From a criminal investigative vantage point, the McDaniel case serves as a chilling reminder that mortal threats sometimes reside directly across our doorstep.
 Assuming that a classmate, colleague, or educated neighbor is fundamentally safe can lull our vigilance precisely when warning signs appear.
 Violent crime carries no single face, and socially awkward eccentricity can sometimes serve as an armor concealing predatory entitlement.
 Law enforcement strongly urges citizens, particularly young adults living alone, to actively inspect their home security hardware and report suspicious tracking immediately.
+The costliest lesson is that structural physical security loopholes must never be trivialized, for a neglected key can become an inadvertent accomplice to crime.
 
 **PSYCHOLOGIST** *(C: Victimology, personal boundaries, and the Gift of Fear)*:
 Forensic behavioral research demonstrates that the overwhelming majority of predatory stalkings initiate with incremental, micro-boundary intrusions in daily routine.
@@ -327,6 +354,8 @@ When a target dismisses early warning signs out of social politeness or discomfo
 As behavioral authority Gavin de Becker famously documented in The Gift of Fear, survival intuition is nature’s most sophisticated early warning radar.
 Heeding ambiguous internal discomfort and fearlessly establishing impermeable physical boundaries is an indispensable life skill in modern society.
 Vigilant awareness combined with timely communal support forms our most formidable bulwark against predatory actors operating in the shadows.
+The greatest survival truth is that intuitive fear is not paranoia, but an evolutionary signal warning of imminent danger.
+Courageously trust that intuition and decisively establish defensive boundaries rather than compromising safety for the sake of social politeness.
 
 **HOST** *(presenting the four classic red flags and concluding the broadcast)*:
 To empower our audience, particularly students and young adults living independently, to detect and neutralize predatory stalking at its inception, Amber Eyes shares four classic red flags distilled from the Stephen McDaniel dossier.

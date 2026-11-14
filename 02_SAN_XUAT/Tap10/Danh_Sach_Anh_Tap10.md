@@ -15,7 +15,7 @@
 | Sổ nguồn gốc tài sản | `provenance.json` (tự động cộng dồn và cập nhật) |
 | Phong cách nghệ thuật | Dark graphic novel noir — nét mực đen đậm, chiaroscuro đối lập cao, bảng màu hổ phách/slate/lạnh, hạt phim cổ điển |
 | Ràng buộc trong prompt | Không chữ · không số · không biển hiệu · không logo · không khung · ảnh tràn viền 16:9 |
-| Công cụ thực thi | Tự tạo trực tiếp trong pipeline (Amber Eyes Noir Graphic Renderer — 100% tự chủ) |
+| Công cụ thực thi | **Kaggle GPU FLUX.2-klein-4B** (Black Forest Labs) — chuẩn `QUY_TAC_TAO_ANH_KAGGLE_FLUX.md` v1.0 (cập nhật 14/11/2026, loại bỏ 100% ảnh procedural cũ) |
 
 **Quy tắc hình ảnh của kênh (V1 – V9):**
 

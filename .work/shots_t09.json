@@ -1,11 +1,11 @@
 {
- "total": 1523.19,
+ "total": 1667.79,
  "shots": [
   {
    "id": "1-01",
    "act": 1,
-   "start": 22.8,
-   "end": 30.25,
+   "start": 22.36,
+   "end": 28.94,
    "role": "H",
    "sentences": [
     "1.02#1"
@@ -44,8 +44,8 @@
   {
    "id": "1-02",
    "act": 1,
-   "start": 30.25,
-   "end": 37.14,
+   "start": 28.94,
+   "end": 37.26,
    "role": "H",
    "sentences": [
     "1.02#2"
@@ -84,8 +84,8 @@
   {
    "id": "1-03",
    "act": 1,
-   "start": 37.14,
-   "end": 43.47,
+   "start": 37.26,
+   "end": 43.42,
    "role": "H",
    "sentences": [
     "1.02#3"
@@ -124,8 +124,8 @@
   {
    "id": "1-04",
    "act": 1,
-   "start": 43.47,
-   "end": 52.32,
+   "start": 43.42,
+   "end": 52.86,
    "role": "H",
    "sentences": [
     "1.02#4"
@@ -164,15 +164,15 @@
   {
    "id": "1-05",
    "act": 1,
-   "start": 52.32,
-   "end": 60.91,
+   "start": 52.86,
+   "end": 58.78,
    "role": "H",
    "sentences": [
     "1.02#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t9_withered_flower_on_asphalt",
+   "bg": "t9_runaway_teenager_bus_stop",
    "bg2": null,
    "inset": null,
    "camera": "pan",
@@ -182,7 +182,7 @@
      "elems": [
       [
        "ital",
-       "Nhưng họ không thể ngờ rằng, kỷ nguyên của sự ngây thơ ấy sắp sửa khép lại vĩnh viễn trong một cơn ác mộng kinh hoàng."
+       "Người ta trao gửi niềm tin trọn vẹn cho những người xa lạ một cách tự nhiên và ngây thơ."
       ]
      ]
     }
@@ -204,8 +204,128 @@
   {
    "id": "1-06",
    "act": 1,
-   "start": 60.91,
-   "end": 67.16,
+   "start": 58.78,
+   "end": 67.74,
+   "role": "H",
+   "sentences": [
+    "1.02#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t9_newspaper_headline_helter_skelter",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Các phương tiện truyền thông liên tục ca ngợi tinh thần tự do phóng khoáng, vô tình tạo nên một điểm mù ngây thơ tập thể che mắt toàn xã hội."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-07",
+   "act": 1,
+   "start": 67.74,
+   "end": 75.36,
+   "role": "H",
+   "sentences": [
+    "1.02#7"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t9_apocalyptic_desert_hideout",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Chính sự mất cảnh giác ấy đã tạo ra một kẽ hở khổng lồ cho những kẻ săn mồi tâm lý ngụy trang trục lợi."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-08",
+   "act": 1,
+   "start": 75.36,
+   "end": 83.12,
+   "role": "H",
+   "sentences": [
+    "1.02#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t9_withered_flower_on_asphalt",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Họ không thể ngờ rằng, kỷ nguyên của sự ngây thơ ấy sắp sửa khép lại vĩnh viễn trong một cơn ác mộng kinh hoàng."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-09",
+   "act": 1,
+   "start": 83.12,
+   "end": 89.42,
    "role": "H",
    "sentences": [
     "1.04#1"
@@ -215,7 +335,7 @@
    "bg": "t9_confiscated_clocks_broken_mirror",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -242,10 +362,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-07",
+   "id": "1-10",
    "act": 1,
-   "start": 67.16,
-   "end": 80.45,
+   "start": 89.42,
+   "end": 102.32,
    "role": "H",
    "sentences": [
     "1.04#2"
@@ -255,7 +375,7 @@
    "bg": "t9_cielo_drive_estate_night",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -282,10 +402,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-08",
+   "id": "1-11",
    "act": 1,
-   "start": 80.45,
-   "end": 85.82,
+   "start": 102.32,
+   "end": 108.02,
    "role": "H",
    "sentences": [
     "1.04#3"
@@ -295,7 +415,7 @@
    "bg": "t9_beverly_hills_gate_road",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -322,10 +442,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-09",
+   "id": "1-12",
    "act": 1,
-   "start": 85.82,
-   "end": 95.59,
+   "start": 108.02,
+   "end": 117.92,
    "role": "H",
    "sentences": [
     "1.04#4"
@@ -335,7 +455,7 @@
    "bg": "t9_cielo_drive_living_room_somber",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -362,10 +482,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-10",
+   "id": "1-13",
    "act": 1,
-   "start": 95.59,
-   "end": 108.21,
+   "start": 117.92,
+   "end": 130.62,
    "role": "H",
    "sentences": [
     "1.04#5",
@@ -376,7 +496,7 @@
    "bg": "t9_broken_porcelain_doll_desert",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -392,7 +512,7 @@
      "elems": [
       [
        "ital",
-       "Trong số các nạn nhân có nữ diễn viên xinh đẹp Sharon Tate, người vợ đang mang thai gần chín tháng của vị đạo diễn."
+       "Trong số các nạn nhân có nữ diễn viên tài hoa Sharon Tate, người vợ đang mang thai gần chín tháng của vị đạo diễn."
       ]
      ]
     }
@@ -412,10 +532,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-11",
+   "id": "1-14",
    "act": 1,
-   "start": 108.21,
-   "end": 113.05,
+   "start": 130.62,
+   "end": 135.14,
    "role": "H",
    "sentences": [
     "1.04#7"
@@ -425,7 +545,7 @@
    "bg": "t9_redflag2_severed_family_photos",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -452,10 +572,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-12",
+   "id": "1-15",
    "act": 1,
-   "start": 113.05,
-   "end": 124.66,
+   "start": 135.14,
+   "end": 146.9,
    "role": "H",
    "sentences": [
     "1.06#1"
@@ -465,7 +585,7 @@
    "bg": "t9_waverly_drive_residence_night",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -492,10 +612,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-13",
+   "id": "1-16",
    "act": 1,
-   "start": 124.66,
-   "end": 132.59,
+   "start": 146.9,
+   "end": 155.18,
    "role": "H",
    "sentences": [
     "1.06#2"
@@ -505,7 +625,7 @@
    "bg": "t9_shadow_devil_dialogue_noir",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -532,10 +652,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-14",
+   "id": "1-17",
    "act": 1,
-   "start": 132.59,
-   "end": 142.6,
+   "start": 155.18,
+   "end": 164.2,
    "role": "H",
    "sentences": [
     "1.06#3"
@@ -545,7 +665,7 @@
    "bg": "t9_newspaper_headline_helter_skelter",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -572,10 +692,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-15",
+   "id": "1-18",
    "act": 1,
-   "start": 142.6,
-   "end": 148.57,
+   "start": 164.2,
+   "end": 171.18,
    "role": "H",
    "sentences": [
     "1.06#4"
@@ -585,7 +705,7 @@
    "bg": "t9_los_angeles_skyline_1969",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -612,10 +732,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-16",
+   "id": "1-19",
    "act": 1,
-   "start": 148.57,
-   "end": 155.33,
+   "start": 171.18,
+   "end": 178.08,
    "role": "H",
    "sentences": [
     "1.06#5"
@@ -625,7 +745,7 @@
    "bg": "t9_retro_radio_broadcast_table",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -654,10 +774,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-17",
+   "id": "1-20",
    "act": 1,
-   "start": 155.33,
-   "end": 165.98,
+   "start": 178.08,
+   "end": 188.5,
    "role": "N1",
    "sentences": [
     "1.07#1"
@@ -667,7 +787,7 @@
    "bg": "t9_retro_radio_broadcast_table",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -694,10 +814,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-18",
+   "id": "1-21",
    "act": 1,
-   "start": 165.98,
-   "end": 170.35,
+   "start": 188.5,
+   "end": 192.78,
    "role": "N1",
    "sentences": [
     "1.07#2"
@@ -707,7 +827,7 @@
    "bg": "t9_waverly_drive_residence_night",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -734,10 +854,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-19",
+   "id": "1-22",
    "act": 1,
-   "start": 170.35,
-   "end": 179.2,
+   "start": 192.78,
+   "end": 201.72,
    "role": "N1",
    "sentences": [
     "1.07#3"
@@ -747,7 +867,7 @@
    "bg": "t9_gun_shop_empty_shelves",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -774,10 +894,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-20",
+   "id": "1-23",
    "act": 1,
-   "start": 179.2,
-   "end": 187.17,
+   "start": 201.72,
+   "end": 209.58,
    "role": "N1",
    "sentences": [
     "1.07#4"
@@ -787,7 +907,7 @@
    "bg": "t9_intact_valuables_diorama",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -814,10 +934,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-21",
+   "id": "1-24",
    "act": 1,
-   "start": 187.17,
-   "end": 190.94,
+   "start": 209.58,
+   "end": 213.4,
    "role": "N1",
    "sentences": [
     "1.07#5"
@@ -827,7 +947,7 @@
    "bg": "t9_intact_valuables_diorama",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -854,10 +974,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-22",
+   "id": "1-25",
    "act": 1,
-   "start": 190.94,
-   "end": 200.63,
+   "start": 213.4,
+   "end": 222.86,
    "role": "N1",
    "sentences": [
     "1.07#6",
@@ -868,7 +988,7 @@
    "bg": "t9_vacant_eyes_doll_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -906,10 +1026,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-23",
+   "id": "1-26",
    "act": 1,
-   "start": 200.63,
-   "end": 209.85,
+   "start": 222.86,
+   "end": 232.3,
    "role": "H",
    "sentences": [
     "1.09#1",
@@ -920,7 +1040,7 @@
    "bg": "t9_lapd_investigation_room",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -956,10 +1076,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-24",
+   "id": "1-27",
    "act": 1,
-   "start": 209.85,
-   "end": 222.0,
+   "start": 232.3,
+   "end": 244.28,
    "role": "H",
    "sentences": [
     "1.09#3"
@@ -969,20 +1089,31 @@
    "bg": "t9_bloody_letters_forensic_wall",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Nhưng trên tường và các cánh cửa, hung thủ đã để lại những dòng chữ nguệch ngoạc: “PIG”, “RISE”, và một cụm từ viết sai chính tả: “HEALTER SKELTER”."
+       "Nhưng trên tường và các cánh cửa, hung thủ đã để lại những dòng chữ nguệch ngoạc: “PIG”"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "“RISE”, và một cụm từ viết sai chính tả: “HEALTER SKELTER”."
       ]
      ]
     }
    ],
-   "beats": [],
-   "beat_text": "—",
+   "beats": [
+    "“RISE”, và một cụm từ"
+   ],
+   "beat_text": "ở \"“RISE”, và một cụm từ\"",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -996,10 +1127,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-25",
+   "id": "1-28",
    "act": 1,
-   "start": 222.0,
-   "end": 229.96,
+   "start": 244.28,
+   "end": 252.4,
    "role": "H",
    "sentences": [
     "1.09#4"
@@ -1009,7 +1140,7 @@
    "bg": "t9_invisible_puppet_master_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -1038,10 +1169,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-26",
+   "id": "1-29",
    "act": 1,
-   "start": 229.96,
-   "end": 237.09,
+   "start": 252.4,
+   "end": 259.56,
    "role": "D",
    "sentences": [
     "1.10#1"
@@ -1051,7 +1182,7 @@
    "bg": "t9_lapd_investigation_room",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -1078,10 +1209,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-27",
+   "id": "1-30",
    "act": 1,
-   "start": 237.09,
-   "end": 244.66,
+   "start": 259.56,
+   "end": 266.98,
    "role": "D",
    "sentences": [
     "1.10#2"
@@ -1091,7 +1222,7 @@
    "bg": "t9_beverly_hills_gate_road",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -1118,10 +1249,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-28",
+   "id": "1-31",
    "act": 1,
-   "start": 244.66,
-   "end": 249.95,
+   "start": 266.98,
+   "end": 271.46,
    "role": "D",
    "sentences": [
     "1.10#3"
@@ -1131,7 +1262,7 @@
    "bg": "t9_los_angeles_county_crime_map",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -1158,10 +1289,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-29",
+   "id": "1-32",
    "act": 1,
-   "start": 249.95,
-   "end": 254.44,
+   "start": 271.46,
+   "end": 276.88,
    "role": "D",
    "sentences": [
     "1.10#4"
@@ -1171,7 +1302,7 @@
    "bg": "t9_bloody_letters_forensic_wall",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -1198,10 +1329,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-30",
+   "id": "1-33",
    "act": 1,
-   "start": 254.44,
-   "end": 260.07,
+   "start": 276.88,
+   "end": 282.3,
    "role": "D",
    "sentences": [
     "1.10#5"
@@ -1211,7 +1342,7 @@
    "bg": "t9_dark_triad_psychological_symbol",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -1238,10 +1369,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-31",
+   "id": "1-34",
    "act": 1,
-   "start": 260.07,
-   "end": 264.56,
+   "start": 282.3,
+   "end": 287.08,
    "role": "D",
    "sentences": [
     "1.10#6"
@@ -1251,7 +1382,7 @@
    "bg": "t9_invisible_puppet_master_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -1278,10 +1409,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-32",
+   "id": "1-35",
    "act": 1,
-   "start": 264.56,
-   "end": 268.97,
+   "start": 287.08,
+   "end": 291.08,
    "role": "D",
    "sentences": [
     "1.10#7"
@@ -1291,7 +1422,7 @@
    "bg": "t9_intact_valuables_diorama",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -1318,10 +1449,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-33",
+   "id": "1-36",
    "act": 1,
-   "start": 268.97,
-   "end": 272.85,
+   "start": 291.08,
+   "end": 294.02,
    "role": "D",
    "sentences": [
     "1.10#8"
@@ -1331,7 +1462,7 @@
    "bg": "t9_shadow_devil_dialogue_noir",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -1360,33 +1491,63 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-34",
+   "id": "1-37",
    "act": 1,
-   "start": 272.85,
-   "end": 288.47,
+   "start": 294.02,
+   "end": 298.7,
    "role": "H",
    "sentences": [
-    "1.12#1",
-    "1.12#2"
+    "1.12#1"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t9_summer_of_love_hippie_la",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Chào mừng quý vị đến với kênh Amber Eyes."
+       "Chào mừng quý vị đến với kênh Amber eyes."
       ]
      ]
-    },
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "1-38",
+   "act": 1,
+   "start": 298.7,
+   "end": 311.36,
+   "role": "H",
+   "sentences": [
+    "1.12#2"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t9_amber_eyes_closing_dossier",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
     {
-     "at_sentence": 2,
+     "at_sentence": null,
      "elems": [
       [
        "ital",
@@ -1410,10 +1571,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-35",
+   "id": "1-39",
    "act": 1,
-   "start": 288.47,
-   "end": 300.37,
+   "start": 311.36,
+   "end": 323.26,
    "role": "H",
    "sentences": [
     "1.12#3"
@@ -1450,10 +1611,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-36",
+   "id": "1-40",
    "act": 1,
-   "start": 300.37,
-   "end": 308.87,
+   "start": 323.26,
+   "end": 331.46,
    "role": "H",
    "sentences": [
     "1.12#4"
@@ -1490,10 +1651,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "1-37",
+   "id": "1-41",
    "act": 1,
-   "start": 308.87,
-   "end": 310.87,
+   "start": 331.46,
+   "end": 333.48,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -1534,8 +1695,8 @@
   {
    "id": "2-01",
    "act": 2,
-   "start": 310.87,
-   "end": 320.44,
+   "start": 333.48,
+   "end": 343.52,
    "role": "H",
    "sentences": [
     "2.02#1"
@@ -1574,8 +1735,8 @@
   {
    "id": "2-02",
    "act": 2,
-   "start": 320.44,
-   "end": 324.61,
+   "start": 343.52,
+   "end": 347.58,
    "role": "H",
    "sentences": [
     "2.02#2"
@@ -1614,8 +1775,8 @@
   {
    "id": "2-03",
    "act": 2,
-   "start": 324.61,
-   "end": 329.7,
+   "start": 347.58,
+   "end": 352.36,
    "role": "H",
    "sentences": [
     "2.02#3"
@@ -1654,8 +1815,8 @@
   {
    "id": "2-04",
    "act": 2,
-   "start": 329.7,
-   "end": 336.71,
+   "start": 352.36,
+   "end": 359.68,
    "role": "H",
    "sentences": [
     "2.02#4"
@@ -1694,8 +1855,8 @@
   {
    "id": "2-05",
    "act": 2,
-   "start": 336.71,
-   "end": 347.51,
+   "start": 359.68,
+   "end": 370.32,
    "role": "H",
    "sentences": [
     "2.02#5"
@@ -1736,8 +1897,8 @@
   {
    "id": "2-06",
    "act": 2,
-   "start": 347.51,
-   "end": 351.28,
+   "start": 370.32,
+   "end": 374.28,
    "role": "D",
    "sentences": [
     "2.04#1"
@@ -1776,8 +1937,8 @@
   {
    "id": "2-07",
    "act": 2,
-   "start": 351.28,
-   "end": 357.15,
+   "start": 374.28,
+   "end": 379.84,
    "role": "D",
    "sentences": [
     "2.04#2"
@@ -1816,8 +1977,8 @@
   {
    "id": "2-08",
    "act": 2,
-   "start": 357.15,
-   "end": 363.28,
+   "start": 379.84,
+   "end": 386.2,
    "role": "D",
    "sentences": [
     "2.04#3"
@@ -1856,8 +2017,8 @@
   {
    "id": "2-09",
    "act": 2,
-   "start": 363.28,
-   "end": 368.81,
+   "start": 386.2,
+   "end": 391.62,
    "role": "D",
    "sentences": [
     "2.04#4"
@@ -1896,8 +2057,8 @@
   {
    "id": "2-10",
    "act": 2,
-   "start": 368.81,
-   "end": 376.22,
+   "start": 391.62,
+   "end": 399.16,
    "role": "D",
    "sentences": [
     "2.04#5"
@@ -1936,8 +2097,8 @@
   {
    "id": "2-11",
    "act": 2,
-   "start": 376.22,
-   "end": 382.42,
+   "start": 399.16,
+   "end": 405.0,
    "role": "D",
    "sentences": [
     "2.04#6"
@@ -1978,8 +2139,8 @@
   {
    "id": "2-12",
    "act": 2,
-   "start": 382.42,
-   "end": 393.95,
+   "start": 405.0,
+   "end": 416.94,
    "role": "H",
    "sentences": [
     "2.05#1"
@@ -2018,8 +2179,8 @@
   {
    "id": "2-13",
    "act": 2,
-   "start": 393.95,
-   "end": 408.16,
+   "start": 416.94,
+   "end": 431.06,
    "role": "H",
    "sentences": [
     "2.05#2"
@@ -2058,8 +2219,8 @@
   {
    "id": "2-14",
    "act": 2,
-   "start": 408.16,
-   "end": 418.61,
+   "start": 431.06,
+   "end": 441.48,
    "role": "H",
    "sentences": [
     "2.05#3"
@@ -2098,8 +2259,8 @@
   {
    "id": "2-15",
    "act": 2,
-   "start": 418.61,
-   "end": 423.42,
+   "start": 441.48,
+   "end": 446.42,
    "role": "H",
    "sentences": [
     "2.05#4"
@@ -2138,8 +2299,8 @@
   {
    "id": "2-16",
    "act": 2,
-   "start": 423.42,
-   "end": 432.8,
+   "start": 446.42,
+   "end": 455.46,
    "role": "H",
    "sentences": [
     "2.05#5"
@@ -2180,8 +2341,8 @@
   {
    "id": "2-17",
    "act": 2,
-   "start": 432.8,
-   "end": 443.53,
+   "start": 455.46,
+   "end": 464.98,
    "role": "D",
    "sentences": [
     "2.06#1"
@@ -2220,12 +2381,11 @@
   {
    "id": "2-18",
    "act": 2,
-   "start": 443.53,
-   "end": 454.07,
+   "start": 464.98,
+   "end": 470.6,
    "role": "D",
    "sentences": [
-    "2.06#2",
-    "2.06#3"
+    "2.06#2"
    ],
    "template": "T1",
    "variant": "",
@@ -2242,9 +2402,40 @@
        "Giai đoạn một: Tội phạm vị thành niên và lừa đảo."
       ]
      ]
-    },
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-19",
+   "act": 2,
+   "start": 470.6,
+   "end": 476.8,
+   "role": "D",
+   "sentences": [
+    "2.06#3"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t9_prison_cell_bars_shadow",
+   "bg2": null,
+   "inset": null,
+   "camera": "push",
+   "segments": [
     {
-     "at_sentence": 3,
+     "at_sentence": null,
      "elems": [
       [
        "ital",
@@ -2268,10 +2459,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-19",
+   "id": "2-20",
    "act": 2,
-   "start": 454.07,
-   "end": 458.62,
+   "start": 476.8,
+   "end": 481.46,
    "role": "D",
    "sentences": [
     "2.06#4"
@@ -2281,7 +2472,7 @@
    "bg": "t9_trauma_bonding_group_shadows",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -2308,10 +2499,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-20",
+   "id": "2-21",
    "act": 2,
-   "start": 458.62,
-   "end": 466.63,
+   "start": 481.46,
+   "end": 489.52,
    "role": "D",
    "sentences": [
     "2.06#5"
@@ -2321,7 +2512,7 @@
    "bg": "t9_lsd_hallucinogen_distorted_reality",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -2348,10 +2539,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-21",
+   "id": "2-22",
    "act": 2,
-   "start": 466.63,
-   "end": 470.92,
+   "start": 489.52,
+   "end": 493.7,
    "role": "D",
    "sentences": [
     "2.06#6"
@@ -2361,7 +2552,7 @@
    "bg": "t9_confiscated_clocks_broken_mirror",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -2388,10 +2579,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-22",
+   "id": "2-23",
    "act": 2,
-   "start": 470.92,
-   "end": 481.25,
+   "start": 493.7,
+   "end": 504.24,
    "role": "D",
    "sentences": [
     "2.06#7"
@@ -2401,7 +2592,7 @@
    "bg": "t9_midnight_convoy_old_ford",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -2428,20 +2619,60 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-23",
+   "id": "2-24",
    "act": 2,
-   "start": 481.25,
-   "end": 484.98,
+   "start": 504.24,
+   "end": 512.32,
    "role": "D",
    "sentences": [
     "2.06#8"
    ],
    "template": "T1",
    "variant": "",
+   "bg": "t9_dark_triad_psychological_symbol",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Mỗi lần xâm nhập ranh giới riêng tư mà không bị trừng phạt, ngưỡng dung nạp sự sai trái trong não bộ của họ lại được nới rộng thêm một nấc."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "2-25",
+   "act": 2,
+   "start": 512.32,
+   "end": 516.02,
+   "role": "D",
+   "sentences": [
+    "2.06#9"
+   ],
+   "template": "T1",
+   "variant": "",
    "bg": "t9_gun_shop_empty_shelves",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -2468,20 +2699,20 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-24",
+   "id": "2-26",
    "act": 2,
-   "start": 484.98,
-   "end": 496.51,
+   "start": 516.02,
+   "end": 528.18,
    "role": "D",
    "sentences": [
-    "2.06#9"
+    "2.06#10"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t9_midnight_convoy_old_ford",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -2508,21 +2739,21 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-25",
+   "id": "2-27",
    "act": 2,
-   "start": 496.51,
-   "end": 508.81,
+   "start": 528.18,
+   "end": 539.46,
    "role": "D",
    "sentences": [
-    "2.06#10",
-    "2.06#11"
+    "2.06#11",
+    "2.06#12"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t9_cielo_drive_road_sign_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -2534,7 +2765,7 @@
      ]
     },
     {
-     "at_sentence": 11,
+     "at_sentence": 12,
      "elems": [
       [
        "ital",
@@ -2558,27 +2789,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-26",
+   "id": "2-28",
    "act": 2,
-   "start": 508.81,
-   "end": 512.42,
+   "start": 539.46,
+   "end": 550.14,
    "role": "D",
    "sentences": [
-    "2.06#12"
+    "2.06#13"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t9_apocalyptic_desert_hideout",
+   "bg": "t9_burning_id_cards_ashes",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Sự leo thang này phản ánh quy luật tâm lý rõ rệt."
+       "Sự leo thang này phản ánh quy luật tâm lý rõ rệt: khi hành vi sai trái ban đầu không bị ngăn chặn, cảm giác đói ảo tưởng sẽ thôi thúc kẻ thủ ác mở rộng phạm vi tàn phá."
       ]
      ]
     }
@@ -2598,27 +2829,27 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-27",
+   "id": "2-29",
    "act": 2,
-   "start": 512.42,
-   "end": 520.9,
+   "start": 550.14,
+   "end": 562.64,
    "role": "D",
    "sentences": [
-    "2.06#13"
+    "2.06#14"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t9_burning_id_cards_ashes",
+   "bg": "t9_spahn_ranch_dilapidated_porch",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Khi hành vi sai trái ban đầu không bị ngăn chặn, cảm giác đói ảo tưởng sẽ thôi thúc kẻ thủ ác mở rộng phạm vi tàn phá."
+       "Nhưng ngay trong cộng đồng Spahn Ranch ngột ngạt ấy, Linda Kasabian, một người mẹ trẻ mang theo đứa con mười sáu tháng tuổi, đã bắt đầu cảm thấy sự bất an rợn người trước cỗ máy cuồng tín này."
       ]
      ]
     }
@@ -2640,10 +2871,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-28",
+   "id": "2-30",
    "act": 2,
-   "start": 520.9,
-   "end": 528.36,
+   "start": 562.64,
+   "end": 570.38,
    "role": "H",
    "sentences": [
     "2.08#1"
@@ -2653,7 +2884,7 @@
    "bg": "t9_shadow_devil_dialogue_noir",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -2680,10 +2911,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-29",
+   "id": "2-31",
    "act": 2,
-   "start": 528.36,
-   "end": 539.79,
+   "start": 570.38,
+   "end": 581.6,
    "role": "H",
    "sentences": [
     "2.08#2"
@@ -2693,7 +2924,7 @@
    "bg": "t9_recording_studio_rejected_demo",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -2720,10 +2951,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-30",
+   "id": "2-32",
    "act": 2,
-   "start": 539.79,
-   "end": 550.28,
+   "start": 581.6,
+   "end": 592.18,
    "role": "H",
    "sentences": [
     "2.08#3"
@@ -2733,7 +2964,7 @@
    "bg": "t9_recording_studio_rejected_demo",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -2760,10 +2991,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-31",
+   "id": "2-33",
    "act": 2,
-   "start": 550.28,
-   "end": 560.73,
+   "start": 592.18,
+   "end": 601.76,
    "role": "H",
    "sentences": [
     "2.08#4"
@@ -2773,7 +3004,7 @@
    "bg": "t9_broken_porcelain_doll_desert",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -2800,10 +3031,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-32",
+   "id": "2-34",
    "act": 2,
-   "start": 560.73,
-   "end": 565.87,
+   "start": 601.76,
+   "end": 607.68,
    "role": "H",
    "sentences": [
     "2.08#5"
@@ -2813,7 +3044,7 @@
    "bg": "t9_manson_shadow_campfire_desert",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -2842,10 +3073,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-33",
+   "id": "2-35",
    "act": 2,
-   "start": 565.87,
-   "end": 576.76,
+   "start": 607.68,
+   "end": 618.66,
    "role": "D",
    "sentences": [
     "2.09#1"
@@ -2855,7 +3086,7 @@
    "bg": "t9_cielo_drive_estate_night",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -2882,10 +3113,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-34",
+   "id": "2-36",
    "act": 2,
-   "start": 576.76,
-   "end": 585.77,
+   "start": 618.66,
+   "end": 627.0,
    "role": "D",
    "sentences": [
     "2.09#2"
@@ -2895,7 +3126,7 @@
    "bg": "t9_cielo_drive_road_sign_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -2922,10 +3153,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-35",
+   "id": "2-37",
    "act": 2,
-   "start": 585.77,
-   "end": 594.42,
+   "start": 627.0,
+   "end": 635.4,
    "role": "D",
    "sentences": [
     "2.09#3"
@@ -2935,7 +3166,7 @@
    "bg": "t9_kasabian_escape_night_highway",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -2962,20 +3193,21 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-36",
+   "id": "2-38",
    "act": 2,
-   "start": 594.42,
-   "end": 599.37,
+   "start": 635.4,
+   "end": 646.38,
    "role": "D",
    "sentences": [
-    "2.09#4"
+    "2.09#4",
+    "2.09#5"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t9_bloody_letters_forensic_wall",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -2985,40 +3217,9 @@
        "Chúng tôi phân định rất rõ giữa thủ đoạn và chữ ký tâm lý tại hiện trường."
       ]
      ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "2-37",
-   "act": 2,
-   "start": 599.37,
-   "end": 604.62,
-   "role": "D",
-   "sentences": [
-    "2.09#5"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t9_lapd_investigation_room",
-   "bg2": null,
-   "inset": null,
-   "camera": "pull",
-   "segments": [
+    },
     {
-     "at_sentence": null,
+     "at_sentence": 5,
      "elems": [
       [
        "ital",
@@ -3042,10 +3243,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-38",
+   "id": "2-39",
    "act": 2,
-   "start": 604.62,
-   "end": 614.54,
+   "start": 646.38,
+   "end": 656.14,
    "role": "D",
    "sentences": [
     "2.09#6"
@@ -3055,7 +3256,7 @@
    "bg": "t9_interlocking_knots_rope",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3084,10 +3285,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-39",
+   "id": "2-40",
    "act": 2,
-   "start": 614.54,
-   "end": 623.31,
+   "start": 656.14,
+   "end": 665.4,
    "role": "H",
    "sentences": [
     "2.10#1"
@@ -3097,7 +3298,7 @@
    "bg": "t9_los_angeles_county_crime_map",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -3124,10 +3325,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-40",
+   "id": "2-41",
    "act": 2,
-   "start": 623.31,
-   "end": 641.68,
+   "start": 665.4,
+   "end": 683.7,
    "role": "H",
    "sentences": [
     "2.10#2"
@@ -3137,7 +3338,7 @@
    "bg": "t9_broken_porcelain_doll_desert",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3175,10 +3376,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-41",
+   "id": "2-42",
    "act": 2,
-   "start": 641.68,
-   "end": 650.79,
+   "start": 683.7,
+   "end": 692.78,
    "role": "H",
    "sentences": [
     "2.10#3"
@@ -3188,7 +3389,7 @@
    "bg": "t9_yearbook_photos_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3215,10 +3416,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-42",
+   "id": "2-43",
    "act": 2,
-   "start": 650.79,
-   "end": 658.65,
+   "start": 692.78,
+   "end": 700.38,
    "role": "H",
    "sentences": [
     "2.10#4"
@@ -3228,7 +3429,7 @@
    "bg": "t9_withered_flower_on_asphalt",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3255,10 +3456,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "2-43",
+   "id": "2-44",
    "act": 2,
-   "start": 658.65,
-   "end": 660.65,
+   "start": 700.38,
+   "end": 702.38,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -3299,8 +3500,8 @@
   {
    "id": "3-01",
    "act": 3,
-   "start": 660.65,
-   "end": 668.82,
+   "start": 702.38,
+   "end": 710.74,
    "role": "H",
    "sentences": [
     "3.02#1"
@@ -3310,7 +3511,7 @@
    "bg": "t9_los_angeles_skyline_1969",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3339,8 +3540,8 @@
   {
    "id": "3-02",
    "act": 3,
-   "start": 668.82,
-   "end": 678.67,
+   "start": 710.74,
+   "end": 720.62,
    "role": "H",
    "sentences": [
     "3.02#2"
@@ -3350,7 +3551,7 @@
    "bg": "t9_yearbook_photos_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3379,8 +3580,8 @@
   {
    "id": "3-03",
    "act": 3,
-   "start": 678.67,
-   "end": 684.44,
+   "start": 720.62,
+   "end": 725.7,
    "role": "H",
    "sentences": [
     "3.02#3"
@@ -3390,7 +3591,7 @@
    "bg": "t9_spahn_ranch_dilapidated_porch",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3419,8 +3620,8 @@
   {
    "id": "3-04",
    "act": 3,
-   "start": 684.44,
-   "end": 695.77,
+   "start": 725.7,
+   "end": 737.66,
    "role": "H",
    "sentences": [
     "3.02#4"
@@ -3430,7 +3631,7 @@
    "bg": "t9_haight_ashbury_psychedelic_street",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -3459,8 +3660,8 @@
   {
    "id": "3-05",
    "act": 3,
-   "start": 695.77,
-   "end": 706.01,
+   "start": 737.66,
+   "end": 747.7,
    "role": "H",
    "sentences": [
     "3.02#5"
@@ -3470,7 +3671,7 @@
    "bg": "t9_shadow_devil_dialogue_noir",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3501,8 +3702,8 @@
   {
    "id": "3-06",
    "act": 3,
-   "start": 706.01,
-   "end": 716.34,
+   "start": 747.7,
+   "end": 758.38,
    "role": "C",
    "sentences": [
     "3.03#1"
@@ -3512,7 +3713,7 @@
    "bg": "t9_kurt_lewin_three_stages_diagram",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3552,8 +3753,8 @@
   {
    "id": "3-07",
    "act": 3,
-   "start": 716.34,
-   "end": 722.33,
+   "start": 758.38,
+   "end": 764.56,
    "role": "C",
    "sentences": [
     "3.03#2"
@@ -3563,7 +3764,7 @@
    "bg": "t9_kurt_lewin_three_stages_diagram",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3592,8 +3793,8 @@
   {
    "id": "3-08",
    "act": 3,
-   "start": 722.33,
-   "end": 730.91,
+   "start": 764.56,
+   "end": 772.74,
    "role": "C",
    "sentences": [
     "3.03#3",
@@ -3604,7 +3805,7 @@
    "bg": "t9_dark_triad_psychological_symbol",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -3642,8 +3843,8 @@
   {
    "id": "3-09",
    "act": 3,
-   "start": 730.91,
-   "end": 736.15,
+   "start": 772.74,
+   "end": 777.8,
    "role": "C",
    "sentences": [
     "3.03#5"
@@ -3653,7 +3854,7 @@
    "bg": "t9_kurt_lewin_three_stages_diagram",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3684,8 +3885,8 @@
   {
    "id": "3-10",
    "act": 3,
-   "start": 736.15,
-   "end": 742.32,
+   "start": 777.8,
+   "end": 784.0,
    "role": "H",
    "sentences": [
     "3.05#1"
@@ -3695,7 +3896,7 @@
    "bg": "t9_kurt_lewin_three_stages_diagram",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3724,8 +3925,8 @@
   {
    "id": "3-11",
    "act": 3,
-   "start": 742.32,
-   "end": 749.17,
+   "start": 784.0,
+   "end": 790.86,
    "role": "H",
    "sentences": [
     "3.05#2"
@@ -3735,7 +3936,7 @@
    "bg": "t9_unfreezing_love_bombing_circle",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3764,8 +3965,8 @@
   {
    "id": "3-12",
    "act": 3,
-   "start": 749.17,
-   "end": 755.14,
+   "start": 790.86,
+   "end": 797.06,
    "role": "H",
    "sentences": [
     "3.05#3"
@@ -3775,7 +3976,7 @@
    "bg": "t9_unfreezing_love_bombing_circle",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -3804,8 +4005,8 @@
   {
    "id": "3-13",
    "act": 3,
-   "start": 755.14,
-   "end": 760.94,
+   "start": 797.06,
+   "end": 802.84,
    "role": "H",
    "sentences": [
     "3.05#4"
@@ -3815,7 +4016,7 @@
    "bg": "t9_blind_devotion_extinguished_candle",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -3846,8 +4047,8 @@
   {
    "id": "3-14",
    "act": 3,
-   "start": 760.94,
-   "end": 764.99,
+   "start": 802.84,
+   "end": 806.92,
    "role": "C",
    "sentences": [
     "3.06#1"
@@ -3857,7 +4058,7 @@
    "bg": "t9_redflag2_severed_family_photos",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -3886,8 +4087,8 @@
   {
    "id": "3-15",
    "act": 3,
-   "start": 764.99,
-   "end": 772.24,
+   "start": 806.92,
+   "end": 814.98,
    "role": "C",
    "sentences": [
     "3.06#2"
@@ -3897,7 +4098,7 @@
    "bg": "t9_burning_id_cards_ashes",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -3926,18 +4127,19 @@
   {
    "id": "3-16",
    "act": 3,
-   "start": 772.24,
-   "end": 780.05,
+   "start": 814.98,
+   "end": 827.7,
    "role": "C",
    "sentences": [
-    "3.06#3"
+    "3.06#3",
+    "3.06#4"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t9_burning_id_cards_ashes",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -3947,40 +4149,9 @@
        "Hắn tước bỏ tên thật của họ và gán cho những bí danh mới như Sadie, Katie hay Lulu để xóa sạch danh tính quá khứ."
       ]
      ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-17",
-   "act": 3,
-   "start": 780.05,
-   "end": 786.0,
-   "role": "C",
-   "sentences": [
-    "3.06#4"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t9_lsd_hallucinogen_distorted_reality",
-   "bg2": null,
-   "inset": null,
-   "camera": "pan",
-   "segments": [
+    },
     {
-     "at_sentence": null,
+     "at_sentence": 4,
      "elems": [
       [
        "ital",
@@ -4004,10 +4175,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-18",
+   "id": "3-17",
    "act": 3,
-   "start": 786.0,
-   "end": 790.65,
+   "start": 827.7,
+   "end": 832.42,
    "role": "C",
    "sentences": [
     "3.06#5"
@@ -4044,10 +4215,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-19",
+   "id": "3-18",
    "act": 3,
-   "start": 790.65,
-   "end": 796.78,
+   "start": 832.42,
+   "end": 838.62,
    "role": "C",
    "sentences": [
     "3.06#6"
@@ -4084,10 +4255,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-20",
+   "id": "3-19",
    "act": 3,
-   "start": 796.78,
-   "end": 800.62,
+   "start": 838.62,
+   "end": 842.28,
    "role": "C",
    "sentences": [
     "3.06#7"
@@ -4126,10 +4297,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-21",
+   "id": "3-20",
    "act": 3,
-   "start": 800.62,
-   "end": 807.55,
+   "start": 842.28,
+   "end": 849.5,
    "role": "H",
    "sentences": [
     "3.07#1"
@@ -4166,10 +4337,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-22",
+   "id": "3-21",
    "act": 3,
-   "start": 807.55,
-   "end": 816.67,
+   "start": 849.5,
+   "end": 858.52,
    "role": "H",
    "sentences": [
     "3.07#2"
@@ -4208,10 +4379,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-23",
+   "id": "3-22",
    "act": 3,
-   "start": 816.67,
-   "end": 824.76,
+   "start": 858.52,
+   "end": 866.5,
    "role": "C",
    "sentences": [
     "3.08#1"
@@ -4248,10 +4419,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-24",
+   "id": "3-23",
    "act": 3,
-   "start": 824.76,
-   "end": 830.69,
+   "start": 866.5,
+   "end": 872.5,
    "role": "C",
    "sentences": [
     "3.08#2"
@@ -4288,10 +4459,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-25",
+   "id": "3-24",
    "act": 3,
-   "start": 830.69,
-   "end": 837.38,
+   "start": 872.5,
+   "end": 880.12,
    "role": "C",
    "sentences": [
     "3.08#3"
@@ -4308,7 +4479,47 @@
      "elems": [
       [
        "ital",
-       "Để ru ngủ lương tri của đệ tử, Manson dạy họ các kỹ thuật Trung hòa đạo đức (Techniques of Neutralization) theo lý thuyết của Sykes và Matza:"
+       "Để ru ngủ lương tri của đệ tử, Manson dạy họ các kỹ thuật Trung hòa đạo đức theo lý thuyết của Sykes và Matza:"
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-25",
+   "act": 3,
+   "start": 880.12,
+   "end": 888.68,
+   "role": "C",
+   "sentences": [
+    "3.08#4"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t9_inverted_cross_moral_confusion",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Kháng cáo lòng trung thành cao hơn: Manson thuyết giảng rằng tước đoạt sinh mệnh trong Helter Skelter không phải tội ác, mà là sự giải thoát tâm linh phục vụ tình yêu nhân loại."
       ]
      ]
     }
@@ -4330,25 +4541,25 @@
   {
    "id": "3-26",
    "act": 3,
-   "start": 837.38,
-   "end": 847.35,
+   "start": 888.68,
+   "end": 898.16,
    "role": "C",
    "sentences": [
-    "3.08#4"
+    "3.08#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t9_inverted_cross_moral_confusion",
+   "bg": "t9_shadow_devil_dialogue_noir",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Kháng cáo lòng trung thành cao hơn: Manson thuyết giảng rằng giết người trong Helter Skelter không phải tội ác, mà là một hành động giải thoát tâm linh để phục vụ tình yêu thương nhân loại."
+       "Vật hóa và phi nhân hóa nạn nhân: Nạn nhân không phải là con người, mà chỉ là những “Pigs” – biểu tượng đạo đức giả của tầng lớp thượng lưu cần bị thanh tẩy."
       ]
      ]
     }
@@ -4370,48 +4581,8 @@
   {
    "id": "3-27",
    "act": 3,
-   "start": 847.35,
-   "end": 856.04,
-   "role": "C",
-   "sentences": [
-    "3.08#5"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t9_shadow_devil_dialogue_noir",
-   "bg2": null,
-   "inset": null,
-   "camera": "still",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Vật hóa và phi nhân hóa nạn nhân: Nạn nhân không phải là con người, mà chỉ là những “Pigs” – biểu tượng đạo đức giả của tầng lớp tư bản cần bị thanh tẩy."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "3-28",
-   "act": 3,
-   "start": 856.04,
-   "end": 863.77,
+   "start": 898.16,
+   "end": 905.72,
    "role": "C",
    "sentences": [
     "3.08#6"
@@ -4448,10 +4619,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-29",
+   "id": "3-28",
    "act": 3,
-   "start": 863.77,
-   "end": 869.14,
+   "start": 905.72,
+   "end": 915.1,
    "role": "C",
    "sentences": [
     "3.08#7"
@@ -4468,7 +4639,47 @@
      "elems": [
       [
        "ital",
-       "Đối với Manson, hắn hoàn toàn khuyết tật Thuyết tâm trí (Theory of Mind) và vô cảm trước nỗi đau của đồng loại."
+       "Đồng thời, trạng thái Phân ly Nhận thức Cực độ kết hợp với Hôn mê Đạo đức đã khiến các sát thủ trẻ hoàn toàn ngắt kết nối với thực tại đau đớn."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-29",
+   "act": 3,
+   "start": 915.1,
+   "end": 923.1,
+   "role": "C",
+   "sentences": [
+    "3.08#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t9_broken_porcelain_doll_desert",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Họ không nhìn thấy những con người bằng xương bằng thịt đang van xin; bộ não bị thao túng chỉ nhìn thấy những đạo cụ sân khấu trong một vở kịch vũ trụ."
       ]
      ]
     }
@@ -4490,35 +4701,25 @@
   {
    "id": "3-30",
    "act": 3,
-   "start": 869.14,
-   "end": 877.72,
+   "start": 923.1,
+   "end": 928.7,
    "role": "C",
    "sentences": [
-    "3.08#8",
     "3.08#9"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t9_broken_porcelain_doll_desert",
+   "bg": "t9_dark_triad_psychological_symbol",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Tiếng van xin của nạn nhân không đánh thức sự trắc ẩn."
-      ]
-     ]
-    },
-    {
-     "at_sentence": 9,
-     "elems": [
-      [
-       "ital",
-       "Nó kích hoạt cơn hưng phấn quyền lực tột độ (power arousal) của một kẻ mang cấu trúc nhân cách ái kỷ ác tính."
+       "Đối với Manson, hắn khuyết tật hoàn toàn Thuyết tâm trí và vô cảm trước nỗi đau của đồng loại."
       ]
      ]
     }
@@ -4540,8 +4741,8 @@
   {
    "id": "3-31",
    "act": 3,
-   "start": 877.72,
-   "end": 886.2,
+   "start": 928.7,
+   "end": 936.38,
    "role": "C",
    "sentences": [
     "3.08#10"
@@ -4551,7 +4752,47 @@
    "bg": "t9_invisible_puppet_master_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Tiếng van xin của nạn nhân không đánh thức sự trắc ẩn mà kích hoạt cơn hưng phấn quyền lực tột độ của một kẻ mang cấu trúc ái kỷ ác tính."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "3-32",
+   "act": 3,
+   "start": 936.38,
+   "end": 944.48,
+   "role": "C",
+   "sentences": [
+    "3.08#11"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t9_trauma_bonding_group_shadows",
+   "bg2": null,
+   "inset": null,
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -4580,10 +4821,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-32",
+   "id": "3-33",
    "act": 3,
-   "start": 886.2,
-   "end": 893.61,
+   "start": 944.48,
+   "end": 951.84,
    "role": "H",
    "sentences": [
     "3.10#1"
@@ -4593,7 +4834,7 @@
    "bg": "t9_kurt_lewin_three_stages_diagram",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -4620,10 +4861,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-33",
+   "id": "3-34",
    "act": 3,
-   "start": 893.61,
-   "end": 903.23,
+   "start": 951.84,
+   "end": 961.12,
    "role": "H",
    "sentences": [
     "3.10#2"
@@ -4633,7 +4874,7 @@
    "bg": "t9_vacant_eyes_doll_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -4662,10 +4903,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-34",
+   "id": "3-35",
    "act": 3,
-   "start": 903.23,
-   "end": 908.64,
+   "start": 961.12,
+   "end": 966.68,
    "role": "C",
    "sentences": [
     "3.11#1"
@@ -4675,7 +4916,7 @@
    "bg": "t9_trauma_bonding_group_shadows",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -4702,10 +4943,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-35",
+   "id": "3-36",
    "act": 3,
-   "start": 908.64,
-   "end": 916.97,
+   "start": 966.68,
+   "end": 975.22,
    "role": "C",
    "sentences": [
     "3.11#2"
@@ -4715,7 +4956,7 @@
    "bg": "t9_interlocking_knots_rope",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -4742,10 +4983,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-36",
+   "id": "3-37",
    "act": 3,
-   "start": 916.97,
-   "end": 921.1,
+   "start": 975.22,
+   "end": 979.38,
    "role": "C",
    "sentences": [
     "3.11#3"
@@ -4755,7 +4996,7 @@
    "bg": "t9_burning_id_cards_ashes",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -4782,10 +5023,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-37",
+   "id": "3-38",
    "act": 3,
-   "start": 921.1,
-   "end": 928.43,
+   "start": 979.38,
+   "end": 986.72,
    "role": "C",
    "sentences": [
     "3.11#4"
@@ -4795,7 +5036,7 @@
    "bg": "t9_gate_of_spahn_ranch_departure",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -4822,10 +5063,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-38",
+   "id": "3-39",
    "act": 3,
-   "start": 928.43,
-   "end": 932.93,
+   "start": 986.72,
+   "end": 990.84,
    "role": "C",
    "sentences": [
     "3.11#5"
@@ -4835,7 +5076,7 @@
    "bg": "t9_manson_shadow_campfire_desert",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -4862,10 +5103,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "3-39",
+   "id": "3-40",
    "act": 3,
-   "start": 932.93,
-   "end": 934.93,
+   "start": 990.84,
+   "end": 992.84,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -4906,8 +5147,8 @@
   {
    "id": "4-01",
    "act": 4,
-   "start": 934.93,
-   "end": 944.5,
+   "start": 992.84,
+   "end": 1002.68,
    "role": "H",
    "sentences": [
     "4.02#1"
@@ -4917,7 +5158,7 @@
    "bg": "t9_death_valley_barker_ranch_raid",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -4946,8 +5187,8 @@
   {
    "id": "4-02",
    "act": 4,
-   "start": 944.5,
-   "end": 951.89,
+   "start": 1002.68,
+   "end": 1010.04,
    "role": "H",
    "sentences": [
     "4.02#2"
@@ -4957,7 +5198,7 @@
    "bg": "t9_death_valley_barker_ranch_raid",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -4986,8 +5227,8 @@
   {
    "id": "4-03",
    "act": 4,
-   "start": 951.89,
-   "end": 959.46,
+   "start": 1010.04,
+   "end": 1017.02,
    "role": "H",
    "sentences": [
     "4.02#3"
@@ -4997,7 +5238,7 @@
    "bg": "t9_kasabian_escape_night_highway",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -5026,8 +5267,8 @@
   {
    "id": "4-04",
    "act": 4,
-   "start": 959.46,
-   "end": 968.1,
+   "start": 1017.02,
+   "end": 1026.38,
    "role": "H",
    "sentences": [
     "4.02#4"
@@ -5037,7 +5278,7 @@
    "bg": "t9_lapd_investigation_room",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -5068,8 +5309,8 @@
   {
    "id": "4-05",
    "act": 4,
-   "start": 968.1,
-   "end": 972.23,
+   "start": 1026.38,
+   "end": 1030.48,
    "role": "D",
    "sentences": [
     "4.03#1"
@@ -5079,7 +5320,7 @@
    "bg": "t9_sybil_brand_jail_corridor",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -5108,8 +5349,8 @@
   {
    "id": "4-06",
    "act": 4,
-   "start": 972.23,
-   "end": 978.48,
+   "start": 1030.48,
+   "end": 1036.72,
    "role": "D",
    "sentences": [
     "4.03#2"
@@ -5119,7 +5360,7 @@
    "bg": "t9_sybil_brand_jail_corridor",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -5148,8 +5389,8 @@
   {
    "id": "4-07",
    "act": 4,
-   "start": 978.48,
-   "end": 984.51,
+   "start": 1036.72,
+   "end": 1042.5,
    "role": "D",
    "sentences": [
     "4.03#3"
@@ -5159,7 +5400,7 @@
    "bg": "t9_prison_cell_bars_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -5188,8 +5429,8 @@
   {
    "id": "4-08",
    "act": 4,
-   "start": 984.51,
-   "end": 990.0,
+   "start": 1042.5,
+   "end": 1048.18,
    "role": "D",
    "sentences": [
     "4.03#4"
@@ -5199,7 +5440,7 @@
    "bg": "t9_lapd_investigation_room",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -5228,8 +5469,8 @@
   {
    "id": "4-09",
    "act": 4,
-   "start": 990.0,
-   "end": 996.21,
+   "start": 1048.18,
+   "end": 1054.6,
    "role": "D",
    "sentences": [
     "4.03#5"
@@ -5239,7 +5480,7 @@
    "bg": "t9_bloody_letters_forensic_wall",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -5268,8 +5509,8 @@
   {
    "id": "4-10",
    "act": 4,
-   "start": 996.21,
-   "end": 1001.01,
+   "start": 1054.6,
+   "end": 1059.26,
    "role": "D",
    "sentences": [
     "4.03#6"
@@ -5279,7 +5520,7 @@
    "bg": "t9_yearbook_photos_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -5310,8 +5551,8 @@
   {
    "id": "4-11",
    "act": 4,
-   "start": 1001.01,
-   "end": 1010.06,
+   "start": 1059.26,
+   "end": 1068.3,
    "role": "H",
    "sentences": [
     "4.04#1"
@@ -5321,7 +5562,7 @@
    "bg": "t9_courtroom_gavel_bench",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -5350,8 +5591,8 @@
   {
    "id": "4-12",
    "act": 4,
-   "start": 1010.06,
-   "end": 1015.03,
+   "start": 1068.3,
+   "end": 1073.2,
    "role": "H",
    "sentences": [
     "4.04#2"
@@ -5361,7 +5602,7 @@
    "bg": "t9_linda_kasabian_witness_dossier",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -5390,8 +5631,8 @@
   {
    "id": "4-13",
    "act": 4,
-   "start": 1015.03,
-   "end": 1023.5,
+   "start": 1073.2,
+   "end": 1081.44,
    "role": "H",
    "sentences": [
     "4.04#3"
@@ -5401,7 +5642,7 @@
    "bg": "t9_cielo_drive_front_gate_fog",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -5430,8 +5671,8 @@
   {
    "id": "4-14",
    "act": 4,
-   "start": 1023.5,
-   "end": 1029.42,
+   "start": 1081.44,
+   "end": 1087.56,
    "role": "H",
    "sentences": [
     "4.04#4"
@@ -5441,7 +5682,7 @@
    "bg": "t9_kasabian_escape_night_highway",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -5472,8 +5713,8 @@
   {
    "id": "4-15",
    "act": 4,
-   "start": 1029.42,
-   "end": 1037.95,
+   "start": 1087.56,
+   "end": 1096.52,
    "role": "N2",
    "sentences": [
     "4.05#1"
@@ -5483,7 +5724,7 @@
    "bg": "t9_linda_kasabian_witness_dossier",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -5512,8 +5753,8 @@
   {
    "id": "4-16",
    "act": 4,
-   "start": 1037.95,
-   "end": 1047.04,
+   "start": 1096.52,
+   "end": 1105.44,
    "role": "N2",
    "sentences": [
     "4.05#2"
@@ -5523,7 +5764,7 @@
    "bg": "t9_vacant_eyes_doll_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -5552,8 +5793,8 @@
   {
    "id": "4-17",
    "act": 4,
-   "start": 1047.04,
-   "end": 1052.39,
+   "start": 1105.44,
+   "end": 1110.52,
    "role": "N2",
    "sentences": [
     "4.05#3"
@@ -5563,7 +5804,7 @@
    "bg": "t9_trauma_bonding_group_shadows",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -5592,8 +5833,8 @@
   {
    "id": "4-18",
    "act": 4,
-   "start": 1052.39,
-   "end": 1058.72,
+   "start": 1110.52,
+   "end": 1116.98,
    "role": "N2",
    "sentences": [
     "4.05#4"
@@ -5603,7 +5844,7 @@
    "bg": "t9_blind_devotion_extinguished_candle",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -5632,25 +5873,25 @@
   {
    "id": "4-19",
    "act": 4,
-   "start": 1058.72,
-   "end": 1063.05,
+   "start": 1116.98,
+   "end": 1127.06,
    "role": "N2",
    "sentences": [
     "4.05#5"
    ],
    "template": "T4",
    "variant": "testimony",
-   "bg": "t9_courtroom_gavel_bench",
+   "bg": "t9_cielo_drive_front_gate_fog",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Đứng ra làm chứng là quyết định khó khăn nhất cuộc đời tôi."
+       "Vào cái đêm định mệnh tại Cielo Drive, khi đứng chết lặng ngoài cổng và nghe thấy tiếng kêu cứu trong màn đêm, có một thứ gì đó bên trong tôi đã vỡ vụn."
       ]
      ]
     }
@@ -5672,25 +5913,25 @@
   {
    "id": "4-20",
    "act": 4,
-   "start": 1063.05,
-   "end": 1068.42,
+   "start": 1127.06,
+   "end": 1136.76,
    "role": "N2",
    "sentences": [
     "4.05#6"
    ],
    "template": "T4",
    "variant": "testimony",
-   "bg": "t9_scales_of_justice_broken_chains",
+   "bg": "t9_spahn_ranch_western_facade",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Nhưng tôi hiểu rằng mình phải nói lên sự thật để trả lại công lý cho các nạn nhân."
+       "Tôi không thể làm hại bất kỳ ai, bởi vì ở Spahn Ranch còn có đứa con gái nhỏ đang đợi tôi trở về."
       ]
      ]
     }
@@ -5712,31 +5953,82 @@
   {
    "id": "4-21",
    "act": 4,
-   "start": 1068.42,
-   "end": 1074.34,
+   "start": 1136.76,
+   "end": 1144.72,
    "role": "N2",
    "sentences": [
     "4.05#7"
    ],
    "template": "T4",
    "variant": "testimony",
-   "bg": "t9_open_birdcage_dawn_horizon",
+   "bg": "t9_kasabian_escape_night_highway",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Đó là cách duy nhất để tôi thoát khỏi bóng ma của kẻ từng thao túng linh hồn mình."
+       "Nỗi sợ hãi mất con và sự ghê tởm tội ác đã đánh thức tôi khỏi cơn ác mộng ma quái để ôm con trốn chạy trong đêm."
       ]
      ]
     }
    ],
    "beats": [],
    "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-22",
+   "act": 4,
+   "start": 1144.72,
+   "end": 1158.02,
+   "role": "N2",
+   "sentences": [
+    "4.05#8"
+   ],
+   "template": "T4",
+   "variant": "testimony",
+   "bg": "t9_scales_of_justice_broken_chains",
+   "bg2": null,
+   "inset": null,
+   "camera": "still",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Đứng ra làm chứng là quyết định khó khăn nhất cuộc đời tôi"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "nhưng tôi phải nói lên sự thật để trả lại công lý cho các nạn nhân và giải thoát linh hồn mình khỏi bóng ma tội lỗi."
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "nhưng tôi phải nói lên"
+   ],
+   "beat_text": "ở \"nhưng tôi phải nói lên\"",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -5752,10 +6044,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-22",
+   "id": "4-23",
    "act": 4,
-   "start": 1074.34,
-   "end": 1085.59,
+   "start": 1158.02,
+   "end": 1169.46,
    "role": "H",
    "sentences": [
     "4.07#1"
@@ -5765,7 +6057,7 @@
    "bg": "t9_los_angeles_hall_of_justice",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -5792,10 +6084,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-23",
+   "id": "4-24",
    "act": 4,
-   "start": 1085.59,
-   "end": 1093.2,
+   "start": 1169.46,
+   "end": 1177.44,
    "role": "H",
    "sentences": [
     "4.07#2"
@@ -5805,7 +6097,7 @@
    "bg": "t9_los_angeles_hall_of_justice",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -5832,10 +6124,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-24",
+   "id": "4-25",
    "act": 4,
-   "start": 1093.2,
-   "end": 1102.57,
+   "start": 1177.44,
+   "end": 1186.22,
    "role": "H",
    "sentences": [
     "4.07#3"
@@ -5845,7 +6137,7 @@
    "bg": "t9_collective_hysteria_three_shaved_heads",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -5872,10 +6164,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-25",
+   "id": "4-26",
    "act": 4,
-   "start": 1102.57,
-   "end": 1109.33,
+   "start": 1186.22,
+   "end": 1193.04,
    "role": "H",
    "sentences": [
     "4.07#4"
@@ -5885,7 +6177,7 @@
    "bg": "t9_prosecutor_desk_evidence_files",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -5914,10 +6206,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-26",
+   "id": "4-27",
    "act": 4,
-   "start": 1109.33,
-   "end": 1114.7,
+   "start": 1193.04,
+   "end": 1197.96,
    "role": "D",
    "sentences": [
     "4.08#1"
@@ -5927,7 +6219,7 @@
    "bg": "t9_prosecutor_desk_evidence_files",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -5954,20 +6246,21 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-27",
+   "id": "4-28",
    "act": 4,
-   "start": 1114.7,
-   "end": 1119.51,
+   "start": 1197.96,
+   "end": 1208.5,
    "role": "D",
    "sentences": [
-    "4.08#2"
+    "4.08#2",
+    "4.08#3"
    ],
    "template": "T1",
    "variant": "",
    "bg": "t9_cielo_drive_estate_night",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -5977,40 +6270,9 @@
        "Hắn không hề có mặt tại căn nhà của Sharon Tate vào đêm mùng 8 tháng 8."
       ]
      ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "4-28",
-   "act": 4,
-   "start": 1119.51,
-   "end": 1124.72,
-   "role": "D",
-   "sentences": [
-    "4.08#3"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t9_midnight_convoy_old_ford",
-   "bg2": null,
-   "inset": null,
-   "camera": "still",
-   "segments": [
+    },
     {
-     "at_sentence": null,
+     "at_sentence": 3,
      "elems": [
       [
        "ital",
@@ -6036,8 +6298,8 @@
   {
    "id": "4-29",
    "act": 4,
-   "start": 1124.72,
-   "end": 1132.55,
+   "start": 1208.5,
+   "end": 1216.2,
    "role": "D",
    "sentences": [
     "4.08#4"
@@ -6047,7 +6309,7 @@
    "bg": "t9_mastermind_conspiracy_law_book",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -6076,8 +6338,8 @@
   {
    "id": "4-30",
    "act": 4,
-   "start": 1132.55,
-   "end": 1141.0,
+   "start": 1216.2,
+   "end": 1222.46,
    "role": "D",
    "sentences": [
     "4.08#5"
@@ -6087,7 +6349,7 @@
    "bg": "t9_prosecutor_desk_evidence_files",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -6116,8 +6378,8 @@
   {
    "id": "4-31",
    "act": 4,
-   "start": 1141.0,
-   "end": 1145.61,
+   "start": 1222.46,
+   "end": 1229.46,
    "role": "D",
    "sentences": [
     "4.08#6"
@@ -6127,7 +6389,7 @@
    "bg": "t9_mastermind_conspiracy_law_book",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -6156,8 +6418,8 @@
   {
    "id": "4-32",
    "act": 4,
-   "start": 1145.61,
-   "end": 1155.22,
+   "start": 1229.46,
+   "end": 1239.02,
    "role": "D",
    "sentences": [
     "4.08#7"
@@ -6167,7 +6429,7 @@
    "bg": "t9_interlocking_knots_rope",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
@@ -6196,8 +6458,8 @@
   {
    "id": "4-33",
    "act": 4,
-   "start": 1155.22,
-   "end": 1161.66,
+   "start": 1239.02,
+   "end": 1245.38,
    "role": "D",
    "sentences": [
     "4.08#8"
@@ -6207,7 +6469,7 @@
    "bg": "t9_shadow_devil_dialogue_noir",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -6238,8 +6500,8 @@
   {
    "id": "4-34",
    "act": 4,
-   "start": 1161.66,
-   "end": 1168.35,
+   "start": 1245.38,
+   "end": 1253.62,
    "role": "C",
    "sentences": [
     "4.09#1"
@@ -6249,14 +6511,14 @@
    "bg": "t9_dark_triad_psychological_symbol",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Thái độ của các bị cáo tại tòa án là một biểu hiện kinh điển của cơ chế ám thị bầy đàn và sự phủ nhận cực đoan."
+       "Tại phiên tòa năm 1970, thái độ của các bị cáo là biểu hiện kinh điển của cơ chế Hoang tưởng Chia sẻ và sự phủ nhận cực đoan."
       ]
      ]
     }
@@ -6278,8 +6540,8 @@
   {
    "id": "4-35",
    "act": 4,
-   "start": 1168.35,
-   "end": 1174.0,
+   "start": 1253.62,
+   "end": 1263.98,
    "role": "C",
    "sentences": [
     "4.09#2"
@@ -6289,14 +6551,14 @@
    "bg": "t9_carved_x_symbol_forehead",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Manson tự khắc một chữ X lên trán và tuyên bố đã tự gạch tên mình ra khỏi xã hội loài người."
+       "Manson tự khắc một chữ X lên trán và tuyên bố đã gạch tên mình ra khỏi xã hội loài người; các nữ bị cáo cũng khắc chữ X tương tự, nắm tay nhau cười cợt bước vào phòng xử."
       ]
      ]
     }
@@ -6318,8 +6580,8 @@
   {
    "id": "4-36",
    "act": 4,
-   "start": 1174.0,
-   "end": 1181.27,
+   "start": 1263.98,
+   "end": 1271.82,
    "role": "C",
    "sentences": [
     "4.09#3"
@@ -6329,14 +6591,14 @@
    "bg": "t9_collective_hysteria_three_shaved_heads",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "pan",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Ngay hôm sau, các nữ bị cáo cũng khắc chữ X tương tự và nắm tay nhau cười đùa khi bước vào phòng xử án."
+       "Nụ cười ấy là chiếc khiên tâm lý tuyệt vọng để trốn tránh việc phải nhìn thẳng vào sự thật rằng mình đã trở thành những kẻ sát nhân man rợ."
       ]
      ]
     }
@@ -6358,25 +6620,25 @@
   {
    "id": "4-37",
    "act": 4,
-   "start": 1181.27,
-   "end": 1188.16,
+   "start": 1271.82,
+   "end": 1280.36,
    "role": "C",
    "sentences": [
     "4.09#4"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t9_shadow_devil_dialogue_noir",
+   "bg": "t9_prison_cell_bars_shadow",
    "bg2": null,
    "inset": null,
-   "camera": "push",
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Manson thậm chí còn manh động nhảy qua bàn luật sư mưu toan tấn công thẩm phán khi nhận thấy mình mất quyền kiểm soát phiên tòa."
+       "Nhưng sự chuyển biến tâm lý thực sự bắt đầu khi bản án giáng xuống và họ bị cách ly vật lý hoàn toàn khỏi Manson trong các xà lim biệt giam."
       ]
      ]
     }
@@ -6398,25 +6660,25 @@
   {
    "id": "4-38",
    "act": 4,
-   "start": 1188.16,
-   "end": 1192.69,
+   "start": 1280.36,
+   "end": 1292.58,
    "role": "C",
    "sentences": [
     "4.09#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t9_two_faced_benevolent_mask",
+   "bg": "t9_shadow_devil_dialogue_noir",
    "bg2": null,
    "inset": null,
-   "camera": "pan",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Đó là màn kịch ái kỷ kịch nghệ (Theatrical Narcissism) nhằm biến công đường thành một sân khấu cá nhân."
+       "Khi không còn ma túy và áp lực bầy đàn, lớp sương mù nhận thức tan rã, để lộ ra hiện thực trần trụi: Helter Skelter chỉ là trò lừa bịp và bàn tay họ đã tước đoạt sinh mạng của những con người vô tội."
       ]
      ]
     }
@@ -6438,25 +6700,25 @@
   {
    "id": "4-39",
    "act": 4,
-   "start": 1192.69,
-   "end": 1199.34,
+   "start": 1292.58,
+   "end": 1297.74,
    "role": "C",
    "sentences": [
     "4.09#6"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t9_vacant_eyes_doll_shadow",
+   "bg": "t9_redflag3_fortress_paranoia_wall",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
      "elems": [
       [
        "ital",
-       "Chúng không hề cảm thấy tội lỗi hay hối hận chân chính, bởi bức tường ảo tưởng vẫn đang bao bọc lấy nhận thức của họ."
+       "Hiện tượng Chấn thương Đạo đức bùng nổ, kéo theo cơn bão tự ghê tởm bản thân tột cùng."
       ]
      ]
     }
@@ -6478,8 +6740,8 @@
   {
    "id": "4-40",
    "act": 4,
-   "start": 1199.34,
-   "end": 1205.5,
+   "start": 1297.74,
+   "end": 1308.72,
    "role": "C",
    "sentences": [
     "4.09#7"
@@ -6489,6 +6751,97 @@
    "bg": "t9_scales_of_justice_broken_chains",
    "bg2": null,
    "inset": null,
+   "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Leslie Van Houten và Patricia Krenwinkel sau đó đã trải qua hàng chục năm dằn vặt lương tâm"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "không còn đổ lỗi cho Manson và chấp nhận sự trừng phạt như một phần quả báo."
+      ]
+     ]
+    }
+   ],
+   "beats": [
+    "không còn đổ lỗi cho"
+   ],
+   "beat_text": "ở \"không còn đổ lỗi cho\"",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-41",
+   "act": 4,
+   "start": 1308.72,
+   "end": 1316.44,
+   "role": "C",
+   "sentences": [
+    "4.09#8"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t9_two_faced_benevolent_mask",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Sự hối hận của họ là một sự ăn năn chân thực nhưng mang tính nhị nguyên đầy giằng xé với bản năng khao khát tự do của một sinh thể."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "4-42",
+   "act": 4,
+   "start": 1316.44,
+   "end": 1329.68,
+   "role": "C",
+   "sentences": [
+    "4.09#9"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t9_vacant_eyes_doll_shadow",
+   "bg2": null,
+   "inset": null,
    "camera": "still",
    "segments": [
     {
@@ -6496,7 +6849,7 @@
      "elems": [
       [
        "ital",
-       "Sự sụp đổ của cái tôi ái kỷ chỉ thực sự bắt đầu khi bản án nghiêm khắc nhất của pháp luật giáng xuống."
+       "Trái ngược hoàn toàn, kẻ cầm đầu Charles Manson chưa từng một lần hối hận; cấu trúc Ái kỷ Ác tính khiến hắn chỉ biết chìm đắm trong Sự Tự thương hại Bệnh lý, than thở mình là nạn nhân của xã hội cho đến tận lúc qua đời."
       ]
      ]
     }
@@ -6518,10 +6871,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-41",
+   "id": "4-43",
    "act": 4,
-   "start": 1205.5,
-   "end": 1212.59,
+   "start": 1329.68,
+   "end": 1335.46,
    "role": "H",
    "sentences": [
     "4.10#1"
@@ -6558,10 +6911,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-42",
+   "id": "4-44",
    "act": 4,
-   "start": 1212.59,
-   "end": 1224.6,
+   "start": 1335.46,
+   "end": 1348.86,
    "role": "H",
    "sentences": [
     "4.10#2"
@@ -6598,10 +6951,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-43",
+   "id": "4-45",
    "act": 4,
-   "start": 1224.6,
-   "end": 1232.98,
+   "start": 1348.86,
+   "end": 1356.82,
    "role": "H",
    "sentences": [
     "4.10#3"
@@ -6638,10 +6991,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "4-44",
+   "id": "4-46",
    "act": 4,
-   "start": 1232.98,
-   "end": 1234.98,
+   "start": 1356.82,
+   "end": 1358.82,
    "role": null,
    "sentences": [],
    "template": "T10",
@@ -6682,8 +7035,8 @@
   {
    "id": "5-01",
    "act": 5,
-   "start": 1234.98,
-   "end": 1246.75,
+   "start": 1358.82,
+   "end": 1371.0,
    "role": "H",
    "sentences": [
     "5.02#1"
@@ -6722,8 +7075,8 @@
   {
    "id": "5-02",
    "act": 5,
-   "start": 1246.75,
-   "end": 1258.96,
+   "start": 1371.0,
+   "end": 1382.82,
    "role": "H",
    "sentences": [
     "5.02#2"
@@ -6762,8 +7115,8 @@
   {
    "id": "5-03",
    "act": 5,
-   "start": 1258.96,
-   "end": 1266.61,
+   "start": 1382.82,
+   "end": 1390.76,
    "role": "H",
    "sentences": [
     "5.02#3"
@@ -6802,8 +7155,8 @@
   {
    "id": "5-04",
    "act": 5,
-   "start": 1266.61,
-   "end": 1276.38,
+   "start": 1390.76,
+   "end": 1400.6,
    "role": "H",
    "sentences": [
     "5.02#4"
@@ -6842,8 +7195,8 @@
   {
    "id": "5-05",
    "act": 5,
-   "start": 1276.38,
-   "end": 1284.58,
+   "start": 1400.6,
+   "end": 1409.14,
    "role": "H",
    "sentences": [
     "5.02#5"
@@ -6884,8 +7237,8 @@
   {
    "id": "5-06",
    "act": 5,
-   "start": 1284.58,
-   "end": 1295.19,
+   "start": 1409.14,
+   "end": 1419.4,
    "role": "D",
    "sentences": [
     "5.04#1"
@@ -6924,15 +7277,15 @@
   {
    "id": "5-07",
    "act": 5,
-   "start": 1295.19,
-   "end": 1300.84,
+   "start": 1419.4,
+   "end": 1427.48,
    "role": "D",
    "sentences": [
     "5.04#2"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t9_courtroom_gavel_bench",
+   "bg": "t9_california_supreme_court_columns",
    "bg2": null,
    "inset": null,
    "camera": "pull",
@@ -6942,7 +7295,7 @@
      "elems": [
       [
        "ital",
-       "Pháp luật đã khẳng định rằng quyền lực tinh thần không thể trở thành tấm khiên che chắn cho tội ác."
+       "Đồng thời, sự kiên cường của bà Doris Tate – mẹ của Sharon Tate – đã tạo nên một bước ngoặt lịch sử cho nền tư pháp nhân văn."
       ]
      ]
     }
@@ -6964,15 +7317,15 @@
   {
    "id": "5-08",
    "act": 5,
-   "start": 1300.84,
-   "end": 1307.15,
+   "start": 1427.48,
+   "end": 1439.98,
    "role": "D",
    "sentences": [
     "5.04#3"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t9_corcoran_state_prison_watchtower",
+   "bg": "t9_prosecutor_desk_evidence_files",
    "bg2": null,
    "inset": null,
    "camera": "still",
@@ -6982,7 +7335,7 @@
      "elems": [
       [
        "ital",
-       "Charles Manson đã trải qua phần đời còn lại trong các nhà tù nghiêm ngặt nhất của bang California."
+       "Bà đã thu thập hơn ba trăm năm mươi nghìn chữ ký, khởi xướng Phong trào Quyền Nạn nhân tại California dẫn tới việc thông qua Đạo luật Quyền của Nạn nhân năm 1982."
       ]
      ]
     }
@@ -7004,15 +7357,15 @@
   {
    "id": "5-09",
    "act": 5,
-   "start": 1307.15,
-   "end": 1314.64,
+   "start": 1439.98,
+   "end": 1449.0,
    "role": "D",
    "sentences": [
     "5.04#4"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t9_waverly_drive_residence_night",
+   "bg": "t9_scales_of_justice_broken_chains",
    "bg2": null,
    "inset": null,
    "camera": "push",
@@ -7022,7 +7375,7 @@
      "elems": [
       [
        "ital",
-       "Hắn qua đời vì bệnh tật vào ngày 19 tháng 11 năm 2017 ở tuổi tám mươi ba."
+       "Lần đầu tiên trong lịch sử, thân nhân người bị hại được quyền cất lên tiếng nói trực tiếp trước các phiên xét ân xá để bảo vệ phẩm giá cho người đã khuất."
       ]
      ]
     }
@@ -7044,18 +7397,58 @@
   {
    "id": "5-10",
    "act": 5,
-   "start": 1314.64,
-   "end": 1322.92,
+   "start": 1449.0,
+   "end": 1462.48,
    "role": "D",
    "sentences": [
     "5.04#5"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t9_withered_flower_on_asphalt",
+   "bg": "t9_corcoran_state_prison_watchtower",
    "bg2": null,
    "inset": null,
    "camera": "pan",
+   "segments": [
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "Còn với Charles Manson, hắn đã trải qua phần đời còn lại trong các nhà tù nghiêm ngặt nhất của bang California và qua đời vì bệnh tật vào ngày 19 tháng 11 năm 2017 ở tuổi tám mươi ba."
+      ]
+     ]
+    }
+   ],
+   "beats": [],
+   "beat_text": "—",
+   "flags": {
+    "bust": false,
+    "nobust": false,
+    "intro": false,
+    "handoff": [],
+    "dual": false,
+    "guests": false,
+    "p2": false
+   },
+   "hold": false,
+   "transition": "dissolve"
+  },
+  {
+   "id": "5-11",
+   "act": 5,
+   "start": 1462.48,
+   "end": 1470.32,
+   "role": "D",
+   "sentences": [
+    "5.04#6"
+   ],
+   "template": "T1",
+   "variant": "",
+   "bg": "t9_withered_flower_on_asphalt",
+   "bg2": null,
+   "inset": null,
+   "camera": "pull",
    "segments": [
     {
      "at_sentence": null,
@@ -7084,10 +7477,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-11",
+   "id": "5-12",
    "act": 5,
-   "start": 1322.92,
-   "end": 1331.13,
+   "start": 1470.32,
+   "end": 1477.64,
    "role": "C",
    "sentences": [
     "5.05#1"
@@ -7097,7 +7490,7 @@
    "bg": "t9_courtroom_jury_verdict_dossier",
    "bg2": null,
    "inset": null,
-   "camera": "pull",
+   "camera": "still",
    "segments": [
     {
      "at_sentence": null,
@@ -7124,10 +7517,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-12",
+   "id": "5-13",
    "act": 5,
-   "start": 1331.13,
-   "end": 1338.18,
+   "start": 1477.64,
+   "end": 1485.7,
    "role": "C",
    "sentences": [
     "5.05#2"
@@ -7137,7 +7530,7 @@
    "bg": "t9_recording_studio_rejected_demo",
    "bg2": null,
    "inset": null,
-   "camera": "still",
+   "camera": "push",
    "segments": [
     {
      "at_sentence": null,
@@ -7164,10 +7557,10 @@
    "transition": "dissolve"
   },
   {
-   "id": "5-13",
+   "id": "5-14",
    "act": 5,
-   "start": 1338.18,
-   "end": 1344.31,
+   "start": 1485.7,
+   "end": 1490.3,
    "role": "C",
    "sentences": [
     "5.05#3"
@@ -7177,46 +7570,6 @@
    "bg": "t9_two_faced_benevolent_mask",
    "bg2": null,
    "inset": null,
-   "camera": "push",
-   "segments": [
-    {
-     "at_sentence": null,
-     "elems": [
-      [
-       "ital",
-       "Đó là biểu hiện trơ trọi của Sự tự thương hại bệnh lý (Pathological Self-Pity) khi nhận ra bản ngã ái kỷ đã hoàn toàn sụp đổ."
-      ]
-     ]
-    }
-   ],
-   "beats": [],
-   "beat_text": "—",
-   "flags": {
-    "bust": false,
-    "nobust": false,
-    "intro": false,
-    "handoff": [],
-    "dual": false,
-    "guests": false,
-    "p2": false
-   },
-   "hold": false,
-   "transition": "dissolve"
-  },
-  {
-   "id": "5-14",
-   "act": 5,
-   "start": 1344.31,
-   "end": 1355.38,
-   "role": "C",
-   "sentences": [
-    "5.05#4"
-   ],
-   "template": "T1",
-   "variant": "",
-   "bg": "t9_open_birdcage_dawn_horizon",
-   "bg2": null,
-   "inset": null,
    "camera": "pan",
    "segments": [
     {
@@ -7224,7 +7577,7 @@
      "elems": [
       [
        "ital",
-       "Trong khi đó, các cựu tín đồ như Leslie Van Houten và Patricia Krenwinkel, khi bóng ma tẩy não tan biến sau nhiều thập kỷ, đã phải sống trong sự dằn vặt lương tâm tột cùng."
+       "Đó là biểu hiện trơ trọi của Sự tự thương hại bệnh lý khi nhận ra bản ngã ái kỷ đã hoàn toàn sụp đổ."
       ]
      ]
     }
@@ -7246,15 +7599,15 @@
   {
    "id": "5-15",
    "act": 5,
-   "start": 1355.38,
-   "end": 1360.03,
+   "start": 1490.3,
+   "end": 1504.36,
    "role": "C",
    "sentences": [
-    "5.05#5"
+    "5.05#4"
    ],
    "template": "T1",
    "variant": "",
-   "bg": "t9_withered_flower_on_asphalt",
+   "bg": "t9_open_birdcage_dawn_horizon",
    "bg2": null,
    "inset": null,
    "camera": "pull",
@@ -7264,13 +7617,24 @@
      "elems": [
       [
        "ital",
-       "Họ hiểu rằng mình đã trao trọn tuổi trẻ và nhân cách cho một kẻ ảo tưởng."
+       "Trong khi đó, Leslie Van Houten sau hơn năm mươi năm cải tạo và đối diện với Chấn thương Đạo đức đã được ân xá vào tháng 7 năm 2023 ở tuổi bảy mươi ba"
+      ]
+     ]
+    },
+    {
+     "at_sentence": null,
+     "elems": [
+      [
+       "ital",
+       "khép lại một bi kịch đời người đầy ám ảnh."
       ]
      ]
     }
    ],
-   "beats": [],
-   "beat_text": "—",
+   "beats": [
+    "khép lại một bi kịch"
+   ],
+   "beat_text": "ở \"khép lại một bi kịch\"",
    "flags": {
     "bust": false,
     "nobust": false,
@@ -7286,11 +7650,11 @@
   {
    "id": "5-16",
    "act": 5,
-   "start": 1360.03,
-   "end": 1369.68,
+   "start": 1504.36,
+   "end": 1514.7,
    "role": "C",
    "sentences": [
-    "5.05#6"
+    "5.05#5"
    ],
    "template": "T1",
    "variant": "",
@@ -7326,11 +7690,11 @@
   {
    "id": "5-17",
    "act": 5,
-   "start": 1369.68,
-   "end": 1374.03,
+   "start": 1514.7,
+   "end": 1518.66,
    "role": "C",
    "sentences": [
-    "5.05#7"
+    "5.05#6"
    ],
    "template": "T1",
    "variant": "",
@@ -7366,11 +7730,11 @@
   {
    "id": "5-18",
    "act": 5,
-   "start": 1374.03,
-   "end": 1379.69,
+   "start": 1518.66,
+   "end": 1524.26,
    "role": "C",
    "sentences": [
-    "5.05#8"
+    "5.05#7"
    ],
    "template": "T1",
    "variant": "",
@@ -7408,8 +7772,8 @@
   {
    "id": "5-19",
    "act": 5,
-   "start": 1379.69,
-   "end": 1394.46,
+   "start": 1524.26,
+   "end": 1538.24,
    "role": "H",
    "sentences": [
     "5.07#1"
@@ -7426,7 +7790,7 @@
      "elems": [
       [
        "ital",
-       "Để bảo vệ bản thân và những người thân yêu trước những chiếc bẫy thao túng tâm lý độc hại thời hiện đại, kênh Amber Eyes xin đúc kết bốn tín hiệu cảnh báo đỏ sinh tồn (Survival Red Flags) từ nguyên lý “The Gift of Fear”:"
+       "Để bảo vệ bản thân và những người thân yêu trước những chiếc bẫy thao túng tâm lý độc hại thời hiện đại, kênh Amber eyes xin đúc kết bốn tín hiệu cảnh báo đỏ sinh tồn từ nguyên lý “The Gift of Fear”:"
       ]
      ]
     }
@@ -7448,8 +7812,8 @@
   {
    "id": "5-20",
    "act": 5,
-   "start": 1394.46,
-   "end": 1400.87,
+   "start": 1538.24,
+   "end": 1545.5,
    "role": "H",
    "sentences": [
     "5.07#2"
@@ -7492,8 +7856,8 @@
   {
    "id": "5-21",
    "act": 5,
-   "start": 1400.87,
-   "end": 1412.8,
+   "start": 1545.5,
+   "end": 1557.38,
    "role": "H",
    "sentences": [
     "5.07#3"
@@ -7532,8 +7896,8 @@
   {
    "id": "5-22",
    "act": 5,
-   "start": 1412.8,
-   "end": 1418.81,
+   "start": 1557.38,
+   "end": 1562.66,
    "role": "H",
    "sentences": [
     "5.07#4"
@@ -7576,8 +7940,8 @@
   {
    "id": "5-23",
    "act": 5,
-   "start": 1418.81,
-   "end": 1431.1,
+   "start": 1562.66,
+   "end": 1574.28,
    "role": "H",
    "sentences": [
     "5.07#5"
@@ -7616,8 +7980,8 @@
   {
    "id": "5-24",
    "act": 5,
-   "start": 1431.1,
-   "end": 1435.91,
+   "start": 1574.28,
+   "end": 1580.36,
    "role": "H",
    "sentences": [
     "5.07#6"
@@ -7660,8 +8024,8 @@
   {
    "id": "5-25",
    "act": 5,
-   "start": 1435.91,
-   "end": 1448.52,
+   "start": 1580.36,
+   "end": 1593.0,
    "role": "H",
    "sentences": [
     "5.07#7"
@@ -7700,8 +8064,8 @@
   {
    "id": "5-26",
    "act": 5,
-   "start": 1448.52,
-   "end": 1454.37,
+   "start": 1593.0,
+   "end": 1597.94,
    "role": "H",
    "sentences": [
     "5.07#8"
@@ -7744,8 +8108,8 @@
   {
    "id": "5-27",
    "act": 5,
-   "start": 1454.37,
-   "end": 1466.42,
+   "start": 1597.94,
+   "end": 1611.04,
    "role": "H",
    "sentences": [
     "5.07#9"
@@ -7784,8 +8148,8 @@
   {
    "id": "5-28",
    "act": 5,
-   "start": 1466.42,
-   "end": 1477.78,
+   "start": 1611.04,
+   "end": 1622.0,
    "role": "H",
    "sentences": [
     "5.07#10"
@@ -7824,8 +8188,8 @@
   {
    "id": "5-29",
    "act": 5,
-   "start": 1477.78,
-   "end": 1484.95,
+   "start": 1622.0,
+   "end": 1629.32,
    "role": "H",
    "sentences": [
     "5.09#1"
@@ -7864,8 +8228,8 @@
   {
    "id": "5-30",
    "act": 5,
-   "start": 1484.95,
-   "end": 1493.6,
+   "start": 1629.32,
+   "end": 1638.08,
    "role": "H",
    "sentences": [
     "5.09#2"
@@ -7904,8 +8268,8 @@
   {
    "id": "5-31",
    "act": 5,
-   "start": 1493.6,
-   "end": 1502.81,
+   "start": 1638.08,
+   "end": 1647.5,
    "role": "H",
    "sentences": [
     "5.09#3"
@@ -7944,8 +8308,8 @@
   {
    "id": "5-32",
    "act": 5,
-   "start": 1502.81,
-   "end": 1513.89,
+   "start": 1647.5,
+   "end": 1660.79,
    "role": "H",
    "sentences": [
     "5.09#4"
@@ -7984,8 +8348,8 @@
   {
    "id": "5-33",
    "act": 5,
-   "start": 1513.89,
-   "end": 1523.19,
+   "start": 1660.79,
+   "end": 1667.79,
    "role": null,
    "sentences": [],
    "template": "T2",

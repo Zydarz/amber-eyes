@@ -275,10 +275,10 @@ In February 1992, Superior Court Judge Thomas Whelan sentenced her to thirty-two
 
 **PSYCHOLOGIST** *(dissecting courtroom demeanor and pathological self-pity)*:
 Betty Broderick's demeanor during the judicial proceedings offered a textbook display of pathological self-pity characteristic of malignant narcissism.
-Throughout the lengthy arguments, she shed virtually no tears for the two individuals whose lives had been permanently snuffed out by her actions.
-Her emotional displays were reserved entirely for her own perceived victimization, financial misfortune, and lost societal standing.
-She maintained an unyielding narrative that Daniel's legal maneuvers had driven her into an inescapable corner, forcing her to strike.
-This complete absence of authentic remorse and genuine empathy explains why every subsequent parole petition over three decades was categorically denied.
+Forensic psychology draws a sharp distinction: genuine remorse requires outward empathy for the irreplaceable loss suffered by the victims and their families.
+Yet throughout the trials, Betty's tears were directed entirely inward, mourning only her lost societal stature and perceived personal misfortune.
+Employing the defense mechanism of DARVO, she persistently reversed the roles of victim and offender, rationalizing the lethal shooting as an act of honorable self-preservation.
+This total cognitive lock-in and absolute absence of authentic remorse explain why every subsequent parole petition over three decades was categorically denied.
 
 **HOST** *(concluding Act 4)*:
 The thirty-two-year sentence permanently brought an end to the freedom of a woman who once possessed every hallmark of prosperity.

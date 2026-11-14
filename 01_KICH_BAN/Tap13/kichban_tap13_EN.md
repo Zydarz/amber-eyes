@@ -108,7 +108,7 @@ Alongside the obsessive desire for personal liberation, another powerful materia
 As the eldest child, Jennifer calculated that she stood to inherit half of her parents' substantial estate and life insurance policies, estimated at nearly five hundred thousand Canadian dollars.
 Daniel Wong actively brokered an introduction between Jennifer and hardened criminal associates, including Lenford Crawford and David Mylvaganam.
 A ruthless contract was forged for a fee of ten thousand Canadian dollars to execute a targeted violent assault against her unsuspecting parents.
-Every operational detail was meticulously tailored to disguise the deliberate execution as a random residential break-in to misdirect law enforcement.
+The co-conspirators operated under cold moral disengagement and diffusion of responsibility, viewing the contract as a mere transactional service commissioned by the household daughter.
 
 **[SFX]:** *A deadbolt gently clicking unlocked, heavy footsteps creeping over hardwood floors in the silence of the night.*
 
