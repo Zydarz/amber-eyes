@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Act 5 data for Episode 20: 31 sentences across VN, EN, JA, KO."""
+"""Act 5 data for Episode 20 (241 sentences across VN, EN, JA, KO)."""
 
 ACT5_VN = [
     ("BGM", "Nhạc nền chuyển sang giai điệu Piano ấm áp, trang trọng, phảng phất nỗi suy tư triết lý và sự cảnh báo nhân văn sâu sắc."),
@@ -9,12 +9,15 @@ ACT5_VN = [
         "Thảm kịch đau thương này đã thúc đẩy một cuộc đại cải cách sâu rộng về quy chuẩn an toàn cư trú sinh viên trên toàn nước Mỹ.",
         "Quy trình quản lý chìa khóa vạn năng, kiểm soát lý lịch nhân sự bảo trì và hệ thống camera giám sát tại các khu nhà ở được thắt chặt ở mức tối đa.",
         "Di sản của Lauren đã biến thành động lực mạnh mẽ để bảo vệ sự an toàn cho các thế hệ sinh viên tiếp theo khi bước vào cuộc sống tự lập.",
+        "Nỗi bàng hoàng của cộng đồng sinh viên Mercer đã nhanh chóng chuyển hóa thành một phong trào đại cải cách thể chế mạnh mẽ trên khắp nước Mỹ.",
+        "Sự an toàn của người học không còn được phó mặc cho những giả định lỏng lẻo, mà được bảo chứng bằng những quy chuẩn quản trị minh bạch và chặt chẽ.",
     ]),
     ("LOI", "ĐIỀU TRA VIÊN", "D: Lời khuyên từ lực lượng điều tra hình sự", [
         "Dưới góc độ điều tra hình sự, vụ án McDaniel là lời nhắc nhở sâu sắc rằng mối đe dọa nguy hiểm nhất đôi khi lại đến từ những người sống ngay cạnh cửa nhà chúng ta.",
         "Việc chủ quan cho rằng một người bạn cùng lớp hay người hàng xóm có học thức là hoàn toàn an toàn có thể khiến chúng ta mất cảnh giác trước những dấu hiệu bất thường.",
         "Tội phạm không có khuôn mặt cố định, và sự lập dị nhút nhát đôi khi là lớp mặt nạ che đậy những hành vi xâm phạm nguy hiểm nhất.",
         "Lực lượng cảnh sát khuyến cáo người dân, đặc biệt là những người sống một mình, phải luôn chủ động kiểm tra hệ thống an ninh căn hộ và báo cáo ngay khi phát hiện dấu hiệu bị theo dõi.",
+        "Bài học đắt giá nhất là tuyệt đối không bao giờ được phép xem nhẹ các lỗ hổng cơ sở vật chất, bởi một chiếc chìa khóa bị bỏ quên cũng có thể trở thành công cụ tiếp tay cho tội ác.",
     ]),
     ("LOI", "CHUYÊN GIA TÂM LÝ", "C: Đúc kết về nhận diện sớm và thiết lập ranh giới an toàn", [
         "Các nghiên cứu tâm lý học tội phạm chỉ ra rằng phần lớn các vụ bạo lực rình rập đều bắt đầu từ những hành vi xâm phạm ranh giới cá nhân rất nhỏ nhặt trong đời sống thường ngày.",
@@ -22,6 +25,8 @@ ACT5_VN = [
         "Như chuyên gia hành vi Gavin de Becker từng khẳng định trong công trình The Gift of Fear, trực giác sinh tồn là radar chính xác nhất mà tự nhiên ban tặng cho con người.",
         "Lắng nghe sự bất an mơ hồ và dứt khoát thiết lập ranh giới phòng thủ là kỹ năng bảo vệ mạng sống thiết yếu trong xã hội hiện đại.",
         "Sự cảnh giác tỉnh táo kết hợp với sự hỗ trợ kịp thời của cộng đồng chính là tấm khiên vững chắc nhất để vô hiệu hóa những kẻ rình rập giấu mặt.",
+        "Chân lý sinh tồn lớn nhất là trực giác sợ hãi không phải là sự hoang tưởng, mà là tín hiệu tiến hóa báo trước mối nguy hiểm cận kề.",
+        "Hãy can đảm tin vào trực giác ấy và dứt khoát thiết lập ranh giới phòng vệ thay vì cố gắng tỏ ra lịch sự để làm hài lòng người khác.",
     ]),
     ("LOI", "HOST", "trình bày 4 dấu hiệu cảnh báo đỏ và lời kết kênh", [
         "Để giúp quý vị khán giả, đặc biệt là các bạn trẻ và phụ nữ đang sống độc lập tại các khu chung cư, kịp thời nhận diện và ngăn chặn nguy cơ bị rình rập từ sớm, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ kinh điển được đúc kết từ hồ sơ Stephen McDaniel.",
@@ -53,12 +58,15 @@ ACT5_EN = [
         "This heartbreaking tragedy served as a profound catalyst for sweeping security reforms across student housing communities nationwide.",
         "Protocols regulating building passkey custody, background vetting for maintenance personnel, and electronic surveillance networks were overhauled comprehensively.",
         "Lauren’s legacy transformed into an enduring shield safeguarding future generations of young scholars embarking upon independent living.",
+        "The shock felt by the Mercer student community swiftly transformed into a powerful institutional reform movement across the United States.",
+        "Student safety was no longer entrusted to loose assumptions, but safeguarded by transparent, rigorous governance standards.",
     ]),
-    ("LOI", "INVESTIGATOR", "D: Law enforcement guidance on vigilance", [
+    ("LOI", "DETECTIVE", "D: Law enforcement guidance on vigilance", [
         "From a criminal investigative vantage point, the McDaniel case serves as a chilling reminder that mortal threats sometimes reside directly across our doorstep.",
         "Assuming that a classmate, colleague, or educated neighbor is fundamentally safe can lull our vigilance precisely when warning signs appear.",
         "Violent crime carries no single face, and socially awkward eccentricity can sometimes serve as an armor concealing predatory entitlement.",
         "Law enforcement strongly urges citizens, particularly young adults living alone, to actively inspect their home security hardware and report suspicious tracking immediately.",
+        "The costliest lesson is that structural physical security loopholes must never be trivialized, for a neglected key can become an inadvertent accomplice to crime.",
     ]),
     ("LOI", "PSYCHOLOGIST", "C: Victimology, personal boundaries, and the Gift of Fear", [
         "Forensic behavioral research demonstrates that the overwhelming majority of predatory stalkings initiate with incremental, micro-boundary intrusions in daily routine.",
@@ -66,6 +74,8 @@ ACT5_EN = [
         "As behavioral authority Gavin de Becker famously documented in The Gift of Fear, survival intuition is nature’s most sophisticated early warning radar.",
         "Heeding ambiguous internal discomfort and fearlessly establishing impermeable physical boundaries is an indispensable life skill in modern society.",
         "Vigilant awareness combined with timely communal support forms our most formidable bulwark against predatory actors operating in the shadows.",
+        "The greatest survival truth is that intuitive fear is not paranoia, but an evolutionary signal warning of imminent danger.",
+        "Courageously trust that intuition and decisively establish defensive boundaries rather than compromising safety for the sake of social politeness.",
     ]),
     ("LOI", "HOST", "presenting the four classic red flags and concluding the broadcast", [
         "To empower our audience, particularly students and young adults living independently, to detect and neutralize predatory stalking at its inception, Amber Eyes shares four classic red flags distilled from the Stephen McDaniel dossier.",
@@ -97,12 +107,15 @@ ACT5_JA = [
         "この痛ましい悲劇は、全米の学生住宅や賃貸物件における安全基準の抜本的な改革を促す強力な契機となりました。",
         "マスターキーの厳格な保管管理、維持管理要員の身元調査、そして防犯カメラ網の拡充が全国規模で徹底されたのです。",
         "ローレンが遺した記憶は、自立した生活を始める未来の学生たちの安全を守るための、かけがえのない盾となりました。",
+        "マーサー大学の学生コミュニティが受けた衝撃は、全米の大学における強力な制度改革運動へと急速に昇華していきました。",
+        "学生たちの安全はもはや安易な前提に委ねられることなく、透明で厳格な管理基準によって保護されるようになったのです。",
     ]),
     ("LOI", "捜査官", "D: 捜査現場からの実践的な防犯警鐘", [
         "犯罪捜査の観点から見れば、マクダニエルの事件は、最も致命的な脅威が時に私たちの部屋の真向かいに潜んでいることを教えています。",
         "クラスメートや同僚、あるいは教育を受けた知人だから無害であろうと根拠なく思い込むことは、警戒心を鈍らせる最大の落とし穴です。",
         "凶悪犯罪者に決まった顔はなく、内気でおとなしい風変わりな仮面こそが、最も危険な侵犯行動を覆い隠す格好の隠れ蓑となるのです。",
         "警察機関は、特に単身で生活する若者たちに対し、自宅の施錠設備を定期的に確認し、つきまといの予兆を感じた際には直ちに通報するよう強く求めています。",
+        "最も重い教訓は、施設管理上の隙を決して軽視してはならないということであり、放置された一本の鍵が犯罪を幇助する道具になり得るのです。",
     ]),
     ("LOI", "心理学者", "C: 被害者学、個人の境界線、そして『ギフト・オブ・フィアー』の教訓", [
         "犯罪行動学の研究によれば、捕食的ストーキングの大半は、日常生活における極めて些細な境界侵害の積み重ねから始まります。",
@@ -110,6 +123,8 @@ ACT5_JA = [
         "行動分析の世界的権威であるギャビン・ド・ベッカーがその著書で指摘したように、直感こそが人間本来に備わった最も正確な危険感知レーダーです。",
         "微かな不快感や違和感を決して無視せず、自らの防衛線を毅然として引くことこそが、現代社会において命を守る必須の技術です。",
         "研ぎ澄まされた警戒心とコミュニティの連携こそが、水面下に潜む捕食者を無力化するための最も堅牢な防壁となります。",
+        "最大の生存の真理は、直感的な恐怖は妄想などではなく、迫り来る危険を警告する進化の知恵であるということです。",
+        "礼儀正しさを保つために安全を犠牲にするのではなく、直感を信じて断固たる防衛境界線を引く勇気を持つことが何よりも重要なのです。",
     ]),
     ("LOI", "ホスト", "4つの警告サインの解説と番組の結び", [
         "アパート等で単身生活を送る若者や女性の皆様が、身近に潜む危険な兆候を早期に察知できるよう、アンバー・アイズはマクダニエル事件から得られた4つの古典的レッドフラッグを共有します。",
@@ -135,27 +150,32 @@ ACT5_JA = [
 
 ACT5_KO = [
     ("BGM", "따뜻하고 성찰적인 피아노 선율로 전환되며, 철학적 사유와 인간 존엄의 경각심을 일깨운다."),
-    ("LOI", "호스트", "깊은 성찰을 담은 어조로 제도적 개혁과 비극의 교훈을 짚는다", [
+    ("LOI", "진행자", "깊은 성찰을 담은 어조로 제도적 개혁과 비극의 교훈을 짚는다", [
         "메이컨시에서 맞이했던 2011년의 비극적인 여름 이후 수많은 세월이 흘렀지만, Lauren Giddings의 밝은 미소는 머서대학교 로스쿨에 여전히 소중히 기억되고 있습니다.",
         "가족과 친지, 그리고 동료들은 학문에 대한 그녀의 뜨거운 열정과 모든 이에게 따뜻했던 고결한 성품을 지금도 가슴 깊이 간직하고 있습니다.",
         "이 가슴 아픈 참사는 미국 전역의 대학가 원룸과 학생 주거 시설의 안전 기준을 근본적으로 뒤바꾸는 중대한 계기가 되었습니다.",
         "마스터키의 보관 및 반출 절차, 건물 관리 인력의 신원 검증, 그리고 방범 감시 카메라 네트워크의 구축이 전국적으로 한층 엄격하게 강화되었습니다.",
         "Lauren이 남긴 안타까운 유산은 홀로서기를 시작하는 수많은 청년들의 안전을 지키는 든든한 방패로 거듭났습니다.",
+        "머서 대학교 학생 사회가 받은 충격은 미국 전역의 대학가에서 강력한 제도 개혁 운동으로 빠르게 승화되었습니다.",
+        "학생들의 안전은 더 이상 안이한 전제에 방치되지 않고, 투명하고 엄격한 관리 기준에 의해 보장받게 되었습니다.",
     ]),
     ("LOI", "수사관", "D: 일선 수사 현장에서 전하는 현실적 방범 경고", [
         "범죄 수사의 관점에서 볼 때 McDaniel 사건은 가장 치명적인 위협이 때로는 바로 맞은편 문 너머에 도사리고 있음을 일깨워 줍니다.",
         "동기생이나 직장 동료, 혹은 고학력 지식인이라는 이유만으로 상대방을 완전히 무해하다고 지레짐작하는 것은 경계심을 무너뜨리는 위험한 착각입니다.",
         "흉악 범죄자에게 고정된 얼굴이란 없으며, 내성적이고 어리숙한 괴짜의 모습이야말로 가장 위험한 침해 행동을 감추는 완벽한 위장막이 될 수 있습니다.",
         "경찰 당국은 특히 1인 가구 청년들에게 주거지의 잠금장치를 상시 점검하고 은밀한 미행이나 관찰의 징후가 포착될 경우 즉각 신고할 것을 강력히 권고합니다.",
+        "가장 값비싼 교훈은 시설 관리상의 허점을 결코 가볍게 여겨서는 안 된다는 점이며, 방치된 열쇠 하나가 범죄를 돕는 도구가 될 수 있다는 사실입니다.",
     ]),
-    ("LOI", "심리학자", "C: 피해자학, 개인적 경계선, 그리고 'The Gift of Fear'의 지혜", [
+    ("LOI", "프로파일러", "C: 피해자학, 개인적 경계선, 그리고 'The Gift of Fear'의 지혜", [
         "범죄행동학 연구들은 포식적 스토킹 범죄의 대부분이 일상 속에서 상대방의 개인적 경계를 사소하게 침범하는 행동에서부터 싹튼다고 지적합니다.",
         "피해자가 사회적 예의나 어색함 때문에 초기의 위험 신호를 대수롭지 않게 넘겨버릴 때, 가해자는 통제와 침투의 수위를 단계적으로 끌어올립니다.",
-        "행동 분석의 세계적 권위자 Gavin de Becker가 그의 저서 'The Gift of Fear'에서 역설했듯이, 인간의 생존 직관은 자연이 부여한 가장 정밀한 조기 경보 레이더입니다.",
+        "행동 분석의 세계적 권위자 Gavin de Becker가 그의 저서 “The Gift of Fear”에서 역설했듯이, 인간의 생존 직관은 자연이 부여한 가장 정밀한 조기 경보 레이더입니다.",
         "설명하기 힘든 모호한 불안감을 가볍게 넘기지 않고 단호하게 방어선을 구축하는 것은 현대 사회를 살아가는 필수적인 생존 역량입니다.",
         "깨어있는 경계심과 공동체의 신속한 연대야말로 어둠 속에서 암약하는 은밀한 포식자들을 무력화하는 가장 강력한 보호막입니다.",
+        "생존을 위한 가장 위대한 진리는 직감적인 두려움이 결코 망상이 아니라 임박한 위험을 경고하는 진화의 신호라는 점입니다.",
+        "사회적 예의를 차리느라 안전을 양보하는 대신, 그 직감을 용기 있게 믿고 단호한 방어 경계선을 설정하는 것이 무엇보다 중요합니다.",
     ]),
-    ("LOI", "호스트", "4대 핵심 위험 징후를 총정리하며 방송을 마무리한다", [
+    ("LOI", "진행자", "4대 핵심 위험 징후를 총정리하며 방송을 마무리한다", [
         "1인 가구 청년들과 여성 시청자 여러분께서 은밀한 스토킹의 위험을 조기에 감지하고 대처할 수 있도록, Amber Eyes는 Stephen McDaniel 사건에서 도출된 4대 핵심 위험 징후를 공유합니다.",
         "첫 번째 징후: 작위적인 우연의 남발과 사적 영역을 향한 비정상적인 경계 침범입니다.",
         "특정 이웃이나 지인이 당신의 이동 동선을 귀신같이 꿰뚫고 있거나 문 앞에서 마주치는 횟수가 비정상적으로 잦다면 이는 명백한 위험 신호입니다.",

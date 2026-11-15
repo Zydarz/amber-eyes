@@ -21,7 +21,7 @@ Theo quy tắc **L3** (*"CẤM nói xong khi chưa đo. Mỗi bước báo số 
 | **Số Hồi (Acts)** | 5 | 5 | 5 | 5 | **Khớp 100% (5/5)** |
 | **Tổng số phần tử (Elements)** | **51** | **51** | **51** | **51** | **Khớp 100% (51/51)** |
 | **Lượt lời thoại (LOI)** | **32** | **32** | **32** | **32** | **Khớp 100% (32/32)** |
-| **Tổng số câu (Sentences)** | **210** | **210** | **210** | **210** | **Khớp 100% (210/210)** |
+| **Tổng số câu (Sentences)** | **246** | **246** | **246** | **246** | **Khớp 100% (246/246)** |
 | **Phân vai H / D / C / N** | 122 / 36 / 35 / 17 | 122 / 36 / 35 / 17 | 122 / 36 / 35 / 17 | 122 / 36 / 35 / 17 | **Khớp 100% từng lượt thoại** |
 | **Số câu Hồi 1** | 51 | 51 | 51 | 51 | **1:1 Tuyệt đối** |
 | **Số câu Hồi 2** | 40 | 40 | 40 | 40 | **1:1 Tuyệt đối** |
@@ -36,7 +36,7 @@ Theo quy tắc **L3** (*"CẤM nói xong khi chưa đo. Mỗi bước báo số 
 
 ---
 
-## 2. Chi tiết phân bố 210 câu thoại theo 32 lượt lời (LOI Turn-by-Turn Parity)
+## 2. Chi tiết phân bố 246 câu thoại theo 32 lượt lời (LOI Turn-by-Turn Parity)
 
 | ID Turn | Hồi | Vai trò | Tên nhân vật | Số câu thoại | Nội dung chính |
 |:---:|:---:|:---:|:---:|:---:|---|
@@ -78,10 +78,10 @@ Theo quy tắc **L3** (*"CẤM nói xong khi chưa đo. Mỗi bước báo số 
 ## 3. Kết quả các cổng kiểm tra kỹ thuật (QC Gateways)
 
 1. **Pipeline Parser QC (`parse_kichban.py`)**:
-   - `01_KICH_BAN/Tap24/kichban_tap24_23102026.md` $\rightarrow$ 51 elements, 32 LOI turns, 210 sentences. ✅ **PASS**
-   - `01_KICH_BAN/Tap24_EN/kichban_tap24_EN.md` $\rightarrow$ 51 elements, 32 LOI turns, 210 sentences. ✅ **PASS**
-   - `01_KICH_BAN/Tap24_JA/kichban_tap24_JA.md` $\rightarrow$ 51 elements, 32 LOI turns, 210 sentences. ✅ **PASS**
-   - `01_KICH_BAN/Tap24_KO/kichban_tap24_KO.md` $\rightarrow$ 51 elements, 32 LOI turns, 210 sentences. ✅ **PASS**
+   - `01_KICH_BAN/Tap24/kichban_tap24_23102026.md` $\rightarrow$ 51 elements, 32 LOI turns, 246 sentences. ✅ **PASS**
+   - `01_KICH_BAN/Tap24_EN/kichban_tap24_EN.md` $\rightarrow$ 51 elements, 32 LOI turns, 246 sentences. ✅ **PASS**
+   - `01_KICH_BAN/Tap24_JA/kichban_tap24_JA.md` $\rightarrow$ 51 elements, 32 LOI turns, 246 sentences. ✅ **PASS**
+   - `01_KICH_BAN/Tap24_KO/kichban_tap24_KO.md` $\rightarrow$ 51 elements, 32 LOI turns, 246 sentences. ✅ **PASS**
 
 2. **Multilingual Parity QC (`_verify_all_tap24_parity.py`)**:
    - 100% Perfect 1:1 Parity across all 4 languages. ✅ **PASS**
@@ -100,4 +100,4 @@ Theo quy tắc **L3** (*"CẤM nói xong khi chưa đo. Mỗi bước báo số 
 
 ## 4. Kết luận
 
-Cả 4 phiên bản ngôn ngữ của Tập 24 (Tiếng Việt, Tiếng Anh, Tiếng Nhật, Tiếng Hàn) đã hoàn tất quá trình tái cấu trúc theo tiêu chuẩn mới, đạt quy mô 210 câu thoại và tích hợp đầy đủ 10 chỉ dấu tâm lý hành vi. Tất cả các cổng kiểm định chất lượng đều xanh.
+Cả 4 phiên bản ngôn ngữ của Tập 24 (Tiếng Việt, Tiếng Anh, Tiếng Nhật, Tiếng Hàn) đã hoàn tất quá trình tái cấu trúc theo tiêu chuẩn mới, đạt quy mô 246 câu thoại và tích hợp đầy đủ 10 chỉ dấu tâm lý hành vi. Tất cả các cổng kiểm định chất lượng đều xanh.

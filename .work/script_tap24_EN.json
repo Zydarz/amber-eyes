@@ -67,7 +67,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "recounting the unprecedented scale of the police mobilization",
-  "text": "To hunt down this invisible phantom of terror, the South Korean government launched an investigation of unprecedented magnitude. Over 2 million police personnel were deployed throughout the exhaustive multi-year manhunt. More than 21,000 individuals were brought in for questioning and subjected to intense scrutiny over the years. Investigative teams endured immense public pressure, with numerous veteran detectives dedicating their entire careers to catching the perpetrator. The prolonged stalemate left countless officers thoroughly exhausted and demoralized. Even more tragic, a contaminated physical evidence sample led investigators to firmly believe that the perpetrator had blood type B. That early technical error became a fatal confirmation bias, blinding the entire investigative apparatus for decades to come. Yet despite every human effort, the killer seemed consistently one step ahead of law enforcement, vanishing without a trace into the dense fog. In 2006, the 15-year statute of limitations under Korean law officially expired for the Hwaseong cases, leaving behind an open wound devoid of answers.",
+  "text": "To hunt down this invisible phantom of terror, the South Korean government launched an investigation of unprecedented magnitude. Over 2 million police personnel were deployed throughout the exhaustive multi-year manhunt. More than 21,000 individuals were brought in for questioning and subjected to intense scrutiny over the years. Investigative teams endured immense public pressure, with numerous veteran detectives dedicating their entire careers to catching the perpetrator. The prolonged stalemate left countless officers thoroughly exhausted and demoralized. Even more tragic, a contaminated physical evidence sample led investigators to firmly believe that the perpetrator had blood type B. That early technical error became a fatal confirmation bias, blinding the entire investigative apparatus for decades to come.",
   "sentences": [
    {
     "id": "1.04#1",
@@ -103,27 +103,82 @@
     "id": "1.04#7",
     "text": "That early technical error became a fatal confirmation bias, blinding the entire investigative apparatus for decades to come.",
     "words": 18
-   },
-   {
-    "id": "1.04#8",
-    "text": "Yet despite every human effort, the killer seemed consistently one step ahead of law enforcement, vanishing without a trace into the dense fog.",
-    "words": 23
-   },
-   {
-    "id": "1.04#9",
-    "text": "In 2006, the 15-year statute of limitations under Korean law officially expired for the Hwaseong cases, leaving behind an open wound devoid of answers.",
-    "words": 24
    }
   ]
  },
  {
   "id": "1.05",
   "act": 1,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "calm, analyzing cognitive blind spots",
+  "text": "From a cognitive psychology perspective, the thirty-three-year stalemate of the Hwaseong case originated from a classic psychological phenomenon known as \"Cognitive Tunneling. When an initial, primitive forensic analysis prematurely concluded that the perpetrator possessed blood type B, the entire investigative force unwittingly fell into the trap of \"Confirmation Bias. They systematically dismissed every suspicious individual with a different blood type, creating a fatal blind spot in their investigative logic. This unverified dogma inadvertently granted an absolute shield of immunity to the real predator with blood type O, allowing him to pass through police checkpoints with total impunity.",
+  "sentences": [
+   {
+    "id": "1.05#1",
+    "text": "From a cognitive psychology perspective, the thirty-three-year stalemate of the Hwaseong case originated from a classic psychological phenomenon known as \"Cognitive Tunneling.",
+    "words": 22
+   },
+   {
+    "id": "1.05#2",
+    "text": "When an initial, primitive forensic analysis prematurely concluded that the perpetrator possessed blood type B, the entire investigative force unwittingly fell into the trap of \"Confirmation Bias.",
+    "words": 27
+   },
+   {
+    "id": "1.05#3",
+    "text": "They systematically dismissed every suspicious individual with a different blood type, creating a fatal blind spot in their investigative logic.",
+    "words": 20
+   },
+   {
+    "id": "1.05#4",
+    "text": "This unverified dogma inadvertently granted an absolute shield of immunity to the real predator with blood type O, allowing him to pass through police checkpoints with total impunity.",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "1.06",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "solemn, dissecting societal mythology",
+  "text": "To alleviate the unbearable dread of an invisible threat, the local community of Hwaseong manifested the myth of the red dress on rainy nights. In behavioral science, this represents an unconscious coping mechanism: when confronted with arbitrary and incomprehensible evil, the human mind desperately grasps at identifiable patterns to sustain the illusion of control. Yet, the tragic cost of that collective delusion was the total disintegration of communal trust, transforming every neighborly glance into an unbearable gaze of suspicion. Yet despite every human effort, the killer seemed consistently one step ahead of law enforcement, vanishing without a trace into the dense fog. In 2006, the 15-year statute of limitations under Korean law officially expired for the Hwaseong cases, leaving behind an open wound devoid of answers.",
+  "sentences": [
+   {
+    "id": "1.06#1",
+    "text": "To alleviate the unbearable dread of an invisible threat, the local community of Hwaseong manifested the myth of the red dress on rainy nights.",
+    "words": 24
+   },
+   {
+    "id": "1.06#2",
+    "text": "In behavioral science, this represents an unconscious coping mechanism: when confronted with arbitrary and incomprehensible evil, the human mind desperately grasps at identifiable patterns to sustain the illusion of control.",
+    "words": 30
+   },
+   {
+    "id": "1.06#3",
+    "text": "Yet, the tragic cost of that collective delusion was the total disintegration of communal trust, transforming every neighborly glance into an unbearable gaze of suspicion.",
+    "words": 25
+   },
+   {
+    "id": "1.06#4",
+    "text": "Yet despite every human effort, the killer seemed consistently one step ahead of law enforcement, vanishing without a trace into the dense fog.",
+    "words": 23
+   },
+   {
+    "id": "1.06#5",
+    "text": "In 2006, the 15-year statute of limitations under Korean law officially expired for the Hwaseong cases, leaving behind an open wound devoid of answers.",
+    "words": 24
+   }
+  ]
+ },
+ {
+  "id": "1.07",
+  "act": 1,
   "kind": "SFX",
   "desc": "*Sound of turning fragile archival paper files, heavy exhausted sigh in an otherwise silent room.*"
  },
  {
-  "id": "1.06",
+  "id": "1.08",
   "act": 1,
   "kind": "LOI",
   "role": "H",
@@ -131,44 +186,44 @@
   "text": "For over three decades, the Hwaseong case stood as the most agonizing failure of the judiciary and an indelible stain on South Korea's collective conscience. The families of the victims endured daily torment, never knowing who had stolen the lives of their cherished loved ones. Local villagers lived in perpetual mutual suspicion, wondering whether the ruthless serial predator walked freely among their neighbors. A state of collective paranoia gripped every village, turning familiar neighbors into objects of lingering suspicion. Society's fundamental sense of public safety was shattered, leaving a deep psychological scar across generations of South Korean citizens. The impotence of justice appeared permanently buried beneath the dust of time and the aging of the original investigative generation. Yet true guardians of the law never allowed themselves the luxury of abandoning the pursuit of the truth.",
   "sentences": [
    {
-    "id": "1.06#1",
+    "id": "1.08#1",
     "text": "For over three decades, the Hwaseong case stood as the most agonizing failure of the judiciary and an indelible stain on South Korea's collective conscience.",
     "words": 25
    },
    {
-    "id": "1.06#2",
+    "id": "1.08#2",
     "text": "The families of the victims endured daily torment, never knowing who had stolen the lives of their cherished loved ones.",
     "words": 20
    },
    {
-    "id": "1.06#3",
+    "id": "1.08#3",
     "text": "Local villagers lived in perpetual mutual suspicion, wondering whether the ruthless serial predator walked freely among their neighbors.",
     "words": 18
    },
    {
-    "id": "1.06#4",
+    "id": "1.08#4",
     "text": "A state of collective paranoia gripped every village, turning familiar neighbors into objects of lingering suspicion.",
     "words": 16
    },
    {
-    "id": "1.06#5",
+    "id": "1.08#5",
     "text": "Society's fundamental sense of public safety was shattered, leaving a deep psychological scar across generations of South Korean citizens.",
     "words": 19
    },
    {
-    "id": "1.06#6",
+    "id": "1.08#6",
     "text": "The impotence of justice appeared permanently buried beneath the dust of time and the aging of the original investigative generation.",
     "words": 20
    },
    {
-    "id": "1.06#7",
+    "id": "1.08#7",
     "text": "Yet true guardians of the law never allowed themselves the luxury of abandoning the pursuit of the truth.",
     "words": 18
    }
   ]
  },
  {
-  "id": "1.07",
+  "id": "1.09",
   "act": 1,
   "kind": "LOI",
   "role": "N",
@@ -176,55 +231,55 @@
   "text": "Picture the vivid memories of a young woman living in Hwaseong during the late 1980s. Every time we heard the wail of police sirens or sudden shouting in the rice fields, our hearts sank knowing another neighbor had fallen. Parents strictly forbade daughters and sisters from stepping outside once night fell. Rumors circulated that the predator specifically targeted women wearing red clothes on rainy nights. An unbearable atmosphere of suspicion hung over everything, as men in the village eyed one another warily, terrified that a familiar neighbor might be the monster. Even the sudden barking of a dog along the ridge or a shadow crossing under the moonlight was enough to make entire households tremble behind barred doors. For 33 long years, we lived with bitter sorrow, dreading that the perpetrator would carry his dark secrets to the grave without punishment. Yet deep within our souls, we held onto the fragile hope that heaven was watching and the truth would eventually step into the light.",
   "sentences": [
    {
-    "id": "1.07#1",
+    "id": "1.09#1",
     "text": "Picture the vivid memories of a young woman living in Hwaseong during the late 1980s.",
     "words": 15
    },
    {
-    "id": "1.07#2",
+    "id": "1.09#2",
     "text": "Every time we heard the wail of police sirens or sudden shouting in the rice fields, our hearts sank knowing another neighbor had fallen.",
     "words": 24
    },
    {
-    "id": "1.07#3",
+    "id": "1.09#3",
     "text": "Parents strictly forbade daughters and sisters from stepping outside once night fell.",
     "words": 12
    },
    {
-    "id": "1.07#4",
+    "id": "1.09#4",
     "text": "Rumors circulated that the predator specifically targeted women wearing red clothes on rainy nights.",
     "words": 14
    },
    {
-    "id": "1.07#5",
+    "id": "1.09#5",
     "text": "An unbearable atmosphere of suspicion hung over everything, as men in the village eyed one another warily, terrified that a familiar neighbor might be the monster.",
     "words": 26
    },
    {
-    "id": "1.07#6",
+    "id": "1.09#6",
     "text": "Even the sudden barking of a dog along the ridge or a shadow crossing under the moonlight was enough to make entire households tremble behind barred doors.",
     "words": 27
    },
    {
-    "id": "1.07#7",
+    "id": "1.09#7",
     "text": "For 33 long years, we lived with bitter sorrow, dreading that the perpetrator would carry his dark secrets to the grave without punishment.",
     "words": 23
    },
    {
-    "id": "1.07#8",
+    "id": "1.09#8",
     "text": "Yet deep within our souls, we held onto the fragile hope that heaven was watching and the truth would eventually step into the light.",
     "words": 24
    }
   ]
  },
  {
-  "id": "1.08",
+  "id": "1.10",
   "act": 1,
   "kind": "SFX",
   "desc": "*Rhythmic typing on computer keyboard in forensic laboratory, electronic beep of optical DNA scanners.*"
  },
  {
-  "id": "1.09",
+  "id": "1.11",
   "act": 1,
   "kind": "LOI",
   "role": "H",
@@ -232,49 +287,49 @@
   "text": "That fragile hope was finally answered through the extraordinary advancements of modern forensic science. In 2019, the Gyeonggi Nambu Provincial Police Agency submitted preserved cold case evidence from three decades earlier to the National Forensic Service. Utilizing modern DNA extraction methodologies, forensic scientists successfully recovered viable genetic profiles from evidence preserved in the fifth, seventh, and ninth cases. Forensic examiners meticulously reconstructed ultra-trace DNA molecules that had rested undisturbed for over 30 years inside evidence storage. Modern science finally awakened the silent witnesses that time seemed to have erased forever. This newly extracted DNA was immediately matched against the national criminal offender database, yielding an undeniable positive match. The serial killer was no elusive ghost, but an inmate currently serving a life sentence at Busan Prison named Lee Choon-jae. A high-stakes psychological confrontation commenced within prison walls, abruptly ending 33 years of concealment beneath the shadows.",
   "sentences": [
    {
-    "id": "1.09#1",
+    "id": "1.11#1",
     "text": "That fragile hope was finally answered through the extraordinary advancements of modern forensic science.",
     "words": 14
    },
    {
-    "id": "1.09#2",
+    "id": "1.11#2",
     "text": "In 2019, the Gyeonggi Nambu Provincial Police Agency submitted preserved cold case evidence from three decades earlier to the National Forensic Service.",
     "words": 22
    },
    {
-    "id": "1.09#3",
+    "id": "1.11#3",
     "text": "Utilizing modern DNA extraction methodologies, forensic scientists successfully recovered viable genetic profiles from evidence preserved in the fifth, seventh, and ninth cases.",
     "words": 22
    },
    {
-    "id": "1.09#4",
+    "id": "1.11#4",
     "text": "Forensic examiners meticulously reconstructed ultra-trace DNA molecules that had rested undisturbed for over 30 years inside evidence storage.",
     "words": 18
    },
    {
-    "id": "1.09#5",
+    "id": "1.11#5",
     "text": "Modern science finally awakened the silent witnesses that time seemed to have erased forever.",
     "words": 14
    },
    {
-    "id": "1.09#6",
+    "id": "1.11#6",
     "text": "This newly extracted DNA was immediately matched against the national criminal offender database, yielding an undeniable positive match.",
     "words": 18
    },
    {
-    "id": "1.09#7",
+    "id": "1.11#7",
     "text": "The serial killer was no elusive ghost, but an inmate currently serving a life sentence at Busan Prison named Lee Choon-jae.",
     "words": 21
    },
    {
-    "id": "1.09#8",
+    "id": "1.11#8",
     "text": "A high-stakes psychological confrontation commenced within prison walls, abruptly ending 33 years of concealment beneath the shadows.",
     "words": 17
    }
   ]
  },
  {
-  "id": "1.10",
+  "id": "1.12",
   "act": 1,
   "kind": "LOI",
   "role": "D",
@@ -282,44 +337,44 @@
   "text": "Imagine the overwhelming sensation of an investigator when the DNA results pointed unequivocally to Lee Choon-jae. He was 56 years old, sentenced to life imprisonment in 1994 for the murder of his sister-in-law in the city of Cheongju. Throughout his 25 years of incarceration at Busan Prison, Lee Choon-jae was officially classified as a quiet, model first-class inmate. He had never violated a single prison rule, spent his time peacefully practicing embroidery, and was even under review for potential parole consideration. It was a facade of domestic compliance so flawless that prison guards never suspected his unfathomable criminal history. However, the most daunting legal hurdle at that moment was that the statute of limitations for all Hwaseong murders had expired in 2006, meaning he could not be newly indicted. Our sole purpose in entering Busan Prison was to uncover the unvarnished truth for the victims and their grieving families.",
   "sentences": [
    {
-    "id": "1.10#1",
+    "id": "1.12#1",
     "text": "Imagine the overwhelming sensation of an investigator when the DNA results pointed unequivocally to Lee Choon-jae.",
     "words": 16
    },
    {
-    "id": "1.10#2",
+    "id": "1.12#2",
     "text": "He was 56 years old, sentenced to life imprisonment in 1994 for the murder of his sister-in-law in the city of Cheongju.",
     "words": 22
    },
    {
-    "id": "1.10#3",
+    "id": "1.12#3",
     "text": "Throughout his 25 years of incarceration at Busan Prison, Lee Choon-jae was officially classified as a quiet, model first-class inmate.",
     "words": 20
    },
    {
-    "id": "1.10#4",
+    "id": "1.12#4",
     "text": "He had never violated a single prison rule, spent his time peacefully practicing embroidery, and was even under review for potential parole consideration.",
     "words": 23
    },
    {
-    "id": "1.10#5",
+    "id": "1.12#5",
     "text": "It was a facade of domestic compliance so flawless that prison guards never suspected his unfathomable criminal history.",
     "words": 18
    },
    {
-    "id": "1.10#6",
+    "id": "1.12#6",
     "text": "However, the most daunting legal hurdle at that moment was that the statute of limitations for all Hwaseong murders had expired in 2006, meaning he could not be newly indicted.",
     "words": 30
    },
    {
-    "id": "1.10#7",
+    "id": "1.12#7",
     "text": "Our sole purpose in entering Busan Prison was to uncover the unvarnished truth for the victims and their grieving families.",
     "words": 20
    }
   ]
  },
  {
-  "id": "1.11",
+  "id": "1.13",
   "act": 1,
   "kind": "LOI",
   "role": "H",
@@ -327,29 +382,29 @@
   "text": "A specialized task force of veteran detectives and criminal profilers immediately departed for Busan. Yet what they were about to encounter inside the interrogation room was neither stubborn denial nor tearful late repentance. It was an unsettlingly calm and proud demeanor from a serial predator who took covert pride in his monstrous accomplishments. A psychological duel began to strip away the mask of humanity and expose the predator hiding in the fog for three decades.",
   "sentences": [
    {
-    "id": "1.11#1",
+    "id": "1.13#1",
     "text": "A specialized task force of veteran detectives and criminal profilers immediately departed for Busan.",
     "words": 14
    },
    {
-    "id": "1.11#2",
+    "id": "1.13#2",
     "text": "Yet what they were about to encounter inside the interrogation room was neither stubborn denial nor tearful late repentance.",
     "words": 19
    },
    {
-    "id": "1.11#3",
+    "id": "1.13#3",
     "text": "It was an unsettlingly calm and proud demeanor from a serial predator who took covert pride in his monstrous accomplishments.",
     "words": 20
    },
    {
-    "id": "1.11#4",
+    "id": "1.13#4",
     "text": "A psychological duel began to strip away the mask of humanity and expose the predator hiding in the fog for three decades.",
     "words": 22
    }
   ]
  },
  {
-  "id": "1.12",
+  "id": "1.14",
   "act": 1,
   "kind": "BGM",
   "desc": "*Cello fades down into deep, tense, probing piano chords.*"
@@ -407,7 +462,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "profilers building rapport and trust",
-  "text": "The criminal profiling team spent numerous sessions simply establishing rapport and conversational trust with Lee Choon-jae. They refrained from aggressive accusations, choosing instead to listen patiently to the inner musings of a man isolated for a quarter of a century. According to behavioral profilers, this empathetic listening directly targeted the killer's primary vulnerability: his desperate desire for recognition. The psychologists skillfully converted the interrogation room into an arena where Lee Choon-jae felt his narcissism subtly acknowledged. As his model prisoner facade gently loosened, his pathological pride began searching for an opportunity to assert dominance. When detectives finally presented irrefutable forensic DNA evidence directly before him, the final fortress of Lee Choon-jae's composure fractured. At long last, he began to speak. His subsequent disclosure stunned every investigator present in the room.",
+  "text": "The criminal profiling team spent numerous sessions simply establishing rapport and conversational trust with Lee Choon-jae. They refrained from aggressive accusations, choosing instead to listen patiently to the inner musings of a man isolated for a quarter of a century. According to behavioral profilers, this empathetic listening directly targeted the killer's primary vulnerability: his desperate desire for recognition. The psychologists skillfully converted the interrogation room into an arena where Lee Choon-jae felt his narcissism subtly acknowledged. As his model prisoner facade gently loosened, his pathological pride began searching for an opportunity to assert dominance. When detectives finally presented irrefutable forensic DNA evidence directly before him, the final fortress of Lee Choon-jae's composure fractured. At long last, he began to speak. His subsequent disclosure stunned every investigator present in the room. Why would a man who remained utterly silent behind bars for twenty-five years suddenly confess to a horrific string of cold cases? Was it the late awakening of a dormant conscience at the twilight of his life? Or did a completely different psychological dynamic lie beneath that chilling composure?",
   "sentences": [
    {
     "id": "2.04#1",
@@ -448,17 +503,67 @@
     "id": "2.04#8",
     "text": "His subsequent disclosure stunned every investigator present in the room.",
     "words": 10
+   },
+   {
+    "id": "2.04#9",
+    "text": "Why would a man who remained utterly silent behind bars for twenty-five years suddenly confess to a horrific string of cold cases?",
+    "words": 22
+   },
+   {
+    "id": "2.04#10",
+    "text": "Was it the late awakening of a dormant conscience at the twilight of his life?",
+    "words": 15
+   },
+   {
+    "id": "2.04#11",
+    "text": "Or did a completely different psychological dynamic lie beneath that chilling composure?",
+    "words": 12
    }
   ]
  },
  {
   "id": "2.05",
   "act": 2,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "dissecting confession without fear",
+  "text": "Criminal psychology confirms that Lee Choon-jae’s confession was entirely devoid of genuine remorse. True remorse requires affective empathy—the capacity to resonate with the agony inflicted upon victims—a faculty completely absent in a malignant narcissist. His willingness to speak was triggered by the total collapse of the strategic utility of secrecy once the statute of limitations expired in 2006. Aware that the legal system could no longer impose additional capital punishment, his defensive fear dissipated, paving the way for \"Narcissistic Grandiosity\" to emerge. He perceived the interrogation room as a dark stage where he could fulfill his craving for notoriety, boasting that he had outmaneuvered two million police officers for over three decades.",
+  "sentences": [
+   {
+    "id": "2.05#1",
+    "text": "Criminal psychology confirms that Lee Choon-jae’s confession was entirely devoid of genuine remorse.",
+    "words": 13
+   },
+   {
+    "id": "2.05#2",
+    "text": "True remorse requires affective empathy—the capacity to resonate with the agony inflicted upon victims—a faculty completely absent in a malignant narcissist.",
+    "words": 21
+   },
+   {
+    "id": "2.05#3",
+    "text": "His willingness to speak was triggered by the total collapse of the strategic utility of secrecy once the statute of limitations expired in 2006.",
+    "words": 24
+   },
+   {
+    "id": "2.05#4",
+    "text": "Aware that the legal system could no longer impose additional capital punishment, his defensive fear dissipated, paving the way for \"Narcissistic Grandiosity\" to emerge.",
+    "words": 24
+   },
+   {
+    "id": "2.05#5",
+    "text": "He perceived the interrogation room as a dark stage where he could fulfill his craving for notoriety, boasting that he had outmaneuvered two million police officers for over three decades.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "2.06",
+  "act": 2,
   "kind": "SFX",
   "desc": "*Deep intake of breath, firm placement of a paper cup onto a wooden tabletop.*"
  },
  {
-  "id": "2.06",
+  "id": "2.07",
   "act": 2,
   "kind": "LOI",
   "role": "D",
@@ -466,50 +571,50 @@
   "text": "From that pivotal moment onward, Lee Choon-jae embarked upon an astonishing and chilling sequence of confessions. He not only admitted to all 10 Hwaseong murders under active review, but voluntarily confessed to four additional homicides and dozens of sexual assaults. He even sketched detailed floor plans and environmental maps of various crime scenes from memory after more than 30 years. He pinpointed exact bushes, irrigation ditches, and prevailing wind directions from each night without referencing investigative files. That uncanny precision demonstrated that he had mentally replayed those gruesome memories thousands of times like prized psychological trophies. According to detectives, he recounted every atrocity in a flat, conversational tone, displaying zero emotional remorse. In those past years, police officers had crossed paths with him multiple times without ever realizing who he was.",
   "sentences": [
    {
-    "id": "2.06#1",
+    "id": "2.07#1",
     "text": "From that pivotal moment onward, Lee Choon-jae embarked upon an astonishing and chilling sequence of confessions.",
     "words": 16
    },
    {
-    "id": "2.06#2",
+    "id": "2.07#2",
     "text": "He not only admitted to all 10 Hwaseong murders under active review, but voluntarily confessed to four additional homicides and dozens of sexual assaults.",
     "words": 24
    },
    {
-    "id": "2.06#3",
+    "id": "2.07#3",
     "text": "He even sketched detailed floor plans and environmental maps of various crime scenes from memory after more than 30 years.",
     "words": 20
    },
    {
-    "id": "2.06#4",
+    "id": "2.07#4",
     "text": "He pinpointed exact bushes, irrigation ditches, and prevailing wind directions from each night without referencing investigative files.",
     "words": 17
    },
    {
-    "id": "2.06#5",
+    "id": "2.07#5",
     "text": "That uncanny precision demonstrated that he had mentally replayed those gruesome memories thousands of times like prized psychological trophies.",
     "words": 19
    },
    {
-    "id": "2.06#6",
+    "id": "2.07#6",
     "text": "According to detectives, he recounted every atrocity in a flat, conversational tone, displaying zero emotional remorse.",
     "words": 16
    },
    {
-    "id": "2.06#7",
+    "id": "2.07#7",
     "text": "In those past years, police officers had crossed paths with him multiple times without ever realizing who he was.",
     "words": 19
    }
   ]
  },
  {
-  "id": "2.07",
+  "id": "2.08",
   "act": 2,
   "kind": "SFX",
   "desc": "*Crisp sound of flipping investigative document pages, frustrated sigh of veteran police officers.*"
  },
  {
-  "id": "2.08",
+  "id": "2.09",
   "act": 2,
   "kind": "LOI",
   "role": "H",
@@ -517,73 +622,38 @@
   "text": "Lee Choon-jae's voluntary confession and smug composure exposed a bitter, ironic failure in the historical investigation. During the active killing spree, Lee Choon-jae had actually been stopped and questioned three separate times by local police as a suspicious resident. Each time, however, he was released, primarily because preliminary forensic tests at the time did not match his biological profile. Investigators back then were fixated exclusively on suspects with blood type B, whereas Lee Choon-jae possessed blood type O. That critical mismatch in blood typing became a virtual license to roam freely, allowing the monster to continue his reign of terror. The primitive state of forensic technology and an overreliance on subjective intuition allowed the nation's most dangerous predator to slip through their fingers. The devastating cost of those systemic shortcomings was the needless loss of additional innocent human lives.",
   "sentences": [
    {
-    "id": "2.08#1",
+    "id": "2.09#1",
     "text": "Lee Choon-jae's voluntary confession and smug composure exposed a bitter, ironic failure in the historical investigation.",
     "words": 16
    },
    {
-    "id": "2.08#2",
+    "id": "2.09#2",
     "text": "During the active killing spree, Lee Choon-jae had actually been stopped and questioned three separate times by local police as a suspicious resident.",
     "words": 23
    },
    {
-    "id": "2.08#3",
+    "id": "2.09#3",
     "text": "Each time, however, he was released, primarily because preliminary forensic tests at the time did not match his biological profile.",
     "words": 20
    },
    {
-    "id": "2.08#4",
+    "id": "2.09#4",
     "text": "Investigators back then were fixated exclusively on suspects with blood type B, whereas Lee Choon-jae possessed blood type O.",
     "words": 19
    },
    {
-    "id": "2.08#5",
+    "id": "2.09#5",
     "text": "That critical mismatch in blood typing became a virtual license to roam freely, allowing the monster to continue his reign of terror.",
     "words": 22
    },
    {
-    "id": "2.08#6",
+    "id": "2.09#6",
     "text": "The primitive state of forensic technology and an overreliance on subjective intuition allowed the nation's most dangerous predator to slip through their fingers.",
     "words": 23
    },
    {
-    "id": "2.08#7",
+    "id": "2.09#7",
     "text": "The devastating cost of those systemic shortcomings was the needless loss of additional innocent human lives.",
-    "words": 16
-   }
-  ]
- },
- {
-  "id": "2.09",
-  "act": 2,
-  "kind": "LOI",
-  "role": "D",
-  "direction": "D: probing the motives behind his late confession",
-  "text": "Consider the perplexing question every detective faced: why confess openly when the legal system can no longer impose additional penalties? According to public records, Lee Choon-jae remarked that once DNA evidence surfaced, maintaining deception was entirely pointless. He even looked back at the investigators with an arrogant smirk, asking: “I thought you guys would have caught me a long time ago.” Certain profilers noted that an overpowering craving for historical notoriety compelled him to unveil his dark secrets. Yet his comprehensive confession also exposed another grievous institutional injustice that had festered for three decades.",
-  "sentences": [
-   {
-    "id": "2.09#1",
-    "text": "Consider the perplexing question every detective faced: why confess openly when the legal system can no longer impose additional penalties?",
-    "words": 20
-   },
-   {
-    "id": "2.09#2",
-    "text": "According to public records, Lee Choon-jae remarked that once DNA evidence surfaced, maintaining deception was entirely pointless.",
-    "words": 17
-   },
-   {
-    "id": "2.09#3",
-    "text": "He even looked back at the investigators with an arrogant smirk, asking: “I thought you guys would have caught me a long time ago.”",
-    "words": 24
-   },
-   {
-    "id": "2.09#4",
-    "text": "Certain profilers noted that an overpowering craving for historical notoriety compelled him to unveil his dark secrets.",
-    "words": 17
-   },
-   {
-    "id": "2.09#5",
-    "text": "Yet his comprehensive confession also exposed another grievous institutional injustice that had festered for three decades.",
     "words": 16
    }
   ]
@@ -592,54 +662,89 @@
   "id": "2.10",
   "act": 2,
   "kind": "LOI",
+  "role": "D",
+  "direction": "D: probing the motives behind his late confession",
+  "text": "Consider the perplexing question every detective faced: why confess openly when the legal system can no longer impose additional penalties? According to public records, Lee Choon-jae remarked that once DNA evidence surfaced, maintaining deception was entirely pointless. He even looked back at the investigators with an arrogant smirk, asking: “I thought you guys would have caught me a long time ago.” Certain profilers noted that an overpowering craving for historical notoriety compelled him to unveil his dark secrets. Yet his comprehensive confession also exposed another grievous institutional injustice that had festered for three decades.",
+  "sentences": [
+   {
+    "id": "2.10#1",
+    "text": "Consider the perplexing question every detective faced: why confess openly when the legal system can no longer impose additional penalties?",
+    "words": 20
+   },
+   {
+    "id": "2.10#2",
+    "text": "According to public records, Lee Choon-jae remarked that once DNA evidence surfaced, maintaining deception was entirely pointless.",
+    "words": 17
+   },
+   {
+    "id": "2.10#3",
+    "text": "He even looked back at the investigators with an arrogant smirk, asking: “I thought you guys would have caught me a long time ago.”",
+    "words": 24
+   },
+   {
+    "id": "2.10#4",
+    "text": "Certain profilers noted that an overpowering craving for historical notoriety compelled him to unveil his dark secrets.",
+    "words": 17
+   },
+   {
+    "id": "2.10#5",
+    "text": "Yet his comprehensive confession also exposed another grievous institutional injustice that had festered for three decades.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "2.11",
+  "act": 2,
+  "kind": "LOI",
   "role": "H",
   "direction": "closing Act 2, revealing the wrongful conviction of Yoon Sung-yeo",
   "text": "Among the 10 Hwaseong cases, the eighth murder in 1988 had been officially declared solved by authorities following the arrest of a young man named Yoon Sung-yeo. That physically disabled man was subjected to severe coercion and served 20 grueling years in prison for a heinous crime he never committed. Driven by intense public pressure, police utilized physical torture, starvation, and sleep deprivation to extract a false confession from an impoverished young man unable to defend himself. That catastrophic miscarriage of justice robbed an innocent human being of his youth, honor, and future. Lee Choon-jae's unequivocal admission that he alone perpetrated the eighth murder triggered a nationwide reckoning within the South Korean judicial system. Historical truth was finally brought to light through the convergence of scientific certainty and moral conscience. Criminal psychologists subsequently embarked on dissecting Lee Choon-jae's personality architecture: a classic power-control serial predator. It was the chilling intersection of private sociopathic malice and the glaring vulnerabilities of an emerging judicial apparatus.",
   "sentences": [
    {
-    "id": "2.10#1",
+    "id": "2.11#1",
     "text": "Among the 10 Hwaseong cases, the eighth murder in 1988 had been officially declared solved by authorities following the arrest of a young man named Yoon Sung-yeo.",
     "words": 27
    },
    {
-    "id": "2.10#2",
+    "id": "2.11#2",
     "text": "That physically disabled man was subjected to severe coercion and served 20 grueling years in prison for a heinous crime he never committed.",
     "words": 23
    },
    {
-    "id": "2.10#3",
+    "id": "2.11#3",
     "text": "Driven by intense public pressure, police utilized physical torture, starvation, and sleep deprivation to extract a false confession from an impoverished young man unable to defend himself.",
     "words": 27
    },
    {
-    "id": "2.10#4",
+    "id": "2.11#4",
     "text": "That catastrophic miscarriage of justice robbed an innocent human being of his youth, honor, and future.",
     "words": 16
    },
    {
-    "id": "2.10#5",
+    "id": "2.11#5",
     "text": "Lee Choon-jae's unequivocal admission that he alone perpetrated the eighth murder triggered a nationwide reckoning within the South Korean judicial system.",
     "words": 21
    },
    {
-    "id": "2.10#6",
+    "id": "2.11#6",
     "text": "Historical truth was finally brought to light through the convergence of scientific certainty and moral conscience.",
     "words": 16
    },
    {
-    "id": "2.10#7",
+    "id": "2.11#7",
     "text": "Criminal psychologists subsequently embarked on dissecting Lee Choon-jae's personality architecture: a classic power-control serial predator.",
     "words": 15
    },
    {
-    "id": "2.10#8",
+    "id": "2.11#8",
     "text": "It was the chilling intersection of private sociopathic malice and the glaring vulnerabilities of an emerging judicial apparatus.",
     "words": 18
    }
   ]
  },
  {
-  "id": "2.11",
+  "id": "2.12",
   "act": 2,
   "kind": "BGM",
   "desc": "*Urgent, sharp violin phrases building dramatic tension before transitioning into deep analytical tones.*"
@@ -856,7 +961,7 @@
   "kind": "LOI",
   "role": "C",
   "direction": "C: Deconstructing Coerced Confession and psychological breakdown",
-  "text": "The case of Yoon Sung-yeo, wrongfully convicted for the eighth murder, represents an agonizing case study in Coerced Confession. According to Yoon's testimony and official findings, he was subjected to brutal sleep deprivation, severe physical abuse, and relentless coercion in 1989, forcing his signature onto a falsified confession. When human psychology is pushed to extreme physiological breaking points, an individual will readily admit to false charges merely to terminate immediate torment. Under prolonged torture and complete sensory isolation, an individual's cognitive defense mechanisms collapse into profound learned helplessness. When physical anguish eclipses the threshold of psychological endurance, short-term survival instincts compel surrender, even at the cost of lifelong honor. Lee Choon-jae's confession definitively cleared the path for judicial rehabilitation. It underscores that forensic science and procedural ethics must walk hand in hand to safeguard fundamental human rights. And the courtroom at Suwon District Court would soon bear witness to an extraordinary restoration of justice.",
+  "text": "The case of Yoon Sung-yeo, wrongfully convicted for the eighth murder, represents an agonizing case study in Coerced Confession. According to Yoon's testimony and official findings, he was subjected to brutal sleep deprivation, severe physical abuse, and relentless coercion in 1989, forcing his signature onto a falsified confession. When human psychology is pushed to extreme physiological breaking points, an individual will readily admit to false charges merely to terminate immediate torment. Under prolonged torture and complete sensory isolation, an individual's cognitive defense mechanisms collapse into profound learned helplessness. When physical anguish eclipses the threshold of psychological endurance, short-term survival instincts compel surrender, even at the cost of lifelong honor. To understand why an innocent young man like Yoon Sung-yeo signed a false murder confession, we must confront the absolute limits of human physiology. Under relentless physical abuse and seventy-two continuous hours of sleep deprivation, the human brain enters a state of severe \"Cognitive Resource Depletion. At that threshold, \"Temporal Discounting\" dominates all consciousness: the victim loses the capacity to weigh a future twenty-year prison sentence, desperate solely to end the physical agony in the immediate second. Signing that false confession was not an act of cowardice, but the inevitable biological collapse of an organism subjected to overwhelming trauma.",
   "sentences": [
    {
     "id": "3.07#1",
@@ -885,18 +990,23 @@
    },
    {
     "id": "3.07#6",
-    "text": "Lee Choon-jae's confession definitively cleared the path for judicial rehabilitation.",
-    "words": 10
+    "text": "To understand why an innocent young man like Yoon Sung-yeo signed a false murder confession, we must confront the absolute limits of human physiology.",
+    "words": 24
    },
    {
     "id": "3.07#7",
-    "text": "It underscores that forensic science and procedural ethics must walk hand in hand to safeguard fundamental human rights.",
-    "words": 18
+    "text": "Under relentless physical abuse and seventy-two continuous hours of sleep deprivation, the human brain enters a state of severe \"Cognitive Resource Depletion.",
+    "words": 22
    },
    {
     "id": "3.07#8",
-    "text": "And the courtroom at Suwon District Court would soon bear witness to an extraordinary restoration of justice.",
-    "words": 17
+    "text": "At that threshold, \"Temporal Discounting\" dominates all consciousness: the victim loses the capacity to weigh a future twenty-year prison sentence, desperate solely to end the physical agony in the immediate second.",
+    "words": 31
+   },
+   {
+    "id": "3.07#9",
+    "text": "Signing that false confession was not an act of cowardice, but the inevitable biological collapse of an organism subjected to overwhelming trauma.",
+    "words": 22
    }
   ]
  },
@@ -904,34 +1014,74 @@
   "id": "3.08",
   "act": 3,
   "kind": "LOI",
-  "role": "H",
-  "direction": "closing Act 3 and moving toward the historic retrial",
-  "text": "Forensic behavioral analyses completed the comprehensive profile of the Hwaseong serial killer and the surrounding systemic tragedies. Now, the attention of an entire nation turned toward a historic retrial to restore the honor of the innocent and officially close the darkest chapter of the century. It was a courtroom proceeding that could impose no new legal punishment upon the killer, yet offered supreme solace to the moral conscience of a nation. A sacred moment wherein objective truth and human dignity finally triumphed over state coercion and historical error.",
+  "role": "D",
+  "direction": "resolute, reflecting on institutional corruption",
+  "text": "Tragically, those who extracted that false confession were not common criminals, but sworn officers of the law. Under crushing institutional pressure to close cases, they compromised their moral compass, turning an impoverished, disabled young man into an expendable scapegoat to quell public outrage. That gradual ethical decay serves as an enduring warning for criminal justice: whenever justice is subordinated to quota pressure and confirmation bias, the enforcers of law can easily become the authors of catastrophic tragedy. Lee Choon-jae's confession definitively cleared the path for judicial rehabilitation. It underscores that forensic science and procedural ethics must walk hand in hand to safeguard fundamental human rights. And the courtroom at Suwon District Court would soon bear witness to an extraordinary restoration of justice.",
   "sentences": [
    {
     "id": "3.08#1",
-    "text": "Forensic behavioral analyses completed the comprehensive profile of the Hwaseong serial killer and the surrounding systemic tragedies.",
+    "text": "Tragically, those who extracted that false confession were not common criminals, but sworn officers of the law.",
     "words": 17
    },
    {
     "id": "3.08#2",
-    "text": "Now, the attention of an entire nation turned toward a historic retrial to restore the honor of the innocent and officially close the darkest chapter of the century.",
-    "words": 28
-   },
-   {
-    "id": "3.08#3",
-    "text": "It was a courtroom proceeding that could impose no new legal punishment upon the killer, yet offered supreme solace to the moral conscience of a nation.",
+    "text": "Under crushing institutional pressure to close cases, they compromised their moral compass, turning an impoverished, disabled young man into an expendable scapegoat to quell public outrage.",
     "words": 26
    },
    {
+    "id": "3.08#3",
+    "text": "That gradual ethical decay serves as an enduring warning for criminal justice: whenever justice is subordinated to quota pressure and confirmation bias, the enforcers of law can easily become the authors of catastrophic tragedy.",
+    "words": 34
+   },
+   {
     "id": "3.08#4",
-    "text": "A sacred moment wherein objective truth and human dignity finally triumphed over state coercion and historical error.",
+    "text": "Lee Choon-jae's confession definitively cleared the path for judicial rehabilitation.",
+    "words": 10
+   },
+   {
+    "id": "3.08#5",
+    "text": "It underscores that forensic science and procedural ethics must walk hand in hand to safeguard fundamental human rights.",
+    "words": 18
+   },
+   {
+    "id": "3.08#6",
+    "text": "And the courtroom at Suwon District Court would soon bear witness to an extraordinary restoration of justice.",
     "words": 17
    }
   ]
  },
  {
   "id": "3.09",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "closing Act 3 and moving toward the historic retrial",
+  "text": "Forensic behavioral analyses completed the comprehensive profile of the Hwaseong serial killer and the surrounding systemic tragedies. Now, the attention of an entire nation turned toward a historic retrial to restore the honor of the innocent and officially close the darkest chapter of the century. It was a courtroom proceeding that could impose no new legal punishment upon the killer, yet offered supreme solace to the moral conscience of a nation. A sacred moment wherein objective truth and human dignity finally triumphed over state coercion and historical error.",
+  "sentences": [
+   {
+    "id": "3.09#1",
+    "text": "Forensic behavioral analyses completed the comprehensive profile of the Hwaseong serial killer and the surrounding systemic tragedies.",
+    "words": 17
+   },
+   {
+    "id": "3.09#2",
+    "text": "Now, the attention of an entire nation turned toward a historic retrial to restore the honor of the innocent and officially close the darkest chapter of the century.",
+    "words": 28
+   },
+   {
+    "id": "3.09#3",
+    "text": "It was a courtroom proceeding that could impose no new legal punishment upon the killer, yet offered supreme solace to the moral conscience of a nation.",
+    "words": 26
+   },
+   {
+    "id": "3.09#4",
+    "text": "A sacred moment wherein objective truth and human dignity finally triumphed over state coercion and historical error.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "3.10",
   "act": 3,
   "kind": "BGM",
   "desc": "*Deep, warm piano melodies emerge, preparing for the solemn atmosphere of the historic courtroom.*"
@@ -1082,11 +1232,66 @@
  {
   "id": "4.07",
   "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "solemn, questioning institutional awakening",
+  "text": "After thirty years of silence and institutional denial, what compelled police leadership to bow in humble repentance before the entire nation in 2020? What was the precise psychological mechanism that dismantled the unyielding wall of bureaucratic self-preservation?",
+  "sentences": [
+   {
+    "id": "4.07#1",
+    "text": "After thirty years of silence and institutional denial, what compelled police leadership to bow in humble repentance before the entire nation in 2020?",
+    "words": 23
+   },
+   {
+    "id": "4.07#2",
+    "text": "What was the precise psychological mechanism that dismantled the unyielding wall of bureaucratic self-preservation?",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "4.08",
+  "act": 4,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "decoding moral injury and the collapse of rationalization",
+  "text": "The awakening and repentance of the police force in the Hwaseong case was driven by the catastrophic collapse of \"Cognitive Self-Deception\" under the indisputable weight of modern forensic science. For three decades, past investigators could reassure their consciences that they had merely committed minor procedural errors. However, when Lee Choon-jae's DNA matched conclusively, and when the perpetrator effortlessly drew the exact floor plan of case number eight without case files, every layer of rationalization evaporated. Law enforcement was confronted with profound \"Moral Injury\"—the psychological devastation of recognizing that their own actions had stolen half a lifetime from an innocent disabled man. That public bow of apology was far more than legal compliance; it was a desperate psychological necessity to unburden their collective conscience from thirty years of repressed guilt.",
+  "sentences": [
+   {
+    "id": "4.08#1",
+    "text": "The awakening and repentance of the police force in the Hwaseong case was driven by the catastrophic collapse of \"Cognitive Self-Deception\" under the indisputable weight of modern forensic science.",
+    "words": 29
+   },
+   {
+    "id": "4.08#2",
+    "text": "For three decades, past investigators could reassure their consciences that they had merely committed minor procedural errors.",
+    "words": 17
+   },
+   {
+    "id": "4.08#3",
+    "text": "However, when Lee Choon-jae's DNA matched conclusively, and when the perpetrator effortlessly drew the exact floor plan of case number eight without case files, every layer of rationalization evaporated.",
+    "words": 29
+   },
+   {
+    "id": "4.08#4",
+    "text": "Law enforcement was confronted with profound \"Moral Injury\"—the psychological devastation of recognizing that their own actions had stolen half a lifetime from an innocent disabled man.",
+    "words": 26
+   },
+   {
+    "id": "4.08#5",
+    "text": "That public bow of apology was far more than legal compliance; it was a desperate psychological necessity to unburden their collective conscience from thirty years of repressed guilt.",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "4.09",
+  "act": 4,
   "kind": "SFX",
   "desc": "*Heavy, metallic clang of prison transport vehicle doors shutting resolutely.*"
  },
  {
-  "id": "4.08",
+  "id": "4.10",
   "act": 4,
   "kind": "LOI",
   "role": "H",
@@ -1094,119 +1299,24 @@
   "text": "Lee Choon-jae could receive no new judicial sentence due to the statutory expiration dating back to 2006. Nevertheless, he continues to serve life imprisonment without parole for his separate 1994 conviction. While judicial statutes may limit legal penalties, the verdict of human conscience and history will permanently brand his name in infamy. Consider the personal reflections witnessed by a lifelong advocate of Yoon Sung-yeo throughout this arduous journey.",
   "sentences": [
    {
-    "id": "4.08#1",
+    "id": "4.10#1",
     "text": "Lee Choon-jae could receive no new judicial sentence due to the statutory expiration dating back to 2006.",
     "words": 17
    },
    {
-    "id": "4.08#2",
+    "id": "4.10#2",
     "text": "Nevertheless, he continues to serve life imprisonment without parole for his separate 1994 conviction.",
     "words": 14
    },
    {
-    "id": "4.08#3",
+    "id": "4.10#3",
     "text": "While judicial statutes may limit legal penalties, the verdict of human conscience and history will permanently brand his name in infamy.",
     "words": 21
    },
    {
-    "id": "4.08#4",
+    "id": "4.10#4",
     "text": "Consider the personal reflections witnessed by a lifelong advocate of Yoon Sung-yeo throughout this arduous journey.",
     "words": 16
-   }
-  ]
- },
- {
-  "id": "4.09",
-  "act": 4,
-  "kind": "LOI",
-  "role": "N",
-  "direction": "N2: Advocate and close friend of Yoon Sung-yeo, emotional yet resolute",
-  "text": "For over 30 years, Yoon's life resembled an endless, suffocating nightmare. He was merely an impoverished, disabled young man repairing farm machinery, yet he was scapegoated and coerced into taking the blame for another's crime. He endured 20 years in prison, lost his youth, and upon release continued to suffer under the heavy stigma of public ostracism. Yet his unshakeable faith in his own innocence sustained him as he waited for the day the truth would be exposed. The moment the judge declared him innocent, the crushing boulder that had weighed upon half his life was finally lifted. No monetary compensation could ever restore the two decades of stolen youth taken from his soul. Yet the paramount victory was that his human dignity and honorable name were completely vindicated. He wishes to impart to anyone enduring adversity: please never surrender your faith in moral righteousness and truth. May no innocent human being ever again endure the harrowing injustice that was visited upon him.",
-  "sentences": [
-   {
-    "id": "4.09#1",
-    "text": "For over 30 years, Yoon's life resembled an endless, suffocating nightmare.",
-    "words": 11
-   },
-   {
-    "id": "4.09#2",
-    "text": "He was merely an impoverished, disabled young man repairing farm machinery, yet he was scapegoated and coerced into taking the blame for another's crime.",
-    "words": 24
-   },
-   {
-    "id": "4.09#3",
-    "text": "He endured 20 years in prison, lost his youth, and upon release continued to suffer under the heavy stigma of public ostracism.",
-    "words": 22
-   },
-   {
-    "id": "4.09#4",
-    "text": "Yet his unshakeable faith in his own innocence sustained him as he waited for the day the truth would be exposed.",
-    "words": 21
-   },
-   {
-    "id": "4.09#5",
-    "text": "The moment the judge declared him innocent, the crushing boulder that had weighed upon half his life was finally lifted.",
-    "words": 20
-   },
-   {
-    "id": "4.09#6",
-    "text": "No monetary compensation could ever restore the two decades of stolen youth taken from his soul.",
-    "words": 16
-   },
-   {
-    "id": "4.09#7",
-    "text": "Yet the paramount victory was that his human dignity and honorable name were completely vindicated.",
-    "words": 15
-   },
-   {
-    "id": "4.09#8",
-    "text": "He wishes to impart to anyone enduring adversity: please never surrender your faith in moral righteousness and truth.",
-    "words": 18
-   },
-   {
-    "id": "4.09#9",
-    "text": "May no innocent human being ever again endure the harrowing injustice that was visited upon him.",
-    "words": 16
-   }
-  ]
- },
- {
-  "id": "4.10",
-  "act": 4,
-  "kind": "LOI",
-  "role": "D",
-  "direction": "D: The Taewan Act and systemic legislative reforms",
-  "text": "The Hwaseong tragedy served as a profound catalyst for sweeping judicial reforms across South Korea. In 2015, the National Assembly passed the landmark Taewan Act, completely abolishing the statute of limitations for first-degree murder cases carrying capital punishment. This vital legislative reform ensures that perpetrators of such heinous crimes can now be prosecuted regardless of how much time has elapsed. The legislation stands as a historic milestone, affirming that time will never afford a safe sanctuary for murder. Concurrently, mandatory audio and video recording during interrogations has been widely institutionalized to eliminate coercion. These systemic advancements were purchased through the tears, suffering, and sacrifices of an entire generation.",
-  "sentences": [
-   {
-    "id": "4.10#1",
-    "text": "The Hwaseong tragedy served as a profound catalyst for sweeping judicial reforms across South Korea.",
-    "words": 15
-   },
-   {
-    "id": "4.10#2",
-    "text": "In 2015, the National Assembly passed the landmark Taewan Act, completely abolishing the statute of limitations for first-degree murder cases carrying capital punishment.",
-    "words": 23
-   },
-   {
-    "id": "4.10#3",
-    "text": "This vital legislative reform ensures that perpetrators of such heinous crimes can now be prosecuted regardless of how much time has elapsed.",
-    "words": 22
-   },
-   {
-    "id": "4.10#4",
-    "text": "The legislation stands as a historic milestone, affirming that time will never afford a safe sanctuary for murder.",
-    "words": 18
-   },
-   {
-    "id": "4.10#5",
-    "text": "Concurrently, mandatory audio and video recording during interrogations has been widely institutionalized to eliminate coercion.",
-    "words": 15
-   },
-   {
-    "id": "4.10#6",
-    "text": "These systemic advancements were purchased through the tears, suffering, and sacrifices of an entire generation.",
-    "words": 15
    }
   ]
  },
@@ -1214,29 +1324,74 @@
   "id": "4.11",
   "act": 4,
   "kind": "LOI",
-  "role": "C",
-  "direction": "C: Forensic science and ethics guarding justice",
-  "text": "The paramount lesson of the Lee Choon-jae case is a stern warning against investigations steered by subjective bias and blind overconfidence in speculative hypotheses. Modern forensic science, particularly advanced DNA technology and rigorous behavioral profiling, serves as an indispensable bulwark for objective reality. A progressive judicial system must remain fundamentally skeptical of subjective assumptions while maintaining supreme reverence for independent physical evidence. The seamless integration of professional ethics and precise scientific methodology constitutes our strongest foundation for deterring crime and protecting innocent human lives.",
+  "role": "N",
+  "direction": "N2: Advocate and close friend of Yoon Sung-yeo, emotional yet resolute",
+  "text": "For over 30 years, Yoon's life resembled an endless, suffocating nightmare. He was merely an impoverished, disabled young man repairing farm machinery, yet he was scapegoated and coerced into taking the blame for another's crime. He endured 20 years in prison, lost his youth, and upon release continued to suffer under the heavy stigma of public ostracism. Yet his unshakeable faith in his own innocence sustained him as he waited for the day the truth would be exposed. The moment the judge declared him innocent, the crushing boulder that had weighed upon half his life was finally lifted. No monetary compensation could ever restore the two decades of stolen youth taken from his soul. Yet the paramount victory was that his human dignity and honorable name were completely vindicated. He wishes to impart to anyone enduring adversity: please never surrender your faith in moral righteousness and truth. May no innocent human being ever again endure the harrowing injustice that was visited upon him. Standing in that courtroom in 2020, watching the former investigators bow their heads in tears before me, the lingering fire of bitterness in my heart dissolved into profound sorrow. I realized that vengeance could never reclaim the twenty years of stolen youth; it would only keep my soul chained within the prison of the past. Their belated apology, while powerless to erase the cold beatings of 1989, finally restored my sacred dignity as a human being. I chose forgiveness not because their grave error was trivial, but to liberate myself and to grant those flawed men an opportunity to reclaim their lost humanity.",
   "sentences": [
    {
     "id": "4.11#1",
-    "text": "The paramount lesson of the Lee Choon-jae case is a stern warning against investigations steered by subjective bias and blind overconfidence in speculative hypotheses.",
-    "words": 24
+    "text": "For over 30 years, Yoon's life resembled an endless, suffocating nightmare.",
+    "words": 11
    },
    {
     "id": "4.11#2",
-    "text": "Modern forensic science, particularly advanced DNA technology and rigorous behavioral profiling, serves as an indispensable bulwark for objective reality.",
-    "words": 19
+    "text": "He was merely an impoverished, disabled young man repairing farm machinery, yet he was scapegoated and coerced into taking the blame for another's crime.",
+    "words": 24
    },
    {
     "id": "4.11#3",
-    "text": "A progressive judicial system must remain fundamentally skeptical of subjective assumptions while maintaining supreme reverence for independent physical evidence.",
-    "words": 19
+    "text": "He endured 20 years in prison, lost his youth, and upon release continued to suffer under the heavy stigma of public ostracism.",
+    "words": 22
    },
    {
     "id": "4.11#4",
-    "text": "The seamless integration of professional ethics and precise scientific methodology constitutes our strongest foundation for deterring crime and protecting innocent human lives.",
-    "words": 22
+    "text": "Yet his unshakeable faith in his own innocence sustained him as he waited for the day the truth would be exposed.",
+    "words": 21
+   },
+   {
+    "id": "4.11#5",
+    "text": "The moment the judge declared him innocent, the crushing boulder that had weighed upon half his life was finally lifted.",
+    "words": 20
+   },
+   {
+    "id": "4.11#6",
+    "text": "No monetary compensation could ever restore the two decades of stolen youth taken from his soul.",
+    "words": 16
+   },
+   {
+    "id": "4.11#7",
+    "text": "Yet the paramount victory was that his human dignity and honorable name were completely vindicated.",
+    "words": 15
+   },
+   {
+    "id": "4.11#8",
+    "text": "He wishes to impart to anyone enduring adversity: please never surrender your faith in moral righteousness and truth.",
+    "words": 18
+   },
+   {
+    "id": "4.11#9",
+    "text": "May no innocent human being ever again endure the harrowing injustice that was visited upon him.",
+    "words": 16
+   },
+   {
+    "id": "4.11#10",
+    "text": "Standing in that courtroom in 2020, watching the former investigators bow their heads in tears before me, the lingering fire of bitterness in my heart dissolved into profound sorrow.",
+    "words": 29
+   },
+   {
+    "id": "4.11#11",
+    "text": "I realized that vengeance could never reclaim the twenty years of stolen youth; it would only keep my soul chained within the prison of the past.",
+    "words": 26
+   },
+   {
+    "id": "4.11#12",
+    "text": "Their belated apology, while powerless to erase the cold beatings of 1989, finally restored my sacred dignity as a human being.",
+    "words": 21
+   },
+   {
+    "id": "4.11#13",
+    "text": "I chose forgiveness not because their grave error was trivial, but to liberate myself and to grant those flawed men an opportunity to reclaim their lost humanity.",
+    "words": 27
    }
   ]
  },
@@ -1244,29 +1399,99 @@
   "id": "4.12",
   "act": 4,
   "kind": "LOI",
+  "role": "D",
+  "direction": "D: The Taewan Act and systemic legislative reforms",
+  "text": "The Hwaseong tragedy served as a profound catalyst for sweeping judicial reforms across South Korea. In 2015, the National Assembly passed the landmark Taewan Act, completely abolishing the statute of limitations for first-degree murder cases carrying capital punishment. This vital legislative reform ensures that perpetrators of such heinous crimes can now be prosecuted regardless of how much time has elapsed. The legislation stands as a historic milestone, affirming that time will never afford a safe sanctuary for murder. Concurrently, mandatory audio and video recording during interrogations has been widely institutionalized to eliminate coercion. These systemic advancements were purchased through the tears, suffering, and sacrifices of an entire generation.",
+  "sentences": [
+   {
+    "id": "4.12#1",
+    "text": "The Hwaseong tragedy served as a profound catalyst for sweeping judicial reforms across South Korea.",
+    "words": 15
+   },
+   {
+    "id": "4.12#2",
+    "text": "In 2015, the National Assembly passed the landmark Taewan Act, completely abolishing the statute of limitations for first-degree murder cases carrying capital punishment.",
+    "words": 23
+   },
+   {
+    "id": "4.12#3",
+    "text": "This vital legislative reform ensures that perpetrators of such heinous crimes can now be prosecuted regardless of how much time has elapsed.",
+    "words": 22
+   },
+   {
+    "id": "4.12#4",
+    "text": "The legislation stands as a historic milestone, affirming that time will never afford a safe sanctuary for murder.",
+    "words": 18
+   },
+   {
+    "id": "4.12#5",
+    "text": "Concurrently, mandatory audio and video recording during interrogations has been widely institutionalized to eliminate coercion.",
+    "words": 15
+   },
+   {
+    "id": "4.12#6",
+    "text": "These systemic advancements were purchased through the tears, suffering, and sacrifices of an entire generation.",
+    "words": 15
+   }
+  ]
+ },
+ {
+  "id": "4.13",
+  "act": 4,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "C: Forensic science and ethics guarding justice",
+  "text": "The paramount lesson of the Lee Choon-jae case is a stern warning against investigations steered by subjective bias and blind overconfidence in speculative hypotheses. Modern forensic science, particularly advanced DNA technology and rigorous behavioral profiling, serves as an indispensable bulwark for objective reality. A progressive judicial system must remain fundamentally skeptical of subjective assumptions while maintaining supreme reverence for independent physical evidence. The seamless integration of professional ethics and precise scientific methodology constitutes our strongest foundation for deterring crime and protecting innocent human lives.",
+  "sentences": [
+   {
+    "id": "4.13#1",
+    "text": "The paramount lesson of the Lee Choon-jae case is a stern warning against investigations steered by subjective bias and blind overconfidence in speculative hypotheses.",
+    "words": 24
+   },
+   {
+    "id": "4.13#2",
+    "text": "Modern forensic science, particularly advanced DNA technology and rigorous behavioral profiling, serves as an indispensable bulwark for objective reality.",
+    "words": 19
+   },
+   {
+    "id": "4.13#3",
+    "text": "A progressive judicial system must remain fundamentally skeptical of subjective assumptions while maintaining supreme reverence for independent physical evidence.",
+    "words": 19
+   },
+   {
+    "id": "4.13#4",
+    "text": "The seamless integration of professional ethics and precise scientific methodology constitutes our strongest foundation for deterring crime and protecting innocent human lives.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "4.14",
+  "act": 4,
+  "kind": "LOI",
   "role": "H",
   "direction": "closing Act 4",
   "text": "Thirty-three years shrouded in dense fog have officially drawn to a close. The sacred names and enduring dignity of the innocent women lost decades ago have finally been restored to the reverence they rightfully deserve. Yet the lessons of community safety and vigilance against concealed predators remain an enduring, invaluable legacy.",
   "sentences": [
    {
-    "id": "4.12#1",
+    "id": "4.14#1",
     "text": "Thirty-three years shrouded in dense fog have officially drawn to a close.",
     "words": 12
    },
    {
-    "id": "4.12#2",
+    "id": "4.14#2",
     "text": "The sacred names and enduring dignity of the innocent women lost decades ago have finally been restored to the reverence they rightfully deserve.",
     "words": 23
    },
    {
-    "id": "4.12#3",
+    "id": "4.14#3",
     "text": "Yet the lessons of community safety and vigilance against concealed predators remain an enduring, invaluable legacy.",
     "words": 16
    }
   ]
  },
  {
-  "id": "4.13",
+  "id": "4.15",
   "act": 4,
   "kind": "BGM",
   "desc": "*Gentle, warm piano melodies create an open reflective space for practical survival lessons.*"
@@ -1348,7 +1573,7 @@
   "kind": "LOI",
   "role": "C",
   "direction": "C: The predatory nature of nocturnal stalkers",
-  "text": "Nocturnal predatory offenders routinely exploit geographic isolation, darkness, and lapses in situational awareness to perpetrate violence. They typically conduct preliminary reconnaissance, surveilling behavioral routines to strike when their target is most isolated. Behavioral psychology affirms that innate human intuition and unease represent an invaluable evolutionary gift, signaling peril before logical reasoning engages. Elevating personal situational awareness, varying travel routes, and avoiding walking alone through unlit spaces remain fundamental survival tenets. Vigilant familial support and cohesive neighborhood networks serve as our strongest fortress in deterring predatory intrusion.",
+  "text": "Nocturnal predatory offenders routinely exploit geographic isolation, darkness, and lapses in situational awareness to perpetrate violence. They typically conduct preliminary reconnaissance, surveilling behavioral routines to strike when their target is most isolated. Behavioral psychology affirms that innate human intuition and unease represent an invaluable evolutionary gift, signaling peril before logical reasoning engages. Elevating personal situational awareness, varying travel routes, and avoiding walking alone through unlit spaces remain fundamental survival tenets. Vigilant familial support and cohesive neighborhood networks serve as our strongest fortress in deterring predatory intrusion. The closure of the Lee Choon-jae case marks not merely a triumph of forensic DNA technology, but the moral ascension of a society courageous enough to confront its own past. A truly civilized society is not one immune to failure, but one that dares to look directly into its historical wounds in order to reform and heal. The hard-won freedom and vindicated honor of Yoon Sung-yeo stand as a sacred testament: the ultimate benchmark of justice lies not in the severity of punishment inflicted upon the guilty, but in the unyielding protection of the dignity of the most vulnerable before the shadows of authority.",
   "sentences": [
    {
     "id": "5.04#1",
@@ -1374,6 +1599,21 @@
     "id": "5.04#5",
     "text": "Vigilant familial support and cohesive neighborhood networks serve as our strongest fortress in deterring predatory intrusion.",
     "words": 16
+   },
+   {
+    "id": "5.04#6",
+    "text": "The closure of the Lee Choon-jae case marks not merely a triumph of forensic DNA technology, but the moral ascension of a society courageous enough to confront its own past.",
+    "words": 30
+   },
+   {
+    "id": "5.04#7",
+    "text": "A truly civilized society is not one immune to failure, but one that dares to look directly into its historical wounds in order to reform and heal.",
+    "words": 27
+   },
+   {
+    "id": "5.04#8",
+    "text": "The hard-won freedom and vindicated honor of Yoon Sung-yeo stand as a sacred testament: the ultimate benchmark of justice lies not in the severity of punishment inflicted upon the guilty, but in the unyielding protection of the dignity of the most vulnerable before the shadows of authority.",
+    "words": 47
    }
   ]
  },

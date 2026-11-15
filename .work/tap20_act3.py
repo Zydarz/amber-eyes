@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Act 3 data for Episode 20: 43 sentences across VN, EN, JA, KO."""
+"""Act 3 data for Episode 20 (241 sentences across VN, EN, JA, KO)."""
 
 ACT3_VN = [
     ("BGM", "Tiếng đàn Dương cầm tối giản kết hợp cùng âm vang Drone sâu lắng, tạo không gian phân tích hành vi chuyên sâu."),
@@ -21,6 +21,8 @@ ACT3_VN = [
         "Việc ngắm nhìn và bí mật kiểm soát cuộc sống của Lauren đã tạo ra trong hắn một ảo tưởng sở hữu bệnh hoạn.",
         "Hắn xem cô như một phần thưởng xứng đáng cho trí tuệ vượt trội của mình, một báu vật mà hắn có quyền độc chiếm.",
         "Và bất kỳ dấu hiệu nào đe dọa tước bỏ quyền kiểm soát ấy đều bị hắn coi là sự sỉ nhục cái tôi không thể tha thứ.",
+        "Dưới góc độ tâm thần học pháp y, Stephen McDaniel mang đặc trưng điển hình của sự khuyết tật nghiêm trọng về Thuyết Tâm Trí.",
+        "Hắn hoàn toàn không có khả năng thấu cảm để đặt mình vào vị trí của người khác, xem những người xung quanh chỉ như những công cụ phục vụ cho cái tôi ái kỷ của mình.",
     ]),
     ("LOI", "HOST", "tiếp nối, dẫn dắt vào ngòi nổ tâm lý", [
         "Sự kiêu ngạo bệnh hoạn của một kẻ tin rằng mình sở hữu trí tuệ vượt trội đã dẫn dắt hắn đến một điểm gãy tâm lý chí tử.",
@@ -38,6 +40,8 @@ ACT3_VN = [
         "Sự ám ảnh rình rập âm thầm suốt nhiều tháng lập tức biến thành một quyết định đột nhập và tước đoạt sinh mạng mang tính toán lạnh lùng.",
         "Hắn sử dụng chìa khóa vạn năng như một công cụ hiện thực hóa ảo tưởng quyền năng tối thượng của mình.",
         "Đó không phải là một hành vi bộc phát nhất thời, mà là một tội ác được chuẩn bị với sự toan tính cặn kẽ của một bộ óc bệnh lý.",
+        "Khi nhìn thấy những chiếc hộp đóng gói đồ đạc của Lauren, bộ não ái kỷ của McDaniel phải đối mặt với một cơn sang chấn mang tên Tổn Thương Ái Kỷ Cấp Tính.",
+        "Nỗi hoảng sợ trước sự sụp đổ của ảo tưởng kiểm soát đã thúc đẩy hắn đi đến một kết luận bệnh lý: thà hủy diệt mục tiêu còn hơn là chấp nhận để đối tượng thoát khỏi tầm tay.",
     ]),
     ("LOI", "HOST", "chuyển sang phân tích phản ứng đóng băng sinh lý", [
         "Sự tự tin thái quá vào trí thông minh của bản thân cũng là một nét tính cách cốt lõi định hình hành vi phạm tội của Stephen McDaniel.",
@@ -53,6 +57,8 @@ ACT3_VN = [
         "Tại phòng thẩm vấn, sự bất động như tượng đá suốt nhiều giờ là chiến thuật phòng vệ nhân tạo mô phỏng phản xạ này nhằm triệt tiêu vi biểu cảm.",
         "Hắn ngây thơ tin rằng nếu giữ cơ thể bất động hoàn toàn thì các điều tra viên sẽ không thể đọc được tâm lý tội lỗi bên trong.",
         "Nhưng trong tâm thần học pháp y, sự bất động gượng gạo phi tự nhiên ấy lại chính là lời xác nhận rõ ràng nhất về sự sụp đổ của một cái tôi tội phạm.",
+        "Hiện tượng bất động như tượng đá trong phòng hỏi cung của McDaniel thực chất là sự mô phỏng có ý thức của phản xạ Bất Động Sinh Học.",
+        "Trong tự nhiên, khi kẻ săn mồi nhận ra không thể trốn chạy hay chống cự, cơ thể nó sẽ giả chết như một nỗ lực cuối cùng để vô hiệu hóa sự chú ý của đối phương.",
     ]),
     ("LOI", "HOST", "chốt lại Hồi 3, chuyển sang phiên tòa phán quyết", [
         "Chiếc bẫy tâm lý mà McDaniel tự giăng ra cho chính mình đã trở thành bằng chứng đanh thép bóc trần bản chất thật của vụ án.",
@@ -83,6 +89,8 @@ ACT3_EN = [
         "Peeping into her life and secretly chronicling her movements generated a pathological delusion of absolute psychological ownership.",
         "He regarded her as a fitting trophy for his perceived intellectual superiority, a prized possession over which he held exclusive entitlement.",
         "Consequently, any development threatening to sever that perceived dominion was experienced as an intolerable narcissistic injury.",
+        "From a forensic psychiatric perspective, Stephen McDaniel exhibited a profound deficit in Theory of Mind.",
+        "He possessed no capacity for emotional empathy to see others as sovereign individuals, viewing surrounding people merely as instruments to gratify his narcissistic ego.",
     ]),
     ("LOI", "HOST", "probing, detailing the critical tipping point", [
         "The arrogant grandiosity of a man convinced of his intellectual supremacy inexorably drove him toward a fatal psychological fracture.",
@@ -100,6 +108,8 @@ ACT3_EN = [
         "Months of silent voyeuristic obsession instantly transformed into a premeditated operational decision to breach her home and extinguish her life.",
         "He weaponized the stolen passkey as the instrument to consummate his fantasy of omnipotent dominance.",
         "This was never an impulsive crime of passion, but an execution prepared with clinical premeditation by a pathological mind.",
+        "Seeing Lauren's packed moving boxes confronted McDaniel's narcissistic brain with an agonizing trauma known as Acute Narcissistic Injury.",
+        "The terror of losing his delusional omnipotence drove him to a pathological conclusion: better to destroy the target than allow her to escape his control.",
     ]),
     ("LOI", "HOST", "shifting focus to the physiological freeze response", [
         "An overweening faith in his own intellect was the central pillar underpinning Stephen McDaniel’s criminal conduct.",
@@ -115,6 +125,8 @@ ACT3_EN = [
         "Inside the interrogation suite, his hours of statue-like immobility represented an artificial defense strategy simulating tonic immobility to suppress micro-expressions.",
         "He naively calculated that by suppressing all physical motion, interrogators would be unable to decode his internal deception.",
         "Yet in forensic psychiatry, that strained, unnatural petrification was the most transparent testament to the total collapse of his criminal ego.",
+        "McDaniel’s stone-like immobility in the interrogation room was a conscious simulation of the biological reflex known as Tonic Immobility.",
+        "In nature, when an organism realizes fight or flight is impossible, it feigns death as an ultimate biological effort to neutralize the opponent's focus.",
     ]),
     ("LOI", "HOST", "closing Act 3, transitioning toward the judicial resolution", [
         "The psychological fortress McDaniel constructed for himself ultimately became an inescapable trap validating his guilt.",
@@ -145,6 +157,8 @@ ACT3_JA = [
         "ローレンの私生活を観察し秘密裏にコントロールすることは、彼の心の中に病的な所有の幻想を肥大化させました。",
         "彼は彼女を自らの優れた知性に見合う正当な報酬であり、自らだけが独占できる宝物であると思い込んでいました。",
         "したがって、その支配の幻想を脅かすいかなる現実の兆候も、彼にとっては決して許すことのできない自尊心への致命傷となったのです。",
+        "司法精神医学の観点から見れば、スティーブン・マクダニエルは心の理論における深刻な欠陥という典型的な特徴を示していました。",
+        "彼は他者の立場に立って共感する能力を完全に欠いており、周囲の人間を自らの自己愛を満たすための道具としてしか認識していなかったのです。",
     ]),
     ("LOI", "ホスト", "心理的破局の引き金へと焦点を移す", [
         "自分は並外れた頭脳の持ち主であるという病的な傲慢さが、彼を破滅的な心理的限界点へと押し流していきました。",
@@ -162,6 +176,8 @@ ACT3_JA = [
         "数ヶ月に及んだ静かなストーキングの妄想は、密かに侵入して命を奪うという冷酷に計算された現実の犯行へと即座に転化しました。",
         "彼は合鍵を自らの全能感を成就させる道具として悪用したのです。",
         "これは衝動的な過失などではなく、病的な頭脳が冷徹な計算の下で準備した計画的な凶行でした。",
+        "ローレンの荷造りされた段ボール箱を目にしたとき、マクダニエルの自己愛的な脳は急性自己愛損傷という激しい打撃に直面しました。",
+        "支配という妄想の崩壊に対する恐怖が、対象が自分の手から永遠に離れるのを許すくらいなら完全に破壊してしまう方がましだという病理的結論へと彼を駆り立てたのです。",
     ]),
     ("LOI", "ホスト", "生理学的な凍結反応の分析へと移行する", [
         "己の知性に対する過信は、スティーブン・マクダニエルの犯行全体を支配する中核的な心理傾向でした。",
@@ -177,6 +193,8 @@ ACT3_JA = [
         "取調室で彼が見せた何時間もの石像のような不動は、微表情を完全に殺すためにこの反射を人工的に模倣した防衛策でした。",
         "身体を完全に固めていれば、捜査官に内面の罪悪感を読み取られることはないと彼は子供じみた計算をしていたのです。",
         "しかし司法精神医学の観点から見れば、その不自然極まりない硬直こそが、犯行の自我が完全に崩壊した動かぬ証明に他なりませんでした。",
+        "取調べ室におけるマクダニエルの石像のような不動は、強直性不動と呼ばれる生物学的反射を意識的に模倣したものでした。",
+        "自然界において、闘争も逃走も不可能だと悟った生物は、敵の注意を無力化するための最終的な生存戦略として擬死状態に陥るのです。",
     ]),
     ("LOI", "ホスト", "第3幕を総括し、法廷での裁きへと導く", [
         "マクダニエルが自ら張り巡らせた心理的な罠は、皮肉にも事件の残酷な真相を立証する決定的な証拠となりました。",
@@ -189,7 +207,7 @@ ACT3_JA = [
 
 ACT3_KO = [
     ("BGM", "미니멀 피아노와 묵직한 공간 드론이 어우러지며, 심층 행동 분석을 위한 공간을 연출한다."),
-    ("LOI", "호스트", "차분하고 전문적인 어조로 범죄 심리학적 논의를 이끈다", [
+    ("LOI", "진행자", "차분하고 전문적인 어조로 범죄 심리학적 논의를 이끈다", [
         "Stephen McDaniel 사건은 법정신과학 교과서에서 포식적 스토킹, 즉 Predatory Stalking의 전형적인 사례로 깊이 있게 다루어집니다.",
         "공공연한 괴롭힘을 일삼는 자들과 달리, 은밀한 포식적 스토커들은 내성적이고 무해한 이웃의 얼굴 뒤에 교묘하게 숨어듭니다.",
         "그들의 가장 위험한 점은 친절한 배려나 이웃 간의 사소한 관심이라는 탈을 쓰고 상대방을 향한 은밀한 통제를 완벽히 위장한다는 사실입니다.",
@@ -197,7 +215,7 @@ ACT3_KO = [
         "이 비극을 촉발한 심리 기제를 규명하기 위해 행동과학 전문가들은 피고인의 방대한 디지털 흔적과 인격 구조를 전면적으로 분석했습니다.",
         "그 해체 분석 결과는 수년에 걸쳐 여러 병리적 단계를 거치며 위험 수위로 치달았던 집착의 궤적을 낱낱이 드러냈습니다.",
     ]),
-    ("LOI", "심리학자", "C: 법정신과학 전문의, 차분하고 학구적인 음성", [
+    ("LOI", "프로파일러", "C: 법정신과학 전문의, 차분하고 학구적인 음성", [
         "McDaniel의 노트북에서 복원된 데이터는 그가 범행 수개월 전부터 Lauren Giddings를 향해 극단적인 집착과 소유욕을 키워왔음을 명백히 입증했습니다.",
         "가장 소름 끼치는 물증은 비극이 발생했던 바로 그날 밤, 그가 Lauren의 아파트 외부에서 창문을 통해 그녀를 몰래 촬영한 동영상 파일이었습니다.",
         "그녀는 가장 사적이어야 할 주거 공간 안에서 자신이 이토록 근거리에서 표적이 되고 있다는 사실을 전혀 알지 못했습니다.",
@@ -207,14 +225,16 @@ ACT3_KO = [
         "그녀의 일상을 엿보고 통제하는 행위는 그의 내면에서 병적인 소유의 환상을 걷잡을 수 없이 증폭시켰습니다.",
         "그는 뛰어난 지능을 가진 자신에게 그녀가 당연히 주어져야 할 전리품이자 독점할 권리가 있는 보물이라 착각했습니다.",
         "따라서 그 통제의 환상을 위협하는 어떠한 현실적 징후도 그에게는 결코 용납될 수 없는 치명적인 자기애적 상처로 다가왔던 것입니다.",
+        "사법정신의학의 관점에서 볼 때, 스티븐 맥대니얼은 마음 이론에 있어서 심각한 결함을 지닌 전형적인 특성을 보였습니다.",
+        "그는 타인의 입장에서 공감하는 능력을 완전히 결여하고 있었으며, 주변 사람들을 자신의 나르시시즘을 충족시키기 위한 도구로만 바라보았습니다.",
     ]),
-    ("LOI", "호스트", "심리적 임계점과 촉발 사건으로 시선을 이동한다", [
+    ("LOI", "진행자", "심리적 임계점과 촉발 사건으로 시선을 이동한다", [
         "자신이 우월한 지능을 가졌다는 병적인 오만은 그를 돌이킬 수 없는 치명적인 파국으로 몰아넣었습니다.",
         "당시 Lauren Giddings는 로스쿨을 우수하게 졸업하고 변호사로서의 첫걸음을 떼기 위해 애틀랜타로의 이주를 준비하고 있었습니다.",
         "그녀의 방문 앞에 쌓이기 시작한 이삿짐 상자들은 그가 어둠 속에서 누려오던 관음적 통제의 시간이 영원히 끝났음을 알리는 신호탄이었습니다.",
         "그 사소해 보이는 일상의 변화가 포식자의 내면에 억눌려 있던 폭력적 행동 기제를 단숨에 폭발시키는 마지막 방아쇠가 되었습니다.",
     ]),
-    ("LOI", "심리학자", "C: 촉발 스트레스 요인과 행동 폭발의 역학을 분석한다", [
+    ("LOI", "프로파일러", "C: 촉발 스트레스 요인과 행동 폭발의 역학을 분석한다", [
         "범죄심리학에서 피해자가 영원히 떠나려 하는 시점은 가장 치명적인 행동 촉발 요인, 즉 Precipitating Stressor가 됩니다.",
         "McDaniel은 Lauren이 애틀랜타로 떠나면 물리적 거리로 인해 자신의 은밀한 관찰과 통제의 기회가 영구히 박탈될 것임을 직감했습니다.",
         "통제권 상실에 대한 공포는 포식자의 유약한 자아에 회복 불가능한 타격을 가했고, 격렬한 자기애적 분노를 촉발했습니다.",
@@ -224,13 +244,15 @@ ACT3_KO = [
         "수개월간 잠복해 있던 스토킹의 환상은 주거지를 침입해 목숨을 앗아가겠다는 냉혹하게 계산된 실행 계획으로 즉각 전환되었습니다.",
         "그는 마스터키를 자신의 전능한 지배 망상을 현실화하기 위한 도구로 악용했습니다.",
         "이것은 우발적인 충동 범죄가 아니라, 병리적인 지능이 치밀한 사전 계산 하에 준비한 계획 범죄였습니다.",
+        "로렌의 이삿짐 상자들을 목격했을 때, 맥대니얼의 나르시시즘적 뇌는 급성 나르시시즘적 상처라는 치명적인 타격에 직면했습니다.",
+        "통제라는 망상이 무너지는 것에 대한 공포는 대상을 자신의 손에서 영원히 벗어나게 두느니 차라리 파괴해 버리겠다는 병리적인 결론으로 그를 몰아갔습니다.",
     ]),
-    ("LOI", "호스트", "생리적 동결 반응에 대한 고찰로 화제를 잇는다", [
+    ("LOI", "진행자", "생리적 동결 반응에 대한 고찰로 화제를 잇는다", [
         "자신의 지적 능력에 대한 맹신은 Stephen McDaniel의 범죄적 궤적을 관통하는 가장 핵심적인 성격적 특성이었습니다.",
         "법학도로서 그는 자신이 법망을 완벽히 농락할 수 있는 완전 범죄를 설계할 수 있다고 확신했습니다.",
         "그러나 바로 그 자기애적 과신이야말로, 움직일 수 없는 진실과 마주했을 때 극히 이례적인 생리적 반응을 낳는 원인이 되었습니다.",
     ]),
-    ("LOI", "심리학자", "C: 인지적 격실화, 도덕적 중화, 그리고 긴장증적 부동성을 해체한다", [
+    ("LOI", "프로파일러", "C: 인지적 격실화, 도덕적 중화, 그리고 긴장증적 부동성을 해체한다", [
         "McDaniel의 심리는 인지적 격실화, 즉 구획화의 메커니즘을 통해 철저하게 분리되어 작동했습니다.",
         "한쪽 방에서는 변호사 시험을 준비하는 성실한 로스쿨생의 역할을 완벽히 수행하면서, 어둠의 방에는 야간 스토커의 본성을 감금해 두었던 것입니다.",
         "그는 도덕적 중화 기술을 동원해 양심의 가책을 마비시켰으며, 자신을 배척당한 희생자로 규정하고 여성들의 거절을 비난했습니다.",
@@ -239,8 +261,10 @@ ACT3_KO = [
         "취조실에서 그가 보여준 수시간의 석상 같은 부동자세는 미세 표정을 억제하기 위해 이 반사 작용을 인위적으로 흉내 낸 방어술이었습니다.",
         "신체를 완벽하게 고정하고 있으면 수사관들이 자신의 내면적 죄책감을 읽어내지 못할 것이라 어설프게 계산했던 셈입니다.",
         "하지만 법정신과학의 눈으로 볼 때, 그 부자연스럽고 억지스러운 정지 상태야말로 범죄적 자아가 완전히 붕괴했음을 보여주는 가장 투명한 증거였습니다.",
+        "취조실에서 맥대니얼의 석상 같은 부동자세는 긴장성 부동이라 불리는 생물학적 반사를 의식적으로 모방한 것이었습니다.",
+        "자연계에서 투쟁도 도주도 불가능함을 깨달은 생명체는 상대방의 주의를 무력화하기 위한 최후의 생존 전략으로 가사 상태에 빠지는 법입니다.",
     ]),
-    ("LOI", "호스트", "제3막을 정리하며 사법적 단죄의 법정으로 이끈다", [
+    ("LOI", "진행자", "제3막을 정리하며 사법적 단죄의 법정으로 이끈다", [
         "McDaniel이 스스로 파놓은 심리적 덫은 역설적이게도 사건의 잔혹한 실체를 증명하는 명백한 물증이 되었습니다.",
         "어떠한 지적 자만심도 현대 법과학이 규명해 낸 객관적 사실 앞에서는 단 한 걸음도 물러설 수 없었습니다.",
         "치밀한 심리 분석은 공소 유지를 위해 검찰이 준비하던 증거의 그물망을 빈틈없이 완성해 주었습니다.",

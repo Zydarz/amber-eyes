@@ -1,0 +1,1600 @@
+{
+  "_meta": {
+    "episode": "20_EN",
+    "description": "Acting & Pause parameters for Tap 20 EN (241 sentences)",
+    "total_sentences": 241,
+    "pause_count": 144
+  },
+  "_pause_after": {
+    "1.02#2": 0.6,
+    "1.02#4": 0.6,
+    "1.02#5": 0.7,
+    "1.02#6": 0.6,
+    "1.02#8": 0.6,
+    "1.02#10": 0.8,
+    "1.04#2": 0.6,
+    "1.04#4": 0.6,
+    "1.04#6": 0.6,
+    "1.04#8": 0.8,
+    "1.06#2": 0.6,
+    "1.06#4": 0.6,
+    "1.06#5": 0.7,
+    "1.06#6": 0.6,
+    "1.06#7": 0.8,
+    "1.07#1": 0.7,
+    "1.07#2": 0.6,
+    "1.07#4": 0.6,
+    "1.07#6": 0.6,
+    "1.07#7": 0.7,
+    "1.07#8": 0.6,
+    "1.07#10": 0.8,
+    "1.09#2": 0.6,
+    "1.09#3": 0.7,
+    "1.09#4": 0.6,
+    "1.09#6": 0.6,
+    "1.09#8": 0.8,
+    "1.10#2": 0.6,
+    "1.10#4": 0.6,
+    "1.10#6": 0.6,
+    "1.10#8": 0.8,
+    "1.11#2": 0.6,
+    "1.11#4": 0.8,
+    "2.02#1": 0.7,
+    "2.02#2": 0.6,
+    "2.02#4": 0.6,
+    "2.02#6": 0.6,
+    "2.02#7": 0.8,
+    "2.04#2": 0.6,
+    "2.04#4": 0.6,
+    "2.04#6": 0.6,
+    "2.04#7": 0.7,
+    "2.04#8": 0.8,
+    "2.06#2": 0.6,
+    "2.06#4": 0.6,
+    "2.06#6": 0.6,
+    "2.06#8": 0.6,
+    "2.06#9": 0.8,
+    "2.08#2": 0.6,
+    "2.08#4": 0.6,
+    "2.08#6": 0.6,
+    "2.08#7": 0.8,
+    "2.09#2": 0.6,
+    "2.09#4": 0.6,
+    "2.09#6": 0.8,
+    "2.10#2": 0.6,
+    "2.10#4": 0.6,
+    "2.10#6": 0.6,
+    "2.10#8": 0.6,
+    "2.10#10": 0.8,
+    "3.02#1": 0.7,
+    "3.02#2": 0.6,
+    "3.02#4": 0.6,
+    "3.02#6": 0.8,
+    "3.03#2": 0.6,
+    "3.03#3": 0.7,
+    "3.03#4": 0.6,
+    "3.03#6": 0.6,
+    "3.03#8": 0.6,
+    "3.03#10": 0.6,
+    "3.03#11": 0.8,
+    "3.04#2": 0.6,
+    "3.04#4": 0.8,
+    "3.05#2": 0.6,
+    "3.05#4": 0.6,
+    "3.05#6": 0.6,
+    "3.05#8": 0.6,
+    "3.05#10": 0.6,
+    "3.05#11": 0.8,
+    "3.06#2": 0.6,
+    "3.06#3": 0.8,
+    "3.07#2": 0.6,
+    "3.07#4": 0.6,
+    "3.07#6": 0.6,
+    "3.07#8": 0.6,
+    "3.07#10": 0.8,
+    "3.08#2": 0.6,
+    "3.08#4": 0.8,
+    "4.02#2": 0.6,
+    "4.02#4": 0.6,
+    "4.02#6": 0.6,
+    "4.02#7": 0.7,
+    "4.02#8": 0.6,
+    "4.02#10": 0.8,
+    "4.04#2": 0.6,
+    "4.04#4": 0.6,
+    "4.04#5": 0.8,
+    "4.06#2": 0.6,
+    "4.06#4": 0.6,
+    "4.06#6": 0.6,
+    "4.06#8": 0.6,
+    "4.06#9": 0.8,
+    "4.08#2": 0.6,
+    "4.08#3": 0.7,
+    "4.08#4": 0.8,
+    "4.09#1": 0.7,
+    "4.09#2": 0.6,
+    "4.09#4": 0.6,
+    "4.09#5": 0.7,
+    "4.09#6": 0.6,
+    "4.09#8": 0.6,
+    "4.09#9": 0.8,
+    "4.10#2": 0.6,
+    "4.10#4": 0.6,
+    "4.10#6": 0.6,
+    "4.10#7": 0.8,
+    "4.11#2": 0.6,
+    "4.11#3": 0.7,
+    "4.11#4": 0.6,
+    "4.11#6": 0.6,
+    "4.11#7": 0.8,
+    "4.12#2": 0.6,
+    "4.12#3": 0.8,
+    "5.02#1": 0.7,
+    "5.02#2": 0.6,
+    "5.02#4": 0.6,
+    "5.02#6": 0.6,
+    "5.02#7": 0.8,
+    "5.03#2": 0.6,
+    "5.03#4": 0.6,
+    "5.03#5": 0.8,
+    "5.04#2": 0.6,
+    "5.04#4": 0.6,
+    "5.04#6": 0.6,
+    "5.04#7": 0.8,
+    "5.05#2": 0.6,
+    "5.05#4": 0.6,
+    "5.05#6": 0.6,
+    "5.05#8": 0.6,
+    "5.05#10": 0.6,
+    "5.05#12": 0.6,
+    "5.05#14": 0.6,
+    "5.05#16": 0.6,
+    "5.05#17": 0.8
+  },
+  "1.02#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "In the final days of June 2011, a heavy, suffocating atmosphere settled over the campus of Mercer University School of Law in Macon, Georgia."
+  },
+  "1.02#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Lauren Giddings, twenty-seven years old, a standout graduate studying diligently for the state bar exam, suddenly vanished without a trace."
+  },
+  "1.02#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The door to her apartment at the Barristers Hall residential complex showed no signs of forced entry whatsoever."
+  },
+  "1.02#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Her family and classmates were unable to reach her for several days, and growing anxiety swiftly transformed into a wave of collective paranoia across the law school."
+  },
+  "1.02#5": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "Law students trained in procedural order were suddenly seized with profound dread, deadbolting their doors in the sultry summer heat and eyeing one another with quiet suspicion."
+  },
+  "1.02#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The social shockwave widened as local television news crews converged upon the apartment building directly across from the law school to broadcast the mysterious disappearance."
+  },
+  "1.02#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Right there on the pavement, a neighbor living directly across the hall from Lauren stepped forward before the cameras with eager urgency."
+  },
+  "1.02#8": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "The young man projected intense enthusiasm, portraying himself as a devoted, observant friend deeply invested in the missing woman’s welfare."
+  },
+  "1.02#9": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Within prestigious academic halls like Mercer University, the student community often lived under a default assumption of absolute safety."
+  },
+  "1.02#10": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "That very illusion of academic security inadvertently paralyzed the natural vigilance of young intellectuals stepping into independent life."
+  },
+  "1.04#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "That young man was Stephen McDaniel, twenty-five years old, a law school classmate of Lauren who lived directly opposite her apartment."
+  },
+  "1.04#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "With unkempt, shoulder-length hair, thick spectacles, and a halting, timid cadence, McDaniel readily assumed the role of an earnest, empathetic peer."
+  },
+  "1.04#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Facing the cameras of local station WGXA, he spoke at length about their neighborly rapport and their recent interactions."
+  },
+  "1.04#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He voiced desperate concern, professing fervent hopes that his neighbor would soon return safely to her home."
+  },
+  "1.04#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "McDaniel carefully presented himself as a zealous material witness, an intellectual peer eager to assist law enforcement in their ongoing search."
+  },
+  "1.04#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Among his graduating peers, McDaniel had long been dismissed as an awkward, socially clumsy oddity who simply buried himself in academic texts."
+  },
+  "1.04#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "That very normalcy bias created an impenetrable social blindspot, shielding him completely from suspicion as everyone took his nervous demeanor for harmless eccentricity."
+  },
+  "1.04#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Yet a catastrophic development wholly outside his meticulous script was about to strike in the middle of that live broadcast."
+  },
+  "1.06#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "While the cameras continued to roll, the female reporter received a breaking update from detectives securing the parking area behind the apartment complex."
+  },
+  "1.06#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "She turned back toward the young man, informing him that search teams had just made a grim discovery inside a commercial trash container outside the building."
+  },
+  "1.06#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "That brief, clinical announcement tore through the sweltering afternoon air like a sudden clap of thunder."
+  },
+  "1.06#4": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "The entire facade of composed, well-mannered civic virtue that Stephen McDaniel had projected instantly shattered into pieces."
+  },
+  "1.06#5": {
+    "emotion": "fearful",
+    "speed": -0.05,
+    "pitch": 0,
+    "text": "The broadcast camera inadvertently captured an unmistakable physical metamorphosis, a visceral psychological implosion chilling to behold."
+  },
+  "1.06#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The calculated concealment of an arrogant mind collapsed in a fraction of a second due to an unforeseen timing anomaly."
+  },
+  "1.06#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Imagine the stunned horror of a fellow law student standing nearby during that exact moment."
+  },
+  "1.07#1": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "When Lauren failed to appear for our bar study sessions and stopped replying to our messages, every one of us knew immediately that something terrible had happened."
+  },
+  "1.07#2": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "Lauren was remarkably conscientious, brimming with infectious joy and boundless intelligence, and she was someone who never simply vanished without notifying friends."
+  },
+  "1.07#3": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "She was a beloved student leader, always ready to support her peers with an radiant smile, standing on the threshold of an inspiring legal career."
+  },
+  "1.07#4": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "We went door to door throughout Barristers Hall, printed hundreds of missing person flyers, and posted them along every avenue surrounding the law school."
+  },
+  "1.07#5": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "When I saw Stephen standing before the news cameras, I genuinely assumed he was just an eccentric classmate trying his best to help our community."
+  },
+  "1.07#6": {
+    "emotion": "fearful",
+    "speed": -0.05,
+    "pitch": 0,
+    "text": "Yet the second the reporter mentioned the discovery in the dumpster, the expression on Stephen’s face gave me absolute chills."
+  },
+  "1.07#7": {
+    "emotion": "fearful",
+    "speed": -0.05,
+    "pitch": 0,
+    "text": "He displayed neither the shock nor the frantic grief of an innocent friend, his face went utterly blank in the paralyzing dread of someone caught red-handed."
+  },
+  "1.07#8": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0,
+    "text": "He went completely mute and sank down onto the curb, as though a monstrous secret had just been ripped into the blinding light of day."
+  },
+  "1.07#9": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "Just days before she vanished, Lauren had shared with us an ambiguous feeling of dread inside her own apartment."
+  },
+  "1.07#10": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "We tormented ourselves with guilt, wondering why we failed to trust our friend's intuition, leaving Lauren to face that invisible threat entirely alone."
+  },
+  "1.09#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Stephen McDaniel’s physiological reaction to that grim news has become one of the most studied video recordings in criminal behavioral analysis."
+  },
+  "1.09#2": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "He repeated the reporter’s words with a constricted, raspy voice, his eyes darting erratically in unmitigated panic."
+  },
+  "1.09#3": {
+    "emotion": "fearful",
+    "speed": -0.05,
+    "pitch": 0,
+    "text": "Then he sank onto the concrete curb, burying his face in his hands, entirely incapable of maintaining his composure on live television."
+  },
+  "1.09#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "An innocent individual learning of a peer’s death displays grief, disbelief, or desperate demands for clarity, never the sheer terror of an architect whose alibi has collapsed."
+  },
+  "1.09#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "McDaniel had calculated that the municipal garbage truck would haul away all evidence before police could widen their search parameters."
+  },
+  "1.09#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "An unexpected delay in the municipal collection schedule became the tipping point that destroyed his intricate cover-up."
+  },
+  "1.09#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The seasoned instincts of Macon Police Department detectives observing from the perimeter recognized the red flag behind that extreme reaction."
+  },
+  "1.09#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Immediately following that broadcast moment, Stephen McDaniel was escorted to police headquarters for formal investigative interrogation."
+  },
+  "1.10#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Reviewing the news broadcast recording, my fellow detectives and I spotted glaring behavioral red flags right away."
+  },
+  "1.10#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The abrupt transition from verbose, confident lecturing to total physical paralysis indicated a massive cognitive shockwave had hit his brain."
+  },
+  "1.10#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The hollow stare and rapid, shallow respirations were not expressions of mourning, but the telltale signs of a predator realizing his trap had closed on himself."
+  },
+  "1.10#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The perpetrator assumed all forensic traces were gone, and the unexpected discovery obliterated his fantasy of an undetectable crime."
+  },
+  "1.10#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Imagine an investigator’s perspective examining every micro-expression and trembling breath captured on that high-definition tape."
+  },
+  "1.10#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He never once asked whether there was any chance Lauren was alive, he immediately looked for a curb to collapse onto, seeking to hide his trembling limbs."
+  },
+  "1.10#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "We made the decision to place McDaniel into an interrogation suite that very evening to dismantle the false mask of this eccentric law graduate."
+  },
+  "1.10#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The moment the suspect collapsed onto the curb was the first visible breakdown of a narcissistic delusion when his supposedly perfect plan was shattered by reality."
+  },
+  "1.11#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The door of the Macon Police Department interrogation room closed shut, initiating a psychological battle of nerves spanning more than twelve grueling hours."
+  },
+  "1.11#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Yet what investigators were about to confront inside that soundproof room was neither standard evasiveness nor aggressive denial."
+  },
+  "1.11#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "It was an unprecedented behavioral phenomenon, transforming the interrogation into a spine-chilling contest of human endurance."
+  },
+  "1.11#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "A battle between the tenacity of criminal forensics and the rigid psychological fortifications of a covert predator."
+  },
+  "2.02#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The Macon Police Department interrogation footage was subsequently released to the public and became a landmark behavioral case study."
+  },
+  "2.02#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Across recorded segments spanning several hours, Stephen McDaniel sat facing detectives virtually without a single physical movement."
+  },
+  "2.02#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He maintained an absolute, unyielding posture, resembling a stone statue placed in the middle of a sparse room."
+  },
+  "2.02#4": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "He did not blink with natural biological regularity, never shifted his seated posture, and steadfastly refused even a paper cup of water."
+  },
+  "2.02#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The ambient silence grew so suffocating that it unsettled anyone observing through the two-way mirror and surveillance feeds."
+  },
+  "2.02#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "McDaniel’s absolute immobility inside the interrogation room was not mere stubbornness, but the manifestation of a nervous system strained to its extreme limit to maintain control."
+  },
+  "2.02#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He chose to freeze his entire body in a desperate bid to prevent any micro-expression from betraying his guilty mind."
+  },
+  "2.04#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He answered questions in a monotone, guttural cadence, reminiscent of a machine executing pre-programmed code."
+  },
+  "2.04#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Even when detectives excused themselves and left him seated entirely alone, he sustained that absolute, unnatural stillness."
+  },
+  "2.04#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "There were no sighs, no glances toward the hidden cameras, nor any of the restless fidgeting common among suspects left in isolation."
+  },
+  "2.04#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "This bizarre physical posture can be understood as an extreme exertion of bodily suppression, a calculated defense strategy."
+  },
+  "2.04#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "As a recent law school graduate, McDaniel understood that micro-gestures, postural shifts, or rapid blinks could betray his thoughts."
+  },
+  "2.04#6": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "He deliberately chose to suppress his entire physical body language to conceal the violent psychological tempest raging beneath his icy facade."
+  },
+  "2.04#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He naively believed that by offering zero physical reactions, investigators would find no behavioral cracks to exploit."
+  },
+  "2.04#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Yet that radical, unnatural immobility paradoxically functioned as a blazing compass needle pointing directly to his deepest guilt."
+  },
+  "2.06#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Imagine an investigator’s perspective sitting directly opposite a suspect exercising such terrifying, unnatural bodily restraint."
+  },
+  "2.06#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He deliberately constructed an emotional fortress to deny us psychological entry, convinced that total silence was an impenetrable shield."
+  },
+  "2.06#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Yet in professional forensic interrogation, extreme immobility is itself a tacit confession of profound internal panic."
+  },
+  "2.06#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "An innocent person displays indignation, restless frustration, or a drive to explain, never the total paralysis of natural biological reflexes."
+  },
+  "2.06#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "While he sat frozen in that interview chair, our parallel search team executed an emergency warrant on his apartment directly across the hall."
+  },
+  "2.06#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Every drawer, every crawlspace beneath his bed, and his personal belongings were systematically scrutinized under forensic lighting."
+  },
+  "2.06#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "And the dark exhibits concealed inside McDaniel’s residence began emerging one by one into the light of truth."
+  },
+  "2.06#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The master key found inside McDaniel’s room exposed severe negligence by property management in carelessly storing maintenance keys."
+  },
+  "2.06#9": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "That systemic security loophole inadvertently handed the stalker a deadly privilege: unhindered access to the victim’s private sanctuary without forced entry."
+  },
+  "2.08#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Inside McDaniel’s apartment, forensic technicians uncovered physical evidence that would prove decisive to the entire investigation."
+  },
+  "2.08#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Most striking was a building master key capable of unlocking every residential unit across the Barristers Hall complex."
+  },
+  "2.08#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "This manager’s passkey was the pivotal mechanical instrument enabling the perpetrator to enter without leaving any forced entry marks."
+  },
+  "2.08#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Detectives also recovered packaging for a specialized metallic tool carefully concealed inside his bedroom."
+  },
+  "2.08#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The corresponding metallic instrument was subsequently retrieved from the building’s maintenance room, bearing biological evidence matching Lauren Giddings."
+  },
+  "2.08#6": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "Forensic reconstruction proved the perpetrator utilized unauthorized key access to violate the inviolable sanctuary of the victim’s home."
+  },
+  "2.08#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The persona of an innocent, harmless law classmate collapsed entirely before the weight of unassailable forensic exhibits."
+  },
+  "2.09#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Comparing the recovered master key with scene evidence, we reconstructed the exact methodology of the perpetrator’s predawn entry."
+  },
+  "2.09#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He required no crowbar or jimmy, using the stolen passkey to quietly open Lauren’s door while she was asleep in her bed."
+  },
+  "2.09#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He had calculated every move to neutralize any possibility of defense, intending to turn a homicide into an untraceable disappearance."
+  },
+  "2.09#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Yet between the theoretical schemes of an arrogant law graduate and the unforgiving reality of forensic science lies a massive chasm."
+  },
+  "2.09#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Microscopic tool marks on metal and biological traces are objective physical witnesses that never lie."
+  },
+  "2.09#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Everything he staged before the television news crews and inside the interview room was merely the clumsy performance of an arrogant mind."
+  },
+  "2.10#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Those physical exhibits shattered the stubborn silence of the stone statue inside the Macon Police Department."
+  },
+  "2.10#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Yet what genuine motive drove an educated young man with an auspicious future to destroy a classmate who had shown him only kindness?"
+  },
+  "2.10#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The definitive answer lay deep within his personal laptop, where hundreds of thousands of disturbing files had accumulated over years."
+  },
+  "2.10#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Recovered internet search records revealed a methodical escalation from lock-picking queries to voyeurism and pathological fixations."
+  },
+  "2.10#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He had been silently tracking the victim’s daily routines long before he decided to mount his physical intrusion."
+  },
+  "2.10#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "His addiction to predatory control forced him to raise his behavioral dosage, progressing from distant surveillance to territorial violation."
+  },
+  "2.10#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Criminal behavioral profilers initiated an in-depth psychiatric dissection to expose the architecture of a predatory stalker."
+  },
+  "2.10#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "A distorted internal universe dominated by obsessive entitlement gradually took shape through every digital breadcrumb."
+  },
+  "2.10#9": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Hundreds of files recovered from McDaniel’s computer revealed a months-long process of progressive self-hypnosis and escalating obsession."
+  },
+  "2.10#10": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The predator continuously escalated his stimulation threshold, turning the violation of another's privacy into a pathological addiction to control."
+  },
+  "3.02#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The case of Stephen McDaniel stands as a textbook illustration in forensic behavioral science of predatory stalking."
+  },
+  "3.02#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Unlike perpetrators who engage in overt public harassment, covert predatory stalkers frequently conceal themselves behind a persona of quiet awkwardness."
+  },
+  "3.02#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Their paramount danger resides in their ability to disguise territorial surveillance beneath a facade of benign neighborly interest."
+  },
+  "3.02#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "They patiently observe their quarry from the shadows, accumulating intimate personal details while awaiting an opportune moment to strike."
+  },
+  "3.02#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "To illuminate the psychological engine driving this catastrophe, behavioral specialists conducted an exhaustive evaluation of his digital archive and personality matrix."
+  },
+  "3.02#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The resulting psychological blueprint exposed a multi-year trajectory of escalating obsession advancing through increasingly lethal pathological stages."
+  },
+  "3.03#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Digital forensics extracted from McDaniel’s laptop proved he had nurtured an extreme possessive obsession toward Lauren Giddings for months prior to the murder."
+  },
+  "3.03#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The most chilling exhibits consisted of video files he recorded of Lauren from outside her apartment on the very night of the tragedy."
+  },
+  "3.03#3": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "She was entirely unaware that she was being systematically surveilled inside her most private domestic sanctuary."
+  },
+  "3.03#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "This conduct exemplifies predatory voyeurism, wherein a perpetrator derives intense power arousal through the covert violation of a victim’s personal boundaries."
+  },
+  "3.03#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "In McDaniel’s warped cognitive framework, Lauren was not perceived as an autonomous human being with feelings and aspirations, but objectified into an instrument for narcissistic supply."
+  },
+  "3.03#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "A profound deficit in affective empathy rendered him completely indifferent to the terror or the human dignity of another living soul."
+  },
+  "3.03#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Peeping into her life and secretly chronicling her movements generated a pathological delusion of absolute psychological ownership."
+  },
+  "3.03#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He regarded her as a fitting trophy for his perceived intellectual superiority, a prized possession over which he held exclusive entitlement."
+  },
+  "3.03#9": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Consequently, any development threatening to sever that perceived dominion was experienced as an intolerable narcissistic injury."
+  },
+  "3.03#10": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "From a forensic psychiatric perspective, Stephen McDaniel exhibited a profound deficit in Theory of Mind."
+  },
+  "3.03#11": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He possessed no capacity for emotional empathy to see others as sovereign individuals, viewing surrounding people merely as instruments to gratify his narcissistic ego."
+  },
+  "3.04#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The arrogant grandiosity of a man convinced of his intellectual supremacy inexorably drove him toward a fatal psychological fracture."
+  },
+  "3.04#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Lauren Giddings had successfully graduated with honors and was finalizing arrangements to relocate to Atlanta to launch her legal career."
+  },
+  "3.04#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The packing boxes stacked near her doorway were visible warnings that his months of covert voyeuristic control were coming to an abrupt end."
+  },
+  "3.04#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "That intolerable loss of proximity acted as the catalyst, activating the lethal behavioral eruption of a thwarted predator."
+  },
+  "3.05#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "In criminal psychology, a victim’s impending permanent departure frequently constitutes the precipitating stressor."
+  },
+  "3.05#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "McDaniel recognized that once Lauren relocated to Atlanta, physical distance would forever extinguish his covert surveillance and fantasy access."
+  },
+  "3.05#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The terror of losing control inflicted a catastrophic blow upon his fragile ego, triggering a violent narcissistic rage."
+  },
+  "3.05#4": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "He could not tolerate the reality that the victim possessed an independent existence entirely outside his reach and jurisdiction."
+  },
+  "3.05#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Extreme possessiveness inverted into a monstrous calculation: if he could not possess her, no one else in the world would ever be permitted to have her."
+  },
+  "3.05#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "This psychological breaking point collapsed the final behavioral inhibitions remaining within his cognitive apparatus."
+  },
+  "3.05#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Months of silent voyeuristic obsession instantly transformed into a premeditated operational decision to breach her home and extinguish her life."
+  },
+  "3.05#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He weaponized the stolen passkey as the instrument to consummate his fantasy of omnipotent dominance."
+  },
+  "3.05#9": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "This was never an impulsive crime of passion, but an execution prepared with clinical premeditation by a pathological mind."
+  },
+  "3.05#10": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Seeing Lauren's packed moving boxes confronted McDaniel's narcissistic brain with an agonizing trauma known as Acute Narcissistic Injury."
+  },
+  "3.05#11": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The terror of losing his delusional omnipotence drove him to a pathological conclusion: better to destroy the target than allow her to escape his control."
+  },
+  "3.06#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "An overweening faith in his own intellect was the central pillar underpinning Stephen McDaniel’s criminal conduct."
+  },
+  "3.06#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "As an aspiring legal professional, he believed he could architect a perfect homicide that would confound seasoned homicide detectives."
+  },
+  "3.06#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Yet that narcissistic delusion produced an extraordinary physiological phenomenon when his construct was abruptly shattered."
+  },
+  "3.07#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "McDaniel’s mind operated through a rigid structure of cognitive compartmentalization."
+  },
+  "3.07#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "In one compartment, he functioned as a studious graduate preparing for the bar examination; in the dark compartment, he was a nocturnal predator."
+  },
+  "3.07#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He employed moral neutralization techniques to quiet his conscience, framing himself as a misunderstood outsider and blaming female rejection."
+  },
+  "3.07#4": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "When confronted with the collapse of his alibi on live television, his central nervous system suffered massive cognitive overload."
+  },
+  "3.07#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The primitive survival mechanism known as the freeze response seized control, locking his musculature into instantaneous paralysis."
+  },
+  "3.07#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Inside the interrogation suite, his hours of statue-like immobility represented an artificial defense strategy simulating tonic immobility to suppress micro-expressions."
+  },
+  "3.07#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He naively calculated that by suppressing all physical motion, interrogators would be unable to decode his internal deception."
+  },
+  "3.07#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Yet in forensic psychiatry, that strained, unnatural petrification was the most transparent testament to the total collapse of his criminal ego."
+  },
+  "3.07#9": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "McDaniel’s stone-like immobility in the interrogation room was a conscious simulation of the biological reflex known as Tonic Immobility."
+  },
+  "3.07#10": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "In nature, when an organism realizes fight or flight is impossible, it feigns death as an ultimate biological effort to neutralize the opponent's focus."
+  },
+  "3.08#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The psychological fortress McDaniel constructed for himself ultimately became an inescapable trap validating his guilt."
+  },
+  "3.08#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "No degree of intellectual conceit could shield the perpetrator from the systematic advances of modern forensic science."
+  },
+  "3.08#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Exhaustive behavioral profiling reinforced the comprehensive tapestry of evidence that prosecutors readied for the trial."
+  },
+  "3.08#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Confronted with the stark reality of capital punishment, the predator’s arrogance finally bowed before the machinery of justice."
+  },
+  "4.02#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Following nearly three years of pre-trial maneuvering, in April 2014, mere days before his trial was set to open, Stephen McDaniel appeared before the Bibb County Superior Court."
+  },
+  "4.02#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Presided over by Judge Howard Simms, the courtroom was packed to capacity with Lauren’s family, friends, and national media correspondents."
+  },
+  "4.02#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "A heavy, somber atmosphere permeated the gallery, tempered by righteous indignation toward the calculated brutality of the defendant."
+  },
+  "4.02#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Stephen McDaniel’s physical appearance had transformed radically from the eager, talkative neighbor broadcast across television screens three years prior."
+  },
+  "4.02#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "A ragged, overgrown beard and an utterly vacant stare had replaced the animated posture of an ambitious law graduate."
+  },
+  "4.02#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He was no longer the eccentric peer holding court before journalistic microphones."
+  },
+  "4.02#7": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "Faced with an insurmountable mountain of digital footprints, microscopic tool-mark matches, and biological evidence, McDaniel recognized that capital punishment was imminent."
+  },
+  "4.02#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "To purchase his own survival, the killer was compelled to sign a formal negotiated plea agreement admitting to malice murder."
+  },
+  "4.02#9": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Three years of confinement within concrete walls stripped away every shred of the former law student's arrogant pretense."
+  },
+  "4.02#10": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The delusion of an intellectual mastermind capable of outsmarting justice collapsed completely before the unassailable mountain of forensic evidence."
+  },
+  "4.04#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The negotiated plea was anchored by an exhaustive factual proffer executed under McDaniel’s own signature."
+  },
+  "4.04#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "In that document, he admitted to using the master key to breach Lauren’s apartment at approximately four-thirty on the morning of June 26, 2011."
+  },
+  "4.04#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He confessed that while his classmate lay asleep in her bed, he took her life through calculated physical violence."
+  },
+  "4.04#4": {
+    "emotion": "fearful",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "This confession sprang from no moral awakening, but from the cowardly pragmatism of trading an admission for the removal of the death penalty."
+  },
+  "4.04#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The stark realities documented in the court record extinguished every lingering doubt, laying bare the malicious cruelty of a calculating mind."
+  },
+  "4.06#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "For our investigative team, that written admission represented the culmination of thousands of relentless hours logged by detectives and digital forensic examiners."
+  },
+  "4.06#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He attempted to deploy his legal education to manufacture a labyrinth that would blind investigators to his tracks."
+  },
+  "4.06#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Yet he failed to realize that every digital command on a hard drive and every tool mark on metal leaves an indelible signature."
+  },
+  "4.06#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The recovered building passkey and the stalking videos retrieved from his hardware were the iron anchors sealing his fate."
+  },
+  "4.06#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Confronted by an unbroken, scientifically validated evidentiary matrix, every legal obfuscation raised by the defense collapsed into irrelevance."
+  },
+  "4.06#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The unyielding perseverance of law enforcement forced a self-styled scholar of procedural loopholes to bow before the undeniable truth."
+  },
+  "4.06#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "It was an enduring victory of justice and collective conscience over the cold cunning of a covert predator."
+  },
+  "4.06#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The plea agreement McDaniel signed at the final hour was never an awakening of conscience or genuine repentance."
+  },
+  "4.06#9": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "It was purely cowardly survival calculus from someone who understood a public jury trial would lead directly to death row."
+  },
+  "4.08#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "A profound stillness fell over the packed gallery as Judge Howard Simms invited the victim’s family to deliver their victim impact statements."
+  },
+  "4.08#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Imagine the unfathomable grief carried by the parents, siblings, and loved ones who stepped up to that microphone."
+  },
+  "4.08#3": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "The wound of losing an extraordinary daughter on the cusp of fulfilling her life’s dream is a trauma time can never heal."
+  },
+  "4.08#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Yet standing before the man who stole Lauren’s future, they spoke with the unshakeable dignity of enduring love and moral resilience."
+  },
+  "4.09#1": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "Lauren was the crown jewel and the brightest light of our entire family."
+  },
+  "4.09#2": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0,
+    "text": "She labored with joy for years, conquering difficult examinations to prepare for a life dedicated to defending others in a court of law."
+  },
+  "4.09#3": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0,
+    "text": "She greeted every human soul with authentic warmth, radiant laughter, and an absolute absence of malice or cynicism."
+  },
+  "4.09#4": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0,
+    "text": "He lived directly across the hall from Lauren, witnessed her warmth every single day, yet answered it with depraved and monstrous entitlement."
+  },
+  "4.09#5": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0,
+    "text": "He stole her radiant future and inflicted a perpetual ache in our hearts that will never heal on this earth."
+  },
+  "4.09#6": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0,
+    "text": "Whatever sentence is pronounced today, it will never return Lauren to the warm embrace of our family."
+  },
+  "4.09#7": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0,
+    "text": "Yet I want him to spend every sunrise and sunset within a prison cell remembering how beautiful a life his cruelty destroyed."
+  },
+  "4.09#8": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "Lauren will forever shine in our memories as an unquenchable beacon of goodness, courage, and unconditional love."
+  },
+  "4.09#9": {
+    "emotion": "sad",
+    "speed": -0.05,
+    "pitch": 0,
+    "text": "The legacy of her spirit will always triumph over the pathetic darkness he sought to cast upon our lives."
+  },
+  "4.10#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The proceedings culminated with the unsparing judgment delivered by Judge Howard Simms."
+  },
+  "4.10#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Judge Simms stated from the bench that McDaniel’s actions represented absolute cold-blooded malice disguised beneath a mask of benign eccentricity."
+  },
+  "4.10#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Under the terms of the negotiated plea, additional counts were dismissed to spare the family the prolonged trauma of capital appeals."
+  },
+  "4.10#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "He sentenced Stephen McDaniel to life in prison with the statutory requirement that he serve a mandatory minimum of thirty years before attaining parole eligibility."
+  },
+  "4.10#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "This mandate ensures the killer cannot even apply for consideration before the year 2041, when he reaches fifty-five years of age."
+  },
+  "4.10#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "McDaniel was remanded immediately into the Georgia Department of Corrections system to serve his decades in profound isolation."
+  },
+  "4.10#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Following the case, those who had been careless with building security suffered enduring moral injury upon realizing their negligence paved the path for evil."
+  },
+  "4.11#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Throughout the pronouncement of judgment, McDaniel displayed not an ounce of genuine contrition or remorse for the life he extinguished."
+  },
+  "4.11#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "His vacant stare reflected pathological self-pity, the agony of realizing that his personal ambitions and grandiose delusions lay in ruins."
+  },
+  "4.11#3": {
+    "emotion": "sad",
+    "speed": -0.04,
+    "pitch": 0,
+    "text": "This is the textbook manifestation of narcissistic collapse: when absolute control is stripped away, the narcissist experiences only pathetic self-grief."
+  },
+  "4.11#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "A sentence of life imprisonment affirms that no intellect, credential, or legal training can ever license the destruction of another human being."
+  },
+  "4.11#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The predator who fancied himself a criminal genius received the unyielding verdict dictated by human decency and the rule of law."
+  },
+  "4.11#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Criminal psychology draws a sharp boundary between Authentic Remorse and Pathological Self-Pity."
+  },
+  "4.11#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "McDaniel’s rare tears were shed solely for his shattered narcissistic ego, completely devoid of affective empathy for another human life."
+  },
+  "4.12#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The heavy steel doors of the penitentiary closed permanently behind Stephen McDaniel, concluding the judicial chapter of a case that shook the nation."
+  },
+  "4.12#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Yet the sociological aftershocks and the urgent imperatives regarding personal security for young adults living independently remain intensely vital."
+  },
+  "4.12#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Society carries an enduring duty to translate the pain of past tragedies into protective armor for the future."
+  },
+  "5.02#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Many years have elapsed since that fateful summer of 2011 in Macon, yet the radiant smile of Lauren Giddings continues to be remembered at Mercer Law School."
+  },
+  "5.02#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Her family, faculty, and peers cherish the enduring memory of her scholarly passion and her extraordinarily generous spirit."
+  },
+  "5.02#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "This heartbreaking tragedy served as a profound catalyst for sweeping security reforms across student housing communities nationwide."
+  },
+  "5.02#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Protocols regulating building passkey custody, background vetting for maintenance personnel, and electronic surveillance networks were overhauled comprehensively."
+  },
+  "5.02#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Lauren’s legacy transformed into an enduring shield safeguarding future generations of young scholars embarking upon independent living."
+  },
+  "5.02#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The shock felt by the Mercer student community swiftly transformed into a powerful institutional reform movement across the United States."
+  },
+  "5.02#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Student safety was no longer entrusted to loose assumptions, but safeguarded by transparent, rigorous governance standards."
+  },
+  "5.03#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "From a criminal investigative vantage point, the McDaniel case serves as a chilling reminder that mortal threats sometimes reside directly across our doorstep."
+  },
+  "5.03#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Assuming that a classmate, colleague, or educated neighbor is fundamentally safe can lull our vigilance precisely when warning signs appear."
+  },
+  "5.03#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Violent crime carries no single face, and socially awkward eccentricity can sometimes serve as an armor concealing predatory entitlement."
+  },
+  "5.03#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Law enforcement strongly urges citizens, particularly young adults living alone, to actively inspect their home security hardware and report suspicious tracking immediately."
+  },
+  "5.03#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The costliest lesson is that structural physical security loopholes must never be trivialized, for a neglected key can become an inadvertent accomplice to crime."
+  },
+  "5.04#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Forensic behavioral research demonstrates that the overwhelming majority of predatory stalkings initiate with incremental, micro-boundary intrusions in daily routine."
+  },
+  "5.04#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "When a target dismisses early warning signs out of social politeness or discomfort, the predator methodically escalates their level of surveillance and entitlement."
+  },
+  "5.04#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "As behavioral authority Gavin de Becker famously documented in The Gift of Fear, survival intuition is nature’s most sophisticated early warning radar."
+  },
+  "5.04#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Heeding ambiguous internal discomfort and fearlessly establishing impermeable physical boundaries is an indispensable life skill in modern society."
+  },
+  "5.04#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Vigilant awareness combined with timely communal support forms our most formidable bulwark against predatory actors operating in the shadows."
+  },
+  "5.04#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "The greatest survival truth is that intuitive fear is not paranoia, but an evolutionary signal warning of imminent danger."
+  },
+  "5.04#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Courageously trust that intuition and decisively establish defensive boundaries rather than compromising safety for the sake of social politeness."
+  },
+  "5.05#1": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "To empower our audience, particularly students and young adults living independently, to detect and neutralize predatory stalking at its inception, Amber Eyes shares four classic red flags distilled from the Stephen McDaniel dossier."
+  },
+  "5.05#2": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "First Red Flag: Manufactured coincidence and persistent boundary intrusions into your personal space."
+  },
+  "5.05#3": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "When an acquaintance or neighbor repeatedly displays uncanny knowledge of your daily schedule, frequently happens to intercept you outside your door, or manufactures awkward conversations, regard it as an active warning sign."
+  },
+  "5.05#4": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Never conflate persistent surveillance with flattering attention; always trust your inner intuition when your private sanctuary feels compromised."
+  },
+  "5.05#5": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Second Red Flag: Morbid, boundary-crossing curiosity regarding your personal relationships and dating life."
+  },
+  "5.05#6": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Covert predators invariably attempt to interrogate whom you are seeing, monitor visiting guests, and betray subtle hostility or passive-aggressive resentment when you thrive socially."
+  },
+  "5.05#7": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Curiosity that exceeds normative social etiquette reflects underlying possessive entitlement and an impulse to isolate the target from protective support systems."
+  },
+  "5.05#8": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Third Red Flag: Physical anomalies around your living quarters and intuitive sensations of an uninvited presence."
+  },
+  "5.05#9": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "If you discover household items subtly displaced, hear unusual noises outside your window late at night, or notice scratch marks around the lock cylinder, never dismiss these indicators."
+  },
+  "5.05#10": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Immediately demand a master key audit from property management, install secondary interior deadbolts that cannot be accessed from outside, and deploy personal security cameras."
+  },
+  "5.05#11": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Fourth Red Flag: Unsettling emotional volatility and abrupt transitions between bashful awkwardness and hostile rhetoric."
+  },
+  "5.05#12": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Behind the self-effacing demeanor of Stephen McDaniel festered a deeply disturbed internal universe that few casual observers recognized."
+  },
+  "5.05#13": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "When an acquaintance pairs deep-seated misogyny with extreme narcissistic fragility, they harbor an extraordinarily elevated risk profile for explosive violence."
+  },
+  "5.05#14": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Your personal safety and the security of those you love are paramount imperatives that must never be traded away for polite accommodation."
+  },
+  "5.05#15": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Thank you for joining Amber Eyes in dissecting this haunting forensic psychology dossier and its vital survival lessons today."
+  },
+  "5.05#16": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Please subscribe to the channel, activate notifications, and share this video with friends and family to spread these essential safety insights."
+  },
+  "5.05#17": {
+    "emotion": "neutral",
+    "speed": -0.02,
+    "pitch": 0,
+    "text": "Farewell, and we look forward to exploring our next criminal psychology investigation with you."
+  }
+}

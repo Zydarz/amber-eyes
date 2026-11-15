@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Act 1 data for Episode 22: 50 sentences across VN, EN, JA, KO."""
+"""Act 1 data for Episode 22: 58 sentences across VN, EN, JA, KO."""
 
 ACT1_VN = [
     ("BGM", "Tiếng Dark Ambient dồn dập, nhịp điện tử căng thẳng hòa cùng tiếng còi xe cảnh sát từ xa tạo không khí ngột ngạt của một hiện trường án mạng."),
@@ -34,7 +34,7 @@ ACT1_VN = [
         "Vỏ bọc người vợ trẻ trung, duyên dáng và yếu đuối đã tạo nên một hiệu ứng hào quang hoàn hảo, ru ngủ sự cảnh giác của xã hội suốt nhiều tháng.",
         "Người ngoài từ chối tin rằng một phụ nữ có vẻ ngoài thánh thiện lại có thể dung dưỡng một dã tâm hủy diệt khủng khiếp đến như vậy.",
     ]),
-    ("LOI", "NGƯỜI BÌNH THƯỜNG", "N1: Người hàng xóm minh hoạ, giọng nữ thanh niên bàng hoàng, rùng mình", [
+    ("LOI", "NGUOI_TRONG_CUOC", "N1: Người hàng xóm minh hoạ, giọng nữ thanh niên bàng hoàng, rùng mình", [
         "Hãy hình dung cảm giác của một người hàng xóm sáng hôm đó, khi nghe tiếng còi hú dồn dập và chạy ra xem chuyện gì đang xảy ra.",
         "Cảnh sát giăng dây phong tỏa khắp nơi, các thám tử đi lại lấy dấu vết và không khí u ám như một bộ phim hành động thực sự.",
         "Khi thấy xe của Dalia chạy về và cô ấy lao xuống khóc lóc, tất cả chúng tôi đều cảm thấy vô cùng xót xa cho người vợ trẻ.",
@@ -43,6 +43,10 @@ ACT1_VN = [
         "Thế nhưng khi xem bản tin truyền hình và biết toàn bộ sự thật, tôi đã rùng mình đến lạnh toát sống lưng.",
         "Cảm giác kinh hoàng khi nhận ra một âm mưu tước đoạt sinh mạng đã diễn ra ngay sát vách căn nhà của mình suốt nhiều tuần lễ.",
         "Tất cả những giọt nước mắt, tiếng gào khóc thảm thương sáng hôm đó hoàn toàn là một vở kịch trơ trẽn không thể tha thứ.",
+        "Sau buổi sáng định mệnh ấy, một nỗi hoang mang vô hình bao trùm khắp các dãy nhà liền kề yên tĩnh của khu phố chúng tôi.",
+        "Người ta bắt đầu nhìn nhau với ánh mắt dè chừng, tự hỏi liệu phía sau những nụ cười chào hỏi lịch thiệp mỗi sớm mai là những bí mật đen tối nào đang được che giấu.",
+        "Ảo tưởng về một vùng ngoại ô an toàn tuyệt đối đã hoàn toàn vỡ vụn khi chúng tôi nhận ra ranh giới giữa một tổ ấm hạnh phúc và một hiện trường án mạng đôi khi chỉ mong manh như một sợi tóc.",
+        "Nỗi đau đớn lớn nhất của cộng đồng không chỉ là sự xuất hiện của tội ác, mà là sự sụp đổ cay đắng của niềm tin vào sự lương thiện của những người sống ngay cạnh mình.",
     ]),
     ("SFX", "Tiếng còi xe tuần tra xa dần, tiếng bộ đàm cảnh sát ngắt quãng."),
     ("LOI", "HOST", "tái hiện không khí phòng thẩm vấn", [
@@ -55,7 +59,7 @@ ACT1_VN = [
         "Ả đinh ninh rằng kế hoạch tinh vi của mình hoàn hảo đến mức không để lại bất kỳ kẽ hở nào cho pháp luật can thiệp.",
         "Nhưng chiếc bẫy nghiệp vụ của các thám tử điều tra chỉ vừa mới bắt đầu bước vào giai đoạn quyết định nhất.",
     ]),
-    ("LOI", "ĐIỀU TRA VIÊN", "D: Điều tra viên minh hoạ, giọng nam trung niên đanh thép, chuẩn xác", [
+    ("LOI", "DIEU_TRA_VIEN", "D: Điều tra viên minh hoạ, giọng nam trung niên đanh thép, chuẩn xác", [
         "Chiến dịch nghiệp vụ giăng bẫy được chúng tôi kích hoạt ngay sau khi nhận được lời tố giác từ một người trung gian từng có quan hệ thân cận với Dalia.",
         "Sau khi đánh giá các đoạn tin nhắn và thu âm sơ bộ, cơ quan điều tra nhận định mối đe dọa đối với sinh mạng của Michael Dippolito là vô cùng cấp bách.",
         "Chúng tôi quyết định cài một sĩ quan cảnh sát chìm dày dạn kinh nghiệm đóng vai sát thủ hợp đồng chuyên nghiệp để trực tiếp tiếp cận đối tượng.",
@@ -63,6 +67,10 @@ ACT1_VN = [
         "Mọi hành vi, từ việc di chuyển đến hiện trường cho đến những giọt nước mắt gục vào vai sĩ quan gác cổng, đều khớp chính xác với dự đoán của hồ sơ tâm lý tội phạm.",
         "Mục tiêu tối thượng của chúng tôi là bảo đảm tuyệt đối tính mạng cho nạn nhân, đồng thời thu thập chuỗi bằng chứng khách quan không thể bị bác bỏ.",
         "Đây là một chiến dịch giăng bẫy mẫu mực, nơi khoa học điều tra và công nghệ ghi hình đã chặn đứng một thảm kịch gia đình cận kề.",
+        "Dưới góc độ tâm lý học điều tra, màn kịch gục khóc của đối tượng tại hiện trường là một ví dụ kinh điển về nỗi đau mang tính trình diễn nhằm thao túng sự chú ý của công chúng.",
+        "Ả tin rằng việc phóng đại cảm xúc và bám víu vào sự hiện diện của lực lượng chức năng sẽ tạo nên một bức tường phòng thủ tâm lý vững chắc che đậy dã tâm bên trong.",
+        "Thế nhưng những cử chỉ lau mắt ráo hoảnh và sự thiếu hụt các biến đổi sinh lý thực sự như nhịp thở ngắt quãng hay sự tái nhợt của làn da đã không thể qua mặt được các điều tra viên dày dạn kinh nghiệm.",
+        "Cái bẫy nghiệp vụ được giăng ra không chỉ để thu thập chứng cứ vật chất, mà còn để đối tượng tự bộc lộ trọn vẹn bản chất giả tạo của mình trước pháp luật.",
     ]),
     ("LOI", "HOST", "kết thúc hồi 1, mở ra cuộc đối đầu gay cấn", [
         "Chiếc bẫy nghiệp vụ tinh vi đã khép lại một cách trọn vẹn mà đối tượng không hề hay biết.",
@@ -106,7 +114,7 @@ ACT1_EN = [
         "Her persona as a youthful, glamorous, and vulnerable bride cast a blinding halo effect that neutralized societal suspicion for months.",
         "Outsiders refused to believe that someone with such an innocent facade could harbor such destructive malice.",
     ]),
-    ("LOI", "ORDINARY PERSON", "N1: Neighbor representative, young female voice, trembling and horrified", [
+    ("LOI", "ORDINARY_PERSON", "N1: Neighbor representative, young female voice, trembling and horrified", [
         "Imagine how a neighbor felt that morning, hearing rapid sirens and running outside to witness the commotion.",
         "Police tape encircled the property, detectives dusted for evidence, and the atmosphere felt like an intense action film.",
         "When Dalia's car pulled up and she rushed out sobbing hysterically, our hearts broke completely for the young wife.",
@@ -115,6 +123,10 @@ ACT1_EN = [
         "Yet when the news broke on television and the full truth was exposed, an icy chill ran down my spine.",
         "The terror of realizing a calculated scheme to end a human life had been unfolding right next door for weeks was overwhelming.",
         "All those tears and agonized wails that morning were nothing more than a shameless, unforgivable performance.",
+        "Following that fateful morning, an insidious unease quietly settled over the peaceful townhouses of our quiet suburban neighborhood.",
+        "Residents began exchanging guarded glances, silently wondering what dark, unfathomable secrets might lurk behind the polite morning smiles of those living right beside them.",
+        "The comforting illusion of an impregnable suburban sanctuary was utterly shattered when we realized that the boundary between a loving home and a chilling crime scene is sometimes razor-thin.",
+        "The deepest ache haunting our community was not merely the sudden intrusion of evil, but the devastating collapse of fundamental trust in the decency of our neighbors.",
     ]),
     ("SFX", "Distant patrol sirens fading away, intermittent bursts of police radio static."),
     ("LOI", "HOST", "setting the stage inside the interrogation chamber", [
@@ -135,6 +147,10 @@ ACT1_EN = [
         "Her every action, from arriving at the perimeter to collapsing in tears upon an officer's shoulder, aligned perfectly with our behavioral profile.",
         "Our primary objective was preserving the victim's life while compiling an unbreakable chain of objective digital evidence.",
         "This operation remains a benchmark where investigative methodology and video forensics intercepted an impending domestic tragedy.",
+        "From an investigative behavioral standpoint, the suspect's theatrical collapse at the perimeter was a textbook manifestation of performative grief designed to manipulate public perception.",
+        "She genuinely believed that exaggerating her emotional display and clinging to responding officers would construct an impenetrable psychological fortress concealing her sinister intent.",
+        "Yet her tearless dabbing of dry eyes and the conspicuous absence of authentic physiological distress—such as choked breathing or sudden pallor—could not deceive seasoned investigators.",
+        "Our sting operation was meticulously engineered not merely to secure physical evidence, but to compel the suspect to fully expose her fraudulent nature before the eyes of justice.",
     ]),
     ("LOI", "HOST", "concluding Act 1 and leading into the confrontation", [
         "The meticulously laid operational trap closed without the suspect suspecting a thing.",
@@ -178,7 +194,7 @@ ACT1_JA = [
         "若く魅力的で傷つきやすい花嫁という仮面は完璧なハロー効果を生み出し、社会の警戒心を数か月にわたって完全に麻痺させました。",
         "外部の人間は、これほど可憐な外見の女性が、これほど破壊的な悪意を胸に秘めているとは信じようとしなかったのです。",
     ]),
-    ("LOI", "ORDINARY PERSON", "N1: 近隣住民の女性、震える声で戦慄を語る", [
+    ("LOI", "ORDINARY_PERSON", "N1: 近隣住民の女性、震える声で戦慄を語る", [
         "その日の朝、鳴り響くサイレンを聞いて何事かと外に飛び出した近隣住民の心境を想像してみてください。",
         "警察の規制線が張り巡らされ、鑑識係が証拠を探し回り、まるで緊迫した映画の撮影現場のようでした。",
         "ダリアの車が戻ってきて、彼女が泣き叫びながら駆け寄った時、私たちは皆、あの若い妻を心から不憫に思いました。",
@@ -187,6 +203,10 @@ ACT1_JA = [
         "しかし、テレビのニュースを見てすべての真相を知った時、背筋が凍りつくような戦慄を覚えたのです。",
         "人の命を奪うための計画が、何週間もの間、私たちの家のすぐ隣で進行していたという事実に震え上がりました。",
         "あの朝に流された涙も悲痛な叫びも、すべては許しがたい破廉恥な茶番劇に過ぎなかったのです。",
+        "あの運命の朝を境に、私たちの平穏だった新興住宅街の家々の間に、目に見えない不穏な動揺が静かに広がっていきました。",
+        "毎朝交わされる礼儀正しい挨拶や笑顔の裏に、どれほど暗く恐ろしい秘密が隠されているのだろうかと、誰もが互いを警戒の目で見つめ直すようになったのです。",
+        "安全で平和な郊外生活という心地よい幻想は音を立てて崩れ去り、温かい家庭と凄惨な犯行現場の境界線がいかに紙一重であるかを思い知らされました。",
+        "地域社会を最も深く苛んだのは、突如現れた悪意そのもの以上に、すぐ隣に暮らす人間の善意に対する根本的な信頼が残酷にも打ち砕かれたことでした。",
     ]),
     ("SFX", "遠ざかるパトカーのサイレン、途切れ途切れの警察無線音。"),
     ("LOI", "HOST", "取調室の張り詰めた空気を再現する", [
@@ -207,6 +227,10 @@ ACT1_JA = [
         "現場への移動から警備の警官の肩で泣き崩れるまでの彼女の行動は、私たちが作成した犯罪心理プロファイルと完全に一致していました。",
         "私たちの最優先目標は被害者の生命を確実に守ることであり、同時に法廷で覆すことのできない客観的証拠を固めることでした。",
         "この作戦は、科学捜査と映像技術が家庭内の悲劇を寸前で食い止めた模範的なおとり捜査の実例です。",
+        "捜査行動科学の観点から見れば、現場の規制線で見せた被疑者の過剰な泣き崩れは、周囲の視線を欺くために計算された「演じられた悲嘆」の典型例でした。",
+        "彼女は感情を誇張して警戒にあたる警察官にしがみつくことで、自らの邪悪な企みを隠蔽する強固な心理的防壁を築けると信じ込んでいたのです。",
+        "しかし、涙の流れていない乾いた目を拭う仕草や、過呼吸や顔面の蒼白といった本物の心理的動揺に伴う自律神経反応の欠如は、熟練の捜査官の目を決して欺くことはできませんでした。",
+        "このおとり捜査は単なる物的証拠の保全にとどまらず、被疑者自らの手でその虚飾と欺瞞の仮面を剥ぎ取らせるために完璧に仕掛けられた心理的な罠だったのです。",
     ]),
     ("LOI", "HOST", "第1幕を結び、緊迫した直接対決へと導く", [
         "仕組まれた捜査の罠は、対象者に一切悟られることなく完全に閉じられました。",
@@ -250,7 +274,7 @@ ACT1_KO = [
         "젊고 매력적이며 연약한 신부라는 외적 껍데기는 완벽한 후광 효과를 발휘하여 사회의 경계심을 수개월간 완벽히 잠재웠습니다.",
         "세상 사람들은 그토록 단아해 보이는 여성이 내면에 끔찍한 파괴적 흉계를 품고 있으리라고는 상상조차 하지 못했습니다.",
     ]),
-    ("LOI", "ORDINARY PERSON", "N1: 이웃 주민의 진술을 대변하는 젊은 여성의 떨리는 음성", [
+    ("LOI", "ORDINARY_PERSON", "N1: 이웃 주민의 진술을 대변하는 젊은 여성의 떨리는 음성", [
         "그날 아침 요란한 사이렌 소리를 듣고 무슨 일인가 싶어 뛰쳐나왔던 이웃들의 심정을 상상해 보십시오.",
         "경찰 통제선이 사방을 둘러싸고 형사들이 분주히 감식을 진행하는 모습은 마치 긴장감 넘치는 액션 영화의 한 장면 같았습니다.",
         "달리아의 차가 도착하고 그녀가 울부짖으며 달려 나오는 모습을 보았을 때 우리 모두는 그 젊은 아내를 진심으로 가엾게 여겼습니다.",
@@ -259,6 +283,10 @@ ACT1_KO = [
         "하지만 방송 뉴스를 통해 추악한 전모를 알게 되었을 때 등골이 오싹해지는 전율을 느꼈습니다.",
         "사람의 목숨을 노린 치밀한 살인 음모가 몇 주 동안 바로 우리 집 옆에서 벌어지고 있었다는 사실에 몸서리를 쳤습니다.",
         "그날 아침 쏟아낸 모든 눈물과 처절한 절규는 결코 용서받을 수 없는 뻔뻔한 연극에 지나지 않았습니다.",
+        "그 운명적인 아침 이후, 우리 평화로운 타운하우스 단지 전체에 눈에 보이지 않는 불안감이 무겁게 내려앉았습니다.",
+        "주민들은 아침마다 나누던 다정한 인사 뒤에 얼마나 어둡고 끔찍한 비밀이 숨겨져 있을지 서로를 경계의 눈빛으로 바라보기 시작했습니다.",
+        "완벽하게 안전한 교외 지역이라는 안락한 환상은 산산이 부서졌고, 따뜻한 보금자리와 살인 사건 현장의 경계가 얼마나 종이 한 장 차이인지 뼈저리게 깨달았습니다.",
+        "지역 공동체를 가장 아프게 괴롭힌 것은 악의의 침입 그 자체보다 바로 옆집에 살던 이웃의 선의에 대한 근본적인 신뢰가 무너져 내린 것이었습니다.",
     ]),
     ("SFX", "멀어지는 순찰차 사이렌 소리, 간헐적으로 울리는 경찰 무전음."),
     ("LOI", "HOST", "취조실 내부의 숨 막히는 긴장감을 묘사한다", [
@@ -279,6 +307,10 @@ ACT1_KO = [
         "현장으로 달려와 통제선에서 오열하며 경찰관의 어깨에 쓰러지기까지의 모든 행동은 우리가 사전에 작성한 범죄 심리 프로파일과 정확히 일치했습니다.",
         "우리의 최우선 과제는 피해자의 생명을 확고히 지키는 동시에 법정에서 결코 반박할 수 없는 객관적인 디지털 증거를 구축하는 것이었습니다.",
         "이 작전은 과학적 수사 기법과 영상 증거가 끔찍한 가정 내 참극을 사전에 완벽히 차단해 낸 모범적인 사례입니다.",
+        "수사 행동과학의 관점에서 현장 통제선에서 피의자가 보여준 오열 연기는 대중의 시선을 조작하기 위해 고안된 “연출된 슬픔”의 전형적인 사례였습니다.",
+        "그녀는 감정을 극대화하고 출동한 경찰관에게 매달림으로써 자신의 흉악한 본심을 은폐할 수 있는 난공불락의 심리적 방어벽을 구축할 수 있다고 믿었습니다.",
+        "그러나 눈물 한 방울 흐르지 않는 메마른 눈을 닦아내는 동작과 호흡 곤란이나 안색 창백 같은 진정한 자율신경계 반응의 결여는 베테랑 형사들의 눈을 속일 수 없었습니다.",
+        "우리의 함정 수사는 단순히 물리적 증거를 확보하기 위한 것뿐만 아니라 피의자 스스로 그 위선과 거짓의 가면을 벗어던지도록 유도하기 위해 정밀하게 설계된 심리전이었습니다.",
     ]),
     ("LOI", "HOST", "1막을 맺으며 취조실에서의 격돌을 예고한다", [
         "정교하게 설계된 수사의 덫은 대상자가 전혀 눈치채지 못한 사이에 완벽하게 닫혔습니다.",

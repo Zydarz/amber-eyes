@@ -1,45 +1,46 @@
-# BÁO CÁO REVIEW TOÀN DIỆN KỊCH BẢN TẬP 17 ĐA NGÔN NGỮ (VN — EN — JA)
+# BÁO CÁO REVIEW TOÀN DIỆN KỊCH BẢN TẬP 17 ĐA NGÔN NGỮ (VN — EN — JA — KO)
 ### HỆ SINH THÁI 10 CHỈ DẤU TÂM LÝ & HÀNH VI — ĐỒNG BỘ CẤU TRÚC PARITY 1:1 (BẢN 226 CÂU)
 
 > **Hồ sơ vụ án:** 13 Đứa Trẻ Trong Ngục Tù Ngoại Ô — Kiểm Soát Cưỡng Chế, Ảo Tưởng Điên Cuồng Đôi & Cú Nhảy Sinh Tồn (Hồ Sơ Gia Đình Turpin)  
-> **Thời điểm thẩm định:** 14/11/2026  
+> **Thời điểm thẩm định:** 15/11/2026  
 > **Căn cứ tiêu chuẩn:** `AGENTS.md` (Luật K1–K10, V9, L1–L10) và `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (§A2, §A2b, §A2c, §A9.2, Bẫy #118).  
 > **Tài liệu nghiên cứu đi kèm:** [`01_KICH_BAN/Tap17/NghienCuu_TamLy_BoSung_KichBan_Tap17.md`](NghienCuu_TamLy_BoSung_KichBan_Tap17.md)  
-> **Các tệp kịch bản được đánh giá:**  
-> - Tiếng Việt (VN): [`01_KICH_BAN/Tap17/kichban_tap17_23102026.md`](kichban_tap17_23102026.md)  
-> - Tiếng Anh (EN): [`01_KICH_BAN/Tap17_EN/kichban_tap17_EN.md`](../Tap17_EN/kichban_tap17_EN.md)  
-> - Tiếng Nhật (JA): [`01_KICH_BAN/Tap17_JA/kichban_tap17_JA.md`](../Tap17_JA/kichban_tap17_JA.md)
+> **Các tệp kịch bản & kế hoạch sản xuất được đánh giá:**  
+> - Tiếng Việt (VN): [`01_KICH_BAN/Tap17/kichban_tap17_23102026.md`](kichban_tap17_23102026.md) · [`02_SAN_XUAT/Tap17/KeHoach_Video_Tap17.md`](../../02_SAN_XUAT/Tap17/KeHoach_Video_Tap17.md)  
+> - Tiếng Anh (EN): [`01_KICH_BAN/Tap17_EN/kichban_tap17_EN.md`](../Tap17_EN/kichban_tap17_EN.md) · [`02_SAN_XUAT/Tap17_EN/KeHoach_Video_Tap17_EN.md`](../../02_SAN_XUAT/Tap17_EN/KeHoach_Video_Tap17_EN.md)  
+> - Tiếng Nhật (JA): [`01_KICH_BAN/Tap17_JA/kichban_tap17_JA.md`](../Tap17_JA/kichban_tap17_JA.md) · [`02_SAN_XUAT/Tap17_JA/KeHoach_Video_Tap17_JA.md`](../../02_SAN_XUAT/Tap17_JA/KeHoach_Video_Tap17_JA.md)  
+> - Tiếng Hàn (KO): [`01_KICH_BAN/Tap17_KO/kichban_tap17_KO.md`](../Tap17_KO/kichban_tap17_KO.md) · [`02_SAN_XUAT/Tap17_KO/KeHoach_Video_Tap17_KO.md`](../../02_SAN_XUAT/Tap17_KO/KeHoach_Video_Tap17_KO.md)
 
 ---
 
 ## 1. Bảng số đo kỹ thuật & Tính toàn vẹn Parity 1:1
 
-Theo quy tắc **L3** (*"CẤM nói xong khi chưa đo. Mỗi bước báo số đo thật"*), toàn bộ 3 bản kịch bản được chạy qua parser chuẩn của pipeline (`.work/parse_kichban.py`):
+Theo quy tắc **L3** (*"CẤM nói xong khi chưa đo. Mỗi bước báo số đo thật"*), toàn bộ 4 bản kịch bản được chạy qua parser chuẩn của pipeline (`.work/parse_kichban.py`):
 
-| Thông số đo lường | Tiếng Việt (VN) | Tiếng Anh (EN) | Tiếng Nhật (JA) | Mức độ đồng bộ |
-|---|:---:|:---:|:---:|:---:|
-| **Số Hồi (Acts)** | 5 | 5 | 5 | **Khớp 100% (5/5)** |
-| **Tổng số phần tử (Elements)** | **51** | **51** | **51** | **Khớp 100% (51/51)** |
-| **Lượt lời thoại (LOI)** | **32** | **32** | **32** | **Khớp 100% (32/32)** |
-| **Tổng số câu đọc (Sentences)** | **226** | **226** | **226** | **Khớp 1:1 tuyệt đối** |
-| **Số điểm ngắt nghỉ (NGHI)** | 1 (`2.11`) | 1 (`2.11`) | 1 (`2.11`) | **Khớp 100% (1.5 giây)** |
-| **Số cue âm thanh (BGM / SFX)** | 18 (8 BGM / 10 SFX) | 18 | 18 | **Khớp 100% vị trí & thứ tự** |
-| **Độ an toàn từ cấm (V9)** | 0 vi phạm | 0 vi phạm | 0 vi phạm | **100% An toàn** |
-| **Quy tắc ngắt nhịp (G1)** | 0 dấu `...` | 0 dấu `...` | 0 dấu `...` | **100% Đạt** |
-| **Ước tính thời lượng lời** | ~30,5 phút | ~29,5 phút | ~31,0 phút | Chuẩn tập 28–32 phút |
+| Thông số đo lường | Tiếng Việt (VN) | Tiếng Anh (EN) | Tiếng Nhật (JA) | Tiếng Hàn (KO) | Mức độ đồng bộ |
+|---|:---:|:---:|:---:|:---:|:---:|
+| **Số Hồi (Acts)** | 5 | 5 | 5 | 5 | **Khớp 100% (5/5)** |
+| **Tổng số phần tử (Elements)** | **51** | **51** | **51** | **51** | **Khớp 100% (51/51)** |
+| **Lượt lời thoại (LOI)** | **32** | **32** | **32** | **32** | **Khớp 100% (32/32)** |
+| **Tổng số câu đọc (Sentences)** | **226** | **226** | **226** | **226** | **Khớp 1:1 tuyệt đối** |
+| **Số điểm ngắt nghỉ (NGHI)** | 1 (`2.11`) | 1 (`2.11`) | 1 (`2.11`) | 1 (`2.11`) | **Khớp 100% (1.5 giây)** |
+| **Số cue âm thanh (BGM / SFX)** | 18 (8 BGM / 10 SFX) | 18 | 18 | 18 | **Khớp 100% vị trí & thứ tự** |
+| **Độ an toàn từ cấm (V9)** | 0 vi phạm | 0 vi phạm | 0 vi phạm | 0 vi phạm | **100% An toàn** |
+| **Quy tắc ngắt nhịp (G1)** | 0 dấu `...` | 0 dấu `...` | 0 dấu `...` | 0 dấu `...` | **100% Đạt** |
+| **Ước tính thời lượng lời** | ~30,5 phút | ~29,5 phút | ~31,0 phút | ~30,0 phút | Chuẩn tập 29–32 phút |
 
 ---
 
-## 2. Phân bổ số câu đồng đều theo từng Hồi (Đồng bộ 1-1)
+## 2. Phân bổ số câu đồng đều theo từng Hồi (Đồng bộ 1-1 cả 4 ngôn ngữ)
 
-| Hồi | Tiêu đề hồi | VN | EN | JA | Khớp 1:1 |
-|---|---|:---:|:---:|:---:|:---:|
-| **Hồi 1** | Cú nhảy qua cửa sổ rạng sáng & Cuộc gọi 911 | 44 | 44 | 44 | ✅ 100% |
-| **Hồi 2** | Ngục tù ngoại ô & Vỏ bọc hoàn hảo của gia đình kiểu mẫu | 45 | 45 | 45 | ✅ 100% |
-| **Hồi 3** | Giải mã tâm lý: Kiểm soát cưỡng chế, Folie à Deux & Sự ấu trĩ hóa | 45 | 45 | 45 | ✅ 100% |
-| **Hồi 4** | Bản cáo trạng rúng động, Phiên tòa & Giải mã giọt nước mắt tại tòa | 47 | 47 | 47 | ✅ 100% |
-| **Hồi 5** | Hành trình tái sinh từ tro tàn & 4 Cảnh báo đỏ sinh tồn | 45 | 45 | 45 | ✅ 100% |
-| **TỔNG** | **Toàn bộ 5 hồi kịch bản** | **226** | **226** | **226** | **✅ 100% Tuyệt đối** |
+| Hồi | Tiêu đề hồi | VN | EN | JA | KO | Khớp 1:1 |
+|---|---|:---:|:---:|:---:|:---:|:---:|
+| **Hồi 1** | Cú nhảy qua cửa sổ rạng sáng & Cuộc gọi 911 | 44 | 44 | 44 | 44 | ✅ 100% |
+| **Hồi 2** | Ngục tù ngoại ô & Vỏ bọc hoàn hảo của gia đình kiểu mẫu | 45 | 45 | 45 | 45 | ✅ 100% |
+| **Hồi 3** | Giải mã tâm lý: Kiểm soát cưỡng chế, Folie à Deux & Sự ấu trĩ hóa | 45 | 45 | 45 | 45 | ✅ 100% |
+| **Hồi 4** | Bản cáo trạng rúng động, Phiên tòa & Giải mã giọt nước mắt tại tòa | 47 | 47 | 47 | 47 | ✅ 100% |
+| **Hồi 5** | Hành trình tái sinh từ tro tàn & 4 Cảnh báo đỏ sinh tồn | 45 | 45 | 45 | 45 | ✅ 100% |
+| **TỔNG** | **Toàn bộ 5 hồi kịch bản** | **226** | **226** | **226** | **226** | **✅ 100% Tuyệt đối** |
 
 ---
 
@@ -74,4 +75,4 @@ Theo quy tắc **L3** (*"CẤM nói xong khi chưa đo. Mỗi bước báo số 
 ---
 
 ## 5. Kết luận
-Kịch bản Tập 17 đã hoàn tất nâng cấp quy mô lớn cho cả **3 ngôn ngữ (Tiếng Việt, Tiếng Anh, Tiếng Nhật)** với **226 câu thoại đồng bộ 100% 1-to-1**. Đạt toàn bộ các cổng kiểm định chất lượng nội dung và kỹ thuật của kênh Amber eyes.
+Kịch bản và Hồ sơ kế hoạch sản xuất Tập 17 đã hoàn tất nâng cấp quy mô lớn cho cả **4 ngôn ngữ (Tiếng Việt, Tiếng Anh, Tiếng Nhật, Tiếng Hàn)** với **226 câu thoại đồng bộ 100% 1-to-1**. Đạt toàn bộ các cổng kiểm định chất lượng nội dung và kỹ thuật của kênh Amber eyes.

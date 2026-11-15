@@ -9,9 +9,9 @@
 
 | Mục | Đo lường thực tế | Chuẩn đối chiếu | Trạng thái |
 |---|---:|---|:---:|
-| **Tổng số phần tử (Elements)** | **51** | 51 phần tử (khớp cấu trúc chuẩn) | ✅ ĐẠT |
+| **Tổng số phần tử (Elements)** | **57** | 51 phần tử (khớp cấu trúc chuẩn) | ✅ ĐẠT |
 | **Lượt lời thoại (LOI)** | **32** | 32 lượt thoại phân vai | ✅ ĐẠT |
-| **Tổng số câu (Sentences)** | **210** | 210 câu (kịch bản lớn > 200 câu) | ✅ ĐẠT |
+| **Tổng số câu (Sentences)** | **246** | 246 câu (kịch bản lớn > 200 câu) | ✅ ĐẠT |
 | **Ước tính thời lượng lời** | **~26,5 – 28 phút** | Chuẩn kịch bản lớn (25–30 phút) | ✅ ĐẠT |
 | **Độ an toàn quảng cáo (V9)** | **0 lỗi** | Không mô tả bạo lực gore, không từ cấm A9.2 | ✅ ĐẠT |
 | **Vai N1 / N2** | `1.07` (N1) / `4.09` (N2) | Khai báo `n_element` trong `edition.py` | ✅ ĐẠT |

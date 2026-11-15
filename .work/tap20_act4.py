@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Act 4 data for Episode 20: 47 sentences across VN, EN, JA, KO."""
+"""Act 4 data for Episode 20 (241 sentences across VN, EN, JA, KO)."""
 
 ACT4_VN = [
     ("BGM", "Tiếng Violin căng thẳng, tiếng gõ búa tòa án khô khốc vang dội trong không gian phòng xử án."),
@@ -12,6 +12,8 @@ ACT4_VN = [
         "Hắn không còn là người bạn học lập dị nói năng lưu loát trước ống kính máy quay.",
         "Đối mặt với khối lượng bằng chứng pháp y, dữ liệu máy tính và mẫu sinh học áp đảo không thể chối cãi, McDaniel hiểu rằng bản án tử hình đang cận kề trước mắt.",
         "Để tìm kiếm cơ hội sống sót cuối cùng, kẻ sát nhân đã buộc phải chấp nhận ký vào thỏa thuận nhận tội Giết người có suy tính trước.",
+        "Ba năm bị giam giữ trong bốn bức tường bê tông đã bóc trần toàn bộ sự kiêu ngạo giả tạo của cựu sinh viên trường luật.",
+        "Ảo tưởng về một trí tuệ siêu việt có thể đánh lừa công lý đã hoàn toàn sụp đổ trước kho chứng cứ khoa học không thể lay chuyển.",
     ]),
     ("SFX", "Tiếng lật mở tập thỏa thuận nhận tội, tiếng bút ký sột soạt."),
     ("LOI", "HOST", "bản thú tội chi tiết phơi bày sự thật", [
@@ -30,6 +32,8 @@ ACT4_VN = [
         "Trước một hồ sơ chứng cứ vững chắc và liền mạch đến từng chi tiết, mọi sự xảo biện của bị cáo đều trở nên hoàn toàn vô nghĩa.",
         "Sự kiên trì của lực lượng thực thi pháp luật đã buộc một kẻ tự xưng là am hiểu pháp luật phải cúi đầu nhận tội trước sự thật.",
         "Đó là chiến thắng vẻ vang của công lý và lương tri trước sự gian xảo và tàn độc của tội ác.",
+        "Bản thỏa thuận nhận tội mà McDaniel ký kết vào phút chót không hề xuất phát từ một sự thức tỉnh lương tri hay ăn năn sám hối.",
+        "Đó thuần túy là sự toan tính sinh tồn hèn nhát của một kẻ hiểu rằng phiên tòa xét xử công khai sẽ đưa hắn thẳng tới bản án tử hình.",
     ]),
     ("SFX", "Tiếng gõ búa tòa án dứt khoát ba tiếng, tiếng micro phát biểu rung nhẹ của nhân chứng."),
     ("LOI", "HOST", "lời phát biểu xúc động của gia đình nạn nhân", [
@@ -56,6 +60,7 @@ ACT4_VN = [
         "Ông tuyên phạt Stephen McDaniel bản án Tù chung thân với điều kiện phải chấp hành hình phạt tối thiểu ba mươi năm tù giam mới được quyền xem xét ân xá.",
         "Điều này đồng nghĩa với việc kẻ sát nhân sẽ không bao giờ có cơ hội nộp đơn xin ân xá trước năm 2041, khi hắn đã bước sang tuổi năm mươi lăm.",
         "McDaniel ngay sau đó bị áp giải vào hệ thống nhà tù bang Georgia để thụ án trong sự cô lập tuyệt đối.",
+        "Sau vụ án, những người từng cẩu thả trong quy trình bảo an của tòa nhà đã phải gánh chịu một chấn thương đạo đức dai dẳng khi nhận ra sự lơ là của mình đã mở đường cho tội ác.",
     ]),
     ("LOI", "CHUYÊN GIA TÂM LÝ", "C: Đúc kết về Sụp đổ ái kỷ và Tự thương hại bệnh lý", [
         "Khi nghe tuyên án, McDaniel không hề bộc lộ sự ăn năn chân chính hay hối hận vì sinh mạng đã tước đoạt.",
@@ -63,6 +68,8 @@ ACT4_VN = [
         "Đó là hiện tượng Sụp đổ cái tôi ái kỷ, hay Narcissistic Collapse: khi mọi quyền lực và sự kiểm soát bị tước bỏ, kẻ ái kỷ chỉ còn lại nỗi thương thân hèn mọn.",
         "Bản án chung thân là lời khẳng định rằng không có bất kỳ trí tuệ hay sự am hiểu luật pháp nào có thể dung túng cho tội ác.",
         "Kẻ săn mồi tự giam mình trong một ảo tưởng thiên tài cuối cùng đã phải nhận lấy bản án nghiêm khắc nhất của lương tri và công lý.",
+        "Khoa học tâm lý học tội phạm phân biệt rạch ròi giữa Sự Ăn Năn Chân Thực và Sự Tự Thương Hại Bệnh Lý.",
+        "Những giọt nước mắt hiếm hoi của McDaniel chỉ là sự xót thương cho cái tôi ái kỷ đã tan tành của chính hắn, chứ không hề có một tia thấu cảm nào cho sinh mạng của người khác.",
     ]),
     ("LOI", "HOST", "khép lại Hồi 4, mở ra giá trị thức tỉnh", [
         "Cánh cửa nhà tù an ninh cao đã vĩnh viễn khép lại phía sau lưng Stephen McDaniel, chấm dứt hành trình của một vụ án gây chấn động nước Mỹ.",
@@ -83,6 +90,8 @@ ACT4_EN = [
         "He was no longer the eccentric peer holding court before journalistic microphones.",
         "Faced with an insurmountable mountain of digital footprints, microscopic tool-mark matches, and biological evidence, McDaniel recognized that capital punishment was imminent.",
         "To purchase his own survival, the killer was compelled to sign a formal negotiated plea agreement admitting to malice murder.",
+        "Three years of confinement within concrete walls stripped away every shred of the former law student's arrogant pretense.",
+        "The delusion of an intellectual mastermind capable of outsmarting justice collapsed completely before the unassailable mountain of forensic evidence.",
     ]),
     ("SFX", "Pages of the negotiated plea agreement turn, crisp scratch of a pen signing the document."),
     ("LOI", "HOST", "detailing the cold, meticulous written admission", [
@@ -93,7 +102,7 @@ ACT4_EN = [
         "The stark realities documented in the court record extinguished every lingering doubt, laying bare the malicious cruelty of a calculating mind.",
     ]),
     ("SFX", "Subdued gasp ripples across the gallery, followed by the gavel striking for order."),
-    ("LOI", "INVESTIGATOR", "D: the triumph of objective forensics over intellectual arrogance", [
+    ("LOI", "DETECTIVE", "D: the triumph of objective forensics over intellectual arrogance", [
         "For our investigative team, that written admission represented the culmination of thousands of relentless hours logged by detectives and digital forensic examiners.",
         "He attempted to deploy his legal education to manufacture a labyrinth that would blind investigators to his tracks.",
         "Yet he failed to realize that every digital command on a hard drive and every tool mark on metal leaves an indelible signature.",
@@ -101,6 +110,8 @@ ACT4_EN = [
         "Confronted by an unbroken, scientifically validated evidentiary matrix, every legal obfuscation raised by the defense collapsed into irrelevance.",
         "The unyielding perseverance of law enforcement forced a self-styled scholar of procedural loopholes to bow before the undeniable truth.",
         "It was an enduring victory of justice and collective conscience over the cold cunning of a covert predator.",
+        "The plea agreement McDaniel signed at the final hour was never an awakening of conscience or genuine repentance.",
+        "It was purely cowardly survival calculus from someone who understood a public jury trial would lead directly to death row.",
     ]),
     ("SFX", "Three measured gavel strikes echo, podium microphone adjusts with a low hum."),
     ("LOI", "HOST", "introducing the heart-rending impact statement from the victim's family", [
@@ -109,7 +120,7 @@ ACT4_EN = [
         "The wound of losing an extraordinary daughter on the cusp of fulfilling her life’s dream is a trauma time can never heal.",
         "Yet standing before the man who stole Lauren’s future, they spoke with the unshakeable dignity of enduring love and moral resilience.",
     ]),
-    ("LOI", "ORDINARY PERSON", "N2: Lauren’s Family Representative, female voice, choked with tears yet fiercely resilient", [
+    ("LOI", "PERSON INVOLVED", "N2: Lauren’s Family Representative, female voice, choked with tears yet fiercely resilient", [
         "Lauren was the crown jewel and the brightest light of our entire family.",
         "She labored with joy for years, conquering difficult examinations to prepare for a life dedicated to defending others in a court of law.",
         "She greeted every human soul with authentic warmth, radiant laughter, and an absolute absence of malice or cynicism.",
@@ -120,13 +131,14 @@ ACT4_EN = [
         "Lauren will forever shine in our memories as an unquenchable beacon of goodness, courage, and unconditional love.",
         "The legacy of her spirit will always triumph over the pathetic darkness he sought to cast upon our lives.",
     ]),
-    ("LOI", "INVESTIGATOR", "D: the unyielding judicial pronouncement", [
+    ("LOI", "DETECTIVE", "D: the unyielding judicial pronouncement", [
         "The proceedings culminated with the unsparing judgment delivered by Judge Howard Simms.",
         "Judge Simms stated from the bench that McDaniel’s actions represented absolute cold-blooded malice disguised beneath a mask of benign eccentricity.",
         "Under the terms of the negotiated plea, additional counts were dismissed to spare the family the prolonged trauma of capital appeals.",
         "He sentenced Stephen McDaniel to life in prison with the statutory requirement that he serve a mandatory minimum of thirty years before attaining parole eligibility.",
         "This mandate ensures the killer cannot even apply for consideration before the year 2041, when he reaches fifty-five years of age.",
         "McDaniel was remanded immediately into the Georgia Department of Corrections system to serve his decades in profound isolation.",
+        "Following the case, those who had been careless with building security suffered enduring moral injury upon realizing their negligence paved the path for evil.",
     ]),
     ("LOI", "PSYCHOLOGIST", "C: Dissecting Narcissistic Collapse and Pathological Self-Pity", [
         "Throughout the pronouncement of judgment, McDaniel displayed not an ounce of genuine contrition or remorse for the life he extinguished.",
@@ -134,6 +146,8 @@ ACT4_EN = [
         "This is the textbook manifestation of narcissistic collapse: when absolute control is stripped away, the narcissist experiences only pathetic self-grief.",
         "A sentence of life imprisonment affirms that no intellect, credential, or legal training can ever license the destruction of another human being.",
         "The predator who fancied himself a criminal genius received the unyielding verdict dictated by human decency and the rule of law.",
+        "Criminal psychology draws a sharp boundary between Authentic Remorse and Pathological Self-Pity.",
+        "McDaniel’s rare tears were shed solely for his shattered narcissistic ego, completely devoid of affective empathy for another human life.",
     ]),
     ("LOI", "HOST", "closing Act 4, paving the way for survival lessons", [
         "The heavy steel doors of the penitentiary closed permanently behind Stephen McDaniel, concluding the judicial chapter of a case that shook the nation.",
@@ -154,6 +168,8 @@ ACT4_JA = [
         "カメラの前で雄弁に語りかけていた風変わりな学友の面影は、もはやどこにも残されていませんでした。",
         "圧倒的なデジタル証拠、金属の工具痕、そして否定の余地のない生体証拠を突きつけられ、マクダニエルは死刑の執行が目前に迫っていることを悟ったのです。",
         "生き残るための最後の道を求めて、この殺人犯は謀殺の罪を正式に認める司法取引の合意書に署名せざるを得ませんでした。",
+        "コンクリートの壁に囲まれた3年間の勾留生活は、元法学生の傲慢な虚勢を根底から剥ぎ取りました。",
+        "正義を欺くことができるという知能犯の妄想は、動かしがたい科学的証拠の前に完全に瓦解したのです。",
     ]),
     ("SFX", "司法取引合意書がめくられ、署名のペンの摩擦音が走る。"),
     ("LOI", "ホスト", "冷徹に記された自白文書の全容を公表する", [
@@ -172,6 +188,8 @@ ACT4_JA = [
         "科学的に検証された完璧な証拠の連鎖を前に、弁護側が弄したあらゆる詭弁は完全に意味を失いました。",
         "法執行機関の執念が、法律の抜け穴を知り尽くしていると豪語していた知能犯に、真実の前で頭を垂れさせたのです。",
         "それは、冷酷な捕食者の狡猾さに対する、正義と社会の良心の完全な勝利でした。",
+        "マクダニエルが土壇場で署名した司法取引は、良心の目覚めや真摯な懺悔から出たものでは決してありませんでした。",
+        "それは、公開裁判に進めば陪審員によって死刑判決が下されると察した、卑怯な生存の損得計算に過ぎなかったのです。",
     ]),
     ("SFX", "木槌が三度鳴り響き、遺族が立つ証言台のマイクが低く擦れる。"),
     ("LOI", "ホスト", "遺族の胸を打つ意見陳述を導入する", [
@@ -198,6 +216,7 @@ ACT4_JA = [
         "裁判官はスティーブン・マクダニエルに対し、仮釈放の申請資格を得るまでに最低30年間の服役を義務付ける終身刑を言い渡しました。",
         "これは、彼が55歳となる2041年を迎えるまで、いかなる恩赦や仮釈放の申請も法的に許されないことを意味します。",
         "マクダニエルは直ちにジョージア州更生局の厳重警備刑務所へと移送され、完全な隔離の下で服役を開始しました。",
+        "事件後、建物の保安管理を軽視していた関係者たちは、自らの怠慢が凶行への道を開いてしまったと悟り、消えることのない道徳的トラウマを背負い続けることとなりました。",
     ]),
     ("LOI", "心理学者", "C: 自己愛性崩壊と病理的自己憐憫の深層を暴く", [
         "判決が下される間、マクダニエルは自らが奪った尊い命に対して、真の反省や悔恨の情を何一つ示しませんでした。",
@@ -205,6 +224,8 @@ ACT4_JA = [
         "これこそが自己愛性崩壊の典型的な姿であり、すべての全能感を剥ぎ取られた時、自己愛者には惨めな自己憐憫しか残らないのです。",
         "終身刑という判決は、いかなる知性や学歴も、他者の命を奪う凶行を正当化することはできないという揺るぎない宣言です。",
         "自らを犯罪の天才と思い描いていた捕食者は、法と正義の峻厳な裁きを受け入れざるを得ませんでした。",
+        "犯罪心理学は、真の悔悟と病理的自己憐憫の間に明確な境界線を引いています。",
+        "マクダニエルが流した稀な涙は、打ち砕かれた自らの自己愛に対する哀れみに過ぎず、他者の尊い命への共感は微塵も含まれていませんでした。",
     ]),
     ("LOI", "ホスト", "第4幕を締めくくり、実践的な教訓への橋渡しを行う", [
         "重厚な鉄の扉がスティーブン・マクダニエルの背後で永遠に閉ざされ、全米を震撼させた事件の法廷劇は終結しました。",
@@ -216,7 +237,7 @@ ACT4_JA = [
 
 ACT4_KO = [
     ("BGM", "긴장감 넘치는 바이올린 선율, 법정에 울려 퍼지는 건조한 판사 법봉 소리."),
-    ("LOI", "호스트", "역사적인 선고 공판의 엄숙한 무게감을 사실적으로 복원한다", [
+    ("LOI", "진행자", "역사적인 선고 공판의 엄숙한 무게감을 사실적으로 복원한다", [
         "3년에 가까운 지루한 법적 공방을 거쳐, 2014년 4월 본안 재판 개정을 불과 며칠 앞두고 Stephen McDaniel은 마침내 비브 카운티 상급법원 법정에 섰습니다.",
         "Howard Simms 판사가 주재하는 법정 안은 Lauren의 가족과 친지, 동료 법학도들과 전국 취재진으로 발 디딜 틈 없이 가득 찼습니다.",
         "방청석 전체에는 피고인의 냉혹한 범행에 대한 무거운 분노와 침통한 슬픔이 짙게 가라앉아 있었습니다.",
@@ -225,9 +246,11 @@ ACT4_KO = [
         "카메라 앞에서 유창하게 이웃의 우정을 읊어대던 그 괴짜 청년의 모습은 더 이상 찾아볼 수 없었습니다.",
         "부인할 수 없는 컴퓨터 포렌식 기록과 미세 공구 흔적, 그리고 결정적인 생체 증거의 산더미 앞에서 McDaniel은 사형 선고가 코앞에 닥쳤음을 직감했습니다.",
         "목숨을 부지할 마지막 탈출구를 찾기 위해 이 살인범은 결국 계획적 살인 혐의를 인정하는 사전 유죄 협상 합의서에 서명해야만 했습니다.",
+        "콘크리트 벽에 갇힌 3년간의 구금 생활은 전직 로스쿨생의 오만한 허세를 밑바닥까지 벗겨냈습니다.",
+        "사법 정의를 속일 수 있다는 지능적 우월감의 망상은 흔들리지 않는 과학적 증거 앞에서 완전히 무너져 내렸습니다.",
     ]),
     ("SFX", "유죄 인정 합의서 서류가 넘어가고, 서명하는 펜촉의 날카로운 긁힘 소리가 이어진다."),
-    ("LOI", "호스트", "상세한 자백 합의서가 진실의 전모를 드러낸다", [
+    ("LOI", "진행자", "상세한 자백 합의서가 진실의 전모를 드러낸다", [
         "유죄 협상 합의문에는 McDaniel 본인이 직접 서명한 상세한 범행 시인서가 첨부되어 있었습니다.",
         "그 진술서에서 그는 2011년 6월 26일 새벽 4시 30분경 마스터키를 이용해 Lauren의 아파트에 침입했음을 공식 인정했습니다.",
         "그는 침실에서 깊이 잠들어 있던 동기생의 목숨을 잔혹하게 앗아갔음을 낱낱이 시인했습니다.",
@@ -243,9 +266,11 @@ ACT4_KO = [
         "과학적으로 입증된 빈틈없는 증거 사슬 앞에서 피고인이 준비했던 모든 궤변과 법적 꼼수는 완전히 무력화되었습니다.",
         "법 집행 기관의 끈질긴 집념이 법의 맹점을 안다고 자부하던 파렴치한 지능범을 진실 앞에 무릎 꿇게 만든 것입니다.",
         "그것은 냉혹한 포식자의 교활함에 맞선 정의와 인간 양심의 영원한 승리였습니다.",
+        "맥대니얼이 막판에 서명한 유죄 인정 합의는 결코 양심의 각성이나 진정한 참회에서 나온 것이 아니었습니다.",
+        "그것은 공개 재판으로 갈 경우 배심원단에 의해 사형 판결이 내려질 것을 직감한 비겁한 생존 계산에 불과했습니다.",
     ]),
     ("SFX", "단호한 법봉 타격음 세 번, 증언대에 선 유가족의 떨리는 마이크 조정음."),
-    ("LOI", "호스트", "유가족의 가슴 저미는 피해자 영향 진술을 전한다", [
+    ("LOI", "진행자", "유가족의 가슴 저미는 피해자 영향 진술을 전한다", [
         "Howard Simms 판사가 판결 선고에 앞서 피해자 가족의 최후 진술을 허가하자 법정 안은 숨소리조차 들리지 않을 만큼 숙연해졌습니다.",
         "증언대 마이크 앞에 선 Lauren의 부모와 가족들이 짊어져 온 가늠할 수 없는 슬픔의 무게를 상상해 보십시오.",
         "일생의 꿈을 목전에 두고 가장 찬란했던 딸을 잃어버린 유족의 상처는 세월이 아무리 흘러도 아물 수 없는 깊은 흉터입니다.",
@@ -269,15 +294,18 @@ ACT4_KO = [
         "재판장은 Stephen McDaniel에게 가석방 신청 자격을 얻기까지 최소 30년 동안 감형 없는 복역을 마쳐야 한다는 조건부 종신형을 선고했습니다.",
         "이는 그가 쉰다섯 살이 되는 2041년 이전에는 어떠한 형태의 사면이나 가석방 신청도 법적으로 원천 불가함을 의미합니다.",
         "McDaniel은 선고 직후 조지아주 교정청 산하 최고 등급 보안 교도소로 호송되어 완전한 격리 속에서 복역에 들어갔습니다.",
+        "사건 이후, 건물의 보안 관리를 소홀히 했던 관계자들은 자신들의 부주의가 범행으로 가는 길을 열어주었다는 사실을 깨닫고 지울 수 없는 도덕적 상처를 짊어지게 되었습니다.",
     ]),
-    ("LOI", "심리학자", "C: 자기애성 붕괴와 병리적 자기연민의 실체를 밝힌다", [
+    ("LOI", "프로파일러", "C: 자기애성 붕괴와 병리적 자기연민의 실체를 밝힌다", [
         "선고가 내려지는 순간에도 McDaniel은 자신이 앗아간 고귀한 생명에 대해 단 한 점의 진정한 참회나 속죄의 감정도 드러내지 않았습니다.",
         "그의 멍한 시선이 드러낸 것은 오직 병리적 자기연민, 즉 Pathological Self-Pity의 발로였으며, 자신의 장밋빛 미래와 자존심이 완전히 파멸했다는 사실에 대한 이기적인 슬픔뿐이었습니다.",
         "이것이야말로 자기애성 붕괴, 즉 Narcissistic Collapse의 전형적인 단면으로, 모든 통제권과 특권이 박탈당했을 때 자기애자는 초라한 자기연민 속에 갇혀버립니다.",
         "종신형이라는 단죄는 어떠한 지적 자만이나 법률적 배경도 타인의 생명을 파괴한 범죄를 정당화할 수 없다는 정의의 엄숙한 선언입니다.",
         "자신을 완전 범죄의 천재로 착각했던 포식자는 결국 법과 인간 양심의 가장 엄격한 심판대 앞에서 영원히 격리되었습니다.",
+        "범죄심리학은 진정한 참회와 병리적인 자기연민 사이에 명확한 경계선을 긋습니다.",
+        "맥대니얼이 흘린 드문 눈물은 산산조각 난 자신의 나르시시즘에 대한 연민이었을 뿐, 타인의 소중한 생명에 대한 공감은 결코 존재하지 않았습니다.",
     ]),
-    ("LOI", "호스트", "제4막을 닫으며 현실적 생존 교훈으로의 연결을 제시한다", [
+    ("LOI", "진행자", "제4막을 닫으며 현실적 생존 교훈으로의 연결을 제시한다", [
         "육중한 교도소 철문이 Stephen McDaniel의 뒤편에서 영원히 닫히며, 미국 전역을 뒤흔들었던 한 편의 법정 드라마는 막을 내렸습니다.",
         "하지만 이 사건이 남긴 사회적 충격과 1인 가구 여성 및 청년들의 안전을 지키기 위한 현실적 교훈은 여전히 절실한 무게를 지닙니다.",
         "과거의 뼈아픈 비극을 미래의 생명을 지키는 단단한 방패로 승화시키는 것이야말로 우리 사회가 감당해야 할 엄중한 책무입니다.",

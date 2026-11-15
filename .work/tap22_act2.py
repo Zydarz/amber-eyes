@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Act 2 data for Episode 22: 41 sentences across VN, EN, JA, KO."""
+"""Act 2 data for Episode 22: 49 sentences across VN, EN, JA, KO."""
 
 ACT2_VN = [
     ("BGM", "Âm thanh Electronic Pulse dồn dập, tiếng tích tắc đồng hồ lạnh lẽo và sắc lạnh tạo cảm giác căng thẳng của một phòng hỏi cung."),
@@ -22,7 +22,7 @@ ACT2_VN = [
         "Sự ngoan cố đến phi lý của người đàn bà này làm kinh ngạc ngay cả những điều tra viên dày dạn kinh nghiệm nhất.",
     ]),
     ("SFX", "Tiếng lách cách bấm mở máy cassette ghi âm nghiệp vụ, tiếng rè băng từ."),
-    ("LOI", "ĐIỀU TRA VIÊN", "D: phân tích giữa thủ đoạn gây án và dấu ấn tâm lý", [
+    ("LOI", "DIEU_TRA_VIEN", "D: phân tích giữa thủ đoạn gây án và dấu ấn tâm lý", [
         "Dưới góc độ nghiệp vụ điều tra, chúng tôi phân tích rất rõ sự khác biệt giữa thủ đoạn gây án Modus Operandi và dấu ấn tâm lý Signature của đối tượng.",
         "Về thủ đoạn gây án, Dalia đã tính toán kỹ lưỡng việc tạo ngoại phạm tại phòng tập gym, sử dụng sim điện thoại rác và thuê người ngoài để tránh bị truy vết trực tiếp.",
         "Thế nhưng dấu ấn tâm lý bệnh lý của ả lại bộc lộ ở nhu cầu kiểm soát tuyệt đối và sự hưng phấn quyền lực.",
@@ -30,6 +30,10 @@ ACT2_VN = [
         "Ả không hề có một khoảnh khắc ngập ngừng hay trắc ẩn nào khi định đoạt mạng sống của người đàn ông từng chung chăn gối.",
         "Đây không phải là hành vi bộc phát của một người bị dồn vào chân tường, mà là một hành vi săn mồi có tính toán và hoàn toàn chủ động.",
         "Chuỗi chứng cứ hình ảnh và âm thanh này là đòn kết liễu đập tan mọi nỗ lực chối tội của đối tượng.",
+        "Khoảnh khắc ả bình thản ngồi trong xe hơi để mặc cả giá tiền tước đoạt sinh mạng của chồng đã phơi bày một sự tha hóa hoàn toàn về mặt nhân tính.",
+        "Ả không chỉ đòi hỏi kết quả cuối cùng, mà còn muốn kiểm soát từng chi tiết nhỏ nhất từ góc bắn cho đến việc tạo hiện trường giả để bảo đảm bản thân không phải chịu bất kỳ rủi ro nào.",
+        "Sự háo hức lộ rõ trong ánh mắt khi nói về cái chết của người đàn ông từng chung chăn gối là biểu hiện rõ nét nhất của sự thỏa mãn quyền lực ở một nhân cách chống đối xã hội.",
+        "Đó là bằng chứng thép khẳng định rằng hành vi này hoàn toàn không có chỗ cho sự trắc ẩn hay bất kỳ xung đột lương tâm nào.",
     ]),
     ("SFX", "Tiếng lật hồ sơ bằng chứng, tiếng gõ bút bi xuống mặt bàn kim loại."),
     ("LOI", "HOST", "phân tích chuỗi hành vi leo thang độc hại trước đó", [
@@ -41,7 +45,7 @@ ACT2_VN = [
         "Giờ đây khi xâu chuỗi toàn bộ sự việc, người chồng bàng hoàng nhận ra những hiểm họa liên tiếp đó đều xuất phát từ người vợ đầu ấp tay gối.",
         "Ảo tưởng trục lợi của Dalia đã leo thang theo một quỹ đạo nguy hiểm, từ gài bẫy pháp lý cho đến quyết định thuê sát thủ lấy đi sinh mạng.",
     ]),
-    ("LOI", "ĐIỀU TRA VIÊN", "D: phân tích ngòi nổ và điểm gãy tâm lý kích hoạt tội ác", [
+    ("LOI", "DIEU_TRA_VIEN", "D: phân tích ngòi nổ và điểm gãy tâm lý kích hoạt tội ác", [
         "Ngòi nổ kích hoạt chuỗi hành vi phạm tội của Dalia gắn liền chặt chẽ với vấn đề quyền sở hữu bất động sản.",
         "Chỉ một thời gian ngắn sau ngày cưới, Dalia đã liên tục gây áp lực và thúc ép Michael ký văn bản sang tên toàn bộ quyền sở hữu căn nhà cho ả.",
         "Khi Michael bắt đầu nghi ngờ các vụ việc gài bẫy trước đó và thời hạn quản chế của anh sắp kết thúc, Dalia nhận ra thời gian không còn đứng về phía mình.",
@@ -58,6 +62,10 @@ ACT2_VN = [
         "Toàn bộ chiến thuật thao túng tâm lý và nước mắt cá sấu hoàn toàn sụp đổ trước bức tường sự thật không thể lay chuyển.",
         "Michael quay lưng bước ra khỏi phòng, để lại người vợ đối diện với chiếc còng số tám và những câu hỏi đanh thép của công lý.",
         "Cánh cửa sắt khép lại, chính thức đặt dấu chấm hết cho cuộc hôn nhân giả tạo và mở đầu cho một cuộc chiến pháp lý kéo dài.",
+        "Khoảnh khắc Michael Dippolito lùi bước và dứt khoát từ chối cái ôm giả tạo ấy là một trong những giây phút bi kịch và chân thực nhất của bản năng con người.",
+        "Trong tích tắc định mệnh đó, toàn bộ tình yêu thương, sự trân trọng và niềm tin mà anh từng gửi gắm vào cuộc hôn nhân sáu tháng đã vỡ vụn thành trăm mảnh.",
+        "Nỗi đau đớn bị phản bội bởi chính người mà mình từng muốn dùng cả phần đời còn lại để che chở là một vết thương tâm lý sâu sắc không lời nào có thể diễn tả.",
+        "Cái lùi bước dứt khoát ấy không chỉ là sự tự vệ thể xác, mà là lời tuyên bố đoạn tuyệt vĩnh viễn với chiếc bẫy tình cảm độc hại đã suýt chôn vùi sinh mạng của anh.",
     ]),
     ("BGM", "Tiếng Electronic Pulse dồn dập hạ dần âm lượng, nhường chỗ cho khoảng lặng căng thẳng khép lại Hồi 2."),
 ]
@@ -91,6 +99,10 @@ ACT2_EN = [
         "She exhibited not a single microsecond of hesitation or moral conflict regarding ending her spouse's life.",
         "This was never the impulsive reaction of someone backed into a corner, but an entirely proactive predatory maneuver.",
         "That recorded video and audio formed an unassailable evidentiary chain that obliterated her defense.",
+        "The chilling composure with which she sat inside that vehicle bargaining over the price of her husband's life laid bare an absolute moral degradation.",
+        "She did not merely demand the ultimate fatal outcome, but insisted on dictating every meticulous detail—from firing angles to staging a mock burglary—to ensure she bore zero personal risk.",
+        "The unmistakable gleam of anticipation in her eyes as she contemplated the demise of her lawful spouse was the quintessential hallmark of power arousal in an antisocial personality.",
+        "This stood as irrefutable proof that her murderous undertaking harbored no trace of compassion, nor the slightest flicker of inner moral conflict.",
     ]),
     ("SFX", "Evidence binder flipping open, rhythmic tapping of a pen on a metal table."),
     ("LOI", "HOST", "analyzing the preceding escalation of covert hostility", [
@@ -119,6 +131,10 @@ ACT2_EN = [
         "Her entire psychological manipulation and crocodile tears dissolved against an unyielding wall of objective reality.",
         "Michael turned his back and walked away, leaving his wife to face the cold steel of handcuffs and relentless justice.",
         "As the iron door shut, it marked the permanent death of a predatory marriage and the dawn of an eight-year legal war.",
+        "The moment Michael Dippolito recoiled and decisively rejected that manipulative embrace remains one of the most tragic, raw manifestations of human survival instinct.",
+        "In that singular, devastating instant, all the profound devotion, cherish, and earnest faith he had poured into their six-month marriage shattered into a thousand irrecoverable pieces.",
+        "The agonizing trauma of being targeted for destruction by the very soul he had pledged to protect for the rest of his days inflicted an emotional wound beyond the reach of words.",
+        "That resolute backward step was not merely physical self-defense, but an absolute psychological severance from the toxic emotional snare that had nearly cost him his life.",
     ]),
     ("BGM", "Intense electronic pulses gradually subside, yielding to a tense silence that concludes Act 2."),
 ]
@@ -152,6 +168,10 @@ ACT2_JA = [
         "かつて愛を誓った男性の命を絶つことに対し、彼女には微塵の良心の呵責も躊躇も存在しませんでした。",
         "これは追い詰められた者の衝動的な行動などではなく、完全に計算され主導された捕食行動そのものでした。",
         "記録された映像と音声は、容疑者によるあらゆる言い逃れを粉砕する決定的な証拠となりました。",
+        "夫の命の値段を値踏みしながら車内で平然と交渉を進める彼女の冷酷な態度は、人間性の完全な喪失を白日の下に晒していました。",
+        "単に標的の排除を要求するだけでなく、自身のリスクを完全にゼロにするため、銃撃の角度から強盗偽装の細部に至るまで自ら執拗に指図しようとしたのです。",
+        "かつて愛を誓った配偶者の死を目前にしてその瞳に浮かんだ露骨な高揚感は、反社会的人格特有の「支配権力の充足感」を何よりも雄弁に物語っていました。",
+        "これこそが、彼女の冷血な謀略の中にいささかの良心の呵責も、人間的な慈悲の欠片も存在しなかったことを証明する動かぬ鉄証となったのです。",
     ]),
     ("SFX", "証拠資料のファイルをめくる音、金属の机をペンで規則正しく叩く音。"),
     ("LOI", "HOST", "それ以前に繰り広げられていた危険なエスカレーションを解き明かす", [
@@ -180,6 +200,10 @@ ACT2_JA = [
         "彼女が弄した心理操作と偽りの涙は、揺るぎない客観的事実の壁を前にして完全に崩壊しました。",
         "マイケルは背を向けて立ち去り、妻は冷たい手錠と司法の厳正なる追及の前に一人取り残されました。",
         "鉄の扉が閉ざされた瞬間、偽りの婚姻生活は永遠に幕を閉じ、8年に及ぶ法廷闘争の火蓋が切られたのです。",
+        "マイケル・ディッポリトが身を引いてその偽りの抱擁を毅然と拒絶した瞬間は、人間の生存本能が露わになった最も痛切で劇的な光景でした。",
+        "その運命の一瞬において、わずか六か月の結婚生活に注ぎ込んできた深い愛情、献身、そして純粋な信頼のすべてが無惨にも粉々に打ち砕かれたのです。",
+        "残された生涯をかけて守り抜くと誓った最愛のパートナーによって自らの命が狙われていたという耐えがたい裏切りのトラウマは、言葉では到底言い尽くせない魂の深傷となりました。",
+        "あの一歩後退した拒絶の動作は、単なる肉体的な自己防衛にとどまらず、自らの命を奪い去ろうとした邪悪な愛憎の罠に対する魂の完全な決別宣言だったのです。",
     ]),
     ("BGM", "激しい電子的パルスが次第に減衰し、張り詰めた静寂が第2幕を締めくくる。"),
 ]
@@ -213,6 +237,10 @@ ACT2_KO = [
         "한때 사랑을 맹세했던 배우자의 목숨을 앗아가는 일에 대해 그녀에게는 단 한 순간의 주저함이나 연민도 없었습니다.",
         "이는 벼랑 끝에 몰린 사람의 충동적인 실수가 아니라 완벽히 주도적이고 냉혹하게 계산된 포식 행동이었습니다.",
         "녹화된 영상과 음성은 피의자의 모든 궤변을 산산조각 낸 결정적인 증거의 사슬이었습니다.",
+        "차 안에 태연하게 앉아 남편 목숨의 대가를 흥정하던 그녀의 섬뜩한 태도는 인간성의 완전한 파탄을 적나라하게 보여주었습니다.",
+        "그녀는 단지 최종적인 살해 결과만을 요구한 것이 아니라, 자신의 위험을 완전히 배제하기 위해 총격 각도부터 강도 위장 수법까지 세세하게 지시하고자 했습니다.",
+        "합법적인 배우자의 죽음을 이야기하며 그녀의 눈빛에 스쳐 지나간 노골적인 흥분감은 반사회적 성격장애 특유의 “통제 권력의 충족감”을 여실히 드러냈습니다.",
+        "이것이야말로 그녀의 살인 모의 과정에 그 어떤 동정심이나 내면의 도덕적 갈등조차 전혀 존재하지 않았음을 증명하는 결정적 증거였습니다.",
     ]),
     ("SFX", "증거 서류철을 넘기는 소리, 금속 테이블을 볼펜으로 규칙적으로 두드리는 소리."),
     ("LOI", "HOST", "이전에 벌어졌던 위험한 악의의 단계적 고조를 분석한다", [
@@ -241,6 +269,10 @@ ACT2_KO = [
         "그녀가 펼친 모든 심리 조작과 악어의 눈물은 객관적 진실의 단단한 벽 앞에서 완벽하게 와해되었습니다.",
         "마이클은 차갑게 등을 돌려 걸어 나갔고 아내는 차가운 수갑과 준엄한 사법적 단죄 앞에 홀로 남겨졌습니다.",
         "철문이 닫히며 거짓으로 쌓아 올린 결혼은 영원히 종말을 고했고 8년에 걸친 법정 공방의 막이 올랐습니다.",
+        "마이클 디폴리토가 뒷걸음질 치며 그녀의 거짓된 포옹을 단호하게 거부한 순간은 인간의 생존 본능이 드러난 가장 비극적이고 진실한 순간이었습니다.",
+        "그 짧은 순간, 6개월의 결혼 생활 동안 쏟아부었던 모든 사랑과 헌신, 순수한 신뢰가 회복할 수 없는 수천 개의 조각으로 산산이 부서졌습니다.",
+        "평생을 바쳐 지키겠다고 맹세했던 배우자가 자신의 목숨을 앗아가려 했다는 참혹한 배신의 상흔은 말로 다 표현할 수 없는 영혼의 깊은 상처가 되었습니다.",
+        "그 단호한 뒷걸음질은 단순한 신체적 방어를 넘어 자신의 목숨을 앗아갈 뻔했던 유독한 감정의 덫과의 완전한 결별 선언이었습니다.",
     ]),
     ("BGM", "격렬한 전자 펄스가 서서히 잦아들며 팽팽한 침묵이 2막을 마무리한다."),
 ]

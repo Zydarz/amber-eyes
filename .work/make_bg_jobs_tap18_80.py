@@ -1,0 +1,611 @@
+"""Tạo danh sách 80 ảnh nền cho Tập 18 (Hồ sơ Lori Vallow & Chad Daybell - Thảm kịch Rexburg, Idaho)
+Theo kịch bản mới nhất (240 câu thoại), tỷ lệ vàng 3.0 câu/ảnh, phân bổ đều 5 hồi:
+- Hồi 1: 16 ảnh (46 câu: 1.02, 1.04, 1.07, 1.09, 1.10, 1.11)
+- Hồi 2: 16 ảnh (44 câu: 2.02, 2.04, 2.06, 2.08, 2.09, 2.10)
+- Hồi 3: 16 ảnh (50 câu: 3.02, 3.03, 3.04, 3.05, 3.07, 3.08, 3.09)
+- Hồi 4: 18 ảnh (63 câu: 4.02, 4.04, 4.06, 4.08, 4.09, 4.10, 4.11, 4.12)
+- Hồi 5: 14 ảnh (37 câu: 5.02, 5.03, 5.04, 5.06)
+Tổng cộng: 80 ảnh nền noir độc bản bao phủ 100% kịch bản 240 câu, triệt tiêu hoàn toàn nguy cơ lặp ảnh.
+Tuân thủ tuyệt đối V5 (người thật chỉ dạng bóng/sau lưng/khuất mặt, không vẽ nạn nhân trẻ em) & V9 (không bạo lực máu me, tập trung tĩnh vật hình sự, bối cảnh tâm lý chiaroscuro) & Không chữ viết do AI vẽ.
+"""
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+WORK = ROOT / ".work"
+
+jobs_tap18 = [
+    # =========================================================================
+    # HỒI 1: BÃI BIỂN HAWAII VÀ BÍ ẨN HAI ĐỨA TRẺ BIẾN MẤT (16 ảnh / 46 câu)
+    # =========================================================================
+    {
+        "name": "t18_kauai_beach_wedding_dusk_shadows",
+        "act": 1,
+        "sentences": "1.02#1–#2",
+        "desc": "Bãi biển nhiệt đới Kauai, Hawaii vào lúc hoàng hôn muộn tắt nắng, hai bóng người cô dâu chú rể đứng bên bờ biển trong bóng tối ngược sáng mờ mịt, sóng biển xám lạnh xô bờ cát tối tăm.",
+        "prompt": "Eerie atmospheric wide shot of a desolate Hawaiian tropical beach on Kauai at cold overcast dusk, two shadowy silhouetted adult figures standing near the water edge exchanging wedding vows, dark heavy crashing waves, fading gloomy grey horizon, haunting chiaroscuro noir."
+    },
+    {
+        "name": "t18_abandoned_wedding_rings_sand",
+        "act": 1,
+        "sentences": "1.02#3–#4",
+        "desc": "Tĩnh vật hai chiếc nhẫn cưới kim loại sáng loáng nằm cô độc trên bờ cát biển ướt át đen thẫm, phía xa là ngọn sóng biển lạnh lùng xóa nhòa dấu chân.",
+        "prompt": "Forensic still life macro shot of two gleaming gold wedding rings lying abandoned on wet dark volcanic sand, foam of chilling sea water encroaching, oppressive psychological tension and bitter dread, dark graphic novel illustration."
+    },
+    {
+        "name": "t18_empty_swing_and_family_house_shadow",
+        "act": 1,
+        "sentences": "1.02#5–#6",
+        "desc": "Chiếc xích đu trẻ em đơn độc đung đưa trong gió lạnh trước hiên ngôi nhà ngoại ô u uất, rèm cửa kéo kín mít, không gian hoang vắng gợi sự biến mất bí ẩn của hai đứa trẻ.",
+        "prompt": "Haunting low-angle shot of a lone wooden child swing swaying gently in chilling wind beside an unlit suburban porch, heavy drawn curtains, suffocating silence of missing innocence, psychological suspense noir."
+    },
+    {
+        "name": "t18_paradox_beach_garland_dark_water",
+        "act": 1,
+        "sentences": "1.02#7",
+        "desc": "Một vòng hoa cưới lei nhiệt đới bị bỏ quên dập dềnh trên mặt nước biển đêm đen đặc như mực, tượng trưng cho sự đối lập rùng rợn giữa nụ cười hôn lễ và thảm kịch giấu kín.",
+        "prompt": "Symbolic macro still life of a wilted tropical flower wedding lei floating in pitch-black ocean water at night, stark high contrast lighting, bitter chilling irony, graphic novel crime dossier aesthetic."
+    },
+    {
+        "name": "t18_facetime_screen_disconnected_call",
+        "act": 1,
+        "sentences": "1.04#1–#3",
+        "desc": "Màn hình điện thoại hiển thị cuộc gọi video FaceTime bị từ chối kết nối, căn phòng tối tăm của người bà tràn ngập nỗi bất an và hoang mang tột độ.",
+        "prompt": "Atmospheric interior view in dim lamplight, a smartphone screen glowing with a red disconnected call icon lying on an old wooden side table, heavy shadows engulfing the room, sense of desperate unanswered pleas."
+    },
+    {
+        "name": "t18_arizona_suburban_shooting_night_police_tape",
+        "act": 1,
+        "sentences": "1.04#4–#5",
+        "desc": "Bên ngoài căn nhà ở Chandler, Arizona trong đêm tối ngột ngạt, dải băng phong tỏa của cảnh sát bay phần phật trong gió, dấu vết của vụ nổ súng đoạt mạng Charles Vallow.",
+        "prompt": "Grim exterior nocturnal crime scene in suburban Arizona, flashing faint red and blue emergency beacon reflections on asphalt, yellow police barrier tape fluttering against pitch-black shadows, tense investigative atmosphere."
+    },
+    {
+        "name": "t18_court_dossier_cassandra_syndrome",
+        "act": 1,
+        "sentences": "1.04#6–#7",
+        "desc": "Hồ sơ đơn thỉnh cầu khẩn cấp gửi tòa án bị bỏ quên trên bàn làm việc, những dòng chữ cảnh báo tuyệt vọng về sự cuồng giáo và hiểm họa tính mạng chìm trong ánh đèn vàng yếu ớt.",
+        "prompt": "Still life close-up of a typed legal court petition folder open on a wooden desk, harsh raking desk lamp light highlighting desperate filed warnings, the tragedy of Cassandra syndrome, David Fincher style lighting."
+    },
+    {
+        "name": "t18_rexburg_church_steeple_cold_mist",
+        "act": 1,
+        "sentences": "1.04#8–#10",
+        "desc": "Tháp chuông nhà thờ và khu phố tôn giáo khép kín tại Rexburg, Idaho chìm trong màn sương mùa đông xám xịt, biểu tượng của sự mù quáng và ảo tưởng an toàn sùng đạo.",
+        "prompt": "Ominous architectural shot of a tall austere church steeple rising into a heavy overcast freezing winter sky in Rexburg Idaho, pale cold fog creeping through silent streets, oppressive pious isolation noir."
+    },
+    {
+        "name": "t18_religious_bookshelf_doomsday_texts",
+        "act": 1,
+        "sentences": "1.04#11–#12",
+        "desc": "Kệ sách gỗ cũ kỹ chất đầy những cuốn tiểu thuyết tôn giáo tự xuất bản về ngày tận thế và cõi chết, tạo nên bức màn che giấu sự tha hóa nhân tính.",
+        "prompt": "Moody still life of dusty theological novel volumes and self-published apocalyptic manuscripts stacked on a dark oak bookshelf, deep chiaroscuro shadows, subtle dust motes floating in dim raking light."
+    },
+    {
+        "name": "t18_autistic_child_toy_red_truck_dust",
+        "act": 1,
+        "sentences": "1.07#1–#3",
+        "desc": "Chiếc xe tải đồ chơi màu đỏ của bé JJ nằm cô độc trên tấm thảm phủ bụi mờ, tai nghe chống ồn trẻ em bị bỏ quên, gợi nỗi xót xa vô bờ của người bà.",
+        "prompt": "Poignant forensic macro shot of a child small red toy truck and a pair of worn noise-canceling headphones resting in an empty silent room, heavy melancholy shadows, heart-wrenching absence of a vulnerable child."
+    },
+    {
+        "name": "t18_rexburg_townhome_empty_lock_police_door",
+        "act": 1,
+        "sentences": "1.07#4–#6",
+        "desc": "Cửa căn hộ chung cư tại Rexburg bị bỏ trống hoàn toàn, chìa khóa cắm hờ trên ổ khóa lạnh lẽo, bên trong sàn nhà vương vãi dấu vết đào tẩu vội vã.",
+        "prompt": "Cinematic low-angle interior shot of a deserted rental townhome in Rexburg, front door slightly ajar, empty living room floorboards catching cold moonlight, eerie abandonment after clandestine escape."
+    },
+    {
+        "name": "t18_missing_children_flyers_wet_pole",
+        "act": 1,
+        "sentences": "1.07#7–#8",
+        "desc": "Bản thông báo tìm trẻ lạc dán trên cột đèn ven đường bị mưa làm ướt sũng nhăn nhúm, phần thưởng hai mươi nghìn đô la giữa sự im lặng tàn nhẫn của thành phố.",
+        "prompt": "Street-level noir shot of crumpled rain-soaked missing children flyers stapled to a dark utility pole, cold water droplets running down paper, desolate chilly autumn street corner, desperate search in vain."
+    },
+    {
+        "name": "t18_fbi_taskforce_map_multistate_flight",
+        "act": 1,
+        "sentences": "1.09#1–#3",
+        "desc": "Bản đồ điều tra tác chiến đa tiểu bang của FBI trải rộng trên bàn phòng chỉ huy tác chiến, các mũi tên đỏ nối liền Idaho, Arizona và quần đảo Hawaii.",
+        "prompt": "Investigative command room table covered with extensive multi-state operational maps of the American West, red grease-pencil tracking lines connecting Idaho to Hawaii, dim focused overhead lamplight, high-stakes manhunt tension."
+    },
+    {
+        "name": "t18_kauai_police_handcuffs_resort_patio",
+        "act": 1,
+        "sentences": "1.09#4–#7",
+        "desc": "Sân sau khu nghỉ dưỡng nhiệt đới tại Kauai nơi vụ bắt giữ diễn ra, chiếc kính râm màu đen rơi trên thềm đá bên cạnh còng số tám phản chiếu ánh nắng gay gắt.",
+        "prompt": "Dramatic outdoor crime scene still life on a luxury tropical resort patio, black sunglasses lying discarded beside heavy chrome handcuffs on flagstone pavers, glaring tropical light juxtaposed with grim legal reckoning."
+    },
+    {
+        "name": "t18_forensic_server_encrypted_emails_light",
+        "act": 1,
+        "sentences": "1.10#1–#7",
+        "desc": "Màn hình giám định máy tính của cảnh sát hiển thị hàng nghìn dòng tin nhắn mã hóa về thang đo linh hồn và sự chuẩn bị ngày tận thế, căn phòng điều tra kỹ thuật số chìm trong ánh sáng xanh lạnh.",
+        "prompt": "Forensic digital analysis workstation in a dark cyber lab, dual glowing monitors displaying scrolling encrypted email logs, forensic technician headphones on desk, uncovering chilling religious fanaticism."
+    },
+    {
+        "name": "t18_salem_rural_farm_gate_distant_ominous",
+        "act": 1,
+        "sentences": "1.11#1–#5",
+        "desc": "Chiếc cổng sắt hoen gỉ dẫn vào trang trại nông thôn của Chad Daybell tại Salem, Idaho, con đường đất bụi bặm trải dài vào rặng cây âm u dưới bầu trời dông bão nặng trĩu.",
+        "prompt": "Ominous wide landscape shot of a rusted farm iron gate opening onto a lonely dirt road leading toward a secluded rural property in Salem Idaho, distant farmhouse silhouette under bruised stormy overcast sky."
+    },
+
+    # =========================================================================
+    # HỒI 2: MẢNH ĐẤT ĐỊNH MỆNH VÀ NỖI ĐAU KHAI QUẬT (16 ảnh / 44 câu)
+    # =========================================================================
+    {
+        "name": "t18_fbi_convoy_freemont_farmhouse_dawn",
+        "act": 2,
+        "sentences": "2.02#1–#2",
+        "desc": "Đoàn xe chuyên dụng của FBI và cảnh sát hạt Fremont xếp hàng dài bao vây khu trang trại nông thôn hẻo lánh, lều giám định pháp y dã chiến được dựng lên trên bãi cỏ.",
+        "prompt": "Grim wide cinematic view of FBI mobile forensic command trucks and unmarked law enforcement vehicles cordoning off a remote rural farmhouse, white forensic pop-up tents pitched on dry Idaho soil, tense dawn operation."
+    },
+    {
+        "name": "t18_grey_suv_dashboard_rearview_mirror",
+        "act": 2,
+        "sentences": "2.02#3–#4",
+        "desc": "Góc nhìn từ trong chiếc xe thể thao màu xám đỗ ven đường qua gương chiếu hậu, phản chiếu bóng dáng cảnh sát và máy xúc đang tiến sâu về phía góc vườn sau.",
+        "prompt": "Claustrophobic interior view inside a vehicle cabin, rearview mirror framing distant police officers and an excavator moving toward the backyard perimeter, paranoid eyes in shadow, acute anxiety noir."
+    },
+    {
+        "name": "t18_farm_driveway_police_interception_cuffs",
+        "act": 2,
+        "sentences": "2.02#5–#6",
+        "desc": "Hai chiếc xe cảnh sát chặn ngang đầu xe trên lối đi sỏi đá của trang trại, còng tay số tám khóa chặt trên mui xe dưới ánh mặt trời chói chang đầy ngột ngạt.",
+        "prompt": "Stark law enforcement confrontation shot on a dusty gravel driveway, unmarked police interceptor blocking a grey SUV, handcuffs gleaming on vehicle hood, decisive apprehension of a false prophet."
+    },
+    {
+        "name": "t18_pet_cemetery_excavation_trench",
+        "act": 2,
+        "sentences": "2.04#1",
+        "desc": "Chiếc hố đào sâu trong khu vực nghĩa địa thú cưng sau vườn trang trại, những cọc tiêu đánh dấu hiện trường pháp y cắm xung quanh trên nền đất xới tung.",
+        "prompt": "Somber forensic excavation site in a quiet tree-lined backyard corner, deep disturbed soil trench surrounded by yellow forensic evidence markers, solemn investigative atmosphere, heavy chiaroscuro shadows."
+    },
+    {
+        "name": "t18_red_pajama_fabric_forensic_tray",
+        "act": 2,
+        "sentences": "2.04#2",
+        "desc": "Khay nhôm pháp y chứa mẩu vải đồ ngủ trẻ em màu đỏ cùng các đoạn băng dính công nghiệp được niêm phong cẩn trọng, thể hiện sự tàn độc không thể tha thứ.",
+        "prompt": "Forensic laboratory macro shot of a sterile stainless steel examination tray holding an evidence-tagged scrap of red children pajama fabric, harsh sterile lighting, profound solemnity, V9 compliant."
+    },
+    {
+        "name": "t18_firepit_charcoal_ash_evidence_markers",
+        "act": 2,
+        "sentences": "2.04#3",
+        "desc": "Khu vực hố đốt lửa sau trang trại phủ đầy than tro nguội lạnh, các biển số đo đạc pháp y được bố trí nghiêm ngặt ghi nhận tội ác hủy hoại bằng chứng.",
+        "prompt": "Grim forensic wide shot of an outdoor fire pit with cold dark ashes and scorched earth, numbered yellow tent markers placed meticulously by crime scene specialists, somber documentary noir."
+    },
+    {
+        "name": "t18_medical_examiner_dossier_seals",
+        "act": 2,
+        "sentences": "2.04#4–#5",
+        "desc": "Bản báo cáo kết luận giám định y khoa pháp y đóng dấu đỏ niêm phong, xác nhận thời điểm tử vong từ tháng 9 năm 2019, vạch trần tội ác trước đám cưới.",
+        "prompt": "Macro still life of an official State Forensic Medical Examiner autopsy report folder stamped CONFIDENTIAL on a metal desk, rubber stamps, dark raking light, undeniable legal proof."
+    },
+    {
+        "name": "t18_fremont_press_conference_microphones",
+        "act": 2,
+        "sentences": "2.04#6–#8",
+        "desc": "Bục họp báo của cảnh sát và viện kiểm sát ngập tràn hàng chục micro của các đài truyền hình, không khí nặng trĩu tang thương khi tin dữ được công bố.",
+        "prompt": "Somber interior press conference podium bristling with broadcast microphones and recorder devices, dark wood wall backdrop, solemn heavy mood of global media shock and heartbreak."
+    },
+    {
+        "name": "t18_storage_unit_padlock_abandoned_boxes",
+        "act": 2,
+        "sentences": "2.06#1–#3",
+        "desc": "Dãy kho lưu trữ tự quản với cửa cuốn kim loại đóng kín, ổ khóa sắt hoen gỉ, bên trong là những thùng các-tông đựng đồ chơi và ảnh lưu niệm bị bỏ rơi.",
+        "prompt": "Eerie corridor of a commercial self-storage facility under harsh flickering fluorescent lights, padlocked corrugated metal roller doors, creating a fake alibi of runaway children, cold industrial noir."
+    },
+    {
+        "name": "t18_occult_manuscript_ritual_altar",
+        "act": 2,
+        "sentences": "2.06#4–#5",
+        "desc": "Chiếc bàn gỗ nhỏ phủ khăn tối màu chứa các ghi chép nghi lễ thanh tẩy quái gở, ngọn nến đã tắt và những sơ đồ ma quỷ được hung thủ lập ra.",
+        "prompt": "Moody still life of a clandestine ritual table in a dark room, handwritten esoteric spiritual journals, unlit black candle stumps, bizarre theological classification charts, disturbing psychological signature."
+    },
+    {
+        "name": "t18_yellowstone_national_park_lonely_pines",
+        "act": 2,
+        "sentences": "2.06#6–#7",
+        "desc": "Rừng thông bạt ngàn tại Công viên Quốc gia Yellowstone dưới bầu trời u ám sương mù, con đường nhựa hoang vắng nơi nạn nhân được nhìn thấy lần cuối.",
+        "prompt": "Desolate landscape view of Yellowstone National Park, towering lodgepole pine trees enveloped in dense freezing grey mist, empty curved asphalt road, haunting sense of final journey noir."
+    },
+    {
+        "name": "t18_social_security_bank_statements_fraud",
+        "act": 2,
+        "sentences": "2.06#8–#9",
+        "desc": "Bản sao kê tài khoản ngân hàng với các dòng giao dịch chuyển tiền trợ cấp an sinh xã hội hàng tháng sau ngày nạn nhân qua đời, bằng chứng không thể chối cãi về lòng tham.",
+        "prompt": "Forensic still life of financial audit spreadsheets and highlighted monthly direct-deposit banking records under a magnifying glass, cold investigative light, revealing dark materialistic greed."
+    },
+    {
+        "name": "t18_alex_cox_arizona_motel_shadows",
+        "act": 2,
+        "sentences": "2.06#10–#13",
+        "desc": "Căn phòng trọ tồi tàn tại Arizona trong những ngày cuối đời của kẻ tòng phạm Alex Cox, bóng người đàn ông ngồi gục đầu bên mép giường trong cơn hoảng loạn và vỡ mộng.",
+        "prompt": "Claustrophobic interior of a seedy roadside motel room at midnight, a solitary slumped male figure silhouette seated on bed edge holding head in trembling hands, tragic realization of being a disposable pawn."
+    },
+    {
+        "name": "t18_springville_cemetery_tammy_exhumation",
+        "act": 2,
+        "sentences": "2.08#1–#3",
+        "desc": "Khu nghĩa trang Springville, bang Utah trong sương sớm lạnh lẽo, màn che chắn pháp y bao quanh phần mộ bà Tammy Daybell trong cuộc khai quật bất thường.",
+        "prompt": "Solemn early morning exhumation scene in a misty historic hillside cemetery in Utah, forensic privacy screens erected over a grave plot, ancient marble headstones shrouded in cold fog."
+    },
+    {
+        "name": "t18_life_insurance_policy_payout_checks",
+        "act": 2,
+        "sentences": "2.08#4–#6",
+        "desc": "Hợp đồng bảo hiểm nhân thọ bốn trăm ba mươi nghìn đô la với con dấu phê duyệt bồi thường đặt cạnh cuống vé máy bay đi Hawaii, vạch trần động cơ mưu hại người vợ hiền.",
+        "prompt": "Still life close-up of a high-value life insurance payout agreement document, airline boarding passes to Honolulu, sleek fountain pen on dark polished wood, calculated sinister betrayal."
+    },
+    {
+        "name": "t18_three_tiered_staircase_escalation_trap",
+        "act": 2,
+        "sentences": "2.09#1–#6; 2.10#1–#5",
+        "desc": "Hình tượng ẩn dụ noir: cầu thang đá lạnh lẽo ba bậc dẫn xuống vực thẳm bóng tối, tương ứng với ba nấc thang tội ác sát hại người thân vì ảo tưởng và kim tiền.",
+        "prompt": "Conceptual psychological noir visual: an austere cracked stone staircase descending into pitch-black abyss, three distinct levels illuminated by harsh side raking light, visual metaphor of escalating homicide."
+    },
+
+    # =========================================================================
+    # HỒI 3: MÊ CUNG CUỒNG TÍN VÀ BẢN NGÃ VĨ CUỒNG (16 ảnh / 50 câu)
+    # =========================================================================
+    {
+        "name": "t18_salt_lake_hotel_conference_podium",
+        "act": 3,
+        "sentences": "3.02#1–#3",
+        "desc": "Hội trường hội thảo tôn giáo mờ ảo tại Utah vào mùa thu năm 2018, bục diễn giả với ánh đèn sân khấu tập trung nơi Chad và Lori gặp nhau lần đầu.",
+        "prompt": "Atmospheric interior view of a dim hotel seminar hall, empty rows of upholstered chairs, distant illuminated wooden speaker lectern, setting the stage for toxic narcissistic fusion."
+    },
+    {
+        "name": "t18_toxic_narcissistic_embrace_shadows",
+        "act": 3,
+        "sentences": "3.02#4–#6",
+        "desc": "Hai bóng đen của cặp đôi đứng cạnh nhau trên hành lang khách sạn, bóng đổ kéo dài trên tường vách như một hình hài quái dị, khởi đầu phản ứng hủy diệt dây chuyền.",
+        "prompt": "Dramatic chiaroscuro silhouette of two conspiratorial figures standing close together in an empty hotel corridor, exaggerated monstrous shadows cast across textured wall, psychological dread."
+    },
+    {
+        "name": "t18_folie_a_deux_entangled_threads",
+        "act": 3,
+        "sentences": "3.03#1–#4",
+        "desc": "Hình tượng trừu tượng noir: hai cuộn dây len đen xoắn chặt vào nhau tạo thành nút thắt không thể gỡ, minh họa cho chứng Hoang tưởng chia sẻ (Folie à Deux).",
+        "prompt": "Conceptual psychological illustration: two thick black fibrous ropes twisting and tangling together into an inextricable knot against a dark textured parchment background, visual metaphor of Folie a Deux."
+    },
+    {
+        "name": "t18_one_hundred_forty_four_thousand_scroll",
+        "act": 3,
+        "sentences": "3.03#5–#9",
+        "desc": "Cuộn giấy da cũ kỹ ghi chép con số một trăm bốn mươi bốn nghìn linh hồn được chọn, ngọn lửa nến leo lét trong căn phòng khép kín của kẻ tự phong nữ thần.",
+        "prompt": "Eerie still life of an aged theological manuscript scroll unrolled on a dark table, ancient cryptic numerical scribbles, flickering candle flame casting nervous shadows, delusional grandiosity."
+    },
+    {
+        "name": "t18_light_dark_matrix_ledger_scales",
+        "act": 3,
+        "sentences": "3.04#1–#3",
+        "desc": "Cuốn sổ tay da đen ghi chép bảng phân loại Ánh sáng và Bóng tối của Chad Daybell, chia hai cột với tên người thân bị gán nhãn theo bậc cấp tâm linh.",
+        "prompt": "Forensic close-up of an open black leather journal, two handwritten columns titled in pencil, a small tarnished brass scale in the soft background, disturbing arbitrary cult judgment system."
+    },
+    {
+        "name": "t18_blacklisted_family_portrait_shadow",
+        "act": 3,
+        "sentences": "3.04#4–#5",
+        "desc": "Bức ảnh chân dung gia đình đóng khung kính bị rạn nứt, bóng đen đặc bao phủ lên các thành viên bị gán nhãn linh hồn bóng tối chuẩn bị cho cuộc thanh trừng.",
+        "prompt": "Haunting psychological still life of an antique silver family photo frame with deeply fractured glass, harsh pitch-black shadow blotting out faces, ominous precursor to familial annihilation."
+    },
+    {
+        "name": "t18_zombie_doctrine_shattered_clay_mask",
+        "act": 3,
+        "sentences": "3.05#1–#3",
+        "desc": "Mặt nạ đất sét hình gương mặt trẻ thơ bị vỡ vụn trên sàn đá lạnh, tượng trưng cho học thuyết Zombie tàn độc tước đoạt linh hồn và nhân tính của nạn nhân.",
+        "prompt": "Symbolic macro still life of a cracked and shattered porcelain child theatrical mask lying on dark slate stones, cold raking chiaroscuro light, representing dehumanizing zombie ideology."
+    },
+    {
+        "name": "t18_dehumanization_abyss_doll_in_dark",
+        "act": 3,
+        "sentences": "3.05#4–#6",
+        "desc": "Con búp bê vải rách rưới bị ném vào góc phòng tối tăm như một món đồ chơi vô tri, minh họa cho cơ chế triệt tiêu hoàn toàn lòng trắc ẩn mẫu tử.",
+        "prompt": "Heart-breaking conceptual noir shot: a solitary vintage fabric doll lying discarded in a deep dark shadowy corner, sharp ray of cold moonlight falling across its face, total destruction of maternal empathy."
+    },
+    {
+        "name": "t18_false_benevolence_cruel_dagger_sheath",
+        "act": 3,
+        "sentences": "3.05#7–#9",
+        "desc": "Hình tượng tôn giáo độc hại: một biểu tượng thập tự giá bằng gỗ mộc bị bọc trong gai nhọn kim loại, phản ánh sự mượn danh lòng từ bi để thực thi tội ác man rợ.",
+        "prompt": "Stark symbolic graphic novel illustration: a rustic wooden spiritual cross wrapped in cruel rusted barbed wire, casting a stark high-contrast shadow on bare floorboards, religious cloak over murder."
+    },
+    {
+        "name": "t18_gold_coins_and_apocalyptic_pamphlets",
+        "act": 3,
+        "sentences": "3.07#1–#5",
+        "desc": "Những đồng tiền vàng tích trữ và phong bì bảo hiểm nằm lẫn lộn giữa các tờ rơi tuyên truyền về ngày tận thế, phơi bày bản chất tham lam trần tục đằng sau vỏ bọc tâm linh.",
+        "prompt": "Still life composition of scattered gold bullion coins, unsealed cash envelopes, and sensational doomsday survivalist brochures, harsh spotlighting exposing greed masquerading as holy mission."
+    },
+    {
+        "name": "t18_compartmentalized_mind_divided_cabinet",
+        "act": 3,
+        "sentences": "3.08#1–#4",
+        "desc": "Chiếc tủ gỗ chia ngăn cổ kính với hai ngăn kéo đối lập hoàn toàn: một bên là áo len em bé mềm mại, một bên là xích sắt và ổ khóa han gỉ trong bóng tối.",
+        "prompt": "Conceptual psychological noir visual: an antique wooden apothecary cabinet with two open drawers, left drawer holding a delicate baby knit sweater, right drawer holding heavy rusted iron chains, compartmentalization."
+    },
+    {
+        "name": "t18_jail_telephone_receiver_colby_ryan",
+        "act": 3,
+        "sentences": "3.08#5–#8",
+        "desc": "Ống nghe điện thoại nhà tù bọc thép treo lơ lửng trên vách kính ngăn cách, tái hiện cuộc đối thoại đẫm nước mắt và tuyệt vọng giữa người con trai cả và Lori Vallow.",
+        "prompt": "Grim correctional facility visitation booth, a heavy armored telephone receiver dangling on a coiled steel cord against soundproof mesh glass, emotional devastation of filial confrontation."
+    },
+    {
+        "name": "t18_gravedigger_shovel_shadow_monument",
+        "act": 3,
+        "sentences": "3.08#9–#10",
+        "desc": "Chiếc xẻng đào đất cắm sâu trên bãi cỏ nghĩa trang bên cạnh bia mộ mờ sương, tượng trưng cho quá khứ đào huyệt mờ nhạt đã biến tướng thành ảo tưởng quyền lực cứu thế của Chad.",
+        "prompt": "Moody outdoor shot of an old iron gravedigger spade thrust into dark cemetery earth, silhouette of weathered stone obelisks in misty dawn background, compensatory narcissism of a small-town sexton."
+    },
+    {
+        "name": "t18_shattered_maternal_identity_mirror",
+        "act": 3,
+        "sentences": "3.08#11–#12",
+        "desc": "Tấm gương soi bị vỡ toác thành nhiều mảnh vụn phản chiếu các góc độ tối tăm, ẩn dụ cho sự sụp đổ bản sắc mẫu tử và nỗi sang chấn tinh thần vĩnh viễn của Colby Ryan.",
+        "prompt": "Psychological conceptual macro shot of a heavily fractured wall mirror, jagged glass shards reflecting dark distorted empty voids, visceral collapse of maternal trust and eternal grief."
+    },
+    {
+        "name": "t18_boise_ada_county_courthouse_exterior",
+        "act": 3,
+        "sentences": "3.09#1–#2",
+        "desc": "Tòa nhà Tòa án Hạt Ada tại thành phố Boise trong một ngày xuân âm u, những bậc thang đá cẩm thạch kiên cố chuẩn bị đón nhận phiên tòa lịch sử.",
+        "prompt": "Imposing architectural exterior shot of the Ada County Courthouse in Boise Idaho under a dramatic slate-grey sky, massive stone columns and wide concrete steps, solemn bastion of earthly justice."
+    },
+    {
+        "name": "t18_scales_of_justice_piercing_darkness",
+        "act": 3,
+        "sentences": "3.09#3–#4",
+        "desc": "Cán cân công lý bằng đồng đen nổi bật giữa bóng tối, một luồng ánh sáng trắng chiếu thẳng từ trên cao rọi sáng sự thật trần trụi, khép lại Hồi 3.",
+        "prompt": "Dramatic chiaroscuro studio shot of classical bronze balance scales of justice standing firm against impenetrable blackness, a single intense overhead beam of truth cutting through the void."
+    },
+
+    # =========================================================================
+    # HỒI 4: BẢN ÁN TRẦN THẾ VÀ SỰ SỤP ĐỔ CỦA ÁO TƯỞNG (18 ảnh / 63 câu)
+    # =========================================================================
+    {
+        "name": "t18_ada_courtroom_prosecution_evidence_stacks",
+        "act": 4,
+        "sentences": "4.02#1–#3",
+        "desc": "Bàn làm việc của cơ quan công tố chất đầy những chồng hồ sơ tài liệu dày đặc, hộp đựng vật chứng kỹ thuật số và các bản đồ định vị tại phòng xử án Tòa án Hạt Ada.",
+        "prompt": "Realistic courtroom interior view, prosecution desk piled high with thick legal binders, forensic evidence boxes, and labeled digital drives, dignified solemn courtroom atmosphere noir."
+    },
+    {
+        "name": "t18_defense_empty_table_smirking_shadow",
+        "act": 4,
+        "sentences": "4.02#4–#6",
+        "desc": "Bàn bị cáo trống trơn không một nhân chứng bào chữa, bóng dáng người phụ nữ ngồi thẳng lưng trong bộ trang phục chỉnh tề với thái độ ngạo nghễ lạnh lùng.",
+        "prompt": "Cinematic wide angle of the defendant table inside a silent courtroom, empty witness chair, shadowy female figure sitting rigid and impassive, tension of pending jury verdict."
+    },
+    {
+        "name": "t18_jury_foreperson_verdict_envelope",
+        "act": 4,
+        "sentences": "4.04#1–#2",
+        "desc": "Bao thư niêm phong bản phán quyết của bồi thẩm đoàn đặt trên bàn thư ký tòa án, kết luận có tội đối với tất cả các tội danh giết người và gian lận an sinh xã hội.",
+        "prompt": "Macro still life of a sealed white legal verdict envelope resting on the polished oak clerk desk in front of the empty jury box, decisive moment of criminal culpability."
+    },
+    {
+        "name": "t18_podium_microphone_remorseless_statement",
+        "act": 4,
+        "sentences": "4.04#3–#5",
+        "desc": "Chiếc micro bục phát biểu trước tòa án trong ngày tuyên án, nơi người mẹ trơ tráo đưa ra lời thanh minh hoang tưởng rằng các con đang hạnh phúc ở thế giới bên kia.",
+        "prompt": "Close-up of a lone gooseneck microphone at the courtroom sentencing lectern, dim mahogany background, chilling auditory echo of unrepentant narcissistic delusion."
+    },
+    {
+        "name": "t18_judge_gavel_triple_life_verdict",
+        "act": 4,
+        "sentences": "4.06#1–#4",
+        "desc": "Búa công lý của Thẩm phán Steven Boyce gõ mạnh xuống mặt bàn gỗ sồi, ba bản án tù chung thân liên tiếp không ân xá chính thức được định đoạt.",
+        "prompt": "High-impact macro shot of a heavy dark hardwood judicial gavel resting on its sounding block on the judge bench, official court decree document visible, finality of earthly law."
+    },
+    {
+        "name": "t18_pocatello_womens_prison_watchtower_wire",
+        "act": 4,
+        "sentences": "4.06#5–#7",
+        "desc": "Bên ngoài Trại giam Phụ nữ Pocatello bang Idaho trong ánh hoàng hôn lạnh, hàng rào thép gai cuộn tròn và tháp canh sừng sững khép lại vĩnh viễn phần đời còn lại của Lori.",
+        "prompt": "Bleak exterior view of Pocatello Women Correctional Center in Idaho at twilight, razor-wire perimeter fences, concrete guard towers silhouetted against cold purple clouds, inescapable confinement."
+    },
+    {
+        "name": "t18_chad_daybell_trial_death_penalty_notice",
+        "act": 4,
+        "sentences": "4.08#1–#3",
+        "desc": "Văn bản thông báo truy tố hình phạt tử hình mang tên Chad Daybell đặt trên bàn tòa án vào mùa xuân năm 2024, không khí xét xử kẻ chủ mưu căng thẳng tột độ.",
+        "prompt": "Grim still life of a legal filing document titled Notice of Intent to Seek Death Penalty on a courtroom desk, harsh overhead fluorescent light, ultimate legal retribution."
+    },
+    {
+        "name": "t18_digital_timeline_yellowstone_map_projection",
+        "act": 4,
+        "sentences": "4.08#4–#5",
+        "desc": "Màn hình máy chiếu phòng xử án hiển thị sơ đồ định vị GPS vệ tinh di chuyển của các nghi phạm, đánh sập mọi kịch bản ngoại phạm đổ lỗi cho người khác.",
+        "prompt": "Courtroom presentation display screen projecting a complex forensic timeline with satellite GPS coordinates and cellular tower pings, dismantling calculated defense lies."
+    },
+    {
+        "name": "t18_jury_deliberation_room_heavy_table",
+        "act": 4,
+        "sentences": "4.09#1–#4",
+        "desc": "Phòng nghị án của bồi thẩm đoàn sau cánh cửa đóng kín, chiếc bàn gỗ dài chất đầy hồ sơ ảnh vật chứng và những chiếc ghế trống trĩu nặng suy tư đạo đức.",
+        "prompt": "Somber interior view of an empty jury deliberation room, long conference table covered with evidence folders and discarded coffee cups, heavy atmosphere of profound moral responsibility."
+    },
+    {
+        "name": "t18_unbroken_conscience_voting_ballots",
+        "act": 4,
+        "sentences": "4.09#5–#8",
+        "desc": "Những lá phiếu biểu quyết ghi chữ Có tội xếp ngay ngắn trong chiếc hộp phiếu bằng gỗ, sự thống nhất tuyệt đối của mười hai thành viên bồi thẩm đoàn vì công lý.",
+        "prompt": "Macro still life of handwritten paper ballots marked with solemn unanimous votes resting inside a wooden ballot box, warm raking desk lamp light, integrity of civic justice."
+    },
+    {
+        "name": "t18_melanie_gibb_recorded_call_cassette",
+        "act": 4,
+        "sentences": "4.09#9–#11",
+        "desc": "Cuộn băng cassette ghi âm cuộc điện thoại đối chất lịch sử của nhân chứng Melanie Gibb ngày 8 tháng 12 năm 2019, chiếc tai nghe điều tra viên đặt bên cạnh.",
+        "prompt": "Forensic audio still life: vintage evidence audio cassette tape labeled REPT CALL DEC 8 2019 and black monitoring headphones on an oak table, the audio turning point that cracked the case."
+    },
+    {
+        "name": "t18_death_row_order_fremont_seal",
+        "act": 4,
+        "sentences": "4.10#1–#3",
+        "desc": "Lệnh thi hành án tử hình được Thẩm phán Steven Boyce ký và đóng dấu nổi của Tòa án Hạt Fremont ngày 1 tháng 6 năm 2024, công lý tối hậu được xác lập.",
+        "prompt": "Forensic macro shot of an official Death Warrant court order bearing an embossed gold county seal and bold signatures, cold uncompromising judicial finality noir."
+    },
+    {
+        "name": "t18_kuna_max_security_death_row_cell",
+        "act": 4,
+        "sentences": "4.10#4–#6",
+        "desc": "Dãy hành lang khu tử tù tại Trại giam An ninh Tối đa bang Idaho ở thành phố Kuna, cánh cửa xà lim bằng thép kiên cố với khe mở nhỏ đưa thức ăn.",
+        "prompt": "Bleak, austere perspective view down a maximum-security death row corridor at Idaho State Correctional Institution in Kuna, heavy steel cell doors with food slots, harsh fluorescent glare."
+    },
+    {
+        "name": "t18_wiretap_log_dual_motive_dossier",
+        "act": 4,
+        "sentences": "4.10#7–#10",
+        "desc": "Bản báo cáo nghiệp vụ FBI phân tích động cơ nhị nguyên giữa lương tri thức tỉnh và bản năng tự vệ pháp lý của nhân chứng hợp tác, tài liệu mật đặt trên bàn tác chiến.",
+        "prompt": "Investigative documentary still life of an FBI case analysis report on witness behavioral duality, classified stamps, pen, and recorded transcript pages illuminated by green desk visor lamp."
+    },
+    {
+        "name": "t18_narcissistic_collapse_crumbling_statue",
+        "act": 4,
+        "sentences": "4.11#1–#4",
+        "desc": "Hình tượng ẩn dụ tâm lý: bức tượng bán thân bằng thạch cao của kẻ tự phong đấng cứu thế bị rạn nứt và sụp đổ từng mảng lớn, phơi bày sự trống rỗng bên trong.",
+        "prompt": "Conceptual psychological noir sculpture: a proud classical plaster bust crumbling and cracking apart into dust from within, hollow core revealed under stark side lighting, Narcissistic Collapse."
+    },
+    {
+        "name": "t18_moral_awakening_solitary_window_dawn",
+        "act": 4,
+        "sentences": "4.11#5–#12",
+        "desc": "Khung cửa sổ phòng khách nhìn ra bầu trời rạng đông xanh nhạt, chiếc điện thoại bàn vừa gác máy sau cuộc gọi tố giác, biểu tượng sự thức tỉnh lương tri của nhân chứng.",
+        "prompt": "Atmospheric interior dawn shot, a silhouette of a telephone handset resting securely in its cradle beside a window showing early pale morning light breaking through dark clouds, moral redemption."
+    },
+    {
+        "name": "t18_iron_prison_gates_closing_clang",
+        "act": 4,
+        "sentences": "4.12#1–#4",
+        "desc": "Cánh cổng sắt dày đặc của trại giam khép chặt với những then cài kim loại khổng lồ, cắt đứt vĩnh viễn cặp đôi sát nhân khỏi thế giới tự do bên ngoài.",
+        "prompt": "Massive black iron prison security gates slamming shut, heavy steel sliding bolts and reinforced padlock mechanisms, high contrast shadows, eternal incarceration."
+    },
+    {
+        "name": "t18_empty_four_chairs_memorial_void",
+        "act": 4,
+        "sentences": "4.12#5–#7",
+        "desc": "Bốn chiếc ghế ăn bằng gỗ trống trơn xếp quanh chiếc bàn gia đình trong bóng chiều tà, khoảng trống không thể bù đắp của bốn sinh mệnh bị tước đoạt.",
+        "prompt": "Poignant wide shot of an empty family dining room, four vacant wooden chairs surrounding a bare table in fading twilight, deep melancholic shadows, silent tribute to four lost souls."
+    },
+
+    # =========================================================================
+    # HỒI 5: DI SẢN CÔNG LÝ VÀ BỐN LÁ CHẮN SINH TỒN (14 ảnh / 37 câu)
+    # =========================================================================
+    {
+        "name": "t18_rexburg_memorial_park_spring_blossom",
+        "act": 5,
+        "sentences": "5.02#1–#3",
+        "desc": "Công viên tưởng niệm Tylee và JJ tại trung tâm thành phố Rexburg trong ánh nắng ấm áp, những cây hoa anh đào nở rộ bên cạnh chiếc xích đu trẻ em thanh bình.",
+        "prompt": "Uplifting and serene outdoor scene at the Rexburg children memorial park, blooming spring trees, peaceful playground swings bathed in gentle golden morning sunlight, victory of love over darkness."
+    },
+    {
+        "name": "t18_tylee_and_jj_memorial_bronze_plaque",
+        "act": 5,
+        "sentences": "5.02#4–#5",
+        "desc": "Tấm biển đồng tưởng niệm đúc nổi hình nụ cười và đôi mắt trong veo của Tylee Ryan và JJ Vallow gắn trên tảng đá hoa cương giữa vườn hoa thơm ngát.",
+        "prompt": "Touching still life macro of a weathered bronze memorial plaque mounted on natural granite stone, soft wildflowers surrounding the base, gentle warm rays of sunlight, eternal remembrance."
+    },
+    {
+        "name": "t18_idaho_state_capitol_dome_legislative_reform",
+        "act": 5,
+        "sentences": "5.03#1–#4",
+        "desc": "Mái vòm Tòa nhà Quốc hội bang Idaho tại Boise vươn cao kiêu hãnh, biểu tượng cho những nỗ lực cải cách lập pháp bảo vệ an sinh khẩn cấp cho trẻ em yếu thế.",
+        "prompt": "Majestic low-angle architectural shot of the Idaho State Capitol building dome in Boise against a clear blue morning sky, neoclassical marble grandeur, lasting institutional legacy of child welfare reform."
+    },
+    {
+        "name": "t18_golden_rule_child_safety_crest",
+        "act": 5,
+        "sentences": "5.03#5–#7",
+        "desc": "Huy hiệu tư pháp chạm khắc hình tượng bảo vệ trẻ thơ đặt trên bàn làm việc của cơ quan bảo vệ pháp luật, quy tắc vàng đặt sinh mạng trẻ em lên trên mọi thủ tục.",
+        "prompt": "Dignified still life of a polished bronze law enforcement commemorative medallion symbolizing child protection, resting on dark walnut desk beside legal code books, unwavering commitment."
+    },
+    {
+        "name": "t18_shield_of_critical_thinking_ancient_marble",
+        "act": 5,
+        "sentences": "5.04#1–#5",
+        "desc": "Hình tượng điêu khắc đá cẩm thạch một chiếc khiên vững chắc và ngọn đuốc tri thức, ẩn dụ cho sự tỉnh thức lý trí và tư duy phản biện độc lập chống lại tà giáo.",
+        "prompt": "Classical allegorical composition: a carved stone shield of reason paired with an illuminated torch of truth resting on a pedestal, strong chiaroscuro, intellectual defense against toxic dogmatism."
+    },
+    {
+        "name": "t18_community_solidarity_lanterns_dusk",
+        "act": 5,
+        "sentences": "5.04#6–#7",
+        "desc": "Những ngọn đèn lồng thắp sáng được người dân cầm trên tay trong buổi lễ thắp nến cầu nguyện cộng đồng, biểu trưng cho lòng dũng cảm lên tiếng chống bất công.",
+        "prompt": "Touching wide shot of a peaceful evening community vigil, warm amber lanterns glowing in hands of townspeople gathering in twilight, collective healing and unbreakable social solidarity."
+    },
+    {
+        "name": "t18_four_redflags_overview_banner",
+        "act": 5,
+        "sentences": "5.06#1–#2",
+        "desc": "Tấm bảng đồ họa điều tra của Amber Eyes tóm lược bốn tín hiệu cảnh báo đỏ sinh tồn theo nguyên lý The Gift of Fear, chuẩn bị bước vào phân tích chi tiết.",
+        "prompt": "Cinematic 16:9 investigative presentation board: dark cork pinboard displaying four categorized forensic dossier files labeled with amber markers, clean analytical layout, psychological survival guide."
+    },
+    {
+        "name": "t18_redflag1_self_proclaimed_deity_broken_scepter",
+        "act": 5,
+        "sentences": "5.06#3–#5",
+        "desc": "Cảnh báo đỏ 1: Những thủ lĩnh tự xưng có năng lực thần thánh — quyền trượng giả mạo bằng đồng bị gãy đôi trên bệ đá, biểu tượng của sự tiếm quyền thần linh.",
+        "prompt": "Forensic still life for Red Flag 1: a tarnished faux-gold ceremonial scepter snapped in half on a cracked dark stone plinth, harsh dramatic spotlighting, warning against false messiahs."
+    },
+    {
+        "name": "t18_redflag2_severed_family_bonds_threads",
+        "act": 5,
+        "sentences": "5.06#6–#8",
+        "desc": "Cảnh báo đỏ 2: Chiến thuật cô lập nạn nhân và cắt đứt liên kết gia đình — những sợi dây thừng nối liền bị kéo đứt lìa trên mặt bàn tối tăm.",
+        "prompt": "Conceptual psychological shot for Red Flag 2: thick natural hemp ropes severed and frayed violently on a dark wooden surface, casting sharp fragmented shadows, warning against cultic isolation."
+    },
+    {
+        "name": "t18_redflag3_apocalyptic_hoarding_sundial",
+        "act": 5,
+        "sentences": "5.06#9–#11",
+        "desc": "Cảnh báo đỏ 3: Sự ám ảnh hoang tưởng về ngày tận thế — chiếc đồng hồ mặt trời bằng đồng cổ nứt vỡ trong đêm dông bão, cảnh báo bẫy tâm lý sợ hãi tập thể.",
+        "prompt": "Moody still life for Red Flag 3: a cracked ancient brass sundial casting erratic dark shadows under a thunderstorm lightning flash, warning against manufactured doomsday hysteria."
+    },
+    {
+        "name": "t18_redflag4_financial_leeching_masked_ledger",
+        "act": 5,
+        "sentences": "5.06#12–#14",
+        "desc": "Cảnh báo đỏ 4: Lòng tham vật chất và bòn rút tài chính núp bóng tâm linh — chồng hóa đơn bòn rút tài sản giấu dưới cuốn sách kinh thánh giả tạo.",
+        "prompt": "Still life for Red Flag 4: stacks of covert banking withdrawal receipts spilling out from beneath a hollowed-out vintage theological book, stark lighting exposing predatory financial fraud."
+    },
+    {
+        "name": "t18_idaho_golden_plains_morning",
+        "act": 5,
+        "sentences": "5.06#15–#16",
+        "desc": "Bình minh rực rỡ bừng sáng trên những cánh đồng lúa mì vàng óng của bang Idaho, bầu trời trong xanh bao la, thông điệp về sự bình an và chữa lành vết thương.",
+        "prompt": "Inspiring dawn shot: vast golden wheat plains of Idaho stretching to distant mountain ranges under brilliant warm morning sunrise, soft mist rising into crystal-clear skies, renewal and peace."
+    },
+    {
+        "name": "t18_amber_eyes_closing_dossier_vallow",
+        "act": 5,
+        "sentences": "5.06#17–#18",
+        "desc": "Bàn làm việc của Amber Eyes khép lại tập hồ sơ Vallow-Daybell Case, huy hiệu Cú Mèo Amber Eyes bên cạnh ly trà ấm, lời chào tạm biệt khán giả.",
+        "prompt": "Signature Amber Eyes closing shot: dark mahogany desk, manila case folder labeled VALLOW-DAYBELL DOSSIER neatly closed, sleek amber owl feather emblem resting on leather cover, warm amber desk lamp glow, contemplative outro."
+    },
+    {
+        "name": "t18_endcard_investigative_archive_wall",
+        "act": 5,
+        "sentences": "5.06#17–#18",
+        "desc": "Khung hình kết thúc kênh Amber Eyes: bức tường lưu trữ hồ sơ điều tra với ánh sáng vàng hổ phách, chuẩn bị sẵn vị trí hiển thị video đề xuất và nút đăng ký.",
+        "prompt": "Atmospheric cinematic 16:9 studio backdrop: dim investigative archive room with tall wooden dossier shelves, subtle amber mood lighting, clean open centered framing designed for YouTube end-screen video cards, premium noir aesthetic."
+    }
+]
+
+if __name__ == "__main__":
+    out_file = WORK / "bg_jobs_tap18.json"
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(jobs_tap18, f, ensure_ascii=False, indent=2)
+    print(f"Đã ghi thành công {len(jobs_tap18)} jobs vào {out_file}")
+    
+    # Thống kê phân bổ theo hồi
+    acts = {}
+    for j in jobs_tap18:
+        a = j["act"]
+        acts[a] = acts.get(a, 0) + 1
+    for a in sorted(acts.keys()):
+        print(f" - Hồi {a}: {acts[a]} ảnh")

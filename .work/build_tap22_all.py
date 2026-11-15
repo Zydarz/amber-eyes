@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Build and verify all 4 language editions for Episode 22 (212 sentences)."""
+"""Build and verify all 4 language editions for Episode 22 (248 sentences)."""
 
 import os
 import sys

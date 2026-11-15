@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Act 2 data for Episode 20: 41 sentences across VN, EN, JA, KO."""
+"""Act 2 data for Episode 20 (241 sentences across VN, EN, JA, KO)."""
 
 ACT2_VN = [
     ("BGM", "Âm thanh Minimalist Ambient lạnh lẽo, tiếng kim đồng hồ điện tử khô khốc và đều đặn."),
@@ -9,6 +9,8 @@ ACT2_VN = [
         "Hắn giữ nguyên một tư thế cứng đờ như một pho tượng đá giữa căn phòng kín cô lập.",
         "Hắn không hề chớp mắt theo nhịp sinh học thông thường, không đổi tư thế ngồi và kiên quyết từ chối cả việc uống nước khi được điều tra viên mời.",
         "Bầu không khí tĩnh lặng đến mức nghẹt thở, tạo nên cảm giác rợn ngợp cho bất kỳ ai theo dõi qua màn hình giám sát an ninh.",
+        "Sự bất động tuyệt đối của McDaniel giữa căn phòng hỏi cung không đơn thuần là sự lì lợm, mà là biểu hiện của một hệ thần kinh đang căng thẳng tột độ để duy trì sự kiểm soát.",
+        "Hắn đã chọn cách đóng băng toàn bộ cơ thể như một nỗ lực tuyệt vọng nhằm ngăn cản bất kỳ vi biểu cảm nào để lộ tâm lý tội lỗi.",
     ]),
     ("SFX", "Tiếng quạt trần quay đều đều đơn điệu, tiếng thở nặng nề trong phòng kín."),
     ("LOI", "HOST", "giọng sắc lạnh, phân tích lớp mặt nạ phòng vệ", [
@@ -30,6 +32,8 @@ ACT2_VN = [
         "Trong khi hắn ngồi cố thủ trong phòng hỏi cung, một mũi trinh sát khác đã tiến hành khám xét khẩn cấp căn hộ của hắn ngay đối diện phòng nạn nhân.",
         "Từng ngăn tủ, từng góc gầm giường và các vật dụng cá nhân được các kỹ thuật viên rà soát tỉ mỉ dưới ánh đèn nghiệp vụ.",
         "Và những chứng cứ đen tối ẩn giấu trong căn hộ của McDaniel dần dần phát lộ trước sự thật.",
+        "Chiếc chìa khóa vạn năng tìm thấy trong phòng McDaniel đã bóc trần sự cẩu thả nghiêm trọng của ban quản lý tòa nhà khi cất giữ chìa khóa bảo trì một cách hớ hênh.",
+        "Lỗ hổng an ninh ấy đã gián tiếp trao vào tay kẻ rình rập một đặc quyền nguy hiểm: tự do bước vào không gian riêng tư của nạn nhân mà không cần phải cạy phá cửa.",
     ]),
     ("SFX", "Tiếng cạy mở ngăn kéo, tiếng túi đựng vật chứng sột soạt."),
     ("LOI", "HOST", "chuyển giọng đanh thép, công bố chuỗi bằng chứng vật chất", [
@@ -58,6 +62,8 @@ ACT2_VN = [
         "Cơn đói ảo tưởng quyền lực buộc hắn phải liên tục nâng ngưỡng liều kiểm soát, từ rình mò từ xa đến xâm nhập không gian sống thực tế.",
         "Các chuyên gia tâm lý học hành vi đã bắt tay vào cuộc giải phẫu tâm lý chuyên sâu để vạch trần chân dung của một kẻ rình rập săn mồi nguy hiểm.",
         "Một thế giới nội tâm méo mó và đầy rẫy sự ám ảnh chiếm đoạt dần dần hiện hình qua từng dấu vết kỹ thuật số.",
+        "Hàng trăm tệp dữ liệu được phục hồi từ máy tính của McDaniel cho thấy một tiến trình tự thôi miên và leo thang ám ảnh kéo dài nhiều tháng trời.",
+        "Kẻ săn mồi đã liên tục nâng ngưỡng kích thích, biến sự xâm phạm đời tư của người khác thành một cơn nghiện quyền lực bệnh hoạn.",
     ]),
     ("BGM", "Âm thanh điện tử chìm dần, chuyển sang giai điệu Piano tối giản đầy tính học thuật."),
 ]
@@ -70,6 +76,8 @@ ACT2_EN = [
         "He maintained an absolute, unyielding posture, resembling a stone statue placed in the middle of a sparse room.",
         "He did not blink with natural biological regularity, never shifted his seated posture, and steadfastly refused even a paper cup of water.",
         "The ambient silence grew so suffocating that it unsettled anyone observing through the two-way mirror and surveillance feeds.",
+        "McDaniel’s absolute immobility inside the interrogation room was not mere stubbornness, but the manifestation of a nervous system strained to its extreme limit to maintain control.",
+        "He chose to freeze his entire body in a desperate bid to prevent any micro-expression from betraying his guilty mind.",
     ]),
     ("SFX", "Monotonous whir of an overhead ventilation fan, heavy breathing in the closed room."),
     ("LOI", "HOST", "steely, analytical tone, probing the psychological armor", [
@@ -83,7 +91,7 @@ ACT2_EN = [
         "Yet that radical, unnatural immobility paradoxically functioned as a blazing compass needle pointing directly to his deepest guilt.",
     ]),
     ("SFX", "Search warrant binder opens crisply, metallic cluster of keys clinks onto the table."),
-    ("LOI", "INVESTIGATOR", "D: unmasking the interrogation duel and parallel physical search", [
+    ("LOI", "DETECTIVE", "D: unmasking the interrogation duel and parallel physical search", [
         "Imagine an investigator’s perspective sitting directly opposite a suspect exercising such terrifying, unnatural bodily restraint.",
         "He deliberately constructed an emotional fortress to deny us psychological entry, convinced that total silence was an impenetrable shield.",
         "Yet in professional forensic interrogation, extreme immobility is itself a tacit confession of profound internal panic.",
@@ -91,6 +99,8 @@ ACT2_EN = [
         "While he sat frozen in that interview chair, our parallel search team executed an emergency warrant on his apartment directly across the hall.",
         "Every drawer, every crawlspace beneath his bed, and his personal belongings were systematically scrutinized under forensic lighting.",
         "And the dark exhibits concealed inside McDaniel’s residence began emerging one by one into the light of truth.",
+        "The master key found inside McDaniel’s room exposed severe negligence by property management in carelessly storing maintenance keys.",
+        "That systemic security loophole inadvertently handed the stalker a deadly privilege: unhindered access to the victim’s private sanctuary without forced entry.",
     ]),
     ("SFX", "Drawer slides open, rustle of plastic evidence bags."),
     ("LOI", "HOST", "resolute, revealing the devastating material exhibits", [
@@ -102,7 +112,7 @@ ACT2_EN = [
         "Forensic reconstruction proved the perpetrator utilized unauthorized key access to violate the inviolable sanctuary of the victim’s home.",
         "The persona of an innocent, harmless law classmate collapsed entirely before the weight of unassailable forensic exhibits.",
     ]),
-    ("LOI", "INVESTIGATOR", "D: reconstructing the modus operandi and forensic certainty", [
+    ("LOI", "DETECTIVE", "D: reconstructing the modus operandi and forensic certainty", [
         "Comparing the recovered master key with scene evidence, we reconstructed the exact methodology of the perpetrator’s predawn entry.",
         "He required no crowbar or jimmy, using the stolen passkey to quietly open Lauren’s door while she was asleep in her bed.",
         "He had calculated every move to neutralize any possibility of defense, intending to turn a homicide into an untraceable disappearance.",
@@ -119,6 +129,8 @@ ACT2_EN = [
         "His addiction to predatory control forced him to raise his behavioral dosage, progressing from distant surveillance to territorial violation.",
         "Criminal behavioral profilers initiated an in-depth psychiatric dissection to expose the architecture of a predatory stalker.",
         "A distorted internal universe dominated by obsessive entitlement gradually took shape through every digital breadcrumb.",
+        "Hundreds of files recovered from McDaniel’s computer revealed a months-long process of progressive self-hypnosis and escalating obsession.",
+        "The predator continuously escalated his stimulation threshold, turning the violation of another's privacy into a pathological addiction to control.",
     ]),
     ("BGM", "Electronic drone subsides, transitioning into a measured, analytical Minimalist Piano melody."),
 ]
@@ -131,6 +143,8 @@ ACT2_JA = [
         "彼は閉ざされた部屋の中央で、あたかも冷たい石像のように硬直しきった姿勢を保ち続けたのです。",
         "自然な生体反応としての瞬きをほとんど見せず、座り直すこともなく、差し出された紙コップの水すら頑なに拒みました。",
         "その静けさは息が詰まるほど濃密であり、マジックミラー越しに見守る関係者に言い知れぬ不気味さを抱かせました。",
+        "取調べ室におけるマクダニエルの完全な静止は、単なる強情さではなく、制御を維持しようと極度の緊張に達した神経系の現れでした。",
+        "彼は有罪の心理を露呈させる微表情を一切封じ込めようと、絶望的な試みとして全身を凍結させる道を選んだのです。",
     ]),
     ("SFX", "換気扇の単調な回転音、閉ざされた取調室に響く重い呼吸。"),
     ("LOI", "ホスト", "冷徹な声で、計算された防衛の仮面を分析する", [
@@ -152,6 +166,8 @@ ACT2_JA = [
         "彼が取調室で固まっている間に、別動隊の捜査員たちが犠牲者の部屋の真向かいにある彼のアパートを緊急捜索していました。",
         "クローゼットの隅々やベッドの下の隙間、私物の数々が、捜査用ライトの下で徹底的に精査されていきました。",
         "そしてマクダニエルの部屋に隠されていた暗黒の証拠が、ついに白日の下に姿を現し始めたのです。",
+        "マクダニエルの部屋から発見されたマスターキーは、管理鍵を無造作に放置していたアパート管理側の重大な過失を白日の下に晒しました。",
+        "その組織的な保安の欠陥が、ドアをこじ開けることなく犠牲者の私的空間へ侵入できる危険な特権を、ストーカーの手に間接的に与えてしまったのです。",
     ]),
     ("SFX", "引き出しが開く音、証拠品保存袋の擦れ合う乾いた音。"),
     ("LOI", "ホスト", "決然とした声で、決定的な物的証拠の数々を公表する", [
@@ -180,21 +196,25 @@ ACT2_JA = [
         "支配への渇望は彼に刺激の閾値を上げさせ、遠くからの覗き見から実際の居住空間への侵犯へと駆り立てていきました。",
         "行動心理学の専門家たちが、捕食的ストーカーの歪んだ心理構造を解き明かす本格的な解剖に着手しました。",
         "デジタル痕跡の断片を通じて、異常な支配欲と執着に満ちた暗黒の内面世界が次第に輪郭を現していったのです。",
+        "マクダニエルのパソコンから復元された数百件のデータは、数か月にわたる自己催眠と執着のエスカレーションの軌跡を示していました。",
+        "この捕食者は刺激の閾値を絶え間なく引き上げ、他者のプライバシーの侵害を支配への病的な依存へと変貌させていたのです。",
     ]),
     ("BGM", "電子音がフェードアウトし、知的なミニマルピアノの静謐な旋律へと移り変わる。"),
 ]
 
 ACT2_KO = [
     ("BGM", "차갑게 가라앉은 미니멀 앰비언트 사운드, 전자시계의 건조하고 일정한 초침 소리."),
-    ("LOI", "호스트", "느린 호흡으로 기이한 신체적 정지 상태를 묘사한다", [
+    ("LOI", "진행자", "느린 호흡으로 기이한 신체적 정지 상태를 묘사한다", [
         "메이컨 경찰국 취조실의 녹화 영상은 훗날 대중에 공개되어 범죄 행동 분석 분야의 기념비적인 연구 자료가 되었습니다.",
         "수시간 동안 이어진 영상 속에서 Stephen McDaniel은 수사관들 맞은편에 앉아 거의 미동조차 하지 않았습니다.",
         "그는 밀폐된 방 한가운데에 놓인 차가운 석상처럼 굳어버린 자세를 완강하게 유지했습니다.",
         "자연스러운 생체 반응으로서의 눈 깜빡임조차 거의 보이지 않았고, 자세를 고쳐 앉지도 않았으며 권하는 종이컵 물조차 단호히 거부했습니다.",
         "그 정적은 지켜보는 이들의 숨통을 조여올 만큼 무거웠으며, 관찰 모니터 너머의 수사관들에게 오싹한 전율을 불러일으켰습니다.",
+        "취조실에서 맥대니얼의 완전한 부동자세는 단순한 고집이 아니라, 통제력을 유지하기 위해 극도의 긴장에 도달한 신경계의 발현이었습니다.",
+        "그는 죄책감을 드러내는 어떠한 미세 표정도 차단하기 위해 절박한 시도로서 온몸을 동결시키는 방식을 택했던 것입니다.",
     ]),
     ("SFX", "환풍기의 단조로운 회전음, 밀폐된 취조실에 맴도는 무거운 숨결."),
-    ("LOI", "호스트", "냉정한 어조로 계산된 방어의 가면을 해부한다", [
+    ("LOI", "진행자", "냉정한 어조로 계산된 방어의 가면을 해부한다", [
         "그는 사전에 프로그래밍된 기계처럼 건조하고 둔탁한 저음으로 질문에 단답형 답변만을 내놓았습니다.",
         "수사관들이 방을 비우고 홀로 남겨진 순간에도, 그는 그 기괴한 부동의 자세를 추호의 흔들림 없이 유지했습니다.",
         "밀실에 홀로 남겨진 용의자들에게 흔히 나타나는 한숨이나 카메라를 훔쳐보는 행동, 초조한 몸짓은 전혀 관찰되지 않았습니다.",
@@ -213,9 +233,11 @@ ACT2_KO = [
         "그가 취조실에 굳어 앉아 버티는 사이, 다른 수사팀은 피해자 방 바로 맞은편에 위치한 그의 아파트에 대한 긴급 압수수색을 단행했습니다.",
         "옷장 구석구석과 침대 밑 틈새, 개인 소지품 하나하나가 수사용 조명 아래 낱낱이 파헤쳐졌습니다.",
         "그리고 McDaniel의 거처에 숨겨져 있던 추악한 증거들이 마침내 진실의 빛 아래 모습을 드러내기 시작했습니다.",
+        "맥대니얼의 방에서 발견된 마스터키는 관리실 열쇠를 허술하게 방치했던 건물 관리 측의 심각한 과실을 명백히 드러냈습니다.",
+        "그러한 구조적인 보안 허점이 문을 강제로 부수지 않고도 피해자의 사적 공간에 자유롭게 들어갈 수 있는 위험한 특권을 스토커의 손에 쥐여주었던 것입니다.",
     ]),
     ("SFX", "서랍이 열리는 소리, 증거물 보관 비닐봉투가 바스락거리는 소음."),
-    ("LOI", "호스트", "단호한 어조로 결정적인 물적 증거 체계를 밝힌다", [
+    ("LOI", "진행자", "단호한 어조로 결정적인 물적 증거 체계를 밝힌다", [
         "McDaniel의 아파트 내부에서 법과학 감식반은 사건 전체의 향방을 결정짓는 핵심적인 물증들을 확보했습니다.",
         "가장 결정적인 증거는 Barristers Hall 아파트 단지 내 모든 세대의 문을 열 수 있는 관리자용 마스터키였습니다.",
         "이 관리자용 만능열쇠야말로 범인이 아무런 강제 침입 흔적도 남기지 않고 은밀히 침투할 수 있었던 핵심 범행 도구였습니다.",
@@ -232,7 +254,7 @@ ACT2_KO = [
         "금속에 남겨진 공구 흔적과 미세한 생체 물질은 결코 거짓말을 하지 않는 객관적인 증언자입니다.",
         "카메라 앞과 취조실에서 그가 벌인 모든 연기는 자기 지능을 과신한 미숙한 범죄자의 어설픈 쇼에 불과했습니다.",
     ]),
-    ("LOI", "호스트", "제2막을 닫으며 범죄 심리학적 심층 해부로 전환한다", [
+    ("LOI", "진행자", "제2막을 닫으며 범죄 심리학적 심층 해부로 전환한다", [
         "발견된 물적 증거들은 취조실 안에 버티고 서 있던 석상의 완강한 침묵을 송두리째 무너뜨렸습니다.",
         "하지만 미래가 보장된 명문 로스쿨 졸업생이 동기생을 상대로 그토록 잔혹한 범행을 저지른 진짜 동기는 무엇이었을까요?",
         "그 해답은 수년간 수십만 건의 왜곡된 데이터가 축적되어 온 그의 개인 노트북 깊숙한 곳에 숨겨져 있었습니다.",
@@ -241,6 +263,8 @@ ACT2_KO = [
         "통제에 대한 중독적 갈망은 그로 하여금 자극의 역치를 계속 높이게 만들었고, 원거리 훔쳐보기에서 실제 주거 공간 침범으로 치달았습니다.",
         "행동과학 전문가들은 이 위험한 포식적 스토커의 내면 구조를 해체하기 위해 심층적인 심리 해부에 돌입했습니다.",
         "디지털 흔적 하나하나를 통해 병적인 소유욕과 왜곡된 자아로 가득 찬 암흑의 심리 세계가 서서히 윤곽을 드러내기 시작했습니다.",
+        "맥대니얼의 컴퓨터에서 복구된 수백 개의 데이터는 수개월에 걸친 자기 최면과 집착의 단계적 에스컬레이션 과정을 여실히 보여주었습니다.",
+        "이 포식자는 자극의 한계점을 끊임없이 끌어올리며, 타인의 사생활 침해를 지배력에 대한 병적인 중독으로 변질시켰던 것입니다.",
     ]),
     ("BGM", "전자음이 서서히 잦아들며, 차분하고 학구적인 미니멀 피아노 선율로 전환된다."),
 ]

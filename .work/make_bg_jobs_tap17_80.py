@@ -1,0 +1,608 @@
+"""Tạo danh sách 80 ảnh nền cho Tập 17 (Gia đình Turpin - Ngục tù ngoại ô Perris)
+Theo kịch bản mới nhất (226 câu), đạt tỷ lệ 2.8 câu/ảnh, phân bổ đều 5 hồi:
+- Hồi 1: 16 ảnh (44 câu)
+- Hồi 2: 16 ảnh (45 câu)
+- Hồi 3: 16 ảnh (45 câu)
+- Hồi 4: 16 ảnh (47 câu)
+- Hồi 5: 16 ảnh (45 câu)
+Đảm bảo 100% tuân thủ quy tắc V5 (không vẽ mặt người thật, chỉ bóng dáng/tĩnh vật hiện trường),
+V9 (không vẽ bạo lực máu me, thể hiện bằng chứng hình sự/tâm lý noir), không chữ viết/số/biển hiệu.
+"""
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+WORK = ROOT / ".work"
+
+jobs_tap17 = [
+    # =========================================================================
+    # HỒI 1: CÚ NHẢY QUA CỬA SỔ RẠNG SÁNG VÀ CUỘC GỌI KHẨN CẤP (16 ảnh / 44 câu)
+    # =========================================================================
+    {
+        "name": "t17_perris_suburban_mist_dawn",
+        "act": 1,
+        "sentences": "1.02#1–#2",
+        "desc": "Rạng sáng mùa đông lạnh giá tại thành phố ngoại ô Perris, California, màn sương mù dày đặc bao phủ khu phố vắng vẻ, ngôi nhà trên đường Muir Woods Road chìm trong bóng tối im lìm.",
+        "prompt": "Eerie atmospheric exterior wide shot of a quiet suburban street in Perris California at freezing winter dawn, thick cold grey mist creeping over damp asphalt, cookie-cutter two-story stucco houses with dark unlit windows, distant streetlamp casting dim yellow glow into murky fog, chilling suburban solitude noir."
+    },
+    {
+        "name": "t17_window_escape_sill_shadow",
+        "act": 1,
+        "sentences": "1.02#3–#4",
+        "desc": "Một cánh cửa sổ tầng trệt hé mở trong bóng tối, bậu cửa sổ lạnh lẽo với một bóng người thiếu nữ gầy gò mảnh khảnh trèo qua bước ra ngoài màn đêm.",
+        "prompt": "Cinematic low-angle exterior shot of a cracked-open first-floor window of a dark suburban house at dawn, faint pale light escaping through the opening, shadowy frail silhouette of a teenage girl stepping over the windowsill into the cold air, intense suspense and psychological dread."
+    },
+    {
+        "name": "t17_deactivated_cellphone_clutched_hand",
+        "act": 1,
+        "sentences": "1.02#5–#7",
+        "desc": "Bàn tay run rẩy nắm chặt chiếc điện thoại di động cũ đã bị ngắt mạng, đứng bơ vơ giữa ngã ba đường ngoại ô như một mê cung xa lạ đối với người bị cô lập.",
+        "prompt": "Macro still life close-up of frail hands clutching a scuffed vintage deactivated smartphone with a cracked screen, misty desolate suburban asphalt road fading into foggy darkness in the background, overwhelming isolation and disorientation noir."
+    },
+    {
+        "name": "t17_two_year_escape_plan_secret_corner",
+        "act": 1,
+        "sentences": "1.04#1–#3",
+        "desc": "Góc tối bí mật dưới gầm giường hoặc góc tủ trong phòng tối, nơi hai chị em âm thầm lên kế hoạch trốn chạy suốt hai năm ròng rã.",
+        "prompt": "Claustrophobic interior view of a dusty cramped bedroom corner under a bed frame, harsh shadows cutting across worn floorboards, a hidden small pencil nub beside a crumpled blank scrap of paper, atmosphere of dangerous clandestine defiance."
+    },
+    {
+        "name": "t17_emergency_911_connection_signal",
+        "act": 1,
+        "sentences": "1.04#4–#5",
+        "desc": "Màn hình điện thoại phát sáng yếu ớt trong đêm hiển thị cuộc gọi khẩn cấp kết nối đến 911 giữa bóng tối ngoại ô.",
+        "prompt": "Moody atmospheric close-up of an old mobile phone screen glowing with a faint blue light in pitch darkness, illuminating cold trembling fingers dialing emergency services, high contrast chiaroscuro noir."
+    },
+    {
+        "name": "t17_dark_house_twelve_siblings_void",
+        "act": 1,
+        "sentences": "1.04#6–#7",
+        "desc": "Bên ngoài ngôi nhà ngoại ô hai tầng khép kín hoàn toàn, rèm cửa kéo kín mít, che giấu sự thật về mười hai anh chị em đang bị giam giữ trong tăm tối.",
+        "prompt": "Haunting architectural exterior view of a suburban residence with heavy drawn blackout curtains covering every single window, completely lifeless facade, deep suffocating shadows cloaking the front porch, hidden suburban horror aesthetic."
+    },
+    {
+        "name": "t17_dispatch_audio_waveform_console",
+        "act": 1,
+        "sentences": "1.06#1–#3",
+        "desc": "Bàn điều phối tổng đài khẩn cấp 911 với màn hình hiển thị đồ thị âm thanh cuộc gọi, tai nghe trực ban trong phòng tối điều hành ca đêm.",
+        "prompt": "Investigative interior shot of an emergency 911 dispatch console desk in dim ambient light, illuminated computer monitor displaying sound waveforms, headset resting beside a notepad, quiet tension of a grave crisis unfolding."
+    },
+    {
+        "name": "t17_iron_chains_and_bedpost_shadows",
+        "act": 1,
+        "sentences": "1.06#4–#5",
+        "desc": "Sợi dây xích sắt nặng nề quấn quanh khung giường kim loại hoen gỉ trong căn phòng tối tăm, nồng nặc sự đày đọa vô nhân tính.",
+        "prompt": "Grim forensic macro shot of heavy iron chains and massive padlocks wrapped tightly around a battered metal bedpost in an unlit filthy room, deep chiaroscuro lighting accentuating rust and grim texture, disturbing psychological evidence noir."
+    },
+    {
+        "name": "t17_evidence_photos_polaroid_clutch",
+        "act": 1,
+        "sentences": "1.06#6–#8",
+        "desc": "Thiếu nữ đơn độc giữa ngã tư đường lạnh giá, trong tay giữ chặt bằng chứng ảnh chụp bên trong ngôi nhà chờ xe cảnh sát tiếp cận.",
+        "prompt": "Cinematic wide shot of a lone small shadowy figure standing by a frosty street curb in dense morning fog, distant flashing emergency lights reflected in wet pavement puddles, race against time atmosphere."
+    },
+    {
+        "name": "t17_dispatcher_headset_trembling_desk",
+        "act": 1,
+        "sentences": "1.07#1–#3",
+        "desc": "Góc bàn làm việc của nhân viên điều phối 911, chiếc cốc cà phê nguội ngắt và bàn tay nắm chặt bút khi lắng nghe giọng nói non nớt từ đầu dây.",
+        "prompt": "Moody close-up of a 911 dispatcher workstation, a half-empty ceramic coffee mug and a pen resting on a case log sheet under low halogen desk lamp, atmosphere of stunned disbelief and heavy emotional burden."
+    },
+    {
+        "name": "t17_dispatcher_lifeline_monitor_night",
+        "act": 1,
+        "sentences": "1.07#4–#7",
+        "desc": "Ánh sáng xanh từ màn hình giám sát GPS bản đồ cuộc gọi trong phòng tổng đài, tượng trưng cho sợi dây sinh mệnh kết nối người trực ban với nạn nhân.",
+        "prompt": "High contrast interior shot of a darkened dispatch center room, computer terminals glowing with digital locator maps, solitary figures working silently against towering screens, solemn guardian atmosphere."
+    },
+    {
+        "name": "t17_deputy_campos_cruiser_fog_arrival",
+        "act": 1,
+        "sentences": "1.09#1–#3",
+        "desc": "Xe tuần tra cảnh sát hạt Riverside lướt qua màn sương sớm, đèn hiệu nhấp nháy mờ ảo tiếp cận vị trí của cô gái đứng chờ.",
+        "prompt": "Cinematic low-angle shot of a sheriff patrol cruiser parked on the shoulder of a foggy suburban road at dawn, red and blue emergency rooftop lights diffusing softly into heavy mist, investigative noir aesthetic."
+    },
+    {
+        "name": "t17_muir_woods_front_door_breach",
+        "act": 1,
+        "sentences": "1.09#4–#6",
+        "desc": "Cánh cửa chính ngôi nhà trên đường Muir Woods hé mở, hai bóng người cha mẹ đứng sững sờ trước sự xuất hiện của lực lượng cảnh sát.",
+        "prompt": "Foreboding eye-level shot looking toward the open front entryway of a dark suburban house, two shadowy adult silhouettes framed in the doorway by gloomy grey morning light, atmosphere of sudden exposure and tense confrontation."
+    },
+    {
+        "name": "t17_house_of_horrors_dark_hallway",
+        "act": 1,
+        "sentences": "1.10#1–#3",
+        "desc": "Hành lang bên trong ngôi nhà tối om như mực, rác rưởi chất đống dọc sàn nhà, ánh đèn pin nghiệp vụ rọi vào những sợi xích khóa trên khung giường.",
+        "prompt": "Chilling point-of-view interior shot inside a pitch-black suburban hallway, narrow beam of a tactical flashlight piercing through airborne dust and gloom, revealing heaps of neglected clutter and locked bedroom doors, claustrophobic crime scene noir."
+    },
+    {
+        "name": "t17_stunted_adult_victims_tragedy",
+        "act": 1,
+        "sentences": "1.10#4–#5",
+        "desc": "Góc phòng tối hoang tàn với những tấm nệm cũ không ga trải, tượng trưng cho bi kịch thể trạng suy kiệt của những nạn nhân trưởng thành bị kẹt trong hình hài trẻ thơ.",
+        "prompt": "Somber still life interior of an impoverished dark room, stained bare mattresses on the floor, harsh raking light slicing through closed window blinds onto cold walls, profound tragedy of stolen growth and physical deprivation."
+    },
+    {
+        "name": "t17_suburban_facade_curtain_drawn",
+        "act": 1,
+        "sentences": "1.11#1–#4",
+        "desc": "Khung cảnh đối lập giữa khu ngoại ô ngăn nắp thanh bình với bí mật đen tối của ngôi nhà ngục tù gia đình, mở ra chuyên án phân tích của Amber Eyes.",
+        "prompt": "Symbolic 16:9 split-mood visual: exterior neat manicured suburban lawn and clean pavement under an overcast stormy sky, contrasting with the dark foreboding silhouette of the Turpin residence, Amber Eyes psychological investigation prologue aesthetic."
+    },
+
+    # =========================================================================
+    # HỒI 2: NGỤC TÙ NGOẠI Ô VÀ VỎ BỌC HOÀN HẢO (16 ảnh / 45 câu)
+    # =========================================================================
+    {
+        "name": "t17_computer_engineer_desk_blueprints",
+        "act": 2,
+        "sentences": "2.02#1–#3",
+        "desc": "Bàn làm việc của kỹ sư máy tính với các bản vẽ mạch điện tử, tài liệu kỹ thuật quốc phòng và chứng chỉ công tác của David Turpin.",
+        "prompt": "Vintage 1990s technical workstation still life, drafting table covered in detailed computer circuit schematics, aerospace technical manuals, green desk lamp casting sharp shadows, cold meticulous engineer aesthetic."
+    },
+    {
+        "name": "t17_financial_collapse_bankruptcy_notices",
+        "act": 2,
+        "sentences": "2.02#4–#7",
+        "desc": "Chồng hóa đơn nợ tín dụng, thư đòi nợ và văn bản thông báo phá sản xếp đầy trên bàn gỗ dưới ánh đèn vàng yếu ớt, ngòi nổ làm sụp đổ cơ chế tự chủ.",
+        "prompt": "Forensic still life of mounting stacks of overdue debt notices, credit card bills, and legal bankruptcy court documents tied with red string on a dark wooden table, dim overhead lamp, financial doom and psychological collapse."
+    },
+    {
+        "name": "t17_sandcastle_day_school_sign_closed",
+        "act": 2,
+        "sentences": "2.04#1–#2",
+        "desc": "Hồ sơ đăng ký trường tư thục tại gia mang tên Sandcastle Day School đóng dấu mộc đỏ, công cụ ngụy trang pháp lý để cô lập con cái khỏi hệ thống giáo dục.",
+        "prompt": "Official government home-school registration paperwork resting on a wooden desk, prominent red rubber ink stamps and administrative seal, severe formal documents serving as a legal veil for sinister isolation."
+    },
+    {
+        "name": "t17_disneyland_identical_shirts_facade",
+        "act": 2,
+        "sentences": "2.04#3–#5",
+        "desc": "Những bộ trang phục giống hệt nhau theo từng nhóm tuổi treo thẳng tắp trên giá áo, tượng trưng cho những bức ảnh đồng bộ hoàn hảo dàn dựng tại Disneyland.",
+        "prompt": "Chilling visual metaphor: a long row of identical matching red and purple polo shirts hanging rigidly in a dim closet, stark artificial uniformity, eerie staged perfection masking domestic oppression."
+    },
+    {
+        "name": "t17_las_vegas_vow_renewal_glitz_shadow",
+        "act": 2,
+        "sentences": "2.04#6–#8",
+        "desc": "Ánh đèn neon màu sắc sặc sỡ của lễ đường Las Vegas phản chiếu lên mặt kính tối, ẩn dụ cho chiếc mặt nạ hào nhoáng che đậy tội ác trước cộng đồng.",
+        "prompt": "Atmospheric conceptual shot of blurred colorful Las Vegas chapel neon lights reflected on a wet dark windowpane, cold rain trickling down the glass, poignant contrast between flashy public performance and grim private reality."
+    },
+    {
+        "name": "t17_escalation_ropes_to_iron_chains",
+        "act": 2,
+        "sentences": "2.06#1–#4",
+        "desc": "Sự leo thang của thủ đoạn trừng phạt: từ những sợi dây thừng xơ xác ban đầu đến những vòng xích sắt đúc kiên cố và ổ khóa đồng nặng nề trên nền gỗ tối.",
+        "prompt": "Forensic timeline still life on dark wooden floorboards: frayed coarse hemp rope transitioning into heavy iron linked chains and tarnished brass padlocks, cold raking side light, escalation of abusive coercive control."
+    },
+    {
+        "name": "t17_bathroom_sink_water_punishment",
+        "act": 2,
+        "sentences": "2.06#5–#7",
+        "desc": "Bồn rửa mặt cũ kỹ trong nhà tắm tối tăm, vòi nước rỉ giọt trên bề mặt cáu bẩn, nơi những quy tắc rửa tay quá cổ tay bị trừng phạt tàn bạo.",
+        "prompt": "Grungy interior view of a stained, neglected bathroom porcelain sink, single drop of water hanging from a rusted faucet, harsh top lighting casting deep grim shadows, cold sterile domestic prison aesthetic."
+    },
+    {
+        "name": "t17_inverted_day_night_clock_blinds",
+        "act": 2,
+        "sentences": "2.06#6–#7",
+        "desc": "Chiếc đồng hồ treo tường cũ chỉ giờ đêm trong khi khe rèm cửa đóng kín mít ngăn chặn hoàn toàn ánh sáng ban ngày, lối sống đảo lộn ngày đêm cưỡng ép.",
+        "prompt": "Moody still life of a vintage analog wall clock ticking in a room with completely shuttered blackout blinds, faint slivers of bright daylight barred from entering, surreal circadian rhythm distortion."
+    },
+    {
+        "name": "t17_taunting_kitchen_pies_counter",
+        "act": 2,
+        "sentences": "2.08#1–#4",
+        "desc": "Những chiếc bánh ngọt, bánh táo nướng thơm lừng bày biện nguyên vẹn trên bàn bếp bóng loáng, đạo cụ tra tấn tâm lý cấm con cái chạm vào.",
+        "prompt": "Chilling still life of freshly baked golden apple pies and pastries sitting untouched on a clean kitchen counter, while surrounding shadows stretch ominously across the room, psychological food deprivation torture noir."
+    },
+    {
+        "name": "t17_hoarded_unopened_toys_boxes",
+        "act": 2,
+        "sentences": "2.08#5–#7",
+        "desc": "Những thùng đồ chơi còn nguyên bao bì ni-lông bóng loáng chất đống góc nhà, trẻ em bị cấm mở ra chơi đùa, đạo cụ khoét sâu đày đọa tâm lý.",
+        "prompt": "Eerie interior shot of tall stacks of pristine, unopened toy boxes encased in reflective plastic packaging piled high in a dusty dark room, stark contrast between colorful toy packaging and bleak suffocating isolation."
+    },
+    {
+        "name": "t17_luxury_shopping_hoarding_compulsion",
+        "act": 2,
+        "sentences": "2.08#8–#9",
+        "desc": "Những túi mua sắm hàng hiệu, mỹ phẩm và đồ xa xỉ chưa mở của người mẹ chất đống trong phòng riêng, sự bù đắp trống rỗng đối lập với bữa ăn đạm bạc của con cái.",
+        "prompt": "Interior still life of consumer shopping bags, unopened designer boxes and cosmetic bottles accumulating haphazardly in a bedroom corner, symbolic greed and emotional void of the perpetrator."
+    },
+    {
+        "name": "t17_medical_records_stunted_growth_charts",
+        "act": 2,
+        "sentences": "2.09#1–#4",
+        "desc": "Bảng biểu đồ tăng trưởng y tế với đường chỉ số thể trạng sụt giảm nghiêm trọng, hồ sơ bệnh án khám nghiệm suy kiệt tại bệnh viện.",
+        "prompt": "Clinical forensic still life of open medical charts, patient growth milestone graphs showing severe developmental flatline, stethoscope resting beside confidential dossier folders on a steel medical table, sterile solemn tones."
+    },
+    {
+        "name": "t17_complete_social_blindspot_concept",
+        "act": 2,
+        "sentences": "2.09#5–#7",
+        "desc": "Những vật dụng đời thường như bàn chải đánh răng mới, lọ thuốc cơ bản nằm lạc lõng trong bóng tối, tượng trưng cho những khái niệm xa lạ với các nạn nhân.",
+        "prompt": "Symbolic macro still life of basic everyday hygiene items—a simple toothbrush and medicine bottle—isolated in a spotlight beam against vast pitch-black background, representing profound cognitive isolation."
+    },
+    {
+        "name": "t17_perris_house_crime_scene_tape",
+        "act": 2,
+        "sentences": "2.10#1–#3",
+        "desc": "Dải băng rào phong tỏa hiện trường cảnh sát màu vàng chăng ngang trước cổng ngôi nhà tại Perris, phóng viên truyền thông vây kín bên ngoài.",
+        "prompt": "Dramatic eye-level shot of yellow police caution crime scene tape stretched across the front lawn of the Perris residence, media satellite vans blurred in the foggy distance, global shock and judicial reckoning."
+    },
+    {
+        "name": "t17_jordan_turpin_spark_of_survival",
+        "act": 2,
+        "sentences": "2.10#4–#5",
+        "desc": "Một ngọn nến nhỏ hoặc tia sáng mỏng le lói xuyên qua bóng tối dày đặc, ẩn dụ cho ngọn lửa sinh tồn và ý chí kiên cường không thể bị dập tắt của Jordan.",
+        "prompt": "Poetic chiaroscuro visual: a solitary glowing candle flame burning steadily in the center of an immense pitch-black void, deep shadow gradients, unbreakable human spirit against absolute tyranny."
+    },
+    {
+        "name": "t17_psychological_profiling_dossier_open",
+        "act": 2,
+        "sentences": "2.10#6–#7",
+        "desc": "Tập hồ sơ phân tích tâm bệnh học mở ra trên bàn nghiên cứu, chuẩn bị bóc tách cơ chế kiểm soát cưỡng chế và hội chứng điên cuồng đôi ở Hồi 3.",
+        "prompt": "Investigative still life of an open psychological profiling dossier with typed notes, red-line connection diagrams and behavioral assessment charts, vintage desk lamp illuminating dark analytical workspace."
+    },
+
+    # =========================================================================
+    # HỒI 3: GIẢI MÃ TÂM LÝ — COERCIVE CONTROL VÀ FOLIE À DEUX (16 ảnh / 45 câu)
+    # =========================================================================
+    {
+        "name": "t17_coercive_control_matrix_diagram",
+        "act": 3,
+        "sentences": "3.02#1–#3",
+        "desc": "Sơ đồ ma trận mạng lưới kiểm soát vô hình: sự cô lập, đe dọa, trừng phạt tước đoạt hoàn toàn quyền tự chủ của nạn nhân trong gia đình khép kín.",
+        "prompt": "Conceptual visual noir: an intricate web of fine dark threads connecting surveillance symbols, isolation barriers and closed gates, representing the total entrapment of coercive control, austere graphic novel aesthetic."
+    },
+    {
+        "name": "t17_infantilization_concept_baby_crib_shadow",
+        "act": 3,
+        "sentences": "3.02#4–#5",
+        "desc": "Hình bóng một chiếc nôi trẻ em đổ bóng dài trên tường căn phòng của người trưởng thành, ẩn dụ cho chiến lược ấu trĩ hóa có chủ đích của cha mẹ.",
+        "prompt": "Surreal psychological chiaroscuro shot: an empty vintage wooden child crib casting an enormous, distorted shadow against a high desolate bedroom wall, symbolic deliberate infantilization of adult victims."
+    },
+    {
+        "name": "t17_dehumanization_living_props_shelf",
+        "act": 3,
+        "sentences": "3.03#1–#3",
+        "desc": "Những hình nhân gỗ vô tri xếp ngay ngắn trên kệ sách tối tăm, ẩn dụ cho cơ chế phi nhân hóa và vật hóa con cái thành những đạo cụ phục vụ quyền lực.",
+        "prompt": "Haunting macro still life of blank wooden artist mannequins standing motionless in a rigid row on a dark dusty shelf, dramatic low-key lighting, chilling metaphor for dehumanization and loss of identity."
+    },
+    {
+        "name": "t17_malignant_narcissism_mirror_crack",
+        "act": 3,
+        "sentences": "3.03#4–#6",
+        "desc": "Chiếc gương soi cổ nứt vỡ trong phòng ngủ tối, phản chiếu khoảng trống đen ngòm, tượng trưng cho ảo tưởng ái kỷ ác tính và sự khuyết tật thấu cảm trầm trọng.",
+        "prompt": "Psychological conceptual shot of a cracked vintage ornate mirror reflecting only a pitch-black abyss in a dim room, harsh chiaroscuro shadows across shattered glass, emblem of malignant narcissism."
+    },
+    {
+        "name": "t17_moral_disengagement_scriptures_desk",
+        "act": 3,
+        "sentences": "3.03#7–#8",
+        "desc": "Cuốn sách kinh thánh cũ nằm cạnh ổ khóa và sợi dây xích trên bàn gỗ, ẩn dụ cho kỹ thuật trung hòa đạo đức và ngụy biện tâm linh để bao biện sự tàn ác.",
+        "prompt": "Forensic still life of an antique leather-bound scripture book resting alongside heavy brass padlocks and chain links on dark wood, single spotlight beam, hypocrisy of moral disengagement noir."
+    },
+    {
+        "name": "t17_folie_a_deux_entwined_shadows",
+        "act": 3,
+        "sentences": "3.04#1–#3",
+        "desc": "Hai cái bóng người lớn hòa quyện vào nhau trên bức tường tối tăm, tượng trưng cho sự đồng lõa bệnh lý và hội chứng rối loạn tâm thần chia sẻ.",
+        "prompt": "High contrast chiaroscuro silhouette shot: two ominous adult figures standing close together, their distorted shadows merging into a singular dark entity on a peeling wallpaper wall, Folie a Deux symbiosis."
+    },
+    {
+        "name": "t17_compartmentalization_two_drawers_void",
+        "act": 3,
+        "sentences": "3.04#4–#5",
+        "desc": "Chiếc tủ gỗ với hai ngăn kéo mở: một bên là ảnh gia đình rực rỡ, bên kia là dây xích sắt đen ngòm, cơ chế chia ngăn nhận thức cực đoan.",
+        "prompt": "Symbolic conceptual still life: an antique wooden desk with two pulled-out drawers; one holding a glossy bright family portrait, the other filled with cold rusted iron chains, stark psychological dichotomy."
+    },
+    {
+        "name": "t17_shared_delusional_echo_chamber",
+        "act": 3,
+        "sentences": "3.05#1–#3",
+        "desc": "Căn phòng kín với những bức tường gương phản chiếu vô tận vào hư không, không khí ngột ngạt của vòng lặp tự xác thực niềm tin bệnh hoạn.",
+        "prompt": "Claustrophobic conceptual wide shot of an empty windowless room lined with dark tarnished mirrors creating an infinite receding tunnel of shadows, oppressive psychological echo chamber noir."
+    },
+    {
+        "name": "t17_learned_helplessness_open_cage",
+        "act": 3,
+        "sentences": "3.05#4–#6",
+        "desc": "Chiếc lồng chim kim loại để mở cửa nhưng bên trong hoàn toàn trống rỗng và bất động, ẩn dụ cho trạng thái bất lực tập nhiễm sâu sắc của nạn nhân.",
+        "prompt": "Poetic psychological still life: an antique rusted iron birdcage with its door wide open, resting on a bare wooden table in dark shadows, no escape attempted, tragic emblem of learned helplessness."
+    },
+    {
+        "name": "t17_physical_atrophy_empty_shoes",
+        "act": 3,
+        "sentences": "3.05#7–#9",
+        "desc": "Đôi giày trẻ em nhỏ xíu đặt cạnh dấu chân của một người trưởng thành trong bụi mờ, phản ánh hậu quả kìm hãm dinh dưỡng đối với cơ thể nạn nhân.",
+        "prompt": "Somber macro shot of worn, mismatched children shoes left forgotten on dusty bare floorboards beside cold iron bars, deep chiaroscuro lighting, heartbreaking consequence of developmental deprivation."
+    },
+    {
+        "name": "t17_clandestine_wifi_glow_wardrobe",
+        "act": 3,
+        "sentences": "3.06#1–#3",
+        "desc": "Góc khuất trong tủ quần áo tối mịt, ánh sáng xanh le lói từ màn hình điện thoại thông minh kết nối mạng Wi-Fi lén lút của Jordan.",
+        "prompt": "Cinematic low-light shot inside a cramped dark closet, faint cold blue luminescence from a hidden phone screen illuminating hanging garments and dust motes, secret window to the outside world."
+    },
+    {
+        "name": "t17_outside_world_music_video_screen",
+        "act": 3,
+        "sentences": "3.06#4–#5",
+        "desc": "Màn hình điện thoại hiển thị những hình ảnh video về bầu trời rộng lớn, nụ cười của bạn bè trang lứa, cú sốc nhận thức tích cực mở ra tự do.",
+        "prompt": "Atmospheric macro shot focusing on a glowing phone display showing vibrant outdoor scenery and carefree figures, contrasted against the pitch-black claustrophobic interior of the room, awakening of consciousness."
+    },
+    {
+        "name": "t17_gift_of_fear_protective_instinct",
+        "act": 3,
+        "sentences": "3.07#1–#4",
+        "desc": "Bàn tay thiếu nữ đặt che chở lên bờ vai nhỏ bé của một người em trong bóng tối, tình yêu thương vượt lên trên mọi nỗi sợ hãi trừng phạt.",
+        "prompt": "Tender and tense chiaroscuro visual: silhouette of an older sibling protective arm resting gently around a younger sibling frail silhouette in a dim room, powerful bond of love conquering dread."
+    },
+    {
+        "name": "t17_imminent_relocation_cardboard_threat",
+        "act": 3,
+        "sentences": "3.07#5–#7",
+        "desc": "Những thùng carton đóng gói dở dang chuẩn bị cho đợt chuyển nhà sắp tới, ngòi nổ khẩn cấp khiến Jordan quyết định phải hành động ngay lập tức.",
+        "prompt": "Foreboding wide shot of half-packed cardboard moving boxes and rolls of brown packaging tape strewn across a barren living room floor, cold moonlight filtering through blinds, ticking clock of survival."
+    },
+    {
+        "name": "t17_unbreakable_human_dignity_dawn",
+        "act": 3,
+        "sentences": "3.07#8–#9",
+        "desc": "Khung cửa sổ mở rộng với ánh bình minh le lói xua tan bóng tối ngục tù, biểu tượng cho sự bất khuất của phẩm giá con người.",
+        "prompt": "Inspiring yet gritty noir dawn shot: open window framing a pale winter sunrise breaking through dark stormy clouds, soft golden light washing over the windowsill, triumph of the human spirit."
+    },
+    {
+        "name": "t17_courthouse_steps_shadow_justice",
+        "act": 3,
+        "sentences": "3.08#1–#4",
+        "desc": "Bậc thềm đá hoa cương uy nghiêm của Tòa Thượng thẩm Hạt Riverside dưới bầu trời u ám, chuyển tiếp sang Hồi 4 phiên tòa công lý.",
+        "prompt": "Monumental low-angle architectural shot of massive stone courthouse pillars and grand granite steps under a heavy overcast sky, solemn dignity of the justice system, impending legal retribution noir."
+    },
+
+    # =========================================================================
+    # HỒI 4: BẢN ÁN CÔNG LÝ VÀ SỰ SỤP ĐỔ CÁI TÔI ÁI KỶ (16 ảnh / 47 câu)
+    # =========================================================================
+    {
+        "name": "t17_district_attorney_indictment_press",
+        "act": 4,
+        "sentences": "4.02#1–#3",
+        "desc": "Bục phát biểu họp báo của Viện Công tố Hạt Riverside với các micro truyền thông, hồ sơ cáo trạng dày cộp ghi rõ các tội danh tra tấn và lạm dụng.",
+        "prompt": "Investigative still life of a press conference lectern packed with media microphones, a thick manila folder titled official criminal indictment resting in sharp spotlight, austere judicial atmosphere."
+    },
+    {
+        "name": "t17_fourteen_felony_guilty_plea_docs",
+        "act": 4,
+        "sentences": "4.02#4–#6",
+        "desc": "Văn bản thỏa thuận nhận tội chính thức với chữ ký của hai bị cáo đối với mười bốn tội danh hình sự đặc biệt nghiêm trọng.",
+        "prompt": "Forensic close-up of signed felony plea agreement legal documents resting on dark mahogany court table, official blue-ink legal signatures, gavel shadow falling across the paper, irreversible conviction."
+    },
+    {
+        "name": "t17_riverside_superior_courtroom_bench",
+        "act": 4,
+        "sentences": "4.04#1–#2",
+        "desc": "Khán phòng phòng xử án Tòa Thượng thẩm Hạt Riverside uy nghiêm, bục thẩm phán bằng gỗ gụ dưới quốc huy Hoa Kỳ trong buổi tuyên án.",
+        "prompt": "Solemn wide-angle interior view of an empty Riverside Superior courtroom, elevated mahogany judge bench flanked by state flags under formal lighting, tense dignified legal sanctity."
+    },
+    {
+        "name": "t17_narcissistic_collapse_tears_dock",
+        "act": 4,
+        "sentences": "4.04#3–#4",
+        "desc": "Hai bàn tay bị còng bằng kim loại đặt trên bàn bị cáo, khăn giấy ướt nhàu nát, sự sụp đổ cái tôi ái kỷ khi quyền lực tối thượng hoàn toàn tan biến.",
+        "prompt": "Emotional chiaroscuro close-up of chained wrists in steel handcuffs resting on a wooden defendant table, crumpled tissues, stark side lighting emphasizing defeat and irreversible loss of absolute control."
+    },
+    {
+        "name": "t17_victim_impact_statement_podium",
+        "act": 4,
+        "sentences": "4.04#5–#6",
+        "desc": "Bục nhân chứng trước tòa với tập giấy ghi lời phát biểu nạn nhân viết tay run rẩy nhưng kiên định, các con đòi lại tiếng nói và phẩm giá.",
+        "prompt": "Poignant focus on a witness stand microphone and handwritten victim impact statement pages resting on polished oak wood, warm spotlight illuminating the paper against deep courtroom shadows, courage of reclamation."
+    },
+    {
+        "name": "t17_reclaiming_my_life_courtroom_light",
+        "act": 4,
+        "sentences": "4.06#1–#2",
+        "desc": "Bóng lưng thiếu nữ đứng thẳng ngẩng cao đầu trước bục nhân chứng trong phòng xử án, ánh sáng ấm áp bao quanh người con tự do.",
+        "prompt": "Cinematic shot from behind a young female silhouette standing proud and upright at the witness stand, bright courtroom light embracing her figure, contrast with shadowy defendant table, powerful psychological empowerment."
+    },
+    {
+        "name": "t17_forgiveness_as_liberation_concept",
+        "act": 4,
+        "sentences": "4.06#3–#4",
+        "desc": "Sợi xích sắt đứt rời rơi trên nền đá cẩm thạch, ẩn dụ cho thông điệp tha thứ không phải xóa tội mà là tước bỏ quyền năng làm tổn thương của cha mẹ mãi mãi.",
+        "prompt": "Symbolic conceptual still life: a severed iron chain link lying broken on polished courthouse marble floor, dramatic vertical light beam cutting through gloom, forgiveness as ultimate psychological liberation."
+    },
+    {
+        "name": "t17_judge_schwartz_gavel_verdict",
+        "act": 4,
+        "sentences": "4.08#1–#2",
+        "desc": "Chiếc búa tòa án bằng gỗ gụ gõ dứt khoát xuống đế gỗ, biểu tượng cho phán quyết công lý nghiêm khắc nhất đối với tội ác đày đọa con cái.",
+        "prompt": "Macro action shot of a heavy judicial gavel resting firmly on its wooden sound block on the bench, sharp focus, solemn chiaroscuro courtroom shadows, definitive end of judicial debate."
+    },
+    {
+        "name": "t17_life_sentence_prison_doors_closing",
+        "act": 4,
+        "sentences": "4.08#3–#5",
+        "desc": "Cánh cửa song sắt nhà tù an ninh tối đa khép chặt trong hành lang lạnh lẽo, bản án hai mươi lăm năm đến chung thân cho hai kẻ bạo hành.",
+        "prompt": "Cold, imposing interior shot of heavy steel prison cell bars sliding shut in a long concrete corridor, harsh fluorescent backlighting, long vertical shadows of perpetual confinement."
+    },
+    {
+        "name": "t17_hospital_warm_meal_healing_bed",
+        "act": 4,
+        "sentences": "4.09#1–#3",
+        "desc": "Căn phòng bệnh viện ấm áp với khay cơm nóng hổi, chiếc chăn sạch sẽ êm ái và ánh nắng dịu nhẹ, những phép màu bình dị đầu tiên của các nạn nhân.",
+        "prompt": "Gentle, comforting interior shot of a clean hospital bedside table with a warm nutritious meal tray and fresh glass of water, soft morning sunlight streaming through sheer curtains, dawn of physical recovery."
+    },
+    {
+        "name": "t17_pediatric_care_gentle_stethoscope",
+        "act": 4,
+        "sentences": "4.09#4–#6",
+        "desc": "Bàn tay ân cần của bác sĩ kiểm tra chỉ số sinh tồn bên biểu đồ hồi phục dinh dưỡng, sự tận tụy của đội ngũ y tế cứu chữa các anh chị em.",
+        "prompt": "Warm clinical still life: gentle medical care instruments, patient recovery chart showing positive vital signs, stethoscope on soft white linen, compassionate healing environment noir."
+    },
+    {
+        "name": "t17_spiritual_bypass_delusion_shattered",
+        "act": 4,
+        "sentences": "4.10#1–#4",
+        "desc": "Bức tường ngục giam lạnh lẽo với bóng hai kẻ thủ ác co ro trong góc tối, chiếc ngai vàng gia đình giả tạo sụp đổ hoàn toàn trước thực tại cô độc.",
+        "prompt": "Bleak psychological shot of an austere prison cell corner, two separated distant shadows sitting isolated against rough concrete walls, total collapse of the grandiose domestic kingdom."
+    },
+    {
+        "name": "t17_legislative_hearing_homeschool_reform",
+        "act": 4,
+        "sentences": "4.10#5–#7",
+        "desc": "Phòng họp điều trần lập pháp của bang California với các tài liệu dự luật tăng cường giám sát giáo dục tại gia và phúc lợi trẻ em.",
+        "prompt": "Formal legislative committee room interior, rows of mahogany desks with state legislative bills and policy reports on child welfare oversight, lasting legal legacy of the Turpin case."
+    },
+    {
+        "name": "t17_post_traumatic_growth_sprout_brick",
+        "act": 4,
+        "sentences": "4.11#1–#3",
+        "desc": "Một mầm cây xanh nhỏ bé kiên cường vươn lên từ kẽ nứt của bức tường gạch đổ nát, biểu tượng cho khái niệm Tăng trưởng sau sang chấn (PTG).",
+        "prompt": "Poetic macro chiaroscuro shot: a tiny vibrant green seedling sprouting vigorously from a deep fissure in a dark decaying brick wall, illuminated by a single warm golden ray of sunlight, symbol of Post-Traumatic Growth."
+    },
+    {
+        "name": "t17_sibling_hands_reunited_sunlight",
+        "act": 4,
+        "sentences": "4.11#4–#6",
+        "desc": "Những bàn tay trẻ nắm chặt lấy nhau trong ánh nắng ấm áp ngoài trời, tình thân gia đình đích thực là chiếc phao cứu sinh đưa họ tìm lại cuộc đời.",
+        "prompt": "Uplifting yet dignified conceptual shot: silhouettes of several young hands gently intertwined in solidarity against a glowing warm sunset sky, unbreakable familial love and mutual protection."
+    },
+    {
+        "name": "t17_prison_perimeter_fence_sunset",
+        "act": 4,
+        "sentences": "4.12#1–#4",
+        "desc": "Hàng rào thép gai của trại giam lùi dần về phía sau trong ánh hoàng hôn tím sẫm, khép lại chương đen tối và chuyển sang bài học cảnh giác ở Hồi 5.",
+        "prompt": "Atmospheric wide shot of razor wire prison perimeter fencing receding into the distance against a deep twilight sky, cold surveillance towers silhouetted, transition to survival red flags noir."
+    },
+
+    # =========================================================================
+    # HỒI 5: TÁI SINH VÀ BỐN CẢNH BÁO ĐỎ SINH TỒN (16 ảnh / 45 câu)
+    # =========================================================================
+    {
+        "name": "t17_university_campus_steps_independence",
+        "act": 5,
+        "sentences": "5.02#1–#3",
+        "desc": "Bậc thềm giảng đường đại học rực rỡ ánh sáng ban mai với quyển sách và chiếc ba lô, hành trình học tập và hòa nhập cuộc sống tự lập của các con.",
+        "prompt": "Inspiring exterior view of a sunlit university campus library steps, a student backpack and open textbooks resting peacefully on clean stone, symbol of academic pursuit and newly discovered intellectual freedom."
+    },
+    {
+        "name": "t17_broadcast_interview_studio_hope",
+        "act": 5,
+        "sentences": "5.02#4–#6",
+        "desc": "Phòng thu truyền hình với ánh đèn sân khấu chuyên nghiệp, micro phỏng vấn nơi hai chị em Jordan và Jennifer tự tin chia sẻ thông điệp nghị lực sống.",
+        "prompt": "Behind-the-scenes broadcast television interview studio, professional studio spotlights illuminating an empty guest armchair and microphone, atmosphere of inspiring public courage and resilience."
+    },
+    {
+        "name": "t17_suburban_neighbor_porch_vigilance",
+        "act": 5,
+        "sentences": "5.03#1–#3",
+        "desc": "Góc nhìn từ hiên nhà một người hàng xóm nhìn qua hàng rào sang ngôi nhà bên cạnh, tinh thần cảnh giác và trách nhiệm cộng đồng của mỗi công dân.",
+        "prompt": "Subtle investigative exterior view from a neighbor's front porch, looking through a wooden fence slat at a quiet suburban home, warm porch lantern glowing, theme of community vigilance and care."
+    },
+    {
+        "name": "t17_break_bystander_effect_lifeline",
+        "act": 5,
+        "sentences": "5.03#4–#6",
+        "desc": "Chiếc điện thoại cố định trên bàn gia đình bên cạnh cuốn sổ ghi số khẩn cấp bảo trợ trẻ em, thông điệp hành động phá vỡ hiệu ứng người ngoài cuộc.",
+        "prompt": "Still life of a residential telephone beside a notepad with emergency child protective hotline contact numbers written down, clear side lighting, call to action against bystander apathy."
+    },
+    {
+        "name": "t17_child_dignity_open_park_swing",
+        "act": 5,
+        "sentences": "5.04#1–#4",
+        "desc": "Chiếc xích đu đơn độc đung đưa nhẹ nhàng trong công viên cây xanh lộng gió dưới nắng sớm, biểu tượng cho quyền tự do và tuổi thơ trọn vẹn của trẻ em.",
+        "prompt": "Poetic wide shot of an empty wooden swing swaying gently beneath a grand oak tree in a breezy sunlit public park, dappled sunlight on lush green grass, pure dignity and innocence of childhood."
+    },
+    {
+        "name": "t17_intuition_compassion_inner_light",
+        "act": 5,
+        "sentences": "5.04#5–#8",
+        "desc": "Chiếc đèn lồng cổ bằng đồng tỏa ánh sáng vàng ấm áp trong đêm tối, ẩn dụ cho trực giác cảnh giác và lòng trắc ẩn xua tan bóng tối bạo hành.",
+        "prompt": "Close-up of a vintage brass lantern casting a rich amber radiant glow against dark textured wooden wall, warm protective beacon cutting through atmospheric shadows, moral conscience noir."
+    },
+    {
+        "name": "t17_four_redflags_overview_banner",
+        "act": 5,
+        "sentences": "5.05#1",
+        "desc": "Bảng ghim phân tích tổng quan của Amber Eyes với tiêu đề bốn dấu hiệu cảnh báo đỏ sinh tồn về bạo hành gia đình khép kín.",
+        "prompt": "Forensic cork pinboard still life: a large manila header card pinned with four distinct color-coded case notes, red forensic string linking them, Amber Eyes investigative analysis style."
+    },
+    {
+        "name": "t17_redflag1_total_physical_isolation",
+        "act": 5,
+        "sentences": "5.05#2–#5",
+        "desc": "Dấu hiệu cảnh báo đỏ 1: Sự cô lập xã hội tuyệt đối — cánh cổng sắt kiên cố khóa chặt bằng ổ khóa to bản, ngăn cách hoàn toàn thế giới bên ngoài.",
+        "prompt": "Forensic conceptual shot for Red Flag 1: a heavy wrought-iron security gate locked tight with massive chained padlocks, tall concrete privacy wall, total physical and social cut-off from society."
+    },
+    {
+        "name": "t17_redflag2_staged_social_media_contrast",
+        "act": 5,
+        "sentences": "5.05#6–#9",
+        "desc": "Dấu hiệu cảnh báo đỏ 2: Sự tương phản phi lý giữa vỏ bọc mạng xã hội với thực tế — khung ảnh gia đình cười gượng gạo đặt cạnh bóng tối ngột ngạt.",
+        "prompt": "Conceptual visual for Red Flag 2: a polished silver picture frame displaying rigid forced family smiles, half swallowed by an encroaching pitch-black shadow, deceptive public facade unmasked."
+    },
+    {
+        "name": "t17_redflag3_severe_malnutrition_evidence",
+        "act": 5,
+        "sentences": "5.05#10–#13",
+        "desc": "Dấu hiệu cảnh báo đỏ 3: Biểu hiện suy kiệt thể trạng và chậm phát triển bất thường — chiếc bát nhôm trống trơn bên cạnh thước đo chiều cao sụt giảm.",
+        "prompt": "Forensic still life for Red Flag 3: an empty tarnished metal food bowl and an official medical height measurement chart showing extreme developmental deficit, raking harsh side lighting."
+    },
+    {
+        "name": "t17_redflag4_nocturnal_routine_punishment",
+        "act": 5,
+        "sentences": "5.05#14–#17",
+        "desc": "Dấu hiệu cảnh báo đỏ 4: Lối sống đảo lộn ngày đêm và kỷ luật trừng phạt hà khắc — ngôi nhà tối om đóng kín rèm cửa giữa thanh thiên bạch nhật.",
+        "prompt": "Eerie street-level view for Red Flag 4: a suburban house with blackout window wraps completely dark during blazing midday sun, stark unnatural contrast with sunny neighborhood street."
+    },
+    {
+        "name": "t17_no_child_deserves_fear_warmth",
+        "act": 5,
+        "sentences": "5.05#18–#19",
+        "desc": "Một bàn ăn gia đình ấm cúng với bánh mì thơm ngon và ánh nến lung linh, thông điệp không đứa trẻ nào đáng phải sống trong đói rét và sợ hãi.",
+        "prompt": "Warm heartwarming still life: a rustic wooden dining table set with fresh wholesome food, fruit bowl and glowing candlelight, inviting and safe domestic sanctuary full of dignity and love."
+    },
+    {
+        "name": "t17_community_vigilance_neighborhood_dawn",
+        "act": 5,
+        "sentences": "5.05#20–#21",
+        "desc": "Khu dân cư ngoại ô thanh bình ngập tràn ánh nắng bình minh ấm áp, thông điệp xây dựng cộng đồng an toàn của Amber Eyes.",
+        "prompt": "Uplifting wide-angle shot of a peaceful suburban neighborhood street at bright sunrise, golden light bathing green lawns and sidewalks, clear sky, atmosphere of renewal and community harmony."
+    },
+    {
+        "name": "t17_rebirth_sunlight_blooming_meadow",
+        "act": 5,
+        "sentences": "5.05#22",
+        "desc": "Cánh đồng cỏ xanh mướt với những bông hoa dại nở rộ dưới ánh mặt trời rực rỡ, tượng trưng cho sự hồi sinh kỳ diệu của mười ba người con.",
+        "prompt": "Inspiring dawn shot: vast open California blooming meadow bathed in brilliant warm sunrise rays, soft morning mist lifting over distant golden hills, ultimate psychological liberation and rebirth."
+    },
+    {
+        "name": "t17_amber_eyes_closing_dossier_turpin",
+        "act": 5,
+        "sentences": "5.05#23–#25",
+        "desc": "Bàn làm việc của Amber Eyes khép lại tập hồ sơ Turpin Family Case, huy hiệu Cú Mèo Amber Eyes và tách trà ấm, lời chào tạm biệt khán giả.",
+        "prompt": "Signature Amber Eyes closing shot: dark mahogany desk, manila case folder labeled TURPIN DOSSIER neatly closed, sleek amber owl feather emblem resting on the leather cover, warm amber desk lamp glow, contemplative outro."
+    },
+    {
+        "name": "t17_endcard_investigative_archive_wall",
+        "act": 5,
+        "sentences": "5.05#23–#25",
+        "desc": "Khung hình kết thúc kênh Amber Eyes: bức tường lưu trữ hồ sơ điều tra với ánh sáng vàng hổ phách, chuẩn bị sẵn vị trí hiển thị video đề xuất và nút đăng ký.",
+        "prompt": "Atmospheric cinematic 16:9 studio backdrop: dim investigative archive room with tall wooden dossier shelves, subtle amber mood lighting, clean open centered framing designed for YouTube end-screen video cards, premium noir aesthetic."
+    }
+]
+
+if __name__ == "__main__":
+    out_file = WORK / "bg_jobs_tap17.json"
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(jobs_tap17, f, ensure_ascii=False, indent=2)
+    print(f"Đã lưu thành công {len(jobs_tap17)} jobs ảnh nền Tập 17 vào {out_file}!")
+    
+    # Kiểm tra phân bổ theo hồi
+    for act in range(1, 6):
+        act_jobs = [j for j in jobs_tap17 if j.get("act") == act]
+        print(f" - Hồi {act}: {len(act_jobs)} ảnh (từ {act_jobs[0]['name']} đến {act_jobs[-1]['name']})")

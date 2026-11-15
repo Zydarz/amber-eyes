@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Act 3 data for Episode 22: 43 sentences across VN, EN, JA, KO."""
+"""Act 3 data for Episode 22: 51 sentences across VN, EN, JA, KO."""
 
 ACT3_VN = [
     ("BGM", "Tiếng đàn Dương cầm tối giản (Minimalist Piano) hòa cùng âm vang Drone trầm đục, tạo không khí học thuật và phân tích lâm sàng chuyên sâu."),
@@ -11,7 +11,7 @@ ACT3_VN = [
         "Một bộ não phạm tội không hề có khái niệm về lòng trắc ẩn hay sự thấu cảm nỗi đau của đồng loại.",
         "Hãy cùng chuyên gia tâm lý học pháp y đi sâu vào thế giới nội tâm đen tối của kẻ chủ mưu.",
     ]),
-    ("LOI", "CHUYÊN GIA TÂM LÝ", "C: Chuyên gia Tâm lý học Pháp y, giọng điềm đạm, học thuật", [
+    ("LOI", "CHUYEN_GIA", "C: Chuyên gia Tâm lý học Pháp y, giọng điềm đạm, học thuật", [
         "Dưới góc độ tâm thần học pháp y, hành vi của Dalia Dippolito mang đặc điểm điển hình của chứng Ái kỷ ác tính kết hợp Rối loạn nhân cách chống đối xã hội.",
         "Nét tính cách thống trị của ả là sự thiếu hụt hoàn toàn lòng trắc ẩn cảm xúc, đi kèm với ảo tưởng đặc quyền săn mồi không giới hạn.",
         "Ả nhìn nhận những người xung quanh, kể cả người bạn đời đã thề nguyện, chỉ như những công cụ và đạo cụ để đạt được mục đích cá nhân.",
@@ -21,6 +21,10 @@ ACT3_VN = [
         "Đối với ả, sinh mạng của Michael không mang bất kỳ giá trị con người nào, mà chỉ là một rào cản pháp lý cản trở việc độc chiếm căn nhà hai trăm năm mươi nghìn đô la.",
         "Những lời van xin hay tình cảm chân thành từ nạn nhân không hề kích hoạt lòng trắc ẩn, mà ngược lại chỉ tạo ra sự hưng phấn quyền lực ở kẻ săn mồi.",
         "Đó là bản chất lạnh lùng của một tâm lý ái kỷ biến dạng, nơi lợi ích vị kỷ của bản thân được đặt lên trên sinh mạng của người khác.",
+        "Dưới lăng kính tâm lý học tiến hóa, hành vi của Dalia phản ánh một chiến lược ký sinh xã hội mang tính hủy diệt cao độ.",
+        "Ả khéo léo biến những mặc cảm về quá khứ lầm lỡ của Michael thành một đòn bẩy tâm lý để cô lập anh khỏi các mối quan hệ hỗ trợ xung quanh.",
+        "Bằng cách liên tục gieo rắc sự bất an và đòi hỏi những cam kết vật chất vội vã, ả từng bước tước đoạt quyền tự chủ tài chính của người bạn đời một cách êm ái.",
+        "Khi toàn bộ quyền lợi đã được chuyển giao vào tay mình, nạn nhân lập tức mất đi giá trị sử dụng và bị đưa vào danh sách cần phải thanh lý không thương tiếc.",
     ]),
     ("LOI", "HOST", "dẫn dắt sang cơ chế chia ngăn nhận thức", [
         "Thế nhưng làm thế nào một người phụ nữ trẻ có thể duy trì cuộc sống bình thường bên cạnh người mà mình đang toan tính loại bỏ?",
@@ -28,7 +32,7 @@ ACT3_VN = [
         "Khoa học thần kinh và tâm lý học hành vi đã chỉ ra một cơ chế phòng vệ đặc biệt mang tên nghịch lý chia ngăn nhận thức.",
         "Một bức tường vô hình đã được dựng lên bên trong não bộ để ngăn cách giữa đạo đức xã hội và dã tâm tàn độc.",
     ]),
-    ("LOI", "CHUYÊN GIA TÂM LÝ", "C: bóc tách cơ chế chia ngăn nhận thức và bi kịch người thân", [
+    ("LOI", "CHUYEN_GIA", "C: bóc tách cơ chế chia ngăn nhận thức và bi kịch người thân", [
         "Cơ chế chia ngăn nhận thức, hay Compartmentalization, là vũ khí tâm lý tối thượng giúp kẻ thủ ác duy trì hai cuộc đời hoàn toàn tách biệt.",
         "Bộ não của Dalia đã khóa chặt ngăn gia đình bình thường và ngăn bóng tối săn mồi thành hai không gian độc lập không hề giao thoa.",
         "Khi ở bên mẹ và bạn bè, ả thực sự tin vào vai diễn một người con gái hiếu thảo, một người vợ trẻ đang nỗ lực vun vén hạnh phúc gia đình.",
@@ -44,7 +48,7 @@ ACT3_VN = [
         "Chúng không bao giờ chấp nhận mình là kẻ phản diện trong câu chuyện mà bản thân là nhân vật chính.",
         "Và Dalia Dippolito đã sử dụng triệt để các kỹ thuật trung hòa đạo đức để ru ngủ phần lương tri còn sót lại.",
     ]),
-    ("LOI", "CHUYÊN GIA TÂM LÝ", "C: giải phẫu các kỹ thuật trung hòa đạo đức", [
+    ("LOI", "CHUYEN_GIA", "C: giải phẫu các kỹ thuật trung hòa đạo đức", [
         "Các kỹ thuật trung hòa đạo đức, hay Techniques of Neutralization, là phương thức hung thủ sử dụng để vô hiệu hóa các rào cản đạo đức của xã hội.",
         "Dalia áp dụng triệt để kỹ thuật đổ lỗi cho nạn nhân và ngoại hóa trách nhiệm cá nhân.",
         "Ả tự ru ngủ mình rằng Michael từng có tiền án lừa đảo viễn thông, nên anh ta không xứng đáng được hưởng cuộc sống hạnh phúc và tài sản đó.",
@@ -53,6 +57,10 @@ ACT3_VN = [
         "Kẻ ái kỷ luôn tìm cách giảm thiểu mức độ nghiêm trọng của hành vi và tuyệt đối không bao giờ nhận lỗi về bản thân.",
         "Hệ thống tự bào chữa bệnh lý này bảo vệ cái tôi mong manh của chúng khỏi sự sụp đổ hoàn toàn trước thực tế trần trụi.",
         "Chính vì vậy, chúng ta không bao giờ nhìn thấy sự ăn năn chân chính ở những tội phạm này, mà chỉ thấy sự cay cú và tự thương hại bản thân.",
+        "Một lát cắt tâm lý đầy trăn trở trong hồ sơ này là sự chối bỏ nhận thức mang tính phòng vệ cực đoan từ chính người mẹ của kẻ thủ ác.",
+        "Đối diện với sự thật kinh hoàng về đứa con gái mình hết mực yêu thương, người mẹ đã chọn cách phong tỏa nhận thức để bảo vệ cái tôi khỏi sự sụp đổ danh dự.",
+        "Bà bám víu vào những giả thuyết hoang đường về việc con mình chỉ là nạn nhân của một cái bẫy truyền thông do cảnh sát và đoàn làm phim dàn dựng.",
+        "Sự chối bỏ mù quáng của tình mẫu tử tuy là một phản xạ tâm lý dễ hiểu, nhưng vô tình lại trở thành một mảnh ghép dung dưỡng cho sự trơ trẽn của kẻ phạm tội.",
     ]),
     ("LOI", "HOST", "đúc kết chiều sâu lâm sàng trước khi chuyển hồi", [
         "Bức tranh tâm lý phức tạp ấy phơi bày một nhân cách ái kỷ méo mó, lạnh lùng và đầy nguy hiểm ẩn sau vẻ ngoài quyến rũ.",
@@ -83,6 +91,10 @@ ACT3_EN = [
         "To her, Michael's physical existence held zero intrinsic human dignity; he represented merely an inconvenient legal hurdle blocking total title to the townhouse.",
         "Pleadings and authentic emotional appeals from others triggered no remorse; instead, they fueled her sadistic power arousal.",
         "This embodies the freezing core of pathological narcissism, where selfish ambition utterly supersedes the inviolability of human life.",
+        "Through the lens of evolutionary psychology, Dalia's calculated maneuvers exemplified a highly destructive form of predatory social parasitism.",
+        "She skillfully exploited Michael's vulnerabilities surrounding his past legal mistakes, transforming his desire for redemption into psychological leverage to isolate him from supportive networks.",
+        "By systematically cultivating insecurity while relentlessly demanding premature material commitments, she progressively stripped her partner of financial autonomy without raising alarm.",
+        "The moment all critical assets were successfully transferred into her legal possession, the victim instantly lost all perceived utility and was coldly slated for merciless disposal.",
     ]),
     ("LOI", "HOST", "transitioning into the paradox of cognitive compartmentalization", [
         "Yet how could a young bride sustain an apparently seamless domestic routine alongside a partner she was actively plotting to destroy?",
@@ -115,6 +127,10 @@ ACT3_EN = [
         "A narcissist invariably minimizes behavioral culpability and categorically rejects personal responsibility.",
         "This pathological justification system insulates their fragile ego from catastrophic collapse against objective reality.",
         "Consequently, we observe zero genuine remorse in such perpetrators; only bitter resentment and profound pathological self-pity.",
+        "A deeply poignant psychological facet of this case lies in the extreme defensive denial exhibited by the perpetrator's own biological mother.",
+        "Confronted with the horrifying reality of the daughter she had tenderly raised, the mother chose cognitive compartmentalization to shield her ego from catastrophic dishonor.",
+        "She clung desperately to outlandish conspiracy theories, insisting her daughter was merely an innocent casualty framed by an aggressive reality television production and overzealous police.",
+        "While such blind maternal denial is an understandable psychological defense mechanism, it inadvertently became an enabling shelter fueling the perpetrator's complete lack of remorse.",
     ]),
     ("LOI", "HOST", "synthesizing clinical conclusions before transitioning to Act 4", [
         "That intricate psychological portrait unveils a distorted, icy, and profoundly perilous narcissistic personality cloaked behind outward allure.",
@@ -145,6 +161,10 @@ ACT3_JA = [
         "彼女にとってマイケルの生命には何の人格的価値もなく、25万ドルの不動産を完全に強奪するための法的障害に過ぎませんでした。",
         "被害者の懇願や純粋な愛情は彼女の同情を呼び起こすどころか、捕食者特有の支配欲と万能感を刺激するだけに終わりました。",
         "これこそが、個人の身勝手な欲望を他者の尊い生命よりも優先させる、歪んだ自己愛の冷酷な本質です。",
+        "進化心理学の観点から分析すれば、ダリアの取った一連の行動は極めて破壊的な「捕食的社会寄生戦略」そのものでした。",
+        "彼女はマイケルの過去の過ちに対する罪悪感や更生への渇望を巧みに利用し、彼を周囲の支援ネットワークから孤立させる心理的梃子へと変えていったのです。",
+        "精神的な不安を執拗に植え付けながら性急な財産譲渡を要求し続けることで、配偶者の経済的自立権を誰にも気づかれずに段階的に奪い去っていきました。",
+        "そして不動産を含むすべての権利が法的に自らの手中に収まった瞬間、被害者は利用価値を完全に失い、冷酷にも「速やかに処分すべき障害物」へと格下げされたのです。",
     ]),
     ("LOI", "HOST", "認知的区画化のパラドックスへと導く", [
         "しかし、一人の若い妻が、自ら殺害を企てている相手と同じ屋根の下で平然と日常生活を維持することなど、果たして可能なのでしょうか。",
@@ -177,6 +197,10 @@ ACT3_JA = [
         "自己愛者は自らの過ちの重大性を矮小化し、自己の責任を決して認めようとしません。",
         "この病的な正当化システムは、客観的現実の前に脆くも崩れ去りかねない彼女の虚栄心を守るための最後の砦でした。",
         "それゆえ、こうした犯罪者からは真摯な悔悟の念が決して見出せず、あるのは他者への恨みと自己憐憫の涙だけなのです。",
+        "この事件における極めて痛切な心理的一面は、犯人の実母が見せた極限状態の「自己防衛的現実否認」にあります。",
+        "丹精込めて育て上げた愛娘の恐るべき本性と犯行の動かぬ証拠を突きつけられた時、母親は名誉の崩壊から自己を守るため、現実そのものを遮断する道を選びました。",
+        "娘は警察とテレビ番組の過激な演出によって仕組まれた罠の犠牲者に過ぎないという、荒唐無稽な陰謀論に必死にしがみつき続けたのです。",
+        "盲目的な母性愛による現実否認は心理的な防衛反応としては理解し得るものですが、結果として犯人の破廉恥な開き直りと無反省を支える危険な温床となってしまいました。",
     ]),
     ("LOI", "HOST", "臨床的結論を結び、第4幕の法廷闘争へと導く", [
         "この複雑な心理的肖像は、魅力的な外見の裏に潜んでいた冷酷かつ極めて危険な自己愛性パーソナリティの全貌を明らかにしています。",
@@ -207,6 +231,10 @@ ACT3_KO = [
         "그녀에게 마이클의 생명은 어떠한 인간적 존엄성도 지니지 못했으며 수억 원에 달하는 타운하우스의 독점을 가로막는 법적 걸림돌에 불과했습니다.",
         "피해자의 진심 어린 애원이나 헌신은 그녀의 양심을 일깨우기는커녕 포식자 특유의 잔혹한 권력 도취감만을 자극했을 뿐입니다.",
         "이것이 바로 자신의 맹목적인 탐욕을 위해 타인의 고귀한 생명을 짓밟는 뒤틀린 악성 자기애의 차가운 본질입니다.",
+        "진화심리학의 렌즈를 통해 분석하면 달리아의 치밀한 행태는 극도로 파괴적인 “포식적 사회 기생 전략”을 그대로 보여줍니다.",
+        "그녀는 과거의 법적 과오로 인한 마이클의 죄책감과 갱생에 대한 열망을 교묘히 악용하여 그를 주변 지지망으로부터 고립시키는 심리적 지렛대로 삼았습니다.",
+        "체계적으로 불안감을 조성하는 동시에 성급한 물질적 헌신을 집요하게 요구함으로써 배우자의 재정적 자율성을 아무런 의심 없이 차근차근 박탈해 나갔습니다.",
+        "모든 핵심 부동산과 권리가 법적으로 자신의 손에 넘어가자마자 피해자는 이용 가치를 완전히 상실하고 무자비하게 청산되어야 할 장애물로 전락했습니다.",
     ]),
     ("LOI", "HOST", "인지적 구획화의 역설로 서사를 전환한다", [
         "그렇다면 한 젊은 여성이 자신이 살해를 사주한 배우자와 한집에서 어떻게 아무 일도 없다는 듯 일상을 유지할 수 있었을까요.",
@@ -239,6 +267,10 @@ ACT3_KO = [
         "자기애적 성향의 범죄자는 자신의 잘못을 극도로 축소하며 결코 개인적 책임을 인정하지 않습니다.",
         "이 병리적인 자기 합리화 체계는 객관적인 현실 앞에서 산산조각 날 수밖에 없는 그들의 취약한 자아를 지키는 최후의 성벽입니다.",
         "그렇기 때문에 우리는 이런 범죄자들에게서 진정한 참회를 결코 찾아볼 수 없으며 오직 비열한 원망과 자기 연민의 눈물만을 목격하게 됩니다.",
+        "이 사건에서 대단히 가슴 아픈 심리학적 단면 중 하나는 가해자의 친모가 보여준 극단적인 자기방어적 현실 부정입니다.",
+        "지극정성으로 키워온 딸의 끔찍한 실체와 범행 증거를 마주했을 때 어머니는 명예의 파멸로부터 자아를 지키기 위해 현실 자체를 차단하는 길을 택했습니다.",
+        "그녀는 딸이 자극적인 리얼리티 프로그램 제작진과 과열된 경찰에 의해 억울하게 덫에 걸렸다는 황당무계한 음모론에 필사적으로 매달렸습니다.",
+        "맹목적인 모성애로 인한 현실 부정은 방어기제로서는 이해할 수 있으나 결과적으로 가해자의 뻔뻔한 파렴치함과 죄의식 결여를 부추기는 온상이 되고 말았습니다.",
     ]),
     ("LOI", "HOST", "임상적 분석을 매듭지으며 4막의 법정 공방으로 안내한다", [
         "이 복잡한 심리적 초상은 매혹적인 겉모습 뒤에 숨겨져 있던 차갑고 치명적인 악성 자기애 인격의 민낯을 가차 없이 드러냅니다.",

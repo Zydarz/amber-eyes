@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Act 1 data for Episode 20: 50 sentences across VN, EN, JA, KO."""
+"""Act 1 data for Episode 20 (241 sentences across VN, EN, JA, KO)."""
 
 ACT1_VN = [
     ("BGM", "Tiếng Dark Ambient âm u, tiếng nhịp trống trầm chậm và tiếng tích tắc đồng hồ kim loại ngột ngạt."),
@@ -12,6 +12,8 @@ ACT1_VN = [
         "Dư chấn xã hội lan rộng khi các cơ quan báo chí truyền hình đồng loạt đổ dồn về khu chung cư đối diện trường luật để đưa tin về vụ mất tích đầy bí ẩn.",
         "Tại đây, một người hàng xóm sống ngay căn hộ đối diện với phòng Lauren đã chủ động bước ra trước ống kính máy quay với vẻ ngoài vô cùng sốt sắng.",
         "Người thanh niên trẻ tuổi ấy tỏ ra hết sức nhiệt thành, tự nhận mình là người bạn thân thiết luôn dõi theo sự an nguy của cô gái mất tích.",
+        "Tại những giảng đường danh giá như Đại học Mercer, cộng đồng sinh viên thường sống trong một niềm tin mặc định về sự an toàn tuyệt đối của môi trường học thuật.",
+        "Chính ảo tưởng an toàn ấy đã vô tình làm tê liệt phản xạ cảnh giác tự nhiên của những người trẻ tuổi trước các mối đe dọa ngầm.",
     ]),
     ("SFX", "Tiếng máy quay ghi hình rè nhẹ, tiếng xì xào của đám đông phóng viên."),
     ("LOI", "HOST", "nhấn mạnh chân dung người hàng xóm lập dị", [
@@ -43,6 +45,8 @@ ACT1_VN = [
         "Nhưng giây phút phóng viên nhắc đến phát hiện trong thùng rác, biểu cảm của Stephen khiến tất cả chúng tôi phải nổi da gà vì kinh hãi.",
         "Cậu ta không hề thể hiện sự bàng hoàng hay đau đớn như một người bạn thực sự, mà khuôn mặt hoàn toàn đờ đẫn trong nỗi sợ hãi tột cùng của kẻ bị bắt quả tang.",
         "Cậu ta lặng đi rồi khuỵu xuống lề đường, như thể một bí mật kinh hoàng vừa bị phơi bày trước ánh sáng công lý.",
+        "Chỉ vài ngày trước khi biến mất, Lauren từng tâm sự với chúng tôi về một cảm giác bất an mơ hồ khi ở trong căn hộ của mình.",
+        "Chúng tôi cứ tự dằn vặt mãi rằng tại sao lúc đó mình không tin vào linh cảm của bạn mình, để rồi Lauren phải đối mặt một mình với sự đe dọa vô hình ấy.",
     ]),
     ("SFX", "Tiếng thở dốc nghẹn ngào, tiếng micro thu âm tiếng thở run rẩy."),
     ("LOI", "HOST", "chuyển giọng sắc lạnh, phân tích cú sốc tâm lý", [
@@ -63,6 +67,7 @@ ACT1_VN = [
         "Hãy hình dung góc nhìn của một điều tra viên khi quan sát từng biến đổi cơ mặt và nhịp thở run rẩy của nghi phạm trong khoảnh khắc ấy.",
         "Hắn không hề hỏi xem nạn nhân còn cơ hội sống sót hay không, mà chỉ lập tức tìm cách ngồi thụp xuống để che giấu sự run rẩy mất kiểm soát của đôi chân.",
         "Chúng tôi quyết định đưa McDaniel vào phòng hỏi cung ngay trong đêm để bóc tách từng lớp mặt nạ của gã cử nhân luật lập dị này.",
+        "Khoảnh khắc nghi phạm ngồi sụp xuống lề đường chính là sự sụp đổ đầu tiên của một ảo tưởng ái kỷ khi kế hoạch tưởng như hoàn hảo bị thực tế đánh tan tành.",
     ]),
     ("LOI", "HOST", "khép lại Hồi 1, dẫn dắt sang phòng thẩm vấn", [
         "Cánh cửa phòng điều tra của Sở Cảnh sát Macon khép lại, mở ra một cuộc đối đầu cân não kéo dài hơn mười hai giờ đồng hồ.",
@@ -84,6 +89,8 @@ ACT1_EN = [
         "The social shockwave widened as local television news crews converged upon the apartment building directly across from the law school to broadcast the mysterious disappearance.",
         "Right there on the pavement, a neighbor living directly across the hall from Lauren stepped forward before the cameras with eager urgency.",
         "The young man projected intense enthusiasm, portraying himself as a devoted, observant friend deeply invested in the missing woman’s welfare.",
+        "Within prestigious academic halls like Mercer University, the student community often lived under a default assumption of absolute safety.",
+        "That very illusion of academic security inadvertently paralyzed the natural vigilance of young intellectuals stepping into independent life.",
     ]),
     ("SFX", "Faint hum of television cameras, muffled murmurs from the assembled reporters."),
     ("LOI", "HOST", "underscoring the portrait of an eccentric neighbor", [
@@ -106,7 +113,7 @@ ACT1_EN = [
         "The calculated concealment of an arrogant mind collapsed in a fraction of a second due to an unforeseen timing anomaly.",
         "Imagine the stunned horror of a fellow law student standing nearby during that exact moment.",
     ]),
-    ("LOI", "ORDINARY PERSON", "N1: Mercer Law School Classmate, female voice, shaken and emotional", [
+    ("LOI", "PERSON INVOLVED", "N1: Mercer Law School Classmate, female voice, shaken and emotional", [
         "When Lauren failed to appear for our bar study sessions and stopped replying to our messages, every one of us knew immediately that something terrible had happened.",
         "Lauren was remarkably conscientious, brimming with infectious joy and boundless intelligence, and she was someone who never simply vanished without notifying friends.",
         "She was a beloved student leader, always ready to support her peers with an radiant smile, standing on the threshold of an inspiring legal career.",
@@ -115,6 +122,8 @@ ACT1_EN = [
         "Yet the second the reporter mentioned the discovery in the dumpster, the expression on Stephen’s face gave me absolute chills.",
         "He displayed neither the shock nor the frantic grief of an innocent friend, his face went utterly blank in the paralyzing dread of someone caught red-handed.",
         "He went completely mute and sank down onto the curb, as though a monstrous secret had just been ripped into the blinding light of day.",
+        "Just days before she vanished, Lauren had shared with us an ambiguous feeling of dread inside her own apartment.",
+        "We tormented ourselves with guilt, wondering why we failed to trust our friend's intuition, leaving Lauren to face that invisible threat entirely alone.",
     ]),
     ("SFX", "Choked, labored breathing caught distinctly on the microphone."),
     ("LOI", "HOST", "chilling, forensic analysis of cognitive shock", [
@@ -127,7 +136,7 @@ ACT1_EN = [
         "The seasoned instincts of Macon Police Department detectives observing from the perimeter recognized the red flag behind that extreme reaction.",
         "Immediately following that broadcast moment, Stephen McDaniel was escorted to police headquarters for formal investigative interrogation.",
     ]),
-    ("LOI", "INVESTIGATOR", "D: middle-aged male voice, razor-sharp, clinical precision", [
+    ("LOI", "DETECTIVE", "D: middle-aged male voice, razor-sharp, clinical precision", [
         "Reviewing the news broadcast recording, my fellow detectives and I spotted glaring behavioral red flags right away.",
         "The abrupt transition from verbose, confident lecturing to total physical paralysis indicated a massive cognitive shockwave had hit his brain.",
         "The hollow stare and rapid, shallow respirations were not expressions of mourning, but the telltale signs of a predator realizing his trap had closed on himself.",
@@ -135,6 +144,7 @@ ACT1_EN = [
         "Imagine an investigator’s perspective examining every micro-expression and trembling breath captured on that high-definition tape.",
         "He never once asked whether there was any chance Lauren was alive, he immediately looked for a curb to collapse onto, seeking to hide his trembling limbs.",
         "We made the decision to place McDaniel into an interrogation suite that very evening to dismantle the false mask of this eccentric law graduate.",
+        "The moment the suspect collapsed onto the curb was the first visible breakdown of a narcissistic delusion when his supposedly perfect plan was shattered by reality.",
     ]),
     ("LOI", "HOST", "closing Act 1, transitioning into the interrogation suite", [
         "The door of the Macon Police Department interrogation room closed shut, initiating a psychological battle of nerves spanning more than twelve grueling hours.",
@@ -156,6 +166,8 @@ ACT1_JA = [
         "地元のテレビ報道陣がロースクール向かいのアパートに押し寄せ、この不気味な失踪事件を一斉に報じ始めると、社会的な衝撃はさらに拡大しました。",
         "その現場で、ローレンの部屋の真向かいに住む一人の隣人が、自らカメラの前に歩み出てきたのです。",
         "その青年はひどく熱心な様子で、行方不明になった友人の身を案じる誠実な隣人を演じていました。",
+        "マーサー大学のような名門ロースクールのキャンパスにおいて、学生たちは学究環境の絶対的な安全性という思い込みの中で暮らしていました。",
+        "まさにその安全性幻想が、自立した生活を始めたばかりの若者たちの自然な警戒心を鈍らせてしまったのです。",
     ]),
     ("SFX", "テレビカメラの微かな回転音、集まった記者たちのざわめき。"),
     ("LOI", "ホスト", "風変わりな隣人の人物像を強調する", [
@@ -187,6 +199,8 @@ ACT1_JA = [
         "しかし、記者がゴミ容器の中での発見について口にした瞬間、スティーブンの表情を見て全身に鳥肌が立ちました。",
         "彼は本物の友人のような悲嘆や衝撃を示すのではなく、まるで犯行現場を押さえられた者のように恐怖で完全に硬直したのです。",
         "彼は言葉を失い、隠し通せると思っていた恐ろしい秘密が白日の下に晒されたかのように、路肩にへたり込みました。",
+        "失踪するわずか数日前、ローレンは自室で感じる漠然とした不穏な予感について、私たちに不安を漏らしていました。",
+        "なぜあの時友人の直感を信じてあげられなかったのか、ローレンを見えない脅威の前に一人置き去りにしてしまったのかと、私たちは激しい自責に苛まれ続けました。",
     ]),
     ("SFX", "息をのむ震える呼気、マイクが拾う浅く苦しげな息づかい。"),
     ("LOI", "ホスト", "冷徹な語り口で、認知的衝撃を分析する", [
@@ -207,6 +221,7 @@ ACT1_JA = [
         "高解像度テープに記録された微表情や震える息づかいを検証する捜査官の視点を想像してみてください。",
         "彼は友人の命が助かる可能性について一切尋ねようとせず、震える足の制御不能を隠すためにただ座り込もうとしました。",
         "私たちは、この風変わりな法学士の偽りの仮面を剥ぎ取るため、その日の夜に彼を取調室へと送り込む決定を下しました。",
+        "容疑者が歩道に崩れ落ちた瞬間は、完璧と思われた計画が捜査の現実に打ち砕かれ、自己愛の妄想が崩壊し始めた決定的な証拠でした。",
     ]),
     ("LOI", "ホスト", "第1幕を結び、取調室への展開を導く", [
         "メーコン警察の取調室の扉が重く閉じられ、12時間以上に及ぶ緊迫した心理戦の幕が上がりました。",
@@ -219,7 +234,7 @@ ACT1_JA = [
 
 ACT1_KO = [
     ("BGM", "어둡고 무거운 다크 앰비언트 선율, 느리고 둔탁한 베이스 맥박과 금속성 시계 초침 소리가 숨 막히게 울려 퍼진다."),
-    ("LOI", "호스트", "깊고 무거운 음성으로 사건의 심리적 무게감을 열어젖힌다", [
+    ("LOI", "진행자", "깊고 무거운 음성으로 사건의 심리적 무게감을 열어젖힌다", [
         "2011년 6월 말, 조지아주 메이컨에 위치한 머서대학교 Walter George 법학전문대학원 캠퍼스는 음산하고 숨 막히는 긴장감에 휩싸였습니다.",
         "로스쿨을 우수한 성적으로 졸업하고 변호사 시험 준비에 매진하던 스물일곱 살의 Lauren Giddings가 흔적도 없이 사라졌기 때문입니다.",
         "그녀가 거주하던 Barristers Hall 아파트의 현관문에는 외부 침입이나 강제 개방의 흔적이 전혀 발견되지 않았습니다.",
@@ -228,9 +243,11 @@ ACT1_KO = [
         "로스쿨 바로 맞은편 아파트 주변으로 지역 방송 취재진이 대거 몰려들어 의문의 실종 사건을 연일 보도하면서 사회적 충격은 걷잡을 수 없이 커졌습니다.",
         "바로 그때, Lauren의 맞은편 방에 살던 한 이웃 청년이 자청하여 취재 카메라 앞에 모습을 드러냈습니다.",
         "그 청년은 실종된 동기의 안위를 지극히 걱정하는 듯한 헌신적인 태도로 자신을 적극적으로 드러냈습니다.",
+        "머서 대학교와 같은 명문 로스쿨 캠퍼스에서 학생들은 학문적 환경의 절대적인 안전성에 대한 맹목적인 믿음 속에 살아가고 있었습니다.",
+        "바로 그 안전성에 대한 환상이 독립된 생활을 시작한 젊은이들의 자연스러운 경계심을 무디게 만들었던 것입니다.",
     ]),
     ("SFX", "방송용 카메라의 미세한 구동음, 취재진의 웅성거리는 웅성거림."),
-    ("LOI", "호스트", "괴짜 이웃 청년의 기이한 페르소나를 조명한다", [
+    ("LOI", "진행자", "괴짜 이웃 청년의 기이한 페르소나를 조명한다", [
         "그 청년은 바로 스물다섯 살의 Stephen McDaniel로, Lauren과 로스쿨을 함께 졸업하고 바로 맞은편 호실에 살던 이웃이었습니다.",
         "헝클어진 긴 머리에 두꺼운 뿔테 안경, 어눌하고 조심스러운 말투를 구사하는 McDaniel은 사려 깊고 책임감 강한 동기의 역할을 능숙하게 연기했습니다.",
         "지역 방송국 WGXA의 카메라 앞에서 그는 이웃으로서의 유대감과 최근의 사소한 대화들을 상세히 늘어놓았습니다.",
@@ -241,7 +258,7 @@ ACT1_KO = [
         "하지만 생방송 인터뷰가 진행되던 도중, 그의 모든 계산을 단숨에 무너뜨리는 예기치 못한 돌발 상황이 벌어지고 말았습니다.",
     ]),
     ("SFX", "멀리서 울리는 긴박한 경찰 사이렌, 간헐적으로 지지직거리는 무전기 소음."),
-    ("LOI", "호스트", "가쁜 호흡으로 전환되며 숨 막히는 긴장감을 연출한다", [
+    ("LOI", "진행자", "가쁜 호흡으로 전환되며 숨 막히는 긴장감을 연출한다", [
         "카메라가 돌아가고 있던 순간, 여성 기자는 아파트 뒤편 주차장 일대를 수색하던 수사관들로부터 다급한 속보를 전해 들었습니다.",
         "기자는 청년을 향해 몸을 돌려, 경찰 수색팀이 아파트 외부 대형 쓰레기통 안에서 비극적인 유류 흔적을 발견했다는 사실을 알렸습니다.",
         "그 짤막한 통보는 무더운 여름날 오후의 정적을 찢어발기는 마른하늘의 날벼락과도 같았습니다.",
@@ -259,9 +276,11 @@ ACT1_KO = [
         "하지만 기자가 쓰레기통 안에서의 발견을 언급한 바로 그 순간, Stephen의 표정을 보고 온몸에 소름이 돋았습니다.",
         "그는 진정한 친구라면 보여야 할 슬픔이나 충격 대신, 현장에서 덜미를 잡힌 자만이 드러내는 극도의 공포에 완전히 질려 있었습니다.",
         "그는 굳은 듯 멈춰 서더니 길가 턱에 주저앉았는데, 마치 영원히 묻어둘 줄 알았던 끔찍한 비밀이 빛 앞에 드러난 모습 그대로였습니다.",
+        "실종되기 불과 며칠 전, 로렌은 자신의 아파트에서 느껴지는 막연한 불안감에 대해 우리에게 털어놓은 적이 있었습니다.",
+        "우리는 왜 그때 친구의 직감을 진지하게 믿어주지 못했는지, 로렌을 보이지 않는 위협 앞에 홀로 남겨두었는지 끝없는 자책에 시달렸습니다.",
     ]),
     ("SFX", "목이 메는 듯한 거친 숨소리, 마이크를 통해 흘러나오는 떨리는 호흡."),
-    ("LOI", "호스트", "냉철한 어조로 급변하며 인지적 충격을 해부한다", [
+    ("LOI", "진행자", "냉철한 어조로 급변하며 인지적 충격을 해부한다", [
         "비보를 접한 Stephen McDaniel의 생리적 반응은 범죄 행동 분석 분야에서 가장 널리 연구되는 상징적인 영상 자료가 되었습니다.",
         "그는 턱턱 막히는 쉰 목소리로 기자의 질문을 반복하며, 극심한 공황 속에서 동공을 어지럽게 굴렸습니다.",
         "그리고는 인도 턱에 주저앉아 머리를 감싸 쥔 채, 생방송 카메라 앞에서 침착함을 유지할 능력을 완전히 상실했습니다.",
@@ -279,8 +298,9 @@ ACT1_KO = [
         "고해상도 영상에 담긴 용의자의 미세 표정과 떨리는 숨결 하나하나를 해부해 나가는 수사관의 시선을 상상해 보십시오.",
         "그는 친구가 살아있을 일말의 가능성에 대해서는 단 한마디도 묻지 않은 채, 다리의 통제 불능을 감추기 위해 허겁지겁 주저앉을 자리만 찾았습니다.",
         "우리는 이 괴짜 법학도의 위선적인 가면을 철저히 벗겨내기 위해, 그날 밤 즉시 그를 취조실에 앉히기로 결단했습니다.",
+        "용의자가 보도에 주저앉은 순간은 완벽하다고 믿었던 계획이 수사의 현실에 산산조각 나며 나르시시즘적 망상이 무너지기 시작한 결정적 순간이었습니다.",
     ]),
-    ("LOI", "호스트", "제1막을 마무리하며 취조실의 팽팽한 대결로 안내한다", [
+    ("LOI", "진행자", "제1막을 마무리하며 취조실의 팽팽한 대결로 안내한다", [
         "메이컨 경찰국 취조실의 철문이 굳게 닫히며, 열두 시간을 훌쩍 넘기는 숨 막히는 심리전의 막이 올랐습니다.",
         "하지만 밀폐된 방 안에서 수사관들이 마주하게 된 것은 흔한 변명이나 격렬한 혐의 부인이 아니었습니다.",
         "그것은 전례를 찾아보기 힘든 기이한 심리 현상이었으며, 취조실을 등골 서늘한 신경전의 무대로 뒤바꿔 놓았습니다.",

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Act 5 data for Episode 22: 31 sentences across VN, EN, JA, KO."""
+"""Act 5 data for Episode 22: 35 sentences across VN, EN, JA, KO."""
 
 ACT5_VN = [
     ("BGM", "Nhạc nền chuyển sang giai điệu Piano ấm áp, trang trọng, phảng phất nỗi suy tư triết lý và sự cảnh báo nhân văn sâu sắc."),
@@ -10,18 +10,22 @@ ACT5_VN = [
         "Thảm kịch suýt xảy ra là một lời thức tỉnh mạnh mẽ về các dấu hiệu của bạo lực gia đình phi thể xác và hành vi lạm dụng tài chính có tổ chức.",
         "Sự tỉnh táo trong tình cảm và việc bảo vệ ranh giới cá nhân chính là chiếc chìa khóa then chốt để bảo vệ bản thân trước những kẻ săn mồi đội lốt người yêu thương.",
     ]),
-    ("LOI", "ĐIỀU TRA VIÊN", "D: bài học từ công tác điều tra hình sự", [
+    ("LOI", "DIEU_TRA_VIEN", "D: bài học từ công tác điều tra hình sự", [
         "Dưới góc độ nghiệp vụ điều tra hình sự, bài học lớn nhất từ vụ án này là sự kết hợp chặt chẽ giữa thông tin tố giác của quần chúng và các biện pháp trinh sát kỹ thuật số hiện đại.",
         "Nếu không có sự dũng cảm của người cung cấp tin và sự mưu trí của các sĩ quan cảnh sát chìm, một vụ án mạng kinh hoàng chắc chắn đã xảy ra trong thực tế.",
         "Việc thu thập chứng cứ bằng hình ảnh và âm thanh trực tiếp là vũ khí tối thượng đập tan mọi chiến lược chối tội và ngụy biện trước tòa.",
         "Lực lượng cảnh sát khuyến cáo người dân khi phát hiện bất kỳ dấu hiệu đe dọa đến tính mạng hoặc các hành vi mờ ám liên quan đến thuê mướn bạo lực cần phải báo cáo ngay lập tức cho cơ quan chức năng để được bảo vệ kịp thời.",
+        "Vụ án là minh chứng đanh thép cho thấy sự dũng cảm tố giác của một cá nhân có thể thay đổi hoàn toàn cục diện giữa sự sống và cái chết của đồng loại.",
+        "Kỷ cương xã hội và sự bình yên của mỗi gia đình chỉ có thể được bảo vệ vững chắc khi mỗi công dân biết từ chối thỏa hiệp với cái ác và sẵn sàng đứng về phía lẽ phải.",
     ]),
-    ("LOI", "CHUYÊN GIA TÂM LÝ", "C: lời khuyên tâm lý học hành vi phòng ngừa bạo lực tâm lý", [
+    ("LOI", "CHUYEN_GIA", "C: lời khuyên tâm lý học hành vi phòng ngừa bạo lực tâm lý", [
         "Các mối quan hệ tình cảm độc hại trục lợi thường không bắt đầu bằng bạo lực thể xác, mà bắt đầu bằng sự thao túng cảm xúc tinh vi và sự vội vã bất thường trong cam kết hôn nhân.",
         "Những kẻ săn mồi nhân cách thường tạo ra một vỏ bọc hoàn hảo, dồn dập tấn công bằng tình cảm để khiến nạn nhân mất đi khả năng đánh giá tỉnh táo.",
         "Việc duy trì sự độc lập về tài chính, lắng nghe ý kiến phản biện của bạn bè người thân và không vội vàng nhượng quyền tài sản là những nguyên tắc an toàn cốt tử.",
         "Hãy luôn học cách tin vào trực giác mách bảo khi bạn cảm thấy có điều gì đó không chân thật hoặc những sự trùng hợp nguy hiểm liên tiếp xảy ra.",
         "Sự cảnh giác trước những biểu hiện cảm xúc thái quá và sự dũng cảm cắt đứt mối quan hệ độc hại chính là tấm lá chắn vững chắc nhất để bảo vệ tương lai của chính mình.",
+        "Hành trình kiên cường đòi lại công lý của Michael Dippolito minh chứng cho khả năng Tăng trưởng sau sang chấn, khi nạn nhân dũng cảm đối diện với sự phản bội để tái thiết niềm tin cuộc sống.",
+        "Sự thức tỉnh trước những cạm bẫy thao túng không khiến chúng ta trở nên hoài nghi khép kín, mà trang bị cho tâm hồn một bản lĩnh vững vàng để trân trọng những giá trị chân thực của tình yêu thương.",
     ]),
     ("LOI", "HOST", "4 cảnh báo đỏ sinh tồn và lời chào kết kênh", [
         "Để giúp quý vị khán giả kịp thời nhận diện và phòng ngừa nguy cơ trở thành nạn nhân của những kẻ săn mồi tình cảm và thao túng tài chính trong đời thực, kênh Amber Eyes xin chia sẻ bốn dấu hiệu cảnh báo đỏ kinh điển được đúc kết từ hồ sơ Dalia Dippolito.",
@@ -59,6 +63,8 @@ ACT5_EN = [
         "Without the bravery of the tipster and the tactical poise of our undercover detectives, a horrific homicide would inevitably have unfolded.",
         "Securing direct audiovisual evidence stands as the ultimate weapon that disassembles every courtroom falsehood and manufactured excuse.",
         "We urge all citizens: whenever you detect credible threats to life or clandestine solicitations of violence, notify law enforcement immediately to ensure timely protection.",
+        "This case stands as powerful testament that the moral courage of a single individual coming forward can decisively tilt the balance between life and death.",
+        "Social order and the sanctity of domestic peace can only be safeguarded when citizens refuse to normalize sinister impulses and bravely step forward to uphold the truth.",
     ]),
     ("LOI", "PSYCHOLOGIST", "C: behavioral advice on preventing psychological abuse and exploitation", [
         "Predatory, exploitative romances rarely commence with physical violence; they begin with subtle emotional manipulation and hurried marital commitments.",
@@ -66,6 +72,8 @@ ACT5_EN = [
         "Preserving financial autonomy, consulting grounded friends and family, and refusing to rush property transfers are vital survival protocols.",
         "Always cultivate the wisdom to honor your intuition whenever encounters feel fabricated or dangerous coincidences multiply around you.",
         "Vigilance toward performative emotional displays and the courage to sever toxic entanglements form an impenetrable armor guarding your future.",
+        "Michael Dippolito's resilient pursuit of justice exemplifies the profound power of Post-Traumatic Growth, where a survivor confronts devastating betrayal to rebuild genuine existential trust.",
+        "Awakening from the snares of calculated manipulation should never compel us into cynical isolation, but rather fortify our souls with discernment to cherish authentic, unselfish human affection.",
     ]),
     ("LOI", "HOST", "4 survival red flags and channel sign-off", [
         "To empower our viewers to identify and prevent romantic predation and financial manipulation in everyday life, Amber Eyes presents four classic red flags distilled from the Dalia Dippolito dossier.",
@@ -103,6 +111,8 @@ ACT5_JA = [
         "情報提供者の決断と潜入捜査官たちの機敏な対応がなければ、現実の世界で身の毛もよだつ凶行が確実に実行されていたことでしょう。",
         "直接的な映像と音声による証拠の確保こそが、法廷におけるあらゆる嘘や責任転嫁を粉砕する最強の武器となります。",
         "警察当局は、生命に対する脅迫や暴力の依頼に関する不審な動きを察知した際には、直ちに通報し保護を求めるよう強く呼びかけています。",
+        "この事件は、一人の人間が勇気を持って真実を通報することが、他者の生死の天秤を決定的に変える力を持つことを雄弁に物語っています。",
+        "社会の規律と各家庭の平穏は、市民一人ひとりが邪悪な企みとの妥協を断固として拒絶し、正義のために立ち上がる覚悟を持つことによってのみ守られるのです。",
     ]),
     ("LOI", "PSYCHOLOGIST", "C: 精神的虐待と搾取を防ぐための行動科学的助言", [
         "搾取を目的とした有害な恋愛関係は、身体的暴力から始まるのではなく、巧妙な感情操作と性急すぎる婚姻の約束から始まります。",
@@ -110,6 +120,8 @@ ACT5_JA = [
         "経済的な自立を保ち、信頼できる周囲の助言に耳を傾け、安易に資産の譲渡を行わないことは、生き残るための鉄則です。",
         "何かが不自然であると感じた時、あるいは危険な偶然が身の回りで相次いだ時には、自らの直感が発する警告を信じる勇気を持ってください。",
         "大袈裟な演技への警戒と、有害な関係を断ち切る決断力こそが、自らの未来を守るための最も強固な盾となるのです。",
+        "正義を求めて闘い抜いたマイケル・ディッポリトの不屈の歩みは、凄惨な裏切りを乗り越えて人生の信頼を再建する「外傷後成長」の力強い証左となりました。",
+        "冷酷な操作の罠から目覚めることは私たちを頑なな不信へと追いやるのではなく、真実で無私なる愛の尊さを見極めるための揺るぎない心の強さを授けてくれるのです。",
     ]),
     ("LOI", "HOST", "生存のための4つの危険兆候とチャンネル結びの挨拶", [
         "視聴者の皆様が現実世界で感情的捕食者や経済的搾取の被害に遭うことを未然に防ぐため、Amber Eyesはダリア事件から導き出された4つの決定的な危険兆候を共有します。",
@@ -147,6 +159,8 @@ ACT5_KO = [
         "정보원의 결단과 위장 수사관들의 기민한 대처가 없었다면 현실에서 끔찍한 살인 참극이 기필코 벌어졌을 것입니다.",
         "직접적인 영상과 음성을 통한 물증 확보야말로 법정에서 범죄자의 모든 거짓말과 궤변을 산산조각 내는 궁극의 무기입니다.",
         "경찰 당국은 생명을 위협하는 징후나 폭력을 사주하는 수상한 움직임을 포착했을 때 지체 없이 수사기관에 신고하여 신변 보호를 받을 것을 강력히 당부합니다.",
+        "이 사건은 한 개인의 용기 있는 고발이 타인의 생과 사의 저울을 완전히 뒤바꿀 수 있음을 보여주는 강력한 증거입니다.",
+        "사회의 법질서와 각 가정의 평온함은 시민들이 악의적인 유혹과의 타협을 단호히 거부하고 진실을 지키기 위해 일어설 때에만 굳건히 지켜질 수 있습니다.",
     ]),
     ("LOI", "PSYCHOLOGIST", "C: 심리적 학대와 착취를 예방하기 위한 행동과학적 조언", [
         "착취를 목적으로 하는 유독한 연인 관계는 물리적인 폭력으로 시작되지 않고 교묘한 감정 조작과 비정상적으로 서두르는 혼인 약속에서 출발합니다.",
@@ -154,6 +168,8 @@ ACT5_KO = [
         "재정적인 독립성을 확고히 유지하고 믿을 수 있는 주변의 조언에 귀를 기울이며 섣불리 재산권을 넘겨주지 않는 것은 생존을 위한 필수 원칙입니다.",
         "무언가 비정상적이라는 불길한 느낌이 들거나 설명할 수 없는 위험한 우연이 거듭될 때에는 언제나 자신의 직관이 보내는 경고를 믿으십시오.",
         "과장된 감정 연극에 대한 경계심과 유독한 관계를 과감히 끊어내는 결단력이야말로 자신의 소중한 미래를 지키는 가장 견고한 갑옷입니다.",
+        "정의를 향해 끈질기게 싸워온 마이클 디폴리토의 불굴의 여정은 끔찍한 배신을 딛고 실존적 신뢰를 회복하는 “외상 후 성장”의 위대한 힘을 증명합니다.",
+        "교묘한 통제의 덫에서 깨어나는 것은 우리를 냉소적인 불신으로 몰아넣는 것이 아니라 진실하고 사심 없는 사랑의 가치를 식별하는 단단한 내면의 힘을 길러줍니다.",
     ]),
     ("LOI", "HOST", "생존을 위한 4대 위험 징후와 채널 맺음말", [
         "시청자 여러분께서 일상에서 감정적 포식자나 경제적 심리 조작의 덫에 걸리는 것을 예방할 수 있도록 Amber Eyes는 달리아 사건에서 도출된 네 가지 결정적인 위험 징후를 공유합니다.",

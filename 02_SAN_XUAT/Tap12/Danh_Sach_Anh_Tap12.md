@@ -45,7 +45,7 @@
 ## B2. Ánh xạ ảnh → hồi → mốc câu
 
 Mốc câu theo `.work/script_tap12.json` (parse từ `01_KICH_BAN/Tap12/kichban_tap12_23102026.md`):  
-**33 lượt thoại · 165 câu · 4.630 từ** (Host 91 câu, Điều tra viên 27 câu, Chuyên gia tâm lý 31 câu, Người bình thường 16 câu).
+**33 lượt thoại · 249 câu · 7.683 từ** (Host 136 câu, Điều tra viên 37 câu, Chuyên gia tâm lý 61 câu, Người bình thường 15 câu: N1 8 câu, N2 7 câu). Cập nhật theo kịch bản mở rộng 249 câu ngày 15/11/2026.
 
 ### HỒI 1 · LỜI HỨA THIÊN ĐƯỜNG VÀ BÓNG MA NƠI RỪNG SÂU (00:00 – 05:30)
 

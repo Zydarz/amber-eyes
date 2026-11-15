@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Act 4 data for Episode 22: 47 sentences across VN, EN, JA, KO."""
+"""Act 4 data for Episode 22: 55 sentences across VN, EN, JA, KO."""
 
 ACT4_VN = [
     ("BGM", "Tiếng Violin căng thẳng, tiếng gõ búa tòa án khô khốc vang dội trong không gian phòng xử án trang nghiêm."),
@@ -22,7 +22,7 @@ ACT4_VN = [
         "Bức tường ngụy biện của nhóm luật sư bào chữa bắt đầu rạn nứt trước sức nặng khủng khiếp của chuỗi bằng chứng điện tử khách quan.",
     ]),
     ("SFX", "Tiếng gõ bàn phím tốc ký của thư ký tòa án, tiếng xì xào căng thẳng trong phòng xử."),
-    ("LOI", "ĐIỀU TRA VIÊN", "D: bóc trần sự ngụy biện của chiến lược bào chữa", [
+    ("LOI", "DIEU_TRA_VIEN", "D: bóc trần sự ngụy biện của chiến lược bào chữa", [
         "Luận điểm của bên bào chữa cho rằng vụ việc này chỉ là một kịch bản dàn dựng để kiếm sự nổi tiếng trên các nền tảng mạng xã hội là hoàn toàn hoang đường.",
         "Không một người bình thường nào lại đem sinh mạng của chính người bạn đời ra để thương lượng đùa cợt với một người lạ trong xe hơi kín.",
         "Từng cuộc gọi điện thoại, từng dòng tin nhắn hối thúc và số tiền đặt cọc trao tay là những hành vi phạm tội cụ thể và có chủ đích rõ ràng.",
@@ -30,6 +30,10 @@ ACT4_VN = [
         "Lực lượng điều tra chúng tôi đã bảo vệ tính toàn vẹn của chuỗi chứng cứ kỹ thuật số trong suốt tám năm ròng rã mà không để xảy ra bất kỳ sai sót nào.",
         "Sự thật khách quan được xây dựng trên nền tảng khoa học pháp y chứ không thể bị bóp méo bởi những giả thuyết suy đoán vô căn cứ.",
         "Công lý có thể phải trải qua những thử thách cam go về mặt thời gian, nhưng đích đến cuối cùng luôn là sự trừng phạt nghiêm minh dành cho kẻ phạm tội.",
+        "Bước ngoặt quyết định cứu sống Michael Dippolito bắt nguồn từ sự thức tỉnh lương tâm và cơ chế hối hận của chính người trung gian Mohamed Shihadeh.",
+        "Từng có mối quan hệ tình cảm mờ ám và lắng nghe những lời than vãn của Dalia, nhưng khi đối diện với kế hoạch tước đoạt sinh mạng cụ thể, anh ta đã trải qua một cơn địa chấn đạo đức dữ dội.",
+        "Sự kinh hoàng trước một dã tâm máu lạnh kết hợp với nỗi sợ hãi hiện sinh về việc trở thành đồng phạm giết người đã kích hoạt bản năng tự vệ và kéo phần lương tri còn sót lại của anh ta quay về với lề lối công lý.",
+        "Quyết định dũng cảm bước vào sở cảnh sát tố giác và chấp nhận mang thiết bị ghi âm giăng bẫy chính là sự chuyển hóa từ một sai lầm trong quá khứ thành hành động cứu người chuộc lỗi mẫu mực.",
     ]),
     ("SFX", "Tiếng cửa phòng bồi thẩm đoàn mở ra, tiếng bước chân trang nghiêm bước vào phòng xử án."),
     ("LOI", "HOST", "khoảnh khắc bồi thẩm đoàn bước vào phòng nghị án", [
@@ -38,7 +42,7 @@ ACT4_VN = [
         "Mọi ánh nhìn của truyền thông và công chúng đều đổ dồn về cánh cửa gỗ nặng nề, nơi số phận của Dalia Dippolito sắp được định đoạt.",
         "Và một trong những thành viên bồi thẩm đoàn đã chia sẻ về khoảnh khắc cân não khi đưa ra phán quyết lịch sử.",
     ]),
-    ("LOI", "NGƯỜI BÌNH THƯỜNG", "N2: Bồi thẩm viên minh hoạ, giọng nữ trung niên đanh thép, công minh", [
+    ("LOI", "NGUOI_TRONG_CUOC", "N2: Bồi thẩm viên minh hoạ, giọng nữ trung niên đanh thép, công minh", [
         "Trách nhiệm của một bồi thẩm viên trong vụ án này vô cùng nặng nề trước sự quan tâm theo dõi sát sao của toàn xã hội.",
         "Chúng tôi đã xem đi xem lại đoạn băng ghi hình trong chiếc xe hơi màu đỏ hàng chục lần bên trong phòng nghị án kín.",
         "Điều khiến tất cả chúng tôi cảm thấy rùng mình không chỉ là kế hoạch tàn nhẫn, mà là thái độ hoàn toàn bình thản và nụ cười lạnh lùng của người phụ nữ ấy.",
@@ -49,7 +53,7 @@ ACT4_VN = [
         "Một kẻ toan tính tước đoạt sinh mạng của người khác chỉ vì lòng tham vật chất bắt buộc phải chịu sự trừng phạt thích đáng trước pháp luật.",
         "Đó là nghĩa vụ thiêng liêng mà bồi thẩm đoàn chúng tôi nỗ lực thực hiện để bảo vệ sự an toàn và kỷ cương của toàn xã hội.",
     ]),
-    ("LOI", "ĐIỀU TRA VIÊN", "D: miêu tả phản ứng sụp đổ trước bản án", [
+    ("LOI", "DIEU_TRA_VIEN", "D: miêu tả phản ứng sụp đổ trước bản án", [
         "Khi Thẩm phán Glenn Kelley cất giọng tuyên đọc phán quyết có tội từ bồi thẩm đoàn, chiếc mặt nạ kiêu ngạo của Dalia Dippolito lập tức vỡ vụn.",
         "Ả bật khóc nức nở, nhưng đó hoàn toàn không phải là nước mắt hối hận vì những hành vi tàn độc đã gây ra cho Michael.",
         "Đó là sự tự thương hại bệnh lý của một kẻ ái kỷ khi nhận ra mình đã hoàn toàn mất đi quyền kiểm soát và phải đối mặt với thực tế ngục tù.",
@@ -57,12 +61,16 @@ ACT4_VN = [
         "Mọi nỗ lực kháng cáo sau đó lên Tòa án Tối cao bang Florida và Tòa án Tối cao Hoa Kỳ đều bị các thẩm phán bác bỏ một cách dứt khoát.",
         "Bản án mười sáu năm tù giam là cái giá đích đáng cho một âm mưu tàn độc, khẳng định rằng pháp luật không bao giờ nhân nhượng trước tội ác.",
     ]),
-    ("LOI", "CHUYÊN GIA TÂM LÝ", "C: bình luận về hiện tượng suy sụp ái kỷ trước bản án", [
+    ("LOI", "CHUYEN_GIA", "C: bình luận về hiện tượng suy sụp ái kỷ trước bản án", [
         "Phản ứng sụp đổ của Dalia tại phiên tòa là biểu hiện kinh điển của hiện tượng suy sụp ái kỷ, hay Narcissistic Collapse.",
         "Khi chiếc gương thần ảo tưởng bị vỡ nát và các kỹ thuật thao túng không còn tác dụng, kẻ ái kỷ rơi vào trạng thái hoảng loạn tột độ và tự biến mình thành nạn nhân.",
         "Những giọt nước mắt tại tòa của ả chỉ nhằm khóc thương cho bản thân, tiếc nuối cho tuổi xuân và quyền tự do đã bị tước đoạt.",
         "Trong suốt gần mười năm tố tụng, ả chưa từng một lần đưa ra lời xin lỗi chân thành nào hướng về phía người phối ngẫu suýt mất mạng.",
         "Bản án của tòa án giam giữ thể xác, nhưng bản án tâm lý phơi bày một nhân cách trống rỗng, cô độc và thất bại hoàn toàn trước sự thật.",
+        "Sự đối lập giữa sự thức tỉnh của Shihadeh và sự trơ trẽn của Dalia đã làm nổi bật ranh giới căn bản giữa sự ăn năn chân chính và sự tự thương hại ái kỷ.",
+        "Trong khi người trung gian biết sợ hãi trước tội ác để quay đầu cứu người, thì kẻ chủ mưu lại giam cầm tâm trí mình trong sự thù hận và đóng vai nạn nhân suốt gần một thập kỷ.",
+        "Những giọt nước mắt lăn dài tại tòa án hoàn toàn là sự khóc thương cho tuổi xuân bị tước đoạt và nỗi cay đắng khi chiếc gương thần ái kỷ bị đập vỡ trước ánh sáng công lý.",
+        "Đó là bản án tâm lý nghiệt ngã nhất: Người biết hối hận đã tìm lại được phẩm giá làm người, còn kẻ vô cảm sẽ vĩnh viễn sống trong ngục tù tăm tối của sự ích kỷ và dối trá.",
     ]),
     ("LOI", "HOST", "kết thúc hồi 4, chuyển tiếp sang hồi kết", [
         "Cuộc chiến pháp lý kéo dài tám năm cuối cùng đã khép lại với thắng lợi tuyệt đối của sự thật và lẽ phải.",
@@ -101,6 +109,10 @@ ACT4_EN = [
         "Our investigative team meticulously preserved the chain of custody for digital evidence across eight grueling years without compromise.",
         "Objective truth is anchored in forensic science; it cannot be disassembled by baseless hypothetical conjecture.",
         "Justice may endure severe temporal trials, but its ultimate destination remains the resolute punishment of calculated crime.",
+        "The decisive turning point that ultimately spared Michael Dippolito's life stemmed directly from the moral awakening and authentic remorse of the intermediary, Mohamed Shihadeh.",
+        "Having engaged in a clandestine affair and entertained Dalia's toxic complaints, he experienced a profound ethical shock when confronted with an explicit, premeditated assassination plot.",
+        "The sheer horror of witnessing cold-blooded malice, coupled with an existential terror of facing life imprisonment as an accomplice to murder, shattered his denial and summoned his dormant conscience.",
+        "His courageous decision to walk into the police department, blow the whistle, and wear a hidden wire to trap the conspirator transformed a compromising past into a life-saving act of profound redemption.",
     ]),
     ("SFX", "Heavy wooden jury room door swinging open, measured footsteps entering the courtroom."),
     ("LOI", "HOST", "the tense moment the jury retires to deliberate", [
@@ -109,7 +121,7 @@ ACT4_EN = [
         "All eyes from national media and the public remained fixed upon those heavy wooden doors where Dalia's destiny hung in the balance.",
         "One member of that jury subsequently recounted the pivotal moment of rendering that historic verdict.",
     ]),
-    ("LOI", "ORDINARY PERSON", "N2: Jury member representative, mature female voice, firm, resolute, and dignified", [
+    ("LOI", "ORDINARY_PERSON", "N2: Jury member representative, mature female voice, firm, resolute, and dignified", [
         "Serving as a juror on this case carried immense psychological weight under the relentless scrutiny of the public.",
         "We replayed that undercover video inside the red sedan dozens of times behind closed doors in the deliberation room.",
         "What sent chills through all of us was not merely the cold-blooded scheme, but that woman's absolute composure and chilling smirk.",
@@ -134,6 +146,10 @@ ACT4_EN = [
         "Her courtroom tears mourned exclusively for herself, lamenting the forfeiture of her youth and unfettered personal freedom.",
         "Throughout nearly a decade of legal proceedings, she never offered a single authentic apology to the husband who barely survived.",
         "The judicial sentence confines her physical body, yet the psychological verdict exposes an empty, isolated soul defeated by truth.",
+        "This stark contrast between Shihadeh's redemption and Dalia's relentless defiance illuminates the fundamental divide between authentic moral remorse and narcissistic self-pity.",
+        "While the intermediary harbored sufficient moral reverence for human life to reverse course and save a soul, the mastermind entombed herself in victimhood and bitter resentment for nearly a decade.",
+        "Those bitter tears shed upon her sentencing were wept exclusively for her own lost youth, shattered entitlement, and the absolute destruction of her deceptive reflection before the court.",
+        "This represents the most severe psychological retribution: the repentant soul reclaimed his humanity, while the unrepentant predator remains forever imprisoned within the dark cell of her own hollow vanity.",
     ]),
     ("LOI", "HOST", "closing Act 4 and transitioning toward the final lessons", [
         "An eight-year legal conflict drew to its definitive close with the absolute triumph of truth and integrity.",
@@ -172,6 +188,10 @@ ACT4_JA = [
         "私たち捜査班は、8年間にわたる過酷な歳月の中で、デジタル証拠の完全性を一切の瑕疵なく守り抜きました。",
         "客観的真実は法科学の盤石な基盤の上に築かれるものであり、根拠のない推測によって歪められるものではありません。",
         "正義の実現には時に過酷な時間を要しますが、最終的な目的地は常に計算された犯罪に対する厳格な処罰です。",
+        "マイケル・ディッポリトの命を救う決定的な転換点となったのは、仲介役であったモハメド・シハデ自身の良心の覚醒と真摯な後悔のメカニズムでした。",
+        "かつて不適切な関係を持ち、ダリアの不満に耳を傾けていた彼でしたが、具体的かつ冷酷な殺害計画を突きつけられた瞬間、猛烈な道徳的衝撃に襲われたのです。",
+        "冷血な悪意に対する原初的な恐怖と、殺人共犯者として終身刑に直面するという実存的な危機感が彼の現実否認を打ち砕き、眠っていた人間的良心を揺り起こしました。",
+        "自ら警察署へ駆け込んで真相を通報し、おとり捜査のために盗聴器を身につけて危険な接触に応じた彼の決断は、過去の過ちを人命救助という真の贖罪へと昇華させた決定的な瞬間でした。",
     ]),
     ("SFX", "重厚な陪審員室の扉が開く音、法廷に戻る厳粛な足音。"),
     ("LOI", "HOST", "陪審員団が最終評議に入る緊張の瞬間", [
@@ -180,7 +200,7 @@ ACT4_JA = [
         "メディアと大衆のすべての視線が、ダリア・ディッポリトの運命を左右する重い木製の扉へと注がれました。",
         "そして、陪審員の一人が、歴史的な評決を下した緊迫の瞬間について証言を残しています。",
     ]),
-    ("LOI", "ORDINARY PERSON", "N2: 陪審員代表の女性、毅然とした公平な口調", [
+    ("LOI", "ORDINARY_PERSON", "N2: 陪審員代表の女性、毅然とした公平な口調", [
         "全社会の熱い注目を集めるこの事件において、陪審員を務める責任は極めて重いものでした。",
         "私たちは密室の中で、あの赤い車内の潜入捜査映像を何十回も繰り返し見直しました。",
         "私たち全員を震え上がらせたのは、冷酷な計画そのものだけでなく、あの女の完全に落ち着き払った態度と冷笑でした。",
@@ -205,6 +225,10 @@ ACT4_JA = [
         "法廷で流された涙はただ自分自身のためだけのものであり、奪われた若さと自由を惜しむ感情の表れに過ぎません。",
         "10年近くに及ぶ司法手続きの中で、彼女が命の危機に瀕した配偶者に対して真摯な謝罪を口にしたことは一度もありませんでした。",
         "司法の判決は彼女の肉体を拘束しましたが、心理的判決は、真実の前に完全に敗北した空虚で孤独な魂を露わにしたのです。",
+        "シハデの真摯な回心とダリアの不遜な居直りとの鮮烈な対比は、本物の「道徳的後悔」と自己愛的な「病理的自己憐憫」との決定的な境界線を浮き彫りにしています。",
+        "仲介者が他者の命に対する畏怖の念から自らの過ちを正して人命を救ったのに対し、首謀者である彼女は十年間近く自らを被害者と位置づけ、他者への怨嗟に囚われ続けました。",
+        "法廷で流された涙は、取り返しのつかない青春の喪失と、司法の光の前で自己愛の魔法の鏡が打ち砕かれたことに対する自分自身への哀惜に過ぎなかったのです。",
+        "これこそが最も峻厳な心理的判決と言えます――真に悔いた者は人間としての尊厳を取り戻し、悔いることを拒絶した者は虚飾と欺瞞に満ちた魂の牢獄に永遠に幽閉され続けるのです。",
     ]),
     ("LOI", "HOST", "第4幕を締めくくり、最終幕の教訓へと導く", [
         "8年間に及んだ法廷闘争は、真実と正義の揺るぎない勝利をもってついに幕を閉じました。",
@@ -243,6 +267,10 @@ ACT4_KO = [
         "우리 수사팀은 8년이라는 고된 세월 동안 디지털 증거의 무결성을 단 하나의 오차도 없이 지켜냈습니다.",
         "객관적 진실은 법과학의 탄탄한 토대 위에 서 있으며 근거 없는 가설이나 추측으로 왜곡될 수 없습니다.",
         "정의의 실현은 때로 혹독한 시간의 시험을 거치지만 그 최종 목적지는 언제나 계획된 범죄에 대한 엄정한 단죄입니다.",
+        "마이클 디폴리토의 목숨을 구한 결정적 전환점은 바로 중개자였던 모하메드 시하데 자신의 양심의 각성과 진정한 후회의 메커니즘에서 비롯되었습니다.",
+        "한때 부적절한 관계를 맺고 달리아의 불평에 귀 기울였던 그였지만 구체적인 살해 계획을 마주한 순간 극심한 도덕적 충격을 겪었습니다.",
+        "냉혹한 살인 음모에 대한 원초적인 공포와 살인 공범으로서 종신형에 처해질 수 있다는 실존적 공포감이 그의 부정을 깨부수고 잠자던 양심을 흔들어 깨웠습니다.",
+        "스스로 경찰서로 달려가 진실을 제보하고 도청 장치를 착용한 채 함정 수사에 응한 그의 용기 있는 결단은 과거의 잘못을 진정한 인명 구조의 속죄로 승화시킨 결정적 계기였습니다.",
     ]),
     ("SFX", "무거운 배심원실 목재 문이 열리는 소리, 법정으로 들어서는 엄숙한 발걸음 소리."),
     ("LOI", "HOST", "배심원단이 평결을 위해 퇴정하는 긴장의 순간", [
@@ -251,7 +279,7 @@ ACT4_KO = [
         "언론과 대중의 모든 시선은 달리아 디폴리토의 운명을 가를 무거운 나무 문을 향해 고정되었습니다.",
         "그리고 그 배심원단의 일원이 역사적인 평결을 내리던 결정적인 순간에 대해 증언했습니다.",
     ]),
-    ("LOI", "ORDINARY PERSON", "N2: 배심원 대표, 중년 여성의 단호하고 공명정대한 음성", [
+    ("LOI", "ORDINARY_PERSON", "N2: 배심원 대표, 중년 여성의 단호하고 공명정대한 음성", [
         "온 사회의 이목이 집중된 이 사건에서 배심원으로서 짊어져야 했던 책임감은 이루 말할 수 없이 무거웠습니다.",
         "우리는 평결실 문을 걸어 잠그고 그 빨간 승용차 안에서 촬영된 잠입 수사 영상을 수십 번이나 반복해서 확인했습니다.",
         "우리 모두를 소름 돋게 만든 것은 잔혹한 계획뿐만 아니라 그 여인의 너무나도 태연자약한 태도와 차가운 미소였습니다.",
@@ -276,6 +304,10 @@ ACT4_KO = [
         "법정에서 흘린 그녀의 눈물은 오직 자기 자신만을 위한 것이었으며 박탈당한 젊음과 자유를 향한 집착의 발로일 뿐이었습니다.",
         "약 10년에 걸친 긴 재판 과정 동안 그녀는 죽음의 문턱까지 갔던 배우자를 향해 단 한 번도 진심 어린 사죄를 건네지 않았습니다.",
         "사법적 판결은 그녀의 육체를 격리했지만 심리학적 판결은 진실 앞에서 완벽히 패배한 공허하고 고립된 영혼을 만천하에 드러냈습니다.",
+        "시하데의 진정한 참회와 달리아의 뻔뻔한 오만함의 극명한 대비는 진정한 “도덕적 후회”와 자기애적 “병리적 자기연민”의 근본적인 차이를 극명하게 보여줍니다.",
+        "중개자가 인간 생명에 대한 최소한의 외경심으로 발걸음을 되돌려 사람을 구한 반면 주모자인 그녀는 10년 가까이 피해자 코스프레와 타인을 향한 원망의 늪에 갇혀 있었습니다.",
+        "선고 직후 법정에서 흘린 눈물은 잃어버린 자신의 젊음과 사법의 빛 앞에서 박살 난 자기애의 환영에 대한 자기 연민의 눈물에 불과했습니다.",
+        "이것이야말로 가장 준엄한 심리학적 형벌입니다—뉘우친 영혼은 인간으로서의 존엄성을 되찾았지만 참회를 거부한 포식자는 자신의 공허한 거짓의 감옥에 영원히 갇히게 되었습니다.",
     ]),
     ("LOI", "HOST", "4막을 맺으며 최종 결론과 교훈으로 서사를 이끈다", [
         "8년 동안 이어졌던 치열한 법정 전쟁은 진실과 정의의 확고한 승리로 마침내 영원한 마침표를 찍었습니다.",

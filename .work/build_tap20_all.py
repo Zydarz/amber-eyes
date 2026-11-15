@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Build and verify all 4 language editions for Episode 20 (212 sentences)."""
+"""Build and verify all 4 language editions for Episode 20 (241 sentences)."""
 
 import os
 import sys
@@ -63,7 +63,7 @@ HEADERS = {
 * **Đề tài:** Vụ án Lauren Giddings tại Trường Luật Mercer (Macon, Georgia, 2011)
 * **Chủ đề tâm lý:** Tâm lý kẻ rình rập săn mồi (Predatory Stalker), Chứng thị dâm săn mồi (Predatory Voyeurism), Rối loạn nhân cách ái kỷ ẩn tàng (Covert Narcissism), Phản ứng đóng băng sinh lý (Freeze Response / Tonic Immobility) & Vi biểu cảm khi bị sốc tội lỗi trên sóng truyền hình
 * **Thời lượng dự kiến:** 24 – 27 phút
-* **Định dạng:** Chuẩn A2 — Bản nâng cấp kịch bản quy mô lớn (212 câu thoại) theo Hệ sinh thái 10 chỉ dấu tâm lý & hành vi (A2c) và Luật K10 (07/11/2026)
+* **Định dạng:** Chuẩn A2 — Bản nâng cấp kịch bản quy mô lớn (241 câu thoại) theo Hệ sinh thái 10 chỉ dấu tâm lý & hành vi (A2c) và Luật K10 (07/11/2026)
 * **Tiêu chuẩn An toàn YouTube (Rule V9):** 100% YouTube Safe, không mô tả trực diện phân hủy hay chi tiết bạo lực ghê rợn; tập trung 100% vào phân tích tâm lý học tội phạm, vi biểu cảm, chiến thuật hỏi cung và bài học phòng ngừa kẻ rình rập ngầm.
 
 ---
@@ -77,7 +77,7 @@ HEADERS = {
 | **C** | **Chuyên gia Tâm lý** | Chuyên gia Tâm lý học Pháp y | Điềm đạm, khách quan, giàu hàm lượng khoa học hành vi | **36** |
 | **N1** | **Người trong cuộc 1** | Bạn học Trường Luật Mercer (Hồi 1) | Nữ thanh niên, bàng hoàng, chân thực, rùng mình | **8** |
 | **N2** | **Người trong cuộc 2** | Người thân minh hoạ của gia đình nạn nhân (Hồi 4) | Nữ trung niên, nghẹn ngào, đau xót, kiên cường | **9** |
-| **TỔNG** | **Toàn bộ kịch bản** | **5 Hồi chuẩn A2** | **Cân bằng hoàn hảo theo Golden Benchmark (>200 câu)** | **212** |
+| **TỔNG** | **Toàn bộ kịch bản** | **5 Hồi chuẩn A2** | **Cân bằng hoàn hảo theo Golden Benchmark (>200 câu)** | **241** |
 
 ---
 """,
@@ -86,7 +86,7 @@ HEADERS = {
 * **Subject:** The Lauren Giddings Case at Mercer University Walter F. George School of Law (Macon, Georgia, 2011)
 * **Psychological Themes:** Predatory Stalking, Predatory Voyeurism, Covert Narcissism, Physiological Freeze Response (Tonic Immobility) & Micro-Expressions of Guilty Shock on Live Television
 * **Estimated Running Time:** 24 – 27 minutes
-* **Format:** Standard A2 — High-Scale Script (212 Spoken Sentences) based on the 10 Psychological & Behavioral Dimensions (A2c) and Rule K10 (07/11/2026)
+* **Format:** Standard A2 — High-Scale Script (241 Spoken Sentences) based on the 10 Psychological & Behavioral Dimensions (A2c) and Rule K10 (07/11/2026)
 * **YouTube Safety Standard (Rule V9):** 100% YouTube Safe, zero graphic depictions of gore or bodily harm; 100% focused on forensic behavioral science, micro-expression analysis, investigative tactics, and survival red flags.
 
 ---
@@ -100,7 +100,7 @@ HEADERS = {
 | **C** | **Psychologist** | Forensic Behavioral Scientist | Scholarly, clinical, insightful behavioral analysis | **36** |
 | **N1** | **Ordinary Person 1** | Mercer Law School Classmate (Act 1) | Young female, shaken, authentic, visceral grief | **8** |
 | **N2** | **Ordinary Person 2** | Lauren's Family Representative (Act 4) | Dignified female, emotionally choked yet fiercely resilient | **9** |
-| **TOTAL** | **Full Episode** | **5 Acts Standard A2** | **1:1 Multilingual Parity Benchmark (>200 Sentences)** | **212** |
+| **TOTAL** | **Full Episode** | **5 Acts Standard A2** | **1:1 Multilingual Parity Benchmark (>200 Sentences)** | **241** |
 
 ---
 """,
@@ -109,7 +109,7 @@ HEADERS = {
 * **事件記録:** ジョージア州メーコン・マーサー大学ロースクール ローレン・ギディングス事件（2011年）
 * **心理学的主題:** 捕食的ストーカー（Predatory Stalker）、捕食的観察行動（Predatory Voyeurism）、隠れ自己愛性パーソナリティ（Covert Narcissism）、生理的凍結反応（Freeze Response / Tonic Immobility）、生中継における微表情と罪悪感の暴発
 * **予想再生時間:** 24 – 27分
-* **フォーマット:** 標準A2規格 — 10の心理・行動分析指標（A2c）およびK10規則に準拠した大規模脚本（全212文・2026年11月7日改訂版）
+* **フォーマット:** 標準A2規格 — 10の心理・行動分析指標（A2c）およびK10規則に準拠した大規模脚本（全241文・2026年11月7日改訂版）
 * **YouTube安全基準 (Rule V9):** 100% YouTube Safe、直接的・過激な暴力や損壊描写を完全に排除。行動科学、微表情の法医学的分析、取調べ戦術および実践的防犯教育に特化。
 
 ---
@@ -123,7 +123,7 @@ HEADERS = {
 | **C** | **心理学者** | 司法精神医学・行動科学専門家 | 知的、沈着、臨床的で深い行動洞察 | **36** |
 | **N1** | **一般人 1** | マーサー大学ロースクール同期生（第1幕） | 若い女性、動揺、真実味、戦慄 | **8** |
 | **N2** | **一般人 2** | 犠牲者遺族代表（第4幕） | 毅然とした女性、悲嘆に暮れつつも揺るぎない尊厳 | **9** |
-| **合計** | **全編** | **5幕構成 標準A2** | **4言語完全一致 パリティ基準（212文）** | **212** |
+| **合計** | **全編** | **5幕構成 標準A2** | **4言語完全一致 パリティ基準（241文）** | **241** |
 
 ---
 """,
@@ -132,7 +132,7 @@ HEADERS = {
 * **사건 개요:** 조지아주 메이컨 머서대학교 Walter F. George 법학전문대학원 Lauren Giddings 사건 (2011)
 * **심리학적 주제:** 포식적 스토킹(Predatory Stalking), 포식적 관음증(Predatory Voyeurism), 내현적 자기애성 인격(Covert Narcissism), 생리적 동결 반응(Freeze Response / Tonic Immobility), 생방송 중 유죄 쇼크의 미세 표정
 * **예상 러닝타임:** 24 – 27분
-* **형식:** 표준 A2 규격 — 10대 심리·행동 분석 생태계(A2c) 및 K10 규칙 기반 대형 대본 (총 212개 발화 문장 / 2026년 11월 7일 개정)
+* **형식:** 표준 A2 규격 — 10대 심리·행동 분석 생태계(A2c) 및 K10 규칙 기반 대형 대본 (총 241개 발화 문장 / 2026년 11월 7일 개정)
 * **YouTube 안전 규정 (Rule V9):** 100% YouTube Safe, 직접적이거나 엽기적인 폭력 묘사를 완벽히 배제하고 법과학 행동 분석, 취조 전술 및 현실적 생존 경고에 집중.
 
 ---
@@ -146,7 +146,7 @@ HEADERS = {
 | **C** | **심리학자** | 법정신과학 행동 분석 전문가 | 학구적, 차분함, 임상적 깊이를 담은 심리 해체 | **36** |
 | **N1** | **일반인 1** | 머서 로스쿨 동기생 (제1막) | 젊은 여성, 충격, 생생함, 전율 | **8** |
 | **N2** | **일반인 2** | Lauren의 유가족 대표 (제4막) | 품격 있는 여성, 눈물 속에서도 꺾이지 않는 존엄 | **9** |
-| **총합** | **대본 전체** | **5막 표준 A2** | **4개 언어 1:1 완벽 패리티 기준 (212문장)** | **212** |
+| **총합** | **대본 전체** | **5막 표준 A2** | **4개 언어 1:1 완벽 패리티 기준 (241문장)** | **241** |
 
 ---
 """,
@@ -188,7 +188,7 @@ def build_markdown(lang):
 
 def main():
     print("=" * 70)
-    print("BUILDING TAP 20 SCRIPTS ACROSS 4 LANGUAGES (212 SENTENCES)")
+    print("BUILDING TAP 20 SCRIPTS ACROSS 4 LANGUAGES (241 SENTENCES)")
     print("=" * 70)
     
     out_paths = {
@@ -246,7 +246,7 @@ def main():
                     all_ok = False
                     
     if all_ok:
-        print("\n>>> ALL 4 LANGUAGES: 100% PERFECT 1:1 PARITY ACROSS ALL 51 ELEMENTS AND 212 SENTENCES! <<<")
+        print("\n>>> ALL 4 LANGUAGES: 100% PERFECT 1:1 PARITY ACROSS ALL 51 ELEMENTS AND 241 SENTENCES! <<<")
     else:
         print("\n>>> PARITY MISMATCHES DETECTED! <<<")
 
