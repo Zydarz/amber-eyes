@@ -77,9 +77,9 @@ __pycache__/
 # Chi la QC output — KHONG commit (L10). File van con tren dia.
 02_SAN_XUAT/**/_qc_stills*/
 
-# ---------- Thumbnail Tap01/Tap02 (tap da upload, media da xoa 02/11/2026) ----------
+# ---------- Thumbnail Tap01-Tap09 (media da xoa 16/11/2026: Tap01/02 02/11, Tap03-Tap09 16/11) ----------
 # package.py sinh lai thumbnail khi chay lai -> ignore de khong bi track lai
-02_SAN_XUAT/Tap0[12]*/xuat_ban/thumbnail.png
+02_SAN_XUAT/Tap0[1-9]*/xuat_ban/thumbnail.png
 
 # ---------- Ban copy trung thumbnail (Tap06_EN: Tap06_EN_thumb.png vs thumbnail.png) ----------
 # Chi 1 thumbnail duoc commit, ten chuan la xuat_ban/thumbnail.png (package.py thumbnail()).
