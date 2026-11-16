@@ -222,7 +222,7 @@ def main():
     # Step 4: Whisper CER Quality Check
     # =========================================================================
     print("\n[Step 4/7] Transcribing with Whisper & Measuring Quality (CER)...", flush=True)
-    import whisper
+    import whisper_fast as whisper
     asr_model = whisper.load_model("base", device="cpu")
     high_cer = []
     cer_rows = []

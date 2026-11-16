@@ -66,7 +66,7 @@ for lang, path in files:
     for d in ellipsis_hits:
         print(f"  - {d[0]}: ellipsis in '{d[1]}'")
         
-    status = (len(fb_hits) == 0 and len(ellipsis_hits) == 0 and total_sentences == 199 and total_elements == 54)
+    status = (len(fb_hits) == 0 and len(ellipsis_hits) == 0 and total_sentences == 207 and total_elements == 54)
     print(f"Result for {lang}: {'PASS' if status else 'FAIL'}")
     all_green = all_green and status
 
@@ -101,7 +101,7 @@ for lang in ['EN', 'JA', 'KO']:
             print(f"  - {m}")
         parity_pass = False
     else:
-        print(f"PASS Parity VN vs {lang}: 100% 54 elements, 35 LOI turns, 199 sentences match 1:1")
+        print(f"PASS Parity VN vs {lang}: 100% 54 elements, 35 LOI turns, 207 sentences match 1:1")
 
 all_pass = all_green and parity_pass
 print(f"\n>>> FINAL QUALITY GATE: {'ALL GREEN - PASSED' if all_pass else 'FAILED'} <<<")

@@ -214,7 +214,7 @@ def main():
         man_path.write_text(json.dumps(man, ensure_ascii=False, indent=1), encoding="utf-8")
 
     print("\n[Step 4/7] Transcribing with Whisper Base & Measuring CER...", flush=True)
-    import whisper
+    import whisper_fast as whisper
     asr_model = whisper.load_model("base", device="cpu")
     high_cer = []
     cer_rows = []

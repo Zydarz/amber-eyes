@@ -86,12 +86,20 @@ def vi_numbers(text):
     return re.sub(r"@@(\d+)@@", lambda m: tags[int(m.group(1))], text)
 
 
-# ------------------------------------------------------------------ bien the cach doc so
+# ------------------------------------------------------------------ bien the chinh ta / cach doc
+_DIACRITICS_OLD_NEW = [
+    ("òa", "oà"), ("òe", "oè"), ("óa", "oá"), ("óe", "oé"), ("ỏa", "oả"), ("ỏe", "oẻ"),
+    ("õa", "oã"), ("õe", "oẽ"), ("ọa", "oạ"), ("ọe", "oẹ"), ("ùa", "uà"), ("ùe", "uè"),
+    ("úa", "uá"), ("úe", "ué"), ("ủa", "uả"), ("ủe", "uẻ"), ("ũa", "uã"), ("ũe", "uẽ"),
+    ("ụa", "uạ"), ("ụe", "uẹ"), ("ủy", "uỷ"), ("úy", "uý"), ("ùy", "uỳ"), ("ụy", "uỵ"), ("ũy", "uỹ"),
+]
 _VARIANT = [(" mốt", " một"), (" tư", " bốn"), (" lăm", " năm"),
             (" linh", " nghìn"), (" ngàn", " nghìn")]
 
 
 def canon(t):
+    for a, b in _DIACRITICS_OLD_NEW:
+        t = t.replace(a, b)
     for a, b in _VARIANT:
         t = t.replace(a, b)
     return t

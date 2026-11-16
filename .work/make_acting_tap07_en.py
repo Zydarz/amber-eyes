@@ -2,14 +2,12 @@
 # -*- coding: utf-8 -*-
 """Sinh file diễn xuất TTS cho bản tiếng Anh Tập 07 -> .work/acting_tap07_EN.json.
 
-Nguyên tắc (giữ đúng tiền lệ bản VN trong make_acting_tap07.py & make_acting_tap06_en.py):
-  * cảm xúc lấy từ KEY / ACT_MOOD, chỉ giữ bộ an toàn 4 cảm xúc đã thử: neutral, sad, fearful, surprised;
+Nguyên tắc:
+  * Cảm xúc lấy từ ACT_MOOD của vai, chỉ giữ bộ 4 an toàn: neutral, sad, fearful, surprised;
   * CAO ĐỘ LUÔN = 0 (G5);
-  * lệch tốc độ = lệch trong KEY (hoặc theo độ dài từ tiếng Anh),
-    kẹp trong [-0.06 · +0.02] (G4);
-  * lời đọc riêng = CÂU GỐC EN + đúng một thẻ <#0.35#> sau dấu ':' đứng trước
-    câu trích (không đổi một chữ nào của kịch bản);
-  * _pause_after = khớp với bản VN theo mạch hồi và kết thúc lượt thoại.
+  * Lệch tốc độ = lệch trong BASE_DELTA hoặc theo độ dài câu, kẹp trong [-0.06, +0.02] (G4);
+  * Lời đọc riêng = CÂU GỐC EN + đúng một thẻ <#0.35#> sau dấu ':' đứng trước câu trích (G1/G6);
+  * _pause_after = khớp với bản VN theo mạch hồi và kết thúc lượt thoại (G2/A13).
 """
 import json
 import re
@@ -52,23 +50,29 @@ def main():
         if e["kind"] != "LOI":
             continue
         role = N_ELEMENT.get(e["id"], e["role"])
-        act = e["id"].split(".")[0]
+        act = str(e.get("act", 1))
         emo0, pitch0 = VN.ACT_MOOD.get((act, role), ("neutral", 0))
+        base_dsp = VN.BASE_DELTA.get(role, 0.0)
+
         for k, s in enumerate(e["sentences"], 1):
             sid = s["id"]
             text = strip_quotes(s["text"])
             words = len(text.split())
-            if sid in VN.KEY:
-                emo, dsp, pitch, alt, after = VN.KEY[sid]
-            else:
-                emo, pitch = emo0, pitch0
-                dsp = (-0.05 if words <= SHORT_W else -0.02 if words <= MID1_W
-                       else 0.0 if words <= MID2_W else 0.02)
-                if text.rstrip().endswith("?"):
-                    emo = "surprised"
+
+            emo = emo0
+            if text.rstrip().endswith("?"):
+                emo = "surprised"
+            elif role == "N1" or "tragedy" in text.lower() or "despair" in text.lower():
+                emo = "sad"
+            elif role == "N2" or "panic" in text.lower() or "terrified" in text.lower():
+                emo = "fearful"
+
             pitch = 0
             if emo not in SAFE_EMO:
                 emo = "neutral"
+
+            dsp = base_dsp + (-0.02 if words <= SHORT_W else -0.01 if words <= MID1_W
+                              else 0.0 if words <= MID2_W else 0.01)
             dsp = max(DSP_MIN, min(DSP_MAX, round(dsp, 2)))
             alt = soften_en(s["text"])
             acting[sid] = [emo, dsp, pitch, alt if alt != text else None]
@@ -76,7 +80,6 @@ def main():
     # Map _pause_after from VN
     pause_after = {}
     vn_pa = VN_ACTING.get("_pause_after", {})
-    # Map exact matches
     for k, v in vn_pa.items():
         if k in acting:
             pause_after[k] = v
@@ -85,7 +88,6 @@ def main():
     for e in SCRIPT:
         if e["kind"] == "LOI":
             last_sid = e["sentences"][-1]["id"]
-            # find corresponding last sentence in VN for this element
             vn_el = [sid for sid in vn_pa if sid.startswith(e["id"] + "#")]
             if vn_el:
                 max_vn_sid = max(vn_el, key=lambda x: int(x.split("#")[1]))

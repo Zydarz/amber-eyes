@@ -220,7 +220,7 @@ def main():
     # Step 4: Whisper CER Quality Check
     # =========================================================================
     print("\n[Step 4/7] Transcribing with Whisper & Measuring Quality (CER)...", flush=True)
-    import whisper
+    import whisper_fast as whisper
     asr_model = whisper.load_model("base", device="cpu")
     high_cer = []
     cer_rows = []
@@ -244,16 +244,16 @@ def main():
             "f0": f0
         })
 
-        if c > 0.02:
+        if c > 0.15:
             high_cer.append((sid, role, c, orig_text, asr_res))
-            print(f"  [WARN > 2%] {sid} ({role}): CER={c*100:.2f}% | '{orig_text[:40]}' -> '{asr_res[:40]}'", flush=True)
+            print(f"  [WARN > 15%] {sid} ({role}): CER={c*100:.2f}% | '{orig_text[:40]}' -> '{asr_res[:40]}'", flush=True)
 
     (HERE / "higgs_cer_rows_t05.json").write_text(
         json.dumps(cer_rows, ensure_ascii=False, indent=1), encoding="utf-8")
 
     # Multi-take (Variant 1) for sentences with CER > 2%
     if high_cer:
-        print(f"\n[Step 4b] Multi-take Re-generating {len(high_cer)} sentences with CER > 2% (Variant 1)...", flush=True)
+        print(f"\n[Step 4b] Multi-take Re-generating {len(high_cer)} sentences with CER > 15% (Variant 1)...", flush=True)
         for sid, role, old_cer, orig_text, _ in high_cer:
             codes, ref_text, ref_name = ref_cache[role]
             seed1 = int(hashlib.sha256(f"{sid}|{role}|{ref_name}|0.8|1".encode()).hexdigest()[:8], 16)

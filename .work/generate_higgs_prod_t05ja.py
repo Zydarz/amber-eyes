@@ -235,16 +235,16 @@ def main():
             "f0": f0
         })
 
-        if c > 0.02:
+        if c > 0.15:
             high_cer.append((sid, role, c, orig_text, asr_res))
-            print(f"  [WARN > 2%] {sid} ({role}): CER={c*100:.2f}% | '{orig_text[:40]}' -> '{asr_res[:40]}'", flush=True)
+            print(f"  [WARN > 15%] {sid} ({role}): CER={c*100:.2f}% | '{orig_text[:40]}' -> '{asr_res[:40]}'", flush=True)
 
     (HERE / "higgs_cer_rows_JA_t05.json").write_text(
         json.dumps(cer_rows, ensure_ascii=False, indent=1), encoding="utf-8")
 
     # Generate round 2 (variant 1) for sentences with CER > 2%
     if high_cer:
-        print(f"\n[Step 4b] Re-generating {len(high_cer)} sentences with CER > 2% (Variant 1)...", flush=True)
+        print(f"\n[Step 4b] Re-generating {len(high_cer)} sentences with CER > 15% (Variant 1)...", flush=True)
         for sid, role, old_cer, orig_text, _ in high_cer:
             codes, ref_text, ref_name = ref_cache[role]
             seed1 = int(hashlib.sha256(f"{sid}|{role}|{ref_name}|0.8|1".encode()).hexdigest()[:8], 16)

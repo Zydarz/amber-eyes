@@ -52,9 +52,10 @@ if med < MED_MIN or short > SHORT_MAX:
 if len(it) != len(ids):
     ok = False; print(f"  ✗ timeline {len(it)} câu ≠ script {len(ids)}")
 mp3 = ED.OUT_DIR / (ED.MASTER + ".mp3")
-FP = Path(__file__).parent / "ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffprobe.exe"
+FP_EXE = Path(__file__).parent / "ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffprobe.exe"
+FP = str(FP_EXE) if FP_EXE.exists() else "ffprobe"
 if mp3.exists():
-    d = float(subprocess.run([str(FP), "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+    d = float(subprocess.run([FP, "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
                               str(mp3)], capture_output=True, text=True).stdout)
     print(f"  {mp3.name}: {d:.2f} s · timeline.total {tl['total']:.2f} s · lệch {d - tl['total']:+.2f}")
     if abs(d - tl["total"]) > 0.05 or it[-1]["end"] > d:

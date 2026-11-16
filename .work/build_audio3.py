@@ -343,6 +343,13 @@ def main():
         if tp > -1.5:
             raise SystemExit(f"LOI: dinh mp3 {tp:.1f} dBFS van > -1,5 sau khi siet toi 0.60")
 
+    ED.w("timeline_s.json").write_text(json.dumps(
+        {"total": round(total, 3), "intro": INTRO, "items": items, "markers": markers,
+         "acts": {str(k): [round(a, 3), round(b, 3)] for k, (a, b) in acts.items()}},
+        ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"tổng {total:.1f} s · {len(items)} câu · lời đầu {items[0]['start']} s · lời cuối hết {end_voice:.1f} s")
+    print("hồi:", {k: f"{a:.1f}–{b:.1f}" for k, (a, b) in acts.items()})
+
     # ---------------- 6. stems (16 kHz is enough for waveforms)
     sd = ED.w("stems")
     sd.mkdir(exist_ok=True)
@@ -352,13 +359,6 @@ def main():
     write_wav(sd / "SFX.wav", sfx[: int(total * SR)])
     if sfx2 is not None:
         write_wav(sd / "SFX_stereo.wav", sfx2[: int(total * SR)])
-
-    ED.w("timeline_s.json").write_text(json.dumps(
-        {"total": round(total, 3), "intro": INTRO, "items": items, "markers": markers,
-         "acts": {str(k): [round(a, 3), round(b, 3)] for k, (a, b) in acts.items()}},
-        ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"tổng {total:.1f} s · {len(items)} câu · lời đầu {items[0]['start']} s · lời cuối hết {end_voice:.1f} s")
-    print("hồi:", {k: f"{a:.1f}–{b:.1f}" for k, (a, b) in acts.items()})
 
 
 def place_shot_sfx(sfx, items, total, norm_to_voice, N):
@@ -516,16 +516,13 @@ def place_sheet(sheet, items, markers, act_env, v_rms, N):
 
 
 def write_wav(path, x, resample_to=None):
-    raw = path.with_suffix(".f32")
     x = np.asarray(x, np.float32)
     ch = 2 if x.ndim == 2 else 1
-    raw.write_bytes(x.tobytes())
-    args = [str(FF), "-y", "-v", "error", "-f", "f32le", "-ar", str(SR), "-ac", str(ch), "-i", str(raw)]
+    args = [str(FF), "-y", "-v", "error", "-f", "f32le", "-ar", str(SR), "-ac", str(ch), "-i", "-"]
     if resample_to:
         args += ["-ar", str(resample_to)]
     args += ["-c:a", "pcm_s16le", str(path)]
-    subprocess.run(args, check=True)
-    raw.unlink()
+    subprocess.run(args, input=x.tobytes(), check=True)
 
 
 if __name__ == "__main__":

@@ -43,7 +43,7 @@ def main():
         env["AE_LANG"] = lang
         env["AE_AUDIO_DIR"] = "audio_s_higgs"
 
-        ret = subprocess.run([PYTHON, str(script_path)], env=env)
+        ret = subprocess.run([PYTHON, "-u", str(script_path)], env=env)
         dur = time.time() - t_start
 
         if ret.returncode != 0:

@@ -17,7 +17,7 @@ ROOT = HERE.parent
 sys.path.insert(0, str(HERE))
 import en_cer
 
-import whisper
+import whisper_fast as whisper
 import utmosv2
 
 def main():

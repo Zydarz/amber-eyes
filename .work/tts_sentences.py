@@ -96,7 +96,14 @@ def plan_items():
             if VN_MAN and s["id"] in VN_MAN:  # English edition: same acting as the VN sentence
                 emo, dsp = VN_MAN[s["id"]]
             if s["id"] in ACT:               # diễn xuất từng câu (acting_EN.json / acting_tap02.json)
-                emo, dsp, pitch, alt = ACT[s["id"]]
+                val = ACT[s["id"]]
+                if isinstance(val, dict):
+                    emo = val.get("emotion", emo)
+                    dsp = val.get("speed", dsp)
+                    pitch = val.get("pitch", 0)
+                    alt = val.get("alt", None)
+                else:
+                    emo, dsp, pitch, alt = val
                 text = alt or text
                 extra = {"pitch": pitch}
             if ED.EN:                        # bản EN: ngắt nghỉ đã viết sẵn trong file diễn xuất

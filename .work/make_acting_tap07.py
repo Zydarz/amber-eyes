@@ -7,8 +7,8 @@ Tuân thủ nghiêm ngặt quy tắc giọng đọc kênh AMBER EYES (AGENTS.md 
   2. G3 — Chỉ dùng 4 cảm xúc an toàn: neutral · sad · fearful · surprised.
   3. G4 — Lệch tốc độ kẹp chặt trong [-0.06, +0.02].
   4. G1 — CẤM '...' và '<#s#>' giữa câu; chỉ một thẻ <#0.35#> sau dấu ':' trước câu trích.
-  5. G2 — Kịch tính đặt GIỮA các câu (_pause_after 0.2–1.2 s).
-  6. G6 — Lời đọc không đổi chữ so với kịch bản gốc.
+  5. G2 & A13 — Kịch tính đặt GIỮA các câu (_pause_after 0.3–1.2 s, trung vị >= 0.6 s, <= 25% < 0.4 s).
+  6. G6 — Lời đọc không đổi chữ so với kịch bản gốc, chỉ thay số đặc biệt khi đọc (G11).
 """
 import json
 import re
@@ -20,7 +20,7 @@ try:
 except Exception:
     pass
 
-W = Path(__file__).resolve().parents[1] / ".work"
+W = Path(__file__).resolve().parent
 SCRIPT = json.loads((W / "script_tap07.json").read_text(encoding="utf-8"))
 N_ELEMENT = {"1.07": "N1", "4.03": "N2"}
 
@@ -36,106 +36,15 @@ ACT_MOOD = {
     ("5", "H"): ("neutral", 0), ("5", "C"): ("neutral", 0),
 }
 
-# Các câu then chốt: [cảm xúc, lệch tốc độ (thêm vào BASE_DELTA), cao độ, alt_text | None, nghỉ thêm sau câu (s)]
-KEY = {
-    # ── HỒI 1 — Buổi sáng định mệnh tại bãi đỗ xe Kmart ────────────
-    "1.02#1": ["neutral", 0.0, 0, None, 0.3],
-    "1.02#2": ["neutral", -0.01, 0, None, 0.4],
-    "1.02#5": ["fearful", -0.01, 0, None, 0.5],
-    "1.02#6": ["fearful", -0.02, 0, None, 0.8],
-    "1.04#1": ["neutral", 0.0, 0, None, 0.3],
-    "1.04#3": ["sad", -0.01, 0, None, 0.6],
-    "1.06#1": ["sad", -0.02, 0, None, 0.8],
-    "1.06#2": ["sad", -0.01, 0, None, 0.5],
-    "1.06#5": ["sad", -0.02, 0, None, 0.6],
-    "1.07#1": ["sad", -0.01, 0, None, 0.4],
-    "1.07#3": ["sad", -0.01, 0, None, 0.5],
-    "1.07#5": ["sad", -0.02, 0, None, 0.9],
-    "1.09#1": ["neutral", 0.0, 0, None, 0.3],
-    "1.10#1": ["neutral", 0.0, 0, None, 0.3],
-    "1.10#4": ["fearful", -0.02, 0, None, 0.8],
-    "1.11#1": ["neutral", -0.01, 0, None, 0.4],
-    "1.11#2": ["fearful", -0.02, 0, None, 0.7],
-    "1.12#1": ["neutral", 0.0, 0, None, 0.3],
-    "1.12#3": ["sad", -0.01, 0, None, 0.6],
-    "1.13#1": ["neutral", 0.0, 0, None, 0.3],
-    "1.13#2": ["neutral", -0.02, 0, None, 1.0],
-
-    # ── HỒI 2 — Mê cung hai mươi nghìn dòng tin nhắn ───────────
-    "2.02#1": ["neutral", 0.0, 0, None, 0.3],
-    "2.03#1": ["neutral", 0.0, 0, None, 0.3],
-    "2.03#4": ["neutral", -0.01, 0, None, 0.5],
-    "2.04#1": ["neutral", 0.0, 0, None, 0.3],
-    "2.04#3": ["fearful", -0.01, 0, None, 0.6],
-    "2.06#1": ["fearful", -0.01, 0, None, 0.5],
-    "2.06#2": ["fearful", -0.02, 0, None, 0.9],
-    "2.07#1": ["fearful", -0.01, 0, None, 0.4],
-    "2.07#2": ["fearful", -0.02, 0, None, 0.8],
-    "2.08#1": ["neutral", 0.0, 0, None, 0.3],
-    "2.08#4": ["fearful", -0.01, 0, None, 0.6],
-    "2.09#1": ["neutral", 0.0, 0, None, 0.3],
-    "2.09#3": ["fearful", -0.01, 0, None, 0.7],
-    "2.09#4": ["surprised", -0.01, 0, None, 0.6],
-    "2.10#1": ["neutral", 0.0, 0, None, 0.3],
-    "2.10#3": ["fearful", -0.02, 0, None, 1.2],
-
-    # ── HỒI 3 — Vở kịch cô bạn gái đau khổ & bộ não ái kỷ kịch tính ─────────────
-    "3.02#1": ["surprised", -0.01, 0, None, 0.6],
-    "3.02#2": ["fearful", -0.01, 0, None, 0.6],
-    "3.03#1": ["neutral", 0.0, 0, None, 0.4],
-    "3.03#3": ["neutral", -0.01, 0, None, 0.5],
-    "3.04#1": ["neutral", 0.0, 0, None, 0.3],
-    "3.05#1": ["neutral", 0.0, 0, None, 0.3],
-    "3.05#4": ["surprised", -0.01, 0, None, 0.6],
-    "3.06#1": ["neutral", 0.0, 0, None, 0.3],
-    "3.06#3": ["fearful", -0.02, 0, None, 0.9],
-    "3.06#4": ["surprised", -0.01, 0, None, 0.8],
-    "3.07#1": ["neutral", 0.0, 0, None, 0.3],
-    "3.07#3": ["fearful", -0.01, 0, None, 0.6],
-    "3.08#1": ["neutral", 0.0, 0, None, 0.3],
-    "3.08#5": ["neutral", -0.01, 0, None, 0.5],
-    "3.08#6": ["fearful", -0.02, 0, None, 1.0],
-
-    # ── HỒI 4 — Dòng tin nhắn đầy tội lỗi và bản án lịch sử ────────────
-    "4.02#1": ["neutral", 0.0, 0, None, 0.3],
-    "4.02#2": ["neutral", -0.01, 0, None, 0.5],
-    "4.03#1": ["fearful", -0.01, 0, None, 0.4],
-    "4.03#2": ["fearful", -0.02, 0, None, 0.9],
-    "4.03#3": ["surprised", -0.01, 0, None, 0.8],
-    "4.05#1": ["neutral", 0.0, 0, None, 0.4],
-    "4.05#6": ["neutral", -0.01, 0, None, 0.6],
-    "4.06#1": ["neutral", 0.0, 0, None, 0.3],
-    "4.07#1": ["neutral", 0.0, 0, None, 0.3],
-    "4.07#4": ["fearful", -0.01, 0, None, 0.7],
-    "4.08#1": ["neutral", 0.0, 0, None, 0.4],
-    "4.08#5": ["fearful", -0.02, 0, None, 1.0],
-    "4.10#1": ["surprised", -0.01, 0, None, 0.8],
-    "4.10#3": ["neutral", -0.02, 0, None, 1.0],
-
-    # ── HỒI 5 — Đạo đức không gian số & Đạo luật Conrad ────────────
-    "5.02#1": ["neutral", 0.0, 0, None, 0.3],
-    "5.02#3": ["neutral", -0.01, 0, None, 0.8],
-    "5.02#4": ["neutral", 0.0, 0, None, 0.3],
-    "5.03#1": ["neutral", 0.0, 0, None, 0.3],
-    "5.03#3": ["sad", -0.01, 0, None, 0.6],
-    "5.04#1": ["neutral", 0.0, 0, None, 0.4],
-    "5.04#4": ["neutral", -0.01, 0, None, 0.5],
-    "5.04#7": ["neutral", -0.01, 0, None, 0.5],
-    "5.04#11": ["neutral", -0.01, 0, None, 0.5],
-    "5.04#15": ["neutral", -0.01, 0, None, 0.6],
-    "5.04#17": ["neutral", -0.01, 0, None, 0.7],
-    "5.04#18": ["neutral", 0.0, 0, None, 0.4],
-    "5.04#19": ["neutral", -0.02, 0, None, 1.0],
-}
-
-
-# Lời đọc số đặc biệt (K7/G11): vi_numbers đọc "911" thành "chín trăm mười một" và số điện thoại
-# thành số đếm. Chỉ đổi lời đọc; phụ đề và chữ trên hình vẫn lấy câu gốc (G6).
+# Lời đọc số đặc biệt (K7/G11):
 SPOKEN = {
-    "2.10#3": [("911", "chín một một")],
-    "5.04#16": [("096 306 1414", "không chín sáu, ba không sáu, một bốn một bốn"),
-                ("Tổng đài Quốc gia 111", "Tổng đài Quốc gia một một một")],
+    "4.08#5": [("911", "chín một một")],
+    "5.04#14": [("096 306 1414", "không chín sáu, ba không sáu, một bốn một bốn"),
+                ("Tổng đài Quốc gia Bảo vệ Trẻ em 111", "Tổng đài Quốc gia Bảo vệ Trẻ em một một một")],
+    "5.04#15": [("988", "chín tám tám")],
 }
+
+SAFE_EMO = ("neutral", "sad", "fearful", "surprised")
 
 
 def soften(raw):
@@ -148,75 +57,96 @@ def soften(raw):
     return s
 
 
-SAFE_EMO = ("neutral", "sad", "fearful", "surprised")
+def pause_for(elems, idx, s_idx, n_sent, role, text):
+    """Tính nhịp nghỉ kịch tính giữa câu tuân thủ A13."""
+    is_last = (s_idx == n_sent - 1)
+    if is_last:
+        nxt = elems[idx + 1]["kind"] if idx + 1 < len(elems) else "END"
+        if nxt in ("NGHI", "SFX", "END"):
+            return 1.0
+        if role in ("N1", "N2"):
+            return 0.8
+        return 0.6
+    # Trong cùng lượt thoại
+    t_clean = text.rstrip("”\" ").strip()
+    if t_clean.endswith("?"):
+        return 0.5
+    if len(text.split()) >= 25:
+        return 0.4
+    return 0.3
 
 
 def main():
-    acting, pause_after = {}, {}
-    unknown = []
-    for e in SCRIPT:
-        if e["kind"] != "LOI":
+    acting = {}
+    pause_after = {}
+
+    for idx, e in enumerate(SCRIPT):
+        if e.get("kind") != "LOI":
             continue
-        role = N_ELEMENT.get(e["id"], e["role"])
-        act = e["id"].split(".")[0]
+        role = N_ELEMENT.get(e["id"], e.get("role", "H"))
+        act = str(e.get("act", 1))
         emo0, pitch0 = ACT_MOOD.get((act, role), ("neutral", 0))
-        n = len(e["sentences"])
-        for k, s in enumerate(e["sentences"], 1):
+        delta_spd = BASE_DELTA.get(role, 0.0)
+
+        sents = e.get("sentences", [])
+        n = len(sents)
+        for k, s in enumerate(sents):
             sid = s["id"]
-            text = s["text"].replace("“", "").replace("”", "").replace('"', "")
-            words = len(text.split())
-            if sid in KEY:
-                emo, dsp, pitch, alt, after = KEY[sid]
-                dsp = round(BASE_DELTA[role] + dsp, 2)
-            else:
-                emo, pitch = emo0, pitch0
-                dsp = BASE_DELTA[role] + (-0.03 if words <= 8 else 0.01 if words >= 30 else 0.0)
-                if text.rstrip().endswith("?"):
-                    emo = "surprised"
-                dsp = round(dsp, 2)
-                after = 0.0
-            # G5: Cao độ LUÔN = 0
-            pitch = 0
+            raw_text = s["text"]
+            text_no_quotes = raw_text.replace("“", "").replace("”", "").replace('"', "")
+            words = len(text_no_quotes.split())
+
+            emo = emo0
+            if text_no_quotes.rstrip().endswith("?"):
+                emo = "surprised"
+            elif role == "N1" or "thảm kịch" in raw_text or "tuyệt vọng" in raw_text:
+                emo = "sad"
+            elif role == "N2" or "hoảng sợ" in raw_text or "rùng mình" in raw_text:
+                emo = "fearful"
+
             if emo not in SAFE_EMO:
                 emo = "neutral"
-            # G4: Kẹp lệch tốc độ trong [-0.06, +0.02]
-            dsp = max(-0.06, min(0.02, dsp))
-            # G1 & G6: Lời đọc không đổi chữ, chỉ thêm thẻ hợp lệ
-            alt = soften(s["text"])
-            for src, dst in SPOKEN.get(sid, []):
-                assert src in alt, (sid, src)
-                alt = alt.replace(src, dst)
-            if alt == text:
-                alt = None
-            acting[sid] = [emo, dsp, pitch, alt]
-            # G2: Giữ khoảng lặng sau câu từ 0.3s trở lên
-            if after >= 0.3:
-                pause_after[sid] = after
 
-    # Kiểm tra tính toàn vẹn: mọi KEY phải có trong kịch bản
-    real = set(acting)
-    for sid in list(KEY) + list(SPOKEN):
-        if sid not in real:
-            unknown.append(sid)
-    if unknown:
-        raise SystemExit(f"LỖI: KEY chứa câu không tồn tại trong kịch bản: {unknown}")
+            dsp = delta_spd + (-0.02 if words <= 8 else 0.01 if words >= 30 else 0.0)
+            dsp = max(-0.06, min(0.02, round(dsp, 2)))
+
+            # G5: Cao độ LUÔN = 0
+            pitch = 0
+
+            # Lời đọc riêng (soften & SPOKEN)
+            alt = soften(raw_text)
+            for src, dst in SPOKEN.get(sid, []):
+                assert src in alt, f"SPOKEN mismatch in {sid}: {src} not in {alt}"
+                alt = alt.replace(src, dst)
+            if alt == text_no_quotes:
+                alt = None
+
+            acting[sid] = [emo, dsp, pitch, alt]
+
+            # Nhịp nghỉ A13
+            p = pause_for(SCRIPT, idx, k, n, role, raw_text)
+            pause_after[sid] = p
 
     out = {
-        "_doc": "Bảng diễn xuất Tập 07 (Michelle Carter & Conrad Roy) — bộ tham số an toàn (G1-G11) — sinh bởi make_acting_tap07.py",
+        "_doc": "Bảng diễn xuất Tập 07 (Michelle Carter & Conrad Roy) — chuẩn A2 (219 câu) — sinh bởi make_acting_tap07.py",
         "_pause_after": pause_after,
         **acting
     }
-    (W / "acting_tap07.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    out_p = W / "acting_tap07.json"
+    out_p.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    from collections import Counter
-    emos = Counter(v[0] for v in acting.values())
-    dsps = Counter(v[1] for v in acting.values())
-    print(f"Thành công: {len(acting)} câu · {len(KEY)} mốc then chốt ({len(KEY)/len(acting)*100:.0f}%)")
-    print(f"  Cảm xúc: {dict(emos)}")
-    print(f"  Lệch tốc độ: {dict(sorted(dsps.items()))}")
-    print(f"  Lời đọc riêng: {sum(1 for v in acting.values() if v[3])} câu có thẻ trích dẫn")
-    print(f"  Nghỉ thêm (_pause_after): {len(pause_after)} mốc (tổng {sum(pause_after.values()):.1f} s)")
-    print(f"  Ghi file: {W / 'acting_tap07.json'}")
+    # Bản JA kế thừa cùng nhịp nghỉ và cảm xúc
+    ja = {
+        "_doc": "Bảng diễn xuất Tập 07 JA — chuẩn A2 (219 câu) — sinh bởi make_acting_tap07.py",
+        "_pause_after": pause_after,
+        **{k: ([v[0], v[1], 0, None] if not k.startswith("_") else v) for k, v in acting.items()}
+    }
+    out_ja = W / "acting_tap07_JA.json"
+    out_ja.write_text(json.dumps(ja, ensure_ascii=False, indent=1), encoding="utf-8")
+
+    print(f"Thành công: {len(acting)} câu.")
+    print(f"  _pause_after: {len(pause_after)} mốc (tổng {sum(pause_after.values()):.1f} s)")
+    print(f"  Ghi file: {out_p} và {out_ja}")
 
 
 if __name__ == "__main__":

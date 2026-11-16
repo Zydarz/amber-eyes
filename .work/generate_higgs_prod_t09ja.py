@@ -165,8 +165,15 @@ def main():
     # Step 3: Synthesis (Variant 0)
     # =========================================================================
     print("\n[Step 3/7] Generating Sentence Audio (Variant 0)...", flush=True)
+    valid_ids = {it["id"] for it in items}
     man_path = AUDIO_OUT / "higgs_manifest.json"
-    man = json.loads(man_path.read_text(encoding="utf-8")) if man_path.exists() else {}
+    if man_path.exists():
+        raw_man = json.loads(man_path.read_text(encoding="utf-8"))
+        man = {k: v for k, v in raw_man.items() if k in valid_ids}
+        if len(man) != len(raw_man):
+            man_path.write_text(json.dumps(man, ensure_ascii=False, indent=1), encoding="utf-8")
+    else:
+        man = {}
 
     for idx, it in enumerate(items):
         sid = it["id"]
@@ -219,88 +226,126 @@ def main():
         }
         man_path.write_text(json.dumps(man, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    # =========================================================================
-    # Step 4: Whisper CER Quality Check
-    # =========================================================================
-    print("\n[Step 4/7] Transcribing with Whisper & Measuring Quality (CER)...", flush=True)
-    import whisper
-    asr_model = whisper.load_model("base", device="cpu")
-    high_cer = []
-    cer_rows = []
+    qc_summary_p = HERE / "quality_qc_utmos_ep09_ja.json"
+    can_reuse_qc = (
+        qc_summary_p.exists()
+        and len(json.loads(qc_summary_p.read_text(encoding="utf-8"))) == len(items)
+        and all((AUDIO_OUT / fname(it["id"])).exists() and (AUDIO_OUT / fname(it["id"])).stat().st_size > 4000 for it in items)
+    )
 
-    for idx, it in enumerate(items):
-        sid = it["id"]
-        role = it["role"]
-        orig_text = it["text"]
-        wav_path = AUDIO_OUT / fname(sid)
-        asr_res = asr_model.transcribe(str(wav_path), language="ja")["text"].strip()
-        c = ja_cer.cer_pair(orig_text, asr_res)
-        f0 = man.get(sid, {}).get("f0", 0.0)
+    if can_reuse_qc:
+        print("\n[Step 4 & 5] Quality QC (Whisper + UTMOSv2) already completed for all sentences! Loading existing QC report...", flush=True)
+        cer_rows = json.loads(qc_summary_p.read_text(encoding="utf-8"))
+        del model
+        del ref_cache
+        gc.collect()
+    else:
+        # =========================================================================
+        # Step 4: Whisper CER Quality Check
+        # =========================================================================
+        print("\n[Step 4/7] Transcribing with Whisper & Measuring Quality (CER)...", flush=True)
+        import whisper_fast as whisper
+        asr_model = whisper.load_model("base", device="cpu")
+        high_cer = []
+        cer_rows = []
 
-        cer_rows.append({
-            "id": sid,
-            "role": role,
-            "file": fname(sid),
-            "text": orig_text,
-            "asr": asr_res,
-            "cer": c,
-            "f0": f0
-        })
+        for idx, it in enumerate(items):
+            sid = it["id"]
+            role = it["role"]
+            orig_text = it["text"]
+            wav_path = AUDIO_OUT / fname(sid)
+            asr_res = asr_model.transcribe(str(wav_path), language="ja")["text"].strip()
+            c = ja_cer.cer_pair(orig_text, asr_res)
+            f0 = man.get(sid, {}).get("f0", 0.0)
 
-        if c > 0.02:
-            high_cer.append((sid, role, c, orig_text, asr_res))
-            print(f"  [WARN > 2%] {sid} ({role}): CER={c*100:.2f}% | '{orig_text[:40]}' -> '{asr_res[:40]}'", flush=True)
+            cer_rows.append({
+                "id": sid,
+                "role": role,
+                "file": fname(sid),
+                "text": orig_text,
+                "asr": asr_res,
+                "cer": c,
+                "f0": f0
+            })
 
-    (HERE / "higgs_cer_rows_JA_t09.json").write_text(
-        json.dumps(cer_rows, ensure_ascii=False, indent=1), encoding="utf-8")
+            if c > 0.02:
+                high_cer.append((sid, role, c, orig_text, asr_res))
+                print(f"  [WARN > 2%] {sid} ({role}): CER={c*100:.2f}% | '{orig_text[:40]}' -> '{asr_res[:40]}'", flush=True)
 
-    # Multi-take (Variant 1) for sentences with CER > 2%
-    if high_cer:
-        print(f"\n[Step 4b] Multi-take Re-generating {len(high_cer)} sentences with CER > 2% (Variant 1)...", flush=True)
-        for sid, role, old_cer, orig_text, _ in high_cer:
-            codes, ref_text, ref_name = ref_cache[role]
-            seed1 = int(hashlib.sha256(f"{sid}|{role}|{ref_name}|0.8|1".encode()).hexdigest()[:8], 16)
-            dst_wav = AUDIO_OUT / fname(sid)
-            raw_v1 = RAW_OUT / raw_fname(sid, role, ref_name, 1)
-
-            res = list(model.generate(
-                text=orig_text,
-                ref_audio_codes=codes,
-                ref_text=ref_text,
-                temperature=0.8,
-                top_p=0.95,
-                seed=seed1,
-                fade_in_ms=30.0,
-                fade_out_ms=15.0
-            ))
-            audio_write(str(raw_v1), res[0].audio, res[0].sample_rate)
-            trim_silence_tail(raw_v1)
-            asr1 = asr_model.transcribe(str(raw_v1), language="ja")["text"].strip()
-            c1 = ja_cer.cer_pair(orig_text, asr1)
-            print(f"  {sid} ({role}): Take 0 CER={old_cer*100:.2f}% vs Take 1 CER={c1*100:.2f}%", flush=True)
-            if c1 < old_cer:
-                audio_write(str(dst_wav), res[0].audio, res[0].sample_rate)
-                trim_silence_tail(dst_wav)
-                print(f"      -> Chose Take 1 (CER improved to {c1*100:.2f}%)", flush=True)
-                man[sid]["seed"] = seed1
-                man[sid]["variant"] = 1
-                man[sid]["f0"] = estimate_f0(dst_wav)
-                for r in cer_rows:
-                    if r["id"] == sid:
-                        r["cer"] = c1
-                        r["asr"] = asr1
-                        r["f0"] = man[sid]["f0"]
-                        break
-
-        man_path.write_text(json.dumps(man, ensure_ascii=False, indent=1), encoding="utf-8")
         (HERE / "higgs_cer_rows_JA_t09.json").write_text(
             json.dumps(cer_rows, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    # Free Whisper and Higgs before UTMOS to strictly preserve RAM (Rule M2)
-    del asr_model
-    del model
-    del ref_cache
-    gc.collect()
+        # Multi-take (Variant 1) for sentences with CER > 2%
+        if high_cer:
+            print(f"\n[Step 4b] Multi-take Re-generating {len(high_cer)} sentences with CER > 15% (Variant 1)...", flush=True)
+            for sid, role, old_cer, orig_text, _ in high_cer:
+                codes, ref_text, ref_name = ref_cache[role]
+                seed1 = int(hashlib.sha256(f"{sid}|{role}|{ref_name}|0.8|1".encode()).hexdigest()[:8], 16)
+                dst_wav = AUDIO_OUT / fname(sid)
+                raw_v1 = RAW_OUT / raw_fname(sid, role, ref_name, 1)
+
+                res = list(model.generate(
+                    text=orig_text,
+                    ref_audio_codes=codes,
+                    ref_text=ref_text,
+                    temperature=0.8,
+                    top_p=0.95,
+                    seed=seed1,
+                    fade_in_ms=30.0,
+                    fade_out_ms=15.0
+                ))
+                audio_write(str(raw_v1), res[0].audio, res[0].sample_rate)
+                trim_silence_tail(raw_v1)
+                asr1 = asr_model.transcribe(str(raw_v1), language="ja")["text"].strip()
+                c1 = ja_cer.cer_pair(orig_text, asr1)
+                print(f"  {sid} ({role}): Take 0 CER={old_cer*100:.2f}% vs Take 1 CER={c1*100:.2f}%", flush=True)
+                if c1 < old_cer:
+                    audio_write(str(dst_wav), res[0].audio, res[0].sample_rate)
+                    trim_silence_tail(dst_wav)
+                    print(f"      -> Chose Take 1 (CER improved to {c1*100:.2f}%)", flush=True)
+                    man[sid]["seed"] = seed1
+                    man[sid]["variant"] = 1
+                    man[sid]["f0"] = estimate_f0(dst_wav)
+                    for r in cer_rows:
+                        if r["id"] == sid:
+                            r["cer"] = c1
+                            r["asr"] = asr1
+                            r["f0"] = man[sid]["f0"]
+                            break
+
+            man_path.write_text(json.dumps(man, ensure_ascii=False, indent=1), encoding="utf-8")
+            (HERE / "higgs_cer_rows_JA_t09.json").write_text(
+                json.dumps(cer_rows, ensure_ascii=False, indent=1), encoding="utf-8")
+
+        # Free Whisper and Higgs before UTMOS to strictly preserve RAM (Rule M2)
+        del asr_model
+        del model
+        del ref_cache
+        gc.collect()
+
+        # =========================================================================
+        # Step 5: UTMOSv2 MOS Naturalness Measurement (CPU, Rule M5)
+        # =========================================================================
+        print("\n[Step 5/7] Measuring UTMOSv2 Naturalness Score (CPU, Rule M5)...", flush=True)
+        import utmosv2
+        utmos_model = utmosv2.create_model(pretrained=True)
+        utmos_scores = []
+
+        for r in cer_rows:
+            wav_path = AUDIO_OUT / r["file"]
+            try:
+                score = float(utmos_model.predict(input_path=str(wav_path), device="cpu", verbose=False))
+            except Exception as e:
+                print(f"  !! Error measuring UTMOS for {r['file']}: {e}")
+                score = 0.0
+            r["utmos"] = score
+            utmos_scores.append(score)
+
+        qc_summary_p.write_text(json.dumps(cer_rows, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"Saved quality QC report to {qc_summary_p}", flush=True)
+
+        del utmos_model
+        gc.collect()
 
     # Measure F0 and G9 semitones
     print("\n[Step 4c] Evaluating Pitch Separation (G9 Rule)...", flush=True)
@@ -324,34 +369,9 @@ def main():
         hc_semitones = 12.0 * np.log2(medians["C"] / medians["H"])
         print(f"  Delta H -> C: {hc_semitones:.2f} semitones (Target >= 4.0 nc) {'✅' if hc_semitones >= 4.0 else '⚠ TRƯỢT'}")
 
-    # =========================================================================
-    # Step 5: UTMOSv2 MOS Naturalness Measurement (CPU, Rule M5)
-    # =========================================================================
-    print("\n[Step 5/7] Measuring UTMOSv2 Naturalness Score (CPU, Rule M5)...", flush=True)
-    import utmosv2
-    utmos_model = utmosv2.create_model(pretrained=True)
-    utmos_scores = []
-
-    for r in cer_rows:
-        wav_path = AUDIO_OUT / r["file"]
-        try:
-            score = float(utmos_model.predict(input_path=str(wav_path), device="cpu", verbose=False))
-        except Exception as e:
-            print(f"  !! Error measuring UTMOS for {r['file']}: {e}")
-            score = 0.0
-        r["utmos"] = score
-        utmos_scores.append(score)
-
-    valid_moss = [s for s in utmos_scores if s > 0]
+    valid_moss = [r["utmos"] for r in cer_rows if r.get("utmos", 0) > 0]
     avg_mos = float(np.mean(valid_moss)) if valid_moss else 0.0
     print(f"  UTMOSv2 MOS: Mean = {avg_mos:.2f}/5.0 (min={np.min(valid_moss):.2f}, max={np.max(valid_moss):.2f}) {'✅' if avg_mos >= 3.0 else '⚠ CẢNH BÁO'}")
-
-    qc_summary_p = HERE / "quality_qc_utmos_ep09_ja.json"
-    qc_summary_p.write_text(json.dumps(cer_rows, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"Saved quality QC report to {qc_summary_p}", flush=True)
-
-    del utmos_model
-    gc.collect()
 
     # =========================================================================
     # Step 6: Manifest, Timeline & Deliverables
@@ -382,7 +402,7 @@ def main():
         with wave.open(str(p), "rb") as w:
             return w.getnframes() / w.getframerate()
 
-    durs = {sid: get_dur(AUDIO_OUT / fname(sid)) for sid in man}
+    durs = {it["id"]: get_dur(AUDIO_OUT / fname(it["id"])) for it in items}
 
     t = FIRST_VOICE
     items_tl, markers = [], [{"type": "INTRO", "start": 0.0, "end": 22.41}]

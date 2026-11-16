@@ -11,9 +11,11 @@ import numpy as np
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
+import shutil
+
 ROOT = Path(__file__).resolve().parent.parent
 WORK = ROOT / ".work"
-FF = WORK / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
+FF = shutil.which("ffmpeg") or (WORK / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe")
 
 CONFIGS = [
     {

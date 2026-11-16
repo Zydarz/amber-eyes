@@ -99,70 +99,56 @@ SPECIAL_EMOTIONS = {
     "5.05#12": ("neutral", 0.0),
 }
 
+def pause_for(elems, el_idx, s_idx, n_sent, role, text):
+    is_last = (s_idx == n_sent - 1)
+    if is_last:
+        nxt = elems[el_idx + 1]["kind"] if el_idx + 1 < len(elems) else "END"
+        if nxt in ("NGHI", "SFX", "END"):
+            return 1.0
+        if role in ("N1", "N2"):
+            return 0.8
+        return 0.6
+    t_clean = text.rstrip("”\" ").strip()
+    if t_clean.endswith("?"):
+        return 0.5
+    if len(text.split()) >= 25:
+        return 0.4
+    return 0.3
+
 # Build acting structure
 acting = {}
 pause_after = {}
 
 # All sentence ids in order
-all_sents = []
-for el in SCRIPT:
-    if el["kind"] == "LOI":
-        for s in el["sentences"]:
-            all_sents.append((el, s))
-
-total_sents = len(all_sents)
-print(f"Tổng số câu thoại: {total_sents}")
-
-for idx, (el, s) in enumerate(all_sents):
-    sid = s["id"]
+for el_idx, el in enumerate(SCRIPT):
+    if el.get("kind") != "LOI":
+        continue
     act_str = str(el["act"])
     raw_role = el["role"]
     role = N_ELEMENT.get(el["id"], raw_role)
-    
-    # Determine emotion & speed
+    sents = el.get("sentences", [])
+    n_sent = len(sents)
+
     default_emo, default_spd = ACT_MOOD.get((act_str, role), ("neutral", 0.0))
     base_delta = BASE_DELTA.get(role, -0.02)
-    
-    if sid in SPECIAL_EMOTIONS:
-        emo, spd_tweak = SPECIAL_EMOTIONS[sid]
-        final_speed = round(base_delta + spd_tweak, 3)
-    else:
-        emo = default_emo
-        final_speed = round(base_delta + default_spd, 3)
-        
-    # Clamp speed in [-0.06, +0.02] per rule G4
-    final_speed = max(-0.06, min(0.02, final_speed))
-    
-    acting[sid] = {
-        "emotion": emo,
-        "speed": final_speed,
-        "pitch": 0, # Rule G5: ALWAYS 0
-    }
-    
-    # Determine pause_after (Rule A13: ~50-65% of sentences, median >= 0.6s)
-    # Check if this sentence is the last in the turn
-    is_last_in_turn = (s == el["sentences"][-1])
-    is_last_in_script = (idx == total_sents - 1)
-    
-    # Default pause logic:
-    # 1. Last in turn -> 0.7 - 0.9s (role transition pause)
-    # 2. Key dramatic sentence -> 0.6 - 0.9s
-    # 3. Intermediate transition -> 0.4 - 0.5s
-    # 4. Connected clause -> 0.3s
-    if is_last_in_script:
-        pause_after[sid] = 1.0
-    elif is_last_in_turn:
-        pause_after[sid] = 0.8
-    else:
-        # Inside turn: select ~50% of sentences to pause
-        sent_num = int(sid.split("#")[1])
-        total_in_el = len(el["sentences"])
-        
-        # Sentences at halfway marks or dramatic points
-        if sent_num % 2 == 0:
-            pause_after[sid] = 0.5
-        elif sid in SPECIAL_EMOTIONS:
-            pause_after[sid] = 0.6
+
+    for s_idx, s in enumerate(sents):
+        sid = s["id"]
+        if sid in SPECIAL_EMOTIONS:
+            emo, spd_tweak = SPECIAL_EMOTIONS[sid]
+            final_speed = round(base_delta + spd_tweak, 3)
+        else:
+            emo = default_emo
+            final_speed = round(base_delta + default_spd, 3)
+
+        # Clamp speed in [-0.06, +0.02] per rule G4
+        final_speed = max(-0.06, min(0.02, final_speed))
+
+        acting[sid] = [emo, final_speed, 0, None]
+        pause_after[sid] = pause_for(SCRIPT, el_idx, s_idx, n_sent, role, s["text"])
+
+total_sents = len(acting)
+print(f"Tổng số câu thoại: {total_sents}")
 
 print(f"Số câu có nhịp nghỉ pause_after: {len(pause_after)} / {total_sents} ({len(pause_after)/total_sents:.1%})")
 

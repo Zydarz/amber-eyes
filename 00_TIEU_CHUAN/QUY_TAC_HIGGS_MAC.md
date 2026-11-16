@@ -17,6 +17,7 @@ Từ khoá bắt buộc: **PHẢI** · **CẤM** · **NÊN** (tuân thủ nguyê
 | **M3** | **BẮT BUỘC cắt đuôi câm (`trim_silence_tail`) $> 0.8\text{ s}$ ở ngưỡng $-45\text{ dBFS}$** | Higgs Audio v3 thường sinh phần câm tĩnh dài 1.0–3.5 s ở cuối câu. Không cắt sẽ làm timeline phình to giả tạo, lệch khớp với kịch bản và video. |
 | **M3b** | **BẮT BUỘC kiểm TỪNG FILE CÂU bằng `.work/qc_voice_sentence.py` ngay sau khi sinh (trước Bước 4) — câm ở ĐẦU/GIỮA/CUỐI, không chỉ đuôi.** Câm = dưới max(−45 dBFS, mức nói trung vị − 30 dB). **REGEN** (sinh lại variant khác): câm giữa > 1,0 s · có lời < 70 % · [`--asr`] từ cuối Whisper cách cuối file > 0,8 s hoặc 2 từ cách > 1,5 s. **TRIM** (`--fix`): câm đầu > 0,5 s / đuôi > 0,8 s ⇒ còn 0,1 / 0,3 s + fade 30 ms, bản gốc lưu `_truoc_trim/`. **NGHE**: dài > 1,6 × dự kiến ⇒ nghe kiểm. Xuất `qc_voice_sentence.json` (số đo + sha256) + `regen_ids.txt` — **chép cả 2 file sang Windows cùng WAV**. Exit 1 ⇒ CẤM giao | Tập 10 EN: file câu chứa **21–26 s không có lời** (12/11: câu 2.06#3–#6; 15/11: sau câu 2.08#1) ⇒ master mất giọng, CER/UTMOS/LUFS/V4 vẫn xanh. `trim_silence_tail` (M3) dò ngược từ cuối và **dừng ở cửa sổ 20 ms đầu tiên ≥ −45 dB** ⇒ 1 tiếng tách/xì ở đuôi là thoát, và không xét câm đầu/giữa. Thử trên bộ Tập 08 EN lưu trữ: bắt ngay câu 1.02#6 **47,6 s, chỉ 12 % có lời** |
 | **M4** | **CẤM mọi thẻ `<|emotion:...|>`** | Thẻ cảm xúc làm F0 giọng nam vọt lên quãng tám (110 Hz $\to$ 220 Hz), biến Host/Điều tra viên thành giọng nữ. Cảm xúc kịch tính được tạo qua nhịp nghỉ kịch bản và nhạc nền. |
+| **M6** | **Tối thiểu 30 phút kiểm tra tiến trình 1 lần (Quy tắc L11)** | Khi chạy sinh audio dài hàng trăm câu, AI PHẢI kiểm tra log định kỳ mỗi 30 phút (tiến độ câu, tốc độ gen, CER Whisper, cảnh báo kẹt vòng lặp multi-take). Tuyệt đối không để tiến trình chạy thả nổi không giám sát. |
 | **M5** | **Mô hình UTMOSv2 trên Mac BẮT BUỘC đặt `device="cpu"`** | PyTorch trên macOS không có CUDA; nếu không chỉ định `device="cpu"`, UTMOSv2 sẽ mặc định gọi `cuda:0` và crash `AssertionError`. |
 
 ---
@@ -34,7 +35,7 @@ Từ khoá bắt buộc: **PHẢI** · **CẤM** · **NÊN** (tuân thủ nguyê
 pip install mlx mlx-audio
 
 # ASR & Đo CER
-pip install openai-whisper
+pip install faster-whisper "av<14"  # Thay thế openai-whisper bằng faster-whisper CTranslate2
 
 # Đo độ tự nhiên MOS (UTMOSv2)
 pip install git+https://github.com/sarulab-speech/UTMOSv2.git
@@ -162,11 +163,13 @@ Higgs Audio v3 sinh âm thanh thường để lại khoảng lặng kéo dài sa
 - **Tiêu chuẩn ĐẠT:** Điểm MOS trung bình toàn tập phải đạt **$\ge 3.0 / 5.0$** (Thực tế trên Mac đạt $3.37 – 3.46$, dải điểm từ $2.11$ đến $4.09$).
 
 ### 6.4 Tối ưu hóa Vòng 2 (Multi-take Optimization)
-- Tự động lọc toàn bộ các câu có CER $> 2\%$.
-- Tự động sinh bổ sung Variant 1 (seed mới) cho các câu này.
+- **Cơ chế kích hoạt theo ngôn ngữ (Tối ưu hóa tránh bẫy Whisper CPU):**
+  - **Tiếng Anh (EN):** Kích hoạt Multi-take khi $\text{CER} > 2.0\%$ (Whisper Base nhận diện tiếng Anh chuẩn xác, tỷ lệ tái sinh chỉ ~10–15% số câu).
+  - **Tiếng Việt (VI) & Tiếng Nhật (JA):** Kích hoạt Multi-take khi $\text{CER} > 15.0\%$.
+    - *Lý do kỹ thuật:* Whisper Base trên CPU không phân biệt chuẩn các dấu thanh, danh từ riêng nước ngoài phiên âm hoặc dạng chính tả tự do (hòa/hoà, kanji/hiragana), khiến CER nền thường dao động 8–12% dù âm thanh Higgs đọc chuẩn 100%. Nếu đặt ngưỡng $2\%$, script sẽ tái sinh gần như toàn bộ tập (269/272 câu ở Tập 11), làm lãng phí 1–2 giờ vô ích. Ngưỡng $> 15\%$ cô lập chính xác các câu thật sự có lỗi vấp, nuốt chữ hoặc lặp âm.
+- Tự động sinh bổ sung Variant 1 (seed mới) cho các câu vượt ngưỡng.
 - So sánh kết quả Whisper CER giữa Variant 0 và Variant 1:
   - Nếu Variant 1 có CER thấp hơn $\to$ Tự động ghi đè file chính thức và cập nhật manifest.
-  - Ví dụ thực tế: `4.04#5` giảm từ $23.24\% \to 1.41\%$; `3.02#2` giảm từ $6.12\% \to 0.00\%$.
 
 ---
 
