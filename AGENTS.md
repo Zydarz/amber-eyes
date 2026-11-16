@@ -254,6 +254,9 @@ Mỗi bước chỉ làm khi bước trước **ĐẠT**. Lệnh cụ thể: ti�
 - **Muốn thật sự giải phóng ổ D: phải dọn Recycle Bin sau đó**: `Clear-RecycleBin -DriveLetter D -Force`. Nó **báo lỗi `The system cannot find the path specified` nhưng vẫn dọn được** → kiểm bằng `Get-PSDrive D` (số GB trống), đừng tin exit code. Dọn Recycle Bin xoá **cả** rác cũ của người dùng trên ổ đó.
 - **Sau khi xoá**: `git status` sẽ hiện `D` cho file media đang được track (vd `thumbnail.png`) → **PHẢI commit + push** để repo không bẩn. Thêm luật `.gitignore` `02_SAN_XUAT/Tap0[12]*/xuat_ban/thumbnail.png` để `package.py` chạy lại không track lại.
 - **Đừng tin tên thư mục, hãy đọc log**: `.work/kaggle_higgs/out_higgs_prod` chứa file `amber-eyes-higgs-prod-t02-kaggle-gpu.log` → là **Tap02**, không phải Tap01. File `D_clone_d3sh_ko5_t01.wav` có `t01` là **số thứ tự clip**, không phải tập 1.
+- **Lần 2 — 16/11/2026: Tap03–Tap09** (cùng phạm vi Tap01–Tap02): xoá **51,6 GB** (ổ D: 51,4 → 103 GB trống sau khi dọn Recycle Bin). Phạm vi gồm `02_SAN_XUAT/Tap0[1-9]*` (media) + `.work` render/audio/QC của tập 1–9 (`video3*`, `stems_*_t06`, `audio_s_*`, `audio_master_*_t0[1-9].wav`, `out_higgs_prod_*t0[6-9]`, ảnh QC) + `assets/brand/intro_*_t0[1-9].mov`. **GIỮ** `_cu/` (bản sao lưu ~11 GB) và `kaggle_flux` (tập 10+). 378 file text + 32 file `.srt` giữ nguyên.
+- **BẪY — `rm` chỉ chạy được khi lệnh KHÔNG chứa gì khác**: `rm -- "a" "b"` + một lệnh khác trong cùng call ⇒ lỗi *"Windows recoverable-delete plan requires the targets-only trash marker"* (dù 2 target trên cùng dòng vẫn OK; 2 dòng `rm` riêng thì KHÔNG OK). Một call = đúng một lệnh `rm -- <target>...`. Muốn xoá hàng trăm file: sinh lệnh bằng Python rồi chạy từng lô 20–40 target/call.
+- **BẪY — đừng xoá file media trong `02_SAN_XUAT/Tap03/sfx_youtube`** nếu tập đó còn cần SFX: thư mục này chứa 10 file `.mp3` YouTube Audio Library **riêng cho Tap03** (khác `02_SAN_XUAT/sfx_youtube/` dùng chung). Đã xoá cùng Tap03.
 
 ---
 
