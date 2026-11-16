@@ -52,6 +52,8 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 import edition as ED  # noqa: E402  (AE_LANG=en -> English edition)
 
+import wave_env  # noqa: E402  (H24: chuẩn hoá sóng giọng dùng chung với qc_wave_gate.py)
+
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -1846,7 +1848,8 @@ def _env_for(role):
 
             done += k
 
-    return np.clip(e / 0.12, 0, 1)
+    # H24: chuẩn hoá theo chính stem (wave_env) — hằng 0.12 cũ làm sóng Higgs kịch trần
+    return wave_env.normalize(e, ED.EP.get("wave_norm"))
 
 
 

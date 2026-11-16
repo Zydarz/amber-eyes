@@ -35,6 +35,7 @@ def w(name):
 # Mọi chỗ trước đây viết cứng cho Tập 01 trong các script (A12) nằm ở đây.
 EPISODES = {
     "01": {
+        "wave_norm": 0.12,   # H24: ghim hằng cũ để dựng lại ra đúng bản đã xuất; tập khác mặc định "auto"
         "script": WORK / ("script_tap01_new_en.json" if EN else "script_tap01_new_vn.json"),
         "script_ja": WORK / "script_tap01_new_ja.json",
         "script_ko": WORK / "script_tap01_new_ko.json",
