@@ -106,3 +106,69 @@
 | 14 | t19_redflag4_tactical_preparation_recon_blueprint.png | 5.05#17–#21 | Cảnh báo đỏ 4: Hành vi chuẩn bị chiến thuật và trinh sát hiện trường (Tactical Preparation), tích trữ quân trang và đo đạc lịch trình sinh hoạt mục tiêu. |
 | 15 | t19_memorial_park_parkland_dawn.png | 5.05#22–#23 | Công viên tưởng niệm Parkland ngập tràn hoa tươi và ánh bình minh dịu nhẹ, lời nhắc nhở sâu sắc về an toàn học đường và sự kiên cường của sự sống. |
 | 16 | t19_amber_eyes_closing_dossier_cruz.png | 5.05#24 | Bàn làm việc Amber Eyes khép lại tập hồ sơ Parkland (Nikolas Cruz), huy hiệu Cú Mèo Amber Eyes sáng ánh hổ phách trầm ấm bên ly trà đêm. |
+
+## ẢNH BỔ SUNG THEO QUY CHUẨN MỚI (H22 & H25)
+
+| STT | Tên file | Hồi | Câu thoại | Mô tả bối cảnh noir |
+|---|---|:---:|---|---|
+| 85 | `t19_b1_suburban_culdesac_fog_dawn.png` | Hồi 1 | 1.02#3 | Khu phố ngoại ô Parkland hoang vắng lúc rạng đông với làn sương mỏng lạnh lẽo trôi là là mặt đường bê tông. |
+| 86 | `t19_b1_distant_police_perimeter_tape.png` | Hồi 1 | 1.02#8 | Góc xa rào chắn phong tỏa hiện trường mờ ảo trong mưa phùn đêm, ánh đèn nhấp nháy từ xa. |
+| 87 | `t19_b1_empty_school_crosswalk_flashing_beacon.png` | Hồi 1 | 1.02#11 | Lối sang đường dành cho học sinh trước cổng trường vắng ngắt, đèn cảnh báo vàng nhấp nháy cô độc. |
+| 88 | `t19_b1_interrogation_metal_cuffs_table.png` | Hồi 1 | 1.04#5 | Cận cảnh còng tay xích vào móc bàn kim loại trong phòng hỏi cung xám xịt. |
+| 89 | `t19_b1_abandoned_valentines_card_corridor.png` | Hồi 1 | 1.06#3 | Tấm thiệp ngày Valentine màu đỏ úa rơi lẻ loi trên nền gạch hành lang tối tăm. |
+| 90 | `t19_b1_march_for_our_lives_silhouettes_protest.png` | Hồi 1 | 1.06#6, 1.06#7 | Bóng đen các bạn trẻ giơ cao những tấm biển biểu ngữ trơn trước tòa nhà nghị viện mờ sương. |
+| 91 | `t19_b1_survival_hiding_classroom_lockers.png` | Hồi 1 | 1.07#5 | Góc khuất phía sau dãy tủ lớp học tối đen, ánh sáng kẽ cửa hẹp hắt xuống sàn. |
+| 92 | `t19_b1_curcio_steely_gaze_dossier_folder.png` | Hồi 1 | 1.09#3 | Tập bìa hồ sơ điều tra màu nâu sẫm trơn đặt trước mặt thám tử trên bàn thẩm vấn. |
+| 93 | `t19_b1_tactical_behavior_matrix_chart.png` | Hồi 1 | 1.09#6 | Bảng sơ đồ phân tích hành vi hình sự trừu tượng với các đường nối ô vuông trắng trơn trên nền tối. |
+| 94 | `t19_b1_command_hallucination_split_head_sketch.png` | Hồi 1 | 1.10#3 | Bản vẽ y khoa trừu tượng về cấu trúc não bộ và bóng tối ảo giác phân liệt, phong cách đồ họa noir. |
+| 95 | `t19_b1_clinical_malingering_forensic_manual.png` | Hồi 1 | 1.10#5 | Cuốn sổ tay nghiên cứu tâm thần pháp y mở ra trên bàn làm việc chuyên gia dưới đèn rọi. |
+| 96 | `t19_b1_one_way_mirror_interrogation_glance.png` | Hồi 1 | 1.11#4 | Tấm gương một chiều phòng hỏi cung nhìn từ góc phòng quan sát tối đen, phản chiếu bóng đối tượng bên trong. |
+| 97 | `t19_b2_cctv_split_screen_observation_console.png` | Hồi 2 | 2.02#2 | Bàn điều khiển camera an ninh kỹ thuật số hiển thị khung hình giám sát phòng giam tĩnh lặng. |
+| 98 | `t19_b2_feigned_madness_clawed_table_scratches.png` | Hồi 2 | 2.02#5 | Cận cảnh những vết cào móng tay giả tạo trên mặt bàn kim loại của phòng hỏi cung. |
+| 99 | `t19_b2_paper_cup_crushed_table_interrogation.png` | Hồi 2 | 2.04#2 | Chiếc cốc giấy uống nước bị bóp méo nằm bên cạnh khay thức ăn nhanh trên bàn thẩm vấn. |
+| 100 | `t19_b2_appetite_versus_demon_contrast.png` | Hồi 2 | 2.04#5 | Bóng đen nghi phạm ngồi bên chiếc bánh burger dở dang, ánh đèn huỳnh quang bóc trần bản năng đời thường. |
+| 101 | `t19_b2_investigator_hands_resting_metal_table.png` | Hồi 2 | 2.06#3 | Đôi bàn tay đan chặt đầy uy quyền của điều tra viên đặt vững chãi trên mặt bàn đối diện nghi phạm. |
+| 102 | `t19_b2_free_will_confession_tape_recorder.png` | Hồi 2 | 2.06#7 | Máy ghi âm cuộn băng từ tính cổ điển đang quay chậm rãi, đèn báo đỏ ghi nhận lời thừa nhận nhận thức. |
+| 103 | `t19_b2_zachary_cruz_shattered_trust_reflection.png` | Hồi 2 | 2.08#3 | Mảnh kính vỡ phản chiếu sự thất vọng và sụp đổ niềm tin của người em trai trong phòng gặp mặt. |
+| 104 | `t19_b2_brotherly_confrontation_empty_chairs.png` | Hồi 2 | 2.08#6 | Hai chiếc ghế đối diện nhau qua chiếc bàn thẩm vấn nhỏ sau khi cuộc đối chất kết thúc trong câm lặng. |
+| 105 | `t19_b2_smartphone_usb_extraction_cable_lab.png` | Hồi 2 | 2.09#3 | Điện thoại bằng chứng cắm cáp quang giám định kỹ thuật số trong phòng pháp y máy tính. |
+| 106 | `t19_b2_cold_cellphone_video_recording_setup.png` | Hồi 2 | 2.09#7 | Góc phòng ngủ tối tăm nơi chiếc điện thoại tự quay tuyên ngôn tội ác từng được hung thủ dựng lên. |
+| 107 | `t19_b2_snead_family_porch_night_regret.png` | Hồi 2 | 2.09#10 | Mái hiên căn nhà cưu mang vắng lặng lúc nửa đêm, ngọn đèn hiên vàng ấm trĩu nặng mặc cảm tội lỗi. |
+| 108 | `t19_b2_abandoned_black_duffel_bag_staircase.png` | Hồi 2 | 2.10#3 | Chiếc túi xách đen bị vứt lại dưới chân cầu thang bê tông ẩm thấp của trường học. |
+| 109 | `t19_b3_psychiatric_evaluation_office_night.png` | Hồi 3 | 3.02#2 | Văn phòng chuyên gia tâm thần pháp y với các tủ hồ sơ đóng kín và rèm che cửa sổ sọc bóng. |
+| 110 | `t19_b3_clinical_audio_waveform_comparison.png` | Hồi 3 | 3.03#3 | Màn hình giám định hiển thị hai đồ thị sóng âm thanh đối chiếu lời khai không khớp của bị cáo. |
+| 111 | `t19_b3_shattered_theatrical_prop_mask.png` | Hồi 3 | 3.03#6 | Mảnh mặt nạ hóa trang sân khấu bằng nhựa nứt toác nằm trong góc tối phòng giám định. |
+| 112 | `t19_b3_inconsistency_forensic_timeline_chart.png` | Hồi 3 | 3.03#8 | Sơ đồ trục thời gian pháp y chỉ ra các thời điểm giọng nói ma quỷ xuất hiện một cách toan tính. |
+| 113 | `t19_b3_convenient_psychosis_cloak_shadow.png` | Hồi 3 | 3.03#11 | Bóng đen người đàn ông khoác chiếc áo choàng xám rách rưới đứng trước ánh đèn rọi cô đơn. |
+| 114 | `t19_b3_cold_geometric_target_chalkboard.png` | Hồi 3 | 3.04#5 | Bảng đen với các ô hình học trống trơn bị gạch chéo vô cảm, minh họa sự vật hóa con người. |
+| 115 | `t19_b3_moral_neutralization_broken_scales.png` | Hồi 3 | 3.05#3 | Chiếc cân đồng công lý nằm nghiêng lệch trên phiến đá nứt nẻ trong bóng tối. |
+| 116 | `t19_b3_school_expulsion_letter_desk_shadows.png` | Hồi 3 | 3.05#6 | Bìa hồ sơ kỷ luật nhà trường màu xám trơn nằm trên bàn gỗ học sinh trầy xước. |
+| 117 | `t19_b3_empty_spotlight_auditorium_stage.png` | Hồi 3 | 3.05#8 | Sân khấu hội trường vắng ngắt với luồng đèn rọi trắng xóa chiếu vào khoảng không trống rỗng. |
+| 118 | `t19_b3_dark_chat_forum_terminal_cubicle.png` | Hồi 3 | 3.05#11 | Góc phòng tối với màn hình vi tính phát sáng màu xanh rêu, biểu tượng cho không gian mạng độc hại. |
+| 119 | `t19_b3_childhood_slingshot_overgrown_backyard.png` | Hồi 3 | 3.07#2 | Chiếc ná cao su cũ kỹ bỏ quên trên bãi cỏ úa sau vườn nhà, chỉ dấu cảnh báo thời niên thiếu. |
+| 120 | `t19_b3_forensic_ammunition_receipt_stack.png` | Hồi 3 | 3.07#7 | Chồng giấy biên lai màu trắng trơn kẹp vào kẹp kim loại trong tập hồ sơ tang vật. |
+| 121 | `t19_b4_broward_courthouse_rotunda_pillars.png` | Hồi 4 | 4.02#3 | Đại sảnh vòm đá hoa cương tòa án Hạt Broward với các cột trụ uy nghiêm dưới ánh sáng lạnh. |
+| 122 | `t19_b4_empty_wooden_jury_box_shadows.png` | Hồi 4 | 4.02#6 | Dãy hàng ghế gỗ bồi thẩm đoàn nhìn từ góc nhìn công tố viên, trang nghiêm và nặng nề. |
+| 123 | `t19_b4_defendant_microphone_stand_close_up.png` | Hồi 4 | 4.02#8 | Cận cảnh chiếc micro kim loại trên bục khai báo bị cáo phòng xử án, tĩnh lặng đến nghẹt thở. |
+| 124 | `t19_b4_broken_mirror_narcissistic_collapse.png` | Hồi 4 | 4.02#11 | Mảnh gương vỡ phản chiếu ánh sáng lấp lánh trên nền đá hoa cương đen, ẩn dụ về sự tự thương hại bệnh lý. |
+| 125 | `t19_b4_closed_jury_deliberation_door_lock.png` | Hồi 4 | 4.04#2 | Cánh cửa gỗ dày đóng kín của phòng nghị án bồi thẩm đoàn với ổ khóa đồng trang nghiêm. |
+| 126 | `t19_b4_jury_ballot_slip_wooden_receptacle.png` | Hồi 4 | 4.04#5 | Chiếc hộp bỏ phiếu bằng gỗ tối màu đặt trên bàn nghị án bồi thẩm đoàn, biểu tượng quy tắc 12/12. |
+| 127 | `t19_b4_defense_table_legal_binders_closed.png` | Hồi 4 | 4.06#3 | Chồng cặp hồ sơ pháp lý màu xanh đen đóng kín trên bàn luật sư bào chữa sau phiên tranh tụng. |
+| 128 | `t19_b4_concrete_prison_yard_high_mesh_fence.png` | Hồi 4 | 4.06#6 | Sân tập bê tông của trại giam an ninh tối đa với hàng rào lưới thép gai cao vút dưới trời xám lạnh. |
+| 129 | `t19_b4_exterior_school_building12_tape_barrier.png` | Hồi 4 | 4.06#9, 4.06#10 | Tòa nhà 12 trường Parkland bị niêm phong kín dưới trời hoàng hôn u ám, nơi sĩ quan an ninh từng đứng đóng băng. |
+| 130 | `t19_b4_judicial_bench_wooden_gavel_resting.png` | Hồi 4 | 4.08#3 | Chiếc búa gỗ thẩm phán nằm yên nghỉ trên đế tròn bằng gỗ sồi sau khi bản án 34 án chung thân được tuyên. |
+| 131 | `t19_b4_shattered_stone_monolith_oblivion.png` | Hồi 4 | 4.08#5 | Khối đá đen nguyên khối bị nứt gãy sụp đổ thành những mảng nhỏ, biểu tượng của sự chôn vùi trong lãng quên. |
+| 132 | `t19_b4_florida_legal_statute_volume_pages.png` | Hồi 4 | 4.10#4, 4.10#5 | Bộ sách luật pháp bìa da dày mở ra trên bàn đá, di sản cải cách bồi thẩm đoàn từ 12 sang 8 phiếu. |
+| 133 | `t19_b4_prison_van_rear_doors_locking_click.png` | Hồi 4 | 4.12#2 | Cửa sau xe tù bằng thép dày đóng sập lại, chốt khóa kim loại nặng nề khép lại mọi cơ hội quay lại xã hội. |
+| 134 | `t19_b5_memorial_bronze_plaque_candlelight.png` | Hồi 5 | 5.02#4, 5.02#5 | Tấm bia đồng tưởng niệm các thầy giáo hy sinh thân mình, được thắp sáng bởi những ngọn nến lung linh. |
+| 135 | `t19_b5_youth_peace_ribbon_tree_memorial.png` | Hồi 5 | 5.02#8, 5.02#9 | Dải ruy băng trắng hòa bình thắt trên thân cây sồi già trong công viên tưởng niệm học sinh Parkland. |
+| 136 | `t19_b5_red_flag_law_scales_shield_balance.png` | Hồi 5 | 5.03#4, 5.03#5 | Chiếc khiên kim loại đặt cạnh cán cân công lý, biểu trưng cho sự can thiệp sớm của Đạo luật Cờ đỏ. |
+| 137 | `t19_b5_florida_state_capitol_dome_dusk.png` | Hồi 5 | 5.03#8 | Mái vòm tòa nhà Quốc hội bang Florida ở thành phố Tallahassee sừng sững dưới bầu trời chạng vạng trang nghiêm. |
+| 138 | `t19_b5_btam_threat_assessment_flowchart_board.png` | Hồi 5 | 5.04#3, 5.04#4 | Bảng sơ đồ can thiệp đánh giá nguy cơ đe dọa hành vi của trường học với các nút kết nối màu hổ phách. |
+| 139 | `t19_b5_interlinked_protective_hands_sculpture.png` | Hồi 5 | 5.04#7 | Tác phẩm điêu khắc đôi bàn tay che chở đan vào nhau trên bệ đá, biểu tượng cho mắt xích bảo vệ cộng đồng. |
+| 140 | `t19_b5_redflag1_dark_envelope_threat_leakage.png` | Hồi 5 | 5.05#4 | Chiếc phong bì màu đen hé mở trên bàn gỗ sẫm màu, biểu tượng cảnh báo rò rỉ ý định bạo lực. |
+| 141 | `t19_b5_redflag1_urgent_safety_hotline_telephone.png` | Hồi 5 | 5.05#6 | Chiếc điện thoại bàn màu đen chuyên dụng khẩn cấp trong phòng trực ban nhà trường, sẵn sàng nhận tin báo. |
+| 142 | `t19_b5_redflag2_locked_tactical_case_chains.png` | Hồi 5 | 5.05#9 | Chiếc hộp đựng quân trang màu đen khóa chặt bằng xích sắt, biểu tượng cảnh báo ám ảnh vũ khí. |
+| 143 | `t19_b5_redflag2_severed_moral_compass_stone.png` | Hồi 5 | 5.05#11 | Chiếc la bàn cổ bị nứt vỡ kim chỉ hướng trên tảng đá tối, biểu tượng mất mát giá trị nhân tính. |
+| 144 | `t19_b5_redflag3_empty_family_dinner_table_gloom.png` | Hồi 5 | 5.05#14 | Bàn ăn gia đình trống trải với chiếc ghế đơn độc trong bóng tối, biểu tượng mất mỏ neo kiểm soát sau tang gia. |
+| 145 | `t19_b5_redflag4_measured_school_hallway_grid.png` | Hồi 5 | 5.05#20, 5.05#21 | Góc nhìn từ trên cao xuống hành lang trường học với các đường kẻ lưới đo đạc trinh sát hiện trường. |

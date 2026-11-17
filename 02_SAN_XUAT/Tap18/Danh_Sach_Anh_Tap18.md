@@ -87,3 +87,69 @@
 | 78 | `t18_idaho_golden_plains_morning.png` | Hồi 5 | 5.06#15–#16 | Bình minh rực rỡ bừng sáng trên những cánh đồng lúa mì vàng óng của bang Idaho, bầu trời trong xanh bao la, thông điệp về sự bình an và chữa lành vết thương. |
 | 79 | `t18_amber_eyes_closing_dossier_vallow.png` | Hồi 5 | 5.06#17–#18 | Bàn làm việc của Amber Eyes khép lại tập hồ sơ Vallow-Daybell Case, huy hiệu Cú Mèo Amber Eyes bên cạnh ly trà ấm, lời chào tạm biệt khán giả. |
 | 80 | `t18_endcard_investigative_archive_wall.png` | Hồi 5 | 5.06#17–#18 | Khung hình kết thúc kênh Amber Eyes: bức tường lưu trữ hồ sơ điều tra với ánh sáng vàng hổ phách, chuẩn bị sẵn vị trí hiển thị video đề xuất và nút đăng ký. |
+
+## ẢNH BỔ SUNG THEO QUY CHUẨN MỚI (H22 & H25)
+
+| STT | Tên file | Hồi | Mô tả bối cảnh noir |
+|---|---|:---:|---|
+| 81 | `t18_b1_evasive_phone_screen_gloom.png` | Hồi 1 | Cận cảnh màn hình điện thoại cũ bị khóa trong phòng tối, ánh sáng xanh lạnh le lói, không chữ không nhãn. |
+| 82 | `t18_b1_abandoned_plea_dusty_desk.png` | Hồi 1 | Bàn làm việc tư pháp cũ trong đêm, xấp giấy hồ sơ trắng trơn dưới bóng đèn bàn hắt ánh sáng vàng cô quạnh. |
+| 83 | `t18_b1_lonely_child_headphones_rug.png` | Hồi 1 | Tai nghe chống ồn trẻ em nằm lặng lẽ trên tấm thảm tối màu phủ bụi mỏng, gợi nỗi đau của người thân. |
+| 84 | `t18_b1_deserted_hallway_open_apartment.png` | Hồi 1 | Hành lang chung cư vắng tanh với cánh cửa căn hộ hé mở vào bóng tối đen đặc, ánh đèn huỳnh quang nhấp nháy. |
+| 85 | `t18_b1_court_summons_envelope_shadow.png` | Hồi 1 | Bìa thư hồ sơ niêm phong màu nâu nhạt nằm trên bàn gỗ tối màu, góc phòng thẩm vấn u ám. |
+| 86 | `t18_b1_paparazzi_cameras_tripods_silhouettes.png` | Hồi 1 | Hàng ống kính máy quay và chân máy xếp hàng trên vỉa hè dưới trời xám lạnh, ống kính hướng vào sự im lặng ghê rợn. |
+| 87 | `t18_b1_cold_investigative_room_screens.png` | Hồi 1 | Phòng điều tra kỹ thuật số ban đêm với các khối màn hình hiển thị biểu đồ mạng lưới không chữ, ánh sáng xanh lục lạnh buốt. |
+| 88 | `t18_b1_chalk_timeline_blackboard_dark.png` | Hồi 1 | Bảng đen điều tra với các đường phấn trắng nối các mốc sự kiện trừu tượng, góc văn phòng cảnh sát u tối. |
+| 89 | `t18_b1_rural_idaho_dirt_road_dusk.png` | Hồi 1 | Con đường đất nông thôn Idaho hoang vắng dẫn về phía rặng thông đen thẫm dưới bầu trời chạng vạng nặng trĩu. |
+| 90 | `t18_b1_investigative_vehicle_gravel_driveway.png` | Hồi 1 | Xe cảnh sát ẩn danh màu đen đỗ trên lối đi sỏi đá trước trang trại nông thôn hẻo lánh lúc rạng sáng. |
+| 91 | `t18_b1_heavy_storm_clouds_over_prairie.png` | Hồi 1 | Những đám mây dông đen kịt cuồn cuộn trên cánh đồng cỏ úa bao la, dự báo cơn bão tội ác sắp hé lộ. |
+| 92 | `t18_b2_silent_press_briefing_hall.png` | Hồi 2 | Hội trường họp báo trống vắng sau giờ công bố tin dữ, những chiếc ghế gấp kim loại xếp ngay ngắn trong ánh sáng nhạt. |
+| 93 | `t18_b2_padlocked_warehouse_corridor_night.png` | Hồi 2 | Hành lang kho tự quản kim loại tối tăm với dãy cửa cuốn xám lạnh, ổ khóa sắt hoen gỉ dưới ánh đèn vàng mờ. |
+| 94 | `t18_b2_abandoned_motel_nightstand_shadow.png` | Hồi 2 | Góc phòng trọ rẻ tiền hoang vắng nơi Alex Cox ẩn náu, chiếc cốc giấy cạn và chìa khóa phòng nằm trên bàn gỗ trầy xước. |
+| 95 | `t18_b2_masonic_cemetery_iron_gate_fog.png` | Hồi 2 | Cổng sắt nghĩa trang Springville phủ sương mù dày đặc trong đêm khai quật, bóng cây liễu rủ u ám. |
+| 96 | `t18_b2_bank_vault_safety_box_ajar.png` | Hồi 2 | Ngăn kéo két an toàn bằng thép trong phòng lưu trữ ngân hàng, mở hé trong luồng sáng lạnh, biểu tượng lòng tham vụ lợi. |
+| 97 | `t18_b2_desert_suburb_cul_de_sac_night.png` | Hồi 2 | Khu phố cụt ngoại ô Arizona lúc nửa đêm, một ngọn đèn đường vàng vọt chiếu xuống ngã ba đường vắng tanh. |
+| 98 | `t18_b2_darkened_bedroom_curtains_breeze.png` | Hồi 2 | Căn phòng ngủ tối tăm với rèm cửa xám bay nhẹ trong gió đêm, nơi tội ác êm thắm với Tammy Daybell diễn ra. |
+| 99 | `t18_b2_shattered_family_tree_sketch.png` | Hồi 2 | Bản phác thảo cây gia phả trừu tượng trên mặt bàn gỗ tối, các nhánh rẽ bị gạch chéo bằng mực đen sâu thẳm. |
+| 100 | `t18_b2_psychological_labyrinth_stone_arches.png` | Hồi 2 | Ẩn dụ mê cung đá cổ kính tối tăm với các vòm cuốn hun hút, biểu tượng của sự tha hóa và bẫy tâm lý cuồng tín. |
+| 101 | `t18_b2_forensic_evidence_boxes_stacked.png` | Hồi 2 | Chồng thùng các-tông đựng vật chứng được niêm phong băng keo trong phòng kho tang vật cảnh sát, góc khuất u tối. |
+| 102 | `t18_b3_conference_hall_empty_rows_dusk.png` | Hồi 3 | Những hàng ghế hội trường trống trải nhìn về phía bục phát biểu chìm trong bóng tối, nơi gieo rắc ảo tưởng. |
+| 103 | `t18_b3_whispering_shadows_hotel_corridor.png` | Hồi 3 | Hành lang khách sạn trải thảm hoa văn tối màu, hai bóng đen người lớn đổ dài trên tường sau cuộc gặp gỡ ngoài luồng. |
+| 104 | `t18_b3_puppet_strings_hanging_shadows.png` | Hồi 3 | Ẩn dụ những sợi dây rối treo lơ lửng trong không trung từ trần nhà tăm tối, tượng trưng cho sự giật dây thao túng. |
+| 105 | `t18_b3_ancient_parchment_closed_cylinder.png` | Hồi 3 | Ống da đựng cuộn văn tự cổ nằm trên mặt bàn gỗ sồi nứt nẻ, biểu tượng của lời tiên tri 144.000 linh hồn. |
+| 106 | `t18_b3_two_sides_chess_board_gloom.png` | Hồi 3 | Bàn cờ vua cổ điển trong bóng tối với các quân cờ đen trắng đối đầu, đại diện cho hệ thống phân loại linh hồn. |
+| 107 | `t18_b3_distorted_reflection_dark_mirror.png` | Hồi 3 | Tấm gương cũ ố mốc trong phòng tắm tối phản chiếu hình bóng méo mó, biểu hiện của sự tha hóa nhân cách ái kỷ. |
+| 108 | `t18_b3_broken_clay_mask_fragments_floor.png` | Hồi 3 | Những mảnh vỡ của chiếc mặt nạ đất sét trắng nằm rải rác trên nền xi măng lạnh, biểu tượng Thuyết Zombie ghê rợn. |
+| 109 | `t18_b3_child_handprint_fogged_window.png` | Hồi 3 | Vết bàn tay nhỏ của trẻ em in mờ trên mặt kính cửa sổ phủ sương lạnh, phía ngoài là màn đêm đen thẳm. |
+| 110 | `t18_b3_sheathed_ceremonial_blade_velvet.png` | Hồi 3 | Bao kiếm nghi lễ cũ bọc nhung đen sờn nằm trên kệ gỗ, biểu tượng của sự tàn độc đội lốt đức tin nhân từ. |
+| 111 | `t18_b3_unmarked_ledger_closed_vault.png` | Hồi 3 | Cuốn sổ tay bìa da đen trơn đóng kín nằm cạnh chiếc chìa khóa két sắt bằng đồng, vạch trần động cơ vụ lợi. |
+| 112 | `t18_b3_split_wooden_wall_dual_reality.png` | Hồi 3 | Bức vách gỗ ngăn đôi căn phòng, một bên tràn ngập ánh nến gia đình bình dị, một bên chìm vào bóng tối săn mồi. |
+| 113 | `t18_b3_prison_visitation_glass_partition.png` | Hồi 3 | Vách kính thăm nuôi nhà tù mờ đục với chiếc ống nghe điện thoại treo hờ hững, biểu tượng bi kịch người thân. |
+| 114 | `t18_b3_weeping_willow_lone_headstone_dusk.png` | Hồi 3 | Góc nghĩa trang ngoại ô lúc hoàng hôn buông, bia đá trơn đứng cô độc dưới bóng cây liễu rủ lá vàng úa. |
+| 115 | `t18_b4_prosecution_briefcase_empty_bench.png` | Hồi 4 | Chiếc cặp da công tố màu đen đặt trên băng ghế gỗ phòng xử án lúc sáng sớm trước phiên xét xử. |
+| 116 | `t18_b4_courtroom_railing_juror_perspective.png` | Hồi 4 | Góc nhìn từ hàng ghế bồi thẩm đoàn qua tay vịn gỗ gụ nhìn về phía bàn bị cáo trống trơn trong giờ nghỉ. |
+| 117 | `t18_b4_court_reporter_transcription_chair.png` | Hồi 4 | Góc bàn của thư ký tòa án với chiếc ghế da trống và máy ghi tốc ký màu đen, ánh đèn rọi cô độc. |
+| 118 | `t18_b4_judge_bench_elevated_view_shadow.png` | Hồi 4 | Góc nhìn hướng lên bục thẩm phán cao lớn bằng gỗ sẫm màu, chiếc ghế bành da đen đồ sộ dưới huy hiệu tư pháp trơn. |
+| 119 | `t18_b4_prison_transport_van_iron_grate.png` | Hồi 4 | Cửa sau xe áp giải tù nhân bằng kim loại xám với lưới sắt bảo vệ dày đặc, đỗ trước sân tòa án mù sương. |
+| 120 | `t18_b4_defense_counsel_empty_chairs.png` | Hồi 4 | Dãy ghế trống tại bàn luật sư bào chữa sau khi bản án được tuyên, những cuốn tập tài liệu đóng kín. |
+| 121 | `t18_b4_jury_room_coat_rack_silhouettes.png` | Hồi 4 | Giá treo áo khoác trong phòng nghị án bồi thẩm đoàn với những chiếc áo khoác đen treo rủ trong ánh đèn mờ. |
+| 122 | `t18_b4_deliberation_whiteboard_blank_notes.png` | Hồi 4 | Bảng trắng trong phòng nghị án bồi thẩm đoàn đã được lau sạch, chỉ còn ánh sáng hắt từ cửa sổ nhìn ra phố. |
+| 123 | `t18_b4_cassette_tape_spool_macro_gloom.png` | Hồi 4 | Cận cảnh bánh răng cuộn băng cassette trong máy ghi âm cổ điển, sợi băng từ đen bóng dừng lại ở mốc đối chất. |
+| 124 | `t18_b4_justice_scales_brass_counterbalance.png` | Hồi 4 | Chiếc cân công lý bằng đồng cổ đứng nghiêng nhẹ trên bàn gỗ mun, một bên chìm sâu vào bóng tối phán quyết. |
+| 125 | `t18_b4_maximum_security_corridor_catwalk.png` | Hồi 4 | Hành lang dãy xà lim nhà tù an ninh tối đa với lối đi trên cao bằng lưới sắt, ánh đèn đỏ báo động mờ xa. |
+| 126 | `t18_b4_wiretap_audio_waveform_screen.png` | Hồi 4 | Màn hình giám sát kỹ thuật số hiển thị dải sóng âm thanh đường dao động trừu tượng trong phòng nghe lén tối tăm. |
+| 127 | `t18_b4_crumbled_plaster_bust_pedestal.png` | Hồi 4 | Bức tượng thạch cao nứt vỡ từng mảng trên bệ đá tối, ẩn dụ sự sụp đổ toàn bộ ảo tưởng ái kỷ của Chad Daybell. |
+| 128 | `t18_b4_remorse_silhouette_seated_dark.png` | Hồi 4 | Bóng người ngồi cúi đầu trên chiếc ghế gỗ trong góc phòng tối, hai tay đan vào nhau trước luồng sáng lương tri. |
+| 129 | `t18_b4_dawn_horizon_through_barred_window.png` | Hồi 4 | Khung cửa sổ có song sắt dày nhìn ra đường chân trời rạng đông tím xám, sự thức tỉnh muộn màng của nhân chứng. |
+| 130 | `t18_b4_solitary_hourglass_sand_running_out.png` | Hồi 4 | Chiếc đồng hồ cát cổ bằng đồng với những hạt cát cuối cùng rơi xuống đáy, biểu tượng bản án tử hình cho Chad Daybell. |
+| 131 | `t18_b4_prison_heavy_iron_key_ring.png` | Hồi 4 | Chùm chìa khóa cổng sắt nhà tù nặng nề bằng thép gai nằm trên bàn gác trực lạnh buốt, cánh cửa trần thế khép lại. |
+| 132 | `t18_b4_four_empty_wooden_benches_dusk.png` | Hồi 4 | Bốn chiếc ghế băng gỗ trống trải trong công viên mùa thu lúc hoàng hôn, tưởng niệm bốn sinh mệnh vô tội. |
+| 133 | `t18_b5_blooming_cherry_tree_stone_path.png` | Hồi 5 | Cây hoa anh đào nở rộ bên lối đi lát đá hoa cương trong công viên tưởng niệm Rexburg, ánh nắng mai ấm áp. |
+| 134 | `t18_b5_legislative_chamber_empty_desks.png` | Hồi 5 | Hội đồng lập pháp bang Idaho với các bàn nghị sự trang nghiêm bằng gỗ sồi dưới mái vòm cao vút. |
+| 135 | `t18_b5_protective_child_emblem_bronze.png` | Hồi 5 | Biểu tượng chiếc khiên đồng trơn đặt trên khối cẩm thạch đen, đại diện cho đạo luật bảo vệ trẻ em yếu thế. |
+| 136 | `t18_b5_candlelight_vigil_glowing_jars.png` | Hồi 5 | Những ngọn nến lung linh thắp trong lọ thủy tinh trong đêm thắp nến cộng đồng, ánh sáng ấm áp đẩy lùi bóng tối. |
+| 137 | `t18_b5_ancient_philosophy_bust_shadow.png` | Hồi 5 | Tượng bán thân cẩm thạch của triết gia cổ đại nhìn về phía ánh sáng, biểu tượng của tư duy phản biện độc lập. |
+| 138 | `t18_b5_broken_golden_scepter_stone.png` | Hồi 5 | Chiếc quyền trượng mạ vàng gãy đôi trên phiến đá nứt nẻ, biểu tượng cảnh báo đỏ 1: Tự xưng là đấng cứu thế. |
+| 139 | `t18_b5_severed_braided_rope_fibers.png` | Hồi 5 | Đoạn dây thừng bện dày bị cắt đứt sợi bung ra trên nền gỗ tối, biểu tượng cảnh báo đỏ 2: Cắt đứt liên kết gia đình. |
+| 140 | `t18_b5_cracked_sundial_overcast_sky.png` | Hồi 5 | Mặt đồng hồ mặt trời bằng đá cổ nứt vỡ dưới bầu trời xám xịt, biểu tượng cảnh báo đỏ 3: Ảo tưởng tận thế tích trữ. |
+| 141 | `t18_b5_hollowed_book_empty_cavity.png` | Hồi 5 | Cuốn sách dày bị khoét rỗng ruột nằm mở trên bàn tối, biểu tượng cảnh báo đỏ 4: Bóc lột tài chính đội lốt đức tin. |

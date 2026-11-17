@@ -126,10 +126,10 @@ Hồ sơ Jim Jones & Thảm kịch Jonestown được Amber eyes giải phẫu q
 ⏱ MỐC CHƯƠNG
 00:00 Intro & Khuyến cáo
 00:23 Hồi 1 · Lời hứa thiên đường và bóng ma nơi rừng sâu
-06:05 Hồi 2 · Cuộc phục kích đường băng và tiếng còi báo động định mệnh
-11:50 Hồi 3 · Giải mã cơ chế tâm lý: Từ phục tùng đến tư duy tập thể
-17:55 Hồi 4 · Cuộn băng tử thần Q 042 và tiếng nói phản kháng cô đơn
-23:50 Hồi 5 · Bài học đắt giá về tâm lý bầy đàn & Cảnh báo đỏ sinh tồn
+10:03 Hồi 2 · Cuộc phục kích đường băng và tiếng còi báo động định mệnh
+17:52 Hồi 3 · Giải mã cơ chế tâm lý: Từ phục tùng đến tư duy tập thể
+25:14 Hồi 4 · Cuộn băng tử thần Q 042 và tiếng nói phản kháng cô đơn
+32:51 Hồi 5 · Bài học đắt giá về tâm lý bầy đàn & Cảnh báo đỏ sinh tồn
 
 ⚠️ LƯU Ý PHÁP LÝ & AN TOÀN
 • Video mang tính giáo dục, tư liệu lịch sử và phân tích tâm lý học tội phạm; không thay thế tư vấn y khoa hay pháp lý.
@@ -170,10 +170,10 @@ Amber eyes dissects the case through our 10-Indicator Behavioral & Psychological
 ⏱ CHAPTER TIMESTAMPS
 00:00 Intro & Disclaimer
 00:23 Act 1 · The Promised Paradise & The Jungle Specter
-06:05 Act 2 · The Airstrip Ambush & The Fatal Siren
-11:50 Act 3 · Deconstructing the Mind: From Obedience to Groupthink
-17:55 Act 4 · The Death Tape Q 042 & The Solitary Voice of Defiance
-23:50 Act 5 · Hard Lessons on Herd Mentality & Survival Red Flags
+08:51 Act 2 · The Airstrip Ambush & The Fatal Siren
+15:40 Act 3 · Deconstructing the Mind: From Obedience to Groupthink
+22:24 Act 4 · The Death Tape Q 042 & The Solitary Voice of Defiance
+28:41 Act 5 · Hard Lessons on Herd Mentality & Survival Red Flags
 
 ⚠️ LEGAL & SAFETY DISCLAIMER
 • Educational and historical documentary on criminal psychology; does not replace medical or legal advice.
@@ -214,10 +214,10 @@ Amber eyesは、ジム・ジョーンズとジョーンズタウンの惨劇を�
 ⏱ タイムスタンプ
 00:00 イントロ＆注意事項
 00:23 第1幕 · 約束された楽園と密林の暗影
-06:05 第2幕 · 滑走路の待ち伏せと運命の警報
-11:50 第3幕 · 心理メカニズムの解剖: 服従から集団浅慮へ
-17:55 第4幕 · 死のテープQ 042と孤高の抵抗
-23:50 第5幕 · 群集心理の痛恨の教訓＆生存のレッドフラッグ
+10:23 第2幕 · 滑走路の待ち伏せと運命の警報
+18:33 第3幕 · 心理メカニズムの解剖: 服従から集団浅慮へ
+27:15 第4幕 · 死のテープQ 042と孤高の抵抗
+35:04 第5幕 · 群集心理の痛恨の教訓＆生存のレッドフラッグ
 
 ⚠️ 法的留意事項および安全性
 • 本動画は犯罪心理学および歴史的資料に基づく教育的コンテンツであり、医学的・心理的・法的助言に代わるものではありません。

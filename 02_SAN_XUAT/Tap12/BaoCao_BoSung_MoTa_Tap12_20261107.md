@@ -1,6 +1,6 @@
 # BÁO CÁO BỔ SUNG & KIỂM ĐỊNH MÔ TẢ TẬP 12 (4 NGÔN NGỮ)
 
-**Hồ sơ vụ án:** Richard Ramirez (The Night Stalker — Kẻ Rình Mò Đêm Tối & Ảo Tưởng Quyền Lực Sa-tăng)  
+**Hồ sơ vụ án:** Jim Jones & Thảm Kịch Jonestown (Cuộn Băng Tử Thần Q 042 & Peoples Temple)  
 **Thời gian thực hiện:** 07/11/2026  
 **Căn cứ quy chuẩn:** `AGENTS.md` (L1–L10, K1–K10, V9), `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (§A2c — Hệ sinh thái 10 chỉ dấu tâm lý & hành vi bắt buộc, giới hạn YouTube Description $\le 5.000$ ký tự).
 

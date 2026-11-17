@@ -474,8 +474,8 @@
    "bg": "t12_congressman_leo_ryan_briefing"
   },
   {
-   "parent": "t12_congressman_leo_ryan_briefing",
-   "run_idx": 2,
+   "parent": "t12_urgent_appeal_dark_office",
+   "run_idx": 1,
    "n": 1,
    "sec": 8.8,
    "sids": [
@@ -487,7 +487,7 @@
    "chus": [
     "*Layton van xin các nhà chức trách can thiệp khẩn cấp vì tính mạng của hàng trăm người đang bị treo trên sợi tóc mỏng manh.*"
    ],
-   "bg": "t12_congressman_leo_ryan_briefing"
+   "bg": "t12_urgent_appeal_dark_office"
   },
   {
    "parent": "t12_nbc_camera_recording_facade",
@@ -541,8 +541,8 @@
    "bg": "t12_entering_armed_compound_gate"
   },
   {
-   "parent": "t12_entering_armed_compound_gate",
-   "run_idx": 2,
+   "parent": "t12_official_vehicle_closed_road",
+   "run_idx": 1,
    "n": 1,
    "sec": 12.7,
    "sids": [
@@ -554,7 +554,7 @@
    "chus": [
     "*Mục tiêu duy nhất của Nghị sĩ Leo Ryan là trực tiếp kiểm tra đời sống của các công dân Mỹ và đảm bảo quyền tự do trở về quê hương cho bất kỳ ai muốn rời đi.*"
    ],
-   "bg": "t12_entering_armed_compound_gate"
+   "bg": "t12_official_vehicle_closed_road"
   },
   {
    "parent": "t12_paranoia_cracking_dictator_mind",
@@ -576,8 +576,8 @@
    "bg": "t12_paranoia_cracking_dictator_mind"
   },
   {
-   "parent": "t12_paranoia_cracking_dictator_mind",
-   "run_idx": 2,
+   "parent": "t12_paranoia_barred_window_rain",
+   "run_idx": 1,
    "n": 1,
    "sec": 12.3,
    "sids": [
@@ -589,7 +589,7 @@
    "chus": [
     "*Cơn nghiện ma túy an thần kết hợp với chứng hoang tưởng bị truy hại kinh niên khiến hắn nhìn nhận chuyến thăm này như một cuộc tấn công hủy diệt nhằm vào ngai vàng cá nhân.*"
    ],
-   "bg": "t12_paranoia_cracking_dictator_mind"
+   "bg": "t12_paranoia_barred_window_rain"
   },
   {
    "parent": "t12_edge_of_the_abyss_shadow",
@@ -684,8 +684,8 @@
    "bg": "t12_secret_note_folded_slip"
   },
   {
-   "parent": "t12_secret_note_folded_slip",
-   "run_idx": 2,
+   "parent": "t12_blank_folded_slip_in_hand",
+   "run_idx": 1,
    "n": 1,
    "sec": 7.9,
    "sids": [
@@ -697,7 +697,7 @@
    "chus": [
     "*Mảnh giấy mang thông điệp cầu cứu tuyệt vọng với dòng chữ ngắn ngủi: “Xin hãy giúp chúng tôi rời khỏi nơi này”.*"
    ],
-   "bg": "t12_secret_note_folded_slip"
+   "bg": "t12_blank_folded_slip_in_hand"
   },
   {
    "parent": "t12_morning_pleas_for_defection",
@@ -865,8 +865,8 @@
    "bg": "t12_fallen_reporters_and_ryan"
   },
   {
-   "parent": "t12_fallen_reporters_and_ryan",
-   "run_idx": 2,
+   "parent": "t12_looming_tool_dark_table",
+   "run_idx": 1,
    "n": 1,
    "sec": 10.7,
    "sids": [
@@ -878,7 +878,7 @@
    "chus": [
     "*Đây là biểu hiện rõ nét của “Thủ đoạn gây án”, liên tục thay đổi từ che giấu ngoại giao sang bạo lực trực diện khi mất quyền kiểm soát tình thế.*"
    ],
-   "bg": "t12_fallen_reporters_and_ryan"
+   "bg": "t12_looming_tool_dark_table"
   },
   {
    "parent": "t12_gunmen_return_report_shadows",
@@ -900,8 +900,8 @@
    "bg": "t12_gunmen_return_report_shadows"
   },
   {
-   "parent": "t12_gunmen_return_report_shadows",
-   "run_idx": 2,
+   "parent": "t12_alarm_bell_night_settlement",
+   "run_idx": 1,
    "n": 1,
    "sec": 10.7,
    "sids": [
@@ -913,7 +913,7 @@
    "chus": [
     "*Trong khi đó, tại Jonestown cách đó vài dặm, tiếng còi báo động khẩn cấp bắt đầu rú vang từng hồi báo hiệu một mệnh lệnh đen tối sắp được thi hành.*"
    ],
-   "bg": "t12_gunmen_return_report_shadows"
+   "bg": "t12_alarm_bell_night_settlement"
   },
   {
    "parent": "t12_emergency_siren_echo_jungle",
@@ -954,8 +954,8 @@
    "bg": "t12_mass_gathering_central_pavilion"
   },
   {
-   "parent": "t12_mass_gathering_central_pavilion",
-   "run_idx": 2,
+   "parent": "t12_podium_microphone_shadow",
+   "run_idx": 1,
    "n": 1,
    "sec": 10.4,
    "sids": [
@@ -967,7 +967,7 @@
    "chus": [
     "*Jim Jones bước lên bục giảng với chiếc micro quen thuộc, chuẩn bị bắt đầu một nghi thức hủy diệt hàng loạt mà hắn đã âm thầm toan tính từ lâu.*"
    ],
-   "bg": "t12_mass_gathering_central_pavilion"
+   "bg": "t12_podium_microphone_shadow"
   },
   {
    "parent": "t12_knife_attack_scuffle_pavilion",
@@ -989,8 +989,8 @@
    "bg": "t12_knife_attack_scuffle_pavilion"
   },
   {
-   "parent": "t12_knife_attack_scuffle_pavilion",
-   "run_idx": 2,
+   "parent": "t12_old_radio_receiver_dark",
+   "run_idx": 1,
    "n": 1,
    "sec": 10.7,
    "sids": [
@@ -1002,7 +1002,7 @@
    "chus": [
     "*Trong cuộn băng, Jim Jones thông báo với đám đông rằng phái đoàn của Nghị sĩ Leo Ryan đã bị phục kích tại đường băng và máy bay sắp rơi xuống rừng.*"
    ],
-   "bg": "t12_knife_attack_scuffle_pavilion"
+   "bg": "t12_old_radio_receiver_dark"
   },
   {
    "parent": "t12_fbi_evidence_tape_q042",
@@ -1024,8 +1024,8 @@
    "bg": "t12_fbi_evidence_tape_q042"
   },
   {
-   "parent": "t12_fbi_evidence_tape_q042",
-   "run_idx": 2,
+   "parent": "t12_steel_drum_pitcher_floor",
+   "run_idx": 1,
    "n": 1,
    "sec": 10.1,
    "sids": [
@@ -1037,7 +1037,7 @@
    "chus": [
     "*Một thùng kim loại lớn chứa đầy nước ngọt hương nho pha trộn độc chất cực mạnh nhanh chóng được các nhân viên y tế đẩy ra giữa hội trường.*"
    ],
-   "bg": "t12_fbi_evidence_tape_q042"
+   "bg": "t12_steel_drum_pitcher_floor"
   },
   {
    "parent": "t12_metal_vat_flavor_aid_poison",
@@ -1059,8 +1059,8 @@
    "bg": "t12_metal_vat_flavor_aid_poison"
   },
   {
-   "parent": "t12_metal_vat_flavor_aid_poison",
-   "run_idx": 2,
+   "parent": "t12_cornered_parent_floor_shadow",
+   "run_idx": 1,
    "n": 1,
    "sec": 10.1,
    "sids": [
@@ -1072,7 +1072,7 @@
    "chus": [
     "*Chiêu thức này tạo nên một sự ràng buộc tâm lý tuyệt vọng tột cùng, đẩy các bậc cha mẹ vào ngõ cụt không còn con đường lùi nào khác.*"
    ],
-   "bg": "t12_metal_vat_flavor_aid_poison"
+   "bg": "t12_cornered_parent_floor_shadow"
   },
   {
    "parent": "t12_broken_will_family_embrace",
@@ -1094,8 +1094,8 @@
    "bg": "t12_broken_will_family_embrace"
   },
   {
-   "parent": "t12_broken_will_family_embrace",
-   "run_idx": 2,
+   "parent": "t12_empty_cradle_pale_shaft",
+   "run_idx": 1,
    "n": 1,
    "sec": 12.0,
    "sids": [
@@ -1107,7 +1107,7 @@
    "chus": [
     "*Khi nhìn thấy đứa con dứt ruột đẻ ra thoi thóp và ngừng thở trên tay, sợi dây liên kết thiêng liêng duy nhất giữ người mẹ với cuộc đời đã bị chặt đứt hoàn toàn.*"
    ],
-   "bg": "t12_broken_will_family_embrace"
+   "bg": "t12_empty_cradle_pale_shaft"
   },
   {
    "parent": "t12_haunting_silence_aftermath",
@@ -1129,8 +1129,8 @@
    "bg": "t12_haunting_silence_aftermath"
   },
   {
-   "parent": "t12_haunting_silence_aftermath",
-   "run_idx": 2,
+   "parent": "t12_single_drink_cup_shadowed_hand",
+   "run_idx": 1,
    "n": 1,
    "sec": 10.1,
    "sids": [
@@ -1142,10 +1142,10 @@
    "chus": [
     "*Họ lần lượt đón nhận ly dung dịch chết người như một sự giải thoát thụ động trước bóng ma đe dọa do chính kẻ giáo chủ thêu dệt nên.*"
    ],
-   "bg": "t12_haunting_silence_aftermath"
+   "bg": "t12_single_drink_cup_shadowed_hand"
   },
   {
-   "parent": "t12_edge_of_the_abyss_shadow",
+   "parent": "t12_jungle_silence_empty_clearing",
    "run_idx": 1,
    "n": 2,
    "sec": 17.7,
@@ -1161,7 +1161,7 @@
     "*Cái chết đối với họ lúc ấy trở thành một bước buông xuôi cay đắng để được đi theo những đứa con thơ sang thế giới bên kia.*",
     "*Một thảm kịch tước đoạt sinh mạng hàng loạt diễn ra trong sự câm lặng đến nghẹt thở của cánh rừng già hoang vu.*"
    ],
-   "bg": "t12_edge_of_the_abyss_shadow"
+   "bg": "t12_jungle_silence_empty_clearing"
   },
   {
    "parent": "t12_unanswered_question_diorama",
@@ -1183,8 +1183,8 @@
    "bg": "t12_unanswered_question_diorama"
   },
   {
-   "parent": "t12_unanswered_question_diorama",
-   "run_idx": 2,
+   "parent": "t12_child_shoes_alone_in_light",
+   "run_idx": 1,
    "n": 1,
    "sec": 9.8,
    "sids": [
@@ -1196,7 +1196,7 @@
    "chus": [
     "*Điều gì đã khiến những người làm cha, làm mẹ tự tay tước đoạt tương lai của chính những đứa con ruột thịt mà họ hết mực yêu thương?*"
    ],
-   "bg": "t12_unanswered_question_diorama"
+   "bg": "t12_child_shoes_alone_in_light"
   },
   {
    "parent": "t12_pawns_on_destructive_chessboard",
@@ -1218,8 +1218,8 @@
    "bg": "t12_pawns_on_destructive_chessboard"
   },
   {
-   "parent": "t12_pawns_on_destructive_chessboard",
-   "run_idx": 2,
+   "parent": "t12_analysis_room_doorway",
+   "run_idx": 1,
    "n": 1,
    "sec": 6.9,
    "sids": [
@@ -1231,7 +1231,7 @@
    "chus": [
     "*Sau đây, xin mời quý vị cùng lắng nghe góc nhìn phân tích chuyên sâu của Chuyên gia tâm lý.*"
    ],
-   "bg": "t12_pawns_on_destructive_chessboard"
+   "bg": "t12_analysis_room_doorway"
   },
   {
    "parent": "t12_milgram_experiment_shock_generator",
@@ -1253,8 +1253,8 @@
    "bg": "t12_milgram_experiment_shock_generator"
   },
   {
-   "parent": "t12_milgram_experiment_shock_generator",
-   "run_idx": 2,
+   "parent": "t12_tools_of_obedience_workbench",
+   "run_idx": 1,
    "n": 1,
    "sec": 9.8,
    "sids": [
@@ -1266,7 +1266,7 @@
    "chus": [
     "*Họ tự xem mình chỉ là công cụ thực thi ý chí của cấp trên chứ không phải là chủ thể chịu trách nhiệm cho hậu quả tàn khốc.*"
    ],
-   "bg": "t12_milgram_experiment_shock_generator"
+   "bg": "t12_tools_of_obedience_workbench"
   },
   {
    "parent": "t12_agentic_state_mechanism",
@@ -1288,8 +1288,8 @@
    "bg": "t12_agentic_state_mechanism"
   },
   {
-   "parent": "t12_agentic_state_mechanism",
-   "run_idx": 2,
+   "parent": "t12_identical_silhouette_crowd",
+   "run_idx": 1,
    "n": 1,
    "sec": 11.1,
    "sids": [
@@ -1301,7 +1301,7 @@
    "chus": [
     "*Trong thế giới quan của Jim Jones, chín trăm con người kia không bao giờ được nhìn nhận như những cá thể độc lập có quyền tự quyết và nhân phẩm thiêng liêng.*"
    ],
-   "bg": "t12_agentic_state_mechanism"
+   "bg": "t12_identical_silhouette_crowd"
   },
   {
    "parent": "t12_false_prophet_deification",
@@ -1323,8 +1323,8 @@
    "bg": "t12_false_prophet_deification"
   },
   {
-   "parent": "t12_false_prophet_deification",
-   "run_idx": 2,
+   "parent": "t12_throne_of_empty_shadow",
+   "run_idx": 1,
    "n": 1,
    "sec": 10.7,
    "sids": [
@@ -1336,7 +1336,7 @@
    "chus": [
     "*Trong tâm trí ái kỷ của hắn, sinh mạng của các tín đồ chỉ có giá trị khi nó được dùng để tôn vinh sự vĩ đại của chính bản thân hắn.*"
    ],
-   "bg": "t12_false_prophet_deification"
+   "bg": "t12_throne_of_empty_shadow"
   },
   {
    "parent": "t12_groupthink_hostile_mob_shadows",
@@ -1358,8 +1358,8 @@
    "bg": "t12_groupthink_hostile_mob_shadows"
   },
   {
-   "parent": "t12_groupthink_hostile_mob_shadows",
-   "run_idx": 2,
+   "parent": "t12_empty_chair_rope_coil",
+   "run_idx": 1,
    "n": 1,
    "sec": 10.7,
    "sids": [
@@ -1371,7 +1371,7 @@
    "chus": [
     "*Trong khi đó, bất kỳ biểu hiện phân vân hay bất đồng chính kiến nào cũng bị coi là mầm mống phản bội nguy hiểm cần phải tiêu diệt ngay lập tức.*"
    ],
-   "bg": "t12_groupthink_hostile_mob_shadows"
+   "bg": "t12_empty_chair_rope_coil"
   },
   {
    "parent": "t12_foot_in_the_door_staircase",
@@ -1393,8 +1393,8 @@
    "bg": "t12_foot_in_the_door_staircase"
   },
   {
-   "parent": "t12_foot_in_the_door_staircase",
-   "run_idx": 2,
+   "parent": "t12_empty_lecture_hall_rows",
+   "run_idx": 1,
    "n": 1,
    "sec": 5.9,
    "sids": [
@@ -1406,7 +1406,7 @@
    "chus": [
     "*Tiến sĩ tâm lý học sẽ tiếp tục làm rõ cơ chế tha hóa nhận thức này.*"
    ],
-   "bg": "t12_foot_in_the_door_staircase"
+   "bg": "t12_empty_lecture_hall_rows"
   },
   {
    "parent": "t12_cognitive_dissonance_scales",
@@ -1428,8 +1428,8 @@
    "bg": "t12_cognitive_dissonance_scales"
   },
   {
-   "parent": "t12_cognitive_dissonance_scales",
-   "run_idx": 2,
+   "parent": "t12_closed_circle_of_stools",
+   "run_idx": 1,
    "n": 2,
    "sec": 16.4,
    "sids": [
@@ -1444,7 +1444,7 @@
     "*Họ tin tưởng tuyệt đối vào tính chính nghĩa đạo đức của nhóm mình và nhìn nhận toàn bộ thế giới bên ngoài như những kẻ thù độc ác.*",
     "*Cơ chế này được củng cố bằng kỹ thuật tâm lý “Leo thang cam kết”, hay kỹ thuật Foot-in-the-Door.*"
    ],
-   "bg": "t12_cognitive_dissonance_scales"
+   "bg": "t12_closed_circle_of_stools"
   },
   {
    "parent": "t12_sunk_cost_entrapment_quicksand",
@@ -1466,8 +1466,8 @@
    "bg": "t12_sunk_cost_entrapment_quicksand"
   },
   {
-   "parent": "t12_sunk_cost_entrapment_quicksand",
-   "run_idx": 2,
+   "parent": "t12_sinking_bundles_muddy_road",
+   "run_idx": 1,
    "n": 2,
    "sec": 18.6,
    "sids": [
@@ -1482,7 +1482,7 @@
     "*Khi các tín đồ đã dần quen với sự nhượng bộ, hắn nâng dần mức độ đòi hỏi: yêu cầu họ bán nhà, cắt đứt quan hệ với gia đình ruột thịt và giao nộp toàn bộ tài sản.*",
     "*Điều này kích hoạt hiện tượng “Bẫy Chi Phí Chìm Nhận Thức” vô cùng nghiệt ngã.*"
    ],
-   "bg": "t12_sunk_cost_entrapment_quicksand"
+   "bg": "t12_sinking_bundles_muddy_road"
   },
   {
    "parent": "t12_habituation_death_desensitization",
@@ -1504,8 +1504,8 @@
    "bg": "t12_habituation_death_desensitization"
   },
   {
-   "parent": "t12_habituation_death_desensitization",
-   "run_idx": 2,
+   "parent": "t12_self_deception_blank_mirror",
+   "run_idx": 1,
    "n": 2,
    "sec": 23.1,
    "sids": [
@@ -1520,11 +1520,11 @@
     "*Để bảo vệ cái tôi không bị vỡ vụn, họ buộc phải tự lừa dối mình, hợp lý hóa mọi hành vi điên rồ của giáo chủ như những thử thách thiêng liêng.*",
     "*Cuối cùng, việc từ bỏ tính mạng được ngụy biện như bước hy sinh cao cả nhất để bảo vệ toàn vẹn danh dự cho lý tưởng mà họ đã trót đánh đổi cả cuộc đời.*"
    ],
-   "bg": "t12_habituation_death_desensitization"
+   "bg": "t12_self_deception_blank_mirror"
   },
   {
-   "parent": "t12_habituation_death_desensitization",
-   "run_idx": 3,
+   "parent": "t12_staircase_into_blackness",
+   "run_idx": 1,
    "n": 1,
    "sec": 7.2,
    "sids": [
@@ -1536,7 +1536,7 @@
    "chus": [
     "*Đây là một cái bẫy tâm lý leo thang hoàn hảo giam cầm con người trong sự tự nguyện mù quáng.*"
    ],
-   "bg": "t12_habituation_death_desensitization"
+   "bg": "t12_staircase_into_blackness"
   },
   {
    "parent": "t12_biological_exhaustion_heat",
@@ -1558,8 +1558,8 @@
    "bg": "t12_biological_exhaustion_heat"
   },
   {
-   "parent": "t12_biological_exhaustion_heat",
-   "run_idx": 2,
+   "parent": "t12_thin_porridge_metal_bowl",
+   "run_idx": 1,
    "n": 1,
    "sec": 9.5,
    "sids": [
@@ -1571,7 +1571,7 @@
    "chus": [
     "*Bữa ăn hàng ngày của họ thiếu hụt trầm trọng chất đạm và dinh dưỡng thiết yếu, chủ yếu là cháo loãng và rau củ quả thô sơ.*"
    ],
-   "bg": "t12_biological_exhaustion_heat"
+   "bg": "t12_thin_porridge_metal_bowl"
   },
   {
    "parent": "t12_sleep_deprivation_speaker_wires",
@@ -1631,8 +1631,8 @@
    "bg": "t12_white_night_midnight_bell"
   },
   {
-   "parent": "t12_white_night_midnight_bell",
-   "run_idx": 2,
+   "parent": "t12_high_seat_under_dome",
+   "run_idx": 1,
    "n": 1,
    "sec": 10.1,
    "sids": [
@@ -1644,7 +1644,7 @@
    "chus": [
     "*Nhưng Chữ ký tâm lý bất biến của hắn chính là nhu cầu kiểm soát tâm trí tuyệt đối và khao khát được tôn sùng như một bậc toàn năng.*"
    ],
-   "bg": "t12_white_night_midnight_bell"
+   "bg": "t12_high_seat_under_dome"
   },
   {
    "parent": "t12_simulated_poison_paper_cups",
@@ -1666,7 +1666,7 @@
    "bg": "t12_simulated_poison_paper_cups"
   },
   {
-   "parent": "t12_pawns_on_destructive_chessboard",
+   "parent": "t12_reel_to_reel_archive_recorder",
    "run_idx": 1,
    "n": 2,
    "sec": 24.1,
@@ -1682,7 +1682,7 @@
     "*Việc lưu giữ cuộn băng ghi âm Q 042 chính là chữ ký cuối cùng thể hiện bản ngã ái kỷ bệnh hoạn, muốn lưu lại chứng tích về quyền lực tối thượng của mình cho hậu thế.*",
     "*Hắn khao khát được lịch sử nhắc đến như một huyền thoại tử vì đạo, ngay cả khi cái giá phải trả là sự hủy diệt của gần một ngàn sinh mạng vô tội.*"
    ],
-   "bg": "t12_pawns_on_destructive_chessboard"
+   "bg": "t12_reel_to_reel_archive_recorder"
   },
   {
    "parent": "t12_moral_courage_candle_in_dark",
@@ -1742,8 +1742,8 @@
    "bg": "t12_tape_recorder_reels_spinning"
   },
   {
-   "parent": "t12_tape_recorder_reels_spinning",
-   "run_idx": 2,
+   "parent": "t12_loudspeaker_horn_rain_night",
+   "run_idx": 1,
    "n": 1,
    "sec": 10.1,
    "sids": [
@@ -1755,7 +1755,7 @@
    "chus": [
     "*Giọng nói của hắn lặp đi lặp lại những luận điệu hoang tưởng quen thuộc về sự vây ráp của kẻ thù và sự sụp đổ không thể tránh khỏi.*"
    ],
-   "bg": "t12_tape_recorder_reels_spinning"
+   "bg": "t12_loudspeaker_horn_rain_night"
   },
   {
    "parent": "t12_agitated_dictator_microphone",
@@ -1777,7 +1777,7 @@
    "bg": "t12_agitated_dictator_microphone"
   },
   {
-   "parent": "t12_christine_miller_lone_microphone",
+   "parent": "t12_miller_silhouette_at_microphone",
    "run_idx": 1,
    "n": 2,
    "sec": 20.2,
@@ -1793,11 +1793,11 @@
     "*Người phụ nữ dũng cảm ấy tên là Christine Miller, một nữ tín đồ da màu khoảng sáu mươi tuổi đã gắn bó nhiều năm với tổ chức.*",
     "*Khi nghe Jones tuyên bố kế hoạch chấm dứt sự sống tập thể, bà đã không ngần ngại đứng lên chất vấn kẻ cầm đầu ngay trước mặt toàn thể cộng đồng.*"
    ],
-   "bg": "t12_christine_miller_lone_microphone"
+   "bg": "t12_miller_silhouette_at_microphone"
   },
   {
-   "parent": "t12_christine_miller_lone_microphone",
-   "run_idx": 2,
+   "parent": "t12_empty_microphone_after_crowd",
+   "run_idx": 1,
    "n": 1,
    "sec": 11.1,
    "sids": [
@@ -1809,10 +1809,10 @@
    "chus": [
     "*Giọng bà vang lên rành rọt và kiên định được lưu giữ nguyên vẹn trong cuộn băng: “Tôi cảm thấy chừng nào còn có sự sống, con người vẫn còn có hy vọng.”*"
    ],
-   "bg": "t12_christine_miller_lone_microphone"
+   "bg": "t12_empty_microphone_after_crowd"
   },
   {
-   "parent": "t12_moral_courage_candle_in_dark",
+   "parent": "t12_single_candle_raised_in_dark",
    "run_idx": 1,
    "n": 2,
    "sec": 21.5,
@@ -1828,11 +1828,11 @@
     "*Bà tha thiết đề nghị Jim Jones tìm kiếm giải pháp đưa toàn bộ các em nhỏ di tản sang lánh nạn tại Cuba hoặc Liên Xô thay vì chọn con đường hủy diệt mù quáng.*",
     "*Lời phản kháng đầy nhân tính của bà như một tia sáng le lói rạch ngang bầu trời u ám của sự cuồng tín đang bao trùm Jonestown.*"
    ],
-   "bg": "t12_moral_courage_candle_in_dark"
+   "bg": "t12_single_candle_raised_in_dark"
   },
   {
-   "parent": "t12_moral_courage_candle_in_dark",
-   "run_idx": 2,
+   "parent": "t12_open_hands_in_light_beam",
+   "run_idx": 1,
    "n": 1,
    "sec": 10.4,
    "sids": [
@@ -1844,10 +1844,10 @@
    "chus": [
     "*Bà khẳng định phẩm giá con người bằng một lý lẽ giản dị rằng mọi sinh mạng đều có quyền được sống và tự quyết định tương lai của chính mình.*"
    ],
-   "bg": "t12_moral_courage_candle_in_dark"
+   "bg": "t12_open_hands_in_light_beam"
   },
   {
-   "parent": "t12_agitated_dictator_microphone",
+   "parent": "t12_raised_fist_behind_microphone",
    "run_idx": 1,
    "n": 2,
    "sec": 19.0,
@@ -1863,10 +1863,10 @@
     "*Thế nhưng, trước sự chất vấn đầy lý lẽ của Christine Miller, Jim Jones chỉ đáp lại bằng sự tức giận và thái độ xua đuổi gay gắt.*",
     "*Hắn lớn tiếng bác bỏ mọi giải pháp hòa bình và ngụy biện rằng đối phương sẽ không bao giờ để cho cộng đồng được sống yên ổn.*"
    ],
-   "bg": "t12_agitated_dictator_microphone"
+   "bg": "t12_raised_fist_behind_microphone"
   },
   {
-   "parent": "t12_groupthink_hostile_mob_shadows",
+   "parent": "t12_circle_of_shadows_around_one_light",
    "run_idx": 1,
    "n": 2,
    "sec": 21.8,
@@ -1882,10 +1882,10 @@
     "*Đau đớn hơn cả, chính những tín đồ xung quanh, những người đã bị tẩy não suốt nhiều năm, lại cất tiếng la ó và công kích người phụ nữ đơn độc này.*",
     "*Sự cô lập tột cùng của tiếng nói phản kháng chân chính trước áp lực tập thể đã dập tắt tia hy vọng sống sót cuối cùng của hàng trăm con người.*"
    ],
-   "bg": "t12_groupthink_hostile_mob_shadows"
+   "bg": "t12_circle_of_shadows_around_one_light"
   },
   {
-   "parent": "t12_moral_courage_candle_in_dark",
+   "parent": "t12_two_silhouettes_on_bare_stage",
    "run_idx": 1,
    "n": 2,
    "sec": 23.0,
@@ -1901,11 +1901,11 @@
     "*Đoạn đối thoại căng thẳng giữa Christine Miller và Jim Jones trong cuộn băng Q 042 là một minh chứng lâm sàng sinh động cho lý thuyết “Kỹ thuật Trung hòa Đạo đức” của Sykes và Matza.*",
     "*Kẻ giáo chủ đã áp dụng triệt để kỹ thuật “Đổ lỗi cho nạn nhân” và “Ngoại hóa trách nhiệm” để tự ru ngủ lương tâm của bản thân và đám đông.*"
    ],
-   "bg": "t12_moral_courage_candle_in_dark"
+   "bg": "t12_two_silhouettes_on_bare_stage"
   },
   {
-   "parent": "t12_moral_courage_candle_in_dark",
-   "run_idx": 2,
+   "parent": "t12_wires_control_wooden_figures",
+   "run_idx": 1,
    "n": 2,
    "sec": 19.2,
    "sids": [
@@ -1920,10 +1920,10 @@
     "*Hắn liên tục khẳng định: “Không phải tôi muốn điều này, mà chính kẻ thù ngoài kia đã ép chúng ta phải lựa chọn con đường này.”*",
     "*Bằng cách đóng vai nạn nhân của một âm mưu vĩ mô, hắn tước bỏ hoàn toàn gánh nặng tội lỗi của hành vi tước đoạt mạng sống hàng loạt.*"
    ],
-   "bg": "t12_moral_courage_candle_in_dark"
+   "bg": "t12_wires_control_wooden_figures"
   },
   {
-   "parent": "t12_cognitive_dissonance_scales",
+   "parent": "t12_brass_compass_on_bare_table",
    "run_idx": 1,
    "n": 2,
    "sec": 22.7,
@@ -1939,11 +1939,11 @@
     "*Hành động phản kháng của bà Christine Miller thể hiện sức mạnh của “Lương tri Độc lập”, dám vượt qua ranh giới sợ hãi để bảo vệ sinh mạng trẻ thơ.*",
     "*Hiện tượng này hoàn toàn đối lập với tâm lý của những kẻ đồng lõa mù quáng, những người chỉ bắt đầu thức tỉnh khi hiện thực tàn khốc đánh sập cơ chế bất hòa nhận thức.*"
    ],
-   "bg": "t12_cognitive_dissonance_scales"
+   "bg": "t12_brass_compass_on_bare_table"
   },
   {
-   "parent": "t12_cognitive_dissonance_scales",
-   "run_idx": 2,
+   "parent": "t12_overturned_chair_fallen_microphone",
+   "run_idx": 1,
    "n": 2,
    "sec": 27.9,
    "sids": [
@@ -1958,10 +1958,10 @@
     "*Sự hối hận chân thực chỉ xuất hiện khi con người dám nhìn thẳng vào hậu quả tàn khốc do hành vi của mình gây ra, đối diện với “Chấn thương Đạo đức” và tìm cách chuộc lỗi.*",
     "*Trong khi đó, kẻ thủ ác Jim Jones rơi vào “Sự sụp đổ cái tôi ái kỷ” và “Tự thương hại bệnh lý”, chỉ biết cay cú tiếc nuối cho quyền lực đã mất mà không hề có một tia ăn năn nào cho đồng loại.*"
    ],
-   "bg": "t12_cognitive_dissonance_scales"
+   "bg": "t12_overturned_chair_fallen_microphone"
   },
   {
-   "parent": "t12_metal_vat_flavor_aid_poison",
+   "parent": "t12_kneeling_silhouettes_row",
    "run_idx": 1,
    "n": 2,
    "sec": 18.3,
@@ -1977,11 +1977,11 @@
     "*Sau khi tiếng nói phản kháng của Christine Miller bị dập tắt, bi kịch bước vào giai đoạn tàn khốc nhất mà ngôn từ khó lòng lột tả hết.*",
     "*Những người mẹ khóc nấc khi nhìn con mình ngã quỵ trên nền đất chỉ vài phút sau khi uống thứ chất lỏng oan nghiệt.*"
    ],
-   "bg": "t12_metal_vat_flavor_aid_poison"
+   "bg": "t12_kneeling_silhouettes_row"
   },
   {
-   "parent": "t12_metal_vat_flavor_aid_poison",
-   "run_idx": 2,
+   "parent": "t12_empty_hall_after_the_cry",
+   "run_idx": 1,
    "n": 1,
    "sec": 7.9,
    "sids": [
@@ -1993,10 +1993,10 @@
    "chus": [
     "*Tiếng gào khóc của trẻ thơ vang vọng khắp cánh rừng nhiệt đới trước khi chìm dần vào sự im lặng vĩnh cửu.*"
    ],
-   "bg": "t12_metal_vat_flavor_aid_poison"
+   "bg": "t12_empty_hall_after_the_cry"
   },
   {
-   "parent": "t12_broken_will_family_embrace",
+   "parent": "t12_flashlight_beams_in_jungle",
    "run_idx": 1,
    "n": 2,
    "sec": 21.8,
@@ -2012,11 +2012,11 @@
     "*Nhiều tín đồ cố gắng trốn chạy vào rừng rậm nhưng đã bị các tay súng bảo vệ bắn chặn và xua đuổi quay trở lại hội trường.*",
     "*Trong khi hàng trăm con người vô tội đang đau đớn trong những giây phút cuối đời, Jim Jones vẫn ngồi trên bục giảng liên tục thúc giục đám đông hãy giữ trật tự và phẩm giá.*"
    ],
-   "bg": "t12_broken_will_family_embrace"
+   "bg": "t12_flashlight_beams_in_jungle"
   },
   {
-   "parent": "t12_broken_will_family_embrace",
-   "run_idx": 2,
+   "parent": "t12_archive_boxes_metal_shelf",
+   "run_idx": 1,
    "n": 1,
    "sec": 9.1,
    "sids": [
@@ -2028,10 +2028,10 @@
    "chus": [
     "*Toàn bộ âm thanh tang thương ấy đã được cuộn băng định mệnh ghi lại như một bản cáo trạng lịch sử không bao giờ phai mờ.*"
    ],
-   "bg": "t12_broken_will_family_embrace"
+   "bg": "t12_archive_boxes_metal_shelf"
   },
   {
-   "parent": "t12_truck_evacuation_muddy_road",
+   "parent": "t12_mother_carrying_child_dawn_path",
    "run_idx": 1,
    "n": 2,
    "sec": 23.1,
@@ -2047,11 +2047,11 @@
     "*Trong khi thảm kịch đang diễn ra tại ngôi nhà chung, một số ít tín đồ đã may mắn thoát chết nhờ sự dũng cảm và nhạy bén phi thường của bản thân.*",
     "*Đáng chú ý nhất là nhóm của cô Leslie Wagner-Wilson, người đã ôm đứa con nhỏ ba tuổi cùng một nhóm thân nhân bí mật trốn khỏi Jonestown ngay từ sáng sớm ngày 18 tháng 11.*"
    ],
-   "bg": "t12_truck_evacuation_muddy_road"
+   "bg": "t12_mother_carrying_child_dawn_path"
   },
   {
-   "parent": "t12_truck_evacuation_muddy_road",
-   "run_idx": 2,
+   "parent": "t12_swamp_footpath_dawn_mist",
+   "run_idx": 1,
    "n": 1,
    "sec": 11.1,
    "sids": [
@@ -2063,10 +2063,10 @@
    "chus": [
     "*Họ đã đi bộ ròng rã suốt ba mươi dặm xuyên qua rừng rậm nhiệt đới ngập bùn lầy và đầy thú dữ để tìm đường ra thị trấn lân cận cầu cứu.*"
    ],
-   "bg": "t12_truck_evacuation_muddy_road"
+   "bg": "t12_swamp_footpath_dawn_mist"
   },
   {
-   "parent": "t12_inescapable_labor_camp_cage",
+   "parent": "t12_cot_hiding_shadow_dark_hut",
    "run_idx": 1,
    "n": 2,
    "sec": 18.9,
@@ -2082,11 +2082,11 @@
     "*Một vài cư dân cao tuổi khác tại Jonestown đã nhanh trí trốn dưới gầm giường hoặc giả vờ nằm bất động giữa đống đồ đạc để qua mặt lính gác.*",
     "*Sau thảm họa, những thành viên từng tham gia tổ chức đều rơi vào trạng thái bàng hoàng và suy sụp tinh thần sâu sắc.*"
    ],
-   "bg": "t12_inescapable_labor_camp_cage"
+   "bg": "t12_cot_hiding_shadow_dark_hut"
   },
   {
-   "parent": "t12_inescapable_labor_camp_cage",
-   "run_idx": 2,
+   "parent": "t12_testimony_room_single_chair",
+   "run_idx": 1,
    "n": 1,
    "sec": 13.0,
    "sids": [
@@ -2098,10 +2098,10 @@
    "chus": [
     "*Sự sống sót kỳ diệu của họ đã cung cấp những lời khai vô giá giúp các cơ quan điều tra quốc tế tái hiện trọn vẹn sự thật đen tối sau bức rèm bí mật của Peoples Temple.*"
    ],
-   "bg": "t12_inescapable_labor_camp_cage"
+   "bg": "t12_testimony_room_single_chair"
   },
   {
-   "parent": "t12_haunting_silence_aftermath",
+   "parent": "t12_helicopter_over_jungle_clearing",
    "run_idx": 1,
    "n": 2,
    "sec": 19.3,
@@ -2117,11 +2117,11 @@
     "*Chúng tôi bay trực thăng tiếp cận Jonestown hai ngày sau đó, khi tin tức về vụ nổ súng tại đường băng vừa được xác nhận chính thức.*",
     "*Từ trên cao nhìn xuống, một cảnh tượng kinh hoàng đập vào mắt mà trong suốt cuộc đời làm công tác điều tra tôi chưa từng hình dung nổi.*"
    ],
-   "bg": "t12_haunting_silence_aftermath"
+   "bg": "t12_helicopter_over_jungle_clearing"
   },
   {
-   "parent": "t12_haunting_silence_aftermath",
-   "run_idx": 2,
+   "parent": "t12_scattered_belongings_empty_clearing",
+   "run_idx": 1,
    "n": 2,
    "sec": 16.7,
    "sids": [
@@ -2136,7 +2136,7 @@
     "*Hàng trăm con người mặc trang phục rực rỡ nằm im lìm san sát bên nhau quanh khu nhà sinh hoạt chung giữa khoảng đất trống.*",
     "*Không khí rừng nhiệt đới oi ả và sự tĩnh lặng rợn người bao trùm khắp toàn bộ khu định cư hoang vắng.*"
    ],
-   "bg": "t12_haunting_silence_aftermath"
+   "bg": "t12_scattered_belongings_empty_clearing"
   },
   {
    "parent": "t12_forensic_agent_headphones_horror",
@@ -2158,8 +2158,8 @@
    "bg": "t12_forensic_agent_headphones_horror"
   },
   {
-   "parent": "t12_forensic_agent_headphones_horror",
-   "run_idx": 2,
+   "parent": "t12_headphones_on_empty_chair",
+   "run_idx": 1,
    "n": 1,
    "sec": 11.1,
    "sids": [
@@ -2171,7 +2171,7 @@
    "chus": [
     "*Đó là một thảm cảnh tang thương vượt quá mọi giới hạn chịu đựng của tâm lý con người, một vết thương không bao giờ có thể phai mờ trong tâm trí tôi.*"
    ],
-   "bg": "t12_forensic_agent_headphones_horror"
+   "bg": "t12_headphones_on_empty_chair"
   },
   {
    "parent": "t12_abandoned_lectern_single_shot",
@@ -2193,8 +2193,8 @@
    "bg": "t12_abandoned_lectern_single_shot"
   },
   {
-   "parent": "t12_abandoned_lectern_single_shot",
-   "run_idx": 2,
+   "parent": "t12_spotlight_on_empty_lectern",
+   "run_idx": 1,
    "n": 1,
    "sec": 9.8,
    "sids": [
@@ -2206,10 +2206,10 @@
    "chus": [
     "*Chi tiết này một lần nữa vạch trần bản chất đạo đức giả và sự hèn nhát tột cùng ẩn sau vỏ bọc ái kỷ của kẻ cầm đầu.*"
    ],
-   "bg": "t12_abandoned_lectern_single_shot"
+   "bg": "t12_spotlight_on_empty_lectern"
   },
   {
-   "parent": "t12_edge_of_the_abyss_shadow",
+   "parent": "t12_barred_window_lattice_shadow",
    "run_idx": 1,
    "n": 2,
    "sec": 22.1,
@@ -2225,11 +2225,11 @@
     "*Hắn bắt hàng trăm đứa trẻ và người già phải chịu đựng nỗi đau đớn tột cùng trước khi qua đời, trong khi bản thân hắn lại chọn cho mình một cái chết nhanh chóng nhất.*",
     "*Kẻ luôn miệng rao giảng về sự hy sinh tập thể thực chất chỉ biết yêu thương bản thân và run sợ trước nỗi đau thể xác của chính mình.*"
    ],
-   "bg": "t12_edge_of_the_abyss_shadow"
+   "bg": "t12_barred_window_lattice_shadow"
   },
   {
-   "parent": "t12_edge_of_the_abyss_shadow",
-   "run_idx": 2,
+   "parent": "t12_curtain_half_closed_stage",
+   "run_idx": 1,
    "n": 1,
    "sec": 8.2,
    "sids": [
@@ -2241,7 +2241,7 @@
    "chus": [
     "*Bức màn nhung khép lại, để lại nỗi bàng hoàng sâu sắc và những câu hỏi lớn cho toàn thể nhân loại tiến bộ.*"
    ],
-   "bg": "t12_edge_of_the_abyss_shadow"
+   "bg": "t12_curtain_half_closed_stage"
   },
   {
    "parent": "t12_memorial_918_names_monolith",
@@ -2263,8 +2263,8 @@
    "bg": "t12_memorial_918_names_monolith"
   },
   {
-   "parent": "t12_memorial_918_names_monolith",
-   "run_idx": 2,
+   "parent": "t12_memorial_stone_candles_dawn",
+   "run_idx": 1,
    "n": 1,
    "sec": 9.5,
    "sids": [
@@ -2276,7 +2276,7 @@
    "chus": [
     "*Sự kiện đau thương này đã để lại một vết thương hằn sâu không thể chữa lành trong lương tri của nước Mỹ và cộng đồng quốc tế.*"
    ],
-   "bg": "t12_memorial_918_names_monolith"
+   "bg": "t12_memorial_stone_candles_dawn"
   },
   {
    "parent": "t12_us_capitol_congressional_hearing",
@@ -2298,8 +2298,8 @@
    "bg": "t12_us_capitol_congressional_hearing"
   },
   {
-   "parent": "t12_us_capitol_congressional_hearing",
-   "run_idx": 2,
+   "parent": "t12_congressional_hearing_empty_chamber",
+   "run_idx": 1,
    "n": 2,
    "sec": 22.5,
    "sids": [
@@ -2314,11 +2314,11 @@
     "*Cái chết của họ là một lời nhắc nhở đau xót về cái giá quá đắt của sự mất cảnh giác trước những ảo tưởng tôn giáo cực đoan.*",
     "*Sau thảm họa Jonestown, Quốc hội Hoa Kỳ đã tổ chức nhiều phiên điều trần công khai để làm rõ trách nhiệm của các cơ quan chính phủ trong việc bỏ qua những lời kêu cứu từ sớm.*"
    ],
-   "bg": "t12_us_capitol_congressional_hearing"
+   "bg": "t12_congressional_hearing_empty_chamber"
   },
   {
-   "parent": "t12_us_capitol_congressional_hearing",
-   "run_idx": 3,
+   "parent": "t12_state_department_empty_corridor",
+   "run_idx": 1,
    "n": 2,
    "sec": 22.1,
    "sids": [
@@ -2333,7 +2333,7 @@
     "*Bộ Ngoại giao Hoa Kỳ đã tiến hành cải tổ toàn diện các quy trình bảo hộ công dân ở nước ngoài và nâng cao năng lực can thiệp khẩn cấp.*",
     "*Các cơ quan hành pháp quốc tế bắt đầu ban hành các hướng dẫn chi tiết nhằm nhận diện sớm những tổ chức có dấu hiệu tích trữ vũ khí và lạm dụng tâm lý.*"
    ],
-   "bg": "t12_us_capitol_congressional_hearing"
+   "bg": "t12_state_department_empty_corridor"
   },
   {
    "parent": "t12_moral_compass_unbroken",
@@ -2374,8 +2374,8 @@
    "bg": "t12_vulnerability_human_compassion"
   },
   {
-   "parent": "t12_vulnerability_human_compassion",
-   "run_idx": 2,
+   "parent": "t12_ordinary_lives_work_gloves",
+   "run_idx": 1,
    "n": 1,
    "sec": 11.7,
    "sids": [
@@ -2387,10 +2387,10 @@
    "chus": [
     "*Đại đa số họ là những người dân lương thiện, giàu lòng trắc ẩn, người da màu và những người chịu nhiều thiệt thòi đang khát khao một mái ấm bình đẳng và yêu thương.*"
    ],
-   "bg": "t12_vulnerability_human_compassion"
+   "bg": "t12_ordinary_lives_work_gloves"
   },
   {
-   "parent": "t12_moral_compass_unbroken",
+   "parent": "t12_two_candles_windowsill_dawn",
    "run_idx": 1,
    "n": 2,
    "sec": 23.7,
@@ -2406,11 +2406,11 @@
     "*Họ đã gửi gắm niềm tin chân thành nhất vào một lý tưởng tiến bộ nhưng đáng tiếc lại trao trọn vận mệnh vào tay một kẻ săn mồi ái kỷ mang nhân cách bệnh hoạn.*",
     "*Chúng ta cần tôn vinh lòng quả cảm của những con người như bà Christine Miller và cô Leslie Wagner-Wilson, những người đã dám lắng nghe trực giác và lên tiếng bảo vệ sinh mạng.*"
    ],
-   "bg": "t12_moral_compass_unbroken"
+   "bg": "t12_two_candles_windowsill_dawn"
   },
   {
-   "parent": "t12_moral_compass_unbroken",
-   "run_idx": 2,
+   "parent": "t12_survivor_empty_chair_doorway",
+   "run_idx": 1,
    "n": 1,
    "sec": 13.9,
    "sids": [
@@ -2422,7 +2422,7 @@
    "chus": [
     "*Sau thảm kịch, những người sống sót phải chịu đựng một vết thương tâm lý nặng nề mang tên Mặc cảm tội lỗi của người sống sót, luôn dằn vặt vì sao mình còn sống trong khi người thân đã ngã xuống.*"
    ],
-   "bg": "t12_moral_compass_unbroken"
+   "bg": "t12_survivor_empty_chair_doorway"
   },
   {
    "parent": "t12_independent_mind_dawn_freedom",
@@ -2444,8 +2444,8 @@
    "bg": "t12_independent_mind_dawn_freedom"
   },
   {
-   "parent": "t12_independent_mind_dawn_freedom",
-   "run_idx": 2,
+   "parent": "t12_empty_cage_in_pale_light",
+   "run_idx": 1,
    "n": 1,
    "sec": 8.5,
    "sids": [
@@ -2457,7 +2457,7 @@
    "chus": [
     "*Lòng trắc ẩn nếu thiếu đi sự tỉnh thức của lý trí sẽ rất dễ trở thành công cụ bị lợi dụng cho cái ác.*"
    ],
-   "bg": "t12_independent_mind_dawn_freedom"
+   "bg": "t12_empty_cage_in_pale_light"
   },
   {
    "parent": "t12_amber_eyes_closing_dossier_jonestown",
@@ -2530,8 +2530,8 @@
    "bg": "t12_redflag3_escalating_commitment_trap"
   },
   {
-   "parent": "t12_redflag3_escalating_commitment_trap",
-   "run_idx": 2,
+   "parent": "t12_empty_trunk_open_padlock",
+   "run_idx": 1,
    "n": 1,
    "sec": 9.8,
    "sids": [
@@ -2543,10 +2543,10 @@
    "chus": [
     "*Khi mất đi quyền tự chủ về kinh tế và phương tiện di chuyển, bạn sẽ mất luôn khả năng tự giải thoát khi nhận ra sự bất thường.*"
    ],
-   "bg": "t12_redflag3_escalating_commitment_trap"
+   "bg": "t12_empty_trunk_open_padlock"
   },
   {
-   "parent": "t12_biological_exhaustion_heat",
+   "parent": "t12_exhausted_worker_hut_wall",
    "run_idx": 1,
    "n": 2,
    "sec": 18.6,
@@ -2562,11 +2562,11 @@
     "*Cảnh báo đỏ thứ ba: Làm suy kiệt thể chất nhằm triệt tiêu năng lực tư duy phản biện.*",
     "*Những kẻ thao túng thường áp dụng lịch làm việc kiệt sức kết hợp với tình trạng thiếu ngủ kéo dài và khẩu phần ăn thiếu thốn để làm suy yếu hệ thần kinh của bạn.*"
    ],
-   "bg": "t12_biological_exhaustion_heat"
+   "bg": "t12_exhausted_worker_hut_wall"
   },
   {
-   "parent": "t12_biological_exhaustion_heat",
-   "run_idx": 2,
+   "parent": "t12_sleep_deprived_bare_bunk",
+   "run_idx": 1,
    "n": 1,
    "sec": 7.9,
    "sids": [
@@ -2578,7 +2578,7 @@
    "chus": [
     "*Khi cơ thể mệt mỏi cùng cực, khả năng nghi ngờ và phản kháng của não bộ sẽ bị tê liệt hoàn toàn.*"
    ],
-   "bg": "t12_biological_exhaustion_heat"
+   "bg": "t12_sleep_deprived_bare_bunk"
   },
   {
    "parent": "t12_redflag4_fortress_paranoia_wall",
@@ -2600,8 +2600,8 @@
    "bg": "t12_redflag4_fortress_paranoia_wall"
   },
   {
-   "parent": "t12_redflag4_fortress_paranoia_wall",
-   "run_idx": 2,
+   "parent": "t12_paranoia_wall_coiled_wire",
+   "run_idx": 1,
    "n": 2,
    "sec": 25.0,
    "sids": [
@@ -2616,10 +2616,10 @@
     "*Ngược lại, nếu một nơi xem người đứng đầu là đấng toàn năng không thể sai lầm và coi sự thắc mắc là tội lỗi cần bị trừng phạt, đó chắc chắn là một cái bẫy độc tài.*",
     "*Họ sẽ thêu dệt nên tâm lý vòng vây thù địch, gieo rắc nỗi sợ hãi rằng toàn bộ thế giới bên ngoài đang âm mưu hãm hại bạn để buộc bạn phải bấu víu vào họ.*"
    ],
-   "bg": "t12_redflag4_fortress_paranoia_wall"
+   "bg": "t12_paranoia_wall_coiled_wire"
   },
   {
-   "parent": "t12_independent_mind_dawn_freedom",
+   "parent": "t12_instinct_bent_branch_path",
    "run_idx": 1,
    "n": 2,
    "sec": 20.2,
@@ -2635,11 +2635,11 @@
     "*Hãy luôn nhớ cuốn sách “The Gift of Fear” của Gavin de Becker: “Trực giác bất an là món quà sinh tồn quý giá nhất của con người.”*",
     "*Khi bên trong bạn dấy lên cảm giác bất an hoặc nghi ngờ trước một lời hứa hẹn quá hoàn hảo, hãy tin vào trực giác ấy và dũng cảm dừng lại.*"
    ],
-   "bg": "t12_independent_mind_dawn_freedom"
+   "bg": "t12_instinct_bent_branch_path"
   },
   {
-   "parent": "t12_independent_mind_dawn_freedom",
-   "run_idx": 2,
+   "parent": "t12_broken_chain_on_stone_step",
+   "run_idx": 1,
    "n": 2,
    "sec": 20.2,
    "sids": [
@@ -2654,10 +2654,10 @@
     "*Không có một lý tưởng nhân văn chân chính nào đòi hỏi bạn phải đánh đổi nhân phẩm, sự tự do hay tính mạng của chính mình và những người thân yêu.*",
     "*Sự tự do thiêng liêng nhất của mỗi con người chính là năng lực tư duy độc lập và lòng dũng cảm bảo vệ ranh giới cá nhân.*"
    ],
-   "bg": "t12_independent_mind_dawn_freedom"
+   "bg": "t12_broken_chain_on_stone_step"
   },
   {
-   "parent": "t12_amber_eyes_closing_dossier_jonestown",
+   "parent": "t12_closing_dossier_extinguished_candle",
    "run_idx": 1,
    "n": 2,
    "sec": 19.9,
@@ -2673,11 +2673,11 @@
     "*Hồ sơ Tập 12 về thảm kịch Jonestown xin được khép lại tại đây với lòng tiếc thương sâu sắc gửi tới chín trăm mười tám nạn nhân vô tội.*",
     "*Cảm ơn quý vị đã dành thời gian đồng hành cùng kênh Amber eyes trong hành trình giải phẫu tâm lý học tội phạm đầy lắng đọng hôm nay.*"
    ],
-   "bg": "t12_amber_eyes_closing_dossier_jonestown"
+   "bg": "t12_closing_dossier_extinguished_candle"
   },
   {
-   "parent": "t12_amber_eyes_closing_dossier_jonestown",
-   "run_idx": 2,
+   "parent": "t12_call_to_action_muted_desk",
+   "run_idx": 1,
    "n": 2,
    "sec": 15.1,
    "sids": [
@@ -2692,11 +2692,11 @@
     "*Nếu thấy video hữu ích, xin quý vị hãy bấm nút thích, đăng ký kênh và chia sẻ góc nhìn của mình trong phần bình luận bên dưới.*",
     "*Kính chúc quý vị luôn giữ vững sự tỉnh thức và an yên trong cuộc sống.*"
    ],
-   "bg": "t12_amber_eyes_closing_dossier_jonestown"
+   "bg": "t12_call_to_action_muted_desk"
   },
   {
-   "parent": "t12_amber_eyes_closing_dossier_jonestown",
-   "run_idx": 3,
+   "parent": "t12_empty_studio_corner_goodbye",
+   "run_idx": 1,
    "n": 1,
    "sec": 6.6,
    "sids": [
@@ -2708,7 +2708,7 @@
    "chus": [
     "*Xin chào và hẹn gặp lại quý vị trong các hồ sơ tâm lý tiếp theo của Amber eyes.*"
    ],
-   "bg": "t12_amber_eyes_closing_dossier_jonestown"
+   "bg": "t12_empty_studio_corner_goodbye"
   }
  ],
  "end_card": "5-44",

@@ -1472,7 +1472,7 @@ EPISODES = {
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
         "route_pins": {},
-        "thumb": ("THẢM KỊCH", "JONESTOWN"),
+        "thumb": ("JONESTOWN", "TRAGEDY") if EN else ("ジョーンズタウン", "偽りの楽園") if JA else ("THẢM KỊCH", "JONESTOWN"),
         "title": "Thảm Kịch Jonestown — Khi 918 Con Người Cùng Bước Vào Chỗ Chết (Hồ Sơ Jim Jones & Peoples Temple)",
         "act_titles": {1: "Hồi 1 · Lời hứa thiên đường và bóng ma nơi rừng sâu", 2: "Hồi 2 · Cuộc phục kích đường băng và tiếng còi báo động định mệnh",
                        3: "Hồi 3 · Giải mã cơ chế tâm lý: Từ phục tùng đến tư duy tập thể", 4: "Hồi 4 · Cuộn băng tử thần Q 042 và tiếng nói phản kháng cô đơn",
