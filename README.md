@@ -8,6 +8,7 @@
 |---|---|
 | **Quy tắc cho mọi AI làm việc ở đây** (đọc đầu tiên) | `AGENTS.md` — Claude Code đọc qua `CLAUDE.md`, Gemini CLI qua `GEMINI.md` |
 | **Xem video đã dựng** | Tập 01: `02_SAN_XUAT/Tap01/xuat_ban/Tap01_master.mp4` · **Tập 02**: `02_SAN_XUAT/Tap02/xuat_ban/Tap02_master.mp4` · **Tập 05**: `02_SAN_XUAT/Tap05/xuat_ban/Tap05_master.mp4` |
+| **Video giới thiệu kênh** (trailer 50 s) | `assets/brand/trailer_kenh_A_vn.mp4` · `assets/brand/trailer_kenh_A_en.mp4` — kịch bản + QC: `02_SAN_XUAT/BRAND/Kichban_Trailer_A.md` · `02_SAN_XUAT/BRAND/BaoCao_QC_Trailer_A_20261116.md` |
 | **Xem video bản tiếng Anh** | `02_SAN_XUAT/Tap01_EN/xuat_ban/Tap01_EN_master.mp4` · `02_SAN_XUAT/Tap02_EN/xuat_ban/Tap02_EN_master.mp4` · **Tập 05 EN**: `02_SAN_XUAT/Tap05_EN/xuat_ban/Tap05_EN_master.mp4` |
 | **Xem video bản tiếng Nhật** | `02_SAN_XUAT/Tap01_JA/xuat_ban/Tap01_JA_master.mp4` · `02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA_master.mp4` · `02_SAN_XUAT/Tap03_JA/xuat_ban/Tap03_JA_master.mp4` |
 | **Kịch bản bản tiếng Hàn (Tập 01–29)** | `01_KICH_BAN/TapXX_KO/kichban_tapXX_KO.md` — chuẩn: `00_TIEU_CHUAN/CHU_CO_DINH_KO.md` |

@@ -9,12 +9,12 @@ WORK = ROOT / ".work"
 OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap12"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-jobs = json.loads((WORK / "bg_jobs_tap12.json").read_text(encoding="utf-8"))
+jobs = json.loads((WORK / "bg_jobs_tap12_v2.json").read_text(encoding="utf-8"))
 
 lines = []
 lines.append('# DANH SÁCH ẢNH NỀN — TẬP 12 "THẢM KỊCH JONESTOWN"')
 lines.append("")
-lines.append("*Hồ sơ Jim Jones & Peoples Temple — Sự Phục Tùng Quyền Lực & Thảm Kịch Thao Túng Tâm Lý Hàng Loạt. Ngày 23/10/2026.*")
+lines.append("*Hồ sơ Jim Jones & Peoples Temple — Sự Phục Tùng Quyền Lực & Thảm Kịch Thao Túng Tâm Lý Hàng Loạt. Cập nhật 16/11/2026 — bộ 152 nền theo H25.*")
 lines.append("")
 lines.append("---")
 lines.append("")
@@ -22,10 +22,10 @@ lines.append("## B1. Thông tin bộ ảnh")
 lines.append("")
 lines.append("| Mục | Nội dung |")
 lines.append("|---|---|")
-lines.append(f"| Số ảnh chuẩn hóa | **{len(jobs)}** ảnh phục vụ trọn vẹn 5 hồi (toàn bộ bảng shot & visual của tập) |")
+lines.append(f"| Số ảnh chuẩn hóa | **{len(jobs)}** ảnh phục vụ trọn vẹn 5 hồi (bộ tách theo H25: 83 nền cũ + 68 nền mới + 1 nền thẻ kết · 1,64 shot/nền) |")
 lines.append("| Kích thước chuẩn | 2112×1188 (16:9 2K), ảnh gốc lưu trữ tại `assets/bg/` |")
 lines.append("| Vị trí lưu trữ | `assets/bg/t12_*.png` — **tiền tố `t12_` bắt buộc** để không trùng bộ nền Tập 01–11 |")
-lines.append("| Danh sách prompt gốc | `.work/bg_jobs_tap12.json` & `.work/gemini_image_prompts_tap12.json` |")
+lines.append("| Danh sách prompt gốc | `.work/bg_jobs_tap12_v2.json` (152 nền H25) & `.work/gemini_image_prompts_tap12.json` |")
 lines.append("| Sổ nguồn gốc tài sản | `provenance.json` (tự động cộng dồn và cập nhật) |")
 lines.append("| Phong cách nghệ thuật | Dark graphic novel noir — nét mực đen đậm, chiaroscuro đối lập cao, bảng màu hổ phách/slate/lạnh, hạt phim cổ điển |")
 lines.append("| Ràng buộc trong prompt | Không chữ · không số · không biển hiệu · không logo · không khung · ảnh tràn viền 16:9 |")
@@ -59,7 +59,7 @@ lines.append("")
 lines.append("## B2. Ánh xạ ảnh → hồi → mốc câu")
 lines.append("")
 lines.append("Mốc câu theo `.work/script_tap12.json` (parse từ `01_KICH_BAN/Tap12/kichban_tap12_23102026.md`):  ")
-lines.append("**33 lượt thoại · 165 câu · 4.630 từ** (Host 91 câu, Điều tra viên 27 câu, Chuyên gia tâm lý 31 câu, Người bình thường 16 câu).")
+lines.append("**33 lượt thoại · 249 câu · 7.683 từ** (Host 136 câu, Điều tra viên 37 câu, Chuyên gia tâm lý 61 câu, Người bình thường 15 câu: N1 8 · N2 7).")
 lines.append("")
 
 act_titles = {

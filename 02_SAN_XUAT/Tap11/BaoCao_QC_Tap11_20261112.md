@@ -1,5 +1,11 @@
 # BÁO CÁO QC — TẬP 11 · SINH NỀN CLOUDFLARE FLUX.1 & RENDER ẢNH TĨNH 3 NGÔN NGỮ
 
+> **⚠️ ĐÍNH CHÍNH (ghi 16/11/2026)** — Báo cáo này mô tả **lượt sinh ngày 12/11/2026** và **không còn phản ánh trạng thái hiện tại** của bộ nền Tập 11:
+> 1. **Công cụ:** 12/11 dùng Cloudflare FLUX.1 (`@cf/black-forest-labs/flux-1-schnell`) cho 70 nền. Ngày **13/11/2026** bộ nền đã được **sinh lại bằng Kaggle FLUX.2-klein-4B** (theo `QUY_TAC_TAO_ANH_KAGGLE_FLUX.md`) ⇒ `provenance.json` ghi "Kaggle FLUX.2-klein-4B" là **đúng**, còn câu "Cloudflare FLUX.1" ở báo cáo này là **lịch sử của lượt 12/11**, không phải trạng thái hiện tại.
+> 2. **Số nền:** 12/11 là **70 nền**; từ 16/11/2026 bộ nền được **tách theo H25** thành **136 nền** (223 shot · 1,64 shot/nền · 0 vi phạm H22 ở cả VI/EN/JA).
+> 3. **Ảnh tĩnh 669 ảnh** render ngày 12/11 **không còn khớp** bảng shot mới ⇒ cần render lại.
+> → Báo cáo hiện hành: **`BaoCao_QC_Tap11_20261116.md`**.
+
 **Ngày thực hiện:** 12/11/2026  
 **Hồ sơ vụ án:** Paul Bernardo & Karla Homolka (Cặp đôi Ken & Barbie — Hội Chứng Điên Cuồng Đôi Folie à Deux & Thỏa Thuận Với Quỷ Dữ)  
 **Công cụ sinh ảnh nền:** **Cloudflare Workers AI** — mô hình `@cf/black-forest-labs/flux-1-schnell`  

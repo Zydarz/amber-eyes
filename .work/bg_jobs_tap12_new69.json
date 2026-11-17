@@ -1,0 +1,554 @@
+[
+ {
+  "name": "t12_alarm_bell_night_settlement",
+  "act": 2,
+  "sentences": "2.07#8",
+  "desc": "Chuông báo động bằng thép treo trên cọc giữa khu định cư lúc đêm, ánh sáng đỏ nhạt hắt lên những lều trại tối.",
+  "prompt": "A steel alarm bell mounted on a pole in the middle of a jungle settlement at night, faint red glow washing over dark wooden huts, thick mist, an oppressive warning, no people, no figures, no text, no logos",
+  "seed": 22005
+ },
+ {
+  "name": "t12_analysis_room_doorway",
+  "act": 3,
+  "sentences": "3.02#6",
+  "desc": "Cửa mở giữa hai căn phòng trống, một bên sáng lạnh một bên tối đen, chiếc ghế trống đặt ngay ngắn trong ánh sáng.",
+  "prompt": "An open doorway between two bare rooms, one washed in cold light and one pitch black, a single empty wooden chair in the lit room, a long shadow across the floor, no people, no faces, no text, no signage",
+  "seed": 22007
+ },
+ {
+  "name": "t12_archive_boxes_metal_shelf",
+  "act": 4,
+  "sentences": "4.08#6",
+  "desc": "Chồng hộp lưu trữ xám trên kệ thép trong phòng lưu trữ mờ, một hộp bị kéo lệch ra nửa chừng, bụi và ánh đèn lạnh.",
+  "prompt": "Stacks of grey archive boxes on metal shelving in a dim archive room, one box pulled half out, a cold fluorescent tube, dust, the weight of a hidden record, no labels, no writing, no text of any kind",
+  "seed": 22008
+ },
+ {
+  "name": "t12_barred_window_lattice_shadow",
+  "act": 4,
+  "sentences": "4.11#4–4.11#5",
+  "desc": "Ánh trăng lạnh xuyên qua khung cửa sổ song sắt in lên nền bê tông trống thành hình lưới, một chiếc giường thô ở góc.",
+  "prompt": "Cold moonlight through a barred window casting a lattice shadow across an empty concrete floor, a rough cot in the corner, deep night stillness, no people, no figures, no text",
+  "seed": 22011
+ },
+ {
+  "name": "t12_blank_folded_slip_in_hand",
+  "act": 2,
+  "sentences": "2.04#3",
+  "desc": "Mảnh giấy nhỏ gấp tư nằm trên lòng bàn tay trong bóng tối, hoàn toàn trắng trơn không một nét mực, chỉ mép giấy bắt ánh sáng lạnh.",
+  "prompt": "A small folded slip of completely blank unmarked paper resting in an open hand swallowed by darkness, only the paper edge catching a thin cold rim of light, deep shadow, no writing, no letters, no words, no numbers, no text of any kind",
+  "seed": 22013
+ },
+ {
+  "name": "t12_brass_compass_on_bare_table",
+  "act": 4,
+  "sentences": "4.07#5–4.07#6",
+  "desc": "Một chiếc la bàn đồng cũ nằm mở trên mặt bàn gỗ trần trong luồng sáng lạnh, xung quanh chỉ là bóng tối.",
+  "prompt": "An old brass compass lying open on a bare wooden table inside a shaft of cold light, everything else in deep shadow, an unbroken moral compass, no people, no hands, no writing, no text",
+  "seed": 22014
+ },
+ {
+  "name": "t12_broken_chain_on_stone_step",
+  "act": 5,
+  "sentences": "5.05#17–5.05#18",
+  "desc": "Một đoạn xích nặng đứt làm đôi nằm trên bậc đá lúc bình minh, sương mù, ánh sáng lạnh, không có bàn tay nào.",
+  "prompt": "A length of heavy chain broken in two lying on a stone step at dawn, cold mist, pale light, no hands, no people, no writing, no text",
+  "seed": 22015
+ },
+ {
+  "name": "t12_call_to_action_muted_desk",
+  "act": 5,
+  "sentences": "5.05#21–5.05#22",
+  "desc": "Bàn gỗ tối buổi đêm với một chiếc cốc rỗng và một tấm thẻ trắng trơn, vùng sáng dịu dàng, không có chữ.",
+  "prompt": "A plain dark desk at night with a single empty cup and a small blank card, a muted warm pool of light, generous empty space, no people, no writing, no signs, no logos, no text of any kind",
+  "seed": 22017
+ },
+ {
+  "name": "t12_child_shoes_alone_in_light",
+  "act": 3,
+  "sentences": "3.02#3",
+  "desc": "Một đôi giày nhỏ của trẻ con nằm lẻ loi trên nền bụi trong luồng sáng nhạt, xung quanh chỉ có bóng tối.",
+  "prompt": "A pair of small worn children's shoes lying alone on a dusty floor inside a shaft of pale light, everything else lost in deep shadow, a father's silent grief, no people, no faces, no text",
+  "seed": 22021
+ },
+ {
+  "name": "t12_circle_of_shadows_around_one_light",
+  "act": 4,
+  "sentences": "4.06#3–4.06#4",
+  "desc": "Một vòng bóng người giơ tay khép kín quanh một người nhỏ đứng giữa được soi sáng, nhìn từ trên xuống.",
+  "prompt": "A circle of dark silhouettes with raised arms closing in around one small lit figure at the centre, seen from above, no faces, no weapons, no blood, oppressive darkness, no text",
+  "seed": 22023
+ },
+ {
+  "name": "t12_closed_circle_of_stools",
+  "act": 3,
+  "sentences": "3.05#3–3.05#4",
+  "desc": "Một vòng ghế thấp giống hệt nhau vây quanh một vệt tro vẽ tròn trên nền bê tông, bên ngoài trống trải và lạnh lẽo.",
+  "prompt": "A cluster of identical low stools arranged inside a circle drawn in chalk on a bare concrete floor, the outside of the circle cold and empty, harsh overhead light, no people, no faces, no writing, no text",
+  "seed": 22025
+ },
+ {
+  "name": "t12_closing_card_dossier",
+  "act": 5,
+  "sentences": "",
+  "desc": "Thẻ kết tập: hồ sơ bìa đen đóng lại đặt một mình trên bàn tối dưới một luồng sáng lạnh, bìa hoàn toàn trơn không chữ.",
+  "prompt": "A closed black dossier folder standing alone on a plain dark table under one narrow shaft of cold light, completely blank unmarked cover with no writing at all, deep shadow, no people, no faces, no lettering, no logos, no text",
+  "seed": 22026
+ },
+ {
+  "name": "t12_closing_dossier_extinguished_candle",
+  "act": 5,
+  "sentences": "5.05#19–5.05#20",
+  "desc": "Một hồ sơ bìa đen đóng lại trên bàn tối cạnh một ngọn nến đã tắt và một bát nhỏ, một luồng sáng hẹp, bóng tối sâu.",
+  "prompt": "A closed black case folder on a dark desk beside a single extinguished candle and a small plain bowl, one narrow shaft of cold light, deep shadow, no writing, no labels, no papers with text, no people",
+  "seed": 22027
+ },
+ {
+  "name": "t12_congressional_hearing_empty_chamber",
+  "act": 5,
+  "sentences": "5.02#6–5.03#1",
+  "desc": "Phòng điều trần Quốc hội trống với những dãy ghế gỗ bậc thang và bục nói cao, ánh sáng ban ngày lạnh qua cửa sổ cao.",
+  "prompt": "A vast empty congressional hearing chamber with tiered wooden benches and a raised speaker's dais, cold daylight through high windows, no people, no faces, no writing, no text, no signage",
+  "seed": 22032
+ },
+ {
+  "name": "t12_cornered_parent_floor_shadow",
+  "act": 2,
+  "sentences": "2.11#9",
+  "desc": "Một người lớn quỳ gối trên nền bê tông trần trong phòng trống, hai tay ôm đầu, mặt vùi trong bóng tối, không còn lối thoát.",
+  "prompt": "A lone adult silhouette kneeling on a bare concrete floor in an empty room, knees drawn up, hands clasped over the head, face buried in shadow, one overhead bulb, a deadlocked corner, no other people, no faces, no text",
+  "seed": 22034
+ },
+ {
+  "name": "t12_cot_hiding_shadow_dark_hut",
+  "act": 4,
+  "sentences": "4.09#4–4.09#5",
+  "desc": "Chiếc giường thấp trong gian lều tối với chăn nhàu, một khe sáng mỏng dưới khung giường, bụi lơ lửng, sự yên lặng ngột ngạt.",
+  "prompt": "A low wooden cot in a dark hut interior with rumpled blankets, a thin gap of light under the frame, dust in the air, someone hiding, oppressive stillness, no people, no figures, no text",
+  "seed": 22035
+ },
+ {
+  "name": "t12_curtain_half_closed_stage",
+  "act": 4,
+  "sentences": "4.11#6",
+  "desc": "Một tấm rèm nhung nặng khép hờ trên sân khấu trống, ánh sáng lạnh lọt qua khe hở, bụi lơ lửng trong tia sáng.",
+  "prompt": "A heavy stage curtain half closed across an empty platform, cold light leaking through the gap, dust suspended in the beam, the closing of a curtain, no people, no faces, no text",
+  "seed": 22037
+ },
+ {
+  "name": "t12_empty_cage_in_pale_light",
+  "act": 5,
+  "sentences": "5.04#9",
+  "desc": "Một chiếc lồng chim kim loại tối treo lơ lửng trong một luồng sáng nhạt, không có chim, không có dây.",
+  "prompt": "An empty dark metal birdcage hanging in a shaft of pale light, no bird inside, faint dust, captivity and its weapon, no people, no writing, no text",
+  "seed": 22040
+ },
+ {
+  "name": "t12_empty_chair_rope_coil",
+  "act": 3,
+  "sentences": "3.04#3",
+  "desc": "Chiếc ghế gỗ trống giữa hành lang tối, bên cạnh là một cuộn dây thừng trên nền bê tông, sự tĩnh lặng đè nặng.",
+  "prompt": "An empty wooden chair in a dark corridor with a coiled rope lying on the concrete floor beside it, one narrow shaft of light, oppressive stillness, no people, no figures, no violence, no text",
+  "seed": 22041
+ },
+ {
+  "name": "t12_empty_cradle_pale_shaft",
+  "act": 2,
+  "sentences": "2.13#3",
+  "desc": "Chiếc nôi gỗ trống trong gian lều tối, tấm vải gấp treo trên thành nôi, một luồng sáng nhạt xuyên qua khe cửa.",
+  "prompt": "An empty wooden cradle in a dim hut interior, a folded blanket hanging over the rail, a single pale shaft of light through a gap in the wall, dust in the beam, absolute silence, no people, no infants, no bodies, no blood",
+  "seed": 22042
+ },
+ {
+  "name": "t12_empty_hall_after_the_cry",
+  "act": 4,
+  "sentences": "4.08#3",
+  "desc": "Hội trường trống với những dãy ghế bị lật úp, một món đồ chơi nhỏ nằm lại trên sàn, sự tĩnh lặng tuyệt đối.",
+  "prompt": "A vast empty hall with rows of overturned benches and one small toy left on the floor, absolute stillness, a single shaft of light, no people, no bodies, no blood, no text",
+  "seed": 22043
+ },
+ {
+  "name": "t12_empty_lecture_hall_rows",
+  "act": 3,
+  "sentences": "3.04#6",
+  "desc": "Những hàng ghế gỗ trống quay về phía bục trơn trong hội trường tối, một bóng đèn trần lạnh, bụi lơ lửng trong không khí.",
+  "prompt": "Rows of empty wooden chairs facing a bare platform in a dim lecture hall, a single cold overhead light, dust hanging in the air, no people, no faces, no writing, no text, no signage",
+  "seed": 22044
+ },
+ {
+  "name": "t12_empty_microphone_after_crowd",
+  "act": 4,
+  "sentences": "4.04#3",
+  "desc": "Chiếc micro còn trống trên chân đế trong hội trường đã vắng, một chiếc ghế đổ nghiêng, ánh sáng lạnh rơi lệch.",
+  "prompt": "A single microphone standing empty on its stand in a hall where the crowd has gone, one chair tipped over, cold light falling off to one side, absolute silence, no people, no faces, no text",
+  "seed": 22045
+ },
+ {
+  "name": "t12_empty_studio_corner_goodbye",
+  "act": 5,
+  "sentences": "5.05#23",
+  "desc": "Góc phòng thu âm trống với một chiếc ghế và cửa sổ lạnh lúc đêm, ánh sáng đang tắt dần, tĩnh lặng.",
+  "prompt": "An empty studio corner with a single chair and a cold window at night, the light fading away, quiet and still, no people, no faces, no text, no signage",
+  "seed": 22046
+ },
+ {
+  "name": "t12_empty_trunk_open_padlock",
+  "act": 5,
+  "sentences": "5.05#7",
+  "desc": "Một chiếc vali kim loại mở nắp trên sàn với ổ khóa nặng treo lơ lửng bên cạnh, bên trong trống trơn, ánh sáng lạnh.",
+  "prompt": "An open metal travel trunk on a floor with its lid raised, empty inside, a heavy padlock hanging open beside it, cold light, loss of the power to leave, no people, no labels, no writing, no text",
+  "seed": 22047
+ },
+ {
+  "name": "t12_exhausted_worker_hut_wall",
+  "act": 5,
+  "sentences": "5.05#8–5.05#9",
+  "desc": "Một bóng người lao động kiệt sức tựa lưng vào vách lều gỗ dưới nắng trưa gay gắt, mặt vùi trong bóng của vai.",
+  "prompt": "A single exhausted worker silhouette slumped against a wooden hut wall in harsh midday sun, face buried in the shadow of the shoulder, no faces, no violence, no text",
+  "seed": 22050
+ },
+ {
+  "name": "t12_flashlight_beams_in_jungle",
+  "act": 4,
+  "sentences": "4.08#4–4.08#5",
+  "desc": "Vài luồng đèn pin lạnh cắt ngang lớp cây rậm dưới rừng ban đêm, chỉ thấy ánh sáng, không thấy ai.",
+  "prompt": "Several cold flashlight beams cutting through dense jungle undergrowth at night, only the light cones visible in humid air, no figures, no faces, no weapons, no text",
+  "seed": 22055
+ },
+ {
+  "name": "t12_headphones_on_empty_chair",
+  "act": 4,
+  "sentences": "4.10#7",
+  "desc": "Một chiếc tai nghe đặt trên ghế trống trong căn phòng tang vật tối, một tia sáng hẹp rơi ngang, bụi lạnh và im lặng.",
+  "prompt": "A single pair of headphones resting on an empty chair in a dark evidence room, a narrow light beam falling across them, cold dust, a wound that never fades, no people, no hands, no text",
+  "seed": 22063
+ },
+ {
+  "name": "t12_helicopter_over_jungle_clearing",
+  "act": 4,
+  "sentences": "4.10#1–4.10#2",
+  "desc": "Một chiếc trực thăng tối đang hạ xuống bầu trời xám trên khoảng trống trong rừng rậm, sương mù và những mái lều tí hon bên dưới.",
+  "prompt": "A dark helicopter descending through grey sky over an empty jungle clearing, thick canopy, low mist, tiny tin-roofed huts far below, no people, no figures, no text",
+  "seed": 22064
+ },
+ {
+  "name": "t12_high_seat_under_dome",
+  "act": 3,
+  "sentences": "3.07#3",
+  "desc": "Chiếc ghế cao trống trên bện đài dưới một mái vòm tối, một cột sáng dọc rơi xuống, trống rỗng tuyệt đối.",
+  "prompt": "A tall empty wooden seat on a raised platform beneath a dark dome, a single column of light falling on it, absolute emptiness and control, no people, no faces, no symbols, no text",
+  "seed": 22065
+ },
+ {
+  "name": "t12_identical_silhouette_crowd",
+  "act": 3,
+  "sentences": "3.03#6",
+  "desc": "Một đám đông gồm những bóng người giống hệt nhau đứng cùng hướng, mặt nào cũng không thấy, sương lạnh bao phủ.",
+  "prompt": "A dense crowd of identical dark silhouettes all facing the same direction, every face invisible in shadow, cold fog between them, oppressive repetition, no faces, no text, no logos",
+  "seed": 22066
+ },
+ {
+  "name": "t12_instinct_bent_branch_path",
+  "act": 5,
+  "sentences": "5.05#15–5.05#16",
+  "desc": "Con đường rừng hẹp mở ra tầm nhìn lạnh giữa sương chiều, một cành cây gãy chắn ngang lối đi.",
+  "prompt": "A narrow forest path opening toward a cold horizon at dusk, one bent broken branch lying across the trail, mist, deep shadow, the instinct that saves, no people, no figures, no text",
+  "seed": 22072
+ },
+ {
+  "name": "t12_jungle_silence_empty_clearing",
+  "act": 2,
+  "sentences": "2.13#7–2.13#8",
+  "desc": "Khoảng trống trong rừng rậm lúc bình minh, sương mù giữa các thân cây, một chiếc ghế gỗ đổ và một đôi giày bị bỏ lại ở rìa.",
+  "prompt": "A wide empty clearing in dense Guyanan rainforest at first light, mist drifting between the trunks, one overturned wooden chair and a single abandoned shoe at the edge, breathless silence, no people, no figures, no bodies, no blood, no text",
+  "seed": 22076
+ },
+ {
+  "name": "t12_kneeling_silhouettes_row",
+  "act": 4,
+  "sentences": "4.08#1–4.08#2",
+  "desc": "Một hàng bóng người lớn quỳ gối trong hội trường trống, đầu cúi thấp, nhìn từ phía sau, ánh sáng lạnh từ cửa sổ trên cao.",
+  "prompt": "A line of adult silhouettes kneeling in a bare hall with heads bowed, seen from behind, cold light from a high window, grief without faces, no bodies, no blood, no violence, no text",
+  "seed": 22077
+ },
+ {
+  "name": "t12_looming_tool_dark_table",
+  "act": 2,
+  "sentences": "2.07#5",
+  "desc": "Một vật sắc dài nằm trên mặt bàn gỗ thô trong bóng tối dày, gợi cảm giác đe dọa nhưng không có hành động nào được vẽ.",
+  "prompt": "A long worn blade lying on a rough wooden table half-swallowed by darkness, single hard light from the side, deep shadow, an ominous still life, no people, no hands, no violence, no blood, no text",
+  "seed": 22080
+ },
+ {
+  "name": "t12_loudspeaker_horn_rain_night",
+  "act": 4,
+  "sentences": "4.02#3",
+  "desc": "Cái loa vòm sừng cũ gắn cao trên vách gỗ giữa đêm mưa, nước chảy trên mái tôn, ánh sáng lạnh yếu ớt.",
+  "prompt": "A battered horn loudspeaker mounted high on a wooden hut wall on a rainy night, rain running off the tin roof, faint cold light, a voice that never stops, no people, no text, no logos",
+  "seed": 22081
+ },
+ {
+  "name": "t12_memorial_stone_candles_dawn",
+  "act": 5,
+  "sentences": "5.02#3",
+  "desc": "Một bức tường đá xám trơn trong sương sớm, dọc theo chân tường là hàng ngọn nến nhỏ đang cháy, không khắc chữ.",
+  "prompt": "A long low wall of plain unlettered stone in grey dawn mist, rows of small candles burning along its base, no inscriptions, no names, no writing, no text of any kind, no people",
+  "seed": 22086
+ },
+ {
+  "name": "t12_miller_silhouette_at_microphone",
+  "act": 4,
+  "sentences": "4.04#1–4.04#2",
+  "desc": "Một người phụ nữ lớn tuổi chỉ hiện dạng bóng đứng trước micro trên bục cao giữa đám đông tối, bị ánh sáng mạnh từ phía sau.",
+  "prompt": "A lone older woman seen entirely in silhouette standing at a microphone on a raised platform before a vast dark crowd of shadowed heads, hard backlight, her face invisible in shadow, no faces, no text",
+  "seed": 22089
+ },
+ {
+  "name": "t12_mother_carrying_child_dawn_path",
+  "act": 4,
+  "sentences": "4.09#1–4.09#2",
+  "desc": "Bóng người lớn bồng đứa trẻ bước đi trên lối mòn bùn lúc bình minh, nhìn từ phía sau, mặt nào cũng không thấy.",
+  "prompt": "A dark silhouette of an adult carrying a small bundled child walking away along a muddy jungle path at dawn, seen from behind, faces invisible in shadow, no faces, no violence, no text",
+  "seed": 22094
+ },
+ {
+  "name": "t12_official_vehicle_closed_road",
+  "act": 1,
+  "sentences": "1.10#10",
+  "desc": "Xe sedan của đoàn đại biểu đậu trên đường đất đỏ vắng lặng trong rừng, gương xe không phản chiếu gì, sương mờ phía xa.",
+  "prompt": "A plain government sedan parked alone on a red dirt road cutting through dense jungle, cold flat overcast light, mist swallowing the distance, closed metal gate behind, no people, no faces, no licence plates, no text, no logos",
+  "seed": 22097
+ },
+ {
+  "name": "t12_old_radio_receiver_dark",
+  "act": 2,
+  "sentences": "2.11#3",
+  "desc": "Một chiếc radio cũ đặt trên bàn gỗ trong hành lang tối, mặt đồng hơi sáng mờ, không có chữ hay số nào trên mặt.",
+  "prompt": "An old valve radio receiver on a rough wooden table in a dark corridor, the dial glowing faintly, a bare bulb far down the hall, dust, oppressive stillness, no people, no hands, no writing, no numbers, no text",
+  "seed": 22098
+ },
+ {
+  "name": "t12_open_hands_in_light_beam",
+  "act": 4,
+  "sentences": "4.04#6",
+  "desc": "Hai bàn tay mở ngửa giơ lên trong luồng sáng nhạt giữa căn phòng tối, không thấy thân người, bụi lơ lửng trong tia sáng.",
+  "prompt": "Two open empty hands held upward in a shaft of pale light inside a dark room, no body visible, dust floating in the beam, human dignity, no faces, no writing, no text",
+  "seed": 22099
+ },
+ {
+  "name": "t12_ordinary_lives_work_gloves",
+  "act": 5,
+  "sentences": "5.04#3",
+  "desc": "Một hàng găng tay lao động cũ và một hộp cơm bằng thiếc trên bàn gỗ thô, chiếc ghế đơn giản, ánh sáng xám mềm qua cửa sổ.",
+  "prompt": "A row of worn work gloves and a plain tin lunch box on a rough table, a simple wooden chair, soft grey window light, ordinary generous lives, no people, no hands, no writing, no text",
+  "seed": 22100
+ },
+ {
+  "name": "t12_overturned_chair_fallen_microphone",
+  "act": 4,
+  "sentences": "4.07#7–4.07#8",
+  "desc": "Một chiếc ghế gỗ đổ ngược trên sân khấu trống, chiếc micro rơi xuống bên cạnh, ánh sáng cứng từ một phía.",
+  "prompt": "An overturned wooden chair on a bare platform, a microphone fallen beside it, hard light from one side, absolute silence after a voice stops, no people, no faces, no text",
+  "seed": 22101
+ },
+ {
+  "name": "t12_paranoia_barred_window_rain",
+  "act": 1,
+  "sentences": "1.11#3",
+  "desc": "Bóng người đứng sau khung cửa sổ có song sắt giữa đêm mưa, nhìn từ bên ngoài, mặt chìm hoàn toàn trong bóng tối.",
+  "prompt": "A lone dark silhouette standing behind a barred window on a rainy night, seen from outside, face completely hidden in shadow, cold rain streaks on the glass, one dim bulb behind, oppressive solitude, no people, no faces, no text",
+  "seed": 22102
+ },
+ {
+  "name": "t12_paranoia_wall_coiled_wire",
+  "act": 5,
+  "sentences": "5.05#13–5.05#14",
+  "desc": "Bức tường bê tông cao có dây thép cuộn trên đỉnh dưới trời xám, một buồng gác cổng đóng im ếm đổ bóng dài.",
+  "prompt": "A tall concrete wall topped with coiled wire under a pale grey sky, a single closed guard booth casting a long shadow, a fortress of paranoia, no people, no signs, no writing, no text",
+  "seed": 22104
+ },
+ {
+  "name": "t12_podium_microphone_shadow",
+  "act": 2,
+  "sentences": "2.09#5",
+  "desc": "Bục giảng gỗ trống dưới một luồng sáng chói, chiếc micro quen thuộc trên chân đế, bóng người nói đổ dài trên vách.",
+  "prompt": "An empty raised wooden podium under a single harsh spotlight, a familiar microphone on a metal stand, an enormous speaker shadow thrown across the wall behind, empty hall, no people, no faces, no text, no logos",
+  "seed": 22106
+ },
+ {
+  "name": "t12_raised_fist_behind_microphone",
+  "act": 4,
+  "sentences": "4.06#1–4.06#2",
+  "desc": "Bóng một bàn tay nắm đấm giơ lên sau chân micro trên bục giảng, đám đông là những cái đầu bóng tối bên dưới.",
+  "prompt": "A dark silhouette of a raised fist and shoulder behind a microphone stand on a raised platform, harsh backlight, a crowd of shadowed heads below, faces invisible, no faces, no text",
+  "seed": 22113
+ },
+ {
+  "name": "t12_reel_to_reel_archive_recorder",
+  "act": 3,
+  "sentences": "3.07#6–3.07#7",
+  "desc": "Máy ghi âm cuộn cuộn đặt trên kệ thép trong phòng lưu trữ tối, một cuộn băng đang dở dang, bụi phủ và ánh sáng lạnh.",
+  "prompt": "A reel-to-reel tape recorder on a steel shelf in a dark archive room, one tape half spooled, a single cold lamp, dust, the record of a crime, no people, no hands, no labels, no writing, no text",
+  "seed": 22120
+ },
+ {
+  "name": "t12_scattered_belongings_empty_clearing",
+  "act": 4,
+  "sentences": "4.10#3–4.10#4",
+  "desc": "Khoảng đất trống rải rác quần áo, ghế đổ, đồ chơi trẻ con và giày dép, không một ai, sự tĩnh lặng nóng ẩm đè nặng.",
+  "prompt": "A bare clearing strewn with scattered clothing, overturned chairs, children's toys and shoes on the ground, thick humid stillness, absolute absence, no people, no bodies, no blood, no violence, no text",
+  "seed": 22122
+ },
+ {
+  "name": "t12_self_deception_blank_mirror",
+  "act": 3,
+  "sentences": "3.05#11–3.05#12",
+  "desc": "Một chiếc gương cao bẩn thở trong căn phòng tối chỉ phản chiếu một mặt phẳng xám trơn, bên cạnh là chiếc ghế gỗ.",
+  "prompt": "A tall grimy mirror in a dark room reflecting only a blank grey surface, a plain wooden stool beside it, cold light from a shuttered window, self deception, no people, no faces, no writing, no text",
+  "seed": 22124
+ },
+ {
+  "name": "t12_single_candle_raised_in_dark",
+  "act": 4,
+  "sentences": "4.04#4–4.04#5",
+  "desc": "Một ngọn nến được giơ cao giữa đại sảnh tối, ngọn lửa nhỏ là nguồn sáng duy nhất, đám người quay lưng về phía ánh sáng.",
+  "prompt": "One small candle raised high in a vast dark hall, its flame the only light source, rows of shadowed figures turned away from it, dust in the glow, no faces, no text",
+  "seed": 22126
+ },
+ {
+  "name": "t12_single_drink_cup_shadowed_hand",
+  "act": 2,
+  "sentences": "2.13#6",
+  "desc": "Một chiếc cốc giấy đơn lẻ nằm trong bàn tay bóng tối, phía sau là thùng kim loại mờ, ánh sáng hành lang yếu ớt.",
+  "prompt": "A single plain paper cup held in a shadowed hand at waist height, a large metal drum blurred in the background, weak corridor light, dreadful calm, no people, no faces, no writing, no labels, no text",
+  "seed": 22127
+ },
+ {
+  "name": "t12_sinking_bundles_muddy_road",
+  "act": 3,
+  "sentences": "3.05#7–3.05#8",
+  "desc": "Những bó đồ đạc buộc lại chìm dần trong bùn xám ven con đường rừng, dây thừng quấn quanh, trời xám xịt.",
+  "prompt": "Tied bundles of household belongings sinking slowly into grey mud at the edge of a jungle road, a coil of rope among them, flat overcast light, no people, no faces, no labels, no text",
+  "seed": 22128
+ },
+ {
+  "name": "t12_sleep_deprived_bare_bunk",
+  "act": 5,
+  "sentences": "5.05#10",
+  "desc": "Một chiếc giường thô với chăn mỏng trong lều tối, một bóng đèn lồng kính, bóng đổ dài trên vách, không ai.",
+  "prompt": "A bare wooden bunk with a thin blanket in a dark hut, a single caged bulb, long shadows on the wall, sleepless exhaustion, no people, no figures, no text",
+  "seed": 22130
+ },
+ {
+  "name": "t12_spotlight_on_empty_lectern",
+  "act": 4,
+  "sentences": "4.11#3",
+  "desc": "Một luồng đèn rọi trắng rơi lên bục giảng gỗ trống với chiếc micro bỏ lại, cả hội trường chìm trong bóng tối.",
+  "prompt": "A single white spotlight on an empty wooden lectern with a microphone left on it, the rest of the hall drowned in darkness, a long shadow across the floor, no people, no faces, no text",
+  "seed": 22131
+ },
+ {
+  "name": "t12_staircase_into_blackness",
+  "act": 3,
+  "sentences": "3.05#13",
+  "desc": "Cầu thang gỗ hẹp xoắn ốc đi xuống bóng tối đặc quánh dưới một lều rừng, chỉ một bóng đèn yếu ở trên cùng.",
+  "prompt": "A narrow wooden staircase spiralling down into pitch black beneath a jungle hut, a single weak bulb at the top, oppressive depth, no people, no figures, no text",
+  "seed": 22132
+ },
+ {
+  "name": "t12_state_department_empty_corridor",
+  "act": 5,
+  "sentences": "5.03#2–5.03#3",
+  "desc": "Hành lang bộ Ngoại giao trống với cửa sổ cao và những cánh cửa gỗ khép kín, một bàn gác thị sự bỏ trống.",
+  "prompt": "An empty government department corridor with tall windows and closed wooden doors, a bare reception desk, cold institutional daylight, no people, no signs, no lettering, no text",
+  "seed": 22133
+ },
+ {
+  "name": "t12_steel_drum_pitcher_floor",
+  "act": 2,
+  "sentences": "2.11#6",
+  "desc": "Một thùng thép lớn đặt trên nền bê tông với vòi nước nặng, bên cạnh là bình chất lỏng đục, không nhãn dán nào trên thùng.",
+  "prompt": "A large steel drum with a heavy spigot standing on a bare concrete floor, a cloudy pale liquid visible inside, a metal pitcher beside it, harsh overhead light, clinical and terrible, no people, no hands, no labels, no writing, no text",
+  "seed": 22134
+ },
+ {
+  "name": "t12_survivor_empty_chair_doorway",
+  "act": 5,
+  "sentences": "5.04#6",
+  "desc": "Một chiếc ghế trống quay về phía cánh cửa sáng lóa trong gian lều tối lúc bình minh, bóng dài kéo trên sàn.",
+  "prompt": "A single empty chair facing a bright doorway in a dark hut interior at dawn, a long shadow across the floor, the weight of survivor's guilt, no people, no faces, no text",
+  "seed": 22136
+ },
+ {
+  "name": "t12_swamp_footpath_dawn_mist",
+  "act": 4,
+  "sentences": "4.09#3",
+  "desc": "Con đường mòn bùn hẹp xuyên qua rừng ngập nước Guyana lúc bình minh, bờ lau cao, sương thấp, dấu chân lún trên bùn.",
+  "prompt": "A narrow muddy footpath through flooded Guyanan swamp at dawn, tall reed walls, low mist, a single pair of footprints pressed into the mud, no people, no figures, no text",
+  "seed": 22137
+ },
+ {
+  "name": "t12_testimony_room_single_chair",
+  "act": 4,
+  "sentences": "4.09#6",
+  "desc": "Căn phòng kể chuyện trống với một chiếc ghế, một bàn, máy ghi âm cuộn trên bàn và cửa sổ song sắt cao.",
+  "prompt": "A bare interview room with a single chair, a plain table, a reel-to-reel recorder on the table, a high barred window, hard daylight, no people, no faces, no labels, no writing, no text",
+  "seed": 22139
+ },
+ {
+  "name": "t12_thin_porridge_metal_bowl",
+  "act": 3,
+  "sentences": "3.06#3",
+  "desc": "Bát sắt đựng cháo loãng xám trên bàn gỗ trần, bên cạnh một củ sắn thô và vài lá rau héo, ánh sáng xám qua cửa lưới.",
+  "prompt": "A metal bowl of thin grey porridge on a bare wooden table, a raw cassava root and a few wilted leaves beside it, flat grey light through a screened window, no people, no hands, no writing, no text",
+  "seed": 22140
+ },
+ {
+  "name": "t12_throne_of_empty_shadow",
+  "act": 3,
+  "sentences": "3.03#9",
+  "desc": "Chiếc ghế cao đặt trên bện đài trong đại sảnh tối, một luồng sáng cứng chiếu xuống, bóng dài méo mó trên vách.",
+  "prompt": "An empty raised chair on a small platform in a vast dark hall, one hard spotlight from directly above, a long distorted shadow on the wall behind, absolute emptiness, no people, no faces, no symbols, no text",
+  "seed": 22141
+ },
+ {
+  "name": "t12_tools_of_obedience_workbench",
+  "act": 3,
+  "sentences": "3.03#3",
+  "desc": "Hàng dụng cụ cũ kỹ xếp ngay ngắn trên bàn tay nghề trong bóng tối như một bộ công cụ phục tùng, bóng đèn trần trơ trọi.",
+  "prompt": "A row of worn hand tools laid out on a rough workbench in the dark like an arsenal of obedience, one bare bulb above, deep shadow, dust, no people, no hands, no text",
+  "seed": 22142
+ },
+ {
+  "name": "t12_two_candles_windowsill_dawn",
+  "act": 5,
+  "sentences": "5.04#4–5.04#5",
+  "desc": "Hai ngọn nến trơn cháy cạnh nhau trên bậu cửa sổ tối lúc bình minh, sương mù ngoài kia, không khắc chữ trên nến.",
+  "prompt": "Two plain candles burning side by side on a dark windowsill at dawn, mist outside, unlettered wax, no writing, no text of any kind, no people",
+  "seed": 22144
+ },
+ {
+  "name": "t12_two_silhouettes_on_bare_stage",
+  "act": 4,
+  "sentences": "4.07#1–4.07#2",
+  "desc": "Hai bóng người đối diện nhau trên sân khấu trống, một người ngồi thẳng một người đứng dang tay, bóng dài trên sàn.",
+  "prompt": "Two dark silhouettes facing each other on a bare stage, one seated upright and one standing with arms spread wide, hard backlight, long shadows on the floor, no faces, no text",
+  "seed": 22145
+ },
+ {
+  "name": "t12_urgent_appeal_dark_office",
+  "act": 1,
+  "sentences": "1.10#5",
+  "desc": "Bàn làm việc trong văn phòc Quốc hội lúc đêm, điện thoại nhấc lên chưa ai nghe, chồng hồ sơ trống dưới ánh sáng lạnh.",
+  "prompt": "A dark congressional office at night, an old telephone with the receiver off the hook, stacks of closed blank folders on the desk, a tall cold window behind, one pool of pale light, heavy shadow, no people, no writing, no labels, no text",
+  "seed": 22147
+ },
+ {
+  "name": "t12_wires_control_wooden_figures",
+  "act": 4,
+  "sentences": "4.07#3–4.07#4",
+  "desc": "Những sợi dây mảnh buông từ bóng tối điều khiển một hàng con sống gỗ trên bàn, bóng bàn tay phía trên.",
+  "prompt": "Thin wires descending from darkness to control a row of small wooden figures arranged on a table, the looming shadow of a hand above, cold spotlight, no faces, no text",
+  "seed": 22152
+ }
+]

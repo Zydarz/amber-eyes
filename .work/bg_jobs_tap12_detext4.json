@@ -1,0 +1,56 @@
+[
+ {
+  "name": "t12_state_department_empty_corridor_a",
+  "act": 5,
+  "sentences": "5.03#2–5.03#3",
+  "desc": "Hành lang bộ Ngoại giao trống nhìn thẳng dọc hành lang, chỉ có cửa gỗ khép kín, cửa sổ cao và trần giáo dục, tường bê tông trơn trọn không treo gì, bàn gác thị sự bỏ trống ở cuối hành lang.",
+  "prompt": "An empty government department corridor seen from a low angle looking straight down the hall, only closed wooden doors, tall windows and a plain suspended ceiling in frame, walls of bare painted concrete that are smooth, unbroken and completely bare, a bare reception desk far down the hall, cold institutional daylight, no people, completely blank and unmarked with no writing at all, no text of any kind",
+  "seed": 35001,
+  "why": "khung tranh nhỏ trên tường trái có vết như chữ"
+ },
+ {
+  "name": "t12_state_department_empty_corridor_b",
+  "act": 5,
+  "sentences": "5.03#2–5.03#3",
+  "desc": "Hành lang dài bê tông trơn và kính, máy quay nhìn vào đoạn hành lang trống, tường mịn liên tục không vật gì, chỉ cửa đóng và cửa sổ trọn cao, sàn bóng loáng.",
+  "prompt": "A long empty corridor of bare concrete and glass, the camera looking at an open stretch of hallway where the walls are smooth, continuous and completely bare, only closed doors and floor-to-ceiling windows, a polished floor with soft reflections, cold white daylight, no people, completely blank and unmarked with no writing at all, no text of any kind",
+  "seed": 35002,
+  "why": "khung tranh nhỏ trên tường trái có vết như chữ"
+ },
+ {
+  "name": "t12_urgent_appeal_dark_office_a",
+  "act": 1,
+  "sentences": "1.10#5",
+  "desc": "Bàn làm việc trong văn phòng Quốc hội lúc đêm, điện thoại bàn đen úp sấp trên bàn, chồng hồ sơ trống và một tờ giấy trắng trơn dưới ánh sáng lạnh.",
+  "prompt": "A dark congressional office at night, a plain black desk telephone lying face down on the desk so that only its smooth blank back and the handset are visible, stacks of closed blank folders and a single completely blank unmarked sheet of paper on the desk, a tall cold window behind, one pool of pale light, heavy shadow, no people, completely blank and unmarked with no writing at all, no text of any kind",
+  "seed": 35003,
+  "why": "núm bàn phím còn vết trắng giống số"
+ },
+ {
+  "name": "t12_urgent_appeal_dark_office_b",
+  "act": 1,
+  "sentences": "1.10#5",
+  "desc": "Bàn làm việc trống trong văn phòng lúc đêm bên cạnh cửa sổ cao lạnh, chồng hồ sơ đóng và một tờ giấy trắng trơn, điện thoại đen nằm nghiêng trên bàn.",
+  "prompt": "A dark empty office desk at night beside a tall cold window, closed blank folders and a single completely blank unmarked sheet of paper on the desk, a plain black telephone lying on its side on the desk, heavy shadow, one pool of pale light, no people, no writing, no text of any kind",
+  "seed": 35004,
+  "why": "núm bàn phím còn vết trắng giống số"
+ },
+ {
+  "name": "t12_official_vehicle_closed_road_a",
+  "act": 1,
+  "sentences": "1.10#10",
+  "desc": "Xe sedan boxy không nhãn hiệu đậu ở tư thế nghiêng bên trên đường đất đỏ vắng lặng trong rừng, thân xe trơn tru, cổng bê tông trắng trơn không biển.",
+  "prompt": "A plain anonymous boxy sedan standing in side profile on a red dirt road cutting through dense jungle, smooth unbroken painted bodywork, plain concrete gate pillars with nothing on them, a closed metal gate behind, cold flat overcast light, mist swallowing the distance, no people, no faces, no writing, no text of any kind",
+  "seed": 35005,
+  "why": "badge nhỏ trên nắp xe"
+ },
+ {
+  "name": "t12_official_vehicle_closed_road_b",
+  "act": 1,
+  "sentences": "1.10#10",
+  "desc": "Một chiếc xe boxy ẩn danh đậu xa trên đường đất đỏ trong rừng, nhìn từ phía sau, nhỏ trong khung hình, thân xe trơn và đèn hậu tròn đơn giản, cổng bê tông trơn ở tiền cảnh.",
+  "prompt": "A plain anonymous boxy car parked far in the distance on a red dirt road in dense jungle, seen from behind, small in the frame, smooth plain bodywork and simple round tail lights, bare concrete gate pillars in the foreground with nothing on them, cold flat overcast light, heavy mist, no people, no writing, no text of any kind",
+  "seed": 35006,
+  "why": "badge nhỏ trên nắp xe"
+ }
+]

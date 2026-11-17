@@ -119,19 +119,47 @@ final_img = Image.fromarray(arr)
 Kaggle cấp môi trường **2 GPU Tesla T4 (mỗi GPU 16GB VRAM)** nhưng **System Host RAM giới hạn ~30GB**.
 
 ### 5.1. Bài học xương máu: Tránh lỗi Linux OOM-Killer (Mã lỗi -9)
+
+**ĐO ĐƯỢC (probe 16/11/2026, kernel `chiduong2026/amber-eyes-flux2-probe-vram-ram`):**
+
+| Số đo | Giá trị thật |
+|---|---|
+| System RAM của **1 phiên** Kaggle | **32.098 MB** (MemAvailable 30.810 MB) |
+| GPU | 2 × Tesla T4, 15.360 MiB (dùng được **14,56 GiB**) |
+| **KHÔNG** `cpu_offload` → model nằm thẳng trong VRAM | **CUDA OOM** — process chiếm **14,53 / 14,56 GiB** ⇒ **KHÔNG khả thi** trên T4 15 GB |
+| **CÓ** `cpu_offload` → weights nằm trong **System RAM** | ~15–17 GB / worker ⇒ 2 worker ≈ 34 GB > 31 GB ⇒ **OOM-Killer -9** |
+
 - **Lỗi đã gặp (13/11/2026 - Tập 12):** Khởi chạy 2 tiến trình Python độc lập (`subprocess.Popen`) cùng một lúc khiến cả 2 tiến trình đồng thời nạp weights 4B vào System RAM. Tổng lượng RAM tiêu thụ vượt quá 30GB, dẫn đến việc kernel Linux gửi tín hiệu `SIGKILL (-9)` tiêu diệt GPU 0.
-- **Quy tắc bất di bất dịch:** **CẤM** khởi động đồng thời 2 tiến trình Python độc lập cùng nạp model.
+- **Lỗi tái diễn (16/11/2026 - Tập 11):** 4/4 lượt chạy 2 GPU đều có **đúng 1 worker bị -9** (T12: GPU_0 chết; T13/T15/T11: GPU_1 chết, chết ngay trong `from_pretrained()` nên không in được dòng nào).
+- **QUY TẮC BẤT DI BẤT DỊCH:** **CẤM** khởi động đồng thời 2 tiến trình Python độc lập cùng nạp model **trong cùng 1 phiên Kaggle** — đây không phải lỗi ngẫu nhiên mà là **tràn System RAM có hệ thống** (2 bản sao weights × ~15-17 GB > 31 GB).
+- **LỖI CỦA GIẢI PHÁP A (đã sửa 16/11/2026):** mô tả cũ ghi worker 0 *"nạp xong pipeline **vào VRAM** và gọi `gc.collect()` giải phóng System RAM"* — nhưng code thật dùng `pipe.enable_model_cpu_offload()`, tức weights **nằm lại trong System RAM** suốt lượt chạy ⇒ worker 0 **không bao giờ giải phóng RAM** ⇒ giấc 120 s **không cứu được** 2 worker. Giải pháp A chỉ đúng khi worker không giữ weights trong RAM.
 
-### 5.2. Hai giải pháp chạy song song 2 GPU chuẩn xác
+### 5.2. Cách chạy song song 2 GPU ĐÃ ĐƯỢC CHỨNG MINH (đo 16/11/2026)
 
-#### Giải pháp A (Khuyến nghị): Staggered Subprocess Startup (Khởi động so-le thời gian)
+> **Kết luận từ số đo:** trong **cùng 1 phiên** Kaggle thì **KHÔNG CÓ** cách nào chạy 2 worker an toàn với `FLUX.2-klein-4B`:
+> bỏ `cpu_offload` ⇒ nổi VRAM T4 (14,53/14,56 GiB); giữ `cpu_offload` ⇒ nổi System RAM khi chạy 2 worker.
+> `enable_sequential_cpu_offload()` sẽ giảm RAM/worker nhưng chậm gấp đôi ⇒ hiệu quả ròng ≈ 0.
+
+#### ✅ GIẢI PHÁP DUY NHẤT CÒN LẠI: 2 KERNEL RIÊNG = 2 PHIÊN CHẠY ĐỘNG LẬP
+- Mỗi kernel là **1 phiên VM riêng**, có **System RAM riêng ~32 GB** ⇒ 2 worker không tranh RAM nhau.
+- Mỗi kernel chạy **1 tiến trình / 1 GPU** (`CUDA_VISIBLE_DEVICES=0`), giữ nguyên `enable_model_cpu_offload()` ⇒ **không đổi pipeline, không đổi tốc độ (75,5 s/ảnh)**.
+- **Đã kiểm chứng 16/11/2026 10:38:** kernel `…-flux2-generator` (v31) và kernel `…-flux2-probe-vram-ram` (v1) chạy **đồng thời**, cùng trạng thái RUNNING ⇒ tài khoản cho phép 2 phiên GPU song song.
+- Cách làm: tách jobs làm đôi → `.work/kaggle_flux/make_2kernel_batches.py` dựng 2 notebook + 2 `kernel-metadata.json` → push cả 2 kernel → chạy 2 watcher.
+- **Đã dùng thật 16/11/2026 cho đợt sinh lại 32 nền bỏ chữ**: `.work/kaggle_flux/make_2kernel_detext.py` (tách đôi 32 job → 16 + 16, **seed RIÊNG theo job** để 2 kernel không trùng seed) → push 2 kernel `chiduong2026/amber-eyes-flux2-detext-k1` / `-k2` → watcher `.work/kaggle_flux/watch_detext32.py` tải 2 zip, giải nén, ghi đè `assets/bg/`, cập nhật `provenance.json`.
+- **Đã dùng thật 16/11/2026 cho Tập 12 (69 nền mới theo H25)**: `.work/kaggle_flux/make_2kernel_t12_new69.py` → 2 kernel `chiduong2026/amber-eyes-flux2-t12-k1` (34 ảnh) / `-k2` (35 ảnh) → watcher `.work/kaggle_flux/watch_t12_new69.py`.
+  - **Mỗi lần sinh phải dùng khoảng seed RIÊNG** (Tập 12 cũ 12000+idx → lô mới **22000+idx**) để không trùng seed với ảnh đã có; seed phải **không trùng giữa 2 kernel** (kiểm bằng script trước khi push).
+  - **`title` = slug của `id`** ⇒ kernel tạo ra đúng id mong muốn, không cần đoán lại (A11 #174).
+- ⚠️ **`kaggle kernels push` lấy `id` từ SLUG CỦA `title`, không phải `id` trong `kernel-metadata.json`.** Đặt metadata `id: …/amber-eyes-flux2-generator2` + `title: "Amber Eyes Flux2 Detext k2"` ⇒ Kaggle tạo kernel thật là **`chiduong2026/amber-eyes-flux2-detext-k2`** và in cảnh báo *"Your kernel title does not resolve to the specified id"*. ⇒ **Đặt `title` = slug của `id`**, hoặc đọc `kaggle kernels list --mine` sau khi push để lấy id thật rồi dùng id đó cho `kernels status/output`.
+- ⚠️ Khi `exec` khuôn `make_nb_tapXX_parallel.py` để dựng notebook, `__file__` **phải trỏ về chính file khuôn** — nếu trỏ sang thư mục khác thì `ROOT` tính lệch và lệnh ghi notebook ném `FileNotFoundError`.
+
+#### ❌ Giải pháp A (KHÔNG còn hiệu quả — đo 16/11/2026): Staggered Subprocess Startup (Khởi động so-le thời gian)
 Nếu chạy 2 worker qua `subprocess` (mỗi worker một biến môi trường `CUDA_VISIBLE_DEVICES` độc lập):
 1. Worker 0 (`CUDA_VISIBLE_DEVICES=0`) khởi động trước.
 2. Worker 0 nạp xong pipeline vào VRAM và gọi `gc.collect()` giải phóng System RAM (~90 giây).
 3. Đặt lệnh `time.sleep(120)` chờ Worker 0 ổn định hoàn toàn rồi mới khởi chạy Worker 1 (`CUDA_VISIBLE_DEVICES=1`).
 4. Lúc này đỉnh tiêu thụ System RAM không bao giờ vượt quá 16GB $\rightarrow$ Cả 2 GPU chạy song song 100% công suất an toàn tuyệt đối.
 
-#### Giải pháp B: Single-Process Multi-Threading (1 Tiến trình - 2 Luồng)
+#### ❌ Giải pháp B (KHÔNG còn hiệu quả — 2 pipeline = 2 bản sao weights trong RAM): Single-Process Multi-Threading
 Sử dụng `concurrent.futures.ThreadPoolExecutor(max_workers=2)` trong cùng một tiến trình Python:
 - Pipeline 0 nạp trực tiếp vào `cuda:0`.
 - Pipeline 1 nạp trực tiếp vào `cuda:1`.
@@ -153,6 +181,17 @@ Mỗi bộ ảnh nền mới sinh từ Kaggle FLUX phải vượt qua các cổn
 | **Không chữ (H2/H5)** | 0 chữ, 0 số, 0 logo, 0 nhãn giả do AI vẽ | Soi mắt qua Montage `.work/qc_montage.py` |
 | **Độ tương phản** | Đạt chuẩn chiaroscuro, không bị mờ đục xám xịt | Soi góc tối đạt độ đen sâu |
 | **Bản quyền (L7)** | Đầy đủ bản ghi trong `provenance.json` | Cập nhật tự động: công cụ, prompt, seed, điều khoản thương mại |
+
+### 6.1. Quy tắc "không chữ" — ĐO ĐƯỢC 16/11/2026 (Tập 11)
+
+**Mệnh đề phủ định trong prompt KHÔNG đủ.** Tập 11: soi 100 % 136 nền ⇒ **32/136 nền (23,5 %) có chữ AI**; trong đó **22 nền có prompt đã ghi "no text / no labels / no logos"** mà AI vẫn vẽ chữ (nhãn băng cassette, dòng chữ trên túi bằng chứng, chữ khắc trên vòng ống kính…). Nguyên nhân: **prompt vẫn mô tả vật mang chữ**.
+
+Khi sinh lại ảnh có chữ, làm **ĐÚNG 3 việc** (giữ nguyên nội dung cảnh cụ thể theo H19):
+1. **Gỡ mọi thông tin chữ khỏi prompt** — bỏ tên riêng, `titled`, `reading`, `labeled`, `inscribed`, `newspaper`, `cover` có chữ…
+2. **Mô tả bề mặt TRƯNG** thay cho vật mang chữ — ví dụ *"a bound judicial inquiry volume with a plain blank unmarked cover"* (vẫn giữ vật thể, chỉ đổi bề mặt).
+3. **Thêm mệnh đề**: `completely blank and unmarked with no writing at all`.
+
+Cách kiểm hiệu quả nhất: **quét từ khoá trong prompt** (`titled/labeled/inscribed/newspaper/writing/labels/headline/placard/caption/…`) để lập danh sách nghi, rồi **soi mắt 100 %**; nền bị nghi ⇒ mở **full-res** (`assets/bg/tXX_*.png`), montage **thay tờ nhiều, không thay zoom 100 %**. Ô montage phải ≥ 384 px **sau khi ảnh bị resize** (cạnh dài ≤ ~1568 px) ⇒ **4 cột × 4 hàng, ô 512 px** (A11 #172). Sửa lại **đúng tên** ảnh đó (không sinh lại cả lô), seed riêng.
 
 ---
 *Tài liệu này là quy chuẩn kỹ thuật bắt buộc cho toàn bộ các tập tiếp theo sử dụng engine Kaggle FLUX.*

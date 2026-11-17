@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 """Client module for Cloudflare Workers AI FLUX.1.
 Reusable for all episodes in Amber Eyes pipeline.
-
-Usage:
-    from flux_client import generate_16_9_background
-    img = generate_16_9_background("A noir detective in rain...")
-    img.save("assets/bg/my_scene.png")
+Upgraded to match Kaggle Deep Noir standard:
+  - 4-Tier Deep Noir Prompt Architecture
+  - Lanczos 2K Resampling (2112x1188)
+  - Color Grading: Mute Saturation (-35%) & Boost Contrast (+15%)
+  - Post-processing: 4-Corner Vignette (-45%) + 35mm Film Grain
 """
 import os
 import sys
@@ -17,20 +17,28 @@ import urllib.request
 import urllib.error
 from pathlib import Path
 from io import BytesIO
-from PIL import Image
+from PIL import Image, ImageEnhance
+import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 
 DEFAULT_MODEL = "@cf/black-forest-labs/flux-1-schnell"
 
+# Deep Noir Prompts matching QUY_TAC_TAO_ANH_KAGGLE_FLUX.md §2
 STYLE_PREFIX = (
-    "Cinematic 16:9 wide shot, dark graphic novel noir illustration, bold black ink linework, "
-    "deep chiaroscuro lighting, subtle mist and film grain, desaturated muted palette, ominous quiet tension, highly detailed. "
+    "A masterpiece graphic novel noir illustration, dark investigative crime dossier aesthetic, "
+    "bold black ink linework, high contrast psychological chiaroscuro lighting, deep pitch-black shadows, "
+)
+ATMOSPHERE_CORE = (
+    "gloomy overcast suffocating pale grey sky, cold mist floating over the ground, unsettling silence, "
+    "creeping psychological dread, hidden crime scene atmosphere, faded eerie retro colors, "
+    "decayed autumn tones, fine 35mm film grain, David Fincher meets vintage crime comic style, "
 )
 STYLE_SUFFIX = (
-    " Strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, "
-    "no watermark, no frame, no letterbox bars, full-bleed image."
+    "Strictly no vibrant colors, no cheerful sunlight, no bright blue sky, no warm golden glow, "
+    "no 3D render, no CGI, no photorealism, strictly no text, no letters, no words, no numbers, "
+    "no signs, no labels, no logos, no watermark, full-bleed 16:9."
 )
 
 def get_credentials():
@@ -85,21 +93,52 @@ def generate_image(prompt, steps=4, timeout=60, max_retries=3, model=DEFAULT_MOD
                 raise
             time.sleep(2 * attempt)
 
-def generate_16_9_background(prompt, steps=4, out_size=(2112, 1188), with_noir_style=True):
-    """Generate 16:9 background cropped and resized to Amber Eyes standard."""
-    full_prompt = (STYLE_PREFIX + prompt + STYLE_SUFFIX) if with_noir_style else prompt
-    im = generate_image(full_prompt, steps=steps)
-    w, h = im.size
-    # Center crop 16:9
+def post_process_noir(base_img, out_size=(2112, 1188)):
+    """Apply Kaggle Deep Noir post-processing standard (QUY_TAC_TAO_ANH_KAGGLE_FLUX.md §4)."""
+    # 1. 16:9 center crop & Lanczos upscale
+    w, h = base_img.size
     target_h = int(w * 9 / 16)
     top = (h - target_h) // 2
-    im_16_9 = im.crop((0, top, w, top + target_h))
-    return im_16_9.resize(out_size, Image.Resampling.LANCZOS)
+    im_16_9 = base_img.crop((0, top, w, top + target_h))
+    img_2k = im_16_9.resize(out_size, Image.Resampling.LANCZOS)
+    
+    # 2. Color Grading: Mute Saturation 35% & Boost Contrast 15%
+    color_enhancer = ImageEnhance.Color(img_2k)
+    img_muted = color_enhancer.enhance(0.65)
+    
+    contrast_enhancer = ImageEnhance.Contrast(img_muted)
+    img_contrast = contrast_enhancer.enhance(1.15)
+    
+    # 3. Noir Vignette & 35mm Film Grain
+    arr = np.array(img_contrast, dtype=np.float32)
+    h_arr, w_arr, c = arr.shape
+    y, x = np.ogrid[:h_arr, :w_arr]
+    cx, cy = w_arr / 2, h_arr / 2
+    dist = np.sqrt((x - cx)**2 + (y - cy)**2)
+    max_dist = np.sqrt(cx**2 + cy**2)
+    
+    # 4-corner vignette
+    vignette = 1.0 - 0.45 * (dist / max_dist)**1.8
+    vignette = np.clip(vignette, 0.4, 1.0)[:, :, np.newaxis]
+    arr = arr * vignette
+    
+    # Film grain
+    np.random.seed(42)
+    grain = np.random.normal(0, 7.5, arr.shape)
+    arr = np.clip(arr + grain, 0, 255).astype(np.uint8)
+    
+    return Image.fromarray(arr)
+
+def generate_16_9_background(prompt, steps=4, out_size=(2112, 1188), with_noir_style=True):
+    """Generate 16:9 background cropped, graded and styled to Amber Eyes standard."""
+    if with_noir_style:
+        full_prompt = f"{STYLE_PREFIX}{prompt}, {ATMOSPHERE_CORE} {STYLE_SUFFIX}"
+    else:
+        full_prompt = prompt
+        
+    raw_img = generate_image(full_prompt, steps=steps)
+    return post_process_noir(raw_img, out_size=out_size)
 
 if __name__ == "__main__":
     acc, tok = get_credentials()
-    print("Cloudflare FLUX Client Test:")
-    print(f"  Account ID: {acc[:6]}..." if acc else "  Account ID: NOT FOUND")
-    print(f"  API Token:  {tok[:6]}..." if tok else "  API Token:  NOT FOUND")
-    if acc and tok:
-        print("Credentials loaded successfully!")
+    print("Cloudflare FLUX Client Upgraded.")
