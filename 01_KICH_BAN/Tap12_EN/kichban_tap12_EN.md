@@ -56,7 +56,7 @@ In these mandatory assemblies, members were coerced into public degradation, phy
 He systematically dismantled biological family loyalties, conditioning everyone to regard him alone as the ultimate benevolent father figure.
 He persuaded his followers to surrender their homes, sign over savings accounts, and divert government welfare checks directly into temple coffers.
 By systematically stripping away private wealth and severing kinship safety nets, he trapped his devotees in a state of absolute existential dependency.
-By the summer of 1977, as investigative journalists at New West magazine prepared to publish an exposé uncovering institutional abuse and exploitation, Jim Jones realized his public mask was about to shatter.
+By the summer of 1977, as investigative journalists at New West magazine prepared to publish an expose uncovering institutional abuse and exploitation, Jim Jones realized his public mask was about to shatter.
 He immediately triggered his emergency evacuation plan, accelerating the relocation of nearly one thousand followers to a dense rainforest outpost in northwestern Guyana.
 
 **ORDINARY PERSON** *(N1: Leslie Wagner-Wilson / Former Peoples Temple member, young female voice trembling with lingering disbelief)*:
@@ -161,7 +161,7 @@ Jim Jones mounted the rostrum, clutching his familiar microphone, preparing to i
 United States government archives subsequently declassified one of the most chilling evidentiary recordings in modern history: “Death Tape Q 042”.
 This forty-four-minute cassette recording captures the raw audio landscape inside the central pavilion on the afternoon of November 18, 1978.
 On the tape, Jim Jones announces to the assembly that Congressman Ryan's party has been ambushed and that an aircraft is crashing into the jungle.
-He claimed that hostile military forces would parachute into Jonestown to torture residents and harm their children.
+He claimed that hostile military forces would parachute into Jonestown to severely mistreat residents and harm their children.
 By manufacturing an imminent, inescapable threat of external annihilation, he systematically extinguished any lingering hope of survival.
 A large metal vat containing grape-flavored beverage laced with industrial toxins was rolled into the center of the pavilion by medical staff.
 The directive to consume the lethal mixture was issued under the direct surveillance of armed sentries circling the perimeter.

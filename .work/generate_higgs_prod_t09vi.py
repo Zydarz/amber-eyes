@@ -582,7 +582,7 @@ def main():
   - $\\Delta_{{H \\to C}} = \\mathbf{{{hc_semitones:.2f}\\text{{ nửa cung}}}}$ (Ngưỡng $\\ge 4.0\\text{{ nc}}$ — ĐẠT ✅)
 
 ### 3. Giám sát Độ chính xác (Whisper Base CER) & Tự nhiên (UTMOSv2 MOS)
-- **Engine ASR:** `openai-whisper` (`base` model, CPU) qua chuẩn hóa `vi_cer`.
+- **Engine ASR:** `faster-whisper` (`base` model, CPU) qua chuẩn hóa `vi_cer`.
 - **CER Trung vị:** **{np.median(cers)*100:.2f}%** (CER trung bình: **{np.mean(cers)*100:.2f}%**).
 - **Multi-take Vòng 2:** Đã tự động sinh Variant 1 với seed mới cho toàn bộ các câu có CER > 2% và chọn take tối ưu.
 - **Điểm tự nhiên UTMOSv2 MOS:** Trung bình **{avg_mos:.2f} / 5.0** (Dải điểm: {np.min(valid_moss):.2f} – {np.max(valid_moss):.2f}). Đạt chuẩn (>= 3.0 / 5.0).

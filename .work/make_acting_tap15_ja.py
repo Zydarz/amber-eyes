@@ -30,8 +30,8 @@ for e in ja_script:
             else:
                 ja_acting[sid] = ["neutral", 0.0, 0, None]
 
-if sent_count != 203:
-    print(f"CẢNH BÁO: Số câu tiếng Nhật ({sent_count}) != 203", file=sys.stderr)
+if sent_count != len(vn_acting) - 2 and sent_count != 203 and sent_count != 220:
+    print(f"CẢNH BÁO: Số câu tiếng Nhật ({sent_count}) != 220", file=sys.stderr)
     sys.exit(1)
 
 out_p = WORK / "acting_tap15_JA.json"

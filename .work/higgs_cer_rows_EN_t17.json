@@ -4,7 +4,7 @@
   "role": "H",
   "file": "s1_02_01.wav",
   "text": "In the early morning of January 14, 2018, the city of Perris in Riverside County, California was still shrouded in freezing fog.",
-  "asr": "In the early morning of January 14, 2018, the city of Paris in Riverside County, California, was still shrouded in freezing fog.",
+  "asr": "In the early morning of January 14, 2018, the city of Paris in Riverside County, California,  was still shrouded in freezing fog.",
   "cer": 0.014184397163120567,
   "f0": 120.0
  },
@@ -22,7 +22,7 @@
   "role": "H",
   "file": "s1_02_03.wav",
   "text": "An emaciated young woman, so small she resembled a frail child, climbed over the windowsill and slipped outside.",
-  "asr": "an emaciated young woman, so small she resembled a frail child, climbed over the window sill and slipped outside.",
+  "asr": "an emaciated young woman, so small she resembled a frail child,  climbed over the window sill and slipped outside.",
   "cer": 0.009523809523809525,
   "f0": 111.11111111111111
  },
@@ -85,7 +85,7 @@
   "role": "H",
   "file": "s1_04_03.wav",
   "text": "She knew that if the plan failed, the price would be unimaginably brutal retribution from her parents.",
-  "asr": "She knew that if the plan failed, the price would be unimaginably brutal retribution from her parents.",
+  "asr": "She knew that if the plan failed, the price would be unimaginably brutal retribution from  her parents.",
   "cer": 0.0,
   "f0": 119.70149253731344
  },
@@ -138,55 +138,64 @@
   "id": "1.06#2",
   "role": "H",
   "file": "s1_06_02.wav",
-  "text": "Jordan did not know her home address clearly and was completely unfamiliar with basic concepts like medication or doctors.",
-  "asr": "Jordan did not know her home address clearly and was completely unfamiliar with basic concepts like medication or doctors.",
-  "cer": 0.0,
-  "f0": 104.80349344978166
+  "text": "In the heart of a modern twenty-first-century suburban community, her profound lack of basic knowledge was a chilling indicator of total cognitive isolation.",
+  "asr": "In the heart of a modern 21st century suburban community,  her profound lack of basic knowledge was a chilling indicator of total cognitive isolation.",
+  "cer": 0.01935483870967742,
+  "f0": 113.74407582938389
  },
  {
   "id": "1.06#3",
   "role": "H",
   "file": "s1_06_03.wav",
-  "text": "She explained that the house was filthy and that her brothers and sisters had not bathed in months.",
-  "asr": "She explained that the house was filthy and that her brothers and sisters had not bathed in months.",
+  "text": "Jordan did not know her home address clearly and was completely unfamiliar with basic concepts like medication or doctors.",
+  "asr": "Jordan did not know her home address clearly, and was completely unfamiliar with basic concepts  like medication or doctors.",
   "cer": 0.0,
-  "f0": 105.26315789473684
+  "f0": 109.0909090909091
  },
  {
   "id": "1.06#4",
   "role": "H",
   "file": "s1_06_04.wav",
-  "text": "More alarmingly, she revealed that some siblings were currently chained to bedframes with heavy iron chains.",
-  "asr": "More alarmingly, she revealed that some siblings were currently chained to bed frames with heavy iron chains.",
-  "cer": 0.009433962264150943,
-  "f0": 117.6470588235294
+  "text": "She explained that the house was filthy and that her brothers and sisters had not bathed in months.",
+  "asr": "She explained that the house was filthy and that her brothers and sisters had not bathed in months.",
+  "cer": 0.0,
+  "f0": 114.0148950575491
  },
  {
   "id": "1.06#5",
   "role": "H",
   "file": "s1_06_05.wav",
-  "text": "She also brought photographs taken inside the residence, which would soon become decisive forensic evidence.",
-  "asr": "She also brought photographs taken inside the residence, which would soon become decisive forensic evidence.",
-  "cer": 0.0,
-  "f0": 107.62331838565022
+  "text": "More alarmingly, she revealed that some siblings were currently chained to bedframes with heavy iron chains.",
+  "asr": "More alarmingly, she revealed that some siblings were currently chained to bed frames with heavy iron chains.",
+  "cer": 0.009433962264150943,
+  "f0": 112.14953271028037
  },
  {
   "id": "1.06#6",
   "role": "H",
   "file": "s1_06_06.wav",
-  "text": "Patrol units from the Riverside County Sheriff's Department were immediately dispatched to the scene.",
-  "asr": "Patrol units from the Riverside County Sheriff's Department were immediately dispatched to the scene.",
+  "text": "She also brought photographs taken inside the residence, which would soon become decisive forensic evidence.",
+  "asr": "She also brought photographs taken inside the residence, which would soon become decisive forensic evidence.",
   "cer": 0.0,
-  "f0": 116.50485436893204
+  "f0": 105.96078125609138
  },
  {
   "id": "1.06#7",
   "role": "H",
   "file": "s1_06_07.wav",
+  "text": "Patrol units from the Riverside County Sheriff's Department were immediately dispatched to the scene.",
+  "asr": "Patrol units from the Riverside County Sheriff's Department were immediately dispatched to the scene.",
+  "cer": 0.0,
+  "f0": 108.5972850678733
+ },
+ {
+  "id": "1.06#8",
+  "role": "H",
+  "file": "s1_06_08.wav",
   "text": "A breathless race against time began to secure the safety of the young woman standing alone in the winter chill.",
   "asr": "A breathless race against time began to secure the safety of the young woman standing alone in the winter chill.",
   "cer": 0.0,
-  "f0": 106.66666666666667
+  "f0": 114.28571428571429
  },
  {
   "id": "1.07#1",
@@ -220,7 +229,7 @@
   "role": "N1",
   "file": "s1_07_04.wav",
   "text": "When she whispered that her siblings were locked to bedposts with iron chains in the dark, a cold chill ran down the dispatcher's spine.",
-  "asr": "When she whispered that her siblings were locked to bedposts with iron chains in the dark, a cold chill ran down the dispatcher's spine.",
+  "asr": "When she whispered that her siblings were locked to bedposts with iron chains in the  dark, a cold chill ran down the dispatcher's spine.",
   "cer": 0.0,
   "f0": 155.84415584415584
  },
@@ -228,19 +237,28 @@
   "id": "1.07#5",
   "role": "N1",
   "file": "s1_07_05.wav",
-  "text": "Every passing second on the line felt like a breathless agony for the girl's survival on the street corner.",
-  "asr": "Every passing second on the line felt like a breathless agony for the girl's survival on the street corner.",
+  "text": "Professional intuition urged the dispatcher to hold the line tightly, warning that even a single dropped connection could cause a precious life to vanish forever.",
+  "asr": "professional intuition urged the dispatcher to hold the line tightly, warning that even  a single dropped connection could cause a precious life to vanish forever.",
   "cer": 0.0,
-  "f0": 163.26530612244898
+  "f0": 175.1824817518248
  },
  {
   "id": "1.07#6",
   "role": "N1",
   "file": "s1_07_06.wav",
+  "text": "Every passing second on the line felt like a breathless agony for the girl's survival on the street corner.",
+  "asr": "Every passing second on the line felt like a breathless agony for the girl's survival on the street corner.",
+  "cer": 0.0,
+  "f0": 153.84615384615384
+ },
+ {
+  "id": "1.07#7",
+  "role": "N1",
+  "file": "s1_07_07.wav",
   "text": "It was the kind of agonizing emergency call that a first responder never forgets for the rest of their life.",
   "asr": "It was the kind of agonizing emergency call that a first responder never forgets for the rest of their life.",
   "cer": 0.0,
-  "f0": 163.8244338831423
+  "f0": 173.91304347826087
  },
  {
   "id": "1.09#1",
@@ -256,7 +274,7 @@
   "role": "H",
   "file": "s1_09_02.wav",
   "text": "The deputies were stunned to see a seventeen-year-old girl so emaciated and tiny that she appeared like a primary school child.",
-  "asr": "The deputies were stunned to see a 17-year-old girl so emaciated and tiny that she appeared like a primary school child.",
+  "asr": "The deputies were stunned to see a 17-year-old girl so emaciated and tiny  that she appeared like a primary school child.",
   "cer": 0.0,
   "f0": 114.28571428571429
  },
@@ -265,7 +283,7 @@
   "role": "H",
   "file": "s1_09_03.wav",
   "text": "After examining the photographic evidence Jordan provided, patrol units rushed to the residence on Muir Woods Road.",
-  "asr": "After examining the photographic evidence Jordan provided, patrol units rushed to the residence on Muir Woods Road.",
+  "asr": "After examining the photographic evidence Jordan provided,  patrol units rushed to the residence on Muir Woods Road.",
   "cer": 0.0,
   "f0": 110.85509472606248
  },
@@ -274,7 +292,7 @@
   "role": "H",
   "file": "s1_09_04.wav",
   "text": "The father David Turpin and mother Louise Turpin appeared flustered and bewildered when law enforcement appeared at their door.",
-  "asr": "The father David Turpin and mother Louise Turpin appeared flustered and bewildered when law enforcement appeared at their door.",
+  "asr": "The father David Turpin and mother Louise Turpin appeared flustered and bewildered when  law enforcement appeared at their door.",
   "cer": 0.0,
   "f0": 102.56410256410257
  },
@@ -283,7 +301,7 @@
   "role": "H",
   "file": "s1_09_05.wav",
   "text": "Stepping inside, investigators were confronted with a pitch-black space reeking of foul waste and piled high with debris.",
-  "asr": "Stepping inside, investigators were confronted with a pitch black space, reeking of foul waste and piled high with debris.",
+  "asr": "Stepping inside, investigators were confronted with a pitch black space,  reeking of foul waste and piled high with debris.",
   "cer": 0.0,
   "f0": 114.55912508544088
  },
@@ -301,7 +319,7 @@
   "role": "D",
   "file": "s1_10_01.wav",
   "text": "According to official reports, the scene inside that residence defied the imagination of seasoned patrol officers.",
-  "asr": "According to official reports, the scene inside that residence defied the imagination of seasoned patrol officers.",
+  "asr": "According to official reports, the scene inside that residence  defied the imagination of seasoned patrol officers.",
   "cer": 0.0,
   "f0": 107.38308776425367
  },
@@ -310,7 +328,7 @@
   "role": "D",
   "file": "s1_10_02.wav",
   "text": "The entire home was pitch black, suffocating, and filled with the stench of human waste, despite bright daylight outside.",
-  "asr": "The entire home was pitch black, suffocating, and filled with the stench of human waste, despite bright daylight outside.",
+  "asr": "The entire home was pitch black, suffocating, and filled with the stench of human waste,  despite bright daylight outside.",
   "cer": 0.0,
   "f0": 80.0
  },
@@ -328,7 +346,7 @@
   "role": "D",
   "file": "s1_10_04.wav",
   "text": "Initially, officers believed all the victims were young children due to their emaciated and stunted physical development.",
-  "asr": "Initially, officers believed all the victims were young children due to their emaciated and stunted physical development.",
+  "asr": "Initially, officers believed all the victims were young children due to their emaciated and  stunted physical development.",
   "cer": 0.0,
   "f0": 78.68852459016394
  },
@@ -427,7 +445,7 @@
   "role": "H",
   "file": "s2_02_06.wav",
   "text": "Yet behind that enviable income lay crushing credit card debts and two separate bankruptcy filings.",
-  "asr": "yet behind that enviable income lay crushing credit card debts and two separate bankruptcy filings.",
+  "asr": "yet behind that enviable income lay crushing credit card debts and two separate bankruptcy  filings.",
   "cer": 0.0,
   "f0": 115.94202898550725
  },
@@ -436,7 +454,7 @@
   "role": "H",
   "file": "s2_02_07.wav",
   "text": "Acute financial stress combined with the overwhelming pressure of raising thirteen children became the trigger that unraveled their behavioral restraint.",
-  "asr": "A cute financial stress combined with the overwhelming pressure of raising 13 children became the trigger that unraveled their behavioral restraint.",
+  "asr": "A cute financial stress combined with the overwhelming pressure of raising 13 children  became the trigger that unraveled their behavioral restraint.",
   "cer": 0.006578947368421052,
   "f0": 112.14953271028037
  },
@@ -445,7 +463,7 @@
   "role": "H",
   "file": "s2_04_01.wav",
   "text": "To bypass local educational authorities, David Turpin registered their private residence as a private homeschool named Sandcastle Day School.",
-  "asr": "To bypass local educational authorities, David Turpin registered their private residence as a private home school named San Castle Day School.",
+  "asr": "To bypass local educational authorities, David Turpin registered their private  residence as a private home school named San Castle Day School.",
   "cer": 0.014388489208633094,
   "f0": 126.3157894736842
  },
@@ -454,7 +472,7 @@
   "role": "H",
   "file": "s2_04_02.wav",
   "text": "As principal and instructor, David legitimized keeping all his children locked at home rather than sending them to public school.",
-  "asr": "As principal and instructor, David legitimized keeping all his children locked at home, rather than sending them to public school.",
+  "asr": "As principal and instructor, David legitimized keeping all his children locked at home,  rather than sending them to public school.",
   "cer": 0.0,
   "f0": 114.83253588516746
  },
@@ -481,7 +499,7 @@
   "role": "H",
   "file": "s2_04_05.wav",
   "text": "In those photographs, the children wore identical matching outfits coordinated by age group and stood in disciplined rows before the camera.",
-  "asr": "In those photographs, the Children War identical matching outfits coordinated by age group and stood in disciplined rows before the camera.",
+  "asr": "In those photographs, the Children War identical matching outfits coordinated by age group  and stood in disciplined rows before the camera.",
   "cer": 0.014925373134328358,
   "f0": 111.62790697674419
  },
@@ -499,16 +517,25 @@
   "role": "H",
   "file": "s2_04_07.wav",
   "text": "Outside observers saw only an exemplary household, unaware of the horror unfolding behind those rigid frozen smiles.",
-  "asr": "Outside observers saw only an exemplary household, unaware of the horror unfolding behind those rigid frozen smiles.",
+  "asr": "Outside observers saw only an exemplary household, unaware of the horror unfolding behind those  rigid frozen smiles.",
   "cer": 0.0,
   "f0": 108.10810810810811
+ },
+ {
+  "id": "2.04#8",
+  "role": "H",
+  "file": "s2_04_08.wav",
+  "text": "Modern society's culture of closed doors and hyper-individual privacy inadvertently erected an invisible shield that harbored long-standing cruelty.",
+  "asr": "modern society's culture of closed doors and hyper individual privacy inadvertently erected  an invisible shield that harbored long-standing cruelty.",
+  "cer": 0.0,
+  "f0": 110.59907834101382
  },
  {
   "id": "2.06#1",
   "role": "D",
   "file": "s2_06_01.wav",
   "text": "From an investigative perspective, the abuse and coercive domination escalated across years in a calculated cycle.",
-  "asr": "from an investigative perspective, the abuse and coercive domination escalated across years in a calculated cycle.",
+  "asr": "from an investigative perspective, the abuse and coercive domination escalated across years  in a calculated cycle.",
   "cer": 0.0,
   "f0": 99.17355371900827
  },
@@ -517,7 +544,7 @@
   "role": "D",
   "file": "s2_06_02.wav",
   "text": "Initially, during their years in Texas, discipline consisted of verbal berating, standing facing walls, and confinement in closed rooms.",
-  "asr": "Initially, during their years in Texas, discipline consisted of verbal berating, standing facing walls and confinement in closed rooms.",
+  "asr": "Initially, during their years in Texas,  discipline consisted of verbal berating,  standing facing walls and confinement in closed rooms.",
   "cer": 0.0,
   "f0": 83.04498269896193
  },
@@ -535,7 +562,7 @@
   "role": "D",
   "file": "s2_06_04.wav",
   "text": "When one child managed to loosen the ropes and slip free, their methods escalated immediately to heavy iron chains and padlocks.",
-  "asr": "When one child managed to loosen the ropes and slip free, their methods escalated immediately to heavy iron chains and padlocks.",
+  "asr": "When one child managed to loosen the ropes and slip free,  their methods escalated immediately to heavy iron chains and padlocks.",
   "cer": 0.0,
   "f0": 77.6707163803938
  },
@@ -544,7 +571,7 @@
   "role": "D",
   "file": "s2_06_05.wav",
   "text": "The pretexts for these draconian punishments were absurdly trivial, such as washing hands past the wrist or touching a toy.",
-  "asr": "The pretexts for these draconian punishments were absurdly trivial, such as washing hands past the wrist or touching a toy.",
+  "asr": "The pretexts for these draconian punishments were absurdly trivial,  such as washing hands past the wrist or touching a toy.",
   "cer": 0.0,
   "f0": 91.6030534351145
  },
@@ -562,7 +589,7 @@
   "role": "D",
   "file": "s2_06_07.wav",
   "text": "The entire family was forced into an inverted nocturnal schedule, sleeping during daylight hours and waking only after midnight.",
-  "asr": "The entire family was forced into an inverted nocturnal schedule, sleeping during daylight hours and waking only after midnight.",
+  "asr": "The entire family was forced into an inverted nocturnal schedule, sleeping during daylight  hours and waking only after midnight.",
   "cer": 0.0,
   "f0": 84.80565371024736
  },
@@ -589,7 +616,7 @@
   "role": "H",
   "file": "s2_08_03.wav",
   "text": "Meanwhile, the parents purchased abundant sweet pies, cakes, and fast food, leaving them on the kitchen counter in plain sight.",
-  "asr": "Meanwhile, the parents purchased abundant sweet pies, cakes, and fast food, leaving them on the kitchen counter in plain sight.",
+  "asr": "Meanwhile, the parents purchased abundant sweet pies, cakes, and fast food,  leaving them on the kitchen counter in plain sight.",
   "cer": 0.0,
   "f0": 121.8274111675127
  },
@@ -606,28 +633,46 @@
   "id": "2.08#5",
   "role": "H",
   "file": "s2_08_05.wav",
-  "text": "The couple even bought numerous brand-new toys and stacked them around the house while banning the children from opening them.",
-  "asr": "The couple even bought numerous brand new toys and stacked them around the house while banning the children from opening them.",
-  "cer": 0.0,
-  "f0": 113.20754716981132
+  "text": "David Turpin operated his household like a cold, coded algorithm, reducing his children's very existence into tightly rationed metrics under his absolute command.",
+  "asr": "David Turpin operated his household like a cold-coated algorithm, reducing his children's  very existence into tightly rationed metrics under his absolute command.",
+  "cer": 0.012658227848101266,
+  "f0": 106.19469026548673
  },
  {
   "id": "2.08#6",
   "role": "H",
   "file": "s2_08_06.wav",
-  "text": "Turning food and toys into instruments of psychological torture revealed the deep corruption within the perpetrators' personalities.",
-  "asr": "Turning food and toys into instruments of psychological torture revealed the deep corruption within the perpetrator's personalities.",
+  "text": "The couple even bought numerous brand-new toys and stacked them around the house while banning the children from opening them.",
+  "asr": "The couple even bought numerous brand new toys and stacked them around the house while banning the children from opening them.",
   "cer": 0.0,
-  "f0": 116.50485436893204
+  "f0": 109.58904109589041
  },
  {
   "id": "2.08#7",
   "role": "H",
   "file": "s2_08_07.wav",
-  "text": "Prolonged nutritional deprivation severely stunted the physical development and cognitive growth of the children.",
-  "asr": "prolonged nutritional deprivation severely stunted the physical development and cognitive growth of the children.",
+  "text": "Turning food and toys into instruments of psychological torture revealed the deep corruption within the perpetrators' personalities.",
+  "asr": "Turning food and toys into instruments of psychological torture revealed the deep corruption within the perpetrator's personalities.",
   "cer": 0.0,
-  "f0": 110.59907834101382
+  "f0": 115.94202898550725
+ },
+ {
+  "id": "2.08#8",
+  "role": "H",
+  "file": "s2_08_08.wav",
+  "text": "Meanwhile, Louise Turpin indulged in compulsive shopping to fill her internal void, weaponizing pristine luxuries as psychological torture against her starving children.",
+  "asr": "Meanwhile, Louise Turpin indulged in compulsive shopping to fill her internal void,  weaponizing pristine luxuries as psychological torture against her starving children.",
+  "cer": 0.0,
+  "f0": 105.26315789473684
+ },
+ {
+  "id": "2.08#9",
+  "role": "H",
+  "file": "s2_08_09.wav",
+  "text": "Prolonged nutritional deprivation severely stunted the physical development and cognitive growth of the children.",
+  "asr": "Prolong nutritional deprivation severely stunted the physical development and cognitive growth of the children.",
+  "cer": 0.018518518518518517,
+  "f0": 122.44897959183673
  },
  {
   "id": "2.09#1",
@@ -652,7 +697,7 @@
   "role": "D",
   "file": "s2_09_03.wav",
   "text": "According to District Attorney Michael Hestrin, a twelve-year-old victim had the physical stature of an average seven-year-old.",
-  "asr": "According to District Attorney Michael Hestren, a 12-year-old victim had the physical stature of an average seven-year-old.",
+  "asr": "According to District Attorney Michael Hestren, a 12-year-old victim had the physical  stature of an average seven-year-old.",
   "cer": 0.008,
   "f0": 94.48818897637796
  },
@@ -661,7 +706,7 @@
   "role": "D",
   "file": "s2_09_04.wav",
   "text": "Most victims suffered from severe muscle atrophy, cognitive deficits, and irreversible neurological impairment caused by lack of nourishment.",
-  "asr": "Most victims suffered from severe muscle atrophy, cognitive deficits, and irreversible neurological impairment caused by lack of nourishment.",
+  "asr": "Most victims suffered from severe muscle atrophy, cognitive deficits, and irreversible neurological  impairment caused by lack of nourishment.",
   "cer": 0.0,
   "f0": 79.47107003059111
  },
@@ -679,7 +724,7 @@
   "role": "D",
   "file": "s2_09_06.wav",
   "text": "When investigators questioned them about law enforcement, many children looked bewildered and had no idea what police officers were.",
-  "asr": "When investigators questioned them about law enforcement, many children looked bewildered and had no idea what police officers were.",
+  "asr": "When investigators questioned them about law enforcement,  many children looked bewildered and had no idea what police officers were.",
   "cer": 0.0,
   "f0": 83.7719298245614
  },
@@ -688,7 +733,7 @@
   "role": "D",
   "file": "s2_09_07.wav",
   "text": "Even the most routine daily necessities, such as basic medication or toothbrushes, were completely alien to their experience.",
-  "asr": "even the most routine daily necessities, such as basic medication or toothbrushes, were completely alien to their experience.",
+  "asr": "even the most routine daily necessities,  such as basic medication or toothbrushes,  were completely alien to their experience.",
   "cer": 0.0,
   "f0": 89.55223880597015
  },
@@ -706,7 +751,7 @@
   "role": "H",
   "file": "s2_10_02.wav",
   "text": "David and Louise Turpin were taken into custody immediately, facing dozens of felony charges of torture and false imprisonment.",
-  "asr": "David and Louise Turpin were taken into custody immediately, facing dozens of felony charges of torture and false imprisonment.",
+  "asr": "David and Louise Turpin were taken into custody immediately,  facing dozens of felony charges of torture and false imprisonment.",
   "cer": 0.0,
   "f0": 113.20754716981132
  },
@@ -715,7 +760,7 @@
   "role": "H",
   "file": "s2_10_03.wav",
   "text": "The public was left reeling, wondering how such large-scale domestic captivity could persist for decades unnoticed.",
-  "asr": "The public was left reeling, wondering how such large-scale domestic captivity could persist for decades unnoticed.",
+  "asr": "The public was left reeling, wondering how such large-scale domestic captivity  could persist for decades unnoticed.",
   "cer": 0.0,
   "f0": 111.11111111111111
  },
@@ -760,7 +805,7 @@
   "role": "H",
   "file": "s3_02_01.wav",
   "text": "From the perspective of criminal psychology, the Turpin case represents a textbook study in extreme domestic power abuse.",
-  "asr": "From the perspective of criminal psychology, the turpent case represents a textbook study in extreme domestic power abuse.",
+  "asr": "From the perspective of criminal psychology, the turpent case represents a textbook study  in extreme domestic power abuse.",
   "cer": 0.01680672268907563,
   "f0": 107.14285714285714
  },
@@ -787,7 +832,7 @@
   "role": "H",
   "file": "s3_02_04.wav",
   "text": "To dissect this complex psychological phenomenon, we must examine three core concepts: <|prosody:pause|> Coercive Control, Folie à Deux, and deliberate Infantilization.",
-  "asr": "To dissect this complex psychological phenomenon, we must examine three core concepts, coercive control, folia-du, and deliberate infantilization.",
+  "asr": "To dissect this complex psychological phenomenon, we must examine three core concepts,  coercive control, folia-du, and deliberate infantilization.",
   "cer": 0.03546099290780142,
   "f0": 114.28571428571429
  },
@@ -814,7 +859,7 @@
   "role": "C",
   "file": "s3_03_02.wav",
   "text": "David and Louise Turpin severed every connection between their children and external society, creating a sealed psychological enclave.",
-  "asr": "David and Louise Turpin severed every connection between their children and external society, creating a sealed psychological enclave.",
+  "asr": "David and Louise Turpin severed every connection between their children and external society,  creating a sealed psychological enclave.",
   "cer": 0.0,
   "f0": 195.1219512195122
  },
@@ -823,7 +868,7 @@
   "role": "C",
   "file": "s3_03_03.wav",
   "text": "When victims are denied all social interaction, their worldview shrinks entirely to the distorted rules dictated by the abuser.",
-  "asr": "and victims are denied all social interaction. Their worldview shrinks entirely to the distorted rules dictated by the abuser.",
+  "asr": "and victims are denied all social interaction.  Their worldview shrinks entirely  to the distorted rules dictated by the abuser.",
   "cer": 0.032,
   "f0": 187.5
  },
@@ -832,7 +877,7 @@
   "role": "C",
   "file": "s3_03_04.wav",
   "text": "Regarding the victims, the perpetrators engaged in radical dehumanization and psychological objectification.",
-  "asr": "regarding the victims, the perpetrators engaged in radical dehumanization and psychological objectification.",
+  "asr": "regarding the victims, the perpetrators engaged in radical dehumanization and psychological  objectification.",
   "cer": 0.0,
   "f0": 190.47619047619048
  },
@@ -841,7 +886,7 @@
   "role": "C",
   "file": "s3_03_05.wav",
   "text": "The children were not perceived as sentient human beings with dignity, but degraded into living props serving parental grandiosity.",
-  "asr": "Children were not perceived as sentient human beings with dignity, but degraded into living props serving parental grandiosity.",
+  "asr": "Children were not perceived as sentient human beings with dignity,  but degraded into living props serving parental grandiosity.",
   "cer": 0.031007751937984496,
   "f0": 188.9763779527559
  },
@@ -850,7 +895,7 @@
   "role": "C",
   "file": "s3_03_06.wav",
   "text": "The root cause lies in profound affective empathy deficits combined with malignant narcissistic entitlement.",
-  "asr": "Root cause lies in profound effective empathy deficits combined with malignant narcissistic entitlement.",
+  "asr": "Root cause lies in profound effective empathy deficits combined with malignant narcissistic  entitlement.",
   "cer": 0.04672897196261682,
   "f0": 183.9107457428068
  },
@@ -859,7 +904,7 @@
   "role": "C",
   "file": "s3_03_07.wav",
   "text": "The victims' tears and pleas did not awaken compassion; instead, they reinforced the abusers' pathological sense of omnipotent control.",
-  "asr": "Victims tears and pleas did not awaken compassion. Instead, they reinforced the abuser's pathological sense of omnipotent control.",
+  "asr": "Victims tears and pleas did not awaken compassion.  Instead, they reinforced the abuser's pathological sense of omnipotent control.",
   "cer": 0.031746031746031744,
   "f0": 176.47058823529412
  },
@@ -868,7 +913,7 @@
   "role": "C",
   "file": "s3_03_08.wav",
   "text": "To rationalize their cruelty, the parents employed Techniques of Neutralization, convincing themselves that captivity protected their children from worldly corruption.",
-  "asr": "Arrationalize their cruelty. The parents employed techniques of neutralization, convincing themselves that captivity protected their children from worldly corruption.",
+  "asr": "Arrationalize their cruelty.  The parents employed techniques of neutralization,  convincing themselves that captivity  protected their children from worldly corruption.",
   "cer": 0.018292682926829267,
   "f0": 192.0
  },
@@ -877,7 +922,7 @@
   "role": "H",
   "file": "s3_04_01.wav",
   "text": "A profound question remains: how could both parents sustain such cruelty for decades without either conscience awakening?",
-  "asr": "A profound question remains, how could both parents sustain such cruelty for decades without either conscience awakening?",
+  "asr": "A profound question remains, how could both parents sustain such cruelty for decades without  either conscience awakening?",
   "cer": 0.0,
   "f0": 113.74407582938389
  },
@@ -904,7 +949,7 @@
   "role": "H",
   "file": "s3_04_04.wav",
   "text": "This mechanism, coupled with severe mental compartmentalization, constructed an impenetrable cognitive fortress between two separate worlds.",
-  "asr": "This mechanism, coupled with severe mental compartmentalization, constructed an impenetrable cognitive fortress between two separate worlds.",
+  "asr": "This mechanism, coupled with severe mental compartmentalization,  constructed an impenetrable cognitive fortress between two separate worlds.",
   "cer": 0.0,
   "f0": 112.67605633802818
  },
@@ -922,7 +967,7 @@
   "role": "C",
   "file": "s3_05_01.wav",
   "text": "Folie à Deux, or shared madness, is a conceptual framework describing two closely bonded individuals sharing and reinforcing a distorted delusional system.",
-  "asr": "Folia d'eur, or Shared Madness, is a conceptual framework describing two closely bonded individuals sharing and reinforcing a distorted delusional system.",
+  "asr": "Folia d'eur, or Shared Madness, is a conceptual framework describing two closely bonded individuals  sharing and reinforcing a distorted delusional system.",
   "cer": 0.02702702702702703,
   "f0": 183.206106870229
  },
@@ -931,7 +976,7 @@
   "role": "C",
   "file": "s3_05_02.wav",
   "text": "This behavioral model serves as an analytical lens for social comprehension, not as an official clinical diagnosis sanctioned by the court.",
-  "asr": "This behavioural model serves as an analytical lens for social comprehension, not as an official clinical diagnosis sanctioned by the court.",
+  "asr": "This behavioural model serves as an analytical lens for social comprehension, not as an  official clinical diagnosis sanctioned by the court.",
   "cer": 0.0072992700729927005,
   "f0": 188.9763779527559
  },
@@ -940,7 +985,7 @@
   "role": "C",
   "file": "s3_05_03.wav",
   "text": "When two disordered personalities reinforce each other, they generate an echo chamber where cruelty is normalized and guilt is extinguished.",
-  "asr": "When two disordered personalities reinforce each other, they generate an echo chamber, where cruelty is normalized and guilt is extinguished.",
+  "asr": "When two disordered personalities reinforce each other, they generate an echo chamber,  where cruelty is normalized and guilt is extinguished.",
   "cer": 0.0,
   "f0": 187.5
  },
@@ -949,7 +994,7 @@
   "role": "C",
   "file": "s3_05_04.wav",
   "text": "Alongside this operated radical Compartmentalization: <|prosody:pause|> a strict separation between the perfect family drawer on social media and the dungeon drawer behind closed doors.",
-  "asr": "Alongside this operated radical compartmentalization, a strict separation between the perfect family draw on social media and the dungeon draw behind closed doors.",
+  "asr": "Alongside this operated radical compartmentalization,  a strict separation between the perfect family  draw on social media and the dungeon  draw behind closed doors.",
   "cer": 0.024844720496894408,
   "f0": 180.45112781954887
  },
@@ -957,36 +1002,45 @@
   "id": "3.05#5",
   "role": "C",
   "file": "s3_05_05.wav",
-  "text": "To enforce absolute compliance, the parents systematically implemented deliberate Infantilization.",
-  "asr": "To enforce absolute compliance, the parents systematically implemented deliberate infantilization.",
-  "cer": 0.0,
-  "f0": 187.5
+  "text": "Within that insular universe, the wife gradually shifted from a dependent young bride into an active co-perpetrator, reinforcing their shared omnipotence.",
+  "asr": "Within that Insular Universe, the wife gradually shifted from a dependent young bride into  an active copepotrator, reinforcing their shared omnipotence.",
+  "cer": 0.019867549668874173,
+  "f0": 190.47619047619048
  },
  {
   "id": "3.05#6",
   "role": "C",
   "file": "s3_05_06.wav",
-  "text": "Severe nutritional deprivation stunted the physical growth of adult offspring, trapping them within the physical stature of children.",
-  "asr": "severe nutritional deprivation stunted the physical growth of adult offspring, trapping them within the physical stature of children.",
-  "cer": 0.0,
-  "f0": 181.8181818181818
+  "text": "To enforce absolute compliance, the parents systematically implemented deliberate Infantilization.",
+  "asr": "To enforce absolute compliance, the parent systematically implemented deliberate infandalization.",
+  "cer": 0.03125,
+  "f0": 195.1219512195122
  },
  {
   "id": "3.05#7",
   "role": "C",
   "file": "s3_05_07.wav",
-  "text": "Stunted physically and isolated cognitively, the victims developed Learned Helplessness, believing they were powerless to survive without their captors.",
-  "asr": "Stunted physically and isolated cognitively, the victims developed learned helplessness, believing they were powerless to survive without their captors.",
+  "text": "Severe nutritional deprivation stunted the physical growth of adult offspring, trapping them within the physical stature of children.",
+  "asr": "Severe nutritional deprivation stunted the physical growth of adult offspring,  trapping them within the physical stature of children.",
   "cer": 0.0,
-  "f0": 184.6153846153846
+  "f0": 195.1219512195122
  },
  {
   "id": "3.05#8",
   "role": "C",
   "file": "s3_05_08.wav",
+  "text": "Stunted physically and isolated cognitively, the victims developed Learned Helplessness, believing they were powerless to survive without their captors.",
+  "asr": "Stunted physically and isolated cognitively, the victims developed learned helplessness,  believing they were powerless to survive without their captors.",
+  "cer": 0.0,
+  "f0": 183.206106870229
+ },
+ {
+  "id": "3.05#9",
+  "role": "C",
+  "file": "s3_05_09.wav",
   "text": "Yet no matter how crushing the subjugation, the human drive for survival and autonomy remains a flame that cannot be extinguished.",
-  "asr": "No matter how crushing the subjugation, the human drive for survival and autonomy remains a flame that cannot be extinguished.",
-  "cer": 0.03225806451612903,
+  "asr": "Yet no matter how crushing the subjugation, the human drive for survival and autonomy remains  a flame that cannot be extinguished.",
+  "cer": 0.0,
   "f0": 187.5
  },
  {
@@ -1039,7 +1093,7 @@
   "role": "C",
   "file": "s3_07_01.wav",
   "text": "In her later reflections, Jordan Turpin revealed that a discarded smartphone became the unexpected gateway to her awakening.",
-  "asr": "In her later reflections, Jordan Turpin revealed that a discarded smartphone became the unexpected gateway to her awakening.",
+  "asr": "In her later reflections, Jordan Turpin revealed that a discarded smartphone became the unexpected  gateway to her awakening.",
   "cer": 0.0,
   "f0": 176.47058823529412
  },
@@ -1048,7 +1102,7 @@
   "role": "C",
   "file": "s3_07_02.wav",
   "text": "By connecting to wireless networks in secret, she watched music videos and glimpses of ordinary teenage life across the globe.",
-  "asr": "By connecting to wireless networks in secret, she watched music videos and glimpses of ordinary teenage life across the globe.",
+  "asr": "By connecting to wireless networks in secret, she watched music videos and glimpses of  ordinary teenage life across the globe.",
   "cer": 0.0,
   "f0": 206.89655172413794
  },
@@ -1057,7 +1111,7 @@
   "role": "C",
   "file": "s3_07_03.wav",
   "text": "Images of freedom, genuine smiles, and human warmth delivered a profound positive cognitive shock to Jordan's mind.",
-  "asr": "Mages of freedom, genuine smiles and human warmth delivered a profound positive cognitive shock to Jordan's mind.",
+  "asr": "Mages of freedom, genuine smiles and human warmth  delivered a profound positive cognitive shock  to Jordan's mind.",
   "cer": 0.009345794392523364,
   "f0": 205.12820512820514
  },
@@ -1066,7 +1120,7 @@
   "role": "C",
   "file": "s3_07_04.wav",
   "text": "She realized that her parents' harsh dictates were not universal truths, and that a compassionate world existed beyond the threshold.",
-  "asr": "She realized that her parents' harsh dictates were not universal truths, and that a compassionate world existed beyond the threshold.",
+  "asr": "She realized that her parents' harsh dictates were not universal truths, and that a compassionate  world existed beyond the threshold.",
   "cer": 0.0,
   "f0": 185.3309481216458
  },
@@ -1084,7 +1138,7 @@
   "role": "C",
   "file": "s3_07_06.wav",
   "text": "When fierce protective love for her siblings outweighed the dread of punishment, she uncovered extraordinary courage to act.",
-  "asr": "When fierce protective love for her siblings outweighed the dread of punishment, she uncovered extraordinary courage to act.",
+  "asr": "When fierce protective love for her siblings outweighed the dread of punishment,  she uncovered extraordinary courage to act.",
   "cer": 0.0,
   "f0": 185.3309481216458
  },
@@ -1092,10 +1146,28 @@
   "id": "3.07#7",
   "role": "C",
   "file": "s3_07_07.wav",
+  "text": "Faced with the imminent threat that the younger siblings might not survive the upcoming relocation, her protective biological instinct entirely overpowered years of learned helplessness.",
+  "asr": "faced with the imminent threat that the younger siblings might not survive the upcoming relocation,  her protective biological instinct entirely overpowered years of learned helplessness.",
+  "cer": 0.0,
+  "f0": 195.1219512195122
+ },
+ {
+  "id": "3.07#8",
+  "role": "C",
+  "file": "s3_07_08.wav",
   "text": "Her leap through that bedroom window at dawn stands as a radiant testament to human resilience defying oppressive tyranny.",
-  "asr": "A leap through that bedroom window at dawn stands as a radiant testament to human resilience defying oppressive tyranny.",
-  "cer": 0.024793388429752067,
-  "f0": 191.23809523809524
+  "asr": "Her leap through that bedroom window at dawn stands as a radiant testament to human resilience  to find oppressive tyranny.",
+  "cer": 0.04132231404958678,
+  "f0": 195.1219512195122
+ },
+ {
+  "id": "3.07#9",
+  "role": "C",
+  "file": "s3_07_09.wav",
+  "text": "It was a defining moment of human cognitive awakening, transforming paralyzing terror into a decisive catalyst for survival.",
+  "asr": "It was a defining moment of human cognitive awakening, transforming paralyzing terror into  a decisive catalyst for survival.",
+  "cer": 0.0,
+  "f0": 186.04651162790697
  },
  {
   "id": "3.08#1",
@@ -1111,7 +1183,7 @@
   "role": "H",
   "file": "s3_08_02.wav",
   "text": "The deceptive facade shielding 160 Muir Woods Road collapsed decisively before the light of justice.",
-  "asr": "The deceptive facade shielding 160 mure woods road collapsed decisively before the light of justice.",
+  "asr": "The deceptive facade shielding 160 mure woods road  collapsed decisively before the light of justice.",
   "cer": 0.017699115044247787,
   "f0": 112.14953271028037
  },
@@ -1138,7 +1210,7 @@
   "role": "H",
   "file": "s4_02_01.wav",
   "text": "On January 18, 2018, the Riverside County District Attorney's Office officially announced sweeping criminal charges against David and Louise Turpin.",
-  "asr": "On January 18, 2018, the Riverside County District Attorney's Office officially announced sweeping criminal charges against David and Louise Turpin.",
+  "asr": "On January 18, 2018, the Riverside County District Attorney's Office officially announced sweeping  criminal charges against David and Louise Turpin.",
   "cer": 0.0,
   "f0": 119.40298507462687
  },
@@ -1165,7 +1237,7 @@
   "role": "H",
   "file": "s4_02_04.wav",
   "text": "Confronted with overwhelming photographic evidence from Jordan and undeniable medical records, the defendants had no viable defense.",
-  "asr": "Confronted with overwhelming photographic evidence from Jordan and undeniable medical records, the defendants had no viable defense.",
+  "asr": "Confronted with overwhelming photographic evidence from Jordan and undeniable medical records,  the defendants had no viable defense.",
   "cer": 0.0,
   "f0": 110.34541073013995
  },
@@ -1174,7 +1246,7 @@
   "role": "H",
   "file": "s4_02_05.wav",
   "text": "On February 22, 2019, David and Louise Turpin formally pleaded guilty to fourteen serious felony charges.",
-  "asr": "On February 22, 2019, David and Louise Turpin formally pleaded guilty to 14 serious felony charges.",
+  "asr": "On February 22, 2019, David and Louise Turpin formally pleaded guilty to 14 serious felony  charges.",
   "cer": 0.0,
   "f0": 115.38461538461539
  },
@@ -1201,7 +1273,7 @@
   "role": "H",
   "file": "s4_04_02.wav",
   "text": "The courtroom was filled with international journalists, child advocacy representatives, and concerned citizens.",
-  "asr": "The courtroom was filled with international journalists, child advocacy representatives, and concerned citizens.",
+  "asr": "The courtroom was filled with international journalists, child advocacy representatives,  and concerned citizens.",
   "cer": 0.0,
   "f0": 110.59907834101382
  },
@@ -1218,19 +1290,28 @@
   "id": "4.04#4",
   "role": "H",
   "file": "s4_04_04.wav",
-  "text": "Yet the most sacred and poignant moments of the proceeding belonged to the courageous impact statements delivered by their children.",
-  "asr": "yet the most sacred and poignant moments of the proceeding belong to the courageous impact statements delivered by their children.",
-  "cer": 0.015748031496062992,
-  "f0": 115.94202898550725
+  "text": "Were those courtroom tears a genuine awakening of long-dormant conscience, or merely the pathetic collapse of narcissistic grandiosity once their absolute power evaporated?",
+  "asr": "Were those courtroom tears a genuine awakening of long dormant conscience,  or merely the pathetic collapse of narcissistic grandiosity,  once their absolute power evaporated?",
+  "cer": 0.0,
+  "f0": 105.26315789473684
  },
  {
   "id": "4.04#5",
   "role": "H",
   "file": "s4_04_05.wav",
+  "text": "Yet the most sacred and poignant moments of the proceeding belonged to the courageous impact statements delivered by their children.",
+  "asr": "Yet the most sacred and poignant moments of the proceeding belong to the courageous impact statements delivered by their children.",
+  "cer": 0.015748031496062992,
+  "f0": 103.00429184549357
+ },
+ {
+  "id": "4.04#6",
+  "role": "H",
+  "file": "s4_04_06.wav",
   "text": "Victims once considered powerless stood tall at the witness stand to reclaim their voice and human dignity.",
   "asr": "Victims once considered powerless, stood tall at the witness stand to reclaim their voice and human dignity.",
   "cer": 0.0,
-  "f0": 111.62790697674419
+  "f0": 108.5972850678733
  },
  {
   "id": "4.06#1",
@@ -1246,7 +1327,7 @@
   "role": "D",
   "file": "s4_06_02.wav",
   "text": "One daughter declared with quiet resolve that while her parents took her entire life away, she was now taking her life back.",
-  "asr": "One daughter declared with quiet resolve that while her parents took her entire life away, she was now taking her life back.",
+  "asr": "One daughter declared with quiet resolve that while her parents took her entire life away,  she was now taking her life back.",
   "cer": 0.0,
   "f0": 89.56346167235256
  },
@@ -1255,7 +1336,7 @@
   "role": "D",
   "file": "s4_06_03.wav",
   "text": "A son shared a profound message of grace, stating that he still loved his parents and forgave them, even though the past could never be erased.",
-  "asr": "A son shared a profound message of grace, stating that he still loved his parents and forgave them, even though the past could never be erased.",
+  "asr": "A son shared a profound message of grace, stating that he still loved his parents and forgave them,  even though the past could never be erased.",
   "cer": 0.0,
   "f0": 78.68852459016394
  },
@@ -1263,28 +1344,37 @@
   "id": "4.06#4",
   "role": "D",
   "file": "s4_06_04.wav",
-  "text": "Those resilient, humane statements moved the entire courtroom to tears of admiration.",
-  "asr": "Those resilient humane statements move the entire courtroom to tears of admiration.",
-  "cer": 0.012048192771084338,
-  "f0": 75.0
+  "text": "The son's expression of forgiveness was never an absolution of heinous acts, but rather an act of psychological liberation, stripping his parents of their lingering power to hurt him.",
+  "asr": "The Sun's expression of forgiveness was never an absolution of heinous acts,  but rather an act of psychological liberation,  stripping his parents of their lingering power to hurt him.",
+  "cer": 0.00558659217877095,
+  "f0": 81.91126279863481
  },
  {
   "id": "4.06#5",
   "role": "D",
   "file": "s4_06_05.wav",
-  "text": "The victims no longer appeared as fearful shadows in the dark, but emerged as sovereign individuals seizing control of their destiny.",
-  "asr": "The victims no longer appeared as fearful shadows in the dark, but emerged as sovereign individuals seizing control of their destiny.",
+  "text": "Those resilient, humane statements moved the entire courtroom to tears of admiration.",
+  "asr": "Those resilient, humane statements moved the entire courtroom to tears of admiration.",
   "cer": 0.0,
-  "f0": 80.94458094458093
+  "f0": 82.75862068965517
  },
  {
   "id": "4.06#6",
   "role": "D",
   "file": "s4_06_06.wav",
+  "text": "The victims no longer appeared as fearful shadows in the dark, but emerged as sovereign individuals seizing control of their destiny.",
+  "asr": "The victims no longer appeared as fearful shadows in the dark,  but emerged as sovereign individuals seizing control of their destiny.",
+  "cer": 0.0,
+  "f0": 85.1063829787234
+ },
+ {
+  "id": "4.06#7",
+  "role": "D",
+  "file": "s4_06_07.wav",
   "text": "That dignity stood in stark contrast to the pathetic cowardice of the two individuals who had once claimed absolute domestic dominion.",
   "asr": "that dignity stood in stark contrast to the pathetic cowardice of the two individuals who had once claimed absolute domestic dominion.",
   "cer": 0.0,
-  "f0": 75.47169811320755
+  "f0": 80.8080808080808
  },
  {
   "id": "4.08#1",
@@ -1300,7 +1390,7 @@
   "role": "H",
   "file": "s4_08_02.wav",
   "text": "He stated unequivocally that the defendants' conduct toward their own children was selfish, cruel, and completely inhumane.",
-  "asr": "He stated unequivocally that the defendant's conduct toward their own children was selfish, cruel, and completely inhumane.",
+  "asr": "He stated unequivocally that the defendant's conduct toward their own children was selfish,  cruel, and completely inhumane.",
   "cer": 0.0,
   "f0": 126.98412698412699
  },
@@ -1327,7 +1417,7 @@
   "role": "H",
   "file": "s4_08_05.wav",
   "text": "The convicts were transferred to separate maximum-security facilities, ineligible for parole consideration until serving a full quarter-century.",
-  "asr": "The convicts were transferred to separate maximum security facilities, ineligible for parole consideration until serving a full quarter century.",
+  "asr": "The convicts were transferred to separate maximum security facilities,  ineligible for parole consideration until serving a full quarter century.",
   "cer": 0.0,
   "f0": 111.36950904392765
  },
@@ -1336,7 +1426,7 @@
   "role": "N2",
   "file": "s4_09_01.wav",
   "text": "Imagine the overwhelming emotions of medical personnel at Riverside University Health System upon first receiving the thirteen Turpin siblings.",
-  "asr": "Imagine the overwhelming emotions of medical personnel at Riverside University Health System upon first receiving the 13 turpin siblings.",
+  "asr": "Imagine the overwhelming emotions of medical personnel at Riverside University Health System  upon first receiving the 13 turpin siblings.",
   "cer": 0.0,
   "f0": 206.89655172413794
  },
@@ -1345,7 +1435,7 @@
   "role": "N2",
   "file": "s4_09_02.wav",
   "text": "In those initial days, the victims shrank from overhead room lights and startled at the faintest ambient sounds.",
-  "asr": "those initial days, the victims shrank from overhead room lights and startled at the faintest ambient sounds.",
+  "asr": "those initial days, the victims shrank from overhead room lights and startled at the  faintest ambient sounds.",
   "cer": 0.02830188679245283,
   "f0": 247.42268041237114
  },
@@ -1354,7 +1444,7 @@
   "role": "N2",
   "file": "s4_09_03.wav",
   "text": "Routine everyday blessings, such as a warm meal, a soft bed, or a hot shower, felt like unimaginable miracles to them.",
-  "asr": "routine everyday blessings, such as a warm meal, a soft bed, or a hot shower felt like unimaginable miracles to them.",
+  "asr": "routine everyday blessings, such as a warm meal, a soft bed, or a hot shower felt like unimaginable  miracles to them.",
   "cer": 0.0,
   "f0": 247.42268041237114
  },
@@ -1363,7 +1453,7 @@
   "role": "N2",
   "file": "s4_09_04.wav",
   "text": "Medical rehabilitation for long-term starved patients required painstaking clinical monitoring to avoid refeeding complications.",
-  "asr": "Medical rehabilitation for long-term starved patients required pain-staking clinical monitoring to avoid refeeding complications.",
+  "asr": "Medical rehabilitation for long-term starved patients required pain-staking clinical monitoring  to avoid refeeding complications.",
   "cer": 0.007874015748031496,
   "f0": 240.0
  },
@@ -1372,7 +1462,7 @@
   "role": "N2",
   "file": "s4_09_05.wav",
   "text": "Yet what moved the healthcare team most deeply was the tender, protective solidarity the siblings showed for one another.",
-  "asr": "at what moved the healthcare team most deeply was the tender protective solidarity the siblings showed for one another.",
+  "asr": "at what moved the healthcare team most deeply  was the tender protective solidarity  the siblings showed for one another.",
   "cer": 0.01680672268907563,
   "f0": 250.0
  },
@@ -1381,7 +1471,7 @@
   "role": "N2",
   "file": "s4_09_06.wav",
   "text": "Their daily healing offered an unforgettable lesson in human vitality and resilience rising above crushing adversity.",
-  "asr": "Daily Healing offered an unforgettable lesson in human vitality and resilience rising above crushing adversity.",
+  "asr": "Daily Healing offered an unforgettable lesson in human vitality and resilience rising  above crushing adversity.",
   "cer": 0.05357142857142857,
   "f0": 226.41509433962264
  },
@@ -1390,7 +1480,7 @@
   "role": "D",
   "file": "s4_10_01.wav",
   "text": "From a legal standpoint, the sentence of twenty-five years to life closed a dark chapter and affirmed the supremacy of law.",
-  "asr": "from a legal standpoint, the sentence of 25 years to life closed a dark chapter and affirmed the supremacy of law.",
+  "asr": "from a legal standpoint, the sentence of 25 years to life closed a dark chapter and  affirmed the supremacy of law.",
   "cer": 0.0,
   "f0": 98.15991970558716
  },
@@ -1407,28 +1497,46 @@
   "id": "4.10#3",
   "role": "D",
   "file": "s4_10_03.wav",
-  "text": "The Turpin case sounded an urgent alarm regarding regulatory gaps in California's oversight of private home schools.",
-  "asr": "The turpin case sounded an urgent alarm regarding regulatory gaps in California's oversight of private homeschools.",
-  "cer": 0.008771929824561403,
-  "f0": 78.17589576547232
+  "text": "The mother's invocation of God having a special plan was a textbook case of moral disengagement and spiritual bypassing, deflecting personal accountability for systemic cruelty.",
+  "asr": "The mother's invocation of God having a special plan was a textbook case of moral disengagement and spiritual bypassing,  deflecting personal accountability for systemic cruelty.",
+  "cer": 0.0,
+  "f0": 81.35593220338983
  },
  {
   "id": "4.10#4",
   "role": "D",
   "file": "s4_10_04.wav",
-  "text": "The revelations prompted legislative hearings aimed at strengthening welfare checks and educational accountability for home school students.",
-  "asr": "The revelations prompted legislative hearings aimed at strengthening welfare checks and educational accountability for homeschool students.",
-  "cer": 0.007407407407407408,
-  "f0": 76.6773162939297
+  "text": "Both perpetrators grieved only when their tyrannical domestic kingdom vanished, leaving them to face absolute isolation behind prison walls for the rest of their lives.",
+  "asr": "Both perpetrators grieved only when their tyrannical domestic kingdom vanished, leaving them to face absolute isolation behind prison walls for the rest of their lives.",
+  "cer": 0.0,
+  "f0": 86.02150537634408
  },
  {
   "id": "4.10#5",
   "role": "D",
   "file": "s4_10_05.wav",
+  "text": "The Turpin case sounded an urgent alarm regarding regulatory gaps in California's oversight of private home schools.",
+  "asr": "The turpent case sounded an urgent alarm regarding regulatory gaps in California's oversight  of private homeschools.",
+  "cer": 0.02631578947368421,
+  "f0": 77.17041800643086
+ },
+ {
+  "id": "4.10#6",
+  "role": "D",
+  "file": "s4_10_06.wav",
+  "text": "The revelations prompted legislative hearings aimed at strengthening welfare checks and educational accountability for home school students.",
+  "asr": "The revelations prompted legislative hearings aimed at strengthening welfare checks and  educational accountability for homeschool students.",
+  "cer": 0.007407407407407408,
+  "f0": 77.92207792207792
+ },
+ {
+  "id": "4.10#7",
+  "role": "D",
+  "file": "s4_10_07.wav",
   "text": "The enduring legacy of this case remains Jordan Turpin's extraordinary bravery in fighting for the freedom of her family.",
   "asr": "The enduring legacy of this case remains Jordan Turpin's extraordinary bravery in fighting for the freedom of her family.",
   "cer": 0.0,
-  "f0": 82.33300381302075
+  "f0": 71.21661721068249
  },
  {
   "id": "4.11#1",
@@ -1444,7 +1552,7 @@
   "role": "C",
   "file": "s4_11_02.wav",
   "text": "Despite enduring physical trauma and painful memories, community support enabled them to steadily reintegrate into society.",
-  "asr": "Despite enduring physical trauma and painful memories, community support enabled them to steadily reintegrate into society.",
+  "asr": "Despite enduring physical trauma and painful memories, community support enabled them to steadily  reintegrate into society.",
   "cer": 0.0,
   "f0": 193.5483870967742
  },
@@ -1462,7 +1570,7 @@
   "role": "C",
   "file": "s4_11_04.wav",
   "text": "Their resilience proves that the darkness of coercive control cannot extinguish the core human desire for identity and love.",
-  "asr": "A resilience proves that the darkness of coercive control cannot extinguish the core human desire for identity and love.",
+  "asr": "A resilience proves that the darkness of coercive control cannot extinguish the core human  desire for identity and love.",
   "cer": 0.04201680672268908,
   "f0": 190.47619047619048
  },
@@ -1470,17 +1578,26 @@
   "id": "4.11#5",
   "role": "C",
   "file": "s4_11_05.wav",
+  "text": "By refusing to remain hostages of hatred, the survivors accomplished a monumental psychological leap, proving that human empathy ultimately triumphs over tyrannical control.",
+  "asr": "are refusing to remain hostages of hatred,  the survivors accomplished a monumental psychological leap,  proving that human empathy ultimately triumphs  over tyrannical control.",
+  "cer": 0.01764705882352941,
+  "f0": 195.1219512195122
+ },
+ {
+  "id": "4.11#6",
+  "role": "C",
+  "file": "s4_11_06.wav",
   "text": "Genuine familial love served as an unbreakable lifeline guiding them through hardship into the light of freedom.",
-  "asr": "Enuined familial love served as an unbreakable lifeline guiding them through hardship into the light of freedom.",
-  "cer": 0.018018018018018018,
-  "f0": 187.5
+  "asr": "Genuine familial love served as an unbreakable lifeline,  guiding them through hardship into the light of freedom.",
+  "cer": 0.0,
+  "f0": 195.1219512195122
  },
  {
   "id": "4.12#1",
   "role": "H",
   "file": "s4_12_01.wav",
   "text": "Prison gates have permanently closed behind David and Louise Turpin, concluding the dark ordeal of the suburban captive home.",
-  "asr": "Prison gates have permanently closed behind David and Louise Turpin, concluding the dark ordeal of the suburban captive home.",
+  "asr": "Prison gates have permanently closed behind David and Louise Turpin,  concluding the dark ordeal of the suburban captive home.",
   "cer": 0.0,
   "f0": 110.09174311926606
  },
@@ -1498,7 +1615,7 @@
   "role": "H",
   "file": "s4_12_03.wav",
   "text": "Yet this tragedy imparts enduring lessons of vigilance that society must never allow itself to forget.",
-  "asr": "Yet this tragedy imparts enduring lessons of vigilance that society must never allow itself to forget.",
+  "asr": "Yet this tragedy imparts enduring lessons of vigilance that society must never allow itself  to forget.",
   "cer": 0.0,
   "f0": 112.67605633802818
  },
@@ -1507,7 +1624,7 @@
   "role": "H",
   "file": "s4_12_04.wav",
   "text": "Act 5 will chronicle their journey of rebirth and outline four vital red flags for identifying concealed domestic abuse.",
-  "asr": "Act 5 will chronicle their journey of rebirth and outline four vital red flags for identifying concealed domestic abuse.",
+  "asr": "Act 5 will chronicle their journey of rebirth and outline four vital red flags for identifying  concealed domestic abuse.",
   "cer": 0.0,
   "f0": 110.09174311926606
  },
@@ -1525,7 +1642,7 @@
   "role": "H",
   "file": "s5_02_02.wav",
   "text": "Those once-frail children have grown into young adults attending college, securing employment, and embracing community life.",
-  "asr": "Those once frail children have grown into young adults attending college, securing employment and embracing community life.",
+  "asr": "Those once frail children have grown into young adults attending college,  securing employment and embracing community life.",
   "cer": 0.0,
   "f0": 110.59907834101382
  },
@@ -1534,7 +1651,7 @@
   "role": "H",
   "file": "s5_02_03.wav",
   "text": "In late 2021, Jordan and Jennifer Turpin appeared publicly for the first time in an inspiring national television interview.",
-  "asr": "In late 2021, Jordan and Jennifer Turpin appeared publicly for the first time in an inspiring national television interview.",
+  "asr": "In late 2021, Jordan and Jennifer Turpin appeared publicly for the first time in an inspiring  national television interview.",
   "cer": 0.0,
   "f0": 108.5972850678733
  },
@@ -1543,7 +1660,7 @@
   "role": "H",
   "file": "s5_02_04.wav",
   "text": "Their radiant confidence and optimism communicated a powerful message about human resilience rising from the ashes.",
-  "asr": "Their radiant confidence and optimism communicated a powerful message about human resilience, rising from the ashes.",
+  "asr": "Their radiant confidence and optimism communicated a powerful message about human resilience,  rising from the ashes.",
   "cer": 0.0,
   "f0": 121.8274111675127
  },
@@ -1561,7 +1678,7 @@
   "role": "H",
   "file": "s5_02_06.wav",
   "text": "Their journey of rebirth affirms a timeless truth: no prison can ever hold a soul determined to be free.",
-  "asr": "Their journey of rebirth affirms a timeless truth. No prison can ever hold a soul determined to be free.",
+  "asr": "Their journey of rebirth affirms a timeless truth.  No prison can ever hold a soul determined to be free.",
   "cer": 0.0,
   "f0": 110.85509472606248
  },
@@ -1570,7 +1687,7 @@
   "role": "D",
   "file": "s5_03_01.wav",
   "text": "The Turpin family file stands as a stern reminder of collective vigilance and civic responsibility for every community member.",
-  "asr": "The Turpin Family File stands as a stern reminder of collective vigilance and civic responsibility for every community member.",
+  "asr": "The Turpin Family File stands as a stern reminder of collective vigilance and civic responsibility  for every community member.",
   "cer": 0.0,
   "f0": 85.87009396041886
  },
@@ -1605,17 +1722,26 @@
   "id": "5.03#5",
   "role": "D",
   "file": "s5_03_05.wav",
+  "text": "Every citizen must actively dismantle the bystander effect, for hesitation and silence in the face of red flags provide fertile ground for hidden abuse to fester.",
+  "asr": "Every citizen must actively dismantle the bystander effect.  For hesitation and silence in the face of red flags,  provide fertile ground for hidden abuse to fester.",
+  "cer": 0.0,
+  "f0": 83.76988864793742
+ },
+ {
+  "id": "5.03#6",
+  "role": "D",
+  "file": "s5_03_06.wav",
   "text": "The safety of children and dependent persons must always remain the highest priority of law enforcement and society.",
   "asr": "The safety of children and dependent persons must always remain the highest priority of law enforcement and society.",
   "cer": 0.0,
-  "f0": 81.91126279863481
+  "f0": 79.33905973378795
  },
  {
   "id": "5.04#1",
   "role": "C",
   "file": "s5_04_01.wav",
   "text": "From a human rights standpoint, the most profound lesson from this ordeal is absolute respect for children's autonomy and dignity.",
-  "asr": "From a human right standpoint, the most profound lesson from this ordeal is absolute respect for children's autonomy and dignity.",
+  "asr": "From a human right standpoint, the most profound lesson from this ordeal is absolute respect  for children's autonomy and dignity.",
   "cer": 0.008130081300813009,
   "f0": 186.04651162790697
  },
@@ -1624,7 +1750,7 @@
   "role": "C",
   "file": "s5_04_02.wav",
   "text": "Offspring are not personal property belonging to parents to satisfy pathological fantasies or authoritarian control.",
-  "asr": "offspring are not personal property belonging to parents to satisfy pathological fantasies or authoritarian control.",
+  "asr": "offspring are not personal property belonging to parents to satisfy pathological fantasies  or authoritarian control.",
   "cer": 0.0,
   "f0": 176.47058823529412
  },
@@ -1633,7 +1759,7 @@
   "role": "C",
   "file": "s5_04_03.wav",
   "text": "True family love must be founded upon mutual respect, nurture, and fostering each individual's independent growth.",
-  "asr": "True family love must be founded upon mutual respect, nurture, and fostering each individual's independent growth.",
+  "asr": "True family love must be founded upon mutual respect, nurture, and fostering each individual's  independent growth.",
   "cer": 0.0,
   "f0": 193.5483870967742
  },
@@ -1642,7 +1768,7 @@
   "role": "C",
   "file": "s5_04_04.wav",
   "text": "Coercive control is an insidious form of domestic terror that must be recognized and penalized under the law.",
-  "asr": "Wersive control is an insidious form of domestic terror that must be recognized and penalized under the law.",
+  "asr": "Wersive control is an insidious form of domestic terror  that must be recognized and penalized under the law.",
   "cer": 0.028846153846153848,
   "f0": 179.1044776119403
  },
@@ -1651,7 +1777,7 @@
   "role": "C",
   "file": "s5_04_05.wav",
   "text": "We must listen to and trust our unsettling instincts, as they represent nature's innate protective shield against hidden danger.",
-  "asr": "You must listen to and trust our unsettling instincts, as they represent nature's innate protective shield against hidden danger.",
+  "asr": "You must listen to and trust our unsettling instincts, as they represent nature's innate  protective shield against hidden danger.",
   "cer": 0.024793388429752067,
   "f0": 198.34710743801654
  },
@@ -1660,7 +1786,7 @@
   "role": "C",
   "file": "s5_04_06.wav",
   "text": "Sustained psychological guidance and community solidarity are vital in helping survivors of coercive control reclaim their true identity.",
-  "asr": "The stained psychological guidance and community solidarity are vital in helping survivors of coercive control reclaim their true identity.",
+  "asr": "The stained psychological guidance and community solidarity are vital in helping survivors  of coercive control reclaim their true identity.",
   "cer": 0.030303030303030304,
   "f0": 180.45112781954887
  },
@@ -1668,17 +1794,26 @@
   "id": "5.04#7",
   "role": "C",
   "file": "s5_04_07.wav",
+  "text": "The paradigm of post-traumatic growth affirms that even the deepest psychological wounds can serve as the bedrock for profound self-realization and boundless compassion.",
+  "asr": "Paradigm of post-traumatic growth affirms that even the deepest psychological wounds can  serve as the bedrock for profound self-realisation and boundless compassion.",
+  "cer": 0.03048780487804878,
+  "f0": 208.69565217391303
+ },
+ {
+  "id": "5.04#8",
+  "role": "C",
+  "file": "s5_04_08.wav",
   "text": "Always find the courage to speak up when encountering abuse of authority, for silent indifference is complicity with wrongdoing.",
-  "asr": "Always find the courage to speak up when encountering abuse of authority. For silent indifference is complicity with wrongdoing.",
+  "asr": "Always find the courage to speak up when encountering abuse of authority.  For silent indifference is complicity with wrongdoing.",
   "cer": 0.0,
-  "f0": 190.47619047619048
+  "f0": 176.47058823529412
  },
  {
   "id": "5.05#1",
   "role": "H",
   "file": "s5_05_01.wav",
   "text": "To sharpen our awareness and safeguard those around us, Amber Eyes outlines four critical survival red flags of concealed domestic abuse.",
-  "asr": "To sharpen our awareness and safeguard those around us, Amber Eyes outlines four critical survival red flags of concealed domestic abuse.",
+  "asr": "To sharpen our awareness and safeguard those around us,  Amber Eyes outlines four critical survival red flags of concealed domestic abuse.",
   "cer": 0.0,
   "f0": 115.94202898550725
  },
@@ -1696,7 +1831,7 @@
   "role": "H",
   "file": "s5_05_03.wav",
   "text": "When a household never opens its doors to neighbors and adamantly forbids children from outside social activities, that is an alarming signal.",
-  "asr": "When a household never opens its doors to neighbors, and adamantly forbids children from outside social activities, that is an alarming signal.",
+  "asr": "When a household never opens its doors to neighbors,  and adamantly forbids children from outside social activities,  that is an alarming signal.",
   "cer": 0.0,
   "f0": 108.10810810810811
  },
@@ -1705,7 +1840,7 @@
   "role": "H",
   "file": "s5_05_04.wav",
   "text": "Abusers deliberately sever victims' external bonds with friends and relatives to systematically dismantle any outside support network.",
-  "asr": "Abusers deliberately sever victims' external bonds with friends and relatives to systematically dismantle any outside support network.",
+  "asr": "Abusers deliberately sever victims' external bonds with friends and relatives to systematically  dismantle any outside support network.",
   "cer": 0.0,
   "f0": 112.67605633802818
  },
@@ -1759,7 +1894,7 @@
   "role": "H",
   "file": "s5_05_10.wav",
   "text": "The third red flag includes signs of chronic malnutrition, stunted physical development, and unexplained physical frailty.",
-  "asr": "The third red flag includes signs of chronic malnutrition, stunted physical development, and unexplained physical frailty.",
+  "asr": "The third red flag includes signs of chronic malnutrition,  stunted physical development, and unexplained physical frailty.",
   "cer": 0.0,
   "f0": 101.69491525423729
  },
@@ -1768,7 +1903,7 @@
   "role": "H",
   "file": "s5_05_11.wav",
   "text": "Seeing children or adolescents noticeably undersized for their age, pale, and fearful of natural daylight is an urgent distress beacon.",
-  "asr": "Seeing children or adolescents noticeably undersized for their age, pale, and fearful of natural daylight is an urgent distress beacon.",
+  "asr": "Seeing children or adolescents noticeably undersized for their age,  pale, and fearful of natural daylight is an urgent distress beacon.",
   "cer": 0.0,
   "f0": 101.69491525423729
  },
@@ -1804,7 +1939,7 @@
   "role": "H",
   "file": "s5_05_15.wav",
   "text": "Homes that remain shuttered throughout daylight hours, with occupants venturing out only after midnight while fearing strangers, demand serious attention.",
-  "asr": "Homes that remain shuttered throughout daylight hours with occupants venturing out only after midnight while fearing strangers demand serious attention.",
+  "asr": "Homes that remain shuttered throughout daylight hours with occupants venturing out only after  midnight while fearing strangers demand serious attention.",
   "cer": 0.0,
   "f0": 110.09174311926606
  },
@@ -1839,54 +1974,63 @@
   "id": "5.05#19",
   "role": "H",
   "file": "s5_05_19.wav",
-  "text": "Our collective courage and perceptive observation today serve as the vital key unlocking freedom for vulnerable lives awaiting salvation.",
-  "asr": "Our collective courage and perceptive observation today serve as the vital key unlocking freedom for vulnerable lives awaiting salvation.",
+  "text": "Collective empathy and vigilance are the only light capable of piercing the darkness of invisible prisons concealed behind closed suburban walls.",
+  "asr": "Collective empathy and vigilance are the only light capable of piercing the darkness of invisible prisons concealed behind closed suburban walls.",
   "cer": 0.0,
-  "f0": 103.8961038961039
+  "f0": 113.20754716981132
  },
  {
   "id": "5.05#20",
   "role": "H",
   "file": "s5_05_20.wav",
-  "text": "Please share this message so we can collectively build safer communities where every home is a genuine sanctuary of unconditional love.",
-  "asr": "Please share this message so we can collectively build safer communities, where every home is a genuine sanctuary of unconditional love.",
+  "text": "Our collective courage and perceptive observation today serve as the vital key unlocking freedom for vulnerable lives awaiting salvation.",
+  "asr": "Our collective courage and perceptive observation today serve as the vital key unlocking freedom for vulnerable lives awaiting salvation.",
   "cer": 0.0,
-  "f0": 112.14953271028037
+  "f0": 102.56410256410257
  },
  {
   "id": "5.05#21",
   "role": "H",
   "file": "s5_05_21.wav",
-  "text": "Thank you sincerely for spending your time with this deeply moving case on Amber Eyes today.",
-  "asr": "Thank you sincerely for spending your time with this deeply moving case on Amborize today.",
-  "cer": 0.054945054945054944,
-  "f0": 99.79253112033194
+  "text": "Please share this message so we can collectively build safer communities where every home is a genuine sanctuary of unconditional love.",
+  "asr": "Please share this message so we can collectively build safer communities  where every home is a genuine sanctuary of unconditional love.",
+  "cer": 0.0,
+  "f0": 113.20754716981132
  },
  {
   "id": "5.05#22",
   "role": "H",
   "file": "s5_05_22.wav",
-  "text": "Please subscribe to our channel, turn on notifications, and share your thoughtful perspectives in the comments section below.",
-  "asr": "Please subscribe to our channel, turn on notifications, and share your thoughtful perspectives in the comments section below.",
+  "text": "Thank you sincerely for spending your time with this deeply moving case on Amber Eyes today.",
+  "asr": "Thank you sincerely for spending your time with this deeply moving case on Amber Eyes today.",
   "cer": 0.0,
-  "f0": 115.94202898550725
+  "f0": 120.0
  },
  {
   "id": "5.05#23",
   "role": "H",
   "file": "s5_05_23.wav",
-  "text": "Your generous companionship provides the driving force that fuels our continuing journey into the mysteries of the human mind.",
-  "asr": "Your generous companionship provides the driving force that fuels our continuing journey into the mysteries of the human mind.",
+  "text": "Please subscribe to our channel, turn on notifications, and share your thoughtful perspectives in the comments section below.",
+  "asr": "Please subscribe to our channel, turn on notifications, and share your thoughtful perspectives in the comments section below.",
   "cer": 0.0,
-  "f0": 107.14285714285714
+  "f0": 122.44897959183673
  },
  {
   "id": "5.05#24",
   "role": "H",
   "file": "s5_05_24.wav",
+  "text": "Your generous companionship provides the driving force that fuels our continuing journey into the mysteries of the human mind.",
+  "asr": "Your generous companionship provides the driving force that fuels our continuing journey into the mysteries of the human mind.",
+  "cer": 0.0,
+  "f0": 114.83253588516746
+ },
+ {
+  "id": "5.05#25",
+  "role": "H",
+  "file": "s5_05_25.wav",
   "text": "Farewell for now, and we look forward to welcoming you in our upcoming case analyses.",
   "asr": "Farewell for now, and we look forward to welcoming you in our upcoming case analyses.",
   "cer": 0.0,
-  "f0": 114.83253588516746
+  "f0": 117.6470588235294
  }
 ]

@@ -139,7 +139,10 @@ def main():
 
     asr = None
     if a.asr:
-        import whisper  # noqa: PLC0415
+        try:
+            import whisper_fast as whisper  # noqa: PLC0415
+        except ImportError:
+            import whisper  # noqa: PLC0415
         asr = whisper.load_model(a.asr_model, device="cpu")
 
     for r in rows:

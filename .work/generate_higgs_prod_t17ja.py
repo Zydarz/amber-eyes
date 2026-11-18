@@ -567,7 +567,7 @@ def main():
   - $\\Delta_{{H \\to C}} = \\mathbf{{{hc_semitones:.2f}\\text{{ 半音}}}}$ (基準値 $\\ge 4.0\\text{{ 半音}}$ — 合格 ✅)
 
 ### 3. 音声認識精度 (Whisper Base CER) & 自然さ (UTMOSv2 MOS)
-- **ASRエンジン:** `openai-whisper` (`base` model, CPU) + `ja_cer` 正規化。
+- **ASRエンジン:** `faster-whisper` (`base` model, CPU) + `ja_cer` 正規化。
 - **CER中央値:** **{np.median(cers)*100:.2f}%** (平均CER: **{np.mean(cers)*100:.2f}%**)。
 - **第2ラウンド・マルチテイク:** CER > 2% の全発話に対して新規シードでVariant 1を自動生成し、最良テイクを採用。
 - **UTMOSv2 MOS 自然さスコア:** 平均 **{avg_mos:.2f} / 5.0** (範囲: {np.min(valid_moss):.2f} – {np.max(valid_moss):.2f})。基準値 (>= 3.0 / 5.0) 達成。

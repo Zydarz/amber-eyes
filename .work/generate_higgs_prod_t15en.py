@@ -578,7 +578,7 @@ def main():
   - $\\Delta_{{H \\to C}} = \\mathbf{{{hc_semitones:.2f}\\text{{ semitones}}}}$ (Target $\\ge 4.0\\text{{ nc}}$ — PASS ✅)
 
 ### 3. ASR Accuracy (Whisper Base CER) & Naturalness (UTMOSv2 MOS)
-- **ASR Engine:** `openai-whisper` (`base` model, CPU) via `en_cer` normalization.
+- **ASR Engine:** `faster-whisper` (`base` model, CPU) via `en_cer` normalization.
 - **Median CER:** **{np.median(cers)*100:.2f}%** (Mean CER: **{np.mean(cers)*100:.2f}%**).
 - **Multi-take Pass 2:** Auto-generated Variant 1 for cues with CER > 2% and selected optimal take.
 - **UTMOSv2 MOS Naturalness:** Mean **{avg_mos:.2f} / 5.0** (Range: {np.min(valid_moss):.2f} – {np.max(valid_moss):.2f}). Passed threshold (>= 3.0 / 5.0).

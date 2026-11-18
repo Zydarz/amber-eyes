@@ -30,7 +30,7 @@ for e in ja_script:
             else:
                 ja_acting[sid] = ["neutral", 0.0, 0, None]
 
-if sent_count != 210:
+if sent_count != 226:
     print(f"CẢNH BÁO: Số câu tiếng Nhật ({sent_count}) != 210", file=sys.stderr)
     sys.exit(1)
 

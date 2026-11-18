@@ -1,1698 +1,1698 @@
 [
-  {
-    "id": "1.01",
-    "act": 1,
-    "kind": "BGM",
-    "desc": "A somber cello melody rises slowly in the silence, blending with distant tropical wind and oppressive rainforest insect hums."
-  },
-  {
-    "id": "1.02",
-    "act": 1,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "slowly, with a warm, deep voice setting the historical stage",
-    "text": "On November 18, 1978, deep in the remote tropical rainforest of Guyana in South America, an unprecedented modern human tragedy took place. At an isolated agricultural commune known as the Peoples Temple Agricultural Project, famously called Jonestown, nine hundred and nine people lost their lives within a few brief hours. More than three hundred of them were innocent children and infants. When including those gunned down at the Port Kaituma airstrip and in the capital Georgetown, nine hundred and eighteen lives were extinguished that day. It stood as the largest intentional civilian loss of American life until the catastrophic events of September 11, 2001. The catastrophe unleashed a massive psychological shockwave, tearing apart the illusion of safety and leaving a lasting collective trauma on the American conscience. Citizens everywhere fell into profound social distrust as they recognized the sheer fragility of the human mind before fanatical traps. What stunned the civilized world was not merely the sheer scale of the casualties, but the unfathomable nature of their demise, as they did not fall to an invading army. They marched into oblivion under the dark psychological control of a single man named Jim Jones.",
-    "sentences": [
-      {
-        "id": "1.02#1",
-        "text": "On November 18, 1978, deep in the remote tropical rainforest of Guyana in South America, an unprecedented modern human tragedy took place.",
-        "words": 22
-      },
-      {
-        "id": "1.02#2",
-        "text": "At an isolated agricultural commune known as the Peoples Temple Agricultural Project, famously called Jonestown, nine hundred and nine people lost their lives within a few brief hours.",
-        "words": 28
-      },
-      {
-        "id": "1.02#3",
-        "text": "More than three hundred of them were innocent children and infants.",
-        "words": 11
-      },
-      {
-        "id": "1.02#4",
-        "text": "When including those gunned down at the Port Kaituma airstrip and in the capital Georgetown, nine hundred and eighteen lives were extinguished that day.",
-        "words": 24
-      },
-      {
-        "id": "1.02#5",
-        "text": "It stood as the largest intentional civilian loss of American life until the catastrophic events of September 11, 2001.",
-        "words": 19
-      },
-      {
-        "id": "1.02#6",
-        "text": "The catastrophe unleashed a massive psychological shockwave, tearing apart the illusion of safety and leaving a lasting collective trauma on the American conscience.",
-        "words": 23
-      },
-      {
-        "id": "1.02#7",
-        "text": "Citizens everywhere fell into profound social distrust as they recognized the sheer fragility of the human mind before fanatical traps.",
-        "words": 20
-      },
-      {
-        "id": "1.02#8",
-        "text": "What stunned the civilized world was not merely the sheer scale of the casualties, but the unfathomable nature of their demise, as they did not fall to an invading army.",
-        "words": 30
-      },
-      {
-        "id": "1.02#9",
-        "text": "They marched into oblivion under the dark psychological control of a single man named Jim Jones.",
-        "words": 16
-      }
-    ]
-  },
-  {
-    "id": "1.03",
-    "act": 1,
-    "kind": "SFX",
-    "desc": "Sound of turning archived FBI case files, the slow squeak of an overhead ceiling fan in an office."
-  },
-  {
-    "id": "1.04",
-    "act": 1,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "continuing in a somber, reflective tone",
-    "text": "To comprehend the origins of the Jonestown tragedy, we must travel back in time to the 1950s in Indiana, where Peoples Temple was first founded. Far from the modern image of a fanatical cult, Peoples Temple initially emerged as a progressive beacon of racial harmony and social justice. Its founder, James Warren Jones, built a reputation as a passionate humanitarian by opening soup kitchens, elderly care homes, and rehabilitation centers for the marginalized. He adopted children of diverse racial backgrounds, proudly presenting his household as the “Rainbow Family” to showcase his humanitarian ideals. When expanding operations to California and establishing headquarters in San Francisco during the 1970s, Jim Jones gathered thousands of devoted followers. Shielded by his pristine philanthropic veneer, he forged close ties with top California politicians and was appointed Chairman of the San Francisco Housing Authority. This “Halo Effect” combined with a massive political blindspot of the era to construct an invisible protective shield around the organization. In the post-civil rights era, politicians yearned for a symbol of racial harmony and relied heavily on the disciplined voting bloc of thousands of loyal devotees. Anyone daring to voice suspicion regarding Jones during those years risked being immediately branded by public opinion as racially biased or hostile to progressive social reform. This intense fear of public reproach effectively paralyzed institutional oversight, causing glaring red flags to be deliberately overlooked for years.",
-    "sentences": [
-      {
-        "id": "1.04#1",
-        "text": "To comprehend the origins of the Jonestown tragedy, we must travel back in time to the 1950s in Indiana, where Peoples Temple was first founded.",
-        "words": 25
-      },
-      {
-        "id": "1.04#2",
-        "text": "Far from the modern image of a fanatical cult, Peoples Temple initially emerged as a progressive beacon of racial harmony and social justice.",
-        "words": 23
-      },
-      {
-        "id": "1.04#3",
-        "text": "Its founder, James Warren Jones, built a reputation as a passionate humanitarian by opening soup kitchens, elderly care homes, and rehabilitation centers for the marginalized.",
-        "words": 25
-      },
-      {
-        "id": "1.04#4",
-        "text": "He adopted children of diverse racial backgrounds, proudly presenting his household as the “Rainbow Family” to showcase his humanitarian ideals.",
-        "words": 20
-      },
-      {
-        "id": "1.04#5",
-        "text": "When expanding operations to California and establishing headquarters in San Francisco during the 1970s, Jim Jones gathered thousands of devoted followers.",
-        "words": 21
-      },
-      {
-        "id": "1.04#6",
-        "text": "Shielded by his pristine philanthropic veneer, he forged close ties with top California politicians and was appointed Chairman of the San Francisco Housing Authority.",
-        "words": 24
-      },
-      {
-        "id": "1.04#7",
-        "text": "This “Halo Effect” combined with a massive political blindspot of the era to construct an invisible protective shield around the organization.",
-        "words": 21
-      },
-      {
-        "id": "1.04#8",
-        "text": "In the post-civil rights era, politicians yearned for a symbol of racial harmony and relied heavily on the disciplined voting bloc of thousands of loyal devotees.",
-        "words": 26
-      },
-      {
-        "id": "1.04#9",
-        "text": "Anyone daring to voice suspicion regarding Jones during those years risked being immediately branded by public opinion as racially biased or hostile to progressive social reform.",
-        "words": 26
-      },
-      {
-        "id": "1.04#10",
-        "text": "This intense fear of public reproach effectively paralyzed institutional oversight, causing glaring red flags to be deliberately overlooked for years.",
-        "words": 20
-      }
-    ]
-  },
-  {
-    "id": "1.05",
-    "act": 1,
-    "kind": "SFX",
-    "desc": "Sound of a helicopter hovering overhead, engine hum echoing in the distance."
-  },
-  {
-    "id": "1.06",
-    "act": 1,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "shifting to a dark, foreboding delivery",
-    "text": "Yet beneath that glamorous humanitarian tapestry lay an authoritarian fortress governed by physical intimidation and total psychological coercion. Jim Jones secretly conducted brutal collective interrogation sessions known as “Catharsis”. In these mandatory assemblies, members were coerced into public degradation, physical punishment, and forced to denounce their own parents and spouses. He systematically dismantled biological family loyalties, conditioning everyone to regard him alone as the ultimate benevolent father figure. He persuaded his followers to surrender their homes, sign over savings accounts, and divert government welfare checks directly into temple coffers. By systematically stripping away private wealth and severing kinship safety nets, he trapped his devotees in a state of absolute existential dependency. By the summer of 1977, as investigative journalists at New West magazine prepared to publish an exposé uncovering institutional abuse and exploitation, Jim Jones realized his public mask was about to shatter. He immediately triggered his emergency evacuation plan, accelerating the relocation of nearly one thousand followers to a dense rainforest outpost in northwestern Guyana.",
-    "sentences": [
-      {
-        "id": "1.06#1",
-        "text": "Yet beneath that glamorous humanitarian tapestry lay an authoritarian fortress governed by physical intimidation and total psychological coercion.",
-        "words": 18
-      },
-      {
-        "id": "1.06#2",
-        "text": "Jim Jones secretly conducted brutal collective interrogation sessions known as “Catharsis”.",
-        "words": 11
-      },
-      {
-        "id": "1.06#3",
-        "text": "In these mandatory assemblies, members were coerced into public degradation, physical punishment, and forced to denounce their own parents and spouses.",
-        "words": 21
-      },
-      {
-        "id": "1.06#4",
-        "text": "He systematically dismantled biological family loyalties, conditioning everyone to regard him alone as the ultimate benevolent father figure.",
-        "words": 18
-      },
-      {
-        "id": "1.06#5",
-        "text": "He persuaded his followers to surrender their homes, sign over savings accounts, and divert government welfare checks directly into temple coffers.",
-        "words": 21
-      },
-      {
-        "id": "1.06#6",
-        "text": "By systematically stripping away private wealth and severing kinship safety nets, he trapped his devotees in a state of absolute existential dependency.",
-        "words": 22
-      },
-      {
-        "id": "1.06#7",
-        "text": "By the summer of 1977, as investigative journalists at New West magazine prepared to publish an exposé uncovering institutional abuse and exploitation, Jim Jones realized his public mask was about to shatter.",
-        "words": 32
-      },
-      {
-        "id": "1.06#8",
-        "text": "He immediately triggered his emergency evacuation plan, accelerating the relocation of nearly one thousand followers to a dense rainforest outpost in northwestern Guyana.",
-        "words": 23
-      }
-    ]
-  },
-  {
-    "id": "1.07",
-    "act": 1,
-    "kind": "LOI",
-    "role": "N",
-    "direction": "N1: Leslie Wagner-Wilson / Former Peoples Temple member, young female voice trembling with lingering disbelief",
-    "text": "Imagine the mindset of a faithful devotee stepping for the very first time onto that remote soil in Guyana. We genuinely believed we were building an earthly paradise together, an egalitarian society free from racial discrimination and socioeconomic oppression. Yet the moment we arrived at Jonestown, our passports and all personal funds were confiscated at the main entrance by temple leadership. Each day, we endured eleven grueling hours of manual farm labor under the sweltering equatorial sun, surviving on meager rations of rice and watery broth. Armed security details patrolled the perimeter around the clock, carrying high-powered firearms. At night, holding my three-year-old boy in a damp tent, I shivered in the belated realization that we were hemmed in by impenetrable jungle on all sides. The dream of a promised sanctuary dissolved into an inescapable jungle prison constructed of terror and utter hopelessness. Maternal instinct warned me that a terrible catastrophe hung over my son, and I knew I had to find a way to escape at any cost.",
-    "sentences": [
-      {
-        "id": "1.07#1",
-        "text": "Imagine the mindset of a faithful devotee stepping for the very first time onto that remote soil in Guyana.",
-        "words": 19
-      },
-      {
-        "id": "1.07#2",
-        "text": "We genuinely believed we were building an earthly paradise together, an egalitarian society free from racial discrimination and socioeconomic oppression.",
-        "words": 20
-      },
-      {
-        "id": "1.07#3",
-        "text": "Yet the moment we arrived at Jonestown, our passports and all personal funds were confiscated at the main entrance by temple leadership.",
-        "words": 22
-      },
-      {
-        "id": "1.07#4",
-        "text": "Each day, we endured eleven grueling hours of manual farm labor under the sweltering equatorial sun, surviving on meager rations of rice and watery broth.",
-        "words": 25
-      },
-      {
-        "id": "1.07#5",
-        "text": "Armed security details patrolled the perimeter around the clock, carrying high-powered firearms.",
-        "words": 12
-      },
-      {
-        "id": "1.07#6",
-        "text": "At night, holding my three-year-old boy in a damp tent, I shivered in the belated realization that we were hemmed in by impenetrable jungle on all sides.",
-        "words": 27
-      },
-      {
-        "id": "1.07#7",
-        "text": "The dream of a promised sanctuary dissolved into an inescapable jungle prison constructed of terror and utter hopelessness.",
-        "words": 18
-      },
-      {
-        "id": "1.07#8",
-        "text": "Maternal instinct warned me that a terrible catastrophe hung over my son, and I knew I had to find a way to escape at any cost.",
-        "words": 26
-      }
-    ]
-  },
-  {
-    "id": "1.08",
-    "act": 1,
-    "kind": "SFX",
-    "desc": "Crackle of high-powered loudspeakers echoing across the dense jungle, the persistent hum of evening wind."
-  },
-  {
-    "id": "1.09",
-    "act": 1,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "subdued, reflective",
-    "text": "Throughout Jonestown, Jim Jones installed a network of high-powered loudspeakers that operated relentlessly across every corner of the settlement. His raspy, hypnotic voice broadcast from dawn until the deep hours of the night, drumming constant dread of an impending apocalypse and external hostile conspiracies into the collective psyche. Anyone exhibiting exhaustion, muttering a complaint, or raising a question was dragged before the assembly for humiliating public castigation. Complete geographical isolation compounded by severe, chronic sleep deprivation utterly demolished the psychological defenses and critical faculties of the inhabitants. Their exhausted minds lost the natural impulse of skepticism, slipping into a state of passive suggestibility that obeyed even the most irrational commands. The settlement gradually transformed into a gargantuan indoctrination apparatus where individual agency was systematically erased.",
-    "sentences": [
-      {
-        "id": "1.09#1",
-        "text": "Throughout Jonestown, Jim Jones installed a network of high-powered loudspeakers that operated relentlessly across every corner of the settlement.",
-        "words": 19
-      },
-      {
-        "id": "1.09#2",
-        "text": "His raspy, hypnotic voice broadcast from dawn until the deep hours of the night, drumming constant dread of an impending apocalypse and external hostile conspiracies into the collective psyche.",
-        "words": 29
-      },
-      {
-        "id": "1.09#3",
-        "text": "Anyone exhibiting exhaustion, muttering a complaint, or raising a question was dragged before the assembly for humiliating public castigation.",
-        "words": 19
-      },
-      {
-        "id": "1.09#4",
-        "text": "Complete geographical isolation compounded by severe, chronic sleep deprivation utterly demolished the psychological defenses and critical faculties of the inhabitants.",
-        "words": 20
-      },
-      {
-        "id": "1.09#5",
-        "text": "Their exhausted minds lost the natural impulse of skepticism, slipping into a state of passive suggestibility that obeyed even the most irrational commands.",
-        "words": 23
-      },
-      {
-        "id": "1.09#6",
-        "text": "The settlement gradually transformed into a gargantuan indoctrination apparatus where individual agency was systematically erased.",
-        "words": 15
-      }
-    ]
-  },
-  {
-    "id": "1.10",
-    "act": 1,
-    "kind": "LOI",
-    "role": "D",
-    "direction": "sharp, analytical tone presenting operational forensic history",
-    "text": "Back in the United States, families whose loved ones were trapped in Guyana organized an advocacy coalition called the Concerned Relatives. They submitted urgent petitions to the State Department and Congress, charging that Jim Jones was holding American citizens against their will through coercion and armed intimidation. In May 1978, six months before the disaster, a pivotal investigative breakthrough occurred when trusted aide Deborah Layton escaped Jonestown and returned to America. She filed a sworn emergency affidavit warning authorities that Jim Jones was stockpiling weapons and repeatedly drilling mass poisoning rituals to end the lives of the entire commune. Layton pleaded with officials to intervene immediately, stressing that hundreds of lives hung by a fragile thread. Tragically, bureaucratic hesitation and diplomatic delays squandered the golden window to preempt the catastrophe before it unfolded. Spurred by mounting public scrutiny and the anguish of distraught families, Congressman Leo Ryan of California resolved to personally lead an official congressional delegation to Guyana in November 1978. Accompanying him were top aides, family representatives, and seasoned reporters from NBC News, The Washington Post, and The San Francisco Chronicle. It was an exceptionally hazardous mission, venturing directly into the heart of a closed organization consumed by acute collective paranoia. Congressman Ryan's explicit mandate was to examine the living conditions of American citizens and safeguard the right of repatriation for anyone wishing to return home.",
-    "sentences": [
-      {
-        "id": "1.10#1",
-        "text": "Back in the United States, families whose loved ones were trapped in Guyana organized an advocacy coalition called the Concerned Relatives.",
-        "words": 21
-      },
-      {
-        "id": "1.10#2",
-        "text": "They submitted urgent petitions to the State Department and Congress, charging that Jim Jones was holding American citizens against their will through coercion and armed intimidation.",
-        "words": 26
-      },
-      {
-        "id": "1.10#3",
-        "text": "In May 1978, six months before the disaster, a pivotal investigative breakthrough occurred when trusted aide Deborah Layton escaped Jonestown and returned to America.",
-        "words": 24
-      },
-      {
-        "id": "1.10#4",
-        "text": "She filed a sworn emergency affidavit warning authorities that Jim Jones was stockpiling weapons and repeatedly drilling mass poisoning rituals to end the lives of the entire commune.",
-        "words": 28
-      },
-      {
-        "id": "1.10#5",
-        "text": "Layton pleaded with officials to intervene immediately, stressing that hundreds of lives hung by a fragile thread.",
-        "words": 17
-      },
-      {
-        "id": "1.10#6",
-        "text": "Tragically, bureaucratic hesitation and diplomatic delays squandered the golden window to preempt the catastrophe before it unfolded.",
-        "words": 17
-      },
-      {
-        "id": "1.10#7",
-        "text": "Spurred by mounting public scrutiny and the anguish of distraught families, Congressman Leo Ryan of California resolved to personally lead an official congressional delegation to Guyana in November 1978.",
-        "words": 29
-      },
-      {
-        "id": "1.10#8",
-        "text": "Accompanying him were top aides, family representatives, and seasoned reporters from NBC News, The Washington Post, and The San Francisco Chronicle.",
-        "words": 21
-      },
-      {
-        "id": "1.10#9",
-        "text": "It was an exceptionally hazardous mission, venturing directly into the heart of a closed organization consumed by acute collective paranoia.",
-        "words": 20
-      },
-      {
-        "id": "1.10#10",
-        "text": "Congressman Ryan's explicit mandate was to examine the living conditions of American citizens and safeguard the right of repatriation for anyone wishing to return home.",
-        "words": 25
-      }
-    ]
-  },
-  {
-    "id": "1.11",
-    "act": 1,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "closing Act 1",
-    "text": "The unexpected arrival of Congressman Leo Ryan in the Guyanese capital of Georgetown landed a devastating psychological blow on Jim Jones. The cult patriarch recognized that the secluded jungle empire he had labored so meticulously to erect was on the verge of total exposure. Severe addiction to sedatives combined with chronic persecutory delusions led him to interpret this inquiry as an existential assault upon his personal reign. Dread of losing absolute control ignited pathological rage, propelling him into the final stage of lethal escalation. He resolved to turn hundreds of innocent followers into human shields, dragging them all into an unprecedented darkness.",
-    "sentences": [
-      {
-        "id": "1.11#1",
-        "text": "The unexpected arrival of Congressman Leo Ryan in the Guyanese capital of Georgetown landed a devastating psychological blow on Jim Jones.",
-        "words": 21
-      },
-      {
-        "id": "1.11#2",
-        "text": "The cult patriarch recognized that the secluded jungle empire he had labored so meticulously to erect was on the verge of total exposure.",
-        "words": 23
-      },
-      {
-        "id": "1.11#3",
-        "text": "Severe addiction to sedatives combined with chronic persecutory delusions led him to interpret this inquiry as an existential assault upon his personal reign.",
-        "words": 23
-      },
-      {
-        "id": "1.11#4",
-        "text": "Dread of losing absolute control ignited pathological rage, propelling him into the final stage of lethal escalation.",
-        "words": 17
-      },
-      {
-        "id": "1.11#5",
-        "text": "He resolved to turn hundreds of innocent followers into human shields, dragging them all into an unprecedented darkness.",
-        "words": 18
-      }
-    ]
-  },
-  {
-    "id": "1.12",
-    "act": 1,
-    "kind": "BGM",
-    "desc": "A deep, resonant cello note sustains, then dissolves into suffocating silence."
-  },
-  {
-    "id": "2.01",
-    "act": 2,
-    "kind": "BGM",
-    "desc": "Dark Ambient rainforest textures swell with a rhythmic metallic ticking, echoing like a doomsday countdown."
-  },
-  {
-    "id": "2.02",
-    "act": 2,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "calm, controlled delivery leading into events",
-    "text": "On November 17, 1978, Congressman Leo Ryan's delegation and the press corps officially entered the gates of the Jonestown compound. Initially, Jim Jones staged an elaborate musical reception, forcing residents to wear strained smiles to deceive the congressional observers. Lively musical performances celebrating communal harmony echoed under the central pavilion lights in the middle of the equatorial wilderness. Yet that choreographed cheer could not mask the profound dread and hypervigilance etched into the faces of hundreds of inhabitants. Beneath rhythmic applause lay an agonizing struggle between the yearning for rescue and the terror of lethal reprisal from armed enforcers.",
-    "sentences": [
-      {
-        "id": "2.02#1",
-        "text": "On November 17, 1978, Congressman Leo Ryan's delegation and the press corps officially entered the gates of the Jonestown compound.",
-        "words": 20
-      },
-      {
-        "id": "2.02#2",
-        "text": "Initially, Jim Jones staged an elaborate musical reception, forcing residents to wear strained smiles to deceive the congressional observers.",
-        "words": 19
-      },
-      {
-        "id": "2.02#3",
-        "text": "Lively musical performances celebrating communal harmony echoed under the central pavilion lights in the middle of the equatorial wilderness.",
-        "words": 19
-      },
-      {
-        "id": "2.02#4",
-        "text": "Yet that choreographed cheer could not mask the profound dread and hypervigilance etched into the faces of hundreds of inhabitants.",
-        "words": 20
-      },
-      {
-        "id": "2.02#5",
-        "text": "Beneath rhythmic applause lay an agonizing struggle between the yearning for rescue and the terror of lethal reprisal from armed enforcers.",
-        "words": 21
-      }
-    ]
-  },
-  {
-    "id": "2.03",
-    "act": 2,
-    "kind": "SFX",
-    "desc": "Sparse, rhythmic applause from a crowd, acoustic guitar strumming blending into nocturnal jungle ambiance."
-  },
-  {
-    "id": "2.04",
-    "act": 2,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "tightening tempo, building suspense",
-    "text": "In the middle of that musical gathering, an unexpected incident upended the entire trajectory of the inspection. A temple member covertly slipped a folded handwritten note into the hand of NBC reporter Don Harris. The desperate message contained a plea for survival: “Please help us get out of here. The following morning, when Congressman Ryan announced that his delegation would escort anyone wishing to return to the United States, roughly fifteen members bravely stepped forward. This pivotal development served as the psychological tipping point that shattered the myth of unquestioned adulation Jones had cultivated. In his malignant narcissistic worldview, a request to leave was not merely a personal choice, but an act of treason that could never be forgiven. The patriarch's calm exterior instantly fractured, revealing sheer fury and desperate panic.",
-    "sentences": [
-      {
-        "id": "2.04#1",
-        "text": "In the middle of that musical gathering, an unexpected incident upended the entire trajectory of the inspection.",
-        "words": 17
-      },
-      {
-        "id": "2.04#2",
-        "text": "A temple member covertly slipped a folded handwritten note into the hand of NBC reporter Don Harris.",
-        "words": 17
-      },
-      {
-        "id": "2.04#3",
-        "text": "The desperate message contained a plea for survival: “Please help us get out of here.",
-        "words": 15
-      },
-      {
-        "id": "2.04#4",
-        "text": "The following morning, when Congressman Ryan announced that his delegation would escort anyone wishing to return to the United States, roughly fifteen members bravely stepped forward.",
-        "words": 26
-      },
-      {
-        "id": "2.04#5",
-        "text": "This pivotal development served as the psychological tipping point that shattered the myth of unquestioned adulation Jones had cultivated.",
-        "words": 19
-      },
-      {
-        "id": "2.04#6",
-        "text": "In his malignant narcissistic worldview, a request to leave was not merely a personal choice, but an act of treason that could never be forgiven.",
-        "words": 25
-      },
-      {
-        "id": "2.04#7",
-        "text": "The patriarch's calm exterior instantly fractured, revealing sheer fury and desperate panic.",
-        "words": 12
-      }
-    ]
-  },
-  {
-    "id": "2.05",
-    "act": 2,
-    "kind": "SFX",
-    "desc": "The roar of a flatbed tractor engine over rough red dirt, distant rumbling thunder."
-  },
-  {
-    "id": "2.06",
-    "act": 2,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "tense, dramatic narrative",
-    "text": "Sensing that explosive volatility could erupt at any moment, Congressman Ryan gathered his delegation and the defectors to depart for the Port Kaituma airstrip. They divided across two small transport aircraft waiting on the rural dirt runway, preparing for takeoff toward Georgetown. At that exact juncture, a tractor towing a flatbed trailer packed with armed security personnel from Jones's inner guard raced onto the tarmac. Without warning, they opened fire with high-powered rifles on the delegation and fleeing defectors. Congressman Leo Ryan, three veteran journalists, and a temple defector fell, never to return home. Several other delegation members were gravely wounded, including legislative aide Jackie Speier, who later became a prominent member of the United States Congress. Struck by multiple rounds, Jackie Speier lay motionless on the scorching dirt runway for twenty-two agonizing hours, feigning death until rescue units arrived. The ambush on the airstrip served as the opening salvo for the darkest chapter of the Jonestown tragedy.",
-    "sentences": [
-      {
-        "id": "2.06#1",
-        "text": "Sensing that explosive volatility could erupt at any moment, Congressman Ryan gathered his delegation and the defectors to depart for the Port Kaituma airstrip.",
-        "words": 24
-      },
-      {
-        "id": "2.06#2",
-        "text": "They divided across two small transport aircraft waiting on the rural dirt runway, preparing for takeoff toward Georgetown.",
-        "words": 18
-      },
-      {
-        "id": "2.06#3",
-        "text": "At that exact juncture, a tractor towing a flatbed trailer packed with armed security personnel from Jones's inner guard raced onto the tarmac.",
-        "words": 23
-      },
-      {
-        "id": "2.06#4",
-        "text": "Without warning, they opened fire with high-powered rifles on the delegation and fleeing defectors.",
-        "words": 14
-      },
-      {
-        "id": "2.06#5",
-        "text": "Congressman Leo Ryan, three veteran journalists, and a temple defector fell, never to return home.",
-        "words": 15
-      },
-      {
-        "id": "2.06#6",
-        "text": "Several other delegation members were gravely wounded, including legislative aide Jackie Speier, who later became a prominent member of the United States Congress.",
-        "words": 23
-      },
-      {
-        "id": "2.06#7",
-        "text": "Struck by multiple rounds, Jackie Speier lay motionless on the scorching dirt runway for twenty-two agonizing hours, feigning death until rescue units arrived.",
-        "words": 23
-      },
-      {
-        "id": "2.06#8",
-        "text": "The ambush on the airstrip served as the opening salvo for the darkest chapter of the Jonestown tragedy.",
-        "words": 18
-      }
-    ]
-  },
-  {
-    "id": "2.07",
-    "act": 2,
-    "kind": "LOI",
-    "role": "D",
-    "direction": "clinical, authoritative crime scene analysis",
-    "text": "Subsequent forensic reconstructions by the Federal Bureau of Investigation confirmed that the airstrip ambush was executed with cold, premeditated precision. The shooters did not seek to intimidate or negotiate, but intended to annihilate the entire congressional party to prevent reports from reaching the outside world. From a behavioral perspective, the gunmen of the Red Brigade security squad operated under extreme indoctrination and complete diffusion of responsibility. Once ordinary young men, years of manufactured hatred had conditioned them to view executing their fellow citizens as a sacred duty to protect the commune against external enemies. This dramatic shift illustrates an evolving Modus Operandi, transitioning from diplomatic deception to overt firearm violence when control over the environment collapsed. Survivors were forced to crawl into dense roadside underbrush, concealing themselves through hours of terror. One of the transport planes managed to take off under fire, carrying the first eyewitnesses away from the jungle trap. Meanwhile, back at Jonestown several miles away, mechanical emergency sirens began to wail, signaling the enactment of an unspeakable decree.",
-    "sentences": [
-      {
-        "id": "2.07#1",
-        "text": "Subsequent forensic reconstructions by the Federal Bureau of Investigation confirmed that the airstrip ambush was executed with cold, premeditated precision.",
-        "words": 20
-      },
-      {
-        "id": "2.07#2",
-        "text": "The shooters did not seek to intimidate or negotiate, but intended to annihilate the entire congressional party to prevent reports from reaching the outside world.",
-        "words": 25
-      },
-      {
-        "id": "2.07#3",
-        "text": "From a behavioral perspective, the gunmen of the Red Brigade security squad operated under extreme indoctrination and complete diffusion of responsibility.",
-        "words": 21
-      },
-      {
-        "id": "2.07#4",
-        "text": "Once ordinary young men, years of manufactured hatred had conditioned them to view executing their fellow citizens as a sacred duty to protect the commune against external enemies.",
-        "words": 28
-      },
-      {
-        "id": "2.07#5",
-        "text": "This dramatic shift illustrates an evolving Modus Operandi, transitioning from diplomatic deception to overt firearm violence when control over the environment collapsed.",
-        "words": 22
-      },
-      {
-        "id": "2.07#6",
-        "text": "Survivors were forced to crawl into dense roadside underbrush, concealing themselves through hours of terror.",
-        "words": 15
-      },
-      {
-        "id": "2.07#7",
-        "text": "One of the transport planes managed to take off under fire, carrying the first eyewitnesses away from the jungle trap.",
-        "words": 20
-      },
-      {
-        "id": "2.07#8",
-        "text": "Meanwhile, back at Jonestown several miles away, mechanical emergency sirens began to wail, signaling the enactment of an unspeakable decree.",
-        "words": 20
-      }
-    ]
-  },
-  {
-    "id": "2.08",
-    "act": 2,
-    "kind": "SFX",
-    "desc": "Mechanical siren wailing sharply against the eerie quiet of the equatorial canopy."
-  },
-  {
-    "id": "2.09",
-    "act": 2,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "somber, measured cadence",
-    "text": "The piercing siren shattered the late afternoon stillness across the Guyanese wilderness. More than nine hundred inhabitants were marshaled by armed guards toward the central open-air pavilion. None of them realized that this assembly marked the final gathering of their lives. Rifle-bearing security details formed a tight perimeter, sealing off every trail leading into the surrounding wilderness. Jim Jones mounted the rostrum, clutching his familiar microphone, preparing to initiate an ultimate ritual he had long contemplated.",
-    "sentences": [
-      {
-        "id": "2.09#1",
-        "text": "The piercing siren shattered the late afternoon stillness across the Guyanese wilderness.",
-        "words": 12
-      },
-      {
-        "id": "2.09#2",
-        "text": "More than nine hundred inhabitants were marshaled by armed guards toward the central open-air pavilion.",
-        "words": 15
-      },
-      {
-        "id": "2.09#3",
-        "text": "None of them realized that this assembly marked the final gathering of their lives.",
-        "words": 14
-      },
-      {
-        "id": "2.09#4",
-        "text": "Rifle-bearing security details formed a tight perimeter, sealing off every trail leading into the surrounding wilderness.",
-        "words": 16
-      },
-      {
-        "id": "2.09#5",
-        "text": "Jim Jones mounted the rostrum, clutching his familiar microphone, preparing to initiate an ultimate ritual he had long contemplated.",
-        "words": 19
-      }
-    ]
-  },
-  {
-    "id": "2.10",
-    "act": 2,
-    "kind": "SFX",
-    "desc": "The click of a microphone being engaged, magnetic tape hiss beginning to roll."
-  },
-  {
-    "id": "2.11",
-    "act": 2,
-    "kind": "LOI",
-    "role": "D",
-    "direction": "grave tone, contextualizing historical evidentiary tape",
-    "text": "United States government archives subsequently declassified one of the most chilling evidentiary recordings in modern history: “Death Tape Q 042”. This forty-four-minute cassette recording captures the raw audio landscape inside the central pavilion on the afternoon of November 18, 1978. On the tape, Jim Jones announces to the assembly that Congressman Ryan's party has been ambushed and that an aircraft is crashing into the jungle. He claimed that hostile military forces would parachute into Jonestown to torture residents and harm their children. By manufacturing an imminent, inescapable threat of external annihilation, he systematically extinguished any lingering hope of survival. A large metal vat containing grape-flavored beverage laced with industrial toxins was rolled into the center of the pavilion by medical staff. The directive to consume the lethal mixture was issued under the direct surveillance of armed sentries circling the perimeter. To break the parental resolve of the community, Jim Jones enforced a devastating psychological maneuver: he ordered that infants and small children be dosed first. This tactic created an inescapable emotional trap, driving parents past the point of psychological resistance.",
-    "sentences": [
-      {
-        "id": "2.11#1",
-        "text": "United States government archives subsequently declassified one of the most chilling evidentiary recordings in modern history: “Death Tape Q 042”.",
-        "words": 20
-      },
-      {
-        "id": "2.11#2",
-        "text": "This forty-four-minute cassette recording captures the raw audio landscape inside the central pavilion on the afternoon of November 18, 1978.",
-        "words": 20
-      },
-      {
-        "id": "2.11#3",
-        "text": "On the tape, Jim Jones announces to the assembly that Congressman Ryan's party has been ambushed and that an aircraft is crashing into the jungle.",
-        "words": 25
-      },
-      {
-        "id": "2.11#4",
-        "text": "He claimed that hostile military forces would parachute into Jonestown to torture residents and harm their children.",
-        "words": 17
-      },
-      {
-        "id": "2.11#5",
-        "text": "By manufacturing an imminent, inescapable threat of external annihilation, he systematically extinguished any lingering hope of survival.",
-        "words": 17
-      },
-      {
-        "id": "2.11#6",
-        "text": "A large metal vat containing grape-flavored beverage laced with industrial toxins was rolled into the center of the pavilion by medical staff.",
-        "words": 22
-      },
-      {
-        "id": "2.11#7",
-        "text": "The directive to consume the lethal mixture was issued under the direct surveillance of armed sentries circling the perimeter.",
-        "words": 19
-      },
-      {
-        "id": "2.11#8",
-        "text": "To break the parental resolve of the community, Jim Jones enforced a devastating psychological maneuver: he ordered that infants and small children be dosed first.",
-        "words": 25
-      },
-      {
-        "id": "2.11#9",
-        "text": "This tactic created an inescapable emotional trap, driving parents past the point of psychological resistance.",
-        "words": 15
-      }
-    ]
-  },
-  {
-    "id": "2.12",
-    "act": 2,
-    "kind": "SFX",
-    "desc": "Distant cries of distressed infants, anxious murmurs of a crowd submerged under low microphone hum."
-  },
-  {
-    "id": "2.13",
-    "act": 2,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "voice heavy with emotion, closing Act 2",
-    "text": "The pavilion at Jonestown descended into pandemonium, anguish, and the heartbreaking cries of innocent children. Grief-stricken parents cradled their little ones, realizing the monstrous deception behind the promise of an earthly paradise. As mothers witnessed their infants slipping away in their arms, the sacred bond tying them to earthly existence was violently severed. They entered a state of emotional paralysis from overwhelming despair, feeling there was no longer any purpose left to fight for in this life. Surrounded by armed guards and paralyzed by years of psychological conditioning, the majority lacked the capacity for organized resistance. They accepted the cups as a passive release from the horrific persecutory delusions engineered by their leader. In that agonizing hour, taking their own lives became a heartbreaking surrender to join their departed children in eternity. A catastrophic loss of innocent life unfolded in the suffocating quiet of the remote jungle clearing.",
-    "sentences": [
-      {
-        "id": "2.13#1",
-        "text": "The pavilion at Jonestown descended into pandemonium, anguish, and the heartbreaking cries of innocent children.",
-        "words": 15
-      },
-      {
-        "id": "2.13#2",
-        "text": "Grief-stricken parents cradled their little ones, realizing the monstrous deception behind the promise of an earthly paradise.",
-        "words": 17
-      },
-      {
-        "id": "2.13#3",
-        "text": "As mothers witnessed their infants slipping away in their arms, the sacred bond tying them to earthly existence was violently severed.",
-        "words": 21
-      },
-      {
-        "id": "2.13#4",
-        "text": "They entered a state of emotional paralysis from overwhelming despair, feeling there was no longer any purpose left to fight for in this life.",
-        "words": 24
-      },
-      {
-        "id": "2.13#5",
-        "text": "Surrounded by armed guards and paralyzed by years of psychological conditioning, the majority lacked the capacity for organized resistance.",
-        "words": 19
-      },
-      {
-        "id": "2.13#6",
-        "text": "They accepted the cups as a passive release from the horrific persecutory delusions engineered by their leader.",
-        "words": 17
-      },
-      {
-        "id": "2.13#7",
-        "text": "In that agonizing hour, taking their own lives became a heartbreaking surrender to join their departed children in eternity.",
-        "words": 19
-      },
-      {
-        "id": "2.13#8",
-        "text": "A catastrophic loss of innocent life unfolded in the suffocating quiet of the remote jungle clearing.",
-        "words": 16
-      }
-    ]
-  },
-  {
-    "id": "2.14",
-    "act": 2,
-    "kind": "NGHI",
-    "sec": 2.0,
-    "desc": "Nhạc nền tắt hoàn toàn, chỉ còn tiếng côn trùng đêm nấc nghẹn"
-  },
-  {
-    "id": "3.01",
-    "act": 3,
-    "kind": "BGM",
-    "desc": "Minimalist piano notes fall sparsely like frozen raindrops into a hollow, echoing chamber."
-  },
-  {
-    "id": "3.02",
-    "act": 3,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "reflective, philosophical tone",
-    "text": "Reflecting upon Jonestown, the central question that has haunted behavioral scientists for decades remains: Why? Why did more than nine hundred educated, compassionate human beings yield to such a catastrophic directive? What compelled devoted parents to administer lethal substances to the very children they cherished above all else? Were they uniquely unstable, or were they victims of a coercive manipulation apparatus operating beyond conventional imagination? To untangle these painful paradoxes, we must examine the verified principles of behavioral science and collective manipulation. Let us examine the expert insights of our consulting psychologist.",
-    "sentences": [
-      {
-        "id": "3.02#1",
-        "text": "Reflecting upon Jonestown, the central question that has haunted behavioral scientists for decades remains: Why?",
-        "words": 15
-      },
-      {
-        "id": "3.02#2",
-        "text": "Why did more than nine hundred educated, compassionate human beings yield to such a catastrophic directive?",
-        "words": 16
-      },
-      {
-        "id": "3.02#3",
-        "text": "What compelled devoted parents to administer lethal substances to the very children they cherished above all else?",
-        "words": 17
-      },
-      {
-        "id": "3.02#4",
-        "text": "Were they uniquely unstable, or were they victims of a coercive manipulation apparatus operating beyond conventional imagination?",
-        "words": 17
-      },
-      {
-        "id": "3.02#5",
-        "text": "To untangle these painful paradoxes, we must examine the verified principles of behavioral science and collective manipulation.",
-        "words": 17
-      },
-      {
-        "id": "3.02#6",
-        "text": "Let us examine the expert insights of our consulting psychologist.",
-        "words": 10
-      }
-    ]
-  },
-  {
-    "id": "3.03",
-    "act": 3,
-    "kind": "LOI",
-    "role": "C",
-    "direction": "calm, scholarly, articulate female voice",
-    "text": "The foundational psychological mechanism governing Jonestown is obedience to authority, demonstrated in the landmark experiments of Stanley Milgram. Milgram demonstrated that when confronted with a figure perceived as a legitimate authority, individuals routinely surrender personal moral accountability. They perceive themselves merely as instruments carrying out an institutional will rather than autonomous moral agents responsible for the outcome. At Jonestown, Jim Jones was not merely a spiritual guide; he constructed an identity as an omniscient savior holding exclusive access to truth. This dynamic operated in tandem with the profound objectification and dehumanization of his followers. Within his worldview, those nine hundred souls were never recognized as autonomous human beings endowed with fundamental dignity. He viewed them as living props whose sole purpose was to validate his grandiosity and satisfy his pathological drive for absolute dominion. His profound deficit in affective empathy rendered him completely indifferent to the terror and agony of the victims. In his narcissistic universe, their lives held significance only insofar as they served to memorialize his personal myth.",
-    "sentences": [
-      {
-        "id": "3.03#1",
-        "text": "The foundational psychological mechanism governing Jonestown is obedience to authority, demonstrated in the landmark experiments of Stanley Milgram.",
-        "words": 18
-      },
-      {
-        "id": "3.03#2",
-        "text": "Milgram demonstrated that when confronted with a figure perceived as a legitimate authority, individuals routinely surrender personal moral accountability.",
-        "words": 19
-      },
-      {
-        "id": "3.03#3",
-        "text": "They perceive themselves merely as instruments carrying out an institutional will rather than autonomous moral agents responsible for the outcome.",
-        "words": 20
-      },
-      {
-        "id": "3.03#4",
-        "text": "At Jonestown, Jim Jones was not merely a spiritual guide; he constructed an identity as an omniscient savior holding exclusive access to truth.",
-        "words": 23
-      },
-      {
-        "id": "3.03#5",
-        "text": "This dynamic operated in tandem with the profound objectification and dehumanization of his followers.",
-        "words": 14
-      },
-      {
-        "id": "3.03#6",
-        "text": "Within his worldview, those nine hundred souls were never recognized as autonomous human beings endowed with fundamental dignity.",
-        "words": 18
-      },
-      {
-        "id": "3.03#7",
-        "text": "He viewed them as living props whose sole purpose was to validate his grandiosity and satisfy his pathological drive for absolute dominion.",
-        "words": 22
-      },
-      {
-        "id": "3.03#8",
-        "text": "His profound deficit in affective empathy rendered him completely indifferent to the terror and agony of the victims.",
-        "words": 18
-      },
-      {
-        "id": "3.03#9",
-        "text": "In his narcissistic universe, their lives held significance only insofar as they served to memorialize his personal myth.",
-        "words": 18
-      }
-    ]
-  },
-  {
-    "id": "3.04",
-    "act": 3,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "maintaining analytical momentum",
-    "text": "Beyond individual obedience, Jim Jones weaponized collective social pressure to extinguish independent thought. He cultivated an insular echo chamber where blind conformity was venerated as the highest virtue. Meanwhile, the slightest hesitation or dissenting opinion was condemned as a dangerous betrayal that demanded swift condemnation. When isolated deep within the wilderness, individuals experience an overwhelming fear of ostracism from the only community they have left. This created fertile ground for an insidious socio-psychological syndrome known as Groupthink. Our psychologist will elucidate this cognitive distortion.",
-    "sentences": [
-      {
-        "id": "3.04#1",
-        "text": "Beyond individual obedience, Jim Jones weaponized collective social pressure to extinguish independent thought.",
-        "words": 13
-      },
-      {
-        "id": "3.04#2",
-        "text": "He cultivated an insular echo chamber where blind conformity was venerated as the highest virtue.",
-        "words": 15
-      },
-      {
-        "id": "3.04#3",
-        "text": "Meanwhile, the slightest hesitation or dissenting opinion was condemned as a dangerous betrayal that demanded swift condemnation.",
-        "words": 17
-      },
-      {
-        "id": "3.04#4",
-        "text": "When isolated deep within the wilderness, individuals experience an overwhelming fear of ostracism from the only community they have left.",
-        "words": 20
-      },
-      {
-        "id": "3.04#5",
-        "text": "This created fertile ground for an insidious socio-psychological syndrome known as Groupthink.",
-        "words": 12
-      },
-      {
-        "id": "3.04#6",
-        "text": "Our psychologist will elucidate this cognitive distortion.",
-        "words": 7
-      }
-    ]
-  },
-  {
-    "id": "3.05",
-    "act": 3,
-    "kind": "LOI",
-    "role": "C",
-    "direction": "dissecting Groupthink, Escalation of Commitment, and Sunk Costs",
-    "text": "The concept of Groupthink, formulated by Irving Janis, explains how cohesive groups arrive at catastrophically irrational and destructive decisions. When the drive for internal unanimity overrides realistic appraisals of alternative courses of action, groups develop massive collective blindspots. They maintain an unquestioned belief in the inherent morality of their group while demonizing the outside world as uniformly corrupt and malevolent. This distortion was reinforced through the Foot-in-the-Door technique, or escalation of commitment. Jim Jones never demanded ultimate sacrifice when members first crossed the threshold of Peoples Temple. He began with minor requests: donating a few hours of volunteer labor, attending charity rallies, and contributing modest portions of their income. Once members grew accustomed to yielding autonomy, demands escalated: surrendering life savings, deeding homes to the church, and severing ties with biological family. This entrapped members in a relentless Cognitive Sunk Cost Trap. When an individual has invested a decade of their youth, family honor, and entire worldly wealth into a movement, the human psyche fiercely resists admitting catastrophic error. To acknowledge that Jim Jones was a destructive predator would mean confronting the total collapse of their life's purpose and identity. To protect their ego from shattering, members rationalized each escalating bizarre decree as a noble spiritual trial. Ultimately, surrendering their physical lives was rationalized as the ultimate act of ideological devotion to preserve the dignity of their cause. It represents an escalating psychological trap that ensnares human beings in voluntary servitude.",
-    "sentences": [
-      {
-        "id": "3.05#1",
-        "text": "The concept of Groupthink, formulated by Irving Janis, explains how cohesive groups arrive at catastrophically irrational and destructive decisions.",
-        "words": 19
-      },
-      {
-        "id": "3.05#2",
-        "text": "When the drive for internal unanimity overrides realistic appraisals of alternative courses of action, groups develop massive collective blindspots.",
-        "words": 19
-      },
-      {
-        "id": "3.05#3",
-        "text": "They maintain an unquestioned belief in the inherent morality of their group while demonizing the outside world as uniformly corrupt and malevolent.",
-        "words": 22
-      },
-      {
-        "id": "3.05#4",
-        "text": "This distortion was reinforced through the Foot-in-the-Door technique, or escalation of commitment.",
-        "words": 12
-      },
-      {
-        "id": "3.05#5",
-        "text": "Jim Jones never demanded ultimate sacrifice when members first crossed the threshold of Peoples Temple.",
-        "words": 15
-      },
-      {
-        "id": "3.05#6",
-        "text": "He began with minor requests: donating a few hours of volunteer labor, attending charity rallies, and contributing modest portions of their income.",
-        "words": 22
-      },
-      {
-        "id": "3.05#7",
-        "text": "Once members grew accustomed to yielding autonomy, demands escalated: surrendering life savings, deeding homes to the church, and severing ties with biological family.",
-        "words": 23
-      },
-      {
-        "id": "3.05#8",
-        "text": "This entrapped members in a relentless Cognitive Sunk Cost Trap.",
-        "words": 10
-      },
-      {
-        "id": "3.05#9",
-        "text": "When an individual has invested a decade of their youth, family honor, and entire worldly wealth into a movement, the human psyche fiercely resists admitting catastrophic error.",
-        "words": 27
-      },
-      {
-        "id": "3.05#10",
-        "text": "To acknowledge that Jim Jones was a destructive predator would mean confronting the total collapse of their life's purpose and identity.",
-        "words": 21
-      },
-      {
-        "id": "3.05#11",
-        "text": "To protect their ego from shattering, members rationalized each escalating bizarre decree as a noble spiritual trial.",
-        "words": 17
-      },
-      {
-        "id": "3.05#12",
-        "text": "Ultimately, surrendering their physical lives was rationalized as the ultimate act of ideological devotion to preserve the dignity of their cause.",
-        "words": 21
-      },
-      {
-        "id": "3.05#13",
-        "text": "It represents an escalating psychological trap that ensnares human beings in voluntary servitude.",
-        "words": 13
-      }
-    ]
-  },
-  {
-    "id": "3.06",
-    "act": 3,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "transitioning to physiological exhaustion",
-    "text": "Alongside cognitive manipulation, a decisive factor sustaining totalitarian control was systematic biological exhaustion. For months on end at Jonestown, residents performed grueling agricultural labor under oppressive tropical humidity. Their daily diet suffered from severe protein and caloric deficiencies, consisting primarily of watery rice broth and basic starches. At night, restorative sleep was fractured by incessant diatribes broadcast over the loudspeaker system. Chronic sleep deprivation significantly impairs the prefrontal cortex, the neurological seat of emotional regulation, judgment, and critical analysis. As physical stamina collapsed, cognitive resistance eroded in lockstep. Exhausted individuals became passive, hyper-suggestible, and incapable of mobilizing the intellectual energy required to defy authority.",
-    "sentences": [
-      {
-        "id": "3.06#1",
-        "text": "Alongside cognitive manipulation, a decisive factor sustaining totalitarian control was systematic biological exhaustion.",
-        "words": 13
-      },
-      {
-        "id": "3.06#2",
-        "text": "For months on end at Jonestown, residents performed grueling agricultural labor under oppressive tropical humidity.",
-        "words": 15
-      },
-      {
-        "id": "3.06#3",
-        "text": "Their daily diet suffered from severe protein and caloric deficiencies, consisting primarily of watery rice broth and basic starches.",
-        "words": 19
-      },
-      {
-        "id": "3.06#4",
-        "text": "At night, restorative sleep was fractured by incessant diatribes broadcast over the loudspeaker system.",
-        "words": 14
-      },
-      {
-        "id": "3.06#5",
-        "text": "Chronic sleep deprivation significantly impairs the prefrontal cortex, the neurological seat of emotional regulation, judgment, and critical analysis.",
-        "words": 18
-      },
-      {
-        "id": "3.06#6",
-        "text": "As physical stamina collapsed, cognitive resistance eroded in lockstep.",
-        "words": 9
-      },
-      {
-        "id": "3.06#7",
-        "text": "Exhausted individuals became passive, hyper-suggestible, and incapable of mobilizing the intellectual energy required to defy authority.",
-        "words": 16
-      }
-    ]
-  },
-  {
-    "id": "3.07",
-    "act": 3,
-    "kind": "LOI",
-    "role": "C",
-    "direction": "differentiating MO vs Signature and Compartmentalization",
-    "text": "From a behavioral investigative standpoint, we must clearly separate Modus Operandi from Psychological Signature. Jones's MO evolved constantly: shifting from civil rights activism in Indiana to political maneuvering in San Francisco, and ultimately fleeing to Guyana to evade legal accountability. His underlying Signature, however, remained immutable: an absolute need for psychological control and an insatiable craving for worship. This manifested through repeated rehearsals called “White Nights”, where he forced followers to drink mock poison to test unconditional loyalty. He also deployed rigid psychological compartmentalization, establishing a stark binary between a hostile outside world and Jonestown as a sacred refuge. Preserving the Q 042 audio recording represents his ultimate narcissistic signature, securing an enduring record of his power for posterity. He craved historical immortality as a heroic martyr, even if that immortality cost the lives of nearly one thousand innocent human beings.",
-    "sentences": [
-      {
-        "id": "3.07#1",
-        "text": "From a behavioral investigative standpoint, we must clearly separate Modus Operandi from Psychological Signature.",
-        "words": 14
-      },
-      {
-        "id": "3.07#2",
-        "text": "Jones's MO evolved constantly: shifting from civil rights activism in Indiana to political maneuvering in San Francisco, and ultimately fleeing to Guyana to evade legal accountability.",
-        "words": 26
-      },
-      {
-        "id": "3.07#3",
-        "text": "His underlying Signature, however, remained immutable: an absolute need for psychological control and an insatiable craving for worship.",
-        "words": 18
-      },
-      {
-        "id": "3.07#4",
-        "text": "This manifested through repeated rehearsals called “White Nights”, where he forced followers to drink mock poison to test unconditional loyalty.",
-        "words": 20
-      },
-      {
-        "id": "3.07#5",
-        "text": "He also deployed rigid psychological compartmentalization, establishing a stark binary between a hostile outside world and Jonestown as a sacred refuge.",
-        "words": 21
-      },
-      {
-        "id": "3.07#6",
-        "text": "Preserving the Q 042 audio recording represents his ultimate narcissistic signature, securing an enduring record of his power for posterity.",
-        "words": 20
-      },
-      {
-        "id": "3.07#7",
-        "text": "He craved historical immortality as a heroic martyr, even if that immortality cost the lives of nearly one thousand innocent human beings.",
-        "words": 22
-      }
-    ]
-  },
-  {
-    "id": "3.08",
-    "act": 3,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "closing Act 3",
-    "text": "These behavioral analyses illuminate the sophisticated coercive system that Jim Jones engineered. Yet even amidst the darkest moments within the Jonestown pavilion, innate human conscience was not entirely extinguished. Amidst a sea of terror and passive submission, a solitary, courageous voice rose in direct challenge to the leader. That profound act of moral resistance forms the narrative of Act 4.",
-    "sentences": [
-      {
-        "id": "3.08#1",
-        "text": "These behavioral analyses illuminate the sophisticated coercive system that Jim Jones engineered.",
-        "words": 12
-      },
-      {
-        "id": "3.08#2",
-        "text": "Yet even amidst the darkest moments within the Jonestown pavilion, innate human conscience was not entirely extinguished.",
-        "words": 17
-      },
-      {
-        "id": "3.08#3",
-        "text": "Amidst a sea of terror and passive submission, a solitary, courageous voice rose in direct challenge to the leader.",
-        "words": 19
-      },
-      {
-        "id": "3.08#4",
-        "text": "That profound act of moral resistance forms the narrative of Act 4.",
-        "words": 12
-      }
-    ]
-  },
-  {
-    "id": "3.09",
-    "act": 3,
-    "kind": "BGM",
-    "desc": "Piano chords fade into an unsettling, low electronic drone."
-  },
-  {
-    "id": "4.01",
-    "act": 4,
-    "kind": "BGM",
-    "desc": "A mournful solo violin weeps against analog tape hiss, carrying historical grief."
-  },
-  {
-    "id": "4.02",
-    "act": 4,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "solemn narration recreating the pivotal moment",
-    "text": "As the tape reels began to turn to capture “Death Tape Q 042”, the air inside the pavilion was thick with dread. Jim Jones sat in a high-backed white wicker chair at the center, gripping his microphone, urging the assembly forward. His raspy delivery repeated familiar paranoid narratives of encirclement, retaliatory violence, and unavoidable doom. He proclaimed that this was not a defeat, but a dignified, honorable defense of collective identity that he termed “revolutionary death”. Yet amidst the stunned silence of the crowd, one courageous woman stepped up to the microphone to speak for human conscience.",
-    "sentences": [
-      {
-        "id": "4.02#1",
-        "text": "As the tape reels began to turn to capture “Death Tape Q 042”, the air inside the pavilion was thick with dread.",
-        "words": 22
-      },
-      {
-        "id": "4.02#2",
-        "text": "Jim Jones sat in a high-backed white wicker chair at the center, gripping his microphone, urging the assembly forward.",
-        "words": 19
-      },
-      {
-        "id": "4.02#3",
-        "text": "His raspy delivery repeated familiar paranoid narratives of encirclement, retaliatory violence, and unavoidable doom.",
-        "words": 14
-      },
-      {
-        "id": "4.02#4",
-        "text": "He proclaimed that this was not a defeat, but a dignified, honorable defense of collective identity that he termed “revolutionary death”.",
-        "words": 21
-      },
-      {
-        "id": "4.02#5",
-        "text": "Yet amidst the stunned silence of the crowd, one courageous woman stepped up to the microphone to speak for human conscience.",
-        "words": 21
-      }
-    ]
-  },
-  {
-    "id": "4.03",
-    "act": 4,
-    "kind": "SFX",
-    "desc": "Hurried footsteps on wooden boards, a microphone being adjusted with a low hum."
-  },
-  {
-    "id": "4.04",
-    "act": 4,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "highlighting the historical resister",
-    "text": "That courageous individual was Christine Miller, an African American woman in her sixties who had dedicated years of service to the church. Upon hearing Jones announce the collective end of the settlement, she stood and questioned the patriarch before the entire assembly. Her clear, unwavering words are preserved on the tape: “I feel that as long as there's life, there's hope. She passionately urged Jim Jones to seek alternatives, advocating the evacuation of all children to safety in Cuba or the Soviet Union rather than choosing senseless destruction. Her humane dissent shone as a solitary beacon through the suffocating gloom of indoctrination. She affirmed basic human dignity through an unassailable truth: every human life possesses an inherent right to survive and author its own future.",
-    "sentences": [
-      {
-        "id": "4.04#1",
-        "text": "That courageous individual was Christine Miller, an African American woman in her sixties who had dedicated years of service to the church.",
-        "words": 22
-      },
-      {
-        "id": "4.04#2",
-        "text": "Upon hearing Jones announce the collective end of the settlement, she stood and questioned the patriarch before the entire assembly.",
-        "words": 20
-      },
-      {
-        "id": "4.04#3",
-        "text": "Her clear, unwavering words are preserved on the tape: “I feel that as long as there's life, there's hope.",
-        "words": 19
-      },
-      {
-        "id": "4.04#4",
-        "text": "She passionately urged Jim Jones to seek alternatives, advocating the evacuation of all children to safety in Cuba or the Soviet Union rather than choosing senseless destruction.",
-        "words": 27
-      },
-      {
-        "id": "4.04#5",
-        "text": "Her humane dissent shone as a solitary beacon through the suffocating gloom of indoctrination.",
-        "words": 14
-      },
-      {
-        "id": "4.04#6",
-        "text": "She affirmed basic human dignity through an unassailable truth: every human life possesses an inherent right to survive and author its own future.",
-        "words": 23
-      }
-    ]
-  },
-  {
-    "id": "4.05",
-    "act": 4,
-    "kind": "SFX",
-    "desc": "Jim Jones slamming his hand on a table in agitation, feedback squawk from the loudspeaker."
-  },
-  {
-    "id": "4.06",
-    "act": 4,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "heavy, somber delivery",
-    "text": "Confronted by Christine Miller's principled reasoning, Jim Jones reacted with irritation and harsh dismissal. He rejected every peaceful alternative, arguing that external adversaries would never permit the commune to live in peace. Tragically, fellow members, conditioned by years of group loyalty, began shouting her down and defending their leader. The painful isolation of a solitary voice of reason before collective conformity extinguished the final glimmer of rescue for hundreds of lives.",
-    "sentences": [
-      {
-        "id": "4.06#1",
-        "text": "Confronted by Christine Miller's principled reasoning, Jim Jones reacted with irritation and harsh dismissal.",
-        "words": 14
-      },
-      {
-        "id": "4.06#2",
-        "text": "He rejected every peaceful alternative, arguing that external adversaries would never permit the commune to live in peace.",
-        "words": 18
-      },
-      {
-        "id": "4.06#3",
-        "text": "Tragically, fellow members, conditioned by years of group loyalty, began shouting her down and defending their leader.",
-        "words": 17
-      },
-      {
-        "id": "4.06#4",
-        "text": "The painful isolation of a solitary voice of reason before collective conformity extinguished the final glimmer of rescue for hundreds of lives.",
-        "words": 22
-      }
-    ]
-  },
-  {
-    "id": "4.07",
-    "act": 4,
-    "kind": "LOI",
-    "role": "C",
-    "direction": "analyzing neutralization techniques and Narcissistic Collapse",
-    "text": "The confrontation between Christine Miller and Jim Jones on Tape Q 042 provides a vivid demonstration of Sykes and Matza's Techniques of Neutralization. The cult leader relied heavily on condemning the condemners and displacing personal responsibility to pacify internal guilt. He reiterated: “It wasn't me who wanted this, but our enemies who gave us no other choice. By presenting himself as a victim of external conspiracies, he deflected moral responsibility for engineered mass destruction. Christine Miller's dissent exemplifies independent moral agency, breaking through collective fear to champion the sanctity of young life. Her integrity stands in stark contrast to the mindset of compliant followers, who only awaken when catastrophic reality shatters cognitive dissonance. Authentic remorse surfaces only when an individual confronts the real-world consequences of their choices, enduring Moral Injury and seeking active atonement. Jim Jones, conversely, experienced narcissistic collapse and pathological self-pity, mourning his vanished dominion without a shred of genuine empathy for his victims.",
-    "sentences": [
-      {
-        "id": "4.07#1",
-        "text": "The confrontation between Christine Miller and Jim Jones on Tape Q 042 provides a vivid demonstration of Sykes and Matza's Techniques of Neutralization.",
-        "words": 23
-      },
-      {
-        "id": "4.07#2",
-        "text": "The cult leader relied heavily on condemning the condemners and displacing personal responsibility to pacify internal guilt.",
-        "words": 17
-      },
-      {
-        "id": "4.07#3",
-        "text": "He reiterated: “It wasn't me who wanted this, but our enemies who gave us no other choice.",
-        "words": 17
-      },
-      {
-        "id": "4.07#4",
-        "text": "By presenting himself as a victim of external conspiracies, he deflected moral responsibility for engineered mass destruction.",
-        "words": 17
-      },
-      {
-        "id": "4.07#5",
-        "text": "Christine Miller's dissent exemplifies independent moral agency, breaking through collective fear to champion the sanctity of young life.",
-        "words": 18
-      },
-      {
-        "id": "4.07#6",
-        "text": "Her integrity stands in stark contrast to the mindset of compliant followers, who only awaken when catastrophic reality shatters cognitive dissonance.",
-        "words": 21
-      },
-      {
-        "id": "4.07#7",
-        "text": "Authentic remorse surfaces only when an individual confronts the real-world consequences of their choices, enduring Moral Injury and seeking active atonement.",
-        "words": 21
-      },
-      {
-        "id": "4.07#8",
-        "text": "Jim Jones, conversely, experienced narcissistic collapse and pathological self-pity, mourning his vanished dominion without a shred of genuine empathy for his victims.",
-        "words": 22
-      }
-    ]
-  },
-  {
-    "id": "4.08",
-    "act": 4,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "shifting to heartbreaking tragedy",
-    "text": "Following the suppression of Christine Miller's dissent, the tragedy entered its most devastating phase. Mothers wept uncontrollably as their infants collapsed onto the earthen floor within minutes of receiving the toxic liquid. The cries of children echoed through the forest before sinking into permanent silence. Some members attempted to flee into the surrounding jungle, only to be turned back by armed sentries stationed along the perimeter. As hundreds endured their final moments, Jim Jones remained at the rostrum, urging the crowd to maintain order and dignity. Every heartbreaking sound was recorded onto the magnetic tape as an indelible indictment for all time.",
-    "sentences": [
-      {
-        "id": "4.08#1",
-        "text": "Following the suppression of Christine Miller's dissent, the tragedy entered its most devastating phase.",
-        "words": 14
-      },
-      {
-        "id": "4.08#2",
-        "text": "Mothers wept uncontrollably as their infants collapsed onto the earthen floor within minutes of receiving the toxic liquid.",
-        "words": 18
-      },
-      {
-        "id": "4.08#3",
-        "text": "The cries of children echoed through the forest before sinking into permanent silence.",
-        "words": 13
-      },
-      {
-        "id": "4.08#4",
-        "text": "Some members attempted to flee into the surrounding jungle, only to be turned back by armed sentries stationed along the perimeter.",
-        "words": 21
-      },
-      {
-        "id": "4.08#5",
-        "text": "As hundreds endured their final moments, Jim Jones remained at the rostrum, urging the crowd to maintain order and dignity.",
-        "words": 20
-      },
-      {
-        "id": "4.08#6",
-        "text": "Every heartbreaking sound was recorded onto the magnetic tape as an indelible indictment for all time.",
-        "words": 16
-      }
-    ]
-  },
-  {
-    "id": "4.09",
-    "act": 4,
-    "kind": "LOI",
-    "role": "D",
-    "direction": "recalling miraculous survival stories",
-    "text": "While the catastrophe consumed the pavilion, a small number of members survived through extraordinary presence of mind and courage. Most notable was the group led by Leslie Wagner-Wilson, who gathered her three-year-old son and relatives to slip away from the perimeter at dawn on November 18. They trekked over thirty arduous miles through dense mud and tangled rainforest to reach assistance in a neighboring township. A few elderly residents in Jonestown hid beneath wooden floorboards or feigned sleep until the guards departed. In the aftermath, surviving members struggled with severe shock and profound psychological disorientation. Their miraculous survival yielded crucial firsthand testimony that enabled international investigators to reconstruct the full truth behind Peoples Temple.",
-    "sentences": [
-      {
-        "id": "4.09#1",
-        "text": "While the catastrophe consumed the pavilion, a small number of members survived through extraordinary presence of mind and courage.",
-        "words": 19
-      },
-      {
-        "id": "4.09#2",
-        "text": "Most notable was the group led by Leslie Wagner-Wilson, who gathered her three-year-old son and relatives to slip away from the perimeter at dawn on November 18.",
-        "words": 27
-      },
-      {
-        "id": "4.09#3",
-        "text": "They trekked over thirty arduous miles through dense mud and tangled rainforest to reach assistance in a neighboring township.",
-        "words": 19
-      },
-      {
-        "id": "4.09#4",
-        "text": "A few elderly residents in Jonestown hid beneath wooden floorboards or feigned sleep until the guards departed.",
-        "words": 17
-      },
-      {
-        "id": "4.09#5",
-        "text": "In the aftermath, surviving members struggled with severe shock and profound psychological disorientation.",
-        "words": 13
-      },
-      {
-        "id": "4.09#6",
-        "text": "Their miraculous survival yielded crucial firsthand testimony that enabled international investigators to reconstruct the full truth behind Peoples Temple.",
-        "words": 19
-      }
-    ]
-  },
-  {
-    "id": "4.10",
-    "act": 4,
-    "kind": "LOI",
-    "role": "N",
-    "direction": "N2: Diplomatic Attache / Field Investigator, trembling male voice overcome with sorrow",
-    "text": "We arrived over Jonestown by helicopter two days later, once reports of the airstrip gunfire were officially verified. Looking down from above, an incomprehensible sight met our eyes that no investigative training could ever prepare someone to witness. Hundreds of people dressed in vibrant tropical clothing lay motionless side by side around the central pavilion in the clearing. An oppressive equatorial heat and an uncanny stillness blanketed the entire deserted compound. When we set foot on the ground and saw children's dolls scattered beside empty plastic cups, my heart tightened with unspeakable sorrow. There were no signs of large-scale physical struggle, only the silent aftermath of desperate resignation and quiet surrender. It was a human catastrophe that exceeded the absolute threshold of human emotional endurance, a memory that will remain forever etched in my mind.",
-    "sentences": [
-      {
-        "id": "4.10#1",
-        "text": "We arrived over Jonestown by helicopter two days later, once reports of the airstrip gunfire were officially verified.",
-        "words": 18
-      },
-      {
-        "id": "4.10#2",
-        "text": "Looking down from above, an incomprehensible sight met our eyes that no investigative training could ever prepare someone to witness.",
-        "words": 20
-      },
-      {
-        "id": "4.10#3",
-        "text": "Hundreds of people dressed in vibrant tropical clothing lay motionless side by side around the central pavilion in the clearing.",
-        "words": 20
-      },
-      {
-        "id": "4.10#4",
-        "text": "An oppressive equatorial heat and an uncanny stillness blanketed the entire deserted compound.",
-        "words": 13
-      },
-      {
-        "id": "4.10#5",
-        "text": "When we set foot on the ground and saw children's dolls scattered beside empty plastic cups, my heart tightened with unspeakable sorrow.",
-        "words": 22
-      },
-      {
-        "id": "4.10#6",
-        "text": "There were no signs of large-scale physical struggle, only the silent aftermath of desperate resignation and quiet surrender.",
-        "words": 18
-      },
-      {
-        "id": "4.10#7",
-        "text": "It was a human catastrophe that exceeded the absolute threshold of human emotional endurance, a memory that will remain forever etched in my mind.",
-        "words": 24
-      }
-    ]
-  },
-  {
-    "id": "4.11",
-    "act": 4,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "closing Act 4",
-    "text": "Among the nine hundred and nine bodies recovered from the clearing at Jonestown, one individual died not from the toxic concoction, but from a gunshot wound to the head. That individual was James Warren Jones, the self-proclaimed shepherd of thousands. This final detail strips away the last pretense of his benevolent facade, laying bare his consummate cowardice. He compelled hundreds of infants and trusting followers to endure agonizing deaths, while reserving for himself an instantaneous end. The man who constantly preached collective self-sacrifice cared only for his personal comfort, terrified of enduring the very pain he inflicted. The jungle curtain fell, leaving behind profound global shock and enduring questions for civilized humanity.",
-    "sentences": [
-      {
-        "id": "4.11#1",
-        "text": "Among the nine hundred and nine bodies recovered from the clearing at Jonestown, one individual died not from the toxic concoction, but from a gunshot wound to the head.",
-        "words": 29
-      },
-      {
-        "id": "4.11#2",
-        "text": "That individual was James Warren Jones, the self-proclaimed shepherd of thousands.",
-        "words": 11
-      },
-      {
-        "id": "4.11#3",
-        "text": "This final detail strips away the last pretense of his benevolent facade, laying bare his consummate cowardice.",
-        "words": 17
-      },
-      {
-        "id": "4.11#4",
-        "text": "He compelled hundreds of infants and trusting followers to endure agonizing deaths, while reserving for himself an instantaneous end.",
-        "words": 19
-      },
-      {
-        "id": "4.11#5",
-        "text": "The man who constantly preached collective self-sacrifice cared only for his personal comfort, terrified of enduring the very pain he inflicted.",
-        "words": 21
-      },
-      {
-        "id": "4.11#6",
-        "text": "The jungle curtain fell, leaving behind profound global shock and enduring questions for civilized humanity.",
-        "words": 15
-      }
-    ]
-  },
-  {
-    "id": "4.12",
-    "act": 4,
-    "kind": "BGM",
-    "desc": "A poignant violin chord sustains solemnly before fading into quiet."
-  },
-  {
-    "id": "5.01",
-    "act": 5,
-    "kind": "BGM",
-    "desc": "A warm, dignified piano melody emerges slowly, carrying an air of remembrance, grief, and reflection."
-  },
-  {
-    "id": "5.02",
-    "act": 5,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "measured, resonant delivery reflecting upon history",
-    "text": "The Jonestown tragedy of November 18, 1978 claimed the lives of nine hundred and eighteen innocent human beings. More than three hundred children were denied the opportunity to grow, learn, and experience adulthood. This sorrowful milestone left an enduring scar upon the conscience of the United States and the international community. It fundamentally transformed how behavioral scientists understand the latent dangers of high-control coercive groups. The cultural idiom “Drinking the Kool-Aid” entered the Western lexicon as an unyielding warning against blind obedience and tribal compliance. Their loss stands as an agonizing reminder of the catastrophic price paid when societies fail to heed early warning signs of extreme manipulation.",
-    "sentences": [
-      {
-        "id": "5.02#1",
-        "text": "The Jonestown tragedy of November 18, 1978 claimed the lives of nine hundred and eighteen innocent human beings.",
-        "words": 18
-      },
-      {
-        "id": "5.02#2",
-        "text": "More than three hundred children were denied the opportunity to grow, learn, and experience adulthood.",
-        "words": 15
-      },
-      {
-        "id": "5.02#3",
-        "text": "This sorrowful milestone left an enduring scar upon the conscience of the United States and the international community.",
-        "words": 18
-      },
-      {
-        "id": "5.02#4",
-        "text": "It fundamentally transformed how behavioral scientists understand the latent dangers of high-control coercive groups.",
-        "words": 14
-      },
-      {
-        "id": "5.02#5",
-        "text": "The cultural idiom “Drinking the Kool-Aid” entered the Western lexicon as an unyielding warning against blind obedience and tribal compliance.",
-        "words": 20
-      },
-      {
-        "id": "5.02#6",
-        "text": "Their loss stands as an agonizing reminder of the catastrophic price paid when societies fail to heed early warning signs of extreme manipulation.",
-        "words": 23
-      }
-    ]
-  },
-  {
-    "id": "5.03",
-    "act": 5,
-    "kind": "LOI",
-    "role": "D",
-    "direction": "firm, summarizing institutional and legal reforms",
-    "text": "In the wake of Jonestown, the United States Congress held extensive public hearings to scrutinize institutional delays in addressing early appeals for help. The Department of State overhauled its overseas citizen protection protocols, upgrading crisis-response capabilities worldwide. International law enforcement agencies developed standardized criteria to recognize warning signs in closed organizations stockpiling arms and practicing psychological coercion. Legal frameworks across numerous democracies introduced stiffer statutory penalties for psychological entrapment and the unlawful confinement of citizens. The hard lessons of the Jonestown dossier helped establish stronger institutional safeguards to protect society against emerging forms of coercive control.",
-    "sentences": [
-      {
-        "id": "5.03#1",
-        "text": "In the wake of Jonestown, the United States Congress held extensive public hearings to scrutinize institutional delays in addressing early appeals for help.",
-        "words": 23
-      },
-      {
-        "id": "5.03#2",
-        "text": "The Department of State overhauled its overseas citizen protection protocols, upgrading crisis-response capabilities worldwide.",
-        "words": 14
-      },
-      {
-        "id": "5.03#3",
-        "text": "International law enforcement agencies developed standardized criteria to recognize warning signs in closed organizations stockpiling arms and practicing psychological coercion.",
-        "words": 20
-      },
-      {
-        "id": "5.03#4",
-        "text": "Legal frameworks across numerous democracies introduced stiffer statutory penalties for psychological entrapment and the unlawful confinement of citizens.",
-        "words": 18
-      },
-      {
-        "id": "5.03#5",
-        "text": "The hard lessons of the Jonestown dossier helped establish stronger institutional safeguards to protect society against emerging forms of coercive control.",
-        "words": 21
-      }
-    ]
-  },
-  {
-    "id": "5.04",
-    "act": 5,
-    "kind": "LOI",
-    "role": "C",
-    "direction": "humanistic perspective, synthesizing psychological takeaways",
-    "text": "The deepest lesson that Jonestown imparts to our world is an empathetic awareness of human vulnerability in modern society. The members of Peoples Temple were not fundamentally foolish, deranged, or villainous individuals. The vast majority were earnest, compassionate people of diverse backgrounds who yearned for racial equality, social justice, and a caring community. They invested their sincere faith into a noble ideal, only to have their trust exploited by a malignant narcissistic predator. We must honor the immense bravery of individuals like Christine Miller and Leslie Wagner-Wilson, who listened to internal conscience and defended life. Following the tragedy, survivors bore the crushing psychological burden of Survivor's Guilt, forever asking why they lived when their families perished. This tragedy demonstrates that the boundary between a healthy social movement and a toxic coercive trap can be deceptively fragile. The atrocities of extremist groups do not commence with violence, but with the moment we surrender our independent moral reasoning to an external authority. Compassion divorced from vigilant critical discernment can easily be manipulated into serving devastating cruelty.",
-    "sentences": [
-      {
-        "id": "5.04#1",
-        "text": "The deepest lesson that Jonestown imparts to our world is an empathetic awareness of human vulnerability in modern society.",
-        "words": 19
-      },
-      {
-        "id": "5.04#2",
-        "text": "The members of Peoples Temple were not fundamentally foolish, deranged, or villainous individuals.",
-        "words": 13
-      },
-      {
-        "id": "5.04#3",
-        "text": "The vast majority were earnest, compassionate people of diverse backgrounds who yearned for racial equality, social justice, and a caring community.",
-        "words": 21
-      },
-      {
-        "id": "5.04#4",
-        "text": "They invested their sincere faith into a noble ideal, only to have their trust exploited by a malignant narcissistic predator.",
-        "words": 20
-      },
-      {
-        "id": "5.04#5",
-        "text": "We must honor the immense bravery of individuals like Christine Miller and Leslie Wagner-Wilson, who listened to internal conscience and defended life.",
-        "words": 22
-      },
-      {
-        "id": "5.04#6",
-        "text": "Following the tragedy, survivors bore the crushing psychological burden of Survivor's Guilt, forever asking why they lived when their families perished.",
-        "words": 21
-      },
-      {
-        "id": "5.04#7",
-        "text": "This tragedy demonstrates that the boundary between a healthy social movement and a toxic coercive trap can be deceptively fragile.",
-        "words": 20
-      },
-      {
-        "id": "5.04#8",
-        "text": "The atrocities of extremist groups do not commence with violence, but with the moment we surrender our independent moral reasoning to an external authority.",
-        "words": 24
-      },
-      {
-        "id": "5.04#9",
-        "text": "Compassion divorced from vigilant critical discernment can easily be manipulated into serving devastating cruelty.",
-        "words": 14
-      }
-    ]
-  },
-  {
-    "id": "5.05",
-    "act": 5,
-    "kind": "LOI",
-    "role": "H",
-    "direction": "warm, authoritative, sharing four survival red flags and farewell",
-    "text": "To empower you and your loved ones to identify and avoid dangerous coercive traps in contemporary life, Amber eyes synthesizes four survival red flags derived from the Jonestown dossier. Red Flag Number One: Demands for total isolation from your established social support network. Any organization, movement, or relationship that requires you to sever communication with parents, relatives, or lifelong friends represents an immediate hazard. They deliberately detach you from objective reality to establish their authority as the sole arbiter of your worldview. Red Flag Number Two: Financial usurpation and the confiscation of personal autonomy assets. Exercise extreme vigilance whenever a group urges you to sign over life savings, liquidate property, or surrender identification documents such as passports and birth certificates. When you lose financial independence and mobility, you surrender the practical capacity to escape when anomalies surface. Red Flag Number Three: Engineered physical depletion designed to dismantle critical thinking. Manipulators frequently impose grueling work schedules, chronic sleep deprivation, and restricted nutrition to undermine neurological equilibrium. When the human body is pushed to exhaustion, the brain's natural skepticism and resistance reflexes become severely degraded. Red Flag Number Four: The deification of a leader and the active punishment of doubt. In a healthy environment, transparency, open debate, and constructive skepticism are embraced and protected. Conversely, when an organization treats its leadership as infallible and views respectful questioning as a moral betrayal, you are standing inside an authoritarian trap. They construct a siege mentality, convincing you that the entire outside world is conspiring against you so that you cling ever tighter to their control. Always remember Gavin de Becker's insight from The Gift of Fear: “Intuition is the most precious survival gift of human consciousness. When deep within you an internal sense of unease or doubt stirs regarding a promise that appears too pristine to be real, honor that instinct and pause. No genuine humanitarian ideal will ever demand that you forfeit your dignity, your freedom, or your life. The most sacred freedom possessed by any human being is the capacity for independent thought and the courage to defend personal boundaries. The dossier on Episode 12 regarding the Jonestown tragedy concludes here, offered with profound remembrance for the nine hundred and eighteen victims. Thank you for joining Amber eyes on this deeply reflective journey through forensic criminal psychology. If you found this analysis valuable, please like this video, subscribe to the channel, and share your perspectives in the comments section below. May you remain vigilant, discerning, and peaceful in your life. Farewell, and we look forward to welcoming you to our upcoming criminal psychology dossiers on Amber eyes.",
-    "sentences": [
-      {
-        "id": "5.05#1",
-        "text": "To empower you and your loved ones to identify and avoid dangerous coercive traps in contemporary life, Amber eyes synthesizes four survival red flags derived from the Jonestown dossier.",
-        "words": 29
-      },
-      {
-        "id": "5.05#2",
-        "text": "Red Flag Number One: Demands for total isolation from your established social support network.",
-        "words": 14
-      },
-      {
-        "id": "5.05#3",
-        "text": "Any organization, movement, or relationship that requires you to sever communication with parents, relatives, or lifelong friends represents an immediate hazard.",
-        "words": 21
-      },
-      {
-        "id": "5.05#4",
-        "text": "They deliberately detach you from objective reality to establish their authority as the sole arbiter of your worldview.",
-        "words": 18
-      },
-      {
-        "id": "5.05#5",
-        "text": "Red Flag Number Two: Financial usurpation and the confiscation of personal autonomy assets.",
-        "words": 13
-      },
-      {
-        "id": "5.05#6",
-        "text": "Exercise extreme vigilance whenever a group urges you to sign over life savings, liquidate property, or surrender identification documents such as passports and birth certificates.",
-        "words": 25
-      },
-      {
-        "id": "5.05#7",
-        "text": "When you lose financial independence and mobility, you surrender the practical capacity to escape when anomalies surface.",
-        "words": 17
-      },
-      {
-        "id": "5.05#8",
-        "text": "Red Flag Number Three: Engineered physical depletion designed to dismantle critical thinking.",
-        "words": 12
-      },
-      {
-        "id": "5.05#9",
-        "text": "Manipulators frequently impose grueling work schedules, chronic sleep deprivation, and restricted nutrition to undermine neurological equilibrium.",
-        "words": 16
-      },
-      {
-        "id": "5.05#10",
-        "text": "When the human body is pushed to exhaustion, the brain's natural skepticism and resistance reflexes become severely degraded.",
-        "words": 18
-      },
-      {
-        "id": "5.05#11",
-        "text": "Red Flag Number Four: The deification of a leader and the active punishment of doubt.",
-        "words": 15
-      },
-      {
-        "id": "5.05#12",
-        "text": "In a healthy environment, transparency, open debate, and constructive skepticism are embraced and protected.",
-        "words": 14
-      },
-      {
-        "id": "5.05#13",
-        "text": "Conversely, when an organization treats its leadership as infallible and views respectful questioning as a moral betrayal, you are standing inside an authoritarian trap.",
-        "words": 24
-      },
-      {
-        "id": "5.05#14",
-        "text": "They construct a siege mentality, convincing you that the entire outside world is conspiring against you so that you cling ever tighter to their control.",
-        "words": 25
-      },
-      {
-        "id": "5.05#15",
-        "text": "Always remember Gavin de Becker's insight from The Gift of Fear: “Intuition is the most precious survival gift of human consciousness.",
-        "words": 21
-      },
-      {
-        "id": "5.05#16",
-        "text": "When deep within you an internal sense of unease or doubt stirs regarding a promise that appears too pristine to be real, honor that instinct and pause.",
-        "words": 27
-      },
-      {
-        "id": "5.05#17",
-        "text": "No genuine humanitarian ideal will ever demand that you forfeit your dignity, your freedom, or your life.",
-        "words": 17
-      },
-      {
-        "id": "5.05#18",
-        "text": "The most sacred freedom possessed by any human being is the capacity for independent thought and the courage to defend personal boundaries.",
-        "words": 22
-      },
-      {
-        "id": "5.05#19",
-        "text": "The dossier on Episode 12 regarding the Jonestown tragedy concludes here, offered with profound remembrance for the nine hundred and eighteen victims.",
-        "words": 22
-      },
-      {
-        "id": "5.05#20",
-        "text": "Thank you for joining Amber eyes on this deeply reflective journey through forensic criminal psychology.",
-        "words": 15
-      },
-      {
-        "id": "5.05#21",
-        "text": "If you found this analysis valuable, please like this video, subscribe to the channel, and share your perspectives in the comments section below.",
-        "words": 23
-      },
-      {
-        "id": "5.05#22",
-        "text": "May you remain vigilant, discerning, and peaceful in your life.",
-        "words": 10
-      },
-      {
-        "id": "5.05#23",
-        "text": "Farewell, and we look forward to welcoming you to our upcoming criminal psychology dossiers on Amber eyes.",
-        "words": 17
-      }
-    ]
-  },
-  {
-    "id": "5.06",
-    "act": 5,
-    "kind": "BGM",
-    "desc": "Warm, solemn piano chords resonate gently before slowly fading to complete silence."
-  }
+ {
+  "id": "1.01",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "A somber cello melody rises slowly in the silence, blending with distant tropical wind and oppressive rainforest insect hums."
+ },
+ {
+  "id": "1.02",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "slowly, with a warm, deep voice setting the historical stage",
+  "text": "On November 18, 1978, deep in the remote tropical rainforest of Guyana in South America, an unprecedented modern human tragedy took place. At an isolated agricultural commune known as the Peoples Temple Agricultural Project, famously called Jonestown, nine hundred and nine people lost their lives within a few brief hours. More than three hundred of them were innocent children and infants. When including those gunned down at the Port Kaituma airstrip and in the capital Georgetown, nine hundred and eighteen lives were extinguished that day. It stood as the largest intentional civilian loss of American life until the catastrophic events of September 11, 2001. The catastrophe unleashed a massive psychological shockwave, tearing apart the illusion of safety and leaving a lasting collective trauma on the American conscience. Citizens everywhere fell into profound social distrust as they recognized the sheer fragility of the human mind before fanatical traps. What stunned the civilized world was not merely the sheer scale of the casualties, but the unfathomable nature of their demise, as they did not fall to an invading army. They marched into oblivion under the dark psychological control of a single man named Jim Jones.",
+  "sentences": [
+   {
+    "id": "1.02#1",
+    "text": "On November 18, 1978, deep in the remote tropical rainforest of Guyana in South America, an unprecedented modern human tragedy took place.",
+    "words": 22
+   },
+   {
+    "id": "1.02#2",
+    "text": "At an isolated agricultural commune known as the Peoples Temple Agricultural Project, famously called Jonestown, nine hundred and nine people lost their lives within a few brief hours.",
+    "words": 28
+   },
+   {
+    "id": "1.02#3",
+    "text": "More than three hundred of them were innocent children and infants.",
+    "words": 11
+   },
+   {
+    "id": "1.02#4",
+    "text": "When including those gunned down at the Port Kaituma airstrip and in the capital Georgetown, nine hundred and eighteen lives were extinguished that day.",
+    "words": 24
+   },
+   {
+    "id": "1.02#5",
+    "text": "It stood as the largest intentional civilian loss of American life until the catastrophic events of September 11, 2001.",
+    "words": 19
+   },
+   {
+    "id": "1.02#6",
+    "text": "The catastrophe unleashed a massive psychological shockwave, tearing apart the illusion of safety and leaving a lasting collective trauma on the American conscience.",
+    "words": 23
+   },
+   {
+    "id": "1.02#7",
+    "text": "Citizens everywhere fell into profound social distrust as they recognized the sheer fragility of the human mind before fanatical traps.",
+    "words": 20
+   },
+   {
+    "id": "1.02#8",
+    "text": "What stunned the civilized world was not merely the sheer scale of the casualties, but the unfathomable nature of their demise, as they did not fall to an invading army.",
+    "words": 30
+   },
+   {
+    "id": "1.02#9",
+    "text": "They marched into oblivion under the dark psychological control of a single man named Jim Jones.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "1.03",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "Sound of turning archived FBI case files, the slow squeak of an overhead ceiling fan in an office."
+ },
+ {
+  "id": "1.04",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "continuing in a somber, reflective tone",
+  "text": "To comprehend the origins of the Jonestown tragedy, we must travel back in time to the 1950s in Indiana, where Peoples Temple was first founded. Far from the modern image of a fanatical cult, Peoples Temple initially emerged as a progressive beacon of racial harmony and social justice. Its founder, James Warren Jones, built a reputation as a passionate humanitarian by opening soup kitchens, elderly care homes, and rehabilitation centers for the marginalized. He adopted children of diverse racial backgrounds, proudly presenting his household as the “Rainbow Family” to showcase his humanitarian ideals. When expanding operations to California and establishing headquarters in San Francisco during the 1970s, Jim Jones gathered thousands of devoted followers. Shielded by his pristine philanthropic veneer, he forged close ties with top California politicians and was appointed Chairman of the San Francisco Housing Authority. This “Halo Effect” combined with a massive political blindspot of the era to construct an invisible protective shield around the organization. In the post-civil rights era, politicians yearned for a symbol of racial harmony and relied heavily on the disciplined voting bloc of thousands of loyal devotees. Anyone daring to voice suspicion regarding Jones during those years risked being immediately branded by public opinion as racially biased or hostile to progressive social reform. This intense fear of public reproach effectively paralyzed institutional oversight, causing glaring red flags to be deliberately overlooked for years.",
+  "sentences": [
+   {
+    "id": "1.04#1",
+    "text": "To comprehend the origins of the Jonestown tragedy, we must travel back in time to the 1950s in Indiana, where Peoples Temple was first founded.",
+    "words": 25
+   },
+   {
+    "id": "1.04#2",
+    "text": "Far from the modern image of a fanatical cult, Peoples Temple initially emerged as a progressive beacon of racial harmony and social justice.",
+    "words": 23
+   },
+   {
+    "id": "1.04#3",
+    "text": "Its founder, James Warren Jones, built a reputation as a passionate humanitarian by opening soup kitchens, elderly care homes, and rehabilitation centers for the marginalized.",
+    "words": 25
+   },
+   {
+    "id": "1.04#4",
+    "text": "He adopted children of diverse racial backgrounds, proudly presenting his household as the “Rainbow Family” to showcase his humanitarian ideals.",
+    "words": 20
+   },
+   {
+    "id": "1.04#5",
+    "text": "When expanding operations to California and establishing headquarters in San Francisco during the 1970s, Jim Jones gathered thousands of devoted followers.",
+    "words": 21
+   },
+   {
+    "id": "1.04#6",
+    "text": "Shielded by his pristine philanthropic veneer, he forged close ties with top California politicians and was appointed Chairman of the San Francisco Housing Authority.",
+    "words": 24
+   },
+   {
+    "id": "1.04#7",
+    "text": "This “Halo Effect” combined with a massive political blindspot of the era to construct an invisible protective shield around the organization.",
+    "words": 21
+   },
+   {
+    "id": "1.04#8",
+    "text": "In the post-civil rights era, politicians yearned for a symbol of racial harmony and relied heavily on the disciplined voting bloc of thousands of loyal devotees.",
+    "words": 26
+   },
+   {
+    "id": "1.04#9",
+    "text": "Anyone daring to voice suspicion regarding Jones during those years risked being immediately branded by public opinion as racially biased or hostile to progressive social reform.",
+    "words": 26
+   },
+   {
+    "id": "1.04#10",
+    "text": "This intense fear of public reproach effectively paralyzed institutional oversight, causing glaring red flags to be deliberately overlooked for years.",
+    "words": 20
+   }
+  ]
+ },
+ {
+  "id": "1.05",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "Sound of a helicopter hovering overhead, engine hum echoing in the distance."
+ },
+ {
+  "id": "1.06",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "shifting to a dark, foreboding delivery",
+  "text": "Yet beneath that glamorous humanitarian tapestry lay an authoritarian fortress governed by physical intimidation and total psychological coercion. Jim Jones secretly conducted brutal collective interrogation sessions known as “Catharsis”. In these mandatory assemblies, members were coerced into public degradation, physical punishment, and forced to denounce their own parents and spouses. He systematically dismantled biological family loyalties, conditioning everyone to regard him alone as the ultimate benevolent father figure. He persuaded his followers to surrender their homes, sign over savings accounts, and divert government welfare checks directly into temple coffers. By systematically stripping away private wealth and severing kinship safety nets, he trapped his devotees in a state of absolute existential dependency. By the summer of 1977, as investigative journalists at New West magazine prepared to publish an expose uncovering institutional abuse and exploitation, Jim Jones realized his public mask was about to shatter. He immediately triggered his emergency evacuation plan, accelerating the relocation of nearly one thousand followers to a dense rainforest outpost in northwestern Guyana.",
+  "sentences": [
+   {
+    "id": "1.06#1",
+    "text": "Yet beneath that glamorous humanitarian tapestry lay an authoritarian fortress governed by physical intimidation and total psychological coercion.",
+    "words": 18
+   },
+   {
+    "id": "1.06#2",
+    "text": "Jim Jones secretly conducted brutal collective interrogation sessions known as “Catharsis”.",
+    "words": 11
+   },
+   {
+    "id": "1.06#3",
+    "text": "In these mandatory assemblies, members were coerced into public degradation, physical punishment, and forced to denounce their own parents and spouses.",
+    "words": 21
+   },
+   {
+    "id": "1.06#4",
+    "text": "He systematically dismantled biological family loyalties, conditioning everyone to regard him alone as the ultimate benevolent father figure.",
+    "words": 18
+   },
+   {
+    "id": "1.06#5",
+    "text": "He persuaded his followers to surrender their homes, sign over savings accounts, and divert government welfare checks directly into temple coffers.",
+    "words": 21
+   },
+   {
+    "id": "1.06#6",
+    "text": "By systematically stripping away private wealth and severing kinship safety nets, he trapped his devotees in a state of absolute existential dependency.",
+    "words": 22
+   },
+   {
+    "id": "1.06#7",
+    "text": "By the summer of 1977, as investigative journalists at New West magazine prepared to publish an expose uncovering institutional abuse and exploitation, Jim Jones realized his public mask was about to shatter.",
+    "words": 32
+   },
+   {
+    "id": "1.06#8",
+    "text": "He immediately triggered his emergency evacuation plan, accelerating the relocation of nearly one thousand followers to a dense rainforest outpost in northwestern Guyana.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "1.07",
+  "act": 1,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "N1: Leslie Wagner-Wilson / Former Peoples Temple member, young female voice trembling with lingering disbelief",
+  "text": "Imagine the mindset of a faithful devotee stepping for the very first time onto that remote soil in Guyana. We genuinely believed we were building an earthly paradise together, an egalitarian society free from racial discrimination and socioeconomic oppression. Yet the moment we arrived at Jonestown, our passports and all personal funds were confiscated at the main entrance by temple leadership. Each day, we endured eleven grueling hours of manual farm labor under the sweltering equatorial sun, surviving on meager rations of rice and watery broth. Armed security details patrolled the perimeter around the clock, carrying high-powered firearms. At night, holding my three-year-old boy in a damp tent, I shivered in the belated realization that we were hemmed in by impenetrable jungle on all sides. The dream of a promised sanctuary dissolved into an inescapable jungle prison constructed of terror and utter hopelessness. Maternal instinct warned me that a terrible catastrophe hung over my son, and I knew I had to find a way to escape at any cost.",
+  "sentences": [
+   {
+    "id": "1.07#1",
+    "text": "Imagine the mindset of a faithful devotee stepping for the very first time onto that remote soil in Guyana.",
+    "words": 19
+   },
+   {
+    "id": "1.07#2",
+    "text": "We genuinely believed we were building an earthly paradise together, an egalitarian society free from racial discrimination and socioeconomic oppression.",
+    "words": 20
+   },
+   {
+    "id": "1.07#3",
+    "text": "Yet the moment we arrived at Jonestown, our passports and all personal funds were confiscated at the main entrance by temple leadership.",
+    "words": 22
+   },
+   {
+    "id": "1.07#4",
+    "text": "Each day, we endured eleven grueling hours of manual farm labor under the sweltering equatorial sun, surviving on meager rations of rice and watery broth.",
+    "words": 25
+   },
+   {
+    "id": "1.07#5",
+    "text": "Armed security details patrolled the perimeter around the clock, carrying high-powered firearms.",
+    "words": 12
+   },
+   {
+    "id": "1.07#6",
+    "text": "At night, holding my three-year-old boy in a damp tent, I shivered in the belated realization that we were hemmed in by impenetrable jungle on all sides.",
+    "words": 27
+   },
+   {
+    "id": "1.07#7",
+    "text": "The dream of a promised sanctuary dissolved into an inescapable jungle prison constructed of terror and utter hopelessness.",
+    "words": 18
+   },
+   {
+    "id": "1.07#8",
+    "text": "Maternal instinct warned me that a terrible catastrophe hung over my son, and I knew I had to find a way to escape at any cost.",
+    "words": 26
+   }
+  ]
+ },
+ {
+  "id": "1.08",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "Crackle of high-powered loudspeakers echoing across the dense jungle, the persistent hum of evening wind."
+ },
+ {
+  "id": "1.09",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "subdued, reflective",
+  "text": "Throughout Jonestown, Jim Jones installed a network of high-powered loudspeakers that operated relentlessly across every corner of the settlement. His raspy, hypnotic voice broadcast from dawn until the deep hours of the night, drumming constant dread of an impending apocalypse and external hostile conspiracies into the collective psyche. Anyone exhibiting exhaustion, muttering a complaint, or raising a question was dragged before the assembly for humiliating public castigation. Complete geographical isolation compounded by severe, chronic sleep deprivation utterly demolished the psychological defenses and critical faculties of the inhabitants. Their exhausted minds lost the natural impulse of skepticism, slipping into a state of passive suggestibility that obeyed even the most irrational commands. The settlement gradually transformed into a gargantuan indoctrination apparatus where individual agency was systematically erased.",
+  "sentences": [
+   {
+    "id": "1.09#1",
+    "text": "Throughout Jonestown, Jim Jones installed a network of high-powered loudspeakers that operated relentlessly across every corner of the settlement.",
+    "words": 19
+   },
+   {
+    "id": "1.09#2",
+    "text": "His raspy, hypnotic voice broadcast from dawn until the deep hours of the night, drumming constant dread of an impending apocalypse and external hostile conspiracies into the collective psyche.",
+    "words": 29
+   },
+   {
+    "id": "1.09#3",
+    "text": "Anyone exhibiting exhaustion, muttering a complaint, or raising a question was dragged before the assembly for humiliating public castigation.",
+    "words": 19
+   },
+   {
+    "id": "1.09#4",
+    "text": "Complete geographical isolation compounded by severe, chronic sleep deprivation utterly demolished the psychological defenses and critical faculties of the inhabitants.",
+    "words": 20
+   },
+   {
+    "id": "1.09#5",
+    "text": "Their exhausted minds lost the natural impulse of skepticism, slipping into a state of passive suggestibility that obeyed even the most irrational commands.",
+    "words": 23
+   },
+   {
+    "id": "1.09#6",
+    "text": "The settlement gradually transformed into a gargantuan indoctrination apparatus where individual agency was systematically erased.",
+    "words": 15
+   }
+  ]
+ },
+ {
+  "id": "1.10",
+  "act": 1,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "sharp, analytical tone presenting operational forensic history",
+  "text": "Back in the United States, families whose loved ones were trapped in Guyana organized an advocacy coalition called the Concerned Relatives. They submitted urgent petitions to the State Department and Congress, charging that Jim Jones was holding American citizens against their will through coercion and armed intimidation. In May 1978, six months before the disaster, a pivotal investigative breakthrough occurred when trusted aide Deborah Layton escaped Jonestown and returned to America. She filed a sworn emergency affidavit warning authorities that Jim Jones was stockpiling weapons and repeatedly drilling mass poisoning rituals to end the lives of the entire commune. Layton pleaded with officials to intervene immediately, stressing that hundreds of lives hung by a fragile thread. Tragically, bureaucratic hesitation and diplomatic delays squandered the golden window to preempt the catastrophe before it unfolded. Spurred by mounting public scrutiny and the anguish of distraught families, Congressman Leo Ryan of California resolved to personally lead an official congressional delegation to Guyana in November 1978. Accompanying him were top aides, family representatives, and seasoned reporters from NBC News, The Washington Post, and The San Francisco Chronicle. It was an exceptionally hazardous mission, venturing directly into the heart of a closed organization consumed by acute collective paranoia. Congressman Ryan's explicit mandate was to examine the living conditions of American citizens and safeguard the right of repatriation for anyone wishing to return home.",
+  "sentences": [
+   {
+    "id": "1.10#1",
+    "text": "Back in the United States, families whose loved ones were trapped in Guyana organized an advocacy coalition called the Concerned Relatives.",
+    "words": 21
+   },
+   {
+    "id": "1.10#2",
+    "text": "They submitted urgent petitions to the State Department and Congress, charging that Jim Jones was holding American citizens against their will through coercion and armed intimidation.",
+    "words": 26
+   },
+   {
+    "id": "1.10#3",
+    "text": "In May 1978, six months before the disaster, a pivotal investigative breakthrough occurred when trusted aide Deborah Layton escaped Jonestown and returned to America.",
+    "words": 24
+   },
+   {
+    "id": "1.10#4",
+    "text": "She filed a sworn emergency affidavit warning authorities that Jim Jones was stockpiling weapons and repeatedly drilling mass poisoning rituals to end the lives of the entire commune.",
+    "words": 28
+   },
+   {
+    "id": "1.10#5",
+    "text": "Layton pleaded with officials to intervene immediately, stressing that hundreds of lives hung by a fragile thread.",
+    "words": 17
+   },
+   {
+    "id": "1.10#6",
+    "text": "Tragically, bureaucratic hesitation and diplomatic delays squandered the golden window to preempt the catastrophe before it unfolded.",
+    "words": 17
+   },
+   {
+    "id": "1.10#7",
+    "text": "Spurred by mounting public scrutiny and the anguish of distraught families, Congressman Leo Ryan of California resolved to personally lead an official congressional delegation to Guyana in November 1978.",
+    "words": 29
+   },
+   {
+    "id": "1.10#8",
+    "text": "Accompanying him were top aides, family representatives, and seasoned reporters from NBC News, The Washington Post, and The San Francisco Chronicle.",
+    "words": 21
+   },
+   {
+    "id": "1.10#9",
+    "text": "It was an exceptionally hazardous mission, venturing directly into the heart of a closed organization consumed by acute collective paranoia.",
+    "words": 20
+   },
+   {
+    "id": "1.10#10",
+    "text": "Congressman Ryan's explicit mandate was to examine the living conditions of American citizens and safeguard the right of repatriation for anyone wishing to return home.",
+    "words": 25
+   }
+  ]
+ },
+ {
+  "id": "1.11",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "closing Act 1",
+  "text": "The unexpected arrival of Congressman Leo Ryan in the Guyanese capital of Georgetown landed a devastating psychological blow on Jim Jones. The cult patriarch recognized that the secluded jungle empire he had labored so meticulously to erect was on the verge of total exposure. Severe addiction to sedatives combined with chronic persecutory delusions led him to interpret this inquiry as an existential assault upon his personal reign. Dread of losing absolute control ignited pathological rage, propelling him into the final stage of lethal escalation. He resolved to turn hundreds of innocent followers into human shields, dragging them all into an unprecedented darkness.",
+  "sentences": [
+   {
+    "id": "1.11#1",
+    "text": "The unexpected arrival of Congressman Leo Ryan in the Guyanese capital of Georgetown landed a devastating psychological blow on Jim Jones.",
+    "words": 21
+   },
+   {
+    "id": "1.11#2",
+    "text": "The cult patriarch recognized that the secluded jungle empire he had labored so meticulously to erect was on the verge of total exposure.",
+    "words": 23
+   },
+   {
+    "id": "1.11#3",
+    "text": "Severe addiction to sedatives combined with chronic persecutory delusions led him to interpret this inquiry as an existential assault upon his personal reign.",
+    "words": 23
+   },
+   {
+    "id": "1.11#4",
+    "text": "Dread of losing absolute control ignited pathological rage, propelling him into the final stage of lethal escalation.",
+    "words": 17
+   },
+   {
+    "id": "1.11#5",
+    "text": "He resolved to turn hundreds of innocent followers into human shields, dragging them all into an unprecedented darkness.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "1.12",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "A deep, resonant cello note sustains, then dissolves into suffocating silence."
+ },
+ {
+  "id": "2.01",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "Dark Ambient rainforest textures swell with a rhythmic metallic ticking, echoing like a doomsday countdown."
+ },
+ {
+  "id": "2.02",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "calm, controlled delivery leading into events",
+  "text": "On November 17, 1978, Congressman Leo Ryan's delegation and the press corps officially entered the gates of the Jonestown compound. Initially, Jim Jones staged an elaborate musical reception, forcing residents to wear strained smiles to deceive the congressional observers. Lively musical performances celebrating communal harmony echoed under the central pavilion lights in the middle of the equatorial wilderness. Yet that choreographed cheer could not mask the profound dread and hypervigilance etched into the faces of hundreds of inhabitants. Beneath rhythmic applause lay an agonizing struggle between the yearning for rescue and the terror of lethal reprisal from armed enforcers.",
+  "sentences": [
+   {
+    "id": "2.02#1",
+    "text": "On November 17, 1978, Congressman Leo Ryan's delegation and the press corps officially entered the gates of the Jonestown compound.",
+    "words": 20
+   },
+   {
+    "id": "2.02#2",
+    "text": "Initially, Jim Jones staged an elaborate musical reception, forcing residents to wear strained smiles to deceive the congressional observers.",
+    "words": 19
+   },
+   {
+    "id": "2.02#3",
+    "text": "Lively musical performances celebrating communal harmony echoed under the central pavilion lights in the middle of the equatorial wilderness.",
+    "words": 19
+   },
+   {
+    "id": "2.02#4",
+    "text": "Yet that choreographed cheer could not mask the profound dread and hypervigilance etched into the faces of hundreds of inhabitants.",
+    "words": 20
+   },
+   {
+    "id": "2.02#5",
+    "text": "Beneath rhythmic applause lay an agonizing struggle between the yearning for rescue and the terror of lethal reprisal from armed enforcers.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "2.03",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "Sparse, rhythmic applause from a crowd, acoustic guitar strumming blending into nocturnal jungle ambiance."
+ },
+ {
+  "id": "2.04",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tightening tempo, building suspense",
+  "text": "In the middle of that musical gathering, an unexpected incident upended the entire trajectory of the inspection. A temple member covertly slipped a folded handwritten note into the hand of NBC reporter Don Harris. The desperate message contained a plea for survival: “Please help us get out of here. The following morning, when Congressman Ryan announced that his delegation would escort anyone wishing to return to the United States, roughly fifteen members bravely stepped forward. This pivotal development served as the psychological tipping point that shattered the myth of unquestioned adulation Jones had cultivated. In his malignant narcissistic worldview, a request to leave was not merely a personal choice, but an act of treason that could never be forgiven. The patriarch's calm exterior instantly fractured, revealing sheer fury and desperate panic.",
+  "sentences": [
+   {
+    "id": "2.04#1",
+    "text": "In the middle of that musical gathering, an unexpected incident upended the entire trajectory of the inspection.",
+    "words": 17
+   },
+   {
+    "id": "2.04#2",
+    "text": "A temple member covertly slipped a folded handwritten note into the hand of NBC reporter Don Harris.",
+    "words": 17
+   },
+   {
+    "id": "2.04#3",
+    "text": "The desperate message contained a plea for survival: “Please help us get out of here.",
+    "words": 15
+   },
+   {
+    "id": "2.04#4",
+    "text": "The following morning, when Congressman Ryan announced that his delegation would escort anyone wishing to return to the United States, roughly fifteen members bravely stepped forward.",
+    "words": 26
+   },
+   {
+    "id": "2.04#5",
+    "text": "This pivotal development served as the psychological tipping point that shattered the myth of unquestioned adulation Jones had cultivated.",
+    "words": 19
+   },
+   {
+    "id": "2.04#6",
+    "text": "In his malignant narcissistic worldview, a request to leave was not merely a personal choice, but an act of treason that could never be forgiven.",
+    "words": 25
+   },
+   {
+    "id": "2.04#7",
+    "text": "The patriarch's calm exterior instantly fractured, revealing sheer fury and desperate panic.",
+    "words": 12
+   }
+  ]
+ },
+ {
+  "id": "2.05",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "The roar of a flatbed tractor engine over rough red dirt, distant rumbling thunder."
+ },
+ {
+  "id": "2.06",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tense, dramatic narrative",
+  "text": "Sensing that explosive volatility could erupt at any moment, Congressman Ryan gathered his delegation and the defectors to depart for the Port Kaituma airstrip. They divided across two small transport aircraft waiting on the rural dirt runway, preparing for takeoff toward Georgetown. At that exact juncture, a tractor towing a flatbed trailer packed with armed security personnel from Jones's inner guard raced onto the tarmac. Without warning, they opened fire with high-powered rifles on the delegation and fleeing defectors. Congressman Leo Ryan, three veteran journalists, and a temple defector fell, never to return home. Several other delegation members were gravely wounded, including legislative aide Jackie Speier, who later became a prominent member of the United States Congress. Struck by multiple rounds, Jackie Speier lay motionless on the scorching dirt runway for twenty-two agonizing hours, feigning death until rescue units arrived. The ambush on the airstrip served as the opening salvo for the darkest chapter of the Jonestown tragedy.",
+  "sentences": [
+   {
+    "id": "2.06#1",
+    "text": "Sensing that explosive volatility could erupt at any moment, Congressman Ryan gathered his delegation and the defectors to depart for the Port Kaituma airstrip.",
+    "words": 24
+   },
+   {
+    "id": "2.06#2",
+    "text": "They divided across two small transport aircraft waiting on the rural dirt runway, preparing for takeoff toward Georgetown.",
+    "words": 18
+   },
+   {
+    "id": "2.06#3",
+    "text": "At that exact juncture, a tractor towing a flatbed trailer packed with armed security personnel from Jones's inner guard raced onto the tarmac.",
+    "words": 23
+   },
+   {
+    "id": "2.06#4",
+    "text": "Without warning, they opened fire with high-powered rifles on the delegation and fleeing defectors.",
+    "words": 14
+   },
+   {
+    "id": "2.06#5",
+    "text": "Congressman Leo Ryan, three veteran journalists, and a temple defector fell, never to return home.",
+    "words": 15
+   },
+   {
+    "id": "2.06#6",
+    "text": "Several other delegation members were gravely wounded, including legislative aide Jackie Speier, who later became a prominent member of the United States Congress.",
+    "words": 23
+   },
+   {
+    "id": "2.06#7",
+    "text": "Struck by multiple rounds, Jackie Speier lay motionless on the scorching dirt runway for twenty-two agonizing hours, feigning death until rescue units arrived.",
+    "words": 23
+   },
+   {
+    "id": "2.06#8",
+    "text": "The ambush on the airstrip served as the opening salvo for the darkest chapter of the Jonestown tragedy.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "2.07",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "clinical, authoritative crime scene analysis",
+  "text": "Subsequent forensic reconstructions by the Federal Bureau of Investigation confirmed that the airstrip ambush was executed with cold, premeditated precision. The shooters did not seek to intimidate or negotiate, but intended to annihilate the entire congressional party to prevent reports from reaching the outside world. From a behavioral perspective, the gunmen of the Red Brigade security squad operated under extreme indoctrination and complete diffusion of responsibility. Once ordinary young men, years of manufactured hatred had conditioned them to view executing their fellow citizens as a sacred duty to protect the commune against external enemies. This dramatic shift illustrates an evolving Modus Operandi, transitioning from diplomatic deception to overt firearm violence when control over the environment collapsed. Survivors were forced to crawl into dense roadside underbrush, concealing themselves through hours of terror. One of the transport planes managed to take off under fire, carrying the first eyewitnesses away from the jungle trap. Meanwhile, back at Jonestown several miles away, mechanical emergency sirens began to wail, signaling the enactment of an unspeakable decree.",
+  "sentences": [
+   {
+    "id": "2.07#1",
+    "text": "Subsequent forensic reconstructions by the Federal Bureau of Investigation confirmed that the airstrip ambush was executed with cold, premeditated precision.",
+    "words": 20
+   },
+   {
+    "id": "2.07#2",
+    "text": "The shooters did not seek to intimidate or negotiate, but intended to annihilate the entire congressional party to prevent reports from reaching the outside world.",
+    "words": 25
+   },
+   {
+    "id": "2.07#3",
+    "text": "From a behavioral perspective, the gunmen of the Red Brigade security squad operated under extreme indoctrination and complete diffusion of responsibility.",
+    "words": 21
+   },
+   {
+    "id": "2.07#4",
+    "text": "Once ordinary young men, years of manufactured hatred had conditioned them to view executing their fellow citizens as a sacred duty to protect the commune against external enemies.",
+    "words": 28
+   },
+   {
+    "id": "2.07#5",
+    "text": "This dramatic shift illustrates an evolving Modus Operandi, transitioning from diplomatic deception to overt firearm violence when control over the environment collapsed.",
+    "words": 22
+   },
+   {
+    "id": "2.07#6",
+    "text": "Survivors were forced to crawl into dense roadside underbrush, concealing themselves through hours of terror.",
+    "words": 15
+   },
+   {
+    "id": "2.07#7",
+    "text": "One of the transport planes managed to take off under fire, carrying the first eyewitnesses away from the jungle trap.",
+    "words": 20
+   },
+   {
+    "id": "2.07#8",
+    "text": "Meanwhile, back at Jonestown several miles away, mechanical emergency sirens began to wail, signaling the enactment of an unspeakable decree.",
+    "words": 20
+   }
+  ]
+ },
+ {
+  "id": "2.08",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "Mechanical siren wailing sharply against the eerie quiet of the equatorial canopy."
+ },
+ {
+  "id": "2.09",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "somber, measured cadence",
+  "text": "The piercing siren shattered the late afternoon stillness across the Guyanese wilderness. More than nine hundred inhabitants were marshaled by armed guards toward the central open-air pavilion. None of them realized that this assembly marked the final gathering of their lives. Rifle-bearing security details formed a tight perimeter, sealing off every trail leading into the surrounding wilderness. Jim Jones mounted the rostrum, clutching his familiar microphone, preparing to initiate an ultimate ritual he had long contemplated.",
+  "sentences": [
+   {
+    "id": "2.09#1",
+    "text": "The piercing siren shattered the late afternoon stillness across the Guyanese wilderness.",
+    "words": 12
+   },
+   {
+    "id": "2.09#2",
+    "text": "More than nine hundred inhabitants were marshaled by armed guards toward the central open-air pavilion.",
+    "words": 15
+   },
+   {
+    "id": "2.09#3",
+    "text": "None of them realized that this assembly marked the final gathering of their lives.",
+    "words": 14
+   },
+   {
+    "id": "2.09#4",
+    "text": "Rifle-bearing security details formed a tight perimeter, sealing off every trail leading into the surrounding wilderness.",
+    "words": 16
+   },
+   {
+    "id": "2.09#5",
+    "text": "Jim Jones mounted the rostrum, clutching his familiar microphone, preparing to initiate an ultimate ritual he had long contemplated.",
+    "words": 19
+   }
+  ]
+ },
+ {
+  "id": "2.10",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "The click of a microphone being engaged, magnetic tape hiss beginning to roll."
+ },
+ {
+  "id": "2.11",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "grave tone, contextualizing historical evidentiary tape",
+  "text": "United States government archives subsequently declassified one of the most chilling evidentiary recordings in modern history: “Death Tape Q 042”. This forty-four-minute cassette recording captures the raw audio landscape inside the central pavilion on the afternoon of November 18, 1978. On the tape, Jim Jones announces to the assembly that Congressman Ryan's party has been ambushed and that an aircraft is crashing into the jungle. He claimed that hostile military forces would parachute into Jonestown to severely mistreat residents and harm their children. By manufacturing an imminent, inescapable threat of external annihilation, he systematically extinguished any lingering hope of survival. A large metal vat containing grape-flavored beverage laced with industrial toxins was rolled into the center of the pavilion by medical staff. The directive to consume the lethal mixture was issued under the direct surveillance of armed sentries circling the perimeter. To break the parental resolve of the community, Jim Jones enforced a devastating psychological maneuver: he ordered that infants and small children be dosed first. This tactic created an inescapable emotional trap, driving parents past the point of psychological resistance.",
+  "sentences": [
+   {
+    "id": "2.11#1",
+    "text": "United States government archives subsequently declassified one of the most chilling evidentiary recordings in modern history: “Death Tape Q 042”.",
+    "words": 20
+   },
+   {
+    "id": "2.11#2",
+    "text": "This forty-four-minute cassette recording captures the raw audio landscape inside the central pavilion on the afternoon of November 18, 1978.",
+    "words": 20
+   },
+   {
+    "id": "2.11#3",
+    "text": "On the tape, Jim Jones announces to the assembly that Congressman Ryan's party has been ambushed and that an aircraft is crashing into the jungle.",
+    "words": 25
+   },
+   {
+    "id": "2.11#4",
+    "text": "He claimed that hostile military forces would parachute into Jonestown to severely mistreat residents and harm their children.",
+    "words": 18
+   },
+   {
+    "id": "2.11#5",
+    "text": "By manufacturing an imminent, inescapable threat of external annihilation, he systematically extinguished any lingering hope of survival.",
+    "words": 17
+   },
+   {
+    "id": "2.11#6",
+    "text": "A large metal vat containing grape-flavored beverage laced with industrial toxins was rolled into the center of the pavilion by medical staff.",
+    "words": 22
+   },
+   {
+    "id": "2.11#7",
+    "text": "The directive to consume the lethal mixture was issued under the direct surveillance of armed sentries circling the perimeter.",
+    "words": 19
+   },
+   {
+    "id": "2.11#8",
+    "text": "To break the parental resolve of the community, Jim Jones enforced a devastating psychological maneuver: he ordered that infants and small children be dosed first.",
+    "words": 25
+   },
+   {
+    "id": "2.11#9",
+    "text": "This tactic created an inescapable emotional trap, driving parents past the point of psychological resistance.",
+    "words": 15
+   }
+  ]
+ },
+ {
+  "id": "2.12",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "Distant cries of distressed infants, anxious murmurs of a crowd submerged under low microphone hum."
+ },
+ {
+  "id": "2.13",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "voice heavy with emotion, closing Act 2",
+  "text": "The pavilion at Jonestown descended into pandemonium, anguish, and the heartbreaking cries of innocent children. Grief-stricken parents cradled their little ones, realizing the monstrous deception behind the promise of an earthly paradise. As mothers witnessed their infants slipping away in their arms, the sacred bond tying them to earthly existence was violently severed. They entered a state of emotional paralysis from overwhelming despair, feeling there was no longer any purpose left to fight for in this life. Surrounded by armed guards and paralyzed by years of psychological conditioning, the majority lacked the capacity for organized resistance. They accepted the cups as a passive release from the horrific persecutory delusions engineered by their leader. In that agonizing hour, taking their own lives became a heartbreaking surrender to join their departed children in eternity. A catastrophic loss of innocent life unfolded in the suffocating quiet of the remote jungle clearing.",
+  "sentences": [
+   {
+    "id": "2.13#1",
+    "text": "The pavilion at Jonestown descended into pandemonium, anguish, and the heartbreaking cries of innocent children.",
+    "words": 15
+   },
+   {
+    "id": "2.13#2",
+    "text": "Grief-stricken parents cradled their little ones, realizing the monstrous deception behind the promise of an earthly paradise.",
+    "words": 17
+   },
+   {
+    "id": "2.13#3",
+    "text": "As mothers witnessed their infants slipping away in their arms, the sacred bond tying them to earthly existence was violently severed.",
+    "words": 21
+   },
+   {
+    "id": "2.13#4",
+    "text": "They entered a state of emotional paralysis from overwhelming despair, feeling there was no longer any purpose left to fight for in this life.",
+    "words": 24
+   },
+   {
+    "id": "2.13#5",
+    "text": "Surrounded by armed guards and paralyzed by years of psychological conditioning, the majority lacked the capacity for organized resistance.",
+    "words": 19
+   },
+   {
+    "id": "2.13#6",
+    "text": "They accepted the cups as a passive release from the horrific persecutory delusions engineered by their leader.",
+    "words": 17
+   },
+   {
+    "id": "2.13#7",
+    "text": "In that agonizing hour, taking their own lives became a heartbreaking surrender to join their departed children in eternity.",
+    "words": 19
+   },
+   {
+    "id": "2.13#8",
+    "text": "A catastrophic loss of innocent life unfolded in the suffocating quiet of the remote jungle clearing.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "2.14",
+  "act": 2,
+  "kind": "NGHI",
+  "sec": 2.0,
+  "desc": "Nhạc nền tắt hoàn toàn, chỉ còn tiếng côn trùng đêm nấc nghẹn"
+ },
+ {
+  "id": "3.01",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "Minimalist piano notes fall sparsely like frozen raindrops into a hollow, echoing chamber."
+ },
+ {
+  "id": "3.02",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "reflective, philosophical tone",
+  "text": "Reflecting upon Jonestown, the central question that has haunted behavioral scientists for decades remains: Why? Why did more than nine hundred educated, compassionate human beings yield to such a catastrophic directive? What compelled devoted parents to administer lethal substances to the very children they cherished above all else? Were they uniquely unstable, or were they victims of a coercive manipulation apparatus operating beyond conventional imagination? To untangle these painful paradoxes, we must examine the verified principles of behavioral science and collective manipulation. Let us examine the expert insights of our consulting psychologist.",
+  "sentences": [
+   {
+    "id": "3.02#1",
+    "text": "Reflecting upon Jonestown, the central question that has haunted behavioral scientists for decades remains: Why?",
+    "words": 15
+   },
+   {
+    "id": "3.02#2",
+    "text": "Why did more than nine hundred educated, compassionate human beings yield to such a catastrophic directive?",
+    "words": 16
+   },
+   {
+    "id": "3.02#3",
+    "text": "What compelled devoted parents to administer lethal substances to the very children they cherished above all else?",
+    "words": 17
+   },
+   {
+    "id": "3.02#4",
+    "text": "Were they uniquely unstable, or were they victims of a coercive manipulation apparatus operating beyond conventional imagination?",
+    "words": 17
+   },
+   {
+    "id": "3.02#5",
+    "text": "To untangle these painful paradoxes, we must examine the verified principles of behavioral science and collective manipulation.",
+    "words": 17
+   },
+   {
+    "id": "3.02#6",
+    "text": "Let us examine the expert insights of our consulting psychologist.",
+    "words": 10
+   }
+  ]
+ },
+ {
+  "id": "3.03",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "calm, scholarly, articulate female voice",
+  "text": "The foundational psychological mechanism governing Jonestown is obedience to authority, demonstrated in the landmark experiments of Stanley Milgram. Milgram demonstrated that when confronted with a figure perceived as a legitimate authority, individuals routinely surrender personal moral accountability. They perceive themselves merely as instruments carrying out an institutional will rather than autonomous moral agents responsible for the outcome. At Jonestown, Jim Jones was not merely a spiritual guide; he constructed an identity as an omniscient savior holding exclusive access to truth. This dynamic operated in tandem with the profound objectification and dehumanization of his followers. Within his worldview, those nine hundred souls were never recognized as autonomous human beings endowed with fundamental dignity. He viewed them as living props whose sole purpose was to validate his grandiosity and satisfy his pathological drive for absolute dominion. His profound deficit in affective empathy rendered him completely indifferent to the terror and agony of the victims. In his narcissistic universe, their lives held significance only insofar as they served to memorialize his personal myth.",
+  "sentences": [
+   {
+    "id": "3.03#1",
+    "text": "The foundational psychological mechanism governing Jonestown is obedience to authority, demonstrated in the landmark experiments of Stanley Milgram.",
+    "words": 18
+   },
+   {
+    "id": "3.03#2",
+    "text": "Milgram demonstrated that when confronted with a figure perceived as a legitimate authority, individuals routinely surrender personal moral accountability.",
+    "words": 19
+   },
+   {
+    "id": "3.03#3",
+    "text": "They perceive themselves merely as instruments carrying out an institutional will rather than autonomous moral agents responsible for the outcome.",
+    "words": 20
+   },
+   {
+    "id": "3.03#4",
+    "text": "At Jonestown, Jim Jones was not merely a spiritual guide; he constructed an identity as an omniscient savior holding exclusive access to truth.",
+    "words": 23
+   },
+   {
+    "id": "3.03#5",
+    "text": "This dynamic operated in tandem with the profound objectification and dehumanization of his followers.",
+    "words": 14
+   },
+   {
+    "id": "3.03#6",
+    "text": "Within his worldview, those nine hundred souls were never recognized as autonomous human beings endowed with fundamental dignity.",
+    "words": 18
+   },
+   {
+    "id": "3.03#7",
+    "text": "He viewed them as living props whose sole purpose was to validate his grandiosity and satisfy his pathological drive for absolute dominion.",
+    "words": 22
+   },
+   {
+    "id": "3.03#8",
+    "text": "His profound deficit in affective empathy rendered him completely indifferent to the terror and agony of the victims.",
+    "words": 18
+   },
+   {
+    "id": "3.03#9",
+    "text": "In his narcissistic universe, their lives held significance only insofar as they served to memorialize his personal myth.",
+    "words": 18
+   }
+  ]
+ },
+ {
+  "id": "3.04",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "maintaining analytical momentum",
+  "text": "Beyond individual obedience, Jim Jones weaponized collective social pressure to extinguish independent thought. He cultivated an insular echo chamber where blind conformity was venerated as the highest virtue. Meanwhile, the slightest hesitation or dissenting opinion was condemned as a dangerous betrayal that demanded swift condemnation. When isolated deep within the wilderness, individuals experience an overwhelming fear of ostracism from the only community they have left. This created fertile ground for an insidious socio-psychological syndrome known as Groupthink. Our psychologist will elucidate this cognitive distortion.",
+  "sentences": [
+   {
+    "id": "3.04#1",
+    "text": "Beyond individual obedience, Jim Jones weaponized collective social pressure to extinguish independent thought.",
+    "words": 13
+   },
+   {
+    "id": "3.04#2",
+    "text": "He cultivated an insular echo chamber where blind conformity was venerated as the highest virtue.",
+    "words": 15
+   },
+   {
+    "id": "3.04#3",
+    "text": "Meanwhile, the slightest hesitation or dissenting opinion was condemned as a dangerous betrayal that demanded swift condemnation.",
+    "words": 17
+   },
+   {
+    "id": "3.04#4",
+    "text": "When isolated deep within the wilderness, individuals experience an overwhelming fear of ostracism from the only community they have left.",
+    "words": 20
+   },
+   {
+    "id": "3.04#5",
+    "text": "This created fertile ground for an insidious socio-psychological syndrome known as Groupthink.",
+    "words": 12
+   },
+   {
+    "id": "3.04#6",
+    "text": "Our psychologist will elucidate this cognitive distortion.",
+    "words": 7
+   }
+  ]
+ },
+ {
+  "id": "3.05",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "dissecting Groupthink, Escalation of Commitment, and Sunk Costs",
+  "text": "The concept of Groupthink, formulated by Irving Janis, explains how cohesive groups arrive at catastrophically irrational and destructive decisions. When the drive for internal unanimity overrides realistic appraisals of alternative courses of action, groups develop massive collective blindspots. They maintain an unquestioned belief in the inherent morality of their group while demonizing the outside world as uniformly corrupt and malevolent. This distortion was reinforced through the Foot-in-the-Door technique, or escalation of commitment. Jim Jones never demanded ultimate sacrifice when members first crossed the threshold of Peoples Temple. He began with minor requests: donating a few hours of volunteer labor, attending charity rallies, and contributing modest portions of their income. Once members grew accustomed to yielding autonomy, demands escalated: surrendering life savings, deeding homes to the church, and severing ties with biological family. This entrapped members in a relentless Cognitive Sunk Cost Trap. When an individual has invested a decade of their youth, family honor, and entire worldly wealth into a movement, the human psyche fiercely resists admitting catastrophic error. To acknowledge that Jim Jones was a destructive predator would mean confronting the total collapse of their life's purpose and identity. To protect their ego from shattering, members rationalized each escalating bizarre decree as a noble spiritual trial. Ultimately, surrendering their physical lives was rationalized as the ultimate act of ideological devotion to preserve the dignity of their cause. It represents an escalating psychological trap that ensnares human beings in voluntary servitude.",
+  "sentences": [
+   {
+    "id": "3.05#1",
+    "text": "The concept of Groupthink, formulated by Irving Janis, explains how cohesive groups arrive at catastrophically irrational and destructive decisions.",
+    "words": 19
+   },
+   {
+    "id": "3.05#2",
+    "text": "When the drive for internal unanimity overrides realistic appraisals of alternative courses of action, groups develop massive collective blindspots.",
+    "words": 19
+   },
+   {
+    "id": "3.05#3",
+    "text": "They maintain an unquestioned belief in the inherent morality of their group while demonizing the outside world as uniformly corrupt and malevolent.",
+    "words": 22
+   },
+   {
+    "id": "3.05#4",
+    "text": "This distortion was reinforced through the Foot-in-the-Door technique, or escalation of commitment.",
+    "words": 12
+   },
+   {
+    "id": "3.05#5",
+    "text": "Jim Jones never demanded ultimate sacrifice when members first crossed the threshold of Peoples Temple.",
+    "words": 15
+   },
+   {
+    "id": "3.05#6",
+    "text": "He began with minor requests: donating a few hours of volunteer labor, attending charity rallies, and contributing modest portions of their income.",
+    "words": 22
+   },
+   {
+    "id": "3.05#7",
+    "text": "Once members grew accustomed to yielding autonomy, demands escalated: surrendering life savings, deeding homes to the church, and severing ties with biological family.",
+    "words": 23
+   },
+   {
+    "id": "3.05#8",
+    "text": "This entrapped members in a relentless Cognitive Sunk Cost Trap.",
+    "words": 10
+   },
+   {
+    "id": "3.05#9",
+    "text": "When an individual has invested a decade of their youth, family honor, and entire worldly wealth into a movement, the human psyche fiercely resists admitting catastrophic error.",
+    "words": 27
+   },
+   {
+    "id": "3.05#10",
+    "text": "To acknowledge that Jim Jones was a destructive predator would mean confronting the total collapse of their life's purpose and identity.",
+    "words": 21
+   },
+   {
+    "id": "3.05#11",
+    "text": "To protect their ego from shattering, members rationalized each escalating bizarre decree as a noble spiritual trial.",
+    "words": 17
+   },
+   {
+    "id": "3.05#12",
+    "text": "Ultimately, surrendering their physical lives was rationalized as the ultimate act of ideological devotion to preserve the dignity of their cause.",
+    "words": 21
+   },
+   {
+    "id": "3.05#13",
+    "text": "It represents an escalating psychological trap that ensnares human beings in voluntary servitude.",
+    "words": 13
+   }
+  ]
+ },
+ {
+  "id": "3.06",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "transitioning to physiological exhaustion",
+  "text": "Alongside cognitive manipulation, a decisive factor sustaining totalitarian control was systematic biological exhaustion. For months on end at Jonestown, residents performed grueling agricultural labor under oppressive tropical humidity. Their daily diet suffered from severe protein and caloric deficiencies, consisting primarily of watery rice broth and basic starches. At night, restorative sleep was fractured by incessant diatribes broadcast over the loudspeaker system. Chronic sleep deprivation significantly impairs the prefrontal cortex, the neurological seat of emotional regulation, judgment, and critical analysis. As physical stamina collapsed, cognitive resistance eroded in lockstep. Exhausted individuals became passive, hyper-suggestible, and incapable of mobilizing the intellectual energy required to defy authority.",
+  "sentences": [
+   {
+    "id": "3.06#1",
+    "text": "Alongside cognitive manipulation, a decisive factor sustaining totalitarian control was systematic biological exhaustion.",
+    "words": 13
+   },
+   {
+    "id": "3.06#2",
+    "text": "For months on end at Jonestown, residents performed grueling agricultural labor under oppressive tropical humidity.",
+    "words": 15
+   },
+   {
+    "id": "3.06#3",
+    "text": "Their daily diet suffered from severe protein and caloric deficiencies, consisting primarily of watery rice broth and basic starches.",
+    "words": 19
+   },
+   {
+    "id": "3.06#4",
+    "text": "At night, restorative sleep was fractured by incessant diatribes broadcast over the loudspeaker system.",
+    "words": 14
+   },
+   {
+    "id": "3.06#5",
+    "text": "Chronic sleep deprivation significantly impairs the prefrontal cortex, the neurological seat of emotional regulation, judgment, and critical analysis.",
+    "words": 18
+   },
+   {
+    "id": "3.06#6",
+    "text": "As physical stamina collapsed, cognitive resistance eroded in lockstep.",
+    "words": 9
+   },
+   {
+    "id": "3.06#7",
+    "text": "Exhausted individuals became passive, hyper-suggestible, and incapable of mobilizing the intellectual energy required to defy authority.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "3.07",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "differentiating MO vs Signature and Compartmentalization",
+  "text": "From a behavioral investigative standpoint, we must clearly separate Modus Operandi from Psychological Signature. Jones's MO evolved constantly: shifting from civil rights activism in Indiana to political maneuvering in San Francisco, and ultimately fleeing to Guyana to evade legal accountability. His underlying Signature, however, remained immutable: an absolute need for psychological control and an insatiable craving for worship. This manifested through repeated rehearsals called “White Nights”, where he forced followers to drink mock poison to test unconditional loyalty. He also deployed rigid psychological compartmentalization, establishing a stark binary between a hostile outside world and Jonestown as a sacred refuge. Preserving the Q 042 audio recording represents his ultimate narcissistic signature, securing an enduring record of his power for posterity. He craved historical immortality as a heroic martyr, even if that immortality cost the lives of nearly one thousand innocent human beings.",
+  "sentences": [
+   {
+    "id": "3.07#1",
+    "text": "From a behavioral investigative standpoint, we must clearly separate Modus Operandi from Psychological Signature.",
+    "words": 14
+   },
+   {
+    "id": "3.07#2",
+    "text": "Jones's MO evolved constantly: shifting from civil rights activism in Indiana to political maneuvering in San Francisco, and ultimately fleeing to Guyana to evade legal accountability.",
+    "words": 26
+   },
+   {
+    "id": "3.07#3",
+    "text": "His underlying Signature, however, remained immutable: an absolute need for psychological control and an insatiable craving for worship.",
+    "words": 18
+   },
+   {
+    "id": "3.07#4",
+    "text": "This manifested through repeated rehearsals called “White Nights”, where he forced followers to drink mock poison to test unconditional loyalty.",
+    "words": 20
+   },
+   {
+    "id": "3.07#5",
+    "text": "He also deployed rigid psychological compartmentalization, establishing a stark binary between a hostile outside world and Jonestown as a sacred refuge.",
+    "words": 21
+   },
+   {
+    "id": "3.07#6",
+    "text": "Preserving the Q 042 audio recording represents his ultimate narcissistic signature, securing an enduring record of his power for posterity.",
+    "words": 20
+   },
+   {
+    "id": "3.07#7",
+    "text": "He craved historical immortality as a heroic martyr, even if that immortality cost the lives of nearly one thousand innocent human beings.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "3.08",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "closing Act 3",
+  "text": "These behavioral analyses illuminate the sophisticated coercive system that Jim Jones engineered. Yet even amidst the darkest moments within the Jonestown pavilion, innate human conscience was not entirely extinguished. Amidst a sea of terror and passive submission, a solitary, courageous voice rose in direct challenge to the leader. That profound act of moral resistance forms the narrative of Act 4.",
+  "sentences": [
+   {
+    "id": "3.08#1",
+    "text": "These behavioral analyses illuminate the sophisticated coercive system that Jim Jones engineered.",
+    "words": 12
+   },
+   {
+    "id": "3.08#2",
+    "text": "Yet even amidst the darkest moments within the Jonestown pavilion, innate human conscience was not entirely extinguished.",
+    "words": 17
+   },
+   {
+    "id": "3.08#3",
+    "text": "Amidst a sea of terror and passive submission, a solitary, courageous voice rose in direct challenge to the leader.",
+    "words": 19
+   },
+   {
+    "id": "3.08#4",
+    "text": "That profound act of moral resistance forms the narrative of Act 4.",
+    "words": 12
+   }
+  ]
+ },
+ {
+  "id": "3.09",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "Piano chords fade into an unsettling, low electronic drone."
+ },
+ {
+  "id": "4.01",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "A mournful solo violin weeps against analog tape hiss, carrying historical grief."
+ },
+ {
+  "id": "4.02",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "solemn narration recreating the pivotal moment",
+  "text": "As the tape reels began to turn to capture “Death Tape Q 042”, the air inside the pavilion was thick with dread. Jim Jones sat in a high-backed white wicker chair at the center, gripping his microphone, urging the assembly forward. His raspy delivery repeated familiar paranoid narratives of encirclement, retaliatory violence, and unavoidable doom. He proclaimed that this was not a defeat, but a dignified, honorable defense of collective identity that he termed “revolutionary death”. Yet amidst the stunned silence of the crowd, one courageous woman stepped up to the microphone to speak for human conscience.",
+  "sentences": [
+   {
+    "id": "4.02#1",
+    "text": "As the tape reels began to turn to capture “Death Tape Q 042”, the air inside the pavilion was thick with dread.",
+    "words": 22
+   },
+   {
+    "id": "4.02#2",
+    "text": "Jim Jones sat in a high-backed white wicker chair at the center, gripping his microphone, urging the assembly forward.",
+    "words": 19
+   },
+   {
+    "id": "4.02#3",
+    "text": "His raspy delivery repeated familiar paranoid narratives of encirclement, retaliatory violence, and unavoidable doom.",
+    "words": 14
+   },
+   {
+    "id": "4.02#4",
+    "text": "He proclaimed that this was not a defeat, but a dignified, honorable defense of collective identity that he termed “revolutionary death”.",
+    "words": 21
+   },
+   {
+    "id": "4.02#5",
+    "text": "Yet amidst the stunned silence of the crowd, one courageous woman stepped up to the microphone to speak for human conscience.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "4.03",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "Hurried footsteps on wooden boards, a microphone being adjusted with a low hum."
+ },
+ {
+  "id": "4.04",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "highlighting the historical resister",
+  "text": "That courageous individual was Christine Miller, an African American woman in her sixties who had dedicated years of service to the church. Upon hearing Jones announce the collective end of the settlement, she stood and questioned the patriarch before the entire assembly. Her clear, unwavering words are preserved on the tape: “I feel that as long as there's life, there's hope. She passionately urged Jim Jones to seek alternatives, advocating the evacuation of all children to safety in Cuba or the Soviet Union rather than choosing senseless destruction. Her humane dissent shone as a solitary beacon through the suffocating gloom of indoctrination. She affirmed basic human dignity through an unassailable truth: every human life possesses an inherent right to survive and author its own future.",
+  "sentences": [
+   {
+    "id": "4.04#1",
+    "text": "That courageous individual was Christine Miller, an African American woman in her sixties who had dedicated years of service to the church.",
+    "words": 22
+   },
+   {
+    "id": "4.04#2",
+    "text": "Upon hearing Jones announce the collective end of the settlement, she stood and questioned the patriarch before the entire assembly.",
+    "words": 20
+   },
+   {
+    "id": "4.04#3",
+    "text": "Her clear, unwavering words are preserved on the tape: “I feel that as long as there's life, there's hope.",
+    "words": 19
+   },
+   {
+    "id": "4.04#4",
+    "text": "She passionately urged Jim Jones to seek alternatives, advocating the evacuation of all children to safety in Cuba or the Soviet Union rather than choosing senseless destruction.",
+    "words": 27
+   },
+   {
+    "id": "4.04#5",
+    "text": "Her humane dissent shone as a solitary beacon through the suffocating gloom of indoctrination.",
+    "words": 14
+   },
+   {
+    "id": "4.04#6",
+    "text": "She affirmed basic human dignity through an unassailable truth: every human life possesses an inherent right to survive and author its own future.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "4.05",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "Jim Jones slamming his hand on a table in agitation, feedback squawk from the loudspeaker."
+ },
+ {
+  "id": "4.06",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "heavy, somber delivery",
+  "text": "Confronted by Christine Miller's principled reasoning, Jim Jones reacted with irritation and harsh dismissal. He rejected every peaceful alternative, arguing that external adversaries would never permit the commune to live in peace. Tragically, fellow members, conditioned by years of group loyalty, began shouting her down and defending their leader. The painful isolation of a solitary voice of reason before collective conformity extinguished the final glimmer of rescue for hundreds of lives.",
+  "sentences": [
+   {
+    "id": "4.06#1",
+    "text": "Confronted by Christine Miller's principled reasoning, Jim Jones reacted with irritation and harsh dismissal.",
+    "words": 14
+   },
+   {
+    "id": "4.06#2",
+    "text": "He rejected every peaceful alternative, arguing that external adversaries would never permit the commune to live in peace.",
+    "words": 18
+   },
+   {
+    "id": "4.06#3",
+    "text": "Tragically, fellow members, conditioned by years of group loyalty, began shouting her down and defending their leader.",
+    "words": 17
+   },
+   {
+    "id": "4.06#4",
+    "text": "The painful isolation of a solitary voice of reason before collective conformity extinguished the final glimmer of rescue for hundreds of lives.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "4.07",
+  "act": 4,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "analyzing neutralization techniques and Narcissistic Collapse",
+  "text": "The confrontation between Christine Miller and Jim Jones on Tape Q 042 provides a vivid demonstration of Sykes and Matza's Techniques of Neutralization. The cult leader relied heavily on condemning the condemners and displacing personal responsibility to pacify internal guilt. He reiterated: “It wasn't me who wanted this, but our enemies who gave us no other choice. By presenting himself as a victim of external conspiracies, he deflected moral responsibility for engineered mass destruction. Christine Miller's dissent exemplifies independent moral agency, breaking through collective fear to champion the sanctity of young life. Her integrity stands in stark contrast to the mindset of compliant followers, who only awaken when catastrophic reality shatters cognitive dissonance. Authentic remorse surfaces only when an individual confronts the real-world consequences of their choices, enduring Moral Injury and seeking active atonement. Jim Jones, conversely, experienced narcissistic collapse and pathological self-pity, mourning his vanished dominion without a shred of genuine empathy for his victims.",
+  "sentences": [
+   {
+    "id": "4.07#1",
+    "text": "The confrontation between Christine Miller and Jim Jones on Tape Q 042 provides a vivid demonstration of Sykes and Matza's Techniques of Neutralization.",
+    "words": 23
+   },
+   {
+    "id": "4.07#2",
+    "text": "The cult leader relied heavily on condemning the condemners and displacing personal responsibility to pacify internal guilt.",
+    "words": 17
+   },
+   {
+    "id": "4.07#3",
+    "text": "He reiterated: “It wasn't me who wanted this, but our enemies who gave us no other choice.",
+    "words": 17
+   },
+   {
+    "id": "4.07#4",
+    "text": "By presenting himself as a victim of external conspiracies, he deflected moral responsibility for engineered mass destruction.",
+    "words": 17
+   },
+   {
+    "id": "4.07#5",
+    "text": "Christine Miller's dissent exemplifies independent moral agency, breaking through collective fear to champion the sanctity of young life.",
+    "words": 18
+   },
+   {
+    "id": "4.07#6",
+    "text": "Her integrity stands in stark contrast to the mindset of compliant followers, who only awaken when catastrophic reality shatters cognitive dissonance.",
+    "words": 21
+   },
+   {
+    "id": "4.07#7",
+    "text": "Authentic remorse surfaces only when an individual confronts the real-world consequences of their choices, enduring Moral Injury and seeking active atonement.",
+    "words": 21
+   },
+   {
+    "id": "4.07#8",
+    "text": "Jim Jones, conversely, experienced narcissistic collapse and pathological self-pity, mourning his vanished dominion without a shred of genuine empathy for his victims.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "4.08",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "shifting to heartbreaking tragedy",
+  "text": "Following the suppression of Christine Miller's dissent, the tragedy entered its most devastating phase. Mothers wept uncontrollably as their infants collapsed onto the earthen floor within minutes of receiving the toxic liquid. The cries of children echoed through the forest before sinking into permanent silence. Some members attempted to flee into the surrounding jungle, only to be turned back by armed sentries stationed along the perimeter. As hundreds endured their final moments, Jim Jones remained at the rostrum, urging the crowd to maintain order and dignity. Every heartbreaking sound was recorded onto the magnetic tape as an indelible indictment for all time.",
+  "sentences": [
+   {
+    "id": "4.08#1",
+    "text": "Following the suppression of Christine Miller's dissent, the tragedy entered its most devastating phase.",
+    "words": 14
+   },
+   {
+    "id": "4.08#2",
+    "text": "Mothers wept uncontrollably as their infants collapsed onto the earthen floor within minutes of receiving the toxic liquid.",
+    "words": 18
+   },
+   {
+    "id": "4.08#3",
+    "text": "The cries of children echoed through the forest before sinking into permanent silence.",
+    "words": 13
+   },
+   {
+    "id": "4.08#4",
+    "text": "Some members attempted to flee into the surrounding jungle, only to be turned back by armed sentries stationed along the perimeter.",
+    "words": 21
+   },
+   {
+    "id": "4.08#5",
+    "text": "As hundreds endured their final moments, Jim Jones remained at the rostrum, urging the crowd to maintain order and dignity.",
+    "words": 20
+   },
+   {
+    "id": "4.08#6",
+    "text": "Every heartbreaking sound was recorded onto the magnetic tape as an indelible indictment for all time.",
+    "words": 16
+   }
+  ]
+ },
+ {
+  "id": "4.09",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "recalling miraculous survival stories",
+  "text": "While the catastrophe consumed the pavilion, a small number of members survived through extraordinary presence of mind and courage. Most notable was the group led by Leslie Wagner-Wilson, who gathered her three-year-old son and relatives to slip away from the perimeter at dawn on November 18. They trekked over thirty arduous miles through dense mud and tangled rainforest to reach assistance in a neighboring township. A few elderly residents in Jonestown hid beneath wooden floorboards or feigned sleep until the guards departed. In the aftermath, surviving members struggled with severe shock and profound psychological disorientation. Their miraculous survival yielded crucial firsthand testimony that enabled international investigators to reconstruct the full truth behind Peoples Temple.",
+  "sentences": [
+   {
+    "id": "4.09#1",
+    "text": "While the catastrophe consumed the pavilion, a small number of members survived through extraordinary presence of mind and courage.",
+    "words": 19
+   },
+   {
+    "id": "4.09#2",
+    "text": "Most notable was the group led by Leslie Wagner-Wilson, who gathered her three-year-old son and relatives to slip away from the perimeter at dawn on November 18.",
+    "words": 27
+   },
+   {
+    "id": "4.09#3",
+    "text": "They trekked over thirty arduous miles through dense mud and tangled rainforest to reach assistance in a neighboring township.",
+    "words": 19
+   },
+   {
+    "id": "4.09#4",
+    "text": "A few elderly residents in Jonestown hid beneath wooden floorboards or feigned sleep until the guards departed.",
+    "words": 17
+   },
+   {
+    "id": "4.09#5",
+    "text": "In the aftermath, surviving members struggled with severe shock and profound psychological disorientation.",
+    "words": 13
+   },
+   {
+    "id": "4.09#6",
+    "text": "Their miraculous survival yielded crucial firsthand testimony that enabled international investigators to reconstruct the full truth behind Peoples Temple.",
+    "words": 19
+   }
+  ]
+ },
+ {
+  "id": "4.10",
+  "act": 4,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "N2: Diplomatic Attache / Field Investigator, trembling male voice overcome with sorrow",
+  "text": "We arrived over Jonestown by helicopter two days later, once reports of the airstrip gunfire were officially verified. Looking down from above, an incomprehensible sight met our eyes that no investigative training could ever prepare someone to witness. Hundreds of people dressed in vibrant tropical clothing lay motionless side by side around the central pavilion in the clearing. An oppressive equatorial heat and an uncanny stillness blanketed the entire deserted compound. When we set foot on the ground and saw children's dolls scattered beside empty plastic cups, my heart tightened with unspeakable sorrow. There were no signs of large-scale physical struggle, only the silent aftermath of desperate resignation and quiet surrender. It was a human catastrophe that exceeded the absolute threshold of human emotional endurance, a memory that will remain forever etched in my mind.",
+  "sentences": [
+   {
+    "id": "4.10#1",
+    "text": "We arrived over Jonestown by helicopter two days later, once reports of the airstrip gunfire were officially verified.",
+    "words": 18
+   },
+   {
+    "id": "4.10#2",
+    "text": "Looking down from above, an incomprehensible sight met our eyes that no investigative training could ever prepare someone to witness.",
+    "words": 20
+   },
+   {
+    "id": "4.10#3",
+    "text": "Hundreds of people dressed in vibrant tropical clothing lay motionless side by side around the central pavilion in the clearing.",
+    "words": 20
+   },
+   {
+    "id": "4.10#4",
+    "text": "An oppressive equatorial heat and an uncanny stillness blanketed the entire deserted compound.",
+    "words": 13
+   },
+   {
+    "id": "4.10#5",
+    "text": "When we set foot on the ground and saw children's dolls scattered beside empty plastic cups, my heart tightened with unspeakable sorrow.",
+    "words": 22
+   },
+   {
+    "id": "4.10#6",
+    "text": "There were no signs of large-scale physical struggle, only the silent aftermath of desperate resignation and quiet surrender.",
+    "words": 18
+   },
+   {
+    "id": "4.10#7",
+    "text": "It was a human catastrophe that exceeded the absolute threshold of human emotional endurance, a memory that will remain forever etched in my mind.",
+    "words": 24
+   }
+  ]
+ },
+ {
+  "id": "4.11",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "closing Act 4",
+  "text": "Among the nine hundred and nine bodies recovered from the clearing at Jonestown, one individual died not from the toxic concoction, but from a gunshot wound to the head. That individual was James Warren Jones, the self-proclaimed shepherd of thousands. This final detail strips away the last pretense of his benevolent facade, laying bare his consummate cowardice. He compelled hundreds of infants and trusting followers to endure agonizing deaths, while reserving for himself an instantaneous end. The man who constantly preached collective self-sacrifice cared only for his personal comfort, terrified of enduring the very pain he inflicted. The jungle curtain fell, leaving behind profound global shock and enduring questions for civilized humanity.",
+  "sentences": [
+   {
+    "id": "4.11#1",
+    "text": "Among the nine hundred and nine bodies recovered from the clearing at Jonestown, one individual died not from the toxic concoction, but from a gunshot wound to the head.",
+    "words": 29
+   },
+   {
+    "id": "4.11#2",
+    "text": "That individual was James Warren Jones, the self-proclaimed shepherd of thousands.",
+    "words": 11
+   },
+   {
+    "id": "4.11#3",
+    "text": "This final detail strips away the last pretense of his benevolent facade, laying bare his consummate cowardice.",
+    "words": 17
+   },
+   {
+    "id": "4.11#4",
+    "text": "He compelled hundreds of infants and trusting followers to endure agonizing deaths, while reserving for himself an instantaneous end.",
+    "words": 19
+   },
+   {
+    "id": "4.11#5",
+    "text": "The man who constantly preached collective self-sacrifice cared only for his personal comfort, terrified of enduring the very pain he inflicted.",
+    "words": 21
+   },
+   {
+    "id": "4.11#6",
+    "text": "The jungle curtain fell, leaving behind profound global shock and enduring questions for civilized humanity.",
+    "words": 15
+   }
+  ]
+ },
+ {
+  "id": "4.12",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "A poignant violin chord sustains solemnly before fading into quiet."
+ },
+ {
+  "id": "5.01",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "A warm, dignified piano melody emerges slowly, carrying an air of remembrance, grief, and reflection."
+ },
+ {
+  "id": "5.02",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "measured, resonant delivery reflecting upon history",
+  "text": "The Jonestown tragedy of November 18, 1978 claimed the lives of nine hundred and eighteen innocent human beings. More than three hundred children were denied the opportunity to grow, learn, and experience adulthood. This sorrowful milestone left an enduring scar upon the conscience of the United States and the international community. It fundamentally transformed how behavioral scientists understand the latent dangers of high-control coercive groups. The cultural idiom “Drinking the Kool-Aid” entered the Western lexicon as an unyielding warning against blind obedience and tribal compliance. Their loss stands as an agonizing reminder of the catastrophic price paid when societies fail to heed early warning signs of extreme manipulation.",
+  "sentences": [
+   {
+    "id": "5.02#1",
+    "text": "The Jonestown tragedy of November 18, 1978 claimed the lives of nine hundred and eighteen innocent human beings.",
+    "words": 18
+   },
+   {
+    "id": "5.02#2",
+    "text": "More than three hundred children were denied the opportunity to grow, learn, and experience adulthood.",
+    "words": 15
+   },
+   {
+    "id": "5.02#3",
+    "text": "This sorrowful milestone left an enduring scar upon the conscience of the United States and the international community.",
+    "words": 18
+   },
+   {
+    "id": "5.02#4",
+    "text": "It fundamentally transformed how behavioral scientists understand the latent dangers of high-control coercive groups.",
+    "words": 14
+   },
+   {
+    "id": "5.02#5",
+    "text": "The cultural idiom “Drinking the Kool-Aid” entered the Western lexicon as an unyielding warning against blind obedience and tribal compliance.",
+    "words": 20
+   },
+   {
+    "id": "5.02#6",
+    "text": "Their loss stands as an agonizing reminder of the catastrophic price paid when societies fail to heed early warning signs of extreme manipulation.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "5.03",
+  "act": 5,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "firm, summarizing institutional and legal reforms",
+  "text": "In the wake of Jonestown, the United States Congress held extensive public hearings to scrutinize institutional delays in addressing early appeals for help. The Department of State overhauled its overseas citizen protection protocols, upgrading crisis-response capabilities worldwide. International law enforcement agencies developed standardized criteria to recognize warning signs in closed organizations stockpiling arms and practicing psychological coercion. Legal frameworks across numerous democracies introduced stiffer statutory penalties for psychological entrapment and the unlawful confinement of citizens. The hard lessons of the Jonestown dossier helped establish stronger institutional safeguards to protect society against emerging forms of coercive control.",
+  "sentences": [
+   {
+    "id": "5.03#1",
+    "text": "In the wake of Jonestown, the United States Congress held extensive public hearings to scrutinize institutional delays in addressing early appeals for help.",
+    "words": 23
+   },
+   {
+    "id": "5.03#2",
+    "text": "The Department of State overhauled its overseas citizen protection protocols, upgrading crisis-response capabilities worldwide.",
+    "words": 14
+   },
+   {
+    "id": "5.03#3",
+    "text": "International law enforcement agencies developed standardized criteria to recognize warning signs in closed organizations stockpiling arms and practicing psychological coercion.",
+    "words": 20
+   },
+   {
+    "id": "5.03#4",
+    "text": "Legal frameworks across numerous democracies introduced stiffer statutory penalties for psychological entrapment and the unlawful confinement of citizens.",
+    "words": 18
+   },
+   {
+    "id": "5.03#5",
+    "text": "The hard lessons of the Jonestown dossier helped establish stronger institutional safeguards to protect society against emerging forms of coercive control.",
+    "words": 21
+   }
+  ]
+ },
+ {
+  "id": "5.04",
+  "act": 5,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "humanistic perspective, synthesizing psychological takeaways",
+  "text": "The deepest lesson that Jonestown imparts to our world is an empathetic awareness of human vulnerability in modern society. The members of Peoples Temple were not fundamentally foolish, deranged, or villainous individuals. The vast majority were earnest, compassionate people of diverse backgrounds who yearned for racial equality, social justice, and a caring community. They invested their sincere faith into a noble ideal, only to have their trust exploited by a malignant narcissistic predator. We must honor the immense bravery of individuals like Christine Miller and Leslie Wagner-Wilson, who listened to internal conscience and defended life. Following the tragedy, survivors bore the crushing psychological burden of Survivor's Guilt, forever asking why they lived when their families perished. This tragedy demonstrates that the boundary between a healthy social movement and a toxic coercive trap can be deceptively fragile. The atrocities of extremist groups do not commence with violence, but with the moment we surrender our independent moral reasoning to an external authority. Compassion divorced from vigilant critical discernment can easily be manipulated into serving devastating cruelty.",
+  "sentences": [
+   {
+    "id": "5.04#1",
+    "text": "The deepest lesson that Jonestown imparts to our world is an empathetic awareness of human vulnerability in modern society.",
+    "words": 19
+   },
+   {
+    "id": "5.04#2",
+    "text": "The members of Peoples Temple were not fundamentally foolish, deranged, or villainous individuals.",
+    "words": 13
+   },
+   {
+    "id": "5.04#3",
+    "text": "The vast majority were earnest, compassionate people of diverse backgrounds who yearned for racial equality, social justice, and a caring community.",
+    "words": 21
+   },
+   {
+    "id": "5.04#4",
+    "text": "They invested their sincere faith into a noble ideal, only to have their trust exploited by a malignant narcissistic predator.",
+    "words": 20
+   },
+   {
+    "id": "5.04#5",
+    "text": "We must honor the immense bravery of individuals like Christine Miller and Leslie Wagner-Wilson, who listened to internal conscience and defended life.",
+    "words": 22
+   },
+   {
+    "id": "5.04#6",
+    "text": "Following the tragedy, survivors bore the crushing psychological burden of Survivor's Guilt, forever asking why they lived when their families perished.",
+    "words": 21
+   },
+   {
+    "id": "5.04#7",
+    "text": "This tragedy demonstrates that the boundary between a healthy social movement and a toxic coercive trap can be deceptively fragile.",
+    "words": 20
+   },
+   {
+    "id": "5.04#8",
+    "text": "The atrocities of extremist groups do not commence with violence, but with the moment we surrender our independent moral reasoning to an external authority.",
+    "words": 24
+   },
+   {
+    "id": "5.04#9",
+    "text": "Compassion divorced from vigilant critical discernment can easily be manipulated into serving devastating cruelty.",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "5.05",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "warm, authoritative, sharing four survival red flags and farewell",
+  "text": "To empower you and your loved ones to identify and avoid dangerous coercive traps in contemporary life, Amber eyes synthesizes four survival red flags derived from the Jonestown dossier. Red Flag Number One: Demands for total isolation from your established social support network. Any organization, movement, or relationship that requires you to sever communication with parents, relatives, or lifelong friends represents an immediate hazard. They deliberately detach you from objective reality to establish their authority as the sole arbiter of your worldview. Red Flag Number Two: Financial usurpation and the confiscation of personal autonomy assets. Exercise extreme vigilance whenever a group urges you to sign over life savings, liquidate property, or surrender identification documents such as passports and birth certificates. When you lose financial independence and mobility, you surrender the practical capacity to escape when anomalies surface. Red Flag Number Three: Engineered physical depletion designed to dismantle critical thinking. Manipulators frequently impose grueling work schedules, chronic sleep deprivation, and restricted nutrition to undermine neurological equilibrium. When the human body is pushed to exhaustion, the brain's natural skepticism and resistance reflexes become severely degraded. Red Flag Number Four: The deification of a leader and the active punishment of doubt. In a healthy environment, transparency, open debate, and constructive skepticism are embraced and protected. Conversely, when an organization treats its leadership as infallible and views respectful questioning as a moral betrayal, you are standing inside an authoritarian trap. They construct a siege mentality, convincing you that the entire outside world is conspiring against you so that you cling ever tighter to their control. Always remember Gavin de Becker's insight from The Gift of Fear: “Intuition is the most precious survival gift of human consciousness. When deep within you an internal sense of unease or doubt stirs regarding a promise that appears too pristine to be real, honor that instinct and pause. No genuine humanitarian ideal will ever demand that you forfeit your dignity, your freedom, or your life. The most sacred freedom possessed by any human being is the capacity for independent thought and the courage to defend personal boundaries. The dossier on Episode 12 regarding the Jonestown tragedy concludes here, offered with profound remembrance for the nine hundred and eighteen victims. Thank you for joining Amber eyes on this deeply reflective journey through forensic criminal psychology. If you found this analysis valuable, please like this video, subscribe to the channel, and share your perspectives in the comments section below. May you remain vigilant, discerning, and peaceful in your life. Farewell, and we look forward to welcoming you to our upcoming criminal psychology dossiers on Amber eyes.",
+  "sentences": [
+   {
+    "id": "5.05#1",
+    "text": "To empower you and your loved ones to identify and avoid dangerous coercive traps in contemporary life, Amber eyes synthesizes four survival red flags derived from the Jonestown dossier.",
+    "words": 29
+   },
+   {
+    "id": "5.05#2",
+    "text": "Red Flag Number One: Demands for total isolation from your established social support network.",
+    "words": 14
+   },
+   {
+    "id": "5.05#3",
+    "text": "Any organization, movement, or relationship that requires you to sever communication with parents, relatives, or lifelong friends represents an immediate hazard.",
+    "words": 21
+   },
+   {
+    "id": "5.05#4",
+    "text": "They deliberately detach you from objective reality to establish their authority as the sole arbiter of your worldview.",
+    "words": 18
+   },
+   {
+    "id": "5.05#5",
+    "text": "Red Flag Number Two: Financial usurpation and the confiscation of personal autonomy assets.",
+    "words": 13
+   },
+   {
+    "id": "5.05#6",
+    "text": "Exercise extreme vigilance whenever a group urges you to sign over life savings, liquidate property, or surrender identification documents such as passports and birth certificates.",
+    "words": 25
+   },
+   {
+    "id": "5.05#7",
+    "text": "When you lose financial independence and mobility, you surrender the practical capacity to escape when anomalies surface.",
+    "words": 17
+   },
+   {
+    "id": "5.05#8",
+    "text": "Red Flag Number Three: Engineered physical depletion designed to dismantle critical thinking.",
+    "words": 12
+   },
+   {
+    "id": "5.05#9",
+    "text": "Manipulators frequently impose grueling work schedules, chronic sleep deprivation, and restricted nutrition to undermine neurological equilibrium.",
+    "words": 16
+   },
+   {
+    "id": "5.05#10",
+    "text": "When the human body is pushed to exhaustion, the brain's natural skepticism and resistance reflexes become severely degraded.",
+    "words": 18
+   },
+   {
+    "id": "5.05#11",
+    "text": "Red Flag Number Four: The deification of a leader and the active punishment of doubt.",
+    "words": 15
+   },
+   {
+    "id": "5.05#12",
+    "text": "In a healthy environment, transparency, open debate, and constructive skepticism are embraced and protected.",
+    "words": 14
+   },
+   {
+    "id": "5.05#13",
+    "text": "Conversely, when an organization treats its leadership as infallible and views respectful questioning as a moral betrayal, you are standing inside an authoritarian trap.",
+    "words": 24
+   },
+   {
+    "id": "5.05#14",
+    "text": "They construct a siege mentality, convincing you that the entire outside world is conspiring against you so that you cling ever tighter to their control.",
+    "words": 25
+   },
+   {
+    "id": "5.05#15",
+    "text": "Always remember Gavin de Becker's insight from The Gift of Fear: “Intuition is the most precious survival gift of human consciousness.",
+    "words": 21
+   },
+   {
+    "id": "5.05#16",
+    "text": "When deep within you an internal sense of unease or doubt stirs regarding a promise that appears too pristine to be real, honor that instinct and pause.",
+    "words": 27
+   },
+   {
+    "id": "5.05#17",
+    "text": "No genuine humanitarian ideal will ever demand that you forfeit your dignity, your freedom, or your life.",
+    "words": 17
+   },
+   {
+    "id": "5.05#18",
+    "text": "The most sacred freedom possessed by any human being is the capacity for independent thought and the courage to defend personal boundaries.",
+    "words": 22
+   },
+   {
+    "id": "5.05#19",
+    "text": "The dossier on Episode 12 regarding the Jonestown tragedy concludes here, offered with profound remembrance for the nine hundred and eighteen victims.",
+    "words": 22
+   },
+   {
+    "id": "5.05#20",
+    "text": "Thank you for joining Amber eyes on this deeply reflective journey through forensic criminal psychology.",
+    "words": 15
+   },
+   {
+    "id": "5.05#21",
+    "text": "If you found this analysis valuable, please like this video, subscribe to the channel, and share your perspectives in the comments section below.",
+    "words": 23
+   },
+   {
+    "id": "5.05#22",
+    "text": "May you remain vigilant, discerning, and peaceful in your life.",
+    "words": 10
+   },
+   {
+    "id": "5.05#23",
+    "text": "Farewell, and we look forward to welcoming you to our upcoming criminal psychology dossiers on Amber eyes.",
+    "words": 17
+   }
+  ]
+ },
+ {
+  "id": "5.06",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "Warm, solemn piano chords resonate gently before slowly fading to complete silence."
+ }
 ]

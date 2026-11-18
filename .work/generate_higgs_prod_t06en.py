@@ -209,7 +209,8 @@ def main():
         man_path.write_text(json.dumps(man, ensure_ascii=False, indent=1), encoding="utf-8")
 
     print("\n[Step 4/7] Transcribing with Whisper Base & Measuring CER...", flush=True)
-    asr_pipe = pipeline("automatic-speech-recognition", model="openai/whisper-base")
+    import whisper_fast as whisper
+    asr_model = whisper.load_model("base", device="cpu")
     high_cer = []
     cer_rows = []
 
@@ -218,7 +219,7 @@ def main():
         role = it["role"]
         orig_text = it["text"]
         wav_path = AUDIO_OUT / fname(sid)
-        asr_res = asr_pipe(str(wav_path), return_timestamps=True)["text"].strip()
+        asr_res = asr_model.transcribe(str(wav_path), language="en")["text"].strip()
         c = en_cer.cer_pair(orig_text, asr_res)
         f0 = man.get(sid, {}).get("f0", 0.0)
 

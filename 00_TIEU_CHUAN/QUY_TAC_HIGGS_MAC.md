@@ -148,7 +148,7 @@ Higgs Audio v3 sinh âm thanh thường để lại khoảng lặng kéo dài sa
   - Khách mời (N2 · Mèo): $220–240\text{ Hz}$
 
 ### 6.2 Đo Tỉ lệ Lỗi Ký tự (Whisper CER)
-- Sử dụng mô hình `openai-whisper` (`base` model, chạy CPU).
+- Sử dụng mô hình `faster-whisper` (`base` model, CTranslate2 đa luồng chạy CPU qua adapter `whisper_fast`).
 - Chuẩn hóa văn bản trước khi so sánh qua thư viện `en_cer` (bỏ dấu câu, chuyển chữ hoa/thường).
 - **Tiêu chuẩn ĐẠT:**
   - CER trung vị toàn tập: **$0.00\%$**.

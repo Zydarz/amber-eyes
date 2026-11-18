@@ -504,8 +504,7 @@ def main():
     print("\n[Final Measurements] Master Audio:", flush=True)
     if master_mp3.exists():
         parent_mp3 = ROOT / "02_SAN_XUAT" / "Tap12_EN" / "Tap12_EN_master.mp3"
-        if not parent_mp3.exists() and not parent_mp3.is_symlink():
-            shutil.copy2(master_mp3, parent_mp3)
+        shutil.copy2(master_mp3, parent_mp3)
         size_mb = master_mp3.stat().st_size / (1024 * 1024)
         print(f"  Master MP3: {master_mp3} ({size_mb:.2f} MB)")
     if master_wav.exists():

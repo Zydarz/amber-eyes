@@ -107,11 +107,12 @@ def main():
         print(f"    -> Saved {out_wav.name} (dur: {gen_results[role]['duration']}, F0: {f0:.1f}Hz, time: {gen_time:.1f}s)", flush=True)
 
     print("\n=== [4/4] Transcribing with Whisper & Measuring CER ===", flush=True)
-    asr_pipe = pipeline("automatic-speech-recognition", model="openai/whisper-base")
+    import whisper_fast as whisper
+    asr_model = whisper.load_model("base", device="cpu")
     report_rows = []
     for role in ["H", "D", "C", "N1", "N2"]:
         info = gen_results[role]
-        trans = asr_pipe(info["wav"])["text"].strip()
+        trans = asr_model.transcribe(str(info["wav"]), language="en")["text"].strip()
         c = en_cer.cer_pair(info["text"], trans)
         info["transcription"] = trans
         info["cer"] = c
