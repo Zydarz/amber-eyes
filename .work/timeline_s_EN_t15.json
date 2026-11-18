@@ -2011,38 +2011,38 @@
   {
    "type": "SFX",
    "id": "1.06",
-   "at": 90.13,
+   "at": 90.83,
    "desc": "A cassette recorder clicks on softly \"Click\"."
   },
   {
    "type": "NGHI",
    "id": "1.09",
-   "start": 204.32,
+   "start": 204.82,
    "end": 206.32,
    "desc": "Background music cuts abruptly"
   },
   {
    "type": "SFX",
    "id": "1.11",
-   "at": 227.25,
+   "at": 227.6,
    "desc": "Distant police sirens wail, Mesa Police Department radio chatter crackles with tactical codes."
   },
   {
    "type": "SFX",
    "id": "1.13",
-   "at": 248.93,
+   "at": 249.28,
    "desc": "The washing machine lid opens with a metallic screech, sloshing residual water in the drum."
   },
   {
    "type": "SFX",
    "id": "1.15",
-   "at": 292.93,
+   "at": 293.63,
    "desc": "Crime scene tape stretches taut with a rustle, specialized shoe covers crunch across tiled flooring."
   },
   {
    "type": "BGM",
    "id": "1.16",
-   "at": 292.93,
+   "at": 293.63,
    "desc": "Somber Cello notes swell up, entwined with suffocating sub-bass pulses."
   },
   {
@@ -2060,7 +2060,7 @@
   {
    "type": "SFX",
    "id": "2.03",
-   "at": 373.97,
+   "at": 374.32,
    "desc": "Rapid mechanical keyboard typing clatters, electronic beeps signal successful file recovery."
   },
   {
@@ -2085,7 +2085,7 @@
   {
    "type": "NGHI",
    "id": "3.03",
-   "start": 719.26,
+   "start": 719.76,
    "end": 721.26,
    "desc": ""
   },
@@ -2099,7 +2099,7 @@
   {
    "type": "NGHI",
    "id": "3.09",
-   "start": 981.11,
+   "start": 981.61,
    "end": 983.11,
    "desc": ""
   },
@@ -2124,14 +2124,14 @@
   {
    "type": "NGHI",
    "id": "4.04",
-   "start": 1091.68,
+   "start": 1092.18,
    "end": 1093.68,
    "desc": ""
   },
   {
    "type": "SFX",
    "id": "4.09",
-   "at": 1228.39,
+   "at": 1228.74,
    "desc": "The judge’s wooden gavel strikes three times with authoritative finality, murmurs ripple through the gallery."
   },
   {
@@ -2149,21 +2149,21 @@
   {
    "type": "NGHI",
    "id": "5.03",
-   "start": 1503.89,
+   "start": 1504.39,
    "end": 1505.89,
    "desc": ""
   },
   {
    "type": "NGHI",
    "id": "5.05",
-   "start": 1591.47,
+   "start": 1591.97,
    "end": 1593.47,
    "desc": ""
   },
   {
    "type": "NGHI",
    "id": "5.09",
-   "start": 1724.14,
+   "start": 1724.64,
    "end": 1726.14,
    "desc": "Piano music swells softly and warmly"
   },
@@ -2177,36 +2177,37 @@
   {
    "type": "SFX",
    "id": "5.13",
-   "at": 1806.89,
+   "at": 1806.59,
    "desc": "The heavy case file folder closes with a resonant thud, followed by the decisive impact of an official ink stamp."
   },
   {
    "type": "BGM",
    "id": "5.14",
-   "at": 1806.89,
+   "at": 1806.59,
    "desc": "Warm Piano chords resonate gently with a final harmonic cadence, fading out completely by the fifth second."
   }
  ],
  "acts": {
   "1": [
    23.0,
-   357.43
+   356.43
   ],
   "2": [
    359.43,
-   700.67
+   699.67
   ],
   "3": [
    702.67,
-   1042.9
+   1041.9
   ],
   "4": [
    1044.9,
-   1458.13
+   1457.13
   ],
   "5": [
    1460.13,
-   1806.89
+   1805.89
   ]
- }
+ },
+ "_master": "srt_measured_t15_20261118"
 }

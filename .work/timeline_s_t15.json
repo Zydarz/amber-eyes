@@ -2011,38 +2011,38 @@
   {
    "type": "SFX",
    "id": "1.06",
-   "at": 109.25,
+   "at": 109.95,
    "desc": "Tiếng băng cassette bật nhẹ \"Tách\"."
   },
   {
    "type": "NGHI",
    "id": "1.09",
-   "start": 231.72,
+   "start": 232.22,
    "end": 233.72,
    "desc": "Nhạc nền dừng đột ngột"
   },
   {
    "type": "SFX",
    "id": "1.11",
-   "at": 258.97,
+   "at": 259.32,
    "desc": "Tiếng còi xe cảnh sát từ xa, tiếng bộ đàm của Sở Cảnh sát Mesa xì xèo trao đổi mã nghiệp vụ."
   },
   {
    "type": "SFX",
    "id": "1.13",
-   "at": 283.49,
+   "at": 283.84,
    "desc": "Tiếng mở nắp máy giặt kêu \"Két\", tiếng nước đọng róc rách trong lồng giặt."
   },
   {
    "type": "SFX",
    "id": "1.15",
-   "at": 329.17,
+   "at": 329.87,
    "desc": "Tiếng kéo dải băng niêm phong hiện trường ro ro, tiếng bước chân mang bọc giày chuyên dụng lạo xạo trên sàn gạch."
   },
   {
    "type": "BGM",
    "id": "1.16",
-   "at": 329.17,
+   "at": 329.87,
    "desc": "Đoạn Cello u uất dâng lên, kết hợp nhịp Sub-bass dồn dập, nghẹt thở."
   },
   {
@@ -2060,7 +2060,7 @@
   {
    "type": "SFX",
    "id": "2.03",
-   "at": 406.77,
+   "at": 407.12,
    "desc": "Tiếng gõ phím cơ liên thanh, tiếng bíp bíp khôi phục tập tin hình ảnh."
   },
   {
@@ -2085,7 +2085,7 @@
   {
    "type": "NGHI",
    "id": "3.03",
-   "start": 743.1,
+   "start": 743.6,
    "end": 745.1,
    "desc": ""
   },
@@ -2099,7 +2099,7 @@
   {
    "type": "NGHI",
    "id": "3.09",
-   "start": 989.79,
+   "start": 990.29,
    "end": 991.79,
    "desc": ""
   },
@@ -2124,14 +2124,14 @@
   {
    "type": "NGHI",
    "id": "4.04",
-   "start": 1100.24,
+   "start": 1100.74,
    "end": 1102.24,
    "desc": ""
   },
   {
    "type": "SFX",
    "id": "4.09",
-   "at": 1237.43,
+   "at": 1237.78,
    "desc": "Tiếng búa gỗ của thẩm phán gõ ba tiếng đanh thép dứt khoát, tiếng xì xào của phòng xử án."
   },
   {
@@ -2149,21 +2149,21 @@
   {
    "type": "NGHI",
    "id": "5.03",
-   "start": 1519.61,
+   "start": 1520.11,
    "end": 1521.61,
    "desc": ""
   },
   {
    "type": "NGHI",
    "id": "5.05",
-   "start": 1619.55,
+   "start": 1620.05,
    "end": 1621.55,
    "desc": ""
   },
   {
    "type": "NGHI",
    "id": "5.09",
-   "start": 1750.3,
+   "start": 1750.8,
    "end": 1752.3,
    "desc": "Nhạc nền Piano dâng lên nhẹ nhàng, ấm áp"
   },
@@ -2177,36 +2177,37 @@
   {
    "type": "SFX",
    "id": "5.13",
-   "at": 1842.37,
+   "at": 1842.07,
    "desc": "Tiếng đóng bìa hồ sơ dày cộp \"Bộp\", tiếng đóng dấu mộc \"Cộp\" vang lên dứt khoát."
   },
   {
    "type": "BGM",
    "id": "5.14",
-   "at": 1842.37,
+   "at": 1842.07,
    "desc": "Nhạc Piano ấm áp ngân vang nốt cuối cùng rồi mờ dần (Fade out hoàn toàn ở giây thứ 5)."
   }
  ],
  "acts": {
   "1": [
    23.0,
-   389.03
+   388.03
   ],
   "2": [
    391.03,
-   722.95
+   721.95
   ],
   "3": [
    724.95,
-   1046.78
+   1045.78
   ],
   "4": [
    1048.78,
-   1466.73
+   1465.73
   ],
   "5": [
    1468.73,
-   1842.37
+   1841.37
   ]
- }
+ },
+ "_master": "srt_measured_t15_20261118"
 }

@@ -1,0 +1,227 @@
+{
+  "_readme": "SPEC_AUDIO_CLIP_TAP01.json — Đặc tả âm thanh cho 4 clip TikTok của Tập 01 (18/11/2026). Dùng để SINH WAV. Chưa có file âm thanh nào được tạo. Bản gốc: 02_SAN_XUAT/TIKTOK/Tap01/KE_HOACH_CLIP_TAP01.md",
+  "_tap": "01",
+  "_ngon_ngu": "vi",
+  "_so_cau": 40,
+  "_so_cau_kem_clip_du_phong": 43,
+  "_uoc_luong_thoi_luong": "Tính theo nhịp đọc của tập (3,24 từ/giây) + tổng pause_after. Số đo thật sẽ lấy từ file WAV; nếu clip vượt 95 s thì rút bớt câu (cổng QC #4 giới hạn 45-95 s).",
+
+  "engine": {
+    "mo_hinh": "bosonai/higgs-tts-3-4b",
+    "dataset_kaggle": "chiduong2026/amber-eyes-voice-ref-voxcpm2",
+    "vai_voi_clip_tham_chieu": {
+      "H": "H.wav",
+      "D": "D3_SH.wav",
+      "C": "C2_AB03.wav",
+      "N1": "W6_LOW.wav",
+      "N2": "W5_HIGH.wav"
+    },
+    "gen_params": {
+      "temperature": 0.8,
+      "top_p": 0.95,
+      "top_k": 50,
+      "max_new_tokens": 1196,
+      "sample_rate": 24000,
+      "fade_in_ms": 30,
+      "fade_out_ms": 15,
+      "seed_scheme": "sha256(id|role|ref|temp|vN) -> int(hex[:8],16)",
+      "variants_per_line": 2
+    },
+    "cam": "KHONG dung the <|emotion:...|>. Chi dung <|prosody:pause|> sau dau ':' truoc cau trich.",
+    "ghi_chu_cher": "Giong nay la giong cua chinh Tap 01 (VoxCPM2 refs) — KHONG dung bo A MiniMax de giong clip lech tap."
+  },
+
+  "quy_uoc_dat_ten": {
+    "thu_muc_dich": ".work/audio_s_tk_t01/",
+    "ten_file": "<ma_cau>.wav voi '#' thay bang '_' — TK1.01#1 -> TK1.01_01.wav",
+    "manifest": ".work/audio_s_tk_t01/manifest_tk_t01.json",
+    "manifest_dong_mau": {
+      "id": "TK1.01#1",
+      "vai": "H",
+      "file": "TK1.01_01.wav",
+      "dur": 6.42,
+      "emotion": "neutral",
+      "speed": -0.02,
+      "pause_after": 0.5,
+      "variant": 0
+    }
+  },
+
+  "cang_qua_audio": {
+    "A1_V4": "0 khoang cam tuyet doi > 0.3 s — luon co lop nen moi truong ben duoi",
+    "A7": "-16 +/- 1 LUFS · true peak <= -1.5 dBFS · do tren mp4 cuoi",
+    "G6": "loi doc khong duoc doi chu — phu de va theo hinh lay nguyen van cau trong spec nay",
+    "G12": "CER < 2 % cho MOI cau (do bang Whisper / measure_cer_prod.py)",
+    "G9": "H-D >= 4 nc · C-H >= 4 nc · C-D >= 4 nc (do tren ban doc)",
+    "G10": "nghe lien theo vai: moi vai ra 1 nguoi, 3 vai tach bach"
+  },
+
+  "am_thanh_nen": {
+    "_quy_tac": "CHI dung nguon duoi day. Tuyet doi KHONG dung 2 file YouTube Audio Library (bgm_guitar_acoustic_60s.mp3, bgm_church_organ.mp3) va 211 file SFX trong assets/sfx/t2, assets/sfx/t3 — giay phep cua YouTube Audio Library khong phu TikTok.",
+    "bgm_minimax_duoc_phep": [
+      "bgm_sub_drone.mp3",
+      "bgm_ambient_deep.mp3",
+      "bgm_cello_sad.mp3",
+      "bgm_piano_minimal.mp3"
+    ],
+    "sfx_duoc_phep": [
+      "SFX tu tong hop bang .work/make_sfx.py",
+      "Freesound CC0"
+    ],
+    "muc_am_thanh": "giong -16 LUFS · BGM -26 dB khi co loi, nang -14 dB o nghi 0.8-1.2 s truoc cau chot"
+  },
+
+  "clips": [
+    {
+      "id": "TK1",
+      "ten": "Co ay buoc vao phong tham van bang doi chan cua chinh minh",
+      "chi_dau": [2],
+      "chude": "Thu doan vs Chu ky tam ly (MO vs Signature)",
+      "hook_text": "Cô ấy không ngồi trên xe lăn. Cô ấy bước đi.",
+      "hook_seconds": 3,
+      "target_len_s": [65, 85],
+      "bgm": "bgm_sub_drone.mp3",
+      "sfx": ["may ghi am 'Tach'", "nen phong kin"],
+      "overlay_cards": [
+        {"sau_cau": "TK1.01#6", "text": "THỦ ĐOẠN (MODUS OPERANDI) ≠ CHỮ KÝ TÂM LÝ (SIGNATURE)", "dur_s": 2.5}
+      ],
+      "nguon_du_lieu": ["1.08#9", "1.11#1-#6", "2.07#1-#3", "2.07#7-#9", "2.07#11", "nguon_tham_khao.md (Flasterstein 2007)"],
+      "lines": [
+        {"id": "TK1.01#1", "vai": "H", "emotion": "neutral", "speed": -0.02, "pause_after": 0.5, "nen": "interrogation_gypsy", "chuyen_dong": "still", "text": "Sau bốn mươi tám giờ truy tìm, cô ấy bước vào phòng thẩm vấn bằng đôi chân của chính mình."},
+        {"id": "TK1.01#2", "vai": "H", "emotion": "neutral", "speed": -0.02, "pause_after": 0.6, "nen": "crowd_house", "chuyen_dong": "pull", "text": "Người dân Mỹ lo rằng một kẻ sát nhân đã bắt cóc một thiếu nữ không thể tự bước đi."},
+        {"id": "TK1.01#3", "vai": "D", "emotion": "neutral", "speed": -0.03, "pause_after": 0.7, "nen": "interrogation_gypsy", "chuyen_dong": "push", "text": "Nhưng khoảnh khắc cánh cửa phòng thẩm vấn mở ra, toàn bộ nhận thức của chúng tôi sập đổ."},
+        {"id": "TK1.01#4", "vai": "D", "emotion": "neutral", "speed": -0.03, "pause_after": 0.5, "nen": "interrogation_gypsy", "chuyen_dong": "still", "text": "Gypsy Rose Blanchard không hề ngồi trên xe lăn."},
+        {"id": "TK1.01#5", "vai": "D", "emotion": "neutral", "speed": -0.03, "pause_after": 0.6, "nen": "interrogation_gypsy", "chuyen_dong": "pan", "text": "Cô ta tự bước đi vững chãi bằng chính đôi chân của mình, phong thái hoàn toàn bình thường."},
+        {"id": "TK1.01#6", "vai": "C", "emotion": "neutral", "speed": -0.02, "pause_after": 0.6, "nen": "brain_desk", "chuyen_dong": "pull", "text": "Từ đây, tâm lý học tội phạm tách làm hai khái niệm: thủ đoạn và chữ ký tâm lý."},
+        {"id": "TK1.01#7", "vai": "C", "emotion": "neutral", "speed": -0.02, "pause_after": 0.5, "nen": "records", "chuyen_dong": "push", "text": "Thủ đoạn là những gì kẻ phạm tội làm để thực hiện hành vi và né tránh sự trừng phạt."},
+        {"id": "TK1.01#8", "vai": "C", "emotion": "neutral", "speed": -0.02, "pause_after": 0.5, "nen": "pinboard", "chuyen_dong": "pan", "text": "Ở đây, thủ đoạn liên tục biến đổi: đổi bệnh viện và chuyển chỗ ở ngay khi một bác sĩ bắt đầu nghi ngờ."},
+        {"id": "TK1.01#9", "vai": "C", "emotion": "neutral", "speed": -0.02, "pause_after": 0.5, "nen": "brain_desk", "chuyen_dong": "still", "text": "Chữ ký tâm lý thì bất biến, sinh ra để thỏa mãn nhu cầu cảm xúc bệnh lý cốt lõi."},
+        {"id": "TK1.01#10", "vai": "C", "emotion": "neutral", "speed": -0.02, "pause_after": 0.5, "nen": "doll", "chuyen_dong": "pull", "text": "Chữ ký của bà ta là tước đoạt tuổi trưởng thành: khai man ngày sinh, biến cô con gái hai mươi tuổi thành một đứa trẻ mười sáu tuổi trên giấy tờ."},
+        {"id": "TK1.01#11", "vai": "C", "emotion": "sad", "speed": -0.04, "pause_after": 0.7, "nen": "spotlight_deedee", "chuyen_dong": "push", "text": "Bà ta không chỉ muốn con mình bệnh tật. Bà ta muốn con mình không bao giờ lớn."},
+        {"id": "TK1.01#12", "vai": "H", "emotion": "neutral", "speed": -0.02, "pause_after": 0.0, "nen": "podcast_desk", "chuyen_dong": "still", "text": "Tập một của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio."}
+      ],
+      "caption": "Cô ấy không ngồi trên xe lăn. Cô ấy bước đi. 👁️\n\nTập 01 · Độc dược nhân danh tình mẹ — chỉ dấu #2: thủ đoạn và chữ ký tâm lý.\nHồ sơ có thật, dữ kiện có nguồn.\n\n📺 Xem tập đầy đủ ở link trong bio\n🔎 Chỉ dấu tâm lý · FDIA · hồ sơ có thật\n\n#AmberEyes #TamLyToiPham #HosoCoThat #PhanTichTamLy #TrueCrime #MoiTuanMotTap",
+      "hashtags": ["#AmberEyes", "#TamLyToiPham", "#HosoCoThat", "#PhanTichTamLy", "#TrueCrime", "#MoiTuanMotTap"]
+    },
+
+    {
+      "id": "TK2",
+      "ten": "Vi sao co ay khong bao gio chay tron",
+      "chi_dau": [6],
+      "chude": "Su bat luc tap nhiem (Learned Helplessness)",
+      "hook_text": "Vì sao cô ấy không bao giờ chạy trốn?",
+      "hook_seconds": 3,
+      "target_len_s": [65, 90],
+      "bgm": "bgm_ambient_deep.mp3",
+      "sfx": ["nen phong kin", "tieng kim loai va cham"],
+      "overlay_cards": [
+        {"sau_cau": "TK2.01#2", "text": "2 CƠ CHẾ GIAM HÃM NHẬN THỨC", "dur_s": 2.5},
+        {"sau_cau": "TK2.01#3", "text": "SỰ BẤT LỰC TẬP NHIỄM (LEARNED HELPLESSNESS)", "dur_s": 3.0},
+        {"sau_cau": "TK2.01#6", "text": "“MỌI SỰ KHÁNG CỰ ĐỀU LÀ VÔ NGHĨA”", "dur_s": 2.5}
+      ],
+      "nguon_du_lieu": ["4.03#4", "4.05#2", "4.07#1-#8", "Seligman 1967"],
+      "lines": [
+        {"id": "TK2.01#1", "vai": "N2", "emotion": "neutral", "speed": -0.02, "pause_after": 0.4, "nen": "wheelchair_room", "chuyen_dong": "still", "text": "Suốt hàng chục năm trời, trước mặt hàng trăm bác sĩ, y tá, cảnh sát và các tình nguyện viên từ thiện, cô ấy chưa từng một lần đứng bật dậy khỏi chiếc xe lăn để kêu cứu."},
+        {"id": "TK2.01#2", "vai": "H", "emotion": "neutral", "speed": -0.02, "pause_after": 0.5, "nen": "brain_desk", "chuyen_dong": "pull", "text": "Để trả lời, ta phải nhìn vào hai cơ chế giam hãm nhận thức: sự bất lực tập nhiễm và gắn kết chấn thương."},
+        {"id": "TK2.01#3", "vai": "C", "emotion": "neutral", "speed": -0.02, "pause_after": 0.6, "nen": "cage", "chuyen_dong": "push", "text": "Năm 1967, nhà tâm lý học Martin Seligman công bố thí nghiệm kinh điển về sự bất lực tập nhiễm."},
+        {"id": "TK2.01#4", "vai": "C", "emotion": "neutral", "speed": -0.02, "pause_after": 0.4, "nen": "cage", "chuyen_dong": "pan", "text": "Khi sinh vật bị nhốt trong phòng kín và phải chịu những cú sốc điện ngẫu nhiên không thể né tránh, sau nhiều lần thử phản kháng thất bại, nó hoàn toàn từ bỏ ý chí chiến đấu."},
+        {"id": "TK2.01#5", "vai": "C", "emotion": "neutral", "speed": -0.02, "pause_after": 0.5, "nen": "cage_open", "chuyen_dong": "push", "text": "Kể cả khi người ta mở toang cửa lồng và không còn dòng điện nào cản trở, con vật vẫn nằm im cam chịu."},
+        {"id": "TK2.01#6", "vai": "C", "emotion": "neutral", "speed": -0.02, "pause_after": 0.5, "nen": "brain_desk", "chuyen_dong": "still", "text": "Bộ não bị tổn thương tâm lý sâu sắc sẽ đi đến một kết luận cố định: mọi sự kháng cự đều là vô nghĩa."},
+        {"id": "TK2.01#7", "vai": "C", "emotion": "sad", "speed": -0.03, "pause_after": 0.5, "nen": "hands", "chuyen_dong": "pull", "text": "Mỗi lần con gái ngồi trước mặt bác sĩ, bàn tay mẹ luôn nắm chặt. Người ngoài nhìn vào tưởng đó là cái nắm tay chan chứa yêu thương."},
+        {"id": "TK2.01#8", "vai": "C", "emotion": "sad", "speed": -0.03, "pause_after": 0.6, "nen": "hands", "chuyen_dong": "pan", "text": "Với cô bé, đó là tín hiệu đe dọa: nếu cô bé nói sai một lời, bàn tay mẹ sẽ siết chặt đến bầm tím."},
+        {"id": "TK2.01#9", "vai": "H", "emotion": "neutral", "speed": -0.02, "pause_after": 0.6, "nen": "cage_open", "chuyen_dong": "still", "text": "Đó là cách một đứa trẻ học được rằng phản kháng là vô ích."},
+        {"id": "TK2.01#10", "vai": "H", "emotion": "neutral", "speed": -0.02, "pause_after": 0.0, "nen": "podcast_desk", "chuyen_dong": "still", "text": "Tập một của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio."}
+      ],
+      "caption": "Vì sao cô ấy không bao giờ chạy trốn?\n\nTập 01 — chỉ dấu #6: sự bất lực tập nhiễm (Seligman, 1967).\nHồ sơ có thật, dữ kiện có nguồn.\n\n📺 Xem tập đầy đủ ở link trong bio\n\n#AmberEyes #TamLyToiPham #HosoCoThat #LearnedHelplessness #TraumaBonding #TamLyHoc",
+      "hashtags": ["#AmberEyes", "#TamLyToiPham", "#HosoCoThat", "#LearnedHelplessness", "#TraumaBonding", "#TamLyHoc"]
+    },
+
+    {
+      "id": "TK3",
+      "ten": "Ba ta khong can tien. Ba ta can su kinh nghung",
+      "chi_dau": [3, 9],
+      "chude": "Su cung cap ai ky (Narcissistic Supply) + diem mu xa hoi",
+      "hook_text": "Bà ta không cần tiền. Bà ta cần sự kính ngợng.",
+      "hook_seconds": 3,
+      "target_len_s": [60, 80],
+      "bgm": "bgm_cello_sad.mp3",
+      "sfx": ["nen van phong", "lat ho so giay"],
+      "overlay_cards": [
+        {"sau_cau": "TK3.01#3", "text": "FDIA ≠ GIẢ BỆNH TRỤC LỢI (MALINGERING)", "dur_s": 3.0},
+        {"sau_cau": "TK3.01#5", "text": "SỰ CUNG CẤP ÁI KỶ (NARCISSISTIC SUPPLY)", "dur_s": 3.0},
+        {"sau_cau": "TK3.01#9", "text": "ĐIỂM MÙ XÃ HỘI", "dur_s": 2.5}
+      ],
+      "nguon_du_lieu": ["3.02#3-#4", "3.04#1-#3 (DSM-5-TR)", "3.05#2, #4, #7", "1.07#6"],
+      "lines": [
+        {"id": "TK3.01#1", "vai": "H", "emotion": "neutral", "speed": -0.02, "pause_after": 0.4, "nen": "records", "chuyen_dong": "pull", "text": "Nhiều người nghĩ bà ta làm tất cả chỉ vì tiền trợ cấp và những chuyến đi Disneyland miễn phí."},
+        {"id": "TK3.01#2", "vai": "H", "emotion": "neutral", "speed": -0.02, "pause_after": 0.5, "nen": "records", "chuyen_dong": "pan", "text": "Nhưng nếu chỉ vì lòng tham tài chính, kẻ phạm tội sẽ chọn cách lừa đảo ít phiền phức và tốn kém hơn nhiều."},
+        {"id": "TK3.01#3", "vai": "C", "emotion": "neutral", "speed": -0.02, "pause_after": 0.5, "nen": "brain_desk", "chuyen_dong": "still", "text": "Theo cẩm nang chẩn đoán tâm thần DSM-5-TR, hội chứng FDIA hoàn toàn khác với hành vi giả bệnh trục lợi."},
+        {"id": "TK3.01#4", "vai": "C", "emotion": "neutral", "speed": -0.02, "pause_after": 0.5, "nen": "records", "chuyen_dong": "push", "text": "Kẻ giả bệnh trục lợi sẽ dựng chuyện để kiếm tiền rồi bí mật hưởng thụ trong bóng tối."},
+        {"id": "TK3.01#5", "vai": "C", "emotion": "neutral", "speed": -0.02, "pause_after": 0.6, "nen": "spotlight_deedee", "chuyen_dong": "still", "text": "Còn kẻ mắc hội chứng FDIA thì đói khát một thứ chất gây nghiện tinh vi hơn nhiều: sự cung cấp ái kỷ."},
+        {"id": "TK3.01#6", "vai": "C", "emotion": "sad", "speed": -0.03, "pause_after": 0.5, "nen": "records", "chuyen_dong": "pull", "text": "Trước khi sinh con, cuộc đời bà ta là một chuỗi thất bại: bị gia đình xa lánh, hôn nhân tan vỡ lúc mới hai mươi tư tuổi."},
+        {"id": "TK3.01#7", "vai": "C", "emotion": "neutral", "speed": -0.02, "pause_after": 0.5, "nen": "spotlight_deedee", "chuyen_dong": "push", "text": "Nhưng khoảnh khắc bà ta khoác lên mình chiếc áo người mẹ đơn thân kiên cường nuôi con tàn tật, toàn bộ thế giới bỗng đảo chiều."},
+        {"id": "TK3.01#8", "vai": "C", "emotion": "neutral", "speed": -0.02, "pause_after": 0.5, "nen": "records", "chuyen_dong": "still", "text": "Mỗi lời khen ngợi bà là người mẹ vĩ đại nhất là một liều dopamine tiêm thẳng vào não bộ."},
+        {"id": "TK3.01#9", "vai": "N1", "emotion": "sad", "speed": -0.03, "pause_after": 0.6, "nen": "house_night", "chuyen_dong": "pull", "text": "Chúng tôi đã hoàn toàn tin tưởng rằng bà ấy là một vị thánh sống giữa đời thực."},
+        {"id": "TK3.01#10", "vai": "H", "emotion": "neutral", "speed": -0.02, "pause_after": 0.0, "nen": "podcast_desk", "chuyen_dong": "still", "text": "Tập một của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio."}
+      ],
+      "caption": "Bà ta không cần tiền. Bà ta cần sự kính ngợng. 👁️\n\nTập 01 — chỉ dấu #3: sự cung cấp ái kỷ (narcissistic supply).\nHồ sơ có thật, dữ kiện có nguồn.\n\n📺 Xem tập đầy đủ ở link trong bio\n\n#AmberEyes #TamLyToiPham #HosoCoThat #NarcissisticSupply #FDIA #MoiTuanMotTap",
+      "hashtags": ["#AmberEyes", "#TamLyToiPham", "#HosoCoThat", "#NarcissisticSupply", "#FDIA", "#MoiTuanMotTap"]
+    },
+
+    {
+      "id": "TK4",
+      "ten": "4 dau hieu do sinh ton",
+      "chi_dau": [10],
+      "chude": "Bo 4 canh bao do sinh ton",
+      "hook_text": "4 dấu hiệu đỏ sinh tồn — lưu lại clip này.",
+      "hook_seconds": 3,
+      "target_len_s": [70, 90],
+      "bgm": "bgm_piano_minimal.mp3",
+      "sfx": ["nen benh vien", "go cua"],
+      "overlay_cards": [
+        {"sau_cau": "TK4.01#3", "text": "① BỆNH SỬ PHỨC TẠP MÂU THUẪN XÉT NGHIỆM", "dur_s": 2.5},
+        {"sau_cau": "TK4.01#4", "text": "② TRIỆU CHỨNG CHỈ XUẤT HIỆN KHI CÓ NGƯỜI CHĂM SÓC", "dur_s": 2.5},
+        {"sau_cau": "TK4.01#5", "text": "③ ĐỔI BÁC SĨ + NGHIỆN SỰ CHÚ Ý", "dur_s": 2.5},
+        {"sau_cau": "TK4.01#6", "text": "④ CÔ LẬP TUYỆT ĐỐI KHỎI CỘNG ĐỒNG", "dur_s": 2.5}
+      ],
+      "nguon_du_lieu": ["5.04#3", "5.05#1-#4", "5.06#2-#3"],
+      "lines": [
+        {"id": "TK4.01#1", "vai": "H", "emotion": "neutral", "speed": -0.02, "pause_after": 0.4, "nen": "records", "chuyen_dong": "pull", "text": "Bốn dấu hiệu đỏ để nhận ra một đứa trẻ đang bị bệnh trong chính ngôi nhà của mình."},
+        {"id": "TK4.01#2", "vai": "H", "emotion": "neutral", "speed": -0.02, "pause_after": 0.5, "nen": "clinical", "chuyen_dong": "pan", "text": "Dưới góc độ tâm lý và lâm sàng y khoa, cộng đồng cần đặc biệt lưu tâm đến hai chỉ dấu cảnh báo đầu tiên."},
+        {"id": "TK4.01#3", "vai": "C", "emotion": "neutral", "speed": -0.02, "pause_after": 0.5, "nen": "records", "chuyen_dong": "still", "text": "Cảnh báo đỏ thứ nhất: bệnh sử phức tạp bất thường và mâu thuẫn xét nghiệm. Danh sách bệnh hiểm nghèo kéo dài triền miên, nhưng kết quả kiểm tra khách quan luôn bình thường hoặc trái ngược lời kể của người chăm sóc."},
+        {"id": "TK4.01#4", "vai": "C", "emotion": "neutral", "speed": -0.02, "pause_after": 0.5, "nen": "clinical", "chuyen_dong": "push", "text": "Cảnh báo đỏ thứ hai: triệu chứng chỉ xuất hiện khi có mặt người chăm sóc, và lập tức thuyên giảm khi bệnh nhân được cách ly hoặc nằm trong khu vực có camera giám sát độc lập."},
+        {"id": "TK4.01#5", "vai": "D", "emotion": "neutral", "speed": -0.03, "pause_after": 0.5, "nen": "pinboard", "chuyen_dong": "pan", "text": "Cảnh báo đỏ thứ ba: thói quen đổi bác sĩ và nghiện sự chú ý. Người chăm sóc liên tục đổi phòng khám ngay khi bị chất vấn, đồng thời phô trương bệnh tật của con lên mạng xã hội để tìm kiếm sự thương hại."},
+        {"id": "TK4.01#6", "vai": "D", "emotion": "neutral", "speed": -0.03, "pause_after": 0.6, "nen": "crowd_away", "chuyen_dong": "push", "text": "Cảnh báo đỏ thứ tư: sự cô lập tuyệt đối khỏi cộng đồng. Nạn nhân bị cắt đứt khỏi trường học, bạn bè và người thân, dưới chiêu bài bảo vệ sức khỏe yếu ớt."},
+        {"id": "TK4.01#7", "vai": "H", "emotion": "neutral", "speed": -0.02, "pause_after": 0.6, "nen": "two_shadows", "chuyen_dong": "still", "text": "Bốn dấu hiệu này không chỉ nằm trong một hồ sơ. Chúng là những gì cộng đồng phải biết để canh giữ trẻ em."},
+        {"id": "TK4.01#8", "vai": "H", "emotion": "neutral", "speed": -0.02, "pause_after": 0.0, "nen": "podcast_desk", "chuyen_dong": "still", "text": "Lưu lại clip này. Xem hồ sơ đầy đủ tập một ở link trong bio."}
+      ],
+      "caption": "4 dấu hiệu đỏ sinh tồn — lưu lại clip này.\n\nTập 01 — cảnh báo đỏ: bệnh sử mâu thuẫn xét nghiệm · triệu chứng chỉ xuất hiện khi có người chăm sóc · đổi bác sĩ + nghiện sự chú ý · cô lập khỏi cộng đồng.\nHồ sơ có thật, dữ kiện có nguồn.\n\n📺 Xem tập đầy đủ ở link trong bio\n\n#AmberEyes #TamLyToiPham #HosoCoThat #CanhGiuTreEm #LanhDanh #MoiTuanMotTap",
+      "hashtags": ["#AmberEyes", "#TamLyToiPham", "#HosoCoThat", "#CanhGiuTreEm", "#LanhDanh", "#MoiTuanMotTap"]
+    }
+  ],
+
+  "clip_du_phong": {
+    "id": "TK5",
+    "ten": "Cau noi trong nha tu",
+    "trang_thai": "DU_PHONG — lam sau khi 4 clip tren da do",
+    "target_len_s": [40, 55],
+    "bgm": "bgm_piano_warm.mp3",
+    "lines": [
+      {"id": "TK5.01#1", "vai": "D", "emotion": "sad", "speed": -0.03, "pause_after": 0.6, "nen": "prison_window", "chuyen_dong": "pull", "text": "Khi bước vào trại cải tạo nữ, cô ấy đưa ra một lời thú nhận khiến các chuyên gia tâm lý học pháp y phải nghẹn ngào."},
+      {"id": "TK5.01#2", "vai": "C", "emotion": "sad", "speed": -0.04, "pause_after": 0.8, "nen": "prison_window", "chuyen_dong": "still", "text": "Trong nhà tù của pháp luật, lần đầu tiên trong đời tôi cảm thấy mình thực sự được tự do hơn cả khi sống trong ngôi nhà của mẹ."},
+      {"id": "TK5.01#3", "vai": "H", "emotion": "neutral", "speed": -0.02, "pause_after": 0.0, "nen": "court_dawn", "chuyen_dong": "pull", "text": "Ngày 28 tháng 12 năm 2023, cô ấy bước ra khỏi trại giam sau 85 phần trăm thời hạn bản án."}
+    ],
+    "nguon_du_lieu": ["5.04#1", "5.04#2 (ABC News 20/20 — cau trich nguyen van)", "5.04#7"]
+  },
+
+  "boc_luat_khong_duoc_vi_pham": {
+    "K1_K2": "Moi du lieu trong loi doc phai truy duoc ve kich ban Tap 01 + nguon_tham_khao.md. KHONG them ten rieng, so lieu hay chi tiet moi.",
+    "K3": "Khong gan loi thoai cho nguoi that. Phan minh hoa dung 'hay hinh dung'.",
+    "K4_V9": "Khong mo ta bao luc, thuong tich, thi the; khong huong dan pham toi. Danh sach tu cam: A9.2.",
+    "K5": "Khong chan doan tam thanh cho nguoi that.",
+    "TikTok_AIGC": "Bat buoc bat toggle 'AI-generated content' khi dang + dong nhan AIGC trong caption.",
+    "TikTok_originality": "KHONG up lai video 16:9 cua YouTube, khong co watermark nen tang khac.",
+    "TikTok_music": "KHONG dung 2 BGM YouTube Audio Library va 211 SFX YouTube Audio Library trong clip nay.",
+    "L10": "Khong commit media (mp4/wav) vao git."
+  }
+}
