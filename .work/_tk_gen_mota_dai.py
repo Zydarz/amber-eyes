@@ -1,0 +1,87 @@
+"""Sinh ban mo ta DAI cho TikTok Studio (truong Description, gioi han 4.000 ky tu).
+Giu nguyen phan hook o dau (TikTok chi hien ~100 ky tu dau truoc khi bam "more").
+Khong dung tu cam V9/A9.2 (danh sau)."""
+import pathlib
+import sys
+
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+D = ROOT / "02_SAN_XUAT" / "TIKTOK" / "Tap01"
+OUT = D / "MoTa_Dai_TK1.txt"
+
+LONG = """Cô ấy không ngồi trên xe lăn. Cô ấy bước đi. 👁️
+
+Tập 01 · Độc dược nhân danh tình mẹ — chỉ dấu #2: thủ đoạn và chữ ký tâm lý.
+Hồ sơ có thật, dữ liệu có nguồn.
+
+📺 Xem tập đầy đủ (25 phút): youtu.be/lDVXjeFLn48 — link trong bio
+🔎 Chỉ dấu tâm lý · FDIA · hồ sơ có thật
+
+——————
+CHỈ DẤU #2: THỦ ĐOẠN ≠ CHỮ KÝ TÂM LÝ
+——————
+Từ đây, tâm lý học tội phạm tách làm hai khái niệm:
+• THỦ ĐOẠN (modus operandi) — những gì kẻ phạm tội làm để thực hiện hành vi và né tránh sự trừng phạt. Ở đây nó liên tục biến đổi: đổi bệnh viện, chuyển chỗ ở ngay khi một bác sĩ bắt đầu nghi ngờ.
+• CHỮ KÝ TÂM LÝ (signature) — bất biến, sinh ra để thỏa mãn nhu cầu cảm xúc bệnh lý cốt lõi. Ở đây là tước đoạt tuổi trưởng thành: khai man ngày sinh, biến cô con gái hai mươi tuổi thành một đứa trẻ mười sáu tuổi trên giấy tờ.
+
+Bước ngoặt tâm lý của hồ sơ này: bà ta không chỉ muốn con mình bệnh tật. Bà ta muốn con mình không bao giờ lớn.
+
+——————
+BỐI CẢNH HỒ SƠ
+——————
+Mùa hè 2015, Springfield (Missouri, Mỹ): Dee Dee Blanchard — biểu tượng người mẹ thánh mẫu đơn thân — được phát hiện qua đời trong căn nhà màu hồng. Con gái Gypsy Rose bị tin là mắc ung thư máu, bại liệt, loạn dưỡng cơ và thiểu năng, biến mất không dấu vết. Chỉ 48 giờ sau, khi cánh cửa phòng thẩm vấn mở ra, sự thật được phơi bày: cô bé tự bước đi bằng đôi chân của chính mình.
+
+Chẩn đoán của tòa: FDIA — Rối loạn giả bệnh áp đặt lên người khác (DSM-5-TR, 300.19). Người mẹ đã giam cầm con gái trong nhà tù y tế nhân tạo và ép con dùng thuốc để giữ bệnh tình "bệnh nhân" — đổi lấy sự thương hại, sự chú ý và tôn sùng của cộng đồng.
+
+——————
+HỆ SINH THÁI 10 CHỈ DẤU TÂM LÝ (series đầy đủ)
+——————
+1. Dư chấn xã hội · 2. Vật hóa nạn nhân (objectification) · 3. Cơ chế chia ngăn · 4. Thái độ trước bản án · 5. Hệ thống tự bào chữa (hero complex) · 6. Ngồi nổ & điểm gãy tâm lý · 7. Chữ ký vs thủ đoạn MO · 8. Quỹ đạo leo thang hành vi · 9. Hiệu ứng hào quang · 10. Nạn nhân học & cảnh báo đỏ sinh tồn
+
+——————
+NGUỒN THAM KHẢO
+——————
+• Tòa án Hạt Greene: State v. Gypsy Blanchard (No. 1531-CR03746) & State v. Godejohn — courts.mo.gov
+• Cảnh sát Hạt Greene: báo cáo hiện trường & họp báo Sheriff Jim Arnott — greenecountymo.gov/sheriff
+• Bệnh viện Nhi Mercy (2007): bệnh án nghi vấn FDIA của BS Bernardo Flasterstein — mercy.net
+• APA DSM-5-TR: Rối loạn giả bệnh áp đặt lên người khác (FDIA / 300.19) — psychiatry.org
+• Dr. Marc D. Feldman: 'Playing Sick? Untangling Munchausen Syndrome by Proxy' — munchausen.com
+• BuzzFeed News: điều tra của Michelle Dean (2016) — buzzfeednews.com
+• Springfield News-Leader: dòng thời gian vụ án — news-leader.com
+• ABC News 20/20: phỏng vấn độc quyền Gypsy Rose Blanchard — abcnews.go.com
+• HBO: 'Mommy Dead and Dearest' (2017) — hbo.com
+
+——————
+LƯU Ý
+——————
+• Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự.
+• Nội dung không phù hợp cho trẻ em.
+• Mang tính giáo dục, phân tích tâm lý tội phạm; không thay thế tư vấn y khoa hay pháp lý.
+• Dựa trên tư liệu công khai (hồ sơ tòa án, báo chí điều tra). Kênh không nhằm kết tội, bôi nhọ hay cổ suý bất kỳ cá nhân nào.
+• Nhân vật Cú, Sói, Cáo là linh thú minh họa; lời thoại phục dựng dựa trên tư liệu điều tra.
+• Hồ sơ có thật, dữ liệu có nguồn.
+
+🆘 Nếu bạn biết một trẻ em đang bị bạo hành hoặc lạm dụng y tế, hãy gọi Tổng đài quốc gia bảo vệ trẻ em 111 (Việt Nam, miễn phí, 24/7).
+
+#AmberEyes #TamLyToiPham #HosoCoThat #PhanTichTamLy #TrueCrime #MoiTuanMotTap #FDIA #GypsyRoseBlanchard #DeeDeeBlanchard #10ChiDauTamLy"""
+
+BANNED = ["máu", "thi thể", "sát hại", "đòn", "trói", "bầm", "đập",
+          "đầu độc", "diệt cỏ", "bỏ đói", "móc áo", "hiếp", "cắt đầu",
+          "vâng hãm", "hiếp dâm", "lột da", "ngắt tay", "bóp cổ", "trần trụi"]
+
+n = len(LONG)
+low = LONG.lower()
+hits = []
+for w in BANNED:
+    if w in low:
+        # 'máu' chi duoc phep trong 'ung thư máu'
+        if w == "máu" and low.count("máu") == low.count("ung thư máu"):
+            continue
+        hits.append(w)
+print("do dai mo ta dai: %d ky tu (gioi han 4000) -> %s" % (n, "OK" if n <= 4000 else "VUOT"))
+print("tu cam V9/A9.2 trong ban dai: %s" % (hits if hits else "khong co"))
+if n <= 4000 and not hits:
+    OUT.write_text(LONG, encoding="utf-8")
+    print("-> %s" % OUT)
+else:
+    print("KHONG ghi file (can sua truoc)")

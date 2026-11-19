@@ -1557,6 +1557,12 @@ EPISODES = {
         "sfx_cues": [],
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
+        # 18/11/2026 (Tập 15): thẻ giới thiệu vai mặc định (490, H-250) đè lên chữ T1 ngắn ở shot 1-01
+        # ("HOST" + "Ngày 9 tháng 6 năm 2008.") — dùng vị trí góc trên phải như Tập 09 (bài học A11 #142).
+        "intro_card_pos": [960, 90],
+        "intro_card_panel": True,
+        "intro_card_hold": 5.8,
+        "thumb_bg": "t15_b01_two_guilt_polarities_scales",   # H11: nền CỦA TẬP 15 (cán cân hai cực hối hận; không chữ, không người)
         "route_pins": {},
         "thumb": ("BORDERLINE RAGE", "FATAL OBSESSION") if EN else ("境界の狂気", "執着の果て") if JA else ("경계성 분노", "치명적 집착") if KO else ("CƠN CUỒNG GHEN", "RANH GIỚI"),
         "title": ("Ep. 15: Borderline Rage & Fatal Obsession (The Jodi Arias Case)" if EN else
@@ -1603,11 +1609,23 @@ EPISODES = {
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
         "route_pins": {},
-        "thumb": ("ĐƯA LÊN", "THIÊN ĐÀNG"),
-        "title": "Kẻ Tước Đoạt Mạng Sống Cả Gia Đình Để 'Đưa Họ Lên Thiên Đàng' (Hồ Sơ John List)",
-        "act_titles": {1: "Hồi 1 · Biệt thự u ám Breeze Knoll và khám phá kinh hoàng sau một tháng", 2: "Hồi 2 · Vụ mất tích thế kỷ và chiếc kéo cắt mặt trong album ảnh",
-                       3: "Hồi 3 · Giải mã tâm lý: Rối loạn nhân cách ám ảnh cưỡng chế (OCPD) & Bẫy ngụy biện đạo đức", 4: "Hồi 4 · Bức tượng sáp của Frank Bender và cú điện thoại từ America's Most Wanted",
-                       5: "Hồi 5 · Bài học đắt giá về sự cuồng kiểm soát & 4 cảnh báo đỏ"},
+        "mux_af": ("alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1" if EN else
+                   "alimiter=limit=0.63:attack=5:release=50:level=disabled:latency=1"),
+        "thumb_bg": "t16_breeze_knoll_snowy_porch_mail",
+        "thumb": ("SEND THEM", "TO HEAVEN") if EN else ("天国へ送るため", "家族を奪った男") if JA else ("ĐƯA LÊN", "THIÊN ĐÀNG"),
+        "title": ("Ep. 16: The Man Who Annihilated His Family to 'Send Them to Heaven' — OCPD & the 18-Year Flight (The John List Case)" if EN else
+                  "第16話：『家族の魂を天国へ送る』ために全てを奪った男 — 強迫性パーソナリティ障害と18年の逃亡（ジョン・リスト事件）" if JA else
+                  "Tập 16: Kẻ Tước Đoạt Mạng Sống Cả Gia Đình Để 'Đưa Họ Lên Thiên Đàng' — OCPD & Cuộc Trốn Chạy 18 Năm (Hồ Sơ John List)"),
+        "act_titles": ({1: "Act 1 · The Gloomy Breeze Knoll Mansion and the Horrific Discovery After a Month", 2: "Act 2 · The Vanishing of the Century and the Scissors in the Family Album",
+                        3: "Act 3 · Psychological Decoding: OCPD & the Moral-Neutralization Trap", 4: "Act 4 · Frank Bender's Wax Bust and the Call from America's Most Wanted",
+                        5: "Act 5 · The Costly Lesson of Control Obsession & 4 Red Flags"} if EN else
+                       {1: "第1幕 · 陰鬱なBreeze Knoll邸と一か月後の戦慄の発見", 2: "第2幕 · 世紀の失踪とアルバムの顔を切り抜いたハサミ",
+                        3: "第3幕 · 心理解剖：強迫性パーソナリティ障害（OCPD）と道徳的正当化の罠", 4: "第4幕 · Frank Benderの蝋像とAmerica's Most Wantedからの電話",
+                        5: "第5幕 · 支配欲の代償と4つのレッドフラグ"} if JA else
+                       {1: "Hồi 1 · Biệt thự u ám Breeze Knoll và khám phá kinh hoàng sau một tháng", 2: "Hồi 2 · Vụ mất tích thế kỷ và chiếc kéo cắt mặt trong album ảnh",
+                        3: "Hồi 3 · Giải mã tâm lý: Rối loạn nhân cách ám ảnh cưỡng chế (OCPD) & Bẫy ngụy biện đạo đức", 4: "Hồi 4 · Bức tượng sáp của Frank Bender và cú điện thoại từ America's Most Wanted",
+                        5: "Hồi 5 · Bài học đắt giá về sự cuồng kiểm soát & 4 cảnh báo đỏ"}),
+        "hashtags": "#AmberEyes #TrueCrime #TamLyToiPham #JohnList #BreezeKnoll #OCPD #AmericasMostWanted #FrankBender #TheGiftOfFear #10ChiDauTamLy #CanhBaoDo #PhamVan #HoiTo",
         "summary": ("1.02#1", "3.02#1"),
         "need": [],
         "case": "List", "n1": ("JEAN PHILLIPS", "Giáo viên dạy kịch", "GIÁO VIÊN"),

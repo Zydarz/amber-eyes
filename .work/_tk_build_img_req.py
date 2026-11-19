@@ -50,19 +50,24 @@ NEG = (
 
 def main():
     import sys
-    refs = json.loads(REFS.read_text(encoding="utf-8-sig"))
-    missing = [n for n in NAMES if n not in refs]
+    # Tool gioi han 10 request/lot -> chia 2 lo 8 + 1 lo 3 cho 3 nen con lai
+    batch = int(sys.argv[1]) if len(sys.argv) > 1 else 1
+    if batch == 3:
+        names = ["clinical", "crowd_away", "two_shadows"]
+        refs_path = HERE / "_tk_refs_t01_b3.json"
+        out_path = HERE / "_tk_img_req_t01_b3.json"
+    else:
+        names = NAMES[(batch - 1) * 8: batch * 8]
+        refs_path = REFS
+        out_path = HERE / ("_tk_img_req_t01_b%d.json" % batch)
+
+    refs = json.loads(refs_path.read_text(encoding="utf-8-sig"))
+    missing = [n for n in names if n not in refs]
     if missing:
         raise SystemExit("thieu anh tham chieu: %s" % missing)
 
-    # Tool gioi han 10 request/lot -> chia 2 lo 8
-    batch = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    size = 8
-    chunk = NAMES[(batch - 1) * size: batch * size]
-    out_path = HERE / ("_tk_img_req_t01_b%d.json" % batch)
-
     requests = []
-    for n in chunk:
+    for n in names:
         requests.append({
             "prompt": f"{STYLE}, {TASK} {NEG}",
             "reference_images": [{"url": refs[n], "mime_type": "image/png"}],

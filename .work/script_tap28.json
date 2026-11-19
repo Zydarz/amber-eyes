@@ -11,7 +11,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "giọng trầm, mở đầu câu chuyện với bối cảnh vụ án chấn động dư luận cả nước",
-  "text": "Vào những ngày cuối tháng 8 năm 2011, một cơn bão nhiệt đới dữ dội kèm theo mưa lớn kéo dài đã quét qua vùng trung du thuộc tỉnh Bắc Giang. Tại khu vực Phố Sàn sầm uất nằm ven Quốc lộ 31 thuộc huyện Lục Nam, một vụ cướp tiệm vàng với mức độ tàn khốc chưa từng có đã bất ngờ diễn ra. Căn nhà bốn tầng khang trang của tiệm vàng Ngọc Bích, một cơ sở kinh doanh kim hoàn có tiếng trong vùng, đã trở thành hiện trường của một thảm kịch kinh hoàng. Cả gia đình người chủ tiệm vàng gồm hai vợ chồng và con gái nhỏ mười tám tháng tuổi đã bị kẻ thủ ác tước đoạt sinh mạng một cách tàn nhẫn. Nạn nhân duy nhất còn sống sót là cô con gái đầu lòng tám tuổi, bị thương tích nghiêm trọng nhưng đã may mắn chui vào gầm giường để thoát thân. Sự kiện chấn động này lập tức làm rung chuyển đời sống bình yên của người dân và trở thành tâm điểm chú ý đặc biệt của toàn thể xã hội.",
+  "text": "Vào những ngày cuối tháng 8 năm 2011, một cơn bão nhiệt đới dữ dội kèm theo mưa lớn kéo dài đã quét qua vùng trung du thuộc tỉnh Bắc Giang. Tại khu vực Phố Sàn sầm uất nằm ven Quốc lộ 31 thuộc huyện Lục Nam, một vụ cướp tiệm vàng với mức độ tàn khốc chưa từng có đã bất ngờ diễn ra. Căn nhà bốn tầng khang trang của tiệm vàng Ngọc Bích, một cơ sở kinh doanh kim hoàn có tiếng trong vùng, đã trở thành hiện trường của một thảm kịch kinh hoàng. Cả gia đình người chủ tiệm vàng gồm hai vợ chồng và con gái nhỏ mười tám tháng tuổi đã bị kẻ thủ ác tước đoạt sinh mạng một cách tàn nhẫn. Người duy nhất còn sống sót là cô con gái đầu lòng tám tuổi của gia đình. Sự kiện chấn động này lập tức làm rung chuyển đời sống bình yên của người dân và trở thành tâm điểm chú ý đặc biệt của toàn thể xã hội. Một bầu không khí hoang mang tột độ nhanh chóng bao trùm khắp các nẻo đường của thị trấn nhỏ ven quốc lộ. Người dân địa phương bàng hoàng không dám tin rằng một tội ác kinh hoàng như vậy lại có thể xảy ra ngay giữa cộng đồng vốn thuần nông và yên bình.",
   "sentences": [
    {
     "id": "1.02#1",
@@ -35,13 +35,23 @@
    },
    {
     "id": "1.02#5",
-    "text": "Nạn nhân duy nhất còn sống sót là cô con gái đầu lòng tám tuổi, bị thương tích nghiêm trọng nhưng đã may mắn chui vào gầm giường để thoát thân.",
-    "words": 31
+    "text": "Người duy nhất còn sống sót là cô con gái đầu lòng tám tuổi của gia đình.",
+    "words": 17
    },
    {
     "id": "1.02#6",
     "text": "Sự kiện chấn động này lập tức làm rung chuyển đời sống bình yên của người dân và trở thành tâm điểm chú ý đặc biệt của toàn thể xã hội.",
     "words": 31
+   },
+   {
+    "id": "1.02#7",
+    "text": "Một bầu không khí hoang mang tột độ nhanh chóng bao trùm khắp các nẻo đường của thị trấn nhỏ ven quốc lộ.",
+    "words": 23
+   },
+   {
+    "id": "1.02#8",
+    "text": "Người dân địa phương bàng hoàng không dám tin rằng một tội ác kinh hoàng như vậy lại có thể xảy ra ngay giữa cộng đồng vốn thuần nông và yên bình.",
+    "words": 32
    }
   ]
  },
@@ -49,7 +59,7 @@
   "id": "1.03",
   "act": 1,
   "kind": "SFX",
-  "desc": "*Tiếng bước chân chạy vội vã trên vỉa hè ướt mưa, tiếng đập cửa cuốn sắt thình thình.*"
+  "desc": "*Tiếng bước chân chạy vội vã trên vỉa hè ướt mưa, tiếng gõ cửa cuốn sắt thình thình.*"
  },
  {
   "id": "1.04",
@@ -57,7 +67,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "khoảnh khắc bàng hoàng phát hiện vụ việc sáng ngày 24 tháng 8 năm 2011",
-  "text": "Khoảng gần chín giờ sáng ngày 24 tháng 8 năm 2011, những người hàng xóm xung quanh nhận thấy tiệm vàng Ngọc Bích vẫn đóng chặt cửa cuốn một cách bất thường. Thông thường vào giờ này mỗi ngày, cửa hàng đã mở cửa đón khách tấp nập và chủ tiệm vàng đã chuẩn bị các tủ trưng bày trang sức. Nhiều cuộc điện thoại gọi vào số máy cá nhân của hai vợ chồng chủ tiệm đều chỉ nhận lại những hồi chuông reo kéo dài vô vọng. Nghi ngờ có sự cố chập điện hoặc ngạt khí bên trong căn nhà kín cổng cao tường, người thân và hàng xóm đã mượn thang trèo lên ban công tầng hai để kiểm tra. Khi cánh cửa kính phía sau ban công hé mở, một khung cảnh tang thương tột cùng đã hiện ra trước mắt những người có mặt. Những tiếng tri hô hoảng loạn xé toang bầu không khí ẩm ướt của buổi sáng mùa mưa bão và lan nhanh khắp khu phố buôn bán sầm uất. Lực lượng công an địa phương cùng các y bác sĩ cấp cứu đã lập tức có mặt để phong tỏa hiện trường và đưa cháu bé sống sót đi viện.",
+  "text": "Khoảng gần chín giờ sáng ngày 24 tháng 8 năm 2011, những người hàng xóm xung quanh nhận thấy tiệm vàng Ngọc Bích vẫn đóng chặt cửa cuốn một cách bất thường. Thông thường vào giờ này mỗi ngày, cửa hàng đã mở cửa đón khách tấp nập và chủ tiệm vàng đã chuẩn bị các tủ trưng bày trang sức. Nhiều cuộc điện thoại gọi vào số máy cá nhân của hai vợ chồng chủ tiệm đều chỉ nhận lại những hồi chuông reo kéo dài vô vọng. Nghi ngờ có sự cố chập điện hoặc ngạt khí bên trong căn nhà kín cổng cao tường, người thân và hàng xóm đã mượn thang trèo lên ban công tầng hai để kiểm tra. Khi cánh cửa kính phía sau ban công hé mở, một khung cảnh tang thương tột cùng đã hiện ra trước mắt những người có mặt. Những tiếng tri hô hoảng loạn xé toang bầu không khí ẩm ướt của buổi sáng mùa mưa bão và lan nhanh khắp khu phố buôn bán sầm uất. Lực lượng công an địa phương cùng các y bác sĩ cấp cứu đã lập tức có mặt để phong tỏa hiện trường và đưa cháu bé sống sót đi viện. Cả khu phố buôn bán náo nhiệt ven quốc lộ bỗng chốc rơi vào sự câm lặng bàng hoàng tột độ. Những ánh mắt hoảng sợ của người dân nhìn vào căn nhà đóng kín phản ánh sự sụp đổ hoàn toàn của cảm giác an toàn quen thuộc.",
   "sentences": [
    {
     "id": "1.04#1",
@@ -93,6 +103,16 @@
     "id": "1.04#7",
     "text": "Lực lượng công an địa phương cùng các y bác sĩ cấp cứu đã lập tức có mặt để phong tỏa hiện trường và đưa cháu bé sống sót đi viện.",
     "words": 31
+   },
+   {
+    "id": "1.04#8",
+    "text": "Cả khu phố buôn bán náo nhiệt ven quốc lộ bỗng chốc rơi vào sự câm lặng bàng hoàng tột độ.",
+    "words": 21
+   },
+   {
+    "id": "1.04#9",
+    "text": "Những ánh mắt hoảng sợ của người dân nhìn vào căn nhà đóng kín phản ánh sự sụp đổ hoàn toàn của cảm giác an toàn quen thuộc.",
+    "words": 28
    }
   ]
  },
@@ -108,11 +128,11 @@
   "kind": "LOI",
   "role": "H",
   "direction": "sự vào cuộc khẩn cấp của Bộ Công an và Ban chuyên án đặc biệt",
-  "text": "Nhận định đây là vụ án giết người cướp tài sản có tính chất đặc biệt man rợ, lãnh đạo Bộ Công an đã lập tức phát lệnh chỉ đạo phá án khẩn cấp. Ban chuyên án đặc biệt được thành lập với sự phối hợp chặt chẽ giữa Cục Cảnh sát Hình sự, Viện Khoa học Hình sự và Công an tỉnh Bắc Giang. Hàng trăm điều tra viên và giám định viên tinh nhuệ nhất đã được huy động về Phố Sàn để thực hiện công tác khám nghiệm hiện trường tỉ mỉ. Mọi dấu vết đường vân, vết máu lạ, sợi vải và các dấu vết cơ học trên các tầng lầu đều được soi chiếu và thu thập thận trọng. Áp lực dư luận thời điểm đó vô cùng to lớn khi những đồn đoán về một băng nhóm giang hồ chuyên nghiệp được truyền thông lan truyền rộng rãi.",
+  "text": "Nhận định đây là vụ án giết người cướp tài sản có tính chất đặc biệt nghiêm trọng, lãnh đạo Bộ Công an đã lập tức phát lệnh chỉ đạo phá án khẩn cấp. Ban chuyên án đặc biệt được thành lập với sự phối hợp chặt chẽ giữa Cục Cảnh sát Hình sự, Viện Khoa học Hình sự và Công an tỉnh Bắc Giang. Hàng trăm điều tra viên và giám định viên tinh nhuệ nhất đã được huy động về Phố Sàn để thực hiện công tác khám nghiệm hiện trường tỉ mỉ. Mọi dấu vết đường vân, dấu vết sinh học và sợi vải trên các tầng lầu đều được soi chiếu và thu thập thận trọng. Áp lực dư luận thời điểm đó vô cùng to lớn khi những đồn đoán về một băng nhóm giang hồ chuyên nghiệp được truyền thông lan truyền rộng rãi. Trước sự phẫn nộ tột cùng của xã hội, lực lượng phá án hiểu rằng việc làm rõ chân tướng hung thủ là mệnh lệnh danh dự tối thượng. Từng giả thuyết điều tra được đặt lên bàn cân phân tích kỹ lưỡng nhằm không bỏ sót bất kỳ manh mối dù là nhỏ nhất.",
   "sentences": [
    {
     "id": "1.06#1",
-    "text": "Nhận định đây là vụ án giết người cướp tài sản có tính chất đặc biệt man rợ, lãnh đạo Bộ Công an đã lập tức phát lệnh chỉ đạo phá án khẩn cấp.",
+    "text": "Nhận định đây là vụ án giết người cướp tài sản có tính chất đặc biệt nghiêm trọng, lãnh đạo Bộ Công an đã lập tức phát lệnh chỉ đạo phá án khẩn cấp.",
     "words": 34
    },
    {
@@ -127,13 +147,23 @@
    },
    {
     "id": "1.06#4",
-    "text": "Mọi dấu vết đường vân, vết máu lạ, sợi vải và các dấu vết cơ học trên các tầng lầu đều được soi chiếu và thu thập thận trọng.",
-    "words": 29
+    "text": "Mọi dấu vết đường vân, dấu vết sinh học và sợi vải trên các tầng lầu đều được soi chiếu và thu thập thận trọng.",
+    "words": 25
    },
    {
     "id": "1.06#5",
     "text": "Áp lực dư luận thời điểm đó vô cùng to lớn khi những đồn đoán về một băng nhóm giang hồ chuyên nghiệp được truyền thông lan truyền rộng rãi.",
     "words": 30
+   },
+   {
+    "id": "1.06#6",
+    "text": "Trước sự phẫn nộ tột cùng của xã hội, lực lượng phá án hiểu rằng việc làm rõ chân tướng hung thủ là mệnh lệnh danh dự tối thượng.",
+    "words": 29
+   },
+   {
+    "id": "1.06#7",
+    "text": "Từng giả thuyết điều tra được đặt lên bàn cân phân tích kỹ lưỡng nhằm không bỏ sót bất kỳ manh mối dù là nhỏ nhất.",
+    "words": 26
    }
   ]
  },
@@ -142,43 +172,43 @@
   "act": 1,
   "kind": "LOI",
   "role": "N",
-  "direction": "N1: Người dân Phố Sàn, giọng nữ trung niên, bàng hoàng, xót xa",
-  "text": "Sáng hôm đó trời mưa to lắm, chúng tôi thấy tiệm vàng nhà anh Ngọc muộn rồi mà vẫn chưa mở cửa thì ai cũng lấy làm lạ. Khi mấy anh thanh niên bắc thang trèo lên tầng hai nhìn qua khe cửa kính rồi hô hoán thất thanh, tim tôi như thắt lại vì hoảng sợ. Vợ chồng anh Ngọc sống ở đây rất hiền lành, chịu thương chịu khó làm ăn và luôn hòa nhã với bà con lối xóm xung quanh. Khi các chú công an đưa cháu Bích ra xe cứu thương trong tình trạng bị thương nặng, cả khu phố ai nấy đều bật khóc vì quá xót xa. Không một ai có thể tin nổi giữa thanh thiên bạch nhật lại có kẻ nhẫn tâm ra tay tàn độc với cả một gia đình lương thiện như vậy. Suốt cả tuần liền sau đó, cả khu phố chúng tôi không ai dám mở cửa buôn bán, đêm đến nhà nào cũng cài then đóng cửa trong sự sợ hãi tột cùng. Chúng tôi chỉ mong mỏi các anh công an sớm bắt được hung thủ để linh hồn những người đã khuất được an nghỉ nơi chín suối.",
+  "direction": "N1: Lời kể minh hoạ về người dân Phố Sàn, giọng nữ trung niên, bàng hoàng, xót xa",
+  "text": "Hãy hình dung buổi sáng hôm ấy qua ánh mắt của những người hàng xóm ở Phố Sàn. Tiệm vàng nhà anh Ngọc đã muộn mà vẫn chưa mở cửa, ai cũng lấy làm lạ. Với bà con lối xóm, vợ chồng anh Ngọc là những người chịu thương chịu khó và hòa nhã. Khi cháu bé được đưa lên xe cứu thương, cả khu phố lặng đi vì xót xa. Không ai tin nổi lại có kẻ nhẫn tâm ra tay với cả một gia đình lương thiện như vậy. Nhiều ngày sau đó, nỗi sợ hãi vẫn bao trùm cả khu phố. Ai cũng chỉ mong lực lượng công an sớm bắt được kẻ thủ ác.",
   "sentences": [
    {
     "id": "1.07#1",
-    "text": "Sáng hôm đó trời mưa to lắm, chúng tôi thấy tiệm vàng nhà anh Ngọc muộn rồi mà vẫn chưa mở cửa thì ai cũng lấy làm lạ.",
-    "words": 28
+    "text": "Hãy hình dung buổi sáng hôm ấy qua ánh mắt của những người hàng xóm ở Phố Sàn.",
+    "words": 18
    },
    {
     "id": "1.07#2",
-    "text": "Khi mấy anh thanh niên bắc thang trèo lên tầng hai nhìn qua khe cửa kính rồi hô hoán thất thanh, tim tôi như thắt lại vì hoảng sợ.",
-    "words": 29
+    "text": "Tiệm vàng nhà anh Ngọc đã muộn mà vẫn chưa mở cửa, ai cũng lấy làm lạ.",
+    "words": 17
    },
    {
     "id": "1.07#3",
-    "text": "Vợ chồng anh Ngọc sống ở đây rất hiền lành, chịu thương chịu khó làm ăn và luôn hòa nhã với bà con lối xóm xung quanh.",
-    "words": 27
+    "text": "Với bà con lối xóm, vợ chồng anh Ngọc là những người chịu thương chịu khó và hòa nhã.",
+    "words": 19
    },
    {
     "id": "1.07#4",
-    "text": "Khi các chú công an đưa cháu Bích ra xe cứu thương trong tình trạng bị thương nặng, cả khu phố ai nấy đều bật khóc vì quá xót xa.",
-    "words": 30
+    "text": "Khi cháu bé được đưa lên xe cứu thương, cả khu phố lặng đi vì xót xa.",
+    "words": 17
    },
    {
     "id": "1.07#5",
-    "text": "Không một ai có thể tin nổi giữa thanh thiên bạch nhật lại có kẻ nhẫn tâm ra tay tàn độc với cả một gia đình lương thiện như vậy.",
-    "words": 30
+    "text": "Không ai tin nổi lại có kẻ nhẫn tâm ra tay với cả một gia đình lương thiện như vậy.",
+    "words": 20
    },
    {
     "id": "1.07#6",
-    "text": "Suốt cả tuần liền sau đó, cả khu phố chúng tôi không ai dám mở cửa buôn bán, đêm đến nhà nào cũng cài then đóng cửa trong sự sợ hãi tột cùng.",
-    "words": 33
+    "text": "Nhiều ngày sau đó, nỗi sợ hãi vẫn bao trùm cả khu phố.",
+    "words": 13
    },
    {
     "id": "1.07#7",
-    "text": "Chúng tôi chỉ mong mỏi các anh công an sớm bắt được hung thủ để linh hồn những người đã khuất được an nghỉ nơi chín suối.",
-    "words": 27
+    "text": "Ai cũng chỉ mong lực lượng công an sớm bắt được kẻ thủ ác.",
+    "words": 14
    }
   ]
  },
@@ -186,7 +216,7 @@
   "id": "1.08",
   "act": 1,
   "kind": "SFX",
-  "desc": "*Tiếng máy ảnh chớp nháy dồn dập, tiếng đo đạc kích thước dấu chân trên sàn nhà.*"
+  "desc": "*Tiếng máy ảnh chớp nháy dồn dập, tiếng bút ghi chép trên biên bản.*"
  },
  {
   "id": "1.09",
@@ -194,7 +224,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "những dấu vết kỳ lạ tại hiện trường được các điều tra viên phân tích",
-  "text": "Qua công tác khám nghiệm hiện trường, các chuyên gia hình sự đã phát hiện ra nhiều dấu vết đột nhập vô cùng táo tợn nhưng cũng đầy sơ hở. Kẻ đột nhập đã lợi dụng đêm mưa bão để trèo theo cây xanh ven đường, bám vào biển quảng cáo rồi trèo lên ban công tầng ba căn nhà. Hắn dùng dao nhọn cạy phá chốt cửa kính, ngắt cầu dao hệ thống camera an ninh và điện chiếu sáng rồi âm thầm ẩn nấp bên trong. Hầu hết số vàng ta và vàng tây trong các tủ kính trưng bày ở tầng một đã bị gom sạch, để lại nhiều vết cạy phá vội vã. Đặc biệt, việc hung thủ bỏ quên một số vật dụng cá nhân cùng những dấu vết sinh học lạ đã giúp lực lượng điều tra thu hẹp đáng kể diện đối tượng nghi vấn. Các dấu hiệu hiện trường phản ánh hành vi của một đối tượng đơn độc, có sự liều lĩnh bột phát và tâm lý hoảng loạn cực độ khi bị phát hiện.",
+  "text": "Qua công tác khám nghiệm hiện trường, các chuyên gia hình sự đã phát hiện ra nhiều dấu vết đột nhập vô cùng táo tợn nhưng cũng đầy sơ hở. Kẻ đột nhập đã lợi dụng đêm mưa để vào nhà qua lối ban công phía trên. Hắn ẩn nấp bên trong căn nhà suốt nhiều giờ. Hầu hết số vàng ta và vàng tây trong các tủ kính trưng bày ở tầng một đã bị gom sạch, để lại nhiều vết cạy phá vội vã. Đặc biệt, việc hung thủ bỏ quên một số vật dụng cá nhân cùng những dấu vết sinh học lạ đã giúp lực lượng điều tra thu hẹp đáng kể diện đối tượng nghi vấn. Các dấu hiệu hiện trường phản ánh hành vi của một đối tượng đơn độc, có sự liều lĩnh bột phát và tâm lý hoảng loạn cực độ khi bị phát hiện. Những vết xáo trộn lung tung và tủ kính vỡ nát cho thấy kẻ thủ ác không hề có sự điềm tĩnh của một tên trộm nhà nghề. Hắn hành động trong sự cuống cuồng mất kiểm soát và vơ vét tài sản theo bản năng tháo chạy. Các chuyên gia Viện Khoa học Hình sự đã tỉ mỉ trích xuất từng mẫu AND và dấu vết sinh học vương vãi trên nền gạch. Những bằng chứng sinh học quý giá này khẳng định hung thủ chắc chắn đã bị thương trong quá trình giằng co với chủ nhà. Đây là mắt xích khoa học vững chắc giúp định hướng khoanh vùng đối tượng nghi vấn tại các cơ sở y tế lân cận. Bức tranh hiện trường dần hé lộ chân dung của một kẻ liều lĩnh, bế tắc và chứa đầy sự bất ổn về mặt tâm lý.",
   "sentences": [
    {
     "id": "1.09#1",
@@ -203,13 +233,13 @@
    },
    {
     "id": "1.09#2",
-    "text": "Kẻ đột nhập đã lợi dụng đêm mưa bão để trèo theo cây xanh ven đường, bám vào biển quảng cáo rồi trèo lên ban công tầng ba căn nhà.",
-    "words": 30
+    "text": "Kẻ đột nhập đã lợi dụng đêm mưa để vào nhà qua lối ban công phía trên.",
+    "words": 17
    },
    {
     "id": "1.09#3",
-    "text": "Hắn dùng dao nhọn cạy phá chốt cửa kính, ngắt cầu dao hệ thống camera an ninh và điện chiếu sáng rồi âm thầm ẩn nấp bên trong.",
-    "words": 28
+    "text": "Hắn ẩn nấp bên trong căn nhà suốt nhiều giờ.",
+    "words": 10
    },
    {
     "id": "1.09#4",
@@ -225,6 +255,36 @@
     "id": "1.09#6",
     "text": "Các dấu hiệu hiện trường phản ánh hành vi của một đối tượng đơn độc, có sự liều lĩnh bột phát và tâm lý hoảng loạn cực độ khi bị phát hiện.",
     "words": 32
+   },
+   {
+    "id": "1.09#7",
+    "text": "Những vết xáo trộn lung tung và tủ kính vỡ nát cho thấy kẻ thủ ác không hề có sự điềm tĩnh của một tên trộm nhà nghề.",
+    "words": 28
+   },
+   {
+    "id": "1.09#8",
+    "text": "Hắn hành động trong sự cuống cuồng mất kiểm soát và vơ vét tài sản theo bản năng tháo chạy.",
+    "words": 20
+   },
+   {
+    "id": "1.09#9",
+    "text": "Các chuyên gia Viện Khoa học Hình sự đã tỉ mỉ trích xuất từng mẫu AND và dấu vết sinh học vương vãi trên nền gạch.",
+    "words": 26
+   },
+   {
+    "id": "1.09#10",
+    "text": "Những bằng chứng sinh học quý giá này khẳng định hung thủ chắc chắn đã bị thương trong quá trình giằng co với chủ nhà.",
+    "words": 25
+   },
+   {
+    "id": "1.09#11",
+    "text": "Đây là mắt xích khoa học vững chắc giúp định hướng khoanh vùng đối tượng nghi vấn tại các cơ sở y tế lân cận.",
+    "words": 25
+   },
+   {
+    "id": "1.09#12",
+    "text": "Bức tranh hiện trường dần hé lộ chân dung của một kẻ liều lĩnh, bế tắc và chứa đầy sự bất ổn về mặt tâm lý.",
+    "words": 26
    }
   ]
  },
@@ -234,7 +294,7 @@
   "kind": "LOI",
   "role": "D",
   "direction": "D: Điều tra viên Ban chuyên án Bộ Công an & Công an tỉnh Bắc Giang, giọng nam trung niên, đanh thép, sắc bén",
-  "text": "Ngay khi phân tích dấu vết để lại trên các tầng lầu, chúng tôi đã nhận thấy sự hỗn loạn tâm lý rất lớn của kẻ gây án. Đây không phải là phương thức hành động của một băng nhóm tội phạm có tổ chức hay những tên cướp chuyên nghiệp dày dạn kinh nghiệm. Hung thủ đã để lại nhiều dấu vết mẫu máu không thuộc về các nạn nhân, cho thấy đối tượng đã bị thương và xô xát dữ dội tại hiện trường. Qua rà soát hàng nghìn đối tượng thanh thiếu niên bất hảo trên địa bàn, chúng tôi phát hiện một thông tin trinh sát vô cùng quan trọng tại xã Thanh Sơn. Một thiếu niên mười bảy tuổi tên là Lê Văn Luyện, con của một gia đình làm thịt lợn, vừa trở về nhà với nhiều vết thương băng bó trên bàn tay và có biểu hiện bất minh về tài chính.",
+  "text": "Ngay khi phân tích dấu vết để lại trên các tầng lầu, chúng tôi đã nhận thấy sự hỗn loạn tâm lý rất lớn của kẻ gây án. Đây không phải là phương thức hành động của một băng nhóm tội phạm có tổ chức hay những tên cướp chuyên nghiệp dày dạn kinh nghiệm. Hung thủ đã để lại những dấu vết sinh học không thuộc về các nạn nhân, cho thấy đối tượng cũng bị thương tại hiện trường. Qua rà soát hàng nghìn đối tượng thanh thiếu niên bất hảo trên địa bàn, chúng tôi phát hiện một thông tin trinh sát vô cùng quan trọng tại xã Thanh Sơn. Một thiếu niên mười bảy tuổi tên là Lê Văn Luyện vừa trở về nhà với vết thương ở tay và có biểu hiện bất minh về tài chính. Đối tượng này đã từng đi phụ hồ nhưng thời gian gần đây sa đà vào các quán trò chơi điện tử và có dấu hiệu nợ nần tiền bạc. Những biểu hiện bất thường về tâm lý và vết thương băng bó ở bàn tay của Luyện lập tức biến hắn thành đối tượng nghi vấn số một của chuyên án.",
   "sentences": [
    {
     "id": "1.10#1",
@@ -248,8 +308,8 @@
    },
    {
     "id": "1.10#3",
-    "text": "Hung thủ đã để lại nhiều dấu vết mẫu máu không thuộc về các nạn nhân, cho thấy đối tượng đã bị thương và xô xát dữ dội tại hiện trường.",
-    "words": 31
+    "text": "Hung thủ đã để lại những dấu vết sinh học không thuộc về các nạn nhân, cho thấy đối tượng cũng bị thương tại hiện trường.",
+    "words": 26
    },
    {
     "id": "1.10#4",
@@ -258,8 +318,18 @@
    },
    {
     "id": "1.10#5",
-    "text": "Một thiếu niên mười bảy tuổi tên là Lê Văn Luyện, con của một gia đình làm thịt lợn, vừa trở về nhà với nhiều vết thương băng bó trên bàn tay và có biểu hiện bất minh về tài chính.",
-    "words": 41
+    "text": "Một thiếu niên mười bảy tuổi tên là Lê Văn Luyện vừa trở về nhà với vết thương ở tay và có biểu hiện bất minh về tài chính.",
+    "words": 29
+   },
+   {
+    "id": "1.10#6",
+    "text": "Đối tượng này đã từng đi phụ hồ nhưng thời gian gần đây sa đà vào các quán trò chơi điện tử và có dấu hiệu nợ nần tiền bạc.",
+    "words": 30
+   },
+   {
+    "id": "1.10#7",
+    "text": "Những biểu hiện bất thường về tâm lý và vết thương băng bó ở bàn tay của Luyện lập tức biến hắn thành đối tượng nghi vấn số một của chuyên án.",
+    "words": 32
    }
   ]
  },
@@ -269,7 +339,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "khép lại Hồi 1, mở ra cuộc đại truy lùng",
-  "text": "Thông tin trinh sát quý giá ấy đã trở thành chiếc chìa khóa quyết định mở toang cánh cửa bí mật của toàn bộ chuyên án. Nhưng khi lực lượng công an ập đến nơi ở của đối tượng tại xã Thanh Sơn, Lê Văn Luyện đã nhanh chân tẩu thoát vào màn sương mù vùng biên viễn. Một cuộc đại truy lùng xuyên biên giới nghẹt thở chuẩn bị mở màn để đưa kẻ thủ ác ra trước ánh sáng của công lý.",
+  "text": "Thông tin trinh sát quý giá ấy đã trở thành chiếc chìa khóa quyết định mở toang cánh cửa bí mật của toàn bộ chuyên án. Nhưng khi lực lượng công an ập đến nơi ở của đối tượng tại xã Thanh Sơn, Lê Văn Luyện đã nhanh chân tẩu thoát vào màn sương mù vùng biên viễn. Một cuộc đại truy lùng xuyên biên giới nghẹt thở chuẩn bị mở màn để đưa kẻ thủ ác ra trước ánh sáng của công lý. Lệnh truy nã đặc biệt nguy hiểm được phát đi trên toàn bộ các phương tiện thông tin đại chúng và hệ thống cửa khẩu quốc gia. Các mũi trinh sát hình sự phối hợp cùng bộ đội biên phòng khẩn trương siết chặt từng nẻo đường mòn miền sơn cước. Cả xã hội nín thở dõi theo từng bước chân của lực lượng chức năng trong cuộc chạy đua nghẹt thở với thời gian.",
   "sentences": [
    {
     "id": "1.11#1",
@@ -285,6 +355,21 @@
     "id": "1.11#3",
     "text": "Một cuộc đại truy lùng xuyên biên giới nghẹt thở chuẩn bị mở màn để đưa kẻ thủ ác ra trước ánh sáng của công lý.",
     "words": 26
+   },
+   {
+    "id": "1.11#4",
+    "text": "Lệnh truy nã đặc biệt nguy hiểm được phát đi trên toàn bộ các phương tiện thông tin đại chúng và hệ thống cửa khẩu quốc gia.",
+    "words": 27
+   },
+   {
+    "id": "1.11#5",
+    "text": "Các mũi trinh sát hình sự phối hợp cùng bộ đội biên phòng khẩn trương siết chặt từng nẻo đường mòn miền sơn cước.",
+    "words": 24
+   },
+   {
+    "id": "1.11#6",
+    "text": "Cả xã hội nín thở dõi theo từng bước chân của lực lượng chức năng trong cuộc chạy đua nghẹt thở với thời gian.",
+    "words": 24
    }
   ]
  },
@@ -306,12 +391,12 @@
   "kind": "LOI",
   "role": "H",
   "direction": "tiết tấu nhanh, kịch tính, chiến dịch truy bắt khẩn cấp toàn quốc",
-  "text": "Sau khi trốn khỏi địa phương với chiếc ba lô chứa đầy vàng cướp được, Lê Văn Luyện lập tức đón xe khách bỏ trốn lên vùng biên giới Lạng Sơn. Trước tính chất đặc biệt nghiêm trọng của vụ án, Bộ Công an đã phát lệnh truy nã đặc biệt trên toàn quốc đối với đối tượng nguy hiểm này. Hàng nghìn cán bộ chiến sĩ thuộc lực lượng công an và bộ đội biên phòng đã được huy động chốt chặn toàn bộ các đường mòn, lối mở dọc tuyến biên giới phía Bắc.",
+  "text": "Sau khi trốn khỏi địa phương, Lê Văn Luyện tìm đường lên vùng biên giới Lạng Sơn. Trước tính chất đặc biệt nghiêm trọng của vụ án, Bộ Công an đã phát lệnh truy nã đặc biệt trên toàn quốc đối với đối tượng nguy hiểm này. Hàng nghìn cán bộ chiến sĩ thuộc lực lượng công an và bộ đội biên phòng đã được huy động chốt chặn toàn bộ các đường mòn, lối mở dọc tuyến biên giới phía Bắc. Mọi thông tin nhận dạng về kẻ đào tẩu mười bảy tuổi được chuyển thẳng đến từng đồn biên phòng và các chốt kiểm soát vùng cao. Cuộc vây ráp quy mô chưa từng có diễn ra trong điều kiện địa hình rừng núi hiểm trở và thời tiết mưa bão khắc nghiệt.",
   "sentences": [
    {
     "id": "2.02#1",
-    "text": "Sau khi trốn khỏi địa phương với chiếc ba lô chứa đầy vàng cướp được, Lê Văn Luyện lập tức đón xe khách bỏ trốn lên vùng biên giới Lạng Sơn.",
-    "words": 31
+    "text": "Sau khi trốn khỏi địa phương, Lê Văn Luyện tìm đường lên vùng biên giới Lạng Sơn.",
+    "words": 17
    },
    {
     "id": "2.02#2",
@@ -322,6 +407,16 @@
     "id": "2.02#3",
     "text": "Hàng nghìn cán bộ chiến sĩ thuộc lực lượng công an và bộ đội biên phòng đã được huy động chốt chặn toàn bộ các đường mòn, lối mở dọc tuyến biên giới phía Bắc.",
     "words": 35
+   },
+   {
+    "id": "2.02#4",
+    "text": "Mọi thông tin nhận dạng về kẻ đào tẩu mười bảy tuổi được chuyển thẳng đến từng đồn biên phòng và các chốt kiểm soát vùng cao.",
+    "words": 27
+   },
+   {
+    "id": "2.02#5",
+    "text": "Cuộc vây ráp quy mô chưa từng có diễn ra trong điều kiện địa hình rừng núi hiểm trở và thời tiết mưa bão khắc nghiệt.",
+    "words": 26
    }
   ]
  },
@@ -337,22 +432,22 @@
   "kind": "LOI",
   "role": "H",
   "direction": "hành trình vượt biên sang Trung Quốc và cái bẫy của lực lượng biên phòng",
-  "text": "Với sự tiếp tay của một số người quen thiếu hiểu biết pháp luật, Luyện đã vượt biên trái phép sang địa phận tỉnh Quảng Tây, Trung Quốc để lẩn trốn. Tại nơi đất khách quê người, kẻ thủ ác phải sống trong nỗi hoang mang tột cùng, không biết tiếng bản địa và luôn nơm nớp lo sợ bị bắt giữ. Hiểu rõ tâm lý của đối tượng, Ban chuyên án đã phối hợp chặt chẽ với Cảnh sát Trung Quốc và gia đình để thực hiện các biện pháp nghiệp vụ tác động tâm lý. Đồng thời, lực lượng Bộ đội Biên phòng tỉnh Lạng Sơn đã bố trí các mũi trinh sát mật phục nghiêm ngặt tại các điểm hiểm yếu ở khu vực đồn Na Hình. Sau nhiều ngày sống chui lủi trong đói khát và hoảng loạn nơi xứ người, Luyện nhận ra mình không còn đường lui và tìm cách quay trở lại Việt Nam. Chiều ngày 31 tháng 8 năm 2011, sau đúng bảy ngày đêm truy lùng gắt gao, khoảnh khắc quyết định của chuyên án đã chính thức diễn ra.",
+  "text": "Hắn tính đường trốn ra nước ngoài qua các lối mòn biên giới. Kẻ thủ ác sống trong nỗi hoang mang tột cùng và luôn nơm nớp lo sợ bị bắt giữ. Ban chuyên án đã phối hợp với gia đình đối tượng để thực hiện các biện pháp nghiệp vụ tác động tâm lý. Đồng thời, lực lượng Bộ đội Biên phòng tỉnh Lạng Sơn đã bố trí các mũi trinh sát mật phục nghiêm ngặt tại các điểm hiểm yếu ở khu vực đồn Na Hình. Luyện dần nhận ra mình không còn đường lui. Chỉ vài ngày sau khi vụ án xảy ra, khoảnh khắc quyết định của chuyên án đã chính thức diễn ra. Kẻ đào tẩu kiệt quệ sau những đêm dài lẩn trốn trong các lùm cây và khe suối ẩm ướt. Nỗi sợ hãi cái chết và sự đói khát cùng cực đã đè bẹp hoàn toàn sự liều lĩnh mù quáng ban đầu của hắn.",
   "sentences": [
    {
     "id": "2.04#1",
-    "text": "Với sự tiếp tay của một số người quen thiếu hiểu biết pháp luật, Luyện đã vượt biên trái phép sang địa phận tỉnh Quảng Tây, Trung Quốc để lẩn trốn.",
-    "words": 31
+    "text": "Hắn tính đường trốn ra nước ngoài qua các lối mòn biên giới.",
+    "words": 13
    },
    {
     "id": "2.04#2",
-    "text": "Tại nơi đất khách quê người, kẻ thủ ác phải sống trong nỗi hoang mang tột cùng, không biết tiếng bản địa và luôn nơm nớp lo sợ bị bắt giữ.",
-    "words": 31
+    "text": "Kẻ thủ ác sống trong nỗi hoang mang tột cùng và luôn nơm nớp lo sợ bị bắt giữ.",
+    "words": 19
    },
    {
     "id": "2.04#3",
-    "text": "Hiểu rõ tâm lý của đối tượng, Ban chuyên án đã phối hợp chặt chẽ với Cảnh sát Trung Quốc và gia đình để thực hiện các biện pháp nghiệp vụ tác động tâm lý.",
-    "words": 35
+    "text": "Ban chuyên án đã phối hợp với gia đình đối tượng để thực hiện các biện pháp nghiệp vụ tác động tâm lý.",
+    "words": 23
    },
    {
     "id": "2.04#4",
@@ -361,13 +456,23 @@
    },
    {
     "id": "2.04#5",
-    "text": "Sau nhiều ngày sống chui lủi trong đói khát và hoảng loạn nơi xứ người, Luyện nhận ra mình không còn đường lui và tìm cách quay trở lại Việt Nam.",
-    "words": 31
+    "text": "Luyện dần nhận ra mình không còn đường lui.",
+    "words": 9
    },
    {
     "id": "2.04#6",
-    "text": "Chiều ngày 31 tháng 8 năm 2011, sau đúng bảy ngày đêm truy lùng gắt gao, khoảnh khắc quyết định của chuyên án đã chính thức diễn ra.",
-    "words": 28
+    "text": "Chỉ vài ngày sau khi vụ án xảy ra, khoảnh khắc quyết định của chuyên án đã chính thức diễn ra.",
+    "words": 21
+   },
+   {
+    "id": "2.04#7",
+    "text": "Kẻ đào tẩu kiệt quệ sau những đêm dài lẩn trốn trong các lùm cây và khe suối ẩm ướt.",
+    "words": 20
+   },
+   {
+    "id": "2.04#8",
+    "text": "Nỗi sợ hãi cái chết và sự đói khát cùng cực đã đè bẹp hoàn toàn sự liều lĩnh mù quáng ban đầu của hắn.",
+    "words": 25
    }
   ]
  },
@@ -383,32 +488,42 @@
   "kind": "LOI",
   "role": "D",
   "direction": "D: Điều tra viên Ban chuyên án Bộ Công an & Công an tỉnh Bắc Giang, giây phút khống chế kẻ đào tẩu",
-  "text": "Khoảng mười sáu giờ chiều ngày 31 tháng 8 năm 2011, tại khu vực mốc biên giới thuộc xã Thụy Hùng, huyện Văn Lãng, các trinh sát Đồn Biên phòng Na Hình đã phát hiện một bóng người khả nghi. Đối tượng mặc áo thun, đội mũ lưỡi trai sùm sụp và đang tìm cách lẻn qua một con đường mòn heo hút để đi sâu vào nội địa. Ngay lập tức, các mũi phục kích đã đồng loạt khép chặt vòng vây, ập tới quật ngã và khống chế đối tượng một cách an toàn tuyệt đối. Khi được đưa về đồn biên phòng để kiểm tra căn cước, người thanh niên ấy đã run rẩy thừa nhận: Cháu chính là Lê Văn Luyện. Giây phút chiếc còng số tám khóa chặt vào tay đối tượng, toàn bộ Ban chuyên án như trút được một tảng đá đè nặng ngàn cân trong suốt một tuần lễ ròng rã.",
+  "text": "Tại khu vực biên giới huyện Văn Lãng, tỉnh Lạng Sơn, lực lượng biên phòng đã phát hiện một thanh niên khả nghi. Đối tượng đang tìm cách di chuyển qua một con đường mòn heo hút. Các mũi phục kích đã nhanh chóng khống chế đối tượng an toàn. Tại Đồn Biên phòng Na Hình, người thanh niên ấy thừa nhận mình chính là Lê Văn Luyện. Giây phút ấy, toàn bộ Ban chuyên án như trút được một gánh nặng ngàn cân. Khi bị áp giải vào đồn, đối tượng có biểu hiện mệt mỏi, sợ hãi nhưng thái độ lại vô cùng lầm lì và kiệm lời. Những lời khai ngắn ngủi đầu tiên đã chính thức xác nhận việc bắt giữ thành công kẻ gây ra vụ thảm sát tiệm vàng.",
   "sentences": [
    {
     "id": "2.06#1",
-    "text": "Khoảng mười sáu giờ chiều ngày 31 tháng 8 năm 2011, tại khu vực mốc biên giới thuộc xã Thụy Hùng, huyện Văn Lãng, các trinh sát Đồn Biên phòng Na Hình đã phát hiện một bóng người khả nghi.",
-    "words": 40
+    "text": "Tại khu vực biên giới huyện Văn Lãng, tỉnh Lạng Sơn, lực lượng biên phòng đã phát hiện một thanh niên khả nghi.",
+    "words": 23
    },
    {
     "id": "2.06#2",
-    "text": "Đối tượng mặc áo thun, đội mũ lưỡi trai sùm sụp và đang tìm cách lẻn qua một con đường mòn heo hút để đi sâu vào nội địa.",
-    "words": 29
+    "text": "Đối tượng đang tìm cách di chuyển qua một con đường mòn heo hút.",
+    "words": 14
    },
    {
     "id": "2.06#3",
-    "text": "Ngay lập tức, các mũi phục kích đã đồng loạt khép chặt vòng vây, ập tới quật ngã và khống chế đối tượng một cách an toàn tuyệt đối.",
-    "words": 29
+    "text": "Các mũi phục kích đã nhanh chóng khống chế đối tượng an toàn.",
+    "words": 13
    },
    {
     "id": "2.06#4",
-    "text": "Khi được đưa về đồn biên phòng để kiểm tra căn cước, người thanh niên ấy đã run rẩy thừa nhận: Cháu chính là Lê Văn Luyện.",
-    "words": 27
+    "text": "Tại Đồn Biên phòng Na Hình, người thanh niên ấy thừa nhận mình chính là Lê Văn Luyện.",
+    "words": 18
    },
    {
     "id": "2.06#5",
-    "text": "Giây phút chiếc còng số tám khóa chặt vào tay đối tượng, toàn bộ Ban chuyên án như trút được một tảng đá đè nặng ngàn cân trong suốt một tuần lễ ròng rã.",
-    "words": 34
+    "text": "Giây phút ấy, toàn bộ Ban chuyên án như trút được một gánh nặng ngàn cân.",
+    "words": 16
+   },
+   {
+    "id": "2.06#6",
+    "text": "Khi bị áp giải vào đồn, đối tượng có biểu hiện mệt mỏi, sợ hãi nhưng thái độ lại vô cùng lầm lì và kiệm lời.",
+    "words": 26
+   },
+   {
+    "id": "2.06#7",
+    "text": "Những lời khai ngắn ngủi đầu tiên đã chính thức xác nhận việc bắt giữ thành công kẻ gây ra vụ thảm sát tiệm vàng.",
+    "words": 25
    }
   ]
  },
@@ -424,22 +539,22 @@
   "kind": "LOI",
   "role": "H",
   "direction": "cuộc di lý khẩn cấp về Công an tỉnh Bắc Giang",
-  "text": "Ngay trong đêm 31 tháng 8 năm 2011, Lê Văn Luyện đã được lực lượng Cảnh sát Hình sự áp giải từ Lạng Sơn về Trại tạm giam Công an tỉnh Bắc Giang dưới sự bảo vệ tối đa. Hàng trăm phóng viên báo chí và hàng nghìn người dân đã tập trung trước cổng cơ quan điều tra để tận mắt chứng kiến kẻ đã gây ra thảm án kinh hoàng. Trái ngược với những hình dung của dư luận về một gã giang hồ hung dữ, kẻ đứng trước ống kính truyền thông là một thiếu niên gầy gò, đôi mắt thất thần và khuôn mặt non choẹt. Chính sự đối lập ghê gớm giữa độ tuổi còn quá trẻ và mức độ tàn khốc của hành vi phạm tội đã đặt ra một dấu hỏi lớn cho toàn xã hội. Tại sao một thanh niên mới lớn, xuất thân từ một gia đình lao động bình thường, lại có thể thực hiện một chuỗi tội ác tày trời đến như vậy?",
+  "text": "Lê Văn Luyện sau đó được áp giải từ Lạng Sơn về Công an tỉnh Bắc Giang dưới sự bảo vệ tối đa. Rất đông phóng viên và người dân đã tập trung để chứng kiến kẻ gây ra thảm án. Trái ngược với những hình dung của dư luận về một gã giang hồ hung dữ, kẻ đứng trước ống kính truyền thông là một thiếu niên gầy gò. Chính sự đối lập ghê gớm giữa độ tuổi còn quá trẻ và mức độ tàn khốc của hành vi phạm tội đã đặt ra một dấu hỏi lớn cho toàn xã hội. Tại sao một thanh niên mới lớn, xuất thân từ một gia đình lao động bình thường, lại có thể thực hiện một chuỗi tội ác tày trời đến như vậy? Sự bình thản đến lạnh lùng trên khuôn mặt của Luyện khi đối diện với ống kính máy ảnh đã khiến nhiều người phải rùng mình kinh ngạc.",
   "sentences": [
    {
     "id": "2.08#1",
-    "text": "Ngay trong đêm 31 tháng 8 năm 2011, Lê Văn Luyện đã được lực lượng Cảnh sát Hình sự áp giải từ Lạng Sơn về Trại tạm giam Công an tỉnh Bắc Giang dưới sự bảo vệ tối đa.",
-    "words": 39
+    "text": "Lê Văn Luyện sau đó được áp giải từ Lạng Sơn về Công an tỉnh Bắc Giang dưới sự bảo vệ tối đa.",
+    "words": 23
    },
    {
     "id": "2.08#2",
-    "text": "Hàng trăm phóng viên báo chí và hàng nghìn người dân đã tập trung trước cổng cơ quan điều tra để tận mắt chứng kiến kẻ đã gây ra thảm án kinh hoàng.",
-    "words": 33
+    "text": "Rất đông phóng viên và người dân đã tập trung để chứng kiến kẻ gây ra thảm án.",
+    "words": 18
    },
    {
     "id": "2.08#3",
-    "text": "Trái ngược với những hình dung của dư luận về một gã giang hồ hung dữ, kẻ đứng trước ống kính truyền thông là một thiếu niên gầy gò, đôi mắt thất thần và khuôn mặt non choẹt.",
-    "words": 38
+    "text": "Trái ngược với những hình dung của dư luận về một gã giang hồ hung dữ, kẻ đứng trước ống kính truyền thông là một thiếu niên gầy gò.",
+    "words": 29
    },
    {
     "id": "2.08#4",
@@ -450,6 +565,11 @@
     "id": "2.08#5",
     "text": "Tại sao một thanh niên mới lớn, xuất thân từ một gia đình lao động bình thường, lại có thể thực hiện một chuỗi tội ác tày trời đến như vậy?",
     "words": 31
+   },
+   {
+    "id": "2.08#6",
+    "text": "Sự bình thản đến lạnh lùng trên khuôn mặt của Luyện khi đối diện với ống kính máy ảnh đã khiến nhiều người phải rùng mình kinh ngạc.",
+    "words": 28
    }
   ]
  },
@@ -459,7 +579,7 @@
   "kind": "LOI",
   "role": "D",
   "direction": "D: Điều tra viên Ban chuyên án Bộ Công an & Công an tỉnh Bắc Giang, lời khai ban đầu của đối tượng",
-  "text": "Trong những buổi thẩm vấn đầu tiên tại trại tạm giam, Lê Văn Luyện đã khai nhận toàn bộ quá trình phạm tội với một thái độ bình thản đến rợn người. Hắn khai rằng mục đích ban đầu chỉ là đột nhập trộm cắp vàng để lấy tiền chuộc chiếc xe máy mượn của người chú rể mà hắn đã đem đi cầm cố lấy tiền chơi game. Hắn đã chuẩn bị dao phớ, đèn pin và ba lô rồi bí mật đột nhập vào tiệm vàng từ lúc nửa đêm và ẩn nấp chờ cơ hội ra tay. Thế nhưng, khi trời vừa rạng sáng, việc bất ngờ chạm mặt người chủ nhà đã làm đảo lộn hoàn toàn kế hoạch trộm cắp ban đầu của hắn.",
+  "text": "Trong những buổi thẩm vấn đầu tiên tại trại tạm giam, Lê Văn Luyện đã khai nhận toàn bộ quá trình phạm tội với một thái độ bình thản đến rợn người. Hắn khai rằng mục đích ban đầu chỉ là đột nhập trộm cắp vàng để lấy tiền chuộc chiếc xe máy mượn của người chú rể mà hắn đã đem đi cầm cố lấy tiền chơi game. Hắn đột nhập vào tiệm vàng từ lúc nửa đêm và ẩn nấp chờ cơ hội. Thế nhưng, khi trời vừa rạng sáng, việc bất ngờ chạm mặt người chủ nhà đã làm đảo lộn hoàn toàn kế hoạch trộm cắp ban đầu của hắn. Đối tượng khai nhận đã chuẩn bị sẵn hung khí từ trước nhưng khẳng định bản thân ban đầu không có ý định tước đoạt sinh mạng ai. Tuy nhiên, sự bế tắc và nỗi hoảng loạn khi kế hoạch đổ bể đã đẩy đối tượng vào một chuỗi hành động mất kiểm soát tàn bạo.",
   "sentences": [
    {
     "id": "2.09#1",
@@ -473,13 +593,23 @@
    },
    {
     "id": "2.09#3",
-    "text": "Hắn đã chuẩn bị dao phớ, đèn pin và ba lô rồi bí mật đột nhập vào tiệm vàng từ lúc nửa đêm và ẩn nấp chờ cơ hội ra tay.",
-    "words": 31
+    "text": "Hắn đột nhập vào tiệm vàng từ lúc nửa đêm và ẩn nấp chờ cơ hội.",
+    "words": 16
    },
    {
     "id": "2.09#4",
     "text": "Thế nhưng, khi trời vừa rạng sáng, việc bất ngờ chạm mặt người chủ nhà đã làm đảo lộn hoàn toàn kế hoạch trộm cắp ban đầu của hắn.",
     "words": 29
+   },
+   {
+    "id": "2.09#5",
+    "text": "Đối tượng khai nhận đã chuẩn bị sẵn hung khí từ trước nhưng khẳng định bản thân ban đầu không có ý định tước đoạt sinh mạng ai.",
+    "words": 28
+   },
+   {
+    "id": "2.09#6",
+    "text": "Tuy nhiên, sự bế tắc và nỗi hoảng loạn khi kế hoạch đổ bể đã đẩy đối tượng vào một chuỗi hành động mất kiểm soát tàn bạo.",
+    "words": 28
    }
   ]
  },
@@ -489,12 +619,12 @@
   "kind": "LOI",
   "role": "H",
   "direction": "sự bùng phát của cơn cuồng loạn bịt đầu mối",
-  "text": "Lời khai của Luyện đã hé lộ khoảnh khắc bước ngoặt biến một vụ trộm cắp tài sản thành một thảm án đẫm máu. Trong không gian chật hẹp của căn nhà khóa kín, sự xuất hiện bất ngờ của người chủ nhà đã làm sụp đổ hoàn toàn toan tính ban đầu của hắn. Nỗi sợ hãi tột cùng bị bắt giữ đã kích hoạt một phản ứng cuồng nộ và bản năng tàn sát để bịt đầu mối. Kẻ thủ ác đã không còn kiểm soát được lý trí và trượt dài vào một cơn ác mộng bạo lực không thể cứu vãn. Sự tàn nhẫn bột phát ấy phản ánh lỗ hổng nghiêm trọng trong việc kiểm soát xung động hành vi của lứa tuổi mới lớn. Và các chuyên gia tâm lý học tội phạm đã bắt tay vào bóc tách cấu trúc tâm thần của một tội phạm vị thành niên trượt ngã từ thế giới ảo.",
+  "text": "Lời khai của Luyện đã hé lộ khoảnh khắc bước ngoặt biến một vụ trộm cắp tài sản thành một thảm án. Trong không gian chật hẹp của căn nhà khóa kín, sự xuất hiện bất ngờ của người chủ nhà đã làm sụp đổ hoàn toàn toan tính ban đầu của hắn. Nỗi sợ hãi tột cùng bị bắt giữ đã kích hoạt một phản ứng cuồng nộ để bịt đầu mối. Kẻ thủ ác đã không còn kiểm soát được lý trí và gây ra một bi kịch không thể cứu vãn. Sự tàn nhẫn bột phát ấy phản ánh lỗ hổng nghiêm trọng trong việc kiểm soát xung động hành vi của lứa tuổi mới lớn. Và các chuyên gia tâm lý học tội phạm đã bắt tay vào bóc tách cấu trúc tâm thần của một tội phạm vị thành niên trượt ngã từ thế giới ảo. Ở lứa tuổi mười bảy, ranh giới giữa một hành vi bồng bột và một tội ác kinh hoàng đôi khi mỏng manh đến đáng sợ. Khi bị dồn vào chân tường, những đứa trẻ thiếu hụt kỹ năng sống có xu hướng chọn những giải pháp cực đoan và hủy diệt nhất. Bi kịch tại Phố Sàn là một minh chứng đớn đau cho sự sụp đổ của hệ thống kiềm chế cảm xúc. Đồng thời, sự bao che mù quáng của những người thân trong gia đình sau đó cũng phơi bày những lỗ hổng đạo đức nghiêm trọng. Người cha vì thương con sai cách đã tiếp tay chôn giấu tang vật và đưa con đi trốn, tự biến mình thành đồng phạm trước pháp luật. Tất cả những chi tiết giằng xé ấy đã đưa vụ án trở thành một hồ sơ nghiên cứu kinh điển về tâm lý học hành vi và xã hội học gia đình.",
   "sentences": [
    {
     "id": "2.10#1",
-    "text": "Lời khai của Luyện đã hé lộ khoảnh khắc bước ngoặt biến một vụ trộm cắp tài sản thành một thảm án đẫm máu.",
-    "words": 24
+    "text": "Lời khai của Luyện đã hé lộ khoảnh khắc bước ngoặt biến một vụ trộm cắp tài sản thành một thảm án.",
+    "words": 22
    },
    {
     "id": "2.10#2",
@@ -503,13 +633,13 @@
    },
    {
     "id": "2.10#3",
-    "text": "Nỗi sợ hãi tột cùng bị bắt giữ đã kích hoạt một phản ứng cuồng nộ và bản năng tàn sát để bịt đầu mối.",
-    "words": 25
+    "text": "Nỗi sợ hãi tột cùng bị bắt giữ đã kích hoạt một phản ứng cuồng nộ để bịt đầu mối.",
+    "words": 20
    },
    {
     "id": "2.10#4",
-    "text": "Kẻ thủ ác đã không còn kiểm soát được lý trí và trượt dài vào một cơn ác mộng bạo lực không thể cứu vãn.",
-    "words": 25
+    "text": "Kẻ thủ ác đã không còn kiểm soát được lý trí và gây ra một bi kịch không thể cứu vãn.",
+    "words": 21
    },
    {
     "id": "2.10#5",
@@ -520,6 +650,36 @@
     "id": "2.10#6",
     "text": "Và các chuyên gia tâm lý học tội phạm đã bắt tay vào bóc tách cấu trúc tâm thần của một tội phạm vị thành niên trượt ngã từ thế giới ảo.",
     "words": 32
+   },
+   {
+    "id": "2.10#7",
+    "text": "Ở lứa tuổi mười bảy, ranh giới giữa một hành vi bồng bột và một tội ác kinh hoàng đôi khi mỏng manh đến đáng sợ.",
+    "words": 26
+   },
+   {
+    "id": "2.10#8",
+    "text": "Khi bị dồn vào chân tường, những đứa trẻ thiếu hụt kỹ năng sống có xu hướng chọn những giải pháp cực đoan và hủy diệt nhất.",
+    "words": 27
+   },
+   {
+    "id": "2.10#9",
+    "text": "Bi kịch tại Phố Sàn là một minh chứng đớn đau cho sự sụp đổ của hệ thống kiềm chế cảm xúc.",
+    "words": 22
+   },
+   {
+    "id": "2.10#10",
+    "text": "Đồng thời, sự bao che mù quáng của những người thân trong gia đình sau đó cũng phơi bày những lỗ hổng đạo đức nghiêm trọng.",
+    "words": 26
+   },
+   {
+    "id": "2.10#11",
+    "text": "Người cha vì thương con sai cách đã tiếp tay chôn giấu tang vật và đưa con đi trốn, tự biến mình thành đồng phạm trước pháp luật.",
+    "words": 28
+   },
+   {
+    "id": "2.10#12",
+    "text": "Tất cả những chi tiết giằng xé ấy đã đưa vụ án trở thành một hồ sơ nghiên cứu kinh điển về tâm lý học hành vi và xã hội học gia đình.",
+    "words": 33
    }
   ]
  },
@@ -571,7 +731,7 @@
   "kind": "LOI",
   "role": "C",
   "direction": "C: Chuyên gia Tâm lý học Tội phạm & Tội phạm học vị thành niên, giọng điềm đạm, học thuật",
-  "text": "Theo các nghiên cứu về tâm thần học phát triển, não bộ của người ở lứa tuổi mười bảy chưa hoàn thiện toàn diện về mặt sinh học, đặc biệt là vùng vỏ não trước trán. Đây là khu vực chịu trách nhiệm chính trong việc kiểm soát xung động cảm xúc, cân nhắc rủi ro và đánh giá hậu quả dài hạn của hành vi. Lê Văn Luyện bỏ học từ sớm, thiếu sự định hướng của nhà trường và sớm rời khỏi sự bảo bọc của gia đình để đi làm thợ xây tự do tại môi trường phức tạp. Trong giai đoạn này, hắn đã rơi vào tình trạng nghiện game online kiếm hiệp bạo lực mức độ nặng, dành hàng chục giờ liên tục mỗi ngày trong các tiệm internet. Việc tiếp xúc kéo dài với các hình ảnh chém giết trong thế giới ảo đã kích hoạt cơ chế Khử nhạy cảm cảm xúc, tức Virtual Desensitization. Ranh giới giữa bạo lực ảo trên màn hình và giá trị sinh mạng con người ngoài đời thực trong tâm trí của một thiếu niên chưa định hình nhân cách dần bị xóa nhòa. Hắn trở nên trơ lì trước nỗi đau của đồng loại và hình thành tư duy giải quyết mọi mâu thuẫn bằng bạo lực mù quáng.",
+  "text": "Theo các nghiên cứu về tâm thần học phát triển, não bộ của người ở lứa tuổi mười bảy chưa hoàn thiện toàn diện về mặt sinh học, đặc biệt là vùng vỏ não trước trán. Đây là khu vực chịu trách nhiệm chính trong việc kiểm soát xung động cảm xúc, cân nhắc rủi ro và đánh giá hậu quả dài hạn của hành vi. Lê Văn Luyện bỏ học từ sớm, thiếu hụt sự giáo dục nền tảng và dành phần lớn thời gian đắm chìm trong các trò chơi điện tử bạo lực. Thế giới ảo với những màn chiến đấu bạo lực không hồi kết đã tạo ra hiện tượng khử nhạy cảm cảm xúc đối với bạo lực ngoài đời thực. Khi một đứa trẻ liên tục tiếp xúc với các cảnh tượng bạo lực trong game, hệ thần kinh của chúng dần coi sự hủy diệt là một điều bình thường và giảm sút nghiêm trọng lòng trắc ẩn. Đó là trạng thái trơ lì cảm xúc nguy hiểm, khiến đối tượng mất đi khả năng thấu cảm trước nỗi đau đớn của đồng loại. Khi đối mặt với hoàn cảnh thực tế, những phản xạ giải quyết vấn đề bằng bạo lực trong thế giới ảo rất dễ dàng bị kích hoạt. Sự biến dạng nhân cách này diễn ra âm thầm mà ngay cả những người thân cận nhất trong gia đình cũng không hề hay biết.",
   "sentences": [
    {
     "id": "3.03#1",
@@ -585,27 +745,32 @@
    },
    {
     "id": "3.03#3",
-    "text": "Lê Văn Luyện bỏ học từ sớm, thiếu sự định hướng của nhà trường và sớm rời khỏi sự bảo bọc của gia đình để đi làm thợ xây tự do tại môi trường phức tạp.",
-    "words": 36
+    "text": "Lê Văn Luyện bỏ học từ sớm, thiếu hụt sự giáo dục nền tảng và dành phần lớn thời gian đắm chìm trong các trò chơi điện tử bạo lực.",
+    "words": 30
    },
    {
     "id": "3.03#4",
-    "text": "Trong giai đoạn này, hắn đã rơi vào tình trạng nghiện game online kiếm hiệp bạo lực mức độ nặng, dành hàng chục giờ liên tục mỗi ngày trong các tiệm internet.",
-    "words": 32
+    "text": "Thế giới ảo với những màn chiến đấu bạo lực không hồi kết đã tạo ra hiện tượng khử nhạy cảm cảm xúc đối với bạo lực ngoài đời thực.",
+    "words": 30
    },
    {
     "id": "3.03#5",
-    "text": "Việc tiếp xúc kéo dài với các hình ảnh chém giết trong thế giới ảo đã kích hoạt cơ chế Khử nhạy cảm cảm xúc, tức Virtual Desensitization.",
-    "words": 28
+    "text": "Khi một đứa trẻ liên tục tiếp xúc với các cảnh tượng bạo lực trong game, hệ thần kinh của chúng dần coi sự hủy diệt là một điều bình thường và giảm sút nghiêm trọng lòng trắc ẩn.",
+    "words": 39
    },
    {
     "id": "3.03#6",
-    "text": "Ranh giới giữa bạo lực ảo trên màn hình và giá trị sinh mạng con người ngoài đời thực trong tâm trí của một thiếu niên chưa định hình nhân cách dần bị xóa nhòa.",
-    "words": 35
+    "text": "Đó là trạng thái trơ lì cảm xúc nguy hiểm, khiến đối tượng mất đi khả năng thấu cảm trước nỗi đau đớn của đồng loại.",
+    "words": 26
    },
    {
     "id": "3.03#7",
-    "text": "Hắn trở nên trơ lì trước nỗi đau của đồng loại và hình thành tư duy giải quyết mọi mâu thuẫn bằng bạo lực mù quáng.",
+    "text": "Khi đối mặt với hoàn cảnh thực tế, những phản xạ giải quyết vấn đề bằng bạo lực trong thế giới ảo rất dễ dàng bị kích hoạt.",
+    "words": 28
+   },
+   {
+    "id": "3.03#8",
+    "text": "Sự biến dạng nhân cách này diễn ra âm thầm mà ngay cả những người thân cận nhất trong gia đình cũng không hề hay biết.",
     "words": 26
    }
   ]
@@ -615,23 +780,28 @@
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "áp lực nợ nần và quyết định đột nhập tiệm vàng",
-  "text": "Khi sự nghiện ngập trò chơi điện tử đi kèm với thói ăn chơi lêu lổng, áp lực tài chính đã nhanh chóng đẩy Luyện vào bước đường cùng. Hắn cầm cố chiếc xe máy mượn của người chú rể lấy tiền chơi game, và nỗi sợ bị gia đình phát hiện đã thúc đẩy hắn nảy sinh ý định cướp tài sản. Và mục tiêu mà hắn nhắm đến là tiệm vàng Ngọc Bích, nơi hắn từng có dịp quan sát và nhận thấy nhiều sơ hở trong công tác bảo vệ ban đêm.",
+  "direction": "áp lực nợ nần và sự ảo tưởng của kẻ mới lớn",
+  "text": "Áp lực nợ nần cùng nỗi sợ hãi gia đình phát hiện chiếc xe máy bị cầm cố đã đẩy Luyện vào ngõ cụt. Hắn không tìm kiếm sự giúp đỡ từ người thân mà tự mình vạch ra một kế hoạch kiếm tiền đầy liều lĩnh. Sự non nớt trong nhận thức khiến hắn tin rằng một vụ trộm tiệm vàng có thể diễn ra êm thấm như một nhiệm vụ trong trò chơi điện tử. Hắn không hề lường trước được rằng đời thực không bao giờ có nút quay lại hay cơ hội làm lại từ đầu.",
   "sentences": [
    {
     "id": "3.04#1",
-    "text": "Khi sự nghiện ngập trò chơi điện tử đi kèm với thói ăn chơi lêu lổng, áp lực tài chính đã nhanh chóng đẩy Luyện vào bước đường cùng.",
-    "words": 29
+    "text": "Áp lực nợ nần cùng nỗi sợ hãi gia đình phát hiện chiếc xe máy bị cầm cố đã đẩy Luyện vào ngõ cụt.",
+    "words": 24
    },
    {
     "id": "3.04#2",
-    "text": "Hắn cầm cố chiếc xe máy mượn của người chú rể lấy tiền chơi game, và nỗi sợ bị gia đình phát hiện đã thúc đẩy hắn nảy sinh ý định cướp tài sản.",
-    "words": 34
+    "text": "Hắn không tìm kiếm sự giúp đỡ từ người thân mà tự mình vạch ra một kế hoạch kiếm tiền đầy liều lĩnh.",
+    "words": 23
    },
    {
     "id": "3.04#3",
-    "text": "Và mục tiêu mà hắn nhắm đến là tiệm vàng Ngọc Bích, nơi hắn từng có dịp quan sát và nhận thấy nhiều sơ hở trong công tác bảo vệ ban đêm.",
-    "words": 32
+    "text": "Sự non nớt trong nhận thức khiến hắn tin rằng một vụ trộm tiệm vàng có thể diễn ra êm thấm như một nhiệm vụ trong trò chơi điện tử.",
+    "words": 30
+   },
+   {
+    "id": "3.04#4",
+    "text": "Hắn không hề lường trước được rằng đời thực không bao giờ có nút quay lại hay cơ hội làm lại từ đầu.",
+    "words": 23
    }
   ]
  },
@@ -640,43 +810,53 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: Bóc tách Hội chứng Chuột cùng đường và Cơn hoảng loạn bịt đầu mối",
-  "text": "Tại thời điểm đột nhập vào tiệm vàng, mục đích ban đầu của Lê Văn Luyện rõ ràng chỉ dừng lại ở hành vi chiếm đoạt tài sản để lấy tiền chuộc xe. Tuy nhiên, khi chủ nhà bất ngờ thức giấc và phát hiện kẻ đột nhập, một phản ứng tâm lý cực kỳ nguy hiểm đã được kích hoạt: Hội chứng Chuột cùng đường. Trong một không gian kín mít, tăm tối và không có đường tháo chạy ngay lập tức, nỗi sợ hãi tột cùng bị bắt giữ đã làm tê liệt hoàn toàn khả năng tư duy duy lý của đối tượng. Bộ não nguyên thủy của hắn chuyển sang trạng thái Phản ứng chiến đấu sinh tồn cực đoan trong cơn hoảng loạn. Hắn lo sợ rằng nếu để các nhân chứng sống sót và nhận mặt, cuộc đời của hắn sẽ chấm dứt sau song sắt nhà tù. Sự hoảng sợ tột độ đã chuyển hóa thành một cơn cuồng loạn bạo lực mất kiểm soát nhằm mục đích duy nhất là tước đoạt sinh mạng để bịt đầu mối. Đây là biểu hiện kinh điển của dạng tội phạm bộc phát do hoảng loạn, nơi hành vi bạo lực leo thang theo cấp số nhân vượt xa dự tính ban đầu.",
+  "direction": "C: Bản chất của Hội chứng chuột cùng đường",
+  "text": "Trong tội phạm học, chúng tôi gọi hiện tượng này là Hội chứng chuột cùng đường hay Cơn cuồng loạn do hoảng loạn cực độ. Khi đối tượng đột nhập vào một không gian kín và bất ngờ bị phát hiện, cơ chế sợ hãi nguyên thủy lập tức kích hoạt phản ứng chống trả hoặc tháo chạy. Ở những người trưởng thành có nhận thức đầy đủ, họ có thể buông xuôi, chấp nhận đầu hàng hoặc tìm cách chạy thoát thân. Thế nhưng với một thiếu niên mười bảy tuổi bị chi phối bởi bản năng và sự trơ lì cảm xúc, phản xạ của hắn lại là tấn công điên cuồng để bịt đầu mối. Trong khoảnh khắc ấy, đối tượng hoàn toàn mất kiểm soát lý trí và hành động như một cỗ máy tự động theo quán tính sợ hãi. Hắn không còn ý thức được tính chất tàn khốc của hành vi mà chỉ bị thúc đẩy bởi một mục tiêu duy nhất: không để ai nhận diện được mình. Đó là một cơn hoảng loạn mù quáng, biến một vụ trộm cắp bồng bột thành một thảm kịch kinh hoàng. Hành vi này thể hiện sự sụp đổ toàn diện của năng lực ức chế hành vi ở lứa tuổi chưa thành niên. Khi nỗi sợ hãi tột cùng kết hợp với sự thiếu hụt hoàn toàn về mặt đạo đức, hậu quả tạo ra luôn là sự hủy diệt khôn lường.",
   "sentences": [
    {
     "id": "3.05#1",
-    "text": "Tại thời điểm đột nhập vào tiệm vàng, mục đích ban đầu của Lê Văn Luyện rõ ràng chỉ dừng lại ở hành vi chiếm đoạt tài sản để lấy tiền chuộc xe.",
-    "words": 33
+    "text": "Trong tội phạm học, chúng tôi gọi hiện tượng này là Hội chứng chuột cùng đường hay Cơn cuồng loạn do hoảng loạn cực độ.",
+    "words": 25
    },
    {
     "id": "3.05#2",
-    "text": "Tuy nhiên, khi chủ nhà bất ngờ thức giấc và phát hiện kẻ đột nhập, một phản ứng tâm lý cực kỳ nguy hiểm đã được kích hoạt: Hội chứng Chuột cùng đường.",
+    "text": "Khi đối tượng đột nhập vào một không gian kín và bất ngờ bị phát hiện, cơ chế sợ hãi nguyên thủy lập tức kích hoạt phản ứng chống trả hoặc tháo chạy.",
     "words": 33
    },
    {
     "id": "3.05#3",
-    "text": "Trong một không gian kín mít, tăm tối và không có đường tháo chạy ngay lập tức, nỗi sợ hãi tột cùng bị bắt giữ đã làm tê liệt hoàn toàn khả năng tư duy duy lý của đối tượng.",
-    "words": 40
+    "text": "Ở những người trưởng thành có nhận thức đầy đủ, họ có thể buông xuôi, chấp nhận đầu hàng hoặc tìm cách chạy thoát thân.",
+    "words": 25
    },
    {
     "id": "3.05#4",
-    "text": "Bộ não nguyên thủy của hắn chuyển sang trạng thái Phản ứng chiến đấu sinh tồn cực đoan trong cơn hoảng loạn.",
-    "words": 22
+    "text": "Thế nhưng với một thiếu niên mười bảy tuổi bị chi phối bởi bản năng và sự trơ lì cảm xúc, phản xạ của hắn lại là tấn công điên cuồng để bịt đầu mối.",
+    "words": 35
    },
    {
     "id": "3.05#5",
-    "text": "Hắn lo sợ rằng nếu để các nhân chứng sống sót và nhận mặt, cuộc đời của hắn sẽ chấm dứt sau song sắt nhà tù.",
-    "words": 26
+    "text": "Trong khoảnh khắc ấy, đối tượng hoàn toàn mất kiểm soát lý trí và hành động như một cỗ máy tự động theo quán tính sợ hãi.",
+    "words": 27
    },
    {
     "id": "3.05#6",
-    "text": "Sự hoảng sợ tột độ đã chuyển hóa thành một cơn cuồng loạn bạo lực mất kiểm soát nhằm mục đích duy nhất là tước đoạt sinh mạng để bịt đầu mối.",
-    "words": 32
+    "text": "Hắn không còn ý thức được tính chất tàn khốc của hành vi mà chỉ bị thúc đẩy bởi một mục tiêu duy nhất: không để ai nhận diện được mình.",
+    "words": 31
    },
    {
     "id": "3.05#7",
-    "text": "Đây là biểu hiện kinh điển của dạng tội phạm bộc phát do hoảng loạn, nơi hành vi bạo lực leo thang theo cấp số nhân vượt xa dự tính ban đầu.",
-    "words": 32
+    "text": "Đó là một cơn hoảng loạn mù quáng, biến một vụ trộm cắp bồng bột thành một thảm kịch kinh hoàng.",
+    "words": 21
+   },
+   {
+    "id": "3.05#8",
+    "text": "Hành vi này thể hiện sự sụp đổ toàn diện của năng lực ức chế hành vi ở lứa tuổi chưa thành niên.",
+    "words": 23
+   },
+   {
+    "id": "3.05#9",
+    "text": "Khi nỗi sợ hãi tột cùng kết hợp với sự thiếu hụt hoàn toàn về mặt đạo đức, hậu quả tạo ra luôn là sự hủy diệt khôn lường.",
+    "words": 29
    }
   ]
  },
@@ -685,18 +865,23 @@
   "act": 3,
   "kind": "LOI",
   "role": "H",
-  "direction": "sự ngụy biện và trượt dài không thể cứu vãn",
-  "text": "Sau khi chuỗi hành vi tàn khốc diễn ra, sự tê liệt cảm xúc do thế giới ảo tạo ra đã ngăn cản Luyện cảm nhận được sự ghê rợn của tội ác mình vừa gây ra. Hắn bình thản gom vàng bỏ trốn, tiếp tục vào các quán internet chơi game và tự huyễn hoặc bản thân rằng mình có thể trốn thoát mà không phải trả giá.",
+  "direction": "sự ngụy biện và trốn tránh trách nhiệm",
+  "text": "Sự ngụy biện và trốn tránh trách nhiệm thường là phản ứng tâm lý phổ biến của những kẻ phạm tội ở lứa tuổi mới lớn. Hắn tự huyễn hoặc bản thân rằng mọi chuyện chỉ là tai nạn ngoài ý muốn do hoàn cảnh xô đẩy. Nhưng thực tế tàn khốc đã chứng minh rằng một khi ranh giới đạo đức bị vượt qua, cái giá phải trả là vô cùng đắt.",
   "sentences": [
    {
     "id": "3.06#1",
-    "text": "Sau khi chuỗi hành vi tàn khốc diễn ra, sự tê liệt cảm xúc do thế giới ảo tạo ra đã ngăn cản Luyện cảm nhận được sự ghê rợn của tội ác mình vừa gây ra.",
-    "words": 37
+    "text": "Sự ngụy biện và trốn tránh trách nhiệm thường là phản ứng tâm lý phổ biến của những kẻ phạm tội ở lứa tuổi mới lớn.",
+    "words": 26
    },
    {
     "id": "3.06#2",
-    "text": "Hắn bình thản gom vàng bỏ trốn, tiếp tục vào các quán internet chơi game và tự huyễn hoặc bản thân rằng mình có thể trốn thoát mà không phải trả giá.",
-    "words": 32
+    "text": "Hắn tự huyễn hoặc bản thân rằng mọi chuyện chỉ là tai nạn ngoài ý muốn do hoàn cảnh xô đẩy.",
+    "words": 21
+   },
+   {
+    "id": "3.06#3",
+    "text": "Nhưng thực tế tàn khốc đã chứng minh rằng một khi ranh giới đạo đức bị vượt qua, cái giá phải trả là vô cùng đắt.",
+    "words": 26
    }
   ]
  },
@@ -705,38 +890,98 @@
   "act": 3,
   "kind": "LOI",
   "role": "C",
-  "direction": "C: Đúc kết về mặt giáo dục gia đình và xã hội",
-  "text": "Hồ sơ Lê Văn Luyện là một bài học đắt giá về sự buông lỏng quản lý và thiếu vắng sự kết nối cảm xúc giữa cha mẹ và con cái trong giai đoạn vị thành niên. Sự sa ngã của một đứa trẻ không bao giờ diễn ra trong một ngày, mà là kết quả của một chuỗi những dấu hiệu cảnh báo bị gia đình phớt lờ. Từ việc bỏ học, nghiện game bạo lực đến việc cầm cố tài sản và vay mượn nợ nần, đó đều là những tín hiệu cầu cứu bị bỏ quên. Khoảng trống trong sự đồng hành của gia đình đã vô tình đẩy đứa trẻ tìm kiếm sự giải tỏa lệch lạc trong thế giới ảo đầy bạo lực. Nếu có sự can thiệp và định hướng kịp thời từ gia đình và xã hội, có lẽ một bi kịch đau đớn như vậy đã không có cơ hội bùng phát. Sự trả giá của Luyện trước pháp luật là điều tất yếu, nhưng trách nhiệm phòng ngừa thì vẫn luôn thuộc về toàn thể cộng đồng.",
+  "direction": "C: Giải mã cơ chế hối hận chân thực vs. Tự thương hại bản ngã và sự thức tỉnh muộn màng",
+  "text": "Một câu hỏi cốt lõi mà xã hội luôn đặt ra là: Tại sao kẻ thủ ác lại có những biểu hiện hối hận sau khi bị bắt giữ? Cơ chế tâm lý thực sự đằng sau những giọt nước mắt và lời xin lỗi muộn màng ấy là gì? Về mặt khoa học hành vi, chúng ta cần phân biệt rất rạch ròi giữa hai trạng thái: Sự tự thương hại bản ngã và Sự ăn năn lương tri chân thực. Khi vừa bị bắt và đứng trước nguy cơ đối mặt với sự trừng phạt nghiêm khắc, tâm lý phạm nhân thường rơi vào trạng thái hoảng loạn vì sự sụp đổ của tương lai cá nhân. Họ khóc, họ cúi đầu, họ nói lời xin lỗi, nhưng phần lớn động lực lúc đó xuất phát từ nỗi sợ hãi cho chính bản thân mình. Họ thương xót cho số phận của mình, sợ hãi cảnh giam cầm và ám ảnh trước sự căm giận của xã hội hơn là thực sự thấu cảm trọn vẹn nỗi đau của gia đình nạn nhân. Đó là cơ chế tự vệ tâm lý tự nhiên nhằm tìm kiếm sự tha thứ hoặc giảm nhẹ hình phạt. Thế nhưng, sự ăn năn lương tri chân thực lại là một quá trình tâm lý diễn tiến hoàn toàn khác và cần có thời gian trưởng thành về nhận thức. Ở lứa tuổi mười bảy, hệ thần kinh của Luyện chưa đủ độ chín chắn để hiểu hết sức nặng của sự mất mát vĩnh viễn. Chỉ khi thời gian trôi qua trong không gian tĩnh lặng của trại giam, khi vỏ não hoàn thiện sinh học sau tuổi hai mươi lăm, sự thức tỉnh mới thực sự bắt đầu. Đó là lúc kẻ thủ ác đối diện với thực tế tàn nhẫn: gia đình tan nát, cha đi tù vì che giấu cho mình, mẹ và các em phải tha hương cầu thực trong sự kỳ thị. Chứng kiến sự sụp đổ toàn diện của chính dòng họ mình chính là chiếc mỏ neo hiện thực nghiền nát cơ chế ngụy biện của hắn. Lúc này, nỗi đau lương tâm mới chuyển hóa từ sự sợ hãi cá nhân thành chấn thương đạo đức sâu sắc. Kẻ phạm tội nhận ra rằng không có bất kỳ lời xin lỗi nào, không có bất kỳ hình phạt nào có thể bù đắp được những gì đã mất. Sự dằn vặt nội tâm lúc ấy trở thành một bản án tinh thần chung thân, nặng nề hơn mọi bức tường giam giữ. Nghiên cứu về cơ chế hối hận cho thấy sự chuyển biến tâm lý của con người từ trạng thái trơ lì đến thức tỉnh là một hành trình đầy đau đớn. Nó đòi hỏi kẻ phạm tội phải lột bỏ toàn bộ lớp vỏ tự vệ để đối diện trực diện với sự ghê tởm của tội ác do chính mình gây ra. Đó cũng là bài học sâu sắc nhất về giáo dục nhân cách và phục thiện trong công tác cải tạo phạm nhân.",
   "sentences": [
    {
     "id": "3.07#1",
-    "text": "Hồ sơ Lê Văn Luyện là một bài học đắt giá về sự buông lỏng quản lý và thiếu vắng sự kết nối cảm xúc giữa cha mẹ và con cái trong giai đoạn vị thành niên.",
-    "words": 37
-   },
-   {
-    "id": "3.07#2",
-    "text": "Sự sa ngã của một đứa trẻ không bao giờ diễn ra trong một ngày, mà là kết quả của một chuỗi những dấu hiệu cảnh báo bị gia đình phớt lờ.",
-    "words": 32
-   },
-   {
-    "id": "3.07#3",
-    "text": "Từ việc bỏ học, nghiện game bạo lực đến việc cầm cố tài sản và vay mượn nợ nần, đó đều là những tín hiệu cầu cứu bị bỏ quên.",
-    "words": 30
-   },
-   {
-    "id": "3.07#4",
-    "text": "Khoảng trống trong sự đồng hành của gia đình đã vô tình đẩy đứa trẻ tìm kiếm sự giải tỏa lệch lạc trong thế giới ảo đầy bạo lực.",
+    "text": "Một câu hỏi cốt lõi mà xã hội luôn đặt ra là: Tại sao kẻ thủ ác lại có những biểu hiện hối hận sau khi bị bắt giữ?",
     "words": 29
    },
    {
-    "id": "3.07#5",
-    "text": "Nếu có sự can thiệp và định hướng kịp thời từ gia đình và xã hội, có lẽ một bi kịch đau đớn như vậy đã không có cơ hội bùng phát.",
+    "id": "3.07#2",
+    "text": "Cơ chế tâm lý thực sự đằng sau những giọt nước mắt và lời xin lỗi muộn màng ấy là gì?",
+    "words": 21
+   },
+   {
+    "id": "3.07#3",
+    "text": "Về mặt khoa học hành vi, chúng ta cần phân biệt rất rạch ròi giữa hai trạng thái: Sự tự thương hại bản ngã và Sự ăn năn lương tri chân thực.",
     "words": 32
    },
    {
+    "id": "3.07#4",
+    "text": "Khi vừa bị bắt và đứng trước nguy cơ đối mặt với sự trừng phạt nghiêm khắc, tâm lý phạm nhân thường rơi vào trạng thái hoảng loạn vì sự sụp đổ của tương lai cá nhân.",
+    "words": 37
+   },
+   {
+    "id": "3.07#5",
+    "text": "Họ khóc, họ cúi đầu, họ nói lời xin lỗi, nhưng phần lớn động lực lúc đó xuất phát từ nỗi sợ hãi cho chính bản thân mình.",
+    "words": 28
+   },
+   {
     "id": "3.07#6",
-    "text": "Sự trả giá của Luyện trước pháp luật là điều tất yếu, nhưng trách nhiệm phòng ngừa thì vẫn luôn thuộc về toàn thể cộng đồng.",
+    "text": "Họ thương xót cho số phận của mình, sợ hãi cảnh giam cầm và ám ảnh trước sự căm giận của xã hội hơn là thực sự thấu cảm trọn vẹn nỗi đau của gia đình nạn nhân.",
+    "words": 38
+   },
+   {
+    "id": "3.07#7",
+    "text": "Đó là cơ chế tự vệ tâm lý tự nhiên nhằm tìm kiếm sự tha thứ hoặc giảm nhẹ hình phạt.",
+    "words": 21
+   },
+   {
+    "id": "3.07#8",
+    "text": "Thế nhưng, sự ăn năn lương tri chân thực lại là một quá trình tâm lý diễn tiến hoàn toàn khác và cần có thời gian trưởng thành về nhận thức.",
+    "words": 31
+   },
+   {
+    "id": "3.07#9",
+    "text": "Ở lứa tuổi mười bảy, hệ thần kinh của Luyện chưa đủ độ chín chắn để hiểu hết sức nặng của sự mất mát vĩnh viễn.",
     "words": 26
+   },
+   {
+    "id": "3.07#10",
+    "text": "Chỉ khi thời gian trôi qua trong không gian tĩnh lặng của trại giam, khi vỏ não hoàn thiện sinh học sau tuổi hai mươi lăm, sự thức tỉnh mới thực sự bắt đầu.",
+    "words": 34
+   },
+   {
+    "id": "3.07#11",
+    "text": "Đó là lúc kẻ thủ ác đối diện với thực tế tàn nhẫn: gia đình tan nát, cha đi tù vì che giấu cho mình, mẹ và các em phải tha hương cầu thực trong sự kỳ thị.",
+    "words": 38
+   },
+   {
+    "id": "3.07#12",
+    "text": "Chứng kiến sự sụp đổ toàn diện của chính dòng họ mình chính là chiếc mỏ neo hiện thực nghiền nát cơ chế ngụy biện của hắn.",
+    "words": 27
+   },
+   {
+    "id": "3.07#13",
+    "text": "Lúc này, nỗi đau lương tâm mới chuyển hóa từ sự sợ hãi cá nhân thành chấn thương đạo đức sâu sắc.",
+    "words": 22
+   },
+   {
+    "id": "3.07#14",
+    "text": "Kẻ phạm tội nhận ra rằng không có bất kỳ lời xin lỗi nào, không có bất kỳ hình phạt nào có thể bù đắp được những gì đã mất.",
+    "words": 30
+   },
+   {
+    "id": "3.07#15",
+    "text": "Sự dằn vặt nội tâm lúc ấy trở thành một bản án tinh thần chung thân, nặng nề hơn mọi bức tường giam giữ.",
+    "words": 24
+   },
+   {
+    "id": "3.07#16",
+    "text": "Nghiên cứu về cơ chế hối hận cho thấy sự chuyển biến tâm lý của con người từ trạng thái trơ lì đến thức tỉnh là một hành trình đầy đau đớn.",
+    "words": 32
+   },
+   {
+    "id": "3.07#17",
+    "text": "Nó đòi hỏi kẻ phạm tội phải lột bỏ toàn bộ lớp vỏ tự vệ để đối diện trực diện với sự ghê tởm của tội ác do chính mình gây ra.",
+    "words": 32
+   },
+   {
+    "id": "3.07#18",
+    "text": "Đó cũng là bài học sâu sắc nhất về giáo dục nhân cách và phục thiện trong công tác cải tạo phạm nhân.",
+    "words": 23
    }
   ]
  },
@@ -746,7 +991,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "chốt lại Hồi 3, dẫn dắt sang phiên tòa lịch sử",
-  "text": "Những phân tích khoa học hành vi đã làm sáng tỏ cơ chế tâm lý dẫn đến bước trượt dài đen tối của một thiếu niên mới lớn. Giờ là lúc chiếc vành móng ngựa tại Tòa án Bắc Giang sẽ đưa ra phán quyết nghiêm khắc của công lý, khép lại vụ án làm rung động cả một thế hệ. Đó là một phiên tòa không chỉ xét xử tội ác mà còn mở ra những cuộc tranh luận pháp lý sâu sắc về nguyên tắc nhân đạo đối với người chưa thành niên.",
+  "text": "Những phân tích khoa học hành vi đã làm sáng tỏ cơ chế tâm lý dẫn đến bước trượt dài đen tối của một thiếu niên mới lớn. Giờ là lúc chiếc vành móng ngựa tại Tòa án Bắc Giang sẽ đưa ra phán quyết nghiêm khắc của công lý, khép lại vụ án làm rung động cả một thế hệ. Đó là một phiên tòa không chỉ xét xử tội ác mà còn mở ra những cuộc tranh luận pháp lý sâu sắc về nguyên tắc nhân đạo đối với người chưa thành niên. Từng ánh mắt, từng lời khai tại phòng xử án sẽ phản ánh cuộc đấu tranh cam go giữa sự trừng phạt và tính nhân văn của pháp luật. Hàng nghìn người dân từ khắp nơi đổ về mang theo sự phẫn nộ tột cùng của cộng đồng xã hội. Pháp đình Bắc Giang chuẩn bị bước vào một phiên xử lịch sử đầy giằng xé giữa lý trí và cảm xúc. Mọi diễn biến tại tòa đều được truyền thông và công chúng theo dõi sát sao từng giờ. Đó sẽ là thời khắc sự thật được phơi bày trọn vẹn dưới ánh sáng của nền tư pháp nghiêm minh.",
   "sentences": [
    {
     "id": "3.08#1",
@@ -762,6 +1007,31 @@
     "id": "3.08#3",
     "text": "Đó là một phiên tòa không chỉ xét xử tội ác mà còn mở ra những cuộc tranh luận pháp lý sâu sắc về nguyên tắc nhân đạo đối với người chưa thành niên.",
     "words": 34
+   },
+   {
+    "id": "3.08#4",
+    "text": "Từng ánh mắt, từng lời khai tại phòng xử án sẽ phản ánh cuộc đấu tranh cam go giữa sự trừng phạt và tính nhân văn của pháp luật.",
+    "words": 29
+   },
+   {
+    "id": "3.08#5",
+    "text": "Hàng nghìn người dân từ khắp nơi đổ về mang theo sự phẫn nộ tột cùng của cộng đồng xã hội.",
+    "words": 21
+   },
+   {
+    "id": "3.08#6",
+    "text": "Pháp đình Bắc Giang chuẩn bị bước vào một phiên xử lịch sử đầy giằng xé giữa lý trí và cảm xúc.",
+    "words": 22
+   },
+   {
+    "id": "3.08#7",
+    "text": "Mọi diễn biến tại tòa đều được truyền thông và công chúng theo dõi sát sao từng giờ.",
+    "words": 18
+   },
+   {
+    "id": "3.08#8",
+    "text": "Đó sẽ là thời khắc sự thật được phơi bày trọn vẹn dưới ánh sáng của nền tư pháp nghiêm minh.",
+    "words": 21
    }
   ]
  },
@@ -783,7 +1053,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "tái hiện phiên tòa xét xử sơ thẩm ngày 10 và 11 tháng 1 năm 2012",
-  "text": "Sáng ngày 10 tháng 1 năm 2012, Tòa án nhân dân tỉnh Bắc Giang đã chính thức mở phiên tòa xét xử sơ thẩm công khai vụ án Lê Văn Luyện. Hàng nghìn người dân từ khắp nơi đã đổ về trụ sở tòa án, mang theo những di ảnh nạn nhân và những biểu ngữ yêu cầu một mức án nghiêm khắc nhất. Lực lượng cảnh sát tư pháp và cảnh sát cơ động đã phải thiết lập nhiều vòng bảo vệ an ninh nghiêm ngặt để đảm bảo trật tự cho phiên xử. Đứng trước vành móng ngựa, bị cáo Lê Văn Luyện xuất hiện trong bộ trang phục giản dị, khuôn mặt cúi gằm và giọng nói lí nhí khi trả lời thẩm vấn. Bản cáo trạng dài của Viện Kiểm sát nhân dân đã truy tố bị cáo về ba tội danh: Giết người, Cướp tài sản và Lạm dụng tín nhiệm chiếm đoạt tài sản. Từng lời luận tội của vị công tố viên vang lên giữa sự im lặng ngột ngạt và những tiếng thở dài uất nghẹn của những người tham dự.",
+  "text": "Sáng ngày 10 tháng 1 năm 2012, Tòa án nhân dân tỉnh Bắc Giang đã chính thức mở phiên tòa xét xử sơ thẩm công khai vụ án Lê Văn Luyện. Rất đông người dân từ khắp nơi đã đổ về trụ sở tòa án để theo dõi phiên xử. Lực lượng cảnh sát tư pháp và cảnh sát cơ động đã phải thiết lập nhiều vòng bảo vệ an ninh nghiêm ngặt để đảm bảo trật tự cho phiên xử. Đứng trước vành móng ngựa, bị cáo Lê Văn Luyện cúi đầu khi trả lời thẩm vấn. Bản cáo trạng dài của Viện Kiểm sát nhân dân đã truy tố bị cáo về ba tội danh: Giết người, Cướp tài sản và Lạm dụng tín nhiệm chiếm đoạt tài sản. Từng lời luận tội của vị công tố viên vang lên giữa sự im lặng ngột ngạt và những tiếng thở dài uất nghẹn của những người tham dự.",
   "sentences": [
    {
     "id": "4.02#1",
@@ -792,8 +1062,8 @@
    },
    {
     "id": "4.02#2",
-    "text": "Hàng nghìn người dân từ khắp nơi đã đổ về trụ sở tòa án, mang theo những di ảnh nạn nhân và những biểu ngữ yêu cầu một mức án nghiêm khắc nhất.",
-    "words": 33
+    "text": "Rất đông người dân từ khắp nơi đã đổ về trụ sở tòa án để theo dõi phiên xử.",
+    "words": 19
    },
    {
     "id": "4.02#3",
@@ -802,8 +1072,8 @@
    },
    {
     "id": "4.02#4",
-    "text": "Đứng trước vành móng ngựa, bị cáo Lê Văn Luyện xuất hiện trong bộ trang phục giản dị, khuôn mặt cúi gằm và giọng nói lí nhí khi trả lời thẩm vấn.",
-    "words": 32
+    "text": "Đứng trước vành móng ngựa, bị cáo Lê Văn Luyện cúi đầu khi trả lời thẩm vấn.",
+    "words": 17
    },
    {
     "id": "4.02#5",
@@ -829,7 +1099,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "lời khai nhận tội và thái độ của bị cáo trước tòa",
-  "text": "Khi được hội đồng xét xử thẩm vấn về động cơ và diễn biến gây án, Lê Văn Luyện đã thừa nhận toàn bộ hành vi phạm tội đúng như cáo trạng truy tố. Hắn khai nhận rằng bản thân hành động một mình, không hề có đồng phạm nào cùng đột nhập vào tiệm vàng như những đồn đoán trước đó. Khi được hỏi có cảm thấy hối hận hay cắn rứt lương tâm trước nỗi đau của gia đình nạn nhân hay không, Luyện cúi đầu lí nhí nói lời xin lỗi muộn màng. Tuy nhiên, sự ân hận muộn màng ấy không thể nào xoa dịu được nỗi căm phẫn tột cùng và những giọt nước mắt uất nghẹn của thân nhân người đã khuất.",
+  "text": "Khi được hội đồng xét xử thẩm vấn về động cơ và diễn biến gây án, Lê Văn Luyện đã thừa nhận toàn bộ hành vi phạm tội đúng như cáo trạng truy tố. Hắn khai nhận rằng bản thân hành động một mình, không hề có đồng phạm nào cùng đột nhập vào tiệm vàng như những đồn đoán trước đó. Tại tòa, Luyện bày tỏ sự ăn năn và mong được người sống sót duy nhất tha thứ. Tuy nhiên, sự ân hận muộn màng ấy không thể nào xoa dịu được nỗi căm phẫn tột cùng và những giọt nước mắt uất nghẹn của thân nhân người đã khuất. Giọng nói lí nhí và ánh mắt lảng tránh của bị cáo càng làm dâng lên những làn sóng bất bình từ phía gia đình nạn nhân.",
   "sentences": [
    {
     "id": "4.04#1",
@@ -843,13 +1113,18 @@
    },
    {
     "id": "4.04#3",
-    "text": "Khi được hỏi có cảm thấy hối hận hay cắn rứt lương tâm trước nỗi đau của gia đình nạn nhân hay không, Luyện cúi đầu lí nhí nói lời xin lỗi muộn màng.",
-    "words": 34
+    "text": "Tại tòa, Luyện bày tỏ sự ăn năn và mong được người sống sót duy nhất tha thứ.",
+    "words": 18
    },
    {
     "id": "4.04#4",
     "text": "Tuy nhiên, sự ân hận muộn màng ấy không thể nào xoa dịu được nỗi căm phẫn tột cùng và những giọt nước mắt uất nghẹn của thân nhân người đã khuất.",
     "words": 32
+   },
+   {
+    "id": "4.04#5",
+    "text": "Giọng nói lí nhí và ánh mắt lảng tránh của bị cáo càng làm dâng lên những làn sóng bất bình từ phía gia đình nạn nhân.",
+    "words": 27
    }
   ]
  },
@@ -865,17 +1140,17 @@
   "kind": "LOI",
   "role": "D",
   "direction": "D: Điều tra viên Ban chuyên án Bộ Công an & Công an tỉnh Bắc Giang, sự đanh thép của hồ sơ vụ án",
-  "text": "Quá trình điều tra toàn diện và lời khai của bị cáo hoàn toàn trùng khớp với từng chi tiết cơ học và dấu vết sinh học tại hiện trường tiệm vàng. Toàn bộ số vàng mà Luyện cướp được đã được cơ quan điều tra thu hồi gần như nguyên vẹn tại các địa điểm chôn giấu và cất giữ ở Lạng Sơn và Bắc Giang. Kết quả giám định độ tuổi của Viện Khoa học Hình sự xác định chính xác ngày sinh của Lê Văn Luyện là ngày 18 tháng 10 năm 1993. Điều này đồng nghĩa với việc tại thời điểm gây án ngày 24 tháng 8 năm 2011, bị cáo mới được mười bảy tuổi, mười tháng và sáu ngày, tức chưa đủ mười tám tuổi. Đây chính là tình tiết pháp lý mấu chốt chi phối toàn bộ khung hình phạt mà pháp luật có thể áp dụng đối với bị cáo. Dù mức độ phạm tội đặc biệt nghiêm trọng và gây phẫn nộ tột cùng, nhưng việc xét xử bắt buộc phải tuân thủ nghiêm ngặt các quy định của Bộ luật Hình sự Việt Nam.",
+  "text": "Quá trình điều tra toàn diện và lời khai của bị cáo hoàn toàn trùng khớp với các dấu vết tại hiện trường tiệm vàng. Phần lớn số vàng mà Luyện chiếm đoạt đã được cơ quan điều tra thu hồi. Kết quả giám định độ tuổi của Viện Khoa học Hình sự xác định chính xác ngày sinh của Lê Văn Luyện là ngày 18 tháng 10 năm 1993. Điều này đồng nghĩa với việc tại thời điểm gây án ngày 24 tháng 8 năm 2011, bị cáo mới được mười bảy tuổi, mười tháng và sáu ngày, tức chưa đủ mười tám tuổi. Đây chính là tình tiết pháp lý mấu chốt chi phối toàn bộ khung hình phạt mà pháp luật có thể áp dụng đối với bị cáo. Dù mức độ phạm tội đặc biệt nghiêm trọng và gây phẫn nộ tột cùng, nhưng việc xét xử bắt buộc phải tuân thủ nghiêm ngặt các quy định của Bộ luật Hình sự Việt Nam. Nguyên tắc pháp chế xã hội chủ nghĩa đòi hỏi sự thượng tôn pháp luật tuyệt đối và không thể nhân danh sự phẫn nộ để vi phạm luật định.",
   "sentences": [
    {
     "id": "4.06#1",
-    "text": "Quá trình điều tra toàn diện và lời khai của bị cáo hoàn toàn trùng khớp với từng chi tiết cơ học và dấu vết sinh học tại hiện trường tiệm vàng.",
-    "words": 32
+    "text": "Quá trình điều tra toàn diện và lời khai của bị cáo hoàn toàn trùng khớp với các dấu vết tại hiện trường tiệm vàng.",
+    "words": 25
    },
    {
     "id": "4.06#2",
-    "text": "Toàn bộ số vàng mà Luyện cướp được đã được cơ quan điều tra thu hồi gần như nguyên vẹn tại các địa điểm chôn giấu và cất giữ ở Lạng Sơn và Bắc Giang.",
-    "words": 35
+    "text": "Phần lớn số vàng mà Luyện chiếm đoạt đã được cơ quan điều tra thu hồi.",
+    "words": 16
    },
    {
     "id": "4.06#3",
@@ -896,6 +1171,11 @@
     "id": "4.06#6",
     "text": "Dù mức độ phạm tội đặc biệt nghiêm trọng và gây phẫn nộ tột cùng, nhưng việc xét xử bắt buộc phải tuân thủ nghiêm ngặt các quy định của Bộ luật Hình sự Việt Nam.",
     "words": 36
+   },
+   {
+    "id": "4.06#7",
+    "text": "Nguyên tắc pháp chế xã hội chủ nghĩa đòi hỏi sự thượng tôn pháp luật tuyệt đối và không thể nhân danh sự phẫn nộ để vi phạm luật định.",
+    "words": 30
    }
   ]
  },
@@ -911,7 +1191,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "nỗi đau tột cùng của gia đình nạn nhân và cuộc đấu tranh đòi công lý",
-  "text": "Trong suốt hai ngày diễn ra phiên tòa, những giọt nước mắt đau đớn của thân nhân gia đình bị hại đã khiến cả khán phòng không khỏi xót xa. Đại diện gia đình nạn nhân liên tục yêu cầu phải áp dụng mức án cao nhất đối với bị cáo để trả lại sự công bằng cho người đã khuất. Một cuộc tranh luận pháp lý nảy lửa đã diễn ra giữa sự căm phẫn chính đáng của dư luận xã hội và sự thượng tôn của quy định pháp luật hiện hành.",
+  "text": "Trong suốt hai ngày diễn ra phiên tòa, những giọt nước mắt đau đớn của thân nhân gia đình bị hại đã khiến cả khán phòng không khỏi xót xa. Đại diện gia đình nạn nhân liên tục yêu cầu phải áp dụng mức án cao nhất đối với bị cáo để trả lại sự công bằng cho người đã khuất. Một cuộc tranh luận pháp lý nảy lửa đã diễn ra giữa sự căm phẫn chính đáng của dư luận xã hội và sự thượng tôn của quy định pháp luật hiện hành. Nhiều người dân mang theo di ảnh các nạn nhân đứng kín ngoài sân tòa, tạo nên một áp lực tinh thần vô cùng nặng nề đối với Hội đồng xét xử. Không gian pháp đình rung lên trong sự xung đột giữa công lý cảm xúc và trật tự pháp quyền chuẩn mực.",
   "sentences": [
    {
     "id": "4.08#1",
@@ -927,6 +1207,16 @@
     "id": "4.08#3",
     "text": "Một cuộc tranh luận pháp lý nảy lửa đã diễn ra giữa sự căm phẫn chính đáng của dư luận xã hội và sự thượng tôn của quy định pháp luật hiện hành.",
     "words": 33
+   },
+   {
+    "id": "4.08#4",
+    "text": "Nhiều người dân mang theo di ảnh các nạn nhân đứng kín ngoài sân tòa, tạo nên một áp lực tinh thần vô cùng nặng nề đối với Hội đồng xét xử.",
+    "words": 32
+   },
+   {
+    "id": "4.08#5",
+    "text": "Không gian pháp đình rung lên trong sự xung đột giữa công lý cảm xúc và trật tự pháp quyền chuẩn mực.",
+    "words": 22
    }
   ]
  },
@@ -935,23 +1225,23 @@
   "act": 4,
   "kind": "LOI",
   "role": "N",
-  "direction": "N2: Nhân chứng theo dõi phiên tòa Bắc Giang, giọng nam trung niên, nghiêm nghị, trăn trở, sâu lắng",
-  "text": "Theo dõi phiên tòa những ngày mùa đông năm ấy, trong lòng tôi và hàng nghìn người dân đều cuộn trào những cảm xúc vô cùng giằng xé. Về mặt tình cảm con người, ai nấy đều căm phẫn và mong muốn kẻ thủ ác phải đền mạng cho những sinh mạng vô tội đã ngã xuống. Thế nhưng, khi nghe vị thẩm phán giải thích cặn kẽ từng điều khoản của Bộ luật Hình sự, chúng tôi hiểu rằng pháp luật không thể xét xử bằng sự giận dữ nhất thời. Quy định không áp dụng án tử hình đối với người chưa thành niên là một nguyên tắc nhân đạo phổ quát mà Việt Nam đã cam kết trước cộng đồng quốc tế. Đó là sự bảo vệ mang tính thể chế nhằm cho những người lầm lỡ ở độ tuổi vị thành niên một cơ hội duy nhất để cải tạo và nhận thức lại giá trị cuộc sống. Bản án mười tám năm tù có thể chưa làm thỏa mãn hoàn toàn cơn giận dữ của gia đình nạn nhân, nhưng nó thể hiện tính nghiêm minh và chuẩn mực của một nền pháp quyền văn minh. Bài học lớn nhất mà tôi nhận được là trách nhiệm của gia đình và xã hội trong việc uốn nắn, giáo dục con cái trước khi quá muộn. Đừng để những đứa trẻ trượt dài vào bóng tối của sự thiếu hiểu biết để rồi gây ra những bi kịch không bao giờ có thể hàn gắn.",
+  "direction": "N2: Lời kể minh hoạ về người dân theo dõi phiên tòa Bắc Giang, giọng nam trung niên, nghiêm nghị, trăn trở, sâu lắng",
+  "text": "Hãy hình dung những cảm xúc giằng xé của người dân theo dõi phiên tòa mùa đông năm ấy. Về mặt tình cảm, ai nấy đều căm phẫn và mong muốn hình phạt cao nhất cho kẻ thủ ác. Thế nhưng, pháp luật không thể xét xử bằng sự giận dữ nhất thời. Quy định không áp dụng án tử hình đối với người chưa thành niên là một nguyên tắc nhân đạo phổ quát mà Việt Nam đã cam kết trước cộng đồng quốc tế. Đó là sự bảo vệ mang tính thể chế nhằm cho những người lầm lỡ ở độ tuổi vị thành niên một cơ hội duy nhất để cải tạo và nhận thức lại giá trị cuộc sống. Bản án mười tám năm tù có thể chưa làm thỏa mãn hoàn toàn cơn giận dữ của gia đình nạn nhân, nhưng nó thể hiện tính nghiêm minh và chuẩn mực của một nền pháp quyền văn minh. Bài học lớn nhất ở đây là trách nhiệm của gia đình và xã hội trong việc uốn nắn, giáo dục con cái trước khi quá muộn. Đừng để những đứa trẻ trượt dài vào bóng tối của sự thiếu hiểu biết để rồi gây ra những bi kịch không bao giờ có thể hàn gắn.",
   "sentences": [
    {
     "id": "4.09#1",
-    "text": "Theo dõi phiên tòa những ngày mùa đông năm ấy, trong lòng tôi và hàng nghìn người dân đều cuộn trào những cảm xúc vô cùng giằng xé.",
-    "words": 28
+    "text": "Hãy hình dung những cảm xúc giằng xé của người dân theo dõi phiên tòa mùa đông năm ấy.",
+    "words": 19
    },
    {
     "id": "4.09#2",
-    "text": "Về mặt tình cảm con người, ai nấy đều căm phẫn và mong muốn kẻ thủ ác phải đền mạng cho những sinh mạng vô tội đã ngã xuống.",
-    "words": 29
+    "text": "Về mặt tình cảm, ai nấy đều căm phẫn và mong muốn hình phạt cao nhất cho kẻ thủ ác.",
+    "words": 20
    },
    {
     "id": "4.09#3",
-    "text": "Thế nhưng, khi nghe vị thẩm phán giải thích cặn kẽ từng điều khoản của Bộ luật Hình sự, chúng tôi hiểu rằng pháp luật không thể xét xử bằng sự giận dữ nhất thời.",
-    "words": 35
+    "text": "Thế nhưng, pháp luật không thể xét xử bằng sự giận dữ nhất thời.",
+    "words": 14
    },
    {
     "id": "4.09#4",
@@ -970,8 +1260,8 @@
    },
    {
     "id": "4.09#7",
-    "text": "Bài học lớn nhất mà tôi nhận được là trách nhiệm của gia đình và xã hội trong việc uốn nắn, giáo dục con cái trước khi quá muộn.",
-    "words": 29
+    "text": "Bài học lớn nhất ở đây là trách nhiệm của gia đình và xã hội trong việc uốn nắn, giáo dục con cái trước khi quá muộn.",
+    "words": 27
    },
    {
     "id": "4.09#8",
@@ -986,12 +1276,12 @@
   "kind": "LOI",
   "role": "D",
   "direction": "D: Điều tra viên Ban chuyên án Bộ Công an & Công an tỉnh Bắc Giang, phán quyết cuối cùng của tòa án",
-  "text": "Chiều ngày 11 tháng 1 năm 2012, Tòa án nhân dân tỉnh Bắc Giang đã chính thức tuyên đọc bản án sơ thẩm đối với Lê Văn Luyện. Tòa tuyên phạt bị cáo mười tám năm tù về tội Giết người, mười tám năm tù về tội Cướp tài sản và chín tháng tù về tội Lạm dụng tín nhiệm chiếm đoạt tài sản. Áp dụng Điều 74 Bộ luật Hình sự năm 1999 về người chưa thành niên phạm tội, mức hình phạt chung cao nhất không quá mười tám năm tù, hội đồng xét xử tuyên phạt Lê Văn Luyện mười tám năm tù giam. Đến ngày 30 tháng 3 năm 2012, Tòa Phúc thẩm Tòa án nhân dân Tối cao tại Hà Nội đã mở phiên phúc thẩm, bác toàn bộ kháng cáo của đại diện bị hại và giữ nguyên mức án mười tám năm tù. Các đối tượng có hành vi che giấu tội phạm và không tố giác tội phạm trong gia đình Luyện cũng lần lượt phải nhận những bản án tù thích đáng.",
+  "text": "Ngày 11 tháng 1 năm 2012, Tòa án nhân dân tỉnh Bắc Giang đã chính thức tuyên đọc bản án sơ thẩm đối với Lê Văn Luyện. Tòa tuyên phạt bị cáo mười tám năm tù về tội Giết người, mười tám năm tù về tội Cướp tài sản và chín tháng tù về tội Lạm dụng tín nhiệm chiếm đoạt tài sản. Áp dụng Điều 74 Bộ luật Hình sự năm 1999 về người chưa thành niên phạm tội, mức hình phạt chung cao nhất không quá mười tám năm tù, hội đồng xét xử tuyên phạt Lê Văn Luyện mười tám năm tù giam. Đến ngày 30 tháng 3 năm 2012, Tòa Phúc thẩm Tòa án nhân dân Tối cao tại Hà Nội đã mở phiên phúc thẩm, bác toàn bộ kháng cáo của đại diện bị hại và giữ nguyên mức án mười tám năm tù. Các đối tượng có hành vi che giấu tội phạm và không tố giác tội phạm trong gia đình Luyện cũng lần lượt phải nhận những bản án tù thích đáng. Bản án khép lại quy trình tố tụng nhưng mở ra những câu hỏi nhức nhối về trách nhiệm của cộng đồng đối với thế hệ tương lai.",
   "sentences": [
    {
     "id": "4.10#1",
-    "text": "Chiều ngày 11 tháng 1 năm 2012, Tòa án nhân dân tỉnh Bắc Giang đã chính thức tuyên đọc bản án sơ thẩm đối với Lê Văn Luyện.",
-    "words": 28
+    "text": "Ngày 11 tháng 1 năm 2012, Tòa án nhân dân tỉnh Bắc Giang đã chính thức tuyên đọc bản án sơ thẩm đối với Lê Văn Luyện.",
+    "words": 27
    },
    {
     "id": "4.10#2",
@@ -1012,6 +1302,11 @@
     "id": "4.10#5",
     "text": "Các đối tượng có hành vi che giấu tội phạm và không tố giác tội phạm trong gia đình Luyện cũng lần lượt phải nhận những bản án tù thích đáng.",
     "words": 31
+   },
+   {
+    "id": "4.10#6",
+    "text": "Bản án khép lại quy trình tố tụng nhưng mở ra những câu hỏi nhức nhối về trách nhiệm của cộng đồng đối với thế hệ tương lai.",
+    "words": 28
    }
   ]
  },
@@ -1021,7 +1316,7 @@
   "kind": "LOI",
   "role": "C",
   "direction": "C: Đúc kết về mặt xã hội học và pháp lý",
-  "text": "Bản án đối với Lê Văn Luyện là một minh chứng rõ nét cho sự kiên định của nền tư pháp Việt Nam trước các nguyên tắc bảo vệ quyền trẻ em và người chưa thành niên. Hình phạt tù giam không chỉ là sự trừng phạt mà còn mang tính chất giáo dục, cải tạo để người phạm tội có cơ hội nhìn nhận lại lỗi lầm sâu sắc của mình. Đồng thời, vụ án cũng là hồi chuông cảnh báo khẩn thiết cho các nhà làm luật và các nhà hoạch định chính sách xã hội về việc phòng ngừa tội phạm thanh thiếu niên từ gốc rễ.",
+  "text": "Bản án đối với Lê Văn Luyện là một minh chứng rõ nét cho sự kiên định của nền tư pháp Việt Nam trước các nguyên tắc bảo vệ quyền trẻ em và người chưa thành niên. Hình phạt tù giam không chỉ là sự trừng phạt mà còn mang tính chất giáo dục, cải tạo để người phạm tội có cơ hội nhìn nhận lại lỗi lầm sâu sắc của mình. Đồng thời, vụ án cũng là hồi chuông cảnh báo khẩn thiết cho các nhà làm luật và các nhà hoạch định chính sách xã hội về việc phòng ngừa tội phạm thanh thiếu niên từ gốc rễ. Chúng ta cần xây dựng các cơ chế hỗ trợ tâm lý học đường và kiểm soát các nội dung độc hại trên không gian mạng. Gia đình phải là thành trì vững chắc đầu tiên phát hiện và ngăn chặn những biểu hiện lệch lạc hành vi của con em. Sự kết nối tình cảm và giáo dục giá trị sống là chiếc phao cứu sinh duy nhất giúp trẻ em không rơi vào cạm bẫy tội lỗi. Đừng để sự thờ ơ của người lớn biến những đứa trẻ non nớt thành những kẻ lạc lối không nơi nương tựa. Mỗi bản án đối với người chưa thành niên đều là một thất bại đau xót trong công tác giáo dục chung của toàn xã hội.",
   "sentences": [
    {
     "id": "4.11#1",
@@ -1037,6 +1332,31 @@
     "id": "4.11#3",
     "text": "Đồng thời, vụ án cũng là hồi chuông cảnh báo khẩn thiết cho các nhà làm luật và các nhà hoạch định chính sách xã hội về việc phòng ngừa tội phạm thanh thiếu niên từ gốc rễ.",
     "words": 38
+   },
+   {
+    "id": "4.11#4",
+    "text": "Chúng ta cần xây dựng các cơ chế hỗ trợ tâm lý học đường và kiểm soát các nội dung độc hại trên không gian mạng.",
+    "words": 26
+   },
+   {
+    "id": "4.11#5",
+    "text": "Gia đình phải là thành trì vững chắc đầu tiên phát hiện và ngăn chặn những biểu hiện lệch lạc hành vi của con em.",
+    "words": 25
+   },
+   {
+    "id": "4.11#6",
+    "text": "Sự kết nối tình cảm và giáo dục giá trị sống là chiếc phao cứu sinh duy nhất giúp trẻ em không rơi vào cạm bẫy tội lỗi.",
+    "words": 28
+   },
+   {
+    "id": "4.11#7",
+    "text": "Đừng để sự thờ ơ của người lớn biến những đứa trẻ non nớt thành những kẻ lạc lối không nơi nương tựa.",
+    "words": 23
+   },
+   {
+    "id": "4.11#8",
+    "text": "Mỗi bản án đối với người chưa thành niên đều là một thất bại đau xót trong công tác giáo dục chung của toàn xã hội.",
+    "words": 26
    }
   ]
  },
@@ -1046,7 +1366,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "khép lại Hồi 4, mở ra bài học cảnh tỉnh",
-  "text": "Cánh cửa nhà tù đã khép lại sau lưng Lê Văn Luyện, nhưng những dư chấn và nỗi đau của vụ án tiệm vàng Ngọc Bích thì vẫn còn ám ảnh khôn nguôi. Đó là lời nhắc nhở nghiêm khắc về sự cảnh giác bảo vệ tài sản và những kỹ năng sống còn khi đối mặt với hiểm nguy trong đêm tối.",
+  "text": "Cánh cửa nhà tù đã khép lại sau lưng Lê Văn Luyện, nhưng những dư chấn và nỗi đau của vụ án tiệm vàng Ngọc Bích thì vẫn còn ám ảnh khôn nguôi. Đó là lời nhắc nhở nghiêm khắc về sự cảnh giác bảo vệ tài sản và những kỹ năng sống còn khi đối mặt với hiểm nguy trong đêm tối. Bi kịch ấy đòi hỏi mỗi gia đình phải nhìn nhận lại cách quản lý con cái và chăm sóc sức khỏe tinh thần cho thanh thiếu niên. Chỉ có sự đồng hành thấu hiểu của cha mẹ mới có thể ngăn chặn những mầm mống sa ngã từ sớm. Và giờ đây, những bài học đắt giá ấy cần được đúc kết thành những nguyên tắc hành vi thiết thực để bảo vệ mỗi mái ấm bình yên.",
   "sentences": [
    {
     "id": "4.12#1",
@@ -1057,6 +1377,21 @@
     "id": "4.12#2",
     "text": "Đó là lời nhắc nhở nghiêm khắc về sự cảnh giác bảo vệ tài sản và những kỹ năng sống còn khi đối mặt với hiểm nguy trong đêm tối.",
     "words": 30
+   },
+   {
+    "id": "4.12#3",
+    "text": "Bi kịch ấy đòi hỏi mỗi gia đình phải nhìn nhận lại cách quản lý con cái và chăm sóc sức khỏe tinh thần cho thanh thiếu niên.",
+    "words": 28
+   },
+   {
+    "id": "4.12#4",
+    "text": "Chỉ có sự đồng hành thấu hiểu của cha mẹ mới có thể ngăn chặn những mầm mống sa ngã từ sớm.",
+    "words": 22
+   },
+   {
+    "id": "4.12#5",
+    "text": "Và giờ đây, những bài học đắt giá ấy cần được đúc kết thành những nguyên tắc hành vi thiết thực để bảo vệ mỗi mái ấm bình yên.",
+    "words": 29
    }
   ]
  },
@@ -1078,7 +1413,7 @@
   "kind": "LOI",
   "role": "H",
   "direction": "giọng suy ngẫm, mang tính triết lý sâu lắng",
-  "text": "Hơn một thập kỷ đã trôi qua kể từ đêm mưa bão định mệnh năm 2011 tại Phố Sàn, nhịp sống sầm uất đã quay trở lại trên những con phố kinh doanh của huyện Lục Nam. Cô bé Trịnh Thị Bích năm xưa nay đã trưởng thành, vượt qua nỗi đau thương tật để kiên cường vươn lên trong cuộc sống với sự yêu thương của gia đình và cộng đồng. Thời gian có thể làm mờ đi lớp bụi đất đá, nhưng những bài học xương máu về an toàn cộng đồng và quản lý thanh thiếu niên thì chưa bao giờ cũ. Sự bình yên của mỗi mái ấm không chỉ phụ thuộc vào sự nghiêm minh của pháp luật, mà còn bắt đầu từ sự cảnh giác sáng suốt của từng cá nhân trong đời sống hàng ngày.",
+  "text": "Hơn một thập kỷ đã trôi qua kể từ đêm mưa bão định mệnh năm 2011 tại Phố Sàn, nhịp sống sầm uất đã quay trở lại trên những con phố kinh doanh của huyện Lục Nam. Người con gái nhỏ năm xưa nay đã trưởng thành, lớn lên trong sự yêu thương và đùm bọc của người thân và cộng đồng. Thời gian có thể làm mờ đi nhiều thứ, nhưng những bài học đắt giá về an toàn cộng đồng và quản lý thanh thiếu niên thì chưa bao giờ cũ. Sự bình yên của mỗi mái ấm không chỉ phụ thuộc vào sự nghiêm minh của pháp luật, mà còn bắt đầu từ sự cảnh giác sáng suốt của từng cá nhân trong đời sống hàng ngày. Những vết thương thể xác có thể lành lặn theo năm tháng, nhưng ký ức đau thương vẫn đòi hỏi một sự nhìn nhận nghiêm túc từ toàn xã hội. Chúng ta không thể thay đổi quá khứ, nhưng hoàn toàn có thể xây dựng một tương lai an toàn hơn từ những bài học đắt giá. Đó là bổn phận thiêng liêng của thế hệ đi trước đối với sự bình an của con trẻ hôm nay và mai sau.",
   "sentences": [
    {
     "id": "5.02#1",
@@ -1087,18 +1422,33 @@
    },
    {
     "id": "5.02#2",
-    "text": "Cô bé Trịnh Thị Bích năm xưa nay đã trưởng thành, vượt qua nỗi đau thương tật để kiên cường vươn lên trong cuộc sống với sự yêu thương của gia đình và cộng đồng.",
-    "words": 35
+    "text": "Người con gái nhỏ năm xưa nay đã trưởng thành, lớn lên trong sự yêu thương và đùm bọc của người thân và cộng đồng.",
+    "words": 25
    },
    {
     "id": "5.02#3",
-    "text": "Thời gian có thể làm mờ đi lớp bụi đất đá, nhưng những bài học xương máu về an toàn cộng đồng và quản lý thanh thiếu niên thì chưa bao giờ cũ.",
-    "words": 33
+    "text": "Thời gian có thể làm mờ đi nhiều thứ, nhưng những bài học đắt giá về an toàn cộng đồng và quản lý thanh thiếu niên thì chưa bao giờ cũ.",
+    "words": 31
    },
    {
     "id": "5.02#4",
     "text": "Sự bình yên của mỗi mái ấm không chỉ phụ thuộc vào sự nghiêm minh của pháp luật, mà còn bắt đầu từ sự cảnh giác sáng suốt của từng cá nhân trong đời sống hàng ngày.",
     "words": 37
+   },
+   {
+    "id": "5.02#5",
+    "text": "Những vết thương thể xác có thể lành lặn theo năm tháng, nhưng ký ức đau thương vẫn đòi hỏi một sự nhìn nhận nghiêm túc từ toàn xã hội.",
+    "words": 30
+   },
+   {
+    "id": "5.02#6",
+    "text": "Chúng ta không thể thay đổi quá khứ, nhưng hoàn toàn có thể xây dựng một tương lai an toàn hơn từ những bài học đắt giá.",
+    "words": 27
+   },
+   {
+    "id": "5.02#7",
+    "text": "Đó là bổn phận thiêng liêng của thế hệ đi trước đối với sự bình an của con trẻ hôm nay và mai sau.",
+    "words": 24
    }
   ]
  },
@@ -1108,7 +1458,7 @@
   "kind": "LOI",
   "role": "D",
   "direction": "D: Điều tra viên Ban chuyên án Bộ Công an & Công an tỉnh Bắc Giang, bài học nghiệp vụ cảnh sát",
-  "text": "Dưới góc độ phòng ngừa tội phạm, bài học đắt giá nhất là các cơ sở kinh doanh vàng bạc, đá quý và tài sản giá trị lớn cần phải đầu tư bài bản cho hệ thống an ninh. Việc bố trí các lớp bảo vệ từ xa, hệ thống báo động chống đột nhập tự động kết nối với cơ quan công an là những biện pháp sống còn để ngăn chặn kẻ gian từ sớm. Đồng thời, các gia đình tuyệt đối không nên cất giữ quá nhiều tài sản tiền mặt tại nơi ở mà không có sự bảo vệ chuyên nghiệp.",
+  "text": "Dưới góc độ phòng ngừa tội phạm, bài học đắt giá nhất là các cơ sở kinh doanh vàng bạc, đá quý và tài sản giá trị lớn cần phải đầu tư bài bản cho hệ thống an ninh. Việc bố trí các lớp bảo vệ từ xa, hệ thống báo động chống đột nhập tự động kết nối với cơ quan công an là những biện pháp sống còn để ngăn chặn kẻ gian từ sớm. Đồng thời, các gia đình tuyệt đối không nên cất giữ quá nhiều tài sản tiền mặt tại nơi ở mà không có sự bảo vệ chuyên nghiệp. Sự kết hợp giữa công nghệ giám sát hiện đại và ý thức cảnh giác tự thân là chiếc chìa khóa vững chắc nhất để bảo vệ cơ sở kinh doanh.",
   "sentences": [
    {
     "id": "5.03#1",
@@ -1124,6 +1474,11 @@
     "id": "5.03#3",
     "text": "Đồng thời, các gia đình tuyệt đối không nên cất giữ quá nhiều tài sản tiền mặt tại nơi ở mà không có sự bảo vệ chuyên nghiệp.",
     "words": 28
+   },
+   {
+    "id": "5.03#4",
+    "text": "Sự kết hợp giữa công nghệ giám sát hiện đại và ý thức cảnh giác tự thân là chiếc chìa khóa vững chắc nhất để bảo vệ cơ sở kinh doanh.",
+    "words": 31
    }
   ]
  },
@@ -1133,7 +1488,7 @@
   "kind": "LOI",
   "role": "C",
   "direction": "C: Bản chất của kỹ năng sinh tồn khi đối mặt kẻ đột nhập",
-  "text": "Về mặt tâm lý học hành vi, kẻ đột nhập vào ban đêm thường ở trong trạng thái căng thẳng thần kinh tột độ và rất dễ bị kích động bạo lực. Khi bất ngờ phát hiện có kẻ gian trong nhà, ưu tiên số một của gia chủ phải luôn là bảo vệ tính mạng của bản thân và người thân thay vì tiếc nuối tài sản. Việc dồn kẻ trộm vào chân tường hoặc có những hành động đối đầu trực diện bất ngờ có thể kích hoạt cơn cuồng loạn bạo lực để bịt đầu mối của chúng. Sự bình tĩnh, tìm nơi ẩn nấp an toàn và kín đáo báo tin cho lực lượng chức năng là kỹ năng sinh tồn quan trọng nhất trong tình huống hiểm nghèo.",
+  "text": "Về mặt tâm lý học hành vi, kẻ đột nhập vào ban đêm thường ở trong trạng thái căng thẳng thần kinh tột độ và rất dễ bị kích động bạo lực. Khi bất ngờ phát hiện có kẻ gian trong nhà, ưu tiên số một của gia chủ phải luôn là bảo vệ tính mạng của bản thân và người thân thay vì tiếc nuối tài sản. Việc dồn kẻ trộm vào chân tường hoặc có những hành động đối đầu trực diện bất ngờ có thể kích hoạt cơn cuồng loạn bạo lực để bịt đầu mối của chúng. Sự bình tĩnh, tìm nơi ẩn nấp an toàn và kín đáo báo tin cho lực lượng chức năng là kỹ năng sinh tồn quan trọng nhất trong tình huống hiểm nghèo. Tuyệt đối không nên mạo hiểm tính mạng để giằng co tài sản khi đối phương đã thủ sẵn vũ khí nguy hiểm trong tay. Kẻ đột nhập khi bị đe dọa phát hiện sẽ hành động theo bản năng sinh tồn điên cuồng nhất của một con thú cùng đường. Bảo toàn mạng sống cho bản thân và con cái luôn là chiến thắng tối thượng trong mọi cuộc đối đầu với tội phạm. Sự sáng suốt trong khoảnh khắc sinh tử chính là ranh giới mong manh giữa sự sống và cái chết.",
   "sentences": [
    {
     "id": "5.04#1",
@@ -1154,6 +1509,26 @@
     "id": "5.04#4",
     "text": "Sự bình tĩnh, tìm nơi ẩn nấp an toàn và kín đáo báo tin cho lực lượng chức năng là kỹ năng sinh tồn quan trọng nhất trong tình huống hiểm nghèo.",
     "words": 32
+   },
+   {
+    "id": "5.04#5",
+    "text": "Tuyệt đối không nên mạo hiểm tính mạng để giằng co tài sản khi đối phương đã thủ sẵn vũ khí nguy hiểm trong tay.",
+    "words": 25
+   },
+   {
+    "id": "5.04#6",
+    "text": "Kẻ đột nhập khi bị đe dọa phát hiện sẽ hành động theo bản năng sinh tồn điên cuồng nhất của một con thú cùng đường.",
+    "words": 26
+   },
+   {
+    "id": "5.04#7",
+    "text": "Bảo toàn mạng sống cho bản thân và con cái luôn là chiến thắng tối thượng trong mọi cuộc đối đầu với tội phạm.",
+    "words": 24
+   },
+   {
+    "id": "5.04#8",
+    "text": "Sự sáng suốt trong khoảnh khắc sinh tử chính là ranh giới mong manh giữa sự sống và cái chết.",
+    "words": 20
    }
   ]
  },

@@ -1,0 +1,129 @@
+{
+  "khung": {
+    "w": 1080,
+    "h": 1920,
+    "codec": "h264",
+    "fps": 30.0,
+    "pix": "yuv420p"
+  },
+  "audio": {
+    "codec": "aac",
+    "rate": "48000",
+    "ch": 2
+  },
+  "dung_luong_mb": 28.7,
+  "do_dai_s": 66.6,
+  "loudness": {
+    "I_lufs": -16.0,
+    "true_peak_dbfs": -1.6
+  },
+  "khoang_cam": {
+    "so": 0,
+    "start": []
+  },
+  "lech_av_s": 0.0,
+  "loi_giai_ma": [],
+  "safe_zone_violations": [],
+  "tuong_phan": [
+    {
+      "t": 0.5,
+      "zone": "HOOK",
+      "ratio": 10.37,
+      "text_lum": 0.673,
+      "bg_lum": 0.02,
+      "text_px": 24425
+    },
+    {
+      "t": 1.5,
+      "zone": "HOOK",
+      "ratio": 10.37,
+      "text_lum": 0.673,
+      "bg_lum": 0.02,
+      "text_px": 24425
+    },
+    {
+      "t": 2.6,
+      "zone": "HOOK",
+      "ratio": 10.37,
+      "text_lum": 0.673,
+      "bg_lum": 0.02,
+      "text_px": 24425
+    },
+    {
+      "t": 8.0,
+      "zone": "TK1.01#2",
+      "ratio": 10.82,
+      "text_lum": 0.79,
+      "bg_lum": 0.028,
+      "text_px": 12103
+    },
+    {
+      "t": 14.0,
+      "zone": "TK1.01#3",
+      "ratio": 9.56,
+      "text_lum": 0.789,
+      "bg_lum": 0.038,
+      "text_px": 15227
+    },
+    {
+      "t": 27.5,
+      "zone": "TK1.01#6",
+      "ratio": 7.11,
+      "text_lum": 0.788,
+      "bg_lum": 0.068,
+      "text_px": 11278
+    },
+    {
+      "t": 33.0,
+      "zone": "CARD",
+      "ratio": 7.86,
+      "text_lum": 0.672,
+      "bg_lum": 0.042,
+      "text_px": 18014
+    },
+    {
+      "t": 34.2,
+      "zone": "CARD",
+      "ratio": 7.89,
+      "text_lum": 0.675,
+      "bg_lum": 0.042,
+      "text_px": 18014
+    },
+    {
+      "t": 50.0,
+      "zone": "TK1.01#10",
+      "ratio": 11.2,
+      "text_lum": 0.79,
+      "bg_lum": 0.025,
+      "text_px": 13371
+    },
+    {
+      "t": 63.0,
+      "zone": "TK1.01#12",
+      "ratio": 11.63,
+      "text_lum": 0.788,
+      "bg_lum": 0.022,
+      "text_px": 9226
+    }
+  ],
+  "tuong_phan_min": 7.11,
+  "hook_mask_px": 24425,
+  "watermark": "nen AI sinh moi cho TikTok (khong dung anh 16:9 cua tap, khong co watermark nen tang) - da soi 6 khung mau",
+  "mat_nguoi_that": "nen AI sinh, khong dung anh co that cua nguoi that; khung nguoi trong tranh khong mang tinh cach nguoi that",
+  "tu_cam": [],
+  "g6_loi": [],
+  "hook_nguyen_van": true,
+  "nguon_du_lieu": [
+    "brain_desk",
+    "crowd_house",
+    "doll",
+    "interrogation_gypsy",
+    "pinboard",
+    "podcast_desk",
+    "records",
+    "spotlight_deedee"
+  ],
+  "loi": [],
+  "pass": true,
+  "n_cong_dat": 14
+}

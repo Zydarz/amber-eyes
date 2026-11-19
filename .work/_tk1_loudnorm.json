@@ -1,0 +1,19 @@
+{
+  "input_i": "-15.93",
+  "input_tp": "-0.66",
+  "final_i": -16.0,
+  "final_tp": -1.7,
+  "bed_gain_base_db": -15.18,
+  "bed_rel_speech_db": -26.0,
+  "bed_rel_pause_db": -14.0,
+  "room_rel_db": -38.0,
+  "sfx_rel_db": -34.0,
+  "voice_rms_db": -17.92,
+  "bed_rms_db": -16.74,
+  "duration_s": 66.6,
+  "sources": {
+    "voice": "02_SAN_XUAT/TIKTOK/Tap01/TK1_master_audio.wav",
+    "bgm": "assets/bgm/bgm_sub_drone.mp3 (MiniMax Music)",
+    "sfx": "tu tong hop (room tone + tick may ghi am)"
+  }
+}

@@ -1,0 +1,792 @@
+[
+ {
+  "id": "1.01",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "*Tiếng Dark Ambient âm u, tiếng nhịp tim đập chậm và tiếng tích tắc đồng hồ kim loại ngột ngạt.*"
+ },
+ {
+  "id": "1.02",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng trầm ấm, mở đầu câu chuyện với sức nặng tâm lý",
+  "text": "Thị trấn Frederick thuộc bang Colorado vốn là một vùng ngoại ô thanh bình nằm nép mình dưới chân dãy núi Rocky. Nơi đây, những dãy nhà khang trang với bãi cỏ xanh mướt là biểu tượng cho giấc mơ gia đình trung lưu kiểu Mỹ. Thế nhưng, vào buổi sáng thứ Hai ngày mười ba tháng tám năm hai nghìn không trăm mười tám, sự tĩnh lặng ấy đã bị xé toạc bởi một dự cảm chẳng lành. Shanann Watts, một phụ nữ ba mươi tư tuổi đang mang thai đứa con thứ ba ở tuần thứ mười lăm, đã không xuất hiện tại buổi hẹn khám thai định kỳ. Cô cũng không hề trả lời bất kỳ tin nhắn hay cuộc gọi nào từ bạn bè và đối tác công việc. Sự im lặng bất thường này ngay lập tức kích hoạt hồi chuông cảnh báo trong tâm trí của Nickole Atkinson, người bạn thân vừa chở Shanann về nhà sau chuyến công tác vào lúc hai giờ sáng. Nickole lái xe đến thẳng căn nhà của gia đình Watts trên đại lộ Saratoga, bấm chuông liên hồi nhưng bên trong chỉ có sự vắng lặng đến rợn người.",
+  "sentences": [
+   {
+    "id": "1.02#1",
+    "text": "Thị trấn Frederick thuộc bang Colorado vốn là một vùng ngoại ô thanh bình nằm nép mình dưới chân dãy núi Rocky.",
+    "words": 22
+   },
+   {
+    "id": "1.02#2",
+    "text": "Nơi đây, những dãy nhà khang trang với bãi cỏ xanh mướt là biểu tượng cho giấc mơ gia đình trung lưu kiểu Mỹ.",
+    "words": 24
+   },
+   {
+    "id": "1.02#3",
+    "text": "Thế nhưng, vào buổi sáng thứ Hai ngày mười ba tháng tám năm hai nghìn không trăm mười tám, sự tĩnh lặng ấy đã bị xé toạc bởi một dự cảm chẳng lành.",
+    "words": 33
+   },
+   {
+    "id": "1.02#4",
+    "text": "Shanann Watts, một phụ nữ ba mươi tư tuổi đang mang thai đứa con thứ ba ở tuần thứ mười lăm, đã không xuất hiện tại buổi hẹn khám thai định kỳ.",
+    "words": 32
+   },
+   {
+    "id": "1.02#5",
+    "text": "Cô cũng không hề trả lời bất kỳ tin nhắn hay cuộc gọi nào từ bạn bè và đối tác công việc.",
+    "words": 22
+   },
+   {
+    "id": "1.02#6",
+    "text": "Sự im lặng bất thường này ngay lập tức kích hoạt hồi chuông cảnh báo trong tâm trí của Nickole Atkinson, người bạn thân vừa chở Shanann về nhà sau chuyến công tác vào lúc hai giờ sáng.",
+    "words": 38
+   },
+   {
+    "id": "1.02#7",
+    "text": "Nickole lái xe đến thẳng căn nhà của gia đình Watts trên đại lộ Saratoga, bấm chuông liên hồi nhưng bên trong chỉ có sự vắng lặng đến rợn người.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "1.03",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "*Tiếng chuông cửa dồn dập, tiếng gõ cửa gấp gáp.*"
+ },
+ {
+  "id": "1.04",
+  "act": 1,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "giọng hốt hoảng, gấp gáp",
+  "text": "Tôi biết chắc chắn có điều gì đó khủng khiếp đã xảy ra. Shanann chưa bao giờ rời xa điện thoại, cô ấy yêu hai đứa nhỏ hơn cả mạng sống của mình và không đời nào bỏ lỡ buổi kiểm tra tim thai. Xe của cô ấy vẫn đỗ trong gara, đôi giày yêu thích vẫn ở cửa, và chiếc túi xách chứa toàn bộ thuốc men cùng ví tiền vẫn nằm nguyên trên bàn bếp.",
+  "sentences": [
+   {
+    "id": "1.04#1",
+    "text": "Tôi biết chắc chắn có điều gì đó khủng khiếp đã xảy ra.",
+    "words": 13
+   },
+   {
+    "id": "1.04#2",
+    "text": "Shanann chưa bao giờ rời xa điện thoại, cô ấy yêu hai đứa nhỏ hơn cả mạng sống của mình và không đời nào bỏ lỡ buổi kiểm tra tim thai.",
+    "words": 31
+   },
+   {
+    "id": "1.04#3",
+    "text": "Xe của cô ấy vẫn đỗ trong gara, đôi giày yêu thích vẫn ở cửa, và chiếc túi xách chứa toàn bộ thuốc men cùng ví tiền vẫn nằm nguyên trên bàn bếp.",
+    "words": 33
+   }
+  ]
+ },
+ {
+  "id": "1.05",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "nhấn mạnh sự can thiệp của cảnh sát",
+  "text": "Trước sự kiên quyết của Nickole, sĩ quan cảnh sát địa phương Scott Coonrod đã có mặt tại hiện trường. Sau đó ít phút, Chris Watts, ba mươi ba tuổi, người chồng mẫu mực với vẻ ngoài điển trai, vạm vỡ và tính cách hiền lành, mới lái chiếc xe bán tải của công ty trở về nhà. Thay vì vẻ hoảng loạn thường thấy của một người đàn ông có vợ mang thai và hai con gái bốn tuổi và ba tuổi mất tích, Chris bước vào nhà với một sự chậm rãi kỳ lạ. Hắn mở cửa, bước vào trong vài phút một mình trước khi cho phép cảnh sát và Nickole bước vào. Dưới góc độ tâm lý học hiện trường, từng cử chỉ nhỏ nhặt nhất trong khoảnh khắc đầu tiên đều là chiếc gương phản chiếu tâm can của kẻ thủ ác.",
+  "sentences": [
+   {
+    "id": "1.05#1",
+    "text": "Trước sự kiên quyết của Nickole, sĩ quan cảnh sát địa phương Scott Coonrod đã có mặt tại hiện trường.",
+    "words": 20
+   },
+   {
+    "id": "1.05#2",
+    "text": "Sau đó ít phút, Chris Watts, ba mươi ba tuổi, người chồng mẫu mực với vẻ ngoài điển trai, vạm vỡ và tính cách hiền lành, mới lái chiếc xe bán tải của công ty trở về nhà.",
+    "words": 38
+   },
+   {
+    "id": "1.05#3",
+    "text": "Thay vì vẻ hoảng loạn thường thấy của một người đàn ông có vợ mang thai và hai con gái bốn tuổi và ba tuổi mất tích, Chris bước vào nhà với một sự chậm rãi kỳ lạ.",
+    "words": 38
+   },
+   {
+    "id": "1.05#4",
+    "text": "Hắn mở cửa, bước vào trong vài phút một mình trước khi cho phép cảnh sát và Nickole bước vào.",
+    "words": 20
+   },
+   {
+    "id": "1.05#5",
+    "text": "Dưới góc độ tâm lý học hiện trường, từng cử chỉ nhỏ nhặt nhất trong khoảnh khắc đầu tiên đều là chiếc gương phản chiếu tâm can của kẻ thủ ác.",
+    "words": 31
+   }
+  ]
+ },
+ {
+  "id": "1.06",
+  "act": 1,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "giọng đanh thép, lạnh lùng",
+  "text": "Khi bước chân vào ngôi nhà, chúng tôi nhận thấy ngay những dấu hiệu nghịch lý. Chiếc giường trong phòng ngủ chính bị tháo tung ga trải, trong khi phần còn lại của ngôi nhà lại ngăn nắp đến mức bất thường. Đặc biệt, nhẫn cưới của Shanann, biểu tượng gắn kết thiêng liêng nhất của cô, lại được đặt ngay ngắn trên chiếc tủ đầu giường. Người chồng giải thích rằng hai vợ chồng đã có một cuộc trò chuyện xúc động về việc ly thân vào sáng sớm, và vợ hắn đã đưa hai con đi đâu đó. Thế nhưng, một người mẹ đang mang thai sẽ không bao giờ rời khỏi nhà mà không mang theo điện thoại, ví tiền, ghế an toàn cho trẻ em trên xe hơi, hay thậm chí là thuốc men thiết yếu.",
+  "sentences": [
+   {
+    "id": "1.06#1",
+    "text": "Khi bước chân vào ngôi nhà, chúng tôi nhận thấy ngay những dấu hiệu nghịch lý.",
+    "words": 16
+   },
+   {
+    "id": "1.06#2",
+    "text": "Chiếc giường trong phòng ngủ chính bị tháo tung ga trải, trong khi phần còn lại của ngôi nhà lại ngăn nắp đến mức bất thường.",
+    "words": 26
+   },
+   {
+    "id": "1.06#3",
+    "text": "Đặc biệt, nhẫn cưới của Shanann, biểu tượng gắn kết thiêng liêng nhất của cô, lại được đặt ngay ngắn trên chiếc tủ đầu giường.",
+    "words": 25
+   },
+   {
+    "id": "1.06#4",
+    "text": "Người chồng giải thích rằng hai vợ chồng đã có một cuộc trò chuyện xúc động về việc ly thân vào sáng sớm, và vợ hắn đã đưa hai con đi đâu đó.",
+    "words": 33
+   },
+   {
+    "id": "1.06#5",
+    "text": "Thế nhưng, một người mẹ đang mang thai sẽ không bao giờ rời khỏi nhà mà không mang theo điện thoại, ví tiền, ghế an toàn cho trẻ em trên xe hơi, hay thậm chí là thuốc men thiết yếu.",
+    "words": 40
+   }
+  ]
+ },
+ {
+  "id": "1.07",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "*Tiếng máy quay ghi hình, tiếng xì xào của phóng viên.*"
+ },
+ {
+  "id": "1.08",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "dẫn dắt vào cuộc phỏng vấn truyền hình",
+  "text": "Chỉ vài giờ sau khi các lực lượng chức năng phong tỏa ngôi nhà, các đài truyền hình địa phương Denver7 và Fox31 đã có mặt. Chris Watts bước ra hiên nhà, khoanh tay trước ngực và bắt đầu trả lời phỏng vấn trước hàng triệu khán giả truyền hình. Đó là khoảnh khắc mà chiếc mặt nạ của kẻ hủy diệt gia đình bắt đầu xuất hiện những vết rạn nứt không thể hàn gắn.",
+  "sentences": [
+   {
+    "id": "1.08#1",
+    "text": "Chỉ vài giờ sau khi các lực lượng chức năng phong tỏa ngôi nhà, các đài truyền hình địa phương Denver7 và Fox31 đã có mặt.",
+    "words": 26
+   },
+   {
+    "id": "1.08#2",
+    "text": "Chris Watts bước ra hiên nhà, khoanh tay trước ngực và bắt đầu trả lời phỏng vấn trước hàng triệu khán giả truyền hình.",
+    "words": 24
+   },
+   {
+    "id": "1.08#3",
+    "text": "Đó là khoảnh khắc mà chiếc mặt nạ của kẻ hủy diệt gia đình bắt đầu xuất hiện những vết rạn nứt không thể hàn gắn.",
+    "words": 26
+   }
+  ]
+ },
+ {
+  "id": "1.09",
+  "act": 1,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "giọng điềm đạm, sắc sảo",
+  "text": "Khi đối diện với nỗi đau mất mát tột cùng của người thân, cơ thể con người sẽ phản ứng bằng những cơn co thắt cảm xúc dữ dội, nước mắt, hoặc sự hoảng loạn tột độ. Thế nhưng ở Chris Watts, chúng ta lại chứng kiến một màn trình diễn ngôn ngữ cơ thể đầy nghịch lý. Hắn khoanh tay trước ngực, một phản xạ phòng vệ tiềm thức nhằm che chắn vùng tim và vùng bụng trước sự thẩm vấn của thế giới bên ngoài. Cơ thể hắn liên tục đung đưa từ bên này sang bên kia, một cơ chế tự xoa dịu quen thuộc khi não bộ phải chịu đựng áp lực dối trá quá tải. Đặc biệt, phản xạ thần kinh thực vật thể hiện rõ qua chứng khô miệng cấp tính: hắn liên tục liếm môi và nuốt nước bọt một cách nặng nề. Và nghiêm trọng nhất, trong lời kêu gọi của mình, Chris đã vô tình sử dụng thì quá khứ khi nói về những đứa con của mình, một chỉ dấu rò rỉ ngôn ngữ kinh điển cho thấy hắn biết rõ các nạn nhân không còn tồn tại trên cõi đời này.",
+  "sentences": [
+   {
+    "id": "1.09#1",
+    "text": "Khi đối diện với nỗi đau mất mát tột cùng của người thân, cơ thể con người sẽ phản ứng bằng những cơn co thắt cảm xúc dữ dội, nước mắt, hoặc sự hoảng loạn tột độ.",
+    "words": 37
+   },
+   {
+    "id": "1.09#2",
+    "text": "Thế nhưng ở Chris Watts, chúng ta lại chứng kiến một màn trình diễn ngôn ngữ cơ thể đầy nghịch lý.",
+    "words": 21
+   },
+   {
+    "id": "1.09#3",
+    "text": "Hắn khoanh tay trước ngực, một phản xạ phòng vệ tiềm thức nhằm che chắn vùng tim và vùng bụng trước sự thẩm vấn của thế giới bên ngoài.",
+    "words": 29
+   },
+   {
+    "id": "1.09#4",
+    "text": "Cơ thể hắn liên tục đung đưa từ bên này sang bên kia, một cơ chế tự xoa dịu quen thuộc khi não bộ phải chịu đựng áp lực dối trá quá tải.",
+    "words": 33
+   },
+   {
+    "id": "1.09#5",
+    "text": "Đặc biệt, phản xạ thần kinh thực vật thể hiện rõ qua chứng khô miệng cấp tính: hắn liên tục liếm môi và nuốt nước bọt một cách nặng nề.",
+    "words": 30
+   },
+   {
+    "id": "1.09#6",
+    "text": "Và nghiêm trọng nhất, trong lời kêu gọi của mình, Chris đã vô tình sử dụng thì quá khứ khi nói về những đứa con của mình, một chỉ dấu rò rỉ ngôn ngữ kinh điển cho thấy hắn biết rõ các nạn nhân không còn tồn tại trên cõi đời này.",
+    "words": 52
+   }
+  ]
+ },
+ {
+  "id": "2.01",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "*Tiếng nhạc điện tử trầm lạnh, nhịp điệu hồi hộp và tiếng gõ bàn phím liên hồi.*"
+ },
+ {
+  "id": "2.02",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng trầm tĩnh, đào sâu vào vỏ bọc hôn nhân",
+  "text": "Để hiểu được nguồn cơn dẫn đến thảm kịch, chúng ta phải quay ngược thời gian để nhìn vào cấu trúc tâm lý của cuộc hôn nhân này. Trong mắt cộng đồng mạng và bạn bè, gia đình Watts là hình mẫu lý tưởng: hai vợ chồng trẻ trung, hai cô con gái xinh xắn như thiên thần, sống trong ngôi nhà trị giá nửa triệu đô la. Shanann là một người phụ nữ năng động, quản lý gia đình chu đáo và thường xuyên chia sẻ những khoảnh khắc hạnh phúc lên mạng xã hội. Ngược lại, Chris Watts là người đàn ông trầm lặng, thụ động, luôn chiều chuộng và nhường quyền quyết định mọi việc trong nhà cho vợ. Nhưng ẩn sâu dưới vẻ ngoài phục tùng đó là một khối u tâm lý mang tên Ái kỷ kín đáo, đang âm thầm tích tụ sự căm ghét đối với thực tại.",
+  "sentences": [
+   {
+    "id": "2.02#1",
+    "text": "Để hiểu được nguồn cơn dẫn đến thảm kịch, chúng ta phải quay ngược thời gian để nhìn vào cấu trúc tâm lý của cuộc hôn nhân này.",
+    "words": 28
+   },
+   {
+    "id": "2.02#2",
+    "text": "Trong mắt cộng đồng mạng và bạn bè, gia đình Watts là hình mẫu lý tưởng: hai vợ chồng trẻ trung, hai cô con gái xinh xắn như thiên thần, sống trong ngôi nhà trị giá nửa triệu đô la.",
+    "words": 40
+   },
+   {
+    "id": "2.02#3",
+    "text": "Shanann là một người phụ nữ năng động, quản lý gia đình chu đáo và thường xuyên chia sẻ những khoảnh khắc hạnh phúc lên mạng xã hội.",
+    "words": 28
+   },
+   {
+    "id": "2.02#4",
+    "text": "Ngược lại, Chris Watts là người đàn ông trầm lặng, thụ động, luôn chiều chuộng và nhường quyền quyết định mọi việc trong nhà cho vợ.",
+    "words": 26
+   },
+   {
+    "id": "2.02#5",
+    "text": "Nhưng ẩn sâu dưới vẻ ngoài phục tùng đó là một khối u tâm lý mang tên Ái kỷ kín đáo, đang âm thầm tích tụ sự căm ghét đối với thực tại.",
+    "words": 33
+   }
+  ]
+ },
+ {
+  "id": "2.03",
+  "act": 2,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "phân tích chuyên sâu về nhân cách ái kỷ kín đáo",
+  "text": "Khác với kẻ ái kỷ phô trương luôn tìm kiếm sự chú ý bằng sự ồn ào, kẻ ái kỷ kín đáo lại xây dựng hình ảnh của mình như một nạn nhân cam chịu, một người đàn ông hiền lành bị lấn lướt. Hắn không bao giờ trực tiếp đối đầu hay bộc lộ sự bất mãn, mà chọn cách nuốt chửng sự phẫn uất vào bên trong. Trong tâm thức của Chris, gia đình không còn là tổ ấm yêu thương, mà đã trở thành chiếc lồng giam hãm cái tôi tự do của hắn. Sự xuất hiện của đứa con thứ ba không mang lại niềm vui, mà trở thành gánh nặng tài chính và trách nhiệm mà hắn tuyệt vọng muốn rũ bỏ. Và khi ngòi nổ xuất hiện, toàn bộ sự kìm nén ấy sẽ chuyển hóa thành một cơn cuồng phong hủy diệt lạnh lùng.",
+  "sentences": [
+   {
+    "id": "2.03#1",
+    "text": "Khác với kẻ ái kỷ phô trương luôn tìm kiếm sự chú ý bằng sự ồn ào, kẻ ái kỷ kín đáo lại xây dựng hình ảnh của mình như một nạn nhân cam chịu, một người đàn ông hiền lành bị lấn lướt.",
+    "words": 44
+   },
+   {
+    "id": "2.03#2",
+    "text": "Hắn không bao giờ trực tiếp đối đầu hay bộc lộ sự bất mãn, mà chọn cách nuốt chửng sự phẫn uất vào bên trong.",
+    "words": 25
+   },
+   {
+    "id": "2.03#3",
+    "text": "Trong tâm thức của Chris, gia đình không còn là tổ ấm yêu thương, mà đã trở thành chiếc lồng giam hãm cái tôi tự do của hắn.",
+    "words": 28
+   },
+   {
+    "id": "2.03#4",
+    "text": "Sự xuất hiện của đứa con thứ ba không mang lại niềm vui, mà trở thành gánh nặng tài chính và trách nhiệm mà hắn tuyệt vọng muốn rũ bỏ.",
+    "words": 30
+   },
+   {
+    "id": "2.03#5",
+    "text": "Và khi ngòi nổ xuất hiện, toàn bộ sự kìm nén ấy sẽ chuyển hóa thành một cơn cuồng phong hủy diệt lạnh lùng.",
+    "words": 24
+   }
+  ]
+ },
+ {
+  "id": "2.04",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "*Tiếng chuông điện thoại rung nhẹ, tiếng tin nhắn gửi đi.*"
+ },
+ {
+  "id": "2.05",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "chuyển cảnh sang mối quan hệ ngoài luồng",
+  "text": "Ngòi nổ đó mang tên Nichol Kessinger, một nữ đồng nghiệp tại công ty dầu khí Anadarko Petroleum nơi Chris làm việc. Bắt đầu từ tháng sáu năm hai nghìn không trăm mười tám, khi Shanann đưa hai con về thăm gia đình ở North Carolina suốt sáu tuần, Chris bắt đầu bước vào mối quan hệ tình cảm lén lút. Lần đầu tiên trong đời, hắn cảm thấy mình được tôn sùng như một người đàn ông độc lập, mạnh mẽ và cuốn hút. Hắn bắt đầu chế độ tập luyện thể hình điên cuồng, thay đổi ngoại hình và đắm chìm vào những chuyến dã ngoại lãng mạn cùng nhân tình. Nhưng điều đáng sợ nằm ở chỗ: Chris bắt đầu nhìn nhận hai người phụ nữ qua cơ chế phân ngăn tâm trí bệnh lý.",
+  "sentences": [
+   {
+    "id": "2.05#1",
+    "text": "Ngòi nổ đó mang tên Nichol Kessinger, một nữ đồng nghiệp tại công ty dầu khí Anadarko Petroleum nơi Chris làm việc.",
+    "words": 22
+   },
+   {
+    "id": "2.05#2",
+    "text": "Bắt đầu từ tháng sáu năm hai nghìn không trăm mười tám, khi Shanann đưa hai con về thăm gia đình ở North Carolina suốt sáu tuần, Chris bắt đầu bước vào mối quan hệ tình cảm lén lút.",
+    "words": 39
+   },
+   {
+    "id": "2.05#3",
+    "text": "Lần đầu tiên trong đời, hắn cảm thấy mình được tôn sùng như một người đàn ông độc lập, mạnh mẽ và cuốn hút.",
+    "words": 24
+   },
+   {
+    "id": "2.05#4",
+    "text": "Hắn bắt đầu chế độ tập luyện thể hình điên cuồng, thay đổi ngoại hình và đắm chìm vào những chuyến dã ngoại lãng mạn cùng nhân tình.",
+    "words": 28
+   },
+   {
+    "id": "2.05#5",
+    "text": "Nhưng điều đáng sợ nằm ở chỗ: Chris bắt đầu nhìn nhận hai người phụ nữ qua cơ chế phân ngăn tâm trí bệnh lý.",
+    "words": 25
+   }
+  ]
+ },
+ {
+  "id": "2.06",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "trích xuất dữ liệu điều tra",
+  "text": "Dữ liệu khôi phục từ điện thoại và máy tính của Chris Watts đã phơi bày toàn bộ kế hoạch đen tối. Trong khi Shanann gửi cho hắn những cuốn sách hàn gắn hôn nhân và những dòng tin nhắn đầy nước mắt van nài sự sẻ chia, Chris hoàn toàn dửng dưng. Ngược lại, lịch sử tìm kiếm trên mạng của hắn chứa đầy những câu hỏi về giá trị các căn hộ chung cư cho người độc thân, các địa điểm du lịch cùng nhân tình, và thậm chí là tra cứu lời bài hát về sự giải thoát. Đặc biệt, vào ngày mười một tháng tám, chỉ hai ngày trước khi án mạng xảy ra, Chris đã chủ động đăng ký trực một mình tại địa điểm khai thác dầu hẻo lánh mang tên Cervi ba mươi mốt chín mươi. Đó là nơi mà hắn dự định sẽ biến mất mọi dấu vết của những người từng thân yêu nhất.",
+  "sentences": [
+   {
+    "id": "2.06#1",
+    "text": "Dữ liệu khôi phục từ điện thoại và máy tính của Chris Watts đã phơi bày toàn bộ kế hoạch đen tối.",
+    "words": 22
+   },
+   {
+    "id": "2.06#2",
+    "text": "Trong khi Shanann gửi cho hắn những cuốn sách hàn gắn hôn nhân và những dòng tin nhắn đầy nước mắt van nài sự sẻ chia, Chris hoàn toàn dửng dưng.",
+    "words": 31
+   },
+   {
+    "id": "2.06#3",
+    "text": "Ngược lại, lịch sử tìm kiếm trên mạng của hắn chứa đầy những câu hỏi về giá trị các căn hộ chung cư cho người độc thân, các địa điểm du lịch cùng nhân tình, và thậm chí là tra cứu lời bài hát về sự giải thoát.",
+    "words": 48
+   },
+   {
+    "id": "2.06#4",
+    "text": "Đặc biệt, vào ngày mười một tháng tám, chỉ hai ngày trước khi án mạng xảy ra, Chris đã chủ động đăng ký trực một mình tại địa điểm khai thác dầu hẻo lánh mang tên Cervi ba mươi mốt chín mươi.",
+    "words": 42
+   },
+   {
+    "id": "2.06#5",
+    "text": "Đó là nơi mà hắn dự định sẽ biến mất mọi dấu vết của những người từng thân yêu nhất.",
+    "words": 20
+   }
+  ]
+ },
+ {
+  "id": "2.07",
+  "act": 2,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "giọng nghẹn ngào, đau xót",
+  "text": "Shanann đã linh cảm được điều đó trong những tuần cuối cùng. Chị ấy nhắn tin cho bạn bè rằng Chris đã trở nên lạnh lùng như một tảng băng, không muốn chạm vào chị ấy, không muốn nói chuyện về đứa con sắp chào đời. Chị ấy đã cố gắng làm mọi thứ để cứu vãn gia đình, nhưng chị ấy không thể ngờ rằng người đàn ông ngủ cạnh mình mỗi đêm đã không còn coi ba mẹ con chị là con người nữa.",
+  "sentences": [
+   {
+    "id": "2.07#1",
+    "text": "Shanann đã linh cảm được điều đó trong những tuần cuối cùng.",
+    "words": 12
+   },
+   {
+    "id": "2.07#2",
+    "text": "Chị ấy nhắn tin cho bạn bè rằng Chris đã trở nên lạnh lùng như một tảng băng, không muốn chạm vào chị ấy, không muốn nói chuyện về đứa con sắp chào đời.",
+    "words": 34
+   },
+   {
+    "id": "2.07#3",
+    "text": "Chị ấy đã cố gắng làm mọi thứ để cứu vãn gia đình, nhưng chị ấy không thể ngờ rằng người đàn ông ngủ cạnh mình mỗi đêm đã không còn coi ba mẹ con chị là con người nữa.",
+    "words": 40
+   }
+  ]
+ },
+ {
+  "id": "3.01",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "*Tiếng bass nặng trĩu, tiếng đồng hồ tích tắc dồn dập tạo không khí ngột ngạt của phòng thẩm vấn.*"
+ },
+ {
+  "id": "3.02",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "chuyển sang bối cảnh điều tra cấp cao",
+  "text": "Ngày mười lăm tháng tám năm hai nghìn không trăm mười tám, Cục Điều tra Colorado phối hợp cùng Cục Điều tra Liên bang FBI chính thức tiếp quản cuộc thẩm vấn. Căn phòng nhỏ không cửa sổ tại trụ sở cảnh sát trở thành vũ đài tâm lý nghẹt thở giữa các chuyên gia thẩm vấn hàng đầu và kẻ sát nhân đang cố bám víu vào chiếc mặt nạ vô tội. Người đối mặt trực tiếp với Chris là nữ đặc vụ Tammy Lee, một bậc thầy về tâm lý học hành vi và điều tra bằng máy phát hiện nói dối.",
+  "sentences": [
+   {
+    "id": "3.02#1",
+    "text": "Ngày mười lăm tháng tám năm hai nghìn không trăm mười tám, Cục Điều tra Colorado phối hợp cùng Cục Điều tra Liên bang FBI chính thức tiếp quản cuộc thẩm vấn.",
+    "words": 32
+   },
+   {
+    "id": "3.02#2",
+    "text": "Căn phòng nhỏ không cửa sổ tại trụ sở cảnh sát trở thành vũ đài tâm lý nghẹt thở giữa các chuyên gia thẩm vấn hàng đầu và kẻ sát nhân đang cố bám víu vào chiếc mặt nạ vô tội.",
+    "words": 41
+   },
+   {
+    "id": "3.02#3",
+    "text": "Người đối mặt trực tiếp với Chris là nữ đặc vụ Tammy Lee, một bậc thầy về tâm lý học hành vi và điều tra bằng máy phát hiện nói dối.",
+    "words": 31
+   }
+  ]
+ },
+ {
+  "id": "3.03",
+  "act": 3,
+  "kind": "SFX",
+  "desc": "*Tiếng máy đo nhịp tim rì rầm, tiếng hít thở sâu.*"
+ },
+ {
+  "id": "3.04",
+  "act": 3,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "tái hiện chiến thuật thẩm vấn đỉnh cao",
+  "text": "Chúng tôi không bắt đầu bằng sự công kích hay buộc tội dữ dội. Chiến thuật hiệu quả nhất đối với một kẻ ái kỷ kín đáo là tạo ra cho hắn một lối thoát tâm lý, khiến hắn tin rằng điều tra viên đang đứng về phía hắn và thấu hiểu nỗi khổ của hắn. Trước khi gắn các cảm biến đo nhịp tim, huyết áp và độ dẫn điện của da, đặc vụ Tammy Lee đã nói với Chris rằng: Chỉ có hai người trong căn phòng này biết sự thật, đó là Chúa và bản thân anh. Và chiếc máy này sẽ không thể nói dối thay cho anh được.",
+  "sentences": [
+   {
+    "id": "3.04#1",
+    "text": "Chúng tôi không bắt đầu bằng sự công kích hay buộc tội dữ dội.",
+    "words": 14
+   },
+   {
+    "id": "3.04#2",
+    "text": "Chiến thuật hiệu quả nhất đối với một kẻ ái kỷ kín đáo là tạo ra cho hắn một lối thoát tâm lý, khiến hắn tin rằng điều tra viên đang đứng về phía hắn và thấu hiểu nỗi khổ của hắn.",
+    "words": 42
+   },
+   {
+    "id": "3.04#3",
+    "text": "Trước khi gắn các cảm biến đo nhịp tim, huyết áp và độ dẫn điện của da, đặc vụ Tammy Lee đã nói với Chris rằng: Chỉ có hai người trong căn phòng này biết sự thật, đó là Chúa và bản thân anh.",
+    "words": 44
+   },
+   {
+    "id": "3.04#4",
+    "text": "Và chiếc máy này sẽ không thể nói dối thay cho anh được.",
+    "words": 13
+   }
+  ]
+ },
+ {
+  "id": "3.05",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "nhấn mạnh kết quả bài kiểm tra",
+  "text": "Sau nhiều giờ thực hiện bài kiểm tra định chuẩn, kết quả đã giáng một đòn chí mạng vào sự tự tin của Chris Watts. Điểm số của hắn là âm mười tám, một mức điểm chỉ ra sự gian dối tuyệt đối mà hiếm có bài kiểm tra tâm lý nào từng ghi nhận. Khi Tammy Lee bước vào phòng và đặt bản kết quả trước mặt Chris, chiếc mặt nạ của người cha mẫu mực bắt đầu vỡ vụn hoàn toàn.",
+  "sentences": [
+   {
+    "id": "3.05#1",
+    "text": "Sau nhiều giờ thực hiện bài kiểm tra định chuẩn, kết quả đã giáng một đòn chí mạng vào sự tự tin của Chris Watts.",
+    "words": 25
+   },
+   {
+    "id": "3.05#2",
+    "text": "Điểm số của hắn là âm mười tám, một mức điểm chỉ ra sự gian dối tuyệt đối mà hiếm có bài kiểm tra tâm lý nào từng ghi nhận.",
+    "words": 30
+   },
+   {
+    "id": "3.05#3",
+    "text": "Khi Tammy Lee bước vào phòng và đặt bản kết quả trước mặt Chris, chiếc mặt nạ của người cha mẫu mực bắt đầu vỡ vụn hoàn toàn.",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "3.06",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "bóc tách phản ứng tâm lý khi bị dồn vào chân tường",
+  "text": "Khi biết mình đã thất bại thảm hại trước bài kiểm tra, Chris rơi vào trạng thái tê liệt nhận thức. Lúc này, đặc vụ Tammy Lee đã tung ra đòn tâm lý quyết định: bà gợi ý rằng có thể Shanann đã làm điều gì đó với hai đứa trẻ trong cơn giận dữ, và Chris chỉ ra tay để bảo vệ con mình. Đây là chiếc phao cứu sinh hoàn hảo cho bản ngã ái kỷ của Chris. Hắn lập tức chộp lấy câu chuyện hoang đường này, khóc lóc và khai rằng chính Shanann đã siết cổ hai đứa bé, và hắn trong cơn phẫn nộ đã bóp cổ vợ để trả thù. Dưới góc độ tâm lý tội phạm, đây là phản xạ đổ lỗi cho nạn nhân kinh điển của những kẻ phạm tội giết người thân. Hắn thà chấp nhận mình là một kẻ giết người vì phẫn nộ, còn hơn phải thừa nhận bản chất của một kẻ hủy diệt máu lạnh đã sát hại chính những đứa con ruột thịt của mình.",
+  "sentences": [
+   {
+    "id": "3.06#1",
+    "text": "Khi biết mình đã thất bại thảm hại trước bài kiểm tra, Chris rơi vào trạng thái tê liệt nhận thức.",
+    "words": 21
+   },
+   {
+    "id": "3.06#2",
+    "text": "Lúc này, đặc vụ Tammy Lee đã tung ra đòn tâm lý quyết định: bà gợi ý rằng có thể Shanann đã làm điều gì đó với hai đứa trẻ trong cơn giận dữ, và Chris chỉ ra tay để bảo vệ con mình.",
+    "words": 44
+   },
+   {
+    "id": "3.06#3",
+    "text": "Đây là chiếc phao cứu sinh hoàn hảo cho bản ngã ái kỷ của Chris.",
+    "words": 15
+   },
+   {
+    "id": "3.06#4",
+    "text": "Hắn lập tức chộp lấy câu chuyện hoang đường này, khóc lóc và khai rằng chính Shanann đã siết cổ hai đứa bé, và hắn trong cơn phẫn nộ đã bóp cổ vợ để trả thù.",
+    "words": 36
+   },
+   {
+    "id": "3.06#5",
+    "text": "Dưới góc độ tâm lý tội phạm, đây là phản xạ đổ lỗi cho nạn nhân kinh điển của những kẻ phạm tội giết người thân.",
+    "words": 26
+   },
+   {
+    "id": "3.06#6",
+    "text": "Hắn thà chấp nhận mình là một kẻ giết người vì phẫn nộ, còn hơn phải thừa nhận bản chất của một kẻ hủy diệt máu lạnh đã sát hại chính những đứa con ruột thịt của mình.",
+    "words": 38
+   }
+  ]
+ },
+ {
+  "id": "4.01",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "*Tiếng gió rít qua cánh đồng hoang, tiếng máy móc công nghiệp nặng nề và u uất.*"
+ },
+ {
+  "id": "4.02",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng u buồn, dẫn dắt đến địa điểm khai quật",
+  "text": "Dù Chris chỉ thừa nhận một phần sự thật mang tính ngụy biện, lời khai của hắn đã dẫn các điều tra viên đến cánh đồng dầu mỏ hẻo lánh Cervi ba mươi mốt chín mươi. Đó là một vùng đất cằn cỗi với hai bồn chứa dầu thô khổng lồ cao chót vót giữa nền trời xám xịt. Tại đây, bức màn nhung của tội ác đã bị lật mở hoàn toàn, phơi bày một sự tàn nhẫn vượt quá sức tưởng tượng của lương tri nhân loại.",
+  "sentences": [
+   {
+    "id": "4.02#1",
+    "text": "Dù Chris chỉ thừa nhận một phần sự thật mang tính ngụy biện, lời khai của hắn đã dẫn các điều tra viên đến cánh đồng dầu mỏ hẻo lánh Cervi ba mươi mốt chín mươi.",
+    "words": 36
+   },
+   {
+    "id": "4.02#2",
+    "text": "Đó là một vùng đất cằn cỗi với hai bồn chứa dầu thô khổng lồ cao chót vót giữa nền trời xám xịt.",
+    "words": 23
+   },
+   {
+    "id": "4.02#3",
+    "text": "Tại đây, bức màn nhung của tội ác đã bị lật mở hoàn toàn, phơi bày một sự tàn nhẫn vượt quá sức tưởng tượng của lương tri nhân loại.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "4.03",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "giọng trầm xuống, kiềm chế cảm xúc",
+  "text": "Tại hiện trường, chúng tôi tìm thấy thi thể của Shanann được chôn cất sơ sài trong một hố nông gần các bồn dầu. Nhưng sự thật kinh hoàng nhất nằm ở hai bồn chứa dầu thô bên cạnh. Để triệt tiêu hoàn toàn dấu vết, Chris Watts đã thả thi thể của hai cô con gái nhỏ của mình, Bella bốn tuổi và Celeste ba tuổi, vào hai bồn chứa dầu riêng biệt thông qua miệng nắp chỉ rộng hơn hai mươi centimet. Hành vi này đã phá vỡ hoàn toàn câu chuyện ngụy biện rằng hắn yêu thương các con. Không một người cha nào yêu con lại có thể đối xử với thi thể của những đứa trẻ vô tội bằng một sự lạnh lùng và tàn nhẫn đến mức độ như vậy.",
+  "sentences": [
+   {
+    "id": "4.03#1",
+    "text": "Tại hiện trường, chúng tôi tìm thấy thi thể của Shanann được chôn cất sơ sài trong một hố nông gần các bồn dầu.",
+    "words": 24
+   },
+   {
+    "id": "4.03#2",
+    "text": "Nhưng sự thật kinh hoàng nhất nằm ở hai bồn chứa dầu thô bên cạnh.",
+    "words": 15
+   },
+   {
+    "id": "4.03#3",
+    "text": "Để triệt tiêu hoàn toàn dấu vết, Chris Watts đã thả thi thể của hai cô con gái nhỏ của mình, Bella bốn tuổi và Celeste ba tuổi, vào hai bồn chứa dầu riêng biệt thông qua miệng nắp chỉ rộng hơn hai mươi centimet.",
+    "words": 45
+   },
+   {
+    "id": "4.03#4",
+    "text": "Hành vi này đã phá vỡ hoàn toàn câu chuyện ngụy biện rằng hắn yêu thương các con.",
+    "words": 18
+   },
+   {
+    "id": "4.03#5",
+    "text": "Không một người cha nào yêu con lại có thể đối xử với thi thể của những đứa trẻ vô tội bằng một sự lạnh lùng và tàn nhẫn đến mức độ như vậy.",
+    "words": 34
+   }
+  ]
+ },
+ {
+  "id": "4.04",
+  "act": 4,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "phân tích cơ chế khử nhân tính hóa",
+  "text": "Hành động giấu thi thể con mình vào các bồn dầu thô phản ánh cơ chế Khử nhân tính hóa ở cấp độ cao nhất. Trong tâm thức của Chris vào buổi sáng hôm đó, hai đứa trẻ không còn là những sinh linh mang dòng máu của hắn, mà chỉ là những bằng chứng sống có thể tố cáo tội ác của hắn. Trong lời thú tội sau này tại nhà tù Wisconsin, Chris thừa nhận rằng hắn đã đưa hai đứa trẻ còn sống lên xe bán tải cùng với thi thể của người mẹ. Cô bé Bella đã tận mắt chứng kiến em gái mình bị sát hại và đã thốt lên lời cầu xin cuối cùng: Bố đừng làm thế với con. Thế nhưng, sự thấu cảm trong tâm trí kẻ sát nhân đã bị triệt tiêu hoàn toàn bởi nỗi ám ảnh về việc xóa sạch quá khứ để bắt đầu cuộc đời mới.",
+  "sentences": [
+   {
+    "id": "4.04#1",
+    "text": "Hành động giấu thi thể con mình vào các bồn dầu thô phản ánh cơ chế Khử nhân tính hóa ở cấp độ cao nhất.",
+    "words": 25
+   },
+   {
+    "id": "4.04#2",
+    "text": "Trong tâm thức của Chris vào buổi sáng hôm đó, hai đứa trẻ không còn là những sinh linh mang dòng máu của hắn, mà chỉ là những bằng chứng sống có thể tố cáo tội ác của hắn.",
+    "words": 39
+   },
+   {
+    "id": "4.04#3",
+    "text": "Trong lời thú tội sau này tại nhà tù Wisconsin, Chris thừa nhận rằng hắn đã đưa hai đứa trẻ còn sống lên xe bán tải cùng với thi thể của người mẹ.",
+    "words": 33
+   },
+   {
+    "id": "4.04#4",
+    "text": "Cô bé Bella đã tận mắt chứng kiến em gái mình bị sát hại và đã thốt lên lời cầu xin cuối cùng: Bố đừng làm thế với con.",
+    "words": 29
+   },
+   {
+    "id": "4.04#5",
+    "text": "Thế nhưng, sự thấu cảm trong tâm trí kẻ sát nhân đã bị triệt tiêu hoàn toàn bởi nỗi ám ảnh về việc xóa sạch quá khứ để bắt đầu cuộc đời mới.",
+    "words": 33
+   }
+  ]
+ },
+ {
+  "id": "4.05",
+  "act": 4,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "giọng nghẹn ngào trong nước mắt",
+  "text": "Chúng tôi không thể hiểu nổi làm sao một người đàn ông từng bế bồng những đứa trẻ ấy trên tay, từng hát ru chúng ngủ, lại có thể làm ra điều tàn nhẫn như vậy. Gia đình chúng tôi đã mất đi tất cả: một người con gái, hai đứa cháu ngoại, và đứa chắt chưa kịp chào đời. Đó là một vết thương vĩnh viễn không bao giờ có thể lành lặn.",
+  "sentences": [
+   {
+    "id": "4.05#1",
+    "text": "Chúng tôi không thể hiểu nổi làm sao một người đàn ông từng bế bồng những đứa trẻ ấy trên tay, từng hát ru chúng ngủ, lại có thể làm ra điều tàn nhẫn như vậy.",
+    "words": 36
+   },
+   {
+    "id": "4.05#2",
+    "text": "Gia đình chúng tôi đã mất đi tất cả: một người con gái, hai đứa cháu ngoại, và đứa chắt chưa kịp chào đời.",
+    "words": 24
+   },
+   {
+    "id": "4.05#3",
+    "text": "Đó là một vết thương vĩnh viễn không bao giờ có thể lành lặn.",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "5.01",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "*Tiếng Piano độc tấu trầm buồn, sâu lắng, mang âm hưởng suy tư và thức tỉnh.*"
+ },
+ {
+  "id": "5.02",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "dẫn dắt vào phiên tòa xét xử",
+  "text": "Ngày sáu tháng mười một năm hai nghìn không trăm mười tám, trước sức ép từ những chứng cứ không thể chối cãi, Chris Watts đã chính thức nhận tội đối với toàn bộ chín tội danh, bao gồm ba tội danh giết người cấp độ một. Để đổi lấy việc gia đình Shanann đồng ý không áp dụng án tử hình, Chris đã chấp nhận mức án năm bản án tù chung thân liên tiếp mà không có cơ hội được ân xá. Tại phiên tòa tuyên án, người cha từng được hàng xóm ca ngợi là mẫu mực đã cúi gầm mặt, không dám nhìn vào mắt của những người thân đang quặn thắt vì đau đớn.",
+  "sentences": [
+   {
+    "id": "5.02#1",
+    "text": "Ngày sáu tháng mười một năm hai nghìn không trăm mười tám, trước sức ép từ những chứng cứ không thể chối cãi, Chris Watts đã chính thức nhận tội đối với toàn bộ chín tội danh, bao gồm ba tội danh giết người cấp độ một.",
+    "words": 47
+   },
+   {
+    "id": "5.02#2",
+    "text": "Để đổi lấy việc gia đình Shanann đồng ý không áp dụng án tử hình, Chris đã chấp nhận mức án năm bản án tù chung thân liên tiếp mà không có cơ hội được ân xá.",
+    "words": 37
+   },
+   {
+    "id": "5.02#3",
+    "text": "Tại phiên tòa tuyên án, người cha từng được hàng xóm ca ngợi là mẫu mực đã cúi gầm mặt, không dám nhìn vào mắt của những người thân đang quặn thắt vì đau đớn.",
+    "words": 35
+   }
+  ]
+ },
+ {
+  "id": "5.03",
+  "act": 5,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "đúc kết bài học điều tra pháp lý",
+  "text": "Vụ án Chris Watts đã trở thành một cột mốc quan trọng trong lịch sử điều tra tội phạm hiện đại. Nó chứng minh rằng công nghệ, từ camera an ninh của hàng xóm, dữ liệu GPS trên xe bán tải, đồng hồ thông minh ghi lại nhịp tim, cho đến các bản ghi điện toán đám mây, đã tạo thành một tấm lưới thép không thể xuyên thủng. Kẻ thủ ác dù có tính toán tinh vi đến đâu cũng không thể xóa sạch dấu vết số mà hắn để lại trên từng bước đường tội ác.",
+  "sentences": [
+   {
+    "id": "5.03#1",
+    "text": "Vụ án Chris Watts đã trở thành một cột mốc quan trọng trong lịch sử điều tra tội phạm hiện đại.",
+    "words": 21
+   },
+   {
+    "id": "5.03#2",
+    "text": "Nó chứng minh rằng công nghệ, từ camera an ninh của hàng xóm, dữ liệu GPS trên xe bán tải, đồng hồ thông minh ghi lại nhịp tim, cho đến các bản ghi điện toán đám mây, đã tạo thành một tấm lưới thép không thể xuyên thủng.",
+    "words": 48
+   },
+   {
+    "id": "5.03#3",
+    "text": "Kẻ thủ ác dù có tính toán tinh vi đến đâu cũng không thể xóa sạch dấu vết số mà hắn để lại trên từng bước đường tội ác.",
+    "words": 29
+   }
+  ]
+ },
+ {
+  "id": "5.04",
+  "act": 5,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "đưa ra các khuyến cáo tâm lý học sâu sắc",
+  "text": "Thảm kịch gia đình Watts để lại một bài học cảnh báo đỏ vô cùng sâu sắc cho tất cả chúng ta về bản chất của những mối quan hệ độc hại ngầm. Thứ nhất, hãy đặc biệt cảnh giác với sự thay đổi hành vi đột ngột: một người vốn thụ động bỗng trở nên cực kỳ lạnh nhạt, rút lui hoàn toàn khỏi các kết nối cảm xúc và thể xác. Thứ hai, kẻ hủy diệt gia đình thường không bộc lộ bằng những cơn bạo lực thể xác trước đó, mà biểu hiện qua sự tích tụ âm thầm của chứng ái kỷ và cảm giác bị mắc kẹt. Thứ ba, sự phân ngăn tâm trí cho phép một người sống hai cuộc đời hoàn toàn tách biệt mà không hề cảm thấy tội lỗi. Khi một người bắt đầu nhìn nhận gia đình như một chướng ngại vật cản trở tự do cá nhân, đó chính là thời điểm mối nguy hiểm tiềm tàng đã chạm đến ngưỡng báo động đỏ cao nhất.",
+  "sentences": [
+   {
+    "id": "5.04#1",
+    "text": "Thảm kịch gia đình Watts để lại một bài học cảnh báo đỏ vô cùng sâu sắc cho tất cả chúng ta về bản chất của những mối quan hệ độc hại ngầm.",
+    "words": 33
+   },
+   {
+    "id": "5.04#2",
+    "text": "Thứ nhất, hãy đặc biệt cảnh giác với sự thay đổi hành vi đột ngột: một người vốn thụ động bỗng trở nên cực kỳ lạnh nhạt, rút lui hoàn toàn khỏi các kết nối cảm xúc và thể xác.",
+    "words": 40
+   },
+   {
+    "id": "5.04#3",
+    "text": "Thứ hai, kẻ hủy diệt gia đình thường không bộc lộ bằng những cơn bạo lực thể xác trước đó, mà biểu hiện qua sự tích tụ âm thầm của chứng ái kỷ và cảm giác bị mắc kẹt.",
+    "words": 39
+   },
+   {
+    "id": "5.04#4",
+    "text": "Thứ ba, sự phân ngăn tâm trí cho phép một người sống hai cuộc đời hoàn toàn tách biệt mà không hề cảm thấy tội lỗi.",
+    "words": 26
+   },
+   {
+    "id": "5.04#5",
+    "text": "Khi một người bắt đầu nhìn nhận gia đình như một chướng ngại vật cản trở tự do cá nhân, đó chính là thời điểm mối nguy hiểm tiềm tàng đã chạm đến ngưỡng báo động đỏ cao nhất.",
+    "words": 39
+   }
+  ]
+ },
+ {
+  "id": "5.05",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng trầm ấm, khép lại tập phim với thông điệp nhân văn",
+  "text": "Mỗi thảm kịch xảy ra không chỉ để lại nỗi đau thương và sự phẫn nộ, mà còn là lời nhắc nhở nghiêm khắc về ranh giới mong manh giữa ánh sáng và bóng tối trong tâm can con người. Chiếc mặt nạ của sự hoàn hảo có thể đánh lừa được mắt nhìn của xã hội, nhưng không thể che giấu được sự thật trước ánh sáng của lương tri và khoa học hành vi. Xin hãy luôn lắng nghe trực giác của mình, quan tâm đến những vết rạn nứt dù là nhỏ nhất trong gia đình, và đừng bao giờ xem nhẹ sự an toàn của bản thân và những người thân yêu. Cảm ơn quý vị đã đồng hành cùng Amber Eyes trong hồ sơ tâm lý tội phạm ngày hôm nay. Xin chào và hẹn gặp lại trong những hành trình giải mã tiếp theo.",
+  "sentences": [
+   {
+    "id": "5.05#1",
+    "text": "Mỗi thảm kịch xảy ra không chỉ để lại nỗi đau thương và sự phẫn nộ, mà còn là lời nhắc nhở nghiêm khắc về ranh giới mong manh giữa ánh sáng và bóng tối trong tâm can con người.",
+    "words": 40
+   },
+   {
+    "id": "5.05#2",
+    "text": "Chiếc mặt nạ của sự hoàn hảo có thể đánh lừa được mắt nhìn của xã hội, nhưng không thể che giấu được sự thật trước ánh sáng của lương tri và khoa học hành vi.",
+    "words": 36
+   },
+   {
+    "id": "5.05#3",
+    "text": "Xin hãy luôn lắng nghe trực giác của mình, quan tâm đến những vết rạn nứt dù là nhỏ nhất trong gia đình, và đừng bao giờ xem nhẹ sự an toàn của bản thân và những người thân yêu.",
+    "words": 40
+   },
+   {
+    "id": "5.05#4",
+    "text": "Cảm ơn quý vị đã đồng hành cùng Amber Eyes trong hồ sơ tâm lý tội phạm ngày hôm nay.",
+    "words": 20
+   },
+   {
+    "id": "5.05#5",
+    "text": "Xin chào và hẹn gặp lại trong những hành trình giải mã tiếp theo.",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "5.06",
+  "act": 5,
+  "kind": "SFX",
+  "desc": "*Tiếng nhạc piano kết thúc ngân dài, hòa vào tiếng thở dài nhẹ và mờ dần.*"
+ }
+]

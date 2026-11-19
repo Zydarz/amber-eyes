@@ -282,7 +282,7 @@ Báo cáo: `02_SAN_XUAT/TIKTOK/TapXX/BaoCao_QC_TikTok_TapXX.md` (theo khuôn bá
 | Loại tài khoản | **Personal** (Business làm hạn chế nhạc và không dùng được cho khoản thưởng) |
 | Ảnh đại diện | `assets/brand/avatar_800.png` → cắt 720×720, nền tối, mắt hổ phách |
 | Bio (≤ 80 ký tự) | `Phân tích tâm lý tội phạm qua hồ sơ có thật. Hồ sơ có thật, dữ kiện có nguồn. ↓ xem tập đầy đủ` |
-| Link | → trang kênh YouTube (dùng link-in-bio nếu cần nhiều đích) |
+| Link | → trang kênh YouTube (dùng link-in-bio nếu cần nhiều đích) · **Tập 01: `https://youtu.be/lDVXjeFLn48`** (19/11/2026) |
 | Bật | "AI-generated content" mặc định khi đăng · ghim bài giới thiệu |
 | Quyền riêng tư | 18+ (nội dung hồ sơ tội phạm) |
 | Ngôn ngữ ứng dụng | Tiếng Việt |

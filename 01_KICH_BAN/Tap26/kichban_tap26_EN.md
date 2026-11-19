@@ -71,12 +71,20 @@ The instant we stepped inside Kotobuki Maternity Hospital, we felt a chilling an
 Miyuki Ishikawa received law enforcement with astonishing poise, exhibiting neither panic nor distress.
 She brazenly claimed her establishment was performing a noble humanitarian deed by taking in infants abandoned by destitute parents.
 However, preliminary autopsy findings performed by Dr Yurie Taniguchi of the University of Tokyo thoroughly obliterated her deceitful defense.
-The stomachs of the infants found on that wooden cart were completely empty, proving the victims had died of starvation and calculated neglect over consecutive days.
+The forensic experts concluded that the infants did not succumb to natural causes, but passed away due to deliberate abandonment and lack of care.
 
 **HOST** *(closing Act 1, introducing the illicit racket)*:
 That shocking forensic breakthrough exposed the horrifying reality lurking behind Kotobuki Maternity Hospital's charitable facade.
 This was not an unfortunate medical misadventure caused by post-war austerity.
 It was an organized profiteering racket, orchestrated by individuals masquerading as healers whose hearts were as cold as ice.
+From the perspective of behavioral psychology, that winter night patrol conducted by the two Waseda police officers was a classic confrontation between prevailing apathy and moral intuition.
+In a society emerging from the ashes of war, where death and destitution were omnipresent on street corners, the human psyche easily fell into a state of “Cognitive Desensitization”.
+People naturally developed a tendency to overlook surrounding anomalies simply to protect their own fragile psychological equilibrium.
+The mortician pushing the handcart that fateful night had essentially hypnotized himself into believing he was merely an innocent laborer earning a meager living.
+Yet, those two young officers refused to let fatigue or normalized indifference paralyze their professional conscience.
+The exact moment they resolved to halt that handcart marked the definitive boundary between burying a monstrous crime and bringing long-awaited justice to light.
+Collective apathy has always served as the most fertile breeding ground for moral corruption.
+Had it not been for that vigilant flicker of duty displayed by those guardians of the Tokyo night, the benevolent veil of the Kotobuki Maternity Hospital might have shielded an organized engine of atrocities for many more years to come.
 
 **[BGM]:** A low, muffled note resonates and cuts out, creating a breathless silence.
 
@@ -105,10 +113,18 @@ Yet the moment the nursery doors shut and the payment was pocketed, the fate of 
 
 **INVESTIGATOR** *(TMPD representative, detailing the calculated neglect)*:
 The investigative record established that the Ishikawas harbored no intention of nurturing or finding adoptive homes for any child brought to them.
-They kept the infants only briefly, intentionally slashing milk and water rations to the absolute minimum until the victims withered away.
-When infants succumbed to exhaustion, the couple colluded with Dr Shiro Nakayama to forge death certificates citing natural causes like pneumonia or prematurity.
-Furthermore, she utilized these fraudulent certificates to continuously claim subsidized infant milk rations from municipal authorities, selling the formula on the black market.
-It was a merciless double extortion: extracting money from impoverished parents while profiting off the stolen relief supplies of the dying infants.
+The infants were completely neglected, receiving none of the care promised to their families.
+When the babies passed away, Dr Shiro Nakayama assisted in fabricating death certificates citing ordinary medical conditions.
+Furthermore, relief provisions allocated by municipal authorities for the infants were misappropriated by the maternity clinic.
+It was a merciless double extortion: extracting money from impoverished parents while profiting off the stolen relief supplies of the victims.
+Within any organized criminal enterprise, accomplices relentlessly erect formidable psychological fortresses to insulate themselves from moral guilt.
+Takeshi Ishikawa, the husband and financial manager, fully exploited the mechanism of “Diffusion of Responsibility”.
+He constantly rationalized that he never laid hands on the physical care or survival of the infants, convincing himself he was merely managing bureaucratic ledgers and monetary intake.
+Meanwhile, Dr Shiro Nakayama succumbed to the insidious trap of “Administrative Dehumanization”.
+By fabricating death certificates from a comfortable distance without ever facing those frail, departed souls, he reduced sacred human lives to mere rubber stamps in exchange for illicit financial kickbacks.
+Both men desperately deceived themselves into believing they were subordinate bystanders, yet in reality, their cowardly acquiescence and silent complicity formed the essential foundation that sustained the crime.
+These exploiters deliberately weaponized the esteemed credibility of the medical establishment into a flawless instrument of psychological manipulation against desperate citizens.
+Impoverished parents placed blind faith in prestigious university credentials and professional titles, only to inadvertently surrender their cherished flesh and blood into an inescapable trap.
 
 **[SFX]:** Camera shutters clicking rapidly, accompanied by the indignant murmuring of onlookers outside the courthouse.
 
@@ -172,7 +188,10 @@ This psychological mechanism mirrors that of organized crime rings, where moral 
 
 **HOST** *(the total collapse of professional conscience)*:
 The normalization of evil within Ishikawa’s mind spawned a horrifying paradox in Japanese medical history.
-A woman sworn to usher new life into the world became the cold-hearted butcher of the most defenseless souls in society.
+A woman sworn to usher new life into the world had transformed into a cold executor extinguishing the most defenseless lives in society.
+A profound question has perpetually troubled sociologists and criminal profilers across generations:
+Why did this woman never demonstrate a single shred of genuine remorse throughout her extensive interrogations and public trials?
+And if any semblance of repentance ever surfaced among her accomplices, where did it truly originate, what psychological mechanism was actually operating beneath the surface?
 
 **PSYCHOLOGIST** *(concluding criminal psychology takeaways)*:
 The deepest psychological lesson of the Miyuki Ishikawa file is a stern warning against using circumstance to excuse character corruption.
@@ -180,7 +199,15 @@ Any plea of benevolence or economic duress collapses the moment it coincides wit
 When an individual arrogates the right to decide who deserves life and who should be purged, humanity is entirely erased.
 Cruelty concealed beneath professional protocols remains the most elusive and perilous form of evil a community can face.
 Ishikawa’s psyche reflected a fatal convergence of cold greed and the omnipotent delusions of a seasoned manipulator.
-And that fraudulent delusion was finally brought before the stern judgment of the Tokyo District Court.
+And that fraudulent delusion was ultimately forced to confront the stern reckoning of justice at the Tokyo District Court.
+Through the lens of forensic psychiatry, we must draw an uncompromising distinction between “Genuine Remorse” and “Pathological Self-Pity”.
+Authentic repentance fundamentally demands profound affective empathy, the psychological capacity to confront the agony and irreparable loss one has inflicted upon fellow human beings.
+However, in a personality thoroughly dominated by malignant narcissism and hardened emotional callousness like Miyuki Ishikawa, that empathic capacity had been completely obliterated.
+The tears or dramatic outbursts she displayed before the judicial bench were never shed for the perished innocents, but rather stemmed from an overwhelming self-pity.
+It was a classic “Narcissistic Collapse”, triggered when her social prestige, medical reputation, and personal freedom were irrevocably stripped away.
+She pitied only herself, viewing herself as an unfairly persecuted martyr sacrificed to turbulent historical circumstances.
+Conversely, regarding accomplices like her husband or the collaborating physician, their eventual submission and confession were propelled purely by the “Mechanism of Punitive Fear and Self-Preservation”.
+That was not a noble spiritual awakening of conscience, but a cold, pragmatic survival calculation once their fraudulent rationalizations had completely sunk.
 
 **HOST** *(closing Act 3, transitioning to the landmark trial)*:
 Social psychology unmasked the true predator concealed beneath the white medical coat.
@@ -197,9 +224,9 @@ It was a forum where justice evaluated not only criminal deeds, but also exposed
 
 **HOST** *(recounting the sensational 1948 trial at Tokyo District Court)*:
 In the autumn of 1948, the trial of Miyuki Ishikawa and her co-defendants commenced at the Tokyo District Court under intense national scrutiny.
-Hundreds of citizens, social activists, and international journalists gathered at dawn to witness the perpetrators face the law.
-Seated in the dock, Miyuki Ishikawa wore a traditional dark kimono, maintaining an unsettlingly calm and unyielding expression.
-Flanking her were her husband Takeshi Ishikawa and Dr Shiro Nakayama, who had facilitated the fraud by issuing fake death certificates.
+Tokyo newspapers closely followed every development of the proceedings.
+Hundreds of citizens and social observers gathered from early morning to witness the perpetrators face the law.
+Seated in the dock was Miyuki Ishikawa, flanked by her husband Takeshi Ishikawa and Dr Shiro Nakayama, who had facilitated the fraud by issuing fake death certificates.
 The prosecution's indictment dismantled the entire inhumane profiteering pipeline that operated for years within Kotobuki Maternity Hospital.
 The atmosphere in the courtroom grew suffocatingly tense as forensic evidence was laid bare before the public.
 
@@ -216,27 +243,34 @@ Furthermore, intake fee agreements signed with impoverished parents were matched
 **INVESTIGATOR** *(TMPD representative, unequivocal investigative testimony)*:
 In court, we demonstrated conclusively that this constituted a continuous scheme of deliberate homicide through calculated neglect.
 Defendant Miyuki Ishikawa could not blame post-war scarcity when she continuously collected substantial payments from victims' relatives.
-Subsidized powdered milk provided by government relief agencies was systematically diverted and sold on the black market for illicit gain.
-Dr Shiro Nakayama confessed to accepting bribes from the Ishikawas to sign blank death declarations without conducting physical examinations.
+Relief provisions allocated by the government for the infants never reached the victims.
+Dr Shiro Nakayama was charged with actively colluding in fabricating death certificates for the deceased infants.
 This entire network represented a tight criminal conspiracy between fraudulent medical authority and boundless financial avarice.
 We urged the court to deliver the sternest verdict to punish those who desecrated medical ethics and human life.
 
 **[SFX]:** A microphone rustling as a grieving mother steps forward, accompanied by heartfelt weeping from the gallery.
 
 **HOST** *(the agonizing grief of impoverished mothers)*:
-The most heartbreaking moment of the trial arrived when destitute mothers who entrusted their children to Kotobuki took the witness stand.
-These were impoverished women with hollow eyes carved by years of starvation and tearing emotional agony.
-They had lived in deception for years, and now their maternal hearts were shattered as the horrifying reality was revealed.
+Yet behind the staggering statistics lay the agonizing grief of mothers who had entrusted their infants to Kotobuki Maternity Hospital.
+These were impoverished women, physically and emotionally shattered by the devastating aftermath of the war.
+They had placed their faith in a solemn promise, only to be confronted by a terrifying and unvarnished truth.
+The deepest agony suffered by the mothers entwined in the Kotobuki scandal was not merely the loss of their infants, but their perpetual imprisonment within “Survivor’s Guilt and Complicity Self-Blame”.
+When the grotesque reality of this predatory ring was unmasked, their entire foundational trust collapsed into dust.
+They were mercilessly tormented by the agonizing realization that the very money they scrimped to pay, and the very signatures they endorsed, inadvertently signed their children's death warrants.
+This represents an intensely devastating form of “Secondary Moral Trauma”, wherein the victimized mother unconsciously identifies herself with the predatory perpetrator.
+Their suffocated silence within the courtroom was never an act of resigned surrender, but the muffled cries of souls fractured beyond ordinary repair.
+The lenient four-year sentence granted to Miyuki Ishikawa upon appeal may have reflected the tragic legislative shortcomings of that chaotic post-war era.
+Yet before the eternal tribunal of human conscience, those who ruthlessly exploit the trust of desperate mothers and extinguish defenseless infant lives will perpetually face the unyielding condemnation of history.
 
 **ORDINARY PERSON** *(Bereaved post-war mother, middle-aged female voice, choked with tears, heartbreak and fury)*:
-That year my husband fell on the battlefield, leaving me without even a single potato to eat when my newborn entered the world.
-Mrs Ishikawa approached me with a gentle expression, saying she pitied my misfortune and would place my child with a wealthy adoptive couple.
-I borrowed money everywhere and pawned my mother's heirloom kimono to scrape together the fee demanded by the clinic.
-For four agonizing years, I folded my hands daily in prayer that my baby was well-fed, warm, and living a peaceful life.
-I never dreamed the woman I once knelt before in gratitude was a monster who starved my precious infant to death.
-The money I earned through blood, sweat, and tears became the very noose that extinguished my own baby’s life.
-No court sentence on earth can ever heal the remorse and agonizing pain that consumes my soul every waking day.
-I beg the court to severely punish this criminal so the souls of our innocent babies may finally rest in peace.
+Imagine a young mother in Tokyo that year, her husband never returning from the war, with nothing left in the house to eat.
+A reputable midwife promised that she would find a decent, caring family to raise her child.
+She borrowed from every possible source to scrape together the substantial fee demanded by the maternity clinic.
+For years afterward, she continued to pray every day that her child was well-fed, warm, and cherished somewhere safe.
+Then one day, she discovered that the baby had never received the care promised by the clinic.
+The hard-earned money she scrimped for years had turned into the agonizing price of a calculated lie.
+No judicial sentence on earth could ever soothe that profound, lifelong remorse.
+All that mother pleaded for was justice for the defenseless children who could never speak for themselves.
 
 **INVESTIGATOR** *(TMPD representative, the controversial sentence and historical takeaway)*:
 In October 1948, the Tokyo District Court sentenced Miyuki Ishikawa to eight years imprisonment, her husband Takeshi to four years, and Dr Nakayama to one year.
@@ -277,7 +311,11 @@ Absolute transparency and frequent unannounced audits serve as our sturdiest shi
 In behavioral psychology, predatory profiteers systematically exploit the desperation, guilt, and vulnerability of families undergoing crisis.
 They routinely don the persona of benevolent benefactors and reputable experts to cultivate blind trust.
 Maintaining sharp vigilance and never relinquishing total responsibility to third parties remains a vital safeguard for protecting our children.
-Genuine guardianship must always rest upon transparency, protective affection, and rigorous verification rather than empty promises.
+Genuine guardianship must always be built upon transparency, steadfast love, and concrete empirical verification rather than empty verbal assurances.
+History has moved forward by more than half a century, yet the haunting legacy of the Kotobuki Maternity Hospital remains an enduring warning regarding collective societal responsibility.
+A newborn entering this world does not belong solely to an isolated household, but rests under the moral conscience and active protection of society as a whole.
+Whenever we casually turn a blind eye to the desperation of the vulnerable, we unwittingly clear the path for monstrous corruption cloaked in benevolent salvation.
+Our four red flags today serve not only to identify predatory exploiters masquerading as philanthropists, but stand as an earnest call to construct an unbreakable sanctuary of life through transparency, civic courage, and genuine human empathy.
 
 **HOST** *(synthesis and practical red flags)*:
 To assist parents and communities in sharpening vigilance and shielding children from exploitative childcare or adoption schemes, Amber Eyes presents four classic red flags distilled from this historic file.

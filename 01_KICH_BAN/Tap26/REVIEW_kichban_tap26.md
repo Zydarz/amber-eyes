@@ -92,3 +92,26 @@ Kịch bản Tập 26 tuân thủ tuyệt đối Quy tắc V9 (YouTube Safe) đ�
 - **Kiểm sau sửa:** khung giữ nguyên 51 phần tử (id + loại khớp 1-1) · số câu 165 → 164 · từ cấm A9.2 trong lời thoại = 0 (còn "búa tòa án" ở thẻ BGM/SFX, "chặt chẽ") · G1 "..." = 0.
 - **Sao lưu:** `.work/_cu/kichban_tap26_23102026_truoc_soat_20261101.md`
 - ⚠ **File .work CŨ:** `.work/script_tap26.json`, `script_tap26_JA.json`, `temp_parse_t26.json`, `temp_verify_*_t26.json` theo bản cũ → chạy lại `parse_kichban.py`. Bảng phân vai đầu file chưa cập nhật. Bản EN/JA/KO chưa đồng bộ.
+
+
+## Cập nhật kịch bản theo Hệ sinh thái 10 chỉ dấu tâm lý & Nghiên cứu biến chuyển tâm lý 5 chủ thể — 19/11/2026
+
+- **Mục tiêu:** Nâng cấp kịch bản Tập 26 theo mô thức chuẩn mới nhất của Tập 10 (`NghienCuu_TamLy_BoSung_KichBan_Tap10.md` ngày 13/11/2026), giải mã biến chuyển tâm lý sâu sắc qua 5 chủ thể và trả lời câu hỏi cốt lõi: *"Tại sao lại hối hận? Cơ chế tâm lý gì ở đây?"*.
+- **Tài liệu nghiên cứu cơ sở:** [`01_KICH_BAN/Tap26/NghienCuu_TamLy_BoSung_KichBan_Tap26.md`](file:///d:/TEST/Gax/amber-eyes/01_KICH_BAN/Tap26/NghienCuu_TamLy_BoSung_KichBan_Tap26.md).
+- **Phân bổ cấu trúc sau nâng cấp (203 câu — đồng bộ 100% 3 ngôn ngữ VN, EN, JA):**
+  - `HOST`: 113 câu (55,7% số câu — mạch dẫn tự sự nhân văn, đúc kết triết lý xã hội)
+  - `ĐIỀU TRA VIÊN` (D): 36 câu (17,7% số câu — Đại diện Sở Cảnh sát Tokyo / MPD, chứng cứ nghiệp vụ)
+  - `CHUYÊN GIA TÂM LÝ` (C): 39 câu (19,2% số câu — bóc tách cơ chế hối hận, tự thương hại bệnh lý, phân ly và khuếch tán trách nhiệm)
+  - `NGƯỜI TRONG CUỘC` (N): 15 câu (7,4% số câu — N1 Cảnh sát Waseda: 7 câu; N2 Người mẹ mất con: 8 câu)
+- **Cơ cấu câu theo Hồi (Act Breakdown — 203 câu):**
+  - **Hồi 1:** 47 câu (H: 35, N1: 7, D: 5) — Bổ sung phân tích đối đầu giữa Chai sạn nhận thức (*Cognitive Desensitization*) và Trực giác lương tri công quyền.
+  - **Hồi 2:** 37 câu (H: 20, D: 17) — Bổ sung cơ chế Khuếch tán trách nhiệm (*Diffusion of Responsibility*) của đồng phạm và Nghịch lý niềm tin mù quáng.
+  - **Hồi 3:** 43 câu (H: 15, C: 28) — TRỌNG TÂM: Phân định rạch ròi giữa Hối hận chân thực (*Genuine Remorse*) và Tự thương hại bệnh lý ái kỷ (*Pathological Self-Pity*) / Bản năng tự bảo toàn.
+  - **Hồi 4:** 45 câu (H: 23, D: 11, N2: 8, C: 3) — Bóc tách Chấn thương tâm lý mặc cảm tội lỗi của người trao con (*Survivor's Guilt*) và Bản án lương tri lịch sử.
+  - **Hồi 5:** 31 câu (H: 20, D: 3, C: 8) — Đúc kết trách nhiệm cộng đồng và 4 bức tường bảo vệ sự sống.
+  - **Tổng cộng:** **203 câu** (giữ nguyên khung 51 phần tử A2).
+- **Đồng bộ đa ngôn ngữ & Tiêu chuẩn an toàn:**
+  - Tiếng Việt (VN), Tiếng Anh (EN), Tiếng Nhật (JA) đạt độ đối xứng tuyệt đối (Parity 100% across all 51 elements).
+  - Rà soát triệt để quy tắc **V9**: 0% mô tả cảnh tượng bạo lực/đau đớn thể xác, loại bỏ hoàn toàn các chi tiết không có nguồn kiểm chứng độc lập (kimono tại tòa, bán sữa chợ đen, bác sĩ nhận hối lộ) trên cả 3 bản ngữ.
+- **Dữ liệu pipeline đã cập nhật:**
+  - File JSON: [`.work/script_tap26.json`](file:///d:/TEST/Gax/amber-eyes/.work/script_tap26.json), [`.work/script_tap26_EN.json`](file:///d:/TEST/Gax/amber-eyes/.work/script_tap26_EN.json), [`.work/script_tap26_JA.json`](file:///d:/TEST/Gax/amber-eyes/.work/script_tap26_JA.json).

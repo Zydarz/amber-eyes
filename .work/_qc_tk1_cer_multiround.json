@@ -1,0 +1,376 @@
+{
+  "rounds": [
+    {
+      "model": "small",
+      "temperature": 0.0,
+      "rows": [
+        {
+          "id": "TK1.01#1",
+          "vai": "H",
+          "cer": 0.056818181818181816,
+          "hyp": "Sau 48 giờ truy tiệm, cô ấy bước vào phòng thẳng vấn bằng đôi chân của chính mình."
+        },
+        {
+          "id": "TK1.01#2",
+          "vai": "H",
+          "cer": 0.0,
+          "hyp": "Người dân Mỹ lo rằng một kẻ sát nhân đã bắt cóc một thiếu nữ không thể tự bước đi."
+        },
+        {
+          "id": "TK1.01#3",
+          "vai": "D",
+          "cer": 0.011627906976744186,
+          "hyp": "nhưng khoảnh khắc cánh cửa phòng thẩm vấn mở ra, toàn bộ nhận thức của chúng tôi sắp đổ."
+        },
+        {
+          "id": "TK1.01#4",
+          "vai": "D",
+          "cer": 0.10869565217391304,
+          "hyp": "IPC Rose Blanchard, không hề ngồi trên xe lăng."
+        },
+        {
+          "id": "TK1.01#5",
+          "vai": "D",
+          "cer": 0.09090909090909091,
+          "hyp": "Tụ ta tự bước đi vẫn trải bằng chính đôi chân của mình, phòng thái hoàn toàn bình thường."
+        },
+        {
+          "id": "TK1.01#6",
+          "vai": "C",
+          "cer": 0.04,
+          "hyp": "Từ đây, tâm lý học tội phạm tắt làm 2 khái niệm, thủ đoạn và chữ ký tâm lý."
+        },
+        {
+          "id": "TK1.01#7",
+          "vai": "C",
+          "cer": 0.04819277108433735,
+          "hyp": "Cũ đoạn là những gì kẻ phạm tội làm để thực hiện hành vi và nế tránh sự trừng phạt."
+        },
+        {
+          "id": "TK1.01#8",
+          "vai": "C",
+          "cer": 0.0,
+          "hyp": "Ở đây, thủ đoạn liên tục biến đổi, đổi bệnh viện và chuyển chỗ ở ngay khi một bác sĩ bắt đầu nghi ngờ."
+        },
+        {
+          "id": "TK1.01#9",
+          "vai": "C",
+          "cer": 0.08974358974358974,
+          "hyp": "ưu ký tâm lý thì bất biến, sinh ra để thỏa mãn dù cầu cảm xúc bệnh lý cốt lợi."
+        },
+        {
+          "id": "TK1.01#10",
+          "vai": "C",
+          "cer": 0.08450704225352113,
+          "hyp": "của bà ta là tức đoạt tuổi trưởng thành, khai mang ngày sinh, biến cô con gái 20 tuổi thành một đứa trẻ 16 tuổi trên giấy tờ."
+        },
+        {
+          "id": "TK1.01#11",
+          "vai": "C",
+          "cer": 0.0,
+          "hyp": "Bà ta không chỉ muốn con mình bệnh tật, bà ta muốn con mình không bao giờ lớn."
+        },
+        {
+          "id": "TK1.01#12",
+          "vai": "H",
+          "cer": 0.125,
+          "hyp": "Một của Amber Ice, xem hồ sơ đầy đủ ở link trong bio."
+        }
+      ]
+    },
+    {
+      "model": "small",
+      "temperature": 0.4,
+      "rows": [
+        {
+          "id": "TK1.01#1",
+          "vai": "H",
+          "cer": 0.056818181818181816,
+          "hyp": "Sau 48 giờ truy tiệm, cô ấy bước vào phòng thẳng vấn bằng đôi chân của chính mình."
+        },
+        {
+          "id": "TK1.01#2",
+          "vai": "H",
+          "cer": 0.0,
+          "hyp": "người dân Mỹ lo rằng một kẻ sát nhân đã bắt cóc một thiếu nữ không thể tự bước đi."
+        },
+        {
+          "id": "TK1.01#3",
+          "vai": "D",
+          "cer": 0.011627906976744186,
+          "hyp": "nhưng khoảnh khắc cánh cửa phòng thẩm vấn mở ra, toàn bộ nhận thức của chúng tôi sắp đổ."
+        },
+        {
+          "id": "TK1.01#4",
+          "vai": "D",
+          "cer": 0.10869565217391304,
+          "hyp": "IPC Rose Blanchard, không hề ngồi trên xe lăng."
+        },
+        {
+          "id": "TK1.01#5",
+          "vai": "D",
+          "cer": 0.06818181818181818,
+          "hyp": "Tụ ta tự bước đi vẫn chải, bằng chính đôi chân của mình, phòng thái hoàn toàn bình thường."
+        },
+        {
+          "id": "TK1.01#6",
+          "vai": "C",
+          "cer": 0.04,
+          "hyp": "Từ đây, tâm lý học tội phạm tắt làm 2 khái niệm, thủ đoạn và chữ ký tâm lý."
+        },
+        {
+          "id": "TK1.01#7",
+          "vai": "C",
+          "cer": 0.04819277108433735,
+          "hyp": "Ủu đoạn là những gì kẻ phạm tội làm để thực hiện hành vi và nế tránh sự trừng phạt."
+        },
+        {
+          "id": "TK1.01#8",
+          "vai": "C",
+          "cer": 0.0,
+          "hyp": "Ở đây, thủ đoạn liên tục biến đổi, đổi bệnh viện và chuyển chỗ ở ngay khi một bác sĩ bắt đầu nghi ngờ."
+        },
+        {
+          "id": "TK1.01#9",
+          "vai": "C",
+          "cer": 0.10256410256410256,
+          "hyp": "ưu ký tâm lý thì bất biến, sinh ra để thỏa mảng du cầu cảm xúc bệnh lý cốt lợi."
+        },
+        {
+          "id": "TK1.01#10",
+          "vai": "C",
+          "cer": 0.08450704225352113,
+          "hyp": "Của bà ta là tức đoạt tuổi trưởng thành Khai Mang Ngày sinh, biến cô con gái 20 tuổi thành một đứa trẻ 16 tuổi trên giấy tờ."
+        },
+        {
+          "id": "TK1.01#11",
+          "vai": "C",
+          "cer": 0.0,
+          "hyp": "Bà ta không chỉ muốn con mình bệnh tật, bà ta muốn con mình không bao giờ lớn."
+        },
+        {
+          "id": "TK1.01#12",
+          "vai": "H",
+          "cer": 0.14285714285714285,
+          "hyp": "Một của Amber Ice. Xem hỗ sơ đầy đủ ở link trong bio."
+        }
+      ]
+    },
+    {
+      "model": "base",
+      "temperature": 0.0,
+      "rows": [
+        {
+          "id": "TK1.01#1",
+          "vai": "H",
+          "cer": 0.045454545454545456,
+          "hyp": "Sau 48 giờ truy tìm, cô ấy bước vào phòng khẳng vấn bằng đôi chân của chính mình."
+        },
+        {
+          "id": "TK1.01#2",
+          "vai": "H",
+          "cer": 0.037037037037037035,
+          "hyp": "Người dân Mỹ nó rằng, một kẻ sát nhân đã bắt cốc một thiếu nữ không thể tự bước đi."
+        },
+        {
+          "id": "TK1.01#3",
+          "vai": "D",
+          "cer": 0.16279069767441862,
+          "hyp": "nhưng quản khác, cắn cơ phòng thậm vấn mỡ ra, toàn bộ nhận thức của chúng tôi sắp lũ."
+        },
+        {
+          "id": "TK1.01#4",
+          "vai": "D",
+          "cer": 0.10869565217391304,
+          "hyp": "Ipsi Rose Blanchard, không hề ngồi tên xe lăng."
+        },
+        {
+          "id": "TK1.01#5",
+          "vai": "D",
+          "cer": 0.125,
+          "hyp": "của ta tự bước đi vững trái, bằng chính đôi chân của mình không thấy hoàn toàn bệnh thương."
+        },
+        {
+          "id": "TK1.01#6",
+          "vai": "C",
+          "cer": 0.06666666666666667,
+          "hyp": "ở đây, tâm lý học tội phạm tất làm 2 khái niệm, thủ đoạn và chữ ký tâm lý."
+        },
+        {
+          "id": "TK1.01#7",
+          "vai": "C",
+          "cer": 0.060240963855421686,
+          "hyp": "ủ đoạn là những gì kẻ phạm tội làm để thực hiện hành vi và nế cánh sự trừng phạt."
+        },
+        {
+          "id": "TK1.01#8",
+          "vai": "C",
+          "cer": 0.010101010101010102,
+          "hyp": "Ở đây, Thủ đoạn liên tục biến đổi, đổi bệnh viện và chuyển chỗ ở nay khi một bác sĩ bắt đầu nghi ngờ."
+        },
+        {
+          "id": "TK1.01#9",
+          "vai": "C",
+          "cer": 0.10256410256410256,
+          "hyp": "Ở ký tâm lý thì bất biến, sinh ra để thoả mãng dù cầu cảm xúc bệnh lý cốt lợi."
+        },
+        {
+          "id": "TK1.01#10",
+          "vai": "C",
+          "cer": 0.1267605633802817,
+          "hyp": "từ ký của bà ta là tức đoạt tụi trưởng thành, khai mang ngày sinh, biến cô còn gái 20 tụi thành 1 đứa trẻ 16 tụi trên dây tờ."
+        },
+        {
+          "id": "TK1.01#11",
+          "vai": "C",
+          "cer": 0.039473684210526314,
+          "hyp": "à ta không chỉ muốn còn mình bệnh tật, bà ta muốn còn mình không bao giờ lớn."
+        },
+        {
+          "id": "TK1.01#12",
+          "vai": "H",
+          "cer": 0.21428571428571427,
+          "hyp": "1 của Amber Ice. Xe'em hổ sơ đầy đủ ở Linh Trong Biô."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "id": "TK1.01#1",
+      "vai": "H",
+      "cers": [
+        0.056818181818181816,
+        0.056818181818181816,
+        0.045454545454545456
+      ],
+      "mean": 0.05303030303030303,
+      "max": 0.056818181818181816
+    },
+    {
+      "id": "TK1.01#2",
+      "vai": "H",
+      "cers": [
+        0.0,
+        0.0,
+        0.037037037037037035
+      ],
+      "mean": 0.012345679012345678,
+      "max": 0.037037037037037035
+    },
+    {
+      "id": "TK1.01#3",
+      "vai": "D",
+      "cers": [
+        0.011627906976744186,
+        0.011627906976744186,
+        0.16279069767441862
+      ],
+      "mean": 0.06201550387596899,
+      "max": 0.16279069767441862
+    },
+    {
+      "id": "TK1.01#4",
+      "vai": "D",
+      "cers": [
+        0.10869565217391304,
+        0.10869565217391304,
+        0.10869565217391304
+      ],
+      "mean": 0.10869565217391304,
+      "max": 0.10869565217391304
+    },
+    {
+      "id": "TK1.01#5",
+      "vai": "D",
+      "cers": [
+        0.09090909090909091,
+        0.06818181818181818,
+        0.125
+      ],
+      "mean": 0.09469696969696968,
+      "max": 0.125
+    },
+    {
+      "id": "TK1.01#6",
+      "vai": "C",
+      "cers": [
+        0.04,
+        0.04,
+        0.06666666666666667
+      ],
+      "mean": 0.04888888888888889,
+      "max": 0.06666666666666667
+    },
+    {
+      "id": "TK1.01#7",
+      "vai": "C",
+      "cers": [
+        0.04819277108433735,
+        0.04819277108433735,
+        0.060240963855421686
+      ],
+      "mean": 0.052208835341365466,
+      "max": 0.060240963855421686
+    },
+    {
+      "id": "TK1.01#8",
+      "vai": "C",
+      "cers": [
+        0.0,
+        0.0,
+        0.010101010101010102
+      ],
+      "mean": 0.0033670033670033673,
+      "max": 0.010101010101010102
+    },
+    {
+      "id": "TK1.01#9",
+      "vai": "C",
+      "cers": [
+        0.08974358974358974,
+        0.10256410256410256,
+        0.10256410256410256
+      ],
+      "mean": 0.09829059829059827,
+      "max": 0.10256410256410256
+    },
+    {
+      "id": "TK1.01#10",
+      "vai": "C",
+      "cers": [
+        0.08450704225352113,
+        0.08450704225352113,
+        0.1267605633802817
+      ],
+      "mean": 0.09859154929577464,
+      "max": 0.1267605633802817
+    },
+    {
+      "id": "TK1.01#11",
+      "vai": "C",
+      "cers": [
+        0.0,
+        0.0,
+        0.039473684210526314
+      ],
+      "mean": 0.013157894736842105,
+      "max": 0.039473684210526314
+    },
+    {
+      "id": "TK1.01#12",
+      "vai": "H",
+      "cers": [
+        0.125,
+        0.14285714285714285,
+        0.21428571428571427
+      ],
+      "mean": 0.1607142857142857,
+      "max": 0.21428571428571427
+    }
+  ],
+  "mean": 0.0671669302853549,
+  "median": 0.057522903453136015,
+  "n_stable_fail": 11,
+  "n": 12
+}
