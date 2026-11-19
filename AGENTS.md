@@ -266,6 +266,9 @@ Mỗi bước chỉ làm khi bước trước **ĐẠT**. Lệnh cụ thể: ti�
 - **Lần 3 — 19/11/2026: Tap10–Tap15, CHỈ audio+video** (khác lần 2: lần này **GIỮ ảnh**): xoá **276 file AV = 53,97 GB** (`.work/video3*_t1[0-5]` `part_*.mp4`+`picture.mp4`, `.work/stems*_t1[0-5]` 5 lớp wav × VN/EN/JA, `.work/audio_master_*_t1[0-5].wav`, `02_SAN_XUAT/Tap1[0-5]*/xuat_ban/*_master.mp4|mp3|wav`, `assets/brand/intro_*_t1[0-5].mov`). **GIỮ** 30 ảnh thumbnail/contact sheet trong `02_SAN_XUAT/Tap1[0-5]*` + **16,9 GB ảnh** trong thư mục render `.work` (vì nằm chung thư mục với file AV) + 617 file text + `_cu/` (~5,5 GB: `t10_video_old_20261115`, `t12_en_newaudio_20261117`, `t10_wav_old_20261116`).
 - **BẪY — `02_SAN_XUAT/Tap11_JA/Tap11_JA_master.mp3` nằm NGOÀI `xuat_ban/`** (bản copy thừa ở gốc thư mục tập, 62,9 MB) → quét bằng `os.walk` chứ đừng chỉ liệt kê `xuat_ban/`, nếu không sẽ sót.
 - **BẪY — đừng giả định tập chưa xong thì đã có master**: Tap17/Tap18 **chưa có** file AV nào (`AV=0`) vì chưa dựng; Tap16 đã có 3 file AV/ngôn ngữ.
+- **Lần 4 — 19/11/2026: dọn nốt ẢNH tập 1–15** (phạm vi A, giữ `_cu`/`_src`/ảnh QC cũ): xoá thêm **15,68 GB** — 36 thư mục render `.work/video3*_t1[0-5]` + `.work/stems*_t1[0-5]` (chỉ còn ảnh + `parts.txt`/`_PSEUDO.txt` sau khi AV đã xoá lần 3) + 26 ảnh trong `02_SAN_XUAT/Tap1[0-5]*` (`xuat_ban/thumbnail.png`, `contact_sheet_t1[0-5].png`, `Tap15/qc_sheets/*.jpg`). Kết quả: **Tap01–15 = 0 media**, còn 617 file text + 53 `.srt`. Ổ D: 66,7 → **82,4 GB trống**.
+- **BẪY — `thumbnail.png` nằm trong `xuat_ban/`, KHÔNG phải gốc thư mục tập**: liệt kê `Get-ChildItem` không `-Recurse` sẽ tìm thấy nhầm `Tap10\thumbnail.png` (không tồn tại) ⇒ `mavis-trash` báo *"missing … No such file or directory"*. Phải quét đệ quy và nối đúng `xuat_ban/`.
+- **BẪY — `rm` với target không tồn tại KHÔNG làm hỏng lô**: `mavis-trash` in lỗi cho từng target thiếu nhưng vẫn xoá các target còn lại trong cùng lệnh (kiểm tra lại bằng script sau khi xoá, đừng tin output).
 
 ---
 
