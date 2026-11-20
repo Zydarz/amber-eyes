@@ -191,7 +191,7 @@
 | `TK4.01#1` | H | neutral | -0.02 | 0.6 | Không một lời xin lỗi nào nhắc tới nạn nhân. | 4.11#6 · 4.11#7 |
 | `TK4.01#2` | C | sad | -0.04 | 0.8 | Trong phòng thẩm vấn, nỗi lo hắn thốt ra chỉ xoay quanh việc người vợ nhìn nhận hắn ra sao, và sự sụp đổ danh tiếng của căn cứ quân sự. Hắn không nhắc đến nỗi đau của người phụ nữ hay gia đình nạn nhân. | 4.11#6 · 4.11#7 |
 | `TK4.01#3` | C | sad | -0.04 | 0.8 | Đó không phải sự ăn năn hối cải chân chính, mà là sự thương hại bản thân tột độ khi tấm mặt nạ danh dự xây suốt hai mươi lăm năm vỡ vụn. | 4.11#8 · 4.11#9 |
-| `TK4.01#4` | H | neutral | -0.02 | 0.6 | Ngày 18 tháng 10 năm 2010, hắn nhận tội trước toàn bộ 88 cáo buộc. | 5.02#1 · 5.02#3 |
+| `TK4.01#4` | H | neutral | -0.02 | 0.6 | Ngày 18 tháng 10 năm 2010, hắn nhận tội trước tòan bộ 88 cáo buộc. | 5.02#1 · 5.02#3 |
 | `TK4.01#5` | H | neutral | -0.02 | 0.8 | Ba ngày sau, thẩm phán tuyên hai mức tù chung thân chạy song song cho hai tội danh nghiêm trọng nhất, cộng thêm các mức tù khác. Mức án chung thân với hai mươi lăm năm không được xét ân xá. | 5.02#4 · 5.02#5 |
 | `TK4.01#6` | H | neutral | -0.02 | 0.6 | Nhưng bản án lớn nhất với một kẻ ái kỷ như hắn là sự sụp đổ về danh dự và quyền lực: quân hàm bị thu hồi, huân chương bị cắt thành từng mảnh. | 5.04#1 · 5.04#2 · 5.04#3 |
 | `TK4.01#7` | H | neutral | -0.02 | 0.7 | Quân đội Canada còn làm một việc chưa từng có tiền lệ: đốt toàn bộ quân phục và trang phục mang tên hắn tại một lò tiêu hủy tài liệu mật. | 5.04#5 |
@@ -411,78 +411,204 @@ Tập 01 đã có 16 nền dọc `tk01_*` trong `assets/bg/` (1080×1920). Tập
 
 ## 8. Caption + hashtag (sẵn sàng dán)
 
-**TK1** (316 ký tự)
+**TK1** (422 ký tự)
 
 ```
 Bốn nấc thang. Rồi một vụ án mạng. 👁️
 
 Tập 02 · Đại tá hai mặt — chỉ dấu #8: quỹ đạo leo thang hành vi.
-Hồ sơ có thật, dữ kiện có nguồn.
+Hồ sơ có thật, dữ liệu có nguồn.
 
-📺 Xem tập đầy đủ ở link trong bio
+📺 Xem tập đầy đủ (25 phút) trên YouTube — link trong bio
 🔎 Chỉ dấu tâm lý · leo thang hành vi · hồ sơ có thật
+
+Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự.
 
 #AmberEyes #TamLyToiPham #HosoCoThat #Escalation #QuyDaoLeoThang #TrueCrime #MoiTuanMotTap
 ```
 
-**TK2** (324 ký tự)
+**TK2** (430 ký tự)
 
 ```
 Vân lốp xe trùng khớp. Cảnh sát vẫn kính cẩn chào. 👁️
 
 Tập 02 · Đại tá hai mặt — chỉ dấu #9: hiệu ứng hào quang.
-Hồ sơ có thật, dữ kiện có nguồn.
+Hồ sơ có thật, dữ liệu có nguồn.
 
-📺 Xem tập đầy đủ ở link trong bio
+📺 Xem tập đầy đủ (25 phút) trên YouTube — link trong bio
 🔎 Chỉ dấu tâm lý · hiệu ứng hào quang · hồ sơ có thật
+
+Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự.
 
 #AmberEyes #TamLyToiPham #HosoCoThat #HieuUngHaoQuang #QuanDoi #TrueCrime #MoiTuanMotTap
 ```
 
-**TK3** (334 ký tự)
+**TK3** (440 ký tự)
 
 ```
 Hai cuộc đời. Một câu chuyện để tự bào chữa. 👁️
 
 Tập 02 · Đại tá hai mặt — chỉ dấu #5: hệ thống tự bào chữa.
-Hồ sơ có thật, dữ kiện có nguồn.
+Hồ sơ có thật, dữ liệu có nguồn.
 
-📺 Xem tập đầy đủ ở link trong bio
+📺 Xem tập đầy đủ (25 phút) trên YouTube — link trong bio
 🔎 Chỉ dấu tâm lý · phân mảnh tâm trí · hồ sơ có thật
+
+Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự.
 
 #AmberEyes #TamLyToiPham #HosoCoThat #Compartmentalization #SelfJustification #TrueCrime #MoiTuanMotTap
 ```
 
-**TK4** (319 ký tự)
+**TK4** (425 ký tự)
 
 ```
 Không một lời xin lỗi nào nhắc tới nạn nhân. 👁️
 
 Tập 02 · Đại tá hai mặt — chỉ dấu #4: sụp đổ cái tôi ái kỷ.
-Hồ sơ có thật, dữ kiện có nguồn.
+Hồ sơ có thật, dữ liệu có nguồn.
 
-📺 Xem tập đầy đủ ở link trong bio
+📺 Xem tập đầy đủ (25 phút) trên YouTube — link trong bio
 🔎 Chỉ dấu tâm lý · sụp đổ cái tôi · hồ sơ có thật
+
+Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự.
 
 #AmberEyes #TamLyToiPham #HosoCoThat #NarcissisticCollapse #BanAn #TrueCrime #MoiTuanMotTap
 ```
 
-**TK5** (316 ký tự)
+**TK5** (422 ký tự)
 
 ```
 Nếu bạn cảm thấy bất an, đừng hợp lý hóa nó. 👁️
 
 Tập 02 · Đại tá hai mặt — chỉ dấu #10: bài học sinh tồn.
-Hồ sơ có thật, dữ kiện có nguồn.
+Hồ sơ có thật, dữ liệu có nguồn.
 
-📺 Xem tập đầy đủ ở link trong bio
+📺 Xem tập đầy đủ (25 phút) trên YouTube — link trong bio
 🔎 Chỉ dấu tâm lý · trực giác sinh tồn · hồ sơ có thật
+
+Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự.
 
 #AmberEyes #TamLyToiPham #HosoCoThat #TrucGiac #CanhGiuAnToan #TrueCrime #MoiTuanMotTap
 ```
 
 > **Bắt buộc kèm theo mỗi caption:** dòng *"Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự."* + bật toggle **"AI-generated content"** khi đăng (TikTok bắt buộc ghi nhãn AIGC).
 > Bản mô tả dài cho ô Description của TikTok Studio: `MoTa_Dai_TK*.txt` (mục 13).
+> Bản mô tả **ngắn** (rút gọn, theo chuẩn Tập 01): `MoTa_Ngan_TK*.txt` (mục 8b).
+
+---
+
+## 8b. Mô tả ngắn (bản rút gọn, theo chuẩn `Tap01/MoTa_Dai_TK1.txt`)
+
+> Bản mô tả ngắn dùng khi: TikTok Studio hiển thị phần đầu mô tả dài bị cắt, hoặc đăng lại clip ở nơi khác cần bản gọn. Bản dài vẫn là bản chính để dán vào ô Description.
+
+**TK1 — MoTa_Ngan_TK1.txt** (1424 ký tự)
+
+```
+Bốn nấc thang. Tám mươi hai vụ trộm. Rồi một vụ án mạng. 👁️
+Tập 02 · Đại tá hai mặt — Chỉ dấu #8: quỹ đạo leo thang hành vi.
+
+Hồ sơ này tái dựng được bốn nấc thang, mỗi nấc là một bước lấn ranh giới rất nhỏ, không bị trừng phạt, và không bị ai chặn lại:
+• NẤC 1 — nhìn trộm ban đêm: đứng ngoài bóng tối để rình rập phụ nữ qua khung cửa sổ.
+• NẤC 2 — từ 9/2007 đến 11/2009, tổng cộng 82 vụ trộm đồ riêng tư. Không lấy tiền, không lấy trang sức quý giá. Nghi thức lặp lại y hệt ở mọi căn nhà: chụp ảnh, lấy đồ, rồi ghi chép lại tỉ mỉ.
+• NẤC 3 — xâm nhập khi có người ở nhà, tháng 9/2009.
+• NẤC 4 — đoạt mạng nạn nhân: cuối tháng 11/2009, nữ hạ sĩ Marie-France Comeau, 37 tuổi. Chỉ hai tháng sau đó là Jessica Lloyd.
+
+Bước ngoặt của hồ sơ này: khi hành vi cũ trở nên quen thuộc, cơ chế "đói ảo tưởng" buộc hắn phải tăng liều lượng rủi ro để tìm lại khoái cảm ban đầu. Và ngòi nổ tâm lý nằm đúng chỗ đáng lẽ phải chặn hắn lại — tháng 7/2009, hắn được thăng cấp chỉ huy trưởng căn cứ không quân Trenton.
+
+Theo bạn, ở nấc thang nào thì hành vi của một người còn có thể bị chặn lại? 👇
+
+📺 Xem trọn bộ hồ sơ phân tích đầy đủ (25 phút, kèm nguồn tòa án & y khoa) tại YTB: Amber Eyes — bấm nút liên kết ngay đầu trang cá nhân.
+
+🔎 Hồ sơ có thật, dữ liệu có nguồn. Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự. Không phù hợp cho trẻ em.
+
+#AmberEyes #TamLyToiPham #HosoCoThat #QuyDaoLeoThang #TrueCrime
+```
+
+**TK2 — MoTa_Ngan_TK2.txt** (1525 ký tự)
+
+```
+Vân lốp xe trùng khớp. Cảnh sát vẫn kính cẩn chào. 👁️
+Tập 02 · Đại tá hai mặt — Chỉ dấu #9: hiệu ứng hào quang.
+
+Đêm 28/01/2010, Jessica Lloyd — nữ nhân viên 27 tuổi, sống một mình ở Belleville — biến mất khỏi nhà riêng. Một tuần sau đó, vào tối 4/2, cảnh sát lập một trạm kiểm soát lưu động kéo dài suốt đêm, săn một dấu vết duy nhất: vệt vân lốp xe địa hình hiếm gặp in hằn trên nền tuyết.
+• Trong dòng xe đi qua trạm có một chiếc Nissan Pathfinder — chủ xe lái chiếc Pathfinder thay vì chiếc BMW mà ông ta vẫn thường đi.
+• Vân lốp xe của ông ta rất giống dấu vết trên tuyết. Nhưng trước một sĩ quan cấp cao đĩnh đạc, các sĩ quan tuần tra không thể giữ ông ta lại — họ chỉ ghi nhận thông tin rồi kính cẩn chào cho đi.
+
+Bước ngoặt của hồ sơ này: đây là hiệu ứng hào quang — một tấm khiên vô hình khiến cả xã hội lẫn cơ quan thực thi pháp luật bị che mắt suốt nhiều năm ròng. Quân phục đại tá lộng lẫy, chiến công lái chuyên cơ cho Hoàng gia và Thủ tướng, tiếng tay quân đội từng đứng nghiêm chào — không một thứ nào là bằng chứng cho sự lương thiện của một tâm hồn.
+
+Theo bạn, vì sao một chiếc quân hàm lộng lẫy lại khiến cả cơ quan thực thi pháp luật không dám hỏi một câu? 👇
+
+📺 Xem trọn bộ hồ sơ phân tích đầy đủ (25 phút, kèm nguồn tòa án & y khoa) tại YTB: Amber Eyes — bấm nút liên kết ngay đầu trang cá nhân.
+
+🔎 Hồ sơ có thật, dữ liệu có nguồn. Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự. Không phù hợp cho trẻ em.
+
+#AmberEyes #TamLyToiPham #HosoCoThat #HieuUngHaoQuang #TrueCrime
+```
+
+**TK3 — MoTa_Ngan_TK3.txt** (1578 ký tự)
+
+```
+Hai cuộc đời. Một cơ thể. Một câu chuyện để tự bào chữa. 👁️
+Tập 02 · Đại tá hai mặt — Chỉ dấu #5: hệ thống tự bào chữa.
+
+Trước khi phân tích, một điều phải nói rõ: không tồn tại một chẩn đoán lâm sàng công khai nào về Russell Williams. Các khung lý thuyết dưới đây là công cụ phân tích phổ biến trong tâm lý học tội phạm — chúng giúp ta đặt câu hỏi đúng, chứ không phải một sự phán xét đã được cơ quan chuyên môn xác nhận.
+• Phân mảnh tâm trí (compartmentalization): bộ não khóa hai luồng nhận thức trái ngược vào hai ngăn kéo hoàn toàn biệt lập — người chỉ huy mẫu mực và kẻ săn mồi bóng đêm.
+• Trung hòa đạo đức (neutralization): trong 82 vụ trộm đầu tiên, hắn tự nhủ "mình chỉ nhìn, mình không làm hại ai, mình chỉ giữ một món kỷ niệm". Đến khi xảy ra án mạng, hắn lại tự biện minh rằng nạn nhân đã thấy mặt mình, cô ta ép mình phải ra tay để tự vệ.
+
+Bước ngoặt của hồ sơ này: vì lương tri đã bị khóa trong ngăn kéo kia, hắn không thể tự giải thích một cách có lương tri. Câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người: "Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng."
+
+Theo bạn, ranh giới nào tách một lời giải thích có lương tri khỏi một hệ thống tự bào chữa? 👇
+
+📺 Xem trọn bộ hồ sơ phân tích đầy đủ (25 phút, kèm nguồn tòa án & y khoa) tại YTB: Amber Eyes — bấm nút liên kết ngay đầu trang cá nhân.
+
+🔎 Hồ sơ có thật, dữ liệu có nguồn. Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự. Không phù hợp cho trẻ em.
+
+#AmberEyes #TamLyToiPham #HosoCoThat #Compartmentalization #TrueCrime
+```
+
+**TK4 — MoTa_Ngan_TK4.txt** (1544 ký tự)
+
+```
+Không một lời xin lỗi nào nhắc tới nạn nhân. 👁️
+Tập 02 · Đại tá hai mặt — Chỉ dấu #4: sụp đổ cái tôi ái kỷ.
+
+Khi chiếc ổ cứng bị tìm thấy, bức tường ngăn cách giữa hai ngăn kéo tâm trí vỡ vụn. Và câu hỏi quan trọng nhất mà bản án không trả lời được, là thái độ của hắn.
+• Trong phòng thẩm vấn, những nỗi lo hắn thốt ra chỉ xoay quanh việc người vợ nhìn nhận hắn ra sao, và sự sụp đổ danh tiếng của căn cứ quân sự. Hắn không hề nhắc đến nỗi đau đớn cùng cực của những người phụ nữ hay gia đình nạn nhân.
+• Tháng 10/2010, Tòa Thượng thẩm Ontario xét xử tại thị trấn Belleville, thẩm phán Robert Scott. Ngày 21/10, mức án chung thân 25 năm — đúng mức tối thiểu mà luật hình sự Canada bắt buộc cho tội danh nghiêm trọng nhất.
+• Bản án lớn nhất là sự sụp đổ hoàn toàn về danh dự và quyền lực: quân hàm bị toàn quyền Canada thu hồi, huân chương bị cắt thành từng mảnh, tiểu sử bị gỡ khỏi trang web Bộ Quốc phòng ngay sau khi hắn bị bắt.
+
+Bước ngoặt của hồ sơ này: đó không phải là sự ăn năn hối cải chân chính. Đó là sự thương hại bản thân tột độ khi nhận ra tấm mặt nạ danh dự hắn dày công xây dựng suốt hai mươi lăm năm đã vỡ vụn.
+
+Theo bạn, khi nào sự hối hận biến thành công cụ để tự bảo vệ? 👇
+
+📺 Xem trọn bộ hồ sơ phân tích đầy đủ (25 phút, kèm nguồn tòa án & y khoa) tại YTB: Amber Eyes — bấm nút liên kết ngay đầu trang cá nhân.
+
+🔎 Hồ sơ có thật, dữ liệu có nguồn. Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự. Không phù hợp cho trẻ em.
+
+#AmberEyes #TamLyToiPham #HosoCoThat #NarcissisticCollapse #TrueCrime
+```
+
+**TK5 — MoTa_Ngan_TK5.txt** (1360 ký tự)
+
+```
+Nếu bạn cảm thấy bất an, đừng hợp lý hóa nó. 👁️
+Tập 02 · Đại tá hai mặt — Chỉ dấu #10: bài học sinh tồn.
+
+Trước khi sự thật vỡ lở, thị trấn Tweed sống trong một nỗi bất an mơ hồ. Đồ đạc riêng tư thỉnh thoảng bị xáo trộn, cửa nẻo có dấu cạy phá — nhưng không mất tiền bạc. Người dân tưởng mình đang hoang tưởng.
+• Dấu hiệu sớm nhất: ranh giới riêng tư bị xâm phạm lặp đi lặp lại, nhưng không đi kèm thiệt hại vật chất — nên rất dễ bị bỏ qua.
+• Tội ác không bao giờ bắt đầu từ một vụ án mạng. Nó luôn bắt đầu từ những bước lấn ranh giới rất nhỏ, không bị trừng phạt.
+• Địa vị, bằng cấp hay quân hàm lộng lẫy chỉ là lớp áo khoác xã hội, không phải tấm bảo chứng cho sự lương thiện của một tâm hồn.
+
+Bước ngoặt của hồ sơ này: nếu bạn cảm thấy một sự bất an mơ hồ, nếu ranh giới riêng tư của bạn bị xâm phạm dù chỉ nhỏ nhất, đừng hợp lý hóa hay coi thường nó. Trực giác sinh tồn chính là hệ thống cảnh báo sớm giúp bảo vệ mạng sống của chúng ta.
+
+Theo bạn, tín hiệu cảnh báo nào trong đời thường mà bạn thường bỏ qua nhất? 👇
+
+📺 Xem trọn bộ hồ sơ phân tích đầy đủ (25 phút, kèm nguồn tòa án & y khoa) tại YTB: Amber Eyes — bấm nút liên kết ngay đầu trang cá nhân.
+
+🔎 Hồ sơ có thật, dữ liệu có nguồn. Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự. Không phù hợp cho trẻ em.
+
+#AmberEyes #TamLyToiPham #HosoCoThat #TrucGiac #TrueCrime
+```
 
 ---
 
@@ -524,13 +650,14 @@ Hồ sơ có thật, dữ kiện có nguồn.
 
 | # | Kiểm | Kết quả |
 |---|---|---|
-| 1 | Từ cấm V9/A9.2 trong lời đọc + caption + mô tả dài | ✅ 0 lỗi |
+| 1 | Từ cấm V9/A9.2 trong lời đọc + caption + mô tả dài + mô tả ngắn | ✅ 0 lỗi |
 | 2 | G1 — ≤ 1 thẻ `<#0.35#>`/câu, sau dấu ':', không có '...' | ✅ 0 lỗi |
 | 3 | G3 (4 emotion an toàn) · G4 (speed −0,06…+0,02) · G5 (pitch = 0) | ✅ 0 lỗi |
 | 4 | V3 — số trên thẻ overlay phải có trong câu được trỏ tới | ✅ 0 lỗi |
 | 5 | Hook ≤ 12 từ (mục 3.2 kế hoạch mẹ) | ✅ 5/5 đạt |
 | 6 | Caption ≤ 2.200 ký tự (Content Posting API) | ✅ 5/5 đạt |
 | 7 | Hashtag 5–8, có #AmberEyes + #HosoCoThat (mục 3.4) | ✅ 5/5 đạt |
+| 7b | Dòng nhãn AIGC nằm trong thân caption (luật T3) | ✅ 5/5 đạt |
 | 8 | Độ dài clip trong cổng 45–95 s (ước lượng có cơ sở đo) | ✅ 5/5 đạt |
 | 9 | Nguồn 16:9 của 27 nền dọc `tk02_*` có trong `_raw/` | ✅ 27/27 có file |
 | 10 | K10 — mỗi clip ≥ 1 chỉ dấu tâm lý | ✅ 5/5 đạt — phủ chỉ dấu #1, #3, #4, #5, #6, #8, #9, #10 |
@@ -538,6 +665,8 @@ Hồ sơ có thật, dữ kiện có nguồn.
 | 12 | K2 — 2 câu trích phải nguyên văn trong kịch bản tập | ✅ 2/2 nguyên văn |
 | 13 | G6 — .md và .json cùng sinh từ MỘT nguồn (`.work/_build_tk_tap02.py`) | ✅ không thể lệch — chung generator |
 | 14 | L3 — thời lượng có số đo thật làm cơ sở (timeline Tập 02 đo bằng ASR) | ✅ tỉ lệ đọc đo trên 203 câu thật · LOO MAE 11,0 %/câu · mô phỏng clip MAE 3,7 % |
+| 15 | Mô tả ngắn — dòng 1 = hook (chữ trên hình / lời đọc câu 1), khớp bản dài, 900–1.600 ký tự | ✅ 5/5 đạt |
+| 16 | Mô tả dài — dòng đầu = hook (chữ trên hình / lời đọc câu 1) | ✅ 5/5 đạt |
 
 ---
 

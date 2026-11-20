@@ -1,37 +1,44 @@
 # HỒ SƠ SẢN XUẤT TẬP 34 · "NGUYỄN ĐỨC NGHĨA" (PHẦN B)
 
-**Tiêu chuẩn áp dụng:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Phần A).
-**Kịch bản gốc:** `01_KICH_BAN/Tap34/kichban_tap34_19112026.md`
+**Tiêu chuẩn áp dụng:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Phần A), Hệ sinh thái 10 chỉ dấu tâm lý (A2c, K10), Quy tắc V1–V9, G1–G13.  
+**Kịch bản gốc:** `01_KICH_BAN/Tap34/kichban_tap34_19112026.md` (205 câu)  
+**Kịch bản đối chiếu đa ngữ:** `01_KICH_BAN/Tap34_EN/` (205 câu) · `01_KICH_BAN/Tap34_JA/` (205 câu)  
 **Thành phẩm xuất bản:** `02_SAN_XUAT/Tap34/xuat_ban/`
+
+---
 
 ## B1. Thông tin tập
 
 | Mục | Giá trị |
 |---|---|
-| **Tên tập** | Tập 34: Hồ Sơ Nguyễn Đức Nghĩa — Vỏ Bọc Sinh Viên Ưu Tú & Sự Tê Liệt Cảm Xúc Sau Chiếc Kính Cận |
+| **Tên tập** | Tập 34: Vỏ Bọc Sinh Viên Ưu Tú & Sự Tê Liệt Cảm Xúc Sau Chiếc Kính Cận (Hồ Sơ Nguyễn Đức Nghĩa) |
 | **Đề tài** | Án mạng tại chung cư G4 Trung Hòa - Cầu Giấy, Hà Nội gây rúng động năm 2010 |
-| **Trọng tâm tâm lý (K10)** | Hiệu ứng hào quang tri thức, Cơ chế phân ngăn tâm trí, Che giấu nhận dạng có tính toán. |
-| **Thời lượng dự kiến** | 24:00 – 27:00 (~1.500 giây) |
-| **Giọng đọc phân bổ** | Host (Cú) · Điều tra viên (Sói) · Chuyên gia tâm lý (Cáo) · Người trong cuộc (N) |
-| **Quy tắc kiểm duyệt** | 100% YouTube Safe theo Tiêu chuẩn V9 (Không mô tả bạo lực ghê rợn, tập trung tâm lý học và hành vi). |
+| **Trọng tâm tâm lý (K10)** | Hiệu ứng hào quang trí thức, Cơ chế phân ngăn tâm trí (Compartmentalization), Tẩy xóa nhân dạng (Depersonalization), Bản chất sự hối hận và Tăng trưởng sau sang chấn (PTG). |
+| **Thời lượng dự kiến** | 26:00 – 30:00 (~1.650 giây) |
+| **Giọng đọc phân bổ** | Host (Cú, ~48%) · Điều tra viên (Sói, ~24%) · Chuyên gia tâm lý (Cáo, ~22%) · N1 (Cư dân G4, ~3%) · N2 (Hoàng Thị Yến, ~3%) |
+| **Quy tắc an toàn YouTube** | 100% YouTube Safe theo Tiêu chuẩn V9 (Tuyệt đối không mô tả bạo lực ghê rợn, 100% tập trung khoa học hành vi và tâm lý học tội phạm). |
 
-## B2. Kế hoạch sản xuất chi tiết 5 Hồi
+---
 
-* **Hồi 1:** Khởi nguồn vụ việc, tín hiệu cảnh báo ban đầu và sự vào cuộc của cơ quan chức năng.
-* **Hồi 2:** Bóc tách vỏ bọc ngụy trang, cuộc sống đời thường và cơ chế phân ngăn tâm trí bệnh lý.
-* **Hồi 3:** Cuộc đấu trí trong phòng thẩm vấn, phân tích vi biểu cảm và sự sụp đổ của các lời khai ngụy biện.
-* **Hồi 4:** Khoa học hình sự, phân tích dấu vết vi mô, dữ liệu công nghệ và bước ngoặt phá án.
-* **Hồi 5:** Bản án nghiêm minh của tòa án và 3 bài học cảnh báo đỏ sinh tồn đắt giá cho cộng đồng.
+## B2. Kế hoạch sản xuất chi tiết 5 Hồi (Chuẩn A2c / K10)
+
+* **Hồi 1 (Án mạng trên tầng thượng & Điểm mù đô thị - 35 câu):** Sự biến mất bí ẩn của nạn nhân, phát hiện thi thể tại tầng thượng chung cư G4, điểm mù đô thị chung cư và tâm lý bàng quan tập thể.
+* **Hồi 2 (Vỏ bọc thư sinh & Cạm bẫy của sự quen thuộc - 45 câu):** Hình tượng cựu sinh viên Ngoại thương ưu tú, lối sống ngầm nợ nần cờ bạc, cạm bẫy gặp lại người yêu cũ tại căn hộ 1101 và cơ chế phân ngăn tâm trí bệnh lý ("như một con rô-bốt").
+* **Hồi 3 (Cuộc đấu trí trong phòng thẩm vấn & Sự sụp đổ bản ngã - 48 câu):** Cuộc truy bắt thần tốc tại Thái Nguyên, chiến thuật đấu trí bao vây logic tại số 7 Thiền Quang, hành trình lặn mò tìm vật chứng trên sông Cấm và khoảnh khắc sụp đổ của bản ngã ái kỷ.
+* **Hồi 4 (Bản chất sự hối hận & Bi kịch hai người cha - 40 câu):** Phiên tòa sơ thẩm 7/2010; giọt nước mắt của Hoàng Thị Yến khi nghe câu "Anh xin lỗi"; bóc tách cơ chế hối hận (chấn thương bản ngã ái kỷ vs. bản năng sinh tồn kháng cáo); bi kịch người cha cựu chiến binh (ông Hùng) tử nạn giao thông.
+* **Hồi 5 (Bản án tối hậu, sự tha thứ & Bài học cảnh báo đỏ - 37 câu):** Bác đơn kháng cáo và thi hành án tử hình tháng 7/2014; nghĩa cử nhân văn của người cha nạn nhân (ông Ba) gửi thư chia buồn và hoa viếng bố hung thủ; 3 nguyên tắc cảnh báo đỏ sinh tồn cốt lõi.
+
+---
 
 ## B3. Trạng thái các bước kỹ thuật (Checklist)
 
-- [x] Kịch bản Tiếng Việt (01_KICH_BAN/Tap34/)
-- [x] Kịch bản Tiếng Anh (01_KICH_BAN/Tap34_EN/)
-- [x] Kịch bản Tiếng Nhật (01_KICH_BAN/Tap34_JA/)
-- [x] Kịch bản Tiếng Hàn (01_KICH_BAN/Tap34_KO/)
-- [ ] Tách câu (`parse_kichban.py`)
-- [ ] Diễn xuất & sinh audio TTS (`tts_sentences.py`)
-- [ ] QC âm thanh, nhịp nghỉ, LUFS (`qc_pause_gate.py`, `build_audio3.py`)
-- [ ] Bảng shot hình ảnh (`parse_shots.py`)
-- [ ] Render video hoàn thiện (`build_video3.py`)
-- [ ] Đóng gói xuất bản (`package.py --mux`)
+- [x] **Bước 1: Kịch bản được duyệt** (VN 205 câu, EN 205 câu, JA 205 câu khớp 1:1, Rule V9 PASS)
+- [x] **Bước 2: Tách kịch bản kỹ thuật** (`parse_kichban.py` -> `.work/script_tap34.json`, `.work/script_tap34_EN.json`, `.work/script_tap34_JA.json`)
+- [x] **Bước 3: Khai báo hệ thống & Diễn xuất** (Cấu hình `EPISODES['34']` trong `edition.py`, sinh `.work/acting_tap34.json`)
+- [ ] **Bước 4: Sinh giọng đọc TTS** (`tts_sentences.py` cho 205 câu)
+- [ ] **Bước 5: Kiểm tra giọng theo vai** (`voice_role_check.py` đạt G8–G10)
+- [ ] **Bước 6: Dựng audio master & Đo đạc** (`build_audio3.py`, `qc_pause_gate.py`, -16 LUFS, TP <= -1.5 dBFS)
+- [ ] **Bước 7: Lập bảng shot** (`parse_shots.py`, `qc_bg_shared.py`)
+- [ ] **Bước 8: Sinh ảnh tĩnh & Duyệt khung hình** (`build_video3.py --stills`)
+- [ ] **Bước 9: Dựng video hoàn thiện** (`build_video3.py --workers 6`)
+- [ ] **Bước 10: Phụ đề & Đóng gói xuất bản** (`subtitles.py`, `package.py --mux`)

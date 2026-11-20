@@ -1,0 +1,981 @@
+{
+  "_readme": "SPEC_AUDIO_CLIP_TAP02_JA.json — Audio specs for 5 Japanese TikTok clips (TK1–TK5).",
+  "_episode": "02_JA",
+  "_language": "ja",
+  "_title": "二面性の大佐とエスカレーションの深淵 — 快感の閾値が崩壊する時",
+  "_measured_rates": {
+    "H": 0.1559,
+    "N1": 0.1639,
+    "D": 0.1699,
+    "C": 0.1752,
+    "N2": 0.1478
+  },
+  "_clips_summary": {
+    "TK1": {
+      "title": "4つの階段。82件の侵入。そして殺人へと至る軌跡",
+      "lines_count": 12,
+      "characters_count": 454,
+      "est_dur_s": 81.2,
+      "psychological_signs": [
+        8,
+        6
+      ]
+    },
+    "TK2": {
+      "title": "タイヤ痕の一致。それでも警察は敬礼して見送った",
+      "lines_count": 11,
+      "characters_count": 417,
+      "est_dur_s": 74.0,
+      "psychological_signs": [
+        9,
+        1
+      ]
+    },
+    "TK3": {
+      "title": "2つの人生。1つの身体。自己正当化のための物語",
+      "lines_count": 12,
+      "characters_count": 410,
+      "est_dur_s": 76.4,
+      "psychological_signs": [
+        5,
+        3
+      ]
+    },
+    "TK4": {
+      "title": "被害者に向けられた謝罪はただの一言もなかった",
+      "lines_count": 10,
+      "characters_count": 432,
+      "est_dur_s": 76.7,
+      "psychological_signs": [
+        4,
+        1
+      ]
+    },
+    "TK5": {
+      "title": "自らの直感を常に信じること",
+      "lines_count": 8,
+      "characters_count": 370,
+      "est_dur_s": 64.3,
+      "psychological_signs": [
+        10
+      ]
+    }
+  },
+  "clips": {
+    "TK1": {
+      "id": "TK1",
+      "title": "4つの階段。82件の侵入。そして殺人へと至る軌跡",
+      "theme": "行動のエスカレーション軌跡と心理的引き金（Precipitating Trigger）",
+      "psychological_signs": [
+        8,
+        6
+      ],
+      "bgm": "bgm_piano_minimal.mp3",
+      "sfx": [
+        "amb_winter_wind.wav (環境音)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav",
+        "fx_sub_drop.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK1.01#1",
+          "text": "4つの段階 · 82件の侵入 · 1つの殺人",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK1.01#3",
+          "text": "第1段階 — 深夜の覗き見",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#4",
+          "text": "第2段階 — 留守宅侵入と私物窃取",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#7",
+          "text": "第3段階 — 住人在宅時の侵入",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#8",
+          "text": "第4段階 — 生命の強奪",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#10",
+          "text": "心理的引き金 · 2009年7月",
+          "dur_s": 2.5
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK1.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "tk02_escalation_stairs",
+          "motion": "still",
+          "text": "4つの階段。82件の侵入。そして1件の殺人。",
+          "characters_spoken": 22,
+          "est_dur_s": 3.43,
+          "src_script": "2.05#1 · 2.05#7 · 5.07#5"
+        },
+        {
+          "clip_line_id": "TK1.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "tk02_escalation_stairs",
+          "motion": "pull",
+          "text": "最初から暴力を振るったのではありません。深夜、窓の外に佇むことから始まりました。",
+          "characters_spoken": 40,
+          "est_dur_s": 6.24,
+          "src_script": "2.05#2 · 2.05#3 · 5.07#5"
+        },
+        {
+          "clip_line_id": "TK1.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.5,
+          "bg": "tk02_open_window",
+          "motion": "push",
+          "text": "第1段階は深夜の覗き見。闇に潜み、窓越しに女性たちの私生活を監視しました。",
+          "characters_spoken": 37,
+          "est_dur_s": 6.29,
+          "src_script": "2.05#2 · 2.05#3"
+        },
+        {
+          "clip_line_id": "TK1.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.5,
+          "bg": "tk02_drawer_dark",
+          "motion": "pan",
+          "text": "第2段階は留守宅侵入。金品には触れず、女性たちの下着や私物だけを持ち去りました。",
+          "characters_spoken": 40,
+          "est_dur_s": 6.8,
+          "src_script": "2.05#4 · 2.05#8 · 2.05#9"
+        },
+        {
+          "clip_line_id": "TK1.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.5,
+          "bg": "tk02_folder_tree",
+          "motion": "still",
+          "text": "儀式は全件で同一：写真を撮り、品を持ち去り、克明に記録を残すのです。",
+          "characters_spoken": 34,
+          "est_dur_s": 5.78,
+          "src_script": "2.05#10"
+        },
+        {
+          "clip_line_id": "TK1.01#6",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_brain_neural",
+          "motion": "push",
+          "text": "行動が日常化すると妄想の飢餓に陥り、快感を再現するためにより高いリスクを冒します。",
+          "characters_spoken": 41,
+          "est_dur_s": 7.18,
+          "src_script": "3.05#7 · 3.05#8 · 3.05#9"
+        },
+        {
+          "clip_line_id": "TK1.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.5,
+          "bg": "tk02_open_window",
+          "motion": "pan",
+          "text": "第3段階：2009年9月、住人が在宅中の民家へ押し入り、拘束に及びました。",
+          "characters_spoken": 37,
+          "est_dur_s": 6.29,
+          "src_script": "2.05#11 · 2.05#12 · 2.05#13"
+        },
+        {
+          "clip_line_id": "TK1.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "tk02_two_chairs",
+          "motion": "still",
+          "text": "そして第4段階：2009年11月、基地所属の37歳伍長Marie-France Comeauの命を強奪。",
+          "characters_spoken": 51,
+          "est_dur_s": 8.67,
+          "src_script": "2.05#14 · 2.05#15"
+        },
+        {
+          "clip_line_id": "TK1.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "tk02_house_missing",
+          "motion": "pull",
+          "text": "わずか2カ月後、次の犠牲となったのがJessica Lloydでした。",
+          "characters_spoken": 34,
+          "est_dur_s": 5.3,
+          "src_script": "2.05#16"
+        },
+        {
+          "clip_line_id": "TK1.01#10",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_oath_hall",
+          "motion": "push",
+          "text": "2009年7月の基地司令官昇進が引き金でした：絶対的権力と重圧が、最後のブレーキを破壊したのです。",
+          "characters_spoken": 49,
+          "est_dur_s": 8.59,
+          "src_script": "1.03#4 · 3.05#10"
+        },
+        {
+          "clip_line_id": "TK1.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_escalation_stairs",
+          "motion": "push",
+          "text": "犯罪は殺人から始まるのではありません。処罰されなかった覗き見から始まるのです。",
+          "characters_spoken": 39,
+          "est_dur_s": 6.08,
+          "src_script": "5.07#5 · 5.07#6"
+        },
+        {
+          "clip_line_id": "TK1.01#12",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "tk02_podcast_desk",
+          "motion": "still",
+          "text": "Amber Eyes 第2話。完全版はプロフィールのリンクから。",
+          "characters_spoken": 30,
+          "est_dur_s": 4.68,
+          "src_script": "CTA"
+        }
+      ]
+    },
+    "TK2": {
+      "id": "TK2",
+      "title": "タイヤ痕の一致。それでも警察は敬礼して見送った",
+      "theme": "ハロー効果（Halo Effect）と集団的盲点",
+      "psychological_signs": [
+        9,
+        1
+      ],
+      "bgm": "bgm_sub_drone.mp3",
+      "sfx": [
+        "amb_road_night.wav (環境音)",
+        "fx_tire_snow.wav",
+        "fx_window_down.wav",
+        "fx_flashlight.wav",
+        "fx_police_radio.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK2.01#5",
+          "text": "移動式検問所 · 2月4日の夜",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#9",
+          "text": "情報を控えただけで — 敬礼して通過させた",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#10",
+          "text": "ハロー効果：社会と警察を眩ませた不可視の盾",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK2.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "tk02_checkpoint",
+          "motion": "still",
+          "text": "タイヤ痕は一致していました。それでも警察官たちは、その男に敬礼して送り出しました。",
+          "characters_spoken": 41,
+          "est_dur_s": 6.39,
+          "src_script": "1.14#4 · 1.14#5"
+        },
+        {
+          "clip_line_id": "TK2.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "tk02_oath_hall",
+          "motion": "pull",
+          "text": "2009年7月、Russell Williams大佐はトレントン空軍基地の最高司令官に就任。",
+          "characters_spoken": 45,
+          "est_dur_s": 7.02,
+          "src_script": "1.03#1 · 1.03#4"
+        },
+        {
+          "clip_line_id": "TK2.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "tk02_oath_hall",
+          "motion": "pan",
+          "text": "彼はかつて、エリザベス女王専用機の操縦桿を握った英雄でした。",
+          "characters_spoken": 30,
+          "est_dur_s": 4.68,
+          "src_script": "1.05#1"
+        },
+        {
+          "clip_line_id": "TK2.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "tk02_house_missing",
+          "motion": "still",
+          "text": "2010年1月28日の夜、27歳の女性Jessica Lloydが自宅から突如姿を消しました。",
+          "characters_spoken": 46,
+          "est_dur_s": 7.82,
+          "src_script": "1.10#1 · 1.10#2"
+        },
+        {
+          "clip_line_id": "TK2.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "tk02_checkpoint",
+          "motion": "push",
+          "text": "手がかりは皆無。1週間後の夜、警察は雪上に残された珍しいタイヤ痕を追うため検問を敷きました。",
+          "characters_spoken": 46,
+          "est_dur_s": 7.82,
+          "src_script": "1.12#1 · 1.12#2 · 1.12#3"
+        },
+        {
+          "clip_line_id": "TK2.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.5,
+          "bg": "tk02_suv_stop",
+          "motion": "still",
+          "text": "そこを通りかかった1台の日産パスファインダー。普段のBMWとは違う車でした。",
+          "characters_spoken": 38,
+          "est_dur_s": 6.46,
+          "src_script": "1.14#1 · 1.14#2"
+        },
+        {
+          "clip_line_id": "TK2.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.5,
+          "bg": "tk02_suv_stop",
+          "motion": "push",
+          "text": "窓を下ろしたのは、トレントン空軍基地の最高司令官その人でした。",
+          "characters_spoken": 31,
+          "est_dur_s": 5.27,
+          "src_script": "1.14#3"
+        },
+        {
+          "clip_line_id": "TK2.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "tk02_tire_track",
+          "motion": "still",
+          "text": "タイヤの溝は、現場の雪上に残されたものと酷似していました。",
+          "characters_spoken": 29,
+          "est_dur_s": 4.52,
+          "src_script": "1.14#4"
+        },
+        {
+          "clip_line_id": "TK2.01#9",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "tk02_checkpoint",
+          "motion": "pan",
+          "text": "だが高級将校を前に警官は拘束できず、敬礼して見送りました。その後3日間、彼は自由の身でした。",
+          "characters_spoken": 46,
+          "est_dur_s": 7.82,
+          "src_script": "1.14#5 · 1.14#6"
+        },
+        {
+          "clip_line_id": "TK2.01#10",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_siren_wall",
+          "motion": "push",
+          "text": "ハロー効果：社会と警察の目を長年にわたって眩ませ続けた不可視の盾です。",
+          "characters_spoken": 35,
+          "est_dur_s": 6.13,
+          "src_script": "1.08#4"
+        },
+        {
+          "clip_line_id": "TK2.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "tk02_podcast_desk",
+          "motion": "still",
+          "text": "Amber Eyes 第2話。完全版はプロフィールのリンクから。",
+          "characters_spoken": 30,
+          "est_dur_s": 4.68,
+          "src_script": "CTA"
+        }
+      ]
+    },
+    "TK3": {
+      "id": "TK3",
+      "title": "2つの人生。1つの身体。自己正当化のための物語",
+      "theme": "自己正当化（中和技術）と絶対的精神の分断（コンパートメンタライゼーション）",
+      "psychological_signs": [
+        5,
+        3
+      ],
+      "bgm": "bgm_cello_sad_v2.mp3",
+      "sfx": [
+        "amb_basement.wav (環境音)",
+        "fx_drawer_open.wav",
+        "fx_stinger.wav",
+        "fx_hdd_spin.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK3.01#3",
+          "text": "コンパートメンタライゼーション：精神の分断",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK3.01#4",
+          "text": "第1の引き出し — 模範的な大佐",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#5",
+          "text": "第2の引き出し — 夜の捕食者",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#7",
+          "text": "中和技術（自己正当化）",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK3.01#8",
+          "text": "「単なる記念品」",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#10",
+          "text": "「答えは重要ではない」",
+          "dur_s": 2.5
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK3.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "tk02_two_drawers",
+          "motion": "still",
+          "text": "2つの人生。1つの身体。自己正当化のための物語。",
+          "characters_spoken": 24,
+          "est_dur_s": 3.74,
+          "src_script": "3.08#1 · 3.08#8"
+        },
+        {
+          "clip_line_id": "TK3.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_two_masks",
+          "motion": "pull",
+          "text": "分析の前提：公的な臨床診断はありません。これは犯罪心理学の理論モデルです。",
+          "characters_spoken": 37,
+          "est_dur_s": 5.77,
+          "src_script": "3.04#1 · 3.04#2"
+        },
+        {
+          "clip_line_id": "TK3.01#3",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_brain_neural",
+          "motion": "push",
+          "text": "コンパートメンタライゼーション：相容れない認知を別個の引き出しに隔離する防衛機制。",
+          "characters_spoken": 41,
+          "est_dur_s": 7.18,
+          "src_script": "3.08#2"
+        },
+        {
+          "clip_line_id": "TK3.01#4",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "tk02_command_chair",
+          "motion": "pan",
+          "text": "第1の引き出しは大佐：庭を愛し、規律に生きる模範的な司令官であり夫。",
+          "characters_spoken": 34,
+          "est_dur_s": 5.96,
+          "src_script": "3.08#4"
+        },
+        {
+          "clip_line_id": "TK3.01#5",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "tk02_stairs_dark",
+          "motion": "push",
+          "text": "第2の引き出しは夜の捕食者：陰惨な衝動を解き放つ怪物。",
+          "characters_spoken": 27,
+          "est_dur_s": 4.73,
+          "src_script": "3.08#5"
+        },
+        {
+          "clip_line_id": "TK3.01#6",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_two_drawers",
+          "motion": "still",
+          "text": "一方にいる時、彼はもう一方の扉を閉ざし、家庭を盾にしました。",
+          "characters_spoken": 30,
+          "est_dur_s": 5.26,
+          "src_script": "3.08#6 · 3.08#7"
+        },
+        {
+          "clip_line_id": "TK3.01#7",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "tk02_drawer_dark",
+          "motion": "pull",
+          "text": "中和技術：82件の侵入の間、<#0.35#> 誰も傷つけていない、記念品を持っているだけだと自己正当化しました。",
+          "characters_spoken": 47,
+          "est_dur_s": 8.24,
+          "src_script": "3.08#8"
+        },
+        {
+          "clip_line_id": "TK3.01#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_hidden_drive",
+          "motion": "pan",
+          "text": "凶行に及んだ時でさえ、顔を見られた以上、自己防衛のためだったと責任転嫁したのです。",
+          "characters_spoken": 41,
+          "est_dur_s": 7.18,
+          "src_script": "3.08#9"
+        },
+        {
+          "clip_line_id": "TK3.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "tk02_hidden_drive",
+          "motion": "still",
+          "text": "そして彼には真の道徳的説明など一切できませんでした。",
+          "characters_spoken": 26,
+          "est_dur_s": 4.56,
+          "src_script": "3.08#10"
+        },
+        {
+          "clip_line_id": "TK3.01#10",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_interrogation_early",
+          "motion": "push",
+          "text": "尋問官への答えは凍りつくほど空虚でした：<#0.35#> ええ、ですが答えは重要ではありません。",
+          "characters_spoken": 39,
+          "est_dur_s": 6.83,
+          "src_script": "3.08#11"
+        },
+        {
+          "clip_line_id": "TK3.01#11",
+          "role": "C",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.6,
+          "bg": "tk02_head_down",
+          "motion": "pull",
+          "text": "それこそが、冷徹な捕食者の完全なる道徳的離脱を露呈させた言葉でした。",
+          "characters_spoken": 34,
+          "est_dur_s": 5.96,
+          "src_script": "3.08#12"
+        },
+        {
+          "clip_line_id": "TK3.01#12",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "tk02_podcast_desk",
+          "motion": "still",
+          "text": "Amber Eyes 第2話。完全版はプロフィールのリンクから。",
+          "characters_spoken": 30,
+          "est_dur_s": 4.68,
+          "src_script": "CTA"
+        }
+      ]
+    },
+    "TK4": {
+      "id": "TK4",
+      "title": "被害者に向けられた謝罪はただの一言もなかった",
+      "theme": "自己愛の崩壊（Narcissistic Collapse）と心理的判決",
+      "psychological_signs": [
+        4,
+        1
+      ],
+      "bgm": "bgm_piano_warm.mp3",
+      "sfx": [
+        "amb_courtroom.wav (環境音)",
+        "fx_gavel_triple.wav",
+        "fx_fire_whoosh.wav",
+        "amb_fire.wav",
+        "fx_heartbeat_slow.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK4.01#1",
+          "text": "被害者への謝罪は一言もなかった",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK4.01#3",
+          "text": "悔悟ではない — 極限の自己憐憫",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#4",
+          "text": "88件の罪状すべてで有罪",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#5",
+          "text": "仮釈放なし25年の終身刑",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#7",
+          "text": "彼の名前が刻まれた全軍服の焼却",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#9",
+          "text": "自己愛の崩壊（NARCISSISTIC COLLAPSE）",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK4.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_interrogation_early",
+          "motion": "still",
+          "text": "被害者に向けられた謝罪の言葉は、ただの一言もありませんでした。",
+          "characters_spoken": 31,
+          "est_dur_s": 4.83,
+          "src_script": "4.11#6 · 4.11#7"
+        },
+        {
+          "clip_line_id": "TK4.01#2",
+          "role": "C",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.7,
+          "bg": "tk02_two_chairs",
+          "motion": "pull",
+          "text": "尋問室で彼が口にした懸念は、妻からどう見られるか、基地の評判がどうなるかだけでした。被害者への悔悟はありませんでした。",
+          "characters_spoken": 59,
+          "est_dur_s": 10.34,
+          "src_script": "4.11#6 · 4.11#7"
+        },
+        {
+          "clip_line_id": "TK4.01#3",
+          "role": "C",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.7,
+          "bg": "tk02_head_down",
+          "motion": "push",
+          "text": "それは真摯な反省ではなく、25年間磨き上げた名誉の仮面が砕け散ったことへの極限の自己憐憫でした。",
+          "characters_spoken": 48,
+          "est_dur_s": 8.41,
+          "src_script": "4.11#8 · 4.11#9"
+        },
+        {
+          "clip_line_id": "TK4.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_courtroom",
+          "motion": "still",
+          "text": "2010年10月18日、彼は88件の罪状すべてについて有罪を認めました。",
+          "characters_spoken": 36,
+          "est_dur_s": 5.61,
+          "src_script": "5.02#1 · 5.02#3"
+        },
+        {
+          "clip_line_id": "TK4.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "tk02_gavel",
+          "motion": "push",
+          "text": "3日後、裁判官は仮釈放資格のない25年間の終身刑を言い渡しました。",
+          "characters_spoken": 33,
+          "est_dur_s": 5.15,
+          "src_script": "5.02#4 · 5.02#5"
+        },
+        {
+          "clip_line_id": "TK4.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_courtroom",
+          "motion": "pan",
+          "text": "だが彼のようなナルシシストへの最大の刑罰は、名誉の完全な剥奪：軍管轄権は剥奪され、勲章は切り刻まれました。",
+          "characters_spoken": 53,
+          "est_dur_s": 8.26,
+          "src_script": "5.04#1 · 5.04#2 · 5.04#3"
+        },
+        {
+          "clip_line_id": "TK4.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_uniform_fire",
+          "motion": "still",
+          "text": "カナダ軍は前代未聞の措置を断行：彼の名前が刺繍されたすべての軍服を機密文書焼却炉で焼き尽くしたのです。",
+          "characters_spoken": 51,
+          "est_dur_s": 7.95,
+          "src_script": "5.04#5"
+        },
+        {
+          "clip_line_id": "TK4.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "tk02_uniform_fire",
+          "motion": "pan",
+          "text": "軍報道官によれば、いかなる公式儀礼もなく、写真撮影すら一切許されませんでした。",
+          "characters_spoken": 39,
+          "est_dur_s": 6.63,
+          "src_script": "5.04#6 · 5.04#7"
+        },
+        {
+          "clip_line_id": "TK4.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_brain_neural",
+          "motion": "pull",
+          "text": "心理学的には典型的な自己愛の崩壊：支配力を失った捕食者には、みじめな自己憐憫しか残されていませんでした。",
+          "characters_spoken": 52,
+          "est_dur_s": 9.11,
+          "src_script": "5.06#4"
+        },
+        {
+          "clip_line_id": "TK4.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "tk02_podcast_desk",
+          "motion": "still",
+          "text": "Amber Eyes 第2話。完全版はプロフィールのリンクから。",
+          "characters_spoken": 30,
+          "est_dur_s": 4.68,
+          "src_script": "CTA"
+        }
+      ]
+    },
+    "TK5": {
+      "id": "TK5",
+      "title": "自らの直感を常に信じること",
+      "theme": "被害者学と生存のための警戒シグナル（境界線と直感）",
+      "psychological_signs": [
+        10
+      ],
+      "bgm": "bgm_ambient_deep.mp3",
+      "sfx": [
+        "amb_road_night.wav (環境音)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav",
+        "fx_heartbeat_slow.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK5.01#1",
+          "text": "曖昧な違和感を自己合理化してはならない",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#2",
+          "text": "初期の兆候：侵入されるプライベート境界線",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#4",
+          "text": "犯罪は些細な境界線の侵犯から始まる",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#7",
+          "text": "自らの直感を常に信じること",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK5.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_red_flags",
+          "motion": "still",
+          "text": "もし何か曖昧な違和感を覚えたなら、プライベートな境界線がわずかでも侵されたと感じたなら、決して見過ごしてはなりません。",
+          "characters_spoken": 59,
+          "est_dur_s": 9.2,
+          "src_script": "5.08#4"
+        },
+        {
+          "clip_line_id": "TK5.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "tk02_town_snow",
+          "motion": "pull",
+          "text": "本件において、真相発覚前のTweedの町は、息が詰まるような得体の知れない不安に覆われていました。",
+          "characters_spoken": 49,
+          "est_dur_s": 8.33,
+          "src_script": "4.06#1"
+        },
+        {
+          "clip_line_id": "TK5.01#3",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.7,
+          "bg": "tk02_cottage_search",
+          "motion": "push",
+          "text": "私物が動かされ、ドアにこじ開け痕があったのに金品は無事でした。私たちは神経過敏だと思い込んでいたのです。",
+          "characters_spoken": 52,
+          "est_dur_s": 7.68,
+          "src_script": "4.06#2 · 4.06#3"
+        },
+        {
+          "clip_line_id": "TK5.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "tk02_escalation_stairs",
+          "motion": "pan",
+          "text": "犯罪は殺人から始まるのではありません。覗き見、私物の物色、処罰されない侵入といった些細な境界線の侵犯から始まります。",
+          "characters_spoken": 58,
+          "est_dur_s": 9.04,
+          "src_script": "5.07#5 · 5.07#6"
+        },
+        {
+          "clip_line_id": "TK5.01#5",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_oath_hall",
+          "motion": "pull",
+          "text": "地位や学歴、煌びやかな階級章など社会的な上着に過ぎず、魂の善良さを保証する盾にはなりません。",
+          "characters_spoken": 46,
+          "est_dur_s": 8.06,
+          "src_script": "5.07#4"
+        },
+        {
+          "clip_line_id": "TK5.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.5,
+          "bg": "tk02_escalation_stairs",
+          "motion": "pan",
+          "text": "自己愛の傲慢さは、必ずどこかに痕跡を残します。",
+          "characters_spoken": 23,
+          "est_dur_s": 3.91,
+          "src_script": "5.08#2"
+        },
+        {
+          "clip_line_id": "TK5.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "tk02_red_flags",
+          "motion": "still",
+          "text": "自らの直感を常に信じてください。生存の直感とは、私たちの命を守るために備わった内なる早期警戒レーダーです。",
+          "characters_spoken": 53,
+          "est_dur_s": 9.01,
+          "src_script": "5.08#3 · 5.08#5"
+        },
+        {
+          "clip_line_id": "TK5.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "tk02_podcast_desk",
+          "motion": "still",
+          "text": "Amber Eyes 第2話。完全版はプロフィールのリンクから。",
+          "characters_spoken": 30,
+          "est_dur_s": 4.68,
+          "src_script": "CTA"
+        }
+      ]
+    }
+  }
+}

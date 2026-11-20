@@ -263,7 +263,7 @@ CLIPS = [
    "Đó không phải sự ăn năn hối cải chân chính, mà là sự thương hại bản thân tột độ khi tấm mặt nạ danh dự xây suốt hai mươi lăm năm vỡ vụn.",
    "4.11#8 · 4.11#9"),
   ("H","neutral",-0.02,0.6,"tk02_courtroom","still",
-   "Ngày 18 tháng 10 năm 2010, hắn nhận tội trước toàn bộ 88 cáo buộc.",
+   "Ngày 18 tháng 10 năm 2010, hắn nhận tội trước tòan bộ 88 cáo buộc.",
    "5.02#1 · 5.02#3"),
   ("H","neutral",-0.02,0.8,"tk02_gavel","push",
    "Ba ngày sau, thẩm phán tuyên hai mức tù chung thân chạy song song cho hai tội danh nghiêm trọng nhất, cộng thêm các mức tù khác. Mức án chung thân với hai mươi lăm năm không được xét ân xá.",
@@ -525,16 +525,23 @@ HASHTAGS = {
  "TK5": ["#AmberEyes", "#TamLyToiPham", "#HosoCoThat", "#TrucGiac", "#CanhGiuAnToan", "#TrueCrime", "#MoiTuanMotTap"],
 }
 
+# Dong nhan AIGC — luật T3 ke hoach me: PHẢI ghi nhan trong CAPTION (khong
+# chi trong phan "ghi chu khi dang"), truong hop nguoi dung quen them khi dan.
+DONG_AIGC = "Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự."
+
+
 def build_caption(c):
     cid = c["id"]
     return "\n".join([
         CAPTION_HOOK[cid],
         "",
         CAPTION_SUB[cid],
-        "Hồ sơ có thật, dữ kiện có nguồn.",
+        "Hồ sơ có thật, dữ liệu có nguồn.",
         "",
-        f"📺 Xem tập đầy đủ ở link trong bio",
+        f"📺 Xem tập đầy đủ (25 phút) trên YouTube — link trong bio",
         CAPTION_KEY[cid],
+        "",
+        DONG_AIGC,
         "",
         " ".join(HASHTAGS[cid]),
     ])
@@ -542,7 +549,7 @@ def build_caption(c):
 MO_TA_DAI = {
  "TK1": """Bốn nấc thang. Tám mươi hai vụ trộm. Rồi một vụ án mạng. 👁️
 
-Tập 02 · Đại tá hai mặt — chỉ dấu #8: quỹ đạo leo thang hành vi.
+Tập 02 · Đại tá hai mặt — Chỉ dấu #8: quỹ đạo leo thang hành vi.
 Hồ sơ có thật, dữ liệu có nguồn.
 
 📺 Xem tập đầy đủ (25 phút) trên YouTube — link trong bio
@@ -555,25 +562,25 @@ Không ai bắt đầu bằng một vụ án mạng. Bản thân điều đó đ
 
 Hồ sơ này tái dựng được bốn nấc thang, mỗi nấc là một bước lấn ranh giới rất nhỏ, không bị trừng phạt, và không bị ai chặn lại:
 • NẤC 1 — NHÌN TRỘM BAN ĐÊM: đứng ngoài bóng tối để rình rập phụ nữ qua khung cửa sổ.
-• NẤC 2 — ĐỘT NHẬP LẤY ĐỒ RIÊNG TƯ: từ tháng 9/2007 đến tháng 11/2009, tổng cộng 82 vụ đột nhập và đột nhập bất thành. Hắn không lấy tiền bạc, không lấy trang sức quý giá. Nghi thức lặp lại y hệt ở mọi căn nhà: chụp ảnh, lấy đồ, rồi ghi chép lại tỉ mỉ.
+• NẤC 2 — ĐỘT NHẬP LẤY ĐỒ RIÊNG TƯ: từ tháng 9/2007 đến tháng 11/2009, tổng cộng 82 vụ trộm đồ riêng tư. Hắn không lấy tiền bạc, không lấy trang sức quý giá. Nghi thức lặp lại y hệt ở mọi căn nhà: chụp ảnh, lấy đồ, rồi ghi chép lại tỉ mỉ.
 • NẤC 3 — XÂM NHẬP KHI CÓ NGƯỜI Ở NHÀ: tháng 9/2009.
 • NẤC 4 — ĐOẠT MẠNG NẠN NHÂN: cuối tháng 11/2009, nạn nhân là nữ hạ sĩ Marie-France Comeau, 37 tuổi, phục vụ ngay trong căn cứ quân sự mà hắn chỉ huy. Chỉ hai tháng sau đó là Jessica Lloyd.
 
-Cơ chế dung nạp kích thích của não bộ con người giải thích vì sao các nấc thang không dừng lại: khi hành vi cũ trở nên quen thuộc, hắn rơi vào trạng thái “đói ảo tưởng”, buộc phải tăng liều lượng rủi ro để tìm lại khoái cảm ban đầu.
+Cơ chế bão hoà kích thích của não bộ con người giải thích vì sao các nấc thang không dừng lại: khi hành vi cũ trở nên quen thuộc, hắn rơi vào trạng thái "đói ảo tưởng", buộc phải tăng liều lượng rủi ro để tìm lại khoái cảm ban đầu.
 
 Và ngòi nổ tâm lý nằm đúng chỗ đáng lẽ phải chặn hắn lại: tháng 7/2009, khi hắn được thăng cấp chỉ huy trưởng căn cứ không quân Trenton.
 
 ——————
 BỐI CẢNH HỒ SƠ
 ——————
-Căn cứ không quân Trenton — Ontario, Canada — căn cứ không quân chiến lược lớn nhất của quân đội Canada, và nơi đón linh cữu các liệt sĩ Canada từ chiến trường Afghanistan về dọc “Con lộ Anh hùng”. Chỉ huy trưởng nơi đó tháng 7/2009 là Đại tá David Russell Williams: 46 tuổi, từng lái chuyên cơ đưa đón Nữ hoàng Anh Elizabeth II, Hoàng thân Philip và các Thủ tướng Canada.
+Căn cứ không quân Trenton — Ontario, Canada — căn cứ không quân chiến lược lớn nhất của quân đội Canada, và nơi đón linh cữu các liệt sĩ Canada từ chiến trường Afghanistan về dọc "Con lộ Anh hùng". Chỉ huy trưởng nơi đó tháng 7/2009 là Đại tá David Russell Williams: 46 tuổi, từng lái chuyên cơ đưa đón Nữ hoàng Anh Elizabeth II, Hoàng thân Philip và các Thủ tướng Canada.
 
 ——————
 NGUỒN THAM KHẢO
 ——————
 • Bản án Tòa Thượng thẩm Ontario — R. v. Williams, 2010 ONSC 5946 (bản án 21/10/2010, thẩm phán Robert Scott)
 • Báo cáo điều tra Cảnh sát OPP + Belleville Police Service
-• Biên bản thẩm vấn ngày 07/02/2010 · lời khai của Thám tử Jim Smyth trước toà
+• Biên bản thẩm vấn ngày 07/02/2010 · lời khai của Thám tử Jim Smyth trước tòa
 • Bản tin The Globe and Mail · Toronto Star · CTV News
 • Kịch bản tập: 01_KICH_BAN/Tap02/kichban_tap02_22102026.md · đối chiếu: 02_SAN_XUAT/Tap02/nguon_tham_khao.md
 
@@ -583,7 +590,7 @@ LƯU Ý
 • Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự.
 • Nội dung không phù hợp cho trẻ em.
 • Mang tính giáo dục, phân tích tâm lý tội phạm; không thay thế tư vấn y khoa hay pháp lý.
-• Dựa trên tư liệu công khai (hồ sơ toà án, báo chí điều tra). Kênh không nhằm kết tội, bôi nhọ hay cổ suý bất kỳ cá nhân nào.
+• Dựa trên tư liệu công khai (hồ sơ tòa án, báo chí điều tra). Kênh không nhằm kết tội, bôi nhọ hay cổ suý bất kỳ cá nhân nào.
 • Nhân vật Cú, Sói, Cáo là linh thú minh hoạ; lời thoại phục dựng dựa trên tư liệu điều tra.
 • Hồ sơ có thật, dữ liệu có nguồn.
 
@@ -591,8 +598,8 @@ LƯU Ý
 
  "TK2": """Vân lốp xe trùng khớp. Cảnh sát vẫn kính cẩn chào. 👁️
 
-Tập 02 · Đại tá hai mặt — chỉ dấu #9: hiệu ứng hào quang.
-Hồ sơ có thật, dữ kiện có nguồn.
+Tập 02 · Đại tá hai mặt — Chỉ dấu #9: hiệu ứng hào quang.
+Hồ sơ có thật, dữ liệu có nguồn.
 
 📺 Xem tập đầy đủ (25 phút) trên YouTube — link trong bio
 🔎 Chỉ dấu tâm lý · hiệu ứng hào quang · hồ sơ có thật
@@ -604,7 +611,7 @@ CHỈ DẤU #9: HIỆU ỨNG HÀO QUANG
 
 Một tuần sau đó, vào tối ngày 4 tháng 2, cảnh sát lập một trạm kiểm soát lưu động kéo dài suốt đêm trên con đường gần nhà nạn nhân. Mục tiêu duy nhất của trạm: săn một dấu vết — vệt vân lốp xe địa hình hiếm gặp in hằn trên nền tuyết.
 
-Trong dòng xe đi qua trạm đêm hôm đó có một chiếc Nissan Pathfinder. Chủ xe lái chiếc Pathfinder thay vì chiếc BMW ông ta vẫn thường đi. Người ngồi sau vô-lăng hạ cửa kính xuống — chính là chỉ huy trưởng căn cứ không quân Trenton.
+Trong dòng xe đi qua trạm đêm hôm đó có một chiếc Nissan Pathfinder. Chủ xe lái chiếc Pathfinder thay vì chiếc BMW mà ông ta vẫn thường đi. Người ngồi sau vô-lăng hạ cửa kính xuống — chính là chỉ huy trưởng căn cứ không quân Trenton.
 
 Vân lốp xe của ông ta trông rất giống dấu vết trên tuyết. Nhưng trước một sĩ quan cấp cao đĩnh đạc, các sĩ quan tuần tra không thể giữ ông ta lại. Họ chỉ ghi nhận thông tin rồi kính cẩn chào cho đi. Và trong ba ngày tiếp theo, ông ta vẫn là một vị đại tá tự do.
 
@@ -613,14 +620,14 @@ Vân lốp xe của ông ta trông rất giống dấu vết trên tuyết. Như
 ——————
 BỐI CẢNH HỒ SƠ
 ——————
-Căn cứ không quân Trenton — Ontario, Canada — nơi đón linh cữu các liệt sĩ Canada từ chiến trường Afghanistan về dọc “Con lộ Anh hùng”. Chỉ huy trưởng nơi đó là Đại tá David Russell Williams — người từng lái chuyên cơ đưa đón Nữ hoàng Anh Elizabeth II, Hoàng thân Philip và các Thủ tướng Canada.
+Căn cứ không quân Trenton — Ontario, Canada — nơi đón linh cữu các liệt sĩ Canada từ chiến trường Afghanistan về dọc "Con lộ Anh hùng". Chỉ huy trưởng nơi đó là Đại tá David Russell Williams — người từng lái chuyên cơ đưa đón Nữ hoàng Anh Elizabeth II, Hoàng thân Philip và các Thủ tướng Canada.
 
 ——————
 NGUỒN THAM KHẢO
 ——————
 • Bản án Tòa Thượng thẩm Ontario — R. v. Williams, 2010 ONSC 5946
 • Báo cáo điều tra Cảnh sát OPP + Belleville Police Service (trạm kiểm soát Đường số 2)
-• Biên bản thẩm vấn ngày 07/02/2010 · lời khai của Thám tử Jim Smyth trước toà
+• Biên bản thẩm vấn ngày 07/02/2010 · lời khai của Thám tử Jim Smyth trước tòa
 • Hồ sơ quân bạ Bộ Quốc phòng Canada · The Globe and Mail
 • Kịch bản tập: 01_KICH_BAN/Tap02/kichban_tap02_22102026.md · đối chiếu: 02_SAN_XUAT/Tap02/nguon_tham_khao.md
 
@@ -630,7 +637,7 @@ LƯU Ý
 • Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự.
 • Nội dung không phù hợp cho trẻ em.
 • Mang tính giáo dục, phân tích tâm lý tội phạm; không thay thế tư vấn y khoa hay pháp lý.
-• Dựa trên tư liệu công khai (hồ sơ toà án, báo chí điều tra). Kênh không nhằm kết tội, bôi nhọ hay cổ suý bất kỳ cá nhân nào.
+• Dựa trên tư liệu công khai (hồ sơ tòa án, báo chí điều tra). Kênh không nhằm kết tội, bôi nhọ hay cổ suý bất kỳ cá nhân nào.
 • Nhân vật Cú, Sói, Cáo là linh thú minh hoạ; lời thoại phục dựng dựa trên tư liệu điều tra.
 • Hồ sơ có thật, dữ liệu có nguồn.
 
@@ -638,8 +645,8 @@ LƯU Ý
 
  "TK3": """Hai cuộc đời. Một cơ thể. Một câu chuyện để tự bào chữa. 👁️
 
-Tập 02 · Đại tá hai mặt — chỉ dấu #5: hệ thống tự bào chữa.
-Hồ sơ có thật, dữ kiện có nguồn.
+Tập 02 · Đại tá hai mặt — Chỉ dấu #5: hệ thống tự bào chữa.
+Hồ sơ có thật, dữ liệu có nguồn.
 
 📺 Xem tập đầy đủ (25 phút) trên YouTube — link trong bio
 🔎 Chỉ dấu tâm lý · phân mảnh tâm trí · hồ sơ có thật
@@ -652,11 +659,11 @@ Trước khi phân tích, một điều phải nói rõ: không tồn tại mộ
 Trong tâm lý học, phân mảnh tâm trí (compartmentalization) là cơ chế phòng vệ cho phép bộ não khóa chặt hai luồng nhận thức và cảm xúc trái ngược nhau vào hai ngăn kéo hoàn toàn biệt lập. Ở đây, hắn dường như đã xây dựng hai con người tách biệt bên trong cùng một thể xác:
 • NGĂN KÉO 1 — ĐẠI TÁ: người chỉ huy mẫu mực, người chồng chu đáo chăm sóc vườn tược, sống vì chuẩn mực đạo đức và lý tưởng quân đội.
 • NGĂN KÉO 2 — KẺ SĂN MỒI BÓNG ĐÊM: nơi hắn giải phóng những xung lực tàn bạo nhất.
-Khi ở ngăn kéo này, hắn đóng chặt cánh cửa của ngăn kéo kia — rồi dùng chính người vợ và cuộc hôn nhân chuẩn mực làm “lá chắn bình thường hóa”.
+Khi ở ngăn kéo này, hắn đóng chặt cánh cửa của ngăn kéo kia — rồi dùng chính người vợ và cuộc hôn nhân chuẩn mực làm "lá chắn bình thường hóa".
 
-Để lương tri không lên tiếng, hắn áp dụng triệt để kỹ thuật trung hòa đạo đức (neutralization). Trong 82 vụ trộm đầu tiên, hắn tự nhủ: “mình chỉ nhìn, mình không làm hại ai, mình chỉ giữ một món kỷ niệm”. Đến khi xảy ra án mạng, hắn lại tự biện minh rằng nạn nhân đã thấy mặt mình, cô ta ép mình phải ra tay để tự vệ.
+Để lương tri không lên tiếng, hắn áp dụng triệt để kỹ thuật trung hòa đạo đức (neutralization). Trong 82 vụ trộm đầu tiên, hắn tự nhủ: "mình chỉ nhìn, mình không làm hại ai, mình chỉ giữ một món kỷ niệm". Đến khi xảy ra án mạng, hắn lại tự biện minh rằng nạn nhân đã thấy mặt mình, cô ta ép mình phải ra tay để tự vệ.
 
-Và chính vì vậy, cuối cùng hắn không thể tự giải thích một cách có lương tri. Khi thám tử hỏi hắn đã từng nghĩ vì sao mình làm những việc đó chưa, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người: “Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng.”
+Và chính vì vậy, cuối cùng hắn không thể tự giải thích một cách có lương tri. Khi thám tử hỏi hắn có bao giờ tự hỏi vì sao mình làm những việc đó, câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người: "Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng."
 
 ——————
 BỐI CẢNH HỒ SƠ
@@ -668,8 +675,8 @@ NGUỒN THAM KHẢO
 ——————
 • Toàn văn băng ghi âm và ghi hình thẩm vấn của Cảnh sát OPP ngày 07/02/2010
 • Bản án Tòa Thượng thẩm Ontario — R. v. Williams, 2010 ONSC 5946
-• Phim tài liệu CBC “The Detective and the Colonel”
-• Christie Blatchford, “Unmasking Freedom”
+• Phim tài liệu CBC "The Detective and the Colonel"
+• Christie Blatchford, "Unmasking Freedom"
 • Kịch bản tập: 01_KICH_BAN/Tap02/kichban_tap02_22102026.md · đối chiếu: 02_SAN_XUAT/Tap02/nguon_tham_khao.md
 
 ——————
@@ -678,7 +685,7 @@ LƯU Ý
 • Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự.
 • Nội dung không phù hợp cho trẻ em.
 • Mang tính giáo dục, phân tích tâm lý tội phạm; không thay thế tư vấn y khoa hay pháp lý.
-• Dựa trên tư liệu công khai (hồ sơ toà án, báo chí điều tra). Kênh không nhằm kết tội, bôi nhọ hay cổ suý bất kỳ cá nhân nào.
+• Dựa trên tư liệu công khai (hồ sơ tòa án, báo chí điều tra). Kênh không nhằm kết tội, bôi nhọ hay cổ suý bất kỳ cá nhân nào.
 • Nhân vật Cú, Sói, Cáo là linh thú minh hoạ; lời thoại phục dựng dựa trên tư liệu điều tra.
 • Hồ sơ có thật, dữ liệu có nguồn.
 
@@ -686,8 +693,8 @@ LƯU Ý
 
  "TK4": """Không một lời xin lỗi nào nhắc tới nạn nhân. 👁️
 
-Tập 02 · Đại tá hai mặt — chỉ dấu #4: sụp đổ cái tôi ái kỷ.
-Hồ sơ có thật, dữ kiện có nguồn.
+Tập 02 · Đại tá hai mặt — Chỉ dấu #4: sụp đổ cái tôi ái kỷ.
+Hồ sơ có thật, dữ liệu có nguồn.
 
 📺 Xem tập đầy đủ (25 phút) trên YouTube — link trong bio
 🔎 Chỉ dấu tâm lý · sụp đổ cái tôi · hồ sơ có thật
@@ -702,19 +709,19 @@ Trong phòng thẩm vấn, những nỗi lo hắn thốt ra chỉ xoay quanh vi�
 ——————
 BẢN ÁN
 ——————
-• Tháng 10/2010, Tòa án Cấp cao Ontario xét xử tại thị trấn Belleville, thẩm phán Robert Scott.
-• Ngày 18/10: hắn nhận tội trước toàn bộ 88 cáo buộc.
+• Tháng 10/2010, Tòa Thượng thẩm Ontario xét xử tại thị trấn Belleville, thẩm phán Robert Scott.
+• Ngày 18/10: hắn nhận tội trước tòan bộ 88 cáo buộc.
 • Ngày 21/10: hai mức tù chung thân chạy song song cho hai tội danh nghiêm trọng nhất, cộng thêm các mức tù cho các tội danh khác, tất cả cùng chạy song song. Mức án chung thân với 25 năm không được xét ân xá — đúng mức tối thiểu mà luật hình sự Canada bắt buộc cho tội danh nghiêm trọng nhất.
 • Bản án lớn nhất với một kẻ ái kỷ như hắn là sự sụp đổ hoàn toàn về danh dự và quyền lực: toàn quyền Canada thu hồi quân hàm, huân chương bị cắt thành từng mảnh, tiểu sử bị gỡ khỏi trang web Bộ Quốc phòng ngay sau khi hắn bị bắt.
 • Quân đội Canada đốt toàn bộ quân phục và trang phục mang tên hắn tại một lò tiêu hủy tài liệu mật ở căn cứ Trenton — việc chưa từng có tiền lệ. Theo người phát ngôn quân đội Hubert Genest: không có nghi lễ chính thức nào, cũng không có ảnh chụp.
 • Chiếc xe từng lăn bánh qua trạm kiểm soát bị máy ép nát vụn, và hàng trăm món đồ hắn lấy trộm bị đem thiêu hủy hoàn toàn.
 
-Về mặt tâm lý, đó là biểu hiện kinh điển của sự sụp đổ cái tôi ái kỷ: khi không còn quyền kiểm soát và không chịu nổi sự nhục nhã trần trụi, kẻ săn mồi chỉ còn lại sự tự thương hại bản thân thảm hại.
+Về mặt tâm lý, đó là biểu hiện kinh điển của sự sụp đổ cái tôi ái kỷ: khi không còn quyền kiểm soát và không chịu nổi sự nhục nhã trần trụi, kẻ săn mồi chỉ còn lại sự thương hại bản thân tột độ.
 
 ——————
 NGUỒN THAM KHẢO
 ——————
-• Phán quyết ngày 21/10/2010 của Thẩm phán Robert F. Scott, Tòa Thượng thẩm Belleville
+• Phán quyết ngày 21/10/2010 của Thẩm phán Robert F. Scott, Tòa Thượng thẩm Ontario (phiên xử tại Belleville)
 • Thông cáo Bộ Quốc phòng Canada (thu hồi quân hàm, hủy bỏ sắc lệnh, đốt quân phục)
 • Bản án Tòa Thượng thẩm Ontario — R. v. Williams, 2010 ONSC 5946
 • Biên bản thẩm vấn ngày 07/02/2010 (Cảnh sát OPP)
@@ -726,7 +733,7 @@ LƯU Ý
 • Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự.
 • Nội dung không phù hợp cho trẻ em.
 • Mang tính giáo dục, phân tích tâm lý tội phạm; không thay thế tư vấn y khoa hay pháp lý.
-• Dựa trên tư liệu công khai (hồ sơ toà án, báo chí điều tra). Kênh không nhằm kết tội, bôi nhọ hay cổ suý bất kỳ cá nhân nào.
+• Dựa trên tư liệu công khai (hồ sơ tòa án, báo chí điều tra). Kênh không nhằm kết tội, bôi nhọ hay cổ suý bất kỳ cá nhân nào.
 • Nhân vật Cú, Sói, Cáo là linh thú minh hoạ; lời thoại phục dựng dựa trên tư liệu điều tra.
 • Hồ sơ có thật, dữ liệu có nguồn.
 
@@ -734,8 +741,8 @@ LƯU Ý
 
  "TK5": """Nếu bạn cảm thấy bất an, đừng hợp lý hóa nó. 👁️
 
-Tập 02 · Đại tá hai mặt — chỉ dấu #10: bài học sinh tồn.
-Hồ sơ có thật, dữ kiện có nguồn.
+Tập 02 · Đại tá hai mặt — Chỉ dấu #10: bài học sinh tồn.
+Hồ sơ có thật, dữ liệu có nguồn.
 
 📺 Xem tập đầy đủ (25 phút) trên YouTube — link trong bio
 🔎 Chỉ dấu tâm lý · trực giác sinh tồn · hồ sơ có thật
@@ -759,7 +766,7 @@ NGUỒN THAM KHẢO
 • Bản án Tòa Thượng thẩm Ontario — R. v. Williams, 2010 ONSC 5946
 • Báo cáo điều tra Cảnh sát OPP + Belleville Police Service
 • Biên bản thẩm vấn ngày 07/02/2010 (Cảnh sát OPP)
-• Nguyên lý “The Gift of Fear” ( Gavin de Becker) — nguồn khung lý thuyết được trích trong kịch bản tập
+• Sách "The Gift of Fear" (Gavin de Becker) — nguồn cho khung lý thuyết trong kịch bản tập
 • Kịch bản tập: 01_KICH_BAN/Tap02/kichban_tap02_22102026.md · đối chiếu: 02_SAN_XUAT/Tap02/nguon_tham_khao.md
 
 ——————
@@ -768,12 +775,126 @@ LƯU Ý
 • Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự.
 • Nội dung không phù hợp cho trẻ em.
 • Mang tính giáo dục, phân tích tâm lý tội phạm; không thay thế tư vấn y khoa hay pháp lý.
-• Dựa trên tư liệu công khai (hồ sơ toà án, báo chí điều tra). Kênh không nhằm kết tội, bôi nhọ hay cổ suý bất kỳ cá nhân nào.
+• Dựa trên tư liệu công khai (hồ sơ tòa án, báo chí điều tra). Kênh không nhằm kết tội, bôi nhọ hay cổ suý bất kỳ cá nhân nào.
 • Nhân vật Cú, Sói, Cáo là linh thú minh hoạ; lời thoại phục dựng dựa trên tư liệu điều tra.
 • Hồ sơ có thật, dữ liệu có nguồn.
 
 #AmberEyes #TamLyToiPham #HosoCoThat #TrucGiac #CanhGiuAnToan #TrueCrime #MoiTuanMotTap""",
 }
+
+# ----------------------------------------------------------------------------
+# 4b. MÔ TẢ NGẮN (ô Description ngắn của TikTok Studio / bản rút gọn)
+#
+# CHUẨN THAM CHIẾU: 02_SAN_XUAT/TIKTOK/Tap01/MoTa_Dai_TK1.txt (bản của Tập 01
+# thực ra là MÔ TẢ NGẮN: 1.078–1.369 ký tự, 10 dòng). Cấu trúc bắt buộc:
+#   1. Hook (1 câu, có 👁️)
+#   2. Dòng "Tập N · tên tập — Chỉ dấu #X: <tên chỉ dấu>"
+#   3. Dòng trống
+#   4. Đoạn dẫn 1–3 câu (bối cảnh hồ sơ)
+#   5. Bullet "• ..." (2–3 ý, mỗi ý 1 dòng)
+#   6. Dòng trống
+#   7. "Bước ngoặt của hồ sơ này: ..." — câu chốt
+#   8. Dòng trống
+#   9. Câu hỏi kêu gọi bình luận "Theo bạn, ...? 👇"
+#  10. Dòng trống
+#  11. "📺 Xem trọn bộ hồ sơ phân tích đầy đủ (N phút, kèm nguồn tòa án & y khoa)
+#      tại YTB: Amber Eyes — bấm nút liên kết ngay đầu trang cá nhân."
+#  12. Dòng trống
+#  13. "🔎 Hồ sơ có thật, dữ liệu có nguồn. Nội dung dùng hình ảnh và giọng AI
+#      phục vụ phân tích tâm lý, mang tính giáo dục."
+#  14. Dòng trống
+#  15. Hashtag (5, chữ thường — khác bản dài vốn dùng CamelCase)
+#
+# RÚT GỌN TỪ MoTa_DAI: chỉ giữ lại dữ kiện có trong kịch bản tập (L2).
+# ----------------------------------------------------------------------------
+
+MO_TA_NGAN = {
+ "TK1": """Bốn nấc thang. Tám mươi hai vụ trộm. Rồi một vụ án mạng. 👁️
+Tập 02 · Đại tá hai mặt — Chỉ dấu #8: quỹ đạo leo thang hành vi.
+
+Hồ sơ này tái dựng được bốn nấc thang, mỗi nấc là một bước lấn ranh giới rất nhỏ, không bị trừng phạt, và không bị ai chặn lại:
+• NẤC 1 — nhìn trộm ban đêm: đứng ngoài bóng tối để rình rập phụ nữ qua khung cửa sổ.
+• NẤC 2 — từ 9/2007 đến 11/2009, tổng cộng 82 vụ trộm đồ riêng tư. Không lấy tiền, không lấy trang sức quý giá. Nghi thức lặp lại y hệt ở mọi căn nhà: chụp ảnh, lấy đồ, rồi ghi chép lại tỉ mỉ.
+• NẤC 3 — xâm nhập khi có người ở nhà, tháng 9/2009.
+• NẤC 4 — đoạt mạng nạn nhân: cuối tháng 11/2009, nữ hạ sĩ Marie-France Comeau, 37 tuổi. Chỉ hai tháng sau đó là Jessica Lloyd.
+
+Bước ngoặt của hồ sơ này: khi hành vi cũ trở nên quen thuộc, cơ chế "đói ảo tưởng" buộc hắn phải tăng liều lượng rủi ro để tìm lại khoái cảm ban đầu. Và ngòi nổ tâm lý nằm đúng chỗ đáng lẽ phải chặn hắn lại — tháng 7/2009, hắn được thăng cấp chỉ huy trưởng căn cứ không quân Trenton.
+
+Theo bạn, ở nấc thang nào thì hành vi của một người còn có thể bị chặn lại? 👇
+
+📺 Xem trọn bộ hồ sơ phân tích đầy đủ (25 phút, kèm nguồn tòa án & y khoa) tại YTB: Amber Eyes — bấm nút liên kết ngay đầu trang cá nhân.
+
+🔎 Hồ sơ có thật, dữ liệu có nguồn. Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự. Không phù hợp cho trẻ em.
+
+#AmberEyes #TamLyToiPham #HosoCoThat #QuyDaoLeoThang #TrueCrime""",
+ "TK2": """Vân lốp xe trùng khớp. Cảnh sát vẫn kính cẩn chào. 👁️
+Tập 02 · Đại tá hai mặt — Chỉ dấu #9: hiệu ứng hào quang.
+
+Đêm 28/01/2010, Jessica Lloyd — nữ nhân viên 27 tuổi, sống một mình ở Belleville — biến mất khỏi nhà riêng. Một tuần sau đó, vào tối 4/2, cảnh sát lập một trạm kiểm soát lưu động kéo dài suốt đêm, săn một dấu vết duy nhất: vệt vân lốp xe địa hình hiếm gặp in hằn trên nền tuyết.
+• Trong dòng xe đi qua trạm có một chiếc Nissan Pathfinder — chủ xe lái chiếc Pathfinder thay vì chiếc BMW mà ông ta vẫn thường đi.
+• Vân lốp xe của ông ta rất giống dấu vết trên tuyết. Nhưng trước một sĩ quan cấp cao đĩnh đạc, các sĩ quan tuần tra không thể giữ ông ta lại — họ chỉ ghi nhận thông tin rồi kính cẩn chào cho đi.
+
+Bước ngoặt của hồ sơ này: đây là hiệu ứng hào quang — một tấm khiên vô hình khiến cả xã hội lẫn cơ quan thực thi pháp luật bị che mắt suốt nhiều năm ròng. Quân phục đại tá lộng lẫy, chiến công lái chuyên cơ cho Hoàng gia và Thủ tướng, tiếng tay quân đội từng đứng nghiêm chào — không một thứ nào là bằng chứng cho sự lương thiện của một tâm hồn.
+
+Theo bạn, vì sao một chiếc quân hàm lộng lẫy lại khiến cả cơ quan thực thi pháp luật không dám hỏi một câu? 👇
+
+📺 Xem trọn bộ hồ sơ phân tích đầy đủ (25 phút, kèm nguồn tòa án & y khoa) tại YTB: Amber Eyes — bấm nút liên kết ngay đầu trang cá nhân.
+
+🔎 Hồ sơ có thật, dữ liệu có nguồn. Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự. Không phù hợp cho trẻ em.
+
+#AmberEyes #TamLyToiPham #HosoCoThat #HieuUngHaoQuang #TrueCrime""",
+ "TK3": """Hai cuộc đời. Một cơ thể. Một câu chuyện để tự bào chữa. 👁️
+Tập 02 · Đại tá hai mặt — Chỉ dấu #5: hệ thống tự bào chữa.
+
+Trước khi phân tích, một điều phải nói rõ: không tồn tại một chẩn đoán lâm sàng công khai nào về Russell Williams. Các khung lý thuyết dưới đây là công cụ phân tích phổ biến trong tâm lý học tội phạm — chúng giúp ta đặt câu hỏi đúng, chứ không phải một sự phán xét đã được cơ quan chuyên môn xác nhận.
+• Phân mảnh tâm trí (compartmentalization): bộ não khóa hai luồng nhận thức trái ngược vào hai ngăn kéo hoàn toàn biệt lập — người chỉ huy mẫu mực và kẻ săn mồi bóng đêm.
+• Trung hòa đạo đức (neutralization): trong 82 vụ trộm đầu tiên, hắn tự nhủ "mình chỉ nhìn, mình không làm hại ai, mình chỉ giữ một món kỷ niệm". Đến khi xảy ra án mạng, hắn lại tự biện minh rằng nạn nhân đã thấy mặt mình, cô ta ép mình phải ra tay để tự vệ.
+
+Bước ngoặt của hồ sơ này: vì lương tri đã bị khóa trong ngăn kéo kia, hắn không thể tự giải thích một cách có lương tri. Câu trả lời trong bản ghi thẩm vấn trống rỗng đến lạnh người: "Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng."
+
+Theo bạn, ranh giới nào tách một lời giải thích có lương tri khỏi một hệ thống tự bào chữa? 👇
+
+📺 Xem trọn bộ hồ sơ phân tích đầy đủ (25 phút, kèm nguồn tòa án & y khoa) tại YTB: Amber Eyes — bấm nút liên kết ngay đầu trang cá nhân.
+
+🔎 Hồ sơ có thật, dữ liệu có nguồn. Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự. Không phù hợp cho trẻ em.
+
+#AmberEyes #TamLyToiPham #HosoCoThat #Compartmentalization #TrueCrime""",
+ "TK4": """Không một lời xin lỗi nào nhắc tới nạn nhân. 👁️
+Tập 02 · Đại tá hai mặt — Chỉ dấu #4: sụp đổ cái tôi ái kỷ.
+
+Khi chiếc ổ cứng bị tìm thấy, bức tường ngăn cách giữa hai ngăn kéo tâm trí vỡ vụn. Và câu hỏi quan trọng nhất mà bản án không trả lời được, là thái độ của hắn.
+• Trong phòng thẩm vấn, những nỗi lo hắn thốt ra chỉ xoay quanh việc người vợ nhìn nhận hắn ra sao, và sự sụp đổ danh tiếng của căn cứ quân sự. Hắn không hề nhắc đến nỗi đau đớn cùng cực của những người phụ nữ hay gia đình nạn nhân.
+• Tháng 10/2010, Tòa Thượng thẩm Ontario xét xử tại thị trấn Belleville, thẩm phán Robert Scott. Ngày 21/10, mức án chung thân 25 năm — đúng mức tối thiểu mà luật hình sự Canada bắt buộc cho tội danh nghiêm trọng nhất.
+• Bản án lớn nhất là sự sụp đổ hoàn toàn về danh dự và quyền lực: quân hàm bị toàn quyền Canada thu hồi, huân chương bị cắt thành từng mảnh, tiểu sử bị gỡ khỏi trang web Bộ Quốc phòng ngay sau khi hắn bị bắt.
+
+Bước ngoặt của hồ sơ này: đó không phải là sự ăn năn hối cải chân chính. Đó là sự thương hại bản thân tột độ khi nhận ra tấm mặt nạ danh dự hắn dày công xây dựng suốt hai mươi lăm năm đã vỡ vụn.
+
+Theo bạn, khi nào sự hối hận biến thành công cụ để tự bảo vệ? 👇
+
+📺 Xem trọn bộ hồ sơ phân tích đầy đủ (25 phút, kèm nguồn tòa án & y khoa) tại YTB: Amber Eyes — bấm nút liên kết ngay đầu trang cá nhân.
+
+🔎 Hồ sơ có thật, dữ liệu có nguồn. Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự. Không phù hợp cho trẻ em.
+
+#AmberEyes #TamLyToiPham #HosoCoThat #NarcissisticCollapse #TrueCrime""",
+ "TK5": """Nếu bạn cảm thấy bất an, đừng hợp lý hóa nó. 👁️
+Tập 02 · Đại tá hai mặt — Chỉ dấu #10: bài học sinh tồn.
+
+Trước khi sự thật vỡ lở, thị trấn Tweed sống trong một nỗi bất an mơ hồ. Đồ đạc riêng tư thỉnh thoảng bị xáo trộn, cửa nẻo có dấu cạy phá — nhưng không mất tiền bạc. Người dân tưởng mình đang hoang tưởng.
+• Dấu hiệu sớm nhất: ranh giới riêng tư bị xâm phạm lặp đi lặp lại, nhưng không đi kèm thiệt hại vật chất — nên rất dễ bị bỏ qua.
+• Tội ác không bao giờ bắt đầu từ một vụ án mạng. Nó luôn bắt đầu từ những bước lấn ranh giới rất nhỏ, không bị trừng phạt.
+• Địa vị, bằng cấp hay quân hàm lộng lẫy chỉ là lớp áo khoác xã hội, không phải tấm bảo chứng cho sự lương thiện của một tâm hồn.
+
+Bước ngoặt của hồ sơ này: nếu bạn cảm thấy một sự bất an mơ hồ, nếu ranh giới riêng tư của bạn bị xâm phạm dù chỉ nhỏ nhất, đừng hợp lý hóa hay coi thường nó. Trực giác sinh tồn chính là hệ thống cảnh báo sớm giúp bảo vệ mạng sống của chúng ta.
+
+Theo bạn, tín hiệu cảnh báo nào trong đời thường mà bạn thường bỏ qua nhất? 👇
+
+📺 Xem trọn bộ hồ sơ phân tích đầy đủ (25 phút, kèm nguồn tòa án & y khoa) tại YTB: Amber Eyes — bấm nút liên kết ngay đầu trang cá nhân.
+
+🔎 Hồ sơ có thật, dữ liệu có nguồn. Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự. Không phù hợp cho trẻ em.
+
+#AmberEyes #TamLyToiPham #HosoCoThat #TrucGiac #TrueCrime""",
+}
+
 
 # ----------------------------------------------------------------------------
 # 5. GHI FILE
@@ -788,7 +909,7 @@ def write_caption_files():
             "---",
             "Ghi chú khi đăng (KHÔNG dán vào caption):",
             '- BẬT toggle "Nội dung do AI tạo" (AI-generated content) — TikTok bắt buộc nhãn AIGC.',
-            '- Dòng bắt buộc kèm caption: "Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự."',
+            f"- Dòng nhãn AIGC ĐÃ nằm sẵn trong caption (dòng thứ {len(build_caption(c).splitlines()) - 2}): không cần thêm khi dán.",
             f"- Link YouTube Tập 02: {LINK_TAP02}  ← CHƯA CÓ, phải điền trước khi đăng.",
             "  · Dán vào ô \"Links / Website\" trong Edit profile (chỉ ô này click được).",
             "  · URL gõ tay trong caption/bio KHÔNG click được — chỉ để người xem tự chép.",
@@ -796,9 +917,11 @@ def write_caption_files():
             f"- File: clip{c['id'][-1]}_{cid}.mp4 (1080×1920, 30 fps, H.264+AAC).",
             f"- Ước lượng thời lượng: {c['uoc_luong_s']:.1f} s ({len(c['lines'])} câu) — số đo thật lấy sau khi sinh WAV.",
             f"- BẢN MÔ TẢ DÀI ({len(MO_TA_DAI[cid])} ký tự) dán vào ô Description của TikTok Studio: MoTa_Dai_{cid}.txt",
+            f"- BẢN MÔ TẢ NGẮN ({len(MO_TA_NGAN[cid])} ký tự) — bản rút gọn, dùng thay hoặc kèm bản dài: MoTa_Ngan_{cid}.txt",
         ])
         (OUT / f"Caption_{cid}.txt").write_text(cap + "\n" + note, encoding="utf-8")
         (OUT / f"MoTa_Dai_{cid}.txt").write_text(MO_TA_DAI[cid], encoding="utf-8")
+        (OUT / f"MoTa_Ngan_{cid}.txt").write_text(MO_TA_NGAN[cid], encoding="utf-8")
 
 # ----------------------------------------------------------------------------
 # 6. BẢN KẾ HOẠCH MARKDOWN
@@ -1062,7 +1185,22 @@ def write_markdown():
         A("")
     A("> **Bắt buộc kèm theo mỗi caption:** dòng *\"Nội dung do AI tạo hình và giọng, dùng để phân tích tâm lý — không phải phóng sự.\"* + bật toggle **\"AI-generated content\"** khi đăng (TikTok bắt buộc ghi nhãn AIGC).")
     A("> Bản mô tả dài cho ô Description của TikTok Studio: `MoTa_Dai_TK*.txt` (mục 13).")
+    A("> Bản mô tả **ngắn** (rút gọn, theo chuẩn Tập 01): `MoTa_Ngan_TK*.txt` (mục 8b).")
     A("")
+    A("---")
+    A("")
+    A("## 8b. Mô tả ngắn (bản rút gọn, theo chuẩn `Tap01/MoTa_Dai_TK1.txt`)")
+    A("")
+    A("> Bản mô tả ngắn dùng khi: TikTok Studio hiển thị phần đầu mô tả dài bị cắt, hoặc đăng lại clip ở nơi khác cần bản gọn. Bản dài vẫn là bản chính để dán vào ô Description.")
+    A("")
+    for c in CLIPS:
+        cid = c["id"]
+        A(f"**{cid} — MoTa_Ngan_{cid}.txt** ({len(MO_TA_NGAN[cid])} ký tự)")
+        A("")
+        A("```")
+        A(MO_TA_NGAN[cid])
+        A("```")
+        A("")
     A("---")
     A("")
     A("## 9. Hợp đồng giữa phần audio và phần dựng video")
@@ -1174,7 +1312,9 @@ def self_qc():
                 hits.append(f"{c['id']} caption:{w}")
             if re.search(r"\b" + re.escape(w) + r"\b", MO_TA_DAI[c["id"]].lower()):
                 hits.append(f"{c['id']} mota:{w}")
-    rows.append(("1", "Từ cấm V9/A9.2 trong lời đọc + caption + mô tả dài",
+            if re.search(r"\b" + re.escape(w) + r"\b", MO_TA_NGAN[c["id"]].lower()):
+                hits.append(f"{c['id']} mota ngan:{w}")
+    rows.append(("1", "Từ cấm V9/A9.2 trong lời đọc + caption + mô tả dài + mô tả ngắn",
                  ("✅ 0 lỗi" if not hits else "❌ " + ", ".join(hits))))
     ok = ok and not hits
 
@@ -1249,6 +1389,20 @@ def self_qc():
                  ("✅ 5/5 đạt" if not bad else "❌ " + ", ".join(bad))))
     ok = ok and not bad
 
+    # 7b. nhãn AIGC phải nằm TRONG thân caption (luật T3 kế hoạch mẹ)
+    bad = []
+    for c in CLIPS:
+        cap = build_caption(c)
+        if DONG_AIGC not in cap:
+            bad.append(f"{c['id']} thiếu dòng nhãn AIGC")
+        # phần dán = trước dấu "---"; nhãn phải nằm trong phần này
+        phan_dan = cap.split("\n---")[0]
+        if DONG_AIGC not in phan_dan:
+            bad.append(f"{c['id']} nhãn AIGC nằm ngoài phần dán")
+    rows.append(("7b", "Dòng nhãn AIGC nằm trong thân caption (luật T3)",
+                 ("✅ 5/5 đạt" if not bad else "❌ " + ", ".join(bad))))
+    ok = ok and not bad
+
     # 8. độ dài clip trong cổng
     bad = [f"{c['id']} ({c['uoc_luong_s']:.1f} s)" for c in CLIPS
            if not (45 <= c["uoc_luong_s"] <= 95)]
@@ -1302,6 +1456,63 @@ def self_qc():
                  "✅ không thể lệch — chung generator"))
     rows.append(("14", "L3 — thời lượng có số đo thật làm cơ sở (timeline Tập 02 đo bằng ASR)",
                  "✅ tỉ lệ đọc đo trên 203 câu thật · LOO MAE 11,0 %/câu · mô phỏng clip MAE 3,7 %"))
+
+    # 15. mô tả ngắn — cấu trúc chuẩn Tập 01 + ký tự + dòng bắt buộc
+    bad = []
+    for c in CLIPS:
+        cid = c["id"]
+        m = MO_TA_NGAN[cid]
+        hook1 = c["lines"][0][6].strip()
+        # Dong dau mo ta = HOOK: hoac clip["hook"] (chu tren hinh) hoac loi doc cau 1.
+        # TikTok chi hien ~100 ky tu dau => dong dau la dong quyet dinh.
+        d1 = m.splitlines()[0].strip().rstrip("👁️").strip()
+        if d1 not in (c["hook"].strip(), hook1):
+            bad.append(f"{cid} dong 1 '{d1[:38]}' khong phai hook")
+        # 2 ban (ngắn + dài) phải cùng dong dau
+        if m.splitlines()[0].strip() != MO_TA_DAI[cid].splitlines()[0].strip():
+            bad.append(f"{cid} dong 1 lệch giữa bản ngắn và bản dài")
+        if not (900 <= len(m) <= 1600):
+            bad.append(f"{cid} dài {len(m)} (cần 900–1.600)")
+        if "Tập 02 · Đại tá hai mặt — Chỉ dấu #" not in m:
+            bad.append(f"{cid} thiếu dòng tập/chỉ dấu")
+        if "Bước ngoặt của hồ sơ này:" not in m:
+            bad.append(f"{cid} thiếu dòng 'Bước ngoặt'")
+        if "Theo bạn," not in m or "👇" not in m:
+            bad.append(f"{cid} thiếu câu hỏi 👇")
+        if "📺 Xem trọn bộ hồ sơ phân tích đầy đủ (25 phút" not in m:
+            bad.append(f"{cid} thiếu dòng Xem trọn bộ (25 phút)")
+        if "🔎 Hồ sơ có thật, dữ liệu có nguồn." not in m:
+            bad.append(f"{cid} thiếu dòng 🔎")
+        tags = [t for t in re.findall(r"#\w+", m) if not re.fullmatch(r"#\d+", t)]
+        if not (5 <= len(tags) <= 8):
+            bad.append(f"{cid} {len(tags)} hashtag (cần 5–8)")
+        for req in ("#AmberEyes", "#HosoCoThat"):
+            if req not in tags:
+                bad.append(f"{cid} thiếu {req}")
+        # T31: so sanh KHONG phan biet hoa thuong - "Không phù hợp cho trẻ em" (dau dong)
+        # va "không phù hợp cho trẻ em" (giua cau) deu la canh bao hop le.
+        if "không phù hợp cho trẻ em" not in m.lower():
+            bad.append(f"{cid} thiếu cảnh báo trẻ em")
+        # T34: so SỐ MỤC liệt kê với số từ định lượng trong câu dẫn.
+        # "bốn nấc thang" nhung chi liet ke 3 bullet => nguoi doc dem se thay thieu.
+        n_bullet = m.count("\n• ")
+        for tu, so in (("bốn nấc", 4), ("ba nấc", 3), ("năm nấc", 5)):
+            if tu in m.lower() and n_bullet < so:
+                bad.append(f"{cid} nói '{tu}' nhung chỉ liet ke {n_bullet} bullet")
+    rows.append(("15", "Mô tả ngắn — dòng 1 = hook (chữ trên hình / lời đọc câu 1), khớp bản dài, 900–1.600 ký tự",
+                 ("✅ 5/5 đạt" if not bad else "❌ " + ", ".join(bad))))
+    ok = ok and not bad
+
+    # 16. mô tả dài — dòng đầu cũng phải là hook
+    bad = []
+    for c in CLIPS:
+        hook1 = c["lines"][0][6].strip()
+        d1 = MO_TA_DAI[c["id"]].splitlines()[0].strip().rstrip("👁️").strip()
+        if d1 not in (c["hook"].strip(), hook1):
+            bad.append(f"{c['id']} dong 1 khong phai hook")
+    rows.append(("16", "Mô tả dài — dòng đầu = hook (chữ trên hình / lời đọc câu 1)",
+                 ("✅ 5/5 đạt" if not bad else "❌ " + ", ".join(bad))))
+    ok = ok and not bad
     return rows, ok
 
 def vi_number_words(v):

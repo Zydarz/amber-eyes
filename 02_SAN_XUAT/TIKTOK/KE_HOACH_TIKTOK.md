@@ -457,7 +457,302 @@ Bảng theo dõi `02_SAN_XUAT/TIKTOK/BangTheoDoi_TikTok.csv`:
 | 1 | Duyệt văn bản lời dẫn `KE_HOACH_CLIP_TAP02.md` **trước khi đọc giọng** (L4) | Người dùng |
 | 2 | **Điền link YouTube Tập 02** — hiện là placeholder `[LINK_TẬP 02 — cần điền]`, không tự bịa (L2) | Người dùng |
 | 3 | Sửa **xung đột thương hiệu lốp xe** trong kịch bản tập: `1.17#1` ghi *Kumho*, `nguon_tham_khao.md` ghi *Yokohama IG20* (clip không nêu thương hiệu nào nên vẫn an toàn) | Người dùng |
-| 4 | Sinh **26 nền dọc `tk02_*`** (mục 7 của `KE_HOACH_CLIP_TAP02.md`) — hoặc chấp nhận phương án B | AI (cần duyệt FLUX) |
+| 4 | Sinh **26 nền dọc `tk02_*`** (mục 7 của `KE_HOACH_CLIP_TAP02.md`) — **ĐÃ XONG 26/26** (mục 14); 8 nền AI thật + 18 nền dự phòng crop, cần thay 18 nền dự phòng khi có credit | AI (cần duyệt FLUX) |
 | 5 | **Xác minh quyền thương mại BGM MiniMax** (mục 2.4) — vẫn chưa làm | Người dùng + AI |
 | 6 | Tạo **53 file WAV** theo `SPEC_AUDIO_CLIP_TAP02.json` + qua 7 cổng audio (mục 5.3) | Người dùng |
 | 7 | Dựng 5 clip 9:16 + chạy 14 cổng QC clip + `BaoCao_QC_TikTok_Tap02.md` | AI (sau khi được duyệt) |
+| 8 | **Điền link YouTube Tập 02** vào 5 file caption + profile (đang placeholder) | Người dùng |
+
+---
+
+## 14. ẢNH NỀN DỌC TẬP 02 — ĐÃ TẠO 26/26 (20/11/2026)
+
+### 14.1 Kết quả đo thật
+
+| Chỉ số | Số đo |
+|---|---|
+| Số nền dọc `assets/bg/tk02_*.png` | **26/26** — đủ cho cả 5 clip (TK1 9 · TK2 7 · TK3 10 · TK4 8 · TK5 6) |
+| Kích thước | **1080×1920 — 26/26 đúng**, sai số 0 |
+| Nguồn | **8 nền AI thật** (connector `__matrix__generate_image`, 9:16, area 2K) + **18 nền dự phòng** (crop từ ảnh gốc 16:9) |
+| Dòng `provenance.json` | **+26** (8 dòng có `prompt` = AI thật · 18 dòng `prompt: null` = dự phòng) ⇒ 3.722 dòng tổng |
+| Độ sáng vùng chữ hook (y 270–730, x 120–780) | **mean 42,4 · max 56,9** (bộ `tk01_*` đã xuất bản: mean 41,6 · max 74,0) ⇒ không sáng hơn bộ đã đăng |
+| Độ sáng vùng phụ đề (y 996–1254) | mean 64,8 (bộ `tk01_*`: 82,1) |
+| Vết ngang trong ảnh | đo theo từng cột (`|Δ| > 18` ở > 70 % số cột): **0 dải** trong 26 ảnh — chỉ 2 mép trên/dưới do crop |
+| Backup | `.work/_cu/tk02_provenance_20261120_0859/` · `.work/_cu/tk02_fallback_prov_20261120_1207/` · ảnh v1: `.work/_cu/fallback_v1_20261120_121032/` · ảnh v2: `.work/_cu/tk02_fallback_img_20261120_1217/` |
+
+**Quy trình đã chạy (đo được):** `.work/_tk_upload_refs_t02.py` (26/26 URL tham chiếu) → `.work/_tk_build_img_req_t02.py` (3 lô 10+10+6) → `mcode-tools connector call connector__matrix__generate_image` → `.work/_tk_download_imgs_t02.py` (node_id → file) → `.work/_tk_postprocess_t02.py` (8 nền AI) → `.work/_tk_fallback_crop_t02.py` (18 nền dự phòng).
+
+### 14.2 Vì sao 18 nền là bản DỰ PHÒNG (không phải AI)
+
+Connector trả `402` cho 18/26 request: *"the plan allowance cannot cover this image generation and credit auto-consumption is turned off on this account… at least 100 credits of balance are required"*. Lô 3 còn bị `429` *"request limit reached; retry in the next minute"* — nhưng thử lại thì vẫn `402` ⇒ **429 chỉ là che, nguyên nhân gốc là hết credit**.
+
+⇒ Không dừng pipeline: `.work/_tk_fallback_crop_t02.py` **cắt 9:16 từ ảnh nền 16:9 gốc** (`assets/bg/_raw/t2_*`) — **0 credit**, đúng bảng màu của kênh. 18 nền này được đánh dấu riêng trong `provenance.json` (`prompt: null`, `cong_cu` ghi rõ "DU PHONG") để không nhầm là AI thật.
+
+**Khi nào nạp credit → chạy lại:** `.work/_tk_download_imgs_t02.py` (tải node_id → `.work/tk_img_raw_t02/`) → `.work/_tk_postprocess_t02.py` (LANCZOS + grade noir + vignette/grain). Script hậu kỳ **ghi đè đúng tên file** nên chỉ cần copy bản AI mới vào `assets/bg/tk02_<tên>.png` là xong.
+
+### 14.3 Sáu bẫy mới (T17–T22)
+
+| # | Bẫy | Hậu quả | Cách tránh |
+|---|---|---|---|
+| **T17** | Ảnh gốc 16:9 trong `_raw/` **đã qua grade noir của kênh** (saturation 0,65 · contrast 1,15 · vignette 45 % · grain) — đo được: `t2_two_chairs.jpg` mean 50,3/sat 9,0 vs `.png` mean 47,7/sat 6,9 | Áp lại grade lần nữa ⇒ **tối quá, mất chi tiết bóng** | Bản dự phòng **chỉ** crop + LANCZOS + nền tối vùng chữ, **không** áp grade |
+| **T18** | Nhiều ảnh gốc **kẹp letterbox đen** trên/dưới (đo: `t2_gavel.png` còn 182 px đen trên + 182 px đen dưới; `t2_checkpoint.png` 182/181) | Crop thẳng ⇒ mất 24 % chiều cao, chủ thể bị cắt | Dò vùng nội dung bằng `rowmax > 30` **trước khi** crop |
+| **T19** | Crop 9:16 từ 16:9 giữ **vệt ngang** nếu profile làm tối dùng `min()` + `linspace` (nhảy giá trị đúng ranh giới 1/3 và 2/3) | **Vết sáng ngang** nổi lên khi chuyển động trên video | Dùng profile **smoothstep liên tục** qua 6 mốc (0,50 → 1,00 → 0,50). Đo lại: `max_row_jump` toàn 26 ảnh ≤ 42,6 (do nét vẽ trong ảnh, không phải do profile) |
+| **T20** | `mcode-tools` là wrapper `.cmd` ⇒ `subprocess.run(["mcode-tools", ...])` **không** chạy được (WinError 2) | Script tải ảnh hỏng âm thầm | `shutil.which("mcode-tools")` + `shell=True`; và `Tee-Object` của PowerShell ghi receipt ra **UTF-16** ⇒ đọc JSON bằng `utf-16`/`utf-8-sig` (đã có `read_json_any`) |
+| **T21** | Profile làm tối dải chữ viết bằng `1 − smoothstep` ở nửa lên ⇒ **nhảy giá trị 0→1 đúng tại biên** (đo được: dải ngang tại row 730 và row 996) | Vệt sáng ngang nổi lên đúng chỗ chữ, rất dễ thấy khi video chuyển động | Nửa lên dùng **smoothstep thuần** (0 tại cạnh ngoài → 1 tại biên trong); nửa xuống dùng `1 − smoothstep`. Sau khi sửa: `max_row_jump` toàn 26 ảnh ≤ 42,6, và **0 dải ngang xuyên suốt chiều ngang** |
+| **T22** | Ảnh nền dọc phải **tối vùng chữ** trước khi dựng: 18 nền dự phòng có vùng hook sáng tới 118,8 (bộ `tk01_*` chỉ 41,6) | Chữ trắng trên nền sáng ⇒ mất chữ (H9) | `.work/_tk_fallback_crop_t02.py` tự tìm `depth` (0 → 0,60) để đưa mean vùng hook ≤ 58 và vùng phụ đề ≤ 72, biên mềm 70 px |
+
+### 14.4 Chọn vùng crop (đo được)
+
+`.work/_tk_fallback_crop_t02.py` không crop giữa khung mà chọn cửa sổ 9:16 có **năng lượng nét vẽ cao nhất** (gradient ngang + biến độ cục bộ), giới hạn lệch tối đa 22 % chiều rộng nội dung ⇒ giữ chủ thể. Sau đó ép cân bằng chiều dọc 9:16 rồi LANCZOS về 1080×1920.
+
+**Script chạy lại được:** nếu ảnh đã tồn tại mà `provenance.json` **không có `prompt`** ⇒ coi là bản dự phòng và tạo lại (tự backup vào `.work/_cu/tk02_fallback_img_<giờ>/`); nếu **có `prompt`** ⇒ là bản AI thật, **giữ nguyên, không ghi đè**.
+
+**Giới hạn đã biết:** ảnh crop vẫn là **tái dựng của ảnh 16:9** nên bố cục dọc kém bản AI thật (bản AI được vẽ lại để dựng theo chiều dọc). 18 nền này dùng được để **chạy thử pipeline và đo thời lượng thật**, nhưng **nên thay bằng bản AI trước khi đăng** (xem Tập 2.4 — ảnh dựng độc quyền của bản AI là điểm mạnh khi đăng TikTok).
+
+---
+
+## 15. MÔ TẢ + CAPTION TIKTOK TẬP 02 — 5/5 ĐẠT (20/11/2026)
+
+### 15.1 File bàn giao (đo được)
+
+| File | Ký tự | Dán vào đâu |
+|---|---|---|
+| `MoTa_Dai_TK1.txt` | **2.915** | ô **Description** của TikTok Studio |
+| `MoTa_Dai_TK2.txt` | **2.923** | ô Description |
+| `MoTa_Dai_TK3.txt` | **3.093** | ô Description |
+| `MoTa_Dai_TK4.txt` | **3.158** | ô Description |
+| `MoTa_Dai_TK5.txt` | **2.240** | ô Description |
+| `Caption_TK1.txt` … `Caption_TK5.txt` | **422 / 430 / 440 / 425 / 422** (phần dán) | ô **caption** khi đăng |
+
+Tất cả nằm trong `02_SAN_XUAT/TIKTOK/Tap02/`. Mỗi file caption = **phần dán** (trước dấu `---`) + **phần "Ghi chú khi đăng"** (KHÔNG dán).
+
+### 15.2 Cấu trúc mô tả dài (5 khối, giữ nguyên cho mọi tập sau)
+
+`hook` → `Tập N · tên tập — chỉ dấu #X` → `📺 Xem tập đầy đủ (25 phút) trên YouTube — link trong bio` → `——————` → **khối CHỈ DẤU** (phân tích) → `——————` → **BỐI CẢNH HỒ SƠ** → `——————` → **NGUỒN THAM KHẢO** → `——————` → **LƯU Ý** (6 dòng: AI tạo hình/giọng · không phù hợp trẻ em · giáo dục, không thay thế tư vấn y tế/pháp lý · tư liệu công khai, không kết tội ai · Cú/Sói/Cáo là linh thú minh hoạ · hồ sơ có thật) → 7 hashtag.
+
+### 15.3 QC độc lập — `.work/_qc_mota_tap02.py` — **0 lỗi / 10 tệp**
+
+| Cổng | Kết quả |
+|---|---|
+| Từ cấm V9/A9.2 (máu · thi thể · sát hại · đòn · trói · bầm · đập · đầu độc · diệt cỏ · bỏ đói · móc áo) trong caption + mô tả dài | **0 lỗi** (10/10 tệp) |
+| Giới hạn ký tự | caption 422–440 ≤ 2.200 · Description 2.240–3.158 ≤ 4.000 |
+| Hashtag | **7** mỗi tệp (5–8), đủ `#AmberEyes` + `#HosoCoThat` |
+| Nhãn AIGC trong caption | 5/5 có, **nằm trong phần dán** |
+| Mô tả dài | 5/5 có `LƯU Ý` + `NGUỒN THAM KHẢO` + cảnh báo trẻ em + "không phải phóng sự" |
+| Số liệu truy về nguồn | **15/15 mục** có trong `kichban_tap02_22102026.md` / `nguon_tham_khao.md` (82 · 88 · 25 năm · 46 tuổi · 37 tuổi · Marie-France Comeau · Jessica Lloyd · Nissan Pathfinder · Hubert Genest · Robert Scott · Jim Smyth · Trenton · Tweed · Belleville · 2010 ONSC 5946) |
+
+Thời lượng tập YouTube đo được: `timeline_s_t02.json` → **1.519,08 s = 25,3 phút** ⇒ dòng "Xem tập đầy đủ (25 phút)" trong mô tả dài là **đúng số đo thật**.
+
+### 15.4 Một lỗi thật đã sửa: nhãn AIGC nằm ngoài phần dán (T23)
+
+**Bẫy:** generator ghi dòng *"Nội dung do AI tạo hình và giọng…"* vào **phần "Ghi chú khi đăng"** (KHÔNG dán) ⇒ người đăng phải **tự gõ thêm** khi dán. Bất kỳ lần đăng nào quên ⇒ **vi phạm luật T3** (TikTok bắt buộc ghi nhãn AIGC trong caption) ⇒ video bị gỡ hoặc hạn chế.
+
+**Đã sửa ở nguồn:** `.work/_build_tk_tap02.py` — `DONG_AIGC` nay nằm **trong thân caption** (ngay trước dòng hashtag), và thêm mục QC **7b** kiểm nhãn AIGC nằm đúng trong phần dán (`cap.split("\n---")[0]`). Sau khi sửa: **5/5 đạt**, caption dài thêm ~85 ký tự (vẫn ≤ 2.200).
+
+⇒ Nguyên tắc: **thứ bắt buộc phải nằm trong phần dán**, không được đẩy sang phần ghi chú. Phần ghi chú chỉ chứa việc *thao tác* khi đăng (bật toggle, dán link, tên file).
+
+### 15.5 Ba bẫy QC mới (T24–T26)
+
+| # | Bẫy | Hậu quả | Cách tránh |
+|---|---|---|---|
+| **T24** | QC đếm hashtag bằng `#\w+` ⇒ **mã chỉ dấu `#8`, `#9`, `#10` bị tính là hashtag** | Báo động giả "9 hashtag, vượt giới hạn" → mất thời gian điều tra | Lọc `re.fullmatch(r"#\d+", t)` trước khi đếm |
+| **T25** | QC kiểm tra caption **cả file** (gồm phần ghi chú) thay vì **phần dán** | Báo động giả "thiếu cảnh báo trẻ em" — dòng đó cố ý nằm ở mô tả dài (ô Description), không phải caption | Tách `cap.split("\n---")[0]` rồi kiểm riêng caption và mô tả dài |
+| **T26** | Caption ghi "Độ dài caption: NNN ký tự" **tính cả phần ghi chú** | Báo nhầm độ dài (1.126 thay vì 399) ⇒ tưởng gần trần 2.200 | `len(cap)` phải đo **phần dán**; con số trong file phải khớp độ dài thật khi dán |
+
+### 15.6 Việc còn lại
+
+| # | Việc | Người |
+|---|---|---|
+| 1 | **Điền link YouTube Tập 02** — đang là placeholder `[LINK_TẬP 02 — cần điền]` trong cả 5 file caption; **không tự bịa** (L2) | Người dùng |
+| 2 | Thay dòng "Xem tập đầy đủ ở link trong bio" trong caption bằng URL thật **nếu** TikTok cho phép (URL gõ tay trong caption không click được — dán vào ô Links/Website của profile mới click được) | Người dùng |
+| 3 | Bật toggle **"AI-generated content"** khi đăng (dòng nhãn AIGC **đã có sẵn** trong caption) | Người dùng |
+| 4 | Xác minh quyền thương mại BGM MiniMax (mục 2.4) — chưa làm, ảnh hưởng cả 5 clip | Người dùng + AI |
+
+---
+
+## 16. MÔ TẢ NGẮN TIKTOK TẬP 02 — 5/5 ĐẠT (20/11/2026)
+
+### 16.1 Vì sao cần bản mô tả ngắn
+
+TikTok Studio có **2 ô**: *caption* (khi đăng) và *Description* (ô mô tả). Tập 01 đã có **một** bản mô tả dài duy nhất (2.930–3.935 ký tự). Người đăng cần một bản **rút gọn** để dán nhanh khi có nhiều clip, và để kiểm tra chất lượng chữ trước khi đọc giọng.
+
+**Chuẩn tham chiếu:** `02_SAN_XUAT/TIKTOK/Tap01/MoTa_Dai_TK1.txt` — 1.078 ký tự, 10 dòng. Bài học: **file tên "MoTa_Dai" nhưng nội dung ngắn** — dùng nó làm mẫu chuẩn, đừng dùng làm mẫu bản dài.
+
+### 16.2 File bàn giao (đo được)
+
+| File | Ký tự (QC) | Đối chiếu chuẩn Tập 01 (1.078–1.369) |
+|---|---|---|
+| `MoTa_Ngan_TK1.txt` | **1.424** | dài hơn chuẩn (đủ 4 nấc thang + NẤC 4) |
+| `MoTa_Ngan_TK2.txt` | **1.525** | dài hơn chuẩn một chút (nhiều mốc thời gian) |
+| `MoTa_Ngan_TK3.txt` | **1.578** | dài hơn chuẩn một chút |
+| `MoTa_Ngan_TK4.txt` | **1.544** | dài hơn chuẩn một chút |
+| `MoTa_Ngan_TK5.txt` | **1.360** | ✔ trong khoảng |
+
+Tất cả nằm trong `02_SAN_XUAT/TIKTOK/Tap02/`, **sinh từ generator** `.work/_build_tk_tap02.py` (dict `MO_TA_NGAN`) — không sửa tay file kết quả (G6: 1 generator = 1 nguồn sự thật).
+
+### 16.3 Cấu trúc bản ngắn (rút từ chuẩn Tập 01)
+
+```
+dòng 1  hook (chữ trên hình)  👁️
+dòng 2  Tập 02 · Đại tá hai mặt — Chỉ dấu #X: …
+         (đoạn dẫn)
+         • NẤC 1 — …
+         • NẤC 2 — …
+         • NẤC 3 — …
+         Bước ngoặt của hồ sơ này: …
+         Theo bạn, …? 👇
+📺 Xem trọn bộ hồ sơ phân tích đầy đủ (25 phút, kèm nguồn tòa án & y khoa) tại YTB: …
+🔎 Hồ sơ có thật, … · nội dung do AI tạo hình và giọng … · không phù hợp cho trẻ em.
+5 hashtag CamelCase
+```
+
+**Cố ý KHÔNG có** (đặc trưng bản dài, không có ở chuẩn Tập 01): dấu kẻ `——————`, khối `LƯU Ý`, khối `NGUỒN THAM KHẢO`.
+
+### 16.4 Bốn quy tắc rút ra (T27–T30)
+
+| # | Quy tắc | Lý do |
+|---|---|---|
+| **T27** | **Dòng 1 của mô tả phải là hook** — hoặc `clip["hook"]` (chữ trên hình), hoặc lời đọc câu 1 | TikTok chỉ hiện **~100 ký tự** đầu trước khi bấm "more" ⇒ hook nằm ngoài dòng 1 = mất hook |
+| **T28** | **Dòng 1 bản ngắn phải KHỚP bản dài** | Người đăng có thể chọn 1 trong 2 bản; nếu 2 bản mở đầu khác nhau thì họ dán nhầm ⇒ 2 video khác nhau cùng 1 clip |
+| **T29** | Bản ngắn giữ **5 hashtag CamelCase** (`#AmberEyes #TamLyToiPham #HosoCoThat #… #TrueCrime`) | Đồng bộ caption + bản dài Tập 02 (Tập 01 dùng chữ thường — **đừng trộn 2 hệ** trong cùng tập) |
+| **T30** | Bản ngắn **có** nhãn AIGC + cảnh báo trẻ em **trong dòng 🔎** | Nâng cao hơn Tập 01, an toàn TikTok; hợp lệ vì nằm ở Description, không phải caption |
+| **T31** | **QC so chuỗi tiếng Việt phải không phân biệt hoa thường** (`m.lower()`) | Check `"không phù hợp cho trẻ em" not in m` **báo động giả** vì bản ngắn viết *"**K**hông phù hợp cho trẻ em"* ở đầu câu (chữ K hoa) ⇒ tưởng thiếu cảnh báo khi thực ra có. Sửa tại nguồn `.work/_build_tk_tap02.py` (mục 15) |
+
+### 16.5 QC độc lập — `.work/_qc_mota_tap02.py` — **0 lỗi / 15 tệp**
+
+| Cổng | Kết quả |
+|---|---|
+| Từ cấm V9/A9.2 trong caption + bản dài + bản ngắn | **0 lỗi** (15/15 tệp) |
+| Giới hạn ký tự | caption 422–440 ≤ 2.200 · bản dài 2.240–3.158 ≤ 4.000 · **bản ngắn 1.360–1.578 ≤ 4.000** |
+| Cảnh báo trẻ em | bản dài 5/5 · **bản ngắn 5/5** (caption **không** bắt buộc — theo chuẩn Tập 01) |
+| Nhãn AIGC | caption 5/5 (trong phần dán) · bản dài 5/5 · bản ngắn 5/5 |
+| Dòng 1 bản ngắn khớp bản dài | 5/5 ✔ |
+| Số liệu truy về nguồn | **15/15 mục** ✔ (không mục nào mới sinh ở bản ngắn) |
+
+QC đã tách **3 mode** (`dai` / `ngan` / `caption`) vì 3 loại tệp có bộ quy tắc khác nhau — kiểm tra chung một ngưỡng sẽ ra báo động giả.
+
+### 16.6 Việc còn lại (mô tả ngắn)
+
+| # | Việc | Người |
+|---|---|---|
+| 1 | Chọn 1 trong 2 bản khi đăng: **bản ngắn** (dán nhanh, có cảnh báo trẻ em) **hoặc** bản dài (đầy đủ nguồn tham khảo) — **không dán cả hai** (trùng nội dung) | Người dùng |
+| 2 | **Điền link YouTube Tập 02** — placeholder `[LINK_TẬP 02 — cần điền]` trong cả 5 caption; bản ngắn dùng câu "bấm nút liên kết ngay đầu trang cá nhân" nên **không** cần sửa nếu dán link vào ô Links/Website của profile | Người dùng |
+| 3 | Duyệt văn bản lời dẫn trước khi đọc giọng (L4) | Người dùng |
+
+---
+
+## 17. RÀ CHÍNH TẢ & NGÔN NGỮ BỘ TEXT TẬP 02 (20/11/2026)
+
+**Phạm vi:** 15 file bàn giao (5 caption + 5 mô tả dài + 5 mô tả ngắn) + đối chiếu chuẩn văn phong `Tap01/` (caption, `MoTa_Dai_TK1.txt` = mẫu bản ngắn).
+**Cách sửa:** mọi thay đổi nằm trong **generator** `.work/_build_tk_tap02.py` (G6), chạy bằng 2 script patch có **assert số lần khớp** (26 + 3 + 1 mục) ⇒ không có thay thế "mù" và luôn có backup trong `.work/_cu/`. Lời đọc (voice) và các chuỗi QC nội bộ **không** bị đụng tới.
+
+### 17.1 Lỗi chính tả / kỹ thuật trình bày (đã sửa)
+
+| # | Lỗi | Sửa |
+|---|---|---|
+| 1 | `( Gavin de Becker)` — thừa khoảng trắng trong ngoặc | `(Gavin de Becker)` |
+| 2 | `Nguyên lý "The Gift of Fear"` — gọi một **cuốn sách** là "nguyên lý" | `Sách "The Gift of Fear"` |
+| 3 | `toà` (dấu huyền) lẫn với `tòa` (dấu sắc) **trong cùng một file** | thống nhất `tòa` (10 chỗ: 4 "trước toà" + 5 "hồ sơ toà án" + 1 nguồn) |
+| 4 | Dấu nháy cong `“ ”` trong 8 cụm của bản dài | đổi sang nháy thẳng `" "` — đúng văn phong Tập 01 |
+| 5 | `— chỉ dấu #X` ở bản dài vs `— Chỉ dấu #X` ở bản ngắn | thống nhất `Chỉ dấu` (khớp `Tap01/MoTa_Dai_TK1.txt`) |
+| 6 | `thay vì chiếc BMW ông ta vẫn thường đi` — thiếu mạo từ | `… chiếc BMW **mà** ông ta vẫn thường đi` (nguyên văn kịch bản:54) |
+
+### 17.2 Lỗi nhất quán nội bộ (đã sửa)
+
+| # | Lỗi | Sửa |
+|---|---|---|
+| 7 | `dữ kiện có nguồn` (12 chỗ) lẫn `dữ liệu có nguồn` (6 chỗ) — **ngay trong cùng một file** (dòng 4 vs mục LƯU Ý) | thống nhất **`dữ liệu có nguồn`** — đúng chuẩn dự án (Tap01 caption + `MoTa_Dai_TK1.txt` + slogan) |
+| 8 | Caption ghi `Xem tập đầy đủ ở link trong bio` — thiếu thời lượng và nền tảng | `Xem tập đầy đủ (25 phút) trên YouTube — link trong bio` (khớp bản dài + Tap01) |
+| 9 | TK4: bản dài gọi tòa là *"Tòa án Cấp cao Ontario"*, mục nguồn gọi là *"Tòa Thượng thẩm Belleville"* — 2 tên cho 1 cơ quan | thống nhất **`Tòa Thượng thẩm Ontario`** (khớp trích dẫn `2010 ONSC 5946`), nguồn ghi rõ *"phiên xử tại Belleville"* |
+| 10 | TK4: *"nỗi đau đớn"* (ngắn) vs *"nỗi đau đớn cùng cực"* (dài); *"sự tự thương hại bản thân thảm hại"* vs *"sự thương hại bản thân tột độ"* | thống nhất 2 cụm theo bản dài (nguyên văn kịch bản:217) |
+| 11 | TK4: bản ngắn ghi *"quân hàm bị thu hồi"*, bản dài ghi *"toàn quyền Canada thu hồi quân hàm"* | thống nhất **"quân hàm bị toàn quyền Canada thu hồi"** |
+| 12 | TK1: hook + TK3 nói **"82 vụ trộm"**, nhưng bản dài/ngắn nói *"82 vụ đột nhập và đột nhập bất thành"* | thống nhất **"82 vụ trộm đồ riêng tư"** (theo `nguon_tham_khao.md`: 82 vụ đột nhập trộm đồ lót 2007–2009) |
+| 13 | TK1 bản ngắn lặp từ: *"rình rập ban đêm, đứng ngoài bóng tối để **rình rập** phụ nữ…"* | `NẤC 1 — nhìn trộm ban đêm: đứng ngoài bóng tối để rình rập phụ nữ qua khung cửa sổ` |
+
+### 17.3 Lỗi NỘI DUNG (đã sửa — quan trọng nhất)
+
+| # | Lỗi | Sửa |
+|---|---|---|
+| 14 | **Bản ngắn TK1 nói "bốn nấc thang" nhưng chỉ liệt kê 3 bullet** (NẤC 1–3) — người đọc đếm sẽ thấy thiếu | **Bổ sung NẤC 4** (đoạt mạng nạn nhân — Marie-France Comeau, 37 tuổi; hai tháng sau là Jessica Lloyd) ⇒ khớp hook "Bốn nấc thang" và bản dài |
+
+### 17.4 Thuật ngữ khó hiểu
+
+| # | Thuật ngữ | Xử lý |
+|---|---|---|
+| 15 | `cơ chế **dung nạp** kích thích` — không phải cách gọi tiếng Việt của *stimulus satiation* | đã đổi thành **`cơ chế bão hoà kích thích`** (chỉ có trong bản dài, **không** có trong lời đọc ⇒ không lệch voice) |
+| 16 | `trạng thái **đói ảo tưởng**` — nguyên văn kịch bản tập (dòng 133) và **cũng nằm trong lời đọc clip TK1** | **ĐÃ CHỐT (20/11/2026, người dùng): GIỮ NGUYÊN** — khớp tuyệt đối kịch bản tập + lời đọc + video YouTube Tập 02 đã dựng. Không sửa ở bất kỳ tầng nào (kịch bản · voice · mô tả) |
+
+### 17.5 Ba bẫy QC mới (T32–T34)
+
+| # | Bẫy | Cách tránh |
+|---|---|---|
+| **T32** | **Thay dấu nháy cong bằng `replace()` toàn cục sẽ làm vỡ cú pháp Python** — chuỗi `"“MỘT MÓN KỶ NIỆM”"` (chữ overlay SFX) nằm trong `"..."` ⇒ thay thành `"MỘT MÓN KỶ NIỆM"` làm hỏng file | Thay **từng cụm có mô tả rõ** (8 cụm trong mô tả dài), **không** thay toàn cục; luôn `py -3 -m py_compile` sau khi vá |
+| **T33** | **Số ký tự QC ≠ số ký tự người dùng dán** — QC đếm cả ký tự xuống dòng (`\n`), nên luôn **cao hơn** số thực tế (TK1 ngắn: QC 1.424, thực 1.408) | Không sao: vẫn < trần 4.000 (Description) / 2.200 (caption). Nhưng **phải ghi rõ quy ước** trong báo cáo, nếu không sẽ tưởng bị vượt trần |
+| **T34** | **Mô tả ngắn phải khớp SỐ MỤC liệt kê với câu dẫn** — "bốn nấc thang" + 3 bullet là lỗi *đếm* mà QC ký tự/hashtag **không bắt được** | Thêm QC: đếm số bullet `•` và so với số từ định lượng trong câu dẫn ("bốn nấc" ⇒ 4 bullet) |
+
+### 17.6 Kết quả sau khi rà
+
+| Cổng | Kết quả |
+|---|---|
+| Self-QC generator | **16/16 ĐẠT** |
+| QC độc lập `.work/_qc_mota_tap02.py` | **0 lỗi / 15 tệp** |
+| 15/15 mục số liệu truy được về nguồn | ✔ (không mục nào mới sinh) |
+| Từ cấm V9/A9.2 | 0 lỗi |
+| Từ cấm **tự thêm** (toà, dữ kiện, “”, Nguyên lý) | **0** sau khi vá |
+| Backup | `_build_tk_tap02_20261120_1435/1437/1438.py`, `provenance_20261120_1439.json` |
+
+---
+
+## 18. GÓI SẢN XUẤT CLIP TIKTOK TẬP 03 (20/11/2026)
+
+*Vụ án Edmund Kemper · "Gã khổng lồ IQ 145 & Chiếc gương giải phẫu tâm trí"*
+*Kế hoạch chi tiết: `02_SAN_XUAT/TIKTOK/Tap03/KE_HOACH_CLIP_TAP03.md` (VN) · `Tap03_EN/KE_HOACH_CLIP_TAP03_EN.md` (EN) · `Tap03_JA/KE_HOACH_CLIP_TAP03_JA.md` (JA)*
+
+### 18.1 Tổng quan bộ 3 ngôn ngữ (VN · EN · JA)
+
+| Bản | Thư mục | Số clip | Tổng câu | Thời lượng | File đặc tả TTS | Trạng thái |
+|---|---|---|---|---|---|---|
+| **Tiếng Việt (VN)** | `02_SAN_XUAT/TIKTOK/Tap03/` | 5 | 53 | 64.8 – 75.1 s | `SPEC_AUDIO_CLIP_TAP03.json` | ✅ Kịch bản đã rà soát chính tả, sẵn sàng đọc giọng |
+| **Tiếng Anh (EN)** | `02_SAN_XUAT/TIKTOK/Tap03_EN/` | 5 | 53 | 63.5 – 79.5 s | `SPEC_AUDIO_CLIP_TAP03.json` | ✅ Đồng bộ 100%, sẵn sàng đọc giọng Higgs EN |
+| **Tiếng Nhật (JA)** | `02_SAN_XUAT/TIKTOK/Tap03_JA/` | 5 | 53 | 71.9 – 85.4 s | `SPEC_AUDIO_CLIP_TAP03.json` | ✅ Đồng bộ 100%, sẵn sàng đọc giọng Higgs JA |
+
+### 18.2 Bảng 5 clip và chỉ dấu tâm lý Tập 03
+
+| Clip | Chỉ dấu tâm lý (K10) | Chủ đề | Hook tiếng Việt | Hook tiếng Anh (EN) | Hook tiếng Nhật (JA) |
+|---|---|---|---|---|---|
+| **TK1** | #4 · #6 | Sự sụp đổ ảo tưởng & Điểm gãy tâm lý | *"Ngăn tôi lại. Tôi sắp làm điều đó thêm một lần nữa."* | *"Stop me. I’m going to do it again."* | *「私を止めてください。私はそれをもう一度するつもりです。」* |
+| **TK2** | #9 · #1 | Hiệu ứng hào quang & Điểm mù xã hội | *"Uống bia cùng cảnh sát. Và bàn về chính vụ án của mình."* | *"Drinking with the police. And discussing his own murders."* | *「警察官とビールを飲み、自らの事件について語る。」* |
+| **TK3** | #2 · #3 | Chấn thương mẫu hệ & Nạn nhân thay thế | *"Tám tuổi. Bị nhốt dưới tầng hầm có cửa sập dưới bàn ăn."* | *"Eight years old. Locked in a basement with a trapdoor under the table."* | *「8歳。食卓の下にある落とし戸の地下室に閉じ込められた。」* |
+| **TK4** | #7 · #8 | Vòng lặp ảo tưởng & FBI Mindhunter | *"IQ một trăm bốn mươi lăm. Bộ não thay đổi vĩnh viễn FBI."* | *"An IQ of 145. The mind that changed the FBI forever."* | *「IQ 145。FBIの捜査手法を永遠に変えた頭脳。」* |
+| **TK5** | #10 | Nạn nhân học & 4 cảnh báo đỏ sinh tồn | *"Bốn chỉ dấu cảnh báo sớm. Để không ai phải trở thành nạn nhân."* | *"Four early warning signs. So that no one becomes a victim."* | *「4つの初期警告サイン。犠牲者を二度と出さないために。」* |
+
+### 18.3 Các tài nguyên đã cập nhật
+- Generator Python: `.work/_build_tk_tap03.py` (bản VN) và `.work/_build_tk_tap03_multilang.py` (bản EN + JA).
+- Sổ theo dõi tập trung: `02_SAN_XUAT/TIKTOK/BangTheoDoi_TikTok.csv` đã nạp đủ 21 dòng (Tập 02 VN: 5 clip, Tập 03 VN/EN/JA: 15 clip).
+
+## 19. GÓI SẢN XUẤT CLIP TIKTOK TẬP 02 ĐA NGÔN NGỮ (EN · JA) (20/11/2026)
+
+*Vụ án Đại tá Russell Williams · "Đại tá hai mặt và Vực thẳm leo thang hành vi"*
+*Kế hoạch chi tiết: `02_SAN_XUAT/TIKTOK/Tap02/KE_HOACH_CLIP_TAP02.md` (VN) · `Tap02_EN/KE_HOACH_CLIP_TAP02_EN.md` (EN) · `Tap02_JA/KE_HOACH_CLIP_TAP02_JA.md` (JA)*
+
+### 19.1 Tổng quan bộ 3 ngôn ngữ (VN · EN · JA)
+
+| Bản | Thư mục | Số clip | Tổng câu | Thời lượng ước lượng | File đặc tả TTS | Trạng thái |
+|---|---|---|---|---|---|---|
+| **Tiếng Việt (VN)** | `02_SAN_XUAT/TIKTOK/Tap02/` | 5 | 53 | 56.1 – 82.6 s | `SPEC_AUDIO_CLIP_TAP02.json` | ✅ Kịch bản và mô tả đã rà soát chính tả, sẵn sàng đọc giọng |
+| **Tiếng Anh (EN)** | `02_SAN_XUAT/TIKTOK/Tap02_EN/` | 5 | 53 | 56.1 – 81.9 s | `SPEC_AUDIO_CLIP_TAP02.json` | ✅ Đồng bộ 100%, chuẩn tốc độ đo timeline_s_EN_t02 |
+| **Tiếng Nhật (JA)** | `02_SAN_XUAT/TIKTOK/Tap02_JA/` | 5 | 53 | 64.3 – 81.2 s | `SPEC_AUDIO_CLIP_TAP02.json` | ✅ Đồng bộ 100%, chuẩn tốc độ đo timeline_s_JA_t02 |
+
+### 19.2 Bảng 5 clip và chỉ dấu tâm lý Tập 02 (3 ngôn ngữ)
+
+| Clip | Chỉ dấu tâm lý (K10) | Chủ đề | Hook tiếng Việt | Hook tiếng Anh (EN) | Hook tiếng Nhật (JA) |
+|---|---|---|---|---|---|
+| **TK1** | #8 · #6 | Quỹ đạo leo thang | *"Bốn nấc thang. Tám mươi hai vụ trộm. Rồi một vụ án mạng."* | *"Four escalation steps. Eighty-two burglaries. Then murder."* | *「4つの階段。82件の侵入。そして殺人へと至る軌跡。」* |
+| **TK2** | #9 · #1 | Hiệu ứng hào quang | *"Vân lốp xe trùng khớp. Cảnh sát vẫn kính cẩn chào."* | *"Matching tire treads. Yet the police saluted him on his way."* | *「タイヤ痕の一致。それでも警察はその男に敬礼して見送った。」* |
+| **TK3** | #5 · #3 | Phân mảnh tâm trí | *"Hai cuộc đời. Một cơ thể. Một câu chuyện để tự bào chữa."* | *"Two lives. One body. A story to self-justify."* | *「2つの人生。1つの身体。自己正当化のための物語。」* |
+| **TK4** | #4 · #1 | Sụp đổ cái tôi ái kỷ | *"Không một lời xin lỗi nào nhắc tới nạn nhân."* | *"Not a single apology mentioned the victims."* | *「被害者に向けられた謝罪はただの一言もなかった。」* |
+| **TK5** | #10 | Nạn nhân học và Trực giác | *"Nếu bạn cảm thấy bất an, đừng hợp lý hóa nó."* | *"If you feel unease, never rationalize it away."* | *「曖昧な違和感を覚えたなら、決して見過ごしてはならない。」* |
+
+### 19.3 Công cụ và tài nguyên đã tạo
+- Bộ sinh tự động: `.work/_build_tk_tap02_multilang.py` (sinh 100% tài nguyên EN và JA từ dữ liệu gốc, không sửa tay).
+- Sổ theo dõi tập trung: `02_SAN_XUAT/TIKTOK/BangTheoDoi_TikTok.csv` đã cập nhật 10 dòng clip EN và JA cho Tập 02.

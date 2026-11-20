@@ -184,3 +184,12 @@ Căn cứ: F0 đo trên bản Higgs đã đọc của Tập 02 (`.work/_prod2_f0
 - File cũ trước Higgs (timeline, master wav, stems, srt, edition.py, build_audio3.py): `.work/_cu/prod_t03_truoc_higgs_20261031/`.
 - Chưa làm: bảng shot (mã câu cũ + chữ tiếng Anh, H6), dựng hình, phụ đề.
 - Người dùng nghe master, báo "Điều tra viên thành nữ" → đo lại: D 56/56 bản chọn ≤ 120 Hz (trung vị 89 Hz); đoạn nghe là N1 (02:22–03:07, lời cảnh sát, giọng nữ). Người dùng chốt: **giữ nguyên, chỉ cần đúng 3 giọng chính**.
+
+### Phái sinh Clip dọc TikTok (20/11/2026)
+- **Đã hoàn thành bộ kịch bản 3 ngôn ngữ (VN · EN · JA):** mỗi ngôn ngữ gồm 5 clip (tổng 15 clip) cắt/chuyển thể dựa trên 10 chỉ dấu tâm lý (K10).
+- Hồ sơ chi tiết & file đặc tả audio:
+  - Bản VN: `02_SAN_XUAT/TIKTOK/Tap03/` (`KE_HOACH_CLIP_TAP03.md`, `SPEC_AUDIO_CLIP_TAP03.json`)
+  - Bản EN: `02_SAN_XUAT/TIKTOK/Tap03_EN/` (`KE_HOACH_CLIP_TAP03_EN.md`, `SPEC_AUDIO_CLIP_TAP03.json`)
+  - Bản JA: `02_SAN_XUAT/TIKTOK/Tap03_JA/` (`KE_HOACH_CLIP_TAP03_JA.md`, `SPEC_AUDIO_CLIP_TAP03.json`)
+- Đã cập nhật vào kế hoạch tổng thể `02_SAN_XUAT/TIKTOK/KE_HOACH_TIKTOK.md` (Mục 18) và sổ theo dõi tập trung `02_SAN_XUAT/TIKTOK/BangTheoDoi_TikTok.csv`.
+

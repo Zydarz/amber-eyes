@@ -1,0 +1,928 @@
+{
+  "_readme": "Đặc tả audio và kịch bản dựng TikTok Tập 04 (EN) — sinh tự động bởi .work/_build_tk_tap04.py.",
+  "_episode": "Tap04",
+  "_language": "EN",
+  "_title": "ANGEL OF DEATH & THE GOD COMPLEX",
+  "_measured_rates": {
+    "C": 0.3976,
+    "D": 0.4388,
+    "H": 0.3594,
+    "N1": 0.3083,
+    "N2": 0.3137
+  },
+  "_clips_summary": [
+    {
+      "clip": "TK1",
+      "title": "The Pyxis Cancel Loophole & The Lethal Escalation",
+      "signs": [
+        6,
+        7
+      ],
+      "lines_count": 9,
+      "est_duration_s": 69.9
+    },
+    {
+      "clip": "TK2",
+      "title": "The Model Colleague & The Halo Effect of the White Coat",
+      "signs": [
+        9,
+        1
+      ],
+      "lines_count": 11,
+      "est_duration_s": 69.5
+    },
+    {
+      "clip": "TK3",
+      "title": "The Wiretap Nurse & The Tense Diner Confrontation",
+      "signs": [
+        6,
+        4
+      ],
+      "lines_count": 10,
+      "est_duration_s": 78.8
+    },
+    {
+      "clip": "TK4",
+      "title": "Sixteen Years of Silence Across Nine Hospitals",
+      "signs": [
+        9,
+        3
+      ],
+      "lines_count": 9,
+      "est_duration_s": 69.4
+    },
+    {
+      "clip": "TK5",
+      "title": "Survival Lessons & The Courage of Amy Loughren",
+      "signs": [
+        10
+      ],
+      "lines_count": 9,
+      "est_duration_s": 66.3
+    }
+  ],
+  "clips": {
+    "TK1": {
+      "id": "TK1",
+      "title": "The Pyxis Cancel Loophole & The Lethal Escalation",
+      "theme": "Technological Vulnerability in Automated Dispensing & The Angel of Death Escalation",
+      "psychological_signs": [
+        6,
+        7
+      ],
+      "bgm": "bgm_ambient_tension.mp3",
+      "bgm_desc": "Act 2 — episode bed: bgm_ambient_tension.mp3",
+      "sfx": [
+        "amb_sterile_night.wav (bed)",
+        "fx_pyxis_keypad.wav",
+        "fx_drawer_open.wav",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK1.01#1",
+          "text": "PYXIS MEDSTATION AUTOMATED CABINETS",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK1.01#4",
+          "text": "CANCEL LOOPHOLE: DIGOXIN & INSULIN VANISH",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#6",
+          "text": "STAGE 4: COMPLETE COLLAPSE OF INHIBITION",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#7",
+          "text": "PSYCHOLOGICAL SIGNATURE: “GOD COMPLEX”",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#8",
+          "text": "OMNIPOTENCE ILLUSION: ARBITER OF LIFE & DEATH",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK1.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t4_pyxis_station",
+          "motion": "still",
+          "text": "Ordered lethal drugs. Then hit cancel one second later.",
+          "words_spoken": 9,
+          "est_dur_s": 3.23,
+          "src_script": "hook — không phải dữ kiện kịch bản"
+        },
+        {
+          "clip_line_id": "TK1.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_pyxis_station",
+          "motion": "pull",
+          "text": "By the early 2000s, hospitals nationwide began adopting automated dispensing cabinets known as Pyxis MedStation systems to regulate pharmaceuticals.",
+          "words_spoken": 19,
+          "est_dur_s": 8.34,
+          "src_script": "2.06#1"
+        },
+        {
+          "clip_line_id": "TK1.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_pyxis_station",
+          "motion": "pan",
+          "text": "However, Charles Cullen quickly discovered a critical software vulnerability within the terminal's architecture.",
+          "words_spoken": 13,
+          "est_dur_s": 5.7,
+          "src_script": "2.06#3"
+        },
+        {
+          "clip_line_id": "TK1.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_pyxis_drawer_ajar",
+          "motion": "push",
+          "text": "He would enter requests for dangerous medications like Digoxin, Insulin, or Norepinephrine, but the moment the physical drawer released, he pressed the cancel button.",
+          "words_spoken": 24,
+          "est_dur_s": 10.53,
+          "src_script": "2.06#4"
+        },
+        {
+          "clip_line_id": "TK1.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t4_pyxis_drawer_ajar",
+          "motion": "still",
+          "text": "The terminal logged the transaction as canceled and avoided billing the patient, yet the lethal vial was already concealed inside Cullen's pocket.",
+          "words_spoken": 22,
+          "est_dur_s": 9.65,
+          "src_script": "2.06#5"
+        },
+        {
+          "clip_line_id": "TK1.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t4_pyxis_printout",
+          "motion": "push",
+          "text": "At Somerset Medical Center, his behavioral inhibition collapsed entirely, leading him to target young, recovering patients slated for discharge.",
+          "words_spoken": 19,
+          "est_dur_s": 8.34,
+          "src_script": "2.06#14"
+        },
+        {
+          "clip_line_id": "TK1.01#7",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t4_neutral_letter",
+          "motion": "pull",
+          "text": "In contrast, his psychological signature—the unchanging emotional gratification compelling his crimes—was his profound “God Complex”.",
+          "words_spoken": 15,
+          "est_dur_s": 5.96,
+          "src_script": "2.08#5"
+        },
+        {
+          "clip_line_id": "TK1.01#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t4_institutional_bystander",
+          "motion": "still",
+          "text": "He experienced a fleeting sense of omnipotence, imagining himself elevated above medicine and destiny as the sole arbiter of who survived.",
+          "words_spoken": 21,
+          "est_dur_s": 8.35,
+          "src_script": "2.11#7"
+        },
+        {
+          "clip_line_id": "TK1.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t4_closing_desk",
+          "motion": "still",
+          "text": "Episode four of Amber Eyes. Watch the full documentary via the bio link.",
+          "words_spoken": 13,
+          "est_dur_s": 4.67,
+          "src_script": "CTA — không phải dữ kiện kịch bản"
+        }
+      ],
+      "total_est_duration_s": 69.9
+    },
+    "TK2": {
+      "id": "TK2",
+      "title": "The Model Colleague & The Halo Effect of the White Coat",
+      "theme": "Halo Effect & Collective Blind Spot Obscuring a Gentle Predator",
+      "psychological_signs": [
+        9,
+        1
+      ],
+      "bgm": "bgm_jazz_noir.mp3",
+      "bgm_desc": "Act 1 — episode bed: bgm_jazz_noir.mp3",
+      "sfx": [
+        "amb_hospital_night.wav (bed)",
+        "fx_heart_monitor.wav",
+        "fx_footsteps_hallway.wav",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK2.01#1",
+          "text": "SOMERSET MEDICAL CENTER · AUTUMN 2003",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK2.01#5",
+          "text": "WHITE SCRUBS: THE LETHAL HALO EFFECT",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#7",
+          "text": "“CHARLIE WAS AN INCREDIBLE FRIEND”",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#9",
+          "text": "CHILL DOWN THE SPINE: WORKING BESIDE A MONSTER",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#10",
+          "text": "OBJECTIFICATION & DEHUMANIZATION OF VICTIMS",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK2.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t4_nurse_station",
+          "motion": "still",
+          "text": "The gentlest nurse on the ward. And America’s most prolific killer.",
+          "words_spoken": 11,
+          "est_dur_s": 3.95,
+          "src_script": "hook — không phải dữ kiện kịch bản"
+        },
+        {
+          "clip_line_id": "TK2.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t4_somerset_exterior",
+          "motion": "pan",
+          "text": "Autumn of 2003.",
+          "words_spoken": 3,
+          "est_dur_s": 1.08,
+          "src_script": "1.03#1"
+        },
+        {
+          "clip_line_id": "TK2.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_somerset_exterior",
+          "motion": "pull",
+          "text": "At Somerset Medical Center in Somerville, New Jersey.",
+          "words_spoken": 8,
+          "est_dur_s": 2.88,
+          "src_script": "1.03#2"
+        },
+        {
+          "clip_line_id": "TK2.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_icu_night",
+          "motion": "still",
+          "text": "The 43-year-old man possessed a frail frame, spoke in a quiet murmur, always greeted colleagues with a gentle smile, and eagerly volunteered to cover shifts for exhausted coworkers.",
+          "words_spoken": 28,
+          "est_dur_s": 10.06,
+          "src_script": "1.03#4"
+        },
+        {
+          "clip_line_id": "TK2.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_cullen_silhouette",
+          "motion": "push",
+          "text": "Yet, beneath that pristine white scrubs lay a lethal “Halo Effect” that concealed a terrifying psychological abyss for 16 long years.",
+          "words_spoken": 21,
+          "est_dur_s": 7.55,
+          "src_script": "1.03#6"
+        },
+        {
+          "clip_line_id": "TK2.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_code_blue_aftermath",
+          "motion": "pan",
+          "text": "He was always the first to rush in whenever a patient deteriorated, and quietly stayed behind to tidy up the room after failed resuscitations.",
+          "words_spoken": 24,
+          "est_dur_s": 8.63,
+          "src_script": "1.05#2"
+        },
+        {
+          "clip_line_id": "TK2.01#7",
+          "role": "N1",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_breakroom_night",
+          "motion": "still",
+          "text": "To all of us nurses at Somerset Medical Center, Charlie was simply an incredible friend.",
+          "words_spoken": 15,
+          "est_dur_s": 4.62,
+          "src_script": "1.07#1"
+        },
+        {
+          "clip_line_id": "TK2.01#8",
+          "role": "N1",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_breakroom_night",
+          "motion": "push",
+          "text": "He was considerate, never lost his temper, and cared for patients with exceptional gentleness.",
+          "words_spoken": 14,
+          "est_dur_s": 4.32,
+          "src_script": "1.07#2"
+        },
+        {
+          "clip_line_id": "TK2.01#9",
+          "role": "N1",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.7,
+          "bg": "t4_corridor_shadow",
+          "motion": "pull",
+          "text": "Until the truth broke open, all of us felt a chill down our spines upon realizing we had worked alongside one of the most prolific serial killers in history.",
+          "words_spoken": 29,
+          "est_dur_s": 8.94,
+          "src_script": "1.07#5"
+        },
+        {
+          "clip_line_id": "TK2.01#10",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t4_institutional_bystander",
+          "motion": "still",
+          "text": "Through the lens of criminal psychology, Charles Cullen exhibited classic hallmarks of psychological “Objectification” and severe dehumanization.",
+          "words_spoken": 17,
+          "est_dur_s": 6.76,
+          "src_script": "2.11#1"
+        },
+        {
+          "clip_line_id": "TK2.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t4_closing_desk",
+          "motion": "still",
+          "text": "Episode four of Amber Eyes. Watch the full documentary via the bio link.",
+          "words_spoken": 13,
+          "est_dur_s": 4.67,
+          "src_script": "CTA — không phải dữ kiện kịch bản"
+        }
+      ],
+      "total_est_duration_s": 69.5
+    },
+    "TK3": {
+      "id": "TK3",
+      "title": "The Wiretap Nurse & The Tense Diner Confrontation",
+      "theme": "Psychological Breaking Point & Amy Loughren’s Perilous Diner Operation",
+      "psychological_signs": [
+        6,
+        4
+      ],
+      "bgm": "bgm_sub_drone.mp3",
+      "bgm_desc": "Act 4 — episode bed: bgm_sub_drone.mp3",
+      "sfx": [
+        "amb_diner_murmur.wav (bed)",
+        "fx_wire_static.wav",
+        "fx_coffee_cup.wav",
+        "fx_heartbeat_tense.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK3.01#1",
+          "text": "COVERT TRANSMITTER BENEATH WINTER SWEATER",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK3.01#4",
+          "text": "SINGLE MOTHER BATTLING SEVERE CARDIOMYOPATHY",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#5",
+          "text": "“STAYING SILENT WOULD MAKE ME COMPLICIT”",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#8",
+          "text": "“I WANT TO STOP, I WANT IT ALL TO BE OVER”",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#9",
+          "text": "FULL CONFESSION: DIGOXIN & INSULIN MURDERS",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK3.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t4_diner_exterior",
+          "motion": "still",
+          "text": "A hidden wire beneath her winter coat. A deadly dinner with her best friend.",
+          "words_spoken": 14,
+          "est_dur_s": 5.03,
+          "src_script": "hook — không phải dữ kiện kịch bản"
+        },
+        {
+          "clip_line_id": "TK3.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_diner_exterior",
+          "motion": "pull",
+          "text": "Their investigation led them directly to Amy Loughren—a skilled intensive care nurse and Charles Cullen's closest confidante.",
+          "words_spoken": 17,
+          "est_dur_s": 6.11,
+          "src_script": "4.02#7"
+        },
+        {
+          "clip_line_id": "TK3.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_diner_booth",
+          "motion": "pan",
+          "text": "When we secretly met Amy Loughren outside the facility and laid Cullen's printed Pyxis access logs before her, she was utterly stunned.",
+          "words_spoken": 22,
+          "est_dur_s": 9.65,
+          "src_script": "4.04#1"
+        },
+        {
+          "clip_line_id": "TK3.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_amy_scrubs",
+          "motion": "still",
+          "text": "What made her position perilous was her personal vulnerability: a single mother battling severe cardiomyopathy that endangered her own life.",
+          "words_spoken": 20,
+          "est_dur_s": 8.78,
+          "src_script": "4.04#6"
+        },
+        {
+          "clip_line_id": "TK3.01#5",
+          "role": "N2",
+          "emotion": "fearful",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.7,
+          "bg": "t4_amy_scrubs",
+          "motion": "push",
+          "text": "Terrified as I was for my own survival and my children's future, I knew staying silent would make me complicit in his murders.",
+          "words_spoken": 23,
+          "est_dur_s": 7.22,
+          "src_script": "4.06#6"
+        },
+        {
+          "clip_line_id": "TK3.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_wire_closeup",
+          "motion": "push",
+          "text": "Amy Loughren entered the restaurant wearing a covert transmitter carefully concealed beneath her winter sweater by state detectives.",
+          "words_spoken": 18,
+          "est_dur_s": 6.47,
+          "src_script": "4.08#3"
+        },
+        {
+          "clip_line_id": "TK3.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t4_diner_booth",
+          "motion": "still",
+          "text": "With immense psychological dexterity, Amy gently broached the hospital anomalies and offered to help him find a way out.",
+          "words_spoken": 19,
+          "est_dur_s": 6.83,
+          "src_script": "4.08#6"
+        },
+        {
+          "clip_line_id": "TK3.01#8",
+          "role": "H",
+          "emotion": "sad",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t4_diner_booth",
+          "motion": "pull",
+          "text": "He slumped forward over the table, whispering words captured clearly on tape: “I want to stop, I want it all to be over.”",
+          "words_spoken": 23,
+          "est_dur_s": 8.27,
+          "src_script": "4.08#8"
+        },
+        {
+          "clip_line_id": "TK3.01#9",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t4_interrogation_room",
+          "motion": "still",
+          "text": "He confessed to administering lethal doses of Digoxin and Insulin to Father Florian Gall, Michael Strenko, and dozens of others over the years.",
+          "words_spoken": 23,
+          "est_dur_s": 10.09,
+          "src_script": "4.12#5"
+        },
+        {
+          "clip_line_id": "TK3.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t4_closing_desk",
+          "motion": "still",
+          "text": "Episode four of Amber Eyes. Watch the full documentary via the bio link.",
+          "words_spoken": 13,
+          "est_dur_s": 4.67,
+          "src_script": "CTA — không phải dữ kiện kịch bản"
+        }
+      ],
+      "total_est_duration_s": 78.8
+    },
+    "TK4": {
+      "id": "TK4",
+      "title": "Sixteen Years of Silence Across Nine Hospitals",
+      "theme": "Institutional Bystander Effect & 400 Victims in the Shadows",
+      "psychological_signs": [
+        9,
+        3
+      ],
+      "bgm": "bgm_ambient_deep.mp3",
+      "bgm_desc": "Act 1/5 — episode bed: bgm_ambient_deep.mp3",
+      "sfx": [
+        "amb_hospital_corridor.wav (bed)",
+        "fx_paper_shuffle.wav",
+        "fx_stamp_confidential.wav",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK4.01#1",
+          "text": "16 YEARS · 9 HOSPITALS & 1 NURSING HOME",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK4.01#5",
+          "text": "QUIET DISMISSALS: PROTECTING INSTITUTIONAL REPUTATION",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#6",
+          "text": "ESTIMATED ACTUAL DEATH TOLL: UP TO 400 VICTIMS",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#7",
+          "text": "SYSTEMIC SILENCE TRANSFORMED HEALING INTO CARNAGE",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#8",
+          "text": "THE CULLEN ACT 2004: MANDATORY REPORTING ENACTED",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK4.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t4_ten_hospitals_map",
+          "motion": "still",
+          "text": "Nine hospitals suspected him. Every single one chose silence.",
+          "words_spoken": 9,
+          "est_dur_s": 3.23,
+          "src_script": "hook — không phải dữ kiện kịch bản"
+        },
+        {
+          "clip_line_id": "TK4.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_somerset_exterior",
+          "motion": "pan",
+          "text": "Somerset Medical Center was by no means his initial crime scene.",
+          "words_spoken": 11,
+          "est_dur_s": 4.83,
+          "src_script": "1.14#2"
+        },
+        {
+          "clip_line_id": "TK4.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_ten_hospitals_map",
+          "motion": "pull",
+          "text": "Across 16 years, from 1988 to 2003, Charles Cullen had worked across 9 different hospitals and 1 nursing home spanning New Jersey and Pennsylvania.",
+          "words_spoken": 24,
+          "est_dur_s": 10.53,
+          "src_script": "1.14#3"
+        },
+        {
+          "clip_line_id": "TK4.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_ten_hospitals_map",
+          "motion": "push",
+          "text": "Wherever he took up employment, nighttime cardiac arrest fatalities consistently spiked along an anomalous statistical curve.",
+          "words_spoken": 16,
+          "est_dur_s": 7.02,
+          "src_script": "1.14#4"
+        },
+        {
+          "clip_line_id": "TK4.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t4_neutral_letter",
+          "motion": "still",
+          "text": "Whenever suspicion mounted, he was quietly forced out with neutral references, allowing him to seamlessly transfer to another facility and resume his predatory trajectory.",
+          "words_spoken": 24,
+          "est_dur_s": 10.53,
+          "src_script": "1.14#5"
+        },
+        {
+          "clip_line_id": "TK4.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t4_case_file_open",
+          "motion": "push",
+          "text": "However, based on epidemiological reviews and massive unexplained medication deficits, investigative analysts believe the true toll could reach 400 lives.",
+          "words_spoken": 20,
+          "est_dur_s": 8.78,
+          "src_script": "1.14#7"
+        },
+        {
+          "clip_line_id": "TK4.01#7",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t4_institutional_bystander",
+          "motion": "still",
+          "text": "That systemic silence transformed institutions dedicated to healing into inadvertent sanctuaries for serial homicide across 16 years.",
+          "words_spoken": 17,
+          "est_dur_s": 6.76,
+          "src_script": "5.05#6"
+        },
+        {
+          "clip_line_id": "TK4.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t4_courtroom_bench",
+          "motion": "still",
+          "text": "In 2004, the Governor of New Jersey enacted the landmark Cullen Act to permanently dismantle dangerous institutional silence.",
+          "words_spoken": 18,
+          "est_dur_s": 7.9,
+          "src_script": "5.06#2"
+        },
+        {
+          "clip_line_id": "TK4.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t4_closing_desk",
+          "motion": "still",
+          "text": "Episode four of Amber Eyes. Watch the full documentary via the bio link.",
+          "words_spoken": 13,
+          "est_dur_s": 4.67,
+          "src_script": "CTA — không phải dữ kiện kịch bản"
+        }
+      ],
+      "total_est_duration_s": 69.4
+    },
+    "TK5": {
+      "id": "TK5",
+      "title": "Survival Lessons & The Courage of Amy Loughren",
+      "theme": "Victimology & Survival Red Flags: Courage to Break the Silence",
+      "psychological_signs": [
+        10
+      ],
+      "bgm": "bgm_piano_warm.mp3",
+      "bgm_desc": "Act 5 — episode bed: bgm_piano_warm.mp3",
+      "sfx": [
+        "amb_gentle_night.wav (bed)",
+        "fx_clock_chime.wav",
+        "fx_sub_drop.wav",
+        "fx_warm_resolve.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK5.01#1",
+          "text": "SURVIVAL LESSONS & SOCIAL RESPONSIBILITY",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK5.01#3",
+          "text": "SURVIVAL RED FLAGS: THE COST OF COLLECTIVE SILENCE",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#5",
+          "text": "NATIONWIDE RE-ENGINEERING OF PHARMACEUTICAL PROTOCOLS",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#7",
+          "text": "THE REMARKABLE COURAGE OF NURSE AMY LOUGHREN",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#8",
+          "text": "ALWAYS LISTEN TO AND HONOR YOUR INTUITION",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK5.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t4_somerset_courtroom",
+          "motion": "still",
+          "text": "The greatest survival lesson: Never stay silent in the face of wrong.",
+          "words_spoken": 12,
+          "est_dur_s": 4.31,
+          "src_script": "hook — không phải dữ kiện kịch bản"
+        },
+        {
+          "clip_line_id": "TK5.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_boardroom_empty",
+          "motion": "pan",
+          "text": "Simultaneously, we expose a reality even more disturbing than his crimes: the systemic complicity and prolonged silence of nine medical centers driven by fear of legal liability.",
+          "words_spoken": 27,
+          "est_dur_s": 9.7,
+          "src_script": "1.16#4"
+        },
+        {
+          "clip_line_id": "TK5.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t4_somerset_exterior",
+          "motion": "pull",
+          "text": "It stands as an enduring lesson on institutional blindspots and the catastrophic cost of ignoring survival red flags.",
+          "words_spoken": 18,
+          "est_dur_s": 6.47,
+          "src_script": "1.16#5"
+        },
+        {
+          "clip_line_id": "TK5.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_courtroom_bench",
+          "motion": "still",
+          "text": "In 2004, the Governor of New Jersey enacted the landmark Cullen Act to permanently dismantle dangerous institutional silence.",
+          "words_spoken": 18,
+          "est_dur_s": 7.9,
+          "src_script": "5.06#2"
+        },
+        {
+          "clip_line_id": "TK5.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_pyxis_station",
+          "motion": "pan",
+          "text": "Simultaneously, Pyxis automated dispensing systems were completely overhauled nationwide, eliminating the cancellation loophole and tightening toxic substance tracking.",
+          "words_spoken": 18,
+          "est_dur_s": 7.9,
+          "src_script": "5.06#5"
+        },
+        {
+          "clip_line_id": "TK5.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t4_nurse_station",
+          "motion": "still",
+          "text": "The paramount survival lesson preserved by this tragic history is clear: “Always listen to and honor your own intuition.”",
+          "words_spoken": 19,
+          "est_dur_s": 6.83,
+          "src_script": "5.08#4"
+        },
+        {
+          "clip_line_id": "TK5.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t4_amy_scrubs",
+          "motion": "push",
+          "text": "The courage of nurse Amy Loughren proves that a single individual willing to confront fear and speak truth can save countless lives.",
+          "words_spoken": 22,
+          "est_dur_s": 7.91,
+          "src_script": "5.08#6"
+        },
+        {
+          "clip_line_id": "TK5.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.8,
+          "bg": "t4_closing_desk",
+          "motion": "pull",
+          "text": "Silence before wrongdoing never brings peace; it merely surrenders the vulnerable to the gathering darkness.",
+          "words_spoken": 15,
+          "est_dur_s": 5.39,
+          "src_script": "5.08#7"
+        },
+        {
+          "clip_line_id": "TK5.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t4_closing_desk",
+          "motion": "still",
+          "text": "Episode four of Amber Eyes. Watch the full documentary via the bio link.",
+          "words_spoken": 13,
+          "est_dur_s": 4.67,
+          "src_script": "CTA — không phải dữ kiện kịch bản"
+        }
+      ],
+      "total_est_duration_s": 66.3
+    }
+  }
+}

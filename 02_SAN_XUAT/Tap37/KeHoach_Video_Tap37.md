@@ -11,7 +11,7 @@
 | **Tên tập** | Tập 37: Hồ Sơ Dr. Harold Shipman — Thiên Thần Tử Thần & Phức Cảm Thượng Đế Y Khoa |
 | **Đề tài** | Bác sĩ gia đình uy tín tại Anh sát hại hơn 215 bệnh nhân lớn tuổi suốt 24 năm |
 | **Trọng tâm tâm lý (K10)** | Phức cảm Thượng đế (God Complex), Lạm dụng lòng tin áo trắng, Kiểm toán hồ sơ bệnh án. |
-| **Thời lượng dự kiến** | 24:00 – 27:00 (~1.500 giây) |
+| **Thời lượng dự kiến** | 28:00 – 32:00 (~1.800 giây) |
 | **Giọng đọc phân bổ** | Host (Cú) · Điều tra viên (Sói) · Chuyên gia tâm lý (Cáo) · Người trong cuộc (N) |
 | **Quy tắc kiểm duyệt** | 100% YouTube Safe theo Tiêu chuẩn V9 (Không mô tả bạo lực ghê rợn, tập trung tâm lý học và hành vi). |
 
@@ -29,8 +29,10 @@
 - [x] Kịch bản Tiếng Anh (01_KICH_BAN/Tap37_EN/)
 - [x] Kịch bản Tiếng Nhật (01_KICH_BAN/Tap37_JA/)
 - [x] Kịch bản Tiếng Hàn (01_KICH_BAN/Tap37_KO/)
-- [ ] Tách câu (`parse_kichban.py`)
-- [ ] Diễn xuất & sinh audio TTS (`tts_sentences.py`)
+- [x] Tách câu (`parse_kichban.py`) -> Đã sinh `script_tap37.json` (227 câu), `script_tap37_EN.json` (251 câu), `script_tap37_JA.json` (242 câu)
+- [x] Diễn xuất kịch bản (`make_acting_tap37.py`) -> Đã sinh `acting_tap37.json` (227 câu, nhịp nghỉ trung vị 0.65s đạt chuẩn A13)
+- [x] Khai báo cấu hình sản xuất `EPISODES['37']` trong `.work/edition.py` & bảng âm thanh `.work/sfx_tap37.json`
+- [ ] Sinh audio TTS (`tts_sentences.py`)
 - [ ] QC âm thanh, nhịp nghỉ, LUFS (`qc_pause_gate.py`, `build_audio3.py`)
 - [ ] Bảng shot hình ảnh (`parse_shots.py`)
 - [ ] Render video hoàn thiện (`build_video3.py`)

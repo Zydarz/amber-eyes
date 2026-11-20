@@ -1,0 +1,928 @@
+{
+  "_readme": "Đặc tả audio và kịch bản dựng TikTok Tập 04 (JA) — sinh tự động bởi .work/_build_tk_tap04.py.",
+  "_episode": "Tap04",
+  "_language": "JA",
+  "_title": "死の天使と神コンプレックス",
+  "_measured_rates": {
+    "C": 0.1713,
+    "D": 0.1625,
+    "H": 0.149,
+    "N1": 0.1575,
+    "N2": 0.1601
+  },
+  "_clips_summary": [
+    {
+      "clip": "TK1",
+      "title": "薬剤分配機Pyxisのキャンセル抜け穴と致死のエスカレーション",
+      "signs": [
+        6,
+        7
+      ],
+      "lines_count": 9,
+      "est_duration_s": 86.8
+    },
+    {
+      "clip": "TK2",
+      "title": "模範的同僚と白衣の「ハロー効果」",
+      "signs": [
+        9,
+        1
+      ],
+      "lines_count": 11,
+      "est_duration_s": 86.1
+    },
+    {
+      "clip": "TK3",
+      "title": "盗聴器を纏う看護師と緊迫のダイナー対峙",
+      "signs": [
+        6,
+        4
+      ],
+      "lines_count": 10,
+      "est_duration_s": 92.1
+    },
+    {
+      "clip": "TK4",
+      "title": "9つの病院が続けた16年間の沈黙",
+      "signs": [
+        9,
+        3
+      ],
+      "lines_count": 9,
+      "est_duration_s": 81.6
+    },
+    {
+      "clip": "TK5",
+      "title": "生存の教訓とエイミー・ローレンの勇気",
+      "signs": [
+        10
+      ],
+      "lines_count": 9,
+      "est_duration_s": 74.8
+    }
+  ],
+  "clips": {
+    "TK1": {
+      "id": "TK1",
+      "title": "薬剤分配機Pyxisのキャンセル抜け穴と致死のエスカレーション",
+      "theme": "自動薬剤分配機の技術的脆弱性と「死の天使」のエスカレーション軌道",
+      "psychological_signs": [
+        6,
+        7
+      ],
+      "bgm": "bgm_ambient_tension.mp3",
+      "bgm_desc": "第2幕 — 本編BGM: bgm_ambient_tension.mp3",
+      "sfx": [
+        "amb_sterile_night.wav（環境音）",
+        "fx_pyxis_keypad.wav",
+        "fx_drawer_open.wav",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK1.01#1",
+          "text": "自動薬剤分配機「PYXIS MEDSTATION」",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK1.01#4",
+          "text": "取り消し抜け穴：劇薬のアンプルが消える",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#6",
+          "text": "第4段階：抑制の完全な崩壊と無差別標的",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#7",
+          "text": "心理的シグネチャー：「神コンプレックス」",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#8",
+          "text": "全能感の錯覚：生死を掌る支配者",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK1.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t4_pyxis_station",
+          "motion": "still",
+          "text": "劇薬を出庫し、わずか1秒後に取り消しボタンを押す。",
+          "characters_spoken": 25,
+          "est_dur_s": 3.72,
+          "src_script": "hook — không phải dữ kiện kịch bản"
+        },
+        {
+          "clip_line_id": "TK1.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_pyxis_station",
+          "motion": "pull",
+          "text": "2000年代初頭、医薬品の厳格な追跡管理のため、病院群は自動薬剤分配機「Pyxis MedStation」を導入し始めました。",
+          "characters_spoken": 62,
+          "est_dur_s": 10.08,
+          "src_script": "2.06#1"
+        },
+        {
+          "clip_line_id": "TK1.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_pyxis_station",
+          "motion": "pan",
+          "text": "ところがCharles Cullenは、このシステムのソフトウェア設計における重大な抜け穴を見つけ出しました。",
+          "characters_spoken": 54,
+          "est_dur_s": 8.78,
+          "src_script": "2.06#3"
+        },
+        {
+          "clip_line_id": "TK1.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_pyxis_drawer_ajar",
+          "motion": "push",
+          "text": "彼はDigoxin、Insulin、Norepinephrineといった劇薬の出庫を要求しますが、機械の引き出しが開いた瞬間に取り消しボタンを押したのです。",
+          "characters_spoken": 78,
+          "est_dur_s": 12.68,
+          "src_script": "2.06#4"
+        },
+        {
+          "clip_line_id": "TK1.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t4_pyxis_drawer_ajar",
+          "motion": "still",
+          "text": "コンピューターは取引を「キャンセル済み」と記録し患者への請求は発生しませんが、劇薬のアンプルはすでにCullenのポケットへ収まっていました。",
+          "characters_spoken": 71,
+          "est_dur_s": 11.54,
+          "src_script": "2.06#5"
+        },
+        {
+          "clip_line_id": "TK1.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t4_pyxis_printout",
+          "motion": "push",
+          "text": " サマセット病院に至ると彼の抑制機能は完全に崩壊し、回復期にある健康な若い患者までも無差別に標的としました。",
+          "characters_spoken": 53,
+          "est_dur_s": 8.61,
+          "src_script": "2.06#14"
+        },
+        {
+          "clip_line_id": "TK1.01#7",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t4_neutral_letter",
+          "motion": "pull",
+          "text": "これに対し、心理的シグネチャー――犯行を突き動かした不変の感情的欲求――こそがまさに「神コンプレックス」でした。",
+          "characters_spoken": 56,
+          "est_dur_s": 9.59,
+          "src_script": "2.08#5"
+        },
+        {
+          "clip_line_id": "TK1.01#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t4_institutional_bystander",
+          "motion": "still",
+          "text": "誰を生かし誰を終わらせるかを決定する権利を持つことで、彼は自らが医学や運命すら超越した偉大な存在になったと錯覚しました。",
+          "characters_spoken": 60,
+          "est_dur_s": 10.28,
+          "src_script": "2.11#7"
+        },
+        {
+          "clip_line_id": "TK1.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t4_closing_desk",
+          "motion": "still",
+          "text": "Amber Eyes第4話。プロフィールリンクから完全版ドキュメンタリーをご覧ください。",
+          "characters_spoken": 43,
+          "est_dur_s": 6.41,
+          "src_script": "CTA — không phải dữ kiện kịch bản"
+        }
+      ],
+      "total_est_duration_s": 86.8
+    },
+    "TK2": {
+      "id": "TK2",
+      "title": "模範的同僚と白衣の「ハロー効果」",
+      "theme": "ハロー効果（後光効果）と温厚な捕食者に対する集団的死角",
+      "psychological_signs": [
+        9,
+        1
+      ],
+      "bgm": "bgm_jazz_noir.mp3",
+      "bgm_desc": "第1幕 — 本編BGM: bgm_jazz_noir.mp3",
+      "sfx": [
+        "amb_hospital_night.wav（環境音）",
+        "fx_heart_monitor.wav",
+        "fx_footsteps_hallway.wav",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK2.01#1",
+          "text": "サマセット医療センター · 2003年秋",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK2.01#5",
+          "text": "白衣の裏側：完全な「ハロー効果」",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#7",
+          "text": "「CHARLIEは本当に素晴らしい友人でした」",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#9",
+          "text": "背筋の凍る真実：殺人鬼のすぐ隣で勤務",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#10",
+          "text": "被害者の「客体化」と非人間化の深淵",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK2.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t4_nurse_station",
+          "motion": "still",
+          "text": "病院で最も温厚だった看護師。その正体は、史上最悪の殺人鬼だった。",
+          "characters_spoken": 32,
+          "est_dur_s": 4.77,
+          "src_script": "hook — không phải dữ kiện kịch bản"
+        },
+        {
+          "clip_line_id": "TK2.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t4_somerset_exterior",
+          "motion": "pan",
+          "text": "2003年秋。",
+          "characters_spoken": 7,
+          "est_dur_s": 1.04,
+          "src_script": "1.03#1"
+        },
+        {
+          "clip_line_id": "TK2.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_somerset_exterior",
+          "motion": "pull",
+          "text": "アメリカ合衆国ニュージャージー州サマービルのサマセット医療センター（Somerset Medical Center）。",
+          "characters_spoken": 57,
+          "est_dur_s": 8.49,
+          "src_script": "1.03#2"
+        },
+        {
+          "clip_line_id": "TK2.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_icu_night",
+          "motion": "still",
+          "text": "43歳のその男は痩せ型で声は小さく、常に穏やかな微笑みをたたえ、疲弊した同僚のシフトを率先して引き受けていました。",
+          "characters_spoken": 57,
+          "est_dur_s": 8.49,
+          "src_script": "1.03#4"
+        },
+        {
+          "clip_line_id": "TK2.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_cullen_silhouette",
+          "motion": "push",
+          "text": "しかし――その染み一つない白衣の裏には、16年もの長きにわたり暗黒の心理的深淵を隠蔽し続けた、完璧な「ハロー効果」が存在していたのです。",
+          "characters_spoken": 68,
+          "est_dur_s": 10.13,
+          "src_script": "1.03#6"
+        },
+        {
+          "clip_line_id": "TK2.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_code_blue_aftermath",
+          "motion": "pan",
+          "text": "患者の容態が急変すれば彼は常に真っ先に駆けつけ、救命処置が失敗に終わった後も一人静かに病室の片付けを行っていました。",
+          "characters_spoken": 58,
+          "est_dur_s": 8.64,
+          "src_script": "1.05#2"
+        },
+        {
+          "clip_line_id": "TK2.01#7",
+          "role": "N1",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_breakroom_night",
+          "motion": "still",
+          "text": "サマセット病院の私たち看護師全員にとって、Charlieは本当に素晴らしい友人でした。",
+          "characters_spoken": 43,
+          "est_dur_s": 6.77,
+          "src_script": "1.07#1"
+        },
+        {
+          "clip_line_id": "TK2.01#8",
+          "role": "N1",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_breakroom_night",
+          "motion": "push",
+          "text": "彼は気配りが行き届き、声を荒らげることなど一度もなく、常に驚くほど優しく患者さんに接していました。",
+          "characters_spoken": 49,
+          "est_dur_s": 7.72,
+          "src_script": "1.07#2"
+        },
+        {
+          "clip_line_id": "TK2.01#9",
+          "role": "N1",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.7,
+          "bg": "t4_corridor_shadow",
+          "motion": "pull",
+          "text": "真相が暴かれるまで――私たちが史上最悪の連続殺人犯のすぐ隣で勤務していたとは、背筋が凍る思いでした。",
+          "characters_spoken": 50,
+          "est_dur_s": 7.87,
+          "src_script": "1.07#5"
+        },
+        {
+          "clip_line_id": "TK2.01#10",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t4_institutional_bystander",
+          "motion": "still",
+          "text": "行動心理学の視点から見ると、Charles Cullenは極めて典型的な被害者の「客体化」と非人間化を示しています。",
+          "characters_spoken": 57,
+          "est_dur_s": 9.76,
+          "src_script": "2.11#1"
+        },
+        {
+          "clip_line_id": "TK2.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t4_closing_desk",
+          "motion": "still",
+          "text": "Amber Eyes第4話。プロフィールリンクから完全版ドキュメンタリーをご覧ください。",
+          "characters_spoken": 43,
+          "est_dur_s": 6.41,
+          "src_script": "CTA — không phải dữ kiện kịch bản"
+        }
+      ],
+      "total_est_duration_s": 86.1
+    },
+    "TK3": {
+      "id": "TK3",
+      "title": "盗聴器を纏う看護師と緊迫のダイナー対峙",
+      "theme": "心理的限界点とエイミー・ローレンの命懸けのダイナー潜入作戦",
+      "psychological_signs": [
+        6,
+        4
+      ],
+      "bgm": "bgm_sub_drone.mp3",
+      "bgm_desc": "第4幕 — 本編BGM: bgm_sub_drone.mp3",
+      "sfx": [
+        "amb_diner_murmur.wav（環境音）",
+        "fx_wire_static.wav",
+        "fx_coffee_cup.wav",
+        "fx_heartbeat_tense.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK3.01#1",
+          "text": "セーターの内側に仕掛けられた盗聴マイク",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK3.01#4",
+          "text": "重度の心筋症と幼い娘二人を抱える母の決断",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#5",
+          "text": "「沈黙を守り凶行を見過ごすことなどできない」",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#8",
+          "text": "「やめたい、すべてを終わりにしたい」",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#9",
+          "text": "自白：DIGOXINとINSULINによる連続殺害",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK3.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t4_diner_exterior",
+          "motion": "still",
+          "text": "セーターの下の盗聴マイク。親友との命懸けのダイナー密会。",
+          "characters_spoken": 28,
+          "est_dur_s": 4.17,
+          "src_script": "hook — không phải dữ kiện kịch bản"
+        },
+        {
+          "clip_line_id": "TK3.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_diner_exterior",
+          "motion": "pull",
+          "text": "そして彼らが接触を図ったのが、優秀な夜勤看護師であり、Charles Cullenの無二の親友でもあったAmy Loughrenでした。",
+          "characters_spoken": 66,
+          "est_dur_s": 9.83,
+          "src_script": "4.02#7"
+        },
+        {
+          "clip_line_id": "TK3.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_diner_booth",
+          "motion": "pan",
+          "text": "我々が勤務時間外の小さなダイナーでAmy Loughrenと密会し、CullenのPyxis端末ログを目の前に広げた時、彼女は言葉を失いました。",
+          "characters_spoken": 71,
+          "est_dur_s": 11.54,
+          "src_script": "4.04#1"
+        },
+        {
+          "clip_line_id": "TK3.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_amy_scrubs",
+          "motion": "still",
+          "text": "事態をさらに過酷にしていたのは、彼女が重度の心筋症を患い、幼い二人の娘を女手一つで育てていたという個人的な境遇でした。",
+          "characters_spoken": 59,
+          "est_dur_s": 9.59,
+          "src_script": "4.04#6"
+        },
+        {
+          "clip_line_id": "TK3.01#5",
+          "role": "N2",
+          "emotion": "fearful",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.7,
+          "bg": "t4_amy_scrubs",
+          "motion": "push",
+          "text": "自分の命や娘たちの未来を思うと恐怖で震えましたが、沈黙を守り凶行を見過ごすことなど私にはできませんでした。",
+          "characters_spoken": 53,
+          "est_dur_s": 8.48,
+          "src_script": "4.06#6"
+        },
+        {
+          "clip_line_id": "TK3.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_wire_closeup",
+          "motion": "push",
+          "text": "Amy Loughrenは、州捜査官たちによって冬のセーターの内側に仕掛けられた盗聴マイクを身につけて店内へ入りました。",
+          "characters_spoken": 59,
+          "est_dur_s": 8.79,
+          "src_script": "4.08#3"
+        },
+        {
+          "clip_line_id": "TK3.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t4_diner_booth",
+          "motion": "still",
+          "text": "Amyは卓越した共感力と心理的誘導を用い、病院内の動揺を語りかけながら、彼に自首を優しく促しました。",
+          "characters_spoken": 50,
+          "est_dur_s": 7.45,
+          "src_script": "4.08#6"
+        },
+        {
+          "clip_line_id": "TK3.01#8",
+          "role": "H",
+          "emotion": "sad",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t4_diner_booth",
+          "motion": "pull",
+          "text": "彼はテーブルの上に深く頭を垂れ、録音テープに明確に残る声でこう囁いたのです――「やめたい、すべてを終わりにしたい。」",
+          "characters_spoken": 58,
+          "est_dur_s": 8.64,
+          "src_script": "4.08#8"
+        },
+        {
+          "clip_line_id": "TK3.01#9",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t4_interrogation_room",
+          "motion": "still",
+          "text": "彼はDigoxinやInsulinを用いてFlorian Gall神父やMichael Strenko、その他多数の命を奪ったことを自白しました。",
+          "characters_spoken": 71,
+          "est_dur_s": 11.54,
+          "src_script": "4.12#5"
+        },
+        {
+          "clip_line_id": "TK3.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t4_closing_desk",
+          "motion": "still",
+          "text": "Amber Eyes第4話。プロフィールリンクから完全版ドキュメンタリーをご覧ください。",
+          "characters_spoken": 43,
+          "est_dur_s": 6.41,
+          "src_script": "CTA — không phải dữ kiện kịch bản"
+        }
+      ],
+      "total_est_duration_s": 92.1
+    },
+    "TK4": {
+      "id": "TK4",
+      "title": "9つの病院が続けた16年間の沈黙",
+      "theme": "組織的傍観者効果と闇に葬られた400名の犠牲者",
+      "psychological_signs": [
+        9,
+        3
+      ],
+      "bgm": "bgm_ambient_deep.mp3",
+      "bgm_desc": "第1/5幕 — 本編BGM: bgm_ambient_deep.mp3",
+      "sfx": [
+        "amb_hospital_corridor.wav（環境音）",
+        "fx_paper_shuffle.wav",
+        "fx_stamp_confidential.wav",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK4.01#1",
+          "text": "16年間 · 9つの病院と1つの介護施設",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK4.01#5",
+          "text": "保身のための秘密裏の解雇と白紙の推薦状",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#6",
+          "text": "推計犠牲者数：最大400名に達する可能性",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#7",
+          "text": "管理者たちの組織的沈黙が生んだ悲劇",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#8",
+          "text": "2004年「カレン法」：沈黙の連鎖を永久に遮断",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK4.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t4_ten_hospitals_map",
+          "motion": "still",
+          "text": "9つの病院が彼を疑っていた。しかし全員が沈黙を選んだ。",
+          "characters_spoken": 27,
+          "est_dur_s": 4.02,
+          "src_script": "hook — không phải dữ kiện kịch bản"
+        },
+        {
+          "clip_line_id": "TK4.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_somerset_exterior",
+          "motion": "pan",
+          "text": "サマセット医療センターは決して最初の犯行現場ではなかったのです。",
+          "characters_spoken": 32,
+          "est_dur_s": 5.2,
+          "src_script": "1.14#2"
+        },
+        {
+          "clip_line_id": "TK4.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_ten_hospitals_map",
+          "motion": "pull",
+          "text": "1988年から2003年までの16年間にわたり、Charles Cullenはニュージャージー州とペンシルベニア州にまたがる9つの病院と1つの養護施設を渡り歩いていました。",
+          "characters_spoken": 85,
+          "est_dur_s": 13.81,
+          "src_script": "1.14#3"
+        },
+        {
+          "clip_line_id": "TK4.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_ten_hospitals_map",
+          "motion": "push",
+          "text": "彼が足を踏み入れたあらゆる病院において、夜勤時間帯の心停止による急死者の数は異常な統計的跳ね上がりを示していました。",
+          "characters_spoken": 58,
+          "est_dur_s": 9.43,
+          "src_script": "1.14#4"
+        },
+        {
+          "clip_line_id": "TK4.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t4_neutral_letter",
+          "motion": "still",
+          "text": "一つの病院で疑念が生じると彼は秘密裏に退職させられ、何の警告もない推薦状を手にして次の病院へ移り、捕食を再開していたのです。",
+          "characters_spoken": 62,
+          "est_dur_s": 10.08,
+          "src_script": "1.14#5"
+        },
+        {
+          "clip_line_id": "TK4.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t4_case_file_open",
+          "motion": "push",
+          "text": "しかし、疫学調査データと原因不明の医薬品消失量に基づき、捜査専門家らは実際の犠牲者が400名に達する可能性があると推計しています。",
+          "characters_spoken": 65,
+          "est_dur_s": 10.56,
+          "src_script": "1.14#7"
+        },
+        {
+          "clip_line_id": "TK4.01#7",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t4_institutional_bystander",
+          "motion": "still",
+          "text": "管理者たちの組織的な沈黙こそが、人を癒やすべき病院を16年間もの間、凶行の温床へと変貌させました。",
+          "characters_spoken": 49,
+          "est_dur_s": 8.39,
+          "src_script": "5.05#6"
+        },
+        {
+          "clip_line_id": "TK4.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t4_courtroom_bench",
+          "motion": "still",
+          "text": "2004年、ニュージャージー州知事は、この危険な沈黙の連鎖を永久に断ち切るため「カレン法」に署名しました。",
+          "characters_spoken": 53,
+          "est_dur_s": 8.61,
+          "src_script": "5.06#2"
+        },
+        {
+          "clip_line_id": "TK4.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t4_closing_desk",
+          "motion": "still",
+          "text": "Amber Eyes第4話。プロフィールリンクから完全版ドキュメンタリーをご覧ください。",
+          "characters_spoken": 43,
+          "est_dur_s": 6.41,
+          "src_script": "CTA — không phải dữ kiện kịch bản"
+        }
+      ],
+      "total_est_duration_s": 81.6
+    },
+    "TK5": {
+      "id": "TK5",
+      "title": "生存の教訓とエイミー・ローレンの勇気",
+      "theme": "被害者学と生存の危険信号：沈黙を破る勇気",
+      "psychological_signs": [
+        10
+      ],
+      "bgm": "bgm_piano_warm.mp3",
+      "bgm_desc": "第5幕 — 本編BGM: bgm_piano_warm.mp3",
+      "sfx": [
+        "amb_gentle_night.wav（環境音）",
+        "fx_clock_chime.wav",
+        "fx_sub_drop.wav",
+        "fx_warm_resolve.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK5.01#1",
+          "text": "生存の教訓と社会的責任",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK5.01#3",
+          "text": "生存の危険信号：集団的沈黙が招いた代償",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#5",
+          "text": "全米における自動薬剤管理プロセスの抜本的再設計",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#7",
+          "text": "看護師エイミー・ローレンが示した不屈の勇気",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#8",
+          "text": "自分自身の直感を信じ、決して沈黙しないこと",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK5.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t4_somerset_courtroom",
+          "motion": "still",
+          "text": "最大の生存の教訓：決して不正の前に沈黙してはならない。",
+          "characters_spoken": 27,
+          "est_dur_s": 4.02,
+          "src_script": "hook — không phải dữ kiện kịch bản"
+        },
+        {
+          "clip_line_id": "TK5.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t4_boardroom_empty",
+          "motion": "pan",
+          "text": "同時に私たちは、凶行そのものよりも痛烈な真実――損害賠償訴訟と法的責任への恐怖から9つの病院が沈黙を守り続けた組織の共犯構造を暴きます。",
+          "characters_spoken": 68,
+          "est_dur_s": 10.13,
+          "src_script": "1.16#4"
+        },
+        {
+          "clip_line_id": "TK5.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t4_somerset_exterior",
+          "motion": "pull",
+          "text": "それは集団的偏執病と、生存のための赤い警告シグナルから社会が目を背けた時に支払わされる代償についての重い教訓です。",
+          "characters_spoken": 57,
+          "est_dur_s": 8.49,
+          "src_script": "1.16#5"
+        },
+        {
+          "clip_line_id": "TK5.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_courtroom_bench",
+          "motion": "still",
+          "text": "2004年、ニュージャージー州知事は、この危険な沈黙の連鎖を永久に断ち切るため「カレン法」に署名しました。",
+          "characters_spoken": 53,
+          "est_dur_s": 8.61,
+          "src_script": "5.06#2"
+        },
+        {
+          "clip_line_id": "TK5.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t4_pyxis_station",
+          "motion": "pan",
+          "text": "同時に、自動薬剤分配機Pyxisの運用プロセスも全米で抜本的に再設計され、取り消し機能の抜け穴は完全に塞がれました。",
+          "characters_spoken": 58,
+          "est_dur_s": 9.43,
+          "src_script": "5.06#5"
+        },
+        {
+          "clip_line_id": "TK5.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t4_nurse_station",
+          "motion": "still",
+          "text": "この悲劇が遺した最大の教訓はただ一つ、「常に自分自身の直感を信じ、耳を傾けること」です。",
+          "characters_spoken": 44,
+          "est_dur_s": 6.56,
+          "src_script": "5.08#4"
+        },
+        {
+          "clip_line_id": "TK5.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t4_amy_scrubs",
+          "motion": "push",
+          "text": "看護師Amy Loughrenの勇気は、恐怖を乗り越えて声を上げた一人の人間が、無数の生命を救い得ることを証明しました。",
+          "characters_spoken": 59,
+          "est_dur_s": 8.79,
+          "src_script": "5.08#6"
+        },
+        {
+          "clip_line_id": "TK5.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.8,
+          "bg": "t4_closing_desk",
+          "motion": "pull",
+          "text": "不正の前の沈黙は決して平穏をもたらさず、ただ暗闇が罪なき人々を飲み込む手助けをするだけなのです。",
+          "characters_spoken": 48,
+          "est_dur_s": 7.15,
+          "src_script": "5.08#7"
+        },
+        {
+          "clip_line_id": "TK5.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t4_closing_desk",
+          "motion": "still",
+          "text": "Amber Eyes第4話。プロフィールリンクから完全版ドキュメンタリーをご覧ください。",
+          "characters_spoken": 43,
+          "est_dur_s": 6.41,
+          "src_script": "CTA — không phải dữ kiện kịch bản"
+        }
+      ],
+      "total_est_duration_s": 74.8
+    }
+  }
+}

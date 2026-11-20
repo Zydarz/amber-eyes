@@ -23,6 +23,7 @@
 | Phương án tạo hình 5 nhân vật | `00_TIEU_CHUAN/PhuongAn_TaoHinh_5NhanVat.md` |
 | Việc còn phải làm trước khi đăng | Tập 01: mục B2 kế hoạch Tập 01 · Tập 02: mục B2 kế hoạch Tập 02 + `xuat_ban/nguon_tham_khao.md` |
 | Nguồn gốc / bản quyền từng tài sản | `provenance.json` |
+| **Kế hoạch & kịch bản Clip dọc TikTok** | `02_SAN_XUAT/TIKTOK/KE_HOACH_TIKTOK.md` · chi tiết từng tập: `02_SAN_XUAT/TIKTOK/TapXX/` |
 | Tài liệu, bản dựng cũ | `90_LUU_TRU/` |
 
 ## Trạng thái các tập (23/10/2026)

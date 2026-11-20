@@ -1,0 +1,972 @@
+{
+  "_readme": "SPEC_AUDIO_CLIP_TAP03_JA.json — Audio specs for 5 Japanese TikTok clips (TK1–TK5).",
+  "_episode": "03_JA",
+  "_language": "ja",
+  "_title": "IQ 145の巨人と精神解剖の鏡",
+  "_measured_rates": {
+    "H": 0.1513,
+    "N1": 0.1589,
+    "D": 0.1625,
+    "N2": 0.1414,
+    "C": 0.1703
+  },
+  "_clips_summary": {
+    "TK1": {
+      "title": "私を止めてください。私はそれをもう一度するつもりです",
+      "lines_count": 10,
+      "characters_count": 497,
+      "est_dur_s": 82.9,
+      "psychological_signs": [
+        4,
+        6
+      ]
+    },
+    "TK2": {
+      "title": "警察官とビールを飲みながら殺人鬼について語る",
+      "lines_count": 10,
+      "characters_count": 488,
+      "est_dur_s": 79.2,
+      "psychological_signs": [
+        9,
+        1
+      ]
+    },
+    "TK3": {
+      "title": "幼少期の地下室と食卓の下の落とし戸",
+      "lines_count": 11,
+      "characters_count": 475,
+      "est_dur_s": 84.4,
+      "psychological_signs": [
+        2,
+        3
+      ]
+    },
+    "TK4": {
+      "title": "IQ 145の巨人がFBIに自らの精神を開放した理由",
+      "lines_count": 11,
+      "characters_count": 496,
+      "est_dur_s": 85.4,
+      "psychological_signs": [
+        7,
+        8
+      ]
+    },
+    "TK5": {
+      "title": "マクドナルドの3徴候と4つの初期警告サイン",
+      "lines_count": 9,
+      "characters_count": 416,
+      "est_dur_s": 71.9,
+      "psychological_signs": [
+        10
+      ]
+    }
+  },
+  "clips": {
+    "TK1": {
+      "id": "TK1",
+      "title": "私を止めてください。私はそれをもう一度するつもりです",
+      "theme": "全能妄想の崩壊と心理的限界点（トリガー）",
+      "psychological_signs": [
+        4,
+        6
+      ],
+      "bgm": "bgm_sub_drone.mp3",
+      "sfx": [
+        "amb_winter_wind.wav (環境音)",
+        "fx_coin_drop.wav",
+        "fx_phone_dial.wav",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK1.01#1",
+          "text": "コロラド州プエブロ · 1973年4月24日 午前4時",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK1.01#4",
+          "text": "「私は母と…6人の女子大生を殺しました」",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#6",
+          "text": "「私を止めてください。もう一度やってしまう」",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#8",
+          "text": "銃3丁 · 実弾数百発 · 無抵抗で自首",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#9",
+          "text": "心理的限界点：万能妄想の完全崩壊",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK1.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t3_phone_booth",
+          "motion": "still",
+          "text": "私を止めてください。私はそれをもう一度するつもりです。",
+          "characters_spoken": 27,
+          "est_dur_s": 4.09,
+          "src_script": "1.10#10 · 1.10#11"
+        },
+        {
+          "clip_line_id": "TK1.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_dispatch_desk",
+          "motion": "pull",
+          "text": "1973年4月24日、午前4時。カリフォルニア州サンタクルーズ警察本部の当直電話が鳴り響きました。",
+          "characters_spoken": 49,
+          "est_dur_s": 7.42,
+          "src_script": "1.03#1 · 1.03#3"
+        },
+        {
+          "clip_line_id": "TK1.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_phone_booth",
+          "motion": "pan",
+          "text": "電話の主は、1,600キロ以上離れたコロラド州プエブロの公衆電話からかけてきたエドマンド・ケンパーでした。",
+          "characters_spoken": 53,
+          "est_dur_s": 8.02,
+          "src_script": "1.03#2 · 1.03#3 · 1.03#5"
+        },
+        {
+          "clip_line_id": "TK1.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_phone_booth",
+          "motion": "push",
+          "text": "極めて落ち着いた声で、彼はこう告げました。<#0.35#> 私は母と、その友人を殺しました。そして、女子学生たちを殺しました。6人です。",
+          "characters_spoken": 59,
+          "est_dur_s": 8.93,
+          "src_script": "1.05#4 · 1.05#5 · 1.05#6"
+        },
+        {
+          "clip_line_id": "TK1.01#5",
+          "role": "N1",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_dispatch_desk",
+          "motion": "still",
+          "text": "当初、当直係は酔っ払いのいたずら電話だと思い、かけ直すよう伝えました。",
+          "characters_spoken": 35,
+          "est_dur_s": 5.56,
+          "src_script": "1.09#1 · 1.09#3"
+        },
+        {
+          "clip_line_id": "TK1.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_phone_booth",
+          "motion": "push",
+          "text": "2時間後に彼が再び電話してきたとき、その警告は捜査員たちを凍りつかせました。<#0.35#> 私を止めてください。私はそれをもう一度するつもりです。",
+          "characters_spoken": 65,
+          "est_dur_s": 9.84,
+          "src_script": "1.09#4 · 1.10#10 · 1.10#11"
+        },
+        {
+          "clip_line_id": "TK1.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_phone_booth",
+          "motion": "still",
+          "text": "彼は犯行を自慢するために電話したのではありません。自分自身を止められなくなる恐怖から電話したのです。",
+          "characters_spoken": 50,
+          "est_dur_s": 7.57,
+          "src_script": "1.10#12 · 1.10#13"
+        },
+        {
+          "clip_line_id": "TK1.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t3_apartos_house",
+          "motion": "pan",
+          "text": "パトカーが到着したとき、身長2メートル06の巨漢は公衆電話の中で静かに自首し、車内には銃3丁と数百発の実弾が積まれていました。",
+          "characters_spoken": 63,
+          "est_dur_s": 10.24,
+          "src_script": "1.03#6 · 1.07#4 · 1.09#5 · 1.09#6"
+        },
+        {
+          "clip_line_id": "TK1.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_brain_mirror",
+          "motion": "pull",
+          "text": "究極の標的であった母親の死によって、彼の万能妄想は崩壊しました。極度の空虚感が、彼を心理的限界点へと追いやったのです。",
+          "characters_spoken": 59,
+          "est_dur_s": 10.05,
+          "src_script": "1.10#8 · 1.10#9 · 4.07#8 · 4.07#9"
+        },
+        {
+          "clip_line_id": "TK1.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t3_closing_desk",
+          "motion": "still",
+          "text": "Amber Eyes 第3話。事件の全貌はバイオのリンクからご覧いただけます。",
+          "characters_spoken": 37,
+          "est_dur_s": 5.6,
+          "src_script": "CTA"
+        }
+      ]
+    },
+    "TK2": {
+      "id": "TK2",
+      "title": "警察官とビールを飲みながら殺人鬼について語る",
+      "theme": "知性のハロー効果と法執行機関の心理的盲点",
+      "psychological_signs": [
+        9,
+        1
+      ],
+      "bgm": "bgm_jazz_noir.mp3",
+      "sfx": [
+        "amb_bar.wav (環境音)",
+        "fx_beer_pour.wav",
+        "fx_glass_clink.wav",
+        "fx_car_drive.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK2.01#1",
+          "text": "バー「THE JURY ROOM」 · 地方裁判所の真正面",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK2.01#3",
+          "text": "2m06 · 127kg · メガネ · 紳士的で温厚な語り口",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#5",
+          "text": "黄色いフォードに貼られた大学職員ステッカー",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#7",
+          "text": "捜査員に犯人の心理プロファイルをアドバイス",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK2.01#9",
+          "text": "知性のハロー効果（組織の心理的盲点）",
+          "dur_s": 2.5
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK2.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t3_bar_stool_shadow",
+          "motion": "still",
+          "text": "警察官とビールを飲み、自らの事件について語る。",
+          "characters_spoken": 23,
+          "est_dur_s": 3.48,
+          "src_script": "1.03#7 · 2.09#8 · 2.09#9"
+        },
+        {
+          "clip_line_id": "TK2.01#2",
+          "role": "N2",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_bar_jury_room",
+          "motion": "pull",
+          "text": "サンタクルーズ裁判所の真正面にあるバー「The Jury Room」は、当直を終えた刑事や警察官が集まる行きつけの店でした。",
+          "characters_spoken": 60,
+          "est_dur_s": 8.48,
+          "src_script": "2.09#1"
+        },
+        {
+          "clip_line_id": "TK2.01#3",
+          "role": "N2",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_bar_stool_shadow",
+          "motion": "pan",
+          "text": "ビッグ・エドはいつもバーの隅の席に座っていました。身長2メートル06、メガネをかけ、法律に詳しく非常に礼儀正しい男でした。",
+          "characters_spoken": 61,
+          "est_dur_s": 8.62,
+          "src_script": "1.03#6 · 2.07#12 · 2.09#2 · 2.09#3"
+        },
+        {
+          "clip_line_id": "TK2.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t3_galaxie",
+          "motion": "still",
+          "text": "昼間、彼はバンパーに大学職員用駐車ステッカーを貼った、1969年型の黄色いフォード・ギャラクシーを運転していました。",
+          "characters_spoken": 58,
+          "est_dur_s": 9.43,
+          "src_script": "2.07#2 · 2.07#3 · 2.07#4"
+        },
+        {
+          "clip_line_id": "TK2.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t3_hitchhiker",
+          "motion": "push",
+          "text": "大学のステッカーと知的で物静かな外見は、ヒッチハイクをする女子学生たちに絶対的な安心感を与えていたのです。",
+          "characters_spoken": 53,
+          "est_dur_s": 8.61,
+          "src_script": "2.07#5 · 2.07#10 · 2.07#12"
+        },
+        {
+          "clip_line_id": "TK2.01#6",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.8,
+          "bg": "t3_bar_jury_room",
+          "motion": "still",
+          "text": "刑事たちがエドと一緒にビールを飲みながら、女子大生殺人鬼の捜査が難航している苦悩を打ち明ける夜もありました。",
+          "characters_spoken": 54,
+          "est_dur_s": 7.63,
+          "src_script": "2.09#6"
+        },
+        {
+          "clip_line_id": "TK2.01#7",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.8,
+          "bg": "t3_bar_stool_shadow",
+          "motion": "push",
+          "text": "エドは相槌を打ちながら分析し、犯人の心理について鋭い仮説を捜査員たちに助言してくれたのです。",
+          "characters_spoken": 46,
+          "est_dur_s": 6.5,
+          "src_script": "2.09#7"
+        },
+        {
+          "clip_line_id": "TK2.01#8",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.7,
+          "bg": "t3_bar_stool_shadow",
+          "motion": "pull",
+          "text": "思い返すと背筋が凍ります。街中が必死に追っていた怪物が、私たちの隣で捜査について笑っていたのです。",
+          "characters_spoken": 49,
+          "est_dur_s": 6.93,
+          "src_script": "2.09#8 · 2.09#9"
+        },
+        {
+          "clip_line_id": "TK2.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_brain_mirror",
+          "motion": "still",
+          "text": "ハロー効果。卓越した知性と温厚な態度は、法執行機関そのものを欺く不可視の偽装壁となったのです。",
+          "characters_spoken": 47,
+          "est_dur_s": 8.0,
+          "src_script": "2.07#10 · 5.06#3 · 5.06#4"
+        },
+        {
+          "clip_line_id": "TK2.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t3_closing_desk",
+          "motion": "still",
+          "text": "Amber Eyes 第3話。事件の全貌はバイオのリンクからご覧いただけます。",
+          "characters_spoken": 37,
+          "est_dur_s": 5.6,
+          "src_script": "CTA"
+        }
+      ]
+    },
+    "TK3": {
+      "id": "TK3",
+      "title": "幼少期の地下室と食卓の下の落とし戸",
+      "theme": "母性トラウマと投影機制（代理被害者）",
+      "psychological_signs": [
+        2,
+        3
+      ],
+      "bgm": "bgm_cello_sad_v2.mp3",
+      "sfx": [
+        "amb_basement.wav (環境音)",
+        "fx_water_drip.wav",
+        "fx_trapdoor_creak.wav",
+        "fx_sub_drop.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK3.01#1",
+          "text": "モンタナ州の地下室 · 1950年代の幼少期",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK3.01#3",
+          "text": "ダイニングテーブルの真下にある落とし戸",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#5",
+          "text": "体系的な人格否定と精神的虐待",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#7",
+          "text": "投影機制（PROJECTION）",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK3.01#8",
+          "text": "代理被害者（PROXY VICTIMS）",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#10",
+          "text": "精神分析的解釈 · 臨床的枠組み",
+          "dur_s": 2.5
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK3.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t3_basement_stairs",
+          "motion": "still",
+          "text": "8歳。食卓の下にある落とし戸の地下室に閉じ込められた。",
+          "characters_spoken": 27,
+          "est_dur_s": 4.09,
+          "src_script": "3.05#6 · 3.05#7"
+        },
+        {
+          "clip_line_id": "TK3.01#2",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_coal_furnace",
+          "motion": "push",
+          "text": "ケンパーの母クラネルは、息子の中に自分が憎悪する元夫の面影を見ていました。",
+          "characters_spoken": 37,
+          "est_dur_s": 6.3,
+          "src_script": "3.05#4 · 3.05#5"
+        },
+        {
+          "clip_line_id": "TK3.01#3",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_small_bed",
+          "motion": "still",
+          "text": "8歳の頃から、エドは石炭ストーブの隣の湿った地下室に追いやられ、その真上にはダイニングテーブルがありました。",
+          "characters_spoken": 54,
+          "est_dur_s": 9.2,
+          "src_script": "3.05#6 · 3.05#7"
+        },
+        {
+          "clip_line_id": "TK3.01#4",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_trapdoor",
+          "motion": "pull",
+          "text": "外に出るには重い食卓を持ち上げなければならず、父親が警察に通報すると脅すまで監禁は続きました。",
+          "characters_spoken": 47,
+          "est_dur_s": 8.0,
+          "src_script": "3.05#7 · 3.05#8"
+        },
+        {
+          "clip_line_id": "TK3.01#5",
+          "role": "C",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.7,
+          "bg": "t3_basement_stairs",
+          "motion": "pan",
+          "text": "母親は毎日、彼の巨大な体格を罵倒し、自尊心を徹底的に踏みにじり続けました。",
+          "characters_spoken": 37,
+          "est_dur_s": 6.3,
+          "src_script": "3.05#9 · 3.05#12"
+        },
+        {
+          "clip_line_id": "TK3.01#6",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_mother_shadow",
+          "motion": "still",
+          "text": "少年の無意識の中で、母親は憎しみながらも決して逆らえない絶対的な権力の偶像と化していったのです。",
+          "characters_spoken": 48,
+          "est_dur_s": 8.17,
+          "src_script": "3.08#6"
+        },
+        {
+          "clip_line_id": "TK3.01#7",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_ucsc_campus",
+          "motion": "push",
+          "text": "母親へ直接復讐できない脳は、投影のメカニズムを作動させ、代替の被害者を求め始めました。",
+          "characters_spoken": 43,
+          "est_dur_s": 7.32,
+          "src_script": "3.08#1 · 3.08#7 · 3.08#11"
+        },
+        {
+          "clip_line_id": "TK3.01#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_hitchhiker",
+          "motion": "pull",
+          "text": "路肩に立つ若く美しい女子大生たちは、彼が渇望しながらも、母親と同じように自分を拒絶すると信じた自由の象徴でした。",
+          "characters_spoken": 56,
+          "est_dur_s": 9.54,
+          "src_script": "3.08#10 · 3.08#11"
+        },
+        {
+          "clip_line_id": "TK3.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_apartos_house",
+          "motion": "pan",
+          "text": "無実の女性たちが、彼が母親に向けていた殺意の代理被害者として犠牲となったのです。",
+          "characters_spoken": 40,
+          "est_dur_s": 6.05,
+          "src_script": "3.08#11 · 3.08#13"
+        },
+        {
+          "clip_line_id": "TK3.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_brain_mirror",
+          "motion": "still",
+          "text": "医学的注記：精神科医の間でも診断には議論がありました。これは行動を理解するための理論的枠組みです。",
+          "characters_spoken": 49,
+          "est_dur_s": 7.42,
+          "src_script": "3.04#1 · 3.08#3 · 3.11#6"
+        },
+        {
+          "clip_line_id": "TK3.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t3_closing_desk",
+          "motion": "still",
+          "text": "Amber Eyes 第3話。事件の全貌はバイオのリンクからご覧いただけます。",
+          "characters_spoken": 37,
+          "est_dur_s": 5.6,
+          "src_script": "CTA"
+        }
+      ]
+    },
+    "TK4": {
+      "id": "TK4",
+      "title": "IQ 145の巨人がFBIに自らの精神を開放した理由",
+      "theme": "暴力妄想サイクルと心理的署名（FBIマインドハンターの起源）",
+      "psychological_signs": [
+        7,
+        8
+      ],
+      "bgm": "bgm_ambient_deep.mp3",
+      "sfx": [
+        "amb_prison.wav (環境音)",
+        "fx_iron_door.wav",
+        "fx_tape_click.wav",
+        "fx_tension_tick.wav",
+        "fx_sub_drop.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK4.01#1",
+          "text": "ヴァカヴィル医療施設 · 1978年 · FBI特別捜査官",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK4.01#3",
+          "text": "IQ 145 · 人類の最上位0.13%の天才的頭脳",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#5",
+          "text": "暴力妄想サイクル（FANTASY CYCLE）",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#7",
+          "text": "記念品：全能感を再び体験するための触媒",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#9",
+          "text": "心理的署名（SIGNATURE） vs 手口（MO）",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK4.01#10",
+          "text": "名作『マインドハンター』の礎となった記録",
+          "dur_s": 2.5
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK4.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t3_vacaville_1978",
+          "motion": "still",
+          "text": "IQ 145。FBIの捜査手法を永遠に変えた頭脳。",
+          "characters_spoken": 24,
+          "est_dur_s": 3.63,
+          "src_script": "1.13#2 · 4.02#4 · 4.08#1"
+        },
+        {
+          "clip_line_id": "TK4.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t3_two_agents",
+          "motion": "pull",
+          "text": "1978年、FBIの伝説的捜査官ロバート・レスラーとジョン・ダグラスがヴァカヴィルの独房に入りました。",
+          "characters_spoken": 51,
+          "est_dur_s": 8.29,
+          "src_script": "4.02#1 · 4.02#4 · 4.02#8"
+        },
+        {
+          "clip_line_id": "TK4.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t3_giant_doorway",
+          "motion": "still",
+          "text": "ケンパーは山のように扉を塞ぎましたが、丁重に微笑み、大学教授のような落ち着いた口調で語り始めました。",
+          "characters_spoken": 50,
+          "est_dur_s": 8.13,
+          "src_script": "4.05#1 · 4.05#2 · 4.05#3"
+        },
+        {
+          "clip_line_id": "TK4.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t3_interview_room",
+          "motion": "push",
+          "text": "IQ 145を持つ彼は、減刑も弁護士も求めず、外科医のような冷徹さで自らの内面を解剖してみせました。",
+          "characters_spoken": 49,
+          "est_dur_s": 7.96,
+          "src_script": "1.13#2 · 1.13#5 · 4.05#4 · 4.05#13 · 4.05#14"
+        },
+        {
+          "clip_line_id": "TK4.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t3_cassette",
+          "motion": "pan",
+          "text": "ケンパーはFBIに画期的な概念を提示しました。それが「暴力妄想のサイクル」です。",
+          "characters_spoken": 40,
+          "est_dur_s": 6.5,
+          "src_script": "4.07#1 · 4.07#2"
+        },
+        {
+          "clip_line_id": "TK4.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t3_fantasy_spiral",
+          "motion": "push",
+          "text": "犯罪は凶器を手にした瞬間に始まるのではなく、何年にも及ぶ数百回の頭の中での予行演習から始まります。",
+          "characters_spoken": 49,
+          "est_dur_s": 7.96,
+          "src_script": "4.07#3 · 4.07#4 · 4.07#5"
+        },
+        {
+          "clip_line_id": "TK4.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t3_trophy_box",
+          "motion": "still",
+          "text": "戦利品を集めた理由について、犯行後の興奮が消えたとき、支配の快感を再び呼び起こすための触媒だと説明しました。",
+          "characters_spoken": 54,
+          "est_dur_s": 8.78,
+          "src_script": "4.07#6 · 4.07#7"
+        },
+        {
+          "clip_line_id": "TK4.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_organized_split",
+          "motion": "pull",
+          "text": "ケンパーら36人の服役囚との対話は、FBIの秩序型殺人犯の分類や全国追跡システムViCAPの礎となりました。",
+          "characters_spoken": 54,
+          "est_dur_s": 8.17,
+          "src_script": "1.13#6 · 1.13#7 · 4.08#1 · 4.08#2 · 4.08#3"
+        },
+        {
+          "clip_line_id": "TK4.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_self_observation",
+          "motion": "still",
+          "text": "現場には物理的証拠だけでなく、犯人特有の感情的欲求である心理的署名が刻まれるのです。",
+          "characters_spoken": 42,
+          "est_dur_s": 7.15,
+          "src_script": "4.08#4"
+        },
+        {
+          "clip_line_id": "TK4.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_case_photos",
+          "motion": "push",
+          "text": "この記録は現代プロファイリングの出発点となり、名作『マインドハンター』のモデルとなりました。",
+          "characters_spoken": 46,
+          "est_dur_s": 6.96,
+          "src_script": "4.08#6 · 4.08#7"
+        },
+        {
+          "clip_line_id": "TK4.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t3_closing_desk",
+          "motion": "still",
+          "text": "Amber Eyes 第3話。事件の全貌はバイオのリンクからご覧いただけます。",
+          "characters_spoken": 37,
+          "est_dur_s": 5.6,
+          "src_script": "CTA"
+        }
+      ]
+    },
+    "TK5": {
+      "id": "TK5",
+      "title": "マクドナルドの3徴候と4つの初期警告サイン",
+      "theme": "被害者学と生存のための4つの危険信号（マクドナルドの3徴候）",
+      "psychological_signs": [
+        10
+      ],
+      "bgm": "bgm_piano_minimal.mp3",
+      "sfx": [
+        "amb_wind_soft.wav (環境音)",
+        "fx_clock_tick.wav",
+        "fx_stinger.wav",
+        "fx_sub_drop.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK5.01#1",
+          "text": "犯罪心理学が警鐘を鳴らす4つの重要シグナル",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK5.01#2",
+          "text": "第1の兆候：幼少期のマクドナルド3徴候",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#4",
+          "text": "第2の兆候：家庭内での極端な精神的虐待",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#5",
+          "text": "第3の兆候：現実から遊離した支配妄想への没頭",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#6",
+          "text": "第4の兆候：高い知性と感情の冷淡さの結合",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK5.01#8",
+          "text": "子どもの心の傷を家庭で癒すことの重要性",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK5.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t3_red_flags",
+          "motion": "still",
+          "text": "4つの初期警告サイン。犠牲者を二度と出さないために。",
+          "characters_spoken": 26,
+          "est_dur_s": 3.93,
+          "src_script": "5.04#1 · 5.08#11"
+        },
+        {
+          "clip_line_id": "TK5.01#2",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_gift_drowned",
+          "motion": "push",
+          "text": "第1の兆候：幼少期のマクドナルドの3徴候。10歳の頃から始まった意図的かつ計画的な動物虐待。",
+          "characters_spoken": 46,
+          "est_dur_s": 7.83,
+          "src_script": "5.05#1 · 5.05#2 · 5.05#4 · 5.05#6"
+        },
+        {
+          "clip_line_id": "TK5.01#3",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_gift_drowned",
+          "motion": "pull",
+          "text": "これは共感能力の著しい欠如と暴力のエスカレーションを示す、見逃してはならない重大な警告でした。",
+          "characters_spoken": 47,
+          "est_dur_s": 8.0,
+          "src_script": "5.05#6"
+        },
+        {
+          "clip_line_id": "TK5.01#4",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_coal_furnace",
+          "motion": "pan",
+          "text": "第2の兆候：家庭内での極端な精神的虐待。子どもを閉鎖空間に隔離し、長期間にわたり尊厳を否定すること。",
+          "characters_spoken": 50,
+          "est_dur_s": 8.52,
+          "src_script": "5.05#7 · 5.05#8"
+        },
+        {
+          "clip_line_id": "TK5.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t3_fantasy_spiral",
+          "motion": "still",
+          "text": "第3の兆候：現実から切り離された支配の妄想世界に一人で深く没頭し、武器に異常な関心を持つこと。",
+          "characters_spoken": 47,
+          "est_dur_s": 7.64,
+          "src_script": "5.06#1 · 5.06#2"
+        },
+        {
+          "clip_line_id": "TK5.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t3_self_observation",
+          "motion": "push",
+          "text": "そして第4の兆候：高い知性と感情の冷たさ。大人を言い負かし操る能力を持ちながら、他人の痛みに涙を流せないこと。",
+          "characters_spoken": 55,
+          "est_dur_s": 8.94,
+          "src_script": "5.06#3 · 5.06#4"
+        },
+        {
+          "clip_line_id": "TK5.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_life_sentence",
+          "motion": "pull",
+          "text": "エドマンド・ケンパーは天才的な頭脳と体力を与えられながら、虐待のるつぼの中で破壊兵器へと変貌しました。",
+          "characters_spoken": 51,
+          "est_dur_s": 7.72,
+          "src_script": "5.08#8 · 5.08#9"
+        },
+        {
+          "clip_line_id": "TK5.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.8,
+          "bg": "t3_closing_desk",
+          "motion": "still",
+          "text": "悪を鉄格子の向こうに閉じ込めるのは法の役目です。しかし、子どもの心の傷を家庭で癒すことこそが悪を防ぐ唯一の道です。",
+          "characters_spoken": 57,
+          "est_dur_s": 8.63,
+          "src_script": "5.08#10 · 5.08#11"
+        },
+        {
+          "clip_line_id": "TK5.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t3_closing_desk",
+          "motion": "still",
+          "text": "Amber Eyes 第3話。事件の全貌はバイオのリンクからご覧いただけます。",
+          "characters_spoken": 37,
+          "est_dur_s": 5.6,
+          "src_script": "CTA"
+        }
+      ]
+    }
+  }
+}

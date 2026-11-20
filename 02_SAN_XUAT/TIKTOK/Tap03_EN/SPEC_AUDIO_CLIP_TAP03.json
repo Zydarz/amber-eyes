@@ -1,0 +1,972 @@
+{
+  "_readme": "SPEC_AUDIO_CLIP_TAP03_EN.json — Audio specs for 5 English TikTok clips (TK1–TK5).",
+  "_episode": "03_EN",
+  "_language": "en",
+  "_title": "The IQ 145 Giant & The Mirror of Psychological Autopsy",
+  "_measured_rates": {
+    "H": 0.3473,
+    "N1": 0.2753,
+    "D": 0.4022,
+    "N2": 0.3483,
+    "C": 0.3912
+  },
+  "_clips_summary": {
+    "TK1": {
+      "title": "Stop Me. I’m Going to Do It Again",
+      "lines_count": 10,
+      "words_count": 176,
+      "est_dur_s": 67.7,
+      "psychological_signs": [
+        4,
+        6
+      ]
+    },
+    "TK2": {
+      "title": "Drinking with Cops and Discussing the Killer",
+      "lines_count": 10,
+      "words_count": 177,
+      "est_dur_s": 70.4,
+      "psychological_signs": [
+        9,
+        1
+      ]
+    },
+    "TK3": {
+      "title": "The Childhood Basement and the Trapdoor Beneath the Table",
+      "lines_count": 11,
+      "words_count": 194,
+      "est_dur_s": 79.5,
+      "psychological_signs": [
+        2,
+        3
+      ]
+    },
+    "TK4": {
+      "title": "The IQ 145 Giant Opens His Mind to the FBI",
+      "lines_count": 11,
+      "words_count": 184,
+      "est_dur_s": 76.7,
+      "psychological_signs": [
+        7,
+        8
+      ]
+    },
+    "TK5": {
+      "title": "The Macdonald Triad and Four Early Red Flags",
+      "lines_count": 9,
+      "words_count": 156,
+      "est_dur_s": 63.5,
+      "psychological_signs": [
+        10
+      ]
+    }
+  },
+  "clips": {
+    "TK1": {
+      "id": "TK1",
+      "title": "Stop Me. I’m Going to Do It Again",
+      "theme": "Collapse of Power Fantasy & Precipitating Psychological Trigger",
+      "psychological_signs": [
+        4,
+        6
+      ],
+      "bgm": "bgm_sub_drone.mp3",
+      "sfx": [
+        "amb_winter_wind.wav (bed)",
+        "fx_coin_drop.wav",
+        "fx_phone_dial.wav",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK1.01#1",
+          "text": "PUEBLO, COLORADO · 4:00 AM · APRIL 24, 1973",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK1.01#4",
+          "text": "“I KILLED MY MOTHER... AND SIX COLLEGE GIRLS”",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#6",
+          "text": "“STOP ME. I'M GOING TO DO IT AGAIN”",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#8",
+          "text": "3 RIFLES · HUNDREDS OF ROUNDS · SURRENDER",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#9",
+          "text": "PRECIPITATING TRIGGER: FANTASY COLLAPSE",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK1.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t3_phone_booth",
+          "motion": "still",
+          "text": "Stop me. I’m going to do it again.",
+          "words_spoken": 8,
+          "est_dur_s": 2.78,
+          "src_script": "1.10#10 · 1.10#11"
+        },
+        {
+          "clip_line_id": "TK1.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_dispatch_desk",
+          "motion": "pull",
+          "text": "At four in the morning on April twenty-fourth, 1973, the desk phone rang at Santa Cruz police headquarters.",
+          "words_spoken": 18,
+          "est_dur_s": 6.25,
+          "src_script": "1.03#1 · 1.03#3"
+        },
+        {
+          "clip_line_id": "TK1.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_phone_booth",
+          "motion": "pan",
+          "text": "On the line was Edmund Kemper, calling from a roadside payphone in Pueblo, Colorado, over a thousand miles away.",
+          "words_spoken": 19,
+          "est_dur_s": 6.6,
+          "src_script": "1.03#2 · 1.03#3 · 1.03#5"
+        },
+        {
+          "clip_line_id": "TK1.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_phone_booth",
+          "motion": "push",
+          "text": "His voice was calm and deliberate: <#0.35#> I killed my mother and her friend. And I killed those college girls. Six of them.",
+          "words_spoken": 22,
+          "est_dur_s": 7.64,
+          "src_script": "1.05#4 · 1.05#5 · 1.05#6"
+        },
+        {
+          "clip_line_id": "TK1.01#5",
+          "role": "N1",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_dispatch_desk",
+          "motion": "still",
+          "text": "At first, dispatch assumed it was an intoxicated prank and told him to call back later.",
+          "words_spoken": 16,
+          "est_dur_s": 4.4,
+          "src_script": "1.09#1 · 1.09#3"
+        },
+        {
+          "clip_line_id": "TK1.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_phone_booth",
+          "motion": "push",
+          "text": "Two hours later he called again, with words that chilled the room: <#0.35#> Stop me. I’m going to do it again.",
+          "words_spoken": 20,
+          "est_dur_s": 6.95,
+          "src_script": "1.09#4 · 1.10#10 · 1.10#11"
+        },
+        {
+          "clip_line_id": "TK1.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_phone_booth",
+          "motion": "still",
+          "text": "He didn’t call to boast. He called because he was terrified that he couldn’t stop himself.",
+          "words_spoken": 16,
+          "est_dur_s": 5.56,
+          "src_script": "1.10#12 · 1.10#13"
+        },
+        {
+          "clip_line_id": "TK1.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t3_apartos_house",
+          "motion": "pan",
+          "text": "When patrol cars arrived, the six-foot-nine giant sat peacefully in the booth, with three rifles and hundreds of rounds in his car.",
+          "words_spoken": 22,
+          "est_dur_s": 8.85,
+          "src_script": "1.03#6 · 1.07#4 · 1.09#5 · 1.09#6"
+        },
+        {
+          "clip_line_id": "TK1.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_brain_mirror",
+          "motion": "pull",
+          "text": "With his ultimate target — his mother — dead, the omnipotent fantasy dissolved into profound emptiness, precipitating his psychological collapse.",
+          "words_spoken": 20,
+          "est_dur_s": 7.82,
+          "src_script": "1.10#8 · 1.10#9 · 4.07#8 · 4.07#9"
+        },
+        {
+          "clip_line_id": "TK1.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t3_closing_desk",
+          "motion": "still",
+          "text": "Episode three of Amber Eyes. Watch the full dossier via the link in our bio.",
+          "words_spoken": 15,
+          "est_dur_s": 5.21,
+          "src_script": "CTA"
+        }
+      ]
+    },
+    "TK2": {
+      "id": "TK2",
+      "title": "Drinking with Cops and Discussing the Killer",
+      "theme": "Intellectual Halo Effect & Institutional Blind Spots",
+      "psychological_signs": [
+        9,
+        1
+      ],
+      "bgm": "bgm_jazz_noir.mp3",
+      "sfx": [
+        "amb_bar.wav (bed)",
+        "fx_beer_pour.wav",
+        "fx_glass_clink.wav",
+        "fx_car_drive.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK2.01#1",
+          "text": "THE JURY ROOM BAR · ACROSS FROM COUNTY COURTHOUSE",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK2.01#3",
+          "text": "6'9\" · 280 LBS · WIRE GLASSES · POLITE DEMEANOR",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#5",
+          "text": "UCSC PARKING DECAL ON YELLOW FORD GALAXIE",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#7",
+          "text": "ANALYZING KILLER PSYCHOLOGY FOR DETECTIVES",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK2.01#9",
+          "text": "INTELLECTUAL HALO EFFECT (BLIND SPOTS)",
+          "dur_s": 2.5
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK2.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t3_bar_stool_shadow",
+          "motion": "still",
+          "text": "Drinking with the police. And discussing his own murders.",
+          "words_spoken": 9,
+          "est_dur_s": 3.13,
+          "src_script": "1.03#7 · 2.09#8 · 2.09#9"
+        },
+        {
+          "clip_line_id": "TK2.01#2",
+          "role": "N2",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_bar_jury_room",
+          "motion": "pull",
+          "text": "The Jury Room bar sat directly across from the Santa Cruz County Courthouse, a familiar haunt for detectives after shift.",
+          "words_spoken": 20,
+          "est_dur_s": 6.97,
+          "src_script": "2.09#1"
+        },
+        {
+          "clip_line_id": "TK2.01#3",
+          "role": "N2",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_bar_stool_shadow",
+          "motion": "pan",
+          "text": "Big Ed was a fixture in the corner. Standing six-foot-nine, wearing wire-rimmed glasses, remarkably courteous and articulate in law.",
+          "words_spoken": 19,
+          "est_dur_s": 6.62,
+          "src_script": "1.03#6 · 2.07#12 · 2.09#2 · 2.09#3"
+        },
+        {
+          "clip_line_id": "TK2.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t3_galaxie",
+          "motion": "still",
+          "text": "By day, he drove a yellow nineteen sixty-nine Ford Galaxie bearing a university employee parking decal on the front bumper.",
+          "words_spoken": 20,
+          "est_dur_s": 8.04,
+          "src_script": "2.07#2 · 2.07#3 · 2.07#4"
+        },
+        {
+          "clip_line_id": "TK2.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t3_hitchhiker",
+          "motion": "push",
+          "text": "That trusted campus decal, combined with his gentle academic facade, made female hitchhikers believe the vehicle was completely safe.",
+          "words_spoken": 19,
+          "est_dur_s": 7.64,
+          "src_script": "2.07#5 · 2.07#10 · 2.07#12"
+        },
+        {
+          "clip_line_id": "TK2.01#6",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.8,
+          "bg": "t3_bar_jury_room",
+          "motion": "still",
+          "text": "There were nights detectives drank draft beer with Ed, venting our frustrations over the elusive Co-ed Killer investigation.",
+          "words_spoken": 18,
+          "est_dur_s": 6.27,
+          "src_script": "2.09#6"
+        },
+        {
+          "clip_line_id": "TK2.01#7",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.8,
+          "bg": "t3_bar_stool_shadow",
+          "motion": "push",
+          "text": "Ed would nod, sip his beer, analyze the evidence, and offer sharp theories about the killer’s psychological profile.",
+          "words_spoken": 18,
+          "est_dur_s": 6.27,
+          "src_script": "2.09#7"
+        },
+        {
+          "clip_line_id": "TK2.01#8",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.7,
+          "bg": "t3_bar_stool_shadow",
+          "motion": "pull",
+          "text": "Looking back, ice chills our spine: The monster the entire city was hunting sat beside us, laughing about the very manhunt.",
+          "words_spoken": 21,
+          "est_dur_s": 7.32,
+          "src_script": "2.09#8 · 2.09#9"
+        },
+        {
+          "clip_line_id": "TK2.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_brain_mirror",
+          "motion": "still",
+          "text": "The Halo Effect: superior intelligence and polite gentility formed an invisible camouflage blinding the entire law enforcement apparatus.",
+          "words_spoken": 18,
+          "est_dur_s": 7.04,
+          "src_script": "2.07#10 · 5.06#3 · 5.06#4"
+        },
+        {
+          "clip_line_id": "TK2.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t3_closing_desk",
+          "motion": "still",
+          "text": "Episode three of Amber Eyes. Watch the full dossier via the link in our bio.",
+          "words_spoken": 15,
+          "est_dur_s": 5.21,
+          "src_script": "CTA"
+        }
+      ]
+    },
+    "TK3": {
+      "id": "TK3",
+      "title": "The Childhood Basement and the Trapdoor Beneath the Table",
+      "theme": "Toxic Maternal Trauma & The Projection Mechanism (Proxy Victims)",
+      "psychological_signs": [
+        2,
+        3
+      ],
+      "bgm": "bgm_cello_sad_v2.mp3",
+      "sfx": [
+        "amb_basement.wav (bed)",
+        "fx_water_drip.wav",
+        "fx_trapdoor_creak.wav",
+        "fx_sub_drop.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK3.01#1",
+          "text": "MONTANA BASEMENT · 1950s CHILDHOOD",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK3.01#3",
+          "text": "TRAPDOOR BENEATH DINING TABLE",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#5",
+          "text": "SYSTEMATIC EMOTIONAL HUMILIATION",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#7",
+          "text": "PROJECTION MECHANISM",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK3.01#8",
+          "text": "PROXY VICTIMS (SURROGATES)",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#10",
+          "text": "THEORETICAL PSYCHOLOGICAL FRAMEWORK",
+          "dur_s": 2.5
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK3.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t3_basement_stairs",
+          "motion": "still",
+          "text": "Eight years old. Locked in a basement with a trapdoor under the table.",
+          "words_spoken": 13,
+          "est_dur_s": 4.51,
+          "src_script": "3.05#6 · 3.05#7"
+        },
+        {
+          "clip_line_id": "TK3.01#2",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_coal_furnace",
+          "motion": "push",
+          "text": "Kemper’s mother, Clarnell, saw in her son the hated reflection of her ex-husband.",
+          "words_spoken": 13,
+          "est_dur_s": 5.09,
+          "src_script": "3.05#4 · 3.05#5"
+        },
+        {
+          "clip_line_id": "TK3.01#3",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_small_bed",
+          "motion": "still",
+          "text": "From age eight, Ed was banished to sleep in a damp basement beside the coal furnace, under a trapdoor beneath the upstairs dining table.",
+          "words_spoken": 24,
+          "est_dur_s": 9.39,
+          "src_script": "3.05#6 · 3.05#7"
+        },
+        {
+          "clip_line_id": "TK3.01#4",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_trapdoor",
+          "motion": "pull",
+          "text": "To leave, the heavy table had to be lifted above. Confinement ended only when his father threatened police intervention.",
+          "words_spoken": 19,
+          "est_dur_s": 7.43,
+          "src_script": "3.05#7 · 3.05#8"
+        },
+        {
+          "clip_line_id": "TK3.01#5",
+          "role": "C",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.7,
+          "bg": "t3_basement_stairs",
+          "motion": "pan",
+          "text": "Every day, she subjected him to venomous verbal abuse, mocking his huge frame and crushing his self-esteem.",
+          "words_spoken": 17,
+          "est_dur_s": 6.65,
+          "src_script": "3.05#9 · 3.05#12"
+        },
+        {
+          "clip_line_id": "TK3.01#6",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_mother_shadow",
+          "motion": "still",
+          "text": "In the boy's psyche, the mother loomed as an omnipotent monument of cruelty: violently hated, yet too terrifying to confront.",
+          "words_spoken": 20,
+          "est_dur_s": 7.82,
+          "src_script": "3.08#6"
+        },
+        {
+          "clip_line_id": "TK3.01#7",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_ucsc_campus",
+          "motion": "push",
+          "text": "Unable to retaliate directly against her, Kemper's brain activated the projection mechanism: seeking proxy victims.",
+          "words_spoken": 15,
+          "est_dur_s": 5.87,
+          "src_script": "3.08#1 · 3.08#7 · 3.08#11"
+        },
+        {
+          "clip_line_id": "TK3.01#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_hitchhiker",
+          "motion": "pull",
+          "text": "Young, graceful female students on the roadside embodied the freedom he craved, yet believed would reject him just as his mother had.",
+          "words_spoken": 22,
+          "est_dur_s": 8.61,
+          "src_script": "3.08#10 · 3.08#11"
+        },
+        {
+          "clip_line_id": "TK3.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_apartos_house",
+          "motion": "pan",
+          "text": "Innocent young women bore the horrifying brunt of the murderous fury intended for his own mother.",
+          "words_spoken": 16,
+          "est_dur_s": 5.56,
+          "src_script": "3.08#11 · 3.08#13"
+        },
+        {
+          "clip_line_id": "TK3.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_brain_mirror",
+          "motion": "still",
+          "text": "A clinical note: psychiatrists offered varied diagnostic labels over the years. This represents an explanatory framework, not a moral trial.",
+          "words_spoken": 20,
+          "est_dur_s": 6.95,
+          "src_script": "3.04#1 · 3.08#3 · 3.11#6"
+        },
+        {
+          "clip_line_id": "TK3.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t3_closing_desk",
+          "motion": "still",
+          "text": "Episode three of Amber Eyes. Watch the full dossier via the link in our bio.",
+          "words_spoken": 15,
+          "est_dur_s": 5.21,
+          "src_script": "CTA"
+        }
+      ]
+    },
+    "TK4": {
+      "id": "TK4",
+      "title": "The IQ 145 Giant Opens His Mind to the FBI",
+      "theme": "The Violent Fantasy Cycle & Behavioral Signature vs MO (FBI Mindhunter)",
+      "psychological_signs": [
+        7,
+        8
+      ],
+      "bgm": "bgm_ambient_deep.mp3",
+      "sfx": [
+        "amb_prison.wav (bed)",
+        "fx_iron_door.wav",
+        "fx_tape_click.wav",
+        "fx_tension_tick.wav",
+        "fx_sub_drop.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK4.01#1",
+          "text": "VACAVILLE PRISON · 1978 · FBI PROFILERS",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK4.01#3",
+          "text": "145 IQ · TOP 0.13% INTELLECT WORLDWIDE",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#5",
+          "text": "THE VIOLENT FANTASY CYCLE",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#7",
+          "text": "SOUVENIRS: REIGNITING THE SENSATION OF POWER",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#9",
+          "text": "PSYCHOLOGICAL SIGNATURE vs MODUS OPERANDI",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK4.01#10",
+          "text": "FOUNDATION FOR MINDHUNTER",
+          "dur_s": 2.5
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK4.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t3_vacaville_1978",
+          "motion": "still",
+          "text": "An IQ of one hundred and forty-five. The mind that changed the FBI forever.",
+          "words_spoken": 14,
+          "est_dur_s": 4.86,
+          "src_script": "1.13#2 · 4.02#4 · 4.08#1"
+        },
+        {
+          "clip_line_id": "TK4.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t3_two_agents",
+          "motion": "pull",
+          "text": "In nineteen seventy-eight, FBI Special Agents Robert Ressler and John Douglas entered the prison cell at Vacaville.",
+          "words_spoken": 17,
+          "est_dur_s": 6.84,
+          "src_script": "4.02#1 · 4.02#4 · 4.02#8"
+        },
+        {
+          "clip_line_id": "TK4.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t3_giant_doorway",
+          "motion": "still",
+          "text": "Kemper filled the doorway like a mountain, but he smiled politely and spoke with the measured cadence of a professor.",
+          "words_spoken": 20,
+          "est_dur_s": 8.04,
+          "src_script": "4.05#1 · 4.05#2 · 4.05#3"
+        },
+        {
+          "clip_line_id": "TK4.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t3_interview_room",
+          "motion": "push",
+          "text": "Possessing an IQ of 145, he demanded no plea deals or lawyers, dissecting his inner darkness with clinical precision.",
+          "words_spoken": 19,
+          "est_dur_s": 7.64,
+          "src_script": "1.13#2 · 1.13#5 · 4.05#4 · 4.05#13 · 4.05#14"
+        },
+        {
+          "clip_line_id": "TK4.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t3_cassette",
+          "motion": "pan",
+          "text": "Kemper explained a revolutionary concept to the FBI: The Violent Fantasy Cycle.",
+          "words_spoken": 12,
+          "est_dur_s": 4.83,
+          "src_script": "4.07#1 · 4.07#2"
+        },
+        {
+          "clip_line_id": "TK4.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t3_fantasy_spiral",
+          "motion": "push",
+          "text": "Homicide does not begin when weapons are drawn, but in hundreds of mental rehearsals conducted over years.",
+          "words_spoken": 17,
+          "est_dur_s": 6.84,
+          "src_script": "4.07#3 · 4.07#4 · 4.07#5"
+        },
+        {
+          "clip_line_id": "TK4.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t3_trophy_box",
+          "motion": "still",
+          "text": "He revealed why he took trophies: not to boast, but as catalysts to re-experience supreme power once post-crime euphoria faded.",
+          "words_spoken": 20,
+          "est_dur_s": 8.04,
+          "src_script": "4.07#6 · 4.07#7"
+        },
+        {
+          "clip_line_id": "TK4.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_organized_split",
+          "motion": "pull",
+          "text": "Dialogues with Kemper and thirty-five other felons formed the foundation for FBI organized offender classification and the ViCAP network.",
+          "words_spoken": 19,
+          "est_dur_s": 6.6,
+          "src_script": "1.13#6 · 1.13#7 · 4.08#1 · 4.08#2 · 4.08#3"
+        },
+        {
+          "clip_line_id": "TK4.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_self_observation",
+          "motion": "still",
+          "text": "Crime scenes leave more than physical clues: they leave the unique psychological signature of the perpetrator.",
+          "words_spoken": 16,
+          "est_dur_s": 6.26,
+          "src_script": "4.08#4"
+        },
+        {
+          "clip_line_id": "TK4.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_case_photos",
+          "motion": "push",
+          "text": "This dossier became the defining cornerstone for criminal behavioral analysis and the inspiration behind Mindhunter.",
+          "words_spoken": 15,
+          "est_dur_s": 5.21,
+          "src_script": "4.08#6 · 4.08#7"
+        },
+        {
+          "clip_line_id": "TK4.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t3_closing_desk",
+          "motion": "still",
+          "text": "Episode three of Amber Eyes. Watch the full dossier via the link in our bio.",
+          "words_spoken": 15,
+          "est_dur_s": 5.21,
+          "src_script": "CTA"
+        }
+      ]
+    },
+    "TK5": {
+      "id": "TK5",
+      "title": "The Macdonald Triad and Four Early Red Flags",
+      "theme": "Victimology & Four Critical Survival Warning Signs (Macdonald Triad)",
+      "psychological_signs": [
+        10
+      ],
+      "bgm": "bgm_piano_minimal.mp3",
+      "sfx": [
+        "amb_wind_soft.wav (bed)",
+        "fx_clock_tick.wav",
+        "fx_stinger.wav",
+        "fx_sub_drop.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK5.01#1",
+          "text": "4 CRITICAL PSYCHOLOGICAL WARNING SIGNS",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK5.01#2",
+          "text": "FLAG 1: CHILDHOOD MACDONALD TRIAD",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#4",
+          "text": "FLAG 2: EXTREME DOMESTIC EMOTIONAL ABUSE",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#5",
+          "text": "FLAG 3: IMMERSION IN DOMINATION FANTASY",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#6",
+          "text": "FLAG 4: HIGH INTELLECT WITH SHALLOW AFFECT",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK5.01#8",
+          "text": "HEALING CHILDHOOD WOUNDS AT HOME",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK5.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t3_red_flags",
+          "motion": "still",
+          "text": "Four early warning signs. So that no one becomes a victim.",
+          "words_spoken": 11,
+          "est_dur_s": 3.82,
+          "src_script": "5.04#1 · 5.08#11"
+        },
+        {
+          "clip_line_id": "TK5.01#2",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_gift_drowned",
+          "motion": "push",
+          "text": "Red flag one: The childhood Macdonald Triad. Intentional, premeditated animal cruelty beginning at age ten.",
+          "words_spoken": 15,
+          "est_dur_s": 5.87,
+          "src_script": "5.05#1 · 5.05#2 · 5.05#4 · 5.05#6"
+        },
+        {
+          "clip_line_id": "TK5.01#3",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_gift_drowned",
+          "motion": "pull",
+          "text": "It is a primary clinical indicator of severe empathy deficits and escalating violent conduct that families often overlook.",
+          "words_spoken": 18,
+          "est_dur_s": 7.04,
+          "src_script": "5.05#6"
+        },
+        {
+          "clip_line_id": "TK5.01#4",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t3_coal_furnace",
+          "motion": "pan",
+          "text": "Red flag two: Extreme domestic psychological abuse. Confining children in dark, isolated spaces and chronic verbal humiliation.",
+          "words_spoken": 17,
+          "est_dur_s": 6.65,
+          "src_script": "5.05#7 · 5.05#8"
+        },
+        {
+          "clip_line_id": "TK5.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t3_fantasy_spiral",
+          "motion": "still",
+          "text": "Red flag three: Immersion in violent domination fantasies severed from reality, coupled with obsessive research into weapons.",
+          "words_spoken": 17,
+          "est_dur_s": 6.84,
+          "src_script": "5.06#1 · 5.06#2"
+        },
+        {
+          "clip_line_id": "TK5.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t3_self_observation",
+          "motion": "push",
+          "text": "And red flag four: Superior intellect paired with shallow affect, using intelligence to manipulate adults while void of genuine remorse.",
+          "words_spoken": 20,
+          "est_dur_s": 8.04,
+          "src_script": "5.06#3 · 5.06#4"
+        },
+        {
+          "clip_line_id": "TK5.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t3_life_sentence",
+          "motion": "pull",
+          "text": "Edmund Kemper was born with a genius intellect and imposing strength, but submerged in cruelty, those gifts mutated into destruction.",
+          "words_spoken": 20,
+          "est_dur_s": 6.95,
+          "src_script": "5.08#8 · 5.08#9"
+        },
+        {
+          "clip_line_id": "TK5.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.8,
+          "bg": "t3_closing_desk",
+          "motion": "still",
+          "text": "Locking evil behind bars is the duty of the law. But identifying and healing emotional wounds in children is how we prevent evil.",
+          "words_spoken": 23,
+          "est_dur_s": 7.99,
+          "src_script": "5.08#10 · 5.08#11"
+        },
+        {
+          "clip_line_id": "TK5.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t3_closing_desk",
+          "motion": "still",
+          "text": "Episode three of Amber Eyes. Watch the full dossier via the link in our bio.",
+          "words_spoken": 15,
+          "est_dur_s": 5.21,
+          "src_script": "CTA"
+        }
+      ]
+    }
+  }
+}

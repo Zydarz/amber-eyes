@@ -1,0 +1,981 @@
+{
+  "_readme": "SPEC_AUDIO_CLIP_TAP02_EN.json — Audio specs for 5 English TikTok clips (TK1–TK5).",
+  "_episode": "02_EN",
+  "_language": "en",
+  "_title": "The Two-Faced Colonel & The Escalation Abyss — When the Threshold of Satisfaction Collapses",
+  "_measured_rates": {
+    "H": 0.3328,
+    "N1": 0.3243,
+    "D": 0.3873,
+    "C": 0.3803,
+    "N2": 0.3496
+  },
+  "_clips_summary": {
+    "TK1": {
+      "title": "Four Escalation Steps. Eighty-Two Burglaries. Then Murder",
+      "lines_count": 12,
+      "words_count": 191,
+      "est_dur_s": 76.8,
+      "psychological_signs": [
+        8,
+        6
+      ]
+    },
+    "TK2": {
+      "title": "Matching Tire Treads. Yet the Police Saluted Him on His Way",
+      "lines_count": 11,
+      "words_count": 185,
+      "est_dur_s": 74.1,
+      "psychological_signs": [
+        9,
+        1
+      ]
+    },
+    "TK3": {
+      "title": "Two Lives. One Body. A Tale to Self-Justify",
+      "lines_count": 12,
+      "words_count": 202,
+      "est_dur_s": 81.9,
+      "psychological_signs": [
+        5,
+        3
+      ]
+    },
+    "TK4": {
+      "title": "Not a Single Apology Mentioned the Victims",
+      "lines_count": 10,
+      "words_count": 169,
+      "est_dur_s": 66.3,
+      "psychological_signs": [
+        4,
+        1
+      ]
+    },
+    "TK5": {
+      "title": "Always Trust Your Intuition",
+      "lines_count": 8,
+      "words_count": 143,
+      "est_dur_s": 56.1,
+      "psychological_signs": [
+        10
+      ]
+    }
+  },
+  "clips": {
+    "TK1": {
+      "id": "TK1",
+      "title": "Four Escalation Steps. Eighty-Two Burglaries. Then Murder",
+      "theme": "Behavioral Escalation Trajectory & Precipitating Psychological Trigger",
+      "psychological_signs": [
+        8,
+        6
+      ],
+      "bgm": "bgm_piano_minimal.mp3",
+      "sfx": [
+        "amb_winter_wind.wav (bed)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav",
+        "fx_sub_drop.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK1.01#1",
+          "text": "4 STEPS · 82 BURGLARIES · 1 HOMICIDE",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK1.01#3",
+          "text": "STEP ONE — NIGHTTIME VOYEURISM",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#4",
+          "text": "STEP TWO — BREAKING & ENTERING FOR INTIMATE ITEMS",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#7",
+          "text": "STEP THREE — INFILTRATING OCCUPIED HOMES",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#8",
+          "text": "STEP FOUR — THE FATAL THRESHOLD",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#10",
+          "text": "PSYCHOLOGICAL TRIGGER · JULY 2009",
+          "dur_s": 2.5
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK1.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "tk02_escalation_stairs",
+          "motion": "still",
+          "text": "Four escalation steps. Eighty-two burglaries. Then murder.",
+          "words_spoken": 7,
+          "est_dur_s": 2.33,
+          "src_script": "2.05#1 · 2.05#7 · 5.07#5"
+        },
+        {
+          "clip_line_id": "TK1.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_escalation_stairs",
+          "motion": "pull",
+          "text": "He didn't start with violence. He began by standing outside bedroom windows in the dead of night.",
+          "words_spoken": 17,
+          "est_dur_s": 5.66,
+          "src_script": "2.05#2 · 2.05#3 · 5.07#5"
+        },
+        {
+          "clip_line_id": "TK1.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "tk02_open_window",
+          "motion": "push",
+          "text": "Step one: nighttime voyeurism, lurking in the darkness to spy on women through their windows.",
+          "words_spoken": 15,
+          "est_dur_s": 5.81,
+          "src_script": "2.05#2 · 2.05#3"
+        },
+        {
+          "clip_line_id": "TK1.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "tk02_drawer_dark",
+          "motion": "pan",
+          "text": "Step two: breaking and entering for intimate property. He took neither cash nor jewelry. He stole women's underwear and personal belongings.",
+          "words_spoken": 21,
+          "est_dur_s": 8.13,
+          "src_script": "2.05#4 · 2.05#8 · 2.05#9"
+        },
+        {
+          "clip_line_id": "TK1.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.5,
+          "bg": "tk02_folder_tree",
+          "motion": "still",
+          "text": "His ritual remained identical in every house: photographing, taking items, and logging each event.",
+          "words_spoken": 14,
+          "est_dur_s": 5.42,
+          "src_script": "2.05#10"
+        },
+        {
+          "clip_line_id": "TK1.01#6",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_brain_neural",
+          "motion": "push",
+          "text": "When familiar acts ceased to satisfy, he fell into fantasy hunger, compelled to escalate the risk to recapture the initial high.",
+          "words_spoken": 21,
+          "est_dur_s": 7.99,
+          "src_script": "3.05#7 · 3.05#8 · 3.05#9"
+        },
+        {
+          "clip_line_id": "TK1.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "tk02_open_window",
+          "motion": "pan",
+          "text": "Step three: in September 2009, he invaded homes while the occupants were inside.",
+          "words_spoken": 13,
+          "est_dur_s": 5.04,
+          "src_script": "2.05#11 · 2.05#12 · 2.05#13"
+        },
+        {
+          "clip_line_id": "TK1.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "tk02_two_chairs",
+          "motion": "still",
+          "text": "And step four: in late November 2009, his victim was Corporal Marie-France Comeau, serving on the very base he commanded.",
+          "words_spoken": 20,
+          "est_dur_s": 7.75,
+          "src_script": "2.05#14 · 2.05#15"
+        },
+        {
+          "clip_line_id": "TK1.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_house_missing",
+          "motion": "pull",
+          "text": "Merely two months later, his next victim was Jessica Lloyd.",
+          "words_spoken": 10,
+          "est_dur_s": 3.33,
+          "src_script": "2.05#16"
+        },
+        {
+          "clip_line_id": "TK1.01#10",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_oath_hall",
+          "motion": "push",
+          "text": "In July 2009, his promotion to Base Commander at Trenton became the psychological trigger: absolute power combined with command stress shattered his final inhibitions.",
+          "words_spoken": 24,
+          "est_dur_s": 9.13,
+          "src_script": "1.03#4 · 3.05#10"
+        },
+        {
+          "clip_line_id": "TK1.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "tk02_escalation_stairs",
+          "motion": "push",
+          "text": "Predatory crime never begins with a murder. It begins with an unpunished peeping gaze.",
+          "words_spoken": 14,
+          "est_dur_s": 4.66,
+          "src_script": "5.07#5 · 5.07#6"
+        },
+        {
+          "clip_line_id": "TK1.01#12",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "tk02_podcast_desk",
+          "motion": "still",
+          "text": "Episode two of Amber Eyes. Watch the full documentary via the link in our bio.",
+          "words_spoken": 15,
+          "est_dur_s": 4.99,
+          "src_script": "CTA"
+        }
+      ]
+    },
+    "TK2": {
+      "id": "TK2",
+      "title": "Matching Tire Treads. Yet the Police Saluted Him on His Way",
+      "theme": "The Halo Effect & Collective Institutional Blind Spots",
+      "psychological_signs": [
+        9,
+        1
+      ],
+      "bgm": "bgm_sub_drone.mp3",
+      "sfx": [
+        "amb_road_night.wav (bed)",
+        "fx_tire_snow.wav",
+        "fx_window_down.wav",
+        "fx_flashlight.wav",
+        "fx_police_radio.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK2.01#5",
+          "text": "MOBILE ROADBLOCK · NIGHT OF FEB 4",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#9",
+          "text": "RECORDED THE INFO — THEN SALUTED HIM ON",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#10",
+          "text": "THE HALO EFFECT: INVISIBLE SOCIAL SHIELD",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK2.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "tk02_checkpoint",
+          "motion": "still",
+          "text": "Matching tire treads. And the police still respectfully saluted that man on his way.",
+          "words_spoken": 14,
+          "est_dur_s": 4.66,
+          "src_script": "1.14#4 · 1.14#5"
+        },
+        {
+          "clip_line_id": "TK2.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_oath_hall",
+          "motion": "pull",
+          "text": "In July 2009, Colonel Russell Williams assumed supreme command of Canadian Forces Base Trenton.",
+          "words_spoken": 14,
+          "est_dur_s": 4.66,
+          "src_script": "1.03#1 · 1.03#4"
+        },
+        {
+          "clip_line_id": "TK2.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_oath_hall",
+          "motion": "pan",
+          "text": "He had piloted VIP flights for Queen Elizabeth the Second.",
+          "words_spoken": 10,
+          "est_dur_s": 3.33,
+          "src_script": "1.05#1"
+        },
+        {
+          "clip_line_id": "TK2.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "tk02_house_missing",
+          "motion": "still",
+          "text": "On the night of January 28th, 2010, twenty-seven-year-old Jessica Lloyd vanished from her home in Belleville.",
+          "words_spoken": 16,
+          "est_dur_s": 6.2,
+          "src_script": "1.10#1 · 1.10#2"
+        },
+        {
+          "clip_line_id": "TK2.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "tk02_checkpoint",
+          "motion": "push",
+          "text": "Police found no leads during the first days. One week later, on February 4th, they ran an all-night mobile roadblock hunting a rare off-road tire tread in the snow.",
+          "words_spoken": 29,
+          "est_dur_s": 11.23,
+          "src_script": "1.12#1 · 1.12#2 · 1.12#3"
+        },
+        {
+          "clip_line_id": "TK2.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "tk02_suv_stop",
+          "motion": "still",
+          "text": "Among the vehicles passing through that night was a Nissan Pathfinder, instead of his usual BMW.",
+          "words_spoken": 16,
+          "est_dur_s": 6.2,
+          "src_script": "1.14#1 · 1.14#2"
+        },
+        {
+          "clip_line_id": "TK2.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.5,
+          "bg": "tk02_suv_stop",
+          "motion": "push",
+          "text": "The man behind the wheel rolled down the window: the Base Commander of CFB Trenton himself.",
+          "words_spoken": 16,
+          "est_dur_s": 6.2,
+          "src_script": "1.14#3"
+        },
+        {
+          "clip_line_id": "TK2.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "tk02_tire_track",
+          "motion": "still",
+          "text": "His tire tread matched the impressions in the snow almost perfectly.",
+          "words_spoken": 11,
+          "est_dur_s": 3.66,
+          "src_script": "1.14#4"
+        },
+        {
+          "clip_line_id": "TK2.01#9",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "tk02_checkpoint",
+          "motion": "pan",
+          "text": "Yet faced with a high-ranking officer, patrolmen could not detain him: they logged his details, saluted, and let him go. For three more days, he remained a free colonel.",
+          "words_spoken": 29,
+          "est_dur_s": 11.23,
+          "src_script": "1.14#5 · 1.14#6"
+        },
+        {
+          "clip_line_id": "TK2.01#10",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "tk02_siren_wall",
+          "motion": "push",
+          "text": "The Halo Effect: an invisible shield that blinded both society and law enforcement for years.",
+          "words_spoken": 15,
+          "est_dur_s": 5.7,
+          "src_script": "1.08#4"
+        },
+        {
+          "clip_line_id": "TK2.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "tk02_podcast_desk",
+          "motion": "still",
+          "text": "Episode two of Amber Eyes. Watch the full documentary via the link in our bio.",
+          "words_spoken": 15,
+          "est_dur_s": 4.99,
+          "src_script": "CTA"
+        }
+      ]
+    },
+    "TK3": {
+      "id": "TK3",
+      "title": "Two Lives. One Body. A Tale to Self-Justify",
+      "theme": "Moral Neutralization & Compartmentalization Defense Mechanism",
+      "psychological_signs": [
+        5,
+        3
+      ],
+      "bgm": "bgm_cello_sad_v2.mp3",
+      "sfx": [
+        "amb_basement.wav (bed)",
+        "fx_drawer_open.wav",
+        "fx_stinger.wav",
+        "fx_hdd_spin.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK3.01#3",
+          "text": "COMPARTMENTALIZATION: SPLITTING THE PSYCHE",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK3.01#4",
+          "text": "DRAWER ONE — THE IMMACULATE COLONEL",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#5",
+          "text": "DRAWER TWO — THE SHADOW PREDATOR",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#7",
+          "text": "TECHNIQUES OF NEUTRALIZATION",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK3.01#8",
+          "text": "“JUST A SOUVENIR”",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#10",
+          "text": "“THE ANSWERS DON'T MATTER”",
+          "dur_s": 2.5
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK3.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "tk02_two_drawers",
+          "motion": "still",
+          "text": "Two lives. One body. A story to self-justify.",
+          "words_spoken": 8,
+          "est_dur_s": 2.66,
+          "src_script": "3.08#1 · 3.08#8"
+        },
+        {
+          "clip_line_id": "TK3.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "tk02_two_masks",
+          "motion": "pull",
+          "text": "Before analyzing: no official clinical psychiatric diagnosis has ever been released regarding Russell Williams. This is an analytical framework, not a moral trial.",
+          "words_spoken": 23,
+          "est_dur_s": 7.66,
+          "src_script": "3.04#1 · 3.04#2"
+        },
+        {
+          "clip_line_id": "TK3.01#3",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "tk02_brain_neural",
+          "motion": "push",
+          "text": "In psychology, compartmentalization is a defense mechanism that locks two contradictory cognitive streams into separate mental drawers.",
+          "words_spoken": 17,
+          "est_dur_s": 6.46,
+          "src_script": "3.08#2"
+        },
+        {
+          "clip_line_id": "TK3.01#4",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_command_chair",
+          "motion": "pan",
+          "text": "The first drawer was the colonel: an exemplary commander and devoted husband tending his garden.",
+          "words_spoken": 15,
+          "est_dur_s": 5.7,
+          "src_script": "3.08#4"
+        },
+        {
+          "clip_line_id": "TK3.01#5",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_stairs_dark",
+          "motion": "push",
+          "text": "The second drawer was the nocturnal predator, where he unleashed his darkest impulses.",
+          "words_spoken": 13,
+          "est_dur_s": 4.94,
+          "src_script": "3.08#5"
+        },
+        {
+          "clip_line_id": "TK3.01#6",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "tk02_two_drawers",
+          "motion": "still",
+          "text": "Inside this drawer, he locked the door to the other, using his wife and respectable marriage as a shield.",
+          "words_spoken": 19,
+          "est_dur_s": 7.23,
+          "src_script": "3.08#6 · 3.08#7"
+        },
+        {
+          "clip_line_id": "TK3.01#7",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.8,
+          "bg": "tk02_drawer_dark",
+          "motion": "pull",
+          "text": "To silence conscience, he neutralized guilt. Through eighty-two break-ins, he told himself: <#0.35#> I only watched, I harmed no one, I only kept a souvenir.",
+          "words_spoken": 24,
+          "est_dur_s": 9.13,
+          "src_script": "3.08#8"
+        },
+        {
+          "clip_line_id": "TK3.01#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "tk02_hidden_drive",
+          "motion": "pan",
+          "text": "When violence escalated to murder, he rationalized that the victim had seen his face, forcing him to act in self-defense.",
+          "words_spoken": 20,
+          "est_dur_s": 7.61,
+          "src_script": "3.08#9"
+        },
+        {
+          "clip_line_id": "TK3.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_hidden_drive",
+          "motion": "still",
+          "text": "Consequently, he could never offer a genuine moral explanation.",
+          "words_spoken": 9,
+          "est_dur_s": 3.42,
+          "src_script": "3.08#10"
+        },
+        {
+          "clip_line_id": "TK3.01#10",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "tk02_interrogation_early",
+          "motion": "push",
+          "text": "When asked why he did it, his confession was chillingly hollow: <#0.35#> Yes, but I don't know the answers, and I'm pretty sure the answers don't matter.",
+          "words_spoken": 26,
+          "est_dur_s": 9.89,
+          "src_script": "3.08#11"
+        },
+        {
+          "clip_line_id": "TK3.01#11",
+          "role": "C",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.7,
+          "bg": "tk02_head_down",
+          "motion": "pull",
+          "text": "That was the most callous reply, laying bare the predator's total moral disconnection.",
+          "words_spoken": 13,
+          "est_dur_s": 4.94,
+          "src_script": "3.08#12"
+        },
+        {
+          "clip_line_id": "TK3.01#12",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "tk02_podcast_desk",
+          "motion": "still",
+          "text": "Episode two of Amber Eyes. Watch the full documentary via the link in our bio.",
+          "words_spoken": 15,
+          "est_dur_s": 4.99,
+          "src_script": "CTA"
+        }
+      ]
+    },
+    "TK4": {
+      "id": "TK4",
+      "title": "Not a Single Apology Mentioned the Victims",
+      "theme": "Narcissistic Collapse & Psychological Sentence",
+      "psychological_signs": [
+        4,
+        1
+      ],
+      "bgm": "bgm_piano_warm.mp3",
+      "sfx": [
+        "amb_courtroom.wav (bed)",
+        "fx_gavel_triple.wav",
+        "fx_fire_whoosh.wav",
+        "amb_fire.wav",
+        "fx_heartbeat_slow.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK4.01#1",
+          "text": "NOT A SINGLE WORD OF REMORSE FOR THE VICTIMS",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK4.01#3",
+          "text": "NOT REPENTANCE — PATHOLOGICAL SELF-PITY",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#4",
+          "text": "GUILTY ON ALL 88 CHARGES",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#5",
+          "text": "CONCURRENT LIFE SENTENCES · 25 YEARS NO PAROLE",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#7",
+          "text": "BURNING EVERY UNIFORM BEARING HIS NAME",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#9",
+          "text": "NARCISSISTIC COLLAPSE",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK4.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_interrogation_early",
+          "motion": "still",
+          "text": "Not a single apology mentioned the victims.",
+          "words_spoken": 7,
+          "est_dur_s": 2.33,
+          "src_script": "4.11#6 · 4.11#7"
+        },
+        {
+          "clip_line_id": "TK4.01#2",
+          "role": "C",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.8,
+          "bg": "tk02_two_chairs",
+          "motion": "pull",
+          "text": "In the interrogation room, his anxiety focused entirely on how his wife viewed him, and the base's reputation. He never voiced remorse for the women or their families.",
+          "words_spoken": 28,
+          "est_dur_s": 10.65,
+          "src_script": "4.11#6 · 4.11#7"
+        },
+        {
+          "clip_line_id": "TK4.01#3",
+          "role": "C",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.8,
+          "bg": "tk02_head_down",
+          "motion": "push",
+          "text": "That was not genuine contrition: it was intense self-pity as the mask of honor built over twenty-five years disintegrated.",
+          "words_spoken": 19,
+          "est_dur_s": 7.23,
+          "src_script": "4.11#8 · 4.11#9"
+        },
+        {
+          "clip_line_id": "TK4.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_courtroom",
+          "motion": "still",
+          "text": "On October 18th, 2010, he pleaded guilty to all eighty-eight charges.",
+          "words_spoken": 11,
+          "est_dur_s": 3.66,
+          "src_script": "5.02#1 · 5.02#3"
+        },
+        {
+          "clip_line_id": "TK4.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.8,
+          "bg": "tk02_gavel",
+          "motion": "push",
+          "text": "Three days later, the judge sentenced him to concurrent life sentences with no eligibility for parole for twenty-five years.",
+          "words_spoken": 19,
+          "est_dur_s": 6.32,
+          "src_script": "5.02#4 · 5.02#5"
+        },
+        {
+          "clip_line_id": "TK4.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_courtroom",
+          "motion": "pan",
+          "text": "Yet the ultimate sentence for a narcissist was the destruction of honor: his rank revoked, his medals physically cut to pieces.",
+          "words_spoken": 21,
+          "est_dur_s": 6.99,
+          "src_script": "5.04#1 · 5.04#2 · 5.04#3"
+        },
+        {
+          "clip_line_id": "TK4.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "tk02_uniform_fire",
+          "motion": "still",
+          "text": "The Canadian military took an unprecedented step: burning all uniforms bearing his name in a classified incinerator.",
+          "words_spoken": 17,
+          "est_dur_s": 5.66,
+          "src_script": "5.04#5"
+        },
+        {
+          "clip_line_id": "TK4.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "tk02_uniform_fire",
+          "motion": "pan",
+          "text": "According to military spokesman Hubert Genest: no ceremony, and no photographs were permitted.",
+          "words_spoken": 13,
+          "est_dur_s": 5.04,
+          "src_script": "5.04#6 · 5.04#7"
+        },
+        {
+          "clip_line_id": "TK4.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_brain_neural",
+          "motion": "pull",
+          "text": "Psychologically, it was a textbook narcissistic collapse: stripped of control, the predator is left with nothing but pathetic self-pity.",
+          "words_spoken": 19,
+          "est_dur_s": 7.23,
+          "src_script": "5.06#4"
+        },
+        {
+          "clip_line_id": "TK4.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "tk02_podcast_desk",
+          "motion": "still",
+          "text": "Episode two of Amber Eyes. Watch the full documentary via the link in our bio.",
+          "words_spoken": 15,
+          "est_dur_s": 4.99,
+          "src_script": "CTA"
+        }
+      ]
+    },
+    "TK5": {
+      "id": "TK5",
+      "title": "Always Trust Your Intuition",
+      "theme": "Victimology & Critical Survival Warning Signals (Boundaries & Intuition)",
+      "psychological_signs": [
+        10
+      ],
+      "bgm": "bgm_ambient_deep.mp3",
+      "sfx": [
+        "amb_road_night.wav (bed)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav",
+        "fx_heartbeat_slow.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK5.01#1",
+          "text": "NEVER RATIONALIZE VAGUE UNEASE",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#2",
+          "text": "EARLIEST SIGNAL: BOUNDARY INTRUSION",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#4",
+          "text": "CRIME STARTS WITH MINOR TRESPASSES",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#7",
+          "text": "ALWAYS TRUST YOUR SURVIVAL INTUITION",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK5.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "tk02_red_flags",
+          "motion": "still",
+          "text": "If you sense an ambiguous unease, if your personal boundaries are breached in the slightest way, never rationalize or dismiss it.",
+          "words_spoken": 21,
+          "est_dur_s": 6.99,
+          "src_script": "5.08#4"
+        },
+        {
+          "clip_line_id": "TK5.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "tk02_town_snow",
+          "motion": "pull",
+          "text": "In this case, before the truth came out, the town of Tweed lived under an intangible, suffocating dread.",
+          "words_spoken": 18,
+          "est_dur_s": 6.97,
+          "src_script": "4.06#1"
+        },
+        {
+          "clip_line_id": "TK5.01#3",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.8,
+          "bg": "tk02_cottage_search",
+          "motion": "push",
+          "text": "Personal items were mysteriously rearranged, doors showed signs of prying, but no money was taken. We assumed we were just paranoid.",
+          "words_spoken": 21,
+          "est_dur_s": 7.34,
+          "src_script": "4.06#2 · 4.06#3"
+        },
+        {
+          "clip_line_id": "TK5.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.8,
+          "bg": "tk02_escalation_stairs",
+          "motion": "pan",
+          "text": "Predatory crime never begins with a murder. It begins with minor boundary crossings: a peeping gaze, rummaging through private drawers, an unpunished trespass.",
+          "words_spoken": 23,
+          "est_dur_s": 7.66,
+          "src_script": "5.07#5 · 5.07#6"
+        },
+        {
+          "clip_line_id": "TK5.01#5",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "tk02_oath_hall",
+          "motion": "pull",
+          "text": "Status, degrees, and splendid military rank are merely social overcoats; they offer no guarantee for the decency of a human soul.",
+          "words_spoken": 21,
+          "est_dur_s": 7.99,
+          "src_script": "5.07#4"
+        },
+        {
+          "clip_line_id": "TK5.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "tk02_escalation_stairs",
+          "motion": "pan",
+          "text": "A narcissist's arrogance invariably leaves a trail.",
+          "words_spoken": 7,
+          "est_dur_s": 2.71,
+          "src_script": "5.08#2"
+        },
+        {
+          "clip_line_id": "TK5.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.8,
+          "bg": "tk02_red_flags",
+          "motion": "still",
+          "text": "Always trust your intuition. Survival intuition is our built-in early warning radar designed to protect our lives.",
+          "words_spoken": 17,
+          "est_dur_s": 6.58,
+          "src_script": "5.08#3 · 5.08#5"
+        },
+        {
+          "clip_line_id": "TK5.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "tk02_podcast_desk",
+          "motion": "still",
+          "text": "Episode two of Amber Eyes. Watch the full documentary via the link in our bio.",
+          "words_spoken": 15,
+          "est_dur_s": 4.99,
+          "src_script": "CTA"
+        }
+      ]
+    }
+  }
+}
