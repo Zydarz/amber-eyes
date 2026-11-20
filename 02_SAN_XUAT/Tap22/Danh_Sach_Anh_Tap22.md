@@ -1,6 +1,6 @@
-# DANH SÁCH ẢNH NỀN — TẬP 22 "DALIA_DIPPOLITO"
+# DANH SÁCH ẢNH NỀN — TẬP 22 "DALIA DIPPOLITO" (CHUẨN H22/H25 — 140 ẢNH)
 
-*Hồ sơ dalia_dippolito — Boynton Beach, Florida. Ngày 2026-10-24.*
+*Hồ sơ Dalia Dippolito — Boynton Beach, Florida. Cập nhật ngày 2026-11-20.*
 
 ---
 
@@ -8,120 +8,167 @@
 
 | Mục | Nội dung |
 |---|---|
-| Số ảnh chuẩn hóa | **63** ảnh phục vụ trọn vẹn 5 hồi (toàn bộ bảng shot & visual của tập) |
-| Kích thước chuẩn | 2112×1188 (16:9 2K), ảnh gốc lưu trữ tại `assets/bg/` |
-| Vị trí lưu trữ | `assets/bg/t22_*.png` — **tiền tố `t22_` bắt buộc** để không trùng bộ nền |
-| Danh sách prompt gốc | `.work/bg_jobs_tap22.json` |
+| Số ảnh chuẩn hóa | **140** ảnh phục vụ trọn vẹn 5 hồi (toàn bộ 248 shot theo H25) |
+| Kích thước chuẩn | 2112×1188 (16:9 2K), lưu trữ tại `assets/bg/t22_*.png` |
+| Tỷ lệ shot / nền | **1.77 shot/nền** (đạt ngưỡng chuẩn 1.5–2.0 của H25) |
+| Giới hạn thời lượng | ≤ 2 shot và ≤ 30 s / nền (100% ĐẠT cổng H22 / `qc_bg_usage.py`) |
+| Danh sách jobs | `.work/bg_jobs_tap22.json` (140 jobs) |
 | Sổ nguồn gốc tài sản | `provenance.json` (tự động cộng dồn và cập nhật) |
-| Phong cách nghệ thuật | Dark graphic novel noir — nét mực đen đậm, chiaroscuro đối lập cao, bảng màu hổ phách/slate/lạnh, hạt phim cổ điển |
-| Ràng buộc trong prompt | Không chữ · không số · không biển hiệu · không logo · không khung · ảnh tràn viền 16:9 |
-| Công cụ thực thi | Tự tạo trực tiếp trong pipeline (Amber Eyes Noir Graphic Renderer — 100% tự chủ) |
+| Phong cách đồ họa | Deep Noir Graphic Novel Chiaroscuro (FLUX.1 Schnell + Hạt phim 35mm + Vignette) |
 
-## B2. Chi tiết 5 Hồi
+## B2. Chi tiết phân bổ theo 5 Hồi
 
-### Hồi 1 (12 ảnh)
-- `t22_dalia_dippolito_a1_01_undercover_sting`: Hồi 1 (MÀN KỊCH HIỆN TRƯỜNG GIẢ & NƯỚ): *(giọng trầm, mở đầu câu chuyện với kịch tính cao độ)*:
-Buổi sáng ngày 5 tháng 8 năm 2009, tại thị trấn biển Boynton Beach thuộ...
-- `t22_dalia_dippolito_a1_02_dashcam_car`: Hồi 1 (MÀN KỊCH HIỆN TRƯỜNG GIẢ & NƯỚ): Người phụ nữ bước xuống xe là Dalia Dippolito, hai mươi sáu tuổi, một người vợ trẻ trung vừa kết hôn được đúng sáu tháng
-- `t22_dalia_dippolito_a1_03_police_tape`: Hồi 1 (MÀN KỊCH HIỆN TRƯỜNG GIẢ & NƯỚ): *(tái hiện màn khóc lóc kịch tính của người vợ trẻ)*:
-Dalia ôm chặt lấy mặt, gào thét thảm thiết, hai chân khuỵu xuống và đổ sụ...
-- `t22_dalia_dippolito_a1_04_revelation`: Hồi 1 (MÀN KỊCH HIỆN TRƯỜNG GIẢ & NƯỚ): Những giọt nước mắt tuôn rơi lã chã, giọng nói lạc đi vì đau đớn và cử chỉ bàng hoàng của cô ta đã hoàn toàn đánh lừa những ngư...
-- `t22_dalia_dippolito_a1_05_gaslighting`: Hồi 1 (MÀN KỊCH HIỆN TRƯỜNG GIẢ & NƯỚ): *(nhấn mạnh sự trơ trẽn của vụ án gây chấn động nước Mỹ)*:
-Vụ án Dalia Dippolito nhanh chóng trở thành một hiện tượng truyền th...
-- `t22_dalia_dippolito_a1_06_retrial`: Hồi 1 (MÀN KỊCH HIỆN TRƯỜNG GIẢ & NƯỚ): Để đạt được mục đích, người đàn bà ấy đã không ngần ngại vạch ra hàng loạt âm mưu thâm độc hòng đẩy người bạn đời vào chỗ chết
-- `t22_dalia_dippolito_a1_07_boynton_beach`: Hồi 1 (MÀN KỊCH HIỆN TRƯỜNG GIẢ & NƯỚ): *(N1: Hàng xóm Boynton Beach, giọng nữ bàng hoàng, rùng mình)*:
-Tôi sống ngay ở dãy nhà đối diện và sáng hôm đó khi nghe tiếng ...
-- `t22_dalia_dippolito_a1_08_florida`: Hồi 1 (MÀN KỊCH HIỆN TRƯỜNG GIẢ & NƯỚ): Cô ấy ôm lấy sĩ quan cảnh sát, khóc nấc lên từng hồi và gần như ngất đi vì không thể chịu đựng nổi nỗi đau đớn
-- `t22_dalia_dippolito_a1_09_murder_for_hire`: Hồi 1 (MÀN KỊCH HIỆN TRƯỜNG GIẢ & NƯỚ): *(dẫn dắt vào căn phòng thẩm vấn của Sở Cảnh sát Boynton Beach)*:
-Sau màn kịch bi thương tại hiện trường, Dalia Dippolito được ...
-- `t22_dalia_dippolito_a1_10_fake_crying`: Hồi 1 (MÀN KỊCH HIỆN TRƯỜNG GIẢ & NƯỚ): Viên thám tử kiên nhẫn lắng nghe Dalia thuật lại hành trình buổi sáng, từ việc rời nhà đi tập thể dục cho đến lúc nhận được cuộ...
-- `t22_dalia_dippolito_a1_11_undercover_sting`: Hồi 1 (MÀN KỊCH HIỆN TRƯỜNG GIẢ & NƯỚ): *(D: Thám tử Alex Gomez, giọng nam trung niên, sắc bén, điềm tĩnh)*:
-Khi ngồi đối diện với Dalia Dippolito trong phòng điều tra...
-- `t22_dalia_dippolito_a1_12_dashcam_car`: Hồi 1 (MÀN KỊCH HIỆN TRƯỜNG GIẢ & NƯỚ): Tôi nhìn thẳng vào mắt cô ta và quyết định đã đến lúc chấm dứt vở hài kịch kệch cỡm này bằng cách ra hiệu cho đồng đội mở cửa p...
+### HỒI 1: MÀN KỊCH HIỆN TRƯỜNG GIẢ & NƯỚC MẮT NGƯỜI VỢ MỚI CƯỚI (32 ảnh)
 
-### Hồi 2 (11 ảnh)
-- `t22_dalia_dippolito_a2_01_revelation`: Hồi 2 (VÁN BÀI LẬT NGỬA & NGHỆ THUẬT ): *(tiết tấu nhanh, cuốn hút, miêu tả phản ứng kỳ dị)*:
-Khi người chồng bước vào phòng, thay vì cúi đầu hay bộc lộ sự bối rối, Da...
-- `t22_dalia_dippolito_a2_02_gaslighting`: Hồi 2 (VÁN BÀI LẬT NGỬA & NGHỆ THUẬT ): *(vạch trần sự trơ trẽn đối mặt với sự thật)*:
-Michael Dippolito đứng sững lại, ánh mắt tràn đầy sự thất vọng và phẫn nộ nhìn n...
-- `t22_dalia_dippolito_a2_03_retrial`: Hồi 2 (VÁN BÀI LẬT NGỬA & NGHỆ THUẬT ): Cô ta đóng vai một nạn nhân vô tội bị cơ quan điều tra gài bẫy, nài nỉ chồng bảo lãnh cho mình về nhà và không được tin vào lời...
-- `t22_dalia_dippolito_a2_04_boynton_beach`: Hồi 2 (VÁN BÀI LẬT NGỬA & NGHỆ THUẬT ): *(D: Thám tử Alex Gomez, chứng cứ video chắc chắn 5000%)*:
-Đoạn video được quay lén bên trong một chiếc xe ô tô màu đỏ vào ngày...
-- `t22_dalia_dippolito_a2_05_florida`: Hồi 2 (VÁN BÀI LẬT NGỬA & NGHỆ THUẬT ): Cô ta thỏa thuận mức giá bảy nghìn đô la để lấy mạng chồng mình, đưa trước một nghìn hai trăm đô la tiền mặt để mua súng và hướ...
-- `t22_dalia_dippolito_a2_06_murder_for_hire`: Hồi 2 (VÁN BÀI LẬT NGỬA & NGHỆ THUẬT ): *(phản ứng ngụy biện trơ tráo về truyền hình thực tế)*:
-Xem lại chính hình ảnh của mình trên màn hình máy tính với từng câu chữ...
-- `t22_dalia_dippolito_a2_07_fake_crying`: Hồi 2 (VÁN BÀI LẬT NGỬA & NGHỆ THUẬT ): Nhưng thay vì đầu hàng, bộ óc xảo quyệt của người đàn bà này lại nhanh chóng nghĩ ra một câu chuyện ngụy biện còn khó tin hơn g...
-- `t22_dalia_dippolito_a2_08_undercover_sting`: Hồi 2 (VÁN BÀI LẬT NGỬA & NGHỆ THUẬT ): *(D: Thám tử Alex Gomez, lệnh bắt giữ khẩn cấp)*:
-Lời ngụy biện về chương trình truyền hình thực tế là lời giải thích nực cười ...
-- `t22_dalia_dippolito_a2_09_dashcam_car`: Hồi 2 (VÁN BÀI LẬT NGỬA & NGHỆ THUẬT ): Chúng tôi đã lập tức đọc lệnh bắt giữ khẩn cấp đối với Dalia Dippolito về tội danh Xúi giục giết người cấp độ một ngay tại chỗ
-- `t22_dalia_dippolito_a2_10_police_tape`: Hồi 2 (VÁN BÀI LẬT NGỬA & NGHỆ THUẬT ): *(khép lại Hồi 2, mở ra giải phẫu tâm lý học)*:
-Ván bài đã lật ngửa, chiếc mặt nạ của người vợ hiền thục hoàn toàn rơi rụng, để...
-- `t22_dalia_dippolito_a2_11_revelation`: Hồi 2 (VÁN BÀI LẬT NGỬA & NGHỆ THUẬT ): Trước đó, cô ta từng bí mật bỏ chất độc chống đông vào cốc trà của chồng và lén nhét ma túy vào xe ô tô hòng đẩy anh vào tù thụ...
+- `t22_a1_01_boynton_beach_town_dawn`: Hồi 1: Buổi sáng ngày 5 tháng 8 năm 2009 tại thị trấn biển Boynton Beach Florida. (1.02#1, 1.02#2)
+- `t22_a1_02_renaissance_commons_street`: Hồi 1: Khu căn hộ townhouse Renaissance Commons yên tĩnh ven biển. (1.02#3, 1.02#4)
+- `t22_a1_03_police_cruiser_flashing_lights`: Hồi 1: Xe cảnh sát tuần tra Boynton Beach lao tới phong tỏa hiện trường. (1.02#5)
+- `t22_a1_04_yellow_police_tape_perimeter`: Hồi 1: Dải băng vàng Crime Scene Do Not Cross giăng kín trước cửa căn nhà. (1.02#6, 1.02#7)
+- `t22_a1_05_cops_tv_show_camera_crew`: Hồi 1: Đoàn làm phim truyền hình thực tế Cops với máy quay vác vai. (1.02#8, 1.04#1)
+- `t22_a1_06_dalia_car_arriving_curb`: Hồi 1: Chiếc xe ô tô thể thao của Dalia Dippolito vừa tấp vội vào lề đường. (1.04#2, 1.04#3)
+- `t22_a1_07_theatrical_grief_knees_collapse`: Hồi 1: Màn ngã khuỵu gào thét kịch nghệ của Dalia trước ống kính. (1.04#4, 1.04#5)
+- `t22_a1_08_crying_into_officer_shoulder`: Hồi 1: Dalia ôm chầm lấy viên sĩ quan cảnh sát vờ khóc ngất. (1.04#6, 1.04#7)
+- `t22_a1_09_suburban_neighbors_shocked_curtain`: Hồi 1: Cư dân hàng xóm nép sau rèm cửa hé nhìn hiện trường bàng hoàng. (1.04#8)
+- `t22_a1_10_investigator_cold_suspicious_glance`: Hồi 1: Ánh mắt lạnh lùng dò xét của điều tra viên tại hiện trường giả. (1.06#1, 1.06#2)
+- `t22_a1_11_tearless_eyes_micro_expressions`: Hồi 1: Gương mặt vô cảm thiếu vắng giọt nước mắt thật sự bên dưới khăn giấy. (1.06#3, 1.06#4)
+- `t22_a1_12_boynton_police_headquarters_facade`: Hồi 1: Trụ sở Sở Cảnh sát Boynton Beach uy nghiêm dưới nền trời u ám. (1.06#5, 1.06#6)
+- `t22_a1_13_police_hallway_fluorescent_shadows`: Hồi 1: Hành lang sở cảnh sát với ánh đèn tuýp nhấp nháy kéo dài bóng đen. (1.06#7, 1.07#1)
+- `t22_a1_14_interrogation_room_closed_door`: Hồi 1: Cánh cửa phòng hỏi cung đóng kín với tấm biển thẩm vấn hình sự. (1.07#2)
+- `t22_a1_15_interrogation_metal_table_two_chairs`: Hồi 1: Chiếc bàn kim loại lạnh lẽo và hai ghế ngồi trong phòng thẩm vấn. (1.07#3, 1.07#4)
+- `t22_a1_16_detective_alex_gomez_desk_dossier`: Hồi 1: Thám tử Alex Gomez ngồi bên tập hồ sơ điều tra dày cộp. (1.07#5, 1.07#6)
+- `t22_a1_17_dalia_sitting_composure_facade`: Hồi 1: Dalia Dippolito ngồi điềm tĩnh với vỏ bọc người vợ ngây thơ đau khổ. (1.07#7, 1.07#8)
+- `t22_a1_18_cup_of_water_and_tissues`: Hồi 1: Cốc nước nhựa và hộp khăn giấy đặt lạnh lẽo giữa bàn thẩm vấn. (1.07#9, 1.07#10)
+- `t22_a1_19_wedding_album_six_months_marriage`: Hồi 1: Cuốn album ảnh cưới xa hoa của cuộc hôn nhân vừa tròn sáu tháng. (1.07#11)
+- `t22_a1_20_financial_deed_transfer_document`: Hồi 1: Tờ đơn chuyển nhượng quyền sở hữu căn nhà 250.000 đô la. (1.07#12, 1.09#1)
+- `t22_a1_21_luxury_gold_jewelry_and_credit_cards`: Hồi 1: Bộ trang sức đắt tiền và thẻ tín dụng biểu hiện sự bòn rút tài chính. (1.09#2, 1.09#3)
+- `t22_a1_22_secret_burner_cellphone_glowing`: Hồi 1: Chiếc điện thoại nắp gập sim rác phát sáng trong bóng tối. (1.09#4, 1.09#5)
+- `t22_a1_23_undercover_sting_audio_wire_device`: Hồi 1: Thiết bị ghi âm gián điệp siêu nhỏ thu thập từng câu chữ. (1.09#6, 1.09#7)
+- `t22_a1_24_deserted_parking_lot_meeting`: Hồi 1: Bãi đậu xe siêu thị hoang vắng lúc hoàng hôn nơi gặp gỡ bí mật. (1.09#8, 1.10#1)
+- `t22_a1_25_police_sting_command_van_interior`: Hồi 1: Bên trong xe tải trinh sát đặc nhiệm của cảnh sát đầy màn hình giám sát. (1.10#2)
+- `t22_a1_26_investigator_nodding_code_signal`: Hồi 1: Viên thám tử khẽ gật đầu ra hiệu mã lệnh bắt đầu lật ngửa ván bài. (1.10#3, 1.10#4)
+- `t22_a1_27_brass_doorknob_turning_slowly`: Hồi 1: Tay nắm cửa phòng thẩm vấn từ từ xoay chuyển trong sự im lặng căng thẳng. (1.10#5, 1.10#6)
+- `t22_a1_28_michael_dippolito_shadow_threshold`: Hồi 1: Bóng đen người chồng Michael Dippolito hiện ra nơi ngưỡng cửa. (1.10#7, 1.10#8)
+- `t22_a1_29_wide_angle_two_opposing_silhouettes`: Hồi 1: Góc máy toàn cảnh đối đầu định mệnh giữa người vợ và người chồng thoát chết. (1.10#9, 1.10#10)
+- `t22_a1_30_frozen_gaze_betrayal_shock`: Hồi 1: Ánh mắt chết lặng bàng hoàng của Michael khi nhìn kẻ toan giết mình. (1.10#11)
+- `t22_a1_31_fake_innocence_arms_reaching`: Hồi 1: Dalia đứng bật dậy giang tay đòi ôm trong nỗ lực thao túng cuối cùng. (1.11#1, 1.11#2)
+- `t22_a1_32_step_backward_rejection_boundary`: Hồi 1: Michael lùi dứt khoát một bước về phía sau từ chối cái ôm độc địa. (1.11#3, 1.11#4)
 
-### Hồi 3 (11 ảnh)
-- `t22_dalia_dippolito_a3_01_boynton_beach`: Hồi 3 (GIẢI MÃ TÂM LÝ: SỰ THAO TÚNG T): *(chậm rãi, mang tính dẫn nhập chuyên môn)*:
-Vụ án Dalia Dippolito đã trở thành một đề tài nghiên cứu kinh điển tại các học việ...
-- `t22_dalia_dippolito_a3_02_florida`: Hồi 3 (GIẢI MÃ TÂM LÝ: SỰ THAO TÚNG T): Khác với những vụ án mạng bộc phát vì ghen tuông hay xung đột gia đình, hành vi của Dalia mang đậm tính toán thực dụng và sự vô...
-- `t22_dalia_dippolito_a3_03_murder_for_hire`: Hồi 3 (GIẢI MÃ TÂM LÝ: SỰ THAO TÚNG T): *(C: Chuyên gia Tâm lý học Hành vi & Pháp y, giọng điềm đạm, học thuật)*:
-Dưới góc độ tâm thần học pháp y, Dalia Dippolito thể ...
-- `t22_dalia_dippolito_a3_04_fake_crying`: Hồi 3 (GIẢI MÃ TÂM LÝ: SỰ THAO TÚNG T): Ả nắm bắt điểm yếu của Michael, một người từng có quá khứ lầm lỡ đang trong thời gian quản chế và khao khát xây dựng một mái ấm...
-- `t22_dalia_dippolito_a3_05_undercover_sting`: Hồi 3 (GIẢI MÃ TÂM LÝ: SỰ THAO TÚNG T): *(tiếp nối phân tích về hiện tượng Nước mắt cá sấu)*:
-Hiện tượng nước mắt cá sấu, hay Crocodile Tears, được thể hiện ở mức độ h...
-- `t22_dalia_dippolito_a3_06_dashcam_car`: Hồi 3 (GIẢI MÃ TÂM LÝ: SỰ THAO TÚNG T): *(C: Bóc tách vi biểu cảm & Cơ chế Extreme Gaslighting)*:
-Khi phân tích từng khung hình đoạn video Dalia khóc lóc bên ngoài căn...
-- `t22_dalia_dippolito_a3_07_police_tape`: Hồi 3 (GIẢI MÃ TÂM LÝ: SỰ THAO TÚNG T): Đây là biểu hiện kinh điển của Nỗi đau mang tính trình diễn, hay Performative Grief, một công cụ diễn xuất được kích hoạt nhằm ...
-- `t22_dalia_dippolito_a3_08_revelation`: Hồi 3 (GIẢI MÃ TÂM LÝ: SỰ THAO TÚNG T): *(đúc kết về chiếc bẫy tự giăng ra)*:
-Sự tự tin mù quáng vào khả năng thao túng người khác đã biến Dalia Dippolito thành tù nhâ...
-- `t22_dalia_dippolito_a3_09_gaslighting`: Hồi 3 (GIẢI MÃ TÂM LÝ: SỰ THAO TÚNG T): *(C: Đúc kết về năng lực chịu trách nhiệm hình sự)*:
-Hồ sơ tâm lý xác định Dalia hoàn toàn không mắc bất kỳ chứng bệnh loạn thầ...
-- `t22_dalia_dippolito_a3_10_retrial`: Hồi 3 (GIẢI MÃ TÂM LÝ: SỰ THAO TÚNG T): Việc sẵn sàng loại bỏ một sinh mạng con người để chiếm đoạt tiền bạc là biểu hiện tột cùng của sự suy đồi đạo đức không thể cải...
-- `t22_dalia_dippolito_a3_11_boynton_beach`: Hồi 3 (GIẢI MÃ TÂM LÝ: SỰ THAO TÚNG T): *(chốt lại Hồi 3, dẫn dắt sang cuộc chiến pháp lý)*:
-Toàn bộ chứng cứ video sắc bén cùng những phân tích tâm lý học đanh thép đ...
+### HỒI 2: VÁN BÀI LẬT NGỬA & NGHỆ THUẬT THAO TÚNG TRƠ TRẼN (GASLIGHTING) (28 ảnh)
 
-### Hồi 4 (12 ảnh)
-- `t22_dalia_dippolito_a4_01_fake_crying`: Hồi 4 (CUỘC CHIẾN PHÁP LÝ 8 NĂM & BẢN): *(tái hiện cuộc chiến pháp lý kéo dài gần một thập kỷ)*:
-Vụ án Dalia Dippolito đã trải qua một hành trình tố tụng vô cùng gian ...
-- `t22_dalia_dippolito_a4_02_undercover_sting`: Hồi 4 (CUỘC CHIẾN PHÁP LÝ 8 NĂM & BẢN): Phiên tòa tái thẩm thứ hai vào năm 2016 kết thúc trong bế tắc khi bồi thẩm đoàn không thể đạt được sự đồng thuận tuyệt đối với ...
-- `t22_dalia_dippolito_a4_03_dashcam_car`: Hồi 4 (CUỘC CHIẾN PHÁP LÝ 8 NĂM & BẢN): *(phiên tòa thứ ba năm 2017 & bước ngoặt kết tội)*:
-Mùa hè năm 2017, phiên tòa xét xử thứ ba chính thức được mở lại tại Tòa án ...
-- `t22_dalia_dippolito_a4_04_police_tape`: Hồi 4 (CUỘC CHIẾN PHÁP LÝ 8 NĂM & BẢN): Đoạn băng ghi lại lời tuyên bố chắc chắn năm nghìn phần trăm của Dalia được phát đi phát lại trên màn hình lớn của phòng xử án ...
-- `t22_dalia_dippolito_a4_05_revelation`: Hồi 4 (CUỘC CHIẾN PHÁP LÝ 8 NĂM & BẢN): *(D: Thám tử Alex Gomez, sự thật đứng vững trước thời gian)*:
-Trong suốt tám năm ròng rã theo đuổi vụ án này, chúng tôi chưa ba...
-- `t22_dalia_dippolito_a4_06_gaslighting`: Hồi 4 (CUỘC CHIẾN PHÁP LÝ 8 NĂM & BẢN): Việc Michael Dippolito may mắn thoát chết không phải là nhờ vào sự khoan hồng của cô ta, mà là nhờ vào sự can thiệp kịp thời và...
-- `t22_dalia_dippolito_a4_07_retrial`: Hồi 4 (CUỘC CHIẾN PHÁP LÝ 8 NĂM & BẢN): *(khoảnh khắc phán quyết kết tội năm 2017)*:
-Ngày 16 tháng 6 năm 2017, sau nhiều giờ nghị án căng thẳng, bồi thẩm đoàn gồm sáu ...
-- `t22_dalia_dippolito_a4_08_boynton_beach`: Hồi 4 (CUỘC CHIẾN PHÁP LÝ 8 NĂM & BẢN): *(N2: Bồi thẩm viên Hạt Palm Beach - Phiên tòa 2017, giọng nữ nghiêm nghị, đanh thép)*:
-Tham gia vào bồi thẩm đoàn của một vụ á...
-- `t22_dalia_dippolito_a4_09_florida`: Hồi 4 (CUỘC CHIẾN PHÁP LÝ 8 NĂM & BẢN): Ánh mắt và giọng nói của cô ta khi khẳng định chắc chắn năm nghìn phần trăm không phải là diễn xuất, đó là sự độc ác thuần túy
-- `t22_dalia_dippolito_a4_10_murder_for_hire`: Hồi 4 (CUỘC CHIẾN PHÁP LÝ 8 NĂM & BẢN): *(D: Thám tử Alex Gomez, bản án 16 năm tù giam)*:
-Ngày 21 tháng 7 năm 2017, Thẩm phán Glenn Kelley đã chính thức tuyên phạt Dal...
-- `t22_dalia_dippolito_a4_11_fake_crying`: Hồi 4 (CUỘC CHIẾN PHÁP LÝ 8 NĂM & BẢN): Ông nhấn mạnh rằng xã hội cần phải được bảo vệ khỏi những kẻ sẵn sàng coi mạng sống của người bạn đời như một món hàng để trục lợi
-- `t22_dalia_dippolito_a4_12_undercover_sting`: Hồi 4 (CUỘC CHIẾN PHÁP LÝ 8 NĂM & BẢN): *(C: Đúc kết về sự thất bại của nghệ thuật thao túng)*:
-Bản án mười sáu năm tù giam dành cho Dalia Dippolito là một minh chứng ...
+- `t22_a2_01_michael_stunned_disbelief`: Hồi 2: Michael Dippolito đứng sững với sự ghê tởm tột cùng. (2.02#1, 2.02#2)
+- `t22_a2_02_desperate_pleading_gestures`: Hồi 2: Dalia lớn tiếng nài nỉ chồng bảo lãnh và tin tưởng mình. (2.02#3, 2.02#4)
+- `t22_a2_03_detective_opening_laptop_screen`: Hồi 2: Thám tử Gomez mở nắp chiếc máy tính xách tay đặt lên bàn. (2.02#5)
+- `t22_a2_04_red_sedan_surveillance_exterior`: Hồi 2: Chiếc xe ô tô màu đỏ trong bãi đậu xe nơi quay lén video định mệnh. (2.04#1, 2.04#2)
+- `t22_a2_05_hidden_camera_dashboard_angle`: Hồi 2: Góc quay camera giấu kín từ bảng táp-lô chiếc xe hơi. (2.04#3, 2.04#4)
+- `t22_a2_06_widy_jean_undercover_officer_profile`: Hồi 2: Sĩ quan chìm Widy Jean trong vỏ bọc sát thủ giết thuê chuyên nghiệp. (2.04#5, 2.04#6)
+- `t22_a2_07_cash_envelope_handover`: Hồi 2: Dalia trao phong bì chứa một nghìn hai trăm đô la tiền mặt mua súng. (2.04#7)
+- `t22_a2_08_blueprint_house_layout_discussion`: Hồi 2: Bàn bạc chi tiết sơ đồ căn nhà và lịch trình tập thể dục ngoại phạm. (2.04#8, 2.06#1)
+- `t22_a2_09_5000_percent_sure_chilling_smile`: Hồi 2: Khoảnh khắc Dalia khẳng định chắc chắn năm nghìn phần trăm không đổi ý. (2.06#2, 2.06#3)
+- `t22_a2_10_laptop_video_playback_reflection`: Hồi 2: Hình ảnh video phát lại phản chiếu trên tròng mắt của Dalia. (2.06#4, 2.06#5)
+- `t22_a2_11_flabbergasted_denial_deflection`: Hồi 2: Dalia há hốc mồm rồi lập tức chuyển sang ngụy biện truyền hình thực tế. (2.06#6)
+- `t22_a2_12_reality_tv_script_fabrication`: Hồi 2: Lời ngụy biện kệch cỡm về kịch bản chương trình truyền hình thực tế. (2.06#7, 2.06#8)
+- `t22_a2_13_detective_stern_reading_charges`: Hồi 2: Thám tử Gomez đứng dậy đanh thép đọc lệnh bắt giữ khẩn cấp. (2.06#9, 2.06#10)
+- `t22_a2_14_solitary_confinement_metal_cuffs`: Hồi 2: Chiếc còng số tám siết chặt quanh cổ tay của Dalia Dippolito. (2.06#11, 2.08#1)
+- `t22_a2_15_palm_beach_county_jail_exterior`: Hồi 2: Trại giam Hạt Palm Beach sừng sững trong đêm tối Florida. (2.08#2)
+- `t22_a2_16_mugshot_photography_flash`: Hồi 2: Đèn flash máy ảnh chụp hồ sơ tội phạm mugshot lóe sáng. (2.08#3, 2.08#4)
+- `t22_a2_17_teacup_with_antifreeze_powder`: Hồi 2: Cốc trà sứ nghi có bột độc chất chống đông mà Dalia từng pha cho chồng. (2.08#5, 2.08#6)
+- `t22_a2_18_chemical_toxicology_vial`: Hồi 2: Lọ dung dịch mẫu độc chất học phòng thí nghiệm hình sự. (2.08#7, 2.09#1)
+- `t22_a2_19_underneath_car_magnet_stash`: Hồi 2: Gói ma túy bí mật gắn nam châm giấu dưới gầm xe Michael. (2.09#2)
+- `t22_a2_20_police_traffic_stop_search_retrieval`: Hồi 2: Cảnh sát từng lục soát xe Michael sau cuộc gọi tố cáo nặc danh. (2.09#3, 2.09#4)
+- `t22_a2_21_probation_violation_panic`: Hồi 2: Bản án quản chế mà Michael từng đối mặt với nguy cơ tù chung thân nếu bị gài. (2.09#5, 2.09#6)
+- `t22_a2_22_attorney_briefcase_bail_bond`: Hồi 2: Chiếc cặp táp của luật sư bào chữa và hồ sơ xin bảo lãnh tại ngoại. (2.10#1, 2.10#2)
+- `t22_a2_23_house_arrest_ankle_monitor`: Hồi 2: Chiếc vòng theo dõi điện tử gắn chặt vào cổ chân Dalia trong thời gian quản thúc. (2.10#3)
+- `t22_a2_24_mother_randa_dippolito_silhouette`: Hồi 2: Người mẹ Randa Dippolito đứng nhìn con gái với sự bảo bọc mù quáng. (2.10#4, 2.10#5)
+- `t22_a2_25_conspiracy_meeting_hotel_lobby`: Hồi 2: Góc sảnh khách sạn vắng vẻ nơi Dalia từng lén lút gặp gỡ nhân tình. (2.10#6, 2.10#7)
+- `t22_a2_26_cellular_tower_call_logs_evidence`: Hồi 2: Bản trích xuất dữ liệu trạm thu phát sóng di động và nhật ký hàng nghìn tin nhắn. (2.10#8, 2.10#9)
+- `t22_a2_27_prosecutors_office_whiteboard_timeline`: Hồi 2: Bảng trắng văn phòng công tố vẽ chi tiết sơ đồ tội ác và động cơ tài sản. (2.10#10)
+- `t22_a2_28_steel_bars_closing_act_boundary`: Hồi 2: Song sắt buồng giam khép lại khép lại Hồi 2 mở ra phân tích tâm lý học. (2.10#11, 2.10#12)
 
-### Hồi 5 (17 ảnh)
-- `t22_dalia_dippolito_a5_01_police_tape`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): *(giọng suy ngẫm, mang tính triết lý sâu lắng)*:
-Hơn mười lăm năm đã trôi qua kể từ buổi sáng định mệnh tại thị trấn Boynton Be...
-- `t22_dalia_dippolito_a5_02_revelation`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): Thảm kịch suýt xảy ra đã thúc đẩy cộng đồng nâng cao nhận thức về các dấu hiệu cảnh báo của bạo lực gia đình phi thể xác và hàn...
-- `t22_dalia_dippolito_a5_03_gaslighting`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): *(D: Thám tử Alex Gomez, bài học từ công tác điều tra hình sự)*:
-Dưới góc độ nghiệp vụ điều tra hình sự, bài học lớn nhất từ vụ...
-- `t22_dalia_dippolito_a5_04_retrial`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): *(C: Đúc kết về nhận diện sớm các mối quan hệ độc hại)*:
-Các mối quan hệ tình cảm độc hại trục lợi thường không bắt đầu bằng bạ...
-- `t22_dalia_dippolito_a5_05_boynton_beach`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): Việc duy trì sự độc lập về tài chính, lắng nghe ý kiến phản biện của bạn bè người thân và không vội vàng nhượng quyền tài sản l...
-- `t22_dalia_dippolito_a5_06_florida`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): *(chuyển sang phần đúc kết và bài học nhận diện thực tế)*:
-Để giúp quý vị khán giả kịp thời nhận diện và phòng ngừa nguy cơ trở...
-- `t22_dalia_dippolito_a5_07_murder_for_hire`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): *(trình bày dấu hiệu cảnh báo 1)*:
-Dấu hiệu thứ nhất: Sự vội vã bất thường trong việc thúc đẩy hôn nhân kết hợp với việc nhắm đ...
-- `t22_dalia_dippolito_a5_08_fake_crying`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): *(trình bày dấu hiệu cảnh báo 2)*:
-Dấu hiệu thứ hai: Hành vi thao túng thực tại trơ trẽn, tức Gaslighting, khi bị chất vấn về n...
-- `t22_dalia_dippolito_a5_09_undercover_sting`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): *(trình bày dấu hiệu cảnh báo 3)*:
-Dấu hiệu thứ ba: Biểu hiện cảm xúc thái quá mang tính trình diễn và sự thiếu hụt lòng trắc ẩ...
-- `t22_dalia_dippolito_a5_10_dashcam_car`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): *(trình bày dấu hiệu cảnh báo 4)*:
-Dấu hiệu thứ tư: Những sự cố nguy hiểm bất thường và những rắc rối pháp lý bí ẩn liên tục xả...
-- `t22_four_redflags_overview_banner`: Bảng ghim phân tích tổng quan 4 dấu hiệu cảnh báo đỏ của hồ sơ dalia_dippolito.
-- `t22_redflag1_parasitic_financial_exploitation`: Cảnh báo đỏ 1: Bóc lột tài chính ký sinh: kết hôn vì toan tính chiếm đoạt toàn bộ bất động sản và tài sản.
-- `t22_redflag2_extreme_pathological_gaslighting`: Cảnh báo đỏ 2: Thao túng thực tại trơ trẽn: gài bẫy ma túy, bịa đặt tội lỗi để đẩy đối phương vào tù.
-- `t22_redflag3_theatrical_crocodile_tears`: Cảnh báo đỏ 3: Nước mắt cá sấu kịch nghệ: diễn xuất đau đớn dữ dội trước công chúng mà không hề có cảm xúc thật.
-- `t22_redflag4_shameless_denial_unflinching`: Cảnh báo đỏ 4: Chối tội không chớp mắt dù đối diện bằng chứng video ghi hình trực diện sắc bén.
-- `t22_boynton_beach_oceanfront_dawn`: Bờ biển Boynton Beach lúc bình minh trong trẻo, công lý vạch trần âm mưu đen tối.
-- `t22_amber_eyes_closing_dossier_dippolito`: Tập hồ sơ Amber Eyes về vụ án Dalia Dippolito khép lại với bản án nghiêm minh 16 năm tù.
+### HỒI 3: GIẢI MÃ TÂM LÝ: SỰ THAO TÚNG TRƠ TRẼN & NHÂN CÁCH ÁI KỶ ÁC TÍNH (28 ảnh)
+
+- `t22_a3_01_psychiatric_academy_archive`: Hồi 3: Học viện tâm thần học pháp y và thư viện hồ sơ tội phạm kinh điển. (3.02#1, 3.02#2)
+- `t22_a3_02_clinical_diagnostic_manual_dsm`: Hồi 3: Cuốn sổ tay chẩn đoán tâm thần học DSM mở tại trang Ái kỷ ác tính. (3.02#3, 3.02#4)
+- `t22_a3_03_predatory_social_parasitism_diagram`: Hồi 3: Sơ đồ bóc tách cơ chế Ký sinh xã hội săn mồi trong hôn nhân. (3.02#5)
+- `t22_a3_04_objectification_human_as_commodity`: Hồi 3: Hình tượng người bạn đời bị giáng cấp thành món hàng và rào cản tài chính. (3.02#6, 3.03#1)
+- `t22_a3_05_honeymoon_facade_glamour_photo`: Hồi 3: Bức ảnh tuần trăng mật lộng lẫy che đậy toan tính đen tối. (3.03#2, 3.03#3)
+- `t22_a3_06_love_bombing_expensive_gifts`: Hồi 3: Chiến thuật dội bom tình ái với những món quà xa hoa ru ngủ nạn nhân. (3.03#4, 3.03#5)
+- `t22_a3_07_isolation_tactic_broken_friendships`: Hồi 3: Chiến thuật cô lập nạn nhân khỏi bạn bè và người thân xung quanh. (3.03#6, 3.03#7)
+- `t22_a3_08_crocodile_tears_anatomy_chart`: Hồi 3: Bản đồ giải phẫu học cơ chế Nước mắt cá sấu và Nỗi đau trình diễn. (3.03#8, 3.03#9)
+- `t22_a3_09_performative_grief_stage_lights`: Hồi 3: Nỗi đau mang tính trình diễn trước ống kính như một diễn viên kịch nghệ. (3.03#10)
+- `t22_a3_10_extreme_gaslighting_warped_reality`: Hồi 3: Cơ chế Thao túng thực tại trơ trẽn bóp méo nhận thức của nạn nhân. (3.03#11, 3.03#12)
+- `t22_a3_11_moral_neutralization_balancing_scale`: Hồi 3: Kỹ thuật trung hòa đạo đức đổ lỗi nạn nhân để ru ngủ lương tri. (3.03#13, 3.04#1)
+- `t22_a3_12_compartmentalization_two_faced_psyche`: Hồi 3: Cơ chế Chia ngăn nhận thức: Ngăn con gái hiếu thảo và Ngăn săn mồi bóng tối. (3.04#2, 3.04#3)
+- `t22_a3_13_maternal_denial_blindfold_symbol`: Hồi 3: Sự chối bỏ thực tế mù quáng của người mẹ trước tội ác của con gái. (3.04#4, 3.05#1)
+- `t22_a3_14_cognitive_dissonance_family_living_room`: Hồi 3: Không khí ngột ngạt bất an bao trùm căn nhà trong thời gian tại ngoại. (3.05#2, 3.05#3)
+- `t22_a3_15_narcissistic_hubris_mirror_admiration`: Hồi 3: Ảo tưởng tự tin mù quáng vào khả năng thao túng bất kỳ ai của kẻ ái kỷ. (3.05#4)
+- `t22_a3_16_legal_sanity_examination_room`: Hồi 3: Phòng giám định năng lực chịu trách nhiệm hình sự của bác sĩ pháp y. (3.05#5, 3.05#6)
+- `t22_a3_17_full_mental_competence_certificate`: Hồi 3: Kết luận pháp y xác nhận Dalia hoàn toàn tỉnh táo và có năng lực hành vi. (3.05#7, 3.05#8)
+- `t22_a3_18_callous_unemotional_traits_scale`: Hồi 3: Thang đo tính cách vô cảm và sự thiếu hụt lòng trắc ẩn sâu sắc. (3.05#9, 3.06#1)
+- `t22_a3_19_financial_ledger_greed_audit`: Hồi 3: Bảng kiểm toán tài chính vạch trần mọi khoản chi tiêu và nợ nần thúc đẩy tội ác. (3.06#2, 3.06#3)
+- `t22_a3_20_pawn_shop_receipt_covert_funds`: Hồi 3: Biên lai tiệm cầm đồ và các giao dịch ngầm chuẩn bị tiền thuê sát thủ. (3.07#1)
+- `t22_a3_21_telephone_recording_cassette_evidence`: Hồi 3: Băng cassette ghi âm cuộc gọi thỏa thuận sát thủ được bảo quản nghiêm ngặt. (3.07#2, 3.07#3)
+- `t22_a3_22_juror_notebook_psychological_findings`: Hồi 3: Cuốn sổ tay ghi chú các chỉ dấu tâm lý chuẩn bị cho phiên xét xử. (3.07#4, 3.07#5)
+- `t22_a3_23_suburban_facade_cracked_white_fence`: Hồi 3: Hình tượng hàng rào trắng ngoại ô nứt toác phơi bày mục ruỗng đạo đức. (3.07#6, 3.07#7)
+- `t22_a3_24_cold_ocean_waves_crashing_breakwater`: Hồi 3: Sóng biển Boynton Beach gầm rú đập vào bờ kè đá lúc trời bão. (3.07#8, 3.07#9)
+- `t22_a3_25_empty_dinner_table_abandoned_home`: Hồi 3: Bàn ăn gia đình bỏ trống với hai bộ chén dĩa phủ bụi thời gian. (3.07#10, 3.07#11)
+- `t22_a3_26_statue_of_justice_silhouette_palm_beach`: Hồi 3: Tượng Nữ thần Công lý mang dải băng che mắt tại Tòa án Palm Beach. (3.07#12)
+- `t22_a3_27_dossier_transfer_to_courtroom`: Hồi 3: Chiếc xe chuyên dụng chuyển giao hồ sơ vụ án sang Tòa án Hạt chuẩn bị xét xử. (3.08#1, 3.08#2)
+- `t22_a3_28_courtroom_door_push_open`: Hồi 3: Cánh cửa gỗ phòng xử án mở rộng chuẩn bị đón phiên tòa sơ thẩm. (3.08#3, 3.08#4)
+
+### HỒI 4: CUỘC CHIẾN PHÁP LÝ 8 NĂM & BẢN ÁN 16 NĂM TÙ GIAM (32 ảnh)
+
+- `t22_a4_01_palm_beach_county_courthouse_exterior`: Hồi 4: Tòa án Hạt Palm Beach uy nghiêm tại thành phố West Palm Beach. (4.02#1, 4.02#2)
+- `t22_a4_02_2011_first_trial_courtroom_empty`: Hồi 4: Phòng xử án sơ thẩm năm 2011 với hàng ghế khán giả chật kín. (4.02#3)
+- `t22_a4_03_defense_attorney_passionate_motion`: Hồi 4: Luật sư bào chữa hùng biện tìm kẽ hở thủ tục hủy bỏ bản án. (4.02#4, 4.02#5)
+- `t22_a4_04_20_year_sentence_overturned_ruling`: Hồi 4: Phán quyết hủy bỏ bản án 20 năm sơ thẩm vì thủ tục chọn bồi thẩm đoàn. (4.02#6, 4.02#7)
+- `t22_a4_05_2016_second_trial_retrial_mistrial`: Hồi 4: Phiên tòa tái thẩm năm 2016 kết thúc bế tắc với tỷ lệ ba-ba. (4.02#8, 4.04#1)
+- `t22_a4_06_mohamed_shihadeh_moral_awakening`: Hồi 4: Đồng phạm Mohamed Shihadeh trải qua cơn chấn thương đạo đức và thức tỉnh. (4.04#2)
+- `t22_a4_07_shihadeh_entering_police_confession`: Hồi 4: Shihadeh dũng cảm bước vào sở cảnh sát tố giác âm mưu giết người. (4.04#3, 4.04#4)
+- `t22_a4_08_shihadeh_wearing_undercover_wire`: Hồi 4: Kỹ thuật viên cảnh sát gắn máy ghi âm ngầm lên người Shihadeh. (4.04#5, 4.06#1)
+- `t22_a4_09_shihadeh_witness_stand_testimony`: Hồi 4: Shihadeh ngồi trên bục nhân chứng đĩnh đạc vạch trần âm mưu của Dalia. (4.06#2)
+- `t22_a4_10_2017_third_trial_commencement`: Hồi 4: Mùa hè năm 2017 phiên tòa xét xử thứ ba chính thức được mở lại. (4.06#3, 4.06#4)
+- `t22_a4_11_large_projection_screen_courtroom`: Hồi 4: Màn hình máy chiếu khổng lồ dựng giữa phòng xử án phát video chiếc xe đỏ. (4.06#5, 4.06#6)
+- `t22_a4_12_playing_5000_percent_video_to_jury`: Hồi 4: Giọng nói chắc chắn năm nghìn phần trăm vang lên rành rọt giữa phòng xử. (4.06#7, 4.06#8)
+- `t22_a4_13_dalia_defense_table_shrinking`: Hồi 4: Dalia ngồi bên bàn bào chữa co rúm lại khi bằng chứng phơi bày. (4.06#9)
+- `t22_a4_14_prosecutor_closing_argument_point`: Hồi 4: Công tố viên đứng trước bồi thẩm đoàn chỉ tay đanh thép kết tội. (4.06#10, 4.06#11)
+- `t22_a4_15_juror_n2_solemn_deliberation`: Hồi 4: Bồi thẩm viên N2 nghiêm nghị ghi chép vào cuốn sổ tay bồi thẩm. (4.08#1, 4.08#2)
+- `t22_a4_16_jury_deliberation_closed_door_shadows`: Hồi 4: Cánh cửa phòng nghị án bồi thẩm đoàn khép kín trong nhiều giờ căng thẳng. (4.08#3, 4.08#4)
+- `t22_a4_17_jury_reaching_unanimous_verdict`: Hồi 4: Khoảnh khắc bồi thẩm đoàn đạt được sự đồng thuận tuyệt đối sau nhiều giờ. (4.09#1)
+- `t22_a4_18_court_clerk_reading_guilty_verdict`: Hồi 4: Thư ký tòa án đứng dậy cất giọng dõng dạc tuyên bố bản án có tội. (4.09#2, 4.09#3)
+- `t22_a4_19_dalia_narcissistic_collapse_despair`: Hồi 4: Sự sụp đổ cái tôi ái kỷ tột cùng và giọt nước mắt tự thương hại. (4.09#4, 4.09#5)
+- `t22_a4_20_judge_glenn_kelley_sentencing_gavel`: Hồi 4: Thẩm phán Glenn Kelley gõ búa tuyên phạt 16 năm tù giam nghiêm minh. (4.09#6)
+- `t22_a4_21_written_sentencing_order_16_years`: Hồi 4: Bản án chính thức kết án 16 năm tù giam tại cơ sở cải huấn bang Florida. (4.09#7, 4.09#8)
+- `t22_a4_22_handcuffs_fastened_behind_back`: Hồi 4: Cảnh sát tư pháp khóa còng tay Dalia ra phía sau ngay tại phòng xử. (4.09#9, 4.10#1)
+- `t22_a4_23_lowell_correctional_institution_gate`: Hồi 4: Cổng Trại giam Phụ nữ Lowell với hàng rào kẽm gai sắc lạnh. (4.10#2, 4.10#3)
+- `t22_a4_24_prison_cell_bunk_concrete_walls`: Hồi 4: Buồng giam bê tông lạnh lẽo nơi Dalia bắt đầu thụ án 16 năm. (4.10#4)
+- `t22_a4_25_denial_of_all_appeals_document`: Hồi 4: Các lá đơn kháng cáo tiếp theo đều bị Tòa án Tối cao Florida bác bỏ. (4.10#5, 4.10#6)
+- `t22_a4_26_solitary_yard_exercise_walk`: Hồi 4: Khoảng sân tập đi dạo cô độc của phạm nhân bao quanh bởi lưới thép. (4.11#1, 4.11#2)
+- `t22_a4_27_why_dalia_never_repents_symbol`: Hồi 4: Biểu tượng tâm lý học: Tại sao kẻ ái kỷ vĩnh viễn không bao giờ biết hối hận. (4.11#3)
+- `t22_a4_28_michael_stepping_out_courthouse_steps`: Hồi 4: Michael Dippolito bước xuống những bậc thang tòa án sau tám năm trường. (4.11#4, 4.11#5)
+- `t22_a4_29_press_microphones_clearing_away`: Hồi 4: Đám đông phóng viên truyền thông thu dọn máy quay và rời khỏi hiện trường. (4.11#6, 4.11#7)
+- `t22_a4_30_true_remorse_vs_pathological_pity`: Hồi 4: Hình tượng đối lập giữa sự hối cải của Shihadeh và sự tự thương hại của Dalia. (4.11#8, 4.11#9)
+- `t22_a4_31_justice_upheld_balance_restored`: Hồi 4: Công lý được thực thi trọn vẹn bảo vệ sự thiêng liêng của sinh mạng con người. (4.12#1)
+- `t22_a4_32_fading_echoes_courtroom_hallway`: Hồi 4: Hành lang tòa án vắng lặng khi phiên tòa lịch sử chính thức khép lại. (4.12#2, 4.12#3)
+
+### HỒI 5: BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO ĐỎ NHẬN DIỆN KẺ THAO TÚNG TRỤC LỢI (20 ảnh)
+
+- `t22_a5_01_boynton_beach_peaceful_pier_morning`: Hồi 5: Bến tàu biển Boynton Beach thanh bình mười lăm năm sau thảm kịch. (5.02#1, 5.02#2)
+- `t22_a5_02_michael_rebuilding_life_sunlight`: Hồi 5: Michael Dippolito kiên cường tái thiết cuộc sống mới và tìm lại niềm tin. (5.02#3, 5.02#4)
+- `t22_a5_03_detective_alex_gomez_badge_retire`: Hồi 5: Bài học điều tra hình sự và giá trị cứu người từ sự dũng cảm của người dân. (5.02#5)
+- `t22_a5_04_psychologist_notebook_post_traumatic_growth`: Hồi 5: Bài học tâm lý học về sự hồi sinh sau sang chấn chấn thương phản bội cực hạn. (5.03#1, 5.03#2)
+- `t22_a5_05_healthy_relationship_boundary_balance`: Hồi 5: Biểu tượng về sự độc lập tài chính và ranh giới lành mạnh trong tình yêu. (5.03#3, 5.03#4)
+- `t22_a5_06_four_redflags_overview_banner`: Hồi 5: Bảng ghim phân tích tổng quan 4 Dấu hiệu cảnh báo đỏ nhận diện kẻ thao túng trục lợi. (5.03#5, 5.03#6)
+- `t22_a5_07_redflag1_rushed_marriage_wealth_target`: Hồi 5: Cảnh báo đỏ 1: Sự vội vã kết hôn kết hợp với việc nhắm đến quyền sở hữu tài sản. (5.04#1)
+- `t22_a5_08_redflag1_financial_parasite_metaphor`: Hồi 5: Chi tiết cảnh báo đỏ 1: Bóc lột tài chính ký sinh núp bóng tình yêu. (5.04#2, 5.04#3)
+- `t22_a5_09_redflag2_extreme_pathological_gaslighting`: Hồi 5: Cảnh báo đỏ 2: Hành vi thao túng thực tại trơ trẽn Gaslighting khi bị chất vấn. (5.04#4, 5.04#5)
+- `t22_a5_10_redflag2_blaming_victim_deflection`: Hồi 5: Chi tiết cảnh báo đỏ 2: Đảo ngược vai trò thủ ác thành nạn nhân một cách trơ tráo. (5.04#6, 5.04#7)
+- `t22_a5_11_redflag3_theatrical_crocodile_tears`: Hồi 5: Cảnh báo đỏ 3: Biểu hiện cảm xúc thái quá mang tính trình diễn và thiếu thấu cảm sâu sắc. (5.05#1)
+- `t22_a5_12_redflag3_lack_of_autonomic_response`: Hồi 5: Chi tiết cảnh báo đỏ 3: Sự thiếu hụt các phản xạ cảm xúc sinh học chân thực. (5.05#2, 5.05#3)
+- `t22_a5_13_redflag4_mysterious_perils_and_sabotage`: Hồi 5: Cảnh báo đỏ 4: Những sự cố nguy hiểm bất thường và rắc rối pháp lý bí ẩn liên tiếp xảy ra. (5.05#4, 5.05#5)
+- `t22_a5_14_redflag4_survival_instinct_breakaway`: Hồi 5: Chi tiết cảnh báo đỏ 4: Lắng nghe trực giác sinh tồn và dũng cảm cắt đứt mối quan hệ độc hại. (5.05#6, 5.05#7)
+- `t22_a5_15_civic_duty_reporting_crime_phone`: Hồi 5: Hành động dũng cảm tố giác tội ác của người dân bảo vệ tính mạng cộng đồng. (5.05#8)
+- `t22_a5_16_healing_journey_nature_coastal_dawn`: Hồi 5: Hành trình chữa lành tâm lý giữa thiên nhiên bao la và biển trời Florida. (5.05#9, 5.05#10)
+- `t22_a5_17_amber_eyes_owl_symbol_vigilance`: Hồi 5: Biểu tượng Đôi mắt cú vàng Amber Eyes thức tỉnh sự tỉnh táo và thông thái. (5.05#11, 5.05#12)
+- `t22_a5_18_subscribing_bell_awareness_closing`: Hồi 5: Lời kêu gọi nâng cao nhận thức bảo vệ sức khỏe gia đình và phòng ngừa tội ác. (5.05#13, 5.05#14)
+- `t22_a5_19_florida_ocean_horizon_unbroken`: Hồi 5: Đường chân trời biển Florida trong trẻo không còn bóng ma của âm mưu tội ác. (5.05#15)
+- `t22_a5_20_amber_eyes_closing_dossier_dippolito`: Hồi 5: Tập hồ sơ Amber Eyes về vụ án Dalia Dippolito chính thức khép lại với bản án 16 năm tù. (5.05#16, 5.05#17)

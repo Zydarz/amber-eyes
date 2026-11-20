@@ -1,0 +1,1130 @@
+{
+ "_readme": "SPEC_AUDIO_CLIP_TAP02.json — đặc tả âm thanh để SINH WAV cho 5 clip TikTok của Tập 02 (20/11/2026). CHƯA có file âm thanh nào được tạo. Bản gốc: 02_SAN_XUAT/TIKTOK/Tap02/KE_HOACH_CLIP_TAP02.md",
+ "_tap": "02",
+ "_ten_tap": "Đại tá hai mặt (Russell Williams)",
+ "_ngon_ngu": "vi",
+ "_so_cau": 53,
+ "_so_clip": 5,
+ "_uoc_luong_thoi_luong": "Không ước lượng bằng cảm tính: đo tỉ lệ đọc thật của từng vai trên master Tập 02 (timeline_s_t02.json — timeline đo bằng ASR trên mp4 thành phẩm), rồi chiếu theo số từ SAU KHI đổi số→chữ (đúng phần TTS đọc). Sai số dự kiến ±5 %.",
+ "_canh_bao": "Số đo thời lượng là ƯỚC LƯỢNG có cơ sở đo, KHÔNG phải số đo thật của clip (chưa có WAV). Số đo thật lấy sau khi sinh WAV: cộng dur từng file + pause_after, rồi đo lại trên mp4 cuối (A7).",
+ "engine": {
+  "mo_hinh": "bosonai/higgs-tts-3-4b",
+  "dataset_kaggle": "chiduong2026/amber-eyes-voice-ref-voxcpm2",
+  "giong_dung": "ĐÚNG giọng của chính Tập 02 (VoxCPM2 refs đã qua G9 cho tập này) — KHÔNG dùng bộ A MiniMax, vì giọng clip sẽ lệch giọng tập trên YouTube.",
+  "vai_voi_clip_tham_chieu": {
+   "H": "assets/voice_ref_voxcpm2/H.wav",
+   "D": "assets/voice_ref_voxcpm2_dc3/D_NEW_subbass-husky_t02.wav",
+   "C": "assets/voice_ref_voxcpm2_dc2/C_NEW_alto-brisk_t03.wav",
+   "N1": "assets/voice_ref_voxcpm2_g9/W6_LOW.wav",
+   "N2": "assets/voice_ref_voxcpm2_g9/W5_HIGH.wav"
+  },
+  "gen_params": {
+   "temperature": 0.8,
+   "top_p": 0.95,
+   "top_k": 50,
+   "max_new_tokens": 1196,
+   "sample_rate": 24000,
+   "fade_in_ms": 30,
+   "fade_out_ms": 15,
+   "seed_scheme": "sha256(id|role|ref|temp|vN) -> int(hex[:8],16)",
+   "variants_per_line": 2
+  },
+  "cam": "KHONG dung <|emotion:...|> (chi <|prosody:pause|> sau dau ':' truoc cau trich). Thay the: chi 1 thay <#0.35#> moi cau, dat ngay sau dau ':' truoc cau trich.",
+  "ghi_chu_cher": "Moi cau chi duoc MOT thay <#0.35#>, dat sau dau ':' truoc cau trich (G1). Pitch LUON = 0 (G5). Speed chi trong -0.06 ... +0.02 (G4). Emotion chi 4 gia tri an toan: neutral, sad, fearful, surprised (G3)."
+ },
+ "quy_uoc_dat_ten": {
+  "thu_muc_dich": ".work/audio_s_tk_t02/",
+  "ten_file": "<ma_cau>.wav voi '#' thay bang '_' — TK1.01#1 -> TK1.01_01.wav",
+  "manifest": ".work/audio_s_tk_t02/manifest_tk_t02.json",
+  "manifest_dong_mau": {
+   "id": "TK1.01#1",
+   "vai": "H",
+   "file": "TK1.01_01.wav",
+   "dur": 6.42,
+   "emotion": "neutral",
+   "speed": -0.02,
+   "pause_after": 0.5,
+   "variant": 0
+  }
+ },
+ "cang_qua_audio": {
+  "A1_V4": "0 khoang cam tuyet doi > 0.3 s — luon co lop nen moi truong ben duoi",
+  "A7": "-16 +/- 1 LUFS · true peak <= -1.5 dBFS · do tren mp4 cuoi",
+  "G6": "loi doc khong duoc doi chu — phu de va theo hinh lay nguyen van cau trong spec nay",
+  "G12": "CER < 2 % cho MOI cau (do bang Whisper / measure_cer_prod.py)",
+  "G9": "H-D >= 4 nc · C-H >= 4 nc · C-D >= 4 nc",
+  "G10": "nghe lien theo vai: moi vai ra 1 nguoi, 3 vai tach bach"
+ },
+ "ti_le_doc_do_duoc": {
+  "_nguon": ".work/timeline_s_t02.json (timeline do bang ASR tren master Tập 02)",
+  "_cach": "gioi = tong gio liet ke / tong so TU sau khi vi_numbers() (dung thu TTS doc)",
+  "s_gio_tren_tu": {
+   "H": 0.2921,
+   "N1": 0.2976,
+   "D": 0.26,
+   "C": 0.2397,
+   "N2": 0.2868
+  },
+  "tu_tren_gio": {
+   "H": 3.4233,
+   "N1": 3.3602,
+   "D": 3.8458,
+   "C": 4.1723,
+   "N2": 3.4868
+  }
+ },
+ "am_thanh_nen": {
+  "_quy_tac": "CHI dung nguon duoi day. Tuyet doi KHONG dung 2 file YouTube Audio Library (bgm_guitar_acoustic_60s.mp3, bgm_church_organ.mp3) va 32 file SFX trong assets/sfx/t2/ (ban YouTube Audio Library) — giay phep cua YouTube Audio Library khong phu TikTok. Dung ban TU TONG HOP trong assets/sfx/t2/_code/ (cung ten file, cung hieu ung).",
+  "bgm_minimax_duoc_phep": [
+   "bgm_piano_minimal.mp3",
+   "bgm_sub_drone.mp3",
+   "bgm_cello_sad_v2.mp3",
+   "bgm_piano_warm.mp3",
+   "bgm_ambient_deep.mp3"
+  ],
+  "sfx_duoc_phep": [
+   "assets/sfx/t2/_code/*.wav — SFX tu tong hop bang .work/make_sfx.py",
+   "Freesound CC0"
+  ],
+  "sfx_cam": [
+   "assets/sfx/t2/*.wav (khong phai _code)",
+   "assets/sfx/t1/..t29/"
+  ],
+  "muc_am_thanh": "giong -16 LUFS · BGM -26 dB khi co loi, nang -14 dB o nghi 0.8-1.2 s truoc cau chot"
+ },
+ "nen_doc": {
+  "_quy_tac": "Clip dung nen DOC 9:16 1080x1920. Tap01 da tao 16 nen rieng co tien to tk01_ trong assets/bg/. Tap02 CAN tao nhom tk02_ (xem KE_HOACH_CLIP_TAP02.md muc 7). LUU Y: ban 16:9 t2_*.png da bi don sach khoi assets/bg/ — chi con _raw/t2_* (2752x1536). Phuong an B (blur-fill) van dung duoc truc tiep tu _raw.",
+  "danh_sach": [
+   "tk02_brain_neural",
+   "tk02_checkpoint",
+   "tk02_command_chair",
+   "tk02_cottage_search",
+   "tk02_courtroom",
+   "tk02_drawer_dark",
+   "tk02_escalation_stairs",
+   "tk02_folder_tree",
+   "tk02_gavel",
+   "tk02_head_down",
+   "tk02_hidden_drive",
+   "tk02_house_missing",
+   "tk02_interrogation_early",
+   "tk02_oath_hall",
+   "tk02_open_window",
+   "tk02_podcast_desk",
+   "tk02_red_flags",
+   "tk02_siren_wall",
+   "tk02_stairs_dark",
+   "tk02_suv_stop",
+   "tk02_tire_track",
+   "tk02_town_snow",
+   "tk02_two_chairs",
+   "tk02_two_drawers",
+   "tk02_two_masks",
+   "tk02_uniform_fire"
+  ]
+ },
+ "clips": [
+  {
+   "id": "TK1",
+   "ten": "Bon nac thang. Roi mot vu an mang",
+   "ten_vn": "Bốn nấc thang. Rồi một vụ án mạng",
+   "chi_dau": [
+    8,
+    6
+   ],
+   "chude": "Quỹ đạo leo thang hành vi + ngòi nổ tâm lý (Precipitating Trigger)",
+   "hook_text": "Bốn nấc thang. Rồi một vụ án mạng.",
+   "hook_seconds": 3,
+   "target_len_s": [
+    65,
+    90
+   ],
+   "uoc_luong_s": 81.5,
+   "so_cau": 12,
+   "sai_so_uoc_luong": "+/- 7 % (p90, mo phong tren 203 cau that cua Tap 02)",
+   "bgm": "bgm_piano_minimal.mp3",
+   "bgm_hovi": "Hồi 2 — bed tập: bgm_piano_minimal.mp3",
+   "sfx": [
+    "amb_winter_wind.wav (nền)",
+    "fx_tension_tick.wav",
+    "fx_stinger.wav",
+    "fx_sub_drop.wav"
+   ],
+   "overlay_cards": [
+    {
+     "sau_cau": "TK1.01#1",
+     "text": "4 NẤC THANG · 82 VỤ · 1 ÁN MẠNG",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK1.01#3",
+     "text": "NẤC THỨ NHẤT — NHÌN TRỘM BAN ĐÊM",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK1.01#4",
+     "text": "NẤC THỨ HAI — ĐỘT NHẬP LẤY ĐỒ RIÊNG TƯ",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK1.01#7",
+     "text": "NẤC THỨ BA — XÂM NHẬP KHI CÓ NGƯỜI Ở NHÀ",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK1.01#8",
+     "text": "NẤC THỨ TƯ — NẠN NHÂN CUỐI CÙNG",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK1.01#10",
+     "text": "NGÒI NỔ TÂM LÝ · THÁNG 7/2009",
+     "dur_s": 2.5
+    }
+   ],
+   "nguon_du_lieu": [
+    "2.04#3",
+    "2.05#1-#16",
+    "3.05#4-#10",
+    "5.07#5-#6",
+    "nguon_tham_khao.md (R. v. Williams 2010 ONSC 5946)"
+   ],
+   "lines": [
+    {
+     "id": "TK1.01#1",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.5,
+     "nen": "tk02_escalation_stairs",
+     "chuyen_dong": "still",
+     "text": "Bốn nấc thang. Tám mươi hai vụ trộm. Rồi một vụ án mạng.",
+     "uoc_luong_s": 3.8,
+     "nguon": "2.05#1 · 2.05#7 · 5.07#5"
+    },
+    {
+     "id": "TK1.01#2",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.6,
+     "nen": "tk02_escalation_stairs",
+     "chuyen_dong": "pull",
+     "text": "Hắn không bắt đầu bằng bạo lực. Hắn bắt đầu bằng việc đứng ngoài cửa sổ ban đêm.",
+     "uoc_luong_s": 5.26,
+     "nguon": "2.05#2 · 2.05#3 · 5.07#5"
+    },
+    {
+     "id": "TK1.01#3",
+     "vai": "D",
+     "emotion": "neutral",
+     "speed": -0.03,
+     "pause_after": 0.6,
+     "nen": "tk02_open_window",
+     "chuyen_dong": "push",
+     "text": "Nấc thang thứ nhất: nhìn trộm ban đêm, đứng ngoài bóng tối rình rập phụ nữ qua khung cửa sổ.",
+     "uoc_luong_s": 5.2,
+     "nguon": "2.05#2 · 2.05#3"
+    },
+    {
+     "id": "TK1.01#4",
+     "vai": "D",
+     "emotion": "neutral",
+     "speed": -0.03,
+     "pause_after": 0.6,
+     "nen": "tk02_drawer_dark",
+     "chuyen_dong": "pan",
+     "text": "Nấc thang thứ hai: đột nhập lấy đồ riêng tư. Hắn không lấy tiền hay trang sức. Hắn lấy đồ lót và đồ riêng tư của phụ nữ.",
+     "uoc_luong_s": 7.28,
+     "nguon": "2.05#4 · 2.05#8 · 2.05#9"
+    },
+    {
+     "id": "TK1.01#5",
+     "vai": "D",
+     "emotion": "neutral",
+     "speed": -0.03,
+     "pause_after": 0.5,
+     "nen": "tk02_folder_tree",
+     "chuyen_dong": "still",
+     "text": "Nghi thức lặp lại y hệt ở mọi căn nhà: chụp ảnh, lấy đồ, rồi ghi chép lại.",
+     "uoc_luong_s": 4.68,
+     "nguon": "2.05#10"
+    },
+    {
+     "id": "TK1.01#6",
+     "vai": "C",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.6,
+     "nen": "tk02_brain_neural",
+     "chuyen_dong": "push",
+     "text": "Khi hành vi cũ trở nên quen thuộc, hắn rơi vào trạng thái đói ảo tưởng, buộc phải tăng liều lượng rủi ro để tìm lại khoái cảm ban đầu.",
+     "uoc_luong_s": 7.19,
+     "nguon": "3.05#7 · 3.05#8 · 3.05#9"
+    },
+    {
+     "id": "TK1.01#7",
+     "vai": "D",
+     "emotion": "neutral",
+     "speed": -0.03,
+     "pause_after": 0.6,
+     "nen": "tk02_open_window",
+     "chuyen_dong": "pan",
+     "text": "Nấc thang thứ ba: tháng 9 năm 2009, hắn đột nhập vào nhà lúc có người ở nhà.",
+     "uoc_luong_s": 5.98,
+     "nguon": "2.05#11 · 2.05#12 · 2.05#13"
+    },
+    {
+     "id": "TK1.01#8",
+     "vai": "D",
+     "emotion": "neutral",
+     "speed": -0.03,
+     "pause_after": 0.7,
+     "nen": "tk02_two_chairs",
+     "chuyen_dong": "still",
+     "text": "Và nấc thang thứ tư: cuối tháng 11 năm 2009, nạn nhân là Marie-France Comeau, nữ hạ sĩ ba mươi bảy tuổi phục vụ ngay trong căn cứ mà hắn chỉ huy.",
+     "uoc_luong_s": 9.88,
+     "nguon": "2.05#14 · 2.05#15"
+    },
+    {
+     "id": "TK1.01#9",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.6,
+     "nen": "tk02_house_missing",
+     "chuyen_dong": "pull",
+     "text": "Chỉ hai tháng sau đó, nạn nhân tiếp theo là Jessica Lloyd.",
+     "uoc_luong_s": 3.51,
+     "nguon": "2.05#16"
+    },
+    {
+     "id": "TK1.01#10",
+     "vai": "C",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.6,
+     "nen": "tk02_oath_hall",
+     "chuyen_dong": "push",
+     "text": "Tháng 7 năm 2009, khi hắn được thăng cấp chỉ huy trưởng căn cứ Trenton, đó là ngòi nổ tâm lý: cảm giác quyền lực tối cao cùng áp lực công việc đã đánh sập chốt chặn kiểm soát cuối cùng.",
+     "uoc_luong_s": 11.03,
+     "nguon": "1.03#4 · 3.05#10"
+    },
+    {
+     "id": "TK1.01#11",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.7,
+     "nen": "tk02_escalation_stairs",
+     "chuyen_dong": "push",
+     "text": "Tội ác không bao giờ bắt đầu từ một vụ án mạng. Nó bắt đầu từ một cái nhìn trộm không bị trừng phạt.",
+     "uoc_luong_s": 7.01,
+     "nguon": "5.07#5 · 5.07#6"
+    },
+    {
+     "id": "TK1.01#12",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.0,
+     "nen": "tk02_podcast_desk",
+     "chuyen_dong": "still",
+     "text": "Tập hai của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+     "uoc_luong_s": 4.09,
+     "nguon": "CTA — không phải dữ kiện"
+    }
+   ],
+   "caption": "Bốn nấc thang. Rồi một vụ án mạng. 👁️\n\nTập 02 · Đại tá hai mặt — chỉ dấu #8: quỹ đạo leo thang hành vi.\nHồ sơ có thật, dữ kiện có nguồn.\n\n📺 Xem tập đầy đủ ở link trong bio\n🔎 Chỉ dấu tâm lý · leo thang hành vi · hồ sơ có thật\n\n#AmberEyes #TamLyToiPham #HosoCoThat #Escalation #QuyDaoLeoThang #TrueCrime #MoiTuanMotTap",
+   "hashtags": [
+    "#AmberEyes",
+    "#TamLyToiPham",
+    "#HosoCoThat",
+    "#Escalation",
+    "#QuyDaoLeoThang",
+    "#TrueCrime",
+    "#MoiTuanMotTap"
+   ]
+  },
+  {
+   "id": "TK2",
+   "ten": "Van lop xe trung khop. Canh sat van kinh can chao",
+   "ten_vn": "Vân lốp xe trùng khớp. Cảnh sát vẫn kính cẩn chào",
+   "chi_dau": [
+    9,
+    1
+   ],
+   "chude": "Hiệu ứng hào quang + ảnh hưởng xã hội (dư chấn tập thể)",
+   "hook_text": "Vân lốp xe trùng khớp. Cảnh sát vẫn kính cẩn chào.",
+   "hook_seconds": 3,
+   "target_len_s": [
+    65,
+    90
+   ],
+   "uoc_luong_s": 76.0,
+   "so_cau": 11,
+   "sai_so_uoc_luong": "+/- 7 % (p90, mo phong tren 203 cau that cua Tap 02)",
+   "bgm": "bgm_sub_drone.mp3",
+   "bgm_hovi": "Hồi 1 — bed tập: bgm_sub_drone.mp3",
+   "sfx": [
+    "amb_road_night.wav (nền)",
+    "fx_tire_snow.wav",
+    "fx_window_down.wav",
+    "fx_flashlight.wav",
+    "fx_police_radio.wav"
+   ],
+   "overlay_cards": [
+    {
+     "sau_cau": "TK2.01#5",
+     "text": "TRẠM KIỂM SOÁT LƯU ĐỘNG · ĐÊM 4/2",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK2.01#9",
+     "text": "CHỈ GHI NHẬN THÔNG TIN — RỒI KÍNH CẨN CHÀO",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK2.01#10",
+     "text": "HIỆU ỨNG HÀO QUANG",
+     "dur_s": 3.0
+    }
+   ],
+   "nguon_du_lieu": [
+    "1.03#1-#4",
+    "1.05#1-#4",
+    "1.08#4",
+    "1.10#1-#3",
+    "1.12#1-#3",
+    "1.14#1-#7",
+    "1.17#1-#3",
+    "nguon_tham_khao.md (OPP + Belleville Police)"
+   ],
+   "lines": [
+    {
+     "id": "TK2.01#1",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.5,
+     "nen": "tk02_checkpoint",
+     "chuyen_dong": "still",
+     "text": "Vân lốp xe trùng khớp. Và cảnh sát vẫn kính cẩn chào cho người đàn ông đó đi.",
+     "uoc_luong_s": 5.26,
+     "nguon": "1.14#4 · 1.14#5"
+    },
+    {
+     "id": "TK2.01#2",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.6,
+     "nen": "tk02_oath_hall",
+     "chuyen_dong": "pull",
+     "text": "Tháng 7 năm 2009, Đại tá Russell Williams nhận quyền chỉ huy tối cao căn cứ không quân Trenton.",
+     "uoc_luong_s": 7.01,
+     "nguon": "1.03#1 · 1.03#4"
+    },
+    {
+     "id": "TK2.01#3",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.6,
+     "nen": "tk02_oath_hall",
+     "chuyen_dong": "pan",
+     "text": "Ông từng lái chuyên cơ đưa đón Nữ hoàng Anh Elizabeth II.",
+     "uoc_luong_s": 3.8,
+     "nguon": "1.05#1"
+    },
+    {
+     "id": "TK2.01#4",
+     "vai": "D",
+     "emotion": "neutral",
+     "speed": -0.03,
+     "pause_after": 0.6,
+     "nen": "tk02_house_missing",
+     "chuyen_dong": "still",
+     "text": "Đêm 28 tháng 1 năm 2010, Jessica Lloyd, hai mươi bảy tuổi, biến mất khỏi nhà riêng ở Belleville.",
+     "uoc_luong_s": 6.5,
+     "nguon": "1.10#1 · 1.10#2"
+    },
+    {
+     "id": "TK2.01#5",
+     "vai": "D",
+     "emotion": "neutral",
+     "speed": -0.03,
+     "pause_after": 0.7,
+     "nen": "tk02_checkpoint",
+     "chuyen_dong": "push",
+     "text": "Cảnh sát không tìm ra manh mối nào trong những ngày đầu tiên. Một tuần sau đó, tối ngày 4 tháng 2, họ lập trạm kiểm soát lưu động suốt đêm, chỉ để săn một dấu vết: vệt vân lốp xe hiếm gặp trên nền tuyết.",
+     "uoc_luong_s": 11.96,
+     "nguon": "1.12#1 · 1.12#2 · 1.12#3"
+    },
+    {
+     "id": "TK2.01#6",
+     "vai": "D",
+     "emotion": "neutral",
+     "speed": -0.03,
+     "pause_after": 0.6,
+     "nen": "tk02_suv_stop",
+     "chuyen_dong": "still",
+     "text": "Trong dòng xe qua trạm đêm hôm đó có một chiếc Nissan Pathfinder, thay vì chiếc BMW thường ngày.",
+     "uoc_luong_s": 4.94,
+     "nguon": "1.14#1 · 1.14#2"
+    },
+    {
+     "id": "TK2.01#7",
+     "vai": "D",
+     "emotion": "neutral",
+     "speed": -0.03,
+     "pause_after": 0.5,
+     "nen": "tk02_suv_stop",
+     "chuyen_dong": "push",
+     "text": "Người ngồi sau vô-lăng hạ cửa kính xuống — chính là chỉ huy trưởng căn cứ không quân Trenton.",
+     "uoc_luong_s": 4.94,
+     "nguon": "1.14#3"
+    },
+    {
+     "id": "TK2.01#8",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.5,
+     "nen": "tk02_tire_track",
+     "chuyen_dong": "still",
+     "text": "Vân lốp xe của ông ta trông rất giống dấu vết trên tuyết.",
+     "uoc_luong_s": 3.8,
+     "nguon": "1.14#4"
+    },
+    {
+     "id": "TK2.01#9",
+     "vai": "D",
+     "emotion": "neutral",
+     "speed": -0.03,
+     "pause_after": 0.7,
+     "nen": "tk02_checkpoint",
+     "chuyen_dong": "pan",
+     "text": "Nhưng trước một sĩ quan cấp cao, các sĩ quan tuần tra không thể giữ ông ta lại — họ chỉ ghi nhận rồi kính cẩn chào cho đi. Và trong ba ngày tiếp theo, ông ta vẫn là một vị đại tá tự do.",
+     "uoc_luong_s": 11.7,
+     "nguon": "1.14#5 · 1.14#6"
+    },
+    {
+     "id": "TK2.01#10",
+     "vai": "C",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.7,
+     "nen": "tk02_siren_wall",
+     "chuyen_dong": "push",
+     "text": "Hiệu ứng hào quang: tấm khiên vô hình khiến cả xã hội lẫn cơ quan thực thi pháp luật bị che mắt nhiều năm ròng.",
+     "uoc_luong_s": 5.99,
+     "nguon": "1.08#4"
+    },
+    {
+     "id": "TK2.01#11",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.0,
+     "nen": "tk02_podcast_desk",
+     "chuyen_dong": "still",
+     "text": "Tập hai của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+     "uoc_luong_s": 4.09,
+     "nguon": "CTA — không phải dữ kiện"
+    }
+   ],
+   "caption": "Vân lốp xe trùng khớp. Cảnh sát vẫn kính cẩn chào. 👁️\n\nTập 02 · Đại tá hai mặt — chỉ dấu #9: hiệu ứng hào quang.\nHồ sơ có thật, dữ kiện có nguồn.\n\n📺 Xem tập đầy đủ ở link trong bio\n🔎 Chỉ dấu tâm lý · hiệu ứng hào quang · hồ sơ có thật\n\n#AmberEyes #TamLyToiPham #HosoCoThat #HieuUngHaoQuang #QuanDoi #TrueCrime #MoiTuanMotTap",
+   "hashtags": [
+    "#AmberEyes",
+    "#TamLyToiPham",
+    "#HosoCoThat",
+    "#HieuUngHaoQuang",
+    "#QuanDoi",
+    "#TrueCrime",
+    "#MoiTuanMotTap"
+   ]
+  },
+  {
+   "id": "TK3",
+   "ten": "Hai cuoc doi. Mot co the. Mot cau chuyen de tu bao chua",
+   "ten_vn": "Hai cuộc đời. Một câu chuyện để tự bào chữa",
+   "chi_dau": [
+    5,
+    3
+   ],
+   "chude": "Hệ thống tự bào chữa (Neutralization) + cơ chế chia ngăn (Compartmentalization)",
+   "hook_text": "Hai cuộc đời. Một câu chuyện để tự bào chữa.",
+   "hook_seconds": 3,
+   "target_len_s": [
+    65,
+    90
+   ],
+   "uoc_luong_s": 79.0,
+   "so_cau": 12,
+   "sai_so_uoc_luong": "+/- 7 % (p90, mo phong tren 203 cau that cua Tap 02)",
+   "bgm": "bgm_cello_sad_v2.mp3",
+   "bgm_hovi": "Hồi 3 — bed tập: bgm_cello_sad_v2.mp3",
+   "sfx": [
+    "amb_basement.wav (nền)",
+    "fx_drawer_open.wav",
+    "fx_stinger.wav",
+    "fx_hdd_spin.wav"
+   ],
+   "overlay_cards": [
+    {
+     "sau_cau": "TK3.01#3",
+     "text": "PHÂN MẢNH TÂM TRÍ (COMPARTMENTALIZATION)",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK3.01#4",
+     "text": "NGĂN KÉO THỨ NHẤT — ĐẠI TÁ",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK3.01#5",
+     "text": "NGĂN KÉO THỨ HAI — KẺ SĂN MỒI BÓNG ĐÊM",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK3.01#7",
+     "text": "TRUNG HÒA ĐẠO ĐỨC (NEUTRALIZATION)",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK3.01#8",
+     "text": "“MỘT MÓN KỶ NIỆM”",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK3.01#10",
+     "text": "“TÔI KHÔNG BIẾT CÂU TRẢ LỜI”",
+     "dur_s": 2.5
+    }
+   ],
+   "nguon_du_lieu": [
+    "3.04#1-#2",
+    "3.08#1-#13",
+    "nguon_tham_khao.md (bản ghi thẩm vấn 07/02/2010)"
+   ],
+   "lines": [
+    {
+     "id": "TK3.01#1",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.5,
+     "nen": "tk02_two_drawers",
+     "chuyen_dong": "still",
+     "text": "Hai cuộc đời. Một cơ thể. Một câu chuyện để tự bào chữa.",
+     "uoc_luong_s": 3.8,
+     "nguon": "3.08#1 · 3.08#8"
+    },
+    {
+     "id": "TK3.01#2",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.7,
+     "nen": "tk02_two_masks",
+     "chuyen_dong": "pull",
+     "text": "Trước khi phân tích: không tồn tại chẩn đoán lâm sàng công khai nào về Russell Williams. Đây là khung lý thuyết, không phải phán xét.",
+     "uoc_luong_s": 7.6,
+     "nguon": "3.04#1 · 3.04#2"
+    },
+    {
+     "id": "TK3.01#3",
+     "vai": "C",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.7,
+     "nen": "tk02_brain_neural",
+     "chuyen_dong": "push",
+     "text": "Trong tâm lý học, phân mảnh tâm trí là cơ chế phòng vệ khóa chặt hai luồng nhận thức và cảm xúc trái ngược nhau vào hai ngăn kéo.",
+     "uoc_luong_s": 6.95,
+     "nguon": "3.08#2"
+    },
+    {
+     "id": "TK3.01#4",
+     "vai": "C",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.6,
+     "nen": "tk02_command_chair",
+     "chuyen_dong": "pan",
+     "text": "Ngăn kéo thứ nhất là vị đại tá: người chỉ huy mẫu mực, người chồng chăm sóc vườn tược.",
+     "uoc_luong_s": 4.55,
+     "nguon": "3.08#4"
+    },
+    {
+     "id": "TK3.01#5",
+     "vai": "C",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.6,
+     "nen": "tk02_stairs_dark",
+     "chuyen_dong": "push",
+     "text": "Ngăn kéo thứ hai là kẻ săn mồi bóng đêm, nơi hắn giải phóng những xung lực tàn bạo nhất.",
+     "uoc_luong_s": 4.79,
+     "nguon": "3.08#5"
+    },
+    {
+     "id": "TK3.01#6",
+     "vai": "C",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.7,
+     "nen": "tk02_two_drawers",
+     "chuyen_dong": "still",
+     "text": "Khi ở ngăn kéo này, hắn đóng chặt cánh cửa của ngăn kéo kia, rồi dùng người vợ và cuộc hôn nhân chuẩn mực làm lá chắn.",
+     "uoc_luong_s": 6.47,
+     "nguon": "3.08#6 · 3.08#7"
+    },
+    {
+     "id": "TK3.01#7",
+     "vai": "C",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.8,
+     "nen": "tk02_drawer_dark",
+     "chuyen_dong": "pull",
+     "text": "Để lương tri không lên tiếng, hắn trung hòa đạo đức. Trong tám mươi hai vụ đầu, hắn tự nhủ: <#0.35#> mình chỉ nhìn, mình không làm hại ai, mình chỉ giữ một món kỷ niệm.",
+     "uoc_luong_s": 8.39,
+     "nguon": "3.08#8"
+    },
+    {
+     "id": "TK3.01#8",
+     "vai": "C",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.7,
+     "nen": "tk02_hidden_drive",
+     "chuyen_dong": "pan",
+     "text": "Đến khi có án mạng, hắn lại tự biện minh rằng nạn nhân đã thấy mặt mình, ép mình phải ra tay để tự vệ.",
+     "uoc_luong_s": 5.99,
+     "nguon": "3.08#9"
+    },
+    {
+     "id": "TK3.01#9",
+     "vai": "C",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.5,
+     "nen": "tk02_two_drawers",
+     "chuyen_dong": "still",
+     "text": "Và chính vì vậy, cuối cùng hắn không thể tự giải thích một cách có lương tri.",
+     "uoc_luong_s": 4.07,
+     "nguon": "3.08#10"
+    },
+    {
+     "id": "TK3.01#10",
+     "vai": "C",
+     "emotion": "sad",
+     "speed": -0.04,
+     "pause_after": 0.9,
+     "nen": "tk02_interrogation_early",
+     "chuyen_dong": "push",
+     "text": "Khi thám tử hỏi vì sao mình làm những việc đó, câu trả lời trong bản ghi thẩm vấn trống rỗng: <#0.35#> Có, nhưng tôi không biết câu trả lời, và tôi khá chắc là câu trả lời cũng chẳng quan trọng.",
+     "uoc_luong_s": 9.83,
+     "nguon": "3.08#11"
+    },
+    {
+     "id": "TK3.01#11",
+     "vai": "C",
+     "emotion": "sad",
+     "speed": -0.04,
+     "pause_after": 0.7,
+     "nen": "tk02_head_down",
+     "chuyen_dong": "pull",
+     "text": "Đó là câu trả lời trơ trẽn nhất, phơi bày sự ngắt kết nối đạo đức của kẻ săn mồi này.",
+     "uoc_luong_s": 5.03,
+     "nguon": "3.08#12"
+    },
+    {
+     "id": "TK3.01#12",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.0,
+     "nen": "tk02_podcast_desk",
+     "chuyen_dong": "still",
+     "text": "Tập hai của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+     "uoc_luong_s": 4.09,
+     "nguon": "CTA — không phải dữ kiện"
+    }
+   ],
+   "caption": "Hai cuộc đời. Một câu chuyện để tự bào chữa. 👁️\n\nTập 02 · Đại tá hai mặt — chỉ dấu #5: hệ thống tự bào chữa.\nHồ sơ có thật, dữ kiện có nguồn.\n\n📺 Xem tập đầy đủ ở link trong bio\n🔎 Chỉ dấu tâm lý · phân mảnh tâm trí · hồ sơ có thật\n\n#AmberEyes #TamLyToiPham #HosoCoThat #Compartmentalization #SelfJustification #TrueCrime #MoiTuanMotTap",
+   "hashtags": [
+    "#AmberEyes",
+    "#TamLyToiPham",
+    "#HosoCoThat",
+    "#Compartmentalization",
+    "#SelfJustification",
+    "#TrueCrime",
+    "#MoiTuanMotTap"
+   ]
+  },
+  {
+   "id": "TK4",
+   "ten": "Khong mot loi xin loi nao nhac toi nan nhan",
+   "ten_vn": "Không một lời xin lỗi nào nhắc tới nạn nhân",
+   "chi_dau": [
+    4,
+    1
+   ],
+   "chude": "Sự sụp đổ cái tôi ái kỷ (Narcissistic Collapse) + bản án tâm lý",
+   "hook_text": "Không một lời xin lỗi nào nhắc tới nạn nhân.",
+   "hook_seconds": 3,
+   "target_len_s": [
+    65,
+    90
+   ],
+   "uoc_luong_s": 82.6,
+   "so_cau": 10,
+   "sai_so_uoc_luong": "+/- 7 % (p90, mo phong tren 203 cau that cua Tap 02)",
+   "bgm": "bgm_piano_warm.mp3",
+   "bgm_hovi": "Hồi 5 — bed tập: bgm_piano_warm.mp3",
+   "sfx": [
+    "amb_courtroom.wav (nền)",
+    "fx_gavel_triple.wav",
+    "fx_fire_whoosh.wav",
+    "amb_fire.wav",
+    "fx_heartbeat_slow.wav"
+   ],
+   "overlay_cards": [
+    {
+     "sau_cau": "TK4.01#1",
+     "text": "KHÔNG MỘT LỜI XIN LỖI NÀO NHẮC TỚI NẠN NHÂN",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK4.01#3",
+     "text": "KHÔNG PHẢI ĂN NĂN — LÀ TỰ THƯƠNG HẠI BẢN THÂN",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK4.01#4",
+     "text": "88 CÁO BUỘC",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK4.01#5",
+     "text": "CHUNG THÂN 25 NĂM — KHÔNG ĐƯỢC XÉT ÂN XÁ",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK4.01#7",
+     "text": "ĐỐT TOÀN BỘ QUÂN PHỤC MANG TÊN HẮN",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK4.01#9",
+     "text": "SỤP ĐỔ CÁI TÔI ÁI KỶ (NARCISSISTIC COLLAPSE)",
+     "dur_s": 3.0
+    }
+   ],
+   "nguon_du_lieu": [
+    "4.11#1-#9",
+    "5.02#1-#6",
+    "5.04#1-#9",
+    "5.06#1-#4",
+    "nguon_tham_khao.md (phán quyết 21/10/2010 · thông cáo Bộ Quốc phòng)"
+   ],
+   "lines": [
+    {
+     "id": "TK4.01#1",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.6,
+     "nen": "tk02_interrogation_early",
+     "chuyen_dong": "still",
+     "text": "Không một lời xin lỗi nào nhắc tới nạn nhân.",
+     "uoc_luong_s": 2.92,
+     "nguon": "4.11#6 · 4.11#7"
+    },
+    {
+     "id": "TK4.01#2",
+     "vai": "C",
+     "emotion": "sad",
+     "speed": -0.04,
+     "pause_after": 0.8,
+     "nen": "tk02_two_chairs",
+     "chuyen_dong": "pull",
+     "text": "Trong phòng thẩm vấn, nỗi lo hắn thốt ra chỉ xoay quanh việc người vợ nhìn nhận hắn ra sao, và sự sụp đổ danh tiếng của căn cứ quân sự. Hắn không nhắc đến nỗi đau của người phụ nữ hay gia đình nạn nhân.",
+     "uoc_luong_s": 11.03,
+     "nguon": "4.11#6 · 4.11#7"
+    },
+    {
+     "id": "TK4.01#3",
+     "vai": "C",
+     "emotion": "sad",
+     "speed": -0.04,
+     "pause_after": 0.8,
+     "nen": "tk02_head_down",
+     "chuyen_dong": "push",
+     "text": "Đó không phải sự ăn năn hối cải chân chính, mà là sự thương hại bản thân tột độ khi tấm mặt nạ danh dự xây suốt hai mươi lăm năm vỡ vụn.",
+     "uoc_luong_s": 7.91,
+     "nguon": "4.11#8 · 4.11#9"
+    },
+    {
+     "id": "TK4.01#4",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.6,
+     "nen": "tk02_courtroom",
+     "chuyen_dong": "still",
+     "text": "Ngày 18 tháng 10 năm 2010, hắn nhận tội trước toàn bộ 88 cáo buộc.",
+     "uoc_luong_s": 6.43,
+     "nguon": "5.02#1 · 5.02#3"
+    },
+    {
+     "id": "TK4.01#5",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.8,
+     "nen": "tk02_gavel",
+     "chuyen_dong": "push",
+     "text": "Ba ngày sau, thẩm phán tuyên hai mức tù chung thân chạy song song cho hai tội danh nghiêm trọng nhất, cộng thêm các mức tù khác. Mức án chung thân với hai mươi lăm năm không được xét ân xá.",
+     "uoc_luong_s": 11.98,
+     "nguon": "5.02#4 · 5.02#5"
+    },
+    {
+     "id": "TK4.01#6",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.6,
+     "nen": "tk02_courtroom",
+     "chuyen_dong": "pan",
+     "text": "Nhưng bản án lớn nhất với một kẻ ái kỷ như hắn là sự sụp đổ về danh dự và quyền lực: quân hàm bị thu hồi, huân chương bị cắt thành từng mảnh.",
+     "uoc_luong_s": 9.93,
+     "nguon": "5.04#1 · 5.04#2 · 5.04#3"
+    },
+    {
+     "id": "TK4.01#7",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.7,
+     "nen": "tk02_uniform_fire",
+     "chuyen_dong": "still",
+     "text": "Quân đội Canada còn làm một việc chưa từng có tiền lệ: đốt toàn bộ quân phục và trang phục mang tên hắn tại một lò tiêu hủy tài liệu mật.",
+     "uoc_luong_s": 9.06,
+     "nguon": "5.04#5"
+    },
+    {
+     "id": "TK4.01#8",
+     "vai": "D",
+     "emotion": "neutral",
+     "speed": -0.03,
+     "pause_after": 0.7,
+     "nen": "tk02_uniform_fire",
+     "chuyen_dong": "pan",
+     "text": "Theo người phát ngôn quân đội Hubert Genest: không có nghi lễ chính thức, cũng không có ảnh chụp.",
+     "uoc_luong_s": 4.94,
+     "nguon": "5.04#6 · 5.04#7"
+    },
+    {
+     "id": "TK4.01#9",
+     "vai": "C",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.6,
+     "nen": "tk02_brain_neural",
+     "chuyen_dong": "pull",
+     "text": "Về mặt tâm lý, đó là biểu hiện kinh điển của sự sụp đổ cái tôi ái kỷ: khi không còn quyền kiểm soát, kẻ săn mồi chỉ còn lại sự tự thương hại.",
+     "uoc_luong_s": 8.15,
+     "nguon": "5.06#4"
+    },
+    {
+     "id": "TK4.01#10",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.0,
+     "nen": "tk02_podcast_desk",
+     "chuyen_dong": "still",
+     "text": "Tập hai của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+     "uoc_luong_s": 4.09,
+     "nguon": "CTA — không phải dữ kiện"
+    }
+   ],
+   "caption": "Không một lời xin lỗi nào nhắc tới nạn nhân. 👁️\n\nTập 02 · Đại tá hai mặt — chỉ dấu #4: sụp đổ cái tôi ái kỷ.\nHồ sơ có thật, dữ kiện có nguồn.\n\n📺 Xem tập đầy đủ ở link trong bio\n🔎 Chỉ dấu tâm lý · sụp đổ cái tôi · hồ sơ có thật\n\n#AmberEyes #TamLyToiPham #HosoCoThat #NarcissisticCollapse #BanAn #TrueCrime #MoiTuanMotTap",
+   "hashtags": [
+    "#AmberEyes",
+    "#TamLyToiPham",
+    "#HosoCoThat",
+    "#NarcissisticCollapse",
+    "#BanAn",
+    "#TrueCrime",
+    "#MoiTuanMotTap"
+   ]
+  },
+  {
+   "id": "TK5",
+   "ten": "Hãy luôn tin vào truc giac cua ban",
+   "ten_vn": "Hãy luôn tin vào trực giác của bạn",
+   "chi_dau": [
+    10
+   ],
+   "chude": "Nạn nhân học & bài học sinh tồn (ranh giới + trực giác)",
+   "hook_text": "Nếu bạn cảm thấy bất an, đừng hợp lý hóa nó.",
+   "hook_seconds": 3,
+   "target_len_s": [
+    65,
+    90
+   ],
+   "uoc_luong_s": 62.5,
+   "so_cau": 8,
+   "sai_so_uoc_luong": "+/- 7 % (p90, mo phong tren 203 cau that cua Tap 02)",
+   "bgm": "bgm_ambient_deep.mp3",
+   "bgm_hovi": "Hồi 5 — bed tập: bgm_piano_warm.mp3 (clip kết, dùng ambient_deep để tách tiếng với TK4)",
+   "sfx": [
+    "amb_road_night.wav (nền)",
+    "fx_tension_tick.wav",
+    "fx_stinger.wav",
+    "fx_heartbeat_slow.wav"
+   ],
+   "overlay_cards": [
+    {
+     "sau_cau": "TK5.01#1",
+     "text": "ĐỪNG HỢP LÝ HÓA SỰ BẤT AN",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK5.01#2",
+     "text": "DẤU HIỆU SỚM: BẤT AN MƠ HỒ",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK5.01#4",
+     "text": "TỘI ÁC BẮT ĐẦU TỪ NHỮNG BƯỚC RẤT NHỎ",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK5.01#7",
+     "text": "HÃY LUÔN TIN VÀO TRỰC GIÁC CỦA BẠN",
+     "dur_s": 3.0
+    }
+   ],
+   "nguon_du_lieu": [
+    "4.06#1-#4",
+    "5.07#4-#6",
+    "5.08#2-#5",
+    "nguon_tham_khao.md (The Gift of Fear)"
+   ],
+   "lines": [
+    {
+     "id": "TK5.01#1",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.6,
+     "nen": "tk02_red_flags",
+     "chuyen_dong": "still",
+     "text": "Nếu bạn cảm thấy một sự bất an mơ hồ, nếu ranh giới riêng tư của bạn bị xâm phạm dù chỉ nhỏ nhất, đừng hợp lý hóa hay coi thường nó.",
+     "uoc_luong_s": 9.35,
+     "nguon": "5.08#4"
+    },
+    {
+     "id": "TK5.01#2",
+     "vai": "D",
+     "emotion": "neutral",
+     "speed": -0.03,
+     "pause_after": 0.6,
+     "nen": "tk02_town_snow",
+     "chuyen_dong": "pull",
+     "text": "Trong vụ án này, trước khi sự thật vỡ lở, thị trấn Tweed đã sống trong một nỗi bất an mơ hồ đến ngạt thở.",
+     "uoc_luong_s": 6.5,
+     "nguon": "4.06#1"
+    },
+    {
+     "id": "TK5.01#3",
+     "vai": "N2",
+     "emotion": "sad",
+     "speed": -0.04,
+     "pause_after": 0.8,
+     "nen": "tk02_cottage_search",
+     "chuyen_dong": "push",
+     "text": "Đồ đạc riêng tư thỉnh thoảng bị xáo trộn, cửa nẻo có dấu cạy phá nhưng không mất tiền bạc. Chúng tôi tưởng mình đang hoang tưởng.",
+     "uoc_luong_s": 7.74,
+     "nguon": "4.06#2 · 4.06#3"
+    },
+    {
+     "id": "TK5.01#4",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.8,
+     "nen": "tk02_escalation_stairs",
+     "chuyen_dong": "pan",
+     "text": "Tội ác không bao giờ bắt đầu từ một vụ án mạng. Nó luôn bắt đầu từ những bước lấn ranh giới rất nhỏ: một cái nhìn trộm, một lần lục lọi đồ riêng tư, một sự xâm phạm không bị trừng phạt.",
+     "uoc_luong_s": 12.56,
+     "nguon": "5.07#5 · 5.07#6"
+    },
+    {
+     "id": "TK5.01#5",
+     "vai": "C",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.7,
+     "nen": "tk02_oath_hall",
+     "chuyen_dong": "pull",
+     "text": "Địa vị, bằng cấp hay quân hàm lộng lẫy chỉ là lớp áo khoác xã hội, không phải tấm bảo chứng cho sự lương thiện của một tâm hồn.",
+     "uoc_luong_s": 6.95,
+     "nguon": "5.07#4"
+    },
+    {
+     "id": "TK5.01#6",
+     "vai": "D",
+     "emotion": "neutral",
+     "speed": -0.03,
+     "pause_after": 0.6,
+     "nen": "tk02_escalation_stairs",
+     "chuyen_dong": "pan",
+     "text": "Sự kiêu hãnh của một kẻ ái kỷ luôn để lại dấu vết.",
+     "uoc_luong_s": 3.38,
+     "nguon": "5.08#2"
+    },
+    {
+     "id": "TK5.01#7",
+     "vai": "D",
+     "emotion": "neutral",
+     "speed": -0.03,
+     "pause_after": 0.8,
+     "nen": "tk02_red_flags",
+     "chuyen_dong": "still",
+     "text": "Hãy luôn tin vào trực giác của bạn. Trực giác sinh tồn chính là hệ thống cảnh báo sớm giúp bảo vệ mạng sống của chúng ta.",
+     "uoc_luong_s": 7.02,
+     "nguon": "5.08#3 · 5.08#5"
+    },
+    {
+     "id": "TK5.01#8",
+     "vai": "H",
+     "emotion": "neutral",
+     "speed": -0.02,
+     "pause_after": 0.0,
+     "nen": "tk02_podcast_desk",
+     "chuyen_dong": "still",
+     "text": "Tập hai của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+     "uoc_luong_s": 4.09,
+     "nguon": "CTA — không phải dữ kiện"
+    }
+   ],
+   "caption": "Nếu bạn cảm thấy bất an, đừng hợp lý hóa nó. 👁️\n\nTập 02 · Đại tá hai mặt — chỉ dấu #10: bài học sinh tồn.\nHồ sơ có thật, dữ kiện có nguồn.\n\n📺 Xem tập đầy đủ ở link trong bio\n🔎 Chỉ dấu tâm lý · trực giác sinh tồn · hồ sơ có thật\n\n#AmberEyes #TamLyToiPham #HosoCoThat #TrucGiac #CanhGiuAnToan #TrueCrime #MoiTuanMotTap",
+   "hashtags": [
+    "#AmberEyes",
+    "#TamLyToiPham",
+    "#HosoCoThat",
+    "#TrucGiac",
+    "#CanhGiuAnToan",
+    "#TrueCrime",
+    "#MoiTuanMotTap"
+   ]
+  }
+ ]
+}

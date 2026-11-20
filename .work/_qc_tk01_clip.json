@@ -75,7 +75,7 @@
     },
     {
       "t": 33.0,
-      "zone": "CARD",
+      "zone": "CARD0",
       "ratio": 7.86,
       "text_lum": 0.672,
       "bg_lum": 0.042,
@@ -83,7 +83,7 @@
     },
     {
       "t": 34.2,
-      "zone": "CARD",
+      "zone": "CARD0",
       "ratio": 7.89,
       "text_lum": 0.675,
       "bg_lum": 0.042,
@@ -110,6 +110,7 @@
   "hook_mask_px": 24425,
   "watermark": "nen AI sinh moi cho TikTok (khong dung anh 16:9 cua tap, khong co watermark nen tang) - da soi 6 khung mau",
   "mat_nguoi_that": "nen AI sinh, khong dung anh co that cua nguoi that; khung nguoi trong tranh khong mang tinh cach nguoi that",
+  "glyph_thieu": [],
   "tu_cam": [],
   "g6_loi": [],
   "hook_nguyen_van": true,

@@ -22,8 +22,8 @@
 | Nhân vật | Hình tượng / Màu giọng | Vai trò chức năng | Nhiệm vụ chính trong từng tập |
 |---|---|---|---|
 | **Host (Cú)** | Trầm ấm, điềm đạm, triết lý | **Dẫn dắt & Đúc kết** | Mở đầu bằng nghịch lý cuộc sống, kết nối các hồi, đặt câu hỏi gợi mở và tổng kết bài học nhân sinh/cảnh báo ở phần kết. |
-| **Người dân (Cừu / Mèo)** | Tự nhiên, ngập ngừng, chân thật | **Góc nhìn Xã hội (Vox Pop)** | Đại diện cho nhận thức bản năng của 90% đám đông; bộc lộ lầm tưởng phổ biến ("người lịch thiệp thì không thể là kẻ xấu"). |
-| **Chuyên gia (Cáo)** | Nữ sắc sảo, đanh thép, học thuật | **Bóc tách Tâm lý (Chủ đạo)** | Mổ xẻ cơ chế méo mó của não bộ (Cognitive Bias, Dark Triad, Love-Bombing...), lý giải cách kẻ thủ ác thao túng nhận thức xung quanh. |
+| **Người dân (Cừu / Mèo)** | Tự nhiên, ngập ngừng, chân thật | **Góc nhìn Xã hội & Biến đổi tâm lý (Vox Pop)** | • **Hồi 1 (Tiền sự vụ):** Bộc lộ định kiến ngây thơ ("người lịch thiệp thì không thể là kẻ xấu").<br/>• **Hồi 3 (Giữa sự vụ):** Thể hiện sự hoang mang trước sự thật.<br/>• **Hồi 5 (Hậu sự vụ - Post-Verdict):** Phát biểu cảm nhận sau bản án, phản chiếu sự thức tỉnh và biến đổi tâm lý xã hội từ mù quáng sang cảnh giác tỉnh táo. |
+| **Chuyên gia (Cáo)** | Nữ sắc sảo, đanh thép, học thuật | **Bóc tách Tâm lý (Chủ đạo)** | Mổ xẻ cơ chế méo mó của não bộ (Cognitive Bias, Dark Triad, Love-Bombing...), lý giải cách kẻ thủ ác thao túng nhận thức xung quanh; soi chiếu sự chuyển biến nhận thức cộng đồng. |
 | **Điều tra viên (Sói)** | Lạnh lùng, thực chiến, dứt khoát | **Thực chứng Nghiệp vụ** | Đưa ra các hồ sơ vụ án thực tế làm bằng chứng; phân tích quy trình phá án, điểm mù ban đầu và kỹ thuật đấu trí tại bàn thẩm vấn. |
 
 ---
@@ -32,7 +32,7 @@
 
 ```
 [HỒI 1: NGHỊCH LÝ ĐỜI THƯỜNG]  (Thời lượng: ~3 – 4 phút)
-  ├─ Phỏng vấn đường phố (Cừu/Mèo): Đặt tình huống đời thường & ghi nhận câu trả lời bản năng.
+  ├─ Phỏng vấn đường phố (Cừu/Mèo): Đặt tình huống đời thường & ghi nhận niềm tin/định kiến bản năng ban đầu.
   ├─ Host (Cú): Nêu bật nghịch lý giữa "những gì mắt thấy" và "sự thật phía sau mặt nạ".
   └─ Chuyên gia (Cáo): Đặt tên cho cơ chế tâm lý cốt lõi của tập (định danh khoa học).
 
@@ -42,15 +42,16 @@
   └─ Góc nhìn phản biện: Điểm mù nhận thức khiến đối tượng thoát tội trong thời gian dài.
 
 [HỒI 3: BIẾN THỂ & SỰ LEO THANG — KHI HÀO QUANG BIẾN CHẤT]  (Thời lượng: ~5 – 6 phút)
-  ├─ Người dân (Cừu/Mèo): Thể hiện sự hoang mang/kinh ngạc trước hồ sơ Hồi 2.
+  ├─ Người dân (Cừu/Mèo): Thể hiện sự hoang mang/kinh ngạc trước hồ sơ Hồi 2 (Cú sốc nhận thức).
   ├─ Điều tra viên (Sói): Đưa ra trường hợp minh chứng thứ 2 (biến thể tinh vi, gần gũi hơn).
   └─ Chuyên gia (Cáo): Giải mã quỹ đạo leo thang (Escalation) từ vi phạm nhỏ đến tội ác nghiêm trọng.
 
 [HỒI 4: ĐẤU TRÍ NGHIỆP VỤ & BẺ GÃY HÀO QUANG]  (Thời lượng: ~5 – 6 phút)
   ├─ Điều tra viên (Sói): Các kỹ thuật nghiệp vụ bóc tách lớp mặt nạ (dấu vết hiện trường, đấu trí thẩm vấn).
-  └─ Chuyên gia (Cáo): Khoảnh khắc sụp đổ phòng vệ (The Snapping Point) khi hào quang bị tước đoạt.
+  └─ Chuyên gia (Cáo): Khoảnh khắc sụp đổ phòng vệ (The Snapping Point) khi hào quang bị tước đoạt & bản án.
 
-[HỒI 5: CẨM NANG SINH TỒN & LỜI KẾT]  (Thời lượng: ~3 – 4 phút)
+[HỒI 5: TIẾNG NÓI HẬU SỰ VỤ & CẨM NANG SINH TỒN]  (Thời lượng: ~4 – 5 phút)
+  ├─ Phỏng vấn hậu kỳ (Cừu/Mèo): Người dân phát biểu cảm tưởng sau khi vụ án kết thúc — bộc lộ sự vỡ vụn niềm tin cũ và sự chuyển dịch tâm lý sang thận trọng, sáng suốt.
   ├─ Chuyên gia & Điều tra viên: Đưa ra 3–5 chỉ dấu cảnh báo đỏ (Red Flags) cụ thể cho đời thường.
   └─ Host (Cú): Tổng kết triết lý sống + Lời chào kết thúc + Kêu gọi thảo luận (CTA).
 ```
@@ -123,28 +124,21 @@
 
 ## V. QUY TRÌNH SẢN XUẤT THEO CỔNG KIỂM SOÁT (GATEKEEPING)
 
-Tuân thủ nghiêm ngặt quy tắc sản xuất của kênh Amber eyes (AGENTS.md):
+Theo đúng **11 bước có cổng của `AGENTS.md` mục 2** — bảng đầy đủ (ngưỡng đo, công cụ) ở `KeHoach_Khung_TongThe_14_ChuyenDe.md` Phần III. Không nhảy cổng; nếu lệch thì `AGENTS.md` thắng.
 
-```
-[BƯỚC 1: KỊCH BẢN] ────► [CỔNG 1: DUYỆT NỘI DUNG]
-- Khảo cứu tư liệu thật        - Đối chiếu nguồn chính thống (tối thiểu 2 nguồn)
-- Lọc từ cấm V9                - Đạt 10 chỉ dấu tâm lý (A2c)
-                               - Người dùng ký duyệt
+| Bước | Việc | Mốc dừng |
+|---|---|---|
+| 1 | Kịch bản bản chốt (K1–K10, H23) | **⏸ Người dùng duyệt kịch bản** |
+| 2–5 | Tách câu → diễn xuất (`_pause_after` từng ngôn ngữ, A13) → đọc giọng (CER < 2%, A14 tầng 1) → nghe theo vai **5 vai** (G10) | **⏸ Người dùng nghe duyệt giọng** — không đạt ⇒ DỪNG |
+| 6 | Trộn âm: V4, −16 ± 1 LUFS, đỉnh ≤ −1,5 dBFS, nhịp nghỉ, `qc_wave_gate` (H24), `qc_voice_gap` (A14) | |
+| 7 | Bảng shot + **nền lập theo shot** (`qc_bg_usage.py --plan`, H25 → sinh ảnh H21 → H17/H22) | |
+| 8 | Ảnh tĩnh mọi shot × mọi ngôn ngữ (H9/H20) | **⏸ Người dùng duyệt ảnh tĩnh** |
+| 9–10 | Dựng hình (± 0,05 s, T20/H14) → phụ đề + đóng gói (H11/H12, T15/T17) | |
+| 11 | Giao + số đo | **⏸ Danh sách việc người dùng phải làm** |
 
-[BƯỚC 2: THOẠI & TTS] ───► [CỔNG 2: DUYỆT ÂM THANH]
-- Phân vai 4 giọng             - voice_role_check đạt chuẩn
-- Chạy TTS engine              - Không câm > 0.3s
-- Mix BGM + Ambience phỏng vấn - Chuẩn -16 ± 1 LUFS
-
-[BƯỚC 3: HÌNH ẢNH NOIR] ─► [CỔNG 3: DUYỆT ẢNH TĨNH]
-- Prompt graphic novel noir    - Người thật chỉ dạng bóng (silhouette)
-- Phỏng vấn dạng mic/bóng      - Không chữ lạ, không lỗi hiển thị
-
-[BƯỚC 4: RENDER & ĐÓNG GÓI]
-- Dựng lệch hình-tiếng <= 0.05s
-- Phụ đề SRT đồng bộ 100%
-- Thumbnail tương phản cao (Nửa mặt thiên thần - Nửa bóng quái vật)
-```
+**Riêng chuyên đề này:**
+* Vai người dân "phỏng vấn đường phố" là **nhân vật minh hoạ** do AI viết lời — dẫn bằng "hãy hình dung…", **không** trình bày như phỏng vấn người thật (K3); hình dạng micro/bóng.
+* Thumbnail tương phản cao (nửa mặt thiên thần – nửa bóng quái vật), vẫn tuân H1: không lộ mặt người thật.
 
 ---
 

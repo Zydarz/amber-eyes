@@ -1,0 +1,19 @@
+{
+  "input_i": "-15.99",
+  "input_tp": "-3.75",
+  "final_i": -16.1,
+  "final_tp": -3.8,
+  "bed_gain_base_db": -14.33,
+  "bed_rel_speech_db": -26.0,
+  "bed_rel_pause_db": -14.0,
+  "room_rel_db": -38.0,
+  "sfx_rel_db": -34.0,
+  "voice_rms_db": -18.42,
+  "bed_rms_db": -18.09,
+  "duration_s": 69.64,
+  "sources": {
+    "voice": "02_SAN_XUAT/TIKTOK/Tap01/TK4_master_audio.wav",
+    "bgm": "assets/bgm/bgm_piano_minimal.mp3 (MiniMax Music)",
+    "sfx": "tu tong hop (room tone + go cua tai 46.44 s)"
+  }
+}

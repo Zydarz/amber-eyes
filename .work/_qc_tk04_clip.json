@@ -1,0 +1,160 @@
+{
+  "khung": {
+    "w": 1080,
+    "h": 1920,
+    "codec": "h264",
+    "fps": 30.0,
+    "pix": "yuv420p"
+  },
+  "audio": {
+    "codec": "aac",
+    "rate": "48000",
+    "ch": 2
+  },
+  "dung_luong_mb": 26.86,
+  "do_dai_s": 69.633,
+  "loudness": {
+    "I_lufs": -16.1,
+    "true_peak_dbfs": -3.8
+  },
+  "khoang_cam": {
+    "so": 0,
+    "start": []
+  },
+  "lech_av_s": 0.0,
+  "loi_giai_ma": [],
+  "safe_zone_violations": [],
+  "tuong_phan": [
+    {
+      "t": 0.5,
+      "zone": "HOOK",
+      "ratio": 11.05,
+      "text_lum": 0.671,
+      "bg_lum": 0.015,
+      "text_px": 26356
+    },
+    {
+      "t": 1.5,
+      "zone": "HOOK",
+      "ratio": 11.12,
+      "text_lum": 0.673,
+      "bg_lum": 0.015,
+      "text_px": 26356
+    },
+    {
+      "t": 2.6,
+      "zone": "HOOK",
+      "ratio": 11.18,
+      "text_lum": 0.674,
+      "bg_lum": 0.015,
+      "text_px": 26356
+    },
+    {
+      "t": 8.92,
+      "zone": "TK4.01#2",
+      "ratio": 9.03,
+      "text_lum": 0.788,
+      "bg_lum": 0.043,
+      "text_px": 11227
+    },
+    {
+      "t": 18.32,
+      "zone": "TK4.01#3",
+      "ratio": 9.34,
+      "text_lum": 0.808,
+      "bg_lum": 0.042,
+      "text_px": 12895
+    },
+    {
+      "t": 28.68,
+      "zone": "TK4.01#4",
+      "ratio": 9.12,
+      "text_lum": 0.784,
+      "bg_lum": 0.041,
+      "text_px": 12112
+    },
+    {
+      "t": 39.8,
+      "zone": "TK4.01#5",
+      "ratio": 10.21,
+      "text_lum": 0.788,
+      "bg_lum": 0.032,
+      "text_px": 13047
+    },
+    {
+      "t": 51.46,
+      "zone": "TK4.01#6",
+      "ratio": 10.05,
+      "text_lum": 0.787,
+      "bg_lum": 0.033,
+      "text_px": 10962
+    },
+    {
+      "t": 60.66,
+      "zone": "TK4.01#7",
+      "ratio": 10.83,
+      "text_lum": 0.788,
+      "bg_lum": 0.027,
+      "text_px": 10036
+    },
+    {
+      "t": 67.24,
+      "zone": "TK4.01#8",
+      "ratio": 11.51,
+      "text_lum": 0.788,
+      "bg_lum": 0.023,
+      "text_px": 7773
+    },
+    {
+      "t": 25.45,
+      "zone": "CARD0",
+      "ratio": 7.8,
+      "text_lum": 0.674,
+      "bg_lum": 0.043,
+      "text_px": 13730
+    },
+    {
+      "t": 34.91,
+      "zone": "CARD1",
+      "ratio": 7.52,
+      "text_lum": 0.673,
+      "bg_lum": 0.046,
+      "text_px": 16221
+    },
+    {
+      "t": 47.69,
+      "zone": "CARD2",
+      "ratio": 8.44,
+      "text_lum": 0.669,
+      "bg_lum": 0.035,
+      "text_px": 8856
+    },
+    {
+      "t": 58.33,
+      "zone": "CARD3",
+      "ratio": 7.75,
+      "text_lum": 0.664,
+      "bg_lum": 0.042,
+      "text_px": 11118
+    }
+  ],
+  "tuong_phan_min": 7.52,
+  "hook_mask_px": 26356,
+  "watermark": "nen AI sinh moi cho TikTok (khong dung anh 16:9 cua tap, khong co watermark nen tang) - da soi 6 khung mau",
+  "mat_nguoi_that": "nen AI sinh, khong dung anh co that cua nguoi that; khung nguoi trong tranh khong mang tinh cach nguoi that",
+  "glyph_thieu": [],
+  "tu_cam": [],
+  "g6_loi": [],
+  "hook_nguyen_van": true,
+  "nguon_du_lieu": [
+    "clinical",
+    "crowd_away",
+    "pinboard",
+    "podcast_desk",
+    "records",
+    "two_shadows"
+  ],
+  "loi": [],
+  "pass": true,
+  "n_cong_dat": 14
+}

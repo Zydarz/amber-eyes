@@ -1417,6 +1417,7 @@ EPISODES = {
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
         "route_pins": {},
+        "thumb_bg": "t11_ken_barbie_golden_illusion",
         "thumb": (("KEN & BARBIE", "DEAL WITH THE DEVIL") if EN else ("ケンとバービー", "悪魔との取引") if JA else ("KEN & BARBIE", "THỎA THUẬN VỚI QUỶ DỮ")),
         "mux_af": "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1",  # A7 (đo lại peak master khi đóng gói — A11 #114)
         "title": ("Ep. 11: The Ken & Barbie Killers — Deal with the Devil (Paul Bernardo & Karla Homolka)" if EN else
@@ -1472,6 +1473,7 @@ EPISODES = {
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
         "route_pins": {},
+        "thumb_bg": "t12_jonestown_settlement_clearing",
         "thumb": ("JONESTOWN", "TRAGEDY") if EN else ("ジョーンズタウン", "偽りの楽園") if JA else ("THẢM KỊCH", "JONESTOWN"),
         "title": "Thảm Kịch Jonestown — Khi 918 Con Người Cùng Bước Vào Chỗ Chết (Hồ Sơ Jim Jones & Peoples Temple)",
         "act_titles": {1: "Hồi 1 · Lời hứa thiên đường và bóng ma nơi rừng sâu", 2: "Hồi 2 · Cuộc phục kích đường băng và tiếng còi báo động định mệnh",
@@ -1649,23 +1651,40 @@ EPISODES = {
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
         "route_pins": {},
+        "thumb_bg": "t17_suburban_prison_window_bars",
         "thumb": ("SUBURBAN DUNGEON", "LEAP FOR SURVIVAL") if EN else ("郊外の地下牢", "命懸けの脱出") if JA else ("교외의 감옥", "생존의 탈출") if KO else ("NGỤC TÙ", "NGOẠI Ô"),
-        "title": ("Ep. 17: 13 Captive Children in a Suburban Dungeon — Coercive Control, Shared Delusional Disorder & The Leap for Survival (The Turpin Family Case)" if EN else
-                  "第17話：郊外の暗闇に隠された真実 — 強圧的支配、共有精神病と命懸けの脱出（ターピン一家事件）" if JA else
-                  "17화: 교외의 감옥에 갇힌 13명의 아이들 — 강압적 통제, 공유정신병과 생존을 향한 탈출 (터핀 일가 사건)" if KO else
-                  "13 Đứa Trẻ Trong Ngục Tù Ngoại Ô — Kiểm Soát Cưỡng Chế & Cú Nhảy Sinh Tồn (Hồ Sơ Gia Đình Turpin)"),
-        "act_titles": ({1: "Act 1 · The Dawn Window Escape and the 911 Call from a Deactivated Phone", 2: "Act 2 · The Suburban Dungeon and the Model Family Facade",
-                        3: "Act 3 · Psychological Decoding: Coercive Control, Folie à Deux & Infantilization", 4: "Act 4 · The Shocking Indictment and the Confrontation with Justice",
-                        5: "Act 5 · Rebirth from the Ashes & 4 Red Flags of Hidden Domestic Captivity"} if EN else
-                       {1: "第1幕 · 夜明けの窓からの脱出と解約携帯による911通報", 2: "第2幕 · 郊外の監禁部屋と完璧なモデル家族の仮面",
-                        3: "第3幕 · 心理分析：強圧的支配、共有精神病（フォリ・ア・ドゥ）と作為的幼態化", 4: "第4幕 · 震撼の起訴状と法廷での正義との対面",
-                        5: "第5幕 · 灰からの再生と隠蔽された家庭内虐待の4つのレッドフラッグ"} if JA else
-                       {1: "제1막 · 새벽 창문을 통한 탈출과 끊긴 전화로 건 911 신고", 2: "제2막 · 교외의 감옥과 모범적인 가족이라는 완벽한 가면",
-                        3: "제3막 · 심리 해체: 강압적 통제, 공유정신병(Folie à Deux)과 의도적 유아화", 4: "제4막 · 충격적인 공소장과 법정에서 마주한 정의",
-                        5: "제5막 · 잿더미 속에서의 부활과 은폐된 가정폭력의 4가지 레드플래그"} if KO else
-                       {1: "Hồi 1 · Cú nhảy qua cửa sổ rạng sáng và cuộc gọi 911 từ chiếc điện thoại hỏng", 2: "Hồi 2 · Ngục tù ngoại ô và vỏ bọc hoàn hảo của gia đình kiểu mẫu",
-                        3: "Hồi 3 · Giải mã tâm lý: Kiểm soát cưỡng chế, ảo tưởng điên cuồng đôi & sự ấu trĩ hóa nạn nhân", 4: "Hồi 4 · Bản cáo trạng rúng động và phiên tòa đối diện công lý",
-                        5: "Hồi 5 · Hành trình tái sinh từ tro tàn & 4 cảnh báo đỏ về bạo hành gia đình kín"}),
+        "title": ('Ep. 17: 13 Captive Children in a Suburban Dungeon — Coercive Control, Shared Delusional Disorder & The Leap for Survival (The Turpin Family Case)' if EN else
+                  '第17話：郊外の暗闇に隠された真実 — 強圧的支配、共有精神病と命懸けの脱出（ターピン一家事件）' if JA else
+                  '제17화: 교외의 감옥에 갇힌 13남매 — 강압적 통제, 공유정신병과 생존을 향한 도약 (Turpin 가족 사건)' if KO else
+                  'Tập 17: 13 Đứa Trẻ Trong Ngục Tù Ngoại Ô — Kiểm Soát Cưỡng Chế, Ảo Tưởng Điên Cuồng Đôi & Cú Nhảy Sinh Tồn (Hồ Sơ Gia Đình Turpin)'),
+        "act_titles": ({1: "Act 1 · The Dawn Window Escape and the 911 Call",
+2: "Act 2 · The Suburban Dungeon and the Model Family Facade",
+3: "Act 3 · Psychological Decoding: Coercive Control & Folie à Deux",
+4: "Act 4 · The Shocking Indictment and the Confrontation with Justice",
+5: "Act 5 · Rebirth from the Ashes & 4 Survival Red Flags"} if EN else
+                       {1: "第1幕 · 夜明けの窓からの脱出と解約携帯による911通報",
+2: "第2幕 · 郊外の監禁部屋と完璧なモデル家族の仮面",
+3: "第3幕 · 心理分析：強圧的支配、共有精神病（フォリ・ア・ドゥ）と作為的幼態化",
+4: "第4幕 · 震撼の起訴状と法廷での正義との対面",
+5: "第5幕 · 灰からの再生と隠蔽された家庭内虐待の4つのレッドフラッグ"} if JA else
+                       {1: "제1막 · 새벽 창문을 통한 탈출과 끊긴 전화로 건 911 신고",
+2: "제2막 · 교외의 감옥과 모범적인 가족이라는 완벽한 가면",
+3: "제3막 · 심리 해체: 강압적 통제, 공유정신병(Folie à Deux)과 의도적 유아화",
+4: "제4막 · 충격적인 공소장과 법정에서 마주한 정의",
+5: "제5막 · 잿더미 속에서의 부활과 은폐된 가정폭력의 4가지 레드플래그"} if KO else
+                       {1: "Hồi 1 · Cú nhảy qua cửa sổ và cuộc gọi 911 từ chiếc điện thoại hỏng",
+2: "Hồi 2 · Ngục tù ngoại ô và vỏ bọc hoàn hảo của gia đình kiểu mẫu",
+3: "Hồi 3 · Giải mã tâm lý: Kiểm soát cưỡng chế, ảo tưởng điên cuồng đôi & ấu trĩ hóa nạn nhân",
+4: "Hồi 4 · Bản cáo trạng rúng động và phiên tòa đối diện công lý",
+5: "Hồi 5 · Hành trình tái sinh từ tro tàn & 4 cảnh báo đỏ về bạo hành gia đình kín"}),
+        "hashtags": '#AmberEyes #TrueCrime #TamLyToiPham #TurpinFamily #HouseOfHorrors #CoerciveControl #JordanTurpin #FolieADeux #TheGiftOfFear #CanhBaoDo #10ChiDauTamLy #PhamVan #HoiTo',
+        "hashtags_en": '#AmberEyes #TrueCrime #CriminalPsychology #TurpinFamily #HouseOfHorrors #CoerciveControl #JordanTurpin #FolieADeux #TheGiftOfFear #RedFlags #10PsychologicalMarkers',
+        "hashtags_ja": '#AmberEyes #TrueCrime #犯罪心理学 #ターピン一家 #恐怖の館 #強圧的支配 #ジョーダンターピン #共有精神病 #TheGiftOfFear #レッドフラッグ #10の心理指標',
+        "hashtags_ko": '#AmberEyes #TrueCrime #범죄심리학 #터핀가족사건 #공포의집 #강압적통제 #조던터핀 #공유정신병 #TheGiftOfFear #레드플래그 #10가지심리지표',
+        "summary_vn": "Rạng sáng 14/01/2018, tại Perris (hạt Riverside, California), một thiếu nữ 17 tuổi gầy gò trèo qua bậu cửa sổ, cầm chiếc điện thoại đã bị ngắt dịch vụ mạng, để gọi 911. Câu trình bày hai mươi phút ấy kéo 13 anh chị em ra khỏi ngục tù gia đình tàn bạo tồn tại giữa lòng khu dân cư ngoại ô yên bình. Thủ phạm là hai bậc cha mẹ có học thức: David Turpin, 56 tuổi, kỹ sư máy tính từng làm việc cho các tập đoàn quốc phòng, và Louise Turpin, 49 tuổi, người nội trợ quản lý gia đình. Các sĩ quan phát hiện bảy người con đã là người trưởng thành từ 18 đến 29 tuổi nhưng thể trạng như trẻ con: người chị cả 29 tuổi chỉ nặng khoảng 37 kilôgam.\n\nHồ sơ Nhà Turpin được Amber eyes giải phẫu toàn diện qua Hệ sinh thái 10 chỉ dấu tâm lý & hành vi:\n1. DƯ CHẤN XÃ HỘI & CẢI CÁCH THỂ CHẾ: Hoang tưởng tập thể bao trùm ngoại ô Perris khi tội ác nằm ngay cạnh nhà; vụ án buộc California mở phiên điều trần lập pháp để siết giám sát trường tư thục tại gia.\n2. VẬT HÓA & PHI NHÂN HÓA NẠN NHÂN: 13 người con bị giáng cấp thành 'đạo cụ sống' phục vụ ảo tưởng toàn năng của cha mẹ; khuyết tật thấu cảm biến tiếng van xin thành sự kích thích kiểm soát.\n3. NGHỊCH LÝ CHIA NGĂN: Hai thế giới bị khóa chặt — kỹ sư quốc phòng lịch thiệp ban ngày và kẻ giam cầm ban đêm; ảnh gia đình Disneyland trên mạng trở thành lá chắn bình thường hóa.\n4. THÁI ĐỘ TRƯỚC BẢN ÁN: Nước mắt tại tòa là sự tự thương hại bệnh lý khi mất ngai vàng gia đình, không phải ăn năn; lời 'Chúa có kế hoạch đặc biệt cho các con' là ngụy biện tâm linh né trách nhiệm.\n5. HỆ THỐNG TỰ BÀO CHỮA & TRUNG HÒA ĐẠO ĐỨC: Giam con để 'bảo vệ' khỏi cám dỗ bên ngoài; đổ lỗi nạn nhân 'không vâng lời, rửa tay quá cổ tay' để biện minh cho trừng phạt.\n6. NGÒI NỔ & ĐIỂM GÃY: Khủng hoảng nợ cùng hai lần nộp đơn phá sản làm sụp đổ cơ chế tự chủ của gia đình; với nạn nhân, nguy cơ các em nhỏ không qua khỏi kích hoạt bản năng sinh tồn.\n7. DẤU ẤN SIGNATURE VS. THỦ ĐOẠN MO: MO liên tục đổi (trường tư thục tại gia, rèm tối, đảo ngày đêm); Signature bất biến là đồ đồng phục, dàn ảnh Las Vegas và tra tấn tâm lý bằng bánh ngọt, đồ chơi cấm chạm.\n8. QUỸ ĐẠO LEO THANG HÀNH VI: Mắng mỏ → bắt úp mặt vào tường → nhốt phòng kín → trói dây thừng → xích sắt và ổ khóa; cơn nghiện mua sắm của người mẹ biến món hàng xa xỉ thành công cụ đày đọa.\n9. HIỆU ỨNG HÀO QUANG & ĐIỂM MÙ XÃ HỘI: Vỏ bọc kỹ sư quốc phòng cùng ảnh gia đình đông con ngoan ngoãn tạo nên điểm mù nhận thức; đóng kín cửa và tôn trọng quyền riêng tư thái quá dựng nên bức tường vô hình che tội ác.\n10. NẠN NHÂN HỌC & CẢNH BÁO ĐỎ SINH TỒN: Giải mã cú nhảy sinh tồn của Jordan qua 'The Gift of Fear' (Gavin de Becker), tha thứ như hành vi giải phóng cảm xúc và Tăng trưởng sau sang chấn (PTG); 4 cảnh báo đỏ: cô lập tuyệt đối, tương phản ảnh mạng với thực tế, suy kiệt dinh dưỡng bất thường, đảo lộn ngày đêm kèm kỷ luật trừng phạt.",
+        "summary_ja": '2018年1月14日の未明、カリフォルニア州リバーサイド郡ペリス市の静かな住宅街で、小柄な17歳の少女Jordan Turpinが窓枠を乗り越え、回線契約を解除された携帯電話から911へ緊急通報しました。20分に及ぶその通報が、十数年にわたる家庭内の監禁から13人の兄弟姉妹を救い出しました。加害者は高学歴の両親――56歳の父David Turpin（防衛産業向けの計算機エンジニア）と、49歳の母Louise Turpin（家事と教育をすべて担う主婦）でした。2018年中盤、警官は「子ども」たちのうち7人が18歳から29歳の成人だったことを知りました。29歳の姉の体重はわずか37キログラムにすぎません。\n\nアンバーアイズ（Amber eyes）は、ターピン一家事件を「10の心理・行動指標体系」を通じて徹底解剖します：\n1. 社会的余波と制度改革：隣人の家の中で発見された地獄に、郊外の街は集団的な恐怖と偏執に支配された。この事件は、カリフォルニア州に私設ホームスクール（サンドキャッスル・デイ・スクール）の監督を強化する法改正の議論を招く議会審議会を促した。\n2. 被害者の客体化（Objectification）：13人の実子は人格を奪われ、親の全能感を満たす「生きた小道具」に格下げされた。極端な共感欠如により、懇願の声は統制の刺激として消費された。\n3. 精神の区分化（Compartmentalization）：昼間の端正な防衛産業技師と、夜間の家族の監禁者――二つの世界は完全に分断された。SNSに並ぶ「ディズニーランドの仲良いモデル家族」の写真は、正常化の盾になった。\n4. 判決前の病的な自己憐憫：法廷の涙と謝罪は真の罪悪感ではなく、家の玉座を失ったあとの病的な自己憐憫。「神には子供たちへの特別な計画がある」は、個人の責任から逃れるための霊的バイパスだった。\n5. 道徳的中和技術：監禁を「外の悪から子供を守る」目的として正当化し、「手首より上を洗った」のような些細な不服従を、鎖による拘束の理由として正当化した。\n6. 心理的引き金と崩壊点：巨大な負債と二度目の自己破産申立てが家の自立機構を崩壊させ、被害者側では弟妹の死リスクが生存本能を起動させた。\n7. 手口（MO）と心理的刻印（Signature）：絶えず変化するMO（ホームスクール、暗幕、昼夜逆転）に対し、不変のSignatureは揃いの服、ラスベガス撮影、そして触れ禁止の食物や玩具による精神的拷問であった。\n8. 行動のエスカレーション：叱責→壁を向いて立つ→幽閉→縄縛り→鉄鎖と南京錠。母の買物依存は贅沢品を子供を苦しめる道具に変えた。\n9. 後光効果（ハロー効果）と社会の死角：防衛産業技師の肩書と作り込まれた家族写真は認識的な盲点を生み、閉ざされたドアと行き過ぎたプライバシー感覚が不可視の壁となって罪を庇った。\n10. 被害者学と生存レッドフラッグ：ジョーダンの脱出を『The Gift of Fear』で解読し、許しが情緒的解放へ至る構造とトラウマ後の成長（PTG）。4つの赤い警告――完全な社会的孤立、网上的姿と現実の矛盾、説明のできない低栄養、昼夜逆転と罰則的規律。',
+        "summary_ko": "2018년 1월 14일 새벽, 캘리포니아주 리버사이드 카운티 페리스의 조용한 교외 주택가에서, 17세 소녀 Jordan Turpin이 창틀을 넘어 해지된 휴대전화로 911에 신고했습니다. 20분간 이어진 그 통화가 10여 년간의 가정 내 감옥에서 13명의 형제자매를 구해 냈습니다. 가해자는 고학력 부모 — 방위산업 업체에서 컴퓨터 엔지니어로 일했던 56세 아버지 David Turpin과 가내와 자녀 교육까지 전부 담당하던 49세 어머니 Louise Turpin이었습니다. 2018년 중반, 경찰은 '아이'들 가운데 7명이 18세에서 29세의 성인이며, 29세 누나의 몸무게는 37킬로그램에 불과하다는 사실을 알게 됩니다.\n\n앰버 아이즈(Amber eyes)는 터핀 가족 사건을 '10가지 심리 및 행동 지표 체계'를 통해 정밀 해부합니다:\n1. 사회적 파장 및 제도 개혁: 이웃집 안에서 발견된 지옥에 교외 사회 전체가 집단적 공포와 편각에 사로잡힘; 이 사건은 캘리포니아주가 샌드캐슬 데이 스쿨 같은 사립 홈스쿨링에 대한 감독을 강화하는 입법 청원회를 촉발.\n2. 피해자의 객체화(Objectification): 13명의 자녀는 인격이 아니라 부모의 전능망상을 채우는 '살아있는 소품'으로 격하; 극단적인 공감 결여로 간절한 울음소리마저 통제 자극으로 소비.\n3. 인지적 구획화(Compartmentalization): 낮에는 정확한 방위산업 엔지니어, 밤에는 가족의 감금자 — 두 세계는 완전히 분리되었고, SNS에 올라온 '디즈니랜드 모범 가족' 사진이 정상화의 방패가 됨.\n4. 판결 앞의 병적인 자기연민: 법정의 눈물과 사과는 진정한 참회가 아니라 집안의 옥좌를 잃은 뒤의 병적인 자기연민; '하나님은 아이들에게 특별한 계획이 있다'는 말은 개인적 책임을 피하기 위한 영적 우회.\n5. 도덕적 중화 기법: 감금을 '바깥의 악으로부터 아이들을 지키는 일'로 정당화하고, '손목 위로 손을 씻었다'는 식의 미세한 불복종을 결박 학대의 명분으로 삼음.\n6. 심리적 기폭제와 붕괴 지점: 막대한 부채와 두 차례의 파산 신청이 가구의 자립 기제를 무너뜨렸고, 피해자 쪽에서는 어린 동생들이 위험에 처할 수 있다는 판단이 생존 본능을 깨움.\n7. 수법(MO)과 심리적 각인(Signature): 계속 바뀌는 MO(홈스쿨링, 암막 커튼, 주야 역전)와 달리 불변의 Signature는 동일한 단체복, 라스베가스 촬영 세트, 만지지 못하게 방치한 음식과 장난감을 이용한 정신적 고문.\n8. 행동 에스컬레이션: 잔소리 → 벽 보고 서 있기 → 독방 → 밧줄 결박 → 쇠사슬과 자물쇠. 어머니의 구매 집착이 사치품을 아이들을 괴롭히는 도구로 바꿔 놓음.\n9. 후광 효과(Halo Effect)와 사회적 사각지대: 방위산업 엔지니어라는 신분과 빈틈없이 연출한 가족 사진이 인지적 맹점을 만들었고, 꽉 닫힌 문과 과도한 사생활 존중이 범죄를 감춰 주는 보이지 않는 벽이 됨.\n10. 피해자학 및 생존 레드플래그: 조던 터핀의 도주를 'The Gift of Fear'로 해부하고, 용서가 정서적 해방으로 이어지는 구조와 외상 후 성장(PTG). 4가지 레드플래그 — 절대적 사회적 고립, 온라인 이미지와 현실의 모순, 설명되지 않는 영양 결핍, 주야가 뒤바뀐 생활과 처벌적 규율.",
+        "mux_af": "alimiter=limit=0.7943:attack=5:release=50:level=disabled:latency=1",
         "summary": ("1.02#1", "3.02#1"),
         "need": [],
         "case": "Turpin", "n1": (("911 DISPATCHER", "Riverside County Emergency Dispatcher", "DISPATCHER") if EN else

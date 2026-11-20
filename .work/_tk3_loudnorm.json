@@ -1,0 +1,19 @@
+{
+  "input_i": "-15.94",
+  "input_tp": "-4.11",
+  "final_i": -16.0,
+  "final_tp": -4.2,
+  "bed_gain_base_db": -13.99,
+  "bed_rel_speech_db": -26.0,
+  "bed_rel_pause_db": -14.0,
+  "room_rel_db": -38.0,
+  "sfx_rel_db": -34.0,
+  "voice_rms_db": -17.79,
+  "bed_rms_db": -17.81,
+  "duration_s": 63.52,
+  "sources": {
+    "voice": "02_SAN_XUAT/TIKTOK/Tap01/TK3_master_audio.wav",
+    "bgm": "assets/bgm/bgm_cello_sad.mp3 (MiniMax Music)",
+    "sfx": "tu tong hop (room tone + lat giay tai 22.96 s)"
+  }
+}

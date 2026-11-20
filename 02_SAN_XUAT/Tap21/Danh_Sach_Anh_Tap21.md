@@ -1,6 +1,6 @@
-# DANH SÁCH ẢNH NỀN — TẬP 21 "ANDREA_YATES"
+# DANH SÁCH ẢNH NỀN — TẬP 21 "ANDREA YATES" (ĐÃ NÂNG CẤP CHUẨN H22/H25)
 
-*Hồ sơ andrea_yates — Clear Lake, Houston, Texas. Ngày 2026-10-24.*
+*Hồ sơ andrea_yates — Clear Lake, Houston, Texas. Cập nhật ngày 2026-11-20.*
 
 ---
 
@@ -8,119 +8,168 @@
 
 | Mục | Nội dung |
 |---|---|
-| Số ảnh chuẩn hóa | **63** ảnh phục vụ trọn vẹn 5 hồi (toàn bộ bảng shot & visual của tập) |
-| Kích thước chuẩn | 2112×1188 (16:9 2K), ảnh gốc lưu trữ tại `assets/bg/` |
-| Vị trí lưu trữ | `assets/bg/t21_*.png` — **tiền tố `t21_` bắt buộc** để không trùng bộ nền |
-| Danh sách prompt gốc | `.work/bg_jobs_tap21.json` |
-| Sổ nguồn gốc tài sản | `provenance.json` (tự động cộng dồn và cập nhật) |
-| Phong cách nghệ thuật | Dark graphic novel noir — nét mực đen đậm, chiaroscuro đối lập cao, bảng màu hổ phách/slate/lạnh, hạt phim cổ điển |
-| Ràng buộc trong prompt | Không chữ · không số · không biển hiệu · không logo · không khung · ảnh tràn viền 16:9 |
-| Công cụ thực thi | Tự tạo trực tiếp trong pipeline (Amber Eyes Noir Graphic Renderer — 100% tự chủ) |
+| Số ảnh chuẩn hóa | **140** ảnh phục vụ trọn vẹn 5 hồi (toàn bộ 248 shot theo H25) |
+| Kích thước chuẩn | 2112×1188 (16:9 2K), lưu trữ tại `assets/bg/t21_*.png` |
+| Tỷ lệ shot / nền | **1.77 shot/nền** (đạt ngưỡng chuẩn 1.5–2.0 của H25) |
+| Giới hạn thời lượng | ≤ 2 shot và ≤ 29.8 s / nền (100% ĐẠT cổng H22 / `qc_bg_usage.py`) |
+| Danh sách jobs | `.work/bg_jobs_tap21.json` (140 jobs) |
+| Sổ nguồn gốc tài sản | `provenance.json` (đã cập nhật đủ 140 bản ghi) |
+| Phong cách đồ họa | Deep Noir Graphic Novel Chiaroscuro (FLUX.1 Schnell + Hạt phim 35mm + Vignette) |
 
-## B2. Chi tiết 5 Hồi
+## B2. Chi tiết phân bổ theo 5 Hồi
 
-### Hồi 1 (12 ảnh)
-- `t21_andrea_yates_a1_01_resnick`: Hồi 1 (CUỘC GỌI 911 RẠNG SÁNG & NGÔI ): *(giọng trầm, mở đầu câu chuyện với nỗi xót xa nhân văn)*:
-Buổi sáng ngày 20 tháng 6 năm 2001, tại khu phố ngoại ô yên bình Cle...
-- `t21_andrea_yates_a1_02_mnaghten`: Hồi 1 (CUỘC GỌI 911 RẠNG SÁNG & NGÔI ): Khi nhân viên tổng đài gặng hỏi chuyện gì đang xảy ra, người mẹ ấy chỉ bình thản trả lời rằng mình vừa làm tổn thương các con
-- `t21_andrea_yates_a1_03_insanity_defense`: Hồi 1 (CUỘC GỌI 911 RẠNG SÁNG & NGÔI ): *(tái hiện khoảnh khắc đầu tiên người thực thi pháp luật bước vào hiện trường)*:
-Chỉ vài phút sau cuộc gọi, Sĩ quan David Knapp...
-- `t21_andrea_yates_a1_04_bible_verses`: Hồi 1 (CUỘC GỌI 911 RẠNG SÁNG & NGÔI ): Người phụ nữ nhìn thẳng vào viên cảnh sát và cất lên lời thú nhận gây bàng hoàng: Tôi vừa giết chết các con của mình
-- `t21_andrea_yates_a1_05_psychiatric_ward`: Hồi 1 (CUỘC GỌI 911 RẠNG SÁNG & NGÔI ): *(nhấn mạnh làn sóng phẫn nộ ban đầu của dư luận)*:
-Tin tức về vụ việc nhanh chóng lan truyền với tốc độ chóng mặt, làm rung ch...
-- `t21_andrea_yates_a1_06_kerrville`: Hồi 1 (CUỘC GỌI 911 RẠNG SÁNG & NGÔI ): Dư luận xã hội sục sôi trong làn sóng phẫn nộ dữ dội, đòi hỏi một bản án tử hình nghiêm khắc nhất để trừng trị người mẹ độc ác
-- `t21_andrea_yates_a1_07_clear_lake`: Hồi 1 (CUỘC GỌI 911 RẠNG SÁNG & NGÔI ): *(N1: Hàng xóm Clear Lake, giọng nữ nghẹn ngào, đau xót)*:
-Gia đình Yates đã chuyển đến sống tại khu phố của chúng tôi suốt nhi...
-- `t21_andrea_yates_a1_08_houston`: Hồi 1 (CUỘC GỌI 911 RẠNG SÁNG & NGÔI ): Nhưng trong những tháng gần đây, tôi nhận thấy Andrea ngày càng trở nên tiều tụy, gầy gò và hầu như không bao giờ bước chân ra ...
-- `t21_andrea_yates_a1_09_bathtub`: Hồi 1 (CUỘC GỌI 911 RẠNG SÁNG & NGÔI ): *(chuyển sang buổi thẩm vấn ban đầu tại đồn cảnh sát)*:
-Khi người chồng Russell Yates vội vã lao xe từ cơ quan về đến trước cửa...
-- `t21_andrea_yates_a1_10_postpartum_psychosis`: Hồi 1 (CUỘC GỌI 911 RẠNG SÁNG & NGÔI ): Thám tử kỳ cựu Eric Mehl thuộc Đội Trọng án Sở Cảnh sát Houston được giao nhiệm vụ trực tiếp thẩm vấn người mẹ ba mươi sáu tuổi
-- `t21_andrea_yates_a1_11_resnick`: Hồi 1 (CUỘC GỌI 911 RẠNG SÁNG & NGÔI ): *(D: Thám tử Eric Mehl, giọng nam trung niên, điềm tĩnh, trắc ẩn)*:
-Trong suốt hàng chục năm làm công tác điều tra án mạng, tôi...
-- `t21_andrea_yates_a1_12_mnaghten`: Hồi 1 (CUỘC GỌI 911 RẠNG SÁNG & NGÔI ): Cô ấy nói với tôi rằng mình đã lên kế hoạch dìm các con trong bồn tắm ngay sau khi chồng vừa rời khỏi nhà đi làm vào lúc tám gi...
+### HỒI 1: CUỘC GỌI 911 RẠNG SÁNG & NGÔI NHÀ IM LÌM TẠI HOUSTON
 
-### Hồi 2 (11 ảnh)
-- `t21_andrea_yates_a2_01_bible_verses`: Hồi 2 (VỰC THẲM CỦA SỰ CÔ ĐỘC & TIẾNG): *(tiết tấu chậm rãi, đào sâu hồ sơ quá khứ)*:
-Để hiểu được nguồn cơn dẫn đến thảm kịch ngày 20 tháng 6 năm 2001, các nhà điều t...
-- `t21_andrea_yates_a2_02_psychiatric_ward`: Hồi 2 (VỰC THẲM CỦA SỰ CÔ ĐỘC & TIẾNG): *(phác họa chân dung người phụ nữ từng là y tá ưu tú)*:
-Andrea Pia Kennedy từng là học sinh ưu tú, là thủ khoa tốt nghiệp trườn...
-- `t21_andrea_yates_a2_03_kerrville`: Hồi 2 (VỰC THẲM CỦA SỰ CÔ ĐỘC & TIẾNG): Andrea liên tục mang thai và sinh nở bốn người con trai chỉ trong vòng năm năm, gánh vác toàn bộ việc chăm sóc gia đình và tự d...
-- `t21_andrea_yates_a2_04_clear_lake`: Hồi 2 (VỰC THẲM CỦA SỰ CÔ ĐỘC & TIẾNG): *(D: Thám tử Eric Mehl, lời cảnh báo của bác sĩ)*:
-Hồ sơ bệnh án từ Bệnh viện Memorial Spring Shadows cho thấy tình trạng tâm t...
-- `t21_andrea_yates_a2_05_houston`: Hồi 2 (VỰC THẲM CỦA SỰ CÔ ĐỘC & TIẾNG): Tiến sĩ Starbranch nhấn mạnh rằng Andrea không bao giờ được phép sinh thêm bất kỳ đứa trẻ nào nữa nếu muốn giữ an toàn cho bản ...
-- `t21_andrea_yates_a2_06_bathtub`: Hồi 2 (VỰC THẲM CỦA SỰ CÔ ĐỘC & TIẾNG): *(diễn biến những ngày đen tối cận kề thảm kịch)*:
-Trong những tuần lễ cuối cùng trước khi thảm kịch xảy ra, tình trạng của And...
-- `t21_andrea_yates_a2_07_postpartum_psychosis`: Hồi 2 (VỰC THẲM CỦA SỰ CÔ ĐỘC & TIẾNG): Bác sĩ tâm thần điều trị sau đó là Tiến sĩ Mohammed Saeed đã quyết định cắt giảm dần liều lượng thuốc chống loạn thần của cô ch...
-- `t21_andrea_yates_a2_08_resnick`: Hồi 2 (VỰC THẲM CỦA SỰ CÔ ĐỘC & TIẾNG): *(D: Khoảng trống định mệnh 30 phút)*:
-Russell Yates rời nhà đi làm lúc tám giờ ba mươi phút sáng, trong khi mẹ của anh dự kiến...
-- `t21_andrea_yates_a2_09_mnaghten`: Hồi 2 (VỰC THẲM CỦA SỰ CÔ ĐỘC & TIẾNG): Cô ấy tin rằng thời khắc phán xét đã điểm, và nếu cô ấy không hành động ngay lập tức thì linh hồn của các con sẽ bị quỷ dữ Sata...
-- `t21_andrea_yates_a2_10_insanity_defense`: Hồi 2 (VỰC THẲM CỦA SỰ CÔ ĐỘC & TIẾNG): *(khép lại Hồi 2, dẫn dắt sang phân tích y khoa pháp y)*:
-Thảm kịch tại ngôi nhà số 942 không phải là sản phẩm của một cơn thịn...
-- `t21_andrea_yates_a2_11_bible_verses`: Hồi 2 (VỰC THẲM CỦA SỰ CÔ ĐỘC & TIẾNG): Giờ đây, khi năm đứa trẻ đã yên nghỉ dưới lòng đất, toàn bộ trách nhiệm hình sự được chuyển giao cho các chuyên gia tâm thần họ...
+- `t21_andrea_yates_a1_01_resnick` (2 shot, 20.4 s): `1-01` (10,4 s), `1-02` (10,0 s)
+- `t21_andrea_yates_a1_02_mnaghten` (2 shot, 21.8 s): `1-03` (11,1 s), `1-04` (10,7 s)
+- `t21_andrea_yates_a1_03_insanity_defense` (2 shot, 22.5 s): `1-05` (12,9 s), `1-06` (9,6 s)
+- `t21_andrea_yates_a1_04_bible_verses` (2 shot, 20.3 s): `1-07` (8,9 s), `1-08` (11,4 s)
+- `t21_andrea_yates_a1_05_psychiatric_ward` (2 shot, 19.7 s): `1-09` (9,3 s), `1-10` (10,4 s)
+- `t21_andrea_yates_a1_06_kerrville` (2 shot, 19.3 s): `1-11` (9,3 s), `1-12` (10,0 s)
+- `t21_andrea_yates_a1_07_clear_lake` (2 shot, 21.4 s): `1-13` (10,0 s), `1-14` (11,4 s)
+- `t21_andrea_yates_a1_08_houston` (2 shot, 20.0 s): `1-15` (10,0 s), `1-16` (10,0 s)
+- `t21_andrea_yates_a1_09_bathtub` (2 shot, 18.9 s): `1-17` (9,3 s), `1-18` (9,6 s)
+- `t21_andrea_yates_a1_10_postpartum_psychosis` (2 shot, 21.5 s): `1-19` (11,1 s), `1-20` (10,4 s)
+- `t21_andrea_yates_a1_11_resnick` (2 shot, 21.8 s): `1-21` (10,7 s), `1-22` (11,1 s)
+- `t21_andrea_yates_a1_12_mnaghten` (2 shot, 20.7 s): `1-23` (12,1 s), `1-24` (8,6 s)
+- `t21_a1_13_beachcomber_street_dawn` (2 shot, 20.0 s): `1-25` (9,6 s), `1-26` (10,4 s)
+- `t21_a1_14_police_cruiser_flashing_lights` (2 shot, 20.7 s): `1-27` (9,6 s), `1-28` (11,1 s)
+- `t21_a1_15_wooden_front_porch_entry` (2 shot, 22.2 s): `1-29` (11,8 s), `1-30` (10,4 s)
+- `t21_a1_16_antique_wall_telephone_receiver` (2 shot, 20.7 s): `1-31` (11,4 s), `1-32` (9,3 s)
+- `t21_a1_17_houston_police_badge_notebook` (2 shot, 23.2 s): `1-33` (12,5 s), `1-34` (10,7 s)
+- `t21_a1_18_suburban_culdesac_loneliness` (2 shot, 21.4 s): `1-35` (10,0 s), `1-36` (11,4 s)
+- `t21_a1_19_police_tape_perimeter_lawn` (2 shot, 16.4 s): `1-37` (8,2 s), `1-38` (8,2 s)
+- `t21_a1_20_living_room_family_portrait_shadow` (2 shot, 19.3 s): `1-39` (10,0 s), `1-40` (9,3 s)
+- `t21_a1_21_kitchen_sink_cold_faucet` (2 shot, 22.9 s): `1-41` (11,8 s), `1-42` (11,1 s)
+- `t21_a1_22_empty_hallway_closed_doors` (2 shot, 21.5 s): `1-43` (11,1 s), `1-44` (10,4 s)
+- `t21_a1_23_backyard_wooden_fence_overcast` (2 shot, 20.0 s): `1-45` (11,4 s), `1-46` (8,6 s)
+- `t21_a1_24_interrogation_table_metal_chair` (2 shot, 22.2 s): `1-47` (11,1 s), `1-48` (11,1 s)
+- `t21_a1_25_police_corridor_echoes` (2 shot, 21.8 s): `1-49` (11,4 s), `1-50` (10,4 s)
+- `t21_a1_26_nasa_johnson_space_center_gate` (1 shot, 11.4 s): `1-51` (11,4 s)
+- `t21_a1_27_distressed_father_car_dashboard` (1 shot, 11.4 s): `1-52` (11,4 s)
+- `t21_a1_28_neighbor_window_peering_curtain` (1 shot, 10.4 s): `1-53` (10,4 s)
+- `t21_a1_29_handcuffs_on_wooden_table` (1 shot, 16.8 s): `1-54` (16,8 s)
+- `t21_a1_30_first_responder_radio_console` (1 shot, 9.6 s): `1-55` (9,6 s)
+- `t21_a1_31_suburban_driveway_chalk_mark` (1 shot, 12.5 s): `1-56` (12,5 s)
+- `t21_a1_32_harris_county_jail_intake_hall` (1 shot, 13.2 s): `1-57` (13,2 s)
+- `t21_a1_33_media_microphones_press_conference` (1 shot, 10.4 s): `1-58` (10,4 s)
 
-### Hồi 3 (11 ảnh)
-- `t21_andrea_yates_a3_01_clear_lake`: Hồi 3 (GIẢI MÃ TÂM LÝ: LOẠN THẦN SAU ): *(chậm rãi, mang tính dẫn nhập chuyên môn)*:
-Vụ án Andrea Yates đã trở thành cột mốc mang tính bước ngoặt làm thay đổi vĩnh viễ...
-- `t21_andrea_yates_a3_02_houston`: Hồi 3 (GIẢI MÃ TÂM LÝ: LOẠN THẦN SAU ): Để bảo vệ tính công minh trước tòa án, cơ quan tố tụng đã trưng cầu ý kiến của Tiến sĩ Phillip Resnick, chuyên gia tâm thần học...
-- `t21_andrea_yates_a3_03_bathtub`: Hồi 3 (GIẢI MÃ TÂM LÝ: LOẠN THẦN SAU ): *(C: TS
-- `t21_andrea_yates_a3_04_postpartum_psychosis`: Hồi 3 (GIẢI MÃ TÂM LÝ: LOẠN THẦN SAU ): Người giảng đạo này liên tục rao giảng rằng những người phụ nữ không hoàn hảo sẽ là nguồn cơn dẫn dắt con cái của họ thẳng xuốn...
-- `t21_andrea_yates_a3_05_resnick`: Hồi 3 (GIẢI MÃ TÂM LÝ: LOẠN THẦN SAU ): *(tiếp nối phân tích về nghịch lý sát hại con vì tình thương sai lệch)*:
-Khái niệm tâm lý học tội phạm định danh hành vi của An...
-- `t21_andrea_yates_a3_06_mnaghten`: Hồi 3 (GIẢI MÃ TÂM LÝ: LOẠN THẦN SAU ): *(C: Phân tích Quy tắc M'Naghten và sự phân biệt đúng sai)*:
-Trong tâm thần học pháp y, tiêu chuẩn cốt lõi để phân định năng lự...
-- `t21_andrea_yates_a3_07_insanity_defense`: Hồi 3 (GIẢI MÃ TÂM LÝ: LOẠN THẦN SAU ): Andrea biết hành động của mình vi phạm luật pháp trần thế, nhưng trong thế giới hoang tưởng của cô, đó là một mệnh lệnh thiêng ...
-- `t21_andrea_yates_a3_08_bible_verses`: Hồi 3 (GIẢI MÃ TÂM LÝ: LOẠN THẦN SAU ): *(đối chiếu so sánh với hiện tượng Malingering)*:
-Sự đối lập giữa trường hợp của Nikolas Cruz giả vờ nghe thấy giọng nói ma quỷ...
-- `t21_andrea_yates_a3_09_psychiatric_ward`: Hồi 3 (GIẢI MÃ TÂM LÝ: LOẠN THẦN SAU ): *(C: Đúc kết về bản án lương tâm và ranh giới tư pháp)*:
-Các bằng chứng y khoa xác nhận Andrea không hề có bất kỳ động cơ tư lợ...
-- `t21_andrea_yates_a3_10_kerrville`: Hồi 3 (GIẢI MÃ TÂM LÝ: LOẠN THẦN SAU ): Nỗi dằn vặt lương tâm ấy là bản án khắc nghiệt nhất mà không một nhà tù hay hình phạt pháp lý nào có thể so sánh được
-- `t21_andrea_yates_a3_11_clear_lake`: Hồi 3 (GIẢI MÃ TÂM LÝ: LOẠN THẦN SAU ): *(chốt lại Hồi 3, dẫn dắt sang phiên tòa xét xử lịch sử)*:
-Báo cáo giám định tâm thần pháp y toàn diện của các chuyên gia đã đư...
+### HỒI 2: VỰC THẲM CỦA SỰ CÔ ĐỘC & TIẾNG CHUÔNG CẢNH BÁO BỊ PHỚT LỜ
 
-### Hồi 4 (12 ảnh)
-- `t21_andrea_yates_a4_01_postpartum_psychosis`: Hồi 4 (PHIÊN TÒA LỊCH SỬ & PHÁN QUYẾT): *(tái hiện phiên tòa sơ thẩm đầu tiên năm 2002)*:
-Phiên tòa sơ thẩm đầu tiên diễn ra vào năm 2002 tại Tòa án Hạt Harris dưới sự...
-- `t21_andrea_yates_a4_02_resnick`: Hồi 4 (PHIÊN TÒA LỊCH SỬ & PHÁN QUYẾT): Trong phần lấy lời khai, Tiến sĩ Dietz đã đưa ra một lời khai sai lệch rằng một tập phim truyền hình về người mẹ dìm con vừa đư...
-- `t21_andrea_yates_a4_03_mnaghten`: Hồi 4 (PHIÊN TÒA LỊCH SỬ & PHÁN QUYẾT): *(bước ngoặt hủy án và phiên tái thẩm năm 2006)*:
-Năm 2005, Tòa Phúc thẩm Bang Texas đã chính thức hủy bỏ bản án sơ thẩm sau kh...
-- `t21_andrea_yates_a4_04_insanity_defense`: Hồi 4 (PHIÊN TÒA LỊCH SỬ & PHÁN QUYẾT): Khác với phiên tòa bốn năm trước, phiên tái thẩm diễn ra trong một bối cảnh xã hội đã có nhận thức sâu sắc hơn rất nhiều về bện...
-- `t21_andrea_yates_a4_05_bible_verses`: Hồi 4 (PHIÊN TÒA LỊCH SỬ & PHÁN QUYẾT): *(D: Thám tử Eric Mehl, góc nhìn lại về sự thật)*:
-Trong phiên tái thẩm năm 2006, chúng tôi đã xem xét lại toàn bộ các đoạn băn...
-- `t21_andrea_yates_a4_06_psychiatric_ward`: Hồi 4 (PHIÊN TÒA LỊCH SỬ & PHÁN QUYẾT): Lực lượng cảnh sát chúng tôi hiểu rằng nhiệm vụ của điều tra không chỉ là bắt giữ người phạm tội, mà còn là cung cấp sự thật kh...
-- `t21_andrea_yates_a4_07_kerrville`: Hồi 4 (PHIÊN TÒA LỊCH SỬ & PHÁN QUYẾT): *(khoảnh khắc công bố phán quyết lịch sử năm 2006)*:
-Chiều ngày 26 tháng 7 năm 2006, sau ba ngày nghị án căng thẳng, bồi thẩm đ...
-- `t21_andrea_yates_a4_08_clear_lake`: Hồi 4 (PHIÊN TÒA LỊCH SỬ & PHÁN QUYẾT): *(N2: Bồi thẩm viên Hạt Harris - Tái thẩm 2006, giọng nữ trầm tĩnh, nghiêm nghị)*:
-Ngồi trên hàng ghế bồi thẩm đoàn trong một v...
-- `t21_andrea_yates_a4_09_houston`: Hồi 4 (PHIÊN TÒA LỊCH SỬ & PHÁN QUYẾT): Cô ấy yêu các con tha thiết, nhưng chính căn bệnh quái ác đã đánh cắp lý trí và biến tình yêu mẫu tử thành một hành động hủy di...
-- `t21_andrea_yates_a4_10_bathtub`: Hồi 4 (PHIÊN TÒA LỊCH SỬ & PHÁN QUYẾT): *(D: Chuyển giao điều trị tại Bệnh viện Tâm thần Bang)*:
-Ngay sau khi phán quyết được tuyên, Thẩm phán Belinda Hill đã ký lệnh ...
-- `t21_andrea_yates_a4_11_postpartum_psychosis`: Hồi 4 (PHIÊN TÒA LỊCH SỬ & PHÁN QUYẾT): Suốt gần hai mươi năm qua, Andrea Yates vẫn lặng lẽ sống trong khuôn viên bệnh viện, từ chối mọi buổi điều trần xin xét tha hàn...
-- `t21_andrea_yates_a4_12_resnick`: Hồi 4 (PHIÊN TÒA LỊCH SỬ & PHÁN QUYẾT): *(C: Giá trị tiền lệ tư pháp và y khoa)*:
-Phán quyết trong vụ án Andrea Yates đã trở thành tiền lệ tư pháp quan trọng nhất của ...
+- `t21_andrea_yates_a2_01_bible_verses` (2 shot, 22.9 s): `2-01` (12,5 s), `2-02` (10,4 s)
+- `t21_andrea_yates_a2_02_psychiatric_ward` (2 shot, 22.1 s): `2-03` (11,4 s), `2-04` (10,7 s)
+- `t21_andrea_yates_a2_03_kerrville` (2 shot, 19.3 s): `2-05` (10,0 s), `2-06` (9,3 s)
+- `t21_andrea_yates_a2_04_clear_lake` (2 shot, 23.2 s): `2-07` (11,8 s), `2-08` (11,4 s)
+- `t21_andrea_yates_a2_05_houston` (2 shot, 24.3 s): `2-09` (12,5 s), `2-10` (11,8 s)
+- `t21_andrea_yates_a2_06_bathtub` (2 shot, 23.2 s): `2-11` (11,8 s), `2-12` (11,4 s)
+- `t21_andrea_yates_a2_07_postpartum_psychosis` (2 shot, 21.1 s): `2-13` (10,7 s), `2-14` (10,4 s)
+- `t21_andrea_yates_a2_08_resnick` (2 shot, 20.0 s): `2-15` (9,3 s), `2-16` (10,7 s)
+- `t21_andrea_yates_a2_09_mnaghten` (2 shot, 20.7 s): `2-17` (10,0 s), `2-18` (10,7 s)
+- `t21_andrea_yates_a2_10_insanity_defense` (2 shot, 18.9 s): `2-19` (8,2 s), `2-20` (10,7 s)
+- `t21_andrea_yates_a2_11_bible_verses` (2 shot, 22.9 s): `2-21` (11,1 s), `2-22` (11,8 s)
+- `t21_a2_12_cramped_travel_trailer_interior` (2 shot, 26.0 s): `2-23` (13,9 s), `2-24` (12,1 s)
+- `t21_a2_13_prescription_pill_bottles_haldol` (2 shot, 20.7 s): `2-25` (11,4 s), `2-26` (9,3 s)
+- `t21_a2_14_religious_tracts_quiverfull_pamphlet` (2 shot, 20.4 s): `2-27` (10,4 s), `2-28` (10,0 s)
+- `t21_a2_15_exhausted_mother_silhouette_crib` (2 shot, 20.0 s): `2-29` (9,3 s), `2-30` (10,7 s)
+- `t21_a2_16_overwhelmed_kitchen_dirty_dishes` (2 shot, 18.6 s): `2-31` (8,6 s), `2-32` (10,0 s)
+- `t21_a2_17_medical_records_chart_psychiatrist` (2 shot, 18.9 s): `2-33` (10,7 s), `2-34` (8,2 s)
+- `t21_a2_18_mental_health_clinic_waiting_room` (2 shot, 21.4 s): `2-35` (10,7 s), `2-36` (10,7 s)
+- `t21_a2_19_suburban_church_steeple_silhouette` (2 shot, 18.5 s): `2-37` (8,9 s), `2-38` (9,6 s)
+- `t21_a2_20_children_wooden_toys_floor` (2 shot, 23.9 s): `2-39` (11,8 s), `2-40` (12,1 s)
+- `t21_a2_21_suicide_attempt_emergency_stretcher` (2 shot, 19.6 s): `2-41` (8,9 s), `2-42` (10,7 s)
+- `t21_a2_22_dr_saeed_office_consultation_desk` (1 shot, 8.2 s): `2-43` (8,2 s)
+- `t21_a2_23_doctor_warning_letter_document` (1 shot, 10.7 s): `2-44` (10,7 s)
+- `t21_a2_24_family_minivan_suburban_rain` (1 shot, 9.3 s): `2-45` (9,3 s)
+- `t21_a2_25_unopened_mail_stack_counter` (1 shot, 14.3 s): `2-46` (14,3 s)
+- `t21_a2_26_mirror_dissociation_fractured_glass` (1 shot, 13.2 s): `2-47` (13,2 s)
+- `t21_a2_27_empty_nursery_rocking_horse` (1 shot, 12.9 s): `2-48` (12,9 s)
 
-### Hồi 5 (17 ảnh)
-- `t21_andrea_yates_a5_01_insanity_defense`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): *(giọng suy ngẫm, mang tính triết lý sâu lắng)*:
-Sau thảm kịch năm 2001, bang Texas đã chính thức thông qua Đạo luật Andrea Yat...
-- `t21_andrea_yates_a5_02_bible_verses`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): Nỗi đau thương tột cùng của năm đứa trẻ đã biến thành ngọn hải đăng soi sáng, cứu sống hàng nghìn người mẹ và những đứa trẻ khá...
-- `t21_andrea_yates_a5_03_psychiatric_ward`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): *(D: Lời khuyên xương máu từ cơ quan điều tra)*:
-Bài học xương máu lớn nhất mà lực lượng điều tra và cộng đồng rút ra từ hồ sơ ...
-- `t21_andrea_yates_a5_04_kerrville`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): *(C: Bản chất y khoa của rối loạn tâm thần sau sinh)*:
-Trầm cảm và loạn thần sau sinh không phải là sự yếu đuối về mặt ý chí ha...
-- `t21_andrea_yates_a5_05_clear_lake`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): Việc phát hiện sớm các dấu hiệu bất thường và tiếp cận điều trị tâm thần kịp thời có thể chữa khỏi hoàn toàn và bảo vệ an toàn ...
-- `t21_andrea_yates_a5_06_houston`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): *(chuyển sang phần đúc kết và bài học nhận diện thực tế)*:
-Để giúp các gia đình, đặc biệt là những người chồng và người thân có...
-- `t21_andrea_yates_a5_07_bathtub`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): *(trình bày dấu hiệu cảnh báo 1)*:
-Dấu hiệu thứ nhất: Sự thay đổi đột ngột và cực đoan trong hành vi cùng ánh mắt thất thần, mấ...
-- `t21_andrea_yates_a5_08_postpartum_psychosis`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): *(trình bày dấu hiệu cảnh báo 2)*:
-Dấu hiệu thứ hai: Sự xuất hiện của những ý nghĩ hoang tưởng kỳ quái và niềm tin tôn giáo hoặ...
-- `t21_andrea_yates_a5_09_resnick`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): *(trình bày dấu hiệu cảnh báo 3)*:
-Dấu hiệu thứ ba: Những biểu hiện nghe thấy ảo thanh hoặc nhìn thấy những hình ảnh không có thật
-- `t21_andrea_yates_a5_10_mnaghten`: Hồi 5 (BÀI HỌC CẢNH TỈNH & 4 CẢNH BÁO): *(trình bày dấu hiệu cảnh báo 4)*:
-Dấu hiệu thứ tư: Tình trạng mất ngủ triền miên nhiều ngày liên tiếp kết hợp với cảm xúc đờ đ...
-- `t21_four_redflags_overview_banner`: Bảng ghim phân tích tổng quan 4 dấu hiệu cảnh báo đỏ của hồ sơ andrea_yates.
-- `t21_redflag1_severe_postpartum_depression`: Cảnh báo đỏ 1: Trầm cảm sau sinh nghiêm trọng kèm dấu hiệu mất kết nối thực tại không được can thiệp kịp thời.
-- `t21_redflag2_delusional_altruistic_homicide`: Cảnh báo đỏ 2: Hoang tưởng giết người vì lòng vị tha: tin rằng sát hại là con đường duy nhất cứu linh hồn con trẻ.
-- `t21_redflag3_medical_advice_neglect`: Cảnh báo đỏ 3: Phớt lờ cảnh báo y khoa nghiêm ngặt của bác sĩ tâm thần về việc không được để người mẹ một mình.
-- `t21_redflag4_complete_cognitive_collapse`: Cảnh báo đỏ 4: Sự sụp đổ nhận thức toàn diện: ảo giác thính giác và hoang tưởng tôn giáo lấn át lý trí.
-- `t21_texas_tranquil_lake_sunrise`: Hồ nước Clear Lake phẳng lặng đón ánh bình minh ấm áp, niềm hy vọng về sự thấu hiểu sức khỏe tâm thần.
-- `t21_amber_eyes_closing_dossier_yates`: Tập hồ sơ Amber Eyes về vụ án Andrea Yates khép lại với thông điệp nhân văn về y tế tâm thần.
+### HỒI 3: GIẢI MÃ TÂM LÝ: LOẠN THẦN SAU SINH & HOANG TƯỞNG CỨU CHUỘC
+
+- `t21_andrea_yates_a3_01_clear_lake` (2 shot, 23.9 s): `3-01` (13,2 s), `3-02` (10,7 s)
+- `t21_andrea_yates_a3_02_houston` (2 shot, 20.7 s): `3-03` (8,9 s), `3-04` (11,8 s)
+- `t21_andrea_yates_a3_03_bathtub` (2 shot, 21.7 s): `3-05` (12,1 s), `3-06` (9,6 s)
+- `t21_andrea_yates_a3_04_postpartum_psychosis` (2 shot, 27.5 s): `3-07` (13,6 s), `3-08` (13,9 s)
+- `t21_andrea_yates_a3_05_resnick` (2 shot, 27.8 s): `3-09` (14,6 s), `3-10` (13,2 s)
+- `t21_andrea_yates_a3_06_mnaghten` (2 shot, 24.6 s): `3-11` (13,2 s), `3-12` (11,4 s)
+- `t21_andrea_yates_a3_07_insanity_defense` (2 shot, 23.2 s): `3-13` (13,2 s), `3-14` (10,0 s)
+- `t21_andrea_yates_a3_08_bible_verses` (2 shot, 22.1 s): `3-15` (10,7 s), `3-16` (11,4 s)
+- `t21_andrea_yates_a3_09_psychiatric_ward` (2 shot, 29.3 s): `3-17` (12,5 s), `3-18` (16,8 s)
+- `t21_andrea_yates_a3_10_kerrville` (2 shot, 25.7 s): `3-19` (14,6 s), `3-20` (11,1 s)
+- `t21_andrea_yates_a3_11_clear_lake` (2 shot, 25.0 s): `3-21` (14,3 s), `3-22` (10,7 s)
+- `t21_a3_12_dsm_manual_psychiatry_textbook` (2 shot, 24.7 s): `3-23` (11,1 s), `3-24` (13,6 s)
+- `t21_a3_13_synaptic_pathway_neurochemistry` (2 shot, 26.8 s): `3-25` (13,6 s), `3-26` (13,2 s)
+- `t21_a3_14_hallucination_whispering_shadows` (2 shot, 26.1 s): `3-27` (14,3 s), `3-28` (11,8 s)
+- `t21_a3_15_burning_sulfur_delusion_symbol` (2 shot, 24.3 s): `3-29` (12,5 s), `3-30` (11,8 s)
+- `t21_a3_16_antique_brass_scales_justice_distorted` (2 shot, 22.5 s): `3-31` (10,7 s), `3-32` (11,8 s)
+- `t21_a3_17_mother_child_hands_parting` (2 shot, 25.7 s): `3-33` (11,8 s), `3-34` (13,9 s)
+- `t21_a3_18_clinical_electroencephalogram_readout` (2 shot, 23.9 s): `3-35` (12,1 s), `3-36` (11,8 s)
+- `t21_a3_19_altruistic_filicide_concept_art` (2 shot, 21.1 s): `3-37` (10,4 s), `3-38` (10,7 s)
+- `t21_a3_20_resnick_five_categories_filicide` (2 shot, 21.8 s): `3-39` (11,8 s), `3-40` (10,0 s)
+- `t21_a3_21_broken_hourglass_running_sand` (2 shot, 22.2 s): `3-41` (11,1 s), `3-42` (11,1 s)
+- `t21_a3_22_isolated_cell_solitary_confinement` (2 shot, 19.2 s): `3-43` (9,6 s), `3-44` (9,6 s)
+- `t21_a3_23_distorted_clock_hands_freezing` (1 shot, 12.1 s): `3-45` (12,1 s)
+- `t21_a3_24_demonic_voices_shadow_reaching` (1 shot, 15.0 s): `3-46` (15,0 s)
+- `t21_a3_25_unanswered_cry_for_help_letter` (1 shot, 11.8 s): `3-47` (11,8 s)
+- `t21_a3_26_straitjacket_straps_hospital_bed` (1 shot, 12.1 s): `3-48` (12,1 s)
+- `t21_a3_27_shattered_stained_glass_window` (1 shot, 10.4 s): `3-49` (10,4 s)
+- `t21_a3_28_serotonin_drop_chemical_void` (1 shot, 9.6 s): `3-50` (9,6 s)
+
+### HỒI 4: PHIÊN TÒA LỊCH SỬ & PHÁN QUYẾT KHÔNG CÓ TỘI VÌ LÝ DO TÂM THẦN
+
+- `t21_andrea_yates_a4_01_postpartum_psychosis` (2 shot, 23.2 s): `4-01` (11,1 s), `4-02` (12,1 s)
+- `t21_andrea_yates_a4_02_resnick` (2 shot, 26.1 s): `4-03` (12,9 s), `4-04` (13,2 s)
+- `t21_andrea_yates_a4_03_mnaghten` (2 shot, 20.0 s): `4-05` (8,6 s), `4-06` (11,4 s)
+- `t21_andrea_yates_a4_04_insanity_defense` (2 shot, 19.3 s): `4-07` (11,1 s), `4-08` (8,2 s)
+- `t21_andrea_yates_a4_05_bible_verses` (2 shot, 20.4 s): `4-09` (10,4 s), `4-10` (10,0 s)
+- `t21_andrea_yates_a4_06_psychiatric_ward` (2 shot, 25.0 s): `4-11` (12,1 s), `4-12` (12,9 s)
+- `t21_andrea_yates_a4_07_kerrville` (2 shot, 16.1 s): `4-13` (7,5 s), `4-14` (8,6 s)
+- `t21_andrea_yates_a4_08_clear_lake` (2 shot, 22.9 s): `4-15` (11,1 s), `4-16` (11,8 s)
+- `t21_andrea_yates_a4_09_houston` (2 shot, 21.4 s): `4-17` (11,8 s), `4-18` (9,6 s)
+- `t21_andrea_yates_a4_10_bathtub` (2 shot, 18.9 s): `4-19` (9,3 s), `4-20` (9,6 s)
+- `t21_andrea_yates_a4_11_postpartum_psychosis` (2 shot, 20.7 s): `4-21` (14,3 s), `4-22` (6,4 s)
+- `t21_andrea_yates_a4_12_resnick` (2 shot, 26.4 s): `4-23` (15,7 s), `4-24` (10,7 s)
+- `t21_a4_13_harris_county_courthouse_exterior` (2 shot, 18.6 s): `4-25` (12,5 s), `4-26` (6,1 s)
+- `t21_a4_14_judge_gavel_wood_bench` (2 shot, 15.8 s): `4-27` (7,9 s), `4-28` (7,9 s)
+- `t21_a4_15_defense_attorney_george_parnham` (2 shot, 23.5 s): `4-29` (12,1 s), `4-30` (11,4 s)
+- `t21_a4_16_prosecutor_closing_argument_lectern` (2 shot, 25.4 s): `4-31` (13,6 s), `4-32` (11,8 s)
+- `t21_a4_17_jury_box_deliberation_empty` (2 shot, 22.8 s): `4-33` (11,4 s), `4-34` (11,4 s)
+- `t21_a4_18_expert_witness_stand_microphone` (2 shot, 20.3 s): `4-35` (12,1 s), `4-36` (8,2 s)
+- `t21_a4_19_dr_dietz_law_and_order_tape` (2 shot, 19.3 s): `4-37` (10,7 s), `4-38` (8,6 s)
+- `t21_a4_20_malingering_test_clinical_protocol` (2 shot, 20.7 s): `4-39` (9,3 s), `4-40` (11,4 s)
+- `t21_a4_21_courtroom_stenographer_machine` (2 shot, 20.7 s): `4-41` (9,6 s), `4-42` (11,1 s)
+- `t21_a4_22_verdict_ballot_guilty_paper` (2 shot, 17.9 s): `4-43` (7,5 s), `4-44` (10,4 s)
+- `t21_a4_23_texas_court_of_appeals_brief` (2 shot, 22.8 s): `4-45` (11,4 s), `4-46` (11,4 s)
+- `t21_a4_24_overturned_conviction_gavel_strike` (2 shot, 20.0 s): `4-47` (10,7 s), `4-48` (9,3 s)
+- `t21_a4_25_retrial_defense_strategy_board` (1 shot, 14.6 s): `4-49` (14,6 s)
+- `t21_a4_26_not_guilty_insanity_document` (1 shot, 9.6 s): `4-50` (9,6 s)
+- `t21_a4_27_mental_health_advocates_outside` (1 shot, 13.2 s): `4-51` (13,2 s)
+- `t21_a4_28_kerrville_state_hospital_gates` (1 shot, 16.1 s): `4-52` (16,1 s)
+- `t21_a4_29_secure_hospital_courtyard_bench` (1 shot, 12.1 s): `4-53` (12,1 s)
+- `t21_a4_30_psychiatric_commitment_order` (1 shot, 11.1 s): `4-54` (11,1 s)
+- `t21_a4_31_handshake_defense_lawyer_closure` (1 shot, 9.6 s): `4-55` (9,6 s)
+
+### HỒI 5: BÀI HỌC CẢNH TỈNH, DI SẢN QUỸ YATES & 4 CẢNH BÁO ĐỎ SINH TỒN
+
+- `t21_andrea_yates_a5_01_insanity_defense` (2 shot, 21.8 s): `5-01` (10,4 s), `5-02` (11,4 s)
+- `t21_andrea_yates_a5_02_bible_verses` (2 shot, 22.8 s): `5-03` (12,1 s), `5-04` (10,7 s)
+- `t21_andrea_yates_a5_03_psychiatric_ward` (2 shot, 23.2 s): `5-05` (11,1 s), `5-06` (12,1 s)
+- `t21_andrea_yates_a5_04_kerrville` (2 shot, 23.6 s): `5-07` (11,8 s), `5-08` (11,8 s)
+- `t21_andrea_yates_a5_05_clear_lake` (2 shot, 21.4 s): `5-09` (10,0 s), `5-10` (11,4 s)
+- `t21_andrea_yates_a5_06_houston` (2 shot, 33.6 s): `5-11` (17,9 s), `5-12` (15,7 s)
+- `t21_andrea_yates_a5_07_bathtub` (2 shot, 26.8 s): `5-13` (15,7 s), `5-14` (11,1 s)
+- `t21_andrea_yates_a5_08_postpartum_psychosis` (2 shot, 23.2 s): `5-15` (11,1 s), `5-16` (12,1 s)
+- `t21_andrea_yates_a5_09_resnick` (2 shot, 25.8 s): `5-17` (12,9 s), `5-18` (12,9 s)
+- `t21_andrea_yates_a5_10_mnaghten` (2 shot, 28.9 s): `5-19` (18,2 s), `5-20` (10,7 s)
+- `t21_a5_11_postpartum_support_international_symbol` (2 shot, 32.9 s): `5-21` (23,6 s), `5-22` (9,3 s)
+- `t21_a5_12_medical_stethoscope_and_journal` (2 shot, 30.4 s): `5-23` (16,1 s), `5-24` (14,3 s)
+- `t21_a5_13_memorial_candles_five_angels` (2 shot, 24.6 s): `5-25` (8,9 s), `5-26` (15,7 s)
+- `t21_a5_14_morning_sunlight_blooming_flower` (2 shot, 21.5 s): `5-27` (13,6 s), `5-28` (7,9 s)
+- `t21_four_redflags_overview_banner` (2 shot, 29.3 s): `5-29` (15,0 s), `5-30` (14,3 s)
+- `t21_redflag1_severe_postpartum_depression` (2 shot, 22.9 s): `5-31` (9,3 s), `5-32` (13,6 s)
+- `t21_redflag2_delusional_altruistic_homicide` (1 shot, 13.2 s): `5-33` (13,2 s)
+- `t21_redflag3_medical_advice_neglect` (1 shot, 11.8 s): `5-34` (11,8 s)
+- `t21_redflag4_complete_cognitive_collapse` (1 shot, 12.1 s): `5-35` (12,1 s)
+- `t21_texas_tranquil_lake_sunrise` (1 shot, 13.6 s): `5-36` (13,6 s)
+- `t21_amber_eyes_closing_dossier_yates` (1 shot, 6.1 s): `5-37` (6,1 s)
+

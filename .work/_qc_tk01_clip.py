@@ -7,6 +7,7 @@ tranh duong gi do nen toi/den vang bi dem nham la chu.
 """
 import importlib.util
 import json
+import os
 import pathlib
 import re
 import subprocess
@@ -21,11 +22,13 @@ HERE = ROOT / ".work"
 FF = HERE / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 FFPROBE = FF.with_name("ffprobe.exe")
 D = ROOT / "02_SAN_XUAT" / "TIKTOK" / "Tap01"
-MP4 = D / "clip01_TK1.mp4"
-MANIFEST = HERE / "_tk1_build_manifest.json"
-TL = D / "timeline_tk1.json"
-OUT = HERE / "_qc_tk01_clip.json"
-FRAMES = HERE / "_qc_tk01_frames"
+CLIP = os.environ.get("AE_CLIP", "TK1")
+N = CLIP[2:]
+MP4 = D / ("clip0%s_%s.mp4" % (N, CLIP))
+MANIFEST = HERE / ("_tk%s_build_manifest.json" % N)
+TL = D / ("timeline_tk%s.json" % N)
+OUT = HERE / ("_qc_tk0%s_clip.json" % N)
+FRAMES = HERE / ("_qc_tk0%s_frames" % N)
 FRAMES.mkdir(parents=True, exist_ok=True)
 
 W, H, FPS = 1080, 1920, 30
@@ -76,6 +79,10 @@ def main():
     res = {}
     fails = []
     man = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    # tuong thich manifest cu (TK1 dung truoc khi tham so hoa)
+    if "cards" not in man:
+        man["cards"] = [dict(man["card"], window=man["card_window"])]
+    man.setdefault("hook_line", "TK1.01#1")
     tl = json.loads(TL.read_text(encoding="utf-8-sig"))
 
     # ---------- 1-4 ----------
@@ -145,12 +152,13 @@ def main():
 
     # ---------- 9 safe zone (mask chu THAT) ----------
     hook_img, _ = B.build_hook_overlay()
-    card_img, _ = B.build_card_overlay()
     overlays = [("HOOK", hook_img, (0, 3.0))]
     for m in man["subtitles"]:
         img, _ = B.build_sub_overlay(m["text"])
         overlays.append((m["id"], img, (m["t0"], m["t1"])))
-    overlays.append(("CARD", card_img, tuple(man["card_window"])))
+    for i, cd in enumerate(man["cards"]):
+        ci, _ = B.build_card_overlay(cd["text"])
+        overlays.append(("CARD%d" % i, ci, tuple(cd["window"])))
 
     viol = []
     for name, img, win in overlays:
@@ -170,14 +178,20 @@ def main():
 
     # ---------- 11 tuong phan (mask chu that) ----------
     ratios = []
-    checks = [(0.5, "HOOK"), (1.5, "HOOK"), (2.6, "HOOK"), (8.0, None), (14.0, None),
-              (27.5, None), (33.0, "CARD"), (34.2, "CARD"), (50.0, None), (63.0, None)]
+    if CLIP == "TK1":
+        checks = [(0.5, "HOOK"), (1.5, "HOOK"), (2.6, "HOOK"), (8.0, None), (14.0, None),
+                  (27.5, None), (33.0, "CARD"), (34.2, "CARD"), (50.0, None), (63.0, None)]
+    else:   # mau theo clip: hook, giua moi cau, giua moi the
+        checks = [(0.5, "HOOK"), (1.5, "HOOK"), (2.6, "HOOK")]
+        checks += [(round((l["start"] + l["end"]) / 2, 2), None) for l in tl[1:]]
+        checks += [(round((c["window"][0] + c["window"][1]) / 2, 2), "CARD%d" % i)
+                   for i, c in enumerate(man["cards"])]
     for t, want in checks:
         frame = grab(t, "qc_%05.1f.png" % t)
         for name, img, win in overlays:
             if not (win[0] <= t < win[1]):
                 continue
-            if want and name != want:
+            if want and not name.startswith(want):
                 continue
             gm = glyph_mask(img)
             if gm.sum() < 200:
@@ -230,9 +244,39 @@ def main():
     res["mat_nguoi_that"] = ("nen AI sinh, khong dung anh co that cua nguoi that; "
                              "khung nguoi trong tranh khong mang tinh cach nguoi that")
 
+    # ---------- chu thieu glyph (o vuong 'tofu') ----------
+    from PIL import ImageFont, ImageDraw
+
+    def _rend(fp, c):
+        im = Image.new("L", (90, 90), 0)
+        ImageDraw.Draw(im).text((5, 5), c, font=ImageFont.truetype(str(fp), 44), fill=255)
+        return im.tobytes()
+
+    texts = [m["text"] for m in man["subtitles"]] + [man["hook"]["text"]] + [c["text"] for c in man["cards"]]
+    missing = set()
+    for ch in set("".join(texts)):
+        if ch.isspace():
+            continue
+        fonts = [B.F_BOLD, B.F_SEMI] + ([B.F_SYM] if ch in B.CIRCLED else [])
+        ok = False
+        for fp in fonts:
+            if _rend(fp, ch) != _rend(fp, "\uffff"):
+                ok = True
+                break
+        if ch in B.CIRCLED and ok is False:
+            ok = False
+        elif ch in B.CIRCLED:
+            ok = _rend(B.F_SYM, ch) != _rend(B.F_SYM, "\uffff")   # ky tu khoanh tron CHI tinh khi font Symbol co
+        if not ok:
+            missing.add(ch)
+    res["glyph_thieu"] = sorted(missing)
+    print("[11b] ky tu thieu glyph (o vuong): %s" % (sorted(missing) if missing else "khong co"))
+    if missing:
+        fails.append("11 thieu glyph: %s" % sorted(missing))
+
     # ---------- 13 tu cam V9 ----------
     all_text = " ".join([m["text"] for m in man["subtitles"]] +
-                        [man["hook"]["text"], man["card"]["text"]])
+                        [man["hook"]["text"]] + [c["text"] for c in man["cards"]])
     low = all_text.lower()
     hits = sorted({w for w in BANNED if w in low})
     res["tu_cam"] = hits
@@ -252,9 +296,9 @@ def main():
     if g6_bad:
         fails.append("G6 chu khong khop nguyen van loi doc")
 
-    hook_ok = man["hook"]["text"] in tlmap.get("TK1.01#1", "")
+    hook_ok = man["hook"]["text"] in tlmap.get(man["hook_line"], "")
     res["hook_nguyen_van"] = hook_ok
-    print("[H6] hook la trich nguyen van cua TK1.01#1: %s" % hook_ok)
+    print("[H6] hook la trich nguyen van cua %s: %s" % (man["hook_line"], hook_ok))
     if not hook_ok:
         fails.append("H6 hook khong phai trich nguyen van")
 

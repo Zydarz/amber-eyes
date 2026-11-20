@@ -1,0 +1,19 @@
+{
+  "input_i": "-15.95",
+  "input_tp": "-4.37",
+  "final_i": -16.0,
+  "final_tp": -4.4,
+  "bed_gain_base_db": -10.83,
+  "bed_rel_speech_db": -26.0,
+  "bed_rel_pause_db": -14.0,
+  "room_rel_db": -38.0,
+  "sfx_rel_db": -34.0,
+  "voice_rms_db": -19.51,
+  "bed_rms_db": -22.68,
+  "duration_s": 72.92,
+  "sources": {
+    "voice": "02_SAN_XUAT/TIKTOK/Tap01/TK2_master_audio.wav",
+    "bgm": "assets/bgm/bgm_ambient_deep.mp3 (MiniMax Music)",
+    "sfx": "tu tong hop (room tone + kim loai va cham tai 36.78 s)"
+  }
+}

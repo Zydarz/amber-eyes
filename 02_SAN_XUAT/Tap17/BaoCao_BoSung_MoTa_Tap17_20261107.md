@@ -1,5 +1,10 @@
 # BÁO CÁO BỔ SUNG & KIỂM ĐỊNH MÔ TẢ TẬP 17 (4 NGÔN NGỮ)
 
+> ⚠️ **TÀI LIỆU LỊCH SỬ — BỘ MÔ TẢ ĐÃ ĐƯỢC VIẾT LẠI (20/11/2026).**
+> Bản mô tả mà báo cáo này mô tả **đã bị thay thế** theo kịch bản 226 câu (14/11/2026) và format Tập 16.
+> Xem báo cáo mới: **`BaoCao_VietLai_MoTa_Tap17_20261120.md`** (cùng thư mục).
+> Báo cáo cũ giữ lại để tra cứu lịch sử, KHÔNG dùng làm mốc đối chiếu hiện hành.
+
 **Hồ sơ vụ án:** 13 Đứa Trẻ Trong Ngục Tù Ngoại Ô — Kiểm Soát Cưỡng Chế, Ảo Tưởng Điên Cuồng Đôi & Cú Nhảy Sinh Tồn (Hồ Sơ Gia Đình Turpin)  
 **Thời gian thực hiện:** 07/11/2026  
 **Căn cứ quy chuẩn:** `AGENTS.md` (L1–L10, K1–K10, V9), `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (§A2c — Hệ sinh thái 10 chỉ dấu tâm lý & hành vi bắt buộc, giới hạn YouTube Description $\le 5.000$ ký tự).

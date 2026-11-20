@@ -1,0 +1,86 @@
+# -*- coding: utf-8 -*-
+"""Generate high-quality Deep Noir prompts for the 63 backgrounds of Tap 21 based on their exact shots."""
+import json, re
+
+# Descriptions for all 63 backgrounds to replace the old template-based ones
+# Deep noir, Chiaroscuro, specific to the Yates case and matching the shot narrative
+prompts_63 = {
+    # Act 1 (12 backgrounds)
+    "t21_andrea_yates_a1_01_resnick": "Suburban 911 dispatch communication room at dawn, glowing analog audio wave monitors and operators silhouetted in dark chiaroscuro, emergency tension.",
+    "t21_andrea_yates_a1_02_mnaghten": "Bleak suburban Texas living room corner, cold morning light falling on a beige landline telephone on a small side table, unsettling silence.",
+    "t21_andrea_yates_a1_03_insanity_defense": "NASA Johnson Space Center engineering workstation, blueprint desk with blueprints and monitor, a ringing telephone casting long anxious shadows.",
+    "t21_andrea_yates_a1_04_bible_verses": "Suburban driveway with an open car door, keys dangling, distant brick home standing menacingly quiet in humid Texas morning mist.",
+    "t21_andrea_yates_a1_05_psychiatric_ward": "Patrol officer approaching a closed suburban front door, hand near radio holster, heavy psychological dread and quiet mystery.",
+    "t21_andrea_yates_a1_06_kerrville": "Shadowy living room interior, a female silhouette seated motionless on a sofa with soaking wet hair, eerie calm and complete emotional numbness.",
+    "t21_andrea_yates_a1_07_clear_lake": "Dimly lit hallway leading toward closed bathroom door, soft water ripples reflecting on the hardwood floorboards, heartbreaking tragedy.",
+    "t21_andrea_yates_a1_08_houston": "Forensic evidence markers on the hallway floor, police torchlight cutting through heavy pitch-black shadows, solemn investigative scene.",
+    "t21_andrea_yates_a1_09_bathtub": "Solemn closed bathroom door in deep shadows, towel hanging beside the frame, stark clinical noir chiaroscuro, respectful non-graphic investigative scene.",
+    "t21_andrea_yates_a1_10_postpartum_psychosis": "Suburban master bedroom with a neatly made bed draped in heavy dark quilts, chilling stillness, suffocating psychological weight.",
+    "t21_andrea_yates_a1_11_resnick": "Flashing police lights reflecting against suburban bay windows as neighbors gather in shock behind police tape in morning fog.",
+    "t21_andrea_yates_a1_12_mnaghten": "Harris County police cruiser backseat cage, looking through metal wire mesh into foggy Houston morning, solemn detainment.",
+
+    # Act 2 (11 backgrounds)
+    "t21_andrea_yates_a2_01_bible_verses": "Worn King James Bible open on a wooden table, intense amber spotlight illuminating verse passages on moral judgment and parental duty.",
+    "t21_andrea_yates_a2_02_psychiatric_ward": "Subdued suburban dining table, a mother staring blankly ahead while children's cereal bowls remain untouched in gloomy afternoon light.",
+    "t21_andrea_yates_a2_03_kerrville": "Mental health hospital admission lobby, frosted glass partition and sign-in clipboard under cold fluorescent shadows.",
+    "t21_andrea_yates_a2_04_clear_lake": "Converted camper bus interior parked beside a suburban Texas house, cramped living quarters, sense of intense spatial confinement.",
+    "t21_andrea_yates_a2_05_houston": "Psychiatric inpatient observation room, solitary iron frame bed, barred exterior window looking out at rainy Houston sky.",
+    "t21_andrea_yates_a2_06_bathtub": "Bathroom mirror medicine cabinet open, prescription bottles cast in heavy shadows, silence and clinical dread.",
+    "t21_andrea_yates_a2_07_postpartum_psychosis": "Psychological portrait silhouette: mother holding infant, enveloped in descending tendrils of dark storm clouds and shadow.",
+    "t21_andrea_yates_a2_08_resnick": "Doctor's mahogany office desk, psychiatric evaluation report marked 'High Risk of Postpartum Relapse', prescription pad beside stethoscope.",
+    "t21_andrea_yates_a2_09_mnaghten": "Texas family backyard in blistering midday heat, desolate dry grass, children's plastic tricycle lying tipped on its side.",
+    "t21_andrea_yates_a2_10_insanity_defense": "Fundamentalist preacher's pulpit in an austere wooden chapel, stark shadows cast by a towering wooden cross.",
+    "t21_andrea_yates_a2_11_bible_verses": "Nightstand drawer open with psychiatric clinic appointment cards and unread warning brochures, creeping dread of impending disaster.",
+
+    # Act 3 (11 backgrounds)
+    "t21_andrea_yates_a3_01_clear_lake": "Surreal psychological illustration: mother's profile silhouetted against a brain anatomy map showing chaotic neural turmoil.",
+    "t21_andrea_yates_a3_02_houston": "Distorted dark clock melting on the wall, shadows lengthening across a suburban kitchen counter, psychotic dissociation.",
+    "t21_andrea_yates_a3_03_bathtub": "Dark bathroom doorway in monochrome ink wash, gentle ambient light fading into an abyss of blackness, haunting tragedy.",
+    "t21_andrea_yates_a3_04_postpartum_psychosis": "Visual metaphor of psychosis: a fragile porcelain teacup cracking down the middle, cold light spilling through the fracture.",
+    "t21_andrea_yates_a3_05_resnick": "Forensic psychiatric interview room, Dr. Phillip Resnick taking notes across a wooden table from an empty chair in shadows.",
+    "t21_andrea_yates_a3_06_mnaghten": "Two diverging paths in dark woods: one leading to harsh fluorescent courtroom light, one vanishing into psychological fog.",
+    "t21_andrea_yates_a3_07_insanity_defense": "Abstract graphic noir: dark demonic claws of delusional guilt surrounding an innocent suburban crib, religious terror.",
+    "t21_andrea_yates_a3_08_bible_verses": "Open scripture text on a wooden desk, harsh chiaroscuro shadows casting the shape of iron prison bars across the paper.",
+    "t21_andrea_yates_a3_09_psychiatric_ward": "Sterile psychiatric hospital corridor at midnight, long polished floor reflecting solitary safety lamp, clinical isolation.",
+    "t21_andrea_yates_a3_10_kerrville": "Courtyard of a mental health institute in autumn, dead leaves blowing across an empty bench, melancholic beauty.",
+    "t21_andrea_yates_a3_11_clear_lake": "Houston suburban neighborhood at twilight, streetlights flickering in humid haze, silence shrouding family homes.",
+
+    # Act 4 (12 backgrounds)
+    "t21_andrea_yates_a4_01_postpartum_psychosis": "Criminal courtroom packed with spectators, news cameras with red tally lights silhouetted against tall mahogany jury walls.",
+    "t21_andrea_yates_a4_02_resnick": "Expert witness testifying on courtroom stand, holding psychiatric case file, intense cross-examination lighting.",
+    "t21_andrea_yates_a4_03_mnaghten": "Ancient M'Naghten legal rule book bound in dark cracked leather, brass bookmark resting on definition of cognitive sanity.",
+    "t21_andrea_yates_a4_04_insanity_defense": "Defense counsel table, defense attorney leaning over legal briefs under green banker lamp, moral tension.",
+    "t21_andrea_yates_a4_05_bible_verses": "Prosecution exhibit table with cardboard evidence boards and medical charts under harsh courtroom spotlights.",
+    "t21_andrea_yates_a4_06_psychiatric_ward": "Jury deliberation room after hours, half-empty coffee cups and voting ballots scattered on table, heavy deliberation.",
+    "t21_andrea_yates_a4_07_kerrville": "Harris County jail holding cell behind courtroom, iron bars casting vertical shadows across concrete wall.",
+    "t21_andrea_yates_a4_08_clear_lake": "Texas Court of Appeals courtroom, appellate judges' bench illuminated in solemn judicial grandeur.",
+    "t21_andrea_yates_a4_09_houston": "Newspaper front page mockup on a table with headline about retrial and false expert testimony, magnifying glass beside it.",
+    "t21_andrea_yates_a4_10_bathtub": "Solemn courtroom gavel resting peacefully beside the final official verdict sheet, resolution of justice.",
+    "t21_andrea_yates_a4_11_postpartum_psychosis": "Iron security transport van departing courthouse under rainy Houston sky, heading toward treatment facility.",
+    "t21_andrea_yates_a4_12_resnick": "Kerrville State Hospital historic limestone building surrounded by tranquil Texas Hill Country trees in late afternoon light.",
+
+    # Act 5 (10 backgrounds)
+    "t21_andrea_yates_a5_01_insanity_defense": "Tranquil psychiatric hospital art therapy room, watercolor paints and brushes resting by a sunlit barred window.",
+    "t21_andrea_yates_a5_02_bible_verses": "Open memorial guestbook surrounded by white roses and soft candlelight, honoring the five children's memory.",
+    "t21_andrea_yates_a5_03_psychiatric_ward": "Modern hospital postpartum ward corridor, educational posters about maternal depression on clean pastel walls.",
+    "t21_andrea_yates_a5_04_kerrville": "Psychiatric physician counseling an anxious young mother and father in a warm supportive clinic office.",
+    "t21_andrea_yates_a5_05_clear_lake": "Community memorial garden with stone bench and engraved plaque under an oak tree in Clear Lake Texas.",
+    "t21_andrea_yates_a5_06_houston": "Perinatal mental health hotline desk with telephone headset and crisis intervention manual in warm amber light.",
+    "t21_andrea_yates_a5_07_bathtub": "Abstract visual of healing: dark heavy chains crumbling into dust as soft golden dawn breaks across a calm horizon.",
+    "t21_andrea_yates_a5_08_postpartum_psychosis": "Four emergency warning beacon lights arranged in a grid, cutting through darkness, graphic novel caution sign.",
+    "t21_andrea_yates_a5_09_resnick": "Doctor's hands writing a supportive clinical referral, stethoscope and prescription notepad resting peacefully.",
+    "t21_andrea_yates_a5_10_mnaghten": "Mother and newborn baby silhouette bathed in warm protective amber light, symbol of safeguarding maternal health.",
+
+    # Special backgrounds (7 backgrounds)
+    "t21_four_redflags_overview_banner": "Graphic noir banner layout with four distinct diagnostic warning symbols for Postpartum Psychosis, dark slate background.",
+    "t21_redflag1_severe_postpartum_depression": "Red Flag 1 Title Card: Sudden personality detachment and emotional flattening in a postpartum mother, stark noir silhouette.",
+    "t21_redflag2_delusional_altruistic_homicide": "Red Flag 2 Title Card: Religious or altruistic guilt delusions, distorted mirror reflecting shadowy thoughts.",
+    "t21_redflag3_medical_advice_neglect": "Red Flag 3 Title Card: Neglect of medical warnings and stopping psychiatric medications, spilled amber pills.",
+    "t21_redflag4_complete_cognitive_collapse": "Red Flag 4 Title Card: Total insomnia and cognitive collapse, clock with shattered glass face.",
+    "t21_texas_tranquil_lake_sunrise": "Peaceful wide panoramic view of Clear Lake Texas at sunrise, golden amber rays piercing through morning fog, quiet reflection.",
+    "t21_amber_eyes_closing_dossier_yates": "Dark leather Amber Eyes investigative dossier closing solemnly on an antique oak desk, embossed golden owl eye logo gleaming, dignified closing frame."
+}
+
+print(f"Total new prompts prepared for the 63 backgrounds: {len(prompts_63)}")
+with open('.work/scratch_recreate_63_prompts.json', 'w', encoding='utf-8') as f:
+    json.dump(prompts_63, f, ensure_ascii=False, indent=2)

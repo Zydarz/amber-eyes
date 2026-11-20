@@ -1,0 +1,528 @@
+{
+  "clip": "TK2",
+  "fps": 30,
+  "size": [
+    1080,
+    1920
+  ],
+  "duration_s": 72.92,
+  "nframes": 2188,
+  "safe_zone": {
+    "x": [
+      120,
+      780
+    ],
+    "y": [
+      240,
+      1260
+    ]
+  },
+  "hook": {
+    "text": "chưa từng một lần đứng bật dậy khỏi chiếc xe lăn",
+    "lines": [
+      "chưa từng một lần",
+      "đứng bật dậy khỏi",
+      "chiếc xe lăn"
+    ],
+    "size": 60,
+    "box": [
+      120,
+      387,
+      644.0,
+      612
+    ]
+  },
+  "hook_line": "TK2.01#1",
+  "card": {
+    "text": "2 CƠ CHẾ GIAM HÃM NHẬN THỨC",
+    "lines": [
+      "2 CƠ CHẾ GIAM HÃM NHẬN",
+      "THỨC"
+    ],
+    "size": 44,
+    "box": [
+      120,
+      780,
+      780,
+      980
+    ]
+  },
+  "card_window": [
+    20.22,
+    22.72
+  ],
+  "cards": [
+    {
+      "text": "2 CƠ CHẾ GIAM HÃM NHẬN THỨC",
+      "lines": [
+        "2 CƠ CHẾ GIAM HÃM NHẬN",
+        "THỨC"
+      ],
+      "size": 44,
+      "box": [
+        120,
+        780,
+        780,
+        980
+      ],
+      "window": [
+        20.22,
+        22.72
+      ]
+    },
+    {
+      "text": "SỰ BẤT LỰC TẬP NHIỄM (LEARNED HELPLESSNESS)",
+      "lines": [
+        "SỰ BẤT LỰC TẬP NHIỄM",
+        "(LEARNED HELPLESSNESS)"
+      ],
+      "size": 44,
+      "box": [
+        120,
+        780,
+        780,
+        980
+      ],
+      "window": [
+        27.34,
+        30.34
+      ]
+    },
+    {
+      "text": "“MỌI SỰ KHÁNG CỰ ĐỀU LÀ VÔ NGHĨA”",
+      "lines": [
+        "“MỌI SỰ KHÁNG CỰ ĐỀU LÀ",
+        "VÔ NGHĨA”"
+      ],
+      "size": 44,
+      "box": [
+        120,
+        780,
+        780,
+        980
+      ],
+      "window": [
+        49.1,
+        51.6
+      ]
+    }
+  ],
+  "logo_box": [
+    120,
+    60,
+    260,
+    160
+  ],
+  "subtitles": [
+    {
+      "id": "TK2.01#1",
+      "t0": 0.0,
+      "t1": 2.376,
+      "text": "Suốt hàng chục năm trời, trước mặt hàng",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        710.0,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#1",
+      "t0": 2.376,
+      "t1": 4.752,
+      "text": "trăm bác sĩ, y tá, cảnh sát",
+      "size": 52,
+      "box": [
+        120,
+        1091,
+        709.984375,
+        1158
+      ]
+    },
+    {
+      "id": "TK2.01#1",
+      "t0": 4.752,
+      "t1": 7.128,
+      "text": "và các tình nguyện viên từ thiện, cô",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        734.984375,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#1",
+      "t0": 7.128,
+      "t1": 9.504,
+      "text": "ấy chưa từng một lần đứng bật",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        760.0,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#1",
+      "t0": 9.504,
+      "t1": 11.88,
+      "text": "dậy khỏi chiếc xe lăn để kêu cứu.",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        779.96875,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#2",
+      "t0": 12.28,
+      "t1": 14.76,
+      "text": "Để trả lời, ta phải nhìn vào hai",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        742.984375,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#2",
+      "t0": 14.76,
+      "t1": 17.24,
+      "text": "cơ chế giam hãm nhận thức: sự bất",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        652.0,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#2",
+      "t0": 17.24,
+      "t1": 19.72,
+      "text": "lực tập nhiễm và gắn kết chấn thương.",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        699.984375,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#3",
+      "t0": 20.22,
+      "t1": 22.393,
+      "text": "Năm 1967, nhà tâm lý học Martin",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        727.0,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#3",
+      "t0": 22.393,
+      "t1": 24.567,
+      "text": "Seligman công bố thí nghiệm kinh",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        621.0,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#3",
+      "t0": 24.567,
+      "t1": 26.74,
+      "text": "điển về sự bất lực tập nhiễm.",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        626.0,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#4",
+      "t0": 27.34,
+      "t1": 30.353,
+      "text": "Khi sinh vật bị nhốt trong phòng kín và phải chịu những cú",
+      "size": 44,
+      "box": [
+        120,
+        1068,
+        777.0,
+        1182
+      ]
+    },
+    {
+      "id": "TK2.01#4",
+      "t0": 30.353,
+      "t1": 33.367,
+      "text": "sốc điện ngẫu nhiên không thể né tránh, sau nhiều lần thử",
+      "size": 46,
+      "box": [
+        120,
+        1066,
+        769.0,
+        1184
+      ]
+    },
+    {
+      "id": "TK2.01#4",
+      "t0": 33.367,
+      "t1": 36.38,
+      "text": "phản kháng thất bại, nó hoàn toàn từ bỏ ý chí chiến đấu.",
+      "size": 48,
+      "box": [
+        120,
+        1063,
+        762.984375,
+        1187
+      ]
+    },
+    {
+      "id": "TK2.01#5",
+      "t0": 36.78,
+      "t1": 39.62,
+      "text": "Kể cả khi người ta mở toang cửa lồng và không còn",
+      "size": 50,
+      "box": [
+        120,
+        1060,
+        765.984375,
+        1190
+      ]
+    },
+    {
+      "id": "TK2.01#5",
+      "t0": 39.62,
+      "t1": 42.46,
+      "text": "dòng điện nào cản trở, con vật vẫn nằm im cam chịu.",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        754.0,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#6",
+      "t0": 42.96,
+      "t1": 45.78,
+      "text": "Bộ não bị tổn thương tâm lý sâu sắc sẽ đi đến",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        731.0,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#6",
+      "t0": 45.78,
+      "t1": 48.6,
+      "text": "một kết luận cố định: mọi sự kháng cự đều là vô nghĩa.",
+      "size": 50,
+      "box": [
+        120,
+        1060,
+        771.0,
+        1190
+      ]
+    },
+    {
+      "id": "TK2.01#7",
+      "t0": 49.1,
+      "t1": 51.487,
+      "text": "Mỗi lần con gái ngồi trước mặt bác sĩ, bàn",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        743.0,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#7",
+      "t0": 51.487,
+      "t1": 53.873,
+      "text": "tay mẹ luôn nắm chặt. Người ngoài nhìn vào",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        643.0,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#7",
+      "t0": 53.873,
+      "t1": 56.26,
+      "text": "tưởng đó là cái nắm tay chan chứa yêu thương.",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        678.0,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#8",
+      "t0": 56.76,
+      "t1": 59.92,
+      "text": "Với cô bé, đó là tín hiệu đe dọa: nếu cô bé",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        753.0,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#8",
+      "t0": 59.92,
+      "t1": 63.08,
+      "text": "nói sai một lời, bàn tay mẹ sẽ siết chặt đến bầm tím.",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        744.984375,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#9",
+      "t0": 63.68,
+      "t1": 67.52,
+      "text": "Đó là cách một đứa trẻ học được rằng phản kháng là vô ích.",
+      "size": 44,
+      "box": [
+        120,
+        1068,
+        776.0,
+        1182
+      ]
+    },
+    {
+      "id": "TK2.01#10",
+      "t0": 68.12,
+      "t1": 70.52,
+      "text": "Tập một của Amber Eyes. Xem hồ",
+      "size": 52,
+      "box": [
+        120,
+        1058,
+        715.0,
+        1192
+      ]
+    },
+    {
+      "id": "TK2.01#10",
+      "t0": 70.52,
+      "t1": 72.92,
+      "text": "sơ đầy đủ ở link trong bio.",
+      "size": 52,
+      "box": [
+        120,
+        1091,
+        741.0,
+        1158
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "TK2.01#1",
+      "bg": "wheelchair_room",
+      "cam": "still",
+      "start": 0.0,
+      "end": 11.88
+    },
+    {
+      "id": "TK2.01#2",
+      "bg": "brain_desk",
+      "cam": "pull",
+      "start": 12.28,
+      "end": 19.72
+    },
+    {
+      "id": "TK2.01#3",
+      "bg": "cage",
+      "cam": "push",
+      "start": 20.22,
+      "end": 26.74
+    },
+    {
+      "id": "TK2.01#4",
+      "bg": "cage",
+      "cam": "pan",
+      "start": 27.34,
+      "end": 36.38
+    },
+    {
+      "id": "TK2.01#5",
+      "bg": "cage_open",
+      "cam": "push",
+      "start": 36.78,
+      "end": 42.46
+    },
+    {
+      "id": "TK2.01#6",
+      "bg": "brain_desk",
+      "cam": "still",
+      "start": 42.96,
+      "end": 48.6
+    },
+    {
+      "id": "TK2.01#7",
+      "bg": "hands",
+      "cam": "pull",
+      "start": 49.1,
+      "end": 56.26
+    },
+    {
+      "id": "TK2.01#8",
+      "bg": "hands",
+      "cam": "pan",
+      "start": 56.76,
+      "end": 63.08
+    },
+    {
+      "id": "TK2.01#9",
+      "bg": "cage_open",
+      "cam": "still",
+      "start": 63.68,
+      "end": 67.52
+    },
+    {
+      "id": "TK2.01#10",
+      "bg": "podcast_desk",
+      "cam": "still",
+      "start": 68.12,
+      "end": 72.92
+    }
+  ]
+}

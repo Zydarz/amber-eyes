@@ -9,6 +9,7 @@
 Output: .work/_tk1_video_nosound.mp4 + .work/_tk1_build_manifest.json
 """
 import json
+import os
 import pathlib
 import subprocess
 import sys
@@ -23,15 +24,19 @@ FONTDIR = pathlib.Path("C:/Windows/Fonts")
 F_BOLD = FONTDIR / "segoeuib.ttf"
 F_SEMI = FONTDIR / "seguisb.ttf"
 F_REG = FONTDIR / "segoeui.ttf"
+F_SYM = FONTDIR / "seguisym.ttf"     # co glyph so khoanh tron (Segoe UI Bold KHONG co)
+CIRCLED = "①②③④⑤⑥⑦⑧⑨"
 
 W, H, FPS = 1080, 1920, 30
 D = ROOT / "02_SAN_XUAT" / "TIKTOK" / "Tap01"
-TL = D / "timeline_tk1.json"
+CLIP = os.environ.get("AE_CLIP", "TK1")      # L8: cau hinh clip nam trong SPEC, khong sua script
+N = CLIP[2:]
+TL = D / ("timeline_tk%s.json" % N)
 SPEC = D / "SPEC_AUDIO_CLIP_TAP01.json"
 BG = ROOT / "assets" / "bg"
 LOGO = ROOT / "assets" / "brand" / "logo.png"
-OUT = HERE / "_tk1_video_nosound.mp4"
-MANIFEST = HERE / "_tk1_build_manifest.json"
+OUT = HERE / ("_tk%s_video_nosound.mp4" % N)
+MANIFEST = HERE / ("_tk%s_build_manifest.json" % N)
 
 # ---- bo cuc (KE_HOACH_CLIP_TAP01.md muc 4) ----
 SX0, SX1 = 120, 780              # vung chu an toan
@@ -44,10 +49,12 @@ C_TEXT = (242, 239, 233, 255)   # #F2EFE9
 C_HOOK = (255, 214, 140, 255)   # #FFD68C
 C_CARD = (255, 214, 140, 255)
 
-HOOK_TEXT = "cô ấy bước vào phòng thẩm vấn"   # nguyen van trong TK1.01#1
+_SPEC = json.loads(SPEC.read_text(encoding="utf-8-sig"))
+CLIP_SPEC = next(c for c in _SPEC["clips"] if c["id"] == CLIP)
+HOOK_TEXT = CLIP_SPEC["hook_render"]   # phai la trich nguyen van cua cau hook_line (H6)
+HOOK_LINE = CLIP_SPEC["hook_line"]
+CARDS = CLIP_SPEC["overlay_cards"]
 HOOK_END = 3.0
-CARD_TEXT = "THỦ ĐOẠN (MODUS OPERANDI) ≠ CHỮ KÝ TÂM LÝ (SIGNATURE)"
-CARD_DUR = 2.5
 CARD_FADE = 0.4
 CHUNK_TARGET = 2.6              # giay/chunk phu de
 
@@ -100,6 +107,16 @@ def scrim_band(y0, y1, alpha=150, feather=90):
     return lay
 
 
+def draw_line(d, x, y, ln, fnt, **kw):
+    """Ve 1 dong; ky tu khoanh tron dau dong ve bang font Symbol (tranh o vuong 'tofu')."""
+    if ln and ln[0] in CIRCLED and F_SYM.exists():
+        fs = font(F_SYM, fnt.size)
+        d.text((x, y), ln[0], font=fs, **kw)
+        x += int(fs.getlength(ln[0]))
+        ln = ln[1:]
+    d.text((x, y), ln, font=fnt, **kw)
+
+
 def draw_text_block(d, lines, fnt, y_top, color, stroke=3):
     lh = int(fnt.size * 1.30)
     y = y_top
@@ -138,9 +155,10 @@ def build_hook_overlay():
                  "box": [SX0, y, SX0 + max(f.getlength(l) for l in lines), y + total]}
 
 
-def build_card_overlay():
+def build_card_overlay(text=None):
     lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(lay)
+    CARD_TEXT = text if text is not None else CARDS[0]["text"]
     words = CARD_TEXT.split()
     f, lines, s = fit_lines(words, F_BOLD, [44, 42, 40, 38, 36], SX1 - SX0 - 60, 3)
     lh = int(f.size * 1.26)
@@ -150,8 +168,8 @@ def build_card_overlay():
                         fill=(10, 10, 14, 153), outline=(255, 214, 140, 120), width=2)
     yy = y
     for ln in lines:
-        d.text((SX0 + 30, yy), ln, font=f, fill=C_CARD,
-               stroke_width=2, stroke_fill=(0, 0, 0, 220))
+        draw_line(d, SX0 + 30, yy, ln, f, fill=C_CARD,
+                  stroke_width=2, stroke_fill=(0, 0, 0, 220))
         yy += lh
     return lay, {"text": CARD_TEXT, "lines": lines, "size": s,
                  "box": [SX0, CARD_Y0, SX1, CARD_Y1]}
@@ -201,7 +219,7 @@ def apply_overlay(frame, overlay, box):
 def main():
     tl = json.loads(TL.read_text(encoding="utf-8-sig"))
     spec = json.loads(SPEC.read_text(encoding="utf-8-sig"))
-    clip = next(c for c in spec["clips"] if c["id"] == "TK1")
+    clip = CLIP_SPEC
     lines_spec = {l["id"]: l for l in clip["lines"]}
 
     total_s = tl[-1]["end"]
@@ -222,7 +240,10 @@ def main():
 
     # ---------- overlay chu ----------
     hook_img, hook_meta = build_hook_overlay()
-    card_img, card_meta = build_card_overlay()
+    card_list = []
+    for cd in CARDS:
+        ci, cm = build_card_overlay(cd["text"])
+        card_list.append({"img": ci, "meta": cm, "dur": cd["dur_s"], "after": cd["sau_cau"]})
     logo_img = build_logo()
 
     sub_imgs = []
@@ -251,11 +272,11 @@ def main():
             sub_imgs.append((t0, t1, img, meta))
     print("  phu de: %d chunk" % len(sub_imgs))
 
-    card_start = None
-    for l in tl:
-        if l["id"] == "TK1.01#6":
-            card_start = l["end"] + l["pause"]
-    card_end = card_start + CARD_DUR
+    for c in card_list:
+        c["start"] = next(l["end"] + l["pause"] for l in tl if l["id"] == c["after"])
+        c["end"] = c["start"] + c["dur"]
+    for a, b in zip(card_list, card_list[1:]):
+        assert a["end"] + CARD_FADE <= b["start"], "the overlay chong nhau"
 
     # ---------- render ----------
     cmd = [str(FF), "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
@@ -305,16 +326,18 @@ def main():
                 ov.putalpha(ov.getchannel("A").point(lambda v, ff=f: int(v * ff)))
                 apply_overlay(frame, ov, HOOK_REGION)
         # the overlay card
-        if card_start is not None and card_start <= t < card_end + CARD_FADE:
-            f = 1.0
-            if t < card_start + 0.2:
-                f = (t - card_start) / 0.2
-            elif t > card_end:
-                f = max(0.0, (card_end + CARD_FADE - t) / CARD_FADE)
-            if f > 0.01:
-                ov = card_img.copy()
-                ov.putalpha(ov.getchannel("A").point(lambda v, ff=f: int(v * ff)))
-                apply_overlay(frame, ov, CARD_REGION)
+        for c in card_list:
+            card_start, card_end = c["start"], c["end"]
+            if card_start <= t < card_end + CARD_FADE:
+                f = 1.0
+                if t < card_start + 0.2:
+                    f = (t - card_start) / 0.2
+                elif t > card_end:
+                    f = max(0.0, (card_end + CARD_FADE - t) / CARD_FADE)
+                if f > 0.01:
+                    ov = c["img"].copy()
+                    ov.putalpha(ov.getchannel("A").point(lambda v, ff=f: int(v * ff)))
+                    apply_overlay(frame, ov, CARD_REGION)
         # logo
         apply_overlay(frame, logo_img, LOGO_REGION)
 
@@ -325,11 +348,13 @@ def main():
     proc.wait()
     print("  -> %s" % OUT)
 
-    manifest = {"clip": "TK1", "fps": FPS, "size": [W, H],
+    manifest = {"clip": CLIP, "fps": FPS, "size": [W, H],
                 "duration_s": total_s, "nframes": nframes,
                 "safe_zone": {"x": [SX0, SX1], "y": [240, 1260]},
-                "hook": hook_meta, "card": card_meta,
-                "card_window": [card_start, card_end],
+                "hook": hook_meta, "hook_line": HOOK_LINE,
+                "card": card_list[0]["meta"],
+                "card_window": [card_list[0]["start"], card_list[0]["end"]],
+                "cards": [dict(c["meta"], window=[c["start"], c["end"]]) for c in card_list],
                 "logo_box": [LOGO_X0, LOGO_Y0, LOGO_X1, LOGO_Y1],
                 "subtitles": [{"id": m["id"], "t0": m["t0"], "t1": m["t1"],
                                "text": m["text"], "size": m["size"],

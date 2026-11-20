@@ -11,6 +11,7 @@ Nguon am thanh (chi dung nguon duoc phep cho TikTok):
 Muc ke hoach: BGM -26 dB khi co loi, nang -14 dB o nghi; luon co lop nen moi truong (A1).
 """
 import json
+import os
 import pathlib
 import re
 import subprocess
@@ -25,12 +26,16 @@ HERE = ROOT / ".work"
 FF = HERE / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 
 D = ROOT / "02_SAN_XUAT" / "TIKTOK" / "Tap01"
-MASTER = D / "TK1_master_audio.wav"
-BGM = ROOT / "assets" / "bgm" / "bgm_sub_drone.mp3"
-TL = D / "timeline_tk1.json"
-OUT_WAV = HERE / "_tk1_mix_raw.wav"
-OUT_NORM = HERE / "_tk1_mix_norm.wav"
-STATS = HERE / "_tk1_loudnorm.json"
+CLIP = os.environ.get("AE_CLIP", "TK1")      # L8: cau hinh clip nam trong SPEC
+N = CLIP[2:]
+_SPEC = json.loads((D / "SPEC_AUDIO_CLIP_TAP01.json").read_text(encoding="utf-8-sig"))
+CLIP_SPEC = next(c for c in _SPEC["clips"] if c["id"] == CLIP)
+MASTER = D / ("%s_master_audio.wav" % CLIP)
+BGM = ROOT / "assets" / "bgm" / CLIP_SPEC["bgm"]
+TL = D / ("timeline_tk%s.json" % N)
+OUT_WAV = HERE / ("_tk%s_mix_raw.wav" % N)
+OUT_NORM = HERE / ("_tk%s_mix_norm.wav" % N)
+STATS = HERE / ("_tk%s_loudnorm.json" % N)
 
 SR = 48000
 TARGET_I = -16.0
@@ -111,6 +116,65 @@ def recorder_click(n, sr):
     return out
 
 
+def metal_clank(n, sr, at):
+    """Tieng kim loai va cham (tong hop): thanh phan khong hoa am tat dan + transient."""
+    rng = np.random.default_rng(23)
+    L = int(1.1 * sr)
+    t = np.arange(L) / sr
+    x = np.zeros(L, dtype=np.float32)
+    for f, a, dk in ((820, 1.0, 7), (1330, 0.7, 9), (2170, 0.5, 11), (3410, 0.3, 14)):
+        x += (a * np.sin(2 * np.pi * f * t + rng.uniform(0, 6.28)) * np.exp(-dk * t)).astype(np.float32)
+    k = int(0.012 * sr)
+    x[:k] += rng.standard_normal(k).astype(np.float32) * np.exp(-np.linspace(0, 7, k)) * 0.8
+    out = np.zeros(n, dtype=np.float32)
+    i0 = int(at * sr)
+    seg = x[:max(0, min(L, n - i0))]
+    out[i0:i0 + len(seg)] = seg
+    out /= max(float(np.sqrt(np.mean(out ** 2))), 1e-9)
+    return out
+
+
+def paper_flip(n, sr, at):
+    """Tieng lat giay (tong hop): nhieu xao xac ngan loc dai 2-6 kHz, bao nhanh."""
+    rng = np.random.default_rng(31)
+    L = int(0.9 * sr)
+    x = np.zeros(L, dtype=np.float32)
+    for off, dur, amp in ((0.00, 0.22, 1.0), (0.28, 0.16, 0.6), (0.52, 0.10, 0.4)):
+        k = int(dur * sr)
+        nz = rng.standard_normal(k).astype(np.float32)
+        nz = nz - np.convolve(nz, np.ones(12, dtype=np.float32) / 12, mode="same")   # cao tan
+        env = np.sin(np.linspace(0, np.pi, k)) ** 2 * np.exp(-np.linspace(0, 3, k))
+        i0 = int(off * sr)
+        x[i0:i0 + k] += amp * nz * env
+    out = np.zeros(n, dtype=np.float32)
+    i0 = int(at * sr)
+    seg = x[:max(0, min(L, n - i0))]
+    out[i0:i0 + len(seg)] = seg
+    out /= max(float(np.sqrt(np.mean(out ** 2))), 1e-9)
+    return out
+
+
+def door_knock(n, sr, at):
+    """Tieng go cua (tong hop): 3 cu go tram, thanh phan 90-140 Hz tat nhanh + transient go."""
+    rng = np.random.default_rng(41)
+    L = int(1.4 * sr)
+    x = np.zeros(L, dtype=np.float32)
+    for off, f0, amp in ((0.00, 118, 1.0), (0.36, 104, 0.85), (0.74, 96, 0.7)):
+        k = int(0.28 * sr)
+        t = np.arange(k) / sr
+        body = np.sin(2 * np.pi * f0 * t) * np.exp(-t * 18) + 0.4 * np.sin(2 * np.pi * f0 * 2.3 * t) * np.exp(-t * 28)
+        c = int(0.008 * sr)
+        body[:c] += rng.standard_normal(c) * np.exp(-np.linspace(0, 6, c)) * 0.9
+        i0 = int(off * sr)
+        x[i0:i0 + k] += (amp * body).astype(np.float32)
+    out = np.zeros(n, dtype=np.float32)
+    i0 = int(at * sr)
+    seg = x[:max(0, min(L, n - i0))]
+    out[i0:i0 + len(seg)] = seg
+    out /= max(float(np.sqrt(np.mean(out ** 2))), 1e-9)
+    return out
+
+
 def main():
     tl = json.loads(TL.read_text(encoding="utf-8-sig"))
     voice, sr = read_wav(MASTER)
@@ -118,7 +182,7 @@ def main():
     print("  giong: %.2f s @ %d Hz" % (total, sr))
 
     # --- BGM -> mono 48k, lap cho duot dai ---
-    bgm_wav = HERE / "_tk1_bgm.wav"
+    bgm_wav = HERE / ("_tk%s_bgm.wav" % N)
     decode_to_wav(BGM, bgm_wav)
     bgm, _ = read_wav(bgm_wav)
     n = len(voice)
@@ -149,7 +213,17 @@ def main():
 
     # --- nen moi truong + SFX ---
     rt = room_tone(n, sr) * (10 ** ((voice_rms + ROOM_REL) / 20.0))
-    sfx = recorder_click(n, sr) * (10 ** ((voice_rms + SFX_REL) / 20.0))
+    if CLIP == "TK1":
+        sfx = recorder_click(n, sr) * (10 ** ((voice_rms + SFX_REL) / 20.0))
+        sfx_note = "tu tong hop (room tone + tick may ghi am)"
+    else:   # SFX theo SPEC: sfx_kind (clank|paper) tai dau cau sfx_at (hoac sfx_clank_at)
+        kind = CLIP_SPEC.get("sfx_kind", "clank")
+        at = next(l["start"] for l in tl
+                  if l["id"] == (CLIP_SPEC.get("sfx_at") or CLIP_SPEC["sfx_clank_at"]))
+        fn = {"paper": paper_flip, "knock": door_knock}.get(kind, metal_clank)
+        sfx = fn(n, sr, at) * (10 ** ((voice_rms + SFX_REL) / 20.0))
+        sfx_note = "tu tong hop (room tone + %s tai %.2f s)" % (
+            {"paper": "lat giay", "knock": "go cua"}.get(kind, "kim loai va cham"), at)
 
     mix = voice + bed_mix + rt + sfx
     peak = float(np.max(np.abs(mix)))
@@ -196,9 +270,9 @@ def main():
              "room_rel_db": ROOM_REL, "sfx_rel_db": SFX_REL,
              "voice_rms_db": round(voice_rms, 2), "bed_rms_db": round(bed_rms, 2),
              "duration_s": round(total, 3),
-             "sources": {"voice": "02_SAN_XUAT/TIKTOK/Tap01/TK1_master_audio.wav",
-                         "bgm": "assets/bgm/bgm_sub_drone.mp3 (MiniMax Music)",
-                         "sfx": "tu tong hop (room tone + tick may ghi am)"}}
+             "sources": {"voice": "02_SAN_XUAT/TIKTOK/Tap01/%s_master_audio.wav" % CLIP,
+                         "bgm": "assets/bgm/%s (MiniMax Music)" % CLIP_SPEC["bgm"],
+                         "sfx": sfx_note}}
     STATS.write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8")
     print("  -> %s" % OUT_NORM)
     print("  -> %s" % STATS)

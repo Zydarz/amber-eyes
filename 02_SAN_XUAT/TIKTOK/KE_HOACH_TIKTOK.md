@@ -409,3 +409,55 @@ Bảng theo dõi `02_SAN_XUAT/TIKTOK/BangTheoDoi_TikTok.csv`:
 - YouTube — thay đổi ngưỡng YPP từ 01/02/2027 (Shorts cần 10M view/90 ngày) — https://support.google.com/youtube/blog/451804019
 - MiniMax Audio — Music Creation Terms of Use (quyền thương mại phụ thuộc bề mặt dùng) — https://www.minimax.io/audio/doc/terms-of-service-music.html
 - TikTok Series (30 s–20 phút/clip, tối đa 80 clip) — https://uppbeat.io/blog/tiktok/how-to-make-a-series-on-tiktok
+
+---
+
+## 13. Trạng thái triển khai — bộ kịch bản clip theo tập (cập nhật 20/11/2026)
+
+### 13.1 Đã xong
+
+| Tập | Bộ kịch bản clip | Trạng thái |
+|---|---|---|
+| 01 | `02_SAN_XUAT/TIKTOK/Tap01/KE_HOACH_CLIP_TAP01.md` + `SPEC_AUDIO_CLIP_TAP01.json` + caption/mô tả dài | ✅ đã xuất bản (4 clip) |
+| **02** | `02_SAN_XUAT/TIKTOK/Tap02/KE_HOACH_CLIP_TAP02.md` + `SPEC_AUDIO_CLIP_TAP02.json` + `Caption_TK*.txt` + `MoTa_Dai_TK*.txt` | ✅ **kịch bản đã viết (5 clip, 53 câu)** — chờ người dùng duyệt rồi đọc giọng |
+
+**Cách sinh:** `.work/_build_tk_tap02.py` là **nguồn sự thật duy nhất** — sinh ra cả `.md` lẫn `.json` lẫn caption, nên không thể lệch nhau (G6). Sửa kịch bản thì sửa file đó rồi chạy lại, **đừng sửa tay file kết quả**.
+
+### 13.2 Bẫy mới phát hiện khi làm Tập 02 (bổ sung cho bảng mục 8)
+
+| # | Bẫy | Hệ quả | Cách chặn |
+|---|---|---|---|
+| **T13** | SFX Tập 02 có **hai bản cùng tên**: `assets/sfx/t2/*.wav` (YouTube Audio Library — **cấm**) và `assets/sfx/t2/_code/*.wav` (tự tổng hợp — **được**) | dùng nhầm bản cấm ⇒ mute/gỡ video | clip TikTok lấy SFX **từ `_code/`**; `qc_tiktok.py` kiểm provenance từng file |
+| **T14** | Bản 16:9 đã xử lý `assets/bg/t2_*.png` **đã bị dọn khỏi `assets/bg/`** — chỉ còn ảnh gốc `assets/bg/_raw/t2_*` (2752×1536) | pipeline cũ không tìm thấy nền | clip dọc dùng `tk02_*` riêng; nếu dùng phương án B blur-fill thì lấy trực tiếp từ `_raw/`; muốn chạy lại pipeline cũ thì `fix_backgrounds.py` |
+| **T15** | Tập 02 dùng **bộ giọng khác Tập 01** cho vai D và C (`D_NEW_subbass-husky_t02`, `C_NEW_alto-brisk_t03`) | clip lệch giọng với tập trên YouTube ⇒ nghe "hai người khác nhau" | clip **bắt buộc** dùng đúng refs trong `SPEC_AUDIO_CLIP_TAP02.json` (`ROLE_REF_MAP` của `.work/generate_higgs_prod_t02vi.py`) |
+| **T16** | Ước lượng thời lượng clip bằng cảm tính | cổng QC độ dài (45–95 s) bị lệch ⇒ phải cắt lại từ đầu | đo **tỉ lệ đọc thật** theo vai trên master tập (`.work/timeline_s_tXX.json`, timeline đo bằng ASR), rồi chiếu theo số từ **sau khi đổi số→chữ** (`vi_numbers`) |
+
+### 13.3 Cách ước lượng thời lượng clip (đã kiểm chứng, dùng lại cho tập sau)
+
+| Bước | Làm gì | Kết quả đo được (Tập 02) |
+|---|---|---|
+| 1 | Đọc `.work/timeline_s_tXX.json` (timeline **đo bằng ASR trên mp4 thành phẩm**) | 203 câu, tổng 1.346,5 s lời |
+| 2 | Đếm số từ **sau `vi_numbers()`** (đúng phần TTS đọc) | H 3,37 · D 3,73 · C 4,15 từ/giây |
+| 3 | Ước lượng từng câu = số từ × tỉ lệ của vai đó; cộng `pause_after` | 5 clip: 62,5–82,6 s |
+| 4 | **Kiểm chéo leave-one-out** trên 203 câu thật | MAE 11,0 %/câu · trung vị 6,7 % |
+| 5 | **Mô phỏng mức clip** (nhóm 13 câu × 2.000 lần) | MAE 3,7 % · p90 7,3 % ⇒ clip 80 s có sai số ±5,8 s |
+
+⇒ Số trên là **ước lượng có cơ sở đo**, không phải số đo thật của clip (chưa có WAV). Số đo thật lấy sau khi sinh WAV: cộng `dur` từng file + `pause_after`, rồi đo lại trên mp4 cuối (A7).
+
+### 13.4 Tự kiểm kịch bản trước khi đọc giọng
+
+`.work/_build_tk_tap02.py` tự chạy **14 mục kiểm** mỗi lần sinh lại (tất cả đang **ĐẠT**):
+
+`V9/A9.2 từ cấm` · `G1 (một thẻ <#0.35#>/câu, sau dấu ':', không '...')` · `G3/G4/G5 (emotion · speed · pitch=0)` · `V3 (số trên thẻ overlay phải có trong câu được trỏ tới)` · `hook ≤ 12 từ` · `caption ≤ 2.200 ký tự` · `hashtag 5–8 có #AmberEyes + #HosoCoThat` · `độ dài clip trong cổng 45–95 s` · `file nguồn của nền dọc có thật` · `K10 mỗi clip ≥ 1 chỉ dấu` · `K5 có câu cảnh báo không có chẩn đoán lâm sàng` · `K2 câu trích nguyên văn trong kịch bản tập` · `G6 .md/.json chung nguồn` · `L3 thời lượng có số đo thật làm cơ sở`.
+
+### 13.5 Việc còn lại cho Tập 02
+
+| # | Việc | Người |
+|---|---|---|
+| 1 | Duyệt văn bản lời dẫn `KE_HOACH_CLIP_TAP02.md` **trước khi đọc giọng** (L4) | Người dùng |
+| 2 | **Điền link YouTube Tập 02** — hiện là placeholder `[LINK_TẬP 02 — cần điền]`, không tự bịa (L2) | Người dùng |
+| 3 | Sửa **xung đột thương hiệu lốp xe** trong kịch bản tập: `1.17#1` ghi *Kumho*, `nguon_tham_khao.md` ghi *Yokohama IG20* (clip không nêu thương hiệu nào nên vẫn an toàn) | Người dùng |
+| 4 | Sinh **26 nền dọc `tk02_*`** (mục 7 của `KE_HOACH_CLIP_TAP02.md`) — hoặc chấp nhận phương án B | AI (cần duyệt FLUX) |
+| 5 | **Xác minh quyền thương mại BGM MiniMax** (mục 2.4) — vẫn chưa làm | Người dùng + AI |
+| 6 | Tạo **53 file WAV** theo `SPEC_AUDIO_CLIP_TAP02.json` + qua 7 cổng audio (mục 5.3) | Người dùng |
+| 7 | Dựng 5 clip 9:16 + chạy 14 cổng QC clip + `BaoCao_QC_TikTok_Tap02.md` | AI (sau khi được duyệt) |
