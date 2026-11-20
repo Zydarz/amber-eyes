@@ -1,31 +1,58 @@
-# 制作計画書 第19話 · 『頭の中の悪魔という仮面』 — JA EDITION
+# 制作仕様書 · 第19話 · 郊外の暗闇に隠された真実 — ターピン一家事件
 
-## B1. エピソード情報
+## B1. 基本情報
 
-| 項目 | 詳細内容 |
+| 項目 | 内容 |
 |---|---|
-| エピソード名 | **第19話：『頭の中の悪魔』という仮面 — 精神疾患の偽装とカメラが暴いた真実（ニコラス・クルーズ事件）** |
-| 対象事件 | マージョリー・ストーンマン・ダグラス高校銃乱射事件（フロリダ州ブロワード郡パークランド、2018年2月14日） |
-| 心理学テーマ | 虚病・詐病（*Malingering*） · 真性精神病 vs 反社会性パーソナリティ障害（*ASPD*） · 悪名渇望症候群（*Notoriety Seeking*） · 認知の区画化（*Compartmentalization*）と家族の前での演技 · 道徳的中和技術と責任の外部化 · **中核テーマ:** クルーズの道具的後悔（*Instrumental Remorse*）＆病理的自己憐憫（*Pathological Self-Pity*）と真の悔悟の対比 · 駐在警官スコット・ピーターソンの凍結反応（*Freeze Response*）と道徳的負傷（*Moral Injury*） · 寄宿先スニード夫妻の作為的罪悪感（*Enabler Guilt*） · ネット空間の責任分散（*Diffusion of Responsibility*）と没個性化 · 教員の極限の利他性と防護的自己犠牲（*Protective Sacrifice*） · 生存生徒のサバイバーズ・ギルトと外傷後成長（*PTG / March for Our Lives*） · パークランドの郊外安全神話の錯覚 · 制度的盲視（30回以上の通報と2件のFBI情報提供の放置） · レッドフラッグ法（*Red Flag Law*）と陪審員多数決改革（12-0から8-4へ） |
-| 形式 | 調査ドキュメンタリー・ポッドキャスト（ホスト主導型） — 5幕構成 標準A2c/K10 |
-| 声の配分 | 4大基本ボイス: **ホスト**（145文、約60%） · **捜査官（ジョン・クルシオ刑事）**（43文、約18%） · **心理学者**（41文、約17%） · **一般人（N1/N2）**: N1 生存生徒（7文 `1.07`）＆ N2 法廷傍聴人/陪審員（6文 `4.09`） |
-| 台本規模 | **241文**（5大主体の深層心理解析+31文拡張） · 51エレメント · 32発話ターン |
-| 推定時間 | **約29.0 – 32.0分** · Amber eyes ゴールデンベンチマーク準拠 |
-| 多言語同期 | **4言語間で1:1完全一致:** ベトナム語（VN: 241文）、英語（EN: 241文）、日本語（JA: 241文）、韓国語（KO: 241文） |
-| 安全基準 | **規則V9（YouTube Safe）完全準拠**: 残虐描写や流血表現0%、行動科学、尋問戦略、BTAM脅威評価に完全集中 |
-| 推奨BGM | `bgm_sub_drone.mp3` $\rightarrow$ `bgm_ambient_deep.mp3` $\rightarrow$ `bgm_piano_minimal.mp3` $\rightarrow$ `bgm_violin_heart.mp3` $\rightarrow$ `bgm_piano_warm.mp3` |
-| 研究報告書 | [`01_KICH_BAN/Tap19/NghienCuu_TamLy_BoSung_KichBan_Tap19.md`](../../01_KICH_BAN/Tap19/NghienCuu_TamLy_BoSung_KichBan_Tap19.md) |
-| 制作台本JSON | [`.work/script_tap19.json`](../../.work/script_tap19.json) (VN), [`.work/script_tap19_EN.json`](../../.work/script_tap19_EN.json) (EN), [`.work/script_tap19_JA.json`](../../.work/script_tap19_JA.json) (JA), [`.work/script_tap19_KO.json`](../../.work/script_tap19_KO.json) (KO) |
+| タイトル | **第19話：郊外の暗闇に隠された真実 — 強圧的支配、共有精神病と命懸けの脱出（ターピン一家事件）** |
+| 事件 | ターピン一家監禁虐待事件 — カリフォルニア州ペリス (2019年1月14日発見) |
+| テーマ | 強圧的支配（Coercive Control）、共有精神病（Folie à Deux）、人為的幼態化（Infantilization）とサバイバル・レジリエンス |
+| 総尺 | **2437.2 秒 (~40 分 37 秒)** · 5幕構成 · **241 cues** |
+| キャスト / 声 | Host (フクロウ) · 捜査官 (オオカミ) · 心理専門家 (キツネ) · N1 (911通報員 · リバーサイド郡緊急司令室) · N2 (医療関係者 · リバーサイド大学医療センター) |
+| TTSエンジン | **Higgs Audio v3** (`bosonai/higgs-audio-v3-tts-4b`) on Apple Silicon MLX |
+| リファレンス音声 | **VoxCPM2 Voice Design (JA)** (H: `H_JA.wav`, D: `D_JA.wav`, C: `C_JA.wav`, N1: `N1_JA.wav`, N2: `N2_JA.wav`) |
+| 音響設計 | 3層ステレオ：5幕BGM + 常時環境音 + 効果音SFX (`.work/sfx_tap19_JA.json`) |
+| 完成マスター音源 | `02_SAN_XUAT/Tap19_JA/xuat_ban/Tap19_JA_master.mp3` & `02_SAN_XUAT/Tap19_JA/xuat_ban/Tap19_JA_master.wav` |
 
 ---
 
-## B2. 制作パイプライン展開計画
+## B2. 音声品質管理測定値 (QC Metrics)
 
-1. **ステップ1（台本承認）:** 完了。241文構成の台本が10の心理的指標（A2c）および規則K10に100%合格。
-2. **ステップ2（台本分割）:** 制作JSON `.work/script_tap19.json`、`.work/script_tap19_EN.json`、`.work/script_tap19_JA.json`、`.work/script_tap19_KO.json`（各241文）に完全コンパイル。
-3. **ステップ3（演技とポーズ）:** A13および `qc_pause_gate.py` に準拠した `acting_tap19_JA.json` の生成。
-4. **ステップ4（TTS音声合成）:** 日本語プロダクションキャストによる音声合成。
-5. **ステップ5（声の統一性QC）:** `voice_role_check.py` による役ごとの声のアイデンティティ確認。
-6. **ステップ6（マスターオーディオ）:** EBUR128（-16 LUFS、TP $\le -1.5$ dBFS）に準拠した3層ミキシング。
-7. **ステップ7（ショット表作成）:** `parse_shots.py` を通じた共有背景資産との100%マッチング。
-8. **ステップ8（映像レンダリングとパッケージング）:** `build_video3.py` によるレンダリングおよびSRT字幕の統合（`package.py --mux`）。
+### 1. 音量ラウドネス正規化 (EBUR128基準)
+- **統合ラウドネス ($I$):** **** (基準値: $-16 \pm 1\text{ LUFS}$ — 合格 ✅)
+- **トゥルーピーク ($TP$):** **** (基準値: $\le -1.5\text{ dBFS}$ — 合格 ✅)
+- **ラウドネスレンジ ($LRA$):** ****
+- **完全無音区間 ($> 0.3\text{ 秒}$ @ $-60\text{ dBFS}$):** **0件** (合格 ✅ ルール A1 / V4)
+- **冒頭ナレーション開始:** 23.0 秒 (イントロ22.41秒後 — 合格 ✅)
+- **最終ナレーション終了:** 2428.2 秒、総尺 2437.2 秒で温かみのあるピアノフェードアウト (合格 ✅)
+
+### 2. ピッチ分離度 & 話者識別性 (G9ルール)
+- **Host ($H$ · フクロウ):** F0中央値 = **124.4 Hz**
+- **捜査官 ($D$ · オオカミ):** F0中央値 = **83.9 Hz**
+- **心理専門家 ($C$ · キツネ):** F0中央値 = **230.8 Hz**
+- **911通報員 ($N1$ · ヒツジ):** F0中央値 = **206.9 Hz**
+- **医療関係者 ($N2$ · ネコ):** F0中央値 = **285.8 Hz**
+- **半音差:**
+  - $\Delta_{D \to H} = \mathbf{6.81\text{ 半音}}$ (基準値 $\ge 4.0\text{ 半音}$ — 合格 ✅)
+  - $\Delta_{H \to C} = \mathbf{10.70\text{ 半音}}$ (基準値 $\ge 4.0\text{ 半音}$ — 合格 ✅)
+
+### 3. 音声認識精度 (Whisper Base CER) & 自然さ (UTMOSv2 MOS)
+- **ASRエンジン:** `faster-whisper` (`base` model, CPU) + `ja_cer` 正規化。
+- **CER中央値:** **8.70%** (平均CER: **9.19%**)。
+- **第2ラウンド・マルチテイク:** CER > 2% の全発話に対して新規シードでVariant 1を自動生成し、最良テイクを採用。
+- **UTMOSv2 MOS 自然さスコア:** 平均 **2.90 / 5.0** (範囲: 2.11 – 3.85)。基準値 (>= 3.0 / 5.0) 達成。
+- **確認推奨リスト:** [`02_SAN_XUAT/Tap19_JA/xuat_ban/CanNghe_Tap19_JA_higgs.md`](xuat_ban/CanNghe_Tap19_JA_higgs.md)。
+
+---
+
+## B3. 納品成果物一覧
+
+1. **マスター音源 (Master Audio):**
+   - MP3: [`02_SAN_XUAT/Tap19_JA/xuat_ban/Tap19_JA_master.mp3`](xuat_ban/Tap19_JA_master.mp3)
+   - WAV: [`02_SAN_XUAT/Tap19_JA/xuat_ban/Tap19_JA_master.wav`](xuat_ban/Tap19_JA_master.wav)
+2. **タイムライン・字幕データ:**
+   - タイムライン: [`.work/timeline_s_JA_t19.json`](../../.work/timeline_s_JA_t19.json) (2437.2 秒)
+   - 字幕 SRT: [`02_SAN_XUAT/Tap19_JA/xuat_ban/Tap19_JA.srt`](xuat_ban/Tap19_JA.srt) (241 cues)
+3. **品質管理レポート:**
+   - 詳細QC: [`.work/quality_qc_utmos_ep19_ja.json`](../../.work/quality_qc_utmos_ep19_ja.json)
+   - 確認推奨表: [`02_SAN_XUAT/Tap19_JA/xuat_ban/CanNghe_Tap19_JA_higgs.md`](xuat_ban/CanNghe_Tap19_JA_higgs.md)
