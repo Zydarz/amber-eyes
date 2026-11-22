@@ -1,0 +1,661 @@
+{
+  "episode": "10",
+  "lang": "EN",
+  "engine": "Higgs Audio v3 + VoxCPM2 reference voices",
+  "clips": {
+    "TK1": {
+      "title": "The Family Van Trap & The 9kg Soundproof Headbox",
+      "estimated_duration": 69.3,
+      "bgm": "bgm_cello_sad.mp3",
+      "sfx": [
+        "amb_highway_distant.wav (bed)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "line_id": "TK1.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "A young mother smiling with a baby in a van. Who could guess it was the start of a seven-year nightmare?",
+          "bg": "t10_blue_dodge_van_approaching",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "line_id": "TK1.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Inside the vehicle sat not a solitary suspicious man, but a youthful married couple roughly her own age.",
+          "bg": "t10_innocent_family_facade",
+          "motion": "push",
+          "source": "1.06#2"
+        },
+        {
+          "line_id": "TK1.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "The young wife smiled warmly, cradling an innocent infant daughter in her arms.",
+          "bg": "t10_innocent_family_facade",
+          "motion": "still",
+          "source": "1.06#3"
+        },
+        {
+          "line_id": "TK1.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "That idyllic and wholesome portrait of domestic life created a flawless “Halo Effect”, completely dismantling the young woman's defenses.",
+          "bg": "t10_stepping_into_abyss_trap",
+          "motion": "pan",
+          "source": "1.06#4"
+        },
+        {
+          "line_id": "TK1.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Colleen smiled and stepped inside the van, unaware that this single step crossed the threshold into a nightmare lasting more than seven years.",
+          "bg": "t10_knife_shadow_ambush",
+          "motion": "push",
+          "source": "1.06#6"
+        },
+        {
+          "line_id": "TK1.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "He forced a custom-crafted soundproof wooden box lined with thick foam over Colleen's head.",
+          "bg": "t10_soundproof_headbox_forensic",
+          "motion": "pull",
+          "source": "1.10#3"
+        },
+        {
+          "line_id": "TK1.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "This headbox weighed nearly twenty pounds, entirely severing all visual light and ambient sound from the surrounding world.",
+          "bg": "t10_soundproof_headbox_forensic",
+          "motion": "still",
+          "source": "1.10#4"
+        },
+        {
+          "line_id": "TK1.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "The fact that this box was constructed months in advance proved that this abduction was no impulsive act.",
+          "bg": "t10_isolated_red_bluff_cabin",
+          "motion": "pan",
+          "source": "1.10#6"
+        },
+        {
+          "line_id": "TK1.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "There, she was locked inside a cramped wooden box concealed beneath the waterbed in the couple's master bedroom.",
+          "bg": "t10_wooden_box_under_bed_shadow",
+          "motion": "push",
+          "source": "1.11#2"
+        },
+        {
+          "line_id": "TK1.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Episode ten of Amber Eyes. Watch the full documentary at the link in bio.",
+          "bg": "t10_amber_eyes_closing_dossier_colleen",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK2": {
+      "title": "The Phantom 'Company' & The Slave Contract",
+      "estimated_duration": 72.0,
+      "bgm": "bgm_ambient_deep.mp3",
+      "sfx": [
+        "amb_dark_drone.wav (bed)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "line_id": "TK2.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "A syndicate with thousands of agents nationwide, or a monstrous fabricated lie?",
+          "bg": "t10_the_company_shadow_syndicate",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "line_id": "TK2.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Hooker fabricated an elaborate nationwide mythology regarding a clandestine underground criminal syndicate named “The Company”.",
+          "bg": "t10_the_company_shadow_syndicate",
+          "motion": "pan",
+          "source": "2.08#1"
+        },
+        {
+          "line_id": "TK2.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "He asserted to Colleen that this syndicate maintained thousands of covert operatives embedded everywhere, from police departments to California state agencies.",
+          "bg": "t10_family_home_under_surveillance",
+          "motion": "still",
+          "source": "2.08#2"
+        },
+        {
+          "line_id": "TK2.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Should she attempt flight or disclose her predicament to anyone, the organization would hunt down and retaliate against her parents and siblings.",
+          "bg": "t10_family_home_under_surveillance",
+          "motion": "push",
+          "source": "2.08#4"
+        },
+        {
+          "line_id": "TK2.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "The document was drafted with quasi-legal terminology, deceptively reframing abduction and captivity into voluntary contractual servitude.",
+          "bg": "t10_written_slave_contract_quill",
+          "motion": "pull",
+          "source": "2.08#6"
+        },
+        {
+          "line_id": "TK2.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Hooker coerced Colleen into signing a formal written “Slave Contract”, compelling her to surrender all human rights and swear absolute subservience.",
+          "bg": "t10_written_slave_contract_quill",
+          "motion": "still",
+          "source": "2.08#7"
+        },
+        {
+          "line_id": "TK2.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "To a young woman severed from the outside world, that grotesque document was far more than meaningless paper.",
+          "bg": "t10_darkness_as_false_shelter",
+          "motion": "pan",
+          "source": "2.09#1"
+        },
+        {
+          "line_id": "TK2.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Terror of “The Company” became a reality far more impenetrable than any iron bars or concrete walls.",
+          "bg": "t10_coffin_box_claustrophobia",
+          "motion": "push",
+          "source": "2.09#3"
+        },
+        {
+          "line_id": "TK2.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Within her distorted cognition, the wooden box transformed into the single secure sanctuary that kept her family alive.",
+          "bg": "t10_darkness_as_false_shelter",
+          "motion": "still",
+          "source": "2.10#5"
+        },
+        {
+          "line_id": "TK2.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Episode ten of Amber Eyes. Watch the full documentary at the link in bio.",
+          "bg": "t10_amber_eyes_closing_dossier_colleen",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK3": {
+      "title": "The Open Door Paradox & Learned Helplessness",
+      "estimated_duration": 77.7,
+      "bgm": "bgm_piano_minimal.mp3",
+      "sfx": [
+        "amb_room_silence.wav (bed)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "line_id": "TK3.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Her front door wide open after four years. Why didn't she run, but obediently returned to the box?",
+          "bg": "t10_open_door_paradox_dilemma",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "line_id": "TK3.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Why would a human being refrain from fleeing when the cage door stood completely open?",
+          "bg": "t10_open_door_paradox_dilemma",
+          "motion": "still",
+          "source": "3.06#1"
+        },
+        {
+          "line_id": "TK3.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Why would a victim willingly return to the very wooden box that had stolen her youth?",
+          "bg": "t10_packed_suitcase_return_car",
+          "motion": "pan",
+          "source": "3.06#2"
+        },
+        {
+          "line_id": "TK3.01#4",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "The key to unlocking this paradox lies in the landmark psychological doctrine of “Learned Helplessness”, discovered by Professor Martin Seligman.",
+          "bg": "t10_martin_seligman_learned_helplessness",
+          "motion": "push",
+          "source": "3.07#1"
+        },
+        {
+          "line_id": "TK3.01#5",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "In his research, Seligman demonstrated that when an organism experiences prolonged suffering where early resistance proves entirely futile, the nervous system learns to surrender.",
+          "bg": "t10_open_cage_motionless_silhouette",
+          "motion": "pull",
+          "source": "3.07#2"
+        },
+        {
+          "line_id": "TK3.01#6",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Once learned helplessness embeds itself into the subconscious, the victim reflexively rejects opportunities to rescue themselves.",
+          "bg": "t10_open_cage_motionless_silhouette",
+          "motion": "still",
+          "source": "3.07#5"
+        },
+        {
+          "line_id": "TK3.01#7",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "For Colleen, the family visit was perceived as a treacherous “Loyalty Test” engineered by “The Company”.",
+          "bg": "t10_window_sniper_paranoia_shadow",
+          "motion": "pan",
+          "source": "3.07#9"
+        },
+        {
+          "line_id": "TK3.01#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Silence and obediently returning to the wooden box was seen as the ultimate sacrifice to preserve her family's lives.",
+          "bg": "t10_invisible_timber_prison_mind",
+          "motion": "push",
+          "source": "3.07#11"
+        },
+        {
+          "line_id": "TK3.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Alongside learned helplessness, a second psychological mechanism binding Colleen throughout those years was extreme “Trauma Bonding”.",
+          "bg": "t10_trauma_bonding_bread_and_whip",
+          "motion": "pull",
+          "source": "3.08#1"
+        },
+        {
+          "line_id": "TK3.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "In the absolute abyss of deprivation, those fleeting crumbs of kindness transformed the captor into the sole “Savior” upon whom survival depended.",
+          "bg": "t10_captor_as_sole_savior_complex",
+          "motion": "still",
+          "source": "3.08#8"
+        },
+        {
+          "line_id": "TK3.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Episode ten of Amber Eyes. Watch the full documentary at the link in bio.",
+          "bg": "t10_amber_eyes_closing_dossier_colleen",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK4": {
+      "title": "Janice Hooker's Awakening & The Broken Silence",
+      "estimated_duration": 84.2,
+      "bgm": "bgm_violin_heart.mp3",
+      "sfx": [
+        "amb_wood_creak.wav (bed)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "line_id": "TK4.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Seven years an accomplice above the waterbed. What finally shattered her silence?",
+          "bg": "t10_waterbed_crushing_weight",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "line_id": "TK4.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "The person who fractured that seemingly impenetrable fortress was none other than Janice Hooker, Cameron's wife and accomplice.",
+          "bg": "t10_janice_hooker_moral_turmoil",
+          "motion": "push",
+          "source": "4.03#1"
+        },
+        {
+          "line_id": "TK4.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "However, when Cameron began voicing ambitions to kidnap a second young woman to expand his twisted fantasy, Janice was seized by overwhelming panic.",
+          "bg": "t10_second_victim_shadow_threat",
+          "motion": "pan",
+          "source": "4.03#3"
+        },
+        {
+          "line_id": "TK4.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "She realized his predatory escalation would never cease, and a second captive would permanently transform her home into an inescapable house of horrors.",
+          "bg": "t10_second_victim_shadow_threat",
+          "motion": "still",
+          "source": "4.03#5"
+        },
+        {
+          "line_id": "TK4.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Janice sought out a local church pastor to unburden her conscience and seek spiritual guidance.",
+          "bg": "t10_church_pastor_confession_shadow",
+          "motion": "push",
+          "source": "4.03#9"
+        },
+        {
+          "line_id": "TK4.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "The pastor urged Janice to confront the truth and immediately terminate her complicity before it was too late.",
+          "bg": "t10_church_pastor_confession_shadow",
+          "motion": "still",
+          "source": "4.04#1"
+        },
+        {
+          "line_id": "TK4.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Janice realized that continuing silence would bury not only Colleen, but the future of her own young daughters in an abyss of criminality.",
+          "bg": "t10_seventh_year_toddler_toys_shadow",
+          "motion": "pull",
+          "source": "4.04#4"
+        },
+        {
+          "line_id": "TK4.01#8",
+          "role": "N2",
+          "emotion": "fearful",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "But seeing that ravenous predatory hunger in his eyes, watching my two toddler daughters playing innocently on the rug, a cold truth seized me: This monster will never stop.",
+          "bg": "t10_janice_hooker_moral_turmoil",
+          "motion": "pan",
+          "source": "4.05#4"
+        },
+        {
+          "line_id": "TK4.01#9",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "I held Colleen's hand and spoke the truth: “Cameron does not belong to any Company, it was all his twisted lie to keep you enslaved.”",
+          "bg": "t10_truth_revealed_shattered_phantom",
+          "motion": "push",
+          "source": "4.05#8"
+        },
+        {
+          "line_id": "TK4.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "The monolithic terror of “The Company” dissolved in a heartbeat, restoring her innate will to survive.",
+          "bg": "t10_truth_revealed_shattered_phantom",
+          "motion": "still",
+          "source": "4.07#2"
+        },
+        {
+          "line_id": "TK4.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Episode ten of Amber Eyes. Watch the full documentary at the link in bio.",
+          "bg": "t10_amber_eyes_closing_dossier_colleen",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK5": {
+      "title": "4 Survival Red Flags Against Coercive Predators",
+      "estimated_duration": 79.9,
+      "bgm": "bgm_piano_warm.mp3",
+      "sfx": [
+        "amb_morning_breeze.wav (bed)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "line_id": "TK5.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "The strongest prison is never made of wood, but the feeling of utter helplessness in your mind.",
+          "bg": "t10_breaking_invisible_chains_dawn",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "line_id": "TK5.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "To safeguard ourselves and those we cherish against predatory manipulation, Amber eyes distills four survival red flags from this history, grounded in Gavin de Becker's “The Gift of Fear”.",
+          "bg": "t10_fbi_academy_profiling_archive",
+          "motion": "still",
+          "source": "5.05#1"
+        },
+        {
+          "line_id": "TK5.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "First red flag: Beware the “Halo Effect” and seemingly harmless veneers.",
+          "bg": "t10_redflag1_trojan_innocence_trap",
+          "motion": "pan",
+          "source": "5.05#2"
+        },
+        {
+          "line_id": "TK5.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "The most dangerous manipulators rarely project overt hostility, masking themselves behind warm families, innocent children, or excessive courtesy to disarm vigilance.",
+          "bg": "t10_redflag1_trojan_innocence_trap",
+          "motion": "still",
+          "source": "5.05#3"
+        },
+        {
+          "line_id": "TK5.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Second red flag: Recognize tactics of spatial isolation and information starvation.",
+          "bg": "t10_redflag2_spatial_isolation_grid",
+          "motion": "push",
+          "source": "5.05#4"
+        },
+        {
+          "line_id": "TK5.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Every toxic relationship begins by severing connections with loved ones, friends, and outside sources, establishing the manipulator as the sole arbiter of reality.",
+          "bg": "t10_redflag2_spatial_isolation_grid",
+          "motion": "still",
+          "source": "5.05#5"
+        },
+        {
+          "line_id": "TK5.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Third red flag: Maintain clarity when facing “Imaginary Enemies” and fabricated threats.",
+          "bg": "t10_redflag3_phantom_enemy_mirror",
+          "motion": "pull",
+          "source": "5.05#6"
+        },
+        {
+          "line_id": "TK5.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Manipulators invent phantom perils to instill paralyzing fear, positioning themselves as the sole protector you must obey.",
+          "bg": "t10_redflag3_phantom_enemy_mirror",
+          "motion": "still",
+          "source": "5.05#7"
+        },
+        {
+          "line_id": "TK5.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Fourth red flag: Shatter “Learned Helplessness” within your own consciousness.",
+          "bg": "t10_redflag4_breaking_helplessness_sparks",
+          "motion": "push",
+          "source": "5.05#8"
+        },
+        {
+          "line_id": "TK5.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "The most formidable prison is never a wooden box under a bed, but the surrendered belief that one is powerless before adversity.",
+          "bg": "t10_breaking_invisible_chains_dawn",
+          "motion": "pan",
+          "source": "5.05#10"
+        },
+        {
+          "line_id": "TK5.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "True freedom is not merely stepping out of a dark room, but having the courage to break the invisible shackles that manipulate the human soul.",
+          "bg": "t10_breaking_invisible_chains_dawn",
+          "motion": "still",
+          "source": "5.05#12"
+        },
+        {
+          "line_id": "TK5.01#12",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Episode ten of Amber Eyes. Watch the full documentary at the link in bio.",
+          "bg": "t10_amber_eyes_closing_dossier_colleen",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1494 @@
+[
+ {
+  "id": "1.01",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "Tiếng Dark Ambient âm u cất lên chậm rãi giữa không gian ngột ngạt, hòa cùng tiếng nhịp tim đập chậm và tiếng tích tắc đồng hồ kim loại lạnh lẽo, tạo cảm giác bất an sâu sắc."
+ },
+ {
+  "id": "1.02",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "chậm rãi, giọng trầm ấm gợi mở không gian lịch sử",
+  "text": "Mỗi góc tối của xã hội luôn ẩn chứa những vết nứt vô hình mà mắt thường của chúng ta không thể nào nhận biết. Giữa vùng đất Tembisa sầm uất của tỉnh Gauteng, Nam Phi, một bóng ma tội ác đã âm thầm bao trùm suốt hơn sáu năm ròng rã. Người dân nơi đây vốn quen thuộc với những vất vả thường nhật và luôn tìm kiếm sự che chở từ những người khoác trên mình sắc phục bảo vệ pháp luật. Sắc phục màu xanh của lực lượng cảnh sát từ lâu đã trở thành biểu tượng của niềm tin, sự an toàn và công lý tối thượng trong tâm thức cộng đồng. Người ta tin rằng những ai đeo trên ngực chiếc huy hiệu cảnh sát đều là những người gác cổng đáng tin cậy sẵn sàng bảo vệ sinh mạng cho nhân dân. Thế nhưng, chính niềm tin mặc định đầy ngây thơ ấy đã tạo nên một “Điểm mù xã hội” vô cùng nguy hiểm. Tại những khu phố nghèo ven đô như Tembisa, người dân thường sống nương tựa vào nhau bằng tình làng nghĩa xóm và niềm tin trọn vẹn vào cơ quan hành pháp. Sự giản dị chất phác của những gia đình lao động đã dệt nên một tấm rèm bình yên nhưng vô tình làm tê liệt phản xạ cảnh giác tự nhiên trước những kẻ săn mồi đội lốt đồng loại. Ai cũng tin rằng hiểm họa chỉ đến từ những băng đảng tội phạm đường phố hay những gã cướp giật vô danh trong bóng tối. Không một ai có thể ngờ rằng, mối đe dọa hủy diệt lớn nhất lại đang ẩn mình ngay sau bàn trực ban của một đồn cảnh sát địa phương. Chính sự mất cảnh giác tập thể ấy đã biến vùng đất này thành một ngư trường hoàn hảo cho lòng tham không đáy và những toan tính đẫm máu. Một trong những chuỗi án mạng trục lợi bảo hiểm chấn động nhất lịch sử tư pháp Nam Phi đã bắt đầu từ chính sự che giấu hoàn hảo của chiếc huy hiệu ấy.",
+  "sentences": [
+   {
+    "id": "1.02#1",
+    "text": "Mỗi góc tối của xã hội luôn ẩn chứa những vết nứt vô hình mà mắt thường của chúng ta không thể nào nhận biết.",
+    "words": 25
+   },
+   {
+    "id": "1.02#2",
+    "text": "Giữa vùng đất Tembisa sầm uất của tỉnh Gauteng, Nam Phi, một bóng ma tội ác đã âm thầm bao trùm suốt hơn sáu năm ròng rã.",
+    "words": 27
+   },
+   {
+    "id": "1.02#3",
+    "text": "Người dân nơi đây vốn quen thuộc với những vất vả thường nhật và luôn tìm kiếm sự che chở từ những người khoác trên mình sắc phục bảo vệ pháp luật.",
+    "words": 32
+   },
+   {
+    "id": "1.02#4",
+    "text": "Sắc phục màu xanh của lực lượng cảnh sát từ lâu đã trở thành biểu tượng của niềm tin, sự an toàn và công lý tối thượng trong tâm thức cộng đồng.",
+    "words": 32
+   },
+   {
+    "id": "1.02#5",
+    "text": "Người ta tin rằng những ai đeo trên ngực chiếc huy hiệu cảnh sát đều là những người gác cổng đáng tin cậy sẵn sàng bảo vệ sinh mạng cho nhân dân.",
+    "words": 32
+   },
+   {
+    "id": "1.02#6",
+    "text": "Thế nhưng, chính niềm tin mặc định đầy ngây thơ ấy đã tạo nên một “Điểm mù xã hội” vô cùng nguy hiểm.",
+    "words": 23
+   },
+   {
+    "id": "1.02#7",
+    "text": "Tại những khu phố nghèo ven đô như Tembisa, người dân thường sống nương tựa vào nhau bằng tình làng nghĩa xóm và niềm tin trọn vẹn vào cơ quan hành pháp.",
+    "words": 32
+   },
+   {
+    "id": "1.02#8",
+    "text": "Sự giản dị chất phác của những gia đình lao động đã dệt nên một tấm rèm bình yên nhưng vô tình làm tê liệt phản xạ cảnh giác tự nhiên trước những kẻ săn mồi đội lốt đồng loại.",
+    "words": 40
+   },
+   {
+    "id": "1.02#9",
+    "text": "Ai cũng tin rằng hiểm họa chỉ đến từ những băng đảng tội phạm đường phố hay những gã cướp giật vô danh trong bóng tối.",
+    "words": 26
+   },
+   {
+    "id": "1.02#10",
+    "text": "Không một ai có thể ngờ rằng, mối đe dọa hủy diệt lớn nhất lại đang ẩn mình ngay sau bàn trực ban của một đồn cảnh sát địa phương.",
+    "words": 30
+   },
+   {
+    "id": "1.02#11",
+    "text": "Chính sự mất cảnh giác tập thể ấy đã biến vùng đất này thành một ngư trường hoàn hảo cho lòng tham không đáy và những toan tính đẫm máu.",
+    "words": 30
+   },
+   {
+    "id": "1.02#12",
+    "text": "Một trong những chuỗi án mạng trục lợi bảo hiểm chấn động nhất lịch sử tư pháp Nam Phi đã bắt đầu từ chính sự che giấu hoàn hảo của chiếc huy hiệu ấy.",
+    "words": 34
+   }
+  ]
+ },
+ {
+  "id": "1.03",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "Tiếng còi xe cảnh sát từ xa, tiếng máy bộ đàm rè nhẹ, tiếng lật giấy tờ hồ sơ vội vã."
+ },
+ {
+  "id": "1.04",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "chuyển giọng u tối, báo hiệu tai ương",
+  "text": "Vào tháng ba năm 2012, một thi thể nam giới được tìm thấy tại khu vực hẻo lánh thuộc Olifantsfontein. Nạn nhân được xác định là Madala Witness Homu, một người lao động hiền lành và là em họ của một nữ cảnh sát đang công tác tại đồn Tembisa South. Cái chết bất thường với nhiều dấu vết bạo lực của người đàn ông nghèo khó ban đầu chỉ được xem như một vụ ẩu đả ngẫu nhiên nơi ngoại ô phức tạp. Thế nhưng, điều kỳ lạ là ngay sau cái chết của người em họ, nữ trung sĩ Nomia Rosemary Ndlovu đã nhanh chóng xuất hiện tại hiện trường với tư cách người nhà. Bà ta tỏ ra đau buồn tột độ, chủ động hỗ trợ cơ quan chức năng hoàn tất các thủ tục pháp y và giấy tờ khai tử. Không ai mảy may nghi ngờ rằng phía sau những giọt nước mắt xót thương ấy là một giao dịch tài chính ngầm vừa hoàn tất việc thu hoạch lợi nhuận.",
+  "sentences": [
+   {
+    "id": "1.04#1",
+    "text": "Vào tháng ba năm 2012, một thi thể nam giới được tìm thấy tại khu vực hẻo lánh thuộc Olifantsfontein.",
+    "words": 20
+   },
+   {
+    "id": "1.04#2",
+    "text": "Nạn nhân được xác định là Madala Witness Homu, một người lao động hiền lành và là em họ của một nữ cảnh sát đang công tác tại đồn Tembisa South.",
+    "words": 31
+   },
+   {
+    "id": "1.04#3",
+    "text": "Cái chết bất thường với nhiều dấu vết bạo lực của người đàn ông nghèo khó ban đầu chỉ được xem như một vụ ẩu đả ngẫu nhiên nơi ngoại ô phức tạp.",
+    "words": 33
+   },
+   {
+    "id": "1.04#4",
+    "text": "Thế nhưng, điều kỳ lạ là ngay sau cái chết của người em họ, nữ trung sĩ Nomia Rosemary Ndlovu đã nhanh chóng xuất hiện tại hiện trường với tư cách người nhà.",
+    "words": 33
+   },
+   {
+    "id": "1.04#5",
+    "text": "Bà ta tỏ ra đau buồn tột độ, chủ động hỗ trợ cơ quan chức năng hoàn tất các thủ tục pháp y và giấy tờ khai tử.",
+    "words": 28
+   },
+   {
+    "id": "1.04#6",
+    "text": "Không ai mảy may nghi ngờ rằng phía sau những giọt nước mắt xót thương ấy là một giao dịch tài chính ngầm vừa hoàn tất việc thu hoạch lợi nhuận.",
+    "words": 31
+   }
+  ]
+ },
+ {
+  "id": "1.05",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "Tiếng còi xe cứu thương vang vọng xa xăm, tiếng máy in hóa đơn ngân hàng kêu lạch cạch."
+ },
+ {
+  "id": "1.06",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tiếp tục mạch tự sự nghẹt thở",
+  "text": "Chỉ một thời gian ngắn sau khi nạn nhân được an táng, các công ty bảo hiểm đã chi trả một khoản tiền tang lễ khổng lồ hơn một trăm ba mươi nghìn Rand cho người thụ hưởng duy nhất. Người đứng tên nhận trọn vẹn số tiền ấy không ai khác chính là người chị họ cảnh sát mẫu mực Nomia Rosemary Ndlovu. Trong cộng đồng lao động nghèo, số tiền ấy là cả một gia tài mà một người bình thường phải tích lũy trong nhiều năm ròng rã. Thay vì dùng số tiền ấy để chăm lo cho gia đình người đã khuất, nữ cảnh sát lại lập tức lao vào những canh bạc thâu đêm tại các sòng bài sang trọng. Vị ngọt ngào của dòng tiền bẩn kiếm được quá dễ dàng đã đánh thức con quái vật tham lam vốn đang ngủ say trong tâm trí bà ta. Đó không phải là một sự việc bộc phát đơn lẻ, mà chính là phát súng mở màn cho một chuỗi săn lùng mạng sống của chính những người mang cùng dòng máu.",
+  "sentences": [
+   {
+    "id": "1.06#1",
+    "text": "Chỉ một thời gian ngắn sau khi nạn nhân được an táng, các công ty bảo hiểm đã chi trả một khoản tiền tang lễ khổng lồ hơn một trăm ba mươi nghìn Rand cho người thụ hưởng duy nhất.",
+    "words": 40
+   },
+   {
+    "id": "1.06#2",
+    "text": "Người đứng tên nhận trọn vẹn số tiền ấy không ai khác chính là người chị họ cảnh sát mẫu mực Nomia Rosemary Ndlovu.",
+    "words": 24
+   },
+   {
+    "id": "1.06#3",
+    "text": "Trong cộng đồng lao động nghèo, số tiền ấy là cả một gia tài mà một người bình thường phải tích lũy trong nhiều năm ròng rã.",
+    "words": 27
+   },
+   {
+    "id": "1.06#4",
+    "text": "Thay vì dùng số tiền ấy để chăm lo cho gia đình người đã khuất, nữ cảnh sát lại lập tức lao vào những canh bạc thâu đêm tại các sòng bài sang trọng.",
+    "words": 34
+   },
+   {
+    "id": "1.06#5",
+    "text": "Vị ngọt ngào của dòng tiền bẩn kiếm được quá dễ dàng đã đánh thức con quái vật tham lam vốn đang ngủ say trong tâm trí bà ta.",
+    "words": 29
+   },
+   {
+    "id": "1.06#6",
+    "text": "Đó không phải là một sự việc bộc phát đơn lẻ, mà chính là phát súng mở màn cho một chuỗi săn lùng mạng sống của chính những người mang cùng dòng máu.",
+    "words": 33
+   }
+  ]
+ },
+ {
+  "id": "1.07",
+  "act": 1,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "N1: Đồng nghiệp tại Đồn Tembisa South, giọng nữ trẻ hoang mang, bàng hoàng",
+  "text": "Hãy hình dung cảm giác bàng hoàng của toàn bộ cán bộ chiến sĩ tại trạm cảnh sát Tembisa South khi sự việc bắt đầu phát lộ. Rosemary từng là một đồng đội mẫn cán, luôn nở nụ cười hòa nhã và rất nhiệt tình giúp đỡ mọi người trong ca trực. Chị ấy thường xuyên xung phong giải quyết các hồ sơ tử tuất phức tạp và luôn tỏ ra thấu hiểu nỗi đau của thân nhân người bị nạn. Mỗi khi nghe tin người thân trong gia đình chị ấy lần lượt qua đời vì những tai nạn bất ngờ, chúng tôi đều quyên góp và chia buồn sâu sắc. Chúng tôi thực sự không thể nào ngờ rằng đằng sau chiếc áo đồng phục nghiêm trang ấy lại là một tâm địa tàn độc đến mức lạnh sống lưng.",
+  "sentences": [
+   {
+    "id": "1.07#1",
+    "text": "Hãy hình dung cảm giác bàng hoàng của toàn bộ cán bộ chiến sĩ tại trạm cảnh sát Tembisa South khi sự việc bắt đầu phát lộ.",
+    "words": 27
+   },
+   {
+    "id": "1.07#2",
+    "text": "Rosemary từng là một đồng đội mẫn cán, luôn nở nụ cười hòa nhã và rất nhiệt tình giúp đỡ mọi người trong ca trực.",
+    "words": 25
+   },
+   {
+    "id": "1.07#3",
+    "text": "Chị ấy thường xuyên xung phong giải quyết các hồ sơ tử tuất phức tạp và luôn tỏ ra thấu hiểu nỗi đau của thân nhân người bị nạn.",
+    "words": 29
+   },
+   {
+    "id": "1.07#4",
+    "text": "Mỗi khi nghe tin người thân trong gia đình chị ấy lần lượt qua đời vì những tai nạn bất ngờ, chúng tôi đều quyên góp và chia buồn sâu sắc.",
+    "words": 31
+   },
+   {
+    "id": "1.07#5",
+    "text": "Chúng tôi thực sự không thể nào ngờ rằng đằng sau chiếc áo đồng phục nghiêm trang ấy lại là một tâm địa tàn độc đến mức lạnh sống lưng.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "1.08",
+  "act": 1,
+  "kind": "SFX",
+  "desc": "Tiếng gõ bàn phím máy tính đồn cảnh sát, tiếng còi xe tuần tra xa xăm."
+ },
+ {
+  "id": "1.09",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "trầm giọng",
+  "text": "Sự ra đi liên tiếp của những người thân trong gia đình Ndlovu trong những năm tiếp theo đã bắt đầu để lại những vết gợn bất thường. Tháng sáu năm 2013, cô em gái ruột Audrey Ndlovu được phát hiện tử vong ngay trong phòng ngủ sau khi uống một cốc nước trà lạ. Tiếp đó, các cháu ruột là Brilliant Mashego, Mayeni Mashaba và Zanele Motha cũng lần lượt thiệt mạng vì những nguyên nhân đầy uẩn khúc. Mỗi cái chết đều kéo theo một hồ sơ yêu cầu bồi thường bảo hiểm nhân thọ và bảo hiểm tang lễ được nộp lên với tốc độ đáng kinh ngạc. Một đám mây đen chết chóc bao trùm lấy dòng họ Ndlovu, trong khi tài khoản của nữ cảnh sát liên tục nhận về những món tiền kếch xù.",
+  "sentences": [
+   {
+    "id": "1.09#1",
+    "text": "Sự ra đi liên tiếp của những người thân trong gia đình Ndlovu trong những năm tiếp theo đã bắt đầu để lại những vết gợn bất thường.",
+    "words": 28
+   },
+   {
+    "id": "1.09#2",
+    "text": "Tháng sáu năm 2013, cô em gái ruột Audrey Ndlovu được phát hiện tử vong ngay trong phòng ngủ sau khi uống một cốc nước trà lạ.",
+    "words": 27
+   },
+   {
+    "id": "1.09#3",
+    "text": "Tiếp đó, các cháu ruột là Brilliant Mashego, Mayeni Mashaba và Zanele Motha cũng lần lượt thiệt mạng vì những nguyên nhân đầy uẩn khúc.",
+    "words": 25
+   },
+   {
+    "id": "1.09#4",
+    "text": "Mỗi cái chết đều kéo theo một hồ sơ yêu cầu bồi thường bảo hiểm nhân thọ và bảo hiểm tang lễ được nộp lên với tốc độ đáng kinh ngạc.",
+    "words": 31
+   },
+   {
+    "id": "1.09#5",
+    "text": "Một đám mây đen chết chóc bao trùm lấy dòng họ Ndlovu, trong khi tài khoản của nữ cảnh sát liên tục nhận về những món tiền kếch xù.",
+    "words": 29
+   }
+  ]
+ },
+ {
+  "id": "1.10",
+  "act": 1,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "giọng nam sắc bén, tái hiện không gian nghiệp vụ",
+  "text": "Nghi phạm là Trung sĩ Nomia Rosemary Ndlovu, sinh năm 1978, công tác lâu năm tại lực lượng cảnh sát Nam Phi. Ngay từ những vụ việc đầu tiên, đối tượng đã bộc lộ một phương thức gây án mang tính toán kỹ lưỡng dựa trên sự am hiểu sâu sắc về lỗ hổng hành chính. Bà ta biết chính xác các hãng bảo hiểm nhân thọ thẩm định hồ sơ lỏng lẻo như thế nào đối với các gói bảo hiểm tang lễ giá trị vừa phải. Bà ta âm thầm đứng tên mua hàng chục hợp đồng bảo hiểm cho cùng một nạn nhân tại nhiều công ty tài chính khác nhau mà không thông báo cho người thân. Khi nạn nhân tử vong, với tư cách là một sĩ quan cảnh sát, bà ta dễ dàng tiếp cận hiện trường và thúc đẩy việc cấp giấy chứng tử nhanh chóng. Tổng số tiền mà đối tượng đã chiếm đoạt qua các hợp đồng bảo hiểm đẫm máu này lên tới hơn một phẩy bốn triệu Rand. Đây không phải là hành vi của một kẻ quẫn trí, mà là một cỗ máy kiếm tiền máu lạnh hoạt động dưới sự bảo kê của chính quyền lực hành pháp.",
+  "sentences": [
+   {
+    "id": "1.10#1",
+    "text": "Nghi phạm là Trung sĩ Nomia Rosemary Ndlovu, sinh năm 1978, công tác lâu năm tại lực lượng cảnh sát Nam Phi.",
+    "words": 22
+   },
+   {
+    "id": "1.10#2",
+    "text": "Ngay từ những vụ việc đầu tiên, đối tượng đã bộc lộ một phương thức gây án mang tính toán kỹ lưỡng dựa trên sự am hiểu sâu sắc về lỗ hổng hành chính.",
+    "words": 34
+   },
+   {
+    "id": "1.10#3",
+    "text": "Bà ta biết chính xác các hãng bảo hiểm nhân thọ thẩm định hồ sơ lỏng lẻo như thế nào đối với các gói bảo hiểm tang lễ giá trị vừa phải.",
+    "words": 32
+   },
+   {
+    "id": "1.10#4",
+    "text": "Bà ta âm thầm đứng tên mua hàng chục hợp đồng bảo hiểm cho cùng một nạn nhân tại nhiều công ty tài chính khác nhau mà không thông báo cho người thân.",
+    "words": 33
+   },
+   {
+    "id": "1.10#5",
+    "text": "Khi nạn nhân tử vong, với tư cách là một sĩ quan cảnh sát, bà ta dễ dàng tiếp cận hiện trường và thúc đẩy việc cấp giấy chứng tử nhanh chóng.",
+    "words": 32
+   },
+   {
+    "id": "1.10#6",
+    "text": "Tổng số tiền mà đối tượng đã chiếm đoạt qua các hợp đồng bảo hiểm đẫm máu này lên tới hơn một phẩy bốn triệu Rand.",
+    "words": 26
+   },
+   {
+    "id": "1.10#7",
+    "text": "Đây không phải là hành vi của một kẻ quẫn trí, mà là một cỗ máy kiếm tiền máu lạnh hoạt động dưới sự bảo kê của chính quyền lực hành pháp.",
+    "words": 32
+   }
+  ]
+ },
+ {
+  "id": "1.11",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "khép lại Hồi 1",
+  "text": "Tấm màn nhung che đậy tội ác tưởng chừng như không thể bị xuyên thủng suốt nhiều năm ròng rã. Những lời xì xào nghi ngờ trong gia đình nhanh chóng bị dập tắt bởi uy quyền và chiếc huy hiệu cảnh sát đầy quyền lực của Rosemary. Thế nhưng, cái ác một khi đã nếm trải sự thỏa mãn vô độ thì sẽ không bao giờ biết điểm dừng. Cơn nghiện quyền lực và cờ bạc đã đẩy kẻ thủ ác bước vào một vòng xoáy leo thang ngày càng điên cuồng và tàn độc hơn.",
+  "sentences": [
+   {
+    "id": "1.11#1",
+    "text": "Tấm màn nhung che đậy tội ác tưởng chừng như không thể bị xuyên thủng suốt nhiều năm ròng rã.",
+    "words": 20
+   },
+   {
+    "id": "1.11#2",
+    "text": "Những lời xì xào nghi ngờ trong gia đình nhanh chóng bị dập tắt bởi uy quyền và chiếc huy hiệu cảnh sát đầy quyền lực của Rosemary.",
+    "words": 28
+   },
+   {
+    "id": "1.11#3",
+    "text": "Thế nhưng, cái ác một khi đã nếm trải sự thỏa mãn vô độ thì sẽ không bao giờ biết điểm dừng.",
+    "words": 22
+   },
+   {
+    "id": "1.11#4",
+    "text": "Cơn nghiện quyền lực và cờ bạc đã đẩy kẻ thủ ác bước vào một vòng xoáy leo thang ngày càng điên cuồng và tàn độc hơn.",
+    "words": 27
+   }
+  ]
+ },
+ {
+  "id": "1.12",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "Một nốt cello trầm đục ngân dài rồi chìm vào khoảng không im lặng đến nghẹt thở."
+ },
+ {
+  "id": "2.01",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "Âm thanh Dark Ambient lạnh lẽo, tiếng kim đồng hồ tích tắc chậm rãi như đếm từng giây ngột ngạt giữa căn phòng điều tra cô đặc bóng tối."
+ },
+ {
+  "id": "2.02",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng hồi hộp dẫn dắt",
+  "text": "Điều gì đã biến một nữ sĩ quan cảnh sát từng tuyên thệ bảo vệ sự bình yên của nhân dân thành một kẻ săn mồi tàn sát chính gia đình mình? Để trả lời cho câu hỏi ấy, chúng ta phải thâm nhập vào cấu trúc nhân cách đầy méo mó và phức tạp của Rosemary Ndlovu. Ở nơi làm việc, bà ta xây dựng một hình mẫu người phụ nữ độc lập, mạnh mẽ và tận tụy với công việc tuần tra. Tại khu dân cư Tembisa, bà ta xuất hiện như một trụ cột kinh tế hào phóng, sẵn sàng chi tiền cho những đám tang của dòng họ. Thế nhưng, tất cả sự tử tế ấy thực chất chỉ là một lớp hóa trang hoàn hảo được dàn dựng công phu để che giấu một thế giới nội tâm băng giá. Ẩn sâu phía sau nụ cười thân thiện là một cơ chế tâm lý cực kỳ bệnh hoạn cho phép bà ta xóa sạch mọi ranh giới của lương tri.",
+  "sentences": [
+   {
+    "id": "2.02#1",
+    "text": "Điều gì đã biến một nữ sĩ quan cảnh sát từng tuyên thệ bảo vệ sự bình yên của nhân dân thành một kẻ săn mồi tàn sát chính gia đình mình?",
+    "words": 32
+   },
+   {
+    "id": "2.02#2",
+    "text": "Để trả lời cho câu hỏi ấy, chúng ta phải thâm nhập vào cấu trúc nhân cách đầy méo mó và phức tạp của Rosemary Ndlovu.",
+    "words": 26
+   },
+   {
+    "id": "2.02#3",
+    "text": "Ở nơi làm việc, bà ta xây dựng một hình mẫu người phụ nữ độc lập, mạnh mẽ và tận tụy với công việc tuần tra.",
+    "words": 26
+   },
+   {
+    "id": "2.02#4",
+    "text": "Tại khu dân cư Tembisa, bà ta xuất hiện như một trụ cột kinh tế hào phóng, sẵn sàng chi tiền cho những đám tang của dòng họ.",
+    "words": 28
+   },
+   {
+    "id": "2.02#5",
+    "text": "Thế nhưng, tất cả sự tử tế ấy thực chất chỉ là một lớp hóa trang hoàn hảo được dàn dựng công phu để che giấu một thế giới nội tâm băng giá.",
+    "words": 33
+   },
+   {
+    "id": "2.02#6",
+    "text": "Ẩn sâu phía sau nụ cười thân thiện là một cơ chế tâm lý cực kỳ bệnh hoạn cho phép bà ta xóa sạch mọi ranh giới của lương tri.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "2.03",
+  "act": 2,
+  "kind": "SFX",
+  "desc": "Tiếng xóc bài cờ bạc dồn dập, tiếng xèng kim loại rơi loảng xoảng trong sòng bài casino."
+ },
+ {
+  "id": "2.04",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "mô tả dấu vết tài chính và đời sống ngầm",
+  "text": "Hồ sơ trinh sát tài chính cho thấy đối tượng Rosemary Ndlovu là một con bạc bệnh lý khét tiếng tại các sòng bài thuộc khu vực Johannesburg. Mỗi khi tan ca trực tại đồn cảnh sát, bà ta thường lái xe thẳng tới các bàn đỏ đen và nướng sạch tiền lương chỉ trong vài giờ đồng hồ. Những món nợ ngập đầu từ các tay cho vay nặng lãi đã tạo ra một áp lực tài chính nghẹt thở đè nặng lên cuộc sống của đối tượng. Để duy trì cơn nghiện cờ bạc và lối sống xa hoa giả tạo, bà ta đã nảy sinh ý định biến mạng sống của người thân thành nguồn thanh khoản tài chính. Tháng mười năm 2015, người bạn đời chung sống nhiều năm của bà ta là Maurice Mabasa đã trở thành mục tiêu tiếp theo trong tầm ngắm. Mabasa là cha của con bà ta, một người đàn ông hiền lành luôn hết lòng yêu thương và tin tưởng người bạn đời cảnh sát. Thế nhưng, sau lưng người bạn đời, Ndlovu đã bí mật mua tới mười sáu hợp đồng bảo hiểm nhân thọ khác nhau đứng tên Mabasa. Thi thể của Maurice Mabasa sau đó được tìm thấy tại một khu đất hoang ở Olifantsfontein với hơn tám mươi vết thương chí mạng trên cơ thể. Hành vi tàn bạo bất thường này cho thấy kẻ ra tay muốn đảm bảo chắc chắn rằng nạn nhân không còn bất kỳ cơ hội sống sót nào. Ngay sau vụ án mạng, Ndlovu đã ung dung đút túi hơn bốn trăm mười sáu nghìn Rand từ các yêu cầu bồi thường bảo hiểm nhân thọ của Mabasa.",
+  "sentences": [
+   {
+    "id": "2.04#1",
+    "text": "Hồ sơ trinh sát tài chính cho thấy đối tượng Rosemary Ndlovu là một con bạc bệnh lý khét tiếng tại các sòng bài thuộc khu vực Johannesburg.",
+    "words": 28
+   },
+   {
+    "id": "2.04#2",
+    "text": "Mỗi khi tan ca trực tại đồn cảnh sát, bà ta thường lái xe thẳng tới các bàn đỏ đen và nướng sạch tiền lương chỉ trong vài giờ đồng hồ.",
+    "words": 31
+   },
+   {
+    "id": "2.04#3",
+    "text": "Những món nợ ngập đầu từ các tay cho vay nặng lãi đã tạo ra một áp lực tài chính nghẹt thở đè nặng lên cuộc sống của đối tượng.",
+    "words": 30
+   },
+   {
+    "id": "2.04#4",
+    "text": "Để duy trì cơn nghiện cờ bạc và lối sống xa hoa giả tạo, bà ta đã nảy sinh ý định biến mạng sống của người thân thành nguồn thanh khoản tài chính.",
+    "words": 33
+   },
+   {
+    "id": "2.04#5",
+    "text": "Tháng mười năm 2015, người bạn đời chung sống nhiều năm của bà ta là Maurice Mabasa đã trở thành mục tiêu tiếp theo trong tầm ngắm.",
+    "words": 27
+   },
+   {
+    "id": "2.04#6",
+    "text": "Mabasa là cha của con bà ta, một người đàn ông hiền lành luôn hết lòng yêu thương và tin tưởng người bạn đời cảnh sát.",
+    "words": 26
+   },
+   {
+    "id": "2.04#7",
+    "text": "Thế nhưng, sau lưng người bạn đời, Ndlovu đã bí mật mua tới mười sáu hợp đồng bảo hiểm nhân thọ khác nhau đứng tên Mabasa.",
+    "words": 26
+   },
+   {
+    "id": "2.04#8",
+    "text": "Thi thể của Maurice Mabasa sau đó được tìm thấy tại một khu đất hoang ở Olifantsfontein với hơn tám mươi vết thương chí mạng trên cơ thể.",
+    "words": 28
+   },
+   {
+    "id": "2.04#9",
+    "text": "Hành vi tàn bạo bất thường này cho thấy kẻ ra tay muốn đảm bảo chắc chắn rằng nạn nhân không còn bất kỳ cơ hội sống sót nào.",
+    "words": 29
+   },
+   {
+    "id": "2.04#10",
+    "text": "Ngay sau vụ án mạng, Ndlovu đã ung dung đút túi hơn bốn trăm mười sáu nghìn Rand từ các yêu cầu bồi thường bảo hiểm nhân thọ của Mabasa.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "2.05",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "phác họa chân dung kẻ thủ ác",
+  "text": "Mỗi nạn nhân ngã xuống là một lần tài khoản của nữ cảnh sát lại nhảy múa những con số đẫm máu. Bà ta coi cái chết của người thân như một kỳ thu hoạch mùa màng định kỳ để trang trải cho những cơn khát đỏ đen. Sự tàn nhẫn không chỉ dừng lại ở hành động giết chóc, mà còn thể hiện ở thái độ trơ trẽn đến rợn người của kẻ thủ ác sau mỗi vụ việc. Bà ta đích thân đến nhà xác để nhận dạng thi thể, giả vờ ngất xỉu trong vòng tay người thân, rồi lập tức quay sang giục giã công ty bảo hiểm chi tiền. Sự vô cảm ấy bắt nguồn từ một cơ chế tâm lý bệnh lý sâu sắc mà khoa học hành vi đã chỉ rõ.",
+  "sentences": [
+   {
+    "id": "2.05#1",
+    "text": "Mỗi nạn nhân ngã xuống là một lần tài khoản của nữ cảnh sát lại nhảy múa những con số đẫm máu.",
+    "words": 22
+   },
+   {
+    "id": "2.05#2",
+    "text": "Bà ta coi cái chết của người thân như một kỳ thu hoạch mùa màng định kỳ để trang trải cho những cơn khát đỏ đen.",
+    "words": 26
+   },
+   {
+    "id": "2.05#3",
+    "text": "Sự tàn nhẫn không chỉ dừng lại ở hành động giết chóc, mà còn thể hiện ở thái độ trơ trẽn đến rợn người của kẻ thủ ác sau mỗi vụ việc.",
+    "words": 32
+   },
+   {
+    "id": "2.05#4",
+    "text": "Bà ta đích thân đến nhà xác để nhận dạng thi thể, giả vờ ngất xỉu trong vòng tay người thân, rồi lập tức quay sang giục giã công ty bảo hiểm chi tiền.",
+    "words": 34
+   },
+   {
+    "id": "2.05#5",
+    "text": "Sự vô cảm ấy bắt nguồn từ một cơ chế tâm lý bệnh lý sâu sắc mà khoa học hành vi đã chỉ rõ.",
+    "words": 24
+   }
+  ]
+ },
+ {
+  "id": "2.06",
+  "act": 2,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "phân tích cơ chế chia ngăn tâm trí và sự vật hóa con người",
+  "text": "Dưới góc độ tâm lý học tội phạm, Rosemary Ndlovu là một trường hợp điển hình của sự kết hợp giữa Ái kỷ ác tính và Thái nhân cách. Đặc điểm nổi bật nhất ở đối tượng này chính là cơ chế “Phân ngăn nhận thức bệnh lý” được vận hành ở mức độ hoàn hảo. Trong não bộ của bà ta tồn tại hai ngăn kéo hoàn toàn độc lập và không bao giờ va chạm vào nhau trong đời sống thường nhật. Ngăn kéo thứ nhất là hình ảnh một nữ trung sĩ cảnh sát gương mẫu, nghiêm túc thi hành công vụ và được đồng nghiệp quý mến. Ngăn kéo thứ hai là một kẻ tính toán lạnh lùng, sẵn sàng định giá mạng sống của từng thành viên trong gia đình như những món hàng hóa. Hiện tượng này gắn liền với khái niệm “Vật hóa và Phi nhân hóa cực đoan” trong tâm lý học xã hội. Đối với Ndlovu, người em gái, người cháu ruột hay thậm chí người bạn đời Maurice Mabasa không phải là những con người độc lập có cảm xúc và quyền được sống. Dưới lăng kính méo mó của lòng tham, họ chỉ là những tờ hợp đồng bảo hiểm biết đi, những công cụ tài chính dùng để giải quyết các khoản nợ cờ bạc. Khi thấu cảm cảm xúc bị triệt tiêu hoàn toàn, nỗi đau đớn và sự sợ hãi của nạn nhân không thể kích hoạt được bất kỳ phản xạ trắc ẩn nào trong tâm trí kẻ thủ ác. Trái lại, việc nhìn thấy các kế hoạch sát hại diễn ra trơn tru còn mang lại cho bà ta một cảm giác khoái cảm quyền lực và sự hưng phấn tột độ. Bà ta tự huyễn hoặc rằng mình nắm trong tay quyền sinh quyền sát và đủ thông minh để qua mặt toàn bộ hệ thống tư pháp của đất nước.",
+  "sentences": [
+   {
+    "id": "2.06#1",
+    "text": "Dưới góc độ tâm lý học tội phạm, Rosemary Ndlovu là một trường hợp điển hình của sự kết hợp giữa Ái kỷ ác tính và Thái nhân cách.",
+    "words": 29
+   },
+   {
+    "id": "2.06#2",
+    "text": "Đặc điểm nổi bật nhất ở đối tượng này chính là cơ chế “Phân ngăn nhận thức bệnh lý” được vận hành ở mức độ hoàn hảo.",
+    "words": 27
+   },
+   {
+    "id": "2.06#3",
+    "text": "Trong não bộ của bà ta tồn tại hai ngăn kéo hoàn toàn độc lập và không bao giờ va chạm vào nhau trong đời sống thường nhật.",
+    "words": 28
+   },
+   {
+    "id": "2.06#4",
+    "text": "Ngăn kéo thứ nhất là hình ảnh một nữ trung sĩ cảnh sát gương mẫu, nghiêm túc thi hành công vụ và được đồng nghiệp quý mến.",
+    "words": 27
+   },
+   {
+    "id": "2.06#5",
+    "text": "Ngăn kéo thứ hai là một kẻ tính toán lạnh lùng, sẵn sàng định giá mạng sống của từng thành viên trong gia đình như những món hàng hóa.",
+    "words": 29
+   },
+   {
+    "id": "2.06#6",
+    "text": "Hiện tượng này gắn liền với khái niệm “Vật hóa và Phi nhân hóa cực đoan” trong tâm lý học xã hội.",
+    "words": 22
+   },
+   {
+    "id": "2.06#7",
+    "text": "Đối với Ndlovu, người em gái, người cháu ruột hay thậm chí người bạn đời Maurice Mabasa không phải là những con người độc lập có cảm xúc và quyền được sống.",
+    "words": 32
+   },
+   {
+    "id": "2.06#8",
+    "text": "Dưới lăng kính méo mó của lòng tham, họ chỉ là những tờ hợp đồng bảo hiểm biết đi, những công cụ tài chính dùng để giải quyết các khoản nợ cờ bạc.",
+    "words": 33
+   },
+   {
+    "id": "2.06#9",
+    "text": "Khi thấu cảm cảm xúc bị triệt tiêu hoàn toàn, nỗi đau đớn và sự sợ hãi của nạn nhân không thể kích hoạt được bất kỳ phản xạ trắc ẩn nào trong tâm trí kẻ thủ ác.",
+    "words": 38
+   },
+   {
+    "id": "2.06#10",
+    "text": "Trái lại, việc nhìn thấy các kế hoạch sát hại diễn ra trơn tru còn mang lại cho bà ta một cảm giác khoái cảm quyền lực và sự hưng phấn tột độ.",
+    "words": 33
+   },
+   {
+    "id": "2.06#11",
+    "text": "Bà ta tự huyễn hoặc rằng mình nắm trong tay quyền sinh quyền sát và đủ thông minh để qua mặt toàn bộ hệ thống tư pháp của đất nước.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "2.07",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tiếp tục mạch tự sự",
+  "text": "Sự trót lọt của sáu vụ án mạng liên tiếp trong suốt sáu năm đã củng cố niềm tin mù quáng của Rosemary vào sự bất khả xâm phạm của bản thân. Không một viên thanh tra nào đặt câu hỏi tại sao vận rủi lại liên tục giáng xuống đầu một gia đình duy nhất với tần suất dày đặc đến thế. Chiếc huy hiệu cảnh sát lấp lánh trên ngực đã trở thành một tấm khiên hộ mệnh vững chắc xua tan mọi sự nghi ngờ từ phía cơ quan điều tra địa phương. Thế nhưng, khi những con mồi trong gia đình dần cạn kiệt, lòng tham của bà ta bắt đầu vươn vòi bạch tuộc tới những mục tiêu thiêng liêng nhất.",
+  "sentences": [
+   {
+    "id": "2.07#1",
+    "text": "Sự trót lọt của sáu vụ án mạng liên tiếp trong suốt sáu năm đã củng cố niềm tin mù quáng của Rosemary vào sự bất khả xâm phạm của bản thân.",
+    "words": 32
+   },
+   {
+    "id": "2.07#2",
+    "text": "Không một viên thanh tra nào đặt câu hỏi tại sao vận rủi lại liên tục giáng xuống đầu một gia đình duy nhất với tần suất dày đặc đến thế.",
+    "words": 31
+   },
+   {
+    "id": "2.07#3",
+    "text": "Chiếc huy hiệu cảnh sát lấp lánh trên ngực đã trở thành một tấm khiên hộ mệnh vững chắc xua tan mọi sự nghi ngờ từ phía cơ quan điều tra địa phương.",
+    "words": 33
+   },
+   {
+    "id": "2.07#4",
+    "text": "Thế nhưng, khi những con mồi trong gia đình dần cạn kiệt, lòng tham của bà ta bắt đầu vươn vòi bạch tuộc tới những mục tiêu thiêng liêng nhất.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "2.08",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "giải thích diễn biến tội ác tiếp theo",
+  "text": "Đầu năm 2018, đối tượng Ndlovu bắt đầu lên kế hoạch thanh trừng người mẹ đẻ của mình là bà Maria Mushwana tại Bushbuckridge. Bà Maria là một người mẹ già yếu, cả đời lam lũ nuôi nẫng các con và luôn coi Rosemary là niềm tự hào lớn nhất của dòng họ. Ndlovu đã tiếp cận một sát thủ đánh thuê tên là Lakhiwe Mkhize và trả trước cho hắn số tiền hai nghìn sáu trăm Rand để sát hại bà mẹ già. Thủ đoạn của bà ta là yêu cầu sát thủ giả làm một thầy lang đến thăm khám rồi ra tay đầu độc hoặc bóp cổ nạn nhân để nhận bảo hiểm. Chưa dừng lại ở đó, đối tượng tiếp tục liên hệ với một đối tượng hình sự cộm cán khác là Njabulo Vincent Kunene để bàn bạc một hợp đồng tàn khốc hơn. Mục tiêu lần này là người em gái ruột Joyce Ndlovu cùng năm đứa con nhỏ của Joyce, trong đó đứa bé nhất mới chỉ vừa tròn năm tháng tuổi. Kế hoạch ma quỷ mà nữ cảnh sát vạch ra là chuốc thuốc mê toàn bộ sáu mẹ con rồi phóng hỏa thiêu rụi ngôi nhà để ngụy tạo thành một vụ cháy ngẫu nhiên. Mức thù lao mà bà ta hứa hẹn trả cho phi vụ thảm sát man rợ này là sáu mươi lăm nghìn Rand sau khi thanh toán xong các khoản tiền bảo hiểm.",
+  "sentences": [
+   {
+    "id": "2.08#1",
+    "text": "Đầu năm 2018, đối tượng Ndlovu bắt đầu lên kế hoạch thanh trừng người mẹ đẻ của mình là bà Maria Mushwana tại Bushbuckridge.",
+    "words": 24
+   },
+   {
+    "id": "2.08#2",
+    "text": "Bà Maria là một người mẹ già yếu, cả đời lam lũ nuôi nẫng các con và luôn coi Rosemary là niềm tự hào lớn nhất của dòng họ.",
+    "words": 29
+   },
+   {
+    "id": "2.08#3",
+    "text": "Ndlovu đã tiếp cận một sát thủ đánh thuê tên là Lakhiwe Mkhize và trả trước cho hắn số tiền hai nghìn sáu trăm Rand để sát hại bà mẹ già.",
+    "words": 31
+   },
+   {
+    "id": "2.08#4",
+    "text": "Thủ đoạn của bà ta là yêu cầu sát thủ giả làm một thầy lang đến thăm khám rồi ra tay đầu độc hoặc bóp cổ nạn nhân để nhận bảo hiểm.",
+    "words": 32
+   },
+   {
+    "id": "2.08#5",
+    "text": "Chưa dừng lại ở đó, đối tượng tiếp tục liên hệ với một đối tượng hình sự cộm cán khác là Njabulo Vincent Kunene để bàn bạc một hợp đồng tàn khốc hơn.",
+    "words": 33
+   },
+   {
+    "id": "2.08#6",
+    "text": "Mục tiêu lần này là người em gái ruột Joyce Ndlovu cùng năm đứa con nhỏ của Joyce, trong đó đứa bé nhất mới chỉ vừa tròn năm tháng tuổi.",
+    "words": 30
+   },
+   {
+    "id": "2.08#7",
+    "text": "Kế hoạch ma quỷ mà nữ cảnh sát vạch ra là chuốc thuốc mê toàn bộ sáu mẹ con rồi phóng hỏa thiêu rụi ngôi nhà để ngụy tạo thành một vụ cháy ngẫu nhiên.",
+    "words": 35
+   },
+   {
+    "id": "2.08#8",
+    "text": "Mức thù lao mà bà ta hứa hẹn trả cho phi vụ thảm sát man rợ này là sáu mươi lăm nghìn Rand sau khi thanh toán xong các khoản tiền bảo hiểm.",
+    "words": 33
+   }
+  ]
+ },
+ {
+  "id": "2.09",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "nhấn mạnh sự tột cùng của tội ác",
+  "text": "Một người phụ nữ khoác áo cảnh sát sẵn sàng ra lệnh thiêu sống chính những đứa cháu ruột còn đang ẵm ngửa để đổi lấy vài cọc tiền giấy. Đó là sự sụp đổ toàn diện của mọi chuẩn mực đạo đức tối thiểu trong xã hội loài người. Thế nhưng, chính trong thời khắc đen tối nhất ấy, một biến cố tâm lý bất ngờ đã xảy ra làm đảo lộn hoàn toàn bàn cờ tội ác. Một tia sáng lương tri le lói đã bất ngờ bùng lên từ chính nơi mà kẻ thủ ác không bao giờ ngờ tới nhất.",
+  "sentences": [
+   {
+    "id": "2.09#1",
+    "text": "Một người phụ nữ khoác áo cảnh sát sẵn sàng ra lệnh thiêu sống chính những đứa cháu ruột còn đang ẵm ngửa để đổi lấy vài cọc tiền giấy.",
+    "words": 30
+   },
+   {
+    "id": "2.09#2",
+    "text": "Đó là sự sụp đổ toàn diện của mọi chuẩn mực đạo đức tối thiểu trong xã hội loài người.",
+    "words": 20
+   },
+   {
+    "id": "2.09#3",
+    "text": "Thế nhưng, chính trong thời khắc đen tối nhất ấy, một biến cố tâm lý bất ngờ đã xảy ra làm đảo lộn hoàn toàn bàn cờ tội ác.",
+    "words": 29
+   },
+   {
+    "id": "2.09#4",
+    "text": "Một tia sáng lương tri le lói đã bất ngờ bùng lên từ chính nơi mà kẻ thủ ác không bao giờ ngờ tới nhất.",
+    "words": 25
+   }
+  ]
+ },
+ {
+  "id": "2.10",
+  "act": 2,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "đúc kết sự leo thang của ảo tưởng ái kỷ",
+  "text": "Khi một kẻ thái nhân cách đạt tới đỉnh cao của ảo tưởng toàn năng, họ sẽ hoàn toàn đánh mất khả năng phán đoán giới hạn của thế giới thực. Rosemary Ndlovu tin rằng đồng tiền có thể mua chuộc được tất cả và mọi con người trên thế giới này đều mang bản chất tham lam giống như bà ta. Bà ta đánh đồng những tên tội phạm đánh thuê ngoài xã hội với sự băng hoại nhân cách không đáy của chính mình. Đó chính là sai lầm chết người và là điểm mù nhận thức lớn nhất của một bản ngã ái kỷ bệnh hoạn. Kẻ thủ ác đã không thể hiểu được rằng, ngay cả trong thế giới ngầm tăm tối nhất, ranh giới giữa cái ác thông thường và sự phi nhân tính tột cùng vẫn luôn tồn tại.",
+  "sentences": [
+   {
+    "id": "2.10#1",
+    "text": "Khi một kẻ thái nhân cách đạt tới đỉnh cao của ảo tưởng toàn năng, họ sẽ hoàn toàn đánh mất khả năng phán đoán giới hạn của thế giới thực.",
+    "words": 31
+   },
+   {
+    "id": "2.10#2",
+    "text": "Rosemary Ndlovu tin rằng đồng tiền có thể mua chuộc được tất cả và mọi con người trên thế giới này đều mang bản chất tham lam giống như bà ta.",
+    "words": 31
+   },
+   {
+    "id": "2.10#3",
+    "text": "Bà ta đánh đồng những tên tội phạm đánh thuê ngoài xã hội với sự băng hoại nhân cách không đáy của chính mình.",
+    "words": 24
+   },
+   {
+    "id": "2.10#4",
+    "text": "Đó chính là sai lầm chết người và là điểm mù nhận thức lớn nhất của một bản ngã ái kỷ bệnh hoạn.",
+    "words": 23
+   },
+   {
+    "id": "2.10#5",
+    "text": "Kẻ thủ ác đã không thể hiểu được rằng, ngay cả trong thế giới ngầm tăm tối nhất, ranh giới giữa cái ác thông thường và sự phi nhân tính tột cùng vẫn luôn tồn tại.",
+    "words": 36
+   }
+  ]
+ },
+ {
+  "id": "2.11",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "thắt lại Hồi 2",
+  "text": "Chiếc bẫy tội ác tưởng chừng như hoàn hảo đã bắt đầu xuất hiện những vết rạn nứt chí mạng đầu tiên từ bên trong. Con đường dẫn tới công lý chuẩn bị được khai mở bởi chính sự thức tỉnh đầy giằng xé của những con người từng đứng trong bóng tối.",
+  "sentences": [
+   {
+    "id": "2.11#1",
+    "text": "Chiếc bẫy tội ác tưởng chừng như hoàn hảo đã bắt đầu xuất hiện những vết rạn nứt chí mạng đầu tiên từ bên trong.",
+    "words": 25
+   },
+   {
+    "id": "2.11#2",
+    "text": "Con đường dẫn tới công lý chuẩn bị được khai mở bởi chính sự thức tỉnh đầy giằng xé của những con người từng đứng trong bóng tối.",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "2.12",
+  "act": 2,
+  "kind": "NGHI",
+  "sec": 1.5,
+  "desc": "Tiếng drone u uất kéo dài rồi tan biến"
+ },
+ {
+  "id": "3.01",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "Âm nhạc chuyển sang tiếng Dương cầm tối giản, chậm rãi, mang màu sắc triết học và đầy tính tự vấn về giới hạn tâm lý con người."
+ },
+ {
+  "id": "3.02",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "đặt vấn đề gây chấn động về sự chuyển hóa tâm lý",
+  "text": "Tại sao một kẻ đánh thuê từng sống bằng bạo lực lại đột ngột dừng bước trước một bản hợp đồng béo bở? Điều gì đã khiến những tên tội phạm chuyên nghiệp quyết định quay đầu và phản bội lại chính người thuê mình? Cơ chế tâm lý nào đã đánh sập lòng tham và đánh thức lương tri của những con người vốn dĩ quen thuộc với bóng tối giang hồ? Đây chính là nút thắt nhân bản sâu sắc nhất và là bước ngoặt quyết định đưa toàn bộ chuỗi tội ác của Rosemary Ndlovu ra ánh sáng.",
+  "sentences": [
+   {
+    "id": "3.02#1",
+    "text": "Tại sao một kẻ đánh thuê từng sống bằng bạo lực lại đột ngột dừng bước trước một bản hợp đồng béo bở?",
+    "words": 23
+   },
+   {
+    "id": "3.02#2",
+    "text": "Điều gì đã khiến những tên tội phạm chuyên nghiệp quyết định quay đầu và phản bội lại chính người thuê mình?",
+    "words": 22
+   },
+   {
+    "id": "3.02#3",
+    "text": "Cơ chế tâm lý nào đã đánh sập lòng tham và đánh thức lương tri của những con người vốn dĩ quen thuộc với bóng tối giang hồ?",
+    "words": 28
+   },
+   {
+    "id": "3.02#4",
+    "text": "Đây chính là nút thắt nhân bản sâu sắc nhất và là bước ngoặt quyết định đưa toàn bộ chuỗi tội ác của Rosemary Ndlovu ra ánh sáng.",
+    "words": 28
+   }
+  ]
+ },
+ {
+  "id": "3.03",
+  "act": 3,
+  "kind": "SFX",
+  "desc": "Tiếng bước chân rụt rè trong căn nhà gỗ, tiếng thở dài nặng trĩu, tiếng rót nước vào cốc thủy tinh."
+ },
+ {
+  "id": "3.04",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tái hiện cuộc hội ngộ nghẹt thở",
+  "text": "Hãy quay trở lại thời điểm sát thủ Lakhiwe Mkhize nhận lệnh đến căn nhà của bà mẹ già Maria Mushwana tại Bushbuckridge. Hắn mang theo vũ khí trong người, bước vào căn nhà vắng vẻ với mục đích tước đoạt sinh mạng của một người phụ nữ xa lạ để lấy tiền công. Thế nhưng, khi cánh cửa gỗ mở ra, hình ảnh hiện ra trước mắt hắn lại là một bà cụ già yếu, lưng còng với ánh mắt hiền từ và đôi bàn tay nhăn nheo lam lũ. Bà cụ không hề phòng bị, ân cần đón tiếp kẻ lạ mặt bằng sự chất phác mộc mạc của một người mẹ nơi thôn dã. Khoảnh khắc hai ánh mắt chạm nhau giữa gian phòng khách nghèo nàn đã tạo nên một cơn địa chấn tâm lý dữ dội đánh thẳng vào tiềm thức của tên sát thủ.",
+  "sentences": [
+   {
+    "id": "3.04#1",
+    "text": "Hãy quay trở lại thời điểm sát thủ Lakhiwe Mkhize nhận lệnh đến căn nhà của bà mẹ già Maria Mushwana tại Bushbuckridge.",
+    "words": 23
+   },
+   {
+    "id": "3.04#2",
+    "text": "Hắn mang theo vũ khí trong người, bước vào căn nhà vắng vẻ với mục đích tước đoạt sinh mạng của một người phụ nữ xa lạ để lấy tiền công.",
+    "words": 31
+   },
+   {
+    "id": "3.04#3",
+    "text": "Thế nhưng, khi cánh cửa gỗ mở ra, hình ảnh hiện ra trước mắt hắn lại là một bà cụ già yếu, lưng còng với ánh mắt hiền từ và đôi bàn tay nhăn nheo lam lũ.",
+    "words": 37
+   },
+   {
+    "id": "3.04#4",
+    "text": "Bà cụ không hề phòng bị, ân cần đón tiếp kẻ lạ mặt bằng sự chất phác mộc mạc của một người mẹ nơi thôn dã.",
+    "words": 26
+   },
+   {
+    "id": "3.04#5",
+    "text": "Khoảnh khắc hai ánh mắt chạm nhau giữa gian phòng khách nghèo nàn đã tạo nên một cơn địa chấn tâm lý dữ dội đánh thẳng vào tiềm thức của tên sát thủ.",
+    "words": 33
+   }
+  ]
+ },
+ {
+  "id": "3.05",
+  "act": 3,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "nhấn mạnh chi tiết lời khai của sát thủ",
+  "text": "Tại cơ quan điều tra và sau đó là trước vành móng ngựa, Lakhiwe Mkhize đã nghẹn ngào thuật lại khoảnh khắc quyết định ấy. Hắn khai rằng khi nhìn vào gương mặt đôn hậu của bà cụ, toàn bộ sức mạnh và ý chí giết chóc trong người hắn hoàn toàn tan biến. Bàn tay hắn run rẩy không thể rút hung khí ra khỏi túi áo như kế hoạch đã định sẵn với Rosemary. Thay vì ra tay sát hại nạn nhân, Mkhize bối rối xin bà cụ một cốc nước lọc để uống rồi vội vã rời khỏi hiện trường. Hắn chấp nhận mất số tiền thù lao còn lại và kiên quyết từ chối tiếp tục thực hiện phi vụ cho nữ cảnh sát. Đó là sự thất bại đầu tiên trong chuỗi kế hoạch ám sát tưởng như bất khả chiến bại của Rosemary Ndlovu.",
+  "sentences": [
+   {
+    "id": "3.05#1",
+    "text": "Tại cơ quan điều tra và sau đó là trước vành móng ngựa, Lakhiwe Mkhize đã nghẹn ngào thuật lại khoảnh khắc quyết định ấy.",
+    "words": 25
+   },
+   {
+    "id": "3.05#2",
+    "text": "Hắn khai rằng khi nhìn vào gương mặt đôn hậu của bà cụ, toàn bộ sức mạnh và ý chí giết chóc trong người hắn hoàn toàn tan biến.",
+    "words": 29
+   },
+   {
+    "id": "3.05#3",
+    "text": "Bàn tay hắn run rẩy không thể rút hung khí ra khỏi túi áo như kế hoạch đã định sẵn với Rosemary.",
+    "words": 22
+   },
+   {
+    "id": "3.05#4",
+    "text": "Thay vì ra tay sát hại nạn nhân, Mkhize bối rối xin bà cụ một cốc nước lọc để uống rồi vội vã rời khỏi hiện trường.",
+    "words": 27
+   },
+   {
+    "id": "3.05#5",
+    "text": "Hắn chấp nhận mất số tiền thù lao còn lại và kiên quyết từ chối tiếp tục thực hiện phi vụ cho nữ cảnh sát.",
+    "words": 25
+   },
+   {
+    "id": "3.05#6",
+    "text": "Đó là sự thất bại đầu tiên trong chuỗi kế hoạch ám sát tưởng như bất khả chiến bại của Rosemary Ndlovu.",
+    "words": 22
+   }
+  ]
+ },
+ {
+  "id": "3.06",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng đầy trăn trở",
+  "text": "Sự chùn bước của Lakhiwe Mkhize đã cứu sống người mẹ già trong gang tấc nhưng chưa thể dập tắt cơn khát máu của Rosemary. Bà ta lập tức chuyển hướng sang Njabulo Vincent Kunene và thúc ép hắn thực hiện kế hoạch thiêu sống gia đình người em gái Joyce. Thế nhưng, một lần nữa, kẻ thủ ác lại vấp phải bức tường thành đạo đức kiên cố của bản năng con người.",
+  "sentences": [
+   {
+    "id": "3.06#1",
+    "text": "Sự chùn bước của Lakhiwe Mkhize đã cứu sống người mẹ già trong gang tấc nhưng chưa thể dập tắt cơn khát máu của Rosemary.",
+    "words": 25
+   },
+   {
+    "id": "3.06#2",
+    "text": "Bà ta lập tức chuyển hướng sang Njabulo Vincent Kunene và thúc ép hắn thực hiện kế hoạch thiêu sống gia đình người em gái Joyce.",
+    "words": 26
+   },
+   {
+    "id": "3.06#3",
+    "text": "Thế nhưng, một lần nữa, kẻ thủ ác lại vấp phải bức tường thành đạo đức kiên cố của bản năng con người.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "3.07",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "giải phẫu cơ chế hối hận và sự sụp đổ của lòng tham",
+  "text": "Dưới góc độ tâm lý học hành vi, sự chuyển hóa của Kunene và Mkhize là một minh chứng sống động cho hiện tượng “Điểm gãy nhận thức trước lằn ranh cấm kỵ phổ quát”. Trong tâm lý học đạo đức, có những quy chuẩn mang tính cấm kỵ tuyệt đối đã được mã hóa vào gen di truyền và tiến hóa xã hội của loài người qua hàng vạn năm. Một kẻ tội phạm có thể sẵn sàng trộm cắp, hành hung hoặc tiêu diệt các đối thủ tranh chấp quyền lợi trong thế giới ngầm để sinh tồn. Thế nhưng, hành vi sát hại trẻ sơ sinh và thiêu sống phụ nữ cùng con nhỏ vô tội là một lằn ranh đỏ mà tâm lý người bình thường không thể vượt qua. Khi Rosemary Ndlovu yêu cầu thiêu sống năm đứa trẻ, yêu cầu man rợ ấy đã kích hoạt một phản xạ “Ghê tởm đạo đức nguyên thủy” trong tâm trí Njabulo Kunene. Nỗi kinh hoàng trước sự độc ác phi nhân tính của người thuê đã đè bẹp hoàn toàn sức cám dỗ của số tiền sáu mươi lăm nghìn Rand. Đồng thời, sự hối hận ở đây còn được thúc đẩy bởi một cơ chế tâm lý tự vệ vô cùng sắc bén: sự nhận diện kẻ thao túng. Kunene nhận thức sâu sắc rằng một kẻ sẵn sàng tàn sát cả ruột thịt và mẹ đẻ thì tuyệt đối sẽ không bao giờ để cho những sát thủ đánh thuê được sống yên ổn. Hắn hiểu rằng việc thực hiện hợp đồng này đồng nghĩa với việc tự ký bản án tử hình cho chính bản thân mình trong tương lai. Sự kết hợp giữa lương tri trỗi dậy và bản năng sinh tồn đã thúc đẩy đối tượng đưa ra quyết định đảo chiều lịch sử.",
+  "sentences": [
+   {
+    "id": "3.07#1",
+    "text": "Dưới góc độ tâm lý học hành vi, sự chuyển hóa của Kunene và Mkhize là một minh chứng sống động cho hiện tượng “Điểm gãy nhận thức trước lằn ranh cấm kỵ phổ quát”.",
+    "words": 35
+   },
+   {
+    "id": "3.07#2",
+    "text": "Trong tâm lý học đạo đức, có những quy chuẩn mang tính cấm kỵ tuyệt đối đã được mã hóa vào gen di truyền và tiến hóa xã hội của loài người qua hàng vạn năm.",
+    "words": 36
+   },
+   {
+    "id": "3.07#3",
+    "text": "Một kẻ tội phạm có thể sẵn sàng trộm cắp, hành hung hoặc tiêu diệt các đối thủ tranh chấp quyền lợi trong thế giới ngầm để sinh tồn.",
+    "words": 29
+   },
+   {
+    "id": "3.07#4",
+    "text": "Thế nhưng, hành vi sát hại trẻ sơ sinh và thiêu sống phụ nữ cùng con nhỏ vô tội là một lằn ranh đỏ mà tâm lý người bình thường không thể vượt qua.",
+    "words": 34
+   },
+   {
+    "id": "3.07#5",
+    "text": "Khi Rosemary Ndlovu yêu cầu thiêu sống năm đứa trẻ, yêu cầu man rợ ấy đã kích hoạt một phản xạ “Ghê tởm đạo đức nguyên thủy” trong tâm trí Njabulo Kunene.",
+    "words": 32
+   },
+   {
+    "id": "3.07#6",
+    "text": "Nỗi kinh hoàng trước sự độc ác phi nhân tính của người thuê đã đè bẹp hoàn toàn sức cám dỗ của số tiền sáu mươi lăm nghìn Rand.",
+    "words": 29
+   },
+   {
+    "id": "3.07#7",
+    "text": "Đồng thời, sự hối hận ở đây còn được thúc đẩy bởi một cơ chế tâm lý tự vệ vô cùng sắc bén: sự nhận diện kẻ thao túng.",
+    "words": 29
+   },
+   {
+    "id": "3.07#8",
+    "text": "Kunene nhận thức sâu sắc rằng một kẻ sẵn sàng tàn sát cả ruột thịt và mẹ đẻ thì tuyệt đối sẽ không bao giờ để cho những sát thủ đánh thuê được sống yên ổn.",
+    "words": 36
+   },
+   {
+    "id": "3.07#9",
+    "text": "Hắn hiểu rằng việc thực hiện hợp đồng này đồng nghĩa với việc tự ký bản án tử hình cho chính bản thân mình trong tương lai.",
+    "words": 27
+   },
+   {
+    "id": "3.07#10",
+    "text": "Sự kết hợp giữa lương tri trỗi dậy và bản năng sinh tồn đã thúc đẩy đối tượng đưa ra quyết định đảo chiều lịch sử.",
+    "words": 26
+   }
+  ]
+ },
+ {
+  "id": "3.08",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "bóc tách diễn biến tố giác",
+  "text": "Thay vì đổ xăng đốt nhà người vô tội, Njabulo Kunene đã bí mật tìm đến một đồn cảnh sát để tố cáo toàn bộ âm mưu đen tối của Rosemary Ndlovu. Lời khai của một tay giang hồ về việc một nữ trung sĩ cảnh sát đang lên kế hoạch thiêu sống cả gia đình ban đầu nghe như một câu chuyện hoang đường. Thế nhưng, sự chân thực trong nỗi sợ hãi và những chứng cứ liên lạc mà Kunene cung cấp đã thu hút sự chú ý đặc biệt của một thám tử kỳ cựu. Đó là Thám tử Cấp cao Keshi Benneth Mabunda, người lúc bấy giờ đang âm thầm theo dõi những điểm bất thường xung quanh các vụ bảo hiểm tại Tembisa.",
+  "sentences": [
+   {
+    "id": "3.08#1",
+    "text": "Thay vì đổ xăng đốt nhà người vô tội, Njabulo Kunene đã bí mật tìm đến một đồn cảnh sát để tố cáo toàn bộ âm mưu đen tối của Rosemary Ndlovu.",
+    "words": 32
+   },
+   {
+    "id": "3.08#2",
+    "text": "Lời khai của một tay giang hồ về việc một nữ trung sĩ cảnh sát đang lên kế hoạch thiêu sống cả gia đình ban đầu nghe như một câu chuyện hoang đường.",
+    "words": 33
+   },
+   {
+    "id": "3.08#3",
+    "text": "Thế nhưng, sự chân thực trong nỗi sợ hãi và những chứng cứ liên lạc mà Kunene cung cấp đã thu hút sự chú ý đặc biệt của một thám tử kỳ cựu.",
+    "words": 33
+   },
+   {
+    "id": "3.08#4",
+    "text": "Đó là Thám tử Cấp cao Keshi Benneth Mabunda, người lúc bấy giờ đang âm thầm theo dõi những điểm bất thường xung quanh các vụ bảo hiểm tại Tembisa.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "3.09",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "bóc tách sự đối lập nhân cách giữa kẻ chủ mưu và đồng phạm",
+  "text": "Ở đây chúng ta chứng kiến một sự tương phản tâm lý vô cùng sâu sắc và đầy trớ trêu giữa hai thái cực con người. Một bên là nữ cảnh sát được đào tạo bài bản, hưởng lương nhà nước, nhưng lại tha hóa đến mức coi mạng sống người thân như rác rưởi. Một bên là những kẻ ngoài lề xã hội, từng lầm đường lạc lối, nhưng vẫn giữ lại được đốm lửa lương tri tối thiểu trước sự sống của những đứa trẻ thơ. Sự hối hận chân thực không đo đếm bằng địa vị xã hội hay bộ đồng phục khoác trên mình, mà đo bằng năng lực biết dừng lại trước tội ác. Chính sự dừng lại của những kẻ đánh thuê đã trở thành nhịp cầu đưa công lý quay trở lại với vùng đất Tembisa.",
+  "sentences": [
+   {
+    "id": "3.09#1",
+    "text": "Ở đây chúng ta chứng kiến một sự tương phản tâm lý vô cùng sâu sắc và đầy trớ trêu giữa hai thái cực con người.",
+    "words": 26
+   },
+   {
+    "id": "3.09#2",
+    "text": "Một bên là nữ cảnh sát được đào tạo bài bản, hưởng lương nhà nước, nhưng lại tha hóa đến mức coi mạng sống người thân như rác rưởi.",
+    "words": 29
+   },
+   {
+    "id": "3.09#3",
+    "text": "Một bên là những kẻ ngoài lề xã hội, từng lầm đường lạc lối, nhưng vẫn giữ lại được đốm lửa lương tri tối thiểu trước sự sống của những đứa trẻ thơ.",
+    "words": 33
+   },
+   {
+    "id": "3.09#4",
+    "text": "Sự hối hận chân thực không đo đếm bằng địa vị xã hội hay bộ đồng phục khoác trên mình, mà đo bằng năng lực biết dừng lại trước tội ác.",
+    "words": 31
+   },
+   {
+    "id": "3.09#5",
+    "text": "Chính sự dừng lại của những kẻ đánh thuê đã trở thành nhịp cầu đưa công lý quay trở lại với vùng đất Tembisa.",
+    "words": 24
+   }
+  ]
+ },
+ {
+  "id": "3.10",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "khép lại Hồi 3",
+  "text": "Một kế hoạch phản gián và gài bẫy ngầm đỉnh cao đã nhanh chóng được thiết lập dưới sự chỉ huy của Thám tử Mabunda. Kẻ thủ ác vẫn đinh ninh rằng đàn em đang răm rắp thi hành mệnh lệnh mà không hề hay biết rằng từng lời nói của mình đang được ghi lại từng giây từng phút. Giờ khắc đền tội của nữ cảnh sát biến chất đã chính thức điểm.",
+  "sentences": [
+   {
+    "id": "3.10#1",
+    "text": "Một kế hoạch phản gián và gài bẫy ngầm đỉnh cao đã nhanh chóng được thiết lập dưới sự chỉ huy của Thám tử Mabunda.",
+    "words": 25
+   },
+   {
+    "id": "3.10#2",
+    "text": "Kẻ thủ ác vẫn đinh ninh rằng đàn em đang răm rắp thi hành mệnh lệnh mà không hề hay biết rằng từng lời nói của mình đang được ghi lại từng giây từng phút.",
+    "words": 35
+   },
+   {
+    "id": "3.10#3",
+    "text": "Giờ khắc đền tội của nữ cảnh sát biến chất đã chính thức điểm.",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "3.11",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "Một nốt piano trầm buồn ngân vang rồi từ từ hòa quyện vào tiếng cello u uất."
+ },
+ {
+  "id": "4.01",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "Âm thanh vĩ cầm dồn dập, giằng xé, tái hiện không khí nghẹt thở của chiến dịch nghiệp vụ bí mật và sự sụp đổ của một đế chế tội ác."
+ },
+ {
+  "id": "4.02",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "mở đầu Hồi 4",
+  "text": "Tháng ba năm 2018, một chiếc xe ô tô lăn bánh dọc theo con đường dẫn tới Bushbuckridge thuộc tỉnh Mpumalanga. Bên trong xe là Rosemary Ndlovu cùng những người mà bà ta tin rằng là những sát thủ thiện chiến được cử đi thi hành hợp đồng thiêu sống sáu mẹ con người em gái. Nữ trung sĩ ngồi ở ghế phụ, hoàn toàn thoải mái chỉ đạo từng chi tiết của vụ phóng hỏa với một sự lạnh lùng đến rợn tóc gáy. Bà ta dặn dò kỹ lưỡng cách tẩm xăng, cách chặn cửa thoát hiểm và cách rời khỏi hiện trường sao cho không để lại bất kỳ dấu vết nào. Thế nhưng, người tài xế đang lái xe thực chất là một cảnh sát chìm dày dạn kinh nghiệm, và toàn bộ khoang xe đã được lắp đặt các thiết bị ghi hình và thu âm bí mật.",
+  "sentences": [
+   {
+    "id": "4.02#1",
+    "text": "Tháng ba năm 2018, một chiếc xe ô tô lăn bánh dọc theo con đường dẫn tới Bushbuckridge thuộc tỉnh Mpumalanga.",
+    "words": 21
+   },
+   {
+    "id": "4.02#2",
+    "text": "Bên trong xe là Rosemary Ndlovu cùng những người mà bà ta tin rằng là những sát thủ thiện chiến được cử đi thi hành hợp đồng thiêu sống sáu mẹ con người em gái.",
+    "words": 35
+   },
+   {
+    "id": "4.02#3",
+    "text": "Nữ trung sĩ ngồi ở ghế phụ, hoàn toàn thoải mái chỉ đạo từng chi tiết của vụ phóng hỏa với một sự lạnh lùng đến rợn tóc gáy.",
+    "words": 29
+   },
+   {
+    "id": "4.02#4",
+    "text": "Bà ta dặn dò kỹ lưỡng cách tẩm xăng, cách chặn cửa thoát hiểm và cách rời khỏi hiện trường sao cho không để lại bất kỳ dấu vết nào.",
+    "words": 30
+   },
+   {
+    "id": "4.02#5",
+    "text": "Thế nhưng, người tài xế đang lái xe thực chất là một cảnh sát chìm dày dạn kinh nghiệm, và toàn bộ khoang xe đã được lắp đặt các thiết bị ghi hình và thu âm bí mật.",
+    "words": 38
+   }
+  ]
+ },
+ {
+  "id": "4.03",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "thuật lại chiến dịch nghiệp vụ và bằng chứng video",
+  "text": "Đoạn video nghiệp vụ ghi lại cuộc trao đổi trên xe ô tô ngày hôm đó đã trở thành bằng chứng vàng có sức nặng tuyệt đối trước tòa án. Trong thước phim được phát công khai tại phiên xét xử, công chúng bàng hoàng chứng kiến cảnh Rosemary mô tả chi tiết cách thức thiêu sống người em gái và các cháu ruột. Bà ta thậm chí còn cười nói thản nhiên và dặn dò các sát thủ không được nương tay ngay cả với đứa trẻ sơ sinh đang bú mẹ. Khi chiếc xe dừng lại tại một điểm hẹn quy định để chuẩn bị hành động, lực lượng đặc nhiệm đã bất ngờ ập tới khống chế và bắt giữ quả tang đối tượng. Tại thời điểm bị tra tay vào còng số tám, Rosemary vẫn tỏ ra vô cùng ngạo mạn và to tiếng quát tháo các đồng đội vì cho rằng họ đã bắt nhầm người. Bà ta tin chắc rằng với nghiệp vụ cảnh sát của mình, bà ta có thể dễ dàng xóa sạch mọi dấu vết và thoát tội như những lần trước.",
+  "sentences": [
+   {
+    "id": "4.03#1",
+    "text": "Đoạn video nghiệp vụ ghi lại cuộc trao đổi trên xe ô tô ngày hôm đó đã trở thành bằng chứng vàng có sức nặng tuyệt đối trước tòa án.",
+    "words": 30
+   },
+   {
+    "id": "4.03#2",
+    "text": "Trong thước phim được phát công khai tại phiên xét xử, công chúng bàng hoàng chứng kiến cảnh Rosemary mô tả chi tiết cách thức thiêu sống người em gái và các cháu ruột.",
+    "words": 34
+   },
+   {
+    "id": "4.03#3",
+    "text": "Bà ta thậm chí còn cười nói thản nhiên và dặn dò các sát thủ không được nương tay ngay cả với đứa trẻ sơ sinh đang bú mẹ.",
+    "words": 29
+   },
+   {
+    "id": "4.03#4",
+    "text": "Khi chiếc xe dừng lại tại một điểm hẹn quy định để chuẩn bị hành động, lực lượng đặc nhiệm đã bất ngờ ập tới khống chế và bắt giữ quả tang đối tượng.",
+    "words": 34
+   },
+   {
+    "id": "4.03#5",
+    "text": "Tại thời điểm bị tra tay vào còng số tám, Rosemary vẫn tỏ ra vô cùng ngạo mạn và to tiếng quát tháo các đồng đội vì cho rằng họ đã bắt nhầm người.",
+    "words": 34
+   },
+   {
+    "id": "4.03#6",
+    "text": "Bà ta tin chắc rằng với nghiệp vụ cảnh sát của mình, bà ta có thể dễ dàng xóa sạch mọi dấu vết và thoát tội như những lần trước.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "4.04",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tiết lộ sự kiên trì của điều tra viên",
+  "text": "Thế nhưng, nữ cảnh sát đã đánh giá quá thấp sự bền bỉ của Thám tử Keshi Benneth Mabunda. Trong suốt nhiều tháng trước đó, Thám tử Mabunda đã âm thầm lật lại toàn bộ hồ sơ của sáu cái chết kỳ lạ liên quan đến Rosemary Ndlovu. Ông đã làm việc không ngừng nghỉ với hàng chục công ty bảo hiểm, các bệnh viện, nhà xác và các ngân hàng để dựng lại mạng lưới dòng tiền khổng lồ. Từng bản hợp đồng khống, từng chữ ký giả mạo và từng mốc thời gian chuyển tiền đều được kết nối lại thành một chuỗi bằng chứng đanh thép.",
+  "sentences": [
+   {
+    "id": "4.04#1",
+    "text": "Thế nhưng, nữ cảnh sát đã đánh giá quá thấp sự bền bỉ của Thám tử Keshi Benneth Mabunda.",
+    "words": 19
+   },
+   {
+    "id": "4.04#2",
+    "text": "Trong suốt nhiều tháng trước đó, Thám tử Mabunda đã âm thầm lật lại toàn bộ hồ sơ của sáu cái chết kỳ lạ liên quan đến Rosemary Ndlovu.",
+    "words": 29
+   },
+   {
+    "id": "4.04#3",
+    "text": "Ông đã làm việc không ngừng nghỉ với hàng chục công ty bảo hiểm, các bệnh viện, nhà xác và các ngân hàng để dựng lại mạng lưới dòng tiền khổng lồ.",
+    "words": 32
+   },
+   {
+    "id": "4.04#4",
+    "text": "Từng bản hợp đồng khống, từng chữ ký giả mạo và từng mốc thời gian chuyển tiền đều được kết nối lại thành một chuỗi bằng chứng đanh thép.",
+    "words": 29
+   }
+  ]
+ },
+ {
+  "id": "4.05",
+  "act": 4,
+  "kind": "LOI",
+  "role": "N",
+  "direction": "N2: Lời tự vấn của Njabulo Kunene, giọng nam run rẩy, đầy giằng xé tội lỗi",
+  "text": "Tôi từng là một kẻ sống bằng những việc làm đen tối ngoài vòng pháp luật và không bao giờ nghĩ mình sẽ hợp tác với cảnh sát. Nhưng khi người đàn bà ấy chỉ vào ngôi nhà có năm đứa trẻ đang ngủ và bảo chúng tôi hãy châm lửa thiêu rụi tất cả, tôi đã lạnh toát sống lưng. Đó không còn là chuyện phạm pháp thông thường nữa, đó là sự tàn sát một bầy trẻ vô tội không có khả năng tự vệ. Hình ảnh những đứa bé vô tội cứ ám ảnh tâm trí tôi suốt cả chặng đường đi, khiến tôi không thể nào thở nổi. Tôi biết rằng nếu tôi đồng ý làm theo lời bà ta, linh hồn tôi sẽ vĩnh viễn bị đọa đày trong tội lỗi và ngọn lửa căm hờn của nhân loại. Việc tôi bước vào đồn cảnh sát để tố cáo không phải để mong được tha thứ, mà là để chặn đứng bàn tay độc ác của một con quỷ đội lốt người.",
+  "sentences": [
+   {
+    "id": "4.05#1",
+    "text": "Tôi từng là một kẻ sống bằng những việc làm đen tối ngoài vòng pháp luật và không bao giờ nghĩ mình sẽ hợp tác với cảnh sát.",
+    "words": 28
+   },
+   {
+    "id": "4.05#2",
+    "text": "Nhưng khi người đàn bà ấy chỉ vào ngôi nhà có năm đứa trẻ đang ngủ và bảo chúng tôi hãy châm lửa thiêu rụi tất cả, tôi đã lạnh toát sống lưng.",
+    "words": 33
+   },
+   {
+    "id": "4.05#3",
+    "text": "Đó không còn là chuyện phạm pháp thông thường nữa, đó là sự tàn sát một bầy trẻ vô tội không có khả năng tự vệ.",
+    "words": 26
+   },
+   {
+    "id": "4.05#4",
+    "text": "Hình ảnh những đứa bé vô tội cứ ám ảnh tâm trí tôi suốt cả chặng đường đi, khiến tôi không thể nào thở nổi.",
+    "words": 25
+   },
+   {
+    "id": "4.05#5",
+    "text": "Tôi biết rằng nếu tôi đồng ý làm theo lời bà ta, linh hồn tôi sẽ vĩnh viễn bị đọa đày trong tội lỗi và ngọn lửa căm hờn của nhân loại.",
+    "words": 32
+   },
+   {
+    "id": "4.05#6",
+    "text": "Việc tôi bước vào đồn cảnh sát để tố cáo không phải để mong được tha thứ, mà là để chặn đứng bàn tay độc ác của một con quỷ đội lốt người.",
+    "words": 33
+   }
+  ]
+ },
+ {
+  "id": "4.06",
+  "act": 4,
+  "kind": "SFX",
+  "desc": "Tiếng đóng sầm cửa xe cảnh sát, tiếng còng số tám khóa lách cách đanh thép."
+ },
+ {
+  "id": "4.07",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tiếp tục diễn biến đối đầu trong phòng thẩm vấn",
+  "text": "Khi bị đưa vào phòng thẩm vấn của Cơ quan Điều tra Độc lập, chiếc mặt nạ kiêu hãnh của nữ trung sĩ bắt đầu bộc lộ những rạn nứt nghiêm trọng. Đối diện với Thám tử Mabunda cùng hàng xấp tài liệu tài chính dày đặc đặt trên bàn, bà ta liên tục thay đổi lời khai và tìm cách chối tội. Bà ta đổ lỗi cho các thầy phù thủy truyền thống đã yểm bùa xui khiến, rồi lại quay sang khẳng định mình mua bảo hiểm chỉ vì lòng tốt muốn giúp đỡ dòng họ. Thế nhưng, khi đoạn video ghi âm ghi hình ngầm được bật lên trên màn hình lớn, căn phòng thẩm vấn bỗng chốc rơi vào sự im lặng đặc quánh. Từng câu chữ lạnh lùng do chính miệng bà ta thốt ra đã tước đoạt toàn bộ không gian biện hộ cuối cùng của kẻ thủ ác.",
+  "sentences": [
+   {
+    "id": "4.07#1",
+    "text": "Khi bị đưa vào phòng thẩm vấn của Cơ quan Điều tra Độc lập, chiếc mặt nạ kiêu hãnh của nữ trung sĩ bắt đầu bộc lộ những rạn nứt nghiêm trọng.",
+    "words": 32
+   },
+   {
+    "id": "4.07#2",
+    "text": "Đối diện với Thám tử Mabunda cùng hàng xấp tài liệu tài chính dày đặc đặt trên bàn, bà ta liên tục thay đổi lời khai và tìm cách chối tội.",
+    "words": 31
+   },
+   {
+    "id": "4.07#3",
+    "text": "Bà ta đổ lỗi cho các thầy phù thủy truyền thống đã yểm bùa xui khiến, rồi lại quay sang khẳng định mình mua bảo hiểm chỉ vì lòng tốt muốn giúp đỡ dòng họ.",
+    "words": 35
+   },
+   {
+    "id": "4.07#4",
+    "text": "Thế nhưng, khi đoạn video ghi âm ghi hình ngầm được bật lên trên màn hình lớn, căn phòng thẩm vấn bỗng chốc rơi vào sự im lặng đặc quánh.",
+    "words": 30
+   },
+   {
+    "id": "4.07#5",
+    "text": "Từng câu chữ lạnh lùng do chính miệng bà ta thốt ra đã tước đoạt toàn bộ không gian biện hộ cuối cùng của kẻ thủ ác.",
+    "words": 27
+   }
+  ]
+ },
+ {
+  "id": "4.08",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "thuật lại phản ứng ngoan cố của đối tượng",
+  "text": "Thay vì cúi đầu nhận tội trước những chứng cứ khoa học không thể chối cãi, đối tượng Ndlovu lại chuyển sang thái độ giận dữ và đe dọa. Bà ta thậm chí còn tìm cách liên hệ với thế giới ngầm từ trong trại giam để thuê sát thủ ám sát chính Thám tử Mabunda và các nhân chứng quan trọng. Hành vi ngoan cố đến cùng này cho thấy mức độ nguy hiểm cực độ và sự băng hoại nhân cách không thể cứu vãn của đối tượng. Tuy nhiên, mọi toan tính bẩn thỉu của bà ta đều bị lực lượng an ninh phong tỏa và đập tan kịp thời.",
+  "sentences": [
+   {
+    "id": "4.08#1",
+    "text": "Thay vì cúi đầu nhận tội trước những chứng cứ khoa học không thể chối cãi, đối tượng Ndlovu lại chuyển sang thái độ giận dữ và đe dọa.",
+    "words": 29
+   },
+   {
+    "id": "4.08#2",
+    "text": "Bà ta thậm chí còn tìm cách liên hệ với thế giới ngầm từ trong trại giam để thuê sát thủ ám sát chính Thám tử Mabunda và các nhân chứng quan trọng.",
+    "words": 33
+   },
+   {
+    "id": "4.08#3",
+    "text": "Hành vi ngoan cố đến cùng này cho thấy mức độ nguy hiểm cực độ và sự băng hoại nhân cách không thể cứu vãn của đối tượng.",
+    "words": 28
+   },
+   {
+    "id": "4.08#4",
+    "text": "Tuy nhiên, mọi toan tính bẩn thỉu của bà ta đều bị lực lượng an ninh phong tỏa và đập tan kịp thời.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "4.09",
+  "act": 4,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "phân tích tâm lý của kẻ thủ ác khi bản ngã sụp đổ",
+  "text": "Quan sát diễn biến hành vi của Rosemary Ndlovu trong suốt quá trình điều tra và xét xử, chúng ta thấy rõ hiện tượng “Sự sụp đổ cái tôi ái kỷ”. Khi nhận thấy quyền lực hành pháp và sự dối trá không còn khả năng thao túng được thực tại, đối tượng rơi vào trạng thái hoảng loạn sâu sắc. Tuy nhiên, ở những kẻ có nhân cách thái nhân cách nặng, sự hoảng loạn này không bao giờ chuyển hóa thành sự ăn năn chân chính. Thay vào đó, nó biến thành “Sự tự thương hại bệnh lý” kết hợp với các màn kịch tính hóa cảm xúc giả tạo. Bà ta gào khóc thảm thiết, than vãn về những cơn đau tức ngực bất ngờ và liên tục gián đoạn phiên tòa bằng các yêu cầu y tế vô căn cứ. Những giọt nước mắt ấy hoàn toàn không phải để khóc thương cho những người thân đã bị bà ta đẩy vào cõi chết dưới tay sát thủ. Đó chỉ là những giọt nước mắt xót xa cho sự tự do đã mất và sự căm phẫn tột cùng khi bản thân bị vạch trần trước toàn thể xã hội.",
+  "sentences": [
+   {
+    "id": "4.09#1",
+    "text": "Quan sát diễn biến hành vi của Rosemary Ndlovu trong suốt quá trình điều tra và xét xử, chúng ta thấy rõ hiện tượng “Sự sụp đổ cái tôi ái kỷ”.",
+    "words": 31
+   },
+   {
+    "id": "4.09#2",
+    "text": "Khi nhận thấy quyền lực hành pháp và sự dối trá không còn khả năng thao túng được thực tại, đối tượng rơi vào trạng thái hoảng loạn sâu sắc.",
+    "words": 30
+   },
+   {
+    "id": "4.09#3",
+    "text": "Tuy nhiên, ở những kẻ có nhân cách thái nhân cách nặng, sự hoảng loạn này không bao giờ chuyển hóa thành sự ăn năn chân chính.",
+    "words": 27
+   },
+   {
+    "id": "4.09#4",
+    "text": "Thay vào đó, nó biến thành “Sự tự thương hại bệnh lý” kết hợp với các màn kịch tính hóa cảm xúc giả tạo.",
+    "words": 24
+   },
+   {
+    "id": "4.09#5",
+    "text": "Bà ta gào khóc thảm thiết, than vãn về những cơn đau tức ngực bất ngờ và liên tục gián đoạn phiên tòa bằng các yêu cầu y tế vô căn cứ.",
+    "words": 32
+   },
+   {
+    "id": "4.09#6",
+    "text": "Những giọt nước mắt ấy hoàn toàn không phải để khóc thương cho những người thân đã bị bà ta đẩy vào cõi chết dưới tay sát thủ.",
+    "words": 28
+   },
+   {
+    "id": "4.09#7",
+    "text": "Đó chỉ là những giọt nước mắt xót xa cho sự tự do đã mất và sự căm phẫn tột cùng khi bản thân bị vạch trần trước toàn thể xã hội.",
+    "words": 32
+   }
+  ]
+ },
+ {
+  "id": "4.10",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "khép lại Hồi 4",
+  "text": "Cuộc điều tra kéo dài nhiều năm ròng rã cuối cùng đã khép lại bằng một bản cáo trạng lịch sử gồm hàng chục tội danh giết người và lừa đảo. Ánh sáng của công lý và lòng dũng cảm của các điều tra viên đã chính thức đưa kẻ thủ ác ra trước vành móng ngựa của công lý tối cao.",
+  "sentences": [
+   {
+    "id": "4.10#1",
+    "text": "Cuộc điều tra kéo dài nhiều năm ròng rã cuối cùng đã khép lại bằng một bản cáo trạng lịch sử gồm hàng chục tội danh giết người và lừa đảo.",
+    "words": 31
+   },
+   {
+    "id": "4.10#2",
+    "text": "Ánh sáng của công lý và lòng dũng cảm của các điều tra viên đã chính thức đưa kẻ thủ ác ra trước vành móng ngựa của công lý tối cao.",
+    "words": 31
+   }
+  ]
+ },
+ {
+  "id": "4.11",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "Một nốt nhạc u uất lắng xuống rồi tan biến vào tiếng thở dài nặng nhọc."
+ },
+ {
+  "id": "5.01",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "Nhạc nền chuyển sang giai điệu Piano ấm áp, sâu lắng, mang âm hưởng triết lý nhân văn và thức tỉnh lương tri sâu sắc."
+ },
+ {
+  "id": "5.02",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng suy ngẫm, triết lý và đầy xúc động",
+  "text": "Tháng mười một năm 2021, tại Tòa án Cấp cao Nam Phi chi nhánh Palm Ridge, phiên tòa xét xử Nomia Rosemary Ndlovu đã thu hút sự chú ý của hàng triệu người dân trên toàn thế giới. Khán phòng chật kín người tham dự, từ những thân nhân còn sống sót của các nạn nhân cho tới các sĩ quan cảnh sát và đông đảo giới truyền thông quốc tế. Đứng trước vành móng ngựa, kẻ từng một thời thét ra lửa tại đồn cảnh sát Tembisa South giờ đây phải đối diện với sự thật trần trụi về những tội ác ghê tởm của chính mình. Không còn chiếc áo đồng phục cảnh sát che chắn, không còn những lời dối trá ngọt ngào, chỉ còn lại sự cô độc của một tâm hồn đã bị lòng tham làm hoen rỉ.",
+  "sentences": [
+   {
+    "id": "5.02#1",
+    "text": "Tháng mười một năm 2021, tại Tòa án Cấp cao Nam Phi chi nhánh Palm Ridge, phiên tòa xét xử Nomia Rosemary Ndlovu đã thu hút sự chú ý của hàng triệu người dân trên toàn thế giới.",
+    "words": 38
+   },
+   {
+    "id": "5.02#2",
+    "text": "Khán phòng chật kín người tham dự, từ những thân nhân còn sống sót của các nạn nhân cho tới các sĩ quan cảnh sát và đông đảo giới truyền thông quốc tế.",
+    "words": 33
+   },
+   {
+    "id": "5.02#3",
+    "text": "Đứng trước vành móng ngựa, kẻ từng một thời thét ra lửa tại đồn cảnh sát Tembisa South giờ đây phải đối diện với sự thật trần trụi về những tội ác ghê tởm của chính mình.",
+    "words": 37
+   },
+   {
+    "id": "5.02#4",
+    "text": "Không còn chiếc áo đồng phục cảnh sát che chắn, không còn những lời dối trá ngọt ngào, chỉ còn lại sự cô độc của một tâm hồn đã bị lòng tham làm hoen rỉ.",
+    "words": 35
+   }
+  ]
+ },
+ {
+  "id": "5.03",
+  "act": 5,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "đúc kết sự thức tỉnh và bài học hành vi",
+  "text": "Hồ sơ Rosemary Ndlovu để lại một khoảng trống đau đớn nhưng đồng thời cung cấp những bài học vô giá cho khoa học hành vi và tâm lý học xã hội. Vụ án này phá vỡ hoàn toàn định kiến ngây thơ cho rằng phụ nữ và những người làm công tác bảo vệ pháp luật luôn miễn nhiễm với xu hướng giết người hàng loạt. Lòng tham bệnh lý kết hợp với cơn nghiện cờ bạc và sự tha hóa quyền lực có thể biến bất kỳ ai thành một con quái vật nếu thiếu đi sự kiểm soát nghiêm ngặt. Đồng thời, sự việc cũng gióng lên hồi chuông cảnh báo về mối hiểm họa của “Hiệu ứng Hào quang” trong các mối quan hệ xã hội và công việc. Chúng ta thường có xu hướng hạ thấp cảnh giác trước những người mang danh phận cao quý hoặc những người có quan hệ huyết thống ruột thịt. Thế nhưng, lịch sử tư pháp đã chứng minh rằng sự phản bội đau đớn nhất luôn xuất phát từ chính những người mà chúng ta trao gửi niềm tin trọn vẹn nhất.",
+  "sentences": [
+   {
+    "id": "5.03#1",
+    "text": "Hồ sơ Rosemary Ndlovu để lại một khoảng trống đau đớn nhưng đồng thời cung cấp những bài học vô giá cho khoa học hành vi và tâm lý học xã hội.",
+    "words": 32
+   },
+   {
+    "id": "5.03#2",
+    "text": "Vụ án này phá vỡ hoàn toàn định kiến ngây thơ cho rằng phụ nữ và những người làm công tác bảo vệ pháp luật luôn miễn nhiễm với xu hướng giết người hàng loạt.",
+    "words": 35
+   },
+   {
+    "id": "5.03#3",
+    "text": "Lòng tham bệnh lý kết hợp với cơn nghiện cờ bạc và sự tha hóa quyền lực có thể biến bất kỳ ai thành một con quái vật nếu thiếu đi sự kiểm soát nghiêm ngặt.",
+    "words": 36
+   },
+   {
+    "id": "5.03#4",
+    "text": "Đồng thời, sự việc cũng gióng lên hồi chuông cảnh báo về mối hiểm họa của “Hiệu ứng Hào quang” trong các mối quan hệ xã hội và công việc.",
+    "words": 30
+   },
+   {
+    "id": "5.03#5",
+    "text": "Chúng ta thường có xu hướng hạ thấp cảnh giác trước những người mang danh phận cao quý hoặc những người có quan hệ huyết thống ruột thịt.",
+    "words": 28
+   },
+   {
+    "id": "5.03#6",
+    "text": "Thế nhưng, lịch sử tư pháp đã chứng minh rằng sự phản bội đau đớn nhất luôn xuất phát từ chính những người mà chúng ta trao gửi niềm tin trọn vẹn nhất.",
+    "words": 33
+   }
+  ]
+ },
+ {
+  "id": "5.04",
+  "act": 5,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "nhận định di sản tư pháp và bản án",
+  "text": "Thẩm phán Ramarumo Monama đã tuyên phạt Nomia Rosemary Ndlovu sáu án tù chung thân liên tiếp cho sáu tội danh giết người dã man. Cộng thêm ba mươi năm tù giam cho các tội danh âm mưu giết người, lừa đảo chiếm đoạt tài sản bảo hiểm và cản trở tiến trình thực thi công lý. Trong phần tuyên án đanh thép kéo dài nhiều giờ đồng hồ, Thẩm phán nhấn mạnh rằng hành vi của bị cáo là sự sỉ nhục nghiêm trọng nhất đối với màu cờ sắc phục của lực lượng cảnh sát Nam Phi trong suốt gần chín mươi năm qua. Bản án nghiêm khắc này là lời khẳng định đanh thép rằng không một ai, dù mang trên mình bất kỳ cấp bậc hay quyền lực nào, có thể đứng trên luật pháp và sinh mạng của đồng loại. Thắng lợi của chuyên án cũng là minh chứng cho sự kiên định không khoan nhượng của lực lượng điều tra liêm chính, đại diện bởi Thám tử Mabunda.",
+  "sentences": [
+   {
+    "id": "5.04#1",
+    "text": "Thẩm phán Ramarumo Monama đã tuyên phạt Nomia Rosemary Ndlovu sáu án tù chung thân liên tiếp cho sáu tội danh giết người dã man.",
+    "words": 25
+   },
+   {
+    "id": "5.04#2",
+    "text": "Cộng thêm ba mươi năm tù giam cho các tội danh âm mưu giết người, lừa đảo chiếm đoạt tài sản bảo hiểm và cản trở tiến trình thực thi công lý.",
+    "words": 32
+   },
+   {
+    "id": "5.04#3",
+    "text": "Trong phần tuyên án đanh thép kéo dài nhiều giờ đồng hồ, Thẩm phán nhấn mạnh rằng hành vi của bị cáo là sự sỉ nhục nghiêm trọng nhất đối với màu cờ sắc phục của lực lượng cảnh sát Nam Phi trong suốt gần chín mươi năm qua.",
+    "words": 49
+   },
+   {
+    "id": "5.04#4",
+    "text": "Bản án nghiêm khắc này là lời khẳng định đanh thép rằng không một ai, dù mang trên mình bất kỳ cấp bậc hay quyền lực nào, có thể đứng trên luật pháp và sinh mạng của đồng loại.",
+    "words": 39
+   },
+   {
+    "id": "5.04#5",
+    "text": "Thắng lợi của chuyên án cũng là minh chứng cho sự kiên định không khoan nhượng của lực lượng điều tra liêm chính, đại diện bởi Thám tử Mabunda.",
+    "words": 29
+   }
+  ]
+ },
+ {
+  "id": "5.05",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "chuyển sang phần đúc kết và bài học nhận diện",
+  "text": "Khi bản án lịch sử được tuyên đọc, một sự im lặng trang nghiêm bao trùm lấy toàn bộ phòng xử án trước khi vỡ òa trong những giọt nước mắt của gia đình nạn nhân. Bà mẹ già Maria Mushwana ngồi ở hàng ghế đầu, đôi mắt ngấn lệ nhìn đứa con gái ruột đang bị áp giải rời khỏi phòng xử án trong chiếc còng sắt lạnh ngắt. Nỗi đau mất đi những đứa con, đứa cháu thân yêu sẽ là vết thương không bao giờ có thể lành lặn trong tâm khảm của người mẹ già tội nghiệp. Nhưng ít nhất, linh hồn của Maurice Mabasa, của Audrey, của Witness Homu và những đứa trẻ xấu số đã có thể tìm thấy chút thanh thản nơi suối vàng. Từ thảm kịch đẫm nước mắt của hồ sơ Rosemary Ndlovu, kênh Amber Eyes xin gửi gắm tới cộng đồng ba nguyên tắc cảnh báo đỏ sinh tồn cốt lõi để bảo vệ bản thân và gia đình: Thứ nhất, hãy luôn cảnh giác cao độ trước mọi yêu cầu cung cấp thông tin cá nhân hoặc việc đứng tên trên các hợp đồng tài chính, bảo hiểm mờ ám, ngay cả khi yêu cầu đó đến từ chính người thân ruột thịt. Thứ hai, tuyệt đối không bao giờ chủ quan hay để cho “Hiệu ứng Hào quang” của sắc phục, chức vị hay danh tiếng xã hội làm tê liệt trực giác an toàn tự nhiên của bản thân. Thứ ba, khi phát hiện các dấu hiệu bạo lực tiềm ẩn, âm mưu tội ác hoặc những bất thường đe dọa sinh mạng, hãy dũng cảm tìm kiếm sự hỗ trợ từ các cơ quan bảo vệ pháp luật độc lập thay vì im lặng thỏa hiệp. Mỗi hành trình giải mã tâm lý tội phạm cùng Amber Eyes không nhằm khơi gợi nỗi sợ hãi, mà để thắp sáng sự hiểu biết và nâng cao nhận thức bảo vệ bản thân cho mỗi chúng ta. Chiếc mặt nạ hoàn hảo của cái ác có thể đánh lừa được mắt nhìn nhất thời, nhưng lương tri và sự thật sẽ luôn là ngọn hải đăng soi rọi công lý. Xin hãy luôn trân trọng cuộc sống, bảo vệ những người thân yêu và giữ vững sự tỉnh thức trước mọi cám dỗ và nguy cơ tiềm ẩn. Cảm ơn quý vị khán giả đã luôn đồng hành cùng kênh trong từng tập hồ sơ chuyên sâu. Xin chào và hẹn gặp lại quý vị trong những hành trình tiếp theo.",
+  "sentences": [
+   {
+    "id": "5.05#1",
+    "text": "Khi bản án lịch sử được tuyên đọc, một sự im lặng trang nghiêm bao trùm lấy toàn bộ phòng xử án trước khi vỡ òa trong những giọt nước mắt của gia đình nạn nhân.",
+    "words": 36
+   },
+   {
+    "id": "5.05#2",
+    "text": "Bà mẹ già Maria Mushwana ngồi ở hàng ghế đầu, đôi mắt ngấn lệ nhìn đứa con gái ruột đang bị áp giải rời khỏi phòng xử án trong chiếc còng sắt lạnh ngắt.",
+    "words": 34
+   },
+   {
+    "id": "5.05#3",
+    "text": "Nỗi đau mất đi những đứa con, đứa cháu thân yêu sẽ là vết thương không bao giờ có thể lành lặn trong tâm khảm của người mẹ già tội nghiệp.",
+    "words": 31
+   },
+   {
+    "id": "5.05#4",
+    "text": "Nhưng ít nhất, linh hồn của Maurice Mabasa, của Audrey, của Witness Homu và những đứa trẻ xấu số đã có thể tìm thấy chút thanh thản nơi suối vàng.",
+    "words": 30
+   },
+   {
+    "id": "5.05#5",
+    "text": "Từ thảm kịch đẫm nước mắt của hồ sơ Rosemary Ndlovu, kênh Amber Eyes xin gửi gắm tới cộng đồng ba nguyên tắc cảnh báo đỏ sinh tồn cốt lõi để bảo vệ bản thân và gia đình:",
+    "words": 38
+   },
+   {
+    "id": "5.05#6",
+    "text": "Thứ nhất, hãy luôn cảnh giác cao độ trước mọi yêu cầu cung cấp thông tin cá nhân hoặc việc đứng tên trên các hợp đồng tài chính, bảo hiểm mờ ám, ngay cả khi yêu cầu đó đến từ chính người thân ruột thịt.",
+    "words": 45
+   },
+   {
+    "id": "5.05#7",
+    "text": "Thứ hai, tuyệt đối không bao giờ chủ quan hay để cho “Hiệu ứng Hào quang” của sắc phục, chức vị hay danh tiếng xã hội làm tê liệt trực giác an toàn tự nhiên của bản thân.",
+    "words": 38
+   },
+   {
+    "id": "5.05#8",
+    "text": "Thứ ba, khi phát hiện các dấu hiệu bạo lực tiềm ẩn, âm mưu tội ác hoặc những bất thường đe dọa sinh mạng, hãy dũng cảm tìm kiếm sự hỗ trợ từ các cơ quan bảo vệ pháp luật độc lập thay vì im lặng thỏa hiệp.",
+    "words": 48
+   },
+   {
+    "id": "5.05#9",
+    "text": "Mỗi hành trình giải mã tâm lý tội phạm cùng Amber Eyes không nhằm khơi gợi nỗi sợ hãi, mà để thắp sáng sự hiểu biết và nâng cao nhận thức bảo vệ bản thân cho mỗi chúng ta.",
+    "words": 39
+   },
+   {
+    "id": "5.05#10",
+    "text": "Chiếc mặt nạ hoàn hảo của cái ác có thể đánh lừa được mắt nhìn nhất thời, nhưng lương tri và sự thật sẽ luôn là ngọn hải đăng soi rọi công lý.",
+    "words": 33
+   },
+   {
+    "id": "5.05#11",
+    "text": "Xin hãy luôn trân trọng cuộc sống, bảo vệ những người thân yêu và giữ vững sự tỉnh thức trước mọi cám dỗ và nguy cơ tiềm ẩn.",
+    "words": 28
+   },
+   {
+    "id": "5.05#12",
+    "text": "Cảm ơn quý vị khán giả đã luôn đồng hành cùng kênh trong từng tập hồ sơ chuyên sâu.",
+    "words": 19
+   },
+   {
+    "id": "5.05#13",
+    "text": "Xin chào và hẹn gặp lại quý vị trong những hành trình tiếp theo.",
+    "words": 14
+   }
+  ]
+ },
+ {
+  "id": "5.06",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "Nhạc nền ngân vang ấm áp, trang trọng rồi từ từ nhỏ dần và kết thúc trọn vẹn trong sự thanh thản."
+ }
+]

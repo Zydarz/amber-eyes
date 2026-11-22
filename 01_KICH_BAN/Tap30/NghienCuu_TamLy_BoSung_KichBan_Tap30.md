@@ -9,15 +9,26 @@
 
 ## MỤC LỤC
 1. [TỔNG QUAN YÊU CẦU & BỐI CẢNH VỤ ÁN](#1-tổng-quan-yêu-cầu--bối-cảnh-vụ-án)
+   - 1.1. Yêu cầu của người dùng
+   - 1.2. Giá trị định vị kênh Amber eyes
 2. [GIẢI MÃ CHUYÊN SÂU BIẾN CHUYỂN TÂM LÝ 5 CHỦ THỂ](#2-giải-mã-chuyên-sâu-biến-chuyển-tâm-lý-5-chủ-thể)
-   - 2.1. [Tội phạm (Chris Watts): Ái kỷ kín đáo, Chia ngăn bệnh lý & Ảo tưởng tái sinh](#21-tội-phạm-chris-watts-ái-kỷ-kín-đáo-chia-ngăn-bệnh-lý--ảo-tưởng-tái-sinh)
-   - 2.2. [Đồng phạm / Kẻ xúc tác (Nichol Kessinger): Tại sao lại vội vã hợp tác? Cơ chế tâm lý gì ở đây?](#22-đồng-phạm--kẻ-xúc-tác-nichol-kessinger-tại-sao-lại-vội-vã-hợp-tác-cơ-chế-tâm-lý-gì-ở-đây)
-   - 2.3. [Nạn nhân (Shanann Watts & Hai con gái Bella, Celeste): Trực giác báo động, Nỗ lực hàn gắn tuyệt vọng & Nỗi kinh hoàng của sự phản bội](#23-nạn-nhân-shanann-watts--hai-con-gái-bella-celeste-trực-giác-báo-động-nỗ-lực-hàn-gắn-tuyệt-vọng--nỗi-kinh-hoàng-của-sự-phản-bội)
-   - 2.4. [Nhân chứng & Gia đình (Nickole Atkinson, Cha mẹ Shanann): Linh cảm tình bạn đập tan toan tính & Nỗi đau tột cùng của người thân](#24-nhân-chứng--gia-đình-nickole-atkinson-cha-mẹ-shanann-linh-cảm-tình-bạn-đập-tan-toan-tính--nỗi-đau-tột-cùng-của-người-thân)
-   - 2.5. [Người dân & Xã hội (Hàng xóm Nate Trinastich, Cộng đồng mạng): Điểm mù vùng ngoại ô kiểu mẫu & Sự kinh hoàng tập thể trước chiếc mặt nạ mạng xã hội](#25-người-dân--xã-hội-hàng-xóm-nate-trinastich-cộng-đồng-mạng-điểm-mù-vùng-ngoại-ô-kiểu-mẫu--sự-kinh-hoàng-tập-thể-trước-chiếc-mặt-nạ-mạng-xã-hội)
+   - 2.1. Tội phạm (Chris Watts): Ái kỷ kín đáo, Chia ngăn bệnh lý & Ảo tưởng tái sinh
+   - 2.2. Đồng phạm / Kẻ xúc tác (Nichol Kessinger): Tại sao lại vội vã hợp tác? Cơ chế tâm lý gì ở đây?
+   - 2.3. Nạn nhân (Shanann Watts & Các con): Trực giác báo động, Nỗ lực hàn gắn & Nỗi kinh hoàng của sự phản bội
+   - 2.4. Nhân chứng & Gia đình (Nickole Atkinson, Nate Trinastich, Nhà Rzucek): Linh cảm phá tan toan tính
+   - 2.5. Người dân & Xã hội: Điểm mù vùng ngoại ô kiểu mẫu & Chấn thương tập thể trước chiếc mặt nạ ảo
 3. [CƠ CHẾ TÂM LÝ VỀ SỰ HỐI HẬN & THÚ TỘI TRONG VỤ ÁN CHRIS WATTS](#3-cơ-chế-tâm-lý-về-sự-hối-hận--thú-tội-trong-vụ-án-chris-watts)
-4. [KHUNG KỊCH BẢN BỔ SUNG CHI TIẾT (5 HỒI ĐẦY ĐỦ 245 CÂU)](#4-khung-kịch-bản-bổ-sung-chi-tiết-5-hồi-đầy-đủ-245-câu)
-5. [ĐỐI CHIẾU ĐỒNG BỘ 3 NGÔN NGỮ: VIỆT - ANH - NHẬT](#5-đối-chiếu-đồng-bộ-3-ngôn-ngữ-việt---anh---nhật)
+   - 3.1. Sự sụp đổ phòng vệ khi đối diện máy phát hiện nói dối
+   - 3.2. Cơ chế Đổ lỗi cho nạn nhân như một chiếc phao cứu sinh bản ngã
+   - 3.3. Phân biệt rạch ròi: Hối hận đạo đức chân thực vs. Tự thương hại bệnh lý
+4. [KHUNG KỊCH BẢN BỔ SUNG CHI TIẾT (CHUẨN ĐỊNH DẠNG A2/K10 — 240 CÂU THOẠI)](#4-khung-kịch-bản-bổ-sung-chi-tiết-chuẩn-định-dạng-a2k10--240-câu-thoại)
+   - Hồi 1: Buổi sáng bất thường & Vết nứt trên bậc thềm ngoại ô
+   - Hồi 2: Dữ liệu điện tử, Ái kỷ kín đáo & Cơn nghiện ảo tưởng tự do
+   - Hồi 3: Cuộc đấu trí trong phòng hỏi cung & Phép thử máy phát hiện nói dối
+   - Hồi 4: Hiện trường Cervi 319, Sự thật tàn nhẫn & Cơ chế đổ lỗi nạn nhân
+   - Hồi 5: Phiên tòa phán quyết, Giải mã tự thương hại & Cảnh báo đỏ sinh tồn
+5. [ĐỐI CHIẾU ĐỒNG BỘ 3 NGÔN NGỮ (VIỆT - ANH - NHẬT)](#5-đối-chiếu-đồng-bộ-3-ngôn-ngữ-việt---anh---nhật)
+6. [KẾT LUẬN & KIẾN NGHỊ SẢN XUẤT](#6-kết-luận--kiến-nghị-sản-xuất)
 
 ---
 
@@ -27,12 +38,16 @@
 - Nghiên cứu và viết bổ sung kịch bản cho **Tập 30 (Hồ sơ Chris Watts)** đầy đủ 3 ngôn ngữ: **Việt (VN), Anh (EN), Nhật (JA)**.
 - Phân tích sâu sắc hơn về biến chuyển tâm lý con người qua 5 chủ thể:
   1. **Tội phạm** (Chris Watts)
-  2. **Đồng phạm / Nhân tình** (Nichol Kessinger)
-  3. **Nạn nhân** (Shanann Watts, bé Bella & Celeste)
-  4. **Nhân chứng / Gia đình** (Nickole Atkinson, Frank Rzucek, Frankie Rzucek)
-  5. **Người dân / Cộng đồng** (Người hàng xóm Nate Trinastich, cộng đồng mạng xã hội)
+  2. **Đồng phạm / Nhân tình / Kẻ xúc tác** (Nichol Kessinger)
+  3. **Nạn nhân** (Shanann Watts, hai bé Bella & Celeste, thai nhi Nico)
+  4. **Nhân chứng / Gia đình** (Nickole Atkinson, Nate Trinastich, Frank Rzucek)
+  5. **Người dân / Cộng đồng** (Hàng xóm vùng ngoại ô, cộng đồng mạng xã hội)
 - Đào sâu cơ chế tâm lý: **Tại sao lại hối hận? Bản chất của sự ăn năn, cơ chế thú tội, hay đây chỉ là sự tự thương hại và toan tính sinh tồn?**
-- Tham khảo bản chỉnh sửa mới nhất của **Tập 10 (Colleen Stan)**: Cấu trúc 383 dòng, 240-245 câu thoại, đồng bộ từng dòng giữa 3 ngôn ngữ, tuân thủ tuyệt đối quy tắc A2c/K10 và V9.
+- Tham khảo bản chỉnh sửa mới nhất của **Tập 10 (Colleen Stan)**: Cấu trúc 52 phần tử, 36 lượt thoại, 240 câu thoại chuẩn mực (>200 câu), đồng bộ từng dòng giữa 3 ngôn ngữ, tuân thủ tuyệt đối quy tắc A2c/K10 và V9.
+
+### 1.2. Giá trị định vị kênh Amber eyes
+- Kênh **Amber eyes** không đưa tin giật gân, không biến kịch bản thành phóng sự phá án thuần túy hay mô tả ghê rợn (Rule V9).
+- Trọng tâm là giải phẫu cấu trúc tâm lý tội phạm, cơ chế phòng vệ nhận thức, vi biểu cảm, chiến thuật điều tra hành vi và rút ra bài học nhận diện kẻ hủy diệt ngầm trong hôn nhân để bảo vệ sinh tồn cộng đồng.
 
 ---
 
@@ -43,10 +58,10 @@
 │                 HỆ THỐNG BIẾN CHUYỂN TÂM LÝ TRONG VỤ ÁN CHRIS WATTS        │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ 1. KẺ THỦ ÁC (Chris Watts)                                                  │
-│    Ái kỷ kín đáo ──> Ức chế & Phân ngăn ──> Ảo tưởng Tự do ──> Hủy diệt   │
-│    Sau cùng: "Hối hận" chỉ là Tự thương hại (Pathological Self-Pity)        │
+│    Ái kỷ kín đáo ──> Kìm nén & Phân ngăn ──> Ảo tưởng Tự do ──> Hủy diệt   │
+│    Sau cùng: "Hối hận" chỉ là Tự thương hại bệnh lý (Pathological Self-Pity) │
 │                                                                             │
-│ 2. NHÂN TÌNH / ĐỒNG PHẠM VỀ MẶT TÂM LÝ (Nichol Kessinger)                  │
+│ 2. NHÂN TÌNH / KẺ XÚC TÁC (Nichol Kessinger)                                │
 │    Thao túng cái tôi ──> Nhận thức nguy cơ ──> Bản năng tự vệ pháp lý       │
 │    "Hối hận/Hợp tác" = Instrumental Remorse (Bảo toàn bản thân)             │
 │                                                                             │
@@ -61,68 +76,79 @@
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
----
-
 ### 2.1. Tội phạm (Chris Watts): Ái kỷ kín đáo, Chia ngăn bệnh lý & Ảo tưởng tái sinh
-- **Nhân cách Ái kỷ kín đáo (Covert Narcissism):** Không phô trương, luôn đóng vai người đàn ông hiền lành, nhu nhược, chiều vợ. Nhưng bên trong là sự tích tụ oán hận âm thầm khi cái tôi bị lấn át.
-- **Cơ chế Phân ngăn tâm trí (Compartmentalization):** Chia cuộc đời thành hai ngăn kín: Ngăn gia đình (gánh nặng, ngột ngạt) và Ngăn tình nhân (tự do, được tôn sùng). Hắn không thấy mình là kẻ ác; trong nhận thức méo mó của hắn, gia đình chỉ là một "chướng ngại vật vật lý" cần được gỡ bỏ để hắn bước sang ngăn tự do.
-- **Hội chứng Kẻ hủy diệt gia đình (Family Annihilator - Self-preservation subtype):** Khác với kẻ giết người vì trầm cảm muốn cứu con khỏi đau khổ, Chris thuộc nhánh sát hại người thân để **tự bảo toàn và tái sinh cuộc sống cá nhân**.
-
----
+- **Nhân cách Ái kỷ kín đáo (Covert Narcissism):**
+  - Khác với kẻ ái kỷ phô trương (Overt Narcissist) luôn đòi hỏi sự chú ý ồn ào, kẻ ái kỷ kín đáo khoác lên mình tấm áo người đàn ông nhu mì, hiền lành, chiều chuộng vợ. Nhưng bên trong là một bản ngã cực kỳ mong manh và một cảm thức đặc quyền ngầm.
+  - Hắn phụ thuộc vào một người bạn đời lấn lướt để định hình cấu trúc cuộc sống (trước là mẹ, sau là Shanann). Khi cái tôi bị kìm nén suốt nhiều năm, hắn không chọn cách giao tiếp hay ly hôn lành mạnh, mà âm thầm tích tụ sự căm phẫn và nuôi dưỡng cảm giác mình là "nạn nhân bất hạnh".
+- **Cơ chế Phân ngăn tâm trí bệnh lý (Compartmentalization):**
+  - Chris chia cuộc sống thành hai ngăn độc lập tuyệt đối: Ngăn 1 là gánh nặng gia đình, trách nhiệm làm cha, các khoản nợ tài chính và sự kiểm soát; Ngăn 2 là thế giới tự do, tình dục, sự ngưỡng mộ bên nhân tình Nichol Kessinger.
+  - Nguy hiểm ở chỗ, khi đứng ở Ngăn 2, Ngăn 1 bị hắn tước đoạt hoàn toàn tính người (Dehumanization). Vợ và các con biến thành "những vật cản vật lý" cản đường hắn đến với tự do.
+- **Hội chứng Kẻ hủy diệt gia đình (Family Annihilator - Nhánh tự bảo toàn bản ngã):**
+  - Criminologists chia kẻ hủy diệt gia đình thành 4 nhóm: Tự vẫn vì trầm cảm, Trừng phạt bạn đời, Hoang tưởng cứu rỗi, và Tự bảo toàn bản ngã (Self-preservation).
+  - Chris thuộc nhánh *Tự bảo toàn bản ngã*: Hắn giết người không phải vì bế tắc muốn chết cùng gia đình, mà để xóa sạch quá khứ, trốn tránh trách nhiệm chu cấp sau ly hôn và tái sinh một bản ngã mới bên nhân tình.
 
 ### 2.2. Đồng phạm / Kẻ xúc tác (Nichol Kessinger): Tại sao lại vội vã hợp tác? Cơ chế tâm lý gì ở đây?
-- **Vai trò tâm lý:** Dù không bị kết tội hình sự, Nichol là **ngòi nổ xúc tác tâm lý cực hạn**. Cô ta liên tục tạo áp lực vô thức về "những lần đầu tiên" (con đầu lòng, căn nhà đầu tiên), thúc đẩy ảo tưởng của Chris rằng hắn phải xóa sổ cuộc hôn nhân cũ để có thể toàn tâm cho cô ta.
-- **Tại sao lại chủ động đến gặp cảnh sát và vội vã xóa dấu vết?**
-  1. *Bản năng tự vệ sinh tồn (Self-preservation Instinct):* Ngay khi thấy tin Shanann mất tích trên truyền hình, Nichol hiểu ngay Chris là kẻ gây ra. Cô ta nhận thức được rằng mình đang ở vị trí của một nghi phạm số một hoặc đồng phạm bắt cóc/giết người.
-  2. *Bất hòa nhận thức sụp đổ (Cognitive Dissonance Collapse):* Người đàn ông "ngọt ngào, sắp ly hôn" hóa ra là kẻ nói dối, vợ đang mang thai tuần thứ 15 và hai con nhỏ. Nỗi sợ hãi bị liên đới pháp lý lấn át mọi cảm xúc lãng mạn.
-  3. *Hối hận công cụ (Instrumental Remorse):* Sự hợp tác của Nichol không thuần túy là sự ăn năn đạo đức; đó là chiến thuật bảo toàn bản thân. Cô ta giao nộp tin nhắn nhưng trước đó đã xóa sạch lịch sử cuộc gọi và tìm kiếm nhạy cảm.
+- **Vai trò xúc tác tâm lý (Psychological Catalyst):**
+  - Dù cơ quan chức năng khẳng định Nichol Kessinger không tham gia trực tiếp vào việc lên kế hoạch hay thực hiện hành vi sát hại, cô ta là ngòi nổ cực hạn đánh thức ảo tưởng hủy diệt của Chris.
+  - Nichol liên tục tạo áp lực vô thức về "những lần đầu tiên" (muốn sinh cho Chris đứa con trai đầu lòng, muốn cùng mua căn nhà đầu tiên), thúc đẩy niềm tin lệch lạc trong đầu Chris rằng hắn phải xóa sổ hoàn toàn gia đình cũ thì mới có thể trọn vẹn bước vào tương lai.
+- **Tại sao Nichol lại chủ động hợp tác và đầu thú thông tin với cảnh sát?**
+  1. *Bản năng tự vệ sinh tồn (Self-Preservation Instinct):* Ngay khi thấy tin Shanann và hai con mất tích trên truyền hình, Nichol hiểu ngay mối liên hệ. Cô ta rơi vào hoảng loạn cực độ vì nhận thức rằng mình đang ở vị trí của nghi can đồng lõa hoặc kẻ chủ mưu thúc đẩy tội ác.
+  2. *Hối hận mang tính công cụ (Instrumental Remorse):* Hành vi của Nichol là ví dụ điển hình của sự hợp tác vì tự vệ. Trước khi đến đồn cảnh sát cùng cha mình vào ngày 16/8/2018, Nichol đã chủ động xóa sạch toàn bộ lịch sử tin nhắn, cuộc gọi và tìm kiếm nhạy cảm trên điện thoại.
+  3. *Bất hòa nhận thức sụp đổ:* Hình ảnh người đàn ông "sắp ly hôn, hiền lành, yêu thương" sụp đổ hoàn toàn trước sự thật về kẻ sát nhân máu lạnh. Để bảo vệ tương lai và bản thân khỏi cáo buộc hình sự, cô ta buộc phải cắt đứt toàn bộ sợi dây liên kết và biến mình thành nhân chứng hợp tác tích cực nhất.
 
----
+### 2.3. Nạn nhân (Shanann Watts & Các con): Trực giác báo động, Nỗ lực hàn gắn & Nỗi kinh hoàng của sự phản bội
+- **Linh cảm & Trực giác sinh tồn bị phớt lờ:**
+  - Trong 6 tuần ở North Carolina, Shanann đã cảm nhận rõ sự lạnh lẽo đến rợn người từ chồng: "Anh ấy không chạm vào tôi", "Anh ấy như một tảng băng xa lạ".
+  - Thay vì bỏ chạy hay cảnh giác, người phụ nữ mang thai lại kích hoạt cơ chế hạ mình cầu xin, mua sách hàn gắn hôn nhân, gửi tâm thư tha thiết. Sự thấu cảm và tình yêu của nạn nhân đã vô tình biến thành điểm yếu chí mạng khi đối diện với kẻ ái kỷ đã ngắt kết nối thấu cảm.
+- **Sốc nhận thức tột cùng (Terminal Cognitive Shock):**
+  - Shanann bị tấn công ngay trên giường ngủ, trong trạng thái kiệt sức sau chuyến bay đêm. Bi kịch lớn nhất của cô là khoảnh khắc nhận ra người đàn ông mình từng yêu thương và tin tưởng suốt 8 năm lại chính là kẻ đang tước đoạt sinh mạng của mình và đứa con chưa chào đời.
+- **Nạn nhân trẻ thơ:**
+  - Tiếng van nài ngây thơ của bé Bella trên cánh đồng Cervi 319: "Bố đừng làm thế với con" là bằng chứng phơi bày sự triệt tiêu hoàn toàn thấu cảm (Empathy Deficit) của một kẻ ái kỷ khi đã bước vào cơn say hủy diệt.
 
-### 2.3. Nạn nhân (Shanann Watts & Hai con gái Bella, Celeste)
-- **Linh cảm & Trực giác sinh tồn:** Những tuần cuối cùng tại North Carolina, Shanann đã cảm nhận rõ sự lạnh lẽo đáng sợ của Chris ("Anh ấy như một người hoàn toàn khác", "Anh ấy không muốn chạm vào tôi"). Cô gửi sách, viết tâm thư, cố gắng hạ mình cứu vãn hôn nhân.
-- **Sốc nhận thức (Cognitive Shock):** Khoảnh khắc bị tấn công trên chính chiếc giường ngủ của mình, bi kịch lớn nhất của Shanann không chỉ là thể xác, mà là sự sụp đổ niềm tin vào người đàn ông cô từng tin tưởng suốt 8 năm.
-- **Nạn nhân trẻ thơ:** Tiếng kêu van của bé Bella trên cánh đồng Cervi 319 ("Bố đừng làm thế với con") là bằng chứng phơi bày sự triệt tiêu hoàn toàn thấu cảm (Empathy Deficit) của kẻ thủ ác.
+### 2.4. Nhân chứng & Gia đình (Nickole Atkinson, Nate Trinastich, Nhà Rzucek): Linh cảm phá tan toan tính
+- **Linh cảm tình bạn đập tan thời gian vàng:**
+  - Nickole Atkinson là nhân tố bất ngờ phá hỏng toàn bộ kế hoạch phi tang của Chris. Chỉ sau vài giờ không liên lạc được với Shanann, Nickole đã báo cảnh sát và đến tận nhà. Nếu không có sự quyết đoán của Nickole, Chris đã có 24 đến 48 giờ để di tản đồ đạc, tạo hiện trường giả và củng cố kịch bản Shanann bỏ trốn.
+- **Trực giác của người hàng xóm:**
+  - Nate Trinastich khi xem lại camera an ninh đã lập tức thì thầm với cảnh sát Coonrod: "Anh ta hành xử cực kỳ kỳ lạ, chưa bao giờ đỗ xe như vậy, nói liên tục và không nhìn vào màn hình". Giác quan cộng đồng đã gióng lên hồi chuông vạch trần kẻ nói dối.
+- **Nỗi đau chấn thương đạo đức của gia đình Rzucek:**
+  - Cha mẹ Shanann từng coi Chris như con đẻ. Cú sốc mất con gái, cháu ngoại và đứa chắt chưa sinh tạo nên vết thương tâm lý vĩnh viễn không thể hàn gắn.
 
----
-
-### 2.4. Nhân chứng & Gia đình (Nickole Atkinson, Cha mẹ Shanann)
-- **Linh cảm tình bạn đập tan toan tính:** Nickole Atkinson là nhân tố bất ngờ nằm ngoài kế hoạch chia ngăn của Chris. Chỉ trong vòng vài tiếng sau khi Shanann không đi khám thai, Nickole đã báo cảnh sát và đến tận cửa nhà. Nếu không có Nickole, Chris đã có 24-48 giờ để phi tang đồ đạc, dọn hiện trường và tạo dựng kịch bản Shanann bỏ nhà theo bạn.
-- **Điểm mù người thân:** Gia đình nhà Rzucek từng xem Chris như con đẻ, một người đàn ông chu đáo. Cú sốc này để lại vết thương tâm lý vĩnh viễn (Moral Trauma).
-
----
-
-### 2.5. Người dân & Xã hội (Hàng xóm Nate Trinastich, Cộng đồng mạng)
-- **Điểm mù vùng ngoại ô kiểu mẫu (Suburban Facade):** Saratoga Trail, Frederick, Colorado là biểu tượng của giấc mơ Mỹ: nhà đẹp, bãi cỏ xanh, cuộc sống êm đềm. Mọi người mặc định tội ác không thể tồn tại giữa những hàng xóm thân thiện.
-- **Trực giác của người hàng xóm:** Nate Trinastich, khi xem lại camera an ninh cùng cảnh sát và Chris, ngay lập tức nhận ra sự bất thường: "Anh ta chưa bao giờ đỗ xe lùi vào gara như thế", "Anh ta bồn chồn, không hề nhìn vào màn hình".
-- **Cơn sốc của xã hội mạng:** Shanann chia sẻ hàng trăm video gia đình hạnh phúc trên Facebook. Sự tương phản giữa hình ảnh mạng xã hội lung linh và tội ác rùng rợn dưới đáy bồn dầu đã tạo nên một chấn thương tập thể (Collective Trauma) về tính chân thực của thế giới ảo.
+### 2.5. Người dân & Xã hội: Điểm mù vùng ngoại ô kiểu mẫu & Chấn thương tập thể trước chiếc mặt nạ ảo
+- **Ảo ảnh ngoại ô kiểu mẫu (Suburban Facade):**
+  - Khu phố Saratoga Trail tại Frederick, Colorado là biểu tượng của giấc mơ Mỹ: nhà đẹp, bãi cỏ xanh, sự an ninh tuyệt đối. Vụ án giáng một đòn chí mạng vào niềm tin thôn dã, chứng minh cái ác tàn bạo nhất có thể ẩn mình ngay sau những bức rèm cửa sổ bình yên.
+- **Điểm mù Mạng xã hội (Facebook Blindspot):**
+  - Hàng trăm video livestream của Shanann khắc họa một gia đình hoàn hảo. Sự tương phản rùng rợn giữa hình ảnh hạnh phúc trên mạng và thi thể dưới đáy bồn dầu tạo nên một chấn thương tập thể (Collective Trauma) về tính chân thực của thế giới ảo.
 
 ---
 
 ## 3. CƠ CHẾ TÂM LÝ VỀ SỰ HỐI HẬN & THÚ TỘI TRONG VỤ ÁN CHRIS WATTS
 
-### Câu hỏi cốt lõi: Tại sao Chris Watts lại nhận tội? Hắn có thực sự hối hận không?
+### 3.1. Sự sụp đổ phòng vệ khi đối diện máy phát hiện nói dối
+- Điểm số âm mười tám (-18) trên máy phát hiện nói dối đánh sập toàn bộ ảo tưởng kiểm soát của Chris. Khi bản ngã ái kỷ bị dồn vào chân tường, các chỉ số thần kinh thực vật (nhịp tim, huyết áp, độ dẫn điện của da) bộc lộ sự hoảng loạn tột độ.
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│               PHÂN TÍCH HAI TẦNG "HỐI HẬN" CỦA CHRIS WATTS                 │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ TẦNG 1: TRONG PHÒNG THẨM VẤN (Tháng 8/2018)                                 │
-│ ├─ Thất bại máy nói dối (Điểm -18) ──> Bản ngã ái kỷ vỡ vụn                 │
-│ ├─ Phao cứu sinh tâm lý của Tammy Lee: "Có phải Shanann đã làm hại con?"    │
-│ └─ Thú tội giả tạo: Đổ lỗi cho nạn nhân để cứu vãn hình ảnh "người cha tốt" │
-│                                                                             │
-│ TẦNG 2: TẠI NHÀ TÙ WISCONSIN (Tháng 2/2019)                                 │
-│ ├─ Kể lại chi tiết sự thật tàn khốc trên cánh đồng Cervi 319                │
-│ ├─ Cơ chế: Tự thương hại bệnh lý (Pathological Self-Pity)                   │
-│ └─ Tìm kiếm sự cứu rỗi tôn giáo để tiếp tục nuôi dưỡng ảo tưởng cái tôi tốt │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+### 3.2. Cơ chế Đổ lỗi cho nạn nhân như một chiếc phao cứu sinh bản ngã
+- Khi nữ đặc vụ Tammy Lee đưa ra một lối thoát tâm lý: "Có phải Shanann đã làm hại các con và anh chỉ ra tay vì giận dữ?", Chris lập tức chộp lấy.
+- Hắn thà nhận tội giết người trong cơn giận dữ còn hơn phải thừa nhận mình là kẻ sát nhân máu lạnh đã giết các con. Đây là cơ chế phòng vệ nhằm cứu vãn chút tàn dư danh dự giả tạo trước mặt người cha Frank Watts và xã hội.
 
-1. **Sự sụp đổ phòng vệ khi đối diện máy phát hiện nói dối:**
-   - Điểm số âm mười tám (-18) đánh sập toàn bộ ảo tưởng kiểm soát của Chris. Khi bản ngã ái kỷ bị dồn vào chân tường, phản xạ đầu tiên không phải là hối hận vì người khác, mà là **hoảng loạn vì sự sụp đổ hình tượng của bản thân**.
-2. **Cơ chế Đổ lỗi cho nạn nhân (Victim Blaming as Ego Defense):**
-   - Lời thú tội đầu tiên ("Tôi giết Shanann vì cô ấy siết cổ hai đứa con") là một cơ chế phòng vệ kinh điển. Hắn thà nhận tội giết người trong cơn phẫn nộ chính đáng còn hơn phải thừa nhận mình là kẻ sát nhân máu lạnh đã giết các con.
-3. **Phân biệt giữa Hối hận chân thực (Moral Remorse) và Tự thương hại (Self-Pity):**
-   - Hối hận chân thực đòi hỏi khả năng thấu cảm nỗi đau của người khác (Affective Empathy). Chris Watts hoàn toàn khuyết tật năng lực này.
-   - Những giọt nước mắt của hắn trước tòa là nước mắt tiếc nuối cho cuộc sống tự do đã vĩnh viễn mất đi, sự sợ hãi án tử hình, và sự cô độc cùng cực. Hắn tìm đến Kinh thánh trong tù như một phương tiện để tiếp tục tự thuyết phục bản thân rằng mình là một "người đàn ông lầm lỡ được cứu rỗi", tái tạo một chiếc mặt nạ đạo đức mới.
+### 3.3. Phân biệt rạch ròi: Hối hận đạo đức chân thực vs. Tự thương hại bệnh lý
+- **Hối hận chân thực (Moral Remorse):** Đòi hỏi khả năng thấu cảm nỗi đau của người khác (Affective Empathy) và tinh thần chịu trách nhiệm vô điều kiện.
+- **Tự thương hại bệnh lý (Pathological Self-Pity):** Chris Watts hoàn toàn khuyết tật năng lực thấu cảm. Nước mắt của hắn trước tòa là nước mắt tiếc nuối cho cuộc sống tự do đã mất, sự sợ hãi án tử hình, và sự cô độc cùng cực.
+- Trong tù tại Wisconsin, hắn tìm đến tôn giáo và tuyên bố "Chúa đã tha thứ cho tôi" như một chiếc khiên tâm lý mới để tiếp tục tự ru ngủ bản thân rằng mình là một người đàn ông tốt bị sa ngã, từ chối đối diện với bản chất quái vật bên trong.
+
+---
+
+## 4. KHUNG KỊCH BẢN BỔ SUNG CHI TIẾT (CHUẨN ĐỊNH DẠNG A2/K10 — 240 CÂU THOẠI)
+*Được triển khai chi tiết từng dòng trong file kịch bản chính thức `kichban_tap30_19112026.md` theo cấu trúc 52 phần tử, 36 lượt thoại, 240 câu thoại chuẩn mực.*
+
+---
+
+## 5. ĐỐI CHIẾU ĐỒNG BỘ 3 NGÔN NGỮ (VIỆT - ANH - NHẬT)
+- Bản Tiếng Việt: `01_KICH_BAN/Tap30/kichban_tap30_19112026.md` (240 câu, 317 dòng).
+- Bản Tiếng Anh: `01_KICH_BAN/Tap30_EN/kichban_tap30_EN.md` (240 câu, 317 dòng tương ứng 1:1).
+- Bản Tiếng Nhật: `01_KICH_BAN/Tap30_JA/kichban_tap30_JA.md` (240 câu, 317 dòng tương ứng 1:1).
+
+---
+
+## 6. KẾT LUẬN & KIẾN NGHỊ SẢN XUẤT
+1. Bản nghiên cứu đã giải phẫu sâu sắc toàn bộ 5 chủ thể, giải mã cơ chế hối hận và thú tội của Chris Watts cũng như bản chất hợp tác của nhân tình Nichol Kessinger.
+2. Cung cấp nền tảng khoa học vững chắc để nâng cấp toàn diện kịch bản Tập 30 lên chuẩn 240 câu thoại đồng bộ 3 ngôn ngữ.

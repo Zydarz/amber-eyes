@@ -1,0 +1,680 @@
+{
+  "TK1": {
+    "title": "16 Năm Hy Sinh Nuôi Chồng & Lâu Đài Cát La Jolla",
+    "theme": "Bẫy Chi phí Chìm (Sunk Cost Fallacy) & Điểm mù Vị thế Hào nhoáng (Upper-Class Blind Spot)",
+    "hook": "16 năm bươn chải nuôi chồng lấy bằng Cornell và Harvard. Để rồi bị thay thế khi bước lên đỉnh cao.",
+    "total_dur_est": 81.3,
+    "bgm": "bgm_cello_sad.mp3",
+    "sfx": [
+      "amb_wind_cold.wav (nền)",
+      "fx_sewing_machine.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK1.01#1",
+        "text": "HỒ SƠ BETTY BRODERICK · LA JOLLA, SAN DIEGO",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK1.01#3",
+        "text": "16 NĂM LÀM THÊM ĐỦ MỌI NGHỀ NUÔI CHỒNG HỌC",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK1.01#5",
+        "text": "HAI TẤM BẰNG DANH GIÁ: Y KHOA CORNELL & LUẬT HARVARD",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK1.01#7",
+        "text": "BIỆT THỰ LA JOLLA & CHỦ TỊCH ĐOÀN LUẬT SƯ",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK1.01#8",
+        "text": "BẪY CHI PHÍ CHÌM VÀ SỰ RẠN NỨT TÂM LÝ ĐẦU TIÊN",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK1.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Để tạo điều kiện cho chồng tập trung học tập, Betty đã một mình gánh vác toàn bộ kinh tế gia đình và nuôi nấng những đứa con thơ.",
+        "source": "1.04#3",
+        "bg": "t14_c04_betty_teaching_kindergarten_classroom",
+        "camera": "pull",
+        "dur_est": 8.67
+      },
+      {
+        "id": "TK1.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Bà không quản ngại làm thêm đủ mọi nghề lao động chân tay, từ giáo viên mầm non, bán hàng gia dụng Tupperware cho đến nhân viên tiếp thị mỹ phẩm Avon.",
+        "source": "1.04#4",
+        "bg": "t14_tupperware_avon_sales_struggle",
+        "camera": "still",
+        "dur_est": 9.56
+      },
+      {
+        "id": "TK1.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Nhờ sự tần tảo kiên cường suốt mười sáu năm ròng của người vợ, Daniel đã liên tiếp hoàn thành xuất sắc hai tấm bằng danh giá bậc nhất nước Mỹ.",
+        "source": "1.04#5",
+        "bg": "t14_early_struggles_sewing_machine",
+        "camera": "push",
+        "dur_est": 9.26
+      },
+      {
+        "id": "TK1.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Ông ta lần lượt nhận bằng Bác sĩ Y khoa tại Đại học Cornell danh tiếng và bằng Tiến sĩ Luật tại Đại học Harvard lừng danh.",
+        "source": "1.04#6",
+        "bg": "t14_c03_young_dan_med_books_studying",
+        "camera": "pan",
+        "dur_est": 8.07
+      },
+      {
+        "id": "TK1.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Sự kết hợp hiếm có giữa chuyên môn y tế và luật học đã mở toang cánh cửa dẫn lối Daniel Broderick bước thẳng vào thế giới của các luật sư triệu phú quyền lực nhất bang California.",
+        "source": "1.04#7",
+        "bg": "t14_cornell_harvard_diplomas",
+        "camera": "pull",
+        "dur_est": 11.35
+      },
+      {
+        "id": "TK1.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Khi gia đình dọn về định cư tại khu biệt thự ven biển La Jolla, cuộc sống của họ nhanh chóng ngập tràn trong nhung lụa và sự xa hoa tột bực.",
+        "source": "1.06#1",
+        "bg": "t14_luxury_sedans_driveway",
+        "camera": "still",
+        "dur_est": 9.56
+      },
+      {
+        "id": "TK1.01#7",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Daniel Broderick vươn lên trở thành một luật sư chuyên về sơ suất y tế khét tiếng, từng được bầu làm Chủ tịch Đoàn Luật sư Quận San Diego với mức thu nhập hàng triệu đô la mỗi năm.",
+        "source": "1.06#2",
+        "bg": "t14_bar_association_president_office",
+        "camera": "push",
+        "dur_est": 11.65
+      },
+      {
+        "id": "TK1.01#8",
+        "role": "H",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.0,
+        "text": "Thế nhưng, đúng vào thời điểm đỉnh cao của danh vọng và tiền tài, rạn nứt tâm lý đầu tiên đã bắt đầu xuất hiện trong căn nhà hào nhoáng.",
+        "source": "1.06#3",
+        "bg": "t14_san_diego_bar_association_gala",
+        "camera": "pan",
+        "dur_est": 8.96
+      }
+    ]
+  },
+  "TK2": {
+    "title": "Nghệ Thuật Gaslighting & Chiếc Mỏ Neo Nhận Thức Bị Bẻ Gãy",
+    "theme": "Thao túng Thực tại (Gaslighting) & Kiểm soát Cưỡng bách Vô hình (Coercive Control)",
+    "hook": "Ngoại tình công khai nhưng khẳng định vợ mắc bệnh tâm thần. Nghệ thuật Gaslighting tàn nhẫn.",
+    "total_dur_est": 84.2,
+    "bgm": "bgm_ambient_deep.mp3",
+    "sfx": [
+      "amb_room_tone.wav (nền)",
+      "fx_clock_ticking.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK2.01#1",
+        "text": "MÙA THU 1983: NỮ TRỢ LÝ TRẺ 21 TUỔI XUẤT HIỆN",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK2.01#3",
+        "text": "PHỦ NHẬN QUYẾT LIỆT & QUY KẾT VỢ BỊ HOANG TƯỞNG",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK2.01#5",
+        "text": "CHIẾN DỊCH GASLIGHTING KÉO DÀI GẦN HAI NĂM RÒNG",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK2.01#7",
+        "text": "KHI BẢN THÂN TIN ĐÔI MẮT MÌNH BỊ ĐIÊN LOẠN",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK2.01#8",
+        "text": "KIỂM SOÁT CƯỠNG BÁCH: GIAM CẦM TRONG VÔ HÌNH",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK2.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Mùa thu năm 1983, Daniel tuyển dụng một cô gái trẻ mới hai mươi mốt tuổi tên là Linda Kolkena về làm thư ký riêng kiêm trợ lý pháp lý tại văn phòng luật.",
+        "source": "1.06#4",
+        "bg": "t14_young_secretary_reception_desk",
+        "camera": "pull",
+        "dur_est": 11.95
+      },
+      {
+        "id": "TK2.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Khi Betty cất lời gặng hỏi về mối quan hệ bất thường này, Daniel không những phủ nhận quyết liệt mà còn bắt đầu một chiến dịch thao túng tâm lý tinh vi.",
+        "source": "1.06#6",
+        "bg": "t14_gaslighting_accusations_living_room",
+        "camera": "push",
+        "dur_est": 9.86
+      },
+      {
+        "id": "TK2.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Ông ta liên tục khẳng định rằng Betty đang mắc chứng hoang tưởng, phóng đại mọi chuyện và cần phải tìm kiếm sự trợ giúp từ các bác sĩ tâm thần.",
+        "source": "1.06#7",
+        "bg": "t14_gaslighting_accusations_living_room",
+        "camera": "pan",
+        "dur_est": 9.26
+      },
+      {
+        "id": "TK2.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Dưới lăng kính tâm lý học hành vi, chiến dịch thao túng thực tại hay Gaslighting đã giáng một đòn chí mạng vào cấu trúc nhân cách của Betty Broderick.",
+        "source": "1.09#1",
+        "bg": "t14_gaslighting_whispers_corridor",
+        "camera": "push",
+        "dur_est": 8.96
+      },
+      {
+        "id": "TK2.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Trong suốt gần hai năm ròng rã, từ năm 1983 đến đầu năm 1985, Daniel Broderick liên tục duy trì trạng thái “phủ nhận thực tại kép” trước mắt người vợ.",
+        "source": "1.09#2",
+        "bg": "t14_silent_dinner_table_suspicion",
+        "camera": "pan",
+        "dur_est": 12.85
+      },
+      {
+        "id": "TK2.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Sự cô lập thông tin và cảm giác bị tước đoạt tiếng nói đã phá hủy hoàn toàn chiếc mỏ neo nhận thức của người phụ nữ.",
+        "source": "1.09#4",
+        "bg": "t14_gaslighting_whispers_corridor",
+        "camera": "still",
+        "dur_est": 8.07
+      },
+      {
+        "id": "TK2.01#7",
+        "role": "H",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "Khi một người liên tục bị thuyết phục rằng đôi mắt của mình nhìn sai và trí óc của mình bị điên loạn, sự đau đớn bị phản bội sẽ nhanh chóng biến thành nỗi hoảng loạn tột cùng.",
+        "source": "1.09#5",
+        "bg": "t14_unanswered_rotary_phone",
+        "camera": "push",
+        "dur_est": 11.65
+      },
+      {
+        "id": "TK2.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Để hiểu được trạng thái tâm lý của Betty Broderick, trước hết chúng ta phải phân tích tác động tàn phá khốc liệt của hiện tượng Thao túng thực tại hay Gaslighting.",
+        "source": "3.03#1",
+        "bg": "t14_coercive_control_invisible_cage",
+        "camera": "pull",
+        "dur_est": 7.37
+      }
+    ]
+  },
+  "TK3": {
+    "title": "Cuộc Chiến Pháp Lý Không Cân Sức & Cơn Bão Thịnh Nộ Ái Kỷ",
+    "theme": "Ngòi nổ Tâm lý (Precipitating Trigger) & Cơn Thịnh nộ Ái kỷ Tổn thương (Vulnerable Narcissistic Rage)",
+    "hook": "Dùng luật pháp thượng tầng bóp nghẹt tài chính vợ cũ. Giọt nước tràn ly kích hoạt án mạng.",
+    "total_dur_est": 75.6,
+    "bgm": "bgm_piano_minimal.mp3",
+    "sfx": [
+      "amb_rain_night.wav (nền)",
+      "fx_gavel_strike.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK3.01#1",
+        "text": "CUỘC CHIẾN LY HÔN TÀN KHỐC NHẤT LỊCH SỬ SAN DIEGO",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK3.01#3",
+        "text": "DANIEL BRODERICK VẬN DỤNG TOÀN BỘ QUYỀN LỰC PHÁP LÝ",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK3.01#5",
+        "text": "LỆNH CẤM TIẾP CẬN & PHẠT TIỀN TỪNG TỪ CHỬI BỚI",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK3.01#6",
+        "text": "TƯỚC ĐOẠT QUYỀN NUÔI CẢ 4 NGƯỜI CON",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK3.01#8",
+        "text": "CƠN THỊNH NỘ ÁI KỶ VÀ ĐIỂM GÃY TÂM LÝ BÙNG PHÁT",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK3.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Khi mọi cánh cửa pháp lý dần khép lại trong sự bế tắc, phản ứng tâm lý của Betty bắt đầu bước vào một chu kỳ leo thang hành vi mất kiểm soát.",
+        "source": "2.04#1",
+        "bg": "t14_temporary_rental_isolation",
+        "camera": "pull",
+        "dur_est": 9.86
+      },
+      {
+        "id": "TK3.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Cơn thịnh nộ ái kỷ bị dồn nén không còn tìm thấy kênh giải tỏa lành mạnh, bắt đầu bùng phát thành các hành vi xâm lấn ranh giới mang tính phá hoại cực đoan.",
+        "source": "2.04#2",
+        "bg": "t14_boiling_rage_darkened_room",
+        "camera": "still",
+        "dur_est": 10.46
+      },
+      {
+        "id": "TK3.01#3",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Hồ sơ tòa án lưu trữ tại Quận San Diego cho thấy Daniel Broderick đã phản đòn bằng một chiến lược pháp lý cực kỳ lạnh lùng và triệt để.",
+        "source": "2.06#1",
+        "bg": "t14_crested_stationery_threatening_letters",
+        "camera": "pan",
+        "dur_est": 8.19
+      },
+      {
+        "id": "TK3.01#4",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Thay vì tìm kiếm một thỏa hiệp nhân văn để hạ nhiệt xung đột gia đình, ông ta liên tục đệ đơn yêu cầu tòa ban hành các lệnh cấm tiếp cận nghiêm ngặt đối với vợ cũ.",
+        "source": "2.06#2",
+        "bg": "t14_legal_brief_restraining_orders",
+        "camera": "pull",
+        "dur_est": 10.37
+      },
+      {
+        "id": "TK3.01#5",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Có những tháng, toàn bộ số tiền sinh hoạt phí của Betty bị khấu trừ sạch sẽ, đẩy bà vào tình cảnh quẫn bách tài chính trầm trọng.",
+        "source": "2.06#4",
+        "bg": "t14_fine_deduction_ledger",
+        "camera": "push",
+        "dur_est": 7.64
+      },
+      {
+        "id": "TK3.01#6",
+        "role": "D",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "Đối với một nhân cách mang nặng tính tổn thương ái kỷ, việc tước đoạt biểu tượng danh dự ấy chính là phát súng lệnh kích hoạt phản ứng hủy diệt cuối cùng.",
+        "source": "2.06#7",
+        "bg": "t14_b2_cardboard_moving_boxes_empty_room",
+        "camera": "still",
+        "dur_est": 9.01
+      },
+      {
+        "id": "TK3.01#7",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Dưới góc độ tâm lý học nhân cách, Betty Broderick mang nhiều đặc điểm điển hình của một cấu trúc Ái kỷ dễ tổn thương kết hợp với Rối loạn nhân cách ranh giới.",
+        "source": "3.05#1",
+        "bg": "t14_vulnerable_narcissist_mask",
+        "camera": "still",
+        "dur_est": 7.83
+      },
+      {
+        "id": "TK3.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Betty đã đầu tư toàn bộ tuổi thanh xuân, công sức và lòng tự tôn vào sự nghiệp của Daniel, biến thành công của chồng thành bản ngã duy nhất của chính bản thân mình.",
+        "source": "3.05#3",
+        "bg": "t14_b3_shattered_hourglass_flowing_sand",
+        "camera": "pan",
+        "dur_est": 8.06
+      }
+    ]
+  },
+  "TK4": {
+    "title": "Năm Phát Đạn Rạng Sáng & Phiên Tòa Chia Rẽ Nước Mỹ",
+    "theme": "Hệ thống Tự bào chữa (Bẫy Đóng vai Nạn nhân) & Sự Thức tỉnh của Người thân",
+    "hook": "Rạng sáng Chủ nhật ngày 5/11/1989. Năm phát đạn và chiếc bẫy tâm lý 'nạn nhân hóa hoàn hảo'.",
+    "total_dur_est": 76.5,
+    "bgm": "bgm_violin_heart.mp3",
+    "sfx": [
+      "amb_wind_cold.wav (nền)",
+      "fx_door_creak_night.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK4.01#1",
+        "text": "RẠNG SÁNG 5/11/1989 · ĐẠI LỘ MAR AVENUE, LA JOLLA",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK4.01#3",
+        "text": "NĂM PHÁT ĐẠN RẠNG SÁNG KHÉP LẠI MỌI OÁN HẬN",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK4.01#4",
+        "text": "CON GÁI LỚN KIM BRODERICK: NỖI ĐAU XÉ NÁT TÂM CAN",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK4.01#6",
+        "text": "CHÌA KHÓA LẤY TRỘM BÓC TRẦN YẾU TỐ TOAN TÍNH",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK4.01#8",
+        "text": "BẢN ÁN 32 NĂM TÙ: KHÔNG MỘT TIA ĂN NĂN HỐI HẬN",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK4.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Sau khi gây án, Betty không hề bỏ trốn khỏi thành phố hay tìm cách phi tang khẩu súng gây án.",
+        "source": "4.08#1",
+        "bg": "t14_b4_police_station_lobby_glass_counter",
+        "camera": "push",
+        "dur_est": 6.27
+      },
+      {
+        "id": "TK4.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Bà lái xe đến nhà của người bạn thân Diane Black, thú nhận toàn bộ sự việc trong trạng thái kích động rồi sau đó liên hệ với luật sư để ra đầu thú cảnh sát vào buổi chiều cùng ngày.",
+        "source": "4.08#2",
+        "bg": "t14_surrender_police_headquarters",
+        "camera": "pan",
+        "dur_est": 12.25
+      },
+      {
+        "id": "TK4.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Vụ thảm án lập tức tạo nên một cơn địa chấn truyền thông chưa từng có, lan rộng khắp toàn bộ nước Mỹ và xuất hiện trên trang nhất của hàng loạt tờ báo lớn.",
+        "source": "4.08#3",
+        "bg": "t14_b4_bank_of_tv_news_cameras_tripods",
+        "camera": "pull",
+        "dur_est": 10.46
+      },
+      {
+        "id": "TK4.01#4",
+        "role": "N2",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "Hãy hình dung nỗi đau đớn tột cùng xé nát tâm can của những đứa con khi phải bước lên bục nhân chứng chống lại chính mẹ ruột của mình.",
+        "source": "4.09#1",
+        "bg": "t14_b4_oak_witness_box_empty_microphone",
+        "camera": "pan",
+        "dur_est": 8.49
+      },
+      {
+        "id": "TK4.01#5",
+        "role": "N2",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "Tôi đã phải đứng trước tòa án, nhìn thẳng vào mắt mẹ và kể lại từng lời đe dọa rùng rợn mà bà đã gieo rắc vào tâm trí chúng tôi suốt nhiều năm ròng rã.",
+        "source": "4.09#2",
+        "bg": "t14_daughter_kim_witness_stand",
+        "camera": "pull",
+        "dur_est": 10.19
+      },
+      {
+        "id": "TK4.01#6",
+        "role": "N2",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "Nhưng nỗi đau lớn nhất là khi tôi nhận ra chiếc chìa khóa mẹ dùng để đột nhập vào căn nhà ấy chính là chiếc chìa khóa mẹ đã lén lấy trộm từ trong túi xách của tôi.",
+        "source": "4.09#4",
+        "bg": "t14_stolen_key_unlocked_door",
+        "camera": "push",
+        "dur_est": 10.76
+      },
+      {
+        "id": "TK4.01#7",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Phản ứng của Betty Broderick trước phán quyết của tòa án là một minh chứng sống động cho hiện tượng “Tự thương hại bệnh lý” của nhân cách ái kỷ cực đoan.",
+        "source": "4.11#1",
+        "bg": "t14_b4_handprint_fogged_prison_glass",
+        "camera": "push",
+        "dur_est": 7.37
+      },
+      {
+        "id": "TK4.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Mọi giọt nước mắt của bà đều chỉ dành để than khóc cho sự bất công của số phận và sự sụp đổ của danh tiếng cá nhân.",
+        "source": "4.11#3",
+        "bg": "t14_b4_handprint_fogged_prison_glass",
+        "camera": "pull",
+        "dur_est": 6.45
+      }
+    ]
+  },
+  "TK5": {
+    "title": "Nạn Nhân Học & Bài Học Sinh Tồn Hôn Nhân",
+    "theme": "Nạn nhân học (Victimology) & 4 Dấu hiệu Cảnh báo Đỏ trong Đổ vỡ Quan hệ",
+    "hook": "Bốn bài học sinh tồn nhận diện lạm dụng tâm lý và thoát khỏi cạm bẫy hận thù sau đổ vỡ.",
+    "total_dur_est": 81.9,
+    "bgm": "bgm_piano_warm.mp3",
+    "sfx": [
+      "amb_room_tone.wav (nền)",
+      "fx_page_turn.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK5.01#1",
+        "text": "4 BÀI HỌC SINH TỒN HÔN NHÂN · AMBER EYES",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#3",
+        "text": "BÀI HỌC 1: NHẬN DIỆN CHIẾN DỊCH GASLIGHTING SỚM",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#4",
+        "text": "BÀI HỌC 2: TỈNH TÁO TRƯỚC VỊ THẾ XÃ HỘI HÀO NHOÁNG",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#5",
+        "text": "BÀI HỌC 3: GIỮ VỮNG ĐỘC LẬP TÀI CHÍNH & PHÁP LÝ",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#6",
+        "text": "BÀI HỌC 4: HỌC CÁCH BUÔNG BỎ ĐỂ TỰ GIẢI THOÁT",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#7",
+        "text": "SỰ TRẢ THÙ ĐÍCH THỰC LÀ SỐNG MỘT ĐỜI BÌNH AN",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK5.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Khép lại hồ sơ Betty Broderick, kênh Amber Eyes muốn gửi gắm tới quý khán giả những thông điệp sinh tồn và triết lý sống đắt giá trước những sóng gió của các mối quan hệ tình cảm.",
+        "source": "5.05#1",
+        "bg": "t14_four_redflags_overview_banner_t14",
+        "camera": "still",
+        "dur_est": 11.35
+      },
+      {
+        "id": "TK5.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "Bài học đầu tiên là hãy luôn tỉnh táo nhận diện hiện tượng Thao túng thực tại hay Gaslighting ngay từ những bước lấn ranh giới ban đầu trong đời sống lứa đôi.",
+        "source": "5.05#3",
+        "bg": "t14_redflag2_systematic_reality_denial",
+        "camera": "pan",
+        "dur_est": 9.86
+      },
+      {
+        "id": "TK5.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Khi một người liên tục phủ nhận điều bạn tận mắt nhìn thấy, gạt bỏ cảm xúc chính đáng của bạn và thuyết phục rằng bạn đang có vấn đề về thần kinh, đó chính là dấu hiệu đỏ của sự lạm dụng tâm lý.",
+        "source": "5.05#4",
+        "bg": "t14_b5_four_pinned_polaroid_dossier_board",
+        "camera": "pull",
+        "dur_est": 13.45
+      },
+      {
+        "id": "TK5.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "Bài học thứ hai là sự tỉnh táo trước “Hiệu ứng Hào quang” và vị thế xã hội của đối phương trong các mối quan hệ tình cảm và hôn nhân.",
+        "source": "5.05#6",
+        "bg": "t14_california_no_fault_divorce_papers",
+        "camera": "push",
+        "dur_est": 9.26
+      },
+      {
+        "id": "TK5.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Hãy luôn giữ vững sự độc lập về kinh tế, pháp lý và sự tự chủ về mặt tinh thần, không bao giờ đánh đổi toàn bộ danh tính của mình vào thành công của người khác.",
+        "source": "5.05#8",
+        "bg": "t14_b5_leather_bound_journal_fountain_pen",
+        "camera": "pull",
+        "dur_est": 11.06
+      },
+      {
+        "id": "TK5.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "Bài học thứ ba và cũng là bài học quan trọng nhất: đó là nghệ thuật buông bỏ sự thù hận để tự giải thoát cho chính tâm hồn mình khi một mối quan hệ đã đi vào hồi kết.",
+        "source": "5.05#9",
+        "bg": "t14_toxic_ties_severed_chain",
+        "camera": "still",
+        "dur_est": 11.95
+      },
+      {
+        "id": "TK5.01#7",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Sự trả thù đích thực chính là việc bạn dũng cảm bước qua đống tro tàn, tự chữa lành những vết thương tâm lý và sống một cuộc đời mới rực rỡ, tự do và hạnh phúc hơn bao giờ hết.",
+        "source": "5.05#15",
+        "bg": "t14_b5_stone_bench_blooming_cliff_garden",
+        "camera": "pan",
+        "dur_est": 12.25
+      }
+    ]
+  }
+}

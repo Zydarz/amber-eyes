@@ -39,15 +39,15 @@
 
 | Mã | Vai | Emotion | Speed | Nghỉ | Nền (9:16) | Motion | Lời thoại | Nguồn |
 |---|---|---|---|---|---|---|---|---|
-| `TK1.01#1` | H | neutral | -0.02 | 0.5 | `t4_pyxis_station` | still | 劇薬を出庫し、わずか1秒後に取り消しボタンを押す。 | `hook — không phải dữ kiện kịch bản` |
-| `TK1.01#2` | D | neutral | -0.03 | 0.6 | `t4_pyxis_station` | pull | 2000年代初頭、医薬品の厳格な追跡管理のため、病院群は自動薬剤分配機「Pyxis MedStation」を導入し始めました。 | `2.06#1` |
-| `TK1.01#3` | D | neutral | -0.03 | 0.6 | `t4_pyxis_station` | pan | ところがCharles Cullenは、このシステムのソフトウェア設計における重大な抜け穴を見つけ出しました。 | `2.06#3` |
-| `TK1.01#4` | D | neutral | -0.03 | 0.6 | `t4_pyxis_drawer_ajar` | push | 彼はDigoxin、Insulin、Norepinephrineといった劇薬の出庫を要求しますが、機械の引き出しが開いた瞬間に取り消しボタンを押したのです。 | `2.06#4` |
-| `TK1.01#5` | D | neutral | -0.03 | 0.7 | `t4_pyxis_drawer_ajar` | still | コンピューターは取引を「キャンセル済み」と記録し患者への請求は発生しませんが、劇薬のアンプルはすでにCullenのポケットへ収まっていました。 | `2.06#5` |
-| `TK1.01#6` | D | neutral | -0.03 | 0.7 | `t4_pyxis_printout` | push |  サマセット病院に至ると彼の抑制機能は完全に崩壊し、回復期にある健康な若い患者までも無差別に標的としました。 | `2.06#14` |
-| `TK1.01#7` | C | neutral | -0.02 | 0.7 | `t4_neutral_letter` | pull | これに対し、心理的シグネチャー――犯行を突き動かした不変の感情的欲求――こそがまさに「神コンプレックス」でした。 | `2.08#5` |
-| `TK1.01#8` | C | neutral | -0.02 | 0.7 | `t4_institutional_bystander` | still | 誰を生かし誰を終わらせるかを決定する権利を持つことで、彼は自らが医学や運命すら超越した偉大な存在になったと錯覚しました。 | `2.11#7` |
-| `TK1.01#9` | H | neutral | -0.02 | 0.0 | `t4_closing_desk` | still | Amber Eyes第4話。プロフィールリンクから完全版ドキュメンタリーをご覧ください。 | `CTA — không phải dữ kiện kịch bản` |
+| `TK1.01#1` | H | neutral | -0.02 | 0.5 | `tk04_pyxis_station` | still | 劇薬を出庫し、わずか1秒後に取り消しボタンを押す。 | `hook — không phải dữ kiện kịch bản` |
+| `TK1.01#2` | D | neutral | -0.03 | 0.6 | `tk04_pyxis_station` | pull | 2000年代初頭、医薬品の厳格な追跡管理のため、病院群は自動薬剤分配機「Pyxis MedStation」を導入し始めました。 | `2.06#1` |
+| `TK1.01#3` | D | neutral | -0.03 | 0.6 | `tk04_pyxis_station` | pan | ところがCharles Cullenは、このシステムのソフトウェア設計における重大な抜け穴を見つけ出しました。 | `2.06#3` |
+| `TK1.01#4` | D | neutral | -0.03 | 0.6 | `tk04_pyxis_drawer_ajar` | push | 彼はDigoxin、Insulin、Norepinephrineといった劇薬の出庫を要求しますが、機械の引き出しが開いた瞬間に取り消しボタンを押したのです。 | `2.06#4` |
+| `TK1.01#5` | D | neutral | -0.03 | 0.7 | `tk04_pyxis_drawer_ajar` | still | コンピューターは取引を「キャンセル済み」と記録し患者への請求は発生しませんが、劇薬のアンプルはすでにCullenのポケットへ収まっていました。 | `2.06#5` |
+| `TK1.01#6` | D | neutral | -0.03 | 0.7 | `tk04_pyxis_printout` | push |  サマセット病院に至ると彼の抑制機能は完全に崩壊し、回復期にある健康な若い患者までも無差別に標的としました。 | `2.06#14` |
+| `TK1.01#7` | C | neutral | -0.02 | 0.7 | `tk04_neutral_letter` | pull | これに対し、心理的シグネチャー――犯行を突き動かした不変の感情的欲求――こそがまさに「神コンプレックス」でした。 | `2.08#5` |
+| `TK1.01#8` | C | neutral | -0.02 | 0.7 | `tk04_institutional_bystander` | still | 誰を生かし誰を終わらせるかを決定する権利を持つことで、彼は自らが医学や運命すら超越した偉大な存在になったと錯覚しました。 | `2.11#7` |
+| `TK1.01#9` | H | neutral | -0.02 | 0.0 | `tk04_closing_desk` | still | Amber Eyes第4話。プロフィールリンクから完全版ドキュメンタリーをご覧ください。 | `CTA — không phải dữ kiện kịch bản` |
 
 **Lớp phủ chữ trên hình (Text Overlays):**
 - `TK1.01#1`: **"自動薬剤分配機「PYXIS MEDSTATION」"** (3.0 s)
@@ -62,17 +62,17 @@
 
 | Mã | Vai | Emotion | Speed | Nghỉ | Nền (9:16) | Motion | Lời thoại | Nguồn |
 |---|---|---|---|---|---|---|---|---|
-| `TK2.01#1` | H | neutral | -0.02 | 0.5 | `t4_nurse_station` | still | 病院で最も温厚だった看護師。その正体は、史上最悪の殺人鬼だった。 | `hook — không phải dữ kiện kịch bản` |
-| `TK2.01#2` | H | neutral | -0.02 | 0.5 | `t4_somerset_exterior` | pan | 2003年秋。 | `1.03#1` |
-| `TK2.01#3` | H | neutral | -0.02 | 0.6 | `t4_somerset_exterior` | pull | アメリカ合衆国ニュージャージー州サマービルのサマセット医療センター（Somerset Medical Center）。 | `1.03#2` |
-| `TK2.01#4` | H | neutral | -0.02 | 0.6 | `t4_icu_night` | still | 43歳のその男は痩せ型で声は小さく、常に穏やかな微笑みをたたえ、疲弊した同僚のシフトを率先して引き受けていました。 | `1.03#4` |
-| `TK2.01#5` | H | neutral | -0.02 | 0.6 | `t4_cullen_silhouette` | push | しかし――その染み一つない白衣の裏には、16年もの長きにわたり暗黒の心理的深淵を隠蔽し続けた、完璧な「ハロー効果」が存在していたのです。 | `1.03#6` |
-| `TK2.01#6` | H | neutral | -0.02 | 0.6 | `t4_code_blue_aftermath` | pan | 患者の容態が急変すれば彼は常に真っ先に駆けつけ、救命処置が失敗に終わった後も一人静かに病室の片付けを行っていました。 | `1.05#2` |
-| `TK2.01#7` | N1 | neutral | -0.02 | 0.6 | `t4_breakroom_night` | still | サマセット病院の私たち看護師全員にとって、Charlieは本当に素晴らしい友人でした。 | `1.07#1` |
-| `TK2.01#8` | N1 | neutral | -0.02 | 0.6 | `t4_breakroom_night` | push | 彼は気配りが行き届き、声を荒らげることなど一度もなく、常に驚くほど優しく患者さんに接していました。 | `1.07#2` |
-| `TK2.01#9` | N1 | sad | -0.04 | 0.7 | `t4_corridor_shadow` | pull | 真相が暴かれるまで――私たちが史上最悪の連続殺人犯のすぐ隣で勤務していたとは、背筋が凍る思いでした。 | `1.07#5` |
-| `TK2.01#10` | C | neutral | -0.02 | 0.7 | `t4_institutional_bystander` | still | 行動心理学の視点から見ると、Charles Cullenは極めて典型的な被害者の「客体化」と非人間化を示しています。 | `2.11#1` |
-| `TK2.01#11` | H | neutral | -0.02 | 0.0 | `t4_closing_desk` | still | Amber Eyes第4話。プロフィールリンクから完全版ドキュメンタリーをご覧ください。 | `CTA — không phải dữ kiện kịch bản` |
+| `TK2.01#1` | H | neutral | -0.02 | 0.5 | `tk04_nurse_station` | still | 病院で最も温厚だった看護師。その正体は、史上最悪の殺人鬼だった。 | `hook — không phải dữ kiện kịch bản` |
+| `TK2.01#2` | H | neutral | -0.02 | 0.5 | `tk04_somerset_exterior` | pan | 2003年秋。 | `1.03#1` |
+| `TK2.01#3` | H | neutral | -0.02 | 0.6 | `tk04_somerset_exterior` | pull | アメリカ合衆国ニュージャージー州サマービルのサマセット医療センター（Somerset Medical Center）。 | `1.03#2` |
+| `TK2.01#4` | H | neutral | -0.02 | 0.6 | `tk04_icu_night` | still | 43歳のその男は痩せ型で声は小さく、常に穏やかな微笑みをたたえ、疲弊した同僚のシフトを率先して引き受けていました。 | `1.03#4` |
+| `TK2.01#5` | H | neutral | -0.02 | 0.6 | `tk04_cullen_silhouette` | push | しかし――その染み一つない白衣の裏には、16年もの長きにわたり暗黒の心理的深淵を隠蔽し続けた、完璧な「ハロー効果」が存在していたのです。 | `1.03#6` |
+| `TK2.01#6` | H | neutral | -0.02 | 0.6 | `tk04_code_blue_aftermath` | pan | 患者の容態が急変すれば彼は常に真っ先に駆けつけ、救命処置が失敗に終わった後も一人静かに病室の片付けを行っていました。 | `1.05#2` |
+| `TK2.01#7` | N1 | neutral | -0.02 | 0.6 | `tk04_breakroom_night` | still | サマセット病院の私たち看護師全員にとって、Charlieは本当に素晴らしい友人でした。 | `1.07#1` |
+| `TK2.01#8` | N1 | neutral | -0.02 | 0.6 | `tk04_breakroom_night` | push | 彼は気配りが行き届き、声を荒らげることなど一度もなく、常に驚くほど優しく患者さんに接していました。 | `1.07#2` |
+| `TK2.01#9` | N1 | sad | -0.04 | 0.7 | `tk04_corridor_shadow` | pull | 真相が暴かれるまで――私たちが史上最悪の連続殺人犯のすぐ隣で勤務していたとは、背筋が凍る思いでした。 | `1.07#5` |
+| `TK2.01#10` | C | neutral | -0.02 | 0.7 | `tk04_institutional_bystander` | still | 行動心理学の視点から見ると、Charles Cullenは極めて典型的な被害者の「客体化」と非人間化を示しています。 | `2.11#1` |
+| `TK2.01#11` | H | neutral | -0.02 | 0.0 | `tk04_closing_desk` | still | Amber Eyes第4話。プロフィールリンクから完全版ドキュメンタリーをご覧ください。 | `CTA — không phải dữ kiện kịch bản` |
 
 **Lớp phủ chữ trên hình (Text Overlays):**
 - `TK2.01#1`: **"サマセット医療センター · 2003年秋"** (3.0 s)
@@ -87,16 +87,16 @@
 
 | Mã | Vai | Emotion | Speed | Nghỉ | Nền (9:16) | Motion | Lời thoại | Nguồn |
 |---|---|---|---|---|---|---|---|---|
-| `TK3.01#1` | H | neutral | -0.02 | 0.5 | `t4_diner_exterior` | still | セーターの下の盗聴マイク。親友との命懸けのダイナー密会。 | `hook — không phải dữ kiện kịch bản` |
-| `TK3.01#2` | H | neutral | -0.02 | 0.6 | `t4_diner_exterior` | pull | そして彼らが接触を図ったのが、優秀な夜勤看護師であり、Charles Cullenの無二の親友でもあったAmy Loughrenでした。 | `4.02#7` |
-| `TK3.01#3` | D | neutral | -0.03 | 0.6 | `t4_diner_booth` | pan | 我々が勤務時間外の小さなダイナーでAmy Loughrenと密会し、CullenのPyxis端末ログを目の前に広げた時、彼女は言葉を失いました。 | `4.04#1` |
-| `TK3.01#4` | D | neutral | -0.03 | 0.6 | `t4_amy_scrubs` | still | 事態をさらに過酷にしていたのは、彼女が重度の心筋症を患い、幼い二人の娘を女手一つで育てていたという個人的な境遇でした。 | `4.04#6` |
-| `TK3.01#5` | N2 | fearful | -0.04 | 0.7 | `t4_amy_scrubs` | push | 自分の命や娘たちの未来を思うと恐怖で震えましたが、沈黙を守り凶行を見過ごすことなど私にはできませんでした。 | `4.06#6` |
-| `TK3.01#6` | H | neutral | -0.02 | 0.6 | `t4_wire_closeup` | push | Amy Loughrenは、州捜査官たちによって冬のセーターの内側に仕掛けられた盗聴マイクを身につけて店内へ入りました。 | `4.08#3` |
-| `TK3.01#7` | H | neutral | -0.02 | 0.7 | `t4_diner_booth` | still | Amyは卓越した共感力と心理的誘導を用い、病院内の動揺を語りかけながら、彼に自首を優しく促しました。 | `4.08#6` |
-| `TK3.01#8` | H | sad | -0.03 | 0.7 | `t4_diner_booth` | pull | 彼はテーブルの上に深く頭を垂れ、録音テープに明確に残る声でこう囁いたのです――「やめたい、すべてを終わりにしたい。」 | `4.08#8` |
-| `TK3.01#9` | D | neutral | -0.03 | 0.7 | `t4_interrogation_room` | still | 彼はDigoxinやInsulinを用いてFlorian Gall神父やMichael Strenko、その他多数の命を奪ったことを自白しました。 | `4.12#5` |
-| `TK3.01#10` | H | neutral | -0.02 | 0.0 | `t4_closing_desk` | still | Amber Eyes第4話。プロフィールリンクから完全版ドキュメンタリーをご覧ください。 | `CTA — không phải dữ kiện kịch bản` |
+| `TK3.01#1` | H | neutral | -0.02 | 0.5 | `tk04_diner_exterior` | still | セーターの下の盗聴マイク。親友との命懸けのダイナー密会。 | `hook — không phải dữ kiện kịch bản` |
+| `TK3.01#2` | H | neutral | -0.02 | 0.6 | `tk04_diner_exterior` | pull | そして彼らが接触を図ったのが、優秀な夜勤看護師であり、Charles Cullenの無二の親友でもあったAmy Loughrenでした。 | `4.02#7` |
+| `TK3.01#3` | D | neutral | -0.03 | 0.6 | `tk04_diner_booth` | pan | 我々が勤務時間外の小さなダイナーでAmy Loughrenと密会し、CullenのPyxis端末ログを目の前に広げた時、彼女は言葉を失いました。 | `4.04#1` |
+| `TK3.01#4` | D | neutral | -0.03 | 0.6 | `tk04_amy_scrubs` | still | 事態をさらに過酷にしていたのは、彼女が重度の心筋症を患い、幼い二人の娘を女手一つで育てていたという個人的な境遇でした。 | `4.04#6` |
+| `TK3.01#5` | N2 | fearful | -0.04 | 0.7 | `tk04_amy_scrubs` | push | 自分の命や娘たちの未来を思うと恐怖で震えましたが、沈黙を守り凶行を見過ごすことなど私にはできませんでした。 | `4.06#6` |
+| `TK3.01#6` | H | neutral | -0.02 | 0.6 | `tk04_wire_closeup` | push | Amy Loughrenは、州捜査官たちによって冬のセーターの内側に仕掛けられた盗聴マイクを身につけて店内へ入りました。 | `4.08#3` |
+| `TK3.01#7` | H | neutral | -0.02 | 0.7 | `tk04_diner_booth` | still | Amyは卓越した共感力と心理的誘導を用い、病院内の動揺を語りかけながら、彼に自首を優しく促しました。 | `4.08#6` |
+| `TK3.01#8` | H | sad | -0.03 | 0.7 | `tk04_diner_booth` | pull | 彼はテーブルの上に深く頭を垂れ、録音テープに明確に残る声でこう囁いたのです――「やめたい、すべてを終わりにしたい。」 | `4.08#8` |
+| `TK3.01#9` | D | neutral | -0.03 | 0.7 | `tk04_interrogation_room` | still | 彼はDigoxinやInsulinを用いてFlorian Gall神父やMichael Strenko、その他多数の命を奪ったことを自白しました。 | `4.12#5` |
+| `TK3.01#10` | H | neutral | -0.02 | 0.0 | `tk04_closing_desk` | still | Amber Eyes第4話。プロフィールリンクから完全版ドキュメンタリーをご覧ください。 | `CTA — không phải dữ kiện kịch bản` |
 
 **Lớp phủ chữ trên hình (Text Overlays):**
 - `TK3.01#1`: **"セーターの内側に仕掛けられた盗聴マイク"** (3.0 s)
@@ -111,15 +111,15 @@
 
 | Mã | Vai | Emotion | Speed | Nghỉ | Nền (9:16) | Motion | Lời thoại | Nguồn |
 |---|---|---|---|---|---|---|---|---|
-| `TK4.01#1` | H | neutral | -0.02 | 0.5 | `t4_ten_hospitals_map` | still | 9つの病院が彼を疑っていた。しかし全員が沈黙を選んだ。 | `hook — không phải dữ kiện kịch bản` |
-| `TK4.01#2` | D | neutral | -0.03 | 0.6 | `t4_somerset_exterior` | pan | サマセット医療センターは決して最初の犯行現場ではなかったのです。 | `1.14#2` |
-| `TK4.01#3` | D | neutral | -0.03 | 0.6 | `t4_ten_hospitals_map` | pull | 1988年から2003年までの16年間にわたり、Charles Cullenはニュージャージー州とペンシルベニア州にまたがる9つの病院と1つの養護施設を渡り歩いていました。 | `1.14#3` |
-| `TK4.01#4` | D | neutral | -0.03 | 0.6 | `t4_ten_hospitals_map` | push | 彼が足を踏み入れたあらゆる病院において、夜勤時間帯の心停止による急死者の数は異常な統計的跳ね上がりを示していました。 | `1.14#4` |
-| `TK4.01#5` | D | neutral | -0.03 | 0.7 | `t4_neutral_letter` | still | 一つの病院で疑念が生じると彼は秘密裏に退職させられ、何の警告もない推薦状を手にして次の病院へ移り、捕食を再開していたのです。 | `1.14#5` |
-| `TK4.01#6` | D | neutral | -0.03 | 0.7 | `t4_case_file_open` | push | しかし、疫学調査データと原因不明の医薬品消失量に基づき、捜査専門家らは実際の犠牲者が400名に達する可能性があると推計しています。 | `1.14#7` |
-| `TK4.01#7` | C | neutral | -0.02 | 0.7 | `t4_institutional_bystander` | still | 管理者たちの組織的な沈黙こそが、人を癒やすべき病院を16年間もの間、凶行の温床へと変貌させました。 | `5.05#6` |
-| `TK4.01#8` | D | neutral | -0.03 | 0.7 | `t4_courtroom_bench` | still | 2004年、ニュージャージー州知事は、この危険な沈黙の連鎖を永久に断ち切るため「カレン法」に署名しました。 | `5.06#2` |
-| `TK4.01#9` | H | neutral | -0.02 | 0.0 | `t4_closing_desk` | still | Amber Eyes第4話。プロフィールリンクから完全版ドキュメンタリーをご覧ください。 | `CTA — không phải dữ kiện kịch bản` |
+| `TK4.01#1` | H | neutral | -0.02 | 0.5 | `tk04_ten_hospitals_map` | still | 9つの病院が彼を疑っていた。しかし全員が沈黙を選んだ。 | `hook — không phải dữ kiện kịch bản` |
+| `TK4.01#2` | D | neutral | -0.03 | 0.6 | `tk04_somerset_exterior` | pan | サマセット医療センターは決して最初の犯行現場ではなかったのです。 | `1.14#2` |
+| `TK4.01#3` | D | neutral | -0.03 | 0.6 | `tk04_ten_hospitals_map` | pull | 1988年から2003年までの16年間にわたり、Charles Cullenはニュージャージー州とペンシルベニア州にまたがる9つの病院と1つの養護施設を渡り歩いていました。 | `1.14#3` |
+| `TK4.01#4` | D | neutral | -0.03 | 0.6 | `tk04_ten_hospitals_map` | push | 彼が足を踏み入れたあらゆる病院において、夜勤時間帯の心停止による急死者の数は異常な統計的跳ね上がりを示していました。 | `1.14#4` |
+| `TK4.01#5` | D | neutral | -0.03 | 0.7 | `tk04_neutral_letter` | still | 一つの病院で疑念が生じると彼は秘密裏に退職させられ、何の警告もない推薦状を手にして次の病院へ移り、捕食を再開していたのです。 | `1.14#5` |
+| `TK4.01#6` | D | neutral | -0.03 | 0.7 | `tk04_case_file_open` | push | しかし、疫学調査データと原因不明の医薬品消失量に基づき、捜査専門家らは実際の犠牲者が400名に達する可能性があると推計しています。 | `1.14#7` |
+| `TK4.01#7` | C | neutral | -0.02 | 0.7 | `tk04_institutional_bystander` | still | 管理者たちの組織的な沈黙こそが、人を癒やすべき病院を16年間もの間、凶行の温床へと変貌させました。 | `5.05#6` |
+| `TK4.01#8` | D | neutral | -0.03 | 0.7 | `tk04_courtroom_bench` | still | 2004年、ニュージャージー州知事は、この危険な沈黙の連鎖を永久に断ち切るため「カレン法」に署名しました。 | `5.06#2` |
+| `TK4.01#9` | H | neutral | -0.02 | 0.0 | `tk04_closing_desk` | still | Amber Eyes第4話。プロフィールリンクから完全版ドキュメンタリーをご覧ください。 | `CTA — không phải dữ kiện kịch bản` |
 
 **Lớp phủ chữ trên hình (Text Overlays):**
 - `TK4.01#1`: **"16年間 · 9つの病院と1つの介護施設"** (3.0 s)
@@ -134,15 +134,15 @@
 
 | Mã | Vai | Emotion | Speed | Nghỉ | Nền (9:16) | Motion | Lời thoại | Nguồn |
 |---|---|---|---|---|---|---|---|---|
-| `TK5.01#1` | H | neutral | -0.02 | 0.5 | `t4_somerset_courtroom` | still | 最大の生存の教訓：決して不正の前に沈黙してはならない。 | `hook — không phải dữ kiện kịch bản` |
-| `TK5.01#2` | H | neutral | -0.02 | 0.6 | `t4_boardroom_empty` | pan | 同時に私たちは、凶行そのものよりも痛烈な真実――損害賠償訴訟と法的責任への恐怖から9つの病院が沈黙を守り続けた組織の共犯構造を暴きます。 | `1.16#4` |
-| `TK5.01#3` | H | neutral | -0.02 | 0.7 | `t4_somerset_exterior` | pull | それは集団的偏執病と、生存のための赤い警告シグナルから社会が目を背けた時に支払わされる代償についての重い教訓です。 | `1.16#5` |
-| `TK5.01#4` | D | neutral | -0.03 | 0.6 | `t4_courtroom_bench` | still | 2004年、ニュージャージー州知事は、この危険な沈黙の連鎖を永久に断ち切るため「カレン法」に署名しました。 | `5.06#2` |
-| `TK5.01#5` | D | neutral | -0.03 | 0.6 | `t4_pyxis_station` | pan | 同時に、自動薬剤分配機Pyxisの運用プロセスも全米で抜本的に再設計され、取り消し機能の抜け穴は完全に塞がれました。 | `5.06#5` |
-| `TK5.01#6` | H | neutral | -0.02 | 0.7 | `t4_nurse_station` | still | この悲劇が遺した最大の教訓はただ一つ、「常に自分自身の直感を信じ、耳を傾けること」です。 | `5.08#4` |
-| `TK5.01#7` | H | neutral | -0.02 | 0.7 | `t4_amy_scrubs` | push | 看護師Amy Loughrenの勇気は、恐怖を乗り越えて声を上げた一人の人間が、無数の生命を救い得ることを証明しました。 | `5.08#6` |
-| `TK5.01#8` | H | neutral | -0.02 | 0.8 | `t4_closing_desk` | pull | 不正の前の沈黙は決して平穏をもたらさず、ただ暗闇が罪なき人々を飲み込む手助けをするだけなのです。 | `5.08#7` |
-| `TK5.01#9` | H | neutral | -0.02 | 0.0 | `t4_closing_desk` | still | Amber Eyes第4話。プロフィールリンクから完全版ドキュメンタリーをご覧ください。 | `CTA — không phải dữ kiện kịch bản` |
+| `TK5.01#1` | H | neutral | -0.02 | 0.5 | `tk04_somerset_courtroom` | still | 最大の生存の教訓：決して不正の前に沈黙してはならない。 | `hook — không phải dữ kiện kịch bản` |
+| `TK5.01#2` | H | neutral | -0.02 | 0.6 | `tk04_boardroom_empty` | pan | 同時に私たちは、凶行そのものよりも痛烈な真実――損害賠償訴訟と法的責任への恐怖から9つの病院が沈黙を守り続けた組織の共犯構造を暴きます。 | `1.16#4` |
+| `TK5.01#3` | H | neutral | -0.02 | 0.7 | `tk04_somerset_exterior` | pull | それは集団的偏執病と、生存のための赤い警告シグナルから社会が目を背けた時に支払わされる代償についての重い教訓です。 | `1.16#5` |
+| `TK5.01#4` | D | neutral | -0.03 | 0.6 | `tk04_courtroom_bench` | still | 2004年、ニュージャージー州知事は、この危険な沈黙の連鎖を永久に断ち切るため「カレン法」に署名しました。 | `5.06#2` |
+| `TK5.01#5` | D | neutral | -0.03 | 0.6 | `tk04_pyxis_station` | pan | 同時に、自動薬剤分配機Pyxisの運用プロセスも全米で抜本的に再設計され、取り消し機能の抜け穴は完全に塞がれました。 | `5.06#5` |
+| `TK5.01#6` | H | neutral | -0.02 | 0.7 | `tk04_nurse_station` | still | この悲劇が遺した最大の教訓はただ一つ、「常に自分自身の直感を信じ、耳を傾けること」です。 | `5.08#4` |
+| `TK5.01#7` | H | neutral | -0.02 | 0.7 | `tk04_amy_scrubs` | push | 看護師Amy Loughrenの勇気は、恐怖を乗り越えて声を上げた一人の人間が、無数の生命を救い得ることを証明しました。 | `5.08#6` |
+| `TK5.01#8` | H | neutral | -0.02 | 0.8 | `tk04_closing_desk` | pull | 不正の前の沈黙は決して平穏をもたらさず、ただ暗闇が罪なき人々を飲み込む手助けをするだけなのです。 | `5.08#7` |
+| `TK5.01#9` | H | neutral | -0.02 | 0.0 | `tk04_closing_desk` | still | Amber Eyes第4話。プロフィールリンクから完全版ドキュメンタリーをご覧ください。 | `CTA — không phải dữ kiện kịch bản` |
 
 **Lớp phủ chữ trên hình (Text Overlays):**
 - `TK5.01#1`: **"生存の教訓と社会的責任"** (3.0 s)

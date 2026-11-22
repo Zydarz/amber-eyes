@@ -1,0 +1,716 @@
+{
+  "TK1": {
+    "title": "The Washing Machine Mystery & Digital Forensic Evidence",
+    "theme": "MO vs. Signature & Digital Forensic Reconstruction",
+    "hook": "Submerging the camera inside a running washing machine. But digital data never lies.",
+    "total_dur_est": 66.0,
+    "bgm": "bgm_cello_sad.mp3",
+    "sfx": [
+      "amb_room_tone.wav (bed)",
+      "fx_camera_shutter.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK1.01#1",
+        "text": "CRIME SCENE MESA, ARIZONA · SUMMER 2008",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK1.01#3",
+        "text": "SONY CAMERA SUBMERGED IN RUNNING WASHING MACHINE",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK1.01#5",
+        "text": "DELETED PHOTOS RESTORED SECOND-BY-SECOND",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK1.01#7",
+        "text": "5:29 PM: FATAL TIMESTAMP IN THE SHOWER",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK1.01#9",
+        "text": "DIGITAL TIMESTAMPS EXCLUDING ANY THIRD PARTY",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK1.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Yet the most anomalous discovery surfaced inside the downstairs laundry room.",
+        "source": "1.14#3",
+        "bg": "t15_jodi_arias_a1_08_mesa",
+        "camera": "still",
+        "dur_est": 4.17
+      },
+      {
+        "id": "TK1.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Inside the washing machine drum lay a load of damp clothing alongside bed linens belonging to the victim.",
+        "source": "1.14#4",
+        "bg": "t15_b03_washing_machine_running_dark",
+        "camera": "push",
+        "dur_est": 6.82
+      },
+      {
+        "id": "TK1.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "And resting at the bottom of the waterlogged basin was Travis’s Sony digital camera.",
+        "source": "1.14#5",
+        "bg": "t15_b03_washing_machine_running_dark",
+        "camera": "pan",
+        "dur_est": 5.3
+      },
+      {
+        "id": "TK1.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "The assailant had deliberately run the camera through a wash cycle hoping that water intrusion would permanently destroy its digital memory.",
+        "source": "1.14#6",
+        "bg": "t15_b03_washing_machine_running_dark",
+        "camera": "pull",
+        "dur_est": 7.95
+      },
+      {
+        "id": "TK1.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "A sequence of manually deleted photographs was meticulously recovered and reconstructed in chronological order down to the exact second.",
+        "source": "2.04#1",
+        "bg": "t15_jodi_arias_a2_03_mirror",
+        "camera": "still",
+        "dur_est": 7.19
+      },
+      {
+        "id": "TK1.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "The photographs taken on the afternoon of June 4, 2008, established that Travis Alexander and Jodi Arias were together inside the residence.",
+        "source": "2.04#2",
+        "bg": "t15_jodi_arias_a2_04_interrogation",
+        "camera": "push",
+        "dur_est": 8.33
+      },
+      {
+        "id": "TK1.01#7",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "The final photograph capturing Travis alive was timestamped at five twenty-nine in the afternoon inside the bathroom.",
+        "source": "2.04#3",
+        "bg": "t15_jodi_arias_a2_05_mesa",
+        "camera": "pan",
+        "dur_est": 6.44
+      },
+      {
+        "id": "TK1.01#8",
+        "role": "H",
+        "emotion": "fearful",
+        "speed": -0.03,
+        "pause_after": 0.6,
+        "text": "Only moments later, the camera inadvertently recorded blurred, chaotic frames exposing Jodi Arias’s presence at the scene.",
+        "source": "2.04#4",
+        "bg": "t15_jodi_arias_a2_06_arizona",
+        "camera": "pull",
+        "dur_est": 6.44
+      },
+      {
+        "id": "TK1.01#9",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "The digital imagery definitively dismantled any plausible theory regarding the presence of an unknown third party at that fateful hour.",
+        "source": "2.05#1",
+        "bg": "t15_jodi_arias_a2_07_desert",
+        "camera": "still",
+        "dur_est": 8.56
+      }
+    ]
+  },
+  "TK2": {
+    "title": "Desert Crossing & The Three Secret Gas Cans",
+    "theme": "Chilling Premeditation & Alibi Fabrication Across State Lines",
+    "hook": "Dyed hair, powered-off phone, three gas cans across the desert. A chillingly premeditated journey.",
+    "total_dur_est": 64.6,
+    "bgm": "bgm_ambient_deep.mp3",
+    "sfx": [
+      "amb_desert_wind.wav (bed)",
+      "fx_car_driving_night.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK2.01#1",
+        "text": "JUNE 2, 2008: RENTAL CAR ACQUIRED IN REDDING, CA",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK2.01#3",
+        "text": "3 GAS CANS TO AVOID CREDIT CARD FOOTPRINTS IN ARIZONA",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK2.01#4",
+        "text": "CHILLING PREMEDITATION DISPROVING SUDDEN PANIC",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK2.01#6",
+        "text": "DARK HAIR DYE & PHONE DELIBERATELY POWERED OFF",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK2.01#8",
+        "text": "METICULOUSLY CALCULATED FABRICATION SCENARIO",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK2.01#1",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "On June 2, 2008, Jodi rented a passenger vehicle in the city of Redding, California.",
+        "source": "2.05#5",
+        "bg": "t15_darryl_brewer_garage_gas_cans",
+        "camera": "still",
+        "dur_est": 6.42
+      },
+      {
+        "id": "TK2.01#2",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "She borrowed two auxiliary fuel containers from an acquaintance and purchased a third container from a commercial retailer.",
+        "source": "2.05#6",
+        "bg": "t15_jodi_arias_a2_10_bpd",
+        "camera": "push",
+        "dur_est": 7.7
+      },
+      {
+        "id": "TK2.01#3",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Carrying three reserve fuel cans enabled her to traverse extensive desert highways without leaving electronic credit card records in Arizona.",
+        "source": "2.05#7",
+        "bg": "t15_jodi_arias_a2_11_abandonment",
+        "camera": "pan",
+        "dur_est": 8.56
+      },
+      {
+        "id": "TK2.01#4",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "This Modus Operandi demonstrated calculated premeditation and deliberate alibi staging well prior to departure.",
+        "source": "2.05#8",
+        "bg": "t15_b25_darryl_brewer_garage_gas_can",
+        "camera": "pull",
+        "dur_est": 5.99
+      },
+      {
+        "id": "TK2.01#5",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Shortly before embarking on the trip, Jodi dyed her hair to a dark brown shade to alter her external appearance.",
+        "source": "2.05#9",
+        "bg": "t15_interstate_highway_gas_stop_midnight",
+        "camera": "still",
+        "dur_est": 8.56
+      },
+      {
+        "id": "TK2.01#6",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Throughout her transit into Arizona, she intentionally powered down her mobile phone to prevent cellular tower tracking.",
+        "source": "2.05#10",
+        "bg": "t15_salt_lake_city_suburban_doorstep",
+        "camera": "push",
+        "dur_est": 7.28
+      },
+      {
+        "id": "TK2.01#7",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "She even left an affectionate voicemail on Travis’s phone to fabricate an alibi suggesting she was still attempting to contact him.",
+        "source": "2.05#13",
+        "bg": "t15_b62_jodi_arias_a2_02_photographs",
+        "camera": "still",
+        "dur_est": 8.99
+      },
+      {
+        "id": "TK2.01#8",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "This was not an impulsive reaction of panic, but an alibi scenario executed through premeditated design.",
+        "source": "2.05#16",
+        "bg": "t15_jodi_arias_a2_05_mesa",
+        "camera": "pull",
+        "dur_est": 6.85
+      }
+    ]
+  },
+  "TK3": {
+    "title": "Borderline Personality Disorder & Abandonment Rage",
+    "theme": "BPD Splitting & Pathological Abandonment Panic",
+    "hook": "Idolized in the morning, dehumanized by evening. Unraveling Borderline Personality Disorder.",
+    "total_dur_est": 62.1,
+    "bgm": "bgm_piano_minimal.mp3",
+    "sfx": [
+      "amb_room_tone.wav (bed)",
+      "fx_clock_ticking.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK3.01#1",
+        "text": "FORENSIC CLINICAL PSYCHIATRIC EVALUATION",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK3.01#2",
+        "text": "BORDERLINE PERSONALITY DISORDER (BPD)",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK3.01#4",
+        "text": "TERROR OF ABANDONMENT TRIGGERING PRIMAL PANIC",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK3.01#6",
+        "text": "SPLITTING MECHANISM: ALL-GOOD OR TOTAL ENEMY",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK3.01#8",
+        "text": "TRAUMA BONDING ERUPTING INTO FATAL VIOLENCE",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK3.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Forensic assessments concluded that Jodi Arias exhibited pronounced features of Borderline Personality Disorder intertwined with Malignant Narcissism.",
+        "source": "3.04#1",
+        "bg": "t15_jodi_arias_a3_03_arizona",
+        "camera": "push",
+        "dur_est": 6.44
+      },
+      {
+        "id": "TK3.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "This condition did not represent a break from cognitive reality, but a profound and pervasive distortion within emotional and relational functioning.",
+        "source": "3.04#2",
+        "bg": "t15_jodi_arias_a3_04_desert",
+        "camera": "pan",
+        "dur_est": 7.95
+      },
+      {
+        "id": "TK3.01#3",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Borderline Personality Disorder is fundamentally characterized by pervasive instability in self-image, affect regulation, and interpersonal relationships.",
+        "source": "3.05#1",
+        "bg": "t15_jodi_arias_a3_06_gascan",
+        "camera": "still",
+        "dur_est": 6.5
+      },
+      {
+        "id": "TK3.01#4",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Central to this personality configuration is an agonizing, overwhelming terror of abandonment, whether real or imagined.",
+        "source": "3.05#2",
+        "bg": "t15_jodi_arias_a3_07_bpd",
+        "camera": "push",
+        "dur_est": 6.5
+      },
+      {
+        "id": "TK3.01#5",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "For individuals with these traits, a partner’s rejection is rarely experienced as a conventional separation, but as an intolerable annihilation of the self.",
+        "source": "3.05#3",
+        "bg": "t15_jodi_arias_a3_08_abandonment",
+        "camera": "pan",
+        "dur_est": 9.35
+      },
+      {
+        "id": "TK3.01#6",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Their internal landscape polarizes into absolute dichotomies: people are perceived as either flawless saviors or entirely malevolent persecutors.",
+        "source": "3.05#5",
+        "bg": "t15_b67_borderline_splitting_black_w",
+        "camera": "still",
+        "dur_est": 7.31
+      },
+      {
+        "id": "TK3.01#7",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "The collapse of her fantasy of possessive control discharged an extreme wave of destructive energy known as Borderline Rage.",
+        "source": "3.05#10",
+        "bg": "t15_trauma_bonding_push_pull_tangle",
+        "camera": "push",
+        "dur_est": 7.72
+      },
+      {
+        "id": "TK3.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "The intersection of borderline and narcissistic traits generated an insatiable hunger for constant public attention.",
+        "source": "3.11#1",
+        "bg": "t15_b63_cognitive_dissonance_scriptu",
+        "camera": "push",
+        "dur_est": 6.1
+      }
+    ]
+  },
+  "TK4": {
+    "title": "Interrogation Room Acrobatics & The Media Trial",
+    "theme": "Neutralization Theory & Pathological Self-Pity Behind Camera Lights",
+    "hook": "Doing headstands inside police interrogation, constantly shifting stories. Genuine tears or cold manipulation?",
+    "total_dur_est": 67.2,
+    "bgm": "bgm_violin_heart.mp3",
+    "sfx": [
+      "amb_wind_cold.wav (bed)",
+      "fx_camera_flash_crowd.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK4.01#1",
+        "text": "INITIAL DENIAL: 'I WAS NEVER IN ARIZONA'",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK4.01#3",
+        "text": "FABRICATED MASKED INTRUDERS FICTION",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK4.01#5",
+        "text": "BIZARRE BEHAVIOR: HEADSTANDS & SINGING ON CCTV",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK4.01#6",
+        "text": "NATIONALLY TELEVISED TRIAL SENSATIONALIZING THE CRIME",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK4.01#8",
+        "text": "PATHOLOGICAL SELF-PITY WHEN MANIPULATION FAILS",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK4.01#1",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Jodi Arias’s initial statement to detectives was an outright denial: she insisted she had not set foot in Arizona since April 2008.",
+        "source": "2.08#1",
+        "bg": "t15_b41_jodi_arias_a2_11_abandonment",
+        "camera": "pull",
+        "dur_est": 9.42
+      },
+      {
+        "id": "TK4.01#2",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Yet when confronted with the recovered photographs from the washing machine, that fabrication instantly collapsed.",
+        "source": "2.08#2",
+        "bg": "t15_b26_darryl_brewer_garage_gas_can",
+        "camera": "still",
+        "dur_est": 6.42
+      },
+      {
+        "id": "TK4.01#3",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "She hurriedly pivoted to an elaborate scenario: claiming two masked intruders had broken in and overpowered both individuals.",
+        "source": "2.08#3",
+        "bg": "t15_b17_interstate_highway_gas_stop_",
+        "camera": "push",
+        "dur_est": 7.7
+      },
+      {
+        "id": "TK4.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Throughout the legal proceedings, Jodi Arias altered her official account on three distinct occasions before investigative authorities.",
+        "source": "4.07#1",
+        "bg": "t15_b18_jodi_arias_a4_09_interrogati",
+        "camera": "pan",
+        "dur_est": 6.44
+      },
+      {
+        "id": "TK4.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "From initial denials of having visited Arizona, to an armed assault by two masked intruders, to finally acknowledging the act while asserting self-defense.",
+        "source": "4.07#2",
+        "bg": "t15_jodi_arias_a4_10_mesa",
+        "camera": "pull",
+        "dur_est": 8.71
+      },
+      {
+        "id": "TK4.01#6",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Detective Esteban Flores methodically dismantled each structural contradiction within her statements through rigorous interrogation.",
+        "source": "4.08#1",
+        "bg": "t15_jodi_arias_a4_12_desert",
+        "camera": "push",
+        "dur_est": 5.99
+      },
+      {
+        "id": "TK4.01#7",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "The guilty verdict triggered a classic psychological phenomenon: Narcissistic Collapse.",
+        "source": "4.11#1",
+        "bg": "t15_b30_jodi_arias_a4_09_interrogati",
+        "camera": "pan",
+        "dur_est": 4.06
+      },
+      {
+        "id": "TK4.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "The tears she shed upon the witness stand were nothing more than “Pathological Self-Pity” erupting from the public shattering of her illusion of omnipotence, entirely devoid of genuine sorrow for the life she had extinguished.",
+        "source": "4.11#8",
+        "bg": "t15_b10_two_guilt_polarities_scales",
+        "camera": "push",
+        "dur_est": 14.22
+      }
+    ]
+  },
+  "TK5": {
+    "title": "Victimology & 4 Red Flags of Obsessive Relationships",
+    "theme": "Victimology & Survival Red Flags in Lethal Relationship Escalation",
+    "hook": "Four vital survival red flags to detect obsessive psychological predators and save your life.",
+    "total_dur_est": 60.3,
+    "bgm": "bgm_piano_warm.mp3",
+    "sfx": [
+      "amb_room_tone.wav (bed)",
+      "fx_page_turn.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK5.01#1",
+        "text": "4 SURVIVAL RED FLAGS · THE GIFT OF FEAR",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#3",
+        "text": "FLAG 1: RUSHED IDOLIZATION & CHAMELEON MIMICRY",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#5",
+        "text": "FLAG 2: BOUNDARY VIOLATIONS & SUBTLE SURVEILLANCE",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#7",
+        "text": "FLAG 3: SPLITTING COGNITION & VIOLENT MOOD SWINGS",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#8",
+        "text": "FLAG 4: PROPERTY DAMAGE & ESCALATING SEPARATION THREATS",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#9",
+        "text": "UNCOMFORTABLE INTUITION IS A LIFESAVING BIOLOGICAL GIFT",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK5.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "To prevent similar tragedies from recurring, behavioral science has synthesized essential protective lessons from this case.",
+        "source": "5.06#1",
+        "bg": "t15_redflag2_frantic_efforts_avoid_abandonment",
+        "camera": "pan",
+        "dur_est": 6.06
+      },
+      {
+        "id": "TK5.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Doctor Gavin de Becker, in his seminal treatise “The Gift of Fear”, underscored the critical importance of honoring our survival intuition.",
+        "source": "5.06#2",
+        "bg": "t15_desert_monument_dawn_freedom",
+        "camera": "pull",
+        "dur_est": 7.95
+      },
+      {
+        "id": "TK5.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Presented below are four foundational red flags that every individual must understand to recognize and protect themselves.",
+        "source": "5.06#4",
+        "bg": "t15_travis_foundation_scholarship_plaque",
+        "camera": "push",
+        "dur_est": 6.44
+      },
+      {
+        "id": "TK5.01#4",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Red flag number one: Intense initial idealization combined with the Chameleon Effect.",
+        "source": "5.07#1",
+        "bg": "t15_redflag1_unstable_intense_relationships",
+        "camera": "pan",
+        "dur_est": 4.88
+      },
+      {
+        "id": "TK5.01#5",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "When an individual immediately venerates you as an infallible ideal, rapidly alters their values, and mirrors your habits, proceed with caution.",
+        "source": "5.07#2",
+        "bg": "t15_personal_boundary_stone_wall_garden",
+        "camera": "pull",
+        "dur_est": 8.53
+      },
+      {
+        "id": "TK5.01#6",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Red flag number two: Boundary encroachment disguised as excessive devotion.",
+        "source": "5.07#4",
+        "bg": "t15_truth_shines_desert_highway_horizon",
+        "camera": "push",
+        "dur_est": 4.06
+      },
+      {
+        "id": "TK5.01#7",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Red flag number three: Polarized all-or-nothing cognitive splitting accompanied by emotional volatility.",
+        "source": "5.08#1",
+        "bg": "t15_redflag3_identity_disturbance_mirror",
+        "camera": "push",
+        "dur_est": 5.14
+      },
+      {
+        "id": "TK5.01#8",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Red flag number four: Escalating threats of retaliation and property destruction when confronting relationship termination.",
+        "source": "5.08#3",
+        "bg": "t15_jodi_arias_a5_05_mirror",
+        "camera": "pull",
+        "dur_est": 6.42
+      },
+      {
+        "id": "TK5.01#9",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Never disregard the unsettling intuitive signals rising from within, for they represent humanity’s most refined evolutionary defense mechanism.",
+        "source": "5.10#3",
+        "bg": "t15_b54_jodi_arias_a5_08_arizona",
+        "camera": "still",
+        "dur_est": 6.82
+      }
+    ]
+  }
+}

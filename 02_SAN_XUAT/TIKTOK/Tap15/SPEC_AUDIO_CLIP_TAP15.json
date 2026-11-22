@@ -1,0 +1,716 @@
+{
+  "TK1": {
+    "title": "Bí Ẩn Chiếc Máy Giặt & Dữ Liệu Kỹ Thuật Số",
+    "theme": "Dấu ấn Signature vs. Thủ đoạn Gây án MO & Bằng chứng Giám định Kỹ thuật số",
+    "hook": "Ném máy ảnh vào máy giặt đang chạy nước để phi tang. Nhưng dữ liệu số không bao giờ nói dối.",
+    "total_dur_est": 69.2,
+    "bgm": "bgm_cello_sad.mp3",
+    "sfx": [
+      "amb_room_tone.wav (nền)",
+      "fx_camera_shutter.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK1.01#1",
+        "text": "HIỆN TRƯỜNG MESA, ARIZONA · MÙA HÈ NĂM 2008",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK1.01#3",
+        "text": "MÁY ẢNH SONY BỊ NGÂM DƯỚI ĐÁY LỒNG MÁY GIẶT NƯỚC",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK1.01#5",
+        "text": "HÀNG LOẠT ẢNH BỊ XÓA ĐƯỢC PHỤC HỒI CHÍNH XÁC TỪNG GIÂY",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK1.01#7",
+        "text": "17 GIỜ 29 PHÚT: BỨC ẢNH ĐỊNH MỆNH TRONG BUỒNG TẮM",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK1.01#9",
+        "text": "DỮ LIỆU ĐIỆN TỬ LOẠI BỎ HOÀN TOÀN KẺ THỨ BA",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK1.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Nhưng điều bất thường nhất lại nằm ở phòng giặt là ở tầng dưới của ngôi nhà.",
+        "source": "1.14#3",
+        "bg": "t15_jodi_arias_a1_08_mesa",
+        "camera": "still",
+        "dur_est": 4.97
+      },
+      {
+        "id": "TK1.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Bên trong lồng máy giặt đang chứa một mẻ quần áo ướt cùng bộ ga trải giường của nạn nhân.",
+        "source": "1.14#4",
+        "bg": "t15_b03_washing_machine_running_dark",
+        "camera": "push",
+        "dur_est": 5.85
+      },
+      {
+        "id": "TK1.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Và chìm dưới đáy lồng giặt ngập nước chính là chiếc máy ảnh kỹ thuật số nhãn hiệu Sony của Travis.",
+        "source": "1.14#5",
+        "bg": "t15_b03_washing_machine_running_dark",
+        "camera": "pan",
+        "dur_est": 6.14
+      },
+      {
+        "id": "TK1.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Kẻ ra tay đã cố tình cho máy ảnh chạy qua chu trình giặt với hy vọng nước sẽ tiêu hủy hoàn toàn dữ liệu điện tử bên trong.",
+        "source": "1.14#6",
+        "bg": "t15_b03_washing_machine_running_dark",
+        "camera": "pull",
+        "dur_est": 8.48
+      },
+      {
+        "id": "TK1.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Hàng loạt bức ảnh bị xóa thủ công lần lượt được phục hồi và sắp xếp lại theo trình tự thời gian chính xác đến từng giây.",
+        "source": "2.04#1",
+        "bg": "t15_jodi_arias_a2_03_mirror",
+        "camera": "still",
+        "dur_est": 7.9
+      },
+      {
+        "id": "TK1.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Những bức ảnh chụp vào chiều ngày 4 tháng 6 năm 2008 cho thấy Travis Alexander và Jodi Arias ở cùng nhau trong căn nhà.",
+        "source": "2.04#2",
+        "bg": "t15_jodi_arias_a2_04_interrogation",
+        "camera": "push",
+        "dur_est": 8.78
+      },
+      {
+        "id": "TK1.01#7",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Bức ảnh cuối cùng ghi lại hình ảnh Travis khi còn sống là lúc năm giờ hai mươi chín phút chiều trong buồng tắm.",
+        "source": "2.04#3",
+        "bg": "t15_jodi_arias_a2_05_mesa",
+        "camera": "pan",
+        "dur_est": 7.02
+      },
+      {
+        "id": "TK1.01#8",
+        "role": "H",
+        "emotion": "fearful",
+        "speed": -0.03,
+        "pause_after": 0.6,
+        "text": "Và chỉ ít phút sau đó, máy ảnh vô tình chụp những khung hình hỗn loạn, để lộ hình ảnh của Jodi Arias ngay tại hiện trường.",
+        "source": "2.04#4",
+        "bg": "t15_jodi_arias_a2_06_arizona",
+        "camera": "pull",
+        "dur_est": 7.9
+      },
+      {
+        "id": "TK1.01#9",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Dữ liệu hình ảnh số đã loại bỏ hoàn toàn mọi khả năng có kẻ thứ ba hiện diện tại hiện trường vào thời điểm định mệnh đó.",
+        "source": "2.05#1",
+        "bg": "t15_jodi_arias_a2_07_desert",
+        "camera": "still",
+        "dur_est": 7.31
+      }
+    ]
+  },
+  "TK2": {
+    "title": "Hành Trình Xuyên Sa Mạc & Ba Can Xăng Bí Mật",
+    "theme": "Sự Chuẩn bị Toan tính (Premeditation) & Kỹ thuật Xóa dấu vết Ngoại phạm",
+    "hook": "Nhuộm tóc, tắt điện thoại, mang ba can xăng qua sa mạc. Sự toan tính lạnh lùng rùng mình.",
+    "total_dur_est": 56.7,
+    "bgm": "bgm_ambient_deep.mp3",
+    "sfx": [
+      "amb_desert_wind.wav (nền)",
+      "fx_car_driving_night.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK2.01#1",
+        "text": "2/6/2008: THUÊ XE TẠI REDDING, CALIFORNIA",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK2.01#3",
+        "text": "MANG THEO 3 CAN XĂNG ĐỂ TRÁNH DÙNG THẺ TẠI ARIZONA",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK2.01#4",
+        "text": "THỦ ĐOẠN TOAN TÍNH NGOẠI PHẠM BÀI BẢN VÀ LẠNH LÙNG",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK2.01#6",
+        "text": "NHUỘM TÓC ĐỔI NHẬN DẠNG & TẮT NGUỒN ĐIỆN THOẠI",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK2.01#8",
+        "text": "KỊCH BẢN NGỤY TẠO ĐÃ ĐƯỢC TÍNH TOÁN KỸ LƯỠNG",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK2.01#1",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Ngày 2 tháng 6 năm 2008, Jodi thuê một chiếc ô tô tại thành phố Redding, bang California.",
+        "source": "2.05#5",
+        "bg": "t15_darryl_brewer_garage_gas_cans",
+        "camera": "still",
+        "dur_est": 6.01
+      },
+      {
+        "id": "TK2.01#2",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Cô ta mượn hai can đựng xăng từ bạn trai cũ và mua thêm một can xăng thứ ba tại một cửa hàng bán lẻ.",
+        "source": "2.05#6",
+        "bg": "t15_jodi_arias_a2_10_bpd",
+        "camera": "push",
+        "dur_est": 6.53
+      },
+      {
+        "id": "TK2.01#3",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Việc mang theo ba can xăng dự trữ giúp cô ta di chuyển hàng nghìn dặm qua sa mạc mà không cần quẹt thẻ tín dụng tại Arizona.",
+        "source": "2.05#7",
+        "bg": "t15_jodi_arias_a2_11_abandonment",
+        "camera": "pan",
+        "dur_est": 7.31
+      },
+      {
+        "id": "TK2.01#4",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Thủ đoạn gây án này chứng minh một sự toan tính ngoại phạm vô cùng lạnh lùng và bài bản từ trước khi xuất phát.",
+        "source": "2.05#8",
+        "bg": "t15_b25_darryl_brewer_garage_gas_can",
+        "camera": "pull",
+        "dur_est": 6.53
+      },
+      {
+        "id": "TK2.01#5",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Ngay trước chuyến đi, Jodi đã chủ động nhuộm tóc sang màu nâu sẫm để thay đổi nhận dạng bên ngoài.",
+        "source": "2.05#9",
+        "bg": "t15_interstate_highway_gas_stop_midnight",
+        "camera": "still",
+        "dur_est": 5.48
+      },
+      {
+        "id": "TK2.01#6",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Trong suốt hành trình tiến vào Arizona, cô ta chủ động tắt nguồn điện thoại di động nhằm tránh bị định vị trạm thu phát sóng.",
+        "source": "2.05#10",
+        "bg": "t15_salt_lake_city_suburban_doorstep",
+        "camera": "push",
+        "dur_est": 6.79
+      },
+      {
+        "id": "TK2.01#7",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Cô ta còn để lại tin nhắn thoại ngọt ngào vào máy Travis nhằm tạo chứng cứ ngoại phạm giả mạo rằng mình đang tìm kiếm anh.",
+        "source": "2.05#13",
+        "bg": "t15_b62_jodi_arias_a2_02_photographs",
+        "camera": "still",
+        "dur_est": 7.05
+      },
+      {
+        "id": "TK2.01#8",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Đó không phải là một phản ứng hoảng loạn nhất thời, mà là một kịch bản ngụy tạo đã được suy tính kỹ lưỡng từng bước.",
+        "source": "2.05#16",
+        "bg": "t15_jodi_arias_a2_05_mesa",
+        "camera": "pull",
+        "dur_est": 6.79
+      }
+    ]
+  },
+  "TK3": {
+    "title": "Rối Loạn Ranh Giới (BPD) & Cơn Cuồng Nộ Bị Ruồng Bỏ",
+    "theme": "Rối loạn Nhân cách Ranh giới (BPD), Tư duy Phân tách (Splitting) & Gắn kết Chấn thương (Trauma Bonding)",
+    "hook": "Yêu say đắm buổi sáng, muốn hủy diệt buổi chiều. Giải mã tâm lý rối loạn nhân cách ranh giới.",
+    "total_dur_est": 62.9,
+    "bgm": "bgm_piano_minimal.mp3",
+    "sfx": [
+      "amb_room_tone.wav (nền)",
+      "fx_clock_ticking.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK3.01#1",
+        "text": "GIÁM ĐỊNH TÂM THẦN HỌC LÂM SÀNG TẠI TÒA",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK3.01#2",
+        "text": "RỐI LOẠN NHÂN CÁCH RANH GIỚI (BORDERLINE - BPD)",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK3.01#4",
+        "text": "NỖI SỢ HÃI BỊ RUỒNG BỎ HOANG TƯỞNG CÙNG CỰC",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK3.01#6",
+        "text": "TƯ DUY PHÂN TÁCH: LÝ TƯỞNG HÓA HOẶC PHI NHÂN HÓA",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK3.01#8",
+        "text": "GẮN KẾT CHẤN THƯƠNG ĐẨY ĐẾN ĐIỂM GÃY HỦY DIỆT",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK3.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Kết luận giám định cho thấy Jodi Arias mang những đặc điểm điển hình của Rối loạn nhân cách ranh giới kết hợp nét Ái kỷ ác tính.",
+        "source": "3.04#1",
+        "bg": "t15_jodi_arias_a3_03_arizona",
+        "camera": "push",
+        "dur_est": 8.19
+      },
+      {
+        "id": "TK3.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Đây không phải là một bệnh lý làm mất khả năng nhận thức, mà là một cấu trúc nhân cách lệch lạc sâu sắc trong tư duy và cảm xúc.",
+        "source": "3.04#2",
+        "bg": "t15_jodi_arias_a3_04_desert",
+        "camera": "pan",
+        "dur_est": 8.78
+      },
+      {
+        "id": "TK3.01#3",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Rối loạn nhân cách ranh giới đặc trưng bởi sự bất ổn cùng cực trong hình ảnh bản thân, cảm xúc và các mối quan hệ liên cá nhân.",
+        "source": "3.05#1",
+        "bg": "t15_jodi_arias_a3_06_gascan",
+        "camera": "still",
+        "dur_est": 6.8
+      },
+      {
+        "id": "TK3.01#4",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Trọng tâm chi phối toàn bộ hành vi của người mang nét tính cách này là nỗi sợ hãi tột cùng trước nguy cơ bị ruồng bỏ, dù là có thật hay do tưởng tượng.",
+        "source": "3.05#2",
+        "bg": "t15_jodi_arias_a3_07_bpd",
+        "camera": "push",
+        "dur_est": 8.21
+      },
+      {
+        "id": "TK3.01#5",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Đối với họ, việc bị đối phương từ chối không đơn thuần là sự kết thúc tình cảm, mà được cảm nhận như sự sụp đổ của chính bản ngã.",
+        "source": "3.05#3",
+        "bg": "t15_jodi_arias_a3_08_abandonment",
+        "camera": "pan",
+        "dur_est": 7.03
+      },
+      {
+        "id": "TK3.01#6",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Thế giới trong mắt họ bị phân cực thành hai thái cực tuyệt đối: hoặc hoàn hảo không tì vết, hoặc hoàn toàn xấu xa và đáng bị trừng phạt.",
+        "source": "3.05#5",
+        "bg": "t15_b67_borderline_splitting_black_w",
+        "camera": "still",
+        "dur_est": 7.03
+      },
+      {
+        "id": "TK3.01#7",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Sự sụp đổ của ảo tưởng sở hữu đã phóng thích một nguồn năng lượng hủy diệt cực đoan mang tên Cơn cuồng nộ ranh giới.",
+        "source": "3.05#10",
+        "bg": "t15_trauma_bonding_push_pull_tangle",
+        "camera": "push",
+        "dur_est": 6.1
+      },
+      {
+        "id": "TK3.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Sự kết hợp giữa nét tính cách ranh giới và ái kỷ khiến Jodi luôn khao khát trở thành tâm điểm của sự chú ý từ công chúng.",
+        "source": "3.11#1",
+        "bg": "t15_b63_cognitive_dissonance_scriptu",
+        "camera": "push",
+        "dur_est": 6.56
+      }
+    ]
+  },
+  "TK4": {
+    "title": "Trò Ảo Thuật Phòng Thẩm Vấn & Phiên Tòa Truyền Hình",
+    "theme": "Hệ thống Tự bào chữa (Kỹ thuật Trung hòa Đạo đức) & Sự Tự thương hại Bệnh lý",
+    "hook": "Trồng cây chuối trong phòng hỏi cung, liên tục đổi kịch bản lời khai. Nước mắt của sự hối hận hay toan tính?",
+    "total_dur_est": 67.2,
+    "bgm": "bgm_violin_heart.mp3",
+    "sfx": [
+      "amb_wind_cold.wav (nền)",
+      "fx_camera_flash_crowd.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK4.01#1",
+        "text": "PHỦ NHẬN BAN ĐẦU: 'TÔI KHÔNG HỀ ĐẾN ARIZONA'",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK4.01#3",
+        "text": "KỊCH BẢN HAI KẺ ĐEO MẶT NẠ ĐỘT NHẬP HOANG TƯỞNG",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK4.01#5",
+        "text": "HÀNH VI KỲ DỊ: HÁT MỘT MÌNH & TRỒNG CÂY CHUỐI KHI BỊ GIÁM SÁT",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK4.01#6",
+        "text": "PHIÊN TÒA TRUYỀN HÌNH CHIA RẼ DƯ LUẬN NƯỚC MỸ NĂM 2013",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK4.01#8",
+        "text": "TỰ THƯƠNG HẠI BỆNH LÝ KHI CHIẾC MẶT NẠ SỤP ĐỔ",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK4.01#1",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Lời khai ban đầu của Jodi Arias trước điều tra viên là một lời phủ nhận hoàn toàn: cô ta khẳng định không hề đặt chân đến Arizona từ tháng 4 năm 2008.",
+        "source": "2.08#1",
+        "bg": "t15_b41_jodi_arias_a2_11_abandonment",
+        "camera": "pull",
+        "dur_est": 9.92
+      },
+      {
+        "id": "TK4.01#2",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Nhưng khi đối diện với các bức ảnh được phục hồi từ thẻ nhớ máy giặt, lời nói dối ấy lập tức tan vỡ hoàn toàn.",
+        "source": "2.08#2",
+        "bg": "t15_b26_darryl_brewer_garage_gas_can",
+        "camera": "still",
+        "dur_est": 6.79
+      },
+      {
+        "id": "TK4.01#3",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Cô ta vội vã thay đổi lời khai sang một kịch bản ly kỳ: rằng có hai kẻ lạ mặt đeo mặt nạ đột nhập khống chế hai người.",
+        "source": "2.08#3",
+        "bg": "t15_b17_interstate_highway_gas_stop_",
+        "camera": "push",
+        "dur_est": 7.57
+      },
+      {
+        "id": "TK4.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Trong suốt quá trình tố tụng, Jodi Arias đã thay đổi câu chuyện của mình tới ba lần riêng biệt trước cơ quan điều tra.",
+        "source": "4.07#1",
+        "bg": "t15_b18_jodi_arias_a4_09_interrogati",
+        "camera": "pan",
+        "dur_est": 7.31
+      },
+      {
+        "id": "TK4.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Từ việc phủ nhận có mặt tại Arizona, chuyển sang câu chuyện bị hai kẻ đột nhập tấn công, và cuối cùng thừa nhận ra tay nhưng nại lý do tự vệ.",
+        "source": "4.07#2",
+        "bg": "t15_jodi_arias_a4_10_mesa",
+        "camera": "pull",
+        "dur_est": 9.36
+      },
+      {
+        "id": "TK4.01#6",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Thanh tra Esteban Flores đã kiên trì vạch trần từng điểm mâu thuẫn trong lời khai của bị cáo qua các buổi hỏi cung kéo dài.",
+        "source": "4.08#1",
+        "bg": "t15_jodi_arias_a4_12_desert",
+        "camera": "push",
+        "dur_est": 6.79
+      },
+      {
+        "id": "TK4.01#7",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Phán quyết có tội đã kích hoạt một hiện tượng tâm lý học điển hình: Sự sụp đổ cái tôi ái kỷ.",
+        "source": "4.11#1",
+        "bg": "t15_b30_jodi_arias_a4_09_interrogati",
+        "camera": "pan",
+        "dur_est": 5.16
+      },
+      {
+        "id": "TK4.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Những giọt nước mắt lăn dài trên bục nhân chứng thực chất chỉ là hiện tượng “Tự thương hại bệnh lý” khi chiếc mặt nạ toàn năng bị xé toạc, hoàn toàn thiếu vắng lòng trắc ẩn đối với sinh mạng đã mất.",
+        "source": "4.11#8",
+        "bg": "t15_b10_two_guilt_polarities_scales",
+        "camera": "push",
+        "dur_est": 10.08
+      }
+    ]
+  },
+  "TK5": {
+    "title": "Nạn Nhân Học & 4 Cảnh Báo Đỏ Mối Quan Hệ Ám Ảnh",
+    "theme": "Nạn nhân học (Victimology) & 4 Dấu hiệu Cảnh báo Đỏ Sinh tồn (The Gift of Fear - Gavin de Becker)",
+    "hook": "Bốn tín hiệu cảnh báo đỏ nhận diện kẻ săn mồi tâm lý ám ảnh để bảo vệ sinh mạng bản thân.",
+    "total_dur_est": 66.8,
+    "bgm": "bgm_piano_warm.mp3",
+    "sfx": [
+      "amb_room_tone.wav (nền)",
+      "fx_page_turn.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK5.01#1",
+        "text": "4 CẢNH BÁO ĐỎ SINH TỒN · THE GIFT OF FEAR",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#3",
+        "text": "CẢNH BÁO 1: LÝ TƯỞNG HÓA DỒN DẬP & HIỆU ỨNG TẮC KÈ HOA",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#5",
+        "text": "CẢNH BÁO 2: XÂM PHẠM RANH GIỚI & THEO DÕI VI TẾ",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#7",
+        "text": "CẢNH BÁO 3: TƯ DUY PHÂN TÁCH & CẢM XÚC BIẾN THIÊN CỰC ĐOAN",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#8",
+        "text": "CẢNH BÁO 4: ĐE DỌA, PHÁ HOẠI TÀI SẢN KHI NÓI CHIA TAY",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#9",
+        "text": "TRỰC GIÁC BẤT AN LÀ MÓN QUÀ SINH HỌC VÔ GIÁ",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK5.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Để những bi kịch tương tự không còn cơ hội lặp lại, khoa học hành vi đã đúc kết những bài học quý giá từ vụ án này.",
+        "source": "5.06#1",
+        "bg": "t15_redflag2_frantic_efforts_avoid_abandonment",
+        "camera": "pan",
+        "dur_est": 8.19
+      },
+      {
+        "id": "TK5.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Tiến sĩ Gavin de Becker trong tác phẩm kinh điển “Món quà của nỗi sợ hãi” đã nhấn mạnh tầm quan trọng của việc lắng nghe trực giác sinh tồn.",
+        "source": "5.06#2",
+        "bg": "t15_desert_monument_dawn_freedom",
+        "camera": "pull",
+        "dur_est": 8.78
+      },
+      {
+        "id": "TK5.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Dưới đây là bốn dấu hiệu cảnh báo đỏ cốt lõi mà mỗi người cần ghi nhớ để nhận diện và bảo vệ chính bản thân mình.",
+        "source": "5.06#4",
+        "bg": "t15_travis_foundation_scholarship_plaque",
+        "camera": "push",
+        "dur_est": 7.9
+      },
+      {
+        "id": "TK5.01#4",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Cảnh báo đỏ thứ nhất: Sự lý tưởng hóa dồn dập kết hợp với Hiệu ứng Tắc kè hoa.",
+        "source": "5.07#1",
+        "bg": "t15_redflag1_unstable_intense_relationships",
+        "camera": "pan",
+        "dur_est": 4.45
+      },
+      {
+        "id": "TK5.01#5",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Khi một người mới quen ngay lập tức tôn sùng bạn như hình mẫu hoàn hảo duy nhất, vội vã thay đổi niềm tin và sao chép sở thích của bạn, hãy hết sức thận trọng.",
+        "source": "5.07#2",
+        "bg": "t15_personal_boundary_stone_wall_garden",
+        "camera": "pull",
+        "dur_est": 8.44
+      },
+      {
+        "id": "TK5.01#6",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Cảnh báo đỏ thứ hai: Sự xâm phạm ranh giới cá nhân và hành vi kiểm soát vi tế.",
+        "source": "5.07#4",
+        "bg": "t15_truth_shines_desert_highway_horizon",
+        "camera": "push",
+        "dur_est": 4.45
+      },
+      {
+        "id": "TK5.01#7",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Cảnh báo đỏ thứ ba: Tư duy phân tách trắng đen và cảm xúc biến thiên cực đoan.",
+        "source": "5.08#1",
+        "bg": "t15_redflag3_identity_disturbance_mirror",
+        "camera": "push",
+        "dur_est": 4.7
+      },
+      {
+        "id": "TK5.01#8",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Cảnh báo đỏ thứ tư: Những hành vi leo thang đe dọa và phá hoại tài sản khi đối diện với nguy cơ chia tay.",
+        "source": "5.08#3",
+        "bg": "t15_jodi_arias_a5_05_mirror",
+        "camera": "pull",
+        "dur_est": 6.53
+      },
+      {
+        "id": "TK5.01#9",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Đừng bao giờ bỏ qua trực giác bất an bên trong bạn, bởi đó chính là cơ chế tự vệ sinh học tự nhiên quý giá nhất mà tạo hóa ban tặng.",
+        "source": "5.10#3",
+        "bg": "t15_b54_jodi_arias_a5_08_arizona",
+        "camera": "still",
+        "dur_est": 9.36
+      }
+    ]
+  }
+}

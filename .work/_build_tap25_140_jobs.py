@@ -1,0 +1,1029 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate exactly 140 background jobs for Episode 25 (Hồ sơ Yoo Young-chul).
+Following H21 (Kaggle FLUX Deep Noir Architecture) & H25 (Per-shot distribution).
+Adheres to V5 (No real faces, silhouette only) and V9/H26 (Strictly no text, no gore).
+140 images breakdown:
+  Act 1: 33 images (t25_a1_01 -> t25_a1_33) for 39 sentences
+  Act 2: 25 images (t25_a2_01 -> t25_a2_25) for 29 sentences
+  Act 3: 27 images (t25_a3_01 -> t25_a3_27) for 32 sentences
+  Act 4: 31 images (t25_a4_01 -> t25_a4_31) for 37 sentences
+  Act 5: 24 images (t25_a5_01 -> t25_a5_24) for 28 sentences
+Total = 33 + 25 + 27 + 31 + 24 = 140 images.
+"""
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+WORK = ROOT / ".work"
+
+JOBS = [
+    # =========================================================================
+    # HỒI 1 (33 ảnh: t25_a1_01 -> t25_a1_33)
+    # =========================================================================
+    {
+        "name": "t25_a1_01_seoul_skyscrapers_fog_night",
+        "act": 1,
+        "sentences": "1.02#1",
+        "desc": "Thủ đô Seoul đầu những năm 2000 thịnh vượng dưới màn đêm sương mù u ám.",
+        "prompt": "Panoramic establishing shot of early 2000s Seoul modern city skyline at night, cold pale fog rolling between sleek dark skyscrapers, deep chiaroscuro lighting, eerie muted noir atmosphere."
+    },
+    {
+        "name": "t25_a1_02_shadowy_city_streets_dread",
+        "act": 1,
+        "sentences": "1.02#2",
+        "desc": "Góc phố Seoul tối tăm bên dưới ánh đèn neon mờ ảo, dự cảm bóng ma tội ác.",
+        "prompt": "Dark shadowy Seoul street alley beneath distant towering architecture, ominous deep pitch-black shadows, lonely wet pavement reflecting pale dim light, creeping urban dread."
+    },
+    {
+        "name": "t25_a1_03_upscale_residential_villa_gate",
+        "act": 1,
+        "sentences": "1.02#3",
+        "desc": "Cổng biệt thự kiên cố tại khu nhà giàu Seoul chìm trong đêm tĩnh lặng.",
+        "prompt": "High heavy iron gates of an upscale Seoul luxury residence at midnight, closed solid stone walls, bare branches casting stark twisted shadows, silent unsettling atmosphere."
+    },
+    {
+        "name": "t25_a1_04_police_station_hallway_confusion",
+        "act": 1,
+        "sentences": "1.02#4",
+        "desc": "Hành lang đồn cảnh sát khuya vắng bóng người, không khí bế tắc không manh mối.",
+        "prompt": "Dimly lit empty hallway of an investigative police precinct, fluorescent light flickering overhead on dull grey walls, cold stark shadows, feeling of forensic baffle and lost clues."
+    },
+    {
+        "name": "t25_a1_05_solitary_predator_silhouette_rain",
+        "act": 1,
+        "sentences": "1.02#5",
+        "desc": "Bóng đen kẻ săn mồi cô độc rảo bước trong mưa phùn giữa phố xá Seoul.",
+        "prompt": "Mysterious solitary dark silhouette of an intruder walking down an empty urban road in heavy drizzle, blurred street reflections, cold desaturated monochrome tones, chilling suspense."
+    },
+    {
+        "name": "t25_a1_06_dossier_yellow_raincoat_archive",
+        "act": 1,
+        "sentences": "1.02#6",
+        "desc": "Hồ sơ điều tra sơ khởi về kẻ sát nhân áo mưa vàng trên bàn làm việc trơn trống.",
+        "prompt": "Investigative folder placed on a weathered dark oak desk, completely blank and unmarked with no text or labels, subtle cold beam of desk lamp cutting through pitch darkness."
+    },
+    {
+        "name": "t25_a1_07_sinsadong_gangnam_luxury_mansions",
+        "act": 1,
+        "sentences": "1.04#1",
+        "desc": "Khu dân cư thượng lưu Sinsa-dong Gangnam mùa thu năm 2003 trầm mặc.",
+        "prompt": "Quiet upscale residential neighborhood of Sinsa-dong in autumn night, imposing stone villas with darkened windows, cold crisp autumn air, stark high-contrast noir shadows."
+    },
+    {
+        "name": "t25_a1_08_two_story_mansion_dark_facade",
+        "act": 1,
+        "sentences": "1.04#2",
+        "desc": "Căn biệt thự hai tầng biệt lập nơi vụ đột nhập đầu tiên diễn ra.",
+        "prompt": "Exterior facade of a secluded two-story affluent mansion, pitch dark courtyard, dead silent garden surrounded by tall concrete walls, pale moonlight slanting across the lawn."
+    },
+    {
+        "name": "t25_a1_09_gugidong_seongbuk_hills_villas",
+        "act": 1,
+        "sentences": "1.04#3",
+        "desc": "Những căn biệt thự cổ kính trên sườn đồi Gugi-dong và Seongbuk trong sương lạnh.",
+        "prompt": "Narrow winding hillside street in Gugi-dong lined with fortress-like private residences, heavy midnight mist descending from the mountain ridge, cold desolate noir aesthetic."
+    },
+    {
+        "name": "t25_a1_10_untouched_jewelry_box_safe",
+        "act": 1,
+        "sentences": "1.04#4",
+        "desc": "Hộp đựng trang sức và két sắt trong phòng ngủ còn nguyên vẹn không bị lục lọi.",
+        "prompt": "Interior of an elegant vintage bedroom, untouched antique wooden vanity table with closed jewelry box in heavy shadow, stark chiaroscuro lighting, eerie pristine stillness."
+    },
+    {
+        "name": "t25_a1_11_open_balcony_window_breach",
+        "act": 1,
+        "sentences": "1.04#5",
+        "desc": "Cửa sổ ban công tầng hai mở he hé, dấu vết đột nhập lạnh lùng trong đêm.",
+        "prompt": "Close-up of a second-floor terrace French window slightly ajar, curtains swaying gently in the midnight breeze, pale moonlight falling on empty parquet floor, creeping danger."
+    },
+    {
+        "name": "t25_a1_12_heavy_sledgehammer_silhouette_shadows",
+        "act": 1,
+        "sentences": "1.04#6",
+        "desc": "Bóng chiếc búa tạ tự chế đặt trên sàn gạch tối, toát lên sự đe dọa nặng nề.",
+        "prompt": "Stark silhouette of a heavy blunt metal sledgehammer resting against a damp brick basement corner, deep pitch-black shadows, high contrast dramatic lighting, absolute silence."
+    },
+    {
+        "name": "t25_a1_13_oppressive_class_divide_metaphor",
+        "act": 1,
+        "sentences": "1.04#7",
+        "desc": "Ẩn dụ sự phân hóa giàu nghèo: tường cao cổng kín đối lập bóng tối dưới chân dốc.",
+        "prompt": "High towering stone barrier separating opulent mansions above from gloomy lower urban alleys below, dramatic vertical composition, severe cold lighting, intense psychological tension."
+    },
+    {
+        "name": "t25_a1_14_police_cruiser_patrol_flashing_lights",
+        "act": 1,
+        "sentences": "1.06#1",
+        "desc": "Xe cảnh sát tuần tra chầm chậm trong ngõ hẻm khu biệt thự đầu năm 2004.",
+        "prompt": "Vintage Korean police sedan patrolling through an affluent residential alley at night, faint emergency light reflections on wet tarmac, damp midnight mist, dark noir mood."
+    },
+    {
+        "name": "t25_a1_15_shifting_predator_urban_crowd",
+        "act": 1,
+        "sentences": "1.06#2",
+        "desc": "Bóng lưng người đàn ông hòa vào dòng người ga tàu điện ngầm đông đúc.",
+        "prompt": "Crowded dimly lit subway concourse during evening rush hour, anonymous silhouettes walking past, a solitary menacing dark trench-coat figure pausing in shadow, grim tension."
+    },
+    {
+        "name": "t25_a1_16_freelance_worker_empty_vanity",
+        "act": 1,
+        "sentences": "1.06#3",
+        "desc": "Bàn trang điểm và túi xách để lại, gợi nhắc những người phụ nữ mất tích bí ẩn.",
+        "prompt": "Modest studio apartment room, empty vanity desk with small mirror in shadow, lonely quiet interior, cold blue-grey tint, atmosphere of sudden unexplained disappearance."
+    },
+    {
+        "name": "t25_a1_17_vintage_flip_phone_call_night",
+        "act": 1,
+        "sentences": "1.06#4",
+        "desc": "Chiếc điện thoại nắp gập đầu thập niên 2000 sáng màn hình trong bóng tối.",
+        "prompt": "Close-up of a vintage early 2000s mobile flip phone resting on a wooden nightstand, dim blank screen glowing in dark room, completely blank with no letters or numbers, suspenseful."
+    },
+    {
+        "name": "t25_a1_18_neon_signs_massage_district_drizzle",
+        "act": 1,
+        "sentences": "1.06#5",
+        "desc": "Khu phố dịch vụ Mapo và Sinchon trong làn mưa đêm mờ ảo u sầu.",
+        "prompt": "Narrow wet alleyway in an entertainment district during light rain, dim blurred lantern glows reflecting in muddy puddles, strictly no text or signs, dark noir atmosphere."
+    },
+    {
+        "name": "t25_a1_19_sinchon_massage_office_interior",
+        "act": 1,
+        "sentences": "1.07#1",
+        "desc": "Bên trong cơ sở dịch vụ massage tại Sinchon, bầu không khí âu lo bao trùm.",
+        "prompt": "Interior of a small modest office waiting room, vintage partition screen, dim incandescent lamp casting long nervous shadows across the wall, heavy brooding quiet."
+    },
+    {
+        "name": "t25_a1_20_call_log_ledger_desk_lamp",
+        "act": 1,
+        "sentences": "1.07#2–1.07#3",
+        "desc": "Sổ ghi nhật ký cuộc gọi mở trên bàn làm việc dưới ánh đèn bàn tập trung.",
+        "prompt": "Open blank ledger book lying on an office desk under the beam of a vintage gooseneck lamp, pages completely clean and unwritten without text, intense analytical focus."
+    },
+    {
+        "name": "t25_a1_21_landline_phone_identical_digits_metaphor",
+        "act": 1,
+        "sentences": "1.07#4–1.07#5",
+        "desc": "Chiếc điện thoại bàn để cạnh sổ theo dõi, gợi mối liên kết giữa các vụ mất tích.",
+        "prompt": "Vintage push-button landline phone sitting beside a closed blank notebook on a worn laminate desk, stark single light source, cold investigative tension, sharp ink linework."
+    },
+    {
+        "name": "t25_a1_22_midnight_phone_ringing_alarm",
+        "act": 1,
+        "sentences": "1.07#6",
+        "desc": "Cuộc gọi rạng sáng ngày 15/7/2004 phá tan sự tĩnh lặng trong văn phòng trực.",
+        "prompt": "Quiet room in deep darkness, faint green indicator light of a telephone console glowing softly, casting tense reflections on surrounding dark walls, sudden urgency."
+    },
+    {
+        "name": "t25_a1_23_stakeout_waiting_car_sinchon",
+        "act": 1,
+        "sentences": "1.07#7",
+        "desc": "Xe mật phục của nhóm nhân chứng và cảnh sát chờ đợi trong ngõ hẻm Sinchon.",
+        "prompt": "View from inside a parked dark car looking out through rain-streaked windshield at a desolate street intersection in Sinchon, wipers paused, intense stakeout vigilance."
+    },
+    {
+        "name": "t25_a1_24_heavy_rainstorm_alley_grand_encounter",
+        "act": 1,
+        "sentences": "1.09#1",
+        "desc": "Cơn mưa tầm tã rạng sáng ngày 15/7/2004 tại con hẻm định mệnh gần ga Sinchon.",
+        "prompt": "Torrential summer rain pouring down a narrow gritty Seoul backstreet, water rushing along gutters, distant flickering streetlamp, atmospheric black-and-amber chiaroscuro."
+    },
+    {
+        "name": "t25_a1_25_yellow_raincoat_figure_approaching",
+        "act": 1,
+        "sentences": "1.09#2",
+        "desc": "Bóng người trùm áo mưa vàng bước đi chầm chậm trong màn mưa đêm dày đặc.",
+        "prompt": "Silhouette of a man wearing a dull yellow hooded raincoat walking slowly through torrential rain at night, head lowered, footsteps splashing in dark water, sinister quiet."
+    },
+    {
+        "name": "t25_a1_26_sudden_scuffle_takedown_wet_ground",
+        "act": 1,
+        "sentences": "1.09#3",
+        "desc": "Khoảnh khắc khống chế quật ngã đối tượng trên mặt đường sũng nước mưa.",
+        "prompt": "Dynamic graphic novel action silhouettes grappling in pouring rain on slick wet asphalt, dramatic high contrast, chaotic splashing water, intense physical struggle."
+    },
+    {
+        "name": "t25_a1_27_handcuffed_raincoat_pavement",
+        "act": 1,
+        "sentences": "1.09#4",
+        "desc": "Chiếc còng số 8 khóa chặt cổ tay nghi phạm trên mặt đường ướt sũng.",
+        "prompt": "Close-up of metal handcuffs locked around hands on wet rain-soaked pavement, water droplets glistening on steel, harsh flashlight beam illuminating from above."
+    },
+    {
+        "name": "t25_a1_28_mapo_police_station_rainy_exterior",
+        "act": 1,
+        "sentences": "1.10#1",
+        "desc": "Trụ sở cảnh sát Mapo trong đêm mưa xối xả đón tiếp nghi phạm áo mưa vàng.",
+        "prompt": "Exterior establishing shot of Mapo district police station in the early morning hours, torrential rain streaming off eaves, parked squad cars with wet reflective hoods, bleak noir."
+    },
+    {
+        "name": "t25_a1_29_interrogation_room_shadowed_face",
+        "act": 1,
+        "sentences": "1.10#2",
+        "desc": "Góc phòng hỏi cung: bóng nghi phạm ngồi bất động đối diện các điều tra viên.",
+        "prompt": "Interior of an interrogation room, single hanging ceiling lamp casting a harsh pool of white light on a bare metal table, dark silhouette of a suspect sitting motionless."
+    },
+    {
+        "name": "t25_a1_30_forged_police_badge_id",
+        "act": 1,
+        "sentences": "1.10#3",
+        "desc": "Huy hiệu cảnh sát giả và giấy tờ giả mạo bị tịch thu trên bàn thẩm vấn.",
+        "prompt": "A fake metal police shield and faux identification leather wallet resting on a cold steel table, completely blank with no readable insignia or lettering, forensic crime aesthetic."
+    },
+    {
+        "name": "t25_a1_31_detectives_evaluating_kidnapping_theory",
+        "act": 1,
+        "sentences": "1.11#1",
+        "desc": "Các điều tra viên thảo luận tại góc phòng, ban đầu nghi ngờ vụ tống tiền.",
+        "prompt": "Silhouette of two seasoned detectives conferring in the corner of a dimly lit precinct office, smoke drifting past blinds, papers stacked on desks in deep shadow."
+    },
+    {
+        "name": "t25_a1_32_chilling_smirk_in_the_dark",
+        "act": 1,
+        "sentences": "1.11#2",
+        "desc": "Ẩn dụ bóng tối lạnh lẽo sau nụ cười ngạo mạn của kẻ đang bị giam giữ.",
+        "prompt": "Abstract psychological noir illustration of an unsettling dark face largely obscured in heavy black shadow, cold piercing gaze emerging from darkness, chilling foreboding mood."
+    },
+    {
+        "name": "t25_a1_33_gathering_storm_clouds_over_seoul",
+        "act": 1,
+        "sentences": "1.11#3",
+        "desc": "Mây đen vần vũ trên bầu trời Seoul trước khi sự thật kinh hoàng phát lộ.",
+        "prompt": "Ominous heavy dark thunderclouds gathering over the silhouette of Seoul city skyline at dawn, distant lightning flash, profound sense of an impending seismic revelation."
+    },
+
+    # =========================================================================
+    # HỒI 2 (25 ảnh: t25_a2_01 -> t25_a2_25)
+    # =========================================================================
+    {
+        "name": "t25_a2_01_precinct_corridor_chaos_dawn",
+        "act": 2,
+        "sentences": "2.02#1",
+        "desc": "Hành lang đồn cảnh sát Mapo rạng sáng ngày 16/7/2004 lúc giao ca.",
+        "prompt": "Long narrow hallway of Mapo police precinct at dawn, officers shifting between offices, muted amber light mingling with grey dawn filtering through dirty windows, sudden tension."
+    },
+    {
+        "name": "t25_a2_02_diverted_attention_open_doorway",
+        "act": 2,
+        "sentences": "2.02#2",
+        "desc": "Khoảnh khắc phân tâm khi các nhân chứng khác được dẫn vào văn phòng.",
+        "prompt": "Open doorway of an interrogation room looking into a busy precinct corridor, silhouette of officers occupied by paperwork, an unguarded chair in foreground shadow."
+    },
+    {
+        "name": "t25_a2_03_shattered_glass_entrance_escape",
+        "act": 2,
+        "sentences": "2.02#3–2.04#1",
+        "desc": "Cánh cửa kính đồn cảnh sát vỡ toang trong cú tông đào tẩu chớp nhoáng.",
+        "prompt": "Heavy commercial glass entrance door cracked and swinging violently open, shards of broken safety glass scattered across the wet precinct steps outside, dramatic action noir."
+    },
+    {
+        "name": "t25_a2_04_red_alert_seoul_police_grid",
+        "act": 2,
+        "sentences": "2.04#2",
+        "desc": "Báo động đỏ toàn lực lượng cảnh sát Seoul phong tỏa các cửa ngõ thủ đô.",
+        "prompt": "Overhead tactical view of Seoul urban street grid at dawn, stylized dark noir surveillance aesthetic, police roadblocks with faint flashing beacon lights in deep mist."
+    },
+    {
+        "name": "t25_a2_05_subway_station_turnstiles_inspection",
+        "act": 2,
+        "sentences": "2.04#3",
+        "desc": "Lực lượng kiểm soát siết chặt tại các cửa soát vé ga tàu điện ngầm và bến xe.",
+        "prompt": "Underground subway concourse with turnstiles, silhouettes of transit officers standing vigilantly at entrances, cold subterranean shadows, passengers moving in tense silence."
+    },
+    {
+        "name": "t25_a2_06_yeondeungpo_station_crowds_shadow",
+        "act": 2,
+        "sentences": "2.04#4",
+        "desc": "Khu vực ga Yeongdeungpo nhộn nhịp nơi nghi phạm lang thang suốt 12 giờ trốn chạy.",
+        "prompt": "Gritty rainy street plaza outside Yeongdeungpo station, dense crowd of pedestrians holding dark umbrellas, solitary hooded figure slipping into narrow alley shadows."
+    },
+    {
+        "name": "t25_a2_07_pharmacy_counter_sleeping_pills",
+        "act": 2,
+        "sentences": "2.04#5",
+        "desc": "Quầy thuốc tây nhỏ nơi Yoo Young-chul cố mua lượng lớn thuốc ngủ trong tuyệt vọng.",
+        "prompt": "Interior of a small vintage urban pharmacy, glass display case with unmarked medicine bottles in shadow, faint cold light, solitary silhouette at the counter, anxious stillness."
+    },
+    {
+        "name": "t25_a2_08_exhausted_surrender_in_alleyway",
+        "act": 2,
+        "sentences": "2.04#6",
+        "desc": "Khoảnh khắc kiệt sức bị bắt lại vào chiều tối ngày 16/7/2004 tại một ngõ cụt.",
+        "prompt": "Dead-end brick alleyway at dusk, wet pavement, heavily exhausted suspect slumped against a damp wall surrounded by approaching dark silhouettes of officers, final recapture."
+    },
+    {
+        "name": "t25_a2_09_reinterrogation_room_steel_table",
+        "act": 2,
+        "sentences": "2.06#1",
+        "desc": "Phòng thẩm vấn đặc biệt: Yoo Young-chul nở nụ cười ngạo mạn nhìn điều tra viên.",
+        "prompt": "Tight close framing of a stark steel interrogation table, two chairs opposite each other, dramatic low-angle lighting carving sharp chiaroscuro contours, tense psychological face-off."
+    },
+    {
+        "name": "t25_a2_10_pen_drawing_crude_burial_map",
+        "act": 2,
+        "sentences": "2.06#2",
+        "desc": "Bàn tay cầm bút phác thảo sơ đồ sườn đồi trên tờ giấy trắng trơn không chữ.",
+        "prompt": "Close-up of a hand holding a ballpoint pen over a sheet of plain white drawing paper on a wooden table, drawing rough topographic mountain contours, completely blank without text."
+    },
+    {
+        "name": "t25_a2_11_detectives_shock_stunned_silence",
+        "act": 2,
+        "sentences": "2.06#3",
+        "desc": "Sự bàng hoàng tột độ của các điều tra viên trước lời khai nhận liên tiếp hàng chục vụ án.",
+        "prompt": "Two detectives seated in a dimly lit office leaning over a desk, expressions of profound horror and stunned silence captured in stark silhouette, papers illuminated by desk lamp."
+    },
+    {
+        "name": "t25_a2_12_bongwon_temple_hillside_mist",
+        "act": 2,
+        "sentences": "2.08#1",
+        "desc": "Sườn đồi rậm rạp phía sau chùa Bongwon dưới cơn mưa tầm tã ngày 18/7/2004.",
+        "prompt": "Foreboding heavily wooded hillside behind an ancient mountain temple in thick rain, dense dark pine trees dripping water, mist rising from drenched soil, solemn atmosphere."
+    },
+    {
+        "name": "t25_a2_13_police_crime_scene_cordon_forest",
+        "act": 2,
+        "sentences": "2.08#2",
+        "desc": "Hàng rào phong tỏa hiện trường căng dọc sườn rừng giữa bùn lầy.",
+        "prompt": "Tactical scene barrier tape strung between dark gnarled pine trees in muddy woodland, forensic personnel silhouettes moving with shovels in distant rain, stark contrast."
+    },
+    {
+        "name": "t25_a2_14_forensic_excavation_tarps_rain",
+        "act": 2,
+        "sentences": "2.08#3",
+        "desc": "Các tấm bạt xanh che chắn cuộc khai quật quy mô lớn trên sườn núi ẩm ướt.",
+        "prompt": "Large waterproof tarpaulins pitched on a steep muddy mountain slope in heavy downpour, forensic searchlights piercing through rain, solemn dark investigative visual."
+    },
+    {
+        "name": "t25_a2_15_officetel_mapo_narrow_corridor",
+        "act": 2,
+        "sentences": "2.08#4",
+        "desc": "Hành lang căn hộ officetel nhỏ bé của Yoo Young-chul tại Mapo.",
+        "prompt": "Narrow dingy corridor of an early 2000s Korean officetel apartment building, generic metal doors lined up, dim fluorescent tube humming above, suffocating claustrophobic mood."
+    },
+    {
+        "name": "t25_a2_16_soundproofed_apartment_door_metaphor",
+        "act": 2,
+        "sentences": "2.08#5",
+        "desc": "Cánh cửa căn hộ khép kín, nơi diễn ra những tội ác tày trời bị che giấu.",
+        "prompt": "Single closed apartment door viewed from dark hallway, heavy rubber weatherstripping along doorframe, completely silent and chilling, cold dark graphic novel linework."
+    },
+    {
+        "name": "t25_a2_17_macabre_crime_reconstruction_hillside",
+        "act": 2,
+        "sentences": "2.08#6",
+        "desc": "Buổi thực nghiệm hiện trường trên đồi với sự tham gia của lực lượng cảnh sát.",
+        "prompt": "Restrained figure in yellow raincoat escorted by detectives through a misty mountain clearing, umbrellas shielding against rain, severe somber atmosphere."
+    },
+    {
+        "name": "t25_a2_18_arrogant_demeanor_reconstruction",
+        "act": 2,
+        "sentences": "2.08#7",
+        "desc": "Thái độ ngạo mạn, trơ tráo chỉ trỏ từng vị trí thực nghiệm của kẻ thủ ác.",
+        "prompt": "Figure standing on a rain-soaked hilltop pointing outward with handcuffed hands, surrounded by watchful dark silhouettes of officers, stark chiaroscuro lighting."
+    },
+    {
+        "name": "t25_a2_19_detectives_field_notebook_scrutiny",
+        "act": 2,
+        "sentences": "2.08#8",
+        "desc": "Sổ tay ghi chép hiện trường của điều tra viên dưới chiếc ô che mưa vội vã.",
+        "prompt": "Investigator's leather-bound field notebook held open under a dark umbrella in pouring rain, raindrops splashing on leather, completely blank pages without writing, grim focus."
+    },
+    {
+        "name": "t25_a2_20_media_feeding_frenzy_cameras",
+        "act": 2,
+        "sentences": "2.10#1",
+        "desc": "Rừng ống kính phóng viên và đèn flash chớp sáng liên hồi trước đồn cảnh sát.",
+        "prompt": "Sea of news television cameras and blinding photo flashes aimed through heavy darkness outside a government building, intense dramatic high-contrast media frenzy."
+    },
+    {
+        "name": "t25_a2_21_yellow_raincoat_baseball_cap_mask",
+        "act": 2,
+        "sentences": "2.10#2",
+        "desc": "Hình ảnh kẻ sát nhân với chiếc mũ lưỡi trai xanh và khẩu trang xuất hiện trước truyền thông.",
+        "prompt": "Figure wearing a hooded raincoat and dark baseball cap pulled low, face veiled in shadow behind a surgical mask, escorted through flashing lights, iconic dark crime imagery."
+    },
+    {
+        "name": "t25_a2_22_microphones_thrust_toward_suspect",
+        "act": 2,
+        "sentences": "2.10#3",
+        "desc": "Hàng loạt micro báo đài vây quanh nghi phạm giữa tiếng xôn xao phẫn nộ.",
+        "prompt": "Cluster of dark microphones thrust forward into the frame against a backdrop of flashing lights and rain, harsh shadows, claustrophobic and urgent public outrage."
+    },
+    {
+        "name": "t25_a2_23_distorted_moral_mask_broken_scales",
+        "act": 2,
+        "sentences": "2.10#4",
+        "desc": "Ẩn dụ chiếc mặt nạ đạo đức vỡ vụn và cán cân công lý bị bóp méo.",
+        "prompt": "Conceptual noir illustration: a cracked theatrical porcelain mask resting beside uneven brass scales of justice in pitch darkness, stark white light carving fractured edges."
+    },
+    {
+        "name": "t25_a2_24_false_vigilante_delusion_shadow",
+        "act": 2,
+        "sentences": "2.10#5",
+        "desc": "Bóng đen ảo tưởng đấng trừng phạt ngụy biện cho sự tàn bạo đê hèn.",
+        "prompt": "Twisted gigantic shadow of a man cast upon a high concrete wall, arms raised in false authority, but the actual figure on the ground is small and hunched in guilt."
+    },
+    {
+        "name": "t25_a2_25_profiling_dossier_unlocked_desk",
+        "act": 2,
+        "sentences": "2.10#6",
+        "desc": "Tập hồ sơ tâm lý học tội phạm bắt đầu được mở ra tại phòng nghiên cứu hành vi.",
+        "prompt": "A heavy forensic psychological case file opened on an investigator's desk beside an unlit magnifying glass, high contrast noir chiaroscuro, cold analytical beginning."
+    },
+
+    # =========================================================================
+    # HỒI 3 (27 ảnh: t25_a3_01 -> t25_a3_27)
+    # =========================================================================
+    {
+        "name": "t25_a3_01_psychological_profiling_board_overview",
+        "act": 3,
+        "sentences": "3.02#1",
+        "desc": "Bảng phân tích tâm lý tội phạm với các sơ đồ liên kết và timeline vụ án.",
+        "prompt": "Large corkboard in a police behavioral analysis unit, pinned diagrams and blank index cards connected by taut string, warm single incandescent light, deep shadow around."
+    },
+    {
+        "name": "t25_a3_02_fractured_psyche_cracked_glass",
+        "act": 3,
+        "sentences": "3.02#2",
+        "desc": "Ẩn dụ cấu trúc tâm thần mục ruỗng và những vết rạn nứt nội tâm sâu sắc.",
+        "prompt": "A shattered mirror reflecting fractured fragments of darkness and pale light, stark broken glass shards lying on a dark table, high psychological drama, deep noir."
+    },
+    {
+        "name": "t25_a3_03_arrogant_facade_crumbling_decay",
+        "act": 3,
+        "sentences": "3.02#3",
+        "desc": "Vỏ bọc trịch thượng sụp đổ để lộ sự mục ruỗng và bất lực bên trong.",
+        "prompt": "Eerie symbolic illustration: an ornate carved stone facade crumbling into dust and gravel, revealing dark hollow emptiness inside, cold moonlight, stark ink textures."
+    },
+    {
+        "name": "t25_a3_04_childhood_poverty_shack_seoul_slum",
+        "act": 3,
+        "sentences": "3.02#4–3.03#1",
+        "desc": "Căn nhà xụp xệ trong khu xóm nghèo ngoại ô Seoul thời thơ ấu của Yoo Young-chul.",
+        "prompt": "Dilapidated wooden shack in a bleak 1970s Seoul impoverished hillside shantytown, uneven corrugated metal roof, bare mud path, chilling grey overcast winter sky."
+    },
+    {
+        "name": "t25_a3_05_solitary_child_shadow_corner",
+        "act": 3,
+        "sentences": "3.03#2",
+        "desc": "Bóng đứa trẻ đơn độc co ro trong góc phòng tối, mặc cảm tự ti tích tụ.",
+        "prompt": "Interior of an impoverished bare room, silhouette of a solitary child sitting huddled in a dark corner, dim natural light spilling through a cracked wooden shutter."
+    },
+    {
+        "name": "t25_a3_06_rejected_art_high_school_portfolio",
+        "act": 3,
+        "sentences": "3.03#3",
+        "desc": "Tập phác thảo hội họa bị khước từ nằm trơ trọi trên sàn nhà cũ kỹ.",
+        "prompt": "An artist's sketch folder lying closed on a worn floor, blank sheets spilling out without drawings or text, cold pale lighting, atmosphere of crushed artistic ambition."
+    },
+    {
+        "name": "t25_a3_07_narcissistic_injury_wound_metaphor",
+        "act": 3,
+        "sentences": "3.03#4",
+        "desc": "Ẩn dụ tổn thương lòng tự tôn ái kỷ (Narcissistic Injury) sâu sắc từ thất bại đầu đời.",
+        "prompt": "Symbolic noir visual: a cracked classical marble bust with a deep jagged fissure running down the temple, dramatic harsh spotlight from one side, deep pitch-black background."
+    },
+    {
+        "name": "t25_a3_08_prison_cell_bars_long_shadows",
+        "act": 3,
+        "sentences": "3.03#5",
+        "desc": "Song sắt nhà tù kéo bóng dài trên sàn xi măng lạnh trong chuỗi năm tháng thụ án.",
+        "prompt": "Interior of a solitary prison cell, long heavy vertical shadows of steel bars cast across a cold damp concrete floor, stark grey aesthetic, oppressive incarceration."
+    },
+    {
+        "name": "t25_a3_09_divorce_papers_abandoned_ring",
+        "act": 3,
+        "sentences": "3.03#6",
+        "desc": "Chiếc nhẫn cưới trơ trọi bên cạnh hồ sơ ly hôn trong phòng khách lạnh lẽo.",
+        "prompt": "A plain silver band ring resting on a bare wooden table beside an unmarked official document, pale afternoon light slanting across dust motes, bitter psychological severance."
+    },
+    {
+        "name": "t25_a3_10_rage_festering_in_dark_cell",
+        "act": 3,
+        "sentences": "3.03#7",
+        "desc": "Cơn thịnh nộ và thù hận xã hội âm ỉ tích tụ trong bóng tối phòng giam.",
+        "prompt": "Heavy claustrophobic silhouette of a prisoner sitting on a bunk bed in near-total darkness, head in clenched fists, subtle burning amber glow on the floor, palpable malevolence."
+    },
+    {
+        "name": "t25_a3_11_displaced_aggression_diagram_desk",
+        "act": 3,
+        "sentences": "3.04#1",
+        "desc": "Sơ đồ bóc tách cơ chế Hung hăng dịch chuyển (Displaced Aggression) của Chuyên gia.",
+        "prompt": "Psychologist's desk with an open analytical diagram on cardstock, clean geometric arrows showing psychological displacement, completely blank without writing, cold scientific light."
+    },
+    {
+        "name": "t25_a3_12_inward_shame_outward_blame",
+        "act": 3,
+        "sentences": "3.04#2",
+        "desc": "Cơ chế biến đổi từ mặc cảm nội tại thành sự đổ lỗi ngoại hóa cuồng loạn.",
+        "prompt": "Conceptual noir: two contrasting human silhouettes facing opposite directions, one cowering in heavy shadow, the other pointing an aggressive finger outward into the light."
+    },
+    {
+        "name": "t25_a3_13_two_symbolic_targets_split_screen",
+        "act": 3,
+        "sentences": "3.04#3",
+        "desc": "Hai nhóm đối tượng mang tính biểu tượng: giới giàu có và phụ nữ dịch vụ yếu thế.",
+        "prompt": "Split composition: on the left, an imposing closed iron gate of a luxury mansion; on the right, a dim rainy neon-lit alleyway with wet stairs, united by dark brooding shadows."
+    },
+    {
+        "name": "t25_a3_14_cowardly_predator_selecting_vulnerable",
+        "act": 3,
+        "sentences": "3.04#4",
+        "desc": "Bản chất đê hèn: chỉ dám chọn tấn công những đối tượng không thể tự vệ.",
+        "prompt": "A predatory shadow lurking behind a staircase banister watching an empty quiet landing below, chilling contrast between darkness and faint doorway light, sinister stalking."
+    },
+    {
+        "name": "t25_a3_15_fleeting_illusory_power_illusion",
+        "act": 3,
+        "sentences": "3.04#5",
+        "desc": "Cảm giác quyền lực ảo tưởng ngắn ngủi sau mỗi lần tước đoạt mạng sống.",
+        "prompt": "A solitary standing figure silhouetted on a dark rooftop looking down upon a sprawling city, wind whipping the coat, dramatic dark sky, hollow transient dominion."
+    },
+    {
+        "name": "t25_a3_16_vacuum_of_emptiness_fist_clenched",
+        "act": 3,
+        "sentences": "3.04#6",
+        "desc": "Sự trống rỗng và hận thù nhanh chóng quay trở lại dữ dội hơn gấp bội.",
+        "prompt": "A clenched hand trembling over an empty dark surface, stark single overhead light beam casting harsh shadows between knuckles, psychological despair and insatiable void."
+    },
+    {
+        "name": "t25_a3_17_escalating_cycle_of_violence",
+        "act": 3,
+        "sentences": "3.04#7",
+        "desc": "Vòng xoáy bạo lực leo thang không thể kiểm soát của kẻ sát nhân liên hoàn.",
+        "prompt": "Abstract psychological noir graphic: a descending spiral staircase disappearing into an ominous black abyss, high contrast ink rendering, sense of an inevitable downward spiral."
+    },
+    {
+        "name": "t25_a3_18_techniques_of_neutralization_books",
+        "act": 3,
+        "sentences": "3.06#1",
+        "desc": "Tài liệu nghiên cứu kỹ thuật trung hòa đạo đức (Techniques of Neutralization).",
+        "prompt": "Open reference books on criminology lying on a wooden library study desk, clean unprinted pages without text, soft green lamp light, quiet academic atmosphere."
+    },
+    {
+        "name": "t25_a3_19_dehumanization_faceless_mannequin",
+        "act": 3,
+        "sentences": "3.06#2",
+        "desc": "Cơ chế phi nhân tính hóa nạn nhân: biến con người thành những biểu tượng trừu tượng.",
+        "prompt": "A smooth faceless wooden artist mannequin standing under dramatic spotlight in complete darkness, casting an elongated distorted shadow on a stark wall, eerie psychological metaphor."
+    },
+    {
+        "name": "t25_a3_20_moral_inversion_persecutor_savior",
+        "act": 3,
+        "sentences": "3.06#3",
+        "desc": "Sự đảo ngược đạo đức bệnh lý: tự biến mình từ kẻ thủ ác thành đấng cứu rỗi.",
+        "prompt": "Surrealistic noir drawing: a shadowy cloaked figure holding a cracked stone tablet, silhouetted against a gloomy pale moon, grotesque delusion of sacred righteous mission."
+    },
+    {
+        "name": "t25_a3_21_callous_lack_of_empathy_ice",
+        "act": 3,
+        "sentences": "3.06#4",
+        "desc": "Sự chai lì cảm xúc và thiếu vắng hoàn toàn lòng trắc ẩn của nhân cách chống đối xã hội.",
+        "prompt": "A smooth block of black ice resting on a metal surface, freezing vapor drifting into pitch-black air, cold ruthless aesthetic, extreme psychological detachment."
+    },
+    {
+        "name": "t25_a3_22_feigned_remorse_vs_pathological_pity",
+        "act": 3,
+        "sentences": "3.06#5",
+        "desc": "Phân biệt ăn năn chân chính và sự tự thương hại bệnh lý (Pathological Self-Pity).",
+        "prompt": "A theatrical mask weeping painted tears while the stone face beneath remains rigid and unfeeling, high contrast noir chiaroscuro, devastating exposure of deceit."
+    },
+    {
+        "name": "t25_a3_23_unmasking_the_monstrous_delusion",
+        "act": 3,
+        "sentences": "3.08#1",
+        "desc": "Khoa học hành vi bóc trần hoàn toàn sự thật trần trụi đằng sau những ngụy biện.",
+        "prompt": "Bright direct laboratory spotlight tearing through heavy dark curtains, illuminating a bare empty wooden stage, truth revealed without romanticism or myth."
+    },
+    {
+        "name": "t25_a3_24_naked_cowardice_and_spite",
+        "act": 3,
+        "sentences": "3.08#2",
+        "desc": "Không hề có lý tưởng cao đẹp: chỉ có sự hèn nhát và thù vặt của kẻ thất bại xã hội.",
+        "prompt": "A small hunched shadowy figure sitting on the floor of a cavernous empty room, dwarfed by towering oppressive black walls, stripped of all grandiose delusions."
+    },
+    {
+        "name": "t25_a3_25_profiler_closing_analytical_file",
+        "act": 3,
+        "sentences": "3.08#3",
+        "desc": "Chuyên gia tâm lý gập lại tập hồ sơ nghiên cứu nhân cách, chuẩn bị bước vào giai đoạn tư pháp.",
+        "prompt": "Hands of a psychologist closing a heavy dark dossier on a neat desk, turning off the study lamp, amber light fading into calm resolute darkness."
+    },
+    {
+        "name": "t25_a3_26_scales_of_justice_in_dark_hall",
+        "act": 3,
+        "sentences": "3.08#3",
+        "desc": "Cán cân công lý sừng sững trong sảnh tòa án tối, chờ đợi phán quyết pháp lý.",
+        "prompt": "Solid bronze scales of justice perfectly balanced on a polished dark granite pedestal, faint ambient glow from high courtroom windows, solemn dignity of the law."
+    },
+    {
+        "name": "t25_a3_27_dawning_light_over_seoul_justice",
+        "act": 3,
+        "sentences": "3.08#3",
+        "desc": "Ánh sáng công lý le lói trên những mái nhà Seoul, chuyển tiếp sang Hồi 4.",
+        "prompt": "Horizon of Seoul at early twilight, dark rooftops outlined against a thin sliver of cold pale morning light, clouds parting slowly, transitions to judicial reckoning."
+    },
+
+    # =========================================================================
+    # HỒI 4 (31 ảnh: t25_a4_01 -> t25_a4_31)
+    # =========================================================================
+    {
+        "name": "t25_a4_01_seoul_central_district_court_facade",
+        "act": 4,
+        "sentences": "4.02#1",
+        "desc": "Toàn cảnh Tòa án Quận Trung tâm Seoul mùa thu năm 2004 uy nghiêm và lạnh lùng.",
+        "prompt": "Imposing neoclassical stone facade of Seoul Central District Court in late autumn, tall dark columns, bare trees lining the wide stone steps, cold grey sky, solemn authority."
+    },
+    {
+        "name": "t25_a4_02_armed_judicial_police_courtroom",
+        "act": 4,
+        "sentences": "4.02#2",
+        "desc": "Lực lượng cảnh sát tư pháp thiết lập an ninh nghiêm ngặt quanh phòng xử án.",
+        "prompt": "Vigilant silhouettes of judicial security officers stationed along courtroom perimeter walls, stark vertical shadows, solemn atmosphere of high alert."
+    },
+    {
+        "name": "t25_a4_03_prosecutors_table_heavy_indictment",
+        "act": 4,
+        "sentences": "4.02#3",
+        "desc": "Bàn công tố viên chất đầy bản cáo trạng dài hàng trăm trang và tài liệu chứng cứ.",
+        "prompt": "Prosecutor's heavy wooden desk stacked with thick legal binders and unprinted folders, neat orderly arrangement under cold ambient courtroom lights."
+    },
+    {
+        "name": "t25_a4_04_defendant_dock_cold_posture",
+        "act": 4,
+        "sentences": "4.02#4",
+        "desc": "Yoo Young-chul ngồi tại hàng ghế bị cáo với tư thế lạnh lùng, trơ tráo.",
+        "prompt": "Defendant's wooden dock in courtroom, solitary dark silhouette of a prisoner in prison uniform sitting rigidly upright with head held defiant, deep shadows."
+    },
+    {
+        "name": "t25_a4_05_chaotic_outburst_in_courtroom",
+        "act": 4,
+        "sentences": "4.02#5",
+        "desc": "Bầu không khí căng thẳng khi bị cáo lớn tiếng cắt ngang lời công tố viên.",
+        "prompt": "Courtroom interior looking toward the bench, tense dramatic motion in shadows as security guards step forward, high contrast chiaroscuro noir framing."
+    },
+    {
+        "name": "t25_a4_06_suffocating_rage_in_court_hall",
+        "act": 4,
+        "sentences": "4.02#6",
+        "desc": "Khán phòng xét xử ngột ngạt bởi bầu không khí phẫn uất của đám đông dự khán.",
+        "prompt": "Crowded public gallery of a courtroom viewed from the back, rows of dark silhouettes leaning forward in tense silence, heavy emotional atmosphere."
+    },
+    {
+        "name": "t25_a4_07_forensic_evidence_boxes_sealed",
+        "act": 4,
+        "sentences": "4.04#1",
+        "desc": "Các thùng vật chứng pháp y được niêm phong cẩn thận của Cơ quan Điều tra.",
+        "prompt": "Sealed cardboard forensic evidence boxes stacked neatly on a stainless steel evidence cart, red sealing tape visible, completely blank without labels or writing."
+    },
+    {
+        "name": "t25_a4_08_laboratory_dna_sequencing_graph",
+        "act": 4,
+        "sentences": "4.04#2",
+        "desc": "Kết quả giám định ADN khoa học và dữ liệu phân tích gen không thể chối cãi.",
+        "prompt": "Forensic genetics laboratory, clean microscope and display monitor showing abstract clean wave charts, completely blank of text, sterile cold blue-grey noir lighting."
+    },
+    {
+        "name": "t25_a4_09_telecom_tower_signal_logs",
+        "act": 4,
+        "sentences": "4.04#3",
+        "desc": "Hệ thống trạm phát sóng di động và dữ liệu định vị cuộc gọi trùng khớp.",
+        "prompt": "Cellular telecommunication antenna tower silhouetted against a dark misty night sky, radiating faint stylized geometric grid lines, technical crime tracking metaphor."
+    },
+    {
+        "name": "t25_a4_10_irrefutable_evidence_chain_bind",
+        "act": 4,
+        "sentences": "4.04#4",
+        "desc": "Mạng lưới chứng cứ hoàn hảo bóp nghẹt mọi nỗ lực ngụy biện quanh co.",
+        "prompt": "Heavy metal chain links resting coiled on an investigation table, cold steel gleam, symbolic representation of an unbreakable legal chain of custody."
+    },
+    {
+        "name": "t25_a4_11_sledgehammer_evidence_on_cloth",
+        "act": 4,
+        "sentences": "4.06#1",
+        "desc": "Chiếc búa tạ kim loại đặt trên tấm vải trắng giám định vật chứng tòa án.",
+        "prompt": "A heavy blunt iron sledgehammer resting horizontally on a sterile white forensic cloth on an evidence table, stark dramatic cross-lighting, intense silence."
+    },
+    {
+        "name": "t25_a4_12_bloodstained_shoes_evidence_bag",
+        "act": 4,
+        "sentences": "4.06#1",
+        "desc": "Đôi giày thể thao dính dấu vết bị tịch thu trong túi niêm phong vật chứng.",
+        "prompt": "A pair of worn athletic shoes sealed inside a clear forensic evidence bag, resting on a stainless steel tray, sharp noir outlines, cold clinical illumination."
+    },
+    {
+        "name": "t25_a4_13_meticulous_stalking_notes_desk",
+        "act": 4,
+        "sentences": "4.06#2",
+        "desc": "Những trang giấy ghi chép thói quen sinh hoạt của nạn nhân trong phòng nghi phạm.",
+        "prompt": "Vintage lined paper sheets spread across a wooden desk, unwritten and blank of letters, surrounded by an inkwell and ruler, chilling premeditation."
+    },
+    {
+        "name": "t25_a4_14_scientific_truth_piercing_lies",
+        "act": 4,
+        "sentences": "4.06#3",
+        "desc": "Sức mạnh của khoa học hình sự bóc trần những lời dối trá của kẻ sát nhân.",
+        "prompt": "A brilliant thin beam of laser-like white light slicing through a dark smoky laboratory chamber, illuminating dust motes, metaphor of unyielding scientific truth."
+    },
+    {
+        "name": "t25_a4_15_detective_in_witness_stand_testifying",
+        "act": 4,
+        "sentences": "4.06#4",
+        "desc": "Điều tra viên đứng tại bục nhân chứng dõng dạc công bố quy trình điều tra.",
+        "prompt": "Investigator standing tall in the wooden witness box of a courtroom, dark suit, resolute posture, side lighting carving a determined silhouette of justice."
+    },
+    {
+        "name": "t25_a4_16_bereaved_families_huddled_grief",
+        "act": 4,
+        "sentences": "4.08#1",
+        "desc": "Nỗi đau tột cùng của gia đình các nạn nhân ngồi lặng lẽ nơi hàng ghế đầu.",
+        "prompt": "Rows of family members seated in courtroom shadows, heads bowed in profound solemn mourning, handkerchiefs clutched, devastating emotional weight."
+    },
+    {
+        "name": "t25_a4_17_framed_portrait_draped_black_ribbon",
+        "act": 4,
+        "sentences": "4.08#2",
+        "desc": "Khung ảnh tưởng niệm phủ dải ruy băng đen trên bàn thờ tang lễ gia đình.",
+        "prompt": "An empty wooden picture frame draped with a black mourning ribbon sitting beside a burning white candle, gentle smoke rising in pitch darkness, poignant tribute."
+    },
+    {
+        "name": "t25_a4_18_tear_streaked_face_shadow_in_court",
+        "act": 4,
+        "sentences": "4.09#1",
+        "desc": "Giọt nước mắt đau đớn và ánh mắt phẫn nộ hướng về phía kẻ thủ ác.",
+        "prompt": "Close-up of a clenched hand on a wooden courtroom railing, knuckles white with suppressed agony, soft tear glisten on a shadowed cheek, deep pathos."
+    },
+    {
+        "name": "t25_a4_19_silent_crying_in_courtroom_benches",
+        "act": 4,
+        "sentences": "4.09#2",
+        "desc": "Những tiếng khóc nghẹn ngào xé lòng phá tan không gian trang nghiêm của phiên xử.",
+        "prompt": "Long shot of family members supporting each other on wooden benches, dark silhouettes leaning against one another in mutual solace, deep atmospheric noir."
+    },
+    {
+        "name": "t25_a4_20_december_winter_courtroom_twilight",
+        "act": 4,
+        "sentences": "4.10#1",
+        "desc": "Buổi chiều mùa đông ngày 13/12/2004 u ám ngoài cửa sổ phòng xét xử.",
+        "prompt": "High arched courtroom windows looking out at bare winter trees and a frigid grey twilight sky over Seoul, cold draft whistling softly, fateful day of judgment."
+    },
+    {
+        "name": "t25_a4_21_chief_judge_entering_bench",
+        "act": 4,
+        "sentences": "4.10#2",
+        "desc": "Hội đồng xét xử bước lên bục chủ tọa trong sự im lặng tuyệt đối của toàn thể phòng xử.",
+        "prompt": "Silhouettes of the judicial panel ascending to the elevated judicial bench beneath the national emblem silhouette, towering dark mahogany backdrop, absolute silence."
+    },
+    {
+        "name": "t25_a4_22_gavel_raised_above_sounding_block",
+        "act": 4,
+        "sentences": "4.10#3",
+        "desc": "Chiếc búa tòa án nâng cao trên mặt đế gỗ chuẩn bị gõ phán quyết lịch sử.",
+        "prompt": "Close-up of a polished wooden judicial gavel poised above a circular wooden sounding block, dramatic side illumination, frozen moment of impending destiny."
+    },
+    {
+        "name": "t25_a4_23_death_penalty_verdict_proclaimed",
+        "act": 4,
+        "sentences": "4.10#4",
+        "desc": "Phán quyết nghiêm minh: chính thức tuyên phạt Yoo Young-chul mức án tử hình.",
+        "prompt": "Wide perspective of the entire courtroom standing in solemn attention, judge reading from legal parchment, dramatic shafts of winter light cutting across the hall."
+    },
+    {
+        "name": "t25_a4_24_gavel_striking_sounding_block_down",
+        "act": 4,
+        "sentences": "4.10#5",
+        "desc": "Búa tòa án giáng mạnh xuống mặt đế gỗ, chấm dứt chuỗi ngày tội ác đen tối.",
+        "prompt": "Close-up of the judicial gavel firmly striking the wooden block, fine vibration ripples in the polished wood, finality of law, high contrast chiaroscuro."
+    },
+    {
+        "name": "t25_a4_25_convicted_murderer_led_away_shackles",
+        "act": 4,
+        "sentences": "4.10#6",
+        "desc": "Kẻ tử tù bị áp giải rời phòng xử án trong sự canh gác nghiêm ngặt.",
+        "prompt": "Silhouetted prisoner in heavy ankle shackles and handcuffs being escorted down a dimly lit underground corridor by judicial officers, receding into darkness."
+    },
+    {
+        "name": "t25_a4_26_empty_courtroom_benches_lingering_grief",
+        "act": 4,
+        "sentences": "4.11#1",
+        "desc": "Khán phòng vắng lặng sau khi phiên tòa kết thúc, nỗi day dứt nhân văn còn đọng lại.",
+        "prompt": "Empty wooden courtroom benches after the crowd has dispersed, pale evening dust motes drifting in fading light, solemn silence, melancholic peace."
+    },
+    {
+        "name": "t25_a4_27_justice_served_shield_society",
+        "act": 4,
+        "sentences": "4.11#2",
+        "desc": "Ẩn dụ bản án công lý như tấm lá chắn bảo vệ sự bình yên của xã hội.",
+        "prompt": "A solid dark steel shield standing upright on a stone platform, subtle amber glow outlining its edges in a dark hall, enduring symbol of societal protection."
+    },
+    {
+        "name": "t25_a4_28_dossier_stamped_case_closed_metaphor",
+        "act": 4,
+        "sentences": "4.11#3",
+        "desc": "Tập hồ sơ dày cộp được gập lại, trang nghiêm trên bàn lưu trữ quốc gia.",
+        "prompt": "Thick legal archive folder tied with black cloth ribbon, lying solitary on a metal shelf in an archive room, quiet respect for justice and victims."
+    },
+    {
+        "name": "t25_a4_29_candles_flickering_memorial_altar",
+        "act": 4,
+        "sentences": "4.12#1",
+        "desc": "Những ngọn nến trắng lung linh tưởng nhớ linh hồn các nạn nhân vô tội.",
+        "prompt": "A row of small white candles burning steadily on dark stone steps, gentle amber flames flickering in cold night air, quiet contemplative remembrance."
+    },
+    {
+        "name": "t25_a4_30_night_settling_over_seoul_peace",
+        "act": 4,
+        "sentences": "4.12#2",
+        "desc": "Màn đêm buông xuống Seoul trong sự bình yên sau khi cơn ác mộng khép lại.",
+        "prompt": "Panoramic view of Seoul city lights at dusk, quiet streets flowing with steady traffic below, dark tranquil mountain ridges on the horizon, serene closure."
+    },
+    {
+        "name": "t25_a4_31_beacon_of_justice_in_the_dark",
+        "act": 4,
+        "sentences": "4.12#2",
+        "desc": "Ngọn hải đăng công lý và sự thật soi rọi giữa màn đêm, bước sang Hồi 5.",
+        "prompt": "A lone classical stone lantern or lighthouse emitting a clear beam of light across dark reflective water, guiding through mist, transitional symbolic noir."
+    },
+
+    # =========================================================================
+    # HỒI 5 (24 ảnh: t25_a5_01 -> t25_a5_24)
+    # =========================================================================
+    {
+        "name": "t25_a5_01_two_decades_later_modern_seoul",
+        "act": 5,
+        "sentences": "5.02#1",
+        "desc": "Seoul hơn hai thập kỷ sau: thành phố hiện đại và nhộn nhịp trong ánh hoàng hôn.",
+        "prompt": "Wide panoramic shot of contemporary Seoul with modern architectural landmarks and bridges, tranquil twilight sky with soft violet and amber gradients, peaceful metropolis."
+    },
+    {
+        "name": "t25_a5_02_smart_cctv_surveillance_network",
+        "act": 5,
+        "sentences": "5.02#2",
+        "desc": "Mạng lưới camera giám sát thông minh trên các cột đèn đường phố ngày nay.",
+        "prompt": "Modern urban street security camera mounted on a sleek metal pole at dusk, subtle optical lens reflection, city lights blurred in soft bokeh background."
+    },
+    {
+        "name": "t25_a5_03_human_vigilance_shadow_reflection",
+        "act": 5,
+        "sentences": "5.02#3",
+        "desc": "Công nghệ không thể thay thế cho sự tỉnh táo và ý thức tự bảo vệ của con người.",
+        "prompt": "Silhouette of a mindful pedestrian walking along a clean wet sidewalk, reflection mirrored in a puddle, calm watchful posture, human awareness in the modern age."
+    },
+    {
+        "name": "t25_a5_04_lesson_of_history_archive_light",
+        "act": 5,
+        "sentences": "5.02#4",
+        "desc": "Bài học lịch sử từ hồ sơ Yoo Young-chul nhắc nhở sự cảnh giác xã hội.",
+        "prompt": "A modern well-lit archival reading room, open case files on long wooden tables, warm thoughtful ambiance, studying historical crimes to protect the future."
+    },
+    {
+        "name": "t25_a5_05_community_policing_cooperation_desk",
+        "act": 5,
+        "sentences": "5.03#1",
+        "desc": "Sự phối hợp chặt chẽ giữa cộng đồng người dân và lực lượng thực thi pháp luật.",
+        "prompt": "Neighborhood police substation front desk, friendly yet vigilant setting, warm interior light contrasting with cool evening shadows outside."
+    },
+    {
+        "name": "t25_a5_06_courageous_shop_owner_vigilance",
+        "act": 5,
+        "sentences": "5.03#2",
+        "desc": "Sự nhanh nhạy phát hiện quy luật số điện thoại bất thường của người chủ cơ sở.",
+        "prompt": "A person standing by an office window at twilight looking thoughtfully into the street, holding a small notepad in hand, quiet everyday bravery."
+    },
+    {
+        "name": "t25_a5_07_civic_duty_and_reporting_hotline",
+        "act": 5,
+        "sentences": "5.03#3",
+        "desc": "Mỗi người dân chủ động phối hợp với cơ quan công an khi thấy biểu hiện khả nghi.",
+        "prompt": "Emergency telephone station on an urban street corner with a glowing blue indicator lamp, clean modern infrastructure, safety and public readiness."
+    },
+    {
+        "name": "t25_a5_08_slow_accumulation_of_hatred_seed",
+        "act": 5,
+        "sentences": "5.04#1",
+        "desc": "Nhân cách nguy hiểm không tự nhiên xuất hiện mà tích tụ qua quá trình lâu dài.",
+        "prompt": "Conceptual visual: dark tangled thorny roots slowly spreading beneath cold stone pavers, high contrast ink illustration, psychological metaphor of growing resentment."
+    },
+    {
+        "name": "t25_a5_09_chronic_blame_and_envy_mirror",
+        "act": 5,
+        "sentences": "5.04#2",
+        "desc": "Khi thất bại cá nhân biến thành sự ghen tị và căm thù xã hội cực đoan.",
+        "prompt": "Dark distorted silhouette looking into a murky cracked puddle, bitter posture of grievance, stark chiaroscuro lighting, psychological alienation."
+    },
+    {
+        "name": "t25_a5_10_cowardly_bullying_of_the_weak",
+        "act": 5,
+        "sentences": "5.04#3",
+        "desc": "Kẻ bất lực thường trút cơn giận lên những người yếu thế hơn để giải tỏa cảm xúc.",
+        "prompt": "Dramatic graphic novel silhouette of an imposing shadow looming over an empty park bench, stark emotional warning, psychological defense mechanism."
+    },
+    {
+        "name": "t25_a5_11_early_warning_shield_prevention",
+        "act": 5,
+        "sentences": "5.04#4",
+        "desc": "Hiểu rõ các quy luật tâm lý để thiết lập hệ thống phòng vệ từ xa hiệu quả.",
+        "prompt": "An elegant translucent geometric barrier of light standing between a peaceful home garden and dark shadowed woods outside, safety and protection."
+    },
+    {
+        "name": "t25_a5_12_four_redflags_overview_banner",
+        "act": 5,
+        "sentences": "5.05#1",
+        "desc": "Bảng ghim phân tích tổng quan 4 dấu hiệu cảnh báo đỏ nhận diện nhân cách thù hận xã hội.",
+        "prompt": "A modern wooden investigative pinboard with four blank rectangular dossier cards illuminated by a focused overhead studio lamp, dark textured room background, clean noir."
+    },
+    {
+        "name": "t25_a5_13_redflag1_sociopathic_class_resentment",
+        "act": 5,
+        "sentences": "5.05#2–5.05#4",
+        "desc": "Cảnh báo đỏ 1: Thói quen luôn đổ lỗi, hằn học cay độc trước thành quả của người khác.",
+        "prompt": "Conceptual noir illustration representing toxic envy and externalized blame: a solitary shadowed figure turning away bitterly from a warm brightly lit house, stark contrast."
+    },
+    {
+        "name": "t25_a5_14_redflag2_misogyny_and_bullying_weak",
+        "act": 5,
+        "sentences": "5.05#5–5.05#7",
+        "desc": "Cảnh báo đỏ 2: Sự phân biệt đối xử, thù ghét phụ nữ và bắt nạt người yếu thế.",
+        "prompt": "Conceptual visual of psychological hostility: harsh jagged shadows cast against a wall, broken flowers lying on cold pavement, profound warning against misogynistic aggression."
+    },
+    {
+        "name": "t25_a5_15_redflag3_isolated_appointments_danger",
+        "act": 5,
+        "sentences": "5.05#8–5.05#10",
+        "desc": "Cảnh báo đỏ 3: Nhận lịch hẹn dịch vụ tại địa điểm biệt lập, không có bên thứ ba giám sát.",
+        "prompt": "A dimly lit narrow dead-end corridor with a single unmarked doorway at midnight, warning visual against entering isolated unverified private spaces, high suspense."
+    },
+    {
+        "name": "t25_a5_16_redflag4_moral_vigilante_threats",
+        "act": 5,
+        "sentences": "5.05#11–5.05#14",
+        "desc": "Cảnh báo đỏ 4: Những lời đe dọa trừng phạt mang danh phán xét đạo đức lệch lạc.",
+        "prompt": "Symbolic representation of extremist righteous delusion: a warped stone pulpit surrounded by cold dark mist, theatrical lighting, grave warning against radical rhetoric."
+    },
+    {
+        "name": "t25_a5_17_safety_protocols_and_location_sharing",
+        "act": 5,
+        "sentences": "5.05#10",
+        "desc": "Nguyên tắc xác minh danh tính và chia sẻ vị trí an toàn cho người thân.",
+        "prompt": "A modern smartphone lying on a clean wooden table, screen showing a minimalist map pin icon glowing softly, completely clean of text or numbers, proactive personal security."
+    },
+    {
+        "name": "t25_a5_18_collective_vigilance_and_community_shield",
+        "act": 5,
+        "sentences": "5.05#15",
+        "desc": "Sự bình yên của xã hội xây dựng từ ý thức trách nhiệm và thấu cảm của cộng đồng.",
+        "prompt": "A peaceful tree-lined neighborhood street at warm twilight, warm welcoming lights from family home windows, sense of solid communal harmony and shared safety."
+    },
+    {
+        "name": "t25_a5_19_seoul_han_river_sunrise_glory",
+        "act": 5,
+        "sentences": "5.05#15",
+        "desc": "Sông Hàn và thành phố Seoul đón ánh bình minh rạng rỡ, bóng tối tội ác đã bị đẩy lùi.",
+        "prompt": "Magnificent sunrise over Seoul's Han River, gentle golden and amber morning rays reflecting off calm ripples, iconic bridge silhouettes, triumphant dawn of peace and justice."
+    },
+    {
+        "name": "t25_a5_20_peaceful_benches_along_riverbank",
+        "act": 5,
+        "sentences": "5.05#16",
+        "desc": "Băng ghế ven sông Hàn bình yên trong nắng sớm, giá trị của cuộc sống yên bình.",
+        "prompt": "Empty wooden park benches facing the tranquil Han River in early morning sunlight, dewdrops glistening on green grass, peaceful reflective atmosphere."
+    },
+    {
+        "name": "t25_a5_21_amber_eyes_host_desk_study",
+        "act": 5,
+        "sentences": "5.05#16",
+        "desc": "Bàn làm việc của Host Amber Eyes: chiếc đèn bàn ấm áp và tập hồ sơ đã đóng lại.",
+        "prompt": "Warm cozy wooden podcast study desk, vintage microphone in soft focus, warm amber lamp illuminating a clean leather blotter, thoughtful scholarly ambiance."
+    },
+    {
+        "name": "t25_a5_22_subscribe_notification_bell_metaphor",
+        "act": 5,
+        "sentences": "5.05#17",
+        "desc": "Lời kêu gọi đăng ký kênh và chia sẻ tri thức an toàn đến cộng đồng.",
+        "prompt": "An elegant bronze bell resting on polished dark wood beside a clean magnifying glass, gentle warm studio light, welcoming visual metaphor for knowledge sharing."
+    },
+    {
+        "name": "t25_a5_23_spreading_protective_knowledge",
+        "act": 5,
+        "sentences": "5.05#17",
+        "desc": "Lan tỏa tri thức an toàn và tâm lý học tội phạm để bảo vệ những người thân yêu.",
+        "prompt": "A warm lantern casting a wide gentle protective ring of golden light across dark cobblestones, comforting haven amidst the night, inspiring conclusion."
+    },
+    {
+        "name": "t25_a5_24_amber_eyes_closing_dossier_yoo",
+        "act": 5,
+        "sentences": "5.05#17",
+        "desc": "Thẻ kết trang nghiêm: Tập hồ sơ Amber Eyes về vụ án Yoo Young-chul khép lại.",
+        "prompt": "Thick investigative archive binder closed neatly on a dark mahogany executive desk, subtle warm amber spotlight centered on the folder, quiet dignified closure."
+    }
+]
+
+def main():
+    print(f"Total jobs defined: {len(JOBS)}")
+    out_file = WORK / "bg_jobs_tap25.json"
+    out_file.write_text(json.dumps(JOBS, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Saved {len(JOBS)} jobs to {out_file}")
+
+if __name__ == "__main__":
+    main()

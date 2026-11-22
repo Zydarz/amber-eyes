@@ -1,0 +1,908 @@
+{
+  "_readme": "SPEC AUDIO TIKTOK TAP 11 — Dữ liệu chuẩn hóa 100% đối chiếu master",
+  "_episode": "11",
+  "_language": "JA",
+  "_measured_rates": {
+    "H": 0.15325822709753914,
+    "N1": 0.1596208530805689,
+    "C": 0.17170011534025373,
+    "D": 0.16658146964856202,
+    "N2": 0.15351351351351522
+  },
+  "_clips_summary": [
+    {
+      "id": "TK1",
+      "title": "ケン＆バービーの仮面と郊外住宅街の心理的盲点",
+      "signs": [
+        1,
+        9
+      ],
+      "theme": "ハロー効果と郊外住宅街の盲点",
+      "lines_count": 9,
+      "est_dur_s": 88.7
+    },
+    {
+      "id": "TK2",
+      "title": "犯罪のエスカレーション軌道 — 破滅への4つの階段",
+      "signs": [
+        7,
+        8
+      ],
+      "theme": "暴力妄想のエスカレーション軌道と手口MO対署名Signature",
+      "lines_count": 11,
+      "est_dur_s": 96.2
+    },
+    {
+      "id": "TK3",
+      "title": "共有妄想（フォリー・ドゥ）と人間性の剥奪メカニズム",
+      "signs": [
+        2,
+        3
+      ],
+      "theme": "共有精神病性障害（感応精神病）と身内のモノ化・非人間化",
+      "lines_count": 11,
+      "est_dur_s": 97.5
+    },
+    {
+      "id": "TK4",
+      "title": "被害者の仮面と『悪魔との司法取引』",
+      "signs": [
+        4,
+        5
+      ],
+      "theme": "被害者ポジションの武器化と『悪魔との司法取引』",
+      "lines_count": 11,
+      "est_dur_s": 97.2
+    },
+    {
+      "id": "TK5",
+      "title": "被害者学と生き残るための4つの危険信号",
+      "signs": [
+        10
+      ],
+      "theme": "被害者学と生存のための4つの警戒サイン",
+      "lines_count": 10,
+      "est_dur_s": 78.6
+    }
+  ],
+  "clips": {
+    "TK1": {
+      "id": "TK1",
+      "title": "ケン＆バービーの仮面と郊外住宅街の心理的盲点",
+      "theme": "ハロー効果と郊外住宅街の盲点",
+      "psychological_signs": [
+        1,
+        9
+      ],
+      "hook": "実写版ケン＆バービーの理想的カップル。なぜ街全体が欺かれたのか？",
+      "bgm": "bgm_piano_minimal.mp3",
+      "bgm_desc": "第1幕 — 本編BGM: bgm_piano_minimal.mp3",
+      "sfx": [
+        "amb_wind_cold.wav（環境音）",
+        "fx_door_close.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK1.01#1",
+          "text": "オンタリオ州ポート・ダルハウジー · ベイビュー57番地",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK1.01#4",
+          "text": "実写版ケン＆バービーの仮面",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#6",
+          "text": "地域社会を欺いた完璧な隣人像",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#8",
+          "text": "ハロー効果と郊外住宅街の盲点",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "id": "TK1.01#1",
+          "orig_id": "1.03#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_pink_house_57_bayview",
+          "motion": "pan",
+          "text": "1990年代初頭、オンタリオ州の風光明媚な湖畔の町ポート・ダルハウジーのBayview Drive 57番地に、ひときわ目を引くピンク色の家が佇んでいました。",
+          "dur_est": 11.8
+        },
+        {
+          "id": "TK1.01#2",
+          "orig_id": "1.03#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_paul_bernardo_dashing_car",
+          "motion": "still",
+          "text": "夫のPaul Bernardoは、高級スーツを着こなし洗練されたスポーツカーを乗り回す、会計業界勤務のハンサムな青年でした。",
+          "dur_est": 9.35
+        },
+        {
+          "id": "TK1.01#3",
+          "orig_id": "1.03#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_karla_veterinary_clinic",
+          "motion": "pull",
+          "text": "6歳年下の妻Karla Homolkaは、地元の動物病院に勤務する、天使のような輝く笑顔を持つ美しい金髪の女性でした。",
+          "dur_est": 8.89
+        },
+        {
+          "id": "TK1.01#4",
+          "orig_id": "1.03#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_ken_barbie_golden_illusion",
+          "motion": "still",
+          "text": "近隣住民の目には、二人は現実世界に現れた完璧な『ケンとバービー』人形そのものに映っていました。",
+          "dur_est": 7.2
+        },
+        {
+          "id": "TK1.01#5",
+          "orig_id": "1.06#1",
+          "role": "N1",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_suburban_admiration_facade",
+          "motion": "push",
+          "text": "静かな湖畔の町に住む私たち全員の目には、PaulとKarlaはまさに理想的な模範のカップルそのものでした。",
+          "dur_est": 8.46
+        },
+        {
+          "id": "TK1.01#6",
+          "orig_id": "1.06#4",
+          "role": "N1",
+          "emotion": "sad",
+          "speed": -0.04,
+          "pause_after": 0.7,
+          "bg": "t11_closed_pink_door_abyss",
+          "motion": "still",
+          "text": "彼らのあまりにも純真無垢な仮面が、町全体の人々の目を完全に曇らせていたのです。",
+          "dur_est": 6.23
+        },
+        {
+          "id": "TK1.01#7",
+          "orig_id": "1.07#1",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_expert_desk_lamp",
+          "motion": "pull",
+          "text": "社会心理学の観点から見れば、Bayview Drive 57番地のピンクの家の仮面は、『ハロー効果』と『郊外の盲点』に関する古典的な研究事例と言えます。",
+          "dur_est": 12.71
+        },
+        {
+          "id": "TK1.01#8",
+          "orig_id": "1.07#4",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "bg": "t11_pink_house_winter_dusk",
+          "motion": "still",
+          "text": "暗い路地に潜む薄汚れた不審者には誰もが警戒しますが、夕暮れ時に笑顔で犬を散歩させバラの垣根を手入れする中流階級の若夫婦に対しては、完全に警戒を解いてしまうのです。",
+          "dur_est": 13.91
+        },
+        {
+          "id": "TK1.01#9",
+          "orig_id": "CTA",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "bg": "t11_amber_eyes_closing_dossier_bernardo",
+          "motion": "still",
+          "text": "Amber Eyes 第11話。事件の全貌はバイオのリンクからご覧いただけます。",
+          "dur_est": 5.82
+        }
+      ]
+    },
+    "TK2": {
+      "id": "TK2",
+      "title": "犯罪のエスカレーション軌道 — 破滅への4つの階段",
+      "theme": "暴力妄想のエスカレーション軌道と手口MO対署名Signature",
+      "psychological_signs": [
+        7,
+        8
+      ],
+      "hook": "深夜の単独犯から教会での白昼堂々の拉致へ。凶行はどう暴走したのか？",
+      "bgm": "bgm_cell_dark.mp3",
+      "bgm_desc": "第2幕 — 本編BGM: bgm_cell_dark.mp3",
+      "sfx": [
+        "amb_night_highway.wav（環境音）",
+        "fx_police_siren_distant.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK2.01#1",
+          "text": "犯罪エスカレーションの4段階",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK2.01#3",
+          "text": "第1段階: スカボローの夜間連続通り魔",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#5",
+          "text": "第2段階: 有毒な共生関係の確立",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#7",
+          "text": "第3段階: 自宅での監禁と支配",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#9",
+          "text": "第4段階: 教会駐車場での白昼堂々の襲撃",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "id": "TK2.01#1",
+          "orig_id": "2.04#1",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.6,
+          "bg": "t11_investigation_board_four_stages",
+          "motion": "still",
+          "text": "合同捜査班のデータに基づき、私たちはPaul Bernardoの凶行を4つの明確なエスカレーション段階として整理しました。",
+          "dur_est": 9.99
+        },
+        {
+          "id": "TK2.01#2",
+          "orig_id": "2.04#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.5,
+          "bg": "t11_scarborough_nocturnal_shadow",
+          "motion": "pan",
+          "text": "第1段階：郊外での単独襲撃。",
+          "dur_est": 2.33
+        },
+        {
+          "id": "TK2.01#3",
+          "orig_id": "2.04#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.6,
+          "bg": "t11_scarborough_night_street_lurking",
+          "motion": "pull",
+          "text": "1987年5月以降、Bernardoはスカーバロー地域で若い女性を執拗につけ狙い、夜陰に紛れて少なくとも14件の単独路上襲撃を繰り返しました。",
+          "dur_est": 11.83
+        },
+        {
+          "id": "TK2.01#4",
+          "orig_id": "2.04#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.5,
+          "bg": "t11_silent_christmas_tragedy",
+          "motion": "still",
+          "text": "第2段階：共犯関係の結成と身内への侵害。",
+          "dur_est": 3.33
+        },
+        {
+          "id": "TK2.01#5",
+          "orig_id": "2.04#5",
+          "role": "D",
+          "emotion": "sad",
+          "speed": -0.04,
+          "pause_after": 0.7,
+          "bg": "t11_christmas_1990_halothane_bottle",
+          "motion": "push",
+          "text": "1987年10月にKarla Homolkaと出会い、歪んだ結合を深めた二人は、1990年のクリスマスイブに動物病院から盗んだ鎮静剤を用いてKarlaの実妹Tammy Homolkaを襲い、悲劇的な死をもたらしました。",
+          "dur_est": 17.82
+        },
+        {
+          "id": "TK2.01#6",
+          "orig_id": "2.04#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.5,
+          "bg": "t11_closed_pink_door_abyss",
+          "motion": "still",
+          "text": "第3段階：自宅での長期監禁。",
+          "dur_est": 2.33
+        },
+        {
+          "id": "TK2.01#7",
+          "orig_id": "2.04#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.7,
+          "bg": "t11_bayview_basement_concrete",
+          "motion": "pan",
+          "text": "結婚直後の1991年6月、二人はLeslie Mahaffyを拉致し、Bayview Drive 57番地の自宅で監禁・虐待の末にその命を奪いました。",
+          "dur_est": 11.99
+        },
+        {
+          "id": "TK2.01#8",
+          "orig_id": "2.04#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.5,
+          "bg": "t11_church_parking_daytime_abduction",
+          "motion": "still",
+          "text": "そして第4段階：白昼堂々の大胆な拉致。",
+          "dur_est": 3.17
+        },
+        {
+          "id": "TK2.01#9",
+          "orig_id": "2.04#9",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.7,
+          "bg": "t11_church_parking_lot_ambush",
+          "motion": "push",
+          "text": "1992年4月、セントキャサリンズの人通りのある教会の駐車場から白昼堂々Kristen Frenchを急襲し、全能感の妄想が発覚への恐怖を完全に凌駕していたことを示しました。",
+          "dur_est": 14.33
+        },
+        {
+          "id": "TK2.01#10",
+          "orig_id": "2.04#12",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.0,
+          "bg": "t11_coupled_shadows_mirror",
+          "motion": "still",
+          "text": "それは孤独なストーカーから、組織化された冷酷な連続殺人ペアへの決定的な変貌を意味していたのです。",
+          "dur_est": 8.0
+        },
+        {
+          "id": "TK2.01#11",
+          "orig_id": "CTA",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "bg": "t11_amber_eyes_closing_dossier_bernardo",
+          "motion": "still",
+          "text": "Amber Eyes 第11話。事件の全貌はバイオのリンクからご覧いただけます。",
+          "dur_est": 5.82
+        }
+      ]
+    },
+    "TK3": {
+      "id": "TK3",
+      "title": "共有妄想（フォリー・ドゥ）と人間性の剥奪メカニズム",
+      "theme": "共有精神病性障害（感応精神病）と身内のモノ化・非人間化",
+      "psychological_signs": [
+        2,
+        3
+      ],
+      "hook": "なぜ実の妹までもが生け贄にされたのか？病的な共生妄想の深淵。",
+      "bgm": "bgm_cello_sad_v2.mp3",
+      "bgm_desc": "第3幕 — 本編BGM: bgm_cello_sad_v2.mp3",
+      "sfx": [
+        "amb_sub_drone.wav（環境音）",
+        "fx_heartbeat_slow.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK3.01#1",
+          "text": "感応精神病: フォリー・ドゥの共鳴",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK3.01#4",
+          "text": "逃れられない閉鎖的共鳴室",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#6",
+          "text": "身内の非人間化と心理的投影",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#8",
+          "text": "心理的崩壊点: 1993年1月の家庭内暴力",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "id": "TK3.01#1",
+          "orig_id": "3.04#1",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_folie_a_deux_resonance",
+          "motion": "pull",
+          "text": "この力学を説明する最も古典的な行動科学の枠組みは、『共有妄想（フォリー・ドゥ）』という現象です。",
+          "dur_est": 8.24
+        },
+        {
+          "id": "TK3.01#2",
+          "orig_id": "3.04#2",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_coupled_shadows_mirror",
+          "motion": "still",
+          "text": "これは歪んだ心理構造を持つ二人が巡り合い結びつくことで、悪性を増幅させる強烈な共鳴室が形成される極めて稀な病態です。",
+          "dur_est": 9.96
+        },
+        {
+          "id": "TK3.01#3",
+          "orig_id": "3.04#3",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_destructive_flame_alliance",
+          "motion": "pan",
+          "text": "この有害な関係において、Paul Bernardoは悪性自己愛と反社会的人格を特徴とする主導者として機能しました。",
+          "dur_est": 9.62
+        },
+        {
+          "id": "TK3.01#4",
+          "orig_id": "3.04#7",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.7,
+          "bg": "t11_obedient_accomplice_strings",
+          "motion": "still",
+          "text": "Bernardoの暴力傾向を目撃して恐怖から逃げ出すどころか、彼女は共有された支配の快感と盲目的な依存に引き込まれていきました。",
+          "dur_est": 10.99
+        },
+        {
+          "id": "TK3.01#5",
+          "orig_id": "3.05#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_cracked_mirror_hallway",
+          "motion": "push",
+          "text": "この有害な共生関係は、極めて無慈悲な行動現象、すなわち被害者の完全な『客体化』をもたらしました。",
+          "dur_est": 7.36
+        },
+        {
+          "id": "TK3.01#6",
+          "orig_id": "3.05#3",
+          "role": "H",
+          "emotion": "sad",
+          "speed": -0.04,
+          "pause_after": 0.8,
+          "bg": "t11_silent_christmas_tragedy",
+          "motion": "still",
+          "text": "Karlaはなぜ、自らの実の妹をこれほど残酷な罠へと突き落とすことができたのでしょうか。",
+          "dur_est": 6.74
+        },
+        {
+          "id": "TK3.01#7",
+          "orig_id": "3.06#1",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_featureless_peg_dolls",
+          "motion": "pull",
+          "text": "ここで中核となる概念こそが、心理学における完全な『客体化』と『非人間化』です。",
+          "dur_est": 6.7
+        },
+        {
+          "id": "TK3.01#8",
+          "orig_id": "3.06#2",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.7,
+          "bg": "t11_covert_sociopath_profile",
+          "motion": "still",
+          "text": "Paul Bernardoは被害者たちを、自らの支配中毒と性的征服欲を満たすためだけに製造された使い捨ての道具として扱いました。",
+          "dur_est": 10.82
+        },
+        {
+          "id": "TK3.01#9",
+          "orig_id": "3.08#1",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.6,
+          "bg": "t11_flashlight_shattered_hallway",
+          "motion": "push",
+          "text": "しかし、どれほど強固に見える犯罪同盟であっても、必然的に内部からの崩壊点に直面します。",
+          "dur_est": 7.16
+        },
+        {
+          "id": "TK3.01#10",
+          "orig_id": "3.08#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.0,
+          "bg": "t11_escape_to_parents_porch",
+          "motion": "still",
+          "text": "それからわずか1ヶ月後の1993年2月17日、警察は踏み込みPaul Bernardoを逮捕しました。",
+          "dur_est": 8.33
+        },
+        {
+          "id": "TK3.01#11",
+          "orig_id": "CTA",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "bg": "t11_amber_eyes_closing_dossier_bernardo",
+          "motion": "still",
+          "text": "Amber Eyes 第11話。事件の全貌はバイオのリンクからご覧いただけます。",
+          "dur_est": 5.82
+        }
+      ]
+    },
+    "TK4": {
+      "id": "TK4",
+      "title": "被害者の仮面と『悪魔との司法取引』",
+      "theme": "被害者ポジションの武器化と『悪魔との司法取引』",
+      "psychological_signs": [
+        4,
+        5
+      ],
+      "hook": "取調室の涙と12年の司法取引。良心の悔悟か、冷酷な演技か？",
+      "bgm": "bgm_sub_drone.mp3",
+      "bgm_desc": "第4幕 — 本編BGM: bgm_sub_drone.mp3",
+      "sfx": [
+        "amb_courtroom_tension.wav（環境音）",
+        "fx_tape_rewind.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK4.01#1",
+          "text": "司法の悲劇: 悪魔との司法取引",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK4.01#3",
+          "text": "被害者の仮面の完全崩壊",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#5",
+          "text": "屋根裏の6本のビデオテープの衝撃",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#8",
+          "text": "検察官たちの胸を突く屈辱と後悔",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "id": "TK4.01#1",
+          "orig_id": "4.08#1",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.6,
+          "bg": "t11_deal_with_the_devil_contract",
+          "motion": "still",
+          "text": "そしてその司法の悲劇は、決定的な証拠を握っていた者たちの道徳的苦悩によって、いっそう苦渋に満ちたものとなりました。",
+          "dur_est": 9.5
+        },
+        {
+          "id": "TK4.01#2",
+          "orig_id": "4.10#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.7,
+          "bg": "t11_dark_screening_room_projector",
+          "motion": "pull",
+          "text": "検察本部の鍵の掛かった会議室でテープが再生された瞬間、部屋全体が息を呑むような凍りついた沈黙に包まれました。",
+          "dur_est": 9.0
+        },
+        {
+          "id": "TK4.01#3",
+          "orig_id": "4.10#5",
+          "role": "D",
+          "emotion": "sad",
+          "speed": -0.04,
+          "pause_after": 0.7,
+          "bg": "t11_investigator_nausea_monitor",
+          "motion": "still",
+          "text": "画面上に映し出された生々しい光景は、Karla Homolkaが周到に演じ続けてきた嘘の劇場を完膚なきまでに叩き潰したのです。",
+          "dur_est": 10.33
+        },
+        {
+          "id": "TK4.01#4",
+          "orig_id": "4.11#1",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.04,
+          "pause_after": 0.6,
+          "bg": "t11_dark_screening_room_projector",
+          "motion": "push",
+          "text": "法を執行する立場の者として、あの薄暗い映写室に座っていた瞬間の胸をえぐられるような苦渋を想像してみてください。",
+          "dur_est": 8.44
+        },
+        {
+          "id": "TK4.01#5",
+          "orig_id": "4.11#2",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.04,
+          "pause_after": 0.6,
+          "bg": "t11_interrogation_bruised_facade",
+          "motion": "still",
+          "text": "私たちは、すべてを暴力で強いられたと訴えて震えていた若い女性の涙を信じてしまっていたのです。",
+          "dur_est": 7.06
+        },
+        {
+          "id": "TK4.01#6",
+          "orig_id": "4.11#3",
+          "role": "N2",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.7,
+          "bg": "t11_six_tapes_on_floor",
+          "motion": "pull",
+          "text": "しかし映像の中のKarlaは主体的に犯行を指揮し、微笑みさえ浮かべながらPaulに冷酷な指示を出していました。",
+          "dur_est": 8.44
+        },
+        {
+          "id": "TK4.01#7",
+          "orig_id": "4.11#4",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.04,
+          "pause_after": 0.7,
+          "bg": "t11_equal_partner_in_cruelty",
+          "motion": "still",
+          "text": "脅迫など一切存在せず、彼女は絶対的な支配を楽しみ自ら進んで凶行に加担する能動的な共犯者だったのです。",
+          "dur_est": 7.68
+        },
+        {
+          "id": "TK4.01#8",
+          "orig_id": "4.11#5",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.04,
+          "pause_after": 0.8,
+          "bg": "t11_mockery_of_justice_tears",
+          "motion": "push",
+          "text": "その胸糞の悪くなるような瞬間、私たちは自分たちが正真正銘の悪魔と契約書を交わしてしまったことを悟りました。",
+          "dur_est": 8.14
+        },
+        {
+          "id": "TK4.01#9",
+          "orig_id": "4.13#1",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_victim_playing_camouflage_mirror",
+          "motion": "still",
+          "text": "あの天井裏の6本のテープこそが、捏造された被害者の仮面を完膚なきまでに粉砕した証拠でした。",
+          "dur_est": 7.73
+        },
+        {
+          "id": "TK4.01#10",
+          "orig_id": "4.13#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "bg": "t11_weaponized_victim_playing",
+          "motion": "still",
+          "text": "彼女の涙は同情を買い集め、終身刑の鉄格子から逃れるために計画的に投じられた戦術的通貨に過ぎなかったのです。",
+          "dur_est": 9.1
+        },
+        {
+          "id": "TK4.01#11",
+          "orig_id": "CTA",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "bg": "t11_amber_eyes_closing_dossier_bernardo",
+          "motion": "still",
+          "text": "Amber Eyes 第11話。事件の全貌はバイオのリンクからご覧いただけます。",
+          "dur_est": 5.82
+        }
+      ]
+    },
+    "TK5": {
+      "id": "TK5",
+      "title": "被害者学と生き残るための4つの危険信号",
+      "theme": "被害者学と生存のための4つの警戒サイン",
+      "psychological_signs": [
+        10
+      ],
+      "hook": "有毒な共生関係に引きずり込まれないための、4つの生存の警告サイン。",
+      "bgm": "bgm_warm_piano.mp3",
+      "bgm_desc": "第5幕 — 本編BGM: bgm_warm_piano.mp3",
+      "sfx": [
+        "amb_room_warm.wav（環境音）",
+        "fx_clock_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK5.01#1",
+          "text": "4つの生存のための赤い警戒サイン",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK5.01#2",
+          "text": "警告1: 過去の被害を免罪符にする者",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#4",
+          "text": "警告2: 道徳的発言と裏の行動の乖離",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#6",
+          "text": "警告3: 無害さを装った接近への警戒",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#8",
+          "text": "警告4: 有毒な共生関係の早期察知",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "id": "TK5.01#1",
+          "orig_id": "5.08#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_amber_eyes_redflag_intro",
+          "motion": "still",
+          "text": "視聴者の皆様に実践的な自衛の知見をお届けするため、Amber Eyesはこの歴史的事件から4つの決定的な『4つの赤い警告』を抽出します。",
+          "dur_est": 10.27
+        },
+        {
+          "id": "TK5.01#2",
+          "orig_id": "5.08#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "bg": "t11_four_warning_lights",
+          "motion": "pan",
+          "text": "第1の赤い警告：過去の傷を武器にする者に警戒せよ。",
+          "dur_est": 3.83
+        },
+        {
+          "id": "TK5.01#3",
+          "orig_id": "5.08#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.7,
+          "bg": "t11_redflag1_evading_accountability",
+          "motion": "pull",
+          "text": "心理操作者は過去の不遇を執拗に持ち出して現在の不正を正当化しますが、本物の良心を持つ者は責任を引き受け被害者を悼むものであり、被害者面を演じることに固執はしません。",
+          "dur_est": 12.57
+        },
+        {
+          "id": "TK5.01#4",
+          "orig_id": "5.08#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "bg": "t11_redflag2_words_vs_actions_split",
+          "motion": "still",
+          "text": "第2の赤い警告：道徳的言説と陰の行動との乖離。",
+          "dur_est": 3.52
+        },
+        {
+          "id": "TK5.01#5",
+          "orig_id": "5.08#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.7,
+          "bg": "t11_disguised_predator_scales",
+          "motion": "push",
+          "text": "美しい外見や大衆の前での耳触りの良い弁舌ではなく、一貫した客観的な行動の軌跡によって人物を評価してください。",
+          "dur_est": 8.28
+        },
+        {
+          "id": "TK5.01#6",
+          "orig_id": "5.08#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "bg": "t11_fragile_beauty_manipulation",
+          "motion": "still",
+          "text": "第3の赤い警告：無害に見える人物の接近に油断するな。",
+          "dur_est": 3.98
+        },
+        {
+          "id": "TK5.01#7",
+          "orig_id": "5.08#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.7,
+          "bg": "t11_redflag3_guilt_tripping_trap",
+          "motion": "pull",
+          "text": "Karla Homolkaは道を聞くふりをして親しみやすい笑顔を浮かべ警戒を解いた被害者を罠へと誘い込みましたから、公共の場において無垢に見える人物の前でも警戒心を解いてはなりません。",
+          "dur_est": 13.95
+        },
+        {
+          "id": "TK5.01#8",
+          "orig_id": "5.08#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "bg": "t11_redflag4_toxic_symbiosis_abyss",
+          "motion": "still",
+          "text": "そして第4の赤い警告：有害な共依存同盟を見抜け。",
+          "dur_est": 3.68
+        },
+        {
+          "id": "TK5.01#9",
+          "orig_id": "5.08#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "bg": "t11_survival_intuition_bell",
+          "motion": "push",
+          "text": "自らの内なる直感的な違和感を常に尊重してください、直感こそが最も鋭敏な早期生存警報システムなのですから。",
+          "dur_est": 7.97
+        },
+        {
+          "id": "TK5.01#10",
+          "orig_id": "CTA",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "bg": "t11_amber_eyes_closing_dossier_bernardo",
+          "motion": "still",
+          "text": "Amber Eyes 第11話。事件の全貌はバイオのリンクからご覧いただけます。",
+          "dur_est": 5.82
+        }
+      ]
+    }
+  }
+}

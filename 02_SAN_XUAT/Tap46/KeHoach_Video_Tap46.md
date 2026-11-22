@@ -11,9 +11,9 @@
 | **Tên tập** | Tập 46: Hồ Sơ Rosemary Ndlovu — NỮ CẢNH SÁT LÒNG THAM & BẢN HỢP ĐỒNG BẢO HIỂM ĐẪM MÁU |
 | **Đề tài** | Nữ cảnh sát tại Tembisa sát hại người thân trục lợi tiền bảo hiểm nhân thọ |
 | **Trọng tâm tâm lý (K10)** | Tha hóa quyền lực hành pháp, Coi người thân là công cụ tài chính, Diễn xuất vô cảm. |
-| **Thời lượng dự kiến** | 24:00 – 27:00 (~1.500 giây) |
-| **Giọng đọc phân bổ** | Host (Cú) · Điều tra viên (Sói) · Chuyên gia tâm lý (Cáo) · Người trong cuộc (N) |
-| **Quy tắc kiểm duyệt** | 100% YouTube Safe theo Tiêu chuẩn V9 (Không mô tả bạo lực ghê rợn, tập trung tâm lý học và hành vi). |
+| **Thời lượng dự kiến** | 28:00 – 32:00 (~1.800 giây) |
+| **Giọng đọc phân bổ** | Host (Cú) · Điều tra viên (Sói) · Chuyên gia tâm lý (Cáo) · Người trong cuộc (N1: Đồng nghiệp Tembisa, N2: Njabulo Kunene) |
+| **Quy tắc kiểm duyệt** | 100% YouTube Safe theo Tiêu chuẩn V9 (Không mô tả bạo lực ghê rợn, tập trung tâm lý học và hành vi). Đạt Hệ sinh thái 10 chỉ dấu tâm lý (A2c/K10), 242 câu thoại chuẩn parity 1:1:1 cho cả 3 ngôn ngữ (VN, EN, JA). |
 
 ## B2. Kế hoạch sản xuất chi tiết 5 Hồi
 

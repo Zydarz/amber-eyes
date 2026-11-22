@@ -1,0 +1,908 @@
+{
+  "_readme": "SPEC AUDIO TIKTOK TAP 11 — Dữ liệu chuẩn hóa 100% đối chiếu master",
+  "_episode": "11",
+  "_language": "EN",
+  "_measured_rates": {
+    "H": 0.3587921847246893,
+    "N1": 0.317142857142857,
+    "C": 0.39410939691444646,
+    "D": 0.43134502923976603,
+    "N2": 0.3797468354430351
+  },
+  "_clips_summary": [
+    {
+      "id": "TK1",
+      "title": "The Ken & Barbie Facade and Suburban Blind Spots",
+      "signs": [
+        1,
+        9
+      ],
+      "theme": "The Halo Effect & Suburban Blind Spots",
+      "lines_count": 9,
+      "est_dur_s": 71.0
+    },
+    {
+      "id": "TK2",
+      "title": "Escalation Trajectory — 4 Stages of Moral Degradation",
+      "signs": [
+        7,
+        8
+      ],
+      "theme": "Fantasy Escalation Trajectory & MO vs Signature",
+      "lines_count": 11,
+      "est_dur_s": 87.5
+    },
+    {
+      "id": "TK3",
+      "title": "Folie à Deux & Dehumanization Mechanisms",
+      "signs": [
+        2,
+        3
+      ],
+      "theme": "Shared Psychotic Disorder (Folie à Deux) & Dehumanization of Kin",
+      "lines_count": 11,
+      "est_dur_s": 72.6
+    },
+    {
+      "id": "TK4",
+      "title": "The Victim Mask and the Deal with the Devil",
+      "signs": [
+        4,
+        5
+      ],
+      "theme": "Weaponized Victim Playing & The Infamous Deal with the Devil",
+      "lines_count": 11,
+      "est_dur_s": 77.0
+    },
+    {
+      "id": "TK5",
+      "title": "Victimology & 4 Survival Red Flags",
+      "signs": [
+        10
+      ],
+      "theme": "Victimology & 4 Essential Survival Red Flags",
+      "lines_count": 10,
+      "est_dur_s": 64.3
+    }
+  ],
+  "clips": {
+    "TK1": {
+      "id": "TK1",
+      "title": "The Ken & Barbie Facade and Suburban Blind Spots",
+      "theme": "The Halo Effect & Suburban Blind Spots",
+      "psychological_signs": [
+        1,
+        9
+      ],
+      "hook": "A real-life Ken and Barbie couple. Why was the entire town completely blinded?",
+      "bgm": "bgm_piano_minimal.mp3",
+      "bgm_desc": "Act 1 — episode bed: bgm_piano_minimal.mp3",
+      "sfx": [
+        "amb_wind_cold.wav (bed)",
+        "fx_door_close.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK1.01#1",
+          "text": "57 BAYVIEW DRIVE · PORT DALHOUSIE",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK1.01#4",
+          "text": "REAL-LIFE KEN & BARBIE FACADE",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#6",
+          "text": "PERFECT NEIGHBORHOOD BLIND SPOT",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#8",
+          "text": "THE HALO EFFECT & SUBURBAN ILLUSION",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "id": "TK1.01#1",
+          "orig_id": "1.03#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_pink_house_57_bayview",
+          "motion": "pan",
+          "text": "In the early 1990s, in the scenic lakeside community of Port Dalhousie in Ontario, an eye-catching pink house stood at 57 Bayview Drive.",
+          "dur_est": 8.25
+        },
+        {
+          "id": "TK1.01#2",
+          "orig_id": "1.03#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_paul_bernardo_dashing_car",
+          "motion": "still",
+          "text": "The husband was Paul Bernardo, a handsome financial accounting professional who always wore designer suits and drove a sleek convertible sports car.",
+          "dur_est": 7.89
+        },
+        {
+          "id": "TK1.01#3",
+          "orig_id": "1.03#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_karla_veterinary_clinic",
+          "motion": "pull",
+          "text": "The wife was Karla Homolka, six years his junior, a striking blonde with an angelic smile who worked at a local veterinary clinic.",
+          "dur_est": 8.25
+        },
+        {
+          "id": "TK1.01#4",
+          "orig_id": "1.03#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_ken_barbie_golden_illusion",
+          "motion": "still",
+          "text": "To the surrounding suburban neighborhood, they were the living embodiment of the golden couple, Ken and Barbie.",
+          "dur_est": 6.1
+        },
+        {
+          "id": "TK1.01#5",
+          "orig_id": "1.06#1",
+          "role": "N1",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_suburban_admiration_facade",
+          "motion": "push",
+          "text": "To all of us in that lakeside neighborhood, Paul and Karla were an exemplary golden couple.",
+          "dur_est": 5.07
+        },
+        {
+          "id": "TK1.01#6",
+          "orig_id": "1.06#4",
+          "role": "N1",
+          "emotion": "sad",
+          "speed": -0.04,
+          "pause_after": 0.7,
+          "bg": "t11_closed_pink_door_abyss",
+          "motion": "still",
+          "text": "Their holy facade blinded the entire neighborhood completely.",
+          "dur_est": 2.54
+        },
+        {
+          "id": "TK1.01#7",
+          "orig_id": "1.07#1",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_expert_desk_lamp",
+          "motion": "pull",
+          "text": "Under the lens of social psychology, the facade of the pink house at 57 Bayview Drive represents a textbook study in the Halo Effect and Suburban Blindness.",
+          "dur_est": 10.64
+        },
+        {
+          "id": "TK1.01#8",
+          "orig_id": "1.07#4",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "bg": "t11_pink_house_winter_dusk",
+          "motion": "still",
+          "text": "We readily guard ourselves against a disheveled, suspicious figure lurking in a dark alley, yet remain thoroughly defenseless before a middle-class couple strolling their dog with radiant smiles beside a rose trellis.",
+          "dur_est": 12.61
+        },
+        {
+          "id": "TK1.01#9",
+          "orig_id": "CTA",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "bg": "t11_amber_eyes_closing_dossier_bernardo",
+          "motion": "still",
+          "text": "Episode eleven of Amber Eyes. Watch the full dossier via the link in our bio.",
+          "dur_est": 5.38
+        }
+      ]
+    },
+    "TK2": {
+      "id": "TK2",
+      "title": "Escalation Trajectory — 4 Stages of Moral Degradation",
+      "theme": "Fantasy Escalation Trajectory & MO vs Signature",
+      "psychological_signs": [
+        7,
+        8
+      ],
+      "hook": "From suburban night prowler to broad daylight church abductions. How did the predation escalate?",
+      "bgm": "bgm_cell_dark.mp3",
+      "bgm_desc": "Act 2 — episode bed: bgm_cell_dark.mp3",
+      "sfx": [
+        "amb_night_highway.wav (bed)",
+        "fx_police_siren_distant.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK2.01#1",
+          "text": "4 STAGES OF CRIMINAL ESCALATION",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK2.01#3",
+          "text": "STAGE 1: THE SCARBOROUGH NIGHT PROWLER",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#5",
+          "text": "STAGE 2: TOXIC SYMBIOTIC ALLIANCE",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#7",
+          "text": "STAGE 3: PROTRACTED CONFINEMENT AT HOME",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#9",
+          "text": "STAGE 4: DAYLIGHT CHURCH AMBUSH",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "id": "TK2.01#1",
+          "orig_id": "2.04#1",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.6,
+          "bg": "t11_investigation_board_four_stages",
+          "motion": "still",
+          "text": "Based on inter-agency investigative data, we reconstructed Paul Bernardo's trajectory of moral degeneration across four distinct stages of escalation.",
+          "dur_est": 8.2
+        },
+        {
+          "id": "TK2.01#2",
+          "orig_id": "2.04#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.5,
+          "bg": "t11_scarborough_nocturnal_shadow",
+          "motion": "pan",
+          "text": "Rung One: Solitary predatory ambushes in suburban enclaves.",
+          "dur_est": 3.45
+        },
+        {
+          "id": "TK2.01#3",
+          "orig_id": "2.04#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.6,
+          "bg": "t11_scarborough_night_street_lurking",
+          "motion": "pull",
+          "text": "Starting in May 1987, Paul Bernardo stalked and assaulted at least fourteen young women in Scarborough, operating alone and escaping into the night.",
+          "dur_est": 9.92
+        },
+        {
+          "id": "TK2.01#4",
+          "orig_id": "2.04#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.5,
+          "bg": "t11_silent_christmas_tragedy",
+          "motion": "still",
+          "text": "Rung Two: Establishing the predatory alliance and violating family.",
+          "dur_est": 3.88
+        },
+        {
+          "id": "TK2.01#5",
+          "orig_id": "2.04#5",
+          "role": "D",
+          "emotion": "sad",
+          "speed": -0.04,
+          "pause_after": 0.7,
+          "bg": "t11_christmas_1990_halothane_bottle",
+          "motion": "push",
+          "text": "In October 1987, he met Karla Homolka; their deviant bond led them to target Karla's own fifteen-year-old sister, Tammy Homolka, on Christmas Eve 1990 using stolen veterinary anesthetics, resulting in the girl's tragic death.",
+          "dur_est": 14.67
+        },
+        {
+          "id": "TK2.01#6",
+          "orig_id": "2.04#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.5,
+          "bg": "t11_closed_pink_door_abyss",
+          "motion": "still",
+          "text": "Rung Three: Prolonged residential captivity at their private home.",
+          "dur_est": 3.88
+        },
+        {
+          "id": "TK2.01#7",
+          "orig_id": "2.04#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.7,
+          "bg": "t11_bayview_basement_concrete",
+          "motion": "pan",
+          "text": "In June 1991, following their wedding, they abducted Leslie Mahaffy, holding her captive and abusing her inside 57 Bayview Drive before ending her life.",
+          "dur_est": 10.35
+        },
+        {
+          "id": "TK2.01#8",
+          "orig_id": "2.04#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.5,
+          "bg": "t11_church_parking_daytime_abduction",
+          "motion": "still",
+          "text": "And Rung Four: Brazen daytime public abduction.",
+          "dur_est": 3.02
+        },
+        {
+          "id": "TK2.01#9",
+          "orig_id": "2.04#9",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.7,
+          "bg": "t11_church_parking_lot_ambush",
+          "motion": "push",
+          "text": "In April 1992, they ambushed Kristen French in a busy Saint Catharines church parking lot in broad daylight, proving that omnipotent hubris had completely eclipsed the fear of detection.",
+          "dur_est": 12.51
+        },
+        {
+          "id": "TK2.01#10",
+          "orig_id": "2.04#12",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.0,
+          "bg": "t11_coupled_shadows_mirror",
+          "motion": "still",
+          "text": "It marked the terrifying transformation from a solitary prowler into an organized, lethal serial predation team.",
+          "dur_est": 6.9
+        },
+        {
+          "id": "TK2.01#11",
+          "orig_id": "CTA",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "bg": "t11_amber_eyes_closing_dossier_bernardo",
+          "motion": "still",
+          "text": "Episode eleven of Amber Eyes. Watch the full dossier via the link in our bio.",
+          "dur_est": 5.38
+        }
+      ]
+    },
+    "TK3": {
+      "id": "TK3",
+      "title": "Folie à Deux & Dehumanization Mechanisms",
+      "theme": "Shared Psychotic Disorder (Folie à Deux) & Dehumanization of Kin",
+      "psychological_signs": [
+        2,
+        3
+      ],
+      "hook": "Why would an educated young woman offer her own biological sister as a sacrificial token?",
+      "bgm": "bgm_cello_sad_v2.mp3",
+      "bgm_desc": "Act 3 — episode bed: bgm_cello_sad_v2.mp3",
+      "sfx": [
+        "amb_sub_drone.wav (bed)",
+        "fx_heartbeat_slow.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK3.01#1",
+          "text": "SHARED MADNESS: FOLIE À DEUX",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK3.01#4",
+          "text": "LETHAL PSYCHOLOGICAL ECHO CHAMBER",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#6",
+          "text": "DEHUMANIZATION & PROJECTION",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#8",
+          "text": "THE BREAKING POINT: JANUARY 1993",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "id": "TK3.01#1",
+          "orig_id": "3.04#1",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_folie_a_deux_resonance",
+          "motion": "pull",
+          "text": "The foundational clinical framework that elucidates this dynamic is Shared Psychotic Disorder, historically known as Folie à Deux.",
+          "dur_est": 7.09
+        },
+        {
+          "id": "TK3.01#2",
+          "orig_id": "3.04#2",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_coupled_shadows_mirror",
+          "motion": "still",
+          "text": "This is a rare clinical manifestation where two individuals with complementary character pathologies intersect, creating a mutual resonance chamber of crime.",
+          "dur_est": 8.28
+        },
+        {
+          "id": "TK3.01#3",
+          "orig_id": "3.04#3",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_destructive_flame_alliance",
+          "motion": "pan",
+          "text": "Within this partnership, Paul Bernardo served as the primary inducer, characterized by malignant narcissism and antisocial psychopathy.",
+          "dur_est": 6.7
+        },
+        {
+          "id": "TK3.01#4",
+          "orig_id": "3.04#7",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.7,
+          "bg": "t11_obedient_accomplice_strings",
+          "motion": "still",
+          "text": "Rather than recoiling when Paul's predatory compulsions surfaced, Karla discovered in him vicarious power arousal and blind emotional subservience.",
+          "dur_est": 7.49
+        },
+        {
+          "id": "TK3.01#5",
+          "orig_id": "3.05#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_cracked_mirror_hallway",
+          "motion": "push",
+          "text": "This toxic symbiosis precipitated an excruciatingly callous cognitive phenomenon: the complete objectification of their victims.",
+          "dur_est": 5.38
+        },
+        {
+          "id": "TK3.01#6",
+          "orig_id": "3.05#3",
+          "role": "H",
+          "emotion": "sad",
+          "speed": -0.04,
+          "pause_after": 0.8,
+          "bg": "t11_silent_christmas_tragedy",
+          "motion": "still",
+          "text": "How could Karla cold-bloodedly deliver her own flesh-and-blood younger sister into this fatal trap?",
+          "dur_est": 5.02
+        },
+        {
+          "id": "TK3.01#7",
+          "orig_id": "3.06#1",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_featureless_peg_dolls",
+          "motion": "pull",
+          "text": "The core psychological mechanisms here are objectification and dehumanization.",
+          "dur_est": 3.55
+        },
+        {
+          "id": "TK3.01#8",
+          "orig_id": "3.06#2",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.7,
+          "bg": "t11_covert_sociopath_profile",
+          "motion": "still",
+          "text": "Paul Bernardo viewed victims as disposable playthings designed solely to feed his addiction to dominance and sexual sadism.",
+          "dur_est": 7.09
+        },
+        {
+          "id": "TK3.01#9",
+          "orig_id": "3.08#1",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.6,
+          "bg": "t11_flashlight_shattered_hallway",
+          "motion": "push",
+          "text": "However, every criminal alliance eventually encounters its internal breaking point.",
+          "dur_est": 4.31
+        },
+        {
+          "id": "TK3.01#10",
+          "orig_id": "3.08#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.0,
+          "bg": "t11_escape_to_parents_porch",
+          "motion": "still",
+          "text": "Just one month later, on February 17, 1993, police closed in to arrest Paul Bernardo.",
+          "dur_est": 6.47
+        },
+        {
+          "id": "TK3.01#11",
+          "orig_id": "CTA",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "bg": "t11_amber_eyes_closing_dossier_bernardo",
+          "motion": "still",
+          "text": "Episode eleven of Amber Eyes. Watch the full dossier via the link in our bio.",
+          "dur_est": 5.38
+        }
+      ]
+    },
+    "TK4": {
+      "id": "TK4",
+      "title": "The Victim Mask and the Deal with the Devil",
+      "theme": "Weaponized Victim Playing & The Infamous Deal with the Devil",
+      "psychological_signs": [
+        4,
+        5
+      ],
+      "hook": "Tears at the plea bargaining table and a 12-year deal. Remorse or ruthless manipulation?",
+      "bgm": "bgm_sub_drone.mp3",
+      "bgm_desc": "Act 4 — episode bed: bgm_sub_drone.mp3",
+      "sfx": [
+        "amb_courtroom_tension.wav (bed)",
+        "fx_tape_rewind.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK4.01#1",
+          "text": "JUDICIAL DISASTER: DEAL WITH THE DEVIL",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK4.01#3",
+          "text": "COLLAPSE OF THE VICTIM FACADE",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#5",
+          "text": "6 CEILING TAPES EXPOSE THE TRUTH",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#8",
+          "text": "HUMILIATION OF THE CROWN PROSECUTION",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "id": "TK4.01#1",
+          "orig_id": "4.08#1",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.6,
+          "bg": "t11_deal_with_the_devil_contract",
+          "motion": "still",
+          "text": "And that judicial catastrophe became all the more bitter due to the moral agony of those holding the decisive evidence.",
+          "dur_est": 8.63
+        },
+        {
+          "id": "TK4.01#2",
+          "orig_id": "4.10#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.7,
+          "bg": "t11_dark_screening_room_projector",
+          "motion": "pull",
+          "text": "When the projector was switched on inside the locked Crown conference room, the entire room was engulfed in horrified silence.",
+          "dur_est": 8.63
+        },
+        {
+          "id": "TK4.01#3",
+          "orig_id": "4.10#5",
+          "role": "D",
+          "emotion": "sad",
+          "speed": -0.04,
+          "pause_after": 0.7,
+          "bg": "t11_investigator_nausea_monitor",
+          "motion": "still",
+          "text": "The footage on that screen utterly decimated the fragile victim narrative Karla Homolka had so meticulously fabricated.",
+          "dur_est": 7.33
+        },
+        {
+          "id": "TK4.01#4",
+          "orig_id": "4.11#1",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.04,
+          "pause_after": 0.6,
+          "bg": "t11_dark_screening_room_projector",
+          "motion": "push",
+          "text": "Picture the agonizing humiliation of Crown prosecutors sitting in that darkened room that afternoon.",
+          "dur_est": 5.32
+        },
+        {
+          "id": "TK4.01#5",
+          "orig_id": "4.11#2",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.04,
+          "pause_after": 0.6,
+          "bg": "t11_interrogation_bruised_facade",
+          "motion": "still",
+          "text": "We had believed the tearful testimony of a trembling woman who claimed she was terrorized under duress.",
+          "dur_est": 6.46
+        },
+        {
+          "id": "TK4.01#6",
+          "orig_id": "4.11#3",
+          "role": "N2",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.7,
+          "bg": "t11_six_tapes_on_floor",
+          "motion": "pull",
+          "text": "Yet the videotapes showed Karla participating with eager initiative, laughing, and issuing cold commands to Paul throughout the ordeal.",
+          "dur_est": 7.22
+        },
+        {
+          "id": "TK4.01#7",
+          "orig_id": "4.11#4",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.04,
+          "pause_after": 0.7,
+          "bg": "t11_equal_partner_in_cruelty",
+          "motion": "still",
+          "text": "She was not terrified; she was an enthusiastic, callous co-conspirator reveling in cruelty.",
+          "dur_est": 4.94
+        },
+        {
+          "id": "TK4.01#8",
+          "orig_id": "4.11#5",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.04,
+          "pause_after": 0.8,
+          "bg": "t11_mockery_of_justice_tears",
+          "motion": "push",
+          "text": "In that shattering moment, we realized we had signed a binding contract with the devil herself.",
+          "dur_est": 6.08
+        },
+        {
+          "id": "TK4.01#9",
+          "orig_id": "4.13#1",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_victim_playing_camouflage_mirror",
+          "motion": "still",
+          "text": "Those six ceiling tapes marked the catastrophic implosion of the victim facade.",
+          "dur_est": 4.73
+        },
+        {
+          "id": "TK4.01#10",
+          "orig_id": "4.13#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "bg": "t11_weaponized_victim_playing",
+          "motion": "still",
+          "text": "Her tears were never sorrow, but calculated tools to purchase judicial sympathy and evade life imprisonment.",
+          "dur_est": 6.31
+        },
+        {
+          "id": "TK4.01#11",
+          "orig_id": "CTA",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "bg": "t11_amber_eyes_closing_dossier_bernardo",
+          "motion": "still",
+          "text": "Episode eleven of Amber Eyes. Watch the full dossier via the link in our bio.",
+          "dur_est": 5.38
+        }
+      ]
+    },
+    "TK5": {
+      "id": "TK5",
+      "title": "Victimology & 4 Survival Red Flags",
+      "theme": "Victimology & 4 Essential Survival Red Flags",
+      "psychological_signs": [
+        10
+      ],
+      "hook": "Four critical survival red flags to never fall into a predatory symbiotic trap.",
+      "bgm": "bgm_warm_piano.mp3",
+      "bgm_desc": "Act 5 — episode bed: bgm_warm_piano.mp3",
+      "sfx": [
+        "amb_room_warm.wav (bed)",
+        "fx_clock_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK5.01#1",
+          "text": "4 CRITICAL SURVIVAL RED FLAGS",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK5.01#2",
+          "text": "RED FLAG 1: WEAPONIZING PAST TRAUMA",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#4",
+          "text": "RED FLAG 2: WORDS VS ACTIONS DISCREPANCY",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#6",
+          "text": "RED FLAG 3: THE SEEMINGLY HARMLESS FACADE",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#8",
+          "text": "RED FLAG 4: TOXIC SYMBIOTIC TRAPS",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "id": "TK5.01#1",
+          "orig_id": "5.08#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "bg": "t11_amber_eyes_redflag_intro",
+          "motion": "still",
+          "text": "To equip our listeners with actionable protection, Amber eyes extracts four survival red flags from this harrowing history based on Gavin de Becker's “The Gift of Fear”:",
+          "dur_est": 9.69
+        },
+        {
+          "id": "TK5.01#2",
+          "orig_id": "5.08#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "bg": "t11_four_warning_lights",
+          "motion": "pan",
+          "text": "Red Flag One: Beware of individuals who exploit personal trauma to rationalize wrongdoing.",
+          "dur_est": 4.66
+        },
+        {
+          "id": "TK5.01#3",
+          "orig_id": "5.08#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.7,
+          "bg": "t11_redflag1_evading_accountability",
+          "motion": "pull",
+          "text": "Manipulators constantly cite past victimhood to excuse present transgressions; a truly remorseful soul takes unconditional ownership, rather than obsessing over playing the perpetual victim.",
+          "dur_est": 8.61
+        },
+        {
+          "id": "TK5.01#4",
+          "orig_id": "5.08#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "bg": "t11_redflag2_words_vs_actions_split",
+          "motion": "still",
+          "text": "Red Flag Two: Incongruence between public virtue and private conduct.",
+          "dur_est": 3.59
+        },
+        {
+          "id": "TK5.01#5",
+          "orig_id": "5.08#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.7,
+          "bg": "t11_disguised_predator_scales",
+          "motion": "push",
+          "text": "Always judge a person by consistent behavioral patterns, never by physical beauty or eloquent public performativity.",
+          "dur_est": 5.74
+        },
+        {
+          "id": "TK5.01#6",
+          "orig_id": "5.08#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "bg": "t11_fragile_beauty_manipulation",
+          "motion": "still",
+          "text": "Red Flag Three: Vigilance toward individuals presenting an innocuous, disarming exterior.",
+          "dur_est": 3.95
+        },
+        {
+          "id": "TK5.01#7",
+          "orig_id": "5.08#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.7,
+          "bg": "t11_redflag3_guilt_tripping_trap",
+          "motion": "pull",
+          "text": "Karla Homolka directly utilized her friendly smile to ask for directions and lure unsuspecting victims; vigilance must never falter before charming strangers in public spaces.",
+          "dur_est": 8.97
+        },
+        {
+          "id": "TK5.01#8",
+          "orig_id": "5.08#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "bg": "t11_redflag4_toxic_symbiosis_abyss",
+          "motion": "still",
+          "text": "And Red Flag Four: Identifying toxic symbiotic relationships.",
+          "dur_est": 2.87
+        },
+        {
+          "id": "TK5.01#9",
+          "orig_id": "5.08#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "bg": "t11_survival_intuition_bell",
+          "motion": "push",
+          "text": "Always honor the intuitive alarm bells within you, for intuition is humanity's most acute early warning system.",
+          "dur_est": 6.1
+        },
+        {
+          "id": "TK5.01#10",
+          "orig_id": "CTA",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "bg": "t11_amber_eyes_closing_dossier_bernardo",
+          "motion": "still",
+          "text": "Episode eleven of Amber Eyes. Watch the full dossier via the link in our bio.",
+          "dur_est": 5.38
+        }
+      ]
+    }
+  }
+}

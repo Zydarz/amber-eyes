@@ -1,0 +1,716 @@
+{
+  "TK1": {
+    "title": "洗濯機の謎と復元されたデジタル鑑識データ",
+    "theme": "手口MO対署名Signatureとデジタルフォレンジックの決定打",
+    "hook": "証拠隠滅のため洗濯機に沈められたカメラ。しかしデジタル鑑識は嘘をつかない。",
+    "total_dur_est": 73.0,
+    "bgm": "bgm_cello_sad.mp3",
+    "sfx": [
+      "amb_room_tone.wav（環境音）",
+      "fx_camera_shutter.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK1.01#1",
+        "text": "アリゾナ州メサの現場 · 2008年夏",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK1.01#3",
+        "text": "水が回る洗濯機の底に沈められたソニー製カメラ",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK1.01#5",
+        "text": "消去された写真群が秒単位で完全復元される",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK1.01#7",
+        "text": "午後5時29分：浴室で撮影された最後の写真",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK1.01#9",
+        "text": "第三者の関与を完全に否定したデジタル鑑識の証拠",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK1.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "しかし最も異様な違和感は、階下に位置する洗濯室の中で発見されたのです。",
+        "source": "1.14#3",
+        "bg": "t15_jodi_arias_a1_08_mesa",
+        "camera": "still",
+        "dur_est": 5.36
+      },
+      {
+        "id": "TK1.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "洗濯槽の中では、被害者の寝具類と共に濡れた衣類が回されていました。",
+        "source": "1.14#4",
+        "bg": "t15_b03_washing_machine_running_dark",
+        "camera": "push",
+        "dur_est": 5.05
+      },
+      {
+        "id": "TK1.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "そして水浸しになった槽の底から見つかったのは、Travisが所持していたソニー（Sony）製のデジタルカメラでした。",
+        "source": "1.14#5",
+        "bg": "t15_b03_washing_machine_running_dark",
+        "camera": "pan",
+        "dur_est": 8.88
+      },
+      {
+        "id": "TK1.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "加害者は浸水によって内部の電子データが永久に破壊されることを狙い、カメラを洗濯機の中に投入したのです。",
+        "source": "1.14#6",
+        "bg": "t15_b03_washing_machine_running_dark",
+        "camera": "pull",
+        "dur_est": 7.81
+      },
+      {
+        "id": "TK1.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "手作業で消去されていた膨大な写真群が、秒単位の正確な時系列に沿って克明に復元されました。",
+        "source": "2.04#1",
+        "bg": "t15_jodi_arias_a2_03_mirror",
+        "camera": "still",
+        "dur_est": 6.74
+      },
+      {
+        "id": "TK1.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "2008年6月4日の午後に撮影された写真群は、Travis AlexanderとJodi Ariasが家の中で共に過ごしていた事実を証明していました。",
+        "source": "2.04#2",
+        "bg": "t15_jodi_arias_a2_04_interrogation",
+        "camera": "push",
+        "dur_est": 11.18
+      },
+      {
+        "id": "TK1.01#7",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Travisが生きてカメラに収められた最後の姿は、同日午後5時29分、浴室の中で記録されたものでした。",
+        "source": "2.04#3",
+        "bg": "t15_jodi_arias_a2_05_mesa",
+        "camera": "pan",
+        "dur_est": 7.81
+      },
+      {
+        "id": "TK1.01#8",
+        "role": "H",
+        "emotion": "fearful",
+        "speed": -0.03,
+        "pause_after": 0.6,
+        "text": "そしてそのわずか数分後、カメラは現場に存在するJodi Ariasの姿を偶然にも捉えていたのです。",
+        "source": "2.04#4",
+        "bg": "t15_jodi_arias_a2_06_arizona",
+        "camera": "pull",
+        "dur_est": 7.35
+      },
+      {
+        "id": "TK1.01#9",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "復元されたデジタル画像データは、その運命の時刻に現場へ第三者が侵入した可能性を完全に粉砕しました。",
+        "source": "2.05#1",
+        "bg": "t15_jodi_arias_a2_07_desert",
+        "camera": "still",
+        "dur_est": 8.04
+      }
+    ]
+  },
+  "TK2": {
+    "title": "砂漠越えのルートと3つの秘密のガソリン携行缶",
+    "theme": "周到な事前計画と電子足跡の組織的隠蔽手口",
+    "hook": "黒染めした髪、切られた携帯電源、3つのガソリン缶。戦慄の完全犯罪計画。",
+    "total_dur_est": 73.8,
+    "bgm": "bgm_ambient_deep.mp3",
+    "sfx": [
+      "amb_desert_wind.wav（環境音）",
+      "fx_car_driving_night.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK2.01#1",
+        "text": "2008年6月2日：カリフォルニア州レディングでレンタカー確保",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK2.01#3",
+        "text": "アリゾナでのカード履歴を避けるための3つのガソリン携行缶",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK2.01#4",
+        "text": "突発的発作を完全に否定する周到な計画性",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK2.01#6",
+        "text": "黒髪への偽装染色と携帯電話基地局追跡の遮断",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK2.01#8",
+        "text": "綿密に組み立てられた戦慄のアリバイ工作",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK2.01#1",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "2008年6月2日、Jodiはカリフォルニア州レディング（Redding）にてレンタカーを1台調達しました。",
+        "source": "2.05#5",
+        "bg": "t15_darryl_brewer_garage_gas_cans",
+        "camera": "still",
+        "dur_est": 8.86
+      },
+      {
+        "id": "TK2.01#2",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "彼女は知人から予備の燃料缶2個を借り受け、さらに大型店舗で3つ目の燃料缶を追加購入していました。",
+        "source": "2.05#6",
+        "bg": "t15_jodi_arias_a2_10_bpd",
+        "camera": "push",
+        "dur_est": 7.88
+      },
+      {
+        "id": "TK2.01#3",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "3つの予備燃料缶を積載することで、彼女はアリゾナ州内でクレジットカード記録を一切残さずに砂漠地帯を往復できたのです。",
+        "source": "2.05#7",
+        "bg": "t15_jodi_arias_a2_11_abandonment",
+        "camera": "pan",
+        "dur_est": 9.52
+      },
+      {
+        "id": "TK2.01#4",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "この犯行手口（MO）は、出発前から極めて冷酷かつ計画的にアリバイが偽装されていたことを如実に物語っています。",
+        "source": "2.05#8",
+        "bg": "t15_b25_darryl_brewer_garage_gas_can",
+        "camera": "pull",
+        "dur_est": 8.86
+      },
+      {
+        "id": "TK2.01#5",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "旅に出る直前、Jodiは外見の印象を変えるために髪を暗い茶色へと染め替えていました。",
+        "source": "2.05#9",
+        "bg": "t15_interstate_highway_gas_stop_midnight",
+        "camera": "still",
+        "dur_est": 6.89
+      },
+      {
+        "id": "TK2.01#6",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "アリゾナ州内を移動する間、彼女は基地局による位置追跡を回避するため、携帯電話の電源を意図的に切断していました。",
+        "source": "2.05#10",
+        "bg": "t15_salt_lake_city_suburban_doorstep",
+        "camera": "push",
+        "dur_est": 9.02
+      },
+      {
+        "id": "TK2.01#7",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "彼女は自分がまだ彼を探しているかのように装うため、Travisの留守番電話に優しいメッセージを吹き込みさえしたのです。",
+        "source": "2.05#13",
+        "bg": "t15_b62_jodi_arias_a2_02_photographs",
+        "camera": "still",
+        "dur_est": 9.68
+      },
+      {
+        "id": "TK2.01#8",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "これは突発的なパニックによる反応などではなく、綿密に練り上げられたシナリオに基づくアリバイ工作だったのです。",
+        "source": "2.05#16",
+        "bg": "t15_jodi_arias_a2_05_mesa",
+        "camera": "pull",
+        "dur_est": 8.86
+      }
+    ]
+  },
+  "TK3": {
+    "title": "境界性パーソナリティ障害（BPD）と見捨てられ不安の暴走",
+    "theme": "境界性パーソナリティ障害のスプリッティングと激しい怒り",
+    "hook": "朝の崇拝から夕方の破壊願望へ。境界性パーソナリティ障害（BPD）が引き起こす激動の深層心理。",
+    "total_dur_est": 81.6,
+    "bgm": "bgm_piano_minimal.mp3",
+    "sfx": [
+      "amb_room_tone.wav（環境音）",
+      "fx_clock_ticking.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK3.01#1",
+        "text": "法廷で提出された臨床精神医学鑑定書",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK3.01#2",
+        "text": "境界性パーソナリティ障害（BPD）の診断",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK3.01#4",
+        "text": "狂気じみた「見捨てられ不安」がもたらす自己崩壊",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK3.01#6",
+        "text": "スプリッティング：全か無か、理想化から悪魔化へ",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK3.01#8",
+        "text": "トラウマ性愛着が引き起こした破滅的凶行",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK3.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "精密な精神鑑定の結果、Jodi Ariasは悪性自己愛が結合した境界性パーソナリティ障害の典型的な特徴を示していると結論づけられました。",
+        "source": "3.04#1",
+        "bg": "t15_jodi_arias_a3_03_arizona",
+        "camera": "push",
+        "dur_est": 10.26
+      },
+      {
+        "id": "TK3.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "これは現実の認識能力を失う精神障害ではなく、思考と感情のシステムが深刻に歪曲された人格構造です。",
+        "source": "3.04#2",
+        "bg": "t15_jodi_arias_a3_04_desert",
+        "camera": "pan",
+        "dur_est": 7.35
+      },
+      {
+        "id": "TK3.01#3",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "境界性パーソナリティ障害は、自己像、感情の制御、そして対人関係全般における極度の不安定性を本質的な特徴とします。",
+        "source": "3.05#1",
+        "bg": "t15_jodi_arias_a3_06_gascan",
+        "camera": "still",
+        "dur_est": 9.31
+      },
+      {
+        "id": "TK3.01#4",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "この特性を持つ者の行動を支配する最も根源的な原動力は、現実のものであれ想像上のものであれ、見捨てられることに対する耐え難い恐怖です。",
+        "source": "3.05#2",
+        "bg": "t15_jodi_arias_a3_07_bpd",
+        "camera": "push",
+        "dur_est": 10.97
+      },
+      {
+        "id": "TK3.01#5",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "彼らにとって恋人からの拒絶は単なる失恋の痛手ではなく、自己そのものが消滅するような壊滅的危機として体験されます。",
+        "source": "3.05#3",
+        "bg": "t15_jodi_arias_a3_08_abandonment",
+        "camera": "pan",
+        "dur_est": 9.31
+      },
+      {
+        "id": "TK3.01#6",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "彼らの内面世界は絶対的な二者択一へと分極化します：すなわち、完璧な救済者であるか、あるいは完全なる悪人であるかのどちらかです。",
+        "source": "3.05#5",
+        "bg": "t15_b67_borderline_splitting_black_w",
+        "camera": "still",
+        "dur_est": 10.47
+      },
+      {
+        "id": "TK3.01#7",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "独占的支配の幻想が崩壊したことで、「境界性の激怒（Borderline Rage）」という極端な破壊エネルギーが解き放たれました。",
+        "source": "3.05#10",
+        "bg": "t15_trauma_bonding_push_pull_tangle",
+        "camera": "push",
+        "dur_est": 10.64
+      },
+      {
+        "id": "TK3.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "境界性と自己愛の特質の結合は、彼女の中に世間の注目の中心であり続けたいという飽くなき渇望を生み出していました。",
+        "source": "3.11#1",
+        "bg": "t15_b63_cognitive_dissonance_scriptu",
+        "camera": "push",
+        "dur_est": 9.14
+      }
+    ]
+  },
+  "TK4": {
+    "title": "取調室の三面記事的茶番と全米中継法廷",
+    "theme": "中和の技術（自己正当化）と病的自己憐憫の仮面",
+    "hook": "取調室での逆立ち、二転三転する供述。法廷で見せた涙は真の悔悟か、それとも計算された演技か？",
+    "total_dur_est": 79.3,
+    "bgm": "bgm_violin_heart.mp3",
+    "sfx": [
+      "amb_wind_cold.wav（環境音）",
+      "fx_camera_flash_crowd.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK4.01#1",
+        "text": "最初の嘘：「事件当時はアリゾナにいなかった」",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK4.01#3",
+        "text": "覆面強盗2人組による襲撃という荒唐無稽な作り話",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK4.01#5",
+        "text": "取調室の監視カメラの前で見せた逆立ちと独唱の奇行",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK4.01#6",
+        "text": "2013年：全米が熱狂した生中継センセーション裁判",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK4.01#8",
+        "text": "仮面が剥がれ落ちた後の病的自己憐憫の涙",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK4.01#1",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "捜査官に対するJodi Ariasの最初の供述は、2008年4月以降アリゾナの地を踏んだことすらないという完全な否認でした。",
+        "source": "2.08#1",
+        "bg": "t15_b41_jodi_arias_a2_11_abandonment",
+        "camera": "pull",
+        "dur_est": 10.01
+      },
+      {
+        "id": "TK4.01#2",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "しかし洗濯機のメモリカードから復元された写真が眼前に突きつけられると、その虚偽は瞬く間に瓦解しました。",
+        "source": "2.08#2",
+        "bg": "t15_b26_darryl_brewer_garage_gas_can",
+        "camera": "still",
+        "dur_est": 8.37
+      },
+      {
+        "id": "TK4.01#3",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "彼女は仮面をかぶった2人組の暴漢が侵入して2人を制圧したという、荒唐無稽な筋書きへと即座に供述を変更したのです。",
+        "source": "2.08#3",
+        "bg": "t15_b17_interstate_highway_gas_stop_",
+        "camera": "push",
+        "dur_est": 9.19
+      },
+      {
+        "id": "TK4.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "司法手続きが進行する間、Jodi Ariasは捜査当局の前で公式供述を3度にわたって翻しました。",
+        "source": "4.07#1",
+        "bg": "t15_b18_jodi_arias_a4_09_interrogati",
+        "camera": "pan",
+        "dur_est": 7.2
+      },
+      {
+        "id": "TK4.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "アリゾナ訪問そのものを否定した最初の供述から、覆面の暴漢による襲撃説を経て、正当防衛を主張する最終供述へと至りました。",
+        "source": "4.07#2",
+        "bg": "t15_jodi_arias_a4_10_mesa",
+        "camera": "pull",
+        "dur_est": 9.04
+      },
+      {
+        "id": "TK4.01#6",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Esteban Flores刑事は粘り強い尋問を通じて、被告の供述が抱える致命的な矛盾を一つひとつ論破していきました。",
+        "source": "4.08#1",
+        "bg": "t15_jodi_arias_a4_12_desert",
+        "camera": "push",
+        "dur_est": 9.52
+      },
+      {
+        "id": "TK4.01#7",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "有罪の評決は、典型的な心理学的現象である「自己愛崩壊（Narcissistic Collapse）」を引き起こしました。",
+        "source": "4.11#1",
+        "bg": "t15_b30_jodi_arias_a4_09_interrogati",
+        "camera": "pan",
+        "dur_est": 9.8
+      },
+      {
+        "id": "TK4.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "証言台で彼女が流した涙の正体は、万能の仮面が剥ぎ取られたことによる「病的な自己憐憫」に過ぎず、奪われた命への真の悼みは完全に欠落していたのです。",
+        "source": "4.11#8",
+        "bg": "t15_b10_two_guilt_polarities_scales",
+        "camera": "push",
+        "dur_est": 11.96
+      }
+    ]
+  },
+  "TK5": {
+    "title": "被害者学と執着型関係の4つの危険信号",
+    "theme": "被害者学と破滅的な愛着関係から身を守る警告サイン",
+    "hook": "執着型パーソナリティの罠を見抜き、生命と尊厳を守る「4つの危険信号」。",
+    "total_dur_est": 70.9,
+    "bgm": "bgm_piano_warm.mp3",
+    "sfx": [
+      "amb_room_tone.wav（環境音）",
+      "fx_page_turn.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK5.01#1",
+        "text": "生き残るための4つの危険信号 · 恐怖の知性",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#3",
+        "text": "第1の警告：急激な理想化とカメレオン的同一化",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#5",
+        "text": "第2の警告：境界線の侵害と日常的な監視行動",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#7",
+        "text": "第3の警告：白黒思考と激しい感情のジェットコースター",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#8",
+        "text": "第4の警告：別れを告げられた際の脅迫と器物破損",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#9",
+        "text": "違和感を覚える直感こそ最大の自己防衛システムである",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK5.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "同様の悲劇が二度と繰り返されないよう、行動科学はこの事件から貴重な生存の知恵を抽出しました。",
+        "source": "5.06#1",
+        "bg": "t15_redflag2_frantic_efforts_avoid_abandonment",
+        "camera": "pan",
+        "dur_est": 7.05
+      },
+      {
+        "id": "TK5.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Gavin de Becker博士は名著『ギフト・オブ・フィアー（恐怖という贈り物）』において、直感的な警戒信号に耳を傾ける重要性を説きました。",
+        "source": "5.06#2",
+        "bg": "t15_desert_monument_dawn_freedom",
+        "camera": "pull",
+        "dur_est": 10.72
+      },
+      {
+        "id": "TK5.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "身を守るためにすべての人が心に刻むべき4大核心レッドフラグを整理して提示します。",
+        "source": "5.06#4",
+        "bg": "t15_travis_foundation_scholarship_plaque",
+        "camera": "push",
+        "dur_est": 6.13
+      },
+      {
+        "id": "TK5.01#4",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "第1のレッドフラグ：急速な理想化とカメレオン効果の結合です。",
+        "source": "5.07#1",
+        "bg": "t15_redflag1_unstable_intense_relationships",
+        "camera": "pan",
+        "dur_est": 4.99
+      },
+      {
+        "id": "TK5.01#5",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "出会って間もない相手があなたを唯一無二の完璧な存在として崇拝し、価値観や習慣をそのまま模倣し始めたなら強く警戒してください。",
+        "source": "5.07#2",
+        "bg": "t15_personal_boundary_stone_wall_garden",
+        "camera": "pull",
+        "dur_est": 10.3
+      },
+      {
+        "id": "TK5.01#6",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "第2のレッドフラグ：献身を装った個人的境界線の侵害と微細な統制です。",
+        "source": "5.07#4",
+        "bg": "t15_truth_shines_desert_highway_horizon",
+        "camera": "push",
+        "dur_est": 5.65
+      },
+      {
+        "id": "TK5.01#7",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "第3のレッドフラグ：白黒思考によるスプリッティングと極端な感情の起伏です。",
+        "source": "5.08#1",
+        "bg": "t15_redflag3_identity_disturbance_mirror",
+        "camera": "push",
+        "dur_est": 6.07
+      },
+      {
+        "id": "TK5.01#8",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "第4のレッドフラグ：別れに直面した際に露呈する報復の脅迫と器物損壊のエスカレーションです。",
+        "source": "5.08#3",
+        "bg": "t15_jodi_arias_a5_05_mirror",
+        "camera": "pull",
+        "dur_est": 7.38
+      },
+      {
+        "id": "TK5.01#9",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "内側から湧き上がる不安な直感を決して無視しないでください、それこそが生の授けてくれた最も尊い防衛機制だからです。",
+        "source": "5.10#3",
+        "bg": "t15_b54_jodi_arias_a5_08_arizona",
+        "camera": "still",
+        "dur_est": 8.58
+      }
+    ]
+  }
+}

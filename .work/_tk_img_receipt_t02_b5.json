@@ -1,0 +1,35 @@
+{
+ "code": 0,
+ "message": "ok",
+ "summary": "Batch processing completed: 6/6 succeeded",
+ "total_requested": 6,
+ "total_success": 6,
+ "total_failed": 0,
+ "success_items": [
+  {
+   "node_id": "465379283107997",
+   "file_name": "tk02_checkpoint.jpg"
+  },
+  {
+   "node_id": "465379130859633",
+   "file_name": "tk02_suv_stop.jpg"
+  },
+  {
+   "node_id": "465379130859628",
+   "file_name": "tk02_tire_track.jpg"
+  },
+  {
+   "node_id": "465379895001152",
+   "file_name": "tk02_siren_wall.jpg"
+  },
+  {
+   "node_id": "465379372851292",
+   "file_name": "tk02_two_drawers.jpg"
+  },
+  {
+   "node_id": "465379283108007",
+   "file_name": "tk02_two_masks.jpg"
+  }
+ ],
+ "failed_items": []
+}

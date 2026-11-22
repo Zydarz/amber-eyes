@@ -1,0 +1,35 @@
+{
+ "code": 0,
+ "message": "ok",
+ "summary": "Batch processing completed: 6/6 succeeded",
+ "total_requested": 6,
+ "total_success": 6,
+ "total_failed": 0,
+ "success_items": [
+  {
+   "node_id": "465380192723329",
+   "file_name": "tk02_command_chair.jpg"
+  },
+  {
+   "node_id": "465379372851306",
+   "file_name": "tk02_stairs_dark.jpg"
+  },
+  {
+   "node_id": "465379283108012",
+   "file_name": "tk02_hidden_drive.jpg"
+  },
+  {
+   "node_id": "465379895001171",
+   "file_name": "tk02_interrogation_early.jpg"
+  },
+  {
+   "node_id": "465380192723340",
+   "file_name": "tk02_head_down.jpg"
+  },
+  {
+   "node_id": "465379967558035",
+   "file_name": "tk02_courtroom.jpg"
+  }
+ ],
+ "failed_items": []
+}

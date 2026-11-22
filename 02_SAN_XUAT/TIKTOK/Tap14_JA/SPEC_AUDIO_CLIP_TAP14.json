@@ -1,0 +1,680 @@
+{
+  "TK1": {
+    "title": "夫に捧げた16年の献身とラ・ホヤの砂の城",
+    "theme": "サンクコスト効果と上流階級の威光の盲点",
+    "hook": "コーネル大とハーバード大の学費を16年稼ぎ続けた妻。夫が頂点に立った時、待っていた残酷な結末。",
+    "total_dur_est": 76.0,
+    "bgm": "bgm_cello_sad.mp3",
+    "sfx": [
+      "amb_wind_cold.wav（環境音）",
+      "fx_sewing_machine.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK1.01#1",
+        "text": "ベティ・ブロデリック事件簿 · サンディエゴ・ラホヤ",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK1.01#3",
+        "text": "16年間内職と育児で夫の勉学を支え続けた妻",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK1.01#5",
+        "text": "コーネル大医学士＆ハーバード大法学博士の栄誉",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK1.01#7",
+        "text": "豪邸ラホヤと弁護士会長の地位：年収数百億ドルの頂点",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK1.01#8",
+        "text": "サンクコストの罠と豪華な邸宅に走った最初の亀裂",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK1.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "夫が過酷な学業に専念できるよう、ベティは幼い子どもたちを育てながら一家の家計を一人で背負い続けました。",
+        "source": "1.04#3",
+        "bg": "t14_c04_betty_teaching_kindergarten_classroom",
+        "camera": "pull",
+        "dur_est": 8.1
+      },
+      {
+        "id": "TK1.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "彼女は保育園の教師からタッパーウェアの訪問販売、エイボンの化粧品外交員まで、泥臭い仕事を厭わず働き続けました。",
+        "source": "1.04#4",
+        "bg": "t14_tupperware_avon_sales_struggle",
+        "camera": "still",
+        "dur_est": 8.74
+      },
+      {
+        "id": "TK1.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "妻の16年間にわたる献身的な犠牲のおかげで、ダニエルはアメリカ国内最高峰とされる2つの名誉ある学位を相次いで取得しました。",
+        "source": "1.04#5",
+        "bg": "t14_early_struggles_sewing_machine",
+        "camera": "push",
+        "dur_est": 9.69
+      },
+      {
+        "id": "TK1.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "彼は名門コーネル大学で医学博士号を取得し、続いてハーバード・ロー・スクールで法務博士号を修めました。",
+        "source": "1.04#6",
+        "bg": "t14_c03_young_dan_med_books_studying",
+        "camera": "pan",
+        "dur_est": 7.94
+      },
+      {
+        "id": "TK1.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "医学と法学という稀有な二重の専門性は、ダニエル・ブロデリックがカリフォルニア州屈指の高額所得弁護士の仲間入りを果たす扉を開いたのです。",
+        "source": "1.04#7",
+        "bg": "t14_cornell_harvard_diplomas",
+        "camera": "pull",
+        "dur_est": 10.64
+      },
+      {
+        "id": "TK1.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "一家が風光明媚なラ・ホヤの豪邸に移り住むと、その暮らしは瞬く間に眩いばかりの富と贅沢に包まれました。",
+        "source": "1.06#1",
+        "bg": "t14_luxury_sedans_driveway",
+        "camera": "still",
+        "dur_est": 7.94
+      },
+      {
+        "id": "TK1.01#7",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "ダニエル・ブロデリックは著名な医療過誤訴訟弁護士として頭角を現し、サンディエゴ郡弁護士会長に選出され、年間数百万円の報酬を得るようになりました。",
+        "source": "1.06#2",
+        "bg": "t14_bar_association_president_office",
+        "camera": "push",
+        "dur_est": 11.44
+      },
+      {
+        "id": "TK1.01#8",
+        "role": "H",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.0,
+        "text": "しかし、名声と富が頂点に達したまさにその時、豪邸の内側に最初の破滅的な亀裂が走り始めました。",
+        "source": "1.06#3",
+        "bg": "t14_san_diego_bar_association_gala",
+        "camera": "pan",
+        "dur_est": 7.31
+      }
+    ]
+  },
+  "TK2": {
+    "title": "ガスライティングと認識の錨の破壊工作",
+    "theme": "現実感覚の操作（ガスライティング）と不可視の強迫的統制",
+    "hook": "明白な浮気を隠蔽し、疑惑を口にする妻を「精神病」と決めつける。ガスライティングの冷酷な罠。",
+    "total_dur_est": 81.5,
+    "bgm": "bgm_ambient_deep.mp3",
+    "sfx": [
+      "amb_room_tone.wav（環境音）",
+      "fx_clock_ticking.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK2.01#1",
+        "text": "1983年秋：21歳の若い女性秘書の採用",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK2.01#3",
+        "text": "断固とした否定と妻を「妄想狂」扱いする工作",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK2.01#5",
+        "text": "2年間に及ぶ二重現実の否定と心理的孤立",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK2.01#7",
+        "text": "自分の目と頭がおかしくなったと信じ込まされる恐怖",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK2.01#8",
+        "text": "不可視の監獄：強迫的統制が奪った精神の自由",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK2.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "1983年の秋、ダニエルは事務所の専属秘書兼パラリーガルとして、わずか21歳のリンダ・コルケナという若い女性を採用しました。",
+        "source": "1.06#4",
+        "bg": "t14_young_secretary_reception_desk",
+        "camera": "pull",
+        "dur_est": 9.85
+      },
+      {
+        "id": "TK2.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "ベティが不自然な関係について問いただした際、ダニエルは関係を激しく否定しただけでなく、巧妙な現実歪曲工作を開始しました。",
+        "source": "1.06#6",
+        "bg": "t14_gaslighting_accusations_living_room",
+        "camera": "push",
+        "dur_est": 9.53
+      },
+      {
+        "id": "TK2.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "彼は、ベティが被害妄想に陥ってありふれた職務上の付き合いを誇張しており、精神科の治療を受ける必要があると繰り返し非難したのです。",
+        "source": "1.06#7",
+        "bg": "t14_gaslighting_accusations_living_room",
+        "camera": "pan",
+        "dur_est": 10.17
+      },
+      {
+        "id": "TK2.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "行動心理学の視点から見れば、この「ガスライティング」と呼ばれる現実歪曲工作はベティの人格構造に致命的な打撃を与えました。",
+        "source": "1.09#1",
+        "bg": "t14_gaslighting_whispers_corridor",
+        "camera": "push",
+        "dur_est": 9.53
+      },
+      {
+        "id": "TK2.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "1983年から1985年初頭にかけての2年近く、ダニエル・ブロデリックは妻の前で徹底した事実の二重否定を維持し続けました。",
+        "source": "1.09#2",
+        "bg": "t14_silent_dinner_table_suspicion",
+        "camera": "pan",
+        "dur_est": 9.69
+      },
+      {
+        "id": "TK2.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "情報の遮断と発言権の剥奪は、一人の女性が現実と繋ぎ止められていた錨を完全に破壊してしまいました。",
+        "source": "1.09#4",
+        "bg": "t14_gaslighting_whispers_corridor",
+        "camera": "still",
+        "dur_est": 7.63
+      },
+      {
+        "id": "TK2.01#7",
+        "role": "H",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "自分の目が捉えた現実が偽りであり、自分の精神が狂っていると執拗に信じ込まされたとき、裏切りの苦痛は存在を揺るがす恐慌へと変貌します。",
+        "source": "1.09#5",
+        "bg": "t14_unanswered_rotary_phone",
+        "camera": "push",
+        "dur_est": 10.49
+      },
+      {
+        "id": "TK2.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "ベティ・ブロデリックの心理状態を読み解くには、まず「ガスライティング」がもたらす破壊的な打撃を分析しなければなりません。",
+        "source": "3.03#1",
+        "bg": "t14_coercive_control_invisible_cage",
+        "camera": "pull",
+        "dur_est": 10.44
+      }
+    ]
+  },
+  "TK3": {
+    "title": "非対称な法廷闘争と自己愛性憤怒のエスカレーション",
+    "theme": "心理的引き金と自己愛性憤怒の暴走軌道",
+    "hook": "最高峰の法律知識を武器に元妻の生活を兵粮攻めにする。破滅を決定づけた最後の引き金。",
+    "total_dur_est": 83.0,
+    "bgm": "bgm_piano_minimal.mp3",
+    "sfx": [
+      "amb_rain_night.wav（環境音）",
+      "fx_gavel_strike.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK3.01#1",
+        "text": "サンディエゴ史上最も過酷と呼ばれた5年間の泥沼離婚劇",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK3.01#3",
+        "text": "トップ弁護士の権力と法知識を総動員した徹底的包囲網",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK3.01#5",
+        "text": "接近禁止命令と留守電の暴言1回ごとに課された罰金",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK3.01#6",
+        "text": "4人の子どもの養育権を剥奪され完全孤立へ",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK3.01#8",
+        "text": "自己愛性憤怒と復讐の妄想への歯止めなき暴走",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK3.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "あらゆる合法的な手段が行き詰まりを見せる中で、ベティの心理状態は抑制不能な行動のエスカレーションへと突入していきました。",
+        "source": "2.04#1",
+        "bg": "t14_temporary_rental_isolation",
+        "camera": "pull",
+        "dur_est": 9.53
+      },
+      {
+        "id": "TK3.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "抑圧された自己愛性憤激は建設的な出口を見失い、極端な境界侵犯と物理的破壊行動として噴出し始めました。",
+        "source": "2.04#2",
+        "bg": "t14_boiling_rage_darkened_room",
+        "camera": "still",
+        "dur_est": 7.94
+      },
+      {
+        "id": "TK3.01#3",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "サンディエゴ郡の裁判記録は、ダニエル・ブロデリックが極めて冷静かつ徹底的な法的反撃で応戦した事実を物語っています。",
+        "source": "2.06#1",
+        "bg": "t14_crested_stationery_threatening_letters",
+        "camera": "pan",
+        "dur_est": 9.84
+      },
+      {
+        "id": "TK3.01#4",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "感情的な対立を和らげる人道的な歩み寄りを模索する代わりに、彼は元妻に対して厳格な接近禁止命令を次々と裁判所に申し立てました。",
+        "source": "2.06#2",
+        "bg": "t14_legal_brief_restraining_orders",
+        "camera": "pull",
+        "dur_est": 10.7
+      },
+      {
+        "id": "TK3.01#5",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "月によってはベティの生活費の全額が裁判所の制裁金によって相殺され、彼女を深刻な経済的困窮へと追い詰めました。",
+        "source": "2.06#4",
+        "bg": "t14_fine_deduction_ledger",
+        "camera": "push",
+        "dur_est": 9.32
+      },
+      {
+        "id": "TK3.01#6",
+        "role": "D",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "過剰な自己愛性損傷を抱えた人格にとって、その尊厳の象徴を奪い去られたことは、破滅的な引き金を引く号砲となったのです。",
+        "source": "2.06#7",
+        "bg": "t14_b2_cardboard_moving_boxes_empty_room",
+        "camera": "still",
+        "dur_est": 10.01
+      },
+      {
+        "id": "TK3.01#7",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "人格心理学の観点から見れば、ベティは境界性傾向を伴う脆弱自己愛（バルネラブル・ナルシシズム）の典型的な特徴を示していました。",
+        "source": "3.05#1",
+        "bg": "t14_vulnerable_narcissist_mask",
+        "camera": "still",
+        "dur_est": 10.79
+      },
+      {
+        "id": "TK3.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "ベティは自身の青春、労働、自尊心のすべてをダニエルの出世に投資し、夫の栄光を自身の唯一無二の自己概念へと同一化させました。",
+        "source": "3.05#3",
+        "bg": "t14_b3_shattered_hourglass_flowing_sand",
+        "camera": "pan",
+        "dur_est": 10.61
+      }
+    ]
+  },
+  "TK4": {
+    "title": "夜明けの5発の銃声と全米を二分した法廷",
+    "theme": "被害者意識の固定化と法廷で証言した娘の真実",
+    "hook": "1989年11月5日の夜明け、放たれた5発の銃声。被害者意識が引き起こした悲劇の結末。",
+    "total_dur_est": 76.6,
+    "bgm": "bgm_violin_heart.mp3",
+    "sfx": [
+      "amb_wind_cold.wav（環境音）",
+      "fx_door_creak_night.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK4.01#1",
+        "text": "1989年11月5日早朝 · ラホヤの高級住宅街マー通り",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK4.01#3",
+        "text": "元夫と再婚相手を奪った5発のリボルバーの銃声",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK4.01#4",
+        "text": "長女キムの法廷証言：引き裂かれた子どもたちの心",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK4.01#6",
+        "text": "盗み出された合鍵が暴いた完全な計画的犯行",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK4.01#8",
+        "text": "禁錮32年の終身刑：最後まで消えなかった自己正当化",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK4.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "凶行に及んだ後、ベティは市外へ逃亡することも、使用した凶器を隠滅しようとすることもありませんでした。",
+        "source": "4.08#1",
+        "bg": "t14_b4_police_station_lobby_glass_counter",
+        "camera": "push",
+        "dur_est": 7.94
+      },
+      {
+        "id": "TK4.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "彼女は親友ダイアン・ブラックの自宅へ車を走らせて動転した様子で犯行を告白し、その日の午後に弁護士を通じて警察に出頭しました。",
+        "source": "4.08#2",
+        "bg": "t14_surrender_police_headquarters",
+        "camera": "pan",
+        "dur_est": 9.85
+      },
+      {
+        "id": "TK4.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "この二重の惨劇は瞬く間に前代未聞のメディア狂乱を引き起こし、全米の主要紙の第1面を連日独占しました。",
+        "source": "4.08#3",
+        "bg": "t14_b4_bank_of_tv_news_cameras_tripods",
+        "camera": "pull",
+        "dur_est": 7.94
+      },
+      {
+        "id": "TK4.01#4",
+        "role": "N2",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "実の母親に不利な証言をするために証言台に立たされた子どもたちの張り裂けるような苦しみを想像してください。",
+        "source": "4.09#1",
+        "bg": "t14_b4_oak_witness_box_empty_microphone",
+        "camera": "pan",
+        "dur_est": 7.94
+      },
+      {
+        "id": "TK4.01#5",
+        "role": "N2",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "私は陪審員の前に立ち、母の目をまっすぐ見つめながら、彼女が何年間にもわたって私たちに吹き込んできた恐ろしい脅迫の言葉を証言しなければなりませんでした。",
+        "source": "4.09#2",
+        "bg": "t14_daughter_kim_witness_stand",
+        "camera": "pull",
+        "dur_est": 11.45
+      },
+      {
+        "id": "TK4.01#6",
+        "role": "N2",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "しかし最も深い心の傷は、母が犯行現場に侵入するために使った鍵が、私のバッグから盗み出された合鍵だったという事実でした。",
+        "source": "4.09#4",
+        "bg": "t14_stolen_key_unlocked_door",
+        "camera": "push",
+        "dur_est": 9.01
+      },
+      {
+        "id": "TK4.01#7",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "裁判を通じたベティ・ブロデリックの態度は、病的な自己愛者に特有の「自己憐憫」の教科書通りの実例を示していました。",
+        "source": "4.11#1",
+        "bg": "t14_b4_handprint_fogged_prison_glass",
+        "camera": "push",
+        "dur_est": 9.74
+      },
+      {
+        "id": "TK4.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "彼女が流したすべての涙は、自身の不遇な運命と失われた名声に対する悔しさにのみ向けられていたのです。",
+        "source": "4.11#3",
+        "bg": "t14_b4_handprint_fogged_prison_glass",
+        "camera": "pull",
+        "dur_est": 8.53
+      }
+    ]
+  },
+  "TK5": {
+    "title": "被害者学と結婚破綻を生き抜く教訓",
+    "theme": "被害者学と有毒な関係から命を守る危険信号",
+    "hook": "心理的虐待を見抜き、泥沼の憎悪から命と尊厳を守る「4つの教訓」。",
+    "total_dur_est": 67.2,
+    "bgm": "bgm_piano_warm.mp3",
+    "sfx": [
+      "amb_room_tone.wav（環境音）",
+      "fx_page_turn.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK5.01#1",
+        "text": "結婚の破綻から生き残るための4つの教訓",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#3",
+        "text": "教訓1：初期段階のガスライティングを見抜く",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#4",
+        "text": "教訓2：社会的肩書や富を人間性の保証と錯覚しない",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#5",
+        "text": "教訓3：経済的・法的・精神的自立を決して手放さない",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#6",
+        "text": "教訓4：憎悪を手放し自己を解放する勇気を持つ",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#7",
+        "text": "最大の復讐とは、自らを癒やし平穏に生き抜くこと",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK5.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "ベティ・ブロデリック事件の記録を閉じるにあたり、アンバー・アイズは困難な人間関係に直面する皆様に生存の知恵と人生の哲学をお届けします。",
+        "source": "5.05#1",
+        "bg": "t14_four_redflags_overview_banner_t14",
+        "camera": "still",
+        "dur_est": 10.64
+      },
+      {
+        "id": "TK5.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "第1の教訓は、男女関係の初期の境界侵犯の段階から、ガスライティングと呼ばれる現実歪曲工作にいち早く気づくことです。",
+        "source": "5.05#3",
+        "bg": "t14_redflag2_systematic_reality_denial",
+        "camera": "pan",
+        "dur_est": 9.06
+      },
+      {
+        "id": "TK5.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "相手があなたの目の前にある現実を否定し、正当な感情を退け、精神の異常を信じ込ませようとするとき、それは明白な心理的虐待です。",
+        "source": "5.05#4",
+        "bg": "t14_b5_four_pinned_polaroid_dossier_board",
+        "camera": "pull",
+        "dur_est": 9.85
+      },
+      {
+        "id": "TK5.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "第2の教訓は、パートナーを評価する際に「ハロー効果」や社会的地位に惑わされない冷静な識別力を持つことです。",
+        "source": "5.05#6",
+        "bg": "t14_california_no_fault_divorce_papers",
+        "camera": "push",
+        "dur_est": 8.42
+      },
+      {
+        "id": "TK5.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "自立した経済基盤と精神的な自律を常に保ち、自身の全アイデンティティを他者の成功に預けてはなりません。",
+        "source": "5.05#8",
+        "bg": "t14_b5_leather_bound_journal_fountain_pen",
+        "camera": "pull",
+        "dur_est": 7.94
+      },
+      {
+        "id": "TK5.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "第3の、そして最も重要な原則は、関係が終焉を迎えたとき、自身の魂を解放するために怨恨を手放す勇気を持つことです。",
+        "source": "5.05#9",
+        "bg": "t14_toxic_ties_severed_chain",
+        "camera": "still",
+        "dur_est": 8.9
+      },
+      {
+        "id": "TK5.01#7",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "真の勝利とは、傷ついた灰の中から力強く立ち上がり、内なる痛みを癒し、自由で幸福に満ちた新たな人生を歩み出すことにあります。",
+        "source": "5.05#15",
+        "bg": "t14_b5_stone_bench_blooming_cliff_garden",
+        "camera": "pan",
+        "dur_est": 9.69
+      }
+    ]
+  }
+}

@@ -1,0 +1,962 @@
+{
+  "_readme": "SPEC_AUDIO_CLIP_TAP09_JA.json — đặc tả âm thanh để SINH WAV cho 5 clip TikTok của Tập 09 (JA). Tương thích engine Higgs Audio v3 + VoxCPM2 reference voices. Đo tỉ lệ đọc thật trên timeline_s_JA_t09.json.",
+  "_episode": "09",
+  "_title": "自我消滅の技術とチャールズ・マンソン事件",
+  "_measured_rates": {
+    "H": 0.1412,
+    "N1": 0.1541,
+    "D": 0.1581,
+    "C": 0.1588,
+    "N2": 0.1924
+  },
+  "_clips_summary": {
+    "TK1": {
+      "name": "サマー・オブ・ラブの終焉とロサンゼルス集団被害妄想",
+      "lines_count": 10,
+      "est_dur_s": 77.1,
+      "signs": [
+        1,
+        9
+      ]
+    },
+    "TK2": {
+      "name": "行動のエスカレーションと戦慄の夜這い訓練「クリーピー・クロウリング」",
+      "lines_count": 10,
+      "est_dur_s": 86.7,
+      "signs": [
+        6,
+        8
+      ]
+    },
+    "TK3": {
+      "name": "自我消滅の技術と3段階マインドコントロールの罠",
+      "lines_count": 10,
+      "est_dur_s": 89.9,
+      "signs": [
+        2,
+        5
+      ]
+    },
+    "TK4": {
+      "name": "洗脳を破った証言と首謀者処罰の歴史的判例",
+      "lines_count": 10,
+      "est_dur_s": 89.6,
+      "signs": [
+        3,
+        4
+      ]
+    },
+    "TK5": {
+      "name": "悪質な心理操作を見破る4つの生存警告サイン",
+      "lines_count": 10,
+      "est_dur_s": 65.7,
+      "signs": [
+        10,
+        7
+      ]
+    }
+  },
+  "clips": {
+    "TK1": {
+      "id": "TK1",
+      "title": "サマー・オブ・ラブの終焉とロサンゼルス集団被害妄想",
+      "theme": "社会的衝撃とヒッピー文化の集団的心理盲点",
+      "psychological_signs": [
+        1,
+        9
+      ],
+      "total_est_duration_s": 77.1,
+      "bgm": "bgm_desert_ambient.mp3",
+      "bgm_desc": "第1幕 — 本編BGM: bgm_desert_ambient.mp3",
+      "sfx": [
+        "amb_wind_desert.wav（環境音）",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK1.01#1",
+          "text": "1969年サマー・オブ・ラブの戦慄の終焉",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK1.01#2",
+          "text": "シエロ・ドライブ10050番地：未曾有の惨劇",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#4",
+          "text": "ロサンゼルス全土を麻痺させた集団パニック",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#5",
+          "text": "金品には一切手を触れぬ冷酷な破壊",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#7",
+          "text": "現場に残された血文字「PIG」「HEALTER SKELTER」",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#9",
+          "text": "狂信的遠隔指令による冷酷無比な処刑劇",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK1.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_withered_flower_on_asphalt",
+          "motion": "pull",
+          "text": "その純真でロマンチックな夢は、ある運命の夏の夜、無残にも砕け散りました。",
+          "est_dur_s": 5.1,
+          "src_script": "Hook mở đầu — tạo tò mò",
+          "characters_spoken": 36
+        },
+        {
+          "clip_line_id": "TK1.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_cielo_drive_estate_night",
+          "motion": "push",
+          "text": "1969年8月8日の夜から9日の未明にかけて、10050 Cielo Driveに建つ豪華な邸宅に想像を絶する暗黒が襲いかかりました。",
+          "est_dur_s": 9.2,
+          "src_script": "1.04#2",
+          "characters_spoken": 65
+        },
+        {
+          "clip_line_id": "TK1.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_cielo_drive_living_room_somber",
+          "motion": "still",
+          "text": "被害者の中には、妊娠ほぼ9ヶ月だった監督の若き妻であり、美しい女優のSharon Tateが含まれていました。",
+          "est_dur_s": 7.6,
+          "src_script": "1.04#6",
+          "characters_spoken": 54
+        },
+        {
+          "clip_line_id": "TK1.01#4",
+          "role": "N1",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_retro_radio_broadcast_table",
+          "motion": "pan",
+          "text": "あの朝、ラジオがSharon Tateの邸宅で起きた惨劇を繰り返し報じたとき、ロサンゼルスの街全体が恐怖で麻痺してしまいました。",
+          "est_dur_s": 9.7,
+          "src_script": "1.07#1",
+          "characters_spoken": 63
+        },
+        {
+          "clip_line_id": "TK1.01#5",
+          "role": "N1",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_intact_valuables_diorama",
+          "motion": "pull",
+          "text": "最も恐ろしかったのは、侵入者たちの動機が金品や高価な宝飾品を奪うことではなかったという点です。",
+          "est_dur_s": 7.2,
+          "src_script": "1.07#4",
+          "characters_spoken": 47
+        },
+        {
+          "clip_line_id": "TK1.01#6",
+          "role": "N1",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_withered_flower_on_asphalt",
+          "motion": "still",
+          "text": "私たちの『愛の夏』は、まさにあの夜に息絶えたのです。",
+          "est_dur_s": 4.0,
+          "src_script": "1.07#7",
+          "characters_spoken": 26
+        },
+        {
+          "clip_line_id": "TK1.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_bloody_letters_forensic_wall",
+          "motion": "push",
+          "text": "しかし壁やドアには、犯行グループによって『PIG』、『RISE』、そしてスペルを誤った一文字『HEALTER SKELTER』という不気味な言葉が殴り書きされていたのです。",
+          "est_dur_s": 12.0,
+          "src_script": "1.09#3",
+          "characters_spoken": 85
+        },
+        {
+          "clip_line_id": "TK1.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_invisible_puppet_master_shadow",
+          "motion": "pan",
+          "text": "彼らは影の黒幕によって遠隔操作された、不気味な劇場の台本を実行しているかのように見えたのです。",
+          "est_dur_s": 7.4,
+          "src_script": "1.10#6",
+          "characters_spoken": 47
+        },
+        {
+          "clip_line_id": "TK1.01#9",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t9_manson_shadow_campfire_desert",
+          "motion": "pull",
+          "text": "狂信的な命令を冷徹に実行した結果だったのです。",
+          "est_dur_s": 3.6,
+          "src_script": "1.10#8",
+          "characters_spoken": 23
+        },
+        {
+          "clip_line_id": "TK1.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t9_amber_eyes_closing_dossier",
+          "motion": "still",
+          "text": "Amber Eyes 第9話。事件の完全版はプロフィールのリンクからご覧いただけます。",
+          "est_dur_s": 5.8,
+          "src_script": "CTA — kêu gọi xem tập đầy đủ",
+          "characters_spoken": 41
+        }
+      ]
+    },
+    "TK2": {
+      "id": "TK2",
+      "title": "行動のエスカレーションと戦慄の夜這い訓練「クリーピー・クロウリング」",
+      "theme": "暴力的支配のエスカレーション軌道と境界侵犯訓練",
+      "psychological_signs": [
+        6,
+        8
+      ],
+      "total_est_duration_s": 86.7,
+      "bgm": "bgm_creepy_crawl.mp3",
+      "bgm_desc": "第2幕 — 本編BGM: bgm_creepy_crawl.mp3",
+      "sfx": [
+        "amb_desert_wind.wav（環境音）",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK2.01#1",
+          "text": "心理的境界侵犯訓練「クリーピー・クロウリング」",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK2.01#2",
+          "text": "小柄だが催眠術のような眼光を持つ男",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#4",
+          "text": "放浪の導師という「ハロー効果」の悪用",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#6",
+          "text": "深夜の不法侵入による全能感の疑似体験",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#8",
+          "text": "悪事の許容閾値を一段ずつ麻痺させる手法",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#9",
+          "text": "肥大化した妄想飢餓が引き起こした象徴的虐殺",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK2.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_confiscated_clocks_broken_mirror",
+          "motion": "pull",
+          "text": "真夜中に他人の家に忍び込み、金品は盗まず家具だけを配置換えする。",
+          "est_dur_s": 4.5,
+          "src_script": "Hook mở đầu — tạo tò mò",
+          "characters_spoken": 32
+        },
+        {
+          "clip_line_id": "TK2.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_manson_shadow_campfire_desert",
+          "motion": "push",
+          "text": "彼は小柄な体躯でありながら、まるで催眠術のように鋭く冷徹な眼光を持つ34歳の男でした。",
+          "est_dur_s": 6.8,
+          "src_script": "2.04#3",
+          "characters_spoken": 43
+        },
+        {
+          "clip_line_id": "TK2.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_spahn_ranch_dilapidated_porch",
+          "motion": "still",
+          "text": "少年院や連邦刑務所の冷たい格子の中で、人生の半分以上を過ごしてきた根っからの常習犯罪者だったのです。",
+          "est_dur_s": 7.9,
+          "src_script": "2.04#5",
+          "characters_spoken": 50
+        },
+        {
+          "clip_line_id": "TK2.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_haight_ashbury_psychedelic_street",
+          "motion": "pan",
+          "text": "自由な愛と若者の純真さを賛美する反体制文化を目の当たりにしたMansonは、流浪の導師という『ハロー効果』を最大限に利用して捕食者の本性を覆い隠しました。",
+          "est_dur_s": 10.9,
+          "src_script": "2.05#2",
+          "characters_spoken": 77
+        },
+        {
+          "clip_line_id": "TK2.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_apocalyptic_desert_hideout",
+          "motion": "pull",
+          "text": "そこで彼は、『Helter Skelter』と名付けた狂気じみた終末論を、彼らの心へと植え付け始めたのです。",
+          "est_dur_s": 7.5,
+          "src_script": "2.05#5",
+          "characters_spoken": 53
+        },
+        {
+          "clip_line_id": "TK2.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_midnight_convoy_old_ford",
+          "motion": "still",
+          "text": "第3段階: 夜間侵入ゲーム『Creepy Crawling』。",
+          "est_dur_s": 4.6,
+          "src_script": "2.06#6",
+          "characters_spoken": 29
+        },
+        {
+          "clip_line_id": "TK2.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_confiscated_clocks_broken_mirror",
+          "motion": "push",
+          "text": "Mansonは夜中に信者たちを率いて民家に忍び込ませ、物品を盗むのではなく家具の配置をずらすことで、全能感と不可視の支配力を実験させました。",
+          "est_dur_s": 11.1,
+          "src_script": "2.06#7",
+          "characters_spoken": 70
+        },
+        {
+          "clip_line_id": "TK2.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_unfreezing_love_bombing_circle",
+          "motion": "pan",
+          "text": "罰せられることのない個人の領域への侵入を重ねるたびに、信者たちの脳内では悪事への許容閾値が一段ずつ引き上げられていったのです。",
+          "est_dur_s": 10.0,
+          "src_script": "2.06#8",
+          "characters_spoken": 63
+        },
+        {
+          "clip_line_id": "TK2.01#9",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t9_cielo_drive_road_sign_shadow",
+          "motion": "pull",
+          "text": "このエスカレーションは、最初の境界侵犯が放置されたとき、飢えた暗黒の妄想が現実世界においてさらなる破滅を貪り求めるようになるという心理的法則を示しています。",
+          "est_dur_s": 12.3,
+          "src_script": "2.06#13",
+          "characters_spoken": 78
+        },
+        {
+          "clip_line_id": "TK2.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t9_amber_eyes_closing_dossier",
+          "motion": "still",
+          "text": "Amber Eyes 第9話。事件の完全版はプロフィールのリンクからご覧いただけます。",
+          "est_dur_s": 5.8,
+          "src_script": "CTA — kêu gọi xem tập đầy đủ",
+          "characters_spoken": 41
+        }
+      ]
+    },
+    "TK3": {
+      "id": "TK3",
+      "title": "自我消滅の技術と3段階マインドコントロールの罠",
+      "theme": "クルト・レヴィンの3段階洗脳モデルと人格解体技術",
+      "psychological_signs": [
+        2,
+        5
+      ],
+      "total_est_duration_s": 89.9,
+      "bgm": "bgm_acid_drone.mp3",
+      "bgm_desc": "第3幕 — 本編BGM: bgm_acid_drone.mp3",
+      "sfx": [
+        "amb_desert_night.wav（環境音）",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK3.01#1",
+          "text": "良家の子女が無感情な殺人兵器に堕ちた逆説",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK3.01#3",
+          "text": "教養ある中流家庭出身の若者たち",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#4",
+          "text": "クルト・レヴィンの3段階認知的変容モデル",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#6",
+          "text": "防壁を溶かす「ラブ・ボミング（愛情の絨毯爆撃）」",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#8",
+          "text": "親族の遮断と偽名の付与：過去の自己の完全消去",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK3.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_yearbook_photos_shadow",
+          "motion": "pull",
+          "text": "教会の聖歌隊員、模範的な高校の元ミス。なぜ彼女らは冷酷な殺人鬼と化したのか？",
+          "est_dur_s": 5.4,
+          "src_script": "Hook mở đầu — tạo tò mò",
+          "characters_spoken": 38
+        },
+        {
+          "clip_line_id": "TK3.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_runaway_teenager_bus_stop",
+          "motion": "still",
+          "text": "彼に同行していたのは、まともな中流家庭で育った若い女性たちでした。",
+          "est_dur_s": 4.7,
+          "src_script": "3.02#3",
+          "characters_spoken": 33
+        },
+        {
+          "clip_line_id": "TK3.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_yearbook_photos_shadow",
+          "motion": "push",
+          "text": "Susan Atkinsは教会の聖歌隊で歌い、Patricia Krenwinkelは温厚で知られ、Leslie Van Houtenは高校の元ホームカミングプリンセスでした。",
+          "est_dur_s": 11.9,
+          "src_script": "3.02#4",
+          "characters_spoken": 84
+        },
+        {
+          "clip_line_id": "TK3.01#4",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_kurt_lewin_three_stages_diagram",
+          "motion": "pan",
+          "text": "この現象を解明するには、心理学者Kurt Lewinが提唱し、後にEdgar Schein教授がマインドコントロールの解明に応用した認知変化の3段階モデルを用いる必要があります。",
+          "est_dur_s": 13.8,
+          "src_script": "3.03#1",
+          "characters_spoken": 87
+        },
+        {
+          "clip_line_id": "TK3.01#5",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_kurt_lewin_three_stages_diagram",
+          "motion": "still",
+          "text": "すなわち、自我の解凍（Unfreezing）、認知的変革（Changing）、そして行動の再凍結（Refreezing）です。",
+          "est_dur_s": 10.0,
+          "src_script": "3.03#2",
+          "characters_spoken": 63
+        },
+        {
+          "clip_line_id": "TK3.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_unfreezing_love_bombing_circle",
+          "motion": "pull",
+          "text": "新しい若者がSpahn Ranchに足を踏み入れると、Mansonは即座に『愛の爆撃（Love Bombing）』戦術を展開しました。",
+          "est_dur_s": 9.2,
+          "src_script": "3.05#2",
+          "characters_spoken": 65
+        },
+        {
+          "clip_line_id": "TK3.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_two_faced_benevolent_mask",
+          "motion": "push",
+          "text": "彼は彼らを抱きしめ、瞳をじっと見つめ、完全無欠な存在であると囁きかけました。",
+          "est_dur_s": 5.4,
+          "src_script": "3.05#3",
+          "characters_spoken": 38
+        },
+        {
+          "clip_line_id": "TK3.01#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_burning_id_cards_ashes",
+          "motion": "pan",
+          "text": "Mansonは信者たちに対し、所持金を捨て、身分証明書を手放し、両親との連絡を完全に断ち切るよう要求しました。",
+          "est_dur_s": 8.7,
+          "src_script": "3.06#2",
+          "characters_spoken": 55
+        },
+        {
+          "clip_line_id": "TK3.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_vacant_eyes_doll_shadow",
+          "motion": "still",
+          "text": "彼らの本名を奪い、Sadie、Katie、Luluといった奇妙な偽名を与えることで、過去のアイデンティティを消去したのです。",
+          "est_dur_s": 9.8,
+          "src_script": "3.06#3",
+          "characters_spoken": 62
+        },
+        {
+          "clip_line_id": "TK3.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t9_amber_eyes_closing_dossier",
+          "motion": "still",
+          "text": "Amber Eyes 第9話。事件の完全版はプロフィールのリンクからご覧いただけます。",
+          "est_dur_s": 5.8,
+          "src_script": "CTA — kêu gọi xem tập đầy đủ",
+          "characters_spoken": 41
+        }
+      ]
+    },
+    "TK4": {
+      "id": "TK4",
+      "title": "洗脳を破った証言と首謀者処罰の歴史的判例",
+      "theme": "遠隔心理操作に対する首謀者責任理論と母性の目覚め",
+      "psychological_signs": [
+        3,
+        4
+      ],
+      "total_est_duration_s": 89.6,
+      "bgm": "bgm_courtroom_tension.mp3",
+      "bgm_desc": "第4幕 — 本編BGM: bgm_courtroom_tension.mp3",
+      "sfx": [
+        "amb_courtroom.wav（環境音）",
+        "fx_gavel_triple.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK4.01#1",
+          "text": "首謀者の刑事責任を確立した歴史的判例",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK4.01#2",
+          "text": "暴力を拒み脱出した重要証人リンダ・カサビアン",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#3",
+          "text": "法廷でマンソンと対峙した瞬間の悪寒",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#5",
+          "text": "催眠的悪夢を打ち破った母性本能と脱出",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#7",
+          "text": "共謀共同正犯理論：指令者は直接実行犯と同罪",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#9",
+          "text": "生涯悔悟することなき悪性ナルシシズムの末路",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK4.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_mastermind_conspiracy_law_book",
+          "motion": "pull",
+          "text": "凶器に指一本触れずとも、首謀者に下された死刑判決。",
+          "est_dur_s": 3.5,
+          "src_script": "Hook mở đầu — tạo tò mò",
+          "characters_spoken": 25
+        },
+        {
+          "clip_line_id": "TK4.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_linda_kasabian_witness_dossier",
+          "motion": "still",
+          "text": "その人物こそが、当時20歳の若い母親だったLinda Kasabianでした。",
+          "est_dur_s": 5.4,
+          "src_script": "4.04#2",
+          "characters_spoken": 38
+        },
+        {
+          "clip_line_id": "TK4.01#3",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_courtroom_gavel_bench",
+          "motion": "push",
+          "text": "証言台に立ち、Charles Mansonの目を真正面から見つめたとき、背筋を凍りつかせるような悪寒が走りました。",
+          "est_dur_s": 10.8,
+          "src_script": "4.05#1",
+          "characters_spoken": 56
+        },
+        {
+          "clip_line_id": "TK4.01#4",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_vacant_eyes_doll_shadow",
+          "motion": "still",
+          "text": "Spahn Ranchで共に生活していた友人たちは、今や糸の切れた操り人形のように空虚な眼差しでそこに座っていました。",
+          "est_dur_s": 11.2,
+          "src_script": "4.05#2",
+          "characters_spoken": 58
+        },
+        {
+          "clip_line_id": "TK4.01#5",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_cielo_drive_front_gate_fog",
+          "motion": "pan",
+          "text": "Cielo Driveの運命の夜、門の外で立ち尽くし暗闇に響く悲鳴を耳にした瞬間、私の中で何かが砕け散りました。",
+          "est_dur_s": 10.6,
+          "src_script": "4.05#5",
+          "characters_spoken": 55
+        },
+        {
+          "clip_line_id": "TK4.01#6",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_kasabian_escape_night_highway",
+          "motion": "pull",
+          "text": "我が子を失う恐怖と惨劇への激しい嫌悪感が、私を悪夢から呼び覚まし、夜の砂漠へと娘を抱えて逃亡させたのです。",
+          "est_dur_s": 10.2,
+          "src_script": "4.05#7",
+          "characters_spoken": 53
+        },
+        {
+          "clip_line_id": "TK4.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_mastermind_conspiracy_law_book",
+          "motion": "still",
+          "text": "それこそが、共謀および代位責任の法理（Conspiracy and Vicarious Liability）でした。",
+          "est_dur_s": 8.7,
+          "src_script": "4.08#6",
+          "characters_spoken": 55
+        },
+        {
+          "clip_line_id": "TK4.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_prosecutor_desk_evidence_files",
+          "motion": "push",
+          "text": "直接手を下さずとも、すべての蛮行は彼の絶対的な命令から生み出されたものだったのです。",
+          "est_dur_s": 6.6,
+          "src_script": "4.08#8",
+          "characters_spoken": 42
+        },
+        {
+          "clip_line_id": "TK4.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_corcoran_state_prison_watchtower",
+          "motion": "pan",
+          "text": "対照的に、首謀者Charles Mansonは生涯にわたり一度たりとも真の悔恨を示すことはなく、悪性自己愛の牢獄の中で死ぬまで社会の犠牲者を演じ続けました。",
+          "est_dur_s": 12.2,
+          "src_script": "4.09#9",
+          "characters_spoken": 77
+        },
+        {
+          "clip_line_id": "TK4.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t9_amber_eyes_closing_dossier",
+          "motion": "still",
+          "text": "Amber Eyes 第9話。事件の完全版はプロフィールのリンクからご覧いただけます。",
+          "est_dur_s": 5.8,
+          "src_script": "CTA — kêu gọi xem tập đầy đủ",
+          "characters_spoken": 41
+        }
+      ]
+    },
+    "TK5": {
+      "id": "TK5",
+      "title": "悪質な心理操作を見破る4つの生存警告サイン",
+      "theme": "被害者学と直感を信じる4つの生存警告サイン",
+      "psychological_signs": [
+        10,
+        7
+      ],
+      "total_est_duration_s": 65.7,
+      "bgm": "bgm_warm_reflection.mp3",
+      "bgm_desc": "第5幕 — 本編BGM: bgm_warm_reflection.mp3",
+      "sfx": [
+        "amb_warm_room.wav（環境音）",
+        "fx_paper_folder.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK5.01#1",
+          "text": "心理操作から身を守る4つの生存警告サイン",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK5.01#2",
+          "text": "第1の警告：過剰な賞賛と急速な親密化要求",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#4",
+          "text": "第2の警告：家族からの孤立化と財産の差し出し",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#6",
+          "text": "第3の警告：外部を敵視する二元論的思考の強制",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#7",
+          "text": "第4の警告：自己の良心を他者に絶対に委ねない",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#9",
+          "text": "かすかな不安と直感こそが命を守る進化のギフト",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK5.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_two_faced_benevolent_mask",
+          "motion": "pull",
+          "text": "心理的捕食者は、決して悪魔の角を生やして現れることはない。",
+          "est_dur_s": 4.1,
+          "src_script": "Hook mở đầu — tạo tò mò",
+          "characters_spoken": 29
+        },
+        {
+          "clip_line_id": "TK5.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.4,
+          "bg": "t9_redflag1_love_bombing_trap",
+          "motion": "still",
+          "text": "レッドフラッグ1: 過剰な愛の爆撃（Love Bombing）への警戒。",
+          "est_dur_s": 4.8,
+          "src_script": "5.07#2",
+          "characters_spoken": 34
+        },
+        {
+          "clip_line_id": "TK5.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_redflag1_love_bombing_trap",
+          "motion": "pan",
+          "text": "出会った直後からあなたを過度に絶賛し、急速な親密さを強要してくる個人や集団は、あなたの警戒本能を麻痺させようとしています。",
+          "est_dur_s": 8.6,
+          "src_script": "5.07#3",
+          "characters_spoken": 61
+        },
+        {
+          "clip_line_id": "TK5.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.4,
+          "bg": "t9_redflag2_severed_family_photos",
+          "motion": "pull",
+          "text": "レッドフラッグ2: 社会的孤立と境界線の剥奪。",
+          "est_dur_s": 3.1,
+          "src_script": "5.07#4",
+          "characters_spoken": 22
+        },
+        {
+          "clip_line_id": "TK5.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_redflag2_severed_family_photos",
+          "motion": "still",
+          "text": "家族との関係を絶ち、友人を捨て、アイデンティティを変え、献身の証明として財産を差し出すよう要求されたなら、直ちにその場から立ち去ってください。",
+          "est_dur_s": 10.0,
+          "src_script": "5.07#5",
+          "characters_spoken": 71
+        },
+        {
+          "clip_line_id": "TK5.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.4,
+          "bg": "t9_redflag3_fortress_paranoia_wall",
+          "motion": "push",
+          "text": "レッドフラッグ3: 敵対的な二元論的思考。",
+          "est_dur_s": 2.8,
+          "src_script": "5.07#6",
+          "characters_spoken": 20
+        },
+        {
+          "clip_line_id": "TK5.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_redflag3_fortress_paranoia_wall",
+          "motion": "pan",
+          "text": "有害な組織は常に外部の世界への恐怖を煽り立て、自らこそが唯一の安全な避難所であると信じ込ませることで、あなたの認知を集団の檻に閉じ込めます。",
+          "est_dur_s": 9.9,
+          "src_script": "5.07#7",
+          "characters_spoken": 70
+        },
+        {
+          "clip_line_id": "TK5.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.4,
+          "bg": "t9_redflag4_sacred_conscience_compass",
+          "motion": "still",
+          "text": "レッドフラッグ4: 自身の良心を他者に委ねてはならない。",
+          "est_dur_s": 3.8,
+          "src_script": "5.07#8",
+          "characters_spoken": 27
+        },
+        {
+          "clip_line_id": "TK5.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_inverted_cross_moral_confusion",
+          "motion": "push",
+          "text": "自称指導者が崇高な大義を名目に、法律や道徳的良心に反する行為を求めてきたなら、それは破滅へと続く最初の一歩に他なりません。",
+          "est_dur_s": 8.6,
+          "src_script": "5.07#9",
+          "characters_spoken": 61
+        },
+        {
+          "clip_line_id": "TK5.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t9_amber_eyes_closing_dossier",
+          "motion": "still",
+          "text": "Amber Eyes 第9話。事件の完全版はプロフィールのリンクからご覧いただけます。",
+          "est_dur_s": 5.8,
+          "src_script": "CTA — kêu gọi xem tập đầy đủ",
+          "characters_spoken": 41
+        }
+      ]
+    }
+  },
+  "_language": "JA"
+}

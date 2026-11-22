@@ -13,6 +13,7 @@
 | Q2 | Ngôn ngữ | **Tiếng Việt**, 1 tài khoản `@ambereyes` |
 | Q3 | Mục tiêu | **Kéo người xem về YouTube** (tăng watch hours) — không kỳ vọng doanh thu trực tiếp trên TikTok |
 | Q4 | Cách đăng | **Đăng tay qua app** — chưa dựng API tự động |
+| Q5 | **Hình clip KHÔNG chèn chữ** (người dùng chốt 20/11/2026) | Mọi ngôn ngữ (VN/EN/JA): chỉ ảnh nền gốc `tk02_*` + camera still/push/pull/pan + audio master. **Không** hook, thẻ overlay, phụ đề burn-in, logo. Thay cho bố cục chữ ở bước 5 và T9/T14 của mục 4 (áp dụng từ Tập 02). Script: `.work/_build_tk_tap02_video_notext.py <VN\|EN\|JA>` → `TKn_video.mp4` |
 
 **Lý do Q3 (điểm quan trọng nhất của cả kế hoạch):** TikTok **Creator Rewards Program** chỉ mở ở 8 nước — US, UK, Germany, France, Japan, South Korea, Mexico, Brazil. **Việt Nam không có trong danh sách**, nên tài khoản VN **không nhận tiền từ lượt xem trên TikTok**. Trong khi đó YouTube YPP đã mở đầy đủ tại Việt Nam. ⇒ **TikTok là cửa tìm người xem, YouTube là nơi thu tiền.** Mọi quyết định còn lại đều dằn về hướng đó.
 
@@ -465,7 +466,7 @@ Bảng theo dõi `02_SAN_XUAT/TIKTOK/BangTheoDoi_TikTok.csv`:
 
 ---
 
-## 14. ẢNH NỀN DỌC TẬP 02 — ĐÃ TẠO 26/26 (20/11/2026)
+## 14. ẢNH NỀN DỌC TẬP 02 — 26/26 có, **21 AI thật** + 5 dự phòng (20/11/2026)
 
 ### 14.1 Kết quả đo thật
 
@@ -473,22 +474,28 @@ Bảng theo dõi `02_SAN_XUAT/TIKTOK/BangTheoDoi_TikTok.csv`:
 |---|---|
 | Số nền dọc `assets/bg/tk02_*.png` | **26/26** — đủ cho cả 5 clip (TK1 9 · TK2 7 · TK3 10 · TK4 8 · TK5 6) |
 | Kích thước | **1080×1920 — 26/26 đúng**, sai số 0 |
-| Nguồn | **8 nền AI thật** (connector `__matrix__generate_image`, 9:16, area 2K) + **18 nền dự phòng** (crop từ ảnh gốc 16:9) |
-| Dòng `provenance.json` | **+26** (8 dòng có `prompt` = AI thật · 18 dòng `prompt: null` = dự phòng) ⇒ 3.722 dòng tổng |
-| Độ sáng vùng chữ hook (y 270–730, x 120–780) | **mean 42,4 · max 56,9** (bộ `tk01_*` đã xuất bản: mean 41,6 · max 74,0) ⇒ không sáng hơn bộ đã đăng |
-| Độ sáng vùng phụ đề (y 996–1254) | mean 64,8 (bộ `tk01_*`: 82,1) |
-| Vết ngang trong ảnh | đo theo từng cột (`|Δ| > 18` ở > 70 % số cột): **0 dải** trong 26 ảnh — chỉ 2 mép trên/dưới do crop |
-| Backup | `.work/_cu/tk02_provenance_20261120_0859/` · `.work/_cu/tk02_fallback_prov_20261120_1207/` · ảnh v1: `.work/_cu/fallback_v1_20261120_121032/` · ảnh v2: `.work/_cu/tk02_fallback_img_20261120_1217/` |
+| Nguồn | **21 nền AI thật** (connector `__matrix__generate_image`, 9:16, area 2K, dùng ảnh 16:9 `t2_*` làm ảnh tham chiếu) + **5 nền dự phòng** (crop từ ảnh gốc 16:9 — còn lại vì hết credit) |
+| Dòng `provenance.json` | **26** dòng (21 dòng có `prompt` = AI thật · 5 dòng `prompt: null` = dự phòng) ⇒ **3.773** dòng tổng |
+| Độ sáng vùng chữ hook (y 300–700, x 120–780 — vùng chữ thật của pipeline) | **mean 30,5 · max 57,8** (bộ `tk01_*` đã xuất bản: mean 41,6 · max 74,0; trước khi thay AI: mean 42,4) ⇒ **tối hơn bộ đã đăng**, chữ trắng dễ đọc hơn |
+| Độ sáng vùng phụ đề (y 1020–1230) | **mean 61,2 · max 73,8** (bộ `tk01_*`: 82,1) |
+| Vết ngang trong vùng chữ thật | đo từng dòng: dòng nào > 70 % pixel trong x 120–780 vượt ngưỡng 120 ⇒ **0/26 ảnh vượt ngưỡng** (còn 1 ảnh `tk02_oath_hall` có 24 dòng sáng tại y 996–1019, **nằm trên dòng chữ phụ đề 1020** ⇒ không ảnh hưởng) |
+| Backup | `.work/_cu/tk02_provenance_20261120_1744/` · **ảnh đích trước khi ghi đè: `.work/_cu/tk02_bg_duphong_20261120_1744/`** (21 file) · ảnh gốc AI: `.work/tk_img_raw_t02/` (22 file) |
 
-**Quy trình đã chạy (đo được):** `.work/_tk_upload_refs_t02.py` (26/26 URL tham chiếu) → `.work/_tk_build_img_req_t02.py` (3 lô 10+10+6) → `mcode-tools connector call connector__matrix__generate_image` → `.work/_tk_download_imgs_t02.py` (node_id → file) → `.work/_tk_postprocess_t02.py` (8 nền AI) → `.work/_tk_fallback_crop_t02.py` (18 nền dự phòng).
+**Quy trình đã chạy (đo được):** `.work/_tk_upload_refs_t02.py` (26/26 URL tham chiếu) → `.work/_tk_build_img_req_t02.py` (3 lô 10+10+6) → `mcode-tools connector call connector__matrix__generate_image` → `.work/_tk_download_imgs_t02.py` (node_id → file) → `.work/_tk_postprocess_t02.py` (8 nền AI) → `.work/_tk_fallback_crop_t02.py` (18 nền dự phòng) → **20/11 lần 2 (nạp credit):** `.work/_tk_gen_bg_t02.py` (upload ref mới + 3 lô 1+6+6) → `.work/_tk_download_imgs_t02.py` → `.work/_tk_postprocess_t02.py` (21 nền AI, có tự tối vùng chữ).
 
-### 14.2 Vì sao 18 nền là bản DỰ PHÒNG (không phải AI)
+### 14.2 Vì sao 5 nền còn lại vẫn là bản DỰ PHÒNG
 
 Connector trả `402` cho 18/26 request: *"the plan allowance cannot cover this image generation and credit auto-consumption is turned off on this account… at least 100 credits of balance are required"*. Lô 3 còn bị `429` *"request limit reached; retry in the next minute"* — nhưng thử lại thì vẫn `402` ⇒ **429 chỉ là che, nguyên nhân gốc là hết credit**.
 
-⇒ Không dừng pipeline: `.work/_tk_fallback_crop_t02.py` **cắt 9:16 từ ảnh nền 16:9 gốc** (`assets/bg/_raw/t2_*`) — **0 credit**, đúng bảng màu của kênh. 18 nền này được đánh dấu riêng trong `provenance.json` (`prompt: null`, `cong_cu` ghi rõ "DU PHONG") để không nhầm là AI thật.
+**20/11 lần 2 (sau khi credit được bật):** sinh được **13/18** ảnh còn lại ⇒ **21/26 nền là AI thật**. Lô cuối (5 ảnh) lại `402` ⇒ **5 nền còn dự phòng**: `tk02_gavel` · `tk02_uniform_fire` · `tk02_red_flags` · `tk02_town_snow` · `tk02_cottage_search`.
 
-**Khi nào nạp credit → chạy lại:** `.work/_tk_download_imgs_t02.py` (tải node_id → `.work/tk_img_raw_t02/`) → `.work/_tk_postprocess_t02.py` (LANCZOS + grade noir + vignette/grain). Script hậu kỳ **ghi đè đúng tên file** nên chỉ cần copy bản AI mới vào `assets/bg/tk02_<tên>.png` là xong.
+⇒ Không dừng pipeline: `.work/_tk_fallback_crop_t02.py` **cắt 9:16 từ ảnh nền 16:9 gốc** (`assets/bg/_raw/t2_*`) — **0 credit**, đúng bảng màu của kênh. 5 nền này được đánh dấu riêng trong `provenance.json` (`prompt: null`, `cong_cu` ghi rõ "DU PHONG") để không nhầm là AI thật.
+
+**Cách nạp thêm cho 5 nền còn lại (đã có sẵn, chạy lại được):**
+1. Bật **Settings → Usage & model → Credits → credit auto-consumption** (hoặc chờ allowance reset).
+2. `py -3 .work/_tk_gen_bg_t02_b7.py` → upload ref mới (`upload_temp_url`, URL tham chiếu hết hạn sau **1 giờ**) + gọi `generate_image` (5 ảnh, 9:16, area 2K) → receipt `.work/_tk_img_receipt_t02_b7.json`.
+3. `py -3 .work/_tk_download_imgs_t02.py` → node_id → `.work/tk_img_raw_t02/`.
+4. `py -3 .work/_tk_postprocess_t02.py` → LANCZOS + grade noir + vignette/grain + tự tối vùng chữ; script **tự backup ảnh đích** vào `.work/_cu/tk02_bg_duphong_<giờ>/` và **cập nhật** dòng `provenance.json` của đúng 5 ảnh đó (từ `prompt: null` → có `prompt`).
 
 ### 14.3 Sáu bẫy mới (T17–T22)
 
@@ -500,6 +507,8 @@ Connector trả `402` cho 18/26 request: *"the plan allowance cannot cover this 
 | **T20** | `mcode-tools` là wrapper `.cmd` ⇒ `subprocess.run(["mcode-tools", ...])` **không** chạy được (WinError 2) | Script tải ảnh hỏng âm thầm | `shutil.which("mcode-tools")` + `shell=True`; và `Tee-Object` của PowerShell ghi receipt ra **UTF-16** ⇒ đọc JSON bằng `utf-16`/`utf-8-sig` (đã có `read_json_any`) |
 | **T21** | Profile làm tối dải chữ viết bằng `1 − smoothstep` ở nửa lên ⇒ **nhảy giá trị 0→1 đúng tại biên** (đo được: dải ngang tại row 730 và row 996) | Vệt sáng ngang nổi lên đúng chỗ chữ, rất dễ thấy khi video chuyển động | Nửa lên dùng **smoothstep thuần** (0 tại cạnh ngoài → 1 tại biên trong); nửa xuống dùng `1 − smoothstep`. Sau khi sửa: `max_row_jump` toàn 26 ảnh ≤ 42,6, và **0 dải ngang xuyên suốt chiều ngang** |
 | **T22** | Ảnh nền dọc phải **tối vùng chữ** trước khi dựng: 18 nền dự phòng có vùng hook sáng tới 118,8 (bộ `tk01_*` chỉ 41,6) | Chữ trắng trên nền sáng ⇒ mất chữ (H9) | `.work/_tk_fallback_crop_t02.py` tự tìm `depth` (0 → 0,60) để đưa mean vùng hook ≤ 58 và vùng phụ đề ≤ 72, biên mềm 70 px |
+| **T35** | **Ảnh AI 9:16 KHÔNG bảo đảm vùng chữ tối**, dù prompt đã yêu cầu *"keep the upper third and the lower third as quiet, dark, low-contrast shadow areas"* | Đo được: `tk02_folder_tree` vùng phụ đề mean **145,6** ⇒ chữ trắng gần như mất hoàn toàn (H9). 6/21 ảnh AI có dải sáng trong vùng chữ | `.work/_tk_postprocess_t02.py` **luôn** chạy bước tối vùng chữ cho ảnh AI (không chỉ ảnh dự phòng) — hàm `darken_bands_strict()` |
+| **T36** | `darken_text_bands` chỉ tối theo **mean** ⇒ còn dải sáng 2–24 **dòng** trong vùng phụ đề (đo: `tk02_oath_hall` 24 dòng tại y 996–1019, `tk02_interrogation_early` 3 dòng, `tk02_house_missing` 2 dòng) | Dải sáng ngang hiện lên đúng chỗ chữ phụ đề khi video chuyển động | `darken_bands_strict()` chọn `depth` theo **3 điều kiện**: mean hook ≤ 58 · mean sub ≤ 72 · **không dòng nào > 70 % pixel vượt ngưỡng 120**. Sau khi sửa: **0/26 ảnh** vượt ngưỡng trong vùng chữ thật (300–700 / 1020–1230) |
 
 ### 14.4 Chọn vùng crop (đo được)
 
@@ -507,7 +516,7 @@ Connector trả `402` cho 18/26 request: *"the plan allowance cannot cover this 
 
 **Script chạy lại được:** nếu ảnh đã tồn tại mà `provenance.json` **không có `prompt`** ⇒ coi là bản dự phòng và tạo lại (tự backup vào `.work/_cu/tk02_fallback_img_<giờ>/`); nếu **có `prompt`** ⇒ là bản AI thật, **giữ nguyên, không ghi đè**.
 
-**Giới hạn đã biết:** ảnh crop vẫn là **tái dựng của ảnh 16:9** nên bố cục dọc kém bản AI thật (bản AI được vẽ lại để dựng theo chiều dọc). 18 nền này dùng được để **chạy thử pipeline và đo thời lượng thật**, nhưng **nên thay bằng bản AI trước khi đăng** (xem Tập 2.4 — ảnh dựng độc quyền của bản AI là điểm mạnh khi đăng TikTok).
+**Giới hạn đã biết:** ảnh crop vẫn là **tái dựng của ảnh 16:9** nên bố cục dọc kém bản AI thật (bản AI được vẽ lại để dựng theo chiều dọc). **5 nền còn lại** dùng được để **chạy thử pipeline và đo thời lượng thật**, nhưng **nên thay bằng bản AI trước khi đăng** (xem Tập 2.4 — ảnh dựng độc quyền của bản AI là điểm mạnh khi đăng TikTok).ăng TikTok).
 
 ---
 
@@ -689,6 +698,7 @@ QC đã tách **3 mode** (`dai` / `ngan` / `caption`) vì 3 loại tệp có b�
 | **T32** | **Thay dấu nháy cong bằng `replace()` toàn cục sẽ làm vỡ cú pháp Python** — chuỗi `"“MỘT MÓN KỶ NIỆM”"` (chữ overlay SFX) nằm trong `"..."` ⇒ thay thành `"MỘT MÓN KỶ NIỆM"` làm hỏng file | Thay **từng cụm có mô tả rõ** (8 cụm trong mô tả dài), **không** thay toàn cục; luôn `py -3 -m py_compile` sau khi vá |
 | **T33** | **Số ký tự QC ≠ số ký tự người dùng dán** — QC đếm cả ký tự xuống dòng (`\n`), nên luôn **cao hơn** số thực tế (TK1 ngắn: QC 1.424, thực 1.408) | Không sao: vẫn < trần 4.000 (Description) / 2.200 (caption). Nhưng **phải ghi rõ quy ước** trong báo cáo, nếu không sẽ tưởng bị vượt trần |
 | **T34** | **Mô tả ngắn phải khớp SỐ MỤC liệt kê với câu dẫn** — "bốn nấc thang" + 3 bullet là lỗi *đếm* mà QC ký tự/hashtag **không bắt được** | Thêm QC: đếm số bullet `•` và so với số từ định lượng trong câu dẫn ("bốn nấc" ⇒ 4 bullet) |
+| **T37** | **Spec clip phải trỏ tới ảNH DỌC (`tkXX_*`), không phải tên ảnh gốc 16:9 (`tXX_*`)** — script dựng đọc `assets/bg/<nen>.png`; ảnh gốc 16:9 chỉ nằm ở `assets/bg/_raw/` ⇒ clip sẽ crash `THIEU NEN assets/bg/t3_*.png` | Tập 03 (20/11/2026): kế hoạch + 3 spec (VN/EN/JA) vẫn dùng `t3_*` sau khi đã dựng xong 28 nền dọc. Đã sửa: 51×4 giá trị `bg` → `tk03_*`, `NEN_SRC` trong `.work/_build_tk_tap03.py` → `"tk03_x": "t3_x"` (**bản gốc chỉ có 27/28 — thiếu `t3_self_observation`** ⇒ QC #8 báo thiếu raw), chạy lại generator ⇒ 12/12 cổng đạt. **Bẫy khi tự vá:** `re.sub` với `"tk03_\1"` trên chuỗi đã có `t3_` cho ra `tk03_t3_x`; thay trong `NEN_SRC` phải giữ **một** cặp dấu nháy. **Luôn kiểm:** mọi tên trong `bg` của spec phải **tồn tại** ở `assets/bg/` |
 
 ### 17.6 Kết quả sau khi rà
 
@@ -756,3 +766,46 @@ QC đã tách **3 mode** (`dai` / `ngan` / `caption`) vì 3 loại tệp có b�
 ### 19.3 Công cụ và tài nguyên đã tạo
 - Bộ sinh tự động: `.work/_build_tk_tap02_multilang.py` (sinh 100% tài nguyên EN và JA từ dữ liệu gốc, không sửa tay).
 - Sổ theo dõi tập trung: `02_SAN_XUAT/TIKTOK/BangTheoDoi_TikTok.csv` đã cập nhật 10 dòng clip EN và JA cho Tập 02.
+
+---
+
+## 20. ẢNH NỀN DỌC TẬP 04 — 23/23 có, **6 AI thật** + 17 dự phòng (21/11/2026)
+
+*Vụ án Charles Cullen · "Thiên thần tử thần & Phức cảm Chúa trời"*
+*Báo cáo đầy đủ: `02_SAN_XUAT/TIKTOK/Tap04/BAO_CAO_ANH_NEN_DOC_TAP04.md`*
+
+### 20.1 Kết quả đo thật
+
+| Chỉ số | Số đo |
+|---|---|
+| Số nền dọc `assets/bg/tk04_*.png` | **23/23** — đủ cho cả 5 clip (TK1 9 · TK2 11 · TK3 10 · TK4 9 · TK5 9) = **48/48 shot** |
+| Kích thước | **1080×1920 — 23/23 đúng**, sai số 0 |
+| Nguồn | **6 nền AI thật** (connector `__matrix__generate_image`, 9:16, area 2K, dùng ảnh 16:9 `t4_*` làm ảnh tham chiếu) + **17 nền dự phòng** (crop từ ảnh gốc 16:9 — còn lại vì hết credit) |
+| Dòng `provenance.json` | **23** (6 dòng có `prompt` = AI thật · 17 dòng `prompt: null` = dự phòng) |
+| Vùng chữ hook (y 270–730, x 120–780) | TB **44,7** (bộ `tk01_*` đã đăng: 41,6 · `tk03_*`: 45,1) · **0/23** vượt ngưỡng 58 |
+| Vùng chữ phụ đề (y 996–1254, x 120–780) | TB **51,1** (`tk01_*`: 82,1 · `tk03_*`: 53,4) · **0/23** vượt ngưỡng 72 |
+| Vệt ngang trong vùng chữ | dòng nào > 70 % pixel trong x 120–780 vượt ngưỡng 120 ⇒ **0/23 ảnh** (bộ `tk01_*` có 5 ảnh, 11 ảnh vượt ngưỡng) |
+| Viền sáng ở mép trên/dưới | **0/23** ảnh (đã sửa `somerset_courtroom`) |
+| Backup | `.work/_cu/tk04_provenance_20261121_0845/` · `.work/_cu/tk04_fallback_prov_20261121_0846/` · `.work/_cu/tk04_bgname_20261121_0852/` |
+
+**Quy trình đã chạy (đo được):** `.work/_tk_scan_t04.py` (48 shot · 23 nền) → `.work/_tk_src_montage_t04.py` (contact sheet nguồn) → `.work/_tk_gen_bg_t04.py` (upload ref + `generate_image`, 6/23) → `.work/_tk_download_imgs_t04.py` (node_id → file) → `.work/_tk_postprocess_t04.py` (6 nền AI) → `.work/_tk_fallback_crop_t04.py` (17 nền dự phòng) → `.work/_tk_fix_border_t04.py` → `.work/_tk_fix_dark_t04.py` → `.work/_tk_measure_bg_t04.py` → `.work/_tk_qc_coverage_t04.py` → `.work/_tk_patch_bgname_t04.py`.
+
+### 20.2 Vì sao 17 nền còn lại vẫn là bản DỰ PHÒNG
+
+Connector trả `402` cho 17/23 request: *"the plan allowance cannot cover this image generation and credit auto-consumption is turned off on this account… at least 100 credits of balance are required"*. Thử lại một lô khác → **vẫn `402`** ⇒ chặn cứng (không phải `429` tạm thời).
+
+⇒ Không dừng pipeline: `.work/_tk_fallback_crop_t04.py` **cắt 9:16 từ ảnh nền 16:9 gốc** (`assets/bg/_raw/t4_*`) — **0 credit**, đúng bảng màu của kênh. 17 nền này được đánh dấu riêng trong `provenance.json` (`prompt: null`, `cong_cu` ghi rõ "DU PHONG") để không nhầm là AI thật.
+
+**Cách nạp thêm cho 17 nền còn lại (đã có sẵn, chạy lại được):**
+1. Bật **Settings → Usage & model → Credits → credit auto-consumption** — phải là **credit đã mua** (credit check-in miễn phí **không** dùng được cho sinh ảnh).
+2. `py -3 .work/_tk_gen_bg_t04.py run 6 <index>` → upload ref mới (`upload_temp_url`, URL tham chiếu hết hạn sau **1 giờ**) + gọi `generate_image` (9:16, area 2K) → receipt `.work/_tk_img_receipt_t04_b*.json`.
+3. `py -3 .work/_tk_download_imgs_t04.py` → node_id → `.work/tk_img_raw_t04/`.
+4. `py -3 .work/_tk_postprocess_t04.py` → LANCZOS + grade noir + vignette/grain + tự tối vùng chữ; script **tự backup ảnh đích** vào `.work/_cu/tk04_provenance_<giờ>/` và **cập nhật** dòng `provenance.json` của đúng các ảnh đó (từ `prompt: null` → có `prompt`).
+
+### 20.3 Ba bẫy mới (T38–T40)
+
+| # | Bẫy | Hậu quả | Cách xử lý |
+|---|---|---|---|
+| **T38** | **Tên nền trong bảng shot có thể KHÔNG tồn tại trong `assets/bg/_raw/`.** Tập 04: 5/23 tên trong `KE_HOACH_CLIP_TAP04.md` không có ảnh gốc (`t4_closing_desk`, `t4_courtroom_bench`, `t4_diner_booth`, `t4_diner_exterior`, `t4_wire_closeup`) | Sinh ảnh bằng reference không có nguồn ⇒ mất nhịp pipeline hoặc sinh nhầm cảnh | Luôn chạy `.work/_tk_scan_t04.py` **trước** khi sinh (nó báo "THIEU NGUON") → khớp tay theo **mô tả nội dung từng ảnh** trong `02_SAN_XUAT/TapXX/Danh_Sach_Anh_TapXX.md`, **giữ nguyên tên `tkXX_*`** trong clip để không phá bảng shot |
+| **T39** | **Ảnh gốc trong `_raw/` có thể còn viền giả cổ (parchment) màu kem** ở trên + dưới (`t4_somerset_courtroom.jpg`: meanL 225 / 222) | Vi phạm V7 (ảnh phải tràn viền) — lọt vào clip mà khó phát hiện trên thumbnail | `.work/_tk_fix_border_t04.py` cắt viền **từ ảnh gốc trước khi** crop 9:16, rồi chạy lại `safe_text_zone` + `darken_text_bands`. Đo mép trên/dưới sau khi sửa (trước: 114,5 / 113,2 → sau: 33,2 / 33,8) |
+| **T40** | **Chạy lại generator với `start index` GHI ĐÈ receipt của lô đã thành công** (bộ đếm `tag` khởi động lại từ `b1`) | Mất `node_id` của 2 ảnh đã sinh ⇒ tưởng mất ảnh | `node_id` là **vĩnh viễn** — dựng lại receipt từ log rồi tải lại qua `mcode-tools get_asset_url <node_id>`. Lần sau: đặt `tag` theo **timestamp**, không theo chỉ số lô |

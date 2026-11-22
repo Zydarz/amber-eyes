@@ -1,0 +1,651 @@
+{
+  "episode": "08",
+  "lang": "EN",
+  "engine": "Higgs Audio v3 + VoxCPM2 reference voices",
+  "clips": {
+    "TK1": {
+      "title": "The Elite Intellectual Paradox & The Existential Vacuum",
+      "estimated_duration": 76.5,
+      "bgm": "bgm_piano_minimal.mp3",
+      "sfx": [
+        "amb_lab_equipment.wav (bed)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "code": "TK1.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Valedictorians, chief cardiologists, cosmic physicists. Why did they kneel before a half-blind charlatan?",
+          "bg": "t8_todai_red_gate_shadow",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "code": "TK1.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Yet groveling at the feet of this half-blind charlatan were the most distinguished minds of Japan.",
+          "bg": "t8_asahara_shadow_profile",
+          "motion": "push",
+          "source": "3.02#8"
+        },
+        {
+          "code": "TK1.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "They surrendered their fortunes, their intellect, and their moral consciences to a man previously scorned by mainstream society.",
+          "bg": "t8_todai_red_gate_shadow",
+          "motion": "still",
+          "source": "3.02#9"
+        },
+        {
+          "code": "TK1.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "The academic pedigree of Aum’s inner sanctum left seasoned criminal investigators dumbfounded by the sheer concentration of intellect.",
+          "bg": "t8_dossier_elite_scientists",
+          "motion": "pan",
+          "source": "3.03#1"
+        },
+        {
+          "code": "TK1.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "And most prominent of all, directing the cult's medical facilities was Doctor Ikuo Hayashi, an acclaimed cardiologist graduated from Keio University who had served as chief of staff at a major national hospital.",
+          "bg": "t8_cardiac_surgery_theatre",
+          "motion": "still",
+          "source": "3.03#6"
+        },
+        {
+          "code": "TK1.01#6",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "The explanation stems from a profound sociological and psychological crisis termed the Existential Vacuum.",
+          "bg": "t8_tokyo_stock_crash_1990",
+          "motion": "pull",
+          "source": "3.05#1"
+        },
+        {
+          "code": "TK1.01#7",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Many brilliant university graduates attained flawless test scores, yet inside they harbored absolute emptiness regarding life's ultimate purpose and ethical bearings.",
+          "bg": "t8_moral_rationalization_books",
+          "motion": "still",
+          "source": "3.05#4"
+        },
+        {
+          "code": "TK1.01#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "They held flawless empirical answers to the scientific question “How”, yet remained entirely paralyzed before the existential question “Why do we live”.",
+          "bg": "t8_fragile_boundary_mirror",
+          "motion": "push",
+          "source": "3.05#5"
+        },
+        {
+          "code": "TK1.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Highly educated individuals frequently possess a perilous psychological vulnerability: Intellectual Hubris.",
+          "bg": "t8_intellectual_hubris_chess",
+          "motion": "pan",
+          "source": "3.06#1"
+        },
+        {
+          "code": "TK1.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Episode eight of Amber Eyes. Watch the full documentary at the link in bio.",
+          "bg": "t8_tokyo_dawn_restored_peace",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK2": {
+      "title": "Systematic Physical Deprivation & The PSI Electrode Headgear",
+      "estimated_duration": 74.5,
+      "bgm": "bgm_ambient_deep.mp3",
+      "sfx": [
+        "amb_dark_drone.wav (bed)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "code": "TK2.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Two hours of sleep, twenty hours of dark meditation, and a multi-thousand-dollar electrode skullcap.",
+          "bg": "t8_concrete_cell_isolation",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "code": "TK2.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Within the barricaded compounds of Aum Shinrikyo, disciples were entirely severed from the outside world.",
+          "bg": "t8_concrete_cell_isolation",
+          "motion": "still",
+          "source": "4.02#1"
+        },
+        {
+          "code": "TK2.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Yet the most insidious weapon utilized to crush independent agency was the systematic physical exhaustion of the body.",
+          "bg": "t8_frontal_lobe_brain_scan",
+          "motion": "push",
+          "source": "4.02#3"
+        },
+        {
+          "code": "TK2.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Members were restricted to two or three hours of sleep per night, coupled with a severely impoverished, nutrient-depleted diet.",
+          "bg": "t8_hidden_ceiling_hideout",
+          "motion": "pan",
+          "source": "4.02#4"
+        },
+        {
+          "code": "TK2.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "When the human physiology enters prolonged chronic exhaustion, the prefrontal cortex governing critical analysis and moral discretion deteriorates, rendering the individual completely compliant.",
+          "bg": "t8_frontal_lobe_brain_scan",
+          "motion": "still",
+          "source": "4.02#6"
+        },
+        {
+          "code": "TK2.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Criminal proceedings documented bizarre physical apparitions deployed by the cult to manipulate disciple neurology.",
+          "bg": "t8_psi_headgear_electrodes",
+          "motion": "pull",
+          "source": "4.03#1"
+        },
+        {
+          "code": "TK2.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.6,
+          "text": "They engineered an electrode-studded skullcap designated the Perfect Salvation Initiation, forcing disciples to wear it continuously for hours.",
+          "bg": "t8_psi_headgear_electrodes",
+          "motion": "push",
+          "source": "4.03#2"
+        },
+        {
+          "code": "TK2.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Furthermore, forensic teams discovered clandestine stockpiles of potent hallucinogens including LSD and psychotropic compounds administered during pitch-black initiations.",
+          "bg": "t8_hallucinogen_ritual_hall",
+          "motion": "pan",
+          "source": "4.03#5"
+        },
+        {
+          "code": "TK2.01#9",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Under the combined assault of chemical impairment and nervous system collapse, young intellectuals genuinely believed they witnessed divine halos, losing all capacity for skepticism.",
+          "bg": "t8_frontal_lobe_brain_scan",
+          "motion": "still",
+          "source": "4.03#7"
+        },
+        {
+          "code": "TK2.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Episode eight of Amber Eyes. Watch the full documentary at the link in bio.",
+          "bg": "t8_tokyo_dawn_restored_peace",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK3": {
+      "title": "Cult Brainwashing & The Perversion of Poa Doctrine",
+      "estimated_duration": 84.8,
+      "bgm": "bgm_sub_drone.mp3",
+      "sfx": [
+        "amb_dark_drone.wav (bed)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "code": "TK3.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Taking human lives while truly believing it was an act of holy mercy to save their souls.",
+          "bg": "t8_poa_twisted_doctrine",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "code": "TK3.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Yet the most psychologically catastrophic weapon Asahara deployed to dissolve the ethical oaths of physicians and scientists was the grotesque subversion of Poa.",
+          "bg": "t8_poa_twisted_doctrine",
+          "motion": "still",
+          "source": "4.04#1"
+        },
+        {
+          "code": "TK3.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Within Tibetan Buddhist tradition, Poa represents a serene meditative discipline intended to facilitate the conscious transference of consciousness at the moment of death.",
+          "bg": "t8_buddhist_mandala_distortion",
+          "motion": "pan",
+          "source": "4.04#2"
+        },
+        {
+          "code": "TK3.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Yet Asahara twisted that sacred concept into a perverse doctrine justifying the physical liquidation of human life.",
+          "bg": "t8_broken_hippocratic_oath",
+          "motion": "push",
+          "source": "4.04#3"
+        },
+        {
+          "code": "TK3.01#5",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Asahara preached that secular society was irreparably tainted and hurtling toward an inevitable nuclear holocaust.",
+          "bg": "t8_apocalypse_prophecy_scroll",
+          "motion": "pan",
+          "source": "4.05#1"
+        },
+        {
+          "code": "TK3.01#6",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "He proclaimed that if ordinary human beings continued living, they would merely accumulate further negative karma and inevitably plummet into subterranean hells.",
+          "bg": "t8_devotion_altar_kneeling",
+          "motion": "still",
+          "source": "4.05#2"
+        },
+        {
+          "code": "TK3.01#7",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Consequently, terminating their earthly existence before they could commit further karmic offenses was not murder, but an act of supreme mercy liberating their souls.",
+          "bg": "t8_weapons_of_mass_destruction",
+          "motion": "pull",
+          "source": "4.05#3"
+        },
+        {
+          "code": "TK3.01#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "This constitutes the ultimate manifestation of Moral Disengagement and Cognitive Neutralization.",
+          "bg": "t8_moral_rationalization_books",
+          "motion": "still",
+          "source": "4.05#5"
+        },
+        {
+          "code": "TK3.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Simultaneously, the externalization of agency convinced them they were merely passive instruments executing the cosmic will of the Supreme Master.",
+          "bg": "t8_devotion_altar_kneeling",
+          "motion": "push",
+          "source": "4.05#7"
+        },
+        {
+          "code": "TK3.01#10",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "This diabolical cognitive pivot thoroughly dismantled every natural moral barrier within the minds of the nation's scientific elite.",
+          "bg": "t8_moral_rationalization_books",
+          "motion": "pan",
+          "source": "4.05#8"
+        },
+        {
+          "code": "TK3.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Episode eight of Amber Eyes. Watch the full documentary at the link in bio.",
+          "bg": "t8_tokyo_dawn_restored_peace",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK4": {
+      "title": "Tears of the Keio Cardiologist & The Collapse of the Messiah",
+      "estimated_duration": 83.8,
+      "bgm": "bgm_violin_heart.mp3",
+      "sfx": [
+        "amb_courtroom.wav (bed)",
+        "fx_gavel_triple.wav",
+        "fx_door_metal_slam.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "code": "TK4.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Hands trained to save lives punctured sarin bags. And the self-proclaimed messiah trembled in a ceiling crawl space.",
+          "bg": "t8_dr_hayashi_umbrella_subway",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "code": "TK4.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "That diabolical rationalization totally extinguished the conscience of Doctor Ikuo Hayashi, a man who had once headed an acclaimed hospital cardiology department.",
+          "bg": "t8_dr_hayashi_umbrella_subway",
+          "motion": "still",
+          "source": "4.06#1"
+        },
+        {
+          "code": "TK4.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Hands that had performed hundreds of delicate cardiac surgeries to preserve human life now became the instrument of an unspeakable crime.",
+          "bg": "t8_cardiac_surgery_theatre",
+          "motion": "push",
+          "source": "4.06#2"
+        },
+        {
+          "code": "TK4.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "On the morning of March 20, the very hands that had saved thousands of patients punctured two sarin pouches aboard the Chiyoda Line.",
+          "bg": "t8_dr_hayashi_umbrella_subway",
+          "motion": "pan",
+          "source": "4.06#3"
+        },
+        {
+          "code": "TK4.01#5",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Standing before this court, I seek no forgiveness whatsoever for myself.",
+          "bg": "t8_grand_courtroom_proceedings",
+          "motion": "still",
+          "source": "4.08#1"
+        },
+        {
+          "code": "TK4.01#6",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "I was once a physician sworn by solemn oath to preserve human life at all costs.",
+          "bg": "t8_tokyo_court_witness_stand",
+          "motion": "pull",
+          "source": "4.08#2"
+        },
+        {
+          "code": "TK4.01#7",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "I betrayed the sacred Hippocratic Oath that I had etched into my heart throughout the years of my youth.",
+          "bg": "t8_broken_hippocratic_oath",
+          "motion": "push",
+          "source": "4.08#3"
+        },
+        {
+          "code": "TK4.01#8",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Yet I permitted blind dogma to paralyze my intellect, inflicting irreparable suffering upon innocent fellow human beings.",
+          "bg": "t8_tokyo_court_witness_stand",
+          "motion": "still",
+          "source": "4.08#4"
+        },
+        {
+          "code": "TK4.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "On May 16, 1995, law enforcement discovered Shoko Asahara cowering within a tiny crawl space concealed between the second and third floors of Satyam Number 6.",
+          "bg": "t8_hidden_ceiling_hideout",
+          "motion": "pan",
+          "source": "4.09#6"
+        },
+        {
+          "code": "TK4.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "The man who had proclaimed himself the savior of humanity sat huddled in absolute darkness, trembling beside bundles of cash totaling nearly ten million yen and solid gold bars.",
+          "bg": "t8_hidden_ceiling_hideout",
+          "motion": "pull",
+          "source": "4.09#7"
+        },
+        {
+          "code": "TK4.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Episode eight of Amber Eyes. Watch the full documentary at the link in bio.",
+          "bg": "t8_tokyo_dawn_restored_peace",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK5": {
+      "title": "Four Survival Red Flags to Defeat Cult Mind Manipulation",
+      "estimated_duration": 74.0,
+      "bgm": "bgm_piano_warm.mp3",
+      "sfx": [
+        "amb_office_night.wav (bed)",
+        "fx_paper_folder.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "code": "TK5.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Four vital survival red flags to never fall victim to malicious psychological manipulation.",
+          "bg": "t8_redflag1_social_isolation",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "code": "TK5.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "To safeguard ourselves and our loved ones against predatory groups employing deceptive mind control, Amber Eyes synthesizes four vital survival red flags from this historical case:",
+          "bg": "t8_redflag1_social_isolation",
+          "motion": "still",
+          "source": "5.06#1"
+        },
+        {
+          "code": "TK5.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "First Red Flag: Strategic social isolation and the severing of support networks.",
+          "bg": "t8_redflag1_social_isolation",
+          "motion": "push",
+          "source": "5.06#2"
+        },
+        {
+          "code": "TK5.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Any healthy organization respects your family and external social relationships; if a group seeks to detach you from loved ones and control your information intake, walk away immediately.",
+          "bg": "t8_redflag1_social_isolation",
+          "motion": "pan",
+          "source": "5.06#3"
+        },
+        {
+          "code": "TK5.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Second Red Flag: Systematic physical exhaustion engineered to dismantle critical faculties.",
+          "bg": "t8_redflag2_physical_exhaustion",
+          "motion": "pull",
+          "source": "5.06#4"
+        },
+        {
+          "code": "TK5.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Third Red Flag: Absolute personal veneration and the prohibition of critical inquiry.",
+          "bg": "t8_redflag3_cult_of_personality",
+          "motion": "still",
+          "source": "5.06#7"
+        },
+        {
+          "code": "TK5.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "An authentic mentor constantly encourages disciples to think independently and test empirical truth; only charlatans claim their word supersedes civil law and condemn honest doubt as sin.",
+          "bg": "t8_redflag3_cult_of_personality",
+          "motion": "push",
+          "source": "5.06#8"
+        },
+        {
+          "code": "TK5.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Fourth Red Flag: Moral inversion and the incitement of societal hostility.",
+          "bg": "t8_redflag4_moral_inversion",
+          "motion": "pan",
+          "source": "5.06#9"
+        },
+        {
+          "code": "TK5.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Resolutely reject any ideology preaching that inflicting harm upon others is an act of benevolent mercy serving a grand cause.",
+          "bg": "t8_redflag4_moral_inversion",
+          "motion": "still",
+          "source": "5.06#10"
+        },
+        {
+          "code": "TK5.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Always remember that no noble objective can ever justify cruel and dehumanizing methodologies.",
+          "bg": "t8_tokyo_dawn_restored_peace",
+          "motion": "pull",
+          "source": "5.06#11"
+        },
+        {
+          "code": "TK5.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Episode eight of Amber Eyes. Watch the full documentary at the link in bio.",
+          "bg": "t8_tokyo_dawn_restored_peace",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    }
+  }
+}

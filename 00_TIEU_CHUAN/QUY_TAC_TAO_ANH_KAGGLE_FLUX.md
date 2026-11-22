@@ -178,7 +178,7 @@ Mỗi bộ ảnh nền mới sinh từ Kaggle FLUX phải vượt qua các cổn
 | Cổng QC | Tiêu chuẩn ĐẠT | Cách kiểm |
 |---|---|---|
 | **Kích thước** | Đúng `2112×1188` (100% số file) | Script đo kích thước tự động |
-| **Không chữ (H2/H5)** | 0 chữ, 0 số, 0 logo, 0 nhãn giả do AI vẽ | Soi mắt qua Montage `.work/qc_montage.py` |
+| **Không chữ (H2/H26)** | 0 chữ, 0 số, 0 logo, 0 nhãn giả do AI vẽ | Soi mắt qua Montage `.work/qc_montage.py` |
 | **Độ tương phản** | Đạt chuẩn chiaroscuro, không bị mờ đục xám xịt | Soi góc tối đạt độ đen sâu |
 | **Bản quyền (L7)** | Đầy đủ bản ghi trong `provenance.json` | Cập nhật tự động: công cụ, prompt, seed, điều khoản thương mại |
 

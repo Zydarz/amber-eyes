@@ -1,0 +1,627 @@
+{
+  "episode": "07",
+  "lang": "VI",
+  "engine": "Higgs Audio v3 + VoxCPM2 reference voices",
+  "clips": {
+    "TK1": {
+      "title": "Tội phạm không chạm tay và phán quyết lịch sử",
+      "estimated_duration": 82.7,
+      "bgm": "bgm_sub_drone.mp3",
+      "sfx": [
+        "amb_dark_drone.wav (nền)",
+        "fx_phone_dial.wav",
+        "fx_gavel_strike.wav",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "code": "TK1.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Không hung khí, không xô xát, cách xa năm mươi sáu cây số. Nhưng bản án ngộ sát lịch sử vẫn được tuyên.",
+          "bg": "t7_digital_coercion_screen",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "code": "TK1.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Hãy hình dung một thảm kịch không có hung khí vật lý, không có dấu vết xô xát tại hiện trường, và hai nhân vật chính ở cách xa nhau hơn năm mươi sáu cây số.",
+          "bg": "t7_digital_lighthouse_beacon",
+          "motion": "push",
+          "source": "1.02#3"
+        },
+        {
+          "code": "TK1.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Thế nhưng, một thiếu nữ khi ấy mới mười bảy tuổi về sau vẫn phải nhận bản án ngộ sát lịch sử trước tòa án Hoa Kỳ.",
+          "bg": "t7_social_media_notifications_flood",
+          "motion": "still",
+          "source": "1.02#4"
+        },
+        {
+          "code": "TK1.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Khi các kỹ thuật viên pháp y số trích xuất toàn bộ dữ liệu bộ nhớ điện thoại, họ đã khai quật một kho lưu trữ khổng lồ gồm hơn hai mươi nghìn dòng tin nhắn văn bản.",
+          "bg": "t7_copied_script_lines_notebook",
+          "motion": "pan",
+          "source": "1.10#2"
+        },
+        {
+          "code": "TK1.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Thẩm phán phân tích sâu sắc rằng: Khi Conrad bước ra khỏi xe, cậu đã tự phá vỡ chuỗi nhân quả tự hại và giành lại cơ hội sống.",
+          "bg": "t7_courtroom_breathless_silence",
+          "motion": "still",
+          "source": "4.08#2"
+        },
+        {
+          "code": "TK1.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Thế nhưng, hành động ra lệnh “hãy quay trở lại xe” của Michelle cùng sự im lặng hoàn toàn không cứu giúp cấu thành hành vi liều lĩnh và cố ý vô cớ.",
+          "bg": "t7_courtroom_projection_screen",
+          "motion": "push",
+          "source": "4.08#3"
+        },
+        {
+          "code": "TK1.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Thẩm phán Moniz dõng dạc tuyên bố: Michelle Carter phạm tội Ngộ sát không tự ý.",
+          "bg": "t7_courtroom_breathless_silence",
+          "motion": "pull",
+          "source": "4.08#6"
+        },
+        {
+          "code": "TK1.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Một phán quyết mang tính lịch sử, phá vỡ định kiến cho rằng lời nói truyền từ xa không thể cấu thành tội giết người.",
+          "bg": "t7_courtroom_projection_screen",
+          "motion": "pan",
+          "source": "4.08#7"
+        },
+        {
+          "code": "TK1.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Vào tháng 8 năm 2017, Michelle Carter bị tuyên phạt hai năm rưỡi tù giam, với mười lăm tháng phải chấp hành thực tế sau song sắt.",
+          "bg": "t7_court_verdict_document_guilty",
+          "motion": "still",
+          "source": "4.09#1"
+        },
+        {
+          "code": "TK1.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Tập bảy của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "bg": "t7_closing_dossier_white_rose",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK2": {
+      "title": "Kịch bản bi kịch viết sẵn và ngòi nổ tâm lý",
+      "estimated_duration": 87.2,
+      "bgm": "bgm_jazz_noir.mp3",
+      "sfx": [
+        "amb_phone_room.wav (nền)",
+        "fx_keyboard_typing.wav",
+        "fx_message_chime.wav",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "code": "TK2.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Hai ngày trước khi bạn trai qua đời, cô ta đã nhắn tin khóc lóc báo tin tang sự. Vở kịch đã dựng thì không thể để đổ bể.",
+          "bg": "t7_social_media_notifications_flood",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "code": "TK2.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Vào ngày 10 và 11 tháng 7 năm 2014, tức là hai ngày trước khi Conrad qua đời, Michelle đã bắt đầu gửi hàng loạt tin nhắn cho các bạn cùng trường.",
+          "bg": "t7_social_media_notifications_flood",
+          "motion": "still",
+          "source": "3.06#2"
+        },
+        {
+          "code": "TK2.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Cô ta khóc lóc bịa đặt rằng Conrad đã biến mất, rằng cậu ấy có thể đã tự tước đoạt mạng sống và cô ta đang vô cùng suy sụp vì không thể cứu được bạn trai.",
+          "bg": "t7_confession_message_turn",
+          "motion": "pan",
+          "source": "3.06#3"
+        },
+        {
+          "code": "TK2.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Trong khi thực tế vào thời điểm đó, Conrad Roy vẫn đang sống hoàn toàn bình thường cùng gia đình và chưa hề có hành động tự hại nào.",
+          "bg": "t7_ticking_clock_deadlines",
+          "motion": "still",
+          "source": "3.06#4"
+        },
+        {
+          "code": "TK2.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Michelle đã viết sẵn kịch bản bi kịch, phân vai cho tất cả mọi người, và điều duy nhất còn thiếu để hoàn tất vở kịch chính là sự ra đi thực sự của chàng trai.",
+          "bg": "t7_copied_script_lines_notebook",
+          "motion": "push",
+          "source": "3.06#5"
+        },
+        {
+          "code": "TK2.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Đây chính là Ngòi nổ và Điểm gãy tâm lý mang tính quyết định của toàn bộ vụ án.",
+          "bg": "t7_cracked_porcelain_mask",
+          "motion": "pull",
+          "source": "3.07#1"
+        },
+        {
+          "code": "TK2.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Khi đã trót loan tin với bạn bè rằng Conrad mất tích và gặp chuyện chẳng lành, Michelle rơi vào một nỗi sợ hãi bệnh lý: sợ bị lật tẩy là kẻ dối trá.",
+          "bg": "t7_staged_tragedy_mirror",
+          "motion": "still",
+          "source": "3.07#2"
+        },
+        {
+          "code": "TK2.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Nếu Conrad đổi ý và tiếp tục sống, chiếc mặt nạ bi kịch mà cô ta dày công dựng lên sẽ lập tức tan thành mây khói, biến cô ta thành trò cười trước bạn bè.",
+          "bg": "t7_puppet_strings_metaphor",
+          "motion": "pan",
+          "source": "3.07#3"
+        },
+        {
+          "code": "TK2.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Cái tôi ái kỷ không cho phép điều đó xảy ra dưới bất kỳ giá nào.",
+          "bg": "t7_night_sky_breath_of_life",
+          "motion": "push",
+          "source": "3.07#4"
+        },
+        {
+          "code": "TK2.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Tập bảy của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "bg": "t7_closing_dossier_white_rose",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK3": {
+      "title": "Hội chứng Münchausen qua mạng và chữ ký tâm lý",
+      "estimated_duration": 90.5,
+      "bgm": "bgm_cello_sad.mp3",
+      "sfx": [
+        "amb_dark_drone.wav (nền)",
+        "fx_cheering_applause.wav",
+        "fx_camera_shutter.wav",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "code": "TK3.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Ban ngày là nữ sinh gương mẫu làm từ thiện. Ban đêm, cô ta biến sinh mạng của bạn trai thành đạo cụ sân khấu.",
+          "bg": "t7_drama_masks_digital_glitch",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "code": "TK3.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Tại phiên tòa xét xử, bên công tố đã chứng minh Michelle Carter có một nỗi ám ảnh kỳ lạ đối với loạt phim truyền hình âm nhạc nổi tiếng Glee.",
+          "bg": "t7_vintage_tv_glee_glow",
+          "motion": "still",
+          "source": "3.04#1"
+        },
+        {
+          "code": "TK3.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Hình ảnh Lea Michele xuất hiện trước công chúng trong trang phục đen kiêu sa, nhận được muôn vàn sự thương xót, ngưỡng mộ và vỗ về từ hàng triệu người hâm mộ đã găm sâu vào tâm trí Michelle Carter.",
+          "bg": "t7_staged_tragedy_mirror",
+          "motion": "pan",
+          "source": "3.04#4"
+        },
+        {
+          "code": "TK3.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Cô ta khao khát có được vị thế của một “người bạn gái góa phụ bi thương” được cả cộng đồng vây quanh an ủi.",
+          "bg": "t7_vintage_tv_glee_glow",
+          "motion": "push",
+          "source": "3.04#5"
+        },
+        {
+          "code": "TK3.01#5",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Trước mặt cha mẹ và thầy cô tại thị trấn Plainville, Michelle vẫn giữ trọn vẹn vỏ bọc một cô con gái ngoan ngoãn, học hành chăm chỉ và tham gia các hoạt động thiện nguyện.",
+          "bg": "t7_clinical_depression_shadow",
+          "motion": "still",
+          "source": "3.08#2"
+        },
+        {
+          "code": "TK3.01#6",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Nhưng trong ngăn kéo kỹ thuật số bí mật, cô ta lạnh lùng giáng cấp một sinh mạng con người xuống thành một con tốt thí trên bàn cờ cảm xúc của mình.",
+          "bg": "t7_drama_masks_digital_glitch",
+          "motion": "pull",
+          "source": "3.08#3"
+        },
+        {
+          "code": "TK3.01#7",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Michelle tự ru ngủ lương tâm bằng ngụy biện rằng mình đang “giúp đỡ” Conrad giải thoát khỏi nỗi đau đớn trần gian để lên một thế giới tốt đẹp hơn.",
+          "bg": "t7_psychological_coercion_chess",
+          "motion": "pan",
+          "source": "3.08#4"
+        },
+        {
+          "code": "TK3.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Ngay sau khi Conrad qua đời, Michelle Carter lập tức bước lên vũ đài trung tâm mà cô ta hằng ao ước suốt bao năm tháng.",
+          "bg": "t7_baseball_field_charity_empty",
+          "motion": "push",
+          "source": "3.09#1"
+        },
+        {
+          "code": "TK3.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Chữ ký tâm lý của kẻ thủ ác đã hiện rõ mồn một: Cô ta tận hưởng từng giây phút được đắm chìm trong sự chú ý của công chúng, xây dựng danh tiếng trên nỗi đau của người bạn trai vừa nằm xuống.",
+          "bg": "t7_baseball_field_charity_empty",
+          "motion": "still",
+          "source": "3.09#5"
+        },
+        {
+          "code": "TK3.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Tập bảy của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "bg": "t7_closing_dossier_white_rose",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK4": {
+      "title": "Dòng tin nhắn tự thú và mệnh lệnh trong bóng tối",
+      "estimated_duration": 85.5,
+      "bgm": "bgm_tension_strings.mp3",
+      "sfx": [
+        "amb_rain_night.wav (nền)",
+        "fx_phone_buzz.wav",
+        "fx_door_close.wav",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "code": "TK4.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "“Tớ đã nói chuyện điện thoại với anh ấy. Anh ấy sợ hãi bước ra khỏi xe, nhưng tớ đã bảo anh ấy hãy quay trở lại.”",
+          "bg": "t7_confession_text_timestamp",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "code": "TK4.01#2",
+          "role": "N2",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Vào tối ngày 15 tháng 9 năm 2014, tôi bất ngờ nhận được một dòng tin nhắn dài từ Michelle Carter gửi qua điện thoại.",
+          "bg": "t7_confession_text_timestamp",
+          "motion": "still",
+          "source": "4.03#1"
+        },
+        {
+          "code": "TK4.01#3",
+          "role": "N2",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Khi mở màn hình ra đọc, toàn thân tôi run lên bần bật vì không thể tin nổi vào những con chữ đang hiện ra trước mắt.",
+          "bg": "t7_witness_trembling_phone",
+          "motion": "pan",
+          "source": "4.03#2"
+        },
+        {
+          "code": "TK4.01#4",
+          "role": "N2",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Michelle viết: “Cái chết của anh ấy là lỗi của tớ, thực sự là tớ đã có thể ngăn anh ấy lại.”",
+          "bg": "t7_incoming_call_timer_40min",
+          "motion": "push",
+          "source": "4.03#3"
+        },
+        {
+          "code": "TK4.01#5",
+          "role": "N2",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Cô ấy viết tiếp: “Tớ đã nói chuyện điện thoại với anh ấy, anh ấy bước ra khỏi xe vì sợ hãi, nhưng tớ đã bảo anh ấy hãy quay trở lại xe.”",
+          "bg": "t7_two_phone_screens_contrast",
+          "motion": "still",
+          "source": "4.03#4"
+        },
+        {
+          "code": "TK4.01#6",
+          "role": "N2",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Tôi chết lặng trong nỗi kinh hoàng tột độ khi nhận ra cô bạn gái mà cả trường đang thương xót bấy lâu nay thực chất là ai.",
+          "bg": "t7_confession_text_timestamp",
+          "motion": "pull",
+          "source": "4.03#5"
+        },
+        {
+          "code": "TK4.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Thay vào đó, Michelle đã lạnh lùng phát ra một mệnh lệnh bằng lời nói đanh thép qua ống nghe: “Hãy quay trở lại xe ngay lập tức.”",
+          "bg": "t7_incoming_call_timer_40min",
+          "motion": "push",
+          "source": "2.09#4"
+        },
+        {
+          "code": "TK4.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Chính mệnh lệnh trực tiếp ấy đã dập tắt tia hy vọng sống sót cuối cùng của nạn nhân, ép cậu phải bước ngược trở lại vào cabin đầy khói xả nguy hiểm.",
+          "bg": "t7_two_phone_screens_contrast",
+          "motion": "pan",
+          "source": "2.09#5"
+        },
+        {
+          "code": "TK4.01#9",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Dòng tin nhắn tự thú gửi cho Samantha Boardman lập tức trở thành chứng cứ đanh thép nhất trong hồ sơ khởi tố của Cơ quan Công tố hạt Bristol.",
+          "bg": "t7_bristol_county_indictment_stamp",
+          "motion": "still",
+          "source": "4.05#1"
+        },
+        {
+          "code": "TK4.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Tập bảy của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "bg": "t7_closing_dossier_white_rose",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK5": {
+      "title": "Bốn dấu hiệu cảnh báo đỏ sinh tồn trên mạng",
+      "estimated_duration": 77.5,
+      "bgm": "bgm_warm_piano.mp3",
+      "sfx": [
+        "amb_calm_piano.wav (nền)",
+        "fx_phone_chime.wav",
+        "fx_soft_wind.wav",
+        "fx_bell_chime.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "code": "TK5.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Màn hình điện thoại có thể biến thành chiếc bẫy đoạt mạng. Bốn tín hiệu cảnh báo đỏ bạn nhất định phải khắc cốt ghi tâm.",
+          "bg": "t7_digital_lighthouse_beacon",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "code": "TK5.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Từ góc nhìn của khoa học tâm lý học tội phạm và nguyên lý Món quà của nỗi sợ, chúng ta rút ra những bài học sinh tồn sống còn để nhận diện những kẻ thao túng độc hại.",
+          "bg": "t7_digital_lighthouse_beacon",
+          "motion": "still",
+          "source": "5.04#1"
+        },
+        {
+          "code": "TK5.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Trong không gian mạng đầy rẫy những mối quan hệ ảo, có bốn tín hiệu cảnh báo đỏ nguy hiểm mà mỗi người cần đặc biệt khắc cốt ghi tâm.",
+          "bg": "t7_redflag1_isolated_virtual_bubble",
+          "motion": "pan",
+          "source": "5.04#2"
+        },
+        {
+          "code": "TK5.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Cảnh báo đỏ 1: Sự cô lập có hệ thống.",
+          "bg": "t7_redflag1_isolated_virtual_bubble",
+          "motion": "still",
+          "source": "5.04#4"
+        },
+        {
+          "code": "TK5.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Cảnh báo đỏ 2: Kiểm soát cưỡng chế đội lốt quan tâm.",
+          "bg": "t7_redflag2_manipulative_text_provocation",
+          "motion": "push",
+          "source": "5.04#6"
+        },
+        {
+          "code": "TK5.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Cảnh báo đỏ 3: Tấn công lòng tự trọng và đảo ngược vị thế đạo đức.",
+          "bg": "t7_redflag3_performative_grief_stage",
+          "motion": "pull",
+          "source": "5.04#8"
+        },
+        {
+          "code": "TK5.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Cảnh báo đỏ 4: Nuôi dưỡng bóng tối thay vì tìm kiếm giải pháp y tế.",
+          "bg": "t7_redflag4_disconnect_phone_dawn",
+          "motion": "pan",
+          "source": "5.04#10"
+        },
+        {
+          "code": "TK5.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Khi bạn bế tắc, thay vì khuyến khích bạn gặp bác sĩ hay tìm người giúp đỡ, chúng lại cổ vũ những suy nghĩ tiêu cực và biến bi kịch thành một thứ lãng mạn hóa nguy hiểm.",
+          "bg": "t7_digital_lighthouse_beacon",
+          "motion": "still",
+          "source": "5.04#11"
+        },
+        {
+          "code": "TK5.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Nếu bạn hoặc những người xung quanh đang phải trải qua những cơn khủng hoảng tâm lý nặng nề hoặc có những suy nghĩ bế tắc, xin hãy nhớ rằng: Bạn không bao giờ phải đơn độc trong bóng tối.",
+          "bg": "t7_redflag1_isolated_virtual_bubble",
+          "motion": "push",
+          "source": "5.04#12"
+        },
+        {
+          "code": "TK5.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Tập bảy của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "bg": "t7_closing_dossier_white_rose",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    }
+  }
+}

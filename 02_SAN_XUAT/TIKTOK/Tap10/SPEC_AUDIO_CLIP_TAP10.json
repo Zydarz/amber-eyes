@@ -1,0 +1,661 @@
+{
+  "episode": "10",
+  "lang": "VI",
+  "engine": "Higgs Audio v3 + VoxCPM2 reference voices",
+  "clips": {
+    "TK1": {
+      "title": "Cạm bẫy xe van gia đình và chiếc hộp 9kg trên xa lộ",
+      "estimated_duration": 72.5,
+      "bgm": "bgm_cello_sad.mp3",
+      "sfx": [
+        "amb_highway_distant.wav (nền)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "line_id": "TK1.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Một người mẹ trẻ mỉm cười bế con thơ trên xe van. Ai ngờ đó là khởi đầu của địa ngục bảy năm?",
+          "bg": "t10_blue_dodge_van_approaching",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "line_id": "TK1.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Ngồi trên xe không phải một gã đàn ông khả nghi đơn độc, mà là một cặp vợ chồng trẻ trạc tuổi cô.",
+          "bg": "t10_innocent_family_facade",
+          "motion": "push",
+          "source": "1.06#2"
+        },
+        {
+          "line_id": "TK1.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Người vợ trẻ mỉm cười thân thiện, trên tay bế ẵm một đứa con nhỏ thơ ngây.",
+          "bg": "t10_innocent_family_facade",
+          "motion": "still",
+          "source": "1.06#3"
+        },
+        {
+          "line_id": "TK1.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Bức tranh gia đình ấm áp và mẫu mực ấy đã tạo nên một “Hiệu ứng Hào quang” hoàn hảo, đánh sập toàn bộ bức tường phòng bị của cô gái trẻ.",
+          "bg": "t10_stepping_into_abyss_trap",
+          "motion": "pan",
+          "source": "1.06#4"
+        },
+        {
+          "line_id": "TK1.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Colleen mỉm cười bước lên xe mà không hề hay biết rằng, bước chân ấy đã đưa cô thẳng vào cánh cửa của một cơn ác mộng kéo dài hơn bảy năm.",
+          "bg": "t10_knife_shadow_ambush",
+          "motion": "push",
+          "source": "1.06#6"
+        },
+        {
+          "line_id": "TK1.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Hắn trùm lên đầu Colleen một chiếc hộp gỗ cách âm có lót mút xốp dày được chế tạo công phu từ trước.",
+          "bg": "t10_soundproof_headbox_forensic",
+          "motion": "pull",
+          "source": "1.10#3"
+        },
+        {
+          "line_id": "TK1.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Chiếc hộp trùm đầu này nặng gần chín ký, cắt đứt hoàn toàn mọi ánh sáng và âm thanh của thế giới bên ngoài.",
+          "bg": "t10_soundproof_headbox_forensic",
+          "motion": "still",
+          "source": "1.10#4"
+        },
+        {
+          "line_id": "TK1.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Việc chế tạo chiếc hộp từ nhiều tháng trước chứng minh đây không phải một hành vi bộc phát nhất thời.",
+          "bg": "t10_isolated_red_bluff_cabin",
+          "motion": "pan",
+          "source": "1.10#6"
+        },
+        {
+          "line_id": "TK1.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Tại đây, cô bị nhốt vào một chiếc hộp gỗ hẹp đóng kín, đặt lọt thỏm dưới gầm giường ngủ của hai vợ chồng kẻ bắt cóc.",
+          "bg": "t10_wooden_box_under_bed_shadow",
+          "motion": "push",
+          "source": "1.11#2"
+        },
+        {
+          "line_id": "TK1.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Tập mười của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "bg": "t10_amber_eyes_closing_dossier_colleen",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK2": {
+      "title": "Bóng ma 'The Company' và bản hợp đồng nô lệ",
+      "estimated_duration": 80.6,
+      "bgm": "bgm_ambient_deep.mp3",
+      "sfx": [
+        "amb_dark_drone.wav (nền)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "line_id": "TK2.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Một tổ chức tội phạm ngầm có hàng nghìn mật vụ khắp nước Mỹ, hay chỉ là lời dối trá rợn người?",
+          "bg": "t10_the_company_shadow_syndicate",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "line_id": "TK2.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Hooker thêu dệt nên một câu chuyện giả tưởng có quy mô toàn quốc về một tổ chức tội phạm ngầm bí ẩn mang tên “The Company”.",
+          "bg": "t10_the_company_shadow_syndicate",
+          "motion": "pan",
+          "source": "2.08#1"
+        },
+        {
+          "line_id": "TK2.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Hắn tuyên bố với Colleen rằng tổ chức này có hàng nghìn đặc vụ ngầm cài cắm ở khắp mọi nơi, từ lực lượng cảnh sát cho đến các cơ quan chính quyền bang California.",
+          "bg": "t10_family_home_under_surveillance",
+          "motion": "still",
+          "source": "2.08#2"
+        },
+        {
+          "line_id": "TK2.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Nếu cô tìm cách trốn chạy hoặc hé lộ sự thật với bất kỳ ai, tổ chức sẽ lập tức săn lùng và trừng phạt cả gia đình cha mẹ cô.",
+          "bg": "t10_family_home_under_surveillance",
+          "motion": "push",
+          "source": "2.08#4"
+        },
+        {
+          "line_id": "TK2.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Bản hợp đồng được soạn thảo với những điều khoản pháp lý giả mạo tinh vi, đánh tráo khái niệm tội ác thành sự cam kết phục tùng tự nguyện.",
+          "bg": "t10_written_slave_contract_quill",
+          "motion": "pull",
+          "source": "2.08#6"
+        },
+        {
+          "line_id": "TK2.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Hooker đã ép Colleen ký vào một “Bản hợp đồng nô lệ” bằng văn bản, buộc cô từ bỏ mọi quyền công dân để cam kết phục tùng hắn tuyệt đối.",
+          "bg": "t10_written_slave_contract_quill",
+          "motion": "still",
+          "source": "2.08#7"
+        },
+        {
+          "line_id": "TK2.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Đối với một cô gái trẻ bị cắt đứt hoàn toàn với thực tại bên ngoài, bản hợp đồng quái đản ấy không chỉ là một tờ giấy vô nghĩa.",
+          "bg": "t10_darkness_as_false_shelter",
+          "motion": "pan",
+          "source": "2.09#1"
+        },
+        {
+          "line_id": "TK2.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Nỗi sợ hãi đối với tổ chức “The Company” đã trở thành một thực tại thép kiên cố hơn bất kỳ chấn song nhà tù nào.",
+          "bg": "t10_coffin_box_claustrophobia",
+          "motion": "push",
+          "source": "2.09#3"
+        },
+        {
+          "line_id": "TK2.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Trong nhận thức bị thao túng của cô, chiếc hộp gỗ dù ngột ngạt và tăm tối lại biến thành nơi an toàn duy nhất để giữ cho gia đình mình được bình yên.",
+          "bg": "t10_darkness_as_false_shelter",
+          "motion": "still",
+          "source": "2.10#5"
+        },
+        {
+          "line_id": "TK2.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Tập mười của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "bg": "t10_amber_eyes_closing_dossier_colleen",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK3": {
+      "title": "Nghịch lý ngày về và sự bất lực tập nhiễm",
+      "estimated_duration": 85.9,
+      "bgm": "bgm_piano_minimal.mp3",
+      "sfx": [
+        "amb_room_silence.wav (nền)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "line_id": "TK3.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Cánh cửa nhà mở toang sau bốn năm biến mất. Tại sao cô không bỏ chạy mà lại ngoan ngoãn trở về?",
+          "bg": "t10_open_door_paradox_dilemma",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "line_id": "TK3.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Tại sao một con người lại không bỏ chạy khi cánh cửa lồng giam đã hoàn toàn mở toang?",
+          "bg": "t10_open_door_paradox_dilemma",
+          "motion": "still",
+          "source": "3.06#1"
+        },
+        {
+          "line_id": "TK3.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Tại sao một nạn nhân lại tự nguyện quay trở lại với chính chiếc hộp gỗ đã tước đoạt tuổi thanh xuân của mình?",
+          "bg": "t10_packed_suitcase_return_car",
+          "motion": "pan",
+          "source": "3.06#2"
+        },
+        {
+          "line_id": "TK3.01#4",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Chìa khóa giải mã hiện tượng này chính là học thuyết kinh điển “Sự Bất Lực Tập Nhiễm”, hay “Learned Helplessness”, do Giáo sư Martin Seligman phát hiện.",
+          "bg": "t10_martin_seligman_learned_helplessness",
+          "motion": "push",
+          "source": "3.07#1"
+        },
+        {
+          "line_id": "TK3.01#5",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Trong các nghiên cứu của mình, Seligman chỉ ra rằng: khi một sinh thể phải chịu đựng đau đớn kéo dài mà mọi nỗ lực phản kháng ban đầu đều vô hiệu, hệ thần kinh sẽ tự động học cách từ bỏ.",
+          "bg": "t10_open_cage_motionless_silhouette",
+          "motion": "pull",
+          "source": "3.07#2"
+        },
+        {
+          "line_id": "TK3.01#6",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Khi ý niệm về sự bất lực đã ăn sâu vào tiềm thức, nạn nhân sẽ tự động từ chối mọi cơ hội tự cứu lấy chính mình.",
+          "bg": "t10_open_cage_motionless_silhouette",
+          "motion": "still",
+          "source": "3.07#5"
+        },
+        {
+          "line_id": "TK3.01#7",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Đối với Colleen, chuyến về thăm nhà thực chất bị cô nhìn nhận như một “Bài kiểm tra lòng trung thành” đầy cạm bẫy của tổ chức “The Company”.",
+          "bg": "t10_window_sniper_paranoia_shadow",
+          "motion": "pan",
+          "source": "3.07#9"
+        },
+        {
+          "line_id": "TK3.01#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Việc im lặng và quay trở lại chiếc hộp gỗ chính là hành động hy sinh cao nhất để bảo vệ tính mạng cho những người thân yêu.",
+          "bg": "t10_invisible_timber_prison_mind",
+          "motion": "push",
+          "source": "3.07#11"
+        },
+        {
+          "line_id": "TK3.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Cùng với sự bất lực tập nhiễm, một cơ chế tâm lý thứ hai đã giam giữ Colleen suốt những năm tháng ấy chính là “Gắn kết Chấn thương cực đoan”, hay “Trauma Bonding”.",
+          "bg": "t10_trauma_bonding_bread_and_whip",
+          "motion": "pull",
+          "source": "3.08#1"
+        },
+        {
+          "line_id": "TK3.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Trong đáy sâu cùng cực của sự tước đoạt, những ân huệ nhỏ nhoi ấy biến kẻ giam cầm trở thành “Vị cứu tinh” duy nhất mà nạn nhân bám víu để tồn tại.",
+          "bg": "t10_captor_as_sole_savior_complex",
+          "motion": "still",
+          "source": "3.08#8"
+        },
+        {
+          "line_id": "TK3.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Tập mười của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "bg": "t10_amber_eyes_closing_dossier_colleen",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK4": {
+      "title": "Sự thức tỉnh của người vợ và giọt nước tràn ly",
+      "estimated_duration": 92.9,
+      "bgm": "bgm_violin_heart.mp3",
+      "sfx": [
+        "amb_wood_creak.wav (nền)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "line_id": "TK4.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Bảy năm làm đồng phạm trên chiếc đệm nước. Điều gì khiến người vợ quyết định đạp đổ tất cả?",
+          "bg": "t10_waterbed_crushing_weight",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "line_id": "TK4.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Người làm lung lay bức tường kiên cố ấy không ai khác chính là Janice Hooker, người vợ kiêm đồng phạm của Cameron.",
+          "bg": "t10_janice_hooker_moral_turmoil",
+          "motion": "push",
+          "source": "4.03#1"
+        },
+        {
+          "line_id": "TK4.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Tuy nhiên, khi Cameron bắt đầu bộc lộ tham vọng muốn bắt cóc thêm một cô gái thứ hai để mở rộng thế giới nô lệ bệnh hoạn, Janice rơi vào hoảng loạn cực độ.",
+          "bg": "t10_second_victim_shadow_threat",
+          "motion": "pan",
+          "source": "4.03#3"
+        },
+        {
+          "line_id": "TK4.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Bà hiểu rằng ảo tưởng bạo lực của chồng sẽ không bao giờ có điểm dừng, và chiếc hộp thứ hai sẽ biến tổ ấm của mình thành một hang ổ tội ác vĩnh viễn.",
+          "bg": "t10_second_victim_shadow_threat",
+          "motion": "still",
+          "source": "4.03#5"
+        },
+        {
+          "line_id": "TK4.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Janice đã tìm đến một vị mục sư địa phương để trút bỏ gánh nặng lương tâm và tìm kiếm sự cứu rỗi.",
+          "bg": "t10_church_pastor_confession_shadow",
+          "motion": "push",
+          "source": "4.03#9"
+        },
+        {
+          "line_id": "TK4.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Vị mục sư đã khuyên Janice phải đối diện với sự thật và chấm dứt ngay lập tức hành vi đồng lõa trước khi quá muộn.",
+          "bg": "t10_church_pastor_confession_shadow",
+          "motion": "still",
+          "source": "4.04#1"
+        },
+        {
+          "line_id": "TK4.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Janice nhận ra rằng nếu tiếp tục im lặng, không chỉ Colleen mà chính tương lai của những đứa con thơ của cô cũng sẽ bị chôn vùi trong vực thẳm tội ác.",
+          "bg": "t10_seventh_year_toddler_toys_shadow",
+          "motion": "pull",
+          "source": "4.04#4"
+        },
+        {
+          "line_id": "TK4.01#8",
+          "role": "N2",
+          "emotion": "fearful",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Nhưng khi nhìn thấy ánh mắt hắn rực lên cơn đói săn mồi mới, nhìn hai đứa con gái nhỏ đang ngây thơ chơi đùa trên sàn nhà, tôi rùng mình thấu suốt: Con quỷ ấy sẽ không bao giờ dừng lại.",
+          "bg": "t10_janice_hooker_moral_turmoil",
+          "motion": "pan",
+          "source": "4.05#4"
+        },
+        {
+          "line_id": "TK4.01#9",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Tôi nắm lấy tay Colleen và nói sự thật: “Cameron không hề thuộc về tổ chức The Company nào cả, tất cả chỉ là lời dối trá của anh ta để giam cầm cô.”",
+          "bg": "t10_truth_revealed_shattered_phantom",
+          "motion": "push",
+          "source": "4.05#8"
+        },
+        {
+          "line_id": "TK4.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Bức tường sợ hãi về tổ chức “The Company” sụp đổ trong tích tắc, trả lại cho cô ý chí sinh tồn nguyên bản.",
+          "bg": "t10_truth_revealed_shattered_phantom",
+          "motion": "still",
+          "source": "4.07#2"
+        },
+        {
+          "line_id": "TK4.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Tập mười của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "bg": "t10_amber_eyes_closing_dossier_colleen",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK5": {
+      "title": "Bốn bài học cảnh báo đỏ sinh tồn trước kẻ săn mồi",
+      "estimated_duration": 110.7,
+      "bgm": "bgm_piano_warm.mp3",
+      "sfx": [
+        "amb_morning_breeze.wav (nền)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "line_id": "TK5.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Lồng giam kiên cố nhất không phải chiếc hộp gỗ, mà là ý nghĩ buông xuôi trong tâm trí bạn.",
+          "bg": "t10_breaking_invisible_chains_dawn",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "line_id": "TK5.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Để bảo vệ chính mình và những người thân yêu trước những kẻ săn mồi tâm lý độc hại, kênh Amber eyes xin đúc kết bốn bài học cảnh báo đỏ sinh tồn từ tấn bi kịch lịch sử này theo nguyên lý “The Gift of Fear” của Gavin de Becker.",
+          "bg": "t10_fbi_academy_profiling_archive",
+          "motion": "still",
+          "source": "5.05#1"
+        },
+        {
+          "line_id": "TK5.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Dấu hiệu thứ nhất: Cảnh giác trước “Hiệu ứng Hào quang” và những vỏ bọc vô hại hoàn hảo.",
+          "bg": "t10_redflag1_trojan_innocence_trap",
+          "motion": "pan",
+          "source": "5.05#2"
+        },
+        {
+          "line_id": "TK5.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Kẻ săn mồi tâm lý nguy hiểm nhất thường không xuất hiện với vẻ ngoài hung tợn, mà ẩn mình sau hình ảnh một gia đình ấm áp, một đứa trẻ thơ ngây hoặc một cử chỉ tử tế dồn dập nhằm đánh sập bức tường phòng ngự tự nhiên của bạn.",
+          "bg": "t10_redflag1_trojan_innocence_trap",
+          "motion": "still",
+          "source": "5.05#3"
+        },
+        {
+          "line_id": "TK5.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Dấu hiệu thứ hai: Nhận diện thủ thuật cô lập không gian và tước đoạt thông tin.",
+          "bg": "t10_redflag2_spatial_isolation_grid",
+          "motion": "push",
+          "source": "5.05#4"
+        },
+        {
+          "line_id": "TK5.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Mọi mối quan hệ độc hại thao túng đều bắt đầu bằng việc tìm cách cắt đứt mối liên kết giữa bạn với người thân, bạn bè và thế giới bên ngoài, nhằm biến kẻ thao túng thành nguồn chân lý duy nhất.",
+          "bg": "t10_redflag2_spatial_isolation_grid",
+          "motion": "still",
+          "source": "5.05#5"
+        },
+        {
+          "line_id": "TK5.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Dấu hiệu thứ ba: Tỉnh táo trước những “Kẻ thù tưởng tượng” và mối đe dọa vô hình.",
+          "bg": "t10_redflag3_phantom_enemy_mirror",
+          "motion": "pull",
+          "source": "5.05#6"
+        },
+        {
+          "line_id": "TK5.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Kẻ thao túng luôn tìm cách thêu dệt nên những bóng ma bên ngoài để gieo rắc nỗi sợ hãi tê liệt, biến bản thân chúng thành chiếc khiên bảo vệ duy nhất mà bạn buộc phải phục tùng.",
+          "bg": "t10_redflag3_phantom_enemy_mirror",
+          "motion": "still",
+          "source": "5.05#7"
+        },
+        {
+          "line_id": "TK5.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Dấu hiệu thứ tư: Phá vỡ “Sự bất lực tập nhiễm” trong suy nghĩ.",
+          "bg": "t10_redflag4_breaking_helplessness_sparks",
+          "motion": "push",
+          "source": "5.05#8"
+        },
+        {
+          "line_id": "TK5.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Lồng giam kiên cố nhất không phải là chiếc hộp bằng gỗ dưới gầm giường, mà là ý nghĩ buông xuôi rằng bản thân hoàn toàn bất lực trước nghịch cảnh.",
+          "bg": "t10_breaking_invisible_chains_dawn",
+          "motion": "pan",
+          "source": "5.05#10"
+        },
+        {
+          "line_id": "TK5.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Tự do đích thực không chỉ là bước đôi chân ra khỏi một căn phòng tối, mà là sự dũng cảm phá tan những xiềng xích thao túng đang giam hãm tâm trí của chính mình.",
+          "bg": "t10_breaking_invisible_chains_dawn",
+          "motion": "still",
+          "source": "5.05#12"
+        },
+        {
+          "line_id": "TK5.01#12",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Tập mười của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "bg": "t10_amber_eyes_closing_dossier_colleen",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    }
+  }
+}

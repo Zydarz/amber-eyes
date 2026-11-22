@@ -1,0 +1,32 @@
+{
+ "requests": [
+  {
+   "prompt": "A masterpiece graphic novel noir illustration, dark investigative crime dossier aesthetic, bold black ink linework, high contrast psychological chiaroscuro lighting, deep pitch-black shadows, cold desaturated grey-blue palette, faded eerie retro colors, decayed autumn tones, fine 35mm film grain, David Fincher meets vintage crime comic style, gloomy overcast suffocating atmosphere, cold mist, unsettling silence, creeping psychological dread, hidden crime scene atmosphere, Recompose the scene of Picture 1 as a full-bleed vertical 9:16 illustration for a mobile phone video. Keep exactly the same subject, mood, ink linework, palette, lighting direction and level of detail as Picture 1. Extend the scene upward and downward so it fills the vertical frame naturally: continue the wall, the floor, the ceiling and the background, no letterboxing, no black bars, no borders, no frame. Place the main subject in the middle band of the frame and keep the upper third and the lower third as quiet, dark, low-contrast shadow areas where captions can be overlaid. If a person is present, keep them a fully dark silhouette seen from behind or in profile, with no facial features visible, no visible eyes and no expression. Strictly no vibrant colors, no cheerful sunlight, no bright blue sky, no warm golden glow, no 3D render, no CGI, no photorealism, no photographic look, strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no captions, no subtitles, no title, no border, no letterbox bars, no collage, no split screen",
+   "reference_images": [
+    {
+     "url": "https://matrix-internal.oss-us-east-1.aliyuncs.com/user_file_upload_tmp%2F2026-11-21%2F593a2162-0fdd-4d50-bb2a-59d4373b4518.jpg?x-oss-credential=LTAI5t9dXq2sLrMZ8f1XfiFZ%2F20261121%2Fus-east-1%2Foss%2Faliyun_v4_request&x-oss-date=20261121T014155Z&x-oss-expires=3600&x-oss-signature=70de013e9834d5d14d7ee4418935418397845fce020bad8df158ff7f665f38b4&x-oss-signature-version=OSS4-HMAC-SHA256",
+     "mime_type": "image/jpeg"
+    }
+   ],
+   "aspect_ratio": "9:16",
+   "area": "2K",
+   "n": 1,
+   "output_format": "jpeg",
+   "output_file": "tk04_pyxis_printout"
+  },
+  {
+   "prompt": "A masterpiece graphic novel noir illustration, dark investigative crime dossier aesthetic, bold black ink linework, high contrast psychological chiaroscuro lighting, deep pitch-black shadows, cold desaturated grey-blue palette, faded eerie retro colors, decayed autumn tones, fine 35mm film grain, David Fincher meets vintage crime comic style, gloomy overcast suffocating atmosphere, cold mist, unsettling silence, creeping psychological dread, hidden crime scene atmosphere, Recompose the scene of Picture 1 as a full-bleed vertical 9:16 illustration for a mobile phone video. Keep exactly the same subject, mood, ink linework, palette, lighting direction and level of detail as Picture 1. Extend the scene upward and downward so it fills the vertical frame naturally: continue the wall, the floor, the ceiling and the background, no letterboxing, no black bars, no borders, no frame. Place the main subject in the middle band of the frame and keep the upper third and the lower third as quiet, dark, low-contrast shadow areas where captions can be overlaid. If a person is present, keep them a fully dark silhouette seen from behind or in profile, with no facial features visible, no visible eyes and no expression. Strictly no vibrant colors, no cheerful sunlight, no bright blue sky, no warm golden glow, no 3D render, no CGI, no photorealism, no photographic look, strictly no text, no letters, no words, no numbers, no signs, no labels, no logos, no watermark, no captions, no subtitles, no title, no border, no letterbox bars, no collage, no split screen",
+   "reference_images": [
+    {
+     "url": "https://matrix-internal.oss-us-east-1.aliyuncs.com/user_file_upload_tmp%2F2026-11-21%2F8f4bdde8-5a15-4680-963f-81982fe3d990.png?x-oss-credential=LTAI5t9dXq2sLrMZ8f1XfiFZ%2F20261121%2Fus-east-1%2Foss%2Faliyun_v4_request&x-oss-date=20261121T014200Z&x-oss-expires=3600&x-oss-signature=1e26990393d28502353ec940a0d63603af77f702c3769e30ec489f95c02835ff&x-oss-signature-version=OSS4-HMAC-SHA256",
+     "mime_type": "image/png"
+    }
+   ],
+   "aspect_ratio": "9:16",
+   "area": "2K",
+   "n": 1,
+   "output_format": "jpeg",
+   "output_file": "tk04_neutral_letter"
+  }
+ ]
+}

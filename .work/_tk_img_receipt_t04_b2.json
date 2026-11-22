@@ -1,0 +1,19 @@
+{
+ "code": 0,
+ "message": "ok",
+ "summary": "Batch processing completed: 2/2 succeeded",
+ "total_requested": 2,
+ "total_success": 2,
+ "total_failed": 0,
+ "success_items": [
+  {
+   "node_id": "465602647240773",
+   "file_name": "tk04_pyxis_printout.jpg"
+  },
+  {
+   "node_id": "465601043730606",
+   "file_name": "tk04_neutral_letter.jpg"
+  }
+ ],
+ "failed_items": []
+}

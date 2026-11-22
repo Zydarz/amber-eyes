@@ -1,0 +1,36 @@
+{
+ "code": 0,
+ "message": "all 5 failed: the plan allowance cannot cover this image generation and credit auto-consumption is turned off on this account; tell the user to turn on credit auto-consumption in Settings > Usage & model > Credits, or wait for the plan allowance to reset; at least 100 credits of balance are required to start this generation (where the M Plan weekly limit applies, it counts at its credit-equivalent value). Account credits come in two kinds: purchased credits and free check-in credits; free check-in credits normally cannot be used for image or video generation (only during promotional periods can they be used), so a balance that looks sufficient can still be rejected when most of it is free check-in credits — tell the user that this generation is paid from purchased credits.",
+ "summary": "Batch processing completed: 0/5 succeeded",
+ "total_requested": 5,
+ "total_success": 0,
+ "total_failed": 5,
+ "success_items": [],
+ "failed_items": [
+  {
+   "index": 0,
+   "error_msg": "the plan allowance cannot cover this image generation and credit auto-consumption is turned off on this account; tell the user to turn on credit auto-consumption in Settings > Usage & model > Credits, or wait for the plan allowance to reset; at least 100 credits of balance are required to start this generation (where the M Plan weekly limit applies, it counts at its credit-equivalent value). Account credits come in two kinds: purchased credits and free check-in credits; free check-in credits normally cannot be used for image or video generation (only during promotional periods can they be used), so a balance that looks sufficient can still be rejected when most of it is free check-in credits — tell the user that this generation is paid from purchased credits.",
+   "err_code": 402
+  },
+  {
+   "index": 1,
+   "error_msg": "the plan allowance cannot cover this image generation and credit auto-consumption is turned off on this account; tell the user to turn on credit auto-consumption in Settings > Usage & model > Credits, or wait for the plan allowance to reset; at least 100 credits of balance are required to start this generation (where the M Plan weekly limit applies, it counts at its credit-equivalent value). Account credits come in two kinds: purchased credits and free check-in credits; free check-in credits normally cannot be used for image or video generation (only during promotional periods can they be used), so a balance that looks sufficient can still be rejected when most of it is free check-in credits — tell the user that this generation is paid from purchased credits.",
+   "err_code": 402
+  },
+  {
+   "index": 2,
+   "error_msg": "the plan allowance cannot cover this image generation and credit auto-consumption is turned off on this account; tell the user to turn on credit auto-consumption in Settings > Usage & model > Credits, or wait for the plan allowance to reset; at least 100 credits of balance are required to start this generation (where the M Plan weekly limit applies, it counts at its credit-equivalent value). Account credits come in two kinds: purchased credits and free check-in credits; free check-in credits normally cannot be used for image or video generation (only during promotional periods can they be used), so a balance that looks sufficient can still be rejected when most of it is free check-in credits — tell the user that this generation is paid from purchased credits.",
+   "err_code": 402
+  },
+  {
+   "index": 3,
+   "error_msg": "the plan allowance cannot cover this image generation and credit auto-consumption is turned off on this account; tell the user to turn on credit auto-consumption in Settings > Usage & model > Credits, or wait for the plan allowance to reset; at least 100 credits of balance are required to start this generation (where the M Plan weekly limit applies, it counts at its credit-equivalent value). Account credits come in two kinds: purchased credits and free check-in credits; free check-in credits normally cannot be used for image or video generation (only during promotional periods can they be used), so a balance that looks sufficient can still be rejected when most of it is free check-in credits — tell the user that this generation is paid from purchased credits.",
+   "err_code": 402
+  },
+  {
+   "index": 4,
+   "error_msg": "the plan allowance cannot cover this image generation and credit auto-consumption is turned off on this account; tell the user to turn on credit auto-consumption in Settings > Usage & model > Credits, or wait for the plan allowance to reset; at least 100 credits of balance are required to start this generation (where the M Plan weekly limit applies, it counts at its credit-equivalent value). Account credits come in two kinds: purchased credits and free check-in credits; free check-in credits normally cannot be used for image or video generation (only during promotional periods can they be used), so a balance that looks sufficient can still be rejected when most of it is free check-in credits — tell the user that this generation is paid from purchased credits.",
+   "err_code": 402
+  }
+ ]
+}

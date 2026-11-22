@@ -1,0 +1,962 @@
+{
+  "_readme": "SPEC_AUDIO_CLIP_TAP09_EN.json — đặc tả âm thanh để SINH WAV cho 5 clip TikTok của Tập 09 (EN). Tương thích engine Higgs Audio v3 + VoxCPM2 reference voices. Đo tỉ lệ đọc thật trên timeline_s_EN_t09.json.",
+  "_episode": "09",
+  "_title": "The Art of Ego Erasure & The Manson Family",
+  "_measured_rates": {
+    "H": 0.3549,
+    "N1": 0.3459,
+    "D": 0.4155,
+    "C": 0.4047,
+    "N2": 0.2956
+  },
+  "_clips_summary": {
+    "TK1": {
+      "name": "The Death of the Summer of Love & The Los Angeles Mass Paranoia",
+      "lines_count": 10,
+      "est_dur_s": 65.9,
+      "signs": [
+        1,
+        9
+      ]
+    },
+    "TK2": {
+      "name": "The Escalation Trajectory & The Chilling Creepy Crawling Game",
+      "lines_count": 10,
+      "est_dur_s": 72.2,
+      "signs": [
+        6,
+        8
+      ]
+    },
+    "TK3": {
+      "name": "The Art of Ego Erasure & The Three-Stage Brainwashing Engine",
+      "lines_count": 10,
+      "est_dur_s": 70.1,
+      "signs": [
+        2,
+        5
+      ]
+    },
+    "TK4": {
+      "name": "The Breakthrough Court Testimony & The Historic Mastermind Doctrine",
+      "lines_count": 10,
+      "est_dur_s": 66.7,
+      "signs": [
+        3,
+        4
+      ]
+    },
+    "TK5": {
+      "name": "Four Survival Red Flags to Defeat Deceptive Psychological Coercion",
+      "lines_count": 10,
+      "est_dur_s": 58.0,
+      "signs": [
+        10,
+        7
+      ]
+    }
+  },
+  "clips": {
+    "TK1": {
+      "id": "TK1",
+      "title": "The Death of the Summer of Love & The Los Angeles Mass Paranoia",
+      "theme": "Societal Impact & Collective Blind Spots in the Counterculture Era",
+      "psychological_signs": [
+        1,
+        9
+      ],
+      "total_est_duration_s": 65.9,
+      "bgm": "bgm_desert_ambient.mp3",
+      "bgm_desc": "Act 1 — episode bed: bgm_desert_ambient.mp3",
+      "sfx": [
+        "amb_wind_desert.wav (bed)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK1.01#1",
+          "text": "THE DEATH OF THE SUMMER OF LOVE 1969",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK1.01#2",
+          "text": "10050 CIELO DRIVE: UNPRECEDENTED HORROR",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#4",
+          "text": "COLLECTIVE PARANOIA GRIPPING LOS ANGELES",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#5",
+          "text": "VALUABLES AND JEWELRY LEFT INTACT",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#7",
+          "text": "BIZARRE SIGNATURE: “PIG” & “HEALTER SKELTER”",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#9",
+          "text": "COLD EXECUTION OF A FANATICAL COMMAND",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK1.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_withered_flower_on_asphalt",
+          "motion": "pull",
+          "text": "That innocent romantic dream shattered into a hundred pieces on one fateful summer night.",
+          "est_dur_s": 5.0,
+          "src_script": "Hook mở đầu — tạo tò mò",
+          "words_spoken": 14
+        },
+        {
+          "clip_line_id": "TK1.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_cielo_drive_estate_night",
+          "motion": "push",
+          "text": "On the night of August 8 leading into the morning of August 9, 1969, an unimaginable darkness descended upon the luxurious estate at 10050 Cielo Drive.",
+          "est_dur_s": 9.2,
+          "src_script": "1.04#2",
+          "words_spoken": 26
+        },
+        {
+          "clip_line_id": "TK1.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_cielo_drive_living_room_somber",
+          "motion": "still",
+          "text": "Among the victims was the beautiful actress Sharon Tate, the director's wife who was nearly nine months pregnant.",
+          "est_dur_s": 6.4,
+          "src_script": "1.04#6",
+          "words_spoken": 18
+        },
+        {
+          "clip_line_id": "TK1.01#4",
+          "role": "N1",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_retro_radio_broadcast_table",
+          "motion": "pan",
+          "text": "On that morning, as the radio continuously broadcast reports of the massacre at Sharon Tate's home, the entire city of Los Angeles fell paralyzed with fear.",
+          "est_dur_s": 9.0,
+          "src_script": "1.07#1",
+          "words_spoken": 26
+        },
+        {
+          "clip_line_id": "TK1.01#5",
+          "role": "N1",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_intact_valuables_diorama",
+          "motion": "pull",
+          "text": "The most terrifying realization was that the intruders had not acted for monetary gain or valuable jewelry.",
+          "est_dur_s": 5.9,
+          "src_script": "1.07#4",
+          "words_spoken": 17
+        },
+        {
+          "clip_line_id": "TK1.01#6",
+          "role": "N1",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_withered_flower_on_asphalt",
+          "motion": "still",
+          "text": "Our Summer of Love died right on that very night.",
+          "est_dur_s": 3.5,
+          "src_script": "1.07#7",
+          "words_spoken": 10
+        },
+        {
+          "clip_line_id": "TK1.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_bloody_letters_forensic_wall",
+          "motion": "push",
+          "text": "Yet on the walls and front doors, the perpetrators had scrawled unsettling words: “PIG”, “RISE”, and a misspelled phrase: “HEALTER SKELTER”.",
+          "est_dur_s": 7.5,
+          "src_script": "1.09#3",
+          "words_spoken": 21
+        },
+        {
+          "clip_line_id": "TK1.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_invisible_puppet_master_shadow",
+          "motion": "pan",
+          "text": "They appeared to be executing a sinister theatrical script orchestrated from the shadows.",
+          "est_dur_s": 5.4,
+          "src_script": "1.10#6",
+          "words_spoken": 13
+        },
+        {
+          "clip_line_id": "TK1.01#9",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t9_manson_shadow_campfire_desert",
+          "motion": "pull",
+          "text": "It was the calculated execution of a fanatical command.",
+          "est_dur_s": 3.7,
+          "src_script": "1.10#8",
+          "words_spoken": 9
+        },
+        {
+          "clip_line_id": "TK1.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t9_amber_eyes_closing_dossier",
+          "motion": "still",
+          "text": "Episode nine of Amber Eyes. Watch the full documentary at the link in bio.",
+          "est_dur_s": 5.0,
+          "src_script": "CTA — kêu gọi xem tập đầy đủ",
+          "words_spoken": 14
+        }
+      ]
+    },
+    "TK2": {
+      "id": "TK2",
+      "title": "The Escalation Trajectory & The Chilling Creepy Crawling Game",
+      "theme": "Escalation Trajectory of Coercive Violence & Boundary Transgression",
+      "psychological_signs": [
+        6,
+        8
+      ],
+      "total_est_duration_s": 72.2,
+      "bgm": "bgm_creepy_crawl.mp3",
+      "bgm_desc": "Act 2 — episode bed: bgm_creepy_crawl.mp3",
+      "sfx": [
+        "amb_desert_wind.wav (bed)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK2.01#1",
+          "text": "PSYCHOLOGICAL REHEARSAL: CREEPY CRAWLING",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK2.01#2",
+          "text": "THE CHARISMATIC LEADER WITH HYPNOTIC GAZE",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#4",
+          "text": "EXPLOITING THE NOMADIC GURU HALO EFFECT",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#6",
+          "text": "MIDNIGHT INTRUSIONS WITHOUT SANCTION",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#8",
+          "text": "SYSTEMATICALLY EXPANDING TRANSGRESSION THRESHOLDS",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#9",
+          "text": "FANTASY STARVATION DRIVING SYMBOLIC MASSACRE",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK2.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_confiscated_clocks_broken_mirror",
+          "motion": "pull",
+          "text": "Breaking into strangers' homes at midnight, taking nothing, only moving furniture.",
+          "est_dur_s": 3.9,
+          "src_script": "Hook mở đầu — tạo tò mò",
+          "words_spoken": 11
+        },
+        {
+          "clip_line_id": "TK2.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_manson_shadow_campfire_desert",
+          "motion": "push",
+          "text": "He was a thirty-four-year-old man of slight physical stature, yet possessing a piercing, hypnotic gaze.",
+          "est_dur_s": 6.2,
+          "src_script": "2.04#3",
+          "words_spoken": 15
+        },
+        {
+          "clip_line_id": "TK2.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_spahn_ranch_dilapidated_porch",
+          "motion": "still",
+          "text": "He was a seasoned transient criminal who had spent more than half his life confined within juvenile reformatories and federal penitentiaries.",
+          "est_dur_s": 8.7,
+          "src_script": "2.04#5",
+          "words_spoken": 21
+        },
+        {
+          "clip_line_id": "TK2.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_haight_ashbury_psychedelic_street",
+          "motion": "pan",
+          "text": "Observing a counterculture captivated by free love and naive idealism, Manson exploited the “Halo Effect” of a wandering spiritual guru to cloak his predatory instincts.",
+          "est_dur_s": 8.9,
+          "src_script": "2.05#2",
+          "words_spoken": 25
+        },
+        {
+          "clip_line_id": "TK2.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_apocalyptic_desert_hideout",
+          "motion": "pull",
+          "text": "There, he began poisoning their minds with a demented apocalyptic dogma christened “Helter Skelter”.",
+          "est_dur_s": 5.0,
+          "src_script": "2.05#5",
+          "words_spoken": 14
+        },
+        {
+          "clip_line_id": "TK2.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_midnight_convoy_old_ford",
+          "motion": "still",
+          "text": "Stage Three: The Nocturnal “Creepy Crawling” Drills.",
+          "est_dur_s": 2.9,
+          "src_script": "2.06#6",
+          "words_spoken": 7
+        },
+        {
+          "clip_line_id": "TK2.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_confiscated_clocks_broken_mirror",
+          "motion": "push",
+          "text": "Manson led disciples on midnight burglaries into suburban homes, taking nothing but rearranging furniture to rehearse their sense of omnipotence and invisible dominance.",
+          "est_dur_s": 9.6,
+          "src_script": "2.06#7",
+          "words_spoken": 23
+        },
+        {
+          "clip_line_id": "TK2.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_unfreezing_love_bombing_circle",
+          "motion": "pan",
+          "text": "With each violation of domestic privacy left unpunished, the threshold for deviance expanded another step in their impressionable minds.",
+          "est_dur_s": 7.9,
+          "src_script": "2.06#8",
+          "words_spoken": 19
+        },
+        {
+          "clip_line_id": "TK2.01#9",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t9_cielo_drive_road_sign_shadow",
+          "motion": "pull",
+          "text": "This trajectory exemplifies a fundamental behavioral reality: when boundary-testing goes unchecked, the appetite for dark fantasy demands ever more destructive realities.",
+          "est_dur_s": 8.7,
+          "src_script": "2.06#13",
+          "words_spoken": 21
+        },
+        {
+          "clip_line_id": "TK2.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t9_amber_eyes_closing_dossier",
+          "motion": "still",
+          "text": "Episode nine of Amber Eyes. Watch the full documentary at the link in bio.",
+          "est_dur_s": 5.0,
+          "src_script": "CTA — kêu gọi xem tập đầy đủ",
+          "words_spoken": 14
+        }
+      ]
+    },
+    "TK3": {
+      "id": "TK3",
+      "title": "The Art of Ego Erasure & The Three-Stage Brainwashing Engine",
+      "theme": "Kurt Lewin's Three-Stage Brainwashing Model & Systematic Ego Dissolution",
+      "psychological_signs": [
+        2,
+        5
+      ],
+      "total_est_duration_s": 70.1,
+      "bgm": "bgm_acid_drone.mp3",
+      "bgm_desc": "Act 3 — episode bed: bgm_acid_drone.mp3",
+      "sfx": [
+        "amb_desert_night.wav (bed)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK3.01#1",
+          "text": "THE PARADOX: FROM REFINED YOUTH TO KILLERS",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK3.01#3",
+          "text": "EDUCATED MIDDLE-CLASS BACKGROUNDS",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#4",
+          "text": "KURT LEWIN’S THREE-STAGE BRAINWASHING MODEL",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#6",
+          "text": "LOVE BOMBING TACTIC OVERWHELMING DEFENSES",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#8",
+          "text": "ISOLATION & PSEUDONYMS: ERASING PAST IDENTITY",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK3.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_yearbook_photos_shadow",
+          "motion": "pull",
+          "text": "Church choir singers, model high school sweethearts. Why did they become ruthless killing machines?",
+          "est_dur_s": 5.0,
+          "src_script": "Hook mở đầu — tạo tò mò",
+          "words_spoken": 14
+        },
+        {
+          "clip_line_id": "TK3.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_runaway_teenager_bus_stop",
+          "motion": "still",
+          "text": "Accompanying him were young women originating from respectable, middle-class suburban households.",
+          "est_dur_s": 3.9,
+          "src_script": "3.02#3",
+          "words_spoken": 11
+        },
+        {
+          "clip_line_id": "TK3.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_yearbook_photos_shadow",
+          "motion": "push",
+          "text": "Susan Atkins had sung in her local church choir, Patricia Krenwinkel was known for her gentleness, and Leslie Van Houten had been a former high school homecoming princess.",
+          "est_dur_s": 9.9,
+          "src_script": "3.02#4",
+          "words_spoken": 28
+        },
+        {
+          "clip_line_id": "TK3.01#4",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_kurt_lewin_three_stages_diagram",
+          "motion": "pan",
+          "text": "To demystify this terrifying transformation, we must examine social psychologist Kurt Lewin's three-stage change paradigm, later adapted by Professor Edgar Schein to explain brainwashing:",
+          "est_dur_s": 9.7,
+          "src_script": "3.03#1",
+          "words_spoken": 24
+        },
+        {
+          "clip_line_id": "TK3.01#5",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_kurt_lewin_three_stages_diagram",
+          "motion": "still",
+          "text": "Namely: Unfreezing the existing self, Changing cognitive perceptions, and Refreezing newly conditioned behavior.",
+          "est_dur_s": 5.3,
+          "src_script": "3.03#2",
+          "words_spoken": 13
+        },
+        {
+          "clip_line_id": "TK3.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_unfreezing_love_bombing_circle",
+          "motion": "pull",
+          "text": "Whenever a vulnerable newcomer crossed the threshold of Spahn Ranch, Manson immediately unleashed aggressive “Love Bombing”.",
+          "est_dur_s": 5.7,
+          "src_script": "3.05#2",
+          "words_spoken": 16
+        },
+        {
+          "clip_line_id": "TK3.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_two_faced_benevolent_mask",
+          "motion": "push",
+          "text": "He embraced them warmly, stared into their eyes, and proclaimed they were flawless beings.",
+          "est_dur_s": 5.0,
+          "src_script": "3.05#3",
+          "words_spoken": 14
+        },
+        {
+          "clip_line_id": "TK3.01#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_burning_id_cards_ashes",
+          "motion": "pan",
+          "text": "Manson demanded that recruits discard their money, surrender identification papers, and cut off all communication with their parents.",
+          "est_dur_s": 7.3,
+          "src_script": "3.06#2",
+          "words_spoken": 18
+        },
+        {
+          "clip_line_id": "TK3.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_vacant_eyes_doll_shadow",
+          "motion": "still",
+          "text": "He stripped away their birth names, assigning them bizarre aliases like Sadie, Katie, or Lulu to erase their historical identities.",
+          "est_dur_s": 8.1,
+          "src_script": "3.06#3",
+          "words_spoken": 20
+        },
+        {
+          "clip_line_id": "TK3.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t9_amber_eyes_closing_dossier",
+          "motion": "still",
+          "text": "Episode nine of Amber Eyes. Watch the full documentary at the link in bio.",
+          "est_dur_s": 5.0,
+          "src_script": "CTA — kêu gọi xem tập đầy đủ",
+          "words_spoken": 14
+        }
+      ]
+    },
+    "TK4": {
+      "id": "TK4",
+      "title": "The Breakthrough Court Testimony & The Historic Mastermind Doctrine",
+      "theme": "Mastermind Conspiracy Doctrine & Kasabian's Awakening to Motherhood",
+      "psychological_signs": [
+        3,
+        4
+      ],
+      "total_est_duration_s": 66.7,
+      "bgm": "bgm_courtroom_tension.mp3",
+      "bgm_desc": "Act 4 — episode bed: bgm_courtroom_tension.mp3",
+      "sfx": [
+        "amb_courtroom.wav (bed)",
+        "fx_gavel_triple.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK4.01#1",
+          "text": "HISTORIC JUDICIAL PRECEDENT ON MASTERMINDS",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK4.01#2",
+          "text": "LINDA KASABIAN: THE WITNESS WHO CHOSE ESCAPE",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#3",
+          "text": "CHILLING GAZE CONFRONTING CHARLES MANSON",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#5",
+          "text": "MATERNAL INTUITION PIERCING THE CULT TRANCE",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#7",
+          "text": "VICARIOUS LIABILITY DOCTRINE PROVING COMPLICITY",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#9",
+          "text": "NARCISSISTIC COLLAPSE AND ETERNAL UNREPENTANCE",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK4.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_mastermind_conspiracy_law_book",
+          "motion": "pull",
+          "text": "His hands never touched a weapon, yet the mastermind received the death penalty.",
+          "est_dur_s": 4.6,
+          "src_script": "Hook mở đầu — tạo tò mò",
+          "words_spoken": 13
+        },
+        {
+          "clip_line_id": "TK4.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_linda_kasabian_witness_dossier",
+          "motion": "still",
+          "text": "That witness was Linda Kasabian, a twenty-year-old young mother.",
+          "est_dur_s": 3.2,
+          "src_script": "4.04#2",
+          "words_spoken": 9
+        },
+        {
+          "clip_line_id": "TK4.01#3",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_courtroom_gavel_bench",
+          "motion": "push",
+          "text": "Standing on the witness stand and looking into the eyes of Charles Manson, an icy dread ran down my spine.",
+          "est_dur_s": 5.9,
+          "src_script": "4.05#1",
+          "words_spoken": 20
+        },
+        {
+          "clip_line_id": "TK4.01#4",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_vacant_eyes_doll_shadow",
+          "motion": "still",
+          "text": "The friends I had shared meals with at Spahn Ranch now sat there with empty, hollow eyes like wooden marionettes.",
+          "est_dur_s": 5.9,
+          "src_script": "4.05#2",
+          "words_spoken": 20
+        },
+        {
+          "clip_line_id": "TK4.01#5",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_cielo_drive_front_gate_fog",
+          "motion": "pan",
+          "text": "On that fateful night at Cielo Drive, as I stood frozen outside the gates listening to frantic cries in the dark, something profound inside me shattered.",
+          "est_dur_s": 7.7,
+          "src_script": "4.05#5",
+          "words_spoken": 26
+        },
+        {
+          "clip_line_id": "TK4.01#6",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_kasabian_escape_night_highway",
+          "motion": "pull",
+          "text": "The terror of losing my child and sheer revulsion toward slaughter woke me from that dark trance to flee into the desert night.",
+          "est_dur_s": 6.8,
+          "src_script": "4.05#7",
+          "words_spoken": 23
+        },
+        {
+          "clip_line_id": "TK4.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_mastermind_conspiracy_law_book",
+          "motion": "still",
+          "text": "This was the doctrine of Conspiracy to Commit Murder and Vicarious Liability.",
+          "est_dur_s": 5.0,
+          "src_script": "4.08#6",
+          "words_spoken": 12
+        },
+        {
+          "clip_line_id": "TK4.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_prosecutor_desk_evidence_files",
+          "motion": "push",
+          "text": "Though he never struck a blow, every violent act was the direct result of his absolute mandate.",
+          "est_dur_s": 7.1,
+          "src_script": "4.08#8",
+          "words_spoken": 17
+        },
+        {
+          "clip_line_id": "TK4.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_corcoran_state_prison_watchtower",
+          "motion": "pan",
+          "text": "In stark contrast, Charles Manson never once experienced genuine remorse; his Malignant Narcissism trapped him in Pathological Self-Pity, playing the perpetual victim of society until his death.",
+          "est_dur_s": 10.9,
+          "src_script": "4.09#9",
+          "words_spoken": 27
+        },
+        {
+          "clip_line_id": "TK4.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t9_amber_eyes_closing_dossier",
+          "motion": "still",
+          "text": "Episode nine of Amber Eyes. Watch the full documentary at the link in bio.",
+          "est_dur_s": 5.0,
+          "src_script": "CTA — kêu gọi xem tập đầy đủ",
+          "words_spoken": 14
+        }
+      ]
+    },
+    "TK5": {
+      "id": "TK5",
+      "title": "Four Survival Red Flags to Defeat Deceptive Psychological Coercion",
+      "theme": "Victimology & Four Critical Survival Warning Signs from The Gift of Fear",
+      "psychological_signs": [
+        10,
+        7
+      ],
+      "total_est_duration_s": 58.0,
+      "bgm": "bgm_warm_reflection.mp3",
+      "bgm_desc": "Act 5 — episode bed: bgm_warm_reflection.mp3",
+      "sfx": [
+        "amb_warm_room.wav (bed)",
+        "fx_paper_folder.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK5.01#1",
+          "text": "FOUR SURVIVAL RED FLAGS AGAINST MANIPULATION",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK5.01#2",
+          "text": "RED FLAG 1: AGGRESSIVE LOVE BOMBING TACTICS",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#4",
+          "text": "RED FLAG 2: SOCIAL ISOLATION & FINANCIAL CONTROL",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#6",
+          "text": "RED FLAG 3: HOSTILE POLARIZED US-VS-THEM MINDSET",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#7",
+          "text": "RED FLAG 4: NEVER SURRENDER MORAL AGENCY",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#9",
+          "text": "INTUITION IS AN INVALUABLE EVOLUTIONARY GIFT",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK5.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_two_faced_benevolent_mask",
+          "motion": "pull",
+          "text": "Predators never appear with the horns of a demon.",
+          "est_dur_s": 3.2,
+          "src_script": "Hook mở đầu — tạo tò mò",
+          "words_spoken": 9
+        },
+        {
+          "clip_line_id": "TK5.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.4,
+          "bg": "t9_redflag1_love_bombing_trap",
+          "motion": "still",
+          "text": "Red Flag One: Beware of Relentless Love Bombing.",
+          "est_dur_s": 2.8,
+          "src_script": "5.07#2",
+          "words_spoken": 8
+        },
+        {
+          "clip_line_id": "TK5.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_redflag1_love_bombing_trap",
+          "motion": "pan",
+          "text": "Any individual or group showering you with disproportionate praise upon first meeting and demanding instant intimacy is attempting to short-circuit your critical intuition.",
+          "est_dur_s": 8.2,
+          "src_script": "5.07#3",
+          "words_spoken": 23
+        },
+        {
+          "clip_line_id": "TK5.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.4,
+          "bg": "t9_redflag2_severed_family_photos",
+          "motion": "pull",
+          "text": "Red Flag Two: Social Isolation and Boundary Stripping.",
+          "est_dur_s": 2.8,
+          "src_script": "5.07#4",
+          "words_spoken": 8
+        },
+        {
+          "clip_line_id": "TK5.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_redflag2_severed_family_photos",
+          "motion": "still",
+          "text": "Withdraw immediately if anyone insists that you sever ties with family, abandon lifelong friends, change your identity, or surrender financial assets to prove loyalty.",
+          "est_dur_s": 8.5,
+          "src_script": "5.07#5",
+          "words_spoken": 24
+        },
+        {
+          "clip_line_id": "TK5.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.4,
+          "bg": "t9_redflag3_fortress_paranoia_wall",
+          "motion": "push",
+          "text": "Red Flag Three: Hostile Us-versus-Them Polarization.",
+          "est_dur_s": 2.1,
+          "src_script": "5.07#6",
+          "words_spoken": 6
+        },
+        {
+          "clip_line_id": "TK5.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_redflag3_fortress_paranoia_wall",
+          "motion": "pan",
+          "text": "Coercive groups systematically cultivate paranoia toward the outside world, presenting themselves as the sole sanctuary to trap your mind within a collective prison.",
+          "est_dur_s": 8.2,
+          "src_script": "5.07#7",
+          "words_spoken": 23
+        },
+        {
+          "clip_line_id": "TK5.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.4,
+          "bg": "t9_redflag4_sacred_conscience_compass",
+          "motion": "still",
+          "text": "Red Flag Four: Never Surrender Your Moral Conscience.",
+          "est_dur_s": 2.8,
+          "src_script": "5.07#8",
+          "words_spoken": 8
+        },
+        {
+          "clip_line_id": "TK5.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_inverted_cross_moral_confusion",
+          "motion": "push",
+          "text": "When a self-appointed leader demands that you violate legal boundaries or moral conscience in the name of a higher calling, you have taken the first step toward the abyss.",
+          "est_dur_s": 10.3,
+          "src_script": "5.07#9",
+          "words_spoken": 29
+        },
+        {
+          "clip_line_id": "TK5.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t9_amber_eyes_closing_dossier",
+          "motion": "still",
+          "text": "Episode nine of Amber Eyes. Watch the full documentary at the link in bio.",
+          "est_dur_s": 5.0,
+          "src_script": "CTA — kêu gọi xem tập đầy đủ",
+          "words_spoken": 14
+        }
+      ]
+    }
+  },
+  "_language": "EN"
+}

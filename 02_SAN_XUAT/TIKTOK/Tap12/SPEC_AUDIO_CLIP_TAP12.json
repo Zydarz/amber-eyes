@@ -1,0 +1,704 @@
+{
+  "TK1": {
+    "title": "Vỏ bọc Bác ái và Điểm mù Chính trị của Peoples Temple",
+    "theme": "Hiệu ứng Hào quang (Halo Effect) & Điểm mù Chính trị (Political Blind Spot)",
+    "hook": "Nhận nuôi trẻ em đa chủng tộc, mở bếp ăn từ thiện. Tại sao cả xã hội bị ru ngủ?",
+    "total_dur_est": 74.8,
+    "bgm": "bgm_cello_sad.mp3",
+    "sfx": [
+      "amb_wind_cold.wav (nền)",
+      "fx_crowd_applause.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK1.01#1",
+        "text": "HỒ SƠ PEOPLES TEMPLE · SAN FRANCISCO THẬP NIÊN 1970",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK1.01#3",
+        "text": "CHỦ TỊCH ỦY BAN NHÀ Ở SAN FRANCISCO",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK1.01#4",
+        "text": "HIỆU ỨNG HÀO QUANG & ĐIỂM MÙ CHÍNH TRỊ",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK1.01#6",
+        "text": "TÊ LIỆT GIÁM SÁT TRƯỚC SỨC ÉP DƯ LUẬN",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK1.01#7",
+        "text": "BỨC RÈM TỪ THIỆN CHE GIẤU ĐẾ CHẾ ĐỘC TÀI",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK1.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Người sáng lập tổ chức, James Warren Jones, được biết đến với hình ảnh một nhà hoạt động từ thiện nhiệt huyết khi mở các bếp ăn từ thiện, trại dưỡng lão và trung tâm cai nghiện cho những người yếu thế.",
+        "source": "1.04#3",
+        "bg": "t12_racial_harmony_facade",
+        "camera": "still",
+        "dur_est": 12.31
+      },
+      {
+        "id": "TK1.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Hắn nhận nuôi nhiều trẻ em thuộc các chủng tộc khác nhau và tự hào gọi gia đình mình là “Gia đình Cầu vồng” để làm bình phong quảng bá lý tưởng bác ái.",
+        "source": "1.04#4",
+        "bg": "t12_racial_harmony_facade",
+        "camera": "pan",
+        "dur_est": 9.97
+      },
+      {
+        "id": "TK1.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Nhờ vỏ bọc đạo đức hoàn hảo, hắn kết thân với nhiều chính khách hàng đầu bang California và được bổ nhiệm làm Chủ tịch Ủy ban Nhà ở của thành phố San Francisco.",
+        "source": "1.04#6",
+        "bg": "t12_charity_soup_kitchen_bread",
+        "camera": "push",
+        "dur_est": 9.97
+      },
+      {
+        "id": "TK1.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "“Hiệu ứng Hào quang” kết hợp với một “Điểm mù chính trị” khổng lồ thời bấy giờ đã tạo nên một tấm khiên che chắn vô hình cho tổ chức.",
+        "source": "1.04#7",
+        "bg": "t12_san_francisco_temple_expansion",
+        "camera": "still",
+        "dur_est": 8.79
+      },
+      {
+        "id": "TK1.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Vào thời kỳ hậu biến động dân quyền, các chính khách khao khát một biểu tượng hòa hợp chủng tộc và rất cần khối phiếu bầu kỷ luật của hàng ngàn tín đồ trung thành.",
+        "source": "1.04#8",
+        "bg": "t12_san_francisco_temple_expansion",
+        "camera": "pan",
+        "dur_est": 10.26
+      },
+      {
+        "id": "TK1.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Nỗi sợ hãi dư luận xã hội đã làm tê liệt chức năng giám sát của các cơ quan bảo vệ pháp luật, khiến những dấu hiệu bất thường bị cố tình bỏ qua suốt nhiều năm.",
+        "source": "1.04#10",
+        "bg": "t12_city_hall_political_alliances",
+        "camera": "push",
+        "dur_est": 10.84
+      },
+      {
+        "id": "TK1.01#7",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Thế nhưng, đằng sau bức rèm từ thiện hoa mỹ ấy là một đế chế độc tài khép kín được vận hành bằng bạo lực và sự kiểm soát tinh vi.",
+        "source": "1.06#1",
+        "bg": "t12_iron_fist_behind_velvet_curtain",
+        "camera": "still",
+        "dur_est": 9.09
+      }
+    ]
+  },
+  "TK2": {
+    "title": "Thiên đường Rừng sâu hay Trại giam Tâm lý Khép kín?",
+    "theme": "Cơ chế Tách rời Thực tại & Phá hủy Liên kết Thân tộc (Social Isolation & Family Severing)",
+    "hook": "Bán hết nhà cửa, giao nộp hộ chiếu. Khi thiên đường hóa thành chiếc lồng giam không lối thoát.",
+    "total_dur_est": 63.5,
+    "bgm": "bgm_ambient_deep.mp3",
+    "sfx": [
+      "amb_jungle_insects.wav (nền)",
+      "fx_trunk_lock.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK2.01#1",
+        "text": "THANH LỌC TÂM TRÍ: CƯỠNG BỨC SỈ NHỤC CÔNG KHAI",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK2.01#3",
+        "text": "TƯỚC ĐOẠT TÀI SẢN · CẮT ĐỨT HỖ TRỢ THÂN TỘC",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK2.01#5",
+        "text": "THU GIỮ TOÀN BỘ HỘ CHIẾU VÀ TIỀN BẠC TẠI CỔNG VÀO",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK2.01#7",
+        "text": "HỌNG SÚNG AN NINH BAO VÂY 24/7",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK2.01#8",
+        "text": "TRỰC GIÁC BÁO ĐỘNG CỦA NGƯỜI MẸ TRẺ",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK2.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Jim Jones bí mật tổ chức các buổi phê bình tập thể mang tên “Thanh lọc tâm trí”.",
+        "source": "1.06#2",
+        "bg": "t12_iron_fist_behind_velvet_curtain",
+        "camera": "pan",
+        "dur_est": 5.28
+      },
+      {
+        "id": "TK2.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Hắn khéo léo phá hủy các liên kết gia đình ruột thịt và ép mọi người phải xem hắn là người cha duy nhất nắm giữ chân lý tối thượng.",
+        "source": "1.06#4",
+        "bg": "t12_catharsis_session_interrogation",
+        "camera": "push",
+        "dur_est": 8.79
+      },
+      {
+        "id": "TK2.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Hắn thuyết phục các tín đồ bán toàn bộ nhà cửa, giao nộp toàn bộ tiền tiết kiệm và trợ cấp xã hội cho tổ chức để phục vụ lý tưởng chung.",
+        "source": "1.06#5",
+        "bg": "t12_property_surrender_passbooks",
+        "camera": "still",
+        "dur_est": 9.38
+      },
+      {
+        "id": "TK2.01#4",
+        "role": "N1",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Hãy hình dung tâm trạng của một tín đồ khi lần đầu tiên đặt chân lên vùng đất Guyana heo hút.",
+        "source": "1.07#1",
+        "bg": "t12_utopian_promise_mirage",
+        "camera": "still",
+        "dur_est": 5.67
+      },
+      {
+        "id": "TK2.01#5",
+        "role": "N1",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Nhưng khi đến Jonestown, toàn bộ hộ chiếu và tiền bạc của chúng tôi đều bị ban quản lý thu giữ ngay tại cổng vào.",
+        "source": "1.07#3",
+        "bg": "t12_confiscated_passports_trunk",
+        "camera": "pull",
+        "dur_est": 6.74
+      },
+      {
+        "id": "TK2.01#6",
+        "role": "N1",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Mỗi ngày, chúng tôi phải lao động khổ sai ngoài đồng ruộng mười một tiếng dưới cái nắng gay gắt của miền xích đạo trong khi khẩu phần ăn chỉ có cơm trắng chan nước dùng loãng.",
+        "source": "1.07#4",
+        "bg": "t12_confiscated_passports_trunk",
+        "camera": "push",
+        "dur_est": 9.98
+      },
+      {
+        "id": "TK2.01#7",
+        "role": "N1",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Chung quanh khu định cư luôn có những tay súng thuộc đội an ninh tuần tra cẩn mật ngày đêm.",
+        "source": "1.07#5",
+        "bg": "t12_equatorial_forced_labor_fields",
+        "camera": "still",
+        "dur_est": 5.4
+      },
+      {
+        "id": "TK2.01#8",
+        "role": "N1",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.0,
+        "text": "Trực giác người mẹ mách bảo tôi rằng một tai họa khủng khiếp đang lơ lửng trên đầu con mình, và tôi phải tìm cách chạy trốn bằng mọi giá.",
+        "source": "1.07#8",
+        "bg": "t12_inescapable_labor_camp_cage",
+        "camera": "push",
+        "dur_est": 8.09
+      }
+    ]
+  },
+  "TK3": {
+    "title": "Tư duy Tập thể (Groupthink) & Bẫy Tâm lý Milgram",
+    "theme": "Sự Phục tùng Quyền lực (Milgram Paradigm) & Tư duy Tập thể (Groupthink - Irving Janis)",
+    "hook": "Tại sao 918 con người cùng bước vào chỗ chết mà không phản kháng? Bí ẩn tâm lý học bầy đàn.",
+    "total_dur_est": 64.1,
+    "bgm": "bgm_piano_minimal.mp3",
+    "sfx": [
+      "amb_room_tone.wav (nền)",
+      "fx_clock_ticking.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK3.01#1",
+        "text": "CÂU HỎI LỚN NHẤT CỦA THẢM KỊCH: TẠI SAO?",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK3.01#3",
+        "text": "THÍ NGHIỆM MILGRAM: CHUYỂN GIAO TRÁCH NHIỆM ĐẠO ĐỨC",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK3.01#5",
+        "text": "IRVING JANIS: HIỆN TƯỢNG TƯ DUY TẬP THỂ (GROUPTHINK)",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK3.01#7",
+        "text": "KỸ THUẬT LEO THANG CAM KẾT (FOOT-IN-THE-DOOR)",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK3.01#8",
+        "text": "CHIẾC BẪY TỰ NGUYỆN MÙ QUÁNG HOÀN HẢO",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK3.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Nhìn lại thảm kịch Jonestown, câu hỏi lớn nhất luôn dằn vặt nhân loại suốt nhiều thập kỷ qua là: Tại sao?",
+        "source": "3.02#1",
+        "bg": "t12_unanswered_question_diorama",
+        "camera": "pan",
+        "dur_est": 6.45
+      },
+      {
+        "id": "TK3.01#2",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Hiện tượng đầu tiên và cũng là nền tảng cốt lõi chi phối thảm kịch Jonestown chính là “Sự phục tùng quyền lực”, được chứng minh qua thí nghiệm kinh điển của nhà tâm lý học Stanley Milgram.",
+        "source": "3.03#1",
+        "bg": "t12_milgram_experiment_shock_generator",
+        "camera": "push",
+        "dur_est": 8.9
+      },
+      {
+        "id": "TK3.01#3",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Thí nghiệm của Milgram chỉ ra rằng khi con người đối diện với một nhân vật được coi là quyền lực hợp pháp, họ có xu hướng chuyển giao trách nhiệm đạo đức cá nhân sang cho kẻ ra lệnh.",
+        "source": "3.03#2",
+        "bg": "t12_milgram_experiment_shock_generator",
+        "camera": "still",
+        "dur_est": 9.37
+      },
+      {
+        "id": "TK3.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Không chỉ dừng lại ở sự phục tùng quyền lực cá nhân, Jim Jones còn tận dụng triệt để sức ép của tập thể để bóp nghẹt mọi suy nghĩ độc lập.",
+        "source": "3.04#1",
+        "bg": "t12_groupthink_hostile_mob_shadows",
+        "camera": "still",
+        "dur_est": 9.38
+      },
+      {
+        "id": "TK3.01#5",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Khái niệm “Tư duy tập thể”, hay Groupthink, do nhà tâm lý học Irving Janis phát triển, giải thích cách một nhóm người đưa ra những quyết định hoàn toàn phi lý và hủy diệt.",
+        "source": "3.05#1",
+        "bg": "t12_cognitive_dissonance_scales",
+        "camera": "pull",
+        "dur_est": 8.2
+      },
+      {
+        "id": "TK3.01#6",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Khi nhu cầu duy trì sự hòa thuận và lòng trung thành nội bộ vượt lên trên việc đánh giá hiện thực một cách khách quan, nhóm sẽ tự hình thành các điểm mù nhận thức khổng lồ.",
+        "source": "3.05#2",
+        "bg": "t12_cognitive_dissonance_scales",
+        "camera": "push",
+        "dur_est": 8.9
+      },
+      {
+        "id": "TK3.01#7",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Cơ chế này được củng cố bằng kỹ thuật tâm lý “Leo thang cam kết”, hay kỹ thuật Foot-in-the-Door.",
+        "source": "3.05#4",
+        "bg": "t12_closed_circle_of_stools",
+        "camera": "pan",
+        "dur_est": 4.45
+      },
+      {
+        "id": "TK3.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Đây là một cái bẫy tâm lý leo thang hoàn hảo giam cầm con người trong sự tự nguyện mù quáng.",
+        "source": "3.05#13",
+        "bg": "t12_staircase_into_blackness",
+        "camera": "pull",
+        "dur_est": 4.92
+      }
+    ]
+  },
+  "TK4": {
+    "title": "Cuộn băng Tử thần Q 042 & Tiếng nói Phản kháng Đơn độc",
+    "theme": "Hệ thống Tự bào chữa (Sykes & Matza) & Lương tri Độc lập (Independent Conscience)",
+    "hook": "Băng cassette giải mật 44 phút của FBI. Người phụ nữ duy nhất dám đứng lên chất vấn giáo chủ.",
+    "total_dur_est": 76.2,
+    "bgm": "bgm_violin_heart.mp3",
+    "sfx": [
+      "amb_tape_hiss.wav (nền)",
+      "fx_cassette_play.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK4.01#1",
+        "text": "CUỘN BĂNG TỬ THẦN Q 042 · TƯ LIỆU GIẢI MẬT FBI",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK4.01#2",
+        "text": "44 PHÚT GHI ÂM BUỔI CHIỀU ĐỊNH MỆNH 18/11/1978",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK4.01#4",
+        "text": "BÀ CHRISTINE MILLER (60 TUỔI): ĐỨNG LÊN CHẤT VẤN",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK4.01#6",
+        "text": "“CHỪNG NÀO CÒN CÓ SỰ SỐNG, CHÚNG TA VẪN CÒN HY VỌNG”",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK4.01#8",
+        "text": "LƯƠNG TRI ĐỘC LẬP BẢO VỆ MẦM SỐNG",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK4.01#1",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Hồ sơ lưu trữ của chính phủ Hoa Kỳ sau này đã giải mật một trong những bằng chứng chấn động và ám ảnh nhất lịch sử: “Cuộn băng tử thần Q 042”.",
+        "source": "2.11#1",
+        "bg": "t12_knife_attack_scuffle_pavilion",
+        "camera": "pull",
+        "dur_est": 9.15
+      },
+      {
+        "id": "TK4.01#2",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Đây là cuộn băng cassette dài bốn mươi tư phút ghi lại toàn bộ diễn biến âm thanh trung thực diễn ra tại ngôi nhà chung trong buổi chiều định mệnh ngày 18 tháng 11 năm 1978.",
+        "source": "2.11#2",
+        "bg": "t12_knife_attack_scuffle_pavilion",
+        "camera": "push",
+        "dur_est": 11.76
+      },
+      {
+        "id": "TK4.01#3",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Trong cuộn băng, Jim Jones thông báo với đám đông rằng phái đoàn của Nghị sĩ Leo Ryan đã bị phục kích tại đường băng và máy bay sắp rơi xuống rừng.",
+        "source": "2.11#3",
+        "bg": "t12_old_radio_receiver_dark",
+        "camera": "still",
+        "dur_est": 8.36
+      },
+      {
+        "id": "TK4.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Người phụ nữ dũng cảm ấy tên là Christine Miller, một nữ tín đồ da màu khoảng sáu mươi tuổi đã gắn bó nhiều năm với tổ chức.",
+        "source": "4.04#1",
+        "bg": "t12_miller_silhouette_at_microphone",
+        "camera": "pull",
+        "dur_est": 8.21
+      },
+      {
+        "id": "TK4.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Khi nghe Jones tuyên bố kế hoạch chấm dứt sự sống tập thể, bà đã không ngần ngại đứng lên chất vấn kẻ cầm đầu ngay trước mặt toàn thể cộng đồng.",
+        "source": "4.04#2",
+        "bg": "t12_miller_silhouette_at_microphone",
+        "camera": "push",
+        "dur_est": 9.38
+      },
+      {
+        "id": "TK4.01#6",
+        "role": "H",
+        "emotion": "fearful",
+        "speed": -0.03,
+        "pause_after": 0.6,
+        "text": "Giọng bà vang lên rành rọt và kiên định được lưu giữ nguyên vẹn trong cuộn băng: “Tôi cảm thấy chừng nào còn có sự sống, con người vẫn còn có hy vọng.”",
+        "source": "4.04#3",
+        "bg": "t12_empty_microphone_after_crowd",
+        "camera": "still",
+        "dur_est": 9.67
+      },
+      {
+        "id": "TK4.01#7",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Thế nhưng, trước sự chất vấn đầy lý lẽ của Christine Miller, Jim Jones chỉ đáp lại bằng sự tức giận và thái độ xua đuổi gay gắt.",
+        "source": "4.06#1",
+        "bg": "t12_raised_fist_behind_microphone",
+        "camera": "still",
+        "dur_est": 8.21
+      },
+      {
+        "id": "TK4.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Hành động phản kháng của bà Christine Miller thể hiện sức mạnh của “Lương tri Độc lập”, dám vượt qua ranh giới sợ hãi để bảo vệ sinh mạng trẻ thơ.",
+        "source": "4.07#5",
+        "bg": "t12_brass_compass_on_bare_table",
+        "camera": "still",
+        "dur_est": 7.26
+      }
+    ]
+  },
+  "TK5": {
+    "title": "Nạn nhân học & 4 Cảnh báo Đỏ Sinh tồn",
+    "theme": "Nạn nhân học (Victimology) & 4 Dấu hiệu Cảnh báo Đỏ Sinh tồn (The Gift of Fear)",
+    "hook": "Bốn tín hiệu cảnh báo đỏ để không bao giờ rơi vào chiếc bẫy thao túng tâm lý cực đoan.",
+    "total_dur_est": 82.6,
+    "bgm": "bgm_piano_warm.mp3",
+    "sfx": [
+      "amb_room_tone.wav (nền)",
+      "fx_page_turn.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK5.01#1",
+        "text": "4 CẢNH BÁO ĐỎ SINH TỒN · THE GIFT OF FEAR",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#2",
+        "text": "CẢNH BÁO 1: CÔ LẬP KHỎI MẠNG LƯỚI XÃ HỘI",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#4",
+        "text": "CẢNH BÁO 2: TƯỚC ĐOẠT TÀI CHÍNH & TỰ CHỦ",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#6",
+        "text": "CẢNH BÁO 3: LÀM SUY KIỆT THỂ CHẤT ĐỂ TRIỆT TIÊU PHẢN BIỆN",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#8",
+        "text": "CẢNH BÁO 4: THẦN THÁNH HÓA THỦ LĨNH & CẤM HOÀI NGHI",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#10",
+        "text": "TRỰC GIÁC BẤT AN LÀ MÓN QUÀ SINH TỒN QUÝ GIÁ NHẤT",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK5.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Để giúp quý vị và những người thân yêu nhận diện và phòng tránh những cạm bẫy thao túng tâm lý độc hại trong cuộc sống hiện đại, kênh Amber eyes xin đúc kết bốn dấu hiệu cảnh báo đỏ sinh tồn rút ra từ thảm kịch Jonestown.",
+        "source": "5.05#1",
+        "bg": "t12_amber_eyes_closing_dossier_jonestown",
+        "camera": "pan",
+        "dur_est": 14.07
+      },
+      {
+        "id": "TK5.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "Cảnh báo đỏ thứ nhất: Chiến thuật cô lập hoàn toàn khỏi mạng lưới hỗ trợ xã hội.",
+        "source": "5.05#2",
+        "bg": "t12_redflag1_total_social_isolation",
+        "camera": "pull",
+        "dur_est": 5.28
+      },
+      {
+        "id": "TK5.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Họ cố tình tách bạn ra khỏi thực tại để biến tổ chức thành điểm tựa duy nhất chi phối toàn bộ thế giới quan của bạn.",
+        "source": "5.05#4",
+        "bg": "t12_redflag2_silenced_critical_thinking",
+        "camera": "still",
+        "dur_est": 7.91
+      },
+      {
+        "id": "TK5.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "Cảnh báo đỏ thứ hai: Sự kiểm soát tài chính và tước đoạt phương tiện độc lập cá nhân.",
+        "source": "5.05#5",
+        "bg": "t12_redflag3_escalating_commitment_trap",
+        "camera": "pan",
+        "dur_est": 5.57
+      },
+      {
+        "id": "TK5.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Khi mất đi quyền tự chủ về kinh tế và phương tiện di chuyển, bạn sẽ mất luôn khả năng tự giải thoát khi nhận ra sự bất thường.",
+        "source": "5.05#7",
+        "bg": "t12_empty_trunk_open_padlock",
+        "camera": "push",
+        "dur_est": 8.5
+      },
+      {
+        "id": "TK5.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "Cảnh báo đỏ thứ ba: Làm suy kiệt thể chất nhằm triệt tiêu năng lực tư duy phản biện.",
+        "source": "5.05#8",
+        "bg": "t12_exhausted_worker_hut_wall",
+        "camera": "still",
+        "dur_est": 5.57
+      },
+      {
+        "id": "TK5.01#7",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Khi cơ thể mệt mỏi cùng cực, khả năng nghi ngờ và phản kháng của não bộ sẽ bị tê liệt hoàn toàn.",
+        "source": "5.05#10",
+        "bg": "t12_sleep_deprived_bare_bunk",
+        "camera": "pull",
+        "dur_est": 6.74
+      },
+      {
+        "id": "TK5.01#8",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "Cảnh báo đỏ thứ tư: Thần thánh hóa người lãnh đạo và trừng phạt mọi tiếng nói hoài nghi.",
+        "source": "5.05#11",
+        "bg": "t12_redflag4_fortress_paranoia_wall",
+        "camera": "push",
+        "dur_est": 5.57
+      },
+      {
+        "id": "TK5.01#9",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Ngược lại, nếu một nơi xem người đứng đầu là đấng toàn năng không thể sai lầm và coi sự thắc mắc là tội lỗi cần bị trừng phạt, đó chắc chắn là một cái bẫy độc tài.",
+        "source": "5.05#13",
+        "bg": "t12_paranoia_wall_coiled_wire",
+        "camera": "pan",
+        "dur_est": 11.14
+      },
+      {
+        "id": "TK5.01#10",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Hãy luôn nhớ cuốn sách “The Gift of Fear” của Gavin de Becker: “Trực giác bất an là món quà sinh tồn quý giá nhất của con người.”",
+        "source": "5.05#15",
+        "bg": "t12_instinct_bent_branch_path",
+        "camera": "push",
+        "dur_est": 8.21
+      }
+    ]
+  }
+}

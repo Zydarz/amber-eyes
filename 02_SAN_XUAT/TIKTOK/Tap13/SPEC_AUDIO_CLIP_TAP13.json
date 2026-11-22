@@ -1,0 +1,716 @@
+{
+  "TK1": {
+    "title": "Vỏ bọc 'Con Nhà Người Ta' & Kỷ luật Cha Mẹ Hổ",
+    "theme": "Hiệu ứng Hào quang (Halo Effect) & Điểm mù Áp lực Gia đình (Tiger Parenting Blind Spot)",
+    "hook": "Huy chương trượt băng, piano xuất sắc. Chiếc lồng giam vô hình đằng sau vỏ bọc 'con nhà người ta'.",
+    "total_dur_est": 77.1,
+    "bgm": "bgm_cello_sad.mp3",
+    "sfx": [
+      "amb_wind_cold.wav (nền)",
+      "fx_piano_single_note.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK1.01#1",
+        "text": "HỒ SƠ JENNIFER PAN · MARKHAM, ONTARIO, CANADA",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK1.01#3",
+        "text": "VỎ BỌC 'CON NHÀ NGƯỜI TA' HOÀN HẢO",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK1.01#5",
+        "text": "KỶ LUẬT THÉP CỰC ĐOAN: CẤM BẠN BÈ, CẤM HẸN HÒ",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK1.01#7",
+        "text": "NỖI SỢ HÃI TÊ LIỆT BÀO MÒN NHÂN CÁCH",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK1.01#8",
+        "text": "MÔ HÌNH 'CHA MẸ HỔ' VÀ SỰ KỲ VỌNG ÁP ĐẶT",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK1.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Trong mắt thầy cô giáo và những người hàng xóm xung quanh, Jennifer Pan luôn xuất hiện với nụ cười lễ phép, phong thái nhu mì và sự vâng lời tuyệt đối.",
+        "source": "1.04#1",
+        "bg": "t13_perfect_daughter_facade",
+        "camera": "push",
+        "dur_est": 9.42
+      },
+      {
+        "id": "TK1.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Cô từng giành được nhiều huy chương trong các giải thi đấu trượt băng nghệ thuật cấp tỉnh và đạt chứng chỉ âm nhạc xuất sắc.",
+        "source": "1.04#2",
+        "bg": "t13_perfect_daughter_facade",
+        "camera": "pan",
+        "dur_est": 7.65
+      },
+      {
+        "id": "TK1.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Thế nhưng, đằng sau vẻ ngoài hào nhoáng của một “con nhà người ta” là một chiếc lồng giam vô hình được dựng nên bởi mô hình kỷ luật độc đoán mang tên “Cha mẹ hổ”.",
+        "source": "1.04#3",
+        "bg": "t13_curtain_of_subservience_dropping",
+        "camera": "pull",
+        "dur_est": 10.6
+      },
+      {
+        "id": "TK1.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Người cha Huei Hann Pan thiết lập một kỷ luật thép với những quy tắc cấm đoán nghiêm ngặt đến mức cực đoan.",
+        "source": "1.04#4",
+        "bg": "t13_tiger_parent_looming_shadow",
+        "camera": "still",
+        "dur_est": 6.77
+      },
+      {
+        "id": "TK1.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Jennifer bị cấm tuyệt đối tham gia các buổi liên hoan của trường, không được phép đi chơi đêm, không được trang điểm và không bao giờ được phép hẹn hò.",
+        "source": "1.04#5",
+        "bg": "t13_tiger_parent_looming_shadow",
+        "camera": "push",
+        "dur_est": 9.13
+      },
+      {
+        "id": "TK1.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Toàn bộ thế giới tuổi thơ và thanh xuân của cô chỉ xoay quanh phòng học, sân băng và cây đàn piano dưới sự giám sát hai mươi bốn trên hai mươi bốn của người cha.",
+        "source": "1.04#6",
+        "bg": "t13_locked_bedroom_desk_clock",
+        "camera": "pan",
+        "dur_est": 10.6
+      },
+      {
+        "id": "TK1.01#7",
+        "role": "H",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "Sự dồn nén cảm xúc kéo dài suốt thời niên thiếu đã âm thầm bào mòn nhân cách của cô bé, biến lòng kính trọng ban đầu thành nỗi sợ hãi tê liệt trước sự phán xét của đấng sinh thành.",
+        "source": "1.04#7",
+        "bg": "t13_locked_bedroom_desk_clock",
+        "camera": "pull",
+        "dur_est": 12.07
+      },
+      {
+        "id": "TK1.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Điểm khởi đầu của bi kịch nằm ở mô hình giáo dục mang tên “Cha mẹ hổ” do người cha áp dụng với mức độ cực đoan và độc đoán.",
+        "source": "3.03#1",
+        "bg": "t13_tiger_parenting_immigrant_anxiety",
+        "camera": "pan",
+        "dur_est": 6.62
+      }
+    ]
+  },
+  "TK2": {
+    "title": "Tòa Tháp Dối Lừa 10 Năm & Lối Sống Hai Mặt",
+    "theme": "Quỹ đạo Leo thang Ảo tưởng (Fantasy Escalation) & Hội chứng Nói dối Bệnh lý (Mythomania)",
+    "hook": "Làm giả học bạ trung học, ngụy tạo bằng đại học Dược khoa. Một lời nói dối leo thang suốt 10 năm.",
+    "total_dur_est": 82.0,
+    "bgm": "bgm_ambient_deep.mp3",
+    "sfx": [
+      "amb_library_room.wav (nền)",
+      "fx_paper_scissors.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK2.01#1",
+        "text": "PHÁT SÚNG ĐẦU TIÊN: LÀM GIẢ HỌC BẠ BẰNG DAO RỌC GIẤY",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK2.01#3",
+        "text": "TÒA THÁP LỪA DỐI SUỐT GẦN MƯỜI NĂM TIẾP THEO",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK2.01#5",
+        "text": "LỐI SỐNG HAI MẶT: NGỒI THƯ VIỆN ĐỌC TIỂU THUYẾT MỖI NGÀY",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK2.01#7",
+        "text": "NGỤY TẠO BẰNG CỬ NHÂN DƯỢC & VIỆC LÀM TẠI BỆNH VIỆN",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK2.01#8",
+        "text": "SỰ LEO THANG KHÔNG THỂ VÃN HỒI CỦA TỘI ÁC",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK2.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Thay vì dũng cảm thừa nhận thất bại và tìm kiếm sự giúp đỡ, cô đã đưa ra một lựa chọn mang tính định mệnh nhằm duy trì chiếc mặt nạ hoàn hảo.",
+        "source": "1.06#5",
+        "bg": "t13_forgery_scissors_glue_photocopy",
+        "camera": "still",
+        "dur_est": 9.71
+      },
+      {
+        "id": "TK2.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Cô cẩn thận dùng dao rọc giấy, bút màu và máy photocopy để làm giả toàn bộ bảng điểm học bạ với những điểm số xuất sắc toàn diện.",
+        "source": "1.06#6",
+        "bg": "t13_house_of_cards_first_lie",
+        "camera": "push",
+        "dur_est": 8.54
+      },
+      {
+        "id": "TK2.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Lời nói dối đầu tiên trôi qua êm thấm mà không bị phát hiện đã trở thành phát súng mở màn cho cả một tòa tháp lừa dối khổng lồ kéo dài suốt gần mười năm tiếp theo.",
+        "source": "1.06#7",
+        "bg": "t13_house_of_cards_first_lie",
+        "camera": "pan",
+        "dur_est": 11.19
+      },
+      {
+        "id": "TK2.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Kể từ mùa thu năm 2004, Jennifer Pan bắt đầu vận hành một lối sống hai mặt song song với mức độ tinh vi vượt xa sức tưởng tượng của mọi người.",
+        "source": "1.09#1",
+        "bg": "t13_fake_university_acceptance_letter",
+        "camera": "push",
+        "dur_est": 10.89
+      },
+      {
+        "id": "TK2.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Cô thông báo với cha mẹ rằng mình đã nhận được học bổng trúng tuyển vào Đại học Ryerson, sau đó chuyển tiếp sang chuyên ngành Dược khoa danh giá của Đại học Toronto.",
+        "source": "1.09#2",
+        "bg": "t13_fake_university_acceptance_letter",
+        "camera": "pan",
+        "dur_est": 10.01
+      },
+      {
+        "id": "TK2.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Mỗi buổi sáng, cô vẫn chỉnh tề xách cặp, chào tạm biệt cha mẹ và bước lên xe buýt đi học như một sinh viên chăm chỉ gương mẫu.",
+        "source": "1.09#3",
+        "bg": "t13_morning_bus_stop_winter_mist",
+        "camera": "pull",
+        "dur_est": 8.54
+      },
+      {
+        "id": "TK2.01#7",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Nhưng trên thực tế, Jennifer dành toàn bộ thời gian trong ngày ngồi đọc tiểu thuyết tại các thư viện công cộng hoặc lén lút đến căn hộ của bạn trai Daniel Wong.",
+        "source": "1.09#4",
+        "bg": "t13_public_library_reading_hours",
+        "camera": "still",
+        "dur_est": 9.71
+      },
+      {
+        "id": "TK2.01#8",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Dưới góc nhìn nghiệp vụ điều tra, tòa tháp dối trá của Jennifer Pan là một trường hợp kinh điển về sự leo thang của hành vi ngụy tạo để duy trì ảo ảnh danh dự.",
+        "source": "1.10#1",
+        "bg": "t13_father_growing_suspicion",
+        "camera": "pull",
+        "dur_est": 9.21
+      }
+    ]
+  },
+  "TK3": {
+    "title": "Cuộc Gọi 911 Kỳ Lạ & Hiện Trường Đầy Sơ Hở",
+    "theme": "Thủ đoạn Gây án MO vs. Dấu ấn Signature & Lỗ hổng Ngụy tạo Hiện trường",
+    "hook": "Bị trói hai tay sau lưng nhưng vẫn gọi được 911? Chi tiết lật tẩy màn kịch hoàn hảo.",
+    "total_dur_est": 73.1,
+    "bgm": "bgm_piano_minimal.mp3",
+    "sfx": [
+      "amb_rain_night.wav (nền)",
+      "fx_phone_dial_panic.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK3.01#1",
+        "text": "238 ĐẠI LỘ HELEN · MÀN KỊCH CƯỚP NHÀ ĐẪM MÁU",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK3.01#3",
+        "text": "CỬA CHÍNH KHÔNG HỀ BỊ CẠY PHÁ",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK3.01#5",
+        "text": "CUỘC GỌI 911 HOẢNG LOẠN: BỊ TRÓI NHƯNG BẤM MÁY HOÀN HẢO",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK3.01#7",
+        "text": "TÀI SẢN QUÝ GIÁ CÒN NGUYÊN VẸN TRÊN BÀN",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK3.01#8",
+        "text": "DẤU VẾT NGUY BỆNH CỦA KẺ CHỦ MƯU NỘI BỘ",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK3.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Không cam chịu cảnh sống bị giam cầm và tước đoạt toàn bộ quyền tự quyết, Jennifer đã lén lút mua một chiếc điện thoại di động giá rẻ để liên lạc với người yêu.",
+        "source": "2.04#1",
+        "bg": "t13_simmering_resentment_dark_room",
+        "camera": "pan",
+        "dur_est": 10.3
+      },
+      {
+        "id": "TK3.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Những dòng tin nhắn lén lút trong đêm tối giữa Jennifer và Daniel Wong nhanh chóng vượt qua ranh giới của những lời than vãn thông thường.",
+        "source": "2.04#2",
+        "bg": "t13_simmering_resentment_dark_room",
+        "camera": "pull",
+        "dur_est": 7.95
+      },
+      {
+        "id": "TK3.01#3",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Vào khoảng hai mươi hai giờ ngày 8 tháng 11 năm 2010, màn kịch đẫm nước mắt tại số 238 Đại lộ Helen chính thức được kích hoạt.",
+        "source": "2.06#1",
+        "bg": "t13_unlocked_front_door_night",
+        "camera": "pan",
+        "dur_est": 9.46
+      },
+      {
+        "id": "TK3.01#4",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Ngay sau khi những kẻ thủ ác rời khỏi hiện trường, tổng đài khẩn cấp 911 của Cảnh sát Khu vực York tiếp nhận một cuộc gọi hoảng loạn từ căn nhà số 238 Helen.",
+        "source": "2.10#1",
+        "bg": "t13_panicked_911_call_transcript",
+        "camera": "pull",
+        "dur_est": 10.74
+      },
+      {
+        "id": "TK3.01#5",
+        "role": "D",
+        "emotion": "fearful",
+        "speed": -0.03,
+        "pause_after": 0.6,
+        "text": "Trong đoạn băng ghi âm, Jennifer Pan gào thét thất thanh, khóc lóc thảm thiết và van xin nhân viên cứu hộ điều động xe cứu thương đến cứu cha mẹ mình.",
+        "source": "2.10#2",
+        "bg": "t13_panicked_911_call_transcript",
+        "camera": "still",
+        "dur_est": 8.18
+      },
+      {
+        "id": "TK3.01#6",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Xem xét kỹ lưỡng biên bản khám nghiệm hiện trường, chúng tôi nhận thấy có quá nhiều mâu thuẫn không thể giải thích bằng logic của một vụ cướp thông thường.",
+        "source": "4.03#1",
+        "bg": "t13_unforced_entry_crime_scene_log",
+        "camera": "pan",
+        "dur_est": 7.93
+      },
+      {
+        "id": "TK3.01#7",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Thứ nhất, toàn bộ hệ thống cửa ra vào và cửa sổ của ngôi nhà hoàn toàn không có bất kỳ dấu vết cạy phá hay dùng vũ lực nào từ bên ngoài.",
+        "source": "4.03#2",
+        "bg": "t13_unforced_entry_crime_scene_log",
+        "camera": "pull",
+        "dur_est": 8.44
+      },
+      {
+        "id": "TK3.01#8",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Nhưng điều khó hiểu nhất nằm ở sự phân biệt đối xử khó tin giữa các nạn nhân trong cùng một ngôi nhà.",
+        "source": "4.03#4",
+        "bg": "t13_unlocked_front_door_anomaly",
+        "camera": "push",
+        "dur_est": 5.88
+      }
+    ]
+  },
+  "TK4": {
+    "title": "Lời Khai Của Người Cha & Màn Đấu Trí Phòng Thẩm Vấn",
+    "theme": "Thái độ trước Bản án & Sự Thức tỉnh của Người cha (Survivor's Truth vs. Denial)",
+    "hook": "'Con gái tôi đi lại tự do và thì thầm với kẻ cướp.' Lời khai từ giường bệnh của người cha.",
+    "total_dur_est": 68.6,
+    "bgm": "bgm_violin_heart.mp3",
+    "sfx": [
+      "amb_hospital_tone.wav (nền)",
+      "fx_door_close_heavy.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK4.01#1",
+        "text": "NGƯỜI CHA HUEI HANN PAN TỈNH LẠI SAU CƠN HÔN MÊ",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK4.01#3",
+        "text": "KÝ ỨC ĐẬP TAN MỌI LỜI NÓI DỐI CỦA CON GÁI",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK4.01#4",
+        "text": "“TAY CON BÉ KHÔNG HỀ BỊ TRÓI, NÓ THÌ THẦM VỚI CHÚNG”",
+        "dur_s": 3.0
+      },
+      {
+        "sau_cau": "TK4.01#6",
+        "text": "BUỔI THẨM VẤN LỊCH SỬ NGÀY 22/11/2010",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK4.01#8",
+        "text": "HÀNG TRĂM TIN NHẮN TẬN DIỆT PHƠI BÀY",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK4.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Khi các điều tra viên tiếp cận giường bệnh để lấy lời khai, người cha đau đớn thều thào những sự thật làm rung chuyển toàn bộ vụ án.",
+        "source": "4.05#4",
+        "bg": "t13_father_broken_voice_testimony",
+        "camera": "still",
+        "dur_est": 8.54
+      },
+      {
+        "id": "TK4.01#2",
+        "role": "N2",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "Hãy hình dung nỗi đau đớn cùng cực của một người cha khi phải kể lại giây phút kinh hoàng ấy cho các điều tra viên.",
+        "source": "4.06#1",
+        "bg": "t13_father_memory_unmasked_daughter",
+        "camera": "pan",
+        "dur_est": 7.42
+      },
+      {
+        "id": "TK4.01#3",
+        "role": "N2",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "Đêm hôm đó, khi bị những kẻ lạ mặt khống chế dẫn qua cầu thang, tôi đã tận mắt nhìn thấy con gái mình đứng ở góc chiếu nghỉ.",
+        "source": "4.06#2",
+        "bg": "t13_father_memory_unmasked_daughter",
+        "camera": "pull",
+        "dur_est": 8.28
+      },
+      {
+        "id": "TK4.01#4",
+        "role": "N2",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "Kinh hoàng hơn, con bé đang thì thầm nói chuyện với một trong những kẻ đột nhập bằng một giọng điệu vô cùng bình thản và quen thuộc.",
+        "source": "4.06#4",
+        "bg": "t13_unbound_hands_broken_heart",
+        "camera": "push",
+        "dur_est": 8.0
+      },
+      {
+        "id": "TK4.01#5",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Ngày 22 tháng 11 năm 2010, chúng tôi triệu tập Jennifer Pan đến trụ sở cảnh sát để thực hiện buổi thẩm vấn chuyên sâu lần thứ ba.",
+        "source": "4.08#1",
+        "bg": "t13_third_interrogation_november_22",
+        "camera": "still",
+        "dur_est": 8.95
+      },
+      {
+        "id": "TK4.01#6",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Thám tử William Goetz áp dụng kỹ thuật thẩm vấn từng bước, ban đầu tạo không khí tin cậy để Jennifer tiếp tục kể lại câu chuyện bịa đặt của mình.",
+        "source": "4.08#2",
+        "bg": "t13_third_interrogation_november_22",
+        "camera": "push",
+        "dur_est": 7.93
+      },
+      {
+        "id": "TK4.01#7",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Đồng thời, chúng tôi đặt lên bàn bản trích xuất viễn thông với hàng nghìn tin nhắn trao đổi giữa Jennifer và Daniel Wong ngay trước và trong thời điểm xảy ra vụ việc.",
+        "source": "4.08#4",
+        "bg": "t13_forensic_cellphone_text_evidence",
+        "camera": "pull",
+        "dur_est": 8.7
+      },
+      {
+        "id": "TK4.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Ngay cả trong khoảnh khắc phòng tuyến tâm lý sụp đổ, bản năng của một kẻ dối trá bệnh lý vẫn tiếp tục vận hành một cách đáng kinh ngạc.",
+        "source": "4.09#1",
+        "bg": "t13_deception_body_language_analysis",
+        "camera": "still",
+        "dur_est": 6.62
+      }
+    ]
+  },
+  "TK5": {
+    "title": "Nạn Nhân Học & 4 Tín Hiệu Cảnh Báo Đỏ Gia Đình",
+    "theme": "Nạn nhân học (Victimology) & 4 Tín hiệu Báo động Đỏ Sinh tồn trong Gia đình",
+    "hook": "Bốn tín hiệu cảnh báo đỏ nhận diện nguy cơ rạn nứt tâm lý và bạo lực ngầm trong gia đình.",
+    "total_dur_est": 81.5,
+    "bgm": "bgm_piano_warm.mp3",
+    "sfx": [
+      "amb_room_tone.wav (nền)",
+      "fx_page_turn.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "sau_cau": "TK5.01#1",
+        "text": "4 CẢNH BÁO ĐỎ GIA ĐÌNH · AMBER EYES",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#2",
+        "text": "CẢNH BÁO 1: TÌNH YÊU CÓ ĐIỀU KIỆN & TRỪNG PHẠT THẤT BẠI",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#4",
+        "text": "CẢNH BÁO 2: LỜI NÓI DỐI LEO THANG & LỐI SỐNG HAI MẶT",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#6",
+        "text": "CẢNH BÁO 3: KIỂM SOÁT CỰC ĐOAN TƯỚC ĐOẠT TỰ DO",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#8",
+        "text": "CẢNH BÁO 4: ĐỨT GÃY GIAO TIẾP CẢM XÚC DƯỚI MỘT MÁI NHÀ",
+        "dur_s": 2.5
+      },
+      {
+        "sau_cau": "TK5.01#10",
+        "text": "LẮNG NGHE VÀ BAO DUNG LÀ CHIẾC KHIÊN BẢO VỆ GIA ĐÌNH",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK5.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Để giúp quý vị nhận diện sớm những nguy cơ rạn nứt tâm lý và bảo vệ hạnh phúc gia đình, kênh Amber Eyes xin đúc kết bốn tín hiệu cảnh báo đỏ sinh tồn từ hồ sơ Jennifer Pan.",
+        "source": "5.05#1",
+        "bg": "t13_four_redflags_overview_banner",
+        "camera": "still",
+        "dur_est": 11.78
+      },
+      {
+        "id": "TK5.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "Dấu hiệu thứ nhất: Tình yêu có điều kiện và sự trừng phạt thất bại cực đoan.",
+        "source": "5.05#2",
+        "bg": "t13_four_redflags_overview_banner",
+        "camera": "push",
+        "dur_est": 5.0
+      },
+      {
+        "id": "TK5.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Để duy trì cảm giác được yêu thương, chúng sẽ chọn cách làm giả điểm số và che giấu sự thật bằng mọi giá.",
+        "source": "5.05#4",
+        "bg": "t13_prevention_compass_analytical_desk",
+        "camera": "pull",
+        "dur_est": 7.07
+      },
+      {
+        "id": "TK5.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "Dấu hiệu thứ hai: Chiếc mạng nhện dối trá leo thang từng ngày và lối sống hai mặt kéo dài.",
+        "source": "5.05#6",
+        "bg": "t13_redflag1_conditional_love_punishment",
+        "camera": "push",
+        "dur_est": 5.89
+      },
+      {
+        "id": "TK5.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Khi một người bắt đầu làm giả giấy tờ, ngụy tạo công việc và duy trì hai cuộc đời hoàn toàn tách biệt, đó là tín hiệu báo động đỏ về sự suy thoái nhân cách.",
+        "source": "5.05#8",
+        "bg": "t13_fear_driven_compliance_prison",
+        "camera": "pull",
+        "dur_est": 10.6
+      },
+      {
+        "id": "TK5.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "Dấu hiệu thứ ba: Kiểm soát toàn diện và tước đoạt quyền tự quyết cá nhân.",
+        "source": "5.05#10",
+        "bg": "t13_redflag2_escalating_web_of_lies",
+        "camera": "push",
+        "dur_est": 4.71
+      },
+      {
+        "id": "TK5.01#7",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Sự kìm kẹp quá mức ở lứa tuổi trưởng thành không tạo ra những đứa con ngoan, mà chỉ tích tụ những cơn thịnh nộ ngầm và mong muốn nổi loạn cực đoan.",
+        "source": "5.05#12",
+        "bg": "t13_compounding_lies_collapse",
+        "camera": "pull",
+        "dur_est": 9.71
+      },
+      {
+        "id": "TK5.01#8",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "Dấu hiệu thứ tư: Đứt gãy giao tiếp cảm xúc và sự im lặng độc hại dưới một mái nhà.",
+        "source": "5.05#14",
+        "bg": "t13_redflag3_total_control_autonomy_loss",
+        "camera": "push",
+        "dur_est": 5.89
+      },
+      {
+        "id": "TK5.01#9",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Sự lạnh lùng và thiếu vắng những cuộc đối thoại cởi mở chính là mảnh đất màu mỡ nhất ươm mầm cho những bi kịch gia đình đau lòng.",
+        "source": "5.05#17",
+        "bg": "t13_redflag4_emotional_disconnect_rupture",
+        "camera": "still",
+        "dur_est": 8.54
+      },
+      {
+        "id": "TK5.01#10",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Thành công lớn nhất của một đời người không nằm ở những tấm bằng đại học danh giá hay sự hoàn hảo lộng lẫy trong mắt người đời.",
+        "source": "5.05#19",
+        "bg": "t13_authentic_soul_open_window_dawn",
+        "camera": "pan",
+        "dur_est": 8.24
+      }
+    ]
+  }
+}

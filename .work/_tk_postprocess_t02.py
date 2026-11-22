@@ -25,6 +25,59 @@ from PIL import Image, ImageEnhance
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 HERE = pathlib.Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE))
+# Dung chung ham toi vung chu voi script nen du phong (T22) de 2 bo ve cung nguong.
+from _tk_fallback_crop_t02 import (  # noqa: E402
+    HOOK_BAND, SUB_BAND, SX0, SX1, TARGET_HOOK, TARGET_SUB, _band_profile, darken_text_bands,
+)
+
+# Vung chu THAT cua pipeline video Tap 01 (.work/_build_tk01_video.py)
+TEXT_HOOK = (300, 700)     # chu hook (76 px)
+TEXT_SUB = (1020, 1230)    # chu phu de (44 px)
+STREAK_TH = 120            # nguong "sang"
+STREAK_PCT = 0.70          # >70% pixel trong 1 dong vuot nguong = vet ngang
+
+
+def _max_streak_frac(gray, y0, y1):
+    """Ty le lon nhat cua 1 dong nao trong [y0,y1) vuot nguong sang."""
+    reg = gray[y0:y1, SX0:SX1]
+    if reg.size == 0:
+        return 0.0
+    return float((reg > STREAK_TH).mean(axis=1).max())
+
+
+def darken_bands_strict(img):
+    """Chon depth toi vung chu sao cho:
+       1. mean vung hook <= TARGET_HOOK, mean vung sub <= TARGET_SUB
+       2. KHONG con dong nao vuot nguong sang tren >70% chieu rong (vet ngang)
+    Tra (img, depth, hook_mean, sub_mean, streak_frac).
+    """
+    arr = np.array(img, dtype=np.float32)
+    h = arr.shape[0]
+    best = None
+    for depth in np.arange(0.0, 0.66, 0.05):
+        prof = _band_profile(h, float(depth))
+        out = arr * prof[:, None, None]
+        g = np.clip(out, 0, 255).astype(np.uint8)
+        gm = np.asarray(Image.fromarray(g).convert("L"), dtype=np.float32)
+        hook = float(gm[HOOK_BAND[0]:HOOK_BAND[1], SX0:SX1].mean())
+        sub = float(gm[SUB_BAND[0]:SUB_BAND[1], SX0:SX1].mean())
+        streak = max(_max_streak_frac(gm, *TEXT_HOOK), _max_streak_frac(gm, *TEXT_SUB))
+        ok = (hook <= TARGET_HOOK and sub <= TARGET_SUB and streak <= STREAK_PCT)
+        if ok:
+            best = (Image.fromarray(g), float(depth), hook, sub, streak)
+            break
+    if best is None:
+        # dat depth toi da: uu tien giu dung nguong mean, chap nhan vet ngang con lai
+        depth = 0.60
+        prof = _band_profile(h, depth)
+        out = np.clip(arr * prof[:, None, None], 0, 255).astype(np.uint8)
+        g = np.asarray(Image.fromarray(out).convert("L"), dtype=np.float32)
+        hook = float(g[HOOK_BAND[0]:HOOK_BAND[1], SX0:SX1].mean())
+        sub = float(g[SUB_BAND[0]:SUB_BAND[1], SX0:SX1].mean())
+        streak = max(_max_streak_frac(g, *TEXT_HOOK), _max_streak_frac(g, *TEXT_SUB))
+        best = (Image.fromarray(out), depth, hook, sub, streak)
+    return best
 ROOT = HERE.parent
 RAW = HERE / "tk_img_raw_t02"
 DST = ROOT / "assets" / "bg"
@@ -68,7 +121,7 @@ def vignette_grain(img, seed=42):
 
 def main():
     DST.mkdir(parents=True, exist_ok=True)
-    raws = sorted(RAW.glob("tk02_*.jpg"))
+    raws = sorted(list(RAW.glob("tk02_*.jpg")) + list(RAW.glob("tk02_*.png")))
     if not raws:
         raise SystemExit("khong co anh tho nao trong %s" % RAW)
 
@@ -76,10 +129,21 @@ def main():
     bak = HERE / "_cu" / ("tk02_provenance_%s" % time.strftime("%Y%m%d_%H%M"))
     bak.mkdir(parents=True, exist_ok=True)
     shutil.copy2(PROV, bak / "provenance.json")
+    # L5: sao luu ca ANH NEN DICH truoc khi ghi de (18 anh du phong se bi thay bang AI that)
+    bakimg = HERE / "_cu" / ("tk02_bg_duphong_%s" % time.strftime("%Y%m%d_%H%M"))
+    bakimg.mkdir(parents=True, exist_ok=True)
+    n_bak = 0
+    for rp in raws:
+        name = rp.stem[len("tk02_"):]
+        d = DST / ("tk02_%s.png" % name)
+        if d.exists():
+            shutil.copy2(d, bakimg / d.name)
+            n_bak += 1
     prov = json.loads(PROV.read_text(encoding="utf-8-sig"))
     items = prov if isinstance(prov, list) else prov.get("tai_san", prov.get("items", []))
-    existing = {it.get("file") for it in items}
+    index = {it.get("file"): it for it in items}
     added = 0
+    updated = 0
     report = []
 
     for rp in raws:
@@ -93,31 +157,48 @@ def main():
             im = im.resize((W, H), Image.Resampling.LANCZOS)
             im = noir_grade(im)
             im = vignette_grain(im)
+            # T22: dam bao vung chu hook + phu de du toi (chu trang tren nen sang = mat chu).
+            # AI 9:16 KHONG bao dam vung chu toi (vi du tk02_folder_tree sub_mean = 145,6)
+            # => chon depth toi khi mean dat nguong VA het vet ngang trong vung chu that.
+            im, depth, hook_m, sub_m, streak = darken_bands_strict(im)
+            note = "depth=%.2f hook=%.1f sub=%.1f streak=%.2f" % (depth, hook_m, sub_m, streak)
             im.save(dst, "PNG", optimize=True)
 
         kb = dst.stat().st_size / 1024
-        report.append((name, "%dx%d -> %dx%d" % (src_size[0], src_size[1], W, H), kb))
+        report.append((name, "%dx%d -> %dx%d" % (src_size[0], src_size[1], W, H), kb, note))
 
         rel = "assets/bg/tk02_%s.png" % name
-        if rel not in existing:
-            items.append({
-                "file": rel,
-                "loai": "nen 9:16 dung cho clip TikTok (dung chung moi ngon ngu)",
-                "cong_cu": ("MiniMax image-generation (mcode-tools connector__matrix__generate_image) - "
-                            "dung lai anh nen 16:9 Tap 02 (%s) lam anh tham chieu, aspect_ratio 9:16, area 2K; "
-                            "hau ky noir theo 00_TIEU_CHUAN/QUY_TAC_TAO_ANH_KAGGLE_FLUX.md §4" % src16),
-                "ngay": "2026-11-20",
-                "prompt": PROMPT_PROV,
-                "seed": None,
-                "mo_ta": "nen doc 9:16 cho clip TikTok Tap 02 - %s" % name,
-                "font": None,
-                "dieu_khoan": ("Anh sinh boi mo hinh AI cua MiniMax qua mcode-tools; anh tham chieu la anh nen "
-                               "16:9 do chinh kenh san xuat cua Tap 02. Moi dung kinh doanh: tach 1/3 tren va 1/3 duoi "
-                               "de chu phu de + the chu an toan TikTok (x 120-780, y 240-1260)."),
-                "kiem_tra_thuong_mai": ("dat (kich thuoc 1080x1920 dung chuan TikTok; mau noir khop 44 nen 16:9 "
-                                        "cua Tap 02; moi chu se do them o buoc dung video)"),
-            })
-            existing.add(rel)
+        new_row = {
+            "file": rel,
+            "loai": "nen 9:16 dung cho clip TikTok (dung chung moi ngon ngu)",
+            "cong_cu": ("MiniMax image-generation (mcode-tools connector__matrix__generate_image) - "
+                        "dung lai anh nen 16:9 Tap 02 (%s) lam anh tham chieu, aspect_ratio 9:16, area 2K; "
+                        "hau ky noir theo 00_TIEU_CHUAN/QUY_TAC_TAO_ANH_KAGGLE_FLUX.md §4" % src16),
+            "ngay": "2026-11-20",
+            "prompt": PROMPT_PROV,
+            "seed": None,
+            "mo_ta": "nen doc 9:16 cho clip TikTok Tap 02 - %s" % name,
+            "font": None,
+            "dieu_khoan": ("Anh sinh boi mo hinh AI cua MiniMax qua mcode-tools; anh tham chieu la anh nen "
+                           "16:9 do chinh kenh san xuat cua Tap 02. Moi dung kinh doanh: tach 1/3 tren va 1/3 duoi "
+                           "de chu phu de + the chu an toan TikTok (x 120-780, y 240-1260)."),
+            "kiem_tra_thuong_mai": ("dat (kich thuoc 1080x1920 dung chuan TikTok; mau noir khop 44 nen 16:9 "
+                                    "cua Tap 02; moi chu se do them o buoc dung video)"),
+        }
+        if rel in index:
+            # cap nhat dong dang co (truoc do la ban DU PHONG crop 16:9) -> bay la AI that
+            row = index[rel]
+            was_fallback = not row.get("prompt")
+            row.update({k: v for k, v in new_row.items() if k != "file"})
+            if was_fallback:
+                row["mo_ta"] = "nen doc 9:16 cho clip TikTok Tap 02 - %s (AI that, thay the ban du phong crop 16:9)" % name
+                row["kiem_tra_thuong_mai"] = (
+                    "dat (AI that sinh 20/11/2026 thay cho ban du phong crop 16:9; kich thuoc 1080x1920 dung "
+                    "chuan TikTok; mau noir khop 44 nen 16:9 cua Tap 02)")
+            updated += 1
+        else:
+            items.append(new_row)
+            index[rel] = new_row
             added += 1
 
     if isinstance(prov, list):
@@ -129,11 +210,12 @@ def main():
                 out[k] = items
     PROV.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    print("%-24s %-26s %8s" % ("nen", "kich thuoc", "KB"))
-    for name, info, kb in report:
-        print("%-24s %-26s %8.0f" % (name, info, kb))
+    print("%-24s %-26s %8s  %s" % ("nen", "kich thuoc", "KB", "vung chu"))
+    for name, info, kb, note in report:
+        print("%-24s %-26s %8.0f  %s" % (name, info, kb, note))
     print()
-    print("provenance: +%d dong · backup: %s" % (added, bak))
+    print("provenance: +%d dong · cap nhat %d dong · backup: %s" % (added, updated, bak))
+    print("anh nen dich da backup: %d file -> %s" % (n_bak, bakimg))
 
     # anh con thieu
     reqs = []

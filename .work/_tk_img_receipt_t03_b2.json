@@ -1,0 +1,35 @@
+{
+ "code": 0,
+ "message": "ok",
+ "summary": "Batch processing completed: 6/6 succeeded",
+ "total_requested": 6,
+ "total_success": 6,
+ "total_failed": 0,
+ "success_items": [
+  {
+   "node_id": "465458821787847",
+   "file_name": "tk03_bar_jury_room.jpg"
+  },
+  {
+   "node_id": "465458732322900",
+   "file_name": "tk03_galaxie.jpg"
+  },
+  {
+   "node_id": "465458175692895",
+   "file_name": "tk03_hitchhiker.jpg"
+  },
+  {
+   "node_id": "465458175692903",
+   "file_name": "tk03_basement_stairs.jpg"
+  },
+  {
+   "node_id": "465458732597406",
+   "file_name": "tk03_coal_furnace.jpg"
+  },
+  {
+   "node_id": "465458581147829",
+   "file_name": "tk03_small_bed.jpg"
+  }
+ ],
+ "failed_items": []
+}

@@ -558,6 +558,54 @@ def role_col(shot):
 
 
 
+def _numbers_only_elements(shot):
+
+    """H26: chi con so thong ke co chu so trong loi thoai (T5) + anh inset; moi chu khac bi bo."""
+
+    import re as _re
+
+    els = []
+
+    if shot["template"] == "T5":
+
+        shot = dict(shot, start=shot["start"] - 30, sentences=[]) if shot.get("hold") else shot
+
+        times = seg_times(shot)
+
+        keep = []
+
+        for t_, sg in zip(times, shot["segments"]):
+
+            bold = [(k, v) for k, v in sg["elems"] if k == "bold" and _re.search(r"\d", v)]
+
+            if bold:
+
+                keep.append((t_, dict(sg, elems=bold[:1])))
+
+        if keep:
+
+            global DARK70
+
+            if DARK70 is None:
+
+                DARK70 = Image.new("RGBA", (W, H), (8, 8, 10, 178))
+
+            sh2 = dict(shot, segments=[s for _, s in keep], beat_text="")
+
+            els.append(El(DARK70, 0, 0, shot["start"] - 10, fade=0, rise=0))
+
+            els += t5_number(sh2, [t_ for t_, _ in keep], role_col(shot))
+
+    if shot.get("inset"):
+
+        els.append(inset_photo(shot))
+
+    return els
+
+
+
+
+
 def build_elements(shot):
 
     """Return list of El/Dyn for the shot (static text, graphics)."""
@@ -569,6 +617,13 @@ def build_elements(shot):
         GRAD = gradient_bottom()
 
         DARK70 = Image.new("RGBA", (W, H), (8, 8, 10, 178))
+
+    # H26 (20/11/2026): khung hinh KHONG co chu chen len anh nen, tru (a) the ket (ten kenh + khau hieu),
+    # (b) con so thong ke thuc trong loi thoai (mau T5). Intro, logo/watermark, badge vai giu nguyen.
+    # Khoa EPISODES[xx]["legacy_frame_text"]=True de dung lai ra ban cu (chua tap nao ghim).
+    closing = bool(shot is SH[-1] and not shot["sentences"])
+    if not closing and not ED.EP.get("legacy_frame_text"):
+        return _numbers_only_elements(shot)
 
     if shot.get("hold"):
 

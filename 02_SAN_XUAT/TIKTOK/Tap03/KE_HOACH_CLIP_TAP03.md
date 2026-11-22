@@ -62,16 +62,16 @@
 
 | Nền | Chuyển động | Ước lượng |
 |---|---|---|
-| `TK1.01#1` | `t3_phone_booth` | still | 3.6 s |
-| `TK1.01#2` | `t3_dispatch_desk` | pull | 8.7 s |
-| `TK1.01#3` | `t3_phone_booth` | pan | 8.1 s |
-| `TK1.01#4` | `t3_phone_booth` | push | 8.1 s |
-| `TK1.01#5` | `t3_dispatch_desk` | still | 4.4 s |
-| `TK1.01#6` | `t3_phone_booth` | push | 8.7 s |
-| `TK1.01#7` | `t3_phone_booth` | still | 5.7 s |
-| `TK1.01#8` | `t3_apartos_house` | pan | 8.1 s |
-| `TK1.01#9` | `t3_brain_mirror` | pull | 8.4 s |
-| `TK1.01#10` | `t3_closing_desk` | still | 4.2 s |
+| `TK1.01#1` | `tk03_phone_booth` | still | 3.6 s |
+| `TK1.01#2` | `tk03_dispatch_desk` | pull | 8.7 s |
+| `TK1.01#3` | `tk03_phone_booth` | pan | 8.1 s |
+| `TK1.01#4` | `tk03_phone_booth` | push | 8.1 s |
+| `TK1.01#5` | `tk03_dispatch_desk` | still | 4.4 s |
+| `TK1.01#6` | `tk03_phone_booth` | push | 8.7 s |
+| `TK1.01#7` | `tk03_phone_booth` | still | 5.7 s |
+| `TK1.01#8` | `tk03_apartos_house` | pan | 8.1 s |
+| `TK1.01#9` | `tk03_brain_mirror` | pull | 8.4 s |
+| `TK1.01#10` | `tk03_closing_desk` | still | 4.2 s |
 
 **Thẻ chữ trên hình (overlay card):**
 - `TK1.01#1` → *"BỐT ĐIỆN THOẠI PUEBLO · 4 GIỜ SÁNG 24/4/1973"* (3.0 s)
@@ -101,16 +101,16 @@
 
 | Nền | Chuyển động | Ước lượng |
 |---|---|---|
-| `TK2.01#1` | `t3_bar_stool_shadow` | still | 3.9 s |
-| `TK2.01#2` | `t3_bar_jury_room` | pull | 8.9 s |
-| `TK2.01#3` | `t3_bar_stool_shadow` | pan | 8.9 s |
-| `TK2.01#4` | `t3_galaxie` | still | 7.3 s |
-| `TK2.01#5` | `t3_hitchhiker` | push | 6.3 s |
-| `TK2.01#6` | `t3_bar_jury_room` | still | 7.0 s |
-| `TK2.01#7` | `t3_bar_stool_shadow` | push | 6.7 s |
-| `TK2.01#8` | `t3_bar_stool_shadow` | pull | 8.9 s |
-| `TK2.01#9` | `t3_brain_mirror` | still | 7.2 s |
-| `TK2.01#10` | `t3_closing_desk` | still | 4.2 s |
+| `TK2.01#1` | `tk03_bar_stool_shadow` | still | 3.9 s |
+| `TK2.01#2` | `tk03_bar_jury_room` | pull | 8.9 s |
+| `TK2.01#3` | `tk03_bar_stool_shadow` | pan | 8.9 s |
+| `TK2.01#4` | `tk03_galaxie` | still | 7.3 s |
+| `TK2.01#5` | `tk03_hitchhiker` | push | 6.3 s |
+| `TK2.01#6` | `tk03_bar_jury_room` | still | 7.0 s |
+| `TK2.01#7` | `tk03_bar_stool_shadow` | push | 6.7 s |
+| `TK2.01#8` | `tk03_bar_stool_shadow` | pull | 8.9 s |
+| `TK2.01#9` | `tk03_brain_mirror` | still | 7.2 s |
+| `TK2.01#10` | `tk03_closing_desk` | still | 4.2 s |
 
 **Thẻ chữ trên hình (overlay card):**
 - `TK2.01#1` → *"QUÁN THE JURY ROOM · ĐỐI DIỆN TÒA ÁN SANTA CRUZ"* (3.0 s)
@@ -141,17 +141,17 @@
 
 | Nền | Chuyển động | Ước lượng |
 |---|---|---|
-| `TK3.01#1` | `t3_basement_stairs` | still | 3.9 s |
-| `TK3.01#2` | `t3_coal_furnace` | push | 4.5 s |
-| `TK3.01#3` | `t3_small_bed` | still | 7.2 s |
-| `TK3.01#4` | `t3_trapdoor` | pull | 6.2 s |
-| `TK3.01#5` | `t3_basement_stairs` | pan | 5.7 s |
-| `TK3.01#6` | `t3_mother_shadow` | still | 6.2 s |
-| `TK3.01#7` | `t3_ucsc_campus` | push | 6.0 s |
-| `TK3.01#8` | `t3_hitchhiker` | pull | 7.2 s |
-| `TK3.01#9` | `t3_apartos_house` | pan | 6.6 s |
-| `TK3.01#10` | `t3_brain_mirror` | still | 9.3 s |
-| `TK3.01#11` | `t3_closing_desk` | still | 4.2 s |
+| `TK3.01#1` | `tk03_basement_stairs` | still | 3.9 s |
+| `TK3.01#2` | `tk03_coal_furnace` | push | 4.5 s |
+| `TK3.01#3` | `tk03_small_bed` | still | 7.2 s |
+| `TK3.01#4` | `tk03_trapdoor` | pull | 6.2 s |
+| `TK3.01#5` | `tk03_basement_stairs` | pan | 5.7 s |
+| `TK3.01#6` | `tk03_mother_shadow` | still | 6.2 s |
+| `TK3.01#7` | `tk03_ucsc_campus` | push | 6.0 s |
+| `TK3.01#8` | `tk03_hitchhiker` | pull | 7.2 s |
+| `TK3.01#9` | `tk03_apartos_house` | pan | 6.6 s |
+| `TK3.01#10` | `tk03_brain_mirror` | still | 9.3 s |
+| `TK3.01#11` | `tk03_closing_desk` | still | 4.2 s |
 
 **Thẻ chữ trên hình (overlay card):**
 - `TK3.01#1` → *"TẦNG HẦM MONTANA · THẬP NIÊN 1950"* (3.0 s)
@@ -183,17 +183,17 @@
 
 | Nền | Chuyển động | Ước lượng |
 |---|---|---|
-| `TK4.01#1` | `t3_vacaville_1978` | still | 3.9 s |
-| `TK4.01#2` | `t3_two_agents` | pull | 5.8 s |
-| `TK4.01#3` | `t3_giant_doorway` | still | 6.3 s |
-| `TK4.01#4` | `t3_interview_room` | push | 7.6 s |
-| `TK4.01#5` | `t3_cassette` | pan | 4.3 s |
-| `TK4.01#6` | `t3_fantasy_spiral` | push | 6.8 s |
-| `TK4.01#7` | `t3_trophy_box` | still | 6.6 s |
-| `TK4.01#8` | `t3_organized_split` | pull | 9.9 s |
-| `TK4.01#9` | `t3_self_observation` | still | 5.5 s |
-| `TK4.01#10` | `t3_case_photos` | push | 6.6 s |
-| `TK4.01#11` | `t3_closing_desk` | still | 4.2 s |
+| `TK4.01#1` | `tk03_vacaville_1978` | still | 3.9 s |
+| `TK4.01#2` | `tk03_two_agents` | pull | 5.8 s |
+| `TK4.01#3` | `tk03_giant_doorway` | still | 6.3 s |
+| `TK4.01#4` | `tk03_interview_room` | push | 7.6 s |
+| `TK4.01#5` | `tk03_cassette` | pan | 4.3 s |
+| `TK4.01#6` | `tk03_fantasy_spiral` | push | 6.8 s |
+| `TK4.01#7` | `tk03_trophy_box` | still | 6.6 s |
+| `TK4.01#8` | `tk03_organized_split` | pull | 9.9 s |
+| `TK4.01#9` | `tk03_self_observation` | still | 5.5 s |
+| `TK4.01#10` | `tk03_case_photos` | push | 6.6 s |
+| `TK4.01#11` | `tk03_closing_desk` | still | 4.2 s |
 
 **Thẻ chữ trên hình (overlay card):**
 - `TK4.01#1` → *"NHÀ TÙ VACAVILLE · 1978 · ĐẶC VỤ FBI"* (3.0 s)
@@ -223,15 +223,15 @@
 
 | Nền | Chuyển động | Ước lượng |
 |---|---|---|
-| `TK5.01#1` | `t3_red_flags` | still | 4.2 s |
-| `TK5.01#2` | `t3_gift_drowned` | push | 6.5 s |
-| `TK5.01#3` | `t3_gift_drowned` | pull | 5.7 s |
-| `TK5.01#4` | `t3_coal_furnace` | pan | 6.7 s |
-| `TK5.01#5` | `t3_fantasy_spiral` | still | 5.8 s |
-| `TK5.01#6` | `t3_self_observation` | push | 6.6 s |
-| `TK5.01#7` | `t3_life_sentence` | pull | 9.0 s |
-| `TK5.01#8` | `t3_closing_desk` | still | 11.1 s |
-| `TK5.01#9` | `t3_closing_desk` | still | 4.2 s |
+| `TK5.01#1` | `tk03_red_flags` | still | 4.2 s |
+| `TK5.01#2` | `tk03_gift_drowned` | push | 6.5 s |
+| `TK5.01#3` | `tk03_gift_drowned` | pull | 5.7 s |
+| `TK5.01#4` | `tk03_coal_furnace` | pan | 6.7 s |
+| `TK5.01#5` | `tk03_fantasy_spiral` | still | 5.8 s |
+| `TK5.01#6` | `tk03_self_observation` | push | 6.6 s |
+| `TK5.01#7` | `tk03_life_sentence` | pull | 9.0 s |
+| `TK5.01#8` | `tk03_closing_desk` | still | 11.1 s |
+| `TK5.01#9` | `tk03_closing_desk` | still | 4.2 s |
 
 **Thẻ chữ trên hình (overlay card):**
 - `TK5.01#1` → *"4 HỒI CHUÔNG CẢNH BÁO SỚM TRONG TÂM LÝ HỌC"* (3.0 s)
@@ -270,3 +270,21 @@
 2. **Sinh giọng WAV:** Đưa `02_SAN_XUAT/TIKTOK/Tap03/SPEC_AUDIO_CLIP_TAP03.json` lên Kaggle GPU chạy với engine Higgs Audio v3.
 3. **Xử lý nền dọc:** Render nền 9:16 từ các file raw `t3_*` tương ứng.
 4. **Dựng video & ghép phụ đề:** Dùng script dựng tự động xuất video hoàn chỉnh.
+
+---
+
+## 5. Ảnh nền dọc — đã dựng 20/11/2026
+
+*Chi tiết đo thật + bẫy gặp được: `02_SAN_XUAT/TIKTOK/Tap03/BAO_CAO_ANH_NEN_DOC_TAP03.md`*
+
+| Hạng mục | Số đo |
+|---|---|
+| Số nền dọc | **28/28** · 1080×1920 đúng 28/28 · phủ **51/51 shot** (TK1 10 · TK2 10 · TK3 11 · TK4 11 · TK5 9) |
+| Nguồn | **12 AI thật** (MiniMax `generate_image`, 9:16, 2K) + **16 dự phòng** crop từ ảnh 16:9 gốc (`t3_*`) — allowance hết ở lô 3 (lỗi 402) |
+| Vùng chữ | hook mean **45,1** (≤ 58) · sub mean **53,4** (≤ 72) · **0** vệt sáng ngang |
+| provenance.json | **28** dòng (12 có `prompt` · 16 `prompt: null` = dự phòng) |
+| QC mắt | Soi **100 %** 28 nền + 2 tờ zoom 1:1 → đúng phong cách graphic-noir, **0 mặt lộ**, **0 chữ lạ** |
+
+Cột **Nền** ở mục 2.1–2.5 và trường `bg` trong `SPEC_AUDIO_CLIP_TAP03.json` (VN/EN/JA) trỏ tới **`tk03_*`** — đúng ảnh dọc 9:16 trong `assets/bg/`. Ánh xạ sang ảnh gốc 16:9 nằm trong `NEN_SRC` của `.work/_build_tk_tap03.py` (`tk03_x` → `t3_x`).
+
+Cần nâng 16 nền dự phòng thành AI thật → bật **Settings → Usage & model → Credits → credit auto-consumption** rồi chạy `.work/_tk_gen_bg_extra_t03.py` → `_tk_download_imgs_t03.py` → `_tk_postprocess_t03.py`.

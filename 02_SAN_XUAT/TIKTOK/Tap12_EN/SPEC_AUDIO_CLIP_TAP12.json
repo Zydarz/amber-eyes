@@ -1,0 +1,704 @@
+{
+  "TK1": {
+    "title": "Charitable Illusion & Political Blind Spots of Peoples Temple",
+    "theme": "The Halo Effect & Political Blind Spots",
+    "hook": "Rainbow family, soup kitchens, political alliances. Why was an entire city completely blinded?",
+    "total_dur_est": 58.5,
+    "bgm": "bgm_cello_sad.mp3",
+    "sfx": [
+      "amb_wind_cold.wav (bed)",
+      "fx_crowd_applause.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK1.01#1",
+        "text": "PEOPLES TEMPLE · SAN FRANCISCO 1970S",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK1.01#3",
+        "text": "CHAIRMAN OF SF HOUSING AUTHORITY",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK1.01#4",
+        "text": "HALO EFFECT & POLITICAL BLIND SPOTS",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK1.01#6",
+        "text": "OVERSIGHT PARALYZED BY FEAR OF BACKLASH",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK1.01#7",
+        "text": "CHARITABLE MASK HIDING TOTALITARIAN EMPIRE",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK1.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Its founder, James Warren Jones, built a reputation as a passionate humanitarian by opening soup kitchens, elderly care homes, and rehabilitation centers for the marginalized.",
+        "source": "1.04#3",
+        "bg": "t12_racial_harmony_facade",
+        "camera": "still",
+        "dur_est": 8.92
+      },
+      {
+        "id": "TK1.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "He adopted children of diverse racial backgrounds, proudly presenting his household as the “Rainbow Family” to showcase his humanitarian ideals.",
+        "source": "1.04#4",
+        "bg": "t12_racial_harmony_facade",
+        "camera": "pan",
+        "dur_est": 7.14
+      },
+      {
+        "id": "TK1.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Shielded by his pristine philanthropic veneer, he forged close ties with top California politicians and was appointed Chairman of the San Francisco Housing Authority.",
+        "source": "1.04#6",
+        "bg": "t12_charity_soup_kitchen_bread",
+        "camera": "push",
+        "dur_est": 8.56
+      },
+      {
+        "id": "TK1.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "This “Halo Effect” combined with a massive political blindspot of the era to construct an invisible protective shield around the organization.",
+        "source": "1.04#7",
+        "bg": "t12_san_francisco_temple_expansion",
+        "camera": "still",
+        "dur_est": 7.49
+      },
+      {
+        "id": "TK1.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "In the post-civil rights era, politicians yearned for a symbol of racial harmony and relied heavily on the disciplined voting bloc of thousands of loyal devotees.",
+        "source": "1.04#8",
+        "bg": "t12_san_francisco_temple_expansion",
+        "camera": "pan",
+        "dur_est": 9.28
+      },
+      {
+        "id": "TK1.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "This intense fear of public reproach effectively paralyzed institutional oversight, causing glaring red flags to be deliberately overlooked for years.",
+        "source": "1.04#10",
+        "bg": "t12_city_hall_political_alliances",
+        "camera": "push",
+        "dur_est": 7.14
+      },
+      {
+        "id": "TK1.01#7",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Yet beneath that glamorous humanitarian tapestry lay an authoritarian fortress governed by physical intimidation and total psychological coercion.",
+        "source": "1.06#1",
+        "bg": "t12_iron_fist_behind_velvet_curtain",
+        "camera": "still",
+        "dur_est": 6.42
+      }
+    ]
+  },
+  "TK2": {
+    "title": "Jungle Paradise or Closed Psychological Prison?",
+    "theme": "Social Isolation & Familial Severing",
+    "hook": "Homes sold, passports confiscated. When paradise turned into an inescapable jungle cage.",
+    "total_dur_est": 57.8,
+    "bgm": "bgm_ambient_deep.mp3",
+    "sfx": [
+      "amb_jungle_insects.wav (bed)",
+      "fx_trunk_lock.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK2.01#1",
+        "text": "CATHARSIS SESSIONS: FORCED PUBLIC HUMILIATION",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK2.01#3",
+        "text": "ASSETS CONFISCATED · FAMILIES TORN APART",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK2.01#5",
+        "text": "PASSPORTS & MONEY SEIZED AT GATES",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK2.01#7",
+        "text": "ARMED PATROLS ENFORCING TOTAL ISOLATION",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK2.01#8",
+        "text": "A MOTHER'S DESPERATE INTUITION TO ESCAPE",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK2.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Jim Jones secretly conducted brutal collective interrogation sessions known as “Catharsis”.",
+        "source": "1.06#2",
+        "bg": "t12_iron_fist_behind_velvet_curtain",
+        "camera": "pan",
+        "dur_est": 3.92
+      },
+      {
+        "id": "TK2.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "He systematically dismantled biological family loyalties, conditioning everyone to regard him alone as the ultimate benevolent father figure.",
+        "source": "1.06#4",
+        "bg": "t12_catharsis_session_interrogation",
+        "camera": "push",
+        "dur_est": 6.42
+      },
+      {
+        "id": "TK2.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "He persuaded his followers to surrender their homes, sign over savings accounts, and divert government welfare checks directly into temple coffers.",
+        "source": "1.06#5",
+        "bg": "t12_property_surrender_passbooks",
+        "camera": "still",
+        "dur_est": 7.49
+      },
+      {
+        "id": "TK2.01#4",
+        "role": "N1",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Imagine the mindset of a faithful devotee stepping for the very first time onto that remote soil in Guyana.",
+        "source": "1.07#1",
+        "bg": "t12_utopian_promise_mirage",
+        "camera": "still",
+        "dur_est": 6.53
+      },
+      {
+        "id": "TK2.01#5",
+        "role": "N1",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Yet the moment we arrived at Jonestown, our passports and all personal funds were confiscated at the main entrance by temple leadership.",
+        "source": "1.07#3",
+        "bg": "t12_confiscated_passports_trunk",
+        "camera": "pull",
+        "dur_est": 7.56
+      },
+      {
+        "id": "TK2.01#6",
+        "role": "N1",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Each day, we endured eleven grueling hours of manual farm labor under the sweltering equatorial sun, surviving on meager rations of rice and watery broth.",
+        "source": "1.07#4",
+        "bg": "t12_confiscated_passports_trunk",
+        "camera": "push",
+        "dur_est": 8.59
+      },
+      {
+        "id": "TK2.01#7",
+        "role": "N1",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Armed security details patrolled the perimeter around the clock, carrying high-powered firearms.",
+        "source": "1.07#5",
+        "bg": "t12_equatorial_forced_labor_fields",
+        "camera": "still",
+        "dur_est": 4.12
+      },
+      {
+        "id": "TK2.01#8",
+        "role": "N1",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.0,
+        "text": "Maternal instinct warned me that a terrible catastrophe hung over my son, and I knew I had to find a way to escape at any cost.",
+        "source": "1.07#8",
+        "bg": "t12_inescapable_labor_camp_cage",
+        "camera": "push",
+        "dur_est": 8.93
+      }
+    ]
+  },
+  "TK3": {
+    "title": "Groupthink & The Milgram Obedience Trap",
+    "theme": "Obedience to Authority & Groupthink",
+    "hook": "Why did 918 people walk into destruction without mass revolt? The anatomy of group obedience.",
+    "total_dur_est": 52.4,
+    "bgm": "bgm_piano_minimal.mp3",
+    "sfx": [
+      "amb_room_tone.wav (bed)",
+      "fx_clock_ticking.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK3.01#1",
+        "text": "THE ULTIMATE QUESTION: WHY DID IT HAPPEN?",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK3.01#3",
+        "text": "MILGRAM EXPERIMENT: SURRENDERING MORAL AGENCY",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK3.01#5",
+        "text": "IRVING JANIS: GROUPTHINK DYSFUNCTION",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK3.01#7",
+        "text": "FOOT-IN-THE-DOOR: ESCALATING COMMITMENT",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK3.01#8",
+        "text": "THE PERFECT TRAP OF VOLUNTARY BLINDNESS",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK3.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Reflecting upon Jonestown, the central question that has haunted behavioral scientists for decades remains: Why?",
+        "source": "3.02#1",
+        "bg": "t12_unanswered_question_diorama",
+        "camera": "pan",
+        "dur_est": 5.35
+      },
+      {
+        "id": "TK3.01#2",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "The foundational psychological mechanism governing Jonestown is obedience to authority, demonstrated in the landmark experiments of Stanley Milgram.",
+        "source": "3.03#1",
+        "bg": "t12_milgram_experiment_shock_generator",
+        "camera": "push",
+        "dur_est": 7.0
+      },
+      {
+        "id": "TK3.01#3",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Milgram demonstrated that when confronted with a figure perceived as a legitimate authority, individuals routinely surrender personal moral accountability.",
+        "source": "3.03#2",
+        "bg": "t12_milgram_experiment_shock_generator",
+        "camera": "still",
+        "dur_est": 7.39
+      },
+      {
+        "id": "TK3.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Beyond individual obedience, Jim Jones weaponized collective social pressure to extinguish independent thought.",
+        "source": "3.04#1",
+        "bg": "t12_groupthink_hostile_mob_shadows",
+        "camera": "still",
+        "dur_est": 4.64
+      },
+      {
+        "id": "TK3.01#5",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "The concept of Groupthink, formulated by Irving Janis, explains how cohesive groups arrive at catastrophically irrational and destructive decisions.",
+        "source": "3.05#1",
+        "bg": "t12_cognitive_dissonance_scales",
+        "camera": "pull",
+        "dur_est": 7.39
+      },
+      {
+        "id": "TK3.01#6",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "When the drive for internal unanimity overrides realistic appraisals of alternative courses of action, groups develop massive collective blindspots.",
+        "source": "3.05#2",
+        "bg": "t12_cognitive_dissonance_scales",
+        "camera": "push",
+        "dur_est": 7.39
+      },
+      {
+        "id": "TK3.01#7",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "This distortion was reinforced through the Foot-in-the-Door technique, or escalation of commitment.",
+        "source": "3.05#4",
+        "bg": "t12_closed_circle_of_stools",
+        "camera": "pan",
+        "dur_est": 4.67
+      },
+      {
+        "id": "TK3.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "It represents an escalating psychological trap that ensnares human beings in voluntary servitude.",
+        "source": "3.05#13",
+        "bg": "t12_staircase_into_blackness",
+        "camera": "pull",
+        "dur_est": 5.06
+      }
+    ]
+  },
+  "TK4": {
+    "title": "Death Tape Q 042 & The Solitary Voice of Defiance",
+    "theme": "Neutralization Theory & Independent Conscience",
+    "hook": "The FBI's 44-minute declassified death tape. The lone woman who stood up to question the leader.",
+    "total_dur_est": 64.4,
+    "bgm": "bgm_violin_heart.mp3",
+    "sfx": [
+      "amb_tape_hiss.wav (bed)",
+      "fx_cassette_play.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK4.01#1",
+        "text": "FBI DECLASSIFIED EVIDENCE: DEATH TAPE Q 042",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK4.01#2",
+        "text": "44 MINUTES OF CHILLING HISTORICAL RECORDING",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK4.01#4",
+        "text": "CHRISTINE MILLER (AGE 60): THE LONE DEFENDER",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK4.01#6",
+        "text": "“AS LONG AS THERE’S LIFE, THERE’S HOPE”",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK4.01#8",
+        "text": "INDEPENDENT CONSCIENCE DEFENDING INNOCENCE",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK4.01#1",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "United States government archives subsequently declassified one of the most chilling evidentiary recordings in modern history: “Death Tape Q 042”.",
+        "source": "2.11#1",
+        "bg": "t12_knife_attack_scuffle_pavilion",
+        "camera": "pull",
+        "dur_est": 8.13
+      },
+      {
+        "id": "TK4.01#2",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "This forty-four-minute cassette recording captures the raw audio landscape inside the central pavilion on the afternoon of November 18, 1978.",
+        "source": "2.11#2",
+        "bg": "t12_knife_attack_scuffle_pavilion",
+        "camera": "push",
+        "dur_est": 8.13
+      },
+      {
+        "id": "TK4.01#3",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "On the tape, Jim Jones announces to the assembly that Congressman Ryan's party has been ambushed and that an aircraft is crashing into the jungle.",
+        "source": "2.11#3",
+        "bg": "t12_old_radio_receiver_dark",
+        "camera": "still",
+        "dur_est": 10.16
+      },
+      {
+        "id": "TK4.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "That courageous individual was Christine Miller, an African American woman in her sixties who had dedicated years of service to the church.",
+        "source": "4.04#1",
+        "bg": "t12_miller_silhouette_at_microphone",
+        "camera": "pull",
+        "dur_est": 7.85
+      },
+      {
+        "id": "TK4.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Upon hearing Jones announce the collective end of the settlement, she stood and questioned the patriarch before the entire assembly.",
+        "source": "4.04#2",
+        "bg": "t12_miller_silhouette_at_microphone",
+        "camera": "push",
+        "dur_est": 7.14
+      },
+      {
+        "id": "TK4.01#6",
+        "role": "H",
+        "emotion": "fearful",
+        "speed": -0.03,
+        "pause_after": 0.6,
+        "text": "Her clear, unwavering words are preserved on the tape: “I feel that as long as there's life, there's hope.",
+        "source": "4.04#3",
+        "bg": "t12_empty_microphone_after_crowd",
+        "camera": "still",
+        "dur_est": 6.78
+      },
+      {
+        "id": "TK4.01#7",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Confronted by Christine Miller's principled reasoning, Jim Jones reacted with irritation and harsh dismissal.",
+        "source": "4.06#1",
+        "bg": "t12_raised_fist_behind_microphone",
+        "camera": "still",
+        "dur_est": 5.0
+      },
+      {
+        "id": "TK4.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Christine Miller's dissent exemplifies independent moral agency, breaking through collective fear to champion the sanctity of young life.",
+        "source": "4.07#5",
+        "bg": "t12_brass_compass_on_bare_table",
+        "camera": "still",
+        "dur_est": 7.0
+      }
+    ]
+  },
+  "TK5": {
+    "title": "Victimology & 4 Survival Red Flags",
+    "theme": "Victimology & 4 Survival Red Flags",
+    "hook": "Four psychological red flags to never fall prey to coercive mind control.",
+    "total_dur_est": 68.7,
+    "bgm": "bgm_piano_warm.mp3",
+    "sfx": [
+      "amb_room_tone.wav (bed)",
+      "fx_page_turn.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK5.01#1",
+        "text": "4 SURVIVAL RED FLAGS · THE GIFT OF FEAR",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#2",
+        "text": "FLAG 1: TOTAL SOCIAL ISOLATION",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#4",
+        "text": "FLAG 2: FINANCIAL CONTROL & ASSET SEIZURE",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#6",
+        "text": "FLAG 3: PHYSICAL EXHAUSTION CRUSHING REASON",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#8",
+        "text": "FLAG 4: DEIFICATION OF LEADER & DISSENT FORBIDDEN",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#10",
+        "text": "INTUITION IS HUMANITY'S GREATEST SURVIVAL GIFT",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK5.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "To empower you and your loved ones to identify and avoid dangerous coercive traps in contemporary life, Amber eyes synthesizes four survival red flags derived from the Jonestown dossier.",
+        "source": "5.05#1",
+        "bg": "t12_amber_eyes_closing_dossier_jonestown",
+        "camera": "pan",
+        "dur_est": 10.35
+      },
+      {
+        "id": "TK5.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "Red Flag Number One: Demands for total isolation from your established social support network.",
+        "source": "5.05#2",
+        "bg": "t12_redflag1_total_social_isolation",
+        "camera": "pull",
+        "dur_est": 5.0
+      },
+      {
+        "id": "TK5.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "They deliberately detach you from objective reality to establish their authority as the sole arbiter of your worldview.",
+        "source": "5.05#4",
+        "bg": "t12_redflag2_silenced_critical_thinking",
+        "camera": "still",
+        "dur_est": 6.42
+      },
+      {
+        "id": "TK5.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "Red Flag Number Two: Financial usurpation and the confiscation of personal autonomy assets.",
+        "source": "5.05#5",
+        "bg": "t12_redflag3_escalating_commitment_trap",
+        "camera": "pan",
+        "dur_est": 4.64
+      },
+      {
+        "id": "TK5.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "When you lose financial independence and mobility, you surrender the practical capacity to escape when anomalies surface.",
+        "source": "5.05#7",
+        "bg": "t12_empty_trunk_open_padlock",
+        "camera": "push",
+        "dur_est": 6.07
+      },
+      {
+        "id": "TK5.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "Red Flag Number Three: Engineered physical depletion designed to dismantle critical thinking.",
+        "source": "5.05#8",
+        "bg": "t12_exhausted_worker_hut_wall",
+        "camera": "still",
+        "dur_est": 4.28
+      },
+      {
+        "id": "TK5.01#7",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "When the human body is pushed to exhaustion, the brain's natural skepticism and resistance reflexes become severely degraded.",
+        "source": "5.05#10",
+        "bg": "t12_sleep_deprived_bare_bunk",
+        "camera": "pull",
+        "dur_est": 6.42
+      },
+      {
+        "id": "TK5.01#8",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "Red Flag Number Four: The deification of a leader and the active punishment of doubt.",
+        "source": "5.05#11",
+        "bg": "t12_redflag4_fortress_paranoia_wall",
+        "camera": "push",
+        "dur_est": 5.35
+      },
+      {
+        "id": "TK5.01#9",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Conversely, when an organization treats its leadership as infallible and views respectful questioning as a moral betrayal, you are standing inside an authoritarian trap.",
+        "source": "5.05#13",
+        "bg": "t12_paranoia_wall_coiled_wire",
+        "camera": "pan",
+        "dur_est": 8.56
+      },
+      {
+        "id": "TK5.01#10",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Always remember Gavin de Becker's insight from The Gift of Fear: “Intuition is the most precious survival gift of human consciousness.",
+        "source": "5.05#15",
+        "bg": "t12_instinct_bent_branch_path",
+        "camera": "push",
+        "dur_est": 7.49
+      }
+    ]
+  }
+}

@@ -1,0 +1,418 @@
+[
+  {
+    "id": "1.01",
+    "kind": "BGM",
+    "role": null,
+    "sents": 0,
+    "direction": "",
+    "desc": "Tiếng đàn Cello u buồn cất lên chậm rãi giữa không gian tĩnh lặng, hòa cùng tiếng gió rít hiu hắt trên xa lộ hoang vắng, tạo cảm giác bất an và ngột ngạt."
+  },
+  {
+    "id": "1.02",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 12,
+    "direction": "chậm rãi, giọng trầm ấm gợi mở không gian lịch sử",
+    "desc": ""
+  },
+  {
+    "id": "1.03",
+    "kind": "SFX",
+    "role": null,
+    "sents": 0,
+    "direction": "",
+    "desc": "Tiếng xe cộ lao vút trên đường cao tốc, tiếng gió rít bên cửa kính ô tô."
+  },
+  {
+    "id": "1.04",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 6,
+    "direction": "chuyển giọng u tối, báo hiệu tai ương",
+    "desc": ""
+  },
+  {
+    "id": "1.05",
+    "kind": "SFX",
+    "role": null,
+    "sents": 0,
+    "direction": "",
+    "desc": "Tiếng lốp xe rít phanh chầm chậm tấp vào lề đường, tiếng động cơ nổ trầm đục."
+  },
+  {
+    "id": "1.06",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 6,
+    "direction": "tiếp tục mạch tự sự nghẹt thở",
+    "desc": ""
+  },
+  {
+    "id": "1.07",
+    "kind": "LOI",
+    "role": "N",
+    "sents": 5,
+    "direction": "N1: Bạn của Colleen Stan, giọng nữ trẻ bàng hoàng, nghẹn ngào",
+    "desc": ""
+  },
+  {
+    "id": "1.08",
+    "kind": "SFX",
+    "role": null,
+    "sents": 0,
+    "direction": "",
+    "desc": "Tiếng còi cảnh sát vang vọng xa xăm, tiếng lật giấy tờ hồ sơ vội vã."
+  },
+  {
+    "id": "1.09",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 5,
+    "direction": "trầm giọng",
+    "desc": ""
+  },
+  {
+    "id": "1.10",
+    "kind": "LOI",
+    "role": "D",
+    "sents": 7,
+    "direction": "giọng nam sắc bén, tái hiện không gian hiện trường",
+    "desc": ""
+  },
+  {
+    "id": "1.11",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 5,
+    "direction": "khép lại Hồi 1",
+    "desc": ""
+  },
+  {
+    "id": "1.12",
+    "kind": "BGM",
+    "role": null,
+    "sents": 0,
+    "direction": "",
+    "desc": "Một nốt cello trầm đục ngân dài rồi chìm vào khoảng không im lặng đến nghẹt thở."
+  },
+  {
+    "id": "2.01",
+    "kind": "BGM",
+    "role": null,
+    "sents": 0,
+    "direction": "",
+    "desc": "Âm thanh Dark Ambient lạnh lẽo, tiếng kim đồng hồ tích tắc chậm rãi như đếm từng giây vô vọng giữa căn phòng cô đặc bóng tối."
+  },
+  {
+    "id": "2.02",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 6,
+    "direction": "giọng hồi hộp dẫn dắt",
+    "desc": ""
+  },
+  {
+    "id": "2.03",
+    "kind": "SFX",
+    "role": null,
+    "sents": 0,
+    "direction": "",
+    "desc": "Tiếng nắp gỗ nặng nề sập xuống, tiếng then cài sắt khóa rít chói tai."
+  },
+  {
+    "id": "2.04",
+    "kind": "LOI",
+    "role": "D",
+    "sents": 10,
+    "direction": "mô tả cấu trúc nhà tù dưới gầm giường",
+    "desc": ""
+  },
+  {
+    "id": "2.05",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 5,
+    "direction": "phác họa chân dung kẻ thủ ác",
+    "desc": ""
+  },
+  {
+    "id": "2.06",
+    "kind": "LOI",
+    "role": "C",
+    "sents": 12,
+    "direction": "phân tích hiệu ứng tước đoạt cảm giác",
+    "desc": ""
+  },
+  {
+    "id": "2.07",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 4,
+    "direction": "tiếp tục mạch tự sự",
+    "desc": ""
+  },
+  {
+    "id": "2.08",
+    "kind": "LOI",
+    "role": "D",
+    "sents": 7,
+    "direction": "giải thích bẫy thao túng The Company",
+    "desc": ""
+  },
+  {
+    "id": "2.09",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 4,
+    "direction": "nhấn mạnh bản hợp đồng nô lệ",
+    "desc": ""
+  },
+  {
+    "id": "2.10",
+    "kind": "LOI",
+    "role": "C",
+    "sents": 6,
+    "direction": "đúc kết sự tê liệt nhận thức",
+    "desc": ""
+  },
+  {
+    "id": "2.11",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 3,
+    "direction": "thắt lại Hồi 2",
+    "desc": ""
+  },
+  {
+    "id": "2.12",
+    "kind": "NGHI",
+    "role": null,
+    "sents": 0,
+    "direction": "",
+    "desc": "Tiếng drone u uất kéo dài rồi tan biến"
+  },
+  {
+    "id": "3.01",
+    "kind": "BGM",
+    "role": null,
+    "sents": 0,
+    "direction": "",
+    "desc": "Âm nhạc chuyển sang tiếng Dương cầm tối giản, chậm rãi, mang màu sắc triết học và đầy tính tự vấn về giới hạn tâm lý con người."
+  },
+  {
+    "id": "3.02",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 4,
+    "direction": "đặt vấn đề gây chấn động",
+    "desc": ""
+  },
+  {
+    "id": "3.03",
+    "kind": "SFX",
+    "role": null,
+    "sents": 0,
+    "direction": "",
+    "desc": "Tiếng chuông cửa ngân vang, tiếng then cài mở khóa gấp gáp, tiếng nấc nghẹn ngào của cuộc hội ngộ."
+  },
+  {
+    "id": "3.04",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 4,
+    "direction": "tái hiện cuộc hội ngộ nghẹt thở",
+    "desc": ""
+  },
+  {
+    "id": "3.05",
+    "kind": "LOI",
+    "role": "D",
+    "sents": 7,
+    "direction": "nhấn mạnh chi tiết nghịch lý",
+    "desc": ""
+  },
+  {
+    "id": "3.06",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 4,
+    "direction": "giọng đầy trăn trở",
+    "desc": ""
+  },
+  {
+    "id": "3.07",
+    "kind": "LOI",
+    "role": "C",
+    "sents": 11,
+    "direction": "giải phẫu hiện tượng Bất lực tập nhiễm",
+    "desc": ""
+  },
+  {
+    "id": "3.08",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 8,
+    "direction": "bóc tách cơ chế Gắn kết chấn thương",
+    "desc": ""
+  },
+  {
+    "id": "3.09",
+    "kind": "LOI",
+    "role": "C",
+    "sents": 8,
+    "direction": "bóc tách cơ chế chia ngăn nhận thức",
+    "desc": ""
+  },
+  {
+    "id": "3.10",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 3,
+    "direction": "khép lại Hồi 3",
+    "desc": ""
+  },
+  {
+    "id": "3.11",
+    "kind": "BGM",
+    "role": null,
+    "sents": 0,
+    "direction": "",
+    "desc": "Một nốt piano trầm buồn ngân vang rồi từ từ tắt lịm vào không gian tĩnh lặng."
+  },
+  {
+    "id": "4.01",
+    "kind": "BGM",
+    "role": null,
+    "sents": 0,
+    "direction": "",
+    "desc": "Âm thanh vĩ cầm dồn dập, giằng xé, tái hiện cuộc khủng hoảng lương tâm nghẹt thở và bước ngoặt định mệnh phá vỡ lồng giam."
+  },
+  {
+    "id": "4.02",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 5,
+    "direction": "mở đầu Hồi 4",
+    "desc": ""
+  },
+  {
+    "id": "4.03",
+    "kind": "LOI",
+    "role": "D",
+    "sents": 9,
+    "direction": "thuật lại nguồn cơn rạn nứt",
+    "desc": ""
+  },
+  {
+    "id": "4.04",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 5,
+    "direction": "tiết lộ giọt nước tràn ly",
+    "desc": ""
+  },
+  {
+    "id": "4.05",
+    "kind": "LOI",
+    "role": "N",
+    "sents": 8,
+    "direction": "N2: Lời dẫn minh họa về Janice Hooker, giọng nữ trung niên run rẩy, đầy giằng xé tội lỗi",
+    "desc": ""
+  },
+  {
+    "id": "4.06",
+    "kind": "SFX",
+    "role": null,
+    "sents": 0,
+    "direction": "",
+    "desc": "Tiếng động cơ xe nổ gấp gáp, tiếng bánh xe nghiến trên sỏi đá, tiếng cửa xe buýt mở ra đón người."
+  },
+  {
+    "id": "4.07",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 6,
+    "direction": "tiếp tục diễn biến giải cứu",
+    "desc": ""
+  },
+  {
+    "id": "4.08",
+    "kind": "LOI",
+    "role": "D",
+    "sents": 4,
+    "direction": "thuật lại diễn biến pháp lý",
+    "desc": ""
+  },
+  {
+    "id": "4.09",
+    "kind": "LOI",
+    "role": "C",
+    "sents": 9,
+    "direction": "phân tích tâm lý của kẻ thủ ác trước tòa",
+    "desc": ""
+  },
+  {
+    "id": "4.10",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 6,
+    "direction": "khép lại Hồi 4",
+    "desc": ""
+  },
+  {
+    "id": "4.11",
+    "kind": "BGM",
+    "role": null,
+    "sents": 0,
+    "direction": "",
+    "desc": "Một nốt nhạc u uất lắng xuống rồi tan biến vào sự tĩnh lặng trang nghiêm của phòng xử án."
+  },
+  {
+    "id": "5.01",
+    "kind": "BGM",
+    "role": null,
+    "sents": 0,
+    "direction": "",
+    "desc": "Nhạc nền chuyển sang giai điệu Piano ấm áp, trang trọng, ngân vang niềm tin mãnh liệt vào sự kiên cường và tái sinh của tâm hồn con người."
+  },
+  {
+    "id": "5.02",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 8,
+    "direction": "giọng suy ngẫm, triết lý và đầy xúc động",
+    "desc": ""
+  },
+  {
+    "id": "5.03",
+    "kind": "LOI",
+    "role": "C",
+    "sents": 7,
+    "direction": "đúc kết khái niệm Tăng trưởng sau sang chấn",
+    "desc": ""
+  },
+  {
+    "id": "5.04",
+    "kind": "LOI",
+    "role": "D",
+    "sents": 6,
+    "direction": "nhận định di sản tư pháp và giáo dục",
+    "desc": ""
+  },
+  {
+    "id": "5.05",
+    "kind": "LOI",
+    "role": "H",
+    "sents": 15,
+    "direction": "chuyển sang phần đúc kết và bài học nhận diện",
+    "desc": ""
+  },
+  {
+    "id": "5.06",
+    "kind": "BGM",
+    "role": null,
+    "sents": 0,
+    "direction": "",
+    "desc": "Nhạc nền ngân vang ấm áp, trang trọng rồi mờ dần và tắt hoàn toàn ở giây thứ 5."
+  }
+]

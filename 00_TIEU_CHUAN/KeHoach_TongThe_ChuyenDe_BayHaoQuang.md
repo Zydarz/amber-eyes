@@ -131,7 +131,7 @@ Theo đúng **11 bước có cổng của `AGENTS.md` mục 2** — bảng đầ
 | 1 | Kịch bản bản chốt (K1–K10, H23) | **⏸ Người dùng duyệt kịch bản** |
 | 2–5 | Tách câu → diễn xuất (`_pause_after` từng ngôn ngữ, A13) → đọc giọng (CER < 2%, A14 tầng 1) → nghe theo vai **5 vai** (G10) | **⏸ Người dùng nghe duyệt giọng** — không đạt ⇒ DỪNG |
 | 6 | Trộn âm: V4, −16 ± 1 LUFS, đỉnh ≤ −1,5 dBFS, nhịp nghỉ, `qc_wave_gate` (H24), `qc_voice_gap` (A14) | |
-| 7 | Bảng shot + **nền lập theo shot** (`qc_bg_usage.py --plan`, H25 → sinh ảnh H21 → H17/H22) | |
+| 7 | Bảng shot + **nền lập theo shot** (`qc_bg_usage.py --plan`, H25 → sinh ảnh H21 → H22) | |
 | 8 | Ảnh tĩnh mọi shot × mọi ngôn ngữ (H9/H20) | **⏸ Người dùng duyệt ảnh tĩnh** |
 | 9–10 | Dựng hình (± 0,05 s, T20/H14) → phụ đề + đóng gói (H11/H12, T15/T17) | |
 | 11 | Giao + số đo | **⏸ Danh sách việc người dùng phải làm** |

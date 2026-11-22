@@ -1,0 +1,951 @@
+{
+  "_readme": "Đặc tả audio và kịch bản dựng TikTok Tập 05 (EN) — sinh tự động bởi .work/_build_tk_tap05.py.",
+  "_episode": "Tap05",
+  "_language": "EN",
+  "_title": "THE PURPLE FLOPPY DISK & MALIGNANT NARCISSISM",
+  "_measured_rates": {
+    "C": 0.3936,
+    "D": 0.4101,
+    "H": 0.3522,
+    "N1": 0.3288,
+    "N2": 0.2926
+  },
+  "_clips_summary": [
+    {
+      "clip": "TK1",
+      "title": "The Purple Floppy Disk & The Metadata Trap",
+      "signs": [
+        4,
+        8
+      ],
+      "lines_count": 11,
+      "est_duration_s": 68.8
+    },
+    {
+      "clip": "TK2",
+      "title": "The Church Council President & The Thirty-Year Mask",
+      "signs": [
+        9,
+        3
+      ],
+      "lines_count": 10,
+      "est_duration_s": 74.2
+    },
+    {
+      "clip": "TK3",
+      "title": "The Terror of Oblivion & The Factor X Delusion",
+      "signs": [
+        6,
+        5
+      ],
+      "lines_count": 10,
+      "est_duration_s": 71.3
+    },
+    {
+      "clip": "TK4",
+      "title": "The Agony of the Serial Killer’s Daughter",
+      "signs": [
+        3,
+        1
+      ],
+      "lines_count": 11,
+      "est_duration_s": 64.4
+    },
+    {
+      "clip": "TK5",
+      "title": "4 Survival Red Flags to Detect Toxic Civic Masks",
+      "signs": [
+        10
+      ],
+      "lines_count": 12,
+      "est_duration_s": 74.2
+    }
+  ],
+  "clips": {
+    "TK1": {
+      "title": "The Purple Floppy Disk & The Metadata Trap",
+      "theme": "Narcissistic Collapse & Digital Forensics Penetrating the Omnipotence Illusion",
+      "signs": [
+        4,
+        8
+      ],
+      "total_est_duration_s": 68.8,
+      "bgm": "bgm_ambient_tension.mp3",
+      "bgm_desc": "Act 4 — episode bed: bgm_ambient_tension.mp3",
+      "sfx": [
+        "amb_winter_wind.wav (bed)",
+        "fx_floppy_insert.wav",
+        "fx_keyboard_typing.wav",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK1.01#1",
+          "text": "CASE DOSSIER 05: DENNIS RADER (BTK)",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK1.01#4",
+          "text": "CLASSIFIED AD 494: “REX, IT WILL BE OK”",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#5",
+          "text": "PURPLE MEMOREX 1.44MB FLOPPY DISK",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK1.01#8",
+          "text": "METADATA REVEALED: DENNIS & CHRIST LUTHERAN",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK1.01#10",
+          "text": "NARCISSISTIC COLLAPSE IN INTERROGATION",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK1.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t5_handwritten_note_floppy",
+          "motion": "still",
+          "text": "A serial killer elusive for thirty years. Undone by a purple floppy disk.",
+          "src_script": "hook — không phải dữ kiện kịch bản",
+          "est_duration_s": 5.08
+        },
+        {
+          "clip_line_id": "TK1.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t5_handwritten_note_floppy",
+          "motion": "pan",
+          "text": "As official trial records reflect, he posed an astoundingly naive question: “Can I communicate with a floppy disk and not have it traced to a computer?",
+          "src_script": "4.02#6",
+          "est_duration_s": 9.76
+        },
+        {
+          "clip_line_id": "TK1.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t5_newspaper_classified_494",
+          "motion": "still",
+          "text": "On January 28, 2005, in the classifieds section of The Wichita Eagle, a brief message appeared: “Rex, it will be okay to send it”.",
+          "src_script": "4.04#5",
+          "est_duration_s": 10.44
+        },
+        {
+          "clip_line_id": "TK1.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t5_purple_floppy_disk",
+          "motion": "pull",
+          "text": "Nestled inside was a purple Memorex 1.44-megabyte floppy disk wrapped in documentation.",
+          "src_script": "4.04#8",
+          "est_duration_s": 5.52
+        },
+        {
+          "clip_line_id": "TK1.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t5_digital_forensics_lab",
+          "motion": "pan",
+          "text": "The purple disk was immediately rushed to the regional digital forensic unit under strict chain of custody.",
+          "src_script": "4.06#1",
+          "est_duration_s": 6.59
+        },
+        {
+          "clip_line_id": "TK1.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t5_metadata_screen",
+          "motion": "push",
+          "text": "The first line recorded: “Last modified by: Dennis”.",
+          "src_script": "4.06#6",
+          "est_duration_s": 3.42
+        },
+        {
+          "clip_line_id": "TK1.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t5_metadata_screen",
+          "motion": "still",
+          "text": "And the second line confirmed: “Registered organization: Christ Lutheran Church”.",
+          "src_script": "4.06#7",
+          "est_duration_s": 4.12
+        },
+        {
+          "clip_line_id": "TK1.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t5_church_website_search",
+          "motion": "pull",
+          "text": "The congregation's official web directory loaded instantly: Council President was Dennis Rader.",
+          "src_script": "4.08#2",
+          "est_duration_s": 5.62
+        },
+        {
+          "clip_line_id": "TK1.01#9",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t5_interrogation_confrontation",
+          "motion": "push",
+          "text": "He stared at Lieutenant Landwehr and asked plaintively: “Why did you lie to me about the floppy disk?”.",
+          "src_script": "4.12#2",
+          "est_duration_s": 8.08
+        },
+        {
+          "clip_line_id": "TK1.01#10",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t5_interrogation_confrontation",
+          "motion": "still",
+          "text": "Lieutenant Landwehr's response was razor-sharp: “Because we were trying to catch you.”.",
+          "src_script": "4.12#3",
+          "est_duration_s": 5.62
+        },
+        {
+          "clip_line_id": "TK1.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t5_amber_eyes_dossier_05",
+          "motion": "still",
+          "text": "Episode five of Amber Eyes. Watch the full documentary via the bio link.",
+          "src_script": "CTA — không phải dữ kiện kịch bản",
+          "est_duration_s": 4.58
+        }
+      ]
+    },
+    "TK2": {
+      "title": "The Church Council President & The Thirty-Year Mask",
+      "theme": "Halo Effect & Pathological Compartmentalization Shielding a Predator",
+      "signs": [
+        9,
+        3
+      ],
+      "total_est_duration_s": 74.2,
+      "bgm": "bgm_jazz_noir.mp3",
+      "bgm_desc": "Act 2 — episode bed: bgm_jazz_noir.mp3",
+      "sfx": [
+        "amb_suburban_evening.wav (bed)",
+        "fx_lawnmower_distant.wav",
+        "fx_door_creak.wav",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK2.01#1",
+          "text": "SOCIAL BLIND SPOT: THE PRISTINE CITIZEN MASK",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK2.01#4",
+          "text": "COUNCIL PRESIDENT AT CHRIST LUTHERAN CHURCH",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#6",
+          "text": "COMPLIANCE OFFICER MEASURING LAWN HEIGHTS",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#8",
+          "text": "HALO EFFECT & SYSTEMIC NORMALIZATION",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK2.01#9",
+          "text": "EXTREME COMPARTMENTALIZATION",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK2.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t5_rader_house_park_city",
+          "motion": "still",
+          "text": "Church council president. Scout leader. And a serial killer hiding in plain sight.",
+          "src_script": "hook — không phải dữ kiện kịch bản",
+          "est_duration_s": 5.08
+        },
+        {
+          "clip_line_id": "TK2.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t5_rader_house_park_city",
+          "motion": "pan",
+          "text": "Yet the greatest shock to the community was the pristine social disguise that Dennis Rader had constructed around his existence.",
+          "src_script": "2.06#1",
+          "est_duration_s": 8.8
+        },
+        {
+          "clip_line_id": "TK2.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t5_lutheran_church_exterior",
+          "motion": "still",
+          "text": "He served as Council President at Christ Lutheran Church—entrusted with church keys, administrative oversight, and financial stewardship.",
+          "src_script": "2.06#4",
+          "est_duration_s": 7.57
+        },
+        {
+          "clip_line_id": "TK2.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t5_scout_camp_campfire",
+          "motion": "pan",
+          "text": "He led a local Cub Scout troop, patiently teaching young boys wilderness skills and civic integrity.",
+          "src_script": "2.06#5",
+          "est_duration_s": 7.16
+        },
+        {
+          "clip_line_id": "TK2.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t5_compliance_truck_street",
+          "motion": "push",
+          "text": "And from 1991 onward, he was Park City's Compliance Supervisor, driving his municipal pickup to inspect neighborhoods, measure grass heights, and impound stray pets.",
+          "src_script": "2.06#6",
+          "est_duration_s": 10.44
+        },
+        {
+          "clip_line_id": "TK2.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t5_compliance_measuring_tape",
+          "motion": "still",
+          "text": "His harsh, obsessive rigidity was simply excused by townspeople as the strict discipline of an ex-military official.",
+          "src_script": "2.06#7",
+          "est_duration_s": 7.67
+        },
+        {
+          "clip_line_id": "TK2.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t5_two_faces_silhouette",
+          "motion": "push",
+          "text": "That classic Hiệu ứng Hào quang and institutional normalcy bias formed an enormous blind spot that shielded him for three decades.",
+          "src_script": "2.06#8",
+          "est_duration_s": 9.31
+        },
+        {
+          "clip_line_id": "TK2.01#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t5_concrete_wall_divide",
+          "motion": "pull",
+          "text": "He built an impenetrable psychological wall between his family life and his grotesque predatory fantasies.",
+          "src_script": "3.02#3",
+          "est_duration_s": 6.6
+        },
+        {
+          "clip_line_id": "TK2.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t5_family_dinner_warmth",
+          "motion": "still",
+          "text": "His family and civic position functioned as a “Shield of Normalization” to preserve his public persona.",
+          "src_script": "3.02#6",
+          "est_duration_s": 7.0
+        },
+        {
+          "clip_line_id": "TK2.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t5_amber_eyes_dossier_05",
+          "motion": "still",
+          "text": "Episode five of Amber Eyes. Watch the full documentary via the bio link.",
+          "src_script": "CTA — không phải dữ kiện kịch bản",
+          "est_duration_s": 4.58
+        }
+      ]
+    },
+    "TK3": {
+      "title": "The Terror of Oblivion & The Factor X Delusion",
+      "theme": "Precipitating Psychological Trigger & Externalized Self-Defense Mechanism",
+      "signs": [
+        6,
+        5
+      ],
+      "total_est_duration_s": 71.3,
+      "bgm": "bgm_sub_drone.mp3",
+      "bgm_desc": "Act 1/3 — episode bed: bgm_sub_drone.mp3",
+      "sfx": [
+        "amb_dark_drone.wav (bed)",
+        "fx_newspaper_rustle.wav",
+        "fx_whisper_shadow.wav",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK3.01#1",
+          "text": "PRECIPITATING TRIGGER: FEAR OF IRRELEVANCE",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK3.01#3",
+          "text": "THE WICHITA EAGLE: “BTK LIKELY DEAD OR OLD”",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#5",
+          "text": "LETHAL STAB TO MALIGNANT NARCISSISM",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#7",
+          "text": "DELUSION OF “FACTOR X”",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK3.01#8",
+          "text": "MORAL NEUTRALIZATION & EXTERNALIZATION",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK3.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t5_fear_of_oblivion",
+          "motion": "still",
+          "text": "Monsters do not fear prison. What terrifies them most is being forgotten.",
+          "src_script": "hook — không phải dữ kiện kịch bản",
+          "est_duration_s": 4.73
+        },
+        {
+          "clip_line_id": "TK3.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t5_detective_war_room",
+          "motion": "pan",
+          "text": "When that resurgence envelope surfaced in March 2004, our task force's primary question was not where he was, but: Why now?",
+          "src_script": "1.14#1",
+          "est_duration_s": 9.21
+        },
+        {
+          "clip_line_id": "TK3.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t5_book_manuscript_desk",
+          "motion": "still",
+          "text": "Early that year, The Wichita Eagle had published a retrospective marking thirty years since BTK's first massacre.",
+          "src_script": "1.14#3",
+          "est_duration_s": 7.57
+        },
+        {
+          "clip_line_id": "TK3.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t5_book_manuscript_desk",
+          "motion": "pull",
+          "text": "The feature highlighted an upcoming book by attorney Robert Beattie, openly theorizing that BTK was likely deceased or languishing in forgotten obscurity.",
+          "src_script": "1.14#4",
+          "est_duration_s": 9.62
+        },
+        {
+          "clip_line_id": "TK3.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t5_narcissist_mirror_shadow",
+          "motion": "push",
+          "text": "For a malignant narcissist, that conclusion was a devastating strike to his pathological ego.",
+          "src_script": "1.14#5",
+          "est_duration_s": 6.34
+        },
+        {
+          "clip_line_id": "TK3.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t5_narcissist_mirror_shadow",
+          "motion": "still",
+          "text": "Dennis Rader could not endure the thought of humanity forgetting his supreme control and terrorizing power.",
+          "src_script": "1.14#6",
+          "est_duration_s": 7.16
+        },
+        {
+          "clip_line_id": "TK3.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t5_btk_signature_letter",
+          "motion": "pull",
+          "text": "The desperate addiction to social attention compelled him to abandon his safe cocoon, solely to remind the world that the monster BTK was still alive.",
+          "src_script": "1.14#7",
+          "est_duration_s": 10.95
+        },
+        {
+          "clip_line_id": "TK3.01#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t5_factor_x_shadow",
+          "motion": "push",
+          "text": "And to legitimize this cognitive fracture, Rader concocted a delusional concept he labeled: “Factor X”.",
+          "src_script": "3.02#7",
+          "est_duration_s": 6.6
+        },
+        {
+          "clip_line_id": "TK3.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.7,
+          "bg": "t5_projection_mask",
+          "motion": "still",
+          "text": "From a behavioral science viewpoint, what was “Factor X” in reality?",
+          "src_script": "3.04#3",
+          "est_duration_s": 4.57
+        },
+        {
+          "clip_line_id": "TK3.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t5_amber_eyes_dossier_05",
+          "motion": "still",
+          "text": "Episode five of Amber Eyes. Watch the full documentary via the bio link.",
+          "src_script": "CTA — không phải dữ kiện kịch bản",
+          "est_duration_s": 4.58
+        }
+      ]
+    },
+    "TK4": {
+      "title": "The Agony of the Serial Killer’s Daughter",
+      "theme": "Predatory Compartmentalization & The Lifelong Trauma Inflicted on Family",
+      "signs": [
+        3,
+        1
+      ],
+      "total_est_duration_s": 64.4,
+      "bgm": "bgm_piano_warm.mp3",
+      "bgm_desc": "Act 4 — episode bed: bgm_piano_warm.mp3",
+      "sfx": [
+        "amb_somber_room.wav (bed)",
+        "fx_door_knock_fbi.wav",
+        "fx_heartbeat_slow.wav",
+        "fx_tear_sob.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK4.01#1",
+          "text": "TRAGEDY OF THE INNOCENT FAMILY BEHIND THE MASK",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK4.01#3",
+          "text": "KERRI RAWSON: DAUGHTER OF DENNIS RADER",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#5",
+          "text": "DEVOTED FATHER VS PROLIFIC PREDATOR",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#7",
+          "text": "THE ULTIMATE BETRAYAL OF TRUST",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK4.01#9",
+          "text": "LIFELONG SCARS BEYOND THE CRIMES",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK4.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t5_kerri_rawson_tears",
+          "motion": "still",
+          "text": "He taught me to ride a bike, walked me down the aisle. Then the FBI knocked.",
+          "src_script": "hook — không phải dữ kiện kịch bản",
+          "est_duration_s": 6.14
+        },
+        {
+          "clip_line_id": "TK4.01#2",
+          "role": "H",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.6,
+          "bg": "t5_rader_house_park_city",
+          "motion": "pan",
+          "text": "Behind the offender's repulsive pride lay an agonizing catastrophe inflicted upon innocent family members.",
+          "src_script": "4.14#1",
+          "est_duration_s": 5.53
+        },
+        {
+          "clip_line_id": "TK4.01#3",
+          "role": "H",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.6,
+          "bg": "t5_rader_house_park_city",
+          "motion": "pull",
+          "text": "His wife Paula suffered absolute devastation, while his children watched their cherished childhood memories dissolve into ashes.",
+          "src_script": "4.14#2",
+          "est_duration_s": 6.59
+        },
+        {
+          "clip_line_id": "TK4.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t5_kerri_rawson_tears",
+          "motion": "still",
+          "text": "Listen to that raw heartbreak through the words of Kerri Rawson—Dennis Rader's biological daughter.",
+          "src_script": "4.14#3",
+          "est_duration_s": 5.53
+        },
+        {
+          "clip_line_id": "TK4.01#5",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.6,
+          "bg": "t5_kerri_rawson_tears",
+          "motion": "push",
+          "text": "The whole world sees him as a monster, but to me, he was the devoted father who raised me.",
+          "src_script": "4.15#1",
+          "est_duration_s": 6.16
+        },
+        {
+          "clip_line_id": "TK4.01#6",
+          "role": "N2",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t5_family_dinner_warmth",
+          "motion": "pan",
+          "text": "He taught me to ride a bicycle, took me summer fishing, and proudly walked me down the aisle on my wedding day.",
+          "src_script": "4.15#2",
+          "est_duration_s": 7.04
+        },
+        {
+          "clip_line_id": "TK4.01#7",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.7,
+          "bg": "t5_highway_takedown_arrest",
+          "motion": "still",
+          "text": "When FBI agents knocked on my apartment door and revealed that my father was BTK, the earth vanished beneath my feet.",
+          "src_script": "4.15#3",
+          "est_duration_s": 6.84
+        },
+        {
+          "clip_line_id": "TK4.01#8",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.7,
+          "bg": "t5_shattered_mask_confession",
+          "motion": "pull",
+          "text": "The deepest agony was not merely shock, but the ultimate betrayal of trust.",
+          "src_script": "4.15#4",
+          "est_duration_s": 4.5
+        },
+        {
+          "clip_line_id": "TK4.01#9",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.7,
+          "bg": "t5_kerri_rawson_tears",
+          "motion": "still",
+          "text": "How could I ever reconcile that the man who kissed me goodnight was the demon terrorizing countless families?",
+          "src_script": "4.15#5",
+          "est_duration_s": 5.97
+        },
+        {
+          "clip_line_id": "TK4.01#10",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.04,
+          "pause_after_s": 0.8,
+          "bg": "t5_kerri_rawson_tears",
+          "motion": "push",
+          "text": "That soul-crushing wound is something that will never truly heal for the rest of my life.",
+          "src_script": "4.15#6",
+          "est_duration_s": 5.48
+        },
+        {
+          "clip_line_id": "TK4.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t5_amber_eyes_dossier_05",
+          "motion": "still",
+          "text": "Episode five of Amber Eyes. Watch the full documentary via the bio link.",
+          "src_script": "CTA — không phải dữ kiện kịch bản",
+          "est_duration_s": 4.58
+        }
+      ]
+    },
+    "TK5": {
+      "title": "4 Survival Red Flags to Detect Toxic Civic Masks",
+      "theme": "Victimology & 4 Critical Survival Red Flags Derived from Dennis Rader",
+      "signs": [
+        10
+      ],
+      "total_est_duration_s": 74.2,
+      "bgm": "bgm_piano_warm.mp3",
+      "bgm_desc": "Act 5 — episode bed: bgm_piano_warm.mp3",
+      "sfx": [
+        "amb_gentle_night.wav (bed)",
+        "fx_clock_chime.wav",
+        "fx_sub_drop.wav",
+        "fx_warm_resolve.wav"
+      ],
+      "overlays": [
+        {
+          "after_id": "TK5.01#1",
+          "text": "4 CRITICAL SURVIVAL RED FLAGS",
+          "dur_s": 3.0
+        },
+        {
+          "after_id": "TK5.01#2",
+          "text": "1. RIGID CONTROL OBSESSION & MICROMANAGEMENT",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#4",
+          "text": "2. SHALLOW AFFECT BEHIND CIVIC ENTHUSIASM",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#6",
+          "text": "3. SECRET HOARDING OF PRIVATE BELONGINGS",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#8",
+          "text": "4. DESPERATE CRAVING FOR VALIDATION & ATTENTION",
+          "dur_s": 2.5
+        },
+        {
+          "after_id": "TK5.01#10",
+          "text": "ALWAYS TRUST YOUR INNER EVOLUTIONARY INTUITION",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK5.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t5_amber_eyes_dossier_05",
+          "motion": "still",
+          "text": "Four red flags to detect dangerous predators hiding behind public masks.",
+          "src_script": "hook — không phải dữ kiện kịch bản",
+          "est_duration_s": 4.37
+        },
+        {
+          "clip_line_id": "TK5.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t5_solitary_confinement_cell",
+          "motion": "pull",
+          "text": "More importantly, this tragedy leaves vital warnings for recognizing predatory masks in everyday life.",
+          "src_script": "5.04#3",
+          "est_duration_s": 5.53
+        },
+        {
+          "clip_line_id": "TK5.01#3",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t5_redflag_rule_control",
+          "motion": "still",
+          "text": "First Red Flag: Extreme control obsession—Micromanagement and Rigidity.",
+          "src_script": "5.05#2",
+          "est_duration_s": 3.75
+        },
+        {
+          "clip_line_id": "TK5.01#4",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t5_redflag_rule_control",
+          "motion": "push",
+          "text": "That pattern often masks a repressed craving for coercive domination waiting to erupt into violence.",
+          "src_script": "5.05#4",
+          "est_duration_s": 6.5
+        },
+        {
+          "clip_line_id": "TK5.01#5",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t5_redflag_shallow_affect",
+          "motion": "still",
+          "text": "Second Red Flag: Emotional detachment behind a warm civic persona—Shallow Affect.",
+          "src_script": "5.05#5",
+          "est_duration_s": 4.93
+        },
+        {
+          "clip_line_id": "TK5.01#6",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t5_redflag_shallow_affect",
+          "motion": "pull",
+          "text": "Public moral posturing is frequently deployed by psychopaths as an invisible shield hiding cold internal detachment.",
+          "src_script": "5.05#7",
+          "est_duration_s": 6.9
+        },
+        {
+          "clip_line_id": "TK5.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t5_redflag_secret_trophies",
+          "motion": "still",
+          "text": "Third Red Flag: The covert accumulation of other people's private belongings as trophies.",
+          "src_script": "5.06#2",
+          "est_duration_s": 5.93
+        },
+        {
+          "clip_line_id": "TK5.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t5_redflag_secret_trophies",
+          "motion": "push",
+          "text": "Such items serve as cognitive fuel for abnormal impulses and often mark a prelude to severe boundary violations.",
+          "src_script": "5.06#4",
+          "est_duration_s": 7.98
+        },
+        {
+          "clip_line_id": "TK5.01#9",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.6,
+          "bg": "t5_redflag_narcissistic_hubris",
+          "motion": "still",
+          "text": "And Fourth Red Flag: An insatiable narcissistic demand for public validation at any cost.",
+          "src_script": "5.06#5",
+          "est_duration_s": 6.34
+        },
+        {
+          "clip_line_id": "TK5.01#10",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t5_redflag_narcissistic_hubris",
+          "motion": "pull",
+          "text": "They may stay hidden for years, yet will inevitably make fatal errors when their inflated ego is provoked publicly.",
+          "src_script": "5.06#7",
+          "est_duration_s": 8.49
+        },
+        {
+          "clip_line_id": "TK5.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.8,
+          "bg": "t5_closing_desk",
+          "motion": "still",
+          "text": "Always heed the quiet voice of your inner intuition when encountering unsettling behavior, for intuition is an invaluable evolutionary shield protecting human life.",
+          "src_script": "5.08#6",
+          "est_duration_s": 8.9
+        },
+        {
+          "clip_line_id": "TK5.01#12",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t5_closing_desk",
+          "motion": "still",
+          "text": "Episode five of Amber Eyes. Watch the full documentary via the bio link.",
+          "src_script": "CTA — không phải dữ kiện kịch bản",
+          "est_duration_s": 4.58
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,651 @@
+{
+  "episode": "08",
+  "lang": "VI",
+  "engine": "Higgs Audio v3 + VoxCPM2 reference voices",
+  "clips": {
+    "TK1": {
+      "title": "Nghịch lý trí thức tinh hoa và sự trống rỗng hiện sinh",
+      "estimated_duration": 76.3,
+      "bgm": "bgm_piano_minimal.mp3",
+      "sfx": [
+        "amb_lab_equipment.wav (nền)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "code": "TK1.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Thủ khoa, bác sĩ trưởng khoa, nhà vật lý hàng đầu. Tại sao quỳ gối trước kẻ từng bán thuốc giả?",
+          "bg": "t8_todai_red_gate_shadow",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "code": "TK1.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Thế nhưng, quỳ gối dưới chân người đàn ông mù lòa ấy lại là những trí thức ưu tú nhất của đất nước Nhật Bản.",
+          "bg": "t8_asahara_shadow_profile",
+          "motion": "push",
+          "source": "3.02#8"
+        },
+        {
+          "code": "TK1.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Họ sẵn sàng dâng hiến toàn bộ tài sản, lý trí và lương tâm của mình cho một kẻ từng bị xã hội khinh thường.",
+          "bg": "t8_todai_red_gate_shadow",
+          "motion": "still",
+          "source": "3.02#9"
+        },
+        {
+          "code": "TK1.01#4",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Hồ sơ của ban lãnh đạo giáo phái Aum khiến bất kỳ ai cũng phải ngỡ ngàng trước hàm lượng chất xám mà tổ chức này sở hữu.",
+          "bg": "t8_dossier_elite_scientists",
+          "motion": "pan",
+          "source": "3.03#1"
+        },
+        {
+          "code": "TK1.01#5",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Và đặc biệt hơn cả, phụ trách hệ thống bệnh viện của giáo phái là Bác sĩ Ikuo Hayashi, chuyên gia tim mạch tốt nghiệp Đại học Keio danh giá và từng là bác sĩ trưởng khoa tại bệnh viện quốc gia.",
+          "bg": "t8_cardiac_surgery_theatre",
+          "motion": "still",
+          "source": "3.03#6"
+        },
+        {
+          "code": "TK1.01#6",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Câu trả lời bắt nguồn từ một hiện tượng tâm lý học xã hội sâu sắc mang tên Sự trống rỗng hiện sinh.",
+          "bg": "t8_tokyo_stock_crash_1990",
+          "motion": "pull",
+          "source": "3.05#1"
+        },
+        {
+          "code": "TK1.01#7",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Nhiều thanh niên trí thức đạt điểm số tuyệt đối trong học tập nhưng tâm hồn lại hoàn toàn trống rỗng về ý nghĩa cuộc đời và mất phương hướng giá trị.",
+          "bg": "t8_moral_rationalization_books",
+          "motion": "still",
+          "source": "3.05#4"
+        },
+        {
+          "code": "TK1.01#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Họ có câu trả lời hoàn hảo cho câu hỏi “Làm thế nào” bằng khoa học thực nghiệm, nhưng lại hoàn toàn bế tắc trước câu hỏi hiện sinh “Ta sống để làm gì”.",
+          "bg": "t8_fragile_boundary_mirror",
+          "motion": "push",
+          "source": "3.05#5"
+        },
+        {
+          "code": "TK1.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Những người có học thức cao thường có một điểm yếu tâm lý chí mạng: Cái tôi trí tuệ quá lớn.",
+          "bg": "t8_intellectual_hubris_chess",
+          "motion": "pan",
+          "source": "3.06#1"
+        },
+        {
+          "code": "TK1.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Tập tám của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "bg": "t8_tokyo_dawn_restored_peace",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK2": {
+      "title": "Kỹ thuật làm suy kiệt thể xác và chiếc mũ điện cực PSI",
+      "estimated_duration": 84.4,
+      "bgm": "bgm_ambient_deep.mp3",
+      "sfx": [
+        "amb_dark_drone.wav (nền)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "code": "TK2.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Chỉ ngủ hai tiếng, thiền hai mươi tiếng trong bóng tối, và chiếc mũ điện cực hàng nghìn đô la.",
+          "bg": "t8_concrete_cell_isolation",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "code": "TK2.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Bên trong các khu trại khép kín của giáo phái Aum, các tín đồ bị cô lập hoàn toàn với thế giới bên ngoài.",
+          "bg": "t8_concrete_cell_isolation",
+          "motion": "still",
+          "source": "4.02#1"
+        },
+        {
+          "code": "TK2.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Nhưng thủ đoạn tàn độc nhất nhằm triệt tiêu ý chí tự do chính là kỹ thuật làm suy kiệt thể xác có hệ thống.",
+          "bg": "t8_frontal_lobe_brain_scan",
+          "motion": "push",
+          "source": "4.02#3"
+        },
+        {
+          "code": "TK2.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Các thành viên chỉ được phép ngủ hai đến ba tiếng mỗi ngày và phải duy trì chế độ ăn uống vô cùng kham khổ thiếu chất dinh dưỡng.",
+          "bg": "t8_hidden_ceiling_hideout",
+          "motion": "pan",
+          "source": "4.02#4"
+        },
+        {
+          "code": "TK2.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Khi cơ thể rơi vào trạng thái kiệt quệ kéo dài, vùng vỏ não trước trán phụ trách tư duy phản biện và phán đoán logic sẽ suy giảm nghiêm trọng, khiến con người trở nên phục tùng tuyệt đối.",
+          "bg": "t8_frontal_lobe_brain_scan",
+          "motion": "still",
+          "source": "4.02#6"
+        },
+        {
+          "code": "TK2.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Hồ sơ điều tra đã làm sáng tỏ những thiết bị kỳ dị mà giáo phái sử dụng để thao túng não bộ của các đệ tử.",
+          "bg": "t8_psi_headgear_electrodes",
+          "motion": "pull",
+          "source": "4.03#1"
+        },
+        {
+          "code": "TK2.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.03,
+          "pause_after": 0.6,
+          "text": "Chúng phát minh ra một chiếc mũ gắn đầy điện cực mang tên PSI và bắt các tín đồ phải đội liên tục nhiều giờ liền.",
+          "bg": "t8_psi_headgear_electrodes",
+          "motion": "push",
+          "source": "4.03#2"
+        },
+        {
+          "code": "TK2.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Ngoài ra, cảnh sát còn phát hiện giáo phái bí mật sử dụng các loại chất gây ảo giác cực mạnh như LSD và thuốc hướng thần trong các nghi lễ kín trong bóng tối.",
+          "bg": "t8_hallucinogen_ritual_hall",
+          "motion": "pan",
+          "source": "4.03#5"
+        },
+        {
+          "code": "TK2.01#9",
+          "role": "D",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Dưới tác động của hóa chất và sự suy kiệt thần kinh, các trí thức trẻ thực sự tin rằng họ đã nhìn thấy hào quang của đấng cứu thế và hoàn toàn mất đi khả năng hoài nghi.",
+          "bg": "t8_frontal_lobe_brain_scan",
+          "motion": "still",
+          "source": "4.03#7"
+        },
+        {
+          "code": "TK2.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Tập tám của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "bg": "t8_tokyo_dawn_restored_peace",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK3": {
+      "title": "Ma thuật tẩy não và bóp méo khái niệm Poa",
+      "estimated_duration": 80.6,
+      "bgm": "bgm_sub_drone.mp3",
+      "sfx": [
+        "amb_dark_drone.wav (nền)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "code": "TK3.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Đoạt mạng người khác nhưng tin rằng mình đang làm việc thiện cứu rỗi linh hồn họ.",
+          "bg": "t8_poa_twisted_doctrine",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "code": "TK3.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Thế nhưng, vũ khí tâm lý mang tính hủy diệt nhất mà Asahara sử dụng để xóa sạch lời thề nghề nghiệp của các bác sĩ và nhà khoa học chính là việc bóp méo khái niệm Poa.",
+          "bg": "t8_poa_twisted_doctrine",
+          "motion": "still",
+          "source": "4.04#1"
+        },
+        {
+          "code": "TK3.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Trong truyền thống Phật giáo Tây Tạng, Poa là một pháp môn thiền định thanh tịnh giúp chuyển di tâm thức khi cận tử.",
+          "bg": "t8_buddhist_mandala_distortion",
+          "motion": "pan",
+          "source": "4.04#2"
+        },
+        {
+          "code": "TK3.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Thế nhưng Asahara đã đánh tráo khái niệm thiêng liêng ấy thành một học thuyết biện minh cho hành vi tước đoạt mạng sống con người.",
+          "bg": "t8_broken_hippocratic_oath",
+          "motion": "push",
+          "source": "4.04#3"
+        },
+        {
+          "code": "TK3.01#5",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Asahara rao giảng rằng thế giới thực tại đã bị ô uế và sắp sửa bước vào cuộc chiến tranh hạt nhân hủy diệt toàn nhân loại.",
+          "bg": "t8_apocalypse_prophecy_scroll",
+          "motion": "pan",
+          "source": "4.05#1"
+        },
+        {
+          "code": "TK3.01#6",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Hắn tuyên bố rằng những người bình thường nếu tiếp tục sống sẽ chỉ tích tụ thêm ác nghiệp và chắc chắn phải đọa vào cõi địa ngục.",
+          "bg": "t8_devotion_altar_kneeling",
+          "motion": "still",
+          "source": "4.05#2"
+        },
+        {
+          "code": "TK3.01#7",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Do đó, việc chấm dứt sinh mạng của họ trước khi họ kịp phạm thêm tội lỗi không phải là giết chóc, mà là một hành vi đại từ bi để giải thoát linh hồn họ.",
+          "bg": "t8_weapons_of_mass_destruction",
+          "motion": "pull",
+          "source": "4.05#3"
+        },
+        {
+          "code": "TK3.01#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Đây chính là đỉnh cao của Kỹ thuật Trung hòa đạo đức và Ngắt kết nối lương tâm.",
+          "bg": "t8_moral_rationalization_books",
+          "motion": "still",
+          "source": "4.05#5"
+        },
+        {
+          "code": "TK3.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Đồng thời, cơ chế ngoại hóa trách nhiệm khiến họ tin rằng mọi hành động của mình chỉ là công cụ thực thi ý chí của Đấng tối cao.",
+          "bg": "t8_devotion_altar_kneeling",
+          "motion": "push",
+          "source": "4.05#7"
+        },
+        {
+          "code": "TK3.01#10",
+          "role": "C",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Sự chuyển dịch nhận thức ma quỷ này đã tháo gỡ hoàn toàn mọi rào cản đạo đức tự nhiên trong tâm trí của những trí thức ưu tú nhất.",
+          "bg": "t8_moral_rationalization_books",
+          "motion": "pan",
+          "source": "4.05#8"
+        },
+        {
+          "code": "TK3.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Tập tám của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "bg": "t8_tokyo_dawn_restored_peace",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK4": {
+      "title": "Nước mắt của bác sĩ tim mạch và sự sụp đổ của đấng cứu thế",
+      "estimated_duration": 90.7,
+      "bgm": "bgm_violin_heart.mp3",
+      "sfx": [
+        "amb_courtroom.wav (nền)",
+        "fx_gavel_triple.wav",
+        "fx_door_metal_slam.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "code": "TK4.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Bàn tay từng phẫu thuật cứu người dùng ô chọc thủng túi độc. Và kẻ tự xưng thần thánh run rẩy trong hốc trần.",
+          "bg": "t8_dr_hayashi_umbrella_subway",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "code": "TK4.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Chính sự ngụy biện ma quỷ ấy đã làm tê liệt hoàn toàn lương tâm của Bác sĩ Ikuo Hayashi, người từng đứng đầu một khoa tim mạch uy tín.",
+          "bg": "t8_dr_hayashi_umbrella_subway",
+          "motion": "still",
+          "source": "4.06#1"
+        },
+        {
+          "code": "TK4.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Đôi bàn tay từng thực hiện hàng trăm ca phẫu thuật tim cứu người giờ đây lại trở thành công cụ thực thi một tội ác kinh hoàng.",
+          "bg": "t8_cardiac_surgery_theatre",
+          "motion": "push",
+          "source": "4.06#2"
+        },
+        {
+          "code": "TK4.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Vào buổi sáng ngày 20 tháng 3, chính đôi bàn tay từng cứu sống hàng nghìn bệnh nhân đã dùng đầu ô chọc thủng hai túi sarin trên tuyến tàu Chiyoda.",
+          "bg": "t8_dr_hayashi_umbrella_subway",
+          "motion": "pan",
+          "source": "4.06#3"
+        },
+        {
+          "code": "TK4.01#5",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Trước tòa án, tôi không tìm kiếm bất kỳ sự tha thứ nào cho bản thân mình.",
+          "bg": "t8_grand_courtroom_proceedings",
+          "motion": "still",
+          "source": "4.08#1"
+        },
+        {
+          "code": "TK4.01#6",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Tôi từng là một bác sĩ với lời thề bảo vệ sự sống con người bằng mọi giá.",
+          "bg": "t8_tokyo_court_witness_stand",
+          "motion": "pull",
+          "source": "4.08#2"
+        },
+        {
+          "code": "TK4.01#7",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Tôi đã phản bội lời thề Hippocrates thiêng liêng mà tôi từng khắc ghi trong tim suốt những năm tháng tuổi trẻ.",
+          "bg": "t8_broken_hippocratic_oath",
+          "motion": "push",
+          "source": "4.08#3"
+        },
+        {
+          "code": "TK4.01#8",
+          "role": "N2",
+          "emotion": "sad",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Vậy mà tôi đã để cho giáo lý mù quáng làm tê liệt lý trí, để rồi gây ra nỗi đau đớn không thể cứu vãn cho những đồng bào vô tội.",
+          "bg": "t8_tokyo_court_witness_stand",
+          "motion": "still",
+          "source": "4.08#4"
+        },
+        {
+          "code": "TK4.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Ngày 16 tháng 5 năm 1995, cảnh sát đã phát hiện Shoko Asahara đang ẩn nấp trong một hốc trần nhà chật hẹp tại tòa nhà Satyam số 6.",
+          "bg": "t8_hidden_ceiling_hideout",
+          "motion": "pan",
+          "source": "4.09#6"
+        },
+        {
+          "code": "TK4.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Kẻ từng tự phong mình là Đấng cứu thế của nhân loại ngồi co ro trong bóng tối, run rẩy bên cạnh một bọc tiền mặt trị giá gần mười triệu yên và các thỏi vàng.",
+          "bg": "t8_hidden_ceiling_hideout",
+          "motion": "pull",
+          "source": "4.09#7"
+        },
+        {
+          "code": "TK4.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Tập tám của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "bg": "t8_tokyo_dawn_restored_peace",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    },
+    "TK5": {
+      "title": "Bốn tín hiệu cảnh báo đỏ trước cạm bẫy thao túng giáo phái",
+      "estimated_duration": 94.0,
+      "bgm": "bgm_piano_warm.mp3",
+      "sfx": [
+        "amb_office_night.wav (nền)",
+        "fx_paper_folder.wav",
+        "fx_stinger.wav"
+      ],
+      "lines": [
+        {
+          "code": "TK5.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.5,
+          "text": "Bốn tín hiệu cảnh báo đỏ sinh tồn để không bao giờ trở thành nạn nhân của thao túng tâm lý độc hại.",
+          "bg": "t8_redflag1_social_isolation",
+          "motion": "pull",
+          "source": "Hook mở đầu — tạo tò mò"
+        },
+        {
+          "code": "TK5.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Để bảo vệ bản thân và những người thân yêu trước các tổ chức thao túng tâm trí độc hại, kênh Amber Eyes xin đúc kết bốn tín hiệu cảnh báo đỏ sinh tồn từ hồ sơ lịch sử này:",
+          "bg": "t8_redflag1_social_isolation",
+          "motion": "still",
+          "source": "5.06#1"
+        },
+        {
+          "code": "TK5.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Cảnh báo đỏ thứ nhất: Chiến thuật cô lập xã hội và cắt đứt các mối quan hệ hỗ trợ.",
+          "bg": "t8_redflag1_social_isolation",
+          "motion": "push",
+          "source": "5.06#2"
+        },
+        {
+          "code": "TK5.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Bất kỳ tổ chức lành mạnh nào cũng tôn trọng gia đình và các mối liên kết xã hội của bạn, nếu một nhóm tìm cách tách bạn khỏi người thân và kiểm soát nguồn thông tin, hãy lập tức rời đi.",
+          "bg": "t8_redflag1_social_isolation",
+          "motion": "pan",
+          "source": "5.06#3"
+        },
+        {
+          "code": "TK5.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Cảnh báo đỏ thứ hai: Kỹ thuật làm suy kiệt thể chất nhằm triệt tiêu tư duy phản biện.",
+          "bg": "t8_redflag2_physical_exhaustion",
+          "motion": "pull",
+          "source": "5.06#4"
+        },
+        {
+          "code": "TK5.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Cảnh báo đỏ thứ ba: Sự sùng bái cá nhân tuyệt đối và cấm đoán việc đặt câu hỏi hoài nghi.",
+          "bg": "t8_redflag3_cult_of_personality",
+          "motion": "still",
+          "source": "5.06#7"
+        },
+        {
+          "code": "TK5.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Một người thầy chân chính luôn khuyến khích học trò tự do suy nghĩ và kiểm chứng sự thật, chỉ có những kẻ thao túng mới coi lời nói của mình đứng trên luật pháp và quy kết sự nghi ngờ là tội lỗi.",
+          "bg": "t8_redflag3_cult_of_personality",
+          "motion": "push",
+          "source": "5.06#8"
+        },
+        {
+          "code": "TK5.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Cảnh báo đỏ thứ tư: Ngụy biện đảo ngược đạo đức và kích động thù hận xã hội.",
+          "bg": "t8_redflag4_moral_inversion",
+          "motion": "pan",
+          "source": "5.06#9"
+        },
+        {
+          "code": "TK5.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Hãy kiên quyết từ chối bất kỳ giáo lý nào rao giảng rằng việc gây tổn hại cho người khác là một hành vi từ bi vì mục đích cao cả.",
+          "bg": "t8_redflag4_moral_inversion",
+          "motion": "still",
+          "source": "5.06#10"
+        },
+        {
+          "code": "TK5.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.6,
+          "text": "Hãy luôn nhớ rằng không một mục đích cao cả nào có thể biện minh cho những phương tiện tàn nhẫn và phi nhân tính.",
+          "bg": "t8_tokyo_dawn_restored_peace",
+          "motion": "pull",
+          "source": "5.06#11"
+        },
+        {
+          "code": "TK5.01#11",
+          "role": "H",
+          "emotion": "neutral",
+          "speed": -0.02,
+          "pause_after": 0.0,
+          "text": "Tập tám của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "bg": "t8_tokyo_dawn_restored_peace",
+          "motion": "still",
+          "source": "CTA — kêu gọi xem tập đầy đủ"
+        }
+      ]
+    }
+  }
+}

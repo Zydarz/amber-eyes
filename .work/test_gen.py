@@ -1,2 +1,4 @@
-# -*- coding: utf-8 -*-
-print('Testing python writing successfully')
+
+# Test Python generator
+import json
+print('Python script write test ok')

@@ -1,0 +1,992 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate exactly 135 background jobs for Episode 26 (Hồ sơ Miyuki Ishikawa).
+Following H21 (Kaggle/Cloudflare FLUX Deep Noir Architecture), H25 (Per-shot distribution) & H26 (Strictly no text, no labels, no gore, silhouette only).
+135 images breakdown:
+  Act 1: 31 images (t26_a1_01 -> t26_a1_31) for 47 sentences
+  Act 2: 25 images (t26_a2_01 -> t26_a2_25) for 37 sentences
+  Act 3: 29 images (t26_a3_01 -> t26_a3_29) for 43 sentences
+  Act 4: 29 images (t26_a4_01 -> t26_a4_29) for 44 sentences
+  Act 5: 21 images (t26_a5_01 -> t26_a5_21) for 32 sentences
+Total = 31 + 25 + 29 + 29 + 21 = 135 images.
+"""
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+WORK = ROOT / ".work"
+
+JOBS = [
+    # =========================================================================
+    # HỒI 1 (31 ảnh: t26_a1_01 -> t26_a1_31)
+    # =========================================================================
+    {
+        "name": "t26_a1_01_tokyo_postwar_devastation",
+        "act": 1,
+        "sentences": "1.02#1,1.02#2",
+        "desc": "Tokyo sau Thế chiến II đổ nát hoang tàn, khói bụi u ám trong mùa đông kiệt quệ.",
+        "prompt": "Panoramic wide shot of devastated postwar Tokyo city ruins in winter, crumbling wooden buildings, burnt debris, cold gloomy fog rolling through muddy streets, stark monochrome ink style."
+    },
+    {
+        "name": "t26_a1_02_starving_refugees_winter_shinjuku",
+        "act": 1,
+        "sentences": "1.02#3,1.02#4",
+        "desc": "Người dân nghèo khổ lũ lượt bồng bế con thơ giữa cái lạnh cắt da, bế tắc tuyệt vọng.",
+        "prompt": "Dark street scene of desperate impoverished civilian silhouettes huddled against winter winds, ruined urban shacks, cold sleet falling, heavy oppressive shadows, bleak atmospheric dread."
+    },
+    {
+        "name": "t26_a1_03_ominous_shadow_over_maternity_ward",
+        "act": 1,
+        "sentences": "1.02#5,1.02#6",
+        "desc": "Bóng đen bí ẩn bao trùm lên Nhà hộ sinh Kotobuki, khởi nguồn cho chuỗi bi kịch rợn người.",
+        "prompt": "Exterior facade of a grim Japanese wooden maternity clinic shrouded in deep night fog, flickering solitary lantern casting long sinister distorted shadows, chilling silence."
+    },
+    {
+        "name": "t26_a1_04_waseda_patrol_subzero_midnight",
+        "act": 1,
+        "sentences": "1.04#1,1.04#2",
+        "desc": "Hai sĩ quan cảnh sát tuần tra đi bộ qua con hẻm Shinjuku phủ tuyết lạnh buốt rạng sáng 12/1/1948.",
+        "prompt": "Two distant police officer silhouettes in heavy winter overcoats patrolling a narrow desolate snow-covered Tokyo backstreet at 2 AM, breath steaming, pale street lamp beam cutting the mist."
+    },
+    {
+        "name": "t26_a1_05_creepy_undertaker_wooden_cart",
+        "act": 1,
+        "sentences": "1.04#3,1.04#4",
+        "desc": "Chiếc xe kéo bằng gỗ chở các thùng hàng kín mít bị chặn lại giữa con phố vắng.",
+        "prompt": "A worn weathered traditional Japanese wooden handcart parked on icy gravel road, shrouded in deep mist, suspicious crates strapped down, nervous solitary silhouette standing near the handles."
+    },
+    {
+        "name": "t26_a1_06_macabre_crates_grim_discovery",
+        "act": 1,
+        "sentences": "1.04#5,1.04#6",
+        "desc": "Nắp thùng gỗ hé mở trong ánh đèn pin của cảnh sát, phát hiện bàng hoàng chấn động.",
+        "prompt": "Close high-contrast angle of an open plain wooden shipping crate, dark cloth bundle inside, stark handheld flashlight beam carving through pitch-black darkness, chilling forensic horror."
+    },
+    {
+        "name": "t26_a1_07_midnight_interrogation_waseda_precinct",
+        "act": 1,
+        "sentences": "1.04#7,1.06#1",
+        "desc": "Người phu xe bị áp giải về đồn cảnh sát Waseda thẩm vấn khẩn cấp trong đêm.",
+        "prompt": "Interior of an austere postwar Japanese police interrogation room at night, bare plaster walls, stark tungsten lamp over a heavy wooden table, dark tense silhouettes in intense questioning."
+    },
+    {
+        "name": "t26_a1_08_kotobuki_clinic_facade_shinjuku",
+        "act": 1,
+        "sentences": "1.06#2,1.06#3",
+        "desc": "Căn nhà gỗ hai tầng của Nhà hộ sinh Kotobuki tại quận Shinjuku tĩnh lặng đáng ngờ.",
+        "prompt": "Ground-level view of a weathered two-story Japanese wooden building with sliding frosted glass doors, quiet residential alleyway, dark winter trees, oppressive ominous quiet."
+    },
+    {
+        "name": "t26_a1_09_tokyo_mpd_headquarters_mobilization",
+        "act": 1,
+        "sentences": "1.06#4,1.06#5",
+        "desc": "Sở Cảnh sát Thủ đô Tokyo kích hoạt cuộc điều tra khẩn cấp cùng đội ngũ pháp y.",
+        "prompt": "Exterior establishing shot of the imposing Tokyo Metropolitan Police Department headquarters in dawn mist, stark bureaucratic architecture, cold monochrome slate tones."
+    },
+    {
+        "name": "t26_a1_10_patrol_officer_inner_shock",
+        "act": 1,
+        "sentences": "1.07#1,1.07#2",
+        "desc": "Sự bàng hoàng ám ảnh của sĩ quan trẻ đối diện tội ác kinh hoàng giữa mùa đông.",
+        "prompt": "Intense psychological silhouette of a young police officer looking downward, cold rim lighting accentuating his shock, dark background dissolving into heavy ink grain and falling snow."
+    },
+    {
+        "name": "t26_a1_11_suspicious_cart_tracks_in_snow",
+        "act": 1,
+        "sentences": "1.07#3,1.07#4",
+        "desc": "Vết bánh xe kéo in hằn trên nền tuyết trắng dẫn đến nghi vấn về đường dây tội ác.",
+        "prompt": "Deep parallel wooden wheelbarrow tracks cutting sharply through fresh white snow on a dark cobblestone road, leading into endless misty black night, symbol of buried guilt."
+    },
+    {
+        "name": "t26_a1_12_decision_at_crossroads_justice",
+        "act": 1,
+        "sentences": "1.07#5,1.07#6",
+        "desc": "Khoảnh khắc quyết định giữ xe kiểm tra, ranh giới cứu vãn sự thật khỏi bị chôn vùi.",
+        "prompt": "Distant high angle shot of an isolated road intersection under a solitary humming streetlamp, heavy shadows stretching outward, turning point of fateful intervention."
+    },
+    {
+        "name": "t26_a1_13_forensic_detectives_assembling_dossier",
+        "act": 1,
+        "sentences": "1.07#7,1.09#1",
+        "desc": "Các thám tử và pháp y bắt tay vào lập hồ sơ vụ án Kotobuki đầy u ám.",
+        "prompt": "Detective workspace in a 1948 police office, stacks of plain unmarked Manila archive folders, vintage magnifying glass, solitary desk lamp pool of sharp yellow light."
+    },
+    {
+        "name": "t26_a1_14_kotobuki_raid_dawn_descent",
+        "act": 1,
+        "sentences": "1.09#2,1.09#3",
+        "desc": "Lực lượng cảnh sát và bác sĩ giám định bất ngờ đột kích vào Nhà hộ sinh Kotobuki.",
+        "prompt": "Dark silhouettes of police inspectors and forensic doctors arriving at the wooden entrance of a clinic at dawn, misty cold breath, heavy wooden sliding door creaking open."
+    },
+    {
+        "name": "t26_a1_15_squalid_nursery_ward_neglect",
+        "act": 1,
+        "sentences": "1.09#4,1.09#5",
+        "desc": "Điều kiện tồi tàn bên trong cơ sở với nôi tre lạnh lẽo và không khí ẩm mốc tang thương.",
+        "prompt": "Gloomy interior of an unheated back room in a vintage clinic, empty woven bamboo cribs in disarray, peeling paper shoji screens, drafty cold floorboards, profound neglect."
+    },
+    {
+        "name": "t26_a1_16_arrest_of_ishikawa_collaborators",
+        "act": 1,
+        "sentences": "1.09#6,1.10#1",
+        "desc": "Cảnh sát áp giải các đối tượng liên quan và đối diện người phụ nữ điều hành cơ sở.",
+        "prompt": "Foreboding silhouette of a woman standing tall and rigid in a dark hallway, hands clasped, facing multiple shadowed detective figures, high contrast standoff."
+    },
+    {
+        "name": "t26_a1_17_arrogant_matron_defiant_gaze",
+        "act": 1,
+        "sentences": "1.10#2",
+        "desc": "Thái độ bình thản, trơ tráo và tự tin kỳ lạ của nữ hộ sinh trước cơ quan điều tra.",
+        "prompt": "Side profile silhouette of an austere middle-aged woman wearing a crisp white clinic uniform, perfectly composed, sharp jawline highlighted by rim light against deep ink blackness."
+    },
+    {
+        "name": "t26_a1_18_charity_facade_false_benevolence",
+        "act": 1,
+        "sentences": "1.10#3",
+        "desc": "Lời bao biện trơ tráo về cái gọi là 'hành động nhân đạo cưu mang trẻ thơ'.",
+        "prompt": "Conceptual noir shot of an empty medical scale and a plain glass baby bottle sitting on an unadorned counter, bathed in stark clinical light, chilling false virtue."
+    },
+    {
+        "name": "t26_a1_19_autopsy_table_scientific_truth",
+        "act": 1,
+        "sentences": "1.10#4",
+        "desc": "Bàn giám định pháp y của Đại học Tokyo bóc trần nguyên nhân tử vong do bỏ mặc cố ý.",
+        "prompt": "Vintage forensic medical theater, stainless steel examination table under a harsh overhead cone lamp, clean scientific instruments resting on a dark cloth, stark objective truth."
+    },
+    {
+        "name": "t26_a1_20_handcuffs_on_clinic_desk",
+        "act": 1,
+        "sentences": "1.10#5",
+        "desc": "Lệnh bắt giữ khẩn cấp được thực thi ngay trong gian phòng làm việc của nhà hộ sinh.",
+        "prompt": "A pair of heavy steel vintage handcuffs resting on a plain dark wooden desk next to a blank clinical ledger, sharp hard shadows, undeniable justice."
+    },
+    {
+        "name": "t26_a1_21_shinjuku_alley_snow_falling",
+        "act": 1,
+        "sentences": "1.11#1",
+        "desc": "Tuyết tiếp tục rơi trên con ngõ nhỏ Shinjuku khi sự thật kinh hoàng dần hé lộ.",
+        "prompt": "Quiet narrow Japanese urban lane flanked by dark wooden fences, heavy soft snow drifting through the cold night air, solitary distant lantern beam."
+    },
+    {
+        "name": "t26_a1_22_tragic_mass_dossier_pile",
+        "act": 1,
+        "sentences": "1.11#2",
+        "desc": "Quy mô nạn nhân kinh hoàng vượt xa mọi dự liệu ban đầu của đội điều tra.",
+        "prompt": "Towering stacks of thick plain archive files in an investigator's office, dark ink stains, high contrast lighting casting long jagged shadows across the room."
+    },
+    {
+        "name": "t26_a1_23_dark_staircase_hidden_horror",
+        "act": 1,
+        "sentences": "1.11#3",
+        "desc": "Cầu thang gỗ dốc dẫn lên căn gác xép u ám của Nhà hộ sinh Kotobuki.",
+        "prompt": "Steep dark wooden interior staircase in a traditional building, shadows pooling under each creaking step, solitary faint light slanting from above, creeping dread."
+    },
+    {
+        "name": "t26_a1_24_cold_unlit_stove_abandonment",
+        "act": 1,
+        "sentences": "1.11#4",
+        "desc": "Lò sưởi than nguội ngắt giữa mùa đông giá rét, minh chứng cho sự thờ ơ tàn nhẫn.",
+        "prompt": "An old iron cast stove sitting cold and unlit in the corner of a bare room, frost visible on the window glass, stark grey dust and shadows."
+    },
+    {
+        "name": "t26_a1_25_weighing_scale_cold_bureaucracy",
+        "act": 1,
+        "sentences": "1.11#5",
+        "desc": "Chiếc cân y tế bằng kim loại lạnh lẽo dùng để đo đếm sinh mệnh như hàng hóa.",
+        "prompt": "Vintage metal infant weighing balance scale standing isolated on a bare table, dramatic harsh side lighting, deep psychological weight."
+    },
+    {
+        "name": "t26_a1_26_closed_clinic_curtain_darkness",
+        "act": 1,
+        "sentences": "1.11#6",
+        "desc": "Tấm rèm vải dày kéo kín che khuất mọi ánh nhìn từ người ngoài vào trong cơ sở.",
+        "prompt": "A heavy dark cloth curtain drawn tightly across a frosted glass window, silhouettes of bare branches moving outside in the winter wind."
+    },
+    {
+        "name": "t26_a1_27_detective_examining_empty_crib",
+        "act": 1,
+        "sentences": "1.11#7",
+        "desc": "Điều tra viên đứng lặng trước những chiếc nôi trống rỗng trong niềm xót xa khôn nguôi.",
+        "prompt": "Shadowy figure of a detective in a trench coat standing motionless beside an empty wooden cot, head bowed, dramatic rim lighting in absolute silence."
+    },
+    {
+        "name": "t26_a1_28_corridor_of_silence_kotobuki",
+        "act": 1,
+        "sentences": "1.11#8",
+        "desc": "Hành lang tối om dẫn qua các gian phòng khép kín nơi tội ác diễn ra âm thầm.",
+        "prompt": "Long narrow tatami-lined hallway disappearing into total blackness, paper doors closed on both sides, haunting atmospheric noir aesthetic."
+    },
+    {
+        "name": "t26_a1_29_turning_point_lantern_light",
+        "act": 1,
+        "sentences": "1.11#9",
+        "desc": "Khoảnh khắc ngọn đèn tuần tra thắp sáng ranh giới giữa vùi lấp tội ác và công lý.",
+        "prompt": "A solitary handheld vintage lantern sitting on snowy cobblestones, warm amber glow sharply clashing with cold surrounding blue-black shadows."
+    },
+    {
+        "name": "t26_a1_30_collective_blindspot_symbolic",
+        "act": 1,
+        "sentences": "1.11#10",
+        "desc": "Góc phố đông người nhưng ai cũng cúi đầu bước qua, biểu tượng cho điểm mù xã hội.",
+        "prompt": "Abstract crowd of dark civilian silhouettes walking in blurred hurried motion along a grey postwar Tokyo avenue, faces lost in shadows, isolation amidst multitude."
+    },
+    {
+        "name": "t26_a1_31_night_watchmen_tokyo_dawn",
+        "act": 1,
+        "sentences": "1.11#11",
+        "desc": "Những người canh gác màn đêm Tokyo lặng lẽ khép lại ca trực định mệnh.",
+        "prompt": "Two police officer silhouettes standing at the edge of a bridge over a dark river overlooking Tokyo at dawn, misty silhouette of city rooftops in background."
+    },
+
+    # =========================================================================
+    # HỒI 2 (25 ảnh: t26_a2_01 -> t26_a2_25)
+    # =========================================================================
+    {
+        "name": "t26_a2_01_wartime_black_market_deals",
+        "act": 2,
+        "sentences": "2.02#1,2.02#2",
+        "desc": "Quy trình trục lợi tinh vi hình thành trong bối cảnh luật cấm phá thai gắt gao thời chiến.",
+        "prompt": "Dimly lit secret room in a postwar back alley, dark silhouettes conferring over an unpolished wooden table, dense tobacco smoke drifting across a single low-hanging light bulb."
+    },
+    {
+        "name": "t26_a2_02_benevolent_facade_charity_trap",
+        "act": 2,
+        "sentences": "2.02#3,2.04#1",
+        "desc": "Miyuki Ishikawa dựng lên vỏ bọc mái ấm từ thiện để giăng bẫy những gia đình bế tắc.",
+        "prompt": "Exterior entry of Kotobuki Maternity Clinic framed by neat potted winter shrubs, clean sliding door reflecting pale daylight, facade of respectability masking sinister secrets."
+    },
+    {
+        "name": "t26_a2_03_transaction_of_despair_yen_notes",
+        "act": 2,
+        "sentences": "2.04#2,2.04#3",
+        "desc": "Khoản tiền phí hỗ trợ 4.000 - 5.000 yên được trao tay trong nước mắt và sự tuyệt vọng.",
+        "prompt": "Extreme high-contrast shot of hands passing a thick envelope across a dark table, cold directional lighting, subtle shadows emphasizing an agonizing transaction."
+    },
+    {
+        "name": "t26_a2_04_tearful_mother_leaving_clinic",
+        "act": 2,
+        "sentences": "2.04#4,2.04#5",
+        "desc": "Người mẹ nghèo nuốt nước mắt quay lưng rời khỏi nhà hộ sinh, tin vào lời hứa tương lai tốt đẹp.",
+        "prompt": "A lone woman wearing a traditional dark winter shawl walking away from a closed clinic gate, head bowed in grief, long bleak shadow stretching behind her on frozen dirt road."
+    },
+    {
+        "name": "t26_a2_05_heavy_door_locks_behind_victim",
+        "act": 2,
+        "sentences": "2.04#6,2.06#1",
+        "desc": "Cánh cửa gỗ khép lại, khoản tiền rơi vào túi kẻ thủ ác và quy trình bỏ mặc bắt đầu.",
+        "prompt": "Heavy wooden front door bolting shut from the inside, thick iron latch falling into place, pitch blackness swallowing the entrance hall."
+    },
+    {
+        "name": "t26_a2_06_deprived_cribs_unheated_room",
+        "act": 2,
+        "sentences": "2.06#2,2.06#3",
+        "desc": "Những đứa trẻ bị dồn vào căn phòng ẩm thấp, bị tước đoạt hoàn toàn nguồn sữa và chăm sóc.",
+        "prompt": "Sparse gloomy back room with cracked walls, several straw-filled woven baskets lying unattended on floor, frosty moisture running down dark window glass."
+    },
+    {
+        "name": "t26_a2_07_husband_takeshi_financial_ledger",
+        "act": 2,
+        "sentences": "2.06#4,2.06#5",
+        "desc": "Người chồng Takeshi Ishikawa quản lý sổ sách tài chính trục lợi tàn nhẫn.",
+        "prompt": "A man's dark silhouette seated at a small desk operating an old wooden abacus beside a thick plain account book, amber desk lamp cutting deep shadows, cold calculating greed."
+    },
+    {
+        "name": "t26_a2_08_corrupt_doctor_nakayama_desk",
+        "act": 2,
+        "sentences": "2.06#6,2.06#7",
+        "desc": "Bác sĩ Shiro Nakayama ký khống hàng loạt giấy chứng tử để hợp thức hóa các cái chết.",
+        "prompt": "A doctor's consultation desk with a vintage fountain pen resting on blank certificates, stethoscope draped over an empty chair, dim clinical room, moral corruption."
+    },
+    {
+        "name": "t26_a2_09_fake_death_certificates_pile",
+        "act": 2,
+        "sentences": "2.06#8,2.06#9",
+        "desc": "Các biên bản báo tử giả mạo với nguyên nhân bệnh lý thông thường chất đống.",
+        "prompt": "Close-up of a neat stack of official plain parchment documents bound with string, harsh rim lighting, stark shadow cast across an ink blotter, cold deceit."
+    },
+    {
+        "name": "t26_a2_10_crematorium_chimney_winter_sky",
+        "act": 2,
+        "sentences": "2.06#10,2.06#11",
+        "desc": "Ống khói đài hỏa táng ngoại ô Tokyo bốc khói mỏng giữa trời đông u ám.",
+        "prompt": "Distant industrial crematorium brick chimney rising against a stark pale grey winter sky, thin plume of dark smoke trailing into the clouds, grim solemnity."
+    },
+    {
+        "name": "t26_a2_11_shinjuku_temple_graveyard_records",
+        "act": 2,
+        "sentences": "2.06#12,2.06#13",
+        "desc": "Cảnh sát rà soát sổ sách mai táng tại các ngôi chùa xung quanh khu vực Shinjuku.",
+        "prompt": "Traditional cemetery grounds of an old Tokyo temple at dusk, weathered stone grave markers emerging from dense snow, silhouette of a detective holding a flashlight."
+    },
+    {
+        "name": "t26_a2_12_detectives_confronting_scale_of_crime",
+        "act": 2,
+        "sentences": "2.08#1,2.08#2",
+        "desc": "Các điều tra viên bàng hoàng trước con số nạn nhân thực tế lên tới hàng chục sinh mệnh.",
+        "prompt": "Two seasoned detectives standing before a large blackboard in headquarters, stark white chalk outlines of timeline dates, tense furrowed expressions in silhouette."
+    },
+    {
+        "name": "t26_a2_13_interrogation_room_harsh_contrast",
+        "act": 2,
+        "sentences": "2.08#3",
+        "desc": "Căn phòng thẩm vấn với ánh sáng đối lập gay gắt giữa sự thật và kẻ ngoan cố.",
+        "prompt": "Stark side view of an interrogation room, overhead metal lamp bulb casting a blinding circle of white light onto the bare tabletop, surrounding room submerged in ink shadows."
+    },
+    {
+        "name": "t26_a2_14_matron_upright_defiance",
+        "act": 2,
+        "sentences": "2.08#4",
+        "desc": "Miyuki Ishikawa ngồi thẳng lưng, nhìn chằm chằm vào các điều tra viên không chút sợ hãi.",
+        "prompt": "Firm rigid silhouette of a woman sitting on a straight wooden chair, shoulders squared, head held high in stubborn defiance against shadowy interrogators."
+    },
+    {
+        "name": "t26_a2_15_chilling_monologue_justification",
+        "act": 2,
+        "sentences": "2.08#5",
+        "desc": "Bà ta đưa ra những lập luận ngụy biện rợn người về gánh nặng xã hội và sự giải thoát.",
+        "prompt": "Abstract psychological depiction of cold words dissolving into dark mist, austere sharp jawline illuminated by icy blue-grey light, unrepentant aura."
+    },
+    {
+        "name": "t26_a2_16_rationalization_of_atrocity",
+        "act": 2,
+        "sentences": "2.09#1",
+        "desc": "Sự ngụy biện trơ tráo coi hành vi tước đoạt sinh mệnh là một nghĩa cử cứu rỗi.",
+        "prompt": "A pair of broken balance scales sitting on a cracked marble pedestal, tilted heavily to one side, dark symbolic representation of distorted morality."
+    },
+    {
+        "name": "t26_a2_17_bureaucratic_callousness_symbol",
+        "act": 2,
+        "sentences": "2.09#2",
+        "desc": "Sự vô cảm quan liêu biến sinh mệnh con người thành những con số và con dấu khô khốc.",
+        "prompt": "An old wooden seal inkpad box open on a clean desk, dark red vermilion ink stain, completely plain unwritten paper resting nearby, stark coldness."
+    },
+    {
+        "name": "t26_a2_18_corridor_echoes_of_unheard_cries",
+        "act": 2,
+        "sentences": "2.09#3",
+        "desc": "Những tiếng khóc yếu ớt không được hồi đáp bên trong gian phòng kín của Kotobuki.",
+        "prompt": "Closed wooden panel door with a tiny unlit transom window above, dark textured wood grain, solitary beam of moonlight slanting through a keyhole onto the floor."
+    },
+    {
+        "name": "t26_a2_19_banknotes_hidden_in_tea_box",
+        "act": 2,
+        "sentences": "2.09#4",
+        "desc": "Tiền trục lợi được cất giấu cẩn thận trong các hộp trà và ngăn tủ gia đình.",
+        "prompt": "An antique dark lacquered tea caddy open on a cabinet, bundled bank notes visible inside, shadowed greedy hands lingering, clandestine wealth."
+    },
+    {
+        "name": "t26_a2_20_forensic_psychiatry_dossier",
+        "act": 2,
+        "sentences": "2.10#1",
+        "desc": "Tâm thần học pháp y bắt đầu mổ xẻ hiện tượng tha hóa đạo đức của Ishikawa.",
+        "prompt": "A researcher's desk cluttered with vintage medical reference volumes, blank charts, dim reading lamp, intellectual confrontation with human darkness."
+    },
+    {
+        "name": "t26_a2_21_historical_context_ruined_society",
+        "act": 2,
+        "sentences": "2.10#2",
+        "desc": "Bối cảnh lịch sử đổ nát thời hậu chiến làm mờ đi các ranh giới đạo đức thông thường.",
+        "prompt": "Silhouettes of skeletal bombed factory beams standing against a dusky crimson-grey horizon, windswept barren landscape, postwar desolation."
+    },
+    {
+        "name": "t26_a2_22_masks_of_benevolence_peeling",
+        "act": 2,
+        "sentences": "2.10#3",
+        "desc": "Lớp mặt nạ từ thiện rơi rụng phơi bày bản chất lạnh lùng của đường dây tội ác.",
+        "prompt": "A cracked white porcelain theater mask lying discarded on a rough dark gravel ground, half submerged in deep shadow, haunting metaphorical imagery."
+    },
+    {
+        "name": "t26_a2_23_distorted_definition_of_mercy",
+        "act": 2,
+        "sentences": "2.10#4",
+        "desc": "Sự đánh tráo khái niệm giữa lòng thương hại và tội ác giết người có tính toán.",
+        "prompt": "An empty birdcage with an open door in a dark abandoned room, solitary feather floating downward into ink darkness, tragic distorted mercy."
+    },
+    {
+        "name": "t26_a2_24_shadow_behind_the_curtain_truth",
+        "act": 2,
+        "sentences": "2.10#5",
+        "desc": "Bóng tối cá nhân được dung dưỡng dưới vỏ bọc hoàn cảnh lịch sử đầy cay đắng.",
+        "prompt": "Heavy velvet theater curtain partially pulled aside, revealing an abyss of pure black void behind it, spotlight illuminating only the frayed velvet edge."
+    },
+    {
+        "name": "t26_a2_25_transition_to_psychological_profiling",
+        "act": 2,
+        "sentences": "2.10#6",
+        "desc": "Các chuyên gia khoa học hành vi bước vào giải mã nguồn gốc của sự biến dạng tâm lý.",
+        "prompt": "Silhouette of a psychologist in contemplation looking through a rainy window pane, distant Tokyo city lights blurring into bokeh, transition to clinical analysis."
+    },
+
+    # =========================================================================
+    # HỒI 3 (29 ảnh: t26_a3_01 -> t26_a3_29)
+    # =========================================================================
+    {
+        "name": "t26_a3_01_psychological_case_study_chamber",
+        "act": 3,
+        "sentences": "3.02#1,3.02#2",
+        "desc": "Hồ sơ Ishikawa dưới lăng kính tâm lý học tội phạm và sự biến dạng nhân cách.",
+        "prompt": "Atmospheric academic study room, towering bookshelves filled with dark bound journals, anatomical drawing on easel, focused desk lamp casting deep dramatic chiaroscuro."
+    },
+    {
+        "name": "t26_a3_02_mechanisms_of_moral_erosion",
+        "act": 3,
+        "sentences": "3.02#3,3.02#4",
+        "desc": "Quá trình tha hóa đạo đức diễn ra từng bước thông qua các cơ chế phòng vệ tâm lý.",
+        "prompt": "Conceptual visual of heavy stone gears slowly grinding against each other in dark mist, stark rim lighting, representation of unstoppable moral decay."
+    },
+    {
+        "name": "t26_a3_03_dehumanization_process_concept",
+        "act": 3,
+        "sentences": "3.03#1,3.03#2",
+        "desc": "Cơ chế Phi nhân tính hóa và Tự biện minh hợp lý hóa của kẻ thủ ác.",
+        "prompt": "Chiaroscuro concept shot of multiple faceless mannequin heads arranged in dim rows, stark spotlights picking out blank expressions, cold emotional detachment."
+    },
+    {
+        "name": "t26_a3_04_midwife_compassion_fatigue",
+        "act": 3,
+        "sentences": "3.03#3,3.03#4",
+        "desc": "Từ một nữ hộ sinh chứng kiến đau khổ cùng quẫn chuyển dần sang vô cảm tuyệt đối.",
+        "prompt": "A vintage nurse's cap resting on a dark polished wooden table beside a cold stethoscope, spotlight cutting through deep atmospheric smoke, loss of vocation."
+    },
+    {
+        "name": "t26_a3_05_god_complex_fatal_delusion",
+        "act": 3,
+        "sentences": "3.03#5,3.03#6",
+        "desc": "Ảo tưởng bản thân có quyền quyết định ai được sống, ai nên ra đi vì lợi ích chung.",
+        "prompt": "A solitary high-backed dark wooden chair elevated on a low podium, bathed in a single harsh downward cone of light, symbol of megalomaniacal authority."
+    },
+    {
+        "name": "t26_a3_06_compartmentalization_dark_mind",
+        "act": 3,
+        "sentences": "3.03#7,3.04#1",
+        "desc": "Cơ chế chia ngăn tâm lý: ban ngày làm nữ hộ sinh mẫu mực, ban đêm điều hành cỗ máy tử thần.",
+        "prompt": "A two-faced Janus silhouette split down the center by a sharp vertical light beam, one side clinical and neat, the other consumed by heavy jagged ink shadow."
+    },
+    {
+        "name": "t26_a3_07_desensitization_habitual_evil",
+        "act": 3,
+        "sentences": "3.04#2,3.04#3",
+        "desc": "Hiện tượng khử nhạy cảm: khi cái ác lặp lại nhiều lần, sự cắn rứt lương tâm biến mất hoàn toàn.",
+        "prompt": "Smooth worn river pebbles resting under dripping icy water in a dark cavern, metaphor for conscious moral erosion over time, moody noir lighting."
+    },
+    {
+        "name": "t26_a3_08_narcissistic_entitlement_greed",
+        "act": 3,
+        "sentences": "3.05#1,3.05#2",
+        "desc": "Lòng tham trục lợi xâm lấn và lấn át hoàn toàn những vỏ bọc trắc ẩn ban đầu.",
+        "prompt": "A heavy vintage iron safe with its door slightly ajar in a shadowy room, cold metallic glint on dials, dark silhouettes hovering nearby in quiet greed."
+    },
+    {
+        "name": "t26_a3_09_financial_gain_over_human_life",
+        "act": 3,
+        "sentences": "3.05#3,3.05#4",
+        "desc": "Sinh mệnh con người bị quy đổi thành tiền mặt phục vụ lối sống xa hoa của vợ chồng thủ ác.",
+        "prompt": "Old Japanese yen banknotes scattered neatly beside an empty medicine bottle, harsh contrasting light, cold indictment of commercialized cruelty."
+    },
+    {
+        "name": "t26_a3_10_moral_disengagement_theory",
+        "act": 3,
+        "sentences": "3.05#5,3.05#6",
+        "desc": "Thuyết thoái thác đạo đức của Bandura: đổ lỗi cho hoàn cảnh để rũ bỏ trách nhiệm cá nhân.",
+        "prompt": "An unraveling rope hanging against a cracked plaster wall, fraying fibers catching bright rim light, visual metaphor for severed ethical bonds."
+    },
+    {
+        "name": "t26_a3_11_institutional_blindspot_complicity",
+        "act": 3,
+        "sentences": "3.05#7,3.06#1",
+        "desc": "Sự đồng lõa của các cơ quan quản lý buông lỏng tạo điều kiện cho tội ác phát triển.",
+        "prompt": "An empty municipal government office at dusk, rows of deserted wooden desks, dusty typewriters covered with covers, shadows lengthening across the floor."
+    },
+    {
+        "name": "t26_a3_12_perverted_maternal_archetype",
+        "act": 3,
+        "sentences": "3.06#2,3.06#3",
+        "desc": "Hình tượng 'người mẹ đen tối' (The Dark Mother) trong tâm lý học cổ mẫu Jungian.",
+        "prompt": "Shadowy statuesque silhouette of a draped maternal figure holding an empty bundle in a ruined gothic archway, dramatic moonlight, somber archetype."
+    },
+    {
+        "name": "t26_a3_13_callous_unemotional_traits",
+        "act": 3,
+        "sentences": "3.06#4,3.06#5",
+        "desc": "Đặc điểm nhân cách ái kỷ lạnh lùng triệt tiêu khả năng đồng cảm tự nhiên.",
+        "prompt": "A frosted mirror reflecting an indistinct dark human silhouette with no discernible facial features, cold silver-grey palette, absolute lack of empathy."
+    },
+    {
+        "name": "t26_a3_14_societal_indifference_mirror",
+        "act": 3,
+        "sentences": "3.07#1,3.07#2",
+        "desc": "Tội ác phản chiếu sự thờ ơ của toàn xã hội trước số phận của những đứa trẻ yếu thế.",
+        "prompt": "A lone abandoned baby shoe lying on a dark wet asphalt road, reflections of distant blurred city lights, poignant emotional resonance."
+    },
+    {
+        "name": "t26_a3_15_bureaucratic_normalization_of_death",
+        "act": 3,
+        "sentences": "3.07#3",
+        "desc": "Cái chết trở thành một thủ tục hành chính thường nhật được đóng dấu qua loa.",
+        "prompt": "Close shot of an official wooden desk seal resting beside a blank registration card, dark crimson ink stain, harsh lateral shadow, cold indifference."
+    },
+    {
+        "name": "t26_a3_16_dark_triad_machiavellian_cunning",
+        "act": 3,
+        "sentences": "3.07#4",
+        "desc": "Sự kết hợp giữa thủ đoạn Machiavelli và tính ái kỷ bệnh hoạn trong điều hành đường dây.",
+        "prompt": "A chessboard set in deep shadow with black chess pieces dominating the center, solitary white king knocked sideways, tactical ruthlessness."
+    },
+    {
+        "name": "t26_a3_17_manipulation_of_vulnerable_mothers",
+        "act": 3,
+        "sentences": "3.07#5",
+        "desc": "Kỹ thuật thao túng tâm lý đánh trúng mặc cảm tội lỗi của các sản phụ bần cùng.",
+        "prompt": "A dark spiderweb catching faint silvery moonlight in the corner of a ruined window frame, delicate threads binding tightly, psychological entrapment."
+    },
+    {
+        "name": "t26_a3_18_clinic_as_death_factory",
+        "act": 3,
+        "sentences": "3.07#6",
+        "desc": "Cơ sở y tế biến tướng thành một quy trình thanh lý sinh mệnh có hệ thống.",
+        "prompt": "Industrial perspective looking down a narrow clinic corridor lined with metal doors, flickering overhead fluorescent bar, sterile haunting atmosphere."
+    },
+    {
+        "name": "t26_a3_19_cold_pragmatism_war_mentality",
+        "act": 3,
+        "sentences": "3.07#7",
+        "desc": "Tâm thức thời chiến: coi mạng người như vật tư tiêu hao trong cuộc chiến sinh tồn.",
+        "prompt": "Rusted metal helmet lying half-buried in mud and snow beside a broken clinic wall, bleak historical continuity, desensitized era."
+    },
+    {
+        "name": "t26_a3_20_self_serving_bias_in_confession",
+        "act": 3,
+        "sentences": "3.07#8",
+        "desc": "Thiên kiến tự phục vụ: luôn coi mình là nạn nhân của thời cuộc thay vì kẻ thủ ác.",
+        "prompt": "A silhouette of a woman covering her face with hands, light spilling through splayed fingers, sharp dramatic contrast between light and dark."
+    },
+    {
+        "name": "t26_a3_21_pathological_lying_and_charm",
+        "act": 3,
+        "sentences": "3.07#9",
+        "desc": "Khả năng nói dối bệnh lý và uy tín bằng cấp đại học danh tiếng ru ngủ người ngoài.",
+        "prompt": "A framed university diploma hanging askew on a dark peeling wall, glass cracked diagonally, stark beam of light exposing decay behind status."
+    },
+    {
+        "name": "t26_a3_22_erosion_of_medical_oath",
+        "act": 3,
+        "sentences": "3.07#10",
+        "desc": "Lời thề y đức bị chà đạp dưới đáy vực của lòng tham và sự vô cảm.",
+        "prompt": "A caduceus medical emblem cast in bronze, tarnished and verdigris-stained, lying on rough dark stone in deep ink shadows."
+    },
+    {
+        "name": "t26_a3_23_social_darwinism_delusion",
+        "act": 3,
+        "sentences": "3.07#11",
+        "desc": "Ảo tưởng Darwin xã hội: cho rằng chỉ những đứa trẻ có gia đình khá giả mới đáng được sống.",
+        "prompt": "Withered autumn leaves trapped in ice alongside a vigorous bare branch, cold biological allegory, harsh winter reality."
+    },
+    {
+        "name": "t26_a3_24_abnormal_lack_of_guilt",
+        "act": 3,
+        "sentences": "3.07#12",
+        "desc": "Sự thiếu vắng hoàn toàn cảm giác tội lỗi — dấu hiệu kinh điển của rối loạn nhân cách chống đối xã hội.",
+        "prompt": "A smooth flat dark obsidian stone resting under falling rain drops, water running off without penetrating, metaphor for an impenetrable conscience."
+    },
+    {
+        "name": "t26_a3_25_systemic_failure_warning",
+        "act": 3,
+        "sentences": "3.07#13",
+        "desc": "Lời cảnh tỉnh: cái ác cá nhân chỉ có thể bùng phát khi cả hệ thống xã hội tê liệt.",
+        "prompt": "A crumbling concrete wall displaying structural stress cracks expanding outward in high contrast noir ink, systemic fragility."
+    },
+    {
+        "name": "t26_a3_26_closing_the_clinical_dossier",
+        "act": 3,
+        "sentences": "3.07#14",
+        "desc": "Kết luận hồ sơ tâm lý: cái ác đội lốt quy trình chuyên môn luôn là mối đe dọa lớn nhất.",
+        "prompt": "A heavy leather-bound forensic casebook closing shut on a dark oak desk, dust motes dancing in the fading ray of a desk lamp."
+    },
+    {
+        "name": "t26_a3_27_courtroom_door_approaching",
+        "act": 3,
+        "sentences": "3.08#1",
+        "desc": "Bước chuyển từ giải mã tâm lý sang phiên tòa lịch sử đối diện công lý.",
+        "prompt": "Tall heavy wooden courthouse double doors with brass handles, seen from the end of a long dim marble hallway, solemn anticipation."
+    },
+    {
+        "name": "t26_a3_28_public_reckoning_anticipation",
+        "act": 3,
+        "sentences": "3.08#2",
+        "desc": "Toàn thể xã hội Nhật Bản nín thở chờ đợi phiên xét xử chấn động thời hậu chiến.",
+        "prompt": "Silhouettes of hundreds of people packed behind barricades outside a stately stone courthouse building, sea of umbrellas in cold drizzle."
+    },
+    {
+        "name": "t26_a3_29_scales_of_justice_in_shadow",
+        "act": 3,
+        "sentences": "3.08#3",
+        "desc": "Cán cân công lý đối diện thách thức phán xét những lỗ hổng chết người của thể chế.",
+        "prompt": "Classic bronze scales of justice positioned against a dark mahogany wall, dramatic side lighting illuminating one pan while the other rests in total shadow."
+    },
+
+    # =========================================================================
+    # HỒI 4 (29 ảnh: t26_a4_01 -> t26_a4_29)
+    # =========================================================================
+    {
+        "name": "t26_a4_01_tokyo_district_court_1948",
+        "act": 4,
+        "sentences": "4.02#1,4.02#2",
+        "desc": "Tòa án Quận Tokyo mùa thu năm 1948, phiên tòa sơ thẩm thu hút toàn thể quốc dân.",
+        "prompt": "Imposing stone facade of Tokyo District Court in autumn 1948, overcast sky, reporters and citizens gathered at the grand entrance steps, vintage automobiles parked."
+    },
+    {
+        "name": "t26_a4_02_crowded_spectator_gallery_tension",
+        "act": 4,
+        "sentences": "4.02#3,4.02#4",
+        "desc": "Hàng trăm người dân chen chúc trong phòng xử án, dõi mắt về hàng ghế bị cáo.",
+        "prompt": "High-angle view of a packed wooden courtroom gallery, spectators leaning forward in intense silence, dark trench coats and fedoras, heavy solemn atmosphere."
+    },
+    {
+        "name": "t26_a4_03_defendants_dock_trio",
+        "act": 4,
+        "sentences": "4.02#5,4.02#6",
+        "desc": "Hàng ghế bị cáo: vợ chồng Ishikawa cùng vị bác sĩ làm giả giấy chứng tử cúi đầu.",
+        "prompt": "Three defendant silhouettes seated in the wooden dock under the watchful gaze of uniformed guards, stark overhead lighting carving sharp contours, heavy tension."
+    },
+    {
+        "name": "t26_a4_04_prosecutor_presenting_autopsy_evidence",
+        "act": 4,
+        "sentences": "4.04#1,4.04#2",
+        "desc": "Công tố viên đưa ra các báo cáo giám định pháp y bác bỏ luận điểm chết do bệnh lý.",
+        "prompt": "Silhouette of a prosecutor standing at the podium gesturing toward white document exhibits mounted on a dark wooden board, decisive theatrical rim lighting."
+    },
+    {
+        "name": "t26_a4_05_contract_documents_as_exhibits",
+        "act": 4,
+        "sentences": "4.04#3,4.04#4",
+        "desc": "Các hợp đồng đóng tiền của cha mẹ nghèo được trưng bày trước tòa như bằng chứng trục lợi.",
+        "prompt": "Evidence table in the courtroom displaying stacks of plain paper documents, ink seals, a wooden gavel resting nearby in deep shadow, undeniable legal proof."
+    },
+    {
+        "name": "t26_a4_06_corrupt_doctor_testimony_dock",
+        "act": 4,
+        "sentences": "4.06#1,4.06#2",
+        "desc": "Bác sĩ Shiro Nakayama thừa nhận đã nhận tiền hối lộ để ký khống biên bản báo tử.",
+        "prompt": "A man in a wrinkled suit standing before the witness microphone, head hanging low in shame, dark hands trembling on the wooden stand, harsh spotlight."
+    },
+    {
+        "name": "t26_a4_07_detectives_solid_evidence_chain",
+        "act": 4,
+        "sentences": "4.06#3,4.06#4",
+        "desc": "Cơ quan cảnh sát trình bày chuỗi chứng cứ đanh thép về quy trình bỏ đói có tính toán.",
+        "prompt": "Police detective witness box, a stern officer in dress uniform testifying firmly, sharp jawline, high-contrast black ink shadows across the courtroom."
+    },
+    {
+        "name": "t26_a4_08_courtroom_stenographer_typing_speed",
+        "act": 4,
+        "sentences": "4.06#5,4.06#6",
+        "desc": "Người thư ký tòa ghi chép từng lời khai chấn động của vụ án lịch sử.",
+        "prompt": "Close-up of hands typing rapidly on an antique mechanical typewriter, paper roll advancing, deep shadows across the mahogany desk, recording history."
+    },
+    {
+        "name": "t26_a4_09_weeping_mother_witness_stand",
+        "act": 4,
+        "sentences": "4.08#1,4.08#2",
+        "desc": "Người mẹ mất con nghẹn ngào bước lên bục nhân chứng trong nỗi đau xé lòng.",
+        "prompt": "A sorrowful woman in a simple dark kimono standing at the witness stand, hands covering her tear-streaked face, powerful emotional chiaroscuro, tragic human cost."
+    },
+    {
+        "name": "t26_a4_10_grief_of_postwar_widow",
+        "act": 4,
+        "sentences": "4.08#3,4.08#4",
+        "desc": "Người mẹ kể lại hoàn cảnh mất chồng ngoài mặt trận và sự tuyệt vọng phải gửi con.",
+        "prompt": "Sorrowful silhouette of a mother looking toward an empty crib, stark moonlight through a broken shoji window, intimate heart-wrenching atmosphere."
+    },
+    {
+        "name": "t26_a4_11_clashing_emotions_in_courtroom",
+        "act": 4,
+        "sentences": "4.08#5,4.08#6",
+        "desc": "Cả khán phòng lặng đi trước nỗi uất hận và tiếng khóc xót xa của các bậc cha mẹ.",
+        "prompt": "A sea of bowed heads among courtroom spectators, handkerchiefs held to faces, profound collective mourning, stark black-and-white tonal contrast."
+    },
+    {
+        "name": "t26_a4_12_matron_unmoved_in_dock",
+        "act": 4,
+        "sentences": "4.08#7,4.08#8",
+        "desc": "Trước những giọt nước mắt của nạn nhân, Miyuki Ishikawa vẫn giữ ánh nhìn lạnh lùng bất động.",
+        "prompt": "Tight side profile of the female defendant in the dock, staring straight ahead with stone-cold impassive eyes, completely unaffected by surrounding grief."
+    },
+    {
+        "name": "t26_a4_13_judge_listening_with_grim_expression",
+        "act": 4,
+        "sentences": "4.08#9,4.08#10",
+        "desc": "Hội đồng thẩm phán nghiêm nghị lắng nghe lời luận tội cuối cùng.",
+        "prompt": "Three elevated judges in black robes seated beneath the imperial emblem of the court, stern grave expressions in shadow, solemn weight of legal judgment."
+    },
+    {
+        "name": "t26_a4_14_victim_mother_direct_testimony",
+        "act": 4,
+        "sentences": "4.09#1,4.09#2",
+        "desc": "Lời khai trực tiếp của người mẹ: sự tin tưởng tuyệt đối từng gửi gắm đã bị phản bội cay đắng.",
+        "prompt": "Dramatic low-angle shot of the witness podium, a clenched fist resting on the wooden railing, symbol of betrayed trust and agonizing sorrow."
+    },
+    {
+        "name": "t26_a4_15_revelation_of_deceit_and_shock",
+        "act": 4,
+        "sentences": "4.09#3,4.09#4",
+        "desc": "Khoảnh khắc người mẹ bàng hoàng nhận ra cơ sở từ thiện thực chất là cỗ máy tử thần.",
+        "prompt": "Shattered mirror reflecting distorted dark fragments of a room, visual metaphor for the violent shattering of illusions and naive trust."
+    },
+    {
+        "name": "t26_a4_16_plea_for_harsh_justice",
+        "act": 4,
+        "sentences": "4.09#5",
+        "desc": "Tiếng kêu đòi công lý của những người mẹ nghèo vang vọng khắp phòng xử án.",
+        "prompt": "An outstretched hand reaching upward into a beam of light from the courtroom skylight, pleading for justice amidst surrounding darkness."
+    },
+    {
+        "name": "t26_a4_17_gavel_poised_to_strike",
+        "act": 4,
+        "sentences": "4.09#6",
+        "desc": "Chiếc búa tòa án nâng lên sẵn sàng cho giờ khắc tuyên án lịch sử.",
+        "prompt": "A heavy polished wooden judge's gavel suspended in mid-air above the sound block, sharp rim light catching the polished brass band, frozen tense moment."
+    },
+    {
+        "name": "t26_a4_18_courtroom_silence_before_verdict",
+        "act": 4,
+        "sentences": "4.09#7",
+        "desc": "Cả khán phòng nín thở chờ đợi phán quyết cuối cùng của hội đồng xét xử.",
+        "prompt": "Wide panoramic shot of the entire courtroom standing in dead silence, lights dimmed, all eyes fixed upon the high judicial bench."
+    },
+    {
+        "name": "t26_a4_19_historical_verdict_announced",
+        "act": 4,
+        "sentences": "4.09#8",
+        "desc": "Bản án được tuyên vào tháng 10 năm 1948 khép lại giai đoạn sơ thẩm đầy sóng gió.",
+        "prompt": "Chief judge standing tall with an unfolded verdict scroll in hands, dark robes flowing, solemn judicial authority cutting through the courtroom."
+    },
+    {
+        "name": "t26_a4_20_controversial_lenient_sentence",
+        "act": 4,
+        "sentences": "4.10#1",
+        "desc": "Phán quyết 8 năm tù giam sơ thẩm gây ra làn sóng phẫn nộ và tranh cãi dữ dội trong dư luận.",
+        "prompt": "Newspaper headlines sliding off a wooden printing press, blurred bold characters, public commotion silhouettes reacting with raised fists."
+    },
+    {
+        "name": "t26_a4_21_legal_loophole_omission_vs_commission",
+        "act": 4,
+        "sentences": "4.10#2",
+        "desc": "Lỗ hổng pháp lý thời bấy giờ: khó khăn trong việc quy kết tội giết người trực tiếp cho hành vi bỏ mặc.",
+        "prompt": "An antique heavy penal code law book opened on a table, a large rusty key lying across the spine, deep labyrinthine shadows."
+    },
+    {
+        "name": "t26_a4_22_high_court_appeal_reduction",
+        "act": 4,
+        "sentences": "4.10#3",
+        "desc": "Tòa Cấp cao Tokyo sau đó tiếp tục giảm án xuống còn 4 năm tù giam, đỉnh điểm bất bình.",
+        "prompt": "A set of tall classical courthouse stone columns cast in deep slanting shadows of late afternoon, symbol of legal ambiguity and public frustration."
+    },
+    {
+        "name": "t26_a4_23_public_outcry_tokyo_streets",
+        "act": 4,
+        "sentences": "4.10#4",
+        "desc": "Làn sóng biểu tình và những bài báo phản đối bản án quá nhẹ khắp các nẻo đường Tokyo.",
+        "prompt": "Dense crowds of angry demonstrators holding placards in silhouette against rainy city streets, gas lamp reflections shimmering on wet tram tracks."
+    },
+    {
+        "name": "t26_a4_24_wake_up_call_for_japanese_society",
+        "act": 4,
+        "sentences": "4.10#5",
+        "desc": "Bản án trở thành cú hích buộc toàn bộ hệ thống lập pháp và xã hội Nhật Bản phải thức tỉnh.",
+        "prompt": "A massive bronze clock face illuminated from behind, its hands approaching midnight, metaphorical awakening of national conscience."
+    },
+    {
+        "name": "t26_a4_25_eugenic_protection_act_passage",
+        "act": 4,
+        "sentences": "4.11#1",
+        "desc": "Quốc hội Nhật Bản thông qua Luật Bảo vệ Thể chất năm 1948 hợp pháp hóa việc kiểm soát sinh sản.",
+        "prompt": "The Diet building of Japan standing majestic under dramatic twilight sky, lights shining from legislative hall windows, turning point of modern legal reform."
+    },
+    {
+        "name": "t26_a4_26_transformation_of_child_protection",
+        "act": 4,
+        "sentences": "4.11#2",
+        "desc": "Sự ra đời của các quy định cấp phép hành nghề hộ sinh ngặt nghèo và mạng lưới bảo trợ trẻ em.",
+        "prompt": "An official government seal being stamped firmly onto an administrative registry, bold red ink mark, symbol of newborn institutional safeguards."
+    },
+    {
+        "name": "t26_a4_27_price_paid_in_innocent_blood",
+        "act": 4,
+        "sentences": "4.11#3",
+        "desc": "Sự thay đổi của thể chế được đánh đổi bằng sinh mệnh của hàng trăm đứa trẻ vô tội.",
+        "prompt": "A field of delicate white winter lilies blooming through melting snow around an old stone memorial marker, quiet poignant beauty in tragedy."
+    },
+    {
+        "name": "t26_a4_28_iron_bars_and_passage_of_time",
+        "act": 4,
+        "sentences": "4.12#1",
+        "desc": "Bản án tù giam khép lại nhưng vết thương tâm lý và ký ức lịch sử không bao giờ phai mờ.",
+        "prompt": "Prison cell iron bars casting long striped shadows across an empty stone floor, sunlight slowly fading into cold twilight, irrevocable passage of time."
+    },
+    {
+        "name": "t26_a4_29_eternal_reminder_for_humanity",
+        "act": 4,
+        "sentences": "4.12#2",
+        "desc": "Lời nhắc nhở muôn đời về nghĩa vụ bảo vệ những sinh mệnh yếu ớt nhất trong xã hội.",
+        "prompt": "A single lit candle standing resilient in a dark drafty room, flame burning bright and steady against swirling night shadows, eternal vigilance."
+    },
+
+    # =========================================================================
+    # HỒI 5 (21 ảnh: t26_a5_01 -> t26_a5_21)
+    # =========================================================================
+    {
+        "name": "t26_a5_01_shinjuku_modern_skyscrapers_dawn",
+        "act": 5,
+        "sentences": "5.02#1,5.02#2",
+        "desc": "Khu Shinjuku ngày nay sầm uất với những tòa cao ốc chọc trời, xóa nhòa vết tích hoang tàn năm xưa.",
+        "prompt": "Modern Shinjuku cityscape at dawn, sleek glass and steel skyscraper towers emerging through morning mist, deep contrast between contemporary wealth and dark history."
+    },
+    {
+        "name": "t26_a5_02_measure_of_civilized_society",
+        "act": 5,
+        "sentences": "5.02#3,5.02#4",
+        "desc": "Thước đo văn minh của một xã hội là cách xã hội đó chăm sóc và bảo vệ những đứa trẻ yếu thế nhất.",
+        "prompt": "A warm silhouette of an adult gently holding a small child's hand while walking along a quiet tree-lined boulevard, soft dawn light filtering through branches."
+    },
+    {
+        "name": "t26_a5_03_governance_and_uncompromising_oversight",
+        "act": 5,
+        "sentences": "5.03#1,5.03#2",
+        "desc": "Bài học quản lý nhà nước: tuyệt đối không buông lỏng việc giám sát và thanh tra các cơ sở bảo trợ.",
+        "prompt": "A dignified municipal inspection chamber, neat administrative ledgers on an organized desk, bright clean daylight streaming through wide windows."
+    },
+    {
+        "name": "t26_a5_04_transparency_as_shield",
+        "act": 5,
+        "sentences": "5.03#3,5.04#1",
+        "desc": "Sự minh bạch và thanh tra đột xuất chính là lá chắn vững chắc bảo vệ sinh mệnh mầm non.",
+        "prompt": "A sturdy metal shield emblem mounted on a stone column, polished surface catching morning light, metaphorical fortress against corruption."
+    },
+    {
+        "name": "t26_a5_05_wolves_in_sheeps_clothing",
+        "act": 5,
+        "sentences": "5.04#2,5.04#3",
+        "desc": "Cảnh giác nhận diện những kẻ trục lợi khoác áo nhà từ thiện hảo tâm.",
+        "prompt": "A dark predatory silhouette cast on a pristine white marble wall, contrasting sharply with an innocent surrounding aura, psychological vigilance."
+    },
+    {
+        "name": "t26_a5_06_independent_verification_principle",
+        "act": 5,
+        "sentences": "5.04#4,5.04#5",
+        "desc": "Nguyên tắc sinh tồn: không phó thác mù quáng sinh mệnh con em mình cho bất kỳ ai.",
+        "prompt": "An open window overlooking a secure peaceful residential garden in the morning, soft curtains blowing gently, safe protective environment."
+    },
+    {
+        "name": "t26_a5_07_community_responsibility_network",
+        "act": 5,
+        "sentences": "5.04#6,5.04#7",
+        "desc": "Xây dựng mạng lưới hỗ trợ cộng đồng chính thống để không ai bị đẩy vào đường cùng.",
+        "prompt": "Multiple interconnected paper lantern glows floating warmly against a quiet night sky, symbol of unified communal protection and solidarity."
+    },
+    {
+        "name": "t26_a5_08_amber_eyes_four_redflags_overview",
+        "act": 5,
+        "sentences": "5.04#8,5.05#1",
+        "desc": "Bảng tổng quan 4 Dấu hiệu Cảnh báo Đỏ sinh tồn đúc kết từ hồ sơ Miyuki Ishikawa.",
+        "prompt": "A large dark cork analysis board hanging on an investigative office wall, four clean blank polaroid frames pinned with red string connections, analytical noir mood."
+    },
+    {
+        "name": "t26_a5_09_redflag1_opaque_unlicensed_operations",
+        "act": 5,
+        "sentences": "5.05#2,5.05#3",
+        "desc": "Cảnh báo đỏ 1: Cơ sở hoạt động mập mờ, thiếu cấp phép và giám sát độc lập của nhà nước.",
+        "prompt": "A dark padlocked wooden door of an anonymous suburban facility, closed metal blinds, overgrown weeds, secrecy and illicit operation."
+    },
+    {
+        "name": "t26_a5_10_redflag1_refusal_of_legal_scrutiny",
+        "act": 5,
+        "sentences": "5.05#4,5.05#5",
+        "desc": "Từ chối cung cấp giấy tờ pháp lý hoặc yêu cầu giao dịch bí mật là dấu hiệu nguy hiểm chết người.",
+        "prompt": "A plain blank envelope lying in the deep shadows of an alley threshold, untraceable private transaction, stark high-contrast warning."
+    },
+    {
+        "name": "t26_a5_11_redflag2_package_deals_without_accountability",
+        "act": 5,
+        "sentences": "5.05#6,5.05#7",
+        "desc": "Cảnh báo đỏ 2: Cơ chế thu phí trọn gói với lời hứa hẹn dễ dàng nhưng lảng tránh minh bạch tài chính.",
+        "prompt": "A vintage brass balance scale tilted heavily by stacks of coins on one side, empty pan on the other, representation of hollow commercial promises."
+    },
+    {
+        "name": "t26_a5_12_redflag3_restricted_visitation_barriers",
+        "act": 5,
+        "sentences": "5.05#8",
+        "desc": "Cảnh báo đỏ 3: Hạn chế tiếp xúc, cản trở việc thăm nom và kiểm tra sức khỏe của trẻ em.",
+        "prompt": "A high security wrought-iron gate with pointed finials, bolted closed against the viewer, lonely road receding behind bars, obstruction."
+    },
+    {
+        "name": "t26_a5_13_redflag3_evasive_complex_scheduling",
+        "act": 5,
+        "sentences": "5.05#9",
+        "desc": "Liên tục đưa ra lý do né tránh, yêu cầu hẹn trước phức tạp để che giấu thực tế sinh hoạt.",
+        "prompt": "A closed frosted glass reception window with shutter slats down, dim reflection of an empty waiting corridor, isolation and evasiveness."
+    },
+    {
+        "name": "t26_a5_14_redflag3_absolute_transparency_mandate",
+        "act": 5,
+        "sentences": "5.05#10",
+        "desc": "Sự minh bạch tuyệt đối và quyền thăm nom không giới hạn là tiêu chuẩn sinh tồn bắt buộc.",
+        "prompt": "A set of tall French doors wide open to a sunlit garden veranda, pure clean light flooding into the room, symbol of complete transparency."
+    },
+    {
+        "name": "t26_a5_15_redflag4_parental_abandonment_syndrome",
+        "act": 5,
+        "sentences": "5.05#11",
+        "desc": "Cảnh báo đỏ 4: Tâm lý phó mặc và buông xuôi trách nhiệm của chính các bậc cha mẹ.",
+        "prompt": "An empty wooden rocking chair sitting in fading evening shadows beside an uncurtained window, quiet melancholy and abdicated duty."
+    },
+    {
+        "name": "t26_a5_16_redflag4_false_promises_consequences",
+        "act": 5,
+        "sentences": "5.05#12",
+        "desc": "Tin vào những lời hứa hão huyền để trút bỏ gánh nặng đã vô tình tiếp tay cho thảm kịch.",
+        "prompt": "A fragile paper boat adrift on dark turbulent water in the rain, fading into the gloom, metaphor for unprotected innocence."
+    },
+    {
+        "name": "t26_a5_17_seeking_legitimate_social_support",
+        "act": 5,
+        "sentences": "5.05#13",
+        "desc": "Luôn chủ động tìm kiếm sự hỗ trợ từ các tổ chức xã hội chính thống thay vì tin kẻ lạ.",
+        "prompt": "An open stone archway welcoming travelers, warm lantern hanging overhead, path leading toward community shelter, reliable sanctuary."
+    },
+    {
+        "name": "t26_a5_18_primacy_of_child_protection",
+        "act": 5,
+        "sentences": "5.05#14",
+        "desc": "Quyền được sống và sự an toàn của trẻ em là ưu tiên tối thượng của mọi gia đình và xã hội.",
+        "prompt": "A blooming young sapling tree protected by sturdy wooden stakes, fresh green leaves catching morning sunlight against a dark background."
+    },
+    {
+        "name": "t26_a5_19_amber_eyes_dossier_closing_tribute",
+        "act": 5,
+        "sentences": "5.05#15",
+        "desc": "Khép lại tập hồ sơ Miyuki Ishikawa với tấm lòng tri ân và giá trị nhân văn sâu sắc.",
+        "prompt": "A thick Manila investigative dossier labeled with an amber wax seal, resting peacefully on a vintage library desk, dramatic quiet closure."
+    },
+    {
+        "name": "t26_a5_20_call_to_action_community_safety",
+        "act": 5,
+        "sentences": "5.05#16",
+        "desc": "Lời kêu gọi đồng hành cùng Amber Eyes lan tỏa tri thức vì một cộng đồng an toàn cho trẻ em.",
+        "prompt": "A solitary lighthouse tower standing resolute on dark coastal cliffs, sweeping beam of bright light cutting across dark stormy ocean waves."
+    },
+    {
+        "name": "t26_a5_21_tokyo_cherry_blossom_dawn_peace",
+        "act": 5,
+        "sentences": "5.05#17",
+        "desc": "Hoa anh đào nở rộ trên đường phố Tokyo đón ánh bình minh, biểu tượng của hòa bình và công lý.",
+        "prompt": "Delicate cherry blossom branches framing a peaceful view of Tokyo at sunrise, warm golden light dissipating the cold morning mist, hope renewed."
+    }
+]
+
+def main():
+    out_file = WORK / "bg_jobs_tap26.json"
+    out_file.write_text(json.dumps(JOBS, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Successfully generated {len(JOBS)} jobs to {out_file}")
+
+if __name__ == "__main__":
+    main()

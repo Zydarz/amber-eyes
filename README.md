@@ -102,8 +102,8 @@ Mọi lệnh chạy với `AE_EP=XX` (Tập 01 không cần); bản tiếng Anh 
 | 2b | `voice_role_check.py` | **G10**: nghe liền từng vai phải ra 1 người, 3 vai tách bạch — đạt mới dựng |
 | 3 | `build_audio3.py` | âm thanh tổng stereo (nhạc · nền môi trường · tiếng động theo `sfx_tapXX.json`) + mốc thời gian |
 | âm | `make_sfx3.py` · `import_sfx_video.py` · `freesound.py` | tự tổng hợp SFX · nhập tiếng tải về / từ video AI · tải & nhập SFX từ Freesound.org API (chuẩn hoá WAV + ghi provenance) |
-| 5 | `gen_images.py` · `fix_backgrounds.py` | tạo / sửa nền — **nền dùng CHUNG cho mọi ngôn ngữ — áp dụng cho mọi yêu cầu tạo ảnh, tập mới lẫn tạo lại tập cũ (AGENTS H17, tiêu chuẩn A8.1)** (`assets/bg/tXX_*.png`, không hậu tố ngôn ngữ; chữ do Pillow vẽ lúc dựng) · nền **phải có nội dung cảnh**, không được là gradient trừu tượng (AGENTS H19) |
-| 6 | `parse_shots.py` | bảng shot → `shots.json` (mọi ngôn ngữ phải cùng nền ở từng shot — cổng `qc_bg_shared.py --ep XX`, AGENTS H17) |
+| 5 | `gen_images.py` · `fix_backgrounds.py` | tạo / sửa nền — **nền dùng CHUNG cho mọi ngôn ngữ — H17 đã bỏ 20/11/2026 — nền sạch chữ, khung hình không có chữ ngoài thẻ kết/số T5 (AGENTS H26)** (`assets/bg/tXX_*.png`, không hậu tố ngôn ngữ; chữ do Pillow vẽ lúc dựng) · nền **phải có nội dung cảnh**, không được là gradient trừu tượng (AGENTS H19) |
+| 6 | `parse_shots.py` | bảng shot → `shots.json` (cổng `qc_bg_shared.py` đã gỡ 20/11/2026; còn `qc_bg_usage.py`, AGENTS H22/H25) |
 | 7 | `build_video3.py --stills <mọi shot>` | **ảnh tĩnh từng shot trước khi dựng** (A9.3) — cổng QC, **không phải nguyên liệu dựng video** |
 | 8–10 | `build_video3.py` · `rerender_part.py` | dựng hình, sửa cục bộ |
 | 11 | `subtitles.py` | phụ đề |

@@ -1,0 +1,680 @@
+{
+  "TK1": {
+    "title": "16 Years of Sacrifice & The La Jolla Sandcastle",
+    "theme": "The Sunk Cost Fallacy & Prestige Blind Spots",
+    "hook": "16 years financing his Cornell and Harvard degrees. Only to be discarded at the pinnacle of prestige.",
+    "total_dur_est": 73.0,
+    "bgm": "bgm_cello_sad.mp3",
+    "sfx": [
+      "amb_wind_cold.wav (bed)",
+      "fx_sewing_machine.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK1.01#1",
+        "text": "BETTY BRODERICK DOSSIER · LA JOLLA, SAN DIEGO",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK1.01#3",
+        "text": "16 YEARS OF WORKING MULTIPLE JOBS TO SUPPORT HIM",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK1.01#5",
+        "text": "DUAL DEGREES: CORNELL MEDICINE & HARVARD LAW",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK1.01#7",
+        "text": "LA JOLLA MANSION & BAR ASSOCIATION PRESIDENT",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK1.01#8",
+        "text": "SUNK COST TRAP & FIRST PSYCHOLOGICAL FRACTURES",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK1.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "To allow her husband to focus entirely on his rigorous studies, Betty shouldered the entire financial burden of the household while raising their young children.",
+        "source": "1.04#3",
+        "bg": "t14_c04_betty_teaching_kindergarten_classroom",
+        "camera": "pull",
+        "dur_est": 9.25
+      },
+      {
+        "id": "TK1.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "She tirelessly worked various manual and commercial jobs, from teaching nursery school to selling Tupperware and Avon cosmetics door to door.",
+        "source": "1.04#4",
+        "bg": "t14_tupperware_avon_sales_struggle",
+        "camera": "still",
+        "dur_est": 7.77
+      },
+      {
+        "id": "TK1.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Thanks to the wife's unwavering dedication across sixteen demanding years, Daniel successfully attained two of the most prestigious academic degrees in the United States.",
+        "source": "1.04#5",
+        "bg": "t14_early_struggles_sewing_machine",
+        "camera": "push",
+        "dur_est": 8.88
+      },
+      {
+        "id": "TK1.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "He earned a Medical Doctor degree from Cornell University and subsequently a Juris Doctor degree from Harvard Law School.",
+        "source": "1.04#6",
+        "bg": "t14_c03_young_dan_med_books_studying",
+        "camera": "pan",
+        "dur_est": 7.03
+      },
+      {
+        "id": "TK1.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "This rare combination of medical expertise and legal acumen flung open the doors for Daniel Broderick to enter the elite ranks of California's highest-earning trial attorneys.",
+        "source": "1.04#7",
+        "bg": "t14_cornell_harvard_diplomas",
+        "camera": "pull",
+        "dur_est": 9.62
+      },
+      {
+        "id": "TK1.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "When the family relocated to their lavish estate in coastal La Jolla, their lives were quickly surrounded by immense luxury and social prestige.",
+        "source": "1.06#1",
+        "bg": "t14_luxury_sedans_driveway",
+        "camera": "still",
+        "dur_est": 8.51
+      },
+      {
+        "id": "TK1.01#7",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Daniel Broderick rose to become a formidable medical malpractice litigator, eventually serving as President of the San Diego County Bar Association with millions in annual income.",
+        "source": "1.06#2",
+        "bg": "t14_bar_association_president_office",
+        "camera": "push",
+        "dur_est": 9.62
+      },
+      {
+        "id": "TK1.01#8",
+        "role": "H",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.0,
+        "text": "Yet, precisely at the peak of their wealth and social standing, the first catastrophic fissures began fracturing the foundation of their home.",
+        "source": "1.06#3",
+        "bg": "t14_san_diego_bar_association_gala",
+        "camera": "pan",
+        "dur_est": 8.14
+      }
+    ]
+  },
+  "TK2": {
+    "title": "Gaslighting & The Shattering of Cognitive Anchors",
+    "theme": "Reality Manipulation (Gaslighting) & Invisible Coercive Control",
+    "hook": "Denying obvious adultery while labeling his wife clinically insane. The cruel anatomy of Gaslighting.",
+    "total_dur_est": 65.8,
+    "bgm": "bgm_ambient_deep.mp3",
+    "sfx": [
+      "amb_room_tone.wav (bed)",
+      "fx_clock_ticking.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK2.01#1",
+        "text": "FALL 1983: 21-YEAR-OLD ASSISTANT HIRED",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK2.01#3",
+        "text": "FORCEFUL DENIAL & ACCUSING WIFE OF PARANOIA",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK2.01#5",
+        "text": "TWO YEARS OF RELENTLESS GASLIGHTING",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK2.01#7",
+        "text": "CONVINCING A VICTIM HER OWN EYES ARE CRAZY",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK2.01#8",
+        "text": "COERCIVE CONTROL: THE INVISIBLE PSYCHOLOGICAL CAGE",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK2.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "In the autumn of 1983, Daniel hired a twenty-one-year-old former airline stewardess named Linda Kolkena as his personal secretary and legal assistant.",
+        "source": "1.06#4",
+        "bg": "t14_young_secretary_reception_desk",
+        "camera": "pull",
+        "dur_est": 8.14
+      },
+      {
+        "id": "TK2.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "When Betty confronted him regarding the suspicious nature of the relationship, Daniel not only issued vehement denials but also initiated a sophisticated gaslighting campaign.",
+        "source": "1.06#6",
+        "bg": "t14_gaslighting_accusations_living_room",
+        "camera": "push",
+        "dur_est": 8.88
+      },
+      {
+        "id": "TK2.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "He repeatedly asserted that Betty was succumbing to paranoid delusions, exaggerating harmless professional interactions, and urgently required psychiatric intervention.",
+        "source": "1.06#7",
+        "bg": "t14_gaslighting_accusations_living_room",
+        "camera": "pan",
+        "dur_est": 7.03
+      },
+      {
+        "id": "TK2.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Through the lens of behavioral science, this prolonged campaign of gaslighting inflicted catastrophic damage upon Betty Broderick's personality structure.",
+        "source": "1.09#1",
+        "bg": "t14_gaslighting_whispers_corridor",
+        "camera": "push",
+        "dur_est": 7.03
+      },
+      {
+        "id": "TK2.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "For nearly two agonizing years, between 1983 and early 1985, Daniel Broderick maintained a relentless double denial before his wife's eyes.",
+        "source": "1.09#2",
+        "bg": "t14_silent_dinner_table_suspicion",
+        "camera": "pan",
+        "dur_est": 7.77
+      },
+      {
+        "id": "TK2.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "The systematic withholding of truth and the complete invalidation of her voice shattered the woman's cognitive grounding.",
+        "source": "1.09#4",
+        "bg": "t14_gaslighting_whispers_corridor",
+        "camera": "still",
+        "dur_est": 6.29
+      },
+      {
+        "id": "TK2.01#7",
+        "role": "H",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "When an individual is repeatedly told that her own senses are defective and her mind is unstable, the pain of betrayal mutates into existential panic.",
+        "source": "1.09#5",
+        "bg": "t14_unanswered_rotary_phone",
+        "camera": "push",
+        "dur_est": 9.25
+      },
+      {
+        "id": "TK2.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "To comprehend Betty Broderick's mental state, we must first evaluate the devastating psychological toll inflicted by systemic gaslighting.",
+        "source": "3.03#1",
+        "bg": "t14_coercive_control_invisible_cage",
+        "camera": "pull",
+        "dur_est": 7.21
+      }
+    ]
+  },
+  "TK3": {
+    "title": "Asymmetric Legal Warfare & Narcissistic Rage",
+    "theme": "Psychological Triggers & Narcissistic Injury/Rage",
+    "hook": "Weaponizing elite legal mastery to suffocate his ex-wife financially. The trigger of mutual destruction.",
+    "total_dur_est": 67.7,
+    "bgm": "bgm_piano_minimal.mp3",
+    "sfx": [
+      "amb_rain_night.wav (bed)",
+      "fx_gavel_strike.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK3.01#1",
+        "text": "MOST BRUTAL DIVORCE BATTLE IN SAN DIEGO HISTORY",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK3.01#3",
+        "text": "LEGAL POWER WEAPONIZED AGAINST A DESPERATE EX-WIFE",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK3.01#5",
+        "text": "RESTRAINING ORDERS & FINES PER PROFANITY IN VOICEMAIL",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK3.01#6",
+        "text": "FULL CUSTODY OF ALL FOUR CHILDREN STRIPPED",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK3.01#8",
+        "text": "NARCISSISTIC INJURY IGNITING DESTRUCTIVE RAGE",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK3.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "As every conventional legal avenue closed in suffocating frustration, Betty's psychological reaction entered an uncontrolled cycle of behavioral escalation.",
+        "source": "2.04#1",
+        "bg": "t14_temporary_rental_isolation",
+        "camera": "pull",
+        "dur_est": 7.03
+      },
+      {
+        "id": "TK3.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Her repressed narcissistic rage, denied any constructive outlet, began erupting into extreme acts of property destruction and boundary violations.",
+        "source": "2.04#2",
+        "bg": "t14_boiling_rage_darkened_room",
+        "camera": "still",
+        "dur_est": 7.03
+      },
+      {
+        "id": "TK3.01#3",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "San Diego court archives demonstrate that Daniel Broderick responded with an extraordinarily cold, methodically calculated legal counteroffensive.",
+        "source": "2.06#1",
+        "bg": "t14_crested_stationery_threatening_letters",
+        "camera": "pan",
+        "dur_est": 7.35
+      },
+      {
+        "id": "TK3.01#4",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Rather than seeking a compassionate de-escalation of the domestic crisis, he consistently filed motions seeking stringent restraining orders against his former wife.",
+        "source": "2.06#2",
+        "bg": "t14_legal_brief_restraining_orders",
+        "camera": "pull",
+        "dur_est": 9.51
+      },
+      {
+        "id": "TK3.01#5",
+        "role": "D",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "During several months, Betty's entire living allowance was wiped out by court-ordered fines, plunging her into acute financial desperation.",
+        "source": "2.06#4",
+        "bg": "t14_fine_deduction_ledger",
+        "camera": "push",
+        "dur_est": 8.22
+      },
+      {
+        "id": "TK3.01#6",
+        "role": "D",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "For a personality heavily entrenched in narcissistic vulnerability, the forced liquidation of that core symbol acted as the definitive trigger for catastrophe.",
+        "source": "2.06#7",
+        "bg": "t14_b2_cardboard_moving_boxes_empty_room",
+        "camera": "still",
+        "dur_est": 9.51
+      },
+      {
+        "id": "TK3.01#7",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "From the perspective of personality psychology, Betty Broderick exhibited pronounced characteristics of vulnerable narcissism intertwined with borderline traits.",
+        "source": "3.05#1",
+        "bg": "t14_vulnerable_narcissist_mask",
+        "camera": "still",
+        "dur_est": 7.21
+      },
+      {
+        "id": "TK3.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Betty invested her entire youth, labor, and self-worth into Daniel's career, fusing his professional triumphs into her singular self-concept.",
+        "source": "3.05#3",
+        "bg": "t14_b3_shattered_hourglass_flowing_sand",
+        "camera": "pan",
+        "dur_est": 7.61
+      }
+    ]
+  },
+  "TK4": {
+    "title": "Five Dawn Gunshots & The Trial That Divided America",
+    "theme": "Victimhood Entitlement & The Children's Heartbreaking Truth",
+    "hook": "Dawn of November 5, 1989. Five fatal gunshots and the psychological trap of total victimhood.",
+    "total_dur_est": 59.5,
+    "bgm": "bgm_violin_heart.mp3",
+    "sfx": [
+      "amb_wind_cold.wav (bed)",
+      "fx_door_creak_night.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK4.01#1",
+        "text": "DAWN OF NOVEMBER 5, 1989 · MAR AVENUE, LA JOLLA",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK4.01#3",
+        "text": "FIVE GUNSHOTS COMMITTED IN COLD BLOOD",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK4.01#4",
+        "text": "ELDEST DAUGHTER KIM BRODERICK: AGONY ON THE STAND",
+        "dur_s": 3.0
+      },
+      {
+        "after_id": "TK4.01#6",
+        "text": "STOLEN KEY EXPOSING SYSTEMATIC PREMEDITATION",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK4.01#8",
+        "text": "32-YEAR-TO-LIFE SENTENCE: ZERO REMORSE UNTIL TODAY",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK4.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Following the shooting, Betty made no attempt to flee the jurisdiction or conceal the weapon.",
+        "source": "4.08#1",
+        "bg": "t14_b4_police_station_lobby_glass_counter",
+        "camera": "push",
+        "dur_est": 5.55
+      },
+      {
+        "id": "TK4.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "She drove to the residence of her confidante Diane Black, confessed the deed in an agitated state, and subsequently surrendered to authorities that afternoon through counsel.",
+        "source": "4.08#2",
+        "bg": "t14_surrender_police_headquarters",
+        "camera": "pan",
+        "dur_est": 9.62
+      },
+      {
+        "id": "TK4.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "The double tragedy instantly sparked an unprecedented media frenzy, commanding front-page headlines across major newspapers nationwide.",
+        "source": "4.08#3",
+        "bg": "t14_b4_bank_of_tv_news_cameras_tripods",
+        "camera": "pull",
+        "dur_est": 5.92
+      },
+      {
+        "id": "TK4.01#4",
+        "role": "N2",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "Imagine the agonizing pain tearing through the hearts of children forced to take the witness stand against their own mother.",
+        "source": "4.09#1",
+        "bg": "t14_b4_oak_witness_box_empty_microphone",
+        "camera": "pan",
+        "dur_est": 5.86
+      },
+      {
+        "id": "TK4.01#5",
+        "role": "N2",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "I had to stand before the jury, look into my mother's eyes, and recount every chilling threat she had spoken to us over those dark years.",
+        "source": "4.09#2",
+        "bg": "t14_daughter_kim_witness_stand",
+        "camera": "pull",
+        "dur_est": 7.62
+      },
+      {
+        "id": "TK4.01#6",
+        "role": "N2",
+        "emotion": "sad",
+        "speed": -0.04,
+        "pause_after": 0.6,
+        "text": "Yet the deepest wound was realizing that the key she used to enter that house had been stolen directly from my own purse.",
+        "source": "4.09#4",
+        "bg": "t14_stolen_key_unlocked_door",
+        "camera": "push",
+        "dur_est": 6.74
+      },
+      {
+        "id": "TK4.01#7",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.6,
+        "text": "Betty Broderick's demeanor during the judicial proceedings offered a textbook display of pathological self-pity characteristic of malignant narcissism.",
+        "source": "4.11#1",
+        "bg": "t14_b4_handprint_fogged_prison_glass",
+        "camera": "push",
+        "dur_est": 7.21
+      },
+      {
+        "id": "TK4.01#8",
+        "role": "C",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "Her emotional displays were reserved entirely for her own perceived victimization, financial misfortune, and lost societal standing.",
+        "source": "4.11#3",
+        "bg": "t14_b4_handprint_fogged_prison_glass",
+        "camera": "pull",
+        "dur_est": 6.81
+      }
+    ]
+  },
+  "TK5": {
+    "title": "Victimology & Marital Survival Lessons",
+    "theme": "Victimology & Survival Red Flags in Toxic Separation",
+    "hook": "Four vital survival lessons to identify psychological abuse and walk away from toxic hatred.",
+    "total_dur_est": 57.5,
+    "bgm": "bgm_piano_warm.mp3",
+    "sfx": [
+      "amb_room_tone.wav (bed)",
+      "fx_page_turn.wav",
+      "fx_stinger.wav"
+    ],
+    "overlay": [
+      {
+        "after_id": "TK5.01#1",
+        "text": "4 MARITAL SURVIVAL LESSONS · AMBER EYES",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#3",
+        "text": "LESSON 1: RECOGNIZE EARLY SIGNS OF GASLIGHTING",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#4",
+        "text": "LESSON 2: NEVER CONFLATE PRESTIGE WITH INTEGRITY",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#5",
+        "text": "LESSON 3: MAINTAIN ECONOMIC & LEGAL INDEPENDENCE",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#6",
+        "text": "LESSON 4: THE ART OF LETTING GO OF HATRED",
+        "dur_s": 2.5
+      },
+      {
+        "after_id": "TK5.01#7",
+        "text": "TRUE REVENGE IS HEALING AND LIVING PEACEFULLY",
+        "dur_s": 3.0
+      }
+    ],
+    "lines": [
+      {
+        "id": "TK5.01#1",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "As we close the Betty Broderick dossier, Amber Eyes wishes to share vital survival wisdom and life philosophies for navigating turbulent personal relationships.",
+        "source": "5.05#1",
+        "bg": "t14_four_redflags_overview_banner_t14",
+        "camera": "still",
+        "dur_est": 8.51
+      },
+      {
+        "id": "TK5.01#2",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "The first fundamental lesson is to cultivate immediate awareness of reality distortion, or gaslighting, at the very first boundary testing in a relationship.",
+        "source": "5.05#3",
+        "bg": "t14_redflag2_systematic_reality_denial",
+        "camera": "pan",
+        "dur_est": 8.51
+      },
+      {
+        "id": "TK5.01#3",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "When a partner systematically denies what you witness with your own eyes and invalidates your reality, you are encountering psychological abuse.",
+        "source": "5.05#4",
+        "bg": "t14_b5_four_pinned_polaroid_dossier_board",
+        "camera": "pull",
+        "dur_est": 7.77
+      },
+      {
+        "id": "TK5.01#4",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "The second lesson demands vigilant discernment regarding the “Halo Effect” and social stature in evaluating a partner's character.",
+        "source": "5.05#6",
+        "bg": "t14_california_no_fault_divorce_papers",
+        "camera": "push",
+        "dur_est": 6.66
+      },
+      {
+        "id": "TK5.01#5",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.5,
+        "text": "Maintain steadfast economic, legal, and emotional independence, never submerging your entire identity into the achievements or validation of another person.",
+        "source": "5.05#8",
+        "bg": "t14_b5_leather_bound_journal_fountain_pen",
+        "camera": "pull",
+        "dur_est": 7.4
+      },
+      {
+        "id": "TK5.01#6",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.4,
+        "text": "The third and most transformative principle is the discipline of releasing resentment to liberate your own soul when a relationship concludes.",
+        "source": "5.05#9",
+        "bg": "t14_toxic_ties_severed_chain",
+        "camera": "still",
+        "dur_est": 7.77
+      },
+      {
+        "id": "TK5.01#7",
+        "role": "H",
+        "emotion": "neutral",
+        "speed": -0.02,
+        "pause_after": 0.0,
+        "text": "True victory consists of walking courageously away from the ashes, healing your internal wounds, and building a radiant, free, and purposeful existence.",
+        "source": "5.05#15",
+        "bg": "t14_b5_stone_bench_blooming_cliff_garden",
+        "camera": "pan",
+        "dur_est": 8.14
+      }
+    ]
+  }
+}

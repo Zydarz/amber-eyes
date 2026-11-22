@@ -1,0 +1,19 @@
+{
+ "code": 0,
+ "message": "ok (receipt khoi phuc: file nay bi ghi de boi loi thu lai 402; node_id lay lai tu ket qua batch 1 cua lop chay dau tien)",
+ "summary": "Batch processing completed: 2/2 succeeded",
+ "total_requested": 2,
+ "total_success": 2,
+ "total_failed": 0,
+ "success_items": [
+  {
+   "file_name": "tk04_pyxis_station.jpg",
+   "node_id": "465602453520581"
+  },
+  {
+   "file_name": "tk04_pyxis_drawer_ajar.jpg",
+   "node_id": "465601074163895"
+  }
+ ],
+ "failed_items": []
+}

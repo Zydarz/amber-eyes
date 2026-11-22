@@ -1,0 +1,961 @@
+{
+  "_readme": "SPEC_AUDIO_CLIP_TAP09.json — đặc tả âm thanh để SINH WAV cho 5 clip TikTok của Tập 09 (VI). Tương thích engine Higgs Audio v3 + VoxCPM2 reference voices. Đo tỉ lệ đọc thật trên timeline_s_t09.json.",
+  "_episode": "09",
+  "_title": "Nghệ Thuật Xóa Bỏ Bản Ngã & Hồ Sơ Charles Manson",
+  "_measured_rates": {
+    "H": 0.3169,
+    "N1": 0.273,
+    "D": 0.2702,
+    "C": 0.2414,
+    "N2": 0.3012
+  },
+  "_clips_summary": {
+    "TK1": {
+      "name": "Dấu chấm hết của Mùa hè Tình yêu và cơn hoang tưởng Los Angeles",
+      "lines_count": 10,
+      "est_dur_s": 74.9,
+      "signs": [
+        1,
+        9
+      ]
+    },
+    "TK2": {
+      "name": "Nấc thang leo thang hành vi và trò chơi rợn người Creepy Crawling",
+      "lines_count": 10,
+      "est_dur_s": 83.2,
+      "signs": [
+        6,
+        8
+      ]
+    },
+    "TK3": {
+      "name": "Nghệ thuật xóa bỏ bản ngã và cỗ máy tẩy não ba giai đoạn",
+      "lines_count": 10,
+      "est_dur_s": 71.3,
+      "signs": [
+        2,
+        5
+      ]
+    },
+    "TK4": {
+      "name": "Lời khai phá vỡ vòng vây và học thuyết pháp lý kinh điển",
+      "lines_count": 10,
+      "est_dur_s": 76.3,
+      "signs": [
+        3,
+        4
+      ]
+    },
+    "TK5": {
+      "name": "Bốn tín hiệu cảnh báo đỏ sinh tồn chống thao túng tâm lý độc hại",
+      "lines_count": 10,
+      "est_dur_s": 85.5,
+      "signs": [
+        10,
+        7
+      ]
+    }
+  },
+  "clips": {
+    "TK1": {
+      "id": "TK1",
+      "title": "Dấu chấm hết của Mùa hè Tình yêu và cơn hoang tưởng Los Angeles",
+      "theme": "Ảnh hưởng & Sự quan tâm xã hội + Điểm mù ngây thơ tập thể",
+      "psychological_signs": [
+        1,
+        9
+      ],
+      "total_est_duration_s": 74.9,
+      "bgm": "bgm_desert_ambient.mp3",
+      "bgm_desc": "Hồi 1 — bed tập: bgm_desert_ambient.mp3",
+      "sfx": [
+        "amb_wind_desert.wav (nền)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "sau_cau": "TK1.01#1",
+          "text": "DẤU CHẤM HẾT CỦA MÙA HÈ TÌNH YÊU 1969",
+          "dur_s": 3.0
+        },
+        {
+          "sau_cau": "TK1.01#2",
+          "text": "10050 CIELO DRIVE: HIỆN TRƯỜNG KINH HOÀNG",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK1.01#4",
+          "text": "CƠN HOANG TƯỞNG TẬP THỂ TÊ LIỆT NƯỚC MỸ",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK1.01#5",
+          "text": "ĐỒ TRANG SỨC VẪN CÒN NGUYÊN VẸN",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK1.01#7",
+          "text": "CHỮ KÝ KỲ QUÁI: “PIG” & “HEALTER SKELTER”",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK1.01#9",
+          "text": "SỰ THỰC THI LẠNH LÙNG CỦA MỘT MỆNH LỆNH CUỒNG TÍN",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK1.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_withered_flower_on_asphalt",
+          "motion": "pull",
+          "text": "Bức tranh lãng mạn ngây thơ ấy đã vỡ vụn thành trăm mảnh vào một đêm mùa hè định mệnh.",
+          "est_dur_s": 6.3,
+          "src_script": "Hook mở đầu — tạo tò mò",
+          "words_spoken": 20
+        },
+        {
+          "clip_line_id": "TK1.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_cielo_drive_estate_night",
+          "motion": "push",
+          "text": "Đêm ngày 8 rạng sáng ngày 9 tháng 8 năm 1969, một bóng tối kinh hoàng đã ập xuống ngôi biệt thự sang trọng tại số 10050 Đại lộ Cielo Drive.",
+          "est_dur_s": 13.3,
+          "src_script": "1.04#2",
+          "words_spoken": 42
+        },
+        {
+          "clip_line_id": "TK1.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_cielo_drive_living_room_somber",
+          "motion": "still",
+          "text": "Trong số các nạn nhân có nữ diễn viên tài hoa Sharon Tate, người vợ đang mang thai gần chín tháng của vị đạo diễn.",
+          "est_dur_s": 7.9,
+          "src_script": "1.04#6",
+          "words_spoken": 25
+        },
+        {
+          "clip_line_id": "TK1.01#4",
+          "role": "N1",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_retro_radio_broadcast_table",
+          "motion": "pan",
+          "text": "Vào buổi sáng hôm đó, khi đài phát thanh liên tục đưa tin về thảm kịch tại nhà Sharon Tate, toàn bộ thành phố Los Angeles như rơi vào trạng thái tê liệt vì sợ hãi.",
+          "est_dur_s": 9.8,
+          "src_script": "1.07#1",
+          "words_spoken": 36
+        },
+        {
+          "clip_line_id": "TK1.01#5",
+          "role": "N1",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_intact_valuables_diorama",
+          "motion": "pull",
+          "text": "Nỗi kinh hoàng nhất là chúng tôi nhận ra những kẻ đột nhập không hề hành động vì tiền tài hay trang sức quý giá.",
+          "est_dur_s": 6.8,
+          "src_script": "1.07#4",
+          "words_spoken": 25
+        },
+        {
+          "clip_line_id": "TK1.01#6",
+          "role": "N1",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_withered_flower_on_asphalt",
+          "motion": "still",
+          "text": "Mùa hè Tình yêu của chúng tôi đã chết ngay trong đêm hôm đó.",
+          "est_dur_s": 3.8,
+          "src_script": "1.07#7",
+          "words_spoken": 14
+        },
+        {
+          "clip_line_id": "TK1.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_bloody_letters_forensic_wall",
+          "motion": "push",
+          "text": "Nhưng trên tường và các cánh cửa, hung thủ đã để lại những dòng chữ nguệch ngoạc: “PIG”, “RISE”, và một cụm từ viết sai chính tả: “HEALTER SKELTER”.",
+          "est_dur_s": 9.2,
+          "src_script": "1.09#3",
+          "words_spoken": 29
+        },
+        {
+          "clip_line_id": "TK1.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_invisible_puppet_master_shadow",
+          "motion": "pan",
+          "text": "Chúng dường như đang tuân theo một kịch bản ma quái được điều khiển từ xa.",
+          "est_dur_s": 4.3,
+          "src_script": "1.10#6",
+          "words_spoken": 16
+        },
+        {
+          "clip_line_id": "TK1.01#9",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t9_manson_shadow_campfire_desert",
+          "motion": "pull",
+          "text": "Đó là sự thực thi lạnh lùng của một mệnh lệnh cuồng tín.",
+          "est_dur_s": 3.5,
+          "src_script": "1.10#8",
+          "words_spoken": 13
+        },
+        {
+          "clip_line_id": "TK1.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t9_amber_eyes_closing_dossier",
+          "motion": "still",
+          "text": "Tập chín của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "est_dur_s": 4.4,
+          "src_script": "CTA — kêu gọi xem tập đầy đủ",
+          "words_spoken": 14
+        }
+      ]
+    },
+    "TK2": {
+      "id": "TK2",
+      "title": "Nấc thang leo thang hành vi và trò chơi rợn người Creepy Crawling",
+      "theme": "Quỹ đạo leo thang bạo lực & Trò chơi xâm nhập ranh giới (Creepy Crawling)",
+      "psychological_signs": [
+        6,
+        8
+      ],
+      "total_est_duration_s": 83.2,
+      "bgm": "bgm_creepy_crawl.mp3",
+      "bgm_desc": "Hồi 2 — bed tập: bgm_creepy_crawl.mp3",
+      "sfx": [
+        "amb_desert_wind.wav (nền)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "sau_cau": "TK2.01#1",
+          "text": "TRÒ CHƠI TẬP DƯỢT TÂM LÝ: CREEPY CRAWLING",
+          "dur_s": 3.0
+        },
+        {
+          "sau_cau": "TK2.01#2",
+          "text": "KẺ CẦM ĐẦU VỚI ÁNH MẮT THÔI MIÊN",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK2.01#4",
+          "text": "LỢI DỤNG HIỆU ỨNG HÀO QUANG CỦA ĐẠO SƯ DU MỤC",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK2.01#6",
+          "text": "XÂM NHẬP KHÔNG GIAN RIÊNG TƯ LÚC NỬA ĐÊM",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK2.01#8",
+          "text": "NỚI RỘNG NGƯỠNG DUNG NẠP TỘI ÁC TỪNG NẤC MỘT",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK2.01#9",
+          "text": "CƠN ĐÓI ẢO TƯỞNG THÔI THÚC HỦY DIỆT BIỂU TƯỢNG",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK2.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_confiscated_clocks_broken_mirror",
+          "motion": "pull",
+          "text": "Đột nhập vào nhà người lạ lúc nửa đêm, không lấy tài sản mà chỉ di chuyển đồ đạc.",
+          "est_dur_s": 6.0,
+          "src_script": "Hook mở đầu — tạo tò mò",
+          "words_spoken": 19
+        },
+        {
+          "clip_line_id": "TK2.01#2",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_manson_shadow_campfire_desert",
+          "motion": "push",
+          "text": "Hắn là một người đàn ông ba mươi tư tuổi với vóc dáng nhỏ thó nhưng ánh mắt sắc lạnh như thôi miên.",
+          "est_dur_s": 6.2,
+          "src_script": "2.04#3",
+          "words_spoken": 23
+        },
+        {
+          "clip_line_id": "TK2.01#3",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_spahn_ranch_dilapidated_porch",
+          "motion": "still",
+          "text": "Hắn là một kẻ du thủ du thực, từng trải qua hơn một nửa cuộc đời mình sau song sắt của các trường giáo dưỡng và nhà tù liên bang.",
+          "est_dur_s": 8.1,
+          "src_script": "2.04#5",
+          "words_spoken": 30
+        },
+        {
+          "clip_line_id": "TK2.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_haight_ashbury_psychedelic_street",
+          "motion": "pan",
+          "text": "Nhận thấy trào lưu văn hóa phản kháng tôn sùng tình yêu tự do và sự ngây thơ của giới trẻ, Manson đã lợi dụng triệt để “Hiệu ứng Hào quang” của một đạo sư du mục để che đậy bản chất săn mồi.",
+          "est_dur_s": 13.9,
+          "src_script": "2.05#2",
+          "words_spoken": 44
+        },
+        {
+          "clip_line_id": "TK2.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_apocalyptic_desert_hideout",
+          "motion": "pull",
+          "text": "Tại đây, hắn bắt đầu gieo rắc vào tâm trí họ một học thuyết tận thế điên cuồng mang tên “Helter Skelter”.",
+          "est_dur_s": 7.0,
+          "src_script": "2.05#5",
+          "words_spoken": 22
+        },
+        {
+          "clip_line_id": "TK2.01#6",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_midnight_convoy_old_ford",
+          "motion": "still",
+          "text": "Giai đoạn ba: Trò chơi đột nhập đêm “Creepy Crawling”.",
+          "est_dur_s": 2.7,
+          "src_script": "2.06#6",
+          "words_spoken": 10
+        },
+        {
+          "clip_line_id": "TK2.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_confiscated_clocks_broken_mirror",
+          "motion": "push",
+          "text": "Manson dẫn các đệ tử đột nhập vào các ngôi nhà dân cư lúc nửa đêm, không lấy tài sản mà chỉ di chuyển đồ đạc để tập dượt cảm giác toàn năng và kiểm soát vô hình.",
+          "est_dur_s": 10.3,
+          "src_script": "2.06#7",
+          "words_spoken": 38
+        },
+        {
+          "clip_line_id": "TK2.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_unfreezing_love_bombing_circle",
+          "motion": "pan",
+          "text": "Mỗi lần xâm nhập ranh giới riêng tư mà không bị trừng phạt, ngưỡng dung nạp sự sai trái trong não bộ của họ lại được nới rộng thêm một nấc.",
+          "est_dur_s": 8.4,
+          "src_script": "2.06#8",
+          "words_spoken": 31
+        },
+        {
+          "clip_line_id": "TK2.01#9",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.03,
+          "pause_after_s": 0.7,
+          "bg": "t9_cielo_drive_road_sign_shadow",
+          "motion": "pull",
+          "text": "Sự leo thang này phản ánh quy luật tâm lý rõ rệt: khi hành vi sai trái ban đầu không bị ngăn chặn, cảm giác đói ảo tưởng sẽ thôi thúc kẻ thủ ác mở rộng phạm vi tàn phá.",
+          "est_dur_s": 10.8,
+          "src_script": "2.06#13",
+          "words_spoken": 40
+        },
+        {
+          "clip_line_id": "TK2.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t9_amber_eyes_closing_dossier",
+          "motion": "still",
+          "text": "Tập chín của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "est_dur_s": 4.4,
+          "src_script": "CTA — kêu gọi xem tập đầy đủ",
+          "words_spoken": 14
+        }
+      ]
+    },
+    "TK3": {
+      "id": "TK3",
+      "title": "Nghệ thuật xóa bỏ bản ngã và cỗ máy tẩy não ba giai đoạn",
+      "theme": "Mô hình tẩy não Kurt Lewin (Unfreezing – Changing – Refreezing) & Xóa bỏ bản sắc",
+      "psychological_signs": [
+        2,
+        5
+      ],
+      "total_est_duration_s": 71.3,
+      "bgm": "bgm_acid_drone.mp3",
+      "bgm_desc": "Hồi 3 — bed tập: bgm_acid_drone.mp3",
+      "sfx": [
+        "amb_desert_night.wav (nền)",
+        "fx_tension_tick.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "sau_cau": "TK3.01#1",
+          "text": "NGHỊCH LÝ THIẾU NỮ GIA GIÁO TRỞ THÀNH SÁT THỦ",
+          "dur_s": 3.0
+        },
+        {
+          "sau_cau": "TK3.01#3",
+          "text": "XUẤT THÂN TỪ CÁC GIA ĐÌNH TRUNG LƯU TRÍ THỨC",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK3.01#4",
+          "text": "MÔ HÌNH TẨY NÃO 3 GIAI ĐOẠN CỦA KURT LEWIN",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK3.01#6",
+          "text": "CHIẾN THUẬT DỘI BOM TÌNH CẢM (LOVE BOMBING)",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK3.01#8",
+          "text": "CẮT ĐỨT GIA ĐÌNH & GÁN BÍ DANH MỚI: XÓA SẠCH QUÁ KHỨ",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK3.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_yearbook_photos_shadow",
+          "motion": "pull",
+          "text": "Hát trong ca đoàn nhà thờ, cựu hoa khôi gương mẫu. Tại sao trở thành công cụ hủy diệt vô cảm?",
+          "est_dur_s": 6.7,
+          "src_script": "Hook mở đầu — tạo tò mò",
+          "words_spoken": 21
+        },
+        {
+          "clip_line_id": "TK3.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_runaway_teenager_bus_stop",
+          "motion": "still",
+          "text": "Đi cùng hắn là những cô gái trẻ xuất thân từ các gia đình trung lưu gia giáo.",
+          "est_dur_s": 5.7,
+          "src_script": "3.02#3",
+          "words_spoken": 18
+        },
+        {
+          "clip_line_id": "TK3.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_yearbook_photos_shadow",
+          "motion": "push",
+          "text": "Susan Atkins từng hát trong ca đoàn nhà thờ, Patricia Krenwinkel hiền lành, và Leslie Van Houten từng là cựu hoa khôi trung học gương mẫu.",
+          "est_dur_s": 8.2,
+          "src_script": "3.02#4",
+          "words_spoken": 26
+        },
+        {
+          "clip_line_id": "TK3.01#4",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_kurt_lewin_three_stages_diagram",
+          "motion": "pan",
+          "text": "Để giải mã hiện tượng này, chúng ta cần vận dụng mô hình thay đổi nhận thức ba giai đoạn của nhà tâm lý học Kurt Lewin, được giáo sư Edgar Schein phát triển trong nghiên cứu về cơ chế tẩy não:",
+          "est_dur_s": 10.1,
+          "src_script": "3.03#1",
+          "words_spoken": 42
+        },
+        {
+          "clip_line_id": "TK3.01#5",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_kurt_lewin_three_stages_diagram",
+          "motion": "still",
+          "text": "Đó là: Làm tan rã bản ngã (Unfreezing), Lập trình lại nhận thức (Changing), và Tái cố định hành vi (Refreezing).",
+          "est_dur_s": 5.1,
+          "src_script": "3.03#2",
+          "words_spoken": 21
+        },
+        {
+          "clip_line_id": "TK3.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_unfreezing_love_bombing_circle",
+          "motion": "pull",
+          "text": "Khi một thanh niên mới bước chân vào Spahn Ranch, Manson lập tức triển khai chiến thuật “Dội bom tình cảm” (Love Bombing).",
+          "est_dur_s": 7.3,
+          "src_script": "3.05#2",
+          "words_spoken": 23
+        },
+        {
+          "clip_line_id": "TK3.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_two_faced_benevolent_mask",
+          "motion": "push",
+          "text": "Hắn ôm lấy họ, nhìn thẳng vào mắt và nói rằng họ là những sinh linh hoàn hảo.",
+          "est_dur_s": 5.7,
+          "src_script": "3.05#3",
+          "words_spoken": 18
+        },
+        {
+          "clip_line_id": "TK3.01#8",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_burning_id_cards_ashes",
+          "motion": "pan",
+          "text": "Manson yêu cầu các thành viên phải vứt bỏ toàn bộ tiền bạc, giấy tờ tùy thân và cắt đứt hoàn toàn liên lạc với cha mẹ.",
+          "est_dur_s": 6.5,
+          "src_script": "3.06#2",
+          "words_spoken": 27
+        },
+        {
+          "clip_line_id": "TK3.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_vacant_eyes_doll_shadow",
+          "motion": "still",
+          "text": "Hắn tước bỏ tên thật của họ và gán cho những bí danh mới như Sadie, Katie hay Lulu để xóa sạch danh tính quá khứ.",
+          "est_dur_s": 6.3,
+          "src_script": "3.06#3",
+          "words_spoken": 26
+        },
+        {
+          "clip_line_id": "TK3.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t9_amber_eyes_closing_dossier",
+          "motion": "still",
+          "text": "Tập chín của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "est_dur_s": 4.4,
+          "src_script": "CTA — kêu gọi xem tập đầy đủ",
+          "words_spoken": 14
+        }
+      ]
+    },
+    "TK4": {
+      "id": "TK4",
+      "title": "Lời khai phá vỡ vòng vây và học thuyết pháp lý kinh điển",
+      "theme": "Trách nhiệm kẻ chủ mưu điều khiển tâm trí & Sự tỉnh thức của người mẹ trẻ",
+      "psychological_signs": [
+        3,
+        4
+      ],
+      "total_est_duration_s": 76.3,
+      "bgm": "bgm_courtroom_tension.mp3",
+      "bgm_desc": "Hồi 4 — bed tập: bgm_courtroom_tension.mp3",
+      "sfx": [
+        "amb_courtroom.wav (nền)",
+        "fx_gavel_triple.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "sau_cau": "TK4.01#1",
+          "text": "TIỀN LỆ PHÁP LÝ BẤT HỦ VỀ KẺ CHỦ MƯU",
+          "dur_s": 3.0
+        },
+        {
+          "sau_cau": "TK4.01#2",
+          "text": "LINDA KASABIAN: NHÂN CHỨNG SỐNG TỪ CHỐI BẠO LỰC",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK4.01#3",
+          "text": "CÁI LẠNH BUỐT SỐNG LƯNG TRƯỚC VÀNH MÓNG NGỰA",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK4.01#5",
+          "text": "TIẾNG KHÓC CỨU CỦA ĐỨA CON NHỎ ĐÁNH THỨC LƯƠNG TRI",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK4.01#7",
+          "text": "HỌC THUYẾT TRÁCH NHIỆM KẺ CHỦ MƯU (VICARIOUS LIABILITY)",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK4.01#9",
+          "text": "KẺ CẦM ĐẦU TRẦM LUÂN TRONG ÁI KỶ BỆNH LÝ ĐẾN CUỐI ĐỜI",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK4.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_mastermind_conspiracy_law_book",
+          "motion": "pull",
+          "text": "Tay không chạm vào hung khí, nhưng kẻ chủ mưu vẫn phải nhận án tử hình.",
+          "est_dur_s": 5.1,
+          "src_script": "Hook mở đầu — tạo tò mò",
+          "words_spoken": 16
+        },
+        {
+          "clip_line_id": "TK4.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_linda_kasabian_witness_dossier",
+          "motion": "still",
+          "text": "Người đó là Linda Kasabian, một người mẹ trẻ hai mươi tuổi.",
+          "est_dur_s": 3.8,
+          "src_script": "4.04#2",
+          "words_spoken": 12
+        },
+        {
+          "clip_line_id": "TK4.01#3",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_courtroom_gavel_bench",
+          "motion": "push",
+          "text": "Khi đứng trước bục nhân chứng và nhìn thẳng vào mắt Charles Manson, tôi cảm thấy một nỗi ớn lạnh buốt giá chạy dọc sống lưng.",
+          "est_dur_s": 7.8,
+          "src_script": "4.05#1",
+          "words_spoken": 26
+        },
+        {
+          "clip_line_id": "TK4.01#4",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_vacant_eyes_doll_shadow",
+          "motion": "still",
+          "text": "Những người bạn từng cùng tôi sống ở trang trại Spahn Ranch giờ đây ngồi đó với ánh mắt trống rỗng như những con búp bê bị giật dây.",
+          "est_dur_s": 8.7,
+          "src_script": "4.05#2",
+          "words_spoken": 29
+        },
+        {
+          "clip_line_id": "TK4.01#5",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_cielo_drive_front_gate_fog",
+          "motion": "pan",
+          "text": "Vào cái đêm định mệnh tại Cielo Drive, khi đứng chết lặng ngoài cổng và nghe thấy tiếng kêu cứu trong màn đêm, có một thứ gì đó bên trong tôi đã vỡ vụn.",
+          "est_dur_s": 10.2,
+          "src_script": "4.05#5",
+          "words_spoken": 34
+        },
+        {
+          "clip_line_id": "TK4.01#6",
+          "role": "N2",
+          "emotion": "sad",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_kasabian_escape_night_highway",
+          "motion": "pull",
+          "text": "Nỗi sợ hãi mất con và sự ghê tởm tội ác đã đánh thức tôi khỏi cơn ác mộng ma quái để ôm con trốn chạy trong đêm.",
+          "est_dur_s": 8.4,
+          "src_script": "4.05#7",
+          "words_spoken": 28
+        },
+        {
+          "clip_line_id": "TK4.01#7",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_mastermind_conspiracy_law_book",
+          "motion": "still",
+          "text": "Đó là học thuyết về Trách nhiệm của kẻ chủ mưu trong âm mưu giết người (Conspiracy and Vicarious Liability).",
+          "est_dur_s": 5.4,
+          "src_script": "4.08#6",
+          "words_spoken": 20
+        },
+        {
+          "clip_line_id": "TK4.01#8",
+          "role": "D",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_prosecutor_desk_evidence_files",
+          "motion": "push",
+          "text": "Dù không trực tiếp ra tay, mọi hành động tàn bạo đều bắt nguồn từ chính mệnh lệnh tuyệt đối của hắn.",
+          "est_dur_s": 5.9,
+          "src_script": "4.08#8",
+          "words_spoken": 22
+        },
+        {
+          "clip_line_id": "TK4.01#9",
+          "role": "C",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.6,
+          "bg": "t9_corcoran_state_prison_watchtower",
+          "motion": "pan",
+          "text": "Trái ngược hoàn toàn, kẻ cầm đầu Charles Manson chưa từng một lần hối hận; cấu trúc Ái kỷ Ác tính khiến hắn chỉ biết chìm đắm trong Sự Tự thương hại Bệnh lý, than thở mình là nạn nhân của xã hội cho đến tận lúc qua đời.",
+          "est_dur_s": 11.8,
+          "src_script": "4.09#9",
+          "words_spoken": 49
+        },
+        {
+          "clip_line_id": "TK4.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t9_amber_eyes_closing_dossier",
+          "motion": "still",
+          "text": "Tập chín của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "est_dur_s": 4.4,
+          "src_script": "CTA — kêu gọi xem tập đầy đủ",
+          "words_spoken": 14
+        }
+      ]
+    },
+    "TK5": {
+      "id": "TK5",
+      "title": "Bốn tín hiệu cảnh báo đỏ sinh tồn chống thao túng tâm lý độc hại",
+      "theme": "Nạn nhân học & 4 cảnh báo đỏ sinh tồn từ The Gift of Fear",
+      "psychological_signs": [
+        10,
+        7
+      ],
+      "total_est_duration_s": 85.5,
+      "bgm": "bgm_warm_reflection.mp3",
+      "bgm_desc": "Hồi 5 — bed tập: bgm_warm_reflection.mp3",
+      "sfx": [
+        "amb_warm_room.wav (nền)",
+        "fx_paper_folder.wav",
+        "fx_stinger.wav"
+      ],
+      "overlays": [
+        {
+          "sau_cau": "TK5.01#1",
+          "text": "4 CẢNH BÁO ĐỎ SINH TỒN TRƯỚC BẪY THAO TÚNG",
+          "dur_s": 3.0
+        },
+        {
+          "sau_cau": "TK5.01#2",
+          "text": "CẢNH BÁO 1: DỘI BOM TÌNH CẢM DỒN DẬP (LOVE BOMBING)",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK5.01#4",
+          "text": "CẢNH BÁO 2: CÔ LẬP XÃ HỘI & TƯỚC ĐOẠT TÀI CHÍNH",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK5.01#6",
+          "text": "CẢNH BÁO 3: TƯ DUY PHÂN CỰC NHỊ NGUYÊN THÙ ĐỊCH",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK5.01#7",
+          "text": "CẢNH BÁO 4: KHÔNG TRAO QUYỀN PHÁN XÉT LƯƠNG TRI CHO KẺ KHÁC",
+          "dur_s": 2.5
+        },
+        {
+          "sau_cau": "TK5.01#9",
+          "text": "TRỰC GIÁC BẤT AN LÀ MÓN QUÀ TIẾN HÓA VÔ GIÁ",
+          "dur_s": 3.0
+        }
+      ],
+      "lines": [
+        {
+          "clip_line_id": "TK5.01#1",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_two_faced_benevolent_mask",
+          "motion": "pull",
+          "text": "Kẻ săn mồi tâm lý không bao giờ xuất hiện với cặp sừng của ác quỷ.",
+          "est_dur_s": 5.1,
+          "src_script": "Hook mở đầu — tạo tò mò",
+          "words_spoken": 16
+        },
+        {
+          "clip_line_id": "TK5.01#2",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.4,
+          "bg": "t9_redflag1_love_bombing_trap",
+          "motion": "still",
+          "text": "Cảnh báo đỏ thứ nhất: Cảnh giác trước chiến thuật Dội bom tình cảm dồn dập.",
+          "est_dur_s": 5.1,
+          "src_script": "5.07#2",
+          "words_spoken": 16
+        },
+        {
+          "clip_line_id": "TK5.01#3",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_redflag1_love_bombing_trap",
+          "motion": "pan",
+          "text": "Bất kỳ cá nhân hay hội nhóm nào tán dương bạn quá mức ngay lần đầu gặp gỡ và thúc ép bạn gắn kết thần tốc đều đang tìm cách vô hiệu hóa trực giác phòng vệ của bạn.",
+          "est_dur_s": 12.4,
+          "src_script": "5.07#3",
+          "words_spoken": 39
+        },
+        {
+          "clip_line_id": "TK5.01#4",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.4,
+          "bg": "t9_redflag2_severed_family_photos",
+          "motion": "pull",
+          "text": "Cảnh báo đỏ thứ hai: Hành vi cô lập xã hội và tước đoạt ranh giới riêng tư.",
+          "est_dur_s": 5.7,
+          "src_script": "5.07#4",
+          "words_spoken": 18
+        },
+        {
+          "clip_line_id": "TK5.01#5",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_redflag2_severed_family_photos",
+          "motion": "still",
+          "text": "Hãy lập tức thoái lui nếu ai đó yêu cầu bạn cắt đứt quan hệ với gia đình, từ bỏ bạn bè thân thiết, thay đổi danh tính cá nhân hoặc bàn giao tài chính để chứng minh sự tận tụy.",
+          "est_dur_s": 13.0,
+          "src_script": "5.07#5",
+          "words_spoken": 41
+        },
+        {
+          "clip_line_id": "TK5.01#6",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.4,
+          "bg": "t9_redflag3_fortress_paranoia_wall",
+          "motion": "push",
+          "text": "Cảnh báo đỏ thứ ba: Tư duy phân cực nhị nguyên thù địch.",
+          "est_dur_s": 4.1,
+          "src_script": "5.07#6",
+          "words_spoken": 13
+        },
+        {
+          "clip_line_id": "TK5.01#7",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_redflag3_fortress_paranoia_wall",
+          "motion": "pan",
+          "text": "Những tổ chức độc hại luôn gieo rắc nỗi sợ về một thế giới bên ngoài đầy nguy hiểm, tự tôn mình là nơi trú ẩn duy nhất để giam lỏng nhận thức của bạn trong chiếc lồng bầy đàn.",
+          "est_dur_s": 12.7,
+          "src_script": "5.07#7",
+          "words_spoken": 40
+        },
+        {
+          "clip_line_id": "TK5.01#8",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.4,
+          "bg": "t9_redflag4_sacred_conscience_compass",
+          "motion": "still",
+          "text": "Cảnh báo đỏ thứ tư: Tuyệt đối không bao giờ trao quyền phán xét lương tri cho kẻ khác.",
+          "est_dur_s": 6.0,
+          "src_script": "5.07#8",
+          "words_spoken": 19
+        },
+        {
+          "clip_line_id": "TK5.01#9",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.5,
+          "bg": "t9_inverted_cross_moral_confusion",
+          "motion": "push",
+          "text": "Khi một thủ lĩnh tự xưng yêu cầu bạn làm những điều trái với pháp luật hoặc đạo đức lương tâm nhân danh một mục đích cao cả, đó chính là bước chân đầu tiên dẫn xuống vực thẳm tha hóa.",
+          "est_dur_s": 13.0,
+          "src_script": "5.07#9",
+          "words_spoken": 41
+        },
+        {
+          "clip_line_id": "TK5.01#10",
+          "role": "H",
+          "emotion": "neutral",
+          "speed_offset": -0.02,
+          "pause_after_s": 0.0,
+          "bg": "t9_amber_eyes_closing_dossier",
+          "motion": "still",
+          "text": "Tập chín của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+          "est_dur_s": 4.4,
+          "src_script": "CTA — kêu gọi xem tập đầy đủ",
+          "words_spoken": 14
+        }
+      ]
+    }
+  }
+}
