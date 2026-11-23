@@ -40,7 +40,7 @@ ALLOW_WORDS = {
 bad_files = 0
 for ep in sorted(SRC):
     vn_path = ROOT / "01_KICH_BAN" / SRC[ep]
-    ko_path = ROOT / "01_KICH_BAN" / f"Tap{ep}_KO" / f"kichban_tap{ep}_KO.md"
+    ko_path = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap{ep}_KO" / f"kichban_tap{ep}_KO.md"
     if not ko_path.exists():
         continue
     vn_raw = vn_path.read_text(encoding="utf-8")

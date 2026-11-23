@@ -1545,14 +1545,14 @@ if __name__ == '__main__':
     en_text = format_script(blocks, 'EN')
     ja_text = format_script(blocks, 'JA')
 
-    with open('01_KICH_BAN/Tap42/kichban_tap42_19112026.md', 'w', encoding='utf-8') as f:
+    with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap42/kichban_tap42_19112026.md', 'w', encoding='utf-8') as f:
         f.write(vn_text)
-    print("Wrote Vietnamese script to 01_KICH_BAN/Tap42/kichban_tap42_19112026.md")
+    print("Wrote Vietnamese script to 01_KICH_BAN/Ho_So_Toi_Pham/Tap42/kichban_tap42_19112026.md")
 
-    with open('01_KICH_BAN/Tap42_EN/kichban_tap42_EN.md', 'w', encoding='utf-8') as f:
+    with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap42_EN/kichban_tap42_EN.md', 'w', encoding='utf-8') as f:
         f.write(en_text)
-    print("Wrote English script to 01_KICH_BAN/Tap42_EN/kichban_tap42_EN.md")
+    print("Wrote English script to 01_KICH_BAN/Ho_So_Toi_Pham/Tap42_EN/kichban_tap42_EN.md")
 
-    with open('01_KICH_BAN/Tap42_JA/kichban_tap42_JA.md', 'w', encoding='utf-8') as f:
+    with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap42_JA/kichban_tap42_JA.md', 'w', encoding='utf-8') as f:
         f.write(ja_text)
-    print("Wrote Japanese script to 01_KICH_BAN/Tap42_JA/kichban_tap42_JA.md")
+    print("Wrote Japanese script to 01_KICH_BAN/Ho_So_Toi_Pham/Tap42_JA/kichban_tap42_JA.md")

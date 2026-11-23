@@ -1,7 +1,7 @@
 # BÁO CÁO QC · TẬP 03 · RENDER LẠI ẢNH TĨNH
 
 **Ngày:** 05/11/2026 · **Kênh:** Amber Eyes · **Bản:** Tiếng Việt (+ EN, JA)
-**Hồ sơ:** `02_SAN_XUAT/Tap03/KeHoach_Video_Tap03.md` (+ `_EN`, `_JA`)
+**Hồ sơ:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/KeHoach_Video_Tap03.md` (+ `_EN`, `_JA`)
 **Lệnh dựng:** `py -3 .work/build_video3.py --stills all`
 
 ---
@@ -79,7 +79,7 @@ Tôi có thể chỉ cho các anh biết tôi đã chôn những mảnh vụn c�
 kịch bản đã kiểm tra : 155
 parse lỗi            : 0
 KHÔNG đổi             : 154
-CÓ đổi               : 1  →  01_KICH_BAN/Tap03/kichban_tap03_22102026.md (8 câu — đúng mục tiêu)
+CÓ đổi               : 1  →  01_KICH_BAN/Ho_So_Toi_Pham/Tap03/kichban_tap03_22102026.md (8 câu — đúng mục tiêu)
 ```
 
 Hai lần tự vấp phải đã xử lý:
@@ -165,7 +165,7 @@ Cổng QC dùng chung cho mọi bản — sửa xong phải hồi quy Tập 02.
 |:---|:---|:---|
 | 1 | **Dựng video Tập 03 VN** | ❌ **KHÔNG làm** — người dùng chỉ yêu cầu ảnh tĩnh. Tôi đã tự khởi chạy rồi dừng lại khi bị nhắc; **đã hủy sạch, không để lại thiệt hại**: `part_*.mp4` / `picture.mp4` vẫn nguyên bản 11/02, `xuat_ban/Tap03_master.mp4` không bị đụng, 330 ảnh tĩnh còn nguyên. |
 | 2 | **Ghép audio + xuất bản** | Không làm. `package.py --mux` chỉ chạy khi có yêu cầu rõ ràng, không tự ghi đè bản đã publish. |
-| 3 | **Metadata tiêu đề tập** | ✅ **Đã xong** (phiên trước, 14:06) — `02_SAN_XUAT/Tap03/mo_ta.txt`, `Tap03_EN|JA|KO/xuat_ban/description.txt` + `mo_ta.txt` đều đã mang tiêu đề mới *"…Chiếc Gương Giải Phẫu Tâm Trí … (10 Chỉ Dấu Tâm Lý & Nguồn Gốc FBI Mindhunter)"*. Bản VN không có `description.txt` — đúng quy ước (giống Tập 02 VN). **Thẻ kết trong hình không có tiêu đề tập nên ảnh không bị ảnh hưởng.** |
+| 3 | **Metadata tiêu đề tập** | ✅ **Đã xong** (phiên trước, 14:06) — `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/mo_ta.txt`, `Tap03_EN|JA|KO/xuat_ban/description.txt` + `mo_ta.txt` đều đã mang tiêu đề mới *"…Chiếc Gương Giải Phẫu Tâm Trí … (10 Chỉ Dấu Tâm Lý & Nguồn Gốc FBI Mindhunter)"*. Bản VN không có `description.txt` — đúng quy ước (giống Tập 02 VN). **Thẻ kết trong hình không có tiêu đề tập nên ảnh không bị ảnh hưởng.** |
 | 4 | **Ảnh tĩnh EN / JA** | ✅ xong (EN render lại hôm nay; JA giữ nguyên bản 03/11 vì đã khớp renderer hiện tại) |
 | 5 | **Ảnh tĩnh KO** | ⛔ bỏ theo quyết định |
 | 6 | **Quy tắc khi sau này đổi bảng shot** | Mỗi bản ngôn ngữ phải có bộ ảnh riêng: **nền dùng chung 100 %, chữ trên hình khác 99/110 shot**, badge vai đổi theo ngôn ngữ. Đổi bảng shot bản nào ⇒ render lại bản đó. |
@@ -178,11 +178,11 @@ Cổng QC dùng chung cho mọi bản — sửa xong phải hồi quy Tập 02.
 |:---|:---|
 | `.work/parse_kichban.py` | sửa — trích dẫn nhiều dòng (chỉ bản VN), hồi quy 154/155 |
 | `.work/_qc_tap02_shots.py` | sửa — ranh giới từ cho từ cấm + in đủ số lỗi + nhãn cấu trúc `第N幕` (JA) |
-| `02_SAN_XUAT/Tap03/KeHoach_Video_Tap03.md` | sửa — 6 dòng chữ trên hình |
-| `02_SAN_XUAT/Tap03_EN/KeHoach_Video_Tap03_EN.md` | sửa — 13 dòng chữ trên hình |
+| `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/KeHoach_Video_Tap03.md` | sửa — 6 dòng chữ trên hình |
+| `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_EN/KeHoach_Video_Tap03_EN.md` | sửa — 13 dòng chữ trên hình |
 | `.work/script_tap03.json` | sinh lại (giống hệt HEAD) |
 | `.work/shots_t03.json` · `.work/shots_EN_t03.json` | sinh lại (110 shot mỗi bản) |
 | `.work/video3_t03/stills/` · `.work/video3_EN_t03/stills/` | 110 ảnh mới mỗi bản |
-| `02_SAN_XUAT/Tap03*/contact_sheet_*.png` | contact sheet 3 bản |
+| `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03*/contact_sheet_*.png` | contact sheet 3 bản |
 | `.work/qc_t03_20261105/` | contact sheet + log QC |
 | `.work/_cu/…` | bản sao lưu trước khi ghi (script, shots, timeline, hồ sơ, manifest hash ảnh cũ) |

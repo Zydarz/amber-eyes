@@ -1,0 +1,407 @@
+[
+ {
+  "id": "1.01",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "Tiếng động cơ phản lực gầm rú tại sân bay Khải Đức, tiếng còi xe cảnh sát Cửu Long dồn dập và âm thanh giao hưởng kịch tính."
+ },
+ {
+  "id": "1.02",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng trầm ấm, mở đầu với sự kịch tính",
+  "text": "Thập niên 1990, trước thời điểm chuyển giao lịch sử năm 1997, Hồng Kông được mệnh danh là Hòn ngọc Viễn Đông với những tòa nhà chọc trời và những gia tộc tài phiệt sở hữu khối tài sản hàng chục tỷ đô la Mỹ. Thế nhưng, chính trong sự phồn hoa tột bực ấy, một cái tên đã trở thành nỗi khiếp sợ bao trùm lên toàn bộ giới thượng lưu xứ Cảng Thơm: Trương Tử Cường, kẻ tự xưng là Big Boss. Hắn là kẻ đã thực hiện những phi vụ táo tợn chưa từng có trong lịch sử nhân loại: từ cướp xe bọc thép chở tiền ngay trên đường băng sân bay cho đến bắt cóc những người thừa kế của các gia tộc giàu có nhất thế giới. Số tiền chuộc kỷ lục lên tới gần hai tỷ đô la Hồng Kông mà hắn thu được đã được ghi nhận vào Sách Kỷ lục Guinness như một trong những vụ tống tiền lớn nhất mọi thời đại.",
+  "sentences": [
+   {
+    "id": "1.02#1",
+    "text": "Thập niên 1990, trước thời điểm chuyển giao lịch sử năm 1997, Hồng Kông được mệnh danh là Hòn ngọc Viễn Đông với những tòa nhà chọc trời và những gia tộc tài phiệt sở hữu khối tài sản hàng chục tỷ đô la Mỹ.",
+    "words": 45
+   },
+   {
+    "id": "1.02#2",
+    "text": "Thế nhưng, chính trong sự phồn hoa tột bực ấy, một cái tên đã trở thành nỗi khiếp sợ bao trùm lên toàn bộ giới thượng lưu xứ Cảng Thơm: Trương Tử Cường, kẻ tự xưng là Big Boss.",
+    "words": 39
+   },
+   {
+    "id": "1.02#3",
+    "text": "Hắn là kẻ đã thực hiện những phi vụ táo tợn chưa từng có trong lịch sử nhân loại: từ cướp xe bọc thép chở tiền ngay trên đường băng sân bay cho đến bắt cóc những người thừa kế của các gia tộc giàu có nhất thế giới.",
+    "words": 49
+   },
+   {
+    "id": "1.02#4",
+    "text": "Số tiền chuộc kỷ lục lên tới gần hai tỷ đô la Hồng Kông mà hắn thu được đã được ghi nhận vào Sách Kỷ lục Guinness như một trong những vụ tống tiền lớn nhất mọi thời đại.",
+    "words": 39
+   }
+  ]
+ },
+ {
+  "id": "1.03",
+  "act": 1,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "thuật lại vụ cướp sân bay Khải Đức năm 1991",
+  "text": "Tháng bảy năm 1991, một vụ cướp xe bọc thép chở một trăm sáu mươi triệu đô la Hồng Kông tiền mặt đã xảy ra ngay tại sân bay Khải Đức. Trương Tử Cường bị bắt giữ không lâu sau đó và bị kết án mười tám năm tù giam. Tuy nhiên, bằng sự am hiểu luật pháp và sự hỗ trợ của những luật sư đắt giá nhất, hắn đã kháng cáo thành công vào năm 1995 với lý do nhân chứng nhận diện thiếu khách quan. Khoảnh khắc hắn hiên ngang bước ra khỏi Tòa án Tối cao, mỉm cười giơ hai ngón tay chữ V trước rừng ống kính phóng viên và kiện ngược lại cảnh sát để đòi bồi thường tám triệu đô la Hồng Kông đã làm rúng động toàn bộ hệ thống tư pháp thời bấy giờ.",
+  "sentences": [
+   {
+    "id": "1.03#1",
+    "text": "Tháng bảy năm 1991, một vụ cướp xe bọc thép chở một trăm sáu mươi triệu đô la Hồng Kông tiền mặt đã xảy ra ngay tại sân bay Khải Đức.",
+    "words": 31
+   },
+   {
+    "id": "1.03#2",
+    "text": "Trương Tử Cường bị bắt giữ không lâu sau đó và bị kết án mười tám năm tù giam.",
+    "words": 19
+   },
+   {
+    "id": "1.03#3",
+    "text": "Tuy nhiên, bằng sự am hiểu luật pháp và sự hỗ trợ của những luật sư đắt giá nhất, hắn đã kháng cáo thành công vào năm 1995 với lý do nhân chứng nhận diện thiếu khách quan.",
+    "words": 38
+   },
+   {
+    "id": "1.03#4",
+    "text": "Khoảnh khắc hắn hiên ngang bước ra khỏi Tòa án Tối cao, mỉm cười giơ hai ngón tay chữ V trước rừng ống kính phóng viên và kiện ngược lại cảnh sát để đòi bồi thường tám triệu đô la Hồng Kông đã làm rúng động toàn bộ hệ thống tư pháp thời bấy giờ.",
+    "words": 55
+   }
+  ]
+ },
+ {
+  "id": "2.01",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "Tiếng chuông điện thoại bàn cổ điển reo vang trong biệt thự sang trọng, tiếng bước chân lạnh lùng và âm thanh trầm đục của sự đe dọa quyền lực."
+ },
+ {
+  "id": "2.02",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "thuật lại vụ bắt cóc thế kỷ năm 1996",
+  "text": "Sau khi được trả tự do với một khoản bồi thường kếch xù, thay vì dừng lại, cơn thèm khát quyền lực của Trương Tử Cường lại bùng phát mạnh mẽ hơn bao giờ hết. Tháng năm năm 1996, hắn cùng đồng bọn phục kích bắt cóc Victor Li — con trai cả của tỷ phú Lý Gia Thành — ngay trên đường trở về nhà sau giờ làm việc. Điểm thể hiện sự liều lĩnh và tự tin tột cùng của Trương Tử Cường chính là việc hắn đích thân quấn thuốc nổ quanh người, một mình lái xe bước thẳng vào dinh thự của tỷ phú Lý Gia Thành tại đường Deep Water Bay để trực tiếp thương lượng tiền chuộc.",
+  "sentences": [
+   {
+    "id": "2.02#1",
+    "text": "Sau khi được trả tự do với một khoản bồi thường kếch xù, thay vì dừng lại, cơn thèm khát quyền lực của Trương Tử Cường lại bùng phát mạnh mẽ hơn bao giờ hết.",
+    "words": 35
+   },
+   {
+    "id": "2.02#2",
+    "text": "Tháng năm năm 1996, hắn cùng đồng bọn phục kích bắt cóc Victor Li — con trai cả của tỷ phú Lý Gia Thành — ngay trên đường trở về nhà sau giờ làm việc.",
+    "words": 35
+   },
+   {
+    "id": "2.02#3",
+    "text": "Điểm thể hiện sự liều lĩnh và tự tin tột cùng của Trương Tử Cường chính là việc hắn đích thân quấn thuốc nổ quanh người, một mình lái xe bước thẳng vào dinh thự của tỷ phú Lý Gia Thành tại đường Deep Water Bay để trực tiếp thương lượng tiền chuộc.",
+    "words": 53
+   }
+  ]
+ },
+ {
+  "id": "2.03",
+  "act": 2,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "mổ xẻ cuộc đấu trí tâm lý thượng lưu",
+  "text": "Cuộc đối thoại giữa Trương Tử Cường và tỷ phú Lý Gia Thành là một bài học kinh điển về tâm lý học đàm phán khủng hoảng. Trương Tử Cường đại diện cho tâm lý của một kẻ ái kỷ liều lĩnh, thích đẩy rủi ro lên mức tối đa để tận hưởng cảm giác thống trị kẻ mạnh hơn mình. Hắn không chỉ muốn tiền, mà muốn nhìn thấy người đàn ông quyền lực nhất Hồng Kông phải nhượng bộ và kính nể bản lĩnh của hắn. Ngược lại, Lý Gia Thành đã thể hiện sự điềm tĩnh phi thường của một bộ óc chiến lược: Ông đồng ý chi trả ngay một tỷ ba mươi tám triệu đô la Hồng Kông tiền mặt mà không hề báo cảnh sát, nhằm bảo đảm an toàn tuyệt đối cho tính mạng của con trai. Lý Gia Thành thậm chí còn khuyên Trương Tử Cường nên dùng số tiền này để đầu tư hợp pháp hoặc rời khỏi Hồng Kông, bởi vì con bạc liều lĩnh rồi sẽ có ngày trắng tay.",
+  "sentences": [
+   {
+    "id": "2.03#1",
+    "text": "Cuộc đối thoại giữa Trương Tử Cường và tỷ phú Lý Gia Thành là một bài học kinh điển về tâm lý học đàm phán khủng hoảng.",
+    "words": 27
+   },
+   {
+    "id": "2.03#2",
+    "text": "Trương Tử Cường đại diện cho tâm lý của một kẻ ái kỷ liều lĩnh, thích đẩy rủi ro lên mức tối đa để tận hưởng cảm giác thống trị kẻ mạnh hơn mình.",
+    "words": 34
+   },
+   {
+    "id": "2.03#3",
+    "text": "Hắn không chỉ muốn tiền, mà muốn nhìn thấy người đàn ông quyền lực nhất Hồng Kông phải nhượng bộ và kính nể bản lĩnh của hắn.",
+    "words": 27
+   },
+   {
+    "id": "2.03#4",
+    "text": "Ngược lại, Lý Gia Thành đã thể hiện sự điềm tĩnh phi thường của một bộ óc chiến lược: Ông đồng ý chi trả ngay một tỷ ba mươi tám triệu đô la Hồng Kông tiền mặt mà không hề báo cảnh sát, nhằm bảo đảm an toàn tuyệt đối cho tính mạng của con trai.",
+    "words": 56
+   },
+   {
+    "id": "2.03#5",
+    "text": "Lý Gia Thành thậm chí còn khuyên Trương Tử Cường nên dùng số tiền này để đầu tư hợp pháp hoặc rời khỏi Hồng Kông, bởi vì con bạc liều lĩnh rồi sẽ có ngày trắng tay.",
+    "words": 37
+   }
+  ]
+ },
+ {
+  "id": "2.04",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "chỉ rõ phi vụ tiếp theo năm 1997",
+  "text": "Lời khuyên đầy triết lý ấy hoàn toàn vô nghĩa trước một kẻ đã nghiện cảm giác chiến thắng bằng bạo lực. Chỉ một năm sau, vào tháng chín năm 1997, Trương Tử Cường tiếp tục bắt cóc Walter Kwok — chủ tịch tập đoàn địa ốc khổng lồ Sun Hung Kai — và thu về thêm sáu trăm triệu đô la Hồng Kông tiền chuộc.",
+  "sentences": [
+   {
+    "id": "2.04#1",
+    "text": "Lời khuyên đầy triết lý ấy hoàn toàn vô nghĩa trước một kẻ đã nghiện cảm giác chiến thắng bằng bạo lực.",
+    "words": 22
+   },
+   {
+    "id": "2.04#2",
+    "text": "Chỉ một năm sau, vào tháng chín năm 1997, Trương Tử Cường tiếp tục bắt cóc Walter Kwok — chủ tịch tập đoàn địa ốc khổng lồ Sun Hung Kai — và thu về thêm sáu trăm triệu đô la Hồng Kông tiền chuộc.",
+    "words": 44
+   }
+  ]
+ },
+ {
+  "id": "3.01",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "Tiếng lắc xúc xắc dồn dập, tiếng xèng sòng bạc rơi leng keng và tiếng thở dốc của kẻ khát bạc thâu đêm suốt sáng."
+ },
+ {
+  "id": "3.02",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "bóc tách lối sống sau những phi vụ thế kỷ",
+  "text": "Thu về hàng trăm triệu đô la sau mỗi phi vụ, Trương Tử Cường hoàn toàn có thể sống một cuộc đời vương giả đến hết đời ở bất kỳ quốc gia nào trên thế giới. Thế nhưng, toàn bộ số tiền khổng lồ ấy lại biến mất như bọt xà phòng chỉ trong vòng vài tháng ngắn ngủi tại các sòng bạc sang trọng ở Ma Cao. Hắn là khách quen VIP tại sòng bài Lisboa, nơi mỗi ván cược của hắn lên tới hàng triệu đô la Hồng Kông.",
+  "sentences": [
+   {
+    "id": "3.02#1",
+    "text": "Thu về hàng trăm triệu đô la sau mỗi phi vụ, Trương Tử Cường hoàn toàn có thể sống một cuộc đời vương giả đến hết đời ở bất kỳ quốc gia nào trên thế giới.",
+    "words": 36
+   },
+   {
+    "id": "3.02#2",
+    "text": "Thế nhưng, toàn bộ số tiền khổng lồ ấy lại biến mất như bọt xà phòng chỉ trong vòng vài tháng ngắn ngủi tại các sòng bạc sang trọng ở Ma Cao.",
+    "words": 32
+   },
+   {
+    "id": "3.02#3",
+    "text": "Hắn là khách quen VIP tại sòng bài Lisboa, nơi mỗi ván cược của hắn lên tới hàng triệu đô la Hồng Kông.",
+    "words": 23
+   }
+  ]
+ },
+ {
+  "id": "3.03",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "phân tích tâm lý con bạc bệnh lý",
+  "text": "Trong tâm thần học hành vi, Trương Tử Cường mắc chứng nghiện cờ bạc bệnh lý (Pathological Gambling) kết hợp rối loạn nhân cách chống đối xã hội. Đối với hắn, tiền bạc không có giá trị vật chất đơn thuần, mà chỉ là những con chip dùng để kích hoạt dopamine và adrenaline trong não bộ. Sau cảm giác kích thích tột độ khi đối đầu với cảnh sát và các tỷ phú, cuộc sống bình thường trở nên vô vị và trống rỗng đối với hắn. Hắn buộc phải tìm kiếm những cảm giác mạnh hơn trên bàn cờ bạc để thỏa mãn cơn khát kích thích thần kinh liên tục. Và khi thua sạch tiền tại Ma Cao, động lực duy nhất của hắn là tiếp tục lên kế hoạch cho những vụ cướp bóc và bắt cóc lớn hơn, tạo thành một vòng xoáy tự hủy diệt không thể dừng lại.",
+  "sentences": [
+   {
+    "id": "3.03#1",
+    "text": "Trong tâm thần học hành vi, Trương Tử Cường mắc chứng nghiện cờ bạc bệnh lý (Pathological Gambling) kết hợp rối loạn nhân cách chống đối xã hội.",
+    "words": 28
+   },
+   {
+    "id": "3.03#2",
+    "text": "Đối với hắn, tiền bạc không có giá trị vật chất đơn thuần, mà chỉ là những con chip dùng để kích hoạt dopamine và adrenaline trong não bộ.",
+    "words": 29
+   },
+   {
+    "id": "3.03#3",
+    "text": "Sau cảm giác kích thích tột độ khi đối đầu với cảnh sát và các tỷ phú, cuộc sống bình thường trở nên vô vị và trống rỗng đối với hắn.",
+    "words": 31
+   },
+   {
+    "id": "3.03#4",
+    "text": "Hắn buộc phải tìm kiếm những cảm giác mạnh hơn trên bàn cờ bạc để thỏa mãn cơn khát kích thích thần kinh liên tục.",
+    "words": 25
+   },
+   {
+    "id": "3.03#5",
+    "text": "Và khi thua sạch tiền tại Ma Cao, động lực duy nhất của hắn là tiếp tục lên kế hoạch cho những vụ cướp bóc và bắt cóc lớn hơn, tạo thành một vòng xoáy tự hủy diệt không thể dừng lại.",
+    "words": 42
+   }
+  ]
+ },
+ {
+  "id": "4.01",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "Tiếng còi hú cảnh sát Trung Quốc đại lục vang dội, tiếng bước chân trinh sát áp sát và tiếng còng số tám siết chặt dứt khoát."
+ },
+ {
+  "id": "4.02",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "thuật lại bước đi sai lầm định mệnh",
+  "text": "Đầu năm 1998, với tham vọng thực hiện một phi vụ vũ trang chưa từng có, Trương Tử Cường đã bí mật sang Trung Quốc đại lục để tổ chức mua bán hơn tám trăm kilôgam thuốc nổ và hàng nghìn kíp nổ nhằm chuẩn bị tấn công giải cứu đồng bọn. Hắn tin rằng với sự khác biệt về hệ thống pháp luật giữa Hồng Kông và đại lục sau năm 1997, hắn có thể tiếp tục lợi dụng kẽ hở tư pháp để trốn tránh như trước đây. Nhưng hắn đã hoàn toàn tính toán sai lầm.",
+  "sentences": [
+   {
+    "id": "4.02#1",
+    "text": "Đầu năm 1998, với tham vọng thực hiện một phi vụ vũ trang chưa từng có, Trương Tử Cường đã bí mật sang Trung Quốc đại lục để tổ chức mua bán hơn tám trăm kilôgam thuốc nổ và hàng nghìn kíp nổ nhằm chuẩn bị tấn công giải cứu đồng bọn.",
+    "words": 52
+   },
+   {
+    "id": "4.02#2",
+    "text": "Hắn tin rằng với sự khác biệt về hệ thống pháp luật giữa Hồng Kông và đại lục sau năm 1997, hắn có thể tiếp tục lợi dụng kẽ hở tư pháp để trốn tránh như trước đây.",
+    "words": 38
+   },
+   {
+    "id": "4.02#3",
+    "text": "Nhưng hắn đã hoàn toàn tính toán sai lầm.",
+    "words": 9
+   }
+  ]
+ },
+ {
+  "id": "4.03",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "thuật lại chiến dịch 9810 của Công an Quảng Đông",
+  "text": "Tháng một năm 1998, Bộ Công an Trung Quốc và Công an tỉnh Quảng Đông đã xác lập chuyên án mang bí số 9810. Mọi hành tung, các điểm cất giấu vũ khí và các mối liên lạc ngầm của băng nhóm Trương Tử Cường đã bị các trinh sát theo dõi sát sao suốt ngày đêm. Ngày hai mươi lăm tháng một năm 1998, khi Trương Tử Cường cùng đồng bọn đang di chuyển trên tuyến đường cao tốc Quảng Thâm, lực lượng cảnh sát đặc nhiệm đã bất ngờ chặn xe và bắt giữ toàn bộ đối tượng cùng tang vật là lượng lớn chất nổ nguy hiểm.",
+  "sentences": [
+   {
+    "id": "4.03#1",
+    "text": "Tháng một năm 1998, Bộ Công an Trung Quốc và Công an tỉnh Quảng Đông đã xác lập chuyên án mang bí số 9810.",
+    "words": 24
+   },
+   {
+    "id": "4.03#2",
+    "text": "Mọi hành tung, các điểm cất giấu vũ khí và các mối liên lạc ngầm của băng nhóm Trương Tử Cường đã bị các trinh sát theo dõi sát sao suốt ngày đêm.",
+    "words": 33
+   },
+   {
+    "id": "4.03#3",
+    "text": "Ngày hai mươi lăm tháng một năm 1998, khi Trương Tử Cường cùng đồng bọn đang di chuyển trên tuyến đường cao tốc Quảng Thâm, lực lượng cảnh sát đặc nhiệm đã bất ngờ chặn xe và bắt giữ toàn bộ đối tượng cùng tang vật là lượng lớn chất nổ nguy hiểm.",
+    "words": 53
+   }
+  ]
+ },
+ {
+  "id": "4.04",
+  "act": 4,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "mổ xẻ sự suy sụp của ảo tưởng quyền lực",
+  "text": "Khi bị giam giữ tại đại lục, Trương Tử Cường cố gắng yêu cầu được dẫn độ về Hồng Kông để xét xử, nơi không áp dụng án tử hình. Hắn nghĩ rằng tiền bạc và đội ngũ luật sư Hồng Kông có thể một lần nữa giúp hắn lách luật như vụ án năm 1995. Nhưng trước thẩm quyền xét xử đối với các hành vi tàng trữ vũ khí và âm mưu phạm tội xảy ra ngay trên lãnh thổ đại lục, ảo tưởng quyền lực tối thượng của Tướng cướp thế kỷ đã hoàn toàn vỡ vụn trước sự nghiêm minh của pháp luật.",
+  "sentences": [
+   {
+    "id": "4.04#1",
+    "text": "Khi bị giam giữ tại đại lục, Trương Tử Cường cố gắng yêu cầu được dẫn độ về Hồng Kông để xét xử, nơi không áp dụng án tử hình.",
+    "words": 30
+   },
+   {
+    "id": "4.04#2",
+    "text": "Hắn nghĩ rằng tiền bạc và đội ngũ luật sư Hồng Kông có thể một lần nữa giúp hắn lách luật như vụ án năm 1995.",
+    "words": 26
+   },
+   {
+    "id": "4.04#3",
+    "text": "Nhưng trước thẩm quyền xét xử đối với các hành vi tàng trữ vũ khí và âm mưu phạm tội xảy ra ngay trên lãnh thổ đại lục, ảo tưởng quyền lực tối thượng của Tướng cướp thế kỷ đã hoàn toàn vỡ vụn trước sự nghiêm minh của pháp luật.",
+    "words": 51
+   }
+  ]
+ },
+ {
+  "id": "5.01",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "Âm hưởng trang nghiêm, tiếng búa gõ dứt khoát của Tòa án Quảng Châu khép lại trang hồ sơ đen tối."
+ },
+ {
+  "id": "5.02",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tổng kết bản án lịch sử",
+  "text": "Tháng mười một năm 1998, Tòa án Nhân dân Trung cấp thành phố Quảng Châu đã tuyên phạt Trương Tử Cường cùng bốn đồng phạm chủ chốt mức án tử hình vì hàng loạt tội danh đặc biệt nguy hiểm. Ngày sáu tháng mười hai năm 1998, bản án tử hình đã chính thức được thi hành tại Quảng Đông. Cái chết của Trương Tử Cường đã chấm dứt kỷ nguyên lộng hành của các băng nhóm tội phạm vũ trang khét tiếng, mang lại sự bình yên và củng cố niềm tin của cộng đồng doanh nghiệp vào trật tự pháp luật mới.",
+  "sentences": [
+   {
+    "id": "5.02#1",
+    "text": "Tháng mười một năm 1998, Tòa án Nhân dân Trung cấp thành phố Quảng Châu đã tuyên phạt Trương Tử Cường cùng bốn đồng phạm chủ chốt mức án tử hình vì hàng loạt tội danh đặc biệt nguy hiểm.",
+    "words": 40
+   },
+   {
+    "id": "5.02#2",
+    "text": "Ngày sáu tháng mười hai năm 1998, bản án tử hình đã chính thức được thi hành tại Quảng Đông.",
+    "words": 20
+   },
+   {
+    "id": "5.02#3",
+    "text": "Cái chết của Trương Tử Cường đã chấm dứt kỷ nguyên lộng hành của các băng nhóm tội phạm vũ trang khét tiếng, mang lại sự bình yên và củng cố niềm tin của cộng đồng doanh nghiệp vào trật tự pháp luật mới.",
+    "words": 44
+   }
+  ]
+ },
+ {
+  "id": "5.03",
+  "act": 5,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "đúc kết 3 bài học cảnh báo",
+  "text": "Từ sự trỗi dậy và sụp đổ của Trương Tử Cường, chúng ta rút ra ba bài học sâu sắc về nhận thức hành vi và an ninh cá nhân: Thứ nhất, nhận diện sự nguy hiểm của chứng nghiện cờ bạc và thèm khát adrenaline. Khi một người coi thường luật pháp và tìm kiếm cảm giác mạnh bất chấp hậu quả, họ sẽ từng bước vượt qua mọi lằn ranh đạo đức để tự hủy hoại chính mình. Thứ hai, thiết lập quy trình bảo vệ an ninh chuyên nghiệp cho các cá nhân có tầm ảnh hưởng. Sự bảo mật lộ trình di chuyển, thay đổi thói quen sinh hoạt và đào tạo kỹ năng ứng phó cho vệ sĩ là những rào chắn sống còn chống lại các âm mưu bắt cóc có tổ chức. Thứ ba, không có bất kỳ kẽ hở pháp lý nào có thể bảo vệ vĩnh viễn cho tội ác. Mọi toan tính lợi dụng sự khác biệt tư pháp hay dùng tiền bạc để thao túng công lý cuối cùng đều phải cúi đầu trước sự kiên quyết của pháp luật.",
+  "sentences": [
+   {
+    "id": "5.03#1",
+    "text": "Từ sự trỗi dậy và sụp đổ của Trương Tử Cường, chúng ta rút ra ba bài học sâu sắc về nhận thức hành vi và an ninh cá nhân:",
+    "words": 30
+   },
+   {
+    "id": "5.03#2",
+    "text": "Thứ nhất, nhận diện sự nguy hiểm của chứng nghiện cờ bạc và thèm khát adrenaline.",
+    "words": 16
+   },
+   {
+    "id": "5.03#3",
+    "text": "Khi một người coi thường luật pháp và tìm kiếm cảm giác mạnh bất chấp hậu quả, họ sẽ từng bước vượt qua mọi lằn ranh đạo đức để tự hủy hoại chính mình.",
+    "words": 34
+   },
+   {
+    "id": "5.03#4",
+    "text": "Thứ hai, thiết lập quy trình bảo vệ an ninh chuyên nghiệp cho các cá nhân có tầm ảnh hưởng.",
+    "words": 20
+   },
+   {
+    "id": "5.03#5",
+    "text": "Sự bảo mật lộ trình di chuyển, thay đổi thói quen sinh hoạt và đào tạo kỹ năng ứng phó cho vệ sĩ là những rào chắn sống còn chống lại các âm mưu bắt cóc có tổ chức.",
+    "words": 39
+   },
+   {
+    "id": "5.03#6",
+    "text": "Thứ ba, không có bất kỳ kẽ hở pháp lý nào có thể bảo vệ vĩnh viễn cho tội ác.",
+    "words": 20
+   },
+   {
+    "id": "5.03#7",
+    "text": "Mọi toan tính lợi dụng sự khác biệt tư pháp hay dùng tiền bạc để thao túng công lý cuối cùng đều phải cúi đầu trước sự kiên quyết của pháp luật.",
+    "words": 32
+   }
+  ]
+ },
+ {
+  "id": "5.04",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "lời kết chương trình",
+  "text": "Những đồng tiền phi pháp kiếm được từ nỗi sợ hãi của người khác cuối cùng chỉ mang lại sự hủy diệt và một kết cục bi thảm sau song sắt. Cảm ơn quý vị đã đồng hành cùng Amber Eyes trong toàn bộ chuỗi hồ sơ phân tích tâm lý tội phạm đặc biệt hôm nay. Hãy luôn giữ cho mình sự tỉnh táo, trân trọng những giá trị lao động chân chính và sống an lành. Xin chào và hẹn gặp lại quý vị trong những chuyên đề tiếp theo.",
+  "sentences": [
+   {
+    "id": "5.04#1",
+    "text": "Những đồng tiền phi pháp kiếm được từ nỗi sợ hãi của người khác cuối cùng chỉ mang lại sự hủy diệt và một kết cục bi thảm sau song sắt.",
+    "words": 31
+   },
+   {
+    "id": "5.04#2",
+    "text": "Cảm ơn quý vị đã đồng hành cùng Amber Eyes trong toàn bộ chuỗi hồ sơ phân tích tâm lý tội phạm đặc biệt hôm nay.",
+    "words": 26
+   },
+   {
+    "id": "5.04#3",
+    "text": "Hãy luôn giữ cho mình sự tỉnh táo, trân trọng những giá trị lao động chân chính và sống an lành.",
+    "words": 21
+   },
+   {
+    "id": "5.04#4",
+    "text": "Xin chào và hẹn gặp lại quý vị trong những chuyên đề tiếp theo.",
+    "words": 14
+   }
+  ]
+ }
+]

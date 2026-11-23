@@ -9,7 +9,7 @@ from parse_kichban import parse_file
 
 W = Path(".work")
 old = json.loads((W / "timeline_s_t05.json").read_text(encoding="utf-8"))
-new = parse_file("01_KICH_BAN/Tap05/kichban_tap05_23102026.md")
+new = parse_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap05/kichban_tap05_23102026.md")
 
 print("=== kịch bản MỚI: thứ tự element ===")
 for e in new:

@@ -14,9 +14,9 @@ print(git("branch","-a"))
 
 print()
 print("=== quoted LINES (reading lines) count in Tap09 MD ===")
-for lang,p in [("VN","01_KICH_BAN/Tap09/kichban_tap09_23102026.md"),
-                ("EN","01_KICH_BAN/Tap09/kichban_tap09_EN.md"),
-                ("JA","01_KICH_BAN/Tap09_JA/kichban_tap09_JA.md")]:
+for lang,p in [("VN","01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_23102026.md"),
+                ("EN","01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_EN.md"),
+                ("JA","01_KICH_BAN/Ho_So_Toi_Pham/Tap09_JA/kichban_tap09_JA.md")]:
     t = (ROOT/p).read_text(encoding="utf-8")
     lines = t.split("\n")
     in_q = False; qlines = 0
@@ -32,12 +32,12 @@ for lang,p in [("VN","01_KICH_BAN/Tap09/kichban_tap09_23102026.md"),
     print(f"  {lang}: quoted_reading_lines≈{qlines}")
 
 print()
-print("=== git log 02_SAN_XUAT/Tap09 ===")
-print(git("log","--oneline","-6","--","02_SAN_XUAT/Tap09") or "  (none)")
+print("=== git log 02_SAN_XUAT/Ho_So_Toi_Pham/Tap09 ===")
+print(git("log","--oneline","-6","--","02_SAN_XUAT/Ho_So_Toi_Pham/Tap09") or "  (none)")
 
 print()
 print("=== is master mp3 gitignored? ===")
-print(git("check-ignore","-v","02_SAN_XUAT/Tap09/xuat_ban/Tap09_master.mp3") or "  (not ignored / not exist)")
+print(git("check-ignore","-v","02_SAN_XUAT/Ho_So_Toi_Pham/Tap09/xuat_ban/Tap09_master.mp3") or "  (not ignored / not exist)")
 
 print()
 print("=== search whole repo for t09 audio wav/mp3 (name has 1_02_01 / s1_02_01 style) ===")

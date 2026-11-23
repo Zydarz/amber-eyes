@@ -7,7 +7,7 @@ lines = []
 lines.append("# BÁO CÁO THỐNG KÊ CHI TIẾT & CHÍNH XÁC TOÀN BỘ 68 HỒ SƠ VỤ ÁN (AMBER EYES)\n")
 lines.append("> **Thời điểm kiểm tra & chốt dữ liệu:** 22/11/2026\n")
 lines.append("> **Quy trình kiểm tra độc lập:**\n")
-lines.append("> 1. **Số câu thoại:** Chạy trực tiếp engine phân tách kịch bản production `parse_kichban.py` trên từng file kịch bản chính thức (`01_KICH_BAN/TapXX/`). Đảm bảo từng câu thoại có ID (`#1`, `#2`...) phục vụ TTS và làm phụ đề.\n")
+lines.append("> 1. **Số câu thoại:** Chạy trực tiếp engine phân tách kịch bản production `parse_kichban.py` trên từng file kịch bản chính thức (`01_KICH_BAN/Ho_So_Toi_Pham/TapXX/`). Đảm bảo từng câu thoại có ID (`#1`, `#2`...) phục vụ TTS và làm phụ đề.\n")
 lines.append("> 2. **Số ảnh đã dựng:** Đếm trực tiếp các file ảnh nhị phân đã sinh trên ổ đĩa (`assets/bg/` và `assets/bg/_raw/`) theo tiền tố của từng tập.\n")
 lines.append("> 3. **Số shot theo quy tắc:** Đối chiếu trực tiếp với các bảng timeline đã sản xuất (`.work/shots_tXX.json`), bảng shot trong kế hoạch (`KeHoach_Video_TapXX.md`), và áp dụng công thức quy tắc dựng chuẩn Amber eyes (`Số shot = Số câu thoại + 5`) cho các tập đang ở giai đoạn tiền kỳ.\n\n")
 

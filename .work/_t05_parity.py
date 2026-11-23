@@ -13,9 +13,9 @@ sys.path.insert(0, str(W))
 from parse_kichban import parse_file  # noqa: E402
 
 KB = {
-    "vi": "01_KICH_BAN/Tap05/kichban_tap05_23102026.md",
-    "en": "01_KICH_BAN/Tap05_EN/kichban_tap05_EN.md",
-    "ja": "01_KICH_BAN/Tap05_JA/kichban_tap05_JA.md",
+    "vi": "01_KICH_BAN/Ho_So_Toi_Pham/Tap05/kichban_tap05_23102026.md",
+    "en": "01_KICH_BAN/Ho_So_Toi_Pham/Tap05_EN/kichban_tap05_EN.md",
+    "ja": "01_KICH_BAN/Ho_So_Toi_Pham/Tap05_JA/kichban_tap05_JA.md",
 }
 ids = {}
 txt = {}

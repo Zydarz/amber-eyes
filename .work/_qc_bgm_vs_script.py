@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """QC: bed BGM của edition.py có khớp mood trong KỊCH BẢN không?
 
-Nguồn sự thật = kịch bản (01_KICH_BAN/TapXX/kichban_tapXX_*.md).
+Nguồn sự thật = kịch bản (01_KICH_BAN/Ho_So_Toi_Pham/TapXX/kichban_tapXX_*.md).
 Mỗi `## HỒI N` lấy thẻ [BGM] ĐẦU TIÊN -> mood của nhạc nền hồi đó.
 So với "bed" trong .work/edition.py (đúng thứ build_audio3.py dùng).
 

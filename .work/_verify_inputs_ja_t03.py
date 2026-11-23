@@ -9,7 +9,7 @@ files = [
     '.work/package.py',
     '.work/parse_shots.py',
     '.work/subtitles.py',
-    '02_SAN_XUAT/Tap03_JA/KeHoach_Video_Tap03_JA.md',
+    '02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_JA/KeHoach_Video_Tap03_JA.md',
     '.work/shots_text_tap03_JA.json',
     '.work/audio_master_JA_t03.wav',
     'assets/brand/intro_kenh_JA_t03.mov',

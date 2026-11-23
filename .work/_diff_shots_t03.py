@@ -4,7 +4,7 @@ W = Path(r"D:\TEST\Gax\amber-eyes\.work")
 ROOT = Path(r"D:\TEST\Gax\amber-eyes")
 tl = json.loads((W/"timeline_s_t03.json").read_text(encoding="utf-8-sig"))
 sent = {it["id"]: it for it in tl["items"]}
-plan = (ROOT/"02_SAN_XUAT"/"Tap03"/"KeHoach_Video_Tap03.md").read_text(encoding="utf-8")
+plan = (ROOT/"02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03"/"KeHoach_Video_Tap03.md").read_text(encoding="utf-8")
 m = re.search(r"^## 6\. DANH SÁCH SHOT.*$", plan, re.M)
 sec = plan[m.end():]
 sec = sec[: re.search(r"^\*\*Tổng:", sec, re.M).start()]

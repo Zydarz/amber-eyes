@@ -3,8 +3,8 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.path.insert(0, '.work')
 import parse_kichban as PK
 
-p14 = PK.parse_file('01_KICH_BAN/Tap14/kichban_tap14_23102026.md')
-p17 = PK.parse_file('01_KICH_BAN/Tap17/kichban_tap17_23102026.md')
+p14 = PK.parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap14/kichban_tap14_23102026.md')
+p17 = PK.parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap17/kichban_tap17_23102026.md')
 
 print("ID   | Kind | Role | T14 | T17 | Title/Start")
 for e14, e17 in zip(p14, p17):

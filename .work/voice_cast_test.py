@@ -6,7 +6,7 @@
 Mọi bản đọc dùng BỘ THAM SỐ AN TOÀN (neutral, cao độ 0) — báo cáo BaoCao_GiongDoc_Tap02.md: đổi cảm xúc/cao độ
 có thể làm giọng đổi "người". Mỗi ứng viên đọc 2 câu đặc trưng của vai.
 Đo: CER (listen_audio), F0, rồi mô hình nghe chấm hợp vai + có giữ nguyên 1 người qua 2 câu không.
-Output: 02_SAN_XUAT/Tap02/thu_giong_vai/  (report.md, <vai>_ung_vien.mp3)
+Output: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/thu_giong_vai/  (report.md, <vai>_ung_vien.mp3)
 """
 import json
 import subprocess
@@ -22,7 +22,7 @@ from voice_audition import pcm, cer  # noqa: E402
 from voice_expr_test import f0_track  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "02_SAN_XUAT" / "Tap02" / "thu_giong_vai"
+OUT = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02" / "thu_giong_vai"
 FF = ROOT / ".work" / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 
 ROLES = {

@@ -2,7 +2,7 @@
 **Kênh:** Amber eyes (YouTube)  
 **Tập:** Episode 02 (English Edition) — *Ep. 02: A Predator Disguised as Honor | Criminal Psychology: Colonel Russell Williams (10 Psychological Markers & 4 Stages of Escalation)*  
 **Ngày hoàn thành & kiểm định:** 05/11/2026 19:42:00  
-**Thành phẩm bàn giao:** `02_SAN_XUAT/Tap02_EN/xuat_ban/Tap02_EN_master.mp4`  
+**Thành phẩm bàn giao:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/xuat_ban/Tap02_EN_master.mp4`  
 
 ---
 
@@ -23,7 +23,7 @@
 
 ---
 
-## 2. DANH MỤC THÀNH PHẨM TRỌN GÓI (`02_SAN_XUAT/Tap02_EN/xuat_ban/`)
+## 2. DANH MỤC THÀNH PHẨM TRỌN GÓI (`02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/xuat_ban/`)
 
 1. **`Tap02_EN_master.mp4`**:
    - Dung lượng: **505.294.079 byte** (481,89 MB).

@@ -13,7 +13,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 W = Path(r"D:\TEST\Gax\amber-eyes\.work")
-OUT = Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Tap03\xuat_ban")
+OUT = Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Ho_So_Toi_Pham\Tap03\xuat_ban")
 
 tl = json.loads((W / "timeline_s_t03.json").read_text(encoding="utf-8-sig"))
 srt = (OUT / "Tap03.srt").read_text(encoding="utf-8-sig")

@@ -198,13 +198,13 @@ def build_markdown(lang, script_data, title, brief_desc, additions_map):
     md_lines = []
     
     if lang == "VN":
-        src_path = ROOT / "01_KICH_BAN" / "Tap10" / "kichban_tap10_23102026.md"
+        src_path = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10" / "kichban_tap10_23102026.md"
     elif lang == "EN":
-        src_path = ROOT / "01_KICH_BAN" / "Tap10_EN" / "kichban_tap10_EN.md"
+        src_path = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10_EN" / "kichban_tap10_EN.md"
     elif lang == "JA":
-        src_path = ROOT / "01_KICH_BAN" / "Tap10_JA" / "kichban_tap10_JA.md"
+        src_path = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10_JA" / "kichban_tap10_JA.md"
     elif lang == "KO":
-        src_path = ROOT / "01_KICH_BAN" / "Tap10_KO" / "kichban_tap10_KO.md"
+        src_path = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10_KO" / "kichban_tap10_KO.md"
     
     orig_text = src_path.read_text(encoding="utf-8")
     
@@ -363,18 +363,18 @@ print("\n--- UPDATING ALL 4 MARKDOWN SCRIPT FILES ---")
 
 # VN
 expand_markdown_file(
-    ROOT / "01_KICH_BAN" / "Tap10" / "kichban_tap10_23102026.md",
-    [ROOT / "01_KICH_BAN" / "Tap10" / "kichban_tap10_23102026.md"],
+    ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10" / "kichban_tap10_23102026.md",
+    [ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10" / "kichban_tap10_23102026.md"],
     additions_vn,
     "VN"
 )
 
 # EN
 expand_markdown_file(
-    ROOT / "01_KICH_BAN" / "Tap10_EN" / "kichban_tap10_EN.md",
+    ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10_EN" / "kichban_tap10_EN.md",
     [
-        ROOT / "01_KICH_BAN" / "Tap10_EN" / "kichban_tap10_EN.md",
-        ROOT / "01_KICH_BAN" / "Tap10" / "kichban_tap10_EN.md"
+        ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10_EN" / "kichban_tap10_EN.md",
+        ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10" / "kichban_tap10_EN.md"
     ],
     additions_en,
     "EN"
@@ -382,16 +382,16 @@ expand_markdown_file(
 
 # JA
 expand_markdown_file(
-    ROOT / "01_KICH_BAN" / "Tap10_JA" / "kichban_tap10_JA.md",
-    [ROOT / "01_KICH_BAN" / "Tap10_JA" / "kichban_tap10_JA.md"],
+    ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10_JA" / "kichban_tap10_JA.md",
+    [ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10_JA" / "kichban_tap10_JA.md"],
     additions_ja,
     "JA"
 )
 
 # KO
 expand_markdown_file(
-    ROOT / "01_KICH_BAN" / "Tap10_KO" / "kichban_tap10_KO.md",
-    [ROOT / "01_KICH_BAN" / "Tap10_KO" / "kichban_tap10_KO.md"],
+    ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10_KO" / "kichban_tap10_KO.md",
+    [ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10_KO" / "kichban_tap10_KO.md"],
     additions_ko,
     "KO"
 )

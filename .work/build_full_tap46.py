@@ -1423,19 +1423,19 @@ def format_script(lang):
 
 # Write VN script
 vn_text = format_script("VN")
-with open("01_KICH_BAN/Tap46/kichban_tap46_19112026.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap46/kichban_tap46_19112026.md", "w", encoding="utf-8") as f:
     f.write(vn_text)
 print("Saved VN script")
 
 # Write EN script
 en_text = format_script("EN")
-with open("01_KICH_BAN/Tap46_EN/kichban_tap46_EN.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap46_EN/kichban_tap46_EN.md", "w", encoding="utf-8") as f:
     f.write(en_text)
 print("Saved EN script")
 
 # Write JA script
 ja_text = format_script("JA")
-with open("01_KICH_BAN/Tap46_JA/kichban_tap46_JA.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap46_JA/kichban_tap46_JA.md", "w", encoding="utf-8") as f:
     f.write(ja_text)
 print("Saved JA script")
 

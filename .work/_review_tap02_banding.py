@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw, ImageFont
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 WORK = Path(__file__).resolve().parents[1] / ".work"
 FF = WORK / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
-VID = Path(__file__).resolve().parents[1] / "02_SAN_XUAT" / "Tap02" / "xuat_ban" / "Tap02_master.mp4"
+VID = Path(__file__).resolve().parents[1] / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02" / "xuat_ban" / "Tap02_master.mp4"
 D = WORK / "_qc_tap02_review" / "zoom"
 D.mkdir(parents=True, exist_ok=True)
 

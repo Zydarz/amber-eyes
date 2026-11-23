@@ -18,7 +18,7 @@ entry = {
     "prompt": None,
     "seed": None,
     "mo_ta": ("caption 364 ky tu + dong AIGC bat buoc + khoi luu y an toan va hotline 111; "
-              "ban mo ta day cua Tap 01 nam o 02_SAN_XUAT/Tap01/mo_ta.txt"),
+              "ban mo ta day cua Tap 01 nam o 02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/mo_ta.txt"),
     "font": None,
     "dieu_khoan": ("TikTok bat buoc nhan AIGC (toggle 'Noi dung do AI tao'); gioi han 2.200 ky tu; "
                    "khong dan phan ghi chu ky thuat vao caption."),

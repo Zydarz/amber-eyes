@@ -5,7 +5,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(".")
-plan_vn = (ROOT / "02_SAN_XUAT/Tap06/KeHoach_Video_Tap06.md").read_text(encoding="utf-8")
+plan_vn = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap06/KeHoach_Video_Tap06.md").read_text(encoding="utf-8")
 script_en = json.load(open(".work/script_tap06_EN.json", encoding="utf-8"))
 tl_en = json.load(open(".work/timeline_s_EN_t06.json", encoding="utf-8"))
 

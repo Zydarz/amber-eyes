@@ -81,7 +81,7 @@ for row in data:
         
     # Accurate sentence count check:
     # If sentences < 50 for planned episodes, calculate from dialogue paragraphs in script
-    kb_path = f"01_KICH_BAN/Tap{ep:02d}"
+    kb_path = f"01_KICH_BAN/Ho_So_Toi_Pham/Tap{ep:02d}"
     if os.path.exists(kb_path):
         files = [f for f in os.listdir(kb_path) if f.endswith('.md')]
         vn_files = [f for f in files if 'kichban_' in f and not any(k in f for k in ['_EN', '_JA', '_KO', 'REVIEW'])]

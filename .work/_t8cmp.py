@@ -1,7 +1,7 @@
 ﻿import re
 from pathlib import Path
 ROOT = Path(r"D:\TEST\Gax\amber-eyes")
-for ep, f in (("02","02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md"), ("03","02_SAN_XUAT/Tap03/KeHoach_Video_Tap03.md")):
+for ep, f in (("02","02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md"), ("03","02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/KeHoach_Video_Tap03.md")):
     plan = (ROOT/f).read_text(encoding="utf-8-sig")
     print(f"===== TAP {ep}: cac dong T8 =====")
     n=0

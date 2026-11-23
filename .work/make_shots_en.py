@@ -4,14 +4,14 @@ from pathlib import Path
 content = """# PRODUCTION PLAN EPISODE 04 · ENGLISH EDITION · "THE ANGEL OF DEATH" (PART B)
 
 **Standard Applied:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Part A)  
-**Script:** `01_KICH_BAN/Tap04_EN/kichban_tap04_EN.md` · **Release Target:** `02_SAN_XUAT/Tap04_EN/xuat_ban/`  
-**Fixed Text & Cards:** `02_SAN_XUAT/Tap04_EN/CHU_CO_DINH_EN.md`  
+**Script:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap04_EN/kichban_tap04_EN.md` · **Release Target:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap04_EN/xuat_ban/`  
+**Fixed Text & Cards:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap04_EN/CHU_CO_DINH_EN.md`  
 
 ## B1. Episode Information
 
 | Item | Value |
 |---|---|
-| Script | `01_KICH_BAN/Tap04_EN/kichban_tap04_EN.md` — 61 elements · 161 sentences |
+| Script | `01_KICH_BAN/Ho_So_Toi_Pham/Tap04_EN/kichban_tap04_EN.md` — 61 elements · 161 sentences |
 | Cast (Voice Set A - English) | H: `English_magnetic_voiced_man` · D: `English_Trustworth_Man` · C: `English_Wiselady` · N1: `English_SentimentalLady` · N2: `English_captivating_female1` |
 | Video Structure | 86 shots — 73 spoken shots + 13 pauses/transitions |
 | Act Titles | Act 1: The Paradox of the Model Nurse · Act 2: The Deadly Loophole of the Dispensing Machine · Act 3: Inside the Mind of the Covert God Complex · Act 4: Interrogation & The Turning Point · Act 5: The Verdict, Red Flags & Epilogue |
@@ -118,6 +118,6 @@ content = """# PRODUCTION PLAN EPISODE 04 · ENGLISH EDITION · "THE ANGEL OF DE
 **Tổng: 86 shot** (Act 1: 20 shots · Act 2: 20 shots · Act 3: 13 shots · Act 4: 15 shots · Act 5: 18 shots) · 100% covered across 161/161 sentences.
 """
 
-out_path = Path("02_SAN_XUAT/Tap04_EN/KeHoach_Video_Tap04_EN.md")
+out_path = Path("02_SAN_XUAT/Ho_So_Toi_Pham/Tap04_EN/KeHoach_Video_Tap04_EN.md")
 out_path.write_text(content, encoding="utf-8")
 print(f"Generated {out_path} successfully!")

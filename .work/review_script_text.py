@@ -7,7 +7,7 @@ import parse_kichban
 
 def check_vn():
     print("=== REVIEWING VIETNAMESE SCRIPT ===")
-    els = parse_kichban.parse_lines(open('01_KICH_BAN/Tap41/kichban_tap41_19112026.md', encoding='utf-8').read().splitlines())
+    els = parse_kichban.parse_lines(open('01_KICH_BAN/Ho_So_Toi_Pham/Tap41/kichban_tap41_19112026.md', encoding='utf-8').read().splitlines())
     digits_found = []
     quotes_found = []
     typos = []
@@ -45,7 +45,7 @@ def check_vn():
 
 def check_en():
     print("\n=== REVIEWING ENGLISH SCRIPT ===")
-    els = parse_kichban.parse_lines(open('01_KICH_BAN/Tap41_EN/kichban_tap41_EN.md', encoding='utf-8').read().splitlines())
+    els = parse_kichban.parse_lines(open('01_KICH_BAN/Ho_So_Toi_Pham/Tap41_EN/kichban_tap41_EN.md', encoding='utf-8').read().splitlines())
     digits_found = []
     for e in els:
         if e['kind'] == 'LOI':
@@ -60,7 +60,7 @@ def check_en():
 
 def check_ja():
     print("\n=== REVIEWING JAPANESE SCRIPT ===")
-    els = parse_kichban.parse_lines(open('01_KICH_BAN/Tap41_JA/kichban_tap41_JA.md', encoding='utf-8').read().splitlines())
+    els = parse_kichban.parse_lines(open('01_KICH_BAN/Ho_So_Toi_Pham/Tap41_JA/kichban_tap41_JA.md', encoding='utf-8').read().splitlines())
     digits_found = []
     for e in els:
         if e['kind'] == 'LOI':

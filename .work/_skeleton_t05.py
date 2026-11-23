@@ -24,8 +24,8 @@ sys.path.insert(0, str(W))
 from parse_kichban import parse_file  # noqa: E402
 
 MAX_SENT = int(sys.argv[1]) if len(sys.argv) > 1 else 3
-PLAN = ROOT / "02_SAN_XUAT/Tap05/KeHoach_Video_Tap05.md"
-NEW_KB = ROOT / "01_KICH_BAN/Tap05/kichban_tap05_23102026.md"
+PLAN = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05/KeHoach_Video_Tap05.md"
+NEW_KB = ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap05/kichban_tap05_23102026.md"
 # Dòng thủ công cho element MỚI (3.09, 3.10) — do AI soạn, phải truy được về câu.
 EXTRA = W / "_t05_new_rows.json"
 

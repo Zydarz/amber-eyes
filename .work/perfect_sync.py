@@ -22,11 +22,11 @@ Chỉnh sửa tinh tế các điểm ngắt câu để VN, EN, JA khớp chính 
 
 # 5.05: Trong JA, hai câu cuối '次なる事件の記録でお会いする日まで、どうかご無事で、安全にお過ごしください。それでは、またお会いしましょう。' gộp thành 1 câu: '次なる事件の記録でお会いする日まで、どうかご無事で、安全にお過ごしください、それでは、またお会いしましょう。' -> JA = 12 câu.
 
-with open("01_KICH_BAN/Tap32/kichban_tap32_19112026.md", "r", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32/kichban_tap32_19112026.md", "r", encoding="utf-8") as f:
     vn = f.read()
-with open("01_KICH_BAN/Tap32_EN/kichban_tap32_EN.md", "r", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32_EN/kichban_tap32_EN.md", "r", encoding="utf-8") as f:
     en = f.read()
-with open("01_KICH_BAN/Tap32_JA/kichban_tap32_JA.md", "r", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32_JA/kichban_tap32_JA.md", "r", encoding="utf-8") as f:
     ja = f.read()
 
 # Fix 2.06 VN
@@ -80,16 +80,16 @@ ja = ja.replace(
     "次なる事件の記録でお会いする日までどうかご無事で、安全にお過ごしください、それでは、またお会いしましょう。"
 )
 
-with open("01_KICH_BAN/Tap32/kichban_tap32_19112026.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32/kichban_tap32_19112026.md", "w", encoding="utf-8") as f:
     f.write(vn)
-with open("01_KICH_BAN/Tap32_EN/kichban_tap32_EN.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32_EN/kichban_tap32_EN.md", "w", encoding="utf-8") as f:
     f.write(en)
-with open("01_KICH_BAN/Tap32_JA/kichban_tap32_JA.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32_JA/kichban_tap32_JA.md", "w", encoding="utf-8") as f:
     f.write(ja)
 
 import subprocess
-subprocess.run(["py", "-3", ".work/parse_kichban.py", "01_KICH_BAN/Tap32/kichban_tap32_19112026.md", ".work/t32_vn.json"])
-subprocess.run(["py", "-3", ".work/parse_kichban.py", "01_KICH_BAN/Tap32_EN/kichban_tap32_EN.md", ".work/t32_en.json"])
-subprocess.run(["py", "-3", ".work/parse_kichban.py", "01_KICH_BAN/Tap32_JA/kichban_tap32_JA.md", ".work/t32_ja.json"])
+subprocess.run(["py", "-3", ".work/parse_kichban.py", "01_KICH_BAN/Ho_So_Toi_Pham/Tap32/kichban_tap32_19112026.md", ".work/t32_vn.json"])
+subprocess.run(["py", "-3", ".work/parse_kichban.py", "01_KICH_BAN/Ho_So_Toi_Pham/Tap32_EN/kichban_tap32_EN.md", ".work/t32_en.json"])
+subprocess.run(["py", "-3", ".work/parse_kichban.py", "01_KICH_BAN/Ho_So_Toi_Pham/Tap32_JA/kichban_tap32_JA.md", ".work/t32_ja.json"])
 
 print("Perfect sync applied!")

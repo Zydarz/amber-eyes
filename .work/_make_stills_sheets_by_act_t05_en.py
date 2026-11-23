@@ -11,7 +11,7 @@ from PIL import Image, ImageDraw, ImageFont
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 STILLS = ROOT / ".work" / "video3_EN_t05" / "stills"
-OUT = ROOT / "02_SAN_XUAT" / "Tap05_EN"
+OUT = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap05_EN"
 
 cols, tw, th, pad, header_h = 4, 480, 270, 12, 26
 try:

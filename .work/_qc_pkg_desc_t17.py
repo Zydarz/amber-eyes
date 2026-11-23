@@ -17,13 +17,13 @@ R = str(ROOT)
 sys.path.insert(0, R + r"\.work")
 
 TARGETS = {
-    "VI": ["02_SAN_XUAT/Tap17/mo_ta.txt", "02_SAN_XUAT/Tap17/xuat_ban/mo_ta.txt"],
-    "EN": ["02_SAN_XUAT/Tap17_EN/description.txt", "02_SAN_XUAT/Tap17_EN/mo_ta.txt",
-           "02_SAN_XUAT/Tap17_EN/xuat_ban/description.txt", "02_SAN_XUAT/Tap17_EN/xuat_ban/mo_ta.txt"],
-    "JA": ["02_SAN_XUAT/Tap17_JA/description.txt", "02_SAN_XUAT/Tap17_JA/mo_ta.txt",
-           "02_SAN_XUAT/Tap17_JA/xuat_ban/description.txt", "02_SAN_XUAT/Tap17_JA/xuat_ban/mo_ta.txt"],
-    "KO": ["02_SAN_XUAT/Tap17_KO/description.txt", "02_SAN_XUAT/Tap17_KO/mo_ta.txt",
-           "02_SAN_XUAT/Tap17_KO/xuat_ban/description.txt", "02_SAN_XUAT/Tap17_KO/xuat_ban/mo_ta.txt"],
+    "VI": ["02_SAN_XUAT/Ho_So_Toi_Pham/Tap17/mo_ta.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17/xuat_ban/mo_ta.txt"],
+    "EN": ["02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_EN/description.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_EN/mo_ta.txt",
+           "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_EN/xuat_ban/description.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_EN/xuat_ban/mo_ta.txt"],
+    "JA": ["02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_JA/description.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_JA/mo_ta.txt",
+           "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_JA/xuat_ban/description.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_JA/xuat_ban/mo_ta.txt"],
+    "KO": ["02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_KO/description.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_KO/mo_ta.txt",
+           "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_KO/xuat_ban/description.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_KO/xuat_ban/mo_ta.txt"],
 }
 
 bak = ROOT / ".work" / "_cu" / "desc_t17_pkgtest"

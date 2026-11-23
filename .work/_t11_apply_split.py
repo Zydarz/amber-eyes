@@ -5,9 +5,9 @@
     py -3 .work/_t11_apply_split.py --apply       # ghi file
 
 Ghi:
-  02_SAN_XUAT/Tap11/KeHoach_Video_Tap11.md        (mã nền ở cột "Nền + bóng")
-  02_SAN_XUAT/Tap11_EN/KeHoach_Video_Tap11_EN.md
-  02_SAN_XUAT/Tap11_JA/KeHoach_Video_Tap11_JA.md
+  02_SAN_XUAT/Ho_So_Toi_Pham/Tap11/KeHoach_Video_Tap11.md        (mã nền ở cột "Nền + bóng")
+  02_SAN_XUAT/Ho_So_Toi_Pham/Tap11_EN/KeHoach_Video_Tap11_EN.md
+  02_SAN_XUAT/Ho_So_Toi_Pham/Tap11_JA/KeHoach_Video_Tap11_JA.md
   .work/bg_jobs_tap11_v3.json                     (136 job = 66 cũ + 70 mới)
 """
 import collections
@@ -23,9 +23,9 @@ from _t11_new_bg_jobs import NEW, END_CARD  # noqa: E402
 
 ROOT = Path(r"D:/TEST/Gax/amber-eyes")
 PLAN = {
-    "vi": ROOT / "02_SAN_XUAT/Tap11/KeHoach_Video_Tap11.md",
-    "en": ROOT / "02_SAN_XUAT/Tap11_EN/KeHoach_Video_Tap11_EN.md",
-    "ja": ROOT / "02_SAN_XUAT/Tap11_JA/KeHoach_Video_Tap11_JA.md",
+    "vi": ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap11/KeHoach_Video_Tap11.md",
+    "en": ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap11_EN/KeHoach_Video_Tap11_EN.md",
+    "ja": ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap11_JA/KeHoach_Video_Tap11_JA.md",
 }
 JOBS_V2 = ROOT / ".work/bg_jobs_tap11_v2.json"
 JOBS_V3 = ROOT / ".work/bg_jobs_tap11_v3.json"

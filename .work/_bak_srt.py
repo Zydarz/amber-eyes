@@ -1,5 +1,5 @@
 ﻿import shutil, datetime, pathlib
-p = pathlib.Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Tap03\xuat_ban\Tap03.srt")
+p = pathlib.Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Ho_So_Toi_Pham\Tap03\xuat_ban\Tap03.srt")
 bk = pathlib.Path(r"D:\TEST\Gax\amber-eyes\.work\_cu")
 bk.mkdir(exist_ok=True)
 stamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")

@@ -4,10 +4,10 @@ import sys, re
 sys.stdout.reconfigure(encoding='utf-8')
 
 for lang, fpath in [
-    ('VN', '01_KICH_BAN/Tap19/kichban_tap19_23102026.md'),
-    ('EN', '01_KICH_BAN/Tap19_EN/kichban_tap19_EN.md'),
-    ('JA', '01_KICH_BAN/Tap19_JA/kichban_tap19_JA.md'),
-    ('KO', '01_KICH_BAN/Tap19_KO/kichban_tap19_KO.md')
+    ('VN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap19/kichban_tap19_23102026.md'),
+    ('EN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap19_EN/kichban_tap19_EN.md'),
+    ('JA', '01_KICH_BAN/Ho_So_Toi_Pham/Tap19_JA/kichban_tap19_JA.md'),
+    ('KO', '01_KICH_BAN/Ho_So_Toi_Pham/Tap19_KO/kichban_tap19_KO.md')
 ]:
     with open(fpath, 'r', encoding='utf-8') as f:
         text = f.read()

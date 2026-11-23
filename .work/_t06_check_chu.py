@@ -15,8 +15,8 @@ W = ROOT / ".work"
 sys.path.insert(0, str(W))
 from parse_kichban import parse_file  # noqa: E402
 
-KB = {"en": ROOT / "01_KICH_BAN/Tap06_EN/kichban_tap06_EN.md",
-      "ja": ROOT / "01_KICH_BAN/Tap06_JA/kichban_tap06_JA.md"}
+KB = {"en": ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap06_EN/kichban_tap06_EN.md",
+      "ja": ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap06_JA/kichban_tap06_JA.md"}
 CHU = {"en": W / "_t06_chu_en.json", "ja": W / "_t06_chu_ja.json"}
 
 FORBIDDEN = {

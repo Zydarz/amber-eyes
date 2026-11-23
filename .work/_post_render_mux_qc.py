@@ -18,7 +18,7 @@ import edition as ED
 
 PICTURE = WORK / "video3_EN_t02/picture.mp4"
 AUDIO_MASTER = WORK / "audio_master_EN_t02.wav"
-OUT_MP4 = ROOT / "02_SAN_XUAT/Tap02_EN/xuat_ban/Tap02_EN_master.mp4"
+OUT_MP4 = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/xuat_ban/Tap02_EN_master.mp4"
 TL_PATH = WORK / "timeline_s_EN_t02.json"
 
 print("=== STARTING TAP 02 EN POST-RENDER MUX & QC ===")
@@ -145,7 +145,7 @@ report_content = f"""# BÁO CÁO KIỂM ĐỊNH CHẤT LƯỢNG (QC) — TẬP 0
 **Kênh:** Amber eyes (YouTube)  
 **Tập:** Episode 02 (English Edition) — *A Predator Disguised as Honor | Criminal Psychology: Colonel Russell Williams*  
 **Ngày kiểm định:** {time.strftime('%Y-%m-%d %H:%M:%S')}  
-**Thành phẩm kiểm tra:** `02_SAN_XUAT/Tap02_EN/xuat_ban/Tap02_EN_master.mp4`  
+**Thành phẩm kiểm tra:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/xuat_ban/Tap02_EN_master.mp4`  
 
 ---
 
@@ -166,7 +166,7 @@ report_content = f"""# BÁO CÁO KIỂM ĐỊNH CHẤT LƯỢNG (QC) — TẬP 0
 
 ---
 
-## 2. DANH MỤC THÀNH PHẨM BÀN GIAO (`02_SAN_XUAT/Tap02_EN/xuat_ban/`)
+## 2. DANH MỤC THÀNH PHẨM BÀN GIAO (`02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/xuat_ban/`)
 
 1. **`Tap02_EN_master.mp4`**: {file_size:,} bytes ({file_size/1024/1024:.2f} MB, {time.strftime('%M:%S', time.gmtime(v_dur))}).
 2. **`Tap02_EN_master.mp3`**: Master audio chuẩn EBU R128 (-16.0 LUFS, peak -1.5 dBFS).

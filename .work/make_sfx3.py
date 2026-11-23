@@ -12,7 +12,7 @@ các câu chỉ có nhạc. Bộ này sửa ba chỗ:
 Không dùng mẫu ngoài, mọi nhiễu có seed → tái lập 100%, không vướng bản quyền.
 
 Chạy:  py -3 .work/make_sfx3.py            -> assets/sfx/t2/*.wav (44,1 kHz STEREO 16-bit)
-       py -3 .work/make_sfx3.py --demo     -> thêm 02_SAN_XUAT/Tap02/thu_am/demo_sfx_tap02.mp3
+       py -3 .work/make_sfx3.py --demo     -> thêm 02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/thu_am/demo_sfx_tap02.mp3
 """
 import json
 import sys
@@ -594,7 +594,7 @@ def demo():
     gap = np.zeros((int(1.2 * SR), 2), np.float32)
     mix = np.concatenate([np.concatenate([sc, gap]) for sc in scenes])
     mix = norm(mix, 0.8)
-    out = ROOT / "02_SAN_XUAT" / "Tap02" / "thu_am"
+    out = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02" / "thu_am"
     out.mkdir(parents=True, exist_ok=True)
     wav = out / "demo_sfx_tap02.wav"
     with wave.open(str(wav), "wb") as w:

@@ -387,7 +387,7 @@ Xin chào tạm biệt và hẹn gặp lại quý vị trong những tập hồ 
 **[BGM]:** Nhạc nền ngân vang ấm áp, trang trọng rồi mờ dần và tắt hoàn toàn ở giây thứ 5.
 """
 
-target_path = '01_KICH_BAN/Tap10/kichban_tap10_23102026.md'
+target_path = '01_KICH_BAN/Ho_So_Toi_Pham/Tap10/kichban_tap10_23102026.md'
 with open(target_path, 'w', encoding='utf-8') as f:
     f.write(NEW_SCRIPT.strip() + '\n')
 

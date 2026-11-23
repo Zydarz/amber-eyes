@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-with open('01_KICH_BAN/Tap31/NghienCuu_TamLy_BoSung_KichBan_Tap31.md', 'r', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap31/NghienCuu_TamLy_BoSung_KichBan_Tap31.md', 'r', encoding='utf-8') as f:
     text = f.read()
 
 text = text.replace('140 câu thoại', '210 câu thoại')
@@ -28,7 +28,7 @@ historical_additions = """
 if '### 1.3. CÁC CỨ LIỆU LỊCH SỬ THỰC TẾ' not in text:
     text = text.replace('---', '---\n' + historical_additions + '\n---', 1)
 
-with open('01_KICH_BAN/Tap31/NghienCuu_TamLy_BoSung_KichBan_Tap31.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap31/NghienCuu_TamLy_BoSung_KichBan_Tap31.md', 'w', encoding='utf-8') as f:
     f.write(text)
 
 print('Updated NghienCuu Tap 31 successfully.')

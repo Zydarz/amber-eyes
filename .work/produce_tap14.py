@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 BG_DIR = ROOT / "assets" / "bg"
 BG_DIR.mkdir(parents=True, exist_ok=True)
-OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap14"
+OUT_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap14"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 PROV_FILE = ROOT / "provenance.json"
 
@@ -421,7 +421,7 @@ def main():
         "",
         "1. **Đồng bộ kịch bản:** Toàn bộ ảnh khớp chuẩn xác 100% các câu thoại trong kịch bản Tập 14.",
         "2. **Bảo toàn pháp lý & Bản quyền thương mại:** Toàn bộ ảnh được tạo nội bộ thông qua pipeline Amber Eyes Noir Graphic Renderer, 100% tự chủ, không sử dụng MiniMax hay tài sản bên thứ ba.",
-        "3. **Sẵn sàng dựng video:** Bộ ảnh đã được lưu trữ hoàn chỉnh tại `assets/bg/t14_*.png`, có contact sheet tại `02_SAN_XUAT/Tap14/contact_sheet_t14.png`."
+        "3. **Sẵn sàng dựng video:** Bộ ảnh đã được lưu trữ hoàn chỉnh tại `assets/bg/t14_*.png`, có contact sheet tại `02_SAN_XUAT/Ho_So_Toi_Pham/Tap14/contact_sheet_t14.png`."
     ])
 
     (OUT_DIR / "REVIEW_Bo_Anh_Tap14.md").write_text("\n".join(review_lines), encoding="utf-8")

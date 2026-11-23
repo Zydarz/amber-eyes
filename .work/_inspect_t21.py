@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / ".work"))
 import parse_kichban as PK
 
-p = PK.parse_file(str(ROOT / "01_KICH_BAN" / "Tap21" / "kichban_tap21_23102026.md"))
+p = PK.parse_file(str(ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap21" / "kichban_tap21_23102026.md"))
 print(f"Total elements: {len(p)}")
 loi = [e for e in p if e["kind"] == "LOI"]
 print(f"LOI turns: {len(loi)}")

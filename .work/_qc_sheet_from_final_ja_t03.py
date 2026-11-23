@@ -16,7 +16,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(r"D:/TEST/Gax/amber-eyes")
 W = ROOT / ".work"
 FF = W / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
-MP4 = ROOT / "02_SAN_XUAT" / "Tap03_JA" / "xuat_ban" / "Tap03_JA_master.mp4"
+MP4 = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03_JA" / "xuat_ban" / "Tap03_JA_master.mp4"
 OUT = W / "_qc_sheets_ja_t03"
 OUT.mkdir(parents=True, exist_ok=True)
 

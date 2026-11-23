@@ -26,7 +26,7 @@ for e in script:
         for s in e["sentences"]:
             S[s["id"]] = s["text"]
 
-vn_lines = (ROOT / "02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md").read_text(encoding="utf-8").splitlines()
+vn_lines = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md").read_text(encoding="utf-8").splitlines()
 i0 = next(i for i, l in enumerate(vn_lines) if l.startswith("## 6. DANH SÁCH SHOT"))
 i1 = next(i for i, l in enumerate(vn_lines) if i > i0 and l.startswith("**Tổng:"))
 
@@ -135,7 +135,7 @@ if errors:
     sys.exit(1)
 
 # Ghi file kế hoạch JA
-plan_path = ROOT / "02_SAN_XUAT" / "Tap02_JA" / "KeHoach_Video_Tap02_JA.md"
+plan_path = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02_JA" / "KeHoach_Video_Tap02_JA.md"
 
 # Build header from Tap01_JA style
 header = """# HỒ SƠ SẢN XUẤT TẬP 02 · BẢN TIẾNG NHẬT · 「二重生活の大佐」 (PHẦN B)
@@ -143,8 +143,8 @@ header = """# HỒ SƠ SẢN XUẤT TẬP 02 · BẢN TIẾNG NHẬT · 「二�
 > **TRẠNG THÁI: HOÀN THÀNH DỰNG VIDEO**
 
 **Tiêu chuẩn áp dụng:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Phần A).
-**Kịch bản:** `01_KICH_BAN/Tap02_JA/kichban_tap02_JA.md` · **Chữ cố định:** `00_TIEU_CHUAN/CHU_CO_DINH_JA.md` · **Thành phẩm:** `02_SAN_XUAT/Tap02_JA/xuat_ban/`
-**Bản gốc:** `02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md`. Bảng shot giữ nguyên các cột Câu, Vai, Mẫu, Nền, Nhân vật và mô tả beat; chỉ thay:
+**Kịch bản:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap02_JA/kichban_tap02_JA.md` · **Chữ cố định:** `00_TIEU_CHUAN/CHU_CO_DINH_JA.md` · **Thành phẩm:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/`
+**Bản gốc:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md`. Bảng shot giữ nguyên các cột Câu, Vai, Mẫu, Nền, Nhân vật và mô tả beat; chỉ thay:
 - cột **Chữ** sang tiếng Nhật chuẩn phát thanh tài liệu (Pillow vẽ chữ với `YuGothB.ttc` / `YuGothM.ttc`);
 - các cụm `ở "…"` trong cột **Beat** sang cụm tiếng Nhật **có thật** trong câu JA tương ứng.
 
@@ -152,7 +152,7 @@ header = """# HỒ SƠ SẢN XUẤT TẬP 02 · BẢN TIẾNG NHẬT · 「二�
 
 | Mục | Giá trị |
 |---|---|
-| Kịch bản | `01_KICH_BAN/Tap02_JA/kichban_tap02_JA.md` (chuẩn `00_TIEU_CHUAN/CHU_CO_DINH_JA.md`, 203 câu, 36 lượt nói, Director's Cut) |
+| Kịch bản | `01_KICH_BAN/Ho_So_Toi_Pham/Tap02_JA/kichban_tap02_JA.md` (chuẩn `00_TIEU_CHUAN/CHU_CO_DINH_JA.md`, 203 câu, 36 lượt nói, Director's Cut) |
 | Lượt nói / câu | 36 / **203**. Host 50% · Chuyên gia 25% · Điều tra viên 20% · Người bình thường 5%. Mã câu trùng 100% bản VN (`script_tap02_JA.json`) |
 | N1 / N2 | `1.07` トレントン基地関係者 (Cừu) / `4.06` ツイード住民 (Mèo) |
 | Bảng shot | 161 dòng = 144 shot có lời + 17 dòng không lời |

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Generate 02_SAN_XUAT/Tap01_JA/KeHoach_Video_Tap01_JA.md from VN plan + shots_text_JA.json.
+"""Generate 02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_JA/KeHoach_Video_Tap01_JA.md from VN plan + shots_text_JA.json.
 Keeps Câu/Vai/Mẫu/Nền/Nhân vật and the Vietnamese beat wording (renderer triggers);
 swaps the Chữ cell and beat cues to Japanese.
 """
@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 
-vn_text = (ROOT / "02_SAN_XUAT/Tap01/KeHoach_Video_Tap01.md").read_text(encoding="utf-8").splitlines()
+vn_text = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/KeHoach_Video_Tap01.md").read_text(encoding="utf-8").splitlines()
 ja_text = json.loads((WORK / "shots_text_JA.json").read_text(encoding="utf-8"))
 ja_script = json.load(open(WORK / "script_tap01_JA.json", encoding="utf-8"))
 S = {s['id']: s['text'] for e in ja_script if e['kind'] == 'LOI' for s in e['sentences']}
@@ -34,8 +34,8 @@ header = [
     "> **TRẠNG THÁI: CHỜ DUYỆT GIỌNG ĐỌC & DỰNG**",
     "",
     "**Tiêu chuẩn áp dụng:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Phần A).",
-    "**Kịch bản:** `01_KICH_BAN/Tap01_JA/kichban_tap01_JA.md` · **Chữ cố định:** `00_TIEU_CHUAN/CHU_CO_DINH_JA.md` · **Thành phẩm:** `02_SAN_XUAT/Tap01_JA/xuat_ban/`",
-    "**Bản gốc:** `02_SAN_XUAT/Tap01/KeHoach_Video_Tap01.md`. Bảng shot giữ nguyên các cột Câu, Vai, Mẫu, Nền, Nhân vật và mô tả beat; chỉ thay:",
+    "**Kịch bản:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap01_JA/kichban_tap01_JA.md` · **Chữ cố định:** `00_TIEU_CHUAN/CHU_CO_DINH_JA.md` · **Thành phẩm:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_JA/xuat_ban/`",
+    "**Bản gốc:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/KeHoach_Video_Tap01.md`. Bảng shot giữ nguyên các cột Câu, Vai, Mẫu, Nền, Nhân vật và mô tả beat; chỉ thay:",
     "- cột **Chữ** sang tiếng Nhật chuẩn phát thanh tài liệu (Pillow vẽ chữ với `YuGothB.ttc` / `YuGothM.ttc`);",
     "- các cụm `ở \"…\"` trong cột **Beat** sang cụm tiếng Nhật **có thật** trong câu JA tương ứng.",
     "",
@@ -43,7 +43,7 @@ header = [
     "",
     "| Mục | Giá trị |",
     "|---|---|",
-    "| Kịch bản | `01_KICH_BAN/Tap01_JA/kichban_tap01_JA.md` (chuẩn `00_TIEU_CHUAN/CHU_CO_DINH_JA.md`, 128 câu, 33 lượt nói, passed `_qc_ja.py`) |",
+    "| Kịch bản | `01_KICH_BAN/Ho_So_Toi_Pham/Tap01_JA/kichban_tap01_JA.md` (chuẩn `00_TIEU_CHUAN/CHU_CO_DINH_JA.md`, 128 câu, 33 lượt nói, passed `_qc_ja.py`) |",
     "| Lượt nói / câu | 33 / **128**. Host 50% · Chuyên gia 24% · Điều tra viên 20% · Người bình thường 5%. Mã câu trùng 100% bản VN (`script_tap01_JA.json`) |",
     "| N1 / N2 | `1.07` 証人 (Cừu) / `4.03` 視聴者 (Mèo) |",
     "| Bảng shot | 122 dòng = 104 shot có lời + 18 dòng không lời |",
@@ -115,7 +115,7 @@ total_line = f"**Tổng: 122 shot · Đã hoàn thiện và đối chiếu 100% 
 table_lines.append(total_line)
 
 full_content = "\n".join(header) + "\n" + "\n".join(table_lines)
-out_path = ROOT / "02_SAN_XUAT/Tap01_JA/KeHoach_Video_Tap01_JA.md"
+out_path = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_JA/KeHoach_Video_Tap01_JA.md"
 out_path.write_text(full_content, encoding="utf-8")
 print(f"Generated {out_path} successfully. Verified shots: {len(done)}/122.")
 if errs:

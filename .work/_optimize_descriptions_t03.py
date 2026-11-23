@@ -221,26 +221,26 @@ DESC_KO = """03화 · IQ 145의 거인과 정신 해부의 거울 | 에드먼드
 def main():
     items = [
         ('VN', DESC_VN, [
-            '02_SAN_XUAT/Tap03/mo_ta.txt',
-            '02_SAN_XUAT/Tap03/xuat_ban/mo_ta.txt'
+            '02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/mo_ta.txt',
+            '02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/xuat_ban/mo_ta.txt'
         ]),
         ('EN', DESC_EN, [
-            '02_SAN_XUAT/Tap03_EN/description.txt',
-            '02_SAN_XUAT/Tap03_EN/mo_ta.txt',
-            '02_SAN_XUAT/Tap03_EN/xuat_ban/description.txt',
-            '02_SAN_XUAT/Tap03_EN/xuat_ban/mo_ta.txt'
+            '02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_EN/description.txt',
+            '02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_EN/mo_ta.txt',
+            '02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_EN/xuat_ban/description.txt',
+            '02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_EN/xuat_ban/mo_ta.txt'
         ]),
         ('JA', DESC_JA, [
-            '02_SAN_XUAT/Tap03_JA/description.txt',
-            '02_SAN_XUAT/Tap03_JA/mo_ta.txt',
-            '02_SAN_XUAT/Tap03_JA/xuat_ban/description.txt',
-            '02_SAN_XUAT/Tap03_JA/xuat_ban/mo_ta.txt'
+            '02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_JA/description.txt',
+            '02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_JA/mo_ta.txt',
+            '02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_JA/xuat_ban/description.txt',
+            '02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_JA/xuat_ban/mo_ta.txt'
         ]),
         ('KO', DESC_KO, [
-            '02_SAN_XUAT/Tap03_KO/description.txt',
-            '02_SAN_XUAT/Tap03_KO/mo_ta.txt',
-            '02_SAN_XUAT/Tap03_KO/xuat_ban/description.txt',
-            '02_SAN_XUAT/Tap03_KO/xuat_ban/mo_ta.txt'
+            '02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_KO/description.txt',
+            '02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_KO/mo_ta.txt',
+            '02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_KO/xuat_ban/description.txt',
+            '02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_KO/xuat_ban/mo_ta.txt'
         ]),
     ]
     

@@ -6,8 +6,8 @@
     AE_EP=02 py -3 .work/<script>.py       -> Tập 02 (bản tiếng Việt)
     py -3 .work/<script>.py                -> Tập 01 tiếng Việt, đường dẫn như cũ
 
-Every English output carries an _EN suffix or lives under 02_SAN_XUAT/Tap01_EN, every Korean
-output carries a _KO suffix or lives under 02_SAN_XUAT/Tap01_KO, and every Tập 02 intermediate
+Every English output carries an _EN suffix or lives under 02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN, every Korean
+output carries a _KO suffix or lives under 02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_KO, and every Tập 02 intermediate
 file carries a _t02 suffix, so no edition or episode overwrites another.
 """
 import os
@@ -432,7 +432,7 @@ EPISODES = {
         "hashtags": "#TrueCrime #CriminalPsychology #CharlesCullen #TheGoodNurse #ForensicPsychology #AngelOfDeath #Documentary #AmberEyes #TamLyToiPham #PhamVan #HoiTo",
         "summary": ("1.03#1", "5.08#2"),
         # 02/11/2026: 29 mốc dữ kiện đã đối chiếu nguồn công khai (bảng nguồn:
-        # 02_SAN_XUAT/Tap04/nguon_tham_khao.md). Trước đó rỗng ⇒ package.py ghi
+        # 02_SAN_XUAT/Ho_So_Toi_Pham/Tap04/nguon_tham_khao.md). Trước đó rỗng ⇒ package.py ghi
         # bảng "cần bổ sung" rỗng và mô tả thiếu mục NGUỒN THAM KHẢO.
         "need": ["1.03#2", "1.03#4", "1.05#3", "1.08#2", "1.10#1", "1.10#2", "1.14#5", "1.14#6",
                  "2.04#1", "2.06#1", "2.06#4", "2.08#2", "2.08#6", "2.11#2", "2.11#4", "2.11#6",
@@ -972,7 +972,7 @@ EPISODES = {
       "5.04#17",
         ],
         # 03/11/2026: 56 moc du lieu da doi chieu nguon cong khai (bang nguon:
-        # 02_SAN_XUAT/Tap07/nguon_tham_khao.md — 54 nguon). Truoc do rong => package.py ghi
+        # 02_SAN_XUAT/Ho_So_Toi_Pham/Tap07/nguon_tham_khao.md — 54 nguon). Truoc do rong => package.py ghi
         # bang "can bo sung" rong va mo ta thieu muc NGUON THAM KHAO.
         "case": "Carter", "n1": ("BÀ LYNN ROY", "Mẹ của nạn nhân", "BÀ ROY"),
         "n2": ("SAMANTHA BOARDMAN", "Bạn thân của Michelle", "SAMANTHA"),
@@ -1783,13 +1783,13 @@ EPISODES = {
         "cast": None,
     },
     "20": {
-        "script": WORK / "script_tap20.json",
-        "dir": "Tap20",
-        "plan": "KeHoach_Video_Tap20.md",
-        "master": "Tap20_master",
-        "srt": "Tap20.srt",
+        "script": WORK / ("script_tap20_EN.json" if EN else "script_tap20_JA.json" if JA else "script_tap20_KO.json" if KO else "script_tap20.json"),
+        "dir": "Tap20_EN" if EN else "Tap20_JA" if JA else "Tap20_KO" if KO else "Tap20",
+        "plan": "KeHoach_Video_Tap20_EN.md" if EN else "KeHoach_Video_Tap20_JA.md" if JA else "KeHoach_Video_Tap20_KO.md" if KO else "KeHoach_Video_Tap20.md",
+        "master": "Tap20_EN_master" if EN else "Tap20_JA_master" if JA else "Tap20_KO_master" if KO else "Tap20_master",
+        "srt": "Tap20_EN.srt" if EN else "Tap20_JA.srt" if JA else "Tap20_KO.srt" if KO else "Tap20.srt",
         "n_element": {"1.07": "N1", "4.09": "N2"},
-        "acting": WORK / "acting_tap20.json",
+        "acting": WORK / ("acting_tap20_EN.json" if EN else "acting_tap20_JA.json" if JA else "acting_tap20.json"),
         "sfx_sheet": WORK / "sfx_tap20.json",
         "act1_cue": "1.10", "silence_cue": "1.06", "click_cues": ("1.03", "4.05"),
         "bed": {1: "bgm_cello_sad.mp3", 2: "bgm_ambient_deep.mp3",
@@ -1798,7 +1798,8 @@ EPISODES = {
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
         "route_pins": {},
-        "thumb": ("KHOẢNH KHẮC", "SỤP ĐỔ"),
+        "thumb": ("THE ON-CAMERA", "COLLAPSE") if EN else ("生中継の", "崩壊劇") if JA else ("생방송의", "붕괴극") if KO else ("KHOẢNH KHẮC", "SỤP ĐỔ"),
+        "thumb_bg": "t20_a1_12_interview_freeze_camera_viewfinder",
         "title": "Khoảnh Khắc Sụp Đổ Trước Ống Kính — Ám Ảnh Rình Rập & Phản Ứng Đóng Băng Kỳ Dị (Hồ Sơ Stephen McDaniel)",
         "act_titles": {1: "Hồi 1 · Cuộc phỏng vấn định mệnh & tin báo bất ngờ từ thùng rác", 2: "Hồi 2 · Bức tượng đá trong phòng hỏi cung & cú sốc nhận thức",
                        3: "Hồi 3 · Giải mã tâm lý: Kẻ rình rập ngầm & phản ứng đóng băng kỳ dị", 4: "Hồi 4 · Phán quyết chung thân & sự trừng phạt của công lý",
@@ -1825,7 +1826,8 @@ EPISODES = {
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
         "route_pins": {},
-        "thumb": ("LOẠN THẦN", "SAU SINH"),
+        "thumb": ("POSTPARTUM", "PSYCHOSIS") if EN else ("産後精神病の", "悲劇") if JA else ("LOẠN THẦN", "SAU SINH"),
+        "thumb_bg": "t21_a1_15_wooden_front_porch_entry",
         "title": "Bi Kịch Của Cơn Loạn Thần Sau Sinh — Khi Ảo Giác Đánh Cắp Thiên Chức Làm Mẹ (Hồ Sơ Andrea Yates)",
         "act_titles": {1: "Hồi 1 · Cuộc gọi 911 rạng sáng & ngôi nhà im lìm tại Houston", 2: "Hồi 2 · Vực thẳm của sự cô độc & tiếng chuông cảnh báo bị phớt lờ",
                        3: "Hồi 3 · Giải mã tâm lý: Loạn thần sau sinh (Psychosis) & hoang tưởng cứu chuộc", 4: "Hồi 4 · Phiên tòa lịch sử & phán quyết Không có tội vì lý do tâm thần",
@@ -1852,7 +1854,8 @@ EPISODES = {
         "combo": {}, "inset": {}, "bg2": {},
         "flag_hold_shots": (),
         "route_pins": {},
-        "thumb": ("NƯỚC MẮT", "CÁ SẤU"),
+        "thumb_bg": "t22_a1_07_theatrical_grief_knees_collapse",
+        "thumb": ("CROCODILE TEARS", "ON CAMERA") if EN else ("カメラの前の", "偽りの涙") if JA else ("NƯỚC MẮT", "CÁ SẤU"),
         "title": "Nước Mắt Cá Sấu Của Kẻ Thuê Sát Thủ Giết Chồng — Thao Túng Trơ Trẽn & Màn Kịch Trước Máy Quay (Hồ Sơ Dalia Dippolito)",
         "act_titles": {1: "Hồi 1 · Màn kịch hiện trường giả & nước mắt người vợ mới cưới", 2: "Hồi 2 · Ván bài lật ngửa & nghệ thuật thao túng trơ trẽn (Gaslighting)",
                        3: "Hồi 3 · Giải mã tâm lý: Sự thao túng trơ trẽn & nhân cách ái kỷ ác tính", 4: "Hồi 4 · Cuộc chiến pháp lý 8 năm & bản án 16 năm tù giam",
@@ -2272,11 +2275,11 @@ if EPN not in EPISODES:
 EP = EPISODES[EPN]
 
 # ---------------------------------------------------------------- bản tiếng Hàn (KO) & Nhật (JA)
-# Kịch bản KO: 01_KICH_BAN/TapXX_KO/kichban_tapXX_KO.md  (chuẩn: 00_TIEU_CHUAN/CHU_CO_DINH_KO.md)
-# Kịch bản JA: 01_KICH_BAN/TapXX_JA/kichban_tapXX_JA.md  (chuẩn: 00_TIEU_CHUAN/CHU_CO_DINH_JA.md)
+# Kịch bản KO: 01_KICH_BAN/Ho_So_Toi_Pham/TapXX_KO/kichban_tapXX_KO.md  (chuẩn: 00_TIEU_CHUAN/CHU_CO_DINH_KO.md)
+# Kịch bản JA: 01_KICH_BAN/Ho_So_Toi_Pham/TapXX_JA/kichban_tapXX_JA.md  (chuẩn: 00_TIEU_CHUAN/CHU_CO_DINH_JA.md)
 # Cùng mã câu với bản VN nên dùng chung được acting_tapXX.json / shots.json / sfx_tapXX.json.
-KO_SRC = ROOT / "01_KICH_BAN" / f"Tap{EPN}_KO" / f"kichban_tap{EPN}_KO.md"
-JA_SRC = ROOT / "01_KICH_BAN" / f"Tap{EPN}_JA" / f"kichban_tap{EPN}_JA.md"
+KO_SRC = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap{EPN}_KO" / f"kichban_tap{EPN}_KO.md"
+JA_SRC = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap{EPN}_JA" / f"kichban_tap{EPN}_JA.md"
 if KO:
     EP = dict(EP)
     EP["script"] = WORK / EP.get("script_ko", WORK / f"script_tap{EPN}_KO.json")
@@ -2301,7 +2304,7 @@ if JA:
         raise SystemExit(f"Chưa có kịch bản tiếng Nhật: {JA_SRC}")
 
 SCRIPT_JSON = EP["script"]
-EP_DIR = ROOT / "02_SAN_XUAT" / EP["dir"]
+EP_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / EP["dir"]
 OUT_DIR = EP_DIR / "xuat_ban"
 PLAN = EP_DIR / EP["plan"]
 MASTER = EP["master"]
@@ -2414,7 +2417,7 @@ if KO and not EP.get("cast_ko"):
         "  1) thử giọng: py -3 .work/voice_audition.py (chọn giọng tiếng Hàn)\n"
         "  2) khai 'cast_ko' trong EPISODES của edition.py cho tập này\n"
         "  3) chạy G10: py -3 .work/voice_role_check.py\n"
-        "Kịch bản tiếng Hàn đã sẵn sàng ở 01_KICH_BAN/Tap%s_KO/ — chỉ thiếu bước chọn giọng." % EPN)
+        "Kịch bản tiếng Hàn đã sẵn sàng ở 01_KICH_BAN/Ho_So_Toi_Pham/Tap%s_KO/ — chỉ thiếu bước chọn giọng." % EPN)
 
 # TTS-only spelling for sentences the voice would read the wrong way (screen text unchanged)
 TTS_FIX = (EP.get("tts_fix", {}) if EN else {})

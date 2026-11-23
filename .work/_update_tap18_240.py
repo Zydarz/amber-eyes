@@ -291,10 +291,10 @@ def update_script(file_path, additions, lang_code):
     print(f"SUCCESS: Updated {file_path}")
 
 # Run update for all files
-update_script('01_KICH_BAN/Tap18/kichban_tap18_23102026.md', VN_ADD, 'VN')
-update_script('01_KICH_BAN/Tap18_EN/kichban_tap18_EN.md', EN_ADD, 'EN')
-update_script('01_KICH_BAN/Tap18_JA/kichban_tap18_JA.md', JA_ADD, 'JA')
-update_script('01_KICH_BAN/Tap18_KO/kichban_tap18_KO.md', KO_ADD, 'KO')
+update_script('01_KICH_BAN/Ho_So_Toi_Pham/Tap18/kichban_tap18_23102026.md', VN_ADD, 'VN')
+update_script('01_KICH_BAN/Ho_So_Toi_Pham/Tap18_EN/kichban_tap18_EN.md', EN_ADD, 'EN')
+update_script('01_KICH_BAN/Ho_So_Toi_Pham/Tap18_JA/kichban_tap18_JA.md', JA_ADD, 'JA')
+update_script('01_KICH_BAN/Ho_So_Toi_Pham/Tap18_KO/kichban_tap18_KO.md', KO_ADD, 'KO')
 
-if os.path.exists('01_KICH_BAN/Tap18/kichban_tap18_EN.md'):
-    update_script('01_KICH_BAN/Tap18/kichban_tap18_EN.md', EN_ADD, 'EN')
+if os.path.exists('01_KICH_BAN/Ho_So_Toi_Pham/Tap18/kichban_tap18_EN.md'):
+    update_script('01_KICH_BAN/Ho_So_Toi_Pham/Tap18/kichban_tap18_EN.md', EN_ADD, 'EN')

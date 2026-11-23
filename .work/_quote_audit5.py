@@ -43,7 +43,7 @@ vns = {k: '01_KICH_BAN/' + v for k, v in SRC.items()}
 
 report = {}
 for tap in sorted(vns):
-    kp = '01_KICH_BAN/Tap%s_KO/kichban_tap%s_KO.md' % (tap, tap)
+    kp = '01_KICH_BAN/Ho_So_Toi_Pham/Tap%s_KO/kichban_tap%s_KO.md' % (tap, tap)
     if not os.path.exists(kp):
         continue
     vn = io.open(vns[tap], encoding='utf-8').read()

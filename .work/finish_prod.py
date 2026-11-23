@@ -6,7 +6,7 @@ tai ve `.work/kaggle_higgs/out_higgs_prod/`.
 Chuoi:
   1. install_higgs_audio.py  -> .work/audio_s_higgs_t02/*.wav (203 file)
   2. build_audio3.py (AE_EP=02, AE_AUDIO_DIR=audio_s_higgs)
-       -> 02_SAN_XUAT/Tap02/xuat_ban/Tap02_master.mp3  (+ .work/audio_master_t02.wav,
+       -> 02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/xuat_ban/Tap02_master.mp3  (+ .work/audio_master_t02.wav,
           .work/timeline_s_t02.json, .work/stems_t02/)
 
 LUU Y ten thu muc: voi AE_EP=02, edition.w("audio_s_higgs") = ".work/audio_s_higgs_t02"

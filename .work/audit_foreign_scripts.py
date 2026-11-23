@@ -11,7 +11,7 @@ sys.path.insert(0, str(ROOT / ".work"))
 import parse_kichban
 
 # 1. EN Audit
-en_parsed = parse_kichban.parse_file(ROOT / "01_KICH_BAN" / "Tap20_EN" / "kichban_tap20_EN.md")
+en_parsed = parse_kichban.parse_file(ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap20_EN" / "kichban_tap20_EN.md")
 en_sentences = []
 for el in en_parsed:
     if el["kind"] == "LOI":
@@ -45,7 +45,7 @@ for t in en_typos:
     print(" ", t)
 
 # 2. JA Audit
-ja_parsed = parse_kichban.parse_file(ROOT / "01_KICH_BAN" / "Tap20_JA" / "kichban_tap20_JA.md")
+ja_parsed = parse_kichban.parse_file(ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap20_JA" / "kichban_tap20_JA.md")
 ja_sentences = []
 for el in ja_parsed:
     if el["kind"] == "LOI":
@@ -73,7 +73,7 @@ for t in ja_typos:
     print(" ", t)
 
 # 3. KO Audit
-ko_parsed = parse_kichban.parse_file(ROOT / "01_KICH_BAN" / "Tap20_KO" / "kichban_tap20_KO.md")
+ko_parsed = parse_kichban.parse_file(ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap20_KO" / "kichban_tap20_KO.md")
 ko_sentences = []
 for el in ko_parsed:
     if el["kind"] == "LOI":

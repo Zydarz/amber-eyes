@@ -12,7 +12,7 @@
 | TTSエンジン | **Higgs Audio v3** (`bosonai/higgs-audio-v3-tts-4b`) on Apple Silicon MLX |
 | 音声モデル | **VoxCPM2 Voice Design JA** (H: `H_JA.wav`, D: `D_JA.wav`, C: `C_JA.wav`, N1: `N1_JA.wav`, N2: `N2_JA.wav`) |
 | 音響構成 | 3層ステレオ音響: 5幕BGM + 継続的環境音 + ピンポイント効果音 (`.work/sfx_tap15_JA.json`) |
-| マスター出力 | `02_SAN_XUAT/Tap15_JA/xuat_ban/Tap15_JA_master.mp3` & `02_SAN_XUAT/Tap15_JA/xuat_ban/Tap15_JA_master.wav` |
+| マスター出力 | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_JA/xuat_ban/Tap15_JA_master.mp3` & `02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_JA/xuat_ban/Tap15_JA_master.wav` |
 
 ---
 
@@ -41,18 +41,18 @@
 - **CER中央値:** **9.56%** (CER平均: **10.79%**).
 - **マルチテイク第2巡:** CER > 2% のキューに対し Variant 1 を自動生成し最適テイクを採用.
 - **UTMOSv2 MOS 自然性スコア:** 平均 **3.02 / 5.0** (範囲: 2.13 – 3.98)。基準値クリア (>= 3.0 / 5.0)。
-- **確認対象キュー一覧:** [`02_SAN_XUAT/Tap15_JA/xuat_ban/CanNghe_Tap15_JA_higgs.md`](xuat_ban/CanNghe_Tap15_JA_higgs.md)。
+- **確認対象キュー一覧:** [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_JA/xuat_ban/CanNghe_Tap15_JA_higgs.md`](xuat_ban/CanNghe_Tap15_JA_higgs.md)。
 
 ---
 
 ## B3. 納品成果物一覧
 
 1. **マスター音源:**
-   - MP3: [`02_SAN_XUAT/Tap15_JA/xuat_ban/Tap15_JA_master.mp3`](xuat_ban/Tap15_JA_master.mp3)
-   - WAV: [`02_SAN_XUAT/Tap15_JA/xuat_ban/Tap15_JA_master.wav`](xuat_ban/Tap15_JA_master.wav)
+   - MP3: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_JA/xuat_ban/Tap15_JA_master.mp3`](xuat_ban/Tap15_JA_master.mp3)
+   - WAV: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_JA/xuat_ban/Tap15_JA_master.wav`](xuat_ban/Tap15_JA_master.wav)
 2. **タイムライン・字幕データ:**
    - タイムライン: [`.work/timeline_s_JA_t15.json`](../../.work/timeline_s_JA_t15.json) (2151.5 秒)
-   - SRT字幕: [`02_SAN_XUAT/Tap15_JA/xuat_ban/Tap15_JA.srt`](xuat_ban/Tap15_JA.srt) (220 cues)
+   - SRT字幕: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_JA/xuat_ban/Tap15_JA.srt`](xuat_ban/Tap15_JA.srt) (220 cues)
 3. **品質レポート:**
    - QC詳細データ: [`.work/quality_qc_utmos_ep15_ja.json`](../../.work/quality_qc_utmos_ep15_ja.json)
-   - 人手確認シート: [`02_SAN_XUAT/Tap15_JA/xuat_ban/CanNghe_Tap15_JA_higgs.md`](xuat_ban/CanNghe_Tap15_JA_higgs.md)
+   - 人手確認シート: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_JA/xuat_ban/CanNghe_Tap15_JA_higgs.md`](xuat_ban/CanNghe_Tap15_JA_higgs.md)

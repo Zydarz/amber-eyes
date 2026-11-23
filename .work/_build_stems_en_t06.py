@@ -14,7 +14,7 @@ FF = W / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 EPN = "06"
-MASTER = ROOT / f"02_SAN_XUAT/Tap{EPN}_EN/xuat_ban/Tap{EPN}_EN_master.mp3"
+MASTER = ROOT / f"02_SAN_XUAT/Ho_So_Toi_Pham/Tap{EPN}_EN/xuat_ban/Tap{EPN}_EN_master.mp3"
 TL = W / f"timeline_s_EN_t{EPN}.json"
 OUT = W / f"stems_EN_t{EPN}"
 SR = 16000

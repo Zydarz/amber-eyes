@@ -4,9 +4,9 @@ R = r"d:\TEST\Gax\amber-eyes"
 def mmss(t):
     n = int(t + .5); return f"{n//60:02d}:{n%60:02d}"
 CFG = {
- "VI": (r"02_SAN_XUAT\Tap16\xuat_ban\mo_ta.txt", "", "00:00 Intro & Khuyến cáo an toàn", "⏱ MỐC CHƯƠNG"),
- "EN": (r"02_SAN_XUAT\Tap16_EN\xuat_ban\description.txt", "_EN", "00:00 Intro & Advisory", "⏱ CHAPTER TIMESTAMPS"),
- "JA": (r"02_SAN_XUAT\Tap16_JA\xuat_ban\description.txt", "_JA", "00:00 イントロ＆注意事項", "⏱ タイムスタンプ"),
+ "VI": (r"02_SAN_XUAT\Ho_So_Toi_Pham\Tap16\xuat_ban\mo_ta.txt", "", "00:00 Intro & Khuyến cáo an toàn", "⏱ MỐC CHƯƠNG"),
+ "EN": (r"02_SAN_XUAT\Ho_So_Toi_Pham\Tap16_EN\xuat_ban\description.txt", "_EN", "00:00 Intro & Advisory", "⏱ CHAPTER TIMESTAMPS"),
+ "JA": (r"02_SAN_XUAT\Ho_So_Toi_Pham\Tap16_JA\xuat_ban\description.txt", "_JA", "00:00 イントロ＆注意事項", "⏱ タイムスタンプ"),
 }
 os.environ["AE_EP"] = "16"
 import importlib

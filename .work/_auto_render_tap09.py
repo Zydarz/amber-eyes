@@ -34,7 +34,7 @@ def get_duration(fn):
 
 def wait_for_vi():
     log("Waiting for VI video rendering and packaging to finish...")
-    vi_master = ROOT / "02_SAN_XUAT" / "Tap09" / "xuat_ban" / "Tap09_master.mp4"
+    vi_master = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09" / "xuat_ban" / "Tap09_master.mp4"
     while True:
         if vi_master.exists():
             try:
@@ -94,7 +94,7 @@ def collect_qc(lang, mp4_path, wav_path):
     return res
 
 def write_final_report(qc_data):
-    rpt_path = ROOT / "02_SAN_XUAT" / "Tap09" / "BaoCao_DungVideo_Tap09_20261114.md"
+    rpt_path = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09" / "BaoCao_DungVideo_Tap09_20261114.md"
     today_str = "14/11/2026"
     
     txt = f"""# BÁO CÁO DỰNG LẠI VIDEO TOÀN DIỆN ĐA NGÔN NGỮ — TẬP 09 · {today_str}
@@ -130,25 +130,25 @@ def write_final_report(qc_data):
 ## 2. Danh mục tệp xuất bản hoàn thiện (Deliverables)
 
 ### 2.1 Tiếng Việt (`Tap09`)
-- Video Master: `02_SAN_XUAT/Tap09/xuat_ban/Tap09_master.mp4` ({qc_data['vi']['size_mb']:.1f} MB)
-- Video Kênh: `02_SAN_XUAT/Tap09/xuat_ban/Tap09.mp4` ({qc_data['vi']['size_mb']:.1f} MB)
-- Phụ đề SRT: `02_SAN_XUAT/Tap09/xuat_ban/Tap09.srt` (428 cues)
-- Audio Master: `02_SAN_XUAT/Tap09/xuat_ban/Tap09_master.mp3` ({qc_data['vi']['a_dur']:.2f} s)
-- Thumbnail: `02_SAN_XUAT/Tap09/xuat_ban/thumbnail.png`
+- Video Master: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09/xuat_ban/Tap09_master.mp4` ({qc_data['vi']['size_mb']:.1f} MB)
+- Video Kênh: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09/xuat_ban/Tap09.mp4` ({qc_data['vi']['size_mb']:.1f} MB)
+- Phụ đề SRT: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09/xuat_ban/Tap09.srt` (428 cues)
+- Audio Master: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09/xuat_ban/Tap09_master.mp3` ({qc_data['vi']['a_dur']:.2f} s)
+- Thumbnail: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09/xuat_ban/thumbnail.png`
 
 ### 2.2 Tiếng Anh (`Tap09_EN`)
-- Video Master: `02_SAN_XUAT/Tap09_EN/xuat_ban/Tap09_EN_master.mp4` ({qc_data['en']['size_mb']:.1f} MB)
-- Video Kênh: `02_SAN_XUAT/Tap09_EN/xuat_ban/Tap09_EN.mp4` ({qc_data['en']['size_mb']:.1f} MB)
-- Phụ đề SRT: `02_SAN_XUAT/Tap09_EN/xuat_ban/Tap09_EN.srt` (439 cues)
-- Audio Master: `02_SAN_XUAT/Tap09_EN/xuat_ban/Tap09_EN_master.mp3` ({qc_data['en']['a_dur']:.2f} s)
-- Thumbnail: `02_SAN_XUAT/Tap09_EN/xuat_ban/thumbnail.png`
+- Video Master: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_EN/xuat_ban/Tap09_EN_master.mp4` ({qc_data['en']['size_mb']:.1f} MB)
+- Video Kênh: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_EN/xuat_ban/Tap09_EN.mp4` ({qc_data['en']['size_mb']:.1f} MB)
+- Phụ đề SRT: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_EN/xuat_ban/Tap09_EN.srt` (439 cues)
+- Audio Master: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_EN/xuat_ban/Tap09_EN_master.mp3` ({qc_data['en']['a_dur']:.2f} s)
+- Thumbnail: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_EN/xuat_ban/thumbnail.png`
 
 ### 2.3 Tiếng Nhật (`Tap09_JA`)
-- Video Master: `02_SAN_XUAT/Tap09_JA/xuat_ban/Tap09_JA_master.mp4` ({qc_data['ja']['size_mb']:.1f} MB)
-- Video Kênh: `02_SAN_XUAT/Tap09_JA/xuat_ban/Tap09_JA.mp4` ({qc_data['ja']['size_mb']:.1f} MB)
-- Phụ đề SRT: `02_SAN_XUAT/Tap09_JA/xuat_ban/Tap09_JA.srt` (445 cues)
-- Audio Master: `02_SAN_XUAT/Tap09_JA/xuat_ban/Tap09_JA_master.mp3` ({qc_data['ja']['a_dur']:.2f} s)
-- Thumbnail: `02_SAN_XUAT/Tap09_JA/xuat_ban/thumbnail.png`
+- Video Master: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_JA/xuat_ban/Tap09_JA_master.mp4` ({qc_data['ja']['size_mb']:.1f} MB)
+- Video Kênh: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_JA/xuat_ban/Tap09_JA.mp4` ({qc_data['ja']['size_mb']:.1f} MB)
+- Phụ đề SRT: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_JA/xuat_ban/Tap09_JA.srt` (445 cues)
+- Audio Master: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_JA/xuat_ban/Tap09_JA_master.mp3` ({qc_data['ja']['a_dur']:.2f} s)
+- Thumbnail: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_JA/xuat_ban/thumbnail.png`
 
 ---
 
@@ -181,9 +181,9 @@ def main():
     # Collect all QC
     log("Collecting all QC data...")
     qc_data = {}
-    qc_data["vi"] = collect_qc("vi", ROOT / "02_SAN_XUAT/Tap09/xuat_ban/Tap09_master.mp4", WORK / "audio_master_t09.wav")
-    qc_data["en"] = collect_qc("en", ROOT / "02_SAN_XUAT/Tap09_EN/xuat_ban/Tap09_EN_master.mp4", WORK / "audio_master_EN_t09.wav")
-    qc_data["ja"] = collect_qc("ja", ROOT / "02_SAN_XUAT/Tap09_JA/xuat_ban/Tap09_JA_master.mp4", WORK / "audio_master_JA_t09.wav")
+    qc_data["vi"] = collect_qc("vi", ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap09/xuat_ban/Tap09_master.mp4", WORK / "audio_master_t09.wav")
+    qc_data["en"] = collect_qc("en", ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_EN/xuat_ban/Tap09_EN_master.mp4", WORK / "audio_master_EN_t09.wav")
+    qc_data["ja"] = collect_qc("ja", ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_JA/xuat_ban/Tap09_JA_master.mp4", WORK / "audio_master_JA_t09.wav")
     
     write_final_report(qc_data)
     log("ALL DONE! Pipeline completed for all 3 languages.")

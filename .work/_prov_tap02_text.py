@@ -90,7 +90,7 @@ for i in range(1, 6):
         "mo_ta": ("ban mo ta dai %d ky tu cho clip TK%d Tap 02: hook '%s' + chỉ dấu %s + boi canh ho so "
                   "+ cac diem tinh tiet + 'Bước ngoặt của hồ sơ này' + cau hoi + duong dan YTB + canh bao "
                   "tre em + nhan AIGC; du lieu truy ve .work/script_tap02.json + "
-                  "02_SAN_XUAT/Tap02/nguon_tham_khao.md + 01_KICH_BAN/Tap02/kichban_tap02_22102026.md"
+                  "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/nguon_tham_khao.md + 01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_22102026.md"
                   % (n_dai, i, hook, chidau)),
         "font": None,
         "dieu_khoan": ("TikTok chi hien ~100 ky tu dau truoc khi bam 'more' => dong 1 phai la hook "

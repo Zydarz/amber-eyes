@@ -36,7 +36,7 @@ def parse(path):
 
 for i in range(1, 30):
     ep = f"{i:02d}"
-    ja_path = WORK.parent / "01_KICH_BAN" / f"Tap{ep}_JA" / f"kichban_tap{ep}_JA.md"
+    ja_path = WORK.parent / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap{ep}_JA" / f"kichban_tap{ep}_JA.md"
     if not ja_path.exists():
         lines.append(f"---  Tap{ep}: CHƯA CÓ file JA")
         bad_ep += 1

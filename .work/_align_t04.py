@@ -18,8 +18,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / ".work"))
 from parse_kichban import parse_file  # noqa: E402
 
-OLD_KB = ROOT / "01_KICH_BAN/Tap04/kichban_tap04_23102026_ban_goc.md"
-NEW_KB = ROOT / "01_KICH_BAN/Tap04/kichban_tap04_23102026.md"
+OLD_KB = ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap04/kichban_tap04_23102026_ban_goc.md"
+NEW_KB = ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap04/kichban_tap04_23102026.md"
 W = ROOT / ".work"
 
 

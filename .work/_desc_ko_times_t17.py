@@ -37,8 +37,8 @@ def mmss(t):
     return f"{t // 60:02d}:{t % 60:02d}"
 
 
-ko = spoken_by_act(ROOT / "01_KICH_BAN" / "Tap17_KO" / "kichban_tap17_KO.md", re.compile(r"^##\s*막\s*(\d)"))
-ja = spoken_by_act(ROOT / "01_KICH_BAN" / "Tap17_JA" / "kichban_tap17_JA.md", re.compile(r"^##\s*第(\d)幕"))
+ko = spoken_by_act(ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap17_KO" / "kichban_tap17_KO.md", re.compile(r"^##\s*막\s*(\d)"))
+ja = spoken_by_act(ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap17_JA" / "kichban_tap17_JA.md", re.compile(r"^##\s*第(\d)幕"))
 
 JA_TOTAL = 2099.88
 rate = sum(ja.values()) / JA_TOTAL

@@ -5,7 +5,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 rev_10chiau = """# BÁO CÁO DUYỆT KỊCH BẢN TẬP 18 (BẢN TÁI CẤU TRÚC — HỆ SINH THÁI 10 CHỈ DẤU)
 
-*Ngày lập: 07/11/2026. Đối tượng: `01_KICH_BAN/Tap18/kichban_tap18_23102026.md`.*  
+*Ngày lập: 07/11/2026. Đối tượng: `01_KICH_BAN/Ho_So_Toi_Pham/Tap18/kichban_tap18_23102026.md`.*  
 *Căn cứ quy chuẩn: `AGENTS.md` (Luật K1–K10, Bước 1, L3) và `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Mục A2c, Bẫy #118).*
 
 ---
@@ -56,10 +56,10 @@ rev_multi = """# BÁO CÁO REVIEW TOÀN DIỆN KỊCH BẢN TẬP 18 ĐA NGÔN N
 > **Thời điểm thẩm định:** 07/11/2026 (Bản nâng cấp kịch bản quy mô lớn > 200 câu)  
 > **Căn cứ tiêu chuẩn:** `AGENTS.md` (Luật K1–K10, V9, L1–L10) và `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (§A2, §A2b, §A2c, §A9.2, Bẫy #118).  
 > **Các tệp kịch bản được đánh giá:**  
-> - Tiếng Việt (VN): [`01_KICH_BAN/Tap18/kichban_tap18_23102026.md`](kichban_tap18_23102026.md)  
-> - Tiếng Anh (EN): [`01_KICH_BAN/Tap18_EN/kichban_tap18_EN.md`](../Tap18_EN/kichban_tap18_EN.md)  
-> - Tiếng Nhật (JA): [`01_KICH_BAN/Tap18_JA/kichban_tap18_JA.md`](../Tap18_JA/kichban_tap18_JA.md)  
-> - Tiếng Hàn (KO): [`01_KICH_BAN/Tap18_KO/kichban_tap18_KO.md`](../Tap18_KO/kichban_tap18_KO.md)
+> - Tiếng Việt (VN): [`01_KICH_BAN/Ho_So_Toi_Pham/Tap18/kichban_tap18_23102026.md`](kichban_tap18_23102026.md)  
+> - Tiếng Anh (EN): [`01_KICH_BAN/Ho_So_Toi_Pham/Tap18_EN/kichban_tap18_EN.md`](../Tap18_EN/kichban_tap18_EN.md)  
+> - Tiếng Nhật (JA): [`01_KICH_BAN/Ho_So_Toi_Pham/Tap18_JA/kichban_tap18_JA.md`](../Tap18_JA/kichban_tap18_JA.md)  
+> - Tiếng Hàn (KO): [`01_KICH_BAN/Ho_So_Toi_Pham/Tap18_KO/kichban_tap18_KO.md`](../Tap18_KO/kichban_tap18_KO.md)
 
 ---
 
@@ -112,10 +112,10 @@ Toàn bộ 10 chỉ dấu đã được đối soát chéo trên cả 4 ngôn ng
 Bộ kịch bản Tập 18 đã hoàn thành xuất sắc việc tái cấu trúc theo tiêu chuẩn mới, đạt chuẩn 208 câu (> 200 câu), đồng bộ 100% cấu trúc 1:1 trên cả 4 ngôn ngữ, sẵn sàng cho công đoạn Diễn xuất và Tổng hợp giọng đọc (TTS).
 """
 
-with open("01_KICH_BAN/Tap18/REVIEW_kichban_tap18_10chiau.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap18/REVIEW_kichban_tap18_10chiau.md", "w", encoding="utf-8") as f:
     f.write(rev_10chiau.strip() + "\n")
 
-with open("01_KICH_BAN/Tap18/REVIEW_kichban_tap18_multilingual.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap18/REVIEW_kichban_tap18_multilingual.md", "w", encoding="utf-8") as f:
     f.write(rev_multi.strip() + "\n")
 
 print("Created REVIEW_kichban_tap18_10chiau.md and REVIEW_kichban_tap18_multilingual.md successfully!")

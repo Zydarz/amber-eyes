@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(r"D:\TEST\Gax\amber-eyes")
 
 def process_t01():
-    t01_dir = ROOT / "02_SAN_XUAT" / "Tap01"
+    t01_dir = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap01"
     xb_dir = t01_dir / "xuat_ban"
     
     nguon_mo_ta_t01 = """Toàn bộ sự kiện, mốc thời gian, lời khai và phân tích y khoa trong video đã được đối chiếu với các nguồn tư liệu pháp lý, hồ sơ tòa án và báo chí điều tra công khai:
@@ -63,7 +63,7 @@ Toàn bộ các mốc thời gian, địa danh, quy trình điều tra y khoa v�
 
 
 def process_t02():
-    t02_dir = ROOT / "02_SAN_XUAT" / "Tap02"
+    t02_dir = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02"
     xb_dir = t02_dir / "xuat_ban"
 
     nguon_mo_ta_t02 = """Toàn bộ sự kiện, chức danh quân đội, lời khai thẩm vấn và mốc thời gian trong video đã được đối chiếu từng chi tiết với các nguồn hồ sơ tư pháp và điều tra công khai của Canada:
@@ -115,7 +115,7 @@ Toàn bộ các sự kiện, chức vụ quân sự, chi tiết điều tra và 
 
 
 def process_t05():
-    t05_dir = ROOT / "02_SAN_XUAT" / "Tap05"
+    t05_dir = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap05"
     xb_dir = t05_dir / "xuat_ban"
 
     nguon_mo_ta_t05 = """Toàn bộ sự kiện, tài liệu điều tra, phân tích pháp y số và diễn biến vụ án BTK trong video đã được đối chiếu với các nguồn hồ sơ công khai của Cảnh sát Wichita, FBI và báo chí Hoa Kỳ:

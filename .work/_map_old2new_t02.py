@@ -10,7 +10,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(r'D:/TEST/Gax/amber-eyes')
 OLD = ROOT / ".work/_cu/shot_table_t02_20261105_135553/KeHoach_Video_Tap02.md"
-NEW = ROOT / "02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md"
+NEW = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md"
 
 
 def read_rows(path):

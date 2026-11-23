@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Assemble the 3 complete markdown files for Episode 34:
-- 01_KICH_BAN/Tap34/kichban_tap34_19112026.md
-- 01_KICH_BAN/Tap34_EN/kichban_tap34_EN.md
-- 01_KICH_BAN/Tap34_JA/kichban_tap34_JA.md
+- 01_KICH_BAN/Ho_So_Toi_Pham/Tap34/kichban_tap34_19112026.md
+- 01_KICH_BAN/Ho_So_Toi_Pham/Tap34_EN/kichban_tap34_EN.md
+- 01_KICH_BAN/Ho_So_Toi_Pham/Tap34_JA/kichban_tap34_JA.md
 """
 
 from generate_tap34_vn import VN_SECTIONS
@@ -136,13 +136,13 @@ vn_md = build_markdown(VN_HEADER, VN_ACT_TITLES, VN_SECTIONS)
 en_md = build_markdown(EN_HEADER, EN_ACT_TITLES, EN_SECTIONS)
 ja_md = build_markdown(JA_HEADER, JA_ACT_TITLES, JA_SECTIONS)
 
-with open('01_KICH_BAN/Tap34/kichban_tap34_19112026.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap34/kichban_tap34_19112026.md', 'w', encoding='utf-8') as f:
     f.write(vn_md)
 
-with open('01_KICH_BAN/Tap34_EN/kichban_tap34_EN.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap34_EN/kichban_tap34_EN.md', 'w', encoding='utf-8') as f:
     f.write(en_md)
 
-with open('01_KICH_BAN/Tap34_JA/kichban_tap34_JA.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap34_JA/kichban_tap34_JA.md', 'w', encoding='utf-8') as f:
     f.write(ja_md)
 
 print("Generated markdown files successfully.")

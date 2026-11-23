@@ -26,8 +26,8 @@ def rows(p):
     return out
 
 
-vn = rows(ROOT / "02_SAN_XUAT" / "Tap05" / "KeHoach_Video_Tap05.md")
-en = rows(ROOT / "02_SAN_XUAT" / "Tap05_EN" / "KeHoach_Video_Tap05_EN.md")
+vn = rows(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap05" / "KeHoach_Video_Tap05.md")
+en = rows(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap05_EN" / "KeHoach_Video_Tap05_EN.md")
 print(f"VN {len(vn)} dong · EN {len(en)} dong\n")
 print(f"{'SHOT':6} {'CAU (VN)':22} {'CAU (EN)':22} {'VAI':10} {'NEN':10} LECH")
 diff = 0

@@ -15,7 +15,7 @@ print("-" * 75)
 
 for i in range(1, 30):
     k = f"{i:02d}"
-    ep_dir = ROOT / "02_SAN_XUAT" / f"Tap{k}"
+    ep_dir = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{k}"
     xb_dir = ep_dir / "xuat_ban"
 
     mota1 = ep_dir / "mo_ta.txt"

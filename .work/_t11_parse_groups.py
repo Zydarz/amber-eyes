@@ -2,7 +2,7 @@
 """Tập 11 — parse bảng shot mục 6 (VI) + in nhóm theo nền để lập kế hoạch tách (H25)."""
 import re, json, collections, sys
 
-MD = "02_SAN_XUAT/Tap11/KeHoach_Video_Tap11.md"
+MD = "02_SAN_XUAT/Ho_So_Toi_Pham/Tap11/KeHoach_Video_Tap11.md"
 ROW = re.compile(r"^\|\s*([1-5]-\d+)\s*\|(.*)$")
 
 

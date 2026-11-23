@@ -5,7 +5,7 @@ ROOT = Path(r"D:/TEST/Gax/amber-eyes")
 sys.path.insert(0, str(ROOT/".work"))
 from parse_kichban import parse_file
 
-els = parse_file(str(ROOT/"01_KICH_BAN/Tap09/kichban_tap09_23102026.md"))
+els = parse_file(str(ROOT/"01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_23102026.md"))
 sent = {}
 for e in els:
     for i, s in enumerate(e.get("sentences", []), 1):

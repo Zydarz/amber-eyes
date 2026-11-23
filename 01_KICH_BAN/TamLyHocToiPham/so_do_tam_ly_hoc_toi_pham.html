@@ -1,0 +1,1957 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bản Đồ Kiến Trúc Tâm Lý Học Tội Phạm (7 Trụ Cột)</title>
+  <style>
+    :root {
+      --bg-page: #0b1120;
+      --bg-surface: #111827;
+      --bg-card: #172033;
+      --bg-card-hover: #1e293b;
+      --bg-elevated: #0f172a;
+      --border-subtle: rgba(148, 163, 184, 0.16);
+      --border-strong: rgba(148, 163, 184, 0.34);
+      --text-primary: #f1f5f9;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+
+      --accent-existing: #38bdf8;
+      --accent-existing-bg: rgba(56, 189, 248, 0.14);
+      --accent-existing-border: rgba(56, 189, 248, 0.4);
+
+      --accent-added: #f59e0b;
+      --accent-added-bg: rgba(245, 158, 11, 0.14);
+      --accent-added-border: rgba(245, 158, 11, 0.42);
+
+      --accent-active: #a78bfa;
+      --accent-active-glow: rgba(167, 139, 250, 0.32);
+
+      --edge-default: rgba(148, 163, 184, 0.28);
+      --edge-active: #a78bfa;
+      --edge-out: #f59e0b;
+      --edge-in: #38bdf8;
+
+      --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.55);
+      --radius-lg: 16px;
+      --radius-md: 12px;
+      --radius-sm: 8px;
+    }
+
+    [data-theme="light"] {
+      --bg-page: #f4f6fb;
+      --bg-surface: #ffffff;
+      --bg-card: #ffffff;
+      --bg-card-hover: #f8fafc;
+      --bg-elevated: #eef2f9;
+      --border-subtle: rgba(15, 23, 42, 0.1);
+      --border-strong: rgba(15, 23, 42, 0.22);
+      --text-primary: #0f172a;
+      --text-secondary: #475569;
+      --text-muted: #64748b;
+
+      --accent-existing: #0284c7;
+      --accent-existing-bg: rgba(2, 132, 199, 0.1);
+      --accent-existing-border: rgba(2, 132, 199, 0.35);
+
+      --accent-added: #d97706;
+      --accent-added-bg: rgba(217, 119, 6, 0.11);
+      --accent-added-border: rgba(217, 119, 6, 0.38);
+
+      --accent-active: #6d28d9;
+      --accent-active-glow: rgba(109, 40, 217, 0.22);
+
+      --edge-default: rgba(100, 116, 139, 0.32);
+      --edge-active: #6d28d9;
+      --edge-out: #d97706;
+      --edge-in: #0284c7;
+
+      --shadow-card: 0 8px 24px -8px rgba(15, 23, 42, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-primary);
+      line-height: 1.55;
+      min-height: 100vh;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+
+    .app-shell {
+      max-width: 1460px;
+      margin: 0 auto;
+      padding: 24px 22px 48px;
+    }
+
+    /* Header */
+    .top-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 22px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .title-block h1 {
+      font-size: clamp(1.35rem, 2.2vw, 1.85rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .title-badge {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--accent-added-bg);
+      color: var(--accent-added);
+      border: 1px solid var(--accent-added-border);
+      vertical-align: middle;
+    }
+
+    .title-block p {
+      margin-top: 6px;
+      color: var(--text-secondary);
+      font-size: 0.93rem;
+      max-width: 780px;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      appearance: none;
+      border: 1px solid var(--border-strong);
+      background: var(--bg-card);
+      color: var(--text-primary);
+      padding: 8px 14px;
+      border-radius: var(--radius-sm);
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.18s ease;
+    }
+
+    .btn:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--accent-active);
+    }
+
+    .btn.primary {
+      background: var(--accent-active);
+      border-color: var(--accent-active);
+      color: #ffffff;
+    }
+
+    .btn.primary:hover {
+      filter: brightness(1.08);
+    }
+
+    /* Metrics Strip */
+    .kpi-strip {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .kpi-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 14px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .kpi-label {
+      font-size: 0.76rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+    }
+
+    .kpi-value {
+      font-size: 1.55rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+
+    .kpi-sub {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+    }
+
+    .kpi-existing .kpi-value { color: var(--accent-existing); }
+    .kpi-added .kpi-value { color: var(--accent-added); }
+    .kpi-total .kpi-value { color: var(--accent-active); }
+
+    /* Toolbar */
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 12px 14px;
+      margin-bottom: 20px;
+    }
+
+    .segmented {
+      display: inline-flex;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 3px;
+      gap: 3px;
+      flex-wrap: wrap;
+    }
+
+    .seg-btn {
+      border: none;
+      background: transparent;
+      color: var(--text-secondary);
+      padding: 7px 14px;
+      border-radius: 7px;
+      font-size: 0.84rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.18s ease;
+    }
+
+    .seg-btn:hover {
+      color: var(--text-primary);
+    }
+
+    .seg-btn.active {
+      background: var(--bg-card);
+      color: var(--text-primary);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.22);
+    }
+
+    .seg-btn[data-filter="existing"].active {
+      color: var(--accent-existing);
+    }
+
+    .seg-btn[data-filter="added"].active {
+      color: var(--accent-added);
+    }
+
+    .toolbar-right {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      flex: 1;
+      justify-content: flex-end;
+    }
+
+    .search-wrap {
+      position: relative;
+      min-width: 220px;
+      max-width: 310px;
+      flex: 1;
+    }
+
+    .search-input {
+      width: 100%;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-primary);
+      border-radius: 8px;
+      padding: 8px 32px 8px 12px;
+      font-size: 0.85rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent-active);
+    }
+
+    .search-clear {
+      position: absolute;
+      right: 8px;
+      top: 50%;
+      transform: translateY(-50%);
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 1rem;
+      display: none;
+    }
+
+    .step-controls {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .step-indicator {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text-secondary);
+      padding: 0 6px;
+      white-space: nowrap;
+    }
+
+    /* Main Workspace Grid */
+    .workspace {
+      display: grid;
+      grid-template-columns: minmax(0, 1.38fr) minmax(350px, 0.92fr);
+      gap: 20px;
+      align-items: start;
+    }
+
+    /* Diagram Canvas */
+    .diagram-panel {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 20px;
+      box-shadow: var(--shadow-card);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .diagram-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .diagram-header h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .legend {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .dot.existing { background: var(--accent-existing); }
+    .dot.added { background: var(--accent-added); }
+    .dot.active { background: var(--accent-active); }
+
+    .canvas-stage {
+      position: relative;
+      padding: 8px 4px;
+    }
+
+    #edges-svg, #labels-svg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: visible;
+    }
+
+    #edges-svg { z-index: 1; }
+    #labels-svg { z-index: 3; }
+
+    .edge-path {
+      fill: none;
+      stroke: var(--edge-default);
+      stroke-width: 2;
+      transition: stroke 0.25s ease, stroke-width 0.25s ease, opacity 0.25s ease;
+    }
+
+    .edge-path.highlight-out {
+      stroke: var(--edge-out);
+      stroke-width: 2.8;
+      stroke-dasharray: 8 5;
+      animation: flowDash 1.1s linear infinite;
+    }
+
+    .edge-path.highlight-in {
+      stroke: var(--edge-in);
+      stroke-width: 2.8;
+      stroke-dasharray: 8 5;
+      animation: flowDash 1.1s linear infinite;
+    }
+
+    .edge-path.dimmed {
+      opacity: 0.22;
+    }
+
+    .edge-label-bg {
+      fill: var(--bg-elevated);
+      stroke: var(--border-subtle);
+      stroke-width: 1;
+      rx: 6;
+      ry: 6;
+      transition: opacity 0.25s ease, stroke 0.25s ease;
+    }
+
+    .edge-label-text {
+      fill: var(--text-secondary);
+      font-size: 10.5px;
+      font-weight: 600;
+      text-anchor: middle;
+      dominant-baseline: middle;
+      transition: fill 0.25s ease, opacity 0.25s ease;
+    }
+
+    .edge-group.active .edge-label-bg {
+      stroke: var(--accent-active);
+    }
+
+    .edge-group.active .edge-label-text {
+      fill: var(--text-primary);
+    }
+
+    .edge-group.dimmed .edge-label-bg,
+    .edge-group.dimmed .edge-label-text {
+      opacity: 0.28;
+    }
+
+    @keyframes flowDash {
+      from { stroke-dashoffset: 26; }
+      to { stroke-dashoffset: 0; }
+    }
+
+    /* Layered Node Grid */
+    .layers {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 54px;
+    }
+
+    .layer-row {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 52px;
+      align-items: stretch;
+    }
+
+    .layer-row.single {
+      grid-template-columns: minmax(0, 0.72fr);
+      justify-content: center;
+    }
+
+    .node-card {
+      background: var(--bg-card);
+      border: 1.5px solid var(--border-strong);
+      border-radius: var(--radius-md);
+      padding: 15px 16px;
+      cursor: pointer;
+      transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, opacity 0.25s ease;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      user-select: none;
+    }
+
+    .node-card:hover {
+      transform: translateY(-2px);
+      background: var(--bg-card-hover);
+      border-color: var(--accent-active);
+    }
+
+    .node-card.active {
+      border-color: var(--accent-active);
+      box-shadow: 0 0 0 3px var(--accent-active-glow), var(--shadow-card);
+    }
+
+    .node-card.dimmed {
+      opacity: 0.36;
+    }
+
+    .node-card.related-in {
+      border-color: var(--accent-existing-border);
+    }
+
+    .node-card.related-out {
+      border-color: var(--accent-added-border);
+    }
+
+    .node-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .stage-pill {
+      font-size: 0.69rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: var(--bg-elevated);
+      color: var(--text-secondary);
+      border: 1px solid var(--border-subtle);
+    }
+
+    .node-card.active .stage-pill {
+      background: var(--accent-active);
+      color: #ffffff;
+      border-color: transparent;
+    }
+
+    .group-tag {
+      font-size: 0.74rem;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+
+    .node-title {
+      font-size: 0.98rem;
+      font-weight: 750;
+      color: var(--text-primary);
+      line-height: 1.3;
+    }
+
+    .node-desc {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      line-height: 1.4;
+    }
+
+    .node-counts {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: auto;
+      padding-top: 6px;
+    }
+
+    .count-pill {
+      font-size: 0.73rem;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .count-pill.existing {
+      background: var(--accent-existing-bg);
+      color: var(--accent-existing);
+      border: 1px solid var(--accent-existing-border);
+    }
+
+    .count-pill.added {
+      background: var(--accent-added-bg);
+      color: var(--accent-added);
+      border: 1px solid var(--accent-added-border);
+    }
+
+    .count-pill.zero {
+      opacity: 0.45;
+      border-style: dashed;
+    }
+
+    .mini-bar {
+      width: 100%;
+      height: 5px;
+      border-radius: 999px;
+      background: var(--bg-elevated);
+      overflow: hidden;
+      display: flex;
+      margin-top: 2px;
+    }
+
+    .mini-bar-existing {
+      background: var(--accent-existing);
+      height: 100%;
+      transition: width 0.3s ease;
+    }
+
+    .mini-bar-added {
+      background: var(--accent-added);
+      height: 100%;
+      transition: width 0.3s ease;
+    }
+
+    /* Inspector Panel */
+    .inspector-panel {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 20px;
+      box-shadow: var(--shadow-card);
+      position: sticky;
+      top: 18px;
+      max-height: calc(100vh - 36px);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .inspector-head {
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 14px;
+    }
+
+    .inspector-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+
+    .inspector-stage {
+      font-size: 0.74rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent-active);
+    }
+
+    .inspector-title {
+      font-size: 1.18rem;
+      font-weight: 800;
+      line-height: 1.3;
+      margin-bottom: 6px;
+    }
+
+    .inspector-summary {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+    }
+
+    .relations-box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .rel-chip {
+      font-size: 0.74rem;
+      font-weight: 600;
+      padding: 4px 9px;
+      border-radius: 6px;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .rel-chip:hover {
+      border-color: var(--accent-active);
+      color: var(--text-primary);
+    }
+
+    .rel-chip.in { border-left: 3px solid var(--accent-existing); }
+    .rel-chip.out { border-left: 3px solid var(--accent-added); }
+
+    .mech-list {
+      overflow-y: auto;
+      padding-right: 4px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      flex: 1;
+    }
+
+    .mech-list::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .mech-list::-webkit-scrollbar-thumb {
+      background: var(--border-strong);
+      border-radius: 999px;
+    }
+
+    .mech-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      padding: 12px 13px;
+      transition: border-color 0.2s ease;
+    }
+
+    .mech-item.status-existing {
+      border-left: 3.5px solid var(--accent-existing);
+    }
+
+    .mech-item.status-added {
+      border-left: 3.5px solid var(--accent-added);
+    }
+
+    .mech-item-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 5px;
+    }
+
+    .mech-name {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.35;
+    }
+
+    .status-badge {
+      font-size: 0.68rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 2px 7px;
+      border-radius: 999px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .status-badge.existing {
+      background: var(--accent-existing-bg);
+      color: var(--accent-existing);
+      border: 1px solid var(--accent-existing-border);
+    }
+
+    .status-badge.added {
+      background: var(--accent-added-bg);
+      color: var(--accent-added);
+      border: 1px solid var(--accent-added-border);
+    }
+
+    .mech-note {
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      line-height: 1.48;
+    }
+
+    .mech-case {
+      margin-top: 6px;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      background: var(--bg-elevated);
+      padding: 6px 9px;
+      border-radius: 6px;
+      line-height: 1.45;
+    }
+
+    .mech-case strong {
+      color: var(--text-secondary);
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 28px 16px;
+      color: var(--text-muted);
+      font-size: 0.86rem;
+      border: 1px dashed var(--border-strong);
+      border-radius: var(--radius-sm);
+    }
+
+    /* Reference Overview Table */
+    .overview-section {
+      margin-top: 26px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 20px;
+      box-shadow: var(--shadow-card);
+    }
+
+    .overview-section h3 {
+      font-size: 1.02rem;
+      font-weight: 750;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 11px 12px;
+      border-bottom: 1px solid var(--border-subtle);
+      vertical-align: top;
+    }
+
+    th {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+      background: var(--bg-elevated);
+    }
+
+    tbody tr {
+      cursor: pointer;
+      transition: background 0.15s ease;
+    }
+
+    tbody tr:hover {
+      background: var(--bg-card-hover);
+    }
+
+    .note-banner {
+      margin-top: 14px;
+      padding: 12px 14px;
+      border-radius: var(--radius-sm);
+      background: var(--bg-elevated);
+      border-left: 3.5px solid var(--accent-active);
+      font-size: 0.83rem;
+      color: var(--text-secondary);
+    }
+
+    .note-banner strong {
+      color: var(--text-primary);
+    }
+
+    footer {
+      margin-top: 24px;
+      text-align: center;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    /* Responsive */
+    @media (max-width: 1080px) {
+      .workspace {
+        grid-template-columns: 1fr;
+      }
+      .inspector-panel {
+        position: static;
+        max-height: none;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .kpi-strip {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .layer-row {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+      .layer-row.single {
+        grid-template-columns: 1fr;
+      }
+      .layers {
+        gap: 26px;
+      }
+    }
+
+    /* Print Styling */
+    @media print {
+      body {
+        background: #ffffff !important;
+        color: #0f172a !important;
+      }
+      .toolbar, .header-actions, .step-controls {
+        display: none !important;
+      }
+      .workspace {
+        grid-template-columns: 1fr !important;
+      }
+      .inspector-panel {
+        position: static !important;
+        max-height: none !important;
+        box-shadow: none !important;
+      }
+      .diagram-panel, .overview-section {
+        box-shadow: none !important;
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <!-- Top Header -->
+    <header class="top-header">
+      <div class="title-block">
+        <h1>
+          Bản Đồ Kiến Trúc Tâm Lý Học Tội Phạm
+          <span class="title-badge">7 Trụ Cột · 45 Cơ Chế</span>
+        </h1>
+        <p>
+          Sơ đồ tương tác mô phỏng mạch liên kết nhân quả từ <strong>Nền tảng Bệnh lý → Phòng vệ Vô thức → Ngắt kết nối Đạo đức → Thao túng Cưỡng chế → Hành vi Hiện trường → Tâm lý học Nạn nhân</strong>. Nhấn vào từng khối để đối chiếu bản gốc và các mảnh ghép bổ sung.
+        </p>
+      </div>
+      <div class="header-actions">
+        <button class="btn" id="theme-toggle" title="Đổi giao diện Sáng / Tối">☀️ Chế độ Sáng</button>
+        <button class="btn" id="print-btn" title="In hoặc lưu thành PDF">🖨️ In / Lưu PDF</button>
+      </div>
+    </header>
+
+    <!-- KPI Summary -->
+    <section class="kpi-strip">
+      <div class="kpi-card kpi-total">
+        <span class="kpi-label">Tổng cơ chế hoàn chỉnh</span>
+        <span class="kpi-value" id="kpi-total">45</span>
+        <span class="kpi-sub">Bao phủ 7 trụ cột (6 tầng sơ đồ)</span>
+      </div>
+      <div class="kpi-card kpi-existing">
+        <span class="kpi-label">Đã có trong bản gốc</span>
+        <span class="kpi-value" id="kpi-existing">18</span>
+        <span class="kpi-sub">Chiếm 40% tổng cơ chế (4 nhóm đầu)</span>
+      </div>
+      <div class="kpi-card kpi-added">
+        <span class="kpi-label">Mới bổ sung hoàn thiện</span>
+        <span class="kpi-value" id="kpi-added">27</span>
+        <span class="kpi-sub">15 cơ chế trong 4 nhóm + 12 ở 3 nhóm mới</span>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-label">Đang hiển thị theo bộ lọc</span>
+        <span class="kpi-value" id="kpi-filtered">45</span>
+        <span class="kpi-sub" id="kpi-filter-desc">Toàn bộ hệ thống</span>
+      </div>
+    </section>
+
+    <!-- Interactive Controls Toolbar -->
+    <section class="toolbar">
+      <div class="segmented" role="tablist" aria-label="Lọc trạng thái cơ chế">
+        <button class="seg-btn active" data-filter="all">Tất cả cơ chế (45)</button>
+        <button class="seg-btn" data-filter="existing">Đã có trong bản gốc (18)</button>
+        <button class="seg-btn" data-filter="added">Mới bổ sung (27)</button>
+      </div>
+
+      <div class="toolbar-right">
+        <div class="search-wrap">
+          <input type="text" id="search-input" class="search-input" placeholder="Tìm cơ chế (VD: Bandura, DARVO, BTK, MO...)" />
+          <button id="search-clear" class="search-clear" title="Xóa tìm kiếm">✕</button>
+        </div>
+
+        <div class="step-controls">
+          <button class="btn" id="prev-step">← Trước</button>
+          <span class="step-indicator" id="step-indicator">Tầng 1 / 6</span>
+          <button class="btn" id="next-step">Tiếp →</button>
+          <button class="btn primary" id="autoplay-btn">▶ Trình chiếu</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Workspace -->
+    <main class="workspace">
+      <!-- Left: Causal Diagram -->
+      <section class="diagram-panel">
+        <div class="diagram-header">
+          <h2>Sơ Đồ Mạch Liên Kết Nhân Quả (6 Tầng Kiến Trúc)</h2>
+          <div class="legend">
+            <span class="legend-item"><span class="dot existing"></span>Đã có (Gốc)</span>
+            <span class="legend-item"><span class="dot added"></span>Mới bổ sung</span>
+            <span class="legend-item"><span class="dot active"></span>Khối đang chọn</span>
+          </div>
+        </div>
+
+        <div class="canvas-stage" id="canvas-stage">
+          <svg id="edges-svg" aria-hidden="true">
+            <defs>
+              <marker id="arrow-default" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+                <path d="M 0 1 L 10 5 L 0 9 z" fill="rgba(148,163,184,0.55)" />
+              </marker>
+              <marker id="arrow-out" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M 0 1 L 10 5 L 0 9 z" fill="#f59e0b" />
+              </marker>
+              <marker id="arrow-in" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8" />
+              </marker>
+            </defs>
+            <g id="edges-layer"></g>
+          </svg>
+          <svg id="labels-svg" aria-hidden="true">
+            <g id="labels-layer"></g>
+          </svg>
+
+          <div class="layers" id="layers-container">
+            <!-- Row 1: Root & Ego Defense -->
+            <div class="layer-row">
+              <div class="node-card" data-node="N3" id="node-N3"></div>
+              <div class="node-card" data-node="N1" id="node-N1"></div>
+            </div>
+            <!-- Row 2: Moral Switch -->
+            <div class="layer-row single">
+              <div class="node-card" data-node="N2" id="node-N2"></div>
+            </div>
+            <!-- Row 3: Coercive Control -->
+            <div class="layer-row single">
+              <div class="node-card" data-node="N4" id="node-N4"></div>
+            </div>
+            <!-- Row 4: Execution/Profiling & Victimology -->
+            <div class="layer-row">
+              <div class="node-card" data-node="N5" id="node-N5"></div>
+              <div class="node-card" data-node="N6" id="node-N6"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Right: Detail Inspector -->
+      <aside class="inspector-panel" id="inspector-panel">
+        <div class="inspector-head">
+          <div class="inspector-meta">
+            <span class="inspector-stage" id="insp-stage">TẦNG 1 · NHÓM 4</span>
+            <span class="count-pill existing" id="insp-count-badge">8 cơ chế</span>
+          </div>
+          <h2 class="inspector-title" id="insp-title">Rối loạn Nhân cách & Đặc tính Bệnh lý</h2>
+          <p class="inspector-summary" id="insp-summary"></p>
+          <div class="relations-box" id="insp-relations"></div>
+        </div>
+
+        <div class="mech-list" id="mech-list"></div>
+      </aside>
+    </main>
+
+    <!-- Bottom Overview Reference Table -->
+    <section class="overview-section">
+      <h3>
+        <span>Bảng Đối Chiếu Toàn Cảnh 7 Trụ Cột Tâm Lý Học Tội Phạm</span>
+        <span style="font-size:0.78rem; font-weight:500; color:var(--text-muted);">Nhấn vào bất kỳ hàng nào để nhảy tới khối tương ứng trên sơ đồ</span>
+      </h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Trụ cột / Nhóm</th>
+              <th>Giai đoạn trong chuỗi gây án</th>
+              <th>Đã có (Bản gốc)</th>
+              <th>Mới bổ sung</th>
+              <th>Điểm nhấn học thuật cần lưu ý</th>
+            </tr>
+          </thead>
+          <tbody id="overview-tbody"></tbody>
+        </table>
+      </div>
+      <div class="note-banner">
+        <strong>Lưu ý phân loại học thuật:</strong> Trong Nhóm 3, <em>Hội chứng Đấng cứu thế (Hero Complex)</em> và <em>Münchausen do ủy thác (Factitious Disorder Imposed on Another)</em> thực chất nghiêng về <strong>động cơ gây án / rối loạn bệnh lý</strong> hơn là kỹ thuật "kiểm soát cưỡng chế" thuần túy. Bạn có thể giữ tại Nhóm 3 hoặc chuyển sang Nhóm 4 tùy mục đích biên tập.
+      </div>
+    </section>
+
+    <footer>
+      Bản Đồ Kiến Trúc Tâm Lý Học Tội Phạm · Tệp HTML tương tác độc lập (hoạt động hoàn toàn ngoại tuyến)
+    </footer>
+  </div>
+
+  <script>
+    const NODES = [
+      {
+        id: "N3",
+        order: 1,
+        stageLabel: "Tầng 1 · Nền tảng nội tâm",
+        groupLabel: "Nhóm 4 (Dark Tetrad+)",
+        title: "Rối loạn Nhân cách & Đặc tính Bệnh lý",
+        shortDesc: "Cấu trúc nhân cách lõi, thiếu hụt thấu cảm, ái kỷ, bạo dâm hoặc loạn thần tạo mầm mống gây án.",
+        summary: "Nền tảng tâm lý và cấu trúc nhân cách bất thường định hình động cơ gốc. Bản gốc đã nêu Machiavellianism (1/4 của Bộ Tứ Bóng Tối – Dark Tetrad) và được bổ sung trọn vẹn 3 mảnh ghép còn lại cùng nhóm loạn thần.",
+        mechanisms: [
+          {
+            name: "Hội chứng Xảo quyệt (Machiavellianism)",
+            status: "existing",
+            note: "Lối tư duy toan tính lạnh lùng, xem con người là quân cờ trên bàn cờ quyền lực, phương châm 'mục đích biện minh cho phương tiện'.",
+            caseText: "Lập kế hoạch thao túng tài chính, chính trị hoặc giăng bẫy dài hơi không chút cảm xúc."
+          },
+          {
+            name: "Nói dối bệnh lý (Pathological Lying / Pseudologia Fantastica)",
+            status: "existing",
+            note: "Bắt buộc phải nói dối liên tục về danh tính, bằng cấp, chiến tích dù không mang lại lợi ích tài chính rõ rệt; chính họ cũng tin vào lời nói dối đó.",
+            caseText: "Kẻ mạo danh bác sĩ, phi công, điệp viên suốt hàng chục năm cho đến khi bị lộ và gây thảm kịch (hồ sơ Jean-Claude Romand)."
+          },
+          {
+            name: "Cơn nghiện ảo tưởng & Leo thang kích thích (Fantasy Addiction & Escalation)",
+            status: "existing",
+            note: "Não bộ quen liều kích thích và rơi vào trạng thái 'đói ảo tưởng', bắt buộc nâng cấp hành vi lệch lạc từ nhẹ lên đặc biệt nghiêm trọng.",
+            caseText: "Tiến trình leo thang kinh điển: rình mò → đột nhập → tấn công → tước đoạt mạng sống."
+          },
+          {
+            name: "Ảo tưởng cuồng yêu (Erotomania)",
+            status: "existing",
+            note: "Niềm tin hoang tưởng bất di bất dịch rằng một người có địa vị cao hơn (người nổi tiếng, sếp, người yêu cũ) đang thầm yêu mình.",
+            caseText: "Dẫn đến theo dõi dai dẳng (stalking), xâm nhập tư gia và tấn công khi bị cự tuyệt."
+          },
+          {
+            name: "Thái nhân cách (Psychopathy) & Nhân cách chống đối xã hội (ASPD / Sociopathy)",
+            status: "added",
+            note: "Thiếu hụt nghiêm trọng khả năng thấu cảm cảm xúc và cảm giác hối hận; quyến rũ bề mặt (superficial charm), coi thường pháp luật. Psychopathy thiên về bẩm sinh/lạnh lùng; Sociopathy thiên về môi trường/bốc đồng.",
+            caseText: "Đặc tính lõi ở phần lớn sát nhân hàng loạt có tổ chức và tội phạm cổ cồn trắng quy mô lớn."
+          },
+          {
+            name: "Ái kỷ bệnh lý (NPD) & Cơn thịnh nộ ái kỷ (Narcissistic Rage)",
+            status: "added",
+            note: "Hoang tưởng tự đại, khao khát được ngưỡng mộ tuyệt đối. Khi cái tôi bị tổn thương do bị vạch trần hoặc bị bỏ rơi (Narcissistic Injury), họ bùng nổ cơn thịnh nộ hủy diệt.",
+            caseText: "Động cơ trung tâm trong các vụ án sát hại cả gia đình (Family Annihilators) khi người trụ cột đối mặt phá sản hoặc ly hôn."
+          },
+          {
+            name: "Bạo dâm bệnh lý (Sadism)",
+            status: "added",
+            note: "Trực tiếp tìm thấy khoái cảm (quyền lực hoặc tình dục) từ việc gây ra đau đớn, hoảng loạn và khuất phục cho nạn nhân — mảnh ghép hoàn thiện Dark Tetrad.",
+            caseText: "Hung thủ kéo dài thời gian tra tấn thay vì kết liễu nhanh vì sự đau khổ của nạn nhân mới là mục đích tối thượng."
+          },
+          {
+            name: "Loạn thần & Hoang tưởng (Psychosis & Command Hallucinations)",
+            status: "added",
+            note: "Mất kết nối với thực tại, xuất hiện hoang tưởng bị hại (Paranoid Delusions) hoặc ảo thanh ra lệnh buộc phải tấn công.",
+            caseText: "Ranh giới mấu chốt trong giám định pháp y tâm thần nhằm xác định năng lực trách nhiệm hình sự (Insanity Defense)."
+          }
+        ]
+      },
+      {
+        id: "N1",
+        order: 2,
+        stageLabel: "Tầng 2 · Bảo vệ bản ngã",
+        groupLabel: "Nhóm 1 (Defense Mechanisms)",
+        title: "Các Cơ Chế Phòng Vệ Vô Thức",
+        shortDesc: "Não bộ tự 'bóp méo thực tại' để che chắn bản ngã trước sợ hãi, lo âu và cảm giác tội lỗi.",
+        summary: "Những bộ lọc tâm lý hoạt động ở tầng vô thức giúp thủ phạm duy trì hình ảnh bản thân không sụp đổ. Bổ sung 4 cơ chế sống còn, nổi bật nhất là Ngăn khoang tâm lý của các sát nhân hai mặt.",
+        mechanisms: [
+          {
+            name: "Phóng chiếu (Projection)",
+            status: "existing",
+            note: "Gán những suy nghĩ, động cơ xấu xa hoặc thù hận của chính mình lên người khác.",
+            caseText: "Kẻ bạo hành hoặc sát hại khăng khăng: 'Chính nó đang âm mưu hãm hại/khinh thường tôi trước, tôi chỉ tự vệ'."
+          },
+          {
+            name: "Hợp lý hóa (Rationalization)",
+            status: "existing",
+            note: "Tạo ra lý do nghe có vẻ hợp logic và đạo đức để biện minh cho hành vi sai trái.",
+            caseText: "Kẻ tham ô ngụy biện: 'Công ty này bóc lột tôi, họ có bảo hiểm chi trả, lấy vài đồng chẳng ảnh hưởng ai'."
+          },
+          {
+            name: "Phản ứng ngược / Đối nghịch (Reaction Formation)",
+            status: "existing",
+            note: "Thể hiện ra bên ngoài hành vi hoàn toàn trái ngược với thôi thúc đen tối bị đè nén bên trong.",
+            caseText: "Kẻ có xu hướng lệch lạc lại trở thành người vận động chống tệ nạn nhiệt thành nhất, hoặc tỏ ra cực kỳ thánh thiện."
+          },
+          {
+            name: "Trí tuệ hóa (Intellectualization)",
+            status: "existing",
+            note: "Dùng ngôn ngữ khoa học, học thuật lạnh lùng để né tránh cảm xúc kinh hoàng của hành vi.",
+            caseText: "Hung thủ mô tả hành vi sát hại như một 'thí nghiệm giải phẫu' hay 'bài toán logic', hoàn toàn không tội lỗi."
+          },
+          {
+            name: "Chuyển dịch (Displacement)",
+            status: "existing",
+            note: "Trút giận/xả cảm xúc từ đối tượng nguy hiểm (sếp, cha mẹ bạo hành) sang đối tượng an toàn, yếu thế hơn.",
+            caseText: "Bị làm nhục ở nơi làm việc nhưng không dám phản kháng → về nhà trút giận lên vợ con, người lạ hoặc thú cưng."
+          },
+          {
+            name: "Ngăn khoang tâm lý (Compartmentalization) & Phân ly (Dissociation)",
+            status: "added",
+            note: "Não bộ xây 'vách ngăn kín' tách biệt hoàn toàn các bản ngã mâu thuẫn để không cảm thấy xung đột đạo đức khi chuyển vai.",
+            caseText: "Cơ chế sống còn của sát nhân 'hai mặt' (Dennis Rader – BTK): ban ngày là người cha mẫu mực, ban đêm là kẻ sát nhân tàn bạo."
+          },
+          {
+            name: "Phủ nhận (Denial)",
+            status: "added",
+            note: "Từ chối tuyệt đối việc thừa nhận thực tại hoặc hành vi đã gây ra, ngay cả khi đối diện bằng chứng không thể chối cãi.",
+            caseText: "Hung thủ phủ nhận tội ác suốt hàng thập kỷ trong tù, hoặc cha mẹ bạo hành không tin vết thương trên con là do mình."
+          },
+          {
+            name: "Chẻ tách / Tư duy Trắng–Đen (Splitting)",
+            status: "added",
+            note: "Nhìn nhận người khác cực đoan — hoặc hoàn toàn là 'thiên thần', hoặc hoàn toàn là 'ác quỷ', không có vùng xám.",
+            caseText: "Khi nạn nhân mắc lỗi nhỏ hoặc đòi chia tay, hình tượng sụp đổ tức thì → chuyển từ yêu cuồng sang căm thù tuyệt đối và sát hại."
+          },
+          {
+            name: "Giảm thiểu hóa (Minimization)",
+            status: "added",
+            note: "Thừa nhận hành vi có xảy ra nhưng cố tình hạ thấp mức độ tàn khốc và hậu quả của nó.",
+            caseText: "Kẻ bạo hành khai: 'Tôi chỉ vung tay gạt nhẹ, ai ngờ cô ấy ngã đập đầu' nhằm tự xoa dịu cảm giác tội lỗi."
+          }
+        ]
+      },
+      {
+        id: "N2",
+        order: 3,
+        stageLabel: "Tầng 3 · Tắt công tắc lương tâm",
+        groupLabel: "Nhóm 2 (Bandura 8/8)",
+        title: "Cơ Chế Ngắt Kết Nối Đạo Đức",
+        shortDesc: "Mô hình hoàn chỉnh 8 cơ chế của Albert Bandura giúp hung thủ vô hiệu hóa lương tâm trước và sau khi gây án.",
+        summary: "Cầu nối quyết định biến xung đột nội tâm thành hành động phạm tội. Bản gốc đã có 5 cơ chế; bổ sung đủ 3 cơ chế gốc còn lại để hoàn thiện 8/8 trụ cột trong lý thuyết Albert Bandura.",
+        mechanisms: [
+          {
+            name: "Phi nhân hóa (Dehumanization)",
+            status: "existing",
+            note: "Tước bỏ phẩm giá làm người của nạn nhân, coi họ như đồ vật, loài vật hoặc cặn bã.",
+            caseText: "Sát nhân hàng loạt coi nạn nhân là 'rác rưởi cần dọn dẹp' hoặc 'đạo cụ' sưu tập để xóa sạch sự trắc ẩn."
+          },
+          {
+            name: "Gán nhãn hoa mỹ (Euphemistic Labeling)",
+            status: "existing",
+            note: "Dùng từ ngữ giảm nhẹ, trung tính để bình thường hóa tội ác.",
+            caseText: "Gọi thủ tiêu là 'xử lý công việc', lừa đảo là 'thu phí quản lý', tra tấn là 'biện pháp nghiệp vụ tăng cường'."
+          },
+          {
+            name: "Đổ lỗi cho nạn nhân (Victim Blaming)",
+            status: "existing",
+            note: "Khẳng định chính nạn nhân là người đã khiêu khích hoặc 'tự chuốc lấy' thảm kịch.",
+            caseText: "Kẻ xâm hại đổ lỗi cho trang phục hoặc sự tin tưởng: 'Cô ta tự đưa mình vào bẫy, cô ta muốn thế'."
+          },
+          {
+            name: "Khuếch tán trách nhiệm (Diffusion of Responsibility)",
+            status: "existing",
+            note: "Khi hành động theo nhóm, cá nhân cảm thấy trách nhiệm được chia nhỏ và mình không phải kẻ chủ mưu.",
+            caseText: "Các vụ bạo lực hội đồng, tội phạm băng đảng hoặc gian lận nội bộ tập thể."
+          },
+          {
+            name: "So sánh ưu thế (Advantageous Comparison)",
+            status: "existing",
+            note: "So sánh tội của mình với một tội ác tàn khốc hơn nhiều để thấy bản thân vẫn còn 'nhân từ'.",
+            caseText: "'Tôi chỉ trộm tiền chứ có giết người như mấy kẻ cướp đâu'."
+          },
+          {
+            name: "Biện minh đạo đức (Moral Justification)",
+            status: "added",
+            note: "Khoác lên tội ác một 'sứ mệnh cao cả' về tôn giáo, danh dự gia đình, lý tưởng chính trị hoặc công lý tự xưng.",
+            caseText: "Tội phạm khủng bố, giết người vì danh dự (honor killing), hoặc kẻ sát nhân tự tin mình đang 'thay trời thanh lọc xã hội'."
+          },
+          {
+            name: "Chuyển dịch trách nhiệm (Displacement of Responsibility)",
+            status: "added",
+            note: "Khác với khuếch tán (chia đều cho nhóm), cơ chế này đẩy toàn bộ trách nhiệm đạo đức lên một cá nhân có thẩm quyền cao hơn.",
+            caseText: "Lời biện hộ kinh điển 'Tôi chỉ làm theo mệnh lệnh cấp trên' trong tội ác chiến tranh hoặc đồng phạm đổ lỗi cho kẻ cầm đầu."
+          },
+          {
+            name: "Bóp méo hoặc phớt lờ hậu quả (Disregard or Distortion of Consequences)",
+            status: "added",
+            note: "Chủ động tạo khoảng cách vật lý hoặc tâm lý để không phải chứng kiến nỗi đau trực tiếp của nạn nhân.",
+            caseText: "Hung thủ che mặt nạn nhân khi ra tay, hoặc tội phạm lừa đảo mạng chiếm đoạt tiền dưỡng già mà không day dứt vì không thấy nước mắt nạn nhân."
+          }
+        ]
+      },
+      {
+        id: "N4",
+        order: 4,
+        stageLabel: "Tầng 4 · Triển khai kiểm soát",
+        groupLabel: "Nhóm 3 (Manipulation)",
+        title: "Thao Túng & Kiểm Soát Cưỡng Chế",
+        shortDesc: "Các chiến thuật tâm lý làm xói mòn nhận thức, gây lệ thuộc sinh hóa và vô hiệu hóa sức phản kháng của nạn nhân.",
+        summary: "Giai đoạn hung thủ tác động trực tiếp lên nhận thức và cảm xúc nạn nhân. Bổ sung 4 chiến thuật trọng tâm trong điều tra hiện đại: Gắn kết sang chấn, DARVO, Grooming và Cô lập/Tam giác hóa.",
+        mechanisms: [
+          {
+            name: "Thao túng thực tại (Gaslighting)",
+            status: "existing",
+            note: "Làm nạn nhân tự nghi ngờ trí nhớ, nhận thức và sự tỉnh táo của chính mình.",
+            caseText: "Kẻ độc hại dần cô lập nạn nhân, khiến họ nghĩ mình bị hoang tưởng hoặc điên loạn trước khi kiểm soát hoàn toàn."
+          },
+          {
+            name: "Bắn phá tình cảm (Love Bombing) & Thu hồi tình cảm (Devaluation)",
+            status: "existing",
+            note: "Dội dập quan tâm, quà cáp, khen ngợi ở giai đoạn đầu để gây lệ thuộc → sau đó đột ngột lạnh nhạt, chỉ trích để nắm quyền thao túng.",
+            caseText: "Điển hình trong các vụ lừa đảo tình–tiền (romance scam) hoặc mối quan hệ bạo lực gia đình leo thang."
+          },
+          {
+            name: "Hội chứng Đấng cứu thế (Hero Complex / Savior Complex)",
+            status: "existing",
+            note: "Tự tạo thảm họa hoặc đầu độc nạn nhân, sau đó đóng vai người hùng cứu chữa hoặc khóc thương. (Lưu ý: nghiêng về động cơ bệnh lý).",
+            caseText: "Các vụ án 'Thiên thần áo trắng' — nhân viên y tế lén tiêm thuốc quá liều rồi giả vờ tích cực cấp cứu để được khen ngợi."
+          },
+          {
+            name: "Hội chứng Münchausen do ủy thác (Münchausen by proxy)",
+            status: "existing",
+            note: "Người chăm sóc cố tình làm cho người phụ thuộc (thường là con cái) bị bệnh hoặc giả ốm nặng để nhận sự thương hại, chú ý. (Lưu ý: nghiêng về rối loạn bệnh lý).",
+            caseText: "Gây tổn thương kéo dài hoặc đầu độc tinh vi con nhỏ dưới vỏ bọc người mẹ tận tụy."
+          },
+          {
+            name: "Gắn kết sang chấn (Trauma Bonding)",
+            status: "added",
+            note: "Chu kỳ lặp lại giữa bạo hành tàn nhẫn và xin lỗi/thưởng ngọt ngào tạo dao động cortisol–dopamine gây nghiện sinh hóa khiến nạn nhân lệ thuộc kẻ hành hạ.",
+            caseText: "Lý giải vì sao nhiều nạn nhân bạo lực gia đình hoặc mua bán người nhiều lần quay lại với thủ phạm dù có cơ hội trốn thoát."
+          },
+          {
+            name: "Kỹ thuật DARVO (Deny – Attack – Reverse Victim and Offender)",
+            status: "added",
+            note: "Chuỗi phản xạ 3 bước khi bị chất vấn: Phủ nhận hành vi → Tấn công uy tín người tố cáo → Đảo ngược vai biến mình thành nạn nhân bị bức hại.",
+            caseText: "Rất phổ biến ở tội phạm tình dục, lừa đảo và bạo hành tâm lý khi bị vạch trần trước gia đình hoặc truyền thông."
+          },
+          {
+            name: "Mồi chài / Chuẩn bị tâm lý (Grooming)",
+            status: "added",
+            note: "Quy trình dài hơi xây dựng lòng tin, thử nghiệm ranh giới dần dần (boundary testing), tạo bí mật chung và bình thường hóa hành vi lệch lạc.",
+            caseText: "Đặc trưng trong các vụ xâm hại trẻ em, lừa đảo trực tuyến và tuyển mộ vào đường dây buôn người."
+          },
+          {
+            name: "Cô lập xã hội (Isolation) & Tam giác hóa (Triangulation)",
+            status: "added",
+            note: "Cắt đứt từng bước nguồn hỗ trợ (gia đình, bạn bè, tài chính) của nạn nhân; đồng thời kéo người thứ ba vào tạo bất an, ghen tuông nhằm giữ nạn nhân ở thế yếu.",
+            caseText: "Bước đệm bắt buộc trước khi kiểm soát cưỡng chế chuyển hóa thành giam giữ hoặc bạo lực nghiêm trọng."
+          }
+        ]
+      },
+      {
+        id: "N5",
+        order: 5,
+        stageLabel: "Tầng 5 · Bối cảnh & Dấu vết",
+        groupLabel: "Nhóm 5 & 6 (Mới bổ sung)",
+        title: "Động Lực Xã Hội & Hành Vi Hiện Trường",
+        shortDesc: "Tác động của băng đảng/đám đông và các dấu vết tâm lý học để lại tại hiện trường phục vụ lập hồ sơ tội phạm (Profiling).",
+        summary: "Hai trụ cột vĩ mô mới hoàn toàn so với bản gốc: Nhóm 5 giải thích cơ chế phạm tội tập thể/giáo phái, còn Nhóm 6 giải mã chữ ký tâm lý của hung thủ tại hiện trường vụ án.",
+        mechanisms: [
+          {
+            name: "[Nhóm 5] Phi cá nhân hóa (Deindividuation)",
+            status: "added",
+            note: "Khi ẩn mình trong đám đông, đeo mặt nạ, mặc đồng phục hoặc ẩn danh trên mạng, ý thức trách nhiệm cá nhân bị hòa tan.",
+            caseText: "Kích hoạt bạo lực bầy đàn, bạo loạn đường phố hoặc bắt nạt mạng cực đoan."
+          },
+          {
+            name: "[Nhóm 5] Tuân phục quyền lực (Milgram) & Tư duy nhóm (Groupthink)",
+            status: "added",
+            note: "Sức ép đồng thuận và phục tùng lãnh đạo khiến những người vốn bình thường thực hiện hành vi tàn ác vượt chuẩn đạo đức.",
+            caseText: "Điển hình trong các giáo phái cực đoan, băng đảng và mạng lưới tội phạm có tổ chức."
+          },
+          {
+            name: "[Nhóm 5] Hội chứng điên loạn chung (Folie à deux)",
+            status: "added",
+            note: "Một cá nhân chi phối mạnh mẽ truyền nhiễm niềm tin hoang tưởng hoặc ham muốn sát nhân sang người lệ thuộc.",
+            caseText: "Cơ chế tâm lý kinh điển đằng sau nhiều cặp đôi sát nhân (killer couples)."
+          },
+          {
+            name: "[Nhóm 5] Hiệu ứng người ngoài cuộc (Bystander Effect)",
+            status: "added",
+            note: "Càng nhiều người chứng kiến tội ác, xác suất một cá nhân đứng ra can thiệp càng giảm do tâm lý ỷ lại và đánh giá sai mức độ khẩn cấp.",
+            caseText: "Nhiều vụ tấn công nơi công cộng diễn ra trước mắt hàng chục nhân chứng nhưng không ai gọi cứu hộ kịp thời."
+          },
+          {
+            name: "[Nhóm 6] Phương thức gây án (MO) vs. Chữ ký tội phạm (Signature)",
+            status: "added",
+            note: "MO là hành động kỹ thuật để thực hiện tội ác và tẩu thoát (có thể nâng cấp theo kinh nghiệm). Signature là hành vi thừa về kỹ thuật nhưng bắt buộc để thỏa mãn ảo tưởng tâm lý và hầu như không đổi.",
+            caseText: "Cơ sở cốt lõi của FBI Behavioral Analysis để liên kết chuỗi án của cùng một sát nhân hàng loạt."
+          },
+          {
+            name: "[Nhóm 6] Hành vi 'Hủy bỏ biểu tượng' (Undoing)",
+            status: "added",
+            note: "Sau khi sát hại, hung thủ đắp chăn, rửa mặt hoặc đặt thi thể ngay ngắn vì một thoáng hối hận hoặc muốn xóa hình ảnh tội ác khỏi nhận thức.",
+            caseText: "Manh mối vàng giúp điều tra viên khoanh vùng hung thủ có quan hệ thân thiết với nạn nhân."
+          },
+          {
+            name: "[Nhóm 6] Dàn dựng hiện trường (Staging)",
+            status: "added",
+            note: "Cố tình thay đổi hiện trường (đập phá cửa, lục tung đồ đạc) để đánh lạc hướng cơ quan điều tra sang một động cơ khác.",
+            caseText: "Ngụy tạo vụ giết người tình hoặc người thân thành một vụ cướp đột nhập ngẫu nhiên."
+          },
+          {
+            name: "[Nhóm 6] Chiến lợi phẩm (Trophies / Souvenirs) & Thời gian nguội (Cooling-off Period)",
+            status: "added",
+            note: "Hung thủ giữ đồ vật nạn nhân để tái kích hoạt cảm giác quyền lực; thời gian nguội là khoảng nghỉ giữa các lần gây án trước khi cơn đói ảo tưởng bùng phát lại.",
+            caseText: "Tìm thấy bộ sưu tập trang sức/giấy tờ nạn nhân là chứng cứ then chốt kết nối toàn bộ chuỗi vụ án."
+          },
+          {
+            name: "[Nhóm 6] Hội chứng Herostratus & Hiệu ứng bắt chước (Copycat Effect)",
+            status: "added",
+            note: "Gây ra tội ác chấn động thuần túy để được truyền thông đưa tin rộng rãi, khắc tên vào lịch sử; hoặc bắt chước kịch bản của một tội phạm nổi tiếng trước đó.",
+            caseText: "Xuất hiện rõ trong các vụ xả súng nơi công cộng hoặc gửi thư thách thức báo chí."
+          }
+        ]
+      },
+      {
+        id: "N6",
+        order: 6,
+        stageLabel: "Tầng 6 · Góc nhìn nạn nhân",
+        groupLabel: "Nhóm 7 (Mới bổ sung)",
+        title: "Tâm Lý Học Nạn Nhân (Victimology)",
+        shortDesc: "Cơ chế sinh tồn thần kinh và thích nghi tâm lý của nạn nhân trước bạo lực, bắt cóc và kiểm soát dài hạn.",
+        summary: "Mảnh ghép nhân văn và pháp lý quan trọng giúp giải mã những hành vi tưởng chừng 'khó hiểu' của nạn nhân (như không bỏ trốn, không kêu cứu hay bảo vệ thủ phạm), tránh định kiến sai lầm trong điều tra tố tụng.",
+        mechanisms: [
+          {
+            name: "Hội chứng Stockholm (Stockholm Syndrome)",
+            status: "added",
+            note: "Nạn nhân nảy sinh cảm giác đồng cảm, gắn bó hoặc bảo vệ chính kẻ bắt cóc/bạo hành như một chiến lược sinh tồn vô thức trước mối đe dọa tính mạng.",
+            caseText: "Nạn nhân bị giam giữ lâu ngày từ chối hợp tác với cảnh sát hoặc biện hộ cho kẻ bắt cóc."
+          },
+          {
+            name: "Sự bất lực tập nhiễm (Learned Helplessness – Martin Seligman)",
+            status: "added",
+            note: "Sau nhiều lần vùng vẫy, phản kháng hoặc cầu cứu đều thất bại và bị trừng phạt nặng hơn, nạn nhân tin mình hoàn toàn vô lực.",
+            caseText: "Nạn nhân ngừng tìm cách trốn thoát ngay cả khi cánh cửa mở ra hoặc thủ phạm tạm thời vắng mặt."
+          },
+          {
+            name: "Phản ứng Đóng băng (Freeze) & Lấy lòng để sinh tồn (Fawn Response)",
+            status: "added",
+            note: "Bên cạnh Chiến hoặc Chạy (Fight/Flight), hệ thần kinh tự động chuyển sang tê liệt (Freeze) hoặc ngoan ngoãn làm hài lòng kẻ tấn công (Fawn) để giảm nguy cơ bị sát hại.",
+            caseText: "Trong thực tế tố tụng, hai phản ứng sinh học này rất dễ bị hiểu nhầm thành 'không phản kháng' hoặc 'đồng thuận'."
+          }
+        ]
+      }
+    ];
+
+    const EDGES = [
+      { source: "N3", target: "N1", label: "Phòng vệ bản ngã" },
+      { source: "N1", target: "N2", label: "Bóp méo → Tắt lương tâm" },
+      { source: "N3", target: "N2", label: "Thiếu thấu cảm" },
+      { source: "N2", target: "N4", label: "Hợp thức hóa thao túng" },
+      { source: "N4", target: "N5", label: "Hành vi & Dấu vết" },
+      { source: "N4", target: "N6", label: "Bào mòn nạn nhân" },
+      { source: "N5", target: "N6", label: "Phản xạ sinh tồn" }
+    ];
+
+    const OVERVIEW_ROWS = [
+      {
+        nodeId: "N1",
+        pillar: "Nhóm 1: Cơ chế phòng vệ vô thức",
+        stage: "Tầng 2 · Bảo vệ bản ngã",
+        existing: "5 cơ chế",
+        added: "+4 cơ chế",
+        highlight: "Bổ sung Ngăn khoang tâm lý (Compartmentalization) — chìa khóa giải mã sát nhân 'hai mặt'."
+      },
+      {
+        nodeId: "N2",
+        pillar: "Nhóm 2: Ngắt kết nối đạo đức (Bandura)",
+        stage: "Tầng 3 · Tắt công tắc lương tâm",
+        existing: "5/8 cơ chế",
+        added: "+3 cơ chế",
+        highlight: "Hoàn thiện trọn vẹn 8/8 cơ chế gốc của Albert Bandura (Biện minh đạo đức, Chuyển dịch trách nhiệm, Phớt lờ hậu quả)."
+      },
+      {
+        nodeId: "N4",
+        pillar: "Nhóm 3: Thao túng & Kiểm soát cưỡng chế",
+        stage: "Tầng 4 · Triển khai kiểm soát",
+        existing: "4 cơ chế",
+        added: "+4 cơ chế",
+        highlight: "Thêm bộ tứ kỹ thuật thực chiến: Trauma Bonding, DARVO, Grooming, Cô lập & Tam giác hóa."
+      },
+      {
+        nodeId: "N3",
+        pillar: "Nhóm 4: Rối loạn nhân cách & Bệnh lý",
+        stage: "Tầng 1 · Nền tảng nội tâm",
+        existing: "4 cơ chế",
+        added: "+4 trụ cột",
+        highlight: "Hoàn thiện Dark Tetrad (Thái nhân cách, Ái kỷ bệnh lý, Bạo dâm) và nhóm Loạn thần/Hoang tưởng."
+      },
+      {
+        nodeId: "N5",
+        pillar: "Nhóm 5: Tâm lý xã hội & Động lực nhóm",
+        stage: "Tầng 5 · Bối cảnh xã hội",
+        existing: "0 (Chưa có)",
+        added: "+4 cơ chế mới",
+        highlight: "Giải thích tội phạm tập thể: Phi cá nhân hóa, Tuân phục quyền lực (Milgram), Folie à deux, Hiệu ứng người ngoài cuộc."
+      },
+      {
+        nodeId: "N5",
+        pillar: "Nhóm 6: Hành vi hiện trường & Profiling",
+        stage: "Tầng 5 · Dấu vết điều tra",
+        existing: "0 (Chưa có)",
+        added: "+5 khái niệm mới",
+        highlight: "Cốt lõi lập hồ sơ tội phạm: MO vs. Signature, Undoing, Staging, Chiến lợi phẩm & Thời gian nguội, Copycat."
+      },
+      {
+        nodeId: "N6",
+        pillar: "Nhóm 7: Tâm lý học nạn nhân (Victimology)",
+        stage: "Tầng 6 · Phản ứng sinh tồn",
+        existing: "0 (Chưa có)",
+        added: "+3 cơ chế mới",
+        highlight: "Giải mã Stockholm, Bất lực tập nhiễm (Seligman) và phản xạ Freeze/Fawn để tránh định kiến tố tụng."
+      }
+    ];
+
+    const state = {
+      activeNodeId: "N3",
+      filterMode: "all", // all | existing | added
+      searchQuery: "",
+      autoplayTimer: null
+    };
+
+    const nodeMap = Object.fromEntries(NODES.map(n => [n.id, n]));
+    const orderedIds = NODES.slice().sort((a, b) => a.order - b.order).map(n => n.id);
+
+    function matchesSearch(mech, query) {
+      if (!query) return true;
+      const q = query.toLowerCase();
+      return (
+        mech.name.toLowerCase().includes(q) ||
+        mech.note.toLowerCase().includes(q) ||
+        (mech.caseText && mech.caseText.toLowerCase().includes(q))
+      );
+    }
+
+    function getFilteredMechanisms(node) {
+      return node.mechanisms.filter(m => {
+        const statusOk = state.filterMode === "all" || m.status === state.filterMode;
+        const searchOk = matchesSearch(m, state.searchQuery);
+        return statusOk && searchOk;
+      });
+    }
+
+    function renderNodes() {
+      let totalMatched = 0;
+
+      // Related nodes to activeNodeId
+      const incomingIds = new Set(EDGES.filter(e => e.target === state.activeNodeId).map(e => e.source));
+      const outgoingIds = new Set(EDGES.filter(e => e.source === state.activeNodeId).map(e => e.target));
+
+      NODES.forEach(node => {
+        const el = document.getElementById(`node-${node.id}`);
+        if (!el) return;
+
+        const existingAll = node.mechanisms.filter(m => m.status === "existing").length;
+        const addedAll = node.mechanisms.filter(m => m.status === "added").length;
+        const totalAll = node.mechanisms.length;
+
+        const filtered = getFilteredMechanisms(node);
+        totalMatched += filtered.length;
+
+        const existingPct = totalAll ? (existingAll / totalAll) * 100 : 0;
+        const addedPct = totalAll ? (addedAll / totalAll) * 100 : 0;
+
+        el.className = "node-card";
+        if (node.id === state.activeNodeId) el.classList.add("active");
+        else if (incomingIds.has(node.id)) el.classList.add("related-in");
+        else if (outgoingIds.has(node.id)) el.classList.add("related-out");
+
+        if (filtered.length === 0) {
+          el.classList.add("dimmed");
+        }
+
+        const existingCountDisplay = state.searchQuery
+          ? filtered.filter(m => m.status === "existing").length
+          : existingAll;
+        const addedCountDisplay = state.searchQuery
+          ? filtered.filter(m => m.status === "added").length
+          : addedAll;
+
+        el.innerHTML = `
+          <div class="node-top">
+            <span class="stage-pill">${node.stageLabel}</span>
+            <span class="group-tag">${node.groupLabel}</span>
+          </div>
+          <div class="node-title">${node.title}</div>
+          <div class="node-desc">${node.shortDesc}</div>
+          <div class="node-counts">
+            <span class="count-pill existing ${existingCountDisplay === 0 ? 'zero' : ''}">Đã có: ${existingCountDisplay}</span>
+            <span class="count-pill added ${addedCountDisplay === 0 ? 'zero' : ''}">Bổ sung: ${addedCountDisplay}</span>
+          </div>
+          <div class="mini-bar" title="Tỷ lệ Đã có (${existingAll}) / Bổ sung (${addedAll})">
+            <div class="mini-bar-existing" style="width:${existingPct}%"></div>
+            <div class="mini-bar-added" style="width:${addedPct}%"></div>
+          </div>
+        `;
+      });
+
+      // Update KPI filtered counter
+      document.getElementById("kpi-filtered").textContent = totalMatched;
+      const filterDescMap = {
+        all: state.searchQuery ? `Khớp từ khóa "${state.searchQuery}"` : "Toàn bộ hệ thống (45 cơ chế)",
+        existing: state.searchQuery ? `Đã có · khớp "${state.searchQuery}"` : "Chỉ xem phần đã có trong bản gốc",
+        added: state.searchQuery ? `Mới bổ sung · khớp "${state.searchQuery}"` : "Chỉ xem các mảnh ghép mới bổ sung"
+      };
+      document.getElementById("kpi-filter-desc").textContent = filterDescMap[state.filterMode];
+
+      // Step indicator
+      const currentIdx = orderedIds.indexOf(state.activeNodeId) + 1;
+      document.getElementById("step-indicator").textContent = `Tầng ${currentIdx} / ${orderedIds.length}`;
+    }
+
+    function renderInspector() {
+      const node = nodeMap[state.activeNodeId];
+      if (!node) return;
+
+      const filtered = getFilteredMechanisms(node);
+      document.getElementById("insp-stage").textContent = `${node.stageLabel.toUpperCase()} · ${node.groupLabel.toUpperCase()}`;
+      document.getElementById("insp-title").textContent = node.title;
+      document.getElementById("insp-summary").textContent = node.summary;
+
+      const badge = document.getElementById("insp-count-badge");
+      badge.textContent = `${filtered.length} / ${node.mechanisms.length} cơ chế`;
+      badge.className = "count-pill " + (state.filterMode === "added" ? "added" : "existing");
+
+      // Render causal relations chips
+      const relContainer = document.getElementById("insp-relations");
+      const ins = EDGES.filter(e => e.target === node.id);
+      const outs = EDGES.filter(e => e.source === node.id);
+
+      let relHtml = "";
+      ins.forEach(e => {
+        const src = nodeMap[e.source];
+        relHtml += `<button class="rel-chip in" data-jump="${src.id}" title="Nhấn để chuyển đến khối nguồn">← Từ ${src.groupLabel}: ${e.label}</button>`;
+      });
+      outs.forEach(e => {
+        const tgt = nodeMap[e.target];
+        relHtml += `<button class="rel-chip out" data-jump="${tgt.id}" title="Nhấn để chuyển đến khối đích">→ Tới ${tgt.groupLabel}: ${e.label}</button>`;
+      });
+      relContainer.innerHTML = relHtml;
+
+      relContainer.querySelectorAll("[data-jump]").forEach(btn => {
+        btn.addEventListener("click", () => {
+          selectNode(btn.getAttribute("data-jump"));
+        });
+      });
+
+      // Render mechanisms list
+      const listEl = document.getElementById("mech-list");
+      if (filtered.length === 0) {
+        listEl.innerHTML = `
+          <div class="empty-state">
+            Không có cơ chế nào trong <strong>${node.title}</strong> phù hợp với bộ lọc hiện tại.<br/>
+            Hãy chuyển sang <em>"Tất cả cơ chế"</em> hoặc chọn một khối nổi bật khác trên sơ đồ.
+          </div>
+        `;
+        return;
+      }
+
+      listEl.innerHTML = filtered.map(m => `
+        <article class="mech-item status-${m.status}">
+          <div class="mech-item-top">
+            <h3 class="mech-name">${m.name}</h3>
+            <span class="status-badge ${m.status}">${m.status === "existing" ? "Đã có" : "Mới bổ sung"}</span>
+          </div>
+          <p class="mech-note">${m.note}</p>
+          ${m.caseText ? `<div class="mech-case"><strong>Hồ sơ / Ứng dụng:</strong> ${m.caseText}</div>` : ""}
+        </article>
+      `).join("");
+    }
+
+    function drawEdges() {
+      const stage = document.getElementById("canvas-stage");
+      const svg = document.getElementById("edges-svg");
+      const layer = document.getElementById("edges-layer");
+      const labelsSvg = document.getElementById("labels-svg");
+      const labelsLayer = document.getElementById("labels-layer");
+      if (!stage || !svg || !layer || !labelsSvg || !labelsLayer) return;
+
+      const stageRect = stage.getBoundingClientRect();
+      svg.setAttribute("viewBox", `0 0 ${stageRect.width} ${stageRect.height}`);
+      labelsSvg.setAttribute("viewBox", `0 0 ${stageRect.width} ${stageRect.height}`);
+      layer.innerHTML = "";
+      labelsLayer.innerHTML = "";
+
+      function getAnchor(nodeId, side) {
+        const el = document.getElementById(`node-${nodeId}`);
+        const r = el.getBoundingClientRect();
+        const x = r.left - stageRect.left;
+        const y = r.top - stageRect.top;
+        const w = r.width;
+        const h = r.height;
+        switch (side) {
+          case "top": return { x: x + w / 2, y: y };
+          case "bottom": return { x: x + w / 2, y: y + h };
+          case "left": return { x: x, y: y + h / 2 };
+          case "right": return { x: x + w, y: y + h / 2 };
+          case "bottom-left": return { x: x + w * 0.28, y: y + h };
+          case "bottom-right": return { x: x + w * 0.72, y: y + h };
+          case "top-left": return { x: x + w * 0.28, y: y };
+          case "top-right": return { x: x + w * 0.72, y: y };
+          default: return { x: x + w / 2, y: y + h / 2 };
+        }
+      }
+
+      const isSingleCol = window.innerWidth <= 720;
+
+      EDGES.forEach(edge => {
+        let p1, p2, c1, c2, labelPos;
+
+        if (isSingleCol) {
+          // Simple vertical curved connectors on mobile
+          p1 = getAnchor(edge.source, "bottom");
+          p2 = getAnchor(edge.target, "top");
+          const midY = (p1.y + p2.y) / 2;
+          c1 = { x: p1.x, y: midY };
+          c2 = { x: p2.x, y: midY };
+          labelPos = { x: (p1.x + p2.x) / 2, y: midY };
+        } else {
+          if (edge.source === "N3" && edge.target === "N1") {
+            p1 = getAnchor("N3", "right");
+            p2 = getAnchor("N1", "left");
+            c1 = { x: (p1.x + p2.x) / 2, y: p1.y };
+            c2 = { x: (p1.x + p2.x) / 2, y: p2.y };
+            labelPos = { x: (p1.x + p2.x) / 2, y: p1.y - 18 };
+          } else if (edge.source === "N1" && edge.target === "N2") {
+            p1 = getAnchor("N1", "bottom");
+            p2 = getAnchor("N2", "top-right");
+            c1 = { x: p1.x, y: p1.y + 28 };
+            c2 = { x: p2.x, y: p2.y - 28 };
+            labelPos = { x: (p1.x + p2.x) / 2 + 24, y: (p1.y + p2.y) / 2 };
+          } else if (edge.source === "N3" && edge.target === "N2") {
+            p1 = getAnchor("N3", "bottom");
+            p2 = getAnchor("N2", "top-left");
+            c1 = { x: p1.x, y: p1.y + 28 };
+            c2 = { x: p2.x, y: p2.y - 28 };
+            labelPos = { x: (p1.x + p2.x) / 2 - 22, y: (p1.y + p2.y) / 2 };
+          } else if (edge.source === "N2" && edge.target === "N4") {
+            p1 = getAnchor("N2", "bottom");
+            p2 = getAnchor("N4", "top");
+            c1 = { x: p1.x, y: (p1.y + p2.y) / 2 };
+            c2 = { x: p2.x, y: (p1.y + p2.y) / 2 };
+            labelPos = { x: p1.x, y: (p1.y + p2.y) / 2 };
+          } else if (edge.source === "N4" && edge.target === "N5") {
+            p1 = getAnchor("N4", "bottom-left");
+            p2 = getAnchor("N5", "top");
+            c1 = { x: p1.x, y: p1.y + 28 };
+            c2 = { x: p2.x, y: p2.y - 28 };
+            labelPos = { x: (p1.x + p2.x) / 2 - 24, y: (p1.y + p2.y) / 2 };
+          } else if (edge.source === "N4" && edge.target === "N6") {
+            p1 = getAnchor("N4", "bottom-right");
+            p2 = getAnchor("N6", "top");
+            c1 = { x: p1.x, y: p1.y + 28 };
+            c2 = { x: p2.x, y: p2.y - 28 };
+            labelPos = { x: (p1.x + p2.x) / 2 + 24, y: (p1.y + p2.y) / 2 };
+          } else if (edge.source === "N5" && edge.target === "N6") {
+            p1 = getAnchor("N5", "right");
+            p2 = getAnchor("N6", "left");
+            c1 = { x: (p1.x + p2.x) / 2, y: p1.y };
+            c2 = { x: (p1.x + p2.x) / 2, y: p2.y };
+            labelPos = { x: (p1.x + p2.x) / 2, y: p1.y - 18 };
+          }
+        }
+
+        const isOut = edge.source === state.activeNodeId;
+        const isIn = edge.target === state.activeNodeId;
+        const isRelated = isOut || isIn;
+
+        const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
+        g.setAttribute("class", `edge-group ${isRelated ? "active" : "dimmed"}`);
+
+        const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        const d = `M ${p1.x} ${p1.y} C ${c1.x} ${c1.y}, ${c2.x} ${c2.y}, ${p2.x} ${p2.y}`;
+        path.setAttribute("d", d);
+
+        let pathClass = "edge-path";
+        let marker = "url(#arrow-default)";
+        if (isOut) {
+          pathClass += " highlight-out";
+          marker = "url(#arrow-out)";
+        } else if (isIn) {
+          pathClass += " highlight-in";
+          marker = "url(#arrow-in)";
+        } else {
+          pathClass += " dimmed";
+        }
+        path.setAttribute("class", pathClass);
+        path.setAttribute("marker-end", marker);
+        g.appendChild(path);
+
+        layer.appendChild(g);
+
+        // Label badge rendered on top overlay layer so it is never clipped behind cards
+        if (!isSingleCol) {
+          const lg = document.createElementNS("http://www.w3.org/2000/svg", "g");
+          lg.setAttribute("class", `edge-group ${isRelated ? "active" : "dimmed"}`);
+
+          const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+          text.setAttribute("x", labelPos.x);
+          text.setAttribute("y", labelPos.y);
+          text.setAttribute("class", "edge-label-text");
+          text.textContent = edge.label;
+
+          const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+          rect.setAttribute("class", "edge-label-bg");
+
+          lg.appendChild(rect);
+          lg.appendChild(text);
+          labelsLayer.appendChild(lg);
+
+          const bbox = text.getBBox();
+          rect.setAttribute("x", bbox.x - 8);
+          rect.setAttribute("y", bbox.y - 3.5);
+          rect.setAttribute("width", bbox.width + 16);
+          rect.setAttribute("height", bbox.height + 7);
+        }
+      });
+    }
+
+    function renderOverviewTable() {
+      const tbody = document.getElementById("overview-tbody");
+      tbody.innerHTML = OVERVIEW_ROWS.map(row => `
+        <tr data-jump-node="${row.nodeId}">
+          <td><strong>${row.pillar}</strong></td>
+          <td>${row.stage}</td>
+          <td><span class="count-pill existing">${row.existing}</span></td>
+          <td><span class="count-pill added">${row.added}</span></td>
+          <td style="color:var(--text-secondary);">${row.highlight}</td>
+        </tr>
+      `).join("");
+
+      tbody.querySelectorAll("tr").forEach(tr => {
+        tr.addEventListener("click", () => {
+          selectNode(tr.getAttribute("data-jump-node"));
+          document.querySelector(".diagram-panel").scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+      });
+    }
+
+    function selectNode(nodeId) {
+      state.activeNodeId = nodeId;
+      renderAll();
+    }
+
+    function renderAll() {
+      renderNodes();
+      renderInspector();
+      requestAnimationFrame(drawEdges);
+    }
+
+    function stopAutoplay() {
+      if (state.autoplayTimer) {
+        clearInterval(state.autoplayTimer);
+        state.autoplayTimer = null;
+        document.getElementById("autoplay-btn").textContent = "▶ Trình chiếu";
+      }
+    }
+
+    // Event bindings
+    document.querySelectorAll(".node-card").forEach(card => {
+      card.addEventListener("click", () => {
+        stopAutoplay();
+        selectNode(card.getAttribute("data-node"));
+      });
+    });
+
+    document.querySelectorAll(".seg-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".seg-btn").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        state.filterMode = btn.getAttribute("data-filter");
+        renderAll();
+      });
+    });
+
+    const searchInput = document.getElementById("search-input");
+    const searchClear = document.getElementById("search-clear");
+
+    searchInput.addEventListener("input", e => {
+      state.searchQuery = e.target.value.trim();
+      searchClear.style.display = state.searchQuery ? "block" : "none";
+
+      // If active node has 0 matches, automatically jump to first node that has matches
+      if (state.searchQuery && getFilteredMechanisms(nodeMap[state.activeNodeId]).length === 0) {
+        const firstMatch = orderedIds.find(id => getFilteredMechanisms(nodeMap[id]).length > 0);
+        if (firstMatch) state.activeNodeId = firstMatch;
+      }
+      renderAll();
+    });
+
+    searchClear.addEventListener("click", () => {
+      searchInput.value = "";
+      state.searchQuery = "";
+      searchClear.style.display = "none";
+      renderAll();
+    });
+
+    document.getElementById("prev-step").addEventListener("click", () => {
+      stopAutoplay();
+      const idx = orderedIds.indexOf(state.activeNodeId);
+      const nextIdx = (idx - 1 + orderedIds.length) % orderedIds.length;
+      selectNode(orderedIds[nextIdx]);
+    });
+
+    document.getElementById("next-step").addEventListener("click", () => {
+      stopAutoplay();
+      const idx = orderedIds.indexOf(state.activeNodeId);
+      const nextIdx = (idx + 1) % orderedIds.length;
+      selectNode(orderedIds[nextIdx]);
+    });
+
+    document.getElementById("autoplay-btn").addEventListener("click", () => {
+      if (state.autoplayTimer) {
+        stopAutoplay();
+      } else {
+        document.getElementById("autoplay-btn").textContent = "⏸ Dừng lại";
+        state.autoplayTimer = setInterval(() => {
+          const idx = orderedIds.indexOf(state.activeNodeId);
+          const nextIdx = (idx + 1) % orderedIds.length;
+          selectNode(orderedIds[nextIdx]);
+        }, 2800);
+      }
+    });
+
+    // Keyboard navigation (Left / Right arrows when not typing in search)
+    document.addEventListener("keydown", e => {
+      if (document.activeElement === searchInput) return;
+      if (e.key === "ArrowRight") {
+        stopAutoplay();
+        const idx = orderedIds.indexOf(state.activeNodeId);
+        selectNode(orderedIds[(idx + 1) % orderedIds.length]);
+      } else if (e.key === "ArrowLeft") {
+        stopAutoplay();
+        const idx = orderedIds.indexOf(state.activeNodeId);
+        selectNode(orderedIds[(idx - 1 + orderedIds.length) % orderedIds.length]);
+      }
+    });
+
+    // Theme toggle
+    const themeBtn = document.getElementById("theme-toggle");
+    themeBtn.addEventListener("click", () => {
+      const root = document.documentElement;
+      const isDark = root.getAttribute("data-theme") === "dark";
+      root.setAttribute("data-theme", isDark ? "light" : "dark");
+      themeBtn.textContent = isDark ? "🌙 Chế độ Tối" : "☀️ Chế độ Sáng";
+      requestAnimationFrame(drawEdges);
+    });
+
+    // Print button
+    document.getElementById("print-btn").addEventListener("click", () => {
+      window.print();
+    });
+
+    // Redraw SVG edges on window resize
+    let resizeTimer;
+    window.addEventListener("resize", () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(drawEdges, 80);
+    });
+
+    // Initial render
+    renderOverviewTable();
+    renderAll();
+    window.addEventListener("load", () => {
+      setTimeout(drawEdges, 120);
+    });
+  </script>
+</body>
+</html>

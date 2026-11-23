@@ -1,10 +1,10 @@
 """Tao bo thu giong Higgs theo hoi cho Tap 04 (tuong duong Tap 03: thu_giong_higgs_hoi3/).
 
-- Copy clip DA CHON (higgs_selection_t04.json) vao 02_SAN_XUAT/Tap04/thu_giong_higgs/
+- Copy clip DA CHON (higgs_selection_t04.json) vao 02_SAN_XUAT/Ho_So_Toi_Pham/Tap04/thu_giong_higgs/
   ten: <act>_<stt>_<id>_<vai>_cer<NN>.wav      (cer NN = CER x100 cua ban chon)
 - Ghep tung hoi thanh 1 file: HOI<act>_nghe_lien.wav  (nghe lien, dung thu tu kich ban)
 Input : .work/higgs_selection_t04.json + .work/timeline_s_t04.json
-Output: 02_SAN_XUAT/Tap04/thu_giong_higgs/*.wav + HOI<n>_nghe_lien.wav
+Output: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap04/thu_giong_higgs/*.wav + HOI<n>_nghe_lien.wav
 """
 import json
 import pathlib

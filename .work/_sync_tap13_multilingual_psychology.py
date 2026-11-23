@@ -4,7 +4,7 @@ import sys, re, io
 from pathlib import Path
 
 # 1. Update EN Script
-en_path = Path('01_KICH_BAN/Tap13_EN/kichban_tap13_EN.md')
+en_path = Path('01_KICH_BAN/Ho_So_Toi_Pham/Tap13_EN/kichban_tap13_EN.md')
 en_text = en_path.read_text(encoding='utf-8')
 
 # 1.02#7 EN
@@ -41,7 +41,7 @@ en_path.write_text(en_text, encoding='utf-8')
 print("Updated EN script.")
 
 # 2. Update JA Script
-ja_path = Path('01_KICH_BAN/Tap13_JA/kichban_tap13_JA.md')
+ja_path = Path('01_KICH_BAN/Ho_So_Toi_Pham/Tap13_JA/kichban_tap13_JA.md')
 ja_text = ja_path.read_text(encoding='utf-8')
 
 old_ja_1027 = '「ハロー効果」は瞬く間にこの家庭を包み込み、世間はパン一家を称賛すべき成功例として眺め、内側に潜む窒息しそうな抑圧には誰も気づきませんでした。'
@@ -75,7 +75,7 @@ ja_path.write_text(ja_text, encoding='utf-8')
 print("Updated JA script.")
 
 # 3. Update KO Script
-ko_path = Path('01_KICH_BAN/Tap13_KO/kichban_tap13_KO.md')
+ko_path = Path('01_KICH_BAN/Ho_So_Toi_Pham/Tap13_KO/kichban_tap13_KO.md')
 ko_text = ko_path.read_text(encoding='utf-8')
 
 old_ko_1027 = '“후광 효과”는 순식간에 이 가정을 둘러쌌고, 세상은 판 씨 일가를 흠잡을 데 없는 성공 사례로 칭송하며 그 내면에 도사린 숨 막히는 억압은 전혀 알아채지 못했습니다.'

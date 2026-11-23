@@ -32,7 +32,7 @@ for e in script:
         for s in e["sentences"]:
             S[s["id"]] = s["text"]
 
-vn_lines = (ROOT / "02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md").read_text(encoding="utf-8").splitlines()
+vn_lines = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md").read_text(encoding="utf-8").splitlines()
 i0 = next(i for i, l in enumerate(vn_lines) if l.startswith("## 6. DANH SÁCH SHOT"))
 i1 = next(i for i, l in enumerate(vn_lines) if i > i0 and l.startswith("**Tổng:"))
 
@@ -133,7 +133,7 @@ if errors:
     sys.exit(1)
 
 # ---------------------------------------------------------------- ghi hồ sơ KO
-plan_path = ROOT / "02_SAN_XUAT" / "Tap02_KO" / "KeHoach_Video_Tap02_KO.md"
+plan_path = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02_KO" / "KeHoach_Video_Tap02_KO.md"
 plan_path.parent.mkdir(parents=True, exist_ok=True)
 
 header = """# HỒ SƠ SẢN XUẤT TẬP 02 · BẢN TIẾNG HÀN · 「두 얼굴의 대령」 (PHẦN B)
@@ -141,8 +141,8 @@ header = """# HỒ SƠ SẢN XUẤT TẬP 02 · BẢN TIẾNG HÀN · 「두 얼
 > **TRẠNG THÁI: BẢN DỰNG ẢNH TĨNH — CHỜ TTS LẠI**
 
 **Tiêu chuẩn áp dụng:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Phần A).
-**Kịch bản:** `01_KICH_BAN/Tap02_KO/kichban_tap02_KO.md` · **Chữ cố định:** `00_TIEU_CHUAN/CHU_CO_DINH_KO.md` · **Thành phẩm:** `02_SAN_XUAT/Tap02_KO/xuat_ban/`
-**Bản gốc:** `02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md`. Bảng shot giữ nguyên các cột Câu, Vai, Mẫu, Nền, Nhân vật và mô tả beat; chỉ thay:
+**Kịch bản:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap02_KO/kichban_tap02_KO.md` · **Chữ cố định:** `00_TIEU_CHUAN/CHU_CO_DINH_KO.md` · **Thành phẩm:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_KO/xuat_ban/`
+**Bản gốc:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md`. Bảng shot giữ nguyên các cột Câu, Vai, Mẫu, Nền, Nhân vật và mô tả beat; chỉ thay:
 - cột **Chữ** sang tiếng Hàn chuẩn phát thanh tài liệu (Pillow vẽ chữ với `malgunbd.ttf` / `malgun.ttf`);
 - các cụm `ở "…"` trong cột **Beat** sang cụm tiếng Hàn **có thật** trong câu KO tương ứng.
 
@@ -150,7 +150,7 @@ header = """# HỒ SƠ SẢN XUẤT TẬP 02 · BẢN TIẾNG HÀN · 「두 얼
 
 | Mục | Giá trị |
 |---|---|
-| Kịch bản | `01_KICH_BAN/Tap02_KO/kichban_tap02_KO.md` (chuẩn `00_TIEU_CHUAN/CHU_CO_DINH_KO.md`, 203 câu, 36 lượt nói, Director's Cut) |
+| Kịch bản | `01_KICH_BAN/Ho_So_Toi_Pham/Tap02_KO/kichban_tap02_KO.md` (chuẩn `00_TIEU_CHUAN/CHU_CO_DINH_KO.md`, 203 câu, 36 lượt nói, Director's Cut) |
 | Lượt nói / câu | 36 / **203**. Mã câu trùng 100% bản VN (`script_tap02_KO.json`) |
 | N1 / N2 | `1.07` 트렌턴 기지 관계자 (양) / `4.06` 트위드 주민 (고양이) |
 | Bảng shot | 161 dòng = 144 shot có lời + 17 dòng không lời |

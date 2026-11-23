@@ -32,9 +32,9 @@ print(f"  first start = {items[0]['start']} ; last end = {items[-1]['end']}")
 # char counts per language
 print()
 print("=== char counts ===")
-KB = {"vi": "01_KICH_BAN/Tap09/kichban_tap09_23102026.md",
-      "en": "01_KICH_BAN/Tap09_EN/kichban_tap09_EN.md",
-      "ja": "01_KICH_BAN/Tap09_JA/kichban_tap09_JA.md"}
+KB = {"vi": "01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_23102026.md",
+      "en": "01_KICH_BAN/Ho_So_Toi_Pham/Tap09_EN/kichban_tap09_EN.md",
+      "ja": "01_KICH_BAN/Ho_So_Toi_Pham/Tap09_JA/kichban_tap09_JA.md"}
 CH = {}
 for lang, rel in KB.items():
     els = parse_file(str(ROOT/rel))

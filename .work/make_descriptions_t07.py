@@ -254,7 +254,7 @@ Hồ sơ Michelle Carter & Conrad Roy được Amber eyes giải phẫu qua Hệ
 • Quốc hội Massachusetts — Dự luật Conrad (S.1032): https://malegislature.gov/
 • Nghiên cứu Munchausen by Internet (NCBI): https://www.ncbi.nlm.nih.gov/books/NBK518999/
 • Jesse Barron: 'The Girl From Plainville' (Esquire) & Báo cáo Thám tử Scott Gordon.
-* Toàn bộ 21 nguồn và biên bản 56 dữ kiện lưu tại: 02_SAN_XUAT/Tap07/nguon_tham_khao.md
+* Toàn bộ 21 nguồn và biên bản 56 dữ kiện lưu tại: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap07/nguon_tham_khao.md
 
 🆘 ĐƯỜNG DÂY NÓNG HỖ TRỢ 24/7 (MIỄN PHÍ)
 • Tổng đài Quốc gia Bảo vệ Trẻ em: 111 (Việt Nam) — http://tongdai111.vn/
@@ -302,7 +302,7 @@ Amber eyes dissects the case through our 10-Indicator Behavioral & Psychological
 • Mass. General Court — Senate Bill S.1032 (Conrad's Law): https://malegislature.gov/
 • National Library of Medicine (NCBI) — Munchausen by Internet: https://www.ncbi.nlm.nih.gov/books/NBK518999/
 • Jesse Barron: 'The Girl From Plainville' (Esquire) & Det. Scott Gordon Report.
-* Full 21-source catalogue & 56 verified facts: 02_SAN_XUAT/Tap07/nguon_tham_khao.md
+* Full 21-source catalogue & 56 verified facts: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap07/nguon_tham_khao.md
 
 🆘 24/7 CRISIS & MENTAL HEALTH HOTLINES (FREE & CONFIDENTIAL)
 • 988 Suicide & Crisis Lifeline (US & Canada): Call/text 988 — https://988lifeline.org
@@ -352,7 +352,7 @@ DESC_JA = """第07話 · メッセージによる殺人――デジタル空間�
 • マサチューセッツ州議会 — 上院法案 S.1032（コンラッド法）: https://malegislature.gov/
 • 米国立衛生研究所（NCBI / StatPearls） — インターネット・ミュンヒハウゼン症候群: https://www.ncbi.nlm.nih.gov/books/NBK518999/
 • ジェシー・バロン: 『プレインビルから来た少女』(Esquire) およびゴードン捜査官報告書。
-* 全21件の公的資料および56件の事実対照表は以下に保存：02_SAN_XUAT/Tap07/nguon_tham_khao.md
+* 全21件の公的資料および56件の事実対照表は以下に保存：02_SAN_XUAT/Ho_So_Toi_Pham/Tap07/nguon_tham_khao.md
 
 🆘 相談窓口・支援ホットライン（24時間無料）
 • よりそいホットライン：0120-279-338（24時間対応・多言語対応）
@@ -402,7 +402,7 @@ Amber eyes는 본 사건을 '10대 핵심 심리·행동 지표 생태계'를 �
 • 매사추세츠주 의회 — 상원 법안 S.1032 (콘래드 법): https://malegislature.gov/
 • 미국 국립의학도서관(NCBI / StatPearls) — 인터넷 뮌하우젠 증후군: https://www.ncbi.nlm.nih.gov/books/NBK518999/
 • 제시 배런: 《플레인빌에서 온 소녀》(Esquire) 및 스콧 고든 수사관 보고서.
-* 21개 공식 출처 및 56개 사실 대조표는 다음 파일에 보관: 02_SAN_XUAT/Tap07/nguon_tham_khao.md
+* 21개 공식 출처 및 56개 사실 대조표는 다음 파일에 보관: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap07/nguon_tham_khao.md
 
 🆘 위기 상담 및 피해자 지원 핫라인 (24시간 무료)
 • 정신건강 위기상담전화: 1577-0199 (24시간)
@@ -443,30 +443,30 @@ print("\n>>> TẤT CẢ 4 BẢN MÔ TẢ ĐÃ ĐẠT CHUẨN ĐẦY ĐỦ 10 CH�
 # ==============================================================================
 files_to_write = [
     # 1. TIẾNG VIỆT
-    (ROOT / "02_SAN_XUAT" / "Tap07" / "nguon_mo_ta.txt", SOURCES_VI_FULL),
-    (ROOT / "02_SAN_XUAT" / "Tap07" / "mo_ta.txt", DESC_VI),
-    (ROOT / "02_SAN_XUAT" / "Tap07" / "xuat_ban" / "mo_ta.txt", DESC_VI),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07" / "nguon_mo_ta.txt", SOURCES_VI_FULL),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07" / "mo_ta.txt", DESC_VI),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07" / "xuat_ban" / "mo_ta.txt", DESC_VI),
 
     # 2. TIẾNG ANH
-    (ROOT / "02_SAN_XUAT" / "Tap07_EN" / "nguon_mo_ta_EN.txt", SOURCES_EN_FULL),
-    (ROOT / "02_SAN_XUAT" / "Tap07_EN" / "description.txt", DESC_EN),
-    (ROOT / "02_SAN_XUAT" / "Tap07_EN" / "mo_ta.txt", DESC_EN),
-    (ROOT / "02_SAN_XUAT" / "Tap07_EN" / "xuat_ban" / "description.txt", DESC_EN),
-    (ROOT / "02_SAN_XUAT" / "Tap07_EN" / "xuat_ban" / "mo_ta.txt", DESC_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_EN" / "nguon_mo_ta_EN.txt", SOURCES_EN_FULL),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_EN" / "description.txt", DESC_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_EN" / "mo_ta.txt", DESC_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_EN" / "xuat_ban" / "description.txt", DESC_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_EN" / "xuat_ban" / "mo_ta.txt", DESC_EN),
 
     # 3. TIẾNG NHẬT
-    (ROOT / "02_SAN_XUAT" / "Tap07_JA" / "nguon_mo_ta_JA.txt", SOURCES_JA_FULL),
-    (ROOT / "02_SAN_XUAT" / "Tap07_JA" / "description.txt", DESC_JA),
-    (ROOT / "02_SAN_XUAT" / "Tap07_JA" / "mo_ta.txt", DESC_JA),
-    (ROOT / "02_SAN_XUAT" / "Tap07_JA" / "xuat_ban" / "description.txt", DESC_JA),
-    (ROOT / "02_SAN_XUAT" / "Tap07_JA" / "xuat_ban" / "mo_ta.txt", DESC_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_JA" / "nguon_mo_ta_JA.txt", SOURCES_JA_FULL),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_JA" / "description.txt", DESC_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_JA" / "mo_ta.txt", DESC_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_JA" / "xuat_ban" / "description.txt", DESC_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_JA" / "xuat_ban" / "mo_ta.txt", DESC_JA),
 
     # 4. TIẾNG HÀN
-    (ROOT / "02_SAN_XUAT" / "Tap07_KO" / "nguon_mo_ta_KO.txt", SOURCES_KO_FULL),
-    (ROOT / "02_SAN_XUAT" / "Tap07_KO" / "description.txt", DESC_KO),
-    (ROOT / "02_SAN_XUAT" / "Tap07_KO" / "mo_ta.txt", DESC_KO),
-    (ROOT / "02_SAN_XUAT" / "Tap07_KO" / "xuat_ban" / "description.txt", DESC_KO),
-    (ROOT / "02_SAN_XUAT" / "Tap07_KO" / "xuat_ban" / "mo_ta.txt", DESC_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_KO" / "nguon_mo_ta_KO.txt", SOURCES_KO_FULL),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_KO" / "description.txt", DESC_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_KO" / "mo_ta.txt", DESC_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_KO" / "xuat_ban" / "description.txt", DESC_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_KO" / "xuat_ban" / "mo_ta.txt", DESC_KO),
 ]
 
 written = 0

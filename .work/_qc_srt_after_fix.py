@@ -11,7 +11,7 @@ W = ROOT / ".work"
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 n = lambda t: re.sub(r"[\s　、。・,.:：;；!！?？\"'“”‘’「」『』()（）\-—–…]", "", t or "")
 
-SRT = ROOT / "02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA.srt"
+SRT = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/Tap02_JA.srt"
 txt = SRT.read_bytes().decode("utf-8-sig").replace("\r\n", "\n")
 blocks = [b for b in txt.strip().split("\n\n") if b.strip()]
 

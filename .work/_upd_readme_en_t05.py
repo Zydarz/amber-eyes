@@ -13,14 +13,14 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 RES = json.loads((WORK / "_qc_final_en_t05_result.json").read_text(encoding="utf-8"))
-README = ROOT / "02_SAN_XUAT" / "Tap05_EN" / "README.md"
+README = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap05_EN" / "README.md"
 t = README.read_text(encoding="utf-8-sig")
 orig = t
 
 dur = RES["duration"]
 frames = RES["frames"]
 sha = RES["sha256"]
-mp4 = ROOT / "02_SAN_XUAT" / "Tap05_EN" / "xuat_ban" / "Tap05_EN_master.mp4"
+mp4 = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap05_EN" / "xuat_ban" / "Tap05_EN_master.mp4"
 size_mb = mp4.stat().st_size / 1024 / 1024
 
 lines = []
@@ -33,7 +33,7 @@ new_section = f"""## 8. Xuất bản EN (bản dựng 04/11/2026 — đồng b�
 
 | Mục | Giá trị |
 |---|---|
-| File video | `02_SAN_XUAT/Tap05_EN/xuat_ban/Tap05_EN_master.mp4` |
+| File video | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_EN/xuat_ban/Tap05_EN_master.mp4` |
 | Thời lượng | **{dur:.2f} s** (timeline 1272,51 s · lệch {dur - 1272.51:+.3f} s) |
 | Số khung | {frames} (= int(1272,51 × 30)) |
 | Kích thước / codec | 1920×1080 @ 30 fps · H.264 (libopenh264) + AAC 192 kHz |

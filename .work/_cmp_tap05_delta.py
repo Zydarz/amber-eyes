@@ -15,15 +15,15 @@ ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 
 CASES = [
-    ("VN", ROOT / "01_KICH_BAN/Tap05/kichban_tap05_23102026.md",
+    ("VN", ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap05/kichban_tap05_23102026.md",
      WORK / "script_tap05.json", WORK / "shots_t05.json",
-     ROOT / "02_SAN_XUAT/Tap05/KeHoach_Video_Tap05.md"),
-    ("EN", ROOT / "01_KICH_BAN/Tap05_EN/kichban_tap05_EN.md",
+     ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05/KeHoach_Video_Tap05.md"),
+    ("EN", ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap05_EN/kichban_tap05_EN.md",
      WORK / "script_tap05_EN.json", WORK / "shots_EN_t05.json",
-     ROOT / "02_SAN_XUAT/Tap05_EN/KeHoach_Video_Tap05_EN.md"),
-    ("JA", ROOT / "01_KICH_BAN/Tap05_JA/kichban_tap05_JA.md",
+     ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_EN/KeHoach_Video_Tap05_EN.md"),
+    ("JA", ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap05_JA/kichban_tap05_JA.md",
      WORK / "script_tap05_JA.json", WORK / "shots_JA_t05.json",
-     ROOT / "02_SAN_XUAT/Tap05_JA/KeHoach_Video_Tap05_JA.md"),
+     ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_JA/KeHoach_Video_Tap05_JA.md"),
 ]
 
 sys.path.insert(0, str(WORK))

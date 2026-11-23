@@ -3,8 +3,8 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, ".work")
 import parse_kichban as PK
 
-src_vi = open("01_KICH_BAN/Tap04/kichban_tap04_23102026.md", encoding="utf-8").readlines()
-src_en = open("01_KICH_BAN/Tap04_EN/kichban_tap04_EN.md", encoding="utf-8").readlines()
+src_vi = open("01_KICH_BAN/Ho_So_Toi_Pham/Tap04/kichban_tap04_23102026.md", encoding="utf-8").readlines()
+src_en = open("01_KICH_BAN/Ho_So_Toi_Pham/Tap04_EN/kichban_tap04_EN.md", encoding="utf-8").readlines()
 
 els_vi = {e["id"]: e for e in PK.parse_lines(src_vi) if e["kind"] == "LOI"}
 els_en = {e["id"]: e for e in PK.parse_lines(src_en) if e["kind"] == "LOI"}

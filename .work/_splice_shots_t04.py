@@ -9,7 +9,7 @@ import sys
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-PLAN = ROOT / "02_SAN_XUAT" / "Tap04" / "KeHoach_Video_Tap04.md"
+PLAN = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap04" / "KeHoach_Video_Tap04.md"
 NEW = ROOT / ".work" / "_shots_t04_new.md"
 BK = ROOT / ".work" / "_cu" / "kehoach_tap04_truoc_bangshot_20261031.md"
 

@@ -19,7 +19,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 tl = json.loads((W / "timeline_s_JA_t02.json").read_text(encoding="utf-8-sig"))
 shots = json.loads((W / "shots_JA_t02.json").read_text(encoding="utf-8-sig"))["shots"]
 sent = {it["id"]: it for it in tl["items"]}
-script = (ROOT / "01_KICH_BAN/Tap02_JA/kichban_tap02_JA.md").read_text(encoding="utf-8-sig")
+script = (ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap02_JA/kichban_tap02_JA.md").read_text(encoding="utf-8-sig")
 
 print("=== 1. VAI: bang shot vs timeline ===")
 bad_role = []

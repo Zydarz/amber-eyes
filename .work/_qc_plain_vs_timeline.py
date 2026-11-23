@@ -48,7 +48,7 @@ for tag, f in [("PROD", man_p), ("R2", man_r)]:
 
 print("=" * 72)
 print("=== KICH BAN MARKDOWN vs TIMELINE: bao nhieu cau lech? ===")
-md = (ROOT / "01_KICH_BAN/Tap02_JA/kichban_tap02_JA.md").read_text(encoding="utf-8-sig")
+md = (ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap02_JA/kichban_tap02_JA.md").read_text(encoding="utf-8-sig")
 sc = json.loads((W / "script_tap02_JA.json").read_text(encoding="utf-8-sig"))
 smap = {}
 for turn in sc:

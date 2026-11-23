@@ -3,7 +3,7 @@
 import sys, io, re
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-path = '01_KICH_BAN/Tap10/NghienCuu_TamLy_BoSung_KichBan_Tap10.md'
+path = '01_KICH_BAN/Ho_So_Toi_Pham/Tap10/NghienCuu_TamLy_BoSung_KichBan_Tap10.md'
 with open(path, 'r', encoding='utf-8') as f:
     text = f.read()
 

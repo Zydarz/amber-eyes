@@ -14,7 +14,7 @@ OUT = W / "_cu" / "ja_t02_zoom"
 OUT.mkdir(parents=True, exist_ok=True)
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-MP4 = ROOT / "02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA_master.mp4"
+MP4 = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/Tap02_JA_master.mp4"
 # (giay, nhan)
 FRAMES = [
     (41.0, "shot_1-05_46sai_FIX"),

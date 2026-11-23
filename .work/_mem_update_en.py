@@ -19,7 +19,7 @@ t = t.replace(
     "- 18 file từng khôi phục tạm từ `node_id` cũ đã **dời sang `.work/audio_s_EN_t02/_dg_backup/`** (để `tts_sentences.py` không tưởng \"đã có\" mà bỏ qua) rồi đọc lại bằng giọng mới.", 1)
 t = t.replace(
     "**SAU KHI NẠP TIỀN — chạy 1 lệnh:**\n`$env:AE_LANG='en'; $env:AE_EP='02'; py -3 .work/_finish_tap02_en.py`\n(TTS → G10 → build_audio3 → parse_shots → QC A9.2 → build_video3 6 worker ≈ 92 phút → subtitles → package → QC A9.1/A9.3/A9.4.)",
-    "**THÀNH PHẨM (đã bàn giao):** `02_SAN_XUAT/Tap02_EN/xuat_ban/` — `Tap02_EN_master.mp4` (578.017.179 byte · **1723,5 s = 28:43,47** · 1920×1080@30 · 51.704 khung · H.264+AAC) · `Tap02_EN_master.mp3` (41.364.908 byte) · `Tap02_EN.srt` (425 cue) · `thumbnail.png` · `mo_ta.txt` + `description.txt` (mốc chương 00:00/00:20/05:06/09:30/16:06/22:39 + hotline Mỹ) · `nguon_tham_khao_EN.md` (khung, chưa có link).\n"
+    "**THÀNH PHẨM (đã bàn giao):** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/xuat_ban/` — `Tap02_EN_master.mp4` (578.017.179 byte · **1723,5 s = 28:43,47** · 1920×1080@30 · 51.704 khung · H.264+AAC) · `Tap02_EN_master.mp3` (41.364.908 byte) · `Tap02_EN.srt` (425 cue) · `thumbnail.png` · `mo_ta.txt` + `description.txt` (mốc chương 00:00/00:20/05:06/09:30/16:06/22:39 + hotline Mỹ) · `nguon_tham_khao_EN.md` (khung, chưa có link).\n"
     "**QC A9.1–A9.4: TẤT CẢ ĐẠT (exit 0)** — lệch hình/tiếng **0,017 s** · giải mã mp4 0 lỗi · 0 khoảng câm > 0,3 s · loudness **−16,0 LUFS** · lời đầu 23,0 s · 151 khung giữa shot lấy từ mp4 thành phẩm → `.work/qc_final_EN_t02/`.\n"
     "Render 6 worker mất **3365 s (56 phút)** — nhanh hơn 92 phút của bản VN.\n"
     "**Chạy lại cả chuỗi:** `$env:AE_LANG='en'; $env:AE_EP='02'; py -3 .work/_finish_tap02_en.py`", 1)

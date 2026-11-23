@@ -7,7 +7,7 @@ Phản hồi Tập 01: giọng đều đều, không lên xuống. Mỗi câu th
   B  diễn xuất từng câu: cảm xúc + tốc độ + cao độ riêng, ngắt nghỉ <#s#> và "..."
   C  như B nhưng với giọng thay thế
 Đo: thời lượng, âm tiết/giây, tỉ lệ ngắt nghỉ, F0 trung vị, CER (listen_audio), thẻ có bị đọc ra không.
-Output: 02_SAN_XUAT/Tap02/thu_giong/report.md + so_sanh_dien_xuat.mp3
+Output: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/thu_giong/report.md + so_sanh_dien_xuat.mp3
 """
 import json
 import re
@@ -24,7 +24,7 @@ from voice_audition import pcm, cer, FF, f0_median  # noqa: E402
 ROOT = Path(__file__).resolve().parents[1]
 import os
 ROUND = os.environ.get("ROUND", "1")
-OUT = ROOT / "02_SAN_XUAT" / "Tap02" / ("thu_giong" if ROUND == "1" else f"thu_giong_vong{ROUND}")
+OUT = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02" / ("thu_giong" if ROUND == "1" else f"thu_giong_vong{ROUND}")
 CUR = {"H": "audiobook_male_1", "D": "male-qn-qingse", "C": "audiobook_female_1",
        "N2": "English_captivating_female1"}
 ALT = {"H": ["English_magnetic_voiced_man", "English_expressive_narrator", "English_Trustworth_Man"],

@@ -34,9 +34,9 @@ def jload(p):
 
 print("=== 1. FILE ===")
 for rel in [
-    "02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA_master.mp3",
-    "02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA.srt",
-    "02_SAN_XUAT/Tap02_JA/xuat_ban/thumbnail.png",
+    "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/Tap02_JA_master.mp3",
+    "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/Tap02_JA.srt",
+    "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/thumbnail.png",
     ".work/timeline_s_JA_t02.json",
     ".work/shots_JA_t02.json",
     ".work/script_tap02_JA.json",
@@ -82,7 +82,7 @@ if sh:
             print("  start[0]=", starts[0], " end[-1]=", max(ends))
 
 print("\n=== 4. SRT JA ===")
-srt = ROOT / "02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA.srt"
+srt = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/Tap02_JA.srt"
 if srt.exists():
     txt = srt.read_text(encoding="utf-8-sig", errors="replace")
     blocks = [b for b in txt.strip().split("\n\n") if b.strip()]

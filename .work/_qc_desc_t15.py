@@ -109,26 +109,26 @@ def check_double_cr(path: Path):
 
 def main():
     print("=== KIỂM ĐỊNH 10 CHỈ DẤU TÂM LÝ TRONG MÔ TẢ TẬP 15 ===")
-    vi_ok, vi_cnt = check_file(ROOT / "02_SAN_XUAT" / "Tap15" / "mo_ta.txt", INDICATORS, "VI")
-    en_ok, en_cnt = check_file(ROOT / "02_SAN_XUAT" / "Tap15_EN" / "description.txt", INDICATORS_EN, "EN")
-    ja_ok, ja_cnt = check_file(ROOT / "02_SAN_XUAT" / "Tap15_JA" / "description.txt", INDICATORS_JA, "JA")
-    ko_ok, ko_cnt = check_file(ROOT / "02_SAN_XUAT" / "Tap15_KO" / "description.txt", INDICATORS_KO, "KO")
+    vi_ok, vi_cnt = check_file(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15" / "mo_ta.txt", INDICATORS, "VI")
+    en_ok, en_cnt = check_file(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_EN" / "description.txt", INDICATORS_EN, "EN")
+    ja_ok, ja_cnt = check_file(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_JA" / "description.txt", INDICATORS_JA, "JA")
+    ko_ok, ko_cnt = check_file(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_KO" / "description.txt", INDICATORS_KO, "KO")
     
     all_ok = vi_ok and en_ok and ja_ok and ko_ok
     
     print("\n=== KIỂM ĐỊNH ĐỒNG BỘ FILE XUẤT BẢN & GỐC ===")
     pairs = [
-        (ROOT / "02_SAN_XUAT" / "Tap15" / "mo_ta.txt", ROOT / "02_SAN_XUAT" / "Tap15" / "xuat_ban" / "mo_ta.txt"),
-        (ROOT / "02_SAN_XUAT" / "Tap15" / "nguon_tham_khao.md", ROOT / "02_SAN_XUAT" / "Tap15" / "xuat_ban" / "nguon_tham_khao.md"),
-        (ROOT / "02_SAN_XUAT" / "Tap15_EN" / "description.txt", ROOT / "02_SAN_XUAT" / "Tap15_EN" / "xuat_ban" / "description.txt"),
-        (ROOT / "02_SAN_XUAT" / "Tap15_EN" / "mo_ta.txt", ROOT / "02_SAN_XUAT" / "Tap15_EN" / "description.txt"),
-        (ROOT / "02_SAN_XUAT" / "Tap15_EN" / "nguon_tham_khao_EN.md", ROOT / "02_SAN_XUAT" / "Tap15_EN" / "xuat_ban" / "nguon_tham_khao_EN.md"),
-        (ROOT / "02_SAN_XUAT" / "Tap15_JA" / "description.txt", ROOT / "02_SAN_XUAT" / "Tap15_JA" / "xuat_ban" / "description.txt"),
-        (ROOT / "02_SAN_XUAT" / "Tap15_JA" / "mo_ta.txt", ROOT / "02_SAN_XUAT" / "Tap15_JA" / "description.txt"),
-        (ROOT / "02_SAN_XUAT" / "Tap15_JA" / "nguon_tham_khao_JA.md", ROOT / "02_SAN_XUAT" / "Tap15_JA" / "xuat_ban" / "nguon_tham_khao_JA.md"),
-        (ROOT / "02_SAN_XUAT" / "Tap15_KO" / "description.txt", ROOT / "02_SAN_XUAT" / "Tap15_KO" / "xuat_ban" / "description.txt"),
-        (ROOT / "02_SAN_XUAT" / "Tap15_KO" / "mo_ta.txt", ROOT / "02_SAN_XUAT" / "Tap15_KO" / "description.txt"),
-        (ROOT / "02_SAN_XUAT" / "Tap15_KO" / "nguon_tham_khao_KO.md", ROOT / "02_SAN_XUAT" / "Tap15_KO" / "xuat_ban" / "nguon_tham_khao_KO.md"),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15" / "mo_ta.txt", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15" / "xuat_ban" / "mo_ta.txt"),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15" / "nguon_tham_khao.md", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15" / "xuat_ban" / "nguon_tham_khao.md"),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_EN" / "description.txt", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_EN" / "xuat_ban" / "description.txt"),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_EN" / "mo_ta.txt", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_EN" / "description.txt"),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_EN" / "nguon_tham_khao_EN.md", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_EN" / "xuat_ban" / "nguon_tham_khao_EN.md"),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_JA" / "description.txt", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_JA" / "xuat_ban" / "description.txt"),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_JA" / "mo_ta.txt", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_JA" / "description.txt"),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_JA" / "nguon_tham_khao_JA.md", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_JA" / "xuat_ban" / "nguon_tham_khao_JA.md"),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_KO" / "description.txt", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_KO" / "xuat_ban" / "description.txt"),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_KO" / "mo_ta.txt", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_KO" / "description.txt"),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_KO" / "nguon_tham_khao_KO.md", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_KO" / "xuat_ban" / "nguon_tham_khao_KO.md"),
     ]
     
     parity_ok = True

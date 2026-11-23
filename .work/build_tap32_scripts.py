@@ -969,13 +969,13 @@ FBI行動科学課のビル・ハグマイヤー特別捜査官は、バンデ�
 
 import sys
 
-with open("01_KICH_BAN/Tap32/kichban_tap32_19112026.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32/kichban_tap32_19112026.md", "w", encoding="utf-8") as f:
     f.write(VN_CONTENT)
 
-with open("01_KICH_BAN/Tap32_EN/kichban_tap32_EN.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32_EN/kichban_tap32_EN.md", "w", encoding="utf-8") as f:
     f.write(EN_CONTENT)
 
-with open("01_KICH_BAN/Tap32_JA/kichban_tap32_JA.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32_JA/kichban_tap32_JA.md", "w", encoding="utf-8") as f:
     f.write(JA_CONTENT)
 
 print("Successfully written all 3 language scripts for Tap 32!")

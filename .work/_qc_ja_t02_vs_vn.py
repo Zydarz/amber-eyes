@@ -38,10 +38,10 @@ def srt_info(p):
 
 print("=== A. LINE ENDINGS + SO CUE ===")
 files = {
-    "JA Tap02 (MOI)": ROOT / "02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA.srt",
+    "JA Tap02 (MOI)": ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/Tap02_JA.srt",
     "JA Tap02 (CU)": W / "_cu/ja_t02_20261102/Tap02_JA.srt",
-    "VN Tap02": ROOT / "02_SAN_XUAT/Tap02/xuat_ban/Tap02.srt",
-    "EN Tap02": ROOT / "02_SAN_XUAT/Tap02_EN/xuat_ban/Tap02_EN.srt",
+    "VN Tap02": ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/xuat_ban/Tap02.srt",
+    "EN Tap02": ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/xuat_ban/Tap02_EN.srt",
 }
 info = {}
 for k, p in files.items():

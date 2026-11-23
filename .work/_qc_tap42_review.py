@@ -2,9 +2,9 @@
 import re
 
 files = [
-    ('VN', '01_KICH_BAN/Tap42/kichban_tap42_19112026.md'),
-    ('EN', '01_KICH_BAN/Tap42_EN/kichban_tap42_EN.md'),
-    ('JA', '01_KICH_BAN/Tap42_JA/kichban_tap42_JA.md')
+    ('VN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap42/kichban_tap42_19112026.md'),
+    ('EN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap42_EN/kichban_tap42_EN.md'),
+    ('JA', '01_KICH_BAN/Ho_So_Toi_Pham/Tap42_JA/kichban_tap42_JA.md')
 ]
 
 for tag, path in files:

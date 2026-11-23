@@ -1,7 +1,7 @@
 ﻿content = """# HỒ SƠ SẢN XUẤT TẬP 05 · "CHIẾC ĐĨA MỀM MÀU TÍM & CƠN NGHIỆN ÁI KỶ" (PHẦN B)
 
 **Tiêu chuẩn áp dụng:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Phần A) — các mã A0…A13 trong file này trỏ về đó.  
-**Kịch bản:** `01_KICH_BAN/Tap05/kichban_tap05_23102026.md` · **Thành phẩm:** `02_SAN_XUAT/Tap05/xuat_ban/`  
+**Kịch bản:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap05/kichban_tap05_23102026.md` · **Thành phẩm:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap05/xuat_ban/`  
 **Ngày lập:** 24/10/2026
 
 ---
@@ -10,7 +10,7 @@
 
 | Mục | Giá trị |
 |---|---|
-| Kịch bản | `01_KICH_BAN/Tap05/kichban_tap05_23102026.md` — đã chuẩn hóa lịch sử, pháp lý, tâm lý học (Dennis Rader - BTK) |
+| Kịch bản | `01_KICH_BAN/Ho_So_Toi_Pham/Tap05/kichban_tap05_23102026.md` — đã chuẩn hóa lịch sử, pháp lý, tâm lý học (Dennis Rader - BTK) |
 | Lượt nói / câu / từ | 33 / **164** / 4.209 — Host (H) 48,2% · Điều tra viên (D) 32,9% · Chuyên gia (C) 14,6% · Người dân Park City (N1) 1,8% · Kerri Rawson (N2) 2,5% |
 | Giọng (bộ A) | H: `English_CaptivatingStoryteller` (0,90) · D: `Korean_ColdYoungMan` (0,95) · C: `English_AssertiveQueen` (0,92) · N1: `Vietnamese_kindhearted_girl` · N2: `English_captivating_female1`. Cao độ luôn 0, chỉ 4 cảm xúc an toàn (A4.2 G5, G8) |
 | N1 / N2 | `1.09` Người dân Park City (Cừu) / `4.15` Kerri Rawson - con gái ruột hung thủ (Mèo) |
@@ -229,7 +229,7 @@ Cột cuối: trống = hoà tan · ✂ cắt · ◼ tối đen.
   - Điểm nhấn nhân văn sâu sắc tại Hồi 4: Góc nhìn xúc động và quá trình hồi phục tâm lý của người con gái Kerri Rawson.
 """
 
-with open("02_SAN_XUAT/Tap05/KeHoach_Video_Tap05.md", "w", encoding="utf-8") as f:
+with open("02_SAN_XUAT/Ho_So_Toi_Pham/Tap05/KeHoach_Video_Tap05.md", "w", encoding="utf-8") as f:
     f.write(content)
 
 print("KeHoach_Video_Tap05.md created successfully!")

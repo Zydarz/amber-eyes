@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 W = ROOT / ".work"
-PLAN = ROOT / "02_SAN_XUAT" / "Tap02_EN" / "KeHoach_Video_Tap02_EN.md"
+PLAN = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02_EN" / "KeHoach_Video_Tap02_EN.md"
 TL = json.loads((W / "timeline_s_EN_t02.json").read_text(encoding="utf-8-sig"))
 
 print("=== TIMELINE items 490-560s ===")

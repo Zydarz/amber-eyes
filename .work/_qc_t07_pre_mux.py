@@ -42,10 +42,10 @@ tot, used, free = shutil.disk_usage(str(ROOT))
 print(f"dia: tong {tot/1e9:.1f} GB · da dung {used/1e9:.1f} GB · con trong {free/1e9:.1f} GB")
 
 print()
-for f in ("02_SAN_XUAT/Tap07/xuat_ban/Tap07_master.mp4",
-          "02_SAN_XUAT/Tap07/xuat_ban/Tap07_master.mp3",
-          "02_SAN_XUAT/Tap07/xuat_ban/Tap07.srt",
-          "02_SAN_XUAT/Tap07/xuat_ban/thumbnail.png"):
+for f in ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap07/xuat_ban/Tap07_master.mp4",
+          "02_SAN_XUAT/Ho_So_Toi_Pham/Tap07/xuat_ban/Tap07_master.mp3",
+          "02_SAN_XUAT/Ho_So_Toi_Pham/Tap07/xuat_ban/Tap07.srt",
+          "02_SAN_XUAT/Ho_So_Toi_Pham/Tap07/xuat_ban/thumbnail.png"):
     p = ROOT / f
     r = subprocess.run(["git", "ls-files", "--error-unmatch", f], cwd=ROOT,
                        capture_output=True, text=True)

@@ -1,0 +1,35 @@
+{
+ "code": 0,
+ "message": "ok",
+ "summary": "Batch processing completed: 6/6 succeeded",
+ "total_requested": 6,
+ "total_success": 6,
+ "total_failed": 0,
+ "success_items": [
+  {
+   "node_id": "466368685154368",
+   "file_name": "tk54_empty_dorm_bunk_night.jpg"
+  },
+  {
+   "node_id": "466368033226863",
+   "file_name": "tk54_tankie_kou_street.jpg"
+  },
+  {
+   "node_id": "466367859118526",
+   "file_name": "tk54_found_bag_alley.jpg"
+  },
+  {
+   "node_id": "466368685154371",
+   "file_name": "tk54_police_taskforce.jpg"
+  },
+  {
+   "node_id": "466368086647019",
+   "file_name": "tk54_amber_eyes_dossier_54.jpg"
+  },
+  {
+   "node_id": "466368031957093",
+   "file_name": "tk54_scattered_bags_map.jpg"
+  }
+ ],
+ "failed_items": []
+}

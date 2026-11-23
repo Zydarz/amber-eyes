@@ -25,7 +25,7 @@ def parse(path):
 
 
 for ep in sys.argv[1:]:
-    ja_path = HERE.parent / "01_KICH_BAN" / f"Tap{ep}_JA" / f"kichban_tap{ep}_JA.md"
+    ja_path = HERE.parent / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap{ep}_JA" / f"kichban_tap{ep}_JA.md"
     if not ja_path.exists():
         print(f"--- Tap{ep}: chưa có file JA")
         continue

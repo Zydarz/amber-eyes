@@ -2,7 +2,7 @@ import re, sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 def spellcheck_vn():
-    text = open('01_KICH_BAN/Tap01/kichban_tap01_22102026_v2.md', encoding='utf-8').read()
+    text = open('01_KICH_BAN/Ho_So_Toi_Pham/Tap01/kichban_tap01_22102026_v2.md', encoding='utf-8').read()
     # Các lỗi gõ telex phổ biến, khoảng trắng trước dấu câu, lặp từ, v.v.
     issues = []
     # Khoảng trắng trước dấu chấm, phẩy

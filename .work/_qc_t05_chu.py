@@ -21,9 +21,9 @@ from parse_kichban import parse_file  # noqa: E402
 
 LANG = (sys.argv[1] if len(sys.argv) > 1 else "vi").lower()
 CFG = {
-    "vi": ("01_KICH_BAN/Tap05/kichban_tap05_23102026.md", "_t05_skeleton.json"),
-    "en": ("01_KICH_BAN/Tap05_EN/kichban_tap05_EN.md", "_t05_skeleton.json"),
-    "ja": ("01_KICH_BAN/Tap05_JA/kichban_tap05_JA.md", "_t05_skeleton.json"),
+    "vi": ("01_KICH_BAN/Ho_So_Toi_Pham/Tap05/kichban_tap05_23102026.md", "_t05_skeleton.json"),
+    "en": ("01_KICH_BAN/Ho_So_Toi_Pham/Tap05_EN/kichban_tap05_EN.md", "_t05_skeleton.json"),
+    "ja": ("01_KICH_BAN/Ho_So_Toi_Pham/Tap05_JA/kichban_tap05_JA.md", "_t05_skeleton.json"),
 }[LANG]
 
 els = parse_file(str(ROOT / CFG[0]))

@@ -7,14 +7,14 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 ROOT = Path('.')
 
 files = [
-    ('VI', ROOT / '02_SAN_XUAT' / 'Tap17' / 'mo_ta.txt'),
-    ('VI_xuatban', ROOT / '02_SAN_XUAT' / 'Tap17' / 'xuat_ban' / 'mo_ta.txt'),
-    ('EN', ROOT / '02_SAN_XUAT' / 'Tap17_EN' / 'description.txt'),
-    ('EN_xuatban', ROOT / '02_SAN_XUAT' / 'Tap17_EN' / 'xuat_ban' / 'description.txt'),
-    ('JA', ROOT / '02_SAN_XUAT' / 'Tap17_JA' / 'description.txt'),
-    ('JA_xuatban', ROOT / '02_SAN_XUAT' / 'Tap17_JA' / 'xuat_ban' / 'description.txt'),
-    ('KO', ROOT / '02_SAN_XUAT' / 'Tap17_KO' / 'description.txt'),
-    ('KO_xuatban', ROOT / '02_SAN_XUAT' / 'Tap17_KO' / 'xuat_ban' / 'description.txt'),
+    ('VI', ROOT / '02_SAN_XUAT' / 'Ho_So_Toi_Pham' / 'Tap17' / 'mo_ta.txt'),
+    ('VI_xuatban', ROOT / '02_SAN_XUAT' / 'Ho_So_Toi_Pham' / 'Tap17' / 'xuat_ban' / 'mo_ta.txt'),
+    ('EN', ROOT / '02_SAN_XUAT' / 'Ho_So_Toi_Pham' / 'Tap17_EN' / 'description.txt'),
+    ('EN_xuatban', ROOT / '02_SAN_XUAT' / 'Ho_So_Toi_Pham' / 'Tap17_EN' / 'xuat_ban' / 'description.txt'),
+    ('JA', ROOT / '02_SAN_XUAT' / 'Ho_So_Toi_Pham' / 'Tap17_JA' / 'description.txt'),
+    ('JA_xuatban', ROOT / '02_SAN_XUAT' / 'Ho_So_Toi_Pham' / 'Tap17_JA' / 'xuat_ban' / 'description.txt'),
+    ('KO', ROOT / '02_SAN_XUAT' / 'Ho_So_Toi_Pham' / 'Tap17_KO' / 'description.txt'),
+    ('KO_xuatban', ROOT / '02_SAN_XUAT' / 'Ho_So_Toi_Pham' / 'Tap17_KO' / 'xuat_ban' / 'description.txt'),
 ]
 
 all_pass = True

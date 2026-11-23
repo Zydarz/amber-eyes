@@ -14,7 +14,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path("D:/TEST/Gax/amber-eyes")
-PLAN = ROOT / "02_SAN_XUAT" / "Tap03" / "KeHoach_Video_Tap03.md"
+PLAN = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03" / "KeHoach_Video_Tap03.md"
 
 # (mã shot, old, new, lý do)
 PATCH = [

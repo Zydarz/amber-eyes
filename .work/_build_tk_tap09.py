@@ -463,7 +463,7 @@ for lang, out_dir in [("VI", OUT_VI), ("EN", OUT_EN), ("JA", OUT_JA)]:
     if lang == "VI":
         plan_lines.append("# KẾ HOẠCH CLIP TIKTOK — TẬP 09 · \"NGHỆ THUẬT XÓA BỎ BẢN NGÃ\"\n")
         plan_lines.append("*Trạng thái: **kịch bản đã hoàn thành, sẵn sàng duyệt trước khi đọc giọng** (L4)*")
-        plan_lines.append("*Nguồn duy nhất của mọi dữ kiện: `02_SAN_XUAT/Tap09/KeHoach_Video_Tap09.md` · `.work/script_tap09.json` (207 câu)*")
+        plan_lines.append("*Nguồn duy nhất của mọi dữ kiện: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09/KeHoach_Video_Tap09.md` · `.work/script_tap09.json` (207 câu)*")
         plan_lines.append("*Sinh tự động bởi `.work/_build_tk_tap09.py`*\n---\n")
         plan_lines.append("## 0. Tóm tắt chốt\n")
         plan_lines.append("| Hạng mục | Giá trị |")
@@ -481,7 +481,7 @@ for lang, out_dir in [("VI", OUT_VI), ("EN", OUT_EN), ("JA", OUT_JA)]:
     elif lang == "EN":
         plan_lines.append("# TIKTOK CLIP PRODUCTION PLAN — EPISODE 09 · \"THE ART OF EGO ERASURE\"\n")
         plan_lines.append("*Status: **Script completed, ready for verification prior to TTS generation** (L4)*")
-        plan_lines.append("*Single source of truth: `02_SAN_XUAT/Tap09/KeHoach_Video_Tap09.md` · `.work/script_tap09_EN.json` (207 lines)*")
+        plan_lines.append("*Single source of truth: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09/KeHoach_Video_Tap09.md` · `.work/script_tap09_EN.json` (207 lines)*")
         plan_lines.append("*Auto-generated via `.work/_build_tk_tap09.py`*\n---\n")
         plan_lines.append("## 0. Executive Summary\n")
         plan_lines.append("| Item | Value |")
@@ -499,7 +499,7 @@ for lang, out_dir in [("VI", OUT_VI), ("EN", OUT_EN), ("JA", OUT_JA)]:
     else:
         plan_lines.append("# TIKTOKクリップ制作計画 — 第09話 · 『自我消滅の技術とマンソン・ファミリー』\n")
         plan_lines.append("*ステータス: **台本策定完了 · 音声合成前の最終確認待ち** (L4)*")
-        plan_lines.append("*情報源: `02_SAN_XUAT/Tap09/KeHoach_Video_Tap09.md` · `.work/script_tap09_JA.json` (全207文)*")
+        plan_lines.append("*情報源: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap09/KeHoach_Video_Tap09.md` · `.work/script_tap09_JA.json` (全207文)*")
         plan_lines.append("*`.work/_build_tk_tap09.py` により自動生成*\n---\n")
         plan_lines.append("## 0. 基本概要\n")
         plan_lines.append("| 項目 | 仕様 |")

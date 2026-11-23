@@ -18,15 +18,15 @@ MOVES = [
     ("PhuongAn_TaoHinh_5NhanVat.md", "00_TIEU_CHUAN/PhuongAn_TaoHinh_5NhanVat.md"),
     # scripts
     ("danh_s_ch_28_k_ch_b_n_t_m_l_t_i_ph_m.md", "01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md"),
-    ("kichban_tap01_22102026.md", "01_KICH_BAN/Tap01/kichban_tap01_22102026.md"),
-    ("kichban_tap01_22102026_v2.md", "01_KICH_BAN/Tap01/kichban_tap01_22102026_v2.md"),
+    ("kichban_tap01_22102026.md", "01_KICH_BAN/Ho_So_Toi_Pham/Tap01/kichban_tap01_22102026.md"),
+    ("kichban_tap01_22102026_v2.md", "01_KICH_BAN/Ho_So_Toi_Pham/Tap01/kichban_tap01_22102026_v2.md"),
     # episode outputs
-    ("Tap01_master.mp4", "02_SAN_XUAT/Tap01/xuat_ban/Tap01_master.mp4"),
-    ("Tap01_master.mp3", "02_SAN_XUAT/Tap01/xuat_ban/Tap01_master.mp3"),
-    ("Tap01.srt", "02_SAN_XUAT/Tap01/xuat_ban/Tap01.srt"),
-    ("thumbnail.png", "02_SAN_XUAT/Tap01/xuat_ban/thumbnail.png"),
-    ("mo_ta.txt", "02_SAN_XUAT/Tap01/xuat_ban/mo_ta.txt"),
-    ("nguon_tham_khao.md", "02_SAN_XUAT/Tap01/xuat_ban/nguon_tham_khao.md"),
+    ("Tap01_master.mp4", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/Tap01_master.mp4"),
+    ("Tap01_master.mp3", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/Tap01_master.mp3"),
+    ("Tap01.srt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/Tap01.srt"),
+    ("thumbnail.png", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/thumbnail.png"),
+    ("mo_ta.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/mo_ta.txt"),
+    ("nguon_tham_khao.md", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/nguon_tham_khao.md"),
     # archive — old plans, reports, scripts, renders, voice tests
     ("KeHoach_ThuAm_Tap01.md", "90_LUU_TRU/ke_hoach_cu/KeHoach_ThuAm_Tap01.md"),
     ("KeHoach_ThuAm_Tap01_VIDEO.md", "90_LUU_TRU/ke_hoach_cu/KeHoach_ThuAm_Tap01_VIDEO.md"),

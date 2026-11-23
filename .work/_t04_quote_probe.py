@@ -1,7 +1,7 @@
 import io, re
 
-vn = io.open('01_KICH_BAN/Tap04/kichban_tap04_23102026.md', encoding='utf-8').read()
-ko = io.open('01_KICH_BAN/Tap04_KO/kichban_tap04_KO.md', encoding='utf-8').read()
+vn = io.open('01_KICH_BAN/Ho_So_Toi_Pham/Tap04/kichban_tap04_23102026.md', encoding='utf-8').read()
+ko = io.open('01_KICH_BAN/Ho_So_Toi_Pham/Tap04_KO/kichban_tap04_KO.md', encoding='utf-8').read()
 
 print('VN contains latin words:')
 for w in ['suffering', 'torment', 'watch', 'stealing', 'endless', 'Charlie']:

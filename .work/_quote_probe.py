@@ -1,6 +1,6 @@
 import io, re
 
-t = io.open('01_KICH_BAN/Tap04/kichban_tap04_23102026.md', encoding='utf-8').read()
+t = io.open('01_KICH_BAN/Ho_So_Toi_Pham/Tap04/kichban_tap04_23102026.md', encoding='utf-8').read()
 sq = re.findall(r"'([^']{6,})'", t)
 print('VN Tap04 straight-quote pairs:', len(sq))
 for q in sq[:14]:

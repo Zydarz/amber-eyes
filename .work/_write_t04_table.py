@@ -21,11 +21,11 @@ W = ROOT / ".work"
 LANG = (sys.argv[1] if len(sys.argv) > 1 else "vi").lower()
 
 TARGET = {
-    "vi": (ROOT / "02_SAN_XUAT/Tap04/KeHoach_Video_Tap04.md",
+    "vi": (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap04/KeHoach_Video_Tap04.md",
            W / "_t04_chu_vn.json", W / "_t04_beat_vi.json"),
-    "en": (ROOT / "02_SAN_XUAT/Tap04_EN/KeHoach_Video_Tap04_EN.md",
+    "en": (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap04_EN/KeHoach_Video_Tap04_EN.md",
            W / "_t04_chu_en.json", W / "_t04_beat_en.json"),
-    "ja": (ROOT / "02_SAN_XUAT/Tap04_JA/KeHoach_Video_Tap04_JA.md",
+    "ja": (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap04_JA/KeHoach_Video_Tap04_JA.md",
            W / "_t04_chu_ja.json", W / "_t04_beat_ja.json"),
 }[LANG]
 

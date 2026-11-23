@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / ".work"))
 import parse_kichban as PK
 
-p20 = PK.parse_file(str(ROOT / "01_KICH_BAN" / "Tap20" / "kichban_tap20_23102026.md"))
+p20 = PK.parse_file(str(ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap20" / "kichban_tap20_23102026.md"))
 loi20 = [e for e in p20 if e["kind"] == "LOI"]
 print(f"Tap 20: Total sent = {sum(len(x['sentences']) for x in loi20)}")
 for e in p20:

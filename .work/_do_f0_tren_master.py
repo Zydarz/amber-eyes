@@ -80,7 +80,7 @@ def bands(path, label):
 
 
 for path, label in [
-    (ROOT / "02_SAN_XUAT" / "Tap03" / "xuat_ban" / "Tap03_master.mp3", "Tap03_master.mp3 (bo A, VN)"),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03" / "xuat_ban" / "Tap03_master.mp3", "Tap03_master.mp3 (bo A, VN)"),
     (WORK / "_cu" / "Tap01_master.cu.mp3", "Tap01_master.cu.mp3 (bo cu, VN)"),
 ]:
     if path.exists():

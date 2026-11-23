@@ -3,7 +3,7 @@ import sys, re
 sys.path.insert(0, '.work')
 import parse_kichban as PK
 
-path = '01_KICH_BAN/Tap12/kichban_tap12_23102026.md'
+path = '01_KICH_BAN/Ho_So_Toi_Pham/Tap12/kichban_tap12_23102026.md'
 p = PK.parse_file(path)
 
 loi = [e for e in p if e['kind'] == 'LOI']

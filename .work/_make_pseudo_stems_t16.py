@@ -5,9 +5,9 @@ from pathlib import Path
 import numpy as np
 W = Path(__file__).parent
 FF = r"C:\Users\ADMIN\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\imageio_ffmpeg\binaries\ffmpeg-win-x86_64-v7.1.exe"
-CFG = {"": ("timeline_s_t16.json", "02_SAN_XUAT/Tap16/xuat_ban/Tap16_master.mp3", "stems_t16"),
-       "EN": ("timeline_s_EN_t16.json", "02_SAN_XUAT/Tap16_EN/xuat_ban/Tap16_EN_master.mp3", "stems_EN_t16"),
-       "JA": ("timeline_s_JA_t16.json", "02_SAN_XUAT/Tap16_JA/xuat_ban/Tap16_JA_master.mp3", "stems_JA_t16")}
+CFG = {"": ("timeline_s_t16.json", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap16/xuat_ban/Tap16_master.mp3", "stems_t16"),
+       "EN": ("timeline_s_EN_t16.json", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap16_EN/xuat_ban/Tap16_EN_master.mp3", "stems_EN_t16"),
+       "JA": ("timeline_s_JA_t16.json", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap16_JA/xuat_ban/Tap16_JA_master.mp3", "stems_JA_t16")}
 for lang, (tl, mp3, sd) in CFG.items():
     t = json.load(open(W / tl, encoding="utf-8"))
     raw = subprocess.run([FF, "-v", "error", "-i", str(W.parent / mp3), "-ac", "1", "-ar", "16000", "-f", "s16le", "-"],

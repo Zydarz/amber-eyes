@@ -12,7 +12,7 @@ import time
 
 ROOT = pathlib.Path(r"D:\TEST\Gax\amber-eyes")
 W = ROOT / ".work"
-PLAN = ROOT / "02_SAN_XUAT" / "Tap02_EN" / "KeHoach_Video_Tap02_EN.md"
+PLAN = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02_EN" / "KeHoach_Video_Tap02_EN.md"
 MAN = W / "tts_manifest_EN_t02.json"
 SCRIPT = W / "script_tap02_EN.json"
 

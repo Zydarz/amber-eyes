@@ -3,7 +3,7 @@
 import json, re, sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; W=ROOT/".work"
-vn=(ROOT/"02_SAN_XUAT/Tap01/KeHoach_Video_Tap01.md").read_text(encoding="utf-8").splitlines()
+vn=(ROOT/"02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/KeHoach_Video_Tap01.md").read_text(encoding="utf-8").splitlines()
 en=json.loads((W/"shots_text_EN.json").read_text(encoding="utf-8"))
 S={s['id']:s['text'] for e in json.load(open(W/"script_EN.json",encoding="utf-8")) if e['kind']=='LOI' for s in e['sentences']}
 def sents(cell):

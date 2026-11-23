@@ -3,7 +3,7 @@
 
 rev_10chiau = """# BÁO CÁO DUYỆT KỊCH BẢN TẬP 08 (BẢN TÁI CẤU TRÚC — HỆ SINH THÁI 10 CHỈ DẤU)
 
-*Ngày lập: 07/11/2026. Đối tượng: `01_KICH_BAN/Tap08/kichban_tap08_23102026.md`.*  
+*Ngày lập: 07/11/2026. Đối tượng: `01_KICH_BAN/Ho_So_Toi_Pham/Tap08/kichban_tap08_23102026.md`.*  
 *Căn cứ quy chuẩn: `AGENTS.md` (Luật K1–K10, Bước 1, L3) và `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Mục A2c, Bẫy #118).*
 
 ---
@@ -54,10 +54,10 @@ rev_multi = """# BÁO CÁO REVIEW TOÀN DIỆN KỊCH BẢN TẬP 08 ĐA NGÔN N
 > **Thời điểm thẩm định:** 07/11/2026 (Bản nâng cấp kịch bản quy mô lớn > 200 câu)  
 > **Căn cứ tiêu chuẩn:** `AGENTS.md` (Luật K1–K10, V9, L1–L10) và `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (§A2, §A2b, §A2c, §A9.2, Bẫy #118).  
 > **Các tệp kịch bản được đánh giá:**  
-> - Tiếng Việt (VN): [`01_KICH_BAN/Tap08/kichban_tap08_23102026.md`](kichban_tap08_23102026.md)  
-> - Tiếng Anh (EN): [`01_KICH_BAN/Tap08_EN/kichban_tap08_EN.md`](../Tap08_EN/kichban_tap08_EN.md)  
-> - Tiếng Nhật (JA): [`01_KICH_BAN/Tap08_JA/kichban_tap08_JA.md`](../Tap08_JA/kichban_tap08_JA.md)  
-> - Tiếng Hàn (KO): [`01_KICH_BAN/Tap08_KO/kichban_tap08_KO.md`](../Tap08_KO/kichban_tap08_KO.md)
+> - Tiếng Việt (VN): [`01_KICH_BAN/Ho_So_Toi_Pham/Tap08/kichban_tap08_23102026.md`](kichban_tap08_23102026.md)  
+> - Tiếng Anh (EN): [`01_KICH_BAN/Ho_So_Toi_Pham/Tap08_EN/kichban_tap08_EN.md`](../Tap08_EN/kichban_tap08_EN.md)  
+> - Tiếng Nhật (JA): [`01_KICH_BAN/Ho_So_Toi_Pham/Tap08_JA/kichban_tap08_JA.md`](../Tap08_JA/kichban_tap08_JA.md)  
+> - Tiếng Hàn (KO): [`01_KICH_BAN/Ho_So_Toi_Pham/Tap08_KO/kichban_tap08_KO.md`](../Tap08_KO/kichban_tap08_KO.md)
 
 ---
 
@@ -163,8 +163,8 @@ Toàn bộ 10 chỉ dấu đã được đối soát chéo trên cả 4 ngôn ng
 Toàn bộ 4 ngôn ngữ (Tiếng Việt, Tiếng Anh, Tiếng Nhật, Tiếng Hàn) đã hoàn thành nâng cấp lên quy mô lớn **218 câu thoại** (> 200 câu), đạt 100% tính toàn vẹn kỹ thuật, line-ending chuẩn LF thuần (`double_cr=0`), và sẵn sàng cho các công đoạn sản xuất tiếp theo.
 """
 
-with open('01_KICH_BAN/Tap08/REVIEW_kichban_tap08_10chiau.md', 'w', encoding='utf-8', newline='\n') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap08/REVIEW_kichban_tap08_10chiau.md', 'w', encoding='utf-8', newline='\n') as f:
     f.write(rev_10chiau.strip() + '\n')
-with open('01_KICH_BAN/Tap08/REVIEW_kichban_tap08_multilingual.md', 'w', encoding='utf-8', newline='\n') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap08/REVIEW_kichban_tap08_multilingual.md', 'w', encoding='utf-8', newline='\n') as f:
     f.write(rev_multi.strip() + '\n')
 print("Successfully updated both review documents!")

@@ -37,11 +37,11 @@
 |---|---|---|
 | `.work/kaggle_higgs` | 3947 | 1289.0 MB |
 | `02_SAN_XUAT/sfx_youtube` | 196 | 366.3 MB |
-| `02_SAN_XUAT/Tap04` | 165 | 108.3 MB |
+| `02_SAN_XUAT/Ho_So_Toi_Pham/Tap04` | 165 | 108.3 MB |
 | `.work/_cu` | 148 | 87.7 MB |
 | `.work/audio_s_higgs_t03` | 218 | 69.6 MB |
 | `.work/audio_s_higgs_EN_t03` | 218 | 67.3 MB |
-| `02_SAN_XUAT/Tap03` | 49 | 64.1 MB |
+| `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03` | 49 | 64.1 MB |
 | `.work/audio_s_higgs_t05` | 162 | 52.5 MB |
 | `.work/audio_s_higgs_t06` | 154 | 50.7 MB |
 | `.work/audio_s_higgs_t04` | 154 | 50.3 MB |
@@ -59,13 +59,13 @@
 | `.work/audio_s_t07` | 164 | 17.9 MB |
 | `.work/freesound` | 74 | 15.7 MB |
 | `.work/g8_g9_kiem_tra_giong` | 9 | 12.8 MB |
-| `02_SAN_XUAT/Tap03_EN` | 6 | 8.7 MB |
-| `02_SAN_XUAT/Tap04_EN` | 6 | 8.2 MB |
+| `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_EN` | 6 | 8.7 MB |
+| `02_SAN_XUAT/Ho_So_Toi_Pham/Tap04_EN` | 6 | 8.2 MB |
 | `.work/cer_xac_minh_giong_nam` | 80 | 8.1 MB |
-| `02_SAN_XUAT/Tap06` | 6 | 7.8 MB |
-| `02_SAN_XUAT/Tap05` | 13 | 7.6 MB |
-| `02_SAN_XUAT/Tap05_EN` | 6 | 7.4 MB |
-| `02_SAN_XUAT/Tap07` | 6 | 6.5 MB |
+| `02_SAN_XUAT/Ho_So_Toi_Pham/Tap06` | 6 | 7.8 MB |
+| `02_SAN_XUAT/Ho_So_Toi_Pham/Tap05` | 13 | 7.6 MB |
+| `02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_EN` | 6 | 7.4 MB |
+| `02_SAN_XUAT/Ho_So_Toi_Pham/Tap07` | 6 | 6.5 MB |
 | `.work/demo_voice_reel.wav` | 1 | 5.1 MB |
 | `90_LUU_TRU/thu_giong` | 12 | 3.6 MB |
 | `.work/voice_band_test` | 20 | 2.8 MB |
@@ -878,35 +878,35 @@
 .work\video3_t07\part_04.mp4
 .work\video3_t07\part_05.mp4
 .work\video3_t07\picture.mp4
-02_SAN_XUAT\Tap02\xuat_ban\Tap02_master.mp3
-02_SAN_XUAT\Tap02\xuat_ban\Tap02_master.mp4
-02_SAN_XUAT\Tap02_JA\xuat_ban\Tap02_JA_master.mp3
-02_SAN_XUAT\Tap02_JA\xuat_ban\Tap02_JA_master.mp4
-02_SAN_XUAT\Tap03\xuat_ban\Tap03_master.mp3
-02_SAN_XUAT\Tap03\xuat_ban\Tap03_master.mp4
-02_SAN_XUAT\Tap03_EN\xuat_ban\Tap03_EN_master.mp3
-02_SAN_XUAT\Tap03_EN\xuat_ban\Tap03_EN_master.mp4
-02_SAN_XUAT\Tap03_JA\xuat_ban\Tap03_JA_master.mp3
-02_SAN_XUAT\Tap03_JA\xuat_ban\Tap03_JA_master.mp4
-02_SAN_XUAT\Tap04\xuat_ban\Tap04_master.mp3
-02_SAN_XUAT\Tap04\xuat_ban\Tap04_master.mp4
-02_SAN_XUAT\Tap04_EN\xuat_ban\Tap04_EN_master.mp3
-02_SAN_XUAT\Tap04_EN\xuat_ban\Tap04_EN_master.mp4
-02_SAN_XUAT\Tap04_JA\xuat_ban\Tap04_JA_master.mp3
-02_SAN_XUAT\Tap04_JA\xuat_ban\Tap04_JA_master.mp4
-02_SAN_XUAT\Tap05\xuat_ban\Tap05_master.mp3
-02_SAN_XUAT\Tap05\xuat_ban\Tap05_master.mp4
-02_SAN_XUAT\Tap05_EN\xuat_ban\Tap05_EN_master.mp3
-02_SAN_XUAT\Tap05_EN\xuat_ban\Tap05_EN_master.mp4
-02_SAN_XUAT\Tap05_JA\xuat_ban\Tap05_JA_master.mp3
-02_SAN_XUAT\Tap05_JA\xuat_ban\Tap05_JA_master.mp4
-02_SAN_XUAT\Tap06\xuat_ban\Tap06_master.mp3
-02_SAN_XUAT\Tap06\xuat_ban\Tap06_master.mp4
-02_SAN_XUAT\Tap06_EN\xuat_ban\Tap06_EN_master.mp3
-02_SAN_XUAT\Tap06_EN\xuat_ban\Tap06_EN_master.mp4
-02_SAN_XUAT\Tap07\xuat_ban\Tap07_master.mp3
-02_SAN_XUAT\Tap07\xuat_ban\Tap07_master.mp4
-02_SAN_XUAT\Tap08\xuat_ban\Tap08_master.mp3
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap02\xuat_ban\Tap02_master.mp3
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap02\xuat_ban\Tap02_master.mp4
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap02_JA\xuat_ban\Tap02_JA_master.mp3
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap02_JA\xuat_ban\Tap02_JA_master.mp4
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap03\xuat_ban\Tap03_master.mp3
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap03\xuat_ban\Tap03_master.mp4
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap03_EN\xuat_ban\Tap03_EN_master.mp3
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap03_EN\xuat_ban\Tap03_EN_master.mp4
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap03_JA\xuat_ban\Tap03_JA_master.mp3
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap03_JA\xuat_ban\Tap03_JA_master.mp4
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap04\xuat_ban\Tap04_master.mp3
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap04\xuat_ban\Tap04_master.mp4
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap04_EN\xuat_ban\Tap04_EN_master.mp3
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap04_EN\xuat_ban\Tap04_EN_master.mp4
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap04_JA\xuat_ban\Tap04_JA_master.mp3
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap04_JA\xuat_ban\Tap04_JA_master.mp4
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap05\xuat_ban\Tap05_master.mp3
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap05\xuat_ban\Tap05_master.mp4
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap05_EN\xuat_ban\Tap05_EN_master.mp3
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap05_EN\xuat_ban\Tap05_EN_master.mp4
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap05_JA\xuat_ban\Tap05_JA_master.mp3
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap05_JA\xuat_ban\Tap05_JA_master.mp4
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap06\xuat_ban\Tap06_master.mp3
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap06\xuat_ban\Tap06_master.mp4
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap06_EN\xuat_ban\Tap06_EN_master.mp3
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap06_EN\xuat_ban\Tap06_EN_master.mp4
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap07\xuat_ban\Tap07_master.mp3
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap07\xuat_ban\Tap07_master.mp4
+02_SAN_XUAT\Ho_So_Toi_Pham\Tap08\xuat_ban\Tap08_master.mp3
 ```
 
 ## Ghi chú cho AI sau

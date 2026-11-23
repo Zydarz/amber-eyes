@@ -5,12 +5,12 @@ sys.path.insert(0, str(ROOT/".work"))
 from parse_kichban import parse_file
 
 KB = {
-    "t08": {"vi": "01_KICH_BAN/Tap08/kichban_tap08_23102026.md",
-            "en": "01_KICH_BAN/Tap08_EN/kichban_tap08_EN.md",
-            "ja": "01_KICH_BAN/Tap08_JA/kichban_tap08_JA.md"},
-    "t09": {"vi": "01_KICH_BAN/Tap09/kichban_tap09_23102026.md",
-            "en": "01_KICH_BAN/Tap09_EN/kichban_tap09_EN.md",
-            "ja": "01_KICH_BAN/Tap09_JA/kichban_tap09_JA.md"},
+    "t08": {"vi": "01_KICH_BAN/Ho_So_Toi_Pham/Tap08/kichban_tap08_23102026.md",
+            "en": "01_KICH_BAN/Ho_So_Toi_Pham/Tap08_EN/kichban_tap08_EN.md",
+            "ja": "01_KICH_BAN/Ho_So_Toi_Pham/Tap08_JA/kichban_tap08_JA.md"},
+    "t09": {"vi": "01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_23102026.md",
+            "en": "01_KICH_BAN/Ho_So_Toi_Pham/Tap09_EN/kichban_tap09_EN.md",
+            "ja": "01_KICH_BAN/Ho_So_Toi_Pham/Tap09_JA/kichban_tap09_JA.md"},
 }
 TL = {("t08","vi"): "timeline_s_t08.json", ("t08","en"): "timeline_s_EN_t08.json", ("t08","ja"): "timeline_s_JA_t08.json",
       ("t09","vi"): "timeline_s_t09.json"}

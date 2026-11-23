@@ -1,9 +1,9 @@
 import re
 
 files = [
-    ('VN', '01_KICH_BAN/Tap33/kichban_tap33_19112026.md'),
-    ('EN', '01_KICH_BAN/Tap33_EN/kichban_tap33_EN.md'),
-    ('JA', '01_KICH_BAN/Tap33_JA/kichban_tap33_JA.md')
+    ('VN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap33/kichban_tap33_19112026.md'),
+    ('EN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap33_EN/kichban_tap33_EN.md'),
+    ('JA', '01_KICH_BAN/Ho_So_Toi_Pham/Tap33_JA/kichban_tap33_JA.md')
 ]
 
 for lang, fn in files:

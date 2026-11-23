@@ -9,26 +9,26 @@ ROOT = Path(r"D:\TEST\Gax\amber-eyes")
 
 desc_files = [
     # Tiếng Việt
-    ROOT / "02_SAN_XUAT" / "Tap13" / "mo_ta.txt",
-    ROOT / "02_SAN_XUAT" / "Tap13" / "xuat_ban" / "mo_ta.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13" / "mo_ta.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13" / "xuat_ban" / "mo_ta.txt",
     
     # Tiếng Anh
-    ROOT / "02_SAN_XUAT" / "Tap13_EN" / "description.txt",
-    ROOT / "02_SAN_XUAT" / "Tap13_EN" / "mo_ta.txt",
-    ROOT / "02_SAN_XUAT" / "Tap13_EN" / "xuat_ban" / "description.txt",
-    ROOT / "02_SAN_XUAT" / "Tap13_EN" / "xuat_ban" / "mo_ta.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_EN" / "description.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_EN" / "mo_ta.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_EN" / "xuat_ban" / "description.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_EN" / "xuat_ban" / "mo_ta.txt",
     
     # Tiếng Nhật
-    ROOT / "02_SAN_XUAT" / "Tap13_JA" / "description.txt",
-    ROOT / "02_SAN_XUAT" / "Tap13_JA" / "mo_ta.txt",
-    ROOT / "02_SAN_XUAT" / "Tap13_JA" / "xuat_ban" / "description.txt",
-    ROOT / "02_SAN_XUAT" / "Tap13_JA" / "xuat_ban" / "mo_ta.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_JA" / "description.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_JA" / "mo_ta.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_JA" / "xuat_ban" / "description.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_JA" / "xuat_ban" / "mo_ta.txt",
     
     # Tiếng Hàn
-    ROOT / "02_SAN_XUAT" / "Tap13_KO" / "description.txt",
-    ROOT / "02_SAN_XUAT" / "Tap13_KO" / "mo_ta.txt",
-    ROOT / "02_SAN_XUAT" / "Tap13_KO" / "xuat_ban" / "description.txt",
-    ROOT / "02_SAN_XUAT" / "Tap13_KO" / "xuat_ban" / "mo_ta.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_KO" / "description.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_KO" / "mo_ta.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_KO" / "xuat_ban" / "description.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_KO" / "xuat_ban" / "mo_ta.txt",
 ]
 
 all_pass = True

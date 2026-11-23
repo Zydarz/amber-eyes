@@ -361,7 +361,7 @@ Xin chào và hẹn gặp lại quý vị trong những hành trình tiếp theo
 """
 
 # Save VN script
-with open("01_KICH_BAN/Tap46/kichban_tap46_19112026.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap46/kichban_tap46_19112026.md", "w", encoding="utf-8") as f:
     f.write(vn_script)
 
 print("VN script written successfully")

@@ -61,7 +61,7 @@ print(f"shot cuoi = {last['id']} · co chu = {bool(last['segments'])}")
 too_long = [(s["id"], round(s["end"] - s["start"], 1)) for s in shots if s["end"] - s["start"] > 25]
 print(f"shot > 25 s = {len(too_long)} {too_long[:8]}")
 
-srt = (ROOT / "02_SAN_XUAT/Tap05_JA/xuat_ban/Tap05_JA.srt").read_text(encoding="utf-8-sig")
+srt = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_JA/xuat_ban/Tap05_JA.srt").read_text(encoding="utf-8-sig")
 blocks = [b for b in srt.strip().split("\n\n") if b.strip()]
 
 def sec(ts):

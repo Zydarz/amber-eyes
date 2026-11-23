@@ -69,7 +69,7 @@
 | Nội dung | File nguồn | Ghi chú |
 |---|---|---|
 | Tiêu đề (VN/EN/JA/KO) | `.work/edition.py` → `EPISODES["NN"]["title"]` | nhiều ngôn ngữ dùng biểu thức điều kiện `if EN else …` |
-| Tiêu đề EN trong mô tả | `02_SAN_XUAT/TapNN_EN/CHU_CO_DINH_EN.md` (khối ```text có `CHAPTERS`) | `package.py` đọc từ đây, **không** đọc `edition.py` cho EN |
+| Tiêu đề EN trong mô tả | `02_SAN_XUAT/Ho_So_Toi_Pham/TapNN_EN/CHU_CO_DINH_EN.md` (khối ```text có `CHAPTERS`) | `package.py` đọc từ đây, **không** đọc `edition.py` cho EN |
 | Sinh file mô tả | `.work/package.py` | `description()` VN · `description_en()` · `description_ko()` · `description_ja()` |
 
 ⚠ **Sửa 1 chỗ là chưa đủ** — phải sửa cả `edition.py` + file mô tả đã đóng gói + (nếu có) `CHU_CO_DINH_*.md`. Nếu không, lần `package.py` chạy lại sẽ ghi đè.

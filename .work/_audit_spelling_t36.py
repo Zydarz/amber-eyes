@@ -14,7 +14,7 @@ def audit_vn():
     print("="*60)
     print("1. KIỂM TRA CHÍNH TẢ & NGÔN NGỮ TIẾNG VIỆT (Tap 36 VN)")
     print("="*60)
-    vn_file = ROOT / "01_KICH_BAN" / "Tap36" / "kichban_tap36_19112026.md"
+    vn_file = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap36" / "kichban_tap36_19112026.md"
     content = vn_file.read_text(encoding="utf-8")
     
     # 1. Từ lặp liên tiếp
@@ -82,7 +82,7 @@ def audit_en():
     print("\n" + "="*60)
     print("2. KIỂM TRA CHÍNH TẢ & NGÔN NGỮ TIẾNG ANH (Tap 36 EN)")
     print("="*60)
-    en_file = ROOT / "01_KICH_BAN" / "Tap36_EN" / "kichban_tap36_EN.md"
+    en_file = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap36_EN" / "kichban_tap36_EN.md"
     content = en_file.read_text(encoding="utf-8")
     
     # 1. Duplicate words
@@ -128,7 +128,7 @@ def audit_ja():
     print("\n" + "="*60)
     print("3. KIỂM TRA CHÍNH TẢ & NGÔN NGỮ TIẾNG NHẬT (Tap 36 JA)")
     print("="*60)
-    ja_file = ROOT / "01_KICH_BAN" / "Tap36_JA" / "kichban_tap36_JA.md"
+    ja_file = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap36_JA" / "kichban_tap36_JA.md"
     content = ja_file.read_text(encoding="utf-8")
     
     # 1. Dấu câu tiếng Nhật: kiểm tra việc kết thúc câu bằng 。！？…」

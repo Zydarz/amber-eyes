@@ -49,6 +49,6 @@ Mọi dữ kiện và lời khai đã đối chiếu hồ sơ tư pháp công kh
 
 #AmberEyes #TrueCrime #TamLyToiPham #GypsyRoseBlanchard #DeeDeeBlanchard #FDIA #MunchausenByProxy #BatLucTapNhiem #10ChiDauTamLy #CanhBaoDo #HoSoToiPham"""
 
-open('02_SAN_XUAT/Tap01/mo_ta.txt', 'w', encoding='utf-8').write(vn_desc)
-open('02_SAN_XUAT/Tap01/xuat_ban/mo_ta.txt', 'w', encoding='utf-8').write(vn_desc)
+open('02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/mo_ta.txt', 'w', encoding='utf-8').write(vn_desc)
+open('02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/mo_ta.txt', 'w', encoding='utf-8').write(vn_desc)
 print(f"Đã lưu mo_ta.txt: {len(vn_desc)} ký tự (UTF-8 bytes: {len(vn_desc.encode('utf-8'))})")

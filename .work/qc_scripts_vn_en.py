@@ -59,7 +59,7 @@ def qc_script(path, lang="VN"):
         
     return len(hits) == 0 and len(mid_sentence_dots) == 0 and len(unbalanced_quotes) == 0
 
-ok_vn = qc_script('01_KICH_BAN/Tap04/kichban_tap04_23102026.md', "VN")
-ok_en = qc_script('01_KICH_BAN/Tap04_EN/kichban_tap04_EN.md', "EN")
+ok_vn = qc_script('01_KICH_BAN/Ho_So_Toi_Pham/Tap04/kichban_tap04_23102026.md', "VN")
+ok_en = qc_script('01_KICH_BAN/Ho_So_Toi_Pham/Tap04_EN/kichban_tap04_EN.md', "EN")
 
 print(f"\nFinal result: VN={'PASS' if ok_vn else 'FAIL'}, EN={'PASS' if ok_en else 'FAIL'}")

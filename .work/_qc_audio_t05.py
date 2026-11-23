@@ -24,7 +24,7 @@ BIN = WORK / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin"
 FF = str(BIN / "ffmpeg.exe")
 FP = str(BIN / "ffprobe.exe")
 
-MP3 = ROOT / "02_SAN_XUAT" / "Tap05" / "xuat_ban" / "Tap05_master.mp3"
+MP3 = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap05" / "xuat_ban" / "Tap05_master.mp3"
 WAV = WORK / "audio_master_t05.wav"
 TIMELINE = WORK / "timeline_s_t05.json"
 SELECTION = WORK / "higgs_selection_t05.json"

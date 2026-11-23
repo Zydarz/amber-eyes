@@ -27,11 +27,11 @@ header_en = """# CRIMINAL PSYCHOLOGY AUDIO / PODCAST SCRIPT
 """
 
 full_en = "\n\n".join([header_en, act_en.ACT1_EN, act_en.ACT2_EN, act_en.ACT3_EN, act_en.ACT4_EN, act_en.ACT5_EN])
-with open("01_KICH_BAN/Tap32_EN/kichban_tap32_EN.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32_EN/kichban_tap32_EN.md", "w", encoding="utf-8") as f:
     f.write(full_en)
 
 import subprocess, json
-subprocess.run(["py", "-3", ".work/parse_kichban.py", "01_KICH_BAN/Tap32_EN/kichban_tap32_EN.md", ".work/t32_en.json"])
+subprocess.run(["py", "-3", ".work/parse_kichban.py", "01_KICH_BAN/Ho_So_Toi_Pham/Tap32_EN/kichban_tap32_EN.md", ".work/t32_en.json"])
 d = json.load(open(".work/t32_en.json", encoding="utf-8"))
 total_sents = sum(len(x.get("sentences", [])) for x in d)
 print("Generated EN sentences count:", total_sents)

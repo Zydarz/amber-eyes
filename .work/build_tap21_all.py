@@ -198,13 +198,13 @@ def main():
     print("=" * 70)
     
     out_paths = {
-        "VN": [ROOT / "01_KICH_BAN" / "Tap21" / "kichban_tap21_23102026.md"],
+        "VN": [ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap21" / "kichban_tap21_23102026.md"],
         "EN": [
-            ROOT / "01_KICH_BAN" / "Tap21" / "kichban_tap21_EN.md",
-            ROOT / "01_KICH_BAN" / "Tap21_EN" / "kichban_tap21_EN.md",
+            ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap21" / "kichban_tap21_EN.md",
+            ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap21_EN" / "kichban_tap21_EN.md",
         ],
-        "JA": [ROOT / "01_KICH_BAN" / "Tap21_JA" / "kichban_tap21_JA.md"],
-        "KO": [ROOT / "01_KICH_BAN" / "Tap21_KO" / "kichban_tap21_KO.md"],
+        "JA": [ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap21_JA" / "kichban_tap21_JA.md"],
+        "KO": [ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap21_KO" / "kichban_tap21_KO.md"],
     }
     
     for lang in ["VN", "EN", "JA", "KO"]:

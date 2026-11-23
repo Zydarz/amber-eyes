@@ -1,6 +1,6 @@
 import sys
 
-with open('01_KICH_BAN/Tap04/REVIEW_kichban_tap04.md', 'r', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap04/REVIEW_kichban_tap04.md', 'r', encoding='utf-8') as f:
     content = f.read()
 
 target = "- ⚠ `script_tap04.json`, `acting_tap04.json`, audio, bảng shot đều CŨ. Bản `kichban_tap04_EN.md` chưa sửa."
@@ -13,7 +13,7 @@ Sao lưu: `.work/_cu/tap04_truoc_dongbo_en_vn_20261031/`
    - Tại `5.02#4`: Bản vá trước viết *"tòa án quận Lehigh, bang Pennsylvania, tuyên thêm 6 bản án chung thân, nâng tổng số lên 18"* → vi phạm K8 (11 án NJ + 6 án PA = 17 ≠ 18).
    - Đã sửa thành: *"Ít ngày sau, các tòa án tại bang Pennsylvania tuyên thêm 7 bản án chung thân, nâng tổng số lên 18."* (chính xác theo lịch sử: 6 án tại Lehigh và 1 án tại Northampton, tổng 11 + 7 = 18).
 2. **Đồng bộ toàn diện bản tiếng Anh (`kichban_tap04_EN.md`):**
-   - Đã cập nhật và đồng bộ cả 2 đường dẫn: `01_KICH_BAN/Tap04_EN/kichban_tap04_EN.md` và `01_KICH_BAN/Tap04/kichban_tap04_EN.md` (cùng hash SHA256).
+   - Đã cập nhật và đồng bộ cả 2 đường dẫn: `01_KICH_BAN/Ho_So_Toi_Pham/Tap04_EN/kichban_tap04_EN.md` và `01_KICH_BAN/Ho_So_Toi_Pham/Tap04/kichban_tap04_EN.md` (cùng hash SHA256).
    - Loại bỏ toàn bộ các chi tiết cũ chưa kiểm chứng / hư cấu từ phim ảnh ở bản EN:
      * `1.05#3` & `1.07#3`: Loại bỏ chi tiết hư cấu lén lấy thuốc giảm đau của N1; dẫn lời N1 theo đúng chuẩn K3 ("imagine the perspective").
      * `1.08#3`: Bỏ chi tiết không nguồn linh mục Gall "sắp xuất viện".
@@ -42,7 +42,7 @@ Sao lưu: `.work/_cu/tap04_truoc_dongbo_en_vn_20261031/`
 
 if target in content:
     new_content = content.replace(target, replacement)
-    with open('01_KICH_BAN/Tap04/REVIEW_kichban_tap04.md', 'w', encoding='utf-8') as f:
+    with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap04/REVIEW_kichban_tap04.md', 'w', encoding='utf-8') as f:
         f.write(new_content)
     print("Updated REVIEW_kichban_tap04.md successfully!")
 else:

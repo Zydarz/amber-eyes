@@ -582,7 +582,7 @@ NGUỒN THAM KHẢO
 • Báo cáo điều tra Cảnh sát OPP + Belleville Police Service
 • Biên bản thẩm vấn ngày 07/02/2010 · lời khai của Thám tử Jim Smyth trước tòa
 • Bản tin The Globe and Mail · Toronto Star · CTV News
-• Kịch bản tập: 01_KICH_BAN/Tap02/kichban_tap02_22102026.md · đối chiếu: 02_SAN_XUAT/Tap02/nguon_tham_khao.md
+• Kịch bản tập: 01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_22102026.md · đối chiếu: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/nguon_tham_khao.md
 
 ——————
 LƯU Ý
@@ -629,7 +629,7 @@ NGUỒN THAM KHẢO
 • Báo cáo điều tra Cảnh sát OPP + Belleville Police Service (trạm kiểm soát Đường số 2)
 • Biên bản thẩm vấn ngày 07/02/2010 · lời khai của Thám tử Jim Smyth trước tòa
 • Hồ sơ quân bạ Bộ Quốc phòng Canada · The Globe and Mail
-• Kịch bản tập: 01_KICH_BAN/Tap02/kichban_tap02_22102026.md · đối chiếu: 02_SAN_XUAT/Tap02/nguon_tham_khao.md
+• Kịch bản tập: 01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_22102026.md · đối chiếu: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/nguon_tham_khao.md
 
 ——————
 LƯU Ý
@@ -677,7 +677,7 @@ NGUỒN THAM KHẢO
 • Bản án Tòa Thượng thẩm Ontario — R. v. Williams, 2010 ONSC 5946
 • Phim tài liệu CBC "The Detective and the Colonel"
 • Christie Blatchford, "Unmasking Freedom"
-• Kịch bản tập: 01_KICH_BAN/Tap02/kichban_tap02_22102026.md · đối chiếu: 02_SAN_XUAT/Tap02/nguon_tham_khao.md
+• Kịch bản tập: 01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_22102026.md · đối chiếu: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/nguon_tham_khao.md
 
 ——————
 LƯU Ý
@@ -725,7 +725,7 @@ NGUỒN THAM KHẢO
 • Thông cáo Bộ Quốc phòng Canada (thu hồi quân hàm, hủy bỏ sắc lệnh, đốt quân phục)
 • Bản án Tòa Thượng thẩm Ontario — R. v. Williams, 2010 ONSC 5946
 • Biên bản thẩm vấn ngày 07/02/2010 (Cảnh sát OPP)
-• Kịch bản tập: 01_KICH_BAN/Tap02/kichban_tap02_22102026.md · đối chiếu: 02_SAN_XUAT/Tap02/nguon_tham_khao.md
+• Kịch bản tập: 01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_22102026.md · đối chiếu: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/nguon_tham_khao.md
 
 ——————
 LƯU Ý
@@ -767,7 +767,7 @@ NGUỒN THAM KHẢO
 • Báo cáo điều tra Cảnh sát OPP + Belleville Police Service
 • Biên bản thẩm vấn ngày 07/02/2010 (Cảnh sát OPP)
 • Sách "The Gift of Fear" (Gavin de Becker) — nguồn cho khung lý thuyết trong kịch bản tập
-• Kịch bản tập: 01_KICH_BAN/Tap02/kichban_tap02_22102026.md · đối chiếu: 02_SAN_XUAT/Tap02/nguon_tham_khao.md
+• Kịch bản tập: 01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_22102026.md · đối chiếu: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/nguon_tham_khao.md
 
 ——————
 LƯU Ý
@@ -968,7 +968,7 @@ def write_markdown():
     A("")
     A("*Ngày: 20/11/2026 · Trạng thái: **kịch bản đã viết, chờ người dùng duyệt trước khi đọc giọng** (L4)*")
     A("*Kế hoạch cha: `02_SAN_XUAT/TIKTOK/KE_HOACH_TIKTOK.md` · Đặc tả audio máy đọc được: `02_SAN_XUAT/TIKTOK/Tap02/SPEC_AUDIO_CLIP_TAP02.json`*")
-    A("*Nguồn duy nhất của mọi dữ kiện: `.work/script_tap02.json` (203 câu, đã đối chiếu `02_SAN_XUAT/Tap02/nguon_tham_khao.md`)*")
+    A("*Nguồn duy nhất của mọi dữ kiện: `.work/script_tap02.json` (203 câu, đã đối chiếu `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/nguon_tham_khao.md`)*")
     A("*Sinh tự động bởi `.work/_build_tk_tap02.py` — sửa kịch bản thì sửa file đó rồi chạy lại, đừng sửa tay file này.*")
     A("")
     A("---")
@@ -1234,7 +1234,7 @@ def write_markdown():
     A("| 13 | **Từ cấm V9** | 0 từ trong danh sách A9.2 | ✅ đã kiểm tự động (mục 11) |")
     A("| 14 | **Hook** | 3 giây đầu có chữ hook đọc được ở 100 % khung | ✅ hook ≤ 12 từ, 5/5 clip |")
     A("")
-    A("**Riêng cho Tập 02:** mọi dữ kiện trong lời đọc phải truy được về `.work/script_tap02.json` + `02_SAN_XUAT/Tap02/nguon_tham_khao.md` (K1/K2); **không** thêm tên riêng, số liệu hay chi tiết mới ngoài hai file này.")
+    A("**Riêng cho Tập 02:** mọi dữ kiện trong lời đọc phải truy được về `.work/script_tap02.json` + `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/nguon_tham_khao.md` (K1/K2); **không** thêm tên riêng, số liệu hay chi tiết mới ngoài hai file này.")
     A("")
     A("---")
     A("")
@@ -1277,9 +1277,9 @@ def write_markdown():
     A("- `02_SAN_XUAT/TIKTOK/Tap01/KE_HOACH_CLIP_TAP01.md` — khuôn mẫu của bộ này (Tập 01)")
     A("- `02_SAN_XUAT/TIKTOK/Tap02/SPEC_AUDIO_CLIP_TAP02.json` — **bảng đặc tả audio máy đọc được**")
     A("- `.work/_build_tk_tap02.py` — **nguồn sự thật** của kịch bản này (sinh ra cả .md lẫn .json)")
-    A("- `01_KICH_BAN/Tap02/kichban_tap02_22102026.md` — kịch bản gốc Tập 02 (nguồn dữ kiện)")
-    A("- `02_SAN_XUAT/Tap02/nguon_tham_khao.md` — nguồn đối chiếu dữ kiện")
-    A("- `01_KICH_BAN/Tap02/REVIEW_kichban_tap02_10chiau.md` — bảng 10 chỉ dấu của Tập 02")
+    A("- `01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_22102026.md` — kịch bản gốc Tập 02 (nguồn dữ kiện)")
+    A("- `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/nguon_tham_khao.md` — nguồn đối chiếu dữ kiện")
+    A("- `01_KICH_BAN/Ho_So_Toi_Pham/Tap02/REVIEW_kichban_tap02_10chiau.md` — bảng 10 chỉ dấu của Tập 02")
     A("- `00_TIEU_CHUAN/QUY_TAC_AUDIO_HIGGS.md` — quy trình Higgs P0–P10 (Kaggle)")
     A("- `AGENTS.md` — L4/L5/L6/L7/L10 · K1–K10 · G1–G13 · A1–A13 · H6/H9/H17")
     A("")

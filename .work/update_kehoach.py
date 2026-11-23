@@ -91,7 +91,7 @@ content = """| Shot | Câu | Vai | Mẫu | Nền + bóng | Chữ | Beat | Nhân 
 | 5-18 | hết tập (10 s) | — | T1 | `t4_case_file_open` | **HỒI SƠ TẬP 04 · ĐÃ ĐÓNG** · *AMBER EYES · Phân tích tâm lý tội phạm qua những hồ sơ có thật* | Nhạc fade out | ⊘ | ◼ |
 """
 
-path = "02_SAN_XUAT/Tap04/KeHoach_Video_Tap04.md"
+path = "02_SAN_XUAT/Ho_So_Toi_Pham/Tap04/KeHoach_Video_Tap04.md"
 raw = open(path, encoding="utf-8").read()
 
 # Replace section 6 table

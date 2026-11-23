@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path(r"D:/TEST/Gax/amber-eyes")
-p = ROOT / "02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md"
+p = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md"
 lines = p.read_text(encoding="utf-8").splitlines()
 i0 = None
 for i, l in enumerate(lines):

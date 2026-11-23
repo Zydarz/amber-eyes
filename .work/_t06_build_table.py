@@ -3,9 +3,9 @@
 """Tap 06 — dựng bảng shot (mục 6) từ file kế hoạch JSON + kịch bản, có tự kiểm.
 
 Dùng:
-    py -3 _t06_build_table.py vi      # ghi 02_SAN_XUAT/Tap06/KeHoach_Video_Tap06.md
-    py -3 _t06_build_table.py en      # ghi 02_SAN_XUAT/Tap06_EN/KeHoach_Video_Tap06_EN.md
-    py -3 _t06_build_table.py ja      # ghi 02_SAN_XUAT/Tap06_JA/KeHoach_Video_Tap06_JA.md
+    py -3 _t06_build_table.py vi      # ghi 02_SAN_XUAT/Ho_So_Toi_Pham/Tap06/KeHoach_Video_Tap06.md
+    py -3 _t06_build_table.py en      # ghi 02_SAN_XUAT/Ho_So_Toi_Pham/Tap06_EN/KeHoach_Video_Tap06_EN.md
+    py -3 _t06_build_table.py ja      # ghi 02_SAN_XUAT/Ho_So_Toi_Pham/Tap06_JA/KeHoach_Video_Tap06_JA.md
     py -3 _t06_build_table.py vi --check    # chỉ kiểm, không ghi
 """
 import json
@@ -24,18 +24,18 @@ EP = ED.EPISODES["06"]
 N_ELEM = EP.get("n_element") or {}
 
 LANG = {
-    "vi": {"script": ROOT / "01_KICH_BAN/Tap06/kichban_tap06_23102026.md",
-           "plan": ROOT / "02_SAN_XUAT/Tap06/KeHoach_Video_Tap06.md",
+    "vi": {"script": ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap06/kichban_tap06_23102026.md",
+           "plan": ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap06/KeHoach_Video_Tap06.md",
            "planjson": WORK / "_t06_plan_vi.json",
            "hdr": "| Shot | Câu | Vai | Mẫu | Nền | Chữ | SFX / Beat | Nhân vật | Ghi chú |",
            "sec": "## 6. DANH SÁCH SHOT — TẬP 06 (tiếng Việt)"},
-    "en": {"script": ROOT / "01_KICH_BAN/Tap06_EN/kichban_tap06_EN.md",
-           "plan": ROOT / "02_SAN_XUAT/Tap06_EN/KeHoach_Video_Tap06_EN.md",
+    "en": {"script": ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap06_EN/kichban_tap06_EN.md",
+           "plan": ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap06_EN/KeHoach_Video_Tap06_EN.md",
            "planjson": WORK / "_t06_plan_en.json",
            "hdr": "| Shot | Câu | Vai | Mẫu | Nền | Chữ | SFX / Beat | Nhân vật |",
            "sec": "## 6. DANH SÁCH SHOT — TẬP 06 (ENGLISH EDITION)"},
-    "ja": {"script": ROOT / "01_KICH_BAN/Tap06_JA/kichban_tap06_JA.md",
-           "plan": ROOT / "02_SAN_XUAT/Tap06_JA/KeHoach_Video_Tap06_JA.md",
+    "ja": {"script": ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap06_JA/kichban_tap06_JA.md",
+           "plan": ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap06_JA/KeHoach_Video_Tap06_JA.md",
            "planjson": WORK / "_t06_plan_ja.json",
            "hdr": "| Shot | Câu | Vai | Mẫu | Nền | Chữ | SFX / Beat | Nhân vật | Ghi chú |",
            "sec": "## 6. DANH SÁCH SHOT — TẬP 06 (JA)"},

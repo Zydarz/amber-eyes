@@ -4,7 +4,7 @@ from parse_kichban import parse_file
 from pathlib import Path
 ROOT = Path(r"D:\TEST\Gax\amber-eyes")
 old_els = parse_file(ROOT/".work"/"_cu"/"kichban_tap03_22102026_truoc_V9_20261031.md")
-new_els = parse_file(ROOT/"01_KICH_BAN"/"Tap03"/"kichban_tap03_22102026.md")
+new_els = parse_file(ROOT/"01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap03"/"kichban_tap03_22102026.md")
 def byel(els):
     return {e["id"]: [s["text"] for s in e.get("sentences",[])] for e in els if e["kind"]=="LOI"}
 O, N = byel(old_els), byel(new_els)

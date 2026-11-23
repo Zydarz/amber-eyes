@@ -8,8 +8,8 @@ import sys
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 DIR = pathlib.Path("02_SAN_XUAT/TIKTOK/Tap02")
-KB = pathlib.Path("01_KICH_BAN/Tap02/kichban_tap02_22102026.md").read_text(encoding="utf-8-sig")
-NGUON = pathlib.Path("02_SAN_XUAT/Tap02/nguon_tham_khao.md").read_text(encoding="utf-8-sig")
+KB = pathlib.Path("01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_22102026.md").read_text(encoding="utf-8-sig")
+NGUON = pathlib.Path("02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/nguon_tham_khao.md").read_text(encoding="utf-8-sig")
 TL = json.loads(pathlib.Path(".work/timeline_s_t02.json").read_text(encoding="utf-8-sig"))
 
 # A9.2 — danh sach tu cam (ke ca "ung thu mau")

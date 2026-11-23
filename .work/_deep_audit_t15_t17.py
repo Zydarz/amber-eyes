@@ -66,13 +66,13 @@ def audit_file(path_str):
     return errors
 
 print("=== QUÉT TẬP 15 ===")
-audit_file("01_KICH_BAN/Tap15/kichban_tap15_23102026.md")
-audit_file("01_KICH_BAN/Tap15_EN/kichban_tap15_EN.md")
-audit_file("01_KICH_BAN/Tap15_JA/kichban_tap15_JA.md")
-audit_file("01_KICH_BAN/Tap15_KO/kichban_tap15_KO.md")
+audit_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap15/kichban_tap15_23102026.md")
+audit_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap15_EN/kichban_tap15_EN.md")
+audit_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap15_JA/kichban_tap15_JA.md")
+audit_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap15_KO/kichban_tap15_KO.md")
 
 print("\n=== QUÉT TẬP 17 ===")
-audit_file("01_KICH_BAN/Tap17/kichban_tap17_23102026.md")
-audit_file("01_KICH_BAN/Tap17_EN/kichban_tap17_EN.md")
-audit_file("01_KICH_BAN/Tap17_JA/kichban_tap17_JA.md")
-audit_file("01_KICH_BAN/Tap17_KO/kichban_tap17_KO.md")
+audit_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap17/kichban_tap17_23102026.md")
+audit_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap17_EN/kichban_tap17_EN.md")
+audit_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap17_JA/kichban_tap17_JA.md")
+audit_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap17_KO/kichban_tap17_KO.md")

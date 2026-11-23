@@ -29,13 +29,13 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MD = ROOT / "02_SAN_XUAT/Tap12/KeHoach_Video_Tap12.md"
+MD = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap12/KeHoach_Video_Tap12.md"
 ROW = re.compile(r"^\|\s*([1-5]-\d+)\s*\|(.*)$")
 SEC_PER_WORD = 0.32
 PAD = 0.5
 
 # kế hoạch Tập 11 để kiểm chéo thuật toán (có sẵn thời lượng thật)
-T11_MD = ROOT / "02_SAN_XUAT/Tap11/KeHoach_Video_Tap11.md"
+T11_MD = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap11/KeHoach_Video_Tap11.md"
 
 
 def parse(path, estimate=False):

@@ -338,11 +338,11 @@ def update_header(content, lang):
     return content
 
 targets = [
-    ('VN', '01_KICH_BAN/Tap16/kichban_tap16_23102026.md'),
-    ('EN', '01_KICH_BAN/Tap16/kichban_tap16_EN.md'),
-    ('EN', '01_KICH_BAN/Tap16_EN/kichban_tap16_EN.md'),
-    ('JA', '01_KICH_BAN/Tap16_JA/kichban_tap16_JA.md'),
-    ('KO', '01_KICH_BAN/Tap16_KO/kichban_tap16_KO.md'),
+    ('VN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap16/kichban_tap16_23102026.md'),
+    ('EN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap16/kichban_tap16_EN.md'),
+    ('EN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap16_EN/kichban_tap16_EN.md'),
+    ('JA', '01_KICH_BAN/Ho_So_Toi_Pham/Tap16_JA/kichban_tap16_JA.md'),
+    ('KO', '01_KICH_BAN/Ho_So_Toi_Pham/Tap16_KO/kichban_tap16_KO.md'),
 ]
 
 for lang, path in targets:

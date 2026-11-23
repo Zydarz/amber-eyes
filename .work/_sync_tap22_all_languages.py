@@ -408,13 +408,13 @@ def expand_file_block_based(lang, file_path):
     print(f"  Saved {file_path}")
 
 target_files_to_sync = [
-    ("VN", ROOT / "01_KICH_BAN" / "Tap22" / "kichban_tap22_23102026.md"),
-    ("EN", ROOT / "01_KICH_BAN" / "Tap22" / "kichban_tap22_EN.md"),
-    ("EN", ROOT / "01_KICH_BAN" / "Tap22_EN" / "kichban_tap22_EN.md"),
-    ("JA", ROOT / "01_KICH_BAN" / "Tap22" / "kichban_tap22_JA.md"),
-    ("JA", ROOT / "01_KICH_BAN" / "Tap22_JA" / "kichban_tap22_JA.md"),
-    ("KO", ROOT / "01_KICH_BAN" / "Tap22" / "kichban_tap22_KO.md"),
-    ("KO", ROOT / "01_KICH_BAN" / "Tap22_KO" / "kichban_tap22_KO.md"),
+    ("VN", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22" / "kichban_tap22_23102026.md"),
+    ("EN", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22" / "kichban_tap22_EN.md"),
+    ("EN", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22_EN" / "kichban_tap22_EN.md"),
+    ("JA", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22" / "kichban_tap22_JA.md"),
+    ("JA", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22_JA" / "kichban_tap22_JA.md"),
+    ("KO", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22" / "kichban_tap22_KO.md"),
+    ("KO", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22_KO" / "kichban_tap22_KO.md"),
 ]
 
 def generate_json_scripts_from_markdown():
@@ -423,10 +423,10 @@ def generate_json_scripts_from_markdown():
     from parse_kichban import parse_lines
     
     sources = [
-        ("VN", ROOT / "01_KICH_BAN" / "Tap22" / "kichban_tap22_23102026.md", ROOT / ".work" / "script_tap22.json"),
-        ("EN", ROOT / "01_KICH_BAN" / "Tap22_EN" / "kichban_tap22_EN.md", ROOT / ".work" / "script_tap22_EN.json"),
-        ("JA", ROOT / "01_KICH_BAN" / "Tap22_JA" / "kichban_tap22_JA.md", ROOT / ".work" / "script_tap22_JA.json"),
-        ("KO", ROOT / "01_KICH_BAN" / "Tap22_KO" / "kichban_tap22_KO.md", ROOT / ".work" / "script_tap22_KO.json"),
+        ("VN", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22" / "kichban_tap22_23102026.md", ROOT / ".work" / "script_tap22.json"),
+        ("EN", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22_EN" / "kichban_tap22_EN.md", ROOT / ".work" / "script_tap22_EN.json"),
+        ("JA", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22_JA" / "kichban_tap22_JA.md", ROOT / ".work" / "script_tap22_JA.json"),
+        ("KO", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22_KO" / "kichban_tap22_KO.md", ROOT / ".work" / "script_tap22_KO.json"),
     ]
     
     for lang, md_path, json_path in sources:

@@ -27,10 +27,10 @@ OLD = load_module(tmp, "pk_old")
 NEW = load_module(WORK / "parse_kichban.py", "pk_new")
 
 targets = [
-    "01_KICH_BAN/Tap01_KO/kichban_tap01_KO.md",
-    "01_KICH_BAN/Tap02_EN/kichban_tap02_EN.md",
-    "01_KICH_BAN/Tap04_EN/kichban_tap04_EN.md",
-    "01_KICH_BAN/Tap03_EN/kichban_tap03_EN.md",
+    "01_KICH_BAN/Ho_So_Toi_Pham/Tap01_KO/kichban_tap01_KO.md",
+    "01_KICH_BAN/Ho_So_Toi_Pham/Tap02_EN/kichban_tap02_EN.md",
+    "01_KICH_BAN/Ho_So_Toi_Pham/Tap04_EN/kichban_tap04_EN.md",
+    "01_KICH_BAN/Ho_So_Toi_Pham/Tap03_EN/kichban_tap03_EN.md",
 ]
 for rel in targets:
     p = ROOT / rel

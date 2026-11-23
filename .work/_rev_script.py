@@ -6,7 +6,7 @@ print("=== 1. KIỂM TRA KỊCH BẢN & PARSER ===")
 sys.path.insert(0, '.work')
 import parse_kichban
 
-script_file = "01_KICH_BAN/Tap05/kichban_tap05_23102026.md"
+script_file = "01_KICH_BAN/Ho_So_Toi_Pham/Tap05/kichban_tap05_23102026.md"
 els = parse_kichban.parse_lines(open(script_file, encoding='utf-8').read().splitlines())
 print(f"Tổng số phần tử parsed: {len(els)}")
 

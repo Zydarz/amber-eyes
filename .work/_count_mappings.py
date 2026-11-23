@@ -1,7 +1,7 @@
 import re, sys, io
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-text = open('02_SAN_XUAT/Tap04/Danh_Sach_Anh_Tap04.md', encoding='utf-8').read()
+text = open('02_SAN_XUAT/Ho_So_Toi_Pham/Tap04/Danh_Sach_Anh_Tap04.md', encoding='utf-8').read()
 
 lines = text.splitlines()
 cur_act = "None"

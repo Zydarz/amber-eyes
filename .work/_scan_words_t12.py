@@ -3,7 +3,7 @@ from collections import Counter
 
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
-with open('01_KICH_BAN/Tap12/kichban_tap12_23102026.md', 'r', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap12/kichban_tap12_23102026.md', 'r', encoding='utf-8') as f:
     text = f.read()
 
 # Extract words

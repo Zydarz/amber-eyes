@@ -42,7 +42,7 @@ AUDIO_OUT.mkdir(parents=True, exist_ok=True)
 RAW_OUT = HERE / "kaggle_higgs" / "out_higgs_prod_JA_t15"
 RAW_OUT.mkdir(parents=True, exist_ok=True)
 
-OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap15_JA" / "xuat_ban"
+OUT_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_JA" / "xuat_ban"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 DS_DIR = HERE / "kaggle_higgs" / "dataset_voxcpm2_ja"
@@ -458,7 +458,7 @@ def main():
 
     can_nghe_lines = [
         f"# 確認対象キュー一覧 — 第15話 (Higgs Audio v3) — {time.strftime('%Y/%m/%d')}\n",
-        f"想定マスター: `02_SAN_XUAT/Tap15_JA/xuat_ban/Tap15_JA_master.mp3` · {total:.1f} 秒 (~{total/60:.1f} 分) · {len(items_tl)} cues · 冒頭ナレーション {items_tl[0]['start']} 秒 · 最終ナレーション {end_voice:.1f} 秒\n",
+        f"想定マスター: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_JA/xuat_ban/Tap15_JA_master.mp3` · {total:.1f} 秒 (~{total/60:.1f} 分) · {len(items_tl)} cues · 冒頭ナレーション {items_tl[0]['start']} 秒 · 最終ナレーション {end_voice:.1f} 秒\n",
         "| 再生時刻 | キュー | 役割 | CER | MOS | 原文 | ASR認識結果 | 備考 |",
         "|---|---|---|---:|---:|---|---|---|"
     ]
@@ -514,7 +514,7 @@ def main():
 
     print("\n[Final Measurements] Master Audio:", flush=True)
     if master_mp3.exists():
-        parent_mp3 = ROOT / "02_SAN_XUAT" / "Tap15_JA" / "Tap15_JA_master.mp3"
+        parent_mp3 = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_JA" / "Tap15_JA_master.mp3"
         if not parent_mp3.exists() and not parent_mp3.is_symlink():
             ret = subprocess.run(["cp", "-c", str(master_mp3), str(parent_mp3)])
             if ret.returncode != 0:
@@ -548,7 +548,7 @@ def main():
 
     # Write Production Plan (KeHoach_Video_Tap15_JA.md)
     cers = [r["cer"] for r in cer_rows]
-    kehoach_p = ROOT / "02_SAN_XUAT" / "Tap15_JA" / "KeHoach_Video_Tap15_JA.md"
+    kehoach_p = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_JA" / "KeHoach_Video_Tap15_JA.md"
     kehoach_content = f"""# 制作計画 第15話 · 日本語版 · 「ベティ・ブロデリックの悲劇」
 
 ## B1. エピソード概要
@@ -563,7 +563,7 @@ def main():
 | TTSエンジン | **Higgs Audio v3** (`bosonai/higgs-audio-v3-tts-4b`) on Apple Silicon MLX |
 | 音声モデル | **VoxCPM2 Voice Design JA** (H: `H_JA.wav`, D: `D_JA.wav`, C: `C_JA.wav`, N1: `N1_JA.wav`, N2: `N2_JA.wav`) |
 | 音響構成 | 3層ステレオ音響: 5幕BGM + 継続的環境音 + ピンポイント効果音 (`.work/sfx_tap15_JA.json`) |
-| マスター出力 | `02_SAN_XUAT/Tap15_JA/xuat_ban/Tap15_JA_master.mp3` & `02_SAN_XUAT/Tap15_JA/xuat_ban/Tap15_JA_master.wav` |
+| マスター出力 | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_JA/xuat_ban/Tap15_JA_master.mp3` & `02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_JA/xuat_ban/Tap15_JA_master.wav` |
 
 ---
 
@@ -592,21 +592,21 @@ def main():
 - **CER中央値:** **{np.median(cers)*100:.2f}%** (CER平均: **{np.mean(cers)*100:.2f}%**).
 - **マルチテイク第2巡:** CER > 2% のキューに対し Variant 1 を自動生成し最適テイクを採用.
 - **UTMOSv2 MOS 自然性スコア:** 平均 **{avg_mos:.2f} / 5.0** (範囲: {np.min(valid_moss):.2f} – {np.max(valid_moss):.2f})。基準値クリア (>= 3.0 / 5.0)。
-- **確認対象キュー一覧:** [`02_SAN_XUAT/Tap15_JA/xuat_ban/CanNghe_Tap15_JA_higgs.md`](xuat_ban/CanNghe_Tap15_JA_higgs.md)。
+- **確認対象キュー一覧:** [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_JA/xuat_ban/CanNghe_Tap15_JA_higgs.md`](xuat_ban/CanNghe_Tap15_JA_higgs.md)。
 
 ---
 
 ## B3. 納品成果物一覧
 
 1. **マスター音源:**
-   - MP3: [`02_SAN_XUAT/Tap15_JA/xuat_ban/Tap15_JA_master.mp3`](xuat_ban/Tap15_JA_master.mp3)
-   - WAV: [`02_SAN_XUAT/Tap15_JA/xuat_ban/Tap15_JA_master.wav`](xuat_ban/Tap15_JA_master.wav)
+   - MP3: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_JA/xuat_ban/Tap15_JA_master.mp3`](xuat_ban/Tap15_JA_master.mp3)
+   - WAV: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_JA/xuat_ban/Tap15_JA_master.wav`](xuat_ban/Tap15_JA_master.wav)
 2. **タイムライン・字幕データ:**
    - タイムライン: [`.work/timeline_s_JA_t15.json`](../../.work/timeline_s_JA_t15.json) ({total:.1f} 秒)
-   - SRT字幕: [`02_SAN_XUAT/Tap15_JA/xuat_ban/Tap15_JA.srt`](xuat_ban/Tap15_JA.srt) ({len(items_tl)} cues)
+   - SRT字幕: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_JA/xuat_ban/Tap15_JA.srt`](xuat_ban/Tap15_JA.srt) ({len(items_tl)} cues)
 3. **品質レポート:**
    - QC詳細データ: [`.work/quality_qc_utmos_ep15_ja.json`](../../.work/quality_qc_utmos_ep15_ja.json)
-   - 人手確認シート: [`02_SAN_XUAT/Tap15_JA/xuat_ban/CanNghe_Tap15_JA_higgs.md`](xuat_ban/CanNghe_Tap15_JA_higgs.md)
+   - 人手確認シート: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_JA/xuat_ban/CanNghe_Tap15_JA_higgs.md`](xuat_ban/CanNghe_Tap15_JA_higgs.md)
 """
     kehoach_p.write_text(kehoach_content, encoding="utf-8")
     print(f"Updated KeHoach report at {kehoach_p}", flush=True)

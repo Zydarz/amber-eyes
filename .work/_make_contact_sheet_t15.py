@@ -31,6 +31,6 @@ for idx, j in enumerate(jobs):
             canvas.paste(thumb, (x, y))
     draw.text((x + 4, y + h_thumb + 4), f"#{idx+1:02d} {j['name'][:25]}", fill=(200, 200, 200))
 
-out_cs = ROOT / "02_SAN_XUAT" / "Tap15" / "contact_sheet_t15.png"
+out_cs = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15" / "contact_sheet_t15.png"
 canvas.save(out_cs)
 print("Saved contact sheet successfully:", out_cs)

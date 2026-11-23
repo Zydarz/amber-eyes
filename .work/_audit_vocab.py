@@ -31,7 +31,7 @@ def audit_vocab(path_str):
         print(f"  [{s['id']} - {s['words']}w] {s['text']}")
 
 print("--- TẬP 15 VN ---")
-audit_vocab("01_KICH_BAN/Tap15/kichban_tap15_23102026.md")
+audit_vocab("01_KICH_BAN/Ho_So_Toi_Pham/Tap15/kichban_tap15_23102026.md")
 
 print("--- TẬP 17 VN ---")
-audit_vocab("01_KICH_BAN/Tap17/kichban_tap17_23102026.md")
+audit_vocab("01_KICH_BAN/Ho_So_Toi_Pham/Tap17/kichban_tap17_23102026.md")

@@ -93,7 +93,7 @@ HEADER_VN = """# KỊCH BẢN AUDIO / PODCAST TÂM LÝ HỌC TỘI PHẠM
 
 HEADER_EN = """# CRIMINAL PSYCHOLOGY AUDIO / PODCAST SCRIPT — ENGLISH EDITION
 **Topic:** The 10 Psychological Markers & Behavioral Escalation — The Case of Paul Bernardo & Karla Homolka ("Ken & Barbie" and the "Deal with the Devil").
-**Translated from:** `01_KICH_BAN/Tap11/kichban_tap11_23102026.md`. One English sentence for every Vietnamese sentence, same structure, same IDs.
+**Translated from:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap11/kichban_tap11_23102026.md`. One English sentence for every Vietnamese sentence, same structure, same IDs.
 **Fact and legal review:** Based on public trial reporting, Ontario Court transcripts, and verified judicial archives; analysis of real people is framed within behavioral science frameworks.
 
 ---
@@ -134,7 +134,7 @@ HEADER_JA = """# 犯罪心理学オーディオ／ポッドキャスト台本 �
 
 HEADER_KO = """# 범죄심리 오디오 / 팟캐스트 스크립트 — 한국어판
 **주제:** 심리 지표 10대 생태계 & 행동 에스컬레이션의 법칙 — Paul Bernardo & Karla Homolka 사건 (‘켄과 바비’ 및 ‘악마와의 거래’)
-**원본:** `01_KICH_BAN/Tap11/kichban_tap11_23102026.md` 기반. 베트남어 원문과 1:1 완벽 일치 (동일 구조, 동일 ID, 동일 문장 수).
+**원본:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap11/kichban_tap11_23102026.md` 기반. 베트남어 원문과 1:1 완벽 일치 (동일 구조, 동일 ID, 동일 문장 수).
 **사실 및 법률 검토:** 공개된 온타리오 법원 공판 기록, 경찰 수사 보고서 및 공인된 행동과학 분석 자료를 바탕으로 구성.
 **버전:** 기준 A2 — 심리 지표 10대 생태계(A2c) 및 유튜브 V9 안전 기준에 맞춘 전면 재구성본(2026년 11월 7일).
 
@@ -214,11 +214,11 @@ ja_md = generate_markdown("JA")
 ko_md = generate_markdown("KO")
 
 out_files = [
-    ("VN", "01_KICH_BAN/Tap11/kichban_tap11_23102026.md", vn_md),
-    ("EN_sub", "01_KICH_BAN/Tap11/kichban_tap11_EN.md", en_md),
-    ("EN", "01_KICH_BAN/Tap11_EN/kichban_tap11_EN.md", en_md),
-    ("JA", "01_KICH_BAN/Tap11_JA/kichban_tap11_JA.md", ja_md),
-    ("KO", "01_KICH_BAN/Tap11_KO/kichban_tap11_KO.md", ko_md),
+    ("VN", "01_KICH_BAN/Ho_So_Toi_Pham/Tap11/kichban_tap11_23102026.md", vn_md),
+    ("EN_sub", "01_KICH_BAN/Ho_So_Toi_Pham/Tap11/kichban_tap11_EN.md", en_md),
+    ("EN", "01_KICH_BAN/Ho_So_Toi_Pham/Tap11_EN/kichban_tap11_EN.md", en_md),
+    ("JA", "01_KICH_BAN/Ho_So_Toi_Pham/Tap11_JA/kichban_tap11_JA.md", ja_md),
+    ("KO", "01_KICH_BAN/Ho_So_Toi_Pham/Tap11_KO/kichban_tap11_KO.md", ko_md),
 ]
 
 for label, path, content in out_files:

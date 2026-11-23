@@ -3,7 +3,7 @@
 """Sinh 3 ban mo ta DAI cho clip TikTok TK2/TK3/TK4 (truong Description, 4.000 ky tu).
 
 Kiem: do dai <= 4.000 · 0 tu cam V9/A9.2 · moi moc deu truy ve
-01_KICH_BAN/Tap01 + 02_SAN_XUAT/Tap01/nguon_tham_khao.md + mo ta tap 01.
+01_KICH_BAN/Ho_So_Toi_Pham/Tap01 + 02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/nguon_tham_khao.md + mo ta tap 01.
 """
 import pathlib
 import sys

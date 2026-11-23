@@ -13,8 +13,8 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(__file__).resolve().parent.parent
 FF = ROOT / ".work/ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffmpeg.exe"
 FP = ROOT / ".work/ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffprobe.exe"
-VID = ROOT / "02_SAN_XUAT/Tap02/xuat_ban/Tap02_master.mp4"
-MP3 = ROOT / "02_SAN_XUAT/Tap02/xuat_ban/Tap02_master.mp3"
+VID = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/xuat_ban/Tap02_master.mp4"
+MP3 = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/xuat_ban/Tap02_master.mp3"
 
 out = {}
 

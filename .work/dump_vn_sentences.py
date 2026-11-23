@@ -2,7 +2,7 @@ import sys
 sys.path.append('.work')
 from parse_kichban import parse_file
 
-vn = parse_file('01_KICH_BAN/Tap04/kichban_tap04_23102026.md')
+vn = parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap04/kichban_tap04_23102026.md')
 
 with open('.work/vn_sentences_dump.txt', 'w', encoding='utf-8') as out:
     for idx, el in enumerate(vn):

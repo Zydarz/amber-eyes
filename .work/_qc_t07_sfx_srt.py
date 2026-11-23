@@ -43,7 +43,7 @@ for b in bad[:20]:
 
 print()
 print("=== SRT moi: spot-check ===")
-srt = (ROOT / "02_SAN_XUAT/Tap07/xuat_ban/Tap07.srt").read_text(encoding="utf-8-sig")
+srt = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap07/xuat_ban/Tap07.srt").read_text(encoding="utf-8-sig")
 blocks = [b for b in srt.strip().split("\n\n")]
 print("so cue:", len(blocks))
 tags = re.findall(r"\[([^\]]+)\]", srt)

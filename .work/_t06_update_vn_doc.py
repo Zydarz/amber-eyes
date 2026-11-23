@@ -13,8 +13,8 @@ sys.path.insert(0, str(W))
 from parse_kichban import parse_file  # noqa: E402
 import edition as ED  # noqa: E402
 
-PLAN = ROOT / "02_SAN_XUAT/Tap06/KeHoach_Video_Tap06.md"
-KB = ROOT / "01_KICH_BAN/Tap06/kichban_tap06_23102026.md"
+PLAN = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap06/KeHoach_Video_Tap06.md"
+KB = ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap06/kichban_tap06_23102026.md"
 N_ELEM = ED.EPISODES["06"].get("n_element") or {}
 
 ROLE_LABEL = {"H": "Cú · Host", "D": "**Sói · Điều tra viên**",

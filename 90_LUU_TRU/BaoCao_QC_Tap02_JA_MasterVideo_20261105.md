@@ -2,7 +2,7 @@
 **Kênh:** Amber eyes (YouTube)  
 **Tập:** Episode 02 (Japanese Edition) — *第02話 · 二重生活の大佐とエスカレーションの深淵 | ラッセル・ウィリアムズ大佐の犯罪心理学 (10の心理指標と4段階の暴走)*  
 **Ngày hoàn thành & kiểm định:** 05/11/2026 21:00:15  
-**Thành phẩm bàn giao:** `02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA_master.mp4`  
+**Thành phẩm bàn giao:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/Tap02_JA_master.mp4`  
 
 ---
 
@@ -50,7 +50,7 @@
 
 ## 3. CÁC TÀI SẢN HOÀN CHỈNH BÀN GIAO TRONG THƯ MỤC XUẤT BẢN
 
-Thư mục: `02_SAN_XUAT/Tap02_JA/xuat_ban/`
+Thư mục: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/`
 1. `Tap02_JA_master.mp4` (631.919.225 bytes · 602,65 MB · 29:53)
 2. `Tap02_JA_master.mp3` (43.039.916 bytes · 41,05 MB)
 3. `Tap02_JA.srt` (38.434 bytes · 219 cues)

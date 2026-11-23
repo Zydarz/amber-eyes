@@ -8,7 +8,7 @@ text = """
 Type: project
 
 **ĐÃ XONG (bản EN Tập 02):**
-- Bảng shot EN `02_SAN_XUAT/Tap02_EN/KeHoach_Video_Tap02_EN.md` — 151 dòng, tự kiểm **151/151 đạt** (`.work/_build_plan_tap02_en.py`). 1 sửa nội dung: on-screen `2-11` "WOMEN'S UNDERWEAR AND PERSONAL BELONGINGS" → **"WOMEN'S PERSONAL BELONGINGS"** (khớp đúng chữ bản VN "ĐỒ RIÊNG TƯ CỦA PHỤ NỮ", tránh từ nhạy cảm YouTube).
+- Bảng shot EN `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/KeHoach_Video_Tap02_EN.md` — 151 dòng, tự kiểm **151/151 đạt** (`.work/_build_plan_tap02_en.py`). 1 sửa nội dung: on-screen `2-11` "WOMEN'S UNDERWEAR AND PERSONAL BELONGINGS" → **"WOMEN'S PERSONAL BELONGINGS"** (khớp đúng chữ bản VN "ĐỒ RIÊNG TƯ CỦA PHỤ NỮ", tránh từ nhạy cảm YouTube).
 - `edition.py`: `EPISODES["02"]` có nhánh EN (`AE_LANG=en AE_EP=02` → hậu tố `_EN_t02`, thư mục `Tap02_EN`, master `Tap02_EN_master`, srt `Tap02_EN.srt`, act_titles/badge/thẻ cảnh báo EN, title + thumbnail EN).
 - `acting_tap02_EN.json` — 215 câu (`.work/make_acting_tap02_en.py`): 4 cảm xúc an toàn, **cao độ = 0**, 6 bậc tốc độ (bậc lớn nhất 29% — bản VN dồn 51%), 9 lời đọc riêng (chỉ thêm `<#0.35#>` sau `:` đứng trước câu trích), 70 khoảng lặng / 27,2 s y hệt bản VN.
 - Intro EN riêng `assets/brand/intro_kenh_EN_t02.mov` — thẻ A "ABOUT THIS DOCUMENTARY" + thẻ B "VIEWER DISCRETION & ADVISORY" đúng `CHU_CO_DINH_EN.md` §2. `make_intro.py` đã sửa để **tự xuống dòng** (chữ dài hơn bản Tập 01) + nhận `ED.EP["card_geom"]`; mặc định giữ nguyên hành vi cũ.

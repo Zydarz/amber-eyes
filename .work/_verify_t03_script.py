@@ -20,9 +20,9 @@ ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 
 LANGS = [
-    ("vi", "01_KICH_BAN/Tap03/kichban_tap03_22102026.md", "script_tap03.json", "timeline_s_t03.json"),
-    ("en", "01_KICH_BAN/Tap03_EN/kichban_tap03_EN.md", "script_tap03_EN.json", "timeline_s_EN_t03.json"),
-    ("ja", "01_KICH_BAN/Tap03_JA/kichban_tap03_JA.md", "script_tap03_JA.json", "timeline_s_JA_t03.json"),
+    ("vi", "01_KICH_BAN/Ho_So_Toi_Pham/Tap03/kichban_tap03_22102026.md", "script_tap03.json", "timeline_s_t03.json"),
+    ("en", "01_KICH_BAN/Ho_So_Toi_Pham/Tap03_EN/kichban_tap03_EN.md", "script_tap03_EN.json", "timeline_s_EN_t03.json"),
+    ("ja", "01_KICH_BAN/Ho_So_Toi_Pham/Tap03_JA/kichban_tap03_JA.md", "script_tap03_JA.json", "timeline_s_JA_t03.json"),
 ]
 
 TMP = WORK / "_tmp_t03_parse"

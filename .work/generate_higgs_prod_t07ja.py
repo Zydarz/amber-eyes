@@ -46,7 +46,7 @@ AUDIO_OUT.mkdir(parents=True, exist_ok=True)
 RAW_OUT = HERE / "kaggle_higgs" / "out_higgs_prod_JA_t07"
 RAW_OUT.mkdir(parents=True, exist_ok=True)
 
-OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap07_JA" / "xuat_ban"
+OUT_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_JA" / "xuat_ban"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 ROLE_REF_MAP = {
@@ -448,7 +448,7 @@ def main():
 
     can_nghe_lines = [
         f"# Câu cần nghe — Tập 07 JA (Higgs Audio v3) — {time.strftime('%d/%m/%Y')}\n",
-        f"Dự kiến Master: `02_SAN_XUAT/Tap07_JA/xuat_ban/Tap07_JA_master.mp3` · {total:.1f} s (~{total/60:.1f} min) · {len(items_tl)} câu · lời đầu {items_tl[0]['start']} s · lời cuối {end_voice:.1f} s\n",
+        f"Dự kiến Master: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap07_JA/xuat_ban/Tap07_JA_master.mp3` · {total:.1f} s (~{total/60:.1f} min) · {len(items_tl)} câu · lời đầu {items_tl[0]['start']} s · lời cuối {end_voice:.1f} s\n",
         "| Mốc | Câu | Vai | CER | MOS | Câu gốc | ASR nghe được | Ghi chú |",
         "|---|---|---|---:|---:|---|---|---|"
     ]
@@ -493,7 +493,7 @@ def main():
 
     print("\n[Final Measurements] Master Audio:", flush=True)
     if master_mp3.exists():
-        parent_mp3 = ROOT / "02_SAN_XUAT" / "Tap07_JA" / "Tap07_JA_master.mp3"
+        parent_mp3 = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_JA" / "Tap07_JA_master.mp3"
         if not parent_mp3.exists() and not parent_mp3.is_symlink():
             shutil.copy2(master_mp3, parent_mp3)
         size_mb = master_mp3.stat().st_size / (1024 * 1024)
@@ -525,11 +525,11 @@ def main():
 
     # Write Production Plan (KeHoach_Video_Tap07_JA.md)
     cers = [r["cer"] for r in cer_rows]
-    kehoach_p = ROOT / "02_SAN_XUAT" / "Tap07_JA" / "KeHoach_Video_Tap07_JA.md"
+    kehoach_p = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_JA" / "KeHoach_Video_Tap07_JA.md"
     kehoach_content = f"""# PRODUCTION PLAN EPISODE 07 · JAPANESE EDITION · 「メールによる殺人判決」
 
 **Standard Applied:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Part A), `00_TIEU_CHUAN/QUY_TAC_HIGGS_MAC.md`  
-**Script:** `01_KICH_BAN/Tap07_JA/kichban_tap07_JA.md` · **Release Target:** `02_SAN_XUAT/Tap07_JA/xuat_ban/`  
+**Script:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap07_JA/kichban_tap07_JA.md` · **Release Target:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap07_JA/xuat_ban/`  
 **Date:** {time.strftime('%Y年%m月%d日')}
 
 ---
@@ -538,9 +538,9 @@ def main():
 
 | Item | Value |
 |---|---|
-| Script | `01_KICH_BAN/Tap07_JA/kichban_tap07_JA.md` — 48 elements · **{len(items_tl)} sentences** |
+| Script | `01_KICH_BAN/Ho_So_Toi_Pham/Tap07_JA/kichban_tap07_JA.md` — 48 elements · **{len(items_tl)} sentences** |
 | Voice Engine | **Higgs Audio v3** (`bosonai/higgs-audio-v3-tts-4b` on Apple Silicon Mac MLX) — Voice Reference Set: VoxCPM2 Japanese (`H_JA`, `D_JA`, `C_JA`, `N1_JA`, `N2_JA`). No emotion tags (M4). Pre-encoded (M1). Tail silence trimmed (M3). |
-| Master Output | `02_SAN_XUAT/Tap07_JA/xuat_ban/Tap07_JA_master.mp3` (**{total:.1f} s / ~{int(total//60)}分{int(total%60):02d}秒** · **Integrated: {int_l}** · **True Peak: {tp}** · **0 khoảng câm > 0.3 s**) |
+| Master Output | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap07_JA/xuat_ban/Tap07_JA_master.mp3` (**{total:.1f} s / ~{int(total//60)}分{int(total%60):02d}秒** · **Integrated: {int_l}** · **True Peak: {tp}** · **0 khoảng câm > 0.3 s**) |
 | Quality Control (ASR & CER) | **Whisper Base CER:** Mean = **{np.mean(cers)*100:.2f}%**, Median = **{np.median(cers)*100:.2f}%** ({sum(1 for c in cers if c > 0.02)}/{len(cers)} sentences > 2%). Target (< 2.0%). |
 | Quality Control (Naturalness MOS) | **UTMOSv2 MOS:** Mean = **{avg_mos:.2f} / 5.0** (Range: {np.min(valid_moss):.2f} – {np.max(valid_moss):.2f}). Target (>= 3.0 / 5.0). |
 | Pitch Separation (Rule G9) | **D (Wolf):** {medians.get("D",0):.1f} Hz · **H (Owl):** {medians.get("H",0):.1f} Hz ($\\Delta = {dh_semitones:+.2f}$ nc) · **C (Fox):** {medians.get("C",0):.1f} Hz ($\\Delta = {hc_semitones:+.2f}$ nc). |
@@ -552,14 +552,14 @@ def main():
 ## B2. Deliverable Files
 
 1. **Master Audio:**
-   - MP3: [`02_SAN_XUAT/Tap07_JA/xuat_ban/Tap07_JA_master.mp3`](xuat_ban/Tap07_JA_master.mp3)
-   - WAV: [`02_SAN_XUAT/Tap07_JA/xuat_ban/Tap07_JA_master.wav`](xuat_ban/Tap07_JA_master.wav)
+   - MP3: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap07_JA/xuat_ban/Tap07_JA_master.mp3`](xuat_ban/Tap07_JA_master.mp3)
+   - WAV: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap07_JA/xuat_ban/Tap07_JA_master.wav`](xuat_ban/Tap07_JA_master.wav)
 2. **Timeline & Subtitles:**
    - Timeline: [`.work/timeline_s_JA_t07.json`](../../.work/timeline_s_JA_t07.json) ({total:.1f} s)
-   - Subtitles: [`02_SAN_XUAT/Tap07_JA/xuat_ban/Tap07_JA.srt`](xuat_ban/Tap07_JA.srt) ({len(items_tl)} cues)
+   - Subtitles: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap07_JA/xuat_ban/Tap07_JA.srt`](xuat_ban/Tap07_JA.srt) ({len(items_tl)} cues)
 3. **QC Reports:**
    - Quality report: [`.work/quality_qc_utmos_ep07_ja.json`](../../.work/quality_qc_utmos_ep07_ja.json)
-   - Listening verification list: [`02_SAN_XUAT/Tap07_JA/CanNghe_Tap07_JA_higgs.md`](xuat_ban/CanNghe_Tap07_JA_higgs.md)
+   - Listening verification list: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap07_JA/CanNghe_Tap07_JA_higgs.md`](xuat_ban/CanNghe_Tap07_JA_higgs.md)
 """
     kehoach_p.write_text(kehoach_content, encoding="utf-8")
     print(f"Updated KeHoach report at {kehoach_p}", flush=True)

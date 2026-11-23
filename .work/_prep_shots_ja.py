@@ -17,7 +17,7 @@ def sents(cell):
         out += [f"{ma}#{k}" for k in range(int(a), int(b or a) + 1)]
     return out
 
-vn_lines = open("02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md", encoding="utf-8").readlines()
+vn_lines = open("02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md", encoding="utf-8").readlines()
 en_table = json.load(open(".work/shots_text_tap02_EN.json", encoding="utf-8"))
 
 shots = []

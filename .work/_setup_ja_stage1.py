@@ -9,7 +9,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path("D:/TEST/Gax/amber-eyes")
 W = ROOT / ".work"
-PUB = ROOT / "02_SAN_XUAT/Tap02_JA/xuat_ban"
+PUB = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban"
 FF = W / "ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffmpeg.exe"
 
 # 1. Backup (Rule L5)
@@ -20,7 +20,7 @@ print(f"=== 1. SAO LUU (L5) -> {BK} ===")
 files_to_backup = [
     W / "timeline_s_JA_t02.json",
     W / "shots_JA_t02.json",
-    ROOT / "02_SAN_XUAT/Tap02_JA/KeHoach_Video_Tap02_JA.md"
+    ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/KeHoach_Video_Tap02_JA.md"
 ]
 for f in files_to_backup:
     if f.exists():
@@ -33,7 +33,7 @@ print("\n=== 2. KHOI PHUC TU COMMIT 5e9910b9 ===")
 for git_rel, target_path in [
     (".work/timeline_s_JA_t02.json", W / "timeline_s_JA_t02.json"),
     (".work/shots_JA_t02.json", W / "shots_JA_t02.json"),
-    ("02_SAN_XUAT/Tap02_JA/KeHoach_Video_Tap02_JA.md", ROOT / "02_SAN_XUAT/Tap02_JA/KeHoach_Video_Tap02_JA.md")
+    ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/KeHoach_Video_Tap02_JA.md", ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/KeHoach_Video_Tap02_JA.md")
 ]:
     res = subprocess.run(["git", "show", f"5e9910b9:{git_rel}"], capture_output=True, text=True, encoding="utf-8")
     if res.returncode != 0:

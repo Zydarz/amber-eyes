@@ -13,7 +13,7 @@ for r in report:
         r['shot_type'] = "Bảng shot timeline đã neo audio master"
     else:
         # Check KeHoach table
-        plan_p = f"02_SAN_XUAT/Tap{ep:02d}/KeHoach_Video_Tap{ep:02d}.md"
+        plan_p = f"02_SAN_XUAT/Ho_So_Toi_Pham/Tap{ep:02d}/KeHoach_Video_Tap{ep:02d}.md"
         plan_shots = 0
         if os.path.exists(plan_p):
             lines = open(plan_p, encoding='utf-8').read().splitlines()

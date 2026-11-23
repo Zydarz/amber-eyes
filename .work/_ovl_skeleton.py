@@ -11,7 +11,7 @@ W = Path(__file__).resolve().parent
 ROOT = W.parent
 
 ref = (W / "_ovl_ref_JA.md").read_text(encoding="utf-8").splitlines()
-vnlines = (ROOT / "02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md").read_text(encoding="utf-8").splitlines()
+vnlines = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md").read_text(encoding="utf-8").splitlines()
 i0 = next(i for i, l in enumerate(vnlines) if l.startswith("## 6. DANH SÁCH SHOT"))
 i1 = next(i for i, l in enumerate(vnlines) if i > i0 and l.startswith("**Tổng:"))
 

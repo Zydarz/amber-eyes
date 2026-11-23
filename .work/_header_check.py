@@ -8,7 +8,7 @@ for n in range(4, 30):
 
 bad = 0
 for tap in sorted(SRC):
-    kp = '01_KICH_BAN/Tap%s_KO/kichban_tap%s_KO.md' % (tap, tap)
+    kp = '01_KICH_BAN/Ho_So_Toi_Pham/Tap%s_KO/kichban_tap%s_KO.md' % (tap, tap)
     if not os.path.exists(kp):
         print('Tap%s: MISSING' % tap)
         bad += 1

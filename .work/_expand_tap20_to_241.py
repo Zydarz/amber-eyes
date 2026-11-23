@@ -347,12 +347,12 @@ def apply_expansions_to_script(src_path, dst_path, add_map, lang):
 
 def main():
     targets = [
-        ("VN", ROOT / "01_KICH_BAN" / "Tap20" / "kichban_tap20_23102026.md", ROOT / "01_KICH_BAN" / "Tap20" / "kichban_tap20_23102026.md", VN_ADD),
-        ("EN1", ROOT / "01_KICH_BAN" / "Tap20" / "kichban_tap20_EN.md", ROOT / "01_KICH_BAN" / "Tap20" / "kichban_tap20_EN.md", EN_ADD),
-        ("EN2", ROOT / "01_KICH_BAN" / "Tap20_EN" / "kichban_tap20_EN.md", ROOT / "01_KICH_BAN" / "Tap20_EN" / "kichban_tap20_EN.md", EN_ADD),
-        ("JA1", ROOT / "01_KICH_BAN" / "Tap20_JA" / "kichban_tap20_JA.md", ROOT / "01_KICH_BAN" / "Tap20_JA" / "kichban_tap20_JA.md", JA_ADD),
-        ("JA2", ROOT / "01_KICH_BAN" / "Tap20_JA" / "kichban_tap20_JA.md", ROOT / "01_KICH_BAN" / "Tap20" / "kichban_tap20_JA.md", JA_ADD),
-        ("KO", ROOT / "01_KICH_BAN" / "Tap20_KO" / "kichban_tap20_KO.md", ROOT / "01_KICH_BAN" / "Tap20_KO" / "kichban_tap20_KO.md", KO_ADD),
+        ("VN", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap20" / "kichban_tap20_23102026.md", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap20" / "kichban_tap20_23102026.md", VN_ADD),
+        ("EN1", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap20" / "kichban_tap20_EN.md", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap20" / "kichban_tap20_EN.md", EN_ADD),
+        ("EN2", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap20_EN" / "kichban_tap20_EN.md", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap20_EN" / "kichban_tap20_EN.md", EN_ADD),
+        ("JA1", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap20_JA" / "kichban_tap20_JA.md", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap20_JA" / "kichban_tap20_JA.md", JA_ADD),
+        ("JA2", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap20_JA" / "kichban_tap20_JA.md", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap20" / "kichban_tap20_JA.md", JA_ADD),
+        ("KO", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap20_KO" / "kichban_tap20_KO.md", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap20_KO" / "kichban_tap20_KO.md", KO_ADD),
     ]
 
     for label, src, dst, add_map in targets:

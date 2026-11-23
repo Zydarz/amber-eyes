@@ -108,4 +108,4 @@ Số thô: `.work/voxcpm_do/do_dc3_16take.json`, `.work/voxcpm_do/do_dc3_3take_a
 - Câu trượt CER của **cả 3 giọng D là cùng một câu**, chỉ mất chữ đầu "Thứ" ("Thứ dẫn cảnh sát tới gần hắn…", 14 từ → 1 lỗi = 6,5%); pilot v9 cũng trượt câu này ⇒ lỗi theo câu, không theo giọng. C2_AB03: "Bởi vậy" → "với vậy".
 - D3 nói **4,0 âm/s, nhanh hơn Host (3,55)** — ngược thiết kế "chậm, cụt".
 - Câu `sad`/`surprised` vẫn vọt (D3_SH surprised 172 Hz) — cùng lỗi thẻ cảm xúc của Host (A11 #53).
-- Nghe: `02_SAN_XUAT/Tap02/thu_giong_v10/`.
+- Nghe: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/thu_giong_v10/`.

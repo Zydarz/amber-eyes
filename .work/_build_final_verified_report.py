@@ -31,7 +31,7 @@ def get_shots_rule_count(ep, sentences):
             pass
             
     # 2. From KeHoach shot table
-    plan_path = f"02_SAN_XUAT/Tap{ep:02d}/KeHoach_Video_Tap{ep:02d}.md"
+    plan_path = f"02_SAN_XUAT/Ho_So_Toi_Pham/Tap{ep:02d}/KeHoach_Video_Tap{ep:02d}.md"
     if os.path.exists(plan_path):
         txt = open(plan_path, encoding='utf-8').read()
         shot_lines = [l for l in txt.splitlines() if re.match(r'^\|\s*`?\d+[\.\d]*', l)]

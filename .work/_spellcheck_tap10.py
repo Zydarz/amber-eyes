@@ -3,7 +3,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
-script_file = Path('01_KICH_BAN/Tap10/kichban_tap10_23102026.md')
+script_file = Path('01_KICH_BAN/Ho_So_Toi_Pham/Tap10/kichban_tap10_23102026.md')
 with open(script_file, 'r', encoding='utf-8') as f:
     raw_text = f.read()
 

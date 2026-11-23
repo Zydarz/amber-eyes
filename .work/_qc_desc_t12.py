@@ -64,10 +64,10 @@ markers_ko = [
 ]
 
 lang_checks = [
-    ("VI", ROOT / "02_SAN_XUAT" / "Tap12" / "mo_ta.txt", markers_vi),
-    ("EN", ROOT / "02_SAN_XUAT" / "Tap12_EN" / "description.txt", markers_en),
-    ("JA", ROOT / "02_SAN_XUAT" / "Tap12_JA" / "description.txt", markers_ja),
-    ("KO", ROOT / "02_SAN_XUAT" / "Tap12_KO" / "description.txt", markers_ko),
+    ("VI", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12" / "mo_ta.txt", markers_vi),
+    ("EN", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_EN" / "description.txt", markers_en),
+    ("JA", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_JA" / "description.txt", markers_ja),
+    ("KO", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_KO" / "description.txt", markers_ko),
 ]
 
 all_pass = True
@@ -96,17 +96,17 @@ for lang, file_path, markers in lang_checks:
 
 print("\n=== 2. KIỂM ĐỊNH ĐỒNG BỘ FILE XUẤT BẢN & GỐC ===")
 pairs = [
-    (ROOT / "02_SAN_XUAT" / "Tap12" / "mo_ta.txt", ROOT / "02_SAN_XUAT" / "Tap12" / "xuat_ban" / "mo_ta.txt"),
-    (ROOT / "02_SAN_XUAT" / "Tap12" / "nguon_tham_khao.md", ROOT / "02_SAN_XUAT" / "Tap12" / "xuat_ban" / "nguon_tham_khao.md"),
-    (ROOT / "02_SAN_XUAT" / "Tap12_EN" / "description.txt", ROOT / "02_SAN_XUAT" / "Tap12_EN" / "xuat_ban" / "description.txt"),
-    (ROOT / "02_SAN_XUAT" / "Tap12_EN" / "mo_ta.txt", ROOT / "02_SAN_XUAT" / "Tap12_EN" / "description.txt"),
-    (ROOT / "02_SAN_XUAT" / "Tap12_EN" / "nguon_tham_khao_EN.md", ROOT / "02_SAN_XUAT" / "Tap12_EN" / "xuat_ban" / "nguon_tham_khao_EN.md"),
-    (ROOT / "02_SAN_XUAT" / "Tap12_JA" / "description.txt", ROOT / "02_SAN_XUAT" / "Tap12_JA" / "xuat_ban" / "description.txt"),
-    (ROOT / "02_SAN_XUAT" / "Tap12_JA" / "mo_ta.txt", ROOT / "02_SAN_XUAT" / "Tap12_JA" / "description.txt"),
-    (ROOT / "02_SAN_XUAT" / "Tap12_JA" / "nguon_tham_khao_JA.md", ROOT / "02_SAN_XUAT" / "Tap12_JA" / "xuat_ban" / "nguon_tham_khao_JA.md"),
-    (ROOT / "02_SAN_XUAT" / "Tap12_KO" / "description.txt", ROOT / "02_SAN_XUAT" / "Tap12_KO" / "xuat_ban" / "description.txt"),
-    (ROOT / "02_SAN_XUAT" / "Tap12_KO" / "mo_ta.txt", ROOT / "02_SAN_XUAT" / "Tap12_KO" / "description.txt"),
-    (ROOT / "02_SAN_XUAT" / "Tap12_KO" / "nguon_tham_khao_KO.md", ROOT / "02_SAN_XUAT" / "Tap12_KO" / "xuat_ban" / "nguon_tham_khao_KO.md"),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12" / "mo_ta.txt", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12" / "xuat_ban" / "mo_ta.txt"),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12" / "nguon_tham_khao.md", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12" / "xuat_ban" / "nguon_tham_khao.md"),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_EN" / "description.txt", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_EN" / "xuat_ban" / "description.txt"),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_EN" / "mo_ta.txt", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_EN" / "description.txt"),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_EN" / "nguon_tham_khao_EN.md", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_EN" / "xuat_ban" / "nguon_tham_khao_EN.md"),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_JA" / "description.txt", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_JA" / "xuat_ban" / "description.txt"),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_JA" / "mo_ta.txt", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_JA" / "description.txt"),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_JA" / "nguon_tham_khao_JA.md", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_JA" / "xuat_ban" / "nguon_tham_khao_JA.md"),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_KO" / "description.txt", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_KO" / "xuat_ban" / "description.txt"),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_KO" / "mo_ta.txt", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_KO" / "description.txt"),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_KO" / "nguon_tham_khao_KO.md", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_KO" / "xuat_ban" / "nguon_tham_khao_KO.md"),
 ]
 
 for src, dst in pairs:
@@ -119,18 +119,18 @@ for src, dst in pairs:
 
 print("\n=== 3. KIỂM ĐỊNH LINE ENDING (DOUBLE CR == 0) ===")
 target_files = [
-    ROOT / "02_SAN_XUAT" / "Tap12" / "mo_ta.txt",
-    ROOT / "02_SAN_XUAT" / "Tap12" / "nguon_mo_ta.txt",
-    ROOT / "02_SAN_XUAT" / "Tap12" / "nguon_tham_khao.md",
-    ROOT / "02_SAN_XUAT" / "Tap12_EN" / "description.txt",
-    ROOT / "02_SAN_XUAT" / "Tap12_EN" / "nguon_mo_ta_EN.txt",
-    ROOT / "02_SAN_XUAT" / "Tap12_EN" / "nguon_tham_khao_EN.md",
-    ROOT / "02_SAN_XUAT" / "Tap12_JA" / "description.txt",
-    ROOT / "02_SAN_XUAT" / "Tap12_JA" / "nguon_mo_ta_JA.txt",
-    ROOT / "02_SAN_XUAT" / "Tap12_JA" / "nguon_tham_khao_JA.md",
-    ROOT / "02_SAN_XUAT" / "Tap12_KO" / "description.txt",
-    ROOT / "02_SAN_XUAT" / "Tap12_KO" / "nguon_mo_ta_KO.txt",
-    ROOT / "02_SAN_XUAT" / "Tap12_KO" / "nguon_tham_khao_KO.md",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12" / "mo_ta.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12" / "nguon_mo_ta.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12" / "nguon_tham_khao.md",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_EN" / "description.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_EN" / "nguon_mo_ta_EN.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_EN" / "nguon_tham_khao_EN.md",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_JA" / "description.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_JA" / "nguon_mo_ta_JA.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_JA" / "nguon_tham_khao_JA.md",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_KO" / "description.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_KO" / "nguon_mo_ta_KO.txt",
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12_KO" / "nguon_tham_khao_KO.md",
 ]
 
 for p in target_files:

@@ -17,7 +17,7 @@ for el in s:
         print()
 
 print("=== caption T8 trong bang shot ===")
-plan = (ROOT / "02_SAN_XUAT/Tap07/KeHoach_Video_Tap07.md").read_text(encoding="utf-8-sig")
+plan = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap07/KeHoach_Video_Tap07.md").read_text(encoding="utf-8-sig")
 for ln in plan.split("\n"):
     if re.match(r"^\|\s*(5-0[4-8])\s*\|", ln):
         c = [x.strip() for x in ln.strip().strip("|").split("|")]

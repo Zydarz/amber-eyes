@@ -6,7 +6,7 @@
 
 ## 1. Vì sao phải làm lại
 
-Kịch bản `01_KICH_BAN/Tap02/kichban_tap02_22102026.md` đã viết lại (bản 10 chỉ dấu tâm lý, 05/11 08:51). So với bản dùng để dựng video cũ (25/10):
+Kịch bản `01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_22102026.md` đã viết lại (bản 10 chỉ dấu tâm lý, 05/11 08:51). So với bản dùng để dựng video cũ (25/10):
 
 | Đo | Cũ | MỚI |
 |---|---:|---:|
@@ -86,7 +86,7 @@ Kịch bản `01_KICH_BAN/Tap02/kichban_tap02_22102026.md` đã viết lại (b�
 
 | File | Trạng thái |
 |---|---|
-| `02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md` | **đã sửa** (bảng shot mục 6 + tham chiếu shot-id trong văn bản) |
+| `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md` | **đã sửa** (bảng shot mục 6 + tham chiếu shot-id trong văn bản) |
 | `.work/shots_t02.json` | **đã sinh lại** — 161 shot |
 | `.work/timeline_s_t02.json` | **đã sinh lại** (timeline tạm — xem mục 5 #2) |
 | `.work/video3_t02/stills/shot_*.png` | **161 ảnh** mới |

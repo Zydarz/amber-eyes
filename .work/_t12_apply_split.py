@@ -5,7 +5,7 @@
     py -3 .work/_t12_apply_split.py --apply       # ghi file
 
 Ghi:
-  02_SAN_XUAT/Tap12/KeHoach_Video_Tap12.md   (mã nền ở cột "Nền + bóng")
+  02_SAN_XUAT/Ho_So_Toi_Pham/Tap12/KeHoach_Video_Tap12.md   (mã nền ở cột "Nền + bóng")
   .work/bg_jobs_tap12_v2.json                (83 job cũ + 68 mới + 1 thẻ kết = 152)
 """
 import collections
@@ -19,7 +19,7 @@ sys.path.insert(0, r"D:/TEST/Gax/amber-eyes/.work")
 from _t12_new_bg_jobs import NEW, END_CARD  # noqa: E402
 
 ROOT = Path(r"D:/TEST/Gax/amber-eyes")
-PLAN = ROOT / "02_SAN_XUAT/Tap12/KeHoach_Video_Tap12.md"
+PLAN = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap12/KeHoach_Video_Tap12.md"
 JOBS_V1 = ROOT / ".work/bg_jobs_tap12.json"
 JOBS_V2 = ROOT / ".work/bg_jobs_tap12_v2.json"
 BACKUP = ROOT / ".work/_cu/t12_split_20261116"

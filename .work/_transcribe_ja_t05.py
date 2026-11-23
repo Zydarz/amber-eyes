@@ -12,7 +12,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parents[1]
 FFMPEG = ROOT / ".work/ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffmpeg.exe"
-AUDIO_FILE = ROOT / "02_SAN_XUAT/Tap05_JA/xuat_ban/Tap05_JA_master.mp3"
+AUDIO_FILE = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_JA/xuat_ban/Tap05_JA_master.mp3"
 WAV_16K = ROOT / ".work/speech_full_ja_t05_16k.wav"
 OUT_JSON = ROOT / ".work/speech_full_recognized_ja_t05.json"
 

@@ -7,7 +7,7 @@ lines = c.splitlines(True)
 for i, l in enumerate(lines):
     if l.startswith("| 02 EN |") or l.startswith("| **02 EN** |"):
         lines[i] = (
-            '| **02 EN** | `02_SAN_XUAT/Tap02_EN/` | ✅ `Tap02_EN_master.mp4` **23:17** '
+            '| **02 EN** | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/` | ✅ `Tap02_EN_master.mp4` **23:17** '
             '(1.396,9 s · 505,3 MB · 1920x1080@30 · 41.907 frame · H.264+AAC) — '
             '"Ep. 02: A Predator Disguised as Honor" · **giọng Higgs Audio v3** '
             '(vai D `English_Trustworth_Man`) · **G10 ĐẠT** (5/5 vai 1 người) · '

@@ -8,10 +8,10 @@ sys.path.insert(0, ".work")
 import parse_kichban as PK
 
 files = {
-    "VN": "01_KICH_BAN/Tap14/kichban_tap14_23102026.md",
-    "EN": "01_KICH_BAN/Tap14_EN/kichban_tap14_EN.md",
-    "JA": "01_KICH_BAN/Tap14_JA/kichban_tap14_JA.md",
-    "KO": "01_KICH_BAN/Tap14_KO/kichban_tap14_KO.md",
+    "VN": "01_KICH_BAN/Ho_So_Toi_Pham/Tap14/kichban_tap14_23102026.md",
+    "EN": "01_KICH_BAN/Ho_So_Toi_Pham/Tap14_EN/kichban_tap14_EN.md",
+    "JA": "01_KICH_BAN/Ho_So_Toi_Pham/Tap14_JA/kichban_tap14_JA.md",
+    "KO": "01_KICH_BAN/Ho_So_Toi_Pham/Tap14_KO/kichban_tap14_KO.md",
 }
 
 print("=== KIỂM TRA ĐỐI CHIẾU THỰC THỂ TÊN RIÊNG & TÍNH NHẤT QUÁN ===")

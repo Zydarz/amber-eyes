@@ -299,30 +299,30 @@ DESC_KO = f"{TITLE_KO}\n\n{INTRO_KO}\n\n{MARKERS_KO}\n\n{CHAPTERS_KO}\n\n{DISCLA
 # ==============================================================================
 files_data = [
     # 1. TIẾNG VIỆT
-    (ROOT / "02_SAN_XUAT" / "Tap06" / "nguon_mo_ta.txt", SOURCES_VI),
-    (ROOT / "02_SAN_XUAT" / "Tap06" / "mo_ta.txt", DESC_VI),
-    (ROOT / "02_SAN_XUAT" / "Tap06" / "xuat_ban" / "mo_ta.txt", DESC_VI),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06" / "nguon_mo_ta.txt", SOURCES_VI),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06" / "mo_ta.txt", DESC_VI),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06" / "xuat_ban" / "mo_ta.txt", DESC_VI),
 
     # 2. TIẾNG ANH
-    (ROOT / "02_SAN_XUAT" / "Tap06_EN" / "nguon_mo_ta_EN.txt", SOURCES_EN),
-    (ROOT / "02_SAN_XUAT" / "Tap06_EN" / "description.txt", DESC_EN),
-    (ROOT / "02_SAN_XUAT" / "Tap06_EN" / "mo_ta.txt", DESC_EN),
-    (ROOT / "02_SAN_XUAT" / "Tap06_EN" / "xuat_ban" / "description.txt", DESC_EN),
-    (ROOT / "02_SAN_XUAT" / "Tap06_EN" / "xuat_ban" / "mo_ta.txt", DESC_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_EN" / "nguon_mo_ta_EN.txt", SOURCES_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_EN" / "description.txt", DESC_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_EN" / "mo_ta.txt", DESC_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_EN" / "xuat_ban" / "description.txt", DESC_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_EN" / "xuat_ban" / "mo_ta.txt", DESC_EN),
 
     # 3. TIẾNG NHẬT
-    (ROOT / "02_SAN_XUAT" / "Tap06_JA" / "nguon_mo_ta_JA.txt", SOURCES_JA),
-    (ROOT / "02_SAN_XUAT" / "Tap06_JA" / "description.txt", DESC_JA),
-    (ROOT / "02_SAN_XUAT" / "Tap06_JA" / "mo_ta.txt", DESC_JA),
-    (ROOT / "02_SAN_XUAT" / "Tap06_JA" / "xuat_ban" / "description.txt", DESC_JA),
-    (ROOT / "02_SAN_XUAT" / "Tap06_JA" / "xuat_ban" / "mo_ta.txt", DESC_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_JA" / "nguon_mo_ta_JA.txt", SOURCES_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_JA" / "description.txt", DESC_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_JA" / "mo_ta.txt", DESC_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_JA" / "xuat_ban" / "description.txt", DESC_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_JA" / "xuat_ban" / "mo_ta.txt", DESC_JA),
 
     # 4. TIẾNG HÀN
-    (ROOT / "02_SAN_XUAT" / "Tap06_KO" / "nguon_mo_ta_KO.txt", SOURCES_KO),
-    (ROOT / "02_SAN_XUAT" / "Tap06_KO" / "description.txt", DESC_KO),
-    (ROOT / "02_SAN_XUAT" / "Tap06_KO" / "mo_ta.txt", DESC_KO),
-    (ROOT / "02_SAN_XUAT" / "Tap06_KO" / "xuat_ban" / "description.txt", DESC_KO),
-    (ROOT / "02_SAN_XUAT" / "Tap06_KO" / "xuat_ban" / "mo_ta.txt", DESC_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_KO" / "nguon_mo_ta_KO.txt", SOURCES_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_KO" / "description.txt", DESC_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_KO" / "mo_ta.txt", DESC_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_KO" / "xuat_ban" / "description.txt", DESC_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_KO" / "xuat_ban" / "mo_ta.txt", DESC_KO),
 ]
 
 all_under_5000 = True

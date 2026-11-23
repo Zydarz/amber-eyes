@@ -14,7 +14,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 W = Path(r"D:\TEST\Gax\amber-eyes\.work")
 OLD = W / "_cu" / "t05_pre_higgs_20261101" / "script_tap05.json"
 NEW = W / "script_tap05.json"
-PLAN = Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Tap05\KeHoach_Video_Tap05.md")
+PLAN = Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Ho_So_Toi_Pham\Tap05\KeHoach_Video_Tap05.md")
 
 
 def load(p):

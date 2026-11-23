@@ -317,13 +317,13 @@ ANCHORS = {
 }
 
 target_files = [
-    ("VN", ROOT / "01_KICH_BAN" / "Tap21" / "kichban_tap21_23102026.md"),
-    ("EN", ROOT / "01_KICH_BAN" / "Tap21" / "kichban_tap21_EN.md"),
-    ("EN", ROOT / "01_KICH_BAN" / "Tap21_EN" / "kichban_tap21_EN.md"),
-    ("JA", ROOT / "01_KICH_BAN" / "Tap21" / "kichban_tap21_JA.md"),
-    ("JA", ROOT / "01_KICH_BAN" / "Tap21_JA" / "kichban_tap21_JA.md"),
-    ("KO", ROOT / "01_KICH_BAN" / "Tap21" / "kichban_tap21_KO.md"),
-    ("KO", ROOT / "01_KICH_BAN" / "Tap21_KO" / "kichban_tap21_KO.md"),
+    ("VN", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap21" / "kichban_tap21_23102026.md"),
+    ("EN", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap21" / "kichban_tap21_EN.md"),
+    ("EN", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap21_EN" / "kichban_tap21_EN.md"),
+    ("JA", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap21" / "kichban_tap21_JA.md"),
+    ("JA", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap21_JA" / "kichban_tap21_JA.md"),
+    ("KO", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap21" / "kichban_tap21_KO.md"),
+    ("KO", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap21_KO" / "kichban_tap21_KO.md"),
 ]
 
 def update_file(lang, path):

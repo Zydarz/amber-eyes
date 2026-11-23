@@ -3,7 +3,7 @@
 import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
-with open('01_KICH_BAN/Tap15/kichban_tap15_23102026.md', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap15/kichban_tap15_23102026.md', encoding='utf-8') as f:
     text = f.read()
 
 acts = text.split('## HỒI ')

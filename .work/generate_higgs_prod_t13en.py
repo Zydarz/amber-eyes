@@ -42,7 +42,7 @@ AUDIO_OUT.mkdir(parents=True, exist_ok=True)
 RAW_OUT = HERE / "kaggle_higgs" / "out_higgs_prod_EN_t13"
 RAW_OUT.mkdir(parents=True, exist_ok=True)
 
-OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap13_EN" / "xuat_ban"
+OUT_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_EN" / "xuat_ban"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 DS_DIR = HERE / "kaggle_higgs" / "dataset_voxcpm2_en"
@@ -457,7 +457,7 @@ def main():
 
     can_nghe_lines = [
         f"# Sentences to Review — Episode 13 EN (Higgs Audio v3) — {time.strftime('%d/%m/%Y')}\n",
-        f"Master Target: `02_SAN_XUAT/Tap13_EN/xuat_ban/Tap13_EN_master.mp3` · {total:.1f} s (~{total/60:.1f} min) · {len(items_tl)} cues · first voice {items_tl[0]['start']} s · last voice {end_voice:.1f} s\n",
+        f"Master Target: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap13_EN/xuat_ban/Tap13_EN_master.mp3` · {total:.1f} s (~{total/60:.1f} min) · {len(items_tl)} cues · first voice {items_tl[0]['start']} s · last voice {end_voice:.1f} s\n",
         "| Time | ID | Role | CER | MOS | Original Text | ASR Heard | Note |",
         "|---|---|---|---:|---:|---|---|---|"
     ]
@@ -502,7 +502,7 @@ def main():
 
     print("\n[Final Measurements] Master Audio:", flush=True)
     if master_mp3.exists():
-        parent_mp3 = ROOT / "02_SAN_XUAT" / "Tap13_EN" / "Tap13_EN_master.mp3"
+        parent_mp3 = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_EN" / "Tap13_EN_master.mp3"
         if not parent_mp3.exists() and not parent_mp3.is_symlink():
             shutil.copy2(master_mp3, parent_mp3)
         size_mb = master_mp3.stat().st_size / (1024 * 1024)
@@ -534,7 +534,7 @@ def main():
 
     # Write Production Plan (KeHoach_Video_Tap13_EN.md)
     cers = [r["cer"] for r in cer_rows]
-    kehoach_p = ROOT / "02_SAN_XUAT" / "Tap13_EN" / "KeHoach_Video_Tap13_EN.md"
+    kehoach_p = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_EN" / "KeHoach_Video_Tap13_EN.md"
     kehoach_content = f"""# PRODUCTION PLAN EPISODE 13 · ENGLISH EDITION · "THE GOLDEN CHILD FAÇADE"
 
 ## B1. Episode Overview
@@ -549,7 +549,7 @@ def main():
 | TTS Engine | **Higgs Audio v3** (`bosonai/higgs-audio-v3-tts-4b`) on Apple Silicon MLX |
 | Reference Voices | **VoxCPM2 Voice Design EN** (H: `H_EN.wav`, D: `D_EN.wav`, C: `C_EN.wav`, N1: `N1_EN.wav`, N2: `N2_EN.wav`) |
 | Sound Engineering | 3-Layer Stereo: 5-Act BGM + Continuous Ambience + Targeted SFX (`.work/sfx_tap13_EN.json`) |
-| Master Output | `02_SAN_XUAT/Tap13_EN/xuat_ban/Tap13_EN_master.mp3` & `02_SAN_XUAT/Tap13_EN/xuat_ban/Tap13_EN_master.wav` |
+| Master Output | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap13_EN/xuat_ban/Tap13_EN_master.mp3` & `02_SAN_XUAT/Ho_So_Toi_Pham/Tap13_EN/xuat_ban/Tap13_EN_master.wav` |
 
 ---
 
@@ -578,21 +578,21 @@ def main():
 - **Median CER:** **{np.median(cers)*100:.2f}%** (Mean CER: **{np.mean(cers)*100:.2f}%**).
 - **Multi-take Pass 2:** Auto-generated Variant 1 for cues with CER > 2% and selected optimal take.
 - **UTMOSv2 MOS Naturalness:** Mean **{avg_mos:.2f} / 5.0** (Range: {np.min(valid_moss):.2f} – {np.max(valid_moss):.2f}). Passed threshold (>= 3.0 / 5.0).
-- **Review Report:** [`02_SAN_XUAT/Tap13_EN/xuat_ban/CanNghe_Tap13_EN_higgs.md`](xuat_ban/CanNghe_Tap13_EN_higgs.md).
+- **Review Report:** [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap13_EN/xuat_ban/CanNghe_Tap13_EN_higgs.md`](xuat_ban/CanNghe_Tap13_EN_higgs.md).
 
 ---
 
 ## B3. Deliverables Inventory
 
 1. **Master Audio:**
-   - MP3: [`02_SAN_XUAT/Tap13_EN/xuat_ban/Tap13_EN_master.mp3`](xuat_ban/Tap13_EN_master.mp3)
-   - WAV: [`02_SAN_XUAT/Tap13_EN/xuat_ban/Tap13_EN_master.wav`](xuat_ban/Tap13_EN_master.wav)
+   - MP3: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap13_EN/xuat_ban/Tap13_EN_master.mp3`](xuat_ban/Tap13_EN_master.mp3)
+   - WAV: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap13_EN/xuat_ban/Tap13_EN_master.wav`](xuat_ban/Tap13_EN_master.wav)
 2. **Timeline & Subtitles:**
    - Timeline: [`.work/timeline_s_EN_t13.json`](../../.work/timeline_s_EN_t13.json) ({total:.1f} s)
-   - Subtitles SRT: [`02_SAN_XUAT/Tap13_EN/xuat_ban/Tap13_EN.srt`](xuat_ban/Tap13_EN.srt) ({len(items_tl)} cues)
+   - Subtitles SRT: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap13_EN/xuat_ban/Tap13_EN.srt`](xuat_ban/Tap13_EN.srt) ({len(items_tl)} cues)
 3. **Quality Reports:**
    - Full QC Log: [`.work/quality_qc_utmos_ep13_en.json`](../../.work/quality_qc_utmos_ep13_en.json)
-   - Human Review Sheet: [`02_SAN_XUAT/Tap13_EN/xuat_ban/CanNghe_Tap13_EN_higgs.md`](xuat_ban/CanNghe_Tap13_EN_higgs.md)
+   - Human Review Sheet: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap13_EN/xuat_ban/CanNghe_Tap13_EN_higgs.md`](xuat_ban/CanNghe_Tap13_EN_higgs.md)
 """
     kehoach_p.write_text(kehoach_content, encoding="utf-8")
     print(f"Updated KeHoach report at {kehoach_p}", flush=True)

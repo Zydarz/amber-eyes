@@ -9,7 +9,7 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 W = Path(r"D:\TEST\Gax\amber-eyes\.work")
-PLAN = Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Tap05\KeHoach_Video_Tap05.md")
+PLAN = Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Ho_So_Toi_Pham\Tap05\KeHoach_Video_Tap05.md")
 CHANGED = {"1.03", "1.05", "1.07", "1.09", "1.10", "1.12", "1.14", "2.02", "2.04",
            "2.05", "2.06", "3.02", "3.05", "3.07", "4.02", "4.04", "4.08", "4.10",
            "4.12", "4.14", "4.15", "5.02", "5.08"}

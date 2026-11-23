@@ -71,20 +71,20 @@ INDICATORS = {
 }
 
 FILES = [
-    ("VI", ROOT / "02_SAN_XUAT" / "Tap07" / "mo_ta.txt"),
-    ("VI", ROOT / "02_SAN_XUAT" / "Tap07" / "xuat_ban" / "mo_ta.txt"),
-    ("EN", ROOT / "02_SAN_XUAT" / "Tap07_EN" / "description.txt"),
-    ("EN", ROOT / "02_SAN_XUAT" / "Tap07_EN" / "mo_ta.txt"),
-    ("EN", ROOT / "02_SAN_XUAT" / "Tap07_EN" / "xuat_ban" / "description.txt"),
-    ("EN", ROOT / "02_SAN_XUAT" / "Tap07_EN" / "xuat_ban" / "mo_ta.txt"),
-    ("JA", ROOT / "02_SAN_XUAT" / "Tap07_JA" / "description.txt"),
-    ("JA", ROOT / "02_SAN_XUAT" / "Tap07_JA" / "mo_ta.txt"),
-    ("JA", ROOT / "02_SAN_XUAT" / "Tap07_JA" / "xuat_ban" / "description.txt"),
-    ("JA", ROOT / "02_SAN_XUAT" / "Tap07_JA" / "xuat_ban" / "mo_ta.txt"),
-    ("KO", ROOT / "02_SAN_XUAT" / "Tap07_KO" / "description.txt"),
-    ("KO", ROOT / "02_SAN_XUAT" / "Tap07_KO" / "mo_ta.txt"),
-    ("KO", ROOT / "02_SAN_XUAT" / "Tap07_KO" / "xuat_ban" / "description.txt"),
-    ("KO", ROOT / "02_SAN_XUAT" / "Tap07_KO" / "xuat_ban" / "mo_ta.txt"),
+    ("VI", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07" / "mo_ta.txt"),
+    ("VI", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07" / "xuat_ban" / "mo_ta.txt"),
+    ("EN", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_EN" / "description.txt"),
+    ("EN", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_EN" / "mo_ta.txt"),
+    ("EN", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_EN" / "xuat_ban" / "description.txt"),
+    ("EN", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_EN" / "xuat_ban" / "mo_ta.txt"),
+    ("JA", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_JA" / "description.txt"),
+    ("JA", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_JA" / "mo_ta.txt"),
+    ("JA", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_JA" / "xuat_ban" / "description.txt"),
+    ("JA", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_JA" / "xuat_ban" / "mo_ta.txt"),
+    ("KO", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_KO" / "description.txt"),
+    ("KO", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_KO" / "mo_ta.txt"),
+    ("KO", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_KO" / "xuat_ban" / "description.txt"),
+    ("KO", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_KO" / "xuat_ban" / "mo_ta.txt"),
 ]
 
 print("=== BÁO CÁO TOÀN DIỆN QC MÔ TẢ VIDEO TẬP 07 (TRẦN <= 5,000 KÝ TỰ) ===\n")

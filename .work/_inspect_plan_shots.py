@@ -4,7 +4,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-plan = Path("02_SAN_XUAT/Tap02_EN/KeHoach_Video_Tap02_EN.md").read_text(encoding="utf-8")
+plan = Path("02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/KeHoach_Video_Tap02_EN.md").read_text(encoding="utf-8")
 m = re.search(r"^## 6\. DANH SÁCH SHOT.*$", plan, re.M)
 sec = plan[m.end():]
 sec = sec[: re.search(r"^\*\*Tổng:", sec, re.M).start()]

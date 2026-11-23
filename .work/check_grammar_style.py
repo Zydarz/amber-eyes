@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def inspect_all():
     print("Checking punctuation and quote styling across all 29 scripts...")
     for ep in range(1, 30):
-        p = ROOT / "01_KICH_BAN" / f"Tap{ep:02d}_EN" / f"kichban_tap{ep:02d}_EN.md"
+        p = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap{ep:02d}_EN" / f"kichban_tap{ep:02d}_EN.md"
         text = open(p, encoding='utf-8').read()
         
         # Check punctuation outside closing double quotes (British style e.g. ”.)

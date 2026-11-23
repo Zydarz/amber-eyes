@@ -1,8 +1,8 @@
 # BÁO CÁO KIỂM ĐỊNH CHẤT LƯỢNG (QC) — TẬP 02 (TIẾNG VIỆT) · DỰNG VIDEO MASTER
 **Ngày lập:** 05/11/2026  
-**Hồ sơ:** `02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md`  
-**Video thành phẩm:** `02_SAN_XUAT/Tap02/xuat_ban/Tap02_master.mp4`  
-**Kịch bản:** `01_KICH_BAN/Tap02/kichban_tap02_22102026.md` (Bản Hệ sinh thái 10 chỉ dấu tâm lý & 4 bậc thang vực thẳm)  
+**Hồ sơ:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md`  
+**Video thành phẩm:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/xuat_ban/Tap02_master.mp4`  
+**Kịch bản:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_22102026.md` (Bản Hệ sinh thái 10 chỉ dấu tâm lý & 4 bậc thang vực thẳm)  
 
 ---
 
@@ -39,7 +39,7 @@
 
 ## 3. MỐC CHƯƠNG (YOUTUBE CHAPTERS)
 
-Mốc thời gian hiển thị trong `02_SAN_XUAT/Tap02/xuat_ban/mo_ta.txt`:
+Mốc thời gian hiển thị trong `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/xuat_ban/mo_ta.txt`:
 - `00:00` Intro
 - `00:23` Hồi 1 · Sự tương phản cực đại phía sau quân hàm đại tá
 - `05:44` Hồi 2 · Hiện trường & Quỹ đạo leo thang của vực thẳm
@@ -49,7 +49,7 @@ Mốc thời gian hiển thị trong `02_SAN_XUAT/Tap02/xuat_ban/mo_ta.txt`:
 
 ---
 
-## 4. TÀI NGUYÊN THÀNH PHẨM TẠI `02_SAN_XUAT/Tap02/xuat_ban/`
+## 4. TÀI NGUYÊN THÀNH PHẨM TẠI `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/xuat_ban/`
 
 1. `Tap02_master.mp4` (525,7 MB): Video master hoàn chỉnh 1080p.
 2. `Tap02_master.mp3` (34,8 MB): Audio master chuẩn phát sóng.

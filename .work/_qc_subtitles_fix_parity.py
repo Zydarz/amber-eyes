@@ -19,11 +19,11 @@ PY = sys.executable
 
 # (lang, ep) -> duong dan SRT dich
 CASES = [
-    ("vi", "01", "02_SAN_XUAT/Tap01/xuat_ban/Tap01.srt"),
-    ("ja", "01", "02_SAN_XUAT/Tap01_JA/xuat_ban/Tap01_JA.srt"),
-    ("vi", "02", "02_SAN_XUAT/Tap02/xuat_ban/Tap02.srt"),
-    ("ja", "02", "02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA.srt"),
-    ("en", "02", "02_SAN_XUAT/Tap02_EN/xuat_ban/Tap02_EN.srt"),
+    ("vi", "01", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/Tap01.srt"),
+    ("ja", "01", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_JA/xuat_ban/Tap01_JA.srt"),
+    ("vi", "02", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/xuat_ban/Tap02.srt"),
+    ("ja", "02", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/Tap02_JA.srt"),
+    ("en", "02", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/xuat_ban/Tap02_EN.srt"),
 ]
 
 print("=== 1. LUU BAN CU (baseline) ===")

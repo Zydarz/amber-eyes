@@ -1,6 +1,6 @@
 # NGUỒN THAM KHẢO — TẬP 03 (Edmund Kemper) — BẢN NHÁP CHỜ DUYỆT
 
-Mỗi dữ kiện nói như sự thật trong `01_KICH_BAN/Tap03/kichban_tap03_22102026.md` cần **ít nhất một nguồn công khai mở được**. **Không được bịa nguồn.**
+Mỗi dữ kiện nói như sự thật trong `01_KICH_BAN/Ho_So_Toi_Pham/Tap03/kichban_tap03_22102026.md` cần **ít nhất một nguồn công khai mở được**. **Không được bịa nguồn.**
 Các link dưới đây là link tìm thấy khi review ngày 02/11/2026.
 - ✅ = nguồn đã khớp với lời (có bản gốc / nguồn chính thức).
 - ⚠ = mới có nguồn tổng hợp hoặc nguồn phụ; nên tìm nguồn gốc trước khi đăng.

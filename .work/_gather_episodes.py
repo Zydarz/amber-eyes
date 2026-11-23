@@ -72,7 +72,7 @@ def get_sentences_count(ep, plan_text):
     # Try plan text first
     m = re.search(r'(\d+)\s+câu', plan_text)
     # Check if there is sentence count in script file
-    kb_dir = f'01_KICH_BAN/Tap{ep:02d}'
+    kb_dir = f'01_KICH_BAN/Ho_So_Toi_Pham/Tap{ep:02d}'
     script_file = None
     if os.path.exists(kb_dir):
         files = [f for f in os.listdir(kb_dir) if f.endswith('.md')]

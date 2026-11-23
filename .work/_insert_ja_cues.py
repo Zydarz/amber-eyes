@@ -4,7 +4,7 @@ sys.path.insert(0, '.work')
 import _qc_ja
 from pathlib import Path
 
-with open('01_KICH_BAN/Tap11_JA/kichban_tap11_JA.md', 'r', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap11_JA/kichban_tap11_JA.md', 'r', encoding='utf-8') as f:
     lines = f.readlines()
 
 new_lines = []
@@ -23,11 +23,11 @@ for i, l in enumerate(lines):
         new_lines.append("\n**心理学者** *(学術的な視点から、エゴの崩壊と被害者の仮面を対比させる)*:\n")
     new_lines.append(l)
 
-with open('01_KICH_BAN/Tap11_JA/kichban_tap11_JA.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap11_JA/kichban_tap11_JA.md', 'w', encoding='utf-8') as f:
     f.writelines(new_lines)
 
-vn = Path('01_KICH_BAN/Tap11/kichban_tap11_23102026.md')
-ja = Path('01_KICH_BAN/Tap11_JA/kichban_tap11_JA.md')
+vn = Path('01_KICH_BAN/Ho_So_Toi_Pham/Tap11/kichban_tap11_23102026.md')
+ja = Path('01_KICH_BAN/Ho_So_Toi_Pham/Tap11_JA/kichban_tap11_JA.md')
 c_vn = _qc_ja.shape_count(vn)
 c_ja = _qc_ja.shape_count(ja)
 print("c_vn:", c_vn)

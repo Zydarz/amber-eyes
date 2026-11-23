@@ -8,8 +8,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-JA = (ROOT / "01_KICH_BAN/Tap02_JA/kichban_tap02_JA.md").read_text(encoding="utf-8-sig")
-VN = (ROOT / "01_KICH_BAN/Tap02/kichban_tap02_22102026.md").read_text(encoding="utf-8-sig")
+JA = (ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap02_JA/kichban_tap02_JA.md").read_text(encoding="utf-8-sig")
+VN = (ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_22102026.md").read_text(encoding="utf-8-sig")
 
 norm = lambda t: re.sub(r"[\s　、。・,.:：;；!！?？\"'“”‘’「」『』()（）\-—–…]", "", t)
 nja, nvn = norm(JA), norm(VN)

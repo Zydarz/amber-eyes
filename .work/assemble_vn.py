@@ -27,11 +27,11 @@ header = """# KỊCH BẢN AUDIO / PODCAST TÂM LÝ HỌC TỘI PHẠM
 """
 
 full_vn = "\n\n".join([header, act_vn.ACT1_VN, act_vn.ACT2_VN, act_vn.ACT3_VN, act_vn.ACT4_VN, act_vn.ACT5_VN])
-with open("01_KICH_BAN/Tap32/kichban_tap32_19112026.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32/kichban_tap32_19112026.md", "w", encoding="utf-8") as f:
     f.write(full_vn)
 
 import subprocess, json
-subprocess.run(["py", "-3", ".work/parse_kichban.py", "01_KICH_BAN/Tap32/kichban_tap32_19112026.md", ".work/t32_vn.json"])
+subprocess.run(["py", "-3", ".work/parse_kichban.py", "01_KICH_BAN/Ho_So_Toi_Pham/Tap32/kichban_tap32_19112026.md", ".work/t32_vn.json"])
 d = json.load(open(".work/t32_vn.json", encoding="utf-8"))
 total_sents = sum(len(x.get("sentences", [])) for x in d)
 print("Generated VN sentences count:", total_sents)

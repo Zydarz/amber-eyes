@@ -13,12 +13,12 @@ W = ROOT / ".work"
 FF = W / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 FFPROBE = W / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffprobe.exe"
 
-OUT = ROOT / "02_SAN_XUAT/Tap05_JA/xuat_ban"
+OUT = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_JA/xuat_ban"
 MP4 = OUT / "Tap05_JA_master.mp4"
 MP3 = OUT / "Tap05_JA_master.mp3"
 SRT = OUT / "Tap05_JA.srt"
 THUMB = OUT / "thumbnail.png"
-PLAN = ROOT / "02_SAN_XUAT/Tap05_JA/KeHoach_Video_Tap05_JA.md"
+PLAN = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_JA/KeHoach_Video_Tap05_JA.md"
 
 tl = json.loads((W / "timeline_s_JA_t05.json").read_text(encoding="utf-8"))
 sh = json.loads((W / "shots_JA_t05.json").read_text(encoding="utf-8"))

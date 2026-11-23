@@ -10,7 +10,7 @@ def parse(path):
     d = json.load(open(out, encoding="utf-8"))
     return d
 
-vn = parse("01_KICH_BAN/Tap02/kichban_tap02_22102026.md")
+vn = parse("01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_22102026.md")
 print(f"Total elements: {len(vn)}")
 for i, e in enumerate(vn):
     if e["kind"] == "LOI":

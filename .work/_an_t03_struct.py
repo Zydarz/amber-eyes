@@ -71,7 +71,7 @@ for tag, els in (("CŨ ", old), ("MỚI", new)):
 print("\n" + "=" * 72)
 print("2) THỐNG KÊ MARKDOWN THÔ (file nguồn)")
 print("=" * 72)
-md = "01_KICH_BAN/Tap03/kichban_tap03_22102026.md"
+md = "01_KICH_BAN/Ho_So_Toi_Pham/Tap03/kichban_tap03_22102026.md"
 old_md = subprocess.run(["git", "show", f"HEAD:{md}"], cwd=ROOT, capture_output=True).stdout.decode("utf-8")
 new_md = (ROOT / md).read_text(encoding="utf-8")
 

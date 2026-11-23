@@ -1,7 +1,7 @@
 # PLAYLIST CHÍNH CỦA SERIES — AMBER EYES
 
 **Ngày lập:** 06/11/2026 · **Phạm vi:** playlist tổng hợp toàn bộ 29 tập (kênh tiếng Việt)
-**Nguồn sự thật:** `assets/brand/channel.json` (tagline) · `01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md` (5 mùa) · `02_SAN_XUAT/TapNN/mo_ta.txt` (tiêu đề 29 tập) · `AGENTS.md` mục K10 (10 chỉ dấu)
+**Nguồn sự thật:** `assets/brand/channel.json` (tagline) · `01_KICH_BAN/KHO_Y_TUONG_28_HO_SO.md` (5 mùa) · `02_SAN_XUAT/Ho_So_Toi_Pham/TapNN/mo_ta.txt` (tiêu đề 29 tập) · `AGENTS.md` mục K10 (10 chỉ dấu)
 
 > Ghi chú: nội dung tài liệu này KHÔNG cần đồng bộ với `.work/edition.py` — playlist không đi qua `package.py`, chỉ dán tay trong YouTube Studio.
 

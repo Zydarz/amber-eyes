@@ -7,7 +7,7 @@ sys.path.insert(0, ".work")
 import parse_kichban
 import edition
 
-s = parse_kichban.parse_file("01_KICH_BAN/Tap01/kichban_tap01_22102026_v2.md")
+s = parse_kichban.parse_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap01/kichban_tap01_22102026_v2.md")
 all_sentence_ids = set()
 for el in s:
     if "sentences" in el:

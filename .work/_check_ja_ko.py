@@ -6,8 +6,8 @@ sys.path.insert(0, ".work")
 import parse_kichban as PK
 
 files = {
-    "JA": "01_KICH_BAN/Tap15_JA/kichban_tap15_JA.md",
-    "KO": "01_KICH_BAN/Tap15_KO/kichban_tap15_KO.md"
+    "JA": "01_KICH_BAN/Ho_So_Toi_Pham/Tap15_JA/kichban_tap15_JA.md",
+    "KO": "01_KICH_BAN/Ho_So_Toi_Pham/Tap15_KO/kichban_tap15_KO.md"
 }
 
 for lang, p in files.items():

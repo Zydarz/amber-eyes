@@ -13,7 +13,7 @@ except Exception:
 
 ROOT = Path(r"D:/TEST/Gax/amber-eyes")
 WORK = ROOT / ".work"
-PLAN = ROOT / "02_SAN_XUAT" / "Tap06" / "KeHoach_Video_Tap06.md"
+PLAN = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06" / "KeHoach_Video_Tap06.md"
 
 
 def load(p):

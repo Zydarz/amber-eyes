@@ -18,7 +18,7 @@ for e in script:
         for s in e["sentences"]:
             S[s["id"]] = s["text"]
 
-en_path = ROOT / "02_SAN_XUAT/Tap04_EN/KeHoach_Video_Tap04_EN.md"
+en_path = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap04_EN/KeHoach_Video_Tap04_EN.md"
 en_lines = en_path.read_text(encoding="utf-8").splitlines()
 i0 = next(i for i, l in enumerate(en_lines) if l.startswith("## 6. DANH SÁCH SHOT"))
 i1 = next(i for i, l in enumerate(en_lines) if i > i0 and l.startswith("**Tổng:"))
@@ -147,7 +147,7 @@ if errors:
     sys.exit(1)
 
 # Now read existing KeHoach_Video_Tap04_JA.md and append Section 6
-plan_path = ROOT / "02_SAN_XUAT/Tap04_JA/KeHoach_Video_Tap04_JA.md"
+plan_path = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap04_JA/KeHoach_Video_Tap04_JA.md"
 existing_plan = plan_path.read_text(encoding="utf-8")
 
 # Keep everything up to B2 and add Section 6

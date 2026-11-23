@@ -29,7 +29,7 @@ def read_rows(path):
     return rows
 
 
-new_rows = read_rows(ROOT / "02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md")
+new_rows = read_rows(ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md")
 m2n = json.loads((W / "_old2new_t02.json").read_text(encoding="utf-8"))
 old2new = {}
 for grp in ("exact", "changed"):

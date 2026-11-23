@@ -4,7 +4,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.path.insert(0, '.work')
 import parse_kichban as PK
 
-p = PK.parse_file('01_KICH_BAN/Tap10/kichban_tap10_23102026.md')
+p = PK.parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap10/kichban_tap10_23102026.md')
 target_ids = [
     '1.02#7', '1.02#8', '1.02#9', '1.02#10',
     '2.04#5', '2.04#6', '2.04#7', '2.04#8',

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Nhập tiếng động tải tay từ YouTube Audio Library cho Tập 03.
 
-Nguồn: 02_SAN_XUAT/Tap03/sfx_youtube/<mã>.mp3  (tải tay trên YouTube Studio → Thư viện âm thanh)
+Nguồn: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/sfx_youtube/<mã>.mp3  (tải tay trên YouTube Studio → Thư viện âm thanh)
 Script:
   1. rãnh âm thanh → wav stereo 44,1 kHz 16-bit, cắt lặng đầu/cuối, chuẩn hoá đỉnh −1 dBFS
   2. ghi assets/sfx/t3/<mã>.wav
@@ -20,7 +20,7 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parents[1]
-INBOX = ROOT / "02_SAN_XUAT" / "Tap03" / "sfx_youtube"
+INBOX = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03" / "sfx_youtube"
 OUT = ROOT / "assets" / "sfx" / "t3"
 FF = ROOT / ".work" / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 FFP = FF.with_name("ffprobe.exe")

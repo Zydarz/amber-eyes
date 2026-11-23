@@ -50,7 +50,7 @@ if not sym_audio.exists():
     except Exception:
         pass
 
-OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap01" / "xuat_ban"
+OUT_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap01" / "xuat_ban"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 ROLE_REF_MAP = {
@@ -454,7 +454,7 @@ def main():
 
     can_nghe_lines = [
         f"# Câu cần nghe — Tập 01 (Higgs Audio v3) — {time.strftime('%d/%m/%Y')}\n",
-        f"Dự kiến Master: `02_SAN_XUAT/Tap01/xuat_ban/Tap01_master.mp3` · {total:.1f} s (~{total/60:.1f} min) · {len(items_tl)} câu · lời đầu {items_tl[0]['start']} s · lời cuối {end_voice:.1f} s\n",
+        f"Dự kiến Master: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/Tap01_master.mp3` · {total:.1f} s (~{total/60:.1f} min) · {len(items_tl)} câu · lời đầu {items_tl[0]['start']} s · lời cuối {end_voice:.1f} s\n",
         "| Mốc | Câu | Vai | CER | MOS | Câu gốc | ASR nghe được | Ghi chú |",
         "|---|---|---|---:|---:|---|---|---|"
     ]
@@ -499,7 +499,7 @@ def main():
 
     print("\n[Final Measurements] Master Audio:", flush=True)
     if master_mp3.exists():
-        parent_mp3 = ROOT / "02_SAN_XUAT" / "Tap01" / "Tap01_master.mp3"
+        parent_mp3 = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap01" / "Tap01_master.mp3"
         if not parent_mp3.exists() and not parent_mp3.is_symlink():
             try:
                 shutil.copy2(master_mp3, parent_mp3)
@@ -534,7 +534,7 @@ def main():
 
     # Write Production Plan (KeHoach_Video_Tap01.md)
     cers = [r["cer"] for r in cer_rows]
-    kehoach_p = ROOT / "02_SAN_XUAT" / "Tap01" / "KeHoach_Video_Tap01.md"
+    kehoach_p = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap01" / "KeHoach_Video_Tap01.md"
     kehoach_content = f"""# HỒ SẢN XUẤT TẬP 01 · "ĐỘC DƯỢC NHÂN DANH TÌNH MẸ"
 
 ## B1. Thông tin tập
@@ -549,7 +549,7 @@ def main():
 | Engine TTS | **Higgs Audio v3** (`bosonai/higgs-audio-v3-tts-4b`) trên Apple Silicon MLX |
 | Bộ giọng mẫu | **VoxCPM2 Voice Design** (H: `H.wav`, D: `D_NEW_subbass-husky_t02.wav`, C: `C_NEW_alto-brisk_t03.wav`, N1: `W6_LOW.wav`, N2: `W5_HIGH.wav`) |
 | Âm thanh | Stereo 3 lớp: BGM 5 Hồi + Ambience liên tục + SFX tiếng động (còi xe, tiếng gõ cửa, máy đo nhịp tim, xích sắt, bàn phím đêm, búa tòa án...) |
-| Thành phẩm Master | `02_SAN_XUAT/Tap01/xuat_ban/Tap01_master.mp3` & `02_SAN_XUAT/Tap01/xuat_ban/Tap01_master.wav` |
+| Thành phẩm Master | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/Tap01_master.mp3` & `02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/Tap01_master.wav` |
 
 ---
 
@@ -578,21 +578,21 @@ def main():
 - **CER Trung vị:** **{np.median(cers)*100:.2f}%** (CER trung bình: **{np.mean(cers)*100:.2f}%**).
 - **Multi-take Vòng 2:** Đã tự động sinh Variant 1 với seed mới cho toàn bộ các câu có CER > 2% và chọn take tối ưu.
 - **Điểm tự nhiên UTMOSv2 MOS:** Trung bình **{avg_mos:.2f} / 5.0** (Dải điểm: {np.min(valid_moss):.2f} – {np.max(valid_moss):.2f}). Đạt chuẩn (>= 3.0 / 5.0).
-- **Báo cáo câu cần nghe kiểm tra:** [`02_SAN_XUAT/Tap01/xuat_ban/CanNghe_Tap01_higgs.md`](xuat_ban/CanNghe_Tap01_higgs.md).
+- **Báo cáo câu cần nghe kiểm tra:** [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/CanNghe_Tap01_higgs.md`](xuat_ban/CanNghe_Tap01_higgs.md).
 
 ---
 
 ## B3. Danh mục Tệp Thành phẩm
 
 1. **Master Audio:**
-   - MP3: [`02_SAN_XUAT/Tap01/xuat_ban/Tap01_master.mp3`](xuat_ban/Tap01_master.mp3)
-   - WAV: [`02_SAN_XUAT/Tap01/xuat_ban/Tap01_master.wav`](xuat_ban/Tap01_master.wav)
+   - MP3: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/Tap01_master.mp3`](xuat_ban/Tap01_master.mp3)
+   - WAV: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/Tap01_master.wav`](xuat_ban/Tap01_master.wav)
 2. **Dữ liệu Timeline & Phụ đề:**
    - Timeline: [`.work/timeline_s.json`](../../.work/timeline_s.json) ({total:.1f} s)
-   - Phụ đề SRT: [`02_SAN_XUAT/Tap01/xuat_ban/Tap01.srt`](xuat_ban/Tap01.srt) ({len(items_tl)} cues)
+   - Phụ đề SRT: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/Tap01.srt`](xuat_ban/Tap01.srt) ({len(items_tl)} cues)
 3. **Báo cáo Giám sát:**
    - Chi tiết QC: [`.work/quality_qc_utmos_ep01_vi.json`](../../.work/quality_qc_utmos_ep01_vi.json)
-   - Bảng câu nghe duyệt: [`02_SAN_XUAT/Tap01/xuat_ban/CanNghe_Tap01_higgs.md`](xuat_ban/CanNghe_Tap01_higgs.md)
+   - Bảng câu nghe duyệt: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/CanNghe_Tap01_higgs.md`](xuat_ban/CanNghe_Tap01_higgs.md)
 """
     kehoach_p.write_text(kehoach_content, encoding="utf-8")
     print(f"Updated KeHoach report at {kehoach_p}", flush=True)

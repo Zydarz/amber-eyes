@@ -3,9 +3,9 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.path.insert(0, '.work')
 import parse_kichban as PK
 
-p_vn = PK.parse_file('01_KICH_BAN/Tap07/kichban_tap07_23102026.md')
-p_ja = PK.parse_file('01_KICH_BAN/Tap07_JA/kichban_tap07_JA.md')
-p_ko = PK.parse_file('01_KICH_BAN/Tap07_KO/kichban_tap07_KO.md')
+p_vn = PK.parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap07/kichban_tap07_23102026.md')
+p_ja = PK.parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap07_JA/kichban_tap07_JA.md')
+p_ko = PK.parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap07_KO/kichban_tap07_KO.md')
 
 def check_elem(eid):
     vn_e = next(e for e in p_vn if e['id'] == eid)

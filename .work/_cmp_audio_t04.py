@@ -15,7 +15,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = pathlib.Path(r"D:\TEST\Gax\amber-eyes")
 FF = ROOT / ".work" / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 WAV = ROOT / ".work" / "audio_master_t04.wav"
-FINAL = ROOT / "02_SAN_XUAT" / "Tap04" / "xuat_ban" / "Tap04_master.mp4"
+FINAL = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap04" / "xuat_ban" / "Tap04_master.mp4"
 TMP = ROOT / ".work" / "_cmp_audio"
 TMP.mkdir(exist_ok=True)
 

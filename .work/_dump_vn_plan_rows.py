@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-lines = (ROOT / "02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md").read_text(encoding="utf-8-sig").splitlines()
+lines = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md").read_text(encoding="utf-8-sig").splitlines()
 i0 = next(i for i, l in enumerate(lines) if l.startswith("## 6. DANH SÁCH SHOT"))
 i1 = next(i for i, l in enumerate(lines) if i > i0 and l.startswith("**Tổng:"))
 IDS = ["1-24", "1-25", "1-28", "2-11", "2-17", "3-02", "3-09", "3-13", "3-20", "3-21",

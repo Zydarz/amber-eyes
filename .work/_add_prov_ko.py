@@ -21,7 +21,7 @@ entries_ko = [
         "kiem_tra_thuong_mai": "đạt"
     },
     {
-        "file": "02_SAN_XUAT/Tap01_KO/xuat_ban/Tap01_KO_master.mp3",
+        "file": "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_KO/xuat_ban/Tap01_KO_master.mp3",
         "loai": "audio tổng",
         "cong_cu": "TTS MiniMax tiếng Hàn (5 giọng, 128 câu) + nhạc assets/bgm + 11 hiệu ứng âm thanh assets/sfx ghép bằng .work/build_audio3.py",
         "ngay": "2026-10-24",
@@ -30,7 +30,7 @@ entries_ko = [
         "kiem_tra_thuong_mai": "chưa"
     },
     {
-        "file": "02_SAN_XUAT/Tap01_KO/xuat_ban/Tap01_KO_master.mp4",
+        "file": "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_KO/xuat_ban/Tap01_KO_master.mp4",
         "loai": "video",
         "cong_cu": "Hình: .work/build_video3.py từ assets/bg, assets/cast + đồ hoạ Pillow (Malgun Gothic); tiếng: Tap01_KO_master.mp3",
         "ngay": "2026-10-24",
@@ -39,7 +39,7 @@ entries_ko = [
         "kiem_tra_thuong_mai": "chưa"
     },
     {
-        "file": "02_SAN_XUAT/Tap01_KO/xuat_ban/thumbnail.png",
+        "file": "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_KO/xuat_ban/thumbnail.png",
         "loai": "thumbnail",
         "cong_cu": "house_police + đồ hoạ chữ Hàn Malgun Gothic Bold, .work/package.py",
         "ngay": "2026-10-24",
@@ -48,7 +48,7 @@ entries_ko = [
         "kiem_tra_thuong_mai": "chưa"
     },
     {
-        "file": "02_SAN_XUAT/Tap01_KO/xuat_ban/Tap01_KO.srt",
+        "file": "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_KO/xuat_ban/Tap01_KO.srt",
         "loai": "phụ đề",
         "cong_cu": "Sinh từ kịch bản KO + timeline_s_KO.json, .work/subtitles.py",
         "ngay": "2026-10-24",

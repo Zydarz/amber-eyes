@@ -114,7 +114,7 @@ def main():
             added.append(e["file"])
 
     # master mp4: cap nhat dong neu da co
-    mp4 = "02_SAN_XUAT/Tap06/xuat_ban/Tap06_master.mp4"
+    mp4 = "02_SAN_XUAT/Ho_So_Toi_Pham/Tap06/xuat_ban/Tap06_master.mp4"
     if mp4 in have:
         have[mp4]["sha256"] = sha256(ROOT / mp4)
         have[mp4]["ngay"] = DAY

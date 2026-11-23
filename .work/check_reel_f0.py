@@ -18,7 +18,7 @@ from g9_decide import f0_p2, fix_octave, med, read_wav, nc  # noqa: E402
 
 FF = HERE / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 V6 = HERE / "kaggle_higgs" / "out_higgs_v6" / "out_higgs_v6"
-REEL = ROOT / "02_SAN_XUAT" / "Tap02" / "xuat_ban" / "DEMO_giong_Higgs.mp3"
+REEL = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02" / "xuat_ban" / "DEMO_giong_Higgs.mp3"
 
 # (file pilot, vai, clip, F0 clone ky vong ac/pp2 tu g9_decide)
 EXPECT = {

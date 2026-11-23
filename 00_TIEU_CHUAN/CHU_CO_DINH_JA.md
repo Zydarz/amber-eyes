@@ -11,10 +11,10 @@
 
 | Việc | Quy ước |
 |---|---|
-| Thư mục | `01_KICH_BAN/TapXX_JA/` (đặt cạnh `TapXX/`, `TapXX_EN/`, `TapXX_KO/`) |
-| File kịch bản | `01_KICH_BAN/TapXX_JA/kichban_tapXX_JA.md` |
+| Thư mục | `01_KICH_BAN/Ho_So_Toi_Pham/TapXX_JA/` (đặt cạnh `TapXX/`, `TapXX_EN/`, `TapXX_KO/`) |
+| File kịch bản | `01_KICH_BAN/Ho_So_Toi_Pham/TapXX_JA/kichban_tapXX_JA.md` |
 | File cache câu | `.work/ja_cache/tapXX.json` |
-| Nguồn (file tiếng Việt) | `01_KICH_BAN/TapXX/kichban_tapXX_<ngày>.md` — **không sửa file nguồn** |
+| Nguồn (file tiếng Việt) | `01_KICH_BAN/Ho_So_Toi_Pham/TapXX/kichban_tapXX_<ngày>.md` — **không sửa file nguồn** |
 | Script kiểm tra tự động | `.work/_qc_ja.py` (kiểm tra 29 tập: số câu, số lượt, từ cấm, thuật ngữ, chữ Hán) |
 
 ---

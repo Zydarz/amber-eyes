@@ -9,7 +9,7 @@ cùng vai, cùng **số câu** trong mỗi lượt thoại, cùng cấu trúc bu
 ```powershell
 Set-Location 'D:\TEST\Gax\Audi'
 $env:PYTHONIOENCODING='utf-8'
-py -3 .work/ko_blueprint.py 01_KICH_BAN/TapXX/kichban_tapXX_23102026.md .work/_bp_tXX.txt
+py -3 .work/ko_blueprint.py 01_KICH_BAN/Ho_So_Toi_Pham/TapXX/kichban_tapXX_23102026.md .work/_bp_tXX.txt
 ```
 
 Đọc TOÀN BỘ `.work/_bp_tXX.txt`. Nó cho biết: id từng yếu tố, vai, **số câu chính xác**, số block,
@@ -22,11 +22,11 @@ quanh đúng dòng đó.
 ## BƯỚC 2 — Đọc chuẩn
 
 - `00_TIEU_CHUAN/CHU_CO_DINH_KO.md` — các mục B, C, C1b, C1c, D, D3, D4, E, F, G.
-- 30 dòng đầu `01_KICH_BAN/Tap10_KO/kichban_tap10_KO.md` — mẫu tham chiếu về định dạng.
+- 30 dòng đầu `01_KICH_BAN/Ho_So_Toi_Pham/Tap10_KO/kichban_tap10_KO.md` — mẫu tham chiếu về định dạng.
 
 ## BƯỚC 3 — Ghi file (MỘT lần gọi Write)
 
-Đường dẫn đích: `01_KICH_BAN/TapXX_KO/kichban_tapXX_KO.md`
+Đường dẫn đích: `01_KICH_BAN/Ho_So_Toi_Pham/TapXX_KO/kichban_tapXX_KO.md`
 
 ### 13 quy tắc bắt buộc (vi phạm bất kỳ quy tắc nào ⇒ QC FAIL)
 
@@ -68,8 +68,8 @@ quanh đúng dòng đó.
 
 ```powershell
 $env:PYTHONIOENCODING='utf-8'
-py -3 .work/_qc_ko_parity.py 01_KICH_BAN/TapXX/kichban_tapXX_23102026.md 01_KICH_BAN/TapXX_KO/kichban_tapXX_KO.md
-py -3 .work/_lint_ko.py      01_KICH_BAN/TapXX/kichban_tapXX_23102026.md 01_KICH_BAN/TapXX_KO/kichban_tapXX_KO.md
+py -3 .work/_qc_ko_parity.py 01_KICH_BAN/Ho_So_Toi_Pham/TapXX/kichban_tapXX_23102026.md 01_KICH_BAN/Ho_So_Toi_Pham/TapXX_KO/kichban_tapXX_KO.md
+py -3 .work/_lint_ko.py      01_KICH_BAN/Ho_So_Toi_Pham/TapXX/kichban_tapXX_23102026.md 01_KICH_BAN/Ho_So_Toi_Pham/TapXX_KO/kichban_tapXX_KO.md
 ```
 
 `_qc_ko_parity.py` phải in ra **`PASS`**. Lint không được có Hán tự / ký tự rác / Latin lạ (bỏ qua
@@ -77,7 +77,7 @@ tiếng Anh trong trích dẫn loại 1 và tên riêng hợp lệ).
 
 ## RANH GIỚI (cứng)
 
-- Chỉ được tạo/sửa: `01_KICH_BAN/TapXX_KO/kichban_tapXX_KO.md` và `.work/_bp_tXX.txt`.
+- Chỉ được tạo/sửa: `01_KICH_BAN/Ho_So_Toi_Pham/TapXX_KO/kichban_tapXX_KO.md` và `.work/_bp_tXX.txt`.
 - **KHÔNG** sửa file tiếng Việt nguồn, tập khác, `00_TIEU_CHUAN/`, hay các script dùng chung trong
   `.work/` (`parse_kichban.py`, `edition.py`, `tts_sentences.py`, `_qc_ko_parity.py`, `_lint_ko.py`,
   `ko_blueprint.py`). Một phiên song song đang sửa các file dùng chung đó.

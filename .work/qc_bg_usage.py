@@ -12,7 +12,7 @@ Chạy sau parse_shots.py, TRƯỚC ảnh tĩnh. Exit 1 = TRƯỢT. Đo:
 Nền đặc biệt (void) không tính.
 
     AE_EP=11 py -3 .work/qc_bg_usage.py --plan      # TRƯỚC KHI SINH ẢNH (H25)
-Đọc mục 6 "DANH SÁCH SHOT" trong 02_SAN_XUAT/TapXX/KeHoach_Video_TapXX.md: mã nền
+Đọc mục 6 "DANH SÁCH SHOT" trong 02_SAN_XUAT/Ho_So_Toi_Pham/TapXX/KeHoach_Video_TapXX.md: mã nền
 `tXX_*` đầu tiên ở cột "Nền + bóng", thời lượng = tổng "(x,y s)" ở cột "Câu"; dòng
 không có mã nền (giữ / camera dời) tính cho nền của shot trước. Đo ④ trên kế hoạch,
 số nền tối thiểu, và lệch giữa kế hoạch ↔ bg_jobs (mã thiếu job / job không có shot).
@@ -32,7 +32,7 @@ SPECIAL = {"void"}
 
 
 def plan_check(a, jobs):
-    md = ED.ROOT / "02_SAN_XUAT" / f"Tap{ED.EPN}" / f"KeHoach_Video_Tap{ED.EPN}.md"
+    md = ED.ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ED.EPN}" / f"KeHoach_Video_Tap{ED.EPN}.md"
     text = md.read_text(encoding="utf-8")
     m = re.search(r"^## 6\. DANH SÁCH SHOT.*$", text, re.M)
     sec = text[m.end():] if m else text

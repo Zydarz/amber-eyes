@@ -12,8 +12,8 @@ def parse(path):
     d = json.load(open(out, encoding="utf-8"))
     return d
 
-vn = parse("01_KICH_BAN/Tap02/kichban_tap02_22102026.md")
-ja = parse("01_KICH_BAN/Tap02_JA/kichban_tap02_JA.md")
+vn = parse("01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_22102026.md")
+ja = parse("01_KICH_BAN/Ho_So_Toi_Pham/Tap02_JA/kichban_tap02_JA.md")
 
 lv = [e for e in vn if e["kind"] == "LOI"]
 lj = [e for e in ja if e["kind"] == "LOI"]

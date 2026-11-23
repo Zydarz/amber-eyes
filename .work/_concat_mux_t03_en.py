@@ -75,5 +75,5 @@ print(r.stdout[-3000:])
 if r.returncode != 0:
     raise SystemExit("package.py --mux that bai")
 
-mp4 = ROOT / "02_SAN_XUAT" / "Tap03_EN" / "xuat_ban" / "Tap03_EN_master.mp4"
+mp4 = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03_EN" / "xuat_ban" / "Tap03_EN_master.mp4"
 print(f"\nthanh pham: {mp4} ({mp4.stat().st_size / 1e6:.1f} MB)")

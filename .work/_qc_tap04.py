@@ -12,7 +12,7 @@ except Exception:
 ROOT = Path(__file__).resolve().parents[1]
 FF = ROOT / ".work" / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 FFPROBE = ROOT / ".work" / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffprobe.exe"
-OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap04" / "xuat_ban"
+OUT_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap04" / "xuat_ban"
 
 mp4 = OUT_DIR / "Tap04_master.mp4"
 mp3 = OUT_DIR / "Tap04_master.mp3"

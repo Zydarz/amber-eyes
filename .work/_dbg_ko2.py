@@ -3,8 +3,8 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, ".work")
 import parse_kichban as PK
 
-VN = "01_KICH_BAN/Tap01/kichban_tap01_22102026_v2.md"
-KO = "01_KICH_BAN/Tap01_KO/kichban_tap01_KO.md"
+VN = "01_KICH_BAN/Ho_So_Toi_Pham/Tap01/kichban_tap01_22102026_v2.md"
+KO = "01_KICH_BAN/Ho_So_Toi_Pham/Tap01_KO/kichban_tap01_KO.md"
 vn = PK.parse_lines(open(VN, encoding="utf-8").read().splitlines())
 ko = PK.parse_lines(open(KO, encoding="utf-8").read().splitlines())
 

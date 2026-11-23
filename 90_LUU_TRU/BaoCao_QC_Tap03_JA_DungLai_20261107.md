@@ -1,6 +1,6 @@
 # BÁO CÁO QC — TẬP 03 JA DỰNG LẠI THEO MASTER MỚI · 07/11/2026
 
-**Thành phẩm:** `02_SAN_XUAT/Tap03_JA/xuat_ban/Tap03_JA_master.mp4` (644,3 MB)
+**Thành phẩm:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_JA/xuat_ban/Tap03_JA_master.mp4` (644,3 MB)
 **Nguồn:** `Tap03_JA_master.mp3` (06/11 07:16, 1929,43 s) · `timeline_s_JA_t03.json` sha `f4b7153e4f63` · `shots_JA_t03.json` sha `65d2c81219f5`
 
 ## Số đo (trên mp4 cuối)
@@ -24,7 +24,7 @@
 4. Mux dùng `alimiter=0.63:latency=1,asoftclip=hard:0.63` (A11 #134) chạy ffmpeg trực tiếp.
 
 ## Cần người dùng quyết
-- **Mô tả YouTube JA:** `xuat_ban/mo_ta.txt` và `description.txt` đã bị một tiến trình/session khác ghi lúc 12:15 và 12:57 (3.411 ký tự, **0/24 link nguồn** có trong mô tả; bản gốc tôi sao lưu 4.889 ký tự ở `.work/_cu/ja_t03_rebuild_20261107/`). Tôi chỉ đổi mốc chương `12:24 → 12:22`; bản `02_SAN_XUAT/Tap03_JA/mo_ta.txt` (thư mục cha) vẫn ghi `12:24`.
+- **Mô tả YouTube JA:** `xuat_ban/mo_ta.txt` và `description.txt` đã bị một tiến trình/session khác ghi lúc 12:15 và 12:57 (3.411 ký tự, **0/24 link nguồn** có trong mô tả; bản gốc tôi sao lưu 4.889 ký tự ở `.work/_cu/ja_t03_rebuild_20261107/`). Tôi chỉ đổi mốc chương `12:24 → 12:22`; bản `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_JA/mo_ta.txt` (thư mục cha) vẫn ghi `12:24`.
 - **Lời đọc có lỗi dịch** (không sửa được nếu không đọc lại giọng): địa danh サンタ・クラルズ/クリアズ/クルーズ; chữ Trung "遇到的困難"; "フィルター" cho tem dán xe; "11年生"; "6英尺9インチ".
 - Nghe duyệt audio, xem video.
 - `edition.py` bị sửa lúc 12:21 trong khi đang render (chunk C khởi động sau đó); kết quả 110/110 khớp ảnh tĩnh cho thấy không ảnh hưởng hình, nhưng nên kiểm hash (T17).

@@ -12,7 +12,7 @@ sys.path.insert(0, str(ROOT / ".work/kaggle_flux"))
 from t20_jobs_124_data import JOBS_124
 
 bg_dir = ROOT / "assets/bg"
-out_dir = ROOT / "02_SAN_XUAT/Tap20/qc_montage"
+out_dir = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap20/qc_montage"
 out_dir.mkdir(parents=True, exist_ok=True)
 
 cell_w, cell_h = 512, 288

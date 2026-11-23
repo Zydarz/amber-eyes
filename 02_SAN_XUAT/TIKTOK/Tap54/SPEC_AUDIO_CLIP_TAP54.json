@@ -1,0 +1,1025 @@
+{
+ "_readme": "Đặc tả audio và kịch bản dựng TikTok Tập 54 (VI) — sinh tự động bởi .work/_build_tk_tap54.py.",
+ "_episode": "Tap54",
+ "_language": "VI",
+ "_title": "VỤ ÁN ĐIÊU ÁI THANH · NAM KINH 1996",
+ "_measured_rates": {
+  "C": 0.2368,
+  "D": 0.2625,
+  "H": 0.2963,
+  "N1": 0.2637,
+  "N2": 0.2816
+ },
+ "_clips_summary": [
+  {
+   "clip": "TK1",
+   "title": "Năm 1996 không có một chiếc camera nào",
+   "signs": [
+    1,
+    9
+   ],
+   "lines_count": 12,
+   "est_duration_s": 94.0
+  },
+  {
+   "clip": "TK2",
+   "title": "Hắn không lấy đồ, hắn chỉ phân tán dấu vết",
+   "signs": [
+    2,
+    3,
+    7,
+    8
+   ],
+   "lines_count": 11,
+   "est_duration_s": 93.4
+  },
+  {
+   "clip": "TK3",
+   "title": "Ba khoảng trống của năm 1996",
+   "signs": [
+    9,
+    6
+   ],
+   "lines_count": 10,
+   "est_duration_s": 89.5
+  },
+  {
+   "clip": "TK4",
+   "title": "Hai mươi năm sau, hồ sơ chưa từng được đóng lại",
+   "signs": [
+    5,
+    4,
+    1
+   ],
+   "lines_count": 10,
+   "est_duration_s": 89.1
+  },
+  {
+   "clip": "TK5",
+   "title": "Ba bài học sinh tồn từ một vụ án mất tích",
+   "signs": [
+    10,
+    3,
+    1
+   ],
+   "lines_count": 12,
+   "est_duration_s": 84.2
+  }
+ ],
+ "clips": {
+  "TK1": {
+   "title": "Năm 1996 không có một chiếc camera nào",
+   "theme": "Dư chấn xã hội & Điểm mù công nghệ của một thành phố 25 triệu dân",
+   "signs": [
+    1,
+    9
+   ],
+   "total_est_duration_s": 94.0,
+   "bgm": "bgm_sub_drone.mp3",
+   "bgm_desc": "Hồi 1 — bed tập: bgm_sub_drone.mp3",
+   "sfx": [
+    "amb_winter_wind.wav (nền)",
+    "fx_stinger.wav",
+    "fx_tension_tick.wav",
+    "fx_phone_ring.wav",
+    "fx_radio_static.wav"
+   ],
+   "overlays": [
+    {
+     "sau_cau": "TK1.01#1",
+     "text": "NĂM 1996: NAM KINH KHÔNG CÓ CAMERA GIÁM SÁT",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK1.01#3",
+     "text": "KHUÔN VIÊN ĐẠI HỌC NAM KINH",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK1.01#4",
+     "text": "CHIẾC ÁO KHOÁC ĐỎ · CHẬP TỐI 10/01",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK1.01#9",
+     "text": "9 NGÀY SAU · ĐƯỜNG TÂN KIỆT KHẨU",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK1.01#10",
+     "text": "19/01/1996 · CHUYÊN ÁN HÌNH SỰ LỚN NHẤT LỊCH SỬ",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK1.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk54_empty_nanjing_street_night",
+     "motion": "still",
+     "text": "Năm 1996, cả Nam Kinh không có một chiếc camera giám sát nào.",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "words": 13,
+     "est_duration_s": 4.35
+    },
+    {
+     "clip_line_id": "TK1.01#2",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_nanjing_winter_street",
+     "motion": "pan",
+     "text": "Tháng một năm 1996, thành phố Nam Kinh chìm trong đợt rét cắt da cắt thịt của mùa đông miền đông Trung Quốc.",
+     "src_script": "1.02#1",
+     "words": 23,
+     "est_duration_s": 7.41
+    },
+    {
+     "clip_line_id": "TK1.01#3",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_nanjing_university_gate",
+     "motion": "still",
+     "text": "Trong khuôn viên Đại học Nam Kinh, một trong những ngôi trường danh giá bậc nhất, các sinh viên đang bước vào kỳ thi cuối kỳ bận rộn.",
+     "src_script": "1.02#2",
+     "words": 28,
+     "est_duration_s": 8.9
+    },
+    {
+     "clip_line_id": "TK1.01#4",
+     "role": "N1",
+     "emotion": "sad",
+     "speed_offset": -0.04,
+     "pause_after_s": 0.6,
+     "bg": "tk54_dormitory_evening",
+     "motion": "pan",
+     "text": "Điêu Ái Thanh, một cô nữ sinh năm nhất mộc mạc đến từ vùng nông thôn Thái Châu, rời khỏi ký túc xá vào chập tối ngày mười tháng một sau một cuộc tranh cãi nhỏ về quy định nội trú.",
+     "src_script": "1.02#3",
+     "words": 41,
+     "est_duration_s": 11.41
+    },
+    {
+     "clip_line_id": "TK1.01#5",
+     "role": "N1",
+     "emotion": "sad",
+     "speed_offset": -0.04,
+     "pause_after_s": 0.6,
+     "bg": "tk54_red_coat_crowd",
+     "motion": "pull",
+     "text": "Chiếc áo khoác màu đỏ và bóng dáng trầm lặng của cô dần hòa vào dòng người trên đường phố tấp nập, và đó cũng là lần cuối cùng bạn bè nhìn thấy cô còn sống.",
+     "src_script": "1.02#4",
+     "words": 36,
+     "est_duration_s": 10.09
+    },
+    {
+     "clip_line_id": "TK1.01#6",
+     "role": "N1",
+     "emotion": "sad",
+     "speed_offset": -0.04,
+     "pause_after_s": 0.6,
+     "bg": "tk54_dorm_books",
+     "motion": "still",
+     "text": "Ái Thanh là một cô gái rất hiền lành, ít nói và sống nội tâm.",
+     "src_script": "1.02#6",
+     "words": 15,
+     "est_duration_s": 4.56
+    },
+    {
+     "clip_line_id": "TK1.01#7",
+     "role": "N1",
+     "emotion": "sad",
+     "speed_offset": -0.04,
+     "pause_after_s": 0.6,
+     "bg": "tk54_dorm_books",
+     "motion": "pan",
+     "text": "Cô ấy thích đọc sách, đặc biệt là những tác phẩm văn học cổ điển, chữ viết nắn nót và hầu như không có mâu thuẫn cá nhân hay quan hệ xã hội phức tạp nào.",
+     "src_script": "1.02#7",
+     "words": 36,
+     "est_duration_s": 10.09
+    },
+    {
+     "clip_line_id": "TK1.01#8",
+     "role": "N1",
+     "emotion": "sad",
+     "speed_offset": -0.04,
+     "pause_after_s": 0.6,
+     "bg": "tk54_empty_dorm_bunk_night",
+     "motion": "push",
+     "text": "Khi cô ấy không trở về phòng điểm danh vào đêm hôm đó, chúng tôi chỉ nghĩ đơn giản là cô ấy đi dạo giải tỏa tâm trạng hoặc ghé qua nhà người quen.",
+     "src_script": "1.02#8",
+     "words": 34,
+     "est_duration_s": 9.57
+    },
+    {
+     "clip_line_id": "TK1.01#9",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_tankie_kou_street",
+     "motion": "still",
+     "text": "Nhưng chín ngày sau đó, cả thành phố bàng hoàng trước những phát hiện bất thường trên đường Tân Kiệt Khẩu.",
+     "src_script": "1.02#9",
+     "words": 21,
+     "est_duration_s": 6.82
+    },
+    {
+     "clip_line_id": "TK1.01#10",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk54_found_bag_alley",
+     "motion": "push",
+     "text": "Ngày mười chín tháng một năm 1996, một túi đồ thất lạc được người dân phát hiện tại trung tâm thành phố đã kích hoạt chuyên án hình sự lớn chưa từng có.",
+     "src_script": "1.03#1",
+     "words": 33,
+     "est_duration_s": 9.26
+    },
+    {
+     "clip_line_id": "TK1.01#11",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk54_police_taskforce",
+     "motion": "still",
+     "text": "Công an thành phố Nam Kinh đã thành lập ban chuyên án đặc biệt, huy động toàn bộ lực lượng điều tra giàu kinh nghiệm nhất.",
+     "src_script": "1.03#2",
+     "words": 26,
+     "est_duration_s": 7.42
+    },
+    {
+     "clip_line_id": "TK1.01#12",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk54_amber_eyes_dossier_54",
+     "motion": "still",
+     "text": "Tập 54 của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "words": 14,
+     "est_duration_s": 4.15
+    }
+   ]
+  },
+  "TK2": {
+   "title": "Hắn không lấy đồ, hắn chỉ phân tán dấu vết",
+   "theme": "Vật hóa nạn nhân, Bức tường chia ngăn & Mô thức nghi thức kiểm soát bệnh lý",
+   "signs": [
+    2,
+    3,
+    7,
+    8
+   ],
+   "total_est_duration_s": 93.4,
+   "bgm": "bgm_ambient_deep.mp3",
+   "bgm_desc": "Hồi 2 — bed tập: bgm_ambient_deep.mp3",
+   "sfx": [
+    "amb_room_tone.wav (nền)",
+    "fx_bag_rustle.wav",
+    "fx_zipper.wav",
+    "fx_water_drip.wav",
+    "fx_tension_tick.wav"
+   ],
+   "overlays": [
+    {
+     "sau_cau": "TK2.01#1",
+     "text": "MÔ THỨC TÁCH NHỨT DẤU VẾT",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK2.01#2",
+     "text": "TÚI DU LỊCH & KHĂN TRẢI GIƯỜNG",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK2.01#4",
+     "text": "HIỂU BIẾT GÓC KHUẤT CAMERA & ĐƯỜNG VẮNG",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK2.01#6",
+     "text": "KIỂM SOÁT BỆNH LÝ CAO ĐỘ",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK2.01#8",
+     "text": "PHI NHÂN HÓA NẠN NHÂN · VẬT HÓA",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK2.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk54_scattered_bags_map",
+     "motion": "still",
+     "text": "Hắn không lấy đồ. Chỉ phân tán dấu vết khắp thành phố.",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "words": 12,
+     "est_duration_s": 4.06
+    },
+    {
+     "clip_line_id": "TK2.01#2",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk54_evidence_table",
+     "motion": "pan",
+     "text": "Phương thức xử lý dấu vết của thủ phạm bộc lộ những kỹ năng chuyên môn vô cùng bài bản và chuẩn xác.",
+     "src_script": "2.02#1",
+     "words": 23,
+     "est_duration_s": 6.64
+    },
+    {
+     "clip_line_id": "TK2.01#3",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk54_travel_bag_sheets",
+     "motion": "still",
+     "text": "Các dấu vết được đóng gói cẩn thận bằng các loại túi du lịch và khăn trải giường thông dụng thời bấy giờ, sau đó được phân tán rải rác tại nhiều địa điểm công cộng khác nhau trên khắp thành phố.",
+     "src_script": "2.02#2",
+     "words": 42,
+     "est_duration_s": 11.62
+    },
+    {
+     "clip_line_id": "TK2.01#4",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk54_blind_corner_dawn",
+     "motion": "pull",
+     "text": "Cách phân tán vị trí cho thấy kẻ gây án rất quen thuộc với địa hình giao thông của Nam Kinh, biết rõ những góc khuất camera thời kỳ đầu và những cung đường vắng người qua lại vào rạng sáng.",
+     "src_script": "2.02#3",
+     "words": 41,
+     "est_duration_s": 11.36
+    },
+    {
+     "clip_line_id": "TK2.01#5",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk54_sealed_room_water",
+     "motion": "still",
+     "text": "Đặc biệt, kẻ này có một không gian riêng tư tuyệt đối, khép kín và nguồn nước dồi dào để thực hiện hành vi mà không hề bị người xung quanh phát giác.",
+     "src_script": "2.02#4",
+     "words": 33,
+     "est_duration_s": 9.26
+    },
+    {
+     "clip_line_id": "TK2.01#6",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_control_desk_ritual",
+     "motion": "push",
+     "text": "Dưới góc độ tâm lý học hành vi, sự tỉ mỉ đến mức cực đoan này không đơn thuần nhằm mục đích trốn tránh pháp luật, mà phản ánh một nhu cầu kiểm soát bệnh lý cao độ.",
+     "src_script": "2.03#1",
+     "words": 38,
+     "est_duration_s": 9.6
+    },
+    {
+     "clip_line_id": "TK2.01#7",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_gloved_hands_evidence",
+     "motion": "still",
+     "text": "Kẻ thủ ác coi việc xử lý hiện trường như một nhiệm vụ mang tính nghi thức, đòi hỏi sự kiên nhẫn, điềm tĩnh và thời gian tập trung cao độ.",
+     "src_script": "2.03#2",
+     "words": 31,
+     "est_duration_s": 7.94
+    },
+    {
+     "clip_line_id": "TK2.01#8",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_evidence_table",
+     "motion": "push",
+     "text": "Hành vi chia nhỏ và phi tang vật chứng rải rác phản ánh cơ chế tâm lý phi nhân hóa đối tượng, biến nạn nhân thành một chuỗi những nhiệm vụ kỹ thuật để triệt tiêu mọi cảm xúc ăn năn.",
+     "src_script": "2.03#3",
+     "words": 41,
+     "est_duration_s": 10.31
+    },
+    {
+     "clip_line_id": "TK2.01#9",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_control_desk_ritual",
+     "motion": "pull",
+     "text": "Nhiều khả năng kẻ này là người có học thức, tính cách cô lập, làm việc trong những môi trường đòi hỏi sự chính xác cơ học như giải phẫu, y tế, hoặc chế biến thực phẩm chuyên nghiệp.",
+     "src_script": "2.03#4",
+     "words": 39,
+     "est_duration_s": 9.84
+    },
+    {
+     "clip_line_id": "TK2.01#10",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_wall_between_two_worlds",
+     "motion": "still",
+     "text": "Chính sự lạnh lùng và kỹ năng vượt trội ấy đã tạo nên một bức tường ngăn cách giữa hiện trường tội ác và kẻ thủ ác.",
+     "src_script": "2.04#1",
+     "words": 27,
+     "est_duration_s": 8.6
+    },
+    {
+     "clip_line_id": "TK2.01#11",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk54_amber_eyes_dossier_54",
+     "motion": "still",
+     "text": "Tập 54 của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "words": 14,
+     "est_duration_s": 4.15
+    }
+   ]
+  },
+  "TK3": {
+   "title": "Ba khoảng trống của năm 1996",
+   "theme": "Điểm mù xã hội & Ngòi nổ tâm lý trong một thành phố chuyển mình",
+   "signs": [
+    9,
+    6
+   ],
+   "total_est_duration_s": 89.5,
+   "bgm": "bgm_cello_sad.mp3",
+   "bgm_desc": "Hồi 3 — bed tập: bgm_cello_sad.mp3",
+   "sfx": [
+    "amb_street_crowd.wav (nền)",
+    "fx_typewriter.wav",
+    "fx_paper_rustle.wav",
+    "fx_phone_ring.wav",
+    "fx_tension_tick.wav"
+   ],
+   "overlays": [
+    {
+     "sau_cau": "TK3.01#1",
+     "text": "1996 · KHÔNG CAMERA · KHÔNG INTERNET · KHÔNG ADN",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK3.01#2",
+     "text": "LÀN SÓNG NHẬP CƯ VÀO ĐÔ THỊ",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK3.01#5",
+     "text": "ĐIỀU TRA TRUYỀN THỐNG · RÀ SOÁT TAY KHÔNG",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK3.01#7",
+     "text": "ĐIỂM MÙ XÃ HỘI · THIẾU MẠNG LƯỚI HỖ TRỢ",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK3.01#8",
+     "text": "NGÒI NỔ TÂM LÝ: KHI ĐIỂM MÙ ĐƯỢC KÍCH HOẠT",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK3.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk54_empty_nanjing_street_night",
+     "motion": "still",
+     "text": "Năm 1996: không camera. Không internet. Không ADN.",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "words": 8,
+     "est_duration_s": 2.87
+    },
+    {
+     "clip_line_id": "TK3.01#2",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_migrant_crowd_station",
+     "motion": "pan",
+     "text": "Năm 1996 là thời kỳ các đô thị lớn tại Trung Quốc đang bước vào giai đoạn mở cửa và chuyển mình mạnh mẽ.",
+     "src_script": "3.02#1",
+     "words": 24,
+     "est_duration_s": 7.71
+    },
+    {
+     "clip_line_id": "TK3.01#3",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_migrant_crowd_station",
+     "motion": "still",
+     "text": "Dòng người nhập cư từ các vùng nông thôn đổ về thành phố tăng đột biến, trong khi hệ thống quản lý nhân khẩu và công nghệ giám sát an ninh còn rất sơ khai.",
+     "src_script": "3.02#2",
+     "words": 35,
+     "est_duration_s": 10.97
+    },
+    {
+     "clip_line_id": "TK3.01#4",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_empty_nanjing_street_night",
+     "motion": "pull",
+     "text": "Thời điểm ấy, hệ thống camera giám sát công cộng hầu như chưa tồn tại, mạng internet chưa phát triển và công nghệ xét nghiệm ADN mới chỉ chập chững bước vào ứng dụng thực tế.",
+     "src_script": "3.02#3",
+     "words": 36,
+     "est_duration_s": 11.27
+    },
+    {
+     "clip_line_id": "TK3.01#5",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk54_manual_surveillance_ledger",
+     "motion": "push",
+     "text": "Ban chuyên án thời điểm đó phải dựa hoàn toàn vào các phương pháp điều tra truyền thống: rà soát từng hộ gia đình, kiểm tra từng chiếc xe đạp và phân loại thủ công hàng vạn dấu vết vật chất.",
+     "src_script": "3.03#1",
+     "words": 41,
+     "est_duration_s": 11.36
+    },
+    {
+     "clip_line_id": "TK3.01#6",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk54_empty_dossier_shelves",
+     "motion": "still",
+     "text": "Không có dữ liệu camera để trích xuất hành trình di chuyển, không có cơ sở dữ liệu mẫu sinh học điện tử để đối chiếu tự động, cảnh sát hoàn toàn mất phương hướng trước những địa điểm phát hiện rời rạc.",
+     "src_script": "3.03#2",
+     "words": 43,
+     "est_duration_s": 11.89
+    },
+    {
+     "clip_line_id": "TK3.01#7",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_trusting_stranger_cafe",
+     "motion": "pull",
+     "text": "Một cô gái nông thôn lần đầu lên thành phố lớn thường thiếu các kỹ năng nhận biết rủi ro và rất dễ tin tưởng vào những người có vẻ ngoài tử tế, uyên bác.",
+     "src_script": "3.04#1",
+     "words": 35,
+     "est_duration_s": 8.89
+    },
+    {
+     "clip_line_id": "TK3.01#8",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_manipulative_care",
+     "motion": "push",
+     "text": "Kẻ săn mồi có thể đã lợi dụng sự ngây thơ, niềm đam mê văn học hoặc sự bỡ ngỡ của nạn nhân để tiếp cận, dụ dỗ cô bước vào không gian kiểm soát kín đáo của hắn.",
+     "src_script": "3.04#2",
+     "words": 39,
+     "est_duration_s": 9.84
+    },
+    {
+     "clip_line_id": "TK3.01#9",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_no_support_network",
+     "motion": "still",
+     "text": "Điểm mù xã hội ở đây chính là sự thiếu vắng các mạng lưới hỗ trợ tâm lý sinh viên xa nhà, khiến một người biến mất suốt nhiều ngày mà không tạo ra phản ứng ứng phó khẩn cấp đúng lúc.",
+     "src_script": "3.04#3",
+     "words": 42,
+     "est_duration_s": 10.55
+    },
+    {
+     "clip_line_id": "TK3.01#10",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk54_amber_eyes_dossier_54",
+     "motion": "still",
+     "text": "Tập 54 của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "words": 14,
+     "est_duration_s": 4.15
+    }
+   ]
+  },
+  "TK4": {
+   "title": "Hai mươi năm sau, hồ sơ chưa từng được đóng lại",
+   "theme": "Bản án tâm lý vô hình: nỗi ám ảnh bị khoa học gõ cửa",
+   "signs": [
+    5,
+    4,
+    1
+   ],
+   "total_est_duration_s": 89.1,
+   "bgm": "bgm_piano_minimal.mp3",
+   "bgm_desc": "Hồi 4 — bed tập: bgm_piano_minimal.mp3",
+   "sfx": [
+    "amb_room_tone.wav (nền)",
+    "fx_paper_rustle.wav",
+    "fx_knock.wav",
+    "fx_data_scan.wav",
+    "fx_tension_tick.wav"
+   ],
+   "overlays": [
+    {
+     "sau_cau": "TK4.01#1",
+     "text": "HỒ SƠ TRUY XÉT VĨNH VIỄN",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK4.01#3",
+     "text": "TRỌNG ÁN ĐẶC BIỆT · KHÔNG ÁP DỤNG THỜI HIỆU",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK4.01#5",
+     "text": "ADN THẾ HỆ MỚI · TRÍ TUỆ NHÂN TẠO",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK4.01#6",
+     "text": "CƠ SỞ DỮ LIỆU QUỐC GIA",
+     "dur_s": 2.5
+    },
+    {
+     "sau_cau": "TK4.01#8",
+     "text": "BẢN ÁN VÔ HÌNH: KHOA HỌC SẼ GÕ CỬA",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK4.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk54_unclosed_case_file",
+     "motion": "still",
+     "text": "Hai mươi năm sau, hồ sơ vụ án chưa từng được đóng lại.",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "words": 13,
+     "est_duration_s": 4.35
+    },
+    {
+     "clip_line_id": "TK4.01#2",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_clock_2016",
+     "motion": "pan",
+     "text": "Năm 2016, tròn hai mươi năm sau khi vụ án xảy ra, thời hiệu truy cứu trách nhiệm hình sự thông thường theo luật định đã đến mốc giới hạn.",
+     "src_script": "4.02#1",
+     "words": 30,
+     "est_duration_s": 9.49
+    },
+    {
+     "clip_line_id": "TK4.01#3",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk54_never_closed_archive",
+     "motion": "still",
+     "text": "Tuy nhiên, Bộ Công an Trung Quốc đã chính thức tuyên bố: Vụ án Điêu Ái Thanh là trọng án đặc biệt nguy hiểm, cơ quan điều tra đã lập án ngay từ đầu nên hồ sơ sẽ được truy xét vĩnh viễn, không áp dụng thời hiệu miễn trừ.",
+     "src_script": "4.02#2",
+     "words": 50,
+     "est_duration_s": 13.72
+    },
+    {
+     "clip_line_id": "TK4.01#4",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk54_evidence_storage_2016",
+     "motion": "pull",
+     "text": "Toàn bộ các mẫu vật lưu trữ từ năm 1996 đã được đưa vào bảo quản nghiêm ngặt trong điều kiện tiêu chuẩn cao nhất.",
+     "src_script": "4.03#1",
+     "words": 25,
+     "est_duration_s": 7.16
+    },
+    {
+     "clip_line_id": "TK4.01#5",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk54_dna_sequencing_lab",
+     "motion": "push",
+     "text": "Với sự bùng nổ của công nghệ phân tích ADN thế hệ mới và trí tuệ nhân tạo, các chuyên gia giám định đã liên tục trích xuất những mảnh thông tin di truyền vi mô tưởng chừng đã biến mất.",
+     "src_script": "4.03#2",
+     "words": 41,
+     "est_duration_s": 11.36
+    },
+    {
+     "clip_line_id": "TK4.01#6",
+     "role": "D",
+     "emotion": "neutral",
+     "speed_offset": -0.03,
+     "pause_after_s": 0.6,
+     "bg": "tk54_national_genealogy_database",
+     "motion": "still",
+     "text": "Hàng nghìn mẫu đối chiếu đã được đưa vào hệ thống cơ sở dữ liệu quốc gia, thu hẹp dần những nhánh gia tộc nghi vấn có liên hệ với dấu vết để lại trên các vật chứng.",
+     "src_script": "4.03#3",
+     "words": 38,
+     "est_duration_s": 10.57
+    },
+    {
+     "clip_line_id": "TK4.01#7",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_aging_ordinary_shell",
+     "motion": "pan",
+     "text": "Thời gian có thể giúp kẻ sát nhân già đi và ẩn sâu dưới lớp vỏ bọc bình thường, nhưng tâm lý học tội phạm chỉ ra rằng hắn không bao giờ có được sự bình yên thực sự.",
+     "src_script": "4.04#1",
+     "words": 39,
+     "est_duration_s": 9.84
+    },
+    {
+     "clip_line_id": "TK4.01#8",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_knock_at_the_door",
+     "motion": "push",
+     "text": "Nỗi ám ảnh về việc một ngày nào đó công nghệ mới sẽ gõ cửa căn nhà của mình luôn là bản án vô hình giam cầm tâm trí hắn.",
+     "src_script": "4.04#2",
+     "words": 30,
+     "est_duration_s": 7.7
+    },
+    {
+     "clip_line_id": "TK4.01#9",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_news_dna_article",
+     "motion": "still",
+     "text": "Những kẻ thủ ác kiểu này thường có xu hướng theo dõi sát sao tin tức về các vụ án cũ được phá giải bằng ADN, và sự hoảng loạn ngầm sẽ gia tăng theo từng bước tiến của khoa học kỹ thuật.",
+     "src_script": "4.04#3",
+     "words": 43,
+     "est_duration_s": 10.78
+    },
+    {
+     "clip_line_id": "TK4.01#10",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk54_amber_eyes_dossier_54_b",
+     "motion": "still",
+     "text": "Tập 54 của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "words": 14,
+     "est_duration_s": 4.15
+    }
+   ]
+  },
+  "TK5": {
+   "title": "Ba bài học sinh tồn từ một vụ án mất tích",
+   "theme": "Nạn nhân học, Bi kịch người thân vô tội & Ba tín hiệu cảnh báo đỏ sinh tồn",
+   "signs": [
+    10,
+    3,
+    1
+   ],
+   "total_est_duration_s": 84.2,
+   "bgm": "bgm_piano_warm.mp3",
+   "bgm_desc": "Hồi 5 — bed tập: bgm_piano_warm.mp3",
+   "sfx": [
+    "amb_rain_window.wav (nền)",
+    "fx_piano_note.wav",
+    "fx_paper_rustle.wav",
+    "fx_phone_ring.wav",
+    "fx_stinger.wav"
+   ],
+   "overlays": [
+    {
+     "sau_cau": "TK5.01#1",
+     "text": "3 BÀI HỌC SINH TỒN · TỪ MỘT VỤ ÁN MẤT TÍCH",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK5.01#2",
+     "text": "HƠN 25 NĂM · CHA MẸ GIÀ ĐI CHỜ CÂU TRẢ LỜI",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK5.01#5",
+     "text": "1. MẠNG LƯỚI LIÊN LẠC AN TOÀN",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK5.01#7",
+     "text": "2. TỪ CHỐI KHÔNG GIAN RIÊNG TƯ KHÉP KÍN",
+     "dur_s": 3.0
+    },
+    {
+     "sau_cau": "TK5.01#9",
+     "text": "3. GIẢI TỚA XUNG ĐỘT TÂM LÝ LÀNH MẠNH",
+     "dur_s": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "clip_line_id": "TK5.01#1",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.5,
+     "bg": "tk54_three_lessons",
+     "motion": "still",
+     "text": "Ba bài học sinh tồn từ một vụ án mất tích năm 1996.",
+     "src_script": "hook — không phải dữ kiện kịch bản",
+     "words": 13,
+     "est_duration_s": 4.35
+    },
+    {
+     "clip_line_id": "TK5.01#2",
+     "role": "H",
+     "emotion": "sad",
+     "speed_offset": -0.04,
+     "pause_after_s": 0.6,
+     "bg": "tk54_aging_parents_empty_room",
+     "motion": "pan",
+     "text": "Hơn một phần tư thế kỷ trôi qua, cha mẹ của Điêu Ái Thanh đã già đi trong sự mòn mỏi chờ đợi một câu trả lời chính thức.",
+     "src_script": "5.02#1",
+     "words": 29,
+     "est_duration_s": 9.19
+    },
+    {
+     "clip_line_id": "TK5.01#3",
+     "role": "H",
+     "emotion": "sad",
+     "speed_offset": -0.04,
+     "pause_after_s": 0.6,
+     "bg": "tk54_taichou_house_memories",
+     "motion": "still",
+     "text": "Ngôi nhà nhỏ ở vùng quê Thái Châu vẫn giữ nguyên những kỷ vật của cô con gái út mộc mạc, như một lời nhắc nhở rằng công lý dù đến muộn cũng nhất định phải được thực thi.",
+     "src_script": "5.02#2",
+     "words": 39,
+     "est_duration_s": 12.16
+    },
+    {
+     "clip_line_id": "TK5.01#4",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_three_lessons",
+     "motion": "pull",
+     "text": "Từ bi kịch mùa đông năm 1996, chúng ta rút ra ba bài học sinh tồn quan trọng cho môi trường học đường và cuộc sống đô thị.",
+     "src_script": "5.03#1",
+     "words": 28,
+     "est_duration_s": 7.23
+    },
+    {
+     "clip_line_id": "TK5.01#5",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_safety_contact_network",
+     "motion": "still",
+     "text": "Thứ nhất, thiết lập mạng lưới liên lạc an toàn khi bước vào môi trường mới.",
+     "src_script": "5.03#2",
+     "words": 16,
+     "est_duration_s": 4.39
+    },
+    {
+     "clip_line_id": "TK5.01#6",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_phone_call_night",
+     "motion": "push",
+     "text": "Sinh viên xa nhà cần luôn duy trì ít nhất hai kênh kết nối đáng tin cậy, thông báo lịch trình cho bạn bè thân thiết khi ra ngoài vào ban đêm hoặc gặp gỡ đối tượng lạ.",
+     "src_script": "5.03#3",
+     "words": 38,
+     "est_duration_s": 9.6
+    },
+    {
+     "clip_line_id": "TK5.01#7",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_refuse_closed_space",
+     "motion": "still",
+     "text": "Thứ hai, nhận diện và từ chối các lời mời bước vào không gian riêng tư khép kín.",
+     "src_script": "5.03#4",
+     "words": 18,
+     "est_duration_s": 4.86
+    },
+    {
+     "clip_line_id": "TK5.01#8",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_too_helpful_stranger",
+     "motion": "pull",
+     "text": "Tuyệt đối không nhận sự giúp đỡ quá mức nhiệt tình từ những người mới quen, dù họ có vẻ ngoài uy tín, học thức hay đáng kính trọng đến đâu.",
+     "src_script": "5.03#5",
+     "words": 31,
+     "est_duration_s": 7.94
+    },
+    {
+     "clip_line_id": "TK5.01#9",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_family_hearth_night",
+     "motion": "still",
+     "text": "Thứ ba, giải tỏa xung đột tâm lý lành mạnh.",
+     "src_script": "5.03#6",
+     "words": 10,
+     "est_duration_s": 2.97
+    },
+    {
+     "clip_line_id": "TK5.01#10",
+     "role": "C",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_counselling_room",
+     "motion": "push",
+     "text": "Khi gặp chuyện bất như ý trong sinh hoạt, cần tìm đến người thân hoặc phòng tư vấn tâm lý thay vì chọn cách bỏ đi một mình trong đêm tối, tạo cơ hội cho kẻ săn mồi cơ hội hành động.",
+     "src_script": "5.03#7",
+     "words": 42,
+     "est_duration_s": 10.55
+    },
+    {
+     "clip_line_id": "TK5.01#11",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.6,
+     "bg": "tk54_amber_eyes_dossier_54_b",
+     "motion": "still",
+     "text": "Chừng nào hồ sơ còn mở, chừng ấy kẻ thủ ác vẫn chưa thể thoát khỏi lưới trời của công lý.",
+     "src_script": "5.04#2",
+     "words": 21,
+     "est_duration_s": 6.82
+    },
+    {
+     "clip_line_id": "TK5.01#12",
+     "role": "H",
+     "emotion": "neutral",
+     "speed_offset": -0.02,
+     "pause_after_s": 0.0,
+     "bg": "tk54_amber_eyes_dossier_54_b",
+     "motion": "still",
+     "text": "Tập 54 của Amber Eyes. Xem hồ sơ đầy đủ ở link trong bio.",
+     "src_script": "CTA — không phải dữ kiện kịch bản",
+     "words": 14,
+     "est_duration_s": 4.15
+    }
+   ]
+  }
+ }
+}

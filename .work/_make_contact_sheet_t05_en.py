@@ -39,6 +39,6 @@ for idx, p in enumerate(stills):
         thumb = img.resize((tw, th), Image.Resampling.LANCZOS)
         sheet.paste(thumb, (x, y + header_h))
 
-out_path = Path("02_SAN_XUAT/Tap05_EN/contact_sheet_stills_t05_EN.png")
+out_path = Path("02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_EN/contact_sheet_stills_t05_EN.png")
 sheet.save(out_path, quality=90)
 print(f"Contact sheet created: {out_path} ({len(stills)} stills, {W}x{H})")

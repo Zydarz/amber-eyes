@@ -31,7 +31,7 @@ rows = []
 for i in range(1, 30):
     ep = "%02d" % i
     vp = M.canonical_vn(ep)
-    jp = Path(__file__).resolve().parents[1] / "01_KICH_BAN" / f"Tap{ep}_JA" / f"kichban_tap{ep}_JA.md"
+    jp = Path(__file__).resolve().parents[1] / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap{ep}_JA" / f"kichban_tap{ep}_JA.md"
     if not vp.exists() or not jp.exists():
         continue
     vn = vp.read_text(encoding="utf-8")

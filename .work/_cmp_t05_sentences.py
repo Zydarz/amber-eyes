@@ -22,9 +22,9 @@ def norm(s):
 
 
 CASES = [
-    ("VN", "01_KICH_BAN/Tap05/kichban_tap05_23102026.md", "script_tap05.json"),
-    ("EN", "01_KICH_BAN/Tap05_EN/kichban_tap05_EN.md", "script_tap05_EN.json"),
-    ("JA", "01_KICH_BAN/Tap05_JA/kichban_tap05_JA.md", "script_tap05_JA.json"),
+    ("VN", "01_KICH_BAN/Ho_So_Toi_Pham/Tap05/kichban_tap05_23102026.md", "script_tap05.json"),
+    ("EN", "01_KICH_BAN/Ho_So_Toi_Pham/Tap05_EN/kichban_tap05_EN.md", "script_tap05_EN.json"),
+    ("JA", "01_KICH_BAN/Ho_So_Toi_Pham/Tap05_JA/kichban_tap05_JA.md", "script_tap05_JA.json"),
 ]
 
 for lang, kb, old_json in CASES:

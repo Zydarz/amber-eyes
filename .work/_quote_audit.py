@@ -6,14 +6,14 @@ HANG = re.compile(r'[\uac00-\ud7a3]')
 VIET = re.compile(r'[\u00c0-\u1ef9]')
 
 vns = {}
-for p in sorted(glob.glob('01_KICH_BAN/Tap[0-9][0-9]/kichban_tap*.md')):
+for p in sorted(glob.glob('01_KICH_BAN/Ho_So_Toi_Pham/Tap[0-9][0-9]/kichban_tap*.md')):
     tap = re.search(r'Tap(\d+)', p).group(1)
     vns[tap] = p
 
 print('tap | VNpairs type1(latin) type2(other) || KOpairs type1(latin) type2(hangul) ko_lat_in_quotes')
 for tap in sorted(vns):
     vn = io.open(vns[tap], encoding='utf-8').read()
-    kp = '01_KICH_BAN/Tap%s_KO/kichban_tap%s_KO.md' % (tap, tap)
+    kp = '01_KICH_BAN/Ho_So_Toi_Pham/Tap%s_KO/kichban_tap%s_KO.md' % (tap, tap)
     if not os.path.exists(kp):
         print('%s | (no KO file)' % tap)
         continue

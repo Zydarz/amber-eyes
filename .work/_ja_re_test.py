@@ -8,7 +8,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, str(Path(__file__).parent))
 import parse_kichban as PK
 
-lines = Path(__file__).resolve().parents[1] / "01_KICH_BAN" / "Tap01_JA" / "kichban_tap01_JA.md".read_text(
+lines = Path(__file__).resolve().parents[1] / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap01_JA" / "kichban_tap01_JA.md".read_text(
     encoding="utf-8").splitlines()
 heads = [l for l in lines if l.startswith("## ")]
 print("tất cả heading:")

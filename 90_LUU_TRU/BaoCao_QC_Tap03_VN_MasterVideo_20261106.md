@@ -1,7 +1,7 @@
 # BÁO CÁO KIỂM ĐỊNH CHẤT LƯỢNG (QC) — TẬP 03 (TIẾNG VIỆT) · DỰNG VIDEO MASTER
 
-**Ngày kiểm định:** 06/11/2026 · **Nguồn sự thật:** `02_SAN_XUAT/Tap03/xuat_ban/Tap03_master.mp3`
-**Thành phẩm:** `02_SAN_XUAT/Tap03/xuat_ban/Tap03_master.mp4`
+**Ngày kiểm định:** 06/11/2026 · **Nguồn sự thật:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/xuat_ban/Tap03_master.mp3`
+**Thành phẩm:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/xuat_ban/Tap03_master.mp4`
 
 ---
 
@@ -39,8 +39,8 @@ Nếu dùng nguyên timeline cũ để dựng, **toàn bộ ảnh sẽ lệch ti
 | Stem giọng | `.work/stems_t03/{H,D,C,N1,N2}.wav` (16 kHz) | Dựng lại (đã bị dọn đĩa) |
 | Audio cho mux | `.work/audio_master_t03.wav` · 1664,960 s · 48 kHz stereo | Giải mã lại từ mp3 |
 | Ảnh tĩnh | `.work/video3_t03/stills/` · **110 PNG** 1920×1080 | Render lại toàn bộ |
-| Phụ đề | `02_SAN_XUAT/Tap03/xuat_ban/Tap03.srt` · **428 cue** | Sinh lại |
-| Video master | `02_SAN_XUAT/Tap03/xuat_ban/Tap03_master.mp4` | Ghép hình + tiếng |
+| Phụ đề | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/xuat_ban/Tap03.srt` · **428 cue** | Sinh lại |
+| Video master | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/xuat_ban/Tap03_master.mp4` | Ghép hình + tiếng |
 
 **Các file cấu hình dùng chung KHÔNG bị sửa** — `edition.py` chỉ bị session song song (đang làm Tập 06) chạm vào khối Tập 05/06; khối `"03"` (dòng 226–323) **nguyên vẹn** (đã đối chiếu bằng `git diff`, mọi hunk đều ≥ dòng 528).
 
@@ -169,7 +169,7 @@ Lấy từ **câu đầu tiên của mỗi hồi trong timeline** (không hardco
 
 ---
 
-## 4. TÀI NGUYÊN THÀNH PHẨM TẠI `02_SAN_XUAT/Tap03/xuat_ban/`
+## 4. TÀI NGUYÊN THÀNH PHẨM TẠI `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/xuat_ban/`
 
 | File | Vai trò |
 |---|---|

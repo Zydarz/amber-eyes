@@ -13,15 +13,15 @@ sys.path.insert(0, str(W))
 from parse_kichban import parse_file  # noqa: E402
 
 LANG = {
-    "vi": {"kb": ROOT / "01_KICH_BAN/Tap06/kichban_tap06_23102026.md",
+    "vi": {"kb": ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap06/kichban_tap06_23102026.md",
            "tl": W / "timeline_s_t06.json", "sh": W / "shots_t06.json",
-           "st": W / "video3_t06/stills", "plan": ROOT / "02_SAN_XUAT/Tap06/KeHoach_Video_Tap06.md"},
-    "en": {"kb": ROOT / "01_KICH_BAN/Tap06_EN/kichban_tap06_EN.md",
+           "st": W / "video3_t06/stills", "plan": ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap06/KeHoach_Video_Tap06.md"},
+    "en": {"kb": ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap06_EN/kichban_tap06_EN.md",
            "tl": W / "timeline_s_EN_t06.json", "sh": W / "shots_EN_t06.json",
-           "st": W / "video3_EN_t06/stills", "plan": ROOT / "02_SAN_XUAT/Tap06_EN/KeHoach_Video_Tap06_EN.md"},
-    "ja": {"kb": ROOT / "01_KICH_BAN/Tap06_JA/kichban_tap06_JA.md",
+           "st": W / "video3_EN_t06/stills", "plan": ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap06_EN/KeHoach_Video_Tap06_EN.md"},
+    "ja": {"kb": ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap06_JA/kichban_tap06_JA.md",
            "tl": W / "timeline_s_JA_t06.json", "sh": W / "shots_JA_t06.json",
-           "st": W / "video3_JA_t06/stills", "plan": ROOT / "02_SAN_XUAT/Tap06_JA/KeHoach_Video_Tap06_JA.md"},
+           "st": W / "video3_JA_t06/stills", "plan": ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap06_JA/KeHoach_Video_Tap06_JA.md"},
 }
 
 FORBIDDEN = {

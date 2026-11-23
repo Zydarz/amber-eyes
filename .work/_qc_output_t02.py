@@ -9,9 +9,9 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path("D:/TEST/Gax/amber-eyes")
 FF = ROOT / ".work/ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffmpeg.exe"
 PROBE = ROOT / ".work/ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffprobe.exe"
-MP4 = ROOT / "02_SAN_XUAT/Tap02/xuat_ban/Tap02_master.mp4"
+MP4 = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/xuat_ban/Tap02_master.mp4"
 TL = ROOT / ".work/timeline_s_t02.json"
-SRT = ROOT / "02_SAN_XUAT/Tap02/xuat_ban/Tap02.srt"
+SRT = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/xuat_ban/Tap02.srt"
 
 print(f"=== QC BẮT BUỘC ĐẦU RA CHO {MP4.name} ===")
 

@@ -17,7 +17,7 @@ def blocks_of(p):
 
 
 print("=== 1. BLOCK SRT LO (JA moi) ===")
-bl = blocks_of(ROOT / "02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA.srt")
+bl = blocks_of(ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/Tap02_JA.srt")
 for n, b in enumerate(bl, 1):
     ls = b.splitlines()
     if len(ls) < 3 or " --> " not in ls[1]:

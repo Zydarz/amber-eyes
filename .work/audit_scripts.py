@@ -49,7 +49,7 @@ V9_WATCHLIST = [
 
 def audit_episode(ep_num):
     ep_str = f"{ep_num:02d}"
-    script_path = ROOT / "01_KICH_BAN" / f"Tap{ep_str}_EN" / f"kichban_tap{ep_str}_EN.md"
+    script_path = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap{ep_str}_EN" / f"kichban_tap{ep_str}_EN.md"
     if not script_path.exists():
         return None, [f"File not found: {script_path}"]
     

@@ -2,8 +2,8 @@ import sys
 sys.path.insert(0, '.work')
 import parse_kichban as PK
 
-vn = PK.parse_file('01_KICH_BAN/Tap11/kichban_tap11_23102026.md')
-en = PK.parse_file('01_KICH_BAN/Tap11_EN/kichban_tap11_EN.md')
+vn = PK.parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap11/kichban_tap11_23102026.md')
+en = PK.parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap11_EN/kichban_tap11_EN.md')
 
 for i in range(max(len(vn), len(en))):
     v = vn[i] if i < len(vn) else {}

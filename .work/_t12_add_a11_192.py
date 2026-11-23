@@ -39,7 +39,7 @@ row192 = (
     "ngay** trong đúng 2 kernel song song; 4) QC = montage (lập danh sách nghi) → **crop 8–16× từng vùng có giấy/bìa/thước/"
     "ống kính/la bàn/phim/ảnh ghim** → dùng **bản tăng sáng** cho ảnh noir (A11 #191); 5) **QC 100 % toàn bộ nền của tập**, "
     "kể cả lô cũ — **không \"mặc định đạt\" cho ảnh sinh trước đó** (A11 #182). Ước tính áp dụng từ đầu: **152 ảnh thay vì 233**. "
-    "Báo cáo đầy đủ: `02_SAN_XUAT/Tap12/BaoCao_QC_Tap12_20261116.md` §4.8 |"
+    "Báo cáo đầy đủ: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap12/BaoCao_QC_Tap12_20261116.md` §4.8 |"
 )
 
 last_idx = max(i for i, n in rows)

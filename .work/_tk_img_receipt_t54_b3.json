@@ -1,0 +1,35 @@
+{
+ "code": 0,
+ "message": "ok",
+ "summary": "Batch processing completed: 6/6 succeeded",
+ "total_requested": 6,
+ "total_success": 6,
+ "total_failed": 0,
+ "success_items": [
+  {
+   "node_id": "466368685154376",
+   "file_name": "tk54_evidence_table.jpg"
+  },
+  {
+   "node_id": "466368033226865",
+   "file_name": "tk54_travel_bag_sheets.jpg"
+  },
+  {
+   "node_id": "466368086647024",
+   "file_name": "tk54_blind_corner_dawn.jpg"
+  },
+  {
+   "node_id": "466368031957100",
+   "file_name": "tk54_sealed_room_water.jpg"
+  },
+  {
+   "node_id": "466368086647027",
+   "file_name": "tk54_control_desk_ritual.jpg"
+  },
+  {
+   "node_id": "466368685154380",
+   "file_name": "tk54_wall_between_two_worlds.jpg"
+  }
+ ],
+ "failed_items": []
+}

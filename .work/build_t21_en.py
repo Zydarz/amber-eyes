@@ -2,7 +2,7 @@ import os, shutil
 
 header = """# CRIMINAL PSYCHOLOGY AUDIO / PODCAST SCRIPT — ENGLISH EDITION
 **Topic:** Postpartum psychosis, severe reality break, altruistic filicide & religious delusions of salvation — the tragic case of the five Yates children in Clear Lake, Houston, Texas.
-**Translated from:** `01_KICH_BAN/Tap21/kichban_tap21_23102026.md`. One English sentence for every Vietnamese sentence, same structure, same IDs.
+**Translated from:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap21/kichban_tap21_23102026.md`. One English sentence for every Vietnamese sentence, same structure, same IDs.
 **Fact and legal review:** Based on public trial reporting, official police interrogation transcripts, and verified public records; analysis of real people is framed as opinion.
 
 ---
@@ -303,9 +303,9 @@ Until our next investigative case file, stay compassionate, stay vigilant, and t
 **[BGM]:** Warm, solemn piano swells gently before fading out completely by the fifth second.
 """
 
-os.makedirs("01_KICH_BAN/Tap21_EN", exist_ok=True)
-p1 = "01_KICH_BAN/Tap21_EN/kichban_tap21_EN.md"
-p2 = "01_KICH_BAN/Tap21/kichban_tap21_EN.md"
+os.makedirs("01_KICH_BAN/Ho_So_Toi_Pham/Tap21_EN", exist_ok=True)
+p1 = "01_KICH_BAN/Ho_So_Toi_Pham/Tap21_EN/kichban_tap21_EN.md"
+p2 = "01_KICH_BAN/Ho_So_Toi_Pham/Tap21/kichban_tap21_EN.md"
 with open(p1, "w", encoding="utf-8") as f:
     f.write(header)
 shutil.copy(p1, p2)

@@ -168,13 +168,13 @@ vn_text = assemble_script('VN', HEADER_VN, [ACT1_VN, ACT2_VN, ACT3_VN, ACT4_VN, 
 en_text = assemble_script('EN', HEADER_EN, [ACT1_EN, ACT2_EN, ACT3_EN, ACT4_EN, ACT5_EN])
 ja_text = assemble_script('JA', HEADER_JA, [ACT1_JA, ACT2_JA, ACT3_JA, ACT4_JA, ACT5_JA])
 
-with open('01_KICH_BAN/Tap44/kichban_tap44_19112026.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap44/kichban_tap44_19112026.md', 'w', encoding='utf-8') as f:
     f.write(vn_text)
 
-with open('01_KICH_BAN/Tap44_EN/kichban_tap44_EN.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap44_EN/kichban_tap44_EN.md', 'w', encoding='utf-8') as f:
     f.write(en_text)
 
-with open('01_KICH_BAN/Tap44_JA/kichban_tap44_JA.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap44_JA/kichban_tap44_JA.md', 'w', encoding='utf-8') as f:
     f.write(ja_text)
 
 print("All 3 scripts successfully assembled and saved to their respective directories.")

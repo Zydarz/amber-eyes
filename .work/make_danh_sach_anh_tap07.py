@@ -3,7 +3,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
-OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap07"
+OUT_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 jobs = json.loads((WORK / "bg_jobs_tap07.json").read_text(encoding="utf-8"))
@@ -43,7 +43,7 @@ lines.append("---")
 lines.append("")
 lines.append("## B2. Ánh xạ ảnh → hồi → mốc câu")
 lines.append("")
-lines.append("Mốc câu theo `.work/script_tap07.json` (parse từ `01_KICH_BAN/Tap07/kichban_tap07_23102026.md`):  ")
+lines.append("Mốc câu theo `.work/script_tap07.json` (parse từ `01_KICH_BAN/Ho_So_Toi_Pham/Tap07/kichban_tap07_23102026.md`):  ")
 lines.append("**34 lượt thoại · 164 câu · 3.743 từ** (Host 105 câu, Điều tra viên 25 câu, Chuyên gia tâm lý 20 câu, Người bình thường 14 câu).")
 lines.append("")
 

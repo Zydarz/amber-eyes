@@ -3,7 +3,7 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
 
 print("=== 4. AUDIT CHI TIẾT BẢNG SHOT KEHOACH_VIDEO_TAP05.MD ===")
-plan_file = Path("02_SAN_XUAT/Tap05/KeHoach_Video_Tap05.md")
+plan_file = Path("02_SAN_XUAT/Ho_So_Toi_Pham/Tap05/KeHoach_Video_Tap05.md")
 text = plan_file.read_text(encoding='utf-8')
 
 m = re.search(r"^## 6\. DANH SÁCH SHOT.*$", text, re.M)

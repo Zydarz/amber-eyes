@@ -6,9 +6,9 @@ sys.path.insert(0, ".work")
 from parse_kichban import parse_file
 
 WANT = {"3.07", "3.08", "3.09", "3.10", "3.11"}
-for tag, kb in [("VN", "01_KICH_BAN/Tap05/kichban_tap05_23102026.md"),
-                ("EN", "01_KICH_BAN/Tap05_EN/kichban_tap05_EN.md"),
-                ("JA", "01_KICH_BAN/Tap05_JA/kichban_tap05_JA.md")]:
+for tag, kb in [("VN", "01_KICH_BAN/Ho_So_Toi_Pham/Tap05/kichban_tap05_23102026.md"),
+                ("EN", "01_KICH_BAN/Ho_So_Toi_Pham/Tap05_EN/kichban_tap05_EN.md"),
+                ("JA", "01_KICH_BAN/Ho_So_Toi_Pham/Tap05_JA/kichban_tap05_JA.md")]:
     els = parse_file(kb)
     print("=" * 78)
     print(tag)

@@ -34,8 +34,8 @@ en_insertions = [
 ]
 
 def apply_remaining_en():
-    path = '01_KICH_BAN/Tap17_EN/kichban_tap17_EN.md'
-    mirror = '01_KICH_BAN/Tap17/kichban_tap17_EN.md'
+    path = '01_KICH_BAN/Ho_So_Toi_Pham/Tap17_EN/kichban_tap17_EN.md'
+    mirror = '01_KICH_BAN/Ho_So_Toi_Pham/Tap17/kichban_tap17_EN.md'
     with open(path, 'r', encoding='utf-8') as f:
         text = f.read()
 

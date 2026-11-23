@@ -64,8 +64,8 @@ bảo vệ trẻ em 111 (Việt Nam, miễn phí, 24/7).{tag_line}
 """
 n = len(txt)
 links = re.findall(r"https?://\S+", txt)
-src_links = re.findall(r"https?://\S+", (ROOT / "02_SAN_XUAT/Tap03/nguon_tham_khao.md").read_text(encoding="utf-8"))
-ok_links = len(re.findall(r"✅", (ROOT / "02_SAN_XUAT/Tap03/nguon_tham_khao.md").read_text(encoding="utf-8")))
+src_links = re.findall(r"https?://\S+", (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/nguon_tham_khao.md").read_text(encoding="utf-8"))
+ok_links = len(re.findall(r"✅", (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/nguon_tham_khao.md").read_text(encoding="utf-8")))
 print(f"[T15] độ dài mô tả = {n} ký tự (giới hạn YouTube 5000) -> "
       f"{'ĐẠT' if n <= 5000 else 'VƯỢT'}")
 print(f"[T15] link trong mô tả = {len(links)} · link trong bảng nguồn = {len(src_links)} "

@@ -163,11 +163,11 @@ JA_DESC = """第09話：自我の消去 — チャールズ・マンソンとフ
 
 def main():
     files = [
-        ("VI (mo_ta.txt)", ROOT / "02_SAN_XUAT/Tap09/xuat_ban/mo_ta.txt", VI_DESC),
-        ("EN (description.txt)", ROOT / "02_SAN_XUAT/Tap09_EN/xuat_ban/description.txt", EN_DESC),
-        ("EN (mo_ta.txt)", ROOT / "02_SAN_XUAT/Tap09_EN/xuat_ban/mo_ta.txt", EN_DESC),
-        ("JA (description.txt)", ROOT / "02_SAN_XUAT/Tap09_JA/xuat_ban/description.txt", JA_DESC),
-        ("JA (mo_ta.txt)", ROOT / "02_SAN_XUAT/Tap09_JA/xuat_ban/mo_ta.txt", JA_DESC),
+        ("VI (mo_ta.txt)", ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap09/xuat_ban/mo_ta.txt", VI_DESC),
+        ("EN (description.txt)", ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_EN/xuat_ban/description.txt", EN_DESC),
+        ("EN (mo_ta.txt)", ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_EN/xuat_ban/mo_ta.txt", EN_DESC),
+        ("JA (description.txt)", ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_JA/xuat_ban/description.txt", JA_DESC),
+        ("JA (mo_ta.txt)", ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_JA/xuat_ban/mo_ta.txt", JA_DESC),
     ]
 
     print("=== CHECKING LENGTH & WRITING FILES ===")

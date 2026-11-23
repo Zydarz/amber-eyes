@@ -2,8 +2,8 @@ import sys
 sys.path.append('.work')
 from parse_kichban import parse_file
 
-vn = parse_file('01_KICH_BAN/Tap04/kichban_tap04_23102026.md')
-en = parse_file('01_KICH_BAN/Tap04_EN/kichban_tap04_EN.md')
+vn = parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap04/kichban_tap04_23102026.md')
+en = parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap04_EN/kichban_tap04_EN.md')
 
 with open('.work/all_elements_vn_en.txt', 'w', encoding='utf-8') as out:
     out.write(f"Elements: VN {len(vn)}, EN {len(en)}\n")

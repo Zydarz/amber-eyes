@@ -94,14 +94,14 @@ episodes_info = [
 ]
 
 for ep, name, short_name, title, brief, psy in episodes_info:
-    dir_vn = f'02_SAN_XUAT/Tap{ep:02d}'
+    dir_vn = f'02_SAN_XUAT/Ho_So_Toi_Pham/Tap{ep:02d}'
     os.makedirs(f'{dir_vn}/xuat_ban', exist_ok=True)
     
     kh_content = f"""# HỒ SƠ SẢN XUẤT TẬP {ep:02d} · "{short_name}" (PHẦN B)
 
 **Tiêu chuẩn áp dụng:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Phần A).
-**Kịch bản gốc:** `01_KICH_BAN/Tap{ep:02d}/kichban_tap{ep:02d}_19112026.md`
-**Thành phẩm xuất bản:** `02_SAN_XUAT/Tap{ep:02d}/xuat_ban/`
+**Kịch bản gốc:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap{ep:02d}/kichban_tap{ep:02d}_19112026.md`
+**Thành phẩm xuất bản:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap{ep:02d}/xuat_ban/`
 
 ## B1. Thông tin tập
 
@@ -124,10 +124,10 @@ for ep, name, short_name, title, brief, psy in episodes_info:
 
 ## B3. Trạng thái các bước kỹ thuật (Checklist)
 
-- [x] Kịch bản Tiếng Việt (01_KICH_BAN/Tap{ep:02d}/)
-- [x] Kịch bản Tiếng Anh (01_KICH_BAN/Tap{ep:02d}_EN/)
-- [x] Kịch bản Tiếng Nhật (01_KICH_BAN/Tap{ep:02d}_JA/)
-- [x] Kịch bản Tiếng Hàn (01_KICH_BAN/Tap{ep:02d}_KO/)
+- [x] Kịch bản Tiếng Việt (01_KICH_BAN/Ho_So_Toi_Pham/Tap{ep:02d}/)
+- [x] Kịch bản Tiếng Anh (01_KICH_BAN/Ho_So_Toi_Pham/Tap{ep:02d}_EN/)
+- [x] Kịch bản Tiếng Nhật (01_KICH_BAN/Ho_So_Toi_Pham/Tap{ep:02d}_JA/)
+- [x] Kịch bản Tiếng Hàn (01_KICH_BAN/Ho_So_Toi_Pham/Tap{ep:02d}_KO/)
 - [ ] Tách câu (`parse_kichban.py`)
 - [ ] Diễn xuất & sinh audio TTS (`tts_sentences.py`)
 - [ ] QC âm thanh, nhịp nghỉ, LUFS (`qc_pause_gate.py`, `build_audio3.py`)
@@ -160,7 +160,7 @@ Phân tích chuyên sâu dưới lăng kính tâm lý học tội phạm & khoa 
         f.write(mota_content)
 
     for lang in ['EN', 'JA', 'KO']:
-        dir_lang = f'02_SAN_XUAT/Tap{ep:02d}_{lang}'
+        dir_lang = f'02_SAN_XUAT/Ho_So_Toi_Pham/Tap{ep:02d}_{lang}'
         os.makedirs(f'{dir_lang}/xuat_ban', exist_ok=True)
         with open(f'{dir_lang}/Production_Plan_Tap{ep:02d}_{lang}.md', 'w', encoding='utf-8') as f:
             f.write(f"# PRODUCTION PLAN EPISODE {ep:02d} ({lang})\n\nCase: {name}\nStandard: Amber Eyes 4-Language Pipeline\nStatus: Script Ready -> Pending Audio Synthesis & Video Assembly.\n")

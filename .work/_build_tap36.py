@@ -101,13 +101,13 @@ vn_content = HEADER_VI + render_act(ACT1_VI) + render_act(ACT2_VI) + render_act(
 en_content = HEADER_EN + render_act(ACT1_EN) + render_act(ACT2_EN) + render_act(ACT3_EN) + render_act(ACT4_EN) + render_act(ACT5_EN)
 ja_content = HEADER_JA + render_act(ACT1_JA) + render_act(ACT2_JA) + render_act(ACT3_JA) + render_act(ACT4_JA) + render_act(ACT5_JA)
 
-with open('01_KICH_BAN/Tap36/kichban_tap36_19112026.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap36/kichban_tap36_19112026.md', 'w', encoding='utf-8') as f:
     f.write(vn_content)
 
-with open('01_KICH_BAN/Tap36_EN/kichban_tap36_EN.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap36_EN/kichban_tap36_EN.md', 'w', encoding='utf-8') as f:
     f.write(en_content)
 
-with open('01_KICH_BAN/Tap36_JA/kichban_tap36_JA.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap36_JA/kichban_tap36_JA.md', 'w', encoding='utf-8') as f:
     f.write(ja_content)
 
 print("Generated all 3 scripts successfully.")

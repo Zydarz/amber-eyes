@@ -382,6 +382,6 @@ Xin chào tạm biệt và hẹn gặp lại trong những hồ sơ tiếp theo.
 **[BGM]:** Nhạc nền ngân vang ấm áp, trang trọng rồi mờ dần và tắt hoàn toàn ở giây thứ 5.
 """
 
-with open('01_KICH_BAN/Tap45/kichban_tap45_19112026.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap45/kichban_tap45_19112026.md', 'w', encoding='utf-8') as f:
     f.write(header_vn + content_vn)
 print('Wrote VN script successfully')

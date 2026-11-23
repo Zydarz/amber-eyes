@@ -284,38 +284,38 @@ def main():
     
     files_to_write = [
         # Tiếng Việt
-        (ROOT / "02_SAN_XUAT" / "Tap13" / "mo_ta.txt", DESC_VI),
-        (ROOT / "02_SAN_XUAT" / "Tap13" / "xuat_ban" / "mo_ta.txt", DESC_VI),
-        (ROOT / "02_SAN_XUAT" / "Tap13" / "nguon_mo_ta.txt", SOURCES_VI),
-        (ROOT / "02_SAN_XUAT" / "Tap13" / "nguon_tham_khao.md", SOURCES_VI),
-        (ROOT / "02_SAN_XUAT" / "Tap13" / "xuat_ban" / "nguon_tham_khao.md", SOURCES_VI),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13" / "mo_ta.txt", DESC_VI),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13" / "xuat_ban" / "mo_ta.txt", DESC_VI),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13" / "nguon_mo_ta.txt", SOURCES_VI),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13" / "nguon_tham_khao.md", SOURCES_VI),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13" / "xuat_ban" / "nguon_tham_khao.md", SOURCES_VI),
         
         # Tiếng Anh
-        (ROOT / "02_SAN_XUAT" / "Tap13_EN" / "description.txt", DESC_EN),
-        (ROOT / "02_SAN_XUAT" / "Tap13_EN" / "mo_ta.txt", DESC_EN),
-        (ROOT / "02_SAN_XUAT" / "Tap13_EN" / "xuat_ban" / "description.txt", DESC_EN),
-        (ROOT / "02_SAN_XUAT" / "Tap13_EN" / "xuat_ban" / "mo_ta.txt", DESC_EN),
-        (ROOT / "02_SAN_XUAT" / "Tap13_EN" / "nguon_mo_ta_EN.txt", SOURCES_EN),
-        (ROOT / "02_SAN_XUAT" / "Tap13_EN" / "nguon_tham_khao_EN.md", SOURCES_EN),
-        (ROOT / "02_SAN_XUAT" / "Tap13_EN" / "xuat_ban" / "nguon_tham_khao_EN.md", SOURCES_EN),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_EN" / "description.txt", DESC_EN),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_EN" / "mo_ta.txt", DESC_EN),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_EN" / "xuat_ban" / "description.txt", DESC_EN),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_EN" / "xuat_ban" / "mo_ta.txt", DESC_EN),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_EN" / "nguon_mo_ta_EN.txt", SOURCES_EN),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_EN" / "nguon_tham_khao_EN.md", SOURCES_EN),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_EN" / "xuat_ban" / "nguon_tham_khao_EN.md", SOURCES_EN),
         
         # Tiếng Nhật
-        (ROOT / "02_SAN_XUAT" / "Tap13_JA" / "description.txt", DESC_JA),
-        (ROOT / "02_SAN_XUAT" / "Tap13_JA" / "mo_ta.txt", DESC_JA),
-        (ROOT / "02_SAN_XUAT" / "Tap13_JA" / "xuat_ban" / "description.txt", DESC_JA),
-        (ROOT / "02_SAN_XUAT" / "Tap13_JA" / "xuat_ban" / "mo_ta.txt", DESC_JA),
-        (ROOT / "02_SAN_XUAT" / "Tap13_JA" / "nguon_mo_ta_JA.txt", SOURCES_JA),
-        (ROOT / "02_SAN_XUAT" / "Tap13_JA" / "nguon_tham_khao_JA.md", SOURCES_JA),
-        (ROOT / "02_SAN_XUAT" / "Tap13_JA" / "xuat_ban" / "nguon_tham_khao_JA.md", SOURCES_JA),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_JA" / "description.txt", DESC_JA),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_JA" / "mo_ta.txt", DESC_JA),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_JA" / "xuat_ban" / "description.txt", DESC_JA),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_JA" / "xuat_ban" / "mo_ta.txt", DESC_JA),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_JA" / "nguon_mo_ta_JA.txt", SOURCES_JA),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_JA" / "nguon_tham_khao_JA.md", SOURCES_JA),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_JA" / "xuat_ban" / "nguon_tham_khao_JA.md", SOURCES_JA),
         
         # Tiếng Hàn
-        (ROOT / "02_SAN_XUAT" / "Tap13_KO" / "description.txt", DESC_KO),
-        (ROOT / "02_SAN_XUAT" / "Tap13_KO" / "mo_ta.txt", DESC_KO),
-        (ROOT / "02_SAN_XUAT" / "Tap13_KO" / "xuat_ban" / "description.txt", DESC_KO),
-        (ROOT / "02_SAN_XUAT" / "Tap13_KO" / "xuat_ban" / "mo_ta.txt", DESC_KO),
-        (ROOT / "02_SAN_XUAT" / "Tap13_KO" / "nguon_mo_ta_KO.txt", SOURCES_KO),
-        (ROOT / "02_SAN_XUAT" / "Tap13_KO" / "nguon_tham_khao_KO.md", SOURCES_KO),
-        (ROOT / "02_SAN_XUAT" / "Tap13_KO" / "xuat_ban" / "nguon_tham_khao_KO.md", SOURCES_KO),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_KO" / "description.txt", DESC_KO),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_KO" / "mo_ta.txt", DESC_KO),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_KO" / "xuat_ban" / "description.txt", DESC_KO),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_KO" / "xuat_ban" / "mo_ta.txt", DESC_KO),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_KO" / "nguon_mo_ta_KO.txt", SOURCES_KO),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_KO" / "nguon_tham_khao_KO.md", SOURCES_KO),
+        (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13_KO" / "xuat_ban" / "nguon_tham_khao_KO.md", SOURCES_KO),
     ]
     
     for path, content in files_to_write:

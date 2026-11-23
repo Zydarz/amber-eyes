@@ -51,7 +51,7 @@ if not sym_audio.exists():
     except Exception:
         pass
 
-OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap01_EN" / "xuat_ban"
+OUT_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap01_EN" / "xuat_ban"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 ROLE_REF_MAP = {
@@ -458,7 +458,7 @@ def main():
 
     can_nghe_lines = [
         f"# Câu cần nghe — Tập 01 EN (Higgs Audio v3) — {time.strftime('%d/%m/%Y')}\n",
-        f"Dự kiến Master: `02_SAN_XUAT/Tap01_EN/xuat_ban/Tap01_EN_master.mp3` · {total:.1f} s (~{total/60:.1f} min) · {len(items_tl)} câu · lời đầu {items_tl[0]['start']} s · lời cuối {end_voice:.1f} s\n",
+        f"Dự kiến Master: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN/xuat_ban/Tap01_EN_master.mp3` · {total:.1f} s (~{total/60:.1f} min) · {len(items_tl)} câu · lời đầu {items_tl[0]['start']} s · lời cuối {end_voice:.1f} s\n",
         "| Mốc | Câu | Vai | CER | MOS | Câu gốc | ASR nghe được | Ghi chú |",
         "|---|---|---|---:|---:|---|---|---|"
     ]
@@ -503,7 +503,7 @@ def main():
 
     print("\n[Final Measurements] Master Audio:", flush=True)
     if master_mp3.exists():
-        parent_mp3 = ROOT / "02_SAN_XUAT" / "Tap01_EN" / "Tap01_EN_master.mp3"
+        parent_mp3 = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap01_EN" / "Tap01_EN_master.mp3"
         if not parent_mp3.exists() and not parent_mp3.is_symlink():
             try:
                 shutil.copy2(master_mp3, parent_mp3)
@@ -538,7 +538,7 @@ def main():
 
     # Write Production Plan (KeHoach_Video_Tap01_EN.md)
     cers = [r["cer"] for r in cer_rows]
-    kehoach_p = ROOT / "02_SAN_XUAT" / "Tap01_EN" / "KeHoach_Video_Tap01_EN.md"
+    kehoach_p = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap01_EN" / "KeHoach_Video_Tap01_EN.md"
     kehoach_content = f"""# PRODUCTION DOSSIER EPISODE 01 · "POISON IN THE NAME OF A MOTHER’S LOVE"
 
 ## B1. Episode Information
@@ -553,7 +553,7 @@ def main():
 | TTS Engine | **Higgs Audio v3** (`bosonai/higgs-audio-v3-tts-4b`) on Apple Silicon MLX |
 | Reference Voice Dataset | **VoxCPM2 Voice Design English** (`dataset_voxcpm2_en`: H_EN, D_EN, C_EN, N1_EN, N2_EN) |
 | Audio Setup | Stereo 3-Layer: 5-Act BGM + Continuous Ambience + SFX Sound Effects |
-| Master Output | `02_SAN_XUAT/Tap01_EN/xuat_ban/Tap01_EN_master.mp3` & `02_SAN_XUAT/Tap01_EN/xuat_ban/Tap01_EN_master.wav` |
+| Master Output | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN/xuat_ban/Tap01_EN_master.mp3` & `02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN/xuat_ban/Tap01_EN_master.wav` |
 
 ---
 
@@ -582,21 +582,21 @@ def main():
 - **Median CER:** **{np.median(cers)*100:.2f}%** (Mean CER: **{np.mean(cers)*100:.2f}%**).
 - **Multi-take Optimization:** Automatically generated Variant 1 with new seeds for sentences with CER > 2% and selected optimal takes.
 - **Naturalness UTMOSv2 MOS:** Mean **{avg_mos:.2f} / 5.0** (Range: {np.min(valid_moss):.2f} – {np.max(valid_moss):.2f}). Passed threshold (>= 3.0 / 5.0).
-- **Audit Report:** [`02_SAN_XUAT/Tap01_EN/xuat_ban/CanNghe_Tap01_EN_higgs.md`](xuat_ban/CanNghe_Tap01_EN_higgs.md).
+- **Audit Report:** [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN/xuat_ban/CanNghe_Tap01_EN_higgs.md`](xuat_ban/CanNghe_Tap01_EN_higgs.md).
 
 ---
 
 ## B3. Deliverables Inventory
 
 1. **Master Audio:**
-   - MP3: [`02_SAN_XUAT/Tap01_EN/xuat_ban/Tap01_EN_master.mp3`](xuat_ban/Tap01_EN_master.mp3)
-   - WAV: [`02_SAN_XUAT/Tap01_EN/xuat_ban/Tap01_EN_master.wav`](xuat_ban/Tap01_EN_master.wav)
+   - MP3: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN/xuat_ban/Tap01_EN_master.mp3`](xuat_ban/Tap01_EN_master.mp3)
+   - WAV: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN/xuat_ban/Tap01_EN_master.wav`](xuat_ban/Tap01_EN_master.wav)
 2. **Timeline Data & Subtitles:**
    - Timeline: [`.work/timeline_s_EN.json`](../../.work/timeline_s_EN.json) ({total:.1f} s)
-   - Subtitles SRT: [`02_SAN_XUAT/Tap01_EN/xuat_ban/Tap01_EN.srt`](xuat_ban/Tap01_EN.srt) ({len(items_tl)} cues)
+   - Subtitles SRT: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN/xuat_ban/Tap01_EN.srt`](xuat_ban/Tap01_EN.srt) ({len(items_tl)} cues)
 3. **QC Monitoring:**
    - Quality Report: [`.work/quality_qc_utmos_ep01_en.json`](../../.work/quality_qc_utmos_ep01_en.json)
-   - Audit Sheet: [`02_SAN_XUAT/Tap01_EN/xuat_ban/CanNghe_Tap01_EN_higgs.md`](xuat_ban/CanNghe_Tap01_EN_higgs.md)
+   - Audit Sheet: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN/xuat_ban/CanNghe_Tap01_EN_higgs.md`](xuat_ban/CanNghe_Tap01_EN_higgs.md)
 """
     kehoach_p.write_text(kehoach_content, encoding="utf-8")
     print(f"Updated KeHoach report at {kehoach_p}", flush=True)

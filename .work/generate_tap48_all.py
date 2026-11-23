@@ -1156,14 +1156,14 @@ if __name__ == '__main__':
     en = get_english_script()
     ja = get_japanese_script()
     
-    with open('01_KICH_BAN/Tap48/kichban_tap48_19112026.md', 'w', encoding='utf-8') as f:
+    with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap48/kichban_tap48_19112026.md', 'w', encoding='utf-8') as f:
         f.write(vn.strip() + '\n')
     print('Wrote VN script')
     
-    with open('01_KICH_BAN/Tap48_EN/kichban_tap48_EN.md', 'w', encoding='utf-8') as f:
+    with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap48_EN/kichban_tap48_EN.md', 'w', encoding='utf-8') as f:
         f.write(en.strip() + '\n')
     print('Wrote EN script')
     
-    with open('01_KICH_BAN/Tap48_JA/kichban_tap48_JA.md', 'w', encoding='utf-8') as f:
+    with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap48_JA/kichban_tap48_JA.md', 'w', encoding='utf-8') as f:
         f.write(ja.strip() + '\n')
     print('Wrote JA script')

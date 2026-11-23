@@ -3,7 +3,7 @@
 import json, re, sys
 from pathlib import Path
 W = Path(__file__).parent; R = W.parent
-plan = (R/"02_SAN_XUAT/Tap21/KeHoach_Video_Tap21.md").read_text(encoding="utf-8")
+plan = (R/"02_SAN_XUAT/Ho_So_Toi_Pham/Tap21/KeHoach_Video_Tap21.md").read_text(encoding="utf-8")
 sec = plan[re.search(r"^## 6\. DANH SÁCH SHOT.*$", plan, re.M).end():]
 rows = []
 for l in sec.splitlines():

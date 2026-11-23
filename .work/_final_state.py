@@ -1,6 +1,6 @@
 ﻿import pathlib, re, hashlib, subprocess
 ROOT = pathlib.Path(r"D:\TEST\Gax\amber-eyes")
-OUT = ROOT / "02_SAN_XUAT" / "Tap03_EN" / "xuat_ban"
+OUT = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03_EN" / "xuat_ban"
 print("=== THAM PHAM ===")
 for n in ("Tap03_EN_master.mp4", "Tap03_EN_master.mp3", "Tap03_EN.srt", "mo_ta.txt", "description.txt", "thumbnail.png", "nguon_tham_khao_EN.md"):
     p = OUT / n
@@ -11,7 +11,7 @@ blk = t[i:].split("\n\n",1)[0]
 print(f"  mo_ta.txt: {len(t)} ky tu · {len(re.findall(r'https?://', blk))} link nguon · [PENDING? {'[PENDING' in t}]")
 print("=== GOC THEO TAP ===")
 for n in ("KeHoach_Video_Tap03_EN.md", "CHU_CO_DINH_EN.md", "BaoCao_QC_Tap03_EN_20261103.md", "nguon_tham_khao_EN.md"):
-    p = ROOT / "02_SAN_XUAT" / "Tap03_EN" / n
+    p = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03_EN" / n
     print(f"  {n:36} {'OK ' if p.exists() else 'THIEU'} {p.stat().st_size if p.exists() else 0:>8,} byte")
 print("=== WORK ===")
 for n in ("picture.mp4",):

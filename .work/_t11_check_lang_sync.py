@@ -3,9 +3,9 @@
 import re
 
 FILES = {
-    "VI": r"D:/TEST/Gax/amber-eyes/02_SAN_XUAT/Tap11/KeHoach_Video_Tap11.md",
-    "EN": r"D:/TEST/Gax/amber-eyes/02_SAN_XUAT/Tap11_EN/KeHoach_Video_Tap11_EN.md",
-    "JA": r"D:/TEST/Gax/amber-eyes/02_SAN_XUAT/Tap11_JA/KeHoach_Video_Tap11_JA.md",
+    "VI": r"D:/TEST/Gax/amber-eyes/02_SAN_XUAT/Ho_So_Toi_Pham/Tap11/KeHoach_Video_Tap11.md",
+    "EN": r"D:/TEST/Gax/amber-eyes/02_SAN_XUAT/Ho_So_Toi_Pham/Tap11_EN/KeHoach_Video_Tap11_EN.md",
+    "JA": r"D:/TEST/Gax/amber-eyes/02_SAN_XUAT/Ho_So_Toi_Pham/Tap11_JA/KeHoach_Video_Tap11_JA.md",
 }
 PAT = re.compile(r"`(t\d+_[a-z0-9_]+)`")
 ROW = re.compile(r"^\|\s*([1-5]-\d+)\s*\|(.*)$")

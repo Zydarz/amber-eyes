@@ -16,7 +16,7 @@ for el in script_data:
             sents_map[s["id"]] = (role, s["text"])
 
 # Read Danh_Sach_Anh_Tap07.md
-with open("02_SAN_XUAT/Tap07/Danh_Sach_Anh_Tap07.md", "r", encoding="utf-8") as f:
+with open("02_SAN_XUAT/Ho_So_Toi_Pham/Tap07/Danh_Sach_Anh_Tap07.md", "r", encoding="utf-8") as f:
     lines = f.readlines()
 
 shots_info = []
@@ -133,6 +133,6 @@ for stt, bg_name, content, cue_range in shots_info:
 
 out.append('\n**Tổng: 62 shot** (1 shot mở đầu 1-00 + 61 shot theo câu thoại). Phủ kín 164 câu thoại trọn vẹn.\n')
 
-plan_file = Path("02_SAN_XUAT/Tap07/KeHoach_Video_Tap07.md")
+plan_file = Path("02_SAN_XUAT/Ho_So_Toi_Pham/Tap07/KeHoach_Video_Tap07.md")
 plan_file.write_text("\n".join(out), encoding="utf-8")
 print(f"Updated {plan_file} successfully! Total lines: {len(out)}")

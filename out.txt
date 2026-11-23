@@ -6,7 +6,7 @@
 
 | **V9** | **Trọng tâm là phân tích tâm lý.** Không mô tả chi tiết bạo lực, thương tích, thi thể, cách gây hại — cả lời lẫn hình | Định hướng kênh; giảm rủi ro quảng cáo hạn chế |
 
-- [ ] `01_KICH_BAN/TapXX/kichban_tapXX.md` đúng định dạng A2, **đã giảm bạo lực theo V9** (xem Phụ lục B trong `02_SAN_XUAT/Tap01/KeHoach_Video_Tap01.md` làm mẫu)
+- [ ] `01_KICH_BAN/Ho_So_Toi_Pham/TapXX/kichban_tapXX.md` đúng định dạng A2, **đã giảm bạo lực theo V9** (xem Phụ lục B trong `02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/KeHoach_Video_Tap01.md` làm mẫu)
 
 | **5. Nền mới (nếu cần)** | `py -3 .work/gen_images.py .work/bg_jobs_tapXX.json` | `assets/bg/*.png` | ~1 phút / ảnh |
 
@@ -54,4 +54,4 @@
 
 | 9 | Tách nền bằng khoá độ sáng làm quần áo tối trong suốt | BiRefNet + lấp lỗ **chỉ khi lỗ có màu** (lỗ đen tuyền là nền) |
 
-**Âm thanh từ Tập 02:** diễn xuất từng câu cho cả bản VN (`acting_tapXX.json`, có `_pause_after`) và bảng âm thanh stereo (`sfx_tapXX.json`: nền môi trường + tiếng động + tắt nhạc ở câu hé lộ) — xem `02_SAN_XUAT/Tap02/AmThanh_Tap02.md`.
+**Âm thanh từ Tập 02:** diễn xuất từng câu cho cả bản VN (`acting_tapXX.json`, có `_pause_after`) và bảng âm thanh stereo (`sfx_tapXX.json`: nền môi trường + tiếng động + tắt nhạc ở câu hé lộ) — xem `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/AmThanh_Tap02.md`.

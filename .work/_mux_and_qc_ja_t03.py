@@ -24,7 +24,7 @@ os.environ["PYTHONIOENCODING"] = "utf-8"
 
 FF = W / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 PIC = W / "video3_JA_t03" / "picture.mp4"
-MP4 = ROOT / "02_SAN_XUAT" / "Tap03_JA" / "xuat_ban" / "Tap03_JA_master.mp4"
+MP4 = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03_JA" / "xuat_ban" / "Tap03_JA_master.mp4"
 
 
 def hdr(t):

@@ -15,17 +15,17 @@ FF = W / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffprob
 FILES = {
     "vi": {
         "script": W / "script_tap09.json",
-        "mp3": ROOT / "02_SAN_XUAT" / "Tap09" / "xuat_ban" / "Tap09_master.mp3",
+        "mp3": ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09" / "xuat_ban" / "Tap09_master.mp3",
         "out": W / "_t09" / "_t09_est_vi.json",
     },
     "en": {
         "script": W / "script_tap09_EN.json",
-        "mp3": ROOT / "02_SAN_XUAT" / "Tap09_EN" / "xuat_ban" / "Tap09_EN_master.mp3",
+        "mp3": ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_EN" / "xuat_ban" / "Tap09_EN_master.mp3",
         "out": W / "_t09" / "_t09_est_en.json",
     },
     "ja": {
         "script": W / "script_tap09_JA.json",
-        "mp3": ROOT / "02_SAN_XUAT" / "Tap09_JA" / "xuat_ban" / "Tap09_JA_master.mp3",
+        "mp3": ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_JA" / "xuat_ban" / "Tap09_JA_master.mp3",
         "out": W / "_t09" / "_t09_est_ja.json",
     },
 }

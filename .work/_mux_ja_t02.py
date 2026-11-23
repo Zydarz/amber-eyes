@@ -23,7 +23,7 @@ print("--- 12 dong cuoi ---")
 for line in LOG.read_text(encoding="utf-8", errors="replace").splitlines()[-12:]:
     print("   ", line[:150])
 
-mp4 = ROOT / "02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA_master.mp4"
+mp4 = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/Tap02_JA_master.mp4"
 if mp4.exists():
     p = subprocess.run([str(FF), "-i", str(mp4)], capture_output=True, text=True,
                        encoding="utf-8", errors="replace")

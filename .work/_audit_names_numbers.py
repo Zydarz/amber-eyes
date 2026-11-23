@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / ".work"))
 import parse_kichban as PK
 
-p_vn = PK.parse_file(str(ROOT / "01_KICH_BAN/Tap09/kichban_tap09_23102026.md"))
+p_vn = PK.parse_file(str(ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_23102026.md"))
 loi_vn = [e for e in p_vn if e["kind"] == "LOI"]
 
 print(f"Loaded {len(loi_vn)} turns.")

@@ -16,7 +16,7 @@ from PIL import Image, ImageDraw, ImageFont
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 STILLS = ROOT / ".work" / "video3_JA_t02" / "stills"
-OUT = ROOT / "02_SAN_XUAT" / "Tap02_JA"
+OUT = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02_JA"
 SHOTS = json.loads((ROOT / ".work" / "shots_JA_t02.json").read_text(encoding="utf-8-sig"))["shots"]
 ROLE = {"H": "HOST", "D": "SOR", "C": "PSY", "N1": "N1", "N2": "N2"}
 

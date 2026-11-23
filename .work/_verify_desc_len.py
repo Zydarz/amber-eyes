@@ -5,10 +5,10 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8")
 
 langs = {
-    "VN": ("02_SAN_XUAT/Tap01/mo_ta.txt", "02_SAN_XUAT/Tap01/xuat_ban/mo_ta.txt"),
-    "EN": ("02_SAN_XUAT/Tap01_EN/mo_ta.txt", "02_SAN_XUAT/Tap01_EN/xuat_ban/mo_ta.txt"),
-    "JA": ("02_SAN_XUAT/Tap01_JA/mo_ta.txt", "02_SAN_XUAT/Tap01_JA/xuat_ban/mo_ta.txt"),
-    "KO": ("02_SAN_XUAT/Tap01_KO/mo_ta.txt", "02_SAN_XUAT/Tap01_KO/xuat_ban/mo_ta.txt"),
+    "VN": ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/mo_ta.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/mo_ta.txt"),
+    "EN": ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN/mo_ta.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN/xuat_ban/mo_ta.txt"),
+    "JA": ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_JA/mo_ta.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_JA/xuat_ban/mo_ta.txt"),
+    "KO": ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_KO/mo_ta.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_KO/xuat_ban/mo_ta.txt"),
 }
 
 print(f"{'Ngôn ngữ':<8} | {'Đường dẫn':<45} | {'Ký tự':<8} | {'Trạng thái (<=5000)':<20}")

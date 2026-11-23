@@ -49,7 +49,7 @@ if r_pkg.returncode != 0:
 log(f"ĐÃ HOÀN TẤT ĐÓNG GÓI! Kết quả:\n{r_pkg.stdout.strip()}")
 
 # 3. Kiểm định chất lượng thành phẩm
-master_mp4 = ROOT / "02_SAN_XUAT" / "Tap06" / "xuat_ban" / "Tap06_master.mp4"
+master_mp4 = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06" / "xuat_ban" / "Tap06_master.mp4"
 if not master_mp4.exists():
     log(f"LỖI: Không tìm thấy file {master_mp4}")
     sys.exit(1)

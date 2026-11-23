@@ -396,7 +396,7 @@ Xin chào và hẹn gặp lại quý vị trong các hồ sơ tâm lý tiếp th
 **[BGM]:** Nhạc nền ngân vang ấm áp, trang trọng rồi mờ dần (Fade out hoàn toàn ở giây thứ 5).
 """
 
-target_path = '01_KICH_BAN/Tap12/kichban_tap12_23102026.md'
+target_path = '01_KICH_BAN/Ho_So_Toi_Pham/Tap12/kichban_tap12_23102026.md'
 with open(target_path, 'w', encoding='utf-8') as f:
     f.write(NEW_SCRIPT.strip() + '\n')
 print(f"Successfully updated {target_path}")

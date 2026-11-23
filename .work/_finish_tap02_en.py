@@ -41,7 +41,7 @@ run("tts_sentences.py", label="TTS 215 câu EN (chỉ đọc câu thiếu)")
 
 # 1b. G10 là CHỐT: báo cáo phải là ĐẠT mới được dựng tiếp
 run("voice_role_check.py", label="G10 — đồng nhất giọng theo vai")
-rep = (ROOT / "02_SAN_XUAT" / "Tap02_EN" / "thu_giong_kiem_vai" / "report.md").read_text(encoding="utf-8")
+rep = (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02_EN" / "thu_giong_kiem_vai" / "report.md").read_text(encoding="utf-8")
 if "KẾT LUẬN: ĐẠT" not in rep:
     print("\n!!! G10 KHÔNG ĐẠT — DỪNG, không dựng hình. Xem report.md:", flush=True)
     for line in rep.splitlines():
@@ -64,4 +64,4 @@ run("package.py", ["--mux"], label="Đóng gói (mux + thumbnail + mô tả)")
 
 # 5. QC cuối
 run("_qc_tap02_final.py", label="QC A9.1 / A9.3 / A9.4")
-print("\nHOÀN TẤT — xem 02_SAN_XUAT/Tap02_EN/xuat_ban/")
+print("\nHOÀN TẤT — xem 02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/xuat_ban/")

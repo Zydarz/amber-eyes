@@ -9,9 +9,9 @@ Quy tắc:
 import re, json, sys, collections
 
 PLAN = {
-    "vi": "02_SAN_XUAT/Tap11/KeHoach_Video_Tap11.md",
-    "en": "02_SAN_XUAT/Tap11_EN/KeHoach_Video_Tap11_EN.md",
-    "ja": "02_SAN_XUAT/Tap11_JA/KeHoach_Video_Tap11_JA.md",
+    "vi": "02_SAN_XUAT/Ho_So_Toi_Pham/Tap11/KeHoach_Video_Tap11.md",
+    "en": "02_SAN_XUAT/Ho_So_Toi_Pham/Tap11_EN/KeHoach_Video_Tap11_EN.md",
+    "ja": "02_SAN_XUAT/Ho_So_Toi_Pham/Tap11_JA/KeHoach_Video_Tap11_JA.md",
 }
 
 ROW = re.compile(r"^\|\s*([0-9]+-[0-9]+)\s*\|\s*`([^`]+)`\s*\(([\d,]+)\s*s\)\s*\|\s*([^|]*?)\s*\|\s*([^|]*?)\s*\|\s*`([^`]+)`\s*,\s*`([^`]+)`\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|")

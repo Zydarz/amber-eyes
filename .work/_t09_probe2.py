@@ -11,7 +11,7 @@ def probe(mp):
         return "ERR "+str(e)
 
 print("=== MASTER AUDIO for Tap09 ===")
-for d in ["02_SAN_XUAT/Tap09","02_SAN_XUAT/Tap09_EN","02_SAN_XUAT/Tap09_JA"]:
+for d in ["02_SAN_XUAT/Ho_So_Toi_Pham/Tap09","02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_EN","02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_JA"]:
     p = os.path.join(ROOT,d)
     if not os.path.isdir(p):
         print(d, "MISSING DIR"); continue

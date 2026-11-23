@@ -1,6 +1,6 @@
 # DANH SÁCH SFX CẦN TẠO — TẬP 03 → TẬP 29
 
-**AMBER EYES** · rút từ toàn bộ cue `[SFX]:` / `[BGM]:` / `[Nghỉ …]` trong `01_KICH_BAN/Tap03/ … Tap29/` · ngày 23/10/2026
+**AMBER EYES** · rút từ toàn bộ cue `[SFX]:` / `[BGM]:` / `[Nghỉ …]` trong `01_KICH_BAN/Ho_So_Toi_Pham/Tap03/ … Tap29/` · ngày 23/10/2026
 
 ---
 
@@ -73,7 +73,7 @@
 
 ### Tập 03 — Gã Khổng Lồ IQ 145 & Chiếc Gương Giải Phẫu Tâm Trí — Hồ Sơ Edmund Kemper
 
-`01_KICH_BAN/Tap03/kichban_tap03_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap03/kichban_tap03_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -100,7 +100,7 @@ H1 gió rít + tiếng dây điện thoại 1970 → `t2/amb_winter_wind` · H2 
 
 ### Tập 04 — Thiên Thần Tử Thần & Phức Cảm Chúa Trời — Bí Mật Sau 16 Năm Lặng Câm Của 9 Bệnh Viện
 
-`01_KICH_BAN/Tap04/kichban_tap04_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap04/kichban_tap04_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -134,7 +134,7 @@ H1 máy thở cơ học + monitor → `amb_hospital_ventilator` (MỚI) · H2 pi
 
 ### Tập 05 — Chiếc Đĩa Mềm Màu Tím & Cơn Nghiện Ái Kỷ — Sự Sụp Đổ Của Vỏ Bọc 30 Năm
 
-`01_KICH_BAN/Tap05/kichban_tap05_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap05/kichban_tap05_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -169,7 +169,7 @@ H1 máy đánh chữ cơ + gió đông → `typewriter` + `t2/amb_winter_wind` �
 
 ### Tập 06 — Nụ Cười Chú Hề & 29 Bí Mật Dưới Sàn Nhà — Hồ Sơ John Wayne Gacy
 
-`01_KICH_BAN/Tap06/kichban_tap06_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap06/kichban_tap06_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -196,7 +196,7 @@ H1 dương cầm → `bgm_piano_minimal` · H2 dark ambient dồn dập → `bgm
 
 ### Tập 07 — Bản Án Giết Người Bằng Tin Nhắn — Hồ Sơ Michelle Carter & Conrad Roy
 
-`01_KICH_BAN/Tap07/kichban_tap07_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap07/kichban_tap07_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -224,7 +224,7 @@ H1 piano tối giản + synth → `bgm_piano_minimal_v2` · H2 pulse số → `b
 
 ### Tập 08 — Khi Các Thiên Tài Bị Tẩy Não — Hồ Sơ Aum Shinrikyo & Vụ Tấn Công Tàu Điện Ngầm
 
-`01_KICH_BAN/Tap08/kichban_tap08_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap08/kichban_tap08_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -251,7 +251,7 @@ H1 dương cầm + heartbeat → `bgm_piano_minimal` + `fx_heartbeat_slow` · H2
 
 ### Tập 09 — Nghệ Thuật Xóa Bỏ Bản Ngã — Hồ Sơ Charles Manson & Thảm Kịch Gia Đình Manson
 
-`01_KICH_BAN/Tap09/kichban_tap09_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -280,7 +280,7 @@ H1 guitar acoustic 60s → *cần tải* (chưa có trong `assets/bgm/`) · H2 d
 
 ### Tập 10 — Chiếc Hộp Gỗ Dưới Gầm Giường — Sự Bất Lực Tập Nhiễm & Bóng Ma 'The Company' (Colleen Stan)
 
-`01_KICH_BAN/Tap10/kichban_tap10_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap10/kichban_tap10_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -308,7 +308,7 @@ H1 cello u buồn → `bgm_cello_sad` · H2 dark ambient + đồng hồ → `bgm
 
 ### Tập 11 — Cặp Đôi Ken & Barbie — Hội Chứng Điên Cuồng Đôi (Paul Bernardo & Karla Homolka)
 
-`01_KICH_BAN/Tap11/kichban_tap11_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap11/kichban_tap11_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -334,7 +334,7 @@ H1 cello + gió → `bgm_cello_sad` + `t2/amb_winter_wind` · H2 dark ambient + 
 
 ### Tập 12 — Thảm Kịch Jonestown — Khi 918 Con Người Cùng Bước Vào Chỗ Chết
 
-`01_KICH_BAN/Tap12/kichban_tap12_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap12/kichban_tap12_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -368,7 +368,7 @@ H1 cello + côn trùng nhiệt đới → `bgm_cello_sad` + `t3/amb_crickets_tra
 
 ### Tập 13 — Vỏ Bọc 'Con Nhà Người Ta' & Lời Nói Dối 10 Năm — Hồ Sơ Jennifer Pan
 
-`01_KICH_BAN/Tap13/kichban_tap13_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap13/kichban_tap13_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -403,7 +403,7 @@ H1 cello + đồng hồ treo tường → `bgm_cello_sad` + `clock_tick` · H2 d
 
 ### Tập 14 — Khi Nạn Nhân Gaslighting Bước Qua Ranh Giới Tội Ác — Hồ Sơ Betty Broderick
 
-`01_KICH_BAN/Tap14/kichban_tap14_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap14/kichban_tap14_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -438,7 +438,7 @@ H1 cello + sóng biển → `bgm_cello_sad` + `amb_ocean_waves_soft` (MỚI) · 
 
 ### Tập 15 — Cơn Cuồng Ghen Rối Loạn Nhân Cách Ranh Giới — Hồ Sơ Jodi Arias
 
-`01_KICH_BAN/Tap15/kichban_tap15_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap15/kichban_tap15_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -474,7 +474,7 @@ H1 dark ambient + nước nhỏ giọt → `bgm_ambient_deep` + `t3/amb_pipe_dra
 
 ### Tập 16 — Kẻ Sát Hại Cả Gia Đình Để 'Đưa Họ Lên Thiên Đàng' — Hồ Sơ John List
 
-`01_KICH_BAN/Tap16/kichban_tap16_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap16/kichban_tap16_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -509,7 +509,7 @@ H1 organ nhà thờ → *cần tải* (chưa có organ trong `assets/bgm/`) + `t
 
 ### Tập 17 — 13 Đứa Trẻ Trong Ngục Tù Ngoại Ô — Hồ Sơ Gia Đình Turpin
 
-`01_KICH_BAN/Tap17/kichban_tap17_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap17/kichban_tap17_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -544,7 +544,7 @@ H1 dark ambient + gió → `bgm_ambient_deep` + `t2/amb_winter_wind` · H2 dark 
 
 ### Tập 18 — Lời Tiên Tri Ngày Tận Thế & Ảo Tưởng Ma Quỷ — Hồ Sơ Lori Vallow & Chad Daybell
 
-`01_KICH_BAN/Tap18/kichban_tap18_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap18/kichban_tap18_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -580,7 +580,7 @@ H1 dark ambient + gió biển + chuông gió → `bgm_ambient_deep` + `amb_ocean
 
 ### Tập 19 — Hồ Sơ Nicholas Cruz — Màn Kịch 'Con Quỷ Trong Đầu' & Sự Thật Trước Máy Quay
 
-`01_KICH_BAN/Tap19/kichban_tap19_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap19/kichban_tap19_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -616,7 +616,7 @@ H1 drone + đồng hồ → `bgm_sub_drone` + `clock_tick` · H2 dark ambient �
 
 ### Tập 20 — Hồ Sơ Stephen McDaniel — Khoảnh Khắc Sụp Đổ Trước Ống Kính
 
-`01_KICH_BAN/Tap20/kichban_tap20_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap20/kichban_tap20_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -653,7 +653,7 @@ H1 dark ambient + nhịp tim + đồng hồ → `bgm_ambient_deep` + `fx_heartbe
 
 ### Tập 21 — Hồ Sơ Andrea Yates — Bi Kịch Của Cơn Loạn Thần Sau Sinh
 
-`01_KICH_BAN/Tap21/kichban_tap21_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap21/kichban_tap21_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -689,7 +689,7 @@ H1 cello + nhịp tim + mưa → `bgm_cello_sad` + `fx_heartbeat_slow` + `t3/amb
 
 ### Tập 22 — Hồ Sơ Dalia Dippolito — Nước Mắt Cá Sấu Của Kẻ Thuê Sát Thủ Giết Chồng
 
-`01_KICH_BAN/Tap22/kichban_tap22_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap22/kichban_tap22_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -724,7 +724,7 @@ H1 dark ambient + còi xe → `bgm_ambient_deep` + `police_siren_distant` · H2 
 
 ### Tập 23 — Hồ Sơ Richard Ramirez — Ám Ảnh 'Night Stalker' & Hội Chứng Say Mê Tội Phạm
 
-`01_KICH_BAN/Tap23/kichban_tap23_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap23/kichban_tap23_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -760,7 +760,7 @@ H1 dark ambient + đồng hồ → `bgm_ambient_deep` + `clock_tick` · H2 heavy
 
 ### Tập 24 — Hồ Sơ Lee Choon-jae — Ký Ức Kẻ Sát Nhân Hwaseong & 33 Năm Dưới Sương Mù
 
-`01_KICH_BAN/Tap24/kichban_tap24_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap24/kichban_tap24_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -797,7 +797,7 @@ H1 cello + gió + mưa → `bgm_cello_sad` + `t3/amb_rain_storm` · H2 minimal a
 
 ### Tập 25 — Hồ Sơ Yoo Young-chul — Sát Nhân Áo Mưa & Cơn Cuồng Nộ Thù Hận Xã Hội
 
-`01_KICH_BAN/Tap25/kichban_tap25_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap25/kichban_tap25_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -835,7 +835,7 @@ H1 cello + gió + mưa → `bgm_cello_sad` + `t3/amb_rain_storm` · H2 heavy bas
 
 ### Tập 26 — Hồ Sơ Miyuki Ishikawa — Nữ Hộ Sinh Kotobuki & Tội Ác Dưới Lớp Vỏ Bọc Từ Thiện
 
-`01_KICH_BAN/Tap26/kichban_tap26_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap26/kichban_tap26_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -873,7 +873,7 @@ H1 cello + gió + tuyết → `bgm_cello_sad` + `t2/amb_winter_wind` · H2 deep 
 
 ### Tập 27 — Hồ Sơ Nguyễn Hải Dương — Tổn Thương Ái Kỷ & Thao Túng Đồng Phạm
 
-`01_KICH_BAN/Tap27/kichban_tap27_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap27/kichban_tap27_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -911,7 +911,7 @@ H1 cello + gió + mưa → `bgm_cello_sad` + `t3/amb_rain_storm` · H2 heavy bas
 
 ### Tập 28 — Hồ Sơ Lê Văn Luyện — Cơn Cuồng Loạn Trong Đêm Mưa Bão & Bi Kịch Vị Thành Niên
 
-`01_KICH_BAN/Tap28/kichban_tap28_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap28/kichban_tap28_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -950,7 +950,7 @@ H1 cello + sấm + bão → `bgm_cello_sad` + `t3/amb_rain_storm` · H2 heavy ba
 
 ### Tập 29 — Hồ Sơ Jeffrey Dahmer — Sát Nhân Từ Nỗi Sợ Bị Bỏ Rơi Bệnh Lý
 
-`01_KICH_BAN/Tap29/kichban_tap29_*.md`
+`01_KICH_BAN/Ho_So_Toi_Pham/Tap29/kichban_tap29_*.md`
 
 **Nhạc nền / dải nền theo hồi:**
 
@@ -1359,7 +1359,7 @@ Cột **Ghi chú** đánh dấu các mã dùng **track thay thế** (thư viện
 
 ### 5.0. Bản tiếng Anh dùng CHUNG bảng SFX này
 
-Có **27 kịch bản tiếng Anh** (`01_KICH_BAN/Tap03_EN/ … Tap29_EN/`) và số cue SFX/BGM **khớp 100%** với bản tiếng Việt ở cả 27 tập (kiểm bằng script `.work/_audit_sfx.py`, mục A).
+Có **27 kịch bản tiếng Anh** (`01_KICH_BAN/Ho_So_Toi_Pham/Tap03_EN/ … Tap29_EN/`) và số cue SFX/BGM **khớp 100%** với bản tiếng Việt ở cả 27 tập (kiểm bằng script `.work/_audit_sfx.py`, mục A).
 
 ⇒ **Một bảng SFX, dùng cho cả bản VN lẫn bản EN** — không phải làm hai lần. Các cue trong bản EN là bản dịch 1–1 của cue tiếng Việt, nên file âm thanh và mức dB giữ nguyên.
 
@@ -1474,6 +1474,6 @@ py -3 .work/_sfx_analysis.py
 py -3 .work/_gen_sfx_doc.py
 ```
 
-**Nguồn:** 27 file kịch bản trong `01_KICH_BAN/Tap03/ … Tap29/` · thư viện hiện có: `assets/sfx/` (36 file gốc) + `t2/` + `t3/` · `assets/bgm/` (**11** track: 9 cũ + `bgm_guitar_acoustic_60s` + `bgm_church_organ`).
+**Nguồn:** 27 file kịch bản trong `01_KICH_BAN/Ho_So_Toi_Pham/Tap03/ … Tap29/` · thư viện hiện có: `assets/sfx/` (36 file gốc) + `t2/` + `t3/` · `assets/bgm/` (**11** track: 9 cũ + `bgm_guitar_acoustic_60s` + `bgm_church_organ`).
 
 **Đã tạo 24/10/2026:** 169/169 file SFX mới từ YouTube Studio → Thư viện âm thanh (mục 4.2) · 169/169 file trong `assets/sfx/` đúng cột “Đặt tại” · QC 179/179 đạt (định dạng, thời lượng ≥ 0,5 s, đỉnh ≤ −0,5 dBFS) · không còn 2 file trùng MD5 nào ngoài cặp `fx_lav_mic_breathing` ↔ `fx_breathing_tense_close` (dùng chung có chủ ý) · sổ nguồn: `provenance.json` (2 097 mục).

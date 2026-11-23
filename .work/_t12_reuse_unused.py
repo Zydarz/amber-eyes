@@ -27,7 +27,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-PLAN = ROOT / "02_SAN_XUAT/Tap12/KeHoach_Video_Tap12.md"
+PLAN = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap12/KeHoach_Video_Tap12.md"
 BACKUP = ROOT / ".work/_cu/t12_reuse_20261116"
 
 # (mã câu, mã nền MỚI cho câu đó)

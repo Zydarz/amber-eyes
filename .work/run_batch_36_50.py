@@ -45,7 +45,7 @@ for ep_str, data in META.items():
     loc = data["loc"]
     kw = data["keywords"]
     
-    script_file = Path(f"01_KICH_BAN/Tap{ep}/kichban_tap{ep}_19112026.md")
+    script_file = Path(f"01_KICH_BAN/Ho_So_Toi_Pham/Tap{ep}/kichban_tap{ep}_19112026.md")
     raw_text = script_file.read_text(encoding="utf-8")
     acts = re.split(r"## HỒI \d.*", raw_text)[1:]
     

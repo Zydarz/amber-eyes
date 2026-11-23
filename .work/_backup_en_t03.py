@@ -20,8 +20,8 @@ BK = W / "_cu" / "en_t03_fix_20261103"
 FILES = {
     "shots_EN_t03.json": W / "shots_EN_t03.json",
     "shots_text_tap03_EN.json": W / "shots_text_tap03_EN.json",
-    "KeHoach_Video_Tap03_EN.md": ROOT / "02_SAN_XUAT" / "Tap03_EN" / "KeHoach_Video_Tap03_EN.md",
-    "Tap03_EN.srt": ROOT / "02_SAN_XUAT" / "Tap03_EN" / "xuat_ban" / "Tap03_EN.srt",
+    "KeHoach_Video_Tap03_EN.md": ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03_EN" / "KeHoach_Video_Tap03_EN.md",
+    "Tap03_EN.srt": ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03_EN" / "xuat_ban" / "Tap03_EN.srt",
 }
 
 BK.mkdir(parents=True, exist_ok=True)

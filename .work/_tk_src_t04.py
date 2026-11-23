@@ -7,7 +7,7 @@ Thu tu theo clip TK1 -> TK5 de QC de doi ten (shot nao dung nen nao).
 LUU Y: 5 nen trong KE_HOACH_CLIP_TAP04.md vi ten KHONG ton tai o assets/bg/_raw/
 (t4_closing_desk, t4_diner_exterior, t4_diner_booth, t4_wire_closeup,
 t4_courtroom_bench). Da khop sang anh goc THAT cua Tap 04 theo
-02_SAN_XUAT/Tap04/Danh_Sach_Anh_Tap04.md (bang mo ta noi dung tung anh).
+02_SAN_XUAT/Ho_So_Toi_Pham/Tap04/Danh_Sach_Anh_Tap04.md (bang mo ta noi dung tung anh).
 """
 import os
 

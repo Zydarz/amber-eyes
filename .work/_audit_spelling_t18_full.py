@@ -6,10 +6,10 @@ sys.path.insert(0, '.work')
 import parse_kichban as PK
 
 files_t18 = {
-    'VN': '01_KICH_BAN/Tap18/kichban_tap18_23102026.md',
-    'EN': '01_KICH_BAN/Tap18_EN/kichban_tap18_EN.md',
-    'JA': '01_KICH_BAN/Tap18_JA/kichban_tap18_JA.md',
-    'KO': '01_KICH_BAN/Tap18_KO/kichban_tap18_KO.md',
+    'VN': '01_KICH_BAN/Ho_So_Toi_Pham/Tap18/kichban_tap18_23102026.md',
+    'EN': '01_KICH_BAN/Ho_So_Toi_Pham/Tap18_EN/kichban_tap18_EN.md',
+    'JA': '01_KICH_BAN/Ho_So_Toi_Pham/Tap18_JA/kichban_tap18_JA.md',
+    'KO': '01_KICH_BAN/Ho_So_Toi_Pham/Tap18_KO/kichban_tap18_KO.md',
 }
 
 print("=== 1. KIỂM TRA PARITY VÀ PARSE CẤU TRÚC TẬP 18 ===")

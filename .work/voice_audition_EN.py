@@ -7,7 +7,7 @@ Each candidate reads the character's own line from the v2 script. Then:
   * listen_audio transcribes it  -> character error rate vs. the script (CER)
   * words / second
   * median F0 (autocorrelation)
-Output: 02_SAN_XUAT/Tap01_EN/thu_giong/report.md + so_sanh_giong_EN.mp3
+Output: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN/thu_giong/report.md + so_sanh_giong_EN.mp3
 """
 import json
 import re
@@ -19,7 +19,7 @@ from pathlib import Path
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "02_SAN_XUAT" / "Tap01_EN" / "thu_giong"
+OUT = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap01_EN" / "thu_giong"
 FF = ROOT / ".work" / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 SCRIPT = json.loads((ROOT / ".work" / "script_EN.json").read_text(encoding="utf-8"))
 SENT = {s["id"]: s["text"] for e in SCRIPT if e["kind"] == "LOI" for s in e["sentences"]}

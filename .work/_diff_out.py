@@ -1,6 +1,6 @@
 ﻿import pathlib, hashlib
 BK = pathlib.Path(r"D:\TEST\Gax\amber-eyes\.work\_cu\en_t03_fix_20261103")
-OUT = pathlib.Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Tap03_EN\xuat_ban")
+OUT = pathlib.Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Ho_So_Toi_Pham\Tap03_EN\xuat_ban")
 for name, bak in (("mo_ta.txt", "mo_ta.txt.bak"), ("description.txt", "description.txt.bak"), ("thumbnail.png", "thumbnail.png.bak")):
     a = (BK / bak)
     b = (OUT / name)

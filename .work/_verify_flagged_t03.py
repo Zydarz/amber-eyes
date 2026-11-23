@@ -20,7 +20,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path("D:/TEST/Gax/amber-eyes")
 WORK = ROOT / ".work"
 FF = WORK / "ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffmpeg.exe"
-MP3 = ROOT / "02_SAN_XUAT/Tap03/xuat_ban/Tap03_master.mp3"
+MP3 = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/xuat_ban/Tap03_master.mp3"
 WAV16 = WORK / "speech_full_vi_t03_16k.wav"
 
 tl = json.loads((WORK / "timeline_s_t03.json").read_text(encoding="utf-8"))

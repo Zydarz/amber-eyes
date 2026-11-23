@@ -1,6 +1,6 @@
 # CRIMINAL PSYCHOLOGY AUDIO / PODCAST SCRIPT — ENGLISH EDITION
 **Topic:** Moral decay during post-war crisis, exploitation of desperation, benevolent facade, and rationalized dehumanization — the case of Miyuki Ishikawa and the Kotobuki Maternity Hospital scandal.
-**Translated from:** `01_KICH_BAN/Tap26/kichban_tap26_23102026.md`. One English sentence for every Vietnamese sentence, same structure, same IDs.
+**Translated from:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap26/kichban_tap26_23102026.md`. One English sentence for every Vietnamese sentence, same structure, same IDs.
 **Fact and legal review:** Based on public trial reporting, official police interrogation transcripts, and verified public records; analysis of real people is framed as opinion.
 
 ---

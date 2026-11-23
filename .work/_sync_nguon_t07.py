@@ -73,12 +73,12 @@ for url, _, _, t_ko in SOURCES_LIST:
 ko_content = "\n".join(ko_lines) + "\n"
 
 targets = [
-    (ROOT / "02_SAN_XUAT" / "Tap07_EN" / "nguon_tham_khao_EN.md", en_content),
-    (ROOT / "02_SAN_XUAT" / "Tap07_EN" / "xuat_ban" / "nguon_tham_khao_EN.md", en_content),
-    (ROOT / "02_SAN_XUAT" / "Tap07_JA" / "nguon_tham_khao_JA.md", ja_content),
-    (ROOT / "02_SAN_XUAT" / "Tap07_JA" / "xuat_ban" / "nguon_tham_khao_JA.md", ja_content),
-    (ROOT / "02_SAN_XUAT" / "Tap07_KO" / "nguon_tham_khao_KO.md", ko_content),
-    (ROOT / "02_SAN_XUAT" / "Tap07_KO" / "xuat_ban" / "nguon_tham_khao_KO.md", ko_content),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_EN" / "nguon_tham_khao_EN.md", en_content),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_EN" / "xuat_ban" / "nguon_tham_khao_EN.md", en_content),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_JA" / "nguon_tham_khao_JA.md", ja_content),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_JA" / "xuat_ban" / "nguon_tham_khao_JA.md", ja_content),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_KO" / "nguon_tham_khao_KO.md", ko_content),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07_KO" / "xuat_ban" / "nguon_tham_khao_KO.md", ko_content),
 ]
 
 for p, c in targets:

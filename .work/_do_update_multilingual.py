@@ -78,7 +78,7 @@ def update_file(path, updates, role_pattern, act_pattern):
 
 # Run update on EN
 update_file(
-    '01_KICH_BAN/Tap10_EN/kichban_tap10_EN.md',
+    '01_KICH_BAN/Ho_So_Toi_Pham/Tap10_EN/kichban_tap10_EN.md',
     EN_UPDATES,
     r'^\*\*(?:HOST|INVESTIGATOR|PSYCHOLOGIST|ORDINARY PERSON)\*\*',
     r'^## ACT\s*(\d)'
@@ -86,7 +86,7 @@ update_file(
 
 # Run update on JA
 update_file(
-    '01_KICH_BAN/Tap10_JA/kichban_tap10_JA.md',
+    '01_KICH_BAN/Ho_So_Toi_Pham/Tap10_JA/kichban_tap10_JA.md',
     JA_UPDATES,
     r'^\*\*(?:ホスト|捜査官|心理学者|一般人)\*\*',
     r'^## 第(\d)幕'
@@ -94,7 +94,7 @@ update_file(
 
 # Run update on KO
 update_file(
-    '01_KICH_BAN/Tap10_KO/kichban_tap10_KO.md',
+    '01_KICH_BAN/Ho_So_Toi_Pham/Tap10_KO/kichban_tap10_KO.md',
     KO_UPDATES,
     r'^\*\*(?:호스트|수사관|심리학자|일반인)\*\*',
     r'^## 막\s*(\d)'

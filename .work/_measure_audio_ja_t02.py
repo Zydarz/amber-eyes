@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 W = ROOT / ".work"
 FF = W / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 WAV = W / "audio_master_JA_t02.wav"
-MP3 = ROOT / "02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA_master.mp3"
+MP3 = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/Tap02_JA_master.mp3"
 
 
 def run(cmd):

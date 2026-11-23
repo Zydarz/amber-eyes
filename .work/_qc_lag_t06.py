@@ -22,7 +22,7 @@ import numpy as np  # noqa: E402
 ROOT = Path(r"D:/TEST/Gax/amber-eyes")
 WORK = ROOT / ".work"
 FF = WORK / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
-OUT = ROOT / "02_SAN_XUAT" / "Tap06" / "xuat_ban"
+OUT = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06" / "xuat_ban"
 MASTER = OUT / "Tap06_master.mp4"
 MP3 = OUT / "Tap06_master.mp3"
 TMP = WORK / "_qc_lag_t06"

@@ -18,7 +18,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path("D:/TEST/Gax/amber-eyes")
 WORK = ROOT / ".work"
 FF = WORK / "ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffmpeg.exe"
-AUDIO_MASTER = ROOT / "02_SAN_XUAT/Tap03/xuat_ban/Tap03_master.mp3"
+AUDIO_MASTER = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/xuat_ban/Tap03_master.mp3"
 TL_PATH = WORK / "timeline_s_t03.json"
 OUT_DIR = WORK / "stems_t03"
 SR = 16000

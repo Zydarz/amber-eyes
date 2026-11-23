@@ -17,7 +17,7 @@ vn = json.loads((W / "_t04_chu_vn.json").read_text(encoding="utf-8"))
 ja = json.loads((W / "_t04_chu_ja.json").read_text(encoding="utf-8"))
 
 idx = {}
-for el in parse_file(str(ROOT / "01_KICH_BAN/Tap04_JA/kichban_tap04_JA.md")):
+for el in parse_file(str(ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap04_JA/kichban_tap04_JA.md")):
     if el["kind"] == "LOI":
         idx[el["id"]] = [(s["id"], s["text"]) for s in el.get("sentences", [])]
 

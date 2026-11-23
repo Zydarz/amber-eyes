@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Generate 02_SAN_XUAT/Tap13/KeHoach_Video_Tap13.md matching exact standards of Tap 10 & 11."""
+"""Generate 02_SAN_XUAT/Ho_So_Toi_Pham/Tap13/KeHoach_Video_Tap13.md matching exact standards of Tap 10 & 11."""
 import json, sys
 from pathlib import Path
 
@@ -140,6 +140,6 @@ for i, s in enumerate(shots):
     lines.append(row)
 
 out_text = "\n".join(lines) + "\n"
-out_path = Path('02_SAN_XUAT/Tap13/KeHoach_Video_Tap13.md')
+out_path = Path('02_SAN_XUAT/Ho_So_Toi_Pham/Tap13/KeHoach_Video_Tap13.md')
 out_path.write_text(out_text, encoding='utf-8')
 print(f"Generated {out_path} ({len(shots)} shots).")

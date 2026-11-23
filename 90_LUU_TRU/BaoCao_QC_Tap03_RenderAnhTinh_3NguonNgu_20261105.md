@@ -1,7 +1,7 @@
 # BÁO CÁO QC · TẬP 03 · RENDER LẠI ẢNH TĨNH 3 NGÔN NGỮ (VN / EN / JA)
 
 **Ngày:** 05/11/2026 (lượt 2, sau phiên render đầu 14:40–16:11) · **Kênh:** Amber Eyes
-**Hồ sơ:** `02_SAN_XUAT/Tap03/KeHoach_Video_Tap03.md` (+ `_EN`, `_JA`)
+**Hồ sơ:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/KeHoach_Video_Tap03.md` (+ `_EN`, `_JA`)
 **Lệnh dựng:** `py -3 .work/build_video3.py --stills all` (AE_EP=03, AE_LANG=vi|en|ja)
 
 > Báo cáo này bổ sung cho `BaoCao_QC_Tap03_RenderAnhTinh_20261105.md` (lượt 1 trong ngày).
@@ -102,13 +102,13 @@ Trong lúc render, **một session khác đang chạy song song trong cùng work
 | Mất | Hậu quả |
 |:---|:---|
 | `.work/stems_t03/` · `stems_EN_t03/` · `stems_JA_t03/` | Badge vai **không còn sóng âm** → vẽ thành **đường gạch ngang phẳng** thay vì thanh sóng. Đây là lý do 92–93 ảnh đổi byte |
-| `02_SAN_XUAT/Tap03*/xuat_ban/*_master.mp3` và `Tap03_JA_master.mp4` | **Không còn master âm thanh** ⇒ không dựng lại được `stems` (script `_build_stems_t02.py` cần master) |
+| `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03*/xuat_ban/*_master.mp3` và `Tap03_JA_master.mp4` | **Không còn master âm thanh** ⇒ không dựng lại được `stems` (script `_build_stems_t02.py` cần master) |
 
 * Bằng chứng renderer cũ **bắt buộc** có `stems` mới chạy được: hàm `_env_for()` trước commit `5bf1d5f` (05/11 17:15) gọi `wave.open()` trực tiếp ⇒ **thiếu file là crash**. Lượt render 14:40–16:11 (còn `stems`) chạy được ⇒ `stems` còn tồn tại lúc đó; hiện đã mất.
 * Renderer mới (`5bf1d5f`, 17:15) **không crash** nữa mà trả về mảng rỗng ⇒ badge vẽ 26 thanh cao đều 3 px = **gạch ngang phẳng** (đã soi bằng mắt, ảnh `.work/_qc_t03_20261105/badge_zoom.png`).
 * **Chỉ ảnh trên bị ảnh hưởng** — nền, chữ trên hình, thẻ kết, mốc thời gian, badge vai đều đúng.
 * **Cách khôi phục** (1 lệnh, khi master âm thanh còn trong repo hoặc được dựng lại):
-  1. dựng lại master Tập 03 (VN/EN/JA) → `02_SAN_XUAT/Tap03*/xuat_ban/*_master.mp3`
+  1. dựng lại master Tập 03 (VN/EN/JA) → `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03*/xuat_ban/*_master.mp3`
   2. `py -3 .work/_build_stems_t02.py` (đổi đường dẫn + `TL_PATH` + `OUT_DIR` cho từng bản) → sinh `stems_t03/`, `stems_EN_t03/`, `stems_JA_t03/`
   3. `py -3 .work/build_video3.py --stills all` lại cho 3 bản ⇒ badge có sóng âm trở lại
 * **Không tự bịa sóng âm giả**: hiện chưa có master ⇒ không dựng được envelope thật; không dùng sóng tổng hợp vì sẽ lệch với video khi dựng lại.
@@ -172,11 +172,11 @@ Trong lúc render, **một session khác đang chạy song song trong cùng work
 
 | File | Trạng thái |
 |:---|:---|
-| `02_SAN_XUAT/Tap03/KeHoach_Video_Tap03.md` | sửa — 2 dòng: `5-02` không đổi · `5-21` thêm nhãn + khẩu hiệu (H12) |
-| `02_SAN_XUAT/Tap03_EN/KeHoach_Video_Tap03_EN.md` | sửa — 2 dòng: `5-02` "8"→"EIGHT" · `5-21` giữ nguyên |
-| `02_SAN_XUAT/Tap03_JA/KeHoach_Video_Tap03_JA.md` | sửa — 1 dòng: `5-21` thêm nhãn + khẩu hiệu (H12) |
+| `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/KeHoach_Video_Tap03.md` | sửa — 2 dòng: `5-02` không đổi · `5-21` thêm nhãn + khẩu hiệu (H12) |
+| `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_EN/KeHoach_Video_Tap03_EN.md` | sửa — 2 dòng: `5-02` "8"→"EIGHT" · `5-21` giữ nguyên |
+| `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_JA/KeHoach_Video_Tap03_JA.md` | sửa — 1 dòng: `5-21` thêm nhãn + khẩu hiệu (H12) |
 | `.work/shots_t03.json` · `shots_EN_t03.json` · `shots_JA_t03.json` | sinh lại (110 shot mỗi bản) |
 | `.work/video3_t03/stills/` · `video3_EN_t03/stills/` · `video3_JA_t03/stills/` | 110 ảnh mới mỗi bản |
-| `02_SAN_XUAT/Tap03*/contact_sheet_*.png` | contact sheet 3 bản (13 tờ + 5 tờ/hồi) |
+| `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03*/contact_sheet_*.png` | contact sheet 3 bản (13 tờ + 5 tờ/hồi) |
 | `.work/_cu/t03_20261105_1800/` | **sao lưu trước khi ghi** (L5): 3 bảng shot + 3 timeline + script + 3 hồ sơ + 4 manifest hash |
 | `.work/_verify_t03_script.py` · `_parse_shots_t03_langs.py` · `_check_t03_numstyle.py` · `_qc_t03_gates.py` · `_qc_t03_stills_final.py` · `_render_stills_t03.py` · `_manifest_t03_stills.py` · `_diff_stills_t03.py` | script kiểm dùng chung cho lượt này |

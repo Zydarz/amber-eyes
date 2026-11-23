@@ -11,8 +11,8 @@ Nguyên tắc (theo AGENTS.md L5/L6 + A11 #70/#85/#86):
     "📚 NGUỒN THAM KHẢO") — KHÔNG lặp lại header (tránh "📚 NGUỒN THAM KHẢO 📚 ...").
   • `nguon_tham_khao*.md` = hồ sơ nguồn đầy đủ (bảng đối chiếu từng câu).
 
-Căn cứ nội dung: 01_KICH_BAN/Tap17/kichban_tap17_23102026.md (bản 226 câu, 14/11/2026)
-+ 01_KICH_BAN/Tap17/REVIEW_kichban_tap17_10chiau.md (bảng 10 chỉ dấu A2c).
+Căn cứ nội dung: 01_KICH_BAN/Ho_So_Toi_Pham/Tap17/kichban_tap17_23102026.md (bản 226 câu, 14/11/2026)
++ 01_KICH_BAN/Ho_So_Toi_Pham/Tap17/REVIEW_kichban_tap17_10chiau.md (bảng 10 chỉ dấu A2c).
 Format tham chiếu: Tập 16 (mẫu mới nhất, 19/11/2026).
 """
 
@@ -286,9 +286,9 @@ def chapters(lang):
     if lang == "KO":
         # Chưa có audio KO ⇒ ước lượng: tỉ trọng ký tự lời thoại theo hồi × tốc độ đọc
         # hiệu chuẩn từ timeline JA đã đo thật (đối chiếu: tỉ lệ KO/VI ở Tập 02 = 1,2863).
-        ko = spoken_by_act(ROOT / "01_KICH_BAN" / "Tap17_KO" / "kichban_tap17_KO.md",
+        ko = spoken_by_act(ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap17_KO" / "kichban_tap17_KO.md",
                            re.compile(r"^##\s*막\s*(\d)"))
-        ja = spoken_by_act(ROOT / "01_KICH_BAN" / "Tap17_JA" / "kichban_tap17_JA.md",
+        ja = spoken_by_act(ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap17_JA" / "kichban_tap17_JA.md",
                            re.compile(r"^##\s*第(\d)幕"))
         rate = sum(ja.values()) / 2099.88        # ký tự/giây (JA đo thật 19/11/2026)
         t = 23.0                                  # intro kênh 22,41 s
@@ -334,15 +334,15 @@ def main():
     # Sao lưu bản cũ (L5)
     bak = WORK / "_cu" / f"desc_t17_{os.environ.get('AE_STAMP', 'rewrite')}"
     bak.mkdir(parents=True, exist_ok=True)
-    olds = ["02_SAN_XUAT/Tap17/mo_ta.txt", "02_SAN_XUAT/Tap17/xuat_ban/mo_ta.txt",
-            "02_SAN_XUAT/Tap17_EN/description.txt", "02_SAN_XUAT/Tap17_EN/mo_ta.txt",
-            "02_SAN_XUAT/Tap17_EN/xuat_ban/description.txt", "02_SAN_XUAT/Tap17_EN/xuat_ban/mo_ta.txt",
-            "02_SAN_XUAT/Tap17_JA/description.txt", "02_SAN_XUAT/Tap17_JA/mo_ta.txt",
-            "02_SAN_XUAT/Tap17_JA/xuat_ban/description.txt", "02_SAN_XUAT/Tap17_JA/xuat_ban/mo_ta.txt",
-            "02_SAN_XUAT/Tap17_KO/description.txt", "02_SAN_XUAT/Tap17_KO/mo_ta.txt",
-            "02_SAN_XUAT/Tap17_KO/xuat_ban/description.txt", "02_SAN_XUAT/Tap17_KO/xuat_ban/mo_ta.txt",
-            "02_SAN_XUAT/Tap17/nguon_mo_ta.txt", "02_SAN_XUAT/Tap17_EN/nguon_mo_ta_EN.txt",
-            "02_SAN_XUAT/Tap17_JA/nguon_mo_ta_JA.txt", "02_SAN_XUAT/Tap17_KO/nguon_mo_ta_KO.txt"]
+    olds = ["02_SAN_XUAT/Ho_So_Toi_Pham/Tap17/mo_ta.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17/xuat_ban/mo_ta.txt",
+            "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_EN/description.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_EN/mo_ta.txt",
+            "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_EN/xuat_ban/description.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_EN/xuat_ban/mo_ta.txt",
+            "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_JA/description.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_JA/mo_ta.txt",
+            "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_JA/xuat_ban/description.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_JA/xuat_ban/mo_ta.txt",
+            "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_KO/description.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_KO/mo_ta.txt",
+            "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_KO/xuat_ban/description.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_KO/xuat_ban/mo_ta.txt",
+            "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17/nguon_mo_ta.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_EN/nguon_mo_ta_EN.txt",
+            "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_JA/nguon_mo_ta_JA.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_KO/nguon_mo_ta_KO.txt"]
     for rel in olds:
         p = ROOT / rel
         if p.exists():
@@ -363,24 +363,24 @@ def main():
         sys.exit(1)
 
     plan = {
-        "VI": [("02_SAN_XUAT/Tap17/mo_ta.txt", built["VI"]),
-               ("02_SAN_XUAT/Tap17/xuat_ban/mo_ta.txt", built["VI"]),
-               ("02_SAN_XUAT/Tap17/nguon_mo_ta.txt", SHORT_VI)],
-        "EN": [("02_SAN_XUAT/Tap17_EN/description.txt", built["EN"]),
-               ("02_SAN_XUAT/Tap17_EN/mo_ta.txt", built["EN"]),
-               ("02_SAN_XUAT/Tap17_EN/xuat_ban/description.txt", built["EN"]),
-               ("02_SAN_XUAT/Tap17_EN/xuat_ban/mo_ta.txt", built["EN"]),
-               ("02_SAN_XUAT/Tap17_EN/nguon_mo_ta_EN.txt", SHORT_EN)],
-        "JA": [("02_SAN_XUAT/Tap17_JA/description.txt", built["JA"]),
-               ("02_SAN_XUAT/Tap17_JA/mo_ta.txt", built["JA"]),
-               ("02_SAN_XUAT/Tap17_JA/xuat_ban/description.txt", built["JA"]),
-               ("02_SAN_XUAT/Tap17_JA/xuat_ban/mo_ta.txt", built["JA"]),
-               ("02_SAN_XUAT/Tap17_JA/nguon_mo_ta_JA.txt", SHORT_JA)],
-        "KO": [("02_SAN_XUAT/Tap17_KO/description.txt", built["KO"]),
-               ("02_SAN_XUAT/Tap17_KO/mo_ta.txt", built["KO"]),
-               ("02_SAN_XUAT/Tap17_KO/xuat_ban/description.txt", built["KO"]),
-               ("02_SAN_XUAT/Tap17_KO/xuat_ban/mo_ta.txt", built["KO"]),
-               ("02_SAN_XUAT/Tap17_KO/nguon_mo_ta_KO.txt", SHORT_KO)],
+        "VI": [("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17/mo_ta.txt", built["VI"]),
+               ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17/xuat_ban/mo_ta.txt", built["VI"]),
+               ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17/nguon_mo_ta.txt", SHORT_VI)],
+        "EN": [("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_EN/description.txt", built["EN"]),
+               ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_EN/mo_ta.txt", built["EN"]),
+               ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_EN/xuat_ban/description.txt", built["EN"]),
+               ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_EN/xuat_ban/mo_ta.txt", built["EN"]),
+               ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_EN/nguon_mo_ta_EN.txt", SHORT_EN)],
+        "JA": [("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_JA/description.txt", built["JA"]),
+               ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_JA/mo_ta.txt", built["JA"]),
+               ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_JA/xuat_ban/description.txt", built["JA"]),
+               ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_JA/xuat_ban/mo_ta.txt", built["JA"]),
+               ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_JA/nguon_mo_ta_JA.txt", SHORT_JA)],
+        "KO": [("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_KO/description.txt", built["KO"]),
+               ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_KO/mo_ta.txt", built["KO"]),
+               ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_KO/xuat_ban/description.txt", built["KO"]),
+               ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_KO/xuat_ban/mo_ta.txt", built["KO"]),
+               ("02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_KO/nguon_mo_ta_KO.txt", SHORT_KO)],
     }
     print("\n=== GHI FILE ===")
     for lang, items in plan.items():
@@ -394,17 +394,17 @@ def main():
     # Dùng header "📚 SOURCES" để package.py THAY THẾ khối nguồn tại chỗ (nếu dùng
     # "📚 OFFICIAL SOURCES" như bản publish, package.py sẽ CHÈN thêm khối và làm
     # vượt trần 5000 ký tự).
-    tpl = ROOT / "02_SAN_XUAT" / "Tap17_EN" / "CHU_CO_DINH_EN.md"
+    tpl = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap17_EN" / "CHU_CO_DINH_EN.md"
     tpl_body = (built["EN"].replace("⏱ CHAPTER TIMESTAMPS", "⏱ CHAPTERS")
                         .replace("📚 OFFICIAL SOURCES", "📚 SOURCES"))
     tpl.write_text(EN_TEMPLATE.replace("__BODY__", tpl_body), encoding="utf-8")
-    print(f"  -> 02_SAN_XUAT/Tap17_EN/CHU_CO_DINH_EN.md ({len(tpl_body):,} ký tự)")
+    print(f"  -> 02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_EN/CHU_CO_DINH_EN.md ({len(tpl_body):,} ký tự)")
 
     # Bảng nguồn EN dạng ✅ (package.py verified_links() đọc file này)
-    src_en = ROOT / "02_SAN_XUAT" / "Tap17_EN" / "nguon_tham_khao_EN.md"
+    src_en = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap17_EN" / "nguon_tham_khao_EN.md"
     if "|" not in src_en.read_text(encoding="utf-8")[:400]:
         src_en.write_text(SOURCES_TABLE_EN, encoding="utf-8")
-        print("  -> 02_SAN_XUAT/Tap17_EN/nguon_tham_khao_EN.md (chuyển sang bảng ✅)")
+        print("  -> 02_SAN_XUAT/Ho_So_Toi_Pham/Tap17_EN/nguon_tham_khao_EN.md (chuyển sang bảng ✅)")
 
     sync_edition()
     print(f"\nSao lưu bản cũ: {bak.relative_to(ROOT)}")

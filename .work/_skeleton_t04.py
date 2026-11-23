@@ -22,8 +22,8 @@ sys.path.insert(0, str(ROOT / ".work"))
 from parse_kichban import parse_file  # noqa: E402
 
 MAX_SENT = int(sys.argv[1]) if len(sys.argv) > 1 else 3
-PLAN = ROOT / "02_SAN_XUAT/Tap04/KeHoach_Video_Tap04.md"
-NEW_KB = ROOT / "01_KICH_BAN/Tap04/kichban_tap04_23102026.md"
+PLAN = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap04/KeHoach_Video_Tap04.md"
+NEW_KB = ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap04/kichban_tap04_23102026.md"
 W = ROOT / ".work"
 
 

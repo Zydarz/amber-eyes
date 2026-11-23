@@ -14,7 +14,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(r"D:\TEST\Gax\amber-eyes")
 W = ROOT / ".work"
 TL_PATH = W / "timeline_s_t05.json"
-PLAN = ROOT / "02_SAN_XUAT" / "Tap05" / "KeHoach_Video_Tap05.md"
+PLAN = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap05" / "KeHoach_Video_Tap05.md"
 
 tl = json.loads(TL_PATH.read_text(encoding="utf-8-sig"))
 SENT = {it["id"]: it for it in tl["items"]}

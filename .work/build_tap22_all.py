@@ -180,11 +180,11 @@ def render_markdown(lang):
 
 # 1. Generate Markdown files
 OUT_PATHS = {
-    "VN": ROOT / "01_KICH_BAN" / "Tap22" / "kichban_tap22_23102026.md",
-    "EN_DIR": ROOT / "01_KICH_BAN" / "Tap22_EN" / "kichban_tap22_EN.md",
-    "EN_COPY": ROOT / "01_KICH_BAN" / "Tap22" / "kichban_tap22_EN.md",
-    "JA": ROOT / "01_KICH_BAN" / "Tap22_JA" / "kichban_tap22_JA.md",
-    "KO": ROOT / "01_KICH_BAN" / "Tap22_KO" / "kichban_tap22_KO.md",
+    "VN": ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22" / "kichban_tap22_23102026.md",
+    "EN_DIR": ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22_EN" / "kichban_tap22_EN.md",
+    "EN_COPY": ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22" / "kichban_tap22_EN.md",
+    "JA": ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22_JA" / "kichban_tap22_JA.md",
+    "KO": ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22_KO" / "kichban_tap22_KO.md",
 }
 
 print("Generating Markdown files for Episode 22...")

@@ -796,10 +796,10 @@ JA_TEXT = """# 音声台本 / 犯罪心理学ポッドキャスト
 """
 
 def main():
-    en_path1 = ROOT / "01_KICH_BAN/Tap12_EN/kichban_tap12_EN.md"
-    en_path2 = ROOT / "01_KICH_BAN/Tap12/kichban_tap12_EN.md"
-    ja_path1 = ROOT / "01_KICH_BAN/Tap12_JA/kichban_tap12_JA.md"
-    ja_path2 = ROOT / "01_KICH_BAN/Tap12/kichban_tap12_JA.md"
+    en_path1 = ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap12_EN/kichban_tap12_EN.md"
+    en_path2 = ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap12/kichban_tap12_EN.md"
+    ja_path1 = ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap12_JA/kichban_tap12_JA.md"
+    ja_path2 = ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap12/kichban_tap12_JA.md"
 
     en_path1.write_text(EN_TEXT, encoding="utf-8")
     en_path2.write_text(EN_TEXT, encoding="utf-8")

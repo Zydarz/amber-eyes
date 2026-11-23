@@ -26,12 +26,12 @@ def grab(rx, text):
 
 
 vns = {}
-for p in sorted(glob.glob('01_KICH_BAN/Tap[0-9][0-9]/kichban_tap*.md')):
+for p in sorted(glob.glob('01_KICH_BAN/Ho_So_Toi_Pham/Tap[0-9][0-9]/kichban_tap*.md')):
     vns[re.search(r'Tap(\d+)', p).group(1)] = p
 
 tot = 0
 for tap in sorted(vns):
-    kp = '01_KICH_BAN/Tap%s_KO/kichban_tap%s_KO.md' % (tap, tap)
+    kp = '01_KICH_BAN/Ho_So_Toi_Pham/Tap%s_KO/kichban_tap%s_KO.md' % (tap, tap)
     if not os.path.exists(kp):
         continue
     vn = io.open(vns[tap], encoding='utf-8').read()

@@ -4,8 +4,8 @@ import sys, io, re
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 files_to_check = [
-    '01_KICH_BAN/Tap10/kichban_tap10_23102026.md',
-    '01_KICH_BAN/Tap10/NghienCuu_TamLy_BoSung_KichBan_Tap10.md',
+    '01_KICH_BAN/Ho_So_Toi_Pham/Tap10/kichban_tap10_23102026.md',
+    '01_KICH_BAN/Ho_So_Toi_Pham/Tap10/NghienCuu_TamLy_BoSung_KichBan_Tap10.md',
     r'C:\Users\ADMIN\AppData\Local\Google\antigravity\brain\ef8034a9-4598-4e44-b04a-9f83c79b0401\NghienCuu_TamLy_Tap10.md',
     r'C:\Users\ADMIN\.gemini\antigravity\brain\ef8034a9-4598-4e44-b04a-9f83c79b0401\NghienCuu_TamLy_Tap10.md'
 ]

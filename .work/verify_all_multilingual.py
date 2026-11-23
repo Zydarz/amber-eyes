@@ -19,12 +19,12 @@ for i in range(1, 30):
     for lang in languages:
         total_checks += 1
         if lang == "VI":
-            ep_dir = ROOT / "02_SAN_XUAT" / f"Tap{ep}"
+            ep_dir = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ep}"
             desc_file = ep_dir / "mo_ta.txt"
             xb_desc = ep_dir / "xuat_ban" / "mo_ta.txt"
             src_md = ep_dir / "nguon_tham_khao.md"
         else:
-            ep_dir = ROOT / "02_SAN_XUAT" / f"Tap{ep}_{lang}"
+            ep_dir = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ep}_{lang}"
             desc_file = ep_dir / "description.txt"
             xb_desc = ep_dir / "xuat_ban" / "description.txt"
             src_md = ep_dir / f"nguon_tham_khao_{lang}.md"

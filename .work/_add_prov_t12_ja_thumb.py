@@ -12,7 +12,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(__file__).resolve().parents[1]
 PROV = ROOT / "provenance.json"
 
-FILE = "02_SAN_XUAT/Tap12_JA/xuat_ban/thumbnail.png"
+FILE = "02_SAN_XUAT/Ho_So_Toi_Pham/Tap12_JA/xuat_ban/thumbnail.png"
 ENTRY = {
     "file": FILE,
     "loai": "ảnh đại diện 1280×720 (RGB)",

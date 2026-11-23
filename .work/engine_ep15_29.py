@@ -97,7 +97,7 @@ EP_THEMES = {
 
 
 def parse_script_scenes(ep):
-    """Parses episode script in 01_KICH_BAN/TapXX/ to generate ~50-60 scenes across 5 acts."""
+    """Parses episode script in 01_KICH_BAN/Ho_So_Toi_Pham/TapXX/ to generate ~50-60 scenes across 5 acts."""
     spec = CASE_SPECS[ep]
     folder = KICHBAN_DIR / f"Tap{ep:02d}"
     vn_file = [f for f in os.listdir(folder) if f.startswith("kichban") and not f.endswith("_EN.md") and f.endswith(".md")][0]
@@ -365,7 +365,7 @@ def render_job_worker(args):
 def process_episode(ep, workers=6):
     """Full end-to-end production for a single episode."""
     spec = CASE_SPECS[ep]
-    out_dir = ROOT / "02_SAN_XUAT" / f"Tap{ep:02d}"
+    out_dir = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ep:02d}"
     out_dir.mkdir(parents=True, exist_ok=True)
     today_str = date.today().isoformat()
 
@@ -490,7 +490,7 @@ def process_episode(ep, workers=6):
         "",
         f"1. **Đồng bộ kịch bản:** Toàn bộ ảnh khớp chuẩn xác 100% các câu thoại trong kịch bản Tập {ep:02d}.",
         "2. **Bảo toàn pháp lý & Bản quyền thương mại:** Toàn bộ ảnh được tạo nội bộ thông qua pipeline Amber Eyes Noir Graphic Renderer, 100% tự chủ, không sử dụng MiniMax hay tài sản bên thứ ba.",
-        f"3. **Sẵn sàng dựng video:** Bộ ảnh đã được lưu trữ hoàn chỉnh tại `assets/bg/t{ep}_*.png`, có contact sheet tại `02_SAN_XUAT/Tap{ep:02d}/contact_sheet_t{ep}.png`."
+        f"3. **Sẵn sàng dựng video:** Bộ ảnh đã được lưu trữ hoàn chỉnh tại `assets/bg/t{ep}_*.png`, có contact sheet tại `02_SAN_XUAT/Ho_So_Toi_Pham/Tap{ep:02d}/contact_sheet_t{ep}.png`."
     ])
     (out_dir / f"REVIEW_Bo_Anh_Tap{ep:02d}.md").write_text("\n".join(rev_lines), encoding="utf-8")
 

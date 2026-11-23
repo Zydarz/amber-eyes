@@ -7,10 +7,10 @@ import parse_kichban as PK
 import edition
 
 files = [
-    ('VN', '01_KICH_BAN/Tap17/kichban_tap17_23102026.md'),
-    ('EN', '01_KICH_BAN/Tap17_EN/kichban_tap17_EN.md'),
-    ('JA', '01_KICH_BAN/Tap17_JA/kichban_tap17_JA.md'),
-    ('KO', '01_KICH_BAN/Tap17_KO/kichban_tap17_KO.md'),
+    ('VN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap17/kichban_tap17_23102026.md'),
+    ('EN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap17_EN/kichban_tap17_EN.md'),
+    ('JA', '01_KICH_BAN/Ho_So_Toi_Pham/Tap17_JA/kichban_tap17_JA.md'),
+    ('KO', '01_KICH_BAN/Ho_So_Toi_Pham/Tap17_KO/kichban_tap17_KO.md'),
 ]
 
 forbidden = {

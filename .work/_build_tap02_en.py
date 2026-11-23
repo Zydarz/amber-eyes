@@ -293,7 +293,7 @@ en_translations['5.12'] = [
 en_md_lines = [
     "# CRIMINAL PSYCHOLOGY AUDIO / PODCAST SCRIPT — ENGLISH EDITION",
     "**Topic:** The 10 Psychological Markers & Behavioral Escalation — the case of Colonel Russell Williams.",
-    "**Translated from:** `01_KICH_BAN/Tap02/kichban_tap02_22102026.md`. One English sentence for every Vietnamese sentence, same structure, same IDs.",
+    "**Translated from:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_22102026.md`. One English sentence for every Vietnamese sentence, same structure, same IDs.",
     "**Fact and legal review:** Based on public trial reporting, Ontario Provincial Police interrogation transcripts, Canadian court proceedings, and verified public records; analysis of real people is framed as opinion.",
     "",
     "---",
@@ -414,8 +414,8 @@ for e in vn_script:
 content = "\n".join(en_md_lines)
 
 # Write to both paths
-out_p1 = Path("01_KICH_BAN/Tap02_EN/kichban_tap02_EN.md")
-out_p2 = Path("01_KICH_BAN/Tap02/kichban_tap02_EN.md")
+out_p1 = Path("01_KICH_BAN/Ho_So_Toi_Pham/Tap02_EN/kichban_tap02_EN.md")
+out_p2 = Path("01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_EN.md")
 
 out_p1.write_text(content, encoding='utf-8')
 out_p2.write_text(content, encoding='utf-8')

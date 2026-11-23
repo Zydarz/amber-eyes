@@ -102,6 +102,6 @@ def audit_script(ep_num, path):
         
     return len(sentences), len(punct_errors), len(v9_hits), len(g1_hits), len(spell_hits)
 
-s10 = audit_script("10", "01_KICH_BAN/Tap10/kichban_tap10_23102026.md")
+s10 = audit_script("10", "01_KICH_BAN/Ho_So_Toi_Pham/Tap10/kichban_tap10_23102026.md")
 print("\n\n")
-s13 = audit_script("13", "01_KICH_BAN/Tap13/kichban_tap13_23102026.md")
+s13 = audit_script("13", "01_KICH_BAN/Ho_So_Toi_Pham/Tap13/kichban_tap13_23102026.md")

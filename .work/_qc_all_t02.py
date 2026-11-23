@@ -12,10 +12,10 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path(r'D:/TEST/Gax/amber-eyes')
 W = ROOT / ".work"
 
-LANGS = [("VN", "vi", "02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md", "video3_t02", "timeline_s_t02.json", "shots_t02.json"),
-         ("EN", "en", "02_SAN_XUAT/Tap02_EN/KeHoach_Video_Tap02_EN.md", "video3_EN_t02", "timeline_s_EN_t02.json", "shots_EN_t02.json"),
-         ("JA", "ja", "02_SAN_XUAT/Tap02_JA/KeHoach_Video_Tap02_JA.md", "video3_JA_t02", "timeline_s_JA_t02.json", "shots_JA_t02.json"),
-         ("KO", "ko", "02_SAN_XUAT/Tap02_KO/KeHoach_Video_Tap02_KO.md", "video3_KO_t02", "timeline_s_KO_t02.json", "shots_KO_t02.json")]
+LANGS = [("VN", "vi", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md", "video3_t02", "timeline_s_t02.json", "shots_t02.json"),
+         ("EN", "en", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/KeHoach_Video_Tap02_EN.md", "video3_EN_t02", "timeline_s_EN_t02.json", "shots_EN_t02.json"),
+         ("JA", "ja", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/KeHoach_Video_Tap02_JA.md", "video3_JA_t02", "timeline_s_JA_t02.json", "shots_JA_t02.json"),
+         ("KO", "ko", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_KO/KeHoach_Video_Tap02_KO.md", "video3_KO_t02", "timeline_s_KO_t02.json", "shots_KO_t02.json")]
 
 print(f"{'':4} {'dong shot':>9} {'co loi':>7} {'nghi':>5} {'cau':>5} {'tong(s)':>9} {'anh':>5}  ket luan")
 for tag, _lang, plan_rel, vd, tl_name, sh_name in LANGS:

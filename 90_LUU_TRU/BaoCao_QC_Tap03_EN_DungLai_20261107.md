@@ -1,6 +1,6 @@
 # BÁO CÁO QC — TẬP 03 EN DỰNG LẠI THEO KỊCH BẢN + MASTER MỚI · 07/11/2026
 
-**Thành phẩm:** `02_SAN_XUAT/Tap03_EN/xuat_ban/Tap03_EN_master.mp4` (568,1 MB)
+**Thành phẩm:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_EN/xuat_ban/Tap03_EN_master.mp4` (568,1 MB)
 **Nguồn:** `Tap03_EN_master.mp3` (06/11 07:15, 1648,80 s) · `timeline_s_EN_t03.json` (sha 12 ký tự `f383ec36d0ba`) · `shots_EN_t03.json` (`af70bb7e7580`) · `build_video3.py` `800698eaad64` · `edition.py` `057b07863bfc`
 
 ## Số đo (trên mp4 cuối)

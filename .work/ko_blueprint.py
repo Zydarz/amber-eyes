@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """BAN DO (blueprint) de dich 1 tap sang tieng Han.
 
-    usage: py -3 .work/ko_blueprint.py 01_KICH_BAN/Tap07/kichban_tap07_23102026.md [out.txt]
+    usage: py -3 .work/ko_blueprint.py 01_KICH_BAN/Ho_So_Toi_Pham/Tap07/kichban_tap07_23102026.md [out.txt]
 
 In ra, theo thu tu file, moi phan tu:
   - loai (LOI / SFX / BGM / NGHI), vai, so cau, chi danh doc

@@ -3,10 +3,10 @@ sys.stdout.reconfigure(encoding='utf-8')
 from parse_kichban import parse_file
 
 LANGS = {
-    "VN": "01_KICH_BAN/Tap01/kichban_tap01_22102026_v2.md",
-    "EN": "01_KICH_BAN/Tap01_EN/kichban_tap01_EN.md",
-    "JA": "01_KICH_BAN/Tap01_JA/kichban_tap01_JA.md",
-    "KO": "01_KICH_BAN/Tap01_KO/kichban_tap01_KO.md",
+    "VN": "01_KICH_BAN/Ho_So_Toi_Pham/Tap01/kichban_tap01_22102026_v2.md",
+    "EN": "01_KICH_BAN/Ho_So_Toi_Pham/Tap01_EN/kichban_tap01_EN.md",
+    "JA": "01_KICH_BAN/Ho_So_Toi_Pham/Tap01_JA/kichban_tap01_JA.md",
+    "KO": "01_KICH_BAN/Ho_So_Toi_Pham/Tap01_KO/kichban_tap01_KO.md",
 }
 
 data = {}

@@ -1,0 +1,432 @@
+[
+ {
+  "id": "1.01",
+  "act": 1,
+  "kind": "BGM",
+  "desc": "Tiếng còi báo động khẩn cấp, tiếng bước chân vội vã, tiếng còi xe cảnh sát xé toạc không gian đô thị ngột ngạt."
+ },
+ {
+  "id": "1.02",
+  "act": 1,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "giọng trầm ấm, mở đầu với tiết tấu dồn dập",
+  "text": "Trong suốt tám năm, từ năm 2004 đến năm 2012, một bóng ma vũ trang đã gieo rắc nỗi kinh hoàng dọc theo các đô thị lớn ven sông Trường Giang. Phương thức gây án của hắn luôn chuẩn xác và tàn nhẫn đến lạnh người: phục kích ngay trước cửa các phòng giao dịch ngân hàng vào thời điểm đông người rút tiền mặt nhất. Hắn ra tay chớp nhoáng, tước đoạt tài sản rồi biến mất vào dòng người hối hả chỉ trong vòng vài chục giây ngắn ngủi. Từ Trùng Khánh, Trường Sa đến Nam Kinh, hàng loạt vụ cướp táo tợn đã diễn ra, khiến cơ quan an ninh phải phát lệnh truy nã cấp độ A đặc biệt nguy hiểm trên phạm vi toàn quốc.",
+  "sentences": [
+   {
+    "id": "1.02#1",
+    "text": "Trong suốt tám năm, từ năm 2004 đến năm 2012, một bóng ma vũ trang đã gieo rắc nỗi kinh hoàng dọc theo các đô thị lớn ven sông Trường Giang.",
+    "words": 31
+   },
+   {
+    "id": "1.02#2",
+    "text": "Phương thức gây án của hắn luôn chuẩn xác và tàn nhẫn đến lạnh người: phục kích ngay trước cửa các phòng giao dịch ngân hàng vào thời điểm đông người rút tiền mặt nhất.",
+    "words": 35
+   },
+   {
+    "id": "1.02#3",
+    "text": "Hắn ra tay chớp nhoáng, tước đoạt tài sản rồi biến mất vào dòng người hối hả chỉ trong vòng vài chục giây ngắn ngủi.",
+    "words": 25
+   },
+   {
+    "id": "1.02#4",
+    "text": "Từ Trùng Khánh, Trường Sa đến Nam Kinh, hàng loạt vụ cướp táo tợn đã diễn ra, khiến cơ quan an ninh phải phát lệnh truy nã cấp độ A đặc biệt nguy hiểm trên phạm vi toàn quốc.",
+    "words": 39
+   }
+  ]
+ },
+ {
+  "id": "1.03",
+  "act": 1,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "phân tích đặc điểm hiện trường",
+  "text": "Hiện trường các vụ án cho thấy kẻ gây án có trình độ sử dụng vũ khí cực kỳ điêu luyện và bản lĩnh tâm lý thép. Hắn luôn ngắm bắn chuẩn xác ở cự ly gần nhằm vô hiệu hóa sự kháng cự của nạn nhân ngay lập tức, không để lại bất kỳ cơ hội kêu cứu nào. Sau khi cướp được tiền, hắn không hề chạy tháo thân trong hoảng loạn mà đi bộ với tốc độ vừa phải, thản nhiên hòa vào đám đông hoặc đón các phương tiện công cộng để tẩu thoát. Sự điềm tĩnh đến mức vô cảm này chứng minh đây là một đối tượng có kinh nghiệm thực chiến và đã được tôi luyện kỹ năng sinh tồn trong thời gian dài. NHÂN CHỨNG (giọng hồi hộp, tái hiện giây phút chạm trán): Mọi chuyện diễn ra quá nhanh, chỉ trong tích tắc. Chúng tôi chỉ kịp nghe thấy tiếng nổ lớn và nhìn thấy một người đàn ông đội mũ lưỡi trai sụp xuống trán, mang theo một chiếc túi vải đen bước đi rất nhanh. Hắn không hề quay đầu lại nhìn đám đông đang hoảng loạn, ánh mắt lạnh như băng khiến không ai dám tiến lại gần.",
+  "sentences": [
+   {
+    "id": "1.03#1",
+    "text": "Hiện trường các vụ án cho thấy kẻ gây án có trình độ sử dụng vũ khí cực kỳ điêu luyện và bản lĩnh tâm lý thép.",
+    "words": 27
+   },
+   {
+    "id": "1.03#2",
+    "text": "Hắn luôn ngắm bắn chuẩn xác ở cự ly gần nhằm vô hiệu hóa sự kháng cự của nạn nhân ngay lập tức, không để lại bất kỳ cơ hội kêu cứu nào.",
+    "words": 33
+   },
+   {
+    "id": "1.03#3",
+    "text": "Sau khi cướp được tiền, hắn không hề chạy tháo thân trong hoảng loạn mà đi bộ với tốc độ vừa phải, thản nhiên hòa vào đám đông hoặc đón các phương tiện công cộng để tẩu thoát.",
+    "words": 38
+   },
+   {
+    "id": "1.03#4",
+    "text": "Sự điềm tĩnh đến mức vô cảm này chứng minh đây là một đối tượng có kinh nghiệm thực chiến và đã được tôi luyện kỹ năng sinh tồn trong thời gian dài.",
+    "words": 33
+   },
+   {
+    "id": "1.03#5",
+    "text": "NHÂN CHỨNG (giọng hồi hộp, tái hiện giây phút chạm trán):",
+    "words": 11
+   },
+   {
+    "id": "1.03#6",
+    "text": "Mọi chuyện diễn ra quá nhanh, chỉ trong tích tắc.",
+    "words": 10
+   },
+   {
+    "id": "1.03#7",
+    "text": "Chúng tôi chỉ kịp nghe thấy tiếng nổ lớn và nhìn thấy một người đàn ông đội mũ lưỡi trai sụp xuống trán, mang theo một chiếc túi vải đen bước đi rất nhanh.",
+    "words": 34
+   },
+   {
+    "id": "1.03#8",
+    "text": "Hắn không hề quay đầu lại nhìn đám đông đang hoảng loạn, ánh mắt lạnh như băng khiến không ai dám tiến lại gần.",
+    "words": 24
+   }
+  ]
+ },
+ {
+  "id": "2.01",
+  "act": 2,
+  "kind": "BGM",
+  "desc": "Tiếng gió rít qua những triền núi đá vôi Trùng Khánh cằn cỗi, âm thanh guitar mộc mạc nhưng cô độc và lạnh lẽo."
+ },
+ {
+  "id": "2.02",
+  "act": 2,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "chuyển mạch bóc tách quá khứ nhân vật",
+  "text": "Kẻ giấu mặt ấy là ai, và điều gì đã biến một thanh niên nông thôn thành một sát thủ máu lạnh đơn độc nhất lịch sử hình sự hiện đại? Chu Khắc Hoa sinh năm 1970 tại một ngôi làng nghèo ven sông Gia Lăng, huyện Sa Bình Bá, thành phố Trùng Khánh. Từ nhỏ, hắn là một đứa trẻ sống hoàn toàn khép kín, không kết bạn với bất kỳ ai và có niềm đam mê đặc biệt với súng đạn và tiểu thuyết võ hiệp bạo lực. Hắn từng có tiền án về tội mua bán và tàng trữ vũ khí trái phép, từng thụ án tù nhiều năm và cắt đứt hầu hết các mối liên kết tình cảm với gia đình.",
+  "sentences": [
+   {
+    "id": "2.02#1",
+    "text": "Kẻ giấu mặt ấy là ai, và điều gì đã biến một thanh niên nông thôn thành một sát thủ máu lạnh đơn độc nhất lịch sử hình sự hiện đại?",
+    "words": 31
+   },
+   {
+    "id": "2.02#2",
+    "text": "Chu Khắc Hoa sinh năm 1970 tại một ngôi làng nghèo ven sông Gia Lăng, huyện Sa Bình Bá, thành phố Trùng Khánh.",
+    "words": 23
+   },
+   {
+    "id": "2.02#3",
+    "text": "Từ nhỏ, hắn là một đứa trẻ sống hoàn toàn khép kín, không kết bạn với bất kỳ ai và có niềm đam mê đặc biệt với súng đạn và tiểu thuyết võ hiệp bạo lực.",
+    "words": 36
+   },
+   {
+    "id": "2.02#4",
+    "text": "Hắn từng có tiền án về tội mua bán và tàng trữ vũ khí trái phép, từng thụ án tù nhiều năm và cắt đứt hầu hết các mối liên kết tình cảm với gia đình.",
+    "words": 36
+   }
+  ]
+ },
+ {
+  "id": "2.03",
+  "act": 2,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "mổ xẻ tâm lý Sói đơn độc và ASPD",
+  "text": "Dưới lăng kính tâm lý học tội phạm, Chu Khắc Hoa là hình mẫu điển hình của kiểu tội phạm Sói đơn độc kết hợp rối loạn nhân cách chống đối xã hội. Hắn hoàn toàn không có nhu cầu kết nối xã hội, không tin tưởng bất kỳ ai và không có khái niệm về sự đồng cảm với nỗi đau của đồng loại. Hắn nhìn nhận xã hội như một khu rừng săn mồi tàn nhẫn, nơi kẻ mạnh có quyền tước đoạt từ kẻ yếu. Sự cô lập cảm xúc này mang lại cho hắn một lợi thế điều tra cực kỳ nguy hiểm: Hắn không có đồng phạm để lộ thông tin, không liên lạc với người thân để bị định vị, và có thể sống sót nhiều tháng trời trong những điều kiện khắc nghiệt nhất mà không cần giao tiếp.",
+  "sentences": [
+   {
+    "id": "2.03#1",
+    "text": "Dưới lăng kính tâm lý học tội phạm, Chu Khắc Hoa là hình mẫu điển hình của kiểu tội phạm Sói đơn độc kết hợp rối loạn nhân cách chống đối xã hội.",
+    "words": 33
+   },
+   {
+    "id": "2.03#2",
+    "text": "Hắn hoàn toàn không có nhu cầu kết nối xã hội, không tin tưởng bất kỳ ai và không có khái niệm về sự đồng cảm với nỗi đau của đồng loại.",
+    "words": 32
+   },
+   {
+    "id": "2.03#3",
+    "text": "Hắn nhìn nhận xã hội như một khu rừng săn mồi tàn nhẫn, nơi kẻ mạnh có quyền tước đoạt từ kẻ yếu.",
+    "words": 23
+   },
+   {
+    "id": "2.03#4",
+    "text": "Sự cô lập cảm xúc này mang lại cho hắn một lợi thế điều tra cực kỳ nguy hiểm: Hắn không có đồng phạm để lộ thông tin, không liên lạc với người thân để bị định vị, và có thể sống sót nhiều tháng trời trong những điều kiện khắc nghiệt nhất mà không cần giao tiếp.",
+    "words": 58
+   }
+  ]
+ },
+ {
+  "id": "2.04",
+  "act": 2,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "chỉ rõ kỹ năng ẩn nấp",
+  "text": "Hắn sở hữu kỹ năng sinh tồn dã ngoại đáng kinh ngạc. Hắn thường chọn ngủ lại trong các hang đá hoang sơ, nghĩa trang trên sườn núi hoặc các công trình xây dựng bỏ hoang thay vì thuê nhà nghỉ. Hắn ăn lương khô, uống nước suối và liên tục thay đổi trang phục, giày dép sau mỗi phi vụ để đánh lạc hướng chó nghiệp vụ và các đợt rà soát của lực lượng chức năng.",
+  "sentences": [
+   {
+    "id": "2.04#1",
+    "text": "Hắn sở hữu kỹ năng sinh tồn dã ngoại đáng kinh ngạc.",
+    "words": 12
+   },
+   {
+    "id": "2.04#2",
+    "text": "Hắn thường chọn ngủ lại trong các hang đá hoang sơ, nghĩa trang trên sườn núi hoặc các công trình xây dựng bỏ hoang thay vì thuê nhà nghỉ.",
+    "words": 29
+   },
+   {
+    "id": "2.04#3",
+    "text": "Hắn ăn lương khô, uống nước suối và liên tục thay đổi trang phục, giày dép sau mỗi phi vụ để đánh lạc hướng chó nghiệp vụ và các đợt rà soát của lực lượng chức năng.",
+    "words": 37
+   }
+  ]
+ },
+ {
+  "id": "3.01",
+  "act": 3,
+  "kind": "BGM",
+  "desc": "Tiếng bộ đàm cảnh sát vang lên liên tục, âm thanh trực thăng gầm rú và tiếng còi hụ vang dội cả vùng núi."
+ },
+ {
+  "id": "3.02",
+  "act": 3,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tái hiện cuộc tổng truy quét tháng 8/2012",
+  "text": "Tháng tám năm 2012, sau khi thực hiện thêm một vụ cướp ngân hàng ngay tại quận Sa Bình Bá, Trùng Khánh, Chu Khắc Hoa đã rút lui vào vùng rừng núi Ca Lạc hiểm trở. Bộ Công an và chính quyền thành phố Trùng Khánh đã lập tức ban bố tình trạng khẩn cấp cao nhất. Hơn một vạn cán bộ chiến sĩ công an, cảnh sát cơ động và lực lượng vũ trang đã được huy động để tạo thành một vòng vây thép khép kín toàn bộ ngọn núi Ca Lạc dưới cái nóng gay gắt trên bốn mươi độ C.",
+  "sentences": [
+   {
+    "id": "3.02#1",
+    "text": "Tháng tám năm 2012, sau khi thực hiện thêm một vụ cướp ngân hàng ngay tại quận Sa Bình Bá, Trùng Khánh, Chu Khắc Hoa đã rút lui vào vùng rừng núi Ca Lạc hiểm trở.",
+    "words": 36
+   },
+   {
+    "id": "3.02#2",
+    "text": "Bộ Công an và chính quyền thành phố Trùng Khánh đã lập tức ban bố tình trạng khẩn cấp cao nhất.",
+    "words": 21
+   },
+   {
+    "id": "3.02#3",
+    "text": "Hơn một vạn cán bộ chiến sĩ công an, cảnh sát cơ động và lực lượng vũ trang đã được huy động để tạo thành một vòng vây thép khép kín toàn bộ ngọn núi Ca Lạc dưới cái nóng gay gắt trên bốn mươi độ C.",
+    "words": 47
+   }
+  ]
+ },
+ {
+  "id": "3.03",
+  "act": 3,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "thuật lại chiến thuật bao vây",
+  "text": "Chúng tôi thiết lập hàng trăm trạm kiểm soát dọc theo từng tuyến đường mòn, kiểm tra từng chiếc xe và từng người qua lại. Các máy bay không người lái trinh sát nhiệt và chó nghiệp vụ tinh nhuệ nhất được triển khai liên tục suốt ngày đêm. Tuy nhiên, với bản tính xảo quyệt của một con sói già, hắn đã không hề ẩn nấp trong rừng sâu như dự đoán ban đầu, mà lợi dụng địa hình quen thuộc từ thuở nhỏ để âm thầm luồn lách qua các khe hở và quay trở lại khu vực dân cư vùng ven.",
+  "sentences": [
+   {
+    "id": "3.03#1",
+    "text": "Chúng tôi thiết lập hàng trăm trạm kiểm soát dọc theo từng tuyến đường mòn, kiểm tra từng chiếc xe và từng người qua lại.",
+    "words": 25
+   },
+   {
+    "id": "3.03#2",
+    "text": "Các máy bay không người lái trinh sát nhiệt và chó nghiệp vụ tinh nhuệ nhất được triển khai liên tục suốt ngày đêm.",
+    "words": 24
+   },
+   {
+    "id": "3.03#3",
+    "text": "Tuy nhiên, với bản tính xảo quyệt của một con sói già, hắn đã không hề ẩn nấp trong rừng sâu như dự đoán ban đầu, mà lợi dụng địa hình quen thuộc từ thuở nhỏ để âm thầm luồn lách qua các khe hở và quay trở lại khu vực dân cư vùng ven.",
+    "words": 55
+   }
+  ]
+ },
+ {
+  "id": "3.04",
+  "act": 3,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "phân tích tâm lý dồn vào chân tường",
+  "text": "Khi nhận ra vòng vây đang siết chặt và các kênh cung cấp thực phẩm bị cắt đứt, tâm lý của kẻ săn mồi chuyển sang trạng thái cảnh giác sinh tồn cao độ. Hắn biết rõ mình không còn đường lui và đối mặt với án tử hình chắc chắn nếu bị bắt. Trong trạng thái này, hắn sẽ không bao giờ đầu hàng mà sẵn sàng chống trả đến hơi thở cuối cùng để tìm kiếm một lối thoát trong tuyệt vọng.",
+  "sentences": [
+   {
+    "id": "3.04#1",
+    "text": "Khi nhận ra vòng vây đang siết chặt và các kênh cung cấp thực phẩm bị cắt đứt, tâm lý của kẻ săn mồi chuyển sang trạng thái cảnh giác sinh tồn cao độ.",
+    "words": 34
+   },
+   {
+    "id": "3.04#2",
+    "text": "Hắn biết rõ mình không còn đường lui và đối mặt với án tử hình chắc chắn nếu bị bắt.",
+    "words": 20
+   },
+   {
+    "id": "3.04#3",
+    "text": "Trong trạng thái này, hắn sẽ không bao giờ đầu hàng mà sẵn sàng chống trả đến hơi thở cuối cùng để tìm kiếm một lối thoát trong tuyệt vọng.",
+    "words": 30
+   }
+  ]
+ },
+ {
+  "id": "4.01",
+  "act": 4,
+  "kind": "BGM",
+  "desc": "Tiếng thở chậm, tiếng bước chân cẩn trọng trên nền đá cuội và tiếng súng nổ vang dứt khoát."
+ },
+ {
+  "id": "4.02",
+  "act": 4,
+  "kind": "LOI",
+  "role": "D",
+  "direction": "thuật lại khoảnh khắc chạm trán sinh tử",
+  "text": "Sáng sớm ngày mười bốn tháng tám năm 2012, hai trinh sát dày dạn kinh nghiệm thuộc Công an quận Sa Bình Bá đang cải trang tuần tra tại khu vực Đồng Thoại Phường. Họ phát hiện một người đàn ông đi bộ một mình, đeo kính đen, tay cầm túi xách có dáng đi hơi khập khiễng trùng khớp với hồ sơ nhân chủng học của Chu Khắc Hoa. Khi hai trinh sát áp sát và chuẩn bị kiểm tra, đối tượng bất ngờ quay phắt lại, rút vũ khí nổ súng liên tiếp về phía lực lượng thi hành công vụ.",
+  "sentences": [
+   {
+    "id": "4.02#1",
+    "text": "Sáng sớm ngày mười bốn tháng tám năm 2012, hai trinh sát dày dạn kinh nghiệm thuộc Công an quận Sa Bình Bá đang cải trang tuần tra tại khu vực Đồng Thoại Phường.",
+    "words": 34
+   },
+   {
+    "id": "4.02#2",
+    "text": "Họ phát hiện một người đàn ông đi bộ một mình, đeo kính đen, tay cầm túi xách có dáng đi hơi khập khiễng trùng khớp với hồ sơ nhân chủng học của Chu Khắc Hoa.",
+    "words": 36
+   },
+   {
+    "id": "4.02#3",
+    "text": "Khi hai trinh sát áp sát và chuẩn bị kiểm tra, đối tượng bất ngờ quay phắt lại, rút vũ khí nổ súng liên tiếp về phía lực lượng thi hành công vụ.",
+    "words": 33
+   }
+  ]
+ },
+ {
+  "id": "4.03",
+  "act": 4,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tái hiện giây phút quyết định",
+  "text": "Trong không gian ngõ hẹp chỉ cách nhau chưa đầy ba mét, hai chiến sĩ công an đã dũng cảm bắn trả chính xác nhằm vô hiệu hóa kẻ thủ ác nguy hiểm. Sau loạt đạn chớp nhoáng, bóng ma gây ám ảnh suốt tám năm đã gục ngã tại chỗ, khẩu súng trên tay rơi xuống mặt đường đá. Chiến dịch vây bắt kéo dài nhiều ngày đêm với sự tham gia của hàng vạn chiến sĩ đã chính thức khép lại thắng lợi, bảo đảm an toàn tuyệt đối cho người dân thành phố.",
+  "sentences": [
+   {
+    "id": "4.03#1",
+    "text": "Trong không gian ngõ hẹp chỉ cách nhau chưa đầy ba mét, hai chiến sĩ công an đã dũng cảm bắn trả chính xác nhằm vô hiệu hóa kẻ thủ ác nguy hiểm.",
+    "words": 33
+   },
+   {
+    "id": "4.03#2",
+    "text": "Sau loạt đạn chớp nhoáng, bóng ma gây ám ảnh suốt tám năm đã gục ngã tại chỗ, khẩu súng trên tay rơi xuống mặt đường đá.",
+    "words": 27
+   },
+   {
+    "id": "4.03#3",
+    "text": "Chiến dịch vây bắt kéo dài nhiều ngày đêm với sự tham gia của hàng vạn chiến sĩ đã chính thức khép lại thắng lợi, bảo đảm an toàn tuyệt đối cho người dân thành phố.",
+    "words": 36
+   }
+  ]
+ },
+ {
+  "id": "4.04",
+  "act": 4,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "nhìn lại cái kết của kẻ chống đối xã hội",
+  "text": "Khoảnh khắc cuối cùng của Chu Khắc Hoa là minh chứng điển hình cho sự sụp đổ tất yếu của những kẻ chọn lối sống bạo lực đối kháng với xã hội. Dù có kỹ năng tinh vi đến đâu, một cá nhân đơn độc không bao giờ có thể chiến thắng được ý chí bảo vệ công lý của cả một cộng đồng và sức mạnh tổng hợp của hệ thống pháp luật.",
+  "sentences": [
+   {
+    "id": "4.04#1",
+    "text": "Khoảnh khắc cuối cùng của Chu Khắc Hoa là minh chứng điển hình cho sự sụp đổ tất yếu của những kẻ chọn lối sống bạo lực đối kháng với xã hội.",
+    "words": 32
+   },
+   {
+    "id": "4.04#2",
+    "text": "Dù có kỹ năng tinh vi đến đâu, một cá nhân đơn độc không bao giờ có thể chiến thắng được ý chí bảo vệ công lý của cả một cộng đồng và sức mạnh tổng hợp của hệ thống pháp luật.",
+    "words": 42
+   }
+  ]
+ },
+ {
+  "id": "5.01",
+  "act": 5,
+  "kind": "BGM",
+  "desc": "Âm hưởng hào hùng nhưng trang nghiêm, tiếng kèn đồng ngân vang khúc khải hoàn của sự bình yên đô thị."
+ },
+ {
+  "id": "5.02",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "tổng kết chuyên án",
+  "text": "Cái chết của Chu Khắc Hoa đã chấm dứt chuỗi ngày lo âu của hàng triệu người dân dọc theo các tỉnh thành ven sông Trường Giang. Chuyên án không chỉ khẳng định tinh thần mưu trí dũng cảm của lực lượng công an, mà còn thúc đẩy việc nâng cấp toàn diện các quy chuẩn an ninh ngân hàng và hệ thống giám sát công cộng hiện đại.",
+  "sentences": [
+   {
+    "id": "5.02#1",
+    "text": "Cái chết của Chu Khắc Hoa đã chấm dứt chuỗi ngày lo âu của hàng triệu người dân dọc theo các tỉnh thành ven sông Trường Giang.",
+    "words": 27
+   },
+   {
+    "id": "5.02#2",
+    "text": "Chuyên án không chỉ khẳng định tinh thần mưu trí dũng cảm của lực lượng công an, mà còn thúc đẩy việc nâng cấp toàn diện các quy chuẩn an ninh ngân hàng và hệ thống giám sát công cộng hiện đại.",
+    "words": 42
+   }
+  ]
+ },
+ {
+  "id": "5.03",
+  "act": 5,
+  "kind": "LOI",
+  "role": "C",
+  "direction": "đưa ra 3 khuyến nghị an toàn sinh tồn",
+  "text": "Nhìn lại thủ đoạn gây án của các vụ cướp ngân hàng có vũ trang, chúng ta cần ghi nhớ ba nguyên tắc phòng ngừa thiết thực: Thứ nhất, hạn chế giao dịch các khoản tiền mặt lớn trực tiếp tại quầy; ưu tiên sử dụng các phương thức thanh toán điện tử an toàn. Trong trường hợp bắt buộc phải rút tiền mặt số lượng lớn, cần đi cùng người thân và sắp xếp phương tiện đón trả ngay trước cửa ngân hàng. Thứ hai, quan sát kỹ lưỡng không gian xung quanh trước khi bước ra khỏi phòng giao dịch. Nếu phát hiện các đối tượng lảng vảng, che kín mặt hoặc có hành vi quan sát bất thường, cần lập tức quay trở lại bên trong và nhờ lực lượng bảo vệ hỗ trợ. Thứ ba, trong tình huống không may đối mặt với tội phạm có vũ trang, ưu tiên bảo toàn tính mạng là tối thượng. Tuyệt đối không chống cự hay giằng co tài sản một cách liều lĩnh; cố gắng ghi nhớ đặc điểm nhận dạng và hướng tẩu thoát để cung cấp cho cơ quan điều tra.",
+  "sentences": [
+   {
+    "id": "5.03#1",
+    "text": "Nhìn lại thủ đoạn gây án của các vụ cướp ngân hàng có vũ trang, chúng ta cần ghi nhớ ba nguyên tắc phòng ngừa thiết thực:",
+    "words": 27
+   },
+   {
+    "id": "5.03#2",
+    "text": "Thứ nhất, hạn chế giao dịch các khoản tiền mặt lớn trực tiếp tại quầy; ưu tiên sử dụng các phương thức thanh toán điện tử an toàn.",
+    "words": 28
+   },
+   {
+    "id": "5.03#3",
+    "text": "Trong trường hợp bắt buộc phải rút tiền mặt số lượng lớn, cần đi cùng người thân và sắp xếp phương tiện đón trả ngay trước cửa ngân hàng.",
+    "words": 29
+   },
+   {
+    "id": "5.03#4",
+    "text": "Thứ hai, quan sát kỹ lưỡng không gian xung quanh trước khi bước ra khỏi phòng giao dịch.",
+    "words": 18
+   },
+   {
+    "id": "5.03#5",
+    "text": "Nếu phát hiện các đối tượng lảng vảng, che kín mặt hoặc có hành vi quan sát bất thường, cần lập tức quay trở lại bên trong và nhờ lực lượng bảo vệ hỗ trợ.",
+    "words": 35
+   },
+   {
+    "id": "5.03#6",
+    "text": "Thứ ba, trong tình huống không may đối mặt với tội phạm có vũ trang, ưu tiên bảo toàn tính mạng là tối thượng.",
+    "words": 24
+   },
+   {
+    "id": "5.03#7",
+    "text": "Tuyệt đối không chống cự hay giằng co tài sản một cách liều lĩnh; cố gắng ghi nhớ đặc điểm nhận dạng và hướng tẩu thoát để cung cấp cho cơ quan điều tra.",
+    "words": 34
+   }
+  ]
+ },
+ {
+  "id": "5.04",
+  "act": 5,
+  "kind": "LOI",
+  "role": "H",
+  "direction": "lời kết chương trình",
+  "text": "Sự bình yên của cuộc sống hôm nay được đánh đổi bằng mồ hôi và sự cống hiến thầm lặng của những người lính gìn giữ an ninh trật tự. Cảm ơn quý vị đã theo dõi hồ sơ phân tích tâm lý tội phạm ngày hôm nay trên kênh Amber Eyes. Xin chào và hẹn gặp lại quý vị trong những tập tiếp theo.",
+  "sentences": [
+   {
+    "id": "5.04#1",
+    "text": "Sự bình yên của cuộc sống hôm nay được đánh đổi bằng mồ hôi và sự cống hiến thầm lặng của những người lính gìn giữ an ninh trật tự.",
+    "words": 30
+   },
+   {
+    "id": "5.04#2",
+    "text": "Cảm ơn quý vị đã theo dõi hồ sơ phân tích tâm lý tội phạm ngày hôm nay trên kênh Amber Eyes.",
+    "words": 22
+   },
+   {
+    "id": "5.04#3",
+    "text": "Xin chào và hẹn gặp lại quý vị trong những tập tiếp theo.",
+    "words": 13
+   }
+  ]
+ }
+]

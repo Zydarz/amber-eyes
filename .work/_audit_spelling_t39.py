@@ -6,9 +6,9 @@ ROOT = Path(r"d:\TEST\Gax\amber-eyes")
 
 def audit():
     files = [
-        (ROOT / "01_KICH_BAN" / "Tap39" / "kichban_tap39_19112026.md", "VN"),
-        (ROOT / "01_KICH_BAN" / "Tap39_EN" / "kichban_tap39_EN.md", "EN"),
-        (ROOT / "01_KICH_BAN" / "Tap39_JA" / "kichban_tap39_JA.md", "JA"),
+        (ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap39" / "kichban_tap39_19112026.md", "VN"),
+        (ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap39_EN" / "kichban_tap39_EN.md", "EN"),
+        (ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap39_JA" / "kichban_tap39_JA.md", "JA"),
     ]
     
     for path, lang in files:

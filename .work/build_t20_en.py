@@ -2,7 +2,7 @@ import os, shutil
 
 header = """# CRIMINAL PSYCHOLOGY AUDIO / PODCAST SCRIPT — ENGLISH EDITION
 **Topic:** Predatory stalking, voyeurism, covert narcissism, tonic immobility & cognitive shock — the murder of Lauren Giddings at Mercer Law School.
-**Translated from:** `01_KICH_BAN/Tap20/kichban_tap20_23102026.md`. One English sentence for every Vietnamese sentence, same structure, same IDs.
+**Translated from:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap20/kichban_tap20_23102026.md`. One English sentence for every Vietnamese sentence, same structure, same IDs.
 **Fact and legal review:** Based on public trial reporting, official police interrogation transcripts, and verified public records; analysis of real people is framed as opinion.
 
 ---
@@ -303,9 +303,9 @@ Until our next investigative case file, stay vigilant, stay safe, and take care.
 **[BGM]:** Warm, solemn piano swells gently before fading out completely by the fifth second.
 """
 
-os.makedirs("01_KICH_BAN/Tap20_EN", exist_ok=True)
-p1 = "01_KICH_BAN/Tap20_EN/kichban_tap20_EN.md"
-p2 = "01_KICH_BAN/Tap20/kichban_tap20_EN.md"
+os.makedirs("01_KICH_BAN/Ho_So_Toi_Pham/Tap20_EN", exist_ok=True)
+p1 = "01_KICH_BAN/Ho_So_Toi_Pham/Tap20_EN/kichban_tap20_EN.md"
+p2 = "01_KICH_BAN/Ho_So_Toi_Pham/Tap20/kichban_tap20_EN.md"
 with open(p1, "w", encoding="utf-8") as f:
     f.write(header)
 shutil.copy(p1, p2)

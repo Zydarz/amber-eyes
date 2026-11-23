@@ -13,7 +13,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path(__file__).resolve().parents[1]
 BG = ROOT / "assets" / "bg"
 WORK = ROOT / ".work"
-OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap10"
+OUT_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap10"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 jobs = json.loads((WORK / "bg_jobs_tap10.json").read_text(encoding="utf-8"))
@@ -62,7 +62,7 @@ lines.append(f"| **Độ sáng trung bình (Mean Luminance)** | **{avg_mean:.1f}
 lines.append(f"| **Độ tương phản (Chiaroscuro Std)** | **{avg_std:.1f}** | **XUẤT SẮC** | Độ sâu chiaroscuro cao, phân định sáng - tối sắc nét |")
 lines.append("| **Tuân thủ quy tắc V5 (Nhân vật thật)** | **100% Bóng lưng / Khuất mặt** | **ĐẠT (100%)** | Tuyệt đối không vẽ mặt thật Colleen Stan, Cameron Hooker, Janice Hooker, Frank Ochberg |")
 lines.append("| **Tuân thủ quy tắc V9 (An toàn nội dung)** | **100% Không bạo lực, máu me** | **ĐẠT (100%)** | Trọng tâm phân tích mô hình Bất lực tập nhiễm Martin Seligman, Gắn kết chấn thương, bục tòa án và 4 Red Flags |")
-lines.append("| **Bảng tổng hợp (Contact Sheet)** | **Đã xuất bản** | **HOÀN THÀNH** | `02_SAN_XUAT/Tap10/contact_sheet_t10.png` |")
+lines.append("| **Bảng tổng hợp (Contact Sheet)** | **Đã xuất bản** | **HOÀN THÀNH** | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap10/contact_sheet_t10.png` |")
 lines.append("")
 lines.append("---")
 lines.append("")

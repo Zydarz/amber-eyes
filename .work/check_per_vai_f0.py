@@ -13,7 +13,7 @@ from g9_decide import f0_p2, fix_octave  # noqa: E402
 from check_reel_f0 import ac_of  # noqa: E402
 
 FF = HERE / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
-OUT = ROOT / "02_SAN_XUAT" / "Tap02" / "xuat_ban"
+OUT = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02" / "xuat_ban"
 EXPECT = {"H": (130.4, "nam"), "D": (198.3, "nam"), "C": (214.3, "nu"),
           "N1": (184.6, "nu"), "N2": (285.7, "nu")}
 

@@ -70,7 +70,7 @@ build_audio3.py → video
 
 ### 3.1 Ghép N1/N2 → W1–W4 cho 29 tập (chốt 29/10/2026)
 
-Nguồn: chú thích vai trong `01_KICH_BAN/TapXX/kichban_tapXX_*.md`. Bản máy đọc: `.work/voxcpm_cast_n_tap.json`. **Chưa vào `edition.py`** — chỉ khai sau khi qua cổng V8 và người dùng đồng ý (L4, L8).
+Nguồn: chú thích vai trong `01_KICH_BAN/Ho_So_Toi_Pham/TapXX/kichban_tapXX_*.md`. Bản máy đọc: `.work/voxcpm_cast_n_tap.json`. **Chưa vào `edition.py`** — chỉ khai sau khi qua cổng V8 và người dùng đồng ý (L4, L8).
 
 **Cách ghép:** nữ trẻ / thanh niên = W1 · nữ trung niên / lớn tuổi = W2 · nam trẻ / thanh niên = W3 · nam trung niên / lớn tuổi = W4.
 **✎ = vị trí đã sửa chú thích trong kịch bản tiếng Việt ngày 29/10/2026** (thêm giới/tuổi để cột "→" đọc thẳng từ kịch bản, không phải đoán). Bản gốc từng file lưu ở `.work/_cu/kichban_truoc_sua_vai_N_20261029/`. Chỉ đổi dòng chú thích trong ngoặc; **lời đọc không đổi** (đã kiểm: tách câu 18/18 file giống hệt bản cũ, trừ trường `direction`, trường này chỉ để tham khảo).

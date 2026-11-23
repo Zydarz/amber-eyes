@@ -258,7 +258,7 @@ Toàn bộ sự kiện, mốc thời gian, tên nhân vật, chứng cứ hiện
 
 {SOURCES_VI}
 
-Danh mục nguồn chi tiết kèm biên bản đối chiếu dữ kiện lịch sử được lưu trữ tại: 02_SAN_XUAT/Tap09/nguon_tham_khao.md
+Danh mục nguồn chi tiết kèm biên bản đối chiếu dữ kiện lịch sử được lưu trữ tại: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap09/nguon_tham_khao.md
 
 🆘 Nếu bạn biết một trẻ em đang bị bạo hành hoặc gia đình cần trợ giúp tâm lý, hãy liên hệ:
 • Tổng đài quốc gia bảo vệ trẻ em: 111 (Việt Nam, miễn phí, 24/7) — http://tongdai111.vn
@@ -314,7 +314,7 @@ All case chronologies, data points, forensic evidence, and quotations cross-refe
 
 {SOURCES_EN}
 
-Comprehensive source documentation and verification logs archived at: 02_SAN_XUAT/Tap09_EN/nguon_tham_khao_EN.md
+Comprehensive source documentation and verification logs archived at: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_EN/nguon_tham_khao_EN.md
 
 🆘 If you or someone you know is in crisis, experiencing domestic abuse, or facing coercive group manipulation:
 • National Suicide and Crisis Lifeline (US & Canada): Call or text 988 (24/7, Free & Confidential) — https://988lifeline.org
@@ -369,7 +369,7 @@ This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higg
 
 {SOURCES_JA}
 
-詳細な出典および歴史的事実の対照記録は以下に保管されています：02_SAN_XUAT/Tap09_JA/nguon_tham_khao_JA.md
+詳細な出典および歴史的事実の対照記録は以下に保管されています：02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_JA/nguon_tham_khao_JA.md
 
 🆘 心の健康相談および危機対応窓口（通話無料・24時間対応）:
 • こころの健康相談統一ダイヤル: 0570-064-556
@@ -425,7 +425,7 @@ This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higg
 
 {SOURCES_KO}
 
-상세한 출처 및 사실관계 대조 기록은 다음 위치에 보관되어 있습니다: 02_SAN_XUAT/Tap09_KO/nguon_tham_khao_KO.md
+상세한 출처 및 사실관계 대조 기록은 다음 위치에 보관되어 있습니다: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap09_KO/nguon_tham_khao_KO.md
 
 🆘 위기상담 및 심리 지원 안내 (한국 및 국제 24시간 무료 운영):
 • 자살예방 상담전화: 109
@@ -631,42 +631,42 @@ def main():
 
     # 1. TIẾNG VIỆT
     print("\n[1/4] Ghi file Tiếng Việt (Tap09)...")
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09" / "mo_ta.txt", DESC_VI)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09" / "xuat_ban" / "mo_ta.txt", DESC_VI)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09" / "nguon_mo_ta.txt", SOURCES_VI)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09" / "nguon_tham_khao.md", FULL_NGUON_THAM_KHAO_VI)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09" / "xuat_ban" / "nguon_tham_khao.md", FULL_NGUON_THAM_KHAO_VI)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09" / "mo_ta.txt", DESC_VI)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09" / "xuat_ban" / "mo_ta.txt", DESC_VI)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09" / "nguon_mo_ta.txt", SOURCES_VI)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09" / "nguon_tham_khao.md", FULL_NGUON_THAM_KHAO_VI)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09" / "xuat_ban" / "nguon_tham_khao.md", FULL_NGUON_THAM_KHAO_VI)
 
     # 2. TIẾNG ANH
     print("\n[2/4] Ghi file Tiếng Anh (Tap09_EN)...")
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_EN" / "description.txt", DESC_EN)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_EN" / "mo_ta.txt", DESC_EN)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_EN" / "xuat_ban" / "description.txt", DESC_EN)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_EN" / "xuat_ban" / "mo_ta.txt", DESC_EN)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_EN" / "nguon_mo_ta_EN.txt", SOURCES_EN)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_EN" / "nguon_tham_khao_EN.md", FULL_NGUON_THAM_KHAO_EN)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_EN" / "xuat_ban" / "nguon_tham_khao_EN.md", FULL_NGUON_THAM_KHAO_EN)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_EN" / "CHU_CO_DINH_EN.md", CHU_CO_DINH_EN)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_EN" / "description.txt", DESC_EN)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_EN" / "mo_ta.txt", DESC_EN)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_EN" / "xuat_ban" / "description.txt", DESC_EN)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_EN" / "xuat_ban" / "mo_ta.txt", DESC_EN)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_EN" / "nguon_mo_ta_EN.txt", SOURCES_EN)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_EN" / "nguon_tham_khao_EN.md", FULL_NGUON_THAM_KHAO_EN)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_EN" / "xuat_ban" / "nguon_tham_khao_EN.md", FULL_NGUON_THAM_KHAO_EN)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_EN" / "CHU_CO_DINH_EN.md", CHU_CO_DINH_EN)
 
     # 3. TIẾNG NHẬT
     print("\n[3/4] Ghi file Tiếng Nhật (Tap09_JA)...")
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_JA" / "description.txt", DESC_JA)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_JA" / "mo_ta.txt", DESC_JA)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_JA" / "xuat_ban" / "description.txt", DESC_JA)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_JA" / "xuat_ban" / "mo_ta.txt", DESC_JA)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_JA" / "nguon_mo_ta_JA.txt", SOURCES_JA)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_JA" / "nguon_tham_khao_JA.md", FULL_NGUON_THAM_KHAO_JA)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_JA" / "xuat_ban" / "nguon_tham_khao_JA.md", FULL_NGUON_THAM_KHAO_JA)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_JA" / "description.txt", DESC_JA)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_JA" / "mo_ta.txt", DESC_JA)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_JA" / "xuat_ban" / "description.txt", DESC_JA)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_JA" / "xuat_ban" / "mo_ta.txt", DESC_JA)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_JA" / "nguon_mo_ta_JA.txt", SOURCES_JA)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_JA" / "nguon_tham_khao_JA.md", FULL_NGUON_THAM_KHAO_JA)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_JA" / "xuat_ban" / "nguon_tham_khao_JA.md", FULL_NGUON_THAM_KHAO_JA)
 
     # 4. TIẾNG HÀN
     print("\n[4/4] Ghi file Tiếng Hàn (Tap09_KO)...")
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_KO" / "description.txt", DESC_KO)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_KO" / "mo_ta.txt", DESC_KO)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_KO" / "xuat_ban" / "description.txt", DESC_KO)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_KO" / "xuat_ban" / "mo_ta.txt", DESC_KO)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_KO" / "nguon_mo_ta_KO.txt", SOURCES_KO)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_KO" / "nguon_tham_khao_KO.md", FULL_NGUON_THAM_KHAO_KO)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap09_KO" / "xuat_ban" / "nguon_tham_khao_KO.md", FULL_NGUON_THAM_KHAO_KO)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_KO" / "description.txt", DESC_KO)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_KO" / "mo_ta.txt", DESC_KO)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_KO" / "xuat_ban" / "description.txt", DESC_KO)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_KO" / "xuat_ban" / "mo_ta.txt", DESC_KO)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_KO" / "nguon_mo_ta_KO.txt", SOURCES_KO)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_KO" / "nguon_tham_khao_KO.md", FULL_NGUON_THAM_KHAO_KO)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_KO" / "xuat_ban" / "nguon_tham_khao_KO.md", FULL_NGUON_THAM_KHAO_KO)
 
     print("\n==================================================================")
     print("HOÀN TẤT GHI TẤT CẢ FILE MÔ TẢ VÀ TÀI LIỆU XUẤT BẢN TẬP 09!")

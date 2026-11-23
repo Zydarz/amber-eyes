@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-with open('01_KICH_BAN/Tap48_EN/kichban_tap48_EN.md', 'r', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap48_EN/kichban_tap48_EN.md', 'r', encoding='utf-8') as f:
     text = f.read()
 
 # Replace mojibake sequences common from UTF-8 misinterpreted as CP1252
@@ -19,6 +19,6 @@ for old, new in replacements:
         print(f"Replacing {count} occurrences of {repr(old)} with {repr(new)}")
         text = text.replace(old, new)
 
-with open('01_KICH_BAN/Tap48_EN/kichban_tap48_EN.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap48_EN/kichban_tap48_EN.md', 'w', encoding='utf-8') as f:
     f.write(text)
 print("Updated Tap 48 EN encoding clean-up!")

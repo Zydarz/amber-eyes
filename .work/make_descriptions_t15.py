@@ -314,7 +314,7 @@ def main():
             sys.exit(1)
 
     # 2. Ghi các file Tiếng Việt
-    dir_vi = ROOT / "02_SAN_XUAT" / "Tap15"
+    dir_vi = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15"
     write_file_lf(dir_vi / "mo_ta.txt", DESC_VI)
     write_file_lf(dir_vi / "xuat_ban" / "mo_ta.txt", DESC_VI)
     write_file_lf(dir_vi / "nguon_mo_ta.txt", SOURCES_VI)
@@ -323,7 +323,7 @@ def main():
     print("-> Đã ghi xong các file Tiếng Việt (Tap15)")
 
     # 3. Ghi các file Tiếng Anh
-    dir_en = ROOT / "02_SAN_XUAT" / "Tap15_EN"
+    dir_en = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_EN"
     write_file_lf(dir_en / "description.txt", DESC_EN)
     write_file_lf(dir_en / "mo_ta.txt", DESC_EN)
     write_file_lf(dir_en / "xuat_ban" / "description.txt", DESC_EN)
@@ -334,7 +334,7 @@ def main():
     print("-> Đã ghi xong các file Tiếng Anh (Tap15_EN)")
 
     # 4. Ghi các file Tiếng Nhật
-    dir_ja = ROOT / "02_SAN_XUAT" / "Tap15_JA"
+    dir_ja = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_JA"
     write_file_lf(dir_ja / "description.txt", DESC_JA)
     write_file_lf(dir_ja / "mo_ta.txt", DESC_JA)
     write_file_lf(dir_ja / "xuat_ban" / "description.txt", DESC_JA)
@@ -345,7 +345,7 @@ def main():
     print("-> Đã ghi xong các file Tiếng Nhật (Tap15_JA)")
 
     # 5. Ghi các file Tiếng Hàn
-    dir_ko = ROOT / "02_SAN_XUAT" / "Tap15_KO"
+    dir_ko = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15_KO"
     write_file_lf(dir_ko / "description.txt", DESC_KO)
     write_file_lf(dir_ko / "mo_ta.txt", DESC_KO)
     write_file_lf(dir_ko / "xuat_ban" / "description.txt", DESC_KO)

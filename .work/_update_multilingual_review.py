@@ -4,9 +4,9 @@ import sys, re
 sys.path.insert(0, '.work')
 import parse_kichban as PK
 
-p_vn = PK.parse_file('01_KICH_BAN/Tap16/kichban_tap16_23102026.md')
+p_vn = PK.parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap16/kichban_tap16_23102026.md')
 
-review_path = '01_KICH_BAN/Tap16/REVIEW_kichban_tap16_multilingual.md'
+review_path = '01_KICH_BAN/Ho_So_Toi_Pham/Tap16/REVIEW_kichban_tap16_multilingual.md'
 content = open(review_path, encoding='utf-8').read()
 
 # Update summary line

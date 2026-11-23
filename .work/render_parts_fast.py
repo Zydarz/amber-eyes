@@ -103,7 +103,7 @@ def main():
 
     # QC A9.4
     print("\n=== KIỂM DUYỆT CUỐI CÙNG QC A9.4 ===")
-    master_file = ROOT / "02_SAN_XUAT" / "Tap07" / "xuat_ban" / "Tap07_master.mp4"
+    master_file = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07" / "xuat_ban" / "Tap07_master.mp4"
     res_qc = subprocess.run([str(FF), "-v", "error", "-i", str(master_file), "-f", "null", "-"],
                             capture_output=True, text=True)
     if res_qc.returncode == 0 and not res_qc.stderr.strip():

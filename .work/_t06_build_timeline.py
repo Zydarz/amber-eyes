@@ -34,11 +34,11 @@ G_DEFAULT = 0.75
 SIM_MIN = 0.42    # ngưỡng chấp nhận ghép element cũ ↔ mới
 
 CFG = {
-    "vi": {"kb": "01_KICH_BAN/Tap06/kichban_tap06_23102026.md",
+    "vi": {"kb": "01_KICH_BAN/Ho_So_Toi_Pham/Tap06/kichban_tap06_23102026.md",
            "old": "_t06_old_timeline_vi.json", "out": "timeline_s_t06.json"},
-    "en": {"kb": "01_KICH_BAN/Tap06_EN/kichban_tap06_EN.md",
+    "en": {"kb": "01_KICH_BAN/Ho_So_Toi_Pham/Tap06_EN/kichban_tap06_EN.md",
            "old": "_t06_old_timeline_en.json", "out": "timeline_s_EN_t06.json"},
-    "ja": {"kb": "01_KICH_BAN/Tap06_JA/kichban_tap06_JA.md",
+    "ja": {"kb": "01_KICH_BAN/Ho_So_Toi_Pham/Tap06_JA/kichban_tap06_JA.md",
            "old": "timeline_s_JA_t05.json", "out": "timeline_s_JA_t06.json", "anchor": False},
 }
 lang = (sys.argv[1] if len(sys.argv) > 1 else "vi").lower()

@@ -297,21 +297,21 @@ plan_footers = {
 first_seen.clear()
 sec6_vi, shots_vi = build_shot_table("vi")
 plan_vi = plan_headers["vi"] + sec6_vi + "\n" + plan_footers["vi"]
-Path(ROOT / "02_SAN_XUAT/Tap15/KeHoach_Video_Tap15.md").write_text(plan_vi, encoding="utf-8")
+Path(ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap15/KeHoach_Video_Tap15.md").write_text(plan_vi, encoding="utf-8")
 json.dump(shots_vi, open(WORK / "shots_t15.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
 # EN
 first_seen.clear()
 sec6_en, shots_en = build_shot_table("en")
 plan_en = plan_headers["en"] + sec6_en + "\n" + plan_footers["en"]
-Path(ROOT / "02_SAN_XUAT/Tap15_EN/KeHoach_Video_Tap15_EN.md").write_text(plan_en, encoding="utf-8")
+Path(ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_EN/KeHoach_Video_Tap15_EN.md").write_text(plan_en, encoding="utf-8")
 json.dump(shots_en, open(WORK / "shots_EN_t15.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
 # JA
 first_seen.clear()
 sec6_ja, shots_ja = build_shot_table("ja")
 plan_ja = plan_headers["ja"] + sec6_ja + "\n" + plan_footers["ja"]
-Path(ROOT / "02_SAN_XUAT/Tap15_JA/KeHoach_Video_Tap15_JA.md").write_text(plan_ja, encoding="utf-8")
+Path(ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_JA/KeHoach_Video_Tap15_JA.md").write_text(plan_ja, encoding="utf-8")
 json.dump(shots_ja, open(WORK / "shots_JA_t15.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
 print("Updated Tap 15 plans with correct transition syntax!")

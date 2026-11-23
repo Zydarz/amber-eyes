@@ -331,6 +331,6 @@ Until we meet again in our next investigative journey.
 
 FULL_EN = HEADER_EN + "\n" + ACT1_EN + "\n\n---\n\n" + ACT2_EN + "\n\n---\n\n" + ACT3_EN + "\n\n---\n\n" + ACT4_EN + "\n\n---\n\n" + ACT5_EN
 
-with open('01_KICH_BAN/Tap52_EN/kichban_tap52_EN.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap52_EN/kichban_tap52_EN.md', 'w', encoding='utf-8') as f:
     f.write(FULL_EN.strip() + '\n')
 print('Tap 52 EN written successfully.')

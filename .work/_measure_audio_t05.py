@@ -3,7 +3,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 from pathlib import Path
 
 FF = Path(".work/ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffmpeg.exe")
-mp3 = Path("02_SAN_XUAT/Tap05/xuat_ban/Tap05_master.mp3")
+mp3 = Path("02_SAN_XUAT/Ho_So_Toi_Pham/Tap05/xuat_ban/Tap05_master.mp3")
 
 # Loudnorm measurement
 r = subprocess.run([str(FF), "-hide_banner", "-i", str(mp3), "-af", "loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"], capture_output=True, text=True, encoding="utf-8")

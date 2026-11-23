@@ -3,7 +3,7 @@ import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-lines = open("01_KICH_BAN/Tap02_JA/kichban_tap02_JA_backup.md", encoding="utf-8").readlines()
+lines = open("01_KICH_BAN/Ho_So_Toi_Pham/Tap02_JA/kichban_tap02_JA_backup.md", encoding="utf-8").readlines()
 
 for i, l in enumerate(lines):
     if l.startswith("**ホスト**") or l.startswith("**捜査官**") or l.startswith("**心理学者**") or l.startswith("**一般人**"):

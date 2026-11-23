@@ -15,7 +15,7 @@ data = json.loads((ROOT / ".work/script_tap06.json").read_text(encoding="utf-8-s
 S = {s["id"]: s["text"] for el in data if el.get("kind") == "LOI"
      for s in el.get("sentences", [])}
 
-plan = (ROOT / "02_SAN_XUAT/Tap06/KeHoach_Video_Tap06.md").read_text(encoding="utf-8-sig")
+plan = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap06/KeHoach_Video_Tap06.md").read_text(encoding="utf-8-sig")
 rows = []
 for L in plan.splitlines():
     if not L.startswith("| ") or "|" not in L:

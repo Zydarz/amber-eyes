@@ -13,7 +13,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path(__file__).resolve().parents[1]
 BG = ROOT / "assets" / "bg"
 WORK = ROOT / ".work"
-OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap11"
+OUT_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap11"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 jobs = json.loads((WORK / "bg_jobs_tap11.json").read_text(encoding="utf-8"))

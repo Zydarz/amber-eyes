@@ -8,8 +8,8 @@ spec = importlib.util.spec_from_file_location("qc", ".work/_qc_ko_parity.py")
 qc = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(qc)
 
-vn = PK.parse_lines(open("01_KICH_BAN/Tap01/kichban_tap01_22102026_v2.md", encoding="utf-8").read().splitlines())
-ko = PK.parse_lines(open("01_KICH_BAN/Tap01_KO/kichban_tap01_KO.md", encoding="utf-8").read().splitlines())
+vn = PK.parse_lines(open("01_KICH_BAN/Ho_So_Toi_Pham/Tap01/kichban_tap01_22102026_v2.md", encoding="utf-8").read().splitlines())
+ko = PK.parse_lines(open("01_KICH_BAN/Ho_So_Toi_Pham/Tap01_KO/kichban_tap01_KO.md", encoding="utf-8").read().splitlines())
 
 for eid in ("1.03", "1.13", "3.02"):
     a = next(e for e in vn if e["id"] == eid)

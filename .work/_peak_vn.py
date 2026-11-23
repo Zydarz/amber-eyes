@@ -1,7 +1,7 @@
 ﻿import subprocess, pathlib, re
 FF = r"D:\TEST\Gax\amber-eyes\.work\ffmpeg\ffmpeg-n9.0-latest-win64-lgpl-shared-9.0\bin\ffmpeg.exe"
-for name in (r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Tap03\xuat_ban\Tap03_master.mp4",
-             r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Tap03_EN\xuat_ban\Tap03_EN_master.mp4"):
+for name in (r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Ho_So_Toi_Pham\Tap03\xuat_ban\Tap03_master.mp4",
+             r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Ho_So_Toi_Pham\Tap03_EN\xuat_ban\Tap03_EN_master.mp4"):
     p = pathlib.Path(name)
     if not p.exists():
         print(p.name, "KHONG CO"); continue

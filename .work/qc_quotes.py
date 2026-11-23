@@ -1,7 +1,7 @@
 import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
-with open('01_KICH_BAN/Tap04/kichban_tap04_23102026.md', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap04/kichban_tap04_23102026.md', encoding='utf-8') as f:
     text = f.read()
 
 for i, line in enumerate(text.splitlines(), 1):

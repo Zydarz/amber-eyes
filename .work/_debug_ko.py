@@ -1,8 +1,8 @@
 import re, sys, io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-vn8 = open('01_KICH_BAN/Tap08/kichban_tap08_23102026.md', encoding='utf-8').read()
-ko8 = open('01_KICH_BAN/Tap08_KO/kichban_tap08_KO.md', encoding='utf-8').read()
+vn8 = open('01_KICH_BAN/Ho_So_Toi_Pham/Tap08/kichban_tap08_23102026.md', encoding='utf-8').read()
+ko8 = open('01_KICH_BAN/Ho_So_Toi_Pham/Tap08_KO/kichban_tap08_KO.md', encoding='utf-8').read()
 
 vn_q = re.findall(r"'([^']{2,})'", vn8)
 ko_q = re.findall(r"'([^']{2,})'", ko8)

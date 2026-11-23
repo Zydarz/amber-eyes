@@ -15,9 +15,9 @@ SAFE_EN = ["blood type", "blood pressure", "blood vessel", "bloodstream", "blood
            "struggle to survive", "struggled to"]
 
 files = {
-    "VN": ROOT / "02_SAN_XUAT" / "Tap08" / "KeHoach_Video_Tap08.md",
-    "EN": ROOT / "02_SAN_XUAT" / "Tap08_EN" / "KeHoach_Video_Tap08_EN.md",
-    "JA": ROOT / "02_SAN_XUAT" / "Tap08_JA" / "KeHoach_Video_Tap08_JA.md",
+    "VN": ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08" / "KeHoach_Video_Tap08.md",
+    "EN": ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_EN" / "KeHoach_Video_Tap08_EN.md",
+    "JA": ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_JA" / "KeHoach_Video_Tap08_JA.md",
 }
 for lang, p in files.items():
     forb = FORB_EN if lang == "EN" else FORB_VN

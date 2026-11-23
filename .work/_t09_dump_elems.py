@@ -5,7 +5,7 @@ sys.path.insert(0, str(ROOT/".work"))
 from parse_kichban import parse_file
 
 # Nội dung từng element lời của Tập 09 (VN) — cần để gán nền khớp (H3)
-els = parse_file(str(ROOT/"01_KICH_BAN/Tap09/kichban_tap09_23102026.md"))
+els = parse_file(str(ROOT/"01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_23102026.md"))
 print("=== TẬP 09: nội dung từng element lời ===")
 for e in els:
     if e["kind"] != "LOI": continue

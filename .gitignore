@@ -82,8 +82,7 @@ flux2_klein_result.png
 
 # ---------- Thumbnail Tap01-Tap15 (media da xoa: Tap01/02 02/11, Tap03-Tap09 16/11, Tap10-Tap15 19/11/2026) ----------
 # package.py sinh lai thumbnail khi chay lai -> ignore de khong bi track lai
-02_SAN_XUAT/Tap0[1-9]*/xuat_ban/thumbnail.png
-02_SAN_XUAT/Tap1[0-5]*/xuat_ban/thumbnail.png
+02_SAN_XUAT/**/xuat_ban/thumbnail.png
 
 # ---------- Ban copy trung thumbnail (Tap06_EN: Tap06_EN_thumb.png vs thumbnail.png) ----------
 # Chi 1 thumbnail duoc commit, ten chuan la xuat_ban/thumbnail.png (package.py thumbnail()).

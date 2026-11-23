@@ -723,7 +723,7 @@ SOURCES & EVIDENCE
 • Ontario Superior Court of Justice — R. v. Williams, 2010 ONSC 5946
 • Ontario Provincial Police (OPP) & Belleville Police Service reports
 • Interrogation transcript dated February 7, 2010 · Detective Jim Smyth testimony
-• Script dossier: 01_KICH_BAN/Tap02_EN/kichban_tap02_EN.md
+• Script dossier: 01_KICH_BAN/Ho_So_Toi_Pham/Tap02_EN/kichban_tap02_EN.md
 
 ——————
 VIEWER NOTICE
@@ -863,7 +863,7 @@ MO_TA_DAI_JA = {
 • オンタリオ州高等裁判所判決文 — R. v. Williams, 2010 ONSC 5946
 • オンタリオ州警察（OPP）およびベルビル警察捜査報告書
 • 2010年2月7日尋問調書 · Jim Smyth刑事法廷証言
-• 本編脚本：01_KICH_BAN/Tap02_JA/kichban_tap02_JA.md
+• 本編脚本：01_KICH_BAN/Ho_So_Toi_Pham/Tap02_JA/kichban_tap02_JA.md
 
 ——————
 注意事項

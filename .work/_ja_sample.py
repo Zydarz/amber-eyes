@@ -21,7 +21,7 @@ n = int(args[0]) if args and args[0].isdigit() else 5
 eps = args[1:] if args and args[0].isdigit() else args
 
 for ep in eps:
-    ja_p = HERE.parent / "01_KICH_BAN" / f"Tap{ep}_JA" / f"kichban_tap{ep}_JA.md"
+    ja_p = HERE.parent / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap{ep}_JA" / f"kichban_tap{ep}_JA.md"
     if not ja_p.exists():
         print(f"Tap{ep}: chưa có file JA")
         continue

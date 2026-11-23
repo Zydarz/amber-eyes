@@ -11,7 +11,7 @@ ROOT = Path("D:/TEST/Gax/amber-eyes")
 WORK = ROOT / ".work"
 REPORT = ROOT / "90_LUU_TRU/BaoCao_QC_Tap03_VN_MasterVideo_20261106.md"
 FF = WORK / "ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffprobe.exe"
-MP4 = ROOT / "02_SAN_XUAT/Tap03/xuat_ban/Tap03_master.mp4"
+MP4 = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/xuat_ban/Tap03_master.mp4"
 QCLOG = WORK / "_qc_final_t03.log"
 
 def read_text_any(p):

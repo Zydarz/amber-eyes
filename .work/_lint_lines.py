@@ -12,7 +12,7 @@ TOK = {'01': ['North'], '02': ['DNA', 'Flags', 'Red'], '03': ['Bureau', 'had'],
        '24': ['DNA']}
 
 for tap, toks in TOK.items():
-    kp = '01_KICH_BAN/Tap%s_KO/kichban_tap%s_KO.md' % (tap, tap)
+    kp = '01_KICH_BAN/Ho_So_Toi_Pham/Tap%s_KO/kichban_tap%s_KO.md' % (tap, tap)
     vp = '01_KICH_BAN/' + SRC[tap]
     if not os.path.exists(kp):
         continue

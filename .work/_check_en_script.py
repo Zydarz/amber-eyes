@@ -4,7 +4,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 import parse_kichban
 import re
 
-res = parse_kichban.parse_file('01_KICH_BAN/Tap10_EN/kichban_tap10_EN.md')
+res = parse_kichban.parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap10_EN/kichban_tap10_EN.md')
 
 issues = []
 for elem in res:

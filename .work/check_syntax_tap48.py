@@ -2,9 +2,9 @@
 import re
 
 files = {
-    'VN': '01_KICH_BAN/Tap48/kichban_tap48_19112026.md',
-    'EN': '01_KICH_BAN/Tap48_EN/kichban_tap48_EN.md',
-    'JA': '01_KICH_BAN/Tap48_JA/kichban_tap48_JA.md'
+    'VN': '01_KICH_BAN/Ho_So_Toi_Pham/Tap48/kichban_tap48_19112026.md',
+    'EN': '01_KICH_BAN/Ho_So_Toi_Pham/Tap48_EN/kichban_tap48_EN.md',
+    'JA': '01_KICH_BAN/Ho_So_Toi_Pham/Tap48_JA/kichban_tap48_JA.md'
 }
 
 for lang, path in files.items():

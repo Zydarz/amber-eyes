@@ -7,11 +7,11 @@ Tập lệnh cập nhật nội dung lâm sàng chuyên sâu cho Tập 32 (Ted B
 Đảm bảo 100% đồng bộ số câu (238 câu) và cấu trúc elements trên cả VN, EN, JA.
 """
 
-with open("01_KICH_BAN/Tap32/kichban_tap32_19112026.md", "r", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32/kichban_tap32_19112026.md", "r", encoding="utf-8") as f:
     vn = f.read()
-with open("01_KICH_BAN/Tap32_EN/kichban_tap32_EN.md", "r", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32_EN/kichban_tap32_EN.md", "r", encoding="utf-8") as f:
     en = f.read()
-with open("01_KICH_BAN/Tap32_JA/kichban_tap32_JA.md", "r", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32_JA/kichban_tap32_JA.md", "r", encoding="utf-8") as f:
     ja = f.read()
 
 # 1. Update 2.06: đưa PCL-R 39/40 vào
@@ -57,18 +57,18 @@ ja = ja.replace(
 )
 
 # Write updated files
-with open("01_KICH_BAN/Tap32/kichban_tap32_19112026.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32/kichban_tap32_19112026.md", "w", encoding="utf-8") as f:
     f.write(vn)
-with open("01_KICH_BAN/Tap32_EN/kichban_tap32_EN.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32_EN/kichban_tap32_EN.md", "w", encoding="utf-8") as f:
     f.write(en)
-with open("01_KICH_BAN/Tap32_JA/kichban_tap32_JA.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32_JA/kichban_tap32_JA.md", "w", encoding="utf-8") as f:
     f.write(ja)
 
 import subprocess, json
 for lang, fn, out in [
-    ("VN", "01_KICH_BAN/Tap32/kichban_tap32_19112026.md", ".work/t32_vn.json"),
-    ("EN", "01_KICH_BAN/Tap32_EN/kichban_tap32_EN.md", ".work/t32_en.json"),
-    ("JA", "01_KICH_BAN/Tap32_JA/kichban_tap32_JA.md", ".work/t32_ja.json"),
+    ("VN", "01_KICH_BAN/Ho_So_Toi_Pham/Tap32/kichban_tap32_19112026.md", ".work/t32_vn.json"),
+    ("EN", "01_KICH_BAN/Ho_So_Toi_Pham/Tap32_EN/kichban_tap32_EN.md", ".work/t32_en.json"),
+    ("JA", "01_KICH_BAN/Ho_So_Toi_Pham/Tap32_JA/kichban_tap32_JA.md", ".work/t32_ja.json"),
 ]:
     subprocess.run(["py", "-3", ".work/parse_kichban.py", fn, out])
     d = json.load(open(out, encoding="utf-8"))

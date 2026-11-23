@@ -381,6 +381,6 @@ Farewell for now, and we look forward to meeting you in our upcoming investigati
 **[BGM]:** Noble piano music swells with warmth and majesty, then slowly fades out completely by the 5th second.
 """
 
-with open('01_KICH_BAN/Tap45_EN/kichban_tap45_EN.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap45_EN/kichban_tap45_EN.md', 'w', encoding='utf-8') as f:
     f.write(header_en + content_en)
 print('Wrote EN script successfully')

@@ -68,7 +68,7 @@ def check_words():
     print("Checking for potential typos / strange characters...")
     weird_chars = re.compile(r'[^\x00-\x7F\u2010-\u2026\u2018-\u201D\u00C0-\u024F]')
     for ep in range(1, 30):
-        p = ROOT / "01_KICH_BAN" / f"Tap{ep:02d}_EN" / f"kichban_tap{ep:02d}_EN.md"
+        p = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap{ep:02d}_EN" / f"kichban_tap{ep:02d}_EN.md"
         text = open(p, encoding='utf-8').read()
         
         # Check weird chars (corrupted UTF-8 like Ã, Â, etc)

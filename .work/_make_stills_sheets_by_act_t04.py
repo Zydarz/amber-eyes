@@ -17,9 +17,9 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
 LANGS = {
-    "vi": (".work/video3_t04/stills", "02_SAN_XUAT/Tap04", "contact_sheet_t04_act"),
-    "en": (".work/video3_EN_t04/stills", "02_SAN_XUAT/Tap04_EN", "contact_sheet_t04_EN_act"),
-    "ja": (".work/video3_JA_t04/stills", "02_SAN_XUAT/Tap04_JA", "contact_sheet_t04_JA_act"),
+    "vi": (".work/video3_t04/stills", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap04", "contact_sheet_t04_act"),
+    "en": (".work/video3_EN_t04/stills", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap04_EN", "contact_sheet_t04_EN_act"),
+    "ja": (".work/video3_JA_t04/stills", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap04_JA", "contact_sheet_t04_JA_act"),
 }
 LANG = (sys.argv[1] if len(sys.argv) > 1 else "vi").lower()
 if LANG not in LANGS:

@@ -9,8 +9,8 @@ import parse_kichban as PK  # noqa: E402
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-VN = Path(__file__).resolve().parents[1] / "01_KICH_BAN" / "Tap24" / "kichban_tap24_23102026.md"
-KO = Path(__file__).resolve().parents[1] / "01_KICH_BAN" / "Tap24_KO" / "kichban_tap24_KO.md"
+VN = Path(__file__).resolve().parents[1] / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap24" / "kichban_tap24_23102026.md"
+KO = Path(__file__).resolve().parents[1] / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap24_KO" / "kichban_tap24_KO.md"
 
 vn = PK.parse_lines(VN.read_text(encoding="utf-8").splitlines())
 ko = PK.parse_lines(KO.read_text(encoding="utf-8").splitlines())

@@ -52,7 +52,7 @@ def main():
         time.sleep(20)
 
     # Verify Episode 03 deliverables
-    master_ja = ROOT / "02_SAN_XUAT" / "Tap03_JA" / "xuat_ban" / "Tap03_JA_master.mp3"
+    master_ja = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03_JA" / "xuat_ban" / "Tap03_JA_master.mp3"
     if master_ja.exists() and master_ja.stat().st_size > 1000000:
         log(f"✅ Verified Episode 03 JA Master Audio: {master_ja} ({master_ja.stat().st_size / 1024 / 1024:.2f} MB)")
     else:

@@ -51,7 +51,7 @@ if not sym_audio.exists():
     except Exception:
         pass
 
-OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap01_JA" / "xuat_ban"
+OUT_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap01_JA" / "xuat_ban"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 ROLE_REF_MAP = {
@@ -457,7 +457,7 @@ def main():
 
     can_nghe_lines = [
         f"# Câu cần nghe — 第01話 (Higgs Audio v3) — {time.strftime('%d/%m/%Y')}\n",
-        f"Dự kiến Master: `02_SAN_XUAT/Tap01_JA/xuat_ban/Tap01_JA_master.mp3` · {total:.1f} s (~{total/60:.1f} min) · {len(items_tl)} câu · lời đầu {items_tl[0]['start']} s · lời cuối {end_voice:.1f} s\n",
+        f"Dự kiến Master: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_JA/xuat_ban/Tap01_JA_master.mp3` · {total:.1f} s (~{total/60:.1f} min) · {len(items_tl)} câu · lời đầu {items_tl[0]['start']} s · lời cuối {end_voice:.1f} s\n",
         "| Mốc | Câu | Vai | CER | MOS | Câu gốc | ASR nghe được | Ghi chú |",
         "|---|---|---|---:|---:|---|---|---|"
     ]
@@ -502,7 +502,7 @@ def main():
 
     print("\n[Final Measurements] Master Audio:", flush=True)
     if master_mp3.exists():
-        parent_mp3 = ROOT / "02_SAN_XUAT" / "Tap01_JA" / "Tap01_JA_master.mp3"
+        parent_mp3 = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap01_JA" / "Tap01_JA_master.mp3"
         if not parent_mp3.exists() and not parent_mp3.is_symlink():
             try:
                 shutil.copy2(master_mp3, parent_mp3)
@@ -537,7 +537,7 @@ def main():
 
     # Write Production Plan (KeHoach_Video_Tap01_JA.md)
     cers = [r["cer"] for r in cer_rows]
-    kehoach_p = ROOT / "02_SAN_XUAT" / "Tap01_JA" / "KeHoach_Video_Tap01_JA.md"
+    kehoach_p = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap01_JA" / "KeHoach_Video_Tap01_JA.md"
     kehoach_content = f"""# 制作記録 第01話 · 「母の愛という名の毒薬」
 
 ## B1. 基本情報
@@ -552,7 +552,7 @@ def main():
 | TTS エンジン | **Higgs Audio v3** (`bosonai/higgs-audio-v3-tts-4b`) on Apple Silicon MLX |
 | 参照音声セット | **VoxCPM2 Voice Design Japanese** (`dataset_voxcpm2_ja`: H_JA, D_JA, C_JA, N1_JA, N2_JA) |
 | 音響仕様 | ステレオ3層構造: 5幕BGM + 連続環境音 + SFX効果音 |
-| マスター納品物 | `02_SAN_XUAT/Tap01_JA/xuat_ban/Tap01_JA_master.mp3` & `02_SAN_XUAT/Tap01_JA/xuat_ban/Tap01_JA_master.wav` |
+| マスター納品物 | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_JA/xuat_ban/Tap01_JA_master.mp3` & `02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_JA/xuat_ban/Tap01_JA_master.wav` |
 
 ---
 
@@ -581,21 +581,21 @@ def main():
 - **CER 中央値:** **{np.median(cers)*100:.2f}%** (平均 CER: **{np.mean(cers)*100:.2f}%**).
 - **Multi-take 最適化:** CER > 2% の全センテンスに対してシードを変更した Variant 1 を自動生成し、最良テイクを採用。
 - **自然性評価 UTMOSv2 MOS:** 平均 **{avg_mos:.2f} / 5.0** (範囲: {np.min(valid_moss):.2f} – {np.max(valid_moss):.2f}). 基準達成 (>= 3.0 / 5.0).
-- **聴取確認表:** [`02_SAN_XUAT/Tap01_JA/xuat_ban/CanNghe_Tap01_JA_higgs.md`](xuat_ban/CanNghe_Tap01_JA_higgs.md).
+- **聴取確認表:** [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_JA/xuat_ban/CanNghe_Tap01_JA_higgs.md`](xuat_ban/CanNghe_Tap01_JA_higgs.md).
 
 ---
 
 ## B3. 納品ファイル一覧
 
 1. **マスター音声:**
-   - MP3: [`02_SAN_XUAT/Tap01_JA/xuat_ban/Tap01_JA_master.mp3`](xuat_ban/Tap01_JA_master.mp3)
-   - WAV: [`02_SAN_XUAT/Tap01_JA/xuat_ban/Tap01_JA_master.wav`](xuat_ban/Tap01_JA_master.wav)
+   - MP3: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_JA/xuat_ban/Tap01_JA_master.mp3`](xuat_ban/Tap01_JA_master.mp3)
+   - WAV: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_JA/xuat_ban/Tap01_JA_master.wav`](xuat_ban/Tap01_JA_master.wav)
 2. **タイムラインデータ & 字幕:**
    - タイムライン: [`.work/timeline_s_JA.json`](../../.work/timeline_s_JA.json) ({total:.1f} 秒)
-   - 字幕 SRT: [`02_SAN_XUAT/Tap01_JA/xuat_ban/Tap01_JA.srt`](xuat_ban/Tap01_JA.srt) ({len(items_tl)} cues)
+   - 字幕 SRT: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_JA/xuat_ban/Tap01_JA.srt`](xuat_ban/Tap01_JA.srt) ({len(items_tl)} cues)
 3. **品質管理 (QC):**
    - 品質レポート: [`.work/quality_qc_utmos_ep01_ja.json`](../../.work/quality_qc_utmos_ep01_ja.json)
-   - 聴取確認シート: [`02_SAN_XUAT/Tap01_JA/xuat_ban/CanNghe_Tap01_JA_higgs.md`](xuat_ban/CanNghe_Tap01_JA_higgs.md)
+   - 聴取確認シート: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_JA/xuat_ban/CanNghe_Tap01_JA_higgs.md`](xuat_ban/CanNghe_Tap01_JA_higgs.md)
 """
     kehoach_p.write_text(kehoach_content, encoding="utf-8")
     print(f"Updated KeHoach report at {kehoach_p}", flush=True)

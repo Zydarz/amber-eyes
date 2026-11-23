@@ -49,7 +49,7 @@ NEW = [
     "5.06#4", "5.06#5", "5.06#6", "5.06#8",
 ]
 
-els = parse_file(str(ROOT / "01_KICH_BAN/Tap06/kichban_tap06_23102026.md"))
+els = parse_file(str(ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap06/kichban_tap06_23102026.md"))
 have = {}
 for e in els:
     if e.get("kind") == "LOI":

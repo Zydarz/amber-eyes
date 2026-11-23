@@ -11,7 +11,7 @@ except Exception:
     pass
 
 FF = Path(".work/ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffmpeg.exe")
-mp3 = Path("02_SAN_XUAT/Tap04/xuat_ban/Tap04_master.mp3")
+mp3 = Path("02_SAN_XUAT/Ho_So_Toi_Pham/Tap04/xuat_ban/Tap04_master.mp3")
 
 # 1. Đo loudness (ebur128)
 r1 = subprocess.run([str(FF), "-hide_banner", "-i", str(mp3), "-af", "ebur128", "-f", "null", "-"],

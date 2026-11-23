@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import re, os
 
-text = open('02_SAN_XUAT/Tap12/KeHoach_Video_Tap12.md', encoding='utf-8').read()
+text = open('02_SAN_XUAT/Ho_So_Toi_Pham/Tap12/KeHoach_Video_Tap12.md', encoding='utf-8').read()
 rows = [l for l in text.splitlines() if re.match(r'\|\s*[1-5]-\d+', l)]
 print('Total shot rows:', len(rows))
 

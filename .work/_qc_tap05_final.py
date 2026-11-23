@@ -4,7 +4,7 @@ from pathlib import Path
 
 FF = Path(".work/ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffmpeg.exe")
 FP = Path(".work/ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffprobe.exe")
-mp4 = Path("02_SAN_XUAT/Tap05/xuat_ban/Tap05_master.mp4")
+mp4 = Path("02_SAN_XUAT/Ho_So_Toi_Pham/Tap05/xuat_ban/Tap05_master.mp4")
 
 # 1. File size
 size_mb = mp4.stat().st_size / (1024 * 1024)

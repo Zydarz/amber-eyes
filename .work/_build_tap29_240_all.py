@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 Generate and update all Tap 29 script files to 240 sentences:
-1. 01_KICH_BAN/Tap29/kichban_tap29_23102026.md (VN)
-2. 01_KICH_BAN/Tap29/kichban_tap29_EN.md (EN)
-3. 01_KICH_BAN/Tap29_EN/kichban_tap29_EN.md (EN copy)
-4. 01_KICH_BAN/Tap29_JA/kichban_tap29_JA.md (JA)
+1. 01_KICH_BAN/Ho_So_Toi_Pham/Tap29/kichban_tap29_23102026.md (VN)
+2. 01_KICH_BAN/Ho_So_Toi_Pham/Tap29/kichban_tap29_EN.md (EN)
+3. 01_KICH_BAN/Ho_So_Toi_Pham/Tap29_EN/kichban_tap29_EN.md (EN copy)
+4. 01_KICH_BAN/Ho_So_Toi_Pham/Tap29_JA/kichban_tap29_JA.md (JA)
 5. .work/script_tap29.json (VN parsed)
 6. .work/script_tap29_JA.json (JA parsed)
 """
@@ -55,13 +55,13 @@ def main():
     print(f"Total sentences across 32 turns: VN={total_vn}, EN={total_en}, JA={total_ja}")
     assert total_vn == 240, f"Expected 240, got {total_vn}"
 
-    # 1. Update 01_KICH_BAN/Tap29/kichban_tap29_23102026.md
+    # 1. Update 01_KICH_BAN/Ho_So_Toi_Pham/Tap29/kichban_tap29_23102026.md
     update_vn_script(turns_data)
 
-    # 2. Update 01_KICH_BAN/Tap29/kichban_tap29_EN.md & Tap29_EN
+    # 2. Update 01_KICH_BAN/Ho_So_Toi_Pham/Tap29/kichban_tap29_EN.md & Tap29_EN
     update_en_script(turns_data)
 
-    # 3. Update 01_KICH_BAN/Tap29_JA/kichban_tap29_JA.md
+    # 3. Update 01_KICH_BAN/Ho_So_Toi_Pham/Tap29_JA/kichban_tap29_JA.md
     update_ja_script(turns_data)
 
     # 4. Update .work/script_tap29.json
@@ -73,7 +73,7 @@ def main():
     print("ALL FILES SUCCESSFULLY UPDATED TO 240 SENTENCES!")
 
 def update_vn_script(turns_data):
-    src_path = '01_KICH_BAN/Tap29/kichban_tap29_23102026.md'
+    src_path = '01_KICH_BAN/Ho_So_Toi_Pham/Tap29/kichban_tap29_23102026.md'
     lines = open(src_path, encoding='utf-8').read().splitlines()
 
     new_lines = []
@@ -123,7 +123,7 @@ def update_vn_script(turns_data):
     print(f"Updated {src_path} (lines: {len(new_lines)})")
 
 def update_en_script(turns_data):
-    src_path = '01_KICH_BAN/Tap29/kichban_tap29_EN.md'
+    src_path = '01_KICH_BAN/Ho_So_Toi_Pham/Tap29/kichban_tap29_EN.md'
     lines = open(src_path, encoding='utf-8').read().splitlines()
 
     new_lines = []
@@ -169,11 +169,11 @@ def update_en_script(turns_data):
     assert turn_idx == 32, f"Expected 32 turns in EN, got {turn_idx}"
     out_content = '\n'.join(new_lines) + '\n'
     open(src_path, 'w', encoding='utf-8').write(out_content)
-    open('01_KICH_BAN/Tap29_EN/kichban_tap29_EN.md', 'w', encoding='utf-8').write(out_content)
+    open('01_KICH_BAN/Ho_So_Toi_Pham/Tap29_EN/kichban_tap29_EN.md', 'w', encoding='utf-8').write(out_content)
     print(f"Updated {src_path} and Tap29_EN copy (lines: {len(new_lines)})")
 
 def update_ja_script(turns_data):
-    src_path = '01_KICH_BAN/Tap29_JA/kichban_tap29_JA.md'
+    src_path = '01_KICH_BAN/Ho_So_Toi_Pham/Tap29_JA/kichban_tap29_JA.md'
     lines = open(src_path, encoding='utf-8').read().splitlines()
 
     new_lines = []

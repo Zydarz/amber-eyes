@@ -10,7 +10,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 BG_DIR = ROOT / "assets" / "bg"
-OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap12"
+OUT_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap12"
 PROV_FILE = ROOT / "provenance.json"
 
 jobs = json.loads((WORK / "bg_jobs_tap12.json").read_text(encoding="utf-8"))

@@ -18,7 +18,7 @@ VN_CHARS = set("ăâđêôơưĂÂĐÊÔƠƯ")
 OK_LATIN = {norm_token(x) for x in (set(M.ALLOW_LATIN) | set(M.LOAN_WORDS)) if x}
 
 for ep in sys.argv[1:]:
-    ja = HERE.parent / "01_KICH_BAN" / f"Tap{ep}_JA" / f"kichban_tap{ep}_JA.md"
+    ja = HERE.parent / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap{ep}_JA" / f"kichban_tap{ep}_JA.md"
     vn = M.canonical_vn(ep)
     if not ja.exists():
         print(f"Tap{ep}: chưa có file JA")

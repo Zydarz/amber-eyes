@@ -26,7 +26,7 @@ TAG = {"vi": "t03", "en": "t03_EN", "ja": "t03_JA"}[LANG]
 STILLS = ED.w("video3") / "stills"
 OUT = WORK / f"qc_t03_20261105" / f"contact_sheet_{LANG}"
 OUT.mkdir(parents=True, exist_ok=True)
-DST = ROOT / "02_SAN_XUAT" / f"Tap03{SUF}"
+DST = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap03{SUF}"
 
 sh = json.loads(ED.w("shots.json").read_text(encoding="utf-8"))
 shots = sh["shots"]

@@ -1,7 +1,7 @@
 """Bao cao giam sat cuoi Tap 04 — chay 3 cong QC + kiem ke thanh pham, gom 1 file md.
 
 Usage: py -3 .work/_final_report_t04.py --ep 04
-Output: 02_SAN_XUAT/Tap04/BAO_CAO_GIAM_SAT_T04.md
+Output: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap04/BAO_CAO_GIAM_SAT_T04.md
 """
 import argparse
 import json

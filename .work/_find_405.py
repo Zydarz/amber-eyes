@@ -2,7 +2,7 @@
 import sys, io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-for p in ['01_KICH_BAN/Tap10/kichban_tap10_23102026.md', '01_KICH_BAN/Tap10_EN/kichban_tap10_EN.md', '01_KICH_BAN/Tap10_KO/kichban_tap10_KO.md']:
+for p in ['01_KICH_BAN/Ho_So_Toi_Pham/Tap10/kichban_tap10_23102026.md', '01_KICH_BAN/Ho_So_Toi_Pham/Tap10_EN/kichban_tap10_EN.md', '01_KICH_BAN/Ho_So_Toi_Pham/Tap10_KO/kichban_tap10_KO.md']:
     print(f"=== {p} ===")
     with open(p, 'r', encoding='utf-8') as f:
         lines = f.readlines()

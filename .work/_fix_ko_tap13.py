@@ -2,7 +2,7 @@
 """Properly update Korean script for Tap 13 with single quotes matching the file."""
 from pathlib import Path
 
-for p in [Path('01_KICH_BAN/Tap13_KO/kichban_tap13_KO.md'), Path('01_KICH_BAN/Tap13/kichban_tap13_KO.md')]:
+for p in [Path('01_KICH_BAN/Ho_So_Toi_Pham/Tap13_KO/kichban_tap13_KO.md'), Path('01_KICH_BAN/Ho_So_Toi_Pham/Tap13/kichban_tap13_KO.md')]:
     lines = p.read_text(encoding='utf-8').splitlines(keepends=True)
     out = []
     i = 0

@@ -6,9 +6,9 @@ sys.path.insert(0, str(ROOT / ".work"))
 import parse_kichban as PK
 
 PAIRS = [
-    ("VN", "01_KICH_BAN/Tap09/kichban_tap09_23102026.md", ".work/script_tap09.json"),
-    ("EN", "01_KICH_BAN/Tap09/kichban_tap09_EN.md", ".work/script_tap09_EN.json"),
-    ("JA", "01_KICH_BAN/Tap09_JA/kichban_tap09_JA.md", ".work/script_tap09_JA.json"),
+    ("VN", "01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_23102026.md", ".work/script_tap09.json"),
+    ("EN", "01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_EN.md", ".work/script_tap09_EN.json"),
+    ("JA", "01_KICH_BAN/Ho_So_Toi_Pham/Tap09_JA/kichban_tap09_JA.md", ".work/script_tap09_JA.json"),
 ]
 
 for lang, md, js in PAIRS:
@@ -24,15 +24,15 @@ for lang, md, js in PAIRS:
 
 print()
 print("=== EN copies identical? ===")
-a = (ROOT/"01_KICH_BAN/Tap09/kichban_tap09_EN.md").read_bytes()
-b = (ROOT/"01_KICH_BAN/Tap09_EN/kichban_tap09_EN.md").read_bytes()
+a = (ROOT/"01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_EN.md").read_bytes()
+b = (ROOT/"01_KICH_BAN/Ho_So_Toi_Pham/Tap09_EN/kichban_tap09_EN.md").read_bytes()
 print("  Tap09/kichban_tap09_EN.md  md5:", hashlib.md5(a).hexdigest())
 print("  Tap09_EN/kichban_tap09_EN.md md5:", hashlib.md5(b).hexdigest())
 print("  identical:", a == b)
 
 print()
 print("=== KO script present? ===")
-kp = ROOT/"01_KICH_BAN/Tap09_KO/kichban_tap09_KO.md"
+kp = ROOT/"01_KICH_BAN/Ho_So_Toi_Pham/Tap09_KO/kichban_tap09_KO.md"
 print("  exists:", kp.exists(), kp.stat().st_size if kp.exists() else "")
 
 print()

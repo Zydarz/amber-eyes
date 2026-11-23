@@ -181,7 +181,7 @@ def rebuild_script(lang, backup_path, dst_paths, additions):
 rebuild_script(
     "VN",
     ROOT / ".work" / "_cu" / "kichban_tap10_23102026_truoc_200cau_20261107.md",
-    [ROOT / "01_KICH_BAN" / "Tap10" / "kichban_tap10_23102026.md"],
+    [ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10" / "kichban_tap10_23102026.md"],
     additions_vn
 )
 
@@ -190,8 +190,8 @@ rebuild_script(
     "EN",
     ROOT / ".work" / "_cu" / "kichban_tap10_EN_truoc_200cau_20261107.md",
     [
-        ROOT / "01_KICH_BAN" / "Tap10_EN" / "kichban_tap10_EN.md",
-        ROOT / "01_KICH_BAN" / "Tap10" / "kichban_tap10_EN.md"
+        ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10_EN" / "kichban_tap10_EN.md",
+        ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10" / "kichban_tap10_EN.md"
     ],
     additions_en
 )
@@ -200,7 +200,7 @@ rebuild_script(
 rebuild_script(
     "JA",
     ROOT / ".work" / "_cu" / "kichban_tap10_JA_truoc_200cau_20261107.md",
-    [ROOT / "01_KICH_BAN" / "Tap10_JA" / "kichban_tap10_JA.md"],
+    [ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10_JA" / "kichban_tap10_JA.md"],
     additions_ja
 )
 
@@ -208,17 +208,17 @@ rebuild_script(
 rebuild_script(
     "KO",
     ROOT / ".work" / "_cu" / "kichban_tap10_KO_truoc_200cau_20261107.md",
-    [ROOT / "01_KICH_BAN" / "Tap10_KO" / "kichban_tap10_KO.md"],
+    [ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10_KO" / "kichban_tap10_KO.md"],
     additions_ko
 )
 
 # 5. REBUILD JSON
-parsed_vn = PK.parse_file(ROOT / "01_KICH_BAN" / "Tap10" / "kichban_tap10_23102026.md")
+parsed_vn = PK.parse_file(ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10" / "kichban_tap10_23102026.md")
 with open(ROOT / ".work" / "script_tap10.json", "w", encoding="utf-8") as f:
     json.dump(parsed_vn, f, ensure_ascii=False, indent=2)
 print("Updated .work/script_tap10.json")
 
-parsed_en = PK.parse_file(ROOT / "01_KICH_BAN" / "Tap10_EN" / "kichban_tap10_EN.md")
+parsed_en = PK.parse_file(ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap10_EN" / "kichban_tap10_EN.md")
 with open(ROOT / ".work" / "script_tap10_EN.json", "w", encoding="utf-8") as f:
     json.dump(parsed_en, f, ensure_ascii=False, indent=2)
 print("Updated .work/script_tap10_EN.json")

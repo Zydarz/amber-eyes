@@ -8,13 +8,13 @@ def git(*args):
                        encoding="utf-8", errors="replace")
     return r.stdout
 
-print("=== git status for 01_KICH_BAN/Tap09 ===")
-out = git("status","--porcelain","01_KICH_BAN/Tap09","01_KICH_BAN/Tap09_EN","01_KICH_BAN/Tap09_JA")
+print("=== git status for 01_KICH_BAN/Ho_So_Toi_Pham/Tap09 ===")
+out = git("status","--porcelain","01_KICH_BAN/Ho_So_Toi_Pham/Tap09","01_KICH_BAN/Ho_So_Toi_Pham/Tap09_EN","01_KICH_BAN/Ho_So_Toi_Pham/Tap09_JA")
 print(out or "  (clean - no uncommitted change)")
 
 print()
 print("=== git log for those paths ===")
-print(git("log","--oneline","-5","--","01_KICH_BAN/Tap09") or "  (none)")
+print(git("log","--oneline","-5","--","01_KICH_BAN/Ho_So_Toi_Pham/Tap09") or "  (none)")
 
 print()
 print("=== .md files modified in last 4 days anywhere (excl .work) ===")
@@ -56,8 +56,8 @@ def count_md(path):
             if s.endswith("\u201d"): in_q = False
     return n_blocks, n_lines
 
-for lang, p in [("VN","01_KICH_BAN/Tap09/kichban_tap09_23102026.md"),
-                 ("EN","01_KICH_BAN/Tap09/kichban_tap09_EN.md"),
-                 ("JA","01_KICH_BAN/Tap09_JA/kichban_tap09_JA.md")]:
+for lang, p in [("VN","01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_23102026.md"),
+                 ("EN","01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_EN.md"),
+                 ("JA","01_KICH_BAN/Ho_So_Toi_Pham/Tap09_JA/kichban_tap09_JA.md")]:
     b, l = count_md(os.path.join(ROOT,p))
     print(f"  {lang}: quoted_blocks={b}  sentences_inside≈{l}")

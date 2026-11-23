@@ -70,7 +70,7 @@ for s in shots[:6]:
 
 print("\n=== 6. EBUR128: DOC DUNG DI DINH GHE ===")
 for lbl, path in (("wav", W / "audio_master_t03.wav"),
-                  ("mp4", Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Tap03\xuat_ban\Tap03_master.mp4"))):
+                  ("mp4", Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Ho_So_Toi_Pham\Tap03\xuat_ban\Tap03_master.mp4"))):
     r = subprocess.run([str(FF), "-i", str(path), "-af", "ebur128=peak=true", "-f", "null", "-"],
                        capture_output=True, text=True, encoding="utf-8", errors="replace")
     tail = r.stderr[-700:]

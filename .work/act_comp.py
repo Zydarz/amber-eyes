@@ -2,14 +2,14 @@ import sys
 sys.path.append('.work')
 from parse_kichban import parse_file
 
-vn = parse_file('01_KICH_BAN/Tap04/kichban_tap04_23102026.md')
-en = parse_file('01_KICH_BAN/Tap04_EN/kichban_tap04_EN.md')
+vn = parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap04/kichban_tap04_23102026.md')
+en = parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap04_EN/kichban_tap04_EN.md')
 
 # Read raw files to get headers and act divisions
-with open('01_KICH_BAN/Tap04/kichban_tap04_23102026.md', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap04/kichban_tap04_23102026.md', encoding='utf-8') as f:
     vn_text = f.read()
 
-with open('01_KICH_BAN/Tap04_EN/kichban_tap04_EN.md', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap04_EN/kichban_tap04_EN.md', encoding='utf-8') as f:
     en_text = f.read()
 
 # Let's inspect differences element by element

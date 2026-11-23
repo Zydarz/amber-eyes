@@ -1,10 +1,10 @@
 import re, sys
 sys.stdout.reconfigure(encoding='utf-8')
 
-vn_text = open('01_KICH_BAN/Tap01/kichban_tap01_22102026_v2.md', encoding='utf-8').read()
-en_text = open('01_KICH_BAN/Tap01_EN/kichban_tap01_EN.md', encoding='utf-8').read()
-ja_text = open('01_KICH_BAN/Tap01_JA/kichban_tap01_JA.md', encoding='utf-8').read()
-ko_text = open('01_KICH_BAN/Tap01_KO/kichban_tap01_KO.md', encoding='utf-8').read()
+vn_text = open('01_KICH_BAN/Ho_So_Toi_Pham/Tap01/kichban_tap01_22102026_v2.md', encoding='utf-8').read()
+en_text = open('01_KICH_BAN/Ho_So_Toi_Pham/Tap01_EN/kichban_tap01_EN.md', encoding='utf-8').read()
+ja_text = open('01_KICH_BAN/Ho_So_Toi_Pham/Tap01_JA/kichban_tap01_JA.md', encoding='utf-8').read()
+ko_text = open('01_KICH_BAN/Ho_So_Toi_Pham/Tap01_KO/kichban_tap01_KO.md', encoding='utf-8').read()
 
 print("Kiểm tra tính toàn vẹn 4 kịch bản:")
 

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 Comprehensive spellcheck and typographical audit for Episode 09 across all 4 languages:
-- Vietnamese (VN): 01_KICH_BAN/Tap09/kichban_tap09_23102026.md
-- English (EN): 01_KICH_BAN/Tap09_EN/kichban_tap09_EN.md
-- Japanese (JA): 01_KICH_BAN/Tap09_JA/kichban_tap09_JA.md
-- Korean (KO): 01_KICH_BAN/Tap09_KO/kichban_tap09_KO.md
-- Descriptions & Metadata: 02_SAN_XUAT/Tap09/ and .work/edition.py
+- Vietnamese (VN): 01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_23102026.md
+- English (EN): 01_KICH_BAN/Ho_So_Toi_Pham/Tap09_EN/kichban_tap09_EN.md
+- Japanese (JA): 01_KICH_BAN/Ho_So_Toi_Pham/Tap09_JA/kichban_tap09_JA.md
+- Korean (KO): 01_KICH_BAN/Ho_So_Toi_Pham/Tap09_KO/kichban_tap09_KO.md
+- Descriptions & Metadata: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap09/ and .work/edition.py
 """
 
 import sys
@@ -215,11 +215,11 @@ def audit_vietnamese_spelling(all_sentences):
 def audit_descriptions():
     print(f"\n{'='*60}\nAUDITING DESCRIPTIONS & METADATA\n{'='*60}")
     desc_files = [
-        ROOT / "02_SAN_XUAT" / "Tap09" / "mo_ta.txt",
-        ROOT / "02_SAN_XUAT" / "Tap09_EN" / "mo_ta.txt",
-        ROOT / "02_SAN_XUAT" / "Tap09_JA" / "mo_ta.txt",
-        ROOT / "02_SAN_XUAT" / "Tap09_KO" / "mo_ta.txt",
-        ROOT / "02_SAN_XUAT" / "Tap09_EN" / "CHU_CO_DINH_EN.md",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09" / "mo_ta.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_EN" / "mo_ta.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_JA" / "mo_ta.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_KO" / "mo_ta.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap09_EN" / "CHU_CO_DINH_EN.md",
     ]
     
     for p in desc_files:
@@ -241,10 +241,10 @@ def audit_descriptions():
 
 def main():
     files = [
-        ("VN", ROOT / "01_KICH_BAN" / "Tap09" / "kichban_tap09_23102026.md"),
-        ("EN", ROOT / "01_KICH_BAN" / "Tap09_EN" / "kichban_tap09_EN.md"),
-        ("JA", ROOT / "01_KICH_BAN" / "Tap09_JA" / "kichban_tap09_JA.md"),
-        ("KO", ROOT / "01_KICH_BAN" / "Tap09_KO" / "kichban_tap09_KO.md"),
+        ("VN", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap09" / "kichban_tap09_23102026.md"),
+        ("EN", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap09_EN" / "kichban_tap09_EN.md"),
+        ("JA", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap09_JA" / "kichban_tap09_JA.md"),
+        ("KO", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap09_KO" / "kichban_tap09_KO.md"),
     ]
     
     all_issues = {}

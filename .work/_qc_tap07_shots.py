@@ -14,7 +14,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(r"D:/TEST/Gax/amber-eyes")
 WORK = ROOT / ".work"
 BG_DIR = ROOT / "assets" / "bg"
-PLAN = ROOT / "02_SAN_XUAT" / "Tap07" / "KeHoach_Video_Tap07.md"
+PLAN = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07" / "KeHoach_Video_Tap07.md"
 
 BANNED = ["hiếp dâm", "chặt xác", "cắt cổ", "máu me", "tự tử", "thắt cổ",
           "thi thể", "sát hại", "đòn roi", "trói", "bầm", "đầu độc",

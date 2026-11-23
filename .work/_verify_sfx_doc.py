@@ -46,7 +46,7 @@ ok &= not already
 bad = []
 for ep in sorted(DATA):
     if f'### Tập {ep:02d} ' not in txt: bad.append(ep)
-    if f'`01_KICH_BAN/Tap{ep:02d}/' not in txt: bad.append(ep)
+    if f'`01_KICH_BAN/Ho_So_Toi_Pham/Tap{ep:02d}/' not in txt: bad.append(ep)
 print(f'4) Tập thiếu mục trong tài liệu: {sorted(set(bad)) if bad else "0 — đủ 27 tập"}')
 ok &= not bad
 

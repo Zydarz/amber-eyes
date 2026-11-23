@@ -27,7 +27,7 @@ for e in script:
         for s in e["sentences"]:
             S[s["id"]] = s["text"]
 
-vn_path = ROOT / "02_SAN_XUAT/Tap03/KeHoach_Video_Tap03.md"
+vn_path = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/KeHoach_Video_Tap03.md"
 vn_lines = vn_path.read_text(encoding="utf-8").splitlines()
 i0 = next(i for i, l in enumerate(vn_lines) if l.startswith("## 6. DANH SÁCH SHOT"))
 i1 = next(i for i, l in enumerate(vn_lines) if i > i0 and l.startswith("**Tổng:"))
@@ -137,7 +137,7 @@ if errors:
     sys.exit(1)
 
 # ---------------------------------------------------------------- ghi plan JA
-plan_path = ROOT / "02_SAN_XUAT/Tap03_JA/KeHoach_Video_Tap03_JA.md"
+plan_path = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_JA/KeHoach_Video_Tap03_JA.md"
 old = plan_path.read_text(encoding="utf-8").splitlines()
 cut = next(i for i, l in enumerate(old) if l.startswith("## 6. DANH SÁCH SHOT")) if any(
     l.startswith("## 6. DANH SÁCH SHOT") for l in old) else len(old)

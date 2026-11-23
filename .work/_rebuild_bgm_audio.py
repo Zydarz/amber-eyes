@@ -19,11 +19,11 @@ PY = sys.executable
 
 JOBS = [
     ("T02 VN", {"AE_EP": "02"}, WORK / "audio_master_t02.wav",
-     ROOT / "02_SAN_XUAT" / "Tap02" / "xuat_ban" / "Tap02_master.mp3"),
+     ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02" / "xuat_ban" / "Tap02_master.mp3"),
     ("T07 VN", {"AE_EP": "07"}, WORK / "audio_master_t07.wav",
-     ROOT / "02_SAN_XUAT" / "Tap07" / "xuat_ban" / "Tap07_master.mp3"),
+     ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07" / "xuat_ban" / "Tap07_master.mp3"),
     ("T02 EN", {"AE_EP": "02", "AE_LANG": "en"}, WORK / "audio_master_EN_t02.wav",
-     ROOT / "02_SAN_XUAT" / "Tap02_EN" / "xuat_ban" / "Tap02_EN_master.mp3"),
+     ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02_EN" / "xuat_ban" / "Tap02_EN_master.mp3"),
 ]
 
 FFPROBE = WORK / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffprobe.exe"

@@ -5,15 +5,15 @@ sys.path.insert(0, '.work')
 import parse_kichban as PK
 
 # 1. EN: Fix 'Mr. List' -> 'Mr List' (avoid abbreviation period causing extra sentence split)
-path_en_main = '01_KICH_BAN/Tap16/kichban_tap16_EN.md'
-path_en_sub = '01_KICH_BAN/Tap16_EN/kichban_tap16_EN.md'
+path_en_main = '01_KICH_BAN/Ho_So_Toi_Pham/Tap16/kichban_tap16_EN.md'
+path_en_sub = '01_KICH_BAN/Ho_So_Toi_Pham/Tap16_EN/kichban_tap16_EN.md'
 for p in [path_en_main, path_en_sub]:
     txt = open(p, encoding='utf-8').read()
     txt = txt.replace('like Mr. List could never', 'like Mr List could never')
     open(p, 'w', encoding='utf-8').write(txt)
 
 # 2. JA: Fix punctuation in Japanese additions to match VN compound sentences
-path_ja = '01_KICH_BAN/Tap16_JA/kichban_tap16_JA.md'
+path_ja = '01_KICH_BAN/Ho_So_Toi_Pham/Tap16_JA/kichban_tap16_JA.md'
 txt_ja = open(path_ja, encoding='utf-8').read()
 
 # In 2.09:
@@ -56,7 +56,7 @@ txt_ja = txt_ja.replace(
 open(path_ja, 'w', encoding='utf-8').write(txt_ja)
 
 # 3. KO: Fix punctuation in Korean additions to match VN compound sentences
-path_ko = '01_KICH_BAN/Tap16_KO/kichban_tap16_KO.md'
+path_ko = '01_KICH_BAN/Ho_So_Toi_Pham/Tap16_KO/kichban_tap16_KO.md'
 txt_ko = open(path_ko, encoding='utf-8').read()
 
 # In 3.05:

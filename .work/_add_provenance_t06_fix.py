@@ -8,7 +8,7 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(r"D:/TEST/Gax/amber-eyes")
 PROV = ROOT / "provenance.json"
-F = "02_SAN_XUAT/Tap06/DeXuat_Sua_Tap06.md"
+F = "02_SAN_XUAT/Ho_So_Toi_Pham/Tap06/DeXuat_Sua_Tap06.md"
 
 ROW = {
     "file": F,

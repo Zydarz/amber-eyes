@@ -97,7 +97,7 @@ def parse_script_info(md_path, lang, ep_num):
 
 def extract_links_from_vn_sources(ep_num):
     """Trích xuất danh sách link đã kiểm chứng từ file nguồn tiếng Việt."""
-    vn_src_p = ROOT / "02_SAN_XUAT" / f"Tap{ep_num}" / "nguon_mo_ta.txt"
+    vn_src_p = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ep_num}" / "nguon_mo_ta.txt"
     if not vn_src_p.exists():
         return []
     text = vn_src_p.read_text(encoding="utf-8")
@@ -276,12 +276,12 @@ def process_all_languages():
         links = extract_links_from_vn_sources(ep_num)
 
         for lang, src_filename in languages:
-            ep_dir = ROOT / "02_SAN_XUAT" / f"Tap{ep_num}_{lang}"
+            ep_dir = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ep_num}_{lang}"
             xb_dir = ep_dir / "xuat_ban"
             ep_dir.mkdir(parents=True, exist_ok=True)
             xb_dir.mkdir(parents=True, exist_ok=True)
 
-            md_script = ROOT / "01_KICH_BAN" / f"Tap{ep_num}_{lang}" / f"kichban_tap{ep_num}_{lang}.md"
+            md_script = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap{ep_num}_{lang}" / f"kichban_tap{ep_num}_{lang}.md"
             meta = parse_script_info(md_script, lang, ep_num)
             if not meta:
                 print(f"  [!] Không tìm thấy kịch bản Tap{ep_num}_{lang}")

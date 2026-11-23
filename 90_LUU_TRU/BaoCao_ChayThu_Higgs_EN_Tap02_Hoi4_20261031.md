@@ -29,5 +29,5 @@ Theo câu (bản tốt nhất): **45/46 câu ≤ 2%**. Câu còn lại `4.03#2` 
 
 ## Kết luận
 - Đọc đúng chữ rất tốt (tốt hơn bản Việt: T02 VN lượt 1 có 29/203 câu > 2%).
-- **Chặn duy nhất: D–H theo cổng G9** — cần tai người dùng phân xử (file `02_SAN_XUAT/Tap02_EN/thu_giong_higgs_a4/2_xen_ke_H_D_C.wav`).
-- File nghe: `02_SAN_XUAT/Tap02_EN/thu_giong_higgs_a4/1_hoi4_lien_mach.wav` (46 câu, 282,6 s).
+- **Chặn duy nhất: D–H theo cổng G9** — cần tai người dùng phân xử (file `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/thu_giong_higgs_a4/2_xen_ke_H_D_C.wav`).
+- File nghe: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/thu_giong_higgs_a4/1_hoi4_lien_mach.wav` (46 câu, 282,6 s).

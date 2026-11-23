@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BG = ROOT / "assets" / "bg"
 PROV = ROOT / "provenance.json"
 WORK = ROOT / ".work"
-OUT = ROOT / "02_SAN_XUAT" / "Tap05"
+OUT = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap05"
 
 jobs = json.loads((WORK / "bg_jobs_tap05.json").read_text(encoding="utf-8"))
 prov = json.loads(PROV.read_text(encoding="utf-8"))

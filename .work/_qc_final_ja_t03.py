@@ -34,7 +34,7 @@ W = ROOT / ".work"
 FF = W / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 FP = W / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffprobe.exe"
 
-OUT = ROOT / "02_SAN_XUAT" / "Tap03_JA" / "xuat_ban"
+OUT = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03_JA" / "xuat_ban"
 PIC = W / "video3_JA_t03" / "picture.mp4"
 WAV = W / "audio_master_JA_t03.wav"
 MP4 = OUT / "Tap03_JA_master.mp4"

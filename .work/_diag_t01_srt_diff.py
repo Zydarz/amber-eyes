@@ -31,7 +31,7 @@ def sec(ts):
 
 
 # ban COMMIT cua Tap01.srt
-g = subprocess.run(["git", "show", "HEAD:02_SAN_XUAT/Tap01/xuat_ban/Tap01.srt"],
+g = subprocess.run(["git", "show", "HEAD:02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/Tap01.srt"],
                    cwd=ROOT, capture_output=True, text=True, encoding="utf-8", errors="replace")
 committed = g.stdout.replace("\r\n", "\n")
 cblocks = [x for x in committed.strip().split("\n\n") if x.strip()]
@@ -52,14 +52,14 @@ for i in range(8):
         print(f"            timeline={t[:70]!r}")
 
 print("\n=== FILE DA XUAT TAP 01 ===")
-for p in sorted((ROOT / "02_SAN_XUAT/Tap01/xuat_ban").glob("*")):
+for p in sorted((ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban").glob("*")):
     d = dur(p) if p.suffix in (".mp4", ".mp3") else ""
     print(f"  {p.name:<34} {p.stat().st_size:>12} {d if d else ''}  {p.stat().st_mtime}")
 
 print("\n=== TAP01 timeline / master o VN vs JA ===")
 for tag, tl_file, mp3 in [
-    ("VN", W / "timeline_s.json", ROOT / "02_SAN_XUAT/Tap01/xuat_ban/Tap01_master.mp3"),
-    ("JA", W / "timeline_s_JA.json", ROOT / "02_SAN_XUAT/Tap01_JA/xuat_ban/Tap01_JA_master.mp3"),
+    ("VN", W / "timeline_s.json", ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/Tap01_master.mp3"),
+    ("JA", W / "timeline_s_JA.json", ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_JA/xuat_ban/Tap01_JA_master.mp3"),
 ]:
     t = json.loads(tl_file.read_text(encoding="utf-8-sig")) if tl_file.exists() else None
     print(f"  {tag}: timeline total = {t['total'] if t else 'NA'} · master mp3 = {dur(mp3)}")

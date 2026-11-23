@@ -7,7 +7,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, ".work")
 import parse_kichban as PK
 
-p_vn = PK.parse_file("01_KICH_BAN/Tap14/kichban_tap14_23102026.md")
+p_vn = PK.parse_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap14/kichban_tap14_23102026.md")
 
 # Collect all tokens
 word_pattern = re.compile(r"[a-zA-ZÀ-ỹà-ỹĐđ0-9]+(?:-[a-zA-ZÀ-ỹà-ỹĐđ0-9]+)*")

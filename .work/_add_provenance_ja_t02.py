@@ -77,20 +77,20 @@ add(".work/audio_s_higgs_JA_t02/", "audio TTS tiếng Nhật — 203 câu (vòng
     ghi_chu="35/203 câu vượt ngưỡng CER 2% (xem .work/higgs_cer_report_JA_t02.md) — đã có bản vòng 2 chọn ưu tiên")
 
 # 4) thanh pham va video JA Tap 02
-add("02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA_master.mp3", "audio tổng bản tiếng Nhật (1791,85 s)",
+add("02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/Tap02_JA_master.mp3", "audio tổng bản tiếng Nhật (1791,85 s)",
     "TTS Higgs Audio v3 (203 câu) + nhạc assets/bgm + tiếng động assets/sfx (kênh tự tổng hợp bằng code) "
     "ghép bằng .work/build_audio3.py (loudnorm I=-16, trần đỉnh -1,5 dBFS)",
     "2026-11-01", None, None, "TTS: Higgs — cần kiểm tra; nhạc/SFX: kênh tự tạo", "chưa",
     ghi_chu="Lời đầu 23,0 s · lời cuối hết 1865,3 s · hồi 1: 23,0–374,0 · hồi 5: 1501,4–1865,3 (timeline_s_JA_t02.json)")
 
-add("02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA_master.mp4", "video tổng bản tiếng Nhật",
+add("02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/Tap02_JA_master.mp4", "video tổng bản tiếng Nhật",
     ".work/build_video3.py (Pillow + ffmpeg libopenh264, 6 worker) ghép .work/package.py --mux "
     "(AAC 192k, alimiter latency=1)",
     "2026-11-02", None, None, "Hình: kênh tự tạo · nhạc/SFX: kênh tự tạo", "chưa",
     ghi_chu="151 shot · nền dùng lại 100% từ assets/bg của bản VN/EN · chữ do Pillow vẽ bằng YuGothB/YuGothM")
 
 # 5) phu de JA
-add("02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA.srt", "phụ đề bản tiếng Nhật (212 cue)",
+add("02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/Tap02_JA.srt", "phụ đề bản tiếng Nhật (212 cue)",
     ".work/subtitles.py — tách từ timeline_s_JA_t02.json, nhãn vai [ホスト]/[捜査官]/[心理学者]/[証人]/[視聴者]",
     "2026-11-02", None, None, "Kênh tự tạo", "đạt",
     ghi_chu="UTF-8 không BOM, CRLF — cùng định dạng với bản VN/EN")

@@ -19,7 +19,7 @@ def gloss_ok(line, m):
 
 
 for tap in sorted(SRC):
-    kp = '01_KICH_BAN/Tap%s_KO/kichban_tap%s_KO.md' % (tap, tap)
+    kp = '01_KICH_BAN/Ho_So_Toi_Pham/Tap%s_KO/kichban_tap%s_KO.md' % (tap, tap)
     if not os.path.exists(kp):
         continue
     lines = io.open(kp, encoding='utf-8').read().split('\n')

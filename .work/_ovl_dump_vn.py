@@ -8,7 +8,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path(__file__).resolve().parents[1]
-vn = (ROOT / "02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md").read_text(encoding="utf-8").splitlines()
+vn = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md").read_text(encoding="utf-8").splitlines()
 i0 = next(i for i, l in enumerate(vn) if l.startswith("## 6. DANH SÁCH SHOT"))
 i1 = next(i for i, l in enumerate(vn) if i > i0 and l.startswith("**Tổng:"))
 

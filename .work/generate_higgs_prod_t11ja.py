@@ -48,7 +48,7 @@ AUDIO_OUT.mkdir(parents=True, exist_ok=True)
 RAW_OUT = HERE / "kaggle_higgs" / "out_higgs_prod_JA_t11"
 RAW_OUT.mkdir(parents=True, exist_ok=True)
 
-OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap11_JA" / "xuat_ban"
+OUT_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap11_JA" / "xuat_ban"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 ROLE_REF_MAP = {
@@ -451,7 +451,7 @@ def main():
 
     can_nghe_lines = [
         f"# 確認が必要な文 — 第11話 JA (Higgs Audio v3) — {time.strftime('%Y/%m/%d')}\n",
-        f"マスター目標: `02_SAN_XUAT/Tap11_JA/xuat_ban/Tap11_JA_master.mp3` · {total:.1f} 秒 (~{total/60:.1f} 分) · {len(items_tl)} 文 · 最初の音声 {items_tl[0]['start']} 秒 · 最後の音声 {end_voice:.1f} 秒\n",
+        f"マスター目標: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap11_JA/xuat_ban/Tap11_JA_master.mp3` · {total:.1f} 秒 (~{total/60:.1f} 分) · {len(items_tl)} 文 · 最初の音声 {items_tl[0]['start']} 秒 · 最後の音声 {end_voice:.1f} 秒\n",
         "| タイムスタンプ | ID | 役 | CER | MOS | 原文 | ASR認識テキスト | 備考 |",
         "|---|---|---|---:|---:|---|---|---|"
     ]
@@ -496,7 +496,7 @@ def main():
 
     print("\n[Final Measurements] Master Audio:", flush=True)
     if master_mp3.exists():
-        parent_mp3 = ROOT / "02_SAN_XUAT" / "Tap11_JA" / "Tap11_JA_master.mp3"
+        parent_mp3 = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap11_JA" / "Tap11_JA_master.mp3"
         if not parent_mp3.exists() and not parent_mp3.is_symlink():
             shutil.copy2(master_mp3, parent_mp3)
         size_mb = master_mp3.stat().st_size / (1024 * 1024)
@@ -528,11 +528,11 @@ def main():
 
     # Write Production Plan (KeHoach_Video_Tap11_JA.md)
     cers = [r["cer"] for r in cer_rows]
-    kehoach_p = ROOT / "02_SAN_XUAT" / "Tap11_JA" / "KeHoach_Video_Tap11_JA.md"
+    kehoach_p = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap11_JA" / "KeHoach_Video_Tap11_JA.md"
     kehoach_content = f"""# 制作計画 第11話 · 日本語版 · 「ケン＆バービー連続殺人事件」
 
 **適用基準:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Part A), `00_TIEU_CHUAN/QUY_TAC_HIGGS_MAC.md`  
-**台本:** `01_KICH_BAN/Tap11_JA/kichban_tap11_JA.md` · **出力先:** `02_SAN_XUAT/Tap11_JA/xuat_ban/`  
+**台本:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap11_JA/kichban_tap11_JA.md` · **出力先:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap11_JA/xuat_ban/`  
 **日付:** {time.strftime('%Y年%m月%d日')}
 
 ---
@@ -541,9 +541,9 @@ def main():
 
 | 項目 | 内容 |
 |---|---|
-| 台本 | `01_KICH_BAN/Tap11_JA/kichban_tap11_JA.md` — 59要素 · **{len(items_tl)} 文** |
+| 台本 | `01_KICH_BAN/Ho_So_Toi_Pham/Tap11_JA/kichban_tap11_JA.md` — 59要素 · **{len(items_tl)} 文** |
 | 音声エンジン | **Higgs Audio v3** (`bosonai/higgs-audio-v3-tts-4b` on Apple Silicon Mac MLX) — 参照音声セット: VoxCPM2 Japanese (`H_JA`, `D_JA`, `C_JA`, `N1_JA`, `N2_JA`)。感情タグなし (M4)。事前エンコード済み (M1)。末尾無音トリム済み (M3)。 |
-| マスター出力 | `02_SAN_XUAT/Tap11_JA/xuat_ban/Tap11_JA_master.mp3` (**{total:.1f} 秒 / ~{int(total//60)} 分 {int(total%60):02d} 秒** · **統合ラウドネス: {int_l}** · **True Peak: {tp}** · **無音 > 0.3 秒 ゼロ**) |
+| マスター出力 | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap11_JA/xuat_ban/Tap11_JA_master.mp3` (**{total:.1f} 秒 / ~{int(total//60)} 分 {int(total%60):02d} 秒** · **統合ラウドネス: {int_l}** · **True Peak: {tp}** · **無音 > 0.3 秒 ゼロ**) |
 | 品質管理 (ASR & CER) | **Whisper Base CER:** 平均 = **{np.mean(cers)*100:.2f}%**, 中央値 = **{np.median(cers)*100:.2f}%** ({sum(1 for c in cers if c > 0.02)}/{len(cers)} 文 > 2%)。目標 (< 2.0%)。 |
 | 品質管理 (自然さ MOS) | **UTMOSv2 MOS:** 平均 = **{avg_mos:.2f} / 5.0** (範囲: {np.min(valid_moss):.2f} – {np.max(valid_moss):.2f})。目標 (>= 3.0 / 5.0)。 |
 | ピッチ分離 (規則 G9) | **D (オオカミ):** {medians.get("D",0):.1f} Hz · **H (フクロウ):** {medians.get("H",0):.1f} Hz ($\\Delta = {dh_semitones:+.2f}$ 半音) · **C (キツネ):** {medians.get("C",0):.1f} Hz ($\\Delta = {hc_semitones:+.2f}$ 半音)。 |
@@ -555,14 +555,14 @@ def main():
 ## B2. 納品ファイル一覧
 
 1. **マスター音声:**
-   - MP3: [`02_SAN_XUAT/Tap11_JA/xuat_ban/Tap11_JA_master.mp3`](xuat_ban/Tap11_JA_master.mp3)
-   - WAV: [`02_SAN_XUAT/Tap11_JA/xuat_ban/Tap11_JA_master.wav`](xuat_ban/Tap11_JA_master.wav)
+   - MP3: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap11_JA/xuat_ban/Tap11_JA_master.mp3`](xuat_ban/Tap11_JA_master.mp3)
+   - WAV: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap11_JA/xuat_ban/Tap11_JA_master.wav`](xuat_ban/Tap11_JA_master.wav)
 2. **タイムライン＆字幕:**
    - タイムライン: [`.work/timeline_s_JA_t11.json`](../../.work/timeline_s_JA_t11.json) ({total:.1f} 秒)
-   - 字幕: [`02_SAN_XUAT/Tap11_JA/xuat_ban/Tap11_JA.srt`](xuat_ban/Tap11_JA.srt) ({len(items_tl)} cues)
+   - 字幕: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap11_JA/xuat_ban/Tap11_JA.srt`](xuat_ban/Tap11_JA.srt) ({len(items_tl)} cues)
 3. **QC レポート:**
    - 品質レポート: [`.work/quality_qc_utmos_ep11_ja.json`](../../.work/quality_qc_utmos_ep11_ja.json)
-   - 確認文リスト: [`02_SAN_XUAT/Tap11_JA/CanNghe_Tap11_JA_higgs.md`](xuat_ban/CanNghe_Tap11_JA_higgs.md)
+   - 確認文リスト: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap11_JA/CanNghe_Tap11_JA_higgs.md`](xuat_ban/CanNghe_Tap11_JA_higgs.md)
 """
     kehoach_p.write_text(kehoach_content, encoding="utf-8")
     print(f"Updated KeHoach report at {kehoach_p}", flush=True)

@@ -5,7 +5,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 
 jobs = json.load(open(WORK / "bg_jobs_tap14.json", encoding="utf-8"))
-doc_path = ROOT / "02_SAN_XUAT" / "Tap14" / "Danh_Sach_Anh_Tap14.md"
+doc_path = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap14" / "Danh_Sach_Anh_Tap14.md"
 
 lines = [
     "# DANH SÁCH ẢNH NỀN — TẬP 14 'KHI NẠN NHÂN GASLIGHTING BƯỚC QUA RANH GIỚI TỘI ÁC'",

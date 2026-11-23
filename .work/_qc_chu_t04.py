@@ -23,9 +23,9 @@ from parse_kichban import parse_file  # noqa: E402
 
 W = ROOT / ".work"
 LANG = (sys.argv[1] if len(sys.argv) > 1 else "vi").lower()
-KB = {"vi": "01_KICH_BAN/Tap04/kichban_tap04_23102026.md",
-      "en": "01_KICH_BAN/Tap04_EN/kichban_tap04_EN.md",
-      "ja": "01_KICH_BAN/Tap04_JA/kichban_tap04_JA.md"}[LANG]
+KB = {"vi": "01_KICH_BAN/Ho_So_Toi_Pham/Tap04/kichban_tap04_23102026.md",
+      "en": "01_KICH_BAN/Ho_So_Toi_Pham/Tap04_EN/kichban_tap04_EN.md",
+      "ja": "01_KICH_BAN/Ho_So_Toi_Pham/Tap04_JA/kichban_tap04_JA.md"}[LANG]
 
 idx = {}
 for el in parse_file(str(ROOT / KB)):

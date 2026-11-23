@@ -47,7 +47,7 @@ shots = sh["shots"]
 print(f"timeline.total = {TOTAL:.3f} s   items = {len(tl['items'])}   shots = {len(shots)}")
 
 # ---------------------------------------------------------------- 1 & 2: audio
-master = ROOT / "02_SAN_XUAT" / "Tap03_EN" / "xuat_ban" / "Tap03_EN_master.mp3"
+master = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03_EN" / "xuat_ban" / "Tap03_EN_master.mp3"
 if not master.exists():
     errors.append(f"khong co file master: {master}")
 else:

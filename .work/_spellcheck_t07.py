@@ -7,10 +7,10 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(r"d:\TEST\Gax\amber-eyes")
 
 scripts = {
-    "VI": ROOT / "01_KICH_BAN" / "Tap07" / "kichban_tap07_23102026.md",
-    "EN": ROOT / "01_KICH_BAN" / "Tap07_EN" / "kichban_tap07_EN.md",
-    "JA": ROOT / "01_KICH_BAN" / "Tap07_JA" / "kichban_tap07_JA.md",
-    "KO": ROOT / "01_KICH_BAN" / "Tap07_KO" / "kichban_tap07_KO.md",
+    "VI": ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap07" / "kichban_tap07_23102026.md",
+    "EN": ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap07_EN" / "kichban_tap07_EN.md",
+    "JA": ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap07_JA" / "kichban_tap07_JA.md",
+    "KO": ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap07_KO" / "kichban_tap07_KO.md",
 }
 
 print("=== 1. KIỂM TRA CHÍNH TẢ & ĐỊNH DẠNG TẬP 07 ===")

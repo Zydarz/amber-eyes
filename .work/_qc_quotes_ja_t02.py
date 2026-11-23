@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-s = (ROOT / "01_KICH_BAN/Tap02_JA/kichban_tap02_JA.md").read_text(encoding="utf-8-sig")
+s = (ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap02_JA/kichban_tap02_JA.md").read_text(encoding="utf-8-sig")
 norm = lambda t: re.sub(r"[\s　、。・,.:：;；!！?？\"'“”‘’()（）\-—–…]", "", t)
 ns = norm(s)
 
@@ -39,7 +39,7 @@ for sid, q in tests:
 
 print()
 print("=== doi chieu bang VN (nguon cua bang shot JA) ===")
-v = (ROOT / "01_KICH_BAN/Tap02/kichban_tap02.md").read_text(encoding="utf-8-sig")
+v = (ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02.md").read_text(encoding="utf-8-sig")
 nv = norm(v)
 vn_tests = [
     ("3-21", "Có thể, nhưng chúng ta không biết câu trả lời"),

@@ -42,7 +42,7 @@ AUDIO_OUT.mkdir(parents=True, exist_ok=True)
 RAW_OUT = HERE / "kaggle_higgs" / "out_higgs_prod_t03"
 RAW_OUT.mkdir(parents=True, exist_ok=True)
 
-OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap03" / "xuat_ban"
+OUT_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03" / "xuat_ban"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 ROLE_REF_MAP = {
@@ -442,7 +442,7 @@ def main():
 
     can_nghe_lines = [
         f"# Câu cần nghe — Tập 03 VI (Higgs Audio v3) — {time.strftime('%d/%m/%Y')}\n",
-        f"Dự kiến Master: `02_SAN_XUAT/Tap03/xuat_ban/Tap03_master.mp3` · {total:.1f} s (~{total/60:.1f} min) · {len(items_tl)} câu · lời đầu {items_tl[0]['start']} s · lời cuối {end_voice:.1f} s\n",
+        f"Dự kiến Master: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/xuat_ban/Tap03_master.mp3` · {total:.1f} s (~{total/60:.1f} min) · {len(items_tl)} câu · lời đầu {items_tl[0]['start']} s · lời cuối {end_voice:.1f} s\n",
         "| Mốc | Câu | Vai | CER | MOS | Câu gốc | ASR nghe được | Ghi chú |",
         "|---|---|---|---:|---:|---|---|---|"
     ]

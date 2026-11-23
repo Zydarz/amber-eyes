@@ -12,7 +12,7 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
-SRT = ROOT / "02_SAN_XUAT" / "Tap02" / "xuat_ban" / "Tap02.srt"
+SRT = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02" / "xuat_ban" / "Tap02.srt"
 
 raw = SRT.read_text(encoding="utf-8")
 blocks = [b for b in re.split(r"\n\s*\n", raw.strip()) if b.strip()]

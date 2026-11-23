@@ -17,7 +17,7 @@ os.environ["PYTHONIOENCODING"] = "utf-8"
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 FF = WORK / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
-OUT = ROOT / "02_SAN_XUAT" / "Tap05" / "xuat_ban" / "Tap05_master.mp4"
+OUT = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap05" / "xuat_ban" / "Tap05_master.mp4"
 
 print("================================================================================")
 print("BAT DAU DUNG HINH TAP 05 — AMBER EYES (6 WORKERS)")

@@ -34,7 +34,7 @@ for e in script:
         for s in e["sentences"]:
             S[s["id"]] = s["text"]
 
-vn_lines = (ROOT / "02_SAN_XUAT/Tap03/KeHoach_Video_Tap03.md").read_text(encoding="utf-8").splitlines()
+vn_lines = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/KeHoach_Video_Tap03.md").read_text(encoding="utf-8").splitlines()
 i0 = next(i for i, l in enumerate(vn_lines) if l.startswith("## 6. DANH SÁCH SHOT"))
 i1 = next(i for i, l in enumerate(vn_lines) if i > i0 and l.startswith("**Tổng:"))
 
@@ -154,14 +154,14 @@ if errors:
 HEADER = """# PRODUCTION PLAN EPISODE 03 · ENGLISH EDITION · "THE IQ 145 GIANT" (PART B)
 
 **Standard Applied:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Part A)  
-**Script:** `01_KICH_BAN/Tap03/kichban_tap03_EN.md` · **Release Target:** `02_SAN_XUAT/Tap03_EN/xuat_ban/`  
-**Fixed Text & Cards:** `02_SAN_XUAT/Tap03_EN/CHU_CO_DINH_EN.md`  
+**Script:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap03/kichban_tap03_EN.md` · **Release Target:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_EN/xuat_ban/`  
+**Fixed Text & Cards:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_EN/CHU_CO_DINH_EN.md`  
 
 ## B1. Episode Information
 
 | Item | Value |
 |---|---|
-| Script | `01_KICH_BAN/Tap03/kichban_tap03_EN.md` — 55 elements · 220 sentences · 4,067 words |
+| Script | `01_KICH_BAN/Ho_So_Toi_Pham/Tap03/kichban_tap03_EN.md` — 55 elements · 220 sentences · 4,067 words |
 | Cast (Voice Set A) | H: `English_CaptivatingStoryteller` · D: `Korean_ColdYoungMan` · C: `English_AssertiveQueen` · N1: `Vietnamese_kindhearted_girl` · N2: `English_captivating_female1` |
 | Video Structure | 110 shots — 93 spoken shots + 17 pauses/transitions |
 | Act Titles | Act 1: The Midnight Call from a Colorado Payphone · Act 2: The Scene & Escalation — The Ladder of Substitution · Act 3: Psychological Autopsy · Act 4: Conversations with the FBI · Act 5: The Verdict, Red Flags & Final Thoughts |
@@ -176,6 +176,6 @@ HEADER = """# PRODUCTION PLAN EPISODE 03 · ENGLISH EDITION · "THE IQ 145 GIANT
 
 body = "\n".join(out_lines)
 tail = "\n**Total: 110 shots — 93 spoken shots + 17 pauses / transitions**\n"
-(ROOT / "02_SAN_XUAT/Tap03_EN/KeHoach_Video_Tap03_EN.md").write_text(HEADER + body + tail, encoding="utf-8")
-print("da ghi 02_SAN_XUAT/Tap03_EN/KeHoach_Video_Tap03_EN.md")
+(ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_EN/KeHoach_Video_Tap03_EN.md").write_text(HEADER + body + tail, encoding="utf-8")
+print("da ghi 02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_EN/KeHoach_Video_Tap03_EN.md")
 sys.exit(0)

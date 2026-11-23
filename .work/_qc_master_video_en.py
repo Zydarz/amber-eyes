@@ -3,8 +3,8 @@ import subprocess
 from pathlib import Path
 
 ff = Path(r".work/ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffmpeg.exe")
-mp4 = Path(r"02_SAN_XUAT/Tap05_EN/xuat_ban/Tap05_EN_master.mp4")
-mp3 = Path(r"02_SAN_XUAT/Tap05_EN/xuat_ban/Tap05_EN_master.mp3")
+mp4 = Path(r"02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_EN/xuat_ban/Tap05_EN_master.mp4")
+mp3 = Path(r"02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_EN/xuat_ban/Tap05_EN_master.mp3")
 
 print(f"Master MP4: {mp4} ({mp4.stat().st_size / (1024*1024):.2f} MB)")
 

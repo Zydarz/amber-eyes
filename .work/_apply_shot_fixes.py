@@ -2,7 +2,7 @@ import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-with open('02_SAN_XUAT/Tap05/KeHoach_Video_Tap05.md', 'r', encoding='utf-8') as f:
+with open('02_SAN_XUAT/Ho_So_Toi_Pham/Tap05/KeHoach_Video_Tap05.md', 'r', encoding='utf-8') as f:
     c = f.read()
 
 # Replace Hồi 1 shots
@@ -56,7 +56,7 @@ if old_h2_norm not in c_norm:
 
 c_norm = c_norm.replace(old_h1_norm, new_h1_norm).replace(old_h2_norm, new_h2_norm)
 
-with open('02_SAN_XUAT/Tap05/KeHoach_Video_Tap05.md', 'w', encoding='utf-8') as f:
+with open('02_SAN_XUAT/Ho_So_Toi_Pham/Tap05/KeHoach_Video_Tap05.md', 'w', encoding='utf-8') as f:
     f.write(c_norm)
 
 print("SUCCESS: Updated KeHoach_Video_Tap05.md with corrected shots!")

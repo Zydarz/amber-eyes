@@ -8,7 +8,7 @@
 
 **Không phải 3 giọng nam. Bản tiếng Việt có 2 giọng NAM + 3 giọng NỮ.** Đo F0 trên file TTS rời và đọc báo cáo G10 mù của chính dự án đều cho cùng kết quả.
 
-Và câu trả lời cho "vì sao" thì **dự án đã tự ghi sẵn** trong `02_SAN_XUAT/Tap02/BaoCao_GiongDoc_Tap02.md` §3.2 (dòng 105):
+Và câu trả lời cho "vì sao" thì **dự án đã tự ghi sẵn** trong `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/BaoCao_GiongDoc_Tap02.md` §3.2 (dòng 105):
 
 > *"Kho giọng MiniMax chỉ có một giọng tiếng Việt gốc (nữ). **Mọi giọng nam đều là giọng đa ngôn ngữ đọc tiếng Việt**, và connector **không có** công cụ nhân bản hay thiết kế giọng."*
 
@@ -44,7 +44,7 @@ Khoảng cách F0 bộ A: Host → D = **+5,4 nửa cung**, D → C = **+6,8 n�
 
 ## 3. Bằng chứng thứ 2 — G10 nghe mù của chính dự án
 
-`02_SAN_XUAT/Tap0X/thu_giong_kiem_vai/report.md` — mô hình nghe **không biết** S1/S2/S3 là ai:
+`02_SAN_XUAT/Ho_So_Toi_Pham/Tap0X/thu_giong_kiem_vai/report.md` — mô hình nghe **không biết** S1/S2/S3 là ai:
 
 | Tập | S1 (Host) | S2 (Điều tra viên) | S3 (Chuyên gia) | SPEAKERS | Tách bạch |
 |---|---|---|---|---:|---:|
@@ -113,7 +113,7 @@ Lần đầu mình suy giới tính từ **tên giọng** trong catalog và **sa
 
 ## 7. Việc cần bạn xác nhận
 
-1. **Bạn nghe "3 giọng nam" ở đâu?** Tập nào, file nào (video đã đăng / `02_SAN_XUAT/TapXX/xuat_ban/` / file thử giọng trong `90_LUU_TRU/thu_giong/`)? Cho mình tập + mốc thời gian, mình khoanh vùng đúng câu đó và đo lại.
+1. **Bạn nghe "3 giọng nam" ở đâu?** Tập nào, file nào (video đã đăng / `02_SAN_XUAT/Ho_So_Toi_Pham/TapXX/xuat_ban/` / file thử giọng trong `90_LUU_TRU/thu_giong/`)? Cho mình tập + mốc thời gian, mình khoanh vùng đúng câu đó và đo lại.
 2. **Duyệt đo CER tiếng Việt cho 3 giọng bộ A** (`English_CaptivatingStoryteller`, `Korean_ColdYoungMan`, `English_AssertiveQueen`)? Cần ~30 câu mẫu × 3 vai = 30 lượt gọi `listen_audio` (có tốn credit → cần bạn duyệt trước).
 3. **Có thêm luật G13** vào `AGENTS.md` + A11 tiêu chuẩn không?
 

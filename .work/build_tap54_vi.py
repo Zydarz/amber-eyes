@@ -324,6 +324,6 @@ Xin chào và hẹn gặp lại quý vị trong những hành trình tiếp theo
 
 FULL_VI = HEADER_VI + "\n" + ACT1_VI + "\n\n---\n\n" + ACT2_VI + "\n\n---\n\n" + ACT3_VI + "\n\n---\n\n" + ACT4_VI + "\n\n---\n\n" + ACT5_VI
 
-with open('01_KICH_BAN/Tap54/kichban_tap54_19112026.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap54/kichban_tap54_19112026.md', 'w', encoding='utf-8') as f:
     f.write(FULL_VI.strip() + '\n')
 print('Tap 54 VI rewritten successfully.')

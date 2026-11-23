@@ -19,10 +19,10 @@ import parse_kichban as pk
 
 ROOT = Path('.')
 CASES = [
-    ('Tap01 VN', '01_KICH_BAN/Tap01/kichban_tap01_22102026_v2.md', '.work/script_v2.json'),
-    ('Tap01 EN', '01_KICH_BAN/Tap01_EN/kichban_tap01_EN.md', '.work/script_EN.json'),
-    ('Tap19 VN', '01_KICH_BAN/Tap19/kichban_tap19_23102026.md', '.work/script_tap19.json'),
-    ('Tap29 VN', '01_KICH_BAN/Tap29/kichban_tap29_23102026.md', '.work/script_tap29.json'),
+    ('Tap01 VN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap01/kichban_tap01_22102026_v2.md', '.work/script_v2.json'),
+    ('Tap01 EN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap01_EN/kichban_tap01_EN.md', '.work/script_EN.json'),
+    ('Tap19 VN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap19/kichban_tap19_23102026.md', '.work/script_tap19.json'),
+    ('Tap29 VN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap29/kichban_tap29_23102026.md', '.work/script_tap29.json'),
 ]
 
 ok = True

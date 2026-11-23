@@ -2,7 +2,7 @@
 from pathlib import Path
 W = Path(r"D:\TEST\Gax\amber-eyes\.work")
 tl = json.loads((W/"timeline_s_t03.json").read_text(encoding="utf-8-sig"))
-srt = (Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Tap03\xuat_ban\Tap03.srt")).read_text(encoding="utf-8-sig")
+srt = (Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Ho_So_Toi_Pham\Tap03\xuat_ban\Tap03.srt")).read_text(encoding="utf-8-sig")
 blocks = [b for b in re.split(r"\r?\n\r?\n", srt.strip()) if b.strip()]
 def ts(s):
     h,m,rest = s.split(":"); sec,ms = rest.split(",")

@@ -2,7 +2,7 @@ import os, shutil
 
 header = """# CRIMINAL PSYCHOLOGY AUDIO / PODCAST SCRIPT — ENGLISH EDITION
 **Topic:** Extreme gaslighting, malignant narcissism, crocodile tears & performative grief, predatory marriage & financial manipulation — the murder-for-hire sting of Dalia Dippolito in Boynton Beach, Florida.
-**Translated from:** `01_KICH_BAN/Tap22/kichban_tap22_23102026.md`. One English sentence for every Vietnamese sentence, same structure, same IDs.
+**Translated from:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap22/kichban_tap22_23102026.md`. One English sentence for every Vietnamese sentence, same structure, same IDs.
 **Fact and legal review:** Based on public trial reporting, official police interrogation transcripts, and verified public records; analysis of real people is framed as opinion.
 
 ---
@@ -303,9 +303,9 @@ Until our next investigative case file, stay discerning, stay safe, and take car
 **[BGM]:** Warm, solemn piano swells gently before fading out completely by the fifth second.
 """
 
-os.makedirs("01_KICH_BAN/Tap22_EN", exist_ok=True)
-p1 = "01_KICH_BAN/Tap22_EN/kichban_tap22_EN.md"
-p2 = "01_KICH_BAN/Tap22/kichban_tap22_EN.md"
+os.makedirs("01_KICH_BAN/Ho_So_Toi_Pham/Tap22_EN", exist_ok=True)
+p1 = "01_KICH_BAN/Ho_So_Toi_Pham/Tap22_EN/kichban_tap22_EN.md"
+p2 = "01_KICH_BAN/Ho_So_Toi_Pham/Tap22/kichban_tap22_EN.md"
 with open(p1, "w", encoding="utf-8") as f:
     f.write(header)
 shutil.copy(p1, p2)

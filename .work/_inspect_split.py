@@ -5,7 +5,7 @@ import sys
 sys.stdout.reconfigure(encoding="utf-8")
 
 out = ".work/_tmp_inspect_split.json"
-subprocess.run(["py", "-3", ".work/parse_kichban.py", "01_KICH_BAN/Tap02_JA/kichban_tap02_JA.md", out], check=True)
+subprocess.run(["py", "-3", ".work/parse_kichban.py", "01_KICH_BAN/Ho_So_Toi_Pham/Tap02_JA/kichban_tap02_JA.md", out], check=True)
 d = json.load(open(out, encoding="utf-8"))
 
 turns = [e for e in d if e["kind"] == "LOI"]

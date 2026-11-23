@@ -30,9 +30,9 @@ ACT_GAP = 2.00    # thẻ chuyển hồi
 INTRO = 22.41     # nhạc mở đầu (đo được, giữ nguyên)
 
 CFG = {
-    "vi": ("01_KICH_BAN/Tap05/kichban_tap05_23102026.md", "timeline_s_t05.json"),
-    "en": ("01_KICH_BAN/Tap05_EN/kichban_tap05_EN.md", "timeline_s_EN_t05.json"),
-    "ja": ("01_KICH_BAN/Tap05_JA/kichban_tap05_JA.md", "timeline_s_JA_t05.json"),
+    "vi": ("01_KICH_BAN/Ho_So_Toi_Pham/Tap05/kichban_tap05_23102026.md", "timeline_s_t05.json"),
+    "en": ("01_KICH_BAN/Ho_So_Toi_Pham/Tap05_EN/kichban_tap05_EN.md", "timeline_s_EN_t05.json"),
+    "ja": ("01_KICH_BAN/Ho_So_Toi_Pham/Tap05_JA/kichban_tap05_JA.md", "timeline_s_JA_t05.json"),
 }
 lang = (sys.argv[1] if len(sys.argv) > 1 else "vi").lower()
 kb_rel, old_rel = CFG[lang]

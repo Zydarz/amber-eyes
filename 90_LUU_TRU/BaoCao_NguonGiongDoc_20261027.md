@@ -34,7 +34,7 @@ Từ "thông tin giọng đọc" có 3 tầng khác nhau, mỗi tầng một ngu
 | **(2) Danh mục giọng** | 332 `voice_id` của MiniMax | MiniMax TTS qua connector `connector__matrix__get_voice_list` | Gọi thử 27/10/2026: `code=0`, `message=ok`, `total=332` → lưu tại `.work/_voice_list_live_20261027.json` |
 | **(3) Bộ giọng kênh dùng** | 5 giọng bộ A + các bộ theo ngôn ngữ/tập | **Hardcode trong mã** — `.work/edition.py` dòng 1078–1093 (`CAST`) | `edition.py:1072-1093` |
 
-> **Điểm mấu chốt:** `get_voice_list` **tồn tại và chạy tốt**, nhưng **code dự án không hề gọi nó** — 0 lần trong toàn bộ `.work/*.py`. Giọng được chọn tay trong `02_SAN_XUAT/Tap02/BaoCao_GiongDoc_Tap02.md` §4 (23/10/2026), rồi chép vào `edition.py` và giữ nguyên từ đó.
+> **Điểm mấu chốt:** `get_voice_list` **tồn tại và chạy tốt**, nhưng **code dự án không hề gọi nó** — 0 lần trong toàn bộ `.work/*.py`. Giọng được chọn tay trong `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/BaoCao_GiongDoc_Tap02.md` §4 (23/10/2026), rồi chép vào `edition.py` và giữ nguyên từ đó.
 
 ---
 
@@ -140,7 +140,7 @@ Nhưng đó là key cho **LLM** (chat / `llm-call`), **không** phải key TTS. 
 `provenance.json` có **2.103 bản ghi**. Hai bản ghi "audio tổng" ghi:
 
 ```
-file:  02_SAN_XUAT/Tap01/xuat_ban/Tap01_master.mp3
+file:  02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/xuat_ban/Tap01_master.mp3
 cong_cu: TTS MiniMax (5 giọng, 128 câu) + nhạc assets/bgm + 11 SFX …
 dieu_khoan: <điều khoản MiniMax — cần kiểm tra>
 kiem_tra_thuong_mai: chưa

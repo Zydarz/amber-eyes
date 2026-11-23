@@ -36,7 +36,7 @@ for a in range(1, 6):
         lines.append(f'- `{j["name"]}`: {d[:120]}...')
     lines.append('')
 
-out_path = ROOT / "02_SAN_XUAT" / "Tap16" / "Danh_Sach_Anh_Tap16.md"
+out_path = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap16" / "Danh_Sach_Anh_Tap16.md"
 with open(out_path, "w", encoding="utf-8") as f:
     f.write('\n'.join(lines))
 

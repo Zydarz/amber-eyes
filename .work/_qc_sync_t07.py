@@ -15,7 +15,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(r"D:/TEST/Gax/amber-eyes")
 WORK = ROOT / ".work"
 FF = WORK / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
-MP4 = ROOT / "02_SAN_XUAT" / "Tap07" / "xuat_ban" / "Tap07_master.mp4"
+MP4 = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07" / "xuat_ban" / "Tap07_master.mp4"
 WAV = WORK / "audio_master_t07.wav"
 SR = 8000
 T0, T1 = 100.0, 160.0

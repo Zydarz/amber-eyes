@@ -7,9 +7,9 @@ sys.path.insert(0, '.work')
 import parse_kichban as PK
 
 # 1. READ ORIGINAL EN, JA, KO SCRIPTS
-en_path = '01_KICH_BAN/Tap10_EN/kichban_tap10_EN.md'
-ja_path = '01_KICH_BAN/Tap10_JA/kichban_tap10_JA.md'
-ko_path = '01_KICH_BAN/Tap10_KO/kichban_tap10_KO.md'
+en_path = '01_KICH_BAN/Ho_So_Toi_Pham/Tap10_EN/kichban_tap10_EN.md'
+ja_path = '01_KICH_BAN/Ho_So_Toi_Pham/Tap10_JA/kichban_tap10_JA.md'
+ko_path = '01_KICH_BAN/Ho_So_Toi_Pham/Tap10_KO/kichban_tap10_KO.md'
 
 with open(en_path, 'r', encoding='utf-8') as f:
     en_raw = f.read()

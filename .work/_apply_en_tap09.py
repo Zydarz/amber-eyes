@@ -79,7 +79,7 @@ This tragedy reminds us: whenever humans experience isolation and existential va
 Psychological predators never arrive wearing devil's horns.
 They present themselves cloaked as empathic friends and selfless mentors."'''
 
-with open('01_KICH_BAN/Tap09_EN/kichban_tap09_EN.md', 'r', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap09_EN/kichban_tap09_EN.md', 'r', encoding='utf-8') as f:
     text = f.read()
 
 # Replace elements carefully
@@ -104,10 +104,10 @@ text = re.sub(r'\*\*INVESTIGATOR\*\* \*\([^)]*reflecting on judicial precedent\)
 # 5.05
 text = re.sub(r'\*\*PSYCHOLOGIST\*\* \*\([^)]*delivering psychological synthesis and inner sentence\)\*:.*?(?=\n\n\*\*\[Pause 2\.0 seconds\])', EN_5_05, text, flags=re.S)
 
-with open('01_KICH_BAN/Tap09_EN/kichban_tap09_EN.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap09_EN/kichban_tap09_EN.md', 'w', encoding='utf-8') as f:
     f.write(text)
 
-with open('01_KICH_BAN/Tap09/kichban_tap09_EN.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_EN.md', 'w', encoding='utf-8') as f:
     f.write(text)
 
-print("Updated 01_KICH_BAN/Tap09_EN/kichban_tap09_EN.md successfully!")
+print("Updated 01_KICH_BAN/Ho_So_Toi_Pham/Tap09_EN/kichban_tap09_EN.md successfully!")

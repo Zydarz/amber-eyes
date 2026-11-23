@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 W = ROOT / ".work"
 
 # ---------- 1. đọc bảng shot VN ----------
-plan = (ROOT / "02_SAN_XUAT/Tap03/KeHoach_Video_Tap03.md").read_text(encoding="utf-8").splitlines()
+plan = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/KeHoach_Video_Tap03.md").read_text(encoding="utf-8").splitlines()
 i0 = next(i for i, l in enumerate(plan) if l.startswith("## 6. DANH SÁCH SHOT"))
 i1 = next(i for i, l in enumerate(plan) if i > i0 and l.startswith("**Tổng:"))
 rows = []

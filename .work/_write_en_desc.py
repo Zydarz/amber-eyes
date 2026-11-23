@@ -54,7 +54,7 @@ If you suspect a child is suffering medical abuse, neglect, or violence:
 #AmberEyes #TrueCrime #CriminalPsychology #GypsyRoseBlanchard #DeeDeeBlanchard #FDIA #MunchausenByProxy #LearnedHelplessness #TraumaBonding #10PsychologicalMarkers #RedFlags #ForensicPsychology
 """
 
-for path in ["02_SAN_XUAT/Tap01_EN/mo_ta.txt", "02_SAN_XUAT/Tap01_EN/xuat_ban/mo_ta.txt"]:
+for path in ["02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN/mo_ta.txt", "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN/xuat_ban/mo_ta.txt"]:
     with open(path, "w", encoding="utf-8") as f:
         f.write(en_text.strip() + "\n")
     print(f"Wrote {path} ({len(en_text.strip())} chars)")

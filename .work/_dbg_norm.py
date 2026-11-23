@@ -12,7 +12,7 @@ from parse_kichban import parse_file  # noqa: E402
 
 W = ROOT / ".work"
 idx = {}
-for el in parse_file(str(ROOT / "01_KICH_BAN/Tap04/kichban_tap04_23102026.md")):
+for el in parse_file(str(ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap04/kichban_tap04_23102026.md")):
     if el["kind"] == "LOI":
         idx[el["id"]] = [(s["id"], s["text"]) for s in el.get("sentences", [])]
 

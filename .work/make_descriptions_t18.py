@@ -286,38 +286,38 @@ Amber eyes는 본 사건을 ‘10대 심리·행동 지표 생태계(§A2c)’�
 
 TARGETS = [
     # Tiếng Việt
-    (ROOT / "02_SAN_XUAT" / "Tap18" / "mo_ta.txt", DESC_VI),
-    (ROOT / "02_SAN_XUAT" / "Tap18" / "xuat_ban" / "mo_ta.txt", DESC_VI),
-    (ROOT / "02_SAN_XUAT" / "Tap18" / "nguon_tham_khao.md", SOURCES_VI),
-    (ROOT / "02_SAN_XUAT" / "Tap18" / "xuat_ban" / "nguon_tham_khao.md", SOURCES_VI),
-    (ROOT / "02_SAN_XUAT" / "Tap18" / "nguon_mo_ta.txt", SOURCES_VI),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18" / "mo_ta.txt", DESC_VI),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18" / "xuat_ban" / "mo_ta.txt", DESC_VI),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18" / "nguon_tham_khao.md", SOURCES_VI),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18" / "xuat_ban" / "nguon_tham_khao.md", SOURCES_VI),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18" / "nguon_mo_ta.txt", SOURCES_VI),
     
     # Tiếng Anh
-    (ROOT / "02_SAN_XUAT" / "Tap18_EN" / "description.txt", DESC_EN),
-    (ROOT / "02_SAN_XUAT" / "Tap18_EN" / "mo_ta.txt", DESC_EN),
-    (ROOT / "02_SAN_XUAT" / "Tap18_EN" / "xuat_ban" / "description.txt", DESC_EN),
-    (ROOT / "02_SAN_XUAT" / "Tap18_EN" / "xuat_ban" / "mo_ta.txt", DESC_EN),
-    (ROOT / "02_SAN_XUAT" / "Tap18_EN" / "nguon_tham_khao_EN.md", SOURCES_EN),
-    (ROOT / "02_SAN_XUAT" / "Tap18_EN" / "xuat_ban" / "nguon_tham_khao_EN.md", SOURCES_EN),
-    (ROOT / "02_SAN_XUAT" / "Tap18_EN" / "nguon_mo_ta_EN.txt", SOURCES_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_EN" / "description.txt", DESC_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_EN" / "mo_ta.txt", DESC_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_EN" / "xuat_ban" / "description.txt", DESC_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_EN" / "xuat_ban" / "mo_ta.txt", DESC_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_EN" / "nguon_tham_khao_EN.md", SOURCES_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_EN" / "xuat_ban" / "nguon_tham_khao_EN.md", SOURCES_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_EN" / "nguon_mo_ta_EN.txt", SOURCES_EN),
     
     # Tiếng Nhật
-    (ROOT / "02_SAN_XUAT" / "Tap18_JA" / "description.txt", DESC_JA),
-    (ROOT / "02_SAN_XUAT" / "Tap18_JA" / "mo_ta.txt", DESC_JA),
-    (ROOT / "02_SAN_XUAT" / "Tap18_JA" / "xuat_ban" / "description.txt", DESC_JA),
-    (ROOT / "02_SAN_XUAT" / "Tap18_JA" / "xuat_ban" / "mo_ta.txt", DESC_JA),
-    (ROOT / "02_SAN_XUAT" / "Tap18_JA" / "nguon_tham_khao_JA.md", SOURCES_JA),
-    (ROOT / "02_SAN_XUAT" / "Tap18_JA" / "xuat_ban" / "nguon_tham_khao_JA.md", SOURCES_JA),
-    (ROOT / "02_SAN_XUAT" / "Tap18_JA" / "nguon_mo_ta_JA.txt", SOURCES_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_JA" / "description.txt", DESC_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_JA" / "mo_ta.txt", DESC_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_JA" / "xuat_ban" / "description.txt", DESC_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_JA" / "xuat_ban" / "mo_ta.txt", DESC_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_JA" / "nguon_tham_khao_JA.md", SOURCES_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_JA" / "xuat_ban" / "nguon_tham_khao_JA.md", SOURCES_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_JA" / "nguon_mo_ta_JA.txt", SOURCES_JA),
     
     # Tiếng Hàn
-    (ROOT / "02_SAN_XUAT" / "Tap18_KO" / "description.txt", DESC_KO),
-    (ROOT / "02_SAN_XUAT" / "Tap18_KO" / "mo_ta.txt", DESC_KO),
-    (ROOT / "02_SAN_XUAT" / "Tap18_KO" / "xuat_ban" / "description.txt", DESC_KO),
-    (ROOT / "02_SAN_XUAT" / "Tap18_KO" / "xuat_ban" / "mo_ta.txt", DESC_KO),
-    (ROOT / "02_SAN_XUAT" / "Tap18_KO" / "nguon_tham_khao_KO.md", SOURCES_KO),
-    (ROOT / "02_SAN_XUAT" / "Tap18_KO" / "xuat_ban" / "nguon_tham_khao_KO.md", SOURCES_KO),
-    (ROOT / "02_SAN_XUAT" / "Tap18_KO" / "nguon_mo_ta_KO.txt", SOURCES_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_KO" / "description.txt", DESC_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_KO" / "mo_ta.txt", DESC_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_KO" / "xuat_ban" / "description.txt", DESC_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_KO" / "xuat_ban" / "mo_ta.txt", DESC_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_KO" / "nguon_tham_khao_KO.md", SOURCES_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_KO" / "xuat_ban" / "nguon_tham_khao_KO.md", SOURCES_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap18_KO" / "nguon_mo_ta_KO.txt", SOURCES_KO),
 ]
 
 print(">>> VIẾT VÀ KIỂM TRA ĐỘ DÀI TẤT CẢ FILE MÔ TẢ TẬP 18 <<<")

@@ -1128,15 +1128,15 @@ def main():
     en_text = generate_script('EN', blocks)
     ja_text = generate_script('JA', blocks)
     
-    with open('01_KICH_BAN/Tap31/kichban_tap31_19112026.md', 'w', encoding='utf-8') as f:
+    with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap31/kichban_tap31_19112026.md', 'w', encoding='utf-8') as f:
         f.write(vn_text)
     print('Generated Tap 31 VN script (216 sentences).')
 
-    with open('01_KICH_BAN/Tap31_EN/kichban_tap31_EN.md', 'w', encoding='utf-8') as f:
+    with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap31_EN/kichban_tap31_EN.md', 'w', encoding='utf-8') as f:
         f.write(en_text)
     print('Generated Tap 31 EN script (216 sentences).')
 
-    with open('01_KICH_BAN/Tap31_JA/kichban_tap31_JA.md', 'w', encoding='utf-8') as f:
+    with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap31_JA/kichban_tap31_JA.md', 'w', encoding='utf-8') as f:
         f.write(ja_text)
     print('Generated Tap 31 JA script (216 sentences).')
 

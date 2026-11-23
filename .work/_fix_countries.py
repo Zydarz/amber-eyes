@@ -115,7 +115,7 @@ def detect_country(ep, title, topic, plan_txt):
 data = json.load(open('.work/_episodes_data_final.json', encoding='utf-8'))
 for row in data:
     ep = row['ep']
-    p = f"02_SAN_XUAT/Tap{ep:02d}/KeHoach_Video_Tap{ep:02d}.md"
+    p = f"02_SAN_XUAT/Ho_So_Toi_Pham/Tap{ep:02d}/KeHoach_Video_Tap{ep:02d}.md"
     txt = open(p, encoding='utf-8').read() if os.path.exists(p) else ''
     row['country'] = detect_country(ep, row['title'], row['topic'], txt[:2000])
 

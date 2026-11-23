@@ -3,7 +3,7 @@ import subprocess
 from pathlib import Path
 
 W = Path(".work")
-PUB = Path("02_SAN_XUAT/Tap02_JA/xuat_ban")
+PUB = Path("02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban")
 
 print("=== 1. AUDIO MASTER ===")
 mp3 = PUB / "Tap02_JA_master.mp3"

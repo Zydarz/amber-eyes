@@ -301,49 +301,49 @@ def main():
     destinations = {
         "VN": {
             "mo_ta": [
-                ROOT / "02_SAN_XUAT" / "Tap20" / "mo_ta.txt",
-                ROOT / "02_SAN_XUAT" / "Tap20" / "xuat_ban" / "mo_ta.txt",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20" / "mo_ta.txt",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20" / "xuat_ban" / "mo_ta.txt",
             ],
             "sources": [
-                ROOT / "02_SAN_XUAT" / "Tap20" / "nguon_mo_ta.txt",
-                ROOT / "02_SAN_XUAT" / "Tap20" / "nguon_tham_khao.md",
-                ROOT / "02_SAN_XUAT" / "Tap20" / "xuat_ban" / "nguon_tham_khao.md",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20" / "nguon_mo_ta.txt",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20" / "nguon_tham_khao.md",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20" / "xuat_ban" / "nguon_tham_khao.md",
             ],
         },
         "EN": {
             "mo_ta": [
-                ROOT / "02_SAN_XUAT" / "Tap20_EN" / "description.txt",
-                ROOT / "02_SAN_XUAT" / "Tap20_EN" / "mo_ta.txt",
-                ROOT / "02_SAN_XUAT" / "Tap20_EN" / "xuat_ban" / "description.txt",
-                ROOT / "02_SAN_XUAT" / "Tap20_EN" / "xuat_ban" / "mo_ta.txt",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_EN" / "description.txt",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_EN" / "mo_ta.txt",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_EN" / "xuat_ban" / "description.txt",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_EN" / "xuat_ban" / "mo_ta.txt",
             ],
             "sources": [
-                ROOT / "02_SAN_XUAT" / "Tap20_EN" / "nguon_tham_khao_EN.md",
-                ROOT / "02_SAN_XUAT" / "Tap20_EN" / "xuat_ban" / "nguon_tham_khao_EN.md",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_EN" / "nguon_tham_khao_EN.md",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_EN" / "xuat_ban" / "nguon_tham_khao_EN.md",
             ],
         },
         "JA": {
             "mo_ta": [
-                ROOT / "02_SAN_XUAT" / "Tap20_JA" / "description.txt",
-                ROOT / "02_SAN_XUAT" / "Tap20_JA" / "mo_ta.txt",
-                ROOT / "02_SAN_XUAT" / "Tap20_JA" / "xuat_ban" / "description.txt",
-                ROOT / "02_SAN_XUAT" / "Tap20_JA" / "xuat_ban" / "mo_ta.txt",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_JA" / "description.txt",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_JA" / "mo_ta.txt",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_JA" / "xuat_ban" / "description.txt",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_JA" / "xuat_ban" / "mo_ta.txt",
             ],
             "sources": [
-                ROOT / "02_SAN_XUAT" / "Tap20_JA" / "nguon_tham_khao_JA.md",
-                ROOT / "02_SAN_XUAT" / "Tap20_JA" / "xuat_ban" / "nguon_tham_khao_JA.md",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_JA" / "nguon_tham_khao_JA.md",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_JA" / "xuat_ban" / "nguon_tham_khao_JA.md",
             ],
         },
         "KO": {
             "mo_ta": [
-                ROOT / "02_SAN_XUAT" / "Tap20_KO" / "description.txt",
-                ROOT / "02_SAN_XUAT" / "Tap20_KO" / "mo_ta.txt",
-                ROOT / "02_SAN_XUAT" / "Tap20_KO" / "xuat_ban" / "description.txt",
-                ROOT / "02_SAN_XUAT" / "Tap20_KO" / "xuat_ban" / "mo_ta.txt",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_KO" / "description.txt",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_KO" / "mo_ta.txt",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_KO" / "xuat_ban" / "description.txt",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_KO" / "xuat_ban" / "mo_ta.txt",
             ],
             "sources": [
-                ROOT / "02_SAN_XUAT" / "Tap20_KO" / "nguon_tham_khao_KO.md",
-                ROOT / "02_SAN_XUAT" / "Tap20_KO" / "xuat_ban" / "nguon_tham_khao_KO.md",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_KO" / "nguon_tham_khao_KO.md",
+                ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap20_KO" / "xuat_ban" / "nguon_tham_khao_KO.md",
             ],
         },
     }

@@ -12,9 +12,9 @@ sys.path.insert(0, str(W))
 from parse_kichban import parse_file  # noqa: E402
 
 KB = {
-    "vi": "01_KICH_BAN/Tap07/kichban_tap07_23102026.md",
-    "en": "01_KICH_BAN/Tap07_EN/kichban_tap07_EN.md",
-    "ja": "01_KICH_BAN/Tap07_JA/kichban_tap07_JA.md",
+    "vi": "01_KICH_BAN/Ho_So_Toi_Pham/Tap07/kichban_tap07_23102026.md",
+    "en": "01_KICH_BAN/Ho_So_Toi_Pham/Tap07_EN/kichban_tap07_EN.md",
+    "ja": "01_KICH_BAN/Ho_So_Toi_Pham/Tap07_JA/kichban_tap07_JA.md",
 }
 data = {}
 for lang, rel in KB.items():

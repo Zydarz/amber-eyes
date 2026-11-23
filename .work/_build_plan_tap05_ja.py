@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 W = ROOT / ".work"
 
 ja_table = json.loads((W / "shots_text_tap05_JA.json").read_text(encoding="utf-8"))
-en_plan = (ROOT / "02_SAN_XUAT/Tap05_EN/KeHoach_Video_Tap05_EN.md").read_text(encoding="utf-8")
+en_plan = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_EN/KeHoach_Video_Tap05_EN.md").read_text(encoding="utf-8")
 
 lines = en_plan.splitlines()
 out_lines = []
@@ -19,8 +19,8 @@ in_shots = False
 HEADER = """# 制作計画 エピソード05 · 日本語版 · 「紫色のフロッピーディスク」 (PART B)
 
 **適用基準:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Part A)  
-**台本:** `01_KICH_BAN/Tap05_JA/kichban_tap05_JA.md` · **出力先:** `02_SAN_XUAT/Tap05_JA/xuat_ban/`  
-**固定テキスト・カード:** `02_SAN_XUAT/Tap05_JA/CHU_CO_DINH_JA.md`  
+**台本:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap05_JA/kichban_tap05_JA.md` · **出力先:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_JA/xuat_ban/`  
+**固定テキスト・カード:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_JA/CHU_CO_DINH_JA.md`  
 **日付:** 2026年11月4日
 
 ---
@@ -29,8 +29,8 @@ HEADER = """# 制作計画 エピソード05 · 日本語版 · 「紫色のフ�
 
 | 項目 | 内容 |
 |---|---|
-| 台本 | `01_KICH_BAN/Tap05_JA/kichban_tap05_JA.md` — 58 elements · 164 sentences |
-| 音声マスター | `02_SAN_XUAT/Tap05_JA/xuat_ban/Tap05_JA_master.mp3` (1471.43 s · -16.28 LUFS · TP -2.00 dBFS) |
+| 台本 | `01_KICH_BAN/Ho_So_Toi_Pham/Tap05_JA/kichban_tap05_JA.md` — 58 elements · 164 sentences |
+| 音声マスター | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_JA/xuat_ban/Tap05_JA_master.mp3` (1471.43 s · -16.28 LUFS · TP -2.00 dBFS) |
 | 配役 (日本語版) | H: 梟 (フクロウ) · D: 狼 (オオカミ) · C: 狐 (キツネ) · N1: 羊 (ヒツジ) · N2: 猫 (ネコ) |
 | N1 / N2 | `1.09` パークシティ住民 (ヒツジ) / `4.15` ケリー・ローソン - デニス・レイダーの娘 (ネコ) |
 | 映像構造 | 全83ショット — 音声70ショット + 間奏・休止13ショット |
@@ -103,6 +103,6 @@ for l in lines:
         out_lines.append(l)
 
 out_text = "\n".join(out_lines) + "\n"
-plan_path = ROOT / "02_SAN_XUAT/Tap05_JA/KeHoach_Video_Tap05_JA.md"
+plan_path = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_JA/KeHoach_Video_Tap05_JA.md"
 plan_path.write_text(out_text, encoding="utf-8")
 print(f"Successfully generated {plan_path} with {len(out_lines)} lines.")

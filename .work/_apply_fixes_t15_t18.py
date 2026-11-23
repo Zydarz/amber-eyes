@@ -6,7 +6,7 @@ sys.path.insert(0, '.work')
 import parse_kichban as PK
 
 # --- FIX TAP 15 VN ---
-p15_vn = '01_KICH_BAN/Tap15/kichban_tap15_23102026.md'
+p15_vn = '01_KICH_BAN/Ho_So_Toi_Pham/Tap15/kichban_tap15_23102026.md'
 with open(p15_vn, encoding='utf-8') as f:
     t15_vn = f.read()
 
@@ -23,7 +23,7 @@ with open(p15_vn, 'w', encoding='utf-8') as f:
 print(f"Fixed Tap 15 VN: {p15_vn}")
 
 # --- FIX TAP 15 EN ---
-for p15_en in ['01_KICH_BAN/Tap15_EN/kichban_tap15_EN.md', '01_KICH_BAN/Tap15/kichban_tap15_EN.md']:
+for p15_en in ['01_KICH_BAN/Ho_So_Toi_Pham/Tap15_EN/kichban_tap15_EN.md', '01_KICH_BAN/Ho_So_Toi_Pham/Tap15/kichban_tap15_EN.md']:
     with open(p15_en, encoding='utf-8') as f:
         t15_en = f.read()
     t15_en = t15_en.replace('"Bang... bang... bang"', 'three times with authoritative finality')
@@ -35,7 +35,7 @@ for p15_en in ['01_KICH_BAN/Tap15_EN/kichban_tap15_EN.md', '01_KICH_BAN/Tap15/ki
     print(f"Fixed Tap 15 EN: {p15_en}")
 
 # --- FIX TAP 15 JA ---
-p15_ja = '01_KICH_BAN/Tap15_JA/kichban_tap15_JA.md'
+p15_ja = '01_KICH_BAN/Ho_So_Toi_Pham/Tap15_JA/kichban_tap15_JA.md'
 with open(p15_ja, encoding='utf-8') as f:
     t15_ja = f.read()
 t15_ja = t15_ja.replace('「カン…カン…カン」', '')
@@ -46,7 +46,7 @@ with open(p15_ja, 'w', encoding='utf-8') as f:
 print(f"Fixed Tap 15 JA: {p15_ja}")
 
 # --- FIX TAP 15 KO ---
-p15_ko = '01_KICH_BAN/Tap15_KO/kichban_tap15_KO.md'
+p15_ko = '01_KICH_BAN/Ho_So_Toi_Pham/Tap15_KO/kichban_tap15_KO.md'
 with open(p15_ko, encoding='utf-8') as f:
     t15_ko = f.read()
 t15_ko = t15_ko.replace('"탕... 탕... 탕"', '')
@@ -57,7 +57,7 @@ with open(p15_ko, 'w', encoding='utf-8') as f:
 print(f"Fixed Tap 15 KO: {p15_ko}")
 
 # --- FIX TAP 18 VN ---
-p18_vn = '01_KICH_BAN/Tap18/kichban_tap18_23102026.md'
+p18_vn = '01_KICH_BAN/Ho_So_Toi_Pham/Tap18/kichban_tap18_23102026.md'
 with open(p18_vn, encoding='utf-8') as f:
     t18_vn = f.read()
 
@@ -71,14 +71,14 @@ print(f"Fixed Tap 18 VN: {p18_vn}")
 
 # Reparse and re-verify parity for both episodes
 for ep, files in [
-    ('Tap15', [('VN', '01_KICH_BAN/Tap15/kichban_tap15_23102026.md'),
-               ('EN', '01_KICH_BAN/Tap15_EN/kichban_tap15_EN.md'),
-               ('JA', '01_KICH_BAN/Tap15_JA/kichban_tap15_JA.md'),
-               ('KO', '01_KICH_BAN/Tap15_KO/kichban_tap15_KO.md')]),
-    ('Tap18', [('VN', '01_KICH_BAN/Tap18/kichban_tap18_23102026.md'),
-               ('EN', '01_KICH_BAN/Tap18_EN/kichban_tap18_EN.md'),
-               ('JA', '01_KICH_BAN/Tap18_JA/kichban_tap18_JA.md'),
-               ('KO', '01_KICH_BAN/Tap18_KO/kichban_tap18_KO.md')]),
+    ('Tap15', [('VN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap15/kichban_tap15_23102026.md'),
+               ('EN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap15_EN/kichban_tap15_EN.md'),
+               ('JA', '01_KICH_BAN/Ho_So_Toi_Pham/Tap15_JA/kichban_tap15_JA.md'),
+               ('KO', '01_KICH_BAN/Ho_So_Toi_Pham/Tap15_KO/kichban_tap15_KO.md')]),
+    ('Tap18', [('VN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap18/kichban_tap18_23102026.md'),
+               ('EN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap18_EN/kichban_tap18_EN.md'),
+               ('JA', '01_KICH_BAN/Ho_So_Toi_Pham/Tap18_JA/kichban_tap18_JA.md'),
+               ('KO', '01_KICH_BAN/Ho_So_Toi_Pham/Tap18_KO/kichban_tap18_KO.md')]),
 ]:
     print(f"\n=== VERIFYING PARITY FOR {ep} ===")
     parsed = {}

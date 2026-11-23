@@ -394,7 +394,7 @@ def main():
 
     can_nghe_lines = [
         "# Câu cần nghe — Tập 06 EN (Higgs) — 04/11/2026\n",
-        f"Master Target: `02_SAN_XUAT/Tap06_EN/xuat_ban/Tap06_EN_master.mp3` · {total_dur:.1f} s (~{total_dur/60:.1f} min) · {len(items_tl)} câu · lời đầu {items_tl[0]['start'] if items_tl else 'N/A'} s · lời cuối {items_tl[-1]['end'] if items_tl else 'N/A'} s\n",
+        f"Master Target: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap06_EN/xuat_ban/Tap06_EN_master.mp3` · {total_dur:.1f} s (~{total_dur/60:.1f} min) · {len(items_tl)} câu · lời đầu {items_tl[0]['start'] if items_tl else 'N/A'} s · lời cuối {items_tl[-1]['end'] if items_tl else 'N/A'} s\n",
         f"**Chất lượng tổng quan:** Whisper CER trung bình = {np.mean(cers)*100:.2f}% (trung vị {np.median(cers)*100:.2f}%) · UTMOSv2 MOS = {np.mean(moss):.2f}/5.0 · Cặp vai D-H = {semitones(medians.get('D',1), medians.get('H',1)):.2f} nửa cung.\n",
         "| Mốc | Câu | Vai | CER | MOS | Câu gốc | ASR nghe được | Ghi chú |",
         "|---|---|---|---:|---:|---|---|---|"
@@ -414,7 +414,7 @@ def main():
             asr = r["asr_text"].replace("|", r"\|")
             can_nghe_lines.append(f"| {time_str} | {sid} | {r['role']} | {c*100:.1f}% | {r['utmos']:.2f} | {orig} | {asr} | Nghe xác nhận |")
 
-    can_nghe_p = ROOT / "02_SAN_XUAT" / "Tap06_EN" / "CanNghe_Tap06_EN_higgs.md"
+    can_nghe_p = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_EN" / "CanNghe_Tap06_EN_higgs.md"
     can_nghe_p.write_text("\n".join(can_nghe_lines) + "\n", encoding="utf-8")
     print(f"Wrote CanNghe report to {can_nghe_p}", flush=True)
 

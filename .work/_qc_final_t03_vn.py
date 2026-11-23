@@ -29,9 +29,9 @@ ROOT = Path("D:/TEST/Gax/amber-eyes")
 WORK = ROOT / ".work"
 FF = WORK / "ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffmpeg.exe"
 FP = WORK / "ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffprobe.exe"
-MP4 = ROOT / "02_SAN_XUAT/Tap03/xuat_ban/Tap03_master.mp4"
-SRT = ROOT / "02_SAN_XUAT/Tap03/xuat_ban/Tap03.srt"
-MOTA = ROOT / "02_SAN_XUAT/Tap03/xuat_ban/mo_ta.txt"
+MP4 = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/xuat_ban/Tap03_master.mp4"
+SRT = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/xuat_ban/Tap03.srt"
+MOTA = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/xuat_ban/mo_ta.txt"
 TMP = WORK / "_qc_final_t03"
 TMP.mkdir(exist_ok=True)
 

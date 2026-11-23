@@ -6,10 +6,10 @@ sys.path.insert(0, '.work')
 import parse_kichban as PK
 
 files = [
-    ('VN', '01_KICH_BAN/Tap10/kichban_tap10_23102026.md'),
-    ('EN', '01_KICH_BAN/Tap10_EN/kichban_tap10_EN.md'),
-    ('JA', '01_KICH_BAN/Tap10_JA/kichban_tap10_JA.md'),
-    ('KO', '01_KICH_BAN/Tap10_KO/kichban_tap10_KO.md'),
+    ('VN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap10/kichban_tap10_23102026.md'),
+    ('EN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap10_EN/kichban_tap10_EN.md'),
+    ('JA', '01_KICH_BAN/Ho_So_Toi_Pham/Tap10_JA/kichban_tap10_JA.md'),
+    ('KO', '01_KICH_BAN/Ho_So_Toi_Pham/Tap10_KO/kichban_tap10_KO.md'),
 ]
 
 forbidden = {

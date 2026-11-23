@@ -8,7 +8,7 @@ ROOT = Path(r"D:\TEST\Gax\amber-eyes")
 sys.path.insert(0, str(ROOT / ".work"))
 import parse_kichban
 
-parsed = parse_kichban.parse_file(ROOT / "01_KICH_BAN" / "Tap20" / "kichban_tap20_23102026.md")
+parsed = parse_kichban.parse_file(ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap20" / "kichban_tap20_23102026.md")
 
 with open(ROOT / ".work" / "all_sentences_vn.txt", "w", encoding="utf-8") as out:
     total_s = 0

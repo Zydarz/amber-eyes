@@ -6,8 +6,8 @@ import sys
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-for tag, p in (("TAP06", r"D:/TEST/Gax/amber-eyes/02_SAN_XUAT/Tap06/KeHoach_Video_Tap06.md"),
-               ("TAP07", r"D:/TEST/Gax/amber-eyes/02_SAN_XUAT/Tap07/KeHoach_Video_Tap07.md")):
+for tag, p in (("TAP06", r"D:/TEST/Gax/amber-eyes/02_SAN_XUAT/Ho_So_Toi_Pham/Tap06/KeHoach_Video_Tap06.md"),
+               ("TAP07", r"D:/TEST/Gax/amber-eyes/02_SAN_XUAT/Ho_So_Toi_Pham/Tap07/KeHoach_Video_Tap07.md")):
     t = open(p, encoding="utf-8-sig").read()
     m = re.search(r"^## 6\. DANH SÁCH SHOT.*$", t, re.M)
     sec = t[m.end():]

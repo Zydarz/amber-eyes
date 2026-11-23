@@ -323,19 +323,19 @@ ANCHORS = {
 }
 
 target_files = [
-    ("VN", ROOT / "01_KICH_BAN" / "Tap22" / "kichban_tap22_23102026.md"),
-    ("EN", ROOT / "01_KICH_BAN" / "Tap22" / "kichban_tap22_EN.md"),
-    ("EN", ROOT / "01_KICH_BAN" / "Tap22_EN" / "kichban_tap22_EN.md"),
-    ("JA", ROOT / "01_KICH_BAN" / "Tap22" / "kichban_tap22_JA.md"),
-    ("JA", ROOT / "01_KICH_BAN" / "Tap22_JA" / "kichban_tap22_JA.md"),
-    ("KO", ROOT / "01_KICH_BAN" / "Tap22" / "kichban_tap22_KO.md"),
-    ("KO", ROOT / "01_KICH_BAN" / "Tap22_KO" / "kichban_tap22_KO.md"),
+    ("VN", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22" / "kichban_tap22_23102026.md"),
+    ("EN", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22" / "kichban_tap22_EN.md"),
+    ("EN", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22_EN" / "kichban_tap22_EN.md"),
+    ("JA", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22" / "kichban_tap22_JA.md"),
+    ("JA", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22_JA" / "kichban_tap22_JA.md"),
+    ("KO", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22" / "kichban_tap22_KO.md"),
+    ("KO", ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap22_KO" / "kichban_tap22_KO.md"),
 ]
 
 def update_markdown_file(lang, path):
     if not path.exists():
-        # For JA or KO in 01_KICH_BAN/Tap22/, if not exist, copy from sister
-        sister = ROOT / "01_KICH_BAN" / f"Tap22_{lang}" / f"kichban_tap22_{lang}.md"
+        # For JA or KO in 01_KICH_BAN/Ho_So_Toi_Pham/Tap22/, if not exist, copy from sister
+        sister = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap22_{lang}" / f"kichban_tap22_{lang}.md"
         if sister.exists():
             content = sister.read_text(encoding="utf-8")
             path.write_text(content, encoding="utf-8")

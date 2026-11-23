@@ -29,7 +29,7 @@ sys.path.insert(0, str(WORK))
 import edition as ED  # noqa: E402
 
 final = pathlib.Path(a.file) if a.file else (
-    ROOT / "02_SAN_XUAT" / f"Tap{ep}" / "xuat_ban" / f"Tap{ep}_master.mp4")
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ep}" / "xuat_ban" / f"Tap{ep}_master.mp4")
 tl = json.loads((WORK / f"timeline_s_t{ep}.json").read_text(encoding="utf-8-sig"))
 shots = json.loads((WORK / f"shots_t{ep}.json").read_text(encoding="utf-8-sig"))["shots"]
 sent = {i["id"]: i for i in tl["items"]}
@@ -94,6 +94,6 @@ for i, (sid, t, png, txt, seg) in enumerate(tiles):
     d.text((x + 3, y + 20), f"LOI: {txt}", fill=(170, 200, 235), font=font)
     with Image.open(png) as im:
         sheet.paste(im.resize((tw, th), Image.Resampling.LANCZOS), (x, y + hh))
-outp = ROOT / "02_SAN_XUAT" / f"Tap{ep}" / f"qc_dongboi_t{ep}.png"
+outp = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ep}" / f"qc_dongboi_t{ep}.png"
 sheet.save(outp)
 print("\n->", outp, sheet.size, "| %d khung" % len(tiles))

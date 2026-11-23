@@ -4,10 +4,10 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.path.insert(0, '.work')
 import parse_kichban as PK
 
-p_vn = PK.parse_file('01_KICH_BAN/Tap10/kichban_tap10_23102026.md')
-p_en = PK.parse_file('01_KICH_BAN/Tap10_EN/kichban_tap10_EN.md')
-p_ja = PK.parse_file('01_KICH_BAN/Tap10_JA/kichban_tap10_JA.md')
-p_ko = PK.parse_file('01_KICH_BAN/Tap10_KO/kichban_tap10_KO.md')
+p_vn = PK.parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap10/kichban_tap10_23102026.md')
+p_en = PK.parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap10_EN/kichban_tap10_EN.md')
+p_ja = PK.parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap10_JA/kichban_tap10_JA.md')
+p_ko = PK.parse_file('01_KICH_BAN/Ho_So_Toi_Pham/Tap10_KO/kichban_tap10_KO.md')
 
 def compare_el(el_id):
     vn_el = next(e for e in p_vn if e['id'] == el_id)

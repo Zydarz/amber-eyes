@@ -5,7 +5,7 @@ import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 # 1. Check raw lines of kichban_tap11_23102026.md
-with open('01_KICH_BAN/Tap11/kichban_tap11_23102026.md', 'r', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap11/kichban_tap11_23102026.md', 'r', encoding='utf-8') as f:
     raw_lines = f.readlines()
 
 print(f"Total raw lines: {len(raw_lines)}")

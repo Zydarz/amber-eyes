@@ -139,7 +139,7 @@ while i < len(lines):
         new_lines.append(l)
         i += 1
 
-with open('01_KICH_BAN/Tap09_JA/kichban_tap09_JA.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap09_JA/kichban_tap09_JA.md', 'w', encoding='utf-8') as f:
     f.write('\n'.join(new_lines) + '\n')
 
-print("Updated 01_KICH_BAN/Tap09_JA/kichban_tap09_JA.md successfully, total lines:", len(new_lines))
+print("Updated 01_KICH_BAN/Ho_So_Toi_Pham/Tap09_JA/kichban_tap09_JA.md successfully, total lines:", len(new_lines))

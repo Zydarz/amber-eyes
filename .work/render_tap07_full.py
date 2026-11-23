@@ -25,7 +25,7 @@ if res2.returncode != 0:
     sys.exit(res2.returncode)
 
 print("=== KIỂM TRA CHẤT LƯỢNG THÀNH PHẨM (QC A9.4) ===")
-master_mp4 = ROOT / "02_SAN_XUAT" / "Tap07" / "xuat_ban" / "Tap07_master.mp4"
+master_mp4 = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07" / "xuat_ban" / "Tap07_master.mp4"
 if not master_mp4.exists():
     print("LỖI: Không tìm thấy file thành phẩm:", master_mp4)
     sys.exit(1)

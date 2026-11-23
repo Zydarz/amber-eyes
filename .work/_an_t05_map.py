@@ -19,12 +19,12 @@ sys.path.insert(0, str(W))
 from parse_kichban import parse_file  # noqa: E402
 
 LANGS = [
-    ("VN", "01_KICH_BAN/Tap05/kichban_tap05_23102026.md",
-     "02_SAN_XUAT/Tap05/KeHoach_Video_Tap05.md"),
-    ("EN", "01_KICH_BAN/Tap05_EN/kichban_tap05_EN.md",
-     "02_SAN_XUAT/Tap05_EN/KeHoach_Video_Tap05_EN.md"),
-    ("JA", "01_KICH_BAN/Tap05_JA/kichban_tap05_JA.md",
-     "02_SAN_XUAT/Tap05_JA/KeHoach_Video_Tap05_JA.md"),
+    ("VN", "01_KICH_BAN/Ho_So_Toi_Pham/Tap05/kichban_tap05_23102026.md",
+     "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05/KeHoach_Video_Tap05.md"),
+    ("EN", "01_KICH_BAN/Ho_So_Toi_Pham/Tap05_EN/kichban_tap05_EN.md",
+     "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_EN/KeHoach_Video_Tap05_EN.md"),
+    ("JA", "01_KICH_BAN/Ho_So_Toi_Pham/Tap05_JA/kichban_tap05_JA.md",
+     "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_JA/KeHoach_Video_Tap05_JA.md"),
 ]
 
 

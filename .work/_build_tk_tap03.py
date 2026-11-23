@@ -406,7 +406,7 @@ NGUỒN THAM KHẢO
 • Báo cáo điều tra & tin tức lưu trữ — SFSU Bay Area Television Archive (24–25/04/1973)
 • Hồ sơ phiên xử tại Tòa Thượng thẩm Quận Santa Cruz (10/1973, thẩm phán Harry Brauer)
 • Peter Vronsky — Serial Killers: The Method and Madness of Monsters
-• Kịch bản tập: 01_KICH_BAN/Tap03/kichban_tap03_22102026.md · đối chiếu: 02_SAN_XUAT/Tap03/nguon_tham_khao.md
+• Kịch bản tập: 01_KICH_BAN/Ho_So_Toi_Pham/Tap03/kichban_tap03_22102026.md · đối chiếu: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/nguon_tham_khao.md
 
 ——————
 LƯU Ý
@@ -444,7 +444,7 @@ NGUỒN THAM KHẢO
 • Hồ sơ vụ án Edmund Emil Kemper III — Santa Cruz Sentinel & Tòa Thượng thẩm Santa Cruz
 • Peter Vronsky — Serial Killers: The Method and Madness of Monsters
 • Robert Ressler & John Douglas — FBI Behavioral Science Unit archives
-• Kịch bản tập: 01_KICH_BAN/Tap03/kichban_tap03_22102026.md · đối chiếu: 02_SAN_XUAT/Tap03/nguon_tham_khao.md
+• Kịch bản tập: 01_KICH_BAN/Ho_So_Toi_Pham/Tap03/kichban_tap03_22102026.md · đối chiếu: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/nguon_tham_khao.md
 
 ——————
 LƯU Ý
@@ -483,7 +483,7 @@ NGUỒN THAM KHẢO
 • Peter Vronsky — Serial Killers: The Method and Madness of Monsters
 • Sue Coletta & Inkl — Early Life of Edmund Kemper & Family Dynamics
 • Đánh giá tâm thần Bệnh viện Atascadero (1964–1969) & Vacaville (1984)
-• Kịch bản tập: 01_KICH_BAN/Tap03/kichban_tap03_22102026.md · đối chiếu: 02_SAN_XUAT/Tap03/nguon_tham_khao.md
+• Kịch bản tập: 01_KICH_BAN/Ho_So_Toi_Pham/Tap03/kichban_tap03_22102026.md · đối chiếu: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/nguon_tham_khao.md
 
 ——————
 LƯU Ý
@@ -524,7 +524,7 @@ NGUỒN THAM KHẢO
 • Hazelwood & Douglas — The Lust Murderer (FBI Law Enforcement Bulletin, 1980)
 • FBI ViCAP (Violent Criminal Apprehension Program) — Lịch sử thành lập 1985
 • John Douglas & Mark Olshaker — Mindhunter: Inside the FBI's Elite Serial Crime Unit
-• Kịch bản tập: 01_KICH_BAN/Tap03/kichban_tap03_22102026.md · đối chiếu: 02_SAN_XUAT/Tap03/nguon_tham_khao.md
+• Kịch bản tập: 01_KICH_BAN/Ho_So_Toi_Pham/Tap03/kichban_tap03_22102026.md · đối chiếu: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/nguon_tham_khao.md
 
 ——————
 LƯU Ý
@@ -562,7 +562,7 @@ NGUỒN THAM KHẢO
 • Peter Vronsky — Serial Killers: The Method and Madness of Monsters
 • Macdonald Triad — Nghiên cứu phân tâm học tội phạm vị thành niên
 • Gavin de Becker — The Gift of Fear (Bài học về trực giác và ranh giới sinh tồn)
-• Kịch bản tập: 01_KICH_BAN/Tap03/kichban_tap03_22102026.md · đối chiếu: 02_SAN_XUAT/Tap03/nguon_tham_khao.md
+• Kịch bản tập: 01_KICH_BAN/Ho_So_Toi_Pham/Tap03/kichban_tap03_22102026.md · đối chiếu: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/nguon_tham_khao.md
 
 ——————
 LƯU Ý
@@ -873,7 +873,7 @@ def write_markdown():
     A("")
     A("*Ngày: 20/11/2026 · Trạng thái: **kịch bản đã hoàn thành, sẵn sàng duyệt trước khi đọc giọng** (L4)*")
     A("*Kế hoạch cha: `02_SAN_XUAT/TIKTOK/KE_HOACH_TIKTOK.md` · Đặc tả audio máy đọc được: `02_SAN_XUAT/TIKTOK/Tap03/SPEC_AUDIO_CLIP_TAP03.json`*")
-    A("*Nguồn duy nhất của mọi dữ kiện: `02_SAN_XUAT/Tap03/KeHoach_Video_Tap03.md` · `.work/script_tap03.json` (220 câu) · `02_SAN_XUAT/Tap03/nguon_tham_khao.md`*")
+    A("*Nguồn duy nhất của mọi dữ kiện: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/KeHoach_Video_Tap03.md` · `.work/script_tap03.json` (220 câu) · `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/nguon_tham_khao.md`*")
     A("*Sinh tự động bởi `.work/_build_tk_tap03.py` — sửa kịch bản thì sửa file script rồi chạy lại, không sửa tay.*")
     A("")
     A("---")

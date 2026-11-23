@@ -3,7 +3,7 @@
 """Nhập tiếng động vào bộ âm thanh Tập 02.
 
 Nguồn có thể là video AI (Gemini / Veo, MiniMax…) hoặc tiếng tải tay từ YouTube Audio Library.
-Người dùng đặt file vào 02_SAN_XUAT/Tap02/sfx_gemini/ với tên đúng mã, ví dụ fx_gavel_triple.mp3
+Người dùng đặt file vào 02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/sfx_gemini/ với tên đúng mã, ví dụ fx_gavel_triple.mp3
 (chấp nhận .mp4 .mov .webm .wav .mp3 .m4a). Script:
   1. lấy rãnh âm thanh → wav stereo 44,1 kHz, cắt lặng đầu/cuối, chuẩn hoá đỉnh
   2. chép bản tự tổng hợp cùng tên sang assets/sfx/t2/_code/ (quay lại được), rồi ghi đè assets/sfx/t2/<mã>.wav
@@ -23,8 +23,8 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parents[1]
-INBOX = ROOT / "02_SAN_XUAT" / "Tap02" / "sfx_gemini"
-GUIDE = ROOT / "02_SAN_XUAT" / "Tap02" / "HuongDan_TaoSFX_Gemini.md"
+INBOX = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02" / "sfx_gemini"
+GUIDE = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02" / "HuongDan_TaoSFX_Gemini.md"
 OUT = ROOT / "assets" / "sfx" / "t2"
 FF = ROOT / ".work" / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 FFP = FF.with_name("ffprobe.exe")

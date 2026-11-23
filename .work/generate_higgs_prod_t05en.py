@@ -360,7 +360,7 @@ def main():
     # CanNghe report
     can_nghe_lines = [
         "# Câu cần nghe — Tập 05 EN (Higgs) — 02/11/2026\n",
-        f"Dự kiến Master: `02_SAN_XUAT/Tap05_EN/xuat_ban/Tap05_EN_master.mp3` · {total:.1f} s (~{total/60:.1f} min) · {len(items_tl)} câu · lời đầu {items_tl[0]['start']} s · lời cuối {end_voice:.1f} s\n",
+        f"Dự kiến Master: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_EN/xuat_ban/Tap05_EN_master.mp3` · {total:.1f} s (~{total/60:.1f} min) · {len(items_tl)} câu · lời đầu {items_tl[0]['start']} s · lời cuối {end_voice:.1f} s\n",
         "| Mốc | Câu | Vai | CER | Câu gốc | ASR nghe được | Ghi chú |",
         "|---|---|---|---:|---|---|---|"
     ]
@@ -379,7 +379,7 @@ def main():
             asr = r["asr"].replace("|", r"\|")
             can_nghe_lines.append(f"| {time_str} | {sid} | {r['role']} | {c*100:.1f}% | {orig} | {asr} | Nghe xác nhận |")
 
-    can_nghe_p = ROOT / "02_SAN_XUAT" / "Tap05_EN" / "CanNghe_Tap05_EN_higgs.md"
+    can_nghe_p = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap05_EN" / "CanNghe_Tap05_EN_higgs.md"
     can_nghe_p.write_text("\n".join(can_nghe_lines) + "\n", encoding="utf-8")
     print(f"Wrote CanNghe report to {can_nghe_p}", flush=True)
 

@@ -20,21 +20,21 @@ FF = shutil.which("ffmpeg") or (WORK / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl
 CONFIGS = [
     {
         "lang": "vi",
-        "mp3": ROOT / "02_SAN_XUAT" / "Tap10" / "xuat_ban" / "Tap10_master.mp3",
+        "mp3": ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap10" / "xuat_ban" / "Tap10_master.mp3",
         "wav": WORK / "audio_master_t10.wav",
         "tl": WORK / "timeline_s_t10.json",
         "stems_dir": WORK / "stems_t10",
     },
     {
         "lang": "en",
-        "mp3": ROOT / "02_SAN_XUAT" / "Tap10_EN" / "xuat_ban" / "Tap10_EN_master.mp3",
+        "mp3": ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap10_EN" / "xuat_ban" / "Tap10_EN_master.mp3",
         "wav": WORK / "audio_master_EN_t10.wav",
         "tl": WORK / "timeline_s_EN_t10.json",
         "stems_dir": WORK / "stems_EN_t10",
     },
     {
         "lang": "ja",
-        "mp3": ROOT / "02_SAN_XUAT" / "Tap10_JA" / "xuat_ban" / "Tap10_JA_master.mp3",
+        "mp3": ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap10_JA" / "xuat_ban" / "Tap10_JA_master.mp3",
         "wav": WORK / "audio_master_JA_t10.wav",
         "tl": WORK / "timeline_s_JA_t10.json",
         "stems_dir": WORK / "stems_JA_t10",

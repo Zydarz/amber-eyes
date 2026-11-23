@@ -16,9 +16,9 @@ ROOT = Path(__file__).resolve().parents[1]
 W = ROOT / ".work"
 
 FILES = {
-    "vi": "02_SAN_XUAT/Tap05/KeHoach_Video_Tap05.md",
-    "en": "02_SAN_XUAT/Tap05_EN/KeHoach_Video_Tap05_EN.md",
-    "ja": "02_SAN_XUAT/Tap05_JA/KeHoach_Video_Tap05_JA.md",
+    "vi": "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05/KeHoach_Video_Tap05.md",
+    "en": "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_EN/KeHoach_Video_Tap05_EN.md",
+    "ja": "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_JA/KeHoach_Video_Tap05_JA.md",
 }
 
 

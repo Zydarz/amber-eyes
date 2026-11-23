@@ -16,7 +16,7 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(r"D:/TEST/Gax/amber-eyes")
-PLAN = ROOT / "02_SAN_XUAT" / "Tap07" / "KeHoach_Video_Tap07.md"
+PLAN = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07" / "KeHoach_Video_Tap07.md"
 BACKUP = ROOT / ".work" / "_cu" / "t07_shottable_147cu"
 BACKUP.mkdir(parents=True, exist_ok=True)
 BAK_FILE = BACKUP / "KeHoach_Video_Tap07.md.bak"

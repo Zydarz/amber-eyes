@@ -7,7 +7,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(__file__).resolve().parents[1]
-t = (ROOT / "02_SAN_XUAT/Tap06/KeHoach_Video_Tap06.md").read_text(encoding="utf-8")
+t = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap06/KeHoach_Video_Tap06.md").read_text(encoding="utf-8")
 m = re.search(r"^## 6\. DANH SÁCH SHOT.*$", t, re.M)
 sec = t[m.end():]
 sec = sec[: re.search(r"^\*\*Tổng:", sec, re.M).start()]

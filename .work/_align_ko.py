@@ -2,7 +2,7 @@ import io, sys, re
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 # Read KO file
-with open('01_KICH_BAN/Tap07_KO/kichban_tap07_KO.md', 'r', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap07_KO/kichban_tap07_KO.md', 'r', encoding='utf-8') as f:
     ko = f.read()
 
 # Fix proper noun in 1.06
@@ -39,7 +39,7 @@ ko = ko.replace('‘자기애적 붕괴（Narcissistic Collapse）’', '‘자�
 ko = ko.replace('‘Conrad 법（Conrad’s Law）’', '‘Conrad 법’')
 ko = ko.replace('‘생존을 위한 붉은 깃발（Red Flags）’', '생존을 위한 붉은 깃발')
 
-with open('01_KICH_BAN/Tap07_KO/kichban_tap07_KO.md', 'w', encoding='utf-8', newline='') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap07_KO/kichban_tap07_KO.md', 'w', encoding='utf-8', newline='') as f:
     f.write(ko)
 
 print("KO file updated")

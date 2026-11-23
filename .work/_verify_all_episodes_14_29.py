@@ -60,7 +60,7 @@ for ep in range(14, 30):
             if rel_f not in prov_files:
                 unrecorded_prov.append(rel_f)
 
-    ep_dir = ROOT / "02_SAN_XUAT" / f"Tap{ep:02d}"
+    ep_dir = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ep:02d}"
     sheet_file = ep_dir / f"contact_sheet_t{ep}.png"
     ds_file = ep_dir / f"Danh_Sach_Anh_Tap{ep:02d}.md"
     rev_file = ep_dir / f"REVIEW_Bo_Anh_Tap{ep:02d}.md"

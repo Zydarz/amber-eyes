@@ -6,11 +6,11 @@ r"""make_ja_scripts.py — dựng bản kịch bản tiếng Nhật cho AMBER EY
     py -3 .work/make_ja_scripts.py --all --workers 8
 
 Cách hoạt động:
-    1. đọc kịch bản VN chuẩn (file mới nhất trong 01_KICH_BAN/TapXX, bỏ _ban_goc/_truoc_review/_EN)
+    1. đọc kịch bản VN chuẩn (file mới nhất trong 01_KICH_BAN/Ho_So_Toi_Pham/TapXX, bỏ _ban_goc/_truoc_review/_EN)
     2. tách từng dòng thành "unit" (h1/h2/act/table/cue/pause/role/direction/dialogue)
     3. dịch theo TỪNG CÂU: 1 câu VN -> 1 câu JA (mã câu của bản diễn xuất được giữ nguyên)
     4. kiểm tra tự động: số câu, dấu **/*, sót tiếng Việt, lỡ tiếng Trung, rác Latin
-    5. ghi 01_KICH_BAN/TapXX_JA/kichban_tapXX_JA.md + báo cáo QC
+    5. ghi 01_KICH_BAN/Ho_So_Toi_Pham/TapXX_JA/kichban_tapXX_JA.md + báo cáo QC
 """
 import argparse
 import json
@@ -1003,8 +1003,8 @@ def find_review(ep: str) -> str:
     # ưu tiên: review của bản VN (nguồn trực tiếp của bản JA) -> review VN ở 02_SAN_XUAT
     # -> review bản EN (dùng khi không có bản VN).
     pats = [str(KB / f"Tap{ep}" / "REVIEW*.md"),
-            str(ROOT / "02_SAN_XUAT" / f"Tap{ep}" / "REVIEW*.md"),
-            str(ROOT / "02_SAN_XUAT" / f"Tap{ep}_*" / "REVIEW*.md")]
+            str(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ep}" / "REVIEW*.md"),
+            str(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ep}_*" / "REVIEW*.md")]
     for pat in pats:
         hits = sorted(glob.glob(pat))
         if hits:

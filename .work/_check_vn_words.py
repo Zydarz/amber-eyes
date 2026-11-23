@@ -6,7 +6,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, ".work")
 import parse_kichban as PK
 
-parsed = PK.parse_file("01_KICH_BAN/Tap15/kichban_tap15_23102026.md")
+parsed = PK.parse_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap15/kichban_tap15_23102026.md")
 
 ALLOWED_NON_VN = {
     "jodi", "arias", "travis", "alexander", "mesa", "arizona", "yreka", "cancun",

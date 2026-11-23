@@ -333,6 +333,6 @@ Amber Eyesと共に歩む犯罪心理の解読の旅は、恐怖を煽るため�
 
 FULL_JA = HEADER_JA + "\n" + ACT1_JA + "\n\n---\n\n" + ACT2_JA + "\n\n---\n\n" + ACT3_JA + "\n\n---\n\n" + ACT4_JA + "\n\n---\n\n" + ACT5_JA
 
-with open('01_KICH_BAN/Tap52_JA/kichban_tap52_JA.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap52_JA/kichban_tap52_JA.md', 'w', encoding='utf-8') as f:
     f.write(FULL_JA.strip() + '\n')
 print('Tap 52 JA written successfully.')

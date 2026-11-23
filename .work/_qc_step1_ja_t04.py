@@ -68,7 +68,7 @@ for s in shots:
 print(f"chữ trên hình còn tiếng Việt = {len(susp)} {susp[:5]}")
 
 # SRT subtitle check
-srt_path = ROOT / "02_SAN_XUAT/Tap04_JA/xuat_ban/Tap04_JA.srt"
+srt_path = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap04_JA/xuat_ban/Tap04_JA.srt"
 srt = srt_path.read_text(encoding="utf-8-sig")
 blocks = [b for b in srt.strip().split("\n\n") if b.strip()]
 

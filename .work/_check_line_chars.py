@@ -4,7 +4,7 @@ import sys, io
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-path = '01_KICH_BAN/Tap10/kichban_tap10_23102026.md'
+path = '01_KICH_BAN/Ho_So_Toi_Pham/Tap10/kichban_tap10_23102026.md'
 with open(path, 'r', encoding='utf-8') as f:
     lines = f.readlines()
 

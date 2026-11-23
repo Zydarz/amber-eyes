@@ -11,8 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 W = ROOT / ".work"
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-md = ROOT / "01_KICH_BAN/Tap02_JA/kichban_tap02_JA.md"
-bak = ROOT / "01_KICH_BAN/Tap02_JA/kichban_tap02_JA_backup.md"
+md = ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap02_JA/kichban_tap02_JA.md"
+bak = ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap02_JA/kichban_tap02_JA_backup.md"
 js = W / "script_tap02_JA.json"
 for p in [md, bak, js, W / "timeline_s_JA_t02.json"]:
     if p.exists():

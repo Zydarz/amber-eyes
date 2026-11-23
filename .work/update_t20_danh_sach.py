@@ -24,6 +24,6 @@ for idx, j in enumerate(JOBS_124, 1):
     sids_str = "–".join(j["sids"]) if len(j["sids"]) > 1 else j["sids"][0]
     lines.append(f"| {idx:03d} | `{j['name']}.png` | Hồi {j['act']} | {sids_str} | {j['desc']} |")
 
-out_file = ROOT / "02_SAN_XUAT/Tap20/Danh_Sach_Anh_Tap20.md"
+out_file = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap20/Danh_Sach_Anh_Tap20.md"
 out_file.write_text("\n".join(lines), encoding="utf-8")
 print(f"Đã cập nhật thành công {len(JOBS_124)} dòng vào: {out_file}")

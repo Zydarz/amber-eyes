@@ -301,7 +301,7 @@ Xin kính chào tạm biệt và hẹn gặp lại quý vị trong những tập
 
 full_vn = header + act1 + "\n---\n\n" + act2 + "\n---\n\n" + act3 + "\n---\n\n" + act4 + "\n---\n\n" + act5
 
-with open("01_KICH_BAN/Tap41/kichban_tap41_19112026.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap41/kichban_tap41_19112026.md", "w", encoding="utf-8") as f:
     f.write(full_vn)
 
-print("Successfully written expanded 01_KICH_BAN/Tap41/kichban_tap41_19112026.md")
+print("Successfully written expanded 01_KICH_BAN/Ho_So_Toi_Pham/Tap41/kichban_tap41_19112026.md")

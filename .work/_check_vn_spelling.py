@@ -21,5 +21,5 @@ def check_vn_words(path_str):
             suspicious.append(w)
     print(f"Suspicious ends: {suspicious}")
 
-check_vn_words('01_KICH_BAN/Tap15/kichban_tap15_23102026.md')
-check_vn_words('01_KICH_BAN/Tap17/kichban_tap17_23102026.md')
+check_vn_words('01_KICH_BAN/Ho_So_Toi_Pham/Tap15/kichban_tap15_23102026.md')
+check_vn_words('01_KICH_BAN/Ho_So_Toi_Pham/Tap17/kichban_tap17_23102026.md')

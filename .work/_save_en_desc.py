@@ -49,7 +49,7 @@ All factual records verified against official US jurisprudence:
 
 #AmberEyes #TrueCrime #CriminalPsychology #GypsyRoseBlanchard #DeeDeeBlanchard #FDIA #MunchausenByProxy #LearnedHelplessness #10PsychologicalMarkers #RedFlags #CaseFile"""
 
-open('02_SAN_XUAT/Tap01_EN/mo_ta.txt', 'w', encoding='utf-8').write(en_desc)
-open('02_SAN_XUAT/Tap01_EN/xuat_ban/mo_ta.txt', 'w', encoding='utf-8').write(en_desc)
+open('02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN/mo_ta.txt', 'w', encoding='utf-8').write(en_desc)
+open('02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN/xuat_ban/mo_ta.txt', 'w', encoding='utf-8').write(en_desc)
 print(f"Saved EN mo_ta.txt: {len(en_desc)} characters (Limit: 5000)")
 assert len(en_desc) <= 5000, "Vượt quá 5000 ký tự!"

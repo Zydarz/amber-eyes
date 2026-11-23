@@ -33,10 +33,10 @@ print(f"\n==> {ok}/{len(urls)} nguon chuan (HTTP 200 + >= 500 byte noi dung)")
 print("Tat ca URL trong mo ta va bang nguon deu lay tu generator nay.")
 
 # doi chieu: khoi nguon trong mo_ta.txt phai dung 20/20 URL
-mo = (ROOT / "02_SAN_XUAT/Tap06/xuat_ban/mo_ta.txt").read_text(encoding="utf-8")
+mo = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap06/xuat_ban/mo_ta.txt").read_text(encoding="utf-8")
 miss = [u for u in urls if u not in mo]
 print(f"==> mo_ta.txt chua {len(urls) - len(miss)}/{len(urls)} URL" + (f" — THIEU: {miss}" if miss else ""))
-tbl = (ROOT / "02_SAN_XUAT/Tap06/xuat_ban/nguon_tham_khao.md").read_text(encoding="utf-8")
+tbl = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap06/xuat_ban/nguon_tham_khao.md").read_text(encoding="utf-8")
 miss2 = [u for u in urls if u not in tbl]
 print(f"==> nguon_tham_khao.md chua {len(urls) - len(miss2)}/{len(urls)} URL" + (f" — THIEU: {miss2}" if miss2 else ""))
 rows = sum(1 for L in tbl.splitlines() if L.startswith("| `"))

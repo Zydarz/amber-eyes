@@ -3,7 +3,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-kb_path = Path("01_KICH_BAN/Tap07/kichban_tap07_23102026.md")
+kb_path = Path("01_KICH_BAN/Ho_So_Toi_Pham/Tap07/kichban_tap07_23102026.md")
 text = kb_path.read_text(encoding="utf-8")
 
 # Replacements

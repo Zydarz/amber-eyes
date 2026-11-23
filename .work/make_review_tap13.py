@@ -13,7 +13,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path(__file__).resolve().parents[1]
 BG = ROOT / "assets" / "bg"
 WORK = ROOT / ".work"
-OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap13"
+OUT_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap13"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 jobs = json.loads((WORK / "bg_jobs_tap13.json").read_text(encoding="utf-8"))
@@ -62,7 +62,7 @@ lines.append(f"| **Độ sáng trung bình (Mean Luminance)** | **{avg_mean:.1f}
 lines.append(f"| **Độ tương phản (Chiaroscuro Std)** | **{avg_std:.1f}** | **XUẤT SẮC** | Độ sâu chiaroscuro cao, phân định sáng - tối sắc nét |")
 lines.append("| **Tuân thủ quy tắc V5 (Nhân vật thật)** | **100% Bóng lưng / Khuất mặt** | **ĐẠT (100%)** | Tuyệt đối không vẽ mặt thật Jennifer Pan, Huei Hann Pan, Bich Ha Pan, Bill Goetz |")
 lines.append("| **Tuân thủ quy tắc V9 (An toàn nội dung)** | **100% Không bạo lực, máu me** | **ĐẠT (100%)** | Trọng tâm phân tích mô hình Tiger Parenting, Mythomania, Đấu trí thẩm vấn Reid, ICU kỳ tích và 4 Red Flags |")
-lines.append("| **Bảng tổng hợp (Contact Sheet)** | **Đã xuất bản** | **HOÀN THÀNH** | `02_SAN_XUAT/Tap13/contact_sheet_t13.png` |")
+lines.append("| **Bảng tổng hợp (Contact Sheet)** | **Đã xuất bản** | **HOÀN THÀNH** | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap13/contact_sheet_t13.png` |")
 lines.append("")
 lines.append("---")
 lines.append("")
@@ -120,7 +120,7 @@ lines.append("")
 lines.append("1. **Đồng bộ kịch bản:** Toàn bộ 81 ảnh khớp chuẩn xác 100% từng câu thoại trong `.work/script_tap13.json` (165 câu thoại chia đều 5 hồi).")
 lines.append("2. **Bảo toàn pháp lý & Bản quyền thương mại:** Toàn bộ ảnh được tạo nội bộ thông qua pipeline Amber Eyes Noir Graphic Renderer, 100% tự chủ, không sử dụng MiniMax hay tài sản bên thứ ba, ghi nhận đầy đủ 81 bản ghi vào `provenance.json`.")
 lines.append("3. **Chất lượng quang học & Độ sắc nét:** Độ sáng trung bình đạt 38.5/255 và độ tương phản Chiaroscuro Std đạt 32.5 (xuất sắc), không có ảnh nào bị bệt đen hoàn toàn hay cháy sáng, bảo đảm trải nghiệm điện ảnh noir đặc trưng của kênh.")
-lines.append("4. **Sẵn sàng dựng video:** Bộ ảnh đã được lưu trữ hoàn chỉnh tại `assets/bg/t13_*.png`, có contact sheet kiểm định tại `02_SAN_XUAT/Tap13/contact_sheet_t13.png` và sẵn sàng nạp trực tiếp vào pipeline dựng video (`parse_shots.py`, `build_video3.py`).")
+lines.append("4. **Sẵn sàng dựng video:** Bộ ảnh đã được lưu trữ hoàn chỉnh tại `assets/bg/t13_*.png`, có contact sheet kiểm định tại `02_SAN_XUAT/Ho_So_Toi_Pham/Tap13/contact_sheet_t13.png` và sẵn sàng nạp trực tiếp vào pipeline dựng video (`parse_shots.py`, `build_video3.py`).")
 
 doc_path = OUT_DIR / "REVIEW_Bo_Anh_Tap13.md"
 doc_path.write_text("\n".join(lines), encoding="utf-8")

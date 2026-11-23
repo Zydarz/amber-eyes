@@ -19,6 +19,6 @@ md_lines = [
 for idx, j in enumerate(jobs, 1):
     md_lines.append(f"| {idx:02d} | `{j['name']}.png` | Hồi {j['act']} | {j.get('sentences', '')} | {j.get('desc', '')} |")
 
-out_md = ROOT / "02_SAN_XUAT/Tap18/Danh_Sach_Anh_Tap18.md"
+out_md = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap18/Danh_Sach_Anh_Tap18.md"
 out_md.write_text("\n".join(md_lines), encoding="utf-8")
 print(f"Đã cập nhật: {out_md}")

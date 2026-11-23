@@ -40,7 +40,7 @@ print("=== audio master vs timeline.total ===")
 import subprocess
 FF = ROOT / ".work/ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffprobe.exe"
 for label, p in (("master wav", ROOT / ".work/audio_master_t07.wav"),
-                 ("master mp3", ROOT / "02_SAN_XUAT/Tap07/xuat_ban/Tap07_master.mp3")):
+                 ("master mp3", ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap07/xuat_ban/Tap07_master.mp3")):
     r = subprocess.run([str(FF), "-v", "error", "-show_entries", "format=duration",
                         "-of", "default=noprint_wrappers=1:nokey=1", str(p)],
                        capture_output=True, text=True)

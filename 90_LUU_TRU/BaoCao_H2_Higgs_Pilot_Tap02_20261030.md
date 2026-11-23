@@ -1163,7 +1163,7 @@ Nhưng C đã ở 214 Hz ⇒ D bị đẩy **vào ngay cạnh C**.
 | 3 | **Ghi công Boson** (H0) — xác nhận chấp nhận? | (a) chấp nhận, ghi công trong mọi tập · (b) chưa | ✅ **(a)** — **ĐÃ CHỐT 30/10/2026** (xem dòng 6) |
 | 4 | **Thứ tự tạo clip mới** | — | ✅ Đã xong — Mac mini đã push 4 clip (`bb8896f`) |
 | 5 | **Phân bổ vai Tập 02** (L4 — đổi clip = đổi giọng vai) | (a) đổi H/D/N1/N2 sang clip mới · (b) giữ H và D, chỉ đổi N1/N2 | 🔄 **ĐÃ HỎI LẠI 30/10** (bảng số đo mới ở §9.2) — chờ bạn chốt |
-| 6 | **Ghi công Boson** (H0) — cách ghi công cụ thể | (a) mọi tập + mô tả video + file nguồn · (b) chỉ mô tả video · (c) chưa chốt | ✅ **(b)** — **ĐÃ CHỐT 30/10/2026**: đặt ở **phần mô tả video khi đăng YouTube**, **KHÔNG ghép vào audio**. Đã ghi vào `02_SAN_XUAT/Tap02/xuat_ban/mo_ta.txt`. ⇒ **H0 đóng**, H4 được phép tiếp tục |
+| 6 | **Ghi công Boson** (H0) — cách ghi công cụ thể | (a) mọi tập + mô tả video + file nguồn · (b) chỉ mô tả video · (c) chưa chốt | ✅ **(b)** — **ĐÃ CHỐT 30/10/2026**: đặt ở **phần mô tả video khi đăng YouTube**, **KHÔNG ghép vào audio**. Đã ghi vào `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/xuat_ban/mo_ta.txt`. ⇒ **H0 đóng**, H4 được phép tiếp tục |
 
 ### 9.1 Bảng chọn phân bổ vai — **đã cập nhật sau pilot v8** (số đo thật, §8.12)
 

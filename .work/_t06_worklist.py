@@ -16,8 +16,8 @@ sys.path.insert(0, str(W))
 from parse_kichban import parse_file  # noqa: E402
 
 VN_PLAN = json.loads((W / "_t06_plan_vi.json").read_text(encoding="utf-8"))
-KB = {"en": ROOT / "01_KICH_BAN/Tap06_EN/kichban_tap06_EN.md",
-      "ja": ROOT / "01_KICH_BAN/Tap06_JA/kichban_tap06_JA.md"}
+KB = {"en": ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap06_EN/kichban_tap06_EN.md",
+      "ja": ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap06_JA/kichban_tap06_JA.md"}
 
 
 def sent_list(cell):

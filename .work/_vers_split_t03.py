@@ -4,9 +4,9 @@ from parse_kichban import parse_file
 from pathlib import Path
 ROOT = Path(r"D:\TEST\Gax\amber-eyes")
 vers = {
- "BAN_GOC_10/22": ROOT/"01_KICH_BAN"/"Tap03"/"kichban_tap03_22102026_ban_goc.md",
+ "BAN_GOC_10/22": ROOT/"01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap03"/"kichban_tap03_22102026_ban_goc.md",
  "TRUOC_V9_10/31_11h": ROOT/".work"/"_cu"/"kichban_tap03_22102026_truoc_V9_20261031.md",
- "HIEN_TAI_10/31_20h": ROOT/"01_KICH_BAN"/"Tap03"/"kichban_tap03_22102026.md",
+ "HIEN_TAI_10/31_20h": ROOT/"01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap03"/"kichban_tap03_22102026.md",
 }
 res = {}
 for name, p in vers.items():

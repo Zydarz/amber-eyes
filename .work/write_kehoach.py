@@ -22,8 +22,8 @@ kehoach_vn = """# HỒ SƠ SẢN XUẤT TẬP 26 · "NỮ HỘ SINH KOTOBUKI & T
 ## B2. Kế hoạch Triển khai & Đồng bộ Đa ngôn ngữ (Pipeline Roadmap)
 
 ### 1. Đồng bộ Hồ sơ & Kịch bản (Đã hoàn tất)
-- [x] Thẩm tra dữ kiện lịch sử & pháp lý đạt độ chính xác 100% qua hồ sơ Sở Cảnh sát Tokyo (MPD), Bác sĩ pháp y Yurie Taniguchi (Đại học Tokyo) và các bản án tòa án Tokyo 1948/1952 (`01_KICH_BAN/Tap26/REVIEW_kichban_tap26.md`).
-- [x] Hoàn thiện bản nghiên cứu chuyên sâu 5 chủ thể và cơ chế hối hận đa chiều (`01_KICH_BAN/Tap26/NghienCuu_TamLy_BoSung_KichBan_Tap26.md`).
+- [x] Thẩm tra dữ kiện lịch sử & pháp lý đạt độ chính xác 100% qua hồ sơ Sở Cảnh sát Tokyo (MPD), Bác sĩ pháp y Yurie Taniguchi (Đại học Tokyo) và các bản án tòa án Tokyo 1948/1952 (`01_KICH_BAN/Ho_So_Toi_Pham/Tap26/REVIEW_kichban_tap26.md`).
+- [x] Hoàn thiện bản nghiên cứu chuyên sâu 5 chủ thể và cơ chế hối hận đa chiều (`01_KICH_BAN/Ho_So_Toi_Pham/Tap26/NghienCuu_TamLy_BoSung_KichBan_Tap26.md`).
 - [x] Đồng bộ hóa toàn bộ 4 ngôn ngữ (VN, EN, JA, KO) đạt chuẩn **chính xác 240 câu thoại** khớp 1:1 từng mã câu thoại (`1.02#1` đến `5.05#18`).
 - [x] Biên dịch và xác thực kịch bản sản xuất sang `.work/script_tap26.json`, `.work/script_tap26_EN.json`, `.work/script_tap26_JA.json`, `.work/script_tap26_KO.json`.
 
@@ -83,22 +83,22 @@ Toàn bộ 135 ảnh nền (`assets/bg/t26_*.png`) được phân bổ chặt ch
 
 | Tệp | Vị trí | Trạng thái |
 |---|---|:---:|
-| Kịch bản tiếng Việt (240 câu) | `01_KICH_BAN/Tap26/kichban_tap26_23102026.md` | **Đã hoàn tất** |
-| Kịch bản tiếng Anh (240 câu) | `01_KICH_BAN/Tap26_EN/kichban_tap26_EN.md` | **Đã hoàn tất** |
-| Kịch bản tiếng Nhật (240 câu) | `01_KICH_BAN/Tap26_JA/kichban_tap26_JA.md` | **Đã hoàn tất** |
-| Kịch bản tiếng Hàn (240 câu) | `01_KICH_BAN/Tap26_KO/kichban_tap26_KO.md` | **Đã hoàn tất** |
+| Kịch bản tiếng Việt (240 câu) | `01_KICH_BAN/Ho_So_Toi_Pham/Tap26/kichban_tap26_23102026.md` | **Đã hoàn tất** |
+| Kịch bản tiếng Anh (240 câu) | `01_KICH_BAN/Ho_So_Toi_Pham/Tap26_EN/kichban_tap26_EN.md` | **Đã hoàn tất** |
+| Kịch bản tiếng Nhật (240 câu) | `01_KICH_BAN/Ho_So_Toi_Pham/Tap26_JA/kichban_tap26_JA.md` | **Đã hoàn tất** |
+| Kịch bản tiếng Hàn (240 câu) | `01_KICH_BAN/Ho_So_Toi_Pham/Tap26_KO/kichban_tap26_KO.md` | **Đã hoàn tất** |
 | JSON kịch bản biên dịch | `.work/script_tap26*.json` (đủ 4 ngôn ngữ) | **Đã hoàn tất** |
-| Thẩm định dữ kiện & lịch sử | `01_KICH_BAN/Tap26/REVIEW_kichban_tap26.md` | **Đã hoàn tất** |
-| Bản nghiên cứu chuyên sâu 5 chủ thể | `01_KICH_BAN/Tap26/NghienCuu_TamLy_BoSung_KichBan_Tap26.md` | **Đã hoàn tất** |
-| Danh sách 135 ảnh nền 2K | `02_SAN_XUAT/Tap26/Danh_Sach_Anh_Tap26.md` | **Đã hoàn tất** |
-| Kế hoạch sản xuất tiếng Việt | `02_SAN_XUAT/Tap26/KeHoach_Video_Tap26.md` | **Đã hoàn tất** |
-| Kế hoạch sản xuất tiếng Anh | `02_SAN_XUAT/Tap26_EN/KeHoach_Video_Tap26_EN.md` | **Đã hoàn tất** |
-| Kế hoạch sản xuất tiếng Nhật | `02_SAN_XUAT/Tap26_JA/KeHoach_Video_Tap26_JA.md` | **Đã hoàn tất** |
-| Kế hoạch sản xuất tiếng Hàn | `02_SAN_XUAT/Tap26_KO/KeHoach_Video_Tap26_KO.md` | **Đã hoàn tất** |
+| Thẩm định dữ kiện & lịch sử | `01_KICH_BAN/Ho_So_Toi_Pham/Tap26/REVIEW_kichban_tap26.md` | **Đã hoàn tất** |
+| Bản nghiên cứu chuyên sâu 5 chủ thể | `01_KICH_BAN/Ho_So_Toi_Pham/Tap26/NghienCuu_TamLy_BoSung_KichBan_Tap26.md` | **Đã hoàn tất** |
+| Danh sách 135 ảnh nền 2K | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap26/Danh_Sach_Anh_Tap26.md` | **Đã hoàn tất** |
+| Kế hoạch sản xuất tiếng Việt | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap26/KeHoach_Video_Tap26.md` | **Đã hoàn tất** |
+| Kế hoạch sản xuất tiếng Anh | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap26_EN/KeHoach_Video_Tap26_EN.md` | **Đã hoàn tất** |
+| Kế hoạch sản xuất tiếng Nhật | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap26_JA/KeHoach_Video_Tap26_JA.md` | **Đã hoàn tất** |
+| Kế hoạch sản xuất tiếng Hàn | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap26_KO/KeHoach_Video_Tap26_KO.md` | **Đã hoàn tất** |
 """
 
-os.makedirs('02_SAN_XUAT/Tap26', exist_ok=True)
-with open('02_SAN_XUAT/Tap26/KeHoach_Video_Tap26.md', 'w', encoding='utf-8') as f:
+os.makedirs('02_SAN_XUAT/Ho_So_Toi_Pham/Tap26', exist_ok=True)
+with open('02_SAN_XUAT/Ho_So_Toi_Pham/Tap26/KeHoach_Video_Tap26.md', 'w', encoding='utf-8') as f:
     f.write(kehoach_vn)
 
-print('Wrote 02_SAN_XUAT/Tap26/KeHoach_Video_Tap26.md')
+print('Wrote 02_SAN_XUAT/Ho_So_Toi_Pham/Tap26/KeHoach_Video_Tap26.md')

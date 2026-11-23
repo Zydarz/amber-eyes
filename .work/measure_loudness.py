@@ -12,6 +12,6 @@ def check_file(path):
     lra_val = lra.group(1) if lra else "N/A"
     print(f"{path}: Integrated = {i_val} LUFS | True Peak = {tp_val} dBFS | LRA = {lra_val} LU")
 
-check_file('02_SAN_XUAT/Tap19/xuat_ban/Tap19_master.mp3')
-check_file('02_SAN_XUAT/Tap19_EN/xuat_ban/Tap19_EN_master.mp3')
-check_file('02_SAN_XUAT/Tap19_JA/xuat_ban/Tap19_JA_master.mp3')
+check_file('02_SAN_XUAT/Ho_So_Toi_Pham/Tap19/xuat_ban/Tap19_master.mp3')
+check_file('02_SAN_XUAT/Ho_So_Toi_Pham/Tap19_EN/xuat_ban/Tap19_EN_master.mp3')
+check_file('02_SAN_XUAT/Ho_So_Toi_Pham/Tap19_JA/xuat_ban/Tap19_JA_master.mp3')

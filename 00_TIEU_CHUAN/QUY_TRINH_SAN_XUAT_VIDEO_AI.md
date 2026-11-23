@@ -83,7 +83,7 @@ flowchart TD
 #### Bước 4: Tách câu & Thiết kế diễn xuất từng câu (`acting.json`)
 *   Chạy script tách câu:
     ```powershell
-    py -3 .work/parse_kichban.py 01_KICH_BAN/TapXX/kichban_tapXX.md .work/script_tapXX.json
+    py -3 .work/parse_kichban.py 01_KICH_BAN/Ho_So_Toi_Pham/TapXX/kichban_tapXX.md .work/script_tapXX.json
     ```
 *   AI lập file diễn xuất `make_acting_tapXX.py` $\to$ `.work/acting_tapXX.json`:
     *   Cảm xúc: `neutral`, `sad`, `fearful`, `surprised`, `happy`.
@@ -124,7 +124,7 @@ flowchart TD
 *   **Nền dùng chung cho mọi ngôn ngữ** — sinh 1 lần mỗi tập, tên file không có hậu tố ngôn ngữ, chữ do Pillow vẽ lúc dựng. *(20/11/2026: H17 và cổng `qc_bg_shared.py` đã bỏ; khung hình không có chữ ngoài thẻ kết/số T5 — AGENTS H26.)*
 
 #### Bước 8: Lập bảng shot kế hoạch hình ảnh
-*   Viết bảng shot vào Mục 6 của hồ sơ tập `02_SAN_XUAT/TapXX/KeHoach_Video_TapXX.md`.
+*   Viết bảng shot vào Mục 6 của hồ sơ tập `02_SAN_XUAT/Ho_So_Toi_Pham/TapXX/KeHoach_Video_TapXX.md`.
 *   Ánh xạ từng câu thoại vào **11 mẫu Template Graphic Novel Noir (T1 – T11)**:
     *   *T1 (Toàn cảnh):* Nền u ám, lớp tối đáy, chữ góc dưới.
     *   *T2 (Thẻ hồ sơ):* Giấy xoay −1,5°, dấu mộc đỏ sát chữ cuối.
@@ -162,7 +162,7 @@ flowchart TD
     $env:AE_EP="XX"; py -3 .work/subtitles.py
     $env:AE_EP="XX"; py -3 .work/package.py --mux
     ```
-*   **Đầu ra tại `02_SAN_XUAT/TapXX/xuat_ban/`:**
+*   **Đầu ra tại `02_SAN_XUAT/Ho_So_Toi_Pham/TapXX/xuat_ban/`:**
     *   `TapXX_master.mp4`: Video hoàn chỉnh 1080p@30fps.
     *   `TapXX_master.mp3`: File âm thanh podcast master.
     *   `TapXX.srt`: Phụ đề khớp từng mili-giây.
@@ -188,13 +188,13 @@ flowchart TD
 
 Khi bắt đầu làm một tập mới (ví dụ: Tập 03):
 
-1. Soạn kịch bản thô $\to$ nhờ AI phân tích, đối chiếu sự thật, lọc bạo lực V9 và xuất file `01_KICH_BAN/Tap03/kichban_tap03_22102026.md`.
+1. Soạn kịch bản thô $\to$ nhờ AI phân tích, đối chiếu sự thật, lọc bạo lực V9 và xuất file `01_KICH_BAN/Ho_So_Toi_Pham/Tap03/kichban_tap03_22102026.md`.
 2. Khai báo tập mới trong `edition.py` (tên tập, bài nhạc, nhân vật N1/N2).
-3. Sao chép `KeHoach_Video_Tap01.md` thành `02_SAN_XUAT/Tap03/KeHoach_Video_Tap03.md`, lập danh sách nền và viết bảng shot ở Mục 6.
+3. Sao chép `KeHoach_Video_Tap01.md` thành `02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/KeHoach_Video_Tap03.md`, lập danh sách nền và viết bảng shot ở Mục 6.
 4. Chạy chuỗi lệnh tự động:
    ```powershell
    $env:PYTHONIOENCODING="utf-8"; $env:AE_EP="03"
-   py -3 .work/parse_kichban.py 01_KICH_BAN/Tap03/kichban_tap03_22102026.md .work/script_tap03.json
+   py -3 .work/parse_kichban.py 01_KICH_BAN/Ho_So_Toi_Pham/Tap03/kichban_tap03_22102026.md .work/script_tap03.json
    py -3 .work/make_acting_tap03.py
    py -3 .work/tts_sentences.py
    py -3 .work/build_audio3.py
@@ -205,4 +205,4 @@ Khi bắt đầu làm một tập mới (ví dụ: Tập 03):
    py -3 .work/subtitles.py
    py -3 .work/package.py --mux
    ```
-Toàn bộ video hoàn chỉnh, phụ đề và mô tả sẵn sàng đăng sẽ nằm tại [02_SAN_XUAT/Tap03/xuat_ban/](file:///d:/TEST/Gax/Audi/02_SAN_XUAT).
+Toàn bộ video hoàn chỉnh, phụ đề và mô tả sẵn sàng đăng sẽ nằm tại [02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/xuat_ban/](file:///d:/TEST/Gax/Audi/02_SAN_XUAT).

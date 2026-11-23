@@ -50,7 +50,7 @@ import edition as ED
 # Re-import parse_shots logic
 from parse_shots import sent_range, parse_text, cells
 
-PLAN = Path("02_SAN_XUAT/Tap05/KeHoach_Video_Tap05.md")
+PLAN = Path("02_SAN_XUAT/Ho_So_Toi_Pham/Tap05/KeHoach_Video_Tap05.md")
 TL = dummy_tl
 SENT = {it["id"]: it for it in TL["items"]}
 MARK = {m.get("id"): m for m in TL["markers"] if m.get("id")}

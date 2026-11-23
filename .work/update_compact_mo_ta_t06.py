@@ -58,7 +58,7 @@ Mọi sự kiện và lời khai đã đối chiếu hồ sơ tư pháp công kh
 • Joyce & Stover: 'Witnesses from the Grave' (Lưu trữ pháp y) — https://archive.org/
 • Esquire: Phỏng vấn thám tử Mike Albrecht về cuộc bám đuôi 24/7 — https://www.esquire.com/
 • Chicago Bar Association: Bản luận tội của William Kunkle — https://legaltalknetwork.com/
-* Toàn bộ 20 nguồn kiểm chứng chi tiết lưu tại: 02_SAN_XUAT/Tap06/nguon_tham_khao.md"""
+* Toàn bộ 20 nguồn kiểm chứng chi tiết lưu tại: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap06/nguon_tham_khao.md"""
 
 HOTLINE_VI = """🆘 Nếu bạn biết một trẻ em đang bị bạo hành, hãy gọi Tổng đài quốc gia bảo vệ trẻ em 111 (Việt Nam, miễn phí, 24/7).
 • Đường dây nóng phòng chống bạo lực gia đình: 1900 969 680
@@ -113,7 +113,7 @@ All events, dates, and quotes verified against US public judicial archives:
 • Joyce & Stover: 'Witnesses from the Grave' — https://archive.org/
 • Esquire: Det. Mike Albrecht Interview on 24/7 Surveillance — https://www.esquire.com/
 • Chicago Bar Association: William Kunkle Prosecution Record — https://legaltalknetwork.com/
-* All 20 verified sources archived in: 02_SAN_XUAT/Tap06_EN/nguon_tham_khao_EN.md"""
+* All 20 verified sources archived in: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap06_EN/nguon_tham_khao_EN.md"""
 
 HOTLINE_EN = """🆘 CRISIS & CHILD PROTECTION HOTLINES (24/7, FREE & CONFIDENTIAL)
 • National Center for Missing & Exploited Children (NCMEC - USA): 1-800-843-5678 — https://www.missingkids.org
@@ -172,7 +172,7 @@ SOURCES_JA = """📚 参考資料・出典
 • ジョイス＆ストーバー：『墓場からの証人』（法医人類学アーカイブ） — https://archive.org/
 • エスクァイア：元捜査官マイク・アルブレヒト単独インタビュー — https://www.esquire.com/
 • シカゴ弁護士会：ウィリアム・カンクル検事による公判記録 — https://legaltalknetwork.com/
-* 全20件の詳細な参照記録は 02_SAN_XUAT/Tap06_JA/nguon_tham_khao_JA.md に保管されています"""
+* 全20件の詳細な参照記録は 02_SAN_XUAT/Ho_So_Toi_Pham/Tap06_JA/nguon_tham_khao_JA.md に保管されています"""
 
 HOTLINE_JA = """🆘 相談窓口・支援ホットライン（通話無料・24時間受付）
 • 児童相談所虐待対応ダイヤル：189（いちはやく・通話無料）
@@ -232,7 +232,7 @@ SOURCES_KO = """📚 공식 참고자료 및 공판 기록
 • 조이스 & 스토버: 《무덤에서 온 증인들》(법의학 아카이브) — https://archive.org/
 • 에스콰이어: 수사관 마이크 알브레히트 24시간 잠복 감시 인터뷰 — https://www.esquire.com/
 • 시카고 변호사협회: 윌리엄 쿤클 검사의 공판 회고 — https://legaltalknetwork.com/
-* 20개 검증 출처 전체 및 세부 대조표는 02_SAN_XUAT/Tap06_KO/nguon_tham_khao_KO.md에 보관되어 있습니다"""
+* 20개 검증 출처 전체 및 세부 대조표는 02_SAN_XUAT/Ho_So_Toi_Pham/Tap06_KO/nguon_tham_khao_KO.md에 보관되어 있습니다"""
 
 HOTLINE_KO = """🆘 위기 상담 및 피해자 지원 핫라인 (24시간 무료 & 비밀보장)
 • 아동학대 예방 및 신고 상담전화: 국번없이 112 또는 129
@@ -251,26 +251,26 @@ DESC_KO = f"{TITLE_KO}\n\n{INTRO_KO}\n\n{MARKERS_KO}\n\n{CHAPTERS_KO}\n\n{DISCLA
 # ==============================================================================
 files_data = [
     # 1. TIẾNG VIỆT
-    (ROOT / "02_SAN_XUAT" / "Tap06" / "mo_ta.txt", DESC_VI),
-    (ROOT / "02_SAN_XUAT" / "Tap06" / "xuat_ban" / "mo_ta.txt", DESC_VI),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06" / "mo_ta.txt", DESC_VI),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06" / "xuat_ban" / "mo_ta.txt", DESC_VI),
 
     # 2. TIẾNG ANH
-    (ROOT / "02_SAN_XUAT" / "Tap06_EN" / "description.txt", DESC_EN),
-    (ROOT / "02_SAN_XUAT" / "Tap06_EN" / "mo_ta.txt", DESC_EN),
-    (ROOT / "02_SAN_XUAT" / "Tap06_EN" / "xuat_ban" / "description.txt", DESC_EN),
-    (ROOT / "02_SAN_XUAT" / "Tap06_EN" / "xuat_ban" / "mo_ta.txt", DESC_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_EN" / "description.txt", DESC_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_EN" / "mo_ta.txt", DESC_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_EN" / "xuat_ban" / "description.txt", DESC_EN),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_EN" / "xuat_ban" / "mo_ta.txt", DESC_EN),
 
     # 3. TIẾNG NHẬT
-    (ROOT / "02_SAN_XUAT" / "Tap06_JA" / "description.txt", DESC_JA),
-    (ROOT / "02_SAN_XUAT" / "Tap06_JA" / "mo_ta.txt", DESC_JA),
-    (ROOT / "02_SAN_XUAT" / "Tap06_JA" / "xuat_ban" / "description.txt", DESC_JA),
-    (ROOT / "02_SAN_XUAT" / "Tap06_JA" / "xuat_ban" / "mo_ta.txt", DESC_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_JA" / "description.txt", DESC_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_JA" / "mo_ta.txt", DESC_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_JA" / "xuat_ban" / "description.txt", DESC_JA),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_JA" / "xuat_ban" / "mo_ta.txt", DESC_JA),
 
     # 4. TIẾNG HÀN
-    (ROOT / "02_SAN_XUAT" / "Tap06_KO" / "description.txt", DESC_KO),
-    (ROOT / "02_SAN_XUAT" / "Tap06_KO" / "mo_ta.txt", DESC_KO),
-    (ROOT / "02_SAN_XUAT" / "Tap06_KO" / "xuat_ban" / "description.txt", DESC_KO),
-    (ROOT / "02_SAN_XUAT" / "Tap06_KO" / "xuat_ban" / "mo_ta.txt", DESC_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_KO" / "description.txt", DESC_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_KO" / "mo_ta.txt", DESC_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_KO" / "xuat_ban" / "description.txt", DESC_KO),
+    (ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06_KO" / "xuat_ban" / "mo_ta.txt", DESC_KO),
 ]
 
 all_under_5000 = True

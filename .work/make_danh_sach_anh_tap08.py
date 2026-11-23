@@ -6,7 +6,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
-OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap08"
+OUT_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 jobs = json.loads((WORK / "bg_jobs_tap08.json").read_text(encoding="utf-8"))
@@ -47,7 +47,7 @@ lines.append("---")
 lines.append("")
 lines.append("## B2. Ánh xạ ảnh → hồi → mốc câu")
 lines.append("")
-lines.append("Mốc câu theo `.work/script_tap08.json` (parse từ `01_KICH_BAN/Tap08/kichban_tap08_23102026.md`):  ")
+lines.append("Mốc câu theo `.work/script_tap08.json` (parse từ `01_KICH_BAN/Ho_So_Toi_Pham/Tap08/kichban_tap08_23102026.md`):  ")
 lines.append("**32 lượt thoại · 165 câu · 3.649 từ** (Host 97 câu, Điều tra viên 27 câu, Chuyên gia tâm lý 26 câu, Người bình thường 15 câu).")
 lines.append("")
 

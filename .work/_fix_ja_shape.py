@@ -10,7 +10,7 @@ from pathlib import Path
 # 3. in 3.06: add **心理学者** *(深層の区画化と道徳的昏睡を解き明かす)*:
 # 4. in 5.07: add **心理学者** *(学術的な視点から、エゴの崩壊と被害者の仮面を対比させる)*:
 
-with open('01_KICH_BAN/Tap11_JA/kichban_tap11_JA.md', 'r', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap11_JA/kichban_tap11_JA.md', 'r', encoding='utf-8') as f:
     text = f.read()
 
 # Replace in 2.06
@@ -57,11 +57,11 @@ new_507 = '''自己の利己的な欲望のために他者の命を奪った者�
 
 text = text.replace(old_507, new_507)
 
-with open('01_KICH_BAN/Tap11_JA/kichban_tap11_JA.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap11_JA/kichban_tap11_JA.md', 'w', encoding='utf-8') as f:
     f.write(text)
 
-vn = Path('01_KICH_BAN/Tap11/kichban_tap11_23102026.md')
-ja = Path('01_KICH_BAN/Tap11_JA/kichban_tap11_JA.md')
+vn = Path('01_KICH_BAN/Ho_So_Toi_Pham/Tap11/kichban_tap11_23102026.md')
+ja = Path('01_KICH_BAN/Ho_So_Toi_Pham/Tap11_JA/kichban_tap11_JA.md')
 c_vn = _qc_ja.shape_count(vn)
 c_ja = _qc_ja.shape_count(ja)
 print("c_vn:", c_vn)

@@ -18,7 +18,7 @@ ROOT = Path("D:/TEST/Gax/amber-eyes")
 WORK = ROOT / ".work"
 FF = WORK / "ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffmpeg.exe"
 FP = WORK / "ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffprobe.exe"
-MP3 = ROOT / "02_SAN_XUAT/Tap04_JA/xuat_ban/Tap04_JA_master.mp3"
+MP3 = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap04_JA/xuat_ban/Tap04_JA_master.mp3"
 WAV = WORK / "audio_master_JA_t04.wav"
 
 tl = json.loads((WORK / "timeline_s_JA_t04.json").read_text(encoding="utf-8"))

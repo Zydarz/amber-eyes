@@ -379,6 +379,6 @@ ABC連続殺人の暗黒のファイルを閉じるにあたり、アンバー�
 **[BGM]:** 気品あるピアノの調べが温かな余韻を残して響き渡り、5秒かけて静かにフェードアウトする。
 """
 
-with open('01_KICH_BAN/Tap45_JA/kichban_tap45_JA.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap45_JA/kichban_tap45_JA.md', 'w', encoding='utf-8') as f:
     f.write(header_ja + content_ja)
 print('Wrote JA script successfully')

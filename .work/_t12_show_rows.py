@@ -8,7 +8,7 @@ PAT = re.compile(r"`(t\d+_[a-z0-9_]+)`")
 CAU = re.compile(r"`([^`]+)`")
 
 rows = []
-for line in open("02_SAN_XUAT/Tap12/KeHoach_Video_Tap12.md", encoding="utf-8"):
+for line in open("02_SAN_XUAT/Ho_So_Toi_Pham/Tap12/KeHoach_Video_Tap12.md", encoding="utf-8"):
     m = re.match(r"^\|\s*([1-5]-\d+)\s*\|(.*)$", line.rstrip())
     if not m:
         continue

@@ -59,7 +59,7 @@ def main():
         pick = []
         for role in ("H", "D", "C", "N1", "N2"):
             pick += [it for it in items if it["role"] == role][:3]
-        items, out = pick, ROOT / "02_SAN_XUAT" / f"Tap{EP}" / "thu_giong_higgs"
+        items, out = pick, ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{EP}" / "thu_giong_higgs"
     else:
         out = ROOT / ".work" / f"audio_s_higgs_t{EP}"
     out.mkdir(parents=True, exist_ok=True)

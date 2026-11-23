@@ -14,7 +14,7 @@ def audit_vn():
     print("="*60)
     print("1. KIỂM TRA CHÍNH TẢ & NGÔN NGỮ TIẾNG VIỆT (Tap 38 VN)")
     print("="*60)
-    vn_file = ROOT / "01_KICH_BAN" / "Tap38" / "kichban_tap38_19112026.md"
+    vn_file = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap38" / "kichban_tap38_19112026.md"
     content = vn_file.read_text(encoding="utf-8")
     
     # 1. Từ lặp liên tiếp
@@ -78,7 +78,7 @@ def audit_en():
     print("\n" + "="*60)
     print("2. KIỂM TRA CHÍNH TẢ & NGÔN NGỮ TIẾNG ANH (Tap 38 EN)")
     print("="*60)
-    en_file = ROOT / "01_KICH_BAN" / "Tap38_EN" / "kichban_tap38_EN.md"
+    en_file = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap38_EN" / "kichban_tap38_EN.md"
     content = en_file.read_text(encoding="utf-8")
     
     # 1. Duplicate words
@@ -124,7 +124,7 @@ def audit_ja():
     print("\n" + "="*60)
     print("3. KIỂM TRA CHÍNH TẢ & NGÔN NGỮ TIẾNG NHẬT (Tap 38 JA)")
     print("="*60)
-    ja_file = ROOT / "01_KICH_BAN" / "Tap38_JA" / "kichban_tap38_JA.md"
+    ja_file = ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap38_JA" / "kichban_tap38_JA.md"
     content = ja_file.read_text(encoding="utf-8")
     
     # 1. Punctuation balance

@@ -33,7 +33,7 @@ sys.path.insert(0, str(WORK))
 import edition as ED  # noqa: E402
 
 final = pathlib.Path(a.file) if a.file else (
-    ROOT / "02_SAN_XUAT" / f"Tap{ep}" / "xuat_ban" / f"Tap{ep}_master.mp4")
+    ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ep}" / "xuat_ban" / f"Tap{ep}_master.mp4")
 shots = json.loads(ED.w("shots.json").read_text(encoding="utf-8-sig"))["shots"]
 out = WORK / f"_qc_frames_t{ep}"
 out.mkdir(parents=True, exist_ok=True)
@@ -70,7 +70,7 @@ for i, (sid, t, png) in enumerate(tiles):
     d.text((x + 3, y + 3), f"{sid}  t={t:.1f}s", fill=(200, 212, 235), font=font)
     with Image.open(png) as im:
         sheet.paste(im.resize((tw, th), Image.Resampling.LANCZOS), (x, y + hh))
-outp = ROOT / "02_SAN_XUAT" / f"Tap{ep}" / f"qc_frames_t{ep}.png"
+outp = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ep}" / f"qc_frames_t{ep}.png"
 outp.parent.mkdir(parents=True, exist_ok=True)
 sheet.save(outp)
 print("->", outp, sheet.size)

@@ -2,19 +2,19 @@ import io, sys, re
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 # Fix EN
-with open('01_KICH_BAN/Tap07_EN/kichban_tap07_EN.md', 'r', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap07_EN/kichban_tap07_EN.md', 'r', encoding='utf-8') as f:
     en = f.read()
 
 en = en.replace('was psychologically objectified into a living prop', 'was psychologically ‘Objectified’ into a living prop')
 en = en.replace('‘Conrad’s Law’', '‘Conrad\'s Law’')
 
-with open('01_KICH_BAN/Tap07_EN/kichban_tap07_EN.md', 'w', encoding='utf-8', newline='') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap07_EN/kichban_tap07_EN.md', 'w', encoding='utf-8', newline='') as f:
     f.write(en)
-with open('01_KICH_BAN/Tap07/kichban_tap07_EN.md', 'w', encoding='utf-8', newline='') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap07/kichban_tap07_EN.md', 'w', encoding='utf-8', newline='') as f:
     f.write(en)
 
 # Fix JA
-with open('01_KICH_BAN/Tap07_JA/kichban_tap07_JA.md', 'r', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap07_JA/kichban_tap07_JA.md', 'r', encoding='utf-8') as f:
     ja = f.read()
 
 ja = ja.replace('「非接触の犯罪」', '非接触の犯罪')
@@ -33,7 +33,7 @@ ja = ja.replace('「自己愛の完全崩壊（Narcissistic Collapse）」', '�
 ja = ja.replace('「Conrad法（Conrad\'s Law）」', 'Conrad法')
 ja = ja.replace('「生存のための赤信号（Red Flags）」', '生存のための赤信号')
 
-with open('01_KICH_BAN/Tap07_JA/kichban_tap07_JA.md', 'w', encoding='utf-8', newline='') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap07_JA/kichban_tap07_JA.md', 'w', encoding='utf-8', newline='') as f:
     f.write(ja)
 
 print("Quotes aligned across EN and JA")

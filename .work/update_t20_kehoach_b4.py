@@ -8,7 +8,7 @@ ROOT = Path(r"D:/TEST/Gax/amber-eyes")
 sys.path.insert(0, str(ROOT / ".work/kaggle_flux"))
 from t20_jobs_124_data import JOBS_124
 
-kh_path = ROOT / "02_SAN_XUAT/Tap20/KeHoach_Video_Tap20.md"
+kh_path = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap20/KeHoach_Video_Tap20.md"
 text = kh_path.read_text(encoding="utf-8")
 
 # Tạo nội dung B4 mới

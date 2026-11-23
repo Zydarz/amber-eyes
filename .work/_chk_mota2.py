@@ -1,5 +1,5 @@
 ﻿import pathlib, re
-p = pathlib.Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Tap03_EN\xuat_ban\mo_ta.txt")
+p = pathlib.Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Ho_So_Toi_Pham\Tap03_EN\xuat_ban\mo_ta.txt")
 t = p.read_text(encoding="utf-8")
 i = t.find("\U0001F4DA SOURCES")
 blk = t[i:].split("\n\n",1)[0]

@@ -4,9 +4,9 @@ sys.path.append('.work')
 import parse_kichban
 
 files = {
-    'VN': '01_KICH_BAN/Tap40/kichban_tap40_19112026.md',
-    'EN': '01_KICH_BAN/Tap40_EN/kichban_tap40_EN.md',
-    'JA': '01_KICH_BAN/Tap40_JA/kichban_tap40_JA.md'
+    'VN': '01_KICH_BAN/Ho_So_Toi_Pham/Tap40/kichban_tap40_19112026.md',
+    'EN': '01_KICH_BAN/Ho_So_Toi_Pham/Tap40_EN/kichban_tap40_EN.md',
+    'JA': '01_KICH_BAN/Ho_So_Toi_Pham/Tap40_JA/kichban_tap40_JA.md'
 }
 
 for lang, fpath in files.items():

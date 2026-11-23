@@ -10,15 +10,15 @@ for l in r.stdout.splitlines():
         print("  ", l)
 
 print()
-print("=== git log for 01_KICH_BAN/Tap09 ===")
-r = subprocess.run(["git","log","--oneline","-5","--","01_KICH_BAN/Tap09"], cwd=ROOT, capture_output=True, text=True)
+print("=== git log for 01_KICH_BAN/Ho_So_Toi_Pham/Tap09 ===")
+r = subprocess.run(["git","log","--oneline","-5","--","01_KICH_BAN/Ho_So_Toi_Pham/Tap09"], cwd=ROOT, capture_output=True, text=True)
 print(r.stdout or "  (none)")
 
 print()
 print("=== count sentences in MD using the project's own parser ===")
-for lang, p in [("VN","01_KICH_BAN/Tap09/kichban_tap09_23102026.md"),
-                 ("EN","01_KICH_BAN/Tap09/kichban_tap09_EN.md"),
-                 ("JA","01_KICH_BAN/Tap09_JA/kichban_tap09_JA.md")]:
+for lang, p in [("VN","01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_23102026.md"),
+                 ("EN","01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_EN.md"),
+                 ("JA","01_KICH_BAN/Ho_So_Toi_Pham/Tap09_JA/kichban_tap09_JA.md")]:
     fp = os.path.join(ROOT,p)
     t = io.open(fp,encoding="utf-8").read()
     m = re.search(r"^#\s", t, re.M)

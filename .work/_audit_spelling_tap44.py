@@ -5,9 +5,9 @@ sys.path.insert(0, '.work')
 import parse_kichban as PK
 
 files = [
-    ('VN', '01_KICH_BAN/Tap44/kichban_tap44_19112026.md'),
-    ('EN', '01_KICH_BAN/Tap44_EN/kichban_tap44_EN.md'),
-    ('JA', '01_KICH_BAN/Tap44_JA/kichban_tap44_JA.md'),
+    ('VN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap44/kichban_tap44_19112026.md'),
+    ('EN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap44_EN/kichban_tap44_EN.md'),
+    ('JA', '01_KICH_BAN/Ho_So_Toi_Pham/Tap44_JA/kichban_tap44_JA.md'),
 ]
 
 print("==================================================================")

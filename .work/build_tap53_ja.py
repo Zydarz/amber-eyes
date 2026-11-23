@@ -337,6 +337,6 @@ Amber Eyesが犯罪心理の深淵を紐解く目的は、恐怖を煽ること�
 
 FULL_JA = HEADER_JA + "\n" + ACT1_JA + "\n\n---\n\n" + ACT2_JA + "\n\n---\n\n" + ACT3_JA + "\n\n---\n\n" + ACT4_JA + "\n\n---\n\n" + ACT5_JA
 
-with open('01_KICH_BAN/Tap53_JA/kichban_tap53_JA.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap53_JA/kichban_tap53_JA.md', 'w', encoding='utf-8') as f:
     f.write(FULL_JA.strip() + '\n')
 print('Tap 53 JA written successfully.')

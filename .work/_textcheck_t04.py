@@ -20,7 +20,7 @@ sys.path.insert(0, str(ROOT / ".work"))
 from parse_kichban import parse_file  # noqa: E402
 
 W = ROOT / ".work"
-NEW_KB = ROOT / "01_KICH_BAN/Tap04/kichban_tap04_23102026.md"
+NEW_KB = ROOT / "01_KICH_BAN/Ho_So_Toi_Pham/Tap04/kichban_tap04_23102026.md"
 
 new_idx = {e["id"]: [(s["id"], s["text"]) for s in e.get("sentences", [])]
            for e in parse_file(str(NEW_KB)) if e["kind"] == "LOI"}

@@ -10,9 +10,9 @@ Includes factual corrections:
 import os, re, json
 
 # Read original scripts
-vn_file = '01_KICH_BAN/Tap34/kichban_tap34_19112026.md'
-en_file = '01_KICH_BAN/Tap34_EN/kichban_tap34_EN.md'
-ja_file = '01_KICH_BAN/Tap34_JA/kichban_tap34_JA.md'
+vn_file = '01_KICH_BAN/Ho_So_Toi_Pham/Tap34/kichban_tap34_19112026.md'
+en_file = '01_KICH_BAN/Ho_So_Toi_Pham/Tap34_EN/kichban_tap34_EN.md'
+ja_file = '01_KICH_BAN/Ho_So_Toi_Pham/Tap34_JA/kichban_tap34_JA.md'
 
 vn_paras = open(vn_file, encoding='utf-8').read().split('\n\n')
 en_paras = open(en_file, encoding='utf-8').read().split('\n\n')

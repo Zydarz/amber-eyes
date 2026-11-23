@@ -300,7 +300,7 @@ FBIの分析は、犯人が重度の性的サディズムに衝き動かされ�
 **[SFX]:** 夕暮れのフィレンツェの空に遠く響き渡る古の教会の鐘の音、穏やかな風の音とともに静寂の中へと消え去る。
 """
 
-with open("01_KICH_BAN/Tap41_JA/kichban_tap41_JA.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap41_JA/kichban_tap41_JA.md", "w", encoding="utf-8") as f:
     f.write(header)
 
-print("Successfully written 01_KICH_BAN/Tap41_JA/kichban_tap41_JA.md")
+print("Successfully written 01_KICH_BAN/Ho_So_Toi_Pham/Tap41_JA/kichban_tap41_JA.md")

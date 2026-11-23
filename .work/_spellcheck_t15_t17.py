@@ -122,15 +122,15 @@ def check_script(name, path, lang):
 # Chạy kiểm tra cho Tập 15 và Tập 17
 targets = [
     # Tập 15
-    ("Tập 15 - VN", "01_KICH_BAN/Tap15/kichban_tap15_23102026.md", "VN"),
-    ("Tập 15 - EN", "01_KICH_BAN/Tap15_EN/kichban_tap15_EN.md", "EN"),
-    ("Tập 15 - JA", "01_KICH_BAN/Tap15_JA/kichban_tap15_JA.md", "JA"),
-    ("Tập 15 - KO", "01_KICH_BAN/Tap15_KO/kichban_tap15_KO.md", "KO"),
+    ("Tập 15 - VN", "01_KICH_BAN/Ho_So_Toi_Pham/Tap15/kichban_tap15_23102026.md", "VN"),
+    ("Tập 15 - EN", "01_KICH_BAN/Ho_So_Toi_Pham/Tap15_EN/kichban_tap15_EN.md", "EN"),
+    ("Tập 15 - JA", "01_KICH_BAN/Ho_So_Toi_Pham/Tap15_JA/kichban_tap15_JA.md", "JA"),
+    ("Tập 15 - KO", "01_KICH_BAN/Ho_So_Toi_Pham/Tap15_KO/kichban_tap15_KO.md", "KO"),
     # Tập 17
-    ("Tập 17 - VN", "01_KICH_BAN/Tap17/kichban_tap17_23102026.md", "VN"),
-    ("Tập 17 - EN", "01_KICH_BAN/Tap17_EN/kichban_tap17_EN.md", "EN"),
-    ("Tập 17 - JA", "01_KICH_BAN/Tap17_JA/kichban_tap17_JA.md", "JA"),
-    ("Tập 17 - KO", "01_KICH_BAN/Tap17_KO/kichban_tap17_KO.md", "KO"),
+    ("Tập 17 - VN", "01_KICH_BAN/Ho_So_Toi_Pham/Tap17/kichban_tap17_23102026.md", "VN"),
+    ("Tập 17 - EN", "01_KICH_BAN/Ho_So_Toi_Pham/Tap17_EN/kichban_tap17_EN.md", "EN"),
+    ("Tập 17 - JA", "01_KICH_BAN/Ho_So_Toi_Pham/Tap17_JA/kichban_tap17_JA.md", "JA"),
+    ("Tập 17 - KO", "01_KICH_BAN/Ho_So_Toi_Pham/Tap17_KO/kichban_tap17_KO.md", "KO"),
 ]
 
 total_errors = 0

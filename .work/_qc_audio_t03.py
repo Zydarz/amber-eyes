@@ -4,7 +4,7 @@ W = Path(r"D:\TEST\Gax\amber-eyes\.work")
 FF = W/"ffmpeg"/"ffmpeg-n9.0-latest-win64-lgpl-shared-9.0"/"bin"/"ffmpeg.exe"
 FP = FF.with_name("ffprobe.exe")
 wav = W/"audio_master_t03.wav"
-mp3 = Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Tap03\xuat_ban\Tap03_master.mp3")
+mp3 = Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Ho_So_Toi_Pham\Tap03\xuat_ban\Tap03_master.mp3")
 def run(a):
     r = subprocess.run(a, capture_output=True, text=True, encoding="utf-8", errors="replace")
     return r.stdout, r.stderr

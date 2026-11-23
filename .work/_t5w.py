@@ -2,7 +2,7 @@
 from pathlib import Path
 from PIL import ImageFont
 ROOT = Path(r"D:\TEST\Gax\amber-eyes")
-plan = (ROOT/"02_SAN_XUAT"/"Tap03"/"KeHoach_Video_Tap03.md").read_text(encoding="utf-8-sig")
+plan = (ROOT/"02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03"/"KeHoach_Video_Tap03.md").read_text(encoding="utf-8-sig")
 print("=== tat ca dong T5 ===")
 for l in plan.splitlines():
     if not re.match(r"\|\s*[1-5]-\d+", l): continue

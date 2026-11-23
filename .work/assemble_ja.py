@@ -27,11 +27,11 @@ header_ja = """# 犯罪心理学オーディオ／ポッドキャスト台本
 """
 
 full_ja = "\n\n".join([header_ja, act_ja.ACT1_JA, act_ja.ACT2_JA, act_ja.ACT3_JA, act_ja.ACT4_JA, act_ja.ACT5_JA])
-with open("01_KICH_BAN/Tap32_JA/kichban_tap32_JA.md", "w", encoding="utf-8") as f:
+with open("01_KICH_BAN/Ho_So_Toi_Pham/Tap32_JA/kichban_tap32_JA.md", "w", encoding="utf-8") as f:
     f.write(full_ja)
 
 import subprocess, json
-subprocess.run(["py", "-3", ".work/parse_kichban.py", "01_KICH_BAN/Tap32_JA/kichban_tap32_JA.md", ".work/t32_ja.json"])
+subprocess.run(["py", "-3", ".work/parse_kichban.py", "01_KICH_BAN/Ho_So_Toi_Pham/Tap32_JA/kichban_tap32_JA.md", ".work/t32_ja.json"])
 d = json.load(open(".work/t32_ja.json", encoding="utf-8"))
 total_sents = sum(len(x.get("sentences", [])) for x in d)
 print("Generated JA sentences count:", total_sents)

@@ -25,9 +25,9 @@ W = ROOT / ".work"
 LANG = (sys.argv[1] if len(sys.argv) > 1 else "vi").lower()
 
 TARGET = {
-    "vi": (ROOT / "02_SAN_XUAT/Tap05/KeHoach_Video_Tap05.md", "_t05_chu_vi.json"),
-    "en": (ROOT / "02_SAN_XUAT/Tap05_EN/KeHoach_Video_Tap05_EN.md", "_t05_chu_en.json"),
-    "ja": (ROOT / "02_SAN_XUAT/Tap05_JA/KeHoach_Video_Tap05_JA.md", "_t05_chu_ja.json"),
+    "vi": (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05/KeHoach_Video_Tap05.md", "_t05_chu_vi.json"),
+    "en": (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_EN/KeHoach_Video_Tap05_EN.md", "_t05_chu_en.json"),
+    "ja": (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_JA/KeHoach_Video_Tap05_JA.md", "_t05_chu_ja.json"),
 }[LANG]
 PLAN, CHU_FILE = TARGET
 sk = json.loads((W / "_t05_skeleton.json").read_text(encoding="utf-8"))

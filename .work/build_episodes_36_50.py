@@ -12,7 +12,7 @@ def build_all_episodes():
     results = {}
     
     for ep_num, meta in EP_META.items():
-        script_path = Path(f'01_KICH_BAN/Tap{ep_num}/kichban_tap{ep_num}_19112026.md')
+        script_path = Path(f'01_KICH_BAN/Ho_So_Toi_Pham/Tap{ep_num}/kichban_tap{ep_num}_19112026.md')
         txt = script_path.read_text(encoding='utf-8')
         raw_acts = re.split(r'## HỒI \d.*', txt)[1:]
         

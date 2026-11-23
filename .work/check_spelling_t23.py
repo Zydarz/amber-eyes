@@ -9,10 +9,10 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(r"D:\TEST\Gax\amber-eyes")
 
 scripts = {
-    "VN": ROOT / "01_KICH_BAN" / "Tap23" / "kichban_tap23_23102026.md",
-    "EN": ROOT / "01_KICH_BAN" / "Tap23_EN" / "kichban_tap23_EN.md",
-    "JA": ROOT / "01_KICH_BAN" / "Tap23_JA" / "kichban_tap23_JA.md",
-    "KO": ROOT / "01_KICH_BAN" / "Tap23_KO" / "kichban_tap23_KO.md",
+    "VN": ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap23" / "kichban_tap23_23102026.md",
+    "EN": ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap23_EN" / "kichban_tap23_EN.md",
+    "JA": ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap23_JA" / "kichban_tap23_JA.md",
+    "KO": ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap23_KO" / "kichban_tap23_KO.md",
 }
 
 print("=" * 70)

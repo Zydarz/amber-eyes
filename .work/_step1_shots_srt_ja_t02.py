@@ -27,7 +27,7 @@ BK.mkdir(parents=True, exist_ok=True)
 
 print("=== 0. SAO LUU (L5) ===")
 for rel in [".work/shots_JA_t02.json",
-            "02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA.srt",
+            "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/Tap02_JA.srt",
             ".work/shots_text_tap02_JA.json"]:
     src = ROOT / rel
     if src.exists():
@@ -135,7 +135,7 @@ for s in shots:
 print(f"  nen lap toi da = {maxrun} shot lien tiep (tai {where})")
 
 # i) SRT
-srt = (ROOT / "02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA.srt").read_text(encoding="utf-8-sig")
+srt = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/Tap02_JA.srt").read_text(encoding="utf-8-sig")
 blocks = [b for b in srt.strip().split("\n\n") if b.strip()]
 
 

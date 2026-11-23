@@ -11,7 +11,7 @@ import make_ja_scripts as M  # noqa: E402
 from _qc_ja import SIMPLIFIED, VN_CHARS  # noqa: E402
 
 ep = sys.argv[1] if len(sys.argv) > 1 else "01"
-ja = M.ROOT / "01_KICH_BAN" / f"Tap{ep}_JA" / f"kichban_tap{ep}_JA.md"
+ja = M.ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap{ep}_JA" / f"kichban_tap{ep}_JA.md"
 vn = M.canonical_vn(ep)
 body = re.sub(r"<!--.*?-->", "", ja.read_text(encoding="utf-8"), flags=re.S)
 vn_text = vn.read_text(encoding="utf-8")

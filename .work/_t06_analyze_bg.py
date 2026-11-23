@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BT = chr(96)
 
 allbg = {p.stem for p in (ROOT / "assets/bg").glob("t6_*.png")}
-t = (ROOT / "02_SAN_XUAT/Tap06/KeHoach_Video_Tap06.md").read_text(encoding="utf-8")
+t = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap06/KeHoach_Video_Tap06.md").read_text(encoding="utf-8")
 used = set(re.findall(BT + r"(t6_[a-z0-9_]+)" + BT, t))
 
 print(f"nen t6_ tong: {len(allbg)} · da dung trong bang shot cu: {len(used)}")

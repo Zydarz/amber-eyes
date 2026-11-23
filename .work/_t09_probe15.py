@@ -7,7 +7,7 @@ from parse_kichban import parse_file
 
 print("=== sentence count: CURRENT vs PRE-REWRITE backup ===")
 for label, rel in [
-    ("CURRENT  01_KICH_BAN/Tap09", "01_KICH_BAN/Tap09/kichban_tap09_23102026.md"),
+    ("CURRENT  01_KICH_BAN/Ho_So_Toi_Pham/Tap09", "01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_23102026.md"),
     ("BACKUP   _cu/kichban_tap09_23102026_truoc_soat_20261101", ".work/_cu/kichban_tap09_23102026_truoc_soat_20261101.md"),
     ("BACKUP   _cu/tap09_pre_10chiau_20261105", ".work/_cu/tap09_pre_10chiau_20261105/kichban_tap09_23102026.md"),
 ]:
@@ -31,7 +31,7 @@ print(f"  total={tl['total']} intro={tl['intro']} last_end={tl['items'][-1]['end
 
 print()
 print("=== FORBIDDEN WORD scan (A9.2) on current VN script ===")
-els = parse_file(str(ROOT/"01_KICH_BAN/Tap09/kichban_tap09_23102026.md"))
+els = parse_file(str(ROOT/"01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_23102026.md"))
 texts = [(f"{e['id']}#{i}", s["text"]) for e in els if e["kind"]=="LOI"
          for i,s in enumerate(e.get("sentences",[]),1)]
 VI = ["sát hại","thi thể","máu","đòn","trói","bầm","đập","đầu độc","diệt cỏ","bỏ đói",

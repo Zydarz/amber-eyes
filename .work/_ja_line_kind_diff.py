@@ -47,7 +47,7 @@ def cats(path):
 
 ep = sys.argv[1]
 vn = M.canonical_vn(ep)
-ja = HERE.parent / "01_KICH_BAN" / f"Tap{ep}_JA" / f"kichban_tap{ep}_JA.md"
+ja = HERE.parent / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap{ep}_JA" / f"kichban_tap{ep}_JA.md"
 a, b = cats(vn), cats(ja)
 print(f"VN {len(a)} dong · JA {len(b)} dong")
 

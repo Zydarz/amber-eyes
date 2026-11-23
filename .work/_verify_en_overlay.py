@@ -25,12 +25,12 @@ for k in keys:
         badshape.append(k)
 print("gia tri sai dang:", badshape)
 
-plan = ROOT / "02_SAN_XUAT/Tap02_EN/KeHoach_Video_Tap02_EN.md"
+plan = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/KeHoach_Video_Tap02_EN.md"
 rows = [l for l in plan.read_text(encoding="utf-8").splitlines() if re.match(r"\|\s*[1-5]-\d+\s*\|", l)]
 print("dong shot trong bang EN:", len(rows))
 
 # bang EN phai khop bang VN 161 dong
-vn = ROOT / "02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md"
+vn = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md"
 vnrows = [l for l in vn.read_text(encoding="utf-8").splitlines() if re.match(r"\|\s*[1-5]-\d+\s*\|", l)]
 print("dong shot trong bang VN:", len(vnrows))
 en_ids = [re.match(r"\|\s*([1-5]-\d+)\s*\|", l).group(1) for l in rows]

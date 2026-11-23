@@ -6,8 +6,8 @@ cung `temperature 0.8` va cung bo seed theo cau => giong nghe ra y het
 ban san xuat 416 file, chi khac o so cau.
 
 Output:
-  02_SAN_XUAT/Tap02/xuat_ban/DEMO_giong_Higgs.mp3   (reel lien mach)
-  02_SAN_XUAT/Tap02/xuat_ban/DEMO_giong_Higgs.txt   (bang thoi gian <-> vai/cau)
+  02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/xuat_ban/DEMO_giong_Higgs.mp3   (reel lien mach)
+  02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/xuat_ban/DEMO_giong_Higgs.txt   (bang thoi gian <-> vai/cau)
 """
 import json
 import pathlib
@@ -23,7 +23,7 @@ ROOT = HERE.parent
 FF = HERE / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
 V6 = HERE / "kaggle_higgs" / "out_higgs_v6" / "out_higgs_v6"
 PAYLOAD_P = HERE / "kaggle_higgs" / "dataset_voxcpm2" / "pilot_payload_v6.json"
-OUT_DIR = ROOT / "02_SAN_XUAT" / "Tap02" / "xuat_ban"
+OUT_DIR = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02" / "xuat_ban"
 SR = 24000
 GAP = 0.8          # giua 2 cau trong cung vai
 GROUP_GAP = 2.2    # giua 2 vai (dau moi nhom)

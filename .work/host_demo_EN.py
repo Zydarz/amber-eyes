@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Demo: the Act 1 opening (Host lines) read with acting_EN.json, one file per candidate host voice.
-Output: 02_SAN_XUAT/Tap01_EN/thu_giong/host_moi/demo_<voice>.mp3
+Output: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN/thu_giong/host_moi/demo_<voice>.mp3
 """
 import json
 import subprocess

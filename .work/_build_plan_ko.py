@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Generate 02_SAN_XUAT/Tap01_KO/KeHoach_Video_Tap01_KO.md from VN plan + shots_text_KO.json.
+"""Generate 02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_KO/KeHoach_Video_Tap01_KO.md from VN plan + shots_text_KO.json.
 Keeps Câu/Vai/Mẫu/Nền/Nhân vật and the Vietnamese beat wording (renderer triggers);
 swaps the Chữ cell and beat cues to Korean.
 """
@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 
-vn_text = (ROOT / "02_SAN_XUAT/Tap01/KeHoach_Video_Tap01.md").read_text(encoding="utf-8").splitlines()
+vn_text = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/KeHoach_Video_Tap01.md").read_text(encoding="utf-8").splitlines()
 ko_text = json.loads((WORK / "shots_text_KO.json").read_text(encoding="utf-8"))
 ko_script = json.load(open(WORK / "script_tap01_KO.json", encoding="utf-8"))
 S = {s['id']: s['text'] for e in ko_script if e['kind'] == 'LOI' for s in e['sentences']}
@@ -26,8 +26,8 @@ header = [
     "> **TRẠNG THÁI: CHỜ DUYỆT GIỌNG ĐỌC & DỰNG**",
     "",
     "**Tiêu chuẩn áp dụng:** `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (Phần A).",
-    "**Kịch bản:** `01_KICH_BAN/Tap01_KO/kichban_tap01_KO.md` · **Chữ cố định:** `00_TIEU_CHUAN/CHU_CO_DINH_KO.md` · **Thành phẩm:** `02_SAN_XUAT/Tap01_KO/xuat_ban/`",
-    "**Bản gốc:** `02_SAN_XUAT/Tap01/KeHoach_Video_Tap01.md`. Bảng shot giữ nguyên các cột Câu, Vai, Mẫu, Nền, Nhân vật và mô tả beat; chỉ thay:",
+    "**Kịch bản:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap01_KO/kichban_tap01_KO.md` · **Chữ cố định:** `00_TIEU_CHUAN/CHU_CO_DINH_KO.md` · **Thành phẩm:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_KO/xuat_ban/`",
+    "**Bản gốc:** `02_SAN_XUAT/Ho_So_Toi_Pham/Tap01/KeHoach_Video_Tap01.md`. Bảng shot giữ nguyên các cột Câu, Vai, Mẫu, Nền, Nhân vật và mô tả beat; chỉ thay:",
     "- cột **Chữ** sang tiếng Hàn chuẩn phát thanh tài liệu (Pillow vẽ chữ với `malgun.ttf` / `malgunbd.ttf`);",
     "- các cụm `ở \"…\"` trong cột **Beat** sang cụm tiếng Hàn **có thật** trong câu KO tương ứng.",
     "",
@@ -35,7 +35,7 @@ header = [
     "",
     "| Mục | Giá trị |",
     "|---|---|",
-    "| Kịch bản | `01_KICH_BAN/Tap01_KO/kichban_tap01_KO.md` (chuẩn `00_TIEU_CHUAN/CHU_CO_DINH_KO.md`, 128 câu, 33 lượt nói, passed `_qc_ko_parity.py`) |",
+    "| Kịch bản | `01_KICH_BAN/Ho_So_Toi_Pham/Tap01_KO/kichban_tap01_KO.md` (chuẩn `00_TIEU_CHUAN/CHU_CO_DINH_KO.md`, 128 câu, 33 lượt nói, passed `_qc_ko_parity.py`) |",
     "| Lượt nói / câu | 33 / **128**. Host 50% · Chuyên gia 24% · Điều tra viên 20% · Người bình thường 5%. Mã câu trùng 100% bản VN (`script_tap01_KO.json`) |",
     "| N1 / N2 | `1.07` 증인 (Cừu) / `4.03` 시청자 (Mèo) |",
     "| Bảng shot | 122 dòng = 104 shot có lời + 18 dòng không lời |",
@@ -92,7 +92,7 @@ for l in vn_text[i0:i1 + 1]:
     c[6] = f" {beat} "
     table_lines.append("|" + "|".join(c) + "|")
 
-out_dir = ROOT / "02_SAN_XUAT" / "Tap01_KO"
+out_dir = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap01_KO"
 out_dir.mkdir(parents=True, exist_ok=True)
 out_file = out_dir / "KeHoach_Video_Tap01_KO.md"
 out_file.write_text("\n".join(header + table_lines[2:]), encoding="utf-8")

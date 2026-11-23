@@ -12,7 +12,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path("D:/TEST/Gax/amber-eyes")
 WORK = ROOT / ".work"
 TL = json.loads((WORK / "timeline_s_t03.json").read_text(encoding="utf-8"))
-SRT = ROOT / "02_SAN_XUAT/Tap03/xuat_ban/Tap03.srt"
+SRT = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/xuat_ban/Tap03.srt"
 
 blocks = [b for b in SRT.read_text(encoding="utf-8").strip().split("\n\n") if b.strip()]
 

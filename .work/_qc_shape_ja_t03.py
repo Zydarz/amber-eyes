@@ -72,7 +72,7 @@ def t8_items(segs):
 
 
 # --- doc bang VN (nguon chu) va bang JA (da dung)
-vn_lines = (ROOT / "02_SAN_XUAT/Tap03/KeHoach_Video_Tap03.md").read_text(encoding="utf-8").splitlines()
+vn_lines = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap03/KeHoach_Video_Tap03.md").read_text(encoding="utf-8").splitlines()
 i0 = next(i for i, l in enumerate(vn_lines) if l.startswith("## 6. DANH SÁCH SHOT"))
 i1 = next(i for i, l in enumerate(vn_lines) if i > i0 and l.startswith("**Tổng:"))
 VN = {}
@@ -84,7 +84,7 @@ for l in vn_lines[i0:i1]:
     VN[m.group(1)] = {"chu": c[5], "mau": c[3]}
 
 JA = {}
-ja_lines = (ROOT / "02_SAN_XUAT/Tap03_JA/KeHoach_Video_Tap03_JA.md").read_text(encoding="utf-8").splitlines()
+ja_lines = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_JA/KeHoach_Video_Tap03_JA.md").read_text(encoding="utf-8").splitlines()
 j0 = next(i for i, l in enumerate(ja_lines) if l.startswith("## 6. DANH SÁCH SHOT"))
 for l in ja_lines[j0:]:
     m = re.match(r"\|\s*([1-5]-\d+)\s*\|", l)

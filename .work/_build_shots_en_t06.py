@@ -6,7 +6,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 ROOT = Path(".")
 W = ROOT / ".work"
-PROD_EN = ROOT / "02_SAN_XUAT/Tap06_EN"
+PROD_EN = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap06_EN"
 PROD_EN.mkdir(parents=True, exist_ok=True)
 
 script_en = json.load(open(W / "script_tap06_EN.json", encoding="utf-8"))

@@ -5,7 +5,7 @@ sys.path.insert(0, '.work')
 import parse_kichban as PK
 
 # Fix JA
-path_ja = '01_KICH_BAN/Tap16_JA/kichban_tap16_JA.md'
+path_ja = '01_KICH_BAN/Ho_So_Toi_Pham/Tap16_JA/kichban_tap16_JA.md'
 txt_ja = open(path_ja, encoding='utf-8').read()
 
 # 2.09
@@ -53,7 +53,7 @@ txt_ja = txt_ja.replace(
 open(path_ja, 'w', encoding='utf-8').write(txt_ja)
 
 # Fix KO
-path_ko = '01_KICH_BAN/Tap16_KO/kichban_tap16_KO.md'
+path_ko = '01_KICH_BAN/Ho_So_Toi_Pham/Tap16_KO/kichban_tap16_KO.md'
 txt_ko = open(path_ko, encoding='utf-8').read()
 
 # 3.05

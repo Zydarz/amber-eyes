@@ -22,7 +22,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path("D:/TEST/Gax/amber-eyes")
 WORK = ROOT / ".work"
 FF = WORK / "ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin/ffmpeg.exe"
-AUDIO_MP3 = ROOT / "02_SAN_XUAT/Tap05/xuat_ban/Tap05_master.mp3"
+AUDIO_MP3 = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05/xuat_ban/Tap05_master.mp3"
 WAV_16K = WORK / "speech_full_vi_t05_16k.wav"
 OUT_JSON = WORK / "speech_full_recognized_vi_t05_small.json"
 JSONL = WORK / "_asr_t05_small_chunks.jsonl"

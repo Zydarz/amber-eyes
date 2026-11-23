@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Data generator for Episodes 14 to 29 background image jobs.
-Analyzes each script in 01_KICH_BAN/TapXX/ to generate ~60-75 rich, case-specific,
+Analyzes each script in 01_KICH_BAN/Ho_So_Toi_Pham/TapXX/ to generate ~60-75 rich, case-specific,
 cinematic 16:9 dark graphic novel noir background jobs across all 5 Acts.
 Adheres strictly to Golden Rules V1-V9, YouTube safe standards, and negative constraints.
 """

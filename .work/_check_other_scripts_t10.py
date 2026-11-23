@@ -4,10 +4,10 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 files = [
-    ('EN', Path('01_KICH_BAN/Tap10_EN/kichban_tap10_EN.md')),
-    ('EN_copy', Path('01_KICH_BAN/Tap10/kichban_tap10_EN.md')),
-    ('JA', Path('01_KICH_BAN/Tap10_JA/kichban_tap10_JA.md')),
-    ('KO', Path('01_KICH_BAN/Tap10_KO/kichban_tap10_KO.md')),
+    ('EN', Path('01_KICH_BAN/Ho_So_Toi_Pham/Tap10_EN/kichban_tap10_EN.md')),
+    ('EN_copy', Path('01_KICH_BAN/Ho_So_Toi_Pham/Tap10/kichban_tap10_EN.md')),
+    ('JA', Path('01_KICH_BAN/Ho_So_Toi_Pham/Tap10_JA/kichban_tap10_JA.md')),
+    ('KO', Path('01_KICH_BAN/Ho_So_Toi_Pham/Tap10_KO/kichban_tap10_KO.md')),
 ]
 
 for name, p in files:

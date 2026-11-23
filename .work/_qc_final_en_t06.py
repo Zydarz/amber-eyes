@@ -7,9 +7,9 @@ sys.stdout.reconfigure(encoding='utf-8')
 FFMPEG = Path(r"D:\TEST\Gax\amber-eyes\.work\ffmpeg\ffmpeg-n9.0-latest-win64-lgpl-shared-9.0\bin\ffmpeg.exe")
 FFPROBE = Path(r"D:\TEST\Gax\amber-eyes\.work\ffmpeg\ffmpeg-n9.0-latest-win64-lgpl-shared-9.0\bin\ffprobe.exe")
 
-mp4_file = Path("02_SAN_XUAT/Tap06_EN/xuat_ban/Tap06_EN_master.mp4")
-srt_file = Path("02_SAN_XUAT/Tap06_EN/xuat_ban/Tap06_EN.srt")
-thumb_file = Path("02_SAN_XUAT/Tap06_EN/xuat_ban/thumbnail.png")
+mp4_file = Path("02_SAN_XUAT/Ho_So_Toi_Pham/Tap06_EN/xuat_ban/Tap06_EN_master.mp4")
+srt_file = Path("02_SAN_XUAT/Ho_So_Toi_Pham/Tap06_EN/xuat_ban/Tap06_EN.srt")
+thumb_file = Path("02_SAN_XUAT/Ho_So_Toi_Pham/Tap06_EN/xuat_ban/thumbnail.png")
 tl_file = Path(".work/timeline_s_EN_t06.json")
 tl = json.load(tl_file.open(encoding="utf-8"))
 

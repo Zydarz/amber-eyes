@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Sinh lại `02_SAN_XUAT/Tap11/Danh_Sach_Anh_Tap11.md` theo H25 (136 nền, ánh xạ shot).
+"""Sinh lại `02_SAN_XUAT/Ho_So_Toi_Pham/Tap11/Danh_Sach_Anh_Tap11.md` theo H25 (136 nền, ánh xạ shot).
 
 Dùng: bảng shot mục 6 (KeHoach) + bg_jobs_tap11.json (desc/prompt).
 """
@@ -9,9 +9,9 @@ from collections import OrderedDict
 from pathlib import Path
 
 ROOT = Path(r"D:/TEST/Gax/amber-eyes")
-PLAN = ROOT / "02_SAN_XUAT/Tap11/KeHoach_Video_Tap11.md"
+PLAN = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap11/KeHoach_Video_Tap11.md"
 JOBS = ROOT / ".work/bg_jobs_tap11.json"
-OUT = ROOT / "02_SAN_XUAT/Tap11/Danh_Sach_Anh_Tap11.md"
+OUT = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap11/Danh_Sach_Anh_Tap11.md"
 
 text = PLAN.read_text(encoding="utf-8")
 sec = text[text.find("## 6."):]
@@ -136,7 +136,7 @@ out.append("| Provenance (L7) | 136 dòng `assets/bg/t11_*.png` có bản ghi tr
 out.append("")
 out.append("---")
 out.append("")
-out.append(f"*Tài liệu sinh tự động từ `02_SAN_XUAT/Tap11/KeHoach_Video_Tap11.md` + `.work/bg_jobs_tap11.json` — "
+out.append(f"*Tài liệu sinh tự động từ `02_SAN_XUAT/Ho_So_Toi_Pham/Tap11/KeHoach_Video_Tap11.md` + `.work/bg_jobs_tap11.json` — "
            f"ngày 16/11/2026. Khi đổi bảng shot hoặc sinh lại nền, chạy lại script `.work/_t11_gen_danh_sach_anh.py`.*")
 
 OUT.write_text("\n".join(out) + "\n", encoding="utf-8")

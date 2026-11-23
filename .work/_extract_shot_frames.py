@@ -14,7 +14,7 @@ FF = W / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg
 OUT = W / "_cu" / "ja_t02_zoom"
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-MP4 = ROOT / "02_SAN_XUAT/Tap02_JA/xuat_ban/Tap02_JA_master.mp4"
+MP4 = ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/xuat_ban/Tap02_JA_master.mp4"
 shots = json.loads((W / "shots_JA_t02.json").read_text(encoding="utf-8-sig"))["shots"]
 smap = {s["id"]: s for s in shots}
 

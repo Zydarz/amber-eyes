@@ -27,7 +27,7 @@ except Exception:
 ROOT = Path(r"D:/TEST/Gax/amber-eyes")
 WORK = ROOT / ".work"
 BG_DIR = ROOT / "assets" / "bg"
-PLAN = ROOT / "02_SAN_XUAT" / "Tap06" / "KeHoach_Video_Tap06.md"
+PLAN = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06" / "KeHoach_Video_Tap06.md"
 
 BANNED = ["hiếp dâm", "chặt xác", "cắt cổ", "máu me", "tự tử", "thắt cổ",
           "thi thể", "sát hại", "đòn roi", "trói", "bầm", "đầu độc",

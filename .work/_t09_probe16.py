@@ -26,7 +26,7 @@ print(" ", tl["acts"])
 
 print()
 print("=== element -> sentences in script vs timeline ===")
-els = parse_file(str(ROOT/"01_KICH_BAN/Tap09/kichban_tap09_23102026.md"))
+els = parse_file(str(ROOT/"01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_23102026.md"))
 tl_ids = [i["id"] for i in items]
 sc_ids = [f"{e['id']}#{k}" for e in els if e["kind"]=="LOI" for k in range(1, len(e.get("sentences",[]))+1)]
 print("  timeline ids:", len(tl_ids), "script ids:", len(sc_ids), "IDENTICAL ORDER:", tl_ids == sc_ids)

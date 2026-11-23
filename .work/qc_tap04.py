@@ -262,7 +262,7 @@ def gate_p10(ep):
     """Cổng master (AGENTS.md bước 6 / QUY_TAC §9)."""
     import subprocess
     ff = WORK / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
-    master = ROOT / "02_SAN_XUAT" / f"Tap{ep}" / "xuat_ban" / f"Tap{ep}_master.mp3"
+    master = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ep}" / "xuat_ban" / f"Tap{ep}_master.mp3"
     if not master.exists():
         bad(f"P10 chưa có {master.name}")
         return

@@ -93,7 +93,7 @@ for s in shots:
             susp.append((s["id"], t[:60]))
 print(f"chu tren hinh con tieng Viet = {len(susp)} {susp[:5]}")
 
-srt = (ROOT / "02_SAN_XUAT/Tap03_JA/xuat_ban/Tap03_JA.srt").read_text(encoding="utf-8-sig")
+srt = (ROOT / "02_SAN_XUAT/Ho_So_Toi_Pham/Tap03_JA/xuat_ban/Tap03_JA.srt").read_text(encoding="utf-8-sig")
 blocks = [b for b in srt.strip().split("\n\n") if b.strip()]
 
 

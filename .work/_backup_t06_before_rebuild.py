@@ -6,7 +6,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(r"D:/TEST/Gax/amber-eyes")
 CU = ROOT / ".work" / "_cu" / "t06_truoc_dung_lai_20261103"
 CU.mkdir(parents=True, exist_ok=True)
-SRC = ROOT / "02_SAN_XUAT" / "Tap06" / "xuat_ban"
+SRC = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06" / "xuat_ban"
 FILES = ["Tap06_master.mp4", "Tap06_master.mp3", "Tap06.srt", "thumbnail.png"]
 for n in FILES:
     s = SRC / n

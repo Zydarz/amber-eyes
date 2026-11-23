@@ -346,6 +346,6 @@ Hãy luôn giữ cho mình một tâm trí tỉnh táo, biết lắng nghe trự
 **[BGM]:** Nhạc nền Piano ngân vang ấm áp, trang trọng năm giây rồi từ từ nhỏ dần và tắt hẳn (Fade out).
 """
 
-with open('01_KICH_BAN/Tap09/kichban_tap09_23102026.md', 'w', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_23102026.md', 'w', encoding='utf-8') as f:
     f.write(NEW_SCRIPT)
-print("Updated 01_KICH_BAN/Tap09/kichban_tap09_23102026.md successfully!")
+print("Updated 01_KICH_BAN/Ho_So_Toi_Pham/Tap09/kichban_tap09_23102026.md successfully!")

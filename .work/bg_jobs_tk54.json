@@ -1,0 +1,354 @@
+[
+ {
+  "name": "tk54_empty_nanjing_street_night",
+  "act": 1,
+  "clip": "TK1/TK3",
+  "desc": "Đường phố Nam Kinh ban đêm năm 1996 trống trải, cửa cuốn đóng, sương mờ",
+  "prompt_core": "a completely empty 1990s Chinese city street at night, shuttered storefronts, closed metal gates, pale grey fog, one distant amber streetlamp, no people, no vehicles",
+  "seed": 54001
+ },
+ {
+  "name": "tk54_nanjing_winter_street",
+  "act": 1,
+  "clip": "TK1",
+  "desc": "Đại lộ Nam Kinh giữa đợt rét mùa đông, cây ngô đồng trơ trụi, đèn vàng xa",
+  "prompt_core": "a wide 1990s Chinese city avenue in deep winter, bare plane trees, grey smog, distant amber sodium streetlamps, patches of ice, a few small distant figures",
+  "seed": 54002
+ },
+ {
+  "name": "tk54_nanjing_university_gate",
+  "act": 1,
+  "clip": "TK1",
+  "desc": "Cổng Đại học Nam Kinh lúc hoàng hôn, gạch và cổng sắt",
+  "prompt_core": "a 1990s Chinese university entrance gate with brick pillars and iron gates at dusk, bare trees, cold grey light, students walking away in the distance",
+  "seed": 54003
+ },
+ {
+  "name": "tk54_dormitory_evening",
+  "act": 1,
+  "clip": "TK1",
+  "desc": "Hành lang ký túc xá sinh viên ban đêm, bóng đèn mờ, cầu thang bê tông",
+  "prompt_core": "a 1990s Chinese student dormitory corridor at night, rows of wooden doors, a single dim bulb, worn concrete steps, cold blue window light",
+  "seed": 54004
+ },
+ {
+  "name": "tk54_red_coat_crowd",
+  "act": 1,
+  "clip": "TK1",
+  "desc": "Vỉa hè đông đúc lúc hoàng hôn, một người mặc áo khoác đỏ hòa vào đám đông",
+  "prompt_core": "a crowded 1990s Chinese city sidewalk at dusk, one figure in a vivid red winter coat seen only from behind merging into the crowd, motion blur, cold grey light",
+  "seed": 54005
+ },
+ {
+  "name": "tk54_dorm_books",
+  "act": 1,
+  "clip": "TK1",
+  "desc": "Bàn học trong ký túc xá, chồng sách văn học cổ điển bìa trơn, sổ ghi chép mờ",
+  "prompt_core": "a small student dormitory desk lit by one cold lamp, a stack of worn clothbound books with plain blank unmarked spines, an open notebook with illegible blurred handwriting",
+  "seed": 54006
+ },
+ {
+  "name": "tk54_empty_dorm_bunk_night",
+  "act": 1,
+  "clip": "TK1",
+  "desc": "Giường tầng trống trong ký túc xá lúc đêm, chăn gấp, một chiếc ghế gỗ",
+  "prompt_core": "an empty student dormitory bunk bed at night, a folded grey blanket, a single wooden chair, dim cold window light, deep shadows",
+  "seed": 54007
+ },
+ {
+  "name": "tk54_tankie_kou_street",
+  "act": 1,
+  "clip": "TK1",
+  "desc": "Ngã tư đường Tân Kiệt Khẩu ban đêm, mặt đường ướt phản chiếu đèn vàng",
+  "prompt_core": "a 1990s Chinese city intersection at night with a shuttered storefront, wet asphalt reflecting a distant amber streetlamp, cold fog",
+  "seed": 54008
+ },
+ {
+  "name": "tk54_found_bag_alley",
+  "act": 1,
+  "clip": "TK1",
+  "desc": "Hẻm tối trước trung tâm thành phố, một bọc vải xám trơn nằm trên nền ướt",
+  "prompt_core": "a narrow dark back alley in a 1990s Chinese city, a plain unmarked grey cloth bundle lying on wet cobblestones under a single distant streetlamp, cold mist",
+  "seed": 54009
+ },
+ {
+  "name": "tk54_police_taskforce",
+  "act": 1,
+  "clip": "TK1",
+  "desc": "Sân công an ban đêm, xe tuần tra tối và hồ sơ vụ án xếp trên thùng xe",
+  "prompt_core": "a large 1990s Chinese police headquarters yard at night, a line of dark police vehicles and plain unmarked case files stacked on a truck bed, cold floodlight",
+  "seed": 54010
+ },
+ {
+  "name": "tk54_amber_eyes_dossier_54",
+  "act": 1,
+  "clip": "TK1/TK2/TK3",
+  "desc": "Hồ sơ bìa dây bọc da trơn trên bàn tối, đèn bàn lạnh, bóng đen sâu",
+  "prompt_core": "a heavy bound case dossier with a plain blank unmarked cover lying open on a dark desk beside a plain unlabelled folder, one cold desk lamp, deep noir shadows",
+  "seed": 54011
+ },
+ {
+  "name": "tk54_scattered_bags_map",
+  "act": 2,
+  "clip": "TK2",
+  "desc": "Bàn điều tra có bản đồ thành phố trơn và nhiều bọc vải rải rác xa nhau",
+  "prompt_core": "a dark investigation table with a plain unmarked paper city map spread out, several plain grey cloth bundles placed far apart on it, cold desk lamp, dark gloved hands at the edge of frame",
+  "seed": 54012
+ },
+ {
+  "name": "tk54_evidence_table",
+  "act": 2,
+  "clip": "TK2",
+  "desc": "Bàn giám định dưới đèn lạnh, túi niêm phong trơn và dụng cụ phẫu thuật",
+  "prompt_core": "a forensic evidence table under a cold lamp, rows of plain unmarked grey evidence bags with completely blank surfaces, surgical instruments, deep shadows",
+  "seed": 54013
+ },
+ {
+  "name": "tk54_travel_bag_sheets",
+  "act": 2,
+  "clip": "TK2",
+  "desc": "Túi du lịch không nhãn hiệu và khăn trải giường gấp trên bàn tối",
+  "prompt_core": "a plain unbranded travel duffel bag and folded plain bed sheets laid out on a dark table, harsh cold lamp light, deep noir shadows",
+  "seed": 54014
+ },
+ {
+  "name": "tk54_blind_corner_dawn",
+  "act": 2,
+  "clip": "TK2",
+  "desc": "Góc phố vắng trước bình minh, miệng hẻm khuất, đường ướt, sương lạnh",
+  "prompt_core": "a deserted Chinese city corner before dawn, a blind alley mouth, an empty wet road, pale grey pre-dawn light, cold mist",
+  "seed": 54015
+ },
+ {
+  "name": "tk54_sealed_room_water",
+  "act": 2,
+  "clip": "TK2",
+  "desc": "Căn phòng khép kín, cửa sổ có song sắt, chậu thép nước chảy, sàn ướt",
+  "prompt_core": "a sealed interior room with a single barred window, a deep steel sink with running water, wet tiled floor, cold grey light through wet glass",
+  "seed": 54016
+ },
+ {
+  "name": "tk54_control_desk_ritual",
+  "act": 2,
+  "clip": "TK2",
+  "desc": "Bàn làm việc sắp xếp cực kỳ ngăn nắp, dụng cụ thẳng hàng như nghi thức",
+  "prompt_core": "a meticulously organised desk seen from above, clinical instruments aligned in perfect rows on a plain dark cloth, a single cold lamp, obsessive symmetry, deep shadows",
+  "seed": 54017
+ },
+ {
+  "name": "tk54_gloved_hands_evidence",
+  "act": 2,
+  "clip": "TK2",
+  "desc": "Hai bàn tay đeo găng cao su đang gấp cẩn thận một mảnh vải xám trên bàn tối",
+  "prompt_core": "a pair of dark rubber-gloved hands carefully folding a plain grey cloth on a blackened table, cold clinical lamp, extreme chiaroscuro, deep shadows",
+  "seed": 54018
+ },
+ {
+  "name": "tk54_wall_between_two_worlds",
+  "act": 2,
+  "clip": "TK2",
+  "desc": "Bức tường bê tông nứt chia hai thế giới, một bên ánh sáng xanh lạnh",
+  "prompt_core": "a cracked concrete wall splitting a dark interior into two unrelated worlds, one side washed in cold blue light and the other in faint warm dim light, deep noir shadows",
+  "seed": 54019
+ },
+ {
+  "name": "tk54_migrant_crowd_station",
+  "act": 3,
+  "clip": "TK3",
+  "desc": "Sảnh ga tàu 1990s đông đúc dân nông thôn, ánh sáng xám lạnh",
+  "prompt_core": "a crowded 1990s Chinese railway station concourse, crowds of rural villagers carrying cloth bundles, cold grey light through grimy glass, worn concrete pillars",
+  "seed": 54020
+ },
+ {
+  "name": "tk54_manual_surveillance_ledger",
+  "act": 3,
+  "clip": "TK3",
+  "desc": "Sổ ghi chép bọc mở với nét viết mờ, lúp và bóng đèn trần trên bàn gỗ",
+  "prompt_core": "stacked open paper registers with illegible blurred handwriting, a magnifying glass and a bare bulb on a worn wooden desk, deep shadows",
+  "seed": 54021
+ },
+ {
+  "name": "tk54_empty_dossier_shelves",
+  "act": 3,
+  "clip": "TK3",
+  "desc": "Kho hồ sơ kim loại, hồ sơ bìa trơn, một bóng đèn trần, bụi lơ lửng",
+  "prompt_core": "tall metal archive shelves in a dim records room, folders with plain blank unmarked spines, a single bare bulb, dusty cold air",
+  "seed": 54022
+ },
+ {
+  "name": "tk54_trusting_stranger_cafe",
+  "act": 3,
+  "clip": "TK3",
+  "desc": "Quán trà 1990s, người đàn ông áo khoác tối chỉ là bóng lưng rót trà",
+  "prompt_core": "a 1990s Chinese teahouse interior, a well-dressed stranger in a dark overcoat seen only as a silhouette from behind offering a cup, steam, dim lamp against cold window light",
+  "seed": 54023
+ },
+ {
+  "name": "tk54_manipulative_care",
+  "act": 3,
+  "clip": "TK3",
+  "desc": "Hành lang ký túc xá đêm, một cánh cửa mở toả sáng ấm, bóng áo khoác tối ở ngưỡng cửa",
+  "prompt_core": "a dim student dormitory corridor at night, an open door with warm light spilling out, a dark overcoat silhouette standing in the doorway, cold fog outside",
+  "seed": 54024
+ },
+ {
+  "name": "tk54_no_support_network",
+  "act": 3,
+  "clip": "TK3",
+  "desc": "Buồng điện thoại sinh viên vắng, một máy điện thoại treo tường, đèn huỳnh quang",
+  "prompt_core": "an empty student telephone alcove with a single wall-mounted telephone, peeling paint, cold fluorescent light, deep shadows",
+  "seed": 54025
+ },
+ {
+  "name": "tk54_unclosed_case_file",
+  "act": 4,
+  "clip": "TK4",
+  "desc": "Hồ sơ vụ án bìa dây trơn đứng mở trên kệ thép, một đèn lạnh",
+  "prompt_core": "a thick bound case file with a plain blank unmarked cover standing open on a steel shelf, one cold lamp, deep shadows",
+  "seed": 54026
+ },
+ {
+  "name": "tk54_clock_2016",
+  "act": 4,
+  "clip": "TK4",
+  "desc": "Văn phòng năm 2016, đồng hồ tròn mặt trơn hoàn toàn không vạch số",
+  "prompt_core": "a bare office wall with a plain round clock whose face is completely blank and unmarked, cold grey daylight through a grimy window",
+  "seed": 54027
+ },
+ {
+  "name": "tk54_never_closed_archive",
+  "act": 4,
+  "clip": "TK4",
+  "desc": "Hành lang kho lưu trữ kéo dài trong sương, tủ thép xám, một bóng đèn trần",
+  "prompt_core": "a long archive corridor of grey steel cabinets stretching into fog, a single bare bulb, cold light, deep shadows",
+  "seed": 54028
+ },
+ {
+  "name": "tk54_evidence_storage_2016",
+  "act": 4,
+  "clip": "TK4",
+  "desc": "Phòng lưu trữ mẫu vật hiện đại, tủ kín khí, ánh sáng xanh lạnh",
+  "prompt_core": "a sterile modern evidence storage room with climate sealed grey cabinets and a cold blue light, deep shadows",
+  "seed": 54029
+ },
+ {
+  "name": "tk54_dna_sequencing_lab",
+  "act": 4,
+  "clip": "TK4",
+  "desc": "Bàn phòng thí nghiệm giám định, máy giải trình tự ADN, màn hình nhỏ trắng trơn",
+  "prompt_core": "a forensic laboratory bench with a sequencing instrument and a small blank glowing display panel, cold blue clinical light, glassware, deep shadows",
+  "seed": 54030
+ },
+ {
+  "name": "tk54_national_genealogy_database",
+  "act": 4,
+  "clip": "TK4",
+  "desc": "Phòng máy chủ tối, dãy tủ đen, đèn báo nhỏ hổ phách, ánh sáng xanh lạnh",
+  "prompt_core": "a dark server room with rows of black racks and faint amber indicator lights, cold blue glow, a narrow aisle, deep noir shadows",
+  "seed": 54031
+ },
+ {
+  "name": "tk54_aging_ordinary_shell",
+  "act": 4,
+  "clip": "TK4",
+  "desc": "Căn hộ bình thường lúc hoàng hôn, một bóng người già đứng sau lưng ở cửa sổ",
+  "prompt_core": "a modest ordinary Chinese apartment living room at dusk, plain worn furniture, an ageing person's dark silhouette seen from behind by the window, cold grey light",
+  "seed": 54032
+ },
+ {
+  "name": "tk54_knock_at_the_door",
+  "act": 4,
+  "clip": "TK4",
+  "desc": "Cửa căn hộ khép kín trong hành lang tối, bóng đèn yếu, bóng dài người trên sàn",
+  "prompt_core": "a closed apartment door in a dim Chinese corridor, one weak light above it, the long shadow of a figure falling across the floor",
+  "seed": 54033
+ },
+ {
+  "name": "tk54_news_dna_article",
+  "act": 4,
+  "clip": "TK4",
+  "desc": "Căn phòng tối với ti vi cũ phát sáng mờ, một bóng người ngồi sau lưng",
+  "prompt_core": "a dark room lit by an old cathode-ray television glowing with an indistinct blurred monochrome broadcast, a dark silhouette seated from behind, cold screen light",
+  "seed": 54034
+ },
+ {
+  "name": "tk54_amber_eyes_dossier_54_b",
+  "act": 4,
+  "clip": "TK4/TK5",
+  "desc": "Hồ sơ bìa dây trơn trên bàn tối cùng tách trà lạnh, đèn bàn lạnh",
+  "prompt_core": "a heavy bound case dossier with a plain blank unmarked cover on a dark desk beside a cold cup of tea, one cold desk lamp, deep noir shadows",
+  "seed": 54035
+ },
+ {
+  "name": "tk54_three_lessons",
+  "act": 5,
+  "clip": "TK5",
+  "desc": "Ba phong bì trơn không dán nhãn xếp hàng trên bàn tối dưới một đèn lạnh",
+  "prompt_core": "a plain dark desk with three separate plain unlabelled envelopes laid in a row under one cold lamp, minimal noir composition, deep shadows",
+  "seed": 54036
+ },
+ {
+  "name": "tk54_aging_parents_empty_room",
+  "act": 5,
+  "clip": "TK5",
+  "desc": "Phòng khách nông thôn mùa đông, hai ghế gỗ trống, radio cũ, ảnh gia đình mờ",
+  "prompt_core": "a modest rural Chinese sitting room in winter dusk, two empty wooden chairs, an old radio, plain framed pictures with blank unidentifiable faces, cold window light",
+  "seed": 54037
+ },
+ {
+  "name": "tk54_taichou_house_memories",
+  "act": 5,
+  "clip": "TK5",
+  "desc": "Nội thất nhà nhỏ nông thôn Thái Châu, kệ gỗ sách cũ và bình gốm, nắng đông qua cửa giấy",
+  "prompt_core": "a small rural Chinese house interior, a wooden shelf with worn clothbound books and a plain ceramic jar, pale winter daylight through paper windows",
+  "seed": 54038
+ },
+ {
+  "name": "tk54_safety_contact_network",
+  "act": 5,
+  "clip": "TK5",
+  "desc": "Bàn bố trí điện thoại dây, sổ ghi chép nhỏ và đồng hồ bỏ túi dưới đèn lạnh",
+  "prompt_core": "a table with a simple corded telephone, a small plain notebook and a pocket watch under a cold lamp, sparse noir composition",
+  "seed": 54039
+ },
+ {
+  "name": "tk54_phone_call_night",
+  "act": 5,
+  "clip": "TK5",
+  "desc": "Máy điện thoại công cộng trên tường hành lang đêm, một bóng người cầm handset",
+  "prompt_core": "a student hall payphone on a dim wall at night, a dark silhouette seen from behind holding the receiver, cold corridor light",
+  "seed": 54040
+ },
+ {
+  "name": "tk54_refuse_closed_space",
+  "act": 5,
+  "clip": "TK5",
+  "desc": "Cầu thang hẹp tối dẫn xuống một cánh cửa đóng, ánh sáng lạnh từ trên cao",
+  "prompt_core": "a narrow dark stairwell leading down to a closed door, cold light from above, heavy shadows, no people",
+  "seed": 54041
+ },
+ {
+  "name": "tk54_too_helpful_stranger",
+  "act": 5,
+  "clip": "TK5",
+  "desc": "Hành lang tối, một bóng áo khoác mở cửa toả sáng ấm, sương lạnh phía sau",
+  "prompt_core": "a dim corridor where a dark overcoat silhouette holds an open door with a warm glow, offering help, cold mist behind",
+  "seed": 54042
+ },
+ {
+  "name": "tk54_counselling_room",
+  "act": 5,
+  "clip": "TK5",
+  "desc": "Phòng tư vấn tâm lý đại học vắng, hai ghế trống đối diện dưới đèn bàn lạnh",
+  "prompt_core": "a small sparse university counselling office, two plain chairs facing each other under a cold desk lamp, one plant, deep shadows",
+  "seed": 54043
+ },
+ {
+  "name": "tk54_family_hearth_night",
+  "act": 5,
+  "clip": "TK5",
+  "desc": "Phòng ký túc xá sinh viên ban đêm, bàn đèn nhỏ, điện thoại treo tường, sổ ghi chép",
+  "prompt_core": "a modest student dormitory room at night, a small desk with a single lit lamp, a plain chair, a telephone on the wall, a closed plain notebook, warm single lamp, deep shadows",
+  "seed": 54044
+ }
+]

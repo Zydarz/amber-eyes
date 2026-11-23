@@ -203,10 +203,10 @@ flowchart TD
    Lưu file số đo chi tiết vào `.work/quality_qc_utmos_epXX_en.json`.
 5. **Bước 6 — Xuất Timeline & Phụ đề:**
    - Tạo file `.work/timeline_s_EN_tXX.json` (tính start/end từng câu, intro 22.4 s, outro 9.0 s).
-   - Xuất phụ đề chuẩn `02_SAN_XUAT/TapXX_EN/xuat_ban/TapXX_EN.srt`.
+   - Xuất phụ đề chuẩn `02_SAN_XUAT/Ho_So_Toi_Pham/TapXX_EN/xuat_ban/TapXX_EN.srt`.
 6. **Bước 7 — Báo cáo & Tài liệu:**
-   - Xuất bảng câu cần nghe kiểm tra: `02_SAN_XUAT/TapXX_EN/CanNghe_TapXX_EN_higgs.md`.
-   - Cập nhật mục 7 trong kế hoạch sản xuất: `02_SAN_XUAT/TapXX_EN/KeHoach_Video_TapXX_EN.md`.
+   - Xuất bảng câu cần nghe kiểm tra: `02_SAN_XUAT/Ho_So_Toi_Pham/TapXX_EN/CanNghe_TapXX_EN_higgs.md`.
+   - Cập nhật mục 7 trong kế hoạch sản xuất: `02_SAN_XUAT/Ho_So_Toi_Pham/TapXX_EN/KeHoach_Video_TapXX_EN.md`.
 
 ---
 

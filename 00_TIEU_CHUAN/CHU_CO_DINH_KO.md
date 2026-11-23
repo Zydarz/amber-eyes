@@ -13,10 +13,10 @@
 
 | Việc | Quy ước |
 |---|---|
-| Thư mục | `01_KICH_BAN/TapXX_KO/` (đặt cạnh `TapXX/`, `TapXX_EN/`) |
-| File kịch bản | `01_KICH_BAN/TapXX_KO/kichban_tapXX_KO.md` |
-| Nguồn (file tiếng Việt) | `01_KICH_BAN/TapXX/kichban_tapXX_<ngày>.md` — **không sửa file nguồn** |
-| Bản EN (để đối chiếu) | `01_KICH_BAN/TapXX_EN/kichban_tapXX_EN.md` (chỉ có Tập 01–03) |
+| Thư mục | `01_KICH_BAN/Ho_So_Toi_Pham/TapXX_KO/` (đặt cạnh `TapXX/`, `TapXX_EN/`) |
+| File kịch bản | `01_KICH_BAN/Ho_So_Toi_Pham/TapXX_KO/kichban_tapXX_KO.md` |
+| Nguồn (file tiếng Việt) | `01_KICH_BAN/Ho_So_Toi_Pham/TapXX/kichban_tapXX_<ngày>.md` — **không sửa file nguồn** |
+| Bản EN (để đối chiếu) | `01_KICH_BAN/Ho_So_Toi_Pham/TapXX_EN/kichban_tapXX_EN.md` (chỉ có Tập 01–03) |
 
 **Tập 01 dùng file nguồn `kichban_tap01_22102026_v2.md`** (bản đã làm dịu mô tả bạo lực).
 Tập 02 dùng `kichban_tap02_22102026.md`. Tập 03–29 dùng file `kichban_tapXX_23102026.md` (trừ Tập 04–08 cũng là `23102026`).
@@ -193,7 +193,7 @@ KO:  ‘성자의 영광'에 대한 중독.
 > **Phân biệt loại 1 / loại 2 theo BẢN CHÂN DÒNG — KHÔNG theo ngôn ngữ của câu trong bản VN.**
 > Bản VN thường đã dịch sẵn lời thoại tiếng Anh sang tiếng Việt (`'Tôi chỉ muốn chấm dứt nỗi đau đớn cho họ'`,
 > `'Vậy, cô ấy ở đâu?'`, `'Tên tôi là Nik…'`), nhưng đó vẫn là **loại 1** vì là lời nói thật của
-> nhân chứng / nghi phạm / chuyên gia. **Chuẩn đối chiếu là bản EN** (`01_KICH_BAN/TapXX_EN/kichban_tapXX_EN.md`):
+> nhân chứng / nghi phạm / chuyên gia. **Chuẩn đối chiếu là bản EN** (`01_KICH_BAN/Ho_So_Toi_Pham/TapXX_EN/kichban_tapXX_EN.md`):
 > EN giữ tiếng Anh trong ngoặc ⇒ KO cũng giữ tiếng Anh trong `‘…’` **và đặt nghĩa Hàn ở ngoài ngoặc**;
 > EN dịch bên trong (nhãn/nickname do kịch bản tự đặt) ⇒ KO dịch bên trong, giữ dấu nháy.
 > **Không được dịch các quote loại 1 sang Hàn** — sẽ mất tính nguyên văn của lời khai.
@@ -224,7 +224,7 @@ KO:  ... 감방 안에서 Gypsy가 남긴 한 문장이었다 – 법의 감옥 
 ```markdown
 # 범죄심리 오디오 / 팟캐스트 스크립트 — 한국어판
 **주제:** <주제 번역>
-**원본:** `01_KICH_BAN/TapXX/kichban_tapXX_<ngày>.md`. vietnamese 문장마다 한글 문장 하나, 구조·코드 동일.
+**원본:** `01_KICH_BAN/Ho_So_Toi_Pham/TapXX/kichban_tapXX_<ngày>.md`. vietnamese 문장마다 한글 문장 하나, 구조·코드 동일.
 **사실 및 법률 검토:** <한 문장, xem file REVIEW tương ứng>
 
 ---
@@ -299,10 +299,10 @@ Ngoài QC tự động, **phải tự đọc lại** ít nhất:
 
 ```powershell
 # QC cặp (bắt buộc) — phải in PASS
-py -3 .work/_qc_ko_parity.py 01_KICH_BAN/TapXX/kichban_tapXX_<ngày>.md 01_KICH_BAN/TapXX_KO/kichban_tapXX_KO.md
+py -3 .work/_qc_ko_parity.py 01_KICH_BAN/Ho_So_Toi_Pham/TapXX/kichban_tapXX_<ngày>.md 01_KICH_BAN/Ho_So_Toi_Pham/TapXX_KO/kichban_tapXX_KO.md
 
 # Lint ký tự (Hán tự, ký tự rạc, dấu tiếng Việt, câu bắt đầu bằng số)
-py -3 .work/_lint_ko.py 01_KICH_BAN/TapXX/kichban_tapXX_<ngày>.md 01_KICH_BAN/TapXX_KO/kichban_tapXX_KO.md
+py -3 .work/_lint_ko.py 01_KICH_BAN/Ho_So_Toi_Pham/TapXX/kichban_tapXX_<ngày>.md 01_KICH_BAN/Ho_So_Toi_Pham/TapXX_KO/kichban_tapXX_KO.md
 
 # Chạy cho cả 29 tập
 py -3 .work/_qc_ko_all.py
@@ -359,10 +359,10 @@ py -3 .work/_lint_ko_all.py
 Bản KO dùng chung được `acting_tapXX.json`, `shots.json`, `sfx_tapXX.json` của bản VN **nhờ mã câu trùng khớp**.
 Khi bắt đầu sản xuất âm thanh:
 
-1. `AE_LANG=ko AE_EP=XX py -3 .work/parse_kichban.py 01_KICH_BAN/TapXX_KO/kichban_tapXX_KO.md .work/script_tapXX_KO.json`
+1. `AE_LANG=ko AE_EP=XX py -3 .work/parse_kichban.py 01_KICH_BAN/Ho_So_Toi_Pham/TapXX_KO/kichban_tapXX_KO.md .work/script_tapXX_KO.json`
 2. Chọn giọng Hàn (bộ H) — chạy **G8–G10** trước khi dựng.
 3. Số trong bản KO **không cần** đổi sang chữ như bản VN (tiếng Hàn đọc số tự nhiên).
 
 ---
 
-*Xem thêm: `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (mục A2 – định dạng kịch bản), `02_SAN_XUAT/Tap02_EN/CHU_CO_DINH_EN.md` (bản EN).*
+*Xem thêm: `00_TIEU_CHUAN/TIEU_CHUAN_DUNG_VIDEO.md` (mục A2 – định dạng kịch bản), `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/CHU_CO_DINH_EN.md` (bản EN).*

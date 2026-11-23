@@ -13,7 +13,7 @@ def verify_episode(ep_num):
     root = Path(__file__).resolve().parents[1]
     
     # 1. Find Vietnamese script
-    vn_dir = root / "01_KICH_BAN" / f"Tap{ep_str}"
+    vn_dir = root / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap{ep_str}"
     if ep_str == "01":
         vn_candidates = [vn_dir / "kichban_tap01_22102026_v2.md"]
     else:
@@ -25,9 +25,9 @@ def verify_episode(ep_num):
     vn_file = Path(vn_candidates[0])
     
     # 2. Find English script
-    en_file = root / "01_KICH_BAN" / f"Tap{ep_str}_EN" / f"kichban_tap{ep_str}_EN.md"
+    en_file = root / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap{ep_str}_EN" / f"kichban_tap{ep_str}_EN.md"
     if not en_file.exists():
-        en_file = root / "01_KICH_BAN" / f"Tap{ep_str}" / f"kichban_tap{ep_str}_EN.md"
+        en_file = root / "01_KICH_BAN" / "Ho_So_Toi_Pham" / f"Tap{ep_str}" / f"kichban_tap{ep_str}_EN.md"
     if not en_file.exists():
         print(f"Error: EN script not found: {en_file}")
         return False

@@ -10,7 +10,7 @@ bin_dir = Path(".work/ffmpeg/ffmpeg-n9.0-latest-win64-lgpl-shared-9.0/bin")
 ffmpeg_exe = str(bin_dir / "ffmpeg.exe")
 ffprobe_exe = str(bin_dir / "ffprobe.exe")
 
-video_path = r"02_SAN_XUAT\Tap06\xuat_ban\Tap06_master.mp4"
+video_path = r"02_SAN_XUAT\Ho_So_Toi_Pham\Tap06\xuat_ban\Tap06_master.mp4"
 audio_path = r".work\audio_master_t06.wav"
 
 print(f"=== KIỂM ĐỊNH THÀNH PHẨM MASTER TẬP 06 ===")
@@ -61,8 +61,8 @@ for ch in chapters:
     print(f"  - [{t_start/60:02.0f}:{t_start%60:02.0f} -> {t_end/60:02.0f}:{t_end%60:02.0f}] {title}")
 
 # 4. Check thumbnail and srt
-srt_path = r"02_SAN_XUAT\Tap06\xuat_ban\Tap06.srt"
-thumb_path = r"02_SAN_XUAT\Tap06\xuat_ban\thumbnail.png"
+srt_path = r"02_SAN_XUAT\Ho_So_Toi_Pham\Tap06\xuat_ban\Tap06.srt"
+thumb_path = r"02_SAN_XUAT\Ho_So_Toi_Pham\Tap06\xuat_ban\thumbnail.png"
 print(f"\n4. TÀI SẢN PHÁT HÀNH ĐI KÈM:")
 print(f"  - Phụ đề SRT  : {os.path.exists(srt_path)} ({os.path.getsize(srt_path):,} bytes)")
 print(f"  - Thumbnail   : {os.path.exists(thumb_path)} ({os.path.getsize(thumb_path):,} bytes)")

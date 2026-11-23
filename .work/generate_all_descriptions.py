@@ -634,7 +634,7 @@ def format_full_description(ep_id):
     credit = ep.get("voice_credit", "")
     credit_line = ("\n" + credit) if credit else ""
 
-    src_p = ROOT / "02_SAN_XUAT" / f"Tap{ep_id}" / "nguon_mo_ta.txt"
+    src_p = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ep_id}" / "nguon_mo_ta.txt"
     if src_p.exists():
         src_block = src_p.read_text(encoding="utf-8").strip()
     else:
@@ -680,7 +680,7 @@ def process_all_episodes():
         if ep_id not in EPISODE_SOURCES_DATA:
             continue
         data = EPISODE_SOURCES_DATA[ep_id]
-        ep_dir = ROOT / "02_SAN_XUAT" / f"Tap{ep_id}"
+        ep_dir = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ep_id}"
         xb_dir = ep_dir / "xuat_ban"
         ep_dir.mkdir(parents=True, exist_ok=True)
         xb_dir.mkdir(parents=True, exist_ok=True)
@@ -704,7 +704,7 @@ def process_all_episodes():
     # Đồng bộ lại cho Tap 01 -> 07 (đảm bảo cả thư mục gốc TapXX và xuat_ban đều có mo_ta.txt và nguon_mo_ta.txt)
     for i in range(1, 8):
         ep_id = f"{i:02d}"
-        ep_dir = ROOT / "02_SAN_XUAT" / f"Tap{ep_id}"
+        ep_dir = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ep_id}"
         xb_dir = ep_dir / "xuat_ban"
         xb_mo_ta = xb_dir / "mo_ta.txt"
         ep_mo_ta = ep_dir / "mo_ta.txt"

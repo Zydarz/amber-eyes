@@ -4,7 +4,7 @@ from parse_kichban import parse_file
 from pathlib import Path
 ROOT = Path(r"D:\TEST\Gax\amber-eyes")
 old_els = parse_file(ROOT/".work"/"_cu"/"kichban_tap03_22102026_truoc_V9_20261031.md")
-new_els = parse_file(ROOT/"01_KICH_BAN"/"Tap03"/"kichban_tap03_22102026.md")
+new_els = parse_file(ROOT/"01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap03"/"kichban_tap03_22102026.md")
 def byel(els):
     return {e["id"]: [s["text"] for s in e.get("sentences",[])] for e in els if e["kind"]=="LOI"}
 O, N = byel(old_els), byel(new_els)
@@ -21,7 +21,7 @@ for el in sorted(set(O)|set(N)):
             old2new[f"{el}#{a+1}"] = f"{el}#{b+1}"
 print("mapped:", len(old2new), "/", sum(len(v) for v in O.values()))
 
-plan = (ROOT/"02_SAN_XUAT"/"Tap03"/"KeHoach_Video_Tap03.md").read_text(encoding="utf-8")
+plan = (ROOT/"02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03"/"KeHoach_Video_Tap03.md").read_text(encoding="utf-8")
 m = re.search(r"^## 6\. DANH SÁCH SHOT.*$", plan, re.M)
 sec = plan[m.end():]; sec = sec[: re.search(r"^\*\*Tổng:", sec, re.M).start()]
 bad = []

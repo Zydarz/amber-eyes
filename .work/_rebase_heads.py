@@ -4,9 +4,9 @@ import subprocess
 
 REPO = r"D:/TEST/Gax/amber-eyes"
 FILES = [
-    "02_SAN_XUAT/Tap15/KeHoach_Video_Tap15.md",
-    "02_SAN_XUAT/Tap15_EN/KeHoach_Video_Tap15_EN.md",
-    "02_SAN_XUAT/Tap15_JA/KeHoach_Video_Tap15_JA.md",
+    "02_SAN_XUAT/Ho_So_Toi_Pham/Tap15/KeHoach_Video_Tap15.md",
+    "02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_EN/KeHoach_Video_Tap15_EN.md",
+    "02_SAN_XUAT/Ho_So_Toi_Pham/Tap15_JA/KeHoach_Video_Tap15_JA.md",
 ]
 
 for f in FILES:

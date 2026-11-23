@@ -15,7 +15,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 FF = WORK / "ffmpeg" / "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0" / "bin" / "ffmpeg.exe"
-MP4 = ROOT / "02_SAN_XUAT" / "Tap02_JA" / "xuat_ban" / "Tap02_JA_master.mp4"
+MP4 = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02_JA" / "xuat_ban" / "Tap02_JA_master.mp4"
 WAV = WORK / "audio_master_JA_t02.wav"
 SR = 8000
 WINDOWS = [(30.0, 60.0), (450.0, 480.0), (900.0, 930.0), (1400.0, 1430.0), (1700.0, 1730.0)]

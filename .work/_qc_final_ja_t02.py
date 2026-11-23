@@ -18,7 +18,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 os.environ["AE_LANG"] = "ja"
 os.environ["AE_EP"] = "02"
 
-OUT = ROOT / "02_SAN_XUAT" / "Tap02_JA" / "xuat_ban"
+OUT = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02_JA" / "xuat_ban"
 WAV = W / "audio_master_JA_t02.wav"
 MP4 = OUT / "Tap02_JA_master.mp4"
 MP3 = OUT / "Tap02_JA_master.mp3"

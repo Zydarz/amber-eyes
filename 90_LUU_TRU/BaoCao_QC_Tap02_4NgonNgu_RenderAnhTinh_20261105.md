@@ -10,10 +10,10 @@ Cả 4 ngôn ngữ đã có **bảng shot 161 dòng** phủ **203/203 câu**, **
 
 | Ngôn ngữ | Hồ sơ bảng shot | Dòng | Câu | Timeline | Ảnh tĩnh | Contact sheet | QC |
 |---|---|---|---|---|---|---|---|
-| **VN** | `02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md` | 161 | 203/203 | **1.519,08 s** — đo thật (Whisper) | 161 | 18 | ✅ 11/11 |
-| **EN** | `02_SAN_XUAT/Tap02_EN/KeHoach_Video_Tap02_EN.md` | 161 | 203/203 | 1.548,69 s — **tạm** | 161 | 18 | ✅ 11/11 |
-| **JA** | `02_SAN_XUAT/Tap02_JA/KeHoach_Video_Tap02_JA.md` | 161 | 203/203 | 2.049,54 s — **tạm** | 161 | 18 | ✅ 11/11 |
-| **KO** | `02_SAN_XUAT/Tap02_KO/KeHoach_Video_Tap02_KO.md` | 161 | 203/203 | 1.953,97 s — **tạm** | 161 | 18 | ✅ 11/11 |
+| **VN** | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md` | 161 | 203/203 | **1.519,08 s** — đo thật (Whisper) | 161 | 18 | ✅ 11/11 |
+| **EN** | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/KeHoach_Video_Tap02_EN.md` | 161 | 203/203 | 1.548,69 s — **tạm** | 161 | 18 | ✅ 11/11 |
+| **JA** | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/KeHoach_Video_Tap02_JA.md` | 161 | 203/203 | 2.049,54 s — **tạm** | 161 | 18 | ✅ 11/11 |
+| **KO** | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_KO/KeHoach_Video_Tap02_KO.md` | 161 | 203/203 | 1.953,97 s — **tạm** | 161 | 18 | ✅ 11/11 |
 
 Cấu trúc 161 dòng giống nhau: **144 shot có lời + 17 dòng không lời**; mã shot đánh lại tuần tự theo hồi (`1-00 … 5-36`).
 
@@ -24,7 +24,7 @@ Cấu trúc 161 dòng giống nhau: **144 shot có lời + 17 dòng không lời
 **Bảng shot của EN/JA/KO không viết tay — nó SINH TỰ ĐỘNG từ bảng VN + một "lớp phủ chữ trên hình" riêng:**
 
 ```
-02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md      ← bảng VN 161 dòng (nguồn sự thật duy nhất)
+02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md      ← bảng VN 161 dòng (nguồn sự thật duy nhất)
                     │
                     ├── .work/shots_text_tap02_EN.json  ─┐
                     ├── .work/shots_text_tap02_JA.json  ─┼─→ .work/_build_plan_tap02_{en,ja,ko}.py
@@ -42,7 +42,7 @@ Lớp phủ có dạng `{"mã shot": [chữ trên hình, [cụm beat…], overri
 ### 3.1 Kịch bản EN — 27 dấu nháy cong sai hướng (ảnh hưởng TTS + chữ trên hình)
 Markdown EN dùng ASCII `'` cho **cả** dấu nháy kép lẫn dấu nháy trong từ (`don't`, `Williams's`), parser ghép cặp sai và sinh ra `don”t` / `I“m` / `Williams“s` / `: ”`.
 
-* **Đã sửa:** `01_KICH_BAN/Tap02_EN/kichban_tap02_EN.md` + bản trùng trong `01_KICH_BAN/Tap02/kichban_tap02_EN.md` → đổi dấu nháy trong từ sang `’` (typographic). Sao lưu: `.work/_cu/kichban_tap02_EN_pre_quote_fix_20261105.md`.
+* **Đã sửa:** `01_KICH_BAN/Ho_So_Toi_Pham/Tap02_EN/kichban_tap02_EN.md` + bản trùng trong `01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_EN.md` → đổi dấu nháy trong từ sang `’` (typographic). Sao lưu: `.work/_cu/kichban_tap02_EN_pre_quote_fix_20261105.md`.
 * **Hệ quả:** 2 dòng chữ trên hình (`3-20`, `4-18`) trước đó hiện `don…t` → nay hiện trích dẫn nguyên văn `don’t`.
 * ⚠ **Quan trọng cho TTS:** cần đọc lại TTS sau khi sửa này, nếu không giọng đọc sẽ sai ("Williams s").
 
@@ -128,12 +128,12 @@ Tiếng Nhật/Hàn đọc chậm hơn tiếng Anh ~30–35% nên cùng một b�
 
 ### Hồ sơ (đã cập nhật)
 ```
-02_SAN_XUAT/Tap02/KeHoach_Video_Tap02.md        161 dòng (nguồn sự thật)
-02_SAN_XUAT/Tap02_EN/KeHoach_Video_Tap02_EN.md  161 dòng
-02_SAN_XUAT/Tap02_JA/KeHoach_Video_Tap02_JA.md  161 dòng
-02_SAN_XUAT/Tap02_KO/KeHoach_Video_Tap02_KO.md  161 dòng  (mới)
-01_KICH_BAN/Tap02_EN/kichban_tap02_EN.md        đã sửa 27 dấu nháy
-01_KICH_BAN/Tap02/kichban_tap02_EN.md           đã sửa 27 dấu nháy (bản trùng)
+02_SAN_XUAT/Ho_So_Toi_Pham/Tap02/KeHoach_Video_Tap02.md        161 dòng (nguồn sự thật)
+02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_EN/KeHoach_Video_Tap02_EN.md  161 dòng
+02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_JA/KeHoach_Video_Tap02_JA.md  161 dòng
+02_SAN_XUAT/Ho_So_Toi_Pham/Tap02_KO/KeHoach_Video_Tap02_KO.md  161 dòng  (mới)
+01_KICH_BAN/Ho_So_Toi_Pham/Tap02_EN/kichban_tap02_EN.md        đã sửa 27 dấu nháy
+01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_EN.md           đã sửa 27 dấu nháy (bản trùng)
 ```
 
 ### Ảnh tĩnh (161 ảnh / ngôn ngữ)

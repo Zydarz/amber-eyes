@@ -4,7 +4,7 @@ import sys, re
 sys.path.insert(0, ".work")
 import parse_kichban as PK
 
-parsed = PK.parse_file("01_KICH_BAN/Tap15/kichban_tap15_23102026.md")
+parsed = PK.parse_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap15/kichban_tap15_23102026.md")
 
 with open(".work/vn_sentences_dump_utf8.txt", "w", encoding="utf-8") as f:
     f.write(f"Elements: {len(parsed)}\n")

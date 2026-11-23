@@ -10,26 +10,26 @@ ROOT = Path(r"D:\TEST\Gax\amber-eyes")
 
 desc_files = {
     "VN": [
-        ROOT / "02_SAN_XUAT" / "Tap21" / "mo_ta.txt",
-        ROOT / "02_SAN_XUAT" / "Tap21" / "xuat_ban" / "mo_ta.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap21" / "mo_ta.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap21" / "xuat_ban" / "mo_ta.txt",
     ],
     "EN": [
-        ROOT / "02_SAN_XUAT" / "Tap21_EN" / "description.txt",
-        ROOT / "02_SAN_XUAT" / "Tap21_EN" / "mo_ta.txt",
-        ROOT / "02_SAN_XUAT" / "Tap21_EN" / "xuat_ban" / "description.txt",
-        ROOT / "02_SAN_XUAT" / "Tap21_EN" / "xuat_ban" / "mo_ta.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap21_EN" / "description.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap21_EN" / "mo_ta.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap21_EN" / "xuat_ban" / "description.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap21_EN" / "xuat_ban" / "mo_ta.txt",
     ],
     "JA": [
-        ROOT / "02_SAN_XUAT" / "Tap21_JA" / "description.txt",
-        ROOT / "02_SAN_XUAT" / "Tap21_JA" / "mo_ta.txt",
-        ROOT / "02_SAN_XUAT" / "Tap21_JA" / "xuat_ban" / "description.txt",
-        ROOT / "02_SAN_XUAT" / "Tap21_JA" / "xuat_ban" / "mo_ta.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap21_JA" / "description.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap21_JA" / "mo_ta.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap21_JA" / "xuat_ban" / "description.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap21_JA" / "xuat_ban" / "mo_ta.txt",
     ],
     "KO": [
-        ROOT / "02_SAN_XUAT" / "Tap21_KO" / "description.txt",
-        ROOT / "02_SAN_XUAT" / "Tap21_KO" / "mo_ta.txt",
-        ROOT / "02_SAN_XUAT" / "Tap21_KO" / "xuat_ban" / "description.txt",
-        ROOT / "02_SAN_XUAT" / "Tap21_KO" / "xuat_ban" / "mo_ta.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap21_KO" / "description.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap21_KO" / "mo_ta.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap21_KO" / "xuat_ban" / "description.txt",
+        ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap21_KO" / "xuat_ban" / "mo_ta.txt",
     ],
 }
 

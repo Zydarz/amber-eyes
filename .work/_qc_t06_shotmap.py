@@ -19,7 +19,7 @@ except Exception:
 
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
-PLAN = ROOT / "02_SAN_XUAT" / "Tap06" / "KeHoach_Video_Tap06.md"
+PLAN = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap06" / "KeHoach_Video_Tap06.md"
 
 script = json.loads((WORK / "script_tap06.json").read_text(encoding="utf-8-sig"))
 

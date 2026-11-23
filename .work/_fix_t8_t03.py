@@ -5,7 +5,7 @@ Moi muc phai la 1 cum tu (va dung tu khi cau do doc)."""
 import sys
 from pathlib import Path
 
-PLAN = Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Tap03\KeHoach_Video_Tap03.md")
+PLAN = Path(r"D:\TEST\Gax\amber-eyes\02_SAN_XUAT\Ho_So_Toi_Pham\Tap03\KeHoach_Video_Tap03.md")
 text = PLAN.read_text(encoding="utf-8-sig")
 
 FIXES = [

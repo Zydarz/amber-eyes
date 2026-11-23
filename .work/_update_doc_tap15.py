@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / ".work"
 jobs = json.load(open(WORK / "bg_jobs_tap15.json", encoding="utf-8"))
-doc_path = ROOT / "02_SAN_XUAT" / "Tap15" / "Danh_Sach_Anh_Tap15.md"
+doc_path = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap15" / "Danh_Sach_Anh_Tap15.md"
 
 lines = [
     "# DANH SÁCH ẢNH NỀN — TẬP 15 'CƠN CUỒNG GHEN RỐI LOẠN NHÂN CÁCH RANH GIỚI'",

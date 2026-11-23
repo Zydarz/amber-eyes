@@ -7,7 +7,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, ".work")
 from parse_kichban import parse_file
 
-els = parse_file("01_KICH_BAN/Tap05_JA/kichban_tap05_JA.md")
+els = parse_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap05_JA/kichban_tap05_JA.md")
 idx = {e["id"]: {s["id"]: s["text"] for s in e.get("sentences", [])}
        for e in els if e["kind"] == "LOI"}
 sk = json.loads(Path(".work/_t05_skeleton.json").read_text(encoding="utf-8"))

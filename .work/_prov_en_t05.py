@@ -17,7 +17,7 @@ have = {d.get("file") for d in data}
 
 rows = [
     {
-        "file": "02_SAN_XUAT/Tap05_EN/xuat_ban/Tap05_EN_master.mp3",
+        "file": "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_EN/xuat_ban/Tap05_EN_master.mp3",
         "loai": "audio master bản tiếng Anh Tập 05 (1272,51 s, 192 kbps)",
         "cong_cu": "Boson AI Higgs Audio v3 (MLX, Mac mini M2) — .work/generate_higgs_prod_t05en.py; "
                    "trộn + loudnorm I=-16 LUFS (2 lượt, linear) + encode libmp3lame 192k",
@@ -32,7 +32,7 @@ rows = [
                    "là bản cũ 1449,24 s — KHÔNG dùng để ghép).",
     },
     {
-        "file": "02_SAN_XUAT/Tap05_EN/xuat_ban/Tap05_EN_master.mp4",
+        "file": "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_EN/xuat_ban/Tap05_EN_master.mp4",
         "loai": "video xuất bản bản tiếng Anh Tập 05 (1920x1080@30, H.264 + AAC 192k)",
         "cong_cu": ".work/_build_video3_split.py (4 chunk theo frame, 6 worker, pipe 4 MB, "
                    "AE_FAST_FINISH) → .work/_mux_en_t05.py (concat 1 lần + limiter EN "
@@ -46,7 +46,7 @@ rows = [
                    "khớp A/V ≤20 ms so với master mp3",
     },
     {
-        "file": "02_SAN_XUAT/Tap05_EN/xuat_ban/Tap05_EN.srt",
+        "file": "02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_EN/xuat_ban/Tap05_EN.srt",
         "loai": "phụ đề bản tiếng Anh Tập 05 (356 cue)",
         "cong_cu": ".work/subtitles.py — tách từ timeline_s_EN_t05.json, nhãn vai tiếng Anh",
         "ngay": "2026-11-03",

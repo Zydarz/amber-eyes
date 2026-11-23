@@ -4,10 +4,10 @@ sys.path.insert(0, '.work')
 import parse_kichban as PK
 
 files = [
-    ('VN', '01_KICH_BAN/Tap23/kichban_tap23_23102026.md'),
-    ('EN', '01_KICH_BAN/Tap23_EN/kichban_tap23_EN.md'),
-    ('JA', '01_KICH_BAN/Tap23_JA/kichban_tap23_JA.md'),
-    ('KO', '01_KICH_BAN/Tap23_KO/kichban_tap23_KO.md'),
+    ('VN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap23/kichban_tap23_23102026.md'),
+    ('EN', '01_KICH_BAN/Ho_So_Toi_Pham/Tap23_EN/kichban_tap23_EN.md'),
+    ('JA', '01_KICH_BAN/Ho_So_Toi_Pham/Tap23_JA/kichban_tap23_JA.md'),
+    ('KO', '01_KICH_BAN/Ho_So_Toi_Pham/Tap23_KO/kichban_tap23_KO.md'),
 ]
 
 parsed = {}

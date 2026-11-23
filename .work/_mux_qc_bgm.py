@@ -22,13 +22,13 @@ PY = sys.executable
 JOBS = [
     ("T02 VN", {"AE_EP": "02"}, WORK / "audio_master_t02.wav",
      WORK / "video3_t02" / "picture.mp4",
-     ROOT / "02_SAN_XUAT" / "Tap02" / "xuat_ban" / "Tap02_master.mp4"),
+     ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02" / "xuat_ban" / "Tap02_master.mp4"),
     ("T07 VN", {"AE_EP": "07"}, WORK / "audio_master_t07.wav",
      WORK / "video3_t07" / "picture.mp4",
-     ROOT / "02_SAN_XUAT" / "Tap07" / "xuat_ban" / "Tap07_master.mp4"),
+     ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07" / "xuat_ban" / "Tap07_master.mp4"),
     ("T02 EN", {"AE_EP": "02", "AE_LANG": "en"}, WORK / "audio_master_EN_t02.wav",
      WORK / "video3_EN_t02" / "picture.mp4",
-     ROOT / "02_SAN_XUAT" / "Tap02_EN" / "xuat_ban" / "Tap02_EN_master.mp4"),
+     ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02_EN" / "xuat_ban" / "Tap02_EN_master.mp4"),
 ]
 
 

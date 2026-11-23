@@ -4,7 +4,7 @@
 
 Each test sentence is read in variants; we measure the F0 range (semitones, 5–95 %),
 speech rate and check with ASR that no tag is read aloud.
-Output: 02_SAN_XUAT/Tap01_EN/thu_giong/bieu_cam/report.md + so_sanh_bieu_cam.mp3
+Output: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap01_EN/thu_giong/bieu_cam/report.md + so_sanh_bieu_cam.mp3
 """
 import json
 import subprocess

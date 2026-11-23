@@ -584,7 +584,7 @@ Within minutes, digital forensics specialist Randy Stone recovered a deleted Wor
         plan_lines.append("# KẾ HOẠCH CLIP TIKTOK — TẬP 05 · \"CHIẾC ĐĨA MỀM MÀU TÍM & CƠN NGHIỆN ÁI KỶ\"\n\n")
         plan_lines.append("*Ngày: 20/11/2026 · Trạng thái: **kịch bản đã hoàn thành, sẵn sàng duyệt trước khi đọc giọng** (L4)*\n")
         plan_lines.append("*Kế hoạch cha: `02_SAN_XUAT/TIKTOK/KE_HOACH_TIKTOK.md` · Đặc tả audio máy đọc được: `02_SAN_XUAT/TIKTOK/Tap05/SPEC_AUDIO_CLIP_TAP05.json`*\n")
-        plan_lines.append("*Nguồn dữ liệu chuẩn: `02_SAN_XUAT/Tap05/KeHoach_Video_Tap05.md` · `.work/timeline_s_t05.json` (209 câu) · `02_SAN_XUAT/Tap05/nguon_tham_khao.md`*\n\n---\n\n## 0. Tóm tắt chốt\n\n")
+        plan_lines.append("*Nguồn dữ liệu chuẩn: `02_SAN_XUAT/Ho_So_Toi_Pham/Tap05/KeHoach_Video_Tap05.md` · `.work/timeline_s_t05.json` (209 câu) · `02_SAN_XUAT/Ho_So_Toi_Pham/Tap05/nguon_tham_khao.md`*\n\n---\n\n## 0. Tóm tắt chốt\n\n")
         plan_lines.append("| Hạng mục | Giá trị |\n|---|---|\n")
         plan_lines.append("| Số clip | **5 clip** (TK1–TK4 trọng tâm + TK5 đúc kết bài học sinh tồn) |\n")
         plan_lines.append(f"| Tổng câu thoại | **{sum(s['lines_count'] for s in summary_list)} câu** đọc giọng |\n")

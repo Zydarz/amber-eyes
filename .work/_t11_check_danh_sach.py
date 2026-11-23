@@ -7,7 +7,7 @@ import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-DOC = ROOT / "02_SAN_XUAT" / "Tap11" / "Danh_Sach_Anh_Tap11.md"
+DOC = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap11" / "Danh_Sach_Anh_Tap11.md"
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 text = DOC.read_text(encoding="utf-8")

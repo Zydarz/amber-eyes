@@ -1,7 +1,7 @@
 ﻿import re, json
 from pathlib import Path
 ROOT = Path(r"D:\TEST\Gax\amber-eyes")
-plan = (ROOT/"02_SAN_XUAT"/"Tap03"/"KeHoach_Video_Tap03.md").read_text(encoding="utf-8-sig")
+plan = (ROOT/"02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap03"/"KeHoach_Video_Tap03.md").read_text(encoding="utf-8-sig")
 for l in plan.splitlines():
     if re.match(r"\|\s*(4-01|4-15|5-01|1-01)\s", l): print(l)
 print()

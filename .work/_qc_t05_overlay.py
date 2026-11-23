@@ -17,9 +17,9 @@ sys.path.insert(0, str(W))
 from parse_kichban import parse_file  # noqa: E402
 
 CFG = {
-    "vi": ("01_KICH_BAN/Tap05/kichban_tap05_23102026.md", "_t05_chu_vi.json", False),
-    "en": ("01_KICH_BAN/Tap05_EN/kichban_tap05_EN.md", "_t05_chu_en.json", True),
-    "ja": ("01_KICH_BAN/Tap05_JA/kichban_tap05_JA.md", "_t05_chu_ja.json", True),
+    "vi": ("01_KICH_BAN/Ho_So_Toi_Pham/Tap05/kichban_tap05_23102026.md", "_t05_chu_vi.json", False),
+    "en": ("01_KICH_BAN/Ho_So_Toi_Pham/Tap05_EN/kichban_tap05_EN.md", "_t05_chu_en.json", True),
+    "ja": ("01_KICH_BAN/Ho_So_Toi_Pham/Tap05_JA/kichban_tap05_JA.md", "_t05_chu_ja.json", True),
 }
 lang = (sys.argv[1] if len(sys.argv) > 1 else "vi").lower()
 kb_rel, ov_rel, EN = CFG[lang]

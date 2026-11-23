@@ -9,7 +9,7 @@ for s in multi[:3]:
 
 print()
 print("=== dòng bảng shot Tập 07 (mục 6 trong kế hoạch) có nhiều câu ===")
-plan = (ROOT/"02_SAN_XUAT/Tap07/KeHoach_Video_Tap07.md").read_text(encoding="utf-8")
+plan = (ROOT/"02_SAN_XUAT/Ho_So_Toi_Pham/Tap07/KeHoach_Video_Tap07.md").read_text(encoding="utf-8")
 m = re.search(r"^## 6\. DANH SÁCH SHOT.*$", plan, re.M)
 sec = plan[m.end():]
 for line in sec.splitlines():

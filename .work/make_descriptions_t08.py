@@ -249,7 +249,7 @@ Toàn bộ sự kiện, ngày tháng và trích dẫn trong video đã được 
 
 {SOURCES_VI}
 
-Danh mục nguồn chi tiết kèm biên bản đối chiếu dữ kiện lịch sử được lưu trữ tại: 02_SAN_XUAT/Tap08/nguon_tham_khao.md
+Danh mục nguồn chi tiết kèm biên bản đối chiếu dữ kiện lịch sử được lưu trữ tại: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap08/nguon_tham_khao.md
 
 🆘 Nếu bạn biết một trẻ em đang bị bạo hành hoặc gia đình cần trợ giúp tâm lý, hãy liên hệ:
 • Tổng đài quốc gia bảo vệ trẻ em: 111 (Việt Nam, miễn phí, 24/7)
@@ -305,7 +305,7 @@ All case chronologies, data points, and quotations cross-referenced against 19 p
 
 {SOURCES_EN}
 
-Comprehensive source documentation and verification logs archived at: 02_SAN_XUAT/Tap08_EN/nguon_tham_khao_EN.md
+Comprehensive source documentation and verification logs archived at: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap08_EN/nguon_tham_khao_EN.md
 
 🆘 If you or someone you care about is facing an emotional crisis or coercive group manipulation:
 • TELL Lifeline (Japan, English/Japanese, Free & Confidential): 03-5774-0992 — https://telljp.com
@@ -359,7 +359,7 @@ This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higg
 
 {SOURCES_JA}
 
-詳細な出典および歴史的事実の対照記録は以下に保管されています：02_SAN_XUAT/Tap08_JA/nguon_tham_khao_JA.md
+詳細な出典および歴史的事実の対照記録は以下に保管されています：02_SAN_XUAT/Ho_So_Toi_Pham/Tap08_JA/nguon_tham_khao_JA.md
 
 🆘 心の健康相談および危機対応窓口（日本国内）:
 • こころの健康相談統一ダイヤル: 0570-064-556
@@ -413,7 +413,7 @@ This audio was created with Boson AI's Higgs Audio — https://www.boson.ai/higg
 
 {SOURCES_KO}
 
-상세한 출처 및 사실관계 대조 기록은 다음 위치에 보관되어 있습니다: 02_SAN_XUAT/Tap08_KO/nguon_tham_khao_KO.md
+상세한 출처 및 사실관계 대조 기록은 다음 위치에 보관되어 있습니다: 02_SAN_XUAT/Ho_So_Toi_Pham/Tap08_KO/nguon_tham_khao_KO.md
 
 🆘 위기상담 및 심리 지원 안내 (한국 및 국제):
 • 자살예방 상담전화: 109 (24시간 운영)
@@ -438,41 +438,41 @@ def main():
 
     # 1. TIẾNG VIỆT
     print("\n[1/4] Ghi file Tiếng Việt (Tap08)...")
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08" / "mo_ta.txt", DESC_VI)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08" / "xuat_ban" / "mo_ta.txt", DESC_VI)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08" / "nguon_mo_ta.txt", SOURCES_VI)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08" / "nguon_tham_khao.md", f"# NGUỒN THAM KHẢO & ĐỐI CHIẾU DỮ KIỆN — TẬP 08\n\n{SOURCES_VI}")
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08" / "xuat_ban" / "nguon_tham_khao.md", f"# NGUỒN THAM KHẢO & ĐỐI CHIẾU DỮ KIỆN — TẬP 08\n\n{SOURCES_VI}")
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08" / "mo_ta.txt", DESC_VI)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08" / "xuat_ban" / "mo_ta.txt", DESC_VI)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08" / "nguon_mo_ta.txt", SOURCES_VI)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08" / "nguon_tham_khao.md", f"# NGUỒN THAM KHẢO & ĐỐI CHIẾU DỮ KIỆN — TẬP 08\n\n{SOURCES_VI}")
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08" / "xuat_ban" / "nguon_tham_khao.md", f"# NGUỒN THAM KHẢO & ĐỐI CHIẾU DỮ KIỆN — TẬP 08\n\n{SOURCES_VI}")
 
     # 2. TIẾNG ANH
     print("\n[2/4] Ghi file Tiếng Anh (Tap08_EN)...")
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_EN" / "description.txt", DESC_EN)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_EN" / "mo_ta.txt", DESC_EN)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_EN" / "xuat_ban" / "description.txt", DESC_EN)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_EN" / "xuat_ban" / "mo_ta.txt", DESC_EN)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_EN" / "nguon_mo_ta_EN.txt", SOURCES_EN)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_EN" / "nguon_tham_khao_EN.md", f"# VERIFIED CASE SOURCES & LEGAL DOCKETS — EPISODE 08\n\n{SOURCES_EN}")
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_EN" / "xuat_ban" / "nguon_tham_khao_EN.md", f"# VERIFIED CASE SOURCES & LEGAL DOCKETS — EPISODE 08\n\n{SOURCES_EN}")
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_EN" / "description.txt", DESC_EN)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_EN" / "mo_ta.txt", DESC_EN)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_EN" / "xuat_ban" / "description.txt", DESC_EN)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_EN" / "xuat_ban" / "mo_ta.txt", DESC_EN)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_EN" / "nguon_mo_ta_EN.txt", SOURCES_EN)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_EN" / "nguon_tham_khao_EN.md", f"# VERIFIED CASE SOURCES & LEGAL DOCKETS — EPISODE 08\n\n{SOURCES_EN}")
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_EN" / "xuat_ban" / "nguon_tham_khao_EN.md", f"# VERIFIED CASE SOURCES & LEGAL DOCKETS — EPISODE 08\n\n{SOURCES_EN}")
 
     # 3. TIẾNG NHẬT
     print("\n[3/4] Ghi file Tiếng Nhật (Tap08_JA)...")
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_JA" / "description.txt", DESC_JA)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_JA" / "mo_ta.txt", DESC_JA)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_JA" / "xuat_ban" / "description.txt", DESC_JA)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_JA" / "xuat_ban" / "mo_ta.txt", DESC_JA)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_JA" / "nguon_mo_ta_JA.txt", SOURCES_JA)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_JA" / "nguon_tham_khao_JA.md", f"# 参照・照合済み公的資料リスト — 第08話\n\n{SOURCES_JA}")
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_JA" / "xuat_ban" / "nguon_tham_khao_JA.md", f"# 参照・照合済み公的資料リスト — 第08話\n\n{SOURCES_JA}")
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_JA" / "description.txt", DESC_JA)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_JA" / "mo_ta.txt", DESC_JA)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_JA" / "xuat_ban" / "description.txt", DESC_JA)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_JA" / "xuat_ban" / "mo_ta.txt", DESC_JA)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_JA" / "nguon_mo_ta_JA.txt", SOURCES_JA)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_JA" / "nguon_tham_khao_JA.md", f"# 参照・照合済み公的資料リスト — 第08話\n\n{SOURCES_JA}")
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_JA" / "xuat_ban" / "nguon_tham_khao_JA.md", f"# 参照・照合済み公的資料リスト — 第08話\n\n{SOURCES_JA}")
 
     # 4. TIẾNG HÀN
     print("\n[4/4] Ghi file Tiếng Hàn (Tap08_KO)...")
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_KO" / "description.txt", DESC_KO)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_KO" / "mo_ta.txt", DESC_KO)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_KO" / "xuat_ban" / "description.txt", DESC_KO)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_KO" / "xuat_ban" / "mo_ta.txt", DESC_KO)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_KO" / "nguon_mo_ta_KO.txt", SOURCES_KO)
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_KO" / "nguon_tham_khao_KO.md", f"# 공식 참고문헌 및 사법 기록 목록 — 제08화\n\n{SOURCES_KO}")
-    write_file_safe(ROOT / "02_SAN_XUAT" / "Tap08_KO" / "xuat_ban" / "nguon_tham_khao_KO.md", f"# 공식 참고문헌 및 사법 기록 목록 — 제08화\n\n{SOURCES_KO}")
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_KO" / "description.txt", DESC_KO)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_KO" / "mo_ta.txt", DESC_KO)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_KO" / "xuat_ban" / "description.txt", DESC_KO)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_KO" / "xuat_ban" / "mo_ta.txt", DESC_KO)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_KO" / "nguon_mo_ta_KO.txt", SOURCES_KO)
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_KO" / "nguon_tham_khao_KO.md", f"# 공식 참고문헌 및 사법 기록 목록 — 제08화\n\n{SOURCES_KO}")
+    write_file_safe(ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap08_KO" / "xuat_ban" / "nguon_tham_khao_KO.md", f"# 공식 참고문헌 및 사법 기록 목록 — 제08화\n\n{SOURCES_KO}")
 
     print("\nĐã tạo thành công toàn bộ mô tả và nguồn tham khảo cho Tập 08 trên 4 ngôn ngữ!")
 

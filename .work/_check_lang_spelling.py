@@ -5,9 +5,9 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(r"d:\TEST\Gax\amber-eyes")
 
-en_text = (ROOT / "01_KICH_BAN" / "Tap07_EN" / "kichban_tap07_EN.md").read_text(encoding="utf-8")
-ja_text = (ROOT / "01_KICH_BAN" / "Tap07_JA" / "kichban_tap07_JA.md").read_text(encoding="utf-8")
-ko_text = (ROOT / "01_KICH_BAN" / "Tap07_KO" / "kichban_tap07_KO.md").read_text(encoding="utf-8")
+en_text = (ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap07_EN" / "kichban_tap07_EN.md").read_text(encoding="utf-8")
+ja_text = (ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap07_JA" / "kichban_tap07_JA.md").read_text(encoding="utf-8")
+ko_text = (ROOT / "01_KICH_BAN" / "Ho_So_Toi_Pham" / "Tap07_KO" / "kichban_tap07_KO.md").read_text(encoding="utf-8")
 
 print("=== CHECKING EN SCRIPT ===")
 # Common English typos

@@ -12,7 +12,7 @@
 | Engine TTS | **Higgs Audio v3** (`bosonai/higgs-audio-v3-tts-4b`) trên Apple Silicon MLX |
 | Bộ giọng mẫu | **VoxCPM2 Voice Design** (H: `H.wav`, D: `D_NEW_subbass-husky_t02.wav`, C: `C_NEW_alto-brisk_t03.wav`, N1: `W6_LOW.wav`, N2: `W5_HIGH.wav`) |
 | Âm thanh | Stereo 3 lớp: BGM 5 Hồi + Ambience liên tục + SFX tiếng động (`.work/sfx_tap15.json`) |
-| Thành phẩm Master | `02_SAN_XUAT/Tap15/xuat_ban/Tap15_master.mp3` & `02_SAN_XUAT/Tap15/xuat_ban/Tap15_master.wav` |
+| Thành phẩm Master | `02_SAN_XUAT/Ho_So_Toi_Pham/Tap15/xuat_ban/Tap15_master.mp3` & `02_SAN_XUAT/Ho_So_Toi_Pham/Tap15/xuat_ban/Tap15_master.wav` |
 
 ---
 
@@ -41,18 +41,18 @@
 - **CER Trung vị:** **11.59%** (CER trung bình: **11.58%**).
 - **Multi-take Vòng 2:** Đã tự động sinh Variant 1 với seed mới cho toàn bộ các câu có CER > 2% và chọn take tối ưu.
 - **Điểm tự nhiên UTMOSv2 MOS:** Trung bình **2.59 / 5.0** (Dải điểm: 1.48 – 3.39). Đạt chuẩn (>= 3.0 / 5.0).
-- **Báo cáo câu cần nghe kiểm tra:** [`02_SAN_XUAT/Tap15/xuat_ban/CanNghe_Tap15_higgs.md`](xuat_ban/CanNghe_Tap15_higgs.md).
+- **Báo cáo câu cần nghe kiểm tra:** [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap15/xuat_ban/CanNghe_Tap15_higgs.md`](xuat_ban/CanNghe_Tap15_higgs.md).
 
 ---
 
 ## B3. Danh mục Tệp Thành phẩm
 
 1. **Master Audio:**
-   - MP3: [`02_SAN_XUAT/Tap15/xuat_ban/Tap15_master.mp3`](xuat_ban/Tap15_master.mp3)
-   - WAV: [`02_SAN_XUAT/Tap15/xuat_ban/Tap15_master.wav`](xuat_ban/Tap15_master.wav)
+   - MP3: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap15/xuat_ban/Tap15_master.mp3`](xuat_ban/Tap15_master.mp3)
+   - WAV: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap15/xuat_ban/Tap15_master.wav`](xuat_ban/Tap15_master.wav)
 2. **Dữ liệu Timeline & Phụ đề:**
    - Timeline: [`.work/timeline_s_t15.json`](../../.work/timeline_s_t15.json) (1859.9 s)
-   - Phụ đề SRT: [`02_SAN_XUAT/Tap15/xuat_ban/Tap15.srt`](xuat_ban/Tap15.srt) (220 cues)
+   - Phụ đề SRT: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap15/xuat_ban/Tap15.srt`](xuat_ban/Tap15.srt) (220 cues)
 3. **Báo cáo Giám sát:**
    - Chi tiết QC: [`.work/quality_qc_utmos_ep15_vi.json`](../../.work/quality_qc_utmos_ep15_vi.json)
-   - Bảng câu nghe duyệt: [`02_SAN_XUAT/Tap15/xuat_ban/CanNghe_Tap15_higgs.md`](xuat_ban/CanNghe_Tap15_higgs.md)
+   - Bảng câu nghe duyệt: [`02_SAN_XUAT/Ho_So_Toi_Pham/Tap15/xuat_ban/CanNghe_Tap15_higgs.md`](xuat_ban/CanNghe_Tap15_higgs.md)

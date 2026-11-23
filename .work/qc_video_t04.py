@@ -123,7 +123,7 @@ def main():
     sys.path.insert(0, str(WORK))
     import edition as ED
 
-    out = ROOT / "02_SAN_XUAT" / f"Tap{ep}" / "xuat_ban"
+    out = ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / f"Tap{ep}" / "xuat_ban"
     master = out / f"Tap{ep}_master.mp3"
     final = out / f"Tap{ep}_master.mp4"
     picture = ED.w("video3") / "picture.mp4"

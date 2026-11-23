@@ -28,9 +28,9 @@ if r.returncode != 0:
     print("!! " + (r.stderr or "")[-1200:])
 
 FINALS = [
-    ("T02 VN", ROOT / "02_SAN_XUAT" / "Tap02" / "xuat_ban" / "Tap02_master.mp4"),
-    ("T07 VN", ROOT / "02_SAN_XUAT" / "Tap07" / "xuat_ban" / "Tap07_master.mp4"),
-    ("T02 EN", ROOT / "02_SAN_XUAT" / "Tap02_EN" / "xuat_ban" / "Tap02_EN_master.mp4"),
+    ("T02 VN", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02" / "xuat_ban" / "Tap02_master.mp4"),
+    ("T07 VN", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07" / "xuat_ban" / "Tap07_master.mp4"),
+    ("T02 EN", ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap02_EN" / "xuat_ban" / "Tap02_EN_master.mp4"),
 ]
 
 
@@ -79,5 +79,5 @@ for label, f in FINALS:
     print(f"  loi giai ma : {len(errs)}  {errs[:2] if errs else '(0 loi)'}")
 
 print("\n--- mo ta Tap07 (da tao lai?) ---")
-for f in sorted((ROOT / "02_SAN_XUAT" / "Tap07" / "xuat_ban").iterdir()):
+for f in sorted((ROOT / "02_SAN_XUAT" / "Ho_So_Toi_Pham" / "Tap07" / "xuat_ban").iterdir()):
     print(f"  {f.name:<26} {f.stat().st_size:>10}  {time.strftime('%H:%M:%S', time.localtime(f.stat().st_mtime))}")

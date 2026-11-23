@@ -166,7 +166,7 @@ print("5) ĐỐI CHIẾU BẢNG NHẠC NỀN THEO TẬP TRONG TÀI LIỆU CHUẨ
 print("=" * 78)
 doc = ROOT / "02_SAN_XUAT" / "Danh_Sach_SFX_Tap03-29.md"
 lines = doc.read_text(encoding="utf-8").splitlines()
-ep_from = re.compile(r"01_KICH_BAN/Tap(\d\d)/")
+ep_from = re.compile(r"01_KICH_BAN/Ho_So_Toi_Pham/Tap(\d\d)/")
 doc_beds = {}
 cur = None
 for i, ln in enumerate(lines):

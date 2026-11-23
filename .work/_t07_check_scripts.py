@@ -12,9 +12,9 @@ sys.path.insert(0, str(W))
 from parse_kichban import parse_file  # noqa: E402
 
 KB = {
-    "vi": ("01_KICH_BAN/Tap07/kichban_tap07_23102026.md", "script_tap07.json"),
-    "en": ("01_KICH_BAN/Tap07_EN/kichban_tap07_EN.md", "script_tap07_EN.json"),
-    "ja": ("01_KICH_BAN/Tap07_JA/kichban_tap07_JA.md", "script_tap07_JA.json"),
+    "vi": ("01_KICH_BAN/Ho_So_Toi_Pham/Tap07/kichban_tap07_23102026.md", "script_tap07.json"),
+    "en": ("01_KICH_BAN/Ho_So_Toi_Pham/Tap07_EN/kichban_tap07_EN.md", "script_tap07_EN.json"),
+    "ja": ("01_KICH_BAN/Ho_So_Toi_Pham/Tap07_JA/kichban_tap07_JA.md", "script_tap07_JA.json"),
 }
 for lang, (kb, js) in KB.items():
     els = parse_file(str(ROOT / kb))

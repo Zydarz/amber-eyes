@@ -7,10 +7,10 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, ".work")
 import parse_kichban as PK
 
-p_vn = PK.parse_file("01_KICH_BAN/Tap14/kichban_tap14_23102026.md")
-p_en = PK.parse_file("01_KICH_BAN/Tap14_EN/kichban_tap14_EN.md")
-p_ja = PK.parse_file("01_KICH_BAN/Tap14_JA/kichban_tap14_JA.md")
-p_ko = PK.parse_file("01_KICH_BAN/Tap14_KO/kichban_tap14_KO.md")
+p_vn = PK.parse_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap14/kichban_tap14_23102026.md")
+p_en = PK.parse_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap14_EN/kichban_tap14_EN.md")
+p_ja = PK.parse_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap14_JA/kichban_tap14_JA.md")
+p_ko = PK.parse_file("01_KICH_BAN/Ho_So_Toi_Pham/Tap14_KO/kichban_tap14_KO.md")
 
 print("=== KIỂM TRA CHÍNH TẢ & QUY CHUẨN KỊCH BẢN TẬP 14 ===")
 

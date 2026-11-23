@@ -6,10 +6,10 @@ from parse_kichban import parse_file
 
 BASE = r'D:/TEST/Gax/amber-eyes'
 FILES = {
-    'VN': BASE + r'/01_KICH_BAN/Tap02/kichban_tap02_22102026.md',
-    'EN': BASE + r'/01_KICH_BAN/Tap02_EN/kichban_tap02_EN.md',
-    'JA': BASE + r'/01_KICH_BAN/Tap02_JA/kichban_tap02_JA.md',
-    'KO': BASE + r'/01_KICH_BAN/Tap02_KO/kichban_tap02_KO.md',
+    'VN': BASE + r'/01_KICH_BAN/Ho_So_Toi_Pham/Tap02/kichban_tap02_22102026.md',
+    'EN': BASE + r'/01_KICH_BAN/Ho_So_Toi_Pham/Tap02_EN/kichban_tap02_EN.md',
+    'JA': BASE + r'/01_KICH_BAN/Ho_So_Toi_Pham/Tap02_JA/kichban_tap02_JA.md',
+    'KO': BASE + r'/01_KICH_BAN/Ho_So_Toi_Pham/Tap02_KO/kichban_tap02_KO.md',
 }
 
 data = {}

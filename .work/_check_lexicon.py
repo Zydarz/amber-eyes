@@ -2,7 +2,7 @@ import sys, re
 
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
-with open('01_KICH_BAN/Tap10/kichban_tap10_23102026.md', 'r', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap10/kichban_tap10_23102026.md', 'r', encoding='utf-8') as f:
     text = f.read()
 
 words = re.findall(r'[A-Za-zÀ-ỹ]+', text)

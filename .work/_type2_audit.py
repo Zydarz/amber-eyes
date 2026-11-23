@@ -6,7 +6,7 @@ SRC = {'01': 'Tap01/kichban_tap01_22102026_v2.md',
 for n in range(4, 30):
     SRC['%02d' % n] = 'Tap%02d/kichban_tap%02d_23102026.md' % (n, n)
 
-EN = {k: '01_KICH_BAN/Tap%s_EN/kichban_tap%s_EN.md' % (k, k) for k in SRC}
+EN = {k: '01_KICH_BAN/Ho_So_Toi_Pham/Tap%s_EN/kichban_tap%s_EN.md' % (k, k) for k in SRC}
 
 VIET_DIAC = set('ạảấầẩẫậắằẳẵặẹẻẽếềểễệỉịọỏốồổỗộớờởỡợụủứừửữựỳỵỷỹđĐăăâêôơưĂÂÊÔƠƯ')
 EN_LEX = set(('the a an and or but if i you he she they we my your his her their our to of in on at for with '
@@ -39,7 +39,7 @@ def norm(s):
 
 
 for tap in sorted(SRC):
-    kp = '01_KICH_BAN/Tap%s_KO/kichban_tap%s_KO.md' % (tap, tap)
+    kp = '01_KICH_BAN/Ho_So_Toi_Pham/Tap%s_KO/kichban_tap%s_KO.md' % (tap, tap)
     ep = EN[tap]
     if not os.path.exists(kp) or not os.path.exists(ep):
         continue

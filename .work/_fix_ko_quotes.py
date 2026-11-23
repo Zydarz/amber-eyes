@@ -1,7 +1,7 @@
 import io, sys
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-with open('01_KICH_BAN/Tap07_KO/kichban_tap07_KO.md', 'r', encoding='utf-8') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap07_KO/kichban_tap07_KO.md', 'r', encoding='utf-8') as f:
     ko = f.read()
 
 # Add quote to 객체화 at 3.03
@@ -22,7 +22,7 @@ if len(parts) > 2:
     # keep only the first one
     ko = parts[0] + '‘Conrad 법’' + 'Conrad 법'.join(parts[1:])
 
-with open('01_KICH_BAN/Tap07_KO/kichban_tap07_KO.md', 'w', encoding='utf-8', newline='') as f:
+with open('01_KICH_BAN/Ho_So_Toi_Pham/Tap07_KO/kichban_tap07_KO.md', 'w', encoding='utf-8', newline='') as f:
     f.write(ko)
 
 print("Quotes fixed in KO")

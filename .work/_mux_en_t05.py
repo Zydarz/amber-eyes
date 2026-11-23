@@ -6,7 +6,7 @@ QUAN TRONG (A11 #114 + T17):
   - KHONG dung `package.py --mux` cho tap nay: no lay `audio_master_EN_t05.wav`
     (1449,24 s — WAV STALE cua ban MiniMax 25/10), trong khi mp3 master moi
     (Higgs 03/11) chi 1272,51 s. Mux sai wav => lech 177 s.
-  - Lay truc tiep `02_SAN_XUAT/Tap05_EN/xuat_ban/Tap05_EN_master.mp3`.
+  - Lay truc tiep `02_SAN_XUAT/Ho_So_Toi_Pham/Tap05_EN/xuat_ban/Tap05_EN_master.mp3`.
   - Chuoi limiter lay tu edition.py EPISODES["05"]["mux_af"] (EN: 0,63 + latency=1).
 
 Chay: py -3 .work/_mux_en_t05.py
